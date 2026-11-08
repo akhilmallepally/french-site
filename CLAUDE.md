@@ -19,6 +19,7 @@
 - Use <LessonLink text="..."> when the lesson title wouldn't read naturally inside the sentence.
 - One vocab entry per concept. Don't create two entries for the same meaning (for example, alternate word orders of the same question go in one entry).
 - Vary the tip callouts across lessons. Don't repeat an idea an earlier lesson already used.
+- In pronunciation respellings, the non-nasal "on" is respelled "onn" (bonn).
 - Anything uncertain goes into docs/review-needed.md.
 - When a lesson is used as the format reference for other tools, use content/lessons/a1/etre-present.mdx (a1-etre-present) as the model. The first lessons predate vocab and exercises.
 

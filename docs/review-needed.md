@@ -74,7 +74,6 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 ## a1-adjective-agreement
 
 - **"A group that includes even one masculine noun takes the masculine plural."** Standard rule; note that some writers now use other agreement practices. Confirm the simple statement is what you want at A1.
-- **"Some adjectives … *gros*" listed under BAGS size words, translated "big, fat".** Confirm this gloss is acceptable.
 - *Des* + a BAGS adjective (formal *de petites maisons*) is deliberately not mentioned and not used in exercises. Decide if it should appear here or later.
 
 ## a1-er-verbs-present
@@ -103,8 +102,6 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 
 ## a1-days-months-dates
 
-- **"*Lundi* comes from the Moon … *mardi* from Mars, *mercredi* from Mercury, *jeudi* from Jupiter and *vendredi* from Venus."** Confirm the etymologies as worded.
-- **"*lundi 3 mai*, or *le lundi 3 mai* on more formal occasions."** Confirm the register note.
 - Pronunciation hint for *août* (`oot`, vocab v015): *oo* is also heard. Confirm which to show.
 
 ## a1-telling-time
@@ -126,12 +123,54 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 
 ## a1-hobbies-and-sports
 
-- **"especially individual ones that you don't exactly 'play', French uses *faire de*."** A rule of thumb. Confirm, since some individual sports (*jouer au golf*) use *jouer*.
+- **"As a rough guide, games and ball sports take *jouer à*." / "Other sports and activities, the ones without a ball, generally take *faire de*."** Confirm this holds as a rough guide, since *faire du foot* and *faire du tennis* are also common.
 - **"*Le football américain* is the other kind."**
-- *faire de la danse* glossed "to do dance". Confirm the gloss.
 
 ## a1-yes-no-questions
 
 - **"[Inversion is] mostly used in writing and in formal situations."** Confirm the register note.
 - **"because two vowels side by side are hard to say."** Simplified reason for *-t-*.
 - Inversion with a noun subject is deliberately left out, as is inversion with *je*.
+
+## a1-question-words
+
+- **"*Pourquoi* … normally goes at the start, even in relaxed speech."** Confirm.
+- **"*Quoi ?* on its own … can sound abrupt, so it's best kept for close friends."** Confirm the register note.
+
+## a1-weather-seasons
+
+- **"*Pleuvoir* and *neiger* are used almost only with *il*."** Confirm "almost only".
+- **"*Été*, *automne* and *hiver* all begin with a vowel sound, and *printemps* begins with a consonant."** Given as an observation about *en* versus *au*. Confirm it's a fair explanation.
+
+## a1-review-free-time
+
+- *Le week-end* is taught here as a vocabulary word (at weekends). The syllabus places *ce week-end* in a1-near-future. Confirm this doesn't clash.
+
+## a1-food-and-drink
+
+- *La salade* glossed "lettuce, salad", and *le dîner* glossed "dinner". Confirm.
+
+## a1-partitive-articles
+
+- **"*Ce n'est pas du vin*": "The partitive also stays after *être*."** Confirm the statement suits A1.
+- **"'I like some bread' sounds wrong if you mean bread in general."** A rule-of-thumb test. Confirm.
+
+## a1-ordering-at-a-cafe
+
+- **"Ask for *une carafe d'eau* and you'll normally get tap water for free with a meal."** Confirm.
+- **"Calling *Garçon !* to a waiter is outdated and can sound rude."**
+- **"Staff leave you alone so that you can stay at your table as long as you like."** A generalisation; confirm.
+
+## a1-culture-french-meals
+
+- **"*Le déjeuner* is usually eaten somewhere between noon and two o'clock."** / **"*Le dîner* … between about half past seven and nine."** Confirm the times.
+- **"Your piece of bread normally sits directly on the table … There's usually no side plate."**
+- **"Keep your hands visible, with your wrists resting on the edge of the table."**
+- **"Many traditional restaurants serve lunch from about noon to two, and open again for dinner at about seven."**
+- **"If you're invited *pour l'apéro*, you may be there only for drinks."**
+
+## a1-shopping-for-clothes
+
+- **"Marron and orange never change … because they're named after things."** Confirm the reason is fair at A1.
+- **"[Les soldes] take place at set times, usually in January and in summer."**
+- *Le jean* respelled `JEEN`. Confirm it suits the site's style.
