@@ -200,3 +200,29 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 - **"These instructions use the *vous* form of the verb without a subject."** Simplified preview of a1-imperative.
 - **"*Le feu* is literally 'the fire', and it's a single word for a set of traffic lights."** Also common as *les feux*; confirm the singular is what you want to teach.
 - **"you can hear a t in *droite*, but *droit* ends in a vowel sound."**
+
+## a1-imperative
+
+- **"On signs, doors and recipes, French often skips the imperative and uses the plain infinitive."** Confirm the examples *Pousser*, *Tirer*, *Ne pas toucher*.
+- **"[Être and avoir] … you'll see them mostly in a few set phrases."** Confirm.
+
+## a1-near-future
+
+- **"It's very common in everyday speech. French has another future tense, which you'll meet later on."**
+- **"*samedi* and *dimanche* have no *le*, because they mean this coming Saturday and Sunday."** Confirm for this context.
+
+## a1-modal-verbs
+
+- **"*Je veux* is direct. It's fine with friends, but with staff or strangers it can sound demanding."**
+- **"Point at a free chair … and say *Je peux ?*"** Confirm it's natural on its own.
+
+## a1-writing-a-short-message
+
+- **"*Bisous* and *Grosses bises* are for people you'd kiss on both cheeks, or close to it."**
+- **"*A+* is said *à plus*, meaning 'see you later'."**
+- **"Sign off with *Cordialement*"** for someone you call *vous*. Confirm it suits a teacher or landlord.
+- Respellings given for text shorthand (*slt*, *stp*, *bjr*) show the full word they stand for. Confirm this is the right way to show them.
+
+## a1-review-final
+
+- **"*Sa mère*, even for a man's mother."** Restates a1-possessive-adjectives; included for completeness. Remove if not needed.
