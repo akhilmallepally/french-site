@@ -4,17 +4,24 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "npm run validate:content",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "validate:content": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/validate-content.ts",
+    "test:content": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-validate-content.ts"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "next": "16.4.3",
+    "next-mdx-remote": "^6.0.0",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
+    "@tailwindcss/typography": "^0.5.20",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
