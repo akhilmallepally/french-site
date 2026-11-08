@@ -174,3 +174,29 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 - **"Marron and orange never change … because they're named after things."** Confirm the reason is fair at A1.
 - **"[Les soldes] take place at set times, usually in January and in summer."**
 - *Le jean* respelled `JEEN`. Confirm it suits the site's style.
+
+## a1-demonstratives
+
+- **"In everyday speech, *-là* is more common than *-ci*, and it doesn't always mean that something is far away."** Confirm.
+
+## a1-review-food-and-shopping
+
+- **"French restaurants normally display their menu and prices outside the door."** Confirm the wording.
+- *Et comme boisson ?* is used as a fixed phrase in the café dialogue. Confirm it's natural.
+
+## a1-places-in-town
+
+- **"*La poste* is usually a building with a yellow sign."**
+- **"*La mairie* … is where weddings take place."**
+- **"A flashing green cross outside a building means *une pharmacie*." / "A tall red sign shaped like a long diamond marks a *tabac*, which sells stamps and bus tickets as well as cigarettes."** Confirm the description and what a *tabac* sells.
+
+## a1-prepositions-of-place
+
+- **"*Près de* (near) will always give your listener the general idea."** Confirm it's fair as a fallback.
+- *loin de*, *près de* with a town name: **"*près d'Orléans*"**. Confirm the example.
+
+## a1-asking-directions
+
+- **"These instructions use the *vous* form of the verb without a subject."** Simplified preview of a1-imperative.
+- **"*Le feu* is literally 'the fire', and it's a single word for a set of traffic lights."** Also common as *les feux*; confirm the singular is what you want to teach.
+- **"you can hear a t in *droite*, but *droit* ends in a vowel sound."**
