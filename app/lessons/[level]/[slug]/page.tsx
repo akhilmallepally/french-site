@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import { ConnectionSection, LessonChip, TypeBadge } from "@/components/lesson-ui";
-import { mdxComponents } from "@/components/mdx";
+import { mdxComponents, VocabTable } from "@/components/mdx";
 import { getAllLessons, getLesson, getLessonConnections, levelToSlug, type LessonMeta } from "@/lib/lessons";
 
 type Props = PageProps<"/lessons/[level]/[slug]">;
@@ -68,7 +68,10 @@ export default async function LessonPage({ params }: Props) {
       <article className="prose prose-lg mt-8 max-w-none prose-headings:font-serif prose-headings:font-semibold prose-headings:text-foreground prose-p:text-foreground prose-li:text-foreground prose-strong:text-foreground prose-a:text-accent prose-a:underline-offset-2">
         <MDXRemote
           source={lesson.content}
-          components={mdxComponents}
+          components={{
+            ...mdxComponents,
+            VocabTable: ({ group }: { group?: string }) => <VocabTable items={lesson.vocab} group={group} />,
+          }}
           options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
         />
       </article>

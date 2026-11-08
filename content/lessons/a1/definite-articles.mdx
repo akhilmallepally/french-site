@@ -9,6 +9,86 @@ type: "grammar"
 tags: ["articles", "gender", "nouns"]
 prerequisites: []
 related: []
+vocab:
+  - { id: "a1-definite-articles-v001", group: "articles", fr: "le", pron: "luh", en: "the (masculine singular)", note: "le livre (the book)" }
+  - { id: "a1-definite-articles-v002", group: "articles", fr: "la", pron: "lah", en: "the (feminine singular)", note: "la table (the table)" }
+  - { id: "a1-definite-articles-v003", group: "articles", fr: "les", pron: "lay", en: "the (all plurals)", note: "les livres (the books)" }
+  - { id: "a1-definite-articles-v004", group: "words", fr: "l'", pron: "l", en: "the (before a vowel or silent h)", note: "Replaces both le and la." }
+  - { id: "a1-definite-articles-v005", group: "words", fr: "le livre", pron: "luh LEE-vruh", en: "the book" }
+  - { id: "a1-definite-articles-v006", group: "words", fr: "la table", pron: "lah TAH-bluh", en: "the table" }
+  - { id: "a1-definite-articles-v007", group: "words", fr: "le jour", pron: "luh ZHOOR", en: "the day" }
+  - { id: "a1-definite-articles-v008", group: "words", fr: "l'ami", pron: "lah-MEE", en: "the friend" }
+  - { id: "a1-definite-articles-v009", group: "words", fr: "l'heure", pron: "LUHR", en: "the hour" }
+  - { id: "a1-definite-articles-v010", group: "words", fr: "le garçon", pron: "luh gar-SOHN", en: "the boy" }
+  - { id: "a1-definite-articles-v011", group: "words", fr: "la femme", pron: "lah FAHM", en: "the woman" }
+  - { id: "a1-definite-articles-v012", group: "words", fr: "l'école", pron: "lay-KOL", en: "the school" }
+  - { id: "a1-definite-articles-v013", group: "words", fr: "les enfants", pron: "lay-zahn-FAHN", en: "the children" }
+exercises:
+  - id: "a1-definite-articles-ex001"
+    type: "fill-in"
+    prompt: "___ livre (the book; livre is masculine)"
+    answers: ["le"]
+    explanation: "Le is the article for a masculine singular noun."
+  - id: "a1-definite-articles-ex002"
+    type: "fill-in"
+    prompt: "___ table (the table; table is feminine)"
+    answers: ["la"]
+    explanation: "La is the article for a feminine singular noun."
+  - id: "a1-definite-articles-ex003"
+    type: "fill-in"
+    prompt: "___ livres (the books)"
+    answers: ["les"]
+    explanation: "Les is used with all plurals, masculine or feminine."
+  - id: "a1-definite-articles-ex004"
+    type: "fill-in"
+    prompt: "___école (the school)"
+    answers: ["l'"]
+    explanation: "École starts with a vowel, so the article shortens to l'."
+  - id: "a1-definite-articles-ex005"
+    type: "multiple-choice"
+    prompt: "How do you say 'the friend'?"
+    options: ["l'ami", "le ami", "la ami"]
+    answers: ["l'ami"]
+    explanation: "Ami starts with a vowel, so le shortens to l'."
+  - id: "a1-definite-articles-ex006"
+    type: "multiple-choice"
+    prompt: "The h in 'heure' is silent. How do you say 'the hour'?"
+    options: ["l'heure", "la heure", "le heure"]
+    answers: ["l'heure"]
+    explanation: "Before a silent h, le and la both shorten to l', just as they do before a vowel."
+  - id: "a1-definite-articles-ex007"
+    type: "multiple-choice"
+    prompt: "When do you use les?"
+    options: ["With all plurals", "With masculine plurals only", "With feminine plurals only"]
+    answers: ["With all plurals"]
+    explanation: "Les doesn't show gender. It's the same for every plural noun."
+  - id: "a1-definite-articles-ex008"
+    type: "multiple-choice"
+    prompt: "A table isn't female in any real sense, so why is it la table?"
+    options: ["Gender belongs to the word", "All furniture is feminine", "Tables are always plural"]
+    answers: ["Gender belongs to the word"]
+    explanation: "Grammatical gender is mostly about the word, not its meaning."
+  - id: "a1-definite-articles-ex009"
+    type: "multiple-choice"
+    prompt: "What's the best way to memorize the word for 'book'?"
+    options: ["le livre", "livre"]
+    answers: ["le livre"]
+    explanation: "Learning the noun with its article tells you the gender for free."
+  - id: "a1-definite-articles-ex010"
+    type: "translate"
+    prompt: "Write in French: the woman"
+    answers: ["la femme"]
+    explanation: "Femme is feminine and singular, so it takes la."
+  - id: "a1-definite-articles-ex011"
+    type: "translate"
+    prompt: "Write in French: the children"
+    answers: ["les enfants"]
+    explanation: "Enfants is plural, so it takes les."
+  - id: "a1-definite-articles-ex012"
+    type: "translate"
+    prompt: "Write in French: the boy"
+    answers: ["le garçon"]
+    explanation: "Garçon is masculine and singular, so it takes le. The cédille keeps the c soft."
 ---
 
 Every French noun is either **masculine** or **feminine**. The word for "the" changes to match it. This is one of the first habits to build: learn each noun *with* its article.
@@ -17,13 +97,11 @@ You've already met some nouns without noticing: in <LessonLink id="a1-greetings"
 
 ## The three forms
 
-| Article | Used with | Example |
-|---|---|---|
-| le | masculine singular | le livre (the book) |
-| la | feminine singular | la table (the table) |
-| les | all plurals | les livres (the books) |
+<VocabTable group="articles" />
 
 Before a vowel or a silent *h*, both **le** and **la** shorten to **l'**: *l'ami* (the friend), *l'heure* (the hour).
+
+<VocabTable group="words" />
 
 <Callout type="note">
   Gender is mostly about the word, not the meaning. A table isn't "female" in any real sense. It's just a feminine noun.

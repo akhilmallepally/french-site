@@ -1,7 +1,44 @@
 import type { ComponentPropsWithoutRef, ReactNode } from "react";
 import Link from "next/link";
 import { ComingSoon } from "@/components/lesson-ui";
-import { getLessonById, getPlannedLesson } from "@/lib/lessons";
+import { getLessonById, getPlannedLesson, type VocabItem } from "@/lib/lessons";
+
+/**
+ * Shows a lesson's vocab (from its frontmatter). In MDX it's written as <VocabTable /> or
+ * <VocabTable group="…" />; the lesson page supplies `items`, so MDX never passes data.
+ */
+export function VocabTable({ items, group }: { items: VocabItem[]; group?: string }) {
+  const rows = group ? items.filter((v) => v.group === group) : items;
+  return (
+    <div className="not-prose my-6 overflow-x-auto rounded-xl border border-border bg-card">
+      <table className="w-full min-w-[28rem] border-collapse text-left text-[0.95rem]">
+        <thead className="bg-background">
+          <tr>
+            {["French", "Pronunciation", "English"].map((h) => (
+              <th key={h} className="border-b border-border px-4 py-3 text-xs font-semibold uppercase tracking-wide text-muted">
+                {h}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((v) => (
+            <tr key={v.id} className="border-b border-border last:border-b-0">
+              <td lang="fr" className="px-4 py-3 align-top font-serif text-lg">
+                {v.fr}
+              </td>
+              <td className="px-4 py-3 align-top text-muted">{v.pron}</td>
+              <td className="px-4 py-3 align-top">
+                {v.en}
+                {v.note && <span className="mt-0.5 block text-sm text-muted">{v.note}</span>}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
 
 /**
  * Links to a lesson by its stable id, so in-text links survive slug and title changes.

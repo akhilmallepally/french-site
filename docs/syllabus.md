@@ -311,7 +311,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 55 | b1-culture-regional-cuisine | Regional cuisine | Food, culture and wrap-up | culture | b1-food-and-cooking | Regions through their dishes: Alsace, Provence, Bretagne, Lyon; cheese and wine culture. |
 | 56 | b1-making-suggestions | Making suggestions | Food, culture and wrap-up | communication | b1-si-imparfait-conditionnel, a2-invitations | Si on allait… ?, ça te dirait de…, on pourrait…, pourquoi pas… |
 | 57 | b1-formal-email | Writing a formal email | Food, culture and wrap-up | communication | b1-cover-letter, b1-making-a-complaint | Register, structure, standard openings and closings, requests and follow-ups. |
-| 58 | b1-culture-quebec | French in Québec | Food, culture and wrap-up | culture | a2-culture-francophone-world | History, vocabulary differences, tu everywhere, Québécois expressions. |
+| 58 | b1-culture-quebec | French in Québec | Food, culture and wrap-up | culture | a2-culture-francophone-world | History, vocabulary differences, tu used more freely, Québécois expressions. |
 | 59 | b1-review-final | B1 final review | Food, culture and wrap-up | review | b1-review-opinions, b1-review-hypotheses, b1-review-stories, b1-review-subjunctive, b1-review-work, b1-review-media, b1-review-society, b1-review-daily-life, b1-culture-regional-cuisine, b1-making-suggestions, b1-formal-email, b1-culture-quebec | Whole-level recap; B1 can-do checklist. |
 
 ---

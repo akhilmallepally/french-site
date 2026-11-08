@@ -17,7 +17,9 @@ import {
   parseLesson,
   readLessonSources,
   readSyllabus,
+  SLUG_PATTERN,
   sortLessons,
+  type Lesson,
   type LessonMeta,
 } from "../lib/lessons.ts";
 
@@ -44,6 +46,7 @@ export function validateContent(lessonsDir: string, syllabusFile: string): Valid
   const lessons: LessonMeta[] = [];
   const fileOf = new Map<LessonMeta, string>();
   const bodyOf = new Map<LessonMeta, string>();
+  const fullOf = new Map<LessonMeta, Lesson>();
   for (const src of readLessonSources(lessonsDir)) {
     const { lesson, errors: fileErrors } = parseLesson(src);
     for (const e of fileErrors) errors.push(`${src.file}: ${e}`);
@@ -51,6 +54,7 @@ export function validateContent(lessonsDir: string, syllabusFile: string): Valid
       lessons.push(lesson.meta);
       fileOf.set(lesson.meta, src.file);
       bodyOf.set(lesson.meta, src.content);
+      fullOf.set(lesson.meta, lesson);
     }
   }
 
@@ -143,6 +147,45 @@ export function validateContent(lessonsDir: string, syllabusFile: string): Valid
       if (i > 0 && seq[i - 1].unit !== l.unit) finished.add(seq[i - 1].unit);
       if (finished.has(l.unit)) warnings.push(`${fileOf.get(l)}: unit "${l.unit}" is split by lessons from another unit`);
     });
+  }
+
+  // 9. Vocab and exercise ids: right format, and unique across the whole site.
+  const itemOwners = new Map<string, string>();
+  for (const l of lessons) {
+    const file = fileOf.get(l);
+    const { vocab, exercises } = fullOf.get(l)!;
+    const items = [
+      ...vocab.map((v) => ({ id: v.id, kind: "vocab", suffix: /-v\d{3}$/ })),
+      ...exercises.map((e) => ({ id: e.id, kind: "exercise", suffix: /-ex\d{3}$/ })),
+    ];
+    for (const { id, kind, suffix } of items) {
+      if (!SLUG_PATTERN.test(id) || !suffix.test(id)) {
+        errors.push(`${file}: ${kind} id "${id}" should look like "${l.id}${kind === "vocab" ? "-v001" : "-ex001"}"`);
+      } else if (!id.startsWith(`${l.id}-`)) {
+        warnings.push(`${file}: ${kind} id "${id}" doesn't start with this lesson's id "${l.id}"`);
+      }
+      const owner = itemOwners.get(id);
+      if (owner) errors.push(`${file}: ${kind} id "${id}" is already used in ${owner}`);
+      else itemOwners.set(id, file!);
+    }
+  }
+
+  // 10. <VocabTable /> needs vocab to show, and every vocab item should appear in some table.
+  const tablePattern = /<VocabTable\b([^>]*?)\/?>/g;
+  for (const l of lessons) {
+    const file = fileOf.get(l);
+    const { vocab } = fullOf.get(l)!;
+    const shown = new Set<string>();
+    for (const match of bodyOf.get(l)!.matchAll(tablePattern)) {
+      const group = match[1].match(/\bgroup=["']([^"']+)["']/)?.[1];
+      const rows = group ? vocab.filter((v) => v.group === group) : vocab;
+      if (!rows.length) {
+        errors.push(`${file}: <VocabTable${group ? ` group="${group}"` : ""} /> has no vocab items to show`);
+      }
+      for (const v of rows) shown.add(v.id);
+    }
+    const hidden = vocab.filter((v) => !shown.has(v.id));
+    if (hidden.length) warnings.push(`${file}: vocab not shown in any <VocabTable />: ${hidden.map((v) => v.id).join(", ")}`);
   }
 
   return { lessonCount: lessons.length, errors, warnings };

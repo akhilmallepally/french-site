@@ -56,7 +56,34 @@ export type LessonMeta = {
   related: string[]; // lesson ids
 };
 
-export type Lesson = { meta: LessonMeta; content: string };
+/** A word or phrase taught in a lesson. `id` is permanent (e.g. "a1-numbers-0-20-v001"). */
+export type VocabItem = {
+  id: string;
+  fr: string;
+  pron: string; // simple respelling for English speakers; the only place respellings go
+  en: string;
+  group?: string; // lets a lesson show several smaller <VocabTable group="…" /> tables
+  note?: string;
+};
+
+export const EXERCISE_TYPES = ["multiple-choice", "fill-in", "translate"] as const;
+export type ExerciseType = (typeof EXERCISE_TYPES)[number];
+
+/**
+ * A practice item. `id` is permanent (e.g. "a1-numbers-0-20-ex001").
+ * `answers` lists genuinely different phrasings only; see "Lesson writing rules" in
+ * CLAUDE.md for what the future checker normalizes.
+ */
+export type Exercise = {
+  id: string;
+  type: ExerciseType;
+  prompt: string; // fill-in prompts mark the gap with ___
+  options?: string[]; // multiple-choice only; every answer must be one of these
+  answers: string[];
+  explanation: string;
+};
+
+export type Lesson = { meta: LessonMeta; content: string; vocab: VocabItem[]; exercises: Exercise[] };
 
 export type Unit = { name: string; lessons: LessonMeta[] };
 
@@ -124,6 +151,8 @@ export function parseLesson(src: LessonSource): { lesson?: Lesson; errors: strin
   if (!SLUG_PATTERN.test(src.slug)) {
     errors.push(`filename must be lowercase letters, digits and hyphens (got "${src.slug}.mdx")`);
   }
+  const vocab = parseVocab(d.vocab, errors);
+  const exercises = parseExercises(d.exercises, errors);
 
   if (errors.length) return { errors };
 
@@ -132,6 +161,8 @@ export function parseLesson(src: LessonSource): { lesson?: Lesson; errors: strin
     errors,
     lesson: {
       content: src.content,
+      vocab,
+      exercises,
       meta: {
         id: d.id as string,
         slug: src.slug,
@@ -148,6 +179,57 @@ export function parseLesson(src: LessonSource): { lesson?: Lesson; errors: strin
       },
     },
   };
+}
+
+const isText = (v: unknown): v is string => typeof v === "string" && v.trim() !== "";
+
+/** vocab is optional; when present, each item needs id, fr, pron and en. */
+function parseVocab(value: unknown, errors: string[]): VocabItem[] {
+  if (value === undefined) return [];
+  if (!Array.isArray(value)) {
+    errors.push(`"vocab" must be a list`);
+    return [];
+  }
+  return value.flatMap((item, i): VocabItem[] => {
+    const v = (item ?? {}) as Record<string, unknown>;
+    const where = `vocab[${i}]${isText(v.id) ? ` (${v.id})` : ""}`;
+    const missing = ["id", "fr", "pron", "en"].filter((k) => !isText(v[k]));
+    if (missing.length) errors.push(`${where}: missing ${missing.map((k) => `"${k}"`).join(", ")}`);
+    for (const k of ["group", "note"]) if (v[k] !== undefined && !isText(v[k])) errors.push(`${where}: "${k}" must be text`);
+    return missing.length ? [] : [v as VocabItem];
+  });
+}
+
+/** exercises is optional; when present, each item is checked for its type's required fields. */
+function parseExercises(value: unknown, errors: string[]): Exercise[] {
+  if (value === undefined) return [];
+  if (!Array.isArray(value)) {
+    errors.push(`"exercises" must be a list`);
+    return [];
+  }
+  return value.flatMap((item, i): Exercise[] => {
+    const e = (item ?? {}) as Record<string, unknown>;
+    const where = `exercises[${i}]${isText(e.id) ? ` (${e.id})` : ""}`;
+    const before = errors.length;
+    for (const k of ["id", "prompt", "explanation"]) if (!isText(e[k])) errors.push(`${where}: "${k}" is missing or empty`);
+    if (!EXERCISE_TYPES.includes(e.type as ExerciseType)) {
+      errors.push(`${where}: "type" must be one of ${EXERCISE_TYPES.join(", ")} (got ${JSON.stringify(e.type)})`);
+    }
+    if (!isStringArray(e.answers) || !e.answers.length) errors.push(`${where}: "answers" must be a non-empty list of strings`);
+    if (e.type === "multiple-choice") {
+      if (!isStringArray(e.options) || e.options.length < 2) {
+        errors.push(`${where}: multiple-choice needs "options" with at least 2 choices`);
+      } else if (isStringArray(e.answers)) {
+        for (const a of e.answers) if (!e.options.includes(a)) errors.push(`${where}: answer "${a}" is not one of the options`);
+      }
+    } else if (e.options !== undefined) {
+      errors.push(`${where}: "options" is only allowed on multiple-choice exercises`);
+    }
+    if (e.type === "fill-in" && isText(e.prompt) && !e.prompt.includes("___")) {
+      errors.push(`${where}: fill-in prompts must mark the gap with ___`);
+    }
+    return errors.length > before ? [] : [e as Exercise];
+  });
 }
 
 /** Course order: by level, then by order within the level. */
@@ -260,7 +342,7 @@ export function computeConnections(
 
 // ---------- Site API (what pages use) ----------
 
-type ContentIndex = { lessons: LessonMeta[]; contentById: Map<string, string>; planned: PlannedLesson[] };
+type ContentIndex = { lessons: LessonMeta[]; lessonById: Map<string, Lesson>; planned: PlannedLesson[] };
 
 let cached: ContentIndex | null = null;
 
@@ -277,7 +359,7 @@ function load(): ContentIndex {
   const lessons = parsed.map((p) => p.lesson!).sort((a, b) => compareLessons(a.meta, b.meta));
   const index: ContentIndex = {
     lessons: lessons.map((l) => l.meta),
-    contentById: new Map(lessons.map((l) => [l.meta.id, l.content])),
+    lessonById: new Map(lessons.map((l) => [l.meta.id, l])),
     planned: readSyllabus(),
   };
   // Cache in production builds only, so edits show up immediately in dev.
@@ -302,9 +384,9 @@ export function getPlannedLesson(id: string): PlannedLesson | null {
 export function getLesson(levelSlug: string, slug: string): Lesson | null {
   const level = levelFromSlug(levelSlug);
   if (!level || !SLUG_PATTERN.test(slug)) return null;
-  const { lessons, contentById } = load();
+  const { lessons, lessonById } = load();
   const meta = lessons.find((l) => l.level === level && l.slug === slug);
-  return meta ? { meta, content: contentById.get(meta.id)! } : null;
+  return meta ? lessonById.get(meta.id)! : null;
 }
 
 export function getLevelSummaries() {
