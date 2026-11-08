@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { TypeBadge } from "@/components/lesson-ui";
+import { LessonStatus } from "@/components/progress-status";
 import { LEVELS, getLevel, levelToSlug } from "@/lib/lessons";
 
 export function generateStaticParams() {
@@ -63,6 +64,7 @@ export default async function LevelPage({ params }: PageProps<"/lessons/[level]"
                         <span className="flex flex-wrap items-center gap-x-3 gap-y-1">
                           <span className="font-serif text-lg font-semibold group-hover:text-accent">{l.title}</span>
                           <TypeBadge type={l.type} />
+                          <LessonStatus lessonId={l.id} />
                         </span>
                         <span className="mt-0.5 block text-sm text-muted">{l.description}</span>
                       </span>

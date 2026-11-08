@@ -5,3 +5,4 @@ Fixture for scripts/test-validate-content.ts. Not real content.
 - `bad-prereq.mdx` lists `a1-planned` as a prerequisite: rejected (prerequisites must be written).
 - `not-in-syllabus.mdx` points at an id that is neither written nor planned: rejected everywhere.
 - `<LessonLink text="…">`: `uses-planned.mdx` passes with it; `not-in-syllabus.mdx` still fails on a bad id and on empty text.
+- Reorder exercises: `uses-planned.mdx` has a valid one; `bad-reorder.mdx` has one whose answer uses different words and one with an empty word list.

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
+import { ExercisePlayer } from "@/components/exercise-player";
 import { ConnectionSection, LessonChip, TypeBadge } from "@/components/lesson-ui";
 import { mdxComponents, VocabTable } from "@/components/mdx";
 import { getAllLessons, getLesson, getLessonConnections, levelToSlug, type LessonMeta } from "@/lib/lessons";
@@ -76,7 +77,11 @@ export default async function LessonPage({ params }: Props) {
         />
       </article>
 
-      <div className="mt-16 space-y-10 border-t border-border pt-10">
+      {lesson.exercises.length > 0 && (
+        <ExercisePlayer key={meta.id} lessonId={meta.id} exercises={lesson.exercises} />
+      )}
+
+      <div className="mt-16 space-y-10 border-t border-border pt-10 empty:hidden">
         <ConnectionSection
           title="Builds on this"
           hint="This lesson unlocks these. They list it as a prerequisite."

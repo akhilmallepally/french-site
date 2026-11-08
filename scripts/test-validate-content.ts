@@ -12,6 +12,8 @@ const { errors, warnings } = validateContent(path.join(fixture, "lessons"), path
 // that isn't in the syllabus is rejected everywhere.
 // The optional text prop doesn't change any of that: the id is still checked.
 assert.deepEqual([...errors].sort(), [
+  `a1/bad-reorder.mdx: exercises[0] (a1-bad-reorder-ex001): answer "Nous sommes là" doesn't use exactly the words in "words"`,
+  'a1/bad-reorder.mdx: exercises[1] (a1-bad-reorder-ex002): reorder needs a non-empty "words" list',
   'a1/bad-prereq.mdx: prerequisite "a1-planned" is planned in the syllabus but not written yet. Prerequisites must be written lessons.',
   'a1/not-in-syllabus.mdx: <LessonLink id="a1-nowhere"> points to an unknown lesson (no file, and not in the syllabus)',
   'a1/not-in-syllabus.mdx: <LessonLink id="a1-nowhere-text"> points to an unknown lesson (no file, and not in the syllabus)',

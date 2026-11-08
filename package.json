@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint",
     "validate:content": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/validate-content.ts",
-    "test:content": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-validate-content.ts"
+    "test:content": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-validate-content.ts",
+    "test:checker": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test lib/check-answer.test.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

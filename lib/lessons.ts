@@ -7,6 +7,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import { sameWords } from "./check-answer.ts";
+import { EXERCISE_TYPES, type Exercise, type ExerciseType, type VocabItem } from "./types.ts";
+
+export { EXERCISE_TYPES };
+export type { Exercise, ExerciseType, VocabItem };
 
 // ---------- Levels and types ----------
 
@@ -54,33 +59,6 @@ export type LessonMeta = {
   tags: string[];
   prerequisites: string[]; // lesson ids
   related: string[]; // lesson ids
-};
-
-/** A word or phrase taught in a lesson. `id` is permanent (e.g. "a1-numbers-0-20-v001"). */
-export type VocabItem = {
-  id: string;
-  fr: string;
-  pron: string; // simple respelling for English speakers; the only place respellings go
-  en: string;
-  group?: string; // lets a lesson show several smaller <VocabTable group="…" /> tables
-  note?: string;
-};
-
-export const EXERCISE_TYPES = ["multiple-choice", "fill-in", "translate"] as const;
-export type ExerciseType = (typeof EXERCISE_TYPES)[number];
-
-/**
- * A practice item. `id` is permanent (e.g. "a1-numbers-0-20-ex001").
- * `answers` lists genuinely different phrasings only; see "Lesson writing rules" in
- * CLAUDE.md for what the future checker normalizes.
- */
-export type Exercise = {
-  id: string;
-  type: ExerciseType;
-  prompt: string; // fill-in prompts mark the gap with ___
-  options?: string[]; // multiple-choice only; every answer must be one of these
-  answers: string[];
-  explanation: string;
 };
 
 export type Lesson = { meta: LessonMeta; content: string; vocab: VocabItem[]; exercises: Exercise[] };
@@ -225,10 +203,21 @@ function parseExercises(value: unknown, errors: string[]): Exercise[] {
     } else if (e.options !== undefined) {
       errors.push(`${where}: "options" is only allowed on multiple-choice exercises`);
     }
+    if (e.type === "reorder") {
+      if (!isStringArray(e.words) || !e.words.length) {
+        errors.push(`${where}: reorder needs a non-empty "words" list`);
+      } else if (isStringArray(e.answers)) {
+        for (const a of e.answers) {
+          if (!sameWords(e.words, a)) errors.push(`${where}: answer "${a}" doesn't use exactly the words in "words"`);
+        }
+      }
+    } else if (e.words !== undefined) {
+      errors.push(`${where}: "words" is only allowed on reorder exercises`);
+    }
     if (e.type === "fill-in" && isText(e.prompt) && !e.prompt.includes("___")) {
       errors.push(`${where}: fill-in prompts must mark the gap with ___`);
     }
-    return errors.length > before ? [] : [e as Exercise];
+    return errors.length > before ? [] : [e as unknown as Exercise];
   });
 }
 
@@ -398,6 +387,7 @@ export function getLevelSummaries() {
       slug: levelToSlug(level),
       ...LEVEL_INFO[level],
       lessonCount: levelLessons.length,
+      lessonIds: levelLessons.map((l) => l.id),
       unitCount: groupIntoUnits(levelLessons).length,
     };
   });

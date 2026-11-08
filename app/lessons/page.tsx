@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { LevelCompletion } from "@/components/progress-status";
 import { getLevelSummaries } from "@/lib/lessons";
 
 export const metadata: Metadata = { title: "Lessons" };
@@ -50,6 +51,7 @@ export default function LessonsPage() {
                 {l.name}
               </h2>
               <p className="mt-1 text-sm leading-relaxed text-muted">{l.summary}</p>
+              {l.lessonCount > 0 && <LevelCompletion lessonIds={l.lessonIds} />}
             </Link>
           </li>
         ))}
