@@ -50,7 +50,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 11 | a1-indefinite-articles | un, une, des | People and things | grammar | a1-definite-articles | Indefinite articles; specific vs non-specific; c'est un… / ce sont des… Reuses: everyday objects. |
 | 12 | a1-plural-nouns | Plural nouns | People and things | grammar | a1-indefinite-articles | -s, -x, -aux, invariable nouns, silent plural endings in writing. Reuses: everyday objects. |
 | 13 | a1-family | Family | People and things | vocabulary | a1-definite-articles | Parents, siblings, grandparents, partner, children; le père, la mère… |
-| 14 | a1-avoir-present | The verb avoir | People and things | grammar | a1-subject-pronouns, a1-indefinite-articles, a1-numbers-0-20 | Present of avoir; j'ai 20 ans; il y a as a chunk. Reuses: family, numbers. |
+| 14 | a1-avoir-present | The verb avoir | People and things | grammar | a1-subject-pronouns, a1-indefinite-articles, a1-numbers-0-20 | Present of avoir; j'ai 20 ans; avoir faim, soif, chaud, froid; il y a as a chunk. Reuses: family, numbers. |
 | 15 | a1-possessive-adjectives | mon, ma, mes | People and things | grammar | a1-family, a1-plural-nouns | All possessive adjectives; mon before a vowel (mon amie). Reuses: family. |
 | 16 | a1-describing-people | Describing people | People and things | vocabulary | a1-etre-present, a1-avoir-present | Height, hair, eyes, personality: grand, petit, sympa, il a les yeux bleus. |
 | 17 | a1-adjective-agreement | Adjective agreement and position | People and things | grammar | a1-describing-people, a1-plural-nouns | Masculine/feminine/plural endings; after the noun by default; BAGS adjectives before. Reuses: describing people, family. |

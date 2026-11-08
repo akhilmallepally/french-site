@@ -48,8 +48,8 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 
 ## a1-indefinite-articles
 
-- **"In relaxed conversation you'll also hear *c'est des livres*."** Exercise ex010 accepts it as an answer. Confirm it should be accepted at A1 rather than only mentioned.
-- **"a French noun nearly always needs something in front of it."** Simplified for beginners; confirm the hedge is enough.
+- **"In relaxed conversation you'll also hear *c'est des livres*."** Exercise ex010 accepts it and explains that *Ce sont des livres* is the standard written form and *c'est des livres* the relaxed spoken one. Confirm it should be accepted at A1 rather than only mentioned.
+- **"a French noun usually needs a word in front of it. The main exception is jobs and nationalities after *être* (*Je suis étudiant*)."** Simplified for beginners; confirm "main exception" is enough at A1.
 
 ## a1-plural-nouns
 
@@ -80,7 +80,7 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 ## a1-er-verbs-present
 
 - **"The great majority of French verbs end in -er, and nearly all of them follow this pattern."** Confirm the wording.
-- **"New verbs often join the family too, as in *liker*."** Confirm *liker* is the best example.
+- **"New verbs often join the family too, as in *télécharger* (to download)."** Confirm it's a fair example of a newer verb.
 
 ## a1-likes-and-dislikes
 
@@ -90,7 +90,7 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 ## a1-negation-ne-pas
 
 - **"In everyday speech, people very often drop the *ne*."** Confirm the frequency claim. Exercise ex009 accepts only the written form with *ne*.
-- **"*Je n'aime pas de thé*" given as wrong "for tea in general".** Confirm the qualifier.
+- **"*Je n'aime pas le thé* is correct and *Je n'aime pas de thé* is wrong, because *aimer* keeps the definite article."** The lesson labels *de thé* as WRONG. Confirm.
 
 ## a1-ir-re-verbs-present
 
@@ -99,7 +99,39 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 
 ## a1-numbers-21-100
 
-- **"In some parts of Switzerland you may also come across *huitante*."** Confirm the wording about where it's used.
-- **"French speakers in Belgium and Switzerland mostly use simpler words."** Confirm "mostly".
-- **"Numbers ending in 1 use *et* (and) with no hyphens."** Traditional spelling. The 1990 spelling reform allows hyphens throughout (*vingt-et-un*); the answer checker treats both the same. Confirm the traditional form is what you want to teach.
-- **"The t of *vingt* is silent throughout the 80s and 90s."** Confirm for all of them, including *quatre-vingt-un* and *quatre-vingt-onze*.
+- **"21, 31, 41, 51 and 61 use *et* (and) with no hyphens."** Traditional spelling. The 1990 spelling reform allows hyphens throughout (*vingt-et-un*); the answer checker treats both the same. Confirm the traditional form is what you want to teach.
+
+## a1-days-months-dates
+
+- **"*Lundi* comes from the Moon … *mardi* from Mars, *mercredi* from Mercury, *jeudi* from Jupiter and *vendredi* from Venus."** Confirm the etymologies as worded.
+- **"*lundi 3 mai*, or *le lundi 3 mai* on more formal occasions."** Confirm the register note.
+- Pronunciation hint for *août* (`oot`, vocab v015): *oo* is also heard. Confirm which to show.
+
+## a1-telling-time
+
+- **"you'll hear [the 24-hour clock] in everyday speech too."** Confirm how common this is.
+- **"*quinze heures et demie* isn't what you'd see on a timetable."** Confirm.
+
+## a1-daily-routine-reflexive
+
+- **"French uses *les*, because the pronoun *me* already shows whose they are."** Simplified; confirm it's fair at A1.
+
+## a1-faire-and-aller
+
+- **"Regular verbs use a silent *-ent*, but these four use a clearly audible *-ont*."** Confirm the wording.
+
+## a1-contractions-a-de
+
+- **"After a word like *le prix* or *parler*, it's normally *de + les*."** Simplified guide to telling the two *des* apart. Confirm it's safe.
+
+## a1-hobbies-and-sports
+
+- **"especially individual ones that you don't exactly 'play', French uses *faire de*."** A rule of thumb. Confirm, since some individual sports (*jouer au golf*) use *jouer*.
+- **"*Le football américain* is the other kind."**
+- *faire de la danse* glossed "to do dance". Confirm the gloss.
+
+## a1-yes-no-questions
+
+- **"[Inversion is] mostly used in writing and in formal situations."** Confirm the register note.
+- **"because two vowels side by side are hard to say."** Simplified reason for *-t-*.
+- Inversion with a noun subject is deliberately left out, as is inversion with *je*.
