@@ -45,3 +45,22 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 - **"How many kisses depends on where you are: two is the most common, but some regions do three or even four."**
 - **"Once you've moved to *tu* with someone, you normally stay there."**
 - **"French people generally say *bonjour* to a given person once a day … People say *rebonjour* instead."**
+
+## a1-indefinite-articles
+
+- **"In relaxed conversation you'll also hear *c'est des livres*."** Exercise ex010 accepts it as an answer. Confirm it should be accepted at A1 rather than only mentioned.
+- **"a French noun nearly always needs something in front of it."** Simplified for beginners; confirm the hedge is enough.
+
+## a1-plural-nouns
+
+- **"This [-al → -aux] is one of the rare plurals you can actually hear."** Confirm "rare" is fair for an A1 summary.
+
+## a1-family
+
+- **"*Le copain* and *la copine* are more casual and common among younger people. They can also just mean a friend."** Confirm the register note.
+- **"*le compagnon* or *la compagne* for a long-term partner."** Confirm this is the best general word to teach at A1.
+
+## a1-avoir-present
+
+- **"*Tu as quel âge ?* is what you'll hear most in conversation. *Quel âge as-tu ?* is a little more formal."** Ranking of the variants.
+- Pronunciation hint for *il y a* (`eel-YAH`, vocab v016): reflects the usual run-together pronunciation; confirm it suits the site's respelling style.
