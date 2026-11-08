@@ -81,28 +81,6 @@ export default async function LessonPage({ params }: Props) {
         <ExercisePlayer key={meta.id} lessonId={meta.id} exercises={lesson.exercises} />
       )}
 
-      <div className="mt-16 space-y-10 border-t border-border pt-10 empty:hidden">
-        <ConnectionSection
-          title="Builds on this"
-          hint="This lesson unlocks these. They list it as a prerequisite."
-          lessons={links.unlocks}
-          showLevel
-        />
-        <ConnectionSection
-          title="Related lessons"
-          hint="Connected, but not required."
-          lessons={links.related}
-          planned={links.relatedPlanned}
-          showLevel
-        />
-        <ConnectionSection
-          title="More on this topic"
-          hint="Other lessons that share a topic with this one."
-          lessons={links.sameTopic}
-          showLevel
-        />
-      </div>
-
       {(links.prev || links.next) && (
         <nav className="mt-14 grid gap-4 border-t border-border pt-8 sm:grid-cols-2">
           {links.prev ? (
@@ -112,6 +90,33 @@ export default async function LessonPage({ params }: Props) {
           )}
           {links.next && <PrevNextCard lesson={links.next} label="Next →" current={meta} alignRight />}
         </nav>
+      )}
+
+      {(links.unlocks.length > 0 || links.related.length > 0 || links.relatedPlanned.length > 0 || links.sameTopic.length > 0) && (
+        <div className="mt-14 border-t border-border pt-8">
+          <p className="text-xs font-semibold uppercase tracking-widest text-muted">Keep exploring</p>
+          <div className="mt-6 space-y-10">
+            <ConnectionSection
+              title="Builds on this"
+              hint="This lesson unlocks these. They list it as a prerequisite."
+              lessons={links.unlocks}
+              showLevel
+            />
+            <ConnectionSection
+              title="Related lessons"
+              hint="Connected, but not required."
+              lessons={links.related}
+              planned={links.relatedPlanned}
+              showLevel
+            />
+            <ConnectionSection
+              title="More on this topic"
+              hint="Other lessons that share a topic with this one."
+              lessons={links.sameTopic}
+              showLevel
+            />
+          </div>
+        </div>
       )}
     </main>
   );

@@ -53,7 +53,7 @@ export default async function LevelPage({ params }: PageProps<"/lessons/[level]"
             <section key={unit.name}>
               <p className="text-xs font-semibold uppercase tracking-widest text-accent">Unit {i + 1}</p>
               <h2 className="mt-1 font-serif text-2xl font-semibold">{unit.name}</h2>
-              <ol className="mt-4 divide-y divide-border overflow-hidden rounded-2xl border border-border bg-card">
+              <ol className="mt-4 list-none divide-y divide-border overflow-hidden rounded-2xl border border-border bg-card">
                 {unit.lessons.map((l) => (
                   <li key={l.id}>
                     <Link href={l.href} className="group flex items-start gap-4 px-5 py-4 transition hover:bg-background/60">

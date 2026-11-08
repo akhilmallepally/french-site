@@ -4,7 +4,7 @@ import type { LessonMeta, LessonType, PlannedLesson } from "@/lib/lessons";
 
 export function ComingSoon() {
   return (
-    <span className="inline-block rounded-full border border-border bg-background px-1.5 py-px align-middle text-[0.65rem] font-medium uppercase tracking-wide text-muted not-italic">
+    <span className="inline-block select-none whitespace-nowrap rounded-full bg-border/60 px-2 py-0.5 align-middle text-[0.7rem] font-medium leading-none text-muted not-italic">
       Coming soon
     </span>
   );
