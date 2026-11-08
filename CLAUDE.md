@@ -15,6 +15,8 @@
 ## Lesson writing rules
 - Exercise answers: list only genuinely different phrasings. Do NOT list accent-less spelling variants, or variants that differ only in capitals, final punctuation or apostrophe style. The future answer checker will normalize accents, capitals, punctuation and apostrophes when comparing, and will tell the learner when an answer was right except for a missing accent (it won't silently accept it, because accents can change meaning: ou/où, a/à, sur/sûr).
 - Exercise types in use: multiple-choice, fill-in, translate. (reorder is planned for the exercise UI.)
+- Don't write fill-in or translate exercises whose answer depends on capital letters. Use multiple-choice for those.
+- Use <LessonLink text="..."> when the lesson title wouldn't read naturally inside the sentence.
 - One vocab entry per concept. Don't create two entries for the same meaning (for example, alternate word orders of the same question go in one entry).
 - Vary the tip callouts across lessons. Don't repeat an idea an earlier lesson already used.
 - Anything uncertain goes into docs/review-needed.md.

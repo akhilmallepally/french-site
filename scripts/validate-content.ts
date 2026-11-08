@@ -129,10 +129,19 @@ export function validateContent(lessonsDir: string, syllabusFile: string): Valid
   for (const id of byId.keys()) visit(id, []);
 
   // 7. In-text <LessonLink id="..." /> must point at a written or planned lesson.
-  const linkPattern = /<LessonLink\b[^>]*?\bid=["']([^"']+)["']/g;
+  //    Attributes are read as quoted pairs, so a `text` value can't be mistaken for the id.
+  const linkPattern = /<LessonLink\b((?:[^>"']|"[^"]*"|'[^']*')*)>/g;
   for (const l of lessons) {
     for (const match of bodyOf.get(l)!.matchAll(linkPattern)) {
-      const ref = match[1];
+      const attrs = new Map([...match[1].matchAll(/(\w+)=(?:"([^"]*)"|'([^']*)')/g)].map((a) => [a[1], a[2] ?? a[3]]));
+      const ref = attrs.get("id");
+      if (!ref) {
+        errors.push(`${fileOf.get(l)}: <LessonLink> is missing its id`);
+        continue;
+      }
+      if (attrs.has("text") && !attrs.get("text")!.trim()) {
+        errors.push(`${fileOf.get(l)}: <LessonLink id="${ref}"> has an empty text prop`);
+      }
       if (!byId.has(ref) && !planned.has(ref)) {
         errors.push(`${fileOf.get(l)}: <LessonLink id="${ref}"> points to an unknown lesson (no file, and not in the syllabus)`);
       }

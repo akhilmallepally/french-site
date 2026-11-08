@@ -45,21 +45,22 @@ export function VocabTable({ items, group }: { items: VocabItem[]; group?: strin
  * A lesson that's planned in the syllabus but not written yet renders as plain text
  * with a "Coming soon" label, and becomes a link automatically once its file exists.
  */
-export function LessonLink({ id, children }: { id: string; children?: ReactNode }) {
+export function LessonLink({ id, text, children }: { id: string; text?: string; children?: ReactNode }) {
+  const label = text ?? children;
   const lesson = getLessonById(id);
   if (!lesson) {
     const planned = getPlannedLesson(id);
     if (planned) {
       return (
         <span>
-          {children ?? planned.title} <ComingSoon />
+          {label ?? planned.title} <ComingSoon />
         </span>
       );
     }
     // validate-content catches this before a build; this is just a visible fallback in dev.
-    return <span className="text-red-700 underline decoration-wavy" title={`Unknown lesson id: ${id}`}>{children ?? id}</span>;
+    return <span className="text-red-700 underline decoration-wavy" title={`Unknown lesson id: ${id}`}>{label ?? id}</span>;
   }
-  return <Link href={lesson.href}>{children ?? lesson.title}</Link>;
+  return <Link href={lesson.href}>{label ?? lesson.title}</Link>;
 }
 
 type CalloutType = "tip" | "warning" | "note";

@@ -31,6 +31,17 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 - **"*Neuf* links with a v sound in *neuf ans* and *neuf heures*."** The lesson implies these are the main cases; confirm no other common case is worth adding.
 - **"Each one [11–16] is related to its small number: *douze* and *deux*, *treize* and *trois*, … *seize* and *six*."** Presented as a memory aid; confirm it's fair to call them "related".
 
-## a1-greetings
+## a1-countries-nationalities
 
-- **"*Bonsoir* is a greeting you use when arriving in the evening. To say goodbye at night, use *au revoir* or *bonne soirée*."** (Callout titled "Bonsoir isn't goodbye".) *Bonsoir* is also heard when leaving in the evening, so the title may be too absolute. Left unchanged because the retrofit kept this lesson's wording.
+- **"In French, a nationality that describes someone normally takes a small letter: *Je suis français*."** Exercise ex007 marks *Je suis Français* as non-standard. Confirm this is safe, since a capital after *être* is sometimes seen.
+- **"If you're Scottish, Welsh or from Northern Ireland, *britannique* is a safe choice."** Confirm the advice (*écossais* and *gallois* exist but aren't taught here).
+
+## a1-culture-politeness
+
+- **"*Mademoiselle* … is now old-fashioned for adults, and French government forms dropped it in 2012."**
+- **"The same routine applies at the pharmacy, at the doctor's, on a small bus, and when you enter a waiting room or a lift with a few other people."** Confirm the examples, especially the lift.
+- **"*Excusez-moi, …* is polite for stopping someone, and adding *bonjour* first makes you sound warmer."** Confirm this is right when stopping someone in the street.
+- **"Women often greet each other and men this way, while men more often shake hands unless they're close friends or relatives."**
+- **"How many kisses depends on where you are: two is the most common, but some regions do three or even four."**
+- **"Once you've moved to *tu* with someone, you normally stay there."**
+- **"French people generally say *bonjour* to a given person once a day … People say *rebonjour* instead."**
