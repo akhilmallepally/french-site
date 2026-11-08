@@ -64,3 +64,42 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 
 - **"*Tu as quel âge ?* is what you'll hear most in conversation. *Quel âge as-tu ?* is a little more formal."** Ranking of the variants.
 - Pronunciation hint for *il y a* (`eel-YAH`, vocab v016): reflects the usual run-together pronunciation; confirm it suits the site's respelling style.
+
+## a1-describing-people
+
+- **"You can use two at once by joining them with *et*: *les cheveux longs et noirs*, or simply *les cheveux noirs et longs*."** Confirm both orders read naturally, and whether colour-then-length is preferred.
+- **"*Il est brun*, *Elle est blonde*": "the same idea as 'she's a blonde' in English."** Confirm the comparison is fair.
+- Translation of *sérieux / sérieuse* as "serious, reliable". Confirm the "reliable" sense is safe to give at A1.
+
+## a1-adjective-agreement
+
+- **"A group that includes even one masculine noun takes the masculine plural."** Standard rule; note that some writers now use other agreement practices. Confirm the simple statement is what you want at A1.
+- **"Some adjectives … *gros*" listed under BAGS size words, translated "big, fat".** Confirm this gloss is acceptable.
+- *Des* + a BAGS adjective (formal *de petites maisons*) is deliberately not mentioned and not used in exercises. Decide if it should appear here or later.
+
+## a1-er-verbs-present
+
+- **"The great majority of French verbs end in -er, and nearly all of them follow this pattern."** Confirm the wording.
+- **"New verbs often join the family too, as in *liker*."** Confirm *liker* is the best example.
+
+## a1-likes-and-dislikes
+
+- **"From strongest to weakest: *j'adore*, *j'aime*, *j'aime bien*."** A simplification that works best for people. Confirm it holds well enough for things.
+- **"*J'aime Paul* can mean you're in love with Paul."** Confirm the phrasing.
+
+## a1-negation-ne-pas
+
+- **"In everyday speech, people very often drop the *ne*."** Confirm the frequency claim. Exercise ex009 accepts only the written form with *ne*.
+- **"*Je n'aime pas de thé*" given as wrong "for tea in general".** Confirm the qualifier.
+
+## a1-ir-re-verbs-present
+
+- **"Remembering the English meaning as 'await' helps."** Confirm this memory aid suits A1 learners.
+- *réussir* glossed "to succeed, to pass (a test)". Confirm.
+
+## a1-numbers-21-100
+
+- **"In some parts of Switzerland you may also come across *huitante*."** Confirm the wording about where it's used.
+- **"French speakers in Belgium and Switzerland mostly use simpler words."** Confirm "mostly".
+- **"Numbers ending in 1 use *et* (and) with no hyphens."** Traditional spelling. The 1990 spelling reform allows hyphens throughout (*vingt-et-un*); the answer checker treats both the same. Confirm the traditional form is what you want to teach.
+- **"The t of *vingt* is silent throughout the 80s and 90s."** Confirm for all of them, including *quatre-vingt-un* and *quatre-vingt-onze*.
