@@ -405,7 +405,6 @@ These vary by school or year, or need checking:
 
 - **"The noun being replaced has a definite word in front of it: *le*, *la*, *les*, *mon*, *ton* or *ce*, for instance."** Confirm.
 - **"Before a noun, it's an article. Before a verb, it's a pronoun."** Confirm as a rule of thumb.
-- *Tu l'aimes, ce restaurant ?* is a dislocated sentence, used in an example with a translation. Confirm it's suitable here.
 
 ## a2-indirect-object-pronouns
 
@@ -417,5 +416,33 @@ These vary by school or year, or need checking:
 
 - **"It's the same little *y*"** (in *il y a*). Confirm.
 - **"French speakers use [*J'y vais*] all the time to say 'I'm off'."** Confirm the register.
-- *Le tennis ? J'y joue.* Confirm it's natural.
+- *Tu joues au tennis ? Oui, j'y joue.* Confirm it's natural.
 - *Je pense à lui* is the only sentence with *à* + stressed pronoun, as you asked.
+
+## a2-quantities
+
+- **"*Un peu de* goes with things you can't count, such as milk or time. It isn't used with things you can count, such as apples."** Exact wording to check.
+- **"[*Une livre*] … means half a kilo."** Confirm its use at markets.
+- *J'ai assez de courses !* in the mini-dialogue. Confirm it's natural.
+
+## a2-pronoun-en
+
+- **"It's different from the preposition *en* that you know from *en été* and *en France*."**
+- **"The number stays, at the end of the sentence."**
+- *Il y a des pommes ? Oui, je vais en prendre.* uses a question with *il y a*, but not *il y en a*. Confirm.
+- **Unsure of one answer:** ex010 accepts *Tu en veux*, *Est-ce que tu en veux* and *En veux-tu*.
+
+## a2-pronouns-in-passe-compose
+
+Every agreement and no-agreement case, for a human to verify:
+
+- **Agrees with a direct object before the verb:** *Je l'ai vue*, *Je les ai vus*, *Je les ai vues*, *Il m'a vue*, *Il nous a vus*, *Je l'ai écrite*, *Je l'ai prise*, *Je l'ai faite*, *Je les ai prises*; exercises ex002 *vue*, ex003 *prises*, ex004 *vus*, ex005 *vues*, ex006 *vue*, ex010 *lue*, ex011 *vue*, ex012 *vus*.
+- **Masculine singular, no added ending:** *Je l'ai vu*, *Il m'a appelé*, *Je ne l'ai pas vu*; ex001 *regardé*.
+- **No agreement with lui / leur / y / en:** *Elle lui a parlé*, *Je lui ai parlé*, *J'y ai mangé*, *J'en ai mangé*, *J'en ai pris trois*; ex007, ex009.
+- **Être verbs, agreeing with the subject:** *Nous y sommes allés*, *Marie y est allée*; ex008.
+- **"With participles ending in a consonant, you can hear the feminine, because the consonant gets pronounced."** Confirm it holds for all the forms listed.
+
+## a2-review-pronouns
+
+- **"The first *Paul* and the first *le match* stay, because the reader needs to know who and what you mean."**
+- *Elle l'a prise au marché* appears in the model for *la salade*. Confirm the agreement.

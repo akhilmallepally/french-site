@@ -166,9 +166,9 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 30 | a2-direct-object-pronouns | Direct object pronouns | Pronouns in action | grammar | a1-definite-articles, a1-negation-ne-pas, a2-review-work | le, la, l', les, me, te, nous, vous; position before the verb; position before an infinitive after aller, pouvoir, vouloir (je vais le faire). Reuses: food, clothes. |
 | 31 | a2-indirect-object-pronouns | Indirect object pronouns | Pronouns in action | grammar | a2-direct-object-pronouns | lui, leur; verbs with à (parler à, téléphoner à, donner à). Reuses: family, phone calls. |
 | 32 | a2-pronoun-y | The pronoun y | Pronouns in action | grammar | a1-contractions-a-de, a2-direct-object-pronouns, a2-indirect-object-pronouns, a2-stressed-pronouns | y for places and à + thing; on y va. Reuses: places in town. |
-| 33 | a2-quantities | Expressions of quantity | Pronouns in action | vocabulary | a1-partitive-articles | beaucoup de, un peu de, assez de, un kilo de, une bouteille de; de after quantity. |
+| 33 | a2-quantities | Expressions of quantity | Pronouns in action | vocabulary | a1-partitive-articles, a2-adverbs-ment | beaucoup de, un peu de, assez de, un kilo de, une bouteille de; de after quantity. |
 | 34 | a2-pronoun-en | The pronoun en | Pronouns in action | grammar | a2-pronoun-y, a2-quantities | en for partitives and quantities (j'en veux deux), en with de-verbs. Reuses: food, quantities. |
-| 35 | a2-pronouns-in-passe-compose | Pronouns in the passé composé | Pronouns in action | grammar | a2-pronoun-en, a2-indirect-object-pronouns, a2-passe-compose-etre | Position before the auxiliary; agreement with preceding direct objects. Reuses: weekend stories, shopping. |
+| 35 | a2-pronouns-in-passe-compose | Pronouns in the passé composé | Pronouns in action | grammar | a2-pronoun-en, a2-indirect-object-pronouns, a2-passe-compose-etre, a2-reflexive-passe-compose | Position before the auxiliary; agreement with preceding direct objects. Reuses: weekend stories, shopping. |
 | 36 | a2-review-pronouns | Review: Pronouns in action | Pronouns in action | review | a2-stressed-pronouns, a2-pronouns-in-passe-compose | Rewrite short texts replacing nouns with pronouns. |
 
 ### Unit 6: Travel and plans
