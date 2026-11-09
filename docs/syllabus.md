@@ -175,11 +175,11 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 37 | a2-travel-and-transport | Travel and transport | Travel and plans | vocabulary | a1-places-in-town | Train, plane, ticket, platform, luggage; en train / à pied. |
-| 38 | a2-prepositions-with-places | Prepositions: countries, cities and more | Travel and plans | grammar | a1-countries-nationalities, a1-contractions-a-de | à Paris, en France, au Canada, aux États-Unis; venir de / du / des; dans, chez, avec, sans, pour. Reuses: countries, travel. |
-| 39 | a2-futur-simple | The futur simple | Travel and plans | grammar | a1-near-future, a2-irregular-verbs-present | Formation, irregular stems (ser-, aur-, ir-, fer-), near future vs futur simple. Reuses: travel plans, weather. |
-| 40 | a2-booking-a-hotel | Booking a hotel | Travel and plans | communication | a2-travel-and-transport, a1-modal-verbs, a1-days-months-dates | Reservations, dates, rooms, problems at check-in, by message or in person. |
-| 41 | a2-invitations | Invitations: accepting and declining | Travel and plans | communication | a1-near-future, a1-modal-verbs | Tu es libre samedi ?, ça te dit de…, je ne peux pas parce que… |
+| 37 | a2-travel-and-transport | Travel and transport | Travel and plans | vocabulary | a1-places-in-town, a2-review-work | Train, plane, ticket, platform, luggage; en train / à pied. |
+| 38 | a2-prepositions-with-places | Prepositions: countries, cities and more | Travel and plans | grammar | a1-countries-nationalities, a1-contractions-a-de, a2-travel-and-transport, a2-review-pronouns | à Paris, en France, au Canada, aux États-Unis; venir de / du / des; dans, chez, avec, sans, pour. Reuses: countries, travel. |
+| 39 | a2-futur-simple | The futur simple | Travel and plans | grammar | a1-near-future, a2-irregular-verbs-present, a2-prepositions-with-places | Formation, irregular stems (ser-, aur-, ir-, fer-), near future vs futur simple. Reuses: travel plans, weather. |
+| 40 | a2-booking-a-hotel | Booking a hotel | Travel and plans | communication | a2-travel-and-transport, a1-modal-verbs, a1-days-months-dates, a2-prepositions-with-places, a1-writing-a-short-message | Reservations, dates, rooms, problems at check-in, by message or in person. |
+| 41 | a2-invitations | Invitations: accepting and declining | Travel and plans | communication | a1-near-future, a1-modal-verbs, a2-prepositions-with-places, a1-writing-a-short-message | Tu es libre samedi ?, ça te dit de…, je ne peux pas parce que… |
 | 42 | a2-culture-francophone-world | The francophone world | Travel and plans | culture | a2-prepositions-with-places | Where French is spoken: Europe, Africa, Canada, the Caribbean, the Pacific; local variation. |
 | 43 | a2-review-travel | Review: Travel and plans | Travel and plans | review | a2-futur-simple, a2-booking-a-hotel, a2-invitations, a2-culture-francophone-world | Plan a trip in writing: route, booking, invitations. |
 

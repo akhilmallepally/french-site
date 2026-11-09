@@ -423,7 +423,7 @@ These vary by school or year, or need checking:
 
 - **"*Un peu de* goes with things you can't count, such as milk or time. It isn't used with things you can count, such as apples."** Exact wording to check.
 - **"[*Une livre*] … means half a kilo."** Confirm its use at markets.
-- *J'ai assez de courses !* in the mini-dialogue. Confirm it's natural.
+- *Oui, merci. Tu as assez de lait ?* in the mini-dialogue switches to *tu* with a stallholder addressed as *vous* earlier. Confirm it reads naturally.
 
 ## a2-pronoun-en
 
@@ -440,9 +440,62 @@ Every agreement and no-agreement case, for a human to verify:
 - **Masculine singular, no added ending:** *Je l'ai vu*, *Il m'a appelé*, *Je ne l'ai pas vu*; ex001 *regardé*.
 - **No agreement with lui / leur / y / en:** *Elle lui a parlé*, *Je lui ai parlé*, *J'y ai mangé*, *J'en ai mangé*, *J'en ai pris trois*; ex007, ex009.
 - **Être verbs, agreeing with the subject:** *Nous y sommes allés*, *Marie y est allée*; ex008.
-- **"With participles ending in a consonant, you can hear the feminine, because the consonant gets pronounced."** Confirm it holds for all the forms listed.
+- **"Agreement is silent for many participles: *vu* and *vue* sound the same, and so do *mangé* and *mangée*. It's audible for others, where a consonant comes back: *pris* and *prise*, *fait* and *faite*."** Confirm it holds for all the forms listed.
 
 ## a2-review-pronouns
 
 - **"The first *Paul* and the first *le match* stay, because the reader needs to know who and what you mean."**
 - *Elle l'a prise au marché* appears in the model for *la salade*. Confirm the agreement.
+
+## a2-travel-and-transport
+
+- **"En for something enclosed … À for something you ride on, or on foot."** Rule of thumb; *en bus* and *à moto* fit it. Confirm *à vélo* over the also-heard *en vélo*.
+- **"At a big French station, the platform is often only shown on the departures board a short time before the train leaves."**
+- *Le train a du retard* uses *du* in a fixed phrase. Confirm.
+
+## a2-prepositions-with-places
+
+- **"As a rule of thumb, a country ending in -e is usually feminine."** Exceptions named: *le Mexique*, *le Cambodge*, *le Mozambique*, *le Zimbabwe*.
+- **"*À la maison* means 'at home', and *dans la maison* puts more stress on being inside the house."**
+- *Le train pour Lyon* and *Je suis ici pour apprendre* as uses of *pour*. Confirm.
+- *Tu viens d'où ?* in the dialogue. Confirm it suits this level.
+- *Ce cadeau est pour toi* uses *ce*. Confirm.
+
+## a2-futur-simple
+
+- **"The near future … common for plans and things coming soon. The futur simple is common for things further ahead, for promises, for predictions, and in formal writing."** Wording to check.
+- **"-ai and -ez sound alike."**
+- **"The endings are avoir"** (tip): confirm the comparison.
+- *Quel temps fera-t-il demain ?* uses inversion with *-t-*. Confirm it isn't too formal here.
+- Respellings in `-RAY` for *-rai* and *-rez*.
+
+## a2-booking-a-hotel
+
+- **"[La salle de bains] doesn't always include a toilet in France."**
+- *Une chambre* as "a bedroom", and *une pièce* for any room. Confirm.
+- *Quel est le prix ?* is on your list; it's a noun-subject inversion with *être*. Confirm it's fine.
+- **Unsure of one answer:** ex008 offers *changer la de chambre* as a distractor; confirm it's obviously wrong.
+
+## a2-invitations
+
+- **"A bare *Non* or *Je ne veux pas* can sound rude."**
+- **"*Je ne peux pas* … sounds as if you'd have liked to come."**
+- *Voulez-vous venir dîner ?* Confirm it's natural formally.
+- *Ça te dit de…* as a register note: *Ça te dit* is informal, so it isn't for *vous*.
+
+## a2-culture-francophone-world
+
+Figure-like, official-status and geography claims to verify:
+
+- **"It's spoken by hundreds of millions of people, on several continents."**
+- **"In some places it's an official language. In others, it's widely used in education, business or everyday life."**
+- Belgium, Switzerland, Luxembourg and Monaco as French-speaking; Québec and elsewhere in Canada; Guadeloupe, Martinique and Haïti; Sénégal, Côte d'Ivoire and Cameroun; the Maghreb; Tahiti and New Caledonia.
+- **"In parts of Belgium, Switzerland and Québec, *le déjeuner* can be the morning meal, *le dîner* is at midday, and *le souper* is in the evening."**
+- *La fin de semaine* and *magasiner* as Québécois words.
+- *Je parle aussi wolof* in the dialogue. Confirm.
+- **Unsure of one answer:** ex004 (*à Tahiti*) relies on the cue given in the prompt.
+
+## a2-review-travel
+
+- *Beaucoup de choses à voir* uses *à* + infinitive. Confirm it's fine here.
+- *L'été prochain* isn't taught as a set phrase, but it follows *la semaine prochaine*.
