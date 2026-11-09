@@ -423,7 +423,7 @@ These vary by school or year, or need checking:
 
 - **"*Un peu de* goes with things you can't count, such as milk or time. It isn't used with things you can count, such as apples."** Exact wording to check.
 - **"[*Une livre*] … means half a kilo."** Confirm its use at markets.
-- *Oui, merci. Tu as assez de lait ?* in the mini-dialogue switches to *tu* with a stallholder addressed as *vous* earlier. Confirm it reads naturally.
+- *C'est tout ? Vous avez assez de lait ?* in the mini-dialogue. Asked by the stallholder, with *vous* throughout. Confirm it reads naturally.
 
 ## a2-pronoun-en
 
@@ -441,6 +441,7 @@ Every agreement and no-agreement case, for a human to verify:
 - **No agreement with lui / leur / y / en:** *Elle lui a parlé*, *Je lui ai parlé*, *J'y ai mangé*, *J'en ai mangé*, *J'en ai pris trois*; ex007, ex009.
 - **Être verbs, agreeing with the subject:** *Nous y sommes allés*, *Marie y est allée*; ex008.
 - **"Agreement is silent for many participles: *vu* and *vue* sound the same, and so do *mangé* and *mangée*. It's audible for others, where a consonant comes back: *pris* and *prise*, *fait* and *faite*."** Confirm it holds for all the forms listed.
+- **"*Me*, *te*, *nous* and *vous* can also be indirect objects … Then there's no agreement, even for a woman: *Elle m'a téléphoné*, *Il t'a parlé*."** Confirm.
 
 ## a2-review-pronouns
 
@@ -471,7 +472,7 @@ Every agreement and no-agreement case, for a human to verify:
 
 ## a2-booking-a-hotel
 
-- **"[La salle de bains] doesn't always include a toilet in France."**
+- **"*la salle de bains* has a shower or bath and a basin."** Confirm.
 - *Une chambre* as "a bedroom", and *une pièce* for any room. Confirm.
 - *Quel est le prix ?* is on your list; it's a noun-subject inversion with *être*. Confirm it's fine.
 - **Unsure of one answer:** ex008 offers *changer la de chambre* as a distractor; confirm it's obviously wrong.
@@ -499,3 +500,42 @@ Figure-like, official-status and geography claims to verify:
 
 - *Beaucoup de choses à voir* uses *à* + infinitive. Confirm it's fine here.
 - *L'été prochain* isn't taught as a set phrase, but it follows *la semaine prochaine*.
+
+## a2-comparatives
+
+- **"The s of *plus* is usually silent before a consonant: *plus grand*. Before a vowel it's pronounced, and it joins on to the next word: *plus intéressant*."** Exact wording to check.
+- **"*Moins bon* … *C'est moins bon que l'autre.*"** (tip): confirm the tactful register.
+- *plus de* is respelled `plew duh` in the vocab, to match the rule above, although the s is often pronounced in *plus de*, and in *plus* after a verb. Confirm.
+- *Ça va mieux* is used as a fixed phrase.
+
+## a2-superlatives
+
+- **"[Le meilleur] usually goes before its noun."**
+- **"BAGS adjectives … can stay before it, or they can go after it with the article repeated. Both are correct."**
+- **Reorder exercises:** your brief asks for both orders with BAGS adjectives in reorder answers. The chip list can only build one order, because *la ville la plus grande* needs a second article. So both reorder exercises use non-BAGS items, and only the typed ex009 and ex010 accept both orders. *Le restaurant le meilleur de Paris* (ex010) is accepted because of the BAGS rule, but it's much rarer than *le meilleur restaurant*. Confirm.
+
+## a2-home-and-chores
+
+- **"In France, *les toilettes* are usually a separate room, not part of the bathroom."**
+- *un tapis* glossed "a rug, a carpet". Confirm.
+- **"When someone describes a flat as having *trois pièces*, they usually don't count the kitchen or the bathroom."** Confirm.
+- *Je vais les sortir* appears in the mini-dialogue (pronoun before the infinitive). Confirm it's natural here.
+
+## a2-relative-qui-que-ou
+
+Every participle after *que*, for checking:
+
+- *écrite*, *prises*, *prise*, *faite*, *vue* agree with feminine or plural nouns; *vu* and ex009 *acheté* are masculine singular.
+- **"These aren't the question words … even though they look the same."** Confirm.
+- **"Use [où] when the clause says what happens in that place or at that time … If the place is the direct object of the next verb, it's still *que*."** Confirm the wording.
+- **Exercises I'm not sure about:** ex004 here, a2-describing-your-town ex004 and a2-review-comparing ex005 treat *où* as the only answer after *habiter*, because *habiter* with a direct object (*la ville que j'habite*) is rare. Confirm.
+
+## a2-describing-your-town
+
+- **"J'ai trouvé un appartement pas cher en banlieue."** *Pas cher* after a noun, as a fixed phrase. Confirm.
+- *Avant* in ex001 and the examples isn't in a vocab table. Confirm.
+
+## a2-review-comparing
+
+- **"La cuisine que j'ai rangée hier"**: the participle agrees with *la cuisine*.
+- City names are only compared through *ville* (*Lille est une ville plus animée que Nice*), to avoid the varying gender of city names; a2-comparatives uses the masculine in *Lyon est plus grand que Dijon*. Confirm.

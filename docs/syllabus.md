@@ -187,10 +187,10 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 44 | a2-comparatives | Comparatives | Comparing and describing | grammar | a1-adjective-agreement, a2-adverbs-ment | plus / moins / aussi … que; autant de; meilleur, mieux. Reuses: describing people, towns. |
+| 44 | a2-comparatives | Comparatives | Comparing and describing | grammar | a1-adjective-agreement, a2-adverbs-ment, a2-review-travel | plus / moins / aussi … que; autant de; meilleur, mieux. Reuses: describing people, towns. |
 | 45 | a2-superlatives | Superlatives | Comparing and describing | grammar | a2-comparatives | le plus / le moins, le meilleur, le mieux; position with adjectives. Reuses: travel destinations, food. |
-| 46 | a2-home-and-chores | Home and household chores | Comparing and describing | vocabulary | a1-prepositions-of-place | Rooms, furniture, faire la vaisselle / le ménage. |
-| 47 | a2-relative-qui-que-ou | Relative pronouns qui, que, où | Comparing and describing | grammar | a2-direct-object-pronouns, a1-question-words | Subject vs object relatives; où for place and time. Reuses: home, describing people, places in town. |
+| 46 | a2-home-and-chores | Home and household chores | Comparing and describing | vocabulary | a1-prepositions-of-place, a2-review-travel, a2-childhood-memories, a2-il-faut-and-advice | Rooms, furniture, faire la vaisselle / le ménage. |
+| 47 | a2-relative-qui-que-ou | Relative pronouns qui, que, où | Comparing and describing | grammar | a2-direct-object-pronouns, a1-question-words, a2-home-and-chores | Subject vs object relatives; où for place and time. Reuses: home, describing people, places in town. |
 | 48 | a2-describing-your-town | Describing where you live | Comparing and describing | communication | a2-superlatives, a2-relative-qui-que-ou, a2-home-and-chores | Home, neighbourhood and town; comparing places you have lived. |
 | 49 | a2-review-comparing | Review: Comparing and describing | Comparing and describing | review | a2-describing-your-town | Compare two cities or two homes in a paragraph. |
 
