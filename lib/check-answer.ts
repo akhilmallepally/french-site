@@ -7,6 +7,8 @@ export type AnswerResult = {
   status: AnswerStatus;
   /** The accepted answer that matched, properly accented. If nothing matched, the first accepted answer. */
   expected: string;
+  /** Set when the answer only failed on its accents, in a strictAccents exercise. */
+  accentMismatch?: boolean;
 };
 
 /**
@@ -31,8 +33,11 @@ export function stripAccents(text: string): string {
   return text.normalize("NFD").replace(/\p{M}/gu, "").normalize("NFC");
 }
 
-/** Checks typed or built answers. Accent-less input is never reported as an exact match. */
-export function checkAnswer(input: string, answers: string[]): AnswerResult {
+/**
+ * Checks typed or built answers. Accent-less input is never reported as an exact match.
+ * With strictAccents, an answer that only matches without its accents is incorrect.
+ */
+export function checkAnswer(input: string, answers: string[], strictAccents = false): AnswerResult {
   const given = normalizeAnswer(input);
   if (given) {
     const exact = answers.find((a) => normalizeAnswer(a) === given);
@@ -40,7 +45,11 @@ export function checkAnswer(input: string, answers: string[]): AnswerResult {
 
     const bare = stripAccents(given);
     const nearly = answers.find((a) => stripAccents(normalizeAnswer(a)) === bare);
-    if (nearly !== undefined) return { status: "correct-accents", expected: nearly };
+    if (nearly !== undefined) {
+      return strictAccents
+        ? { status: "incorrect", expected: nearly, accentMismatch: true }
+        : { status: "correct-accents", expected: nearly };
+    }
   }
   return { status: "incorrect", expected: answers[0] };
 }

@@ -19,7 +19,13 @@ export type ExerciseType = (typeof EXERCISE_TYPES)[number];
  * `answers` lists genuinely different phrasings only; see "Lesson writing rules" in
  * CLAUDE.md and lib/check-answer.ts for what gets normalized.
  */
-type ExerciseBase = { id: string; prompt: string; answers: string[]; explanation: string };
+type ExerciseBase = {
+  id: string;
+  prompt: string;
+  answers: string[];
+  explanation: string;
+  strictAccents?: boolean; // dropping the accent gives a different valid word, so it counts as wrong
+};
 
 export type MultipleChoiceExercise = ExerciseBase & {
   type: "multiple-choice";

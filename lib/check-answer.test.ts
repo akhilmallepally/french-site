@@ -81,6 +81,37 @@ describe("checkAnswer", () => {
   });
 });
 
+describe("checkAnswer with strictAccents", () => {
+  test("an answer that only matches without accents is incorrect and keeps the accented answer", () => {
+    assert.deepEqual(checkAnswer("mange", ["mangé"], true), { status: "incorrect", expected: "mangé", accentMismatch: true });
+  });
+
+  test("wrong accents are incorrect too", () => {
+    assert.deepEqual(checkAnswer("ôu", ["où"], true), { status: "incorrect", expected: "où", accentMismatch: true });
+  });
+
+  test("reports the accepted answer that nearly matched, not the first one", () => {
+    const result = checkAnswer("Ou tu habites", ["Tu habites où", "Où tu habites"], true);
+    assert.equal(result.expected, "Où tu habites");
+  });
+
+  test("the correct accented answer is still correct", () => {
+    assert.deepEqual(checkAnswer("dû", ["dû"], true), { status: "correct", expected: "dû" });
+  });
+
+  test("a truly wrong answer has no accent mismatch", () => {
+    assert.deepEqual(checkAnswer("chat", ["mangé"], true), { status: "incorrect", expected: "mangé" });
+  });
+
+  test("capitals and punctuation are still ignored", () => {
+    assert.equal(checkAnswer("MANGÉ !", ["mangé"], true).status, "correct");
+  });
+
+  test("without strictAccents the same input is correct-accents", () => {
+    assert.equal(checkAnswer("mange", ["mangé"]).status, "correct-accents");
+  });
+});
+
 describe("checkChoice", () => {
   test("an exact option matches", () => {
     assert.deepEqual(checkChoice("Je suis français.", ["Je suis français."]), {

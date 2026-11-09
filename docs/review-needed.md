@@ -226,3 +226,17 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 ## a1-review-final
 
 - **"*Sa mère*, even for a man's mother."** Restates a1-possessive-adjectives; included for completeness. Remove if not needed.
+
+## a2-irregular-verbs-present
+
+- **"*Je lis, et je dors tôt*" (mini-dialogue).** Translated "I'm getting an early night". *Je me couche tôt* may be more natural; confirm.
+- **"The *tu* form almost always sounds like *je*, *il* usually sounds like them too, and *vous* normally follows *nous*."** A rule of thumb in the tip.
+
+## a2-past-participles-irregular
+
+- **"Verbs built on another verb usually share its participle."**
+
+## a2-passe-compose-etre
+
+- *On* with être is deliberately left out of the forms table, because agreement with *on* (*on est allés*) varies. Decide where to teach it.
+- Respellings with liaison such as `zhuh swee-zah-LAY` and `noo somm-zah-LAY`. Some of these liaisons are optional in speech. Confirm.

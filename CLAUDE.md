@@ -20,6 +20,7 @@
 - One vocab entry per concept. Don't create two entries for the same meaning (for example, alternate word orders of the same question go in one entry).
 - Vary the tip callouts across lessons. Don't repeat an idea an earlier lesson already used.
 - In pronunciation respellings, the non-nasal "on" is respelled "onn" (bonn).
+- Set strictAccents: true on an exercise when dropping the accent gives a different valid French word or verb form (mangé / mange, dû / du, à / a, où / ou, sûr / sur, passé / passe).
 - Anything uncertain goes into docs/review-needed.md.
 - When a lesson is used as the format reference for other tools, use content/lessons/a1/etre-present.mdx (a1-etre-present) as the model. The first lessons predate vocab and exercises.
 

@@ -195,9 +195,9 @@ function Question({
       if (choice === null) return;
       outcome = checkChoice(choice, exercise.answers);
     } else if (exercise.type === "reorder") {
-      outcome = checkAnswer(placed.map((c) => c.word).join(" "), exercise.answers);
+      outcome = checkAnswer(placed.map((c) => c.word).join(" "), exercise.answers, exercise.strictAccents);
     } else {
-      outcome = checkAnswer(text, exercise.answers);
+      outcome = checkAnswer(text, exercise.answers, exercise.strictAccents);
     }
     setResult(outcome);
     onAnswered(exercise.id, outcome.status);
@@ -412,7 +412,8 @@ function Feedback({ result, explanation }: { result: AnswerResult; explanation: 
         )}
         {wrong && (
           <>
-            Not quite. Accepted answer: <span lang="fr">{result.expected}</span>
+            {result.accentMismatch ? "Not quite. The accent matters here. Write: " : "Not quite. Accepted answer: "}
+            <span lang="fr">{result.expected}</span>
           </>
         )}
       </p>

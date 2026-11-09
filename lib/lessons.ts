@@ -214,6 +214,9 @@ function parseExercises(value: unknown, errors: string[]): Exercise[] {
     } else if (e.words !== undefined) {
       errors.push(`${where}: "words" is only allowed on reorder exercises`);
     }
+    if (e.strictAccents !== undefined && typeof e.strictAccents !== "boolean") {
+      errors.push(`${where}: "strictAccents" must be true or false`);
+    }
     if (e.type === "fill-in" && isText(e.prompt) && !e.prompt.includes("___")) {
       errors.push(`${where}: fill-in prompts must mark the gap with ___`);
     }
