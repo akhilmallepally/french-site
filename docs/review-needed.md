@@ -503,9 +503,9 @@ Figure-like, official-status and geography claims to verify:
 
 ## a2-comparatives
 
-- **"The s of *plus* is usually silent before a consonant: *plus grand*. Before a vowel it's pronounced, and it joins on to the next word: *plus intéressant*."** Exact wording to check.
+- **"Before a consonant, the s of *plus* is usually silent: *plus grand*. Before a vowel, it links to the next word: *plus intéressant*. In *plus de* meaning "more", the s is usually pronounced: *plus de touristes*. In *ne…plus de* (no more), it's silent: *Je n'ai plus de lait*."** For a French speaker to confirm.
 - **"*Moins bon* … *C'est moins bon que l'autre.*"** (tip): confirm the tactful register.
-- *plus de* is respelled `plew duh` in the vocab, to match the rule above, although the s is often pronounced in *plus de*, and in *plus* after a verb. Confirm.
+- *plus de … que* is respelled `plews duh … kuh` in the vocab. Confirm.
 - *Ça va mieux* is used as a fixed phrase.
 
 ## a2-superlatives
@@ -528,7 +528,7 @@ Every participle after *que*, for checking:
 - *écrite*, *prises*, *prise*, *faite*, *vue* agree with feminine or plural nouns; *vu* and ex009 *acheté* are masculine singular.
 - **"These aren't the question words … even though they look the same."** Confirm.
 - **"Use [où] when the clause says what happens in that place or at that time … If the place is the direct object of the next verb, it's still *que*."** Confirm the wording.
-- **Exercises I'm not sure about:** ex004 here, a2-describing-your-town ex004 and a2-review-comparing ex005 treat *où* as the only answer after *habiter*, because *habiter* with a direct object (*la ville que j'habite*) is rare. Confirm.
+- **Rewritten so *où* is the only answer:** ex004 here (*la ville où il y a un grand musée*), a2-describing-your-town ex004 (*le village où mes parents travaillent*) and a2-review-comparing ex005 (*le bureau où elle travaille*). Model sentences with *où j'habite* stay; *la maison que j'habite* is also grammatical.
 
 ## a2-describing-your-town
 
@@ -539,3 +539,61 @@ Every participle after *que*, for checking:
 
 - **"La cuisine que j'ai rangée hier"**: the participle agrees with *la cuisine*.
 - City names are only compared through *ville* (*Lille est une ville plus animée que Nice*), to avoid the varying gender of city names; a2-comparatives uses the masculine in *Lyon est plus grand que Dijon*. Confirm.
+
+## a2-emotions-and-feelings
+
+- *fier / fière* given one respelling (`fyehr`), and **"*fier* and *fière* sound the same."** Confirm.
+- **"*Fâchée*, *déçue*, *énervée* and *stressée* look different but sound the same as their masculine forms."** Confirm.
+- **"*Qu'est-ce qu'il y a ?* … can mean 'What's wrong?' or 'What's happening?'."** Confirm.
+- *un peu inquiet*, *très fière de son fils* and *ça me fait très plaisir*. Confirm they're natural.
+
+## a2-imperative-with-pronouns
+
+- **"Before *y* and *en*, that -s comes back, so that the two words can link together."** Confirm for *Vas-y*, *Manges-en*, *Penses-y*.
+- *Ne t'inquiète pas* is taught as a block, because *s'inquiéter* hasn't been taught as a reflexive verb. It's the only reflexive here not already taught.
+- *Dis-le-moi* glossed "Tell me." Confirm.
+- ex010 (*Donne-___-moi*) relies on the fixed pattern "*le, la, les* first".
+
+## a2-verbs-with-a-and-de
+
+- **"*Continuer de* also exists, with the same meaning."** Confirm.
+- *Essayer*: **"*j'essaie / j'essaye*… Both spellings are correct."** Confirm, and the claim that the choice covers *je*, *tu*, *il* and *ils*.
+- **Exercises where a native speaker might accept another form:** ex012 (*commencer à*) is a reorder, so *commencer de* can't be typed. *Commencer* and *continuer* appear in no choice exercise. ex009 tests only the spelling of *commençons*.
+- **"*Il continue à pleuvoir.*"** Confirm it's natural.
+
+## a2-polite-requests
+
+- **"[A bare command] … Abrupt, almost rude."** Confirm the strength of this wording, including *Donnez-moi l'addition*.
+- **"*Tu pourrais* is a little softer."** Confirm.
+- ex003 (the waiter) assumes *Pourriez-vous* is more polite than the abrupt forms offered. Confirm.
+- *Je pourrais avoir… ?* and *Tu pourrais… ?* are treated as fixed chunks, labelled as forms that B1 explains.
+
+## a2-writing-an-informal-email
+
+- **"*Tu me manques* works the opposite way round from English. In French, the person you miss is the subject: literally, 'you are lacking to me'."**
+- **"*Cordialement* … for someone you call *vous*, such as a teacher."** Confirm for a student writing to a teacher.
+- *Je t'embrasse* glossed "Love, big hug"; *Bises* glossed "Love". Confirm.
+- *P.-S.* is written with a hyphen. Confirm.
+
+## a2-culture-holidays-and-festivals
+
+Every date, tradition and regional detail, for checking:
+
+- **Noël:** 25 December, with *le réveillon* on 24 December; **"the big meal is often the evening before"**; *la bûche* ends the meal; *le sapin*; presents.
+- **Le Nouvel An:** *le réveillon de la Saint-Sylvestre* on 31 December.
+- **La galette des rois:** **"appears in early January"**; *la fève*; **"Whoever finds it wears a paper crown."**
+- **La Chandeleur:** **"on 2 February"**, with crêpes at home.
+- **Pâques:** **"in spring, and its date changes each year"**; **"Children often look for chocolate eggs in the garden."**
+- **Le 1er mai:** a public holiday; **"Many people offer each other a small bunch of lily of the valley."**
+- **La Fête de la musique:** 21 June; **"concerts are often free."**
+- **Le 14 juillet:** **"a military parade in Paris, and many towns have *des feux d'artifice*."**
+- **Regional:** carnaval de Nice **in winter**, with floats and flowers; Fête des Lumières à Lyon **in December**; Festival d'Avignon **in summer**, theatre; Festival de Cannes **in spring**, cinema.
+- **"*Bonne fête !* is what you say to someone on their saint's day, or on a special day like Mother's Day."** Confirm.
+- **"*Bonnes fêtes* … a good choice if you aren't sure what someone celebrates."** Confirm.
+- **"You can go on wishing people *Bonne année* for most of January."** (tip) Confirm.
+
+## a2-review-final
+
+- ex004 (*Il est médecin*) relies on the options offered, because *C'est* has no article there. Confirm.
+- *La ville où j'habite est plus petite que Lyon* treats Lyon only as a point of comparison, to avoid the gender of city names. Confirm.
+- **"*Il ne faut pas* means 'you mustn't', not 'you don't have to'."** Confirm.

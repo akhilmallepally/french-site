@@ -198,12 +198,12 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 50 | a2-emotions-and-feelings | Emotions and feelings | Everyday interactions | vocabulary | a1-describing-people | content, triste, fâché, inquiet, avoir peur, être de bonne humeur. |
-| 51 | a2-imperative-with-pronouns | The imperative with pronouns | Everyday interactions | grammar | a1-imperative, a2-indirect-object-pronouns, a2-pronoun-en | Donne-le-moi, ne le fais pas, vas-y, prends-en. Reuses: directions, advice, food. |
-| 52 | a2-verbs-with-a-and-de | Verbs + à / de + infinitive | Everyday interactions | grammar | a1-modal-verbs, a1-contractions-a-de | commencer à, apprendre à, essayer de, décider de, arrêter de. Reuses: work, hobbies. |
-| 53 | a2-polite-requests | Polite requests | Everyday interactions | communication | a1-modal-verbs, a2-booking-a-hotel | Je voudrais, pourriez-vous, est-ce que vous pourriez…, as fixed phrases before B1's conditional. |
-| 54 | a2-writing-an-informal-email | Writing an informal email | Everyday interactions | communication | a2-futur-simple, a2-passe-compose-vs-imparfait | Openings and closings, news, plans, a question back. |
-| 55 | a2-culture-holidays-and-festivals | Holidays and festivals | Everyday interactions | culture | a1-days-months-dates | Noël, la galette des rois, le 14 juillet, la Fête de la musique, regional festivals. |
+| 50 | a2-emotions-and-feelings | Emotions and feelings | Everyday interactions | vocabulary | a1-describing-people, a2-review-comparing | content, triste, fâché, inquiet, avoir peur, être de bonne humeur. |
+| 51 | a2-imperative-with-pronouns | The imperative with pronouns | Everyday interactions | grammar | a1-imperative, a2-indirect-object-pronouns, a2-pronoun-en, a2-emotions-and-feelings | Donne-le-moi, ne le fais pas, vas-y, prends-en. Reuses: directions, advice, food. Reflexive imperatives (lève-toi, dépêchez-vous, ne t'inquiète pas). |
+| 52 | a2-verbs-with-a-and-de | Verbs + à / de + infinitive | Everyday interactions | grammar | a1-modal-verbs, a1-contractions-a-de, a2-review-comparing | commencer à, apprendre à, essayer de, décider de, arrêter de. Reuses: work, hobbies. |
+| 53 | a2-polite-requests | Polite requests | Everyday interactions | communication | a1-modal-verbs, a2-booking-a-hotel, a2-imperative-with-pronouns | Je voudrais, pourriez-vous, est-ce que vous pourriez…, as fixed phrases before B1's conditional. |
+| 54 | a2-writing-an-informal-email | Writing an informal email | Everyday interactions | communication | a2-futur-simple, a2-passe-compose-vs-imparfait, a2-imperative-with-pronouns, a2-telling-a-story | Openings and closings, news, plans, a question back. |
+| 55 | a2-culture-holidays-and-festivals | Holidays and festivals | Everyday interactions | culture | a1-days-months-dates, a2-review-comparing | Noël, la galette des rois, le 14 juillet, la Fête de la musique, regional festivals. |
 | 56 | a2-review-final | A2 final review | Everyday interactions | review | a2-review-past, a2-review-health, a2-review-memories, a2-review-work, a2-review-pronouns, a2-review-travel, a2-review-comparing, a2-emotions-and-feelings, a2-imperative-with-pronouns, a2-verbs-with-a-and-de, a2-polite-requests, a2-writing-an-informal-email, a2-culture-holidays-and-festivals | Whole-level recap; A2 can-do checklist. |
 
 ---
