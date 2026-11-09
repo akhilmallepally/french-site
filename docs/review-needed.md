@@ -350,3 +350,47 @@ These vary by school or year, or need checking:
 ## a2-review-memories
 
 - **"Try putting 'and then' in front of the English sentence."** A rule of thumb in the tip.
+
+## a2-jobs-and-workplace
+
+- **Job titles where usage varies.** The lesson teaches *professeure*, *ingénieure* and *écrivaine*, with notes that *une professeur*, *une ingénieur* and *une écrivain* are also seen. Confirm these are the forms to teach.
+- **"*Médecin* usually stays the same for women: *une médecin*, and you'll also hear *un médecin* used of a woman."** Confirm.
+- **Unsure of one answer:** ex009 accepts both *Elle est professeure* and *Elle est professeur*, because usage varies.
+- **"Often -eur becomes -euse. Often -teur becomes -trice."** Given as a guide.
+- *le directeur / la directrice* glossed "a manager, a director". Confirm the gloss.
+
+## a2-cest-vs-il-est
+
+- **"Notice that *Il est médecin* and *C'est un médecin* mean the same thing."** Confirm.
+- **"That's true even if there's an adjective too."** (*C'est une bonne dentiste*.) Confirm.
+- *C'est qui ?* appears in the mini-dialogue. It's a casual question that uses *qui* at the end. Confirm.
+
+## a2-savoir-connaitre
+
+- **"It's a trace of an s that older French had in the word."** Confirm for *connaît*.
+- **"[Connaître is] always followed directly by a noun or a name."**
+- **"*Je peux nager.* (I'm able to swim, or I'm allowed to swim.)"** Confirm the contrast with *savoir*.
+
+## a2-depuis-pendant-il-y-a
+
+- **"With a positive verb, *depuis* takes the present: *J'habite ici depuis 2019*, and *J'ai habité ici depuis 2019* is wrong. Negative sentences with *depuis* work differently, and they come later."** Confirm the wording.
+- **"[Il y a] usually goes at the start or the end of the sentence."**
+- **Unsure of one answer:** ex007 has *pendant*, with a cue in the prompt. Without the cue, *il y a* would also be grammatical.
+
+## a2-venir-de-en-train-de
+
+- **"*En train de* adds emphasis."** Confirm.
+- **"*À l'instant* fits naturally with *venir de*, and *en ce moment* fits naturally with the present or *en train de*."**
+- **"*Elle vient de sortir à l'instant*"** Confirm it isn't redundant.
+
+## a2-phone-calls-and-messages
+
+- **"*Allô* … it's only for the phone."**
+- **"*Un SMS* and *un texto* mean the same thing, and both are common."**
+- *Vous vous trompez de numéro* and *Je vous passe…* are taught as fixed phrases.
+- **Unsure of one answer:** ex009 accepts both *Pouvez-vous répéter* and *Vous pouvez répéter*, since both are natural.
+
+## a2-review-work
+
+- *Je sais parler anglais* appears in the model. *Je parle anglais* is more usual, so confirm it's natural here.
+- *Je connais bien Nantes* is used in the model. Confirm the position of *bien*.
