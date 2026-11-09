@@ -75,26 +75,40 @@ export function ConnectionSection({
   lessons,
   planned = [],
   showLevel,
+  maxShown,
 }: {
   title: string;
   hint: string;
   lessons: LessonMeta[];
   planned?: PlannedLesson[];
   showLevel?: boolean;
+  maxShown?: number;
 }) {
   if (!lessons.length && !planned.length) return null;
+  const shown = maxShown === undefined ? lessons : lessons.slice(0, maxShown);
+  const hidden = maxShown === undefined ? [] : lessons.slice(maxShown);
   return (
     <section>
       <h2 className="font-serif text-xl font-semibold">{title}</h2>
       <p className="mt-0.5 text-sm text-muted">{hint}</p>
       <div className="mt-3 grid gap-2 sm:grid-cols-2">
-        {lessons.map((l) => (
+        {shown.map((l) => (
           <LessonChip key={l.id} lesson={l} showLevel={showLevel} />
         ))}
         {planned.map((p) => (
           <PlannedChip key={p.id} lesson={p} showLevel={showLevel} />
         ))}
       </div>
+      {hidden.length > 0 && (
+        <details className="mt-3">
+          <summary className="cursor-pointer text-sm text-muted hover:text-accent">Show {hidden.length} more</summary>
+          <div className="mt-2 grid gap-2 sm:grid-cols-2">
+            {hidden.map((l) => (
+              <LessonChip key={l.id} lesson={l} showLevel={showLevel} />
+            ))}
+          </div>
+        </details>
+      )}
     </section>
   );
 }

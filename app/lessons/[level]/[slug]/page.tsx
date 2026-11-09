@@ -6,9 +6,11 @@ import remarkGfm from "remark-gfm";
 import { ExercisePlayer } from "@/components/exercise-player";
 import { ConnectionSection, LessonChip, TypeBadge } from "@/components/lesson-ui";
 import { mdxComponents, VocabTable } from "@/components/mdx";
-import { getAllLessons, getLesson, getLessonConnections, levelToSlug, type LessonMeta } from "@/lib/lessons";
+import { compareLessons, getAllLessons, getLesson, getLessonConnections, levelToSlug, type LessonMeta } from "@/lib/lessons";
 
 type Props = PageProps<"/lessons/[level]/[slug]">;
+
+const MAX_PREREQS_SHOWN = 4;
 
 export function generateStaticParams() {
   return getAllLessons().map((l) => ({ level: levelToSlug(l.level), slug: l.slug }));
@@ -28,6 +30,9 @@ export default async function LessonPage({ params }: Props) {
 
   const { meta } = lesson;
   const links = getLessonConnections(meta.id)!;
+  const nearestFirst = [...links.prerequisites].sort((a, b) => compareLessons(b, a));
+  const nearPrereqs = nearestFirst.slice(0, MAX_PREREQS_SHOWN);
+  const earlierPrereqs = nearestFirst.slice(MAX_PREREQS_SHOWN);
 
   return (
     <main className="mx-auto max-w-3xl px-6 py-12">
@@ -59,10 +64,22 @@ export default async function LessonPage({ params }: Props) {
           <h2 className="text-sm font-semibold">Before this lesson</h2>
           <p className="mt-0.5 text-sm text-muted">This lesson assumes you&apos;ve done:</p>
           <div className="mt-3 grid gap-2 sm:grid-cols-2">
-            {links.prerequisites.map((l) => (
+            {nearPrereqs.map((l) => (
               <LessonChip key={l.id} lesson={l} showLevel={l.level !== meta.level} />
             ))}
           </div>
+          {earlierPrereqs.length > 0 && (
+            <details className="mt-3">
+              <summary className="cursor-pointer text-sm text-muted hover:text-accent">
+                Show {earlierPrereqs.length} earlier {earlierPrereqs.length === 1 ? "lesson" : "lessons"}
+              </summary>
+              <div className="mt-2 grid gap-2 sm:grid-cols-2">
+                {earlierPrereqs.map((l) => (
+                  <LessonChip key={l.id} lesson={l} showLevel={l.level !== meta.level} />
+                ))}
+              </div>
+            </details>
+          )}
         </aside>
       )}
 
@@ -100,6 +117,7 @@ export default async function LessonPage({ params }: Props) {
               title="Builds on this"
               hint="This lesson unlocks these. They list it as a prerequisite."
               lessons={links.unlocks}
+              maxShown={5}
               showLevel
             />
             <ConnectionSection

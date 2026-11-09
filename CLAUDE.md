@@ -21,6 +21,7 @@
 - Vary the tip callouts across lessons. Don't repeat an idea an earlier lesson already used.
 - In pronunciation respellings, the non-nasal "on" is respelled "onn" (bonn).
 - Set strictAccents: true on an exercise when dropping the accent gives a different valid French word or verb form (mangé / mange, dû / du, à / a, où / ou, sûr / sur, passé / passe).
+- Prerequisites: list a lesson only when this lesson directly uses something it teaches and that lesson isn't already reachable through another listed prerequisite. Prefer one nearby anchor lesson over several far ones, and keep lists to about four or fewer.
 - Anything uncertain goes into docs/review-needed.md.
 - When a lesson is used as the format reference for other tools, use content/lessons/a1/etre-present.mdx (a1-etre-present) as the model. The first lessons predate vocab and exercises.
 

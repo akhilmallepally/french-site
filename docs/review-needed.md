@@ -394,3 +394,28 @@ These vary by school or year, or need checking:
 
 - *Je sais parler anglais* appears in the model. *Je parle anglais* is more usual, so confirm it's natural here.
 - *Je connais bien Nantes* is used in the model. Confirm the position of *bien*.
+
+## a2-stressed-pronouns
+
+- **"*C'est eux* is the normal way to say 'It's them'."** Confirm.
+- **"French doesn't work like that nearly as much"** (tip: stressing a word with the voice). Confirm the wording.
+- **Unsure of one answer:** ex011 accepts both *Paul et moi, nous allons à Lyon* and *Paul et moi allons à Lyon*.
+
+## a2-direct-object-pronouns
+
+- **"The noun being replaced has a definite word in front of it: *le*, *la*, *les*, *mon*, *ton* or *ce*, for instance."** Confirm.
+- **"Before a noun, it's an article. Before a verb, it's a pronoun."** Confirm as a rule of thumb.
+- *Tu l'aimes, ce restaurant ?* is a dislocated sentence, used in an example with a translation. Confirm it's suitable here.
+
+## a2-indirect-object-pronouns
+
+- *Je lui dis bonjour*: **"*Dire à* works this way too, with a simple object."**
+- **"A few verbs with *à* behave differently, which you'll meet later."** Left unspecified on purpose.
+- *offrir* is given with its present forms in a vocab note. Confirm.
+
+## a2-pronoun-y
+
+- **"It's the same little *y*"** (in *il y a*). Confirm.
+- **"French speakers use [*J'y vais*] all the time to say 'I'm off'."** Confirm the register.
+- *Le tennis ? J'y joue.* Confirm it's natural.
+- *Je pense à lui* is the only sentence with *à* + stressed pronoun, as you asked.
