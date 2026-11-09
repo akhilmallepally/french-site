@@ -269,3 +269,45 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 ## a2-review-past
 
 - *Il y a trois mois* (chunk) and *C'était super* (fixed phrase) are used in the model. Confirm both suit a review.
+
+## a2-body-and-health
+
+- **"*J'ai un mal de tête* is correct, but *J'ai mal à la tête* is the more common way of saying it."** Confirm.
+- **"*J'ai mal au cœur* … means you feel sick."** Confirm, and that *J'ai mal à la poitrine* is the right contrast.
+- **"*Le ventre* is the general word for your stomach or belly. *L'estomac* is the organ itself."**
+
+## a2-at-the-doctor
+
+- **"In France, you'll usually ring or book online to see a doctor."**
+- **"French pharmacists are used to giving advice, and you don't need an appointment."**
+- **"*La médecine* in French is the subject you study to become a doctor."** Simplified; it also covers the practice of medicine.
+- *Depuis lundi* is used as an answer to the fixed phrase *Depuis quand ?*. Confirm.
+
+## a2-reflexive-passe-compose
+
+Every agreement and no-agreement case in the lesson, for a human to verify:
+
+- **Agrees with the subject:** *je me suis levé / levée*, *tu t'es levé / levée*, *il s'est levé*, *elle s'est levée*, *nous nous sommes levés / levées*, *vous vous êtes levé / levée / levés / levées*, *ils se sont levés*, *elles se sont levées*; *je me suis réveillé*; *nous nous sommes dépêchés*; *elles se sont reposées*; *je ne me suis pas lavé*; *elle ne s'est pas couchée*; *Léa s'est habillée*; *Paul et Marc se sont lavés*; *elle s'est blessée au genou*; *tu t'es levée*; *je me suis dépêchée*; *il s'est reposé*.
+- **Exercises that agree:** ex001 *levée*, ex002 *couché*, ex003 *réveillée*, ex004 *reposés*, ex005 *habillées*, ex007 *blessée*, ex008 *levé*, ex010 *vus*, ex012 *habillée*.
+- **No agreement, direct object follows:** *elle s'est cassé le bras*, *il s'est cassé le bras*, *il s'est lavé les mains*, *elle s'est brossé les dents*; ex006 *cassé*, ex011 *brossé*.
+- **Reciprocal, agrees:** *ils se sont vus*, *elles se sont rencontrées*; ex010 *vus*.
+- **Reciprocal, no agreement:** *ils se sont téléphoné*, *nous nous sommes téléphoné*; ex009 *téléphoné*.
+- **"As a rule of thumb, the reflexive pronoun is the direct object, so the participle agrees with the subject."**
+- **"*Au genou* has *à* in it, so it isn't a direct object."**
+- **"With *on* meaning 'we', the participle usually agrees as it would with *nous* … *on s'est levés*."**
+- **"Read as far as the participle and ask 'what?'"** (tip). A memory aid for the sentences in this lesson; confirm it doesn't mislead.
+
+## a2-il-faut-and-advice
+
+- **"It's a fixed form: the *il* doesn't refer to anyone, so you can't use it with *je* or *tu*."**
+- **"*Tu dois peut-être te reposer* (Maybe you should rest)."** Confirm it's natural as a softener.
+- **"Use *il faut* for something that's true in general … Use *devoir* when you're talking directly about one person or a group."** Confirm.
+- *Tu dois* is translated "You have to" throughout. Confirm that suits its use for advice.
+- **"Use *du*, *de la* or *un* as you'd expect."** After *il faut* + noun.
+
+## a2-adverbs-ment
+
+- **"In the passé composé, use this as a guide. Short everyday adverbs go between the auxiliary and the participle. Most -ment adverbs go after the participle."** Exact wording to check.
+- **"These two endings sound the same, with the vowel of *a*."** (-emment and -amment)
+- **"*Lent* is an exception, as you've seen: it's *lentement*."** Given so the -ent rule doesn't contradict the lesson's first example. Confirm the wording.
+- **"*Très* … doesn't go before a verb."**

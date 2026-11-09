@@ -129,10 +129,10 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
 | 10 | a2-body-and-health | The body and health | Health and the body | vocabulary | a1-avoir-present, a1-contractions-a-de | Body parts, j'ai mal à la tête / au dos, common illnesses. |
-| 11 | a2-at-the-doctor | At the doctor and pharmacy | Health and the body | communication | a2-body-and-health, a1-question-words | Describing symptoms, making an appointment, understanding instructions. |
-| 12 | a2-reflexive-passe-compose | Reflexive verbs in the passé composé | Health and the body | grammar | a2-passe-compose-etre, a1-daily-routine-reflexive | Always être; agreement; je me suis cassé le bras; reciprocal verbs (se voir, se téléphoner, se rencontrer). Reuses: daily routine, body and health. |
+| 11 | a2-at-the-doctor | At the doctor and pharmacy | Health and the body | communication | a2-body-and-health, a1-question-words, a1-imperative, a2-irregular-verbs-present | Describing symptoms, making an appointment, understanding instructions. |
+| 12 | a2-reflexive-passe-compose | Reflexive verbs in the passé composé | Health and the body | grammar | a2-passe-compose-etre, a1-daily-routine-reflexive, a2-body-and-health | Always être; agreement; je me suis cassé le bras; reciprocal verbs (se voir, se téléphoner, se rencontrer). Reuses: daily routine, body and health. |
 | 13 | a2-il-faut-and-advice | Il faut and giving simple advice | Health and the body | grammar | a1-modal-verbs, a2-body-and-health | il faut + infinitive, devoir for advice, il ne faut pas. Reuses: body and health. |
-| 14 | a2-adverbs-ment | Adverbs | Health and the body | grammar | a1-adjective-agreement | Formation from feminine adjectives; -amment / -emment; bien, mal, vite; frequency and degree adverbs (souvent, parfois, très, trop, assez; toujours and jamais come from a2-negative-expressions). Reuses: health habits, daily routine. |
+| 14 | a2-adverbs-ment | Adverbs | Health and the body | grammar | a1-adjective-agreement, a2-passe-compose-avoir, a2-past-participles-irregular, a2-negative-expressions | Formation from feminine adjectives; -amment / -emment; bien, mal, vite; frequency and degree adverbs (souvent, parfois, très, trop, assez; toujours and jamais come from a2-negative-expressions). Reuses: health habits, daily routine. |
 | 15 | a2-review-health | Review: Health and the body | Health and the body | review | a2-at-the-doctor, a2-reflexive-passe-compose, a2-il-faut-and-advice, a2-adverbs-ment | Explain an injury and get advice. |
 
 ### Unit 3: Memories and childhood
