@@ -128,22 +128,22 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 10 | a2-body-and-health | The body and health | Health and the body | vocabulary | a1-avoir-present, a1-contractions-a-de | Body parts, j'ai mal à la tête / au dos, common illnesses. |
+| 10 | a2-body-and-health | The body and health | Health and the body | vocabulary | a1-avoir-present, a1-contractions-a-de, a2-irregular-verbs-present, a1-possessive-adjectives, a1-describing-people, a1-daily-routine-reflexive | Body parts, j'ai mal à la tête / au dos, common illnesses. |
 | 11 | a2-at-the-doctor | At the doctor and pharmacy | Health and the body | communication | a2-body-and-health, a1-question-words, a1-imperative, a2-irregular-verbs-present | Describing symptoms, making an appointment, understanding instructions. |
-| 12 | a2-reflexive-passe-compose | Reflexive verbs in the passé composé | Health and the body | grammar | a2-passe-compose-etre, a1-daily-routine-reflexive, a2-body-and-health | Always être; agreement; je me suis cassé le bras; reciprocal verbs (se voir, se téléphoner, se rencontrer). Reuses: daily routine, body and health. |
-| 13 | a2-il-faut-and-advice | Il faut and giving simple advice | Health and the body | grammar | a1-modal-verbs, a2-body-and-health | il faut + infinitive, devoir for advice, il ne faut pas. Reuses: body and health. |
-| 14 | a2-adverbs-ment | Adverbs | Health and the body | grammar | a1-adjective-agreement, a2-passe-compose-avoir, a2-past-participles-irregular, a2-negative-expressions | Formation from feminine adjectives; -amment / -emment; bien, mal, vite; frequency and degree adverbs (souvent, parfois, très, trop, assez; toujours and jamais come from a2-negative-expressions). Reuses: health habits, daily routine. |
+| 12 | a2-reflexive-passe-compose | Reflexive verbs in the passé composé | Health and the body | grammar | a2-passe-compose-etre, a1-daily-routine-reflexive, a2-body-and-health, a1-review-everyday-life, a1-possessive-adjectives, a2-negative-expressions | Always être; agreement; je me suis cassé le bras; reciprocal verbs (se voir, se téléphoner, se rencontrer). Reuses: daily routine, body and health. |
+| 13 | a2-il-faut-and-advice | Il faut and giving simple advice | Health and the body | grammar | a1-modal-verbs, a2-body-and-health, a1-daily-routine-reflexive, a2-at-the-doctor, a2-irregular-verbs-present | il faut + infinitive, devoir for advice, il ne faut pas. Reuses: body and health. |
+| 14 | a2-adverbs-ment | Adverbs | Health and the body | grammar | a1-adjective-agreement, a2-passe-compose-avoir, a2-past-participles-irregular, a2-negative-expressions, a2-at-the-doctor, a1-review-free-time, a1-telling-time | Formation from feminine adjectives; -amment / -emment; bien, mal, vite; frequency and degree adverbs (souvent, parfois, très, trop, assez; toujours and jamais come from a2-negative-expressions). Reuses: health habits, daily routine. |
 | 15 | a2-review-health | Review: Health and the body | Health and the body | review | a2-at-the-doctor, a2-reflexive-passe-compose, a2-il-faut-and-advice, a2-adverbs-ment | Explain an injury and get advice. |
 
 ### Unit 3: Memories and childhood
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 16 | a2-imparfait-formation | The imparfait | Memories and childhood | grammar | a2-passe-compose-avoir, a2-irregular-verbs-present | Formation from the nous stem; être as the exception; habits and descriptions. Reuses: family, hobbies. |
-| 17 | a2-childhood-memories | Childhood memories | Memories and childhood | communication | a2-imparfait-formation | Quand j'étais petit(e)…, describing old habits, school, friends. |
-| 18 | a2-passe-compose-vs-imparfait | Passé composé or imparfait? | Memories and childhood | grammar | a2-imparfait-formation, a2-passe-compose-etre | Background vs event, interrupted action, signal words. Reuses: childhood memories, weekend stories. |
+| 16 | a2-imparfait-formation | The imparfait | Memories and childhood | grammar | a2-passe-compose-avoir, a2-irregular-verbs-present, a1-etre-present, a1-describing-people, a1-weather-seasons, a2-adverbs-ment | Formation from the nous stem; être as the exception; habits and descriptions. Reuses: family, hobbies. |
+| 17 | a2-childhood-memories | Childhood memories | Memories and childhood | communication | a2-imparfait-formation, a1-possessive-adjectives, a1-hobbies-and-sports, a1-question-words | Quand j'étais petit(e)…, describing old habits, school, friends. |
+| 18 | a2-passe-compose-vs-imparfait | Passé composé or imparfait? | Memories and childhood | grammar | a2-imparfait-formation, a2-passe-compose-etre, a2-time-expressions-past, a2-past-participles-irregular | Background vs event, interrupted action, signal words. Reuses: childhood memories, weekend stories. |
 | 19 | a2-telling-a-story | Telling a simple story | Memories and childhood | communication | a2-passe-compose-vs-imparfait | d'abord, ensuite, puis, soudain, enfin; structuring a short narrative. |
-| 20 | a2-culture-french-school-system | The French school system | Memories and childhood | culture | a2-childhood-memories | École, collège, lycée, le bac, the school week, grading out of 20. |
+| 20 | a2-culture-french-school-system | The French school system | Memories and childhood | culture | a2-childhood-memories, a2-numbers-years-ordinals | École, collège, lycée, le bac, the school week, grading out of 20. |
 | 21 | a2-review-memories | Review: Memories and childhood | Memories and childhood | review | a2-telling-a-story, a2-culture-french-school-system | Write a childhood story mixing both past tenses. |
 
 ### Unit 4: Work and studies

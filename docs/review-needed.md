@@ -300,7 +300,7 @@ Every agreement and no-agreement case in the lesson, for a human to verify:
 ## a2-il-faut-and-advice
 
 - **"It's a fixed form: the *il* doesn't refer to anyone, so you can't use it with *je* or *tu*."**
-- **"*Tu dois peut-être te reposer* (Maybe you should rest)."** Confirm it's natural as a softener.
+- **"*Il faut* doesn't point at anyone, so *Il faut se reposer* feels less bossy than *Tu dois te reposer*."** Confirm the register note.
 - **"Use *il faut* for something that's true in general … Use *devoir* when you're talking directly about one person or a group."** Confirm.
 - *Tu dois* is translated "You have to" throughout. Confirm that suits its use for advice.
 - **"Use *du*, *de la* or *un* as you'd expect."** After *il faut* + noun.
@@ -311,3 +311,42 @@ Every agreement and no-agreement case in the lesson, for a human to verify:
 - **"These two endings sound the same, with the vowel of *a*."** (-emment and -amment)
 - **"*Lent* is an exception, as you've seen: it's *lentement*."** Given so the -ent rule doesn't contradict the lesson's first example. Confirm the wording.
 - **"*Très* … doesn't go before a verb."**
+
+## a2-imparfait-formation
+
+- **"Three endings of the six sound exactly alike: -ais, -ait and -aient."**
+- **"Only -ions and -iez can be heard as different."** Confirm, given that *parlions* and *parliez* are close to the present forms.
+- Respellings use EH for these endings (`par-LEH`), and `noo-zay-tew-dee-YOHN` for *nous étudiions*. Confirm.
+
+## a2-childhood-memories
+
+- **"French memories nearly always start the same way."** A generalisation about *Quand j'étais petit(e)*.
+- **"*Le maître / la maîtresse*"** given for a primary school teacher. Confirm it's natural alongside *le professeur des écoles*.
+
+## a2-passe-compose-vs-imparfait
+
+- **"*Toujours* (always) isn't a reliable signal on its own: *J'ai toujours habité ici* … is common French."** Confirm the wording.
+- **"Actions still going on at that moment"** (imparfait, table).
+- **"Think of it like this: the imparfait tells you how things were, and the passé composé tells you what happened next."**
+
+## a2-telling-a-story
+
+- **"*Ce jour-là* often introduces the scene, in the imparfait, and *un jour* often introduces the first event, in the passé composé."** Confirm.
+- **"The connector usually goes first in the sentence, and it's often followed by a comma."** *Puis* usually isn't followed by a comma.
+
+## a2-culture-french-school-system
+
+These vary by school or year, or need checking:
+
+- **"Le collège takes children from about eleven to fifteen."** Exact ages at each stage.
+- **"Le lycée takes teenagers from about fifteen to about eighteen."** Also *lycée professionnel*, which isn't mentioned.
+- **"The school week isn't the same everywhere: it varies by town and by school."**
+- **"In many places, younger children have no lessons on Wednesdays, or only part of the day, but that isn't fixed."**
+- **"Marks are usually given out of 20, so a mark of 10 is around the halfway point. A very high mark is rare."** Pass marks and marking culture vary.
+- **"It's the exam that opens the way to higher education."** How the bac is assessed isn't described, on purpose.
+- **"For higher education, French uses *l'université* or other words."**
+- **"Ma fille est en cinquième" glossed "second year of middle school".** Confirm the translations of class names.
+
+## a2-review-memories
+
+- **"Try putting 'and then' in front of the English sentence."** A rule of thumb in the tip.
