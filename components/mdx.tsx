@@ -53,7 +53,8 @@ export function LessonLink({ id, text, children }: { id: string; text?: string; 
     if (planned) {
       return (
         <span>
-          {label ?? planned.title} <ComingSoon />
+          {label ?? planned.title}
+          <ComingSoon className="ml-1.5" />
         </span>
       );
     }

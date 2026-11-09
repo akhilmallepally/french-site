@@ -120,8 +120,8 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 4 | a2-passe-compose-etre | Passé composé with être | Talking about the past | grammar | a2-passe-compose-avoir, a1-etre-present | Motion/change-of-state verbs, participle agreement. Reuses: getting around, places in town. |
 | 5 | a2-numbers-years-ordinals | Numbers over 100, ordinals and years | Talking about the past | vocabulary | a1-numbers-21-100 | cent, mille, million; years (en 2019); ordinals (deuxième, troisième); dates of birth; prices over 100. |
 | 6 | a2-time-expressions-past | Time expressions for the past | Talking about the past | vocabulary | a2-passe-compose-avoir, a2-numbers-years-ordinals | hier, avant-hier, la semaine dernière, il y a deux jours ("il y a" + duration as a chunk, owned by a2-depuis-pendant-il-y-a), déjà, pas encore. |
-| 7 | a2-negative-expressions | ne…jamais, rien, personne, plus | Talking about the past | grammar | a1-negation-ne-pas, a2-passe-compose-etre | Other negations in present and passé composé; personne's position; positive counterparts (quelque chose / rien, quelqu'un / personne, toujours / jamais, encore / plus). Reuses: daily routine, weekend activities. |
-| 8 | a2-talking-about-your-weekend | Talking about your weekend | Talking about the past | communication | a2-passe-compose-etre, a2-time-expressions-past | Telling and asking what someone did; Tu as passé un bon week-end ? |
+| 7 | a2-negative-expressions | ne…jamais, rien, personne, plus | Talking about the past | grammar | a1-negation-ne-pas, a2-passe-compose-etre, a2-past-participles-irregular | Other negations in present and passé composé; personne's position; positive counterparts (quelque chose / rien, quelqu'un / personne, toujours / jamais, encore / plus). Reuses: daily routine, weekend activities. |
+| 8 | a2-talking-about-your-weekend | Talking about your weekend | Talking about the past | communication | a2-passe-compose-etre, a2-time-expressions-past, a2-past-participles-irregular | Telling and asking what someone did; Tu as passé un bon week-end ? |
 | 9 | a2-review-past | Review: Talking about the past | Talking about the past | review | a2-past-participles-irregular, a2-negative-expressions, a2-talking-about-your-weekend | Write about last weekend and last holiday. |
 
 ### Unit 2: Health and the body
@@ -132,7 +132,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 11 | a2-at-the-doctor | At the doctor and pharmacy | Health and the body | communication | a2-body-and-health, a1-question-words | Describing symptoms, making an appointment, understanding instructions. |
 | 12 | a2-reflexive-passe-compose | Reflexive verbs in the passé composé | Health and the body | grammar | a2-passe-compose-etre, a1-daily-routine-reflexive | Always être; agreement; je me suis cassé le bras; reciprocal verbs (se voir, se téléphoner, se rencontrer). Reuses: daily routine, body and health. |
 | 13 | a2-il-faut-and-advice | Il faut and giving simple advice | Health and the body | grammar | a1-modal-verbs, a2-body-and-health | il faut + infinitive, devoir for advice, il ne faut pas. Reuses: body and health. |
-| 14 | a2-adverbs-ment | Adverbs | Health and the body | grammar | a1-adjective-agreement | Formation from feminine adjectives; -amment / -emment; bien, mal, vite; frequency and degree adverbs (toujours, souvent, parfois, très, trop, assez). Reuses: health habits, daily routine. |
+| 14 | a2-adverbs-ment | Adverbs | Health and the body | grammar | a1-adjective-agreement | Formation from feminine adjectives; -amment / -emment; bien, mal, vite; frequency and degree adverbs (souvent, parfois, très, trop, assez; toujours and jamais come from a2-negative-expressions). Reuses: health habits, daily routine. |
 | 15 | a2-review-health | Review: Health and the body | Health and the body | review | a2-at-the-doctor, a2-reflexive-passe-compose, a2-il-faut-and-advice, a2-adverbs-ment | Explain an injury and get advice. |
 
 ### Unit 3: Memories and childhood
@@ -165,7 +165,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 29 | a2-stressed-pronouns | Stressed pronouns | Pronouns in action | grammar | a1-subject-pronouns | moi, toi, lui, elle, nous, vous, eux, elles; moi aussi / moi non plus; chez moi. Reuses: family, likes and dislikes. |
 | 30 | a2-direct-object-pronouns | Direct object pronouns | Pronouns in action | grammar | a1-definite-articles, a1-negation-ne-pas | le, la, l', les, me, te, nous, vous; position before the verb; position before an infinitive after aller, pouvoir, vouloir (je vais le faire). Reuses: food, clothes. |
 | 31 | a2-indirect-object-pronouns | Indirect object pronouns | Pronouns in action | grammar | a2-direct-object-pronouns | lui, leur; verbs with à (parler à, téléphoner à, donner à). Reuses: family, phone calls. |
-| 32 | a2-pronoun-y | The pronoun y | Pronouns in action | grammar | a1-contractions-a-de, a2-direct-object-pronouns | y for places and à + thing; on y va. Reuses: places in town, travel. |
+| 32 | a2-pronoun-y | The pronoun y | Pronouns in action | grammar | a1-contractions-a-de, a2-direct-object-pronouns | y for places and à + thing; on y va. Reuses: places in town. |
 | 33 | a2-quantities | Expressions of quantity | Pronouns in action | vocabulary | a1-partitive-articles | beaucoup de, un peu de, assez de, un kilo de, une bouteille de; de after quantity. |
 | 34 | a2-pronoun-en | The pronoun en | Pronouns in action | grammar | a2-pronoun-y, a2-quantities | en for partitives and quantities (j'en veux deux), en with de-verbs. Reuses: food, quantities. |
 | 35 | a2-pronouns-in-passe-compose | Pronouns in the passé composé | Pronouns in action | grammar | a2-pronoun-en, a2-indirect-object-pronouns, a2-passe-compose-etre | Position before the auxiliary; agreement with preceding direct objects. Reuses: weekend stories, shopping. |
@@ -217,7 +217,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 1 | b1-expressing-opinions | Expressing opinions | Opinions and feelings | communication | a1-likes-and-dislikes, a2-comparatives | à mon avis, je pense que, je trouve que, selon moi, pour moi. |
 | 2 | b1-agreeing-disagreeing | Agreeing and disagreeing | Opinions and feelings | communication | b1-expressing-opinions | je suis d'accord, pas du tout, tu as raison, je ne suis pas sûr. |
 | 3 | b1-ce-qui-ce-que | ce qui, ce que | Opinions and feelings | grammar | a2-relative-qui-que-ou | "What" as relative; ce qui me plaît, c'est…; tout ce que. Reuses: opinions. |
-| 4 | b1-relative-dont | The relative pronoun dont | Opinions and feelings | grammar | a2-relative-qui-que-ou, a2-verbs-with-a-and-de | dont with de-verbs (parler de, avoir besoin de) and possession. Reuses: opinions, relationships. |
+| 4 | b1-relative-dont | The relative pronoun dont | Opinions and feelings | grammar | a2-relative-qui-que-ou, a2-verbs-with-a-and-de | dont with de-verbs (parler de, avoir besoin de) and possession. Reuses: opinions, emotions. |
 | 5 | b1-relationships | Relationships and feelings | Opinions and feelings | vocabulary | a2-emotions-and-feelings | Friendship, love, conflict: se disputer, s'entendre avec, tomber amoureux. |
 | 6 | b1-review-opinions | Review: Opinions and feelings | Opinions and feelings | review | b1-agreeing-disagreeing, b1-ce-qui-ce-que, b1-relative-dont, b1-relationships | Write a short opinion piece and a reply that disagrees. |
 
@@ -277,7 +277,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 36 | b1-technology-and-internet | Technology and the internet | Media and technology | vocabulary | a2-verbs-with-a-and-de | Phones, apps, social media, télécharger, partager, se connecter. |
 | 37 | b1-reported-speech-present | Reported speech (present) | Media and technology | grammar | b1-ce-qui-ce-que, a2-indirect-object-pronouns | il dit que, il demande si / ce que / où; pronoun shifts. Reuses: media and news, phone calls. |
 | 38 | b1-gerondif | The gérondif | Media and technology | grammar | a2-irregular-verbs-present, b1-time-connectors | en + -ant for simultaneity and manner; irregular stems. Reuses: technology habits, daily routine. |
-| 39 | b1-indefinite-pronouns | Indefinite words | Media and technology | grammar | a2-negative-expressions | quelqu'un, quelque chose, chacun, chaque, aucun, plusieurs, n'importe qui. Reuses: social media, news. |
+| 39 | b1-indefinite-pronouns | Indefinite words | Media and technology | grammar | a2-negative-expressions | chacun, chaque, aucun, plusieurs, n'importe qui, n'importe quoi; quelqu'un and quelque chose revisited from a2-negative-expressions. Reuses: social media, news. |
 | 40 | b1-interrogative-lequel | Lequel, laquelle | Media and technology | grammar | a1-question-words, b1-demonstrative-pronouns | Interrogative pronouns for choices. Reuses: technology choices, shopping. |
 | 41 | b1-review-media | Review: Media and technology | Media and technology | review | b1-media-and-news, b1-technology-and-internet, b1-reported-speech-present, b1-gerondif, b1-indefinite-pronouns, b1-interrogative-lequel | Report what a news item says and react to it. |
 
@@ -364,7 +364,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 25 | b2-relative-prepositions | Prepositions with relative pronouns | Precision with pronouns | grammar | b2-relative-lequel | avec qui, chez qui, grâce auquel, ce à quoi, ce dont. Reuses: relationships, work. |
 | 26 | b2-subjunctive-relative-clauses | Subjunctive in relative clauses | Precision with pronouns | grammar | b2-subjunctive-conjunctions, a2-relative-qui-que-ou | je cherche quelqu'un qui sache…; il n'y a personne qui puisse… Reuses: job hunting, housing. |
 | 27 | b2-idiomatic-y-en | Idiomatic y and en | Precision with pronouns | vocabulary | a2-pronoun-en, b1-double-object-pronouns | s'en aller, en vouloir à, s'en sortir, y tenir, s'y faire, ne pas en revenir. |
-| 28 | b2-mise-en-relief | Emphasis: c'est… qui / que | Precision with pronouns | grammar | b1-ce-qui-ce-que | c'est… qui / que, ce qui… c'est, ce que je veux dire, c'est que. Reuses: opinions, debate. |
+| 28 | b2-mise-en-relief | Emphasis: c'est… qui / que | Precision with pronouns | grammar | b1-ce-qui-ce-que | c'est… qui / que, ce qui… c'est, ce que je veux dire, c'est que. Reuses: opinions, social issues. |
 | 29 | b2-review-pronouns | Review: Precision with pronouns | Precision with pronouns | review | b2-relative-prepositions, b2-subjunctive-relative-clauses, b2-idiomatic-y-en, b2-mise-en-relief | Combine sentences with the right relative and emphatic structures. |
 
 ### Unit 5: Work and the economy
@@ -374,7 +374,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 30 | b2-economy-and-business | The economy and business | Work and the economy | vocabulary | b1-careers-and-job-hunting, b1-money-and-banking | Growth, inflation, companies, markets, chiffre d'affaires, bénéfice. |
 | 31 | b2-faire-causatif | Faire causatif | Work and the economy | grammar | b1-double-object-pronouns | faire + infinitive, se faire + infinitive, laisser + infinitive; pronoun placement. Reuses: workplace, services. |
 | 32 | b2-participles-and-gerund | Present participle, gerund, verbal adjective | Work and the economy | grammar | b1-gerondif | participe présent vs gérondif vs adjectif verbal (fatiguant / fatigant). Reuses: business writing. |
-| 33 | b2-infinitif-passe | The past infinitive | Work and the economy | grammar | b1-time-connectors, a2-passe-compose-etre | après avoir / être + participle, sans avoir…, regretter d'avoir… Reuses: careers, reports. |
+| 33 | b2-infinitif-passe | The past infinitive | Work and the economy | grammar | b1-time-connectors, a2-passe-compose-etre | après avoir / être + participle, sans avoir…, regretter d'avoir… Reuses: careers. |
 | 34 | b2-meetings-and-calls | Meetings and professional calls | Work and the economy | communication | b2-economy-and-business, a2-phone-calls-and-messages | Agendas, taking the floor, summarising decisions, conference calls. |
 | 35 | b2-negotiating | Negotiating | Work and the economy | communication | b2-meetings-and-calls, b2-nuancing-opinions, b2-concession-opposition | Proposals, counter-offers, conditions, compromise. |
 | 36 | b2-presenting-data | Presenting data and trends | Work and the economy | communication | b2-economy-and-business, a2-superlatives | Augmenter / baisser de…, percentages, fractions, describing a chart in words. |
@@ -501,6 +501,6 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 44 | c1-proverbs-and-sayings | Proverbs and sayings | Living the language | vocabulary | b2-idioms-everyday | Common proverbs and how they're used, often half-quoted. |
 | 45 | c1-advanced-idioms | Advanced idioms | Living the language | vocabulary | b2-idioms-everyday, b2-idiomatic-y-en | Idioms by theme: work, money, emotions, conflict. |
 | 46 | c1-culture-regional-languages | Regional languages | Living the language | culture | b2-culture-francophone-africa | Breton, Occitan, Alsatian, Basque, Corsican, Creoles; language policy in France. |
-| 47 | c1-culture-francophonie | La Francophonie | Living the language | culture | c1-culture-regional-languages | The OIF, French as a global language, varieties and their status. |
+| 47 | c1-culture-francophonie | La Francophonie | Living the language | culture | c1-culture-regional-languages | The OIF and language policy; French as an official and working language; how its status differs by country (geography is covered in a2-culture-francophone-world). |
 | 48 | c1-register-shifting | Shifting register on demand | Living the language | communication | b2-colloquial-french, c1-formal-correspondence | Rewriting the same message from slang to administrative French. |
 | 49 | c1-review-final | C1 final review | Living the language | review | c1-review-literary, c1-review-style, c1-review-academic, c1-review-rhetoric, c1-review-professional, c1-review-ideas, c1-advanced-idioms, c1-proverbs-and-sayings, c1-culture-francophonie, c1-register-shifting | Whole-level recap; C1 can-do checklist. |

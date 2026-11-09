@@ -229,7 +229,6 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 
 ## a2-irregular-verbs-present
 
-- **"*Je lis, et je dors tôt*" (mini-dialogue).** Translated "I'm getting an early night". *Je me couche tôt* may be more natural; confirm.
 - **"The *tu* form almost always sounds like *je*, *il* usually sounds like them too, and *vous* normally follows *nous*."** A rule of thumb in the tip.
 
 ## a2-past-participles-irregular
@@ -240,3 +239,33 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 
 - *On* with être is deliberately left out of the forms table, because agreement with *on* (*on est allés*) varies. Decide where to teach it.
 - Respellings with liaison such as `zhuh swee-zah-LAY` and `noo somm-zah-LAY`. Some of these liaisons are optional in speech. Confirm.
+
+## a2-numbers-years-ordinals
+
+- **"Numbers are written with a space or a point between thousands, never a comma."** Confirm.
+- **"For the 1900s, you have two [ways], and both are common."** / **"1900 itself is *mille neuf cents*."** Confirm. *Mil* is an older spelling for years and isn't taught.
+- **"*Second* … exists and you'll see it, but *deuxième* is always a safe choice."**
+- Hyphens in numbers such as *deux cent trois* follow the traditional spelling. The 1990 reform hyphenates them all; the checker accepts both.
+- **"Ordinals go before the noun."** True of these examples. Confirm it's safe to state without exceptions (*François Ier*, *chapitre deux*).
+
+## a2-time-expressions-past
+
+- **"*Déjà* can also mean 'ever'" in a question.** Confirm.
+- **"These words usually go at the very beginning or the very end of a sentence."**
+- *Pas encore*: **"takes the place of *pas*."** Confirm the description.
+
+## a2-negative-expressions
+
+- **"*Je n'ai pas rien vu* is a double negative with a different meaning (I did see something), so it's not the way to say 'I saw nothing'."** Confirm.
+- **"*Ils ne sont plus venus*" glossed "They didn't come any more."** Confirm it's natural.
+
+## a2-talking-about-your-weekend
+
+- **"When *on* means 'we' and the verb takes *être*, the participle usually agrees as it would with *nous*."** Exercise ex003 accepts *allés* and *allé*. Exercise ex012 is a reorder, so it can only offer the *allés* chip.
+- *Bof* in the example *Bof, rien de spécial* is informal and isn't in the vocab. Confirm.
+- **"*J'ai visité Léa* sounds as if you toured Léa like a museum."** Confirm the wording.
+- *chez* is taught as part of a fixed phrase here; a2-prepositions-with-places owns it.
+
+## a2-review-past
+
+- *Il y a trois mois* (chunk) and *C'était super* (fixed phrase) are used in the model. Confirm both suit a review.

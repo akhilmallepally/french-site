@@ -304,7 +304,7 @@ export function computeConnections(
 
   const prerequisites = pick(lesson.prerequisites);
   const unlocks = lessons.filter((l) => l.prerequisites.includes(id));
-  const related = pick(lesson.related);
+  const related = pick(lesson.related).filter((l) => !unlocks.includes(l)); // no repeats of "Builds on this"
   const relatedPlanned = lesson.related
     .filter((ref) => !byId.has(ref))
     .map((ref) => planned.find((p) => p.id === ref))

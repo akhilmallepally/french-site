@@ -2,9 +2,9 @@
 import Link from "next/link";
 import type { LessonMeta, LessonType, PlannedLesson } from "@/lib/lessons";
 
-export function ComingSoon() {
+export function ComingSoon({ className = "" }: { className?: string }) {
   return (
-    <span className="inline-block select-none whitespace-nowrap rounded-full bg-border/60 px-2 py-0.5 align-middle text-[0.7rem] font-medium leading-none text-muted not-italic">
+    <span className={`inline-block select-none whitespace-nowrap rounded-full bg-border/60 px-2 py-0.5 align-middle text-[0.7rem] font-medium leading-none text-muted not-italic ${className}`}>
       Coming soon
     </span>
   );
