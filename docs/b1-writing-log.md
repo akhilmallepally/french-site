@@ -147,3 +147,32 @@ None existed before this batch, and the plan matched docs/syllabus.md.
     - the plural verb after *ni Paul ni Marie*
     - *Cordialement* versus *Je vous prie d'agréer* in emails
     - *plainte* versus *réclamation*
+
+## Unit 9
+
+- **Lessons written (55–59):** food-and-cooking, culture-regional-cuisine, making-suggestions, culture-quebec, review-final.
+  - None of these lessons existed before this run.
+  - The plan matched the syllabus on every id, order, type and prerequisite.
+  - B1 is now complete, with 59 lessons.
+- **All checks pass:**
+  - check:words: 0 undefined words in B1
+  - validate:content, test:content and test:checker (29/29)
+  - audit:content: no hits in Unit 9
+  - build
+- **Decisions the plan didn't cover:**
+  - Vocab added at first use:
+    - *une sauce* (55)
+    - *célèbre (pour)* and *lyonnais / lyonnaise* (56)
+  - The instruction words in b1-review-final go in a "note" callout, alongside its own warning and tip.
+  - Two first drafts repeated earlier ideas, so I replaced them:
+    - The review's warning repeated the *si* + conditionnel warning from lesson 9. It's now about *s'exprimer* being reflexive.
+    - A second callout claim about B2 prompts was removed, because it couldn't be verified.
+  - Words reworded instead of defined: *dehors*, *lac*, *parfaite*, *hein*, *bonnet* and *se débrouiller*.
+  - *Faire chauffer* was removed, so only the plan's three *faire* + infinitive phrases are used.
+  - scripts/check-words.ts: added "everywhere" to the English list.
+- **Unresolved, for a French speaker:**
+  - docs/review-needed.md has entries for all five lessons. This includes the *faire cuire / bouillir / fondre* fixed phrases and the Québec respellings *chum* "TCHOMM" and *le fun* "FONN".
+  - The riskiest items:
+    - the Québec usage claims
+    - *Ça te dirait* being softer than *Ça te dit*
+    - the regional food facts and the UNESCO date

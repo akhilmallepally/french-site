@@ -1022,3 +1022,58 @@ Every date, tradition and regional detail, for checking:
 
 - **"*Attacher* means to tie or fasten something … For an email, use *joindre*."** Confirm.
 - **"*Un dédommagement*: compensation (for a loss or trouble)"**, beside *une indemnisation* in b1-travel-problems. Confirm the two are close enough to use as the lessons do.
+
+## b1-food-and-cooking
+
+- **Fixed phrases: *faire cuire*, *faire bouillir*, *faire fondre*.** They're *faire* + infinitive (b2-faire-causatif), taught here as fixed cooking phrases.
+- **"French recipes give instructions in one of two ways. Most use the *vous* imperative … Many recipe books and websites use the infinitive instead."** Confirm.
+- **"For cooking a particular ingredient or dish, French uses *faire cuire* … not *cuisinez les pâtes*."** Confirm.
+- **"*Salé* means salty, but also savoury, as opposed to sweet: *une crêpe salée*."** Confirm.
+- **"The *oê* in *poêle* sounds like *wa*: it rhymes with *étoile*."** Confirm.
+- **"French recipes give the oven temperature in degrees Celsius, and sometimes as … *thermostat 6*."** Fact; confirm.
+- **"*Cuire au four* … In recipes, you'll usually see *faire cuire au four*, or simply *enfourner*."** Confirm.
+
+## b1-culture-regional-cuisine
+
+- **Facts to check:**
+  - *La choucroute* (Alsace), "sauerkraut cooked with sausages, pork and potatoes … often served with a white wine from Alsace or a beer"
+  - *La ratatouille* (Provence)
+  - *La bouillabaisse* (Marseille), "a rich soup made with several kinds of fish"
+  - Brittany: "*une galette de sarrasin* is the savoury pancake … *Une crêpe* is usually the sweet one, made with wheat flour", served with *le cidre*
+  - "Lyon is often called the capital of French gastronomy. Its traditional restaurants are called *les bouchons*."
+  - "France has hundreds of cheeses … *le roquefort* or *le comté* are protected by l'AOP"
+  - "*Le repas gastronomique des Français* … was added to UNESCO's list of the world's intangible cultural heritage in 2010."
+  - "Le Beaujolais est un vignoble tout près de Lyon."
+- **"With *une spécialité de*, the region usually has no article: *une spécialité de Provence*, *une spécialité d'Alsace*."** Confirm.
+- **"Outside Brittany, people often say *une crêpe salée* for the savoury kind."** Confirm.
+- **"French restaurants usually post their menu outside, by the door."** Confirm.
+
+## b1-making-suggestions
+
+- **"On its own, as a question, *Si on* + imparfait is … a friendly suggestion, with no second half."** Confirm.
+- **"With the present, *si on va au cinéma…* sounds like the start of a condition."** Confirm.
+- **"*Ça te dirait de… ?* … becomes a little softer and more polite"** than *Ça te dit de… ?*. Confirm.
+- **"*Ça ne me dit rien* has a second meaning: 'it doesn't ring a bell'."** Confirm.
+- **"*Ça marche !* and *Je suis partant* are more informal … *C'est parti !* is what you say when the decision is made."** Confirm.
+- **"*Un plan* is an informal word for something to do: *J'ai un bon plan pour samedi*."** Confirm.
+
+## b1-culture-quebec
+
+- **Facts to check:**
+  - "In 1608, the explorer Samuel de Champlain founded Québec City."
+  - "New France passed to Britain in 1763."
+  - "*La Charte de la langue française*, often called *la loi 101* (Bill 101), dates from 1977. It made French the official language of Québec."
+  - "*La Fête nationale du Québec* is on 24 June."
+- **Usage to check:**
+  - The meanings of *char*, *chum*, *blonde*, *frette*, *pantoute*, *tuque*, *C'est le fun* and *avoir de la misère à*.
+  - "*Un char*, once a cart."
+  - "*Un courriel*, which France also recommends but rarely uses."
+  - "*Bienvenue* is used for 'you're welcome'."
+- **"In Québec, *tu* is used more freely than in France. Shop assistants, waiters and even colleagues you've just met will often say *tu* to you."** Confirm.
+- **"*t* and *d* before *i* and *u* sound like 'ts' and 'dz': *tu* sounds a little like 'tsu'."** Confirm.
+- **Respellings to check:** *chum* "TCHOMM" and *C'est le fun* "seh luh FONN" (Québec pronunciations).
+
+## b1-review-final
+
+- **The instruction words *Complétez*, *Choisissez*, *Mettez dans l'ordre*, *Traduisez***, and "you'll see them in French exams such as the DELF." Confirm these are the forms French textbooks and exams use.
+- **"*Je peux exprimer en français* is incomplete."** Confirm.

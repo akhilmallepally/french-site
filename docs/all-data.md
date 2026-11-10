@@ -1,6 +1,6 @@
 # All lesson data
 
-159 written lessons, in course order.
+164 written lessons, in course order.
 
 ## a1-greetings
 
@@ -6139,3 +6139,205 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b1-review-home-money-problems-ex011 | translate | Write in French, with ne… que: I only have the hotel bill. | — | ["Je n'ai que la facture de l'hôtel"] | false | Ne before the verb, que before the restricted words.
 - b1-review-home-money-problems-ex012 | translate | Write out this paragraph from a complaint email, filling each gap as shown (a man writing): (I had booked) un vol pour le 12 juin. Le vol (was cancelled, passive). (I attach) la facture de l'hôtel. (I would be grateful if you could) me rembourser (as soon as possible). | — | ["J'avais réservé un vol pour le 12 juin. Le vol a été annulé. Je joins la facture de l'hôtel. Je vous serais reconnaissant de me rembourser dans les plus brefs délais."] | true | The plus-que-parfait for the booking, the passive for the cancellation, joindre for the attachment, and the formal request.
 - b1-review-home-money-problems-ex013 | reorder | Put the words in order: I'm asking for compensation. | — | ["Je demande un dédommagement"] | false | Demander + a noun.
+
+## b1-food-and-cooking
+
+### Vocab
+
+fr | pron | en | note
+
+- une recette | ewn ruh-SET | a recipe | —
+- un ingrédient | uh-nan-gray-DYAHN | an ingredient | —
+- la farine | lah fah-REEN | flour | —
+- l'huile | LWEEL | oil | Feminine: de l'huile d'olive.
+- le poivre | luh PWAH-vruh | pepper | —
+- une cuillère à soupe | ewn kwee-yehr ah SOOP | a tablespoon | —
+- éplucher | ay-plew-SHAY | to peel | —
+- mélanger | may-lahn-ZHAY | to mix | Like manger: nous mélangeons.
+- ajouter | ah-zhoo-TAY | to add | —
+- faire cuire | fehr KWEER | to cook (fixed phrase) | —
+- faire bouillir | fehr boo-YEER | to boil (fixed phrase) | —
+- faire fondre | fehr FOHN-druh | to melt (fixed phrase) | —
+- cuire au four | kweer oh FOOR | to bake | —
+- le four | luh FOOR | the oven | —
+- une poêle | ewn PWAHL | a frying pan | —
+- une casserole | ewn kahs-ROL | a saucepan | —
+- un saladier | uhn sah-lah-DYAY | a mixing bowl, a salad bowl | —
+- une sauce | ewn SOHSS | a sauce | —
+- goûter | goo-TAY | to taste | Le goûter is the afternoon snack.
+- sucré / sucrée | sew-KRAY | sweet | —
+- salé / salée | sah-LAY | salty, savoury | —
+- épicé / épicée | ay-pee-SAY | spicy | —
+- amer / amère | ah-MEHR | bitter | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-food-and-cooking-ex001 | multiple-choice | You fry an egg in… | ["une poêle","un saladier","un four"] | ["une poêle"] | false | Une poêle: a frying pan.
+- b1-food-and-cooking-ex002 | fill-in | Fill in the gap (peel): ___ les pommes de terre. | — | ["Épluchez","Éplucher","Épluche"] | false | Éplucher: to peel. Recipes use the vous imperative or the infinitive.
+- b1-food-and-cooking-ex003 | fill-in | Fill in the gap with the vous imperative of ajouter: ___ le sucre. | — | ["Ajoutez"] | false | Ajouter: vous ajoutez → Ajoutez.
+- b1-food-and-cooking-ex004 | multiple-choice | Which phrase means 'to melt'? | ["faire fondre","faire bouillir","faire cuire"] | ["faire fondre"] | false | Faire fondre le beurre: to melt the butter.
+- b1-food-and-cooking-ex005 | fill-in | Fill in the gap (boil): Faites ___ l'eau dans une casserole. | — | ["bouillir"] | false | Faire bouillir: to boil.
+- b1-food-and-cooking-ex006 | multiple-choice | Coffee without sugar can taste… | ["amer","sucré","salé"] | ["amer"] | false | Amer: bitter.
+- b1-food-and-cooking-ex007 | fill-in | Fill in the gap (spicy; la sauce: feminine): Attention, la sauce est très ___ ! | — | ["épicée"] | false | Épicé agrees with la sauce: épicée.
+- b1-food-and-cooking-ex008 | multiple-choice | A tablespoon is… | ["une cuillère à soupe","une casserole","un ingrédient"] | ["une cuillère à soupe"] | false | Une cuillère à soupe: a tablespoon.
+- b1-food-and-cooking-ex009 | fill-in | Fill in the gap (taste), to a friend: Tu peux ___ la sauce ? | — | ["goûter"] | false | Goûter: to taste.
+- b1-food-and-cooking-ex010 | multiple-choice | Choose the right sentence for a recipe: 'Cook the pasta for ten minutes.' | ["Faites cuire les pâtes dix minutes.","Cuisinez les pâtes dix minutes.","Faites cuisine les pâtes dix minutes."] | ["Faites cuire les pâtes dix minutes."] | false | Faire cuire is for cooking an ingredient. Cuisiner means to cook as an activity.
+- b1-food-and-cooking-ex011 | translate | Write in French, as a recipe instruction: Mix the flour and the eggs. | — | ["Mélangez la farine et les œufs","Mélanger la farine et les œufs","Mélange la farine et les œufs"] | false | Recipes use the vous imperative or the infinitive. The tu imperative is fine for a friend.
+- b1-food-and-cooking-ex012 | translate | Write out this short recipe in the vous imperative, filling each gap as shown: (Melt) le beurre. (Mix) la farine, le lait et les œufs. (Add) le beurre. (Cook) les crêpes dans une poêle. | — | ["Faites fondre le beurre. Mélangez la farine, le lait et les œufs. Ajoutez le beurre. Faites cuire les crêpes dans une poêle."] | false | Faites fondre, mélangez, ajoutez, faites cuire: the vous imperative.
+- b1-food-and-cooking-ex013 | reorder | Put the words in order: Add a tablespoon of oil. | — | ["Ajoutez une cuillère à soupe d'huile"] | false | Une cuillère à soupe de + the ingredient, with d' before huile.
+
+## b1-culture-regional-cuisine
+
+### Vocab
+
+fr | pron | en | note
+
+- une spécialité | ewn spay-syah-lee-TAY | a speciality | —
+- régional / régionale | ray-zhyoh-NAL | regional | —
+- typique | tee-PEEK | typical | —
+- célèbre (pour) | say-LEH-bruh (poor) | famous (for) | —
+- lyonnais / lyonnaise | lee-oh-NEH / lee-oh-NEZ | from Lyon | —
+- la choucroute | lah shoo-KROOT | sauerkraut with sausages and pork (Alsace) | —
+- la ratatouille | lah rah-tah-TOO-y | ratatouille, a vegetable stew (Provence) | —
+- la bouillabaisse | lah boo-yah-BESS | fish soup (Marseille) | —
+- une galette de sarrasin | ewn gah-let duh sah-rah-ZAN | a buckwheat pancake (Brittany) | —
+- le cidre | luh SEE-druh | cider | —
+- un bouchon | uhn boo-SHOHN | a traditional Lyon restaurant | Also a traffic jam, and a cork.
+- le terroir | luh teh-RWAHR | the local land and its produce | —
+- un vignoble | uhn vee-NYOH-bluh | a vineyard, a wine region | —
+- un produit local | uhn proh-dwee loh-KAL | a local product | —
+- l'AOP | lah-oh-PAY | protected designation of origin (a quality label) | Feminine: appellation d'origine protégée.
+- la gastronomie | lah gahs-troh-noh-MEE | gastronomy, fine food | —
+- une dégustation | ewn day-gews-tah-SYOHN | a tasting | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-culture-regional-cuisine-ex001 | multiple-choice | Which region is famous for la choucroute? | ["l'Alsace","la Provence","la Bretagne"] | ["l'Alsace"] | false | La choucroute is the best-known dish of Alsace, in the east.
+- b1-culture-regional-cuisine-ex002 | multiple-choice | La bouillabaisse is… | ["a fish soup from Marseille","a cheese from Lyon","a cake from Alsace"] | ["a fish soup from Marseille"] | false | La bouillabaisse is the famous fish soup of Marseille.
+- b1-culture-regional-cuisine-ex003 | fill-in | Fill in the gap (cider): En Bretagne, on boit du ___ avec les galettes. | — | ["cidre"] | false | Le cidre: cider.
+- b1-culture-regional-cuisine-ex004 | multiple-choice | In Lyon, un bouchon is… | ["a traditional restaurant","a vineyard","a quality label"] | ["a traditional restaurant"] | false | In Lyon, un bouchon is a small traditional restaurant.
+- b1-culture-regional-cuisine-ex005 | fill-in | Fill in the gap (speciality): La ratatouille est une ___ de Provence. | — | ["spécialité"] | false | Une spécialité: a speciality.
+- b1-culture-regional-cuisine-ex006 | fill-in | Fill in the gap (regional; la cuisine: feminine): J'adore la cuisine ___. | — | ["régionale"] | false | Régional agrees with la cuisine: régionale.
+- b1-culture-regional-cuisine-ex007 | multiple-choice | What does the AOP label guarantee? | ["that a product comes from a specific area and is made in the traditional way","that a product is cheap","that a product is organic"] | ["that a product comes from a specific area and is made in the traditional way"] | false | L'AOP protects a product linked to its terroir.
+- b1-culture-regional-cuisine-ex008 | fill-in | Fill in the gap (tasting): On a fait une ___ de vins dans un vignoble. | — | ["dégustation"] | false | Une dégustation: a tasting.
+- b1-culture-regional-cuisine-ex009 | multiple-choice | Une galette de sarrasin is usually… | ["savoury, with cheese or ham","a sweet cake","a fish soup"] | ["savoury, with cheese or ham"] | false | In Brittany, la galette is the savoury buckwheat pancake.
+- b1-culture-regional-cuisine-ex010 | fill-in | Fill in the gap (typical): C'est un plat très ___ de la région. | — | ["typique"] | false | Typique: typical.
+- b1-culture-regional-cuisine-ex011 | translate | Write in French: Brittany is famous for its crêpes. | — | ["La Bretagne est célèbre pour ses crêpes"] | false | Être célèbre pour + a noun. La Bretagne is feminine, but ses agrees with crêpes.
+- b1-culture-regional-cuisine-ex012 | translate | Write out three sentences about a regional dish, filling each gap as shown: La bouillabaisse est (a speciality) de Marseille. C'est une soupe de poisson très (typical). On la mange avec (a local product): le pain. | — | ["La bouillabaisse est une spécialité de Marseille. C'est une soupe de poisson très typique. On la mange avec un produit local : le pain."] | true | Une spécialité de + the place, typique, and un produit local.
+- b1-culture-regional-cuisine-ex013 | reorder | Put the words in order: Ratatouille is a speciality from Provence. | — | ["La ratatouille est une spécialité de Provence"] | false | Une spécialité de + the region, with no article.
+
+## b1-making-suggestions
+
+### Vocab
+
+fr | pron | en | note
+
+- Si on allait… ? | see ohn-nah-LEH | How about going…? | —
+- Et si on… ? | ay see OHN | What if we…? | With the imparfait: Et si on mangeait au restaurant ?
+- Ça te dirait de… ? | sah tuh dee-REH DUH | Would you fancy…? | Formal or plural: Ça vous dirait de… ?
+- On pourrait… | ohn poo-REH | We could… | —
+- J'ai une idée ! | zhay ew-nee-DAY | I've got an idea! | —
+- Pourquoi pas ? | poor-kwah PAH | Why not? | —
+- Ça marche ! | sah MARSH | Deal! OK! | —
+- Je suis partant / partante. | zhuh swee par-TAHN / par-TAHNT | I'm up for it. | —
+- C'est parti ! | seh par-TEE | Let's go! Here we go! | —
+- Ça ne me dit rien. | sah nuh muh dee RYAN | I don't fancy it. | Also: it doesn't ring a bell.
+- un plan | uhn PLAHN | a plan (informal) | —
+- un pique-nique | uhn peek-NEEK | a picnic | —
+- une balade | ewn bah-LAD | a walk, a stroll, a ride | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-making-suggestions-ex001 | fill-in | Fill in the gap with aller in the imparfait: Si on ___ au cinéma ce soir ? | — | ["allait"] | false | Si on + imparfait makes a suggestion: si on allait.
+- b1-making-suggestions-ex002 | fill-in | Fill in the gap with dire in the conditionnel: Ça te ___ de faire un pique-nique ? | — | ["dirait"] | false | Ça te dirait de + infinitive: would you fancy…?
+- b1-making-suggestions-ex003 | fill-in | Fill in the gap with pouvoir in the conditionnel: On ___ faire une balade au bord de la mer. | — | ["pourrait"] | false | On pourrait + infinitive: we could…
+- b1-making-suggestions-ex004 | multiple-choice | Your friend suggests a film. You're happy to go. You say… | ["Ça marche !","Ça ne me dit rien.","Je ne suis pas libre."] | ["Ça marche !"] | false | Ça marche: deal, OK.
+- b1-making-suggestions-ex005 | multiple-choice | You don't fancy the idea. You say… | ["Ça ne me dit rien.","Je suis partant.","C'est parti !"] | ["Ça ne me dit rien."] | false | Ça ne me dit rien: I don't fancy it.
+- b1-making-suggestions-ex006 | fill-in | Fill in the gap (a woman speaking; up for it): Une balade ? Je suis ___ ! | — | ["partante"] | false | A woman says partante.
+- b1-making-suggestions-ex007 | multiple-choice | You're suggesting something to two friends. Choose the right form. | ["Ça vous dirait de venir ?","Ça te dirait de venir ?","Ça vous dit de venez ?"] | ["Ça vous dirait de venir ?"] | false | To two people: ça vous dirait de + infinitive.
+- b1-making-suggestions-ex008 | fill-in | Fill in the gap with manger in the imparfait: Et si on ___ au restaurant ? | — | ["mangeait"] | false | Et si on + imparfait. Manger keeps its e: mangeait.
+- b1-making-suggestions-ex009 | multiple-choice | Choose the polite way to turn down a suggestion and offer another. | ["Je préférerais aller au parc.","Non, c'est nul.","Je préfère pas."] | ["Je préférerais aller au parc."] | false | Je préférerais + infinitive turns down an idea gently.
+- b1-making-suggestions-ex010 | multiple-choice | A picnic is… | ["un pique-nique","une balade","un plan"] | ["un pique-nique"] | false | Un pique-nique: a picnic.
+- b1-making-suggestions-ex011 | translate | Write in French, with si on: How about going to the cinema? | — | ["Si on allait au cinéma ?","Et si on allait au cinéma ?"] | false | Si on + imparfait: a suggestion, not a condition.
+- b1-making-suggestions-ex012 | translate | Write out three suggestions to a friend, each with a different structure as shown: (How about going) au parc ? (Would you fancy) faire un pique-nique ? (We could) inviter Paul. | — | ["Si on allait au parc ? Ça te dirait de faire un pique-nique ? On pourrait inviter Paul.","Et si on allait au parc ? Ça te dirait de faire un pique-nique ? On pourrait inviter Paul."] | false | Si on + imparfait, ça te dirait de + infinitive, on pourrait + infinitive.
+- b1-making-suggestions-ex013 | reorder | Put the words in order: Would you fancy going for a walk? | — | ["Ça te dirait de faire une balade"] | false | Ça te dirait de + infinitive.
+
+## b1-culture-quebec
+
+### Vocab
+
+fr | pron | en | note
+
+- la Nouvelle-France | lah noo-vel FRAHNSS | New France | —
+- un Québécois / une Québécoise | uhn kay-bay-KWAH / ewn kay-bay-KWAHZ | a person from Québec | As an adjective, lowercase: l'accent québécois.
+- la Charte de la langue française | lah shart duh lah lahng frahn-SEZ | the Charter of the French Language | —
+- un char | uhn SHAR | a car (Québec) | —
+- un chum | uhn TCHOMM | a boyfriend; a mate (Québec) | —
+- une blonde | ewn BLOHND | a girlfriend (Québec) | —
+- un courriel | uhn koo-RYEL | an email | —
+- le dîner | luh dee-NAY | lunch (in Québec) | —
+- une tuque | ewn TEWK | a woolly hat | —
+- la poutine | lah poo-TEEN | chips with cheese curds and gravy | —
+- Bienvenue ! | byan-vuh-NEW | You're welcome! (in Québec) | —
+- C'est le fun. | seh luh FONN | It's fun. | —
+- avoir de la misère à | ah-vwahr duh lah mee-ZEHR AH | to have trouble …ing | —
+- frette | FRET | freezing cold | —
+- pantoute | pahn-TOOT | not at all | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-culture-quebec-ex001 | multiple-choice | Who founded Québec City in 1608? | ["Samuel de Champlain","Napoléon","Victor Hugo"] | ["Samuel de Champlain"] | false | Champlain founded Québec City in 1608, in New France.
+- b1-culture-quebec-ex002 | multiple-choice | In Québec, mon char is… | ["my car","my cat","my chair"] | ["my car"] | false | Un char: a car, in Québec.
+- b1-culture-quebec-ex003 | multiple-choice | In Québec, ma blonde is… | ["my girlfriend","my sister","my beer"] | ["my girlfriend"] | false | Une blonde: a girlfriend, whatever the colour of her hair.
+- b1-culture-quebec-ex004 | fill-in | Fill in the gap (email, the Québec word): Je t'envoie un ___ ce soir. | — | ["courriel"] | false | Un courriel: the word for email in Québec.
+- b1-culture-quebec-ex005 | multiple-choice | Someone in Montréal says Merci ! What's the usual Québec answer? | ["Bienvenue !","Pantoute !","Frette !"] | ["Bienvenue !"] | false | In Québec, bienvenue means you're welcome.
+- b1-culture-quebec-ex006 | fill-in | Fill in the gap (freezing cold, Québec): Il fait ___ ce matin : mets ta tuque ! | — | ["frette"] | false | Frette: freezing cold, in Québec.
+- b1-culture-quebec-ex007 | multiple-choice | In Québec, when do people eat le dîner? | ["at midday","in the evening","in the morning"] | ["at midday"] | false | Le dîner is lunch in Québec. The evening meal is le souper.
+- b1-culture-quebec-ex008 | fill-in | Fill in the gap (to have trouble): J'ai de la ___ à comprendre l'accent. | — | ["misère"] | false | Avoir de la misère à + infinitive: to have trouble doing something.
+- b1-culture-quebec-ex009 | multiple-choice | Which law made French the official language of Québec in 1977? | ["la Charte de la langue française","la loi de 1905","la Nouvelle-France"] | ["la Charte de la langue française"] | false | La Charte de la langue française, often called Bill 101, dates from 1977.
+- b1-culture-quebec-ex010 | multiple-choice | Pantoute means… | ["not at all","everywhere","all the time"] | ["not at all"] | false | Pantoute: not at all, in Québec. In France: pas du tout.
+- b1-culture-quebec-ex011 | translate | Write in French: In Québec, people call lunch le dîner. | — | ["Au Québec, on appelle le déjeuner le dîner","Au Québec, les gens appellent le déjeuner le dîner","Au Québec, on appelle le repas de midi le dîner"] | false | Au Québec, with au. Appeler + the thing + its name.
+- b1-culture-quebec-ex012 | translate | Write out three differences between France and Québec, filling each gap as shown: En France, on dit « une voiture ». Au Québec, on dit (« un char »). En France, on dit « un mail ». Au Québec, on dit (« un courriel »). En France, on répond « de rien ». Au Québec, on répond (« bienvenue »). | — | ["En France, on dit « une voiture ». Au Québec, on dit « un char ». En France, on dit « un mail ». Au Québec, on dit « un courriel ». En France, on répond « de rien ». Au Québec, on répond « bienvenue »."] | false | Char, courriel and bienvenue are three common Québec differences.
+- b1-culture-quebec-ex013 | reorder | Put the words in order: It's fun to go skiing in Québec. | — | ["C'est le fun de faire du ski au Québec"] | false | C'est le fun de + infinitive: it's fun to…
+
+## b1-review-final
+
+### Vocab
+
+fr | pron | en | note
+
+- un bilan | uhn bee-LAHN | an assessment, a stock-take | —
+- couramment | koo-rah-MAHN | fluently | —
+- s'exprimer | sex-pree-MAY | to express yourself | —
+- une consigne | ewn kohn-SEE-nyuh | an instruction (in an exercise) | —
+- Complétez. | kohn-play-TAY | Complete. | —
+- Choisissez. | shwah-zee-SAY | Choose. | —
+- Mettez dans l'ordre. | meh-tay dahn LOR-druh | Put in order. | —
+- Traduisez. | trah-dwee-ZAY | Translate. | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-review-final-ex001 | multiple-choice | An exercise says Choisissez la bonne réponse. What do you do? | ["Choose the right answer.","Translate the answer.","Put the answer in order."] | ["Choose the right answer."] | false | Choisissez: choose. La bonne réponse: the right answer.
+- b1-review-final-ex002 | multiple-choice | Which consigne asks you to put words in the right order? | ["Mettez dans l'ordre.","Complétez.","Traduisez."] | ["Mettez dans l'ordre."] | false | Mettez dans l'ordre: put in order.
+- b1-review-final-ex003 | fill-in | Fill in the gap with avoir in the imparfait (Unit 2: hypotheses): Si j'___ le temps, je voyagerais au Québec. | — | ["avais"] | false | Si + imparfait, then the conditionnel.
+- b1-review-final-ex004 | fill-in | Fill in the gap with venir in the subjunctive (Unit 4): Il faut que tu ___ samedi. | — | ["viennes"] | false | Il faut que + subjunctive: que tu viennes.
+- b1-review-final-ex005 | fill-in | Fill in the gap with être in the imparfait (Unit 3: stories): Quand je suis arrivé, le train ___ déjà parti. | — | ["était"] | false | Plus-que-parfait: était parti, before I arrived.
+- b1-review-final-ex006 | multiple-choice | Choose the right sentence (Unit 6: reported speech). | ["Elle demande si tu viens.","Elle demande est-ce que tu viens.","Elle demande si viens-tu."] | ["Elle demande si tu viens."] | false | Demander si + an ordinary sentence.
+- b1-review-final-ex007 | fill-in | Fill in the gap (only; Unit 8): Je n'ai ___ dix euros. | — | ["que"] | false | Ne… que: only.
+- b1-review-final-ex008 | fill-in | Fill in the gap (fluently): Je ne parle pas encore ___, mais je comprends beaucoup. | — | ["couramment"] | false | Couramment: fluently.
+- b1-review-final-ex009 | translate | Write in French, with the conditionnel: I would like to live in Québec. | — | ["J'aimerais habiter au Québec","J'aimerais vivre au Québec","Je voudrais habiter au Québec","Je voudrais vivre au Québec"] | false | J'aimerais or je voudrais + infinitive, and au Québec.
+- b1-review-final-ex010 | translate | Write in French, with the subjunctive (tu): I'm happy that you're here. | — | ["Je suis content que tu sois là","Je suis contente que tu sois là","Je suis heureux que tu sois là","Je suis heureuse que tu sois là"] | true | Être content que + subjunctive: que tu sois.
+- b1-review-final-ex011 | translate | Write in French, with the plus-que-parfait: I had forgotten my password. | — | ["J'avais oublié mon mot de passe"] | true | J'avais + oublié: before something else in the past.
+- b1-review-final-ex012 | translate | Write out this paragraph from a B1 bilan, filling each gap as shown (a woman writing): (In my opinion), j'ai beaucoup progressé. (It's been) un an que j'apprends le français. Je peux (express myself) au travail et en voyage. (If I had more time), je lirais plus de livres. | — | ["À mon avis, j'ai beaucoup progressé. Ça fait un an que j'apprends le français. Je peux m'exprimer au travail et en voyage. Si j'avais plus de temps, je lirais plus de livres."] | true | À mon avis, ça fait… que, s'exprimer with me, and si + imparfait with the conditionnel.
+- b1-review-final-ex013 | translate | Write out these three suggestions for a weekend in Lyon, filling each gap as shown: (How about going) dans un bouchon ? (We could) faire une dégustation de vins. (Would you fancy) goûter une spécialité lyonnaise ? | — | ["Si on allait dans un bouchon ? On pourrait faire une dégustation de vins. Ça te dirait de goûter une spécialité lyonnaise ?","Et si on allait dans un bouchon ? On pourrait faire une dégustation de vins. Ça te dirait de goûter une spécialité lyonnaise ?"] | false | Si on + imparfait, on pourrait + infinitive, ça te dirait de + infinitive.
+- b1-review-final-ex014 | reorder | Put the words in order: There's more and more plastic in the sea. | — | ["Il y a de plus en plus de plastique dans la mer"] | false | De plus en plus de + a noun, with no article.

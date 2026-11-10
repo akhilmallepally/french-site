@@ -45,7 +45,7 @@ const IGNORE = new Set([
 const ENGLISH = new Set(("the a an to of and in is are was it you i he she we they this that what which with for on at by from " +
   "your my his her their be do does did not no word all only one some have has had can will would should who where when why how " +
   "like very far today tomorrow yesterday first last every always never small large black milky tall short noon midnight ten o'clock " +
-  "firstly three weather silent plural singular feminine masculine woman man vowel consonant cheese butter bread meat wine fish coffee tea milk " +
+  "firstly three everywhere weather silent plural singular feminine masculine woman man vowel consonant cheese butter bread meat wine fish coffee tea milk " +
   "hands wave older senior person speaks saying hi informally ending formal customer team counting its own years year days books " +
   "sounds make starts call back right wrong composé or so delighted worried disappointed happy sad " +
   "here currently actually finally hours two five eight meal vouchers overtime").split(" "));
