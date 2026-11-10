@@ -755,3 +755,270 @@ Every date, tradition and regional detail, for checking:
 - **Facts to check (model review):** *Les Quatre Cents Coups* "se passe à Paris, à la fin des années 1950", the main character Antoine "ne s'entend pas bien avec ses parents", and the final scene is by the sea.
 - **"*Au final* … means 'in the end, all things considered' … *finalement* can mean either 'finally, at last' or 'in the end'."** Confirm.
 - **"*Dès le début, tout est allé mal.*"** (model anecdote) Confirm it reads naturally.
+
+## b1-subjonctif-formation
+
+- **"The subjunctive isn't a tense. It has a present form … and it covers both present and future."** Confirm.
+- **"The rule still works: take *je*, *tu*, *il* and *ils* from the *ils* form, and *nous* and *vous* from the *nous* form of the present."** Confirm for the two-stem verbs listed (*prendre*, *venir*, *boire*, *acheter*, *appeler*).
+- **"For most *-er* verbs, *je*, *tu*, *il* and *ils* sound exactly like the present."** Confirm.
+
+## b1-subjonctif-irregular
+
+- **"*Sois*, *soyons*, *soyez*, *aie* and *ayez* are also the imperative forms of *être* and *avoir*."** Confirm (and that *ayons* is too).
+- **"Most of the *avoir* forms sound like *ai*: *que j'aie*, *qu'il ait* and *qu'ils aient* all sound the same."** Confirm.
+- **"*Falloir* has one too, *qu'il faille*, but you'll rarely need it."** Confirm.
+- **"*Aller* and *vouloir* have two stems … *Faire*, *pouvoir* and *savoir* keep one stem all the way through."** Confirm.
+
+## b1-subjonctif-necessity
+
+- **"Each of these expressions also works with *de* + infinitive, for a general statement. With *il faut* and *il vaut mieux*, there's no *de*."** Confirm, including *il suffit de partir*.
+- **"To say 'you don't have to', use *ce n'est pas nécessaire*: *Ce n'est pas nécessaire de venir*."** Confirm it's natural.
+- **"*Il vaut mieux que* is the present of *il vaudrait mieux*."** Confirm the framing.
+
+## b1-subjonctif-wishes-emotions
+
+- **"After *avoir peur que* and *craindre que*, written French often adds a small *ne* that doesn't make the sentence negative: *J'ai peur qu'il ne soit en retard*."** Confirm.
+- **"*Souhaiter que* is more formal, and it's common in wishes for other people: *Je souhaite que tout se passe bien*."** Confirm.
+- **"*Regretter que* … sounds more formal [than *je suis désolé que*], and it's common in letters and emails."** Confirm.
+- **"*Maman* and *papa* are what children and adults call their own parents."** Confirm.
+- **"*Mes parents préfèrent que nous prenions le train*"** translated as "would rather we took". Confirm.
+
+## b1-subjunctive-vs-infinitive
+
+- **"French never uses *que* when the two verbs share a subject."** Confirm (for the verbs taught: *vouloir*, *préférer*, *aimer*, *être content*, *avoir peur*, *regretter*).
+- **"*Oser* … Followed straight by an infinitive."** Confirm.
+- **"*Elle m'a proposé de partir ensemble.*"** Confirm the meaning "she suggested we leave together".
+
+## b1-expressing-doubt-certainty
+
+- **"*Douter* … takes the subjunctive even in the affirmative."** Confirm.
+- **"In fast speech, French speakers often drop the *ne*: *Je pense pas qu'il vienne*."** Confirm.
+- **"*Sûrement* is weaker than its English look-alike: it often means 'probably'."** Confirm.
+- **"The subjunctive after a negative opinion is also a polite way to disagree."** Confirm.
+
+## b1-review-subjunctive
+
+- **"*Elle pense qu'on va dîner*: what Léa thinks is true for her, so the indicative."** Confirm the explanation.
+
+## b1-careers-and-job-hunting
+
+- **"Salaries in France are usually given *brut*, before social contributions are taken off."** Confirm.
+- **"*Un CDI* (*contrat à durée indéterminée*) has no end date, and it's the contract most people hope for. *Un CDD* (*contrat à durée déterminée*) ends on a fixed date."** Confirm.
+- **"*Postuler* is followed by *à*: *postuler à un poste*. You'll also hear *postuler pour*."** Confirm both are acceptable.
+- **"Job ads drop articles and verbs: *CDD de six mois, expérience demandée*."** Confirm the style.
+
+## b1-cover-letter
+
+- **Fixed phrase: *Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées*** (closing formula, with the variant *Veuillez agréer…*). Taught as a fixed phrase; *veuillez* is explained in b1-formal-email.
+- **"A French CV is usually one page long, two at most for long careers … sometimes with a photo, though more and more people leave it out."** Confirm.
+- **"A French cover letter usually has three short paragraphs: vous, moi, nous."** Confirm.
+- **"In an email, *Cordialement* is usually enough, but in a letter, the full formula is still expected."** Confirm.
+- **"Never *Cher Monsieur* in a first letter."** Confirm.
+- **"To say 'actually' in the sense of 'in fact', French uses *en fait*."** Confirm.
+
+## b1-job-interview
+
+- **"You use *vous* throughout, even if the recruiter is young or friendly, and even if they use your first name."** Confirm.
+- **"*Ça fait… que* is the most common in speech … *Il y a… que* is a little more formal."** Confirm.
+- **"For a weakness, choose something real but small, and say what you do about it."** Cultural advice; confirm.
+- **"*Je reste disponible si vous avez des questions.*"** (follow-up email) Confirm it reads naturally.
+
+## b1-double-object-pronouns
+
+- **The order table *me/te/se/nous/vous* → *le/la/les* → *lui/leur* → *y* → *en*.** Confirm, and that the lesson's examples follow it.
+- **"In negative commands, the normal order comes back: *Ne me le donne pas !*"** Confirm.
+- **"*Je la lui ai envoyée*"**: agreement of the participle with *la* before the verb. Confirm.
+
+## b1-possessive-pronouns
+
+- **"The pronouns *nôtre* and *vôtre* have a circumflex, and the *o* is closed, as in *eau*. The adjectives *notre* and *votre* have no accent, and the *o* is more open."** Confirm the pronunciation claim.
+- **"*C'est à moi* … just says who owns it. *C'est le mien* is used when you're comparing, or choosing between several similar things."** Confirm the distinction.
+
+## b1-demonstrative-pronouns
+
+- **"In careful French, *-ci* is the nearer one and *-là* the further one. In everyday speech, people often use *celui-là* for both, and point."** Confirm.
+- **"*Celui*, *celle*, *ceux* and *celles* never stand alone at the end of a sentence."** Confirm.
+
+## b1-culture-work-life
+
+- **Facts to check:** "*La semaine de 35 heures* became the legal standard in 2000"; RTT days compensate for hours above 35; "*Les congés payés* date from 1936, when workers got two weeks of paid holiday for the first time. Today, employees have five weeks a year"; "some small businesses close for the whole of August"; "[the lunch break] often lasts an hour, sometimes more"; tickets-restaurant pay "part of their lunch in a restaurant or a supermarket"; "*Le télétravail* grew enormously in France from 2020"; "*Le droit à la déconnexion*, which dates from 2017, means that companies of a certain size must agree rules…"; "Strikes are announced in advance."
+- **"In start-ups and young teams, everyone often says *tu*, including to the boss. In traditional companies, banks and administrations, people often keep *vous* for years."** Confirm.
+- **"*Un jour de congé* (a day off) is the main exception [to plural *congés*]."** Confirm.
+- **"It's *faire grève*, with no article."** Confirm.
+
+## b1-review-work
+
+- **Fixed phrase: *Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées*** (in the model letter), from b1-cover-letter.
+- **"*Un libraire* sells books, and *un bibliothécaire* works in a library."** Confirm.
+
+## b1-media-and-news
+
+- **Fixed phrase (headline style): *Le musée fermé dimanche***, with *Grève des trains lundi* and *Nouveau film pour Dany Boon*. Headline grammar with no verb isn't taught as a structure; confirm the headlines read naturally.
+- **"French headlines are short. They often drop the verb, especially *être*, and leave only a noun and a participle or an adjective."** Confirm.
+- **"*Le journal* means a newspaper, but also the news bulletin on TV or radio: *le journal de 20 heures*."** Confirm.
+- **"*Les infos* and *les informations* are plural … *une info*, *une information* (a piece of news). And *une nouvelle* is a piece of personal news."** Confirm.
+- **"*Une interview* is for the media. For a job, use *un entretien*."** Confirm.
+- **"Several French broadcasters make short news bulletins in simple French for learners, read slowly and with a transcript."** Fact; confirm.
+- **"*Sur France 2, à 20 heures*"** (the evening TV news slot). Fact; confirm.
+
+## b1-technology-and-internet
+
+- **"*Internet* usually has no article: *sur internet*."** Confirm.
+- **"In everyday French, *un portable* on its own is a mobile phone … *un mobile* is also used for a mobile phone, especially in writing."** Confirm.
+- **"*Un mail* (also written *un e-mail*) is the everyday word in France. The official French word, *un courriel*, is much more common in Québec."** Confirm.
+- **"*Publier* is the general verb for posting. You'll also hear *poster*."** Confirm.
+- **"*Une appli* … you'll hear it far more often in speech."** Confirm.
+- **Tip: the menu words *Paramètres*, *Enregistrer*, *Supprimer*, *Mettre à jour*.** Confirm these are the usual French interface labels.
+
+## b1-reported-speech-present
+
+- **"In a reported question, the word order goes back to normal: subject, then verb … never *si est-ce que tu viens*."** Confirm.
+- **"*Qu'est-ce que* and *qu'est-ce qui* become *ce que* and *ce qui*."** Confirm.
+- **"In this lesson, the reporting verb is always in the present. When it's in the past, the tenses in the second half often change."** Confirm.
+- **"*Que* is never left out."** Confirm.
+
+## b1-gerondif
+
+- **"The gérondif always refers to the subject of the main verb. *J'ai vu Paul en sortant du cinéma* means *I* was leaving the cinema."** Confirm.
+- **"Three verbs are irregular: *étant*, *ayant*, *sachant*."** Confirm.
+- **"*En partant tôt* means *si tu pars tôt*."** Confirm the conditional reading.
+- **"You can also put it first, followed by a comma … The meaning stays the same."** Confirm.
+- **"*Tout en* stresses that the two things happen together, even if they don't usually go together. *En attendant* is a fixed phrase meaning 'in the meantime'."** Confirm.
+
+## b1-indefinite-pronouns
+
+- **"*Aucun* stays singular, because it means 'not one'. When it's the subject, *ne* still goes before the verb: *Aucun commentaire n'est gentil*."** Confirm.
+- **"*Quelque chose de* + adjective … The adjective stays masculine. *Rien de* and *personne de* work the same way."** Confirm.
+- **"*Quelques* suggests a small number … *plusieurs* suggests 'more than two', and often more than you expected."** Confirm the nuance.
+- **"*Plusieurs* and *quelques* go straight before the noun, with no article."** Confirm.
+- **"*Tout le monde* … takes a singular verb."** Confirm.
+- **Tip: *Chacun son goût !* (Each to their own!)** Confirm this form; *À chacun son goût* and *Chacun ses goûts* also exist.
+
+## b1-interrogative-lequel
+
+- **The à / de table: *auquel, à laquelle, auxquels, auxquelles; duquel, de laquelle, desquels, desquelles*.** Confirm.
+- **"In speech, people often avoid them: instead of *Auquel ?*, you'll often hear *À quel appareil ?*, or simply *Lequel ?*"** Confirm.
+- **"*Lequel de ces téléphones est le moins cher ?*"** Confirm.
+- **"All four plurals sound the same."** (*lesquels / lesquelles*, *lay-KEL*) Confirm.
+- **"You can also answer with *le* or *la* and an adjective: *Laquelle tu prends ? La noire.*"** Confirm.
+
+## b1-review-media
+
+- **"*Un fait divers*: a news item (crime, accidents, odd stories)."** Confirm.
+- **"*Contrôler* is for official checks, like tickets on a train or passports at a border. *Je contrôle l'article* sounds as if you're the police."** Confirm.
+- **"The verb after *que* stays in the passé composé, because the reporting verb is in the present."** Confirm.
+
+## b1-environment
+
+- **"Before an adjective or after a verb, there's nothing more to add. Before a noun, add *de*, with no article"** (*de plus en plus chaud*, *de plus en plus de plastique*). Confirm.
+- **"*De moins en moins de* covers both 'less and less' and 'fewer and fewer'."** Confirm.
+- **"*Protéger* changes its accent like *préférer*: *je protège*, but *nous protégeons*."** Confirm.
+- **"*Bio* is short for *biologique*. As a noun, *le bio* means organic food in general … As an adjective, it never changes: *des pommes bio*."** Confirm.
+- **"*Les énergies renouvelables* is usually plural."** Confirm.
+- **"In France, rubbish is sorted into different bins, and the colours and rules aren't the same in every town."** Fact; confirm.
+
+## b1-cause-and-consequence
+
+- **"*Car* … always comes in the middle of a sentence, after the main idea, and it can never start a sentence or answer a question on its own."** Confirm.
+- **"*Puisque* gives a reason that the other person already knows, or can see."** Confirm.
+- **"*Comme* (as, since) goes at the start of the sentence, before the main idea."** Confirm.
+- **"*À cause de* is for a cause with a bad result. *Grâce à* is for a cause with a good result."** Confirm.
+- **"*En raison de* is neutral and formal … rarely in conversation."** Confirm.
+- **"*Alors* … is more spoken. *Donc* works in speech and writing … *C'est pourquoi* starts a new sentence in writing, and *c'est pour ça que* is its everyday spoken form."** Confirm.
+- **"*Avec plaisir, mais un café froid, alors !*"** (dialogue) Confirm *un café froid* reads naturally for "an iced coffee".
+
+## b1-passive-voice-intro
+
+- **"In the passé composé of the passive … only the second participle agrees: *elles ont été sauvées*. *Été* never changes."** Confirm.
+- **"French uses the passive less than English, especially in conversation. When there's no *par*, French often prefers *on* with an active verb."** Confirm.
+- **"Very often, there's no *par* at all, because the agent is obvious or unknown."** Confirm.
+- **"*Incendie dans les Alpes : une forêt a été détruite dimanche.*"** and the other two news items. Confirm they read like real headlines.
+
+## b1-presenting-an-argument
+
+- **"*Il est vrai que* … states a fact, so it takes the indicative."** Confirm.
+- **"*Premièrement* and *deuxièmement* are more formal … Don't mix the two series."** Confirm.
+- **"*D'une part… d'autre part* is a little more formal than *d'un côté… de l'autre*."** Confirm.
+- **"*Interdire* is conjugated like *dire*, except for *vous interdisez*."** Confirm.
+- **"*Faut-il interdire les voitures dans le centre-ville ?*"** (teacher's line) Confirm the inversion of *il faut* reads naturally for a debate question.
+
+## b1-culture-french-republic
+
+- **Facts to check:**
+  - "A law of 1905 separates the Churches and the State: the State has no official religion … public schools give no religious teaching."
+  - "*La Cinquième République* … dates from 1958."
+  - "Every town hall has *un buste de Marianne*, and her face is on French stamps and on some euro coins. Over the years, famous actresses have been chosen as models for her."
+  - "[The motto is] on the front of town halls, schools and other public buildings, and on some coins. The three words come from the time of the French Revolution."
+  - "*La Marseillaise* … was written in 1792, during a war, and it got its name from soldiers from Marseille who sang it on their way to Paris."
+  - "*La prise de la Bastille*, on 14 July 1789 … an old royal prison", and "the *Fête de la Fédération* … in 1790."
+  - "*Le président* … is elected for five years. This has been the rule since 2002; before, it was seven."
+  - "If no candidate gets more than half the votes in the first round, the two leading candidates go through to a second round two weeks later."
+  - "Every French citizen can vote from the age of 18. This has been the voting age since 1974. Elections take place on a Sunday, often in a school or in the town hall."
+  - "Citizens elect the town council, *le conseil municipal*, and the council then chooses the mayor."
+- **"*Maire* is masculine for a man, and you'll hear *la maire* for a woman."** Confirm.
+- **"People often call it *le drapeau tricolore*, or simply *le tricolore*."** Confirm.
+- **"*Laïcité* is an important and sometimes sensitive subject in France."** Confirm the wording is neutral.
+
+## b1-review-society
+
+- **"*Sensibiliser quelqu'un à quelque chose*: to make someone aware of something."** (ex004: *sensibiliser les élèves au recyclage*) Confirm.
+- **"*Il coûte cher à la planète*"** (model text) Confirm it reads naturally.
+
+## b1-housing-and-renting
+
+- **"*Louer* works in both directions: the owner *loue* the flat to you, and you *louez* it from the owner."** Confirm.
+- **"*Un T2* or *un F2* is a flat with two main rooms … without counting the kitchen and the bathroom."** Confirm.
+- **"*Un état des lieux* is done twice: when you move in, and when you move out. The landlord and the tenant check every room together."** Confirm.
+- **"In France, landlords often ask for *un garant* … For students, it's often a parent. Before you sign *le bail*, you'll usually need to show *une assurance habitation*."** Fact; confirm.
+- **"*Les charges* cover shared costs, such as water or cleaning the building. *Charges comprises* (often *CC* in ads)…"**, and the tip's codes **T2, CC, HC (*hors charges*), m²**. Confirm.
+- **"*Une rente* … is a regular income you receive."** Confirm.
+- **"*La colocation* is very common among students and young workers in big French cities."** Confirm.
+
+## b1-money-and-banking
+
+- **"You'll often hear *la carte bleue*, or *la CB*, for any bank card, whatever its colour."** Confirm.
+- **"*Le code* is short for *le code secret*, and that's the word cashiers use."** Confirm.
+- **"*Être à découvert* means there's less than nothing in your account."** Confirm.
+- **"*Emprunter* … you borrow *à* someone: *J'emprunte de l'argent à ma sœur*."** Confirm.
+- **"In French shops, card payment is very common, even for small amounts, and *sans contact* is everywhere."** Fact; confirm.
+- **"In France, many people pay their rent by *virement*."** Fact; confirm.
+
+## b1-ne-que-ni-ni
+
+- **"*Ne… que* … the article doesn't change to *de* as it does after *pas*: *Je n'ai que des pièces*."** Confirm.
+- **"With *un*, *une*, *des* and the partitive, the article disappears after *ni*. With *le*, *la* and *les* … it stays."** Confirm.
+- **"*Je n'ai ni le temps ni l'argent*"** accepted alongside *Je n'ai ni temps ni argent* (ex011), with the note "Without an article is the strict rule; with le and l' is also very common." Confirm.
+- **"When the two things are the subject … *Ni Paul ni Marie ne viennent ce soir.*"** Confirm the plural verb.
+- **"*Je n'ai pas que dix euros* … means 'I haven't only got ten euros'."** Confirm.
+- **"*À peine* … isn't a negative at all, so it doesn't need *ne*. It usually goes after the verb."** Confirm.
+- **"In everyday speech, people often drop *ne*: *J'ai que dix euros*."** Confirm.
+- **"*Une pièce* (a coin) and *un billet* (a banknote) are new meanings of words already taught as 'room' and 'ticket'."** Confirm.
+
+## b1-formal-email
+
+- **Fixed phrases with *veuillez*: *Veuillez trouver ci-joint…*, *Veuillez m'excuser*, *Veuillez agréer…*.** *Veuillez* (imperative of *vouloir*) isn't taught as a verb form; labelled as fixed phrases in the lesson.
+- **"*Cordialement* and *Bien cordialement* are the usual closings for emails. *Je vous prie d'agréer…* … belongs to letters, and it sounds too heavy in most emails."** Confirm.
+- **"If you know the name, *Bonjour Madame Martin,* is fine in most emails, and *Madame,* or *Monsieur,* alone is more formal."** Confirm.
+- **"*Revenir vers vous* is everywhere in business emails, though some people find it a little heavy."** Confirm.
+- **"French doesn't translate the 'please' with *s'il vous plaît*"** before *ci-joint*. Confirm.
+- **"Wait about a week, then send *une relance*."** Cultural advice; confirm.
+
+## b1-making-a-complaint
+
+- **"*Une plainte* is a complaint in general, and *porter plainte* means making an official complaint to the police. To a shop or a company, the word is *une réclamation*."** Confirm.
+- **"Without the pronoun, *plaindre* means to feel sorry for someone: *je te plains*."** Confirm.
+- **"*Ce n'est pas normal* is the standard French way to say that something isn't acceptable. It's firm without being rude."** Confirm.
+- **"*Exiger* is strong, so keep it for the second complaint. *Dans les plus brefs délais* is formal written French."** Confirm.
+- **"In French, a formal, polite complaint is usually more effective than an angry one."** Cultural claim; confirm.
+
+## b1-travel-problems
+
+- **"If the airline lost your suitcase, don't say *J'ai perdu ma valise* … Say *Ma valise n'est pas arrivée* or *Ma valise est perdue*."** Confirm.
+- **"*Rater* is the everyday verb for missing a train, a plane or a connection."** Confirm. (*Rater sa correspondance* builds on *la correspondance* from a2-travel-and-transport.)
+- **"A flight *sans escale* is a direct one."** Confirm.
+- **"*Est-ce que j'ai droit à une indemnisation ?*"** Confirm the phrasing. The lesson states no compensation rules, as planned.
+
+## b1-review-home-money-problems
+
+- **"*Attacher* means to tie or fasten something … For an email, use *joindre*."** Confirm.
+- **"*Un dédommagement*: compensation (for a loss or trouble)"**, beside *une indemnisation* in b1-travel-problems. Confirm the two are close enough to use as the lessons do.

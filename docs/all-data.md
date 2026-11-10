@@ -1,6 +1,6 @@
 # All lesson data
 
-124 written lessons, in course order.
+159 written lessons, in course order.
 
 ## a1-greetings
 
@@ -4744,3 +4744,1398 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b1-review-stories-ex012 | translate | Write out this anecdote, filling each gap as shown (je: a man): J'(aller, imparfait) partir quand je (se rendre compte, passé composé) que j'(oublier, plus-que-parfait) mes clés. (And then), j'(voir, passé composé) mes clés sur la table. (Anyway), je (arriver, passé composé) en retard. | — | ["J'allais partir quand je me suis rendu compte que j'avais oublié mes clés. Et là, j'ai vu mes clés sur la table. Bref, je suis arrivé en retard."] | true | J'allais for what you were about to do, the plus-que-parfait for what came before, then et là and bref.
 - b1-review-stories-ex013 | translate | Write out this short review, filling each gap as shown: (It's about) un garçon de Paris. (From the start), l'histoire est émouvante. (At the end), il y a un rebondissement. (It's worth it) ! | — | ["Ça parle d'un garçon de Paris. Dès le début, l'histoire est émouvante. À la fin, il y a un rebondissement. Ça vaut le coup !"] | true | Ça parle de, dès le début and à la fin frame the story, and ça vaut le coup recommends it.
 - b1-review-stories-ex014 | reorder | Put the words in order: It's an unforgettable story. | — | ["C'est une histoire inoubliable"] | false | Inoubliable comes after the noun, and it's the same for masculine and feminine.
+
+## b1-subjonctif-formation
+
+### Vocab
+
+fr | pron | en | note
+
+- le subjonctif | luh sewb-zhohnk-TEEF | the subjunctive | —
+- l'indicatif | lan-dee-kah-TEEF | the indicative | —
+- un mode | uhn MOD | a mood (in grammar) | —
+- il faut que | eel foh KUH | it's necessary that, someone has to | —
+- que je parle / que tu parles / qu'il parle | kuh zhuh PARL / kuh tew PARL / keel PARL | that I / you / he speak(s) | —
+- que nous parlions / que vous parliez / qu'ils parlent | kuh noo par-LYOHN / kuh voo par-LYAY / keel PARL | that we / you / they speak | —
+- que je finisse | kuh zhuh fee-NEESS | that I finish | —
+- que j'attende | kuh zhah-TAHND | that I wait | —
+- que je prenne / que nous prenions | kuh zhuh PREN / kuh noo pruh-NYOHN | that I / we take | —
+- que je vienne / que nous venions | kuh zhuh VYEN / kuh noo vuh-NYOHN | that I / we come | —
+- que je boive / que nous buvions | kuh zhuh BWAHV / kuh noo bew-VYOHN | that I / we drink | —
+- que j'achète / que nous achetions | kuh zhah-SHET / kuh noo zahsh-TYOHN | that I / we buy | —
+- que j'appelle / que nous appelions | kuh zhah-PEL / kuh noo zah-puh-LYOHN | that I / we call | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-subjonctif-formation-ex001 | fill-in | Fill in the gap with ranger in the subjunctive: Il faut que tu ___ ta chambre. | — | ["ranges"] | true | Ils rangent → rang- + -es: que tu ranges.
+- b1-subjonctif-formation-ex002 | fill-in | Fill in the gap with partir in the subjunctive: Il faut que nous ___ à huit heures. | — | ["partions"] | false | Ils partent → part- + -ions: que nous partions.
+- b1-subjonctif-formation-ex003 | fill-in | Fill in the gap with finir in the subjunctive: Il faut que je ___ ce livre ce soir. | — | ["finisse"] | false | Ils finissent → finiss- + -e: que je finisse.
+- b1-subjonctif-formation-ex004 | fill-in | Fill in the gap with attendre in the subjunctive: Il faut qu'il ___ le bus. | — | ["attende"] | false | Ils attendent → attend- + -e: qu'il attende.
+- b1-subjonctif-formation-ex005 | multiple-choice | Where does the stem of a regular subjunctive come from? | ["the ils form of the present","the infinitive","the futur"] | ["the ils form of the present"] | false | Take ils finissent, remove -ent, and you have the stem finiss-.
+- b1-subjonctif-formation-ex006 | fill-in | Fill in the gap with prendre in the subjunctive: Il faut que vous ___ le train. | — | ["preniez"] | false | Prendre has two stems. Nous and vous use pren-, like the imparfait: que vous preniez.
+- b1-subjonctif-formation-ex007 | fill-in | Fill in the gap with venir in the subjunctive: Il faut qu'ils ___ demain. | — | ["viennent"] | false | Ils viennent is the same in the present and the subjunctive.
+- b1-subjonctif-formation-ex008 | multiple-choice | Choose the subjunctive of boire: Il faut que je ___ de l'eau. | ["boive","bois","buvais"] | ["boive"] | false | Ils boivent → boiv- + -e: que je boive.
+- b1-subjonctif-formation-ex009 | fill-in | Fill in the gap with appeler in the subjunctive: Il faut que tu ___ ta grand-mère. | — | ["appelles"] | false | Ils appellent → appell- + -es: que tu appelles, with two l's.
+- b1-subjonctif-formation-ex010 | multiple-choice | Which pair sounds exactly the same? | ["je parle / que je parle","je finis / que je finisse","je prends / que je prenne"] | ["je parle / que je parle"] | false | For most -er verbs, je, tu, il and ils sound the same in the present and the subjunctive.
+- b1-subjonctif-formation-ex011 | translate | Write in French, to a friend, using il faut que: You have to finish your homework. | — | ["Il faut que tu finisses tes devoirs"] | false | Il faut que + tu finisses, from ils finissent.
+- b1-subjonctif-formation-ex012 | translate | Rewrite these sentences with il faut que and the person shown: Il faut partir (nous). Il faut appeler Paul (tu). Il faut attendre (vous). | — | ["Il faut que nous partions. Il faut que tu appelles Paul. Il faut que vous attendiez."] | false | Il faut + infinitive is general. With a named person, use il faut que + the subjunctive.
+- b1-subjonctif-formation-ex013 | reorder | Put the words in order: We have to buy some bread. | — | ["Il faut que nous achetions du pain"] | false | Acheter has two stems. Nous uses achet-, without the grave accent.
+
+## b1-subjonctif-irregular
+
+### Vocab
+
+fr | pron | en | note
+
+- que je sois / que tu sois / qu'il soit | kuh zhuh SWAH / kuh tew SWAH / keel SWAH | that I / you / he be | —
+- que nous soyons / que vous soyez / qu'ils soient | kuh noo swah-YOHN / kuh voo swah-YAY / keel SWAH | that we / you / they be | —
+- que j'aie / que tu aies / qu'il ait | kuh ZHEH / kuh tew EH / keel EH | that I / you / he have | —
+- que nous ayons / que vous ayez / qu'ils aient | kuh noo zeh-YOHN / kuh voo zeh-YAY / keel ZEH | that we / you / they have | —
+- que j'aille / que nous allions | kuh ZHAH-y / kuh noo zah-LYOHN | that I / we go | —
+- que je fasse / que nous fassions | kuh zhuh FASS / kuh noo fah-SYOHN | that I / we do, make | —
+- que je puisse | kuh zhuh PWEESS | that I can | Que nous puissions.
+- que je sache | kuh zhuh SAHSH | that I know | Que nous sachions.
+- que je veuille / que nous voulions | kuh zhuh VUH-y / kuh noo voo-LYOHN | that I / we want | —
+- qu'il pleuve | keel PLUHV | that it rains | —
+- faire ses valises | fehr say vah-LEEZ | to pack | —
+- être prêt / prête | eh-truh PREH / PRET | to be ready | —
+- une carte d'identité | ewn kart dee-dahn-tee-TAY | an identity card | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-subjonctif-irregular-ex001 | fill-in | Fill in the gap with être in the subjunctive: Il faut que tu ___ prêt à huit heures. | — | ["sois"] | false | Être: que je sois, que tu sois, qu'il soit.
+- b1-subjonctif-irregular-ex002 | fill-in | Fill in the gap with avoir in the subjunctive: Il faut que nous ___ nos billets. | — | ["ayons"] | false | Avoir: que nous ayons, with no i after the y.
+- b1-subjonctif-irregular-ex003 | fill-in | Fill in the gap with aller in the subjunctive: Il faut que j'___ à la banque. | — | ["aille"] | false | Aller: que j'aille, que tu ailles, qu'il aille.
+- b1-subjonctif-irregular-ex004 | fill-in | Fill in the gap with faire in the subjunctive: Il faut que vous ___ vos valises. | — | ["fassiez"] | false | Faire has one stem, fass-: que vous fassiez.
+- b1-subjonctif-irregular-ex005 | fill-in | Fill in the gap with pouvoir in the subjunctive: Il faut qu'il ___ venir demain. | — | ["puisse"] | false | Pouvoir has one stem, puiss-: qu'il puisse.
+- b1-subjonctif-irregular-ex006 | fill-in | Fill in the gap with savoir in the subjunctive: Il faut que tu ___ la vérité. | — | ["saches"] | false | Savoir has one stem, sach-: que tu saches.
+- b1-subjonctif-irregular-ex007 | multiple-choice | Choose the right spelling: Il faut que nous ___ à l'heure. | ["soyons","soyions","sommes"] | ["soyons"] | false | Que nous soyons has no i after the y. Sommes is the present.
+- b1-subjonctif-irregular-ex008 | multiple-choice | Which form is the subjunctive of avoir with il? | ["qu'il ait","qu'il a","qu'il aie"] | ["qu'il ait"] | false | Avoir: que j'aie, que tu aies, qu'il ait.
+- b1-subjonctif-irregular-ex009 | fill-in | Fill in the gap with être in the subjunctive: Il faut qu'ils ___ là à midi. | — | ["soient"] | false | Qu'ils soient sounds just like qu'il soit.
+- b1-subjonctif-irregular-ex010 | multiple-choice | Which one is the subjunctive of aller? | ["que j'aille","que je vais","que j'allais"] | ["que j'aille"] | false | Que je vais is the present and que j'allais the imparfait.
+- b1-subjonctif-irregular-ex011 | translate | Write in French, to a friend, using il faut que: You have to be ready at eight. | — | ["Il faut que tu sois prêt à huit heures","Il faut que tu sois prête à huit heures"] | true | Il faut que + tu sois, and prêt agrees with the person.
+- b1-subjonctif-irregular-ex012 | translate | Write out this checklist, putting each verb in the subjunctive: Il faut que je (faire) mes valises. Il faut que tu (avoir) ta carte d'identité. Il faut que nous (être) à la gare à neuf heures. Il faut que vous (aller) chercher les billets. Il faut qu'il (savoir) l'heure du train. | — | ["Il faut que je fasse mes valises. Il faut que tu aies ta carte d'identité. Il faut que nous soyons à la gare à neuf heures. Il faut que vous alliez chercher les billets. Il faut qu'il sache l'heure du train."] | true | Five irregular verbs: fasse, aies, soyons, alliez and sache.
+- b1-subjonctif-irregular-ex013 | reorder | Put the words in order: We have to be on time. | — | ["Il faut que nous soyons à l'heure"] | false | Être: que nous soyons.
+
+## b1-subjonctif-necessity
+
+### Vocab
+
+fr | pron | en | note
+
+- il ne faut pas que | eel nuh foh pah KUH | someone mustn't | —
+- il est important que | ee-leh-tan-por-TAHN kuh | it's important that | —
+- il est nécessaire que | ee-leh nay-seh-SEHR kuh | it's necessary that | —
+- il est essentiel que | ee-leh-teh-sahn-SYEL kuh | it's essential that | —
+- il est indispensable que | ee-leh-tan-dees-pahn-SAH-bluh kuh | it's vital that | —
+- il vaut mieux que | eel voh MYUH kuh | it's better that | —
+- il suffit que | eel sew-FEE kuh | all that's needed is that | —
+- les tâches ménagères | lay tahsh may-nah-ZHEHR | the household chores | —
+- partager les tâches | par-tah-zhay lay TAHSH | to share the chores | —
+- repasser | ruh-pah-SAY | to iron | —
+- arroser les plantes | ah-roh-zay lay PLAHNT | to water the plants | —
+- nourrir le chat | noo-reer luh SHAH | to feed the cat | Like finir: que je nourrisse.
+- un / une colocataire | uhn / ewn koh-loh-kah-TEHR | a flatmate | —
+- un planning | uhn plah-NEENG | a rota, a schedule | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-subjonctif-necessity-ex001 | fill-in | Fill in the gap with être in the subjunctive: Il est important que tu ___ là. | — | ["sois"] | false | Il est important que + the subjunctive: que tu sois.
+- b1-subjonctif-necessity-ex002 | fill-in | Fill in the gap with oublier in the subjunctive: Il ne faut pas que nous ___ les clés. | — | ["oubliions"] | false | Ils oublient → oubli- + -ions: oubliions, with two i's.
+- b1-subjonctif-necessity-ex003 | multiple-choice | What does this mean? Il ne faut pas que tu partes. | ["You mustn't leave.","You don't have to leave.","You didn't leave."] | ["You mustn't leave."] | false | Il ne faut pas que means 'must not'. 'Don't have to' is a different idea.
+- b1-subjonctif-necessity-ex004 | fill-in | Fill in the gap with prendre in the subjunctive: Il vaut mieux que vous ___ le train. | — | ["preniez"] | false | Il vaut mieux que + the subjunctive: que vous preniez.
+- b1-subjonctif-necessity-ex005 | fill-in | Fill in the gap with envoyer in the subjunctive: Il suffit que tu m'___ un message. | — | ["envoies"] | false | Ils envoient → envoi- + -es: que tu envoies.
+- b1-subjonctif-necessity-ex006 | multiple-choice | Which sentence is about people in general, not a named person? | ["Il faut manger.","Il faut que tu manges.","Il faut que nous mangions."] | ["Il faut manger."] | false | Il faut + infinitive is general. Il faut que + a subject names who has to do it.
+- b1-subjonctif-necessity-ex007 | fill-in | Fill in the gap with nourrir in the subjunctive: Il est nécessaire que quelqu'un ___ le chat. | — | ["nourrisse"] | false | Nourrir works like finir: qu'il nourrisse.
+- b1-subjonctif-necessity-ex008 | multiple-choice | Choose the word for a general statement: Il est important ___ arriver à l'heure. | ["d'","que","à"] | ["d'"] | false | Il est important de + infinitive is general. Que would need a subject and the subjunctive.
+- b1-subjonctif-necessity-ex009 | fill-in | Fill in the gap with arroser in the subjunctive: Il faut que j'___ les plantes. | — | ["arrose"] | true | Que j'arrose, the same form as the present.
+- b1-subjonctif-necessity-ex010 | multiple-choice | Which verb means 'to iron'? | ["repasser","arroser","nourrir"] | ["repasser"] | false | Repasser: to iron. Arroser is to water, and nourrir is to feed.
+- b1-subjonctif-necessity-ex011 | translate | Write in French, using il ne faut pas que: We mustn't forget the keys. | — | ["Il ne faut pas que nous oubliions les clés","Il ne faut pas qu'on oublie les clés"] | false | Il ne faut pas que + the subjunctive. With nous, oublier has two i's: oubliions.
+- b1-subjonctif-necessity-ex012 | translate | Rewrite these sentences with il est important que and the person shown: Il faut faire les courses (tu). Il faut sortir les poubelles (vous). | — | ["Il est important que tu fasses les courses. Il est important que vous sortiez les poubelles."] | false | Faire has the stem fass-, and sortir follows the rule: ils sortent → que vous sortiez.
+- b1-subjonctif-necessity-ex013 | reorder | Put the words in order: All you need to do is call me. | — | ["Il suffit que tu m'appelles"] | false | Il suffit que + the subjunctive: que tu m'appelles.
+
+## b1-subjonctif-wishes-emotions
+
+### Vocab
+
+fr | pron | en | note
+
+- vouloir que | voo-lwahr KUH | to want (someone) to | —
+- j'aimerais que | zheh-muh-reh KUH | I'd like (someone) to | —
+- souhaiter que | sweh-tay KUH | to wish that, to hope that | —
+- préférer que | pray-fay-ray KUH | to prefer that | —
+- aimer mieux que | eh-may myuh KUH | to prefer that, to rather | —
+- être heureux / heureuse que | eh-truh uh-RUH / uh-RUHZ kuh | to be happy that | —
+- être triste que | eh-truh TREEST kuh | to be sad that | —
+- être surpris / surprise que | eh-truh sewr-PREE / sewr-PREEZ kuh | to be surprised that | —
+- ravi / ravie | rah-VEE | delighted | —
+- ça me fait plaisir que | sah muh feh pleh-ZEER kuh | it makes me happy that | —
+- regretter que | ruh-greh-tay KUH | to be sorry that | —
+- c'est dommage que | seh doh-MAHZH kuh | it's a shame that | —
+- avoir peur que | ah-vwahr PUHR kuh | to be afraid that | —
+- craindre que | KRAN-druh kuh | to fear that | Formal. Je crains, nous craignons.
+- maman / papa | mah-MAHN / pah-PAH | mum / dad | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-subjonctif-wishes-emotions-ex001 | fill-in | Fill in the gap with rentrer in the subjunctive: Maman veut que je ___ à Noël. | — | ["rentre"] | true | Vouloir que + the subjunctive: que je rentre.
+- b1-subjonctif-wishes-emotions-ex002 | fill-in | Fill in the gap with être in the subjunctive: Je suis content que tu ___ là. | — | ["sois"] | false | Être content que + the subjunctive: que tu sois.
+- b1-subjonctif-wishes-emotions-ex003 | fill-in | Fill in the gap with venir in the subjunctive: J'aimerais que vous ___ dîner. | — | ["veniez"] | false | Venir has two stems: que vous veniez.
+- b1-subjonctif-wishes-emotions-ex004 | multiple-choice | Espérer que takes the indicative. Choose the right form: J'espère que tu ___ bien. | ["vas","ailles","aille"] | ["vas"] | false | Espérer que takes the indicative: tu vas.
+- b1-subjonctif-wishes-emotions-ex005 | fill-in | Fill in the gap with pleuvoir in the subjunctive: C'est dommage qu'il ___ . | — | ["pleuve"] | false | C'est dommage que + the subjunctive: qu'il pleuve.
+- b1-subjonctif-wishes-emotions-ex006 | multiple-choice | Choose the right form: Elle a peur que son fils ___ malade. | ["soit","est","sera"] | ["soit"] | false | Avoir peur que + the subjunctive: qu'il soit.
+- b1-subjonctif-wishes-emotions-ex007 | fill-in | Fill in the gap with pouvoir in the subjunctive: Je regrette que vous ne ___ pas venir. | — | ["puissiez"] | false | Regretter que + the subjunctive: que vous puissiez.
+- b1-subjonctif-wishes-emotions-ex008 | multiple-choice | Which one takes the indicative, not the subjunctive? | ["espérer que","souhaiter que","vouloir que"] | ["espérer que"] | false | Espérer que takes the indicative. The other two take the subjunctive.
+- b1-subjonctif-wishes-emotions-ex009 | fill-in | Fill in the gap with prendre in the subjunctive: Mes parents préfèrent que nous ___ le train. | — | ["prenions"] | false | Préférer que + the subjunctive: que nous prenions.
+- b1-subjonctif-wishes-emotions-ex010 | multiple-choice | Someone says « Je suis ravie que tu sois là. » How does she feel? | ["delighted","worried","disappointed"] | ["delighted"] | false | Ravi means delighted, a stronger word than content.
+- b1-subjonctif-wishes-emotions-ex011 | translate | Write in French, to a friend: I'd like you to come. | — | ["J'aimerais que tu viennes","Je voudrais que tu viennes"] | false | J'aimerais que or je voudrais que + the subjunctive: que tu viennes.
+- b1-subjonctif-wishes-emotions-ex012 | translate | Rewrite each piece of news as a reaction, starting with Je suis content que (a man speaking): Paul est là. Tu as un nouveau travail. Ils viennent samedi. | — | ["Je suis content que Paul soit là. Je suis content que tu aies un nouveau travail. Je suis content qu'ils viennent samedi."] | true | After je suis content que, each verb goes into the subjunctive: soit, aies, viennent.
+- b1-subjonctif-wishes-emotions-ex013 | reorder | Put the words in order: It's a shame you can't come. | — | ["C'est dommage que tu ne puisses pas venir"] | false | C'est dommage que + the subjunctive, with ne… pas around puisses.
+
+## b1-subjunctive-vs-infinitive
+
+### Vocab
+
+fr | pron | en | note
+
+- s'installer | san-stah-LAY | to settle, to move in | —
+- vivre ensemble | vee-vruh ahn-SAHN-bluh | to live together | Je vis, nous vivons, ils vivent.
+- un compromis | uhn kohn-proh-MEE | a compromise | —
+- une condition | ewn kohn-dee-SYOHN | a condition | —
+- se décider | suh day-see-DAY | to make up your mind | —
+- accepter de | ak-sep-TAY duh | to agree to | —
+- proposer de | proh-poh-ZAY duh | to suggest, to offer to | —
+- oser | oh-ZAY | to dare | Followed straight by an infinitive: je n'ose pas demander.
+- faire un effort | fehr uh-neh-FOR | to make an effort | —
+- prévenir | pray-vuh-NEER | to let (someone) know, to warn | Like venir: je préviens.
+- rassurer | rah-sew-RAY | to reassure | —
+- s'inquiéter | san-kyay-TAY | to worry | Je m'inquiète, nous nous inquiétons.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-subjunctive-vs-infinitive-ex001 | multiple-choice | You want to leave. Choose the right ending: Je veux ___. | ["partir","que je parte","que je pars"] | ["partir"] | false | Same subject (je… je), so it's the infinitive.
+- b1-subjunctive-vs-infinitive-ex002 | multiple-choice | You want your friend to leave. Choose the right form: Je veux que tu ___. | ["partes","partir","pars"] | ["partes"] | false | Two different subjects (je… tu), so que + the subjunctive.
+- b1-subjunctive-vs-infinitive-ex003 | fill-in | Fill in the gap: Je suis content ___ être ici. | — | ["d'"] | false | Same subject: être content de + infinitive, with d' before a vowel.
+- b1-subjunctive-vs-infinitive-ex004 | fill-in | Fill in the gap: Je suis content ___ tu sois ici. | — | ["que"] | false | Two subjects: être content que + the subjunctive.
+- b1-subjunctive-vs-infinitive-ex005 | fill-in | Fill in the gap: J'ai peur ___ rater le train. | — | ["de"] | false | Same subject: avoir peur de + infinitive.
+- b1-subjunctive-vs-infinitive-ex006 | fill-in | Fill in the gap with rater in the subjunctive: J'ai peur que tu ___ le train. | — | ["rates"] | true | Two subjects: avoir peur que + the subjunctive, que tu rates.
+- b1-subjunctive-vs-infinitive-ex007 | multiple-choice | Which sentence is wrong? | ["Je veux que je parte.","Je veux partir.","Je veux que tu partes."] | ["Je veux que je parte."] | false | With the same subject, French uses the infinitive: je veux partir.
+- b1-subjunctive-vs-infinitive-ex008 | fill-in | Fill in the gap with vivre in the subjunctive: Elle préfère que nous ___ ensemble. | — | ["vivions"] | false | Vivre: nous vivons → que nous vivions.
+- b1-subjunctive-vs-infinitive-ex009 | fill-in | Fill in the gap: Il a accepté ___ venir. | — | ["de"] | false | Accepter de + infinitive.
+- b1-subjunctive-vs-infinitive-ex010 | multiple-choice | Choose the right ending: Je n'ose pas ___ à ma directrice. | ["parler","de parler","que je parle"] | ["parler"] | false | Oser goes straight to the infinitive, with no de.
+- b1-subjunctive-vs-infinitive-ex011 | translate | Write in French (a man speaking): I'm happy to be here. | — | ["Je suis content d'être ici","Je suis heureux d'être ici","Je suis content d'être là"] | true | One subject, so de + infinitive.
+- b1-subjunctive-vs-infinitive-ex012 | translate | Write in French (a man speaking), to a friend: I'm happy you're here. | — | ["Je suis content que tu sois là","Je suis content que tu sois ici","Je suis heureux que tu sois là"] | true | Two subjects, so que + the subjunctive.
+- b1-subjunctive-vs-infinitive-ex013 | translate | Join the two parts into one sentence, choosing the infinitive or que + the subjunctive: Je voudrais… / Nous vivons ensemble. | — | ["Je voudrais que nous vivions ensemble"] | false | Two different subjects (je… nous), so que + the subjunctive.
+- b1-subjunctive-vs-infinitive-ex014 | reorder | Put the words in order: She's afraid of being late. | — | ["Elle a peur d'être en retard"] | false | Same subject, so avoir peur de + infinitive.
+
+## b1-expressing-doubt-certainty
+
+### Vocab
+
+fr | pron | en | note
+
+- douter que | doo-tay KUH | to doubt that | —
+- douter de | doo-tay DUH | to doubt (something) | —
+- un doute | uhn DOOT | a doubt | —
+- je ne pense pas que | zhuh nuh pahnss pah KUH | I don't think that | —
+- je ne crois pas que | zhuh nuh krwah pah KUH | I don't believe that | —
+- je ne suis pas sûr / sûre que | zhuh nuh swee pah SEWR kuh | I'm not sure that | —
+- être certain / certaine que | eh-truh sehr-TAN / sehr-TEN kuh | to be certain that | —
+- il est évident que | ee-leh-tay-vee-DAHN kuh | it's obvious that | —
+- il est clair que | ee-leh KLEHR kuh | it's clear that | —
+- sûrement | sewr-MAHN | surely, most likely | —
+- certainement | sehr-ten-MAHN | certainly | —
+- une preuve | ewn PRUHV | a proof, evidence | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-expressing-doubt-certainty-ex001 | fill-in | Fill in the gap with avoir in the present indicative: Je pense qu'il ___ raison. | — | ["a"] | true | Je pense que, in the affirmative, takes the indicative.
+- b1-expressing-doubt-certainty-ex002 | fill-in | Fill in the gap with avoir in the subjunctive: Je ne pense pas qu'il ___ raison. | — | ["ait"] | false | Je ne pense pas que expresses doubt, so it takes the subjunctive.
+- b1-expressing-doubt-certainty-ex003 | fill-in | Fill in the gap with être in the subjunctive: Je doute que ce ___ vrai. | — | ["soit"] | false | Douter que always takes the subjunctive.
+- b1-expressing-doubt-certainty-ex004 | multiple-choice | Choose the right form: Je suis sûr qu'elle ___ demain. | ["viendra","vienne","venir"] | ["viendra"] | false | Certainty takes the indicative: elle viendra.
+- b1-expressing-doubt-certainty-ex005 | multiple-choice | Choose the right form: Je ne suis pas sûr qu'elle ___ demain. | ["vienne","venir","viens"] | ["vienne"] | false | Doubt takes the subjunctive, which also covers the future: qu'elle vienne.
+- b1-expressing-doubt-certainty-ex006 | fill-in | Fill in the gap with être in the present indicative: Il est évident que tu ___ fatigué. | — | ["es"] | false | Il est évident que expresses certainty: the indicative.
+- b1-expressing-doubt-certainty-ex007 | multiple-choice | Which one takes the subjunctive? | ["Je doute que…","Je suis certain que…","Il est clair que…"] | ["Je doute que…"] | false | Doubt takes the subjunctive. Certainty takes the indicative.
+- b1-expressing-doubt-certainty-ex008 | fill-in | Fill in the gap with avoir in the subjunctive: Je ne crois pas que nous ___ le temps. | — | ["ayons"] | false | Je ne crois pas que + the subjunctive: que nous ayons.
+- b1-expressing-doubt-certainty-ex009 | multiple-choice | Which word means 'most likely'? | ["sûrement","une preuve","un doute"] | ["sûrement"] | false | Sûrement: surely, most likely.
+- b1-expressing-doubt-certainty-ex010 | fill-in | Fill in the gap (proof): Tu as une ___ ? | — | ["preuve"] | false | Une preuve: a proof, a piece of evidence.
+- b1-expressing-doubt-certainty-ex011 | translate | Write in French: I don't think he's right. | — | ["Je ne pense pas qu'il ait raison","Je ne crois pas qu'il ait raison"] | false | A negative opinion takes the subjunctive: qu'il ait raison.
+- b1-expressing-doubt-certainty-ex012 | translate | Rewrite each opinion in the negative, changing the mood: Je pense que le café ferme. Je crois que c'est vrai. | — | ["Je ne pense pas que le café ferme. Je ne crois pas que ce soit vrai."] | false | In the negative, both take the subjunctive. Ferme looks the same, but est becomes soit.
+- b1-expressing-doubt-certainty-ex013 | reorder | Put the words in order: I doubt she knows. | — | ["Je doute qu'elle sache"] | false | Douter que + the subjunctive of savoir: qu'elle sache.
+
+## b1-review-subjunctive
+
+### Vocab
+
+fr | pron | en | note
+
+- organiser une fête | or-gah-nee-zay ewn FET | to organize a party | —
+- une fête surprise | ewn fet sewr-PREEZ | a surprise party | —
+- un invité / une invitée | uh-nan-vee-TAY / ew-nan-vee-TAY | a guest | —
+- souffler les bougies | soo-flay lay boo-ZHEE | to blow out the candles | —
+- se charger de | suh shar-ZHAY duh | to take care of, to see to | —
+- garder le secret | gar-day luh suh-KREH | to keep the secret | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-review-subjunctive-ex001 | fill-in | Fill in the gap with garder in the subjunctive: Il faut que tu ___ le secret. | — | ["gardes"] | false | Il faut que + the subjunctive: que tu gardes.
+- b1-review-subjunctive-ex002 | fill-in | Fill in the gap with être in the futur: Je pense qu'elle ___ contente. | — | ["sera"] | false | Je pense que, in the affirmative, takes the indicative.
+- b1-review-subjunctive-ex003 | fill-in | Fill in the gap with savoir in the subjunctive: Je ne pense pas qu'elle ___ quelque chose. | — | ["sache"] | false | A negative opinion takes the subjunctive: qu'elle sache.
+- b1-review-subjunctive-ex004 | multiple-choice | You'll organize it yourself. Choose the right ending: Je veux ___ une fête. | ["organiser","que j'organise","que j'organiserai"] | ["organiser"] | false | Same subject, so the infinitive.
+- b1-review-subjunctive-ex005 | multiple-choice | Choose the right form: Je veux que vous ___ à 19 heures. | ["veniez","venez","viendrez"] | ["veniez"] | false | Vouloir que + the subjunctive: que vous veniez.
+- b1-review-subjunctive-ex006 | fill-in | Fill in the gap with pouvoir in the futur: J'espère que vous ___ venir. | — | ["pourrez"] | false | Espérer que takes the indicative, here the futur.
+- b1-review-subjunctive-ex007 | fill-in | Fill in the gap with être in the subjunctive: Je suis contente que nous ___ tous là. | — | ["soyons"] | false | Être content que + the subjunctive: que nous soyons.
+- b1-review-subjunctive-ex008 | multiple-choice | Which beginning needs the subjunctive? | ["Je doute qu'il…","Je suis sûr qu'il…","Il est clair qu'il…"] | ["Je doute qu'il…"] | false | Doubt takes the subjunctive. Certainty takes the indicative.
+- b1-review-subjunctive-ex009 | fill-in | Fill in the gap (take care of): Marc va se ___ du gâteau. | — | ["charger"] | false | Se charger de: to take care of.
+- b1-review-subjunctive-ex010 | multiple-choice | At the end of a birthday meal, the person whose birthday it is… | ["souffle les bougies","garde le secret","organise une fête surprise"] | ["souffle les bougies"] | false | Souffler les bougies: to blow out the candles on the cake.
+- b1-review-subjunctive-ex011 | fill-in | Fill in the gap (guests): Il y aura vingt ___. | — | ["invités"] | false | Un invité, des invités: guests.
+- b1-review-subjunctive-ex012 | translate | Write in French, to a friend: I'd like you to keep the secret. | — | ["J'aimerais que tu gardes le secret","Je voudrais que tu gardes le secret"] | false | Two subjects, so que + the subjunctive.
+- b1-review-subjunctive-ex013 | translate | Write out this message, filling each gap as shown (je: a woman): Il faut que vous (être, subjunctive) chez moi à 19 heures. Je suis sûre que Léa (être, futur) surprise. Je doute qu'elle (deviner, subjunctive) quelque chose. | — | ["Il faut que vous soyez chez moi à 19 heures. Je suis sûre que Léa sera surprise. Je doute qu'elle devine quelque chose."] | true | Il faut que and douter que take the subjunctive. Je suis sûre que takes the indicative.
+- b1-review-subjunctive-ex014 | reorder | Put the words in order: We're organizing a surprise party. | — | ["Nous organisons une fête surprise"] | false | Organiser une fête surprise, in the present.
+
+## b1-careers-and-job-hunting
+
+### Vocab
+
+fr | pron | en | note
+
+- une offre d'emploi | ew-nofr dahn-PLWAH | a job offer, a job ad | —
+- une annonce | ew-nah-NOHNSS | an advert | —
+- un poste | uhn POST | a position, a job | Masculine. La poste is the post office.
+- postuler (à) | poss-tew-LAY (ah) | to apply (for) | —
+- une candidature | ewn kahn-dee-dah-TEWR | an application | —
+- un candidat / une candidate | uhn kahn-dee-DAH / ewn kahn-dee-DAHT | a candidate | —
+- un CV | uhn say-VAY | a CV | —
+- envoyer | ahn-vwah-YAY | to send | J'envoie, nous envoyons, ils envoient. Participle: envoyé.
+- un CDI | uhn say-day-EE | a permanent contract | —
+- un CDD | uhn say-day-DAY | a fixed-term contract | —
+- un / une stagiaire | uhn / ewn stah-ZHYEHR | an intern | —
+- à temps plein | ah tahn PLAN | full-time | —
+- à temps partiel | ah tahn par-SYEL | part-time | —
+- brut / net | BREWT / NET | gross / net (pay) | —
+- l'expérience | lek-spay-RYAHNSS | experience | Feminine: une expérience.
+- une compétence | ewn kohn-pay-TAHNSS | a skill | —
+- une formation | ewn for-mah-SYOHN | training, education | —
+- une équipe | ew-nay-KEEP | a team | —
+- un client / une cliente | uhn klee-YAHN / ewn klee-YAHNT | a customer, a client | —
+- un employeur / une employeuse | uh-nahn-plwah-YUHR / ew-nahn-plwah-YUHZ | an employer | —
+- embaucher | ahn-boh-SHAY | to hire | —
+- licencier | lee-sahn-SYAY | to dismiss, to lay off | —
+- démissionner | day-mee-syoh-NAY | to resign | —
+- le chômage | luh shoh-MAHZH | unemployment | —
+- être au chômage | eh-truh oh shoh-MAHZH | to be unemployed | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-careers-and-job-hunting-ex001 | multiple-choice | A permanent contract is… | ["un CDI","un CDD","un stage"] | ["un CDI"] | false | Un CDI has no end date. Un CDD is for a fixed period.
+- b1-careers-and-job-hunting-ex002 | fill-in | Fill in the gap with postuler in the present: Je ___ à une offre d'emploi. | — | ["postule"] | true | Postuler à: to apply for.
+- b1-careers-and-job-hunting-ex003 | multiple-choice | Someone who works twenty hours a week works… | ["à temps partiel","à temps plein","au chômage"] | ["à temps partiel"] | false | À temps partiel: part-time.
+- b1-careers-and-job-hunting-ex004 | fill-in | Fill in the gap with démissionner in the passé composé: Elle a ___ hier : elle part dans un mois. | — | ["démissionné"] | false | Démissionner takes avoir: elle a démissionné.
+- b1-careers-and-job-hunting-ex005 | multiple-choice | Pay before tax and contributions is… | ["brut","net","plein"] | ["brut"] | false | Le salaire brut is before deductions. Le salaire net is what you receive.
+- b1-careers-and-job-hunting-ex006 | fill-in | Fill in the gap (hire): L'entreprise va ___ trois personnes. | — | ["embaucher"] | false | Embaucher: to hire.
+- b1-careers-and-job-hunting-ex007 | multiple-choice | Choose the right word: J'ai trouvé un nouveau ___ dans une banque. | ["poste","chômage","stagiaire"] | ["poste"] | false | Un poste is a position, a job.
+- b1-careers-and-job-hunting-ex008 | fill-in | Fill in the gap (unemployed): Depuis six mois, il est au ___. | — | ["chômage"] | false | Être au chômage: to be unemployed.
+- b1-careers-and-job-hunting-ex009 | multiple-choice | Which word means 'a skill'? | ["une compétence","une candidature","une annonce"] | ["une compétence"] | false | Une compétence is a skill. Une candidature is an application.
+- b1-careers-and-job-hunting-ex010 | fill-in | Fill in the gap (CV): Envoyez votre ___ à Madame Martin. | — | ["CV"] | false | Un CV, pronounced like the letters C and V.
+- b1-careers-and-job-hunting-ex011 | translate | Write in French: I'm applying for a full-time job. | — | ["Je postule à un poste à temps plein","Je postule pour un poste à temps plein"] | true | Postuler à (or pour) un poste, then à temps plein.
+- b1-careers-and-job-hunting-ex012 | translate | Write out this job ad, filling each gap as shown: Hôtel à Nice (embaucher, present) un serveur. (Fixed-term contract) de six mois, (full-time). (Experience) demandée. Salaire : 1 800 euros (net). | — | ["Hôtel à Nice embauche un serveur. CDD de six mois, à temps plein. Expérience demandée. Salaire : 1 800 euros net."] | true | Job ads drop articles and verbs: CDD de six mois, expérience demandée.
+- b1-careers-and-job-hunting-ex013 | reorder | Put the words in order: She's looking for a part-time job. | — | ["Elle cherche un poste à temps partiel"] | false | Un poste à temps partiel: a part-time job.
+
+## b1-cover-letter
+
+### Vocab
+
+fr | pron | en | note
+
+- l'expérience professionnelle | lek-spay-ryahnss proh-feh-syoh-NEL | work experience | —
+- les centres d'intérêt | lay sahn-truh dan-tay-REH | interests, hobbies | —
+- maîtriser | meh-tree-ZAY | to have a good command of | —
+- une lettre de motivation | ewn leh-truh duh moh-tee-vah-SYOHN | a cover letter | —
+- Madame, Monsieur, | mah-DAHM, muh-SYUH | Dear Sir or Madam, | —
+- Je me permets de… | zhuh muh pehr-MEH duh | I am writing to… (formal) | —
+- adresser | ah-dreh-SAY | to send (formally) | —
+- le poste de | luh POST duh | the position of | —
+- actuellement | ak-tew-el-MAHN | currently | —
+- dynamique | dee-nah-MEEK | energetic, dynamic | —
+- rigoureux / rigoureuse | ree-goo-RUH / ree-goo-RUHZ | thorough, rigorous | —
+- Je serais ravi / ravie de… | zhuh suh-reh rah-VEE duh | I would be delighted to… | —
+- un entretien | uh-nahn-truh-TYAN | an interview | —
+- Je me tiens à votre disposition. | zhuh muh tyan ah voh-truh dees-poh-zee-SYOHN | I am available (for any questions). | —
+- Je vous remercie de votre attention. | zhuh voo ruh-mehr-SEE duh voh-trah-tahn-SYOHN | Thank you for your time. | —
+- Je vous prie d'agréer… salutations distinguées. | zhuh voo pree dah-gray-AY … sah-lew-tah-syohn dees-tan-GAY | Yours faithfully | A fixed phrase.
+- Veuillez agréer… | vuh-yay ah-gray-AY | Yours faithfully (variant) | A fixed phrase.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-cover-letter-ex001 | multiple-choice | How do you start a cover letter when you don't know the reader's name? | ["Madame, Monsieur,","Salut,","Bises,"] | ["Madame, Monsieur,"] | false | Madame, Monsieur, is the standard formal opening.
+- b1-cover-letter-ex002 | fill-in | Fill in the gap (position): Je me permets de vous adresser ma candidature au ___ de serveur. | — | ["poste"] | false | Au poste de + the job.
+- b1-cover-letter-ex003 | fill-in | Fill in the gap (Currently): ___, je travaille dans un restaurant à Lyon. | — | ["Actuellement"] | false | Actuellement means 'currently'.
+- b1-cover-letter-ex004 | multiple-choice | What does actuellement mean? | ["currently","actually","finally"] | ["currently"] | false | Actuellement is a false friend: it means 'currently', not 'actually'.
+- b1-cover-letter-ex005 | fill-in | Fill in the gap (delighted; a man writing): Je serais ___ de travailler dans votre hôtel. | — | ["ravi"] | false | Je serais ravi de + infinitive. A woman writes ravie.
+- b1-cover-letter-ex006 | fill-in | Fill in the gap with maîtriser in the present: Je ___ l'anglais et l'espagnol. | — | ["maîtrise"] | false | Je maîtrise: I have a good command of.
+- b1-cover-letter-ex007 | multiple-choice | Which section of a French CV lists your hobbies? | ["les centres d'intérêt","la formation","l'expérience professionnelle"] | ["les centres d'intérêt"] | false | Les centres d'intérêt: interests and hobbies.
+- b1-cover-letter-ex008 | fill-in | Fill in the gap: Je me tiens à votre ___ pour un entretien. | — | ["disposition"] | false | Je me tiens à votre disposition: I'm available.
+- b1-cover-letter-ex009 | multiple-choice | Which closing fits a cover letter? | ["Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.","Bises !","À bientôt !"] | ["Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées."] | false | The long formula is the standard closing for a formal letter.
+- b1-cover-letter-ex010 | multiple-choice | In which order does a French cover letter usually present its ideas? | ["the company, then you, then what you'll do together","your hobbies, then you, then the salary","the salary, then the company, then you"] | ["the company, then you, then what you'll do together"] | false | The usual plan is vous (the company), moi (you), nous (working together).
+- b1-cover-letter-ex011 | translate | Write in French (a woman writing): I would be delighted to meet you. | — | ["Je serais ravie de vous rencontrer"] | false | Je serais ravie de + infinitive.
+- b1-cover-letter-ex012 | translate | Write in French, for a formal letter: Thank you for your time. | — | ["Je vous remercie de votre attention"] | false | The standard formula: je vous remercie de votre attention.
+- b1-cover-letter-ex013 | translate | Write out this paragraph of a cover letter, filling each gap as shown (a man writing): (Currently), je suis étudiant en langues. Je (maîtriser, present) l'anglais et l'italien. Je suis (energetic) et (thorough). (I would be delighted) de travailler dans votre hôtel cet été. | — | ["Actuellement, je suis étudiant en langues. Je maîtrise l'anglais et l'italien. Je suis dynamique et rigoureux. Je serais ravi de travailler dans votre hôtel cet été."] | true | A middle paragraph: what you do now, your skills, your qualities and your wish.
+- b1-cover-letter-ex014 | reorder | Put the words in order: I am available for an interview. | — | ["Je me tiens à votre disposition pour un entretien"] | false | Se tenir à la disposition de quelqu'un: to be available to them.
+
+## b1-job-interview
+
+### Vocab
+
+fr | pron | en | note
+
+- un entretien d'embauche | uh-nahn-truh-tyan dahn-BOHSH | a job interview | —
+- un recruteur / une recruteuse | uhn ruh-krew-TUHR / ewn ruh-krew-TUHZ | a recruiter | —
+- se présenter | suh pray-zahn-TAY | to introduce yourself | —
+- Parlez-moi de vous. | par-lay mwah duh VOO | Tell me about yourself. | —
+- une question | ewn kess-TYOHN | a question | Poser une question: to ask a question.
+- ça fait … que | sah FEH … kuh | it's been … since, for … (and still) | —
+- il y a … que | eel YAH … kuh | for … (and still) | —
+- être chargé / chargée de | eh-truh shar-ZHAY duh | to be in charge of | —
+- gérer | zhay-RAY | to manage | Je gère, nous gérons.
+- un point fort | uhn pwan FOR | a strength | —
+- un point faible | uhn pwan FEH-bluh | a weakness | —
+- travailler en équipe | trah-vah-yay ah-nay-KEEP | to work in a team | —
+- autonome | oh-toh-NOM | independent, self-reliant | —
+- ponctuel / ponctuelle | pohnk-tew-EL | punctual | —
+- les horaires | lay-zoh-REHR | working hours | —
+- les avantages | lay-zah-vahn-TAHZH | benefits, perks | —
+- évoluer | ay-voh-lew-AY | to progress (in a job) | —
+- un défi | uhn day-FEE | a challenge | —
+- disponible | dees-poh-NEE-bluh | available | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-job-interview-ex001 | multiple-choice | The recruiter says « Parlez-moi de vous. » What do they want? | ["a short presentation of yourself","your salary","your address"] | ["a short presentation of yourself"] | false | Parlez-moi de vous is the usual opening question: present yourself in two minutes.
+- b1-job-interview-ex002 | fill-in | Fill in the gap (for, and still): Je travaille ici ___ deux ans. | — | ["depuis"] | false | Depuis + the present for something still going on.
+- b1-job-interview-ex003 | fill-in | Fill in the gap (It's been): ___ deux ans que je travaille ici. | — | ["Ça fait"] | false | Ça fait + a length of time + que + the present.
+- b1-job-interview-ex004 | multiple-choice | Which sentence means 'two years ago'? | ["Il y a deux ans, j'ai changé de travail.","Il y a deux ans que je travaille ici.","Ça fait deux ans que je travaille ici."] | ["Il y a deux ans, j'ai changé de travail."] | false | Il y a without que, with the passé composé, means 'ago'.
+- b1-job-interview-ex005 | fill-in | Fill in the gap (in charge; a man speaking): J'ai été ___ des clients pendant trois ans. | — | ["chargé"] | false | Être chargé de: to be in charge of.
+- b1-job-interview-ex006 | fill-in | Fill in the gap with gérer in the present: Je ___ une équipe de cinq personnes. | — | ["gère"] | false | Gérer: je gère, with a grave accent.
+- b1-job-interview-ex007 | multiple-choice | Someone who always arrives on time is… | ["ponctuel","autonome","disponible"] | ["ponctuel"] | false | Ponctuel: punctual.
+- b1-job-interview-ex008 | multiple-choice | Which question could you ask the recruiter at the end of the interview? | ["Quels sont les horaires ?","Parlez-moi de vous.","Quel est votre point faible ?"] | ["Quels sont les horaires ?"] | false | Asking about working hours is a normal question for the candidate.
+- b1-job-interview-ex009 | fill-in | Fill in the gap with pouvoir in the conditionnel: Je ___ commencer en septembre. | — | ["pourrais"] | false | The conditionnel sounds polite: je pourrais.
+- b1-job-interview-ex010 | multiple-choice | Which sentence describes a weakness? | ["Mon point faible : je suis parfois en retard.","Mon point fort : je suis ponctuel.","Je travaille bien en équipe."] | ["Mon point faible : je suis parfois en retard."] | false | Un point faible is a weakness.
+- b1-job-interview-ex011 | translate | Write in French: I have been working here for two years. | — | ["Je travaille ici depuis deux ans","Ça fait deux ans que je travaille ici","Il y a deux ans que je travaille ici"] | true | Depuis, ça fait… que or il y a… que, always with the present.
+- b1-job-interview-ex012 | translate | Write out these interview answers, filling each gap as shown (a woman speaking): (It's been) trois ans que je travaille dans un hôtel. (My strength), c'est que je suis (independent). Je (pouvoir, conditionnel) commencer en juin. | — | ["Ça fait trois ans que je travaille dans un hôtel. Mon point fort, c'est que je suis autonome. Je pourrais commencer en juin."] | false | Ça fait… que for experience, mon point fort for a quality, and the conditionnel for availability.
+- b1-job-interview-ex013 | reorder | Put the words in order: I work well in a team. | — | ["Je travaille bien en équipe"] | false | Travailler en équipe, with bien after the verb.
+
+## b1-double-object-pronouns
+
+### Vocab
+
+fr | pron | en | note
+
+- me le / me la / me les | muh luh / muh lah / muh lay | it / them to me | —
+- te le / nous le / vous le | tuh luh / noo luh / voo luh | it to you / to us / to you | —
+- le lui / la lui / les lui | luh lwee / lah lwee / lay lwee | it / them to him or her | —
+- le leur / les leur | luh luhr / lay luhr | it / them to them | —
+- lui en / leur en | lwee AHN / luhr AHN | some to him or her / to them | —
+- m'en / t'en | mahn / tahn | some to me / to you | —
+- il y en a | eel yahn NAH | there is some, there are some | —
+- un dossier | uhn doh-SYAY | a file, a folder | —
+- une pièce jointe | ewn pyess ZHWANT | an attachment | —
+- une imprimante | ew-nan-pree-MAHNT | a printer | —
+- transmettre | trahnss-MEH-truh | to pass on, to forward | Like mettre: participle transmis.
+- prêter | preh-TAY | to lend | —
+- rendre | RAHN-druh | to give back | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-double-object-pronouns-ex001 | fill-in | Fill in the gap: Tu me donnes le dossier ? Oui, je te ___ donne. | — | ["le"] | false | Le dossier becomes le, after te: je te le donne.
+- b1-double-object-pronouns-ex002 | fill-in | Fill in the gap (la lettre, to Marie): Tu as envoyé la lettre à Marie ? Oui, je ___ ai envoyée. | — | ["la lui"] | false | La (the letter) comes before lui (to Marie): je la lui ai envoyée.
+- b1-double-object-pronouns-ex003 | multiple-choice | Choose the right order: Je donne le livre à Paul. → Je ___ donne. | ["le lui","lui le","le le"] | ["le lui"] | false | Le, la or les comes before lui or leur.
+- b1-double-object-pronouns-ex004 | multiple-choice | Choose the right order: Il me prête sa voiture. → Il ___ prête. | ["me la","la me","me lui"] | ["me la"] | false | Me, te, nous and vous come before le, la or les.
+- b1-double-object-pronouns-ex005 | fill-in | Fill in the gap (du café, to the children): Tu donnes du café aux enfants ? Non, je ne ___ donne pas ! | — | ["leur en"] | false | Leur (to the children) comes before en (some coffee).
+- b1-double-object-pronouns-ex006 | fill-in | Fill in the gap: Il y a du pain ? Oui, il y ___ a. | — | ["en"] | false | Il y en a: there is some.
+- b1-double-object-pronouns-ex007 | multiple-choice | Which sentence is correct? | ["Je ne te le dis pas.","Je ne le te dis pas.","Je te ne le dis pas."] | ["Je ne te le dis pas."] | false | Ne comes first, then both pronouns in order, then the verb.
+- b1-double-object-pronouns-ex008 | fill-in | Fill in the gap (ton livre): Tu peux me prêter ton livre ? Oui, je vais te ___ prêter. | — | ["le"] | false | With an infinitive, both pronouns go before it: te le prêter.
+- b1-double-object-pronouns-ex009 | multiple-choice | Les clés is feminine plural. Choose the participle: Je les lui ai ___. | ["données","donné","donnés"] | ["données"] | false | Les (the keys) is a direct object before the verb, so the participle agrees: données.
+- b1-double-object-pronouns-ex010 | multiple-choice | Choose the positive command (give the book to me): | ["Donne-le-moi !","Donne-moi-le !","Me le donne !"] | ["Donne-le-moi !"] | false | In a positive command, le comes before moi: donne-le-moi.
+- b1-double-object-pronouns-ex011 | translate | Write in French (it: le livre): I gave it to him yesterday. | — | ["Je le lui ai donné hier","Hier, je le lui ai donné"] | false | Le before lui, both before the auxiliary.
+- b1-double-object-pronouns-ex012 | translate | Rewrite each sentence with two pronouns: Je rends les clés à Anne. Je t'envoie le document. Il donne des fleurs à ses parents. | — | ["Je les lui rends. Je te l'envoie. Il leur en donne."] | false | Les lui, te l' (before a vowel) and leur en.
+- b1-double-object-pronouns-ex013 | reorder | Put the words in order: Can you send it to me? | — | ["Tu peux me l'envoyer"] | false | With an infinitive, both pronouns go before it: me l'envoyer.
+
+## b1-possessive-pronouns
+
+### Vocab
+
+fr | pron | en | note
+
+- le mien / la mienne | luh MYAN / lah MYEN | mine | —
+- les miens / les miennes | lay MYAN / lay MYEN | mine (plural) | —
+- le tien / la tienne | luh TYAN / lah TYEN | yours (tu) | Plural: les tiens / les tiennes.
+- le sien / la sienne | luh SYAN / lah SYEN | his, hers, its | Plural: les siens / les siennes.
+- le nôtre / la nôtre | luh NOH-truh / lah NOH-truh | ours | —
+- le vôtre / la vôtre | luh VOH-truh / lah VOH-truh | yours (vous) | —
+- le leur / la leur | luh LUHR / lah LUHR | theirs | —
+- les nôtres / les vôtres / les leurs | lay NOH-truh / lay VOH-truh / lay LUHR | ours / yours / theirs (plural) | —
+- C'est à moi. | seh-tah MWAH | It's mine. | Also: c'est à toi, c'est à lui, c'est à elle.
+- un chargeur | uhn shar-ZHUHR | a charger | —
+- un badge | uhn BAHDZH | an access badge, a pass | —
+- un casier | uhn kah-ZYAY | a locker | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-possessive-pronouns-ex001 | fill-in | Fill in the gap (yours, tu; stylo: masculine): Ce n'est pas mon stylo. C'est ___ ? | — | ["le tien"] | false | Stylo is masculine, so le tien.
+- b1-possessive-pronouns-ex002 | multiple-choice | Paul's car (la voiture) is… | ["la sienne","le sien","la leur"] | ["la sienne"] | false | Voiture is feminine, so la sienne, even though Paul is a man.
+- b1-possessive-pronouns-ex003 | multiple-choice | Marie's umbrella (le parapluie) is… | ["le sien","la sienne","le leur"] | ["le sien"] | false | Parapluie is masculine, so le sien, even though Marie is a woman.
+- b1-possessive-pronouns-ex004 | fill-in | Fill in the gap (Ours; maison: feminine): Ta maison est grande. ___ est petite. | — | ["La nôtre"] | false | Maison is feminine: la nôtre, with a circumflex.
+- b1-possessive-pronouns-ex005 | fill-in | Fill in the gap (yours, vous; clés: feminine plural): Mes clés sont ici. Où sont ___ ? | — | ["les vôtres"] | false | Plural: les vôtres, the same for masculine and feminine.
+- b1-possessive-pronouns-ex006 | multiple-choice | What does « C'est à moi. » mean when someone points at a bag? | ["It's mine.","It's for me.","I'm here."] | ["It's mine."] | false | C'est à moi says who something belongs to.
+- b1-possessive-pronouns-ex007 | fill-in | Fill in the gap (to yours, tu; frère: masculine): Je parle à mon frère, et tu parles ___ . | — | ["au tien"] | true | À + le tien contracts to au tien.
+- b1-possessive-pronouns-ex008 | multiple-choice | Which one has a circumflex? | ["le nôtre","notre maison","votre maison"] | ["le nôtre"] | false | The pronoun le nôtre has a circumflex. The adjectives notre and votre don't.
+- b1-possessive-pronouns-ex009 | fill-in | Fill in the gap (Ours; enfants: masculine plural): Leurs enfants sont à l'école. ___ aussi. | — | ["Les nôtres"] | false | Plural: les nôtres.
+- b1-possessive-pronouns-ex010 | multiple-choice | Chargeur is masculine. Choose: Ce chargeur est à toi ? Non, c'est ___. | ["le mien","la mienne","les miens"] | ["le mien"] | false | Masculine singular: le mien.
+- b1-possessive-pronouns-ex011 | translate | Write in French, to a friend: That's not my phone, it's yours. | — | ["Ce n'est pas mon téléphone, c'est le tien"] | false | Téléphone is masculine, so le tien.
+- b1-possessive-pronouns-ex012 | translate | Rewrite each sentence with a possessive pronoun: C'est ma valise. Ce sont tes clés. C'est leur voiture. | — | ["C'est la mienne. Ce sont les tiennes. C'est la leur."] | false | Each pronoun agrees with the thing: valise and voiture are feminine, clés is feminine plural.
+- b1-possessive-pronouns-ex013 | reorder | Put the words in order: Your office is bigger than mine. | — | ["Ton bureau est plus grand que le mien"] | false | Bureau is masculine, so le mien.
+
+## b1-demonstrative-pronouns
+
+### Vocab
+
+fr | pron | en | note
+
+- celui / celle | suh-LWEE / SEL | the one (masculine / feminine) | —
+- ceux / celles | SUH / SEL | the ones (masculine / feminine) | —
+- celui-ci / celle-ci | suh-lwee-SEE / sel-SEE | this one | —
+- celui-là / celle-là | suh-lwee-LAH / sel-LAH | that one | —
+- celui de / celle de | suh-LWEE duh / SEL duh | the one belonging to, …'s | —
+- celui qui / celui que | suh-lwee KEE / suh-lwee KUH | the one who, the one that | —
+- un modèle | uhn moh-DEL | a model | —
+- une version | ewn vehr-ZYOHN | a version | —
+- un tarif | uhn tah-REEF | a price, a rate | —
+- un abonnement | uh-nah-bonn-MAHN | a subscription | —
+- puissant / puissante | pwee-SAHN / pwee-SAHNT | powerful | —
+- léger / légère | lay-ZHAY / lay-ZHEHR | light (not heavy) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-demonstrative-pronouns-ex001 | fill-in | Fill in the gap (téléphone: masculine): Ce téléphone est cher. ___-ci est moins cher. | — | ["Celui"] | false | Téléphone is masculine singular: celui-ci.
+- b1-demonstrative-pronouns-ex002 | fill-in | Fill in the gap (chaussures: feminine plural): Ces chaussures ? Je préfère ___-là. | — | ["celles"] | false | Feminine plural: celles-là.
+- b1-demonstrative-pronouns-ex003 | multiple-choice | Livre is masculine. Choose: Ce n'est pas mon livre, c'est ___ de Marie. | ["celui","celle","ceux"] | ["celui"] | false | Masculine singular: celui de Marie, Marie's.
+- b1-demonstrative-pronouns-ex004 | multiple-choice | Robe is feminine. Choose: La robe que j'aime, c'est ___ qui est bleue. | ["celle","celui","ceux"] | ["celle"] | false | Feminine singular: celle qui.
+- b1-demonstrative-pronouns-ex005 | fill-in | Fill in the gap (fraises: feminine plural): Les fraises de ce marché sont meilleures que ___ de l'autre marché. | — | ["celles"] | false | Feminine plural: celles de.
+- b1-demonstrative-pronouns-ex006 | multiple-choice | Which sentence is correct? | ["Je préfère celui-ci.","Je préfère celui.","Je préfère ce."] | ["Je préfère celui-ci."] | false | Celui can't stand alone: it needs -ci, -là, de, qui or que after it.
+- b1-demonstrative-pronouns-ex007 | fill-in | Fill in the gap (modèle: masculine): Le modèle que je préfère, c'est ___ que tu as acheté. | — | ["celui"] | false | Masculine singular: celui que.
+- b1-demonstrative-pronouns-ex008 | multiple-choice | What do you pay every month to use a phone service? | ["un abonnement","un modèle","une version"] | ["un abonnement"] | false | Un abonnement: a subscription.
+- b1-demonstrative-pronouns-ex009 | fill-in | Fill in the gap (light; téléphone: masculine): Ce téléphone est très ___. | — | ["léger"] | true | Léger, masculine. The feminine is légère.
+- b1-demonstrative-pronouns-ex010 | multiple-choice | What's the opposite of celle-ci? | ["celle-là","celui-ci","ceux-ci"] | ["celle-là"] | false | Celle-ci (this one) and celle-là (that one).
+- b1-demonstrative-pronouns-ex011 | translate | Write in French (the phone: le téléphone): The one I prefer is cheaper. | — | ["Celui que je préfère est moins cher"] | false | Celui que, because je is the subject of préfère.
+- b1-demonstrative-pronouns-ex012 | translate | Rewrite each sentence with a demonstrative pronoun, so the noun isn't repeated: J'aime ta veste et la veste de Paul. Je préfère les modèles qui sont légers. | — | ["J'aime ta veste et celle de Paul. Je préfère ceux qui sont légers."] | false | Celle de replaces la veste de, and ceux qui replaces les modèles qui.
+- b1-demonstrative-pronouns-ex013 | reorder | Put the words in order: This one is lighter than that one. | — | ["Celui-ci est plus léger que celui-là"] | false | Celui-ci and celui-là compare two masculine things.
+
+## b1-culture-work-life
+
+### Vocab
+
+fr | pron | en | note
+
+- la semaine de 35 heures | lah suh-men duh trahnt-sank UHR | the 35-hour week | —
+- les RTT | lay ehr-tay-TAY | extra days off for working more than 35 hours | —
+- les heures supplémentaires | lay-zuhr sew-play-mahn-TEHR | overtime | —
+- les congés payés | lay kohn-zhay peh-YAY | paid holiday | —
+- faire le pont | fehr luh POHN | to take a long weekend | Taking a working day off between a public holiday and the weekend.
+- la pause déjeuner | lah pohz day-zhuh-NAY | the lunch break | —
+- un ticket-restaurant | uhn tee-keh ress-toh-RAHN | a meal voucher | —
+- une grève | ewn GREV | a strike | —
+- faire grève | fehr GREV | to go on strike, to be on strike | —
+- un syndicat | uhn san-dee-KAH | a trade union | —
+- un patron / une patronne | uhn pah-TROHN / ewn pah-TRONN | a boss | —
+- un cadre / une cadre | uhn / ewn KAH-druh | a manager, an executive | —
+- la hiérarchie | lah yay-rar-SHEE | the hierarchy | —
+- le télétravail | luh tay-lay-trah-VAH-y | working from home, remote work | —
+- le droit à la déconnexion | luh drwah ah lah day-koh-nek-SYOHN | the right to disconnect | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-culture-work-life-ex001 | multiple-choice | How long is the standard legal working week in France? | ["35 hours","40 hours","30 hours"] | ["35 hours"] | false | La semaine de 35 heures has been the standard since 2000.
+- b1-culture-work-life-ex002 | multiple-choice | How many weeks of paid holiday do French employees get a year? | ["five","two","eight"] | ["five"] | false | Employees have five weeks of congés payés a year.
+- b1-culture-work-life-ex003 | fill-in | Fill in the gap (strike): Aujourd'hui, les professeurs font ___. | — | ["grève"] | false | Faire grève: to be on strike, with no article.
+- b1-culture-work-life-ex004 | fill-in | Fill in the gap: Je paie mon déjeuner avec un ___-restaurant. | — | ["ticket"] | false | Un ticket-restaurant is a meal voucher from your employer.
+- b1-culture-work-life-ex005 | multiple-choice | Le 14 juillet is on a Thursday. On the Friday, many people… | ["font le pont","font grève","font des heures supplémentaires"] | ["font le pont"] | false | Faire le pont: taking the day between the holiday and the weekend off.
+- b1-culture-work-life-ex006 | fill-in | Fill in the gap (working from home): Il travaille chez lui deux jours par semaine : c'est du ___. | — | ["télétravail"] | false | Le télétravail: working from home.
+- b1-culture-work-life-ex007 | multiple-choice | Who is un cadre? | ["a manager","an intern","a trade union"] | ["a manager"] | false | Un cadre is a manager or a professional with responsibility.
+- b1-culture-work-life-ex008 | fill-in | Fill in the gap: Après 19 heures, je ne lis pas mes messages de travail : c'est le droit à la ___. | — | ["déconnexion"] | false | Le droit à la déconnexion: the right to disconnect.
+- b1-culture-work-life-ex009 | multiple-choice | What are les RTT? | ["extra days off","meal vouchers","overtime"] | ["extra days off"] | false | RTT days make up for hours worked above 35.
+- b1-culture-work-life-ex010 | fill-in | Fill in the gap: Je prends mes ___ payés en août. | — | ["congés"] | false | Les congés payés: paid holiday, always plural.
+- b1-culture-work-life-ex011 | translate | Write in French: We have five weeks of paid holiday. | — | ["Nous avons cinq semaines de congés payés","On a cinq semaines de congés payés"] | true | Cinq semaines de congés payés.
+- b1-culture-work-life-ex012 | translate | Write out these comparisons, filling each gap as shown: En France, la pause déjeuner est (longer; pause: feminine) que dans mon pays. Les Français ont (more) congés payés. (Working from home) est aussi possible chez nous. | — | ["En France, la pause déjeuner est plus longue que dans mon pays. Les Français ont plus de congés payés. Le télétravail est aussi possible chez nous."] | false | Plus + adjective + que, plus de + noun, and le télétravail.
+- b1-culture-work-life-ex013 | reorder | Put the words in order: Here, we call each other tu. | — | ["Ici, on se tutoie"] | false | Se tutoyer: to call each other tu.
+
+## b1-review-work
+
+### Vocab
+
+fr | pron | en | note
+
+- une reconversion | ewn ruh-kohn-vehr-SYOHN | a career change | —
+- se reconvertir | suh ruh-kohn-vehr-TEER | to change career | Like finir: je me reconvertis.
+- une qualité | ewn kah-lee-TAY | a good quality, a strength | —
+- un défaut | uhn day-FOH | a flaw, a fault | —
+- ambitieux / ambitieuse | ahn-bee-SYUH / ahn-bee-SYUHZ | ambitious | —
+- une librairie | ewn lee-breh-REE | a bookshop | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-review-work-ex001 | fill-in | Fill in the gap with postuler in the present: Je ___ à un poste à temps plein. | — | ["postule"] | true | Postuler à un poste: to apply for a job.
+- b1-review-work-ex002 | multiple-choice | Which section of a French CV lists your studies? | ["la formation","les centres d'intérêt","les avantages"] | ["la formation"] | false | La formation: your studies and diplomas.
+- b1-review-work-ex003 | fill-in | Fill in the gap (Currently): ___, je travaille dans une banque. | — | ["Actuellement"] | false | Actuellement means 'currently'.
+- b1-review-work-ex004 | fill-in | Fill in the gap (It's been): ___ cinq ans que je travaille ici. | — | ["Ça fait"] | false | Ça fait + time + que + present.
+- b1-review-work-ex005 | fill-in | Fill in the gap (ton roman): Tu me prêtes ton roman ? Oui, je te ___ prête. | — | ["le"] | false | Te before le: je te le prête.
+- b1-review-work-ex006 | fill-in | Fill in the gap (les livres, to your colleagues): Tu as rendu les livres à tes collègues ? Oui, je ___ ai rendus. | — | ["les leur"] | false | Les before leur, and rendus agrees with les livres.
+- b1-review-work-ex007 | multiple-choice | Chargeur is masculine. Choose: Ce n'est pas ton chargeur, c'est ___. (mine) | ["le mien","la mienne","les miens"] | ["le mien"] | false | Masculine singular: le mien.
+- b1-review-work-ex008 | multiple-choice | Librairie is feminine. Choose: Votre librairie est ___ que je préfère. | ["celle","celui","ceux"] | ["celle"] | false | Feminine singular: celle que.
+- b1-review-work-ex009 | multiple-choice | Where do you buy books? | ["dans une librairie","dans une boulangerie","dans un syndicat"] | ["dans une librairie"] | false | Une librairie is a bookshop.
+- b1-review-work-ex010 | fill-in | Fill in the gap (change career): Il veut changer de métier : il veut se ___. | — | ["reconvertir"] | false | Se reconvertir: to change career.
+- b1-review-work-ex011 | multiple-choice | Which one is a flaw? | ["un défaut","une qualité","un point fort"] | ["un défaut"] | false | Un défaut is a flaw. Une qualité and un point fort are strengths.
+- b1-review-work-ex012 | translate | Write in French, using two pronouns (them: les livres): I gave them back to her. | — | ["Je les lui ai rendus"] | false | Les before lui, and rendus agrees with les livres.
+- b1-review-work-ex013 | translate | Write out this paragraph from a cover letter, filling each gap as shown (a man writing): (Currently), je travaille dans une banque. Je souhaite (change career). Je suis (ambitious) et (thorough). (I am available) pour un entretien. | — | ["Actuellement, je travaille dans une banque. Je souhaite me reconvertir. Je suis ambitieux et rigoureux. Je me tiens à votre disposition pour un entretien."] | true | Actuellement, se reconvertir, two qualities and the standard availability phrase.
+- b1-review-work-ex014 | reorder | Put the words in order: Your bookshop is the one I prefer. | — | ["Votre librairie est celle que je préfère"] | false | Celle que, because librairie is feminine.
+
+## b1-media-and-news
+
+### Vocab
+
+fr | pron | en | note
+
+- la presse | lah PRESS | the press | —
+- un quotidien | uhn koh-tee-DYAN | a daily paper | —
+- un hebdomadaire | uh-neb-doh-mah-DEHR | a weekly (paper or magazine) | —
+- un magazine | uhn mah-gah-ZEEN | a magazine | —
+- un titre | uhn TEE-truh | a headline, a title | —
+- à la une | ah lah EWN | on the front page | —
+- un éditorial | uh-nay-dee-toh-RYAHL | an editorial | —
+- les infos / les informations | lay-zan-FOH / lay-zan-for-mah-SYOHN | the news | —
+- le journal télévisé / le JT | luh zhoor-nahl tay-lay-vee-ZAY / luh zhee-TAY | the TV news | —
+- une émission | ew-nay-mee-SYOHN | a programme | —
+- une chaîne | ewn SHEN | a channel | —
+- un reportage | uhn ruh-por-TAHZH | a report (on TV or radio) | —
+- en direct | ahn dee-REKT | live | —
+- la radio | lah rah-DYOH | the radio | —
+- l'actualité | lak-tew-ah-lee-TAY | current affairs, the news | —
+- un événement | uh-nay-ven-MAHN | an event | —
+- une enquête | ew-nahn-KET | an investigation, a survey | —
+- une interview | ew-nan-tehr-VYOO | an interview (in the media) | —
+- s'informer | san-for-MAY | to keep informed | —
+- une source | ewn SOORSS | a source | —
+- fiable | fee-YAH-bluh | reliable | —
+- une fausse information | ewn fohss an-for-mah-SYOHN | a piece of fake news | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-media-and-news-ex001 | multiple-choice | A newspaper that comes out every day is… | ["un quotidien","un hebdomadaire","un magazine"] | ["un quotidien"] | false | Un quotidien comes out every day. Un hebdomadaire comes out every week.
+- b1-media-and-news-ex002 | multiple-choice | The biggest story of the day is… | ["à la une","en direct","fiable"] | ["à la une"] | false | À la une: on the front page.
+- b1-media-and-news-ex003 | fill-in | Fill in the gap (TV news): Je regarde le ___ télévisé de 20 heures. | — | ["journal"] | false | Le journal télévisé, often shortened to le JT.
+- b1-media-and-news-ex004 | fill-in | Fill in the gap (reliable): Ce journal n'est pas ___ : il donne des fausses informations. | — | ["fiable"] | false | Fiable: reliable.
+- b1-media-and-news-ex005 | multiple-choice | A programme on TV or radio is… | ["une émission","une chaîne","une source"] | ["une émission"] | false | Une émission is a programme. Une chaîne is a channel.
+- b1-media-and-news-ex006 | fill-in | Fill in the gap (live): Le match est ___ direct ce soir. | — | ["en"] | false | En direct: live.
+- b1-media-and-news-ex007 | multiple-choice | A journalist talks to a minister on TV. This is… | ["une interview","un entretien d'embauche","un éditorial"] | ["une interview"] | false | Une interview is for the media. Un entretien d'embauche is a job interview.
+- b1-media-and-news-ex008 | fill-in | Fill in the gap (the press): Je lis la ___ tous les matins. | — | ["presse"] | false | La presse: newspapers and magazines in general.
+- b1-media-and-news-ex009 | multiple-choice | A long investigation by journalists is… | ["une enquête","un titre","une chaîne"] | ["une enquête"] | false | Une enquête: an investigation.
+- b1-media-and-news-ex010 | fill-in | Fill in the gap (keep informed): Pour m'___, je lis le journal tous les jours. | — | ["informer"] | false | S'informer: to keep informed, here with me.
+- b1-media-and-news-ex011 | translate | Write in French: I read the news on my phone. | — | ["Je lis les infos sur mon téléphone","Je lis les informations sur mon téléphone","Je lis l'actualité sur mon téléphone"] | false | Les infos is plural in French.
+- b1-media-and-news-ex012 | translate | Write out these headlines as full sentences, filling each gap as shown: Le musée (être, futur) fermé dimanche. Les trains (faire, futur) grève lundi. Dany Boon (sortir, present) un nouveau film. | — | ["Le musée sera fermé dimanche. Les trains feront grève lundi. Dany Boon sort un nouveau film."] | false | Headlines drop the verb. A full sentence puts it back.
+- b1-media-and-news-ex013 | reorder | Put the words in order: It's on the front page of all the papers. | — | ["C'est à la une de tous les journaux"] | false | À la une de: on the front page of.
+
+## b1-technology-and-internet
+
+### Vocab
+
+fr | pron | en | note
+
+- un smartphone | uhn smart-FONN | a smartphone | —
+- un ordinateur portable | uh-nor-dee-nah-TUHR por-TAH-bluh | a laptop | —
+- une tablette | ewn tah-BLET | a tablet | —
+- un écran | uh-nay-KRAHN | a screen | —
+- une application / une appli | ew-nah-plee-kah-SYOHN / ew-nah-PLEE | an app | —
+- internet | an-tehr-NET | the internet | Usually without an article: sur internet.
+- en ligne | ahn LEE-nyuh | online | —
+- un site | uhn SEET | a website | —
+- un lien | uhn LYAN | a link | —
+- un mail | uhn MEL | an email | —
+- télécharger | tay-lay-shar-ZHAY | to download | —
+- un compte | uhn KOHNT | an account | —
+- un identifiant | uh-nee-dahn-tee-FYAHN | a username, a login | —
+- un mot de passe | uhn moh duh PAHSS | a password | —
+- se connecter | suh koh-nek-TAY | to log in | —
+- se déconnecter | suh day-koh-nek-TAY | to log out | —
+- les réseaux sociaux | lay ray-zoh soh-SYOH | social media | —
+- publier | pew-blee-YAY | to post, to publish | —
+- un abonné / une abonnée | uh-nah-boh-NAY / ew-nah-boh-NAY | a follower, a subscriber | —
+- la batterie | lah bah-TREE | the battery | —
+- recharger | ruh-shar-ZHAY | to charge | —
+- mettre à jour | meh-trah ZHOOR | to update | —
+- une mise à jour | ewn mee-zah ZHOOR | an update | —
+- enregistrer | ahn-ruh-zhees-TRAY | to save (a file) | —
+- supprimer | sew-pree-MAY | to delete | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-technology-and-internet-ex001 | multiple-choice | To log in to your account, you need… | ["un mot de passe","une tablette","une batterie"] | ["un mot de passe"] | false | Un mot de passe: a password.
+- b1-technology-and-internet-ex002 | fill-in | Fill in the gap: J'ai oublié mon mot de ___. | — | ["passe"] | true | Un mot de passe: a password.
+- b1-technology-and-internet-ex003 | multiple-choice | Which verb means 'to download'? | ["télécharger","supprimer","publier"] | ["télécharger"] | false | Télécharger: to download.
+- b1-technology-and-internet-ex004 | fill-in | Fill in the gap (charge): Il faut ___ ton téléphone ce soir. | — | ["recharger"] | false | Recharger: to charge a battery.
+- b1-technology-and-internet-ex005 | fill-in | Fill in the gap (followers): Elle a 10 000 ___ sur les réseaux sociaux. | — | ["abonnés"] | false | Un abonné: a follower.
+- b1-technology-and-internet-ex006 | multiple-choice | Which verb means 'to save' a document? | ["enregistrer","supprimer","publier"] | ["enregistrer"] | false | Enregistrer: to save. Supprimer is to delete.
+- b1-technology-and-internet-ex007 | fill-in | Fill in the gap (update): Je dois ___ à jour l'application. | — | ["mettre"] | false | Mettre à jour: to update.
+- b1-technology-and-internet-ex008 | multiple-choice | In everyday French, un portable is usually… | ["a mobile phone","a laptop","a tablet"] | ["a mobile phone"] | false | Un portable on its own is a mobile phone. A laptop is un ordinateur portable.
+- b1-technology-and-internet-ex009 | fill-in | Fill in the gap (link): Envoie-moi le ___ du site. | — | ["lien"] | false | Un lien: a link.
+- b1-technology-and-internet-ex010 | fill-in | Fill in the gap (log in): Tu peux te ___ avec ton identifiant. | — | ["connecter"] | false | Se connecter: to log in.
+- b1-technology-and-internet-ex011 | translate | Write in French: I forgot my password. | — | ["J'ai oublié mon mot de passe"] | true | Oublier in the passé composé, then mon mot de passe.
+- b1-technology-and-internet-ex012 | translate | Write out these instructions to a friend, with each verb in the imperative: (télécharger) l'application. (se connecter) avec ton identifiant. (ne pas oublier) de mettre à jour ton téléphone. | — | ["Télécharge l'application. Connecte-toi avec ton identifiant. N'oublie pas de mettre à jour ton téléphone."] | true | Tu imperatives: télécharge, connecte-toi, n'oublie pas.
+- b1-technology-and-internet-ex013 | reorder | Put the words in order: I post photos on social media. | — | ["Je publie des photos sur les réseaux sociaux"] | false | Publier sur les réseaux sociaux: to post on social media.
+
+## b1-reported-speech-present
+
+### Vocab
+
+fr | pron | en | note
+
+- dire que | deer KUH | to say that | —
+- répondre que | ray-pohn-druh KUH | to reply that | —
+- expliquer que | eks-plee-kay KUH | to explain that | —
+- préciser | pray-see-ZAY | to specify, to add | —
+- demander si | duh-mahn-day SEE | to ask whether, to ask if | —
+- demander ce que / ce qui | duh-mahn-day suh KUH / suh KEE | to ask what | —
+- vouloir savoir si | voo-lwahr sah-vwahr SEE | to want to know whether | —
+- se demander si | suh duh-mahn-day SEE | to wonder whether | —
+- un / une porte-parole | uhn / ewn port-pah-ROL | a spokesperson | —
+- une déclaration | ewn day-klah-rah-SYOHN | a statement | —
+- un témoin | uhn tay-MWAN | a witness | —
+- un appel manqué | uh-nah-pel mahn-KAY | a missed call | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-reported-speech-present-ex001 | fill-in | Report Paul's words. Paul: « Je suis fatigué. » → Paul dit qu'___ fatigué. | — | ["il est"] | false | Je becomes il, and suis becomes est.
+- b1-reported-speech-present-ex002 | fill-in | Report Marie's question. Marie: « Tu viens ? » → Marie demande ___ tu viens. | — | ["si"] | false | A yes/no question is reported with si.
+- b1-reported-speech-present-ex003 | fill-in | Report Léo's question. Léo: « Il arrive ? » → Léo demande ___ arrive. | — | ["s'il"] | false | Si becomes s' before il.
+- b1-reported-speech-present-ex004 | multiple-choice | « Qu'est-ce que tu veux ? » → Elle demande ___ tu veux. | ["ce que","qu'est-ce que","que"] | ["ce que"] | false | In a reported question, qu'est-ce que becomes ce que.
+- b1-reported-speech-present-ex005 | multiple-choice | « Qu'est-ce qui se passe ? » → Il demande ___ se passe. | ["ce qui","ce que","qu'est-ce qui"] | ["ce qui"] | false | Qu'est-ce qui becomes ce qui.
+- b1-reported-speech-present-ex006 | multiple-choice | « Où est-ce que tu habites ? » → Choose the reported question. | ["Elle demande où tu habites.","Elle demande où est-ce que tu habites.","Elle demande où habites-tu."] | ["Elle demande où tu habites."] | false | Reported questions drop est-ce que and inversion: où tu habites.
+- b1-reported-speech-present-ex007 | fill-in | Report Anne's words. Anne: « Mon train est en retard. » → Anne dit que ___ train est en retard. | — | ["son"] | false | Mon becomes son, because it's now Anne's train.
+- b1-reported-speech-present-ex008 | fill-in | Fill in the gap with expliquer in the present: Le porte-parole ___ que le ministre est malade. | — | ["explique"] | false | Expliquer que + an ordinary sentence.
+- b1-reported-speech-present-ex009 | multiple-choice | « Pourquoi tu pars ? » → Choose the reported question. | ["Il demande pourquoi tu pars.","Il demande pourquoi est-ce que tu pars.","Il demande si pourquoi tu pars."] | ["Il demande pourquoi tu pars."] | false | Keep the question word, drop est-ce que, and use normal word order.
+- b1-reported-speech-present-ex010 | fill-in | Fill in the gap (wonder): Je me ___ s'il va venir. | — | ["demande"] | false | Se demander si: to wonder whether.
+- b1-reported-speech-present-ex011 | translate | Write in French (tu): She asks what you want. | — | ["Elle demande ce que tu veux"] | false | Demander ce que + subject + verb.
+- b1-reported-speech-present-ex012 | translate | Report these three questions, starting each with Il demande: « Tu es libre ? » « Où tu vas ? » « Qu'est-ce que tu fais ? » | — | ["Il demande si tu es libre. Il demande où tu vas. Il demande ce que tu fais."] | true | Si for a yes/no question, the question word for où, and ce que for qu'est-ce que.
+- b1-reported-speech-present-ex013 | reorder | Put the words in order: He wants to know if you're coming. | — | ["Il veut savoir si tu viens"] | false | Vouloir savoir si + an ordinary sentence.
+
+## b1-gerondif
+
+### Vocab
+
+fr | pron | en | note
+
+- en + -ant | ahn … AHN | while …ing, by …ing | —
+- en marchant | ahn mar-SHAHN | while walking | —
+- en écoutant | ah-nay-koo-TAHN | while listening, by listening | —
+- en faisant | ahn fuh-ZAHN | while doing, by doing | —
+- étant | ay-TAHN | being | —
+- ayant | eh-YAHN | having | —
+- sachant | sah-SHAHN | knowing | —
+- tout en | too-TAHN | while (at the same time) | —
+- En attendant… | ah-nah-tahn-DAHN | In the meantime… | —
+- un casque | uhn KASK | headphones; a helmet | —
+- un podcast | uhn pod-KAST | a podcast | —
+- distrait / distraite | dees-TREH / dees-TRET | distracted | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-gerondif-ex001 | fill-in | Fill in the gap with the gérondif of marcher: J'écoute de la musique en ___. | — | ["marchant"] | false | Nous marchons → march- + -ant: en marchant.
+- b1-gerondif-ex002 | fill-in | Fill in the gap with the gérondif of regarder: Il apprend l'anglais en ___ des films. | — | ["regardant"] | false | Nous regardons → regard- + -ant: en regardant.
+- b1-gerondif-ex003 | fill-in | Fill in the gap with the gérondif of partir: En ___ tôt, tu arriveras à l'heure. | — | ["partant"] | false | Nous partons → part- + -ant: en partant.
+- b1-gerondif-ex004 | multiple-choice | What's the gérondif of faire? | ["en faisant","en faire","en fait"] | ["en faisant"] | false | Nous faisons → fais- + -ant: en faisant.
+- b1-gerondif-ex005 | multiple-choice | What's the gérondif of être? | ["en étant","en êtant","en soyant"] | ["en étant"] | false | Être is irregular: étant.
+- b1-gerondif-ex006 | fill-in | Fill in the gap with the gérondif of savoir: En ___ la vérité, elle est partie. | — | ["sachant"] | false | Savoir is irregular: sachant.
+- b1-gerondif-ex007 | multiple-choice | Which sentence is correct? | ["Je lis en mangeant.","Je lis en mange.","Je lis en mangé."] | ["Je lis en mangeant."] | false | En + -ant. Manger keeps its e: mangeant.
+- b1-gerondif-ex008 | fill-in | Fill in the gap: Il travaille tout ___ écoutant de la musique. | — | ["en"] | false | Tout en + -ant: while, at the same time.
+- b1-gerondif-ex009 | multiple-choice | J'ai vu Paul en sortant du cinéma. Who was leaving the cinema? | ["I was","Paul was","both of us"] | ["I was"] | false | The gérondif always refers to the subject of the sentence: je.
+- b1-gerondif-ex010 | fill-in | Fill in the gap with the gérondif of lire: Ne mange pas en ___ tes messages ! | — | ["lisant"] | false | Nous lisons → lis- + -ant: en lisant.
+- b1-gerondif-ex011 | translate | Write in French: I learn French by listening to podcasts. | — | ["J'apprends le français en écoutant des podcasts"] | false | En écoutant: by listening.
+- b1-gerondif-ex012 | translate | Join each pair with a gérondif: Je prends le bus. J'écoute de la musique. / Il fait la cuisine. Il regarde la télé. | — | ["Je prends le bus en écoutant de la musique. Il fait la cuisine en regardant la télé."] | false | The second action becomes en + -ant, with the same subject.
+- b1-gerondif-ex013 | reorder | Put the words in order: In the meantime, I'm reading. | — | ["En attendant, je lis"] | false | En attendant: in the meantime.
+
+## b1-indefinite-pronouns
+
+### Vocab
+
+fr | pron | en | note
+
+- chaque | SHAK | each, every | —
+- chacun / chacune | shah-KUHN / shah-KEWN | each one, everyone | —
+- tout le monde | too luh MOHND | everyone, everybody | Takes a singular verb: tout le monde est là.
+- aucun / aucune | oh-KUHN / oh-KEWN | no, none, not one | —
+- ne … aucun | nuh … oh-KUHN | not a single, no | —
+- plusieurs | plew-ZYUHR | several | —
+- quelques | KEL-kuh | a few, some | —
+- quelques-uns / quelques-unes | kel-kuh-ZUHN / kel-kuh-ZEWN | a few (of them) | —
+- certains / certaines | sehr-TAN / sehr-TEN | some (people), certain | —
+- d'autres | DOH-truh | others, other | —
+- n'importe qui | nan-port KEE | anyone at all | —
+- n'importe quoi | nan-port KWAH | anything at all; nonsense | —
+- n'importe où | nan-port OO | anywhere | —
+- n'importe quand | nan-port KAHN | any time | —
+- quelque chose de + adjective | kel-kuh shohz DUH | something (interesting, new…) | —
+- un commentaire | uhn koh-mahn-TEHR | a comment | —
+- un utilisateur / une utilisatrice | uh-new-tee-lee-zah-TUHR / ew-new-tee-lee-zah-TREESS | a user | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-indefinite-pronouns-ex001 | fill-in | Fill in the gap (Each): ___ utilisateur a un mot de passe. | — | ["Chaque"] | false | Chaque + a singular noun: each user.
+- b1-indefinite-pronouns-ex002 | fill-in | Fill in the gap (each one; livre: masculine): Il y a trois livres : ___ coûte dix euros. | — | ["chacun"] | false | Chacun replaces chaque livre.
+- b1-indefinite-pronouns-ex003 | multiple-choice | Idée is feminine. Choose: Je n'ai ___ idée. | ["aucune","aucun","aucunes"] | ["aucune"] | false | Aucune agrees with idée, and it stays singular.
+- b1-indefinite-pronouns-ex004 | fill-in | Fill in the gap (several): J'ai ___ amis à Lyon. | — | ["plusieurs"] | false | Plusieurs: several, with no article.
+- b1-indefinite-pronouns-ex005 | multiple-choice | Choose the right form: J'ai lu ___ commentaires. | ["quelques","quelque","quelques-uns"] | ["quelques"] | false | Quelques + a plural noun. Quelques-uns stands alone, without a noun.
+- b1-indefinite-pronouns-ex006 | fill-in | Fill in the gap (nonsense): Tu dis n'importe ___ ! | — | ["quoi"] | false | Dire n'importe quoi: to talk nonsense.
+- b1-indefinite-pronouns-ex007 | multiple-choice | Choose the right word: Il a fait quelque chose ___ intéressant. | ["d'","de l'","que"] | ["d'"] | false | Quelque chose de + adjective, with d' before a vowel.
+- b1-indefinite-pronouns-ex008 | fill-in | Fill in the gap (any time): Tu peux venir n'importe ___ : je suis toujours là. | — | ["quand"] | false | N'importe quand: any time.
+- b1-indefinite-pronouns-ex009 | multiple-choice | Choose the right verb form: Tout le monde ___ content. | ["est","sont","êtes"] | ["est"] | false | Tout le monde takes a singular verb.
+- b1-indefinite-pronouns-ex010 | fill-in | Fill in the gap (Some): ___ aiment le film, d'autres le trouvent ennuyeux. | — | ["Certains"] | false | Certains… d'autres: some… others.
+- b1-indefinite-pronouns-ex011 | translate | Write in French: Each person has an account. | — | ["Chaque personne a un compte","Chacun a un compte"] | true | Chaque + noun, or chacun on its own, both with a singular verb.
+- b1-indefinite-pronouns-ex012 | translate | Rewrite each sentence with ne… aucun: Je n'ai pas de message. Il n'a pas d'abonné. | — | ["Je n'ai aucun message. Il n'a aucun abonné."] | true | Ne… aucun replaces ne… pas de and stresses 'not a single one'.
+- b1-indefinite-pronouns-ex013 | reorder | Put the words in order: Everyone has an opinion. | — | ["Tout le monde a un avis"] | false | Tout le monde + a singular verb.
+
+## b1-interrogative-lequel
+
+### Vocab
+
+fr | pron | en | note
+
+- lequel / laquelle | luh-KEL / lah-KEL | which one | —
+- lesquels / lesquelles | lay-KEL / lay-KEL | which ones | —
+- auquel / à laquelle | oh-KEL / ah lah-KEL | to which one | —
+- duquel / de laquelle | dew-KEL / duh lah-KEL | of which one, about which one | —
+- un appareil | uh-nah-pah-RAY | a device | —
+- une marque | ewn MARK | a brand | —
+- la mémoire | lah may-MWAHR | storage, memory | —
+- une option | ew-nop-SYOHN | an option | —
+- un forfait | uhn for-FEH | a phone plan, a package | —
+- une offre | ew-NOFR | an offer, a deal | —
+- une réduction | ewn ray-dewk-SYOHN | a discount | —
+- une garantie | ewn gah-rahn-TEE | a guarantee, a warranty | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-interrogative-lequel-ex001 | fill-in | Fill in the gap (Which one; téléphone: masculine): Il y a deux téléphones. ___ préfères-tu ? | — | ["Lequel"] | false | Masculine singular: lequel.
+- b1-interrogative-lequel-ex002 | fill-in | Fill in the gap (Which one; robe: feminine): J'aime ces deux robes. ___ est la moins chère ? | — | ["Laquelle"] | false | Feminine singular: laquelle.
+- b1-interrogative-lequel-ex003 | multiple-choice | Forfait is masculine. Choose: Tu as plusieurs forfaits. ___ est le moins cher ? | ["Lequel","Laquelle","Lesquels"] | ["Lequel"] | false | One forfait, masculine: lequel.
+- b1-interrogative-lequel-ex004 | fill-in | Fill in the gap (which ones; marques: feminine plural): Ces marques ? ___ connais-tu ? | — | ["Lesquelles"] | false | Feminine plural: lesquelles.
+- b1-interrogative-lequel-ex005 | multiple-choice | Appareil is masculine. Choose: Tu penses à un appareil ? ___ ? | ["Auquel","Lequel","Duquel"] | ["Auquel"] | false | Penser à: à + lequel becomes auquel.
+- b1-interrogative-lequel-ex006 | multiple-choice | Offre is feminine. Choose: Tu parles d'une offre ? ___ ? | ["De laquelle","À laquelle","Laquelle"] | ["De laquelle"] | false | Parler de: de + laquelle stays de laquelle.
+- b1-interrogative-lequel-ex007 | multiple-choice | Which question is correct? | ["Quel téléphone préfères-tu ?","Lequel téléphone préfères-tu ?","Laquelle téléphone préfères-tu ?"] | ["Quel téléphone préfères-tu ?"] | false | Quel goes with a noun. Lequel replaces the noun.
+- b1-interrogative-lequel-ex008 | fill-in | Fill in the gap (storage): Ce téléphone a beaucoup de ___. | — | ["mémoire"] | false | La mémoire: storage, memory.
+- b1-interrogative-lequel-ex009 | multiple-choice | A discount is… | ["une réduction","une garantie","une marque"] | ["une réduction"] | false | Une réduction: a discount.
+- b1-interrogative-lequel-ex010 | fill-in | Fill in the gap (phone plan): Le ___ coûte 20 euros par mois. | — | ["forfait"] | false | Un forfait: a phone plan.
+- b1-interrogative-lequel-ex011 | translate | Write in French, to a friend (the phone: le téléphone): Which one do you prefer? | — | ["Lequel tu préfères ?","Lequel préfères-tu ?","Lequel est-ce que tu préfères ?"] | false | Lequel replaces le téléphone.
+- b1-interrogative-lequel-ex012 | translate | Rewrite each question with lequel or laquelle, without repeating the noun: Quel forfait tu choisis ? Quelle marque tu préfères ? | — | ["Lequel tu choisis ? Laquelle tu préfères ?","Lequel choisis-tu ? Laquelle préfères-tu ?"] | false | Forfait is masculine (lequel), and marque is feminine (laquelle).
+- b1-interrogative-lequel-ex013 | reorder | Put the words in order: Which ones do you want? (vous) | — | ["Lesquels est-ce que vous voulez"] | false | Lesquels + est-ce que + subject + verb.
+
+## b1-review-media
+
+### Vocab
+
+fr | pron | en | note
+
+- un fait divers | uhn feh dee-VEHR | a news item (crime, accidents, odd stories) | —
+- devenir viral | duh-vuh-neer vee-RAL | to go viral | —
+- vérifier | vay-ree-FYAY | to check | —
+- partager une publication | par-tah-zhay ewn pew-blee-kah-SYOHN | to share a post | —
+- un internaute / une internaute | uh-nan-tehr-NOHT / ew-nan-tehr-NOHT | an internet user | —
+- signaler | see-nyah-LAY | to report (a post, a problem) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-review-media-ex001 | multiple-choice | A lost dog found in a park is a typical… | ["fait divers","mot de passe","abonné"] | ["fait divers"] | false | Un fait divers: a short news item about an accident, a crime or an odd story.
+- b1-review-media-ex002 | fill-in | Fill in the gap (went viral): La vidéo est ___ virale en deux heures. | — | ["devenue"] | false | Devenir takes être in the passé composé, and devenue agrees with la vidéo.
+- b1-review-media-ex003 | fill-in | Fill in the gap (check): Il faut toujours ___ une information avant de la partager. | — | ["vérifier"] | false | Vérifier: to check.
+- b1-review-media-ex004 | multiple-choice | A post is insulting someone. What do you do? | ["Je la signale.","Je la télécharge.","Je la recharge."] | ["Je la signale."] | false | Signaler une publication: to report a post.
+- b1-review-media-ex005 | fill-in | Report Léa's question. Léa: « Tu as vu la vidéo ? » → Léa demande ___ tu as vu la vidéo. | — | ["si"] | false | A yes/no question is reported with si.
+- b1-review-media-ex006 | multiple-choice | « Qu'est-ce que tu lis ? » → Choose the reported question. | ["Il demande ce que tu lis.","Il demande qu'est-ce que tu lis.","Il demande si qu'est-ce que tu lis."] | ["Il demande ce que tu lis."] | false | Qu'est-ce que becomes ce que in a reported question.
+- b1-review-media-ex007 | fill-in | Fill in the gap with the gérondif of rentrer: Elle a vu le chien en ___ chez elle. | — | ["rentrant"] | false | Nous rentrons → rentr- + -ant: en rentrant.
+- b1-review-media-ex008 | multiple-choice | Choose the right form: ___ internaute peut partager la photo. | ["Chaque","Plusieurs","Quelques"] | ["Chaque"] | false | Chaque + a singular noun. Plusieurs and quelques need a plural.
+- b1-review-media-ex009 | fill-in | Rewrite with ne… aucun: Je n'ai pas de nouvelle. → Je n'ai ___ nouvelle. | — | ["aucune"] | false | Nouvelle is feminine: aucune.
+- b1-review-media-ex010 | multiple-choice | Publication is feminine. Choose: Il y a deux publications. ___ tu veux partager ? | ["Laquelle","Lequel","Lesquels"] | ["Laquelle"] | false | Feminine singular: laquelle.
+- b1-review-media-ex011 | translate | Write in French: Some internet users talk nonsense. | — | ["Certains internautes disent n'importe quoi"] | false | Certains + a plural noun, and dire n'importe quoi.
+- b1-review-media-ex012 | translate | Report this news item in two sentences, starting with Le journal dit que… and Il explique que…: « Un chien a disparu à Lyon. » « Plus de 10 000 internautes ont partagé sa photo. » | — | ["Le journal dit qu'un chien a disparu à Lyon. Il explique que plus de 10 000 internautes ont partagé sa photo."] | true | Dire que and expliquer que + an ordinary sentence. Que becomes qu' before un.
+- b1-review-media-ex013 | reorder | Put the words in order: Check before sharing a post. (vous) | — | ["Vérifiez avant de partager une publication"] | false | Avant de + infinitive.
+
+## b1-environment
+
+### Vocab
+
+fr | pron | en | note
+
+- l'environnement | lahn-vee-ronn-MAHN | the environment | Masculine: l'environnement est fragile.
+- la pollution | lah poh-lew-SYOHN | pollution | —
+- polluer | poh-lew-AY | to pollute | —
+- le climat | luh klee-MAH | the climate | —
+- le réchauffement climatique | luh ray-shohf-MAHN klee-mah-TEEK | global warming | —
+- la sécheresse | lah sesh-RESS | drought | —
+- la planète | lah plah-NET | the planet | —
+- une espèce menacée | ew-nes-PESS muh-nah-SAY | an endangered species | —
+- l'énergie | lay-nehr-ZHEE | energy | Feminine: l'énergie est chère.
+- les énergies renouvelables | lay-zay-nehr-ZHEE ruh-noo-vuh-LAH-bluh | renewable energy | —
+- l'énergie solaire | lay-nehr-ZHEE soh-LEHR | solar power | —
+- une éolienne | ew-nay-oh-LYEN | a wind turbine | —
+- économiser | ay-koh-noh-mee-ZAY | to save (energy, water, money) | —
+- les déchets | lay day-SHEH | waste, rubbish | —
+- trier ses déchets | tree-yay say day-SHEH | to sort your rubbish | —
+- recycler | ruh-see-KLAY | to recycle | —
+- le recyclage | luh ruh-see-KLAHZH | recycling | —
+- le plastique | luh plahs-TEEK | plastic | —
+- gaspiller | gahs-pee-YAY | to waste | —
+- le gaspillage | luh gahs-pee-YAHZH | waste (the act of wasting) | —
+- protéger | proh-tay-ZHAY | to protect | Like préférer: je protège, nous protégeons.
+- écologique | ay-koh-loh-ZHEEK | environmentally friendly | —
+- le bio | luh BYOH | organic food | Also an adjective that never changes: des pommes bio.
+- de plus en plus (de) | duh plew-zahn PLEW | more and more | —
+- de moins en moins (de) | duh mwan-zahn MWAN | less and less, fewer and fewer | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-environment-ex001 | multiple-choice | A long period with no rain is… | ["une sécheresse","une éolienne","un recyclage"] | ["une sécheresse"] | false | La sécheresse: drought.
+- b1-environment-ex002 | fill-in | Fill in the gap (sort): Chez nous, on ___ nos déchets. | — | ["trie"] | false | Trier ses déchets: to sort your rubbish. On trie.
+- b1-environment-ex003 | fill-in | Fill in the gap (waste): Ne ___ pas l'eau ! | — | ["gaspille"] | false | Gaspiller in the tu imperative: ne gaspille pas.
+- b1-environment-ex004 | multiple-choice | Which of these produces renewable energy? | ["une éolienne","une voiture","le plastique"] | ["une éolienne"] | false | Une éolienne, a wind turbine, makes energy from the wind.
+- b1-environment-ex005 | multiple-choice | Choose the right form: Il y a de plus en plus ___ voitures en ville. | ["de","des","les"] | ["de"] | false | De plus en plus de + a noun, with no article.
+- b1-environment-ex006 | fill-in | Fill in the gap (fewer and fewer): Il y a de moins en ___ de poissons. | — | ["moins"] | false | De moins en moins: fewer and fewer.
+- b1-environment-ex007 | fill-in | Fill in the gap with protéger in the present (nous): Nous ___ la planète. | — | ["protégeons"] | false | Protéger keeps the e before -ons, like manger: nous protégeons.
+- b1-environment-ex008 | multiple-choice | Global warming is… | ["le réchauffement climatique","l'énergie solaire","le gaspillage"] | ["le réchauffement climatique"] | false | Le réchauffement climatique: global warming.
+- b1-environment-ex009 | fill-in | Fill in the gap (organic): J'achète des pommes ___. | — | ["bio"] | false | Bio never changes: des pommes bio.
+- b1-environment-ex010 | multiple-choice | Choose the right sentence: 'It's getting hotter and hotter.' | ["Il fait de plus en plus chaud.","Il fait de plus en plus de chaud.","Il fait plus en plus chaud."] | ["Il fait de plus en plus chaud."] | false | Before an adjective, there's no second de: de plus en plus chaud.
+- b1-environment-ex011 | translate | Write in French: We must sort our waste. There's more and more plastic in the sea. | — | ["Il faut trier nos déchets. Il y a de plus en plus de plastique dans la mer.","Nous devons trier nos déchets. Il y a de plus en plus de plastique dans la mer.","On doit trier nos déchets. Il y a de plus en plus de plastique dans la mer."] | true | Il faut or devoir + infinitive, then de plus en plus de + noun.
+- b1-environment-ex012 | translate | Write out these four eco-habits, each starting with Je: (recycler) les bouteilles. (économiser) l'eau. (acheter) des pommes bio. (ne pas gaspiller) le pain. | — | ["Je recycle les bouteilles. J'économise l'eau. J'achète des pommes bio. Je ne gaspille pas le pain."] | true | Present tense with je. J'économise and j'achète, because of the vowel.
+- b1-environment-ex013 | reorder | Put the words in order: We must protect the planet. | — | ["Il faut protéger la planète"] | false | Il faut + infinitive.
+
+## b1-cause-and-consequence
+
+### Vocab
+
+fr | pron | en | note
+
+- car | KAR | because, as (in writing) | —
+- puisque | PWEES-kuh | since (a reason already known) | Puisqu' before a vowel: puisqu'il pleut.
+- comme | KOMM | as, since (at the start of a sentence) | —
+- à cause de | ah kohz DUH | because of | À cause du, à cause des.
+- grâce à | grahss AH | thanks to | Grâce au, grâce aux.
+- en raison de | ahn reh-zohn DUH | due to (formal) | —
+- donc | DOHNK | so, therefore | —
+- c'est pourquoi | seh poor-KWAH | that's why | —
+- c'est pour ça que | seh poor sah KUH | that's why (spoken) | —
+- la cause | lah KOHZ | the cause | —
+- la conséquence | lah kohn-say-KAHNSS | the consequence | —
+- provoquer | proh-voh-KAY | to cause | —
+- une canicule | ewn kah-nee-KEWL | a heatwave | —
+- la chaleur | lah shah-LUHR | the heat | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-cause-and-consequence-ex001 | multiple-choice | Choose the right word: Le train est en retard ___ la grève. | ["à cause de","parce que","car"] | ["à cause de"] | false | À cause de + a noun. Parce que and car need a full sentence.
+- b1-cause-and-consequence-ex002 | multiple-choice | Choose the right word: J'ai réussi l'examen ___ mon professeur. | ["grâce à","à cause de","donc"] | ["grâce à"] | false | Grâce à for a positive cause: thanks to my teacher.
+- b1-cause-and-consequence-ex003 | fill-in | Fill in the gap (because of the): Je reste à la maison à cause ___ chaleur. | — | ["de la"] | false | À cause de + la chaleur.
+- b1-cause-and-consequence-ex004 | fill-in | Fill in the gap (thanks to the): On économise de l'énergie grâce ___ éoliennes. | — | ["aux"] | false | À + les becomes aux: grâce aux éoliennes.
+- b1-cause-and-consequence-ex005 | multiple-choice | Which word can start a sentence to give a cause: '___ il fait chaud, on va à la plage.' | ["Comme","Car","Donc"] | ["Comme"] | false | Comme goes at the start. Car never starts a sentence, and donc gives a consequence.
+- b1-cause-and-consequence-ex006 | fill-in | Fill in the gap (since, a reason you both know): ___ tu es là, tu peux m'aider ? | — | ["Puisque"] | false | Puisque: the listener already knows the reason.
+- b1-cause-and-consequence-ex007 | fill-in | Fill in the gap (so): Il pleut, ___ je prends mon parapluie. | — | ["donc"] | false | Donc gives the consequence.
+- b1-cause-and-consequence-ex008 | multiple-choice | Which one belongs in formal writing, such as an official notice? | ["en raison de","c'est pour ça que","alors"] | ["en raison de"] | false | En raison de is formal: Le musée est fermé en raison de la grève.
+- b1-cause-and-consequence-ex009 | fill-in | Fill in the gap (cause, verb): La canicule ___ des sécheresses. | — | ["provoque"] | false | Provoquer: to cause.
+- b1-cause-and-consequence-ex010 | multiple-choice | A heatwave is… | ["une canicule","une conséquence","une cause"] | ["une canicule"] | false | Une canicule: a heatwave.
+- b1-cause-and-consequence-ex011 | translate | Write in French, using comme and the imparfait: As it was raining, we stayed at home. | — | ["Comme il pleuvait, nous sommes restés à la maison","Comme il pleuvait, on est restés à la maison","Comme il pleuvait, nous sommes restés chez nous","Comme il pleuvait, on est restés chez nous"] | true | Comme at the start, the imparfait for the situation, and the passé composé for what you did.
+- b1-cause-and-consequence-ex012 | translate | Join each pair into one sentence, with grâce à for the good cause and à cause de for the bad one: Nous avons de l'énergie. Le soleil. / Le jardin est sec. La sécheresse. | — | ["Nous avons de l'énergie grâce au soleil. Le jardin est sec à cause de la sécheresse."] | true | Grâce à + le becomes grâce au. À cause de + la stays à cause de la.
+- b1-cause-and-consequence-ex013 | reorder | Put the words in order: That's why I take the bike. | — | ["C'est pour ça que je prends le vélo"] | false | C'est pour ça que + an ordinary sentence.
+
+## b1-passive-voice-intro
+
+### Vocab
+
+fr | pron | en | note
+
+- être construit / construite | eh-truh kohns-TRWEE / kohns-TRWEET | to be built | —
+- être fabriqué / fabriquée | eh-truh fah-bree-KAY | to be made | —
+- être détruit / détruite | eh-truh day-TRWEE / day-TRWEET | to be destroyed | —
+- être élu / élue | eh-truh ay-LEW | to be elected | —
+- être arrêté / arrêtée | eh-truh ah-reh-TAY | to be arrested | —
+- être sauvé / sauvée | eh-truh soh-VAY | to be rescued, to be saved | —
+- par | PAR | by (with the passive) | —
+- un incendie | uh-nan-sahn-DEE | a fire (a building, a forest) | —
+- une tempête | ewn tahn-PET | a storm | —
+- une inondation | ew-nee-nohn-dah-SYOHN | a flood | —
+- les secours | lay suh-KOOR | the emergency services | —
+- un pont | uhn POHN | a bridge | —
+- le président / la présidente | luh pray-zee-DAHN / lah pray-zee-DAHNT | the president | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-passive-voice-intro-ex001 | fill-in | Fill in the gap with être in the present: Ces voitures ___ fabriquées en France. | — | ["sont"] | false | Ces voitures is plural: sont fabriquées.
+- b1-passive-voice-intro-ex002 | fill-in | Fill in the gap with the participle of construire: La maison a été ___ en 1950. | — | ["construite"] | false | La maison is feminine, so the participle agrees: construite.
+- b1-passive-voice-intro-ex003 | multiple-choice | Choose the right form: Trois personnes ont été ___ par les secours. | ["sauvées","sauvé","sauvés"] | ["sauvées"] | false | Personne is feminine, and there are three: sauvées.
+- b1-passive-voice-intro-ex004 | fill-in | Fill in the gap (by): Le pont a été détruit ___ la tempête. | — | ["par"] | false | Par introduces who or what did the action.
+- b1-passive-voice-intro-ex005 | multiple-choice | Which sentence is in the passé composé of the passive? | ["L'homme a été arrêté.","L'homme est arrêté.","L'homme a arrêté."] | ["L'homme a été arrêté."] | false | A été + participle: the passé composé of the passive.
+- b1-passive-voice-intro-ex006 | fill-in | Fill in the gap (elected, la présidente): La présidente a été ___ en mai. | — | ["élue"] | true | La présidente is feminine: élue.
+- b1-passive-voice-intro-ex007 | multiple-choice | Choose the active sentence that means the same: 'La forêt a été détruite par un incendie.' | ["Un incendie a détruit la forêt.","La forêt a détruit un incendie.","Un incendie est détruit par la forêt."] | ["Un incendie a détruit la forêt."] | false | The agent after par becomes the subject of the active sentence.
+- b1-passive-voice-intro-ex008 | multiple-choice | A lot of water covers the streets after heavy rain. This is… | ["une inondation","un incendie","un pont"] | ["une inondation"] | false | Une inondation: a flood.
+- b1-passive-voice-intro-ex009 | fill-in | Fill in the gap with avoir: Le musée ___ été construit en 1900. | — | ["a"] | true | The passé composé of être uses avoir: a été.
+- b1-passive-voice-intro-ex010 | multiple-choice | Which sentence sounds most natural in everyday French? | ["On a arrêté le voleur.","Le voleur a arrêté on.","On a été arrêté le voleur."] | ["On a arrêté le voleur."] | false | In conversation, French often uses on instead of a passive without an agent.
+- b1-passive-voice-intro-ex011 | translate | Write in French: The bridge was built in 1900. | — | ["Le pont a été construit en 1900"] | true | A été + construit, which agrees with le pont: masculine singular.
+- b1-passive-voice-intro-ex012 | translate | Rewrite these three active sentences in the passive, keeping the passé composé and using par: Les secours ont sauvé l'enfant. La tempête a détruit les maisons. Un policier a arrêté la femme. | — | ["L'enfant a été sauvé par les secours. Les maisons ont été détruites par la tempête. La femme a été arrêtée par un policier."] | true | The object becomes the subject, avoir becomes a été or ont été, and the participle agrees with the new subject.
+- b1-passive-voice-intro-ex013 | reorder | Put the words in order: The bridge was destroyed by the storm. | — | ["Le pont a été détruit par la tempête"] | false | A été + participle, then par + the agent.
+
+## b1-presenting-an-argument
+
+### Vocab
+
+fr | pron | en | note
+
+- premièrement | pruh-myehr-MAHN | firstly | —
+- deuxièmement | duh-zyem-MAHN | secondly | —
+- je suis pour | zhuh swee POOR | I'm in favour | —
+- je suis contre | zhuh swee KOHN-truh | I'm against | —
+- un inconvénient | uh-nan-kohn-vay-NYAN | a drawback, a disadvantage | —
+- les avantages et les inconvénients | lay-zah-vahn-TAHZH ay lay-zan-kohn-vay-NYAN | the pros and cons | —
+- il est vrai que…, mais… | ee-leh vreh KUH … MEH | it's true that…, but… | —
+- d'une part… d'autre part | dewn PAR … doh-truh PAR | on the one hand… on the other | —
+- en résumé | ahn ray-zew-MAY | in summary | —
+- un débat | uhn day-BAH | a debate | —
+- défendre une idée | day-fahn-druh ew-nee-DAY | to defend an idea | —
+- justifier | zhews-tee-FYAY | to justify | —
+- interdire | an-tehr-DEER | to ban | Like dire, but vous interdisez.
+- une interdiction | ew-nan-tehr-deek-SYOHN | a ban | —
+- la circulation | lah seer-kew-lah-SYOHN | traffic | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-presenting-an-argument-ex001 | multiple-choice | Premièrement means… | ["firstly","finally","in summary"] | ["firstly"] | false | Premièrement: firstly. Deuxièmement: secondly.
+- b1-presenting-an-argument-ex002 | fill-in | Fill in the gap (against): Je suis ___ l'interdiction des voitures. | — | ["contre"] | false | Être contre: to be against.
+- b1-presenting-an-argument-ex003 | fill-in | Fill in the gap (drawbacks): Il y a des avantages et des ___. | — | ["inconvénients"] | false | Les avantages et les inconvénients: the pros and cons.
+- b1-presenting-an-argument-ex004 | fill-in | Fill in the gap: Il est vrai que la voiture est pratique, ___ elle pollue. | — | ["mais"] | false | Il est vrai que…, mais…: accept a point, then answer it.
+- b1-presenting-an-argument-ex005 | multiple-choice | Complete the pair: D'une part, c'est cher. ___, c'est pratique. | ["D'autre part","D'abord","Premièrement"] | ["D'autre part"] | false | D'une part… d'autre part: on the one hand… on the other.
+- b1-presenting-an-argument-ex006 | fill-in | Fill in the gap (In summary): En ___, je suis pour ce projet. | — | ["résumé"] | false | En résumé: in summary.
+- b1-presenting-an-argument-ex007 | fill-in | Fill in the gap with interdire in the present: La ville ___ les voitures le dimanche. | — | ["interdit"] | false | Interdire is like dire: il interdit.
+- b1-presenting-an-argument-ex008 | multiple-choice | Une interdiction is… | ["a ban","a debate","a drawback"] | ["a ban"] | false | Une interdiction: a ban. Interdire: to ban.
+- b1-presenting-an-argument-ex009 | multiple-choice | Which word is best for the last paragraph of an argument? | ["En résumé","Premièrement","D'une part"] | ["En résumé"] | false | En résumé introduces the conclusion.
+- b1-presenting-an-argument-ex010 | multiple-choice | Choose the right form: Il est vrai que la voiture ___ pratique. | ["est","soit","être"] | ["est"] | false | Il est vrai que is followed by the indicative.
+- b1-presenting-an-argument-ex011 | translate | Write in French: It's true that cars are practical, but they pollute. | — | ["Il est vrai que les voitures sont pratiques, mais elles polluent"] | false | Il est vrai que + indicative, then mais + your answer.
+- b1-presenting-an-argument-ex012 | translate | Write out this short argument, filling each gap as shown: (I'm in favour of) l'interdiction des voitures. (Firstly), les voitures polluent. (Secondly), il y a trop de circulation. (In summary), il faut changer. | — | ["Je suis pour l'interdiction des voitures. Premièrement, les voitures polluent. Deuxièmement, il y a trop de circulation. En résumé, il faut changer."] | true | Je suis pour + a noun, two ordered arguments, and en résumé for the conclusion.
+- b1-presenting-an-argument-ex013 | reorder | Put the words in order: I'm against this ban. | — | ["Je suis contre cette interdiction"] | false | Je suis contre + a noun.
+
+## b1-culture-french-republic
+
+### Vocab
+
+fr | pron | en | note
+
+- la République | lah ray-pew-BLEEK | the Republic | —
+- la devise | lah duh-VEEZ | the motto | —
+- la liberté | lah lee-behr-TAY | freedom, liberty | —
+- l'égalité | lay-gah-lee-TAY | equality | —
+- la fraternité | lah frah-tehr-nee-TAY | brotherhood, fraternity | —
+- Marianne | mah-RYAHN | Marianne, the symbol of the Republic | —
+- représenter | ruh-pray-zahn-TAY | to represent, to stand for | —
+- un buste | uhn BEWST | a bust (a statue of the head and shoulders) | —
+- le drapeau | luh drah-POH | the flag | —
+- l'hymne national | LEEM-nuh nah-syoh-NAHL | the national anthem | Masculine: l'hymne national.
+- la laïcité | lah lah-ee-see-TAY | secularism (the separation of religion and the State) | —
+- l'État | lay-TAH | the State | With a capital: l'État. Without one, un état is a condition.
+- une loi | ewn LWAH | a law | —
+- une religion | ewn ruh-lee-ZHYOHN | a religion | —
+- la Révolution française | lah ray-voh-lew-SYOHN frahn-SEZ | the French Revolution | —
+- la prise de la Bastille | lah preez duh lah bahs-TEE-y | the storming of the Bastille | —
+- une élection | ew-nay-lek-SYOHN | an election | —
+- voter | voh-TAY | to vote | —
+- un électeur / une électrice | uh-nay-lek-TUHR / ew-nay-lek-TREESS | a voter | —
+- un tour | uhn TOOR | a round (of voting) | —
+- un citoyen / une citoyenne | uhn see-twah-YAN / ewn see-twah-YEN | a citizen | —
+- le maire / la maire | luh MEHR / lah MEHR | the mayor | —
+- le conseil municipal | luh kohn-SAY-y mew-nee-see-PAHL | the town council | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-culture-french-republic-ex001 | multiple-choice | What's the motto of the French Republic? | ["Liberté, égalité, fraternité","Paris, Lyon, Marseille","Bleu, blanc, rouge"] | ["Liberté, égalité, fraternité"] | false | La devise de la République: Liberté, égalité, fraternité.
+- b1-culture-french-republic-ex002 | multiple-choice | Who is Marianne? | ["the symbol of the Republic","the president's wife","a queen of France"] | ["the symbol of the Republic"] | false | Marianne is a woman who represents the Republic.
+- b1-culture-french-republic-ex003 | fill-in | Fill in the gap (flag): Le ___ français est bleu, blanc, rouge. | — | ["drapeau"] | false | Le drapeau: the flag.
+- b1-culture-french-republic-ex004 | multiple-choice | La Marseillaise is… | ["l'hymne national","la devise","le drapeau"] | ["l'hymne national"] | false | La Marseillaise is the national anthem.
+- b1-culture-french-republic-ex005 | fill-in | Fill in the gap (secularism): La ___ sépare l'État et les religions. | — | ["laïcité"] | false | La laïcité: the separation of religion and the State.
+- b1-culture-french-republic-ex006 | multiple-choice | What does the 14 juillet recall? | ["la prise de la Bastille","la première élection","la loi de 1905"] | ["la prise de la Bastille"] | false | The 14 juillet recalls the storming of the Bastille in 1789.
+- b1-culture-french-republic-ex007 | fill-in | Fill in the gap with voter in the present: En France, on ___ à 18 ans. | — | ["vote"] | false | Voter is a regular -er verb: on vote.
+- b1-culture-french-republic-ex008 | multiple-choice | How many rounds does the French presidential election usually have? | ["two","one","three"] | ["two"] | false | Il y a deux tours: the two candidates with the most votes go to the second round.
+- b1-culture-french-republic-ex009 | multiple-choice | Le maire is… | ["the mayor","the town hall","the sea"] | ["the mayor"] | false | Le maire is the mayor. La mairie is the town hall, and la mer is the sea.
+- b1-culture-french-republic-ex010 | fill-in | Fill in the gap (citizen, a woman): Je suis ___ française. | — | ["citoyenne"] | false | Une citoyenne: a female citizen.
+- b1-culture-french-republic-ex011 | translate | Write in French, with the passive: The president is elected for five years. | — | ["Le président est élu pour cinq ans"] | false | Est élu: the present passive.
+- b1-culture-french-republic-ex012 | translate | Write out three facts about the Republic, filling each gap as shown: La devise est (Liberty, equality, fraternity). Le drapeau est (blue, white, red). La Marseillaise est (the national anthem). | — | ["La devise est Liberté, égalité, fraternité. Le drapeau est bleu, blanc, rouge. La Marseillaise est l'hymne national.","La devise est Liberté, égalité, fraternité. Le drapeau est bleu, blanc et rouge. La Marseillaise est l'hymne national."] | false | The motto, the three colours and l'hymne national.
+- b1-culture-french-republic-ex013 | reorder | Put the words in order: The mayor is elected by the town council. | — | ["Le maire est élu par le conseil municipal"] | false | Est élu par: the present passive with par.
+
+## b1-review-society
+
+### Vocab
+
+fr | pron | en | note
+
+- une pétition | ewn pay-tee-SYOHN | a petition | —
+- signer | see-NYAY | to sign | —
+- agir | ah-ZHEER | to act, to take action | Like finir: nous agissons.
+- sensibiliser | sahn-see-bee-lee-ZAY | to raise awareness | —
+- jetable | zhuh-TAH-bluh | disposable | —
+- à usage unique | ah ew-zahzh ew-NEEK | single-use | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-review-society-ex001 | fill-in | Fill in the gap (sign): Tu peux ___ notre pétition ? | — | ["signer"] | false | Signer une pétition: to sign a petition.
+- b1-review-society-ex002 | fill-in | Fill in the gap with agir in the present (nous): Nous ___ pour la planète. | — | ["agissons"] | false | Agir is like finir: nous agissons.
+- b1-review-society-ex003 | multiple-choice | A plastic bottle you use once and throw away is… | ["à usage unique","écologique","renouvelable"] | ["à usage unique"] | false | À usage unique: single-use. Jetable means the same: disposable.
+- b1-review-society-ex004 | fill-in | Fill in the gap (raise awareness): On veut ___ les élèves au recyclage. | — | ["sensibiliser"] | false | Sensibiliser quelqu'un à quelque chose: to make someone aware of something.
+- b1-review-society-ex005 | multiple-choice | Choose the right form: Il y a de plus en plus ___ plastique à la cantine. | ["de","du","des"] | ["de"] | false | De plus en plus de + a noun, with no article.
+- b1-review-society-ex006 | multiple-choice | Choose the right word: La cantine est fermée ___ la grève. | ["à cause de","grâce à","parce que"] | ["à cause de"] | false | À cause de + a noun, for a negative cause.
+- b1-review-society-ex007 | fill-in | Fill in the gap with the participle of signer: La pétition a été ___ par 300 élèves. | — | ["signée"] | false | La pétition is feminine: a été signée.
+- b1-review-society-ex008 | multiple-choice | Which phrase accepts the other side's point before answering it? | ["Il est vrai que…, mais…","En résumé…","Premièrement…"] | ["Il est vrai que…, mais…"] | false | Il est vrai que…, mais…: accept a point, then answer it.
+- b1-review-society-ex009 | multiple-choice | What's the motto of the French Republic? | ["Liberté, égalité, fraternité","Pour ou contre","À usage unique"] | ["Liberté, égalité, fraternité"] | false | La devise de la République: Liberté, égalité, fraternité.
+- b1-review-society-ex010 | fill-in | Fill in the gap (disposable): Je n'achète plus de bouteilles ___. | — | ["jetables"] | false | Jetable agrees with bouteilles: jetables.
+- b1-review-society-ex011 | translate | Rewrite in the passive, with par: Les élèves ont signé la pétition. | — | ["La pétition a été signée par les élèves"] | true | La pétition becomes the subject, so signée agrees with it.
+- b1-review-society-ex012 | translate | Write out this short argument, filling each gap as shown: (I'm in favour of) l'interdiction du plastique à la cantine. (Firstly), le plastique pollue la planète. (Secondly), c'est du gaspillage. (It's true that) le plastique est pratique, (but) il coûte cher à la planète. | — | ["Je suis pour l'interdiction du plastique à la cantine. Premièrement, le plastique pollue la planète. Deuxièmement, c'est du gaspillage. Il est vrai que le plastique est pratique, mais il coûte cher à la planète."] | true | Je suis pour, two ordered arguments, then il est vrai que…, mais… for the other side.
+- b1-review-society-ex013 | reorder | Put the words in order: We want to act for the planet. | — | ["Nous voulons agir pour la planète"] | false | Vouloir + infinitive.
+
+## b1-housing-and-renting
+
+### Vocab
+
+fr | pron | en | note
+
+- louer | loo-AY | to rent; to let | —
+- un / une locataire | uhn / ewn loh-kah-TEHR | a tenant | —
+- un / une propriétaire | uhn / ewn proh-pree-yay-TEHR | a landlord, an owner | —
+- une agence immobilière | ew-nah-ZHAHNSS ee-moh-bee-LYEHR | an estate agent's, a letting agency | —
+- un studio | uhn stew-DYOH | a studio flat | —
+- meublé / meublée | muh-BLAY | furnished | —
+- lumineux / lumineuse | lew-mee-NUH / lew-mee-NUHZ | bright, full of light | —
+- la surface | lah sewr-FAHSS | the floor area | —
+- le chauffage | luh shoh-FAHZH | the heating | —
+- une visite | ewn vee-ZEET | a viewing, a visit | —
+- le loyer | luh lwah-YAY | the rent | —
+- les charges | lay SHARZH | service charges (water, building costs…) | —
+- charges comprises | sharzh kohn-PREEZ | charges included | —
+- la caution | lah koh-SYOHN | the deposit | —
+- un garant / une garante | uhn gah-RAHN / ewn gah-RAHNT | a guarantor | —
+- le bail | luh BAH-y | the lease | Plural: les baux.
+- une assurance habitation | ew-nah-sew-RAHNSS ah-bee-tah-SYOHN | home insurance | —
+- la colocation | lah koh-loh-kah-SYOHN | flat-sharing | Often shortened to la coloc. A flatmate is un or une colocataire.
+- un déménagement | uhn day-may-nahzh-MAHN | a move (house) | —
+- emménager | ahn-may-nah-ZHAY | to move in | Like manger: nous emménageons.
+- un état des lieux | uh-nay-tah day LYUH | an inventory check (of the flat's condition) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-housing-and-renting-ex001 | multiple-choice | The person who rents a flat and lives in it is… | ["le locataire","le propriétaire","le garant"] | ["le locataire"] | false | Le locataire is the tenant. Le propriétaire owns the flat.
+- b1-housing-and-renting-ex002 | fill-in | Fill in the gap (rent): Le ___ est de 600 euros par mois. | — | ["loyer"] | false | Le loyer: the rent.
+- b1-housing-and-renting-ex003 | multiple-choice | Money you pay at the start, and get back when you leave, is… | ["la caution","le loyer","le chauffage"] | ["la caution"] | false | La caution: the deposit.
+- b1-housing-and-renting-ex004 | fill-in | Fill in the gap (furnished, un appartement): Je cherche un appartement ___. | — | ["meublé"] | false | Meublé agrees with appartement: masculine.
+- b1-housing-and-renting-ex005 | fill-in | Fill in the gap (bright, la cuisine): La cuisine est très ___. | — | ["lumineuse"] | false | Cuisine is feminine: lumineuse.
+- b1-housing-and-renting-ex006 | multiple-choice | Three students share a flat. This is… | ["une colocation","un déménagement","un état des lieux"] | ["une colocation"] | false | La colocation: flat-sharing.
+- b1-housing-and-renting-ex007 | fill-in | Fill in the gap with emménager in the passé composé: Nous avons ___ en septembre. | — | ["emménagé"] | true | Emménager takes avoir: nous avons emménagé.
+- b1-housing-and-renting-ex008 | multiple-choice | Someone who promises to pay your rent if you can't is… | ["un garant","un locataire","un studio"] | ["un garant"] | false | Un garant: a guarantor.
+- b1-housing-and-renting-ex009 | fill-in | Fill in the gap (lease): J'ai signé le ___ pour un an. | — | ["bail"] | false | Le bail: the lease.
+- b1-housing-and-renting-ex010 | multiple-choice | When you move in and when you move out, the landlord and you check the flat together. This is… | ["l'état des lieux","l'assurance habitation","la surface"] | ["l'état des lieux"] | false | L'état des lieux: the inventory check.
+- b1-housing-and-renting-ex011 | translate | Write in French: The rent is 700 euros, charges included. | — | ["Le loyer est de 700 euros, charges comprises","Le loyer est de 700 euros charges comprises"] | false | Être de + an amount, then charges comprises.
+- b1-housing-and-renting-ex012 | translate | Write out this flat-share ad, filling each gap as shown: (Flat-share) à Lyon. Chambre (furnished) dans un appartement (bright). (Rent): 450 euros, (charges included). | — | ["Colocation à Lyon. Chambre meublée dans un appartement lumineux. Loyer : 450 euros, charges comprises."] | true | Meublée agrees with chambre, and lumineux with appartement.
+- b1-housing-and-renting-ex013 | reorder | Put the words in order: I'm looking for a furnished studio flat. | — | ["Je cherche un studio meublé"] | false | The adjective meublé goes after the noun.
+
+## b1-money-and-banking
+
+### Vocab
+
+fr | pron | en | note
+
+- un compte en banque | uhn kohnt ahn BAHNK | a bank account | —
+- ouvrir un compte | oo-vreer uhn KOHNT | to open an account | —
+- le conseiller / la conseillère | luh kohn-say-YAY / lah kohn-say-YEHR | the (bank) adviser | —
+- un relevé de compte | uhn ruhl-VAY duh KOHNT | a bank statement | —
+- les frais | lay FREH | fees, charges | —
+- un virement | uhn veer-MAHN | a bank transfer | —
+- une carte bancaire | ewn kart bahn-KEHR | a bank card | —
+- le code | luh KOD | the PIN | —
+- sans contact | sahn kohn-TAKT | contactless | —
+- payer par carte | peh-yay par KART | to pay by card | —
+- payer en espèces | peh-yay ahn-nes-PESS | to pay cash | —
+- un distributeur | uhn dees-tree-bew-TUHR | a cash machine | —
+- retirer de l'argent | ruh-tee-ray duh lar-ZHAHN | to withdraw money | —
+- le budget | luh bewd-ZHEH | the budget | —
+- dépenser | day-pahn-SAY | to spend (money) | —
+- une dépense | ewn day-PAHNSS | an expense | —
+- faire des économies | fehr day-zay-koh-noh-MEE | to save money | —
+- seulement | suhl-MAHN | only | —
+- être à découvert | eh-trah day-koo-VEHR | to be overdrawn | —
+- emprunter | ahn-pruhn-TAY | to borrow | —
+- un prêt | uhn PREH | a loan | —
+- rembourser | rahn-boor-SAY | to pay back | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-money-and-banking-ex001 | multiple-choice | Where do you withdraw money in the street? | ["à un distributeur","à un relevé","à un virement"] | ["à un distributeur"] | false | Un distributeur: a cash machine.
+- b1-money-and-banking-ex002 | fill-in | Fill in the gap (cash): Je préfère payer en ___. | — | ["espèces"] | false | Payer en espèces: to pay cash.
+- b1-money-and-banking-ex003 | multiple-choice | Choose the right word: Vous payez ___ carte ? | ["par","en","à"] | ["par"] | false | Payer par carte, but payer en espèces.
+- b1-money-and-banking-ex004 | fill-in | Fill in the gap (PIN): Tapez votre ___, s'il vous plaît. | — | ["code"] | false | Le code: the PIN.
+- b1-money-and-banking-ex005 | fill-in | Fill in the gap with dépenser in the passé composé: J'ai ___ trop d'argent ce mois-ci. | — | ["dépensé"] | true | Dépenser takes avoir: j'ai dépensé.
+- b1-money-and-banking-ex006 | multiple-choice | You've spent more money than you had in your account. You're… | ["à découvert","sans contact","en espèces"] | ["à découvert"] | false | Être à découvert: to be overdrawn.
+- b1-money-and-banking-ex007 | fill-in | Fill in the gap (save money): Je fais des ___ pour mes vacances. | — | ["économies"] | false | Faire des économies: to save money.
+- b1-money-and-banking-ex008 | multiple-choice | Choose the right verb: Je dois ___ mon prêt en cinq ans. | ["rembourser","retirer","dépenser"] | ["rembourser"] | false | Rembourser un prêt: to pay back a loan.
+- b1-money-and-banking-ex009 | fill-in | Fill in the gap (only): Le café coûte ___ deux euros. | — | ["seulement"] | false | Seulement: only.
+- b1-money-and-banking-ex010 | multiple-choice | To send money from your account to a friend's account, you make… | ["un virement","un distributeur","un code"] | ["un virement"] | false | Un virement: a bank transfer.
+- b1-money-and-banking-ex011 | translate | Write in French, to a bank adviser: I'd like to open an account. | — | ["Je voudrais ouvrir un compte","J'aimerais ouvrir un compte","Je voudrais ouvrir un compte en banque","J'aimerais ouvrir un compte en banque"] | false | Je voudrais or j'aimerais + ouvrir un compte.
+- b1-money-and-banking-ex012 | translate | Write out this monthly budget, filling each gap as shown: Mon (budget) est de 1 200 euros par mois. Je (spend) 600 euros pour le loyer. Je (spend) 200 euros pour les courses. Je (save money): 100 euros par mois. Je paie (by card). | — | ["Mon budget est de 1 200 euros par mois. Je dépense 600 euros pour le loyer. Je dépense 200 euros pour les courses. Je fais des économies : 100 euros par mois. Je paie par carte."] | false | Être de for the amount, dépenser for spending, faire des économies for saving, and payer par carte.
+- b1-money-and-banking-ex013 | reorder | Put the words in order: I'm going to withdraw money at the cash machine. | — | ["Je vais retirer de l'argent au distributeur"] | false | Retirer de l'argent au distributeur: à + le becomes au.
+
+## b1-ne-que-ni-ni
+
+### Vocab
+
+fr | pron | en | note
+
+- ne … que | nuh … KUH | only | —
+- uniquement | ew-neek-MAHN | only, solely | —
+- ne … plus que | nuh … plew KUH | only … left | —
+- il ne reste que | eel nuh rest KUH | there's only … left | —
+- à peine | ah PEN | barely, hardly | —
+- ne … ni … ni | nuh … NEE … NEE | neither … nor | —
+- ni l'un ni l'autre | nee luhn nee LOH-truh | neither (of them) | Feminine: ni l'une ni l'autre.
+- la monnaie | lah moh-NEH | change (coins) | —
+- une pièce | ewn PYESS | a coin | Also a room, as you already know.
+- un billet | uhn bee-YEH | a banknote | Also a ticket, as you already know.
+- dépensier / dépensière | day-pahn-SYAY / day-pahn-SYEHR | a big spender, extravagant | —
+- fauché / fauchée | foh-SHAY | broke (informal) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-ne-que-ni-ni-ex001 | fill-in | Fill in the gap (only): Je n'ai ___ dix euros. | — | ["que"] | false | Ne… que: only. Que goes right before dix euros.
+- b1-ne-que-ni-ni-ex002 | multiple-choice | Choose the right sentence: 'I only have coins.' | ["Je n'ai que des pièces.","Je n'ai que de pièces.","Je n'ai pas que des pièces."] | ["Je n'ai que des pièces."] | false | Ne… que isn't a true negative, so des stays des.
+- b1-ne-que-ni-ni-ex003 | fill-in | Fill in the gap (neither… nor): Je n'ai ___ frère ni sœur. | — | ["ni"] | false | Ne… ni… ni, with no article after ni.
+- b1-ne-que-ni-ni-ex004 | multiple-choice | Choose the right sentence: 'I drink neither coffee nor tea.' | ["Je ne bois ni café ni thé.","Je ne bois ni du café ni du thé.","Je ne bois pas ni café ni thé."] | ["Je ne bois ni café ni thé."] | false | After ni, the partitive article disappears, and there's no pas.
+- b1-ne-que-ni-ni-ex005 | multiple-choice | Choose the right sentence: 'I like neither cats nor dogs.' | ["Je n'aime ni les chats ni les chiens.","Je n'aime ni chats ni chiens.","Je n'aime ni des chats ni des chiens."] | ["Je n'aime ni les chats ni les chiens."] | false | With aimer, the definite article stays: ni les chats ni les chiens.
+- b1-ne-que-ni-ni-ex006 | fill-in | Fill in the gap (only … left): Je n'ai ___ que cinq euros. | — | ["plus"] | false | Ne… plus que: only … left.
+- b1-ne-que-ni-ni-ex007 | fill-in | Fill in the gap with rester: Il ne ___ que deux billets. | — | ["reste"] | false | Il ne reste que: there's only … left.
+- b1-ne-que-ni-ni-ex008 | multiple-choice | Choose the answer: Tu préfères le rouge ou le bleu ? (You like neither.) | ["Ni l'un ni l'autre.","L'un et l'autre.","Les deux."] | ["Ni l'un ni l'autre."] | false | Ni l'un ni l'autre: neither of them.
+- b1-ne-que-ni-ni-ex009 | fill-in | Fill in the gap (barely): J'ai ___ assez d'argent pour le loyer. | — | ["à peine"] | true | À peine: barely.
+- b1-ne-que-ni-ni-ex010 | multiple-choice | Your friend has no money until payday. Informally, she's… | ["fauchée","lumineuse","meublée"] | ["fauchée"] | false | Fauché / fauchée: broke, in informal French.
+- b1-ne-que-ni-ni-ex011 | translate | Write in French: I have neither time nor money. | — | ["Je n'ai ni temps ni argent","Je n'ai ni le temps ni l'argent"] | false | Ne… ni… ni, with no pas. Without an article is the strict rule; with le and l' is also very common.
+- b1-ne-que-ni-ni-ex012 | translate | Rewrite each sentence with ne… que instead of seulement: J'ai seulement deux pièces. Elle travaille seulement le matin. Nous avons seulement un billet. | — | ["Je n'ai que deux pièces. Elle ne travaille que le matin. Nous n'avons qu'un billet."] | false | Ne before the verb, que right before the restricted words. Que becomes qu' before un.
+- b1-ne-que-ni-ni-ex013 | reorder | Put the words in order: There's only one coin left. | — | ["Il ne reste qu'une pièce"] | false | Il ne reste que, with qu' before une.
+
+## b1-formal-email
+
+### Vocab
+
+fr | pron | en | note
+
+- l'objet | lob-ZHEH | the subject line | Masculine: l'objet du mail.
+- une demande | ewn duh-MAHND | a request | —
+- une formule de politesse | ewn for-mewl duh poh-lee-TESS | a polite closing (formula) | —
+- Je vous serais reconnaissant / reconnaissante de… | zhuh voo suh-reh ruh-koh-neh-SAHN / ruh-koh-neh-SAHNT DUH | I would be grateful if you could… | —
+- par avance | pah-rah-VAHNSS | in advance | —
+- En vous remerciant par avance, | ahn voo ruh-mehr-SYAHN pah-rah-VAHNSS | Thanking you in advance, | —
+- Bien cordialement | byan kor-dyahl-MAHN | Kind regards | —
+- suite à | swee-TAH | following | —
+- une conversation | ewn kohn-vehr-sah-SYOHN | a conversation | —
+- revenir vers quelqu'un | ruhv-neer vehr kel-KUHN | to get back to someone | —
+- une relance | ewn ruh-LAHNSS | a reminder, a follow-up | —
+- Vous trouverez ci-joint… | voo troov-RAY see-ZHWAN | Please find attached… | —
+- Veuillez trouver ci-joint… | vuh-yay troo-vay see-ZHWAN | Please find attached… (fixed phrase) | —
+- veuillez + infinitive | vuh-YAY | please (very formal; fixed phrase) | —
+- transférer | trahns-fay-RAY | to forward | Like préférer: je transfère.
+- en copie | ahn koh-PEE | copied in (cc) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-formal-email-ex001 | multiple-choice | In a formal email, the subject line is… | ["l'objet","la relance","la demande"] | ["l'objet"] | false | L'objet: the subject line.
+- b1-formal-email-ex002 | multiple-choice | You're writing to a company and don't know the person's name. How do you start? | ["Madame, Monsieur,","Salut,","Coucou,"] | ["Madame, Monsieur,"] | false | Madame, Monsieur, when you don't know who will read it.
+- b1-formal-email-ex003 | fill-in | Fill in the gap (following): ___ à notre conversation, je vous envoie le document. | — | ["Suite"] | false | Suite à: following.
+- b1-formal-email-ex004 | fill-in | Fill in the gap (attached): Vous trouverez ci-___ mon CV. | — | ["joint"] | false | Vous trouverez ci-joint: please find attached.
+- b1-formal-email-ex005 | fill-in | Fill in the gap (in advance): En vous remerciant par ___, | — | ["avance"] | false | En vous remerciant par avance: thanking you in advance.
+- b1-formal-email-ex006 | multiple-choice | Which closing is right for an ordinary formal email? | ["Bien cordialement","Bisous","À plus"] | ["Bien cordialement"] | false | Cordialement or Bien cordialement close most formal emails.
+- b1-formal-email-ex007 | fill-in | Fill in the gap (a man writing; grateful): Je vous serais ___ de me répondre. | — | ["reconnaissant"] | false | A man writes reconnaissant, a woman reconnaissante.
+- b1-formal-email-ex008 | multiple-choice | You haven't had an answer, so you write again. This second email is… | ["une relance","un objet","une formule de politesse"] | ["une relance"] | false | Une relance: a reminder, a follow-up.
+- b1-formal-email-ex009 | fill-in | Fill in the gap (get back to you): Je me permets de ___ vers vous. | — | ["revenir"] | false | Revenir vers quelqu'un: to get back to someone.
+- b1-formal-email-ex010 | multiple-choice | Choose the right way to say 'Please find attached the document.' | ["Veuillez trouver ci-joint le document.","S'il vous plaît trouvez ci-joint le document.","Trouvez-vous ci-joint le document."] | ["Veuillez trouver ci-joint le document."] | false | Veuillez + infinitive, or Vous trouverez ci-joint. French doesn't use s'il vous plaît here.
+- b1-formal-email-ex011 | translate | Write in French (a woman writing): I would be grateful if you could send me the price. | — | ["Je vous serais reconnaissante de m'envoyer le prix"] | false | Je vous serais reconnaissante de + infinitive, with the pronoun before the infinitive.
+- b1-formal-email-ex012 | translate | Write out this short formal email, filling each gap as shown: (Dear Sir or Madam), (following) notre conversation, (please find attached, with veuillez) mon CV. (Thanking you in advance), (Kind regards). | — | ["Madame, Monsieur, Suite à notre conversation, veuillez trouver ci-joint mon CV. En vous remerciant par avance, Bien cordialement."] | true | The greeting, suite à, the veuillez fixed phrase, then the two closing lines.
+- b1-formal-email-ex013 | reorder | Put the words in order: Please find attached my document. | — | ["Vous trouverez ci-joint mon document"] | false | Vous trouverez ci-joint + the attachment.
+
+## b1-making-a-complaint
+
+### Vocab
+
+fr | pron | en | note
+
+- se plaindre (de) | suh PLAN-druh (duh) | to complain (about) | Je me plains, nous nous plaignons. Passé composé: je me suis plaint.
+- une plainte | ewn PLANT | a complaint | —
+- une réclamation | ewn ray-klah-mah-SYOHN | a formal complaint (to a company) | —
+- le service client | luh sehr-veess klee-YAHN | customer service | —
+- insatisfait / insatisfaite | an-sah-tees-FEH / an-sah-tees-FET | dissatisfied | —
+- Ce n'est pas normal. | suh neh pah nor-MAL | That's not acceptable. | —
+- une panne | ewn PAHN | a breakdown | —
+- être en panne | eh-truh ahn PAHN | to be out of order, to have broken down | —
+- une fuite | ewn FWEET | a leak | —
+- réparer | ray-pah-RAY | to repair, to fix | —
+- une réparation | ewn ray-pah-rah-SYOHN | a repair | —
+- un échange | uh-nay-SHAHNZH | an exchange | —
+- un remboursement | uhn rahn-boors-MAHN | a refund | —
+- être remboursé / remboursée | eh-truh rahn-boor-SAY | to get your money back | —
+- exiger | eg-zee-ZHAY | to demand | Like manger: nous exigeons.
+- être obligé / obligée de | eh-truh oh-blee-ZHAY duh | to be forced to, to have to | —
+- dans les plus brefs délais | dahn lay plew bref day-LEH | as soon as possible (formal) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-making-a-complaint-ex001 | fill-in | Fill in the gap (out of order): L'ascenseur est en ___. | — | ["panne"] | false | Être en panne: to be out of order.
+- b1-making-a-complaint-ex002 | multiple-choice | Water is coming through the ceiling. There's… | ["une fuite","une panne","un échange"] | ["une fuite"] | false | Une fuite: a leak.
+- b1-making-a-complaint-ex003 | fill-in | Fill in the gap with se plaindre in the present: Les locataires se ___ du bruit. | — | ["plaignent"] | false | Se plaindre: ils se plaignent.
+- b1-making-a-complaint-ex004 | multiple-choice | You'd like your money back. You ask for… | ["un remboursement","une réparation","une fuite"] | ["un remboursement"] | false | Un remboursement: a refund.
+- b1-making-a-complaint-ex005 | fill-in | Fill in the gap (repair): Pouvez-vous ___ le chauffage ? | — | ["réparer"] | false | Réparer: to repair.
+- b1-making-a-complaint-ex006 | multiple-choice | Which sentence is right for a formal email? | ["Merci de répondre dans les plus brefs délais.","Réponds vite, bisous !","À plus !"] | ["Merci de répondre dans les plus brefs délais."] | false | Dans les plus brefs délais is formal written French.
+- b1-making-a-complaint-ex007 | fill-in | Fill in the gap (a woman speaking; forced to): Sinon, je serai ___ de contacter l'agence. | — | ["obligée"] | true | Être obligée de: a woman writes obligée.
+- b1-making-a-complaint-ex008 | multiple-choice | Choose the right form: Je voudrais que vous ___ le chauffage. | ["répariez","réparez","réparer"] | ["répariez"] | false | Je voudrais que + subjunctive: que vous répariez.
+- b1-making-a-complaint-ex009 | fill-in | Fill in the gap (exchange): Je voudrais faire un ___ : la taille ne va pas. | — | ["échange"] | false | Un échange: an exchange.
+- b1-making-a-complaint-ex010 | multiple-choice | A formal written complaint to a company is… | ["une réclamation","une relance","une réparation"] | ["une réclamation"] | false | Une réclamation is the word companies use for a formal complaint.
+- b1-making-a-complaint-ex011 | translate | Write in French, with depuis: The heating has been broken for a week. | — | ["Le chauffage est en panne depuis une semaine","Le chauffage ne marche pas depuis une semaine"] | false | Depuis + the present for something that's still going on.
+- b1-making-a-complaint-ex012 | translate | Write out this complaint paragraph, filling each gap as shown (a man writing): Le chauffage (is out of order) depuis le 2 décembre. (That's not acceptable.) (I would be grateful if you could) le réparer (as soon as possible). (Otherwise), je serai (forced to) contacter l'agence. | — | ["Le chauffage est en panne depuis le 2 décembre. Ce n'est pas normal. Je vous serais reconnaissant de le réparer dans les plus brefs délais. Sinon, je serai obligé de contacter l'agence."] | true | The problem, why it isn't acceptable, the request, then the next step.
+- b1-making-a-complaint-ex013 | reorder | Put the words in order: Could the lift be repaired? | — | ["Est-ce qu'il serait possible de réparer l'ascenseur"] | false | Est-ce qu'il serait possible de + infinitive: a polite but firm request.
+
+## b1-travel-problems
+
+### Vocab
+
+fr | pron | en | note
+
+- l'enregistrement | lahn-ruh-zhees-truh-MAHN | check-in | Masculine. The verb is enregistrer ses bagages.
+- un bagage à main | uhn bah-gahzh ah MAN | a piece of hand luggage | —
+- l'embarquement | lahn-bar-kuh-MAHN | boarding | Masculine.
+- la porte d'embarquement | lah port dahn-bar-kuh-MAHN | the boarding gate | —
+- une carte d'embarquement | ewn kart dahn-bar-kuh-MAHN | a boarding pass | —
+- une escale | ew-nes-KAL | a stopover | —
+- être retardé / retardée | eh-truh ruh-tar-DAY | to be delayed | —
+- rater sa correspondance | rah-tay sah koh-res-pohn-DAHNSS | to miss your connection | —
+- surbooké / surbookée | sewr-boo-KAY | overbooked | —
+- perdu / perdue | pehr-DEW | lost | —
+- le tapis à bagages | luh tah-pee ah bah-GAHZH | the baggage carousel | —
+- le comptoir | luh kohn-TWAHR | the desk, the counter | —
+- le guichet | luh gee-SHEH | the ticket office, the window | —
+- une déclaration de perte | ewn day-klah-rah-syohn duh PEHRT | a loss report | —
+- la livraison | lah lee-vreh-ZOHN | delivery | —
+- une indemnisation | ew-nan-dem-nee-zah-SYOHN | compensation | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-travel-problems-ex001 | multiple-choice | Where do you wait for your suitcase after the flight? | ["au tapis à bagages","à la porte d'embarquement","au guichet"] | ["au tapis à bagages"] | false | Le tapis à bagages: the baggage carousel.
+- b1-travel-problems-ex002 | fill-in | Fill in the gap (boarding pass): Voici ma carte d'___. | — | ["embarquement"] | false | Une carte d'embarquement: a boarding pass.
+- b1-travel-problems-ex003 | fill-in | Fill in the gap with retarder (le vol: masculine): Le vol est ___ de deux heures. | — | ["retardé"] | true | Être retardé: to be delayed. Le vol is masculine.
+- b1-travel-problems-ex004 | multiple-choice | Your first flight was late, and your second plane left without you. You've… | ["raté votre correspondance","fait une escale","fait l'enregistrement"] | ["raté votre correspondance"] | false | Rater sa correspondance: to miss your connection.
+- b1-travel-problems-ex005 | fill-in | Fill in the gap with avoir in the imparfait: J'___ réservé une chambre pour deux nuits. | — | ["avais"] | false | Plus-que-parfait: j'avais + participle.
+- b1-travel-problems-ex006 | fill-in | Fill in the gap with être in the imparfait: Quand je suis arrivé, l'avion ___ déjà parti. | — | ["était"] | false | Partir takes être: l'avion était parti.
+- b1-travel-problems-ex007 | multiple-choice | The airline sold more seats than the plane has. The flight is… | ["surbooké","perdu","à main"] | ["surbooké"] | false | Surbooké: overbooked.
+- b1-travel-problems-ex008 | fill-in | Fill in the gap (stopover): Le vol pour Montréal fait une ___ à Paris. | — | ["escale"] | false | Une escale: a stopover.
+- b1-travel-problems-ex009 | multiple-choice | Your suitcase hasn't arrived. At the desk, you fill in… | ["une déclaration de perte","une carte d'embarquement","un bagage à main"] | ["une déclaration de perte"] | false | Une déclaration de perte: a loss report.
+- b1-travel-problems-ex010 | multiple-choice | At a train station, you buy a ticket… | ["au guichet","au tapis à bagages","à l'escale"] | ["au guichet"] | false | Le guichet: the ticket office.
+- b1-travel-problems-ex011 | translate | Write in French, with the plus-que-parfait: I had booked a room for two nights. | — | ["J'avais réservé une chambre pour deux nuits"] | true | J'avais + réservé: the booking came before the problem.
+- b1-travel-problems-ex012 | translate | Write out this email to a hotel, filling each gap as shown (a woman writing): Madame, Monsieur, (I had booked) une chambre pour deux nuits. Quand je suis arrivée, (the hotel was full). (I had confirmed) la réservation par mail. (I would be grateful if you could) me rembourser. Bien cordialement. | — | ["Madame, Monsieur, J'avais réservé une chambre pour deux nuits. Quand je suis arrivée, l'hôtel était complet. J'avais confirmé la réservation par mail. Je vous serais reconnaissante de me rembourser. Bien cordialement."] | true | The plus-que-parfait for what you'd done before, the imparfait for the situation, and the formal request.
+- b1-travel-problems-ex013 | reorder | Put the words in order: My suitcase hasn't arrived. | — | ["Ma valise n'est pas arrivée"] | false | Arriver takes être, and arrivée agrees with valise.
+
+## b1-review-home-money-problems
+
+### Vocab
+
+fr | pron | en | note
+
+- une facture | ewn fak-TEWR | a bill, an invoice | —
+- une compagnie aérienne | ewn kohn-pah-NYEE ah-ay-RYEN | an airline | —
+- un justificatif | uhn zhews-tee-fee-kah-TEEF | proof, a receipt | —
+- un numéro de dossier | uhn new-may-roh duh doh-SYAY | a reference number | —
+- un dédommagement | uhn day-doh-mahzh-MAHN | compensation (for a loss or trouble) | —
+- joindre | ZHWAN-druh | to attach (to an email) | Je joins, nous joignons. Ci-joint comes from it.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-review-home-money-problems-ex001 | multiple-choice | The hotel gives you a document with the price you paid. It's… | ["une facture","une escale","une caution"] | ["une facture"] | false | Une facture: a bill, an invoice.
+- b1-review-home-money-problems-ex002 | fill-in | Fill in the gap with joindre in the present (je): Je ___ la facture à ce mail. | — | ["joins"] | false | Joindre: je joins.
+- b1-review-home-money-problems-ex003 | multiple-choice | Where do you usually put your reference number in a complaint email? | ["dans l'objet","dans la formule de politesse","à la fin du mail"] | ["dans l'objet"] | false | Put the numéro de dossier in the subject line, so the company finds your file at once.
+- b1-review-home-money-problems-ex004 | fill-in | Fill in the gap (only): Il ne restait ___ un vol le matin suivant. | — | ["qu'"] | false | Ne… que, with qu' before un.
+- b1-review-home-money-problems-ex005 | multiple-choice | Choose the right sentence: 'They offered me neither a hotel nor a meal.' | ["On ne m'a proposé ni hôtel ni repas.","On ne m'a pas proposé ni hôtel ni repas.","On ne m'a proposé ni un hôtel ni des repas."] | ["On ne m'a proposé ni hôtel ni repas."] | false | Ne… ni… ni, with no pas and no article after ni.
+- b1-review-home-money-problems-ex006 | fill-in | Fill in the gap with avoir in the imparfait: J'___ réservé un vol pour le 12 juin. | — | ["avais"] | false | Plus-que-parfait: j'avais réservé, before the cancellation.
+- b1-review-home-money-problems-ex007 | fill-in | Fill in the gap (a man writing; forced to): J'ai été ___ de payer une nuit d'hôtel. | — | ["obligé"] | true | Être obligé de: to be forced to.
+- b1-review-home-money-problems-ex008 | multiple-choice | A company that sells flights is… | ["une compagnie aérienne","une agence immobilière","une carte bancaire"] | ["une compagnie aérienne"] | false | Une compagnie aérienne: an airline.
+- b1-review-home-money-problems-ex009 | fill-in | Fill in the gap (proof): Gardez la facture comme ___. | — | ["justificatif"] | false | Un justificatif: proof, a receipt.
+- b1-review-home-money-problems-ex010 | multiple-choice | Choose the best request for a formal complaint email. | ["Je vous serais reconnaissant de me rembourser.","Rembourse-moi vite !","Tu me rembourses ?"] | ["Je vous serais reconnaissant de me rembourser."] | false | Vous and the formal request: je vous serais reconnaissant de…
+- b1-review-home-money-problems-ex011 | translate | Write in French, with ne… que: I only have the hotel bill. | — | ["Je n'ai que la facture de l'hôtel"] | false | Ne before the verb, que before the restricted words.
+- b1-review-home-money-problems-ex012 | translate | Write out this paragraph from a complaint email, filling each gap as shown (a man writing): (I had booked) un vol pour le 12 juin. Le vol (was cancelled, passive). (I attach) la facture de l'hôtel. (I would be grateful if you could) me rembourser (as soon as possible). | — | ["J'avais réservé un vol pour le 12 juin. Le vol a été annulé. Je joins la facture de l'hôtel. Je vous serais reconnaissant de me rembourser dans les plus brefs délais."] | true | The plus-que-parfait for the booking, the passive for the cancellation, joindre for the attachment, and the formal request.
+- b1-review-home-money-problems-ex013 | reorder | Put the words in order: I'm asking for compensation. | — | ["Je demande un dédommagement"] | false | Demander + a noun.

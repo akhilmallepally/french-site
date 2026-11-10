@@ -19,6 +19,9 @@ const LEVELS = ["a1", "a2", "b1", "b2", "c1", "c2"];
 
 // Grammar words, names and places that never need a vocab entry. Extend as needed.
 const IGNORE = new Set([
+  "plains", "plaint", "plainte", "plaignons", "plaignez", "plaignent",
+  "agissons", "agissez", "agissent", "agissions",
+  "rex",
   // articles, pronouns, prepositions, conjunctions
   "je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles", "le", "la", "les", "un", "une", "des", "de", "du", "au", "aux", "à",
   "et", "ou", "mais", "ce", "ça", "cette", "ces", "cet", "mon", "ma", "mes", "ton", "ta", "tes", "son", "sa", "ses", "notre", "nos",
@@ -27,11 +30,11 @@ const IGNORE = new Set([
   "sont", "a", "as", "ai", "ont", "avons", "avez", "c", "j", "l", "d", "m", "t", "s", "n", "qu",
   // names and places used in examples
   "paul", "marie", "léa", "karim", "anne", "marc", "sophie", "julien", "inès", "thomas", "hugo", "camille", "malik", "lucie", "nadia",
-  "léo", "julie", "pierre", "emma", "sarah", "clara", "henri", "jeanne", "lucas", "nina", "lisbonne", "portugal", "claire", "simenon", "truffaut", "godard", "françois", "jean-luc", "olivier", "nakache", "toledano", "éric", "antoine", "dany", "boon", "bretagne", "lyon", "paris", "nice", "lille", "dijon", "nantes", "rennes", "toulouse", "bordeaux", "annecy",
+  "léo", "julie", "pierre", "emma", "sarah", "clara", "henri", "jeanne", "lucas", "nina", "lisbonne", "portugal", "claire", "simenon", "truffaut", "godard", "françois", "jean-luc", "olivier", "nakache", "toledano", "éric", "antoine", "dany", "boon", "bretagne", "victor", "lyon", "paris", "nice", "lille", "dijon", "nantes", "rennes", "toulouse", "bordeaux", "annecy",
   "pleuvoir", "pleut", "pleuvait", "pleuvra", "plu",
   // irregular forms of verbs defined elsewhere
   "souviens", "souvient", "souviennent", "souvenons", "souvenez",
-  "deviendrais", "deviendrait", "deviendrai", "deviendra", "aperçu", "aperçue", "disparu", "disparue", "paie", "paies",
+  "deviendrais", "deviendrait", "deviendrai", "deviendra", "aperçu", "aperçue", "disparu", "disparue", "paie", "paies", "nourrisse", "nourrisses", "envoie", "envoies", "préviens", "prévient", "prévienne", "préviennent",
   // grammar terms and film titles
   "plus-que-parfait", "parfait", "souffle", "intouchables", "ch'tis",
   "montréal", "québec", "genève", "marseille", "rouen", "avignon", "cannes", "dupont", "martin", "dubois",
@@ -42,9 +45,10 @@ const IGNORE = new Set([
 const ENGLISH = new Set(("the a an to of and in is are was it you i he she we they this that what which with for on at by from " +
   "your my his her their be do does did not no word all only one some have has had can will would should who where when why how " +
   "like very far today tomorrow yesterday first last every always never small large black milky tall short noon midnight ten o'clock " +
-  "weather silent plural singular feminine masculine woman man vowel consonant cheese butter bread meat wine fish coffee tea milk " +
+  "firstly three weather silent plural singular feminine masculine woman man vowel consonant cheese butter bread meat wine fish coffee tea milk " +
   "hands wave older senior person speaks saying hi informally ending formal customer team counting its own years year days books " +
-  "sounds make starts call back right wrong composé or so").split(" "));
+  "sounds make starts call back right wrong composé or so delighted worried disappointed happy sad " +
+  "here currently actually finally hours two five eight meal vouchers overtime").split(" "));
 
 const ENDINGS = ["issaient", "issions", "issons", "issez", "issent", "issait", "aient", "erons", "eront", "erez", "erai", "eras", "era",
   "ions", "iez", "ons", "ez", "ent", "ais", "ait", "ant", "ées", "és", "ée", "é", "euses", "euse", "eux", "ives", "ive", "if", "elles", "elle",
