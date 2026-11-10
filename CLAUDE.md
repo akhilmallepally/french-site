@@ -78,5 +78,6 @@ These apply to B1 only. Where they differ from the general rules, they win.
 - 12 to 14 exercises per lesson, with at least two production tasks (translate, rewrite or write out a short paragraph) and at least one reorder.
 - Use only structures taught in A1, A2 or earlier B1 lessons in course order. Labelled fixed phrases are allowed, and each one goes in docs/review-needed.md. Mark formal and informal registers in examples.
 - Cultural claims (facts, dates, customs) go in docs/review-needed.md with the exact sentence.
+- Bullet points in teaching-text sections start with English, because lines starting with French italics are counted as dialogue or longer text.
 
 @AGENTS.md

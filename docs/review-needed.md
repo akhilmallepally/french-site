@@ -781,7 +781,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Souhaiter que* is more formal, and it's common in wishes for other people: *Je souhaite que tout se passe bien*."** Confirm.
 - **"*Regretter que* … sounds more formal [than *je suis désolé que*], and it's common in letters and emails."** Confirm.
 - **"*Maman* and *papa* are what children and adults call their own parents."** Confirm.
-- **"*Mes parents préfèrent que nous prenions le train*"** translated as "would rather we took". Confirm.
+- **"*Mes parents préfèrent que nous prenions le train*"** translated as "prefer that we take". Confirm.
 
 ## b1-subjunctive-vs-infinitive
 
