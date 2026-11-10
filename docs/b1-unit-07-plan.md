@@ -9,9 +9,9 @@ Status: draft for approval. No lesson files written yet.
 - **Type:** vocabulary · **Order:** 42
 - **Prerequisites:**
   - b1-media-and-news: environmental topics are introduced through the news.
-- **Teaches:** pollution, climate, energy, recycling and everyday eco-habits.
+- **Teaches:** pollution, climate, energy, recycling and everyday eco-habits; *de plus en plus* and *de moins en moins*, with *de* before a noun (*de plus en plus de plastique*).
 - **Not yet taught:** none.
-- **Vocab (23):**
+- **Vocab (25):**
   - *l'environnement*: the environment
   - *la pollution*: pollution
   - *polluer*: to pollute
@@ -35,9 +35,11 @@ Status: draft for approval. No lesson files written yet.
   - *le bio*: organic food
   - *écologique*: environmentally friendly
   - *la sécheresse*: drought
+  - *de plus en plus (de)*: more and more
+  - *de moins en moins (de)*: less and less, fewer and fewer
 - **Dialogue:** Two flatmates argue about sorting the recycling.
-- **Production tasks:** translate "We must sort our waste."; write out four eco-habits.
-- **Needs review:** "Bin colours for recycling vary from town to town in France." "*Le bio* is short for organic food."
+- **Production tasks:** translate "We must sort our waste." and "There's more and more plastic in the sea."; write out four eco-habits.
+- **Needs review:** "Bin colours for recycling vary from town to town in France." "*Le bio* is short for organic food." "*De plus en plus* takes *de* before a noun, with no article."
 
 ## 43. b1-cause-and-consequence: Cause and consequence
 
@@ -153,19 +155,13 @@ Status: draft for approval. No lesson files written yet.
   - b1-passive-voice-intro: passive sentences in the model.
   - b1-presenting-an-argument: the structure of the model.
   - b1-culture-french-republic: the citizenship angle (*les citoyens*, voting, petitions).
-- **Vocab (12):**
+- **Vocab (6):**
   - *une pétition*: a petition
   - *signer*: to sign
-  - *une manifestation*: a demonstration
-  - *manifester*: to demonstrate
   - *agir*: to act
-  - *un geste*: a gesture, a small action
-  - *une association*: a charity, a non-profit group
   - *sensibiliser*: to raise awareness
-  - *une campagne*: a campaign
-  - *durable*: sustainable
   - *jetable*: disposable
   - *à usage unique*: single-use
 - **Model text:** An argued text about banning single-use plastic in the school canteen.
 - **Production tasks:** the writing task; one write-out paragraph; one passive rewrite.
-- **Needs review:** "*Une manifestation* is a demonstration, not a manifestation."
+- **Needs review:** none beyond the unit's lessons.

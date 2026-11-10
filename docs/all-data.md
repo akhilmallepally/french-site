@@ -1,6 +1,6 @@
 # All lesson data
 
-105 written lessons, in course order.
+108 written lessons, in course order.
 
 ## a1-greetings
 
@@ -325,6 +325,7 @@ fr | pron | en | note
 - la bise / faire la bise | lah BEEZ / fair lah BEEZ | cheek-to-cheek greeting / to greet someone this way | —
 - serrer la main | seh-RAY lah MAN | to shake hands | —
 - On se tutoie ? | ohn suh tew-TWAH | Shall we use tu with each other? | —
+- bien sûr | byan SEWR | of course | —
 
 ### Exercises
 
@@ -1230,6 +1231,7 @@ fr | pron | en | note
 - écouter de la musique | ay-koo-tay duh lah mew-ZEEK | to listen to music | Fixed phrase for now.
 - aller au cinéma | ah-lay oh see-nay-MAH | to go to the cinema | —
 - les loisirs | lay lwah-ZEER | free-time activities, leisure | —
+- la télévision / la télé | lah tay-lay-vee-ZYOHN / lah tay-LAY | television, TV | —
 
 ### Exercises
 
@@ -1494,6 +1496,7 @@ fr | pron | en | note
 - un sandwich | uhn sahnd-WEECH | a sandwich | —
 - une carafe d'eau | ewn kah-RAHF DOH | a jug of tap water | Fixed phrase for now.
 - une bouteille d'eau | ewn boo-TAY DOH | a bottle of water | Fixed phrase for now.
+- tout de suite | toot SWEET | right away | —
 
 ### Exercises
 
@@ -1989,6 +1992,7 @@ fr | pron | en | note
 - mettre | MEH-truh | to put, to put on | —
 - je mets / tu mets / il met | zhuh MEH / tew MEH / eel MEH | I put / you put / he puts | —
 - nous mettons / vous mettez / ils mettent | noo meh-TOHN / voo meh-TAY / eel MET | we put / you put / they put | —
+- comprendre | kohn-PRAHN-druh | to understand | Like prendre: je comprends, nous comprenons, ils comprennent.
 - partir | par-TEER | to leave | —
 - je pars / tu pars / il part | zhuh PAR / tew PAR / eel PAR | I leave / you leave / he leaves | —
 - nous partons / vous partez / ils partent | noo par-TOHN / voo par-TAY / eel PART | we leave / you leave / they leave | —
@@ -3348,6 +3352,7 @@ fr | pron | en | note
 - il y aura | eel-yoh-RAH | there will be | —
 - il fera beau | eel fuh-rah BOH | the weather will be nice | —
 - l'année prochaine | lah-nay proh-SHEN | next year | —
+- une photo | ewn foh-TOH | a photo | Prendre des photos: to take photos.
 
 ### Exercises
 
@@ -3524,6 +3529,9 @@ fr | pron | en | note
 - meilleur / meilleure | meh-YUHR | better (masculine / feminine) | Plural: meilleurs / meilleures.
 - mieux | myuh | better (with a verb) | —
 - préférer | pray-fay-RAY | to prefer | Je préfère, tu préfères, il préfère, nous préférons, vous préférez, ils préfèrent.
+- un touriste / une touriste | uhn too-REEST / ewn too-REEST | a tourist | —
+- les gens | lay ZHAHN | people | Always plural.
+- une tarte | ewn TART | a tart, a pie | —
 
 ### Exercises
 
@@ -3691,6 +3699,7 @@ fr | pron | en | note
 - comparer | kohn-pah-RAY | to compare | —
 - une différence | ewn dee-fay-RAHNSS | a difference | —
 - un avantage | uh-nah-vahn-TAHZH | an advantage | —
+- magnifique | mah-nyee-FEEK | magnificent, beautiful | —
 
 ### Exercises
 
@@ -3811,6 +3820,7 @@ fr | pron | en | note
 - j'essaie / j'essaye | zheh-SEH / zheh-SEH-y | I try | Both spellings are correct.
 - nous essayons | noo zeh-seh-YOHN | we try | —
 - nous commençons | noo koh-mahn-SOHN | we start | —
+- fermer | fehr-MAY | to close | —
 
 ### Exercises
 
@@ -3847,6 +3857,7 @@ fr | pron | en | note
 - indiquer | an-dee-KAY | to show, to point out (the way) | —
 - apporter | ah-por-TAY | to bring | —
 - le sel | luh SEL | the salt | —
+- Tiens. / Tenez. | tyan / tuh-NAY | Here you are. (tu / vous) | —
 
 ### Exercises
 
@@ -3879,9 +3890,11 @@ fr | pron | en | note
 - Comment vas-tu ? | koh-mahn vah TEW | How are you? | —
 - J'espère que tu vas bien. | zheh-spehr kuh tew vah BYAN | I hope you're well. | —
 - Je t'écris pour… | zhuh tay-KREE poor | I'm writing to… | Followed by an infinitive.
+- donner des nouvelles | doh-nay day noo-VEL | to give (someone) your news | —
 - Dis bonjour à … de ma part. | dee bohn-ZHOOR ah … duh mah PAR | Say hello to … from me. | —
 - Tu me manques. | tew muh MAHNK | I miss you. | —
 - P.-S. | pay ESS | P.S. | —
+- alors | ah-LOR | so, then | —
 
 ### Exercises
 
@@ -3916,6 +3929,7 @@ fr | pron | en | note
 - la couronne | lah koo-RONN | the crown | —
 - la Chandeleur | lah shahn-duh-LUHR | Candlemas, the pancake day | —
 - une crêpe | ewn KREP | a crêpe, a thin pancake | —
+- couper | koo-PAY | to cut | —
 - Pâques | PAHK | Easter | —
 - la fête nationale | lah fet nah-syoh-NAHL | the national holiday | —
 - un défilé | uhn day-fee-LAY | a parade | —
@@ -3954,6 +3968,7 @@ fr | pron | en | note
 - faire des progrès | fehr day proh-GREH | to make progress | —
 - un objectif | uh-nob-zhek-TEEF | a goal | —
 - la suite | lah SWEET | what comes next | —
+- un concert | uhn kohn-SEHR | a concert | —
 
 ### Exercises
 
@@ -3971,3 +3986,126 @@ id | type | prompt | options | answers | strictAccents | explanation
 - a2-review-final-ex010 | translate | Write out this paragraph, filling each gap as shown: Hier, je (aller, passé composé; je: a man) à Lyon. Il (pleuvoir, imparfait). Cette ville est (more + beau; la ville: feminine) que Dijon. Demain, je (rentrer, futur simple). | — | ["Hier, je suis allé à Lyon. Il pleuvait. Cette ville est plus belle que Dijon. Demain, je rentrerai."] | true | Aller takes être, the imparfait sets the scene, belle agrees with ville, and rentrer takes -ai with je.
 - a2-review-final-ex011 | reorder | Put the words in order (the object is Paul): I didn't see him. | — | ["Je ne l'ai pas vu"] | false | The pronoun goes before the auxiliary, and ne…pas goes around them.
 - a2-review-final-ex012 | reorder | Put the words in order: I phoned her yesterday. | — | ["Je lui ai téléphoné hier","Hier je lui ai téléphoné"] | false | Téléphoner à takes an indirect pronoun, so there's no agreement.
+
+## b1-expressing-opinions
+
+### Vocab
+
+fr | pron | en | note
+
+- à mon avis | ah moh-nah-VEE | in my opinion | —
+- selon moi | suh-lohn MWAH | in my view | —
+- d'après moi | dah-preh MWAH | as I see it | —
+- à vrai dire | ah vreh DEER | to tell the truth | —
+- franchement | frahnsh-MAHN | honestly, frankly | —
+- penser que | pahn-SAY kuh | to think that | —
+- croire que | KRWAHR kuh | to believe that, to think that | Je crois, tu crois, il croit, nous croyons, vous croyez, ils croient.
+- trouver que | troo-VAY kuh | to find that, to think that | —
+- Qu'est-ce que tu en penses ? | kess-kuh tew ahn PAHNSS | What do you think of it? | With vous: Qu'est-ce que vous en pensez ?
+- Tu trouves ? | tew TROOV | Do you think so? | —
+- Ça dépend. | sah day-PAHN | It depends. | —
+- un avis | uh-nah-VEE | an opinion | —
+- un point de vue | uhn pwan duh VEW | a point of view | —
+- original / originale | oh-ree-zhee-NAHL | original, unusual | —
+- ennuyeux / ennuyeuse | ahn-nwee-YUH / ahn-nwee-YUHZ | boring | —
+- génial / géniale | zhay-NYAHL | great, brilliant | —
+- une série | ewn say-REE | a series, a TV series | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-expressing-opinions-ex001 | multiple-choice | Which phrase introduces an opinion? | ["À mon avis","À bientôt","À côté de"] | ["À mon avis"] | false | À mon avis means 'in my opinion'. À bientôt is a goodbye, and à côté de means 'next to'.
+- b1-expressing-opinions-ex002 | fill-in | Fill in the gap (in my opinion): ___ mon avis, ce film est trop long. | — | ["À"] | true | The phrase is à mon avis, with à.
+- b1-expressing-opinions-ex003 | fill-in | Fill in the gap: Je pense ___ Lyon est plus calme que Paris. | — | ["que"] | false | Penser needs que before a whole opinion. English can drop 'that', but French can't drop que.
+- b1-expressing-opinions-ex004 | fill-in | Fill in the gap (in my view): Selon ___, la série est géniale. | — | ["moi"] | false | Selon moi uses the stressed pronoun moi.
+- b1-expressing-opinions-ex005 | fill-in | Fill in the gap with croire in the present: Je ___ que le magasin ferme à 19 heures. | — | ["crois"] | false | Croire is irregular: je crois, tu crois, il croit.
+- b1-expressing-opinions-ex006 | multiple-choice | La série is feminine. Choose the right form: Je trouve cette série ___. | ["géniale","génial","géniaux"] | ["géniale"] | false | After trouver + noun, the adjective agrees with the noun: série is feminine, so géniale.
+- b1-expressing-opinions-ex007 | multiple-choice | Which sentence is correct? | ["Je pense que c'est bien.","Je pense c'est bien.","Je pense de c'est bien."] | ["Je pense que c'est bien."] | false | A whole opinion after penser always starts with que.
+- b1-expressing-opinions-ex008 | multiple-choice | You want to ask a friend what they think of a film. What do you say? | ["Qu'est-ce que tu en penses ?","Qu'est-ce que tu fais ?","Où est le cinéma ?"] | ["Qu'est-ce que tu en penses ?"] | false | Qu'est-ce que tu en penses ? asks for an opinion. En stands for 'of it'.
+- b1-expressing-opinions-ex009 | multiple-choice | You can't give a clear answer, because it depends on the price. What do you say? | ["Ça dépend du prix.","À vrai dire, merci.","Pour moi, un café."] | ["Ça dépend du prix."] | false | Dépendre takes de, and de + le becomes du.
+- b1-expressing-opinions-ex010 | translate | Write in French: In my opinion, the train is more practical than the car. | — | ["À mon avis, le train est plus pratique que la voiture"] | true | Start with à mon avis, then use plus … que to compare.
+- b1-expressing-opinions-ex011 | translate | Write in French: Honestly, I find this film boring. | — | ["Franchement, je trouve ce film ennuyeux","Franchement, je trouve que ce film est ennuyeux"] | false | Trouver works with a noun and an adjective, or with que and a whole sentence.
+- b1-expressing-opinions-ex012 | reorder | Put the words in order: I think this café is too expensive. | — | ["Je pense que ce café est trop cher"] | false | Je pense que, then an ordinary sentence.
+- b1-expressing-opinions-ex013 | translate | Write out this paragraph about a town, filling each gap as shown: (In my opinion) Lyon est une belle ville. (I find that) les gens sont sympas. (For me) c'est la meilleure ville de la région. | — | ["À mon avis, Lyon est une belle ville. Je trouve que les gens sont sympas. Pour moi, c'est la meilleure ville de la région."] | true | Three different markers: à mon avis, je trouve que and pour moi.
+
+## b1-agreeing-disagreeing
+
+### Vocab
+
+fr | pron | en | note
+
+- être d'accord (avec) | eh-truh dah-KOR (ah-VEK) | to agree (with) | —
+- tout à fait | too-tah-FEH | absolutely, quite | —
+- absolument | ahb-soh-lew-MAHN | absolutely | —
+- exactement | eg-zak-tuh-MAHN | exactly | —
+- c'est vrai | seh VREH | that's true | —
+- je suis du même avis | zhuh swee dew meh-mah-VEE | I see it the same way | —
+- pas du tout | pah dew TOO | not at all | —
+- au contraire | oh kohn-TREHR | on the contrary | —
+- un désaccord | uhn day-zah-KOR | a disagreement | —
+- avoir raison | ah-vwahr reh-ZOHN | to be right | —
+- avoir tort | ah-vwahr TOR | to be wrong | —
+- ce n'est pas faux | suh neh pah FOH | that's a fair point | —
+- en partie | ahn par-TEE | partly | —
+- d'un côté… de l'autre | duhn koh-TAY … duh LOH-truh | on the one hand… on the other | —
+- je ne suis pas sûr / sûre | zhuh nuh swee pah SEWR | I'm not sure | A woman writes sûre.
+- moi si | mwah SEE | I do, I am (contradicting a negative) | —
+- ouvrir | oo-VREER | to open | J'ouvre, tu ouvres, il ouvre, nous ouvrons, vous ouvrez, ils ouvrent.
+- seul / seule | SUHL | only, alone | Le seul jour: the only day.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-agreeing-disagreeing-ex001 | multiple-choice | Your friend says the film was great, and you think so too. What do you say? | ["Je suis d'accord avec toi.","Je ne suis pas d'accord.","Pas du tout."] | ["Je suis d'accord avec toi."] | false | Être d'accord avec quelqu'un means to agree with them.
+- b1-agreeing-disagreeing-ex002 | fill-in | Fill in the gap (You're right): Tu as ___. Ce restaurant est très bon. | — | ["raison"] | false | To be right is avoir raison, with avoir.
+- b1-agreeing-disagreeing-ex003 | multiple-choice | Choose the right verb: Vous ___ tort. | ["avez","êtes","faites"] | ["avez"] | false | Avoir tort, like avoir raison, uses avoir.
+- b1-agreeing-disagreeing-ex004 | fill-in | Fill in the gap (I don't agree with you): Je ne suis pas ___ avec toi. | — | ["d'accord"] | false | Être d'accord goes into the negative like any être sentence: je ne suis pas d'accord.
+- b1-agreeing-disagreeing-ex005 | multiple-choice | Someone says « Je n'aime pas le café. » You do like coffee. What do you say? | ["Moi si.","Moi aussi.","Moi non plus."] | ["Moi si."] | false | Moi si contradicts a negative statement.
+- b1-agreeing-disagreeing-ex006 | multiple-choice | Someone says « Je n'aime pas le café. » You don't like it either. What do you say? | ["Moi non plus.","Moi aussi.","Moi si."] | ["Moi non plus."] | false | Moi non plus agrees with a negative statement.
+- b1-agreeing-disagreeing-ex007 | multiple-choice | Which reply politely accepts part of what someone said? | ["Ce n'est pas faux.","Tu as tort.","Pas du tout."] | ["Ce n'est pas faux."] | false | Ce n'est pas faux (that's a fair point) concedes a point without agreeing completely.
+- b1-agreeing-disagreeing-ex008 | fill-in | Fill in the gap (on the other): D'un côté, c'est pratique. De ___, c'est cher. | — | ["l'autre"] | false | D'un côté… de l'autre balances two sides.
+- b1-agreeing-disagreeing-ex009 | multiple-choice | Which one is the strongest disagreement? | ["Pas du tout !","En partie.","Ce n'est pas faux."] | ["Pas du tout !"] | false | Pas du tout is a firm 'not at all'. The other two only half disagree.
+- b1-agreeing-disagreeing-ex010 | translate | Write in French, to a friend: I don't agree with you at all. | — | ["Je ne suis pas du tout d'accord avec toi"] | false | Du tout goes straight after pas: je ne suis pas du tout d'accord.
+- b1-agreeing-disagreeing-ex011 | translate | Write in French, to your manager (vous): You're right, it's true. | — | ["Vous avez raison, c'est vrai"] | false | Avoir raison, with vous avez.
+- b1-agreeing-disagreeing-ex012 | reorder | Put the words in order (a woman speaking): I'm not sure, but I partly agree. | — | ["Je ne suis pas sûre, mais je suis en partie d'accord"] | false | A woman writes sûre. En partie goes between suis and d'accord.
+- b1-agreeing-disagreeing-ex013 | translate | Write out this forum reply, filling each gap as shown: (That's a fair point), mais (in my opinion) les magasins doivent fermer le dimanche. (On the one hand) c'est pratique, (on the other) les vendeurs ont besoin de se reposer. | — | ["Ce n'est pas faux, mais à mon avis les magasins doivent fermer le dimanche. D'un côté c'est pratique, de l'autre les vendeurs ont besoin de se reposer."] | true | Concede first with ce n'est pas faux, then give your opinion, and balance the two sides.
+
+## b1-ce-qui-ce-que
+
+### Vocab
+
+fr | pron | en | note
+
+- ce qui | suh KEE | what (as subject) | —
+- ce que / ce qu' | suh KUH / suh K | what (as object) | —
+- tout ce qui | too suh KEE | everything that (as subject) | —
+- tout ce que | too suh KUH | everything that (as object) | —
+- Ce qui me plaît, c'est… | suh kee muh PLEH, seh | What I like is… | —
+- Ce qui compte, c'est… | suh kee KOHNT, seh | What matters is… | —
+- plaire à | PLEHR ah | to please, to appeal to | Ça me plaît (I like it). Il plaît takes a circumflex.
+- intéresser | an-tay-reh-SAY | to interest | —
+- énerver | ay-nehr-VAY | to annoy | —
+- choquer | shoh-KAY | to shock | —
+- gêner | zheh-NAY | to bother | —
+- surprendre | sewr-PRAHN-druh | to surprise | Like prendre: ça me surprend.
+- la vérité | lah vay-ree-TAY | the truth | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-ce-qui-ce-que-ex001 | fill-in | Fill in the gap (What): ___ me plaît, c'est la musique. | — | ["Ce qui"] | false | A verb follows (after the pronoun me), so it's ce qui.
+- b1-ce-qui-ce-que-ex002 | fill-in | Fill in the gap (What): ___ j'aime, c'est le dimanche. | — | ["Ce que"] | false | A subject (j') follows, so it's ce que.
+- b1-ce-qui-ce-que-ex003 | multiple-choice | Choose the right word: Je ne comprends pas ___ tu dis. | ["ce que","ce qui","qu'est-ce que"] | ["ce que"] | false | Tu is the subject of dis, so it's ce que. Qu'est-ce que only starts a question.
+- b1-ce-qui-ce-que-ex004 | multiple-choice | Choose the right word: ___ m'énerve, c'est la pluie. | ["Ce qui","Ce que","Qui"] | ["Ce qui"] | false | The thing that annoys is the subject of énerve, so it's ce qui.
+- b1-ce-qui-ce-que-ex005 | fill-in | Fill in the gap (everything): Tout ___ tu dis est vrai. | — | ["ce que"] | false | Tu is the subject of dis, so it's tout ce que.
+- b1-ce-qui-ce-que-ex006 | fill-in | Fill in the gap (que, before a vowel): Ce ___ il veut, c'est dormir. | — | ["qu'"] | false | Que becomes qu' before a vowel: ce qu'il veut.
+- b1-ce-qui-ce-que-ex007 | multiple-choice | Choose the right word: Tout ___ est sur la table est pour toi. | ["ce qui","ce que","que"] | ["ce qui"] | false | Est follows straight away, so it's tout ce qui.
+- b1-ce-qui-ce-que-ex008 | multiple-choice | Which sentence is correct? | ["J'aime ce que tu fais.","J'aime qu'est-ce que tu fais.","J'aime ce qui tu fais."] | ["J'aime ce que tu fais."] | false | In the middle of a sentence, 'what' is ce que, never qu'est-ce que.
+- b1-ce-qui-ce-que-ex009 | fill-in | Fill in the gap with compter in the present: Ce qui ___, c'est la vérité. | — | ["compte"] | false | Ce qui is singular, so the verb is in the il form: compte.
+- b1-ce-qui-ce-que-ex010 | translate | Rewrite this sentence with Ce qui… c'est, to put la musique at the end: La musique me plaît. | — | ["Ce qui me plaît, c'est la musique"] | false | Ce qui replaces the subject, and c'est brings the important part to the end.
+- b1-ce-qui-ce-que-ex011 | translate | Rewrite this sentence with Ce que… c'est, to put le marché at the end: J'adore le marché. | — | ["Ce que j'adore, c'est le marché"] | false | Le marché is the object of adore, so it's ce que.
+- b1-ce-qui-ce-que-ex012 | translate | Write in French, to a friend: Everything you say is true. | — | ["Tout ce que tu dis est vrai"] | false | Tu is the subject of dis, so it's tout ce que.
+- b1-ce-qui-ce-que-ex013 | reorder | Put the words in order: What surprises me is the price. | — | ["Ce qui me surprend, c'est le prix"] | false | Ce qui is the subject of surprend, and c'est introduces the important part.

@@ -228,7 +228,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 7 | b1-si-present-futur | Si + present, future | Hypotheses and wishes | grammar | a2-futur-simple | Real conditions: s'il pleut, on restera; si + present + imperative. Reuses: travel plans, weather. |
 | 8 | b1-conditionnel-present | The conditionnel présent | Hypotheses and wishes | grammar | a2-polite-requests | Future stems + imparfait endings; politeness, wishes, rumour. Reuses: polite requests, travel. |
 | 9 | b1-si-imparfait-conditionnel | Si + imparfait, conditionnel | Hypotheses and wishes | grammar | b1-conditionnel-present, b1-si-present-futur | Unreal present: si j'avais le temps, je voyagerais. Reuses: dreams, travel, work. |
-| 10 | b1-giving-advice | Giving advice | Hypotheses and wishes | communication | b1-si-imparfait-conditionnel | tu devrais, à ta place, si j'étais toi, je te conseille de. |
+| 10 | b1-giving-advice | Giving advice | Hypotheses and wishes | communication | b1-si-imparfait-conditionnel | tu devrais, à ta place, si j'étais toi, je te conseille de. Also: the negative infinitive (je te conseille de ne pas partir, essaie de ne pas oublier). |
 | 11 | b1-dreams-and-ambitions | Dreams and ambitions | Hypotheses and wishes | communication | b1-si-imparfait-conditionnel | Talking about plans, dreams and an ideal life. |
 | 12 | b1-review-hypotheses | Review: Hypotheses and wishes | Hypotheses and wishes | review | b1-giving-advice, b1-dreams-and-ambitions | Write a "what would you do if…" piece and an advice reply. |
 
@@ -238,7 +238,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 |---|---|---|---|---|---|---|
 | 13 | b1-plus-que-parfait | The plus-que-parfait | Telling stories | grammar | a2-passe-compose-vs-imparfait | Formation; the past before the past; with déjà. Reuses: childhood memories, travel stories. |
 | 14 | b1-time-connectors | Time connectors | Telling stories | grammar | b1-plus-que-parfait | quand, lorsque, pendant que, dès que, avant de + infinitive, après avoir + participle as a chunk (b2-infinitif-passe owns the grammar). Reuses: anecdotes, daily routine. |
-| 15 | b1-telling-an-anecdote | Telling an anecdote | Telling stories | communication | b1-time-connectors, a2-telling-a-story | Building suspense, reactions (Ce n'est pas vrai !), keeping a listener engaged. |
+| 15 | b1-telling-an-anecdote | Telling an anecdote | Telling stories | communication | b1-time-connectors, a2-telling-a-story, a2-venir-de-en-train-de | Building suspense, reactions (Ce n'est pas vrai !), keeping a listener engaged. Also: aller (imparfait) + infinitive (j'allais partir quand…) and venir de in the imparfait (il venait d'arriver). |
 | 16 | b1-cinema-and-books | Cinema and books | Telling stories | vocabulary | b1-expressing-opinions | Genres, plot, characters, le réalisateur, l'intrigue, ça se passe à… |
 | 17 | b1-reviewing-a-film-or-book | Reviewing a film or book | Telling stories | communication | b1-cinema-and-books, b1-ce-qui-ce-que | Summary + opinion structure; recommending or warning off. |
 | 18 | b1-culture-french-cinema | French cinema | Telling stories | culture | b1-cinema-and-books | La Nouvelle Vague, popular comedies, Cannes, the César awards. |
@@ -248,10 +248,10 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 20 | b1-subjonctif-formation | The subjunctive: regular forms | The subjunctive | grammar | a2-il-faut-and-advice | Stem from ils form; nous/vous from imparfait; what the mood is for. Reuses: advice, health. |
-| 21 | b1-subjonctif-necessity | Subjunctive after il faut que | The subjunctive | grammar | b1-subjonctif-formation | il faut que, il est important / nécessaire que. Reuses: household chores, work. |
-| 22 | b1-subjonctif-irregular | Irregular subjunctives | The subjunctive | grammar | b1-subjonctif-necessity | être, avoir, aller, faire, pouvoir, savoir, vouloir. Reuses: chores, travel plans. |
-| 23 | b1-subjonctif-wishes-emotions | Subjunctive after wishes and emotions | The subjunctive | grammar | b1-subjonctif-irregular, b1-relationships | vouloir que, aimer que, être content / triste que, avoir peur que. Reuses: relationships, emotions. |
+| 20 | b1-subjonctif-formation | The subjunctive: regular forms | The subjunctive | grammar | a2-il-faut-and-advice | Stem from ils form; nous/vous from imparfait; what the mood is for. Reuses: advice, health. Il faut que appears only as a frame, with regular verbs. |
+| 21 | b1-subjonctif-irregular | Irregular subjunctives | The subjunctive | grammar | b1-subjonctif-formation | être, avoir, aller, faire, pouvoir, savoir, vouloir. Reuses: chores, travel plans. |
+| 22 | b1-subjonctif-necessity | Subjunctive after il faut que | The subjunctive | grammar | b1-subjonctif-irregular | il faut que, il est important / nécessaire que. Reuses: household chores, work. With every verb, including the irregular forms from b1-subjonctif-irregular. |
+| 23 | b1-subjonctif-wishes-emotions | Subjunctive after wishes and emotions | The subjunctive | grammar | b1-subjonctif-necessity, b1-relationships | vouloir que, aimer que, être content / triste que, avoir peur que. Reuses: relationships, emotions. |
 | 24 | b1-subjunctive-vs-infinitive | Subjunctive or infinitive? | The subjunctive | grammar | b1-subjonctif-wishes-emotions | Same subject → infinitive; different subject → que + subjunctive. Reuses: relationships, plans. |
 | 25 | b1-expressing-doubt-certainty | Doubt and certainty | The subjunctive | grammar | b1-subjunctive-vs-infinitive, b1-agreeing-disagreeing | je doute que / je ne pense pas que + subjunctive vs je suis sûr que + indicative. Reuses: opinions. |
 | 26 | b1-review-subjunctive | Review: The subjunctive | The subjunctive | review | b1-expressing-doubt-certainty | Mixed practice choosing indicative, subjunctive or infinitive. |
@@ -262,7 +262,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 |---|---|---|---|---|---|---|
 | 27 | b1-careers-and-job-hunting | Careers and job hunting | Work and careers | vocabulary | a2-jobs-and-workplace | Job ads, CDI / CDD, salary, skills, experience, le stage. |
 | 28 | b1-cover-letter | CV and cover letter | Work and careers | communication | b1-careers-and-job-hunting, b1-conditionnel-present | French CV conventions; lettre de motivation structure and formulas. |
-| 29 | b1-job-interview | The job interview | Work and careers | communication | b1-cover-letter | Presenting your experience, strengths, questions to ask, vous throughout. |
+| 29 | b1-job-interview | The job interview | Work and careers | communication | b1-cover-letter | Presenting your experience, strengths, questions to ask, vous throughout. Also: ça fait… que / il y a… que for duration, alongside depuis. |
 | 30 | b1-double-object-pronouns | Double object pronouns | Work and careers | grammar | a2-imperative-with-pronouns | Order rules (me le, le lui, lui en, y en); in the imperative. Reuses: office tasks, sending documents. |
 | 31 | b1-possessive-pronouns | Possessive pronouns | Work and careers | grammar | a2-direct-object-pronouns | le mien, la tienne, les leurs; c'est à moi. Reuses: workplace objects, family. |
 | 32 | b1-demonstrative-pronouns | Demonstrative pronouns | Work and careers | grammar | a2-relative-qui-que-ou | celui, celle, ceux, celles + -ci / -là / qui / de. Reuses: job offers, shopping. |
@@ -285,7 +285,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 42 | b1-environment | The environment | Society and environment | vocabulary | b1-media-and-news | Pollution, recycling, climate, energy, protéger, gaspiller. |
+| 42 | b1-environment | The environment | Society and environment | vocabulary | b1-media-and-news | Pollution, recycling, climate, energy, protéger, gaspiller. Also: de plus en plus / de moins en moins. |
 | 43 | b1-cause-and-consequence | Cause and consequence | Society and environment | grammar | b1-expressing-opinions | parce que, car, puisque, comme, à cause de, grâce à; donc, alors, c'est pourquoi. Reuses: environment. |
 | 44 | b1-passive-voice-intro | The passive voice: introduction | Society and environment | grammar | b1-media-and-news | être + participle in present and passé composé; par. Reuses: news, environment. |
 | 45 | b1-presenting-an-argument | Presenting a simple argument | Society and environment | communication | b1-cause-and-consequence, b1-agreeing-disagreeing | d'abord / ensuite / enfin, pour / contre, conclusion. |
@@ -299,20 +299,20 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 48 | b1-housing-and-renting | Housing and renting | Home, money and problems | vocabulary | a2-home-and-chores | Flat hunting, le loyer, les charges, le bail, la caution, colocation. |
 | 49 | b1-money-and-banking | Money and banking | Home, money and problems | vocabulary | a1-shopping-for-clothes | Accounts, cards, paying, saving, borrowing, prices and budgets. |
 | 50 | b1-ne-que-ni-ni | ne…que and ni…ni | Home, money and problems | grammar | a2-negative-expressions | Restriction (je n'ai que 10 euros) and double negation. Reuses: money, housing. |
-| 51 | b1-making-a-complaint | Making a complaint | Home, money and problems | communication | b1-cover-letter, b1-housing-and-renting | Polite but firm complaints in person and in writing; asking for a solution. |
-| 52 | b1-travel-problems | Travel problems | Home, money and problems | communication | a2-booking-a-hotel, b1-plus-que-parfait | Lost luggage, delays, cancellations, j'avais réservé… |
-| 53 | b1-review-home-money-problems | Review: Home, money and problems | Home, money and problems | review | b1-money-and-banking, b1-ne-que-ni-ni, b1-making-a-complaint, b1-travel-problems | Write a complaint email to a landlord or airline. |
+| 51 | b1-formal-email | Writing a formal email | Home, money and problems | communication | b1-cover-letter | Register, structure, standard openings and closings, requests and follow-ups. Also: veuillez + infinitive as a labelled fixed phrase (with Veuillez agréer…). |
+| 52 | b1-making-a-complaint | Making a complaint | Home, money and problems | communication | b1-formal-email, b1-housing-and-renting | Polite but firm complaints in person and in writing; asking for a solution. |
+| 53 | b1-travel-problems | Travel problems | Home, money and problems | communication | a2-booking-a-hotel, b1-plus-que-parfait | Lost luggage, delays, cancellations, j'avais réservé… |
+| 54 | b1-review-home-money-problems | Review: Home, money and problems | Home, money and problems | review | b1-money-and-banking, b1-ne-que-ni-ni, b1-making-a-complaint, b1-travel-problems | Write a complaint email to a landlord or airline. |
 
 ### Unit 9: Food, culture and wrap-up
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 54 | b1-food-and-cooking | Food and cooking | Food, culture and wrap-up | vocabulary | a2-quantities | Recipes, cooking verbs, utensils, describing taste. |
-| 55 | b1-culture-regional-cuisine | Regional cuisine | Food, culture and wrap-up | culture | b1-food-and-cooking | Regions through their dishes: Alsace, Provence, Bretagne, Lyon; cheese and wine culture. |
-| 56 | b1-making-suggestions | Making suggestions | Food, culture and wrap-up | communication | b1-si-imparfait-conditionnel | Si on allait… ?, ça te dirait de…, on pourrait…, pourquoi pas… |
-| 57 | b1-formal-email | Writing a formal email | Food, culture and wrap-up | communication | b1-making-a-complaint | Register, structure, standard openings and closings, requests and follow-ups. |
+| 55 | b1-food-and-cooking | Food and cooking | Food, culture and wrap-up | vocabulary | a2-quantities | Recipes, cooking verbs, utensils, describing taste. |
+| 56 | b1-culture-regional-cuisine | Regional cuisine | Food, culture and wrap-up | culture | b1-food-and-cooking | Regions through their dishes: Alsace, Provence, Bretagne, Lyon; cheese and wine culture. |
+| 57 | b1-making-suggestions | Making suggestions | Food, culture and wrap-up | communication | b1-si-imparfait-conditionnel | Si on allait… ?, ça te dirait de…, on pourrait…, pourquoi pas… |
 | 58 | b1-culture-quebec | French in Québec | Food, culture and wrap-up | culture | a2-culture-francophone-world | History, vocabulary differences, tu used more freely, Québécois expressions. |
-| 59 | b1-review-final | B1 final review | Food, culture and wrap-up | review | b1-review-opinions, b1-review-hypotheses, b1-review-stories, b1-review-subjunctive, b1-review-work, b1-review-media, b1-review-society, b1-review-home-money-problems, b1-culture-regional-cuisine, b1-making-suggestions, b1-formal-email, b1-culture-quebec | Whole-level recap; B1 can-do checklist. |
+| 59 | b1-review-final | B1 final review | Food, culture and wrap-up | review | b1-review-opinions, b1-review-hypotheses, b1-review-stories, b1-review-subjunctive, b1-review-work, b1-review-media, b1-review-society, b1-review-home-money-problems, b1-culture-regional-cuisine, b1-making-suggestions, b1-culture-quebec | Whole-level recap; B1 can-do checklist. |
 
 ---
 

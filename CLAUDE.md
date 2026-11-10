@@ -73,7 +73,7 @@ Key, checked against every `pron` field in content/lessons:
 ## B1 conventions
 These apply to B1 only. Where they differ from the general rules, they win.
 - Teaching text is in English. Every French example, dialogue line and exercise sentence has an English translation. Exercise prompts are in English at B1. The final B1 review includes a callout that teaches the French instruction words (Complétez, Choisissez, Mettez dans l'ordre, Traduisez).
-- Teaching text is 600 to 800 words (grammar lessons may reach 900). Vocab has 12 to 25 entries. Dialogues have 8 to 10 lines.
+- Teaching text is 600 to 800 words (grammar lessons may reach 900). Vocab has 12 to 25 entries, except in review lessons, which have 3 to 8 new words, all used in the model, the task or an exercise. Dialogues have 8 to 10 lines.
 - Every communication lesson includes one longer realistic text (an email, a message thread or a short article) with a full translation.
 - 12 to 14 exercises per lesson, with at least two production tasks (translate, rewrite or write out a short paragraph) and at least one reorder.
 - Use only structures taught in A1, A2 or earlier B1 lessons in course order. Labelled fixed phrases are allowed, and each one goes in docs/review-needed.md. Mark formal and informal registers in examples.

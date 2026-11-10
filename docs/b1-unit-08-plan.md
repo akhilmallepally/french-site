@@ -95,13 +95,42 @@ Status: draft for approval. No lesson files written yet.
 - **Production tasks:** rewrite sentences with *ne… que*; translate "I have neither time nor money."
 - **Needs review:** "*Ne… que* isn't a negative, so the article doesn't change to *de*: *je n'ai que des pièces*." "After *ni*, the indefinite and partitive articles disappear." "*Une pièce* (a coin) and *un billet* (a banknote) are new meanings of words already taught as 'room' and 'ticket'."
 
-## 51. b1-making-a-complaint: Making a complaint
+## 51. b1-formal-email: Writing a formal email
 
 - **Type:** communication · **Order:** 51
+- **Prerequisites:**
+  - b1-cover-letter: the formal register, layout and closings of the cover letter carry over to email.
+- **Teaches:** register (*vous*, no abbreviations); structure (subject line, greeting, purpose, request, closing); openings (*Madame, Monsieur,*; *Bonjour Madame Dupont,*); requests (*Je vous serais reconnaissant(e) de…*, *Pourriez-vous…*); follow-ups (*Je me permets de revenir vers vous*, *Suite à notre conversation*); closings (*Cordialement*, *Bien cordialement*); attachments (*Vous trouverez ci-joint*); *veuillez* + infinitive as a labelled fixed phrase (*Veuillez trouver ci-joint…*, *Veuillez agréer…*, *Veuillez m'excuser*).
+- **Not yet taught:** *veuillez* is the imperative of *vouloir*, which no lesson teaches as a verb form: labelled fixed phrase, listed in review-needed.md. *En vous remerciant par avance* uses the gérondif taught in lesson 38.
+- **Vocab (16):**
+  - *l'objet*: the subject line
+  - *une formule de politesse*: a polite closing
+  - *Bien cordialement*: Kind regards
+  - *Je vous serais reconnaissant / reconnaissante de…*: I would be grateful if you could…
+  - *suite à*: following
+  - *revenir vers quelqu'un*: to get back to someone
+  - *par avance*: in advance
+  - *En vous remerciant par avance,*: Thanking you in advance,
+  - *Vous trouverez ci-joint…*: Please find attached…
+  - *Veuillez trouver ci-joint…*: Please find attached… (fixed phrase)
+  - *veuillez* + infinitive: please (very formal; fixed phrase)
+  - *une demande*: a request
+  - *transférer*: to forward
+  - *en copie*: copied in (cc)
+  - *une relance*: a reminder, a follow-up
+  - *une conversation*: a conversation
+- **Dialogue:** A colleague asks another how formal an email to a new client should be.
+- **Longer text:** A formal email asking for information about a language course, and a polite follow-up a week later.
+- **Production tasks:** write out a formal email from prompts, including one *veuillez* sentence; translate "I would be grateful if you could send me the price."
+- **Needs review:** "*Revenir vers vous* is very common in business emails, though some people criticize it." "*Bonjour* + name is acceptable in most formal emails." "*Cordialement* is the neutral closing; *Je vous prie d'agréer…* and *Veuillez agréer…* are for letters." "*Veuillez* + infinitive is a very formal 'please' used in writing."
+
+## 52. b1-making-a-complaint: Making a complaint
+
+- **Type:** communication · **Order:** 52
 - **Prerequisites (changed from the syllabus):**
-  - b1-cover-letter: the formal letter layout and closings that the written complaint reuses. It implies b1-conditionnel-present, which the syllabus listed.
+  - b1-formal-email: the written complaint is a formal email. It implies b1-cover-letter and b1-conditionnel-present.
   - b1-housing-and-renting: the tenant–landlord setting.
-- **Teaches:** complaining politely but firmly in person (*Excusez-moi de vous déranger, mais…*, *il y a un problème avec…*, *ce n'est pas normal*, *est-ce qu'il serait possible de…*, *je voudrais que vous* + subjunctive) and in writing; asking for a solution (refund, exchange, repair); escalating (*sinon, je serai obligé de…*).
+- **Teaches:** complaining politely but firmly in person (*Excusez-moi de vous déranger, mais…*, *il y a un problème avec…*, *ce n'est pas normal*, *est-ce qu'il serait possible de…*, *je voudrais que vous* + subjunctive) and in writing, as a formal email in the format from lesson 51; asking for a solution (refund, exchange, repair); escalating (*sinon, je serai obligé de…*).
 - **Not yet taught:** *se faire rembourser* (*faire* + infinitive, b2-faire-causatif): avoided; use *être remboursé*.
 - **Vocab (17):**
   - *se plaindre (de)*: to complain (about)
@@ -122,13 +151,13 @@ Status: draft for approval. No lesson files written yet.
   - *exiger*: to demand
   - *être obligé / obligée de*: to be forced to
 - **Dialogue:** A tenant phones the landlord about a broken heater, *vous* throughout.
-- **Longer text:** A formal complaint letter to the landlord about the heating, with a translation.
+- **Longer text:** A formal complaint email to the landlord about the heating, with a translation.
 - **Production tasks:** write out a complaint paragraph; translate "The heating has been broken for a week."
 - **Needs review:** "*Une réclamation* is the word companies use for a formal complaint." "*Dans les plus brefs délais* is formal written French."
 
-## 52. b1-travel-problems: Travel problems
+## 53. b1-travel-problems: Travel problems
 
-- **Type:** communication · **Order:** 52
+- **Type:** communication · **Order:** 53
 - **Prerequisites:**
   - a2-booking-a-hotel: hotel vocabulary.
   - b1-plus-que-parfait: *j'avais réservé une chambre*.
@@ -156,26 +185,20 @@ Status: draft for approval. No lesson files written yet.
 - **Production tasks:** translate "I had booked a room for two nights."; write out the email from prompts.
 - **Needs review:** "*Rater sa correspondance* builds on *la correspondance* from a2-travel-and-transport." Don't state compensation rules (amounts, EU regulations) in the lesson.
 
-## 53. b1-review-home-money-problems: Review: Home, money and problems
+## 54. b1-review-home-money-problems: Review: Home, money and problems
 
-- **Type:** review · **Order:** 53
+- **Type:** review · **Order:** 54
 - **Prerequisites:**
   - b1-money-and-banking, b1-ne-que-ni-ni: money and restriction in the model.
   - b1-making-a-complaint: the complaint email.
   - b1-travel-problems: the airline setting.
-- **Vocab (12):**
-  - *un litige*: a dispute
-  - *un dédommagement*: compensation
+- **Vocab (6):**
   - *une facture*: a bill, an invoice
-  - *une erreur*: a mistake
-  - *facturer*: to charge
   - *une compagnie aérienne*: an airline
-  - *la responsabilité*: responsibility
   - *un justificatif*: proof, a receipt
-  - *joindre*: to attach
-  - *ci-joint*: attached (fixed phrase)
-  - *une copie*: a copy
   - *un numéro de dossier*: a reference number
+  - *un dédommagement*: compensation
+  - *joindre*: to attach
 - **Model text:** A complaint email to an airline about a cancelled flight and the hotel night it cost.
 - **Production tasks:** the writing task; one write-out paragraph; one translation with *ne… que*.
-- **Needs review:** See the overview, section (e): this review asks for a formal email before b1-formal-email (57) teaches it.
+- **Needs review:** none beyond the unit's lessons. (b1-formal-email now comes earlier in this unit, so the task no longer asks for something untaught.)

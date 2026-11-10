@@ -611,3 +611,32 @@ Every date, tradition and regional detail, for checking:
 - ex004 (*Il est médecin*) relies on the options offered, because *C'est* has no article there. Confirm.
 - *La ville où j'habite est plus petite que Lyon* treats Lyon only as a point of comparison, to avoid the gender of city names. Confirm.
 - **"*Il ne faut pas* means 'you mustn't', not 'you don't have to'."** Confirm.
+
+## b1-expressing-opinions
+
+- **"For a negative opinion, keep the opinion verb positive and put the negative after *que*: *Je trouve que ce n'est pas très original* (I don't think it's very original)."** Confirm this is a natural way round the subjunctive.
+- **"*Je pense que oui* (I think so) and *Je crois que non* (I don't think so)."** Confirm both are natural.
+- **"*Je crois que* can sound a little less certain, close to 'I believe'."** Confirm the nuance.
+- **"*Je trouve que* suggests an opinion based on your own experience: you've been to the café, seen the film or met the person."** Confirm.
+- **"*Je pense que* is the neutral choice."** Confirm.
+- **"*Pour moi* … can introduce an opinion too: *Pour moi, c'est le meilleur restaurant de la ville*."** Confirm.
+- **"*À vrai dire* (to tell the truth) often comes before an opinion the other person may not expect."** Confirm.
+
+## b1-agreeing-disagreeing
+
+- **"*Moi si* contradicts a negative statement: *Je n'aime pas le café. Moi si !*"** Confirm, including whether it's usually written *Moi, si*.
+- **"*D'accord* by itself accepts a plan … To agree with an opinion, you need the full verb: *Je suis d'accord*."** Confirm that a bare *D'accord* doesn't read as agreeing with an opinion.
+- **The "From yes to no" table**, especially "*Tu as tort*: Direct, and it can sound rude" and "*Je ne suis pas sûr*: Polite doubt". Confirm the ranking.
+- **"*Je suis en partie d'accord.*"** Confirm the word order is natural.
+- **"*Je suis du même avis.*"** Confirm it's natural in conversation, not only in writing.
+- **"*Ce n'est pas faux*" (that's a fair point)** as a polite concession. Confirm.
+- **"*Pour moi, le dimanche matin, d'accord, mais pas l'après-midi.*"** (forum thread) Confirm it reads naturally.
+
+## b1-ce-qui-ce-que
+
+- **"In the passé composé, the participle after *ce que* doesn't agree: *ce que j'ai vu*, *ce que nous avons fait*."** Confirm.
+- **"*Ce* is masculine and singular, so the verb after *ce qui* is in the *il* form."** Confirm.
+- **"*Ce qui m'énerve, ce sont les voitures le matin.*"** (blog text) Confirm *ce sont* before a plural, rather than *c'est*.
+- **"*Qu'est-ce qui* becomes *ce qui*: *Je regarde ce qui se passe*."** Confirm.
+- **"In the *il* form, it takes a circumflex: *il plaît*."** The 1990 spelling reform also allows *il plait*. Confirm the lesson can keep the circumflex only.
+- **"*Plaire* works the opposite way round from 'like', just like *manquer* in *tu me manques*."** Confirm the comparison is helpful and accurate.

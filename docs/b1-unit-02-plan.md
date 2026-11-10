@@ -91,9 +91,9 @@ Status: draft for approval. No lesson files written yet.
 - **Type:** communication · **Order:** 10
 - **Prerequisites:**
   - b1-si-imparfait-conditionnel: *si j'étais toi, je…* is one of the main advice patterns. It implies b1-conditionnel-present and a2-il-faut-and-advice, which the syllabus listed. (Syllabus change: see the overview.)
-- **Teaches:** *tu devrais* / *vous devriez* + infinitive; *tu pourrais*; *à ta place* / *à votre place*, *je* + conditionnel; *si j'étais toi*; *je te conseille de* / *je vous conseille de*; *il vaudrait mieux* + infinitive; *n'hésite pas à*; reacting to advice.
+- **Teaches:** *tu devrais* / *vous devriez* + infinitive; *tu pourrais*; *à ta place* / *à votre place*, *je* + conditionnel; *si j'étais toi*; *je te conseille de* / *je vous conseille de*; *il vaudrait mieux* + infinitive; *n'hésite pas à*; the negative infinitive, with *ne pas* together before the infinitive (*je te conseille de ne pas partir*, *essaie de ne pas oublier*); reacting to advice.
 - **Not yet taught:** *il faut que tu…* and *il vaut mieux que* + subjunctive (Unit 4): avoided. Advice uses *il faut* + infinitive, as in A2.
-- **Vocab (15):**
+- **Vocab (16):**
   - *tu devrais / vous devriez*: you should
   - *à ta place / à votre place*: if I were you, in your place
   - *je te conseille de / je vous conseille de*: I advise you to
@@ -109,10 +109,11 @@ Status: draft for approval. No lesson files written yet.
   - *se détendre*: to relax
   - *le sommeil*: sleep
   - *Je vais essayer.*: I'll try.
+  - *ne pas* + infinitive: not to (*essaie de ne pas oublier*: try not to forget)
 - **Dialogue:** A student (*tu*) tells a friend they're stressed about exams; the friend gives three pieces of advice.
 - **Longer text:** A letter to an advice column and the columnist's reply (*vous*).
-- **Production tasks:** translate "If I were you, I would sleep more."; write a four-sentence advice reply.
-- **Needs review:** "*Tu devrais* is softer than *il faut*." "*Il vaudrait mieux* is followed by an infinitive."
+- **Production tasks:** translate "If I were you, I would sleep more." and "Try not to forget your keys."; write a four-sentence advice reply.
+- **Needs review:** "*Tu devrais* is softer than *il faut*." "*Il vaudrait mieux* is followed by an infinitive." "With an infinitive, *ne* and *pas* go together before the verb: *de ne pas partir*."
 
 ## 11. b1-dreams-and-ambitions: Dreams and ambitions
 
@@ -151,18 +152,12 @@ Status: draft for approval. No lesson files written yet.
   - b1-giving-advice: the advice reply.
   - b1-dreams-and-ambitions: the "what would you do if…" piece.
 - **Teaches:** recap of real and unreal conditions, the conditionnel and advice.
-- **Vocab (12):**
-  - *une hypothèse*: a hypothesis
-  - *un souhait*: a wish
-  - *souhaiter*: to wish
+- **Vocab (6):**
   - *un choix*: a choice
   - *hésiter*: to hesitate
-  - *une décision*: a decision
   - *prendre une décision*: to make a decision
-  - *un dilemme*: a dilemma
   - *peser le pour et le contre*: to weigh up the pros and cons
   - *changer d'avis*: to change your mind
-  - *un rêveur / une rêveuse*: a dreamer
   - *réfléchir*: to think it over
 - **Model text:** A forum post, *Que feriez-vous si vous pouviez changer de métier ?*, with one answer, then an advice reply to someone torn between two jobs.
 - **Production tasks:** the writing task; one write-out paragraph; one translation with a *si*-clause.

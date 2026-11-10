@@ -2,11 +2,27 @@
 
 Status: draft for approval. The lesson-by-lesson plans are in docs/b1-unit-01-plan.md to docs/b1-unit-09-plan.md. No lesson files have been written.
 
-## Changes made to docs/syllabus.md in this pass
+## Changes to docs/syllabus.md
 
-No lesson's scope, order, unit, title or type changed. Only the prerequisite column changed, in 18 B1 rows.
+### Second pass (approved decisions)
 
-**16 rows lost a prerequisite that another listed prerequisite already implies** (the CLAUDE.md prerequisite rule):
+1. **Lessons 21 and 22 swapped.** b1-subjonctif-irregular is now 21 (prerequisite: b1-subjonctif-formation) and b1-subjonctif-necessity is now 22 (prerequisite: b1-subjonctif-irregular). b1-subjonctif-wishes-emotions (23) now lists b1-subjonctif-necessity instead of b1-subjonctif-irregular, so the necessity lesson stays in the chain that leads to the unit review. Scopes: 20 uses *il faut que* only as a frame with regular verbs; 22 teaches the impersonal triggers with every verb.
+2. **b1-formal-email moved into Unit 8**, directly before b1-making-a-complaint.
+   - New orders: 51 b1-formal-email, 52 b1-making-a-complaint, 53 b1-travel-problems, 54 b1-review-home-money-problems, 55 b1-food-and-cooking, 56 b1-culture-regional-cuisine, 57 b1-making-suggestions. Lessons 58 and 59 are unchanged.
+   - Prerequisites: b1-formal-email → b1-cover-letter. b1-making-a-complaint → b1-formal-email, b1-housing-and-renting.
+   - b1-review-final no longer lists b1-formal-email, which b1-review-home-money-problems now implies. It has 11 prerequisites (exempt from the limit).
+   - Unit 8 has 7 lessons and Unit 9 has 5. The size table counts lessons by type, not unit, so its B1 row (59 lessons, 9 units, 23 / 9 / 13 / 5 / 9) is unchanged.
+3. **Scope additions:**
+   - b1-telling-an-anecdote: *aller* (imparfait) + infinitive (*j'allais partir quand…*) and *venir de* in the imparfait (*il venait d'arriver*). It also gains the prerequisite a2-venir-de-en-train-de, which its chain didn't reach.
+   - b1-giving-advice: the negative infinitive (*je te conseille de ne pas partir*, *essaie de ne pas oublier*).
+   - b1-job-interview: *ça fait… que* / *il y a… que* for duration, alongside *depuis*.
+   - b1-environment: *de plus en plus* / *de moins en moins*.
+   - b1-formal-email: *veuillez* + infinitive as a labelled fixed phrase (with *Veuillez agréer…*).
+   - No passé simple note was added. *Sois* and *aie* are already taught in a1-imperative.
+
+### First pass
+
+No lesson's scope or order changed in the first pass. 16 rows lost a prerequisite that another listed prerequisite already implied (the CLAUDE.md rule):
 
 | Lesson | Removed | Already implied by |
 |---|---|---|
@@ -25,17 +41,17 @@ No lesson's scope, order, unit, title or type changed. Only the prerequisite col
 | b1-passive-voice-intro | a2-passe-compose-etre | b1-media-and-news |
 | b1-food-and-cooking | a1-imperative | a2-quantities |
 | b1-making-suggestions | a2-invitations | b1-si-imparfait-conditionnel |
-| b1-formal-email | b1-cover-letter | b1-making-a-complaint (after the change below) |
+| b1-formal-email | (superseded by the second pass) | |
 
-**Three rows were re-anchored:**
+b1-giving-advice was also re-anchored on b1-si-imparfait-conditionnel, because it teaches *si j'étais toi*.
 
-| Lesson | Before | After | Why |
-|---|---|---|---|
-| b1-giving-advice | b1-conditionnel-present, a2-il-faut-and-advice | b1-si-imparfait-conditionnel | The scope teaches *si j'étais toi*, which comes from b1-si-imparfait-conditionnel. That lesson implies both old prerequisites. |
-| b1-making-a-complaint | b1-conditionnel-present, b1-housing-and-renting | b1-cover-letter, b1-housing-and-renting | The written complaint reuses the formal letter layout and closings from b1-cover-letter, which implies b1-conditionnel-present. |
-| b1-formal-email | b1-cover-letter, b1-making-a-complaint | b1-making-a-complaint | It now implies b1-cover-letter. |
+After both passes, the B1 graph has:
+- no missing ids, cycles or prerequisites later in course order
+- no prerequisite implied by another listed one
+- no row with more than six prerequisites except b1-review-final
+- continuous orders from 1 to 59, with each unit ending in its review
 
-After these changes, the B1 graph has no missing ids, no cycles, no prerequisite later in course order, and no prerequisite implied by another listed one. No row has more than six prerequisites except b1-review-final (12, exempt). The prerequisites in every unit plan match the syllabus rows.
+The prerequisites in every unit plan match the syllabus rows.
 
 ---
 
@@ -52,26 +68,26 @@ After these changes, the B1 graph has no missing ids, no cycles, no prerequisite
 | 7 | b1-si-present-futur | Si + present, future | grammar | Hypotheses and wishes | real conditions: *si* + present, futur / imperative |
 | 8 | b1-conditionnel-present | The conditionnel présent | grammar | Hypotheses and wishes | formation and uses of the conditionnel |
 | 9 | b1-si-imparfait-conditionnel | Si + imparfait, conditionnel | grammar | Hypotheses and wishes | unreal conditions: *si* + imparfait, conditionnel |
-| 10 | b1-giving-advice | Giving advice | communication | Hypotheses and wishes | *tu devrais*, *à ta place*, *je te conseille de* |
+| 10 | b1-giving-advice | Giving advice | communication | Hypotheses and wishes | *tu devrais*, *à ta place*, *je te conseille de*; the negative infinitive |
 | 11 | b1-dreams-and-ambitions | Dreams and ambitions | communication | Hypotheses and wishes | *avoir l'intention de*, *compter*, *espérer que*, dreams |
 | 12 | b1-review-hypotheses | Review: Hypotheses and wishes | review | Hypotheses and wishes | "what would you do if…" and an advice reply |
 | 13 | b1-plus-que-parfait | The plus-que-parfait | grammar | Telling stories | formation; the past before the past |
 | 14 | b1-time-connectors | Time connectors | grammar | Telling stories | *lorsque*, *dès que*, *pendant que*, *avant de* + infinitive |
-| 15 | b1-telling-an-anecdote | Telling an anecdote | communication | Telling stories | anecdote structure, suspense and listener reactions |
+| 15 | b1-telling-an-anecdote | Telling an anecdote | communication | Telling stories | anecdote structure; *j'allais* + infinitive, *il venait de* |
 | 16 | b1-cinema-and-books | Cinema and books | vocabulary | Telling stories | genres, people, plot; *ça se passe à*, *ça parle de* |
 | 17 | b1-reviewing-a-film-or-book | Reviewing a film or book | communication | Telling stories | summary + opinion + recommendation |
 | 18 | b1-culture-french-cinema | French cinema | culture | Telling stories | Nouvelle Vague, Cannes, the César awards |
 | 19 | b1-review-stories | Review: Telling stories | review | Telling stories | an anecdote and a film review |
-| 20 | b1-subjonctif-formation | The subjunctive: regular forms | grammar | The subjunctive | regular and two-stem forms after *il faut que* |
-| 21 | b1-subjonctif-necessity | Subjunctive after il faut que | grammar | The subjunctive | impersonal expressions of necessity + subjunctive |
-| 22 | b1-subjonctif-irregular | Irregular subjunctives | grammar | The subjunctive | *être*, *avoir*, *aller*, *faire*, *pouvoir*, *savoir*, *vouloir* |
+| 20 | b1-subjonctif-formation | The subjunctive: regular forms | grammar | The subjunctive | regular and two-stem forms, framed by *il faut que* |
+| 21 | b1-subjonctif-irregular | Irregular subjunctives | grammar | The subjunctive | *être*, *avoir*, *aller*, *faire*, *pouvoir*, *savoir*, *vouloir* |
+| 22 | b1-subjonctif-necessity | Subjunctive after il faut que | grammar | The subjunctive | impersonal expressions of necessity, with every verb |
 | 23 | b1-subjonctif-wishes-emotions | Subjunctive after wishes and emotions | grammar | The subjunctive | *vouloir que*, *être content que*, *avoir peur que* |
 | 24 | b1-subjunctive-vs-infinitive | Subjunctive or infinitive? | grammar | The subjunctive | same subject → infinitive, different subject → *que* + subjunctive |
 | 25 | b1-expressing-doubt-certainty | Doubt and certainty | grammar | The subjunctive | *douter que* / *je ne pense pas que* versus *je suis sûr que* |
 | 26 | b1-review-subjunctive | Review: The subjunctive | review | The subjunctive | indicative, subjunctive or infinitive |
 | 27 | b1-careers-and-job-hunting | Careers and job hunting | vocabulary | Work and careers | job ads, contracts, pay, skills |
 | 28 | b1-cover-letter | CV and cover letter | communication | Work and careers | CV layout; cover-letter structure and formulas |
-| 29 | b1-job-interview | The job interview | communication | Work and careers | presenting experience, strengths, questions; *vous* |
+| 29 | b1-job-interview | The job interview | communication | Work and careers | presenting experience; *ça fait… que*, *il y a… que*, *depuis* |
 | 30 | b1-double-object-pronouns | Double object pronouns | grammar | Work and careers | pronoun order (*me le*, *le lui*, *lui en*) |
 | 31 | b1-possessive-pronouns | Possessive pronouns | grammar | Work and careers | *le mien*, *la tienne*, *les leurs* |
 | 32 | b1-demonstrative-pronouns | Demonstrative pronouns | grammar | Work and careers | *celui*, *celle*, *ceux*, *celles* + *-ci / -là / qui / de* |
@@ -84,7 +100,7 @@ After these changes, the B1 graph has no missing ids, no cycles, no prerequisite
 | 39 | b1-indefinite-pronouns | Indefinite words | grammar | Media and technology | *chacun*, *aucun*, *plusieurs*, *n'importe qui / quoi* |
 | 40 | b1-interrogative-lequel | Lequel, laquelle | grammar | Media and technology | *lequel*, *auquel*, *duquel* in questions |
 | 41 | b1-review-media | Review: Media and technology | review | Media and technology | report a news item and react |
-| 42 | b1-environment | The environment | vocabulary | Society and environment | pollution, climate, energy, recycling |
+| 42 | b1-environment | The environment | vocabulary | Society and environment | pollution, climate, energy; *de plus en plus* |
 | 43 | b1-cause-and-consequence | Cause and consequence | grammar | Society and environment | *car*, *puisque*, *comme*, *grâce à*, *à cause de*, *donc* |
 | 44 | b1-passive-voice-intro | The passive voice: introduction | grammar | Society and environment | *être* + participle (present, passé composé), *par* |
 | 45 | b1-presenting-an-argument | Presenting a simple argument | communication | Society and environment | for / against structure, *d'une part… d'autre part* |
@@ -93,13 +109,13 @@ After these changes, the B1 graph has no missing ids, no cycles, no prerequisite
 | 48 | b1-housing-and-renting | Housing and renting | vocabulary | Home, money and problems | rent, lease, deposit, flat-sharing |
 | 49 | b1-money-and-banking | Money and banking | vocabulary | Home, money and problems | accounts, cards, saving, borrowing |
 | 50 | b1-ne-que-ni-ni | ne…que and ni…ni | grammar | Home, money and problems | restriction and double negation |
-| 51 | b1-making-a-complaint | Making a complaint | communication | Home, money and problems | firm, polite complaints in person and in writing |
-| 52 | b1-travel-problems | Travel problems | communication | Home, money and problems | delays, lost luggage; plus-que-parfait in context |
-| 53 | b1-review-home-money-problems | Review: Home, money and problems | review | Home, money and problems | complaint email to an airline |
-| 54 | b1-food-and-cooking | Food and cooking | vocabulary | Food, culture and wrap-up | recipes, cooking verbs, taste |
-| 55 | b1-culture-regional-cuisine | Regional cuisine | culture | Food, culture and wrap-up | regions and their dishes; cheese and wine |
-| 56 | b1-making-suggestions | Making suggestions | communication | Food, culture and wrap-up | *Si on allait… ?*, *Ça te dirait de… ?*, *On pourrait…* |
-| 57 | b1-formal-email | Writing a formal email | communication | Food, culture and wrap-up | formal register, structure, openings and closings |
+| 51 | b1-formal-email | Writing a formal email | communication | Home, money and problems | formal register and structure; *veuillez* + infinitive |
+| 52 | b1-making-a-complaint | Making a complaint | communication | Home, money and problems | firm, polite complaints in person and by email |
+| 53 | b1-travel-problems | Travel problems | communication | Home, money and problems | delays, lost luggage; plus-que-parfait in context |
+| 54 | b1-review-home-money-problems | Review: Home, money and problems | review | Home, money and problems | complaint email to an airline |
+| 55 | b1-food-and-cooking | Food and cooking | vocabulary | Food, culture and wrap-up | recipes, cooking verbs, taste |
+| 56 | b1-culture-regional-cuisine | Regional cuisine | culture | Food, culture and wrap-up | regions and their dishes; cheese and wine |
+| 57 | b1-making-suggestions | Making suggestions | communication | Food, culture and wrap-up | *Si on allait… ?*, *Ça te dirait de… ?*, *On pourrait…* |
 | 58 | b1-culture-quebec | French in Québec | culture | Food, culture and wrap-up | history, vocabulary differences, expressions |
 | 59 | b1-review-final | B1 final review | review | Food, culture and wrap-up | can-do checklist; French instruction words |
 
@@ -107,21 +123,21 @@ After these changes, the B1 graph has no missing ids, no cycles, no prerequisite
 
 ## (b) Structures used before the lesson that teaches them
 
-Every case in the plans is handled in one of two ways. A **fixed phrase** is labelled in the lesson and listed in docs/review-needed.md when the lesson is written. **Avoided** means the plan rephrases with a structure already taught. No case needs a structure moved to an earlier lesson.
+Every case is handled in one of two ways. A **fixed phrase** is labelled in the lesson and listed in docs/review-needed.md when the lesson is written. **Avoided** means the plan rephrases with a structure already taught. The second pass removed three earlier problems: irregular subjunctives in 22, *ci-joint* in the Unit 8 review, and *veuillez* with no lesson behind it.
 
-**Labelled fixed phrases (7):**
+**Labelled fixed phrases (5):**
 
 | Lesson | Phrase | Taught properly in | Decision |
 |---|---|---|---|
 | 14 b1-time-connectors | *après avoir* + participle | b2-infinitif-passe | Fixed phrase. The syllabus scope already says so. |
 | 17 b1-reviewing-a-film-or-book | *Je vous le conseille.* | 30 b1-double-object-pronouns | Fixed phrase. It's too common in reviews to avoid. |
-| 28 b1-cover-letter | *Je vous prie d'agréer… salutations distinguées*, *Veuillez agréer…* | nowhere (see g) | Fixed phrases. They're closing formulas. |
+| 28 b1-cover-letter | *Je vous prie d'agréer… salutations distinguées*, *Veuillez agréer…* | 51 b1-formal-email (*veuillez*, still as a fixed phrase) | Fixed phrases. They're closing formulas. |
 | 35 b1-media-and-news | headline participles (*Le musée fermé dimanche*) | 44 b1-passive-voice-intro | Labelled as headline style. |
-| 53 b1-review-home-money-problems | *ci-joint* | 57 b1-formal-email | Fixed phrase. |
-| 54 b1-food-and-cooking | *faire cuire*, *faire bouillir*, *faire fondre* | b2-faire-causatif | Fixed cooking phrases. |
-| 57 b1-formal-email | *Veuillez trouver ci-joint…* | nowhere (see g) | Fixed phrase, alongside *Vous trouverez ci-joint*. |
+| 55 b1-food-and-cooking | *faire cuire*, *faire bouillir*, *faire fondre* | b2-faire-causatif | Fixed cooking phrases. |
 
-**Avoided by rephrasing (25):**
+b1-formal-email (51) itself presents *veuillez* + infinitive as a labelled fixed phrase. No lesson at any level teaches the imperative of *vouloir* as a verb form.
+
+**Avoided by rephrasing:**
 
 | Lesson | Would need | Taught in | Instead |
 |---|---|---|---|
@@ -132,14 +148,13 @@ Every case in the plans is handled in one of two ways. A **fixed phrase** is lab
 | 5 | *avoir peur que* + subjunctive | 23 | not used |
 | 7 | *même si*, *sauf si* | b2-mixed-conditionals | not used |
 | 8 | *si* + imparfait | 9 | not used |
-| 10 | *il faut que tu…*, *il vaut mieux que* + subjunctive | 20–21 | *tu devrais*, *il faut* + infinitive |
+| 10 | *il faut que tu…*, *il vaut mieux que* + subjunctive | 20–22 | *tu devrais*, *il faut* + infinitive |
 | 11 | *j'aimerais que* + subjunctive | 23 | *j'aimerais* + infinitive |
-| 13 | *si* + plus-que-parfait | b2-si-plus-que-parfait | not used |
+| 13 | *si* + plus-que-parfait; *venir de* in the imparfait | b2-si-plus-que-parfait; 15 | not used |
 | 14 | *avant que*; the gérondif | b2-subjunctive-conjunctions; 38 | *avant de* + infinitive; *pendant que* |
 | 15 | *il m'a dit que…* (reported speech in the past) | b2-reported-speech-past | direct speech |
 | 16, 18 | passive *réalisé par* | 44 | *un film de* + name |
-| 17 | *il faut que vous le voyiez* | 22 | *il faut le voir* |
-| 21 | irregular subjunctives | 22 | regular verbs only (see e) |
+| 17 | *il faut que vous le voyiez* | 20–22 | *il faut le voir* |
 | 23 | the subjonctif passé | b2-subjonctif-passe | reactions in the present |
 | 24 | *pour que*, *avant que* | b2-subjunctive-conjunctions | not used |
 | 25 | *il est possible que*, *il se peut que*; inversion + subjunctive | b2-certainty-and-probability | not used |
@@ -152,69 +167,106 @@ Every case in the plans is handled in one of two ways. A **fixed phrase** is lab
 | 39 | *tout* in all its uses | b2-tout | only *tout le monde* |
 | 43 | *par conséquent*, *ainsi*, *du coup* | b2-logical-connectors, b2-colloquial-french | *donc*, *c'est pourquoi* |
 | 45 | *bien que*, *cependant*, *pourtant* | b2 Unit 1 | *il est vrai que…, mais…* |
-| 49 | *ne… que* | 50 | *seulement* (now defined in 49) |
-| 51 | *se faire rembourser* | b2-faire-causatif | *être remboursé* |
-| 52 | *on m'a dit que le vol serait…* | b2-reported-speech-past | not used |
+| 49 | *ne… que* | 50 | *seulement* (defined in 49) |
+| 52 | *se faire rembourser* | b2-faire-causatif | *être remboursé* |
+| 53 | *on m'a dit que le vol serait…* | b2-reported-speech-past | not used |
+
+**Example words for the second-pass additions** are all defined by the lesson or earlier:
+- *partir*, *arriver*: *j'allais partir quand Karim est arrivé*, *il venait d'arriver*
+- *oublier*: *essaie de ne pas oublier*
+- *travailler*, *ici*: *ça fait deux ans que je travaille ici*
+- *le plastique*, *la mer*: *de plus en plus de plastique*
+- *trouver*, *ci-joint*, *excuser*: *Veuillez trouver ci-joint*, *Veuillez m'excuser*
 
 ---
 
 ## (c) French words not defined in an earlier lesson or in the plan
 
-**Method.** A script compared every French word in each lesson's structures, "not yet taught" notes and scenario lines with the vocab of all A1 and A2 lessons plus the B1 plan vocab up to that lesson. Inflected forms and names were ignored. The dialogues and texts are described in English in the plans, so each lesson will still need the per-lesson check from CLAUDE.md once it's written.
+**Method.** A script compared every French word in each lesson's structures, "not yet taught" notes and scenario lines with the vocab of all A1 and A2 lessons plus the B1 plan vocab up to that lesson. Inflected forms and names were ignored. Dialogues and texts are described in English in the plans, so each lesson still needs the CLAUDE.md check once it's written.
 
-**Gaps found and fixed in the plans during this pass (none remain):**
+**B1 plan gaps (fixed in the first pass, none remain):**
+- *possible* and *un ministre* (8)
+- *maman / papa* (23)
+- the lesson 35 headline example, changed to *Le musée fermé dimanche*
+- *seulement*, moved from 50 to 49
+- *une conversation* (51, formerly 57)
 
-| Lesson | Word | Fix |
+**A1/A2 gaps closed in this pass.** Each word is now defined at its first use in course order, with the next free vocab id, and removed from the B1 plan where it was planned:
+
+| Word | First use | New entry | Respelling | Removed from B1 plan |
+|---|---|---|---|---|
+| *bien sûr* | a1-culture-politeness | a1-culture-politeness-v011 (shops) | byan SEWR | b1-agreeing-disagreeing |
+| *tout de suite* | a1-ordering-at-a-cafe | a1-ordering-at-a-cafe-v016 (staff) | toot SWEET | b1-time-connectors |
+| *la télévision / la télé* | a1-hobbies-and-sports | a1-hobbies-and-sports-v022 (other) | lah tay-lay-vee-ZYOHN / lah tay-LAY | — |
+| *comprendre* | a2-irregular-verbs-present | a2-irregular-verbs-present-v036 (prendre-mettre) | kohn-PRAHN-druh | b1-ce-qui-ce-que |
+| *Tiens. / Tenez.* | a2-polite-requests | a2-polite-requests-v013 (extras) | tyan / tuh-NAY | — |
+| *donner des nouvelles* | a2-writing-an-informal-email | a2-writing-an-informal-email-v012 (starting) | doh-nay day noo-VEL | — |
+| *alors* | a2-writing-an-informal-email | a2-writing-an-informal-email-v013 (new group "middle", with its own table after the example) | ah-LOR | b1-telling-an-anecdote |
+| *couper* | a2-culture-holidays-and-festivals | a2-culture-holidays-and-festivals-v022 (winter) | koo-PAY | b1-food-and-cooking |
+| *un concert* | a2-review-final | a2-review-final-v004 | uhn kohn-SEHR | — |
+
+*Un examen*, *une fleur* and *le sel* were added in an earlier batch (a2-culture-french-school-system-v019, a2-emotions-and-feelings-v019, a2-polite-requests-v012). *La porte* was already a1-contractions-a-de-v019.
+
+**Still undefined in A2 Units 7 and 8** (report only; nothing changed):
+
+| Lesson | Word | Used in |
 |---|---|---|
-| 8 b1-conditionnel-present | *possible*, *un ministre* | added to the lesson's vocab |
-| 23 b1-subjonctif-wishes-emotions | *maman* | added (*maman / papa*) |
-| 35 b1-media-and-news | *un incendie*, *maîtrisé* in a headline example (*incendie* was only defined in 44) | headline changed to *Le musée fermé dimanche* |
-| 49 b1-money-and-banking | *seulement* (planned for 50) | moved to 49; 50 gets *uniquement* instead |
-| 51 b1-making-a-complaint | *possible* | now defined in 8 |
-| 57 b1-formal-email | *une conversation* | added |
+| a2-comparatives | *un touriste* | *Il y a plus de touristes en été qu'en hiver.* |
+| a2-comparatives | *les gens* | dialogue: *les gens sont aussi sympas* |
+| a2-comparatives | *une tarte* | exercise: *Cette tarte est ___ que l'autre.* |
+| a2-relative-qui-que-ou | *une clé* | *Voici les clés que j'ai prises.* |
+| a2-relative-qui-que-ou | *une photo* | *C'est la photo que j'ai prise.* |
+| a2-describing-your-town | *les gens* | model text (if not defined in a2-comparatives first) |
+| a2-review-comparing | *magnifique* | *la mer est magnifique* |
+| a2-verbs-with-a-and-de | *fermer* | *J'ai oublié de fermer la porte.* |
+| a2-polite-requests | *fermer* | *Tu peux fermer la fenêtre ?* (if not defined in a2-verbs-with-a-and-de first) |
+| a2-review-final | *une clé* | *Mes clés ? Je les ai prises…* (if not defined in a2-relative-qui-que-ou first) |
 
-**Words A2 lessons use without defining, now defined in B1:** *bien sûr* (2), *comprendre* (3), *tout de suite* (14) and *alors* (15). They appear undefined in A2 Unit 8 (a2-polite-requests, a2-writing-an-informal-email, a2-culture-holidays-and-festivals, a2-review-final) and in a2-verbs-with-a-and-de. Defining them in A2 vocab would close those gaps at the source.
+*Clé* and *fermer* may first appear before Unit 7. Defining them means checking A1 and A2 Units 1–6 for their first use.
 
-**New meanings of words already defined (deliberate, each labelled in its plan):**
-- *si*: "if" (lesson 7) after "yes" (A1)
-- *un prix*: prize (18) after price (A1)
-- *une pièce*: coin (50) after room (A2)
-- *un billet*: banknote (50) after ticket (A1)
-- *goûter*: to taste (54) after *le goûter*, the snack (A1)
-- *le dîner*: lunch in Québec (58) after dinner (A1)
-- *un bouchon*: traffic jam (7), then a Lyon restaurant (55)
-- *pour moi*: from ordering (A1) to opinions (1)
-
-**Overlaps with A1/A2 vocab removed while planning:** 21 entries, replaced with new words. Examples: *moi aussi*, *déjà*, *le quai*, *tutoyer*, *un jour férié*, *un vol*, *la correspondance*.
+**New meanings of words already defined** (deliberate, each labelled in its plan):
+- *si*: "if" (7) after "yes" (A1)
+- *un prix*: prize (18) after price
+- *une pièce*: coin (50) after room
+- *un billet*: banknote (50) after ticket
+- *goûter*: the verb (55) after *le goûter*
+- *le dîner*: lunch in Québec (58)
+- *un bouchon*: traffic jam (7), then a Lyon restaurant (56)
+- *pour moi*: for opinions (1) after ordering
 
 ---
 
 ## (d) Prerequisite cycles and prerequisites that come later
 
-None, before or after the changes at the top. Every B1 prerequisite is an earlier lesson in course order at the same or a lower level. The only rule problem in the original syllabus was the 16 implied prerequisites, now removed.
+None. The only rule problem in the original syllabus was the 16 implied prerequisites, removed in the first pass. The second-pass changes keep the graph clean. The swap was compensated by changing 22's and 23's prerequisites, and moving b1-formal-email removed it from b1-review-final.
 
 ---
 
 ## (e) Rows that look too big, and lessons whose scope overlaps
 
-**Too big for one lesson:**
+**Resolved in the second pass:**
+- the 20 / 21 overlap and the irregular-verb problem in the necessity lesson (swap)
+- the Unit 8 review asking for a formal email before it was taught (move)
 
-1. **28 b1-cover-letter**: two genres in one lesson (CV conventions and the cover letter). Suggest keeping the CV to one short section with an annotated example, and spending the teaching text on the letter.
-2. **46 b1-culture-french-republic**: five topics (motto and symbols, *laïcité*, the history of the 14 juillet, elections, the anthem). Suggest dropping elections, which b2-politics-and-society covers in depth.
-3. **39 b1-indefinite-pronouns**: about fourteen forms. Suggest teaching the *n'importe* series as one block and keeping *quelque chose de* + adjective to a short note.
-4. **37 b1-reported-speech-present**: statements plus every kind of question plus pronoun changes. Workable at 900 words (the grammar limit), but it's the densest B1 grammar lesson.
-5. **8 b1-conditionnel-present**: formation, ten irregular stems and three uses. Manageable, because learners already know the future stems and *je voudrais*.
+**Still too big for one lesson:**
 
-**Overlapping scope:**
+1. **28 b1-cover-letter**: two genres (CV conventions and the cover letter). Suggest keeping the CV to one short section with an annotated example.
+2. **46 b1-culture-french-republic**: five topics. Suggest dropping elections, which b2-politics-and-society covers.
+3. **39 b1-indefinite-pronouns**: about fourteen forms. Suggest teaching the *n'importe* series as one block.
+4. **37 b1-reported-speech-present**: statements plus every kind of question plus pronoun changes. Workable within 900 words.
+5. **15 b1-telling-an-anecdote** now carries two extra structures (*j'allais* + infinitive, *venir de* in the imparfait) on top of the anecdote work. Suggest keeping them to one short section with four examples.
+6. **8 b1-conditionnel-present**: formation, ten irregular stems and three uses. Manageable, because learners know the future stems.
 
-1. **20 b1-subjonctif-formation and 21 b1-subjonctif-necessity.** Lesson 20 needs a trigger to show the forms, and the natural one, *il faut que*, is the title of lesson 21. Lesson 21 also comes before the irregular forms (22), so it can't use *il faut que je fasse* or *il faut que tu sois*. **Recommendation:** swap 21 and 22 (irregular forms at 21, necessity at 22, prerequisites adjusted). Lesson 20 then uses *il faut que* only as a frame, and 22 teaches all the impersonal triggers with every verb. Not changed: this needs your approval.
-2. **30 b1-double-object-pronouns and a2-imperative-with-pronouns.** A2 already teaches *Donne-le-moi*. The B1 plan revisits the imperative and doesn't reteach it; the syllabus scope wording ("in the imperative") could say "revisited".
-3. **51 b1-making-a-complaint, 53 b1-review-home-money-problems and 57 b1-formal-email.** Lessons 51 and 57 both teach formal written register, and the Unit 8 review (53) asks for a formal email before 57 teaches one. **Recommendation:** either move b1-formal-email into Unit 8 before b1-making-a-complaint, or make 53's task a letter in the layout taught in 28 and 51. Not changed.
-4. **58 b1-culture-quebec and a2-culture-francophone-world.** A2 already teaches *le souper*, *la fin de semaine* and *magasiner*. The B1 plan doesn't repeat them and adds history and new expressions.
-5. **46 b1-culture-french-republic and a2-culture-holidays-and-festivals.** The 14 juillet holiday is already in A2. The B1 plan covers only its history.
-6. **3 b1-ce-qui-ce-que and b2-mise-en-relief.** *Ce qui me plaît, c'est…* is in both. B1 introduces it as a pattern; B2 should build on it rather than reteach it.
-7. **52 b1-travel-problems and a2-travel-and-transport.** A2 already has *annulé*, *la correspondance* and *le vol*. The B1 vocab was chosen to avoid them.
-8. **10 b1-giving-advice, 8 b1-conditionnel-present and a2-il-faut-and-advice.** *Tu devrais* appears as a form in 8 and as advice in 10. The plan keeps the use in 10.
+**Still overlapping:**
+
+1. **30 b1-double-object-pronouns and a2-imperative-with-pronouns**: the imperative is revisited, not retaught.
+2. **51 b1-formal-email and 52 b1-making-a-complaint**: now in sequence. Lesson 52's written complaint applies 51's format rather than reteaching it.
+3. **58 b1-culture-quebec and a2-culture-francophone-world**: A2's three Québec words aren't repeated.
+4. **46 b1-culture-french-republic and a2-culture-holidays-and-festivals**: B1 covers only the history of the 14 juillet.
+5. **3 b1-ce-qui-ce-que and b2-mise-en-relief**: *ce qui me plaît, c'est…* is introduced in B1; B2 should build on it.
+6. **53 b1-travel-problems and a2-travel-and-transport**: B1 vocab avoids A2's *annulé*, *la correspondance* and *le vol*.
+7. **29 b1-job-interview and a2-depuis-pendant-il-y-a**: *il y a… que* (duration) sits next to A2's *il y a* (ago). The plan flags the contrast for review.
+8. **15 b1-telling-an-anecdote and c1-future-in-the-past**: B1 now teaches *j'allais* + infinitive for something about to happen; C1 keeps the wider future-in-the-past nuance.
 
 ---
 
@@ -233,26 +285,39 @@ None, before or after the changes at the top. Every B1 prerequisite is an earlie
 
 **Per unit**
 
-| Unit | Lessons |
-|---|---|
-| 1 Opinions and feelings | 6 |
-| 2 Hypotheses and wishes | 6 |
-| 3 Telling stories | 7 |
-| 4 The subjunctive | 7 |
-| 5 Work and careers | 8 |
-| 6 Media and technology | 7 |
-| 7 Society and environment | 6 |
-| 8 Home, money and problems | 6 |
-| 9 Food, culture and wrap-up | 6 |
-| **Total** | **59** |
-
-The plan matches the syllabus: 59 B1 lessons in 9 units, with the same type split as the size table.
+| Unit | Lessons | Orders |
+|---|---|---|
+| 1 Opinions and feelings | 6 | 1–6 |
+| 2 Hypotheses and wishes | 6 | 7–12 |
+| 3 Telling stories | 7 | 13–19 |
+| 4 The subjunctive | 7 | 20–26 |
+| 5 Work and careers | 8 | 27–34 |
+| 6 Media and technology | 7 | 35–41 |
+| 7 Society and environment | 6 | 42–47 |
+| 8 Home, money and problems | 7 | 48–54 |
+| 9 Food, culture and wrap-up | 5 | 55–59 |
+| **Total** | **59** | |
 
 **Against the B1 conventions:**
-- Every lesson plans 12 to 25 vocab entries: 894 in total, from 12 to 23 per lesson.
+- Non-review lessons plan 12 to 25 vocab entries. Review lessons plan 3 to 8 new words (the new rule), all used in the model, the task or an exercise. That's 845 entries in total, 58 of them in reviews.
 - All 13 communication lessons plan one longer text.
 - Every lesson names at least two production tasks.
-- Reviews were held to the 12-entry minimum, because they're mostly recycling. If you'd rather exempt reviews from the 12-entry rule, the A2 practice of three to five new words would fit them better.
+
+**Words removed from the review plans (new 3-to-8 rule):**
+
+| Review | Kept | Removed |
+|---|---|---|
+| b1-review-opinions (6) | 8 | *une réaction*, *un sujet*, *un argument*, *partager* |
+| b1-review-hypotheses (12) | 6 | *une hypothèse*, *un souhait*, *souhaiter*, *une décision*, *un dilemme*, *un rêveur / une rêveuse* |
+| b1-review-stories (19) | 6 | *un narrateur / une narratrice*, *marquant / marquante*, *une surprise*, *une aventure*, *vivre une aventure*, *captivant / captivante* |
+| b1-review-subjunctive (26) | 6 | *une liste*, *décorer*, *une décoration*, *une bougie*, *faire la fête*, *la date limite* |
+| b1-review-work (34) | 6 | *une promotion*, *une augmentation*, *progresser*, *la motivation*, *une réussite*, *un secteur* |
+| b1-review-media (41) | 6 | *un témoignage*, *une vidéo*, *la vie privée*, *les données*, *la désinformation*, *une capture d'écran* |
+| b1-review-society (47) | 6 | *une manifestation*, *manifester*, *un geste*, *une association*, *une campagne*, *durable* |
+| b1-review-home-money-problems (54) | 6 | *un litige*, *une erreur*, *facturer*, *la responsabilité*, *ci-joint* (now taught in 51), *une copie* |
+| b1-review-final (59) | 8 | *à l'aise*, *la compréhension*, *l'expression écrite*, *l'expression orale*, *Reliez.*, *Corrigez.* |
+
+Two review claims that quoted removed words (*un argument*, *une manifestation*) were dropped from the plans.
 
 ---
 
@@ -266,25 +331,23 @@ The plan matches the syllabus: 59 B1 lessons in 9 units, with the same type spli
 | 9 b1-si-imparfait-conditionnel | b2-si-plus-que-parfait, b2-mixed-conditionals |
 | 13 b1-plus-que-parfait | b2-si-plus-que-parfait, b2-reported-speech-past |
 | 14 b1-time-connectors | b2-infinitif-passe |
+| 15 b1-telling-an-anecdote (*j'allais* + infinitive) | b2-reported-speech-past (*aller* → *allait*) |
 | 20–25 the subjunctive | b2-subjunctive-conjunctions, b2-subjonctif-passe, b2-subjunctive-relative-clauses, b2-certainty-and-probability |
 | 25 b1-expressing-doubt-certainty | b2-nuancing-opinions, b2-certainty-and-probability |
-| 3 b1-ce-qui-ce-que | b2-mise-en-relief, b2-relative-prepositions (*ce à quoi*, *ce dont*) |
+| 3 b1-ce-qui-ce-que | b2-mise-en-relief, b2-relative-prepositions |
 | 4 b1-relative-dont | b2-relative-lequel |
 | 40 b1-interrogative-lequel | b2-relative-lequel |
 | 30 b1-double-object-pronouns | b2-faire-causatif, b2-idiomatic-y-en |
 | 37 b1-reported-speech-present | b2-reported-speech-past, b2-reported-questions-orders |
 | 38 b1-gerondif | b2-participles-and-gerund |
 | 39 b1-indefinite-pronouns | b2-tout |
+| 42 b1-environment (*de plus en plus*) | b2-presenting-data, b2-science-and-research |
 | 43 b1-cause-and-consequence | b2-concession-opposition, b2-logical-connectors |
 | 44 b1-passive-voice-intro | b2-passive-voice, b2-alternatives-to-passive |
 | 45 b1-presenting-an-argument | b2-nuancing-opinions, b2-argumentative-essay |
-| 57 b1-formal-email | b2-registers, b2-formal-report |
+| 51 b1-formal-email (*veuillez*) | b2-registers, b2-formal-report |
 
-**Structures the syllabus leaves out or places late (suggestions, not changes):**
-
-1. **The imparfait of *aller* and *venir de*** (*j'allais partir*, *il venait d'arriver*). Stories at B1 need them, and b2-reported-speech-past needs *aller* → *allait*. The syllabus first teaches them at C1 (c1-future-in-the-past), and *venir de* in the imparfait isn't taught anywhere. Suggest adding both to the scope of b1-plus-que-parfait or b1-telling-an-anecdote.
-2. **The formal imperative *veuillez* + infinitive**, and the imperative of *être*, *avoir* and *savoir* (*sois*, *aie*, *sache*). Formal letters (28, 57) need *veuillez*, and b2-registers assumes it. It isn't taught at any level. Suggest a short section in b1-formal-email.
-3. **The negative infinitive** (*je te conseille de ne pas partir*, *essaie de ne pas oublier*). Advice (10) and B2 regret need it, and nothing teaches it. Suggest adding it to b1-giving-advice.
-4. ***Ça fait… que* / *il y a… que*** for how long something has been going on, alongside *depuis*. It's very common in speech and not taught at any level. Suggest adding it to b1-job-interview.
-5. ***De plus en plus* / *de moins en moins*.** Needed for the environment (42), argument (45) and B2 data description (b2-presenting-data). Not taught. Suggest adding it to b1-environment or b1-cause-and-consequence.
-6. **Recognizing the passé simple.** B2 culture lessons (b2-culture-french-history, b2-arts-and-literature) will meet it in real texts, but it's only taught at C1 (c1-passe-simple). Suggest a recognition note in b1-culture-french-cinema or in B2, not a full lesson.
+**Gaps from the first pass:**
+- Resolved by the second pass: the imparfait of *aller* and *venir de*, *veuillez*, the negative infinitive, *ça fait… que* / *il y a… que*, and *de plus en plus*.
+- Left as decided: recognizing the passé simple stays at C1 (c1-passe-simple), with no B1 note. *Sois* and *aie* are already taught in a1-imperative.
+- No further gaps were found.

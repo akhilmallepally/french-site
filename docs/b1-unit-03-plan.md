@@ -10,7 +10,7 @@ Status: draft for approval. No lesson files written yet.
 - **Prerequisites:**
   - a2-passe-compose-vs-imparfait: the plus-que-parfait sits behind both past tenses.
 - **Teaches:** formation (imparfait of *avoir* / *être* + participle), the same auxiliary and agreement rules as the passé composé, reflexives (*je m'étais levé*), the past before the past, with *déjà* and *pas encore* (revisited from a2-time-expressions-past). Reuses: childhood memories, travel stories.
-- **Not yet taught:** *si* + plus-que-parfait (b2-si-plus-que-parfait): avoided. *Il venait de partir* (*venir de* in the imparfait) isn't in the syllabus: see the overview, section (g).
+- **Not yet taught:** *si* + plus-que-parfait (b2-si-plus-que-parfait): avoided. *Il venait de partir* (*venir de* in the imparfait) is taught in b1-telling-an-anecdote (15): avoided here.
 - **Vocab (13):**
   - *j'avais* + participle: I had (done)
   - *j'étais* + participle: I had (gone, arrived…)
@@ -36,7 +36,7 @@ Status: draft for approval. No lesson files written yet.
   - b1-plus-que-parfait: connectors order events, often across the plus-que-parfait.
 - **Teaches:** *quand*, *lorsque*, *pendant que*, *dès que* / *aussitôt que* (with the futur for the future), *au moment où*, *avant de* + infinitive, *après* + noun, *après avoir* + participle as a chunk, *jusqu'à*, *à partir de*. Reuses: anecdotes, daily routine.
 - **Not yet taught:** *après avoir / être* + participle as grammar (b2-infinitif-passe): fixed chunk, listed in review-needed.md. *avant que* + subjunctive (b2-subjunctive-conjunctions): avoided. The gérondif (b1-gerondif): avoided.
-- **Vocab (13):**
+- **Vocab (12):**
   - *lorsque*: when (more formal)
   - *pendant que*: while
   - *dès que*: as soon as
@@ -46,7 +46,6 @@ Status: draft for approval. No lesson files written yet.
   - *après avoir* + participle: after …ing (fixed phrase for now)
   - *jusqu'à*: until
   - *à partir de*: from
-  - *tout de suite*: straight away
   - *finalement*: in the end
   - *aussitôt*: immediately
   - *entre-temps*: in the meantime
@@ -60,16 +59,16 @@ Status: draft for approval. No lesson files written yet.
 - **Prerequisites:**
   - b1-time-connectors: the connectors that move the story on.
   - a2-telling-a-story: the scene-setting (imparfait) and events (passé composé) pattern.
-- **Teaches:** anecdote structure (setting, event, reaction, ending); building suspense (*et là…*, *tout à coup*, *figure-toi que*); listener reactions (*Ce n'est pas vrai !*, *Sans blague !*, *Et alors ?*); wrapping up (*bref*, *au final*).
+  - a2-venir-de-en-train-de: *venir de* + infinitive in the present, now put into the imparfait. It implies a1-near-future (*aller* + infinitive).
+- **Teaches:** anecdote structure (setting, event, reaction, ending); building suspense (*et là…*, *tout à coup*, *figure-toi que*); listener reactions (*Ce n'est pas vrai !*, *Sans blague !*, *Et alors ?*); wrapping up (*bref*, *au final*); *aller* in the imparfait + infinitive for something about to happen (*j'allais partir quand Karim est arrivé*); *venir de* in the imparfait for something that had just happened (*il venait d'arriver*).
 - **Not yet taught:** reported speech in the past (*il m'a dit que…*, b2-reported-speech-past): avoided. The anecdote uses direct speech instead.
-- **Vocab (17):**
+- **Vocab (18):**
   - *une anecdote*: an anecdote
   - *figure-toi que / figurez-vous que*: guess what, believe it or not
   - *et là*: and then, at that point
   - *Ce n'est pas vrai !*: No way!
   - *Sans blague !*: No kidding!
   - *Et alors ?*: And then what?
-  - *alors*: so, then
   - *bref*: anyway, in short
   - *au final*: in the end
   - *incroyable*: unbelievable
@@ -80,10 +79,12 @@ Status: draft for approval. No lesson files written yet.
   - *deviner*: to guess
   - *raconter*: to tell (a story)
   - *un fou rire*: a fit of giggles
+  - *j'allais* + infinitive: I was going to…, I was about to…
+  - *je venais de* + infinitive: I had just…
 - **Dialogue:** Léa tells Karim how she got locked out of her flat; he reacts at each step.
 - **Longer text:** A group-chat thread in which someone tells friends what happened at a wedding, with reactions after each message.
-- **Production tasks:** rewrite a flat story using connectors and reactions; write out a six-sentence anecdote from prompts.
-- **Needs review:** "*Figure-toi que* is informal." "*La honte !* is informal." "*Au final* is common in speech, but some people consider it incorrect."
+- **Production tasks:** rewrite a flat story using connectors and reactions; write out a six-sentence anecdote from prompts; translate "I was about to leave when Karim arrived."
+- **Needs review:** "*Figure-toi que* is informal." "*La honte !* is informal." "*Au final* is common in speech, but some people consider it incorrect." "*J'allais* + infinitive interrupted by the passé composé describes something that was about to happen." "*Venir de* in the imparfait means 'had just'."
 
 ## 16. b1-cinema-and-books: Cinema and books
 
@@ -182,17 +183,11 @@ Status: draft for approval. No lesson files written yet.
   - b1-telling-an-anecdote: the anecdote task.
   - b1-reviewing-a-film-or-book: the review task.
   - b1-culture-french-cinema: the film reviewed in the model.
-- **Vocab (12):**
+- **Vocab (6):**
   - *un récit*: an account, a story
-  - *un narrateur / une narratrice*: a narrator
   - *inoubliable*: unforgettable
-  - *marquant / marquante*: memorable, striking
   - *un moment fort*: a highlight
-  - *une surprise*: a surprise
-  - *une aventure*: an adventure
-  - *vivre une aventure*: to have an adventure
   - *un rebondissement*: a twist
-  - *captivant / captivante*: captivating
   - *dès le début*: from the start
   - *à la fin*: at the end
 - **Model text:** An anecdote about a trip where everything went wrong, then a six-sentence review of a French film.

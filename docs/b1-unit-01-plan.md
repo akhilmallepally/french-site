@@ -13,7 +13,7 @@ Format of each entry: vocab is French followed by the English gloss (respellings
   - a2-comparatives: opinions are often given by comparing two options (*c'est plus intéressant que…*). It implies a1-likes-and-dislikes, which the syllabus also listed.
 - **Teaches:** *à mon avis*, *selon moi*, *d'après moi*, *pour moi* (known from a1-ordering-at-a-cafe, now for opinions); *je pense que*, *je crois que*, *je trouve que* + indicative; *trouver* + noun + adjective (*je trouve ce film long*); asking: *qu'est-ce que tu en penses ?*, *tu trouves ?*; hedging with *ça dépend*.
 - **Not yet taught:** *je ne pense pas que* + subjunctive (b1-expressing-doubt-certainty). Avoided: negative opinions use *je ne suis pas d'accord* or *je trouve que… ne… pas*.
-- **Vocab (16):**
+- **Vocab (17):**
   - *à mon avis*: in my opinion
   - *selon moi*: in my view
   - *d'après moi*: as I see it
@@ -30,6 +30,7 @@ Format of each entry: vocab is French followed by the English gloss (respellings
   - *ennuyeux / ennuyeuse*: boring
   - *génial / géniale*: great, brilliant
   - *franchement*: honestly, frankly
+  - *une série*: a series, a TV series
 - **Dialogue:** Two flatmates compare their opinions of a new café and a TV series, each asking *qu'est-ce que tu en penses ?*.
 - **Longer text:** A group-chat thread in which four friends choose a weekend activity, each giving a reasoned opinion.
 - **Production tasks:** translate two opinion sentences; write out a short paragraph about your town using three different opinion markers.
@@ -42,7 +43,7 @@ Format of each entry: vocab is French followed by the English gloss (respellings
   - b1-expressing-opinions: you agree or disagree with the opinions built there.
 - **Teaches:** *je suis d'accord (avec toi)* / *je ne suis pas d'accord*; *tu as raison* / *tu as tort*; *c'est vrai*, *tout à fait*, *absolument*, *pas du tout*; partial agreement (*oui, mais…*, *ce n'est pas faux*, *d'un côté… de l'autre*); *moi si* (with *moi aussi* and *moi non plus* revisited from a2-stressed-pronouns); *je ne suis pas sûr / sûre* on its own.
 - **Not yet taught:** *je ne suis pas sûr que* + subjunctive (b1-expressing-doubt-certainty). Avoided.
-- **Vocab (17):**
+- **Vocab (18):**
   - *être d'accord (avec)*: to agree (with)
   - *avoir raison*: to be right
   - *avoir tort*: to be wrong
@@ -57,9 +58,10 @@ Format of each entry: vocab is French followed by the English gloss (respellings
   - *moi si*: I do, I am (contradicting a negative)
   - *au contraire*: on the contrary
   - *exactement*: exactly
-  - *bien sûr*: of course
   - *d'un côté… de l'autre*: on the one hand… on the other
   - *un désaccord*: a disagreement
+  - *ouvrir*: to open
+  - *seul / seule*: only, alone
 - **Dialogue:** Two colleagues (*vous*) disagree politely about working from home, ending in partial agreement.
 - **Longer text:** A forum thread on whether shops should open on Sundays, with three replies that agree, disagree and half agree.
 - **Production tasks:** translate "I don't agree with you at all"; write a three-sentence reply that partly agrees.
@@ -72,7 +74,7 @@ Format of each entry: vocab is French followed by the English gloss (respellings
   - a2-relative-qui-que-ou: *ce qui* and *ce que* extend *qui* and *que*.
 - **Teaches:** *ce qui* (subject) and *ce que* (object) for "what"; *ce qui me plaît, c'est…*; *ce que j'aime, c'est…*; *tout ce qui* / *tout ce que*; elision *ce qu'il*. Reuses: opinions.
 - **Not yet taught:** indirect questions (*je ne sais pas ce que tu veux*) belong to b1-reported-speech-present: avoided here. *ce dont* belongs to B2 (b2-relative-prepositions): avoided.
-- **Vocab (14):**
+- **Vocab (13):**
   - *ce qui*: what (as subject)
   - *ce que / ce qu'*: what (as object)
   - *tout ce qui*: everything that (as subject)
@@ -85,7 +87,6 @@ Format of each entry: vocab is French followed by the English gloss (respellings
   - *choquer*: to shock
   - *gêner*: to bother
   - *surprendre*: to surprise
-  - *comprendre*: to understand
   - *la vérité*: the truth
 - **Dialogue:** Two friends leaving a concert say what they liked and what bothered them.
 - **Short text:** A blog paragraph, *Ce que j'aime à Lyon*.
@@ -162,19 +163,15 @@ Format of each entry: vocab is French followed by the English gloss (respellings
   - b1-relationships: the topic of the model (friendship).
 - **Teaches:** the shape of an opinion piece (position, two reasons with examples, conclusion) and of a reply that disagrees.
 - **Not yet taught:** *je ne pense pas que* + subjunctive: avoided.
-- **Vocab (12):**
+- **Vocab (8):**
   - *un texte d'opinion*: an opinion piece
   - *un lecteur / une lectrice*: a reader
   - *réagir*: to react
-  - *une réaction*: a reaction
+  - *convaincre*: to convince
+  - *convaincant / convaincante*: convincing
   - *de plus*: moreover
   - *par exemple*: for example
   - *en conclusion*: in conclusion
-  - *convaincre*: to convince
-  - *convaincant / convaincante*: convincing
-  - *un sujet*: a topic
-  - *un argument*: an argument, a point
-  - *partager*: to share
 - **Model text:** An opinion piece answering "Is it better to have many friends or a few close friends?", followed by a reader's reply that disagrees.
 - **Production tasks:** the writing task itself; one write-out paragraph exercise; translate a disagreeing sentence.
-- **Needs review:** "*Un argument* means a point in a discussion, not a quarrel."
+- **Needs review:** none beyond the unit's lessons.

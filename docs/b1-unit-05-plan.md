@@ -45,7 +45,7 @@ Status: draft for approval. No lesson files written yet.
   - b1-careers-and-job-hunting: the vocabulary of applications.
   - b1-conditionnel-present: *je serais ravi de…*, *je pourrais…*.
 - **Teaches:** French CV conventions (one page; *expérience professionnelle*, *formation*, *compétences*, *centres d'intérêt*); the *lettre de motivation* (you, me, us structure); formulas: *Madame, Monsieur,*, *Je me permets de vous adresser ma candidature au poste de…*, *Je me tiens à votre disposition pour un entretien*, *Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées*.
-- **Not yet taught:** *En vous remerciant de votre attention* (the gérondif, b1-gerondif): replaced by *Je vous remercie de votre attention*. *Veuillez agréer…* (imperative of *vouloir*): fixed phrase. *Je vous prie d'agréer…*: fixed phrase. Both go in review-needed.md.
+- **Not yet taught:** *En vous remerciant de votre attention* (the gérondif, b1-gerondif): replaced by *Je vous remercie de votre attention*. *Veuillez agréer…* (imperative of *vouloir*): fixed phrase; b1-formal-email (51) explains *veuillez* + infinitive. *Je vous prie d'agréer…*: fixed phrase. Both go in review-needed.md.
 - **Vocab (17):**
   - *une lettre de motivation*: a cover letter
   - *Madame, Monsieur,*: Dear Sir or Madam,
@@ -74,9 +74,9 @@ Status: draft for approval. No lesson files written yet.
 - **Type:** communication · **Order:** 29
 - **Prerequisites:**
   - b1-cover-letter: the interview follows the application, and repeats its formal register. It implies a2-depuis-pendant-il-y-a, which the syllabus also listed.
-- **Teaches:** presenting experience (*je travaille depuis…*, *j'ai travaillé pendant…*, *j'ai été chargé de…*); strengths and weaknesses; questions to ask; *vous* throughout; the conditionnel for availability (*je pourrais commencer en septembre*).
+- **Teaches:** presenting experience (*je travaille depuis…*, *j'ai travaillé pendant…*, *j'ai été chargé de…*); duration with *ça fait… que* and *il y a… que* + present, alongside *depuis* (*ça fait deux ans que je travaille ici*); strengths and weaknesses; questions to ask; *vous* throughout; the conditionnel for availability (*je pourrais commencer en septembre*).
 - **Not yet taught:** the gérondif (*en travaillant*): avoided.
-- **Vocab (16):**
+- **Vocab (18):**
   - *un entretien d'embauche*: a job interview
   - *un recruteur / une recruteuse*: a recruiter
   - *se présenter*: to introduce yourself
@@ -93,10 +93,12 @@ Status: draft for approval. No lesson files written yet.
   - *un défi*: a challenge
   - *évoluer*: to progress (in a job)
   - *Parlez-moi de vous.*: Tell me about yourself.
+  - *ça fait … que*: it's been … since, for … (and still)
+  - *il y a … que*: for … (and still)
 - **Dialogue:** An interview for an assistant job at a travel agency, *vous* throughout (8 to 10 lines).
 - **Longer text:** A follow-up email after the interview, thanking the recruiter.
-- **Production tasks:** translate "I have been working here for two years."; write out answers to two interview questions.
-- **Needs review:** "*Parlez-moi de vous* is a typical opening question." "Candidates use *vous* throughout, even with a young recruiter."
+- **Production tasks:** translate "I have been working here for two years." (three accepted answers: *depuis*, *ça fait… que*, *il y a… que*); write out answers to two interview questions.
+- **Needs review:** "*Parlez-moi de vous* is a typical opening question." "*Ça fait… que* and *il y a… que* + present mean the same as *depuis* for something still going on; *il y a* without *que* means 'ago'." "Candidates use *vous* throughout, even with a young recruiter."
 
 ## 30. b1-double-object-pronouns: Double object pronouns
 
@@ -205,18 +207,12 @@ Status: draft for approval. No lesson files written yet.
   - b1-job-interview: the interview answers.
   - b1-double-object-pronouns, b1-possessive-pronouns, b1-demonstrative-pronouns: the unit's three grammar lessons, none of which implies another.
   - b1-culture-work-life: workplace customs in the model.
-- **Vocab (12):**
+- **Vocab (6):**
   - *une reconversion*: a career change
   - *se reconvertir*: to change career
-  - *une promotion*: a promotion
-  - *une augmentation*: a pay rise
-  - *ambitieux / ambitieuse*: ambitious
   - *une qualité*: a strength, a good quality
   - *un défaut*: a flaw
-  - *progresser*: to improve
-  - *la motivation*: motivation
-  - *une réussite*: a success
-  - *un secteur*: a sector, a field
+  - *ambitieux / ambitieuse*: ambitious
   - *une librairie*: a bookshop
 - **Model text:** A cover letter for a job in a bookshop, and three prepared interview answers.
 - **Production tasks:** the writing task; one write-out paragraph; one translation using a double pronoun.

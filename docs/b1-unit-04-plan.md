@@ -2,7 +2,7 @@
 
 Status: draft for approval. No lesson files written yet.
 
-The unit teaches the forms first (20, 22), then the triggers (21, 23, 25), then the choice between subjunctive and infinitive (24). See the overview, section (e), for the overlap between 20 and 21 and the irregular-verb problem in 21.
+The unit teaches the regular forms (20) and the irregular forms (21) first, then the triggers (22, 23, 25), then the choice between subjunctive and infinitive (24). Lessons 20 and 21 use *il faut que* only as a frame for the forms; lesson 22 teaches the impersonal triggers with every verb.
 
 ---
 
@@ -11,7 +11,7 @@ The unit teaches the forms first (20, 22), then the triggers (21, 23, 25), then 
 - **Type:** grammar · **Order:** 20
 - **Prerequisites:**
   - a2-il-faut-and-advice: *il faut* + infinitive becomes *il faut que* + subjunctive. It implies a2-irregular-verbs-present (the *ils* stems), which the syllabus also listed.
-- **Teaches:** what a mood is (indicative versus subjunctive); regular formation: the *ils* stem of the present + *-e, -es, -e, -ions, -iez, -ent*; *nous* and *vous* look like the imparfait; two-stem verbs (*prendre*, *venir*, *boire*, *acheter*, *appeler*); *il faut que* is the only trigger in this lesson. Reuses: advice, health.
+- **Teaches:** what a mood is (indicative versus subjunctive); regular formation: the *ils* stem of the present + *-e, -es, -e, -ions, -iez, -ent*; *nous* and *vous* look like the imparfait; two-stem verbs (*prendre*, *venir*, *boire*, *acheter*, *appeler*). *Il faut que* appears only as a frame, with regular verbs; lesson 22 teaches it and the other triggers properly. Reuses: advice, health.
 - **Not yet taught:** the irregular subjunctives (*être*, *avoir*, *aller*, *faire*…, b1-subjonctif-irregular): avoided.
 - **Vocab (13):**
   - *que je parle / que tu parles / qu'il parle*: that I / you / he speak(s)
@@ -31,38 +31,12 @@ The unit teaches the forms first (20, 22), then the triggers (21, 23, 25), then 
 - **Production tasks:** translate "You have to finish your homework." with *il faut que*; rewrite three *il faut* + infinitive sentences with a named person.
 - **Needs review:** "The subjunctive stem comes from the *ils* form of the present." "For most verbs, the *nous* and *vous* forms look like the imparfait." "Many -er forms sound the same in the present and the subjunctive."
 
-## 21. b1-subjonctif-necessity: Subjunctive after il faut que
+## 21. b1-subjonctif-irregular: Irregular subjunctives
 
 - **Type:** grammar · **Order:** 21
 - **Prerequisites:**
-  - b1-subjonctif-formation: the forms.
-- **Teaches:** *il faut que*, *il ne faut pas que*, *il est important / nécessaire / essentiel / indispensable que*, *il vaut mieux que*, *il suffit que*; the choice between *il faut* + infinitive (general) and *il faut que* (a named person). Reuses: household chores, work.
-- **Not yet taught:** irregular subjunctives (b1-subjonctif-irregular): avoided, so examples use regular and two-stem verbs only. This rules out *il faut que je fasse*, the most frequent example: see the overview, section (e).
-- **Vocab (14):**
-  - *il ne faut pas que*: someone mustn't
-  - *il est important que*: it's important that
-  - *il est nécessaire que*: it's necessary that
-  - *il est essentiel que*: it's essential that
-  - *il est indispensable que*: it's vital that
-  - *il vaut mieux que*: it's better that
-  - *il suffit que*: all that's needed is that
-  - *les tâches ménagères*: the household chores
-  - *partager les tâches*: to share the chores
-  - *repasser*: to iron
-  - *arroser les plantes*: to water the plants
-  - *nourrir le chat*: to feed the cat
-  - *un / une colocataire*: a flatmate
-  - *un planning*: a rota, a schedule
-- **Dialogue:** Flatmates draw up a chore rota: *il faut que quelqu'un sorte les poubelles le lundi*.
-- **Production tasks:** rewrite sentences with *il est important que*; translate "We mustn't forget the keys."
-- **Needs review:** "*Il ne faut pas que* means 'must not', never 'don't have to'." "*Il vaut mieux que* and *il suffit que* take the subjunctive."
-
-## 22. b1-subjonctif-irregular: Irregular subjunctives
-
-- **Type:** grammar · **Order:** 22
-- **Prerequisites:**
-  - b1-subjonctif-necessity: the triggers the new forms go after.
-- **Teaches:** *être* (*sois, soit, soyons, soyez, soient*), *avoir* (*aie, ait, ayons, ayez, aient*), *aller* (*aille, allions*), *faire* (*fasse*), *pouvoir* (*puisse*), *savoir* (*sache*), *vouloir* (*veuille, voulions*), *pleuvoir* (*qu'il pleuve*). Reuses: chores, travel plans.
+  - b1-subjonctif-formation: the irregular forms take the same endings as the regular ones.
+- **Teaches:** *être* (*sois, soit, soyons, soyez, soient*), *avoir* (*aie, ait, ayons, ayez, aient*), *aller* (*aille, allions*), *faire* (*fasse*), *pouvoir* (*puisse*), *savoir* (*sache*), *vouloir* (*veuille, voulions*), *pleuvoir* (*qu'il pleuve*). As in lesson 20, *il faut que* is the frame for the examples. Reuses: chores, travel plans.
 - **Not yet taught:** none.
 - **Vocab (13):**
   - *que je sois / que tu sois / qu'il soit*: that I / you / he be
@@ -82,11 +56,37 @@ The unit teaches the forms first (20, 22), then the triggers (21, 23, 25), then 
 - **Production tasks:** translate "You have to be ready at eight."; write out a checklist paragraph with five irregular subjunctives.
 - **Needs review:** "*Que j'aie* and *qu'il ait* sound like *ai*." "*Que nous ayons* has no *i* after the *y*."
 
+## 22. b1-subjonctif-necessity: Subjunctive after il faut que
+
+- **Type:** grammar · **Order:** 22
+- **Prerequisites:**
+  - b1-subjonctif-irregular: the triggers are practised with every verb, including the irregular forms. It implies b1-subjonctif-formation.
+- **Teaches:** *il faut que*, *il ne faut pas que*, *il est important / nécessaire / essentiel / indispensable que*, *il vaut mieux que*, *il suffit que*; the choice between *il faut* + infinitive (general) and *il faut que* (a named person); every verb, including *il faut que je fasse* and *il est important que tu sois là*. Reuses: household chores, work.
+- **Not yet taught:** none.
+- **Vocab (14):**
+  - *il ne faut pas que*: someone mustn't
+  - *il est important que*: it's important that
+  - *il est nécessaire que*: it's necessary that
+  - *il est essentiel que*: it's essential that
+  - *il est indispensable que*: it's vital that
+  - *il vaut mieux que*: it's better that
+  - *il suffit que*: all that's needed is that
+  - *les tâches ménagères*: the household chores
+  - *partager les tâches*: to share the chores
+  - *repasser*: to iron
+  - *arroser les plantes*: to water the plants
+  - *nourrir le chat*: to feed the cat
+  - *un / une colocataire*: a flatmate
+  - *un planning*: a rota, a schedule
+- **Dialogue:** Flatmates draw up a chore rota: *il faut que quelqu'un sorte les poubelles le lundi et que tu fasses les courses*.
+- **Production tasks:** rewrite sentences with *il est important que*; translate "We mustn't forget the keys."
+- **Needs review:** "*Il ne faut pas que* means 'must not', never 'don't have to'." "*Il vaut mieux que* and *il suffit que* take the subjunctive."
+
 ## 23. b1-subjonctif-wishes-emotions: Subjunctive after wishes and emotions
 
 - **Type:** grammar · **Order:** 23
 - **Prerequisites:**
-  - b1-subjonctif-irregular: emotions often use *être* and *avoir* (*je suis content que tu sois là*).
+  - b1-subjonctif-necessity: the last lesson on forms and triggers; it implies b1-subjonctif-irregular, whose *être* and *avoir* forms emotions often need (*je suis content que tu sois là*).
   - b1-relationships: the examples are about family and friends.
 - **Teaches:** *vouloir que*, *souhaiter que*, *aimer mieux que*, *préférer que*, *j'aimerais que*; *être content / heureux / triste / surpris que*, *regretter que*, *avoir peur que*, *c'est dommage que*. Reuses: relationships, emotions.
 - **Not yet taught:** the subjonctif passé (*je suis content que tu sois venu*, b2-subjonctif-passe): avoided. Reactions stay in the present.
@@ -165,19 +165,13 @@ The unit teaches the forms first (20, 22), then the triggers (21, 23, 25), then 
 - **Prerequisites:**
   - b1-expressing-doubt-certainty: the last lesson of the unit, which implies the rest.
 - **Teaches:** mixed practice choosing the indicative, the subjunctive or the infinitive.
-- **Vocab (12):**
+- **Vocab (6):**
   - *organiser une fête*: to organize a party
   - *une fête surprise*: a surprise party
   - *un invité / une invitée*: a guest
-  - *une liste*: a list
-  - *décorer*: to decorate
-  - *une décoration*: a decoration
-  - *une bougie*: a candle
   - *souffler les bougies*: to blow out the candles
-  - *faire la fête*: to party
   - *se charger de*: to take care of
   - *garder le secret*: to keep the secret
-  - *la date limite*: the deadline
 - **Model text:** An email to friends organizing a surprise party, using *il faut que*, *je veux que*, *je doute que* and *je suis sûr que*.
 - **Production tasks:** one write-out paragraph; the mood-choice exercises; one translation.
 - **Needs review:** none beyond the unit's lessons.

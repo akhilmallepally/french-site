@@ -177,19 +177,13 @@ Status: draft for approval. No lesson files written yet.
 - **Type:** review · **Order:** 41
 - **Prerequisites:**
   - b1-media-and-news, b1-technology-and-internet, b1-reported-speech-present, b1-gerondif, b1-indefinite-pronouns, b1-interrogative-lequel: the unit's six lessons, none of which implies another (six is the maximum).
-- **Vocab (12):**
+- **Vocab (6):**
   - *un fait divers*: a news item (crime, accidents, oddities)
-  - *un témoignage*: a testimony, an account
   - *devenir viral*: to go viral
-  - *une vidéo*: a video
-  - *la vie privée*: privacy
-  - *les données*: data
-  - *la désinformation*: disinformation
   - *vérifier*: to check
-  - *une capture d'écran*: a screenshot
-  - *signaler*: to report (a post)
-  - *un internaute / une internaute*: an internet user
   - *partager une publication*: to share a post
+  - *un internaute / une internaute*: an internet user
+  - *signaler*: to report (a post)
 - **Model text:** A short news item about a lost dog found thanks to social media, then a report of what it says and a reaction.
 - **Production tasks:** report the news item in writing (write-out); one translation; one reorder.
 - **Needs review:** "*Un fait divers* covers minor crime, accidents and odd stories."
