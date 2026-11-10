@@ -1,0 +1,3973 @@
+# All lesson data
+
+105 written lessons, in course order.
+
+## a1-greetings
+
+### Vocab
+
+fr | pron | en | note
+
+- bonjour | bohn-ZHOOR | hello / good day | —
+- bonsoir | bohn-SWAHR | good evening | —
+- salut | sah-LEW | hi / bye (informal) | —
+- au revoir | oh ruh-VWAHR | goodbye | —
+- merci | mehr-SEE | thank you | —
+- s'il vous plaît | seel voo PLEH | please (formal) | —
+- s'il te plaît | seel tuh PLEH | please (informal) | —
+- bonne soirée | bonn swah-RAY | have a good evening | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-greetings-ex001 | multiple-choice | You walk into a bakery in the morning. What do you say first? | ["Bonjour, madame !","Salut !","Au revoir !"] | ["Bonjour, madame !"] | false | Bonjour is the right greeting for a shopkeeper. Salut is too familiar for someone you don't know, and au revoir is goodbye.
+- a1-greetings-ex002 | multiple-choice | Which greeting should you keep for friends and family? | ["bonjour","salut","bonsoir"] | ["salut"] | false | Salut is informal. Saying it to a stranger can sound too familiar.
+- a1-greetings-ex003 | multiple-choice | You arrive at a restaurant at eight in the evening. How do you greet the staff? | ["Bonsoir !","Bonne soirée !","Salut !"] | ["Bonsoir !"] | false | Bonsoir is the greeting for arriving in the evening. Bonne soirée is what you say when wishing someone a good evening as you leave.
+- a1-greetings-ex004 | multiple-choice | You're leaving a shop at night. Which phrase wishes the shopkeeper a good evening? | ["Bonne soirée !","Merci !","Bonjour !"] | ["Bonne soirée !"] | false | Bonne soirée means 'have a good evening'.
+- a1-greetings-ex005 | multiple-choice | How do you say 'please' to a friend? | ["s'il te plaît","s'il vous plaît","merci"] | ["s'il te plaît"] | false | S'il te plaît is the informal version. S'il vous plaît is the formal one.
+- a1-greetings-ex006 | fill-in | Un café, s'il vous ___. (A coffee, please.) | — | ["plaît"] | false | S'il vous plaît is the formal way to say please, the right choice with a waiter.
+- a1-greetings-ex007 | fill-in | ___, au revoir ! (Thank you, goodbye!) | — | ["Merci"] | false | Merci means thank you.
+- a1-greetings-ex008 | fill-in | Au ___ ! (Goodbye!) | — | ["revoir"] | false | Au revoir is written as two words.
+- a1-greetings-ex009 | translate | Write in French, speaking to a waiter: A coffee, please. | — | ["Un café, s'il vous plaît"] | false | Use s'il vous plaît with a waiter, because it's the formal version.
+- a1-greetings-ex010 | translate | Write in French, speaking to a friend: Hi! | — | ["Salut","Bonjour"] | false | Salut is the natural choice with a friend. Bonjour is fine too: nobody will be offended by it.
+- a1-greetings-ex011 | translate | Write in French: Hello, ma'am! | — | ["Bonjour, madame"] | false | Bonjour is the polite greeting, and French often adds madame or monsieur after it.
+
+## a1-alphabet-and-accents
+
+### Vocab
+
+fr | pron | en | note
+
+- A | ah | the letter A | —
+- B | bay | the letter B | —
+- C | say | the letter C | —
+- D | day | the letter D | —
+- E | uh | the letter E | Not 'ee'. That's the French I.
+- F | ef | the letter F | —
+- G | zhay | the letter G | Sounds like English J's name.
+- H | ash | the letter H | Almost always silent inside words.
+- I | ee | the letter I | —
+- J | zhee | the letter J | Sounds like English G's name.
+- K | kah | the letter K | —
+- L | el | the letter L | —
+- M | em | the letter M | —
+- N | en | the letter N | —
+- O | oh | the letter O | —
+- P | pay | the letter P | —
+- Q | kew | the letter Q | —
+- R | air | the letter R | —
+- S | ess | the letter S | —
+- T | tay | the letter T | —
+- U | ew | the letter U | Say 'ee' with your lips rounded.
+- V | vay | the letter V | —
+- W | doo-bluh-VAY | the letter W | Literally 'double V'.
+- X | eeks | the letter X | —
+- Y | ee-GREK | the letter Y | Literally 'Greek I'.
+- Z | zed | the letter Z | —
+- l'accent aigu (é) | lak-sahn tay-GEW | acute accent | —
+- l'accent grave (è, à, ù) | lak-sahn GRAHV | grave accent | —
+- l'accent circonflexe (ê, â, î, ô, û) | lak-sahn seer-kohn-FLEKS | circumflex | —
+- la cédille (ç) | lah say-DEE | cedilla | —
+- le tréma (ë, ï) | luh tray-MAH | diaeresis (two dots) | —
+- l'alphabet | lal-fah-BAY | the alphabet | —
+- une lettre | ewn LET-ruh | a letter | —
+- une majuscule | ewn mah-zhew-SKEWL | a capital letter | —
+- une minuscule | ewn mee-new-SKEWL | a small (lowercase) letter | —
+- Ça s'écrit comment ? | sah say-KREE koh-MAHN | How do you spell that? | Literally 'How does that write itself?'
+- Vous pouvez épeler, s'il vous plaît ? | voo poo-VAY ay-puh-LAY seel voo PLEH | Can you spell it, please? | —
+- deux L | duh ZEL | double L (two Ls) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-alphabet-and-accents-ex001 | multiple-choice | In French, the letter name 'gé' belongs to which letter? | ["G","J"] | ["G"] | false | G is 'gé' and J is 'ji'. It's the opposite of what English speakers expect, so it's worth learning these two as a pair.
+- a1-alphabet-and-accents-ex002 | multiple-choice | Which letter is called 'i grec' (Greek I) in French? | ["I","Y","G"] | ["Y"] | false | Y is 'i grec', literally 'Greek I'.
+- a1-alphabet-and-accents-ex003 | multiple-choice | Which letter is called 'double vé' in French? | ["V","W","U"] | ["W"] | false | French calls W 'double V', where English says 'double U'.
+- a1-alphabet-and-accents-ex004 | fill-in | Ça s'___ comment ? (How do you spell that?) | — | ["écrit"] | false | Ça s'écrit comment ? literally means 'How does that write itself?'. It's the everyday way to ask how something is spelled.
+- a1-alphabet-and-accents-ex005 | multiple-choice | Which accent is on the e in 'café'? | ["accent aigu","accent grave","accent circonflexe"] | ["accent aigu"] | false | é, with the mark leaning right, is the accent aigu (acute accent).
+- a1-alphabet-and-accents-ex006 | multiple-choice | Which accent only ever appears on the letter e? | ["accent aigu","accent grave","accent circonflexe"] | ["accent aigu"] | false | The accent aigu is only used on e (é). The grave accent also appears on a and u (à, où), and the circumflex can sit on any vowel.
+- a1-alphabet-and-accents-ex007 | multiple-choice | Why does 'ça' have a cédille under the c? | ["So the c sounds like s","So the c sounds like k","To show a letter that disappeared"] | ["So the c sounds like s"] | false | Before a, o and u, a plain c sounds like k (café). The cédille turns it into an s sound: ça, garçon, français.
+- a1-alphabet-and-accents-ex008 | multiple-choice | 'ou' means 'or'. What does 'où' mean? | ["where","who","when"] | ["where"] | false | The grave accent on où doesn't change the sound. It tells two different words apart: ou (or) and où (where).
+- a1-alphabet-and-accents-ex009 | translate | Write in French: It's spelled with two Ls. | — | ["Ça s'écrit avec deux L","Cela s'écrit avec deux L","Ça s'écrit avec 2 L","Ça s'écrit avec double L","Ça s'écrit avec un double L"] | false | French usually counts the letters: 'deux L', two Ls. 'Double L' is accepted too. Ça is the everyday word for 'that/it'; cela is a more formal version.
+- a1-alphabet-and-accents-ex010 | multiple-choice | The circumflex in 'forêt' (forest) often marks… | ["an s that used to be written there","a stressed syllable","a silent letter after it"] | ["an s that used to be written there"] | false | Many circumflexes stand where an s was written in older French. English often kept the s: forêt and forest, hôpital and hospital, fête and feast.
+- a1-alphabet-and-accents-ex011 | multiple-choice | The tréma in 'Noël' tells you to… | ["say the o and the e separately","make the e silent","say the word louder"] | ["say the o and the e separately"] | false | The two dots (tréma) mean the vowel is pronounced on its own instead of blending with the one before it: No-ël, na-ïf.
+
+## a1-introducing-yourself
+
+### Vocab
+
+fr | pron | en | note
+
+- Je m'appelle… | zhuh mah-PEL | My name is… | Literally 'I call myself…'
+- Moi, c'est… | mwah, SEH | I'm… (casual) | —
+- Tu t'appelles comment ? / Comment tu t'appelles ? | tew tah-PEL koh-MAHN / koh-MAHN tew tah-PEL | What's your name? (informal) | —
+- Comment vous appelez-vous ? / Vous vous appelez comment ? | koh-mahn voo zah-play VOO / voo voo zah-PLAY koh-MAHN | What's your name? (polite) | Comment vous appelez-vous ? is the more formal form.
+- Enchanté / Enchantée | ahn-shahn-TAY | Nice to meet you | Write enchantée if you're a woman. It sounds the same.
+- Et toi ? | ay TWAH | And you? (informal) | —
+- Et vous ? | ay VOO | And you? (formal, or to several people) | —
+- Voici… | vwah-SEE | This is… / Here is… | —
+- Je te présente… | zhuh tuh pray-ZAHNT | Let me introduce… (to one person you know well) | —
+- Je vous présente… | zhuh voo pray-ZAHNT | Let me introduce… (formal, or to several people) | —
+- le prénom | luh pray-NOHN | first name | —
+- le nom (de famille) | luh NOHN (duh fah-MEE) | surname, family name | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-introducing-yourself-ex001 | translate | Write in French: My name is Paul. | — | ["Je m'appelle Paul","Moi, c'est Paul","Je suis Paul","Mon nom est Paul","Mon prénom est Paul","Mon prénom, c'est Paul"] | false | Je m'appelle Paul is the most natural choice. Moi, c'est Paul is relaxed and friendly. Je suis Paul and Mon nom est Paul are correct too, though they're less common in conversation.
+- a1-introducing-yourself-ex002 | multiple-choice | You meet your friend's grandmother for the first time. How do you ask her name? | ["Tu t'appelles comment ?","Comment vous appelez-vous ?","Et toi ?"] | ["Comment vous appelez-vous ?"] | false | With an older person you've just met, use the formal vous form. Tu would sound too familiar.
+- a1-introducing-yourself-ex003 | fill-in | Bonjour ! Je m'___ Sophie. | — | ["appelle"] | false | Je m'appelle: m' (myself) plus appelle (call), spelled with two Ls. The full phrase means 'I call myself'.
+- a1-introducing-yourself-ex004 | fill-in | Comment vous ___-vous ? (formal: What's your name?) | — | ["appelez"] | false | With vous the verb is appelez, spelled with one L. Compare je m'appelle, which has two.
+- a1-introducing-yourself-ex005 | multiple-choice | Someone says: 'Je m'appelle Lucas, et toi ?' What do they want to know? | ["Your name","How you are","Where you live"] | ["Your name"] | false | Et toi ? (And you?) after giving their own name is an invitation to give yours.
+- a1-introducing-yourself-ex006 | translate | Write in French, speaking to a friend: What's your name? | — | ["Tu t'appelles comment ?","Comment tu t'appelles ?","Comment t'appelles-tu ?","Quel est ton prénom ?","Quel est ton nom ?","C'est quoi ton prénom ?","C'est quoi ton nom ?"] | false | Tu t'appelles comment ? is the most common everyday version. Comment t'appelles-tu ? is correct but more careful. C'est quoi ton prénom ? is very casual.
+- a1-introducing-yourself-ex007 | multiple-choice | Claire is writing 'Nice to meet you' in a message. Which spelling is correct for her? | ["Enchanté","Enchantée"] | ["Enchantée"] | false | A woman writes enchantée with an extra -e. Both spellings are pronounced the same.
+- a1-introducing-yourself-ex008 | multiple-choice | On a form, which word means 'first name'? | ["le prénom","le nom","la famille"] | ["le prénom"] | false | Le prénom is your first name. Le nom, or le nom de famille, is your surname.
+- a1-introducing-yourself-ex009 | translate | Write in French, speaking formally: And you? | — | ["Et vous ?"] | false | Et vous ? is the formal version. With friends, say Et toi ?
+- a1-introducing-yourself-ex010 | translate | You're introducing your friend Léa to another friend. Write in French: This is Léa. | — | ["Voici Léa","Je te présente Léa","C'est Léa"] | false | Voici Léa and C'est Léa are simple and natural. Je te présente Léa is slightly more of an occasion. Use te because you're speaking to one friend.
+- a1-introducing-yourself-ex011 | multiple-choice | Which reply fits best after 'Bonjour, je m'appelle Marc.'? | ["Enchantée ! Moi, c'est Julie.","Au revoir, Marc !","Merci, Marc."] | ["Enchantée ! Moi, c'est Julie."] | false | Respond with 'nice to meet you' and your own name. Au revoir is goodbye, and merci is thank you.
+- a1-introducing-yourself-ex012 | reorder | Put the words in order (a woman speaking): Nice to meet you, I'm Julie. | — | ["Enchantée, moi c'est Julie"] | false | A woman writes enchantée, with -e, and moi, c'est comes before your name.
+
+## a1-subject-pronouns
+
+### Vocab
+
+fr | pron | en | note
+
+- je (j') | zhuh | I | Becomes j' before a vowel or a silent h.
+- tu | tew | you (one person, informal) | —
+- il | eel | he, it | —
+- elle | el | she, it | —
+- on | ohn | we (casual), people in general, one | —
+- nous | noo | we | —
+- vous | voo | you (formal, or more than one person) | —
+- ils | eel | they (men, or a mixed group) | Usually sounds just like il.
+- elles | el | they (women only) | Usually sounds just like elle.
+- tutoyer | tew-twah-YAY | to call someone tu | —
+- vouvoyer | voo-vwah-YAY | to call someone vous | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-subject-pronouns-ex001 | multiple-choice | Which pronoun replaces 'Paul et Marie'? | ["ils","elles","il"] | ["ils"] | false | A group with at least one man takes ils, even if most of the group are women.
+- a1-subject-pronouns-ex002 | multiple-choice | Which pronoun replaces 'Marie et Sophie'? | ["ils","elles","elle"] | ["elles"] | false | Elles is only for groups made up entirely of women (or entirely of feminine nouns).
+- a1-subject-pronouns-ex003 | multiple-choice | You're speaking to a hotel receptionist you've never met. Which 'you' do you use? | ["tu","vous"] | ["vous"] | false | With strangers and in any service or professional situation, use vous.
+- a1-subject-pronouns-ex004 | multiple-choice | You're speaking to two close friends at the same time. Which 'you' do you use? | ["tu","vous"] | ["vous"] | false | Tu only ever means one person. As soon as you're talking to more than one person, it's vous, even with friends.
+- a1-subject-pronouns-ex005 | multiple-choice | You're speaking to your little brother. Which 'you' do you use? | ["tu","vous"] | ["tu"] | false | Family, friends and children get tu.
+- a1-subject-pronouns-ex006 | fill-in | ___ m'appelle Julie. (I) | — | ["Je"] | false | Je is 'I'. You already know it from je m'appelle.
+- a1-subject-pronouns-ex007 | multiple-choice | In casual conversation, which word do French speakers use most often for 'we'? | ["on","nous","vous"] | ["on"] | false | Nous is correct and common in writing, but in everyday speech on is the usual way to say 'we'.
+- a1-subject-pronouns-ex008 | fill-in | Bonjour monsieur. ___ vous appelez comment ? (polite: What's your name?) | — | ["Vous"] | false | The first vous is the subject (you). The second is part of the verb (yourself), as in tu t'appelles.
+- a1-subject-pronouns-ex009 | multiple-choice | 'La table' is a feminine noun. Which pronoun means 'it' when you're talking about the table? | ["elle","il","on"] | ["elle"] | false | French has no separate word for 'it'. Things are masculine or feminine, so a feminine thing like la table is elle.
+- a1-subject-pronouns-ex010 | fill-in | ___'habite à Paris. (I live in Paris.) | — | ["J"] | false | Je becomes j' before a vowel or a silent h: j'habite, j'aime.
+- a1-subject-pronouns-ex011 | multiple-choice | A group of nine women and one man are in Lyon. Which sentence is correct? | ["Ils sont à Lyon.","Elles sont à Lyon."] | ["Ils sont à Lyon."] | false | One man is enough to make the group ils.
+
+## a1-etre-present
+
+### Vocab
+
+fr | pron | en | note
+
+- être | ET-ruh | to be | —
+- je suis | zhuh SWEE | I am | —
+- tu es | tew EH | you are (informal) | —
+- il est / elle est | ee-LEH / eh-LEH | he is / she is / it is | —
+- on est | oh-NEH | we are (casual) | —
+- nous sommes | noo SOMM | we are | —
+- vous êtes | voo ZET | you are (formal or plural) | —
+- ils sont / elles sont | eel SOHN / el SOHN | they are | —
+- c'est | SEH | it is / this is / that's | —
+- étudiant / étudiante | ay-tew-DYAHN / ay-tew-DYAHNT | student (man / woman) | —
+- fatigué / fatiguée | fah-tee-GAY | tired (man / woman) | —
+- content / contente | kohn-TAHN / kohn-TAHNT | happy, pleased (man / woman) | —
+- ici | ee-SEE | here | —
+- en retard | ahn ruh-TAR | late | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-etre-present-ex001 | fill-in | Je ___ étudiant. | — | ["suis"] | false | Je suis = I am.
+- a1-etre-present-ex002 | fill-in | Tu ___ à Paris ? | — | ["es"] | false | Tu es = you are. Don't confuse it with est (il est), which sounds the same.
+- a1-etre-present-ex003 | fill-in | Nous ___ fatigués. | — | ["sommes"] | false | Nous sommes = we are.
+- a1-etre-present-ex004 | fill-in | Vous ___ Madame Martin ? | — | ["êtes"] | false | Vous êtes = you are (formal or plural). The s of vous links to êtes with a z sound.
+- a1-etre-present-ex005 | fill-in | Elles ___ à Lyon. | — | ["sont"] | false | Ils sont / elles sont = they are.
+- a1-etre-present-ex006 | fill-in | On ___ en retard ! | — | ["est"] | false | On takes the same form as il and elle: on est, even when it means 'we'.
+- a1-etre-present-ex007 | multiple-choice | Which two forms of être sound the same? | ["tu es / il est","nous sommes / vous êtes","je suis / ils sont"] | ["tu es / il est"] | false | Es and est are spelled differently but pronounced the same. The final s and t are silent.
+- a1-etre-present-ex008 | translate | Write in French (you're a man): I'm a student. | — | ["Je suis étudiant","Moi, je suis étudiant"] | false | With être, French gives a job or status without un or une: je suis étudiant, not je suis un étudiant.
+- a1-etre-present-ex009 | translate | Write in French (you're a woman): I'm tired. | — | ["Je suis fatiguée"] | false | A woman adds -e to the adjective in writing: fatiguée. It sounds the same as fatigué.
+- a1-etre-present-ex010 | translate | Pointing at a friend in a photo, write in French: It's Paul. | — | ["C'est Paul"] | false | C'est = ce + est. Ce drops its e before the vowel of est.
+- a1-etre-present-ex011 | multiple-choice | How do you say 'I'm 20 years old'? | ["Je suis vingt ans.","J'ai vingt ans.","Je suis vingt."] | ["J'ai vingt ans."] | false | French uses avoir (to have), not être, for age: literally 'I have twenty years'.
+- a1-etre-present-ex012 | translate | Write in French: We're here. | — | ["On est ici","Nous sommes ici","On est là","Nous sommes là"] | true | On est ici is the everyday version and nous sommes ici is more formal. In speech, là often means 'here' too.
+- a1-etre-present-ex013 | reorder | Put the words in order: We're late. | — | ["Nous sommes en retard"] | false | Nous sommes means 'we are', and en retard means 'late'. The subject comes first, then the verb, as in English.
+
+## a1-numbers-0-20
+
+### Vocab
+
+fr | pron | en | note
+
+- zéro | zay-ROH | 0 | —
+- un / une | uhn / ewn | 1 | une before a feminine noun
+- deux | duh | 2 | —
+- trois | trwah | 3 | —
+- quatre | KAT-ruh | 4 | —
+- cinq | sank | 5 | —
+- six | sees | 6 | —
+- sept | set | 7 | The p is silent.
+- huit | weet | 8 | —
+- neuf | nuhf | 9 | —
+- dix | dees | 10 | —
+- onze | ohnz | 11 | —
+- douze | dooz | 12 | —
+- treize | trez | 13 | —
+- quatorze | kah-TORZ | 14 | —
+- quinze | kanz | 15 | —
+- seize | sez | 16 | —
+- dix-sept | dee-SET | 17 | —
+- dix-huit | dee-ZWEET | 18 | —
+- dix-neuf | deez-NUHF | 19 | —
+- vingt | van | 20 | The g and t are silent when vingt is on its own.
+- le numéro (de téléphone) | luh new-may-ROH (duh tay-lay-FONN) | (phone) number | —
+- Quel est ton numéro ? | kel eh tohn new-may-ROH | What's your number? (informal) | —
+- Tu as quel âge ? | tew ah kel AHZH | How old are you? (informal) | —
+- J'ai … ans. | zhay … AHN | I'm … years old. | Literally 'I have … years'.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-numbers-0-20-ex001 | translate | Write the number in French: 15 | — | ["quinze"] | false | 15 is quinze, one of the six numbers from 11 to 16 that end in -ze.
+- a1-numbers-0-20-ex002 | translate | Write the number in French: 12 | — | ["douze"] | false | 12 is douze. Don't confuse it with deux (2).
+- a1-numbers-0-20-ex003 | translate | Write the number in French: 17 | — | ["dix-sept"] | false | From 17, French builds the numbers as 'ten-seven', 'ten-eight', 'ten-nine', joined with a hyphen: dix-sept.
+- a1-numbers-0-20-ex004 | translate | Write the number in French: 19 | — | ["dix-neuf"] | false | 19 is dix-neuf, 'ten-nine'.
+- a1-numbers-0-20-ex005 | translate | Write the number in French: 0 | — | ["zéro"] | false | 0 is zéro, with an accent aigu on the e.
+- a1-numbers-0-20-ex006 | multiple-choice | Which number is 'seize'? | ["6","16","13"] | ["16"] | false | Seize is 16. Six is 6, and treize is 13.
+- a1-numbers-0-20-ex007 | multiple-choice | Which number is 'treize'? | ["3","13","30"] | ["13"] | false | Treize is 13. Trois is 3.
+- a1-numbers-0-20-ex008 | fill-in | dix, onze, ___, treize | — | ["douze"] | false | Ten, eleven, twelve, thirteen: dix, onze, douze, treize.
+- a1-numbers-0-20-ex009 | translate | A French mobile number starts '06'. Write those first two digits the way you'd say them. | — | ["zéro six"] | false | Phone numbers are read in pairs, and a leading zero is said: zéro six.
+- a1-numbers-0-20-ex010 | multiple-choice | In which phrase is the final x of 'six' NOT pronounced? | ["six (counting on its own)","six livres (six books)","six ans (six years)"] | ["six livres (six books)"] | false | On its own, six ends with an s sound. Before a consonant (livres) the final sound drops. Before a vowel (ans) it links with a z sound.
+- a1-numbers-0-20-ex011 | multiple-choice | How do you say 'I'm 18'? | ["J'ai dix-huit ans.","Je suis dix-huit ans.","Je suis dix-huit."] | ["J'ai dix-huit ans."] | false | Age uses avoir (to have): j'ai dix-huit ans, 'I have eighteen years'. In a full sentence, keep ans.
+- a1-numbers-0-20-ex012 | translate | Write the number in French: 20 | — | ["vingt"] | false | 20 is vingt. On its own, the g and t are silent.
+
+## a1-countries-nationalities
+
+### Vocab
+
+fr | pron | en | note
+
+- français / française | frahn-SEH / frahn-SEZ | French | —
+- anglais / anglaise | ahn-GLEH / ahn-GLEZ | English | —
+- irlandais / irlandaise | eer-lahn-DEH / eer-lahn-DEZ | Irish | —
+- japonais / japonaise | zhah-poh-NEH / zhah-poh-NEZ | Japanese | —
+- sénégalais / sénégalaise | say-nay-gah-LEH / say-nay-gah-LEZ | Senegalese | —
+- allemand / allemande | ahl-MAHN / ahl-MAHND | German | —
+- américain / américaine | ah-may-ree-KAN / ah-may-ree-KEN | American | —
+- marocain / marocaine | mah-roh-KAN / mah-roh-KEN | Moroccan | —
+- espagnol / espagnole | es-pah-NYOL | Spanish | Both forms sound the same.
+- canadien / canadienne | kah-nah-DYAN / kah-nah-DYEN | Canadian | —
+- italien / italienne | ee-tah-LYAN / ee-tah-LYEN | Italian | —
+- australien / australienne | oh-strah-LYAN / oh-strah-LYEN | Australian | —
+- belge | BELZH | Belgian | —
+- suisse | SWEES | Swiss | —
+- britannique | bree-tah-NEEK | British | —
+- la France | lah FRAHNS | France | —
+- la Belgique | lah bel-ZHEEK | Belgium | —
+- la Suisse | lah SWEES | Switzerland | —
+- le Canada | luh kah-nah-DAH | Canada | —
+- les États-Unis | lay zay-tah-zew-NEE | the United States | —
+- l'Angleterre | lahn-gluh-TEHR | England | —
+- le Royaume-Uni | luh rwah-yohm ew-NEE | the United Kingdom | —
+- l'Irlande | leer-LAHND | Ireland | —
+- l'Allemagne | lahl-MAH-nyuh | Germany | —
+- l'Espagne | les-PAH-nyuh | Spain | —
+- l'Italie | lee-tah-LEE | Italy | —
+- l'Australie | loh-strah-LEE | Australia | —
+- le Japon | luh zhah-POHN | Japan | —
+- le Maroc | luh mah-ROK | Morocco | —
+- le Sénégal | luh say-nay-GAL | Senegal | —
+- J'habite à… | zhah-BEET ah | I live in… (a city or town) | —
+- Tu habites où ? / Vous habitez où ? | tew ah-BEET OO / voo zah-bee-TAY OO | Where do you live? (informal / polite) | —
+- la nationalité | lah nah-syoh-nah-lee-TAY | nationality | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-countries-nationalities-ex001 | multiple-choice | Anna is from Canada. Complete the sentence: Anna est… | ["canadien","canadienne","Canada"] | ["canadienne"] | false | Anna is a woman, so she needs the feminine form. Words ending in -ien double the n and add -e: canadienne.
+- a1-countries-nationalities-ex002 | fill-in | Claire est ___. (French) | — | ["française"] | false | Claire is a woman, so français adds -e to become française.
+- a1-countries-nationalities-ex003 | fill-in | Tom est ___. (English) | — | ["anglais"] | false | Tom is a man, so you use the basic form, anglais.
+- a1-countries-nationalities-ex004 | fill-in | Julie est ___. (Belgian) | — | ["belge"] | false | Belge already ends in -e, so the same form works for men and women.
+- a1-countries-nationalities-ex005 | fill-in | Marco est ___. (Italian) | — | ["italien"] | false | Marco is a man, so you use italien. For a woman it would be italienne.
+- a1-countries-nationalities-ex006 | multiple-choice | In which pair do the two forms sound exactly the same? | ["espagnol / espagnole","français / française","canadien / canadienne"] | ["espagnol / espagnole"] | false | The l of espagnol is already pronounced, so adding -e changes nothing you can hear. In the other pairs the ending sounds different.
+- a1-countries-nationalities-ex007 | multiple-choice | Which sentence is spelled the standard way? | ["Je suis français.","Je suis Français.","je suis Français."] | ["Je suis français."] | false | Used to describe someone after être, a nationality normally takes a small letter.
+- a1-countries-nationalities-ex008 | multiple-choice | Which of these is a country? | ["l'Allemagne","allemand","allemande"] | ["l'Allemagne"] | false | L'Allemagne is Germany. Allemand and allemande are the nationality: German.
+- a1-countries-nationalities-ex009 | translate | Write in French: I live in Lyon. | — | ["J'habite à Lyon","Je vis à Lyon"] | true | J'habite à + city is the phrase from this lesson. Je vis à Lyon means the same thing.
+- a1-countries-nationalities-ex010 | translate | Write in French (you're a woman): I'm American. | — | ["Je suis américaine"] | false | A woman uses the feminine form with -e, and the nationality takes a small letter.
+- a1-countries-nationalities-ex011 | translate | Write in French, speaking to a friend: Where do you live? | — | ["Tu habites où ?","Où est-ce que tu habites ?","Où habites-tu ?"] | true | Tu habites où ? is the everyday version. The other two mean the same but are a little more careful.
+- a1-countries-nationalities-ex012 | reorder | Put the words in order (a woman speaking): I live in Lyon and I'm French. | — | ["J'habite à Lyon et je suis française"] | false | Use à with a city, and française agrees with a woman.
+
+## a1-culture-politeness
+
+### Vocab
+
+fr | pron | en | note
+
+- monsieur | muh-SYUH | sir, Mr | Written M. before a surname.
+- madame | mah-DAHM | madam, Mrs, Ms | Written Mme before a surname.
+- mademoiselle | mahd-mwah-ZEL | miss | Now old-fashioned for adults.
+- Bonne journée ! | bonn zhoor-NAY | Have a good day! | —
+- À vous aussi ! | ah voo zoh-SEE | You too! (polite) | —
+- Excusez-moi / Pardon | eks-kew-zay MWAH / par-DOHN | Excuse me | —
+- De rien / Je vous en prie | duh RYAN / zhuh voo zahn PREE | You're welcome | Je vous en prie is more formal.
+- la bise / faire la bise | lah BEEZ / fair lah BEEZ | cheek-to-cheek greeting / to greet someone this way | —
+- serrer la main | seh-RAY lah MAN | to shake hands | —
+- On se tutoie ? | ohn suh tew-TWAH | Shall we use tu with each other? | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-culture-politeness-ex001 | multiple-choice | You need help from a pharmacist. How do you start? | ["Bonjour, madame.","Salut !","Merci, madame."] | ["Bonjour, madame."] | false | Always greet before you ask for anything. Salut is too familiar for someone you don't know.
+- a1-culture-politeness-ex002 | multiple-choice | You've paid and you're leaving a bakery in the morning. What's the most natural thing to say? | ["Merci, bonne journée !","Bonjour !","Salut, bonne nuit !"] | ["Merci, bonne journée !"] | false | Thanking the shopkeeper and wishing them a good day is the usual way to leave.
+- a1-culture-politeness-ex003 | multiple-choice | The baker says 'Bonne journée !' to you. Which reply fits? | ["Merci, à vous aussi !","De rien, monsieur.","Enchanté !"] | ["Merci, à vous aussi !"] | false | À vous aussi means 'You too!'. Enchanté is only for meeting someone new.
+- a1-culture-politeness-ex004 | fill-in | Bonne ___ ! (Have a good day!) | — | ["journée"] | false | Bonne journée wishes someone a good day. You usually say it when leaving.
+- a1-culture-politeness-ex005 | fill-in | Excusez-___, monsieur. (Excuse me, sir.) | — | ["moi"] | false | Excusez-moi is the polite way to get someone's attention.
+- a1-culture-politeness-ex006 | multiple-choice | You're speaking to an adult woman you don't know. Which is the safest title? | ["madame","mademoiselle","monsieur"] | ["madame"] | false | Madame works for any adult woman, married or not. Mademoiselle is old-fashioned.
+- a1-culture-politeness-ex007 | multiple-choice | How is Monsieur written in short before a surname? | ["M.","Mr","Mme"] | ["M."] | false | French uses M. for Monsieur and Mme for Madame.
+- a1-culture-politeness-ex008 | multiple-choice | You're meeting a new client at a first business meeting. How do you greet them? | ["Shake hands","Faire la bise","Say salut and wave"] | ["Shake hands"] | false | A handshake is the normal greeting in a first professional meeting. La bise is for people you know.
+- a1-culture-politeness-ex009 | multiple-choice | Who usually suggests moving from vous to tu? | ["The older or more senior person","The younger person","Whoever speaks first"] | ["The older or more senior person"] | false | It's usually offered by the older or more senior person, so wait for them to suggest it.
+- a1-culture-politeness-ex010 | translate | Write in French: Thank you, have a good day! | — | ["Merci, bonne journée"] | false | This is one of the most useful phrases for leaving any shop.
+- a1-culture-politeness-ex011 | translate | Write in French: Shall we use tu with each other? | — | ["On se tutoie ?","On peut se tutoyer ?","On se dit tu ?"] | false | Tutoyer means 'to call someone tu', and se tutoyer means to do so with each other.
+- a1-culture-politeness-ex012 | translate | Write in French: You're welcome. | — | ["De rien","Je vous en prie","Je t'en prie","Il n'y a pas de quoi"] | true | De rien is the everyday reply. Je vous en prie is more formal, and Je t'en prie is its version for someone you call tu.
+- a1-culture-politeness-ex013 | reorder | Put the words in order: Thank you, have a good day! | — | ["Merci, bonne journée"] | false | Thank the person first, then wish them a good day as you leave.
+
+## a1-review-getting-started
+
+### Vocab
+
+fr | pron | en | note
+
+- Bonjour à tous ! | bohn-zhoor ah TOOS | Hello everyone! | —
+- et | ay | and | —
+- mais | meh | but | —
+- aussi | oh-SEE | also, too | —
+- J'apprends le français. | zhah-PRAHN luh frahn-SEH | I'm learning French. | —
+- Mon numéro, c'est le… | mohn new-may-ROH seh luh | My number is… | —
+- À bientôt ! | ah byan-TOH | See you soon! | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-review-getting-started-ex001 | fill-in | Je ___ canadienne et j'habite à Lyon. | — | ["suis"] | false | Nationality uses être: je suis.
+- a1-review-getting-started-ex002 | fill-in | J'___ dix-neuf ans. | — | ["ai"] | false | Age uses avoir, not être: j'ai dix-neuf ans.
+- a1-review-getting-started-ex003 | fill-in | ___ à tous ! (Hello everyone!) | — | ["Bonjour"] | false | Bonjour à tous is a friendly way to greet a group, in speech or in writing.
+- a1-review-getting-started-ex004 | multiple-choice | Which sentence is correct? | ["J'ai vingt ans.","Je suis vingt ans.","J'ai vingt."] | ["J'ai vingt ans."] | false | French says 'I have twenty years', and in a full sentence ans stays.
+- a1-review-getting-started-ex005 | multiple-choice | You're spelling a name that contains é. What do you say for that letter? | ["e accent aigu","e accent grave","e cédille"] | ["e accent aigu"] | false | É has an accent aigu. To spell an accented letter, say the letter and then the accent.
+- a1-review-getting-started-ex006 | multiple-choice | You've just met your older neighbour. Which question fits? | ["Comment vous appelez-vous ?","Tu t'appelles comment ?","Et toi ?"] | ["Comment vous appelez-vous ?"] | false | Use vous with an adult you've just met, especially someone older.
+- a1-review-getting-started-ex007 | multiple-choice | Which sentence would a woman from Italy write? | ["Je suis italienne.","Je suis italien.","Je suis Italie."] | ["Je suis italienne."] | false | A woman uses the feminine form, and Italie is the country, not the nationality.
+- a1-review-getting-started-ex008 | translate | Write the number in French: 14 | — | ["quatorze"] | false | 14 is quatorze, one of the numbers from 11 to 16 ending in -ze.
+- a1-review-getting-started-ex009 | translate | Write in French (you're a woman): My name is Emma and I'm English. | — | ["Je m'appelle Emma et je suis anglaise","Moi, c'est Emma et je suis anglaise"] | false | Anglaise is the feminine form, with a small letter. Et joins the two ideas.
+- a1-review-getting-started-ex010 | translate | Write in French: I live in Geneva. | — | ["J'habite à Genève","Je vis à Genève"] | true | Use à with a city. Genève is the French name for Geneva.
+- a1-review-getting-started-ex011 | translate | Write in French (you're a woman): I'm Belgian and I'm a student. | — | ["Je suis belge et je suis étudiante","Je suis belge et étudiante"] | false | Belge is the same for men and women. Étudiante needs the feminine -e, and there's no word for 'a'.
+- a1-review-getting-started-ex012 | translate | Write in French: I'm learning French. | — | ["J'apprends le français"] | false | With apprendre, French keeps the word le before the name of the language.
+- a1-review-getting-started-ex013 | reorder | Put the words in order: I'm Belgian and I live in Geneva. | — | ["Je suis belge et j'habite à Genève"] | false | Belge is the same for a man and a woman, and à goes before a city.
+
+## a1-definite-articles
+
+### Vocab
+
+fr | pron | en | note
+
+- le | luh | the (masculine singular) | le livre (the book)
+- la | lah | the (feminine singular) | la table (the table)
+- les | lay | the (all plurals) | les livres (the books)
+- l' | l | the (before a vowel or silent h) | Replaces both le and la.
+- le livre | luh LEE-vruh | the book | —
+- la table | lah TAH-bluh | the table | —
+- le jour | luh ZHOOR | the day | —
+- l'ami | lah-MEE | the friend | —
+- l'heure | LUHR | the hour | —
+- le garçon | luh gar-SOHN | the boy | —
+- la femme | lah FAHM | the woman | —
+- l'école | lay-KOL | the school | —
+- les enfants | lay-zahn-FAHN | the children | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-definite-articles-ex001 | fill-in | ___ livre (the book; livre is masculine) | — | ["le"] | false | Le is the article for a masculine singular noun.
+- a1-definite-articles-ex002 | fill-in | ___ table (the table; table is feminine) | — | ["la"] | false | La is the article for a feminine singular noun.
+- a1-definite-articles-ex003 | fill-in | ___ livres (the books) | — | ["les"] | false | Les is used with all plurals, masculine or feminine.
+- a1-definite-articles-ex004 | fill-in | ___école (the school) | — | ["l'"] | false | École starts with a vowel, so the article shortens to l'.
+- a1-definite-articles-ex005 | multiple-choice | How do you say 'the friend'? | ["l'ami","le ami","la ami"] | ["l'ami"] | false | Ami starts with a vowel, so le shortens to l'.
+- a1-definite-articles-ex006 | multiple-choice | The h in 'heure' is silent. How do you say 'the hour'? | ["l'heure","la heure","le heure"] | ["l'heure"] | false | Before a silent h, le and la both shorten to l', just as they do before a vowel.
+- a1-definite-articles-ex007 | multiple-choice | When do you use les? | ["With all plurals","With masculine plurals only","With feminine plurals only"] | ["With all plurals"] | false | Les doesn't show gender. It's the same for every plural noun.
+- a1-definite-articles-ex008 | multiple-choice | A table isn't female in any real sense, so why is it la table? | ["Gender belongs to the word","All furniture is feminine","Tables are always plural"] | ["Gender belongs to the word"] | false | Grammatical gender is mostly about the word, not its meaning.
+- a1-definite-articles-ex009 | multiple-choice | What's the best way to memorize the word for 'book'? | ["le livre","livre"] | ["le livre"] | false | Learning the noun with its article tells you the gender for free.
+- a1-definite-articles-ex010 | translate | Write in French: the woman | — | ["la femme"] | false | Femme is feminine and singular, so it takes la.
+- a1-definite-articles-ex011 | translate | Write in French: the children | — | ["les enfants"] | false | Enfants is plural, so it takes les.
+- a1-definite-articles-ex012 | translate | Write in French: the boy | — | ["le garçon"] | false | Garçon is masculine and singular, so it takes le. The cédille keeps the c soft.
+
+## a1-indefinite-articles
+
+### Vocab
+
+fr | pron | en | note
+
+- un | uhn | a, an, one (masculine) | un livre (a book)
+- une | ewn | a, an, one (feminine) | une table (a table)
+- des | day | some (all plurals) | des livres (some books, or just 'books')
+- c'est un… / c'est une… | seh tuhn / seh tewn | it's a…, that's a… | —
+- ce sont des… | suh sohn day | they're…, those are… | —
+- voici | vwah-SEE | here is, here are | —
+- Qu'est-ce que c'est ? | kess-kuh SEH | What is it? What's that? | C'est quoi ? is the casual version.
+- un sac | uhn SAHK | a bag | —
+- un stylo | uhn stee-LOH | a pen | —
+- un téléphone | uhn tay-lay-FONN | a phone | —
+- un ordinateur | uh-nor-dee-nah-TUHR | a computer | —
+- une chaise | ewn SHEZ | a chair | —
+- une clé | ewn KLAY | a key | —
+- une voiture | ewn vwah-TEWR | a car | —
+- une maison | ewn may-ZOHN | a house | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-indefinite-articles-ex001 | fill-in | C'est ___ sac. (a bag) | — | ["un"] | false | Sac is masculine, so 'a bag' is un sac.
+- a1-indefinite-articles-ex002 | fill-in | C'est ___ voiture. (a car) | — | ["une"] | false | Voiture is feminine, so 'a car' is une voiture.
+- a1-indefinite-articles-ex003 | fill-in | Ce sont ___ livres. (books) | — | ["des"] | false | Plural nouns take des. English can leave the word out, but French can't.
+- a1-indefinite-articles-ex004 | fill-in | Voici ___ ami. (a friend, a man) | — | ["un"] | false | Un never shortens before a vowel. Compare l'ami (the friend) and un ami (a friend).
+- a1-indefinite-articles-ex005 | multiple-choice | Which sentence means 'It's Paul's bag'? | ["C'est le sac de Paul.","C'est sac de Paul.","C'est une sac de Paul."] | ["C'est le sac de Paul."] | false | We know exactly which bag we mean, so French uses le. French can't leave the article out, and sac is masculine, which rules out une.
+- a1-indefinite-articles-ex006 | multiple-choice | Choose the word for the blank: Voici un stylo. ___ stylo est ici. | ["Le","Un","Une"] | ["Le"] | false | The first mention uses un. Once the pen is known, the second mention uses le, just as English moves from 'a pen' to 'the pen'.
+- a1-indefinite-articles-ex007 | multiple-choice | Which one is correct? | ["un ami","un'ami","n'ami"] | ["un ami"] | false | Le and la shorten to l' before a vowel. Un and une never shorten.
+- a1-indefinite-articles-ex008 | translate | Write in French: a chair | — | ["une chaise"] | false | Chaise is feminine, so it takes une.
+- a1-indefinite-articles-ex009 | translate | Write in French: a computer | — | ["un ordinateur"] | false | Ordinateur is masculine, so it takes un. The n links to the vowel that follows.
+- a1-indefinite-articles-ex010 | translate | Pointing at some books, write in French: They're books. | — | ["Ce sont des livres","C'est des livres"] | false | Ce sont des livres is the standard written form. C'est des livres is the relaxed spoken one. Either way, des can't be left out.
+- a1-indefinite-articles-ex011 | translate | Write in French: What is it? | — | ["Qu'est-ce que c'est","C'est quoi"] | false | Qu'est-ce que c'est ? works everywhere. C'est quoi ? is the casual version.
+- a1-indefinite-articles-ex012 | reorder | Put the words in order: They're keys. | — | ["Ce sont des clés"] | false | For plural things, use ce sont followed by des and the noun.
+
+## a1-plural-nouns
+
+### Vocab
+
+fr | pron | en | note
+
+- le livre / les livres | luh LEE-vruh / lay LEE-vruh | the book / the books | —
+- la table / les tables | lah TAH-bluh / lay TAH-bluh | the table / the tables | —
+- l'ami / les amis | lah-MEE / lay-zah-MEE | the friend / the friends | —
+- le bus / les bus | luh BEWSS / lay BEWSS | the bus / the buses | —
+- le pays / les pays | luh pay-EE / lay pay-EE | the country / the countries | —
+- le prix / les prix | luh PREE / lay PREE | the price / the prices | —
+- le nez / les nez | luh NAY / lay NAY | the nose / the noses | —
+- le gâteau / les gâteaux | luh gah-TOH / lay gah-TOH | the cake / the cakes | —
+- le bureau / les bureaux | luh bew-ROH / lay bew-ROH | the office, the desk / the offices, the desks | —
+- le jeu / les jeux | luh ZHUH / lay ZHUH | the game / the games | —
+- le journal / les journaux | luh zhoor-NAHL / lay zhoor-NOH | the newspaper / the newspapers | —
+- l'animal / les animaux | lah-nee-MAHL / lay-zah-nee-MOH | the animal / the animals | —
+- l'hôpital / les hôpitaux | loh-pee-TAHL / lay-zoh-pee-TOH | the hospital / the hospitals | —
+- le cheval / les chevaux | luh shuh-VAHL / lay shuh-VOH | the horse / the horses | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-plural-nouns-ex001 | fill-in | un livre, deux ___ | — | ["livres"] | false | Most nouns simply add -s in the plural.
+- a1-plural-nouns-ex002 | fill-in | une table, des ___ | — | ["tables"] | false | Feminine nouns follow the same rule: add -s.
+- a1-plural-nouns-ex003 | fill-in | un gâteau, des ___ | — | ["gâteaux"] | false | Nouns ending in -eau add -x, not -s.
+- a1-plural-nouns-ex004 | fill-in | un journal, des ___ | — | ["journaux"] | false | Most nouns ending in -al change to -aux in the plural.
+- a1-plural-nouns-ex005 | fill-in | un bus, deux ___ | — | ["bus"] | false | A noun that already ends in -s doesn't change in the plural.
+- a1-plural-nouns-ex006 | fill-in | le prix, les ___ | — | ["prix"] | false | A noun that already ends in -x doesn't change in the plural.
+- a1-plural-nouns-ex007 | multiple-choice | In les livres, how does the final s of livres sound? | ["It's silent.","Like an s.","Like a z."] | ["It's silent."] | false | The plural -s is a spelling matter. Livre and livres sound the same, so the article tells the listener it's plural.
+- a1-plural-nouns-ex008 | multiple-choice | What's the plural of le festival? | ["les festivals","les festivaux","les festival"] | ["les festivals"] | false | Festival is one of a few -al nouns that break the pattern and simply add -s.
+- a1-plural-nouns-ex009 | translate | Write in French: the hospitals | — | ["les hôpitaux"] | false | Hôpital ends in -al, so its plural is hôpitaux. The circumflex stays.
+- a1-plural-nouns-ex010 | translate | Write in French (all of them men): some friends | — | ["des amis"] | false | Ami adds -s in the plural. The s of des links to amis with a z sound.
+- a1-plural-nouns-ex011 | translate | Write in French: the games | — | ["les jeux"] | false | Nouns ending in -eu usually add -x.
+- a1-plural-nouns-ex012 | reorder | Put the words in order: They're cakes. | — | ["Ce sont des gâteaux"] | false | Ce sont goes with plural nouns, then des, then the noun with its -x ending.
+
+## a1-family
+
+### Vocab
+
+fr | pron | en | note
+
+- la famille | lah fah-MEE-y | the family | —
+- le père | luh PEHR | the father | —
+- la mère | lah MEHR | the mother | —
+- les parents | lay pah-RAHN | the parents | —
+- le frère | luh FREHR | the brother | —
+- la sœur | lah SUHR | the sister | —
+- l'enfant | lahn-FAHN | the child | Same word for a boy or a girl: un enfant, une enfant.
+- le fils | luh FEES | the son | The l is silent and the s is pronounced.
+- la fille | lah FEE-y | the daughter, the girl | —
+- le grand-père | luh grahn-PEHR | the grandfather | —
+- la grand-mère | lah grahn-MEHR | the grandmother | —
+- les grands-parents | lay grahn pah-RAHN | the grandparents | —
+- le petit-fils | luh puh-tee-FEES | the grandson | —
+- la petite-fille | lah puh-teet-FEE-y | the granddaughter | —
+- les petits-enfants | lay puh-tee-zahn-FAHN | the grandchildren | —
+- le mari | luh mah-REE | the husband | —
+- la femme | lah FAHM | the wife, the woman | —
+- le compagnon / la compagne | luh kohn-pah-NYOHN / lah kohn-PAH-nyuh | the partner (man / woman) | For a long-term partner.
+- le copain / la copine | luh koh-PAN / lah koh-PEEN | the boyfriend / the girlfriend | Also means a friend. The context tells you which.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-family-ex001 | multiple-choice | What does la sœur mean? | ["the sister","the brother","the daughter"] | ["the sister"] | false | La sœur is the sister. Le frère is the brother and la fille is the daughter.
+- a1-family-ex002 | fill-in | le père et la ___ (the mother) | — | ["mère"] | false | La mère is the mother. Père and mère share the same ending.
+- a1-family-ex003 | fill-in | C'est le frère ___ Paul. (Paul's brother) | — | ["de"] | false | French has no 's. 'Paul's brother' becomes 'the brother of Paul': le frère de Paul.
+- a1-family-ex004 | multiple-choice | Choose the word for the blank: C'est le mari ___ Anne. | ["d'","de","des"] | ["d'"] | false | De shortens to d' before a vowel, so you write le mari d'Anne.
+- a1-family-ex005 | multiple-choice | Your father's mother is your… | ["grand-mère","petite-fille","sœur"] | ["grand-mère"] | false | Your father's mother is your grandmother: la grand-mère.
+- a1-family-ex006 | multiple-choice | La fille can mean… | ["the girl or the daughter","the woman or the wife","the boy or the son"] | ["the girl or the daughter"] | false | La fille covers both 'the girl' and 'the daughter'. La femme covers 'the woman' and 'the wife'.
+- a1-family-ex007 | translate | Write in French: the grandfather | — | ["le grand-père"] | false | Grand-père is written with a hyphen and an accent on the è.
+- a1-family-ex008 | translate | Write in French: the grandchildren | — | ["les petits-enfants"] | false | Petit goes with the generation below you, and both parts are plural here.
+- a1-family-ex009 | translate | Write in French: It's Marie's husband. | — | ["C'est le mari de Marie"] | false | Say 'the husband of Marie': le mari de Marie.
+- a1-family-ex010 | translate | Write in French: I have a brother and a sister. | — | ["J'ai un frère et une sœur"] | false | J'ai means 'I have'. Frère is masculine, so un, and sœur is feminine, so une.
+- a1-family-ex011 | reorder | Put the words in order: It's Marie's son. | — | ["C'est le fils de Marie"] | false | The person comes first and the owner comes after de: le fils de Marie.
+
+## a1-avoir-present
+
+### Vocab
+
+fr | pron | en | note
+
+- avoir | ah-VWAHR | to have | —
+- j'ai | ZHAY | I have | —
+- tu as | tew AH | you have (informal) | —
+- il a / elle a | ee-LAH / eh-LAH | he has / she has / it has | —
+- on a | oh-NAH | we have (casual) | —
+- nous avons | noo-zah-VOHN | we have | —
+- vous avez | voo-zah-VAY | you have (formal or plural) | —
+- ils ont / elles ont | eel-ZOHN / el-ZOHN | they have | —
+- un an | uh-NAHN | a year | Used with avoir for age: j'ai vingt ans.
+- Tu as quel âge ? | tew ah kel AHZH | How old are you? (informal) | Also: Quel âge as-tu ?
+- Vous avez quel âge ? | voo-zah-vay kel AHZH | How old are you? (formal or plural) | Also: Quel âge avez-vous ?
+- avoir faim | ah-vwahr FAN | to be hungry | —
+- avoir soif | ah-vwahr SWAHF | to be thirsty | —
+- avoir chaud | ah-vwahr SHOH | to feel hot | —
+- avoir froid | ah-vwahr FRWAH | to feel cold | —
+- il y a | eel-YAH | there is, there are | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-avoir-present-ex001 | fill-in | J'___ un frère. | — | ["ai"] | false | J'ai = I have. Je shortens to j' because ai starts with a vowel.
+- a1-avoir-present-ex002 | fill-in | Elle ___ vingt ans. | — | ["a"] | true | Elle a = she has. There's no accent on a here, because it's the verb.
+- a1-avoir-present-ex003 | fill-in | Nous ___ deux enfants. | — | ["avons"] | false | Nous avons = we have. The s of nous links to avons with a z sound.
+- a1-avoir-present-ex004 | fill-in | Vous ___ une voiture ? | — | ["avez"] | false | Vous avez = you have (formal or plural).
+- a1-avoir-present-ex005 | fill-in | Ils ___ une maison à Lyon. | — | ["ont"] | false | Ils ont = they have. Don't confuse it with ils sont (they are).
+- a1-avoir-present-ex006 | multiple-choice | Which sentence means 'They have a car'? | ["Ils ont une voiture.","Ils sont une voiture.","Il a une voiture."] | ["Ils ont une voiture."] | false | Ils ont means 'they have'. Ils sont means 'they are', and il a means 'he has'.
+- a1-avoir-present-ex007 | multiple-choice | Choose the word for the blank: Elle est ___ Paris. | ["à","a","as"] | ["à"] | false | Here the word means 'in', and 'has' doesn't fit, so it takes the accent: à Paris.
+- a1-avoir-present-ex008 | multiple-choice | How do you say 'There are two books'? | ["Il y a deux livres.","Il y ont deux livres.","Ils sont deux livres."] | ["Il y a deux livres."] | false | Il y a never changes, whether what follows is singular or plural.
+- a1-avoir-present-ex009 | translate | Write in French: I'm 18 years old. | — | ["J'ai dix-huit ans","J'ai 18 ans"] | false | French uses avoir for age and needs the word ans: literally 'I have eighteen years'.
+- a1-avoir-present-ex010 | translate | Write in French: I'm hungry. | — | ["J'ai faim"] | false | French says 'I have hunger': j'ai faim.
+- a1-avoir-present-ex011 | translate | Write in French, speaking to a friend: How old are you? | — | ["Tu as quel âge","Quel âge as-tu","Quel âge tu as"] | false | Tu as quel âge ? is the everyday form. Quel âge as-tu ? is a little more formal.
+- a1-avoir-present-ex012 | reorder | Put the words in order: There's a book. | — | ["Il y a un livre"] | false | Il y a is one fixed phrase meaning 'there is' or 'there are'.
+
+## a1-possessive-adjectives
+
+### Vocab
+
+fr | pron | en | note
+
+- mon / ma / mes | mohn / mah / may | my (masculine / feminine / plural) | —
+- ton / ta / tes | tohn / tah / tay | your, informal (masculine / feminine / plural) | —
+- son / sa / ses | sohn / sah / say | his, her, its (masculine / feminine / plural) | —
+- notre / nos | NOH-truh / noh | our (singular / plural) | —
+- votre / vos | VOH-truh / voh | your, formal or plural (singular / plural) | —
+- leur / leurs | luhr / luhr | their (singular / plural) | —
+- mon amie | moh-nah-MEE | my friend (a woman) | —
+- ton école | toh-nay-KOHL | your school | —
+- son histoire | soh-nee-STWAHR | his or her story | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-possessive-adjectives-ex001 | fill-in | C'est ___ père. (my) | — | ["mon"] | false | Père is masculine and singular, so 'my' is mon.
+- a1-possessive-adjectives-ex002 | fill-in | C'est ___ mère. (my) | — | ["ma"] | false | Mère is feminine and singular, so 'my' is ma.
+- a1-possessive-adjectives-ex003 | fill-in | Ce sont ___ parents. (my) | — | ["mes"] | false | Parents is plural, so 'my' is mes.
+- a1-possessive-adjectives-ex004 | fill-in | C'est ___ amie Julie. (my) | — | ["mon"] | false | Amie is feminine, but it starts with a vowel, so ma becomes mon.
+- a1-possessive-adjectives-ex005 | fill-in | C'est Marie avec ___ frère. (her) | — | ["son"] | false | Frère is masculine, so it's son, even though Marie is a woman.
+- a1-possessive-adjectives-ex006 | fill-in | C'est Paul avec ___ sœur. (his) | — | ["sa"] | false | Sœur is feminine, so it's sa, even though Paul is a man.
+- a1-possessive-adjectives-ex007 | fill-in | Les enfants sont avec ___ grands-parents. (their) | — | ["leurs"] | false | Grands-parents is plural, so 'their' is leurs, with an -s.
+- a1-possessive-adjectives-ex008 | fill-in | Madame, vous êtes avec ___ mari ? (your) | — | ["votre"] | false | You're speaking to one person formally, and mari is singular, so it's votre.
+- a1-possessive-adjectives-ex009 | multiple-choice | What can sa mère mean? | ["his mother or her mother","only her mother","only his mother"] | ["his mother or her mother"] | false | Sa matches mère, not the owner. Only the context shows whose mother it is.
+- a1-possessive-adjectives-ex010 | translate | Write in French: our children | — | ["nos enfants"] | false | Enfants is plural, so 'our' is nos. The s links to enfants with a z sound.
+- a1-possessive-adjectives-ex011 | translate | Write in French, speaking to a friend: your sister | — | ["ta sœur"] | false | With a friend you use the tu forms, and sœur is feminine, so it's ta.
+- a1-possessive-adjectives-ex012 | reorder | Put the words in order (Anne is a woman): It's my friend Anne. | — | ["C'est mon amie Anne"] | false | Before a vowel, French uses mon even for a feminine noun: mon amie.
+
+## a1-describing-people
+
+### Vocab
+
+fr | pron | en | note
+
+- Il est comment ? / Elle est comment ? | ee-leh koh-MAHN / eh-leh koh-MAHN | What's he like? / What's she like? | A little more careful: Comment est-il ? / Comment est-elle ?
+- grand / grande | grahn / grahnd | tall (man / woman) | —
+- petit / petite | puh-TEE / puh-TEET | short, small (man / woman) | —
+- de taille moyenne | duh tah-y mwah-YEN | of medium height | Stays the same for men and women.
+- les cheveux | lay shuh-VUH | hair | Always plural when you mean the hair on someone's head.
+- bruns | bruhn | dark brown (hair) | —
+- blonds | blohn | blond | —
+- noirs | nwahr | black | —
+- gris | gree | grey | —
+- roux | roo | red, ginger (hair) | —
+- courts | koor | short (hair) | —
+- longs | lohn | long | —
+- les yeux | lay-ZYUH | eyes | —
+- bleus | bluh | blue | —
+- verts | vehr | green | —
+- marron | mah-ROHN | brown (eyes) | Never changes: les yeux marron.
+- sympa | san-PAH | nice, friendly | Same for men and women.
+- gentil / gentille | zhahn-TEE / zhahn-TEE-y | kind (man / woman) | —
+- drôle | drohl | funny | —
+- timide | tee-MEED | shy | —
+- calme | kahlm | calm, quiet | —
+- intelligent / intelligente | an-teh-lee-ZHAHN / an-teh-lee-ZHAHNT | intelligent (man / woman) | —
+- sérieux / sérieuse | say-RYUH / say-RYUHZ | serious, reliable (man / woman) | —
+- très | treh | very | —
+- assez | ah-SAY | quite, fairly | —
+- un peu | uhn PUH | a little | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-describing-people-ex001 | fill-in | Paul est ___. (tall) | — | ["grand"] | false | Paul is a man, so you use the form without the final -e.
+- a1-describing-people-ex002 | fill-in | Marie est ___. (short) | — | ["petite"] | false | Marie is a woman, so you use petite, and the final t is pronounced.
+- a1-describing-people-ex003 | fill-in | Il a les ___ bleus. (eyes) | — | ["yeux"] | false | Les yeux means 'the eyes'. Eye colour uses avoir and les.
+- a1-describing-people-ex004 | fill-in | Elle a les ___ courts. (hair) | — | ["cheveux"] | false | Hair on the head is plural in French: les cheveux.
+- a1-describing-people-ex005 | fill-in | Il est ___ timide. (very) | — | ["très"] | false | Très means 'very' and goes right before the describing word.
+- a1-describing-people-ex006 | multiple-choice | Which sentence means 'She has green eyes'? | ["Elle a les yeux verts.","Elle est les yeux verts.","Elle a la yeux verts."] | ["Elle a les yeux verts."] | false | Features use avoir, not être, and yeux is plural, so it takes les.
+- a1-describing-people-ex007 | multiple-choice | Which sentence means 'He has brown eyes'? | ["Il a les yeux marron.","Il a les yeux marrons.","Il est les yeux marron."] | ["Il a les yeux marron."] | false | Marron never changes, so it has no -s even after yeux.
+- a1-describing-people-ex008 | multiple-choice | What does Elle est sympa mean? | ["She's nice.","She feels sorry for me.","She's tall."] | ["She's nice."] | false | Sympa means nice or friendly. It doesn't mean 'sympathetic' in the English sense.
+- a1-describing-people-ex009 | translate | Write in French: She's kind. | — | ["Elle est gentille"] | false | A woman is gentille, with -lle. Personality uses être.
+- a1-describing-people-ex010 | translate | Write in French: He has short hair. | — | ["Il a les cheveux courts"] | true | Use avoir and les, with the colour or length word after cheveux.
+- a1-describing-people-ex011 | translate | Write in French: What's he like? | — | ["Il est comment","Comment est-il"] | false | Il est comment ? is the everyday version. Comment est-il ? is a little more careful.
+- a1-describing-people-ex012 | reorder | Put the words in order: She has blond hair. | — | ["Elle a les cheveux blonds"] | false | The pattern is avoir + les + the feature + its description.
+
+## a1-adjective-agreement
+
+### Vocab
+
+fr | pron | en | note
+
+- content / contente | kohn-TAHN / kohn-TAHNT | happy, pleased (masculine / feminine) | Most adjectives: add -e.
+- jeune | zhuhn | young | Already ends in -e, so no change. It's also a BAGS adjective, so it goes before the noun (un jeune homme).
+- heureux / heureuse | uh-RUH / uh-RUHZ | happy (masculine / feminine) | -eux → -euse
+- sportif / sportive | spor-TEEF / spor-TEEV | sporty (masculine / feminine) | -if → -ive
+- italien / italienne | ee-tah-LYAN / ee-tah-LYEN | Italian (masculine / feminine) | -ien → -ienne
+- beau / belle | boh / bel | beautiful, good-looking (masculine / feminine) | —
+- joli / jolie | zhoh-LEE | pretty (masculine / feminine) | —
+- vieux / vieille | vyuh / vyay | old (masculine / feminine) | —
+- nouveau / nouvelle | noo-VOH / noo-VEL | new (masculine / feminine) | —
+- bon / bonne | bohn / bonn | good (masculine / feminine) | —
+- mauvais / mauvaise | moh-VEH / moh-VEZ | bad (masculine / feminine) | —
+- gros / grosse | groh / grohs | big (masculine / feminine) | About a person it's blunt, like saying 'fat'.
+- le frère | luh FREHR | the brother | —
+- la sœur | lah SUHR | the sister | —
+- le film | luh FEELM | the film | —
+- rouge | roozh | red | —
+- moderne | moh-DEHRN | modern | —
+- intéressant / intéressante | an-tay-reh-SAHN / an-tay-reh-SAHNT | interesting (masculine / feminine) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-adjective-agreement-ex001 | fill-in | La sœur de Paul est ___. (petit) | — | ["petite"] | false | Sœur is feminine and singular, so add -e.
+- a1-adjective-agreement-ex002 | fill-in | Ils sont ___. (grand) | — | ["grands"] | false | Ils is masculine plural, so add -s.
+- a1-adjective-agreement-ex003 | fill-in | Elles sont ___. (content) | — | ["contentes"] | false | Feminine plural takes both endings, -e and then -s.
+- a1-adjective-agreement-ex004 | fill-in | Marie est ___. (heureux) | — | ["heureuse"] | false | Adjectives ending in -eux change to -euse in the feminine.
+- a1-adjective-agreement-ex005 | fill-in | C'est une ___ maison. (beau) | — | ["belle"] | false | Beau is irregular. Its feminine is belle, and it goes before the noun.
+- a1-adjective-agreement-ex006 | multiple-choice | Paul et Marie sont… | ["grands","grandes","grand"] | ["grands"] | false | A mixed group of men and women takes the masculine plural.
+- a1-adjective-agreement-ex007 | multiple-choice | How do you say 'a red car'? | ["une voiture rouge","une rouge voiture","une voiture rouges"] | ["une voiture rouge"] | false | Colours go after the noun. Rouge already ends in -e, so it doesn't change for a feminine noun.
+- a1-adjective-agreement-ex008 | multiple-choice | How do you say 'a small house'? | ["une petite maison","une maison petite","un petit maison"] | ["une petite maison"] | false | Petit is a size word, one of the BAGS group, so it normally goes before the noun.
+- a1-adjective-agreement-ex009 | translate | Write in French (the friend is a man): a good friend | — | ["un bon ami","un bon copain"] | false | Bon is a goodness word from the BAGS group, so it goes before the noun.
+- a1-adjective-agreement-ex010 | translate | Write in French: an interesting film | — | ["un film intéressant"] | false | Most adjectives go after the noun, and film is masculine.
+- a1-adjective-agreement-ex011 | reorder | Put the words in order: It's an old book. | — | ["C'est un vieux livre"] | false | Vieux is an age word from the BAGS group, so it goes before the noun.
+- a1-adjective-agreement-ex012 | reorder | Put the words in order: She has a modern car. | — | ["Elle a une voiture moderne"] | false | Moderne isn't a BAGS adjective, so it follows the noun.
+
+## a1-review-people
+
+### Vocab
+
+fr | pron | en | note
+
+- il s'appelle / elle s'appelle | eel sah-PEL / el sah-PEL | his name is / her name is | —
+- dans | dahn | in | —
+- la personne | lah pehr-SONN | the person | Always feminine, even for a man.
+- et | ay | and | —
+- mais | meh | but | —
+- aussi | oh-SEE | also, too | —
+- avec | ah-VEK | with | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-review-people-ex001 | fill-in | Ma sœur est ___. (grand) | — | ["grande"] | false | Sœur is feminine and singular, so the adjective adds -e.
+- a1-review-people-ex002 | fill-in | Voici ___ frère. (my) | — | ["mon"] | false | Frère is masculine and singular, so 'my' is mon.
+- a1-review-people-ex003 | fill-in | Mes parents ont deux ___. (voiture) | — | ["voitures"] | false | Deux means there's more than one, so the noun takes -s.
+- a1-review-people-ex004 | fill-in | Ma fille ___ douze ans. (avoir) | — | ["a"] | true | French gives age with avoir, and the form for one person is a.
+- a1-review-people-ex005 | fill-in | Mes grands-parents ___ gentils. (être) | — | ["sont"] | false | Two grandparents means 'they', so être becomes sont.
+- a1-review-people-ex006 | fill-in | Paul est avec ___ femme. (his) | — | ["sa"] | false | Femme is feminine, so it's sa, even though the owner is a man.
+- a1-review-people-ex007 | multiple-choice | How do you say 'a blue car'? | ["une voiture bleue","une bleue voiture","une voiture bleu"] | ["une voiture bleue"] | false | Colours go after the noun, and bleu adds -e for a feminine noun.
+- a1-review-people-ex008 | multiple-choice | How do you say 'Marie's husband'? | ["le mari de Marie","le Marie mari","Marie de le mari"] | ["le mari de Marie"] | false | French has no 's. Say 'the husband of Marie'.
+- a1-review-people-ex009 | multiple-choice | How do you say 'There are five people in my family'? | ["Il y a cinq personnes dans ma famille.","Ils sont cinq personnes dans ma famille.","Il a cinq personnes dans ma famille."] | ["Il y a cinq personnes dans ma famille."] | false | Il y a means 'there is' or 'there are', and it never changes.
+- a1-review-people-ex010 | translate | Write in French: My mother is tall. | — | ["Ma mère est grande"] | false | Mère is feminine, so you need both ma and grande.
+- a1-review-people-ex011 | translate | Write in French: We have two children. | — | ["Nous avons deux enfants","On a deux enfants"] | true | Nous avons is more careful and on a is everyday. Enfants takes -s after deux.
+- a1-review-people-ex012 | reorder | Put the words in order: My father has blue eyes. | — | ["Mon père a les yeux bleus"] | false | Features use avoir and les, and the colour follows yeux.
+
+## a1-er-verbs-present
+
+### Vocab
+
+fr | pron | en | note
+
+- je parle | zhuh PARL | I speak, I'm speaking | —
+- tu parles | tew PARL | you speak (informal) | —
+- il parle / elle parle | eel PARL / el PARL | he speaks / she speaks | —
+- on parle | ohn PARL | we speak (casual) | —
+- nous parlons | noo par-LOHN | we speak | —
+- vous parlez | voo par-LAY | you speak (formal or plural) | —
+- ils parlent / elles parlent | eel PARL / el PARL | they speak | —
+- parler | par-LAY | to speak | —
+- habiter | ah-bee-TAY | to live (in a place) | —
+- travailler | trah-vah-YAY | to work | —
+- écouter | ay-koo-TAY | to listen to | —
+- regarder | ruh-gar-DAY | to watch, to look at | —
+- arriver | ah-ree-VAY | to arrive | —
+- chercher | shehr-SHAY | to look for | —
+- étudier | ay-tew-DYAY | to study | —
+- français | frahn-SEH | French (the language) | —
+- anglais | ahn-GLEH | English (the language) | —
+- à | ah | in, at (with a city) | à Paris (in Paris)
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-er-verbs-present-ex001 | fill-in | Je ___ français. (parler) | — | ["parle"] | true | Take parl- and add -e for je.
+- a1-er-verbs-present-ex002 | fill-in | Tu ___ à Nice ? (habiter) | — | ["habites"] | false | Tu takes -es. The ending is silent, but you need it in writing.
+- a1-er-verbs-present-ex003 | fill-in | Il ___ à Dijon. (travailler) | — | ["travaille"] | false | Il and elle take -e, just like je.
+- a1-er-verbs-present-ex004 | fill-in | Nous ___ anglais. (parler) | — | ["parlons"] | false | Nous takes -ons, and you hear this ending.
+- a1-er-verbs-present-ex005 | fill-in | Vous ___ à Lille ? (habiter) | — | ["habitez"] | false | Vous takes -ez, which sounds like the end of the infinitive.
+- a1-er-verbs-present-ex006 | fill-in | Ils ___ à Nantes. (travailler) | — | ["travaillent"] | false | Ils and elles take -ent, and this ending is silent.
+- a1-er-verbs-present-ex007 | multiple-choice | Which forms of parler all sound the same? | ["parle, parles, parlent","parlons, parlez, parlent","parle, parlez, parlons"] | ["parle, parles, parlent"] | false | The endings -e, -es and -ent are all silent. Only -ons and -ez can be heard.
+- a1-er-verbs-present-ex008 | multiple-choice | Which one is correct? | ["J'habite à Rennes.","Je habite à Rennes.","J'habites à Rennes."] | ["J'habite à Rennes."] | false | Je shortens to j' before a vowel or silent h, and the je ending is -e.
+- a1-er-verbs-present-ex009 | multiple-choice | How do you say 'I'm listening'? | ["J'écoute.","Je suis écoute.","Je écoute."] | ["J'écoute."] | false | One French verb form covers both 'I listen' and 'I'm listening'.
+- a1-er-verbs-present-ex010 | translate | Write in French: I work in Lyon. | — | ["Je travaille à Lyon"] | true | Use je travaille and à with a city.
+- a1-er-verbs-present-ex011 | translate | Write in French: We work in Paris. | — | ["Nous travaillons à Paris","On travaille à Paris"] | true | Nous travaillons is more careful and on travaille is everyday. On uses the same form as il and elle.
+- a1-er-verbs-present-ex012 | reorder | Put the words in order: They speak English. (all women) | — | ["Elles parlent anglais"] | false | Elles is the subject and parlent, with its silent -ent, matches it.
+
+## a1-likes-and-dislikes
+
+### Vocab
+
+fr | pron | en | note
+
+- aimer | eh-MAY | to like, to love | —
+- aimer bien | eh-may BYAN | to like (quite a lot) | —
+- adorer | ah-doh-RAY | to love, to adore | —
+- détester | day-tes-TAY | to hate | —
+- le café | luh kah-FAY | coffee | —
+- le thé | luh TAY | tea | —
+- le chocolat | luh shoh-koh-LAH | chocolate | —
+- la musique | lah mew-ZEEK | music | —
+- le sport | luh SPOR | sport | —
+- le cinéma | luh see-nay-MAH | cinema, films in general | —
+- la pizza | lah peed-ZAH | pizza | —
+- les chats | lay SHAH | cats | —
+- les chiens | lay SHYAN | dogs | —
+- danser | dahn-SAY | to dance | —
+- chanter | shahn-TAY | to sing | —
+- voyager | vwah-yah-ZHAY | to travel | —
+- cuisiner | kwee-zee-NAY | to cook | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-likes-and-dislikes-ex001 | fill-in | J'aime ___ café. | — | ["le"] | false | Coffee in general takes the definite article, and café is masculine.
+- a1-likes-and-dislikes-ex002 | fill-in | Tu aimes ___ musique ? | — | ["la"] | false | Musique is feminine, so a general statement uses la.
+- a1-likes-and-dislikes-ex003 | fill-in | Il adore ___ chats. | — | ["les"] | false | For cats in general, French uses les with the plural.
+- a1-likes-and-dislikes-ex004 | fill-in | J'aime ___. (danser) | — | ["danser"] | false | After aimer, the second verb stays in the infinitive.
+- a1-likes-and-dislikes-ex005 | fill-in | Nous ___ le sport. (aimer) | — | ["aimons"] | false | Aimer is a regular -er verb, so nous takes -ons.
+- a1-likes-and-dislikes-ex006 | fill-in | J'___ le chocolat. (adorer) | — | ["adore"] | false | Adorer starts with a vowel, so je becomes j' and the ending is -e.
+- a1-likes-and-dislikes-ex007 | multiple-choice | How do you say 'I like tea'? | ["J'aime le thé.","J'aime thé.","J'aime un thé."] | ["J'aime le thé."] | false | English has no article here, but French uses le for things in general.
+- a1-likes-and-dislikes-ex008 | multiple-choice | You've just met Paul, and you think Paul is nice. What do you say? | ["J'aime bien Paul.","J'adore Paul.","Je déteste Paul."] | ["J'aime bien Paul."] | false | J'aime bien expresses friendly liking. J'aime on its own, about a person, can suggest love.
+- a1-likes-and-dislikes-ex009 | translate | Write in French: I hate sport. | — | ["Je déteste le sport"] | false | Je doesn't shorten before déteste, and sport in general takes le.
+- a1-likes-and-dislikes-ex010 | translate | Write in French: She likes to sing. | — | ["Elle aime chanter","Elle aime bien chanter"] | false | Aimer with the subject elle has the -e form, followed by the infinitive.
+- a1-likes-and-dislikes-ex011 | reorder | Put the words in order: I love music. | — | ["J'adore la musique"] | false | Verb first, then the article and the noun.
+- a1-likes-and-dislikes-ex012 | reorder | Put the words in order: They like to travel. | — | ["Ils aiment voyager"] | false | Aiment matches ils, and voyager stays in the infinitive.
+
+## a1-negation-ne-pas
+
+### Vocab
+
+fr | pron | en | note
+
+- ne … pas | nuh … PAH | not (around the verb) | —
+- n' … pas | n … PAH | not (before a vowel or silent h) | —
+- pas de / pas d' | pah DUH / pah D | no, not any (replaces un, une, des) | —
+- je ne suis pas | zhuh nuh swee PAH | I'm not | —
+- ce n'est pas | suh neh PAH | it isn't, that isn't | —
+- je n'ai pas / il n'a pas | zhuh nay PAH / eel nah PAH | I don't have / he doesn't have | —
+- je n'aime pas | zhuh nem PAH | I don't like | —
+- il n'y a pas de | eel nyah pah DUH | there isn't any, there aren't any | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-negation-ne-pas-ex001 | fill-in | Je ___ parle pas anglais. | — | ["ne"] | false | Ne goes before the verb and pas after it.
+- a1-negation-ne-pas-ex002 | fill-in | Tu ne travailles ___ ici ? | — | ["pas"] | false | Pas comes straight after the verb.
+- a1-negation-ne-pas-ex003 | multiple-choice | Which one is correct? | ["Je n'habite pas à Paris.","Je ne habite pas à Paris.","Je habite ne pas à Paris."] | ["Je n'habite pas à Paris."] | false | Before a vowel or silent h, ne shortens to n'.
+- a1-negation-ne-pas-ex004 | multiple-choice | How do you say 'I don't have a car'? | ["Je n'ai pas de voiture.","Je n'ai pas une voiture.","Je n'ai voiture pas."] | ["Je n'ai pas de voiture."] | false | After a negative verb, une changes to de: pas de voiture.
+- a1-negation-ne-pas-ex005 | fill-in | Je n'ai pas ___ stylo. | — | ["de"] | false | Un changes to de after the negative. The noun stays the same.
+- a1-negation-ne-pas-ex006 | multiple-choice | Choose the word for the blank: Il n'a pas ___ amis. | ["d'","des","de"] | ["d'"] | false | Des changes to de, and de shortens to d' before a vowel.
+- a1-negation-ne-pas-ex007 | fill-in | Je n'aime pas ___ café. | — | ["le"] | false | Only un, une and des change. Le, la and les stay as they are.
+- a1-negation-ne-pas-ex008 | fill-in | Ce n'est pas ___ chaise. (a chair) | — | ["une"] | false | After être, un and une don't change.
+- a1-negation-ne-pas-ex009 | translate | Write in French: I don't work. | — | ["Je ne travaille pas"] | false | Put ne before the verb and pas after it. In writing, keep the ne.
+- a1-negation-ne-pas-ex010 | translate | Write in French: We don't like tea. | — | ["Nous n'aimons pas le thé","On n'aime pas le thé"] | false | Aimer starts with a vowel, so ne becomes n'. Thé keeps its le.
+- a1-negation-ne-pas-ex011 | reorder | Put the words in order: I don't speak English. | — | ["Je ne parle pas anglais"] | false | Ne and pas sit on either side of the verb. Anything else comes after.
+- a1-negation-ne-pas-ex012 | reorder | Put the words in order: She doesn't like to dance. | — | ["Elle n'aime pas danser"] | false | The negative goes around the first verb. The infinitive comes after pas.
+
+## a1-ir-re-verbs-present
+
+### Vocab
+
+fr | pron | en | note
+
+- je finis | zhuh fee-NEE | I finish | —
+- tu finis | tew fee-NEE | you finish (informal) | —
+- il finit / elle finit / on finit | eel fee-NEE / el fee-NEE / ohn fee-NEE | he, she finishes / we finish (casual) | —
+- nous finissons | noo fee-nee-SOHN | we finish | —
+- vous finissez | voo fee-nee-SAY | you finish (formal or plural) | —
+- ils finissent / elles finissent | eel fee-NEESS / el fee-NEESS | they finish | —
+- finir | fee-NEER | to finish | —
+- choisir | shwah-ZEER | to choose | —
+- réussir | ray-ew-SEER | to succeed, to pass (a test) | —
+- grandir | grahn-DEER | to grow, to grow up | —
+- j'attends | zhah-TAHN | I wait for | —
+- tu attends | tew ah-TAHN | you wait for (informal) | —
+- il attend / elle attend / on attend | ee-lah-TAHN / eh-lah-TAHN / oh-nah-TAHN | he, she waits for / we wait for (casual) | —
+- nous attendons | noo-zah-tahn-DOHN | we wait for | —
+- vous attendez | voo-zah-tahn-DAY | you wait for (formal or plural) | —
+- ils attendent / elles attendent | eel-zah-TAHND / el-zah-TAHND | they wait for | —
+- attendre | ah-TAHN-druh | to wait for | —
+- vendre | VAHN-druh | to sell | —
+- répondre | ray-POHN-druh | to answer | —
+- entendre | ahn-TAHN-druh | to hear | —
+- perdre | PEHR-druh | to lose | —
+- le travail | luh trah-VAH-y | work | —
+- le bus | luh BEWSS | the bus | —
+- le train | luh TRAN | the train | —
+- la voiture | lah vwah-TEWR | the car | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-ir-re-verbs-present-ex001 | fill-in | Je ___ le travail. (finir) | — | ["finis"] | false | Je takes -is in the -ir family.
+- a1-ir-re-verbs-present-ex002 | fill-in | Tu ___ le train ? (choisir) | — | ["choisis"] | false | Tu takes -is too, so it looks the same as the je form.
+- a1-ir-re-verbs-present-ex003 | fill-in | Nous ___ le travail. (finir) | — | ["finissons"] | false | The plural forms of -ir verbs add -iss- before the ending.
+- a1-ir-re-verbs-present-ex004 | fill-in | Ils ___ la voiture. (choisir) | — | ["choisissent"] | false | Plural forms have -iss-, and the -ent ending stays silent.
+- a1-ir-re-verbs-present-ex005 | fill-in | J'___ le bus. (attendre) | — | ["attends"] | false | Take attend- and add -s. Je becomes j' before the vowel.
+- a1-ir-re-verbs-present-ex006 | fill-in | Elle ___ la voiture. (vendre) | — | ["vend"] | false | The il and elle form of an -re verb has no ending, just the stem.
+- a1-ir-re-verbs-present-ex007 | fill-in | Vous ___ le train ? (attendre) | — | ["attendez"] | false | Vous takes -ez in all three verb families.
+- a1-ir-re-verbs-present-ex008 | fill-in | Elles ___ la voiture. (vendre) | — | ["vendent"] | false | Elles takes -ent. The ending is silent, but the d before it is pronounced.
+- a1-ir-re-verbs-present-ex009 | multiple-choice | How do you say 'I'm waiting for Paul'? | ["J'attends Paul.","J'attends pour Paul.","Je attends Paul."] | ["J'attends Paul."] | false | Attendre means 'to wait for', so it needs no word for 'for'.
+- a1-ir-re-verbs-present-ex010 | multiple-choice | Which of these verbs follows the -ir pattern in this lesson? | ["choisir","partir","parler"] | ["choisir"] | false | Choisir follows finir. Partir has its own forms, and parler is an -er verb.
+- a1-ir-re-verbs-present-ex011 | translate | Write in French: She finishes the work. | — | ["Elle finit le travail"] | false | Il and elle take -it in the -ir family.
+- a1-ir-re-verbs-present-ex012 | reorder | Put the words in order: We're waiting for the train. | — | ["Nous attendons le train"] | false | Attendons matches nous, and the train comes straight after, with no extra word.
+
+## a1-numbers-21-100
+
+### Vocab
+
+fr | pron | en | note
+
+- vingt | van | 20 | —
+- trente | trahnt | 30 | —
+- quarante | kah-RAHNT | 40 | —
+- cinquante | san-KAHNT | 50 | —
+- soixante | swah-SAHNT | 60 | The x sounds like an s.
+- vingt et un | van-tay-UHN | 21 | —
+- vingt-deux | vant-DUH | 22 | —
+- trente et un | trahn-tay-UHN | 31 | —
+- trente-neuf | trahnt-NUHF | 39 | —
+- soixante-neuf | swah-sahnt-NUHF | 69 | —
+- soixante-dix | swah-sahnt-DEES | 70 | —
+- soixante et onze | swah-sahn-tay-OHNZ | 71 | —
+- soixante-douze | swah-sahnt-DOOZ | 72 | —
+- soixante-dix-neuf | swah-sahnt-deez-NUHF | 79 | —
+- quatre-vingts | kah-truh-VAN | 80 | —
+- quatre-vingt-un | kah-truh-van-UHN | 81 | —
+- quatre-vingt-deux | kah-truh-van-DUH | 82 | —
+- quatre-vingt-dix | kah-truh-van-DEES | 90 | —
+- quatre-vingt-onze | kah-truh-van-OHNZ | 91 | —
+- quatre-vingt-dix-neuf | kah-truh-van-deez-NUHF | 99 | —
+- cent | sahn | 100 | —
+- septante | sep-TAHNT | 70 (Belgium, Switzerland) | —
+- nonante | noh-NAHNT | 90 (Belgium, Switzerland) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-numbers-21-100-ex001 | translate | Write this number in words: 21 | — | ["vingt et un"] | false | 21, 31, 41, 51, 61 and 71 use et: vingt et un.
+- a1-numbers-21-100-ex002 | translate | Write this number in words: 34 | — | ["trente-quatre"] | false | Say the ten, then the unit: trente-quatre.
+- a1-numbers-21-100-ex003 | translate | Write this number in words: 56 | — | ["cinquante-six"] | false | Cinquante is 50, so 56 is cinquante-six.
+- a1-numbers-21-100-ex004 | translate | Write this number in words: 71 | — | ["soixante et onze"] | false | 71 is 60 + 11, and like the other numbers ending in 1, it uses et.
+- a1-numbers-21-100-ex005 | multiple-choice | What number is soixante-quinze? | ["75","65","85"] | ["75"] | false | Soixante-quinze is 60 + 15 = 75.
+- a1-numbers-21-100-ex006 | translate | Write this number in words: 80 | — | ["quatre-vingts"] | false | 80 is four twenties. It takes an -s when no number follows it.
+- a1-numbers-21-100-ex007 | translate | Write this number in words: 81 | — | ["quatre-vingt-un"] | false | 81 has no et, and vingt loses its -s because another number follows.
+- a1-numbers-21-100-ex008 | translate | Write this number in words: 93 | — | ["quatre-vingt-treize"] | false | 93 is 4 × 20 + 13: quatre-vingt-treize.
+- a1-numbers-21-100-ex009 | multiple-choice | How do you write 61? | ["soixante et un","soixante-un","six-dix-un"] | ["soixante et un"] | false | 21, 31, 41, 51, 61 and 71 take et. 81 and 91 don't.
+- a1-numbers-21-100-ex010 | multiple-choice | Which word would you see for 90 in Belgium? | ["nonante","septante","quatre-vingt-dix"] | ["nonante"] | false | Belgium and Switzerland say nonante for 90. France says quatre-vingt-dix.
+- a1-numbers-21-100-ex011 | multiple-choice | Which one is written correctly? | ["quatre-vingt-deux","quatre-vingts-deux","quatre-vingt et deux"] | ["quatre-vingt-deux"] | false | Vingt only takes -s in exactly 80. When another number follows, the -s goes.
+
+## a1-days-months-dates
+
+### Vocab
+
+fr | pron | en | note
+
+- lundi | luhn-DEE | Monday | —
+- mardi | mar-DEE | Tuesday | —
+- mercredi | mehr-kruh-DEE | Wednesday | —
+- jeudi | zhuh-DEE | Thursday | —
+- vendredi | vahn-druh-DEE | Friday | —
+- samedi | sahm-DEE | Saturday | —
+- dimanche | dee-MAHNSH | Sunday | —
+- janvier | zhahn-VYAY | January | —
+- février | fay-vree-AY | February | —
+- mars | marss | March | —
+- avril | ah-VREEL | April | —
+- mai | meh | May | —
+- juin | zhwan | June | —
+- juillet | zhwee-YEH | July | —
+- août | oot | August | —
+- septembre | sep-TAHM-bruh | September | —
+- octobre | ok-TOH-bruh | October | —
+- novembre | noh-VAHM-bruh | November | —
+- décembre | day-SAHM-bruh | December | —
+- le jour | luh ZHOOR | the day | —
+- la semaine | lah suh-MEN | the week | —
+- le mois | luh MWAH | the month | —
+- aujourd'hui | oh-zhoor-DWEE | today | —
+- On est le… / Nous sommes le… | oh-neh luh / noo somm luh | It's the… (giving the date) | Fixed phrases. On est le… is the everyday one.
+- C'est le… | seh luh | It's the… | —
+- le premier | luh pruh-MYAY | the first (of the month) | —
+- l'anniversaire | lah-nee-vehr-SEHR | the birthday | —
+- Bon anniversaire ! | boh-nah-nee-vehr-SEHR | Happy birthday! | —
+- C'est quand, ton anniversaire ? | seh kahn, toh-nah-nee-vehr-SEHR | When's your birthday? | Fixed phrase for now.
+- Mon anniversaire, c'est le… | moh-nah-nee-vehr-SEHR, seh luh | My birthday is the… | Fixed phrase for now.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-days-months-dates-ex001 | multiple-choice | Which day comes after jeudi? | ["vendredi","mercredi","dimanche"] | ["vendredi"] | false | Jeudi is Thursday, so the next day is vendredi, Friday.
+- a1-days-months-dates-ex002 | fill-in | lundi, mardi, ___, jeudi | — | ["mercredi"] | false | Mercredi, Wednesday, comes between mardi and jeudi.
+- a1-days-months-dates-ex003 | fill-in | janvier, ___, mars | — | ["février"] | false | Février is February. Don't forget the accent.
+- a1-days-months-dates-ex004 | translate | Write in French: Sunday | — | ["dimanche"] | false | Dimanche is the last day of the French week.
+- a1-days-months-dates-ex005 | translate | Write in French: in August | — | ["en août","au mois d'août"] | false | Use en with a month: en août. The circumflex on the u is part of the spelling.
+- a1-days-months-dates-ex006 | translate | Write this date in French: 5 March | — | ["le 5 mars","le cinq mars"] | false | French puts le, then the number, then the month.
+- a1-days-months-dates-ex007 | translate | Write this date in French: 1 May | — | ["le premier mai","le 1er mai"] | false | The first of the month is the only date that uses premier instead of a plain number.
+- a1-days-months-dates-ex008 | multiple-choice | Which one is written correctly? | ["C'est lundi 3 mai.","C'est Lundi 3 Mai.","C'est lundi 3 Mai."] | ["C'est lundi 3 mai."] | false | Days and months take small letters in French.
+- a1-days-months-dates-ex009 | multiple-choice | What does le samedi mean in a sentence about habits? | ["on Saturdays, every Saturday","last Saturday only","in Saturday's month"] | ["on Saturdays, every Saturday"] | false | With le, a day means that day every week.
+- a1-days-months-dates-ex010 | multiple-choice | On a French form, what date is 04/07? | ["4 July","7 April","4 April"] | ["4 July"] | false | French dates give the day first, then the month.
+- a1-days-months-dates-ex011 | fill-in | Mon anniversaire, c'est ___ 12 mars. | — | ["le"] | false | Dates take le before the number.
+- a1-days-months-dates-ex012 | reorder | Put the words in order: It's 14 July. | — | ["C'est le 14 juillet"] | false | The order is le, number, month, the same order as '14 July'.
+
+## a1-telling-time
+
+### Vocab
+
+fr | pron | en | note
+
+- Quelle heure est-il ? | kel uhr eh-TEEL | What time is it? | Everyday version: Il est quelle heure ?
+- Il est… | ee-LEH | It's… (for the time) | —
+- une heure | ew-NUHR | one o'clock, an hour | —
+- deux heures | duh-ZUHR | two o'clock | —
+- midi | mee-DEE | noon | —
+- minuit | mee-NWEE | midnight | —
+- À quelle heure ? | ah kel UHR | At what time? | —
+- à | ah | at (a time) | à huit heures (at eight o'clock)
+- et quart | ay KAR | quarter past | —
+- et demie | ay duh-MEE | half past | —
+- moins le quart | mwan luh KAR | quarter to | —
+- moins dix | mwan DEES | ten to | —
+- du matin | dew mah-TAN | in the morning | Fixed phrase for now.
+- de l'après-midi | duh lah-preh-mee-DEE | in the afternoon | Fixed phrase for now.
+- du soir | dew SWAHR | in the evening | Fixed phrase for now.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-telling-time-ex001 | fill-in | Il est trois ___. | — | ["heures"] | false | From two o'clock on, heure takes an -s.
+- a1-telling-time-ex002 | fill-in | Il est une ___. | — | ["heure"] | false | One o'clock is singular, and heure is feminine, so it's une heure.
+- a1-telling-time-ex003 | fill-in | Il est dix heures et ___. (10:15) | — | ["quart"] | false | Et quart means 'quarter past'.
+- a1-telling-time-ex004 | fill-in | Il est dix heures et ___. (10:30) | — | ["demie"] | false | After heures, 'half' is spelled demie, because heure is feminine.
+- a1-telling-time-ex005 | fill-in | Il est huit heures ___ le quart. (7:45) | — | ["moins"] | false | Moins means 'minus'. It's eight o'clock minus a quarter.
+- a1-telling-time-ex006 | multiple-choice | What does Il est midi mean? | ["It's noon.","It's midnight.","It's ten o'clock."] | ["It's noon."] | false | Midi is noon, and minuit is midnight.
+- a1-telling-time-ex007 | multiple-choice | What time is cinq heures moins dix? | ["4:50","5:10","5:50"] | ["4:50"] | false | It's five o'clock minus ten minutes, which is 4:50.
+- a1-telling-time-ex008 | multiple-choice | How is 20:45 said in 24-hour style? | ["vingt heures quarante-cinq","vingt heures moins le quart","vingt et une heures et quart"] | ["vingt heures quarante-cinq"] | false | In 24-hour style, you say the hours and then the minutes, with no quart, demie or moins.
+- a1-telling-time-ex009 | translate | Write in French: What time is it? | — | ["Quelle heure est-il","Il est quelle heure"] | false | Quelle heure est-il ? works everywhere. Il est quelle heure ? is the everyday version.
+- a1-telling-time-ex010 | translate | Write in French, in everyday 12-hour style: It's 2:30. | — | ["Il est deux heures et demie"] | false | Use et demie for half past, with the -e because heure is feminine.
+- a1-telling-time-ex011 | translate | Write in French: at nine o'clock | — | ["à neuf heures"] | true | Use à for 'at'. The f of neuf has a v sound before heures.
+- a1-telling-time-ex012 | reorder | Put the words in order: It's half past six. | — | ["Il est six heures et demie"] | false | Il est, then the hour with heures, then et demie.
+
+## a1-daily-routine-reflexive
+
+### Vocab
+
+fr | pron | en | note
+
+- je me lève | zhuh muh LEV | I get up | —
+- tu te lèves | tew tuh LEV | you get up (informal) | —
+- il se lève / elle se lève | eel suh LEV / el suh LEV | he gets up / she gets up | —
+- on se lève | ohn suh LEV | we get up (casual) | —
+- nous nous levons | noo noo luh-VOHN | we get up | —
+- vous vous levez | voo voo luh-VAY | you get up (formal or plural) | —
+- ils se lèvent / elles se lèvent | eel suh LEV / el suh LEV | they get up | —
+- se lever | suh luh-VAY | to get up | —
+- se réveiller | suh ray-veh-YAY | to wake up | —
+- se doucher | suh doo-SHAY | to have a shower | —
+- se laver | suh lah-VAY | to wash (yourself) | —
+- se brosser les dents | suh broh-say lay DAHN | to brush your teeth | —
+- s'habiller | sah-bee-YAY | to get dressed | —
+- se dépêcher | suh day-peh-SHAY | to hurry | —
+- se reposer | suh ruh-poh-ZAY | to rest | —
+- se coucher | suh koo-SHAY | to go to bed | —
+- s'appeler | sah-PLAY | to be called | —
+- le matin | luh mah-TAN | the morning, in the morning | —
+- le soir | luh SWAHR | the evening, in the evening | —
+- déjeuner | day-zhuh-NAY | to have lunch | —
+- dîner | dee-NAY | to have dinner | —
+- rentrer | rahn-TRAY | to go home, to get back | —
+- laver | lah-VAY | to wash (something) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-daily-routine-reflexive-ex001 | fill-in | Je ___ lève à sept heures. | — | ["me"] | false | The pronoun for je is me.
+- a1-daily-routine-reflexive-ex002 | fill-in | Tu ___ couches à minuit ? | — | ["te"] | false | The pronoun for tu is te.
+- a1-daily-routine-reflexive-ex003 | fill-in | Elle ___ réveille à six heures. | — | ["se"] | false | The pronoun for il and elle is se.
+- a1-daily-routine-reflexive-ex004 | fill-in | Nous ___ levons à huit heures. | — | ["nous"] | false | With nous, you say the word twice: nous nous levons.
+- a1-daily-routine-reflexive-ex005 | fill-in | Vous ___ appelez comment ? | — | ["vous"] | false | With vous, you say the word twice. S'appeler is a reflexive verb too.
+- a1-daily-routine-reflexive-ex006 | multiple-choice | Choose the word for the blank: Je ___ habille. | ["m'","me","se"] | ["m'"] | false | Before a vowel or silent h, me shortens to m'.
+- a1-daily-routine-reflexive-ex007 | fill-in | Ils se ___ à minuit. (se coucher) | — | ["couchent"] | false | The verb part takes the normal -ent ending for ils.
+- a1-daily-routine-reflexive-ex008 | fill-in | Je me ___ à six heures. (se lever) | — | ["lève"] | false | With je, lever takes a grave accent: lève.
+- a1-daily-routine-reflexive-ex009 | multiple-choice | Which sentence means 'I'm having a wash'? | ["Je me lave.","Je lave la voiture.","Je lave."] | ["Je me lave."] | false | The reflexive pronoun shows you're washing yourself. Je lave la voiture means you're washing a car.
+- a1-daily-routine-reflexive-ex010 | translate | Write in French: I get up at seven. | — | ["Je me lève à sept heures","Je me lève à 7 heures"] | true | Se lever needs the pronoun me, and the time needs heures.
+- a1-daily-routine-reflexive-ex011 | translate | Write in French: She goes to bed at eleven. | — | ["Elle se couche à onze heures","Elle se couche à 11 heures"] | true | Se coucher is the verb for going to bed.
+- a1-daily-routine-reflexive-ex012 | reorder | Put the words in order: I brush my teeth. | — | ["Je me brosse les dents"] | false | French uses les here, not a word for 'my', because the pronoun me already shows whose teeth they are.
+
+## a1-review-everyday-life
+
+### Vocab
+
+fr | pron | en | note
+
+- tôt | toh | early | —
+- tard | tar | late | —
+- tous les jours | too lay ZHOOR | every day | —
+- du lundi au vendredi | dew luhn-DEE oh vahn-druh-DEE | from Monday to Friday | Fixed phrase for now.
+- le travail | luh trah-VAH-y | work | —
+- des amis | day-zah-MEE | some friends | —
+- avec | ah-VEK | with | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-review-everyday-life-ex001 | fill-in | Tu te ___ à six heures ? (se lever) | — | ["lèves"] | false | With tu, se lever is te lèves, with a grave accent and a silent -es.
+- a1-review-everyday-life-ex002 | fill-in | Nous ___ le travail à cinq heures. (finir) | — | ["finissons"] | false | Nous takes -iss- and -ons in the -ir family.
+- a1-review-everyday-life-ex003 | fill-in | Elle ___ le bus. (attendre) | — | ["attend"] | false | The elle form of an -re verb has no ending.
+- a1-review-everyday-life-ex004 | fill-in | Je ne travaille ___ le dimanche. | — | ["pas"] | false | Pas comes straight after the verb.
+- a1-review-everyday-life-ex005 | fill-in | Je n'ai pas ___ voiture. | — | ["de"] | false | After a negative verb, un, une and des change to de.
+- a1-review-everyday-life-ex006 | fill-in | Je travaille ___ lundi. (every Monday) | — | ["le"] | false | With le, a day means that day every week.
+- a1-review-everyday-life-ex007 | multiple-choice | Which sentence is correct? | ["Je ne me lève pas tôt.","Je me ne lève pas tôt.","Je ne lève me pas tôt."] | ["Je ne me lève pas tôt."] | false | Ne comes before the reflexive pronoun, and pas comes after the verb.
+- a1-review-everyday-life-ex008 | multiple-choice | How is 18h30 said in 24-hour style? | ["dix-huit heures trente","dix-huit heures et demie","six heures moins trente"] | ["dix-huit heures trente"] | false | In 24-hour style, you give hours and then minutes, without demie.
+- a1-review-everyday-life-ex009 | multiple-choice | How do you say 'the first of May'? | ["le premier mai","le un mai","le mai premier"] | ["le premier mai"] | false | The first of the month is the only date that uses premier.
+- a1-review-everyday-life-ex010 | translate | Write in French: I don't work on Sundays. | — | ["Je ne travaille pas le dimanche"] | false | Ne…pas goes around the verb, and le dimanche means on Sundays.
+- a1-review-everyday-life-ex011 | translate | Write in French, in everyday 12-hour style: It's half past eight. | — | ["Il est huit heures et demie"] | false | Don't forget heures, and the -e on demie.
+- a1-review-everyday-life-ex012 | reorder | Put the words in order: I don't get up early. | — | ["Je ne me lève pas tôt"] | false | Ne and the pronoun go before the verb, and pas goes after it.
+
+## a1-faire-and-aller
+
+### Vocab
+
+fr | pron | en | note
+
+- faire | fehr | to do, to make | —
+- je fais | zhuh FEH | I do, I make | —
+- tu fais | tew FEH | you do, you make (informal) | —
+- il fait / elle fait | eel FEH / el FEH | he does, she does | —
+- on fait | ohn FEH | we do (casual) | —
+- nous faisons | noo fuh-ZOHN | we do, we make | —
+- vous faites | voo FET | you do, you make (formal or plural) | —
+- ils font / elles font | eel FOHN / el FOHN | they do, they make | —
+- faire les courses | fehr lay KOORSS | to do the food shopping | —
+- faire la cuisine | fehr lah kwee-ZEEN | to do the cooking | —
+- faire le ménage | fehr luh may-NAHZH | to do the housework | —
+- faire la vaisselle | fehr lah veh-SEL | to do the dishes | —
+- un gâteau | uhn gah-TOH | a cake | —
+- Qu'est-ce que tu fais ? | kess-kuh tew FEH | What are you doing? | Fixed phrase for now.
+- aller | ah-LAY | to go | —
+- je vais | zhuh VEH | I go, I'm going | —
+- tu vas | tew VAH | you go (informal) | —
+- il va / elle va | eel VAH / el VAH | he goes / she goes | —
+- on va | ohn VAH | we go (casual) | —
+- nous allons | noo-zah-LOHN | we go | —
+- vous allez | voo-zah-LAY | you go (formal or plural) | —
+- ils vont / elles vont | eel VOHN / el VOHN | they go | —
+- Comment allez-vous ? | koh-mahn-tah-lay VOO | How are you? (formal) | Fixed phrase.
+- Je vais bien. | zhuh veh BYAN | I'm well. | —
+- Ça va ? | sah VAH | How's it going? / Are you OK? | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-faire-and-aller-ex001 | fill-in | Je ___ la cuisine. (faire) | — | ["fais"] | false | Je fais = I do, I make.
+- a1-faire-and-aller-ex002 | fill-in | Tu ___ à Lyon ? (aller) | — | ["vas"] | false | Tu vas = you go, you're going.
+- a1-faire-and-aller-ex003 | fill-in | Elle ___ les courses. (faire) | — | ["fait"] | false | Il and elle take fait, with a silent t.
+- a1-faire-and-aller-ex004 | fill-in | Nous ___ à Nice. (aller) | — | ["allons"] | false | Nous allons follows the look of an -er verb.
+- a1-faire-and-aller-ex005 | fill-in | Vous ___ le ménage ? (faire) | — | ["faites"] | false | Vous faites is irregular. It doesn't end in -ez.
+- a1-faire-and-aller-ex006 | fill-in | Ils ___ à Paris. (aller) | — | ["vont"] | false | Ils vont = they go.
+- a1-faire-and-aller-ex007 | fill-in | Elles ___ la vaisselle. (faire) | — | ["font"] | false | Elles font = they do. It's another -ont form.
+- a1-faire-and-aller-ex008 | fill-in | Nous ___ un gâteau. (faire) | — | ["faisons"] | false | Nous faisons = we make. The ai here sounds like the e of le.
+- a1-faire-and-aller-ex009 | multiple-choice | What does Comment allez-vous ? mean? | ["How are you?","Where are you going?","What are you doing?"] | ["How are you?"] | false | Aller is used for how you are as well as for going places.
+- a1-faire-and-aller-ex010 | multiple-choice | Choose the correct form: Vous ___ la vaisselle ? | ["faites","faisez","font"] | ["faites"] | false | Faire doesn't follow the -ez pattern. It's vous faites.
+- a1-faire-and-aller-ex011 | translate | Write in French: I'm going to Marseille. | — | ["Je vais à Marseille"] | true | Use je vais and à with a city.
+- a1-faire-and-aller-ex012 | reorder | Put the words in order: We're doing the food shopping. | — | ["Nous faisons les courses"] | false | Nous faisons, then the fixed phrase les courses.
+
+## a1-contractions-a-de
+
+### Vocab
+
+fr | pron | en | note
+
+- au | oh | to the, at the (à + le) | au cinéma
+- à la | ah lah | to the, at the (feminine) | à la piscine
+- à l' | ah l | to the, at the (before a vowel or silent h) | à l'école
+- aux | oh | to the, at the (à + les) | aux États-Unis
+- du | dew | of the, from the, about the (de + le) | du film
+- de la | duh lah | of the, from the, about the (feminine) | de la musique
+- de l' | duh l | of the, from the, about the (before a vowel or silent h) | de l'hôtel
+- des | day | of the, from the, about the (de + les) | des billets
+- le cinéma | luh see-nay-MAH | the cinema | —
+- le parc | luh PARK | the park | —
+- le musée | luh mew-ZAY | the museum | —
+- le restaurant | luh res-toh-RAHN | the restaurant | —
+- le travail | luh trah-VAH-y | work | —
+- la piscine | lah pee-SEEN | the swimming pool | —
+- la plage | lah PLAHZH | the beach | —
+- l'école | lay-KOHL | the school | —
+- l'hôtel | loh-TEL | the hotel | —
+- les États-Unis | lay-zay-tah-zew-NEE | the United States | —
+- la porte | lah PORT | the door | —
+- le prix | luh PREE | the price | —
+- le billet | luh bee-YEH | the ticket | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-contractions-a-de-ex001 | fill-in | Je vais ___ cinéma. | — | ["au"] | false | À + le always becomes au.
+- a1-contractions-a-de-ex002 | fill-in | Tu vas ___ piscine ? | — | ["à la"] | true | À la doesn't change, because la is feminine.
+- a1-contractions-a-de-ex003 | multiple-choice | Choose the words for the blank: Elle va ___ école. | ["à l'","au","à la"] | ["à l'"] | false | École starts with a vowel, so the article is l', and à stays separate.
+- a1-contractions-a-de-ex004 | fill-in | Nous allons ___ restaurant. | — | ["au"] | false | Restaurant is masculine, so à + le becomes au.
+- a1-contractions-a-de-ex005 | multiple-choice | Choose the word for the blank: Ils vont ___ États-Unis. | ["aux","au","à les"] | ["aux"] | false | À + les always becomes aux.
+- a1-contractions-a-de-ex006 | fill-in | Je parle ___ film. | — | ["du"] | false | De + le always becomes du.
+- a1-contractions-a-de-ex007 | fill-in | Tu parles ___ musique ? | — | ["de la"] | false | De la doesn't change, because la is feminine.
+- a1-contractions-a-de-ex008 | multiple-choice | Choose the words for the blank: la porte ___ hôtel | ["de l'","du","de la"] | ["de l'"] | false | Hôtel starts with a silent h, so the article is l', and de stays separate.
+- a1-contractions-a-de-ex009 | fill-in | le prix ___ billets (of the tickets) | — | ["des"] | false | De + les always becomes des.
+- a1-contractions-a-de-ex010 | translate | Write in French: We're going to the park. | — | ["Nous allons au parc","On va au parc"] | false | Parc is masculine, so à + le becomes au.
+- a1-contractions-a-de-ex011 | translate | Write in French: to the museum | — | ["au musée"] | false | Musée ends in -ée, but it's masculine, so it's au.
+- a1-contractions-a-de-ex012 | reorder | Put the words in order: They're going to the beach. | — | ["Ils vont à la plage"] | false | Plage is feminine, so à and la stay as two separate words.
+
+## a1-hobbies-and-sports
+
+### Vocab
+
+fr | pron | en | note
+
+- jouer | zhoo-AY | to play | —
+- jouer au foot | zhoo-ay oh FOOT | to play football | —
+- jouer au tennis | zhoo-ay oh teh-NEES | to play tennis | —
+- jouer au basket | zhoo-ay oh bahs-KET | to play basketball | —
+- jouer aux cartes | zhoo-ay oh KART | to play cards | —
+- jouer aux échecs | zhoo-ay oh-zay-SHEK | to play chess | —
+- jouer aux jeux vidéo | zhoo-ay oh zhuh vee-day-OH | to play video games | —
+- jouer du piano | zhoo-ay dew pyah-NOH | to play the piano | —
+- jouer du violon | zhoo-ay dew vyoh-LOHN | to play the violin | —
+- jouer de la guitare | zhoo-ay duh lah ghee-TAR | to play the guitar | —
+- faire du vélo | fehr dew vay-LOH | to cycle | —
+- faire du ski | fehr dew SKEE | to ski | —
+- faire du yoga | fehr dew yoh-GAH | to do yoga | —
+- faire de la natation | fehr duh lah nah-tah-SYOHN | to swim (as a sport) | —
+- faire de la danse | fehr duh lah DAHNSS | to dance (as a hobby) | —
+- faire de la randonnée | fehr duh lah rahn-doh-NAY | to go hiking | —
+- lire | leer | to read | Use it after j'aime for now: j'aime lire.
+- la lecture | lah lek-TEWR | reading | —
+- écouter de la musique | ay-koo-tay duh lah mew-ZEEK | to listen to music | Fixed phrase for now.
+- aller au cinéma | ah-lay oh see-nay-MAH | to go to the cinema | —
+- les loisirs | lay lwah-ZEER | free-time activities, leisure | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-hobbies-and-sports-ex001 | fill-in | Je joue ___ foot. | — | ["au"] | false | Games and ball sports take jouer à, and à + le becomes au.
+- a1-hobbies-and-sports-ex002 | fill-in | Tu joues ___ piano ? | — | ["du"] | false | Instruments take jouer de, and de + le becomes du.
+- a1-hobbies-and-sports-ex003 | fill-in | Elle joue ___ guitare. | — | ["de la"] | false | Guitare is feminine, so de la stays as two words.
+- a1-hobbies-and-sports-ex004 | fill-in | Ils jouent ___ cartes. | — | ["aux"] | false | Cartes is plural, so à + les becomes aux.
+- a1-hobbies-and-sports-ex005 | fill-in | Nous faisons ___ vélo. | — | ["du"] | false | Faire takes de, and vélo is masculine, so it's du.
+- a1-hobbies-and-sports-ex006 | fill-in | Vous faites ___ natation ? | — | ["de la"] | false | Natation is feminine, so it's de la.
+- a1-hobbies-and-sports-ex007 | fill-in | Il ___ du ski. (faire) | — | ["fait"] | false | Skiing uses faire, and the il form is fait.
+- a1-hobbies-and-sports-ex008 | multiple-choice | How do you say 'I play tennis'? | ["Je joue au tennis.","Je joue du tennis.","Je joue le tennis."] | ["Je joue au tennis."] | false | Tennis is a game, so it takes jouer à.
+- a1-hobbies-and-sports-ex009 | multiple-choice | How do you say 'She plays the violin'? | ["Elle joue du violon.","Elle joue au violon.","Elle fait le violon."] | ["Elle joue du violon."] | false | An instrument takes jouer de.
+- a1-hobbies-and-sports-ex010 | translate | Write in French: I like reading. | — | ["J'aime lire","J'aime bien lire","J'aime la lecture"] | false | After aimer, use the infinitive lire or the noun with its article, la lecture.
+- a1-hobbies-and-sports-ex011 | translate | Write in French: She plays chess. | — | ["Elle joue aux échecs"] | false | Les échecs is plural, so it's aux.
+- a1-hobbies-and-sports-ex012 | reorder | Put the words in order: I love playing basketball. | — | ["J'adore jouer au basket"] | false | After j'adore, the verb stays in the infinitive. The au stays with the sport.
+
+## a1-yes-no-questions
+
+### Vocab
+
+fr | pron | en | note
+
+- est-ce que | ess-kuh | (turns a sentence into a question) | —
+- est-ce qu' | ess-k | (the same, before a vowel or silent h) | —
+- oui | wee | yes | —
+- non | nohn | no | —
+- si | see | yes (contradicting a negative question) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-yes-no-questions-ex001 | fill-in | ___ tu aimes le foot ? | — | ["Est-ce que"] | false | Est-ce que goes at the start, and the sentence after it doesn't change.
+- a1-yes-no-questions-ex002 | fill-in | Est-ce ___ vous faites du vélo ? | — | ["que"] | false | Before a consonant such as the v of vous, it's que in full.
+- a1-yes-no-questions-ex003 | multiple-choice | Choose the word for the blank: Est-ce ___ il joue au tennis ? | ["qu'","que","qui"] | ["qu'"] | false | Que shortens to qu' before a vowel.
+- a1-yes-no-questions-ex004 | multiple-choice | Tu n'aimes pas le tennis ? — ___, j'adore le tennis ! | ["Si","Oui","Non"] | ["Si"] | false | After a negative question, use si to say 'yes, I do'.
+- a1-yes-no-questions-ex005 | multiple-choice | Tu aimes le tennis ? — ___, j'adore le tennis ! | ["Oui","Si","Non"] | ["Oui"] | false | The question isn't negative, so the normal yes is oui.
+- a1-yes-no-questions-ex006 | multiple-choice | Which question is the most formal? | ["Parlez-vous anglais ?","Vous parlez anglais ?","Est-ce que vous parlez anglais ?"] | ["Parlez-vous anglais ?"] | false | Inversion is the most formal of the three ways of asking.
+- a1-yes-no-questions-ex007 | multiple-choice | How do you turn Elle joue au tennis into an inverted question? | ["Joue-t-elle au tennis ?","Joue-elle au tennis ?","Joue elle-t au tennis ?"] | ["Joue-t-elle au tennis ?"] | false | When the verb ends in a vowel, add -t- before il, elle or on.
+- a1-yes-no-questions-ex008 | translate | Write in French, speaking to a friend and using est-ce que: Do you play the piano? | — | ["Est-ce que tu joues du piano"] | false | Est-ce que goes at the start, and the rest stays as a normal sentence.
+- a1-yes-no-questions-ex009 | translate | Write in French, formally, using inversion: Do you speak English? | — | ["Parlez-vous anglais"] | false | With inversion, the verb goes first, with a hyphen before vous.
+- a1-yes-no-questions-ex010 | fill-in | Aimes-___ le sport ? | — | ["tu"] | false | With inversion, the pronoun goes after the verb, with a hyphen.
+- a1-yes-no-questions-ex011 | reorder | Put the words in order: Do you cycle? | — | ["Est-ce que tu fais du vélo"] | false | Est-ce que comes first, then a normal sentence.
+- a1-yes-no-questions-ex012 | reorder | Put the words in order, using inversion: Do you like music? | — | ["Aimez-vous la musique"] | false | The inverted verb and pronoun come first, then the rest of the sentence.
+
+## a1-question-words
+
+### Vocab
+
+fr | pron | en | note
+
+- où | oo | where | —
+- quand | kahn | when | —
+- comment | koh-MAHN | how, what … like | —
+- pourquoi | poor-KWAH | why | —
+- parce que | pars-kuh | because | Parce qu' before a vowel.
+- combien (de) | kohn-BYAN (duh) | how much, how many | —
+- qui | kee | who | —
+- qu'est-ce que | kess-kuh | what (at the start of a question) | Qu'est-ce qu' before a vowel.
+- quoi | kwah | what (at the end of a casual question) | —
+- que | kuh | what (formal, with inversion) | Qu' before a vowel.
+- quel / quelle | kel | which, what (masculine / feminine singular) | —
+- quels / quelles | kel | which, what (masculine / feminine plural) | —
+- la chanson | lah shahn-SOHN | the song | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-question-words-ex001 | fill-in | Tu habites ___ ? (where) | — | ["où"] | true | Où means 'where'. Without the accent, ou means 'or'.
+- a1-question-words-ex002 | fill-in | Tu joues au tennis ___ ? (when) | — | ["quand"] | false | Quand means 'when'. In casual questions it can go at the end.
+- a1-question-words-ex003 | fill-in | ___ est-ce que tu fais du yoga ? (why) | — | ["Pourquoi"] | false | Pourquoi means 'why', and est-ce que can follow it.
+- a1-question-words-ex004 | fill-in | Je fais du yoga ___ j'adore le yoga. (because) | — | ["parce que"] | false | Parce que means 'because'. It's written as two words.
+- a1-question-words-ex005 | fill-in | Vous vous appelez ___ ? (what, literally 'how') | — | ["comment"] | false | French asks 'you call yourself how?', so it uses comment.
+- a1-question-words-ex006 | fill-in | ___ de chansons tu chantes ? (how many) | — | ["Combien"] | false | Combien de goes with a noun to mean 'how many'.
+- a1-question-words-ex007 | fill-in | ___ joue au foot ? (who) | — | ["Qui"] | false | Qui means 'who', and here it's the subject of joue.
+- a1-question-words-ex008 | multiple-choice | Choose the word for the blank: ___ sport aimes-tu ? | ["Quel","Quelle","Quels"] | ["Quel"] | false | Sport is masculine and singular, so it's quel.
+- a1-question-words-ex009 | multiple-choice | Choose the word for the blank: ___ musique aimes-tu ? | ["Quelle","Quel","Quelles"] | ["Quelle"] | false | Musique is feminine and singular, so it's quelle.
+- a1-question-words-ex010 | multiple-choice | How do you say 'What are you doing?' to a friend? | ["Qu'est-ce que tu fais ?","Quel tu fais ?","Quoi est-ce que tu fais ?"] | ["Qu'est-ce que tu fais ?"] | false | At the start of a question, 'what' is qu'est-ce que. Quel goes directly with a noun.
+- a1-question-words-ex011 | translate | Write in French, speaking to a friend: Where do you live? | — | ["Tu habites où","Où tu habites","Où est-ce que tu habites","Où habites-tu"] | true | All of these work. Tu habites où ? is the most relaxed and Où habites-tu ? the most formal.
+- a1-question-words-ex012 | reorder | Put the words in order: Why do you play tennis? | — | ["Pourquoi est-ce que tu joues au tennis"] | false | The question word comes first, then est-ce que, then a normal sentence.
+
+## a1-weather-seasons
+
+### Vocab
+
+fr | pron | en | note
+
+- Quel temps fait-il ? | kel tahn feh-TEEL | What's the weather like? | Everyday version: Il fait quel temps ?
+- Il fait beau. | eel feh BOH | The weather's nice. | —
+- Il fait mauvais. | eel feh moh-VEH | The weather's bad. | —
+- Il fait chaud. | eel feh SHOH | It's hot. | —
+- Il fait froid. | eel feh FRWAH | It's cold. | —
+- Il fait vingt degrés. | eel feh van duh-GRAY | It's twenty degrees. | —
+- Il pleut. | eel PLUH | It's raining. | —
+- Il neige. | eel NEZH | It's snowing. | —
+- Il y a du soleil. | eel-yah dew soh-LAY | It's sunny. | Fixed phrase for now.
+- Il y a du vent. | eel-yah dew VAHN | It's windy. | Fixed phrase for now.
+- Il y a des nuages. | eel-yah day new-AHZH | It's cloudy. | Fixed phrase for now.
+- la saison | lah seh-ZOHN | the season | —
+- le printemps | luh pran-TAHN | spring | au printemps (in spring)
+- l'été | lay-TAY | summer | en été (in summer)
+- l'automne | loh-TONN | autumn | en automne (in autumn)
+- l'hiver | lee-VEHR | winter | en hiver (in winter)
+- J'ai chaud. / J'ai froid. | zhay SHOH / zhay FRWAH | I'm hot. / I'm cold. (how you feel) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-weather-seasons-ex001 | fill-in | Il ___ beau aujourd'hui. (faire) | — | ["fait"] | false | Weather descriptions use il fait.
+- a1-weather-seasons-ex002 | fill-in | Il fait ___. (It's hot.) | — | ["chaud"] | false | Il fait chaud means it's hot outside.
+- a1-weather-seasons-ex003 | fill-in | Il fait ___. (It's cold.) | — | ["froid"] | false | Il fait froid means it's cold outside.
+- a1-weather-seasons-ex004 | fill-in | Il ___. (It's raining.) | — | ["pleut"] | false | Il pleut is a verb of its own, so you don't use fait.
+- a1-weather-seasons-ex005 | fill-in | Il ___ en janvier. (It snows) | — | ["neige"] | false | Il neige means both 'it's snowing' and 'it snows'.
+- a1-weather-seasons-ex006 | multiple-choice | How do you say 'in spring'? | ["au printemps","en printemps","à printemps"] | ["au printemps"] | false | Spring is the one season that uses au. The other three use en.
+- a1-weather-seasons-ex007 | fill-in | En ___, il fait chaud. (summer) | — | ["été"] | true | Été is summer, and it has two acute accents.
+- a1-weather-seasons-ex008 | multiple-choice | You're shivering. How do you say how you feel? | ["J'ai froid.","Il fait froid.","Je suis froid."] | ["J'ai froid."] | false | For how you feel, use avoir. Il fait froid describes the weather.
+- a1-weather-seasons-ex009 | multiple-choice | What does Quel temps fait-il ? mean? | ["What's the weather like?","What time is it?","What season is it?"] | ["What's the weather like?"] | false | Le temps here means the weather. Quelle heure est-il ? is the question for the time.
+- a1-weather-seasons-ex010 | translate | Write in French: The weather's nice. | — | ["Il fait beau"] | false | French says il fait beau, literally 'it makes beautiful'.
+- a1-weather-seasons-ex011 | translate | Write in French: in winter | — | ["en hiver"] | false | Hiver starts with a silent h, and the season takes en.
+- a1-weather-seasons-ex012 | reorder | Put the words in order: It's windy. | — | ["Il y a du vent"] | false | Il y a du vent is a fixed phrase for wind.
+
+## a1-review-free-time
+
+### Vocab
+
+fr | pron | en | note
+
+- le week-end | luh wee-KEND | the weekend, at weekends | —
+- souvent | soo-VAHN | often | —
+- quand | kahn | when (joining two ideas) | Quand il pleut, … (When it rains, …)
+- aussi | oh-SEE | also, too | —
+- mais | meh | but | —
+- la pluie | lah PLWEE | the rain | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-review-free-time-ex001 | fill-in | Tu joues ___ tennis ? | — | ["au"] | false | Tennis is a ball sport, so it takes jouer à, and à + le becomes au.
+- a1-review-free-time-ex002 | fill-in | Elle joue ___ piano. | — | ["du"] | false | Instruments take jouer de, and de + le becomes du.
+- a1-review-free-time-ex003 | fill-in | Nous faisons ___ natation. | — | ["de la"] | false | Natation is feminine, so it's faire de la natation.
+- a1-review-free-time-ex004 | fill-in | Il ___ en février. (It snows) | — | ["neige"] | false | Il neige is the verb for snow.
+- a1-review-free-time-ex005 | fill-in | ___ est-ce que tu habites ? (where) | — | ["Où"] | true | Où means 'where', and it needs its accent.
+- a1-review-free-time-ex006 | fill-in | Je vais au parc ___ il fait beau. (when) | — | ["quand"] | false | Quand can join two ideas: when the weather's nice.
+- a1-review-free-time-ex007 | multiple-choice | Choose the word for the blank: ___ saison aimes-tu ? | ["Quelle","Quel","Qu'est-ce que"] | ["Quelle"] | false | Saison is feminine and singular, and quel goes straight before a noun.
+- a1-review-free-time-ex008 | multiple-choice | How do you say 'in autumn'? | ["en automne","au automne","à automne"] | ["en automne"] | false | Only spring takes au. The other three seasons take en.
+- a1-review-free-time-ex009 | multiple-choice | Tu n'aimes pas le ski ? — ___, j'adore le ski ! | ["Si","Oui","Quand"] | ["Si"] | false | Si contradicts a negative question.
+- a1-review-free-time-ex010 | translate | Write in French, speaking to a friend: What do you do at weekends? | — | ["Qu'est-ce que tu fais le week-end","Tu fais quoi le week-end","Que fais-tu le week-end"] | false | All three work. Tu fais quoi is the most relaxed, and Que fais-tu the most formal.
+- a1-review-free-time-ex011 | translate | Write in French: It's raining. | — | ["Il pleut"] | false | Rain has its own verb, so you don't need il fait.
+- a1-review-free-time-ex012 | reorder | Put the words in order: What do you do when it rains? | — | ["Qu'est-ce que tu fais quand il pleut","Quand il pleut qu'est-ce que tu fais"] | false | Quand il pleut is one block, and it can come at the start or the end of the question.
+
+## a1-food-and-drink
+
+### Vocab
+
+fr | pron | en | note
+
+- le repas | luh ruh-PAH | the meal | —
+- le petit déjeuner | luh puh-tee day-zhuh-NAY | breakfast | —
+- le déjeuner | luh day-zhuh-NAY | lunch | —
+- le dîner | luh dee-NAY | dinner | —
+- le pain | luh PAN | bread | —
+- le beurre | luh BUHR | butter | —
+- le fromage | luh froh-MAHZH | cheese | —
+- l'œuf | LUHF | the egg | In the plural the f is silent: les œufs.
+- la viande | lah VYAHND | meat | —
+- le poulet | luh poo-LEH | chicken | —
+- le poisson | luh pwah-SOHN | fish | —
+- le riz | luh REE | rice | —
+- les pâtes | lay PAHT | pasta | Always plural in French.
+- la soupe | lah SOOP | soup | —
+- le gâteau | luh gah-TOH | cake | —
+- l'eau | LOH | water | —
+- le lait | luh LEH | milk | —
+- le café | luh kah-FAY | coffee | —
+- le thé | luh TAY | tea | —
+- le jus d'orange | luh zhew doh-RAHNZH | orange juice | —
+- le vin | luh VAN | wine | —
+- la bière | lah BYEHR | beer | —
+- la pomme | lah POMM | apple | —
+- la banane | lah bah-NAHN | banana | —
+- l'orange | loh-RAHNZH | the orange | Feminine: une orange.
+- la fraise | lah FREZ | strawberry | —
+- la pomme de terre | lah pomm duh TEHR | potato | —
+- la carotte | lah kah-ROTT | carrot | —
+- la tomate | lah toh-MAHT | tomato | —
+- la salade | lah sah-LAHD | lettuce, salad | —
+- l'oignon | loh-NYOHN | the onion | Masculine: un oignon.
+- le haricot | luh ah-ree-KOH | bean | The h stops the shortening: le haricot, not l'haricot.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-food-and-drink-ex001 | multiple-choice | What does le fromage mean? | ["cheese","butter","bread"] | ["cheese"] | false | Le fromage is cheese. Le beurre is butter and le pain is bread.
+- a1-food-and-drink-ex002 | multiple-choice | What does la viande mean? | ["meat","wine","fish"] | ["meat"] | false | La viande is meat. Don't confuse it with le vin, wine.
+- a1-food-and-drink-ex003 | fill-in | C'est ___ pomme. (an apple) | — | ["une"] | false | Pomme is feminine, so it takes une.
+- a1-food-and-drink-ex004 | fill-in | C'est ___ œuf. (an egg) | — | ["un"] | false | Œuf is masculine, so it takes un.
+- a1-food-and-drink-ex005 | fill-in | le ___ d'orange (juice) | — | ["jus"] | false | Le jus d'orange is orange juice. The s of jus is silent.
+- a1-food-and-drink-ex006 | translate | Write in French: the water | — | ["l'eau"] | false | Eau is feminine and starts with a vowel, so la becomes l'.
+- a1-food-and-drink-ex007 | translate | Write in French: the bread | — | ["le pain"] | false | Pain is masculine, and it looks nothing like the English word.
+- a1-food-and-drink-ex008 | translate | Write in French: the fish | — | ["le poisson"] | false | Poisson has a double s, which keeps the s sound.
+- a1-food-and-drink-ex009 | translate | Write in French: breakfast | — | ["le petit déjeuner"] | false | Le petit déjeuner is literally 'the little lunch'.
+- a1-food-and-drink-ex010 | multiple-choice | Which of these is a drink? | ["le lait","le riz","le poulet"] | ["le lait"] | false | Le lait is milk. Le riz is rice and le poulet is chicken.
+- a1-food-and-drink-ex011 | multiple-choice | What's la pomme de terre? | ["a potato","an apple","a tomato"] | ["a potato"] | false | Une pomme is an apple. Une pomme de terre, 'an apple of the earth', is a potato.
+- a1-food-and-drink-ex012 | reorder | Put the words in order: Here's the bread and the butter. | — | ["Voici le pain et le beurre"] | false | Each noun needs its own article in French.
+
+## a1-partitive-articles
+
+### Vocab
+
+fr | pron | en | note
+
+- du | dew | some (masculine) | du pain (some bread)
+- de la | duh lah | some (feminine) | de la soupe (some soup)
+- de l' | duh l | some (before a vowel or silent h) | de l'eau (some water)
+- des | day | some (plural) | des pâtes (some pasta)
+- pas de / pas d' | pah DUH / pah D | no, not any | Je ne mange pas de viande.
+- manger | mahn-ZHAY | to eat | —
+- il y a | eel-YAH | there is, there are | —
+- j'ai | ZHAY | I have | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-partitive-articles-ex001 | fill-in | Je mange ___ pain. | — | ["du"] | false | Pain is masculine, and you mean some bread, so it's du.
+- a1-partitive-articles-ex002 | fill-in | Il y a ___ soupe. | — | ["de la"] | false | Soupe is feminine, and you mean some soup, so it's de la.
+- a1-partitive-articles-ex003 | multiple-choice | Choose the words for the blank: Il y a ___ eau. | ["de l'","du","de la"] | ["de l'"] | false | Eau starts with a vowel, so it's de l'.
+- a1-partitive-articles-ex004 | fill-in | Je mange ___ pâtes. | — | ["des"] | false | Pâtes is plural, so it's des.
+- a1-partitive-articles-ex005 | fill-in | J'aime ___ fromage. | — | ["le"] | false | After aimer, you mean cheese in general, so it's le.
+- a1-partitive-articles-ex006 | fill-in | Je déteste ___ viande. | — | ["la"] | false | After détester, you mean meat in general, so it's la.
+- a1-partitive-articles-ex007 | fill-in | Je ne mange pas ___ viande. | — | ["de"] | false | After a negative verb, de la becomes de.
+- a1-partitive-articles-ex008 | multiple-choice | Choose the word for the blank: Il n'y a pas ___ eau. | ["d'","de l'","du"] | ["d'"] | false | After a negative verb, de l' becomes de, and de shortens to d' before a vowel.
+- a1-partitive-articles-ex009 | multiple-choice | How do you say 'I eat fish' as a habit? | ["Je mange du poisson.","Je mange poisson.","Je mange de la poisson."] | ["Je mange du poisson."] | false | French needs a word before the noun, and poisson is masculine, so it's du.
+- a1-partitive-articles-ex010 | translate | Write in French: There's some bread. | — | ["Il y a du pain"] | true | Il y a takes du when you mean some, and pain is masculine.
+- a1-partitive-articles-ex011 | translate | Write in French: I don't eat meat. | — | ["Je ne mange pas de viande"] | true | Ne…pas goes around the verb, and de la becomes de.
+- a1-partitive-articles-ex012 | reorder | Put the words in order: We're eating some salad. | — | ["Nous mangeons de la salade"] | false | Salade is feminine, so it's de la. Nous mangeons keeps its e to keep the g soft.
+
+## a1-ordering-at-a-cafe
+
+### Vocab
+
+fr | pron | en | note
+
+- Je voudrais… | zhuh voo-DREH | I would like… | Fixed phrase for now.
+- Je vais prendre… | zhuh veh PRAHN-druh | I'll have… | Fixed phrase for now.
+- Pour moi, … | poor MWAH | For me, … | —
+- s'il vous plaît | seel voo PLEH | please | —
+- Vous désirez ? | voo day-zee-RAY | What would you like? | —
+- Et avec ça ? | ay ah-vek SAH | Anything else? | —
+- C'est tout, merci. | seh too, mehr-SEE | That's all, thank you. | —
+- L'addition, s'il vous plaît. | lah-dee-SYOHN, seel voo PLEH | The bill, please. | —
+- Ça fait combien ? | sah feh kohn-BYAN | How much is that? | Fixed phrase for now.
+- un café | uhn kah-FAY | an espresso, a small black coffee | —
+- un café crème | uhn kah-fay KREM | a coffee with milk | —
+- un verre de vin rouge | uhn vehr duh van ROOZH | a glass of red wine | Fixed phrase for now.
+- un sandwich | uhn sahnd-WEECH | a sandwich | —
+- une carafe d'eau | ewn kah-RAHF DOH | a jug of tap water | Fixed phrase for now.
+- une bouteille d'eau | ewn boo-TAY DOH | a bottle of water | Fixed phrase for now.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-ordering-at-a-cafe-ex001 | fill-in | Je ___ un café, s'il vous plaît. (would like) | — | ["voudrais"] | false | Je voudrais is the polite way to say what you'd like.
+- a1-ordering-at-a-cafe-ex002 | fill-in | Je vais ___ une bière. (have) | — | ["prendre"] | false | Je vais prendre means 'I'll have', and it's the same fixed phrase each time.
+- a1-ordering-at-a-cafe-ex003 | fill-in | L'___, s'il vous plaît. (the bill) | — | ["addition"] | false | L'addition is the bill.
+- a1-ordering-at-a-cafe-ex004 | multiple-choice | How do you catch the waiter's attention politely? | ["S'il vous plaît !","Garçon !","Salut !"] | ["S'il vous plaît !"] | false | Calling out Garçon ! is old-fashioned and can sound rude.
+- a1-ordering-at-a-cafe-ex005 | multiple-choice | How do you say 'a glass of red wine'? | ["un verre de vin rouge","un verre du vin rouge","un vin verre rouge"] | ["un verre de vin rouge"] | false | Un verre de vin is a fixed phrase, with plain de and no article.
+- a1-ordering-at-a-cafe-ex006 | multiple-choice | What does Vous désirez ? mean? | ["What would you like?","Where are you going?","How are you?"] | ["What would you like?"] | false | Staff often say Vous désirez ? when they come to take your order.
+- a1-ordering-at-a-cafe-ex007 | multiple-choice | In a French café, what do you get if you order un café? | ["a small black coffee","a large milky coffee","a coffee with cream on top"] | ["a small black coffee"] | false | Un café on its own means an espresso.
+- a1-ordering-at-a-cafe-ex008 | multiple-choice | The waiter says Et avec ça ? You don't want anything else. What do you say? | ["C'est tout, merci.","Je voudrais.","Pour moi."] | ["C'est tout, merci."] | false | C'est tout, merci means 'That's all, thank you.'
+- a1-ordering-at-a-cafe-ex009 | translate | Write in French: I'd like an orange juice, please. | — | ["Je voudrais un jus d'orange, s'il vous plaît"] | false | Use je voudrais and un, since you're ordering one glass.
+- a1-ordering-at-a-cafe-ex010 | translate | Write in French: The bill, please. | — | ["L'addition, s'il vous plaît"] | false | This is the set phrase for asking for the bill.
+- a1-ordering-at-a-cafe-ex011 | fill-in | Je voudrais ___ l'eau. (some) | — | ["de"] | false | Water is something you have an amount of, so it's de l'eau.
+- a1-ordering-at-a-cafe-ex012 | reorder | Put the words in order: I'll have a sandwich. | — | ["Je vais prendre un sandwich"] | false | Je vais prendre comes first, then what you're ordering.
+
+## a1-culture-french-meals
+
+### Vocab
+
+fr | pron | en | note
+
+- l'apéro | lah-pay-ROH | pre-dinner drinks and snacks | —
+- l'entrée | lahn-TRAY | the starter | Feminine: une entrée.
+- le plat principal | luh plah pran-see-PAHL | the main course | —
+- le dessert | luh day-SEHR | dessert | —
+- le goûter | luh goo-TAY | the afternoon snack | —
+- la baguette | lah bah-GET | the baguette | —
+- la boulangerie | lah boo-lahn-zhuh-REE | the bakery | —
+- la table | lah TAH-bluh | the table | —
+- À table ! | ah TAH-bluh | Dinner's ready! Come and sit down! | —
+- Bon appétit ! | boh-nah-pay-TEE | Enjoy your meal! | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-culture-french-meals-ex001 | multiple-choice | What is l'apéro? | ["drinks and snacks before a meal","a coffee after a meal","a kind of cheese"] | ["drinks and snacks before a meal"] | false | L'apéro is short for l'apéritif: drinks and small bites before the meal.
+- a1-culture-french-meals-ex002 | multiple-choice | On a French menu, what is l'entrée? | ["the starter","the main course","the dessert"] | ["the starter"] | false | L'entrée is the starter. The main course is le plat principal.
+- a1-culture-french-meals-ex003 | multiple-choice | In a full French meal, what usually comes straight after the main course? | ["cheese","the starter","the apéro"] | ["cheese"] | false | In a full meal, cheese comes after the main course and before dessert.
+- a1-culture-french-meals-ex004 | multiple-choice | Where does your bread usually go at a French table? | ["on the table, next to your plate","in your lap","on top of your glass"] | ["on the table, next to your plate"] | false | Bread normally sits directly on the table, next to your plate.
+- a1-culture-french-meals-ex005 | multiple-choice | At about what time do many French people have lunch? | ["between 12:00 and 14:00","between 10:00 and 11:00","between 15:00 and 16:00"] | ["between 12:00 and 14:00"] | false | Lunch is usually somewhere between noon and two.
+- a1-culture-french-meals-ex006 | multiple-choice | What is le goûter? | ["an afternoon snack","the first course","a type of bread"] | ["an afternoon snack"] | false | Le goûter is the afternoon snack, especially for children after school.
+- a1-culture-french-meals-ex007 | fill-in | Bon ___ ! (Enjoy your meal!) | — | ["appétit"] | false | Bon appétit ! is what you say as a meal begins.
+- a1-culture-french-meals-ex008 | fill-in | la ___ (the bakery) | — | ["boulangerie"] | false | La boulangerie is the bakery, where people buy their bread.
+- a1-culture-french-meals-ex009 | translate | Write in French: the dessert | — | ["le dessert"] | false | Dessert has two s's, and it's masculine.
+- a1-culture-french-meals-ex010 | translate | Write in French: the starter | — | ["l'entrée"] | false | Entrée starts with a vowel, so the article shortens to l'.
+- a1-culture-french-meals-ex011 | reorder | Put the words in order: It's the main course. | — | ["C'est le plat principal"] | false | Principal is an ordinary adjective, so it follows the noun.
+
+## a1-shopping-for-clothes
+
+### Vocab
+
+fr | pron | en | note
+
+- le pantalon | luh pahn-tah-LOHN | trousers | Singular in French.
+- le jean | luh JEEN | jeans | Singular in French.
+- le pull | luh PEWL | jumper, sweater | —
+- le tee-shirt | luh tee-SHURT | T-shirt | —
+- le manteau | luh mahn-TOH | coat | —
+- le chapeau | luh shah-POH | hat | —
+- la robe | lah ROBB | dress | —
+- la jupe | lah ZHEWP | skirt | —
+- la chemise | lah shuh-MEEZ | shirt | —
+- la veste | lah VEST | jacket | —
+- les chaussures | lay shoh-SEWR | shoes | —
+- les chaussettes | lay shoh-SET | socks | —
+- noir / noire | nwahr | black (masculine / feminine) | —
+- blanc / blanche | blahn / blahnsh | white (masculine / feminine) | —
+- bleu / bleue | bluh | blue (masculine / feminine) | —
+- vert / verte | vehr / vehrt | green (masculine / feminine) | —
+- gris / grise | gree / greez | grey (masculine / feminine) | —
+- rouge | roozh | red | —
+- jaune | zhohn | yellow | —
+- rose | rohz | pink | —
+- marron | mah-ROHN | brown | Never changes.
+- orange | oh-RAHNZH | orange | Never changes.
+- Je cherche… | zhuh SHEHRSH | I'm looking for… | —
+- Je regarde, merci. | zhuh ruh-GARD, mehr-SEE | I'm just looking, thanks. | —
+- Je voudrais essayer… | zhuh voo-dreh eh-seh-YAY | I'd like to try on… | Fixed phrase for now.
+- la taille | lah TAH-y | the size | —
+- Je fais du 38. | zhuh feh dew trahnt-WEET | I'm a size 38. | Fixed phrase for now.
+- Combien ça coûte ? | kohn-byan sah KOOT | How much does it cost? | Also: Ça coûte combien ? / C'est combien ?
+- coûter | koo-TAY | to cost | —
+- l'euro | luh-ROH | the euro | —
+- le centime | luh sahn-TEEM | the cent | —
+- cher / chère | shehr | expensive (masculine / feminine) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-shopping-for-clothes-ex001 | fill-in | une robe ___ (blanc) | — | ["blanche"] | false | Blanc has an irregular feminine form: blanche.
+- a1-shopping-for-clothes-ex002 | fill-in | une veste ___ (noir) | — | ["noire"] | false | Veste is feminine, so noir adds -e.
+- a1-shopping-for-clothes-ex003 | fill-in | des chaussures ___ (bleu) | — | ["bleues"] | false | Chaussures is feminine plural, so bleu adds -e and -s.
+- a1-shopping-for-clothes-ex004 | fill-in | une jupe ___ (gris) | — | ["grise"] | false | Jupe is feminine, so gris adds -e, and the s is then pronounced.
+- a1-shopping-for-clothes-ex005 | multiple-choice | How do you say 'orange socks'? | ["des chaussettes orange","des chaussettes oranges","des oranges chaussettes"] | ["des chaussettes orange"] | false | Orange never changes, and colours go after the noun.
+- a1-shopping-for-clothes-ex006 | multiple-choice | How do you ask the price of something? | ["Combien ça coûte ?","Quel ça coûte ?","Qui ça coûte ?"] | ["Combien ça coûte ?"] | false | Combien asks how much.
+- a1-shopping-for-clothes-ex007 | multiple-choice | How do you say 12,50 € aloud? | ["douze euros cinquante","cinquante euros douze","douze cinquante euros"] | ["douze euros cinquante"] | false | French says the euros first, then the word euros, then the cents.
+- a1-shopping-for-clothes-ex008 | fill-in | C'est ___ ? (how much) | — | ["combien"] | false | C'est combien ? is a short way to ask the price.
+- a1-shopping-for-clothes-ex009 | translate | Write in French: a red skirt | — | ["une jupe rouge"] | false | Rouge goes after the noun, and it already ends in -e.
+- a1-shopping-for-clothes-ex010 | translate | Write in French: a white shirt | — | ["une chemise blanche"] | false | Chemise is feminine, so blanc becomes blanche.
+- a1-shopping-for-clothes-ex011 | translate | Write in French: I'm looking for a coat. | — | ["Je cherche un manteau"] | false | Chercher means 'to look for', so you don't need a word for 'for'.
+- a1-shopping-for-clothes-ex012 | reorder | Put the words in order: I'd like to try on the trousers. | — | ["Je voudrais essayer le pantalon"] | false | Je voudrais essayer is followed directly by what you want to try on.
+
+## a1-demonstratives
+
+### Vocab
+
+fr | pron | en | note
+
+- ce | suh | this, that (masculine) | ce pull
+- cet | set | this, that (masculine, before a vowel or silent h) | cet ami
+- cette | set | this, that (feminine) | cette robe
+- ces | say | these, those (all plurals) | ces chaussures
+- -ci | see | this one here (added to the noun) | ce pull-ci
+- -là | lah | that one there (added to the noun) | ce pull-là
+- l'homme | LOMM | the man | —
+- le magasin | luh mah-gah-ZAN | the shop | —
+- l'article | lar-TEE-kluh | the item (in a shop) | Masculine: un article.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-demonstratives-ex001 | fill-in | ___ pull est cher. | — | ["Ce"] | false | Pull is masculine and starts with a consonant, so it's ce.
+- a1-demonstratives-ex002 | fill-in | ___ robe est noire. | — | ["Cette"] | false | Robe is feminine, so it's cette.
+- a1-demonstratives-ex003 | fill-in | ___ chaussures sont bleues. | — | ["Ces"] | false | Chaussures is plural, so it's ces.
+- a1-demonstratives-ex004 | fill-in | ___ ami est drôle. (a man) | — | ["Cet"] | false | Ami is masculine and starts with a vowel, so ce becomes cet.
+- a1-demonstratives-ex005 | multiple-choice | Choose the word for the blank: ___ école est moderne. | ["Cette","Cet","Ce"] | ["Cette"] | false | École is feminine. Cet is only for masculine nouns, so it's cette, even before a vowel.
+- a1-demonstratives-ex006 | multiple-choice | Choose the word for the blank: ___ homme est grand. | ["Cet","Ce","Cette"] | ["Cet"] | false | Homme is masculine and starts with a silent h, so it's cet.
+- a1-demonstratives-ex007 | fill-in | Je voudrais essayer ___ veste. (this) | — | ["cette"] | false | Veste is feminine, so it's cette.
+- a1-demonstratives-ex008 | multiple-choice | You want to point to a jumper that's far from you. What do you say? | ["ce pull-là","ce pull-ci","là ce pull"] | ["ce pull-là"] | false | -là points to something further away, and it joins on to the noun with a hyphen.
+- a1-demonstratives-ex009 | multiple-choice | Which two words sound exactly the same? | ["cet and cette","ce and ces","ces and cette"] | ["cet and cette"] | false | Cet and cette are spelled differently but pronounced the same.
+- a1-demonstratives-ex010 | translate | Write in French: these shoes | — | ["ces chaussures","ces chaussures-ci"] | false | Ces goes with all plurals. You only need -ci if you're contrasting.
+- a1-demonstratives-ex011 | translate | Write in French: this coat | — | ["ce manteau","ce manteau-ci"] | false | Manteau is masculine and starts with a consonant, so it's ce.
+- a1-demonstratives-ex012 | reorder | Put the words in order: This hat is red. | — | ["Ce chapeau est rouge"] | false | Ce goes before the noun, like le and un.
+
+## a1-review-food-and-shopping
+
+### Vocab
+
+fr | pron | en | note
+
+- Ça fait… | sah feh | That comes to… | —
+- Voilà. | vwah-LAH | Here you are. | —
+- par carte | par KART | by card | —
+- Autre chose ? | oh-truh SHOHZ | Anything else? | —
+- le menu | luh muh-NEW | the fixed-price menu | —
+- la carte | lah KART | the menu (the full list) | It also means a bank card.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-review-food-and-shopping-ex001 | fill-in | Je ___ un thé, s'il vous plaît. (would like) | — | ["voudrais"] | false | Je voudrais is the polite way to order.
+- a1-review-food-and-shopping-ex002 | fill-in | Je vais ___ un café crème. (have) | — | ["prendre"] | false | Je vais prendre means 'I'll have'.
+- a1-review-food-and-shopping-ex003 | fill-in | ___ robe est rose. | — | ["Cette"] | false | Robe is feminine, so it's cette.
+- a1-review-food-and-shopping-ex004 | fill-in | ___ chaussettes sont blanches. | — | ["Ces"] | false | Chaussettes is plural, so it's ces.
+- a1-review-food-and-shopping-ex005 | fill-in | une veste ___ (gris) | — | ["grise"] | false | Veste is feminine, so gris adds -e.
+- a1-review-food-and-shopping-ex006 | multiple-choice | How do you ask for some water? | ["Je voudrais de l'eau.","Je voudrais du eau.","Je voudrais de la eau."] | ["Je voudrais de l'eau."] | false | Eau starts with a vowel, so it's de l'.
+- a1-review-food-and-shopping-ex007 | multiple-choice | What's the usual order in a full French meal? | ["entrée, plat principal, fromage, dessert","plat principal, entrée, dessert, fromage","dessert, fromage, entrée, plat principal"] | ["entrée, plat principal, fromage, dessert"] | false | Cheese comes after the main course and before dessert.
+- a1-review-food-and-shopping-ex008 | multiple-choice | What does Combien ça coûte ? mean? | ["How much does it cost?","What size is it?","What colour is it?"] | ["How much does it cost?"] | false | Combien asks how much, and coûter means to cost.
+- a1-review-food-and-shopping-ex009 | multiple-choice | The waiter asks Autre chose ? You don't want anything else. What do you say? | ["C'est tout, merci.","Je fais du 38.","Par carte."] | ["C'est tout, merci."] | false | Autre chose ? means 'Anything else?', and C'est tout means 'That's all'.
+- a1-review-food-and-shopping-ex010 | translate | Write in French: How much is this coat? | — | ["Combien coûte ce manteau","Ce manteau coûte combien","C'est combien, ce manteau","Combien ça coûte, ce manteau","Ça coûte combien, ce manteau"] | false | Any of these works. Manteau is masculine, so it's ce.
+- a1-review-food-and-shopping-ex011 | translate | Write in French: I'd like a white shirt. | — | ["Je voudrais une chemise blanche"] | false | Chemise is feminine, so blanc becomes blanche, and it goes after the noun.
+- a1-review-food-and-shopping-ex012 | reorder | Put the words in order: I'd like to try on this jacket. | — | ["Je voudrais essayer cette veste"] | false | Je voudrais essayer is followed by what you want to try, and veste takes cette.
+
+## a1-places-in-town
+
+### Vocab
+
+fr | pron | en | note
+
+- la ville | lah VEEL | the town, the city | —
+- le quartier | luh kar-TYAY | the neighbourhood | —
+- la rue | lah REW | the street | —
+- la place | lah PLAHSS | the square | —
+- le magasin | luh mah-gah-ZAN | the shop | —
+- le supermarché | luh sew-pehr-mar-SHAY | the supermarket | —
+- le marché | luh mar-SHAY | the market | —
+- la boulangerie | lah boo-lahn-zhuh-REE | the bakery | —
+- la boucherie | lah boosh-REE | the butcher's | —
+- la pharmacie | lah far-mah-SEE | the chemist's, the pharmacy | —
+- la librairie | lah lee-breh-REE | the bookshop | —
+- la banque | lah BAHNK | the bank | —
+- la poste | lah POST | the post office | —
+- la mairie | lah meh-REE | the town hall | —
+- la bibliothèque | lah bee-blee-oh-TEK | the library | —
+- l'église | lay-GLEEZ | the church | Feminine: une église.
+- l'hôpital | loh-pee-TAHL | the hospital | Masculine: un hôpital.
+- la gare | lah GAR | the train station | —
+- le métro | luh may-TROH | the underground, the metro | —
+- la station de métro | lah stah-SYOHN duh may-TROH | the metro station | —
+- l'arrêt de bus | lah-REH duh BEWSS | the bus stop | Masculine: un arrêt de bus.
+- le parking | luh par-KEENG | the car park | —
+- il y a | eel-YAH | there is, there are | —
+- il n'y a pas de | eel nyah pah DUH | there isn't a, there aren't any | —
+- ici | ee-SEE | here | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-places-in-town-ex001 | fill-in | Il y a ___ pharmacie ici ? | — | ["une"] | false | Pharmacie is feminine, so 'a pharmacy' is une pharmacie.
+- a1-places-in-town-ex002 | fill-in | Il n'y a pas ___ métro. | — | ["de"] | false | After il n'y a pas, un becomes de.
+- a1-places-in-town-ex003 | fill-in | Je vais ___ supermarché. | — | ["au"] | false | Supermarché is masculine, so à + le becomes au.
+- a1-places-in-town-ex004 | fill-in | Tu vas ___ banque ? | — | ["à la"] | true | Banque is feminine, so à la stays as two words.
+- a1-places-in-town-ex005 | multiple-choice | Choose the words for the blank: Elle va ___ église. | ["à l'","au","à la"] | ["à l'"] | false | Église starts with a vowel, so it's à l'.
+- a1-places-in-town-ex006 | multiple-choice | What is la librairie? | ["the bookshop","the library","the bakery"] | ["the bookshop"] | false | La librairie is where you buy books. The library is la bibliothèque.
+- a1-places-in-town-ex007 | multiple-choice | Where do you go to buy bread? | ["à la boulangerie","à la boucherie","à la poste"] | ["à la boulangerie"] | false | La boulangerie sells bread. La boucherie sells meat.
+- a1-places-in-town-ex008 | multiple-choice | Choose the word for the blank: Il n'y a pas ___ arrêt de bus ici. | ["d'","de","un"] | ["d'"] | false | After a negative, un becomes de, and de shortens to d' before a vowel.
+- a1-places-in-town-ex009 | translate | Write in French: the train station | — | ["la gare"] | false | La gare is for trains. A metro stop is une station de métro.
+- a1-places-in-town-ex010 | translate | Write in French: There's a bank. | — | ["Il y a une banque"] | true | Il y a stays the same, and banque is feminine.
+- a1-places-in-town-ex011 | translate | Write in French: There's no post office. | — | ["Il n'y a pas de poste"] | true | Il n'y a pas de is followed directly by the noun.
+- a1-places-in-town-ex012 | reorder | Put the words in order: There's no car park. | — | ["Il n'y a pas de parking"] | false | Ne…pas wraps around y a, and un becomes de.
+
+## a1-prepositions-of-place
+
+### Vocab
+
+fr | pron | en | note
+
+- sur | sewr | on | —
+- sous | soo | under | —
+- devant | duh-VAHN | in front of | —
+- derrière | deh-RYEHR | behind | —
+- entre | AHN-truh | between | —
+- à côté de | ah koh-TAY duh | next to | —
+- en face de | ahn FAHSS duh | opposite | —
+- près de | preh duh | near | —
+- loin de | lwan duh | far from | —
+- est / sont | eh / sohn | is / are | —
+- Où est… ? | oo EH | Where is…? | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-prepositions-of-place-ex001 | fill-in | Le livre est ___ la table. (on) | — | ["sur"] | false | Sur means 'on', and it's followed directly by the article.
+- a1-prepositions-of-place-ex002 | fill-in | Le chat est ___ la chaise. (under) | — | ["sous"] | false | Sous means 'under'.
+- a1-prepositions-of-place-ex003 | fill-in | La voiture est ___ la maison. (in front of) | — | ["devant"] | false | Devant means 'in front of', and it doesn't need de.
+- a1-prepositions-of-place-ex004 | fill-in | Le parc est ___ l'école. (behind) | — | ["derrière"] | false | Derrière means 'behind'. Don't forget the grave accent.
+- a1-prepositions-of-place-ex005 | fill-in | La banque est ___ la poste et la gare. (between) | — | ["entre"] | false | Entre means 'between', and the two places are joined with et.
+- a1-prepositions-of-place-ex006 | fill-in | La poste est à côté ___ parc. | — | ["du"] | false | Parc is masculine, so de + le becomes du.
+- a1-prepositions-of-place-ex007 | fill-in | La gare est près ___ banque. | — | ["de la"] | false | Banque is feminine, so de la stays as two words.
+- a1-prepositions-of-place-ex008 | multiple-choice | Choose the words for the blank: L'hôtel est en face ___ école. | ["de l'","du","de la"] | ["de l'"] | false | École starts with a vowel, so it's de l'.
+- a1-prepositions-of-place-ex009 | multiple-choice | How do you say 'far from the market'? | ["loin du marché","loin le marché","loin à marché"] | ["loin du marché"] | false | Loin needs de, and de + le becomes du.
+- a1-prepositions-of-place-ex010 | translate | Write in French: next to the bank | — | ["à côté de la banque"] | true | À côté de needs de, and de la stays as two words.
+- a1-prepositions-of-place-ex011 | translate | Write in French: opposite the park | — | ["en face du parc"] | false | En face de needs de, and de + le becomes du.
+- a1-prepositions-of-place-ex012 | reorder | Put the words in order: The café is near the station. | — | ["Le café est près de la gare"] | false | Gare is feminine, so près de la gare keeps de and la separate.
+
+## a1-asking-directions
+
+### Vocab
+
+fr | pron | en | note
+
+- Excusez-moi | ex-kew-zay MWAH | Excuse me | —
+- Pour aller à… ? | poor ah-lay AH | How do I get to…? | Literally 'To go to…?'
+- Il y a… près d'ici ? | eel-yah … preh dee-SEE | Is there a … near here? | —
+- C'est loin ? | seh LWAN | Is it far? | —
+- C'est tout près. | seh too PREH | It's very close. | —
+- à pied | ah PYAY | on foot | —
+- à cinq minutes | ah sank mee-NEWT | five minutes away | —
+- Allez tout droit. | ah-lay too DRWAH | Go straight on. | Fixed phrase for now.
+- Tournez à gauche. | toor-nay ah GOHSH | Turn left. | Fixed phrase for now.
+- Tournez à droite. | toor-nay ah DRWAHT | Turn right. | Fixed phrase for now.
+- Prenez la première rue à gauche. | pruh-nay lah pruh-MYEHR rew ah GOHSH | Take the first street on the left. | Fixed phrase for now.
+- Prenez la deuxième rue à droite. | pruh-nay lah duh-ZYEM rew ah DRWAHT | Take the second street on the right. | Fixed phrase for now.
+- le feu | luh FUH | the traffic lights | —
+- le carrefour | luh kar-FOOR | the crossroads | —
+- au bout de la rue | oh boo duh lah REW | at the end of the street | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-asking-directions-ex001 | fill-in | Pour ___ à la gare, s'il vous plaît ? | — | ["aller"] | false | Pour aller à… ? is the standard way to ask how to get somewhere.
+- a1-asking-directions-ex002 | fill-in | Pour aller ___ musée, s'il vous plaît ? | — | ["au"] | false | Musée is masculine, so à + le becomes au.
+- a1-asking-directions-ex003 | fill-in | Tournez à ___. (left) | — | ["gauche"] | false | À gauche means 'to the left' or 'on the left'.
+- a1-asking-directions-ex004 | fill-in | Tournez à ___. (right) | — | ["droite"] | false | À droite means 'to the right' or 'on the right'.
+- a1-asking-directions-ex005 | fill-in | Allez tout ___. (straight on) | — | ["droit"] | false | Tout droit means 'straight on'. Don't confuse it with à droite.
+- a1-asking-directions-ex006 | multiple-choice | What does tout droit mean? | ["straight on","to the right","very far"] | ["straight on"] | false | Tout droit is 'straight on', and à droite is 'to the right'.
+- a1-asking-directions-ex007 | multiple-choice | What's a polite way to stop someone in the street? | ["Excusez-moi, madame…","Salut, toi…","Où ?"] | ["Excusez-moi, madame…"] | false | Use excusez-moi with a stranger, and vous all the way through.
+- a1-asking-directions-ex008 | multiple-choice | What does C'est loin ? mean? | ["Is it far?","Is it open?","Is it left?"] | ["Is it far?"] | false | Loin means 'far'. The opposite is près.
+- a1-asking-directions-ex009 | multiple-choice | What does Au feu, tournez à gauche mean? | ["At the traffic lights, turn left.","At the end of the street, turn left.","At the crossroads, go straight on."] | ["At the traffic lights, turn left."] | false | Le feu is the traffic lights, and au is à + le.
+- a1-asking-directions-ex010 | translate | Write in French: Turn right. | — | ["Tournez à droite"] | true | Use the vous form with a stranger.
+- a1-asking-directions-ex011 | translate | Write in French: Is it far? | — | ["C'est loin","Est-ce que c'est loin"] | false | C'est loin ? is the usual short question.
+- a1-asking-directions-ex012 | reorder | Put the words in order: Take the first street on the left. | — | ["Prenez la première rue à gauche"] | false | Prenez starts the instruction, and à gauche comes last.
+
+## a1-imperative
+
+### Vocab
+
+fr | pron | en | note
+
+- parle / parlons / parlez | parl / par-LOHN / par-LAY | speak / let's speak / speak | —
+- finis / finissons / finissez | fee-NEE / fee-nee-SOHN / fee-nee-SAY | finish / let's finish / finish | —
+- attends / attendons / attendez | ah-TAHN / ah-tahn-DOHN / ah-tahn-DAY | wait / let's wait / wait | —
+- va / allons / allez | vah / ah-LOHN / ah-LAY | go / let's go / go | —
+- fais / faisons / faites | feh / fuh-ZOHN / fet | do, make / let's do, let's make / do, make | —
+- sois / soyons / soyez | swah / swah-YOHN / swah-YAY | be / let's be / be | —
+- aie / ayons / ayez | eh / eh-YOHN / eh-YAY | have / let's have / have | —
+- patient / patiente | pah-SYAHN / pah-SYAHNT | patient (masculine / feminine) | —
+- sage | sahzh | well-behaved (of a child) | Sois sage ! (Be good!)
+- avoir peur | ah-vwahr PUHR | to be afraid | N'aie pas peur ! (Don't be afraid!)
+- s'il te plaît | seel tuh PLEH | please (informal) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-imperative-ex001 | fill-in | ___ à gauche ! (tourner, speaking to a friend) | — | ["Tourne"] | false | -er verbs drop the -s of the tu form in a command.
+- a1-imperative-ex002 | fill-in | ___ ! (écouter, speaking to a group) | — | ["Écoutez"] | false | The vous command is the vous form of the verb, without the word vous.
+- a1-imperative-ex003 | fill-in | ___ le bus ! (attendre, speaking to a friend) | — | ["Attends"] | false | -re verbs keep the -s in the tu command.
+- a1-imperative-ex004 | fill-in | ___ le travail ! (finir, let's) | — | ["Finissons"] | false | The nous form without nous means 'let's'.
+- a1-imperative-ex005 | fill-in | ___ tout droit ! (aller, speaking to a friend) | — | ["Va"] | false | Aller is an -er verb in spelling, so the command is va, with no -s.
+- a1-imperative-ex006 | fill-in | ___ les courses ! (faire, speaking to a group) | — | ["Faites"] | false | Faire keeps its irregular vous form: faites.
+- a1-imperative-ex007 | multiple-choice | How do you tell a friend 'Speak!'? | ["Parle !","Parles !","Tu parles !"] | ["Parle !"] | false | The -s goes, and so does the word tu.
+- a1-imperative-ex008 | multiple-choice | Choose the word for the blank: ___ patient, monsieur. | ["Soyez","Êtes","Sois"] | ["Soyez"] | false | Être has special command forms. Monsieur calls for vous, so it's soyez.
+- a1-imperative-ex009 | multiple-choice | How do you tell a friend 'Don't be afraid!'? | ["N'aie pas peur !","N'as pas peur !","Ne aie pas peur !"] | ["N'aie pas peur !"] | false | The tu command of avoir is aie, and ne shortens to n' before it.
+- a1-imperative-ex010 | translate | Write in French: Let's go to the market. | — | ["Allons au marché"] | true | Allons without nous means 'let's go', and à + le becomes au.
+- a1-imperative-ex011 | translate | Write in French, speaking formally: Don't turn left. | — | ["Ne tournez pas à gauche"] | true | Ne…pas goes around the verb, as it does in a statement.
+- a1-imperative-ex012 | reorder | Put the words in order, speaking formally: Don't wait for the bus. | — | ["N'attendez pas le bus"] | false | Ne shortens before the vowel of attendez, and pas follows the verb.
+
+## a1-near-future
+
+### Vocab
+
+fr | pron | en | note
+
+- je vais + infinitive | zhuh VEH | I'm going to… | —
+- tu vas + infinitive | tew VAH | you're going to… (informal) | —
+- il va / elle va + infinitive | eel VAH / el VAH | he's / she's going to… | —
+- on va + infinitive | ohn VAH | we're going to… (casual) | —
+- nous allons + infinitive | noo-zah-LOHN | we're going to… | —
+- vous allez + infinitive | voo-zah-LAY | you're going to… (formal or plural) | —
+- ils vont / elles vont + infinitive | eel VOHN / el VOHN | they're going to… | —
+- demain | duh-MAN | tomorrow | —
+- ce soir | suh SWAHR | this evening, tonight | —
+- ce week-end | suh wee-KEND | this weekend | —
+- bientôt | byan-TOH | soon | —
+- lundi prochain | luhn-dee proh-SHAN | next Monday | —
+- la semaine prochaine | lah suh-men proh-SHEN | next week | —
+- visiter | vee-zee-TAY | to visit (a place) | —
+- Qu'est-ce que tu vas faire ? | kess-kuh tew vah FEHR | What are you going to do? | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-near-future-ex001 | fill-in | Je ___ travailler. (aller) | — | ["vais"] | false | The near future uses the present of aller: je vais.
+- a1-near-future-ex002 | fill-in | Tu ___ parler français ? (aller) | — | ["vas"] | false | Tu vas, then the infinitive.
+- a1-near-future-ex003 | fill-in | Il ___ arriver demain. (aller) | — | ["va"] | false | Il va, then the infinitive.
+- a1-near-future-ex004 | fill-in | Nous ___ visiter Lyon. (aller) | — | ["allons"] | false | Nous allons, then the infinitive.
+- a1-near-future-ex005 | fill-in | Vous ___ faire les courses ? (aller) | — | ["allez"] | false | Vous allez, then the infinitive faire.
+- a1-near-future-ex006 | fill-in | Ils ___ habiter à Paris. (aller) | — | ["vont"] | false | Ils vont, then the infinitive.
+- a1-near-future-ex007 | fill-in | Je vais ___ demain. (travailler) | — | ["travailler"] | false | The second verb stays in the infinitive.
+- a1-near-future-ex008 | multiple-choice | How do you say 'She isn't going to speak'? | ["Elle ne va pas parler.","Elle va ne parler.","Elle ne parler pas va."] | ["Elle ne va pas parler."] | false | Ne…pas goes around aller, and the infinitive comes after pas.
+- a1-near-future-ex009 | multiple-choice | What does demain mean? | ["tomorrow","today","this evening"] | ["tomorrow"] | false | Demain means tomorrow. Today is aujourd'hui, and this evening is ce soir.
+- a1-near-future-ex010 | multiple-choice | How do you say 'next week'? | ["la semaine prochaine","la prochaine semaines","le semaine prochain"] | ["la semaine prochaine"] | false | Semaine is feminine, so prochain becomes prochaine.
+- a1-near-future-ex011 | translate | Write in French: We're going to visit Paris. | — | ["Nous allons visiter Paris","On va visiter Paris"] | false | Use the present of aller, then the infinitive visiter.
+- a1-near-future-ex012 | reorder | Put the words in order: What are you going to do? | — | ["Qu'est-ce que tu vas faire"] | false | Tu vas is followed by the infinitive faire.
+
+## a1-modal-verbs
+
+### Vocab
+
+fr | pron | en | note
+
+- pouvoir | poo-VWAHR | can, to be able to | —
+- je peux / tu peux | zhuh PUH / tew PUH | I can / you can | —
+- il peut / elle peut / on peut | eel PUH / el PUH / ohn PUH | he, she can / we can (casual) | —
+- nous pouvons / vous pouvez | noo poo-VOHN / voo poo-VAY | we can / you can | —
+- ils peuvent / elles peuvent | eel PUHV / el PUHV | they can | —
+- vouloir | voo-LWAHR | to want | —
+- je veux / tu veux | zhuh VUH / tew VUH | I want / you want | —
+- il veut / elle veut / on veut | eel VUH / el VUH / ohn VUH | he, she wants / we want (casual) | —
+- nous voulons / vous voulez | noo voo-LOHN / voo voo-LAY | we want / you want | —
+- ils veulent / elles veulent | eel VUHL / el VUHL | they want | —
+- devoir | duh-VWAHR | must, to have to | —
+- je dois / tu dois | zhuh DWAH / tew DWAH | I must / you must | —
+- il doit / elle doit / on doit | eel DWAH / el DWAH / ohn DWAH | he, she must / we must (casual) | —
+- nous devons / vous devez | noo duh-VOHN / voo duh-VAY | we must / you must | —
+- ils doivent / elles doivent | eel DWAHV / el DWAHV | they must | —
+- payer | peh-YAY | to pay | —
+- entrer | ahn-TRAY | to come in, to go in | —
+- répéter | ray-pay-TAY | to repeat | —
+- aider | eh-DAY | to help | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-modal-verbs-ex001 | fill-in | Je ___ payer ici ? (pouvoir) | — | ["peux"] | false | Je peux, with an -x, is how you ask if you can do something.
+- a1-modal-verbs-ex002 | fill-in | Tu ___ un café ? (vouloir) | — | ["veux"] | false | Tu veux, with an -x, means 'you want'.
+- a1-modal-verbs-ex003 | fill-in | Il ___ travailler. (devoir) | — | ["doit"] | false | Il doit means 'he must', and the final t is silent.
+- a1-modal-verbs-ex004 | fill-in | Nous ___ rentrer. (devoir) | — | ["devons"] | false | Nous devons means 'we must'.
+- a1-modal-verbs-ex005 | fill-in | Vous ___ répéter, s'il vous plaît ? (pouvoir) | — | ["pouvez"] | false | Vous pouvez is the polite way to ask someone to do something.
+- a1-modal-verbs-ex006 | fill-in | Ils ___ manger. (vouloir) | — | ["veulent"] | false | Ils veulent means 'they want'.
+- a1-modal-verbs-ex007 | fill-in | Elles ___ finir le travail. (devoir) | — | ["doivent"] | false | Elles doivent means 'they must'.
+- a1-modal-verbs-ex008 | multiple-choice | Which is the most polite way to order in a café? | ["Je voudrais un café.","Je veux un café.","Donne un café."] | ["Je voudrais un café."] | false | Je voudrais comes from vouloir, and it's the polite form for asking.
+- a1-modal-verbs-ex009 | multiple-choice | What does Je peux entrer ? mean? | ["Can I come in?","I want to come in.","I must come in."] | ["Can I come in?"] | false | Je peux…? asks for permission.
+- a1-modal-verbs-ex010 | multiple-choice | Which sentence is correct? | ["Je dois travailler.","Je dois travaille.","Je dois à travailler."] | ["Je dois travailler."] | false | The second verb stays in the infinitive, with nothing between the two verbs.
+- a1-modal-verbs-ex011 | translate | Write in French: I can't work. | — | ["Je ne peux pas travailler"] | false | Ne…pas goes around the first verb, and the infinitive comes after pas.
+- a1-modal-verbs-ex012 | reorder | Put the words in order: Do you want to eat a pizza? | — | ["Tu veux manger une pizza"] | false | The first verb changes, and manger stays in the infinitive.
+
+## a1-writing-a-short-message
+
+### Vocab
+
+fr | pron | en | note
+
+- Coucou ! | koo-KOO | Hi! (very informal) | —
+- Salut ! | sah-LEW | Hi! | —
+- Cher / Chère… | shehr | Dear… (to a man / to a woman) | —
+- À bientôt ! | ah byan-TOH | See you soon! | —
+- À demain ! | ah duh-MAN | See you tomorrow! | —
+- Bisous | bee-ZOO | Kisses, love from (to friends and family) | —
+- Grosses bises | grohs BEEZ | Lots of love (to friends and family) | —
+- Cordialement | kor-dyahl-MAHN | Kind regards (formal) | —
+- Tu es libre ? | tew eh LEE-bruh | Are you free? | —
+- D'accord ! | dah-KOR | OK! | —
+- Désolé / Désolée | day-zoh-LAY | Sorry (said by a man / a woman) | —
+- Je ne peux pas. | zhuh nuh puh PAH | I can't. | —
+- au cinéma | oh see-nay-MAH | to the cinema, at the cinema | —
+- la carte postale | lah kart poss-TAHL | the postcard | —
+- Je suis à… | zhuh swee AH | I'm in… (a town or city) | —
+- Il fait beau. | eel feh BOH | The weather's nice. | —
+- la mer | lah MEHR | the sea | —
+- slt | sah-LEW | salut (text shorthand) | —
+- stp | seel tuh PLEH | s'il te plaît (text shorthand) | —
+- bjr | bohn-ZHOOR | bonjour (text shorthand) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-writing-a-short-message-ex001 | fill-in | ___ Julie, (Dear, on a postcard) | — | ["Chère"] | false | Julie is a woman, so it's chère, with a grave accent and an -e.
+- a1-writing-a-short-message-ex002 | fill-in | ___ Marc, (Dear, on a postcard) | — | ["Cher"] | false | Marc is a man, so it's cher.
+- a1-writing-a-short-message-ex003 | multiple-choice | Who would you sign off to with Bisous? | ["a friend","your bank manager","a customer service team"] | ["a friend"] | false | Bisous is warm and informal, so keep it for friends and family.
+- a1-writing-a-short-message-ex004 | multiple-choice | What's Coucou ! used for? | ["saying hi very informally","ending a formal letter","ordering a coffee"] | ["saying hi very informally"] | false | Coucou ! is a playful hello for people you know well.
+- a1-writing-a-short-message-ex005 | multiple-choice | In a text, what does stp stand for? | ["s'il te plaît","salut","bonjour"] | ["s'il te plaît"] | false | Stp is short for s'il te plaît, please.
+- a1-writing-a-short-message-ex006 | fill-in | À ___ ! (See you soon!) | — | ["bientôt"] | false | À bientôt ! means 'See you soon!'
+- a1-writing-a-short-message-ex007 | fill-in | Tu es ___ samedi ? (free) | — | ["libre"] | false | Libre means free, and it already ends in -e.
+- a1-writing-a-short-message-ex008 | multiple-choice | Your friend suggests a film. You agree. What do you reply? | ["D'accord !","Désolé !","Cordialement"] | ["D'accord !"] | false | D'accord ! means 'OK!'
+- a1-writing-a-short-message-ex009 | translate | Write in French: See you tomorrow! | — | ["À demain"] | true | À demain ! is the usual way to end a message before meeting the next day.
+- a1-writing-a-short-message-ex010 | translate | Write in French: Shall we go to the cinema? | — | ["On va au cinéma","Est-ce qu'on va au cinéma","Tu veux aller au cinéma"] | false | On va au cinéma ? is a natural way to make a suggestion.
+- a1-writing-a-short-message-ex011 | translate | Write in French: I can't on Saturday. | — | ["Je ne peux pas samedi"] | false | Je ne peux pas needs no other verb here, and samedi needs no article.
+- a1-writing-a-short-message-ex012 | reorder | Put the words in order: Do you want to go to the cinema? | — | ["Tu veux aller au cinéma"] | false | Tu veux is followed by the infinitive aller.
+
+## a1-review-final
+
+### Vocab
+
+fr | pron | en | note
+
+- Félicitations ! | fay-lee-see-tah-SYOHN | Congratulations! | —
+- Bravo ! | brah-VOH | Well done! | —
+- le niveau | luh nee-VOH | the level | —
+- réviser | ray-vee-ZAY | to revise, to review | —
+- continuer | kohn-tee-new-AY | to continue | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a1-review-final-ex001 | fill-in | Je ___ à Lille. (être) | — | ["suis"] | false | Je suis is the first form of être that you learned.
+- a1-review-final-ex002 | fill-in | J'___ vingt-cinq ans. (avoir) | — | ["ai"] | false | French uses avoir for age.
+- a1-review-final-ex003 | fill-in | Ma mère est ___. (grand) | — | ["grande"] | false | Mère is feminine, so grand adds -e.
+- a1-review-final-ex004 | fill-in | Nous ___ le bus. (attendre) | — | ["attendons"] | false | Regular -re verbs take -ons with nous.
+- a1-review-final-ex005 | fill-in | Je ne mange pas ___ viande. | — | ["de"] | false | After a negative verb, de la becomes de.
+- a1-review-final-ex006 | fill-in | Je vais ___ cinéma. | — | ["au"] | false | À + le always becomes au.
+- a1-review-final-ex007 | multiple-choice | Which sentence is correct? | ["Elle a les yeux bleus et elle est sympa.","Elle est les yeux bleus et elle a sympa.","Elle a les yeux bleu et elle est sympa."] | ["Elle a les yeux bleus et elle est sympa."] | false | Features use avoir, personality uses être, and bleus matches yeux.
+- a1-review-final-ex008 | multiple-choice | It's very cold outside. What do you say about the weather? | ["Il fait froid.","Il est froid.","Je suis froid."] | ["Il fait froid."] | false | The weather takes il fait.
+- a1-review-final-ex009 | multiple-choice | How do you tell a friend 'Turn right'? | ["Tourne à droite.","Tournes à droite.","Tu tournes droite."] | ["Tourne à droite."] | false | The tu command of an -er verb has no -s.
+- a1-review-final-ex010 | translate | Write in French: What time is it? | — | ["Quelle heure est-il","Il est quelle heure"] | false | Both work, and the second is more relaxed.
+- a1-review-final-ex011 | translate | Write in French: I'm going to work tomorrow. | — | ["Je vais travailler demain","Demain je vais travailler"] | false | Use the present of aller, then the infinitive.
+- a1-review-final-ex012 | reorder | Put the words in order: We're going to visit Paris. | — | ["Nous allons visiter Paris"] | false | Allons matches nous, and visiter stays in the infinitive.
+
+## a2-irregular-verbs-present
+
+### Vocab
+
+fr | pron | en | note
+
+- prendre | PRAHN-druh | to take, to have (food or drink) | —
+- je prends / tu prends / il prend | zhuh PRAHN / tew PRAHN / eel PRAHN | I take / you take / he takes | —
+- nous prenons / vous prenez / ils prennent | noo pruh-NOHN / voo pruh-NAY / eel PREN | we take / you take / they take | —
+- mettre | MEH-truh | to put, to put on | —
+- je mets / tu mets / il met | zhuh MEH / tew MEH / eel MEH | I put / you put / he puts | —
+- nous mettons / vous mettez / ils mettent | noo meh-TOHN / voo meh-TAY / eel MET | we put / you put / they put | —
+- partir | par-TEER | to leave | —
+- je pars / tu pars / il part | zhuh PAR / tew PAR / eel PAR | I leave / you leave / he leaves | —
+- nous partons / vous partez / ils partent | noo par-TOHN / voo par-TAY / eel PART | we leave / you leave / they leave | —
+- sortir | sor-TEER | to go out | —
+- je sors / tu sors / il sort | zhuh SOR / tew SOR / eel SOR | I go out / you go out / he goes out | —
+- nous sortons / vous sortez / ils sortent | noo sor-TOHN / voo sor-TAY / eel SORT | we go out / you go out / they go out | —
+- dormir | dor-MEER | to sleep | —
+- je dors / tu dors / il dort | zhuh DOR / tew DOR / eel DOR | I sleep / you sleep / he sleeps | —
+- nous dormons / vous dormez / ils dorment | noo dor-MOHN / voo dor-MAY / eel DORM | we sleep / you sleep / they sleep | —
+- dire | deer | to say | —
+- je dis / tu dis / il dit | zhuh DEE / tew DEE / eel DEE | I say / you say / he says | —
+- nous disons / vous dites / ils disent | noo dee-ZOHN / voo DEET / eel DEEZ | we say / you say / they say | —
+- lire | leer | to read | —
+- je lis / tu lis / il lit | zhuh LEE / tew LEE / eel LEE | I read / you read / he reads | —
+- nous lisons / vous lisez / ils lisent | noo lee-ZOHN / voo lee-ZAY / eel LEEZ | we read / you read / they read | —
+- écrire | ay-KREER | to write | —
+- j'écris / tu écris / il écrit | zhay-KREE / tew ay-KREE / ee-lay-KREE | I write / you write / he writes | —
+- nous écrivons / vous écrivez / ils écrivent | noo-zay-kree-VOHN / voo-zay-kree-VAY / eel-zay-KREEV | we write / you write / they write | —
+- venir | vuh-NEER | to come | —
+- je viens / tu viens / il vient | zhuh VYAN / tew VYAN / eel VYAN | I come / you come / he comes | —
+- nous venons / vous venez / ils viennent | noo vuh-NOHN / voo vuh-NAY / eel VYEN | we come / you come / they come | —
+- voir | vwahr | to see | —
+- je vois / tu vois / il voit | zhuh VWAH / tew VWAH / eel VWAH | I see / you see / he sees | —
+- nous voyons / vous voyez / ils voient | noo vwah-YOHN / voo vwah-YAY / eel VWAH | we see / you see / they see | —
+- boire | bwahr | to drink | —
+- je bois / tu bois / il boit | zhuh BWAH / tew BWAH / eel BWAH | I drink / you drink / he drinks | —
+- nous buvons / vous buvez / ils boivent | noo bew-VOHN / voo bew-VAY / eel BWAHV | we drink / you drink / they drink | —
+- la lettre | lah LEH-truh | the letter | —
+- le journal | luh zhoor-NAHL | the newspaper | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-irregular-verbs-present-ex001 | fill-in | Je ___ un café. (prendre) | — | ["prends"] | false | Je prends: the singular forms keep the d of the stem, and the je form ends in -s.
+- a2-irregular-verbs-present-ex002 | fill-in | Vous ___ du beurre ? (mettre) | — | ["mettez"] | false | The plural forms of mettre keep both t's: vous mettez.
+- a2-irregular-verbs-present-ex003 | fill-in | Ils ___ à Paris. (venir) | — | ["viennent"] | false | The ils form of venir has -ienn-: ils viennent.
+- a2-irregular-verbs-present-ex004 | fill-in | Tu ___ Marc samedi ? (voir) | — | ["vois"] | false | Tu vois. The y only appears in nous voyons and vous voyez.
+- a2-irregular-verbs-present-ex005 | fill-in | Nous ___ de l'eau. (boire) | — | ["buvons"] | false | Boire changes its stem with nous and vous: nous buvons.
+- a2-irregular-verbs-present-ex006 | multiple-choice | Choose the correct form: Vous ___ bonjour ? | ["dites","disez","dizez"] | ["dites"] | false | Dire has an irregular vous form, like vous êtes and vous faites.
+- a2-irregular-verbs-present-ex007 | translate | Write in French: She's reading a book. | — | ["Elle lit un livre"] | false | The elle form of lire is lit, with a silent t.
+- a2-irregular-verbs-present-ex008 | fill-in | Elles ___ à Paul. (écrire) | — | ["écrivent"] | false | Écrire has a v in the plural: elles écrivent.
+- a2-irregular-verbs-present-ex009 | translate | Write in French: The train leaves tomorrow. | — | ["Le train part demain","Demain, le train part"] | false | The il form of partir is part. It doesn't follow finir.
+- a2-irregular-verbs-present-ex010 | fill-in | Nous ___ ce soir. (sortir) | — | ["sortons"] | false | The plural keeps the t of the stem: nous sortons.
+- a2-irregular-verbs-present-ex011 | fill-in | Les enfants ___. (dormir) | — | ["dorment"] | false | The plural keeps the m of the stem: ils dorment.
+- a2-irregular-verbs-present-ex012 | reorder | Put the words in order: They're taking the bus. | — | ["Ils prennent le bus"] | false | The ils form of prendre has a double n: ils prennent.
+
+## a2-passe-compose-avoir
+
+### Vocab
+
+fr | pron | en | note
+
+- j'ai parlé | zhay par-LAY | I spoke, I have spoken | —
+- tu as parlé | tew ah par-LAY | you spoke (informal) | —
+- il a parlé / elle a parlé | ee-lah par-LAY / eh-lah par-LAY | he spoke / she spoke | —
+- on a parlé | oh-nah par-LAY | we spoke (casual) | —
+- nous avons parlé | noo-zah-vohn par-LAY | we spoke | —
+- vous avez parlé | voo-zah-vay par-LAY | you spoke (formal or plural) | —
+- ils ont parlé / elles ont parlé | eel-zohn par-LAY / el-zohn par-LAY | they spoke | —
+- -er → -é | ay | parler → parlé, manger → mangé | —
+- -ir → -i | ee | finir → fini, choisir → choisi, dormir → dormi | —
+- -re → -u | ew | attendre → attendu, vendre → vendu | —
+- acheter | ahsh-TAY | to buy | Participle: acheté.
+- oublier | oo-blee-AY | to forget | Participle: oublié.
+- le match | luh MAHTCH | the match, the game | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-passe-compose-avoir-ex001 | fill-in | J'___ parlé à Marc. (avoir) | — | ["ai"] | false | The auxiliary is the present of avoir: j'ai.
+- a2-passe-compose-avoir-ex002 | fill-in | Tu ___ mangé ? (avoir) | — | ["as"] | false | Tu as, then the participle mangé.
+- a2-passe-compose-avoir-ex003 | fill-in | Nous ___ regardé un film. (avoir) | — | ["avons"] | false | Nous avons, then the participle regardé.
+- a2-passe-compose-avoir-ex004 | fill-in | Elles ___ dansé. (avoir) | — | ["ont"] | false | Elles ont dansé. The participle doesn't change here.
+- a2-passe-compose-avoir-ex005 | fill-in | J'ai ___ le travail. (finir) | — | ["fini"] | false | Regular -ir verbs make their participle with -i.
+- a2-passe-compose-avoir-ex006 | fill-in | Il a ___ le bus. (attendre) | — | ["attendu"] | false | Regular -re verbs make their participle with -u.
+- a2-passe-compose-avoir-ex007 | fill-in | Vous avez ___ un livre ? (choisir) | — | ["choisi"] | false | Choisir is a regular -ir verb, so its participle is choisi.
+- a2-passe-compose-avoir-ex008 | fill-in | Nous avons ___ au tennis. (jouer) | — | ["joué"] | true | After avoir, an -er verb takes its participle in -é, not the infinitive.
+- a2-passe-compose-avoir-ex009 | multiple-choice | Comment dit-on 'I didn't eat'? | ["Je n'ai pas mangé.","Je n'ai mangé pas.","Je ne pas ai mangé."] | ["Je n'ai pas mangé."] | false | Ne…pas goes around avoir, and the participle comes after pas.
+- a2-passe-compose-avoir-ex010 | multiple-choice | Choose the word for the blank: Je n'ai pas acheté ___ pain. | ["de","du","le"] | ["de"] | false | After a negative verb, du changes to de, in the past as in the present.
+- a2-passe-compose-avoir-ex011 | translate | Write in French: We watched a film. | — | ["Nous avons regardé un film","On a regardé un film"] | true | Use the present of avoir, then the participle regardé.
+- a2-passe-compose-avoir-ex012 | reorder | Put the words in order: She didn't listen to the music. | — | ["Elle n'a pas écouté la musique"] | false | The negative wraps around n'a, and the participle comes after pas.
+
+## a2-past-participles-irregular
+
+### Vocab
+
+fr | pron | en | note
+
+- voir → vu | vew | seen | —
+- lire → lu | lew | read | —
+- boire → bu | bew | drunk | —
+- pouvoir → pu | pew | been able to | —
+- vouloir → voulu | voo-LEW | wanted | —
+- devoir → dû | dew | had to | —
+- prendre → pris | pree | taken | —
+- mettre → mis | mee | put | —
+- dire → dit | dee | said | —
+- écrire → écrit | ay-KREE | written | —
+- faire → fait | feh | done, made | —
+- avoir → eu | ew | had | —
+- être → été | ay-TAY | been | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-past-participles-irregular-ex001 | fill-in | J'ai ___ un café. (boire) | — | ["bu"] | false | The participle of boire is bu.
+- a2-past-participles-irregular-ex002 | fill-in | Tu as ___ le train ? (prendre) | — | ["pris"] | false | The participle of prendre is pris, with a silent s.
+- a2-past-participles-irregular-ex003 | fill-in | Elle a ___ un livre. (lire) | — | ["lu"] | false | The participle of lire is lu.
+- a2-past-participles-irregular-ex004 | fill-in | Nous avons ___ du vélo. (faire) | — | ["fait"] | false | The participle of faire is fait, with a silent t.
+- a2-past-participles-irregular-ex005 | fill-in | Ils ont ___ Marc. (voir) | — | ["vu"] | false | The participle of voir is vu.
+- a2-past-participles-irregular-ex006 | multiple-choice | Which pair is correct? | ["j'ai dit, j'ai mis","j'ai disu, j'ai mettu","j'ai dité, j'ai mis"] | ["j'ai dit, j'ai mis"] | false | Dire gives dit, and mettre gives mis.
+- a2-past-participles-irregular-ex007 | fill-in | J'ai ___ une lettre. (écrire) | — | ["écrit"] | false | The participle of écrire is écrit, with a silent t.
+- a2-past-participles-irregular-ex008 | fill-in | Nous avons ___ faim. (avoir) | — | ["eu"] | false | The participle of avoir is eu, so the two parts are avons and eu.
+- a2-past-participles-irregular-ex009 | multiple-choice | Comment dit-on 'I was tired' (a man speaking)? | ["J'ai été fatigué.","Je suis été fatigué.","J'ai eu fatigué."] | ["J'ai été fatigué."] | false | Être forms its passé composé with avoir: j'ai été.
+- a2-past-participles-irregular-ex010 | fill-in | J'ai ___ travailler. (devoir) | — | ["dû"] | true | The participle of devoir is dû, with a circumflex. The infinitive follows it.
+- a2-past-participles-irregular-ex011 | translate | Write in French: I couldn't sleep. | — | ["Je n'ai pas pu dormir"] | false | Ne…pas goes around avoir, then pu and the infinitive.
+- a2-past-participles-irregular-ex012 | reorder | Put the words in order: He didn't want to eat. | — | ["Il n'a pas voulu manger"] | false | The participle voulu comes after pas, and manger stays in the infinitive.
+
+## a2-passe-compose-etre
+
+### Vocab
+
+fr | pron | en | note
+
+- je suis allé / allée | zhuh swee-zah-LAY | I went (man / woman) | —
+- tu es allé / allée | tew eh-zah-LAY | you went (informal; man / woman) | —
+- il est allé / elle est allée | ee-leh-tah-LAY / eh-leh-tah-LAY | he went / she went | —
+- nous sommes allés / allées | noo somm-zah-LAY | we went (masculine or mixed / all women) | —
+- vous êtes allé / allée / allés / allées | voo-zet-zah-LAY | you went (depends who you're speaking to) | —
+- ils sont allés / elles sont allées | eel sohn-tah-LAY / el sohn-tah-LAY | they went | —
+- aller → allé | ah-LAY | to go | —
+- venir → venu | vuh-NEW | to come | —
+- arriver → arrivé | ah-ree-VAY | to arrive | —
+- partir → parti | par-TEE | to leave | —
+- entrer → entré | ahn-TRAY | to go in, to come in | —
+- sortir → sorti | sor-TEE | to go out | —
+- monter → monté | mohn-TAY | to go up | —
+- descendre → descendu | day-sahn-DEW | to go down | —
+- rentrer → rentré | rahn-TRAY | to go home, to get back | —
+- retourner → retourné | ruh-toor-NAY | to go back, to return | —
+- revenir → revenu | ruh-vuh-NEW | to come back | —
+- rester → resté | res-TAY | to stay | —
+- tomber → tombé | tohn-BAY | to fall | —
+- devenir → devenu | duh-vuh-NEW | to become | —
+- naître → né | nay | to be born | —
+- mourir → mort | mor | to die | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-passe-compose-etre-ex001 | fill-in | Je ___ allé à Paris. (être) | — | ["suis"] | false | Aller uses être in the passé composé: je suis allé.
+- a2-passe-compose-etre-ex002 | fill-in | Tu ___ arrivé samedi ? (être) | — | ["es"] | false | Arriver uses être: tu es arrivé.
+- a2-passe-compose-etre-ex003 | fill-in | Elle est ___ au cinéma. (aller) | — | ["allée"] | false | With être, the participle agrees with the subject: elle needs -e.
+- a2-passe-compose-etre-ex004 | fill-in | Ils sont ___ samedi. (partir) | — | ["partis"] | false | The subject is masculine plural, so the participle adds -s.
+- a2-passe-compose-etre-ex005 | fill-in | Elles sont ___ au parc. (venir) | — | ["venues"] | false | The subject is feminine plural, so venu adds -es.
+- a2-passe-compose-etre-ex006 | fill-in | Marie est ___ à Lille. (rester) | — | ["restée"] | false | Marie is one woman, so resté adds -e.
+- a2-passe-compose-etre-ex007 | fill-in | Paul et Marie sont ___. (sortir) | — | ["sortis"] | false | A mixed group takes the masculine plural.
+- a2-passe-compose-etre-ex008 | multiple-choice | Which sentence is correct (a man speaking)? | ["Je suis tombé.","J'ai tombé.","Je suis tomber."] | ["Je suis tombé."] | false | Tomber uses être, and it needs the participle tombé.
+- a2-passe-compose-etre-ex009 | multiple-choice | Which of these verbs uses être in the passé composé? | ["rentrer","manger","regarder"] | ["rentrer"] | false | Rentrer is one of the être verbs. Manger and regarder use avoir.
+- a2-passe-compose-etre-ex010 | multiple-choice | Comment dit-on 'She didn't leave'? | ["Elle n'est pas partie.","Elle n'est partie pas.","Elle n'a pas partie."] | ["Elle n'est pas partie."] | false | Ne…pas goes around être, and the participle still agrees.
+- a2-passe-compose-etre-ex011 | translate | Write in French: She went to the beach. | — | ["Elle est allée à la plage"] | true | Aller uses être, and allée agrees with elle.
+- a2-passe-compose-etre-ex012 | reorder | Put the words in order (all men): We got back to Paris. | — | ["Nous sommes rentrés à Paris"] | false | Rentrer uses être, and rentrés is masculine plural.
+
+## a2-numbers-years-ordinals
+
+### Vocab
+
+fr | pron | en | note
+
+- cent | sahn | 100 | —
+- cent un | sahn UHN | 101 | —
+- deux cents | duh SAHN | 200 | —
+- deux cent trois | duh sahn TRWAH | 203 | —
+- mille | meel | 1,000 | —
+- deux mille | duh MEEL | 2,000 | —
+- un million | uhn mee-LYOHN | 1,000,000 | Takes -s in the plural: deux millions.
+- en deux mille dix-neuf | ahn duh meel deez-NUHF | in 2019 | —
+- mille neuf cent quatre-vingt-cinq | meel nuhf sahn kah-truh-van-SANK | 1985 | Also: dix-neuf cent quatre-vingt-cinq.
+- Je suis né / née le… | zhuh swee NAY luh | I was born on the… (man / woman) | Fixed phrase for now.
+- premier / première | pruh-MYAY / pruh-MYEHR | first (masculine / feminine) | —
+- deuxième | duh-ZYEM | second | —
+- second / seconde | suh-GOHN / suh-GOHND | second (masculine / feminine) | —
+- troisième | trwah-ZYEM | third | —
+- quatrième | kah-tree-EM | fourth | —
+- cinquième | san-KYEM | fifth | —
+- neuvième | nuh-VYEM | ninth | —
+- onzième | ohn-ZYEM | eleventh | —
+- vingt et unième | van-tay-ew-NYEM | twenty-first | —
+- le rez-de-chaussée | luh ray-duh-shoh-SAY | the ground floor | —
+- l'étage | lay-TAHZH | the floor, the storey | Masculine: le premier étage.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-numbers-years-ordinals-ex001 | translate | Write this number in words: 200 | — | ["deux cents"] | false | Cent takes an -s when it's multiplied and nothing follows it.
+- a2-numbers-years-ordinals-ex002 | translate | Write this number in words: 203 | — | ["deux cent trois"] | false | Another number follows, so cent loses its -s.
+- a2-numbers-years-ordinals-ex003 | translate | Write this number in words: 2,000 | — | ["deux mille"] | false | Mille never changes, so it has no -s.
+- a2-numbers-years-ordinals-ex004 | multiple-choice | How do you write 300? | ["trois cents","trois cent","trois centes"] | ["trois cents"] | false | Exact hundreds above 100 take an -s.
+- a2-numbers-years-ordinals-ex005 | fill-in | un million ___ euros | — | ["de"] | false | Million is followed by de before a noun.
+- a2-numbers-years-ordinals-ex006 | translate | Write this year in words, with the French for 'in': in 2019 | — | ["en deux mille dix-neuf"] | false | Use en with a year, and say the number in full.
+- a2-numbers-years-ordinals-ex007 | multiple-choice | Which of these is 1985, written correctly? | ["mille neuf cent quatre-vingt-cinq","mille neuf cents quatre-vingt-cinq","un mille neuf cent quatre-vingt-cinq"] | ["mille neuf cent quatre-vingt-cinq"] | false | Other numbers follow cent, so it has no -s, and mille needs no un.
+- a2-numbers-years-ordinals-ex008 | fill-in | le ___ jour (3rd) | — | ["troisième"] | false | Trois + -ième gives troisième.
+- a2-numbers-years-ordinals-ex009 | translate | Write in French: fifth | — | ["cinquième"] | false | Cinq adds a u before -ième: cinquième.
+- a2-numbers-years-ordinals-ex010 | translate | Write in French: ninth | — | ["neuvième"] | false | The f of neuf becomes v: neuvième.
+- a2-numbers-years-ordinals-ex011 | multiple-choice | How do you say 'twenty-first'? | ["vingt et unième","vingt et premier","vingt-premier"] | ["vingt et unième"] | false | Premier is only for 'first' on its own. In larger numbers, it's -unième.
+- a2-numbers-years-ordinals-ex012 | reorder | Put the words in order (a man speaking): I was born in 2010. | — | ["Je suis né en deux mille dix"] | false | Je suis né is a fixed phrase for now, and en goes before the year.
+
+## a2-time-expressions-past
+
+### Vocab
+
+fr | pron | en | note
+
+- hier | ee-YEHR | yesterday | —
+- hier matin / hier soir | ee-yehr mah-TAN / ee-yehr SWAHR | yesterday morning / yesterday evening, last night | —
+- avant-hier | ah-vahn-tee-YEHR | the day before yesterday | —
+- lundi dernier | luhn-dee dehr-NYAY | last Monday | —
+- le week-end dernier | luh wee-kend dehr-NYAY | last weekend | —
+- le mois dernier | luh mwah dehr-NYAY | last month | —
+- la semaine dernière | lah suh-men dehr-NYEHR | last week | —
+- l'année dernière | lah-nay dehr-NYEHR | last year | —
+- il y a deux jours | eel-yah duh ZHOOR | two days ago | Learn il y a + a length of time as a chunk for now.
+- il y a un an | eel-yah uh-NAHN | a year ago | —
+- déjà | day-ZHAH | already, ever | —
+- pas encore | pah-zahn-KOR | not yet | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-time-expressions-past-ex001 | fill-in | ___, j'ai joué au tennis. (Yesterday) | — | ["Hier"] | false | Hier means 'yesterday'.
+- a2-time-expressions-past-ex002 | fill-in | la semaine ___ (last) | — | ["dernière"] | false | Semaine is feminine, so dernier becomes dernière.
+- a2-time-expressions-past-ex003 | fill-in | le mois ___ (last) | — | ["dernier"] | false | Mois is masculine, so it's dernier.
+- a2-time-expressions-past-ex004 | fill-in | J'ai ___ mangé. (already) | — | ["déjà"] | false | Déjà goes between the auxiliary and the participle.
+- a2-time-expressions-past-ex005 | fill-in | Je n'ai pas ___ mangé. (yet) | — | ["encore"] | false | Pas encore goes after the auxiliary, in the place of pas.
+- a2-time-expressions-past-ex006 | multiple-choice | Comment dit-on 'I've already finished'? | ["J'ai déjà fini.","J'ai fini déjà.","Déjà j'ai fini."] | ["J'ai déjà fini."] | false | Déjà sits between avoir and the participle.
+- a2-time-expressions-past-ex007 | multiple-choice | Comment dit-on 'I haven't finished yet'? | ["Je n'ai pas encore fini.","Je pas encore ai fini.","J'ai pas encore ne fini."] | ["Je n'ai pas encore fini."] | false | Ne…pas encore wraps around avoir, and the participle follows.
+- a2-time-expressions-past-ex008 | translate | Write in French: the day before yesterday | — | ["avant-hier"] | false | Avant-hier is literally 'before yesterday'.
+- a2-time-expressions-past-ex009 | translate | Write in French: two days ago | — | ["il y a deux jours"] | true | Il y a goes before the length of time.
+- a2-time-expressions-past-ex010 | multiple-choice | Que veut dire l'année dernière ? | ["last year","next year","this year"] | ["last year"] | false | L'année dernière means 'last year'. Dernière matches année.
+- a2-time-expressions-past-ex011 | translate | Write in French: Yesterday, I worked. | — | ["Hier, j'ai travaillé","J'ai travaillé hier"] | true | Hier can go at the start or at the end of the sentence.
+- a2-time-expressions-past-ex012 | reorder | Put the words in order: We've already eaten. | — | ["Nous avons déjà mangé"] | false | Déjà goes between avons and mangé.
+
+## a2-negative-expressions
+
+### Vocab
+
+fr | pron | en | note
+
+- ne … jamais | nuh … zhah-MEH | never | —
+- ne … rien | nuh … RYAN | nothing, not anything | —
+- ne … personne | nuh … pehr-SONN | nobody, not anybody | —
+- ne … plus | nuh … PLEW | no longer, not any more | —
+- toujours | too-ZHOOR | always | Opposite: jamais.
+- quelque chose | kel-kuh SHOHZ | something | Opposite: rien.
+- quelqu'un | kel-KUHN | someone | Opposite: personne.
+- encore | ahn-KOR | still | Opposite: ne … plus.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-negative-expressions-ex001 | fill-in | Je ne mange ___ de viande. (never) | — | ["jamais"] | false | Ne…jamais goes around the verb, and de follows it.
+- a2-negative-expressions-ex002 | fill-in | Je ne fais ___. (nothing) | — | ["rien"] | false | Ne…rien goes around the verb in the present.
+- a2-negative-expressions-ex003 | fill-in | Je ne vois ___. (nobody) | — | ["personne"] | false | Ne…personne goes around the verb in the present.
+- a2-negative-expressions-ex004 | fill-in | Il ne travaille ___. (any more) | — | ["plus"] | false | Ne…plus means 'no longer'. The s is silent here.
+- a2-negative-expressions-ex005 | multiple-choice | Comment dit-on 'I didn't eat anything'? | ["Je n'ai rien mangé.","Je n'ai mangé rien.","Je rien n'ai mangé."] | ["Je n'ai rien mangé."] | false | In the passé composé, rien goes before the participle.
+- a2-negative-expressions-ex006 | multiple-choice | Comment dit-on 'I didn't see anybody'? | ["Je n'ai vu personne.","Je n'ai personne vu.","Je personne n'ai vu."] | ["Je n'ai vu personne."] | false | In the passé composé, personne goes after the participle.
+- a2-negative-expressions-ex007 | fill-in | ___ n'est venu. (Nobody) | — | ["Personne"] | false | Personne can be the subject. It comes first, followed by ne and the verb.
+- a2-negative-expressions-ex008 | multiple-choice | What's the positive counterpart of rien? | ["quelque chose","quelqu'un","toujours"] | ["quelque chose"] | false | Rien means nothing, and quelque chose means something.
+- a2-negative-expressions-ex009 | fill-in | Tu travailles encore ? — Non, je ne travaille ___. | — | ["plus"] | false | Encore means still, and ne…plus means no longer.
+- a2-negative-expressions-ex010 | translate | Write in French: I've never eaten fish. | — | ["Je n'ai jamais mangé de poisson"] | true | Jamais goes between avoir and the participle, and du becomes de.
+- a2-negative-expressions-ex011 | translate | Write in French: We saw nobody. | — | ["Nous n'avons vu personne","On n'a vu personne"] | true | Personne goes after the participle.
+- a2-negative-expressions-ex012 | reorder | Put the words in order (a man speaking): I've never been to Paris. | — | ["Je ne suis jamais allé à Paris"] | false | Aller uses être, and jamais goes between the auxiliary and the participle.
+
+## a2-talking-about-your-weekend
+
+### Vocab
+
+fr | pron | en | note
+
+- Tu as passé un bon week-end ? | tew ah pah-SAY uhn bohn wee-KEND | Did you have a good weekend? | —
+- Qu'est-ce que tu as fait ? | kess-kuh tew ah FEH | What did you do? | —
+- Tu es sorti / sortie ? | tew eh sor-TEE | Did you go out? (to a man / a woman) | —
+- Et toi ? | ay TWAH | And you? | —
+- Oui, super ! | wee sew-PEHR | Yes, great! | —
+- C'était bien. | say-TEH BYAN | It was good. | Fixed phrase for now.
+- C'était nul. | say-teh NEWL | It was rubbish. | Fixed phrase for now.
+- Rien de spécial. | ryan duh spay-SYAHL | Nothing special. | —
+- Je suis resté / restée à la maison. | zhuh swee res-TAY ah lah meh-ZOHN | I stayed at home. (man / woman) | —
+- J'ai fait la grasse matinée. | zhay feh lah grahss mah-tee-NAY | I had a lie-in. | —
+- passer | pah-SAY | to spend (time); to drop by | —
+- chez | shay | at the home of | Fixed in this phrase for now: chez Léa.
+- voir | vwahr | to see | aller voir quelqu'un: to go and see someone
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-talking-about-your-weekend-ex001 | fill-in | Tu as ___ un bon week-end ? (spent) | — | ["passé"] | true | Passer has a direct object here, un bon week-end, so it takes avoir.
+- a2-talking-about-your-weekend-ex002 | fill-in | Qu'est-ce que tu as ___ samedi ? (faire) | — | ["fait"] | false | The participle of faire is fait.
+- a2-talking-about-your-weekend-ex003 | fill-in | On est ___ au cinéma. (aller; 'on' means a mixed group, 'we') | — | ["allés","allé"] | false | With on meaning 'we', most people write allés, agreeing as with nous. The singular allé is also found.
+- a2-talking-about-your-weekend-ex004 | fill-in | Nous ___ allés au parc. (être) | — | ["sommes"] | false | Aller takes être, so it's nous sommes allés.
+- a2-talking-about-your-weekend-ex005 | fill-in | J'ai ___ un film. (regarder) | — | ["regardé"] | true | After avoir, an -er verb takes its participle in -é.
+- a2-talking-about-your-weekend-ex006 | fill-in | Elle est ___ dimanche. (rentrer) | — | ["rentrée"] | false | Rentrer takes être here, so the participle agrees with elle.
+- a2-talking-about-your-weekend-ex007 | multiple-choice | Comment dit-on 'I dropped by Léa's' (a man speaking)? | ["Je suis passé chez Léa.","J'ai passé chez Léa.","Je suis passer chez Léa."] | ["Je suis passé chez Léa."] | false | With no direct object, passer takes être.
+- a2-talking-about-your-weekend-ex008 | multiple-choice | Comment dit-on 'I had a good weekend'? | ["J'ai passé un bon week-end.","Je suis passé un bon week-end.","J'ai passer un bon week-end."] | ["J'ai passé un bon week-end."] | false | Un bon week-end is a direct object, so passer takes avoir.
+- a2-talking-about-your-weekend-ex009 | multiple-choice | Qu'est-ce que tu as fait ? — Rien de spécial. What does that answer mean? | ["Nothing special.","Something great.","I'm not sure."] | ["Nothing special."] | false | Rien de spécial is a common, short way to answer.
+- a2-talking-about-your-weekend-ex010 | multiple-choice | Comment dit-on 'I visited Léa' (a man speaking)? | ["Je suis allé voir Léa.","J'ai visité Léa.","Je suis visité Léa."] | ["Je suis allé voir Léa."] | false | Visiter is for places. For people, use aller voir.
+- a2-talking-about-your-weekend-ex011 | translate | Write in French, speaking to a friend: Did you have a good weekend? | — | ["Tu as passé un bon week-end","Est-ce que tu as passé un bon week-end","As-tu passé un bon week-end"] | true | Tu as passé un bon week-end ? is the usual way to ask.
+- a2-talking-about-your-weekend-ex012 | reorder | Put the words in order (a mixed group): On Saturday, we went to the park. | — | ["Samedi on est allés au parc","On est allés au parc samedi"] | false | Aller takes être. With on meaning 'we', most people write allés, and the singular allé is also found.
+
+## a2-review-past
+
+### Vocab
+
+fr | pron | en | note
+
+- les vacances | lay vah-KAHNSS | the holidays, the vacation | Always plural.
+- la montagne | lah mohn-TAH-nyuh | the mountains | —
+- la mer | lah MEHR | the sea | —
+- l'été dernier | lay-tay dehr-NYAY | last summer | —
+- C'était super. | say-teh sew-PEHR | It was great. | Fixed phrase for now.
+- un peu | uhn PUH | a little | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-review-past-ex001 | fill-in | Hier, j'ai ___ un livre. (lire) | — | ["lu"] | false | Lire is irregular. It takes avoir, and its participle is lu.
+- a2-review-past-ex002 | fill-in | Elle est ___ à Nice. (aller) | — | ["allée"] | false | Aller takes être, so the participle agrees with elle.
+- a2-review-past-ex003 | fill-in | Nous avons ___ le train. (prendre) | — | ["pris"] | false | Prendre takes avoir, and its participle is pris.
+- a2-review-past-ex004 | fill-in | Ils sont ___ samedi. (rentrer) | — | ["rentrés"] | true | Rentrer takes être here, and ils calls for -s.
+- a2-review-past-ex005 | fill-in | Je n'ai ___ mangé. (nothing) | — | ["rien"] | false | Rien goes before the participle.
+- a2-review-past-ex006 | fill-in | Je n'ai vu ___. (nobody) | — | ["personne"] | false | Personne goes after the participle.
+- a2-review-past-ex007 | multiple-choice | Choose the word for the blank: Nous ___ allés au marché. | ["sommes","avons","êtes"] | ["sommes"] | false | Aller takes être, and with nous it's sommes.
+- a2-review-past-ex008 | multiple-choice | Choose the word for the blank: J'ai ___ du vélo. | ["fait","faire","faisé"] | ["fait"] | false | Faire takes avoir, and its participle is fait.
+- a2-review-past-ex009 | translate | Write in French: The day before yesterday, we ate at the restaurant. | — | ["Avant-hier, nous avons mangé au restaurant","Avant-hier, on a mangé au restaurant","Nous avons mangé au restaurant avant-hier","On a mangé au restaurant avant-hier"] | true | Manger takes avoir, and the time phrase can go first or last.
+- a2-review-past-ex010 | translate | Write in French: She didn't come yesterday. | — | ["Elle n'est pas venue hier","Hier, elle n'est pas venue"] | false | Venir takes être, ne…pas goes around it, and venue agrees with elle.
+- a2-review-past-ex011 | fill-in | J'ai ___ fini. (already) | — | ["déjà"] | false | Déjà goes between the auxiliary and the participle.
+- a2-review-past-ex012 | reorder | Put the words in order: I haven't read the newspaper yet. | — | ["Je n'ai pas encore lu le journal"] | false | Pas encore follows the auxiliary, and lu follows that.
+
+## a2-body-and-health
+
+### Vocab
+
+fr | pron | en | note
+
+- la tête | lah TET | the head | —
+- le nez | luh NAY | the nose | —
+- la bouche | lah BOOSH | the mouth | —
+- la dent | lah DAHN | the tooth | —
+- l'oreille | loh-RAY | the ear | Feminine: une oreille.
+- la gorge | lah GORZH | the throat | —
+- le cou | luh KOO | the neck | —
+- le dos | luh DOH | the back | —
+- le ventre | luh VAHN-truh | the stomach, the belly | —
+- l'estomac | les-toh-MAH | the stomach (the organ) | Masculine: un estomac.
+- le cœur | luh KUHR | the heart | —
+- la poitrine | lah pwah-TREEN | the chest | —
+- le bras | luh BRAH | the arm | —
+- la main | lah MAN | the hand | —
+- le doigt | luh DWAH | the finger | —
+- la jambe | lah ZHAHNB | the leg | —
+- le genou | luh zhuh-NOO | the knee | Plural: les genoux.
+- le pied | luh PYAY | the foot | —
+- malade | mah-LAHD | ill, sick | —
+- un rhume | uhn REWM | a cold | —
+- enrhumé / enrhumée | ahn-rew-MAY | having a cold (man / woman) | —
+- la grippe | lah GREEP | the flu | —
+- la fièvre | lah FYEH-vruh | a temperature, a fever | J'ai de la fièvre: learn it as a whole.
+- la toux | lah TOO | a cough | —
+- tousser | too-SAY | to cough | —
+- un mal de tête | uhn mahl duh TET | a headache | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-body-and-health-ex001 | fill-in | J'ai mal ___ dos. | — | ["au"] | false | Dos is masculine, so à + le becomes au.
+- a2-body-and-health-ex002 | fill-in | J'ai mal ___ tête. | — | ["à la"] | true | Tête is feminine, so à la stays as two words.
+- a2-body-and-health-ex003 | fill-in | J'ai mal ___ dents. | — | ["aux"] | false | Dents is plural, so à + les becomes aux.
+- a2-body-and-health-ex004 | multiple-choice | Choose the words for the blank: J'ai mal ___ estomac. | ["à l'","au","à la"] | ["à l'"] | false | Estomac starts with a vowel, so it's à l'.
+- a2-body-and-health-ex005 | multiple-choice | Comment dit-on 'My head hurts'? | ["J'ai mal à la tête.","J'ai mal à ma tête.","Je suis mal à la tête."] | ["J'ai mal à la tête."] | false | French uses avoir mal and the article, not a word for 'my'.
+- a2-body-and-health-ex006 | multiple-choice | Que veut dire la gorge ? | ["the throat","the knee","the back"] | ["the throat"] | false | La gorge is the throat. The knee is le genou and the back is le dos.
+- a2-body-and-health-ex007 | fill-in | la ___ (the leg) | — | ["jambe"] | false | La jambe is the leg.
+- a2-body-and-health-ex008 | translate | Write in French: the foot | — | ["le pied"] | false | Pied is masculine, so it takes le.
+- a2-body-and-health-ex009 | translate | Write in French (a woman speaking): I have a cold. | — | ["J'ai un rhume","Je suis enrhumée"] | false | Both work. A woman adds -e to enrhumé.
+- a2-body-and-health-ex010 | fill-in | J'ai de la ___. (a temperature) | — | ["fièvre"] | false | J'ai de la fièvre means 'I've got a temperature'.
+- a2-body-and-health-ex011 | translate | Write in French (a woman): She's ill. | — | ["Elle est malade"] | false | Malade ends in -e, so it's the same for men and women.
+- a2-body-and-health-ex012 | reorder | Put the words in order: His feet hurt. | — | ["Il a mal aux pieds"] | false | Pieds is plural, so à + les becomes aux.
+
+## a2-at-the-doctor
+
+### Vocab
+
+fr | pron | en | note
+
+- le médecin | luh mayd-SAN | the doctor | —
+- un rendez-vous | uhn rahn-day-VOO | an appointment | —
+- Je voudrais prendre rendez-vous. | zhuh voo-dreh prahn-druh rahn-day-VOO | I'd like to make an appointment. | —
+- le médecin traitant | luh mayd-san treh-TAHN | your regular doctor, GP | —
+- la carte Vitale | lah kart vee-TAHL | the French health insurance card | —
+- Qu'est-ce que vous avez ? | kess-kuh voo-zah-VAY | What's wrong? | —
+- Où avez-vous mal ? | oo ah-vay voo MAHL | Where does it hurt? | —
+- Depuis quand ? | duh-pwee KAHN | Since when? How long? | Fixed phrase for now.
+- une ordonnance | ew-nor-doh-NAHNSS | a prescription | —
+- un médicament | uhn may-dee-kah-MAHN | a medicine, a drug | —
+- un comprimé | uhn kohn-pree-MAY | a tablet | —
+- deux fois par jour | duh fwah par ZHOOR | twice a day | —
+- Prenez… | pruh-NAY | Take… | —
+- Il faut se reposer. | eel foh suh ruh-poh-ZAY | You need to rest. | Fixed phrase for now.
+- Ce n'est pas grave. | suh neh pah GRAHV | It's not serious. | Fixed phrase for now.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-at-the-doctor-ex001 | fill-in | Je voudrais prendre ___. (an appointment) | — | ["rendez-vous"] | false | Prendre rendez-vous means 'to make an appointment'.
+- a2-at-the-doctor-ex002 | fill-in | Qu'est-ce que vous ___ ? (avoir) | — | ["avez"] | false | Qu'est-ce que vous avez ? is the doctor's way of asking what's wrong.
+- a2-at-the-doctor-ex003 | fill-in | Où avez-vous ___ ? (pain) | — | ["mal"] | false | Où avez-vous mal ? means 'Where does it hurt?'
+- a2-at-the-doctor-ex004 | multiple-choice | Qu'est-ce qu'une ordonnance ? | ["a prescription","a doctor's office","an appointment"] | ["a prescription"] | false | Une ordonnance is the prescription you take to the pharmacy.
+- a2-at-the-doctor-ex005 | multiple-choice | Qu'est-ce qu'un médicament ? | ["a medicine","a doctor","a hospital"] | ["a medicine"] | false | Un médicament is a medicine that you take. A doctor is un médecin.
+- a2-at-the-doctor-ex006 | multiple-choice | Que veut dire deux fois par jour ? | ["twice a day","for two days","every two days"] | ["twice a day"] | false | Fois means 'time', as in 'two times', and par jour means 'per day'.
+- a2-at-the-doctor-ex007 | fill-in | ___ deux comprimés. (prendre; the doctor to a patient, using vous) | — | ["Prenez"] | false | This is the vous command of prendre.
+- a2-at-the-doctor-ex008 | fill-in | Ce n'est pas ___. (serious) | — | ["grave"] | false | Ce n'est pas grave means 'It's not serious'.
+- a2-at-the-doctor-ex009 | multiple-choice | The doctor says Il faut se reposer. What do you need to do? | ["rest","take a tablet","go to the pharmacy"] | ["rest"] | false | Se reposer means 'to rest'.
+- a2-at-the-doctor-ex010 | translate | Write in French: My head hurts. | — | ["J'ai mal à la tête","J'ai un mal de tête"] | true | French says 'I have pain at the head', with the article.
+- a2-at-the-doctor-ex011 | translate | Write in French: I'd like to make an appointment. | — | ["Je voudrais prendre rendez-vous","Je voudrais prendre un rendez-vous"] | false | Prendre rendez-vous is the usual phrase for this.
+- a2-at-the-doctor-ex012 | reorder | Put the words in order: Take one tablet in the morning. | — | ["Prenez un comprimé le matin","Le matin prenez un comprimé"] | false | Le matin can go at the end or at the start of the instruction.
+
+## a2-reflexive-passe-compose
+
+### Vocab
+
+fr | pron | en | note
+
+- je me suis levé / levée | zhuh muh swee luh-VAY | I got up (man / woman) | —
+- tu t'es levé / levée | tew teh luh-VAY | you got up (informal; man / woman) | —
+- il s'est levé / elle s'est levée | eel seh luh-VAY / el seh luh-VAY | he got up / she got up | —
+- nous nous sommes levés / levées | noo noo somm luh-VAY | we got up (masculine or mixed / all women) | —
+- vous vous êtes levé / levée / levés / levées | voo voo-zet luh-VAY | you got up (depends who you're speaking to) | —
+- ils se sont levés / elles se sont levées | eel suh sohn luh-VAY / el suh sohn luh-VAY | they got up | —
+- se casser | suh kah-SAY | to break (a part of your body) | —
+- se blesser | suh bleh-SAY | to hurt yourself, to injure yourself | —
+- se voir | suh VWAHR | to see each other | —
+- se rencontrer | suh rahn-kohn-TRAY | to meet each other | —
+- se téléphoner | suh tay-lay-foh-NAY | to phone each other | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-reflexive-passe-compose-ex001 | fill-in | Je me ___ levée à six heures. (être; Marie is speaking) | — | ["suis"] | false | Reflexive verbs always take être: je me suis levée.
+- a2-reflexive-passe-compose-ex002 | fill-in | Tu t'___ couché tard ? (être; speaking to Paul) | — | ["es"] | false | Te shortens to t' before es: tu t'es couché.
+- a2-reflexive-passe-compose-ex003 | fill-in | Elle s'est ___ à sept heures. (se réveiller; the subject is Anne) | — | ["réveillée"] | false | The participle agrees with elle, so it adds -e.
+- a2-reflexive-passe-compose-ex004 | fill-in | Ils se sont ___. (se reposer; the subject is Paul and Marc) | — | ["reposés"] | true | The subject is masculine plural, so the participle adds -s.
+- a2-reflexive-passe-compose-ex005 | fill-in | Elles se sont ___. (s'habiller; the subject is Anne and Léa) | — | ["habillées"] | false | The subject is feminine plural, so the participle adds -es.
+- a2-reflexive-passe-compose-ex006 | fill-in | Elle s'est ___ le bras. (se casser; the subject is Marie) | — | ["cassé"] | true | Le bras is a direct object after the verb, so there's no agreement.
+- a2-reflexive-passe-compose-ex007 | fill-in | Elle s'est ___ au genou. (se blesser; the subject is Marie) | — | ["blessée"] | false | Au genou isn't a direct object, so the participle agrees with elle.
+- a2-reflexive-passe-compose-ex008 | multiple-choice | Comment dit-on 'I didn't get up' (a man speaking)? | ["Je ne me suis pas levé.","Je me ne suis pas levé.","Je ne suis pas me levé."] | ["Je ne me suis pas levé."] | false | Ne goes before the pronoun, and pas goes after the auxiliary.
+- a2-reflexive-passe-compose-ex009 | multiple-choice | Choose the word for the blank (Paul and Marc): Ils se sont ___. | ["téléphoné","téléphonés","téléphonée"] | ["téléphoné"] | false | It's téléphoner à someone, so there's no agreement.
+- a2-reflexive-passe-compose-ex010 | multiple-choice | Choose the word for the blank (Paul and Marc): Ils se sont ___ samedi. | ["vus","vu","vue"] | ["vus"] | false | Se voir agrees with the subject, here masculine plural.
+- a2-reflexive-passe-compose-ex011 | translate | Write in French (the subject is Marie): She brushed her teeth. | — | ["Elle s'est brossé les dents"] | true | Les dents is a direct object after the verb, so there's no agreement.
+- a2-reflexive-passe-compose-ex012 | reorder | Put the words in order (the subject is Anne): She didn't get dressed. | — | ["Elle ne s'est pas habillée"] | false | Ne…pas wraps around s'est, and habillée agrees with elle.
+
+## a2-il-faut-and-advice
+
+### Vocab
+
+fr | pron | en | note
+
+- il faut + infinitive | eel FOH | you have to, one must | —
+- il ne faut pas + infinitive | eel nuh foh PAH | you must not | —
+- Tu n'as pas besoin de… | tew nah pah buh-ZWAN duh | You don't have to… | Fixed phrase for now. Vous n'avez pas besoin de… with vous.
+- fumer | few-MAY | to smoke | —
+- marcher | mar-SHAY | to walk | —
+- le temps | luh TAHN | time | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-il-faut-and-advice-ex001 | fill-in | Il ___ boire de l'eau. | — | ["faut"] | false | Il faut is followed by an infinitive.
+- a2-il-faut-and-advice-ex002 | fill-in | Il ne faut ___ fumer ici. | — | ["pas"] | false | Il ne faut pas means 'you must not'.
+- a2-il-faut-and-advice-ex003 | fill-in | Tu ___ te reposer. (devoir) | — | ["dois"] | false | Tu dois, then the infinitive.
+- a2-il-faut-and-advice-ex004 | fill-in | Vous ___ marcher. (devoir) | — | ["devez"] | false | Vous devez, then the infinitive.
+- a2-il-faut-and-advice-ex005 | fill-in | Il faut ___ reposer. | — | ["se"] | false | After il faut, the reflexive pronoun stays se.
+- a2-il-faut-and-advice-ex006 | fill-in | Tu dois ___ reposer. | — | ["te"] | false | The pronoun matches the subject: tu dois te reposer.
+- a2-il-faut-and-advice-ex007 | multiple-choice | Que veut dire Il ne faut pas manger ici ? | ["You must not eat here.","You don't have to eat here.","You want to eat here."] | ["You must not eat here."] | false | Il ne faut pas is a prohibition.
+- a2-il-faut-and-advice-ex008 | multiple-choice | Comment dit-on 'You don't have to wait' to a friend? | ["Tu n'as pas besoin d'attendre.","Il ne faut pas attendre.","Tu ne dois attendre."] | ["Tu n'as pas besoin d'attendre."] | false | Tu n'as pas besoin de means there's no need. De shortens before the vowel.
+- a2-il-faut-and-advice-ex009 | fill-in | Il faut ___ temps. (some) | — | ["du"] | false | Il faut can go with a noun, and temps is masculine.
+- a2-il-faut-and-advice-ex010 | translate | Write in French, speaking to a friend: You have to sleep. | — | ["Tu dois dormir","Il faut dormir"] | false | Both are natural. Tu dois is addressed to one person, and il faut is more general.
+- a2-il-faut-and-advice-ex011 | translate | Write in French, speaking to a friend: You don't have to eat. | — | ["Tu n'as pas besoin de manger"] | false | Use the fixed phrase tu n'as pas besoin de, then the infinitive.
+- a2-il-faut-and-advice-ex012 | reorder | Put the words in order: You must not smoke. | — | ["Il ne faut pas fumer"] | false | Ne…pas goes around faut, and the infinitive comes last.
+
+## a2-adverbs-ment
+
+### Vocab
+
+fr | pron | en | note
+
+- lentement | lahnt-MAHN | slowly | From lent / lente.
+- heureusement | uh-ruhz-MAHN | fortunately | From heureux / heureuse.
+- doucement | doos-MAHN | gently, quietly | From doux / douce.
+- rapidement | rah-peed-MAHN | quickly | From rapide.
+- facilement | fah-seel-MAHN | easily | From facile.
+- évidemment | ay-vee-dah-MAHN | obviously, of course | From évident.
+- constamment | kohn-stah-MAHN | constantly | From constant.
+- vraiment | vreh-MAHN | really | From vrai.
+- poliment | poh-lee-MAHN | politely | From poli.
+- bien | byan | well | —
+- mal | mahl | badly | —
+- vite | veet | quickly, fast | —
+- parfois | par-FWAH | sometimes | —
+- très | treh | very | —
+- trop | troh | too, too much | —
+- assez | ah-SAY | enough; fairly | —
+- parler | par-LAY | to speak | —
+- dormir | dor-MEER | to sleep | Il dort. J'ai dormi.
+- marcher | mar-SHAY | to walk | —
+- manger | mahn-ZHAY | to eat | J'ai mangé.
+- le lit | luh LEE | the bed | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-adverbs-ment-ex001 | fill-in | lent, lente, ___ (slowly) | — | ["lentement"] | false | Take the feminine form and add -ment.
+- a2-adverbs-ment-ex002 | fill-in | heureux, heureuse, ___ (fortunately) | — | ["heureusement"] | false | The feminine heureuse plus -ment gives heureusement.
+- a2-adverbs-ment-ex003 | fill-in | évident, ___ (obviously) | — | ["évidemment"] | false | Adjectives in -ent make adverbs in -emment.
+- a2-adverbs-ment-ex004 | multiple-choice | What's the adverb from constant? | ["constamment","constantement","constemment"] | ["constamment"] | false | Adjectives in -ant make adverbs in -amment.
+- a2-adverbs-ment-ex005 | multiple-choice | What's the adverb from vrai? | ["vraiment","vraiement","vrayment"] | ["vraiment"] | false | When the masculine ends in a vowel, add -ment to it directly.
+- a2-adverbs-ment-ex006 | multiple-choice | Choose the word for the blank: Il dort ___. | ["bien","bon","bonne"] | ["bien"] | false | Bien describes the verb, so it's the adverb.
+- a2-adverbs-ment-ex007 | multiple-choice | Choose the word for the blank: C'est un ___ lit. | ["bon","bien","bonne"] | ["bon"] | false | Bon describes the noun lit, so it's the adjective.
+- a2-adverbs-ment-ex008 | fill-in | Il est ___ fatigué. (very) | — | ["très"] | false | Très goes before an adjective.
+- a2-adverbs-ment-ex009 | multiple-choice | Comment dit-on 'I slept well'? | ["J'ai bien dormi.","J'ai dormi bien.","Bien j'ai dormi."] | ["J'ai bien dormi."] | false | Short everyday adverbs usually go between the auxiliary and the participle.
+- a2-adverbs-ment-ex010 | translate | Write in French (the subject is a woman): She spoke slowly. | — | ["Elle a parlé lentement"] | true | Most -ment adverbs go after the participle.
+- a2-adverbs-ment-ex011 | fill-in | J'ai ___ mangé. (too much) | — | ["trop"] | false | Short adverbs like trop go between the auxiliary and the participle.
+- a2-adverbs-ment-ex012 | reorder | Put the words in order: She walks slowly. | — | ["Elle marche lentement"] | false | In the present, the adverb comes after the verb.
+
+## a2-review-health
+
+### Vocab
+
+fr | pron | en | note
+
+- Aïe ! | AH-y | Ouch! | —
+- tomber | tohn-BAY | to fall | —
+- une blessure | ewn bleh-SEWR | an injury | —
+- le plâtre | luh PLAH-truh | a plaster cast | —
+- Qu'est-ce qui s'est passé ? | kess-kee seh pah-SAY | What happened? | Fixed phrase for now.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-review-health-ex001 | fill-in | J'ai mal ___ genou. | — | ["au"] | false | Genou is masculine, so à + le becomes au.
+- a2-review-health-ex002 | translate | Write in French (the subject is Marie): She broke her arm. | — | ["Elle s'est cassé le bras"] | true | Le bras is a direct object after the verb, so cassé doesn't agree.
+- a2-review-health-ex003 | translate | Write in French (the subject is Marie): She hurt her knee. | — | ["Elle s'est blessée au genou"] | false | Au genou isn't a direct object, so blessée agrees with elle.
+- a2-review-health-ex004 | fill-in | Paul ne s'est pas ___. (se lever; the subject is Paul) | — | ["levé"] | false | Paul is one man, so the participle has no extra ending.
+- a2-review-health-ex005 | fill-in | Anne s'est ___ les mains. (se laver; the subject is Anne) | — | ["lavé"] | true | Les mains is a direct object after the verb, so lavé doesn't agree.
+- a2-review-health-ex006 | fill-in | Anne et Léa se sont ___. (s'habiller; the subject is Anne and Léa) | — | ["habillées"] | false | The subject is feminine plural, so the participle adds -es.
+- a2-review-health-ex007 | fill-in | Il ___ boire de l'eau. | — | ["faut"] | false | Il faut is followed by an infinitive.
+- a2-review-health-ex008 | multiple-choice | Que veut dire Il ne faut pas marcher ? | ["You must not walk.","You don't have to walk.","You can walk."] | ["You must not walk."] | false | Il ne faut pas is a prohibition.
+- a2-review-health-ex009 | fill-in | Tu dois ___ reposer. | — | ["te"] | false | After devoir, the pronoun matches the subject.
+- a2-review-health-ex010 | fill-in | J'ai ___ dormi. (well) | — | ["bien"] | false | Short adverbs like bien go between the auxiliary and the participle.
+- a2-review-health-ex011 | multiple-choice | Choose the word for the blank: Elle parle ___. | ["lentement","lente","lent"] | ["lentement"] | false | The word describes the verb, so you need the adverb.
+- a2-review-health-ex012 | reorder | Put the words in order (a man speaking): I didn't rest. | — | ["Je ne me suis pas reposé"] | false | Ne…pas wraps around the pronoun and the auxiliary.
+
+## a2-imparfait-formation
+
+### Vocab
+
+fr | pron | en | note
+
+- je parlais / tu parlais / il parlait | zhuh par-LEH / tew par-LEH / eel par-LEH | I was speaking, I used to speak / you… / he… | —
+- nous parlions / vous parliez / ils parlaient | noo par-LYOHN / voo par-LYAY / eel par-LEH | we… / you… / they were speaking, used to speak | —
+- je finissais / tu finissais / il finissait | zhuh fee-nee-SEH / tew fee-nee-SEH / eel fee-nee-SEH | I was finishing, I used to finish / you… / he… | —
+- nous finissions / vous finissiez / ils finissaient | noo fee-nee-SYOHN / voo fee-nee-SYAY / eel fee-nee-SEH | we… / you… / they were finishing, used to finish | —
+- j'attendais / tu attendais / il attendait | zhah-tahn-DEH / tew ah-tahn-DEH / ee-lah-tahn-DEH | I was waiting, I used to wait / you… / he… | —
+- nous attendions / vous attendiez / ils attendaient | noo-zah-tahn-DYOHN / voo-zah-tahn-DYAY / eel-zah-tahn-DEH | we… / you… / they were waiting, used to wait | —
+- j'étais / tu étais / il était | zhay-TEH / tew ay-TEH / ee-lay-TEH | I was / you were / he was | —
+- nous étions / vous étiez / ils étaient | noo-zay-TYOHN / voo-zay-TYAY / eel-zay-TEH | we were / you were / they were | —
+- je mangeais / nous mangions | zhuh mahn-ZHEH / noo mahn-ZHYOHN | I was eating / we were eating | —
+- je commençais / nous commencions | zhuh koh-mahn-SEH / noo koh-mahn-SYOHN | I was beginning / we were beginning | —
+- nous étudiions / vous étudiiez | noo-zay-tew-dee-YOHN / voo-zay-tew-dee-YAY | we were studying / you were studying | —
+- d'habitude | dah-bee-TEWD | usually | —
+- il y avait | eel-yah-VEH | there was, there were | Fixed form.
+- c'était | say-TEH | it was | Fixed form.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-imparfait-formation-ex001 | fill-in | À dix ans, je ___ à Lyon. (habiter) | — | ["habitais"] | false | Nous habitons gives habit-, and je takes -ais.
+- a2-imparfait-formation-ex002 | fill-in | Tu ___ souvent au tennis. (jouer) | — | ["jouais"] | false | Nous jouons gives jou-, and tu takes -ais.
+- a2-imparfait-formation-ex003 | fill-in | Elle ___ le bus tous les jours. (attendre) | — | ["attendait"] | false | Nous attendons gives attend-, and elle takes -ait.
+- a2-imparfait-formation-ex004 | fill-in | Nous ___ le travail à six heures. (finir) | — | ["finissions"] | false | Nous finissons gives finiss-, and nous takes -ions.
+- a2-imparfait-formation-ex005 | fill-in | Vous ___ à Nice ? (être, imparfait) | — | ["étiez"] | false | Être has the stem ét-, and vous takes -iez.
+- a2-imparfait-formation-ex006 | fill-in | Ils ___ dix ans. (avoir, imparfait) | — | ["avaient"] | false | Nous avons gives av-, and ils takes -aient.
+- a2-imparfait-formation-ex007 | fill-in | D'habitude, je ___ à midi. (manger) | — | ["mangeais"] | false | Manger keeps its e before a, to keep the g soft.
+- a2-imparfait-formation-ex008 | fill-in | D'habitude, nous ___ à midi. (manger) | — | ["mangions"] | false | Before i, the g is already soft, so there's no e.
+- a2-imparfait-formation-ex009 | multiple-choice | Choose the imparfait: Nous ___ le français tous les soirs. (étudier) | ["étudiions","étudions","étudiiez"] | ["étudiions"] | false | The stem étudi- plus -ions gives two i's. Étudions is the present.
+- a2-imparfait-formation-ex010 | multiple-choice | Choose the imparfait for je: commencer | ["je commençais","je commencais","je commenceais"] | ["je commençais"] | false | The c needs a cédille before a, to keep its s sound.
+- a2-imparfait-formation-ex011 | translate | Write in French, in the imparfait: The weather was nice. | — | ["Il faisait beau"] | false | Nous faisons gives fais-, and il takes -ait.
+- a2-imparfait-formation-ex012 | reorder | Put the words in order: There was a park. | — | ["Il y avait un parc"] | false | Il y avait is the past form of il y a.
+
+## a2-childhood-memories
+
+### Vocab
+
+fr | pron | en | note
+
+- Quand j'étais petit / petite… | kahn zhay-teh puh-TEE / puh-TEET | When I was little… (man / woman) | —
+- l'enfance | lahn-FAHNSS | childhood | Feminine: une enfance.
+- les grandes vacances | lay grahnd vah-KAHNSS | the summer holidays | —
+- la campagne | lah kahn-PAH-nyuh | the countryside | —
+- le jardin | luh zhar-DAN | the garden | —
+- le maître / la maîtresse | luh MEH-truh / lah meh-TRESS | the primary school teacher (man / woman) | —
+- jouer à cache-cache | zhoo-ay ah kahsh-KAHSH | to play hide-and-seek | —
+- le ballon | luh bah-LOHN | the ball | —
+- la poupée | lah poo-PAY | the doll | —
+- Tu habitais où ? | tew ah-bee-teh OO | Where did you live? | —
+- Tu aimais l'école ? | tew eh-meh lay-KOHL | Did you like school? | —
+- Tu jouais à quoi ? | tew zhoo-eh ah KWAH | What did you play? | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-childhood-memories-ex001 | fill-in | Quand j'___ petit, j'habitais à Nantes. (être; Paul is speaking) | — | ["étais"] | false | Être has the stem ét-, and j' takes -ais.
+- a2-childhood-memories-ex002 | fill-in | Quand j'étais ___, j'aimais l'école. (petit; Marie is speaking) | — | ["petite"] | false | Marie is a woman, so petit adds -e.
+- a2-childhood-memories-ex003 | fill-in | Tous les jours, je ___ à cache-cache. (jouer) | — | ["jouais"] | false | For a childhood habit, use the imparfait: je jouais.
+- a2-childhood-memories-ex004 | fill-in | L'été, nous ___ à la mer. (aller) | — | ["allions"] | false | Nous allons gives all-, and nous takes -ions.
+- a2-childhood-memories-ex005 | fill-in | Ma grand-mère ___ des gâteaux. (faire, imparfait) | — | ["faisait"] | false | Nous faisons gives fais-, and elle takes -ait.
+- a2-childhood-memories-ex006 | fill-in | Mes parents ___ à Lille. (travailler, imparfait) | — | ["travaillaient"] | false | Mes parents means ils, so the ending is -aient.
+- a2-childhood-memories-ex007 | multiple-choice | Read the sentence, then answer: Quand j'étais petite, j'habitais à la campagne avec mes parents et mon frère. Où habitait la petite fille ? | ["à la campagne","à Paris","à la mer"] | ["à la campagne"] | false | The sentence says: j'habitais à la campagne.
+- a2-childhood-memories-ex008 | multiple-choice | Read the sentence, then answer: Le samedi, ma grand-mère faisait un gâteau. J'adorais ça ! Que faisait la grand-mère le samedi ? | ["un gâteau","du vélo","la vaisselle"] | ["un gâteau"] | false | The sentence says: le samedi, ma grand-mère faisait un gâteau.
+- a2-childhood-memories-ex009 | multiple-choice | Tu jouais à quoi ? Which reply fits? | ["Je jouais au foot.","J'habitais à Lille.","J'avais dix ans."] | ["Je jouais au foot."] | false | Tu jouais à quoi ? asks what you used to play.
+- a2-childhood-memories-ex010 | translate | Write in French, speaking to a friend, in the imparfait: Did you like school? | — | ["Tu aimais l'école","Est-ce que tu aimais l'école","Aimais-tu l'école"] | false | Aimer is regular, and tu takes -ais.
+- a2-childhood-memories-ex011 | translate | Write in French (a woman speaking): When I was little | — | ["Quand j'étais petite"] | false | This is the classic start to a childhood memory, and a woman adds -e to petit.
+- a2-childhood-memories-ex012 | reorder | Put the words in order: There was a big garden. | — | ["Il y avait un grand jardin"] | false | Grand is a BAGS adjective, so it goes before the noun.
+
+## a2-passe-compose-vs-imparfait
+
+### Vocab
+
+fr | pron | en | note
+
+- un jour | uhn ZHOOR | one day | —
+- soudain | soo-DAN | suddenly | —
+- ce matin-là | suh mah-tan-LAH | that morning | —
+- une fois | ewn FWAH | once, one time | —
+- sonner | soh-NAY | to ring | —
+- crier | kree-AY | to shout | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-passe-compose-vs-imparfait-ex001 | fill-in | Quand j'étais petit, tous les jours, je ___ au parc. (aller; Paul is describing a daily habit) | — | ["allais"] | false | Tous les jours shows a repeated habit, so it's the imparfait.
+- a2-passe-compose-vs-imparfait-ex002 | fill-in | Hier, je ___ au parc. (aller; Paul is speaking) | — | ["suis allé"] | false | Hier shows a single event, so it's the passé composé, with être.
+- a2-passe-compose-vs-imparfait-ex003 | fill-in | Quand nous étions petits, d'habitude, nous ___ à midi. (manger; a group of boys) | — | ["mangions"] | false | D'habitude shows a habit, so it's the imparfait.
+- a2-passe-compose-vs-imparfait-ex004 | multiple-choice | Choose the right form: Je ___ quand le téléphone a sonné. | ["dormais","ai dormi","dors"] | ["dormais"] | false | The action in progress is in the imparfait. The interruption is in the passé composé.
+- a2-passe-compose-vs-imparfait-ex005 | multiple-choice | Choose the right form (Marc is one man): Soudain, Marc ___. | ["est arrivé","arrivait","arrive"] | ["est arrivé"] | false | Soudain marks a single event, so it's the passé composé.
+- a2-passe-compose-vs-imparfait-ex006 | fill-in | Un jour, Paul ___ une voiture. (acheter; one single purchase, now finished) | — | ["a acheté"] | true | Un jour points to one event, so it's the passé composé.
+- a2-passe-compose-vs-imparfait-ex007 | multiple-choice | Choose the right form, describing the weather at that moment: Il ___ beau quand nous sommes partis. | ["faisait","a fait","fait"] | ["faisait"] | false | The weather is the background, so it's the imparfait.
+- a2-passe-compose-vs-imparfait-ex008 | translate | Write in French, describing a regular habit of that time: When I was young, I took the bus every day. | — | ["Quand j'étais jeune, je prenais le bus tous les jours","Quand j'étais jeune, tous les jours, je prenais le bus"] | false | A repeated habit in the past takes the imparfait.
+- a2-passe-compose-vs-imparfait-ex009 | translate | Write in French: Yesterday, I took the bus. | — | ["Hier, j'ai pris le bus","J'ai pris le bus hier"] | false | One event yesterday takes the passé composé.
+- a2-passe-compose-vs-imparfait-ex010 | multiple-choice | In Les enfants jouaient au parc, which tense is jouaient? | ["imparfait","passé composé","present"] | ["imparfait"] | false | The -aient ending shows the imparfait.
+- a2-passe-compose-vs-imparfait-ex011 | multiple-choice | In Il faisait beau quand le bus est arrivé, which tenses do you see, in order? | ["imparfait, then passé composé","passé composé, then imparfait","imparfait, then imparfait"] | ["imparfait, then passé composé"] | false | Faisait is the background, and est arrivé is the event.
+- a2-passe-compose-vs-imparfait-ex012 | reorder | Put the words in order: I was sleeping when the phone rang. | — | ["Je dormais quand le téléphone a sonné","Quand le téléphone a sonné je dormais"] | false | Je dormais is the background, and a sonné is the event that interrupts it.
+
+## a2-telling-a-story
+
+### Vocab
+
+fr | pron | en | note
+
+- ce jour-là | suh zhoor-LAH | that day | —
+- d'abord | dah-BOR | first | —
+- ensuite | ahn-SWEET | next, then | —
+- puis | pwee | then | —
+- tout à coup | too-tah-KOO | suddenly, all of a sudden | —
+- enfin | ahn-FAN | finally, at last | —
+- trouver | troo-VAY | to find | Participle: trouvé.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-telling-a-story-ex001 | fill-in | ___, j'ai pris le bus. (First) | — | ["D'abord"] | false | D'abord starts the series of events.
+- a2-telling-a-story-ex002 | fill-in | D'abord, j'ai mangé. ___, je suis allé au musée. (Next; Paul is speaking) | — | ["Ensuite","Puis"] | false | Ensuite and puis both carry the story on to the next event.
+- a2-telling-a-story-ex003 | fill-in | ___, je suis rentré à la maison. (Finally; Paul is speaking) | — | ["Enfin"] | false | Enfin closes the series of events.
+- a2-telling-a-story-ex004 | multiple-choice | Que veut dire tout à coup ? | ["suddenly","finally","first"] | ["suddenly"] | false | Tout à coup means the same as soudain.
+- a2-telling-a-story-ex005 | fill-in | ___ jour, Léa est arrivée à Paris. (One) | — | ["Un"] | false | Un jour is a classic way to start the action of a story.
+- a2-telling-a-story-ex006 | multiple-choice | This is the background to a story. Choose the right form: Ce jour-là, il ___ beau, et les enfants jouaient au parc. | ["faisait","a fait","fait"] | ["faisait"] | false | Scene-setting descriptions take the imparfait.
+- a2-telling-a-story-ex007 | multiple-choice | You're telling the events of a story. Choose the right form: D'abord, nous ___ le musée. | ["avons visité","visitions","visitons"] | ["avons visité"] | false | A series of events takes the passé composé.
+- a2-telling-a-story-ex008 | fill-in | Ce ___-là, il pleuvait. (day) | — | ["jour"] | false | Ce jour-là means 'that day'.
+- a2-telling-a-story-ex009 | translate | Write in French: Suddenly, the phone rang. | — | ["Soudain, le téléphone a sonné","Tout à coup, le téléphone a sonné"] | true | A sudden event takes the passé composé.
+- a2-telling-a-story-ex010 | reorder | Put the words in order: First, we ate. | — | ["D'abord nous avons mangé"] | false | The connector comes first, then a sentence in the passé composé.
+- a2-telling-a-story-ex011 | reorder | Put the words in order: Suddenly, the dog arrived. | — | ["Soudain le chien est arrivé"] | false | Arriver takes être, and chien is masculine.
+- a2-telling-a-story-ex012 | reorder | Put the sentences of this story in order (Paul is telling it). Start with the scene. | — | ["Il faisait froid. D'abord, j'ai perdu mes clés. Ensuite, j'ai attendu le bus. Enfin, je suis rentré."] | false | The scene comes first, then d'abord, ensuite and enfin mark the events.
+
+## a2-culture-french-school-system
+
+### Vocab
+
+fr | pron | en | note
+
+- l'école maternelle | lay-kohl mah-tehr-NEL | nursery school | —
+- l'école élémentaire | lay-kohl ay-lay-mahn-TEHR | primary school | —
+- le collège | luh koh-LEZH | middle school | —
+- le lycée | luh lee-SAY | secondary school, sixth form | —
+- le bac | luh BAHK | the school-leaving exam | Short for le baccalauréat.
+- la sixième | lah see-ZYEM | first year of collège | —
+- la cinquième | lah san-KYEM | second year of collège | —
+- la quatrième | lah kah-tree-EM | third year of collège | —
+- la troisième | lah trwah-ZYEM | last year of collège | —
+- la seconde | lah suh-GOHND | first year of lycée | —
+- la première | lah pruh-MYEHR | second year of lycée | —
+- la terminale | lah tehr-mee-NAHL | last year of lycée | —
+- un cours | uhn KOOR | a lesson, a class | —
+- un prof / une prof | uhn PROF / ewn PROF | a teacher (informal) | —
+- les devoirs | lay duh-VWAHR | homework | —
+- la cantine | lah kahn-TEEN | the school canteen | —
+- redoubler | ruh-doo-BLAY | to repeat a year | —
+- une note | ewn NOTT | a mark, a grade | —
+- un examen | uh-neg-zah-MAN | an exam | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-culture-french-school-system-ex001 | multiple-choice | Qui va au collège ? | ["children of about 11 to 15","children of about 3 to 6","university students"] | ["children of about 11 to 15"] | false | Le collège comes after primary school. It isn't a university.
+- a2-culture-french-school-system-ex002 | multiple-choice | What's the first year of collège called? | ["la sixième","la troisième","la terminale"] | ["la sixième"] | false | French class names count down, so collège starts with la sixième.
+- a2-culture-french-school-system-ex003 | multiple-choice | What's the last year of lycée called? | ["la terminale","la seconde","la sixième"] | ["la terminale"] | false | La terminale is the final year.
+- a2-culture-french-school-system-ex004 | multiple-choice | What is le bac? | ["the exam at the end of lycée","the first year of collège","the school canteen"] | ["the exam at the end of lycée"] | false | Le bac is the school-leaving exam.
+- a2-culture-french-school-system-ex005 | multiple-choice | French school marks are usually out of… | ["20","100","10"] | ["20"] | false | Marks are usually given out of 20.
+- a2-culture-french-school-system-ex006 | fill-in | les ___ (homework) | — | ["devoirs"] | false | Les devoirs is always plural when it means homework.
+- a2-culture-french-school-system-ex007 | fill-in | la ___ (the school canteen) | — | ["cantine"] | false | La cantine is where pupils eat lunch.
+- a2-culture-french-school-system-ex008 | multiple-choice | Que veut dire redoubler ? | ["to repeat a year","to change schools","to pass an exam"] | ["to repeat a year"] | false | Redoubler means to do the same school year again.
+- a2-culture-french-school-system-ex009 | fill-in | Quand j'étais au collège, je ___ à la cantine. (manger) | — | ["mangeais"] | false | A past habit takes the imparfait, and manger keeps its e before a.
+- a2-culture-french-school-system-ex010 | fill-in | Au lycée, nous ___ des devoirs tous les jours. (avoir, imparfait) | — | ["avions"] | false | Nous avons gives av-, and nous takes -ions.
+- a2-culture-french-school-system-ex011 | translate | Write in French: the teacher (informal, a man) | — | ["le prof"] | false | Le prof is short for le professeur.
+- a2-culture-french-school-system-ex012 | reorder | Put the words in order: I'm in the final year. | — | ["Je suis en terminale"] | false | French uses en with the name of the class, and no article.
+
+## a2-review-memories
+
+### Vocab
+
+fr | pron | en | note
+
+- un souvenir | uhn soo-vuh-NEER | a memory | —
+- un chien | uhn SHYAN | a dog | —
+- la forêt | lah foh-REH | the forest | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-review-memories-ex001 | fill-in | D'habitude, nous ___ à midi à l'école. (manger, imparfait) | — | ["mangions"] | false | Before i, the g is already soft, so there's no e.
+- a2-review-memories-ex002 | fill-in | D'habitude, je ___ à huit heures. (commencer, imparfait) | — | ["commençais"] | false | The c needs a cédille before a.
+- a2-review-memories-ex003 | fill-in | Quand nous étions jeunes, nous ___ le soir. (étudier) | — | ["étudiions"] | false | The stem étudi- plus -ions gives two i's.
+- a2-review-memories-ex004 | multiple-choice | Choose the right form, for a daily habit. Quand Marc était petit, tous les jours, il ___ au parc. | ["allait","est allé","va"] | ["allait"] | false | Tous les jours shows a past habit, so it's the imparfait.
+- a2-review-memories-ex005 | fill-in | Hier, Marie ___ à Lyon. (aller; Marie is one woman) | — | ["est allée"] | false | Hier shows one event, aller takes être, and allée agrees with Marie.
+- a2-review-memories-ex006 | multiple-choice | Choose the right form (Paul is one man): Je lisais quand Paul ___. | ["est arrivé","arrivait","arrive"] | ["est arrivé"] | false | The reading is the background, and Paul's arrival is the event that interrupts it.
+- a2-review-memories-ex007 | translate | Write out this passage with each verb in the right tense. The first sentence is background, and Marie's arrival is an event. Marie is one woman: Il (faire) beau et les enfants (être) contents. Soudain, Marie (arriver) à Lyon. | — | ["Il faisait beau et les enfants étaient contents. Soudain, Marie est arrivée à Lyon."] | true | Faisait and étaient describe the scene. Est arrivée is an event, with être and agreement.
+- a2-review-memories-ex008 | fill-in | ___, nous avons mangé. (First) | — | ["D'abord"] | false | D'abord starts the series of events.
+- a2-review-memories-ex009 | fill-in | ___, nous sommes rentrés. (Finally; a group of men) | — | ["Enfin"] | false | Enfin closes the series of events.
+- a2-review-memories-ex010 | multiple-choice | Which stage of school does la sixième belong to? | ["le collège","le lycée","l'école maternelle"] | ["le collège"] | false | La sixième is the first year of collège.
+- a2-review-memories-ex011 | translate | Write in French (a woman speaking): Yesterday, I went to school. | — | ["Hier, je suis allée à l'école","Je suis allée à l'école hier"] | true | Hier shows one event, aller takes être, and a woman adds -e.
+- a2-review-memories-ex012 | reorder | Put the words in order: It was raining when we left. (a group of men) | — | ["Il pleuvait quand nous sommes partis","Quand nous sommes partis il pleuvait"] | false | The weather is the background, and leaving is the event.
+
+## a2-jobs-and-workplace
+
+### Vocab
+
+fr | pron | en | note
+
+- un serveur / une serveuse | uhn sehr-VUHR / ewn sehr-VUHZ | a waiter / a waitress | —
+- un vendeur / une vendeuse | uhn vahn-DUHR / ewn vahn-DUHZ | a shop assistant (man / woman) | —
+- un acteur / une actrice | uh-nak-TUHR / ew-nak-TREESS | an actor / an actress | —
+- un directeur / une directrice | uhn dee-rek-TUHR / ewn dee-rek-TREESS | a manager, a director (man / woman) | —
+- un infirmier / une infirmière | uh-nan-feer-MYAY / ew-nan-feer-MYEHR | a nurse (man / woman) | —
+- un boulanger / une boulangère | uhn boo-lahn-ZHAY / ewn boo-lahn-ZHEHR | a baker (man / woman) | —
+- un cuisinier / une cuisinière | uhn kwee-zee-NYAY / ewn kwee-zee-NYEHR | a cook (man / woman) | —
+- un policier / une policière | uhn poh-lee-SYAY / ewn poh-lee-SYEHR | a police officer (man / woman) | —
+- un / une journaliste | zhoor-nah-LEEST | a journalist | —
+- un / une dentiste | dahn-TEEST | a dentist | —
+- un professeur / une professeure | uhn proh-feh-SUHR / ewn proh-feh-SUHR | a teacher (man / woman) | Une professeur is also seen.
+- un ingénieur / une ingénieure | uh-nan-zhay-NYUHR / ew-nan-zhay-NYUHR | an engineer (man / woman) | Une ingénieur is also seen.
+- un écrivain / une écrivaine | uh-nay-kree-VAN / ew-nay-kree-VEN | a writer (man / woman) | Une écrivain is also seen.
+- le métier | luh may-TYAY | the job, the profession | —
+- l'usine | lew-ZEEN | the factory | Feminine: une usine.
+- gagner | gah-NYAY | to earn | —
+- l'argent | lar-ZHAHN | money | Masculine: gagner de l'argent (to earn money).
+- chercher du travail | shehr-shay dew trah-VAH-y | to look for work | —
+- Quel est ton métier ? | kel eh tohn may-TYAY | What's your job? (informal) | With vous: Quel est votre métier ?
+- Vous travaillez où ? | voo trah-vah-yay OO | Where do you work? | With tu: Tu travailles où ?
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-jobs-and-workplace-ex001 | fill-in | Marie est ___. (a nurse) | — | ["infirmière"] | false | Marie is a woman, so -ier becomes -ière. There's no article after être here.
+- a2-jobs-and-workplace-ex002 | fill-in | Paul est ___. (a waiter) | — | ["serveur"] | false | Paul is a man, so it's serveur, with no article.
+- a2-jobs-and-workplace-ex003 | fill-in | Léa est ___. (an actress) | — | ["actrice"] | false | Masculine -teur often becomes -trice in the feminine.
+- a2-jobs-and-workplace-ex004 | fill-in | Anne est ___. (a shop assistant) | — | ["vendeuse"] | false | Masculine -eur often becomes -euse in the feminine.
+- a2-jobs-and-workplace-ex005 | multiple-choice | Paul is speaking. Which sentence is correct? | ["Je suis infirmier.","Je suis un infirmier.","Je suis infirmière."] | ["Je suis infirmier."] | false | With être, a job has no article, and Paul uses the masculine form.
+- a2-jobs-and-workplace-ex006 | fill-in | Marc travaille ___ bureau. | — | ["au"] | false | Bureau is masculine, so à + le becomes au.
+- a2-jobs-and-workplace-ex007 | multiple-choice | Choose the words for the blank: Anne travaille ___ hôpital. | ["à l'","au","à la"] | ["à l'"] | false | Hôpital starts with a silent h, so it's à l'.
+- a2-jobs-and-workplace-ex008 | fill-in | Il travaille à l'___. (factory) | — | ["usine"] | false | L'usine is the factory.
+- a2-jobs-and-workplace-ex009 | translate | Write in French (the subject is Marie): She's a teacher. | — | ["Elle est professeure","Elle est professeur"] | false | With être, there's no article. Professeure is the more common form today, and professeur is also seen.
+- a2-jobs-and-workplace-ex010 | multiple-choice | Que veut dire Vous travaillez où ? | ["Where do you work?","What's your job?","When do you work?"] | ["Where do you work?"] | false | Où asks where.
+- a2-jobs-and-workplace-ex011 | translate | Write in French, speaking to a friend: What's your job? | — | ["Quel est ton métier"] | false | Métier is masculine, so it's quel and ton.
+- a2-jobs-and-workplace-ex012 | reorder | Put the words in order: I'm looking for work. | — | ["Je cherche du travail"] | false | Chercher du travail is a set expression.
+
+## a2-cest-vs-il-est
+
+### Vocab
+
+fr | pron | en | note
+
+- important / importante | an-por-TAHN / an-por-TAHNT | important (masculine / feminine) | —
+- difficile | dee-fee-SEEL | difficult | —
+- facile | fah-SEEL | easy | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-cest-vs-il-est-ex001 | fill-in | ___ un médecin. (He's) | — | ["C'est"] | false | After an article and a noun, use c'est.
+- a2-cest-vs-il-est-ex002 | fill-in | ___ médecin. (He's; the subject is Paul) | — | ["Il est"] | false | A job with no article takes il est.
+- a2-cest-vs-il-est-ex003 | fill-in | ___ grande. (She's; the subject is Marie) | — | ["Elle est"] | false | An adjective describing a person takes il est or elle est.
+- a2-cest-vs-il-est-ex004 | fill-in | ___ mon frère. (He's) | — | ["C'est"] | false | Before mon and a noun, use c'est.
+- a2-cest-vs-il-est-ex005 | multiple-choice | Choose the right start: ___ une bonne infirmière. | ["C'est","Elle est","Il est"] | ["C'est"] | false | With une and an adjective before the job, use c'est.
+- a2-cest-vs-il-est-ex006 | multiple-choice | You're talking about a situation. Choose the right start: ___ important. | ["C'est","Il est","Elle est"] | ["C'est"] | false | For things and situations, use c'est, and the adjective stays masculine.
+- a2-cest-vs-il-est-ex007 | multiple-choice | Choose the right start: ___ des étudiants. | ["Ce sont","Ils sont","Elles sont"] | ["Ce sont"] | false | With des and a noun, use ce sont.
+- a2-cest-vs-il-est-ex008 | multiple-choice | The subject is Paul and Marc. Choose the right start: ___ étudiants. | ["Ils sont","Ce sont","C'est"] | ["Ils sont"] | false | With no article before the noun, use ils sont.
+- a2-cest-vs-il-est-ex009 | multiple-choice | Which sentence is correct? | ["Elle est infirmière.","Elle est une bonne infirmière.","C'est infirmière."] | ["Elle est infirmière."] | false | A job alone takes elle est. With une, you need c'est.
+- a2-cest-vs-il-est-ex010 | translate | Write in French, using a name: It's Paul. | — | ["C'est Paul"] | false | Use c'est before a name.
+- a2-cest-vs-il-est-ex011 | translate | Write in French, with no word for 'a' (the subject is Marie): She's a student. | — | ["Elle est étudiante"] | false | With no article, use elle est, and étudiante agrees with Marie.
+- a2-cest-vs-il-est-ex012 | reorder | Put the words in order: He's a good waiter. | — | ["C'est un bon serveur"] | false | An article and an adjective before the noun call for c'est.
+
+## a2-savoir-connaitre
+
+### Vocab
+
+fr | pron | en | note
+
+- savoir | sah-VWAHR | to know (facts, how to do something) | —
+- je sais / tu sais / il sait | zhuh SEH / tew SEH / eel SEH | I know / you know / he knows | —
+- nous savons / vous savez / ils savent | noo sah-VOHN / voo sah-VAY / eel SAHV | we know / you know / they know | —
+- connaître | koh-NEH-truh | to know (people, places, things) | —
+- je connais / tu connais / il connaît | zhuh koh-NEH / tew koh-NEH / eel koh-NEH | I know / you know / he knows | —
+- nous connaissons / vous connaissez / ils connaissent | noo koh-neh-SOHN / voo koh-neh-SAY / eel koh-NESS | we know / you know / they know | —
+- nager | nah-ZHAY | to swim | —
+- Je ne sais pas. | zhuh nuh seh PAH | I don't know. | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-savoir-connaitre-ex001 | fill-in | Je ___ nager. (savoir) | — | ["sais"] | false | For a skill, use savoir + infinitive.
+- a2-savoir-connaitre-ex002 | fill-in | Ils ___ chanter. (savoir) | — | ["savent"] | false | The ils form of savoir is savent.
+- a2-savoir-connaitre-ex003 | fill-in | Vous ___ Paul ? (connaître) | — | ["connaissez"] | false | For a person, use connaître.
+- a2-savoir-connaitre-ex004 | fill-in | Elle ___ Lyon. (connaître) | — | ["connaît"] | false | For a place, use connaître. The il and elle form has a circumflex.
+- a2-savoir-connaitre-ex005 | fill-in | Nous ___ nager. (savoir) | — | ["savons"] | false | The nous form of savoir is savons.
+- a2-savoir-connaitre-ex006 | fill-in | Ils ___ ce restaurant. (connaître) | — | ["connaissent"] | false | The plural of connaître has -ss-.
+- a2-savoir-connaitre-ex007 | multiple-choice | Comment dit-on 'I know how to swim'? | ["Je sais nager.","Je connais nager.","Je suis nager."] | ["Je sais nager."] | false | A skill takes savoir + infinitive.
+- a2-savoir-connaitre-ex008 | multiple-choice | Comment dit-on 'I know Paul'? | ["Je connais Paul.","Je sais Paul.","Je sais de Paul."] | ["Je connais Paul."] | false | A person takes connaître.
+- a2-savoir-connaitre-ex009 | multiple-choice | What does Je sais nager tell you? | ["I know how to swim.","I'm allowed to swim today.","I'm swimming right now."] | ["I know how to swim."] | false | Savoir + infinitive means you have the skill.
+- a2-savoir-connaitre-ex010 | fill-in | Je ___ que tu travailles. (savoir) | — | ["sais"] | false | Before que and a clause, use savoir.
+- a2-savoir-connaitre-ex011 | translate | Write in French: I don't know. | — | ["Je ne sais pas"] | false | Je ne sais pas can stand alone as a complete sentence.
+- a2-savoir-connaitre-ex012 | reorder | Put the words in order: We know this restaurant. | — | ["Nous connaissons ce restaurant"] | false | A place you're familiar with takes connaître.
+
+## a2-depuis-pendant-il-y-a
+
+### Vocab
+
+fr | pron | en | note
+
+- depuis | duh-PWEE | since, for (still going on) | —
+- pendant | pahn-DAHN | for (a length of time) | —
+- Depuis combien de temps ? | duh-pwee kohn-byan duh TAHN | For how long? (and still going on) | —
+- Pendant combien de temps ? | pahn-dahn kohn-byan duh TAHN | For how long? | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-depuis-pendant-il-y-a-ex001 | fill-in | J'habite à Lyon ___ 2019. (and I still live there) | — | ["depuis"] | false | It began in the past and is still true, so use depuis with the present.
+- a2-depuis-pendant-il-y-a-ex002 | fill-in | Elle travaille ici ___ trois ans. (and she still works here) | — | ["depuis"] | false | It's still going on, so use depuis with the present.
+- a2-depuis-pendant-il-y-a-ex003 | fill-in | J'ai travaillé ___ deux ans. (saying how long it lasted) | — | ["pendant"] | false | Pendant says how long something lasted.
+- a2-depuis-pendant-il-y-a-ex004 | fill-in | Je vais rester ___ trois jours. (saying how long it will last) | — | ["pendant"] | false | Pendant works for the future too.
+- a2-depuis-pendant-il-y-a-ex005 | fill-in | ___ deux ans, j'ai commencé. (ago) | — | ["Il y a"] | true | Il y a + a length of time means 'ago'.
+- a2-depuis-pendant-il-y-a-ex006 | multiple-choice | The verb is in the present. Choose the right word: Je travaille ici ___ deux ans. | ["depuis","pendant","il y a"] | ["depuis"] | false | The action is still going on, so it's depuis.
+- a2-depuis-pendant-il-y-a-ex007 | multiple-choice | Saying how long it lasted. Choose the right word: J'ai habité à Nice ___ trois ans. | ["pendant","depuis","il y a"] | ["pendant"] | false | It's finished, and you're saying how long it lasted, so it's pendant.
+- a2-depuis-pendant-il-y-a-ex008 | multiple-choice | Depuis quand tu travailles ici ? Which answer fits? | ["Depuis lundi.","Pendant lundi.","Il y a lundi."] | ["Depuis lundi."] | false | The question asks since when, so the answer uses depuis.
+- a2-depuis-pendant-il-y-a-ex009 | multiple-choice | In Il y a un parc, what does il y a mean? | ["there is","ago","for"] | ["there is"] | false | Before a noun like un parc, il y a means 'there is'.
+- a2-depuis-pendant-il-y-a-ex010 | translate | Write in French: I've been living here for two years. (and I still live here) | — | ["J'habite ici depuis deux ans"] | false | French uses the present with depuis.
+- a2-depuis-pendant-il-y-a-ex011 | translate | Write in French: Three days ago, I finished the work. | — | ["Il y a trois jours, j'ai fini le travail","J'ai fini le travail il y a trois jours"] | true | Il y a + a length of time means 'ago', with the passé composé.
+- a2-depuis-pendant-il-y-a-ex012 | reorder | Put the words in order: She's been working here since Monday. | — | ["Elle travaille ici depuis lundi","Depuis lundi elle travaille ici"] | false | The action is still going on, so depuis goes with the present.
+
+## a2-venir-de-en-train-de
+
+### Vocab
+
+fr | pron | en | note
+
+- venir de + infinitive | vuh-NEER duh | to have just done something | —
+- être en train de + infinitive | et-ruh ahn TRAN duh | to be in the middle of doing something | —
+- à l'instant | ah lan-STAHN | just now, a moment ago | —
+- en ce moment | ahn suh moh-MAHN | at the moment | —
+- se préparer | suh pray-pah-RAY | to get ready | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-venir-de-en-train-de-ex001 | fill-in | Je ___ de manger. (venir) | — | ["viens"] | false | Je viens de + infinitive means 'I've just…'
+- a2-venir-de-en-train-de-ex002 | fill-in | Nous ___ d'arriver. (venir) | — | ["venons"] | false | Nous venons, and de shortens before the vowel of arriver.
+- a2-venir-de-en-train-de-ex003 | fill-in | Elle ___ de finir. (venir) | — | ["vient"] | false | The elle form of venir is vient.
+- a2-venir-de-en-train-de-ex004 | fill-in | Ils ___ de partir. (venir) | — | ["viennent"] | false | The ils form of venir has -ienn-.
+- a2-venir-de-en-train-de-ex005 | fill-in | Je suis en ___ de travailler. | — | ["train"] | false | Être en train de is a fixed expression.
+- a2-venir-de-en-train-de-ex006 | fill-in | Nous ___ en train de manger. (être) | — | ["sommes"] | false | Only être changes with the subject.
+- a2-venir-de-en-train-de-ex007 | fill-in | Je suis en train de ___ préparer. | — | ["me"] | false | The reflexive pronoun matches the subject, je.
+- a2-venir-de-en-train-de-ex008 | multiple-choice | Que veut dire Je viens de manger ? | ["I've just eaten.","I'm going to eat.","I'm eating."] | ["I've just eaten."] | false | Venir de + infinitive describes the recent past.
+- a2-venir-de-en-train-de-ex009 | multiple-choice | Comment dit-on 'I'm going to eat'? | ["Je vais manger.","Je viens de manger.","Je suis en train de manger."] | ["Je vais manger."] | false | Aller + infinitive is the near future.
+- a2-venir-de-en-train-de-ex010 | multiple-choice | Choose the word for the blank: Nous venons ___ arriver. | ["d'","de","du"] | ["d'"] | false | De shortens to d' before a vowel.
+- a2-venir-de-en-train-de-ex011 | translate | Write in French: I've just finished. | — | ["Je viens de finir"] | false | Use je viens de, then the infinitive.
+- a2-venir-de-en-train-de-ex012 | reorder | Put the words in order: She's in the middle of working. | — | ["Elle est en train de travailler"] | false | Elle est changes with the subject, and travailler stays in the infinitive.
+
+## a2-phone-calls-and-messages
+
+### Vocab
+
+fr | pron | en | note
+
+- Allô ? | ah-LOH | Hello? (on the phone) | —
+- C'est … à l'appareil. | seh … ah lah-pah-RAY | This is … speaking. | —
+- Qui est à l'appareil ? | kee eh ah lah-pah-RAY | Who's calling? | —
+- C'est de la part de qui ? | seh duh lah par duh KEE | Who's calling, please? | —
+- Je voudrais parler à… | zhuh voo-dreh par-LAY ah | I'd like to speak to… | —
+- Ne quittez pas. | nuh kee-tay PAH | Hold the line. | —
+- Je vous passe… | zhuh voo PAHSS | I'll put you through to… | Fixed phrase for now.
+- Pouvez-vous répéter, s'il vous plaît ? | poo-vay voo ray-pay-TAY, seel voo PLEH | Can you repeat that, please? | —
+- Pouvez-vous rappeler plus tard ? | poo-vay voo rah-play plew TAR | Can you call back later? | —
+- occupé / occupée | oh-kew-PAY | busy (man / woman) | —
+- absent / absente | ap-SAHN / ap-SAHNT | away, out (man / woman) | —
+- en réunion | ahn ray-ew-NYOHN | in a meeting | —
+- Vous vous trompez de numéro. | voo voo trohn-pay duh new-may-ROH | You've got the wrong number. | Fixed phrase for now.
+- laisser un message | leh-say uhn meh-SAHZH | to leave a message | —
+- le répondeur | luh ray-pohn-DUHR | the answering machine, voicemail | —
+- un message vocal | uhn meh-sahzh voh-KAHL | a voice message | —
+- un SMS / un texto | uhn ess-em-ESS / uhn tek-STOH | a text message | Both are common.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-phone-calls-and-messages-ex001 | fill-in | C'est Marie à l'___. (speaking, on the phone) | — | ["appareil"] | false | C'est … à l'appareil is how you say who's speaking.
+- a2-phone-calls-and-messages-ex002 | fill-in | Je voudrais ___ à Paul. (to speak) | — | ["parler"] | false | After je voudrais, the verb stays in the infinitive.
+- a2-phone-calls-and-messages-ex003 | fill-in | Ne ___ pas. (Hold the line; quitter, speaking formally) | — | ["quittez"] | false | This is a vous command, with ne…pas around it.
+- a2-phone-calls-and-messages-ex004 | multiple-choice | Que veut dire C'est de la part de qui ? | ["Who's calling?","Where are you?","What's the number?"] | ["Who's calling?"] | false | It's a polite way of asking who's on the line.
+- a2-phone-calls-and-messages-ex005 | multiple-choice | Que veut dire Vous vous trompez de numéro ? | ["You've got the wrong number.","Please call back.","Hold the line."] | ["You've got the wrong number."] | false | Se tromper means to make a mistake.
+- a2-phone-calls-and-messages-ex006 | fill-in | Madame Martin est ___. (busy; the subject is Madame Martin) | — | ["occupée"] | false | Madame Martin is a woman, so occupé adds -e.
+- a2-phone-calls-and-messages-ex007 | fill-in | Paul est ___. (away; the subject is Paul) | — | ["absent"] | false | Paul is a man, so it's absent, with a silent t.
+- a2-phone-calls-and-messages-ex008 | multiple-choice | How do you read out 06 12 34? | ["zéro six, douze, trente-quatre","zéro, six, un, deux, trois, quatre","six, douze, trente-quatre"] | ["zéro six, douze, trente-quatre"] | false | French phone numbers are read in pairs.
+- a2-phone-calls-and-messages-ex009 | translate | Write in French, speaking formally: Can you repeat that, please? | — | ["Pouvez-vous répéter, s'il vous plaît","Vous pouvez répéter, s'il vous plaît"] | false | Either the inverted or the plain question works.
+- a2-phone-calls-and-messages-ex010 | translate | Write in French: I'd like to leave a message. | — | ["Je voudrais laisser un message"] | false | Use je voudrais, then the infinitive.
+- a2-phone-calls-and-messages-ex011 | reorder | Put these lines of a phone call in order. | — | ["Allô ? Bonjour, je voudrais parler à Paul. C'est de la part de qui ? C'est Marie à l'appareil."] | false | The person answering speaks first, and the caller then asks for someone and gives a name.
+- a2-phone-calls-and-messages-ex012 | reorder | Put the words in order: Can you call back later? | — | ["Pouvez-vous rappeler plus tard"] | false | Pouvez-vous is followed by the infinitive rappeler.
+
+## a2-review-work
+
+### Vocab
+
+fr | pron | en | note
+
+- les études | lay-zay-TEWD | studies | —
+- un stage | uhn STAHZH | an internship | —
+- un collègue / une collègue | uhn koh-LEG / ewn koh-LEG | a colleague (man / woman) | —
+- une entreprise | ew-nahn-truh-PREEZ | a company | —
+- le salaire | luh sah-LEHR | the salary | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-review-work-ex001 | fill-in | Léa est ___. (a waitress) | — | ["serveuse"] | false | Léa is a woman, so serveur becomes serveuse, with no article after être.
+- a2-review-work-ex002 | fill-in | ___ un bon directeur. (He's) | — | ["C'est"] | false | With an article before the noun, use c'est.
+- a2-review-work-ex003 | fill-in | ___ dentiste. (He's; the subject is Marc) | — | ["Il est"] | false | A job with no article takes il est.
+- a2-review-work-ex004 | fill-in | Elle ___ cuisiner. (savoir) | — | ["sait"] | false | A skill takes savoir + infinitive.
+- a2-review-work-ex005 | fill-in | Tu ___ Marie ? (connaître) | — | ["connais"] | false | A person takes connaître.
+- a2-review-work-ex006 | fill-in | J'habite ici ___ 2020. (and I still live here) | — | ["depuis"] | false | It's still true, so use depuis with the present.
+- a2-review-work-ex007 | fill-in | J'ai travaillé ___ trois ans. (saying how long it lasted) | — | ["pendant"] | false | Pendant says how long something lasted.
+- a2-review-work-ex008 | multiple-choice | Comment dit-on 'I've just arrived'? | ["Je viens d'arriver.","Je vais arriver.","Je viens arriver."] | ["Je viens d'arriver."] | false | Venir de + infinitive describes the recent past, and de shortens before the vowel.
+- a2-review-work-ex009 | fill-in | Je suis ___ train de manger. | — | ["en"] | false | Être en train de is a fixed expression.
+- a2-review-work-ex010 | translate | Marie is speaking. Write out this paragraph with each verb in the form shown: Je (être, present) infirmière. Je (travailler, present) à l'hôpital depuis deux ans. Il y a trois ans, je (finir, passé composé) l'école. | — | ["Je suis infirmière. Je travaille à l'hôpital depuis deux ans. Il y a trois ans, j'ai fini l'école."] | true | Depuis goes with the present, and il y a with the passé composé. Je becomes j' before ai.
+- a2-review-work-ex011 | multiple-choice | On the phone, what does Ne quittez pas mean? | ["Hold the line.","Don't call back.","Leave a message."] | ["Hold the line."] | false | Quitter means to leave, so it means 'don't leave the line'.
+- a2-review-work-ex012 | reorder | Put the words in order: I'll put you through to Mrs Martin. | — | ["Je vous passe Madame Martin"] | false | Je vous passe is a fixed phrase on the phone.
+
+## a2-stressed-pronouns
+
+### Vocab
+
+fr | pron | en | note
+
+- moi | mwah | me | —
+- toi | twah | you (informal) | —
+- lui | lwee | him | —
+- eux | uh | them (masculine or mixed) | —
+- sans | sahn | without | —
+- chez moi / chez lui | shay MWAH / shay LWEE | at my place / at his place | —
+- moi aussi | mwah oh-SEE | me too | —
+- moi non plus | mwah nohn PLEW | me neither | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-stressed-pronouns-ex001 | fill-in | Tu viens avec ___ ? (me) | — | ["moi"] | false | After a preposition like avec, use the stressed pronoun moi.
+- a2-stressed-pronouns-ex002 | fill-in | C'est pour ___. (you, a friend) | — | ["toi"] | false | After pour, use the stressed pronoun toi.
+- a2-stressed-pronouns-ex003 | fill-in | Je pars sans ___. (them: Paul and Marc) | — | ["eux"] | false | Paul and Marc are masculine plural, so it's eux.
+- a2-stressed-pronouns-ex004 | fill-in | Je travaille avec ___. (them: Anne and Léa) | — | ["elles"] | false | Anne and Léa are feminine plural, so it's elles.
+- a2-stressed-pronouns-ex005 | fill-in | Il reste chez ___. (him) | — | ["lui"] | false | Chez lui means 'at his place'.
+- a2-stressed-pronouns-ex006 | multiple-choice | J'aime le café. — ___ | ["Moi aussi.","Moi non plus.","Je aussi."] | ["Moi aussi."] | false | The statement is positive, so you agree with moi aussi.
+- a2-stressed-pronouns-ex007 | multiple-choice | Je n'aime pas le thé. — ___ | ["Moi non plus.","Moi aussi.","Je non plus."] | ["Moi non plus."] | false | The statement is negative, so you agree with moi non plus.
+- a2-stressed-pronouns-ex008 | multiple-choice | Qui veut du café ? — ___ ! | ["Moi","Je","Me"] | ["Moi"] | false | On its own, as an answer, you need the stressed pronoun.
+- a2-stressed-pronouns-ex009 | multiple-choice | Choose the word for the blank, for emphasis: ___, je suis fatigué. | ["Moi","Me","Mon"] | ["Moi"] | false | For emphasis, moi goes first and je stays with the verb.
+- a2-stressed-pronouns-ex010 | fill-in | Qui est là ? — C'est ___. (me) | — | ["moi"] | false | After c'est, use the stressed pronoun.
+- a2-stressed-pronouns-ex011 | translate | Write in French: Paul and I are going to Lyon. | — | ["Paul et moi, nous allons à Lyon","Paul et moi allons à Lyon"] | true | With et, use moi. Adding nous before the verb is common.
+- a2-stressed-pronouns-ex012 | reorder | Put the words in order: I'm going with them. (Paul and Marc) | — | ["Je vais avec eux"] | false | The stressed pronoun goes after the preposition.
+
+## a2-direct-object-pronouns
+
+### Vocab
+
+fr | pron | en | note
+
+- le | luh | him, it (masculine) | —
+- la | lah | her, it (feminine) | —
+- l' | l | him, her, it (before a vowel or silent h) | —
+- les | lay | them | —
+- me / m' | muh / m | me | —
+- te / t' | tuh / t | you (informal) | —
+- nous | noo | us | —
+- vous | voo | you (formal or plural) | —
+- appeler | ahp-LAY | to call | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-direct-object-pronouns-ex001 | fill-in | Je regarde [le film: masculine singular]. → Je ___ regarde. | — | ["le"] | false | Film is masculine singular, so the pronoun is le.
+- a2-direct-object-pronouns-ex002 | fill-in | Je mange [la pomme: feminine singular]. → Je ___ mange. | — | ["la"] | false | Pomme is feminine singular, so the pronoun is la.
+- a2-direct-object-pronouns-ex003 | fill-in | Je cherche [mes clés: plural]. → Je ___ cherche. | — | ["les"] | false | Mes clés is plural, so the pronoun is les.
+- a2-direct-object-pronouns-ex004 | multiple-choice | Tu aimes [Marie: one woman]. → Tu ___ aimes. | ["l'","la","le"] | ["l'"] | false | Before the vowel of aimes, la shortens to l'.
+- a2-direct-object-pronouns-ex005 | fill-in | Paul ___ regarde. (me) | — | ["me"] | false | Me goes before the verb.
+- a2-direct-object-pronouns-ex006 | multiple-choice | Choose the words for the blank: Je ___ attends. (you, a friend) | ["t'","te","toi"] | ["t'"] | false | Before the vowel of attends, te shortens to t'.
+- a2-direct-object-pronouns-ex007 | multiple-choice | Je mange [le gâteau]. Which sentence is the negative? | ["Je ne le mange pas.","Je le ne mange pas.","Je ne mange le pas."] | ["Je ne le mange pas."] | false | Ne comes before the pronoun, and pas goes after the verb.
+- a2-direct-object-pronouns-ex008 | multiple-choice | Je vais faire [le travail]. Which sentence is correct? | ["Je vais le faire.","Je le vais faire.","Je vais faire le."] | ["Je vais le faire."] | false | After aller, the pronoun goes before the infinitive.
+- a2-direct-object-pronouns-ex009 | multiple-choice | Which noun can be replaced by le, la or les? | ["la pomme","une pomme","du pain"] | ["la pomme"] | false | Le, la and les replace a noun with a definite word such as la or mon.
+- a2-direct-object-pronouns-ex010 | translate | Write in French (les enfants: plural): I see them. | — | ["Je les vois"] | false | The pronoun les goes before the verb.
+- a2-direct-object-pronouns-ex011 | translate | Write in French, speaking to a friend: Can you help me? | — | ["Tu peux m'aider","Est-ce que tu peux m'aider"] | false | The pronoun goes before the infinitive, and me shortens to m' before the vowel.
+- a2-direct-object-pronouns-ex012 | reorder | Put the words in order, using la for [la télé]: I'm not watching it. | — | ["Je ne la regarde pas"] | false | Ne comes before the pronoun, and pas after the verb.
+
+## a2-indirect-object-pronouns
+
+### Vocab
+
+fr | pron | en | note
+
+- lui | lwee | to him, to her | —
+- leur | luhr | to them | —
+- téléphoner à | tay-lay-foh-NAY ah | to phone | —
+- donner à | doh-NAY ah | to give to | —
+- demander à | duh-mahn-DAY ah | to ask | —
+- offrir à | oh-FREER ah | to give (as a present) to | J'offre, tu offres, il offre, nous offrons, vous offrez, ils offrent.
+- montrer à | mohn-TRAY ah | to show | —
+- un cadeau | uhn kah-DOH | a present | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-indirect-object-pronouns-ex001 | fill-in | Je parle [à Paul: one man]. → Je ___ parle. | — | ["lui"] | false | À + one person becomes lui.
+- a2-indirect-object-pronouns-ex002 | fill-in | J'écris [à Marie: one woman]. → Je ___ écris. | — | ["lui"] | false | Lui is used for a man or a woman.
+- a2-indirect-object-pronouns-ex003 | fill-in | Je téléphone [à mes parents: plural]. → Je ___ téléphone. | — | ["leur"] | false | À + several people becomes leur, with no -s.
+- a2-indirect-object-pronouns-ex004 | fill-in | Paul ___ donne un livre. (to me) | — | ["me"] | false | Me goes before the verb.
+- a2-indirect-object-pronouns-ex005 | fill-in | Je ___ téléphone. (to you, a friend) | — | ["te"] | false | Te goes before the verb.
+- a2-indirect-object-pronouns-ex006 | multiple-choice | Je vais parler [à Anne]. Which sentence is correct? | ["Je vais lui parler.","Je lui vais parler.","Je vais parler lui."] | ["Je vais lui parler."] | false | After aller, the pronoun goes before the infinitive.
+- a2-indirect-object-pronouns-ex007 | multiple-choice | Je réponds [à Paul]. Which sentence is the negative? | ["Je ne lui réponds pas.","Je lui ne réponds pas.","Je ne réponds lui pas."] | ["Je ne lui réponds pas."] | false | Ne comes before the pronoun, and pas after the verb.
+- a2-indirect-object-pronouns-ex008 | multiple-choice | J'écoute [Paul: no à]. → Je ___ écoute. | ["l'","lui","leur"] | ["l'"] | false | Écouter has no à, so it takes a direct object pronoun.
+- a2-indirect-object-pronouns-ex009 | multiple-choice | Je parle [à Anne et Léa: plural]. → Je ___ parle. | ["leur","leurs","les"] | ["leur"] | false | Leur has no -s when it's a pronoun.
+- a2-indirect-object-pronouns-ex010 | translate | Write in French (him: Paul): I'm phoning him. | — | ["Je lui téléphone"] | false | Téléphoner takes à in French, so it's lui.
+- a2-indirect-object-pronouns-ex011 | translate | Write in French: She's answering me. | — | ["Elle me répond"] | false | Répondre takes à in French, and me goes before the verb.
+- a2-indirect-object-pronouns-ex012 | reorder | Put the words in order, using leur for [à mes amis]: I'm not speaking to them. | — | ["Je ne leur parle pas"] | false | Ne comes before the pronoun, and pas after the verb.
+
+## a2-pronoun-y
+
+### Vocab
+
+fr | pron | en | note
+
+- y | ee | there; it (after à) | —
+- On y va ! | oh-nee VAH | Let's go! | Fixed phrase.
+- penser à | pahn-SAY ah | to think about | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-pronoun-y-ex001 | fill-in | Je vais [à Paris: a place]. → J'___ vais. | — | ["y"] | false | Y replaces à + a place, and je becomes j' before it.
+- a2-pronoun-y-ex002 | fill-in | Nous habitons [à Lyon: a place]. → Nous ___ habitons. | — | ["y"] | false | Y goes before the verb.
+- a2-pronoun-y-ex003 | multiple-choice | Je vais [au parc]. Which sentence is the negative? | ["Je n'y vais pas.","Je y ne vais pas.","Je ne vais y pas."] | ["Je n'y vais pas."] | false | Ne becomes n' before y, and pas goes after the verb.
+- a2-pronoun-y-ex004 | multiple-choice | Je vais aller [à Lyon]. Which sentence is correct? | ["Je vais y aller.","J'y vais aller.","Je vais aller y."] | ["Je vais y aller."] | false | After aller, y goes before the infinitive.
+- a2-pronoun-y-ex005 | multiple-choice | Je réponds [à Paul: a person]. Which sentence is correct? | ["Je lui réponds.","J'y réponds.","Je le réponds."] | ["Je lui réponds."] | false | Y never replaces a person, so it's lui.
+- a2-pronoun-y-ex006 | multiple-choice | Je réponds [à la lettre: a thing]. Which sentence is correct? | ["J'y réponds.","Je lui réponds.","Je la réponds."] | ["J'y réponds."] | false | À + a thing becomes y.
+- a2-pronoun-y-ex007 | multiple-choice | Je joue [au tennis: a game]. Which sentence is correct? | ["J'y joue.","Je lui joue.","Je le joue."] | ["J'y joue."] | false | Jouer à + a game takes y.
+- a2-pronoun-y-ex008 | fill-in | Elle reste [à Nice: a place]. → Elle ___ reste. | — | ["y"] | false | Y replaces à + a place.
+- a2-pronoun-y-ex009 | fill-in | Je pense [à mon travail: a thing]. → J'___ pense. | — | ["y"] | false | Penser à + a thing takes y.
+- a2-pronoun-y-ex010 | multiple-choice | Que veut dire On y va ? | ["Let's go.","There's nothing there.","We live there."] | ["Let's go."] | false | On y va is a fixed phrase for 'let's go'.
+- a2-pronoun-y-ex011 | translate | Write in French, replacing the place with y: I'm going there. | — | ["J'y vais"] | false | Je becomes j' before y.
+- a2-pronoun-y-ex012 | reorder | Put the words in order, using y for [à Lyon]: I want to live there. | — | ["Je veux y habiter"] | false | After vouloir, y goes before the infinitive.
+
+## a2-quantities
+
+### Vocab
+
+fr | pron | en | note
+
+- beaucoup de | boh-KOO duh | a lot of, many | —
+- un peu de | uhn PUH duh | a little (of) | —
+- assez de | ah-SAY duh | enough (of) | —
+- trop de | TROH duh | too much, too many | —
+- un kilo de | uhn kee-LOH duh | a kilo of | —
+- un litre de | uhn LEE-truh duh | a litre of | —
+- une bouteille de | ewn boo-TAY duh | a bottle of | —
+- un paquet de | uhn pah-KEH duh | a packet of | —
+- une boîte de | ewn BWAHT duh | a box of, a can of | —
+- un verre de | uhn VEHR duh | a glass of | —
+- une tasse de | ewn TAHSS duh | a cup of | —
+- une tranche de | ewn TRAHNSH duh | a slice of | —
+- un morceau de | uhn mor-SOH duh | a piece of | —
+- beaucoup | boh-KOO | a lot, very much | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-quantities-ex001 | fill-in | J'ai beaucoup ___ livres. | — | ["de"] | false | After a quantity, use de with no article.
+- a2-quantities-ex002 | fill-in | Je voudrais un kilo ___ pommes. | — | ["de"] | false | After un kilo, use de, even before a plural noun.
+- a2-quantities-ex003 | multiple-choice | Choose the word for the blank: une bouteille ___ eau | ["d'","de la","du"] | ["d'"] | false | De shortens to d' before a vowel, and there's no article.
+- a2-quantities-ex004 | fill-in | un morceau ___ fromage | — | ["de"] | false | After a quantity, it's de, not du.
+- a2-quantities-ex005 | multiple-choice | Which one is correct? | ["beaucoup de gâteaux","beaucoup des gâteaux","beaucoup gâteaux"] | ["beaucoup de gâteaux"] | false | It's beaucoup de, and the article drops.
+- a2-quantities-ex006 | fill-in | Je voudrais ___ pain. (some bread, with no word of quantity) | — | ["du"] | false | With no quantity word, you use the partitive du.
+- a2-quantities-ex007 | fill-in | Je voudrais un peu ___ pain. | — | ["de"] | false | After un peu, use de with no article.
+- a2-quantities-ex008 | multiple-choice | How do you say 'two kilos of apples'? | ["deux kilos de pommes","deux kilo de pommes","deux kilos des pommes"] | ["deux kilos de pommes"] | false | Kilo takes -s after deux, and de stays the same.
+- a2-quantities-ex009 | translate | Write in French: a cup of tea | — | ["une tasse de thé"] | false | Use de with no article.
+- a2-quantities-ex010 | translate | Write in French: a lot of friends | — | ["beaucoup d'amis"] | false | De shortens to d' before the vowel of amis.
+- a2-quantities-ex011 | multiple-choice | Choose the word for the blank: J'aime ___ le chocolat. | ["beaucoup","beaucoup de","très"] | ["beaucoup"] | false | After a verb, the adverb beaucoup stands alone.
+- a2-quantities-ex012 | reorder | Put the words in order: I'd like a bottle of wine. | — | ["Je voudrais une bouteille de vin"] | false | The quantity comes first, then de, then the noun.
+
+## a2-pronoun-en
+
+### Vocab
+
+fr | pron | en | note
+
+- en | ahn | some, any; of it, of them | —
+- avoir besoin de | ah-vwahr buh-ZWAN duh | to need | —
+- avoir envie de | ah-vwahr ahn-VEE duh | to want, to feel like | —
+- parler de | par-lay DUH | to talk about | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-pronoun-en-ex001 | fill-in | Tu veux [du café: some coffee] ? → Oui, j'___ veux. | — | ["en"] | false | En replaces du, de la, de l' or des + a noun.
+- a2-pronoun-en-ex002 | fill-in | J'ai [deux frères]. → J'___ ai deux. | — | ["en"] | false | En replaces the noun, and the number stays at the end.
+- a2-pronoun-en-ex003 | fill-in | J'ai [une sœur: one sister]. → J'en ai ___. | — | ["une"] | false | The number stays, and une stays feminine because sœur is.
+- a2-pronoun-en-ex004 | fill-in | J'ai [beaucoup de livres]. → J'en ai ___. | — | ["beaucoup"] | false | En replaces de livres, and the word of quantity stays.
+- a2-pronoun-en-ex005 | multiple-choice | Je n'ai pas [de pain]. Which sentence is correct? | ["Je n'en ai pas.","Je n'ai pas en.","Je en n'ai pas."] | ["Je n'en ai pas."] | false | Ne goes before en and shortens to n', and pas comes after the verb.
+- a2-pronoun-en-ex006 | multiple-choice | Je vais prendre [du pain]. Which sentence is correct? | ["Je vais en prendre.","J'en vais prendre.","Je vais prendre en."] | ["Je vais en prendre."] | false | After aller, en goes before the infinitive.
+- a2-pronoun-en-ex007 | multiple-choice | J'ai besoin [de ce livre: a thing]. Which sentence is correct? | ["J'en ai besoin.","J'y ai besoin.","Je l'ai besoin."] | ["J'en ai besoin."] | false | With avoir besoin de + a thing, use en.
+- a2-pronoun-en-ex008 | multiple-choice | Tu as combien de frères ? Which answer is correct? | ["J'en ai deux.","J'ai deux.","Je les ai deux."] | ["J'en ai deux."] | false | French needs en when the noun is dropped.
+- a2-pronoun-en-ex009 | multiple-choice | Nous parlons [du film: a thing, with de]. Which sentence is correct? | ["Nous en parlons.","Nous y parlons.","Nous le parlons."] | ["Nous en parlons."] | false | Parler de + a thing takes en.
+- a2-pronoun-en-ex010 | translate | Write in French, speaking to a friend, using en for [du café]: Do you want some? | — | ["Tu en veux","Est-ce que tu en veux","En veux-tu"] | false | En goes before the verb.
+- a2-pronoun-en-ex011 | translate | Write in French, using en for [des pommes]: I want three. | — | ["J'en veux trois"] | false | En goes before the verb, and the number comes at the end.
+- a2-pronoun-en-ex012 | reorder | Put the words in order, using en for [de café]: I don't want any. | — | ["Je n'en veux pas"] | false | Ne…pas wraps around en and the verb.
+
+## a2-pronouns-in-passe-compose
+
+### Vocab
+
+fr | pron | en | note
+
+- pris / prise | pree / preez | taken (masculine / feminine) | —
+- mis / mise | mee / meez | put (masculine / feminine) | —
+- fait / faite | feh / fet | done, made (masculine / feminine) | —
+- écrit / écrite | ay-KREE / ay-KREET | written (masculine / feminine) | —
+- dit / dite | dee / deet | said (masculine / feminine) | —
+- vu / vue | vew | seen (masculine / feminine) | —
+- lu / lue | lew | read (masculine / feminine) | —
+- bu / bue | bew | drunk (masculine / feminine) | —
+- mangé / mangée | mahn-ZHAY | eaten (masculine / feminine) | —
+- fini / finie | fee-NEE | finished (masculine / feminine) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-pronouns-in-passe-compose-ex001 | fill-in | Paul a regardé [le film: masculine singular]. → Il l'a ___. (regarder) | — | ["regardé"] | true | Le film is masculine singular, so the participle has no added ending.
+- a2-pronouns-in-passe-compose-ex002 | fill-in | Marie a vu [la voiture: feminine singular]. → Elle l'a ___. (voir) | — | ["vue"] | false | The direct object comes before the verb and is feminine, so add -e.
+- a2-pronouns-in-passe-compose-ex003 | fill-in | Paul a pris [les clés: feminine plural]. → Il les a ___. (prendre) | — | ["prises"] | false | Les clés is feminine plural, so add -es. You can hear the s.
+- a2-pronouns-in-passe-compose-ex004 | fill-in | J'ai vu [Paul et Marc: masculine plural]. → Je les ai ___. (voir) | — | ["vus"] | false | Masculine plural, so add -s.
+- a2-pronouns-in-passe-compose-ex005 | multiple-choice | J'ai vu [Anne et Léa: feminine plural]. → Je les ai ___. | ["vu","vue","vus","vues"] | ["vues"] | false | Anne and Léa are feminine plural, so it's vues.
+- a2-pronouns-in-passe-compose-ex006 | multiple-choice | J'ai vu [Marie: feminine singular]. → Je l'ai ___. | ["vue","vu","vus","vues"] | ["vue"] | false | Marie is feminine singular, so it's vue.
+- a2-pronouns-in-passe-compose-ex007 | fill-in | Elle a parlé [à Paul: one man]. → Elle ___ a parlé. | — | ["lui"] | false | À + a person becomes lui. There's no agreement with lui.
+- a2-pronouns-in-passe-compose-ex008 | fill-in | Marie est allée [à Lyon: a place]. → Elle ___ est allée. | — | ["y"] | false | Y goes before the auxiliary. Allée agrees with the subject, because aller takes être.
+- a2-pronouns-in-passe-compose-ex009 | multiple-choice | J'ai mangé [du pain]. Which sentence is correct? | ["J'en ai mangé.","J'en ai mangés.","J'ai en mangé."] | ["J'en ai mangé."] | false | En goes before the auxiliary, and the participle doesn't agree with en.
+- a2-pronouns-in-passe-compose-ex010 | multiple-choice | J'ai lu [la lettre: feminine singular]. Which is the negative? | ["Je ne l'ai pas lue.","Je ne l'ai pas lu.","Je l'ai ne pas lue."] | ["Je ne l'ai pas lue."] | false | Ne…pas wraps around the pronoun and the auxiliary, and lue agrees with la lettre.
+- a2-pronouns-in-passe-compose-ex011 | reorder | Put the words in order, using l' for [Marie: feminine singular]: I saw her. | — | ["Je l'ai vue"] | false | The pronoun goes before the auxiliary, and vue agrees with Marie.
+- a2-pronouns-in-passe-compose-ex012 | reorder | Put the words in order, using les for [Paul et Marc: masculine plural]: I didn't see them. | — | ["Je ne les ai pas vus"] | false | Ne…pas wraps around the pronoun and the auxiliary, and vus agrees with the object.
+
+## a2-review-pronouns
+
+### Vocab
+
+fr | pron | en | note
+
+- remplacer | rahn-plah-SAY | to replace | —
+- le pronom | luh proh-NOHN | the pronoun | —
+- le nom | luh NOHN | the noun, the name | —
+- une phrase | ewn FRAHZ | a sentence | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-review-pronouns-ex001 | fill-in | Je pars avec [Paul et Marc: masculine plural]. → Je pars avec ___. | — | ["eux"] | false | After avec, use a stressed pronoun: eux.
+- a2-review-pronouns-ex002 | fill-in | Je regarde [la télé: feminine singular]. → Je ___ regarde. | — | ["la"] | false | Direct object, feminine singular, so la.
+- a2-review-pronouns-ex003 | fill-in | Je téléphone [à Marie: one woman]. → Je ___ téléphone. | — | ["lui"] | false | À + a person becomes lui.
+- a2-review-pronouns-ex004 | fill-in | Je vais [à Lyon: a place]. → J'___ vais. | — | ["y"] | false | À + a place becomes y.
+- a2-review-pronouns-ex005 | fill-in | Je veux [du pain: some bread]. → J'___ veux. | — | ["en"] | false | Du + a noun becomes en.
+- a2-review-pronouns-ex006 | fill-in | Paul a vu [Marie: feminine singular]. → Il l'a ___. (voir) | — | ["vue"] | false | The direct object comes before the verb and is feminine, so add -e.
+- a2-review-pronouns-ex007 | multiple-choice | In Je la vois et je lui parle, what kinds of pronoun are la and lui? | ["la: direct; lui: indirect","la: indirect; lui: direct","la: stressed; lui: stressed"] | ["la: direct; lui: indirect"] | false | Voir takes a direct object, and parler takes à + a person.
+- a2-review-pronouns-ex008 | multiple-choice | In Je pars avec lui, what kind of pronoun is lui? | ["stressed","indirect","direct"] | ["stressed"] | false | After a preposition like avec, it's a stressed pronoun.
+- a2-review-pronouns-ex009 | multiple-choice | Je réponds [à la lettre: a thing]. Which sentence is correct? | ["J'y réponds.","Je lui réponds.","J'en réponds."] | ["J'y réponds."] | false | À + a thing becomes y.
+- a2-review-pronouns-ex010 | translate | Rewrite this, replacing each bracketed part with a pronoun, in the tense shown: Je vois [Marie: one woman; present]. Je parle [à Marie; present]. Hier, j'ai pris [les clés: feminine plural; passé composé]. | — | ["Je la vois. Je lui parle. Hier, je les ai prises."] | true | La is direct, lui is indirect, and prises agrees with les clés.
+- a2-review-pronouns-ex011 | reorder | Put the words in order, using les for [les clés: feminine plural]: I didn't take them. | — | ["Je ne les ai pas prises"] | false | Ne…pas wraps around the pronoun and the auxiliary, and prises agrees with les clés.
+- a2-review-pronouns-ex012 | reorder | Put the words in order, using lui for [à Paul]: I'm going to speak to him. | — | ["Je vais lui parler"] | false | After aller, the pronoun goes before the infinitive.
+
+## a2-travel-and-transport
+
+### Vocab
+
+fr | pron | en | note
+
+- l'avion | lah-VYOHN | the plane | Masculine: un avion.
+- la moto | lah moh-TOH | the motorbike | —
+- un aller simple | uh-nah-lay SAN-pluh | a single ticket | —
+- un aller-retour | uh-nah-lay ruh-TOOR | a return ticket | —
+- réserver | ray-zehr-VAY | to book, to reserve | —
+- le quai | luh KAY | the platform | —
+- l'aéroport | lah-ay-roh-POR | the airport | Masculine: un aéroport.
+- le vol | luh VOHL | the flight | —
+- la valise | lah vah-LEEZ | the suitcase | —
+- les bagages | lay bah-GAHZH | the luggage | Plural in French.
+- le retard | luh ruh-TAR | the delay | —
+- annulé / annulée | ah-new-LAY | cancelled (masculine / feminine) | —
+- la correspondance | lah koh-res-pohn-DAHNSS | the connection | —
+- Le train part à quelle heure ? | luh tran par ah kel UHR | What time does the train leave? | —
+- C'est quel quai ? | seh kel KAY | Which platform is it? | —
+- Un aller-retour pour Lyon, s'il vous plaît. | uh-nah-lay ruh-toor poor lee-OHN, seel voo PLEH | A return to Lyon, please. | Fixed phrase for now.
+- Il y a un train pour… ? | eel-yah uhn tran POOR | Is there a train to…? | Fixed phrase for now.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-travel-and-transport-ex001 | fill-in | Je vais à Lyon ___ train. | — | ["en"] | false | You sit inside a train, so it's en train.
+- a2-travel-and-transport-ex002 | fill-in | Elle va au travail ___ pied. | — | ["à"] | true | On foot takes à: à pied.
+- a2-travel-and-transport-ex003 | fill-in | Il va à l'école ___ vélo. | — | ["à"] | true | You ride a bike, so it's à vélo.
+- a2-travel-and-transport-ex004 | multiple-choice | How do you say 'by plane'? | ["en avion","à avion","sur l'avion"] | ["en avion"] | false | A plane is enclosed, so it's en avion.
+- a2-travel-and-transport-ex005 | fill-in | Je prends ___ train. | — | ["le"] | false | With prendre, you use the article: prendre le train.
+- a2-travel-and-transport-ex006 | multiple-choice | Qu'est-ce qu'un aller-retour ? | ["a return ticket","a single ticket","a platform"] | ["a return ticket"] | false | Un aller-retour takes you there and back.
+- a2-travel-and-transport-ex007 | multiple-choice | Que veut dire C'est quel quai ? | ["Which platform is it?","What time is it?","How much is the ticket?"] | ["Which platform is it?"] | false | Le quai is the platform.
+- a2-travel-and-transport-ex008 | fill-in | Le vol est ___. (cancelled; le vol is masculine) | — | ["annulé"] | true | Le vol is masculine, so there's no added -e.
+- a2-travel-and-transport-ex009 | translate | Write in French, starting with 'Le train': What time does the train leave? | — | ["Le train part à quelle heure"] | true | French can keep normal word order and put the question at the end.
+- a2-travel-and-transport-ex010 | translate | Write in French: A return ticket to Lyon, please. | — | ["Un aller-retour pour Lyon, s'il vous plaît"] | false | This is the phrase to use at a ticket office.
+- a2-travel-and-transport-ex011 | reorder | Put the words in order: Is there a train to Lyon? | — | ["Il y a un train pour Lyon"] | false | Il y a un train pour… is a fixed phrase for now.
+- a2-travel-and-transport-ex012 | reorder | Put the words in order: I'm going to take the bus. | — | ["Je vais prendre le bus"] | false | Prendre takes the article: prendre le bus.
+
+## a2-prepositions-with-places
+
+### Vocab
+
+fr | pron | en | note
+
+- le Mexique | luh mek-SEEK | Mexico | —
+- le Portugal | luh por-tew-GAHL | Portugal | —
+- les Pays-Bas | lay pay-ee-BAH | the Netherlands | —
+- pour | poor | for, in order to | —
+- sans sucre | sahn SEW-kruh | without sugar | —
+- sans problème | sahn proh-BLEM | without any problem | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-prepositions-with-places-ex001 | fill-in | J'habite ___ Paris. (a city) | — | ["à"] | true | Cities take à.
+- a2-prepositions-with-places-ex002 | fill-in | Elle travaille ___ France. (la France: feminine) | — | ["en"] | false | Feminine countries take en.
+- a2-prepositions-with-places-ex003 | fill-in | Il va ___ Canada. (le Canada: masculine, starts with a consonant) | — | ["au"] | false | Masculine countries starting with a consonant take au.
+- a2-prepositions-with-places-ex004 | fill-in | Nous allons ___ États-Unis. (les États-Unis: plural) | — | ["aux"] | false | Plural countries take aux.
+- a2-prepositions-with-places-ex005 | fill-in | Je viens ___ Paris. (a city; where I'm from) | — | ["de"] | false | Coming from a city takes de.
+- a2-prepositions-with-places-ex006 | multiple-choice | Choose the word for the blank (l'Italie: feminine, starts with a vowel): Je viens ___ Italie. | ["d'","de","du"] | ["d'"] | false | Before a vowel, de shortens to d'.
+- a2-prepositions-with-places-ex007 | fill-in | Il vient ___ Canada. (le Canada: masculine) | — | ["du"] | false | From a masculine country takes du.
+- a2-prepositions-with-places-ex008 | fill-in | Elles viennent ___ États-Unis. (les États-Unis: plural) | — | ["des"] | false | From a plural country takes des.
+- a2-prepositions-with-places-ex009 | multiple-choice | Choose the word for the blank (location inside): Les clés sont ___ le sac. | ["dans","chez","pour"] | ["dans"] | false | Dans means 'inside'.
+- a2-prepositions-with-places-ex010 | fill-in | Je vais ___ Paul. (to Paul's home) | — | ["chez"] | false | Chez means 'at the home of'.
+- a2-prepositions-with-places-ex011 | multiple-choice | Le Mexique ends in -e but is masculine. How do you say 'in Mexico'? | ["au Mexique","en Mexique","aux Mexique"] | ["au Mexique"] | false | Le Mexique is masculine, so it takes au.
+- a2-prepositions-with-places-ex012 | reorder | Put the words in order: I come from Canada. | — | ["Je viens du Canada"] | false | Le Canada is masculine, so de + le becomes du.
+
+## a2-futur-simple
+
+### Vocab
+
+fr | pron | en | note
+
+- je parlerai / tu parleras / il parlera | zhuh par-luh-RAY / tew par-luh-RAH / eel par-luh-RAH | I will speak / you will speak / he will speak | —
+- nous parlerons / vous parlerez / ils parleront | noo par-luh-ROHN / voo par-luh-RAY / eel par-luh-ROHN | we will speak / you will speak / they will speak | —
+- je finirai / tu finiras / il finira | zhuh fee-nee-RAY / tew fee-nee-RAH / eel fee-nee-RAH | I will finish / you will finish / he will finish | —
+- nous finirons / vous finirez / ils finiront | noo fee-nee-ROHN / voo fee-nee-RAY / eel fee-nee-ROHN | we will finish / you will finish / they will finish | —
+- j'attendrai / tu attendras / il attendra | zhah-tahn-DRAY / tew ah-tahn-DRAH / ee-lah-tahn-DRAH | I will wait / you will wait / he will wait | —
+- nous attendrons / vous attendrez / ils attendront | noo-zah-tahn-DROHN / voo-zah-tahn-DRAY / eel-zah-tahn-DROHN | we will wait / you will wait / they will wait | —
+- je serai / tu seras / il sera | zhuh suh-RAY / tew suh-RAH / eel suh-RAH | I will be / you will be / he will be | —
+- nous serons / vous serez / ils seront | noo suh-ROHN / voo suh-RAY / eel suh-ROHN | we will be / you will be / they will be | —
+- j'aurai / tu auras / il aura | zhoh-RAY / tew oh-RAH / ee-loh-RAH | I will have / you will have / he will have | —
+- nous aurons / vous aurez / ils auront | noo-zoh-ROHN / voo-zoh-RAY / eel-zoh-ROHN | we will have / you will have / they will have | —
+- j'irai / tu iras / il ira | zhee-RAY / tew ee-RAH / ee-lee-RAH | I will go / you will go / he will go | —
+- nous irons / vous irez / ils iront | noo-zee-ROHN / voo-zee-RAY / eel-zee-ROHN | we will go / you will go / they will go | —
+- je ferai / tu feras / il fera | zhuh fuh-RAY / tew fuh-RAH / eel fuh-RAH | I will do, make / you will do, make / he will do, make | —
+- nous ferons / vous ferez / ils feront | noo fuh-ROHN / voo fuh-RAY / eel fuh-ROHN | we will do, make / you will do, make / they will do, make | —
+- j'achèterai | zhah-sheh-tuh-RAY | I will buy | —
+- j'appellerai | zhah-pel-RAY | I will call | —
+- je mangerai | zhuh mahn-zhuh-RAY | I will eat | —
+- il y aura | eel-yoh-RAH | there will be | —
+- il fera beau | eel fuh-rah BOH | the weather will be nice | —
+- l'année prochaine | lah-nay proh-SHEN | next year | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-futur-simple-ex001 | fill-in | Je ___ français. (parler, futur simple) | — | ["parlerai"] | false | The infinitive parler plus -ai.
+- a2-futur-simple-ex002 | fill-in | Tu ___ le travail. (finir, futur simple) | — | ["finiras"] | false | The infinitive finir plus -as.
+- a2-futur-simple-ex003 | fill-in | Il ___ le bus. (attendre, futur simple) | — | ["attendra"] | false | Attendre drops its -e, then adds -a.
+- a2-futur-simple-ex004 | fill-in | Nous ___ le train. (prendre, futur simple) | — | ["prendrons"] | false | Prendre drops its -e, then adds -ons.
+- a2-futur-simple-ex005 | fill-in | Je ___ content. (être, futur simple; Paul is speaking) | — | ["serai"] | false | Être has the stem ser-.
+- a2-futur-simple-ex006 | fill-in | Ils ___ une voiture. (avoir, futur simple) | — | ["auront"] | false | Avoir has the stem aur-.
+- a2-futur-simple-ex007 | fill-in | Vous ___ à Lyon. (aller, futur simple) | — | ["irez"] | false | Aller has the stem ir-.
+- a2-futur-simple-ex008 | fill-in | Elle ___ la cuisine. (faire, futur simple) | — | ["fera"] | false | Faire has the stem fer-.
+- a2-futur-simple-ex009 | multiple-choice | Choose the futur simple of acheter for je: | ["j'achèterai","j'acheterai","j'achèrai"] | ["j'achèterai"] | false | Acheter takes a grave accent in the future.
+- a2-futur-simple-ex010 | multiple-choice | Choose the futur simple of appeler for je: | ["j'appellerai","j'appelerai","j'appelrai"] | ["j'appellerai"] | false | Appeler doubles its l in the future.
+- a2-futur-simple-ex011 | translate | Write in French, in the futur simple: Tomorrow, the weather will be nice. | — | ["Demain, il fera beau","Il fera beau demain"] | false | Il fera beau uses the future of faire.
+- a2-futur-simple-ex012 | reorder | Put the words in order: We will go to Paris next year. | — | ["Nous irons à Paris l'année prochaine","L'année prochaine nous irons à Paris"] | false | Aller has the stem ir-, and the time phrase can go first or last.
+
+## a2-booking-a-hotel
+
+### Vocab
+
+fr | pron | en | note
+
+- une chambre simple / double | ewn SHAHN-bruh SAN-pluh / DOO-bluh | a single room / a double room | —
+- Je voudrais réserver une chambre. | zhuh voo-dreh ray-zehr-VAY ewn SHAHN-bruh | I'd like to book a room. | —
+- une nuit | ewn NWEE | a night | —
+- du 3 au 5 mai | dew trwah oh sank MEH | from 3 to 5 May | —
+- Le petit-déjeuner est compris. | luh puh-tee day-zhuh-nay eh kohn-PREE | Breakfast is included. | —
+- Quel est le prix ? | kel eh luh PREE | What's the price? | —
+- une réservation à mon nom | ewn ray-zehr-vah-SYOHN ah mohn NOHN | a reservation in my name | —
+- complet / complète | kohn-PLEH / kohn-PLET | full (masculine / feminine) | —
+- annuler | ah-new-LAY | to cancel | —
+- confirmer | kohn-feer-MAY | to confirm | —
+- l'ascenseur | lah-sahn-SUHR | the lift | Masculine: un ascenseur.
+- le wifi | luh wee-FEE | the wifi | —
+- la douche | lah DOOSH | the shower | —
+- la salle de bains | lah sahl duh BAN | the bathroom | —
+- Il n'y a pas d'eau chaude. | eel nyah pah doh SHOHD | There's no hot water. | —
+- bruyant / bruyante | brwee-YAHN / brwee-YAHNT | noisy (masculine / feminine) | —
+- sale | sahl | dirty | —
+- Je voudrais changer de chambre. | zhuh voo-dreh shahn-zhay duh SHAHN-bruh | I'd like to change rooms. | —
+- Le wifi ne marche pas. | luh wee-fee nuh marsh PAH | The wifi isn't working. | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-booking-a-hotel-ex001 | fill-in | Je voudrais ___ une chambre. (to book) | — | ["réserver"] | false | Réserver means to book. It stays in the infinitive after je voudrais.
+- a2-booking-a-hotel-ex002 | fill-in | une chambre ___ (for one person) | — | ["simple"] | false | Une chambre simple is for one person.
+- a2-booking-a-hotel-ex003 | fill-in | Le petit-déjeuner est ___. (included) | — | ["compris"] | false | Compris means included.
+- a2-booking-a-hotel-ex004 | multiple-choice | Que veut dire du 3 au 5 mai ? | ["from 3 to 5 May","3 May at five o'clock","for three or five days in May"] | ["from 3 to 5 May"] | false | Du … au … gives the two dates.
+- a2-booking-a-hotel-ex005 | multiple-choice | L'hôtel est complet. What does that mean? | ["There are no rooms left.","The hotel is very good.","The hotel is near the station."] | ["There are no rooms left."] | false | Complet means full.
+- a2-booking-a-hotel-ex006 | fill-in | Il n'y a pas d'eau ___. (hot; l'eau is feminine) | — | ["chaude"] | false | L'eau is feminine, so chaud adds -e.
+- a2-booking-a-hotel-ex007 | fill-in | La chambre est ___. (noisy; la chambre is feminine) | — | ["bruyante"] | false | Chambre is feminine, so bruyant adds -e.
+- a2-booking-a-hotel-ex008 | multiple-choice | How do you say 'I'd like to change rooms'? | ["Je voudrais changer de chambre.","Je voudrais changer la de chambre.","Je voudrais changer chambre."] | ["Je voudrais changer de chambre."] | false | Changer de + noun has no article.
+- a2-booking-a-hotel-ex009 | translate | Write in French: The wifi isn't working. | — | ["Le wifi ne marche pas"] | false | Ne…pas wraps around marche.
+- a2-booking-a-hotel-ex010 | translate | Write in French: I booked a room. | — | ["J'ai réservé une chambre"] | true | Use the passé composé with avoir.
+- a2-booking-a-hotel-ex011 | reorder | Put these lines at reception in order. | — | ["Bonjour, j'ai réservé une chambre. À quel nom ? Au nom de Martin. Voici la clé."] | false | The guest speaks first, then the receptionist asks for the name.
+- a2-booking-a-hotel-ex012 | reorder | Put the words in order: I'd like to book a double room. | — | ["Je voudrais réserver une chambre double"] | false | Double follows the noun, as most adjectives do.
+
+## a2-invitations
+
+### Vocab
+
+fr | pron | en | note
+
+- Ça te dit de… ? | sah tuh DEE duh | Do you fancy…? | Followed by an infinitive.
+- Ça te dit ? | sah tuh DEE | Do you fancy it? | —
+- On se retrouve à… | ohn suh ruh-TROOV ah | Let's meet at… | —
+- Tu veux venir… ? | tew vuh vuh-NEER | Do you want to come…? | —
+- Voulez-vous venir dîner ? | voo-lay voo vuh-neer dee-NAY | Would you like to come to dinner? | —
+- Avec plaisir ! | ah-vek pleh-ZEER | With pleasure! | —
+- Volontiers. | voh-lohn-TYAY | Gladly. | —
+- Bonne idée ! | bonn ee-DAY | Good idea! | —
+- Je ne suis pas libre. | zhuh nuh swee pah LEE-bruh | I'm not free. | —
+- Peut-être une autre fois. | puh-tet ewn oh-truh FWAH | Maybe another time. | —
+- Merci pour l'invitation. | mehr-see poor lan-vee-tah-SYOHN | Thank you for the invitation. | —
+- C'est gentil. | seh zhahn-TEE | That's kind. | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-invitations-ex001 | fill-in | Tu es ___ samedi ? (free) | — | ["libre"] | false | Libre means free, and it's the same for men and women.
+- a2-invitations-ex002 | fill-in | Ça te ___ d'aller au cinéma ? | — | ["dit"] | false | Ça te dit de + infinitive means 'Do you fancy…?'
+- a2-invitations-ex003 | multiple-choice | Someone invites you, and you'd like to go. What do you say? | ["Avec plaisir !","Peut-être une autre fois.","Je ne suis pas libre."] | ["Avec plaisir !"] | false | Avec plaisir ! accepts warmly.
+- a2-invitations-ex004 | multiple-choice | Marie can't go. What does she say? | ["Désolée, je ne peux pas.","Désolé, je ne peux pas.","Volontiers."] | ["Désolée, je ne peux pas."] | false | Marie is a woman, so désolé adds -e.
+- a2-invitations-ex005 | fill-in | Je ne peux pas ___ je dois travailler. (because) | — | ["parce que"] | false | Je ne peux pas parce que + a simple sentence is a useful pattern.
+- a2-invitations-ex006 | fill-in | Tu viens ___ moi ? (to my place) | — | ["chez"] | false | Chez moi means 'at my place'.
+- a2-invitations-ex007 | multiple-choice | You're inviting your manager, using vous. What do you say? | ["Voulez-vous venir dîner ?","Ça te dit de dîner ?","Tu veux venir dîner ?"] | ["Voulez-vous venir dîner ?"] | false | Voulez-vous is the vous form. The others use tu.
+- a2-invitations-ex008 | fill-in | On va ___ au restaurant. (to eat) | — | ["manger"] | false | After on va, the second verb stays in the infinitive.
+- a2-invitations-ex009 | fill-in | Désolée, je suis ___. (busy; Marie is speaking) | — | ["occupée"] | false | Marie is a woman, so occupé adds -e.
+- a2-invitations-ex010 | translate | Write in French: Good idea! | — | ["Bonne idée"] | false | Idée is feminine, so it's bonne.
+- a2-invitations-ex011 | reorder | Put the words in order: Let's meet at eight o'clock. | — | ["On se retrouve à huit heures","À huit heures on se retrouve"] | false | On se retrouve is followed by the time.
+- a2-invitations-ex012 | reorder | Put these lines in order. | — | ["Tu es libre samedi ? Oui, pourquoi ? Ça te dit d'aller au cinéma ? Avec plaisir !"] | false | You check whether someone's free first, then you make the invitation.
+
+## a2-culture-francophone-world
+
+### Vocab
+
+fr | pron | en | note
+
+- francophone | frahn-koh-FONN | French-speaking | —
+- la langue | lah LAHNG | the language | —
+- officiel / officielle | oh-fee-SYEL | official (masculine / feminine) | —
+- le Luxembourg | luh lewk-sahn-BOOR | Luxembourg | —
+- la Côte d'Ivoire | lah koht dee-VWAHR | Côte d'Ivoire, Ivory Coast | —
+- le Cameroun | luh kahm-ROON | Cameroon | —
+- la Nouvelle-Calédonie | lah noo-vel kah-lay-doh-NEE | New Caledonia | —
+- le souper | luh soo-PAY | supper, the evening meal | Used in Belgium, Switzerland and Québec.
+- la fin de semaine | lah fan duh suh-MEN | the weekend | In Québec.
+- magasiner | mah-gah-zee-NAY | to go shopping | In Québec.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-culture-francophone-world-ex001 | fill-in | On parle français ___ Belgique. (la Belgique: feminine) | — | ["en"] | false | Feminine countries take en.
+- a2-culture-francophone-world-ex002 | fill-in | On parle français ___ Sénégal. (le Sénégal: masculine) | — | ["au"] | false | Masculine countries starting with a consonant take au.
+- a2-culture-francophone-world-ex003 | fill-in | On parle français ___ Canada. (le Canada: masculine) | — | ["au"] | false | Le Canada is masculine, so it's au.
+- a2-culture-francophone-world-ex004 | multiple-choice | On parle français ___ Tahiti. | ["à","en","au"] | ["à"] | false | Islands vary, and Tahiti takes à, like a city.
+- a2-culture-francophone-world-ex005 | fill-in | On parle français ___ Nouvelle-Calédonie. (la Nouvelle-Calédonie: feminine) | — | ["en"] | false | La Nouvelle-Calédonie is feminine, so it's en.
+- a2-culture-francophone-world-ex006 | fill-in | On parle français ___ Côte d'Ivoire. (la Côte d'Ivoire: feminine) | — | ["en"] | false | La Côte d'Ivoire is feminine, so it's en.
+- a2-culture-francophone-world-ex007 | multiple-choice | Which word for 70 would you see in Belgium and Switzerland? | ["septante","soixante-dix","huitante"] | ["septante"] | false | Belgium and Switzerland both say septante.
+- a2-culture-francophone-world-ex008 | multiple-choice | In Québec, when do people usually have le dîner? | ["in the middle of the day","in the evening","first thing in the morning"] | ["in the middle of the day"] | false | In Québec, as in Belgium and Switzerland, le dîner is often the midday meal.
+- a2-culture-francophone-world-ex009 | multiple-choice | Where are Guadeloupe and Martinique? | ["in the Caribbean","in the Pacific","in Africa"] | ["in the Caribbean"] | false | Guadeloupe and Martinique are in the Caribbean.
+- a2-culture-francophone-world-ex010 | multiple-choice | Where is Tahiti? | ["in the Pacific","in Europe","in North America"] | ["in the Pacific"] | false | Tahiti is in the Pacific.
+- a2-culture-francophone-world-ex011 | translate | Write in French, using 'on': French is spoken in Switzerland. | — | ["On parle français en Suisse"] | true | La Suisse is feminine, so it's en Suisse.
+- a2-culture-francophone-world-ex012 | reorder | Put the words in order: French is spoken in Luxembourg. | — | ["On parle français au Luxembourg"] | false | Le Luxembourg is masculine, so it's au.
+
+## a2-review-travel
+
+### Vocab
+
+fr | pron | en | note
+
+- à l'étranger | ah lay-trahn-ZHAY | abroad | —
+- le séjour | luh say-ZHOOR | the stay | —
+- le voyage | luh vwah-YAHZH | the trip, the journey | —
+- un itinéraire | uh-nee-tee-nay-REHR | a route | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-review-travel-ex001 | fill-in | Je vais à Lyon ___ train. | — | ["en"] | false | You sit inside a train, so it's en train.
+- a2-review-travel-ex002 | fill-in | J'habite ___ Canada. (le Canada: masculine) | — | ["au"] | false | Masculine countries starting with a consonant take au.
+- a2-review-travel-ex003 | multiple-choice | Choose the word for the blank (l'Italie: feminine, starts with a vowel): Je viens ___ Italie. | ["d'","de","du"] | ["d'"] | false | Before a vowel, de shortens to d'.
+- a2-review-travel-ex004 | fill-in | Nous ___ à Paris l'année prochaine. (aller, futur simple) | — | ["irons"] | false | Aller has the stem ir-.
+- a2-review-travel-ex005 | fill-in | Il y ___ un train demain. (avoir, futur simple) | — | ["aura"] | false | Il y aura is the future of il y a.
+- a2-review-travel-ex006 | fill-in | Tu ___ content. (être, futur simple; speaking to Paul) | — | ["seras"] | false | Être has the stem ser-.
+- a2-review-travel-ex007 | multiple-choice | The hotel has no rooms left. What's the word? | ["complet","compris","sale"] | ["complet"] | false | Complet means full.
+- a2-review-travel-ex008 | multiple-choice | A friend invites you, but you can't go. What do you say? | ["Merci, c'est gentil, mais je ne peux pas.","Avec plaisir !","Bonne idée !"] | ["Merci, c'est gentil, mais je ne peux pas."] | false | Thank the person, then explain that you can't come.
+- a2-review-travel-ex009 | translate | Write out this paragraph, filling each gap as shown: L'année prochaine, je (aller, futur simple) (in: le Canada, masculine) (by: avion). Je (faire, futur simple) du ski. | — | ["L'année prochaine, j'irai au Canada en avion. Je ferai du ski."] | false | Aller has the stem ir-, faire has the stem fer-, and le Canada takes au.
+- a2-review-travel-ex010 | multiple-choice | You're describing a trip to Japan (le Japon: masculine). Which is right? | ["au Japon","en Japon","à Japon"] | ["au Japon"] | false | Le Japon is masculine and starts with a consonant, so it's au.
+- a2-review-travel-ex011 | reorder | Put the words in order: I'd like to book a room. | — | ["Je voudrais réserver une chambre"] | false | Réserver stays in the infinitive after je voudrais.
+- a2-review-travel-ex012 | reorder | Put the words in order: Let's meet outside the cinema. | — | ["On se retrouve devant le cinéma"] | false | On se retrouve comes first, then the place.
+
+## a2-comparatives
+
+### Vocab
+
+fr | pron | en | note
+
+- plus … que | plew … kuh | more … than | —
+- moins … que | mwan … kuh | less … than | —
+- aussi … que | oh-see … kuh | as … as | —
+- âgé / âgée | ah-ZHAY | old, elderly (masculine / feminine) | —
+- plus de … que | plews duh … kuh | more (of) … than | —
+- moins de … que | mwan duh … kuh | less, fewer … than | —
+- autant de … que | oh-tahn duh … kuh | as much, as many … as | —
+- autant que | oh-tahn kuh | as much as (with a verb) | —
+- meilleur / meilleure | meh-YUHR | better (masculine / feminine) | Plural: meilleurs / meilleures.
+- mieux | myuh | better (with a verb) | —
+- préférer | pray-fay-RAY | to prefer | Je préfère, tu préfères, il préfère, nous préférons, vous préférez, ils préfèrent.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-comparatives-ex001 | fill-in | Paul a 20 ans, Marie a 25 ans. Marie est ___ âgée que Paul. | — | ["plus"] | false | Marie is older, so it's plus.
+- a2-comparatives-ex002 | fill-in | Marc est très grand, Léa est petite. Léa est ___ grande que Marc. | — | ["moins"] | false | Léa is shorter, so she's less tall.
+- a2-comparatives-ex003 | fill-in | Anne a 20 ans, Paul a 20 ans. Anne est ___ âgée que Paul. | — | ["aussi"] | false | They're the same age, so it's aussi.
+- a2-comparatives-ex004 | fill-in | J'ai trois livres, tu as trois livres. J'ai ___ de livres que toi. | — | ["autant"] | false | With a noun, the same amount is autant de.
+- a2-comparatives-ex005 | fill-in | Paul a cinq amis, Marc a deux amis. Paul a ___ d'amis que Marc. | — | ["plus"] | false | Paul has more friends, so it's plus de, shortened to d' before amis.
+- a2-comparatives-ex006 | multiple-choice | La tarte est feminine. Choose the word for 'better': Cette tarte est ___ que l'autre. | ["meilleure","meilleur","mieux"] | ["meilleure"] | false | Meilleur is an adjective, so it agrees with tarte.
+- a2-comparatives-ex007 | multiple-choice | Choose the word for 'better': Elle chante ___ que Paul. | ["mieux","meilleur","meilleure"] | ["mieux"] | false | It describes the verb chante, so you need the adverb mieux.
+- a2-comparatives-ex008 | multiple-choice | Choose the word for 'than': Il est plus grand ___ Paul. | ["que","de","comme"] | ["que"] | false | 'Than' is always que in a comparison.
+- a2-comparatives-ex009 | multiple-choice | Choose the words for 'more than': Il y a ___ dix personnes. | ["plus de","plus que","aussi"] | ["plus de"] | false | With a number, French uses plus de.
+- a2-comparatives-ex010 | translate | Write in French (the subject is Marie): She's taller than Paul. | — | ["Elle est plus grande que Paul"] | false | Grande agrees with Marie, the subject, and not with Paul.
+- a2-comparatives-ex011 | translate | Write in French: I work as much as him. | — | ["Je travaille autant que lui"] | false | With a verb, use autant que, and a stressed pronoun after que.
+- a2-comparatives-ex012 | reorder | Put the words in order (the subject is Paul): He's taller than me. | — | ["Il est plus grand que moi"] | false | After que, use a stressed pronoun.
+
+## a2-superlatives
+
+### Vocab
+
+fr | pron | en | note
+
+- le plus / la plus / les plus | luh PLEW / lah PLEW / lay PLEW | the most | —
+- le moins / la moins / les moins | luh MWAN / lah MWAN / lay MWAN | the least | —
+- le meilleur / la meilleure | luh meh-YUHR / lah meh-YUHR | the best (masculine / feminine) | Plural: les meilleurs / les meilleures.
+- le mieux | luh MYUH | the best (with a verb) | —
+- le monde | luh MOHND | the world | —
+- la classe | lah KLAHSS | the class | —
+- un élève / une élève | uh-nay-LEV / ew-nay-LEV | a pupil (boy / girl) | —
+- la région | lah ray-ZHYOHN | the region | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-superlatives-ex001 | fill-in | Paris est la plus ___ ville de France. (grand) | — | ["grande"] | false | Ville is feminine, so grand adds -e.
+- a2-superlatives-ex002 | multiple-choice | La ville is feminine. Choose the right form: C'est la ville la plus ___ de France. | ["intéressante","intéressant","intéressants"] | ["intéressante"] | false | The adjective agrees with ville.
+- a2-superlatives-ex003 | fill-in | la plus belle ville ___ France (in) | — | ["de"] | false | After a superlative, 'in' is de.
+- a2-superlatives-ex004 | fill-in | le plus grand pays ___ monde (in the) | — | ["du"] | false | De + le becomes du.
+- a2-superlatives-ex005 | multiple-choice | The subject is Marie. Choose the words for 'the best': C'est ___ élève de la classe. | ["la meilleure","la mieux","la plus bonne"] | ["la meilleure"] | false | Élève is a noun, so you need the adjective, and it agrees with Marie.
+- a2-superlatives-ex006 | multiple-choice | Choose the words for 'the best', describing the verb: Elle chante ___. | ["le mieux","la meilleure","la mieux"] | ["le mieux"] | false | With a verb, use the adverb, and an adverb always takes le.
+- a2-superlatives-ex007 | multiple-choice | How do you say 'the most interesting film'? | ["le film le plus intéressant","le plus film intéressant","le film plus intéressant"] | ["le film le plus intéressant"] | false | An adjective that follows the noun repeats the article.
+- a2-superlatives-ex008 | multiple-choice | Choose the word for 'in': la plus grande ville ___ la région | ["de","dans","en"] | ["de"] | false | After a superlative, 'in' is de, and not dans or en.
+- a2-superlatives-ex009 | translate | Write in French: the biggest city | — | ["la plus grande ville","la ville la plus grande"] | false | Grand normally goes before the noun, so both word orders are correct.
+- a2-superlatives-ex010 | translate | Write in French: the best restaurant in Paris | — | ["le meilleur restaurant de Paris","le restaurant le meilleur de Paris"] | false | Bon and meilleur are BAGS adjectives, so both word orders are accepted, though before the noun is far more common. 'In' is de.
+- a2-superlatives-ex011 | reorder | Put the words in order: It's the most interesting city in France. | — | ["C'est la ville la plus intéressante de France"] | false | Intéressante follows the noun, so the article is repeated.
+- a2-superlatives-ex012 | reorder | Put the words in order: She sings the best. | — | ["Elle chante le mieux"] | false | An adverb always takes le, whoever the subject is.
+
+## a2-home-and-chores
+
+### Vocab
+
+fr | pron | en | note
+
+- un appartement | uh-nah-par-tuh-MAHN | a flat, an apartment | —
+- un immeuble | uh-nee-MUH-bluh | a block of flats, a building | —
+- une pièce | ewn PYESS | a room | —
+- la cuisine | lah kwee-ZEEN | the kitchen | —
+- le salon | luh sah-LOHN | the living room | —
+- la salle à manger | lah sahl ah mahn-ZHAY | the dining room | —
+- la chambre | lah SHAHN-bruh | the bedroom | —
+- les toilettes | lay twah-LET | the toilet | Always plural, and usually a separate room.
+- l'entrée | lahn-TRAY | the hall, the entrance | Feminine: une entrée. At a meal, it's the starter.
+- le balcon | luh bahl-KOHN | the balcony | —
+- le garage | luh gah-RAHZH | the garage | —
+- un canapé | uhn kah-nah-PAY | a sofa | —
+- un fauteuil | uhn foh-TUH-y | an armchair | —
+- une armoire | ew-nar-MWAHR | a wardrobe | —
+- une étagère | ew-nay-tah-ZHEHR | a shelf | —
+- une lampe | ewn LAHNP | a lamp | —
+- un tapis | uhn tah-PEE | a rug, a carpet | —
+- un frigo | uhn free-GOH | a fridge | —
+- la fenêtre | lah fuh-NEH-truh | the window | —
+- faire la lessive | fehr lah leh-SEEV | to do the laundry | —
+- faire le lit | fehr luh LEE | to make the bed | —
+- passer l'aspirateur | pah-say lahs-pee-rah-TUHR | to vacuum | —
+- ranger | rahn-ZHAY | to tidy | —
+- sortir les poubelles | sor-teer lay poo-BEL | to take out the bins | —
+- nettoyer | neh-twah-YAY | to clean | Use it as an infinitive for now.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-home-and-chores-ex001 | multiple-choice | Que veut dire faire la cuisine ? | ["to cook","to clean the kitchen","to go to the kitchen"] | ["to cook"] | false | Faire la cuisine means to cook, although la cuisine is also the kitchen.
+- a2-home-and-chores-ex002 | fill-in | Je dors dans la ___. (bedroom) | — | ["chambre"] | false | La chambre is the bedroom.
+- a2-home-and-chores-ex003 | fill-in | Le frigo est dans la ___. (kitchen) | — | ["cuisine"] | false | La cuisine is the kitchen.
+- a2-home-and-chores-ex004 | fill-in | J'habite au deuxième ___. (floor) | — | ["étage"] | false | L'étage is the floor.
+- a2-home-and-chores-ex005 | multiple-choice | Which one is correct? | ["une armoire","un armoire","une armoires"] | ["une armoire"] | false | Armoire is feminine and singular here, so it's une armoire.
+- a2-home-and-chores-ex006 | fill-in | La lampe est ___ la table. (on) | — | ["sur"] | false | Sur means 'on'.
+- a2-home-and-chores-ex007 | fill-in | Le tapis est ___ le lit. (under) | — | ["sous"] | false | Sous means 'under'.
+- a2-home-and-chores-ex008 | multiple-choice | How do you say 'to vacuum'? | ["passer l'aspirateur","faire la lessive","sortir les poubelles"] | ["passer l'aspirateur"] | false | Passer l'aspirateur means to vacuum.
+- a2-home-and-chores-ex009 | fill-in | Je ___ la vaisselle. (faire) | — | ["fais"] | false | Faire la vaisselle is to do the dishes, and je takes fais.
+- a2-home-and-chores-ex010 | translate | Write in French: the living room | — | ["le salon"] | false | Salon is masculine.
+- a2-home-and-chores-ex011 | fill-in | Il faut ___ les poubelles. (to take out) | — | ["sortir"] | false | After il faut, the verb stays in the infinitive.
+- a2-home-and-chores-ex012 | reorder | Put the words in order: I do the laundry on Saturdays. | — | ["Je fais la lessive le samedi","Le samedi je fais la lessive"] | false | Le samedi can go at the end or at the start.
+
+## a2-relative-qui-que-ou
+
+### Vocab
+
+fr | pron | en | note
+
+- qui | kee | who, which, that (the subject) | —
+- que / qu' | kuh / k | who, whom, which, that (the object) | —
+- où | oo | where, when (after a place or a time) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-relative-qui-que-ou-ex001 | fill-in | C'est la femme ___ travaille ici. | — | ["qui"] | false | The verb follows directly, so it's qui.
+- a2-relative-qui-que-ou-ex002 | fill-in | C'est le livre ___ je lis. | — | ["que"] | false | A subject, je, follows, so it's que.
+- a2-relative-qui-que-ou-ex003 | multiple-choice | Choose the word for the blank: C'est le film ___ elle regarde. | ["qu'","qui","où"] | ["qu'"] | false | A subject follows, and que shortens to qu' before the vowel.
+- a2-relative-qui-que-ou-ex004 | fill-in | C'est la ville ___ il y a un grand musée. | — | ["où"] | true | It refers to a place, and the clause says what's there, so it's où.
+- a2-relative-qui-que-ou-ex005 | fill-in | C'est le jour ___ nous sommes arrivés. | — | ["où"] | true | It refers to a time, so it's où.
+- a2-relative-qui-que-ou-ex006 | fill-in | C'est le train ___ part à huit heures. | — | ["qui"] | false | The verb follows directly, so it's qui.
+- a2-relative-qui-que-ou-ex007 | multiple-choice | Choose the word for the blank: C'est la femme ___ je connais. | ["que","qui","où"] | ["que"] | false | A subject, je, follows, so it's que, even for a person.
+- a2-relative-qui-que-ou-ex008 | translate | Join these two sentences with a relative pronoun: J'ai un ami. Cet ami habite à Lille. | — | ["J'ai un ami qui habite à Lille"] | true | Cet ami is the subject of habite, so it becomes qui.
+- a2-relative-qui-que-ou-ex009 | translate | Join these two sentences with a relative pronoun: Voici le livre. J'ai acheté ce livre. | — | ["Voici le livre que j'ai acheté"] | false | Ce livre is the object, so it becomes que. Livre is masculine singular, so acheté doesn't change.
+- a2-relative-qui-que-ou-ex010 | fill-in | C'est la lettre que j'ai ___. (écrire; la lettre: feminine singular) | — | ["écrite"] | false | Que stands for la lettre, a feminine direct object before the verb, so add -e.
+- a2-relative-qui-que-ou-ex011 | fill-in | Ce sont les clés que j'ai ___. (prendre; les clés: feminine plural) | — | ["prises"] | false | Que stands for les clés, feminine plural, so it's prises.
+- a2-relative-qui-que-ou-ex012 | reorder | Put the words in order: It's the house where I live. | — | ["C'est la maison où j'habite"] | false | Où refers to the place.
+
+## a2-describing-your-town
+
+### Vocab
+
+fr | pron | en | note
+
+- le centre-ville | luh sahn-truh VEEL | the town centre | —
+- la banlieue | lah bahn-LYUH | the suburbs | —
+- le village | luh vee-LAHZH | the village | —
+- animé / animée | ah-nee-MAY | lively (masculine / feminine) | —
+- propre | PROH-pruh | clean | —
+- pratique | prah-TEEK | convenient, practical | —
+- pas cher | pah SHEHR | cheap, inexpensive | Fixed phrase for now.
+- maintenant | man-tuh-NAHN | now | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-describing-your-town-ex001 | fill-in | Avant, j'___ à Nantes. Maintenant, j'habite à Lille. (habiter, imparfait) | — | ["habitais"] | false | For a place you used to live, use the imparfait.
+- a2-describing-your-town-ex002 | fill-in | Le centre-ville est bruyant, mon quartier est très calme. Mon quartier est ___ calme que le centre-ville. | — | ["plus"] | false | The neighbourhood is quieter, so it's plus calme.
+- a2-describing-your-town-ex003 | multiple-choice | Choose the words for 'the most': C'est le quartier ___ animé de Lyon. | ["le plus","plus","la plus"] | ["le plus"] | false | Quartier is masculine, and the adjective follows the noun, so the article is repeated.
+- a2-describing-your-town-ex004 | fill-in | Voici le village ___ mes parents travaillent. | — | ["où"] | true | It refers to a place, and travailler has no direct object, so it's où.
+- a2-describing-your-town-ex005 | multiple-choice | Choose the word for the blank: C'est le quartier ___ j'aime. | ["que","qui","où"] | ["que"] | false | A subject, j', follows, so it's que.
+- a2-describing-your-town-ex006 | fill-in | Le centre-ville est ___. (lively; le centre-ville: masculine) | — | ["animé"] | true | Centre-ville is masculine, so there's no added -e.
+- a2-describing-your-town-ex007 | multiple-choice | Qu'est-ce que la banlieue ? | ["the suburbs","the town centre","the countryside"] | ["the suburbs"] | false | La banlieue is the area around a big city.
+- a2-describing-your-town-ex008 | fill-in | J'habite ici ___ 2020. (and I still live here) | — | ["depuis"] | false | It's still true, so use depuis with the present.
+- a2-describing-your-town-ex009 | fill-in | Il y a un marché ___ de chez moi. (near) | — | ["près"] | false | Près de means 'near'.
+- a2-describing-your-town-ex010 | translate | Write in French: The village is quieter than the town. | — | ["Le village est plus calme que la ville"] | false | Plus + adjective + que, and calme is the same for masculine and feminine.
+- a2-describing-your-town-ex011 | reorder | Put the words in order: It's a neighbourhood that's very quiet. | — | ["C'est un quartier qui est très calme"] | false | The verb follows directly, so it's qui.
+- a2-describing-your-town-ex012 | reorder | Put the words in order: I live in a flat that's small. | — | ["J'habite dans un appartement qui est petit"] | false | The verb follows directly, so it's qui, and petit matches appartement.
+
+## a2-review-comparing
+
+### Vocab
+
+fr | pron | en | note
+
+- comparer | kohn-pah-RAY | to compare | —
+- une différence | ewn dee-fay-RAHNSS | a difference | —
+- un avantage | uh-nah-vahn-TAHZH | an advantage | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-review-comparing-ex001 | fill-in | Ma maison a huit pièces, mon appartement a deux pièces. Ma maison est ___ grande que mon appartement. | — | ["plus"] | false | The house is bigger, so it's plus.
+- a2-review-comparing-ex002 | multiple-choice | Les fraises are feminine plural. Choose the word for 'better': Ces fraises sont ___ que les autres. | ["meilleures","mieux","plus bonnes"] | ["meilleures"] | false | It describes a noun, so you need the adjective, and it agrees with fraises.
+- a2-review-comparing-ex003 | multiple-choice | Choose the word for 'better': Il parle ___ que moi. | ["mieux","meilleur","plus bon"] | ["mieux"] | false | It describes the verb, so you need the adverb.
+- a2-review-comparing-ex004 | fill-in | C'est le plus grand musée ___ Paris. (in) | — | ["de"] | false | After a superlative, 'in' is de.
+- a2-review-comparing-ex005 | multiple-choice | Choose the word for the blank: C'est le bureau ___ elle travaille. | ["où","qui","que"] | ["où"] | false | It refers to a place, and travailler has no direct object, so it's où.
+- a2-review-comparing-ex006 | multiple-choice | Choose the word for the blank: C'est la femme ___ parle. | ["qui","que","où"] | ["qui"] | false | The verb follows directly, so it's qui.
+- a2-review-comparing-ex007 | fill-in | Ce sont les lettres que j'ai ___. (écrire; les lettres: feminine plural) | — | ["écrites"] | false | Que stands for les lettres, a feminine plural direct object before the verb.
+- a2-review-comparing-ex008 | multiple-choice | Which one means 'to cook'? | ["faire la cuisine","faire la lessive","faire le lit"] | ["faire la cuisine"] | false | Faire la cuisine means to cook, even though la cuisine is also the kitchen.
+- a2-review-comparing-ex009 | fill-in | Je fais le ___. (housework) | — | ["ménage"] | false | Faire le ménage means to do the housework.
+- a2-review-comparing-ex010 | translate | Write out this paragraph, filling each gap as shown: Ma maison est (more + grand; ma maison: feminine) que ton appartement. Ton appartement est (less + bruyant; ton appartement: masculine). Lille est (the best + ville; in: de) la région. | — | ["Ma maison est plus grande que ton appartement. Ton appartement est moins bruyant. Lille est la meilleure ville de la région."] | false | Each adjective agrees with its noun, and after a superlative 'in' is de.
+- a2-review-comparing-ex011 | reorder | Put the words in order: Here's the house I bought. | — | ["Voici la maison que j'ai achetée"] | false | Que stands for la maison, feminine, so the participle adds -e.
+- a2-review-comparing-ex012 | reorder | Put the words in order (the subject is Marie): She's taller than me. | — | ["Elle est plus grande que moi"] | false | Grande agrees with Marie, and a stressed pronoun follows que.
+
+## a2-emotions-and-feelings
+
+### Vocab
+
+fr | pron | en | note
+
+- triste | TREEST | sad | Same for masculine and feminine. Plural: tristes.
+- fâché / fâchée | fah-SHAY | annoyed, cross (masculine / feminine) | Plural: fâchés / fâchées.
+- inquiet / inquiète | an-KYEH / an-KYET | worried (masculine / feminine) | Plural: inquiets / inquiètes.
+- jaloux / jalouse | zhah-LOO / zhah-LOOZ | jealous (masculine / feminine) | Plural: jaloux / jalouses.
+- fier / fière | fyehr | proud (masculine / feminine) | Plural: fiers / fières.
+- déçu / déçue | day-SEW | disappointed (masculine / feminine) | Plural: déçus / déçues.
+- surpris / surprise | sewr-PREE / sewr-PREEZ | surprised (masculine / feminine) | Plural: surpris / surprises.
+- énervé / énervée | ay-nehr-VAY | irritated, on edge (masculine / feminine) | Plural: énervés / énervées.
+- stressé / stressée | streh-SAY | stressed (masculine / feminine) | Plural: stressés / stressées.
+- en colère | ahn koh-LEHR | angry | Never changes.
+- de bonne humeur | duh bonn ew-MUHR | in a good mood | Never changes.
+- de mauvaise humeur | duh moh-vehz ew-MUHR | in a bad mood | Never changes.
+- Ça me fait plaisir. | sah muh feh pleh-ZEER | That makes me happy. I'm pleased. | —
+- Je suis content de te voir. | zhuh swee kohn-tahn duh tuh VWAHR | I'm happy to see you. | A woman says: Je suis contente de te voir.
+- Je suis désolé de… | zhuh swee day-zoh-LAY duh | I'm sorry to…, I'm sorry for… | A woman writes désolée. Followed by an infinitive.
+- Qu'est-ce que tu as ? | kes-kuh tew AH | What's the matter with you? | —
+- Qu'est-ce qu'il y a ? | kes-keel YAH | What's wrong? What's going on? | —
+- Ça ne va pas ? | sah nuh vah PAH | Is something wrong? Aren't you OK? | —
+- une fleur | ewn FLUHR | a flower | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-emotions-and-feelings-ex001 | fill-in | Marie (a woman) est ___ aujourd'hui. (content) | — | ["contente"] | false | Marie is feminine, so content adds -e.
+- a2-emotions-and-feelings-ex002 | fill-in | Paul et Léo (two men) sont ___. (heureux) | — | ["heureux"] | false | A masculine adjective ending in -x stays the same in the plural.
+- a2-emotions-and-feelings-ex003 | fill-in | Anne (a woman) est ___ pour son fils. (inquiet) | — | ["inquiète"] | false | The feminine adds -e and takes a grave accent: inquiète.
+- a2-emotions-and-feelings-ex004 | multiple-choice | Léa is a woman. Choose the right form: Léa est ___ de sa sœur. | ["jalouse","jaloux","jalouses"] | ["jalouse"] | false | Léa is one woman, so it's the feminine singular.
+- a2-emotions-and-feelings-ex005 | fill-in | Ma mère (a woman) est ___ de moi. (fier) | — | ["fière"] | false | The feminine of fier is fière, with a grave accent.
+- a2-emotions-and-feelings-ex006 | fill-in | Mes sœurs (two women) sont ___. (déçu) | — | ["déçues"] | false | Feminine plural: add -e and then -s.
+- a2-emotions-and-feelings-ex007 | multiple-choice | Marie is a woman. Choose the right form: Marie est ___. | ["en colère","en colères","en colèrée"] | ["en colère"] | false | En colère never changes.
+- a2-emotions-and-feelings-ex008 | fill-in | J'ai ___ des chiens. (fear) | — | ["peur"] | false | French says 'I have fear': avoir peur de.
+- a2-emotions-and-feelings-ex009 | multiple-choice | Your friend looks upset. What do you ask? | ["Qu'est-ce que tu as ?","Tu as quel âge ?","Tu t'appelles comment ?"] | ["Qu'est-ce que tu as ?"] | false | Qu'est-ce que tu as ? asks what's the matter.
+- a2-emotions-and-feelings-ex010 | fill-in | Merci pour le cadeau, ça me fait ___ ! | — | ["plaisir"] | false | Ça me fait plaisir is a fixed phrase.
+- a2-emotions-and-feelings-ex011 | translate | Write in French (the speaker is a man, talking to a friend): I'm happy to see you. | — | ["Je suis content de te voir"] | false | Content matches the man speaking, and te comes before voir.
+- a2-emotions-and-feelings-ex012 | reorder | Put the words in order (the subject is Marie): She's a bit sad today. | — | ["Elle est un peu triste aujourd'hui","Aujourd'hui elle est un peu triste"] | false | Un peu comes before the adjective. Aujourd'hui can go at either end.
+
+## a2-imperative-with-pronouns
+
+### Vocab
+
+fr | pron | en | note
+
+- Vas-y ! / Allez-y ! | vah ZEE / ah-lay ZEE | Go on! Go ahead! (tu / vous) | —
+- Allons-y ! | ah-lohn ZEE | Let's go! | —
+- Prends-en. | prahn ZAHN | Take some. | —
+- Manges-en. | mahnzh ZAHN | Eat some. | —
+- Penses-y. | pahns ZEE | Think about it. | —
+- Donne-le-moi. | donn luh MWAH | Give it to me. | —
+- Dis-le-moi. | dee luh MWAH | Tell me. | —
+- Montre-le-moi. | mohn-truh luh MWAH | Show it to me. | —
+- Passe-le-lui. | pahs luh LWEE | Pass it to him / to her. | —
+- Lève-toi. / Levez-vous. | lev TWAH / luh-vay VOO | Get up. (tu / vous) | —
+- Dépêche-toi. / Dépêchez-vous. | day-pesh TWAH / day-peh-shay VOO | Hurry up. (tu / vous) | —
+- Dépêchons-nous. | day-peh-shohn NOO | Let's hurry. | —
+- Habille-toi. | ah-bee-y TWAH | Get dressed. | —
+- Reposez-vous. | ruh-poh-zay VOO | Have a rest. | —
+- Ne t'inquiète pas. / Ne vous inquiétez pas. | nuh tan-KYET pah / nuh voo zan-kyay-tay PAH | Don't worry. (tu / vous) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-imperative-with-pronouns-ex001 | fill-in | Speaking to a friend (tu), replacing le film: Regarde le film. → Regarde-___ ! | — | ["le"] | false | Le film is masculine and a direct object, so it's le, after the verb.
+- a2-imperative-with-pronouns-ex002 | translate | Build the command, speaking to your boss (vous), replacing à Marie with a pronoun: Téléphonez à Marie. | — | ["Téléphonez-lui"] | false | À Marie becomes lui, which goes after the verb with a hyphen.
+- a2-imperative-with-pronouns-ex003 | fill-in | Speaking to a friend (tu), saying 'Look at me!': Regarde-___ ! | — | ["moi"] | false | After the verb, me becomes moi.
+- a2-imperative-with-pronouns-ex004 | fill-in | Speaking to a friend (tu), replacing à la gare with y: Va à la gare. → ___-y ! | — | ["Vas"] | false | The s comes back before y.
+- a2-imperative-with-pronouns-ex005 | multiple-choice | Speaking to a friend (tu), replacing du gâteau: Mange du gâteau. Which one is correct? | ["Manges-en.","Mange-en.","En mange."] | ["Manges-en."] | false | The s of the tu form comes back before en.
+- a2-imperative-with-pronouns-ex006 | translate | Build the negative command, speaking to a friend (tu), replacing le gâteau with a pronoun: Ne mange pas le gâteau. | — | ["Ne le mange pas"] | true | In the negative, the pronoun goes back before the verb.
+- a2-imperative-with-pronouns-ex007 | multiple-choice | Speaking to a friend (tu): Don't call me. | ["Ne m'appelle pas.","N'appelle-moi pas.","Ne appelle pas moi."] | ["Ne m'appelle pas."] | false | In the negative, the pronoun goes before the verb, and me stays as m'.
+- a2-imperative-with-pronouns-ex008 | fill-in | Speaking to your son (tu), telling him to get up: ___-toi, il est tard ! (se lever) | — | ["Lève"] | false | The tu form of an -er verb has no s, and toi follows it.
+- a2-imperative-with-pronouns-ex009 | multiple-choice | Speaking to a friend (tu): Don't worry. | ["Ne t'inquiète pas.","Ne toi inquiète pas.","Inquiète-toi pas."] | ["Ne t'inquiète pas."] | false | In the negative, the reflexive pronoun is te, and it goes before the verb.
+- a2-imperative-with-pronouns-ex010 | fill-in | Speaking to a friend (tu), replacing le livre, with the pronouns in the usual order: Donne-___-moi. | — | ["le"] | false | In this pattern, le, la or les comes first.
+- a2-imperative-with-pronouns-ex011 | reorder | Put the words in order, speaking to a friend (tu) about the keys: Take them and don't forget them. | — | ["Prends-les et ne les oublie pas"] | false | The affirmative has the pronoun after the verb, and the negative has it before.
+- a2-imperative-with-pronouns-ex012 | reorder | Put the words in order, speaking to a friend (tu): Don't get up this morning. | — | ["Ne te lève pas ce matin","Ce matin ne te lève pas"] | false | Te stays before the verb in the negative.
+
+## a2-verbs-with-a-and-de
+
+### Vocab
+
+fr | pron | en | note
+
+- commencer à | koh-mahn-SAY ah | to start to, to start …ing | —
+- apprendre à | ah-PRAHN-druh ah | to learn to | —
+- réussir à | ray-ew-SEER ah | to manage to, to succeed in | —
+- aider quelqu'un à | eh-day kel-KUHN ah | to help someone to | —
+- continuer à | kohn-tee-new-AY ah | to carry on …ing | —
+- essayer de | eh-seh-YAY duh | to try to | —
+- décider de | day-see-DAY duh | to decide to | —
+- arrêter de | ah-reh-TAY duh | to stop …ing | —
+- finir de | fee-NEER duh | to finish …ing | —
+- oublier de | oo-blee-AY duh | to forget to | —
+- refuser de | ruh-few-ZAY duh | to refuse to | —
+- j'essaie / j'essaye | zheh-SEH / zheh-SEH-y | I try | Both spellings are correct.
+- nous essayons | noo zeh-seh-YOHN | we try | —
+- nous commençons | noo koh-mahn-SOHN | we start | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-verbs-with-a-and-de-ex001 | fill-in | J'apprends ___ nager. | — | ["à"] | true | Apprendre takes à before an infinitive.
+- a2-verbs-with-a-and-de-ex002 | fill-in | Paul a réussi ___ finir son travail. | — | ["à"] | true | Réussir takes à.
+- a2-verbs-with-a-and-de-ex003 | multiple-choice | Choose what goes in the gap: Je l'aide ___ ranger la cuisine. | ["à","de","no word"] | ["à"] | false | Aider quelqu'un à: the person comes first, then à.
+- a2-verbs-with-a-and-de-ex004 | fill-in | J'essaie ___ parler français. | — | ["de"] | false | Essayer takes de.
+- a2-verbs-with-a-and-de-ex005 | multiple-choice | Choose what goes in the gap: Elle a décidé ___ partir. | ["de","à","no word"] | ["de"] | false | Décider takes de.
+- a2-verbs-with-a-and-de-ex006 | fill-in | Arrête ___ parler ! | — | ["de"] | false | Arrêter takes de.
+- a2-verbs-with-a-and-de-ex007 | fill-in | J'ai oublié ___ téléphoner à Anne. | — | ["de"] | false | Oublier takes de.
+- a2-verbs-with-a-and-de-ex008 | multiple-choice | Choose what goes in the gap: Je veux ___ voyager. | ["no word","à","de"] | ["no word"] | false | Vouloir goes straight to the infinitive.
+- a2-verbs-with-a-and-de-ex009 | fill-in | Le matin, nous ___ à huit heures. (commencer, present) | — | ["commençons"] | false | Before o, the c takes a cedilla.
+- a2-verbs-with-a-and-de-ex010 | multiple-choice | Choose what goes in the gap: J'apprends ___ français. | ["le","à","de"] | ["le"] | false | With a noun, apprendre needs no preposition, only the article.
+- a2-verbs-with-a-and-de-ex011 | translate | Write in French: She refused to answer. | — | ["Elle a refusé de répondre"] | true | Refuser takes de. The participle comes before de and the infinitive.
+- a2-verbs-with-a-and-de-ex012 | reorder | Put the words in order: I started working at eight o'clock. | — | ["J'ai commencé à travailler à huit heures","À huit heures j'ai commencé à travailler"] | false | Commencer à + infinitive. The time can go at either end.
+
+## a2-polite-requests
+
+### Vocab
+
+fr | pron | en | note
+
+- Tu peux… ? | tew PUH | Can you…? (informal) | —
+- Tu pourrais… ? | tew poo-REH | Could you…? (informal) | A fixed phrase for now.
+- Vous pouvez… ? | voo poo-VAY | Can you…? (formal) | —
+- Pourriez-vous… ? | poo-ryay VOO | Could you…? (formal) | A fixed phrase for now.
+- Est-ce que vous pourriez… ? | es-kuh voo poo-RYAY | Could you…? (formal) | A fixed phrase for now.
+- Je pourrais avoir… ? | zhuh poo-reh ah-VWAHR | Could I have…? | A fixed phrase for now.
+- Merci de… | mehr-see DUH | Please… (on signs and in writing) | Followed by an infinitive.
+- Excusez-moi de vous déranger. | eks-kew-zay mwah duh voo day-rahn-ZHAY | Sorry to bother you. | —
+- Pas de problème. | pah duh proh-BLEM | No problem. | —
+- indiquer | an-dee-KAY | to show, to point out (the way) | —
+- apporter | ah-por-TAY | to bring | —
+- le sel | luh SEL | the salt | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-polite-requests-ex001 | multiple-choice | You stop a stranger in the street and want to be very polite. Which one fits? | ["Pourriez-vous m'indiquer la gare ?","Tu peux m'indiquer la gare ?","Indique-moi la gare."] | ["Pourriez-vous m'indiquer la gare ?"] | false | With a stranger, use vous and a polite question.
+- a2-polite-requests-ex002 | multiple-choice | You're at home, asking your brother for help. Which one fits? | ["Tu peux m'aider ?","Pourriez-vous m'aider ?","Est-ce que vous pourriez m'aider ?"] | ["Tu peux m'aider ?"] | false | Your brother is someone you call tu.
+- a2-polite-requests-ex003 | multiple-choice | You'd like the bill from the waiter, and you want to be as polite as you can. Which one fits? | ["Pourriez-vous m'apporter l'addition ?","Donnez-moi l'addition.","Apporte-moi l'addition."] | ["Pourriez-vous m'apporter l'addition ?"] | false | A bare command is too abrupt, and a waiter is someone you call vous.
+- a2-polite-requests-ex004 | multiple-choice | A sign on a door says: Merci de fermer la porte. What does it mean? | ["Please close the door.","The door is closed.","Don't close the door."] | ["Please close the door."] | false | Merci de + infinitive is a polite instruction on signs and in writing.
+- a2-polite-requests-ex005 | fill-in | ___-vous répéter, s'il vous plaît ? (could, very polite) | — | ["Pourriez"] | false | Pourriez-vous is the polite fixed phrase.
+- a2-polite-requests-ex006 | fill-in | Tu ___ m'aider ? (can, present tense) | — | ["peux"] | false | With tu, pouvoir is peux in the present.
+- a2-polite-requests-ex007 | multiple-choice | A customer you call vous says Merci beaucoup ! Which reply fits? | ["Je vous en prie.","Excusez-moi.","Pardon."] | ["Je vous en prie."] | false | Je vous en prie is the formal answer to thanks.
+- a2-polite-requests-ex008 | fill-in | Je ___ une chambre pour deux nuits. (I'd like) | — | ["voudrais"] | false | Je voudrais is the polite way of saying what you want.
+- a2-polite-requests-ex009 | translate | Write in French, speaking to a friend (tu), with the present tense of pouvoir: Can you help me? | — | ["Tu peux m'aider","Est-ce que tu peux m'aider","Peux-tu m'aider"] | false | Tu peux + infinitive, with m' before aider.
+- a2-polite-requests-ex010 | translate | Write in French, speaking to a stranger (vous), starting with Pourriez-vous: Could you speak more slowly? | — | ["Pourriez-vous parler plus lentement"] | false | Pourriez-vous + infinitive, and plus lentement from the adverbs lesson.
+- a2-polite-requests-ex011 | reorder | Put the words in order: Could you speak more slowly? (formal) | — | ["Est-ce que vous pourriez parler plus lentement"] | false | Est-ce que + vous pourriez + infinitive.
+- a2-polite-requests-ex012 | reorder | Put the words in order: Sorry to bother you. | — | ["Excusez-moi de vous déranger"] | false | A fixed phrase, with vous before déranger.
+
+## a2-writing-an-informal-email
+
+### Vocab
+
+fr | pron | en | note
+
+- À très vite ! | ah treh VEET | Talk soon! See you very soon! | —
+- Bises | beez | Love (to friends and family) | —
+- Je t'embrasse | zhuh tahn-BRAHSS | Love, big hug (to friends and family) | —
+- Écris-moi vite ! | ay-kree mwah VEET | Write back soon! | —
+- Merci pour ton message. | mehr-see poor tohn meh-SAHZH | Thanks for your message. | —
+- Comment vas-tu ? | koh-mahn vah TEW | How are you? | —
+- J'espère que tu vas bien. | zheh-spehr kuh tew vah BYAN | I hope you're well. | —
+- Je t'écris pour… | zhuh tay-KREE poor | I'm writing to… | Followed by an infinitive.
+- Dis bonjour à … de ma part. | dee bohn-ZHOOR ah … duh mah PAR | Say hello to … from me. | —
+- Tu me manques. | tew muh MAHNK | I miss you. | —
+- P.-S. | pay ESS | P.S. | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-writing-an-informal-email-ex001 | multiple-choice | You're writing to your best friend Julie. Which closing fits? | ["Grosses bises","Cordialement","Excusez-moi"] | ["Grosses bises"] | false | Grosses bises is for friends and family.
+- a2-writing-an-informal-email-ex002 | multiple-choice | You're writing to your teacher, whom you call vous. Which closing fits? | ["Cordialement","Je t'embrasse","Bises"] | ["Cordialement"] | false | Cordialement is neutral. The others are for people you're close to.
+- a2-writing-an-informal-email-ex003 | multiple-choice | Your friend Anne is a woman. Choose the right opening. | ["Chère Anne,","Cher Anne,","Chers Anne,"] | ["Chère Anne,"] | false | Anne is one woman, so it's chère.
+- a2-writing-an-informal-email-ex004 | fill-in | Merci ___ ton message. | — | ["pour"] | false | Merci pour + noun.
+- a2-writing-an-informal-email-ex005 | fill-in | J'espère que tu ___ bien. (aller) | — | ["vas"] | false | With tu, aller is vas.
+- a2-writing-an-informal-email-ex006 | fill-in | Il ___ beau quand Paul est arrivé à Nice. (faire, imparfait: the scene) | — | ["faisait"] | false | The imparfait sets the scene.
+- a2-writing-an-informal-email-ex007 | fill-in | Hier, j'___ Marc en ville. (voir, passé composé) | — | ["ai vu"] | false | A single event in the past takes the passé composé.
+- a2-writing-an-informal-email-ex008 | fill-in | L'été prochain, j'___ à Lyon. (aller, futur simple) | — | ["irai"] | false | The future stem of aller is ir-.
+- a2-writing-an-informal-email-ex009 | translate | Write in French, to a friend: I miss you. | — | ["Tu me manques"] | false | In French, the person you miss is the subject.
+- a2-writing-an-informal-email-ex010 | reorder | Put the parts of this email in a logical order. | — | ["Salut Léa ! Merci pour ton message. Hier, je suis allé au cinéma avec Marc. Le week-end prochain, je vais visiter Rouen. Et toi, comment vas-tu ? Bises, Paul"] | false | Greeting, thanks, past news, future plans, a question back, then the closing.
+- a2-writing-an-informal-email-ex011 | reorder | Put these sentences in a logical order (the writer is a man). | — | ["Il pleuvait quand je suis sorti. Alors, je suis rentré à la maison. Demain, il fera beau."] | false | The scene, then what happened, then what comes next.
+- a2-writing-an-informal-email-ex012 | translate | Write out this email, filling each gap as shown: Salut Léa ! Merci (for) ton message. Hier, je (aller, passé composé; je: a woman) à la plage. Il (faire, imparfait) beau. Demain, je (travailler, futur simple). Et toi, comment (aller + tu, with inversion) ? Bises | — | ["Salut Léa ! Merci pour ton message. Hier, je suis allée à la plage. Il faisait beau. Demain, je travaillerai. Et toi, comment vas-tu ? Bises"] | true | Aller takes être and agrees with a woman, the imparfait sets the scene, and the future ends in -ai with je.
+
+## a2-culture-holidays-and-festivals
+
+### Vocab
+
+fr | pron | en | note
+
+- Noël | noh-EL | Christmas | —
+- le réveillon | luh ray-vay-YOHN | the Christmas Eve or New Year's Eve dinner | —
+- le sapin | luh sah-PAN | the Christmas tree, the fir tree | —
+- la bûche | lah BEWSH | the Yule log (a cake) | —
+- le Nouvel An | luh noo-vel AHN | New Year | —
+- la galette des rois | lah gah-LET day RWAH | the kings' cake | —
+- la fève | lah FEV | the small charm hidden in the cake | —
+- la couronne | lah koo-RONN | the crown | —
+- la Chandeleur | lah shahn-duh-LUHR | Candlemas, the pancake day | —
+- une crêpe | ewn KREP | a crêpe, a thin pancake | —
+- Pâques | PAHK | Easter | —
+- la fête nationale | lah fet nah-syoh-NAHL | the national holiday | —
+- un défilé | uhn day-fee-LAY | a parade | —
+- un feu d'artifice | uhn fuh dar-tee-FEESS | a firework display | Plural: des feux d'artifice.
+- la Fête de la musique | lah fet duh lah mew-ZEEK | the music festival held across France | —
+- fêter | feh-TAY | to celebrate | —
+- un jour férié | uhn zhoor fay-RYAY | a public holiday | —
+- un repas de famille | uhn ruh-pah duh fah-MEE-y | a family meal | —
+- Joyeux Noël ! | zhwah-yuh noh-EL | Merry Christmas! | —
+- Bonne année ! | bonn ah-NAY | Happy New Year! | —
+- Bonnes fêtes ! | bonn FET | Happy holidays! | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-culture-holidays-and-festivals-ex001 | multiple-choice | Qu'est-ce qu'on fête le 14 juillet ? | ["la fête nationale","la Chandeleur","Pâques"] | ["la fête nationale"] | false | Le 14 juillet is the national holiday.
+- a2-culture-holidays-and-festivals-ex002 | multiple-choice | On mange la bûche à quelle occasion ? | ["à Noël","le 14 juillet","le 1er mai"] | ["à Noël"] | false | La bûche is a traditional Christmas cake.
+- a2-culture-holidays-and-festivals-ex003 | multiple-choice | C'est quand, la Fête de la musique ? | ["le 21 juin","le 1er mai","le 25 décembre"] | ["le 21 juin"] | false | La Fête de la musique is on 21 June.
+- a2-culture-holidays-and-festivals-ex004 | multiple-choice | Pour quelle fête mange-t-on des crêpes ? | ["la Chandeleur","la fête nationale","la Fête de la musique"] | ["la Chandeleur"] | false | Crêpes are the traditional food of la Chandeleur.
+- a2-culture-holidays-and-festivals-ex005 | multiple-choice | It's 1 January. What do you say? | ["Bonne année !","Joyeux Noël !","Bon voyage !"] | ["Bonne année !"] | false | Bonne année is the New Year greeting.
+- a2-culture-holidays-and-festivals-ex006 | multiple-choice | It's 25 December. What do you say? | ["Joyeux Noël !","Bonne année !","Bon anniversaire !"] | ["Joyeux Noël !"] | false | Joyeux Noël is the Christmas greeting.
+- a2-culture-holidays-and-festivals-ex007 | fill-in | Dans la galette des rois, il y a une ___. (the hidden charm) | — | ["fève"] | false | La fève is the small charm hidden in the cake.
+- a2-culture-holidays-and-festivals-ex008 | fill-in | La Fête des Lumières, c'est ___ Lyon. | — | ["à"] | true | Use à with a city.
+- a2-culture-holidays-and-festivals-ex009 | fill-in | Le 14 juillet, on regarde les feux d'___. | — | ["artifice"] | false | Des feux d'artifice are fireworks.
+- a2-culture-holidays-and-festivals-ex010 | fill-in | Quand j'étais enfant, on ___ une galette en janvier. (manger, imparfait) | — | ["mangeait"] | false | A repeated habit in the past takes the imparfait, and manger keeps its e before a.
+- a2-culture-holidays-and-festivals-ex011 | fill-in | L'année dernière, nous avons ___ le 14 juillet à Paris. (fêter) | — | ["fêté"] | true | The participle of fêter is fêté.
+- a2-culture-holidays-and-festivals-ex012 | reorder | Put the words in order: We give presents at Christmas. | — | ["On offre des cadeaux à Noël","À Noël on offre des cadeaux"] | false | On + offre, and à Noël can go at either end.
+
+## a2-review-final
+
+### Vocab
+
+fr | pron | en | note
+
+- faire des progrès | fehr day proh-GREH | to make progress | —
+- un objectif | uh-nob-zhek-TEEF | a goal | —
+- la suite | lah SWEET | what comes next | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- a2-review-final-ex001 | fill-in | Hier, Marie (a woman) ___ allée au marché. (être or avoir) | — | ["est"] | false | Aller takes être in the passé composé.
+- a2-review-final-ex002 | fill-in | Nous avons ___ le film. (voir) | — | ["vu"] | false | The participle of voir is vu.
+- a2-review-final-ex003 | multiple-choice | Choose the right form (a repeated habit): Quand j'étais petit, je ___ au foot tous les samedis. | ["jouais","ai joué","jouerai"] | ["jouais"] | false | Tous les samedis describes a habit in the past, so it's the imparfait.
+- a2-review-final-ex004 | multiple-choice | Your brother is a doctor. Mon frère ? ___ médecin. | ["Il est","C'est","Il a"] | ["Il est"] | false | With a job and no article, use il est.
+- a2-review-final-ex005 | fill-in | J'habite ici ___ trois ans. (and I still live here) | — | ["depuis"] | false | It's still going on, so use depuis with the present.
+- a2-review-final-ex006 | multiple-choice | Tu vois Paul ? Choose the pronoun: Oui, je ___ vois. | ["le","lui","y"] | ["le"] | false | Paul is the direct object of voir, so it's le.
+- a2-review-final-ex007 | fill-in | J'habite ___ France. | — | ["en"] | false | France is feminine, so it takes en.
+- a2-review-final-ex008 | fill-in | Paul a 30 ans, Marc a 40 ans. Paul est ___ âgé que Marc. | — | ["moins"] | false | Paul is younger, so he's less old than Marc.
+- a2-review-final-ex009 | translate | Build the command, speaking to a friend (tu), replacing le livre with a pronoun: Prends le livre. | — | ["Prends-le"] | false | In a positive command, the pronoun follows the verb with a hyphen.
+- a2-review-final-ex010 | translate | Write out this paragraph, filling each gap as shown: Hier, je (aller, passé composé; je: a man) à Lyon. Il (pleuvoir, imparfait). Cette ville est (more + beau; la ville: feminine) que Dijon. Demain, je (rentrer, futur simple). | — | ["Hier, je suis allé à Lyon. Il pleuvait. Cette ville est plus belle que Dijon. Demain, je rentrerai."] | true | Aller takes être, the imparfait sets the scene, belle agrees with ville, and rentrer takes -ai with je.
+- a2-review-final-ex011 | reorder | Put the words in order (the object is Paul): I didn't see him. | — | ["Je ne l'ai pas vu"] | false | The pronoun goes before the auxiliary, and ne…pas goes around them.
+- a2-review-final-ex012 | reorder | Put the words in order: I phoned her yesterday. | — | ["Je lui ai téléphoné hier","Hier je lui ai téléphoné"] | false | Téléphoner à takes an indirect pronoun, so there's no agreement.

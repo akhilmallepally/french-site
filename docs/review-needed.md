@@ -2,6 +2,13 @@
 
 Claims in written lessons that a fluent speaker or teacher should confirm. Each entry gives the lesson id and the exact claim as it appears (or is implied) in the lesson. Remove an entry once it's checked.
 
+## a1-greetings
+
+- **"There is no exact time to change, but most people switch somewhere around six or seven o'clock, or when it starts to get dark."** Confirm the time range for switching from *bonjour* to *bonsoir*.
+- **"French has no separate greeting for the afternoon: *bonjour* covers the whole day."** *Bon après-midi* exists, but as a goodbye. Confirm the wording is fair.
+- **"*Au revoir* … comes from *revoir*, 'to see again'."** Confirm.
+- **"In *bonjour* … the *n* isn't pronounced on its own: it changes the sound of the vowel before it. The last letters of *plaît* and *salut* are silent."** Simplified for beginners; confirm.
+
 ## a1-alphabet-and-accents
 
 - **"When a line is bad, French speakers often spell with names: *B comme Bernard, D comme Daniel*."** Confirm this is still common practice and that these example names are typical.
@@ -45,6 +52,11 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 - **"How many kisses depends on where you are: two is the most common, but some regions do three or even four."**
 - **"Once you've moved to *tu* with someone, you normally stay there."**
 - **"French people generally say *bonjour* to a given person once a day … People say *rebonjour* instead."**
+
+## a1-definite-articles
+
+- **"French avoids two vowel sounds bumping into each other. *Le ami* would be awkward to say, so the vowel of the article drops out."** A simplified explanation of elision; confirm it's acceptable.
+- **"With people, the gender usually matches the person … With things and ideas, there's no logic you can rely on."** Some endings do give clues; confirm this is acceptable at A1.
 
 ## a1-indefinite-articles
 
@@ -243,7 +255,7 @@ Claims in written lessons that a fluent speaker or teacher should confirm. Each 
 ## a2-numbers-years-ordinals
 
 - **"Numbers are written with a space or a point between thousands, never a comma."** Confirm.
-- **"For the 1900s, you have two [ways], and both are common."** / **"1900 itself is *mille neuf cents*."** Confirm. *Mil* is an older spelling for years and isn't taught.
+- **"For the 1900s, *mille neuf cent quatre-vingt-cinq* is the more usual form, and *dix-neuf cent quatre-vingt-cinq* also exists."** / **"1900 itself is *mille neuf cents*."** Confirm. *Mil* is an older spelling for years and isn't taught.
 - **"*Second* … exists and you'll see it, but *deuxième* is always a safe choice."**
 - Hyphens in numbers such as *deux cent trois* follow the traditional spelling. The 1990 reform hyphenates them all; the checker accepts both.
 - **"Ordinals go before the noun."** True of these examples. Confirm it's safe to state without exceptions (*François Ier*, *chapitre deux*).
@@ -314,13 +326,13 @@ Every agreement and no-agreement case in the lesson, for a human to verify:
 
 ## a2-imparfait-formation
 
-- **"Three endings of the six sound exactly alike: -ais, -ait and -aient."**
+- **"Four of the six forms sound the same: *je*, *tu*, *il* and *ils*, spelled *-ais*, *-ais*, *-ait* and *-aient*. … Only *nous* and *vous* (*-ions*, *-iez*) sound different."**
 - **"Only -ions and -iez can be heard as different."** Confirm, given that *parlions* and *parliez* are close to the present forms.
 - Respellings use EH for these endings (`par-LEH`), and `noo-zay-tew-dee-YOHN` for *nous étudiions*. Confirm.
 
 ## a2-childhood-memories
 
-- **"French memories nearly always start the same way."** A generalisation about *Quand j'étais petit(e)*.
+- **"French memories often start this way."** A generalisation about *Quand j'étais petit(e)*.
 - **"*Le maître / la maîtresse*"** given for a primary school teacher. Confirm it's natural alongside *le professeur des écoles*.
 
 ## a2-passe-compose-vs-imparfait
@@ -349,7 +361,7 @@ These vary by school or year, or need checking:
 
 ## a2-review-memories
 
-- **"Try putting 'and then' in front of the English sentence."** A rule of thumb in the tip.
+- **"Here's a rough guide, which works best for events … try putting 'and then' in front … A feeling or a state can still be imparfait even between two events: *j'avais peur*."** A rule of thumb in the tip.
 
 ## a2-jobs-and-workplace
 
@@ -381,7 +393,6 @@ These vary by school or year, or need checking:
 
 - **"*En train de* adds emphasis."** Confirm.
 - **"*À l'instant* fits naturally with *venir de*, and *en ce moment* fits naturally with the present or *en train de*."**
-- **"*Elle vient de sortir à l'instant*"** Confirm it isn't redundant.
 
 ## a2-phone-calls-and-messages
 
@@ -394,6 +405,7 @@ These vary by school or year, or need checking:
 
 - *Je sais parler anglais* appears in the model. *Je parle anglais* is more usual, so confirm it's natural here.
 - *Je connais bien Nantes* is used in the model. Confirm the position of *bien*.
+- *Mon salaire n'est pas très bon* and *je suis en train de rentrer* (glossed "I'm on my way home") are in the model. Confirm they're natural.
 
 ## a2-stressed-pronouns
 
@@ -482,6 +494,7 @@ Every agreement and no-agreement case, for a human to verify:
 - **"A bare *Non* or *Je ne veux pas* can sound rude."**
 - **"*Je ne peux pas* … sounds as if you'd have liked to come."**
 - *Voulez-vous venir dîner ?* Confirm it's natural formally.
+- The formal dialogue now has the guest say *merci pour l'invitation* with the refusal, and the host's *Peut-être une autre fois ?* answered by *Oui, avec plaisir.* Confirm it reads naturally.
 - *Ça te dit de…* as a register note: *Ça te dit* is informal, so it isn't for *vous*.
 
 ## a2-culture-francophone-world
@@ -498,6 +511,7 @@ Figure-like, official-status and geography claims to verify:
 
 ## a2-review-travel
 
+- *Voici mon itinéraire : Montréal, Trois-Rivières, Québec.* Here *Québec* is the city, after *un voyage au Québec* (the province) earlier in the model. Confirm the route reads clearly.
 - *Beaucoup de choses à voir* uses *à* + infinitive. Confirm it's fine here.
 - *L'été prochain* isn't taught as a set phrase, but it follows *la semaine prochaine*.
 
