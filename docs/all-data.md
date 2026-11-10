@@ -1,6 +1,6 @@
 # All lesson data
 
-108 written lessons, in course order.
+124 written lessons, in course order.
 
 ## a1-greetings
 
@@ -4109,3 +4109,638 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b1-ce-qui-ce-que-ex011 | translate | Rewrite this sentence with Ce que… c'est, to put le marché at the end: J'adore le marché. | — | ["Ce que j'adore, c'est le marché"] | false | Le marché is the object of adore, so it's ce que.
 - b1-ce-qui-ce-que-ex012 | translate | Write in French, to a friend: Everything you say is true. | — | ["Tout ce que tu dis est vrai"] | false | Tu is the subject of dis, so it's tout ce que.
 - b1-ce-qui-ce-que-ex013 | reorder | Put the words in order: What surprises me is the price. | — | ["Ce qui me surprend, c'est le prix"] | false | Ce qui is the subject of surprend, and c'est introduces the important part.
+
+## b1-relative-dont
+
+### Vocab
+
+fr | pron | en | note
+
+- dont | dohn | of which, about which, whose | —
+- rêver de | reh-VAY duh | to dream of | —
+- se souvenir de | suh soo-vuh-NEER duh | to remember | Like venir: je me souviens, nous nous souvenons.
+- s'occuper de | soh-kew-PAY duh | to look after, to deal with | —
+- se servir de | suh sehr-VEER duh | to use | Like partir: je me sers, nous nous servons.
+- manquer de | mahn-KAY duh | to lack, to be short of | —
+- se moquer de | suh moh-KAY duh | to make fun of | —
+- avoir honte de | ah-vwahr OHNT duh | to be ashamed of | —
+- être responsable de | eh-truh reh-spohn-SAH-bluh duh | to be in charge of | —
+- le rêve | luh REV | the dream | —
+- un outil | uh-noo-TEE | a tool | —
+- un projet | uhn proh-ZHEH | a project, a plan | —
+- une raison | ewn reh-ZOHN | a reason | —
+- une époque | ew-nay-POK | a period, a time | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-relative-dont-ex001 | fill-in | Fill in the gap: C'est le livre ___ j'ai besoin. | — | ["dont"] | false | Avoir besoin takes de, so the relative pronoun is dont.
+- b1-relative-dont-ex002 | multiple-choice | Choose the right word: C'est le film ___ je regarde. | ["que","dont","qui"] | ["que"] | false | Regarder takes a direct object, with no de, so it's que.
+- b1-relative-dont-ex003 | multiple-choice | Choose the right word: C'est le film ___ tu parles. | ["dont","que","qui"] | ["dont"] | false | Parler de takes de, so it's dont.
+- b1-relative-dont-ex004 | fill-in | Fill in the gap with se souvenir in the present: C'est une époque dont je me ___ bien. | — | ["souviens"] | false | Se souvenir works like venir: je me souviens.
+- b1-relative-dont-ex005 | fill-in | Fill in the gap with se servir in the present: Voici l'outil dont je me ___. | — | ["sers"] | false | Servir works like partir: je sers, so je me sers.
+- b1-relative-dont-ex006 | multiple-choice | Which sentence is correct? | ["C'est le livre dont j'ai besoin.","C'est le livre dont j'ai besoin de.","C'est le livre que j'ai besoin."] | ["C'est le livre dont j'ai besoin."] | false | Dont already contains the de, so you don't repeat it, and que can't replace de + a noun.
+- b1-relative-dont-ex007 | multiple-choice | What does this mean? l'ami dont le père est médecin | ["the friend whose father is a doctor","the friend who is a doctor","the father whose friend is a doctor"] | ["the friend whose father is a doctor"] | false | Dont + le père means 'whose father'.
+- b1-relative-dont-ex008 | fill-in | Fill in the gap (whose): J'ai une amie ___ le frère habite à Lyon. | — | ["dont"] | false | For 'whose', French uses dont + the article + the noun.
+- b1-relative-dont-ex009 | multiple-choice | Choose the right word: C'est la ville ___ je rêve. | ["dont","que","qui"] | ["dont"] | false | Rêver takes de, so it's dont.
+- b1-relative-dont-ex010 | translate | Join the two sentences with dont: C'est un projet. Je suis responsable de ce projet. | — | ["C'est un projet dont je suis responsable"] | false | Dont replaces de ce projet.
+- b1-relative-dont-ex011 | translate | Join the two sentences with dont: J'ai un ami. Le père de cet ami est médecin. | — | ["J'ai un ami dont le père est médecin"] | false | Dont replaces de cet ami, and le père stays in front of the verb.
+- b1-relative-dont-ex012 | translate | Write in French: It's the book I need. | — | ["C'est le livre dont j'ai besoin"] | false | Avoir besoin de, so dont.
+- b1-relative-dont-ex013 | reorder | Put the words in order: It's a time I remember well. | — | ["C'est une époque dont je me souviens bien"] | false | Dont comes straight after the noun, then the usual order: subject, verb.
+
+## b1-relationships
+
+### Vocab
+
+fr | pron | en | note
+
+- un ami proche / une amie proche | uh-nah-mee PROSH / ew-nah-mee PROSH | a close friend | —
+- l'amitié | lah-mee-TYAY | friendship | Feminine: une amitié.
+- se faire des amis | suh fehr day-zah-MEE | to make friends | —
+- s'entendre bien avec | sahn-tahn-druh BYAN ah-vek | to get on well with | —
+- faire confiance à | fehr kohn-FYAHNSS ah | to trust | —
+- la confiance | lah kohn-FYAHNSS | trust | —
+- l'amour | lah-MOOR | love | Masculine: un amour.
+- un couple | uhn KOO-pluh | a couple | —
+- être en couple | eh-truh ahn KOO-pluh | to be in a relationship | —
+- un / une célibataire | uhn / ewn say-lee-bah-TEHR | a single person | Also an adjective: je suis célibataire.
+- tomber amoureux / amoureuse de | tohn-bay ah-moo-RUH / ah-moo-RUHZ duh | to fall in love with | —
+- se marier (avec) | suh mah-RYAY (ah-VEK) | to get married (to) | —
+- le mariage | luh mah-RYAHZH | marriage, a wedding | —
+- se disputer (avec) | suh dees-pew-TAY (ah-VEK) | to argue (with) | —
+- une dispute | ewn dees-PEWT | an argument, a row | —
+- un conflit | uhn kohn-FLEE | a conflict | —
+- la jalousie | lah zhah-loo-ZEE | jealousy | —
+- se réconcilier | suh ray-kohn-see-LYAY | to make up | —
+- se séparer | suh say-pah-RAY | to separate, to split up | —
+- rompre (avec) | ROHN-pruh (ah-VEK) | to break up (with) | Je romps, il rompt. Passé composé: j'ai rompu.
+- divorcer | dee-vor-SAY | to get divorced | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-relationships-ex001 | multiple-choice | Which word means 'friendship'? | ["l'amitié","l'amour","la confiance"] | ["l'amitié"] | false | L'amitié is friendship. L'amour is love, and la confiance is trust.
+- b1-relationships-ex002 | fill-in | Fill in the gap: Je m'entends bien ___ mes collègues. | — | ["avec"] | false | S'entendre bien avec quelqu'un: to get on well with someone.
+- b1-relationships-ex003 | fill-in | Fill in the gap: Elle est tombée amoureuse ___ Paul. | — | ["de"] | false | French falls in love de someone, not 'with'.
+- b1-relationships-ex004 | multiple-choice | Choose the right form of the passé composé: Ils ___ mariés en juin. | ["se sont","ont","s'ont"] | ["se sont"] | false | Se marier is reflexive, so it takes être, and the pronoun se stays: ils se sont mariés.
+- b1-relationships-ex005 | fill-in | Fill in the gap with se disputer in the passé composé (Marc et Julie: a man and a woman): Marc et Julie se sont ___ hier. | — | ["disputés"] | true | With être, the participle agrees: a man and a woman together take the masculine plural, disputés.
+- b1-relationships-ex006 | multiple-choice | Your friends argued, and now they're friends again. What happened? | ["Ils se sont réconciliés.","Ils se sont séparés.","Ils ont divorcé."] | ["Ils se sont réconciliés."] | false | Se réconcilier means to make up after an argument.
+- b1-relationships-ex007 | fill-in | Fill in the gap with rompre in the passé composé: Il a ___ avec Anne. | — | ["rompu"] | false | The participle of rompre is rompu.
+- b1-relationships-ex008 | multiple-choice | Someone who isn't in a relationship is… | ["célibataire","en couple","marié"] | ["célibataire"] | false | Célibataire means single.
+- b1-relationships-ex009 | multiple-choice | Which verb means 'to break up'? | ["rompre","se réconcilier","se marier"] | ["rompre"] | false | Rompre (avec) is to break up (with). The other two are the opposite.
+- b1-relationships-ex010 | fill-in | Fill in the gap with se séparer in the passé composé (nous: two women): Nous nous sommes ___. | — | ["séparées"] | false | With être, the participle agrees: two women take -ées.
+- b1-relationships-ex011 | translate | Write in French: We get on well. | — | ["Nous nous entendons bien","On s'entend bien"] | false | S'entendre is reflexive: nous nous entendons, or on s'entend.
+- b1-relationships-ex012 | translate | Write in French: They have been a couple for two years. | — | ["Ils sont en couple depuis deux ans"] | false | Something still true takes the present with depuis.
+- b1-relationships-ex013 | translate | Write out this paragraph in the passé composé, filling each gap as shown (Paul et Léa: a man and a woman): Paul et Léa (se marier) en 2020. Ils (se disputer) une fois, mais ils (se réconcilier) le même jour. | — | ["Paul et Léa se sont mariés en 2020. Ils se sont disputés une fois, mais ils se sont réconciliés le même jour."] | true | All three verbs are reflexive, so they take être, and the participles agree in the masculine plural.
+- b1-relationships-ex014 | reorder | Put the words in order: She fell in love with my brother. | — | ["Elle est tombée amoureuse de mon frère"] | false | Tomber takes être, so tombée and amoureuse both agree with elle.
+
+## b1-review-opinions
+
+### Vocab
+
+fr | pron | en | note
+
+- un texte d'opinion | uhn tekst doh-pee-NYOHN | an opinion piece | —
+- un lecteur / une lectrice | uhn lek-TUHR / ewn lek-TREESS | a reader | —
+- réagir | ray-ah-ZHEER | to react | Like finir: je réagis, nous réagissons.
+- convaincre | kohn-VAN-kruh | to convince | Je convaincs, il convainc, nous convainquons.
+- convaincant / convaincante | kohn-van-KAHN / kohn-van-KAHNT | convincing | —
+- de plus | duh PLEWSS | moreover, what's more | —
+- par exemple | par eg-ZAHN-pluh | for example | —
+- en conclusion | ahn kohn-klew-ZYOHN | in conclusion | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-review-opinions-ex001 | multiple-choice | Which phrase introduces an example? | ["Par exemple","De plus","En conclusion"] | ["Par exemple"] | false | Par exemple introduces an example. De plus adds a reason, and en conclusion ends the piece.
+- b1-review-opinions-ex002 | multiple-choice | Which phrase adds a second reason? | ["De plus","Par exemple","En conclusion"] | ["De plus"] | false | De plus means 'moreover': it adds another reason.
+- b1-review-opinions-ex003 | fill-in | Fill in the gap: Je pense ___ l'amitié est très importante. | — | ["que"] | false | Penser needs que before a whole opinion.
+- b1-review-opinions-ex004 | fill-in | Fill in the gap (What): ___ compte en amitié, c'est la confiance. | — | ["Ce qui"] | false | Compte follows straight away, so it's ce qui.
+- b1-review-opinions-ex005 | fill-in | Fill in the gap: C'est l'amie ___ j'ai besoin quand ça ne va pas. | — | ["dont"] | false | Avoir besoin takes de, so it's dont.
+- b1-review-opinions-ex006 | multiple-choice | You want to tell a friend they're right. Choose the word: Tu as ___. | ["raison","tort","d'accord"] | ["raison"] | false | Avoir raison is to be right. Avoir tort is to be wrong, and d'accord goes with être.
+- b1-review-opinions-ex007 | fill-in | Fill in the gap with se réconcilier in the passé composé (ils: two men): Ils se sont ___ hier. | — | ["réconciliés"] | false | With être, the participle agrees with ils: réconciliés.
+- b1-review-opinions-ex008 | fill-in | Fill in the gap (convincing; ton texte: masculine): Ton texte est très ___. | — | ["convaincant"] | false | Convaincant agrees with texte, which is masculine.
+- b1-review-opinions-ex009 | fill-in | Fill in the gap with convaincre in the present: Tu ne me ___ pas ! | — | ["convaincs"] | false | Convaincre: je convaincs, tu convaincs, il convainc.
+- b1-review-opinions-ex010 | multiple-choice | Someone says « Je n'aime pas les textes d'opinion. » You do. What do you say? | ["Moi si.","Moi non plus.","Moi aussi."] | ["Moi si."] | false | Moi si contradicts a negative statement.
+- b1-review-opinions-ex011 | translate | Write in French, replying to a writer you call vous: I don't agree with you, but that's a fair point. | — | ["Je ne suis pas d'accord avec vous, mais ce n'est pas faux"] | false | Disagree with je ne suis pas d'accord, then concede with ce n'est pas faux.
+- b1-review-opinions-ex012 | translate | Write out this conclusion, filling each gap as shown: (In conclusion), (in my opinion) (what matters) en amitié, c'est la confiance. | — | ["En conclusion, à mon avis, ce qui compte en amitié, c'est la confiance."] | true | En conclusion, then an opinion marker, then ce qui… c'est to put the key word last.
+- b1-review-opinions-ex013 | translate | Write in French: For example, what I like is the market. | — | ["Par exemple, ce que j'aime, c'est le marché"] | false | J'aime has a subject, so it's ce que.
+- b1-review-opinions-ex014 | reorder | Put the words in order: What's more, I get on well with my colleagues. | — | ["De plus, je m'entends bien avec mes collègues"] | false | De plus starts the sentence, then the reflexive verb s'entendre.
+
+## b1-si-present-futur
+
+### Vocab
+
+fr | pron | en | note
+
+- si | see | if | A new meaning: you know si as 'yes' after a negative question.
+- s'il / s'ils | seel | if he, if it / if they | —
+- sinon | see-NOHN | otherwise, or else | —
+- rater | rah-TAY | to miss (a train, a bus) | —
+- prévoir | pray-VWAHR | to plan, to forecast | Like voir: je prévois, nous prévoyons. Participle: prévu.
+- reporter | ruh-por-TAY | to postpone | —
+- un imprévu | uh-nan-pray-VEW | something unexpected | —
+- un parapluie | uhn pah-rah-PLWEE | an umbrella | —
+- un bouchon | uhn boo-SHOHN | a traffic jam | —
+- à l'heure | ah LUHR | on time | —
+- en avance | ah-nah-VAHNSS | early | —
+- tant pis | tahn PEE | never mind, too bad | —
+- tant mieux | tahn MYUH | so much the better, good | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-si-present-futur-ex001 | fill-in | Fill in the gap with pleuvoir in the present: S'il ___, on restera à la maison. | — | ["pleut"] | false | After si, use the present: s'il pleut.
+- b1-si-present-futur-ex002 | multiple-choice | Choose the right form: Si tu viens, je ___ content. | ["serai","sera","serons"] | ["serai"] | false | The other half takes the futur, and je takes serai.
+- b1-si-present-futur-ex003 | multiple-choice | Which sentence is correct? | ["S'il fait beau, on ira à la plage.","Si il fait beau, on ira à la plage.","S'il fera beau, on ira à la plage."] | ["S'il fait beau, on ira à la plage."] | false | Si becomes s' before il, and the verb after si is in the present.
+- b1-si-present-futur-ex004 | fill-in | Fill in the gap with appeler in the imperative (vous): Si vous êtes en retard, ___-moi. | — | ["appelez"] | false | Si + present can be followed by a command: appelez-moi.
+- b1-si-present-futur-ex005 | fill-in | Fill in the gap with si, shortened if needed: ___ ils viennent, nous ferons un gâteau. | — | ["S'"] | false | Si becomes s' before ils, just as before il.
+- b1-si-present-futur-ex006 | fill-in | Fill in the gap (otherwise): Pars maintenant, ___ tu vas rater le train. | — | ["sinon"] | false | Sinon means 'otherwise'.
+- b1-si-present-futur-ex007 | multiple-choice | Something unexpected has come up. It's… | ["un imprévu","un parapluie","un bouchon"] | ["un imprévu"] | false | Un imprévu is something you didn't plan for.
+- b1-si-present-futur-ex008 | fill-in | Fill in the gap with reporter in the futur (on): S'il y a un imprévu, on ___ le dîner. | — | ["reportera"] | false | On takes the il form of the futur: reportera.
+- b1-si-present-futur-ex009 | multiple-choice | A friend can't come tonight. You don't mind much. What do you say? | ["Tant pis !","Tant mieux !","Sinon !"] | ["Tant pis !"] | false | Tant pis means 'never mind'. Tant mieux would mean you're glad.
+- b1-si-present-futur-ex010 | translate | Write in French: If it rains, we'll stay at home. | — | ["S'il pleut, nous resterons à la maison","S'il pleut, on restera à la maison","Nous resterons à la maison s'il pleut","On restera à la maison s'il pleut"] | true | Si + present, then the futur. Either half can come first.
+- b1-si-present-futur-ex011 | translate | Write in French, to a friend: If you're tired, rest. | — | ["Si tu es fatigué, repose-toi","Si tu es fatiguée, repose-toi"] | false | Si + present, then a command. Reposer is reflexive, so it's repose-toi.
+- b1-si-present-futur-ex012 | translate | Write out these plans, filling each gap as shown (on = we): S'il (faire, present) beau, on (aller, futur) à la plage. Si le train (être, present) en retard, on (prendre, futur) le bus. Sinon, on (arriver, futur) à l'heure. | — | ["S'il fait beau, on ira à la plage. Si le train est en retard, on prendra le bus. Sinon, on arrivera à l'heure."] | true | The present after si, the futur in the other half, and sinon for the other case.
+- b1-si-present-futur-ex013 | reorder | Put the words in order: If you leave now, you'll be early. | — | ["Si tu pars maintenant, tu seras en avance"] | false | Si + present first, then the futur.
+
+## b1-conditionnel-present
+
+### Vocab
+
+fr | pron | en | note
+
+- je parlerais / tu parlerais / il parlerait | zhuh par-luh-REH / tew par-luh-REH / eel par-luh-REH | I / you / he would speak | —
+- nous parlerions / vous parleriez / ils parleraient | noo par-luh-RYOHN / voo par-luh-RYAY / eel par-luh-REH | we / you / they would speak | —
+- je serais | zhuh suh-REH | I would be | —
+- j'aurais | zhoh-REH | I would have | —
+- j'irais | zhee-REH | I would go | —
+- je ferais | zhuh fuh-REH | I would do, I would make | —
+- il pourrait | eel poo-REH | he could, he might | —
+- je devrais / tu devrais | zhuh duh-VREH / tew duh-VREH | I / you should | —
+- je saurais | zhuh soh-REH | I would know | —
+- je viendrais | zhuh vyan-DREH | I would come | —
+- il faudrait | eel foh-DREH | we'd need to, someone should | —
+- j'aimerais | zheh-muh-REH | I'd like | —
+- je préférerais | zhuh pray-fay-ruh-REH | I'd prefer, I'd rather | —
+- ce serait | suh suh-REH | it would be | —
+- possible | poh-SEE-bluh | possible | —
+- selon | suh-LOHN | according to | —
+- il paraît que | eel pah-reh KUH | apparently, it seems that | —
+- apparemment | ah-pah-rah-MAHN | apparently | —
+- un / une ministre | uhn / ewn mee-NEES-truh | a minister | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-conditionnel-present-ex001 | fill-in | Fill in the gap with vouloir in the conditionnel: Je ___ un café, s'il vous plaît. | — | ["voudrais"] | false | Vouloir has the stem voudr-, plus -ais.
+- b1-conditionnel-present-ex002 | fill-in | Fill in the gap with aimer in the conditionnel: Nous ___ partir en mai. | — | ["aimerions"] | false | The stem aimer- plus the nous ending -ions.
+- b1-conditionnel-present-ex003 | fill-in | Fill in the gap with pouvoir in the conditionnel: Tu ___ m'aider ? | — | ["pourrais"] | false | Pouvoir has the stem pourr-, with two r's.
+- b1-conditionnel-present-ex004 | fill-in | Fill in the gap with être in the conditionnel: Ce ___ possible ? | — | ["serait"] | false | Être has the stem ser-, and ce takes the il ending -ait.
+- b1-conditionnel-present-ex005 | multiple-choice | Which ending does the conditionnel use with ils? | ["-aient","-ont","-ez"] | ["-aient"] | false | The conditionnel uses the imparfait endings, so ils takes -aient. -ont is the futur ending.
+- b1-conditionnel-present-ex006 | multiple-choice | Choose the form that means 'I would go': Avec plus de temps, j'___ à Lyon. | ["irais","irai","allais"] | ["irais"] | false | Irais is the conditionnel (would go). Irai is the futur (will go), and allais is the imparfait (was going).
+- b1-conditionnel-present-ex007 | multiple-choice | Which sentence reports news that isn't confirmed? | ["Selon Paul, le restaurant serait fermé.","Le restaurant est fermé.","Le restaurant sera fermé."] | ["Selon Paul, le restaurant serait fermé."] | false | Selon + the conditionnel presents something you've heard but can't confirm.
+- b1-conditionnel-present-ex008 | fill-in | Fill in the gap with falloir in the conditionnel: Il ___ partir tôt. | — | ["faudrait"] | false | Falloir has the stem faudr-: il faudrait.
+- b1-conditionnel-present-ex009 | multiple-choice | Which one is the futur, not the conditionnel? | ["je parlerai","je parlerais","il parlerait"] | ["je parlerai"] | false | The futur ends in -ai with je. The conditionnel ends in -ais or -ait.
+- b1-conditionnel-present-ex010 | translate | Write in French: I would like to leave in May. | — | ["J'aimerais partir en mai","Je voudrais partir en mai"] | false | J'aimerais or je voudrais, then the infinitive.
+- b1-conditionnel-present-ex011 | translate | Rewrite this request politely, with pouvoir in the conditionnel: Vous pouvez répéter ? | — | ["Vous pourriez répéter ?","Pourriez-vous répéter ?"] | false | Pouvez becomes pourriez, which softens the request.
+- b1-conditionnel-present-ex012 | translate | Rewrite this sentence politely, with vouloir in the conditionnel: Je veux une chambre pour deux nuits. | — | ["Je voudrais une chambre pour deux nuits"] | false | Je veux sounds demanding. Je voudrais is the polite form.
+- b1-conditionnel-present-ex013 | reorder | Put the words in order: It would be a good idea. | — | ["Ce serait une bonne idée"] | false | Ce serait: it would be.
+
+## b1-si-imparfait-conditionnel
+
+### Vocab
+
+fr | pron | en | note
+
+- gagner au loto | gah-nyay oh loh-TOH | to win the lottery | —
+- riche | reesh | rich | —
+- la célébrité | lah say-lay-bree-TAY | fame | —
+- au bord de la mer | oh bor duh lah MEHR | by the sea | —
+- avoir le temps | ah-vwahr luh TAHN | to have time | —
+- changer de vie | shahn-zhay duh VEE | to change your life | —
+- déménager | day-may-nah-ZHAY | to move house | —
+- imaginer | ee-mah-zhee-NAY | to imagine | —
+- supposer | sew-poh-ZAY | to suppose | —
+- un superpouvoir | uhn sew-pehr-poo-VWAHR | a superpower | —
+- invisible | an-vee-ZEE-bluh | invisible | —
+- voler | voh-LAY | to fly | —
+- si j'étais toi | see zhay-teh TWAH | if I were you | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-si-imparfait-conditionnel-ex001 | fill-in | Fill in the gap with avoir in the imparfait: Si j'___ le temps, je voyagerais. | — | ["avais"] | false | After si, an imagined situation takes the imparfait.
+- b1-si-imparfait-conditionnel-ex002 | fill-in | Fill in the gap with faire in the conditionnel: Si tu gagnais au loto, qu'est-ce que tu ___ ? | — | ["ferais"] | false | The result of an imagined situation takes the conditionnel.
+- b1-si-imparfait-conditionnel-ex003 | multiple-choice | Which sentence is correct? | ["Si j'étais riche, j'achèterais une maison.","Si je serais riche, j'achèterais une maison.","Si j'étais riche, j'achèterai une maison."] | ["Si j'étais riche, j'achèterais une maison."] | false | Imparfait after si, conditionnel in the other half.
+- b1-si-imparfait-conditionnel-ex004 | multiple-choice | Which sentence talks about a real possibility? | ["S'il fait beau demain, on ira à la plage.","S'il faisait beau, on irait à la plage.","Si j'étais toi, j'irais à la plage."] | ["S'il fait beau demain, on ira à la plage."] | false | Si + present and the futur are for things that may really happen.
+- b1-si-imparfait-conditionnel-ex005 | fill-in | Fill in the gap with habiter in the conditionnel: Nous ___ au bord de la mer si nous étions riches. | — | ["habiterions"] | false | The stem habiter- plus -ions.
+- b1-si-imparfait-conditionnel-ex006 | fill-in | Fill in the gap with avoir in the imparfait: S'ils ___ plus de temps, ils viendraient. | — | ["avaient"] | false | Ils avaient, in the imparfait after si.
+- b1-si-imparfait-conditionnel-ex007 | multiple-choice | Choose the form that means 'I would stay': Si j'étais toi, je ___ à la maison. | ["resterais","resterai","restais"] | ["resterais"] | false | Resterais is the conditionnel. Resterai is the futur, and restais is the imparfait.
+- b1-si-imparfait-conditionnel-ex008 | fill-in | Fill in the gap with pouvoir in the imparfait: Si elle ___ voler, elle viendrait au travail en cinq minutes. | — | ["pouvait"] | false | Elle pouvait, in the imparfait after si.
+- b1-si-imparfait-conditionnel-ex009 | multiple-choice | Which verb means 'to move house'? | ["déménager","voler","imaginer"] | ["déménager"] | false | Déménager means to move to a new home.
+- b1-si-imparfait-conditionnel-ex010 | translate | Write in French: If I had time, I would travel. | — | ["Si j'avais le temps, je voyagerais","Je voyagerais si j'avais le temps"] | false | Si + imparfait, then the conditionnel. Either half can come first.
+- b1-si-imparfait-conditionnel-ex011 | translate | Write in French, to a friend: What would you do if you were invisible? | — | ["Qu'est-ce que tu ferais si tu étais invisible ?","Que ferais-tu si tu étais invisible ?"] | false | The conditionnel ferais, then si + the imparfait étais.
+- b1-si-imparfait-conditionnel-ex012 | translate | Write out these sentences, filling each gap as shown: Si j'(être, imparfait) riche, j'(acheter, conditionnel) une maison au bord de la mer. Si j'(avoir, imparfait) un superpouvoir, je (voler, conditionnel). Si j'(être, imparfait) toi, je (changer, conditionnel) de vie. | — | ["Si j'étais riche, j'achèterais une maison au bord de la mer. Si j'avais un superpouvoir, je volerais. Si j'étais toi, je changerais de vie."] | false | Each sentence pairs si + the imparfait with the conditionnel.
+- b1-si-imparfait-conditionnel-ex013 | reorder | Put the words in order: If I were you, I would move house. | — | ["Si j'étais toi, je déménagerais"] | false | Si j'étais toi, then the conditionnel.
+
+## b1-giving-advice
+
+### Vocab
+
+fr | pron | en | note
+
+- tu devrais / vous devriez | tew duh-VREH / voo duh-vree-YAY | you should | —
+- à ta place / à votre place | ah tah PLASS / ah voh-truh PLASS | if I were you, in your place | —
+- ce serait une bonne idée de | suh suh-reh ewn bonn ee-DAY duh | it would be a good idea to | —
+- je te conseille de / je vous conseille de | zhuh tuh kohn-SEH-y duh / zhuh voo kohn-SEH-y duh | I advise you to | —
+- il vaudrait mieux | eel voh-dreh MYUH | it would be better to | Followed by an infinitive.
+- n'hésite pas à / n'hésitez pas à | nay-zeet pah ZAH / nay-zee-tay pah ZAH | don't hesitate to, feel free to | —
+- ne pas + infinitive | nuh PAH | not to (essaie de ne pas oublier: try not to forget) | —
+- conseiller | kohn-seh-YAY | to advise | —
+- un conseil | uhn kohn-SEH-y | a piece of advice | Countable: des conseils (some advice).
+- demander conseil à | duh-mahn-day kohn-SEH-y ah | to ask (someone) for advice | —
+- suivre un conseil | swee-vruh uhn kohn-SEH-y | to follow a piece of advice | Je suis, tu suis, il suit, nous suivons.
+- une solution | ewn soh-lew-SYOHN | a solution | —
+- Je vais essayer. | zhuh veh zeh-seh-YAY | I'll try. | —
+- le stress | luh STRESS | stress | —
+- se détendre | suh day-TAHN-druh | to relax | —
+- le sommeil | luh soh-MEH-y | sleep | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-giving-advice-ex001 | fill-in | Fill in the gap with devoir in the conditionnel: Tu ___ dormir plus. | — | ["devrais"] | false | Tu devrais (you should) + infinitive.
+- b1-giving-advice-ex002 | fill-in | Fill in the gap with devoir in the conditionnel: Vous ___ parler à votre médecin. | — | ["devriez"] | false | With vous, it's vous devriez.
+- b1-giving-advice-ex003 | fill-in | Fill in the gap (in your place): À ta ___, je partirais. | — | ["place"] | false | À ta place, then the conditionnel.
+- b1-giving-advice-ex004 | multiple-choice | You're advising someone you call vous. Which sentence fits? | ["Je vous conseille de vous reposer.","Repose-toi !","Je te conseille de te reposer."] | ["Je vous conseille de vous reposer."] | false | With vous, keep vous all the way through: je vous conseille de vous reposer.
+- b1-giving-advice-ex005 | fill-in | Fill in the gap: Je te conseille ___ ne pas boire de café le soir. | — | ["de"] | false | Conseiller takes de before the infinitive.
+- b1-giving-advice-ex006 | multiple-choice | Which sentence is correct? | ["Essaie de ne pas oublier.","Essaie de pas oublier.","Essaie de ne oublier pas."] | ["Essaie de ne pas oublier."] | false | With an infinitive, ne and pas go together, before the verb.
+- b1-giving-advice-ex007 | fill-in | Fill in the gap with valoir in the conditionnel: Il ___ mieux partir tôt. | — | ["vaudrait"] | false | Il vaudrait mieux + infinitive: it would be better to.
+- b1-giving-advice-ex008 | multiple-choice | A friend gives you advice you like. What do you say? | ["Bonne idée, je vais essayer.","Tu as tort.","Pas du tout."] | ["Bonne idée, je vais essayer."] | false | Je vais essayer accepts the advice.
+- b1-giving-advice-ex009 | fill-in | Fill in the gap: N'hésite pas ___ m'appeler. | — | ["à"] | true | Hésiter takes à before an infinitive.
+- b1-giving-advice-ex010 | translate | Write in French, to a friend: If I were you, I would sleep more. | — | ["Si j'étais toi, je dormirais plus","À ta place, je dormirais plus"] | true | Si j'étais toi or à ta place, then the conditionnel.
+- b1-giving-advice-ex011 | translate | Write in French, to a friend: Try not to forget your keys. | — | ["Essaie de ne pas oublier tes clés"] | false | Essayer de, then ne pas together before the infinitive.
+- b1-giving-advice-ex012 | translate | Write out this reply to someone you call vous, filling each gap as shown: (You should) parler à votre directeur. (In your place), je (ne pas travailler, conditionnel) le soir. (I advise you) de faire du sport. | — | ["Vous devriez parler à votre directeur. À votre place, je ne travaillerais pas le soir. Je vous conseille de faire du sport."] | true | Vous devriez, à votre place + conditionnel, and je vous conseille de + infinitive.
+- b1-giving-advice-ex013 | reorder | Put the words in order: It would be better to rest. | — | ["Il vaudrait mieux se reposer"] | false | Il vaudrait mieux + infinitive.
+
+## b1-dreams-and-ambitions
+
+### Vocab
+
+fr | pron | en | note
+
+- avoir l'intention de | ah-vwahr lan-tahn-SYOHN duh | to intend to | —
+- compter + infinitive | kohn-TAY | to plan to, to intend to | —
+- un but | uhn BEWT | a goal, an aim | Mon but est de… (My aim is to…)
+- une ambition | ew-nahn-bee-SYOHN | an ambition | —
+- espérer | ess-pay-RAY | to hope | J'espère, nous espérons.
+- motivé / motivée | moh-tee-VAY | motivated | —
+- réaliser un rêve | ray-ah-lee-zay uhn REV | to make a dream come true | —
+- dans l'idéal | dahn lee-day-AHL | ideally | —
+- idéal / idéale | ee-day-AHL | ideal | —
+- l'avenir | lahv-NEER | the future | Masculine: un bel avenir.
+- à l'avenir | ah lahv-NEER | in future | —
+- une carrière | ewn kah-RYEHR | a career | —
+- créer | kray-AY | to create | —
+- monter sa propre entreprise | mohn-tay sah proh-prahn-truh-PREEZ | to set up your own business | —
+- faire du bénévolat | fehr dew bay-nay-voh-LAH | to do voluntary work | —
+- la retraite | lah ruh-TRET | retirement | —
+- prendre sa retraite | prahn-druh sah ruh-TRET | to retire | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-dreams-and-ambitions-ex001 | multiple-choice | Which sentence is the most certain plan? | ["Je vais partir en juin.","J'aimerais partir en juin.","Si je pouvais, je partirais en juin."] | ["Je vais partir en juin."] | false | Aller + infinitive is a firm plan. The other two are wishes.
+- b1-dreams-and-ambitions-ex002 | fill-in | Fill in the gap: J'ai l'intention ___ changer de travail. | — | ["de"] | false | Avoir l'intention de + infinitive.
+- b1-dreams-and-ambitions-ex003 | fill-in | Fill in the gap with compter in the present: Je ___ ouvrir un café. | — | ["compte"] | false | Compter + infinitive, with no preposition: je compte ouvrir.
+- b1-dreams-and-ambitions-ex004 | fill-in | Fill in the gap with venir in the futur: J'espère que tu ___ à ma fête. | — | ["viendras"] | false | Espérer que takes the indicative, often the futur: tu viendras.
+- b1-dreams-and-ambitions-ex005 | multiple-choice | Choose the form that means 'I would live': Dans l'idéal, j'___ au bord de la mer. | ["habiterais","habiterai","habite"] | ["habiterais"] | false | Dans l'idéal describes a dream, so it takes the conditionnel.
+- b1-dreams-and-ambitions-ex006 | fill-in | Fill in the gap (aim): Mon ___ est de prendre ma retraite à soixante ans. | — | ["but"] | false | Mon but est de + infinitive: my aim is to.
+- b1-dreams-and-ambitions-ex007 | multiple-choice | Which phrase means 'to retire'? | ["prendre sa retraite","faire du bénévolat","monter sa propre entreprise"] | ["prendre sa retraite"] | false | Prendre sa retraite means to stop working at the end of your career.
+- b1-dreams-and-ambitions-ex008 | fill-in | Fill in the gap: Il rêve ___ créer son entreprise. | — | ["de"] | false | Rêver de + infinitive.
+- b1-dreams-and-ambitions-ex009 | multiple-choice | Someone who really wants to succeed is… | ["motivé","célibataire","invisible"] | ["motivé"] | false | Motivé means motivated.
+- b1-dreams-and-ambitions-ex010 | translate | Write in French: I intend to live abroad. | — | ["J'ai l'intention d'habiter à l'étranger"] | true | Avoir l'intention de, with d' before the vowel of habiter.
+- b1-dreams-and-ambitions-ex011 | translate | Write in French, to a friend: I hope you'll come. | — | ["J'espère que tu viendras"] | false | Espérer que + the futur.
+- b1-dreams-and-ambitions-ex012 | translate | Write out this paragraph about an ideal life, filling each gap as shown: (Ideally), j'(habiter, conditionnel) à Lyon. Je (compter, present) ouvrir un café. Si je (pouvoir, imparfait), je (faire, conditionnel) du bénévolat. | — | ["Dans l'idéal, j'habiterais à Lyon. Je compte ouvrir un café. Si je pouvais, je ferais du bénévolat."] | true | Dans l'idéal and si + imparfait take the conditionnel. Compter is a real plan, in the present.
+- b1-dreams-and-ambitions-ex013 | reorder | Put the words in order: In future, I'll work less. | — | ["À l'avenir, je travaillerai moins"] | false | À l'avenir with the futur: a real intention.
+
+## b1-review-hypotheses
+
+### Vocab
+
+fr | pron | en | note
+
+- un choix | uhn SHWAH | a choice | —
+- hésiter | ay-zee-TAY | to hesitate | Hésiter entre… et…: to be torn between… and…
+- prendre une décision | prahn-druh ewn day-see-ZYOHN | to make a decision | —
+- peser le pour et le contre | puh-zay luh poor ay luh KOHN-truh | to weigh up the pros and cons | —
+- changer d'avis | shahn-zhay dah-VEE | to change your mind | —
+- réfléchir | ray-flay-SHEER | to think it over | Like finir: je réfléchis, nous réfléchissons.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-review-hypotheses-ex001 | fill-in | Fill in the gap with pleuvoir in the present: S'il ___ demain, on ira au musée. | — | ["pleut"] | false | A real possibility: si + present, then the futur.
+- b1-review-hypotheses-ex002 | fill-in | Fill in the gap with être in the imparfait: Si j'___ riche, je voyagerais. | — | ["étais"] | false | An imagined situation: si + imparfait, then the conditionnel.
+- b1-review-hypotheses-ex003 | multiple-choice | Which sentence is correct? | ["Si tu viens, je serai content.","Si tu viendras, je serai content.","Si tu venais, je serai content."] | ["Si tu viens, je serai content."] | false | Si + present goes with the futur. Si + imparfait would need the conditionnel.
+- b1-review-hypotheses-ex004 | fill-in | Fill in the gap with devoir in the conditionnel: Tu ___ réfléchir un peu. | — | ["devrais"] | false | Tu devrais + infinitive gives advice.
+- b1-review-hypotheses-ex005 | fill-in | Fill in the gap with aimer in the conditionnel: J'___ changer de métier. | — | ["aimerais"] | false | J'aimerais + infinitive: I'd like to.
+- b1-review-hypotheses-ex006 | multiple-choice | Which verb means 'to hesitate'? | ["hésiter","réfléchir","déménager"] | ["hésiter"] | false | Hésiter means to hesitate. Réfléchir means to think it over.
+- b1-review-hypotheses-ex007 | fill-in | Fill in the gap: Je te conseille de ___ pas partir. | — | ["ne"] | false | With an infinitive, ne pas goes together before the verb.
+- b1-review-hypotheses-ex008 | multiple-choice | Which sentence reports something that isn't confirmed? | ["Selon Paul, le magasin serait fermé.","Le magasin est fermé.","Le magasin sera fermé."] | ["Selon Paul, le magasin serait fermé."] | false | Selon + the conditionnel passes on news you can't confirm.
+- b1-review-hypotheses-ex009 | fill-in | Fill in the gap with venir in the futur: J'espère que tu ___ ! | — | ["viendras"] | false | Espérer que + the futur.
+- b1-review-hypotheses-ex010 | fill-in | Fill in the gap (cons): Il faut peser le pour et le ___. | — | ["contre"] | false | Peser le pour et le contre: to weigh up the pros and cons.
+- b1-review-hypotheses-ex011 | translate | Write in French, to a friend: If I were you, I would take the job in Lyon. | — | ["Si j'étais toi, je prendrais le travail à Lyon","À ta place, je prendrais le travail à Lyon"] | true | Si j'étais toi or à ta place, then the conditionnel.
+- b1-review-hypotheses-ex012 | translate | Write out this forum answer, filling each gap as shown: Si je (pouvoir, imparfait) changer de métier, je (devenir, conditionnel) professeur. Si j'(avoir, imparfait) plus de temps, j'(apprendre, conditionnel) le piano. | — | ["Si je pouvais changer de métier, je deviendrais professeur. Si j'avais plus de temps, j'apprendrais le piano."] | false | Si + imparfait in each condition, the conditionnel in each result.
+- b1-review-hypotheses-ex013 | translate | Write in French, to someone you call vous: You should weigh up the pros and cons. | — | ["Vous devriez peser le pour et le contre"] | false | Vous devriez + infinitive.
+- b1-review-hypotheses-ex014 | reorder | Put the words in order: If it rains, we'll stay at home. | — | ["S'il pleut, nous resterons à la maison"] | false | Si + present, then the futur.
+
+## b1-plus-que-parfait
+
+### Vocab
+
+fr | pron | en | note
+
+- j'avais + participle | zhah-VEH | I had (done) | J'avais, tu avais, il avait, nous avions, vous aviez, ils avaient.
+- j'étais + participle | zhay-TEH | I had (gone, arrived…) | For the verbs that take être in the passé composé.
+- je m'étais + participle | zhuh may-TEH | I had (got up, washed…) | For reflexive verbs.
+- le réveil | luh ray-VEH-y | the alarm clock | —
+- un oubli | uh-noo-BLEE | an oversight, something forgotten | —
+- trop tard | troh TAR | too late | —
+- plus tôt | plew TOH | earlier | —
+- auparavant | oh-pah-rah-VAHN | before, previously | —
+- le contrôleur / la contrôleuse | luh kohn-troh-LUHR / lah kohn-troh-LUHZ | the ticket inspector | —
+- fermer à clé | fehr-may ah KLAY | to lock | —
+- se rendre compte que | suh rahn-druh KOHNT kuh | to realize that | Passé composé: je me suis rendu compte (rendu doesn't agree).
+- s'apercevoir que | sah-pehr-suh-VWAHR kuh | to notice that | Je m'aperçois, nous nous apercevons. Participle: aperçu.
+- disparaître | dees-pah-RET-ruh | to disappear | Like connaître: il disparaît. Participle: disparu.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-plus-que-parfait-ex001 | fill-in | Fill in the gap with avoir in the imparfait: Quand je suis arrivé, le film ___ déjà commencé. | — | ["avait"] | false | The film started before you arrived, so it's the plus-que-parfait: avait commencé.
+- b1-plus-que-parfait-ex002 | fill-in | Fill in the gap with avoir in the imparfait: Elle était fatiguée parce qu'elle n'___ pas dormi. | — | ["avait"] | false | Not sleeping came before being tired: elle n'avait pas dormi.
+- b1-plus-que-parfait-ex003 | multiple-choice | Choose the auxiliary that makes this the plus-que-parfait: Nous ___ partis avant la fin. | ["étions","avions","sommes"] | ["étions"] | false | Partir takes être, and the plus-que-parfait uses its imparfait: nous étions partis. Sommes would make it the passé composé.
+- b1-plus-que-parfait-ex004 | fill-in | Fill in the gap with se lever in the plus-que-parfait (je: a man): Je ___ levé à six heures. | — | ["m'étais"] | false | Reflexive verbs take être: je m'étais levé.
+- b1-plus-que-parfait-ex005 | multiple-choice | Which sentence says the train left before you arrived? | ["Quand je suis arrivé, le train était parti.","Quand je suis arrivé, le train est parti.","Quand j'arrivais, le train partait."] | ["Quand je suis arrivé, le train était parti."] | false | Était parti puts the train's departure before your arrival. Est parti means it left as you arrived.
+- b1-plus-que-parfait-ex006 | fill-in | Fill in the gap with oublier (les clés: feminine plural): Les clés que j'avais ___ étaient dans la voiture. | — | ["oubliées"] | false | Que stands for les clés, a direct object before the verb, so the participle agrees: oubliées.
+- b1-plus-que-parfait-ex007 | fill-in | Fill in the gap (not yet): Ils n'avaient ___ mangé. | — | ["pas encore"] | false | Pas encore goes between the auxiliary and the participle.
+- b1-plus-que-parfait-ex008 | multiple-choice | Which phrase means 'too late'? | ["trop tard","plus tôt","auparavant"] | ["trop tard"] | false | Trop tard is too late. Plus tôt is earlier, and auparavant means before.
+- b1-plus-que-parfait-ex009 | fill-in | Fill in the gap: Je me suis rendu compte ___ j'avais oublié mon billet. | — | ["que"] | false | Se rendre compte que + an ordinary sentence.
+- b1-plus-que-parfait-ex010 | translate | Write in French: When I arrived, the film had already started. | — | ["Quand je suis arrivé, le film avait déjà commencé","Quand je suis arrivée, le film avait déjà commencé"] | false | Your arrival is in the passé composé. The film started before it, so it takes the plus-que-parfait.
+- b1-plus-que-parfait-ex011 | translate | Rewrite as one sentence joined with parce que, with the earlier action in the plus-que-parfait: Elle était triste. Elle a perdu son sac. | — | ["Elle était triste parce qu'elle avait perdu son sac"] | false | Losing the bag came first, so a perdu becomes avait perdu.
+- b1-plus-que-parfait-ex012 | translate | Write out this story, filling each gap as shown (je: a woman): Quand je (arriver, passé composé) à la gare, le train (partir, plus-que-parfait). Je (se rendre compte, passé composé) que j'(oublier, plus-que-parfait) mon billet. | — | ["Quand je suis arrivée à la gare, le train était parti. Je me suis rendu compte que j'avais oublié mon billet."] | true | Arriving and realizing are the events. The train leaving and forgetting the ticket came before them.
+- b1-plus-que-parfait-ex013 | reorder | Put the words in order: I had already eaten. | — | ["J'avais déjà mangé"] | false | Déjà goes between the auxiliary and the participle.
+
+## b1-time-connectors
+
+### Vocab
+
+fr | pron | en | note
+
+- lorsque | LORSS-kuh | when (more formal) | Lorsqu' before a vowel: lorsqu'il.
+- pendant que | pahn-dahn KUH | while | —
+- au moment où | oh moh-mahn OO | just as, at the moment when | —
+- dès que | deh KUH | as soon as | —
+- aussitôt que | oh-see-toh KUH | as soon as | —
+- avant de + infinitive | ah-vahn DUH | before …ing | —
+- après avoir + participle | ah-preh-zah-VWAHR | after …ing | A fixed phrase for now: après avoir mangé (after eating).
+- jusqu'à | zhewss-KAH | until | —
+- à partir de | ah par-teer DUH | from (a time onwards) | —
+- aussitôt | oh-see-TOH | immediately, straight away | —
+- entre-temps | ahn-truh-TAHN | in the meantime | —
+- finalement | fee-nahl-MAHN | in the end, finally | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-time-connectors-ex001 | fill-in | Fill in the gap (while): Je lisais ___ mon frère regardait la télé. | — | ["pendant que"] | false | Pendant que links two actions happening at the same time.
+- b1-time-connectors-ex002 | fill-in | Fill in the gap (As soon as): ___ j'arriverai, je t'appellerai. | — | ["Dès que"] | true | Dès que, with the futur because it's about the future.
+- b1-time-connectors-ex003 | multiple-choice | Choose the right form, about the future: Dès que tu ___ à Paris, tu m'appelleras. | ["arriveras","arrivais","es arrivé"] | ["arriveras"] | false | When the main verb is in the futur, dès que takes the futur too.
+- b1-time-connectors-ex004 | fill-in | Fill in the gap: Lave-toi les mains avant ___ manger. | — | ["de"] | false | Avant de + infinitive.
+- b1-time-connectors-ex005 | multiple-choice | Which sentence is correct? | ["Avant de partir, j'ai fermé la porte.","Avant partir, j'ai fermé la porte.","Avant de je pars, j'ai fermé la porte."] | ["Avant de partir, j'ai fermé la porte."] | false | Avant needs de before an infinitive.
+- b1-time-connectors-ex006 | fill-in | Fill in the gap (until): Le magasin est ouvert ___ 19 heures. | — | ["jusqu'à"] | true | Jusqu'à + a time: until.
+- b1-time-connectors-ex007 | fill-in | Fill in the gap (From): ___ lundi, je travaille à Lyon. | — | ["À partir de"] | true | À partir de + a time: from then onwards.
+- b1-time-connectors-ex008 | multiple-choice | Which word means 'when' but sounds more formal than quand? | ["lorsque","pendant que","dès que"] | ["lorsque"] | false | Lorsque means the same as quand, in a more formal style.
+- b1-time-connectors-ex009 | multiple-choice | Choose the connector (just as): ___ je suis sorti, il a commencé à pleuvoir. | ["Au moment où","Pendant que","Avant de"] | ["Au moment où"] | false | Au moment où marks the exact moment something happened.
+- b1-time-connectors-ex010 | translate | Write in French, to a friend: As soon as I get home, I'll call you. | — | ["Dès que je rentrerai, je t'appellerai","Dès que j'arriverai à la maison, je t'appellerai","Aussitôt que je rentrerai, je t'appellerai"] | true | Both verbs are in the futur, because both actions are in the future.
+- b1-time-connectors-ex011 | translate | Join the two sentences with avant de: Je prends mon petit-déjeuner. Ensuite, je pars. | — | ["Je prends mon petit-déjeuner avant de partir","Avant de partir, je prends mon petit-déjeuner"] | false | Same subject in both, so avant de + the infinitive partir.
+- b1-time-connectors-ex012 | translate | Join the two sentences with dès que, keeping the passé composé (je: a man): Je suis arrivé. J'ai appelé Marie. | — | ["Dès que je suis arrivé, j'ai appelé Marie","J'ai appelé Marie dès que je suis arrivé"] | true | In the past, both halves stay in the passé composé.
+- b1-time-connectors-ex013 | reorder | Put the words in order: After eating, we went out. | — | ["Après avoir mangé, nous sommes sortis"] | false | Après avoir + participle, used here as a fixed phrase.
+
+## b1-telling-an-anecdote
+
+### Vocab
+
+fr | pron | en | note
+
+- une anecdote | ew-nahn-ek-DOT | an anecdote, a funny or surprising story | —
+- raconter | rah-kohn-TAY | to tell (a story) | —
+- figure-toi que / figurez-vous que | fee-gewr-TWAH kuh / fee-gew-ray-VOO kuh | guess what, believe it or not | —
+- et là | ay LAH | and then, at that point | —
+- bref | bref | anyway, in short | —
+- au final | oh fee-NAHL | in the end | —
+- un fou rire | uhn foo REER | a fit of giggles | —
+- j'allais + infinitive | zhah-LEH | I was going to…, I was about to… | —
+- je venais de + infinitive | zhuh vuh-NEH duh | I had just… | —
+- Ce n'est pas vrai ! | suh neh pah VREH | No way! You're joking! | —
+- Sans blague ! | sahn BLAHG | No kidding! | —
+- Et alors ? | ay ah-LOR | And then what? | —
+- La honte ! | lah OHNT | How embarrassing! | —
+- Quelle horreur ! | kel oh-RUHR | How awful! | —
+- Quelle chance ! | kel SHAHNSS | How lucky! | —
+- incroyable | an-krwah-YAH-bluh | unbelievable, amazing | —
+- bizarre | bee-ZAR | weird, strange | —
+- deviner | duh-vee-NAY | to guess | Devine ! (Guess!)
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-telling-an-anecdote-ex001 | multiple-choice | A friend tells you something surprising. Which reaction fits? | ["Sans blague !","Bonne nuit !","À bientôt !"] | ["Sans blague !"] | false | Sans blague means 'No kidding!'
+- b1-telling-an-anecdote-ex002 | multiple-choice | Which phrase introduces a surprising story to a friend? | ["Figure-toi que…","Je vous en prie.","Ça dépend."] | ["Figure-toi que…"] | false | Figure-toi que (guess what) gets your friend's attention.
+- b1-telling-an-anecdote-ex003 | fill-in | Fill in the gap with aller in the imparfait: J'___ partir quand Karim est arrivé. | — | ["allais"] | false | J'allais + infinitive: you were about to leave, and something interrupted you.
+- b1-telling-an-anecdote-ex004 | fill-in | Fill in the gap with venir in the imparfait: Il ___ de rentrer quand je l'ai appelé. | — | ["venait"] | false | Venir de in the imparfait means 'had just'.
+- b1-telling-an-anecdote-ex005 | multiple-choice | What does this mean? Je venais de manger. | ["I had just eaten.","I was going to eat.","I came to eat."] | ["I had just eaten."] | false | Venir de + infinitive in the imparfait: had just.
+- b1-telling-an-anecdote-ex006 | multiple-choice | Something embarrassing happened to your friend. What do you say? | ["La honte !","Quelle chance !","Tant mieux !"] | ["La honte !"] | false | La honte ! means 'How embarrassing!'
+- b1-telling-an-anecdote-ex007 | fill-in | Fill in the gap (Anyway): ___, au final, tout s'est bien passé. | — | ["Bref"] | false | Bref sums up and moves to the ending.
+- b1-telling-an-anecdote-ex008 | multiple-choice | Your friend found 100 euros in the street. What do you say? | ["Quelle chance !","Quelle horreur !","La honte !"] | ["Quelle chance !"] | false | Quelle chance ! means 'How lucky!'
+- b1-telling-an-anecdote-ex009 | fill-in | Fill in the gap (and then): Et ___, j'ai vu mes clés sur la table ! | — | ["là"] | true | Et là builds suspense before the surprise.
+- b1-telling-an-anecdote-ex010 | multiple-choice | You want your friend to keep telling the story. What do you say? | ["Et alors ?","Ça dépend.","Pas du tout."] | ["Et alors ?"] | false | Et alors ? asks what happened next.
+- b1-telling-an-anecdote-ex011 | translate | Write in French: I was about to leave when Karim arrived. | — | ["J'allais partir quand Karim est arrivé"] | false | J'allais + infinitive for what you were about to do, then the passé composé for the interruption.
+- b1-telling-an-anecdote-ex012 | translate | Rewrite this flat story to make it livelier, starting with Figure-toi que and putting Et là before the second sentence: J'étais au marché. J'ai vu mon professeur de piano. | — | ["Figure-toi que j'étais au marché. Et là, j'ai vu mon professeur de piano."] | true | Figure-toi que sets up the story, and et là marks the surprise.
+- b1-telling-an-anecdote-ex013 | translate | Write out this anecdote, filling each gap as shown (je: a woman): Hier, je (venir de, imparfait) rentrer. J'(aller, imparfait) dîner quand ma sœur (arriver, passé composé). (And then), elle m'(donner, passé composé) un cadeau. (Anyway), nous (avoir, passé composé) un fou rire. | — | ["Hier, je venais de rentrer. J'allais dîner quand ma sœur est arrivée. Et là, elle m'a donné un cadeau. Bref, nous avons eu un fou rire."] | true | Je venais de and j'allais set the timing, the passé composé gives the events, and et là and bref move the story on.
+- b1-telling-an-anecdote-ex014 | reorder | Put the words in order: Guess what, I won! | — | ["Figure-toi que j'ai gagné"] | false | Figure-toi que, then an ordinary sentence.
+
+## b1-cinema-and-books
+
+### Vocab
+
+fr | pron | en | note
+
+- une comédie | ewn koh-may-DEE | a comedy | —
+- un drame | uhn DRAHM | a drama | —
+- un film d'horreur | uhn feelm doh-RUHR | a horror film | —
+- un film policier | uhn feelm poh-lee-SYAY | a crime film, a thriller | —
+- un dessin animé | uhn deh-sa-nah-nee-MAY | a cartoon, an animated film | —
+- un documentaire | uhn doh-kew-mahn-TEHR | a documentary | —
+- un roman | uhn roh-MAHN | a novel | —
+- un roman policier | uhn roh-mahn poh-lee-SYAY | a crime novel | —
+- une bande dessinée / une BD | ewn bahnd deh-see-NAY / ewn bay-DAY | a comic book, a graphic novel | —
+- un auteur / une autrice | uh-noh-TUHR / ew-noh-TREESS | an author | —
+- un réalisateur / une réalisatrice | uhn ray-ah-lee-zah-TUHR / ewn ray-ah-lee-zah-TREESS | a (film) director | —
+- la distribution | lah dees-tree-bew-SYOHN | the cast | —
+- un personnage | uhn pehr-soh-NAHZH | a character | Always masculine, even for a woman.
+- le personnage principal | luh pehr-soh-nahzh pran-see-PAHL | the main character | —
+- l'intrigue | lan-TREEG | the plot | Feminine: une intrigue.
+- une scène | ewn SEN | a scene | —
+- Ça se passe à… | sah suh PAHSS ah | It's set in… | Ça se passe en 1960, à Paris.
+- Ça parle de… | sah PARL duh | It's about… | —
+- émouvant / émouvante | ay-moo-VAHN / ay-moo-VAHNT | moving | —
+- passionnant / passionnante | pah-syoh-NAHN / pah-syoh-NAHNT | gripping, fascinating | —
+- les sous-titres | lay soo-TEE-truh | subtitles | —
+- en version originale / en VO | ahn vehr-zyohn oh-ree-zhee-NAHL / ahn vay-OH | in the original language | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-cinema-and-books-ex001 | multiple-choice | A film that makes you laugh is… | ["une comédie","un drame","un documentaire"] | ["une comédie"] | false | Une comédie is a comedy.
+- b1-cinema-and-books-ex002 | multiple-choice | Which one is a comic book? | ["une bande dessinée","un roman","un dessin animé"] | ["une bande dessinée"] | false | Une bande dessinée (une BD) is a comic book. Un dessin animé is a cartoon on screen.
+- b1-cinema-and-books-ex003 | fill-in | Fill in the gap with passer in the present: Le film se ___ à Paris en 1960. | — | ["passe"] | true | Se passer: to take place, to be set.
+- b1-cinema-and-books-ex004 | fill-in | Fill in the gap with parler in the present: Ça ___ d'une famille à Montréal. | — | ["parle"] | true | Ça parle de: it's about.
+- b1-cinema-and-books-ex005 | multiple-choice | The person who directs a film is… | ["le réalisateur","l'auteur","le personnage"] | ["le réalisateur"] | false | Le réalisateur directs the film. L'auteur writes the book.
+- b1-cinema-and-books-ex006 | fill-in | Fill in the gap (crime): Simenon a écrit beaucoup de romans ___. | — | ["policiers"] | false | Un roman policier is a crime novel, and policier agrees with romans.
+- b1-cinema-and-books-ex007 | multiple-choice | Histoire is feminine. Choose the right form (moving): C'est une histoire très ___. | ["émouvante","émouvant","émouvants"] | ["émouvante"] | false | The adjective agrees with histoire: émouvante.
+- b1-cinema-and-books-ex008 | multiple-choice | You want to watch a film in its original language. How is it listed? | ["en VO","en BD","en scène"] | ["en VO"] | false | En VO means en version originale.
+- b1-cinema-and-books-ex009 | fill-in | Fill in the gap (character): Le ___ principal s'appelle Paul. | — | ["personnage"] | false | Un personnage is a character in a story.
+- b1-cinema-and-books-ex010 | multiple-choice | Which word means 'the plot'? | ["l'intrigue","la distribution","la scène"] | ["l'intrigue"] | false | L'intrigue is the plot. La distribution is the cast.
+- b1-cinema-and-books-ex011 | translate | Write in French: It's set in Paris in 1960. | — | ["Ça se passe à Paris en 1960"] | true | Ça se passe à + a town, en + a year.
+- b1-cinema-and-books-ex012 | translate | Write out this description of a book, filling each gap as shown: C'est (a crime novel) de Simenon. (It's set) à Paris. (It's about) un policier très intelligent. (The main character) est (gripping). | — | ["C'est un roman policier de Simenon. Ça se passe à Paris. Ça parle d'un policier très intelligent. Le personnage principal est passionnant."] | true | Genre, setting, subject and one adjective: the four parts of a short description.
+- b1-cinema-and-books-ex013 | translate | Write in French: I prefer films in the original language. | — | ["Je préfère les films en VO","Je préfère les films en version originale"] | false | Préférer + the definite article, then en VO or en version originale.
+- b1-cinema-and-books-ex014 | reorder | Put the words in order: It's a very moving cartoon. | — | ["C'est un dessin animé très émouvant"] | false | The adjective comes after the noun, and très goes in front of it.
+
+## b1-reviewing-a-film-or-book
+
+### Vocab
+
+fr | pron | en | note
+
+- une critique | ewn kree-TEEK | a review | —
+- un / une critique | uhn / ewn kree-TEEK | a critic | —
+- une étoile | ew-nay-TWAHL | a star (in a rating) | —
+- le public | luh pew-BLEEK | the audience, the public | —
+- le scénario | luh say-nah-RYOH | the screenplay, the script | —
+- le jeu des acteurs | luh zhuh day-zak-TUHR | the acting | —
+- les effets spéciaux | lay-zeh-feh spay-SYOH | the special effects | —
+- la bande originale | lah bahnd oh-ree-zhee-NAHL | the soundtrack | —
+- réussi / réussie | ray-ew-SEE | well made, a success | —
+- raté / ratée | rah-TAY | botched, a failure | —
+- décevant / décevante | day-suh-VAHN / day-suh-VAHNT | disappointing | —
+- recommander | ruh-koh-mahn-DAY | to recommend | —
+- à voir absolument | ah vwahr ahb-soh-lew-MAHN | a must-see | —
+- ça vaut le coup | sah voh luh KOO | it's worth it | —
+- à éviter | ah ay-vee-TAY | best avoided | —
+- Je vous le conseille. | zhuh voo luh kohn-SEH-y | I recommend it (to you). | A fixed phrase for now.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-reviewing-a-film-or-book-ex001 | multiple-choice | Which word means 'a review'? | ["une critique","un critique","un scénario"] | ["une critique"] | false | Une critique is a review. Un critique is the person who writes it.
+- b1-reviewing-a-film-or-book-ex002 | multiple-choice | A film you think everyone should see is… | ["à voir absolument","à éviter","raté"] | ["à voir absolument"] | false | À voir absolument: a must-see.
+- b1-reviewing-a-film-or-book-ex003 | fill-in | Fill in the gap with valoir in the present: Le film est long, mais ça ___ le coup. | — | ["vaut"] | false | Ça vaut le coup: it's worth it.
+- b1-reviewing-a-film-or-book-ex004 | fill-in | Fill in the gap: Ce ___ m'a plu, c'est la musique. | — | ["qui"] | false | M'a plu is a verb, after the pronoun m', so it's ce qui.
+- b1-reviewing-a-film-or-book-ex005 | multiple-choice | Choose the word (less): Ce que j'ai ___ aimé, c'est la fin. | ["moins","mieux","beaucoup"] | ["moins"] | false | Ce que j'ai moins aimé: what I liked less.
+- b1-reviewing-a-film-or-book-ex006 | fill-in | Comédie is feminine. Fill in the gap (well made): C'est une comédie très ___. | — | ["réussie"] | false | Réussi agrees with comédie: réussie.
+- b1-reviewing-a-film-or-book-ex007 | multiple-choice | You thought the actors were bad. Which sentence says so? | ["Le jeu des acteurs est décevant.","Les effets spéciaux sont réussis.","La bande originale est géniale."] | ["Le jeu des acteurs est décevant."] | false | Le jeu des acteurs is the acting, and décevant means disappointing.
+- b1-reviewing-a-film-or-book-ex008 | fill-in | Fill in the gap with recommander in the present: Je ___ ce film à mes amis. | — | ["recommande"] | false | Recommander quelque chose à quelqu'un.
+- b1-reviewing-a-film-or-book-ex009 | multiple-choice | In a French review, which tense is used to summarise the story? | ["the present","the passé composé","the futur"] | ["the present"] | false | French reviews tell the story in the present, as English ones do.
+- b1-reviewing-a-film-or-book-ex010 | multiple-choice | Which phrase warns people off? | ["à éviter","ça vaut le coup","à voir absolument"] | ["à éviter"] | false | À éviter: best avoided.
+- b1-reviewing-a-film-or-book-ex011 | translate | Write in French: What I liked was the music. | — | ["Ce qui m'a plu, c'est la musique","Ce que j'ai aimé, c'est la musique"] | true | Ce qui m'a plu or ce que j'ai aimé, then c'est.
+- b1-reviewing-a-film-or-book-ex012 | translate | Write out this short review, filling each gap as shown: (It's a comedy) de Léa Martin. (It's set) à Lyon. (What I liked) (use ce qui), c'est le jeu des acteurs. (It's worth it) ! | — | ["C'est une comédie de Léa Martin. Ça se passe à Lyon. Ce qui m'a plu, c'est le jeu des acteurs. Ça vaut le coup !"] | true | Genre, setting, your opinion with ce qui, then a recommendation.
+- b1-reviewing-a-film-or-book-ex013 | translate | Write in French: The special effects are disappointing. | — | ["Les effets spéciaux sont décevants"] | false | Décevant agrees with effets: masculine plural.
+- b1-reviewing-a-film-or-book-ex014 | reorder | Put the words in order: The soundtrack is brilliant. | — | ["La bande originale est géniale"] | false | Bande originale is feminine, so géniale agrees.
+
+## b1-culture-french-cinema
+
+### Vocab
+
+fr | pron | en | note
+
+- la Nouvelle Vague | lah noo-vel VAHG | the French New Wave | —
+- tourner un film | toor-nay uhn FEELM | to shoot a film | —
+- un tournage | uhn toor-NAHZH | a film shoot | —
+- un succès | uhn sewk-SEH | a hit, a success | —
+- le box-office | luh boks-oh-FEESS | the box office | —
+- une entrée | ew-nahn-TRAY | a cinema admission, a ticket sold | A new meaning: you know l'entrée as the hall of a house.
+- une sortie | ewn sor-TEE | a release (of a film or book) | —
+- un festival | uhn fess-tee-VAHL | a festival | Plural: des festivals.
+- la Palme d'or | lah pahlm DOR | the Palme d'or, the top prize at Cannes | —
+- les César | lay say-ZAR | the César awards | No s in the plural.
+- un prix | uhn PREE | a prize, an award | A new meaning: you know le prix as 'the price'.
+- récompenser | ray-kohn-pahn-SAY | to award, to reward | —
+- le jury | luh zhew-REE | the jury, the judges | —
+- une salle de cinéma | ewn sahl duh see-nay-MAH | a cinema screen, a cinema | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-culture-french-cinema-ex001 | multiple-choice | Where is the Palme d'or awarded? | ["at the Cannes festival","at the César awards","at the box office"] | ["at the Cannes festival"] | false | La Palme d'or is the top prize of the Cannes festival.
+- b1-culture-french-cinema-ex002 | multiple-choice | On which day do new films usually come out in France? | ["Wednesday","Friday","Sunday"] | ["Wednesday"] | false | In France, new films come out on Wednesdays.
+- b1-culture-french-cinema-ex003 | fill-in | Fill in the gap (success): Le film a été un grand ___ : il a eu dix millions d'entrées. | — | ["succès"] | false | Un succès: a hit. The final s of succès is silent.
+- b1-culture-french-cinema-ex004 | multiple-choice | When did la Nouvelle Vague begin? | ["at the end of the 1950s","in the 1920s","in the 1990s"] | ["at the end of the 1950s"] | false | La Nouvelle Vague began at the end of the 1950s.
+- b1-culture-french-cinema-ex005 | fill-in | Fill in the gap with gagner in the passé composé: Ce film a ___ trois César. | — | ["gagné"] | true | Gagner takes avoir: il a gagné.
+- b1-culture-french-cinema-ex006 | fill-in | Fill in the gap (shoot): Le réalisateur va ___ son prochain film à Marseille. | — | ["tourner"] | false | Tourner un film: to shoot a film.
+- b1-culture-french-cinema-ex007 | multiple-choice | In box-office figures, what is une entrée? | ["a cinema admission","a film's release","a cinema screen"] | ["a cinema admission"] | false | Une entrée is one ticket sold. Box-office success is counted in entrées.
+- b1-culture-french-cinema-ex008 | fill-in | Fill in the gap with récompenser in the present: Le jury ___ le meilleur film. | — | ["récompense"] | false | Le jury takes the il form: récompense.
+- b1-culture-french-cinema-ex009 | multiple-choice | Which film is by François Truffaut? | ["Les Quatre Cents Coups","Intouchables","Bienvenue chez les Ch'tis"] | ["Les Quatre Cents Coups"] | false | Les Quatre Cents Coups (1959) is one of the first films of la Nouvelle Vague.
+- b1-culture-french-cinema-ex010 | multiple-choice | What does la sortie d'un film mean? | ["the film's release","the film's ending","the film's cast"] | ["the film's release"] | false | La sortie d'un film is the day it comes out in cinemas.
+- b1-culture-french-cinema-ex011 | translate | Write in French: The film came out in 1959. | — | ["Le film est sorti en 1959"] | false | Sortir takes être in the passé composé: le film est sorti.
+- b1-culture-french-cinema-ex012 | translate | Write out these sentences, filling each gap as shown: Intouchables (is a film) d'Olivier Nakache et Éric Toledano. (It came out) en 2011. (It was a big success): plus de dix-neuf millions d'entrées. | — | ["Intouchables est un film d'Olivier Nakache et Éric Toledano. Il est sorti en 2011. C'était un grand succès : plus de dix-neuf millions d'entrées."] | false | Un film de + the names, sortir with être, and c'était for a description in the past.
+- b1-culture-french-cinema-ex013 | reorder | Put the words in order: The César awards started in 1976. | — | ["Les César ont commencé en 1976"] | false | Commencer takes avoir in the passé composé.
+
+## b1-review-stories
+
+### Vocab
+
+fr | pron | en | note
+
+- un récit | uhn ray-SEE | an account, a story | —
+- inoubliable | ee-noo-blee-YAH-bluh | unforgettable | —
+- un moment fort | uhn moh-mahn FOR | a highlight, a key moment | —
+- un rebondissement | uhn ruh-bohn-dees-MAHN | a twist, a sudden turn | —
+- dès le début | deh luh day-BEW | from the start | —
+- à la fin | ah lah FAN | at the end | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b1-review-stories-ex001 | fill-in | Fill in the gap with être in the imparfait: Quand je suis arrivé, le train ___ déjà parti. | — | ["était"] | false | The train left before you arrived: the plus-que-parfait, était parti.
+- b1-review-stories-ex002 | fill-in | Fill in the gap with aller in the imparfait: J'___ sortir quand il a commencé à pleuvoir. | — | ["allais"] | false | J'allais + infinitive: you were about to go out.
+- b1-review-stories-ex003 | multiple-choice | Choose the connector (As soon as): ___ je suis rentré, j'ai appelé ma mère. | ["Dès que","Avant de","Pendant que"] | ["Dès que"] | false | Dès que: as soon as.
+- b1-review-stories-ex004 | fill-in | Fill in the gap: Lave-toi les mains ___ de manger. | — | ["avant"] | false | Avant de + infinitive.
+- b1-review-stories-ex005 | multiple-choice | A friend tells you something amazing. What do you say? | ["Sans blague !","Tant pis !","À éviter !"] | ["Sans blague !"] | false | Sans blague ! shows surprise and keeps the story going.
+- b1-review-stories-ex006 | fill-in | Fill in the gap with passer in the present: Ça se ___ à Paris en 1959. | — | ["passe"] | true | Ça se passe: it's set.
+- b1-review-stories-ex007 | multiple-choice | A sudden change in a story that surprises you is… | ["un rebondissement","un moment fort","un récit"] | ["un rebondissement"] | false | Un rebondissement is a twist.
+- b1-review-stories-ex008 | fill-in | Fill in the gap (unforgettable): C'est un film ___, à voir absolument. | — | ["inoubliable"] | false | Inoubliable: un- + forgettable, as in English.
+- b1-review-stories-ex009 | multiple-choice | Which tense do you use to summarise a film's story? | ["the present","the plus-que-parfait","the imparfait"] | ["the present"] | false | Summaries of a story are in the present.
+- b1-review-stories-ex010 | fill-in | Fill in the gap: Ce ___ m'a plu, c'est la bande originale. | — | ["qui"] | false | A verb follows, after the pronoun m', so it's ce qui.
+- b1-review-stories-ex011 | translate | Write in French: I had just arrived when the film started. | — | ["Je venais d'arriver quand le film a commencé"] | true | Je venais de + infinitive for 'had just', then the passé composé for the event.
+- b1-review-stories-ex012 | translate | Write out this anecdote, filling each gap as shown (je: a man): J'(aller, imparfait) partir quand je (se rendre compte, passé composé) que j'(oublier, plus-que-parfait) mes clés. (And then), j'(voir, passé composé) mes clés sur la table. (Anyway), je (arriver, passé composé) en retard. | — | ["J'allais partir quand je me suis rendu compte que j'avais oublié mes clés. Et là, j'ai vu mes clés sur la table. Bref, je suis arrivé en retard."] | true | J'allais for what you were about to do, the plus-que-parfait for what came before, then et là and bref.
+- b1-review-stories-ex013 | translate | Write out this short review, filling each gap as shown: (It's about) un garçon de Paris. (From the start), l'histoire est émouvante. (At the end), il y a un rebondissement. (It's worth it) ! | — | ["Ça parle d'un garçon de Paris. Dès le début, l'histoire est émouvante. À la fin, il y a un rebondissement. Ça vaut le coup !"] | true | Ça parle de, dès le début and à la fin frame the story, and ça vaut le coup recommends it.
+- b1-review-stories-ex014 | reorder | Put the words in order: It's an unforgettable story. | — | ["C'est une histoire inoubliable"] | false | Inoubliable comes after the noun, and it's the same for masculine and feminine.

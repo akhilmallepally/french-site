@@ -640,3 +640,118 @@ Every date, tradition and regional detail, for checking:
 - **"*Qu'est-ce qui* becomes *ce qui*: *Je regarde ce qui se passe*."** Confirm.
 - **"In the *il* form, it takes a circumflex: *il plaît*."** The 1990 spelling reform also allows *il plait*. Confirm the lesson can keep the circumflex only.
 - **"*Plaire* works the opposite way round from 'like', just like *manquer* in *tu me manques*."** Confirm the comparison is helpful and accurate.
+
+## b1-relative-dont
+
+- **"When the noun is the object of the verb, it moves after the verb: *C'est la femme dont je connais les enfants*."** Confirm the rule as stated.
+- **"Don't add a possessive: it's *dont le père*, not *dont son père*."** Confirm.
+- **"*Dont* never changes. It's the same for masculine and feminine, singular and plural, people and things."** Confirm.
+- **"*Se servir* works like *partir*: *je me sers*, *nous nous servons*."** Confirm.
+- **"*C'est une raison dont on parle peu.*"** and **"*Voici le rêve dont je te parle depuis des années.*"** Confirm both read naturally.
+
+## b1-relationships
+
+- **"*Marier* without *se* means to marry other people, as a mayor or a priest does."** Confirm.
+- **"*Une dispute* is an argument between people who know each other, often about something small. *Un conflit* is bigger and lasts longer."** Confirm the distinction.
+- **"*L'amour* is masculine (*un grand amour*)."** It can be feminine in the plural in literary French; confirm the lesson can leave that out.
+- **"*Le mariage* means both the marriage and the wedding day."** Confirm.
+- **"*Mon frère est célibataire, et ça lui va très bien !*"** Confirm *ça lui va* reads naturally here.
+
+## b1-review-opinions
+
+- **"In writing, *tu as tort* or *vous avez tort* sounds much harsher than in conversation."** Confirm.
+- **"*C'est mieux d'habiter en ville ou à la campagne ?*"** Confirm it's natural (rather than *Vaut-il mieux…*).
+- **"*À mon avis, deux ou trois amis proches, c'est mieux que beaucoup d'amis.*"** and **"*Il faut du temps pour une vraie amitié.*"** (model text) Confirm both read naturally.
+
+## b1-si-present-futur
+
+- **"For a habit or something that's always true, both halves are in the present. *Si* then means something close to 'whenever'."** Confirm.
+- **"When *si* comes second, you usually don't need a comma."** Confirm the punctuation advice.
+- **"*Si* becomes *s'* before *il* and *ils*, and only there. Before *elle*, *on* or any other word, it stays *si*."** Confirm (*si on*, not *s'on*).
+- **"*Rater* is the everyday word for missing a train, a bus or a plane."** Confirm the register.
+- **"An *imprévu* is literally something 'not foreseen'."** Confirm.
+
+## b1-conditionnel-present
+
+- **"In careful speech, *-ai* sounds like the *é* of *été*, and *-ais* like the *è* of *mère*. Many speakers don't make the difference."** Confirm.
+- **"News reports often use the conditionnel for something they've heard but can't confirm."** Confirm, with *Selon les journaux, le ministre serait malade*.
+- **"*Pouvoir* has a double *r* in the conditionnel, like *mourir* and *voir* … *Devoir*, *vouloir* and *savoir* don't double."** Confirm.
+- **"*J'aimerais bien* is softer still, and works well when you're asking for a favour."** Confirm the politeness scale *je veux* / *je voudrais* / *j'aimerais bien*.
+- **"*Il paraît que* and *apparemment* say the same thing, but with an ordinary verb."** Confirm.
+
+## b1-si-imparfait-conditionnel
+
+- **"*Si j'aurais le temps* … You may hear it in casual speech, but it's considered a mistake."** Confirm.
+- **"Someone who has bought a ticket and feels lucky might say *si je gagne*. Someone who never plays says *si je gagnais*."** Confirm the nuance.
+- **"*Si j'étais vous*"** as the *vous* form of *si j'étais toi*. Confirm it's natural.
+
+## b1-giving-advice
+
+- **"Dropping the *ne* is common in casual speech with a conjugated verb, but keep it in front of an infinitive."** Confirm.
+- **The "How strong is it?" table**, especially "*Il faut* can sound bossy unless the situation really is urgent." Confirm the ranking.
+- **"*Un conseil* is one piece of advice, and you can count it: *deux conseils*."** Confirm.
+- **"*Il vaudrait mieux ne pas boire de café le soir.*"** Confirm *ne pas* before the infinitive after *il vaudrait mieux*.
+
+## b1-dreams-and-ambitions
+
+- **"If you speak Spanish or Italian, you may expect a special verb form after 'hope'. French doesn't use one here: *J'espère que tu viendras*."** Confirm.
+- **"*Compter* is followed straight by an infinitive, with no preposition."** Confirm.
+- **"*Un but*"** respelled *BEWT*: the final *t* is often pronounced, but some speakers say *bew*. Confirm.
+- **"*Un projet* is an everyday plan as well as a big one."** Confirm.
+
+## b1-review-hypotheses
+
+- **"Notice how Marc mixes the patterns on purpose. *À votre place, je pèserais* is advice, with the conditionnel. *Si vous partez, vous aurez* is a real possibility."** Confirm the explanation.
+- **"*J'hésite entre deux choix*"** (model text). Confirm it reads naturally.
+
+## b1-plus-que-parfait
+
+- **"*Se rendre compte* is a reflexive verb, so it takes *être*, but its participle doesn't agree, because the real object is *compte*: *elle s'est rendu compte*. *S'apercevoir* agrees normally: *elle s'est aperçue*."** Confirm both.
+- **"English often uses the simple past where French needs the plus-que-parfait."** Confirm, with *Je me suis rendu compte que j'avais oublié mes clés*.
+- **"*Quand je suis arrivé, le train est parti*: the train leaves as you arrive."** Confirm this reading versus *était parti*.
+- **"*Je m'étais levé auparavant, mais j'étais encore fatigué.*"** Confirm *auparavant* reads naturally here.
+
+## b1-time-connectors
+
+- **Fixed phrase: *après avoir* + participle** (*Après avoir mangé, nous sommes sortis*; *Après avoir fini mes devoirs, j'ai regardé un film*). Taught as a fixed phrase; b2-infinitif-passe owns the grammar.
+- **"In casual speech you'll hear *quand j'arrive, je t'appelle*, with the present in both halves, but don't mix a present after *quand* with a futur in the other half."** Confirm.
+- **"About the future, *dès que* and *aussitôt que* take the futur, where English uses the present."** Confirm.
+- **"*Lorsque* … is more formal, and you'll see it more in writing than hear it in conversation."** Confirm.
+- **"*Aussitôt qu'il aura le temps, il viendra.*"** Confirm it reads naturally.
+
+## b1-telling-an-anecdote
+
+- **"*J'allais* + infinitive … says you were about to do something, often when something interrupted you."** Confirm.
+- **"*Venir de* in the imparfait … says something had just happened."** Confirm.
+- **"When someone tells you a story, French speakers react all the way through. Silence can sound as if you're not interested."** Cultural claim; confirm.
+- **"*Figure-toi que* is informal … With *vous* or with several friends, it's *figurez-vous que*."** Confirm.
+- **"*La honte !* is informal: keep it for friends."** Confirm.
+- **"*Au final*"** is common in speech, but some people consider it incorrect. Confirm it's acceptable to teach.
+
+## b1-cinema-and-books
+
+- **"*Autrice* is the usual feminine of *auteur* today, though you'll also see *auteure*."** Confirm.
+- **"*Un polar* is an informal word for a crime film or novel."** Confirm.
+- **"In French cinemas, foreign films are shown either in *VO*, with French subtitles, or in *VF*, dubbed into French."** Confirm.
+- **"*Le dernier film* here means 'the latest film'."** Confirm.
+- **"En France, les bandes dessinées sont pour tous les âges."** Cultural claim; confirm.
+
+## b1-reviewing-a-film-or-book
+
+- **Fixed phrase: *Je vous le conseille*** Used before b1-double-object-pronouns; labelled as a fixed phrase in the lesson.
+- **"French reviews, like English ones, tell the story in the present."** Confirm.
+- **"*Un film raté* is a failure, not a film you missed."** Confirm.
+- **"*Ça vaut le coup* is informal but very common in reviews."** Confirm.
+- **"*À lire absolument* works like *à voir absolument*."** Confirm.
+
+## b1-culture-french-cinema
+
+- **Facts to check:** "La Nouvelle Vague … began at the end of the 1950s … many of them film critics … shot in the street rather than in studios"; "François Truffaut made *Les Quatre Cents Coups* in 1959"; "Jean-Luc Godard made *À bout de souffle* in 1960"; "*Bienvenue chez les Ch'tis* (2008), by Dany Boon … one of the biggest French hits ever"; "*Intouchables* (2011) … plus de dix-neuf millions d'entrées" (exercise ex012); "*Le Festival de Cannes* takes place every May"; "The ceremony [les César] has taken place every year since 1976, and the awards are named after the sculptor César"; "In France, new films come out on Wednesdays".
+- **"*Les César*, with no s."** Confirm the spelling rule.
+- **"Big cities also have small independent cinemas that show … films *d'art et d'essai*."** Confirm.
+
+## b1-review-stories
+
+- **Facts to check (model review):** *Les Quatre Cents Coups* "se passe à Paris, à la fin des années 1950", the main character Antoine "ne s'entend pas bien avec ses parents", and the final scene is by the sea.
+- **"*Au final* … means 'in the end, all things considered' … *finalement* can mean either 'finally, at last' or 'in the end'."** Confirm.
+- **"*Dès le début, tout est allé mal.*"** (model anecdote) Confirm it reads naturally.
