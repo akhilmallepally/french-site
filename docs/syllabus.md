@@ -214,10 +214,10 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 1 | b1-expressing-opinions | Expressing opinions | Opinions and feelings | communication | a1-likes-and-dislikes, a2-comparatives | à mon avis, je pense que, je trouve que, selon moi, pour moi. |
+| 1 | b1-expressing-opinions | Expressing opinions | Opinions and feelings | communication | a2-comparatives | à mon avis, je pense que, je trouve que, selon moi, pour moi. |
 | 2 | b1-agreeing-disagreeing | Agreeing and disagreeing | Opinions and feelings | communication | b1-expressing-opinions | je suis d'accord, pas du tout, tu as raison, je ne suis pas sûr. |
 | 3 | b1-ce-qui-ce-que | ce qui, ce que | Opinions and feelings | grammar | a2-relative-qui-que-ou | "What" as relative; ce qui me plaît, c'est…; tout ce que. Reuses: opinions. |
-| 4 | b1-relative-dont | The relative pronoun dont | Opinions and feelings | grammar | a2-relative-qui-que-ou, a2-verbs-with-a-and-de | dont with de-verbs (parler de, avoir besoin de) and possession. Reuses: opinions, emotions. |
+| 4 | b1-relative-dont | The relative pronoun dont | Opinions and feelings | grammar | a2-verbs-with-a-and-de | dont with de-verbs (parler de, avoir besoin de) and possession. Reuses: opinions, emotions. |
 | 5 | b1-relationships | Relationships and feelings | Opinions and feelings | vocabulary | a2-emotions-and-feelings | Friendship, love, conflict: se disputer, s'entendre avec, tomber amoureux. |
 | 6 | b1-review-opinions | Review: Opinions and feelings | Opinions and feelings | review | b1-agreeing-disagreeing, b1-ce-qui-ce-que, b1-relative-dont, b1-relationships | Write a short opinion piece and a reply that disagrees. |
 
@@ -226,9 +226,9 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
 | 7 | b1-si-present-futur | Si + present, future | Hypotheses and wishes | grammar | a2-futur-simple | Real conditions: s'il pleut, on restera; si + present + imperative. Reuses: travel plans, weather. |
-| 8 | b1-conditionnel-present | The conditionnel présent | Hypotheses and wishes | grammar | a2-futur-simple, a2-polite-requests | Future stems + imparfait endings; politeness, wishes, rumour. Reuses: polite requests, travel. |
-| 9 | b1-si-imparfait-conditionnel | Si + imparfait, conditionnel | Hypotheses and wishes | grammar | b1-conditionnel-present, b1-si-present-futur, a2-imparfait-formation | Unreal present: si j'avais le temps, je voyagerais. Reuses: dreams, travel, work. |
-| 10 | b1-giving-advice | Giving advice | Hypotheses and wishes | communication | b1-conditionnel-present, a2-il-faut-and-advice | tu devrais, à ta place, si j'étais toi, je te conseille de. |
+| 8 | b1-conditionnel-present | The conditionnel présent | Hypotheses and wishes | grammar | a2-polite-requests | Future stems + imparfait endings; politeness, wishes, rumour. Reuses: polite requests, travel. |
+| 9 | b1-si-imparfait-conditionnel | Si + imparfait, conditionnel | Hypotheses and wishes | grammar | b1-conditionnel-present, b1-si-present-futur | Unreal present: si j'avais le temps, je voyagerais. Reuses: dreams, travel, work. |
+| 10 | b1-giving-advice | Giving advice | Hypotheses and wishes | communication | b1-si-imparfait-conditionnel | tu devrais, à ta place, si j'étais toi, je te conseille de. |
 | 11 | b1-dreams-and-ambitions | Dreams and ambitions | Hypotheses and wishes | communication | b1-si-imparfait-conditionnel | Talking about plans, dreams and an ideal life. |
 | 12 | b1-review-hypotheses | Review: Hypotheses and wishes | Hypotheses and wishes | review | b1-giving-advice, b1-dreams-and-ambitions | Write a "what would you do if…" piece and an advice reply. |
 
@@ -248,7 +248,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 20 | b1-subjonctif-formation | The subjunctive: regular forms | The subjunctive | grammar | a2-irregular-verbs-present, a2-il-faut-and-advice | Stem from ils form; nous/vous from imparfait; what the mood is for. Reuses: advice, health. |
+| 20 | b1-subjonctif-formation | The subjunctive: regular forms | The subjunctive | grammar | a2-il-faut-and-advice | Stem from ils form; nous/vous from imparfait; what the mood is for. Reuses: advice, health. |
 | 21 | b1-subjonctif-necessity | Subjunctive after il faut que | The subjunctive | grammar | b1-subjonctif-formation | il faut que, il est important / nécessaire que. Reuses: household chores, work. |
 | 22 | b1-subjonctif-irregular | Irregular subjunctives | The subjunctive | grammar | b1-subjonctif-necessity | être, avoir, aller, faire, pouvoir, savoir, vouloir. Reuses: chores, travel plans. |
 | 23 | b1-subjonctif-wishes-emotions | Subjunctive after wishes and emotions | The subjunctive | grammar | b1-subjonctif-irregular, b1-relationships | vouloir que, aimer que, être content / triste que, avoir peur que. Reuses: relationships, emotions. |
@@ -262,10 +262,10 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 |---|---|---|---|---|---|---|
 | 27 | b1-careers-and-job-hunting | Careers and job hunting | Work and careers | vocabulary | a2-jobs-and-workplace | Job ads, CDI / CDD, salary, skills, experience, le stage. |
 | 28 | b1-cover-letter | CV and cover letter | Work and careers | communication | b1-careers-and-job-hunting, b1-conditionnel-present | French CV conventions; lettre de motivation structure and formulas. |
-| 29 | b1-job-interview | The job interview | Work and careers | communication | b1-cover-letter, a2-depuis-pendant-il-y-a | Presenting your experience, strengths, questions to ask, vous throughout. |
-| 30 | b1-double-object-pronouns | Double object pronouns | Work and careers | grammar | a2-pronouns-in-passe-compose, a2-imperative-with-pronouns | Order rules (me le, le lui, lui en, y en); in the imperative. Reuses: office tasks, sending documents. |
-| 31 | b1-possessive-pronouns | Possessive pronouns | Work and careers | grammar | a1-possessive-adjectives, a2-direct-object-pronouns | le mien, la tienne, les leurs; c'est à moi. Reuses: workplace objects, family. |
-| 32 | b1-demonstrative-pronouns | Demonstrative pronouns | Work and careers | grammar | a1-demonstratives, a2-relative-qui-que-ou | celui, celle, ceux, celles + -ci / -là / qui / de. Reuses: job offers, shopping. |
+| 29 | b1-job-interview | The job interview | Work and careers | communication | b1-cover-letter | Presenting your experience, strengths, questions to ask, vous throughout. |
+| 30 | b1-double-object-pronouns | Double object pronouns | Work and careers | grammar | a2-imperative-with-pronouns | Order rules (me le, le lui, lui en, y en); in the imperative. Reuses: office tasks, sending documents. |
+| 31 | b1-possessive-pronouns | Possessive pronouns | Work and careers | grammar | a2-direct-object-pronouns | le mien, la tienne, les leurs; c'est à moi. Reuses: workplace objects, family. |
+| 32 | b1-demonstrative-pronouns | Demonstrative pronouns | Work and careers | grammar | a2-relative-qui-que-ou | celui, celle, ceux, celles + -ci / -là / qui / de. Reuses: job offers, shopping. |
 | 33 | b1-culture-work-life | Work life in France | Work and careers | culture | b1-careers-and-job-hunting | 35 hours, congés payés, lunch breaks, strikes, tu/vous at work. |
 | 34 | b1-review-work | Review: Work and careers | Work and careers | review | b1-job-interview, b1-double-object-pronouns, b1-possessive-pronouns, b1-demonstrative-pronouns, b1-culture-work-life | Write a cover letter and prepare interview answers. |
 
@@ -275,10 +275,10 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 |---|---|---|---|---|---|---|
 | 35 | b1-media-and-news | Media and news | Media and technology | vocabulary | b1-expressing-opinions | Newspapers, headlines, journalists, les infos, à la une. |
 | 36 | b1-technology-and-internet | Technology and the internet | Media and technology | vocabulary | a2-verbs-with-a-and-de | Phones, apps, social media, télécharger, partager, se connecter. |
-| 37 | b1-reported-speech-present | Reported speech (present) | Media and technology | grammar | b1-ce-qui-ce-que, a2-indirect-object-pronouns | il dit que, il demande si / ce que / où; pronoun shifts. Reuses: media and news, phone calls. |
-| 38 | b1-gerondif | The gérondif | Media and technology | grammar | a2-irregular-verbs-present, b1-time-connectors | en + -ant for simultaneity and manner; irregular stems. Reuses: technology habits, daily routine. |
+| 37 | b1-reported-speech-present | Reported speech (present) | Media and technology | grammar | b1-ce-qui-ce-que | il dit que, il demande si / ce que / où; pronoun shifts. Reuses: media and news, phone calls. |
+| 38 | b1-gerondif | The gérondif | Media and technology | grammar | b1-time-connectors | en + -ant for simultaneity and manner; irregular stems. Reuses: technology habits, daily routine. |
 | 39 | b1-indefinite-pronouns | Indefinite words | Media and technology | grammar | a2-negative-expressions | chacun, chaque, aucun, plusieurs, n'importe qui, n'importe quoi; quelqu'un and quelque chose revisited from a2-negative-expressions. Reuses: social media, news. |
-| 40 | b1-interrogative-lequel | Lequel, laquelle | Media and technology | grammar | a1-question-words, b1-demonstrative-pronouns | Interrogative pronouns for choices. Reuses: technology choices, shopping. |
+| 40 | b1-interrogative-lequel | Lequel, laquelle | Media and technology | grammar | b1-demonstrative-pronouns | Interrogative pronouns for choices. Reuses: technology choices, shopping. |
 | 41 | b1-review-media | Review: Media and technology | Media and technology | review | b1-media-and-news, b1-technology-and-internet, b1-reported-speech-present, b1-gerondif, b1-indefinite-pronouns, b1-interrogative-lequel | Report what a news item says and react to it. |
 
 ### Unit 7: Society and environment
@@ -287,7 +287,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 |---|---|---|---|---|---|---|
 | 42 | b1-environment | The environment | Society and environment | vocabulary | b1-media-and-news | Pollution, recycling, climate, energy, protéger, gaspiller. |
 | 43 | b1-cause-and-consequence | Cause and consequence | Society and environment | grammar | b1-expressing-opinions | parce que, car, puisque, comme, à cause de, grâce à; donc, alors, c'est pourquoi. Reuses: environment. |
-| 44 | b1-passive-voice-intro | The passive voice: introduction | Society and environment | grammar | a2-passe-compose-etre, b1-media-and-news | être + participle in present and passé composé; par. Reuses: news, environment. |
+| 44 | b1-passive-voice-intro | The passive voice: introduction | Society and environment | grammar | b1-media-and-news | être + participle in present and passé composé; par. Reuses: news, environment. |
 | 45 | b1-presenting-an-argument | Presenting a simple argument | Society and environment | communication | b1-cause-and-consequence, b1-agreeing-disagreeing | d'abord / ensuite / enfin, pour / contre, conclusion. |
 | 46 | b1-culture-french-republic | The French Republic | Society and environment | culture | b1-media-and-news | Liberté, égalité, fraternité; Marianne; laïcité; the 14 juillet; how elections work. |
 | 47 | b1-review-society | Review: Society and environment | Society and environment | review | b1-environment, b1-passive-voice-intro, b1-presenting-an-argument, b1-culture-french-republic | Short argued text about an environmental issue. |
@@ -299,7 +299,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 48 | b1-housing-and-renting | Housing and renting | Home, money and problems | vocabulary | a2-home-and-chores | Flat hunting, le loyer, les charges, le bail, la caution, colocation. |
 | 49 | b1-money-and-banking | Money and banking | Home, money and problems | vocabulary | a1-shopping-for-clothes | Accounts, cards, paying, saving, borrowing, prices and budgets. |
 | 50 | b1-ne-que-ni-ni | ne…que and ni…ni | Home, money and problems | grammar | a2-negative-expressions | Restriction (je n'ai que 10 euros) and double negation. Reuses: money, housing. |
-| 51 | b1-making-a-complaint | Making a complaint | Home, money and problems | communication | b1-conditionnel-present, b1-housing-and-renting | Polite but firm complaints in person and in writing; asking for a solution. |
+| 51 | b1-making-a-complaint | Making a complaint | Home, money and problems | communication | b1-cover-letter, b1-housing-and-renting | Polite but firm complaints in person and in writing; asking for a solution. |
 | 52 | b1-travel-problems | Travel problems | Home, money and problems | communication | a2-booking-a-hotel, b1-plus-que-parfait | Lost luggage, delays, cancellations, j'avais réservé… |
 | 53 | b1-review-home-money-problems | Review: Home, money and problems | Home, money and problems | review | b1-money-and-banking, b1-ne-que-ni-ni, b1-making-a-complaint, b1-travel-problems | Write a complaint email to a landlord or airline. |
 
@@ -307,10 +307,10 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 54 | b1-food-and-cooking | Food and cooking | Food, culture and wrap-up | vocabulary | a2-quantities, a1-imperative | Recipes, cooking verbs, utensils, describing taste. |
+| 54 | b1-food-and-cooking | Food and cooking | Food, culture and wrap-up | vocabulary | a2-quantities | Recipes, cooking verbs, utensils, describing taste. |
 | 55 | b1-culture-regional-cuisine | Regional cuisine | Food, culture and wrap-up | culture | b1-food-and-cooking | Regions through their dishes: Alsace, Provence, Bretagne, Lyon; cheese and wine culture. |
-| 56 | b1-making-suggestions | Making suggestions | Food, culture and wrap-up | communication | b1-si-imparfait-conditionnel, a2-invitations | Si on allait… ?, ça te dirait de…, on pourrait…, pourquoi pas… |
-| 57 | b1-formal-email | Writing a formal email | Food, culture and wrap-up | communication | b1-cover-letter, b1-making-a-complaint | Register, structure, standard openings and closings, requests and follow-ups. |
+| 56 | b1-making-suggestions | Making suggestions | Food, culture and wrap-up | communication | b1-si-imparfait-conditionnel | Si on allait… ?, ça te dirait de…, on pourrait…, pourquoi pas… |
+| 57 | b1-formal-email | Writing a formal email | Food, culture and wrap-up | communication | b1-making-a-complaint | Register, structure, standard openings and closings, requests and follow-ups. |
 | 58 | b1-culture-quebec | French in Québec | Food, culture and wrap-up | culture | a2-culture-francophone-world | History, vocabulary differences, tu used more freely, Québécois expressions. |
 | 59 | b1-review-final | B1 final review | Food, culture and wrap-up | review | b1-review-opinions, b1-review-hypotheses, b1-review-stories, b1-review-subjunctive, b1-review-work, b1-review-media, b1-review-society, b1-review-home-money-problems, b1-culture-regional-cuisine, b1-making-suggestions, b1-formal-email, b1-culture-quebec | Whole-level recap; B1 can-do checklist. |
 
