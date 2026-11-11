@@ -1,6 +1,6 @@
 # All lesson data
 
-172 written lessons, in course order.
+179 written lessons, in course order.
 
 ## a1-greetings
 
@@ -6697,3 +6697,289 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-review-nuance-ex014 | translate | Traduisez ce paragraphe avec « certes », « néanmoins » et « donc » : Admittedly, this measure is expensive. Nevertheless, it reduces inequality. So we have to find a happy medium. | — | ["Certes, cette mesure coûte cher. Néanmoins, elle réduit les inégalités. Il faut donc trouver un juste milieu.","Certes, cette mesure coûte cher. Néanmoins, elle réduit les inégalités. Donc, il faut trouver un juste milieu.","Certes, cette mesure est chère. Néanmoins, elle réduit les inégalités. Il faut donc trouver un juste milieu.","Certes, cette mesure est chère. Néanmoins, elle réduit les inégalités. Donc, il faut trouver un juste milieu."] | false | Certes concedes the point, néanmoins answers it, and donc leads to the conclusion.
 - b2-review-nuance-ex015 | translate | Traduisez ce paragraphe : Our goal is to reconcile the city centre and families. We're writing this opinion piece so that the town hall acts. | — | ["Notre objectif est de concilier le centre-ville et les familles. Nous écrivons cette tribune pour que la mairie agisse.","Notre objectif est de concilier le centre-ville et les familles. Nous écrivons cette tribune afin que la mairie agisse.","Notre objectif est de concilier le centre-ville et les familles. Nous écrivons cette tribune de sorte que la mairie agisse."] | false | Concilier + two nouns, then pour que, afin que or de sorte que + subjunctive.
 - b2-review-nuance-ex016 | reorder | Remettez dans l'ordre : It seems to me that we have to find a happy medium. | — | ["Il me semble qu'il faut trouver un juste milieu"] | false | Il me semble que + indicative: il faut.
+
+## b2-conditionnel-passe
+
+### Vocab
+
+fr | pron | en | note
+
+- j'aurais aimé | zhoh-reh-zeh-MAY | I'd have liked, I wish I had | + infinitive: j'aurais aimé partir.
+- ça aurait été | sah oh-reh-tay-TAY | it would have been | —
+- à ta place, j'aurais… | ah tah PLAHSS zhoh-REH | in your place, I'd have… | Formal: à votre place.
+- un choix de vie | uhn shwah duh VEE | a life choice | —
+- une occasion manquée | ew-noh-kah-zyohn mahn-KAY | a missed opportunity | —
+- saisir une occasion | seh-zeer ew-noh-kah-ZYOHN | to seize an opportunity | Like finir: j'ai saisi l'occasion.
+- bifurquer | bee-fewr-KAY | to change course, to branch off | —
+- un tournant | uhn toor-NAHN | a turning point | —
+- envisager | ahn-vee-zah-ZHAY | to consider | Envisager de + infinitive. Like manger: nous envisageons.
+- autrement | oh-truh-MAHN | differently, otherwise | —
+- selon des sources proches de | suh-lohn day soorss PROSH duh | according to sources close to | —
+- un bilan | uhn bee-LAHN | a toll (of victims, in the news) | —
+- un blessé / une blessée | uhn bleh-SAY / ewn bleh-SAY | an injured person | —
+- faire des victimes | fehr day veek-TEEM | to claim victims, to leave people hurt or dead | —
+- non confirmé / non confirmée | nohn kohn-feer-MAY | unconfirmed | —
+- le conditionnel passé | luh kohn-dee-syoh-nel pah-SAY | the conditionnel passé (past conditional) | —
+- le participe passé | luh par-tee-seep pah-SAY | the past participle | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-conditionnel-passe-ex001 | fill-in | Mettez au conditionnel passé (aimer) : Elle ___ voyager plus jeune. | — | ["aurait aimé"] | true | Aimer takes avoir: elle aurait aimé.
+- b2-conditionnel-passe-ex002 | fill-in | Mettez au conditionnel passé (partir) : À sa place, Paul ___ plus tôt. | — | ["serait parti"] | false | Partir takes être: Paul serait parti.
+- b2-conditionnel-passe-ex003 | fill-in | Mettez au conditionnel passé (venir) : Avec plus de temps, mes parents ___ nous voir. | — | ["seraient venus"] | false | Venir takes être, and venus agrees with mes parents.
+- b2-conditionnel-passe-ex004 | fill-in | Mettez au conditionnel passé (pouvoir) : Avec une voiture, tu ___ arriver à l'heure. | — | ["aurais pu"] | false | Pouvoir takes avoir: tu aurais pu.
+- b2-conditionnel-passe-ex005 | multiple-choice | Choisissez la bonne forme : Elle ___ restée à la maison. | ["serait","aurait","aurais"] | ["serait"] | false | Rester takes être, as in the passé composé: elle serait restée.
+- b2-conditionnel-passe-ex006 | multiple-choice | Choisissez la bonne forme : Sans la grève, Marie serait ___ à l'heure. | ["arrivée","arrivés","arrivées"] | ["arrivée"] | false | With être, the participle agrees with the subject: Marie serait arrivée.
+- b2-conditionnel-passe-ex007 | multiple-choice | Choisissez le titre qui donne une information non confirmée. | ["L'incendie aurait fait deux blessés.","L'incendie a fait deux blessés.","L'incendie fait deux blessés."] | ["L'incendie aurait fait deux blessés."] | false | The conditionnel passé tells the reader that the fact isn't confirmed yet.
+- b2-conditionnel-passe-ex008 | reformulation | Reformulez avec « j'aurais aimé » : Je voulais partir. | — | ["J'aurais aimé partir"] | true | J'aurais aimé + infinitive: a wish that didn't come true.
+- b2-conditionnel-passe-ex009 | reformulation | Reformulez au conditionnel passé, comme une information non confirmée : L'incendie a fait deux blessés. | — | ["L'incendie aurait fait deux blessés"] | false | A changes to aurait: the journalist doesn't confirm the fact.
+- b2-conditionnel-passe-ex010 | error-correction | Corrigez l'erreur : J'aurais allé au concert avec toi. | — | ["Je serais allé au concert avec toi","Je serais allée au concert avec toi"] | false | Aller takes être: je serais allé, or allée for a woman.
+- b2-conditionnel-passe-ex011 | fill-in | Complétez : Ce nouveau travail a été un ___ dans sa vie. | — | ["tournant"] | false | Un tournant: a turning point.
+- b2-conditionnel-passe-ex012 | translate | Traduisez : I would have liked to study medicine. | — | ["J'aurais aimé étudier la médecine","J'aurais voulu étudier la médecine","J'aurais aimé faire des études de médecine","J'aurais voulu faire des études de médecine"] | true | J'aurais aimé (or j'aurais voulu) + infinitive.
+- b2-conditionnel-passe-ex013 | translate | Traduisez avec le conditionnel passé : The fire is said to have injured two people. | — | ["L'incendie aurait fait deux blessés","L'incendie aurait blessé deux personnes"] | false | The conditionnel passé of faire: the fact isn't confirmed.
+- b2-conditionnel-passe-ex014 | translate | Rédigez en complétant comme indiqué : À vingt ans, (I would have liked) vivre à l'étranger. À ta place, (I would have seized) l'occasion. (It would have been) un tournant. | — | ["À vingt ans, j'aurais aimé vivre à l'étranger. À ta place, j'aurais saisi l'occasion. Ça aurait été un tournant.","À vingt ans, j'aurais voulu vivre à l'étranger. À ta place, j'aurais saisi l'occasion. Ça aurait été un tournant."] | true | Three conditionnels passés, all with avoir: aurais aimé, aurais saisi, aurait été.
+- b2-conditionnel-passe-ex015 | reorder | Remettez dans l'ordre : We would have left earlier. | — | ["Nous serions partis plus tôt"] | false | Être in the conditionnel, then the participle, which agrees with nous.
+
+## b2-si-plus-que-parfait
+
+### Vocab
+
+fr | pron | en | note
+
+- si j'avais su | see zhah-veh SEW | if I'd known | —
+- si seulement | see suhl-MAHN | if only | Here + plus-que-parfait: si seulement j'avais su !
+- par malchance | par mahl-SHAHNSS | by bad luck, unfortunately | —
+- par hasard | par ah-ZAR | by chance | —
+- un hasard | uhn ah-ZAR | a coincidence | Quel hasard ! (What a coincidence!)
+- heureusement que | uh-ruhz-mahn KUH | luckily, it's a good thing that | + indicative: heureusement que tu étais là.
+- un concours de circonstances | uhn kohn-koor duh seer-kohn-STAHNSS | a chain of events, a combination of circumstances | —
+- imprévisible | an-pray-vee-ZEE-bluh | unpredictable | —
+- changer le cours de | shahn-zhay luh KOOR duh | to change the course of | —
+- au dernier moment | oh dehr-nyay moh-MAHN | at the last minute | —
+- de justesse | duh zhews-TESS | only just, narrowly | —
+- faillir | fah-YEER | to almost do | Passé composé + infinitive: j'ai failli tomber.
+- se douter de | suh doo-TAY duh | to suspect | False friend: douter de means to doubt. Se douter que + indicative.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-si-plus-que-parfait-ex001 | fill-in | Mettez au plus-que-parfait (savoir) : Si j'___, je serais venu. | — | ["avais su"] | false | Si + plus-que-parfait: si j'avais su.
+- b2-si-plus-que-parfait-ex002 | fill-in | Mettez au plus-que-parfait (partir) : Si nous ___ plus tôt, nous n'aurions pas raté le train. | — | ["étions partis","étions parties"] | false | Partir takes être: si nous étions partis (or parties).
+- b2-si-plus-que-parfait-ex003 | fill-in | Mettez au conditionnel passé (venir) : Si tu m'avais appelé, je ___. | — | ["serais venu","serais venue"] | false | The result is in the conditionnel passé: je serais venu (or venue).
+- b2-si-plus-que-parfait-ex004 | fill-in | Mettez au conditionnel passé (pouvoir) : S'il avait fait beau, nous ___ sortir. | — | ["aurions pu"] | false | Pouvoir takes avoir: nous aurions pu.
+- b2-si-plus-que-parfait-ex005 | multiple-choice | Choisissez la bonne phrase. | ["Si j'avais su, je serais venu.","Si j'aurais su, je serais venu.","Si j'avais su, je viendrai."] | ["Si j'avais su, je serais venu."] | false | Plus-que-parfait after si, conditionnel passé in the result. Never the conditionnel after si.
+- b2-si-plus-que-parfait-ex006 | multiple-choice | Indiquez le sens de : Je me doutais qu'il allait pleuvoir. | ["I suspected it was going to rain.","I doubted it was going to rain.","I was sure it would never rain."] | ["I suspected it was going to rain."] | false | Se douter que means to suspect. Douter que means to doubt.
+- b2-si-plus-que-parfait-ex007 | connector-choice | Choisissez le connecteur : Personne ne m'a prévenu. ___ j'avais su, je serais venu. | ["Si","Bien que","Pour que"] | ["Si"] | false | Si + plus-que-parfait. Bien que and pour que would need the subjunctive.
+- b2-si-plus-que-parfait-ex008 | reformulation | Reformulez avec « si » + plus-que-parfait : Il n'est pas parti à l'heure, donc il a raté le train. | — | ["S'il était parti à l'heure, il n'aurait pas raté le train","Il n'aurait pas raté le train s'il était parti à l'heure"] | true | Turn the real facts around: he didn't leave, so si il était parti, and the result becomes negative.
+- b2-si-plus-que-parfait-ex009 | reformulation | Reformulez avec « faillir » : Le train partait, et je suis monté au dernier moment. | — | ["J'ai failli rater le train","J'ai failli manquer le train"] | false | Faillir in the passé composé + infinitive: it almost happened.
+- b2-si-plus-que-parfait-ex010 | error-correction | Corrigez l'erreur : Si j'aurais su, je serais resté. | — | ["Si j'avais su, je serais resté","Si j'avais su, je serais restée"] | false | Never the conditionnel after si: si j'avais su.
+- b2-si-plus-que-parfait-ex011 | fill-in | Complétez : Nous avons eu le train de ___ : les portes se fermaient. | — | ["justesse"] | false | De justesse: only just.
+- b2-si-plus-que-parfait-ex012 | translate | Traduisez : If I'd known, I'd have come. | — | ["Si j'avais su, je serais venu","Si j'avais su, je serais venue","Je serais venu si j'avais su","Je serais venue si j'avais su"] | false | Si + plus-que-parfait, then the conditionnel passé. Venu or venue depends on who speaks.
+- b2-si-plus-que-parfait-ex013 | translate | Traduisez avec « rater » (deux hommes parlent) : If we had left earlier, we wouldn't have missed the train. | — | ["Si nous étions partis plus tôt, nous n'aurions pas raté le train","Nous n'aurions pas raté le train si nous étions partis plus tôt"] | false | Partir takes être, so partis agrees with nous. Rater takes avoir.
+- b2-si-plus-que-parfait-ex014 | translate | Rédigez en complétant comme indiqué (une femme parle) : Si le train (had been) à l'heure, je (would have arrived) à temps. Si j'(had known), j'(would have taken) le bus. Si tu (had called) Paul, il (would have waited). | — | ["Si le train avait été à l'heure, je serais arrivée à temps. Si j'avais su, j'aurais pris le bus. Si tu avais appelé Paul, il aurait attendu."] | true | Each sentence: plus-que-parfait after si, conditionnel passé in the result. Arrivée agrees with the woman speaking.
+- b2-si-plus-que-parfait-ex015 | reorder | Remettez dans l'ordre : If I had known, I would have stayed. | — | ["Si j'avais su, je serais resté"] | false | The si clause first, then a comma and the result.
+
+## b2-mixed-conditionals
+
+### Vocab
+
+fr | pron | en | note
+
+- sauf si | sohf SEE | unless, except if | + indicative.
+- au cas où | oh kah OO | in case | + conditionnel: au cas où il pleuvrait.
+- un parcours | uhn par-KOOR | a path, a career path | —
+- un diplôme | uhn dee-PLOHM | a degree, a qualification | —
+- les études supérieures | lay-zay-tewd sew-pay-RYUHR | higher education | —
+- s'expatrier | seks-pah-tree-YAY | to move abroad (to live and work) | —
+- tenter sa chance | tahn-tay sah SHAHNSS | to try your luck | —
+- tracer sa route | trah-say sah ROOT | to go your own way | —
+- rebondir | ruh-bohn-DEER | to bounce back | Like finir: elle a rebondi.
+- réussir sa vie | ray-ew-seer sah VEE | to make a success of your life | —
+- un regret | uhn ruh-GREH | a regret | —
+- le destin | luh des-TAN | fate, destiny | —
+- aujourd'hui encore | oh-zhoor-dwee ahn-KOR | to this day, even today | —
+- prudent / prudente | prew-DAHN / prew-DAHNT | careful, cautious | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-mixed-conditionals-ex001 | fill-in | Mettez au conditionnel présent (être) : Si j'avais fait des études supérieures, je ___ médecin aujourd'hui. | — | ["serais"] | false | Past condition, present result: si + plus-que-parfait, then the conditionnel présent.
+- b2-mixed-conditionals-ex002 | fill-in | Mettez au conditionnel passé (accepter) : Si je parlais allemand, j'___ ce poste l'année dernière. | — | ["aurais accepté"] | true | Present condition (I don't speak German), past result: the conditionnel passé.
+- b2-mixed-conditionals-ex003 | fill-in | Mettez au plus-que-parfait (partir) : S'il ___ à l'étranger, il parlerait anglais aujourd'hui. | — | ["était parti"] | false | The condition is in the past: s'il était parti.
+- b2-mixed-conditionals-ex004 | fill-in | Mettez au conditionnel présent (avoir) : Prends ton téléphone, au cas où tu ___ un problème. | — | ["aurais"] | false | Au cas où + conditionnel: au cas où tu aurais un problème.
+- b2-mixed-conditionals-ex005 | multiple-choice | Choisissez la phrase qui a le même sens : Il n'a pas fait d'études, et aujourd'hui il n'a pas de diplôme. | ["S'il avait fait des études, il aurait un diplôme.","S'il faisait des études, il aura un diplôme.","S'il fera des études, il aurait un diplôme."] | ["S'il avait fait des études, il aurait un diplôme."] | false | A past condition (plus-que-parfait) with a present result (conditionnel présent).
+- b2-mixed-conditionals-ex006 | connector-choice | Choisissez le connecteur : Je pars demain, ___ il y a une grève. Dans ce cas, je reste. | ["sauf s'","même s'","au cas où"] | ["sauf s'"] | false | Sauf si gives the one case where the plan changes. Même si would contradict the next sentence, and au cas où needs the conditionnel.
+- b2-mixed-conditionals-ex007 | multiple-choice | Indiquez le sens de « prudent » : Sois prudent sur la route ! | ["careful","shy","rich"] | ["careful"] | false | Prudent means careful or cautious.
+- b2-mixed-conditionals-ex008 | reformulation | Reformulez en une phrase qui commence par « Si j'avais appris » : Je n'ai pas appris l'anglais. Aujourd'hui, je ne peux pas travailler à l'étranger. | — | ["Si j'avais appris l'anglais, je pourrais travailler à l'étranger aujourd'hui","Si j'avais appris l'anglais, aujourd'hui je pourrais travailler à l'étranger","Si j'avais appris l'anglais, je pourrais travailler à l'étranger"] | true | Past condition (plus-que-parfait), present result (conditionnel présent).
+- b2-mixed-conditionals-ex009 | reformulation | Reformulez avec « sauf si » : Je viendrai si je ne suis pas malade. | — | ["Je viendrai sauf si je suis malade","Sauf si je suis malade, je viendrai"] | false | Sauf si replaces si… ne… pas, with the indicative.
+- b2-mixed-conditionals-ex010 | error-correction | Corrigez l'erreur : Même si j'aurais le temps, je ne viendrais pas. | — | ["Même si j'avais le temps, je ne viendrais pas"] | false | Même si works like si: never the conditionnel after it.
+- b2-mixed-conditionals-ex011 | fill-in | Complétez avec le participe passé de « rebondir » : Elle a perdu son travail, mais elle a vite ___. | — | ["rebondi"] | false | Rebondir is like finir: elle a rebondi.
+- b2-mixed-conditionals-ex012 | translate | Traduisez avec « étudier » : If I had studied medicine, I would be a doctor today. | — | ["Si j'avais étudié la médecine, je serais médecin aujourd'hui","Si j'avais étudié la médecine, aujourd'hui je serais médecin","Je serais médecin aujourd'hui si j'avais étudié la médecine","Aujourd'hui, je serais médecin si j'avais étudié la médecine"] | true | Past condition, present result. No article before a job after être: je serais médecin.
+- b2-mixed-conditionals-ex013 | translate | Traduisez : Take an umbrella in case it rains. | — | ["Prends un parapluie au cas où il pleuvrait","Prenez un parapluie au cas où il pleuvrait"] | true | Au cas où + conditionnel: au cas où il pleuvrait.
+- b2-mixed-conditionals-ex014 | translate | Rédigez en complétant comme indiqué (un homme parle) : Si je (had stayed) en France, je (would be) professeur aujourd'hui. Mais si j'(were) plus prudent, je (would not have left). Je ne regrette rien : même si j'(had known), j'(would have chosen) la même vie. | — | ["Si j'étais resté en France, je serais professeur aujourd'hui. Mais si j'étais plus prudent, je ne serais pas parti. Je ne regrette rien : même si j'avais su, j'aurais choisi la même vie."] | false | A past condition with a present result, a present condition with a past result, then même si + plus-que-parfait.
+- b2-mixed-conditionals-ex015 | reorder | Remettez dans l'ordre : If I were more careful, I wouldn't have lost my keys. | — | ["Si j'étais plus prudent, je n'aurais pas perdu mes clés"] | false | A present condition (imparfait) with a past result (conditionnel passé).
+
+## b2-futur-anterieur
+
+### Vocab
+
+fr | pron | en | note
+
+- le futur antérieur | luh few-tewr ahn-tay-RYUHR | the futur antérieur (future perfect) | —
+- une fois que | ewn fwah KUH | once (as soon as something is done) | —
+- d'ici (à) | dee-SEE (ah) | by (a deadline) | D'ici vendredi, d'ici la fin du mois.
+- depuis que | duh-pwee KUH | since (+ a clause) | + indicative: depuis qu'il habite ici.
+- une échéance | ew-nay-shay-AHNSS | a deadline, a due date | —
+- respecter un délai | res-pek-tay uhn day-LEH | to meet a deadline | —
+- repousser | ruh-poo-SAY | to postpone, to put back | —
+- un calendrier | uhn kah-lahn-dree-YAY | a schedule, a timetable | —
+- une étape | ew-nay-TAP | a stage, a step | —
+- prévu / prévue | pray-VEW | planned, scheduled | —
+- boucler un projet | boo-klay uhn proh-ZHEH | to wrap up a project | —
+- livrer | lee-VRAY | to deliver | —
+- un rapport | uhn rah-POR | a report | —
+- se tromper de | suh trohn-PAY duh | to get the wrong (date, room, person…) | Je me suis trompé de salle.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-futur-anterieur-ex001 | fill-in | Mettez au futur antérieur (finir) : D'ici vendredi, nous ___ le projet. | — | ["aurons fini"] | false | Avoir in the futur, then the participle: nous aurons fini.
+- b2-futur-anterieur-ex002 | fill-in | Mettez au futur antérieur (partir) : Quand tu arriveras, Paul ___. | — | ["sera parti"] | false | Partir takes être: Paul sera parti.
+- b2-futur-anterieur-ex003 | fill-in | Mettez au futur antérieur (arriver) : Appelle-moi dès que tu ___. | — | ["seras arrivé","seras arrivée"] | false | Arriver takes être: tu seras arrivé, or arrivée.
+- b2-futur-anterieur-ex004 | fill-in | Mettez au futur antérieur (lire) : Une fois que j'___ le dossier, je t'appellerai. | — | ["aurai lu"] | false | Une fois que + futur antérieur for the earlier action: j'aurai lu.
+- b2-futur-anterieur-ex005 | multiple-choice | Choisissez la bonne forme : Dès que j'___ mon travail, je partirai. | ["aurai fini","aurais fini","avais fini"] | ["aurai fini"] | false | The work is finished before you leave, so dès que takes the futur antérieur.
+- b2-futur-anterieur-ex006 | multiple-choice | Indiquez le sens de : Paul n'est pas venu ? Il aura oublié. | ["He's probably forgotten.","He will forget.","He would forget."] | ["He's probably forgotten."] | false | Here the futur antérieur is a guess about the past.
+- b2-futur-anterieur-ex007 | connector-choice | Choisissez le connecteur : Il est beaucoup plus heureux ___ il habite à Lyon. | ["depuis qu'","dès qu'","une fois qu'"] | ["depuis qu'"] | false | Depuis que + indicative: a situation that started in the past and continues.
+- b2-futur-anterieur-ex008 | reformulation | Reformulez avec « dès que » et le futur antérieur : Je finirai, puis je partirai. | — | ["Dès que j'aurai fini, je partirai","Je partirai dès que j'aurai fini"] | true | The first action takes the futur antérieur, the second the futur.
+- b2-futur-anterieur-ex009 | reformulation | Reformulez avec le futur antérieur : Il a sûrement oublié. | — | ["Il aura oublié"] | false | The futur antérieur alone can express a guess: il aura oublié.
+- b2-futur-anterieur-ex010 | error-correction | Corrigez l'erreur : Je t'appellerai quand j'ai fini. | — | ["Je t'appellerai quand j'aurai fini"] | false | Both actions are in the future, so quand takes the futur antérieur for the earlier one.
+- b2-futur-anterieur-ex011 | fill-in | Complétez : Le projet sera fini ___ la fin du mois. | — | ["d'ici"] | false | D'ici + a point in time: by the end of the month.
+- b2-futur-anterieur-ex012 | translate | Traduisez : By Friday, we will have finished the report. | — | ["D'ici vendredi, nous aurons fini le rapport","Nous aurons fini le rapport d'ici vendredi"] | false | D'ici + the deadline, and the futur antérieur.
+- b2-futur-anterieur-ex013 | translate | Traduisez avec « appeler » (tu, à un homme) : Call me as soon as you've arrived. | — | ["Appelle-moi dès que tu seras arrivé"] | true | Dès que + futur antérieur, where English uses 'you've arrived'.
+- b2-futur-anterieur-ex014 | translate | Rédigez en complétant comme indiqué : D'ici lundi, nous (will have finished) la première étape. Dès que Sophie (has sent) les documents, j'(will write) le rapport. Une fois que nous (have delivered) le projet, nous (will celebrate) la fin du projet. | — | ["D'ici lundi, nous aurons fini la première étape. Dès que Sophie aura envoyé les documents, j'écrirai le rapport. Une fois que nous aurons livré le projet, nous fêterons la fin du projet."] | true | The futur antérieur for each earlier action, the futur for each later one.
+- b2-futur-anterieur-ex015 | reorder | Remettez dans l'ordre : He will have left before noon. | — | ["Il sera parti avant midi"] | false | Être in the futur, then the participle.
+
+## b2-subjonctif-passe
+
+### Vocab
+
+fr | pron | en | note
+
+- le subjonctif passé | luh sewb-zhohn-teef pah-SAY | the past subjunctive | —
+- soulagé / soulagée | soo-lah-ZHAY | relieved | Soulagé que + subjunctive.
+- étonné / étonnée | ay-toh-NAY | surprised, astonished | Étonné que + subjunctive.
+- ému / émue | ay-MEW | moved, touched (emotionally) | —
+- se réjouir que | suh ray-zhoo-eer KUH | to be delighted that (formal) | Like finir: je me réjouis. + subjunctive.
+- féliciter quelqu'un de | fay-lee-see-tay kel-KUHN duh | to congratulate someone on | —
+- une naissance | ewn neh-SAHNSS | a birth | —
+- un faire-part | uhn fehr-PAR | an announcement card (birth, wedding) | —
+- la remise des diplômes | lah ruh-meez day dee-PLOHM | the graduation ceremony | —
+- un exploit | uh-nek-SPLWAH | a feat, an achievement | —
+- se rétablir | suh ray-tah-BLEER | to recover (from an illness) | Like finir: il se rétablit.
+- chaleureux / chaleureuse | shah-luh-RUH / shah-luh-RUHZ | warm (of a welcome, a message) | —
+- trinquer | tran-KAY | to raise a glass, to toast | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-subjonctif-passe-ex001 | fill-in | Mettez au subjonctif passé (finir) : Je suis content que tu ___ ton travail. | — | ["aies fini"] | false | Avoir in the present subjunctive, then the participle: que tu aies fini.
+- b2-subjonctif-passe-ex002 | fill-in | Mettez au subjonctif passé (partir) : Il est dommage qu'elle ___ si tôt. | — | ["soit partie"] | false | Partir takes être, and partie agrees with elle.
+- b2-subjonctif-passe-ex003 | fill-in | Mettez au subjonctif passé (venir ; vous = deux amis) : Nous sommes ravis que vous ___. | — | ["soyez venus"] | false | Venir takes être: que vous soyez venus, plural for two friends.
+- b2-subjonctif-passe-ex004 | fill-in | Mettez au subjonctif passé (réussir) : Bien qu'il ___ son examen, il n'est pas content. | — | ["ait réussi"] | false | Bien que + subjunctive; the success came first, so the past subjunctive.
+- b2-subjonctif-passe-ex005 | multiple-choice | Choisissez la bonne forme : Hier, tu es venu à la fête. Je suis content que tu ___. | ["sois venu","viennes","es venu"] | ["sois venu"] | false | The visit is over, so the past subjunctive. Es venu is the indicative.
+- b2-subjonctif-passe-ex006 | multiple-choice | Choisissez la bonne forme : Je suis soulagé que ma sœur soit ___. | ["rentrée","rentré","rentrés"] | ["rentrée"] | false | With être, the participle agrees with the subject: ma sœur soit rentrée.
+- b2-subjonctif-passe-ex007 | connector-choice | Choisissez le connecteur : ___ elle soit partie tôt, elle a réussi l'examen. | ["Bien qu'","Parce qu'","Dès qu'"] | ["Bien qu'"] | false | Bien que takes the subjunctive. Parce que and dès que take the indicative.
+- b2-subjonctif-passe-ex008 | reformulation | Reformulez en une phrase avec « que » : Tu es venu. Je suis ravi. | — | ["Je suis ravi que tu sois venu"] | false | Ravi que + past subjunctive, because the visit has already happened.
+- b2-subjonctif-passe-ex009 | reformulation | Reformulez avec « je doute que » : Il a compris. | — | ["Je doute qu'il ait compris"] | false | Douter que + subjunctive; the understanding is in the past.
+- b2-subjonctif-passe-ex010 | error-correction | Corrigez l'erreur : Je suis content que tu es venu. | — | ["Je suis content que tu sois venu"] | false | Content que + subjunctive: que tu sois venu.
+- b2-subjonctif-passe-ex011 | fill-in | Complétez : Je voudrais te ___ de ton diplôme. | — | ["féliciter"] | false | Féliciter quelqu'un de: to congratulate someone on.
+- b2-subjonctif-passe-ex012 | translate | Traduisez avec « content » et « tu » (un homme parle à une femme) : I'm glad you came. | — | ["Je suis content que tu sois venue"] | false | Content que + past subjunctive; venue agrees with the woman.
+- b2-subjonctif-passe-ex013 | translate | Traduisez : Although she left early, she passed. | — | ["Bien qu'elle soit partie tôt, elle a réussi","Elle a réussi bien qu'elle soit partie tôt"] | true | Bien que + past subjunctive: qu'elle soit partie.
+- b2-subjonctif-passe-ex014 | translate | Rédigez cette carte en complétant comme indiqué : Chère Emma, nous sommes ravis que tu (have passed) ton examen. Bien que tu (have been) malade, tu as réussi ! (Congratulations) et à bientôt ! | — | ["Chère Emma, nous sommes ravis que tu aies réussi ton examen. Bien que tu aies été malade, tu as réussi ! Félicitations et à bientôt !","Chère Emma, nous sommes ravis que tu aies réussi ton examen. Bien que tu aies été malade, tu as réussi ! Bravo et à bientôt !"] | true | Two past subjunctives, after ravis que and bien que.
+- b2-subjonctif-passe-ex015 | reorder | Remettez dans l'ordre : I'm relieved that you've arrived. | — | ["Je suis soulagé que tu sois arrivé"] | false | Soulagé que + past subjunctive.
+
+## b2-regret-and-reproach
+
+### Vocab
+
+fr | pron | en | note
+
+- j'aurais dû | zhoh-reh DEW | I should have | + infinitive: j'aurais dû partir.
+- j'aurais pu | zhoh-reh PEW | I could have | —
+- regretter de | ruh-greh-TAY duh | to be sorry to, to regret | + infinitive: je regrette de devoir partir.
+- je m'en veux | zhuh mahn VUH | I'm annoyed with myself | Fixed phrase.
+- avoir des remords | ah-vwahr day ruh-MOR | to feel remorse | —
+- se sentir coupable | suh sahn-teer koo-PAH-bluh | to feel guilty | —
+- tu aurais pu | tew oh-reh PEW | you could have (as a reproach) | Tu aurais pu me prévenir !
+- reprocher à quelqu'un de | ruh-proh-SHAY ah kel-KUHN duh | to blame someone for, to criticize someone for | + infinitive or a noun.
+- un reproche | uhn ruh-PROSH | a reproach, a criticism | Faire des reproches à quelqu'un.
+- décevoir | day-suh-VWAHR | to disappoint | Like recevoir: je déçois, il a déçu.
+- c'est (de) ma faute | seh (duh) mah FOHT | it's my fault | —
+- s'excuser de | seks-kew-ZAY duh | to apologize for | Je m'excuse du retard.
+- présenter ses excuses | pray-zahn-tay say-zeks-KEWZ | to apologize (formal) | Je vous présente mes excuses.
+- ça ne se reproduira pas | sah nuh suh ruh-proh-dwee-rah PAH | it won't happen again | Fixed phrase.
+- ce n'est pas ta faute | suh neh pah tah FOHT | it's not your fault | —
+- on ne refait pas le passé | ohn nuh ruh-feh pah luh pah-SAY | you can't change the past | —
+- tu m'as manqué | tew mah mahn-KAY | I missed you | Manquer à: the person missed is the subject.
+- une absence | ew-nap-SAHNSS | an absence | —
+- sincèrement | san-sehr-MAHN | sincerely, truly | —
+- un contretemps | uhn kohn-truh-TAHN | a mishap, an unexpected problem | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-regret-and-reproach-ex001 | multiple-choice | Indiquez le sens de : Tu aurais pu me prévenir ! | ["a reproach to someone else","a regret about yourself","a promise for the future"] | ["a reproach to someone else"] | false | Tu aurais pu + infinitive tells the other person what they should have done.
+- b2-regret-and-reproach-ex002 | fill-in | Mettez devoir au conditionnel passé : J'___ partir plus tôt. | — | ["aurais dû"] | true | J'aurais dû + infinitive: I should have.
+- b2-regret-and-reproach-ex003 | fill-in | Complétez le reproche : Tu ___ pu m'appeler ! | — | ["aurais"] | false | Tu aurais pu: you could have.
+- b2-regret-and-reproach-ex004 | multiple-choice | Choisissez l'excuse du registre soutenu. | ["Je vous présente mes excuses.","Désolé !","Pardon !"] | ["Je vous présente mes excuses."] | false | Présenter ses excuses is formal. Désolé and pardon are everyday words.
+- b2-regret-and-reproach-ex005 | connector-choice | Choisissez le connecteur : ___ j'avais écouté tes conseils ! | ["Si seulement","Même si","Bien que"] | ["Si seulement"] | false | Si seulement + plus-que-parfait expresses a regret about the past.
+- b2-regret-and-reproach-ex006 | register-shift | Transformez en registre soutenu, avec « présenter ses excuses » : Désolé pour le retard ! | — | ["Je vous présente mes excuses pour le retard","Je vous présente toutes mes excuses pour le retard"] | false | Je vous présente mes excuses pour + noun is the formal apology.
+- b2-regret-and-reproach-ex007 | register-shift | Transformez en registre courant, avec « désolé » (un homme parle) : Je vous présente mes excuses pour mon absence. | — | ["Désolé pour mon absence","Je suis désolé pour mon absence"] | false | Désolé pour + noun is the everyday apology.
+- b2-regret-and-reproach-ex008 | reformulation | Reformulez avec « tu aurais pu » : Pourquoi tu n'as pas appelé ? | — | ["Tu aurais pu appeler","Tu aurais pu m'appeler"] | false | The question becomes a reproach: tu aurais pu + infinitive.
+- b2-regret-and-reproach-ex009 | reformulation | Reformulez avec « regretter de » : Je dois partir, et je le regrette. | — | ["Je regrette de devoir partir"] | false | Regretter de + infinitive, with one subject.
+- b2-regret-and-reproach-ex010 | error-correction | Corrigez l'erreur : J'aurais dû de venir. | — | ["J'aurais dû venir"] | true | Devoir is followed directly by the infinitive, with no de.
+- b2-regret-and-reproach-ex011 | fill-in | Complétez avec reprocher au présent : Il ___ à son frère d'être toujours en retard. | — | ["reproche"] | false | Reprocher à quelqu'un de + infinitive.
+- b2-regret-and-reproach-ex012 | translate | Traduisez : I should have listened to you. | — | ["J'aurais dû t'écouter","J'aurais dû vous écouter"] | true | J'aurais dû + infinitive. Écouter takes a direct object, so te or vous.
+- b2-regret-and-reproach-ex013 | translate | Rédigez ce message en complétant comme indiqué (une femme écrit) : (I'm really sorry), j'ai oublié ton anniversaire. (I should have) regarder mon calendrier. (It won't happen again). | — | ["Je suis vraiment désolée, j'ai oublié ton anniversaire. J'aurais dû regarder mon calendrier. Ça ne se reproduira pas."] | true | An apology, a regret with j'aurais dû, and a promise.
+- b2-regret-and-reproach-ex014 | translate | Rédigez ce message à un collègue en complétant comme indiqué (vous) : Bonjour Marc, (you could have) me prévenir : la réunion était à dix heures. (Next time), merci de m'envoyer un message. | — | ["Bonjour Marc, vous auriez pu me prévenir : la réunion était à dix heures. La prochaine fois, merci de m'envoyer un message."] | true | Vous auriez pu makes a polite but clear reproach; la prochaine fois turns it into a request.
+- b2-regret-and-reproach-ex015 | reorder | Remettez dans l'ordre : You should have told me. | — | ["Tu aurais dû me le dire"] | false | Tu aurais dû, then the pronouns before the infinitive.
+
+## b2-review-what-might-have-been
+
+### Vocab
+
+fr | pron | en | note
+
+- une uchronie | ew-new-kroh-NEE | an alternative history (what would have happened if…) | —
+- un carrefour | uhn kar-FOOR | a crossroads (in life, figuratively) | —
+- basculer | bahs-kew-LAY | to tip over, to change completely | —
+- rétrospectivement | ray-troh-spek-teev-MAHN | in hindsight, looking back | —
+- avec le recul | ah-vek luh ruh-KEWL | with hindsight, with distance | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-review-what-might-have-been-ex001 | fill-in | Mettez au conditionnel passé (aimer) : Nous ___ rester à Lyon. | — | ["aurions aimé"] | true | Avoir in the conditionnel, then the participle: nous aurions aimé.
+- b2-review-what-might-have-been-ex002 | fill-in | Mettez au plus-que-parfait (savoir) : Si tu ___, tu serais venu ? | — | ["avais su"] | false | Si + plus-que-parfait, then the conditionnel passé.
+- b2-review-what-might-have-been-ex003 | fill-in | Mettez au conditionnel présent (travailler) : Si j'avais pris le train d'après, je ___ encore dans une banque. | — | ["travaillerais"] | false | A past condition with a present result: the conditionnel présent.
+- b2-review-what-might-have-been-ex004 | fill-in | Mettez au futur antérieur (finir) : Dès que j'___, je t'écrirai. | — | ["aurai fini"] | false | The earlier of two future actions: the futur antérieur.
+- b2-review-what-might-have-been-ex005 | fill-in | Mettez au subjonctif passé (partir) : Je suis triste qu'elle ___ sans nous voir. | — | ["soit partie"] | false | Triste que + subjunctive; she has already left, so the past subjunctive.
+- b2-review-what-might-have-been-ex006 | connector-choice | Choisissez le connecteur : Je viendrai samedi, ___ mon train est annulé. Dans ce cas, je t'appellerai. | ["sauf si","même si","bien que"] | ["sauf si"] | false | Sauf si + indicative gives the one case that changes the plan.
+- b2-review-what-might-have-been-ex007 | connector-choice | Choisissez le connecteur : ___ j'ai ouvert mon restaurant, je travaille le dimanche. | ["Depuis que","Dès que","Au cas où"] | ["Depuis que"] | false | Depuis que + indicative: a situation that started in the past and continues.
+- b2-review-what-might-have-been-ex008 | multiple-choice | Indiquez le sens de « avec le recul ». | ["with hindsight","without moving","at the last minute"] | ["with hindsight"] | false | Avec le recul: looking back, with some distance.
+- b2-review-what-might-have-been-ex009 | reformulation | Reformulez avec « si » + plus-que-parfait : Elle n'a pas pris ce train, donc elle n'a pas rencontré Paul. | — | ["Si elle avait pris ce train, elle aurait rencontré Paul","Elle aurait rencontré Paul si elle avait pris ce train"] | false | Turn both facts around: si + plus-que-parfait, then the conditionnel passé.
+- b2-review-what-might-have-been-ex010 | reformulation | Reformulez avec « j'aurais dû » : Je regrette : je n'ai pas écrit à cette femme. | — | ["J'aurais dû écrire à cette femme","J'aurais dû lui écrire"] | true | J'aurais dû + infinitive expresses the regret.
+- b2-review-what-might-have-been-ex011 | error-correction | Corrigez l'erreur : Si j'aurais pris le train d'après, je travaillerais dans une banque. | — | ["Si j'avais pris le train d'après, je travaillerais dans une banque"] | false | Never the conditionnel after si: si j'avais pris.
+- b2-review-what-might-have-been-ex012 | register-shift | Transformez en reproche plus doux, avec « tu aurais pu » et « peut-être » : Tu aurais dû m'appeler ! | — | ["Tu aurais peut-être pu m'appeler","Tu aurais pu m'appeler, peut-être"] | false | Tu aurais pu is softer than tu aurais dû, and peut-être softens it further.
+- b2-review-what-might-have-been-ex013 | translate | Traduisez : In hindsight, it was a turning point. | — | ["Avec le recul, c'était un tournant","Rétrospectivement, c'était un tournant","Avec le recul, ça a été un tournant","Rétrospectivement, ça a été un tournant"] | true | Avec le recul or rétrospectivement, then un tournant.
+- b2-review-what-might-have-been-ex014 | translate | Rédigez en complétant comme indiqué : Il y a cinq ans, ma vie (changed completely). (By chance), j'ai rencontré une amie à la gare. Elle m'a proposé un poste à Paris. | — | ["Il y a cinq ans, ma vie a basculé. Par hasard, j'ai rencontré une amie à la gare. Elle m'a proposé un poste à Paris."] | true | Basculer in the passé composé, with avoir, and par hasard.
+- b2-review-what-might-have-been-ex015 | translate | Rédigez en complétant comme indiqué : Si je n'(had met) cette amie, j'(would still live) à Lyon. (In hindsight), je ne regrette rien. | — | ["Si je n'avais pas rencontré cette amie, j'habiterais encore à Lyon. Avec le recul, je ne regrette rien.","Si je n'avais pas rencontré cette amie, j'habiterais encore à Lyon. Rétrospectivement, je ne regrette rien."] | true | A past condition with a present result, then a look back.
+- b2-review-what-might-have-been-ex016 | reorder | Remettez dans l'ordre : My life changed completely ten years ago. | — | ["Ma vie a basculé il y a dix ans"] | false | Passé composé, then il y a + a length of time.

@@ -55,6 +55,7 @@ export const NEW_MEANINGS: Record<string, string> = {
   "un état des lieux": "B2 (b2-formal-report): an overview of a situation. b1-housing-and-renting taught an inventory check.",
   "quoi": "B2 (b2-colloquial-french): the filler at the end of a sentence. a1-question-words taught what.",
   "trop": "B2 (b2-colloquial-french): very, in familiar speech. a2-adverbs-ment taught too (much).",
+  "un carrefour": "B2 (b2-review-what-might-have-been): a crossroads in life, figuratively. a1-asking-directions taught a road junction (le carrefour).",
 };
 
 // The passé simple (recognition only, from b2-arts-and-literature on). Unambiguous endings and

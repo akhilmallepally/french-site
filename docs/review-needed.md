@@ -1130,3 +1130,41 @@ Every date, tradition and regional detail, for checking:
 ## b2-review-nuance
 
 - **"A *tribune* is the French name for a signed opinion text in a newspaper or on a website."** Confirm.
+
+## b2-conditionnel-passe
+
+- **"In news reports, the conditionnel passé gives a past fact that the journalist can't confirm yet. It's like 'is said to have' or 'reportedly' in English."** Confirm this is standard in French journalism.
+- **"*Un bilan* here is the number of victims of an event."** Confirm the meaning (toll).
+- **"*Bifurquer* (to change course) comes from the image of a road that splits in two."** Confirm the figurative use in *j'ai bifurqué*.
+
+## b2-si-plus-que-parfait
+
+- **"*Si j'aurais su* is a very common mistake, even among French speakers, but it's wrong in standard French."** Confirm.
+- **"*Se douter que* takes the indicative, because you think it's true."** Confirm, and that *se douter de* means to suspect.
+- **"*Faillir* + infinitive, in the passé composé, says that something nearly happened."** Confirm it's common in speech.
+
+## b2-mixed-conditionals
+
+- **"*Au cas où* (in case) ... takes the conditionnel."** Confirm.
+- **"*Sauf si* (unless) ... takes the indicative ... the everyday partner of *à moins que* + subjunctive."** Confirm.
+- **"*Même si* ... follows exactly the same tense rules as *si*."** Confirm, including *même si* + imparfait for hypotheses.
+- **"*Tracer sa route* means to follow your own way."** Confirm the meaning and register.
+
+## b2-futur-anterieur
+
+- **"*Après que* ... takes the indicative, so it works in the same way: *après que tu seras parti, je fermerai la porte*."** Confirm.
+- **"*Il aura oublié* means the same as *il a sûrement oublié*."** Confirm the supposition use and that it's common in speech.
+- **"*Boucler un projet* is an informal but common way to say 'to wrap up a project' at work."** Confirm the register.
+
+## b2-subjonctif-passe
+
+- **"In everyday French these two forms are the only subjunctives you need: the other two tenses of the subjunctive belong to old literary texts."** Confirm.
+- **"*Ému* (moved) usually takes *de* or stands alone."** Confirm.
+- **Dialogue: "Chloé says *vous* to her grandmother, as some families do."** Confirm this is presented fairly.
+
+## b2-regret-and-reproach
+
+- **Fixed phrases: *je m'en veux*, *Je m'en veux tellement*, *regretter d'avoir*, *je regrette d'avoir dit ça*, *ça ne se reproduira pas*, *et ça ne se reproduira pas*.** Je m'en veux uses idiomatic en (b2-idiomatic-y-en), regretter d'avoir + participle the past infinitive (b2-infinitif-passe), and ça ne se reproduira pas the pronominal passive (b2-alternatives-to-passive). All three are taught later; here they're labelled fixed phrases.
+- **"In context it's a reproach: *tu aurais pu me prévenir !* means 'you should have warned me'."** Confirm that *tu aurais pu* reads as a reproach, not a possibility.
+- **"*C'est (de) ma faute* ... *c'est ma faute* is the more careful form."** Confirm.
+- **"*Tu aurais dû* is firmer than *tu aurais pu*."** Confirm.

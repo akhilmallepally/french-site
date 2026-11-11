@@ -123,3 +123,18 @@
   - No wrong links or filler sections found.
 - **CLAUDE.md:** a new B2 accepted-answers rule, and the self-check question added to workflow step 5. 2 new items in review-needed.md (*même si*, *après que*), plus 1 for the new dialogue line.
 - **Checks:** check:words, check:structures, validate, test:content, test:checker (29/29) and build pass. The audit's only B2 row is purpose ex014 with 6 answers, allowed under the "6 or fewer" instruction. A1 to B1 output is unchanged.
+
+## Unit 2
+
+- **Teaching-text words:** conditionnel-passe 870, si-plus-que-parfait 832, mixed-conditionals 808, futur-anterieur 860, subjonctif-passe 831, regret-and-reproach 806 (whole lesson 1,475), review-what-might-have-been 828 (all b2-).
+- **Vocab deviations:**
+  - Recaps instead of entries: *éviter*, *après que*, *ravi*, *fier*, *déçu*, *s'inquiéter*, *il aura oublié*. *D'ici* is merged into one entry.
+  - Added: grammar-term entries for the résumés, *un rapport*, *ému*, *se réjouir que*, *trinquer*.
+- **Exercise deviations:**
+  - si ex7 distractors are *bien que* and *pour que* (*même si* + plus-que-parfait is grammatical).
+  - mixed ex12 is about medicine, and regret ex6 avoids *mec* (law and slang aren't taught).
+  - Several cues are pinned so every valid answer is listed. No dialogue relies on agreement with a preceding object pronoun.
+- **Lists and scripts:** NEW_MEANINGS has *un carrefour*. check-words.ts has *pleuvrait* and some B2-only English words.
+- **Checks:** check:words, check:structures, audit, validate, test:content, test:checker (29/29) and build all pass. The only B2 audit row is the earlier purpose ex014 (6 answers). Duplicate vocab is 66 (*un bilan*, a NEW_MEANINGS entry). A1 to B1 output is unchanged.
+- **review-needed.md:** 20 items under 6 ids. They cover the news conditionnel, *si j'aurais su*, *se douter que*, *faillir*, *au cas où*, *sauf si*, *après que*, supposition, the subjunctive tenses, the 3 fixed phrases and *tu aurais pu*.
+- **Not done:** no fluent-speaker check.
