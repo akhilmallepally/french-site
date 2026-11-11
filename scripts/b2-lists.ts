@@ -9,7 +9,7 @@ export const INSTRUCTION_VERBS = [
   "Conjuguez", "Accordez", "Mettez au…", "Répondez", "Rédigez", "Traduisez", "Trouvez",
 ];
 export const INSTRUCTION_NOUNS = [
-  "la phrase", "le mot", "le verbe", "la forme", "la bonne réponse", "le connecteur", "l'erreur",
+  "la phrase", "le mot", "le verbe", "la forme", "le sens", "la bonne réponse", "le connecteur", "l'erreur",
   "le registre", "soutenu", "familier", "courant", "le temps", "le texte",
 ];
 export const INSTRUCTION_WORDS = new Set(
@@ -41,6 +41,7 @@ médical médicale méthode méthodes négociation objection opposition paradoxa
 participant participante position positions priorité probabilité procédure profil prévention racisme registre
 restauration rhétorique rime risque risques romantisme récession satirique scandale scène solidarité spécialiste
 stratégie surprise surréalisme suspect symboliser thème thèmes transition électoral électorale émotion émotions absentéisme
+excellent excellente présentation action actions ambiance
 `.trim().split(/\s+/));
 
 // A B2 vocab entry may repeat an A1–B1 entry only when it teaches a new meaning, listed here

@@ -41,6 +41,7 @@ const IGNORE = new Set([
   // irregular forms of verbs defined elsewhere
   "souviens", "souvient", "souviennent", "souvenons", "souvenez",
   "deviendrais", "deviendrait", "deviendrai", "deviendra", "aperçu", "aperçue", "disparu", "disparue", "paie", "paies", "nourrisse", "nourrisses", "envoie", "envoies", "préviens", "prévient", "prévienne", "préviennent",
+  "réussisse", "comprennent", "compreniez", "agisse",
   // grammar terms and film titles
   "plus-que-parfait", "parfait", "souffle", "intouchables", "ch'tis",
   "montréal", "québec", "genève", "marseille", "rouen", "avignon", "cannes", "dupont", "martin", "dubois",
@@ -89,9 +90,14 @@ function names(s: string): Set<string> {
   for (const m of s.matchAll(re)) if (m[1] === undefined) out.add(m[2].toLowerCase());
   return out;
 }
-const isEnglish = (s: string) => {
+// More English words, used only for B2 and later, whose prompts and options mix in English sentences.
+// (Kept apart so that A1 to B1 results don't change.)
+const B2_ENGLISH = new Set(("say another way purchasing power volunteers help homeless people before after leave rains rain if wait until although late going out we'll it's we're don't i'll i'd you're there's that's mixed strong opinion meaning sentence word despite age he's still working stand someone up everyone heard him nobody hear " +
+  "").trim().split(/\s+/));
+const isEnglishWord = (w: string, b2 = false) => ENGLISH.has(w) || (b2 && B2_ENGLISH.has(w));
+const isEnglish = (s: string, b2 = false) => {
   const t = tokens(s);
-  return t.length > 0 && t.filter((w) => ENGLISH.has(w)).length / t.length >= 0.3;
+  return t.length > 0 && t.filter((w) => isEnglishWord(w, b2)).length / t.length >= 0.3;
 };
 
 type Exercise = { id: string; type: string; prompt?: string; options?: string[]; words?: string[]; answers?: string[] };
@@ -131,6 +137,7 @@ function fixedPhrases(): Map<string, string[]> {
 
 // French segments a learner reads: examples, dialogues and longer texts, exercises.
 function segments(l: Lesson): string[] {
+  const b2 = l.rank >= B2_RANK;
   const out: string[] = [];
   for (const m of l.body.matchAll(/<Example fr="([^"]*)"/g)) out.push(m[1]);
   out.push(...textSectionFrench(l.body), ...resumeFrench(l.body));
@@ -139,8 +146,15 @@ function segments(l: Lesson): string[] {
     if (e.type === "multiple-choice") out.push(...(e.options ?? []));
     const p = e.prompt ?? "";
     if (l.rank >= B2_RANK) {
-      // B2 prompts are French (instructions from the fixed list, then the sentence).
-      out.push(p.replace(/\([^)]*\)/g, " "));
+      // B2 prompts are French (instructions from the fixed list, then the sentence). The part
+      // after the first colon is left out when it's an English sentence to translate.
+      const q = p.replace(/\([^)]*\)/g, " ");
+      const i = q.indexOf(": ");
+      if (i < 0) out.push(q);
+      else {
+        out.push(q.slice(0, i));
+        if (!isEnglish(q.slice(i + 2), b2)) out.push(q.slice(i + 2));
+      }
     } else if (/___/.test(p) || /rewrite|filling each gap/i.test(p)) {
       const q = p.replace(/\([^)]*\)/g, " ");
       const i = q.indexOf(": ");
@@ -148,7 +162,7 @@ function segments(l: Lesson): string[] {
     }
   }
   // answers and options that are only an ending (such as "-aient") aren't words
-  return out.filter((s) => !isEnglish(s) && !s.trim().startsWith("-"));
+  return out.filter((s) => !isEnglish(s, b2) && !s.trim().startsWith("-"));
 }
 
 const filter = process.argv[2];
@@ -166,7 +180,7 @@ for (const l of lessons) {
   for (const s of segments(l)) {
     const skip = names(s);
     for (const w of tokens(s)) {
-      if (IGNORE.has(w) || ENGLISH.has(w) || skip.has(w) || fixedWords.has(w) || w.length < 2) continue;
+      if (IGNORE.has(w) || isEnglishWord(w, l.rank >= B2_RANK) || skip.has(w) || fixedWords.has(w) || w.length < 2) continue;
       if (l.rank >= B2_RANK && (COGNATES.has(w) || INSTRUCTION_WORDS.has(w))) continue;
       if (roots(w).some((r) => knownRoots.has(r))) continue;
       if (!missing.has(w)) missing.set(w, s.length > 70 ? s.slice(0, 70) + "…" : s);

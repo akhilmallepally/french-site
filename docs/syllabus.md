@@ -326,9 +326,9 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 2 | b2-social-issues | Social issues | Nuance and society | vocabulary | b1-culture-french-republic | Inequality, housing, immigration, unemployment, solidarity. |
 | 3 | b2-subjunctive-conjunctions | Subjunctive after conjunctions | Nuance and society | grammar | b1-subjunctive-vs-infinitive | bien que, avant que, à condition que, jusqu'à ce que, sans que, à moins que; the expletive ne. Reuses: social issues. |
 | 4 | b2-concession-opposition | Concession and opposition | Nuance and society | grammar | b2-subjunctive-conjunctions, b1-cause-and-consequence | malgré, pourtant, cependant, néanmoins, en revanche, alors que, tandis que, quand même, avoir beau. Reuses: social issues, opinions. |
-| 5 | b2-logical-connectors | Logical connectors | Nuance and society | grammar | b2-concession-opposition | de plus, en outre, d'ailleurs, en effet, or, ainsi, par conséquent, d'où, si bien que, étant donné que, vu que, faute de, à force de; soit… soit, ou bien (table). Reuses: social issues, opinions. |
-| 6 | b2-purpose-expressions | Expressing purpose | Nuance and society | grammar | b2-subjunctive-conjunctions | pour, pour que, afin de / afin que, de peur que, de sorte que, dans le but de. Reuses: social issues. |
-| 7 | b2-idioms-everyday | Everyday idioms | Nuance and society | vocabulary | b1-relationships | Common idioms: avoir le cafard, poser un lapin, coûter les yeux de la tête. |
+| 5 | b2-idioms-everyday | Everyday idioms | Nuance and society | vocabulary | b1-relationships | Common idioms: avoir le cafard, poser un lapin, coûter les yeux de la tête. |
+| 6 | b2-logical-connectors | Logical connectors | Nuance and society | grammar | b2-concession-opposition | de plus, en outre, d'ailleurs, en effet, or, ainsi, par conséquent, d'où, si bien que, étant donné que, vu que, faute de, à force de; soit… soit, ou bien (table). Reuses: social issues, opinions. |
+| 7 | b2-purpose-expressions | Expressing purpose | Nuance and society | grammar | b2-subjunctive-conjunctions | pour, pour que, afin de / afin que, de peur que, de sorte que, dans le but de. Reuses: social issues. |
 | 8 | b2-review-nuance | Review: Nuance and society | Nuance and society | review | b2-nuancing-opinions, b2-social-issues, b2-logical-connectors, b2-purpose-expressions, b2-idioms-everyday | Nuanced opinion text on a social issue. |
 
 ### Unit 2: What might have been

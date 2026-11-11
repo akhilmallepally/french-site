@@ -1,6 +1,6 @@
 # All lesson data
 
-164 written lessons, in course order.
+172 written lessons, in course order.
 
 ## a1-greetings
 
@@ -6341,3 +6341,359 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b1-review-final-ex012 | translate | Write out this paragraph from a B1 bilan, filling each gap as shown (a woman writing): (In my opinion), j'ai beaucoup progressé. (It's been) un an que j'apprends le français. Je peux (express myself) au travail et en voyage. (If I had more time), je lirais plus de livres. | — | ["À mon avis, j'ai beaucoup progressé. Ça fait un an que j'apprends le français. Je peux m'exprimer au travail et en voyage. Si j'avais plus de temps, je lirais plus de livres."] | true | À mon avis, ça fait… que, s'exprimer with me, and si + imparfait with the conditionnel.
 - b1-review-final-ex013 | translate | Write out these three suggestions for a weekend in Lyon, filling each gap as shown: (How about going) dans un bouchon ? (We could) faire une dégustation de vins. (Would you fancy) goûter une spécialité lyonnaise ? | — | ["Si on allait dans un bouchon ? On pourrait faire une dégustation de vins. Ça te dirait de goûter une spécialité lyonnaise ?","Et si on allait dans un bouchon ? On pourrait faire une dégustation de vins. Ça te dirait de goûter une spécialité lyonnaise ?"] | false | Si on + imparfait, on pourrait + infinitive, ça te dirait de + infinitive.
 - b1-review-final-ex014 | reorder | Put the words in order: There's more and more plastic in the sea. | — | ["Il y a de plus en plus de plastique dans la mer"] | false | De plus en plus de + a noun, with no article.
+
+## b2-nuancing-opinions
+
+### Vocab
+
+fr | pron | en | note
+
+- plutôt | plew-TOH | rather, fairly | —
+- relativement | ruh-lah-teev-MAHN | relatively | —
+- dans une certaine mesure | dahn-zewn sehr-ten muh-ZEWR | to some extent | —
+- jusqu'à un certain point | zhews-kah uhn sehr-tan PWAN | up to a point | —
+- a priori | ah pree-oh-REE | on the face of it, in principle | —
+- à première vue | ah pruh-myehr VEW | at first sight | —
+- en principe | ahn pran-SEEP | in principle, normally | —
+- sur le fond | sewr luh FOHN | basically, on the substance | —
+- il me semble que | eel muh sahn-bluh KUH | it seems to me that | Followed by the indicative.
+- il semble que | eel sahn-bluh KUH | it seems that | Followed by the subjunctive.
+- je dirais que | zhuh dee-reh KUH | I'd say that | —
+- reconnaître que | ruh-koh-neh-truh KUH | to acknowledge that | Like connaître: je reconnais, nous reconnaissons.
+- un contre-argument | uhn kohn-trar-gew-MAHN | a counter-argument | —
+- nuancer | new-ahn-SAY | to qualify, to add nuance to | Like commencer: nous nuançons.
+- une nuance | ewn new-AHNSS | a nuance, a shade of meaning | —
+- mitigé / mitigée | mee-tee-ZHAY | mixed, lukewarm | False friend: not 'mitigated'.
+- partagé / partagée | par-tah-ZHAY | torn, in two minds | —
+- la semaine de quatre jours | lah suh-men duh kah-truh ZHOOR | the four-day week | —
+- les transports | lay trahns-POR | transport; here, commuting | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-nuancing-opinions-ex001 | multiple-choice | Choisissez la bonne forme : Il me semble que tu ___ raison. | ["as","aies","avoir"] | ["as"] | false | Il me semble que is followed by the indicative: tu as raison.
+- b2-nuancing-opinions-ex002 | fill-in | Complétez avec être : Il semble que la réunion ___ annulée. | — | ["soit"] | false | Il semble que is followed by the subjunctive: que la réunion soit annulée.
+- b2-nuancing-opinions-ex003 | fill-in | Complétez : Je suis d'accord avec toi, dans une certaine ___. | — | ["mesure"] | false | Dans une certaine mesure: to some extent.
+- b2-nuancing-opinions-ex004 | multiple-choice | Choisissez la phrase la plus nuancée. | ["Je dirais que c'est plutôt une bonne idée.","C'est la meilleure idée du monde.","Cette idée est très mauvaise."] | ["Je dirais que c'est plutôt une bonne idée."] | false | Je dirais que and plutôt both soften the opinion. The other two are flat.
+- b2-nuancing-opinions-ex005 | connector-choice | Choisissez le mot : ___, le projet est simple, mais il faut l'étudier de près. | ["À première vue","Jusqu'à un certain point","Partagé"] | ["À première vue"] | false | À première vue (at first sight) introduces an impression that may change.
+- b2-nuancing-opinions-ex006 | multiple-choice | Indiquez le sens de : Mon avis est mitigé. | ["My opinion is mixed.","My opinion is very strong.","I have no opinion."] | ["My opinion is mixed."] | false | Mitigé means mixed or lukewarm. It's a false friend: it doesn't mean 'mitigated'.
+- b2-nuancing-opinions-ex007 | register-shift | Transformez en opinion nuancée, avec « je dirais que » et « plutôt » : Je suis contre ce projet. | — | ["Je dirais que je suis plutôt contre ce projet"] | false | Je dirais que softens the start, and plutôt softens the position.
+- b2-nuancing-opinions-ex008 | reformulation | Reformulez avec « il me semble que » : Ce restaurant est trop cher. | — | ["Il me semble que ce restaurant est trop cher"] | false | Il me semble que + indicative: the verb stays est.
+- b2-nuancing-opinions-ex009 | reformulation | Reformulez en une phrase avec « je reconnais que…, mais… » : Le projet est cher. Il est intéressant. | — | ["Je reconnais que le projet est cher, mais il est intéressant"] | false | Reconnaître que concedes the first point; mais brings back your view.
+- b2-nuancing-opinions-ex010 | error-correction | Corrigez l'erreur : Il semble qu'il est malade. | — | ["Il semble qu'il soit malade"] | false | Il semble que takes the subjunctive: qu'il soit.
+- b2-nuancing-opinions-ex011 | fill-in | Complétez (une femme parle) : Je suis ___ : j'aime l'idée, mais j'ai des doutes. | — | ["partagée"] | false | Partagé means torn; a woman says partagée.
+- b2-nuancing-opinions-ex012 | translate | Traduisez : To some extent, I agree. | — | ["Dans une certaine mesure, je suis d'accord","Je suis d'accord dans une certaine mesure"] | false | Dans une certaine mesure can open or close the sentence.
+- b2-nuancing-opinions-ex013 | translate | Rédigez ce message en complétant comme indiqué : (At first sight), l'idée est bonne. (It seems to me that) elle coûte cher. (I'd say that) mon avis est (mixed). | — | ["À première vue, l'idée est bonne. Il me semble qu'elle coûte cher. Je dirais que mon avis est mitigé."] | true | Three ways of softening: an impression, a personal view in the indicative, and a conditionnel.
+- b2-nuancing-opinions-ex014 | multiple-choice | Indiquez le sens de la consigne « Reformulez ». | ["Say it another way.","Translate it.","Put the words in order."] | ["Say it another way."] | false | Reformulez: rephrase. Traduisez is translate, and Remettez dans l'ordre is put in order.
+- b2-nuancing-opinions-ex015 | reorder | Remettez dans l'ordre : It seems to me that you're right. | — | ["Il me semble que tu as raison"] | false | Il me semble que + indicative.
+
+## b2-social-issues
+
+### Vocab
+
+fr | pron | en | note
+
+- les inégalités | lay-zee-nay-gah-lee-TAY | inequality, inequalities | —
+- la pauvreté | lah poh-vruh-TAY | poverty | —
+- pauvre | POH-vruh | poor | —
+- précaire | pray-KEHR | insecure, precarious | —
+- la précarité | lah pray-kah-ree-TAY | insecurity, precariousness | —
+- défavorisé / défavorisée | day-fah-voh-ree-ZAY | disadvantaged | —
+- exclure | eks-KLEWR | to exclude | Past participle: exclu / exclue.
+- la crise du logement | lah kreez dew lozh-MAHN | the housing crisis | —
+- un logement social | uhn lozh-mahn soh-SYAL | social housing, a council flat | —
+- un / une sans-abri | uhn / ewn sahn-zah-BREE | a homeless person | The plural doesn't change: des sans-abri.
+- un immigré / une immigrée | uh-nee-mee-GRAY / ew-nee-mee-GRAY | an immigrant | —
+- s'intégrer | san-tay-GRAY | to integrate, to fit in | Like préférer: je m'intègre.
+- un chômeur / une chômeuse | uhn shoh-MUHR / ewn shoh-MUHZ | an unemployed person | —
+- le pouvoir d'achat | luh poo-vwahr dah-SHAH | purchasing power | —
+- une association | ew-nah-soh-syah-SYOHN | a charity, a voluntary group | —
+- un / une bénévole | uhn / ewn bay-nay-VOL | a volunteer | —
+- le bénévolat | luh bay-nay-voh-LAH | voluntary work | —
+- une aide sociale | ew-ned soh-SYAL | a welfare benefit | —
+- une manifestation | ewn mah-nee-fes-tah-SYOHN | a demonstration, a protest | False friend: not 'a manifestation'.
+- manifester | mah-nee-fes-TAY | to demonstrate, to protest | —
+- lutter contre | lew-tay KOHN-truh | to fight against | —
+- la lutte contre | lah lewt KOHN-truh | the fight against | —
+- réduire | ray-DWEER | to reduce | Like conduire: je réduis, nous réduisons; réduit.
+- un enjeu | uh-nahn-ZHUH | an issue, what's at stake | Plural: des enjeux.
+- une mesure | ewn muh-ZEWR | a measure, a policy | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-social-issues-ex001 | fill-in | Complétez : Beaucoup de jeunes vivent dans la ___ : des contrats courts et des petits salaires. | — | ["précarité"] | false | La précarité: insecurity, especially at work.
+- b2-social-issues-ex002 | fill-in | Complétez : Elle aide une association tous les samedis : elle est ___. | — | ["bénévole"] | false | Un or une bénévole: a volunteer, who isn't paid.
+- b2-social-issues-ex003 | fill-in | Complétez : Le loyer d'un logement ___ est moins cher. | — | ["social"] | false | Un logement social: social housing.
+- b2-social-issues-ex004 | fill-in | Complétez avec un verbe : Cette association veut ___ contre la pauvreté. | — | ["lutter"] | false | Lutter contre: to fight against.
+- b2-social-issues-ex005 | fill-in | Conjuguez réduire au présent : Nous ___ nos dépenses. | — | ["réduisons"] | false | Réduire is like conduire: nous réduisons.
+- b2-social-issues-ex006 | multiple-choice | Indiquez le sens de « une manifestation ». | ["a demonstration, a protest","a meeting of friends","a television programme"] | ["a demonstration, a protest"] | false | Une manifestation is a protest in the street. It's a false friend.
+- b2-social-issues-ex007 | multiple-choice | Choisissez le mot : une personne qui n'a pas de logement, c'est… | ["un sans-abri","un bénévole","un chômeur"] | ["un sans-abri"] | false | Un sans-abri has no home. Un chômeur has no job.
+- b2-social-issues-ex008 | multiple-choice | Indiquez le sens de « le pouvoir d'achat ». | ["purchasing power","a shopping centre","a bank loan"] | ["purchasing power"] | false | Le pouvoir d'achat: what your income lets you buy.
+- b2-social-issues-ex009 | multiple-choice | Trouvez le mot qui ne va pas avec les autres. | ["le bénévolat","la pauvreté","la précarité"] | ["le bénévolat"] | false | La pauvreté and la précarité are problems; le bénévolat is a way of helping.
+- b2-social-issues-ex010 | reformulation | Reformulez avec « la lutte contre » : Lutter contre la pauvreté est important. | — | ["La lutte contre la pauvreté est importante"] | false | La lutte is feminine, so importante agrees with it.
+- b2-social-issues-ex011 | error-correction | Corrigez l'erreur : Il y a de plus en plus des sans-abri. | — | ["Il y a de plus en plus de sans-abri"] | true | De plus en plus de + a noun, with no article.
+- b2-social-issues-ex012 | translate | Traduisez : More and more people are living in insecurity. | — | ["De plus en plus de personnes vivent dans la précarité","De plus en plus de gens vivent dans la précarité"] | false | De plus en plus de + noun, and vivre dans la précarité.
+- b2-social-issues-ex013 | translate | Traduisez : Volunteers help homeless people. | — | ["Les bénévoles aident les sans-abri","Des bénévoles aident les sans-abri"] | false | Sans-abri doesn't change in the plural.
+- b2-social-issues-ex014 | translate | Rédigez en complétant comme indiqué : (Poverty) est un (issue) important. Les (charities) aident les personnes (disadvantaged). Il faut (fight against) les (inequalities). | — | ["La pauvreté est un enjeu important. Les associations aident les personnes défavorisées. Il faut lutter contre les inégalités."] | false | Défavorisées agrees with personnes, which is feminine plural.
+- b2-social-issues-ex015 | reorder | Remettez dans l'ordre : She volunteers for a charity. | — | ["Elle est bénévole dans une association"] | false | Être bénévole dans une association, with no article before bénévole.
+
+## b2-subjunctive-conjunctions
+
+### Vocab
+
+fr | pron | en | note
+
+- bien que | byan KUH | although | —
+- avant que | ah-vahn KUH | before | —
+- à condition que | ah kohn-dee-syohn KUH | provided that, on condition that | —
+- jusqu'à ce que | zhews-kah suh KUH | until | —
+- sans que | sahn KUH | without | —
+- à moins que | ah mwan KUH | unless | —
+- à condition de | ah kohn-dee-syohn DUH | provided that, + infinitive | —
+- à moins de | ah mwan DUH | unless, + infinitive | —
+- le ne explétif | luh nuh ek-splay-TEEF | the expletive ne (a ne that doesn't make the sentence negative) | —
+- une démarche | ewn day-MARSH | a procedure, a step (in a process) | —
+- obtenir | op-tuh-NEER | to obtain, to get | Like venir, with avoir: j'obtiens, j'ai obtenu.
+- un titre de séjour | uhn tee-truh duh say-ZHOOR | a residence permit | —
+- attendre que | ah-tahn-druh KUH | to wait until, + subjunctive | —
+- accueillir | ah-kuh-YEER | to welcome, to receive | Present like an -er verb: j'accueille, nous accueillons.
+- un centre d'accueil | uhn sahn-truh dah-KUH-y | a reception centre, a drop-in centre | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-subjunctive-conjunctions-ex001 | fill-in | Conjuguez venir au subjonctif : Bien qu'il ___ souvent, il ne parle pas beaucoup. | — | ["vienne"] | false | Bien que + subjunctive: qu'il vienne.
+- b2-subjunctive-conjunctions-ex002 | fill-in | Conjuguez finir au subjonctif : Attendez jusqu'à ce que je ___. | — | ["finisse"] | false | Jusqu'à ce que + subjunctive: que je finisse.
+- b2-subjunctive-conjunctions-ex003 | fill-in | Conjuguez pouvoir au subjonctif : Je viendrai à condition que tu ___ venir me chercher. | — | ["puisses"] | false | À condition que + subjunctive: que tu puisses.
+- b2-subjunctive-conjunctions-ex004 | fill-in | Conjuguez être au subjonctif : Partons avant qu'il ___ trop tard. | — | ["soit"] | false | Avant que + subjunctive: qu'il soit.
+- b2-subjunctive-conjunctions-ex005 | connector-choice | Choisissez le connecteur : Je te prête ma voiture ___ tu fasses attention. | ["à condition que","jusqu'à ce que","sans que"] | ["à condition que"] | false | À condition que sets a condition: I'll lend it if you're careful.
+- b2-subjunctive-conjunctions-ex006 | multiple-choice | Choisissez la bonne phrase (le même sujet fait les deux actions). | ["Je téléphone avant de partir.","Je téléphone avant que je parte.","Je téléphone avant partir."] | ["Je téléphone avant de partir."] | false | With the same subject, French uses avant de + infinitive, not avant que.
+- b2-subjunctive-conjunctions-ex007 | multiple-choice | Indiquez le sens de : Partez avant qu'il ne pleuve. | ["Leave before it rains.","Leave when it stops raining.","Don't leave if it rains."] | ["Leave before it rains."] | false | The ne after avant que is the expletive ne: it isn't negative.
+- b2-subjunctive-conjunctions-ex008 | reformulation | Reformulez en une phrase avec « bien que » : Il fait froid. Nous sortons. | — | ["Bien qu'il fasse froid, nous sortons","Nous sortons bien qu'il fasse froid"] | false | Bien que + subjunctive: qu'il fasse.
+- b2-subjunctive-conjunctions-ex009 | reformulation | Reformulez en une phrase avec « avant de » : Elle lit le dossier. Ensuite, elle signe. | — | ["Elle lit le dossier avant de signer","Elle lit le dossier avant de le signer"] | false | Same subject (elle), so avant de + infinitive.
+- b2-subjunctive-conjunctions-ex010 | error-correction | Corrigez l'erreur : Bien qu'il est fatigué, il travaille. | — | ["Bien qu'il soit fatigué, il travaille"] | false | Bien que always takes the subjunctive: qu'il soit.
+- b2-subjunctive-conjunctions-ex011 | fill-in | Complétez : Il ne partira pas, à moins ___ trouver un travail dans une autre ville. | — | ["de"] | false | Same subject: à moins de + infinitive.
+- b2-subjunctive-conjunctions-ex012 | translate | Traduisez (tu) : I'll help you provided that you call me. | — | ["Je t'aiderai à condition que tu m'appelles","Je vais t'aider à condition que tu m'appelles"] | true | À condition que + subjunctive: que tu m'appelles.
+- b2-subjunctive-conjunctions-ex013 | translate | Traduisez : We'll wait until he arrives. | — | ["Nous attendrons jusqu'à ce qu'il arrive","On attendra jusqu'à ce qu'il arrive","Nous allons attendre jusqu'à ce qu'il arrive","On va attendre jusqu'à ce qu'il arrive"] | true | Jusqu'à ce que + subjunctive: qu'il arrive.
+- b2-subjunctive-conjunctions-ex014 | translate | Rédigez ces trois consignes en mettant le verbe au subjonctif : Envoyez le dossier avant que le bureau (fermer). Vous aurez une réponse à condition que le dossier (être) complet. Attendez jusqu'à ce que nous vous (appeler). | — | ["Envoyez le dossier avant que le bureau ferme. Vous aurez une réponse à condition que le dossier soit complet. Attendez jusqu'à ce que nous vous appelions.","Envoyez le dossier avant que le bureau ne ferme. Vous aurez une réponse à condition que le dossier soit complet. Attendez jusqu'à ce que nous vous appelions."] | true | Three conjunctions, three subjunctives: ferme, soit, appelions. The ne after avant que is optional.
+- b2-subjunctive-conjunctions-ex015 | reorder | Remettez dans l'ordre : Although it's late, we're going out. | — | ["Bien qu'il soit tard, nous sortons"] | false | Bien que + subjunctive, then the main clause.
+
+## b2-concession-opposition
+
+### Vocab
+
+fr | pron | en | note
+
+- malgré | mahl-GRAY | despite, in spite of | —
+- pourtant | poor-TAHN | yet, and yet | —
+- cependant | suh-pahn-DAHN | however | —
+- néanmoins | nay-ahn-MWAN | nevertheless (formal) | —
+- quand même | kahn MEM | all the same, still (mainly spoken) | —
+- avoir beau | ah-vwahr BOH | to do something in vain | Avoir beau + infinitive: j'ai beau chercher.
+- certes | sehrt | admittedly, certainly | —
+- alors que | ah-lor KUH | whereas, while | —
+- tandis que | tahn-dee KUH | whereas, while | —
+- en revanche | ahn ruh-VAHNSH | on the other hand | —
+- un écart | uh-nay-KAR | a gap, a difference | —
+- le niveau de vie | luh nee-voh duh VEE | the standard of living | —
+- un paradoxe | uhn pah-rah-DOKS | a paradox | —
+- une contradiction | ewn kohn-trah-deek-SYOHN | a contradiction | —
+- contradictoire | kohn-trah-deek-TWAHR | contradictory | —
+- s'opposer à | soh-poh-zay AH | to be opposed to, to oppose | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-concession-opposition-ex001 | connector-choice | Choisissez le connecteur : ___ la pluie, nous sommes sortis. | ["Malgré","Bien que","Alors que"] | ["Malgré"] | false | Malgré + a noun. Bien que and alors que need a verb.
+- b2-concession-opposition-ex002 | connector-choice | Choisissez le connecteur : Paul aime la ville, ___ sa sœur préfère la campagne. | ["alors que","malgré","avoir beau"] | ["alors que"] | false | Alors que contrasts two facts, with the indicative.
+- b2-concession-opposition-ex003 | fill-in | Conjuguez avoir au présent : Il ___ beau chercher, il ne trouve pas d'appartement. | — | ["a"] | true | Avoir beau + infinitive: il a beau chercher (he searches in vain).
+- b2-concession-opposition-ex004 | fill-in | Complétez : Il pleut, mais on sort quand ___. | — | ["même"] | false | Quand même: all the same.
+- b2-concession-opposition-ex005 | multiple-choice | Choisissez le connecteur du registre soutenu. | ["néanmoins","quand même","bref"] | ["néanmoins"] | false | Néanmoins belongs to formal writing. Quand même is mainly spoken, and bref doesn't express concession.
+- b2-concession-opposition-ex006 | multiple-choice | Choisissez la bonne phrase. | ["Il fait beau. Pourtant, il reste à la maison.","Il fait beau, pourtant qu'il reste à la maison.","Pourtant il fait beau qu'il reste à la maison."] | ["Il fait beau. Pourtant, il reste à la maison."] | false | Pourtant is an adverb: it isn't followed by que.
+- b2-concession-opposition-ex007 | reformulation | Reformulez avec « malgré » + nom : Bien qu'il pleuve, le match a lieu. | — | ["Malgré la pluie, le match a lieu","Le match a lieu malgré la pluie"] | true | Malgré + a noun replaces bien que + a verb.
+- b2-concession-opposition-ex008 | reformulation | Reformulez avec « avoir beau » : Je cherche, mais je ne trouve pas mes clés. | — | ["J'ai beau chercher, je ne trouve pas mes clés"] | false | Avoir beau + infinitive says the effort doesn't work.
+- b2-concession-opposition-ex009 | error-correction | Corrigez l'erreur : Malgré qu'il pleut, nous sortons. | — | ["Bien qu'il pleuve, nous sortons"] | false | Malgré takes a noun. Before a verb, use bien que + subjunctive.
+- b2-concession-opposition-ex010 | register-shift | Transformez en registre soutenu, avec « néanmoins » : C'est cher, mais je l'achète quand même. | — | ["C'est cher. Néanmoins, je l'achète","C'est cher, néanmoins je l'achète"] | false | Néanmoins replaces both mais and quand même in formal writing.
+- b2-concession-opposition-ex011 | fill-in | Complétez : À Paris, les loyers sont chers. En ___, les salaires sont meilleurs. | — | ["revanche"] | false | En revanche: on the other hand.
+- b2-concession-opposition-ex012 | translate | Traduisez : Despite the rain, we went out. | — | ["Malgré la pluie, nous sommes sortis","Malgré la pluie, nous sommes sorties","Malgré la pluie, on est sortis","Malgré la pluie, on est sorties"] | false | Malgré + noun. Sortir takes être, and the participle agrees with nous.
+- b2-concession-opposition-ex013 | translate | Traduisez : He tried in vain, he didn't succeed. | — | ["Il a eu beau essayer, il n'a pas réussi"] | true | Avoir beau in the passé composé: il a eu beau essayer.
+- b2-concession-opposition-ex014 | translate | Rédigez en complétant comme indiqué : La ville est chère, (whereas) la campagne est calme. (Despite) le bruit, j'aime Paris. Le travail est intéressant. (However), le salaire est bas. | — | ["La ville est chère, alors que la campagne est calme. Malgré le bruit, j'aime Paris. Le travail est intéressant. Cependant, le salaire est bas.","La ville est chère, tandis que la campagne est calme. Malgré le bruit, j'aime Paris. Le travail est intéressant. Cependant, le salaire est bas."] | false | Alors que or tandis que for the contrast, malgré + noun, and cependant to start a sentence.
+- b2-concession-opposition-ex015 | reorder | Remettez dans l'ordre : Despite his age, he's still working. | — | ["Malgré son âge, il travaille encore"] | false | Malgré + noun at the start, then the main clause.
+
+## b2-idioms-everyday
+
+### Vocab
+
+fr | pron | en | note
+
+- coûter les yeux de la tête | koo-tay lay-zyuh duh lah TET | to cost an arm and a leg | Informal.
+- coûter un rein | koo-tay uhn RAN | to cost a fortune | Very informal.
+- casser les pieds à quelqu'un | kah-say lay PYAY ah kel-KUHN | to get on someone's nerves | Informal.
+- mettre les pieds dans le plat | meh-truh lay pyay dahn luh PLAH | to put your foot in it | Neutral.
+- avoir un poil dans la main | ah-vwahr uhn pwahl dahn lah MAN | to be lazy | Informal.
+- se creuser la tête | suh kruh-zay lah TET | to rack your brains | Neutral.
+- faire la tête | fehr lah TET | to sulk | Informal.
+- avoir le bras long | ah-vwahr luh brah LOHN | to have influence, to know the right people | Neutral.
+- en un clin d'œil | ahn-nuhn klan DUH-y | in the blink of an eye | Neutral.
+- tomber dans les pommes | tohn-bay dahn lay POMM | to faint | Informal.
+- avoir du pain sur la planche | ah-vwahr dew pan sewr lah PLAHNSH | to have a lot on your plate | Neutral.
+- raconter des salades | rah-kohn-tay day sah-LAD | to tell tall stories, to tell lies | Informal.
+- ne pas être dans son assiette | nuh pah-zeh-truh dahn sohn-nah-SYET | to feel off, to be out of sorts | Neutral. The possessive changes: je ne suis pas dans mon assiette.
+- poser un lapin à quelqu'un | poh-zay uhn lah-PAN ah kel-KUHN | to stand someone up | Informal.
+- avoir le cafard | ah-vwahr luh kah-FAR | to feel down | Informal. Un cafard is a cockroach.
+- donner sa langue au chat | doh-nay sah lahng oh SHAH | to give up guessing | Neutral.
+- appeler un chat un chat | ah-play uhn shah uhn SHAH | to call a spade a spade | Neutral.
+- il pleut des cordes | eel pluh day KORD | it's pouring | Neutral.
+- être dans la lune | eh-truh dahn lah LEWN | to be daydreaming | Neutral.
+- avoir la flemme | ah-vwahr lah FLEM | to not be bothered, to feel lazy | Informal: avoir la flemme de + infinitive.
+- avoir un coup de foudre | ah-vwahr uhn koo duh FOO-druh | to fall in love at first sight | Neutral: avoir un coup de foudre pour quelqu'un.
+- une expression imagée | ew-neks-preh-syohn ee-mah-ZHAY | an idiom, a figurative expression | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-idioms-everyday-ex001 | multiple-choice | Indiquez le sens de « avoir le cafard ». | ["to feel down","to be hungry","to be scared of insects"] | ["to feel down"] | false | Avoir le cafard means to feel low, even though un cafard is a cockroach.
+- b2-idioms-everyday-ex002 | multiple-choice | Indiquez le sens de « poser un lapin à quelqu'un ». | ["to stand someone up","to give someone a pet","to arrive early"] | ["to stand someone up"] | false | Poser un lapin: not to turn up to a date or a meeting.
+- b2-idioms-everyday-ex003 | multiple-choice | Indiquez le sens de « coûter les yeux de la tête ». | ["to cost a fortune","to hurt your eyes","to be free"] | ["to cost a fortune"] | false | English uses an arm and a leg; French uses your eyes.
+- b2-idioms-everyday-ex004 | multiple-choice | Indiquez le sens de « tomber dans les pommes ». | ["to faint","to fall in love","to go to the market"] | ["to faint"] | false | Tomber dans les pommes: to faint, informally.
+- b2-idioms-everyday-ex005 | multiple-choice | Indiquez le sens de « avoir un poil dans la main ». | ["to be lazy","to be very generous","to be good with your hands"] | ["to be lazy"] | false | Avoir un poil dans la main: to be lazy, as if a hair stops you working.
+- b2-idioms-everyday-ex006 | fill-in | Complétez : Il m'a posé un ___ hier soir : j'ai attendu une heure. | — | ["lapin"] | false | Poser un lapin à quelqu'un: to stand someone up.
+- b2-idioms-everyday-ex007 | fill-in | Complétez : Il faisait si chaud qu'elle est tombée dans les ___. | — | ["pommes"] | false | Tomber dans les pommes: to faint.
+- b2-idioms-everyday-ex008 | fill-in | Complétez : Cette semaine, j'ai du pain sur la ___. | — | ["planche"] | false | Avoir du pain sur la planche: to have a lot to do.
+- b2-idioms-everyday-ex009 | register-shift | Transformez en registre courant, sans expression imagée : Il m'a posé un lapin. | — | ["Il n'est pas venu au rendez-vous","Il n'est pas venu à notre rendez-vous","Il n'est pas venu à mon rendez-vous"] | true | The neutral version simply says that he didn't come.
+- b2-idioms-everyday-ex010 | reformulation | Reformulez avec une expression imagée : Ce téléphone coûte très cher. | — | ["Ce téléphone coûte les yeux de la tête","Ce téléphone coûte un rein"] | false | Both idioms mean very expensive. Coûter un rein is the more informal one.
+- b2-idioms-everyday-ex011 | error-correction | Corrigez l'erreur : Je donne ma langue au chien. | — | ["Je donne ma langue au chat"] | false | The animal is fixed: donner sa langue au chat.
+- b2-idioms-everyday-ex012 | translate | Traduisez : It's pouring. | — | ["Il pleut des cordes"] | false | Il pleut des cordes, not des chats et des chiens.
+- b2-idioms-everyday-ex013 | translate | Traduisez : This phone costs an arm and a leg. | — | ["Ce téléphone coûte les yeux de la tête","Ce portable coûte les yeux de la tête"] | false | Coûter les yeux de la tête: the French equivalent.
+- b2-idioms-everyday-ex014 | translate | Rédigez ce message en complétant comme indiqué : Désolée, je ne viens pas ce soir : j'ai (a lot on my plate). En plus, j'ai (feel down). Je ne suis pas (feeling off). | — | ["Désolée, je ne viens pas ce soir : j'ai du pain sur la planche. En plus, j'ai le cafard. Je ne suis pas dans mon assiette."] | false | Three idioms; the possessive in dans son assiette changes to mon.
+- b2-idioms-everyday-ex015 | reorder | Remettez dans l'ordre : He's daydreaming. | — | ["Il est dans la lune"] | false | Être dans la lune: to be daydreaming.
+
+## b2-logical-connectors
+
+### Vocab
+
+fr | pron | en | note
+
+- en outre | ahn-NOO-truh | furthermore, in addition (formal) | —
+- d'ailleurs | dah-YUHR | besides, moreover, by the way | —
+- en effet | ahn-neh-FEH | indeed, that's because | False friend: not 'in effect'.
+- c'est-à-dire | seh-tah-DEER | that is to say | —
+- autrement dit | oh-truh-mahn DEE | in other words | —
+- or | or | now, yet (introduces a fact that changes the reasoning) | —
+- ainsi | an-SEE | thus, in this way | —
+- par conséquent | par kohn-say-KAHN | consequently, therefore | —
+- d'où | doo | hence, which explains | Followed by a noun: d'où le retard.
+- si bien que | see byan KUH | so that, with the result that | Followed by the indicative.
+- tellement… que | tel-mahn … KUH | so (much)… that | —
+- étant donné que | ay-tahn doh-nay KUH | given that | —
+- vu que | vew KUH | seeing that, since | —
+- du fait que | dew feh KUH | because of the fact that | —
+- faute de | foht DUH | for lack of | Followed by a noun or an infinitive.
+- à force de | ah forss DUH | by dint of, by doing something again and again | Followed by a noun or an infinitive.
+- en somme | ahn SOMM | in short, all in all | —
+- soit… soit | SWAH … SWAH | either… or | —
+- ou bien | oo BYAN | or else, or | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-logical-connectors-ex001 | connector-choice | Choisissez le connecteur : Ce quartier est calme. ___, il y a beaucoup de parcs. | ["En outre","Faute de","Vu que"] | ["En outre"] | false | En outre adds a second argument in the same direction.
+- b2-logical-connectors-ex002 | connector-choice | Choisissez le connecteur : Il a raté le train, ___ il est arrivé en retard. | ["si bien qu'","étant donné qu'","faute d'"] | ["si bien qu'"] | false | Si bien que introduces the result of what comes before.
+- b2-logical-connectors-ex003 | connector-choice | Choisissez le connecteur : ___ il pleut, le match est annulé. | ["Étant donné qu'","Par conséquent","En somme"] | ["Étant donné qu'"] | false | Étant donné que gives the cause at the start of the sentence.
+- b2-logical-connectors-ex004 | fill-in | Complétez : Les loyers sont trop chers, ___ les manifestations de samedi. | — | ["d'où"] | true | D'où + a noun: hence the demonstrations.
+- b2-logical-connectors-ex005 | fill-in | Complétez : Il a beaucoup travaillé, si ___ qu'il a réussi. | — | ["bien"] | false | Si bien que + indicative: with the result that.
+- b2-logical-connectors-ex006 | fill-in | Complétez : ___ de temps, je n'ai pas fini le livre. | — | ["Faute"] | false | Faute de + a noun: for lack of time.
+- b2-logical-connectors-ex007 | multiple-choice | Indiquez le sens de « en effet » : Il est fatigué. En effet, il a mal dormi. | ["indeed, that's because","on the other hand","in conclusion"] | ["indeed, that's because"] | false | En effet explains or confirms what came before. It's a false friend: not 'in effect'.
+- b2-logical-connectors-ex008 | multiple-choice | Indiquez le sens de « or » : Il voulait partir en train. Or, la gare était fermée. | ["It introduces a fact that changes the situation.","It gives a second choice.","It concludes the text."] | ["It introduces a fact that changes the situation."] | false | Or brings in a new fact that the reasoning has to take into account.
+- b2-logical-connectors-ex009 | reformulation | Reformulez en une phrase avec « étant donné que » : Il pleut. Nous restons à la maison. | — | ["Étant donné qu'il pleut, nous restons à la maison","Nous restons à la maison étant donné qu'il pleut"] | true | Étant donné que + indicative, at the start or after the main clause.
+- b2-logical-connectors-ex010 | reformulation | Reformulez avec « à force de » + infinitif : Il travaille beaucoup, c'est pourquoi il réussit. | — | ["À force de travailler, il réussit","Il réussit à force de travailler"] | true | À force de + infinitive: the result comes from repeated effort.
+- b2-logical-connectors-ex011 | error-correction | Corrigez l'erreur de connecteur : Il fait beau. En effet, nous restons à la maison. | — | ["Il fait beau. Pourtant, nous restons à la maison","Il fait beau. Cependant, nous restons à la maison"] | true | En effet confirms; here the second sentence contrasts, so it needs pourtant or cependant.
+- b2-logical-connectors-ex012 | register-shift | Transformez en registre soutenu, avec « étant donné que » : Vu que tu es là, tu peux m'aider ? | — | ["Étant donné que tu es là, tu peux m'aider ?","Étant donné que tu es là, peux-tu m'aider ?"] | true | Étant donné que is more formal than vu que.
+- b2-logical-connectors-ex013 | translate | Traduisez : Given that it's raining, we'll stay at home. | — | ["Étant donné qu'il pleut, nous resterons à la maison","Étant donné qu'il pleut, nous allons rester à la maison"] | true | Étant donné que + indicative, then the main clause.
+- b2-logical-connectors-ex014 | translate | Rédigez ce paragraphe en complétant comme indiqué : Le centre-ville est très cher. (Furthermore), il y a beaucoup de bruit. (Consequently), beaucoup de familles partent. (In other words), la ville change. | — | ["Le centre-ville est très cher. En outre, il y a beaucoup de bruit. Par conséquent, beaucoup de familles partent. Autrement dit, la ville change.","Le centre-ville est très cher. De plus, il y a beaucoup de bruit. Par conséquent, beaucoup de familles partent. Autrement dit, la ville change."] | true | Addition, consequence, then a rephrasing, each followed by a comma.
+- b2-logical-connectors-ex015 | reorder | Remettez dans l'ordre : He worked so much that he's tired. | — | ["Il a tellement travaillé qu'il est fatigué"] | false | Tellement before the participle, then que + the result.
+
+## b2-purpose-expressions
+
+### Vocab
+
+fr | pron | en | note
+
+- pour que | poor KUH | so that | + subjunctive
+- afin de | ah-FAN duh | in order to (formal) | + infinitive
+- afin que | ah-fan KUH | so that (formal) | + subjunctive
+- de peur de | duh PUHR duh | for fear of | + infinitive
+- de peur que | duh puhr KUH | for fear that | + subjunctive, often with ne
+- de crainte que | duh krant KUH | for fear that (formal) | + subjunctive, often with ne
+- éviter que | ay-vee-tay KUH | to avoid (something happening) | + subjunctive
+- de sorte que | duh sort KUH | so that (purpose, + subjunctive); so (result, + indicative) | —
+- dans le but de | dahn luh BEWT duh | with the aim of | —
+- en vue de | ahn VEW duh | with a view to, in preparation for | —
+- viser à | vee-ZAY ah | to aim to | —
+- en faveur de | ahn fah-VUHR duh | in favour of | —
+- une campagne | ewn kahn-PAH-nyuh | a campaign | —
+- encourager à | ahn-koo-rah-ZHAY ah | to encourage to | —
+- dissuader de | dee-swah-DAY duh | to deter from, to dissuade from | —
+- une affiche | ew-nah-FEESH | a poster | —
+- un atelier | uh-nah-tuh-LYAY | a workshop | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-purpose-expressions-ex001 | connector-choice | Choisissez la bonne réponse : Je parle lentement ___ tu comprennes. | ["pour que","pour","de peur de"] | ["pour que"] | false | Two different subjects (je, tu), so pour que + subjunctive.
+- b2-purpose-expressions-ex002 | fill-in | Conjuguez le verbe (venir) : Je t'envoie l'adresse afin que tu ___ ce soir. | — | ["viennes"] | false | Afin que + subjunctive: que tu viennes.
+- b2-purpose-expressions-ex003 | fill-in | Conjuguez le verbe (être) : Il part tôt de peur que le train ne ___ plein. | — | ["soit"] | false | De peur que + subjunctive, here with the expletive ne: ne soit.
+- b2-purpose-expressions-ex004 | fill-in | Conjuguez le verbe (faire) : Nous voulons éviter que les gens ___ trop de déchets. | — | ["fassent"] | false | Éviter que + subjunctive: qu'ils fassent.
+- b2-purpose-expressions-ex005 | multiple-choice | Choisissez le sens : Il a parlé fort, de sorte que tout le monde l'a entendu. | ["Result: so everyone heard him.","Purpose: so that everyone would hear him.","Fear: for fear that nobody would hear him."] | ["Result: so everyone heard him."] | false | De sorte que + indicative (a entendu) gives a result. With the subjunctive, it would give a purpose.
+- b2-purpose-expressions-ex006 | multiple-choice | Choisissez le registre de « afin de ». | ["soutenu","familier"] | ["soutenu"] | false | Afin de means the same as pour, but it's formal.
+- b2-purpose-expressions-ex007 | reformulation | Reformulez avec « pour » + infinitif : Je travaille pour que je réussisse. | — | ["Je travaille pour réussir"] | false | Same subject in both parts, so pour + infinitive. Pour que je réussisse is wrong.
+- b2-purpose-expressions-ex008 | reformulation | Reformulez avec « dans le but de » : Nous organisons une campagne parce que nous voulons réduire le gaspillage. | — | ["Nous organisons une campagne dans le but de réduire le gaspillage"] | false | Dans le but de + infinitive replaces parce que nous voulons.
+- b2-purpose-expressions-ex009 | error-correction | Corrigez l'erreur : Je t'explique tout pour qu'il vient demain. | — | ["Je t'explique tout pour qu'il vienne demain"] | false | Pour que takes the subjunctive: qu'il vienne.
+- b2-purpose-expressions-ex010 | register-shift | Transformez en registre soutenu, avec « afin de » : On fait une campagne pour sensibiliser les jeunes. | — | ["Nous faisons une campagne afin de sensibiliser les jeunes"] | false | Afin de replaces pour, and nous replaces on in formal writing.
+- b2-purpose-expressions-ex011 | fill-in | Complétez : Cette campagne veut ___ les gens de gaspiller. | — | ["dissuader"] | false | Dissuader quelqu'un de + infinitive: to deter someone from doing something.
+- b2-purpose-expressions-ex012 | translate | Traduisez : We're writing so that people understand. | — | ["Nous écrivons pour que les gens comprennent","Nous écrivons afin que les gens comprennent"] | false | Different subjects, so pour que (or afin que) + subjunctive.
+- b2-purpose-expressions-ex013 | translate | Traduisez : She left early for fear of missing the train. | — | ["Elle est partie tôt de peur de rater le train","Elle est partie tôt de crainte de rater le train"] | false | Same subject, so de peur de + infinitive.
+- b2-purpose-expressions-ex014 | translate | Traduisez les objectifs de cette campagne : Our campaign aims to reduce waste. We want to encourage families to cook the leftovers. We're organizing workshops so that children understand the issue. | — | ["Notre campagne vise à réduire le gaspillage. Nous voulons encourager les familles à cuisiner les restes. Nous organisons des ateliers pour que les enfants comprennent l'enjeu.","Notre campagne vise à réduire le gaspillage. Nous voulons encourager les familles à cuisiner les restes. Nous organisons des ateliers afin que les enfants comprennent l'enjeu."] | true | Viser à + infinitive, encourager quelqu'un à + infinitive, then pour que or afin que + subjunctive.
+- b2-purpose-expressions-ex015 | reorder | Remettez dans l'ordre : I'm speaking slowly so that you understand. | — | ["Je parle lentement pour que vous compreniez"] | false | Pour que + subjunctive: que vous compreniez.
+
+## b2-review-nuance
+
+### Vocab
+
+fr | pron | en | note
+
+- un débat de société | uhn day-bah duh soh-syay-TAY | a public debate, a social issue people argue about | —
+- une piste | ewn PEEST | a possible lead, an idea worth exploring | —
+- concilier | kohn-see-LYAY | to reconcile | —
+- à long terme | ah lohn TEHRM | in the long term | —
+- un juste milieu | uhn zhewst mee-LYUH | a happy medium | —
+- une tribune | ewn tree-BEWN | an opinion piece (in a newspaper) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-review-nuance-ex001 | fill-in | Conjuguez le verbe (être) : Bien que les loyers ___ chers, ils restent en centre-ville. | — | ["soient"] | false | Bien que + subjunctive: que les loyers soient.
+- b2-review-nuance-ex002 | fill-in | Conjuguez le verbe (pouvoir) : Nous écrivons pour que chaque famille ___ habiter en centre-ville. | — | ["puisse"] | false | Pour que + subjunctive: que chaque famille puisse.
+- b2-review-nuance-ex003 | fill-in | Complétez : ___ le prix des loyers, beaucoup de familles restent en centre-ville. | — | ["Malgré"] | false | Malgré + a noun: in spite of the price of rents.
+- b2-review-nuance-ex004 | fill-in | Complétez : La ville propose des logements sociaux afin ___ réduire les inégalités. | — | ["de"] | false | Afin de + infinitive: in order to reduce inequality.
+- b2-review-nuance-ex005 | connector-choice | Choisissez le connecteur : Les loyers sont très chers, ___ les familles partent. | ["si bien que","bien que","afin que"] | ["si bien que"] | false | Si bien que + indicative gives the result.
+- b2-review-nuance-ex006 | connector-choice | Choisissez le connecteur : Cette mesure aide les familles. ___, elle coûte cher. | ["Néanmoins","Par conséquent","En effet"] | ["Néanmoins"] | false | Néanmoins introduces a contrast. Par conséquent gives a result and en effet confirms.
+- b2-review-nuance-ex007 | multiple-choice | Choisissez le sens : Vivre en centre-ville coûte les yeux de la tête. | ["It's very expensive.","It's very tiring.","It's very far away."] | ["It's very expensive."] | false | Coûter les yeux de la tête means to cost an arm and a leg.
+- b2-review-nuance-ex008 | reformulation | Reformulez avec « il me semble que » : Cette mesure est une bonne idée. | — | ["Il me semble que cette mesure est une bonne idée"] | false | Il me semble que softens the opinion and takes the indicative.
+- b2-review-nuance-ex009 | reformulation | Reformulez avec « malgré le prix des loyers » : Bien que les loyers soient chers, elle reste en centre-ville. | — | ["Malgré le prix des loyers, elle reste en centre-ville","Elle reste en centre-ville malgré le prix des loyers"] | false | Malgré + a noun replaces bien que + a clause.
+- b2-review-nuance-ex010 | error-correction | Corrigez l'erreur : Nous écrivons cette tribune pour que la mairie agit. | — | ["Nous écrivons cette tribune pour que la mairie agisse"] | false | Pour que takes the subjunctive: que la mairie agisse.
+- b2-review-nuance-ex011 | register-shift | Transformez en registre soutenu, avec « étant donné que » : Vu que les loyers sont chers, les familles partent. | — | ["Étant donné que les loyers sont chers, les familles partent"] | true | Étant donné que is more formal than vu que.
+- b2-review-nuance-ex012 | multiple-choice | Choisissez le sens de « un juste milieu ». | ["a happy medium","a city centre","an opinion piece"] | ["a happy medium"] | false | Un juste milieu is a balance between two extremes.
+- b2-review-nuance-ex013 | translate | Traduisez : In the long term, this measure can reduce inequality. | — | ["À long terme, cette mesure peut réduire les inégalités","Cette mesure peut réduire les inégalités à long terme"] | true | À long terme can start or end the sentence.
+- b2-review-nuance-ex014 | translate | Traduisez ce paragraphe : Admittedly, this measure is expensive. Nevertheless, it reduces inequality. So we have to find a happy medium. | — | ["Certes, cette mesure coûte cher. Néanmoins, elle réduit les inégalités. Il faut donc trouver un juste milieu.","Certes, cette mesure coûte cher. Néanmoins, elle réduit les inégalités. Donc, il faut trouver un juste milieu.","Certes, cette mesure coûte cher. Cependant, elle réduit les inégalités. Il faut donc trouver un juste milieu.","Certes, cette mesure coûte cher. Cependant, elle réduit les inégalités. Donc, il faut trouver un juste milieu."] | false | Certes concedes the point, néanmoins answers it, and the conclusion looks for a balance.
+- b2-review-nuance-ex015 | translate | Traduisez ce paragraphe : Our goal is to reconcile the city centre and families. We're writing this opinion piece so that the town hall acts. | — | ["Notre objectif est de concilier le centre-ville et les familles. Nous écrivons cette tribune pour que la mairie agisse.","Notre objectif est de concilier le centre-ville et les familles. Nous écrivons cette tribune afin que la mairie agisse."] | false | Concilier + two nouns, then pour que or afin que + subjunctive.
+- b2-review-nuance-ex016 | reorder | Remettez dans l'ordre : It seems to me that we have to find a happy medium. | — | ["Il me semble qu'il faut trouver un juste milieu"] | false | Il me semble que + indicative: il faut.

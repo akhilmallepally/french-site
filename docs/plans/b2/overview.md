@@ -14,7 +14,7 @@ The overlap table was rechecked by hand.
 ## Changes since the first plan
 
 - **New order (decisions 2 to 4):**
-  - b2-logical-connectors moved into Unit 1, just after b2-concession-opposition.
+  - b2-logical-connectors moved into Unit 1, after b2-concession-opposition. Review 2, decision 1, then put b2-idioms-everyday between them, so Unit 1 runs b2-nuancing-opinions, b2-social-issues, b2-subjunctive-conjunctions, b2-concession-opposition, b2-idioms-everyday, b2-logical-connectors, b2-purpose-expressions, b2-review-nuance.
   - b2-nominalisation moved into Unit 3, just before b2-summarizing-an-article. Its plan is rewritten for news and politics vocabulary instead of science.
   - Unit 2 now runs b2-conditionnel-passe, b2-si-plus-que-parfait, b2-mixed-conditionals, b2-futur-anterieur, b2-subjonctif-passe, b2-regret-and-reproach, b2-review-what-might-have-been.
   - Unit sizes: Unit 1 has 8 lessons, Unit 3 has 10 and Unit 6 has 5.
@@ -120,6 +120,6 @@ The imperfect and pluperfect subjunctive (recognition only) are still left for C
 ## 7. New problems
 
 See docs/b2-plan-review-2.md:
-- Unit 1 now has four grammar lessons in a row.
+- Unit 1 had four grammar lessons in a row: resolved by moving b2-idioms-everyday (review 2, decision 1).
 - Unit 3 has 10 lessons.
 - b1-making-a-complaint uses *c'est-à-dire* without a vocab entry.

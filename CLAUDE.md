@@ -98,7 +98,7 @@ B2 inherits every B1 rule unless it's overridden here. They apply to B2 lessons 
   - Length: 60 to 100 words in Units 1 to 4, and 100 to 150 in Units 5 to 8, following the unit the lesson sits in now in docs/syllabus.md (the audit reads it from there).
   - The audit leaves it out of the teaching text but counts it in the whole lesson.
 - **Exercise instructions** are in French, from this fixed list of *vous* forms: Complétez, Choisissez, Indiquez, Reformulez, Transformez, Corrigez, Remettez dans l'ordre, Conjuguez, Accordez, Mettez au… (à la…, aux…), Répondez, Rédigez, Traduisez, Trouvez.
-  - The instructions may also use: la phrase, le mot, le verbe, la forme, la bonne réponse, le connecteur, l'erreur, le registre, soutenu, familier, courant, le temps, le texte.
+  - The instructions may also use: la phrase, le mot, le verbe, la forme, le sens, la bonne réponse, le connecteur, l'erreur, le registre, soutenu, familier, courant, le temps, le texte.
   - b2-nuancing-opinions introduces the list in a callout with English glosses. After that, check:words treats these words as known in every B2 lesson.
   - Feedback and explanations stay in English.
   - The list is also in scripts/b2-lists.ts (INSTRUCTION_VERBS and INSTRUCTION_NOUNS); keep the two in step.

@@ -1083,3 +1083,47 @@ Every date, tradition and regional detail, for checking:
 
 - **The instruction words *Complétez*, *Choisissez*, *Mettez dans l'ordre*, *Traduisez***, and "you'll see them in French exams such as the DELF." Confirm these are the forms French textbooks and exams use.
 - **"*Je peux exprimer en français* is incomplete."** Confirm.
+
+## b2-nuancing-opinions
+
+- **"Il me semble que gives your own impression, and it takes the indicative. Il semble que reports a general impression, as if from the outside, and it takes the subjunctive."** Confirm both moods, including *il semble que* + subjunctive in the forum post: *il semble que beaucoup d'entre eux aient besoin de nous le vendredi*.
+- **"Mitigé means mixed or lukewarm. It's a false friend: it doesn't mean 'mitigated'."** Confirm *mon avis est mitigé* is natural for "my opinion is mixed".
+- **"*A priori* and *à première vue* (at first sight) introduce a first impression."** Confirm *a priori* in this sense (on the face of it).
+
+## b2-social-issues
+
+- **"These are sensitive subjects in France, as everywhere, so it's worth using neutral words and avoiding generalizations."** Sensitive topic (immigration), with *Un immigré is someone who has moved to France from another country* and *Apprendre la langue aide beaucoup à s'intégrer*. Confirm they're neutral.
+- **"*Un sans-abri* (a homeless person) is the neutral, respectful word; in everyday speech you'll also hear *un SDF*, short for *sans domicile fixe*."** Confirm the register of each.
+- **"The word *association* covers charities, but also sports clubs and neighbourhood groups."** Confirm.
+
+## b2-subjunctive-conjunctions
+
+- **"After *avant que* and *à moins que*, careful or formal French often adds a small *ne*, called *le ne explétif*. It doesn't make the sentence negative."** Confirm.
+- **"In conversation you may hear the indicative [after *bien que*], but it's considered a mistake."** Confirm.
+- **"Il faut faire beaucoup de démarches avant d'obtenir un titre de séjour."** Sensitive topic (immigration), and the dialogue at the drop-in centre. Confirm the wording is neutral.
+
+## b2-concession-opposition
+
+- **"*Alors que* and *tandis que* (whereas) ... take the indicative, because they compare two real situations."** Confirm, and that the two are interchangeable for contrast.
+- **"*Quand même* (all the same, still) is the spoken way to say that something happens despite an obstacle."** Confirm the register.
+- ***Malgré que*** is described as not standard, here and in the b2-review-nuance warning ("You'll hear it, but it's not accepted in careful writing"). Confirm.
+
+## b2-idioms-everyday
+
+- **The meaning and register note of each of the 21 idioms** (for example *coûter un rein*: very informal; *mettre les pieds dans le plat*: neutral; *avoir le cafard*: informal). Confirm each meaning and label.
+
+## b2-logical-connectors
+
+- **"*Or* ... introduces a new fact that changes the reasoning ... It's mostly written, and it usually comes after a full stop, followed by a comma."** Confirm.
+- **"*Vu que* is common in speech; *étant donné que* and *du fait que* are more formal."** Confirm.
+- **"*Tellement* goes before the adjective, the adverb or the participle; *si* can replace it before an adjective."** Confirm.
+
+## b2-purpose-expressions
+
+- **"With the subjunctive, it [*de sorte que*] gives a purpose (so that). With the indicative, it gives a result."** Confirm.
+- **"After *de peur que* and *de crainte que*, you'll often see the expletive *ne* ... It's common in writing and optional in speech."** Confirm.
+- **"*En vue de* (with a view to) is usually followed by a noun."** Confirm.
+
+## b2-review-nuance
+
+- **"A *tribune* is the French name for a signed opinion text in a newspaper or on a website."** Confirm.

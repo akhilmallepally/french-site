@@ -96,3 +96,15 @@
   - Unit 3 has 10 lessons
   - B1's *c'est-à-dire* gap
 - **Not done:** check:structures can't detect *à* + infinitive with a passive sense.
+
+## Unit 1
+
+- **Step 0:** b2-idioms-everyday moved to order 5 in the syllabus, outline, unit-1 plan and overview. No prerequisite broke, and the checks stayed clean.
+- **Teaching-text words:** nuancing-opinions 853, social-issues 833, subjunctive-conjunctions 821, concession-opposition 819, idioms-everyday 823, logical-connectors 875, purpose-expressions 909, review-nuance 820 (all b2-).
+- **Content deviations:**
+  - Added *la lutte contre* (social-issues), and *une affiche* and *un atelier* (purpose-expressions). The forum glossary has 1 word. Concession uses *bien qu'il pleuve* (the past subjunctive comes later).
+  - The *soit… soit* table counts as teaching text. Purpose ex014 is a translated paragraph. *On* variants are removed from typed answers. Extra English paragraphs reach 800 words, and words that weren't defined were reworded.
+- **List and script changes:** *le sens* is an instruction noun (CLAUDE.md and b2-lists.ts). New cognates: excellent(e), présentation, action(s), ambiance. check-words.ts has B2-only English words and 4 subjunctive forms. *Certes* is now *sehrt*.
+- **Checks:** check:words, check:structures, audit (0 B2 findings), validate, test:content, test:checker (29/29) and build all pass. The A1 to B1 output is identical to the baseline.
+- **review-needed.md:** 22 items under the 8 ids. They cover moods (*il semble que*, *bien que*, *de sorte que*, *ne explétif*), registers (*SDF*, *quand même*, *vu que*, the idioms), *malgré que*, *or*, *mitigé* and the immigration sentences.
+- **Not done:** no fluent-speaker check yet. The review's link to b2-conditionnel-passe shows "Coming soon" until that lesson exists.

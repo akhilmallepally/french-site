@@ -264,16 +264,72 @@ Exercise prompts are French, from the CLAUDE.md instruction list. "Write-out" me
   - ex14 write-out: a 4-sentence comparison with three connectors
   - ex15 reorder
 - **Prerequisites:** b2-subjunctive-conjunctions, b1-cause-and-consequence.
-- **LessonLinks:** b1-presenting-an-argument, b1-agreeing-disagreeing, b2-subjunctive-conjunctions, b2-logical-connectors (next).
+- **LessonLinks:** b1-presenting-an-argument, b1-agreeing-disagreeing, b2-subjunctive-conjunctions, b2-idioms-everyday (next), b2-logical-connectors.
 - **review-needed.md:**
   - "*malgré que* is common but criticized"
   - "*alors que* and *tandis que* are interchangeable for contrast"
   - "*quand même* is mainly spoken"
 - **Size:** teaching about 1,050; whole about 1,600; vocab 16; 15 exercises.
 
-## 5. b2-logical-connectors: Logical connectors
+## 5. b2-idioms-everyday: Everyday idioms
 
-- **Type:** grammar · **Order:** 5
+- **Type:** vocabulary · **Order:** 5
+- **Goal:** understand and use 20 very common idioms, each with its register marked.
+- **Prior coverage:**
+  - b1-relationships taught feelings vocabulary.
+  - b1-relationships taught *tomber amoureux*. None of the idioms below is in an A1 to B1 vocab entry (checked).
+  - **Adds:** figurative idioms built on body parts, food and animals.
+  - *En avoir marre* moves to b2-idiomatic-y-en, because it relies on idiomatic *en*.
+- **Structures taught:** none.
+- **Structures used:** none new.
+- **New vocab (22, all labelled informal or neutral):**
+  - *avoir le cafard* (to feel down)
+  - *poser un lapin à* (to stand someone up)
+  - *coûter les yeux de la tête* (to cost an arm and a leg)
+  - *avoir un coup de foudre* (to fall in love at first sight)
+  - *tomber dans les pommes* (to faint)
+  - *avoir la flemme* (to not be bothered)
+  - *casser les pieds à* (to get on someone's nerves)
+  - *mettre les pieds dans le plat* (to put your foot in it)
+  - *avoir du pain sur la planche* (to have a lot on your plate)
+  - *il pleut des cordes* (it's pouring)
+  - *être dans la lune* (to be daydreaming)
+  - *donner sa langue au chat* (to give up guessing)
+  - *avoir un poil dans la main* (to be lazy)
+  - *se creuser la tête* (to rack your brains)
+  - *ne pas être dans son assiette* (to feel off)
+  - *raconter des salades* (to tell tall stories)
+  - *appeler un chat un chat* (to call a spade a spade)
+  - *avoir le bras long* (to have influence)
+  - *faire la tête* (to sulk)
+  - *coûter un rein* (to cost a fortune; informal)
+  - *en un clin d'œil* (in the blink of an eye)
+  - *une expression imagée* (an idiom)
+- **Cognates for the allowlist:** none.
+- **Dialogue (12 lines):** two flatmates catch up on a bad week (*tu*), using six idioms.
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - idioms aren't translated word for word
+  - each one has a register
+  - three themes: the body, food, animals
+- **Exercises (15):**
+  - ex1 to ex5 MC: idiom → meaning
+  - ex6 to ex8 fill-in: the missing noun (*lapin*, *pommes*, *planche*)
+  - ex9 register-shift: *Il m'a posé un lapin* → neutral
+  - ex10 reformulation: literal → idiom
+  - ex11 error-correction: a wrong animal or food in an idiom
+  - ex12 translate: "It's pouring."
+  - ex13 translate: "This phone costs an arm and a leg."
+  - ex14 write-out: a 3-sentence message with two idioms
+  - ex15 reorder
+- **Prerequisites:** b1-relationships.
+- **LessonLinks:** b1-relationships, b2-logical-connectors (next).
+- **review-needed.md:** each idiom's meaning and register, especially *coûter un rein* and *avoir le bras long*.
+- **Size:** teaching about 850; whole about 1,350; vocab 22; 15 exercises.
+
+## 6. b2-logical-connectors: Logical connectors
+
+- **Type:** grammar · **Order:** 6
 - **Goal:** link ideas in writing to add, explain, illustrate, conclude and give extended cause and consequence.
 - **Prior coverage:**
   - b1-cause-and-consequence taught *car*, *puisque*, *comme*, *grâce à*, *à cause de*, *donc*, *c'est pourquoi*.
@@ -341,9 +397,9 @@ Exercise prompts are French, from the CLAUDE.md instruction list. "Write-out" me
   - "*vu que* is less formal than *étant donné que*"
 - **Size:** teaching about 1,150 (the *soit… soit* table is outside the count); whole about 1,700; vocab 19; 15 exercises.
 
-## 6. b2-purpose-expressions: Expressing purpose
+## 7. b2-purpose-expressions: Expressing purpose
 
-- **Type:** grammar · **Order:** 6
+- **Type:** grammar · **Order:** 7
 - **Goal:** say why you do something with infinitive and subjunctive purpose structures.
 - **Prior coverage:**
   - a2-prepositions-with-places used *pour* + infinitive (*Je suis ici pour apprendre*).
@@ -398,67 +454,11 @@ Exercise prompts are French, from the CLAUDE.md instruction list. "Write-out" me
   - ex14 write-out: the aims of a campaign in 3 sentences
   - ex15 reorder
 - **Prerequisites:** b2-subjunctive-conjunctions.
-- **LessonLinks:** a2-prepositions-with-places, b1-subjunctive-vs-infinitive, b2-subjunctive-conjunctions, b2-idioms-everyday (next).
+- **LessonLinks:** a2-prepositions-with-places, b1-subjunctive-vs-infinitive, b2-subjunctive-conjunctions, b2-review-nuance (next).
 - **review-needed.md:**
   - "*de sorte que* + indicative expresses result"
   - "*de peur que* takes an optional *ne*"
 - **Size:** teaching about 1,050; whole about 1,600; vocab 15; 15 exercises.
-
-## 7. b2-idioms-everyday: Everyday idioms
-
-- **Type:** vocabulary · **Order:** 7
-- **Goal:** understand and use 20 very common idioms, each with its register marked.
-- **Prior coverage:**
-  - b1-relationships taught feelings vocabulary.
-  - b1-relationships taught *tomber amoureux*. None of the idioms below is in an A1 to B1 vocab entry (checked).
-  - **Adds:** figurative idioms built on body parts, food and animals.
-  - *En avoir marre* moves to b2-idiomatic-y-en, because it relies on idiomatic *en*.
-- **Structures taught:** none.
-- **Structures used:** none new.
-- **New vocab (22, all labelled informal or neutral):**
-  - *avoir le cafard* (to feel down)
-  - *poser un lapin à* (to stand someone up)
-  - *coûter les yeux de la tête* (to cost an arm and a leg)
-  - *avoir un coup de foudre* (to fall in love at first sight)
-  - *tomber dans les pommes* (to faint)
-  - *avoir la flemme* (to not be bothered)
-  - *casser les pieds à* (to get on someone's nerves)
-  - *mettre les pieds dans le plat* (to put your foot in it)
-  - *avoir du pain sur la planche* (to have a lot on your plate)
-  - *il pleut des cordes* (it's pouring)
-  - *être dans la lune* (to be daydreaming)
-  - *donner sa langue au chat* (to give up guessing)
-  - *avoir un poil dans la main* (to be lazy)
-  - *se creuser la tête* (to rack your brains)
-  - *ne pas être dans son assiette* (to feel off)
-  - *raconter des salades* (to tell tall stories)
-  - *appeler un chat un chat* (to call a spade a spade)
-  - *avoir le bras long* (to have influence)
-  - *faire la tête* (to sulk)
-  - *coûter un rein* (to cost a fortune; informal)
-  - *en un clin d'œil* (in the blink of an eye)
-  - *une expression imagée* (an idiom)
-- **Cognates for the allowlist:** none.
-- **Dialogue (12 lines):** two flatmates catch up on a bad week (*tu*), using six idioms.
-- **Longer text:** none.
-- **En résumé (60 to 100 words):**
-  - idioms aren't translated word for word
-  - each one has a register
-  - three themes: the body, food, animals
-- **Exercises (15):**
-  - ex1 to ex5 MC: idiom → meaning
-  - ex6 to ex8 fill-in: the missing noun (*lapin*, *pommes*, *planche*)
-  - ex9 register-shift: *Il m'a posé un lapin* → neutral
-  - ex10 reformulation: literal → idiom
-  - ex11 error-correction: a wrong animal or food in an idiom
-  - ex12 translate: "It's pouring."
-  - ex13 translate: "This phone costs an arm and a leg."
-  - ex14 write-out: a 3-sentence message with two idioms
-  - ex15 reorder
-- **Prerequisites:** b1-relationships.
-- **LessonLinks:** b1-relationships, b2-review-nuance (next).
-- **review-needed.md:** each idiom's meaning and register, especially *coûter un rein* and *avoir le bras long*.
-- **Size:** teaching about 850; whole about 1,350; vocab 22; 15 exercises.
 
 ## 8. b2-review-nuance: Review: Nuance and society
 

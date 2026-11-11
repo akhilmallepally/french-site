@@ -1,6 +1,6 @@
 # B2 outline
 
-From docs/syllabus.md. One line per lesson: order, id, title, type. No B2 lesson is written yet. Order updated after the first plan review (docs/b2-plan-review.md).
+From docs/syllabus.md. One line per lesson: order, id, title, type. Order updated after the second plan review (docs/b2-plan-review-2.md).
 
 ## Unit 1: Nuance and society
 
@@ -8,9 +8,9 @@ From docs/syllabus.md. One line per lesson: order, id, title, type. No B2 lesson
 - 2 · b2-social-issues · Social issues · vocabulary
 - 3 · b2-subjunctive-conjunctions · Subjunctive after conjunctions · grammar
 - 4 · b2-concession-opposition · Concession and opposition · grammar
-- 5 · b2-logical-connectors · Logical connectors · grammar
-- 6 · b2-purpose-expressions · Expressing purpose · grammar
-- 7 · b2-idioms-everyday · Everyday idioms · vocabulary
+- 5 · b2-idioms-everyday · Everyday idioms · vocabulary
+- 6 · b2-logical-connectors · Logical connectors · grammar
+- 7 · b2-purpose-expressions · Expressing purpose · grammar
 - 8 · b2-review-nuance · Review: Nuance and society · review
 
 ## Unit 2: What might have been
