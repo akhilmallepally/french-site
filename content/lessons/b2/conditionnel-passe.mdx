@@ -11,7 +11,7 @@ prerequisites: ["b1-conditionnel-present", "a2-passe-compose-etre"]
 related: ["b1-plus-que-parfait", "b2-si-plus-que-parfait", "b2-regret-and-reproach"]
 vocab:
   - { id: "b2-conditionnel-passe-v001", group: "wish", fr: "j'aurais aimé", pron: "zhoh-reh-zeh-MAY", en: "I'd have liked, I wish I had", note: "+ infinitive: j'aurais aimé partir." }
-  - { id: "b2-conditionnel-passe-v002", group: "wish", fr: "ça aurait été", pron: "sah oh-reh-tay-TAY", en: "it would have been" }
+  - { id: "b2-conditionnel-passe-v002", group: "wish", fr: "ça aurait été / cela aurait été", pron: "sah oh-reh-tay-TAY / suh-lah oh-reh-tay-TAY", en: "it would have been", note: "Cela is more formal, mostly written." }
   - { id: "b2-conditionnel-passe-v003", group: "wish", fr: "à ta place, j'aurais…", pron: "ah tah PLAHSS zhoh-REH", en: "in your place, I'd have…", note: "Formal: à votre place." }
   - { id: "b2-conditionnel-passe-v004", group: "choices", fr: "un choix de vie", pron: "uhn shwah duh VEE", en: "a life choice" }
   - { id: "b2-conditionnel-passe-v005", group: "choices", fr: "une occasion manquée", pron: "ew-noh-kah-zyohn mahn-KAY", en: "a missed opportunity" }
@@ -20,6 +20,7 @@ vocab:
   - { id: "b2-conditionnel-passe-v008", group: "choices", fr: "un tournant", pron: "uhn toor-NAHN", en: "a turning point" }
   - { id: "b2-conditionnel-passe-v009", group: "choices", fr: "envisager", pron: "ahn-vee-zah-ZHAY", en: "to consider", note: "Envisager de + infinitive. Like manger: nous envisageons." }
   - { id: "b2-conditionnel-passe-v010", group: "choices", fr: "autrement", pron: "oh-truh-MAHN", en: "differently, otherwise" }
+  - { id: "b2-conditionnel-passe-v018", group: "choices", fr: "la médecine", pron: "lah mayd-SEEN", en: "medicine (the subject, the profession)" }
   - { id: "b2-conditionnel-passe-v011", group: "news", fr: "selon des sources proches de", pron: "suh-lohn day soorss PROSH duh", en: "according to sources close to" }
   - { id: "b2-conditionnel-passe-v012", group: "news", fr: "un bilan", pron: "uhn bee-LAHN", en: "a toll (of victims, in the news)" }
   - { id: "b2-conditionnel-passe-v013", group: "news", fr: "un blessé / une blessée", pron: "uhn bleh-SAY / ewn bleh-SAY", en: "an injured person" }
@@ -86,8 +87,8 @@ exercises:
   - id: "b2-conditionnel-passe-ex011"
     type: "fill-in"
     prompt: "Complétez : Ce nouveau travail a été un ___ dans sa vie."
-    answers: ["tournant"]
-    explanation: "Un tournant: a turning point."
+    answers: ["tournant", "changement"]
+    explanation: "Un tournant: a turning point. Un changement (a change) also fits."
   - id: "b2-conditionnel-passe-ex012"
     type: "translate"
     prompt: "Traduisez : I would have liked to study medicine."
@@ -102,7 +103,7 @@ exercises:
   - id: "b2-conditionnel-passe-ex014"
     type: "translate"
     prompt: "Rédigez en complétant comme indiqué : À vingt ans, (I would have liked) vivre à l'étranger. À ta place, (I would have seized) l'occasion. (It would have been) un tournant."
-    answers: ["À vingt ans, j'aurais aimé vivre à l'étranger. À ta place, j'aurais saisi l'occasion. Ça aurait été un tournant.", "À vingt ans, j'aurais voulu vivre à l'étranger. À ta place, j'aurais saisi l'occasion. Ça aurait été un tournant."]
+    answers: ["À vingt ans, j'aurais aimé vivre à l'étranger. À ta place, j'aurais saisi l'occasion. Ça aurait été un tournant.","À vingt ans, j'aurais aimé vivre à l'étranger. À ta place, j'aurais saisi l'occasion. Cela aurait été un tournant.","À vingt ans, j'aurais voulu vivre à l'étranger. À ta place, j'aurais saisi l'occasion. Ça aurait été un tournant.","À vingt ans, j'aurais voulu vivre à l'étranger. À ta place, j'aurais saisi l'occasion. Cela aurait été un tournant."]
     explanation: "Three conditionnels passés, all with avoir: aurais aimé, aurais saisi, aurait été."
     strictAccents: true
   - id: "b2-conditionnel-passe-ex015"
@@ -134,12 +135,12 @@ The conditionnel passé is *avoir* or *être* in the conditionnel présent, foll
 | vous | *vous auriez fini* | *vous seriez parti(e)(s)* |
 | ils / elles | *ils auraient fini* | *elles seraient parties* |
 
-Agreement works as in the passé composé, from <LessonLink id="a2-passe-compose-etre" text="the lesson on the passé composé with être" />. With *être*, the participle agrees with the subject: *elle serait venue*. Reflexive verbs also take *être*: *je me serais levé plus tôt* (I'd have got up earlier).
+Agreement works as in the passé composé, from <LessonLink id="a2-passe-compose-etre" text="the lesson on the passé composé with être" />. With *être*, the participle agrees with the subject: *elle serait venue*. Reflexive verbs also take *être*: *je me serais levé plus tôt* (I'd have got up earlier). With *avoir*, the participle agrees with a direct object placed before it, as in <LessonLink id="a2-pronouns-in-passe-compose" text="the lesson on pronouns in the passé composé" />. The rule doesn't change in this tense: *je l'aurais vue* (I would have seen her).
 
 <Example fr="Nous aurions fini avant midi." en="We would have finished before noon." />
 <Example fr="Elles seraient restées jusqu'au soir." en="They would have stayed until the evening." />
 
-The tense means "would have done". It always describes the past, and it always describes something that didn't happen, or that you can't confirm.
+The tense means "would have done". In this lesson it has two uses: a past event that didn't happen, and past news that isn't confirmed. Later in B2, you'll also meet it in reported speech.
 
 ## What didn't happen
 
@@ -174,6 +175,7 @@ These words help you talk about the moments when your life could have gone anoth
 In news reports, the conditionnel passé gives a past fact that the journalist can't confirm yet. It's like "is said to have" or "reportedly" in English. You already met *apparemment* (apparently) in <LessonLink id="b1-conditionnel-present" text="the lesson on the conditionnel présent" />, which does a similar job in a single word.
 
 <Example fr="L'incendie aurait fait deux blessés." en="The fire is reported to have injured two people." />
+<Example fr="Le bilan n'est pas encore confirmé." en="The toll hasn't been confirmed yet." />
 <Example fr="Selon des sources proches de l'entreprise, le directeur serait parti hier." en="According to sources close to the company, the director reportedly left yesterday." />
 
 *Un bilan* here is the number of victims of an event, and *faire des victimes* means to leave people hurt or dead. Once the facts are confirmed, the report switches back to the passé composé: *l'incendie a fait deux blessés*. Notice the change when you read the news: the tense tells you how sure the journalist is.

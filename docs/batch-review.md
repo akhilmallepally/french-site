@@ -1,323 +1,234 @@
-# Batch review: B2 Unit 1 grammar lessons
+# Batch review: B2 Unit 2 lessons 9 to 11
 
-## b2-subjunctive-conjunctions: Subjunctive after conjunctions
+## b2-conditionnel-passe: The conditionnel passé
 
 ### Exercises
 
-- **ex001** (fill-in): Conjuguez venir au subjonctif : Bien qu'il ___ souvent, il ne parle pas beaucoup.
-  - Answers: "vienne"
-  - Feedback: Bien que + subjunctive: qu'il vienne.
-- **ex002** (fill-in): Conjuguez finir au subjonctif : Attendez jusqu'à ce que je ___.
-  - Answers: "finisse"
-  - Feedback: Jusqu'à ce que + subjunctive: que je finisse.
-- **ex003** (fill-in): Conjuguez pouvoir au subjonctif : Je viendrai à condition que tu ___ venir me chercher.
-  - Answers: "puisses"
-  - Feedback: À condition que + subjunctive: que tu puisses.
-- **ex004** (fill-in): Conjuguez être au subjonctif : Partons avant qu'il ___ trop tard.
-  - Answers: "soit"
-  - Feedback: Avant que + subjunctive: qu'il soit.
-- **ex005** (connector-choice): Choisissez le connecteur : Je te prête ma voiture ___ tu fasses attention.
-  - Options: "à condition que" / "jusqu'à ce que" / "sans que"
-  - Answers: "à condition que"
-  - Feedback: À condition que sets a condition: I'll lend it if you're careful.
-- **ex006** (multiple-choice): Choisissez la bonne phrase (le même sujet fait les deux actions).
-  - Options: "Je téléphone avant de partir." / "Je téléphone avant que je parte." / "Je téléphone avant partir."
-  - Answers: "Je téléphone avant de partir."
-  - Feedback: With the same subject, French uses avant de + infinitive, not avant que.
-- **ex007** (multiple-choice): Indiquez le sens de : Partez avant qu'il ne pleuve.
-  - Options: "Leave before it rains." / "Leave when it stops raining." / "Don't leave if it rains."
-  - Answers: "Leave before it rains."
-  - Feedback: The ne after avant que is the expletive ne: it isn't negative.
-- **ex008** (reformulation): Reformulez en une phrase avec « bien que » : Il fait froid. Nous sortons.
-  - Answers: "Bien qu'il fasse froid, nous sortons" / "Nous sortons bien qu'il fasse froid"
-  - Feedback: Bien que + subjunctive: qu'il fasse.
-- **ex009** (reformulation): Reformulez en une phrase avec « avant de » : Elle lit le dossier. Ensuite, elle signe.
-  - Answers: "Elle lit le dossier avant de signer" / "Elle lit le dossier avant de le signer"
-  - Feedback: Same subject (elle), so avant de + infinitive.
-- **ex010** (error-correction): Corrigez l'erreur : Bien qu'il est fatigué, il travaille.
-  - Answers: "Bien qu'il soit fatigué, il travaille"
-  - Feedback: Bien que always takes the subjunctive: qu'il soit.
-- **ex011** (fill-in): Complétez : Il ne partira pas, à moins ___ trouver un travail dans une autre ville.
-  - Answers: "de"
-  - Feedback: Same subject: à moins de + infinitive.
-- **ex012** (translate, strictAccents): Traduisez (tu) : I'll help you provided that you call me.
-  - Answers: "Je t'aiderai à condition que tu m'appelles" / "Je vais t'aider à condition que tu m'appelles"
-  - Feedback: À condition que + subjunctive: que tu m'appelles.
-- **ex013** (translate, strictAccents): Traduisez : We'll wait until he arrives.
-  - Answers: "Nous attendrons jusqu'à ce qu'il arrive" / "On attendra jusqu'à ce qu'il arrive" / "Nous allons attendre jusqu'à ce qu'il arrive" / "On va attendre jusqu'à ce qu'il arrive"
-  - Feedback: Jusqu'à ce que + subjunctive: qu'il arrive.
-- **ex014** (translate, strictAccents): Rédigez ces trois consignes en mettant le verbe au subjonctif : Envoyez le dossier avant que le bureau (fermer). Vous aurez une réponse à condition que le dossier (être) complet. Attendez jusqu'à ce que nous vous (appeler).
-  - Answers: "Envoyez le dossier avant que le bureau ferme. Vous aurez une réponse à condition que le dossier soit complet. Attendez jusqu'à ce que nous vous appelions." / "Envoyez le dossier avant que le bureau ne ferme. Vous aurez une réponse à condition que le dossier soit complet. Attendez jusqu'à ce que nous vous appelions."
-  - Feedback: Three conjunctions, three subjunctives: ferme, soit, appelions. The ne after avant que is optional.
-- **ex015** (reorder): Remettez dans l'ordre : Although it's late, we're going out.
-  - Words: Bien · qu'il · soit · tard · nous · sortons
-  - Answers: "Bien qu'il soit tard, nous sortons"
-  - Feedback: Bien que + subjunctive, then the main clause.
+- **ex001** (fill-in, strictAccents): Mettez au conditionnel passé (aimer) : Elle ___ voyager plus jeune.
+  - Answers: "aurait aimé"
+  - Feedback: Aimer takes avoir: elle aurait aimé.
+- **ex002** (fill-in): Mettez au conditionnel passé (partir) : À sa place, Paul ___ plus tôt.
+  - Answers: "serait parti"
+  - Feedback: Partir takes être: Paul serait parti.
+- **ex003** (fill-in): Mettez au conditionnel passé (venir) : Avec plus de temps, mes parents ___ nous voir.
+  - Answers: "seraient venus"
+  - Feedback: Venir takes être, and venus agrees with mes parents.
+- **ex004** (fill-in): Mettez au conditionnel passé (pouvoir) : Avec une voiture, tu ___ arriver à l'heure.
+  - Answers: "aurais pu"
+  - Feedback: Pouvoir takes avoir: tu aurais pu.
+- **ex005** (multiple-choice): Choisissez la bonne forme : Elle ___ restée à la maison.
+  - Options: "serait" / "aurait" / "aurais"
+  - Answers: "serait"
+  - Feedback: Rester takes être, as in the passé composé: elle serait restée.
+- **ex006** (multiple-choice): Choisissez la bonne forme : Sans la grève, Marie serait ___ à l'heure.
+  - Options: "arrivée" / "arrivés" / "arrivées"
+  - Answers: "arrivée"
+  - Feedback: With être, the participle agrees with the subject: Marie serait arrivée.
+- **ex007** (multiple-choice): Choisissez le titre qui donne une information non confirmée.
+  - Options: "L'incendie aurait fait deux blessés." / "L'incendie a fait deux blessés." / "L'incendie fait deux blessés."
+  - Answers: "L'incendie aurait fait deux blessés."
+  - Feedback: The conditionnel passé tells the reader that the fact isn't confirmed yet.
+- **ex008** (reformulation, strictAccents): Reformulez avec « j'aurais aimé » : Je voulais partir.
+  - Answers: "J'aurais aimé partir"
+  - Feedback: J'aurais aimé + infinitive: a wish that didn't come true.
+- **ex009** (reformulation): Reformulez au conditionnel passé, comme une information non confirmée : L'incendie a fait deux blessés.
+  - Answers: "L'incendie aurait fait deux blessés"
+  - Feedback: A changes to aurait: the journalist doesn't confirm the fact.
+- **ex010** (error-correction): Corrigez l'erreur : J'aurais allé au concert avec toi.
+  - Answers: "Je serais allé au concert avec toi" / "Je serais allée au concert avec toi"
+  - Feedback: Aller takes être: je serais allé, or allée for a woman.
+- **ex011** (fill-in): Complétez : Ce nouveau travail a été un ___ dans sa vie.
+  - Answers: "tournant"
+  - Feedback: Un tournant: a turning point.
+- **ex012** (translate, strictAccents): Traduisez : I would have liked to study medicine.
+  - Answers: "J'aurais aimé étudier la médecine" / "J'aurais voulu étudier la médecine" / "J'aurais aimé faire des études de médecine" / "J'aurais voulu faire des études de médecine"
+  - Feedback: J'aurais aimé (or j'aurais voulu) + infinitive.
+- **ex013** (translate): Traduisez avec le conditionnel passé : The fire is said to have injured two people.
+  - Answers: "L'incendie aurait fait deux blessés" / "L'incendie aurait blessé deux personnes"
+  - Feedback: The conditionnel passé of faire: the fact isn't confirmed.
+- **ex014** (translate, strictAccents): Rédigez en complétant comme indiqué : À vingt ans, (I would have liked) vivre à l'étranger. À ta place, (I would have seized) l'occasion. (It would have been) un tournant.
+  - Answers: "À vingt ans, j'aurais aimé vivre à l'étranger. À ta place, j'aurais saisi l'occasion. Ça aurait été un tournant." / "À vingt ans, j'aurais voulu vivre à l'étranger. À ta place, j'aurais saisi l'occasion. Ça aurait été un tournant."
+  - Feedback: Three conditionnels passés, all with avoir: aurais aimé, aurais saisi, aurait été.
+- **ex015** (reorder): Remettez dans l'ordre : We would have left earlier.
+  - Words: Nous · serions · partis · plus · tôt
+  - Answers: "Nous serions partis plus tôt"
+  - Feedback: Être in the conditionnel, then the participle, which agrees with nous.
 
 ### Vocab
 
 | fr | pron | en |
 |---|---|---|
-| bien que | byan KUH | although |
-| avant que | ah-vahn KUH | before |
-| à condition que | ah kohn-dee-syohn KUH | provided that, on condition that |
-| jusqu'à ce que | zhews-kah suh KUH | until |
-| sans que | sahn KUH | without |
-| à moins que | ah mwan KUH | unless |
-| à condition de | ah kohn-dee-syohn DUH | provided that, + infinitive |
-| à moins de | ah mwan DUH | unless, + infinitive |
-| le ne explétif | luh nuh ek-splay-TEEF | the expletive ne (a ne that doesn't make the sentence negative) |
-| une démarche | ewn day-MARSH | a procedure, a step (in a process) |
-| obtenir | op-tuh-NEER | to obtain, to get |
-| un titre de séjour | uhn tee-truh duh say-ZHOOR | a residence permit |
-| attendre que | ah-tahn-druh KUH | to wait until, + subjunctive |
-| accueillir | ah-kuh-YEER | to welcome, to receive |
-| un centre d'accueil | uhn sahn-truh dah-KUH-y | a reception centre, a drop-in centre |
+| j'aurais aimé | zhoh-reh-zeh-MAY | I'd have liked, I wish I had |
+| ça aurait été | sah oh-reh-tay-TAY | it would have been |
+| à ta place, j'aurais… | ah tah PLAHSS zhoh-REH | in your place, I'd have… |
+| un choix de vie | uhn shwah duh VEE | a life choice |
+| une occasion manquée | ew-noh-kah-zyohn mahn-KAY | a missed opportunity |
+| saisir une occasion | seh-zeer ew-noh-kah-ZYOHN | to seize an opportunity |
+| bifurquer | bee-fewr-KAY | to change course, to branch off |
+| un tournant | uhn toor-NAHN | a turning point |
+| envisager | ahn-vee-zah-ZHAY | to consider |
+| autrement | oh-truh-MAHN | differently, otherwise |
+| selon des sources proches de | suh-lohn day soorss PROSH duh | according to sources close to |
+| un bilan | uhn bee-LAHN | a toll (of victims, in the news) |
+| un blessé / une blessée | uhn bleh-SAY / ewn bleh-SAY | an injured person |
+| faire des victimes | fehr day veek-TEEM | to claim victims, to leave people hurt or dead |
+| non confirmé / non confirmée | nohn kohn-feer-MAY | unconfirmed |
+| le conditionnel passé | luh kohn-dee-syoh-nel pah-SAY | the conditionnel passé (past conditional) |
+| le participe passé | luh par-tee-seep pah-SAY | the past participle |
 
 ### En résumé
 
-Bien que, avant que, à condition que, jusqu'à ce que, sans que et à moins que sont toujours suivis du subjonctif. Quand une seule personne fait les deux actions, on prend souvent l'infinitif : avant de partir, sans parler, à condition de venir, à moins de pouvoir. Bien que et jusqu'à ce que gardent que et le subjonctif. Après avant que et à moins que, on peut ajouter un petit ne. Ce ne ne change pas le sens de la phrase.
+Le conditionnel passé se forme avec avoir ou être au conditionnel présent, puis le participe passé : j'aurais aimé, elle serait partie. On choisit avoir ou être comme au passé composé, et l'accord est le même. On choisit ce temps pour parler de ce qui n'est pas arrivé : à ta place, j'aurais saisi l'occasion. Dans les journaux, il donne une information non confirmée : l'incendie aurait fait deux blessés.
 
-## b2-concession-opposition: Concession and opposition
+## b2-si-plus-que-parfait: Si + plus-que-parfait, conditionnel passé
 
 ### Exercises
 
-- **ex001** (connector-choice): Choisissez le connecteur : ___ la pluie, nous sommes sortis.
-  - Options: "Malgré" / "Bien que" / "Alors que"
-  - Answers: "Malgré"
-  - Feedback: Malgré + a noun. Bien que and alors que need a verb.
-- **ex002** (connector-choice): Choisissez le connecteur : Paul aime la ville, ___ sa sœur préfère la campagne.
-  - Options: "alors que" / "malgré" / "avoir beau"
-  - Answers: "alors que"
-  - Feedback: Alors que contrasts two facts, with the indicative.
-- **ex003** (fill-in, strictAccents): Conjuguez avoir au présent : Il ___ beau chercher, il ne trouve pas d'appartement.
-  - Answers: "a"
-  - Feedback: Avoir beau + infinitive: il a beau chercher (he searches in vain).
-- **ex004** (fill-in): Complétez : Il pleut, mais on sort quand ___.
-  - Answers: "même"
-  - Feedback: Quand même: all the same.
-- **ex005** (multiple-choice): Choisissez le connecteur du registre soutenu.
-  - Options: "néanmoins" / "quand même" / "bref"
-  - Answers: "néanmoins"
-  - Feedback: Néanmoins belongs to formal writing. Quand même is mainly spoken, and bref doesn't express concession.
-- **ex006** (multiple-choice): Choisissez la bonne phrase.
-  - Options: "Il fait beau. Pourtant, il reste à la maison." / "Il fait beau, pourtant qu'il reste à la maison." / "Pourtant il fait beau qu'il reste à la maison."
-  - Answers: "Il fait beau. Pourtant, il reste à la maison."
-  - Feedback: Pourtant is an adverb: it isn't followed by que.
-- **ex007** (reformulation, strictAccents): Reformulez avec « malgré » + nom : Bien qu'il pleuve, le match a lieu.
-  - Answers: "Malgré la pluie, le match a lieu" / "Le match a lieu malgré la pluie"
-  - Feedback: Malgré + a noun replaces bien que + a verb.
-- **ex008** (reformulation): Reformulez avec « avoir beau » : Je cherche, mais je ne trouve pas mes clés.
-  - Answers: "J'ai beau chercher, je ne trouve pas mes clés"
-  - Feedback: Avoir beau + infinitive says the effort doesn't work.
-- **ex009** (error-correction): Corrigez l'erreur : Malgré qu'il pleut, nous sortons.
-  - Answers: "Bien qu'il pleuve, nous sortons"
-  - Feedback: Malgré takes a noun. Before a verb, use bien que + subjunctive.
-- **ex010** (register-shift): Transformez en registre soutenu, avec « néanmoins » : C'est cher, mais je l'achète quand même.
-  - Answers: "C'est cher. Néanmoins, je l'achète" / "C'est cher, néanmoins je l'achète"
-  - Feedback: Néanmoins replaces both mais and quand même in formal writing.
-- **ex011** (fill-in): Complétez : À Paris, les loyers sont chers. En ___, les salaires sont meilleurs.
-  - Answers: "revanche"
-  - Feedback: En revanche: on the other hand.
-- **ex012** (translate): Traduisez : Despite the rain, we went out.
-  - Answers: "Malgré la pluie, nous sommes sortis" / "Malgré la pluie, nous sommes sorties" / "Malgré la pluie, on est sortis" / "Malgré la pluie, on est sorties"
-  - Feedback: Malgré + noun. Sortir takes être, and the participle agrees with nous.
-- **ex013** (translate, strictAccents): Traduisez : He tried in vain, he didn't succeed.
-  - Answers: "Il a eu beau essayer, il n'a pas réussi"
-  - Feedback: Avoir beau in the passé composé: il a eu beau essayer.
-- **ex014** (translate): Rédigez en complétant comme indiqué : La ville est chère, (whereas) la campagne est calme. (Despite) le bruit, j'aime Paris. Le travail est intéressant. (However), le salaire est bas.
-  - Answers: "La ville est chère, alors que la campagne est calme. Malgré le bruit, j'aime Paris. Le travail est intéressant. Cependant, le salaire est bas." / "La ville est chère, tandis que la campagne est calme. Malgré le bruit, j'aime Paris. Le travail est intéressant. Cependant, le salaire est bas."
-  - Feedback: Alors que or tandis que for the contrast, malgré + noun, and cependant to start a sentence.
-- **ex015** (reorder): Remettez dans l'ordre : Despite his age, he's still working.
-  - Words: Malgré · son · âge · il · travaille · encore
-  - Answers: "Malgré son âge, il travaille encore"
-  - Feedback: Malgré + noun at the start, then the main clause.
+- **ex001** (fill-in): Mettez au plus-que-parfait (savoir) : Si j'___, je serais venu.
+  - Answers: "avais su"
+  - Feedback: Si + plus-que-parfait: si j'avais su.
+- **ex002** (fill-in): Mettez au plus-que-parfait (partir) : Si nous ___ plus tôt, nous n'aurions pas raté le train.
+  - Answers: "étions partis" / "étions parties"
+  - Feedback: Partir takes être: si nous étions partis (or parties).
+- **ex003** (fill-in): Mettez au conditionnel passé (venir) : Si tu m'avais appelé, je ___.
+  - Answers: "serais venu" / "serais venue"
+  - Feedback: The result is in the conditionnel passé: je serais venu (or venue).
+- **ex004** (fill-in): Mettez au conditionnel passé (pouvoir) : S'il avait fait beau, nous ___ sortir.
+  - Answers: "aurions pu"
+  - Feedback: Pouvoir takes avoir: nous aurions pu.
+- **ex005** (multiple-choice): Choisissez la bonne phrase.
+  - Options: "Si j'avais su, je serais venu." / "Si j'aurais su, je serais venu." / "Si j'avais su, je viendrai."
+  - Answers: "Si j'avais su, je serais venu."
+  - Feedback: Plus-que-parfait after si, conditionnel passé in the result. Never the conditionnel after si.
+- **ex006** (multiple-choice): Indiquez le sens de : Je me doutais qu'il allait pleuvoir.
+  - Options: "I suspected it was going to rain." / "I doubted it was going to rain." / "I was sure it would never rain."
+  - Answers: "I suspected it was going to rain."
+  - Feedback: Se douter que means to suspect. Douter que means to doubt.
+- **ex007** (connector-choice): Choisissez le connecteur : Personne ne m'a prévenu. ___ j'avais su, je serais venu.
+  - Options: "Si" / "Bien que" / "Pour que"
+  - Answers: "Si"
+  - Feedback: Si + plus-que-parfait. Bien que and pour que would need the subjunctive.
+- **ex008** (reformulation, strictAccents): Reformulez avec « si » + plus-que-parfait : Il n'est pas parti à l'heure, donc il a raté le train.
+  - Answers: "S'il était parti à l'heure, il n'aurait pas raté le train" / "Il n'aurait pas raté le train s'il était parti à l'heure"
+  - Feedback: Turn the real facts around: he didn't leave, so si il était parti, and the result becomes negative.
+- **ex009** (reformulation): Reformulez avec « faillir » : Le train partait, et je suis monté au dernier moment.
+  - Answers: "J'ai failli rater le train" / "J'ai failli manquer le train"
+  - Feedback: Faillir in the passé composé + infinitive: it almost happened.
+- **ex010** (error-correction): Corrigez l'erreur : Si j'aurais su, je serais resté.
+  - Answers: "Si j'avais su, je serais resté" / "Si j'avais su, je serais restée"
+  - Feedback: Never the conditionnel after si: si j'avais su.
+- **ex011** (fill-in): Complétez : Nous avons eu le train de ___ : les portes se fermaient.
+  - Answers: "justesse"
+  - Feedback: De justesse: only just.
+- **ex012** (translate): Traduisez : If I'd known, I'd have come.
+  - Answers: "Si j'avais su, je serais venu" / "Si j'avais su, je serais venue" / "Je serais venu si j'avais su" / "Je serais venue si j'avais su"
+  - Feedback: Si + plus-que-parfait, then the conditionnel passé. Venu or venue depends on who speaks.
+- **ex013** (translate): Traduisez avec « rater » (deux hommes parlent) : If we had left earlier, we wouldn't have missed the train.
+  - Answers: "Si nous étions partis plus tôt, nous n'aurions pas raté le train" / "Nous n'aurions pas raté le train si nous étions partis plus tôt"
+  - Feedback: Partir takes être, so partis agrees with nous. Rater takes avoir.
+- **ex014** (translate, strictAccents): Rédigez en complétant comme indiqué (une femme parle) : Si le train (had been) à l'heure, je (would have arrived) à temps. Si j'(had known), j'(would have taken) le bus. Si tu (had called) Paul, il (would have waited).
+  - Answers: "Si le train avait été à l'heure, je serais arrivée à temps. Si j'avais su, j'aurais pris le bus. Si tu avais appelé Paul, il aurait attendu."
+  - Feedback: Each sentence: plus-que-parfait after si, conditionnel passé in the result. Arrivée agrees with the woman speaking.
+- **ex015** (reorder): Remettez dans l'ordre : If I had known, I would have stayed.
+  - Words: Si · j'avais · su · je · serais · resté
+  - Answers: "Si j'avais su, je serais resté"
+  - Feedback: The si clause first, then a comma and the result.
 
 ### Vocab
 
 | fr | pron | en |
 |---|---|---|
-| malgré | mahl-GRAY | despite, in spite of |
-| pourtant | poor-TAHN | yet, and yet |
-| cependant | suh-pahn-DAHN | however |
-| néanmoins | nay-ahn-MWAN | nevertheless (formal) |
-| quand même | kahn MEM | all the same, still (mainly spoken) |
-| avoir beau | ah-vwahr BOH | to do something in vain |
-| certes | sehrt | admittedly, certainly |
-| alors que | ah-lor KUH | whereas, while |
-| tandis que | tahn-dee KUH | whereas, while |
-| en revanche | ahn ruh-VAHNSH | on the other hand |
-| un écart | uh-nay-KAR | a gap, a difference |
-| le niveau de vie | luh nee-voh duh VEE | the standard of living |
-| un paradoxe | uhn pah-rah-DOKS | a paradox |
-| une contradiction | ewn kohn-trah-deek-SYOHN | a contradiction |
-| contradictoire | kohn-trah-deek-TWAHR | contradictory |
-| s'opposer à | soh-poh-zay AH | to be opposed to, to oppose |
+| si j'avais su | see zhah-veh SEW | if I'd known |
+| si seulement | see suhl-MAHN | if only |
+| par malchance | par mahl-SHAHNSS | by bad luck, unfortunately |
+| par hasard | par ah-ZAR | by chance |
+| un hasard | uhn ah-ZAR | a coincidence |
+| heureusement que | uh-ruhz-mahn KUH | luckily, it's a good thing that |
+| un concours de circonstances | uhn kohn-koor duh seer-kohn-STAHNSS | a chain of events, a combination of circumstances |
+| imprévisible | an-pray-vee-ZEE-bluh | unpredictable |
+| changer le cours de | shahn-zhay luh KOOR duh | to change the course of |
+| au dernier moment | oh dehr-nyay moh-MAHN | at the last minute |
+| de justesse | duh zhews-TESS | only just, narrowly |
+| faillir | fah-YEER | to almost do |
+| se douter de | suh doo-TAY duh | to suspect |
 
 ### En résumé
 
-Malgré est suivi d'un nom : malgré la pluie. Bien que est suivi d'un verbe au subjonctif. Pourtant, cependant et néanmoins commencent souvent une phrase, et néanmoins est plus soutenu. Alors que et tandis que comparent deux faits avec l'indicatif. En revanche montre une différence entre deux phrases. Quand on a beau essayer, on essaie mais ça ne marche pas. On dit souvent quand même quand on parle.
+Pour parler d'un passé qui n'est pas arrivé, on met si avec le plus-que-parfait, puis le conditionnel passé : si j'avais su, je serais venu. En réalité, je n'ai pas su, et je ne suis pas venu. Après si, on ne met jamais le conditionnel. La phrase avec si peut aussi venir en deuxième : je serais venu si j'avais su. Avec si seulement et le plus-que-parfait, on exprime un regret : si seulement j'avais su !
 
-## b2-purpose-expressions: Expressing purpose
+## b2-mixed-conditionals: Mixed si-clauses
 
 ### Exercises
 
-- **ex001** (connector-choice): Choisissez la bonne réponse : Je parle lentement ___ tu comprennes.
-  - Options: "pour que" / "pour" / "de peur de"
-  - Answers: "pour que"
-  - Feedback: Two different subjects (je, tu), so pour que + subjunctive.
-- **ex002** (fill-in): Conjuguez le verbe (venir) : Je t'envoie l'adresse afin que tu ___ ce soir.
-  - Answers: "viennes"
-  - Feedback: Afin que + subjunctive: que tu viennes.
-- **ex003** (fill-in): Conjuguez le verbe (être) : Il part tôt de peur que le train ne ___ plein.
-  - Answers: "soit"
-  - Feedback: De peur que + subjunctive, here with the expletive ne: ne soit.
-- **ex004** (fill-in): Conjuguez le verbe (faire) : Nous voulons éviter que les gens ___ trop de déchets.
-  - Answers: "fassent"
-  - Feedback: Éviter que + subjunctive: qu'ils fassent.
-- **ex005** (multiple-choice): Choisissez le sens : Il a parlé fort, de sorte que tout le monde l'a entendu.
-  - Options: "Result: so everyone heard him." / "Purpose: so that everyone would hear him." / "Fear: for fear that nobody would hear him."
-  - Answers: "Result: so everyone heard him."
-  - Feedback: De sorte que + indicative (a entendu) gives a result. With the subjunctive, it would give a purpose.
-- **ex006** (multiple-choice): Choisissez le registre de « afin de ».
-  - Options: "soutenu" / "familier"
-  - Answers: "soutenu"
-  - Feedback: Afin de means the same as pour, but it's formal.
-- **ex007** (reformulation): Reformulez avec « pour » + infinitif : Je travaille pour que je réussisse.
-  - Answers: "Je travaille pour réussir"
-  - Feedback: Same subject in both parts, so pour + infinitive. Pour que je réussisse is wrong.
-- **ex008** (reformulation): Reformulez avec « dans le but de » : Nous organisons une campagne parce que nous voulons réduire le gaspillage.
-  - Answers: "Nous organisons une campagne dans le but de réduire le gaspillage"
-  - Feedback: Dans le but de + infinitive replaces parce que nous voulons.
-- **ex009** (error-correction): Corrigez l'erreur : Je t'explique tout pour qu'il vient demain.
-  - Answers: "Je t'explique tout pour qu'il vienne demain"
-  - Feedback: Pour que takes the subjunctive: qu'il vienne.
-- **ex010** (register-shift): Transformez en registre soutenu, avec « afin de » : On fait une campagne pour sensibiliser les jeunes.
-  - Answers: "Nous faisons une campagne afin de sensibiliser les jeunes"
-  - Feedback: Afin de replaces pour, and nous replaces on in formal writing.
-- **ex011** (fill-in): Complétez : Cette campagne veut ___ les gens de gaspiller.
-  - Answers: "dissuader"
-  - Feedback: Dissuader quelqu'un de + infinitive: to deter someone from doing something.
-- **ex012** (translate): Traduisez : We're writing so that people understand.
-  - Answers: "Nous écrivons pour que les gens comprennent" / "Nous écrivons afin que les gens comprennent"
-  - Feedback: Different subjects, so pour que (or afin que) + subjunctive.
-- **ex013** (translate): Traduisez : She left early for fear of missing the train.
-  - Answers: "Elle est partie tôt de peur de rater le train" / "Elle est partie tôt de crainte de rater le train"
-  - Feedback: Same subject, so de peur de + infinitive.
-- **ex014** (translate, strictAccents): Traduisez les objectifs de cette campagne : Our campaign aims to reduce waste. We want to encourage families to cook the leftovers. We're organizing workshops so that children understand the issue.
-  - Answers: "Notre campagne vise à réduire le gaspillage. Nous voulons encourager les familles à cuisiner les restes. Nous organisons des ateliers pour que les enfants comprennent l'enjeu." / "Notre campagne vise à réduire le gaspillage. Nous voulons encourager les familles à cuisiner les restes. Nous organisons des ateliers afin que les enfants comprennent l'enjeu."
-  - Feedback: Viser à + infinitive, encourager quelqu'un à + infinitive, then pour que or afin que + subjunctive.
-- **ex015** (reorder): Remettez dans l'ordre : I'm speaking slowly so that you understand.
-  - Words: Je · parle · lentement · pour · que · vous · compreniez
-  - Answers: "Je parle lentement pour que vous compreniez"
-  - Feedback: Pour que + subjunctive: que vous compreniez.
+- **ex001** (fill-in): Mettez au conditionnel présent (être) : Si j'avais fait des études supérieures, je ___ médecin aujourd'hui.
+  - Answers: "serais"
+  - Feedback: Past condition, present result: si + plus-que-parfait, then the conditionnel présent.
+- **ex002** (fill-in, strictAccents): Mettez au conditionnel passé (accepter) : Si je parlais allemand, j'___ ce poste l'année dernière.
+  - Answers: "aurais accepté"
+  - Feedback: Present condition (I don't speak German), past result: the conditionnel passé.
+- **ex003** (fill-in): Mettez au plus-que-parfait (partir) : S'il ___ à l'étranger, il parlerait anglais aujourd'hui.
+  - Answers: "était parti"
+  - Feedback: The condition is in the past: s'il était parti.
+- **ex004** (fill-in): Mettez au conditionnel présent (avoir) : Prends ton téléphone, au cas où tu ___ un problème.
+  - Answers: "aurais"
+  - Feedback: Au cas où + conditionnel: au cas où tu aurais un problème.
+- **ex005** (multiple-choice): Choisissez la phrase qui a le même sens : Il n'a pas fait d'études, et aujourd'hui il n'a pas de diplôme.
+  - Options: "S'il avait fait des études, il aurait un diplôme." / "S'il faisait des études, il aura un diplôme." / "S'il fera des études, il aurait un diplôme."
+  - Answers: "S'il avait fait des études, il aurait un diplôme."
+  - Feedback: A past condition (plus-que-parfait) with a present result (conditionnel présent).
+- **ex006** (connector-choice): Choisissez le connecteur : Je pars demain, ___ il y a une grève. Dans ce cas, je reste.
+  - Options: "sauf s'" / "même s'" / "au cas où"
+  - Answers: "sauf s'"
+  - Feedback: Sauf si gives the one case where the plan changes. Même si would contradict the next sentence, and au cas où needs the conditionnel.
+- **ex007** (multiple-choice): Indiquez le sens de « prudent » : Sois prudent sur la route !
+  - Options: "careful" / "shy" / "rich"
+  - Answers: "careful"
+  - Feedback: Prudent means careful or cautious.
+- **ex008** (reformulation, strictAccents): Reformulez en une phrase qui commence par « Si j'avais appris » : Je n'ai pas appris l'anglais. Aujourd'hui, je ne peux pas travailler à l'étranger.
+  - Answers: "Si j'avais appris l'anglais, je pourrais travailler à l'étranger aujourd'hui" / "Si j'avais appris l'anglais, aujourd'hui je pourrais travailler à l'étranger" / "Si j'avais appris l'anglais, je pourrais travailler à l'étranger"
+  - Feedback: Past condition (plus-que-parfait), present result (conditionnel présent).
+- **ex009** (reformulation): Reformulez avec « sauf si » : Je viendrai si je ne suis pas malade.
+  - Answers: "Je viendrai sauf si je suis malade" / "Sauf si je suis malade, je viendrai"
+  - Feedback: Sauf si replaces si… ne… pas, with the indicative.
+- **ex010** (error-correction): Corrigez l'erreur : Même si j'aurais le temps, je ne viendrais pas.
+  - Answers: "Même si j'avais le temps, je ne viendrais pas"
+  - Feedback: Même si works like si: never the conditionnel after it.
+- **ex011** (fill-in): Complétez avec le participe passé de « rebondir » : Elle a perdu son travail, mais elle a vite ___.
+  - Answers: "rebondi"
+  - Feedback: Rebondir is like finir: elle a rebondi.
+- **ex012** (translate, strictAccents): Traduisez avec « étudier » : If I had studied medicine, I would be a doctor today.
+  - Answers: "Si j'avais étudié la médecine, je serais médecin aujourd'hui" / "Si j'avais étudié la médecine, aujourd'hui je serais médecin" / "Je serais médecin aujourd'hui si j'avais étudié la médecine" / "Aujourd'hui, je serais médecin si j'avais étudié la médecine"
+  - Feedback: Past condition, present result. No article before a job after être: je serais médecin.
+- **ex013** (translate, strictAccents): Traduisez : Take an umbrella in case it rains.
+  - Answers: "Prends un parapluie au cas où il pleuvrait" / "Prenez un parapluie au cas où il pleuvrait"
+  - Feedback: Au cas où + conditionnel: au cas où il pleuvrait.
+- **ex014** (translate): Rédigez en complétant comme indiqué (un homme parle) : Si je (had stayed) en France, je (would be) professeur aujourd'hui. Mais si j'(were) plus prudent, je (would not have left). Je ne regrette rien : même si j'(had known), j'(would have chosen) la même vie.
+  - Answers: "Si j'étais resté en France, je serais professeur aujourd'hui. Mais si j'étais plus prudent, je ne serais pas parti. Je ne regrette rien : même si j'avais su, j'aurais choisi la même vie."
+  - Feedback: A past condition with a present result, a present condition with a past result, then même si + plus-que-parfait.
+- **ex015** (reorder): Remettez dans l'ordre : If I were more careful, I wouldn't have lost my keys.
+  - Words: Si · j'étais · plus · prudent · je · n'aurais · pas · perdu · mes · clés
+  - Answers: "Si j'étais plus prudent, je n'aurais pas perdu mes clés"
+  - Feedback: A present condition (imparfait) with a past result (conditionnel passé).
 
 ### Vocab
 
 | fr | pron | en |
 |---|---|---|
-| pour que | poor KUH | so that |
-| afin de | ah-FAN duh | in order to (formal) |
-| afin que | ah-fan KUH | so that (formal) |
-| de peur de | duh PUHR duh | for fear of |
-| de peur que | duh puhr KUH | for fear that |
-| de crainte que | duh krant KUH | for fear that (formal) |
-| éviter que | ay-vee-tay KUH | to avoid (something happening) |
-| de sorte que | duh sort KUH | so that (purpose, + subjunctive); so (result, + indicative) |
-| dans le but de | dahn luh BEWT duh | with the aim of |
-| en vue de | ahn VEW duh | with a view to, in preparation for |
-| viser à | vee-ZAY ah | to aim to |
-| en faveur de | ahn fah-VUHR duh | in favour of |
-| une campagne | ewn kahn-PAH-nyuh | a campaign |
-| encourager à | ahn-koo-rah-ZHAY ah | to encourage to |
-| dissuader de | dee-swah-DAY duh | to deter from, to dissuade from |
-| une affiche | ew-nah-FEESH | a poster |
-| un atelier | uh-nah-tuh-LYAY | a workshop |
+| sauf si | sohf SEE | unless, except if |
+| au cas où | oh kah OO | in case |
+| un parcours | uhn par-KOOR | a path, a career path |
+| un diplôme | uhn dee-PLOHM | a degree, a qualification |
+| les études supérieures | lay-zay-tewd sew-pay-RYUHR | higher education |
+| s'expatrier | seks-pah-tree-YAY | to move abroad (to live and work) |
+| tenter sa chance | tahn-tay sah SHAHNSS | to try your luck |
+| tracer sa route | trah-say sah ROOT | to go your own way |
+| rebondir | ruh-bohn-DEER | to bounce back |
+| réussir sa vie | ray-ew-seer sah VEE | to make a success of your life |
+| un regret | uhn ruh-GREH | a regret |
+| le destin | luh des-TAN | fate, destiny |
+| aujourd'hui encore | oh-zhoor-dwee ahn-KOR | to this day, even today |
+| prudent / prudente | prew-DAHN / prew-DAHNT | careful, cautious |
 
 ### En résumé
 
-Pour dire pourquoi on fait quelque chose, on dit pour ou afin de avec l'infinitif quand c'est la même personne. Avec deux personnes, on dit pour que ou afin que avec le subjonctif. Afin de et afin que sont du registre soutenu. De peur de et de peur que expriment une crainte, souvent avec ne après que. Éviter que prend aussi le subjonctif. De sorte que change de sens : avec le subjonctif, c'est un but, et avec l'indicatif, c'est une conséquence.
-
-## b2-logical-connectors: Logical connectors
-
-### Exercises
-
-- **ex001** (connector-choice): Choisissez le connecteur : Ce quartier est calme. ___, il y a beaucoup de parcs.
-  - Options: "En outre" / "Faute de" / "Vu que"
-  - Answers: "En outre"
-  - Feedback: En outre adds a second argument in the same direction.
-- **ex002** (connector-choice): Choisissez le connecteur : Il a raté le train, ___ il est arrivé en retard.
-  - Options: "si bien qu'" / "étant donné qu'" / "faute d'"
-  - Answers: "si bien qu'"
-  - Feedback: Si bien que introduces the result of what comes before.
-- **ex003** (connector-choice): Choisissez le connecteur : ___ il pleut, le match est annulé.
-  - Options: "Étant donné qu'" / "Par conséquent" / "En somme"
-  - Answers: "Étant donné qu'"
-  - Feedback: Étant donné que gives the cause at the start of the sentence.
-- **ex004** (fill-in, strictAccents): Complétez : Les loyers sont trop chers, ___ les manifestations de samedi.
-  - Answers: "d'où"
-  - Feedback: D'où + a noun: hence the demonstrations.
-- **ex005** (fill-in): Complétez : Il a beaucoup travaillé, si ___ qu'il a réussi.
-  - Answers: "bien"
-  - Feedback: Si bien que + indicative: with the result that.
-- **ex006** (fill-in): Complétez : ___ de temps, je n'ai pas fini le livre.
-  - Answers: "Faute"
-  - Feedback: Faute de + a noun: for lack of time.
-- **ex007** (multiple-choice): Indiquez le sens de « en effet » : Il est fatigué. En effet, il a mal dormi.
-  - Options: "indeed, that's because" / "on the other hand" / "in conclusion"
-  - Answers: "indeed, that's because"
-  - Feedback: En effet explains or confirms what came before. It's a false friend: not 'in effect'.
-- **ex008** (multiple-choice): Indiquez le sens de « or » : Il voulait partir en train. Or, la gare était fermée.
-  - Options: "It introduces a fact that changes the situation." / "It gives a second choice." / "It concludes the text."
-  - Answers: "It introduces a fact that changes the situation."
-  - Feedback: Or brings in a new fact that the reasoning has to take into account.
-- **ex009** (reformulation, strictAccents): Reformulez en une phrase avec « étant donné que » : Il pleut. Nous restons à la maison.
-  - Answers: "Étant donné qu'il pleut, nous restons à la maison" / "Nous restons à la maison étant donné qu'il pleut"
-  - Feedback: Étant donné que + indicative, at the start or after the main clause.
-- **ex010** (reformulation, strictAccents): Reformulez avec « à force de » + infinitif : Il travaille beaucoup, c'est pourquoi il réussit.
-  - Answers: "À force de travailler, il réussit" / "Il réussit à force de travailler"
-  - Feedback: À force de + infinitive: the result comes from repeated effort.
-- **ex011** (error-correction, strictAccents): Corrigez l'erreur de connecteur : Il fait beau. En effet, nous restons à la maison.
-  - Answers: "Il fait beau. Pourtant, nous restons à la maison" / "Il fait beau. Cependant, nous restons à la maison"
-  - Feedback: En effet confirms; here the second sentence contrasts, so it needs pourtant or cependant.
-- **ex012** (register-shift, strictAccents): Transformez en registre soutenu, avec « étant donné que » : Vu que tu es là, tu peux m'aider ?
-  - Answers: "Étant donné que tu es là, tu peux m'aider ?" / "Étant donné que tu es là, peux-tu m'aider ?"
-  - Feedback: Étant donné que is more formal than vu que.
-- **ex013** (translate, strictAccents): Traduisez : Given that it's raining, we'll stay at home.
-  - Answers: "Étant donné qu'il pleut, nous resterons à la maison" / "Étant donné qu'il pleut, nous allons rester à la maison"
-  - Feedback: Étant donné que + indicative, then the main clause.
-- **ex014** (translate, strictAccents): Rédigez ce paragraphe en complétant comme indiqué : Le centre-ville est très cher. (Furthermore), il y a beaucoup de bruit. (Consequently), beaucoup de familles partent. (In other words), la ville change.
-  - Answers: "Le centre-ville est très cher. En outre, il y a beaucoup de bruit. Par conséquent, beaucoup de familles partent. Autrement dit, la ville change." / "Le centre-ville est très cher. De plus, il y a beaucoup de bruit. Par conséquent, beaucoup de familles partent. Autrement dit, la ville change."
-  - Feedback: Addition, consequence, then a rephrasing, each followed by a comma.
-- **ex015** (reorder): Remettez dans l'ordre : He worked so much that he's tired.
-  - Words: Il · a · tellement · travaillé · qu'il · est · fatigué
-  - Answers: "Il a tellement travaillé qu'il est fatigué"
-  - Feedback: Tellement before the participle, then que + the result.
-
-### Vocab
-
-| fr | pron | en |
-|---|---|---|
-| en outre | ahn-NOO-truh | furthermore, in addition (formal) |
-| d'ailleurs | dah-YUHR | besides, moreover, by the way |
-| en effet | ahn-neh-FEH | indeed, that's because |
-| c'est-à-dire | seh-tah-DEER | that is to say |
-| autrement dit | oh-truh-mahn DEE | in other words |
-| or | or | now, yet (introduces a fact that changes the reasoning) |
-| ainsi | an-SEE | thus, in this way |
-| par conséquent | par kohn-say-KAHN | consequently, therefore |
-| d'où | doo | hence, which explains |
-| si bien que | see byan KUH | so that, with the result that |
-| tellement… que | tel-mahn … KUH | so (much)… that |
-| étant donné que | ay-tahn doh-nay KUH | given that |
-| vu que | vew KUH | seeing that, since |
-| du fait que | dew feh KUH | because of the fact that |
-| faute de | foht DUH | for lack of |
-| à force de | ah forss DUH | by dint of, by doing something again and again |
-| en somme | ahn SOMM | in short, all in all |
-| soit… soit | SWAH … SWAH | either… or |
-| ou bien | oo BYAN | or else, or |
-
-### En résumé
-
-Pour ajouter une idée, on dit de plus, en outre ou d'ailleurs. En effet explique ou confirme ce qu'on vient de dire. Or présente un fait qui change la situation. Pour une conséquence, on peut dire ainsi, par conséquent, si bien que, ou d'où avec un nom. Étant donné que, vu que et du fait que donnent une cause, avec l'indicatif. Faute de et à force de sont suivis d'un nom ou d'un infinitif. Pour finir, on dit en somme.
+Dans une phrase avec si, le passé et le présent peuvent se mélanger. Si j'avais fait des études, j'aurais un meilleur salaire : la condition est dans le passé, la conséquence est dans le présent. Si je parlais allemand, j'aurais accepté ce poste : la condition est vraie aujourd'hui, la conséquence est dans le passé. Avec même si, on choisit les temps comme avec si. Sauf si prend l'indicatif, mais au cas où prend le conditionnel.

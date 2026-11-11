@@ -35,6 +35,7 @@ The overlap table was rechecked by hand.
   - **b2-regret-and-reproach:** it now uses *je regrette que* + subjonctif passé directly, so the fixed-phrase label for it is gone. *Regretter d'avoir* is still a labelled fixed phrase, because b2-infinitif-passe comes later.
   - *En somme* is now defined in b2-logical-connectors and recapped in b2-summarizing-an-article.
   - *La hausse* and *la baisse* are now defined in b2-nominalisation.
+  - **Participle agreement (after the Unit 2 batch review):** agreement with a preceding direct object is taught at A2 (a2-pronouns-in-passe-compose, a2-relative-qui-que-ou, a2-reflexive-passe-compose) and may be used freely in B2. b2-review-pronouns adds a short agreement checklist (about 120 to 150 words, 3 examples and the ex4 error-correction), which keeps it at about 1,000 teaching words and 1,650 in all, within the review limits.
 - **Limits (decisions 1, 17 and 19):**
   - Longer texts are 150 to 250 French words.
   - Grammar lessons need at least 12 vocab entries.

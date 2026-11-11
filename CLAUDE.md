@@ -124,6 +124,10 @@ B2 inherits every B1 rule unless it's overridden here. They apply to B2 lessons 
 - **No repeats.**
   - A B2 lesson recaps earlier material in at most 2 or 3 sentences, with a LessonLink to the lesson that taught it, then teaches only what's new.
   - No French example sentence or tip is copied from an earlier level (the audit checks identical sentences and tip texts).
+- **Claims.**
+  - Check every "you know X from lesson Y" sentence against lesson Y's vocab or text before you write it. If Y doesn't teach X, or teaches it with another meaning, fix the link or the sentence.
+  - Make no "always" or "never" claim unless it holds across all B2 lessons, including later ones (for example, *si* takes the conditionnel in indirect questions, so the rule is "no conditionnel after *si* meaning 'if'"). Otherwise, limit the claim to this lesson's uses.
+- **Participle agreement.** Agreement of the past participle with a preceding direct object is taught at A2 (a2-pronouns-in-passe-compose, a2-relative-qui-que-ou, a2-reflexive-passe-compose). Use it freely in B2 dialogues, texts and exercises, and list the accepted variants.
 - **Structures.**
   - The teaching text, exercises and En résumé are strict.
   - A longer text may use at most 2 untaught structures. Each one is glossed in an English line inside the same section that starts with `Note:` and names the form in italics, for example "Note: *qu'il soit parti* is the past subjunctive, taught later in B2." check:structures counts these against the cap.

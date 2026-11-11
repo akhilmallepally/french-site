@@ -323,9 +323,14 @@ Status: revised after the first plan review (docs/b2-plan-review.md: decisions a
   - *mettre en place* (to set up)
   - *un local* (premises)
 - **Model text:** a neighbourhood association's newsletter (relatives after prepositions, *ce à quoi*, emphasis).
+- **Agreement checklist** (a section of about 120 to 150 teaching words, 3 examples, linking a2-pronouns-in-passe-compose, which teaches the rule):
+  - the *avoir* participle agrees with a preceding direct object in every compound tense, including the conditionnel passé, futur antérieur and subjonctif passé (*je l'aurais vue*, *quand je les aurai lues*)
+  - pronominal verbs with a direct object before the verb (*les mains qu'elle s'est lavées*)
+  - *se parler*-type verbs, whose pronoun is indirect, don't agree (*ils se sont parlé*)
 - **En résumé:** none (review).
 - **Exercises (16):**
-  - ex1 to ex4 fill-in: relatives
+  - ex1 to ex3 fill-in: relatives
+  - ex4 error-correction: participle agreement (from the agreement checklist)
   - ex5 and ex6 connector-choice (*dont* / *duquel*; *qui* / *lequel*)
   - ex7 MC: the subjunctive in a relative
   - ex8 and ex9 reformulation: join sentences
@@ -336,4 +341,4 @@ Status: revised after the first plan review (docs/b2-plan-review.md: decisions a
   - ex14 and ex15 write-out: two newsletter paragraphs
   - ex16 reorder
 - **Prerequisites:** b2-relative-prepositions, b2-subjunctive-relative-clauses, b2-idiomatic-y-en, b2-mise-en-relief (4).
-- **Size:** teaching about 850; whole about 1,500; 5 words; 16 exercises.
+- **Size:** teaching about 1,000 (850 + the checklist), within the review range of 800 to 1,100; whole about 1,650, under 1,800; 5 words; 16 exercises.

@@ -1142,6 +1142,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Si j'aurais su* is a very common mistake, even among French speakers, but it's wrong in standard French."** Confirm.
 - **"*Se douter que* takes the indicative, because you think it's true."** Confirm, and that *se douter de* means to suspect.
 - **"*Faillir* + infinitive, in the passé composé, says that something nearly happened."** Confirm it's common in speech.
+- **"*J'avais* and *j'aurais* ... differ in two sounds: the vowel (*a* in *j'avais*, *o* in *j'aurais*) and the *r*."** Confirm the pronunciation claim.
 
 ## b2-mixed-conditionals
 
@@ -1168,3 +1169,4 @@ Every date, tradition and regional detail, for checking:
 - **"In context it's a reproach: *tu aurais pu me prévenir !* means 'you should have warned me'."** Confirm that *tu aurais pu* reads as a reproach, not a possibility.
 - **"*C'est (de) ma faute* ... *c'est ma faute* is the more careful form."** Confirm.
 - **"*Tu aurais dû* is firmer than *tu aurais pu*."** Confirm.
+- **"After an apology, [*ce n'est pas grave*] means 'it doesn't matter'."** Confirm.

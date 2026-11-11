@@ -138,3 +138,16 @@
 - **Checks:** check:words, check:structures, audit, validate, test:content, test:checker (29/29) and build all pass. The only B2 audit row is the earlier purpose ex014 (6 answers). Duplicate vocab is 66 (*un bilan*, a NEW_MEANINGS entry). A1 to B1 output is unchanged.
 - **review-needed.md:** 20 items under 6 ids. They cover the news conditionnel, *si j'aurais su*, *se douter que*, *faillir*, *au cas où*, *sauf si*, *après que*, supposition, the subjunctive tenses, the 3 fixed phrases and *tu aurais pu*.
 - **Not done:** no fluent-speaker check.
+
+## Unit 2, batch-review fixes
+
+- **b2-conditionnel-passe:** the "always describes" sentence now covers this lesson's two uses only, and there's a 2-sentence agreement recap (*je l'aurais vue*, linking a2-pronouns-in-passe-compose). Also: *apparemment* confirmed, a *bilan* example, a *la médecine* entry, *cela* in the *ça aurait été* entry, ex014 with 4 combinations, *changement* in ex011 and COGNATES.
+- **b2-si-plus-que-parfait:** the *j'avais* / *j'aurais* paragraph is rewritten. The tip uses *je me suis couché tard* (*mouillé* isn't taught). Also: *se douter (de / que)*, ex008 feedback and *manqué*, the ex009 cue and a *presque* entry, *rater* and *prévoir* confirmed.
+- **b2-mixed-conditionals:** *si je parlais allemand* is now a hypothesis about the present (text and résumé). *Même si* and *carrière* confirmed. ex007 *rich* is now *polite*, and *réussir sa vie* and *le destin* have examples.
+- **Scan:**
+  - "never the conditionnel after *si*" is false for indirect questions later in B2, so it now reads "*si* meaning 'if'".
+  - *bien que* keeps the subjunctive with one subject (b2-subjonctif-passe).
+  - *ce n'est pas grave* meant "it's not serious" at A2 (b2-regret-and-reproach).
+  - Unused entries now have examples in futur, subjonctif and regret. The review's warning covers preceding-object agreement. regret ex006 and ex008 have new variants.
+- **Docs:** 2 CLAUDE.md rules and the A2 agreement note. The unit-4.md agreement checklist with ex4 (about 1,000 teaching words, within limits), and the overview updated. 2 review-needed items.
+- **Checks:** all 7 pass; the only B2 audit row is the earlier purpose ex014. A1 to B1 output is unchanged.
