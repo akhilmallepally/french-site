@@ -1,0 +1,339 @@
+# B2 Unit 4 plan: Precision with pronouns
+
+Status: revised after the first plan review (docs/b2-plan-review.md: decisions applied). No lesson files written yet. Rules and size limits: CLAUDE.md, "B2 conventions"; see the note at the top of unit-1.md. Lesson numbers follow docs/syllabus.md.
+
+---
+
+## 26. b2-relative-lequel: lequel, auquel, duquel
+
+- **Type:** grammar · **Order:** 26
+- **Goal:** use *lequel* and its contracted forms as relative pronouns after prepositions.
+- **Prior coverage:**
+  - b1-interrogative-lequel taught *lequel / laquelle / lesquels / lesquelles* and the contractions *auquel* / *duquel* as **question** words, with the full à/de table.
+  - b1-relative-dont taught *dont*.
+  - a2-relative-qui-que-ou taught *qui*, *que* and *où*.
+  - **Adds:**
+    - the **relative** use after a preposition, for things (*la raison pour laquelle*, *l'outil avec lequel*, *le projet auquel je pense*)
+    - *duquel* after compound prepositions (*le parc près duquel*, *à côté duquel*, *au milieu duquel*), where *dont* can't be used
+    - *n'importe lequel* (inventory gap, decision 14)
+  - The forms themselves aren't retaught: there's a 2-sentence recap with a LessonLink.
+- **Structures taught:** relative *lequel* after prepositions; *duquel* against *dont*; *n'importe lequel*.
+- **Structures used:** interrogative *lequel* (b1-interrogative-lequel); *dont* (b1-relative-dont).
+- **New vocab (15):**
+  - *la raison pour laquelle* (the reason why)
+  - *grâce auquel / à laquelle* (thanks to which)
+  - *près duquel* (near which)
+  - *à côté duquel* (next to which)
+  - *au cours duquel* (during which)
+  - *n'importe lequel / laquelle* (any one at all)
+  - *un outil*: recap of b1-relative-dont, not an entry
+  - *un logiciel* (software)
+  - *une plateforme* (a platform)
+  - *un tableur* (a spreadsheet)
+  - *une réunion* (A2 recap via *en réunion*, not an entry)
+  - *un dossier partagé* (a shared folder)
+  - *un mode d'emploi* (instructions for use)
+  - *fonctionner* (to work, of a machine)
+  - *une fonctionnalité* (a feature)
+  - *un serveur* (a server). **New meaning:** a waiter (A1). List it in NEW_MEANINGS.
+  - *une mise à jour* (B1 recap, not an entry)
+  - *paramétrer* (to set up)
+- **Cognates for the allowlist:** une application (B1 entry, recap), un système.
+- **Dialogue (11 lines):** an IT colleague explains the team's tools to a newcomer (*vous*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - a preposition + *lequel* for things
+  - à and de contract
+  - *duquel* after *près de* and *à côté de*, where *dont* is impossible
+  - *n'importe lequel*
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: *laquelle*, *auquel*, *lesquels*, *duquel*
+  - ex5 MC: *dont* or *duquel*
+  - ex6 MC: agreement with the noun
+  - ex7 connector-choice: *auquel* / *à laquelle* / *auxquels*
+  - ex8 reformulation: two sentences → one with *avec lequel*
+  - ex9 reformulation: *la raison pour laquelle*
+  - ex10 error-correction: *le parc dont près j'habite*
+  - ex11 fill-in: *n'importe lequel*
+  - ex12 translate: "The software I work with is new."
+  - ex13 translate: "That's the reason why I left."
+  - ex14 write-out: describe your tools in 3 sentences
+  - ex15 reorder
+- **Prerequisites:** b1-interrogative-lequel, b1-relative-dont.
+- **LessonLinks:** b1-interrogative-lequel, b1-relative-dont, a2-relative-qui-que-ou, b2-relative-prepositions.
+- **review-needed.md:**
+  - "*dont* can't follow a compound preposition"
+  - "*la raison pour laquelle* is the usual way to say 'the reason why'"
+- **Size:** teaching about 950; whole about 1,450; vocab 15; 15 exercises.
+
+## 27. b2-relative-prepositions: Prepositions with relative pronouns
+
+- **Type:** grammar · **Order:** 27
+- **Goal:** choose the right relative after a preposition: *qui* for people, *quoi* after *ce*, *ce dont*.
+- **Prior coverage:**
+  - a2-relative-qui-que-ou and b1-ce-qui-ce-que taught *ce qui / ce que*.
+  - b1-relative-dont taught *dont*.
+  - b2-relative-lequel taught *lequel* after prepositions.
+  - **Adds:**
+    - preposition + *qui* for people (*la collègue avec qui je travaille*; *lequel* is possible but less natural)
+    - *ce à quoi*, *ce sur quoi* and *ce dont*
+    - *de quoi* + infinitive (*il y a de quoi manger*)
+    - *où* as a relative of time (*le jour où*)
+    - the concessive relatives *quoi que*, *qui que* and *où que* + subjunctive (*quoi que tu fasses*, *où que tu ailles*), moved here from b2-concession-opposition (decision 6)
+- **Structures taught:** *qui* after prepositions; *ce* + preposition + *quoi*; *ce dont*; *de quoi*; *quoi que*, *qui que* and *où que*.
+- **Structures used:** relative *lequel* (b2-relative-lequel); *dont* (b1-relative-dont); subjunctive (b1-subjonctif-formation).
+- **New vocab (17):**
+  - *ce à quoi* (what, after a verb + à)
+  - *ce sur quoi* (what, after a verb + sur)
+  - *ce dont* (what, after a verb + de)
+  - *de quoi* (enough to, the wherewithal to)
+  - *il n'y a pas de quoi* (don't mention it)
+  - *le jour où* (the day when)
+  - *où que* (wherever, + subjunctive)
+  - *quoi que* (whatever, + subjunctive). **Not** *quoique* (although).
+  - *qui que* (whoever, + subjunctive)
+  - *compter sur* (to rely on)
+  - *s'attendre à* (to expect)
+  - *tenir à* (to be attached to). b2-idiomatic-y-en uses *y tenir*.
+  - *se souvenir de* (B1 recap, not an entry)
+  - *se confier à* (to confide in)
+  - *un confident / une confidente* (a confidant)
+  - *une relation de confiance* (a relationship of trust)
+  - *reposer sur* (to be based on)
+  - *une valeur* (a value)
+- **Cognates for the allowlist:** none.
+- **Dialogue (11 lines):** two friends talk about the people they rely on (*tu*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - *qui* after a preposition for people
+  - *ce à quoi* and *ce dont* for ideas
+  - *où* for time
+  - *de quoi* + infinitive
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: *avec qui*, *ce à quoi*, *ce dont*, *où*
+  - ex5 MC: *qui* or *lequel* for a person
+  - ex6 MC: *ce à quoi* or *ce que*
+  - ex7 connector-choice: *ce dont* / *ce à quoi* / *ce que*
+  - ex8 reformulation: two sentences → one with *sur qui*
+  - ex9 reformulation: *ce que* → *ce à quoi* with *s'attendre à*
+  - ex10 error-correction: *la personne que je compte sur*
+  - ex11 fill-in: *quoi que* / *où que* + subjunctive (and an MC distractor *quoique*)
+  - ex12 translate: "She's the friend I rely on."
+  - ex13 translate: "That's not what I expected."
+  - ex14 write-out: 3 sentences on the people you trust
+  - ex15 reorder
+- **Prerequisites:** b2-relative-lequel, b1-ce-qui-ce-que.
+- **LessonLinks:** b1-ce-qui-ce-que, b1-relative-dont, b2-relative-lequel, b2-concession-opposition (concession).
+- **review-needed.md:**
+  - "*avec qui* is preferred to *avec lequel* for people"
+  - "*ce à quoi je m'attendais*"
+- **Size:** teaching about 1,050; whole about 1,550; vocab 17; 15 exercises.
+
+## 28. b2-subjunctive-relative-clauses: Subjunctive in relative clauses
+
+- **Type:** grammar · **Order:** 28
+- **Goal:** use the subjunctive in relative clauses about something sought, absent or unique.
+- **Prior coverage:**
+  - a2-relative-qui-que-ou taught relative clauses (indicative).
+  - The B1 subjunctive lessons taught formation and triggers.
+  - **Adds:**
+    - the subjunctive after a sought or uncertain antecedent (*je cherche quelqu'un qui sache*)
+    - after a negative (*il n'y a personne qui puisse*; *je ne connais rien qui soit*)
+    - after a superlative or *le seul / le premier / le dernier* (*c'est le meilleur film que j'aie vu*)
+    - the meaning contrast with the indicative
+- **Structures taught:** subjunctive in relative clauses.
+- **Structures used:**
+  - subjunctive, including the past (b1-subjonctif-irregular, b2-subjonctif-passe)
+  - superlatives (a2-superlatives)
+- **New vocab (15):**
+  - *polyvalent / polyvalente* (versatile)
+  - *être à l'écoute* (to be a good listener)
+  - *l'esprit d'équipe* (team spirit)
+  - *un profil* (a profile; cognate, allowlist)
+  - *une perle rare* (a rare gem, the ideal person)
+  - *être capable de* (to be able to)
+  - *maîtriser*: recap of b1-cover-letter, not an entry
+  - *parler couramment* (to speak fluently; *couramment* is a B1 recap)
+  - *un logement* (accommodation)
+  - *une colocation* (B1 recap, not an entry)
+  - *calme* (A2 recap, not an entry)
+  - *disponible*: recap of b1-job-interview, not an entry
+  - *exigeant / exigeante* (demanding)
+  - *le seul / la seule… qui* (the only… who)
+  - *il n'y a rien qui* (there's nothing that)
+  - *convenir à* (to suit)
+  - *répondre à des critères* (to meet criteria)
+  - *un critère* (a criterion)
+  - *idéal / idéale*: recap of b1-dreams-and-ambitions, not an entry
+  - *introuvable* (impossible to find)
+- **Cognates for the allowlist:** un profil, idéal.
+- **Dialogue (10 lines):** a recruiter and a manager describe the candidate they're looking for (*vous*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - the subjunctive when the thing is sought, absent or unique
+  - the indicative when it exists and is known
+  - the same verb can take either mood, with a change of meaning
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: the subjunctive after *je cherche quelqu'un qui*, *il n'y a personne qui*, *le seul qui*, *le meilleur que*
+  - ex5 MC: indicative or subjunctive (meaning)
+  - ex6 MC: *maîtriser*
+  - ex7 connector-choice: *qui sait* / *qui sache*
+  - ex8 reformulation: a job ad → *Nous cherchons quelqu'un qui…*
+  - ex9 reformulation: positive → negative with *personne qui*
+  - ex10 error-correction: *le meilleur film que j'ai vu* (common, but the written standard is the subjunctive)
+  - ex11 fill-in: *convenir à*
+  - ex12 translate: "I'm looking for a flat that is quiet."
+  - ex13 translate: "There's nobody who can help me."
+  - ex14 write-out: a 3-sentence ad for a flatmate
+  - ex15 reorder
+- **Prerequisites:** b2-subjunctive-conjunctions, a2-relative-qui-que-ou, b2-subjonctif-passe (3).
+- **LessonLinks:** a2-relative-qui-que-ou, a2-superlatives, b1-subjonctif-irregular, b2-subjonctif-passe.
+- **review-needed.md:**
+  - "after a superlative, both moods are heard; the subjunctive is standard in writing"
+  - the meaning contrast
+- **Size:** teaching about 1,050; whole about 1,550; vocab 15; 15 exercises.
+
+## 29. b2-idiomatic-y-en: Idiomatic y and en
+
+- **Type:** vocabulary · **Order:** 29
+- **Goal:** use the common fixed verbs built on *y* and *en*, and the neutral pronoun *le*.
+- **Prior coverage:**
+  - a2-pronoun-y and a2-pronoun-en taught the pronouns.
+  - b1-double-object-pronouns taught their order.
+  - b2-idioms-everyday left *en avoir marre* for this lesson.
+  - b2-regret-and-reproach used *je m'en veux* as a fixed phrase, now explained.
+  - **Adds:** 16 idiomatic verbs, and neutral *le* (*je le sais*, *je l'espère*, *comme je te l'ai dit*), an inventory gap (decision 14).
+- **Structures taught:** idiomatic pronominal verbs with *en* and *y*; neutral *le*.
+- **Structures used:** pronoun order (b1-double-object-pronouns); the passé composé of pronominal verbs (a2-reflexive-passe-compose).
+- **New vocab (20):**
+  - *s'en aller* (to go away)
+  - *en vouloir à* (to hold it against)
+  - *s'en vouloir* (to blame yourself)
+  - *s'en sortir* (to manage, to get by)
+  - *s'en faire* (to worry)
+  - *en avoir marre* (to be fed up; informal)
+  - *en avoir assez* (to have had enough)
+  - *ne plus en pouvoir* (to be exhausted, at the end of your tether)
+  - *s'en remettre* (to get over it)
+  - *en rester là* (to leave it there)
+  - *y tenir* (to be keen on it)
+  - *s'y faire* (to get used to it)
+  - *s'y prendre* (to go about it)
+  - *ne pas en revenir* (to be amazed)
+  - *ça y est* (that's it, done)
+  - *y compris* (including)
+  - *je le sais* (I know it; neutral *le*)
+  - *je l'espère* (I hope so)
+  - *comme je te l'ai dit* (as I told you)
+  - *je m'en doutais* (I suspected as much)
+- **Cognates for the allowlist:** none.
+- **Dialogue (12 lines):** two friends after a hard first month in a new job (*tu*).
+- **Longer text:** none (vocabulary).
+- **En résumé (60 to 100 words):**
+  - the pronoun is part of the verb
+  - it doesn't replace a noun you can point to
+  - neutral *le* replaces a whole idea
+- **Exercises (15):**
+  - ex1 to ex5 fill-in: the missing *en* / *y* / *le*
+  - ex6 to ex8 MC: meaning (*s'en sortir*, *y tenir*, *ne pas en revenir*)
+  - ex9 register-shift: *J'en ai marre* → neutral
+  - ex10 reformulation: *Je suis fâché contre lui* → *Je lui en veux*
+  - ex11 error-correction: the pronoun order in *je m'en suis allé*
+  - ex12 translate: "Don't worry."
+  - ex13 translate: "I'm fed up with this job."
+  - ex14 write-out: a 3-sentence message using three idioms
+  - ex15 reorder
+- **Prerequisites:** a2-pronoun-en, b1-double-object-pronouns.
+- **LessonLinks:** a2-pronoun-y, a2-pronoun-en, b1-double-object-pronouns, b2-idioms-everyday, b2-regret-and-reproach.
+- **review-needed.md:**
+  - the meanings and registers, especially *s'en faire* and *ne plus en pouvoir*
+  - "neutral *le* is required in *comme je te l'ai dit*"
+- **Size:** teaching about 950; whole about 1,450; vocab 20; 15 exercises.
+
+## 30. b2-mise-en-relief: Emphasis: c'est… qui / que
+
+- **Type:** grammar · **Order:** 30
+- **Goal:** put one part of a sentence in focus with *c'est… qui/que* and related structures.
+- **Prior coverage:**
+  - b1-ce-qui-ce-que taught *ce qui me plaît, c'est…*.
+  - b1-cause-and-consequence taught *c'est pour ça que*.
+  - a2-stressed-pronouns taught *c'est moi*.
+  - **Adds:**
+    - *c'est* + any element + *qui/que* (*c'est Paul qui a gagné*, *c'est demain que je pars*, *c'est à Lyon que…*)
+    - agreement after *c'est moi qui* (*c'est moi qui ai*, *c'est nous qui sommes*)
+    - *ce que je veux dire, c'est que…*
+    - *ce qui compte, c'est de…*
+    - spoken dislocation (*moi, je…*; *le café, je l'adore*), labelled as spoken
+- **Structures taught:** cleft sentences; agreement in *c'est moi qui*; dislocation (labelled spoken).
+- **Structures used:** *ce qui / ce que* (b1-ce-qui-ce-que); stressed pronouns (a2-stressed-pronouns).
+- **New vocab (15):**
+  - *avant tout* (above all, first and foremost)
+  - *ce que je veux dire, c'est que* (what I mean is that)
+  - *ce qui compte, c'est* (what matters is)
+  - *le plus important, c'est* (the most important thing is)
+  - *c'est justement* (that's precisely)
+  - *justement* (precisely, as it happens)
+  - *insister* (B2 recap from b2-reporting-verbs, not an entry)
+  - *mettre l'accent sur* (to stress)
+  - *une priorité* (cognate, allowlist)
+  - *l'essentiel* (the main thing)
+  - *au fond* (basically, deep down)
+  - *finalement* (B1 recap, not an entry)
+  - *surtout* (above all)
+  - *en particulier* (in particular)
+  - *quant à* (as for)
+  - *pour ce qui est de* (as regards)
+  - *c'est bien* (it really is; emphatic)
+- **Cognates for the allowlist:** une priorité.
+- **Dialogue (11 lines):** a meeting where two colleagues clarify who did what (*vous*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - *c'est… qui* for the subject, *c'est… que* for everything else
+  - the verb agrees after *c'est moi qui*
+  - *ce que…, c'est* for ideas
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: *qui* / *que*; agreement (*c'est moi qui ___*)
+  - ex5 MC: which part is in focus
+  - ex6 MC: *quant à*
+  - ex7 connector-choice: *quant à* / *pour ce qui est de*
+  - ex8 reformulation: put the time in focus
+  - ex9 reformulation: put the subject in focus
+  - ex10 error-correction: *c'est moi qui a*
+  - ex11 register-shift: dislocation (spoken) → cleft (written)
+  - ex12 translate: "It's Marie who found the solution."
+  - ex13 translate: "What matters is to listen."
+  - ex14 write-out: 3 emphatic sentences about a project
+  - ex15 reorder
+- **Prerequisites:** b1-ce-qui-ce-que.
+- **LessonLinks:** b1-ce-qui-ce-que, b1-cause-and-consequence, a2-stressed-pronouns, b2-debating (forward).
+- **review-needed.md:**
+  - "*c'est moi qui ai*: the verb agrees with *moi*"
+  - "dislocation is spoken"
+- **Size:** teaching about 1,050; whole about 1,550; vocab 15; 15 exercises.
+
+## 31. b2-review-pronouns: Review: Precision with pronouns
+
+- **Type:** review · **Order:** 31
+- **Goal:** combine sentences with the right relative, emphatic and idiomatic pronouns.
+- **Structures used:** the unit's lessons.
+- **New vocab (5):**
+  - *une association de quartier* (a neighbourhood association)
+  - *un projet commun* (a joint project)
+  - *s'impliquer dans* (to get involved in)
+  - *mettre en place* (to set up)
+  - *un local* (premises)
+- **Model text:** a neighbourhood association's newsletter (relatives after prepositions, *ce à quoi*, emphasis).
+- **En résumé:** none (review).
+- **Exercises (16):**
+  - ex1 to ex4 fill-in: relatives
+  - ex5 and ex6 connector-choice (*dont* / *duquel*; *qui* / *lequel*)
+  - ex7 MC: the subjunctive in a relative
+  - ex8 and ex9 reformulation: join sentences
+  - ex10 error-correction
+  - ex11 register-shift: dislocation → cleft
+  - ex12 MC: idiomatic *en*
+  - ex13 translate
+  - ex14 and ex15 write-out: two newsletter paragraphs
+  - ex16 reorder
+- **Prerequisites:** b2-relative-prepositions, b2-subjunctive-relative-clauses, b2-idiomatic-y-en, b2-mise-en-relief (4).
+- **Size:** teaching about 850; whole about 1,500; 5 words; 16 exercises.

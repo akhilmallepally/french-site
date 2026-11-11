@@ -105,6 +105,8 @@ function segments(l: Lesson): Seg[] {
 }
 
 // ---- Patterns ---------------------------------------------------------------------------------
+// JavaScript's \b treats accented letters as non-word characters, so a pattern that starts with é or à
+// uses a lookbehind on French letters instead.
 const W = "[a-zàâäçéèêëîïôöûùüÿœ]";          // one French letter
 const SUBJ = "(?:je|j'|tu|il|elle|on|nous|vous|ils|elles|ce|ça|cela)";
 // irregular stems taught in b1-subjonctif-irregular (two-stem verbs like prenne, vienne, boive are in b1-subjonctif-formation)
@@ -140,13 +142,15 @@ const RULES: Rule[] = [
   // the subjunctive lessons 20 to 22 all use il faut que as their frame
   { name: "subjunctive trigger (necessity)", teaches: "b1-subjonctif-formation", find: all(/\b(?:il faut|il vaut mieux|il est important|il est nécessaire|il est essentiel) qu(?:e\b|')/gi) },
   { name: "subjunctive trigger (wishes, emotions)", teaches: "b1-subjonctif-wishes-emotions", find: all(/\b(?:veux|veut|voulons|voulez|veulent|voudrais|voudrait|aimerais|aimerait|préfère|préfères|préfèrent|souhaite|souhaites|souhaitent|content|contente|contents|heureux|heureuse|triste|désolé|désolée|dommage|peur) qu(?:e\b|')/gi) },
-  { name: "subjunctive trigger (conjunction)", teaches: "b2-subjunctive-conjunctions", find: all(/\b(?:pour|avant|bien|à moins|sans) qu(?:e\b|')/gi) },
+  { name: "subjunctive trigger (conjunction)", teaches: "b2-subjunctive-conjunctions", find: all(/(?<![a-zàâäçéèêëîïôöûùüÿœ])(?:avant|bien|à moins|sans|jusqu'à ce|à condition) qu(?:e\b|')/gi) },
+  // pour que belongs to b2-purpose-expressions (B2 plan, decision 5)
+  { name: "subjunctive trigger (purpose)", teaches: "b2-purpose-expressions", find: all(/\bpour qu(?:e\b|')/gi) },
   { name: "conditionnel", teaches: "b1-conditionnel-present", find: (s) => [...s.matchAll(new RegExp(`\\b${W}*(?:er|ir|rr|dr|vr|ur|ttr|îtr|aîtr)(?:ais|ait|ions|iez|aient)\\b`, "gi"))]
       .map((m) => m[0]).filter((w) => !NOT_COND.has(w.toLowerCase()) && !/(?:ouvr|couvr|livr)(?:ais|ait|ions|iez|aient)$/i.test(w)) },
   { name: "plus-que-parfait", teaches: "b1-plus-que-parfait", find: (s) => [
     ...[...s.matchAll(new RegExp(`\\b(?:avais|avait|avions|aviez|avaient)\\s+(?:(?:pas|déjà|jamais|bien|tout|rien|encore)\\s+)?(${PART})\\b`, "gi"))]
       .filter((m) => !NOT_PART.has(m[1].toLowerCase())).map((m) => m[0]),
-    ...all(new RegExp(`\\b(?:étais|était|étions|étiez|étaient)\\s+(?:(?:pas|déjà|jamais|bien|encore)\\s+)?${ETRE_PART}\\b`, "gi"))(s),
+    ...all(new RegExp(`(?<![a-zàâäçéèêëîïôöûùüÿœ])(?:étais|était|étions|étiez|étaient)\\s+(?:(?:pas|déjà|jamais|bien|encore)\\s+)?${ETRE_PART}\\b`, "gi"))(s),
     ...all(new RegExp(`\\b(?:m'|t'|s'|nous\\s+|vous\\s+)(?:étais|était|étions|étiez|étaient)\\s+(?:(?:pas|déjà|jamais|bien)\\s+)?${PART}\\b`, "gi"))(s),
   ] },
   { name: "gérondif", teaches: "b1-gerondif", find: (s) => [...s.matchAll(new RegExp(`\\ben\\s+(?:se\\s+|s'|me\\s+|m'|te\\s+|t'|nous\\s+|vous\\s+)?(${W}+ant)\\b`, "gi"))]
@@ -180,7 +184,7 @@ const RULES: Rule[] = [
   { name: "si + plus-que-parfait", teaches: "b2-si-plus-que-parfait", from: "b2", find: (s) => [
     ...[...s.matchAll(new RegExp(`\\bs(?:i|')\\b[^.?!,]{0,25}?\\b(?:avais|avait|avions|aviez|avaient)\\s+(?:(?:pas|déjà|jamais)\\s+)?(${B2_PART})\\b`, "gi"))]
       .filter((m) => !NOT_PART_B2.has(m[1].toLowerCase())).map((m) => m[0]),
-    ...all(new RegExp(`\\bs(?:i|')\\b[^.?!,]{0,25}?\\b(?:étais|était|étions|étiez|étaient)\\s+(?:(?:pas|déjà|jamais)\\s+)?${ETRE_PART}\\b`, "gi"))(s),
+    ...all(new RegExp(`\\bs(?:i|')\\b[^.?!,]{0,25}?(?<![a-zàâäçéèêëîïôöûùüÿœ])(?:étais|était|étions|étiez|étaient)\\s+(?:(?:pas|déjà|jamais)\\s+)?${ETRE_PART}\\b`, "gi"))(s),
   ] },
   { name: "futur antérieur", teaches: "b2-futur-anterieur", from: "b2", find: (s) => [
     ...[...s.matchAll(new RegExp(`\\b(?:aurai|auras|aura|aurons|aurez|auront)\\s+(?:(?:pas|déjà|bien)\\s+)?(${B2_PART})\\b`, "gi"))]
@@ -217,8 +221,10 @@ const RULES: Rule[] = [
   { name: "past infinitive", teaches: "b2-infinitif-passe", from: "b2", find: (s) =>
       [...s.matchAll(new RegExp(`\\b(?:sans|de|d'|pour|avant d')\\s*(?:avoir|être)\\s+(?:(?:pas|déjà|bien)\\s+)?(${B2_PART}|${ETRE_PART})\\b`, "gi"))]
         .filter((m) => !NOT_PART_B2.has(m[1].toLowerCase())).map((m) => m[0]) },
-  { name: "logical connector", teaches: "b2-logical-connectors", from: "b2", find: all(/\b(?:par conséquent|d'ailleurs|en effet|en outre|de ce fait)\b/gi) },
-  { name: "certainty and probability", teaches: "b2-certainty-and-probability", from: "b2", find: all(/\b(?:il se peut qu|il est (?:peu |très |fort )?probable qu|il est possible qu|il semble qu|il paraît probable qu)(?:e\b|')/gi) },
+  { name: "logical connector", teaches: "b2-logical-connectors", from: "b2", find: all(/(?<![a-zàâäçéèêëîïôöûùüÿœ])(?:par conséquent|d'ailleurs|en effet|en outre|de ce fait|étant donné qu(?:e\b|')|vu qu(?:e\b|')|du fait qu(?:e\b|')|faute de|à force de|si bien qu(?:e\b|')|autrement dit|en somme|soit\b[^.?!]{1,40}?\bsoit|ou bien)/gi) },
+  // il semble que is taught earlier, in b2-nuancing-opinions
+  { name: "certainty and probability", teaches: "b2-certainty-and-probability", from: "b2", find: all(/\b(?:il se peut qu|il est (?:peu |très |fort )?probable qu|il est possible qu|il paraît probable qu|le fait qu)(?:e\b|')/gi) },
+  { name: "concessive relative", teaches: "b2-relative-prepositions", from: "b2", find: all(/(?<![a-zàâäçéèêëîïôöûùüÿœ])(?:quoi qu(?:e\b|')|qui que\b|où que\b)/gi) },
   { name: "passé simple", teaches: "b2-arts-and-literature", from: "b2", find: passeSimpleForms },
 ];
 

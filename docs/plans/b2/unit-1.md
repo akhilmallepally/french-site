@@ -1,0 +1,498 @@
+# B2 Unit 1 plan: Nuance and society
+
+Status: revised after the first plan review (docs/b2-plan-review.md: decisions applied). No lesson files written yet. Rules: CLAUDE.md, "B2 conventions". Lesson numbers follow docs/syllabus.md.
+B2 limits used for the size estimates:
+- teaching text 800 to 1,100 words (1,200 for grammar); whole lesson under 1,800
+- vocab 15 to 30 (12 to 30 in grammar lessons; reviews 3 to 8); dialogue 10 to 14 lines
+- 14 to 16 exercises, with at least 3 production tasks (translate, reformulation, register-shift, error-correction), 1 reorder and 1 reformulation
+- one longer text of 150 to 250 French words in communication and culture lessons
+- En résumé: 60 to 100 words in Units 1 to 4, 100 to 150 in Units 5 to 8
+
+Exercise prompts are French, from the CLAUDE.md instruction list. "Write-out" means a translate exercise with one model answer.
+
+---
+
+## 1. b2-nuancing-opinions: Nuancing your opinion
+
+- **Type:** communication · **Order:** 1
+- **Goal:** soften, qualify and partly concede an opinion instead of stating it flatly.
+- **Prior coverage:**
+  - b1-expressing-opinions taught *à mon avis*, *je pense que*, *je trouve que* and *selon moi*.
+  - b1-agreeing-disagreeing taught *en partie*, *d'un côté… de l'autre* and *ce n'est pas faux*.
+  - b1-expressing-doubt-certainty taught *je ne pense pas que* + subjunctive and *je doute que*.
+  - b1-presenting-an-argument taught *il est vrai que…, mais…* and *d'une part… d'autre part*.
+  - **Adds:**
+    - degrees of certainty and scope: *dans une certaine mesure*, *plutôt*, *a priori*
+    - the indicative/subjunctive split *il me semble que* / *il semble que*
+    - *je dirais que* as a softener
+    - *reconnaître que* as a concession
+  - It also introduces the French instruction words (required callout).
+- **Structures taught:** *il me semble que* + indicative versus *il semble que* + subjunctive.
+- **Structures used:**
+  - subjunctive after a negative opinion (b1-expressing-doubt-certainty)
+  - conditionnel for softening (b1-conditionnel-present)
+- **New vocab (18):**
+  - *il me semble que* (it seems to me that)
+  - *il semble que* (it seems that, + subjunctive)
+  - *dans une certaine mesure* (to some extent)
+  - *jusqu'à un certain point* (up to a point)
+  - *plutôt* (rather, fairly)
+  - *relativement* (relatively)
+  - *a priori* (on the face of it)
+  - *à première vue* (at first sight)
+  - *je dirais que* (I'd say that)
+  - *reconnaître que* (to acknowledge that)
+  - *nuancer* (to qualify, to nuance)
+  - *une nuance* (a nuance, a shade of meaning)
+  - *un contre-argument* (a counter-argument)
+  - *mitigé / mitigée* (mixed, lukewarm). **False friend:** not "mitigated".
+  - *partagé / partagée* (torn, in two minds)
+  - *en principe* (in principle)
+  - *sur le fond* (basically, on the substance)
+  - *la semaine de quatre jours* (the four-day week)
+- **Cognates for the allowlist:** un argument, une position, modéré. Add them to COGNATES.
+- **Dialogue (12 lines):** two colleagues discuss a four-day working week (*tu*). One answers every claim with a nuance.
+- **Longer text:** a forum post, *La semaine de quatre jours : une fausse bonne idée ?*, with replies. No untaught structures.
+- **En résumé:** none (communication).
+- **Exercises (15):**
+  - ex1 MC: *il me semble que* versus *il semble que* (mood)
+  - ex2 fill-in: subjunctive after *il semble que*
+  - ex3 fill-in: *dans une certaine ___*
+  - ex4 MC: weakest to strongest opinion
+  - ex5 connector-choice: *plutôt* or *a priori*
+  - ex6 MC: *mitigé* (false friend)
+  - ex7 register-shift: *Je suis contre* → a nuanced version
+  - ex8 reformulation: flat claim → *il me semble que*
+  - ex9 reformulation: concede with *je reconnais que…, mais*
+  - ex10 error-correction: *il semble qu'il est* → *soit*
+  - ex11 fill-in: *partagé*
+  - ex12 translate: "To some extent, I agree."
+  - ex13 write-out: a nuanced 3-sentence opinion from prompts
+  - ex14 MC: the instruction words (*Reformulez* means…)
+  - ex15 reorder
+- **Prerequisites:** b1-expressing-doubt-certainty, b1-presenting-an-argument.
+- **LessonLinks:** b1-expressing-opinions, b1-agreeing-disagreeing, b1-expressing-doubt-certainty, b1-presenting-an-argument, b2-social-issues (next).
+- **review-needed.md:**
+  - "*il me semble que* takes the indicative, *il semble que* the subjunctive"
+  - "*mitigé* means mixed"
+  - "*a priori* is everyday French"
+- **Size:** teaching about 1,000 (the instruction-word callout is about 120 of that); whole about 1,650; vocab 18; 15 exercises.
+
+## 2. b2-social-issues: Social issues
+
+- **Type:** vocabulary · **Order:** 2
+- **Goal:** talk about inequality, poverty, housing, immigration and solidarity without using official figures.
+- **Prior coverage:**
+  - b1-careers-and-job-hunting taught *le chômage* and *être au chômage*.
+  - b1-culture-french-republic taught *l'égalité*, *un citoyen* and *la laïcité*.
+  - b1-housing-and-renting taught renting (*le loyer*, *la colocation*).
+  - **Adds:** the vocabulary of social problems and responses (poverty, housing crisis, integration, voluntary work, protest).
+- **Structures taught:** none.
+- **Structures used:**
+  - *de plus en plus de* (b1-environment)
+  - *il faut que* + subjunctive (b1-subjonctif-necessity)
+  - nuancing (b2-nuancing-opinions)
+- **New vocab (24):**
+  - *les inégalités* (inequality)
+  - *la pauvreté* (poverty)
+  - *pauvre* (poor). Its position changes the meaning; b2-adjective-position-meaning covers that.
+  - *un / une sans-abri* (a homeless person)
+  - *la crise du logement* (the housing crisis)
+  - *un logement social* (social housing)
+  - *un immigré / une immigrée* (an immigrant)
+  - *s'intégrer* (to integrate)
+  - *le pouvoir d'achat* (purchasing power)
+  - *un chômeur / une chômeuse* (an unemployed person)
+  - *précaire* (insecure)
+  - *la précarité* (insecurity, precariousness)
+  - *défavorisé / défavorisée* (disadvantaged)
+  - *exclure* (to exclude)
+  - *une association* (a charity, a voluntary group)
+  - *un / une bénévole* (a volunteer)
+  - *le bénévolat* (voluntary work)
+  - *une aide sociale* (welfare, benefit)
+  - *une manifestation* (a demonstration). **False friend:** not "manifestation".
+  - *manifester* (to demonstrate)
+  - *lutter contre* (to fight against)
+  - *réduire* (to reduce)
+  - *un enjeu* (an issue at stake)
+  - *une mesure* (a measure, a policy)
+- **Cognates for the allowlist:** l'immigration, l'intégration, le racisme, la discrimination, la solidarité, l'exclusion. Add them to COGNATES.
+- **Dialogue (11 lines):** two students prepare a class presentation on homelessness (*tu*).
+- **Longer text:** none (vocabulary).
+- **En résumé (60 to 100 words):**
+  - the main problems (inequality, poverty, housing)
+  - who helps (associations, volunteers)
+  - the verbs *lutter contre* and *réduire*
+- **Exercises (15):**
+  - ex1 to ex5 fill-in: *précarité*, *bénévole*, *logement social*, *lutter contre*, *réduire*
+  - ex6 to ex8 MC: *manifestation* (false friend), *sans-abri*, *pouvoir d'achat*
+  - ex9 MC: odd one out
+  - ex10 reformulation: verb → noun phrase with *la lutte contre* (taught here as vocab, not as nominalisation)
+  - ex11 error-correction: *une manifestation de la pauvreté* used wrongly
+  - ex12 translate: "More and more people are living in insecurity."
+  - ex13 translate: "Volunteers help the homeless."
+  - ex14 write-out: 3 sentences on a social issue, from prompts
+  - ex15 reorder
+- **Prerequisites:** b1-culture-french-republic.
+- **LessonLinks:** b1-careers-and-job-hunting (*le chômage*), b1-culture-french-republic, b1-housing-and-renting, b2-nuancing-opinions, b2-subjunctive-conjunctions (next).
+- **review-needed.md:**
+  - "*sans-abri* is the neutral word; *SDF* is common in speech"
+  - "*une association* covers charities and clubs"
+  - Give no figures.
+- **Size:** teaching about 850; whole about 1,350; vocab 24; 15 exercises.
+
+## 3. b2-subjunctive-conjunctions: Subjunctive after conjunctions
+
+- **Type:** grammar · **Order:** 3
+- **Goal:** link two clauses with conjunctions that always take the subjunctive.
+- **Prior coverage:**
+  - b1-subjunctive-vs-infinitive taught *que* + subjunctive against the infinitive for verbs of wish and emotion.
+  - b1-time-connectors taught *avant de* + infinitive.
+  - b1-subjonctif-wishes-emotions mentioned the expletive *ne* after *avoir peur que*.
+  - **Adds:**
+    - *bien que*, *avant que*, *à condition que*, *jusqu'à ce que*, *sans que* and *à moins que*
+    - their infinitive partners (*avant de*, *sans*, *à condition de*, *à moins de*)
+    - the expletive *ne* after *avant que* and *à moins que* (recognition)
+  - *Pour que* moves to b2-purpose-expressions (decision 5).
+- **Structures taught:** conjunction + subjunctive; same subject → preposition + infinitive; expletive *ne* (recognition).
+- **Structures used:** regular and irregular subjunctive (b1-subjonctif-formation, b1-subjonctif-irregular).
+- **New vocab (15):**
+  - *bien que* (although)
+  - *avant que* (before)
+  - *à condition que* (provided that)
+  - *à condition de* (provided that, + infinitive)
+  - *jusqu'à ce que* (until)
+  - *sans que* (without)
+  - *à moins que* (unless)
+  - *à moins de* (unless, + infinitive)
+  - *le ne explétif* (expletive *ne*, as a grammar term)
+  - *une loi* (B1 recap, not an entry)
+  - *un titre de séjour* (a residence permit)
+  - *obtenir* (to obtain)
+  - *une démarche* (a procedure, a step)
+  - *un dossier*: recap of b1-double-object-pronouns, not an entry
+  - *attendre que* (to wait until)
+  - *accueillir* (to welcome, to take in)
+  - *un centre d'accueil* (a reception centre)
+- **Cognates for the allowlist:** administratif, une procédure.
+- **Dialogue (10 lines):** a volunteer explains to a newcomer the steps for a housing application (*vous*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - the six conjunctions, all with the subjunctive
+  - the same subject takes the infinitive
+  - *ne* after *avant que* and *à moins que* changes nothing
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: subjunctive after each conjunction
+  - ex5 connector-choice: *bien que* / *à condition que* / *jusqu'à ce que*
+  - ex6 MC: *avant que* versus *avant de*
+  - ex7 MC: is the *ne* negative?
+  - ex8 reformulation: two sentences → one with *bien que*
+  - ex9 reformulation: *avant que* → *avant de* with the same subject
+  - ex10 error-correction: *bien qu'il est* → *soit*
+  - ex11 fill-in: *à moins de*
+  - ex12 translate: "I'll help you provided that you call me."
+  - ex13 translate: "We'll wait until he arrives."
+  - ex14 write-out: a 3-step procedure with three conjunctions
+  - ex15 reorder
+- **Prerequisites:** b1-subjunctive-vs-infinitive. The housing-application context reuses b2-social-issues words only in the dialogue, through a LessonLink rather than a prerequisite.
+- **LessonLinks:** b1-subjunctive-vs-infinitive, b1-time-connectors, b1-subjonctif-wishes-emotions, b2-purpose-expressions.
+- **review-needed.md:**
+  - "the expletive *ne* is optional and formal"
+  - "*bien que* never takes the indicative in standard French"
+- **Size:** teaching about 1,100; whole about 1,650; vocab 15; 15 exercises.
+
+## 4. b2-concession-opposition: Concession and opposition
+
+- **Type:** grammar · **Order:** 4
+- **Goal:** contrast two facts and concede a point with the main concession and opposition connectors.
+- **Prior coverage:**
+  - b1-presenting-an-argument taught *il est vrai que…, mais…*.
+  - b1-agreeing-disagreeing taught *d'un côté… de l'autre*.
+  - b1-cause-and-consequence taught cause and consequence.
+  - b2-subjunctive-conjunctions taught *bien que*.
+  - **Adds:**
+    - *malgré* + noun
+    - *pourtant*, *cependant* and *néanmoins*
+    - *alors que* and *tandis que* (+ indicative)
+    - *en revanche* (moved from b2-logical-connectors, decision 3)
+    - *quand même* and *avoir beau* + infinitive
+  - The concessive relatives *quoi que* and *qui que* go to b2-relative-prepositions, with *où que* (decision 6).
+- **Structures taught:**
+  - *malgré* + noun versus *bien que* + subjunctive
+  - *avoir beau* + infinitive
+- **Structures used:** *bien que* (b2-subjunctive-conjunctions).
+- **New vocab (16):**
+  - *malgré* (despite)
+  - *pourtant* (yet, and yet)
+  - *cependant* (however)
+  - *néanmoins* (nevertheless)
+  - *alors que* (whereas)
+  - *tandis que* (whereas, while)
+  - *en revanche* (on the other hand)
+  - *quand même* (all the same, still)
+  - *avoir beau* (to do something in vain)
+  - *un écart* (a gap, a difference)
+  - *certes* (admittedly)
+  - *un paradoxe* (a paradox)
+  - *contradictoire* (contradictory)
+  - *une contradiction* (a contradiction)
+  - *s'opposer à* (to be opposed to)
+  - *le niveau de vie* (the standard of living)
+- **Cognates for the allowlist:** paradoxal, un contraste.
+- **Dialogue (11 lines):** two friends compare living in Paris and in a small town (*tu*). Every line concedes something.
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - *malgré* + noun
+  - the connectors that start a sentence (*pourtant*, *cependant*)
+  - *alors que* and *tandis que* for contrast
+  - *avoir beau* for effort without result
+- **Exercises (15):**
+  - ex1 connector-choice: *malgré* / *bien que*
+  - ex2 connector-choice: *alors que* / *pourtant*
+  - ex3 fill-in: *avoir beau* conjugated
+  - ex4 fill-in: *quand même*
+  - ex5 MC: register (*néanmoins* is formal)
+  - ex6 MC: *pourtant* versus *alors que* (one starts a sentence, the other links two clauses)
+  - ex7 reformulation: *bien que* → *malgré* + noun
+  - ex8 reformulation: two sentences → *avoir beau*
+  - ex9 error-correction: *malgré qu'il pleut* → *bien qu'il pleuve*
+  - ex10 register-shift: *quand même* (spoken) → *néanmoins* (written)
+  - ex11 fill-in: *en revanche*
+  - ex12 translate: "Despite the rain, we went out."
+  - ex13 translate: "He tried in vain, he didn't succeed."
+  - ex14 write-out: a 4-sentence comparison with three connectors
+  - ex15 reorder
+- **Prerequisites:** b2-subjunctive-conjunctions, b1-cause-and-consequence.
+- **LessonLinks:** b1-presenting-an-argument, b1-agreeing-disagreeing, b2-subjunctive-conjunctions, b2-logical-connectors (next).
+- **review-needed.md:**
+  - "*malgré que* is common but criticized"
+  - "*alors que* and *tandis que* are interchangeable for contrast"
+  - "*quand même* is mainly spoken"
+- **Size:** teaching about 1,050; whole about 1,600; vocab 16; 15 exercises.
+
+## 5. b2-logical-connectors: Logical connectors
+
+- **Type:** grammar · **Order:** 5
+- **Goal:** link ideas in writing to add, explain, illustrate, conclude and give extended cause and consequence.
+- **Prior coverage:**
+  - b1-cause-and-consequence taught *car*, *puisque*, *comme*, *grâce à*, *à cause de*, *donc*, *c'est pourquoi*.
+  - b1-presenting-an-argument taught *d'abord / ensuite / enfin*, *premièrement* and *en résumé*.
+  - b1-telling-an-anecdote taught *bref*.
+  - b2-concession-opposition took *en revanche* (decision 3).
+  - **Adds:**
+    - addition (*de plus*, *en outre*, *d'ailleurs*)
+    - explanation (*en effet*)
+    - *or*
+    - illustration (*ainsi*, *par exemple*)
+    - consequence (*par conséquent*, *d'où*, *si bien que*, *tellement… que*, *si… que*)
+    - extended cause (*étant donné que*, *vu que*, *du fait que*, *faute de*, *à force de*), filling the cause/consequence gap (decision 14)
+    - alternatives with *soit… soit* and *ou bien*, as a table outside the teaching count (decision 14)
+- **Structures taught:** connector + punctuation; *d'où* + noun; *tellement / si… que*; *faute de* and *à force de* + noun or infinitive.
+- **Structures used:**
+  - cause and consequence (b1-cause-and-consequence)
+  - concession (b2-concession-opposition)
+- **New vocab (19):**
+  - *de plus*: recap of b1-review-opinions, not an entry
+  - *en outre* (furthermore)
+  - *d'ailleurs* (besides, by the way)
+  - *en effet* (indeed). **False friend:** not "in effect".
+  - *or* (now, yet: introduces a fact that challenges). **New meaning:** *l'or*, gold, if it was taught.
+  - *ainsi* (thus, in this way)
+  - *par conséquent* (consequently)
+  - *d'où* (hence)
+  - *si bien que* (so that, with the result that)
+  - *tellement… que* (so… that)
+  - *étant donné que* (given that)
+  - *vu que* (seeing that)
+  - *du fait que* (because of the fact that)
+  - *faute de* (for lack of)
+  - *à force de* (by dint of)
+  - *autrement dit* (in other words)
+  - *c'est-à-dire* (that is to say). b1-making-a-complaint used it in a text without a vocab entry, so it's defined here.
+  - *en somme* (in short)
+  - *soit… soit* (either… or; in the table)
+  - *ou bien* (or else; in the table)
+  - *bref* (B1 recap, not an entry)
+- **Cognates for the allowlist:** none.
+- **Dialogue (10 lines):** a teacher helps a student fix the logic of an essay paragraph (*vous*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words; Unit 1):**
+  - the connector families
+  - *or* and *en effet* (false friends)
+  - punctuation
+  - *faute de* and *à force de*
+- **Exercises (15):**
+  - ex1 to ex3 connector-choice: one per family
+  - ex4 to ex6 fill-in: *d'où*, *si bien que*, *faute de*
+  - ex7 MC: *en effet* (meaning)
+  - ex8 MC: *or*
+  - ex9 reformulation: two sentences → one with *étant donné que*
+  - ex10 reformulation: *parce que* → *à force de*
+  - ex11 error-correction: *en effet* used for a contrast
+  - ex12 register-shift: *vu que* (neutral) / *étant donné que* (formal)
+  - ex13 translate: "Given that it's raining, we'll stay."
+  - ex14 write-out: a paragraph with four connectors
+  - ex15 reorder
+- **Prerequisites:** b2-concession-opposition.
+- **LessonLinks:** b1-cause-and-consequence, b1-presenting-an-argument, b2-concession-opposition, b2-argumentative-essay (forward), b2-purpose-expressions (next).
+- **review-needed.md:**
+  - "*or* introduces a fact that challenges what came before"
+  - "*vu que* is less formal than *étant donné que*"
+- **Size:** teaching about 1,150 (the *soit… soit* table is outside the count); whole about 1,700; vocab 19; 15 exercises.
+
+## 6. b2-purpose-expressions: Expressing purpose
+
+- **Type:** grammar · **Order:** 6
+- **Goal:** say why you do something with infinitive and subjunctive purpose structures.
+- **Prior coverage:**
+  - a2-prepositions-with-places used *pour* + infinitive (*Je suis ici pour apprendre*).
+  - b1-subjunctive-vs-infinitive taught the same-subject rule.
+  - **Adds:**
+    - *pour que* (moved here from b2-subjunctive-conjunctions) and *afin de* / *afin que*
+    - *de peur que* (*ne*) and *de crainte de*
+    - *de sorte que* (+ subjunctive for purpose; + indicative for result, as a recognition note)
+    - *dans le but de* and *en vue de*
+- **Structures taught:** purpose with infinitive versus subjunctive; the meaning switch of *de sorte que*.
+- **Structures used:** *ne explétif* (b2-subjunctive-conjunctions).
+- **New vocab (15):**
+  - *en faveur de* (in favour of)
+  - *pour que* (so that)
+  - *afin de* (in order to)
+  - *afin que* (so that, formal)
+  - *de peur que* (for fear that)
+  - *de peur de* (for fear of)
+  - *de crainte que* (for fear that, formal)
+  - *de sorte que* (so that)
+  - *dans le but de* (with the aim of)
+  - *en vue de* (with a view to)
+  - *un objectif*: recap of a2-review-final, not an entry
+  - *viser à* (to aim to)
+  - *sensibiliser* (B1 recap, not an entry)
+  - *une campagne* (a campaign)
+  - *convaincre* (B1 recap, not an entry)
+  - *encourager à* (to encourage to)
+  - *dissuader de* (to deter from)
+  - *éviter que* (to avoid, + subjunctive)
+  - *prévenir*: recap of b1-subjunctive-vs-infinitive, not an entry
+- **Cognates for the allowlist:** une stratégie.
+- **Dialogue (10 lines):** members of an association plan a campaign against food waste (*tu*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - *pour* / *afin de* + infinitive
+  - *pour que* / *afin que* + subjunctive
+  - fear with *de peur que*
+  - *de sorte que* and its two moods
+- **Exercises (15):**
+  - ex1 connector-choice: *pour* / *pour que*
+  - ex2 to ex4 fill-in: subjunctive after *afin que*, *de peur que* and *éviter que*
+  - ex5 MC: *de sorte que* + mood
+  - ex6 MC: *afin de* (formal)
+  - ex7 reformulation: *pour que* → *pour* with the same subject
+  - ex8 reformulation: *parce qu'on veut* → *dans le but de*
+  - ex9 error-correction: *pour qu'il vient*
+  - ex10 register-shift: *pour* → *afin de*
+  - ex11 fill-in: *dissuader de*
+  - ex12 translate: "We're writing so that people understand."
+  - ex13 translate: "She left early for fear of missing the train."
+  - ex14 write-out: the aims of a campaign in 3 sentences
+  - ex15 reorder
+- **Prerequisites:** b2-subjunctive-conjunctions.
+- **LessonLinks:** a2-prepositions-with-places, b1-subjunctive-vs-infinitive, b2-subjunctive-conjunctions, b2-idioms-everyday (next).
+- **review-needed.md:**
+  - "*de sorte que* + indicative expresses result"
+  - "*de peur que* takes an optional *ne*"
+- **Size:** teaching about 1,050; whole about 1,600; vocab 15; 15 exercises.
+
+## 7. b2-idioms-everyday: Everyday idioms
+
+- **Type:** vocabulary · **Order:** 7
+- **Goal:** understand and use 20 very common idioms, each with its register marked.
+- **Prior coverage:**
+  - b1-relationships taught feelings vocabulary.
+  - b1-relationships taught *tomber amoureux*. None of the idioms below is in an A1 to B1 vocab entry (checked).
+  - **Adds:** figurative idioms built on body parts, food and animals.
+  - *En avoir marre* moves to b2-idiomatic-y-en, because it relies on idiomatic *en*.
+- **Structures taught:** none.
+- **Structures used:** none new.
+- **New vocab (22, all labelled informal or neutral):**
+  - *avoir le cafard* (to feel down)
+  - *poser un lapin à* (to stand someone up)
+  - *coûter les yeux de la tête* (to cost an arm and a leg)
+  - *avoir un coup de foudre* (to fall in love at first sight)
+  - *tomber dans les pommes* (to faint)
+  - *avoir la flemme* (to not be bothered)
+  - *casser les pieds à* (to get on someone's nerves)
+  - *mettre les pieds dans le plat* (to put your foot in it)
+  - *avoir du pain sur la planche* (to have a lot on your plate)
+  - *il pleut des cordes* (it's pouring)
+  - *être dans la lune* (to be daydreaming)
+  - *donner sa langue au chat* (to give up guessing)
+  - *avoir un poil dans la main* (to be lazy)
+  - *se creuser la tête* (to rack your brains)
+  - *ne pas être dans son assiette* (to feel off)
+  - *raconter des salades* (to tell tall stories)
+  - *appeler un chat un chat* (to call a spade a spade)
+  - *avoir le bras long* (to have influence)
+  - *faire la tête* (to sulk)
+  - *coûter un rein* (to cost a fortune; informal)
+  - *en un clin d'œil* (in the blink of an eye)
+  - *une expression imagée* (an idiom)
+- **Cognates for the allowlist:** none.
+- **Dialogue (12 lines):** two flatmates catch up on a bad week (*tu*), using six idioms.
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - idioms aren't translated word for word
+  - each one has a register
+  - three themes: the body, food, animals
+- **Exercises (15):**
+  - ex1 to ex5 MC: idiom → meaning
+  - ex6 to ex8 fill-in: the missing noun (*lapin*, *pommes*, *planche*)
+  - ex9 register-shift: *Il m'a posé un lapin* → neutral
+  - ex10 reformulation: literal → idiom
+  - ex11 error-correction: a wrong animal or food in an idiom
+  - ex12 translate: "It's pouring."
+  - ex13 translate: "This phone costs an arm and a leg."
+  - ex14 write-out: a 3-sentence message with two idioms
+  - ex15 reorder
+- **Prerequisites:** b1-relationships.
+- **LessonLinks:** b1-relationships, b2-review-nuance (next).
+- **review-needed.md:** each idiom's meaning and register, especially *coûter un rein* and *avoir le bras long*.
+- **Size:** teaching about 850; whole about 1,350; vocab 22; 15 exercises.
+
+## 8. b2-review-nuance: Review: Nuance and society
+
+- **Type:** review · **Order:** 8
+- **Goal:** write a nuanced opinion text on a social issue with concession and purpose structures.
+- **Prior coverage:** the unit's six lessons. **Adds:** only a writing task and 6 new words.
+- **Structures used:**
+  - nuancing (b2-nuancing-opinions)
+  - conjunctions + subjunctive (b2-subjunctive-conjunctions)
+  - concession (b2-concession-opposition)
+  - purpose (b2-purpose-expressions)
+  - one idiom (b2-idioms-everyday)
+- **New vocab (6):**
+  - *un débat de société* (a public debate)
+  - *une piste* (a possible lead, an idea)
+  - *concilier* (to reconcile)
+  - *à long terme* (in the long term)
+  - *un juste milieu* (a happy medium; *un compromis* is a recap of b1-subjunctive-vs-infinitive)
+  - *une tribune* (an opinion piece)
+- **Model text:** a *tribune* on social housing in city centres, nuanced and with one concession paragraph.
+- **En résumé:** none (review).
+- **Exercises (16):**
+  - ex1 to ex4 fill-in mixed: conjunction subjunctives, *malgré*, *afin de*
+  - ex5 and ex6 connector-choice
+  - ex7 MC: idiom
+  - ex8 reformulation: flat → nuanced
+  - ex9 reformulation: *bien que* → *malgré*
+  - ex10 error-correction
+  - ex11 register-shift
+  - ex12 MC: the new words
+  - ex13 translate
+  - ex14 and ex15 write-out: two paragraphs (a concession; an aim)
+  - ex16 reorder
+- **Prerequisites:** b2-nuancing-opinions, b2-social-issues, b2-logical-connectors, b2-purpose-expressions, b2-idioms-everyday (5). b2-logical-connectors implies b2-concession-opposition.
+- **LessonLinks:** each unit lesson, plus b2-conditionnel-passe (next unit).
+- **review-needed.md:** none beyond the unit.
+- **Size:** teaching about 850; whole about 1,500; 6 words; 16 exercises.

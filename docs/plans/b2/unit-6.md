@@ -1,0 +1,290 @@
+# B2 Unit 6 plan: Science, health and environment
+
+Status: revised after the first plan review (docs/b2-plan-review.md: decisions applied). No lesson files written yet. Rules and size limits: CLAUDE.md, "B2 conventions"; see the note at the top of unit-1.md. Lesson numbers follow docs/syllabus.md.
+This unit has five lessons: b2-nominalisation moved to Unit 3 and b2-logical-connectors to Unit 1.
+
+---
+
+## 41. b2-science-and-research: Science and research
+
+- **Type:** vocabulary · **Order:** 41
+- **Goal:** talk about research, studies, experiments and results.
+- **Prior coverage:**
+  - b1-environment taught *le climat*, *le réchauffement climatique*, *la pollution* and *les énergies renouvelables*.
+  - b2-presenting-data taught *les données*, *un taux* and *une moyenne*.
+  - **Adds:** the research process and its vocabulary. Climate vocabulary isn't repeated; it's recapped with a LessonLink.
+- **Structures taught:** none.
+- **Structures used:**
+  - passive (b2-passive-voice)
+  - conditionnel for unconfirmed results (b2-conditionnel-passe)
+  - nominalisation (b2-nominalisation)
+- **New vocab (22):**
+  - *la recherche* (research). **False friend:** also "a search".
+  - *un chercheur / une chercheuse* (a researcher)
+  - *une étude* (a study)
+  - *une expérience* (an experiment). **New meaning:** b1-careers-and-job-hunting taught "experience"; list it in NEW_MEANINGS.
+  - *un laboratoire* (cognate, allowlist)
+  - *une hypothèse* (a hypothesis)
+  - *démontrer* (to demonstrate)
+  - *prouver* (to prove)
+  - *une preuve*: recap of b1-expressing-doubt-certainty, not an entry
+  - *un résultat* (a result)
+  - *une découverte* (a discovery)
+  - *un échantillon* (a sample)
+  - *mener une étude* (to carry out a study)
+  - *une revue scientifique* (a scientific journal). **New meaning:** a magazine.
+  - *publier* (B1 recap, not an entry)
+  - *un vaccin* (a vaccine)
+  - *un traitement* (a treatment)
+  - *une avancée* (a breakthrough, progress)
+  - *fiable* (B1 recap, not an entry)
+  - *une méthode* (cognate, allowlist)
+  - *mesurer* (to measure)
+  - *observer* (cognate, allowlist)
+  - *tirer une conclusion* (to draw a conclusion)
+  - *le financement* (funding)
+  - *un brevet* (a patent)
+- **Cognates for the allowlist:** un laboratoire, une méthode, observer, analyser, scientifique, la biologie.
+- **Dialogue (11 lines):** two PhD students talk about an experiment that failed (*tu*).
+- **Longer text:** none (vocabulary).
+- **En résumé (100 to 150 words):**
+  - the research steps (hypothesis, study, results, publication)
+  - the new meanings of *expérience* and *revue*
+- **Exercises (15):**
+  - ex1 to ex5 fill-in: *hypothèse*, *échantillon*, *mener*, *découverte*, *financement*
+  - ex6 to ex8 MC: *expérience* (new meaning), *recherche*, *revue*
+  - ex9 MC: research order
+  - ex10 reformulation: active → passive (*l'étude a été menée*)
+  - ex11 error-correction: *faire une expérience* versus *avoir de l'expérience*
+  - ex12 translate: "The researchers carried out a study."
+  - ex13 translate: "This result has not been proven."
+  - ex14 write-out: describe an experiment in 3 sentences
+  - ex15 reorder
+- **Prerequisites:** b1-environment.
+- **LessonLinks:** b1-environment, b2-presenting-data, b2-passive-voice, b2-health-system.
+- **review-needed.md:** "*une revue scientifique* is a journal" (no real studies quoted).
+- **Size:** teaching about 900; whole about 1,400; vocab 22; 15 exercises.
+
+## 42. b2-health-system: Health and the health system
+
+- **Type:** vocabulary · **Order:** 42
+- **Goal:** understand how healthcare is organized and paid for in France, and discuss public-health debates.
+- **Prior coverage:**
+  - a2-at-the-doctor taught *la carte Vitale*, *une ordonnance*, *la pharmacie* and *un rendez-vous*.
+  - a2-body-and-health taught symptoms.
+  - b1-making-a-complaint taught *être remboursé*.
+  - **Adds:** the system (Sécurité sociale, mutuelle, médecin traitant, the specialist route), prevention and public-health debates. *La carte Vitale* is recapped, not repeated.
+- **Structures taught:** none.
+- **Structures used:**
+  - passive (b2-passive-voice)
+  - *se faire* + infinitive (b2-faire-causatif)
+  - B1 doubt structures only (b1-expressing-doubt-certainty). b2-certainty-and-probability comes after this lesson.
+- **New vocab (20):**
+  - *la Sécurité sociale* (state health insurance)
+  - *une mutuelle* (top-up health insurance)
+  - *le médecin traitant*: recap of a2-at-the-doctor, not an entry
+  - *un généraliste* (a GP)
+  - *un spécialiste* (cognate, allowlist)
+  - *une consultation* (a consultation; cognate, allowlist)
+  - *les urgences* (A&E)
+  - *un hôpital public* (A1 recap of *hôpital*, not an entry)
+  - *une clinique* (a private hospital). **False friend.**
+  - *rembourser* (B1 recap, not an entry)
+  - *le reste à charge* (out-of-pocket costs)
+  - *la prévention* (cognate, allowlist)
+  - *le dépistage* (screening)
+  - *une campagne de vaccination* (a vaccination campaign)
+  - *se faire vacciner* (to get vaccinated; *se faire* + infinitive, b2-faire-causatif)
+  - *une maladie chronique* (a chronic illness)
+  - *la santé publique* (public health)
+  - *un désert médical* (an area with too few doctors)
+  - *un délai d'attente* (a waiting time)
+  - *un arrêt maladie* (sick leave)
+  - *le personnel soignant* (healthcare staff)
+  - *un infirmier / une infirmière*: recap of a2-jobs-and-workplace, not an entry
+  - *soigner* (to treat, to care for)
+  - *la prise en charge* (coverage, care)
+- **Cognates for the allowlist:** un spécialiste, une consultation, la prévention, médical.
+- **Dialogue (11 lines):** a new arrival asks a French colleague how to choose a GP and a mutuelle (*vous*).
+- **Longer text:** none (vocabulary).
+- **En résumé (100 to 150 words):**
+  - how a visit is paid for (Sécurité sociale, then mutuelle)
+  - the *médecin traitant* route
+  - prevention
+  - one public debate (medical deserts)
+- **Exercises (15):**
+  - ex1 to ex5 fill-in: *mutuelle*, *médecin traitant*, *urgences*, *dépistage*, *arrêt maladie*
+  - ex6 to ex8 MC: who pays what, *clinique* (false friend), *désert médical*
+  - ex9 MC: odd one out
+  - ex10 reformulation: *On rembourse 70 %* → passive (no real figure: use a phrase like "une partie")
+  - ex11 error-correction: *je vais à la clinique* used for a GP
+  - ex12 translate: "I have to choose a GP."
+  - ex13 translate: "Prevention costs less than treatment."
+  - ex14 write-out: explain the system to a visitor in 3 sentences
+  - ex15 reorder
+- **Prerequisites:** a2-at-the-doctor.
+- **LessonLinks:** a2-at-the-doctor, a2-body-and-health, b1-making-a-complaint, b2-faire-causatif.
+- **review-needed.md:**
+  - every system fact: "the *médecin traitant* route affects reimbursement", "*la mutuelle* covers the rest", "*une clinique* is usually private"
+  - Give no rates or amounts.
+- **Size:** teaching about 950; whole about 1,450; vocab 20; 15 exercises.
+
+## 43. b2-certainty-and-probability: Certainty and probability
+
+- **Type:** grammar · **Order:** 43
+- **Goal:** say how sure you are, from certain to unlikely, with the right mood.
+- **Prior coverage:**
+  - b1-expressing-doubt-certainty taught *je doute que*, *je ne pense pas que* + subjunctive, *sûrement* and *peut-être*.
+  - b2-futur-anterieur taught supposition (*il aura oublié*).
+  - **Adds:**
+    - the probability scale with mood: *il est certain / probable que* + indicative; *il est possible que*, *il se peut que*, *il est peu probable que* + subjunctive
+    - *sans doute* (probably; false friend)
+    - *sans aucun doute*
+    - epistemic *devoir* (*il doit être malade*)
+    - *il semblerait que*
+    - adverbs (*vraisemblablement*, *probablement*, *certainement*)
+    - *le fait que* + subjunctive (*le fait qu'il soit absent m'inquiète*), decision 14
+- **Structures taught:** the mood after probability expressions; epistemic *devoir*; *le fait que* + subjunctive.
+- **Structures used:**
+  - subjunctive triggers (b1-expressing-doubt-certainty)
+  - *il semble que* (b2-nuancing-opinions)
+  - futur antérieur (b2-futur-anterieur)
+- **New vocab (17):**
+  - *il est probable que* (it's likely that, + indicative)
+  - *il est peu probable que* (it's unlikely that, + subjunctive)
+  - *il est possible que* (it's possible that, + subjunctive)
+  - *il se peut que* (it may be that, + subjunctive)
+  - *il est certain que* (it's certain that)
+  - *il n'est pas certain que* (it's not certain that, + subjunctive)
+  - *sans doute* (probably). **False friend:** not "without doubt".
+  - *sans aucun doute* (without any doubt)
+  - *probablement* (probably)
+  - *vraisemblablement* (in all likelihood)
+  - *certainement*: recap of b1-expressing-doubt-certainty, not an entry
+  - *il doit être* (he must be; epistemic)
+  - *il semblerait que* (it would seem that)
+  - *une probabilité* (a probability; cognate, allowlist)
+  - *un risque* (cognate?). Add it to the allowlist.
+  - *une incertitude* (an uncertainty)
+  - *le fait que* (the fact that, + subjunctive)
+  - *prévisible* (predictable). b2-si-plus-que-parfait taught *imprévisible*, so add only if it's a new entry.
+- **Cognates for the allowlist:** une probabilité, un risque, incertain.
+- **Dialogue (10 lines):** two scientists react to a surprising result (*tu*).
+- **Longer text:** none.
+- **En résumé (100 to 150 words):**
+  - the scale from certain to unlikely
+  - the indicative up to *probable*; the subjunctive from *possible* down
+  - *sans doute* means probably
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: the mood after each expression, one with *le fait que*
+  - ex5 MC: *sans doute* (meaning)
+  - ex6 MC: rank by certainty
+  - ex7 connector-choice: *il est probable que* / *il se peut que*
+  - ex8 reformulation: *Peut-être qu'il viendra* → *Il se peut qu'il vienne*
+  - ex9 reformulation: *Il est sûrement malade* → *Il doit être malade*
+  - ex10 error-correction: *il est possible qu'il viendra*
+  - ex11 register-shift: *Il se peut que* → spoken *peut-être que*
+  - ex12 translate: "It's likely that it will rain."
+  - ex13 translate: "He must have forgotten."
+  - ex14 write-out: 3 predictions with different certainty
+  - ex15 reorder
+- **Prerequisites:** b2-subjunctive-conjunctions, b1-expressing-doubt-certainty.
+- **LessonLinks:** b1-expressing-doubt-certainty, b2-nuancing-opinions, b2-futur-anterieur, b2-science-and-research.
+- **review-needed.md:**
+  - "*il est probable que* takes the indicative"
+  - "*il est peu probable que* takes the subjunctive"
+  - "*sans doute* weakened to 'probably'"
+- **Size:** teaching about 1,120 (with *le fait que*; under the grammar limit of 1,200); whole about 1,600; vocab 17; 15 exercises.
+
+## 44. b2-argumentative-essay: Writing an argumentative essay
+
+- **Type:** communication · **Order:** 44
+- **Goal:** write a structured French essay: thesis, antithesis, synthesis, with an introduction and a conclusion.
+- **Prior coverage:**
+  - b1-presenting-an-argument taught a simple argument (for/against, *d'une part*, *en résumé*).
+  - b2-nuancing-opinions, b2-concession-opposition and b2-logical-connectors.
+  - **Adds:**
+    - the French *dissertation* structure (*la problématique*, *annoncer le plan*, the dialectical plan)
+    - introduction moves (*amorce*, *problématique*, *annonce du plan*)
+    - conclusion moves (*bilan*, *ouverture*)
+    - essay phrases
+- **Structures taught:** none new (it applies the unit).
+- **Structures used:**
+  - logical connectors (b2-logical-connectors)
+  - nominalisation (b2-nominalisation)
+  - concession (b2-concession-opposition)
+  - certainty (b2-certainty-and-probability)
+- **New vocab (17):**
+  - *une dissertation* (an essay). **False friend:** not a dissertation.
+  - *la problématique* (the central question)
+  - *la thèse* (the thesis)
+  - *l'antithèse* (the antithesis)
+  - *la synthèse* (the synthesis)
+  - *annoncer le plan* (to announce the outline)
+  - *dans un premier temps* (first)
+  - *dans un second temps* (second)
+  - *une ouverture* (an opening to a wider question). **New meaning:** b2-nominalisation's "opening".
+  - *force est de constater que* (one has to admit that)
+  - *on peut se demander si* (one may wonder whether)
+  - *il s'agit de* (it's a matter of)
+  - *en guise de conclusion* (by way of conclusion)
+  - *une transition* (cognate, allowlist)
+  - *un paragraphe* (cognate, allowlist)
+  - *étayer* (to support, of an argument)
+  - *un exemple concret* (a concrete example)
+- **Cognates for the allowlist:** une transition, un paragraphe, une introduction, une conclusion.
+- **Dialogue (10 lines):** two students plan an essay on screens at school (*tu*).
+- **Longer text:** a model essay on *Faut-il interdire les écrans à l'école ?*, with introduction, three short parts and a conclusion. About 250 words (the B2 maximum for longer texts).
+- **En résumé:** none.
+- **Exercises (15):**
+  - ex1 MC: which part of the plan
+  - ex2 fill-in: *la problématique*
+  - ex3 fill-in: *dans un premier temps*
+  - ex4 MC: *dissertation* (false friend)
+  - ex5 connector-choice: a transition
+  - ex6 register-shift: an informal opinion → an essay sentence
+  - ex7 reformulation: *Je pense que* → *Force est de constater que*
+  - ex8 reformulation: a question → a *problématique*
+  - ex9 error-correction: *je* in an essay introduction
+  - ex10 fill-in: *il s'agit de*
+  - ex11 MC: the order of the introduction
+  - ex12 translate: "One may wonder whether…"
+  - ex13 write-out: an introduction from prompts
+  - ex14 write-out: a conclusion with an ouverture
+  - ex15 reorder
+- **Prerequisites:** b2-logical-connectors, b2-nominalisation.
+- **LessonLinks:** b1-presenting-an-argument, b2-nuancing-opinions, b2-logical-connectors, b2-nominalisation, b2-debating (forward).
+- **review-needed.md:**
+  - "the French school essay uses thesis, antithesis, synthesis"
+  - "avoid *je* in a formal essay"
+- **Size:** teaching about 1,000; whole about 1,700 (the essay is about 250 words); vocab 17; 15 exercises.
+
+## 45. b2-review-science: Review: Science, health and environment
+
+- **Type:** review · **Order:** 45
+- **Goal:** write an argumentative essay on a science or health topic.
+- **Structures used:**
+  - health vocabulary (b2-health-system)
+  - certainty (b2-certainty-and-probability)
+  - the essay plan (b2-argumentative-essay)
+- **New vocab (5):**
+  - *un progrès* (progress; check it against A2/B1)
+  - *un enjeu de santé publique* (a public-health issue)
+  - *une controverse* (a controversy)
+  - *le principe de précaution* (the precautionary principle)
+  - *un comité d'éthique* (an ethics committee)
+- **Model text:** a short essay on *Faut-il rendre la prévention obligatoire ?* (a neutral topic, no real figures).
+- **En résumé:** none.
+- **Exercises (16):**
+  - ex1 to ex4 fill-in: certainty moods, nominalisation, connectors
+  - ex5 and ex6 connector-choice
+  - ex7 MC
+  - ex8 and ex9 reformulation
+  - ex10 error-correction
+  - ex11 register-shift
+  - ex12 MC: the new words
+  - ex13 translate
+  - ex14 and ex15 write-out: an introduction; a body paragraph
+  - ex16 reorder
+- **Prerequisites:** b2-health-system, b2-certainty-and-probability, b2-argumentative-essay (3).
+- **Size:** teaching about 850; whole about 1,650; 5 words; 16 exercises.

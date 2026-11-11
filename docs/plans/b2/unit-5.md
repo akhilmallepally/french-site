@@ -1,0 +1,529 @@
+# B2 Unit 5 plan: Work and the economy
+
+Status: revised after the first plan review (docs/b2-plan-review.md: decisions applied). No lesson files written yet. Rules and size limits: CLAUDE.md, "B2 conventions"; see the note at the top of unit-1.md. Lesson numbers follow docs/syllabus.md.
+From this unit on, En résumé is 100 to 150 words. Nominal style (b2-nominalisation) and the logical connectors (b2-logical-connectors) are both taught before this unit.
+
+---
+
+## 32. b2-economy-and-business: The economy and business
+
+- **Type:** vocabulary · **Order:** 32
+- **Goal:** talk about companies, markets and the economy at news level.
+- **Prior coverage:**
+  - b1-careers-and-job-hunting taught *un CDI*, *un salaire*, *le chômage* and *une entreprise* (via *monter sa propre entreprise* in b1-dreams-and-ambitions).
+  - b1-money-and-banking taught *un prêt*, *emprunter*, *le budget* and *dépenser*.
+  - b2-social-issues taught *le pouvoir d'achat*.
+  - **Adds:** the macro-economy and company finance.
+- **Structures taught:** none.
+- **Structures used:** passive (b2-passive-voice); *une hausse / une baisse* (b2-summarizing-an-article).
+- **New vocab (24):**
+  - *la croissance* (growth)
+  - *la récession* (cognate, allowlist)
+  - *le chiffre d'affaires* (turnover). **False friend:** not "business figures".
+  - *le bénéfice* (profit). **False friend:** not "benefit".
+  - *une perte* (a loss)
+  - *une société* (a company). **New meaning:** "society", which is on the cognate list; flag it in the lesson.
+  - *une PME* (an SME)
+  - *une start-up* (English loanword; English sounds)
+  - *un actionnaire* (a shareholder)
+  - *une action* (a share). **New meaning:** an action; list it in NEW_MEANINGS if it's an entry.
+  - *le marché* (the market). **New meaning:** a1-places-in-town taught *le marché* (a street market); list it in NEW_MEANINGS.
+  - *la concurrence* (competition)
+  - *un concurrent / une concurrente* (a competitor)
+  - *investir* (to invest)
+  - *un investissement* (an investment)
+  - *embaucher*: recap of b1-careers-and-job-hunting, not an entry
+  - *licencier*: recap of b1-careers-and-job-hunting, not an entry
+  - *un licenciement* (a redundancy)
+  - *la délocalisation* (offshoring)
+  - *rentable* (profitable)
+  - *la rentabilité* (profitability)
+  - *exporter* (cognate, allowlist)
+  - *un secteur* (a sector)
+  - *la conjoncture* (the economic situation)
+  - *le PIB* (GDP; no figures)
+  - *une prime* (a bonus)
+- **Cognates for the allowlist:** la récession, l'inflation, exporter, importer, économique, financier.
+- **Dialogue (12 lines):** two colleagues discuss a rumour that their company will be bought (*tu*).
+- **Longer text:** none (vocabulary).
+- **En résumé (100 to 150 words):**
+  - the economy (growth, recession)
+  - a company's results (turnover, profit, loss)
+  - jobs (hiring, redundancies, offshoring)
+  - the false friends *bénéfice* and *chiffre d'affaires*
+- **Exercises (15):**
+  - ex1 to ex5 fill-in: *croissance*, *bénéfice*, *licencier*, *rentable*, *concurrence*
+  - ex6 to ex8 MC: *bénéfice* (false friend), *action* (new meaning), *société*
+  - ex9 MC: odd one out
+  - ex10 reformulation: *L'entreprise gagne de l'argent* → *L'entreprise est rentable*
+  - ex11 error-correction: *les bénéfices de la santé* → *les bienfaits*
+  - ex12 translate: "The company hired twenty people."
+  - ex13 translate: "Turnover fell this year."
+  - ex14 write-out: 3 sentences on a company's results
+  - ex15 reorder
+- **Prerequisites:** b1-careers-and-job-hunting, b1-money-and-banking.
+- **LessonLinks:** b1-careers-and-job-hunting, b1-money-and-banking, b2-social-issues, b2-presenting-data (forward).
+- **review-needed.md:**
+  - "*le bénéfice* is profit"
+  - "*une PME* is a small or medium-sized business"
+  - Give no figures or thresholds.
+- **Size:** teaching about 950; whole about 1,450; vocab 24; 15 exercises.
+
+## 33. b2-faire-causatif: Faire causatif
+
+- **Type:** grammar · **Order:** 33
+- **Goal:** say that you get something done or let someone do something.
+- **Prior coverage:**
+  - b1-food-and-cooking used *faire cuire*, *faire bouillir* and *faire fondre* as fixed phrases. This lesson explains them.
+  - b1-double-object-pronouns taught pronoun order.
+  - **Adds:**
+    - *faire* + infinitive (*je fais réparer ma voiture*)
+    - who does the action (*je fais réparer la voiture par le garagiste*; *je la fais réparer*)
+    - pronoun placement before *faire*, and no agreement of *fait*
+    - *se faire* + infinitive (*se faire couper les cheveux*; *se faire voler*: an alternative to the passive, completing b2-alternatives-to-passive)
+    - a short section on *laisser* + infinitive (*laisse-moi faire*), practised in b2-review-work (decision 8)
+- **Structures taught:** the causative with *faire*, *se faire* and *laisser*; pronoun placement.
+- **Structures used:**
+  - double pronouns (b1-double-object-pronouns)
+  - passive alternatives (b2-alternatives-to-passive)
+- **New vocab (17):**
+  - *faire réparer* (to have repaired)
+  - *faire venir* (to send for)
+  - *faire faire* (to have done)
+  - *faire visiter* (to show round)
+  - *faire attendre* (to keep waiting)
+  - *faire remarquer* (to point out)
+  - *se faire couper les cheveux* (to have your hair cut)
+  - *se faire voler* (to be robbed)
+  - *se faire avoir* (to be conned; informal)
+  - *laisser faire* (to let it happen)
+  - *laisser tomber* (to drop, to give up; informal)
+  - *un plombier* (a plumber)
+  - *un garagiste* (a garage mechanic)
+  - *un devis* (a quote)
+  - *un prestataire* (a service provider)
+  - *une intervention* (a call-out; cognate, allowlist)
+  - *la maintenance* (cognate, allowlist)
+- **Cognates for the allowlist:** une intervention, la maintenance.
+- **Dialogue (11 lines):** an office manager organizes repairs with a contractor (*vous*).
+- **Longer text:** none.
+- **En résumé (100 to 150 words):**
+  - *faire* + infinitive: someone else does the action
+  - the pronouns go before *faire*
+  - *fait* doesn't agree
+  - *se faire* for things done to you
+  - *laisser* for letting
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: *faire* + infinitive
+  - ex5 MC: who does the action
+  - ex6 MC: agreement (*je les ai fait réparer*)
+  - ex7 connector-choice: *faire* / *laisser*
+  - ex8 reformulation: *Le plombier répare l'évier. Je le demande.* → *Je fais réparer l'évier*
+  - ex9 reformulation: noun → pronoun (*je la fais réparer*)
+  - ex10 error-correction: *je l'ai faite réparer*
+  - ex11 register-shift: *laisser tomber* → neutral
+  - ex12 translate: "I had my car repaired."
+  - ex13 translate: "She got her bag stolen."
+  - ex14 write-out: 3 things you'll have done for a move
+  - ex15 reorder
+- **Prerequisites:** b1-double-object-pronouns, b2-alternatives-to-passive.
+- **LessonLinks:** b1-food-and-cooking (*faire cuire*), b1-double-object-pronouns, b2-alternatives-to-passive.
+- **review-needed.md:**
+  - "the participle *fait* doesn't agree before an infinitive"
+  - "*laissé* may agree or not (both accepted)"
+- **Size:** teaching about 1,100 (*laisser* cut to a short section); whole about 1,650; vocab 17; 15 exercises.
+
+## 34. b2-participles-and-gerund: Present participle, gerund, verbal adjective
+
+- **Type:** grammar · **Order:** 34
+- **Goal:** tell apart the participe présent, the gérondif and the adjectif verbal, and spell the pairs right.
+- **Prior coverage:**
+  - b1-gerondif taught *en* + *-ant* and *tout en*.
+  - **Adds:**
+    - the participe présent without *en*, in writing (*Ne pouvant pas venir, il a téléphoné*; *ayant fini*)
+    - the adjectif verbal, which agrees (*des arguments convaincants*)
+    - spelling pairs (*fatiguant/fatigant*, *convainquant/convaincant*, *négligeant/négligent*, *précédant/précédent*, *différant/différent*)
+- **Structures taught:** the three *-ant* forms and their spelling.
+- **Structures used:** gérondif (b1-gerondif).
+- **New vocab (15):**
+  - *le cas échéant* (where applicable)
+  - *étant donné* (given, as a participle; b2-logical-connectors taught *étant donné que*)
+  - *ayant fini* (having finished)
+  - *convaincant / convaincante*: recap of b1-review-opinions, not an entry
+  - *fatigant / fatigante* (tiring)
+  - *négligent / négligente* (negligent)
+  - *précédent / précédente* (previous)
+  - *différent* (A2 recap, not an entry)
+  - *un document de travail* (a working paper)
+  - *ci-dessous* (below)
+  - *ci-dessus* (above)
+  - *une note de service* (a memo)
+  - *le personnel* (staff)
+  - *concernant* (concerning)
+  - *suivant* (following, according to)
+  - *en cours* (in progress)
+  - *une procédure* (cognate, allowlist)
+- **Cognates for the allowlist:** une procédure, un document.
+- **Dialogue (10 lines):** two colleagues proof-read a memo together (*tu*).
+- **Longer text:** none.
+- **En résumé (100 to 150 words):**
+  - the participe présent never changes and belongs to writing
+  - the gérondif needs *en*
+  - the adjectif verbal agrees and can be spelled differently
+- **Exercises (15):**
+  - ex1 to ex3 fill-in: participe présent
+  - ex4 fill-in: adjectif verbal agreement
+  - ex5 MC: which form (*fatigant / fatiguant*)
+  - ex6 MC: which form (*convaincant / convainquant*)
+  - ex7 connector-choice: *en* + *-ant* / participe présent
+  - ex8 reformulation: *Comme il ne pouvait pas venir* → *Ne pouvant pas venir*
+  - ex9 reformulation: a relative clause → participe présent (*les employés travaillant ici*)
+  - ex10 error-correction: *une journée fatiguante*
+  - ex11 register-shift: participe présent (written) → *comme* clause (spoken)
+  - ex12 translate: "Having finished, she left."
+  - ex13 translate: "These arguments are convincing."
+  - ex14 write-out: a 3-sentence memo
+  - ex15 reorder
+- **Prerequisites:** b1-gerondif.
+- **LessonLinks:** b1-gerondif, b2-formal-report (forward).
+- **review-needed.md:** the list of spelling pairs, and "the participe présent is mainly written".
+- **Size:** teaching about 1,150 (the spelling list is long); whole about 1,650; vocab 15; 15 exercises.
+
+## 35. b2-infinitif-passe: The past infinitive
+
+- **Type:** grammar · **Order:** 35
+- **Goal:** use *avoir / être* + participle after prepositions and verbs, for an earlier action.
+- **Prior coverage:**
+  - b1-time-connectors taught *après avoir* + participle as a fixed phrase.
+  - b2-regret-and-reproach labelled *regretter d'avoir*.
+  - **Adds:**
+    - the full grammar (*après être parti*, with agreement)
+    - *sans avoir*, *pour avoir* (cause: *puni pour avoir menti*)
+    - *regretter de*, *être content de*, *remercier de / pour avoir*
+    - *nier avoir* + participle
+    - the negative (*de ne pas avoir fini* / *de n'avoir pas fini*)
+- **Structures taught:** past infinitive; agreement with *être*; negative placement.
+- **Structures used:** reporting verbs (b2-reporting-verbs); agreement (a2-passe-compose-etre).
+- **New vocab (15):**
+  - *après être* + participle (after having)
+  - *sans avoir* + participle (without having)
+  - *pour avoir* + participle (for having)
+  - *remercier pour* (to thank for)
+  - *se féliciter de* (to be pleased with)
+  - *avoir l'impression de* (to feel that you have)
+  - *une promotion* (a promotion). **False friend:** also a special offer.
+  - *une augmentation* (a pay rise)
+  - *obtenir une augmentation* (to get a rise)
+  - *un entretien annuel* (an annual review)
+  - *atteindre un objectif* (to reach a target)
+  - *dépasser* (to exceed)
+  - *un retour* (feedback)
+  - *une erreur de parcours* (a slip, a setback)
+  - *tirer des leçons de* (to learn lessons from)
+- **Cognates for the allowlist:** none.
+- **Dialogue (11 lines):** an annual review between a manager and an employee (*vous*).
+- **Longer text:** none.
+- **En résumé (100 to 150 words):**
+  - *avoir* or *être* + participle after a preposition, for what came first
+  - agreement with *être*
+  - the negative
+  - the common verbs that use it
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: the past infinitive
+  - ex5 MC: agreement (*après être partie*)
+  - ex6 MC: *pour avoir* (cause)
+  - ex7 connector-choice: *après avoir* / *après que*
+  - ex8 reformulation: *Il a menti, puis il s'est excusé* → *Après avoir menti, il s'est excusé*
+  - ex9 reformulation: *Je regrette que j'aie dit ça* → *Je regrette d'avoir dit ça*
+  - ex10 error-correction: *après avoir parti*
+  - ex11 fill-in: negative placement
+  - ex12 translate: "Thank you for having helped me."
+  - ex13 translate: "She left without having said goodbye."
+  - ex14 write-out: a 3-sentence self-review
+  - ex15 reorder
+- **Prerequisites:** b1-time-connectors, a2-passe-compose-etre.
+- **LessonLinks:** b1-time-connectors, b2-regret-and-reproach, b2-reporting-verbs.
+- **review-needed.md:**
+  - "*de ne pas avoir fini* and *de n'avoir pas fini* are both correct"
+  - "*remercier pour* versus *remercier de*"
+- **Size:** teaching about 1,000; whole about 1,500; vocab 15; 15 exercises.
+
+## 36. b2-meetings-and-calls: Meetings and professional calls
+
+- **Type:** communication · **Order:** 36
+- **Goal:** run or take part in a meeting or a video call: agenda, taking the floor, summing up decisions.
+- **Prior coverage:**
+  - a2-phone-calls-and-messages taught *en réunion*, *je vous passe…* and phone messages.
+  - b1-formal-email taught formal writing.
+  - **Adds:**
+    - *l'ordre du jour*
+    - turn-taking (*prendre la parole*, *passer la parole*), owned here; b2-debating recaps it
+    - video-call phrases
+    - summing up and minutes
+- **Structures taught:** none new.
+- **Structures used:**
+  - futur antérieur for deadlines (b2-futur-anterieur)
+  - reported speech for minutes (b2-reported-speech-past)
+  - mise en relief (b2-mise-en-relief)
+- **New vocab (17):**
+  - *l'ordre du jour* (the agenda)
+  - *un compte rendu* (the minutes, a report)
+  - *prendre la parole* (to speak, to take the floor)
+  - *passer la parole à* (to hand over to)
+  - *faire le point* (to take stock)
+  - *une visioconférence* (a video call)
+  - *couper son micro* (to mute)
+  - *partager son écran* (to share your screen)
+  - *vous m'entendez ?* (can you hear me?)
+  - *la connexion* (the connection; cognate, allowlist)
+  - *un participant / une participante* (cognate, allowlist)
+  - *trancher* (to decide, to settle)
+  - *une décision* (cognate, allowlist)
+  - *reporter une réunion* (to postpone a meeting; recap from b2-passive-voice)
+  - *à l'unanimité* (unanimously)
+  - *le prochain point* (the next item)
+  - *en conclusion*: recap of b1-review-opinions, not an entry
+  - *je propose qu'on* + subjunctive (I suggest we…)
+- **Cognates for the allowlist:** la connexion, un participant, une décision.
+- **Dialogue (13 lines):** a team's weekly video call (*vous* and *tu* mixed; the switch is explained).
+- **Longer text:** the meeting's *compte rendu*, as an email to the team.
+- **En résumé:** none (communication).
+- **Exercises (15):**
+  - ex1 MC: which phrase opens a meeting
+  - ex2 fill-in: *l'ordre du jour*
+  - ex3 fill-in: *prendre la parole*
+  - ex4 MC: the video-call phrase
+  - ex5 connector-choice: *en conclusion* / *d'abord*
+  - ex6 register-shift: *Tais-toi* → polite
+  - ex7 register-shift: an informal summary → minutes
+  - ex8 reformulation: direct → reported in the minutes
+  - ex9 reformulation: *On décide ça* → *Il a été décidé que* (passive)
+  - ex10 error-correction
+  - ex11 fill-in: *je propose qu'on* + subjunctive
+  - ex12 translate: "Can you hear me? I'll share my screen."
+  - ex13 write-out: a 4-line agenda
+  - ex14 write-out: minutes of two decisions
+  - ex15 reorder
+- **Prerequisites:** b2-economy-and-business, a2-phone-calls-and-messages.
+- **LessonLinks:** a2-phone-calls-and-messages, b1-formal-email, b2-reported-speech-past, b2-negotiating.
+- **review-needed.md:** "*on* replaces *nous* in team meetings, even formal ones" (spoken, labelled).
+- **Size:** teaching about 1,000; whole about 1,750; vocab 17; 15 exercises.
+
+## 37. b2-negotiating: Negotiating
+
+- **Type:** communication · **Order:** 37
+- **Goal:** make proposals and counter-offers, set conditions and reach a compromise.
+- **Prior coverage:**
+  - b2-nuancing-opinions, b2-concession-opposition and b2-subjunctive-conjunctions (*à condition que*).
+  - The Unit 2 conditions.
+  - b2-review-nuance taught *un compromis*.
+  - **Adds:** negotiation moves and phrases.
+- **Structures taught:** none new.
+- **Structures used:**
+  - *à condition que*, *à moins que* (b2-subjunctive-conjunctions)
+  - the *si* patterns (Unit 2)
+  - the conditionnel of politeness (b1-conditionnel-present)
+  - concession (b2-concession-opposition)
+- **New vocab (17):**
+  - *une proposition* (a proposal)
+  - *une contre-proposition* (a counter-offer)
+  - *faire une offre* (to make an offer)
+  - *céder* (to give way)
+  - *en échange de* (in exchange for)
+  - *quitte à* (even if it means)
+  - *une remise* (a discount; B1 has *réduction*)
+  - *un délai de livraison* (a delivery time)
+  - *conclure un accord* (to strike a deal)
+  - *trouver un terrain d'entente* (to find common ground)
+  - *une marge de manœuvre* (room for manoeuvre)
+  - *non négociable* (non-negotiable)
+  - *nous serions prêts à* (we'd be willing to)
+  - *dans ce cas* (in that case)
+  - *ce serait envisageable* (it could be considered)
+  - *faire un geste* (to make a gesture)
+  - *un engagement* (a commitment)
+- **Cognates for the allowlist:** une négociation, un partenaire.
+- **Dialogue (13 lines):** a supplier and a buyer negotiate price and delivery (*vous*).
+- **Longer text:** a short email exchange confirming the deal's terms.
+- **En résumé:** none.
+- **Exercises (15):**
+  - ex1 MC: the move (offer, concession, refusal)
+  - ex2 and ex3 fill-in: *à condition que* + subjunctive
+  - ex4 fill-in: *en échange de*
+  - ex5 connector-choice: *à condition que* / *bien que* / *à moins que*
+  - ex6 register-shift: *Non !* → a polite refusal
+  - ex7 register-shift: firm ↔ soft
+  - ex8 reformulation: *Si vous payez avant mai, nous baissons le prix* → conditionnel politeness
+  - ex9 reformulation: concede with *certes…, mais*
+  - ex10 error-correction: *à condition que vous payez*
+  - ex11 MC: *quitte à*
+  - ex12 translate: "We'd be willing to lower the price if you order more."
+  - ex13 write-out: a counter-offer in 3 sentences
+  - ex14 write-out: an email confirming the deal
+  - ex15 reorder
+- **Prerequisites:** b2-meetings-and-calls, b2-nuancing-opinions, b2-concession-opposition (3, as in the syllabus).
+- **LessonLinks:** b2-subjunctive-conjunctions, b2-mixed-conditionals, b2-review-nuance, b2-presenting-data.
+- **review-needed.md:** "*quitte à* means even if it means"
+- **Size:** teaching about 1,000; whole about 1,750; vocab 17; 15 exercises.
+
+## 38. b2-presenting-data: Presenting data and trends
+
+- **Type:** communication · **Order:** 38
+- **Goal:** describe a chart or table in words: rises, falls, proportions and comparisons.
+- **Prior coverage:**
+  - b1-environment taught *de plus en plus* and *de moins en moins*.
+  - a2-superlatives and a2-comparatives taught comparison.
+  - a2-numbers-years-ordinals taught numbers.
+  - b2-summarizing-an-article taught *une hausse / une baisse*.
+  - **Adds:**
+    - *augmenter de / passer de… à*
+    - percentages, fractions and approximations
+    - verbs of trend
+    - chart words
+    - comparisons with *d'autant plus que* and *plus… plus* (inventory gap)
+  - Nominal style (*une augmentation de 5 %*) comes from b2-nominalisation.
+- **Structures taught:** *de* with figures (*augmenter de 3 %*); *plus… plus*.
+- **Structures used:**
+  - comparatives (a2-comparatives)
+  - nominalisation (b2-nominalisation)
+- **New vocab (23):**
+  - *augmenter de* (to rise by)
+  - *passer de… à* (to go from… to)
+  - *progresser* (to grow)
+  - *chuter* (to fall sharply)
+  - *se stabiliser* (to level off)
+  - *doubler* (to double)
+  - *pour cent* (per cent)
+  - *un pourcentage* (a percentage)
+  - *la moitié* (half)
+  - *un tiers* (a third)
+  - *un quart* (a quarter)
+  - *environ* (about)
+  - *près de* (nearly; A1 taught *près de* as "near", so this is a new meaning) The `fr` text matches a1-prepositions-of-place: add it to NEW_MEANINGS with this meaning.
+  - *un graphique* (a chart)
+  - *une courbe* (a curve, a line on a chart)
+  - *un tableau* (a table). **New meaning:** b2-arts-and-literature uses it for a painting (an informational duplicate).
+  - *les données* (data)
+  - *un taux* (a rate)
+  - *une moyenne* (an average)
+  - *en moyenne* (on average)
+  - *plus… plus* (the more… the more)
+  - *d'autant plus que* (all the more since)
+  - *nettement* (clearly)
+- **Cognates for the allowlist:** une statistique, la majorité, la minorité.
+- **Dialogue (11 lines):** a presenter and a colleague rehearse a slide (*tu*).
+- **Longer text:** a written commentary on an invented chart (no real statistics).
+- **En résumé:** none.
+- **Exercises (15):**
+  - ex1 MC: the verb for a sharp fall
+  - ex2 to ex4 fill-in: *de* with figures, *la moitié*, *en moyenne*
+  - ex5 connector-choice: *passer de… à* / *augmenter de*
+  - ex6 reformulation: numbers → words (*a tripled*)
+  - ex7 reformulation: verb → noun (*Les ventes ont augmenté* → *une augmentation des ventes*)
+  - ex8 register-shift: a spoken comment → written commentary
+  - ex9 error-correction: *augmenter par 5 %*
+  - ex10 MC: *plus… plus*
+  - ex11 fill-in: *d'autant plus que*
+  - ex12 translate: "Sales rose by 10% in two years."
+  - ex13 write-out: describe a chart described in the prompt
+  - ex14 write-out: compare two figures
+  - ex15 reorder
+- **Prerequisites:** b2-economy-and-business, a2-superlatives, b2-nominalisation.
+- **LessonLinks:** b1-environment, a2-comparatives, b2-summarizing-an-article, b2-formal-report.
+- **review-needed.md:** "*augmenter de* gives the size of the change" (no real data).
+- **Size:** teaching about 1,050; whole about 1,700; vocab 23; 15 exercises.
+
+## 39. b2-formal-report: Writing a report
+
+- **Type:** communication · **Order:** 39
+- **Goal:** write a short structured report with findings and recommendations in an impersonal style.
+- **Prior coverage:**
+  - b1-formal-email taught register and structure.
+  - b1-presenting-an-argument taught ordering ideas.
+  - b2-passive-voice, b2-participles-and-gerund and b2-presenting-data.
+  - **Adds:**
+    - report structure (*objet*, *contexte*, *constat*, *analyse*, *recommandations*)
+    - impersonal style (*il convient de*, *il est recommandé de*, *il apparaît que*)
+    - recommendation phrases
+  - Logical connectors (*en effet*, *par conséquent*) come from b2-logical-connectors (Unit 1).
+- **Structures taught:** impersonal constructions (*il convient de*, *il importe que* + subjunctive).
+- **Structures used:**
+  - passive (b2-passive-voice)
+  - participe présent (b2-participles-and-gerund)
+  - nominalisation (b2-nominalisation)
+  - logical connectors (b2-logical-connectors)
+- **New vocab (16):**
+  - *un rapport* (a report)
+  - *le constat* (the findings)
+  - *une recommandation* (a recommendation)
+  - *il convient de* (it's advisable to)
+  - *il importe que* (it's important that, + subjunctive)
+  - *il apparaît que* (it appears that)
+  - *préconiser* (to recommend)
+  - *mettre en œuvre* (to implement)
+  - *une mise en œuvre* (an implementation)
+  - *un état des lieux* (B1 recap as a new meaning: an overview, not an inventory check). List it in NEW_MEANINGS.
+  - *à court terme* (in the short term)
+  - *à moyen terme* (in the medium term)
+  - *un axe d'amélioration* (an area for improvement)
+  - *une piste* (b2-review-nuance recap, not an entry)
+  - *un indicateur* (an indicator)
+  - *le suivi* (the follow-up)
+  - *une annexe* (an appendix)
+- **Cognates for the allowlist:** une analyse, le contexte.
+- **Dialogue (10 lines):** a manager briefs an intern on the report she must write (*vous*).
+- **Longer text:** a model one-page report on remote working in a small company.
+- **En résumé:** none.
+- **Exercises (15):**
+  - ex1 MC: the report section for a finding
+  - ex2 and ex3 fill-in: *il convient de*, *il importe que* + subjunctive
+  - ex4 fill-in: *mettre en œuvre*
+  - ex5 connector-choice
+  - ex6 register-shift: *On doit vite changer ça* → report style
+  - ex7 register-shift: report style → an email to colleagues
+  - ex8 reformulation: active → passive
+  - ex9 reformulation: *je recommande* → *il est recommandé de*
+  - ex10 error-correction
+  - ex11 MC: *préconiser*
+  - ex12 translate: "It is advisable to reduce costs."
+  - ex13 write-out: a findings paragraph
+  - ex14 write-out: two recommendations
+  - ex15 reorder
+- **Prerequisites:** b2-presenting-data, b2-passive-voice, b2-logical-connectors.
+- **LessonLinks:** b1-formal-email, b2-presenting-data, b2-participles-and-gerund, b2-argumentative-essay (forward).
+- **review-needed.md:** "*il importe que* takes the subjunctive"
+- **Size:** teaching about 1,050; whole about 1,700 (the report is 150 to 250 words); vocab 16; 15 exercises.
+
+## 40. b2-review-work: Review: Work and the economy
+
+- **Type:** review · **Order:** 40
+- **Goal:** write a short report with recommendations on a workplace issue.
+- **Structures used:**
+  - causative (b2-faire-causatif)
+  - participles (b2-participles-and-gerund)
+  - past infinitive (b2-infinitif-passe)
+  - negotiation (b2-negotiating)
+  - report style (b2-formal-report)
+- **New vocab (6):**
+  - *la qualité de vie au travail* (quality of working life)
+  - *un bilan d'activité* (an activity report)
+  - *une enquête interne* (an internal survey)
+  - *un collaborateur / une collaboratrice* (a colleague, formal)
+  - *une charge de travail* (a workload)
+  - *épuisé / épuisée* (exhausted)
+  - *le télétravail* (b1-culture-work-life) is a recap, not an entry. *L'absentéisme* goes on the cognate allowlist.
+- **Model text:** a report on workload, with findings, analysis and three recommendations.
+- **En résumé:** none.
+- **Exercises (16):**
+  - ex1 to ex4 fill-in: causative, *laisser* + infinitive (the practice that b2-faire-causatif leaves to this review), participle, past infinitive
+  - ex5 and ex6 connector-choice
+  - ex7 MC
+  - ex8 and ex9 reformulation
+  - ex10 error-correction
+  - ex11 register-shift
+  - ex12 MC: the new words
+  - ex13 translate
+  - ex14 and ex15 write-out: findings; recommendations
+  - ex16 reorder
+- **Prerequisites:** b2-faire-causatif, b2-participles-and-gerund, b2-infinitif-passe, b2-negotiating, b2-formal-report (5).
+- **Size:** teaching about 850; whole about 1,600; 6 words; 16 exercises.

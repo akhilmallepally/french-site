@@ -324,72 +324,72 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 |---|---|---|---|---|---|---|
 | 1 | b2-nuancing-opinions | Nuancing your opinion | Nuance and society | communication | b1-presenting-an-argument, b1-expressing-doubt-certainty | il me semble que, dans une certaine mesure, plutôt, en partie, reconnaître que. |
 | 2 | b2-social-issues | Social issues | Nuance and society | vocabulary | b1-culture-french-republic | Inequality, housing, immigration, unemployment, solidarity. |
-| 3 | b2-subjunctive-conjunctions | Subjunctive after conjunctions | Nuance and society | grammar | b1-subjunctive-vs-infinitive | bien que, pour que, avant que, à condition que, jusqu'à ce que, sans que. Reuses: social issues. |
-| 4 | b2-concession-opposition | Concession and opposition | Nuance and society | grammar | b2-subjunctive-conjunctions, b1-cause-and-consequence | malgré, pourtant, cependant, alors que, tandis que, quand même, avoir beau. Reuses: social issues, opinions. |
-| 5 | b2-purpose-expressions | Expressing purpose | Nuance and society | grammar | b2-subjunctive-conjunctions | pour, afin de / afin que, de peur que, de sorte que. Reuses: social issues, work. |
-| 6 | b2-idioms-everyday | Everyday idioms | Nuance and society | vocabulary | b1-relationships | Common idioms: avoir le cafard, poser un lapin, coûter les yeux de la tête. |
-| 7 | b2-review-nuance | Review: Nuance and society | Nuance and society | review | b2-nuancing-opinions, b2-social-issues, b2-concession-opposition, b2-purpose-expressions, b2-idioms-everyday | Nuanced opinion text on a social issue. |
+| 3 | b2-subjunctive-conjunctions | Subjunctive after conjunctions | Nuance and society | grammar | b1-subjunctive-vs-infinitive | bien que, avant que, à condition que, jusqu'à ce que, sans que, à moins que; the expletive ne. Reuses: social issues. |
+| 4 | b2-concession-opposition | Concession and opposition | Nuance and society | grammar | b2-subjunctive-conjunctions, b1-cause-and-consequence | malgré, pourtant, cependant, néanmoins, en revanche, alors que, tandis que, quand même, avoir beau. Reuses: social issues, opinions. |
+| 5 | b2-logical-connectors | Logical connectors | Nuance and society | grammar | b2-concession-opposition | de plus, en outre, d'ailleurs, en effet, or, ainsi, par conséquent, d'où, si bien que, étant donné que, vu que, faute de, à force de; soit… soit, ou bien (table). Reuses: social issues, opinions. |
+| 6 | b2-purpose-expressions | Expressing purpose | Nuance and society | grammar | b2-subjunctive-conjunctions | pour, pour que, afin de / afin que, de peur que, de sorte que, dans le but de. Reuses: social issues. |
+| 7 | b2-idioms-everyday | Everyday idioms | Nuance and society | vocabulary | b1-relationships | Common idioms: avoir le cafard, poser un lapin, coûter les yeux de la tête. |
+| 8 | b2-review-nuance | Review: Nuance and society | Nuance and society | review | b2-nuancing-opinions, b2-social-issues, b2-logical-connectors, b2-purpose-expressions, b2-idioms-everyday | Nuanced opinion text on a social issue. |
 
 ### Unit 2: What might have been
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 8 | b2-conditionnel-passe | The conditionnel passé | What might have been | grammar | b1-conditionnel-present, a2-passe-compose-etre | Formation; unrealised past; reported uncertainty. Reuses: life choices, travel. |
-| 9 | b2-si-plus-que-parfait | Si + plus-que-parfait, conditionnel passé | What might have been | grammar | b2-conditionnel-passe, b1-plus-que-parfait, b1-si-imparfait-conditionnel | Unreal past conditions. Reuses: travel problems, life stories. |
-| 10 | b2-mixed-conditionals | Mixed si-clauses | What might have been | grammar | b2-si-plus-que-parfait | Past condition → present result and vice versa; même si, sauf si. Reuses: careers, dreams. |
-| 11 | b2-regret-and-reproach | Regret and reproach | What might have been | communication | b2-conditionnel-passe | j'aurais dû, tu aurais pu, si seulement…, je regrette de / que. |
-| 12 | b2-futur-anterieur | The futur antérieur | What might have been | grammar | a2-futur-simple, a2-passe-compose-etre | Formation; quand / dès que + futur antérieur; supposition. Reuses: work projects, plans. |
-| 13 | b2-subjonctif-passe | The past subjunctive | What might have been | grammar | b1-subjonctif-wishes-emotions, a2-passe-compose-etre | Formation; reactions to completed events (je suis ravi que tu sois venu). Reuses: emotions, relationships. |
-| 14 | b2-review-what-might-have-been | Review: What might have been | What might have been | review | b2-mixed-conditionals, b2-regret-and-reproach, b2-futur-anterieur, b2-subjonctif-passe | Alternative-history piece about a personal turning point. |
+| 9 | b2-conditionnel-passe | The conditionnel passé | What might have been | grammar | b1-conditionnel-present, a2-passe-compose-etre | Formation; unrealised past; reported uncertainty. Reuses: life choices, travel. |
+| 10 | b2-si-plus-que-parfait | Si + plus-que-parfait, conditionnel passé | What might have been | grammar | b2-conditionnel-passe, b1-plus-que-parfait, b1-si-imparfait-conditionnel | Unreal past conditions. Reuses: travel problems, life stories. |
+| 11 | b2-mixed-conditionals | Mixed si-clauses | What might have been | grammar | b2-si-plus-que-parfait | Past condition → present result and vice versa; même si, sauf si. Reuses: careers, dreams. |
+| 12 | b2-futur-anterieur | The futur antérieur | What might have been | grammar | a2-futur-simple, a2-passe-compose-etre, b1-time-connectors | Formation; quand / dès que / une fois que + futur antérieur; depuis que; supposition. Reuses: work projects, plans. |
+| 13 | b2-subjonctif-passe | The past subjunctive | What might have been | grammar | b1-subjonctif-wishes-emotions, a2-passe-compose-etre, b2-subjunctive-conjunctions | Formation; reactions to completed events (je suis ravi que tu sois venu). Reuses: emotions, relationships. |
+| 14 | b2-regret-and-reproach | Regret and reproach | What might have been | communication | b2-si-plus-que-parfait, b2-subjonctif-passe | j'aurais dû, tu aurais pu, si seulement…, regretter de / que (with the subjonctif passé), reprocher à. |
+| 15 | b2-review-what-might-have-been | Review: What might have been | What might have been | review | b2-mixed-conditionals, b2-futur-anterieur, b2-regret-and-reproach | Alternative-history piece about a personal turning point. |
 
 ### Unit 3: News and reporting
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 15 | b2-politics-and-society | Politics and institutions | News and reporting | vocabulary | b1-culture-french-republic, b1-media-and-news | Government, parliament, elections, parties, reform, protest. |
-| 16 | b2-reported-speech-past | Reported speech in the past | News and reporting | grammar | b1-reported-speech-present, b1-plus-que-parfait, b1-conditionnel-present | Sequence of tenses; time-word shifts (la veille, le lendemain). Reuses: politics, news. |
-| 17 | b2-reported-questions-orders | Reported questions and orders | News and reporting | grammar | b2-reported-speech-past | In past tenses: si, ce que, ce qui; dire de + infinitive; demander à quelqu'un de. Reuses: interviews, politics. |
-| 18 | b2-reporting-verbs | Reporting verbs | News and reporting | vocabulary | b2-reported-speech-past | affirmer, prétendre, nier, admettre, reconnaître, souligner, annoncer. |
-| 19 | b2-passive-voice | The passive voice in all tenses | News and reporting | grammar | b1-passive-voice-intro, b2-futur-anterieur | All tenses; par vs de; when French avoids the passive. Reuses: politics, news. |
-| 20 | b2-alternatives-to-passive | Alternatives to the passive | News and reporting | grammar | b2-passive-voice | on, pronominal passive (ça se dit, ça se vend), se voir + infinitive. Reuses: news, culture. |
-| 21 | b2-summarizing-an-article | Summarising an article | News and reporting | communication | b2-reporting-verbs, b2-alternatives-to-passive | Identifying main points, neutral rephrasing, reporting a source fairly. |
-| 22 | b2-culture-french-press | The French press | News and reporting | culture | b2-politics-and-society | Le Monde, Le Figaro, Libération, regional papers, satirical press, public broadcasters. |
-| 23 | b2-review-news | Review: News and reporting | News and reporting | review | b2-reported-questions-orders, b2-summarizing-an-article, b2-culture-french-press | Report an interview and summarise an article. |
+| 16 | b2-politics-and-society | Politics and institutions | News and reporting | vocabulary | b1-culture-french-republic, b1-media-and-news | Government, parliament, elections, parties, reform, protest. |
+| 17 | b2-reported-speech-past | Reported speech in the past | News and reporting | grammar | b1-reported-speech-present, b1-plus-que-parfait, b1-conditionnel-present, b2-futur-anterieur | Sequence of tenses after a past reporting verb (the future in the past). Reuses: politics, news. |
+| 18 | b2-reported-questions-orders | Reported questions and orders | News and reporting | grammar | b2-reported-speech-past | In past tenses: si, ce que, ce qui; dire de + infinitive; demander à quelqu'un de. Reuses: interviews, politics. |
+| 19 | b2-reporting-verbs | Reporting verbs | News and reporting | vocabulary | b2-reported-speech-past | affirmer, prétendre, nier, admettre, avouer, souligner, annoncer; time-word shifts (la veille, le lendemain, ce jour-là). |
+| 20 | b2-passive-voice | The passive voice in all tenses | News and reporting | grammar | b1-passive-voice-intro, b2-futur-anterieur | All tenses; par vs de. Reuses: politics, news. |
+| 21 | b2-alternatives-to-passive | Alternatives to the passive | News and reporting | grammar | b2-passive-voice | on, pronominal passive (ça se dit, ça se vend), se voir + infinitive, à + infinitive (maison à vendre, facile à faire). Reuses: news, culture. |
+| 22 | b2-nominalisation | Nominalisation | News and reporting | grammar | b2-politics-and-society | Verb/adjective → noun (augmenter → l'augmentation); headline and written news style. Reuses: politics, news. |
+| 23 | b2-summarizing-an-article | Summarising an article | News and reporting | communication | b2-reporting-verbs, b2-alternatives-to-passive, b2-nominalisation | Identifying main points, neutral rephrasing, reporting a source fairly. |
+| 24 | b2-culture-french-press | The French press | News and reporting | culture | b2-politics-and-society | Le Monde, Le Figaro, Libération, regional papers, satirical press, public broadcasters. |
+| 25 | b2-review-news | Review: News and reporting | News and reporting | review | b2-reported-questions-orders, b2-summarizing-an-article, b2-culture-french-press | Report an interview and summarise an article. |
 
 ### Unit 4: Precision with pronouns
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 24 | b2-relative-lequel | lequel, auquel, duquel | Precision with pronouns | grammar | b1-interrogative-lequel, b1-relative-dont | Compound relative pronouns after prepositions; contractions. Reuses: work tools, politics. |
-| 25 | b2-relative-prepositions | Prepositions with relative pronouns | Precision with pronouns | grammar | b2-relative-lequel | avec qui, chez qui, grâce auquel, ce à quoi, ce dont. Reuses: relationships, work. |
-| 26 | b2-subjunctive-relative-clauses | Subjunctive in relative clauses | Precision with pronouns | grammar | b2-subjunctive-conjunctions, a2-relative-qui-que-ou | je cherche quelqu'un qui sache…; il n'y a personne qui puisse… Reuses: job hunting, housing. |
-| 27 | b2-idiomatic-y-en | Idiomatic y and en | Precision with pronouns | vocabulary | a2-pronoun-en, b1-double-object-pronouns | s'en aller, en vouloir à, s'en sortir, y tenir, s'y faire, ne pas en revenir. |
-| 28 | b2-mise-en-relief | Emphasis: c'est… qui / que | Precision with pronouns | grammar | b1-ce-qui-ce-que | c'est… qui / que, ce qui… c'est, ce que je veux dire, c'est que. Reuses: opinions, social issues. |
-| 29 | b2-review-pronouns | Review: Precision with pronouns | Precision with pronouns | review | b2-relative-prepositions, b2-subjunctive-relative-clauses, b2-idiomatic-y-en, b2-mise-en-relief | Combine sentences with the right relative and emphatic structures. |
+| 26 | b2-relative-lequel | lequel, auquel, duquel | Precision with pronouns | grammar | b1-interrogative-lequel, b1-relative-dont | Compound relative pronouns after prepositions; contractions. Reuses: work tools, politics. |
+| 27 | b2-relative-prepositions | Prepositions with relative pronouns | Precision with pronouns | grammar | b2-relative-lequel, b1-ce-qui-ce-que | avec qui, chez qui, ce à quoi, ce dont, de quoi; quoi que, qui que, où que. Reuses: relationships, work. |
+| 28 | b2-subjunctive-relative-clauses | Subjunctive in relative clauses | Precision with pronouns | grammar | b2-subjunctive-conjunctions, a2-relative-qui-que-ou, b2-subjonctif-passe | je cherche quelqu'un qui sache…; il n'y a personne qui puisse… Reuses: job hunting, housing. |
+| 29 | b2-idiomatic-y-en | Idiomatic y and en | Precision with pronouns | vocabulary | a2-pronoun-en, b1-double-object-pronouns | s'en aller, en vouloir à, s'en sortir, y tenir, s'y faire, ne pas en revenir. |
+| 30 | b2-mise-en-relief | Emphasis: c'est… qui / que | Precision with pronouns | grammar | b1-ce-qui-ce-que | c'est… qui / que, ce qui… c'est, ce que je veux dire, c'est que. Reuses: opinions, social issues. |
+| 31 | b2-review-pronouns | Review: Precision with pronouns | Precision with pronouns | review | b2-relative-prepositions, b2-subjunctive-relative-clauses, b2-idiomatic-y-en, b2-mise-en-relief | Combine sentences with the right relative and emphatic structures. |
 
 ### Unit 5: Work and the economy
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 30 | b2-economy-and-business | The economy and business | Work and the economy | vocabulary | b1-careers-and-job-hunting, b1-money-and-banking | Growth, inflation, companies, markets, chiffre d'affaires, bénéfice. |
-| 31 | b2-faire-causatif | Faire causatif | Work and the economy | grammar | b1-double-object-pronouns | faire + infinitive, se faire + infinitive, laisser + infinitive; pronoun placement. Reuses: workplace, services. |
-| 32 | b2-participles-and-gerund | Present participle, gerund, verbal adjective | Work and the economy | grammar | b1-gerondif | participe présent vs gérondif vs adjectif verbal (fatiguant / fatigant). Reuses: business writing. |
-| 33 | b2-infinitif-passe | The past infinitive | Work and the economy | grammar | b1-time-connectors, a2-passe-compose-etre | après avoir / être + participle, sans avoir…, regretter d'avoir… Reuses: careers. |
-| 34 | b2-meetings-and-calls | Meetings and professional calls | Work and the economy | communication | b2-economy-and-business, a2-phone-calls-and-messages | Agendas, taking the floor, summarising decisions, conference calls. |
-| 35 | b2-negotiating | Negotiating | Work and the economy | communication | b2-meetings-and-calls, b2-nuancing-opinions, b2-concession-opposition | Proposals, counter-offers, conditions, compromise. |
-| 36 | b2-presenting-data | Presenting data and trends | Work and the economy | communication | b2-economy-and-business, a2-superlatives | Augmenter / baisser de…, percentages, fractions, describing a chart in words. |
-| 37 | b2-formal-report | Writing a report | Work and the economy | communication | b2-presenting-data, b2-passive-voice | Report structure, impersonal style, recommendations. |
-| 38 | b2-review-work | Review: Work and the economy | Work and the economy | review | b2-faire-causatif, b2-participles-and-gerund, b2-infinitif-passe, b2-negotiating, b2-formal-report | Write a short report with recommendations. |
+| 32 | b2-economy-and-business | The economy and business | Work and the economy | vocabulary | b1-careers-and-job-hunting, b1-money-and-banking | Growth, inflation, companies, markets, chiffre d'affaires, bénéfice. |
+| 33 | b2-faire-causatif | Faire causatif | Work and the economy | grammar | b1-double-object-pronouns, b2-alternatives-to-passive | faire + infinitive, se faire + infinitive, a short section on laisser + infinitive; pronoun placement. Reuses: workplace, services. |
+| 34 | b2-participles-and-gerund | Present participle, gerund, verbal adjective | Work and the economy | grammar | b1-gerondif | participe présent vs gérondif vs adjectif verbal (fatiguant / fatigant). Reuses: business writing. |
+| 35 | b2-infinitif-passe | The past infinitive | Work and the economy | grammar | b1-time-connectors, a2-passe-compose-etre | après avoir / être + participle, sans avoir…, regretter d'avoir… Reuses: careers. |
+| 36 | b2-meetings-and-calls | Meetings and professional calls | Work and the economy | communication | b2-economy-and-business, a2-phone-calls-and-messages | Agendas, taking the floor, summarising decisions, conference calls. |
+| 37 | b2-negotiating | Negotiating | Work and the economy | communication | b2-meetings-and-calls, b2-nuancing-opinions, b2-concession-opposition | Proposals, counter-offers, conditions, compromise. |
+| 38 | b2-presenting-data | Presenting data and trends | Work and the economy | communication | b2-economy-and-business, a2-superlatives, b2-nominalisation | Augmenter / baisser de…, percentages, fractions, describing a chart in words. |
+| 39 | b2-formal-report | Writing a report | Work and the economy | communication | b2-presenting-data, b2-passive-voice, b2-logical-connectors | Report structure, impersonal style, recommendations. |
+| 40 | b2-review-work | Review: Work and the economy | Work and the economy | review | b2-faire-causatif, b2-participles-and-gerund, b2-infinitif-passe, b2-negotiating, b2-formal-report | Write a short report with recommendations. |
 
 ### Unit 6: Science, health and environment
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 39 | b2-science-and-research | Science and research | Science, health and environment | vocabulary | b1-environment | Research, experiments, data, discoveries, climate science. |
-| 40 | b2-health-system | Health and the health system | Science, health and environment | vocabulary | a2-at-the-doctor | Sécurité sociale, la carte Vitale, specialists, prevention, public health debates. |
-| 41 | b2-nominalisation | Nominalisation | Science, health and environment | grammar | b2-science-and-research | Verb/adjective → noun (augmenter → l'augmentation); dense written style. Reuses: science, environment. |
-| 42 | b2-logical-connectors | Logical connectors | Science, health and environment | grammar | b2-concession-opposition | en effet, d'ailleurs, or, ainsi, en revanche, par conséquent, bref. Reuses: science, social issues. |
-| 43 | b2-certainty-and-probability | Certainty and probability | Science, health and environment | grammar | b2-subjunctive-conjunctions, b1-expressing-doubt-certainty | il est probable que (indicative) vs il est possible que (subjunctive); il se peut que, sans doute. Reuses: science, health. |
+| 41 | b2-science-and-research | Science and research | Science, health and environment | vocabulary | b1-environment | Research, experiments, data, discoveries, climate science. |
+| 42 | b2-health-system | Health and the health system | Science, health and environment | vocabulary | a2-at-the-doctor | Sécurité sociale, la carte Vitale, specialists, prevention, public health debates. |
+| 43 | b2-certainty-and-probability | Certainty and probability | Science, health and environment | grammar | b2-subjunctive-conjunctions, b1-expressing-doubt-certainty | il est probable que (indicative) vs il est possible que (subjunctive); il se peut que, sans doute; le fait que + subjunctive. Reuses: science, health. |
 | 44 | b2-argumentative-essay | Writing an argumentative essay | Science, health and environment | communication | b2-logical-connectors, b2-nominalisation | Thesis, antithesis, synthesis; paragraphing; introductions and conclusions. |
 | 45 | b2-review-science | Review: Science, health and environment | Science, health and environment | review | b2-health-system, b2-certainty-and-probability, b2-argumentative-essay | Argumentative essay on a science or health topic. |
 
@@ -397,8 +397,8 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 46 | b2-arts-and-literature | Arts and literature | Culture and the arts | vocabulary | b1-cinema-and-books | Painting, music, theatre, novels, poetry; describing style and themes. |
-| 47 | b2-culture-french-history | Key moments in French history | Culture and the arts | culture | b2-politics-and-society | The Revolution, Napoleon, the Republics, the World Wars, decolonisation, the EU. |
+| 46 | b2-arts-and-literature | Arts and literature | Culture and the arts | vocabulary | b1-cinema-and-books | Painting, theatre, poetry, movements; recognising the passé simple (3rd person). Reuses: books and films. |
+| 47 | b2-culture-french-history | Key moments in French history | Culture and the arts | culture | b2-politics-and-society, b2-arts-and-literature | Napoleon, the World Wars, decolonisation, European construction; the Revolution as a recap. |
 | 48 | b2-adjective-position-meaning | Adjectives that change meaning | Culture and the arts | grammar | a1-adjective-agreement | un ancien ami / un bâtiment ancien, propre, cher, grand, seul, même. Reuses: describing art and people. |
 | 49 | b2-tout | Tout, toute, tous, toutes | Culture and the arts | grammar | b1-indefinite-pronouns | Adjective, pronoun and adverb uses; pronunciation of tous. Reuses: arts, everyday life. |
 | 50 | b2-describing-a-work-of-art | Describing a work of art | Culture and the arts | communication | b2-arts-and-literature, b2-adjective-position-meaning | Describing, interpreting and judging a painting, song or text. |
@@ -410,11 +410,11 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
 | 53 | b2-registers | Registers of French | Registers and debate | communication | b1-formal-email | Familiar, standard and formal French; choosing vocabulary and structure for the situation. |
-| 54 | b2-colloquial-french | Spoken, everyday French | Registers and debate | vocabulary | b2-registers | Dropped ne, ça, on, fillers (bah, du coup, genre), common slang. |
+| 54 | b2-colloquial-french | Spoken, everyday French | Registers and debate | vocabulary | b2-registers | Dropped ne, ça, on, reductions, fillers (bah, du coup, genre). |
 | 55 | b2-culture-verlan-and-slang | Verlan and slang | Registers and debate | culture | b2-colloquial-french | How verlan works (meuf, relou, chelou), where it comes from, when not to use it. |
-| 56 | b2-false-friends | False friends | Registers and debate | vocabulary | b2-registers | actuellement, librairie, sensible, éventuellement, assister, rester… |
+| 56 | b2-false-friends | False friends | Registers and debate | vocabulary | b2-registers | sensible, éventuellement, assister, location, rude, supporter…; a recap table of the false friends taught earlier. |
 | 57 | b2-debating | Taking part in a debate | Registers and debate | communication | b2-argumentative-essay, b2-nuancing-opinions, b2-mise-en-relief | Taking and keeping the floor, interrupting politely, rebutting. |
-| 58 | b2-persuasion-and-hedging | Persuasion and hedging | Registers and debate | communication | b2-debating | Appeals, softening claims, conceding to win. |
+| 58 | b2-persuasion-and-hedging | Persuasion and hedging | Registers and debate | communication | b2-debating | Appeals, rhetorical questions, strategic concession; hedging as a recap. |
 | 59 | b2-review-final | B2 final review | Registers and debate | review | b2-review-nuance, b2-review-what-might-have-been, b2-review-news, b2-review-pronouns, b2-review-work, b2-review-science, b2-review-arts, b2-culture-verlan-and-slang, b2-false-friends, b2-persuasion-and-hedging | Whole-level recap; B2 can-do checklist. |
 
 ---

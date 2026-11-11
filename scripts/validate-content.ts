@@ -200,6 +200,46 @@ export function validateContent(lessonsDir: string, syllabusFile: string): Valid
   return { lessonCount: lessons.length, errors, warnings };
 }
 
+// Checks the planned order in a syllabus for the given levels (e.g. ["b2"]): orders run 1..N with
+// no gaps or repeats, units are contiguous, every prerequisite is planned and comes earlier, no more
+// than six prerequisites (final reviews excepted), and no cycles. Used by test:content to keep the
+// B2 order consistent after re-planning; validate:content itself doesn't run it.
+export function checkSyllabusOrder(syllabusFile: string, levels: string[]): string[] {
+  const errors: string[] = [];
+  type Row = { order: number; id: string; level: string; unit: string; pre: string[] };
+  const rows: Row[] = [];
+  for (const line of fs.readFileSync(syllabusFile, "utf8").split(/\r?\n/)) {
+    const m = line.match(/^\|\s*(\d+)\s*\|\s*([abc][12]-[a-z0-9-]+)\s*\|[^|]*\|\s*([^|]*?)\s*\|[^|]*\|\s*([^|]*?)\s*\|/);
+    if (!m) continue;
+    rows.push({ order: Number(m[1]), id: m[2], level: m[2].slice(0, 2), unit: m[3], pre: m[4].split(",").map((p) => p.trim()).filter((p) => /^[abc][12]-/.test(p)) });
+  }
+  const byId = new Map(rows.map((r) => [r.id, r]));
+  const rank = (lv: string) => ["a1", "a2", "b1", "b2", "c1", "c2"].indexOf(lv);
+  for (const level of levels) {
+    const lv = rows.filter((r) => r.level === level);
+    lv.forEach((r, i) => {
+      if (r.order !== i + 1) errors.push(`${r.id}: order ${r.order}, expected ${i + 1} (orders must run 1..N in table order)`);
+      if (i > 0 && lv[i - 1].unit !== r.unit && lv.slice(0, i - 1).some((x) => x.unit === r.unit)) errors.push(`${r.id}: unit "${r.unit}" is split by another unit`);
+      for (const p of r.pre) {
+        const pre = byId.get(p);
+        if (!pre) errors.push(`${r.id}: prerequisite ${p} isn't in the syllabus`);
+        else if (rank(pre.level) > rank(r.level) || (pre.level === r.level && pre.order >= r.order)) errors.push(`${r.id}: prerequisite ${p} comes later`);
+      }
+      if (r.pre.length > 6 && !r.id.endsWith("review-final")) errors.push(`${r.id}: ${r.pre.length} prerequisites (max 6)`);
+    });
+    const state = new Map<string, "visiting" | "done">();
+    const visit = (id: string, trail: string[]) => {
+      if (state.get(id) === "done") return;
+      if (state.get(id) === "visiting") { errors.push(`prerequisite cycle: ${[...trail, id].join(" -> ")}`); return; }
+      state.set(id, "visiting");
+      for (const p of byId.get(id)?.pre ?? []) if (byId.get(p)?.level === level) visit(p, [...trail, id]);
+      state.set(id, "done");
+    };
+    for (const r of lv) visit(r.id, []);
+  }
+  return errors;
+}
+
 // CLI (skipped when another script imports this file).
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const lessonsDir = path.resolve(process.argv[2] ?? CONTENT_DIR);

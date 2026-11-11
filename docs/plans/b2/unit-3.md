@@ -1,0 +1,607 @@
+# B2 Unit 3 plan: News and reporting
+
+Status: revised after the first plan review (docs/b2-plan-review.md: decisions applied). No lesson files written yet. Rules and size limits: CLAUDE.md, "B2 conventions"; see the note at the top of unit-1.md. Lesson numbers follow docs/syllabus.md.
+b2-nominalisation sits here, just before b2-summarizing-an-article, so the summary, data and report lessons can all use nominal style.
+
+---
+
+## 16. b2-politics-and-society: Politics and institutions
+
+- **Type:** vocabulary · **Order:** 16
+- **Goal:** follow political news: government, parliament, parties, reforms, protest and polls.
+- **Prior coverage:**
+  - b1-culture-french-republic taught *la République*, *l'État*, *une loi*, *une élection*, *voter*, *un électeur*, *un tour*, *un citoyen*, *le maire*, *le conseil municipal*.
+  - b1-passive-voice-intro taught *le président / la présidente* and *être élu*.
+  - b1-conditionnel-present taught *un / une ministre*.
+  - b2-social-issues taught *une manifestation* and *manifester*.
+  - **Adds:**
+    - the national institutions (*l'Assemblée nationale*, *le Sénat*, *le gouvernement*, *le Premier ministre*)
+    - parties and the left/right axis
+    - law-making, reform, polls, abstention and resignation
+  - Don't repeat the B1 words: recap them in 2 or 3 sentences with LessonLinks.
+- **Structures taught:** none.
+- **Structures used:**
+  - passive (b1-passive-voice-intro)
+  - reported speech in the present (b1-reported-speech-present)
+- **New vocab (22):**
+  - *le gouvernement* (the government)
+  - *le Premier ministre* (the Prime Minister)
+  - *l'Assemblée nationale* (the National Assembly)
+  - *le Sénat* (the Senate)
+  - *un député / une députée* (an MP)
+  - *un parti politique* (a political party)
+  - *la gauche* (the left). **New meaning:** a1-asking-directions taught *à gauche*; list it in NEW_MEANINGS if the `fr` text matches.
+  - *la droite* (the right; same note)
+  - *un projet de loi* (a bill)
+  - *adopter une loi* (to pass a law)
+  - *une réforme* (a reform)
+  - *réformer* (to reform)
+  - *un sondage* (a poll)
+  - *une campagne électorale* (an election campaign)
+  - *un candidat / une candidate*: recap of b1-careers-and-job-hunting, not an entry
+  - *élire* (to elect; B1 taught only *être élu*, as a passive phrase)
+  - *l'abstention* (abstention, not voting)
+  - *le pouvoir* (power)
+  - *au pouvoir* (in power)
+  - *démissionner*: recap of b1-careers-and-job-hunting, not an entry
+  - *la démission* (resignation)
+  - *une majorité absolue* (an absolute majority)
+  - *un mandat* (a term of office)
+  - *un débat télévisé* (a TV debate)
+- **Cognates for the allowlist:** l'opposition, une coalition, un scandale, politique, électoral.
+- **Dialogue (11 lines):** two flatmates watch the evening news during a campaign (*tu*).
+- **Longer text:** none (vocabulary).
+- **En résumé (60 to 100 words):**
+  - who makes laws (the government proposes; Parliament votes)
+  - elections and polls
+  - power and resignation
+- **Exercises (15):**
+  - ex1 to ex5 fill-in: *député*, *projet de loi*, *sondage*, *mandat*, *démissionner*
+  - ex6 to ex8 MC: Assemblée versus Sénat, left versus right, abstention
+  - ex9 MC: odd one out
+  - ex10 reformulation: passive → active with *élire*
+  - ex11 error-correction: *voter une loi* used for the public, which should be *adopter* or *voter* for Parliament
+  - ex12 translate: "The bill was passed by the National Assembly."
+  - ex13 translate: "According to a poll, abstention is rising."
+  - ex14 write-out: 3 sentences of election news
+  - ex15 reorder
+- **Prerequisites:** b1-culture-french-republic, b1-media-and-news.
+- **LessonLinks:** b1-culture-french-republic, b1-passive-voice-intro, b2-social-issues, b2-reported-speech-past (next).
+- **review-needed.md:**
+  - "Parliament has two chambers, the Assemblée nationale and the Sénat"
+  - "the government proposes most laws"
+  - "*voter une loi* is said of Parliament"
+  - Give no figures (terms of office, numbers of MPs).
+- **Size:** teaching about 900; whole about 1,400; vocab 22; 15 exercises.
+
+## 17. b2-reported-speech-past: Reported speech in the past
+
+- **Type:** grammar · **Order:** 17
+- **Goal:** report what someone said, with the sequence of tenses.
+- **Prior coverage:**
+  - b1-reported-speech-present taught *dire que*, *demander si* and *ce que / ce qui*, with a present reporting verb, plus the pronoun changes.
+  - **Adds:**
+    - the concordance des temps after a past reporting verb:
+      - present → imparfait
+      - passé composé → plus-que-parfait
+      - futur → conditionnel (the "future in the past")
+      - futur antérieur → conditionnel passé
+    - the tenses that don't change (imparfait, plus-que-parfait, conditionnel)
+  - The time-word shifts (*la veille*, *le lendemain*) move to b2-reporting-verbs (decision 8).
+- **Structures taught:** concordance des temps. This fills the concordance gap (decision 14).
+- **Structures used:**
+  - plus-que-parfait (b1-plus-que-parfait)
+  - conditionnel (b1-conditionnel-present)
+  - conditionnel passé (b2-conditionnel-passe)
+  - futur antérieur (b2-futur-anterieur)
+- **New vocab (12):**
+  - *la concordance des temps* (the sequence of tenses)
+  - *un entretien* (an interview, for the media). **New meaning:** b1-cover-letter taught a job interview. It's in NEW_MEANINGS.
+  - *une promesse* (a promise)
+  - *promettre que* (to promise that)
+  - *assurer que* (to assure that)
+  - *tenir sa promesse* (to keep your promise)
+  - *tenir parole* (to keep your word)
+  - *s'engager à* (to commit to)
+  - *un discours* (a speech)
+  - *prononcer un discours* (to give a speech)
+  - *une conférence de presse* (a press conference)
+  - *revenir sur* (to go back on)
+  - *une déclaration* (B1 recap, not an entry)
+  - *un porte-parole* (B1 recap, not an entry)
+- **Cognates for the allowlist:** none.
+- **Dialogue (11 lines):** two journalists compare what a mayor promised in a speech with what happened (*tu*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - the four tense changes after a past reporting verb
+  - the tenses that stay
+  - spoken French often keeps the present for things still true
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: one tense shift each
+  - ex5 MC: which tense doesn't change
+  - ex6 MC: present kept for a fact still true (*il a dit qu'il habite à Lyon*)
+  - ex7 connector-choice: *viendrait* / *viendra* after *il a dit que*
+  - ex8 reformulation: direct → reported, in the past
+  - ex9 reformulation: reported present → reported past
+  - ex10 error-correction: *il a dit qu'il viendra* (the written standard is *viendrait*)
+  - ex11 fill-in: *tenir sa promesse*
+  - ex12 translate: "She said she would come."
+  - ex13 translate: "He explained that he had lost his keys."
+  - ex14 write-out: report a 3-line quote from a speech
+  - ex15 reorder
+- **Prerequisites:** b1-reported-speech-present, b1-plus-que-parfait, b1-conditionnel-present, b2-futur-anterieur (4).
+- **LessonLinks:** b1-reported-speech-present, b2-conditionnel-passe, b2-futur-anterieur, b2-reported-questions-orders (next).
+- **review-needed.md:**
+  - "spoken French often keeps the present when it's still true"
+  - the list of tenses that don't change
+- **Size:** teaching about 1,050 (the time words moved out); whole about 1,550; vocab 12; 15 exercises.
+## 18. b2-reported-questions-orders: Reported questions and orders
+
+- **Type:** grammar · **Order:** 18
+- **Goal:** report questions and orders in the past (*il m'a demandé si…*, *elle m'a dit de…*).
+- **Prior coverage:**
+  - b1-reported-speech-present taught questions with a present verb (*si*, *ce que*, *ce qui*, *où*).
+  - b1-giving-advice taught *je te conseille de*.
+  - b2-reported-speech-past taught the sequence of tenses.
+  - **Adds:**
+    - questions after a past reporting verb, with the tense shifts
+    - orders with *dire de* and *demander à quelqu'un de* + infinitive
+    - the negative infinitive in orders (*il m'a dit de ne pas venir*)
+    - *vouloir savoir* in the past
+    - verbs of ordering (*ordonner de*, *exiger que*; B1 52 taught *exiger*)
+- **Structures taught:** reported questions in the past; reported orders with *de* + infinitive.
+- **Structures used:**
+  - the concordance des temps (b2-reported-speech-past)
+  - the negative infinitive (b1-giving-advice)
+- **New vocab (15):**
+  - *demander à quelqu'un de* (to ask someone to)
+  - *ordonner à quelqu'un de* (to order someone to)
+  - *interdire à quelqu'un de* (to forbid someone to)
+  - *permettre à quelqu'un de* (to allow someone to)
+  - *supplier* (to beg)
+  - *se demander* (B1 recap, not an entry)
+  - *une consigne* (B1 recap, not an entry)
+  - *un journaliste* (cognate; allowlist)
+  - *interroger* (to question)
+  - *une question piège* (a trick question)
+  - *éviter de répondre* (to avoid answering)
+  - *esquiver* (to dodge)
+  - *insister pour que* (to insist that, + subjunctive)
+  - *exiger de* (to demand of; B1 taught *exiger*, so this is a recap with a new construction)
+  - *une enquête* (B1 recap, not an entry)
+  - *un témoin* (B1 recap, not an entry)
+  - *une audition* (a hearing). **False friend:** not an audition for a play.
+  - *la police judiciaire* (the criminal police)
+  - *un suspect* (cognate; allowlist)
+- **Cognates for the allowlist:** un journaliste, un suspect, un interrogatoire.
+- **Dialogue (12 lines):** an intern reports a press interview to an editor (*vous*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - *si*, *ce que* and *ce qui* after a past verb
+  - orders with *de* + infinitive
+  - pronouns change with the speaker
+- **Exercises (15):**
+  - ex1 to ex3 fill-in: *si* / *ce que* / *ce qui*
+  - ex4 fill-in: *de* + infinitive
+  - ex5 MC: the tense after *a demandé si*
+  - ex6 MC: *audition* (false friend)
+  - ex7 connector-choice: *si* / *ce que* / *de*
+  - ex8 reformulation: *Viens !* → *Il m'a dit de venir*
+  - ex9 reformulation: a question → reported, in the past
+  - ex10 error-correction: *il m'a demandé est-ce que*
+  - ex11 fill-in: *ne pas* + infinitive
+  - ex12 translate: "She asked me what I wanted."
+  - ex13 translate: "He told us not to wait."
+  - ex14 write-out: report a 4-line interview exchange
+  - ex15 reorder
+- **Prerequisites:** b2-reported-speech-past.
+- **LessonLinks:** b1-reported-speech-present, b1-giving-advice, b2-reported-speech-past, b2-reporting-verbs.
+- **review-needed.md:** "*insister pour que* takes the subjunctive"
+- **Size:** teaching about 1,050; whole about 1,600; vocab 15; 15 exercises.
+
+## 19. b2-reporting-verbs: Reporting verbs
+
+- **Type:** vocabulary · **Order:** 19
+- **Goal:** choose the reporting verb that matches the speaker's attitude (claim, deny, admit, stress), and shift time words when you report.
+- **Prior coverage:**
+  - b1-reported-speech-present taught *dire que*, *répondre que*, *expliquer que* and *préciser*.
+  - b2-nuancing-opinions taught *reconnaître que* (recap; not repeated).
+  - **Adds:**
+    - neutral, assertive, doubtful and conceding reporting verbs, and the mood after them (*nier que* + subjunctive)
+    - the time-word shifts when reporting (*hier* → *la veille*, *demain* → *le lendemain*), moved here from b2-reported-speech-past (decision 8)
+- **Structures taught:** the mood after reporting verbs (indicative; subjunctive after *nier que* and *douter que*).
+- **Structures used:** the concordance des temps (b2-reported-speech-past).
+- **New vocab (25):**
+  - *affirmer* (to state, to assert)
+  - *prétendre* (to claim). **False friend:** not "pretend"; b2-false-friends recaps it.
+  - *nier* (to deny)
+  - *démentir* (to deny officially)
+  - *admettre* (to admit)
+  - *avouer* (to confess)
+  - *souligner* (to stress)
+  - *annoncer* (to announce)
+  - *déclarer* (to declare)
+  - *ajouter*: recap of b1-food-and-cooking, not an entry
+  - *confirmer*: recap of a2-booking-a-hotel, not an entry
+  - *estimer que* (to consider that)
+  - *rappeler que* (to point out, to remind)
+  - *insister sur* (to insist on)
+  - *dénoncer* (to denounce)
+  - *critiquer* (to criticize)
+  - *s'interroger sur* (to wonder about)
+  - *mettre en garde contre* (to warn against)
+  - *selon* (B1 recap, not an entry)
+  - *d'après* (B1 recap, not an entry)
+  - *citer* (to quote)
+  - *une citation* (a quotation)
+  - *la veille* (the day before)
+  - *la veille au soir* (the evening before)
+  - *le lendemain* (the next day)
+  - *à ce moment-là* (at that moment)
+  - *la semaine précédente* (the week before)
+  - *la semaine suivante* (the week after)
+  - *l'année suivante* (the following year)
+  - *ce jour-là*: recap of a2-telling-a-story, not an entry
+- **Cognates for the allowlist:** none.
+- **Dialogue (10 lines):** two students compare how two papers reported the same speech (*tu*).
+- **Longer text:** none (vocabulary).
+- **En résumé (60 to 100 words):**
+  - neutral verbs against verbs that show the reporter's attitude
+  - *prétendre* signals doubt
+  - *nier* and *démentir*
+  - the time words that shift (*la veille*, *le lendemain*)
+- **Exercises (15):**
+  - ex1 to ex5 fill-in: the right verb
+  - ex6 and ex7 MC: *prétendre* (false friend), *démentir* versus *nier*
+  - ex8 connector-choice: *la veille* / *hier* in a reported sentence
+  - ex9 reformulation: *Il a dit que…* → a precise verb
+  - ex10 register-shift: neutral → assertive
+  - ex11 error-correction: *nier que* + indicative
+  - ex12 translate: "The minister denied the information."
+  - ex13 translate: "She stressed that nothing had been decided."
+  - ex14 write-out: one quote reported three ways (neutral, doubtful, critical)
+  - ex15 reorder
+- **Prerequisites:** b2-reported-speech-past.
+- **LessonLinks:** b1-reported-speech-present, b2-nuancing-opinions, b2-false-friends (forward), b2-passive-voice (next).
+- **review-needed.md:**
+  - "*nier que* takes the subjunctive"
+  - "*prétendre* signals doubt about the claim"
+- **Size:** teaching about 1,000; whole about 1,500; vocab 25; 15 exercises.
+
+## 20. b2-passive-voice: The passive voice in all tenses
+
+- **Type:** grammar · **Order:** 20
+- **Goal:** use the passive in every tense, and choose between *par* and *de*.
+- **Prior coverage:**
+  - b1-passive-voice-intro taught the present and passé composé, *par*, agreement, and *on* as a preview.
+  - **Adds:**
+    - the imparfait, futur, conditionnel, plus-que-parfait, futur antérieur, subjunctive and infinitive passives (*doit être fait*)
+    - *de* for states and feelings (*aimé de tous*, *couvert de neige*, *entouré de*)
+  - "When French avoids the passive" moves wholly to b2-alternatives-to-passive (decision 7).
+- **Structures taught:** passive in all tenses; *par* versus *de*.
+- **Structures used:**
+  - futur antérieur (b2-futur-anterieur)
+  - subjonctif passé (b2-subjonctif-passe)
+  - conditionnel passé (b2-conditionnel-passe)
+- **New vocab (15):**
+  - *rebâtir* (to rebuild)
+  - *entouré / entourée de* (surrounded by)
+  - *couvert / couverte de* (covered with)
+  - *respecté / respectée de* (respected by)
+  - *accompagné / accompagnée de* (accompanied by)
+  - *être suivi de* (to be followed by)
+  - *inaugurer* (to open officially)
+  - *un chantier* (a building site)
+  - *rénover* (to renovate)
+  - *une rénovation* (a renovation)
+  - *achever* (to complete). **False friend:** not "achieve"; b2-false-friends recaps it.
+  - *reporter*: recap of b1-si-present-futur, not an entry
+  - *annuler* (A2 recap, not an entry)
+  - *un monument* (cognate; allowlist)
+  - *classé / classée* (listed, as a protected building)
+  - *le patrimoine* (heritage)
+  - *restaurer* (to restore)
+- **Cognates for the allowlist:** un monument, la restauration (new meaning: B1 has *restaurant*, a different word).
+- **Dialogue (10 lines):** a guide and tourists in front of a monument under renovation (*vous*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - *être* carries the tense
+  - the participle agrees
+  - *par* for an action, *de* for a state or a feeling
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: the passive in four tenses
+  - ex5 MC: *par* or *de*
+  - ex6 MC: agreement
+  - ex7 connector-choice: *par* / *de*
+  - ex8 reformulation: active → passive (futur)
+  - ex9 reformulation: active → passive (plus-que-parfait)
+  - ex10 error-correction: *aimé par tous*. *De* is preferred; it's not strictly wrong, so check the wording.
+  - ex11 fill-in: *doit être* + participle
+  - ex12 translate: "The bridge will have been rebuilt by June."
+  - ex13 translate: "The castle was surrounded by trees."
+  - ex14 write-out: a 3-sentence news item in the passive
+  - ex15 reorder
+- **Prerequisites:** b1-passive-voice-intro, b2-futur-anterieur.
+- **LessonLinks:** b1-passive-voice-intro, b2-futur-anterieur, b2-alternatives-to-passive.
+- **review-needed.md:**
+  - "*de* is used with verbs of feeling and state"
+  - "*aimé par* is possible but less natural"
+- **Size:** teaching about 1,100; whole about 1,600; vocab 15; 15 exercises.
+
+## 21. b2-alternatives-to-passive: Alternatives to the passive
+
+- **Type:** grammar · **Order:** 21
+- **Goal:** say what's done without the passive: *on*, the pronominal passive and *se voir* + infinitive.
+- **Prior coverage:**
+  - b1-passive-voice-intro previewed *on*.
+  - **Adds:**
+    - when French prefers *on*
+    - the pronominal passive (*ça se dit*, *ce plat se mange froid*, *ça ne se fait pas*)
+    - *se voir* + infinitive (*il s'est vu refuser*)
+    - the impersonal *il est* + participle *que* (*il est prévu que*)
+    - *à* + infinitive with a passive sense (*une maison à vendre*, *un livre à lire*, *facile à faire*), decision 14
+  - *Se faire* + infinitive is left to b2-faire-causatif.
+- **Structures taught:** pronominal passive; *se voir* + infinitive; impersonal passive phrases; *à* + infinitive.
+- **Structures used:** passive in all tenses (b2-passive-voice).
+- **New vocab (18):**
+  - *ça se dit* (people say that)
+  - *ça ne se fait pas* (it isn't done)
+  - *se vendre* (to sell, intransitive)
+  - *se manger* (to be eaten)
+  - *se boire* (to be drunk)
+  - *se voir refuser* (to be refused)
+  - *se voir offrir* (to be offered)
+  - *il est prévu que* (it's planned that)
+  - *il est interdit de* (it's forbidden to)
+  - *il est conseillé de* (it's advisable to)
+  - *une coutume* (a custom)
+  - *un usage* (a usage, a convention)
+  - *un plat* (A2 recap, not an entry)
+  - *se porter* (to be worn)
+  - *se prononcer* (to be pronounced)
+  - *s'écrire* (to be spelled)
+  - *à vendre* (for sale)
+  - *facile / difficile à faire* (easy / hard to do)
+  - *se conjuguer* (to be conjugated)
+- **Cognates for the allowlist:** none.
+- **Dialogue (10 lines):** a French host explains table customs to a visitor (*vous*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - *on* in speech
+  - the pronominal passive for customs and general truths
+  - *se voir* for what happens to someone
+- **Exercises (15):**
+  - ex1 to ex3 fill-in: the pronominal passive
+  - ex4 fill-in: *se voir* + infinitive
+  - ex5 MC: passive or pronominal
+  - ex6 MC: *ça ne se fait pas*
+  - ex7 register-shift: passive (written) → *on* (spoken)
+  - ex8 reformulation: the passive → the pronominal passive
+  - ex9 reformulation: *On lui a refusé* → *Il s'est vu refuser*
+  - ex10 error-correction: *ça se dit pas* in an answer before b2-registers (dropped *ne*, not allowed)
+  - ex11 fill-in: *à* + infinitive (*une maison ___ vendre*)
+  - ex12 translate: "This wine is drunk cold."
+  - ex13 translate: "She was refused entry."
+  - ex14 write-out: 3 customs, with the pronominal passive
+  - ex15 reorder
+- **Prerequisites:** b2-passive-voice.
+- **LessonLinks:** b1-passive-voice-intro, b2-passive-voice, b2-faire-causatif (forward), b2-nominalisation (next).
+- **review-needed.md:** "*se voir* + infinitive is formal"
+- **Size:** teaching about 1,100 (with the *à* + infinitive section; under the grammar limit of 1,200); whole about 1,600; vocab 18; 15 exercises.
+
+## 22. b2-nominalisation: Nominalisation
+
+- **Type:** grammar · **Order:** 22
+- **Goal:** turn verbs and adjectives into nouns for the dense style of news writing and headlines.
+- **Prior coverage:**
+  - b1-media-and-news taught headline style (*Le musée fermé dimanche*).
+  - b2-politics-and-society taught the nouns *une réforme*, *la démission* and *l'abstention* as vocabulary. They're recapped as examples of the pattern, not re-entered.
+  - b2-reporting-verbs taught verbs (*annoncer*, *affirmer*). This lesson doesn't teach their nouns as new entries, so the two lessons don't overlap.
+  - **Adds:**
+    - the suffixes: verb → noun (*-tion*, *-ment*, *-age*, *-ure*, *-ée*), and nouns identical to the participle (*une arrivée*)
+    - adjective → noun (*-ité*, *-esse*, *-eur*, *-ance*)
+    - noun gender by suffix
+    - restructuring a sentence (*Les prix ont augmenté* → *la hausse des prix*)
+    - *de* chains
+    - when nominal style is right (headlines, articles, reports) and when it sounds heavy
+- **Structures taught:** nominalisation; restructuring with *de*.
+- **Structures used:**
+  - passive (b2-passive-voice)
+  - headline style (b1-media-and-news)
+- **New vocab (19; news and politics context):**
+  - *la hausse* (the rise)
+  - *la baisse* (the fall)
+  - *l'augmentation* (the increase)
+  - *la diminution* (the decrease)
+  - *la fermeture* (the closure)
+  - *l'ouverture* (the opening)
+  - *le lancement* (the launch)
+  - *la suppression* (the abolition, the cutting)
+  - *le maintien* (the keeping, maintaining)
+  - *le recul* (a fall, a retreat). **New meaning:** b2-review-what-might-have-been taught *avec le recul*.
+  - *la mise en place* (the setting up)
+  - *la prise de conscience* (awareness)
+  - *le départ* (the departure; a resignation, in politics)
+  - *la gratuité* (being free of charge)
+  - *la lenteur* (slowness)
+  - *la faiblesse* (weakness)
+  - *la fiabilité* (reliability; from *fiable*, B1)
+  - *un style nominal* (a nominal style)
+  - *l'arrivée* (A2 recap, not an entry)
+  - *la réforme*, *la démission* (b2-politics-and-society recaps, not entries)
+- **Cognates for the allowlist:** le développement, la création, l'importance, la sécurité.
+- **Dialogue (10 lines):** an editor turns a reporter's sentences into headlines (*tu*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words; Unit 3):**
+  - the suffixes and their genders
+  - the restructuring with *de*
+  - nominal style in writing, verbs in speech
+- **Exercises (15):**
+  - ex1 to ex5 fill-in: the noun of a given verb or adjective (*fermer*, *lancer*, *supprimer*, *gratuit*, *faible*)
+  - ex6 MC: gender by suffix
+  - ex7 MC: which sentence is nominal
+  - ex8 reformulation: a news sentence → a noun phrase (*Le gouvernement a supprimé la taxe* → *la suppression de la taxe*)
+  - ex9 reformulation: a sentence → a headline
+  - ex10 error-correction: *la augmentation* / the wrong suffix
+  - ex11 register-shift: nominal (written) → verbal (spoken)
+  - ex12 translate: "The closure of the station surprised the residents."
+  - ex13 translate: "The rise in prices worries voters."
+  - ex14 write-out: three headlines from three sentences
+  - ex15 reorder
+- **Prerequisites:** b2-politics-and-society.
+- **LessonLinks:** b1-media-and-news, b2-politics-and-society, b2-reporting-verbs, b2-summarizing-an-article (next).
+- **review-needed.md:**
+  - the genders by suffix (*-age* is masculine, except *la page*, *la plage*, *une image*)
+  - "nominal style is typical of written French"
+  - "*la gratuité* is used for free public services"
+- **Size:** teaching about 1,150 (the suffix tables are long); whole about 1,650; vocab 19; 15 exercises.
+## 23. b2-summarizing-an-article: Summarising an article
+
+- **Type:** communication · **Order:** 23
+- **Goal:** pick out an article's main points and summarise them neutrally, crediting the source.
+- **Prior coverage:**
+  - b1-media-and-news taught press vocabulary.
+  - b1-reported-speech-present and b2-reporting-verbs taught reporting.
+  - b1-presenting-an-argument taught *en résumé*.
+  - **Adds:**
+    - a summary's structure (source, main idea, key points, the author's view)
+    - neutral rephrasing
+    - summary phrases (*l'article porte sur*, *l'auteur souligne que*, *il ressort que*, *en somme*)
+    - nominal style in summaries (b2-nominalisation, just before)
+- **Structures taught:** none new (it applies Unit 3).
+- **Structures used:**
+  - reporting verbs (b2-reporting-verbs)
+  - the passive and its alternatives (b2-passive-voice, b2-alternatives-to-passive)
+  - nominalisation (b2-nominalisation)
+- **New vocab (15):**
+  - *porter sur* (to be about)
+  - *traiter de* (to deal with)
+  - *l'idée principale* (the main idea)
+  - *dégager* (to bring out, to identify: *dégager l'idée principale*)
+  - *un point clé* (a key point)
+  - *il ressort que* (it emerges that)
+  - *en somme*: recap of b2-logical-connectors, not an entry
+  - *résumer* (to summarize)
+  - *un résumé* (a summary). **False friend:** not a CV.
+  - *reformuler* (to rephrase; also an instruction word)
+  - *objectif / objective* (objective)
+  - *neutre* (neutral)
+  - *une source* (B1 recap, not an entry)
+  - *mentionner* (to mention)
+  - *passer sous silence* (to leave out)
+  - *un chapeau* (an article's standfirst). **New meaning:** a hat.
+  - *la hausse*: recap of b2-nominalisation, not an entry
+  - *la baisse*: recap of b2-nominalisation, not an entry
+  - *le lecteur / la lectrice* (the reader)
+- **Cognates for the allowlist:** un article, une interprétation.
+- **Dialogue (10 lines):** two students prepare a press-review presentation (*tu*).
+- **Longer text:** an original news article (*La hausse des loyers étudiants*), then a model summary. Untaught structures: none (nominal style is taught in b2-nominalisation).
+- **En résumé:** none (communication).
+- **Exercises (15):**
+  - ex1 MC: the main idea of a short paragraph quoted in the prompt
+  - ex2 MC: which summary is neutral
+  - ex3 fill-in: *porter sur*
+  - ex4 fill-in: *il ressort que*
+  - ex5 connector-choice: *en somme* / *pourtant*
+  - ex6 reformulation: a quote → neutral reported speech
+  - ex7 reformulation: a long sentence → a short summary sentence
+  - ex8 register-shift: a journalist's style → a neutral summary
+  - ex9 error-correction: an opinion slipped into a summary
+  - ex10 MC: *résumé* (false friend)
+  - ex11 fill-in: a nominal phrase (*la hausse des loyers*)
+  - ex12 translate: "The article is about rising rents."
+  - ex13 write-out: a 4-sentence summary of a quoted paragraph
+  - ex14 write-out: the author's view in 2 sentences
+  - ex15 reorder
+- **Prerequisites:** b2-reporting-verbs, b2-alternatives-to-passive, b2-nominalisation.
+- **LessonLinks:** b1-media-and-news, b1-presenting-an-argument, b2-reporting-verbs, b2-culture-french-press.
+- **review-needed.md:**
+  - "*un chapeau* is the standfirst of an article"
+  - "*il ressort que* takes the indicative"
+- **Size:** teaching about 950; whole about 1,650 (an article of 150 to 250 words plus a summary); vocab 15; 15 exercises.
+
+## 24. b2-culture-french-press: The French press
+
+- **Type:** culture · **Order:** 24
+- **Goal:** know the main national, regional and satirical papers and the public broadcasters, and their general leanings.
+- **Prior coverage:**
+  - b1-media-and-news taught *un quotidien*, *un hebdomadaire*, *la presse*, *les infos*, *le JT*, *à la une*, *fiable*, *une source* and *une fausse information*.
+  - **Adds:**
+    - named titles: *Le Monde*, *Le Figaro*, *Libération*, *Ouest-France*, *Le Canard enchaîné*
+    - the AFP
+    - public broadcasting (France Télévisions, Radio France)
+    - left/right leanings, stated cautiously
+    - press freedom as a value (no rankings or figures)
+- **Structures taught:** none.
+- **Structures used:** passive (b2-passive-voice); reporting verbs (b2-reporting-verbs).
+- **New vocab (15):**
+  - *un journal gratuit* (a free paper)
+  - *un journal national* (a national paper)
+  - *la presse régionale* (the regional press)
+  - *la presse satirique* (the satirical press)
+  - *un éditorial*: recap of b1-media-and-news, not an entry
+  - *un éditorialiste* (a leader writer)
+  - *une agence de presse* (a news agency)
+  - *l'audiovisuel public* (public broadcasting)
+  - *une rédaction* (an editorial team, a newsroom)
+  - *un rédacteur en chef* (an editor-in-chief)
+  - *la liberté de la presse* (press freedom)
+  - *une ligne éditoriale* (an editorial line)
+  - *engagé / engagée* (committed, politically engaged)
+  - *un abonnement*: recap of b1-demonstrative-pronouns, not an entry
+  - *en kiosque* (on the newsstands)
+  - *la caricature* (cartoons, caricature)
+  - *un dessin de presse* (a press cartoon)
+- **Cognates for the allowlist:** satirique, politique.
+- **Dialogue (10 lines):** an exchange student asks a French friend which paper to read (*tu*).
+- **Longer text:** an original magazine-style feature, *Un jour dans une rédaction*. It invents no real people or quotes.
+- **En résumé:** none (culture).
+- **Exercises (14):**
+  - ex1 to ex5 MC: facts (which paper is regional, satirical, an agency…)
+  - ex6 to ex8 fill-in: *rédaction*, *éditorial*, *abonnement*
+  - ex9 reformulation: the passive in a fact sentence
+  - ex10 error-correction
+  - ex11 translate
+  - ex12 translate
+  - ex13 write-out: describe a newspaper in 3 sentences
+  - ex14 reorder
+- **Prerequisites:** b2-politics-and-society.
+- **LessonLinks:** b1-media-and-news, b2-politics-and-society, b2-summarizing-an-article.
+- **review-needed.md:**
+  - the description of each title (leaning, frequency), especially "*Le Canard enchaîné* comes out on Wednesdays" and "*Ouest-France* is the best-selling daily"
+  - No circulation figures.
+  - Keep the subject of satirical attacks out of the lesson (sensitive; decision 16).
+- **Size:** teaching about 950; whole about 1,550; vocab 15; 14 exercises.
+
+## 25. b2-review-news: Review: News and reporting
+
+- **Type:** review · **Order:** 25
+- **Goal:** report an interview and summarise an article.
+- **Prior coverage:** the unit's lessons. **Adds:** a task and 5 words.
+- **Structures used:**
+  - reported speech in the past, questions and orders (b2-reported-speech-past, b2-reported-questions-orders)
+  - reporting verbs (b2-reporting-verbs)
+  - the passive and its alternatives (b2-passive-voice, b2-alternatives-to-passive)
+- **New vocab (5):**
+  - *un communiqué* (a press release)
+  - *un extrait* (an extract)
+  - *une interview exclusive* (an exclusive interview)
+  - *la version officielle* (the official version)
+  - *recouper une information* (to cross-check)
+- **Model texts:**
+  - a short interview with an invented local mayor, then its report in the past
+  - a 4-sentence summary of a communiqué
+- **En résumé:** none (review).
+- **Exercises (16):**
+  - ex1 to ex4 fill-in: tense shifts
+  - ex5 and ex6 connector-choice
+  - ex7 MC: reporting verbs
+  - ex8 and ex9 reformulation: direct → reported
+  - ex10 error-correction
+  - ex11 register-shift
+  - ex12 MC: the new words
+  - ex13 translate
+  - ex14 and ex15 write-out: the interview report; the summary
+  - ex16 reorder
+- **Prerequisites:** b2-reported-questions-orders, b2-summarizing-an-article, b2-culture-french-press (3).
+- **Size:** teaching about 850; whole about 1,550; 5 words; 16 exercises.

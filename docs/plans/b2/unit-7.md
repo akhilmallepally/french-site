@@ -1,0 +1,402 @@
+# B2 Unit 7 plan: Culture and the arts
+
+Status: revised after the first plan review (docs/b2-plan-review.md: decisions applied). No lesson files written yet. Rules and size limits: CLAUDE.md, "B2 conventions"; see the note at the top of unit-1.md. Lesson numbers follow docs/syllabus.md.
+The passé simple can be recognized from b2-arts-and-literature on: in literary and historical texts and in recognition exercises, never in an answer the learner types.
+
+---
+
+## 46. b2-arts-and-literature: Arts and literature
+
+- **Type:** vocabulary · **Order:** 46
+- **Goal:** talk about painting, theatre, poetry and literary movements, and recognize the passé simple in literary texts.
+- **Prior coverage:**
+  - b1-cinema-and-books taught *un roman*, *un roman policier*, *un auteur / une autrice*, *un polar* and book and film vocabulary.
+  - b1-reviewing-a-film-or-book taught reviewing.
+  - b1-culture-french-cinema taught film history.
+  - **Adds:**
+    - painting, theatre and poetry vocabulary
+    - movements (romanticism, impressionism, surrealism)
+    - a recognition section on the passé simple: 3rd person singular and plural only (*-a / -èrent*, *-it / -irent*, *-ut / -urent*), plus *fut*, *eut*, *fit*, *vint* and *prit*
+  - Book and film words aren't repeated.
+- **Structures taught:** passé simple (recognition only, 3rd person).
+- **Structures used:** passive (b2-passive-voice); relative *lequel* (b2-relative-lequel).
+- **New vocab (24):**
+  - *un tableau* (a painting). **New meaning:** b2-presenting-data's table.
+  - *un peintre* (a painter)
+  - *une toile* (a canvas, a painting)
+  - *une œuvre* (a work)
+  - *un chef-d'œuvre* (a masterpiece)
+  - *une exposition* (an exhibition)
+  - *un musée* (A1 recap, not an entry)
+  - *une pièce de théâtre* (a play). **New meaning** of *une pièce* (a room in A2, a coin in B1); the `fr` text differs, so no NEW_MEANINGS entry is needed.
+  - *la mise en scène* (the staging)
+  - *un metteur en scène* (a director, in theatre)
+  - *un comédien / une comédienne* (an actor). **False friend:** not a comedian.
+  - *un poème* (cognate, allowlist)
+  - *un vers* (a line of poetry)
+  - *une strophe* (a verse, a stanza)
+  - *une rime* (cognate-ish; allowlist)
+  - *un recueil* (a collection)
+  - *un mouvement artistique* (an artistic movement)
+  - *le romantisme* (cognate, allowlist)
+  - *l'impressionnisme* (cognate, allowlist)
+  - *le surréalisme* (cognate, allowlist)
+  - *un écrivain / une écrivaine* (A2 recap, not an entry)
+  - *le passé simple* (the passé simple, as a grammar term)
+  - *un conte* (a tale)
+  - *une nouvelle* (a short story). **New meaning:** b1-media-and-news taught a piece of news; list it in NEW_MEANINGS.
+  - *le narrateur / la narratrice* (the narrator)
+  - *un thème* (cognate, allowlist)
+  - *une scène*: recap of b1-cinema-and-books, not an entry
+- **Cognates for the allowlist:** un poème, une rime, le romantisme, l'impressionnisme, le surréalisme, un thème, une scène, une sculpture.
+- **Dialogue (11 lines):** two friends leave an exhibition and plan a theatre evening (*tu*).
+- **Longer text:** none (vocabulary). The passé simple section quotes a 4-line invented tale opening (*Il était une fois… Un jour, le roi partit…*), glossed.
+- **En résumé (100 to 150 words):**
+  - the arts vocabulary by field
+  - the false friend *comédien*
+  - the passé simple as a literary past, recognized from its 3rd-person endings
+- **Exercises (15):**
+  - ex1 to ex5 fill-in: *exposition*, *mise en scène*, *vers*, *recueil*, *chef-d'œuvre*
+  - ex6 MC: *comédien* (false friend)
+  - ex7 MC: *une nouvelle* (new meaning)
+  - ex8 MC: passé simple → infinitive (*il fit* → *faire*)
+  - ex9 MC: passé simple → passé composé (*ils partirent* → *ils sont partis*)
+  - ex10 reformulation: a passé simple sentence → passé composé (the typed answer is in the passé composé, so it's allowed)
+  - ex11 error-correction: *un comédien* used for "a comedian"
+  - ex12 translate: "The exhibition shows the painter's masterpieces."
+  - ex13 translate: "I'm reading a collection of short stories."
+  - ex14 write-out: describe your favourite work in 3 sentences
+  - ex15 reorder
+- **Prerequisites:** b1-cinema-and-books.
+- **LessonLinks:** b1-cinema-and-books, b1-reviewing-a-film-or-book, b2-culture-french-history, b2-describing-a-work-of-art.
+- **review-needed.md:**
+  - "the passé simple is used in writing, not in speech"
+  - "*comédien* means actor"
+  - the dates of the movements, if given
+- **Size:** teaching about 1,100 (at the limit, because of the passé simple section: decision 9); whole about 1,650; vocab 24; 15 exercises.
+
+## 47. b2-culture-french-history: Key moments in French history
+
+- **Type:** culture · **Order:** 47
+- **Goal:** know five turning points of modern French history and the words to talk about them.
+- **Prior coverage:**
+  - b1-culture-french-republic taught *la Révolution française*, *la prise de la Bastille*, the motto, *laïcité*, the 1905 law and the Fifth Republic (1958).
+  - a2-culture-holidays-and-festivals taught *le 14 juillet*.
+  - b1-culture-quebec taught *la Nouvelle-France* and 1763.
+  - **Adds:**
+    - Napoleon and the Empire
+    - the two World Wars (Occupation, Resistance, Liberation)
+    - decolonization
+    - European construction
+  - The Revolution is a 2-sentence recap with a LessonLink. The Third and Fourth Republics are cut (decision 10).
+- **Structures taught:** none.
+- **Structures used:**
+  - passé simple, recognition in the historical text (b2-arts-and-literature)
+  - passive (b2-passive-voice)
+  - nominalisation (b2-nominalisation)
+- **New vocab (21):**
+  - *un empire* (cognate, allowlist)
+  - *un empereur* (an emperor)
+  - *le Code civil* (the Civil Code)
+  - *une guerre mondiale* (a world war)
+  - *la Première Guerre mondiale* (the First World War)
+  - *la Seconde Guerre mondiale* (the Second World War)
+  - *l'Occupation* (the Occupation)
+  - *la Résistance* (the Resistance)
+  - *un résistant / une résistante* (a member of the Resistance)
+  - *la Libération* (the Liberation)
+  - *un armistice* (an armistice)
+  - *la décolonisation* (cognate, allowlist)
+  - *l'indépendance* (cognate, allowlist)
+  - *une colonie* (cognate, allowlist)
+  - *la construction européenne* (European integration)
+  - *un traité* (a treaty)
+  - *l'Union européenne* (the European Union)
+  - *signer un traité* (to sign a treaty)
+  - *une commémoration* (a commemoration)
+  - *le devoir de mémoire* (the duty to remember)
+  - *un tournant historique* (a historic turning point; b2-conditionnel-passe taught *un tournant*)
+- **Cognates for the allowlist:** un empire, la décolonisation, l'indépendance, une colonie, historique.
+- **Dialogue (10 lines):** a grandparent and a grandchild visit a war memorial on 11 November (*tu* from the grandparent, *tu* back).
+- **Longer text:** an original encyclopaedia-style overview of the five moments. The passé simple appears only in two glossed sentences, for recognition.
+- **En résumé:** none (culture).
+- **Exercises (14):**
+  - ex1 to ex6 MC: dates and events (facts)
+  - ex7 to ex9 fill-in: *Résistance*, *traité*, *armistice*
+  - ex10 MC: passé simple recognition (*Napoléon devint empereur*)
+  - ex11 reformulation: passé simple → passé composé
+  - ex12 translate
+  - ex13 write-out: three facts about a moment
+  - ex14 reorder
+- **Prerequisites:** b2-politics-and-society, b2-arts-and-literature (the passé simple).
+- **LessonLinks:** b1-culture-french-republic, a2-culture-holidays-and-festivals, b1-culture-quebec, b2-culture-francophone-africa.
+- **review-needed.md:** every date and fact:
+  - Napoleon crowned in 1804; the Code civil in 1804
+  - the armistice of 11 November 1918; the Liberation of Paris in 1944
+  - the decolonization period; the Treaty of Rome in 1957
+  - Keep the sensitive topics neutral (decision 16).
+- **Size:** teaching about 1,100; whole about 1,750; vocab 21; 14 exercises.
+
+## 48. b2-adjective-position-meaning: Adjectives that change meaning
+
+- **Type:** grammar · **Order:** 48
+- **Goal:** use the adjectives whose meaning depends on their position.
+- **Prior coverage:**
+  - a1-adjective-agreement taught agreement and the BAGS position rule.
+  - a2-describing-your-town taught *propre* (clean).
+  - b1-dreams-and-ambitions taught *sa propre entreprise* (own).
+  - b2-social-issues taught *pauvre*.
+  - **Adds:**
+    - the meaning pairs: *ancien*, *cher*, *grand*, *propre*, *seul*, *même*, *pauvre*, *dernier*, *prochain*, *certain*, *simple*, *vrai*, *brave*, *curieux*, *différent*
+    - the general principle: before the noun is figurative or subjective, after is literal
+- **Structures taught:** adjective position and meaning.
+- **Structures used:** agreement (a1-adjective-agreement).
+- **New vocab (15; each pair is one entry):**
+  - *un ancien ami / un bâtiment ancien* (a former friend / an old building)
+  - *mon cher ami / un repas cher* (my dear friend / an expensive meal)
+  - *un grand homme / un homme grand* (a great man / a tall man)
+  - *ma propre voiture / une voiture propre* (recap of the two B1/A2 meanings in one entry; check the NEW_MEANINGS rule, since the `fr` text is new)
+  - *un seul enfant / un enfant seul* (only one child / a child on his own)
+  - *le même jour / le jour même* (the same day / that very day)
+  - *un pauvre homme / un homme pauvre* (a poor, unfortunate man / a man without money)
+  - *la dernière semaine / la semaine dernière* (the final week / last week)
+  - *la prochaine fois / la semaine prochaine* (the next time / next week)
+  - *certaines personnes / une chose certaine* (some people / a sure thing)
+  - *une simple question / une question simple* (just a question / an easy question)
+  - *un vrai problème / une histoire vraie* (a real problem / a true story)
+  - *un brave homme / un homme brave* (a decent man / a brave man)
+  - *une curieuse idée / un enfant curieux* (an odd idea / a curious child)
+  - *différentes personnes / des personnes différentes* (various people / different people)
+  - *un sale type / une chemise sale* (a nasty guy / a dirty shirt; informal)
+- **Cognates for the allowlist:** none.
+- **Dialogue (10 lines):** two friends describe people at a museum opening, playing on the double meanings (*tu*).
+- **Longer text:** none.
+- **En résumé (100 to 150 words):**
+  - the principle (before is figurative, after is literal)
+  - the most common pairs
+  - BAGS adjectives still go before
+- **Exercises (15):**
+  - ex1 to ex4 MC: the meaning by position
+  - ex5 to ex7 fill-in: the right position (*un ___ ami ___*)
+  - ex8 connector-choice: before or after
+  - ex9 reformulation: *mon ami d'avant* → *mon ancien ami*
+  - ex10 reformulation: *c'est cher* → *un restaurant cher*
+  - ex11 error-correction: *ma voiture propre* for "my own car"
+  - ex12 translate: "my former teacher"
+  - ex13 translate: "the only person who came"
+  - ex14 write-out: describe two people with three pairs
+  - ex15 reorder
+- **Prerequisites:** a1-adjective-agreement.
+- **LessonLinks:** a1-adjective-agreement, a2-describing-your-town, b1-dreams-and-ambitions, b2-describing-a-work-of-art.
+- **review-needed.md:** every pair's meanings, especially *brave*, *curieux* and *simple*.
+- **Size:** teaching about 1,050; whole about 1,550; 15 entries; 15 exercises.
+
+## 49. b2-tout: Tout, toute, tous, toutes
+
+- **Type:** grammar · **Order:** 49
+- **Goal:** use *tout* as a determiner, a pronoun and an adverb, pronounce *tous* correctly, and meet three more indefinites.
+- **Prior coverage:**
+  - b1-indefinite-pronouns taught *tout le monde*, *chaque*, *chacun*, *aucun*, *plusieurs* and *n'importe qui / quoi / où / quand*.
+  - b1-ce-qui-ce-que taught *tout ce que*.
+  - The set phrases *tout à fait* (b1-agreeing-disagreeing), *tout de suite* (a1-ordering-at-a-cafe), *tout à coup* (a2-telling-a-story) and *tout en* (b1-gerondif) are known.
+  - **Adds:**
+    - the system: determiner (*tout le / toute la / tous les / toutes les*), pronoun (*tout*, *tous* [tus], *toutes*), adverb (*tout content*, *toute contente* before a consonant)
+    - set phrases (*en tout cas*, *tout de même*, *pas du tout*, *du tout au tout*)
+    - the indefinites *quiconque*, *quelconque* and *n'importe lequel* (recap from b2-relative-lequel), an inventory gap (decision 14)
+- **Structures taught:** the three uses of *tout*; *tous* pronounced [tus] as a pronoun; adverb agreement; *quiconque* and *quelconque*.
+- **Structures used:** indefinites (b1-indefinite-pronouns).
+- **New vocab (15):**
+  - *tout le / toute la* (all the, the whole)
+  - *tous les / toutes les* (all the, every)
+  - *tous* [tus] (all of them, as a pronoun)
+  - *tout* as an adverb (*tout seul*: completely alone)
+  - *en tout cas* (in any case)
+  - *tout de même* (all the same)
+  - *pas du tout*: recap of b1-agreeing-disagreeing, not an entry
+  - *du tout au tout* (completely)
+  - *tout compte fait* (all things considered)
+  - *à tout prix* (at all costs)
+  - *de toute façon* (anyway)
+  - *tous les deux* (both)
+  - *quiconque* (anyone who, whoever)
+  - *quelconque* (any, some, ordinary)
+  - *n'importe lequel* (b2-relative-lequel recap, not an entry)
+  - *tout le temps* (all the time)
+  - *partout* (everywhere). B1 reworded it out, so it's new here.
+- **Cognates for the allowlist:** none.
+- **Dialogue (10 lines):** a museum guide answers a tour group's questions (*vous*).
+- **Longer text:** none.
+- **En résumé (100 to 150 words):**
+  - determiner, pronoun, adverb
+  - [tus] for the pronoun
+  - the adverb agrees only before a feminine consonant
+  - *quiconque*
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: *tout / toute / tous / toutes*
+  - ex5 MC: pronunciation of *tous*
+  - ex6 MC: adverb agreement (*toute contente*)
+  - ex7 connector-choice: *en tout cas* / *tout à coup*
+  - ex8 reformulation: *Chaque élève* → *Tous les élèves*
+  - ex9 reformulation: *Ils sont tous venus*
+  - ex10 error-correction: *toutes les deux* for mixed genders
+  - ex11 fill-in: *quiconque*
+  - ex12 translate: "They all came."
+  - ex13 translate: "She was all alone."
+  - ex14 write-out: 3 sentences about a visit using four uses of *tout*
+  - ex15 reorder
+- **Prerequisites:** b1-indefinite-pronouns.
+- **LessonLinks:** b1-indefinite-pronouns, b1-ce-qui-ce-que, b2-relative-lequel.
+- **review-needed.md:**
+  - "*tout* as an adverb agrees before a feminine adjective starting with a consonant or aspirate h"
+  - "*quiconque* takes a singular verb"
+- **Size:** teaching about 1,050; whole about 1,550; vocab 15; 15 exercises.
+
+## 50. b2-describing-a-work-of-art: Describing a work of art
+
+- **Type:** communication · **Order:** 50
+- **Goal:** describe, interpret and judge a painting, a song or a short text.
+- **Prior coverage:**
+  - b1-reviewing-a-film-or-book taught giving an opinion of a film or book.
+  - b2-arts-and-literature taught the arts vocabulary.
+  - b2-adjective-position-meaning taught adjective meaning.
+  - **Adds:**
+    - spatial description of an image (*au premier plan*, *à l'arrière-plan*)
+    - interpretation verbs (*évoquer*, *suggérer*, *symboliser*)
+    - judgement vocabulary
+    - a describe → interpret → judge structure
+- **Structures taught:** none new.
+- **Structures used:**
+  - adjective position (b2-adjective-position-meaning)
+  - relatives (b2-relative-lequel)
+  - mise en relief (b2-mise-en-relief)
+  - nuancing (b2-nuancing-opinions)
+- **New vocab (18):**
+  - *au premier plan* (in the foreground)
+  - *à l'arrière-plan* (in the background)
+  - *au centre* (in the centre)
+  - *à gauche du tableau* (on the left of the painting)
+  - *évoquer* (to evoke)
+  - *suggérer* (to suggest)
+  - *symboliser* (cognate, allowlist)
+  - *représenter* (B1 recap, not an entry)
+  - *une impression* (cognate, allowlist)
+  - *frappant / frappante* (striking)
+  - *saisissant / saisissante* (gripping)
+  - *émouvant / émouvante*: recap of b1-cinema-and-books, not an entry
+  - *sobre* (understated)
+  - *les couleurs vives* (bright colours)
+  - *les couleurs sombres* (dark colours)
+  - *une touche* (a brushstroke)
+  - *le regard* (the gaze, the look)
+  - *le spectateur / la spectatrice* (the viewer)
+  - *une interprétation* (cognate, allowlist)
+  - *il s'en dégage* (it gives off; idiomatic *en*, b2-idiomatic-y-en)
+- **Cognates for the allowlist:** symboliser, une impression, une interprétation, une composition.
+- **Dialogue (11 lines):** two friends in front of a painting disagree about it (*tu*).
+- **Longer text:** an original exhibition review of an invented painting (no real artwork described as real).
+- **En résumé:** none.
+- **Exercises (15):**
+  - ex1 MC: the foreground and background
+  - ex2 to ex4 fill-in: *évoquer*, *frappant*, *une touche*
+  - ex5 connector-choice: describe / interpret / judge
+  - ex6 register-shift: *C'est trop beau !* → critic style
+  - ex7 reformulation: description → interpretation (*ce rouge évoque*)
+  - ex8 reformulation: a judgement → a nuanced one
+  - ex9 error-correction
+  - ex10 MC: adjective position (*une curieuse lumière*)
+  - ex11 fill-in: *il s'en dégage*
+  - ex12 translate: "In the foreground, a woman is reading."
+  - ex13 write-out: describe a painting given in the prompt
+  - ex14 write-out: give your judgement in 3 sentences
+  - ex15 reorder
+- **Prerequisites:** b2-arts-and-literature, b2-adjective-position-meaning.
+- **LessonLinks:** b1-reviewing-a-film-or-book, b2-arts-and-literature, b2-adjective-position-meaning, b2-mise-en-relief.
+- **review-needed.md:** "*sobre* means understated in art criticism"
+- **Size:** teaching about 1,000; whole about 1,750; vocab 18; 15 exercises.
+
+## 51. b2-culture-francophone-africa: Francophone Africa
+
+- **Type:** culture · **Order:** 51
+- **Goal:** know where and how French is used in West and Central Africa and the Maghreb, with some labelled local words, music and literature.
+- **Prior coverage:**
+  - a2-culture-francophone-world named Sénégal, Côte d'Ivoire, Cameroun and the Maghreb, and mentioned Wolof.
+  - b1-culture-quebec modelled regional variation.
+  - **Adds:**
+    - French as an official or second language beside national languages
+    - language contact (*le nouchi*, *le camfranglais*)
+    - labelled local words
+    - music and literature (*la négritude*, Léopold Sédar Senghor, stated as facts)
+    - the Maghreb's bilingualism
+  - It doesn't repeat A2's country list.
+- **Structures taught:** none.
+- **Structures used:** passé simple in one glossed literary-history sentence (b2-arts-and-literature); passive (b2-passive-voice).
+- **New vocab (16):**
+  - *la francophonie* (the French-speaking world; cognate-ish, allowlist)
+  - *une langue officielle* (an official language)
+  - *une langue nationale* (a national language)
+  - *une langue seconde* (a second language)
+  - *le contact des langues* (language contact)
+  - *un emprunt* (a loanword). **New meaning:** b1-money-and-banking taught *emprunter* (to borrow).
+  - *un mot local* (a local word)
+  - *le nouchi* (the Ivorian street language)
+  - *le camfranglais* (the Cameroonian mix of French, English and local languages)
+  - *une essencerie* (a petrol station: Senegal, labelled)
+  - *s'enjailler* (to have fun: Côte d'Ivoire, labelled)
+  - *un taxi-brousse* (a bush taxi)
+  - *la négritude* (the négritude movement)
+  - *un griot* (a griot, a West African storyteller)
+  - *le Maghreb* (A2 recap, not an entry)
+  - *bilingue* (bilingual)
+  - *le plurilinguisme* (multilingualism)
+- **Cognates for the allowlist:** la francophonie, colonial, africain, une diversité.
+- **Dialogue (11 lines):** a student from Abidjan explains Ivorian expressions to a French classmate (*tu*).
+- **Longer text:** an original magazine piece, *Le français d'Afrique, une langue vivante*.
+- **En résumé:** none.
+- **Exercises (14):**
+  - ex1 to ex5 MC: facts and meanings (labelled)
+  - ex6 to ex8 fill-in: *langue officielle*, *emprunt*, *bilingue*
+  - ex9 reformulation: a local word → standard French
+  - ex10 error-correction
+  - ex11 translate
+  - ex12 translate
+  - ex13 write-out: 3 facts about French in Africa
+  - ex14 reorder
+- **Prerequisites:** b1-culture-quebec.
+- **LessonLinks:** a2-culture-francophone-world, b1-culture-quebec, b2-culture-french-history (decolonization), b2-registers.
+- **review-needed.md:**
+  - every fact: "French is an official language in Senegal and Côte d'Ivoire", the négritude movement and Senghor
+  - the meanings and countries of *essencerie*, *s'enjailler*, *nouchi* and *camfranglais*
+  - Give no speaker figures (decision 16).
+- **Size:** teaching about 1,000; whole about 1,650; vocab 16; 14 exercises.
+
+## 52. b2-review-arts: Review: Culture and the arts
+
+- **Type:** review · **Order:** 52
+- **Goal:** write a critical description of a work of art in its historical context.
+- **Structures used:**
+  - history (b2-culture-french-history)
+  - *tout* (b2-tout)
+  - description (b2-describing-a-work-of-art)
+  - Africa (b2-culture-francophone-africa)
+  - adjective position (b2-adjective-position-meaning)
+- **New vocab (5):**
+  - *un contexte historique* (a historical context)
+  - *une œuvre engagée* (a committed work)
+  - *un héritage* (a legacy)
+  - *marquer son temps* (to leave a mark on its time)
+  - *intemporel / intemporelle* (timeless)
+- **Model text:** a critical description of an invented post-war painting, placed in its period.
+- **En résumé:** none.
+- **Exercises (16):**
+  - ex1 to ex4 fill-in: *tout*, adjective position, the arts words
+  - ex5 and ex6 connector-choice
+  - ex7 MC: passé simple recognition
+  - ex8 and ex9 reformulation
+  - ex10 error-correction
+  - ex11 register-shift
+  - ex12 MC: the new words
+  - ex13 translate
+  - ex14 and ex15 write-out: description; context
+  - ex16 reorder
+- **Prerequisites:** b2-culture-french-history, b2-tout, b2-describing-a-work-of-art, b2-culture-francophone-africa (4).
+- **Size:** teaching about 850; whole about 1,600; 5 words; 16 exercises.

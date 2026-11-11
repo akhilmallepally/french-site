@@ -1,0 +1,413 @@
+# B2 Unit 8 plan: Registers and debate
+
+Status: revised after the first plan review (docs/b2-plan-review.md: decisions applied). No lesson files written yet. Rules and size limits: CLAUDE.md, "B2 conventions"; see the note at the top of unit-1.md. Lesson numbers follow docs/syllabus.md.
+From b2-registers and b2-colloquial-french on, spoken features (dropped *ne*, *on* for *nous*, *ça* for *cela*) may appear in exercise answers when labelled.
+
+---
+
+## 53. b2-registers: Registers of French
+
+- **Type:** communication · **Order:** 53
+- **Goal:** recognize and choose between familiar, standard and formal French, in words and in structures.
+- **Prior coverage:**
+  - a1-subject-pronouns and b1-culture-work-life taught *tu* / *vous*.
+  - a1-yes-no-questions taught intonation, *est-ce que* and inversion with pronouns.
+  - b1-formal-email taught formal written register.
+  - Every lesson since A1 has noted dropped *ne* as spoken.
+  - **Adds:**
+    - the three-level model, with word triplets (*bagnole / voiture / automobile*, *bouquin / livre / ouvrage*, *boulot / travail / emploi*)
+    - structural markers: question forms, including complex inversion with a noun (*Paul vient-il ?*), an inventory gap (decision 14)
+    - negation, *on* / *nous*, *ça* / *cela*
+    - formal written features: inversion after *peut-être*, *sans doute* and *aussi*; *ne… guère*; *ne* alone with *pouvoir* and *savoir* (*je ne saurais dire*)
+- **Structures taught:** complex inversion; stylistic inversion after adverbs; literary negation (*ne… guère*, *ne* alone).
+- **Structures used:** every earlier structure; reformulation and register-shift are the core exercises.
+- **New vocab (20):**
+  - *le registre familier* (familiar register)
+  - *le registre courant* (standard register)
+  - *le registre soutenu* (formal register). These three are also instruction words.
+  - *une bagnole* (a car; familiar)
+  - *une automobile* (a car; formal)
+  - *un bouquin* (a book; familiar)
+  - *un ouvrage* (a work, a book; formal)
+  - *le boulot* (work; familiar)
+  - *un emploi* (a job). B1 may have it in careers: check, and recap if so.
+  - *bosser* (to work; familiar)
+  - *bouffer* (to eat; familiar)
+  - *se dépêcher* (A1 recap, not an entry)
+  - *se hâter* (to hurry; formal)
+  - *demeurer* (to remain, to live; formal)
+  - *ne… guère* (hardly; formal)
+  - *je ne saurais dire* (I couldn't say; formal)
+  - *peut-être est-il…* (perhaps he is…; formal inversion)
+  - *aussi + inversion* (therefore; formal). **New meaning:** A1 taught *aussi* as "also"; the `fr` text differs, so no NEW_MEANINGS entry is needed.
+  - *un interlocuteur / une interlocutrice* (the person you're speaking to)
+  - *adapter son discours* (to adapt the way you speak)
+  - *un niveau de langue* (a level of language)
+- **Cognates for the allowlist:** un registre (on the instruction list), formel, informel.
+- **Dialogue (12 lines):** the same request (borrowing a car) made to a friend, a colleague and a stranger, in three short exchanges.
+- **Longer text:** a short story told twice, first in familiar French in a text message, then in formal French in a letter.
+- **En résumé:** none (communication).
+- **Exercises (15):**
+  - ex1 and ex2 MC: which register
+  - ex3 fill-in: the formal word for *bagnole*
+  - ex4 fill-in: the complex inversion
+  - ex5 connector-choice: *aussi* (therefore) / *aussi* (also)
+  - ex6 to ex8 register-shift: familiar → standard, standard → formal, formal → familiar
+  - ex9 reformulation: *Est-ce que Paul vient ?* → *Paul vient-il ?*
+  - ex10 reformulation: *Il est peut-être malade* → *Peut-être est-il malade*
+  - ex11 error-correction: a mixed-register sentence
+  - ex12 MC: *ne… guère*
+  - ex13 write-out: one message in two registers
+  - ex14 write-out: a formal reply
+  - ex15 reorder
+- **Prerequisites:** b1-formal-email.
+- **LessonLinks:** a1-yes-no-questions, a1-subject-pronouns, b1-formal-email, b1-culture-work-life, b2-colloquial-french.
+- **review-needed.md:**
+  - every register label
+  - "inversion after *peut-être* is formal"
+  - "*aussi* + inversion means therefore"
+- **Size:** teaching about 1,100 (the biggest communication lesson; decision 11 keeps slang out of it); whole about 1,750; vocab 20; 15 exercises.
+
+## 54. b2-colloquial-french: Spoken, everyday French
+
+- **Type:** vocabulary · **Order:** 54
+- **Goal:** understand and use the features of everyday spoken French: grammar shortcuts, fillers and reductions.
+- **Prior coverage:**
+  - a1-negation-ne-pas and b1-ne-que-ni-ni noted dropped *ne*.
+  - b1-expressing-doubt-certainty noted *je pense pas*.
+  - b1-telling-an-anecdote taught *bref* and *figure-toi*.
+  - b1-cover-letter taught *en fait*.
+  - b2-registers taught register.
+  - **Adds:**
+    - spoken grammar (dropped *ne*, *on* for *nous*, *ça*, questions without inversion: *tu fais quoi ?*)
+    - reductions (*t'es*, *y a*, *chais pas*)
+    - fillers and discourse markers (*bah*, *ben*, *euh*, *du coup*, *genre*, *quoi*, *carrément*, *grave*, *trop* = very, *t'inquiète*)
+  - Slang and verlan go to b2-culture-verlan-and-slang (decision 11).
+- **Structures taught:** spoken grammar (labelled).
+- **Structures used:** register (b2-registers).
+- **New vocab (20):**
+  - *bah / ben* (well)
+  - *euh* (er)
+  - *du coup* (so, as a result)
+  - *genre* (like, sort of)
+  - *quoi* (at the end of a sentence: you know) The `fr` text matches a1-question-words: add it to NEW_MEANINGS with this meaning.
+  - *carrément* (totally)
+  - *grave* (seriously, really; familiar)
+  - *trop* (so, very; familiar) The `fr` text matches a2-adverbs-ment: add it to NEW_MEANINGS with this meaning.
+  - *t'inquiète* (don't worry)
+  - *ça marche* (B1 recap, not an entry)
+  - *y a* (there's; reduced *il y a*)
+  - *t'es* (you're; reduced)
+  - *chais pas* (dunno)
+  - *ouais* (yeah)
+  - *nan* (nah)
+  - *mouais* (meh)
+  - *grosso modo* (roughly)
+  - *un truc* (a thing)
+  - *un machin* (a whatsit)
+  - *vachement* (really; familiar)
+  - *en gros* (basically)
+- **Cognates for the allowlist:** none.
+- **Dialogue (14 lines):** two teenagers chat after school (*tu*), with labelled features. Then 2 lines rewritten in standard French.
+- **Longer text:** none (vocabulary).
+- **En résumé (100 to 150 words):** written in standard French (it's a recap):
+  - what the spoken features are
+  - when to use them
+  - that written exercises still use standard forms unless the instruction says otherwise
+- **Exercises (15):**
+  - ex1 to ex4 MC: the meaning of fillers
+  - ex5 fill-in: the reduced form
+  - ex6 fill-in: *du coup*
+  - ex7 register-shift: spoken → standard (×2: ex7 and ex8)
+  - ex9 register-shift: standard → spoken (the answer may drop *ne*, labelled)
+  - ex10 reformulation: *Nous allons* → *On va*
+  - ex11 error-correction: a filler in a formal email
+  - ex12 translate: "Dunno, it's sort of weird."
+  - ex13 translate: "So we left early."
+  - ex14 write-out: a text message in spoken French
+  - ex15 reorder
+- **Prerequisites:** b2-registers.
+- **LessonLinks:** a1-negation-ne-pas, b1-telling-an-anecdote, b1-cover-letter (*en fait*), b2-registers, b2-culture-verlan-and-slang.
+- **review-needed.md:**
+  - every register label
+  - "*du coup* is criticized in careful speech"
+  - "*grave* as an adverb is youth speech"
+- **Size:** teaching about 900; whole about 1,500; vocab 20; 15 exercises.
+
+## 55. b2-culture-verlan-and-slang: Verlan and slang
+
+- **Type:** culture · **Order:** 55
+- **Goal:** understand how verlan works, recognize common slang, and know when not to use it.
+- **Prior coverage:**
+  - b2-colloquial-french taught spoken grammar and fillers.
+  - b2-registers taught *bagnole*, *bouquin*, *boulot* and *bosser*. Those are recapped, not repeated.
+  - **Adds:**
+    - verlan rules (syllable inversion, vowel changes)
+    - common verlan words (*meuf*, *relou*, *chelou*, *ouf*, *vénère*, *zarbi*)
+    - everyday slang (*un mec*, *une nana*, *le fric*, *la thune*, *kiffer*, *crevé*, *flipper*, *un pote*)
+    - origins and social use, stated as facts
+  - Ethnic slang terms are excluded (decision 16).
+- **Structures taught:** none.
+- **Structures used:** register (b2-registers).
+- **New vocab (20):**
+  - *le verlan* (verlan)
+  - *l'argot* (slang)
+  - *une meuf* (a woman, a girlfriend; from *femme*)
+  - *relou* (annoying; from *lourd*)
+  - *chelou* (weird; from *louche*)
+  - *ouf* (crazy; from *fou*)
+  - *vénère* (angry; from *énervé*)
+  - *zarbi* (weird; from *bizarre*)
+  - *un mec* (a guy)
+  - *une nana* (a woman)
+  - *un pote* (a mate)
+  - *le fric* (money)
+  - *la thune* (money)
+  - *kiffer* (to love)
+  - *crevé / crevée* (knackered)
+  - *flipper* (to freak out)
+  - *se marrer* (to laugh)
+  - *nul / nulle* (B1 recap, not an entry)
+  - *c'est la galère* (it's a hassle)
+  - *une expression argotique* (a slang expression)
+  - *inverser les syllabes* (to swap the syllables)
+- **Cognates for the allowlist:** none.
+- **Dialogue (10 lines):** a French teenager translates their younger brother's messages for an exchange student (*tu*).
+- **Longer text:** an original magazine piece, *Le verlan, une langue à l'envers*.
+- **En résumé:** none.
+- **Exercises (14):**
+  - ex1 to ex5 MC: verlan word → original word
+  - ex6 to ex8 fill-in: slang → standard
+  - ex9 register-shift: slang → standard
+  - ex10 reformulation: standard → verlan (recognition, so it's multiple-choice style)
+  - ex11 error-correction: slang in a job interview
+  - ex12 translate
+  - ex13 write-out: explain verlan in 3 sentences
+  - ex14 reorder
+- **Prerequisites:** b2-colloquial-french.
+- **LessonLinks:** b2-registers, b2-colloquial-french.
+- **review-needed.md:**
+  - each word's meaning, origin and current use (some are dated)
+  - "verlan spread through the suburbs and rap in the 1980s and 1990s"
+  - No ethnic terms.
+- **Size:** teaching about 950; whole about 1,550; vocab 20; 14 exercises.
+
+## 56. b2-false-friends: False friends
+
+- **Type:** vocabulary · **Order:** 56
+- **Goal:** avoid the false friends that English speakers get wrong most often.
+- **Prior coverage:** several false friends are already taught.
+  - b1-cover-letter: *actuellement*
+  - b1-review-work: *librairie*
+  - b1-technology-and-internet: *portable*
+  - b1-reviewing-a-film-or-book: *raté*
+  - b2-reporting-verbs: *prétendre*
+  - b2-passive-voice: *achever*, *reporter*
+  - b2-economy-and-business: *bénéfice*
+  - b2-summarizing-an-article: *résumé*
+  - b2-certainty-and-probability: *sans doute*
+  - b2-argumentative-essay: *dissertation*
+  - b2-arts-and-literature: *comédien*
+  - b2-health-system: *clinique*
+  - **Adds:** 18 new false friends, with a recap table of the earlier ones (no new entries for them).
+- **Structures taught:** none.
+- **Structures used:** none new.
+- **New vocab (18):**
+  - *sensible* (sensitive)
+  - *éventuellement* (possibly)
+  - *éventuel / éventuelle* (possible)
+  - *assister à* (to attend)
+  - *rester* (A2 recap of the verb; the entry is the warning *rester ≠ to rest*, so write it as a note in the recap table, not a new entry)
+  - *une location* (a rental)
+  - *attendre* (A1 recap; table only)
+  - *blesser* (to injure)
+  - *une déception* (a disappointment)
+  - *sympathique* (nice)
+  - *rude* (harsh, tough)
+  - *large* (wide)
+  - *une lecture* (a reading)
+  - *un car* (a coach)
+  - *un stage*: recap of a2-review-work, not an entry
+  - *supporter* (to bear, to put up with)
+  - *un avertissement* (a warning)
+  - *une cave* (a cellar)
+  - *excité / excitée* (overexcited; careful: it can have a sexual sense)
+  - *réaliser* (to carry out; and, informally, to realize)
+  - *un préjudice* (harm, damage)
+- **Cognates for the allowlist:** none (by definition).
+- **Dialogue (11 lines):** an English intern makes three false-friend mistakes in an office; a colleague kindly corrects them (*vous*).
+- **Longer text:** none.
+- **En résumé (100 to 150 words):**
+  - the most dangerous pairs
+  - the strategy (check words that look English)
+  - the earlier false friends in one list
+- **Exercises (15):**
+  - ex1 to ex6 MC: false friend → meaning
+  - ex7 to ex9 fill-in: the right word (*sensible* or *raisonnable*)
+  - ex10 error-correction: *J'ai assisté le directeur*
+  - ex11 error-correction: *Je suis excité pour le voyage*
+  - ex12 reformulation: an anglicism → French
+  - ex13 translate: "I attended the meeting."
+  - ex14 write-out: 3 sentences using three false friends correctly
+  - ex15 reorder
+- **Prerequisites:** b2-registers.
+- **LessonLinks:** b1-cover-letter, b1-review-work, b1-technology-and-internet, b2-reporting-verbs, b2-economy-and-business (one each for the recap table).
+- **review-needed.md:**
+  - every meaning
+  - "*réaliser* meaning to realize is common but criticized"
+  - "*excité* can have a sexual meaning"
+- **Size:** teaching about 1,000 (the recap table counts); whole about 1,500; vocab 18; 15 exercises.
+
+## 57. b2-debating: Taking part in a debate
+
+- **Type:** communication · **Order:** 57
+- **Goal:** take and keep the floor, interrupt politely, rebut and refocus a debate.
+- **Prior coverage:**
+  - b1-agreeing-disagreeing taught agreeing and disagreeing.
+  - b1-presenting-an-argument taught *un débat* and *défendre une idée*.
+  - b2-meetings-and-calls taught *prendre la parole* and *passer la parole*.
+  - b2-nuancing-opinions taught *un contre-argument*.
+  - **Adds:**
+    - interrupting and resisting interruption
+    - rebuttal moves (*réfuter*, *objecter*, *là n'est pas la question*)
+    - refocusing (*revenons-en à*)
+    - summarizing the other side fairly
+- **Structures taught:** none new.
+- **Structures used:**
+  - mise en relief (b2-mise-en-relief)
+  - concession (b2-concession-opposition)
+  - nuancing (b2-nuancing-opinions)
+  - argumentative structure (b2-argumentative-essay)
+- **New vocab (18):**
+  - *couper la parole à* (to interrupt)
+  - *laisser finir* (to let someone finish)
+  - *permettez-moi de* (allow me to)
+  - *si je peux me permettre* (if I may)
+  - *je ne vous ai pas interrompu* (I didn't interrupt you)
+  - *revenons-en à* (let's get back to)
+  - *je maintiens que* (I maintain that)
+  - *réfuter* (to refute)
+  - *contredire* (to contradict)
+  - *objecter que* (to object that)
+  - *une objection* (cognate, allowlist)
+  - *là n'est pas la question* (that's not the point)
+  - *ce n'est pas le sujet* (that's not the subject)
+  - *rebondir sur* (to pick up on). **New meaning:** b2-mixed-conditionals taught "to bounce back".
+  - *un modérateur / une modératrice* (a moderator)
+  - *le temps de parole* (speaking time)
+  - *un argument de poids* (a strong argument)
+  - *avoir le dernier mot* (to have the last word)
+- **Cognates for the allowlist:** une objection.
+- **Dialogue (14 lines):** a radio debate on banning cars in city centres, with a moderator (*vous*).
+- **Longer text:** a transcript extract of the same debate, with the moderator's summary.
+- **En résumé:** none.
+- **Exercises (15):**
+  - ex1 MC: polite or rude interruption
+  - ex2 and ex3 fill-in: *couper la parole*, *revenons-en à*
+  - ex4 MC: refocusing
+  - ex5 connector-choice: rebut / concede
+  - ex6 register-shift: *Tais-toi !* → formal
+  - ex7 register-shift: a rude rebuttal → polite
+  - ex8 reformulation: *Vous avez tort* → *Je ne partage pas…*
+  - ex9 reformulation: emphasis (*C'est justement…*)
+  - ex10 error-correction
+  - ex11 fill-in: *là n'est pas la question*
+  - ex12 translate: "If I may, I'd like to add something."
+  - ex13 write-out: a 3-line rebuttal
+  - ex14 write-out: a moderator's summary
+  - ex15 reorder
+- **Prerequisites:** b2-argumentative-essay, b2-nuancing-opinions, b2-mise-en-relief (3).
+- **LessonLinks:** b1-agreeing-disagreeing, b2-meetings-and-calls, b2-nuancing-opinions, b2-persuasion-and-hedging.
+- **review-needed.md:** the register of each interruption phrase.
+- **Size:** teaching about 1,000; whole about 1,700 (the transcript is 150 to 250 words); vocab 18; 15 exercises.
+
+## 58. b2-persuasion-and-hedging: Persuasion and hedging
+
+- **Type:** communication · **Order:** 58
+- **Goal:** persuade with appeals, rhetorical questions and strategic concession.
+- **Prior coverage:**
+  - b2-nuancing-opinions already covers hedging: *il me semble que*, *dans une certaine mesure*.
+  - b2-concession-opposition covers *certes*.
+  - **Adds** (decision 12):
+    - appeals to the listener (*avouez que*, *convenez que*, *admettons que*)
+    - rhetorical questions (*N'est-il pas vrai que… ?*, *Ne pensez-vous pas que… ?* + subjunctive)
+    - imagining (*imaginons que* + subjunctive)
+    - intensifiers (*qui plus est*, *sans compter que*)
+    - strategic concession (*j'en conviens, néanmoins*)
+    - *quoi qu'on en dise*
+  - Hedging is recapped in 2 sentences only.
+- **Structures taught:** rhetorical negative questions with the subjunctive; *admettons / imaginons que* + subjunctive.
+- **Structures used:**
+  - concession (b2-concession-opposition)
+  - nuancing (b2-nuancing-opinions)
+  - *quoi que* (b2-concession-opposition)
+- **New vocab (16):**
+  - *avouez que* (you must admit that)
+  - *convenez que* (you'll agree that)
+  - *admettons que* (let's suppose that)
+  - *imaginons que* (let's imagine that)
+  - *n'est-il pas vrai que* (isn't it true that)
+  - *qui plus est* (what's more)
+  - *sans compter que* (not to mention that)
+  - *j'en conviens* (I grant you that)
+  - *quoi qu'on en dise* (whatever people say)
+  - *croyez-moi* (believe me)
+  - *il suffit de* (B1 recap, not an entry)
+  - *un argument massue* (a knockout argument)
+  - *convaincre* (B1 recap, not an entry)
+  - *persuader* (to persuade)
+  - *une stratégie* (cognate, allowlist)
+  - *l'émotion* (cognate, allowlist)
+  - *faire appel à* (to appeal to)
+  - *jouer sur* (to play on)
+- **Cognates for the allowlist:** la rhétorique, une stratégie, l'émotion.
+- **Dialogue (12 lines):** a student rehearses a persuasive speech for a student-union vote; a friend gives tips (*tu*).
+- **Longer text:** the speech itself, with an English note on each technique.
+- **En résumé:** none.
+- **Exercises (15):**
+  - ex1 MC: which technique
+  - ex2 and ex3 fill-in: the subjunctive after *imaginons que* and *ne pensez-vous pas que*
+  - ex4 MC: *qui plus est*
+  - ex5 connector-choice: *j'en conviens* / *qui plus est*
+  - ex6 register-shift: blunt → persuasive
+  - ex7 reformulation: statement → rhetorical question
+  - ex8 reformulation: concession + counter (*certes…, mais*)
+  - ex9 error-correction: *imaginons que vous avez*
+  - ex10 fill-in: *quoi qu'on en dise*
+  - ex11 MC: hedging recap
+  - ex12 translate: "Let's imagine that you're right."
+  - ex13 write-out: a 4-sentence persuasive paragraph
+  - ex14 write-out: a strategic concession
+  - ex15 reorder
+- **Prerequisites:** b2-debating.
+- **LessonLinks:** b2-nuancing-opinions, b2-concession-opposition, b2-debating, b2-review-final.
+- **review-needed.md:**
+  - "*admettons que* takes the subjunctive or the indicative"
+  - "*n'est-il pas vrai que* + indicative versus *ne pensez-vous pas que* + subjunctive"
+- **Size:** teaching about 1,000; whole about 1,750; vocab 16; 15 exercises.
+
+## 59. b2-review-final: B2 final review
+
+- **Type:** review · **Order:** 59
+- **Goal:** recap the whole level with a can-do checklist, one model sentence per unit and a final piece of writing.
+- **Structures used:** one key structure from each unit.
+- **New vocab (6):**
+  - *l'aisance* (ease, fluency)
+  - *perfectionner* (to perfect)
+  - *une lacune* (a gap in knowledge)
+  - *approfondir* (to deepen)
+  - *se fixer un objectif* (to set yourself a goal)
+  - *un parcours d'apprentissage* (a learning path)
+- **Model text:** eight sentences, one per unit, then a final writing task: *Mon bilan de B2* (a stock-take, an essay-style self-assessment using a structure from each unit).
+- **En résumé:** none.
+- **Exercises (16):**
+  - one fill-in or MC per unit (8)
+  - ex9 and ex10 reformulation
+  - ex11 error-correction
+  - ex12 register-shift
+  - ex13 translate (conditionnel passé)
+  - ex14 translate (subjunctive in a relative)
+  - ex15 write-out: a bilan paragraph
+  - ex16 reorder
+- **Prerequisites (10; final reviews are exempt):** b2-review-nuance, b2-review-what-might-have-been, b2-review-news, b2-review-pronouns, b2-review-work, b2-review-science, b2-review-arts, b2-culture-verlan-and-slang, b2-false-friends, b2-persuasion-and-hedging.
+- **Size:** teaching about 900; whole about 1,600; 6 words; 16 exercises.

@@ -2,7 +2,7 @@
 // Run: npm run test:content
 import assert from "node:assert/strict";
 import path from "node:path";
-import { validateContent } from "./validate-content.ts";
+import { checkSyllabusOrder, validateContent } from "./validate-content.ts";
 
 const fixture = path.join(process.cwd(), "scripts", "fixtures", "planned-ids");
 const { errors, warnings } = validateContent(path.join(fixture, "lessons"), path.join(fixture, "syllabus.md"));
@@ -27,4 +27,18 @@ assert.deepEqual([...errors].sort(), [
 ].sort());
 assert.deepEqual(warnings, []);
 
-console.log("Validator tests passed: planned ids allowed in related/LessonLink, rejected in prerequisites; B2 exercise types checked.");
+// Syllabus order: the fixture breaks every rule once; the real B2 order must be clean
+// (it was re-planned after docs/b2-plan-review.md).
+assert.deepEqual(checkSyllabusOrder(path.join(process.cwd(), "scripts", "fixtures", "syllabus-order", "syllabus.md"), ["b2"]), [
+  "b2-first: prerequisite b2-third comes later",
+  "b2-third: order 4, expected 3 (orders must run 1..N in table order)",
+  "b2-third: prerequisite b2-nowhere isn't in the syllabus",
+  "b2-fourth: prerequisite b2-third comes later",
+  "b2-fourth: prerequisite b2-third comes later",
+  "b2-fourth: 7 prerequisites (max 6)",
+  'b2-fifth: unit "One" is split by another unit',
+  "prerequisite cycle: b2-first -> b2-third -> b2-second -> b2-first",
+]);
+assert.deepEqual(checkSyllabusOrder(path.join(process.cwd(), "docs", "syllabus.md"), ["b2"]), []);
+
+console.log("Validator tests passed: planned ids allowed in related/LessonLink, rejected in prerequisites; B2 exercise types checked; B2 syllabus order consistent.");

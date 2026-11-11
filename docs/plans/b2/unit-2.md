@@ -1,0 +1,405 @@
+# B2 Unit 2 plan: What might have been
+
+Status: revised after the first plan review (docs/b2-plan-review.md: decisions applied). No lesson files written yet. Rules and size limits: CLAUDE.md, "B2 conventions"; see the note at the top of unit-1.md. Lesson numbers follow docs/syllabus.md.
+
+---
+
+## 9. b2-conditionnel-passe: The conditionnel passé
+
+- **Type:** grammar · **Order:** 9
+- **Goal:** form the conditionnel passé and use it for unrealised wishes and for unconfirmed past news.
+- **Prior coverage:**
+  - b1-conditionnel-present taught formation, politeness, wishes and rumour (*le ministre serait malade*).
+  - b1-plus-que-parfait taught auxiliary + participle with agreement.
+  - **Adds:**
+    - *aurais* / *serais* + participle
+    - unrealised wishes (*j'aurais aimé*, *ça aurait été bien*)
+    - news reporting of unconfirmed past events (*l'incendie aurait fait deux blessés*)
+  - Reproach with *devoir* and *pouvoir* is left to b2-regret-and-reproach.
+- **Structures taught:** conditionnel passé (formation, agreement, two uses).
+- **Structures used:**
+  - conditionnel présent (b1-conditionnel-present)
+  - participle agreement with *être* (a2-passe-compose-etre)
+- **New vocab (15):**
+  - *j'aurais aimé* (I'd have liked)
+  - *ça aurait été* (it would have been)
+  - *à ta place, j'aurais…* (in your place, I'd have…)
+  - *un choix de vie* (a life choice)
+  - *une occasion manquée* (a missed opportunity)
+  - *saisir une occasion* (to seize an opportunity)
+  - *bifurquer* (to change course)
+  - *un tournant* (a turning point)
+  - *selon des sources proches de* (according to sources close to)
+  - *un bilan* (a toll, as in casualties). **New meaning:** b1-review-final taught *un bilan* as a stock-take, so list it in NEW_MEANINGS.
+  - *un blessé / une blessée* (an injured person)
+  - *faire des victimes* (to claim lives)
+  - *non confirmé* (unconfirmed)
+  - *apparemment*: recap of b1-conditionnel-present, not an entry
+  - *envisager* (to consider)
+  - *autrement* (otherwise, differently)
+- **Cognates for the allowlist:** une alternative.
+- **Dialogue (11 lines):** two old friends wonder what life would have been like without moving abroad (*tu*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - formation with *avoir* or *être* in the conditionnel
+  - agreement as in the passé composé
+  - two uses: what didn't happen, and news that isn't confirmed
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: the conditionnel passé of *aimer*, *partir*, *venir* and *pouvoir*
+  - ex5 MC: the auxiliary
+  - ex6 MC: agreement (*elle serait partie*)
+  - ex7 MC: news use (which headline isn't confirmed)
+  - ex8 reformulation: *Je voulais partir* → *J'aurais aimé partir*
+  - ex9 reformulation: confirmed news → unconfirmed, with the conditionnel passé
+  - ex10 error-correction: *j'aurais allé* → *je serais allé*
+  - ex11 fill-in: *un tournant*
+  - ex12 translate: "I would have liked to study medicine."
+  - ex13 translate: "The fire is said to have injured two people."
+  - ex14 write-out: 3 sentences about a choice you'd make differently
+  - ex15 reorder
+- **Prerequisites:** b1-conditionnel-present, a2-passe-compose-etre.
+- **LessonLinks:** b1-conditionnel-present, b1-plus-que-parfait, b2-si-plus-que-parfait (next).
+- **review-needed.md:**
+  - "the conditionnel passé for unconfirmed news is standard in French journalism"
+  - the meaning of *un bilan* (toll)
+- **Size:** teaching about 1,050; whole about 1,600; vocab 15; 15 exercises.
+
+## 10. b2-si-plus-que-parfait: Si + plus-que-parfait, conditionnel passé
+
+- **Type:** grammar · **Order:** 10
+- **Goal:** talk about unreal past conditions (*si j'avais su, je serais venu*).
+- **Prior coverage:**
+  - b1-si-present-futur taught real conditions.
+  - b1-si-imparfait-conditionnel taught unreal present conditions.
+  - **Adds:** the unreal past, *si* + plus-que-parfait with the conditionnel passé, and the ban on the conditionnel after *si* applied to the past (*si j'aurais su* is wrong).
+- **Structures taught:** *si* + plus-que-parfait + conditionnel passé.
+- **Structures used:**
+  - plus-que-parfait (b1-plus-que-parfait)
+  - conditionnel passé (b2-conditionnel-passe)
+- **New vocab (15):**
+  - *par malchance* (by bad luck)
+  - *si j'avais su* (if I'd known)
+  - *si seulement* (if only). Here only for the unreal past; b2-regret-and-reproach expands it.
+  - *rater* (B1 recap, not an entry)
+  - *arriver à temps* (to arrive in time)
+  - *éviter* (to avoid)
+  - *un retard* (A2 recap, not an entry)
+  - *un concours de circonstances* (a chain of events)
+  - *par hasard* (by chance)
+  - *un hasard* (a coincidence)
+  - *heureusement que* (luckily)
+  - *sinon* (B1 recap, not an entry)
+  - *prévoir*: recap of b1-si-present-futur, not an entry
+  - *imprévisible* (unpredictable)
+  - *changer le cours de* (to change the course of)
+  - *une conséquence* (B1 recap, not an entry)
+  - *se douter de* (to suspect). **False friend:** *douter de* (to doubt) is the opposite.
+  - *au dernier moment* (at the last minute)
+  - *de justesse* (only just)
+  - *faillir* (to almost do; *j'ai failli rater le train*)
+- **Cognates for the allowlist:** none.
+- **Dialogue (10 lines):** a traveller tells a friend how a missed train changed a holiday (*tu*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - the two tenses and their order
+  - never the conditionnel after *si*
+  - *si* can come first or second
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: the plus-que-parfait after *si*, and the conditionnel passé in the result
+  - ex5 MC: the right pair of tenses
+  - ex6 MC: *se douter* versus *douter*
+  - ex7 connector-choice: *si* / *même si* / *sauf si* (only *si* is taught; the other two are clearly wrong here)
+  - ex8 reformulation: a real story → *si* + plus-que-parfait
+  - ex9 reformulation: *j'ai failli* + infinitive
+  - ex10 error-correction: *si j'aurais su*
+  - ex11 fill-in: *de justesse*
+  - ex12 translate: "If I'd known, I'd have come."
+  - ex13 translate: "If we had left earlier, we wouldn't have missed the train."
+  - ex14 write-out: 3 *si* sentences about a past event
+  - ex15 reorder
+- **Prerequisites:** b2-conditionnel-passe, b1-plus-que-parfait, b1-si-imparfait-conditionnel (3, as in the syllabus).
+- **LessonLinks:** b1-si-imparfait-conditionnel, b1-plus-que-parfait, b2-mixed-conditionals.
+- **review-needed.md:**
+  - "*faillir* + infinitive is common in speech"
+  - "*se douter de* means to suspect"
+- **Size:** teaching about 1,000; whole about 1,550; vocab 15; 15 exercises.
+
+## 11. b2-mixed-conditionals: Mixed si-clauses
+
+- **Type:** grammar · **Order:** 11
+- **Goal:** mix time frames in conditions, and use *même si* and *sauf si*.
+- **Prior coverage:**
+  - b1-si-present-futur and b1-si-imparfait-conditionnel taught the plain patterns.
+  - b2-si-plus-que-parfait taught the unreal past.
+  - **Adds:**
+    - past condition → present result (*si j'avais appris l'anglais, je travaillerais à Londres*)
+    - present condition → past result (*si j'étais plus prudent, je n'aurais pas eu cet accident*)
+    - *même si* and *sauf si* with every tense pattern
+    - *au cas où* + conditionnel (inventory extension)
+- **Structures taught:** mixed *si* patterns; *même si*, *sauf si* and *au cas où*.
+- **Structures used:** every *si* pattern (b1-si-present-futur, b1-si-imparfait-conditionnel, b2-si-plus-que-parfait).
+- **New vocab (15):**
+  - *tracer sa route* (to go your own way)
+  - *même si* (even if)
+  - *sauf si* (unless)
+  - *au cas où* (in case, + conditionnel)
+  - *une carrière*: recap of b1-dreams-and-ambitions, not an entry
+  - *se reconvertir* (B1 recap, not an entry)
+  - *une reconversion* (B1 recap, not an entry)
+  - *un diplôme* (a degree, a qualification)
+  - *les études supérieures* (higher education)
+  - *s'expatrier* (to move abroad)
+  - *un regret* (a regret)
+  - *aujourd'hui encore* (to this day)
+  - *prudent / prudente* (careful). **False friend:** not "prudent" in every context; see review-needed.md.
+  - *tenter sa chance* (to try your luck)
+  - *réussir sa vie* (to make a success of your life)
+  - *le destin* (fate)
+  - *un parcours* (a path, a career path)
+  - *rebondir* (to bounce back)
+- **Cognates for the allowlist:** none.
+- **Dialogue (12 lines):** a careers adviser and a client talk about past choices and present options (*vous*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - the two mixed patterns and when to use them
+  - *même si* never takes the conditionnel after it
+  - *au cas où* takes the conditionnel
+- **Exercises (15):**
+  - ex1 to ex3 fill-in: mixed patterns
+  - ex4 fill-in: *au cas où* + conditionnel
+  - ex5 MC: which pattern fits the timeline
+  - ex6 connector-choice: *même si* / *sauf si* / *au cas où*
+  - ex7 MC: *prudent*
+  - ex8 reformulation: two facts → a mixed *si* sentence
+  - ex9 reformulation: *si… ne… pas* → *sauf si*
+  - ex10 error-correction: *même si j'aurais*
+  - ex11 fill-in: *rebondir*
+  - ex12 translate: "If I had studied law, I would be a lawyer today."
+  - ex13 translate: "Take an umbrella in case it rains."
+  - ex14 write-out: a 3-sentence alternative life
+  - ex15 reorder
+- **Prerequisites:** b2-si-plus-que-parfait.
+- **LessonLinks:** b2-si-plus-que-parfait, b1-dreams-and-ambitions, b2-futur-anterieur (next).
+- **review-needed.md:**
+  - "*au cas où* is followed by the conditionnel"
+  - "*même si* + imparfait is common for hypotheses"
+- **Size:** teaching about 1,100; whole about 1,650; vocab 15; 15 exercises.
+
+## 12. b2-futur-anterieur: The futur antérieur
+
+- **Type:** grammar · **Order:** 12
+- **Goal:** say what will have happened by a point in the future, and make guesses about the past.
+- **Prior coverage:**
+  - a2-futur-simple taught the futur.
+  - b1-time-connectors taught *dès que* + futur and *quand* + futur.
+  - **Adds:**
+    - the futur antérieur (*aurai* / *serai* + participle)
+    - after *quand*, *dès que*, *lorsque*, *une fois que* and *après que*, for the earlier of two future events
+    - *depuis que* + indicative (inventory gap, decision 14)
+    - supposition (*il aura oublié*)
+- **Structures taught:** futur antérieur; time conjunctions with two future events; *depuis que*.
+- **Structures used:** futur simple (a2-futur-simple); *dès que* (b1-time-connectors).
+- **New vocab (15):**
+  - *une fois que* (once)
+  - *après que* (after, + indicative)
+  - *depuis que* (since, as a conjunction)
+  - *d'ici (à)* (by, as in a deadline)
+  - *d'ici la fin du mois* (by the end of the month)
+  - *une échéance* (a deadline)
+  - *boucler un projet* (to wrap up a project)
+  - *livrer* (to deliver)
+  - *un calendrier* (a schedule). **New meaning:** check whether A1/A2 taught it as "calendar".
+  - *une étape* (a stage, a step)
+  - *il aura oublié* (he must have forgotten; supposition). Use *sûrement* (B1), not *sans doute*, which b2-certainty-and-probability teaches.
+  - *un imprévu* (B1 recap, not an entry)
+  - *repousser* (to postpone)
+  - *respecter un délai* (to meet a deadline)
+  - *se tromper de* (to get the wrong…)
+  - *prévu / prévue* (planned)
+- **Cognates for the allowlist:** none.
+- **Dialogue (11 lines):** a team leader checks project deadlines with a colleague (*vous*).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - formation
+  - the earlier future action after *quand*, *dès que* and *une fois que*
+  - guesses about the past
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: the futur antérieur
+  - ex5 MC: futur or futur antérieur after *dès que*
+  - ex6 MC: supposition meaning
+  - ex7 connector-choice: *depuis que* / *dès que* / *une fois que*
+  - ex8 reformulation: *Je finis, puis je pars* → *Dès que j'aurai fini, je partirai*
+  - ex9 reformulation: *Il a sûrement oublié* → *Il aura oublié*
+  - ex10 error-correction: *quand je finirai* → *quand j'aurai fini*
+  - ex11 fill-in: *d'ici*
+  - ex12 translate: "By Friday, we will have finished the report."
+  - ex13 translate: "Call me as soon as you've arrived."
+  - ex14 write-out: a 3-step project schedule
+  - ex15 reorder
+- **Prerequisites:** a2-futur-simple, a2-passe-compose-etre, b1-time-connectors (3).
+- **LessonLinks:** a2-futur-simple, b1-time-connectors, b2-subjonctif-passe.
+- **review-needed.md:**
+  - "*après que* takes the indicative in standard French"
+  - "the futur antérieur expresses supposition"
+- **Size:** teaching about 1,100; whole about 1,600; vocab 15; 15 exercises.
+
+## 13. b2-subjonctif-passe: The past subjunctive
+
+- **Type:** grammar · **Order:** 13
+- **Goal:** react to completed events with the past subjunctive (*je suis ravi que tu sois venu*).
+- **Prior coverage:**
+  - b1-subjonctif-wishes-emotions taught emotions + present subjunctive.
+  - b1-subjonctif-irregular taught *avoir* and *être*.
+  - b2-subjunctive-conjunctions taught *bien que* and *avant que*.
+  - **Adds:**
+    - formation (*que j'aie fait*, *que je sois parti*)
+    - present against past subjunctive (simultaneous or earlier)
+    - after emotions, doubt, *bien que* and *avant que*
+    - concordance in the subjunctive (inventory note: modern French uses only these two tenses)
+- **Structures taught:** past subjunctive; choosing between present and past.
+- **Structures used:**
+  - subjunctive triggers (b1-subjonctif-wishes-emotions, b1-expressing-doubt-certainty, b2-subjunctive-conjunctions)
+  - participle agreement (a2-passe-compose-etre)
+- **New vocab (15):**
+  - *ravi / ravie que* (delighted that)
+  - *soulagé / soulagée que* (relieved that)
+  - *fier / fière que* (proud that)
+  - *déçu / déçue que* (disappointed that). a2-emotions-and-feelings taught *déçu*; this entry adds *que* + subjunctive.
+  - *étonné / étonnée que* (surprised that)
+  - *il est dommage que* (B1 recap, not an entry)
+  - *s'inquiéter que* (to worry that)
+  - *féliciter quelqu'un de* (to congratulate someone on)
+  - *réussir un examen* (to pass an exam)
+  - *un mariage* (B1 recap, not an entry)
+  - *une naissance* (a birth)
+  - *un faire-part* (an announcement card)
+  - *la remise des diplômes* (the graduation ceremony)
+  - *un exploit* (a feat)
+  - *se rétablir* (to recover)
+  - *de justesse* (b2-si-plus-que-parfait recap, not an entry)
+  - *chaleureux / chaleureuse* (warm)
+  - *une surprise* (a surprise; cognate, so allowlist)
+- **Cognates for the allowlist:** une surprise.
+- **Dialogue (10 lines):** a family celebrates a graduation; relatives react (*tu* and *vous* to the grandmother).
+- **Longer text:** none.
+- **En résumé (60 to 100 words):**
+  - formation
+  - the choice between present and past subjunctive
+  - the same triggers as before
+- **Exercises (15):**
+  - ex1 to ex4 fill-in: the past subjunctive
+  - ex5 MC: present or past
+  - ex6 MC: agreement
+  - ex7 connector-choice: *bien que* / *parce que* with the past subjunctive
+  - ex8 reformulation: *Tu es venu. Je suis ravi.* → one sentence
+  - ex9 reformulation: indicative → subjunctive after *je doute que*
+  - ex10 error-correction: *je suis content que tu es venu*
+  - ex11 fill-in: *féliciter de*
+  - ex12 translate: "I'm glad you came."
+  - ex13 translate: "Although she left early, she passed."
+  - ex14 write-out: a 3-sentence congratulations card
+  - ex15 reorder
+- **Prerequisites:** b1-subjonctif-wishes-emotions, a2-passe-compose-etre, b2-subjunctive-conjunctions (3).
+- **LessonLinks:** b1-subjonctif-wishes-emotions, b2-subjunctive-conjunctions, b2-regret-and-reproach.
+- **review-needed.md:** "spoken French uses only the present and past subjunctive"
+- **Size:** teaching about 1,050; whole about 1,550; vocab 15; 15 exercises.
+
+## 14. b2-regret-and-reproach: Regret and reproach
+
+- **Type:** communication · **Order:** 14
+- **Goal:** express regret about yourself and reproach to others, tactfully or firmly.
+- **Prior coverage:**
+  - b1-subjonctif-wishes-emotions taught *regretter que* + subjunctive (present).
+  - b2-conditionnel-passe taught the conditionnel passé.
+  - **Adds:**
+    - *j'aurais dû* and *j'aurais pu*, *tu aurais pu* (reproach)
+    - *si seulement* + imparfait or plus-que-parfait
+    - *je m'en veux de* (idiomatic *en*: b2-idiomatic-y-en is later, so this is a labelled fixed phrase)
+    - *regretter de* + infinitive
+    - softeners: *ce n'est pas grave*, *ce n'est pas ta faute*
+  - *Je regrette que tu sois parti* uses the subjonctif passé, taught in b2-subjonctif-passe just before this lesson.
+  - *Regretter d'avoir* + participle uses the infinitif passé (b2-infinitif-passe, later): a labelled fixed phrase.
+- **Structures taught:** reproach with *devoir* and *pouvoir* in the conditionnel passé; *si seulement*.
+- **Structures used:**
+  - conditionnel passé (b2-conditionnel-passe)
+  - *si* + plus-que-parfait (b2-si-plus-que-parfait)
+- **New vocab (16):**
+  - *j'aurais dû* (I should have)
+  - *j'aurais pu* (I could have)
+  - *tu aurais pu* (you could have, as a reproach)
+  - *si seulement* (B2 recap from b2-si-plus-que-parfait, not an entry)
+  - *je m'en veux de* (I'm annoyed with myself for; fixed phrase)
+  - *regretter de* (to regret, + infinitive)
+  - *reprocher à quelqu'un de* (to blame someone for)
+  - *un reproche* (a reproach)
+  - *c'est (de) ma faute* (it's my fault)
+  - *ce n'est pas ta faute* (it's not your fault)
+  - *avoir des remords* (to feel remorse)
+  - *se sentir coupable* (to feel guilty)
+  - *s'excuser de* (to apologize for)
+  - *présenter ses excuses* (to apologize formally)
+  - *tant pis*: recap of b1-si-present-futur, not an entry
+  - *on ne refait pas le passé* (you can't change the past)
+  - *la prochaine fois* (A1 recap, not an entry)
+  - *Ça ne se reproduira pas.* (It won't happen again. Pronominal passive, labelled; b2-alternatives-to-passive explains it.)
+  - *décevoir* (to disappoint)
+- **Cognates for the allowlist:** none.
+- **Dialogue (12 lines):** a flatmate forgot to pay the bill; reproach, apology and making up (*tu*).
+- **Longer text:** a message thread of apologies after a missed wedding, with a formal apology email at the end (register contrast). No untaught structures beyond the labelled phrases.
+- **En résumé:** none (communication).
+- **Exercises (15):**
+  - ex1 MC: regret or reproach
+  - ex2 fill-in: *j'aurais dû* (conjugated)
+  - ex3 fill-in: *tu aurais pu*
+  - ex4 MC: the strength of an apology
+  - ex5 connector-choice: *si seulement* / *même si*
+  - ex6 register-shift: *Désolé, mec* → formal apology
+  - ex7 register-shift: formal → informal
+  - ex8 reformulation: *Pourquoi tu n'as pas appelé ?* → *Tu aurais pu appeler*
+  - ex9 reformulation: *Je regrette* + noun → *regretter de* + infinitive
+  - ex10 error-correction: *j'aurais dû de venir*
+  - ex11 fill-in: *reprocher à*
+  - ex12 translate: "I should have listened to you."
+  - ex13 write-out: an apology message from prompts
+  - ex14 write-out: a polite reproach to a colleague
+  - ex15 reorder
+- **Prerequisites:** b2-si-plus-que-parfait, b2-subjonctif-passe (b2-si-plus-que-parfait implies b2-conditionnel-passe).
+- **LessonLinks:** b1-subjonctif-wishes-emotions, b2-conditionnel-passe, b2-si-plus-que-parfait, b2-infinitif-passe (forward, for *regretter d'avoir*).
+- **review-needed.md:**
+  - Fixed phrases: *je m'en veux de*, *regretter d'avoir* + participle, *Ça ne se reproduira pas*.
+  - "*tu aurais pu* is a reproach, not a possibility, in this context"
+- **Size:** teaching about 950; whole about 1,700 (the longer text is long); vocab 16; 15 exercises.
+
+## 15. b2-review-what-might-have-been: Review: What might have been
+
+- **Type:** review · **Order:** 15
+- **Goal:** write an alternative-history piece about a personal turning point.
+- **Prior coverage:** the unit's lessons. **Adds:** a writing task and 5 words.
+- **Structures used:**
+  - conditionnel passé (b2-conditionnel-passe)
+  - *si* + plus-que-parfait (b2-si-plus-que-parfait)
+  - mixed patterns (b2-mixed-conditionals)
+  - reproach (b2-regret-and-reproach)
+  - futur antérieur (b2-futur-anterieur)
+  - subjonctif passé (b2-subjonctif-passe)
+- **New vocab (5):**
+  - *une uchronie* (an alternative history)
+  - *un carrefour* (a crossroads, figurative). **New meaning:** a1-asking-directions may teach a junction; list it in NEW_MEANINGS if so.
+  - *basculer* (to tip over, to change completely)
+  - *rétrospectivement* (in hindsight)
+  - *avec le recul* (with hindsight)
+- **Model text:** a first-person piece, *Et si je n'avais pas pris ce train ?*
+- **En résumé:** none (review).
+- **Exercises (16):**
+  - ex1 to ex5 fill-in: one structure per lesson
+  - ex6 and ex7 connector-choice (*même si* / *sauf si*; *dès que* / *depuis que*)
+  - ex8 MC
+  - ex9 and ex10 reformulation
+  - ex11 error-correction
+  - ex12 register-shift: a reproach, soft ↔ firm
+  - ex13 translate
+  - ex14 and ex15 write-out: two paragraphs (what happened; what would have happened)
+  - ex16 reorder
+- **Prerequisites:** b2-mixed-conditionals, b2-futur-anterieur, b2-regret-and-reproach (3; b2-regret-and-reproach implies b2-subjonctif-passe).
+- **LessonLinks:** each unit lesson; b2-politics-and-society (next).
+- **Size:** teaching about 850; whole about 1,500; 5 words; 16 exercises.
