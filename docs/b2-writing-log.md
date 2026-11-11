@@ -108,3 +108,18 @@
 - **Checks:** check:words, check:structures, audit (0 B2 findings), validate, test:content, test:checker (29/29) and build all pass. The A1 to B1 output is identical to the baseline.
 - **review-needed.md:** 22 items under the 8 ids. They cover moods (*il semble que*, *bien que*, *de sorte que*, *ne explétif*), registers (*SDF*, *quand même*, *vu que*, the idioms), *malgré que*, *or*, *mitigé* and the immigration sentences.
 - **Not done:** no fluent-speaker check yet. The review's link to b2-conditionnel-passe shows "Coming soon" until that lesson exists.
+
+## Unit 1, batch-review fixes
+
+- **b2-subjunctive-conjunctions:** a note callout on *après que* + indicative (no B1 lesson teaches it). The warning now links *même si* to the next lesson. Answer variants: ex009 and ex010 word order; ex013 *attendre que*, with the *on* forms removed.
+- **b2-concession-opposition:** *même si* + indicative added (no lesson taught it). It has a vocab entry, a section, two examples and a résumé line, and syllabus, unit-1 and unit-2 now treat it as a recap in b2-mixed-conditionals. The mood claim for *alors que* is now just "the rule". The dialogue uses *avoir beau trouver* and a single *quand même*, and the résumé's *avoir beau* and *quand même* lines are rewritten. Variants added to ex007, ex008, ex009 (also *même si*) and ex012 (*on* removed). ex013's cue is reworded, and ex014 is pinned to *néanmoins* ("Nevertheless, formal").
+- **b2-purpose-expressions:** *en faveur de* removed (it wasn't in the review). The *pour* + infinitive, *sensibiliser* and *convaincre* links were already right. ex010 cue + « nous ». *De sorte que* accepted in ex012; *manquer* in ex013; ex014 says "problem" and has 6 answers. The dialogue uses *pour*, not formal *afin de*.
+- **b2-logical-connectors:** ex011 accepts *néanmoins*. ex013's cue is pinned, with word-order variants. ex014 accepts *de plus* and *d'ailleurs*, and its cue reads "Consequently, formal". *D'abord* was credited to the wrong lesson; it's now *premièrement* and *deuxièmement*. *De plus* links its lesson, and the punctuation paragraph is fixed.
+- **Scan found and fixed:**
+  - b2-nuancing-opinions: Inès said *partagé*, now *partagée*; ex010 accepts *il me semble que*; the warning had circular reasoning.
+  - b2-social-issues: ex014 accepts *problème*.
+  - b2-idioms-everyday: ex009 accepts *Il n'est pas venu*; ex012 is pinned to the idiom; ex013 accepts *coûter un rein*.
+  - b2-review-nuance: ex011 word order; ex014 pinned (4 answers); ex015 accepts 3 connectors.
+  - No wrong links or filler sections found.
+- **CLAUDE.md:** a new B2 accepted-answers rule, and the self-check question added to workflow step 5. 2 new items in review-needed.md (*même si*, *après que*), plus 1 for the new dialogue line.
+- **Checks:** check:words, check:structures, validate, test:content, test:checker (29/29) and build pass. The audit's only B2 row is purpose ex014 with 6 answers, allowed under the "6 or fewer" instruction. A1 to B1 output is unchanged.

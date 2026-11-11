@@ -154,6 +154,7 @@ Exercise prompts are French, from the CLAUDE.md instruction list. "Write-out" me
     - *bien que*, *avant que*, *à condition que*, *jusqu'à ce que*, *sans que* and *à moins que*
     - their infinitive partners (*avant de*, *sans*, *à condition de*, *à moins de*)
     - the expletive *ne* after *avant que* and *à moins que* (recognition)
+    - a short callout: *après que* + indicative, in contrast with *avant que*
   - *Pour que* moves to b2-purpose-expressions (decision 5).
 - **Structures taught:** conjunction + subjunctive; same subject → preposition + infinitive; expletive *ne* (recognition).
 - **Structures used:** regular and irregular subjunctive (b1-subjonctif-formation, b1-subjonctif-irregular).
@@ -217,6 +218,7 @@ Exercise prompts are French, from the CLAUDE.md instruction list. "Write-out" me
     - *alors que* and *tandis que* (+ indicative)
     - *en revanche* (moved from b2-logical-connectors, decision 3)
     - *quand même* and *avoir beau* + infinitive
+    - *même si* + indicative (added after the Unit 1 batch review; b2-mixed-conditionals then extends it to every tense pattern)
   - The concessive relatives *quoi que* and *qui que* go to b2-relative-prepositions, with *où que* (decision 6).
 - **Structures taught:**
   - *malgré* + noun versus *bien que* + subjunctive
@@ -247,6 +249,7 @@ Exercise prompts are French, from the CLAUDE.md instruction list. "Write-out" me
   - the connectors that start a sentence (*pourtant*, *cependant*)
   - *alors que* and *tandis que* for contrast
   - *avoir beau* for effort without result
+  - *même si* + indicative
 - **Exercises (15):**
   - ex1 connector-choice: *malgré* / *bien que*
   - ex2 connector-choice: *alors que* / *pourtant*
@@ -412,7 +415,6 @@ Exercise prompts are French, from the CLAUDE.md instruction list. "Write-out" me
 - **Structures taught:** purpose with infinitive versus subjunctive; the meaning switch of *de sorte que*.
 - **Structures used:** *ne explétif* (b2-subjunctive-conjunctions).
 - **New vocab (15):**
-  - *en faveur de* (in favour of)
   - *pour que* (so that)
   - *afin de* (in order to)
   - *afin que* (so that, formal)

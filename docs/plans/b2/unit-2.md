@@ -108,7 +108,7 @@ Status: revised after the first plan review (docs/b2-plan-review.md: decisions a
   - ex1 to ex4 fill-in: the plus-que-parfait after *si*, and the conditionnel passé in the result
   - ex5 MC: the right pair of tenses
   - ex6 MC: *se douter* versus *douter*
-  - ex7 connector-choice: *si* / *même si* / *sauf si* (only *si* is taught; the other two are clearly wrong here)
+  - ex7 connector-choice: *si* / *même si* / *sauf si* (*même si* is taught in b2-concession-opposition and *sauf si* comes later; the sentence must make both clearly wrong)
   - ex8 reformulation: a real story → *si* + plus-que-parfait
   - ex9 reformulation: *j'ai failli* + infinitive
   - ex10 error-correction: *si j'aurais su*
@@ -134,13 +134,13 @@ Status: revised after the first plan review (docs/b2-plan-review.md: decisions a
   - **Adds:**
     - past condition → present result (*si j'avais appris l'anglais, je travaillerais à Londres*)
     - present condition → past result (*si j'étais plus prudent, je n'aurais pas eu cet accident*)
-    - *même si* and *sauf si* with every tense pattern
+    - *même si* (recap of b2-concession-opposition, which teaches it + present indicative) and *sauf si* with every tense pattern
     - *au cas où* + conditionnel (inventory extension)
 - **Structures taught:** mixed *si* patterns; *même si*, *sauf si* and *au cas où*.
 - **Structures used:** every *si* pattern (b1-si-present-futur, b1-si-imparfait-conditionnel, b2-si-plus-que-parfait).
 - **New vocab (15):**
   - *tracer sa route* (to go your own way)
-  - *même si* (even if)
+  - *même si*: recap of b2-concession-opposition, not an entry
   - *sauf si* (unless)
   - *au cas où* (in case, + conditionnel)
   - *une carrière*: recap of b1-dreams-and-ambitions, not an entry

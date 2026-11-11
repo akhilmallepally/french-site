@@ -1100,11 +1100,14 @@ Every date, tradition and regional detail, for checking:
 
 - **"After *avant que* and *à moins que*, careful or formal French often adds a small *ne*, called *le ne explétif*. It doesn't make the sentence negative."** Confirm.
 - **"In conversation you may hear the indicative [after *bien que*], but it's considered a mistake."** Confirm.
+- **"*Après que* (after) takes the indicative in careful French, in contrast with *avant que* ... Many speakers use the subjunctive after *après que*, but the indicative is the standard."** Confirm.
 - **"Il faut faire beaucoup de démarches avant d'obtenir un titre de séjour."** Sensitive topic (immigration), and the dialogue at the drop-in centre. Confirm the wording is neutral.
 
 ## b2-concession-opposition
 
-- **"*Alors que* and *tandis que* (whereas) ... take the indicative, because they compare two real situations."** Confirm, and that the two are interchangeable for contrast.
+- **"*Même si* (even if, even though) also concedes a point, but it takes the indicative, like *si*."** Confirm, and that *Je sors ce soir, même si je suis fatigué* reads naturally as "even though".
+- **"Unlike *bien que*, they [*alors que*, *tandis que*] take the indicative."** Confirm, and that the two are interchangeable for contrast.
+- **"*J'ai beau trouver la ville trop calme, je sors avec mes amis tous les week-ends.*"** (dialogue) Confirm that *avoir beau* reads naturally here.
 - **"*Quand même* (all the same, still) is the spoken way to say that something happens despite an obstacle."** Confirm the register.
 - ***Malgré que*** is described as not standard, here and in the b2-review-nuance warning ("You'll hear it, but it's not accepted in careful writing"). Confirm.
 

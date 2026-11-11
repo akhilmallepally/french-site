@@ -21,7 +21,7 @@
   2. Write the plan in docs/plans/b2/ (overview.md and unit-1.md to unit-8.md: every lesson's scope, structures, prerequisites, and what's avoided or labelled) and wait for its review and approval (docs/b2-plan-review.md).
   3. Before each unit, check its plan file against the current syllabus order and wait for approval.
   4. Write one unit per prompt.
-  5. After each unit, also run npm run check:words and npm run check:structures, fix every hit, and append the reply to docs/b2-writing-log.md under "Unit N".
+  5. After each unit, also run npm run check:words and npm run check:structures, fix every hit, and append the reply to docs/b2-writing-log.md under "Unit N". Before that, self-check every reformulation, translate and error-correction exercise: "could a learner using only taught material give a valid answer that isn't listed?" If so, add it or pin the cue.
 
 ## Lesson style
 - Open with one sentence: "By the end of this lesson you'll…". End with "## What's next", linking the next lesson with <LessonLink>.
@@ -110,6 +110,10 @@ B2 inherits every B1 rule unless it's overridden here. They apply to B2 lessons 
   - Communication and culture lessons each have one longer text of 150 to 250 French words, counted in the longer-text sections (B1's averaged 89, so this is the next step up).
 - **New exercise types:** `reformulation`, `register-shift` and `error-correction` are typed answers. `connector-choice` picks from `options` to fill a ___ gap in the prompt. All four are graded by lib/check-answer.ts against `answers`, and the validator rejects them below B2.
   - There's no free open writing: writing tasks keep the B1 model-answer pattern.
+- **Accepted answers.** For every reformulation, translate and error-correction exercise, either list every valid answer that uses only structures and words taught so far, or pin the cue so that only one answer is valid. Valid answers include:
+  - word-order variants
+  - other taught connectors that the English cue allows
+  - the lesson's own alternative structures
 - **Longer texts are original.**
   - They may imitate real formats (an article, an opinion piece, a formal letter, a forum post, an interview).
   - They never copy or paraphrase a real article, and they never invent quotes from real people.
