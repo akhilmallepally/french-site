@@ -8,9 +8,10 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { sameWords } from "../lib/check-answer.ts";
-import { teachingText } from "./lesson-text.ts";
+import { splitSections, teachingText, italicLines, resumeWords } from "./lesson-text.ts";
+import { NEW_MEANINGS, dropsNe, passeSimpleForms } from "./b2-lists.ts";
 
-type Vocab = { id: string; fr: string; pron?: string; en?: string; note?: string };
+type Vocab = { id: string; fr: string; pron?: string; en?: string; note?: string; group?: string };
 type Exercise = {
   id: string;
   type: string;
@@ -24,6 +25,8 @@ type Exercise = {
 type AuditLesson = {
   id: string;
   title: string;
+  type?: string;
+  unit?: string;
   order: number;
   prerequisites?: string[];
   related?: string[];
@@ -99,21 +102,152 @@ function audit(lessons: AuditLesson[]) {
 
   // Planned ids and titles from the syllabus, for the Coming soon check.
   const planned = new Map<string, string>();
+  const plannedOrder = new Map<string, number>();
+  const unitNumber = new Map<string, number>(); // lesson id -> unit number within its level
+  let currentUnit = 0;
   for (const line of fs.readFileSync(path.join(ROOT, "docs", "syllabus.md"), "utf8").split(/\r?\n/)) {
-    const m = line.match(/^\|\s*\d+\s*\|\s*([abc][12]-[^\s|]+)\s*\|\s*([^|]*?)\s*\|/);
-    if (m) planned.set(m[1], m[2]);
+    const u = line.match(/^### Unit (\d+)/);
+    if (u) currentUnit = Number(u[1]);
+    const m = line.match(/^\|\s*(\d+)\s*\|\s*([abc][12]-[^\s|]+)\s*\|\s*([^|]*?)\s*\|/);
+    if (m) {
+      planned.set(m[2], m[3]);
+      plannedOrder.set(m[2], Number(m[1]));
+      unitNumber.set(m[2], currentUnit);
+    }
   }
+
+  // B2 landmarks and helpers (see "B2 conventions" in CLAUDE.md).
+  const PASSE_SIMPLE_FROM = plannedOrder.get("b2-arts-and-literature") ?? Infinity;
+  const SPOKEN_FROM = Math.min(plannedOrder.get("b2-registers") ?? Infinity, plannedOrder.get("b2-colloquial-french") ?? Infinity);
+  const PRODUCTION = new Set(["translate", "reformulation", "register-shift", "error-correction"]);
+  const TYPED = new Set(["fill-in", ...PRODUCTION]);
+  const normSentence = (s: string) => s.toLowerCase().normalize("NFC").replace(/[’]/g, "'").replace(/[\s.!?…«»"]+/g, " ").trim();
+  // French sentences (three words or more) and tip texts, for the "copied from an earlier level" check.
+  const sentencesOf = (l: AuditLesson) => [
+    ...[...l.body.matchAll(/<Example fr="([^"]*)"/g)].map((m) => m[1]),
+    ...splitSections(l.body).filter((s) => s.kind === "dialogue" || s.kind === "text").flatMap((s) => italicLines(s.body)),
+  ].map(normSentence).filter((s) => s.split(" ").length >= 3);
+  const tipsOf = (l: AuditLesson) => [...l.body.matchAll(/<Callout type="tip"[^>]*>([\s\S]*?)<\/Callout>/g)].map((m) => normSentence(m[1]));
+  // Sentences, tips and vocab of the levels already passed in the loop below.
+  const earlier = { sentences: new Map<string, string>(), tips: new Map<string, string>(), vocab: new Map<string, string>() };
 
   const P: Record<string, string[]> = {
     length: [], callout: [], prereq: [], dupVocab: [], dupTip: [], dupAns: [],
     strictAccented: [], strictPlain: [], mc: [], reorder: [], many: [], coming: [], noReorder: [],
+    b2Length: [], b2Resume: [], b2Mix: [], b2VocabRepeat: [], b2Copied: [], b2PasseSimple: [], b2Spoken: [],
   };
+  let lastRank = -1;
+  const pendingRank: AuditLesson[] = [];
+  // Adds a finished level's sentences, tips and vocab to `earlier` once the loop reaches a higher level.
+  const flushLevel = () => {
+    for (const p of pendingRank) {
+      for (const s of sentencesOf(p)) if (!earlier.sentences.has(s)) earlier.sentences.set(s, p.id);
+      for (const s of tipsOf(p)) if (!earlier.tips.has(s)) earlier.tips.set(s, p.id);
+      for (const v of p.vocab ?? []) {
+        const k = String(v.fr).normalize("NFC").trim().toLowerCase();
+        if (!earlier.vocab.has(k)) earlier.vocab.set(k, `${p.id} (${v.id})`);
+      }
+    }
+    pendingRank.length = 0;
+  };
+
+  // B2 checks: lengths, En résumé, the exercise and vocab mix, repeats from earlier levels,
+  // the passé simple, and spoken features in answers.
+  function auditB2(l: AuditLesson, whole: number) {
+    const type = l.type ?? "";
+    const teach = renderedWords(teachingText(l.body));
+    const maxTeach = type === "grammar" ? 1200 : 1100;
+    if (teach < 800 || teach > maxTeach) P.b2Length.push(`${l.id}: teaching text ${teach} words (B2: 800 to ${maxTeach})`);
+    if (whole > 1800) P.b2Length.push(`${l.id}: whole lesson ${whole} words (B2 cap: 1800)`);
+
+    const sections = splitSections(l.body);
+    const resumeAt = sections.findIndex((s) => s.kind === "resume");
+    const needsResume = type === "grammar" || type === "vocabulary";
+    if (needsResume && resumeAt < 0) P.b2Resume.push(`${l.id}: no En résumé section (${type} lesson)`);
+    if (!needsResume && resumeAt >= 0) P.b2Resume.push(`${l.id}: ${type} lessons don't have an En résumé section`);
+    if (resumeAt >= 0) {
+      const words = resumeWords(l.body);
+      const unit = unitNumber.get(l.id) ?? 0;
+      const [lo, hi] = unit >= 5 ? [100, 150] : [60, 100];
+      if (words < lo || words > hi) P.b2Resume.push(`${l.id}: En résumé ${words} words (unit ${unit || "?"}: ${lo} to ${hi})`);
+      const after = sections.slice(resumeAt + 1).map((s) => s.heading);
+      if (after.some((h) => h !== "What's next")) P.b2Resume.push(`${l.id}: En résumé should be the last section before What's next`);
+    }
+
+    const vocab = (l.vocab ?? []).filter((v) => v.group !== "glossary");
+    const isReview = type === "review";
+    const [vlo, vhi] = isReview ? [3, 8] : [15, 30];
+    if (vocab.length < vlo || vocab.length > vhi) {
+      P.b2Mix.push(`${l.id}: ${vocab.length} vocab entries, glossary excluded (B2${isReview ? " review" : ""}: ${vlo} to ${vhi})`);
+    }
+    const exs = l.exercises ?? [];
+    const count = (pred: (e: Exercise) => boolean) => exs.filter(pred).length;
+    const production = count((e) => PRODUCTION.has(e.type));
+    const issues: string[] = [];
+    if (exs.length < 14 || exs.length > 16) issues.push(`${exs.length} exercises (14 to 16)`);
+    if (production < 3) issues.push(`${production} production tasks (at least 3)`);
+    if (!count((e) => e.type === "reorder")) issues.push("no reorder");
+    if (!count((e) => e.type === "reformulation")) issues.push("no reformulation");
+    if (issues.length) P.b2Mix.push(`${l.id}: ${issues.join(", ")}`);
+    const dialogue = sections.find((s) => s.kind === "dialogue");
+    if (dialogue) {
+      const lines = dialogue.body.split("\n").filter((x) => /^- /.test(x.trim())).length;
+      if (lines < 10 || lines > 14) P.b2Mix.push(`${l.id}: dialogue has ${lines} lines (B2: 10 to 14)`);
+    }
+    if ((type === "communication" || type === "culture") && !sections.some((s) => s.kind === "text")) {
+      P.b2Mix.push(`${l.id}: no longer-text section (${type} lesson)`);
+    }
+
+    for (const v of l.vocab ?? []) {
+      const k = String(v.fr).normalize("NFC").trim().toLowerCase();
+      const first = earlier.vocab.get(k);
+      if (first && !(k in NEW_MEANINGS)) {
+        P.b2VocabRepeat.push(`${l.id} (${v.id}): "${v.fr}" repeats ${first}. List it in NEW_MEANINGS (scripts/b2-lists.ts) with the reason, or drop it.`);
+      }
+    }
+
+    for (const s of sentencesOf(l)) {
+      const first = earlier.sentences.get(s);
+      if (first) P.b2Copied.push(`${l.id}: "${s}" is also in ${first}`);
+    }
+    for (const s of tipsOf(l)) {
+      const first = earlier.tips.get(s);
+      if (first) P.b2Copied.push(`${l.id}: tip text copied from ${first}`);
+    }
+
+    const french = [
+      ...[...l.body.matchAll(/<Example fr="([^"]*)"/g)].map((m) => m[1]),
+      ...sections.filter((s) => s.kind !== "teaching").flatMap((s) => (s.kind === "resume" ? [s.body] : italicLines(s.body))),
+      ...exs.flatMap((e) => [e.prompt ?? "", ...(e.answers ?? []), ...(e.options ?? [])]),
+    ];
+    if (l.order < PASSE_SIMPLE_FROM) {
+      const forms = [...new Set(french.flatMap(passeSimpleForms))];
+      if (forms.length) P.b2PasseSimple.push(`${l.id}: passé simple before lesson ${PASSE_SIMPLE_FROM} (${forms.join(", ")})`);
+    }
+    for (const e of exs) {
+      if (!TYPED.has(e.type)) continue;
+      const forms = [...new Set((e.answers ?? []).flatMap(passeSimpleForms))];
+      if (forms.length) P.b2PasseSimple.push(`${l.id} / ${e.id}: passé simple in an answer the learner types (${forms.join(", ")})`);
+      if (l.order < SPOKEN_FROM) {
+        for (const a of e.answers ?? []) {
+          if (dropsNe(a)) P.b2Spoken.push(`${l.id} / ${e.id}: dropped ne before lesson ${SPOKEN_FROM}: ${JSON.stringify(a)}`);
+        }
+      }
+    }
+  }
   const vocabMap = new Map<string, { lesson: string; id: string; fr: string }[]>();
   const tipMap = new Map<string, string[]>();
 
   for (const l of lessons) {
+    if (l.rank !== lastRank) {
+      flushLevel();
+      lastRank = l.rank;
+    }
+    pendingRank.push(l);
     const whole = renderedWords(l.body);
-    if (l.id.startsWith("b1-")) {
+    if (l.id.startsWith("b2-")) {
+      auditB2(l, whole);
+    } else if (l.id.startsWith("b1-")) {
       // B1: teaching text excludes dialogues and longer texts (see CLAUDE.md, B1 conventions).
       const teach = renderedWords(teachingText(l.body));
       if (teach < 600 || teach > 900) P.length.push(`${l.id}: teaching text ${teach} words (B1: 600 to 900)`);
@@ -151,7 +285,7 @@ function audit(lessons: AuditLesson[]) {
           if (normAns(ans[i]) === normAns(ans[j])) P.dupAns.push(`${l.id} / ${e.id}: ${JSON.stringify(ans[i])} and ${JSON.stringify(ans[j])}`);
         }
       }
-      if ((e.type === "fill-in" || e.type === "translate") && e.strictAccents !== true) {
+      if (TYPED.has(e.type) && e.strictAccents !== true) {
         const accented = new Set<string>();
         const plain = new Set<string>();
         for (const a of ans) {
@@ -165,7 +299,7 @@ function audit(lessons: AuditLesson[]) {
         if (accented.size) P.strictAccented.push(row);
         else if (plain.size) P.strictPlain.push(row);
       }
-      if (e.type === "multiple-choice") {
+      if (e.type === "multiple-choice" || e.type === "connector-choice") {
         for (const a of ans) if (!(e.options ?? []).includes(a)) P.mc.push(`${l.id} / ${e.id}: answer ${JSON.stringify(a)} not in options ${JSON.stringify(e.options)}`);
       }
       if (e.type === "reorder") {
@@ -209,6 +343,13 @@ function audit(lessons: AuditLesson[]) {
     ["More than five accepted answers", P.many],
     ["LessonLink or related entry showing Coming soon for a lesson that now exists", P.coming],
     ["Lesson with no reorder exercise", P.noReorder],
+    ["B2 length (teaching text 800 to 1100, 1200 for grammar; whole lesson up to 1800)", P.b2Length],
+    ["B2 En résumé (grammar and vocabulary lessons only; 60 to 100 words in units 1 to 4, 100 to 150 in units 5 to 8)", P.b2Resume],
+    ["B2 mix (vocab 15 to 30, or 3 to 8 in reviews; 14 to 16 exercises with 3 production, 1 reorder, 1 reformulation; dialogue 10 to 14 lines; a longer text in communication and culture lessons)", P.b2Mix],
+    ["B2 vocab entry repeating an A1 to B1 entry (an error unless listed in NEW_MEANINGS)", P.b2VocabRepeat],
+    ["B2 French sentence or tip identical to one in an earlier level", P.b2Copied],
+    ["B2 passé simple before b2-arts-and-literature, or in an answer the learner types", P.b2PasseSimple],
+    ["B2 dropped ne in an exercise answer before b2-registers", P.b2Spoken],
   ];
   const out = [
     "# Audit report", "", `Audited ${lessons.length} written lessons. Generated by \`npm run audit:content\`.`, "",

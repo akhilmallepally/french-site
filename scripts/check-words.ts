@@ -6,12 +6,18 @@
 // or of any earlier lesson in course order. The script looks at Example sentences, dialogues and
 // longer texts, and exercises. It skips proper names, English prompt text and the IGNORE list below.
 // It also lists the labelled fixed phrases recorded in docs/review-needed.md; their words count as defined.
+// From B2 on, it also reads the "En résumé" recap and whole French prompts, treats the cognate
+// allowlist and the exercise instruction words (scripts/b2-lists.ts) as known, and lists glossary
+// entries (vocab group "glossary") that no longer text in the lesson uses.
 //
 // The output is a to-do list; the script never fails.
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import { textSectionFrench } from "./lesson-text.ts";
+import { resumeFrench, splitSections, textSectionFrench } from "./lesson-text.ts";
+import { COGNATES, INSTRUCTION_WORDS } from "./b2-lists.ts";
+
+const B2_RANK = ["a1", "a2", "b1", "b2", "c1", "c2"].indexOf("b2"); // same order as LEVELS below
 
 const ROOT = process.cwd();
 const LESSONS_DIR = path.join(ROOT, "content", "lessons");
@@ -89,7 +95,7 @@ const isEnglish = (s: string) => {
 };
 
 type Exercise = { id: string; type: string; prompt?: string; options?: string[]; words?: string[]; answers?: string[] };
-type Lesson = { id: string; order: number; rank: number; vocab?: { fr: string }[]; exercises?: Exercise[]; body: string };
+type Lesson = { id: string; order: number; rank: number; vocab?: { fr: string; group?: string }[]; exercises?: Exercise[]; body: string };
 
 function readLessons(): Lesson[] {
   const lessons: Lesson[] = [];
@@ -127,12 +133,15 @@ function fixedPhrases(): Map<string, string[]> {
 function segments(l: Lesson): string[] {
   const out: string[] = [];
   for (const m of l.body.matchAll(/<Example fr="([^"]*)"/g)) out.push(m[1]);
-  out.push(...textSectionFrench(l.body));
+  out.push(...textSectionFrench(l.body), ...resumeFrench(l.body));
   for (const e of l.exercises ?? []) {
     out.push(...(e.answers ?? []), ...(e.words ?? []));
     if (e.type === "multiple-choice") out.push(...(e.options ?? []));
     const p = e.prompt ?? "";
-    if (/___/.test(p) || /rewrite|filling each gap/i.test(p)) {
+    if (l.rank >= B2_RANK) {
+      // B2 prompts are French (instructions from the fixed list, then the sentence).
+      out.push(p.replace(/\([^)]*\)/g, " "));
+    } else if (/___/.test(p) || /rewrite|filling each gap/i.test(p)) {
       const q = p.replace(/\([^)]*\)/g, " ");
       const i = q.indexOf(": ");
       out.push(i >= 0 ? q.slice(i + 2) : q);
@@ -158,12 +167,21 @@ for (const l of lessons) {
     const skip = names(s);
     for (const w of tokens(s)) {
       if (IGNORE.has(w) || ENGLISH.has(w) || skip.has(w) || fixedWords.has(w) || w.length < 2) continue;
+      if (l.rank >= B2_RANK && (COGNATES.has(w) || INSTRUCTION_WORDS.has(w))) continue;
       if (roots(w).some((r) => knownRoots.has(r))) continue;
       if (!missing.has(w)) missing.set(w, s.length > 70 ? s.slice(0, 70) + "…" : s);
     }
   }
   const lines: string[] = [];
   for (const [w, s] of missing) lines.push(`  ${w}  ←  ${s}`);
+  if (l.rank >= B2_RANK) {
+    // Glossary entries should gloss words of the lesson's longer texts.
+    const texts = splitSections(l.body).filter((s) => s.kind === "text").map((s) => s.body.toLowerCase()).join("\n");
+    for (const v of (l.vocab ?? []).filter((x) => x.group === "glossary")) {
+      const head = tokens(v.fr).filter((w) => !IGNORE.has(w))[0];
+      if (head && !texts.includes(head)) lines.push(`  [glossary] "${v.fr}" isn't used in any longer text`);
+    }
+  }
   for (const p of fixed) {
     const there = l.body.includes(p) || (l.exercises ?? []).some((e) => JSON.stringify(e).includes(p));
     lines.push(`  [fixed phrase] ${p}${there ? "" : "  (listed in review-needed.md but not found in the lesson)"}`);

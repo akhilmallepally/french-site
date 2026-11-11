@@ -19,7 +19,12 @@ assert.deepEqual([...errors].sort(), [
   'a1/not-in-syllabus.mdx: <LessonLink id="a1-nowhere-text"> points to an unknown lesson (no file, and not in the syllabus)',
   'a1/not-in-syllabus.mdx: <LessonLink id="a1-written"> has an empty text prop',
   'a1/not-in-syllabus.mdx: related references unknown lesson id "a1-nowhere" (no file, and not in the syllabus)',
+  // B2 exercise types: rejected below B2 (b2-new-types.mdx uses all four correctly and produces nothing).
+  'a1/b2-type-too-early.mdx: exercises[0] (a1-b2-type-too-early-ex001): "reformulation" exercises are only allowed from B2 on',
+  'b2/bad-connector.mdx: exercises[0] (b2-bad-connector-ex001): connector-choice needs "options" with at least 2 choices',
+  'b2/bad-connector.mdx: exercises[0] (b2-bad-connector-ex001): connector-choice prompts must mark the gap with ___',
+  'b2/bad-connector.mdx: exercises[1] (b2-bad-connector-ex002): "options" is only allowed on multiple-choice and connector-choice exercises',
 ].sort());
 assert.deepEqual(warnings, []);
 
-console.log("Validator tests passed: planned ids allowed in related/LessonLink, rejected in prerequisites.");
+console.log("Validator tests passed: planned ids allowed in related/LessonLink, rejected in prerequisites; B2 exercise types checked.");

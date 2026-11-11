@@ -3,7 +3,7 @@
 import { useEffect, useLayoutEffect, useRef, useState, type FormEvent, type MouseEvent } from "react";
 import { checkAnswer, checkChoice, type AnswerResult, type AnswerStatus } from "@/lib/check-answer";
 import { isCompleted, progressStore, type LessonProgress } from "@/lib/progress";
-import type { Exercise } from "@/lib/types";
+import { TYPED_TYPES, type Exercise } from "@/lib/types";
 
 const FRENCH_CHARACTERS = ["é", "è", "ê", "ë", "à", "â", "ç", "î", "ï", "ô", "œ", "ù", "û", "ü"];
 
@@ -52,7 +52,7 @@ function createRun(exercises: Exercise[], id: number, mode: Run["mode"]): Run {
     finished: false,
     items: exercises.map((exercise) => ({
       exercise,
-      options: exercise.type === "multiple-choice" ? shuffle(exercise.options) : [],
+      options: exercise.type === "multiple-choice" || exercise.type === "connector-choice" ? shuffle(exercise.options) : [],
       chips: exercise.type === "reorder" ? shuffledChips(exercise.words) : [],
     })),
   };
@@ -163,10 +163,13 @@ function Question({
   const nextRef = useRef<HTMLButtonElement>(null);
   const caret = useRef<{ position: number; refocus: boolean } | null>(null);
 
-  const typed = exercise.type === "fill-in" || exercise.type === "translate";
+  // B2 types: reformulation, register-shift and error-correction are typed like translate;
+  // connector-choice picks from options like multiple-choice.
+  const hasOptions = exercise.type === "multiple-choice" || exercise.type === "connector-choice";
+  const textBox = TYPED_TYPES.includes(exercise.type);
+  const typed = exercise.type === "fill-in" || textBox;
   const checked = result !== null;
-  const canCheck =
-    exercise.type === "multiple-choice" ? picked !== null : exercise.type === "reorder" ? placed.length > 0 : text.trim() !== "";
+  const canCheck = hasOptions ? picked !== null : exercise.type === "reorder" ? placed.length > 0 : text.trim() !== "";
 
   useEffect(() => {
     if (takeFocus) rootRef.current?.querySelector<HTMLElement>("input, button:not([disabled])")?.focus();
@@ -191,7 +194,7 @@ function Question({
   function check(choice: string | null = picked) {
     if (checked) return;
     let outcome: AnswerResult;
-    if (exercise.type === "multiple-choice") {
+    if (hasOptions) {
       if (choice === null) return;
       outcome = checkChoice(choice, exercise.answers);
     } else if (exercise.type === "reorder") {
@@ -265,7 +268,7 @@ function Question({
         <p className="mt-6 font-serif text-xl leading-snug font-semibold sm:text-2xl">{exercise.prompt}</p>
       )}
 
-      {exercise.type === "translate" && (
+      {textBox && (
         <input {...inputProps} aria-label="Your answer" className={`${inputClass} mt-4 w-full`} />
       )}
 
@@ -288,7 +291,7 @@ function Question({
         </div>
       )}
 
-      {exercise.type === "multiple-choice" && (
+      {hasOptions && (
         <div className="mt-4 grid gap-2">
           {item.options.map((option) => {
             const isPicked = picked === option;

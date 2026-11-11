@@ -16,6 +16,12 @@
 - Before writing any lesson in a new unit, write the plan to docs/<level>-<unit>-plan.md and wait for approval.
 - After every batch, run npm run validate:content, npm run test:content, npm run test:checker, npm run audit:content and npm run build, fix errors, and report only real changes, not known non-defects (duplicate vocab across lessons, accent pairs like la/là). List what changed per file. Never commit.
 - When a lesson's scope changes, update docs/syllabus.md in the same batch and tell me.
+- B2 steps, in order:
+  1. The B2 conventions below, and the checks behind them, come first.
+  2. Write docs/b2-plan-overview.md (every lesson's scope, structures, prerequisites, and what's avoided or labelled) and wait for its review and approval.
+  3. Before each unit, write docs/b2-unit-NN-plan.md and wait for approval.
+  4. Write one unit per prompt.
+  5. After each unit, also run npm run check:words and npm run check:structures, fix every hit, and append the reply to docs/b2-writing-log.md under "Unit N".
 
 ## Lesson style
 - Open with one sentence: "By the end of this lesson you'll…". End with "## What's next", linking the next lesson with <LessonLink>.
@@ -79,5 +85,52 @@ These apply to B1 only. Where they differ from the general rules, they win.
 - Use only structures taught in A1, A2 or earlier B1 lessons in course order. Labelled fixed phrases are allowed, and each one goes in docs/review-needed.md. Mark formal and informal registers in examples.
 - Cultural claims (facts, dates, customs) go in docs/review-needed.md with the exact sentence.
 - Bullet points in teaching-text sections start with English, because lines starting with French italics are counted as dialogue or longer text.
+
+## B2 conventions
+B2 inherits every B1 rule unless it's overridden here. They apply to B2 lessons only.
+- **Teaching text** is in English.
+  - The first time a French term appears in B2, it's in italics with its English; after that, the French alone is fine.
+  - Every French example in the teaching text is translated.
+  - Teaching bullets still start with English.
+- **En résumé.** Every grammar and vocabulary lesson ends with a `## En résumé` section, just before "What's next". Review, communication and culture lessons don't have one.
+  - It's a recap in plain French prose (no italics, no translation) that only restates what the English taught, with no new information.
+  - It uses only words and structures from earlier lessons or from this lesson.
+  - Length: 60 to 100 words in Units 1 to 4, and 100 to 150 in Units 5 to 8.
+  - The audit leaves it out of the teaching text but counts it in the whole lesson.
+- **Exercise instructions** are in French, from this fixed list of *vous* forms: Complétez, Choisissez, Indiquez, Reformulez, Transformez, Corrigez, Remettez dans l'ordre, Conjuguez, Accordez, Mettez au… (à la…, aux…), Répondez, Rédigez, Traduisez, Trouvez.
+  - The instructions may also use: la phrase, le mot, le verbe, la forme, la bonne réponse, le connecteur, l'erreur, le registre, soutenu, familier, courant, le temps, le texte.
+  - b2-nuancing-opinions (lesson 1) introduces the list in a callout with English glosses. After that, check:words treats these words as known in every B2 lesson.
+  - Feedback and explanations stay in English.
+  - The list is also in scripts/b2-lists.ts (INSTRUCTION_VERBS and INSTRUCTION_NOUNS); keep the two in step.
+- **Lengths.**
+  - Teaching text: 800 to 1,100 words (1,200 for grammar). The whole lesson stays under 1,800.
+  - Vocab: 15 to 30 entries, not counting glossary entries. Review lessons keep 3 to 8 new words.
+  - Exercises: 14 to 16, with at least 3 production tasks (translate, reformulation, register-shift or error-correction), 1 reorder and 1 reformulation.
+  - Dialogues: 10 to 14 lines.
+  - Communication and culture lessons each have one longer text. Its word range isn't set yet: the planned 250 to 400 words wasn't applied, because B1 longer texts average 89 French words (see docs/b2-writing-log.md).
+- **New exercise types:** `reformulation`, `register-shift` and `error-correction` are typed answers. `connector-choice` picks from `options` to fill a ___ gap in the prompt. All four are graded by lib/check-answer.ts against `answers`, and the validator rejects them below B2.
+  - There's no free open writing: writing tasks keep the B1 model-answer pattern.
+- **Longer texts are original.**
+  - They may imitate real formats (an article, an opinion piece, a formal letter, a forum post, an interview).
+  - They never copy or paraphrase a real article, and they never invent quotes from real people.
+  - A glossary covers every word that isn't in an earlier vocab entry, except allowlisted cognates. Glossary entries are vocab entries with `group: "glossary"`, shown with `<VocabTable group="glossary" />` right after the text, and each one must be used in a longer text.
+- **Vocabulary.**
+  - Transparent cognates (such as *la démocratie*) in the COGNATES list in scripts/b2-lists.ts need no entry. False friends never go on that list: they always get a vocab entry or a gloss.
+  - A B2 vocab entry may not repeat an A1 to B1 entry, unless it's a new meaning listed in NEW_MEANINGS (scripts/b2-lists.ts) with the reason. The audit reports any other repeat as an error.
+- **No repeats.**
+  - A B2 lesson recaps earlier material in at most 2 or 3 sentences, with a LessonLink to the lesson that taught it, then teaches only what's new.
+  - No French example sentence or tip is copied from an earlier level (the audit checks identical sentences and tip texts).
+- **Structures.**
+  - The teaching text, exercises and En résumé are strict.
+  - A longer text may use at most 2 untaught structures. Each one is glossed in an English line inside the same section that starts with `Note:` and names the form in italics, for example "Note: *qu'il soit parti* is the past subjunctive, taught later in B2." check:structures counts these against the cap.
+- **Respellings:** every vocab entry has `pron`, using the same key as now.
+- **Passé simple** is for recognition only. Its recognition section is in lesson 46 (b2-arts-and-literature).
+  - Don't use it before lesson 46.
+  - After that, use it only in literary and historical texts and in recognition exercises, never in an answer the learner has to type.
+- **Register.**
+  - Spoken features (dropped *ne*, *on* for *nous*, *ça* for *cela*) are labelled as spoken, and kept out of exercise answers before lessons 53 and 54 (b2-registers, b2-colloquial-french).
+  - Regional variants (Belgium, Switzerland, Québec, Africa) appear only when labelled.
+  - The tu and vous rules continue.
+- **Facts:** uncertain facts go in docs/review-needed.md. Give no legal or official figures.
 
 @AGENTS.md

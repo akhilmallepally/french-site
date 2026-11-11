@@ -8,7 +8,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { sameWords } from "./check-answer.ts";
-import { EXERCISE_TYPES, type Exercise, type ExerciseType, type VocabItem } from "./types.ts";
+import { B2_EXERCISE_TYPES, EXERCISE_TYPES, OPTION_TYPES, type Exercise, type ExerciseType, type VocabItem } from "./types.ts";
 
 export { EXERCISE_TYPES };
 export type { Exercise, ExerciseType, VocabItem };
@@ -130,7 +130,7 @@ export function parseLesson(src: LessonSource): { lesson?: Lesson; errors: strin
     errors.push(`filename must be lowercase letters, digits and hyphens (got "${src.slug}.mdx")`);
   }
   const vocab = parseVocab(d.vocab, errors);
-  const exercises = parseExercises(d.exercises, errors);
+  const exercises = parseExercises(d.exercises, errors, d.level);
 
   if (errors.length) return { errors };
 
@@ -179,7 +179,8 @@ function parseVocab(value: unknown, errors: string[]): VocabItem[] {
 }
 
 /** exercises is optional; when present, each item is checked for its type's required fields. */
-function parseExercises(value: unknown, errors: string[]): Exercise[] {
+function parseExercises(value: unknown, errors: string[], level: unknown): Exercise[] {
+  const belowB2 = LEVELS.includes(level as Level) && levelIndex(level as Level) < levelIndex("B2");
   if (value === undefined) return [];
   if (!Array.isArray(value)) {
     errors.push(`"exercises" must be a list`);
@@ -193,15 +194,18 @@ function parseExercises(value: unknown, errors: string[]): Exercise[] {
     if (!EXERCISE_TYPES.includes(e.type as ExerciseType)) {
       errors.push(`${where}: "type" must be one of ${EXERCISE_TYPES.join(", ")} (got ${JSON.stringify(e.type)})`);
     }
+    if (belowB2 && B2_EXERCISE_TYPES.includes(e.type as ExerciseType)) {
+      errors.push(`${where}: "${e.type}" exercises are only allowed from B2 on`);
+    }
     if (!isStringArray(e.answers) || !e.answers.length) errors.push(`${where}: "answers" must be a non-empty list of strings`);
-    if (e.type === "multiple-choice") {
+    if (OPTION_TYPES.includes(e.type as ExerciseType)) {
       if (!isStringArray(e.options) || e.options.length < 2) {
-        errors.push(`${where}: multiple-choice needs "options" with at least 2 choices`);
+        errors.push(`${where}: ${e.type} needs "options" with at least 2 choices`);
       } else if (isStringArray(e.answers)) {
         for (const a of e.answers) if (!e.options.includes(a)) errors.push(`${where}: answer "${a}" is not one of the options`);
       }
     } else if (e.options !== undefined) {
-      errors.push(`${where}: "options" is only allowed on multiple-choice exercises`);
+      errors.push(`${where}: "options" is only allowed on multiple-choice and connector-choice exercises`);
     }
     if (e.type === "reorder") {
       if (!isStringArray(e.words) || !e.words.length) {
@@ -217,8 +221,8 @@ function parseExercises(value: unknown, errors: string[]): Exercise[] {
     if (e.strictAccents !== undefined && typeof e.strictAccents !== "boolean") {
       errors.push(`${where}: "strictAccents" must be true or false`);
     }
-    if (e.type === "fill-in" && isText(e.prompt) && !e.prompt.includes("___")) {
-      errors.push(`${where}: fill-in prompts must mark the gap with ___`);
+    if ((e.type === "fill-in" || e.type === "connector-choice") && isText(e.prompt) && !e.prompt.includes("___")) {
+      errors.push(`${where}: ${e.type} prompts must mark the gap with ___`);
     }
     return errors.length > before ? [] : [e as unknown as Exercise];
   });

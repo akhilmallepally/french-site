@@ -11,8 +11,19 @@ export type VocabItem = {
   note?: string;
 };
 
-export const EXERCISE_TYPES = ["multiple-choice", "fill-in", "translate", "reorder"] as const;
+export const EXERCISE_TYPES = [
+  "multiple-choice", "fill-in", "translate", "reorder",
+  // B2 and later (see "B2 conventions" in CLAUDE.md)
+  "reformulation", "register-shift", "connector-choice", "error-correction",
+] as const;
 export type ExerciseType = (typeof EXERCISE_TYPES)[number];
+
+/** Types only allowed from B2 on. */
+export const B2_EXERCISE_TYPES: readonly ExerciseType[] = ["reformulation", "register-shift", "connector-choice", "error-correction"];
+/** Types where the learner picks from `options`. */
+export const OPTION_TYPES: readonly ExerciseType[] = ["multiple-choice", "connector-choice"];
+/** Types where the learner types a whole answer in a text box (fill-in has its own gap input). */
+export const TYPED_TYPES: readonly ExerciseType[] = ["translate", "reformulation", "register-shift", "error-correction"];
 
 /**
  * Fields every practice item has. `id` is permanent (e.g. "a1-numbers-0-20-ex001").
@@ -38,4 +49,18 @@ export type ReorderExercise = ExerciseBase & {
   words: string[]; // each answer must use exactly these words
 };
 
-export type Exercise = MultipleChoiceExercise | FillInExercise | TranslateExercise | ReorderExercise;
+/** B2: rewrite a sentence with a given structure; typed, graded against `answers`. */
+export type ReformulationExercise = ExerciseBase & { type: "reformulation" };
+/** B2: rewrite a sentence in another register (formal ↔ informal); typed. */
+export type RegisterShiftExercise = ExerciseBase & { type: "register-shift" };
+/** B2: pick the connector that fits the gap (___) in the prompt. */
+export type ConnectorChoiceExercise = ExerciseBase & {
+  type: "connector-choice";
+  options: string[]; // every answer must be one of these
+};
+/** B2: retype the sentence with its mistake corrected; typed. */
+export type ErrorCorrectionExercise = ExerciseBase & { type: "error-correction" };
+
+export type Exercise =
+  | MultipleChoiceExercise | FillInExercise | TranslateExercise | ReorderExercise
+  | ReformulationExercise | RegisterShiftExercise | ConnectorChoiceExercise | ErrorCorrectionExercise;
