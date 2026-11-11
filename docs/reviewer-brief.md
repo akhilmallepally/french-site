@@ -66,6 +66,7 @@ The claims are grouped by lesson in course order, with the riskiest claim first 
 - [ ] "News reports often use the conditionnel for something they've heard but can't confirm: *Selon les journaux, le ministre serait malade*."
 - [ ] Politeness scale: *je veux*, then *je voudrais*, then *j'aimerais bien* ("softer still, … when you're asking for a favour").
 - [ ] "*Il paraît que* and *apparemment* say the same thing, but with an ordinary verb."
+- [ ] Conditionnel stems: *pouvoir* → *pourr-*, *devoir* → *devr-*, *savoir* → *saur-*, *venir* → *viendr-*, *voir* → *verr-*, *falloir* → *faudr-*.
 
 ### Si + imparfait, conditionnel (b1-si-imparfait-conditionnel)
 - [ ] "*Si j'aurais le temps* … You may hear it in casual speech, but it's considered a mistake."
@@ -92,7 +93,7 @@ The claims are grouped by lesson in course order, with the riskiest claim first 
 - [ ] "*Se rendre compte* … its participle doesn't agree, because the real object is *compte*: *elle s'est rendu compte*. *S'apercevoir* agrees normally: *elle s'est aperçue*."
 - [ ] "*Quand je suis arrivé, le train est parti*: the train leaves as you arrive" (compared with *était parti*).
 - [ ] "English often uses the simple past where French needs the plus-que-parfait: *Je me suis rendu compte que j'avais oublié mes clés*."
-- [ ] "*Je m'étais levé auparavant, mais j'étais encore fatigué.*" Does *auparavant* sound natural?
+- [ ] "*Nous avions déjà visité Lyon auparavant, alors nous sommes allés à la plage.*" Does *auparavant* sound natural?
 
 ### Time connectors (b1-time-connectors)
 - [ ] "About the future, *dès que* and *aussitôt que* take the futur, where English uses the present."
@@ -135,6 +136,7 @@ The claims are grouped by lesson in course order, with the riskiest claim first 
 - [ ] "*Sois*, *soyons*, *soyez*, *aie* and *ayez* are also the imperative forms of *être* and *avoir*." Is *ayons* one too?
 - [ ] "*Que j'aie*, *qu'il ait* and *qu'ils aient* all sound the same" (like *ai*).
 - [ ] "*Falloir* has one too, *qu'il faille*, but you'll rarely need it."
+- [ ] "*Être*, *avoir*, *faire*, *pouvoir* and *savoir* are exceptions to the rule … that *nous* and *vous* look like the imparfait": *que nous soyons*, *ayons*, *fassions*, *puissions*, *sachions*.
 
 ### Subjunctive after il faut que (b1-subjonctif-necessity)
 - [ ] "Each of these expressions also works with *de* + infinitive, for a general statement. With *il faut* and *il vaut mieux*, there's no *de*." (*il suffit de partir*)
@@ -178,6 +180,7 @@ The claims are grouped by lesson in course order, with the riskiest claim first 
 ### Double object pronouns (b1-double-object-pronouns)
 - [ ] Pronoun order: *me/te/se/nous/vous*, then *le/la/les*, then *lui/leur*, then *y*, then *en*.
 - [ ] "In negative commands, the normal order comes back: *Ne me le donne pas !*"
+- [ ] "*Me*, *te*, *nous* and *vous* can't go with *lui* or *leur*. When both people are pronouns, French puts one after *à*: *Il me présente à elle*."
 - [ ] "*Je la lui ai envoyée*": the participle agrees with *la*.
 
 ### Possessive pronouns (b1-possessive-pronouns)
@@ -305,6 +308,7 @@ The claims are grouped by lesson in course order, with the riskiest claim first 
 - [ ] "If you know the name, *Bonjour Madame Martin,* is fine in most emails, and *Madame,* or *Monsieur,* alone is more formal."
 - [ ] "French doesn't translate the 'please' [of 'Please find attached'] with *s'il vous plaît*": *Vous trouverez ci-joint…* or *Veuillez trouver ci-joint…*
 - [ ] "*Revenir vers vous* is everywhere in business emails, though some people find it a little heavy."
+- [ ] "*Suite à* … works like a preposition, and a noun follows it directly: *suite à votre demande*."
 
 ### Making a complaint (b1-making-a-complaint)
 - [ ] "*Une plainte* is a complaint in general, and *porter plainte* means making an official complaint to the police. To a shop or a company, the word is *une réclamation*."

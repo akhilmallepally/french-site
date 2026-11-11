@@ -673,6 +673,7 @@ Every date, tradition and regional detail, for checking:
 
 ## b1-conditionnel-present
 
+- **"The other stems are new here, and they work the same way in the futur: *pouvoir* → *pourr-*, *devoir* → *devr-*, *savoir* → *saur-*, *venir* → *viendr-*, *voir* → *verr-*, *falloir* → *faudr-*."** Confirm.
 - **"In careful speech, *-ai* sounds like the *é* of *été*, and *-ais* like the *è* of *mère*. Many speakers don't make the difference."** Confirm.
 - **"News reports often use the conditionnel for something they've heard but can't confirm."** Confirm, with *Selon les journaux, le ministre serait malade*.
 - **"*Pouvoir* has a double *r* in the conditionnel, like *mourir* and *voir* … *Devoir*, *vouloir* and *savoir* don't double."** Confirm.
@@ -709,7 +710,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Se rendre compte* is a reflexive verb, so it takes *être*, but its participle doesn't agree, because the real object is *compte*: *elle s'est rendu compte*. *S'apercevoir* agrees normally: *elle s'est aperçue*."** Confirm both.
 - **"English often uses the simple past where French needs the plus-que-parfait."** Confirm, with *Je me suis rendu compte que j'avais oublié mes clés*.
 - **"*Quand je suis arrivé, le train est parti*: the train leaves as you arrive."** Confirm this reading versus *était parti*.
-- **"*Je m'étais levé auparavant, mais j'étais encore fatigué.*"** Confirm *auparavant* reads naturally here.
+- **"*Nous avions déjà visité Lyon auparavant, alors nous sommes allés à la plage.*"** Confirm *auparavant* reads naturally here.
 
 ## b1-time-connectors
 
@@ -764,6 +765,8 @@ Every date, tradition and regional detail, for checking:
 
 ## b1-subjonctif-irregular
 
+- **"*Être*, *avoir*, *faire*, *pouvoir* and *savoir* are exceptions to the rule … that *nous* and *vous* look like the imparfait: *que nous soyons*, *que nous ayons*, *que nous fassions*, *que nous puissions*, *que nous sachions*."** Confirm.
+- **"There's no *i* after the *y* in *soyons*, *soyez*, *ayons* and *ayez*."** Confirm.
 - **"*Sois*, *soyons*, *soyez*, *aie* and *ayez* are also the imperative forms of *être* and *avoir*."** Confirm (and that *ayons* is too).
 - **"Most of the *avoir* forms sound like *ai*: *que j'aie*, *qu'il ait* and *qu'ils aient* all sound the same."** Confirm.
 - **"*Falloir* has one too, *qu'il faille*, but you'll rarely need it."** Confirm.
@@ -826,6 +829,8 @@ Every date, tradition and regional detail, for checking:
 ## b1-double-object-pronouns
 
 - **The order table *me/te/se/nous/vous* → *le/la/les* → *lui/leur* → *y* → *en*.** Confirm, and that the lesson's examples follow it.
+- **"The combinations you'll use most are *me / te / nous / vous* + *le / la / les*, *le / la / les* + *lui / leur*, *lui / leur* + *en*, and *y* + *en*."** Confirm.
+- **"*Me*, *te*, *nous* and *vous* can't go with *lui* or *leur*. When both people are pronouns, French puts one after *à*: *Il me présente à elle*."** Confirm.
 - **"In negative commands, the normal order comes back: *Ne me le donne pas !*"** Confirm.
 - **"*Je la lui ai envoyée*"**: agreement of the participle with *la* before the verb. Confirm.
 
@@ -1000,6 +1005,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Cordialement* and *Bien cordialement* are the usual closings for emails. *Je vous prie d'agréer…* … belongs to letters, and it sounds too heavy in most emails."** Confirm.
 - **"If you know the name, *Bonjour Madame Martin,* is fine in most emails, and *Madame,* or *Monsieur,* alone is more formal."** Confirm.
 - **"*Revenir vers vous* is everywhere in business emails, though some people find it a little heavy."** Confirm.
+- **"*Suite à* … works like a preposition, and a noun follows it directly: *suite à votre demande*."** Confirm.
 - **"French doesn't translate the 'please' with *s'il vous plaît*"** before *ci-joint*. Confirm.
 - **"Wait about a week, then send *une relance*."** Cultural advice; confirm.
 
