@@ -1303,3 +1303,27 @@ Every date, tradition and regional detail, for checking:
 
 - **"Teams that use *vous* in emails often switch to *tu* in internal calls, and many speakers use *on* for *nous* in meetings, even formal ones."** Spoken habits, labelled. Confirm.
 - **"French minutes usually start with the date and the list of participants, then give one numbered item per point of the agenda."** Confirm.
+
+## b2-negotiating
+
+- **"*Quitte à* + infinitive means 'even if it means'."** Confirm.
+- **"Si + imparfait with the conditionnel sounds more polite than si + present"** (ex008). Confirm.
+- **"*Une remise* is a discount"** (vs *une réduction*). Confirm the nuance.
+
+## b2-presenting-data
+
+- **"French writes a space before the % sign: *10 %*."** Confirm.
+- **"*Augmenter de* + the size of the change; *passer de… à* gives the starting and the final figure; *passer* takes *être* here."** Confirm.
+- **"*Les données* (data) is plural in French."** Confirm.
+- All figures in the lesson are invented (no real statistics).
+
+## b2-formal-report
+
+- **"*Il importe que* ... takes the subjunctive"; "*il apparaît que* takes the indicative."** Confirm.
+- **The report plan** (*objet*, *contexte*, *constat*, *analyse*, *recommandations*, *suivi*). Confirm it reflects common French workplace practice.
+- **"When you need a personal voice, for a team, *nous* is acceptable in the recommendations."** Confirm.
+
+## b2-review-work
+
+- **"*Un collaborateur* is the formal word many companies use for an employee or a colleague."** Confirm.
+- **"*La qualité de vie au travail* is a common phrase in French companies."** Confirm.

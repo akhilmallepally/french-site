@@ -217,3 +217,16 @@
 - **Checks:** check:words, check:structures, audit (only the earlier purpose ex014), validate, test:content, test:checker (29/29) and build all pass. A1 to B1 output is unchanged.
 - **review-needed.md:** 16 items under 5 ids: the false friends and *PME*, *fait* / *laissé* agreement, the spelling pairs, past-infinitive negatives, *remercier de / pour*, *nier* + infinitive, and the spoken meeting habits.
 - **Not done:** no fluent-speaker check. Part 2 (negotiating to review-work) is still to write.
+
+## Unit 5, part 2
+
+- **Teaching-text words:** negotiating 809, presenting-data 806, formal-report 806, review-work 831 (all b2-).
+- **Register deviation:** the presenting-data dialogue uses *vous* (the plan had *tu*), per the workplace rule. All four dialogues are *vous*.
+- **Vocab deviations:**
+  - Recaps instead of entries: *une proposition* (b2-meetings glossary), *un compromis*, *un rapport* (b2-futur-anterieur), *une piste*, *à long terme*, *le télétravail*.
+  - Added: *fournisseur*, *acheteur*, *commande*, *baisser*, *élevé*, *les ventes*, *l'évolution*, *la part*, *un plan d'action*, and glossaries (*fictif*, *remarquable*, *isolement*, *satisfait*). *Près de* and *état des lieux* were already in NEW_MEANINGS.
+- **Exercise and text deviations:** *la plupart*, *en tête* and *pour cent* were kept out of negotiating (not yet taught there). The *quoi* filler is avoided, and figures are invented and labelled. *Laisser* + infinitive is practised in review-work (a section, ex002, ex015, ex016).
+- **Fixes after the audit:** strictAccents added; three longer texts brought to 150 or more words; new sections (opening and closing a negotiation, structuring a presentation, one fact at three report levels); bullets that read as dialogue reworded.
+- **Checks:** check:words, check:structures, audit (only the earlier purpose ex014), validate, test:content, test:checker (29/29) and build all pass. A1 to B1 output is unchanged.
+- **review-needed.md:** 11 items under 4 ids: *quitte à*, polite *si* + imparfait, *remise*, the % spacing, *augmenter de / passer de… à*, *données*, *il importe / il apparaît que*, the report plan, *nous* in reports, *collaborateur* and *qualité de vie au travail*.
+- **Not done:** no fluent-speaker check.

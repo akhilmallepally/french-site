@@ -1,6 +1,6 @@
 # All lesson data
 
-200 written lessons, in course order.
+204 written lessons, in course order.
 
 ## a1-greetings
 
@@ -7907,3 +7907,182 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-meetings-and-calls-ex013 | translate | Rédigez cet ordre du jour au futur, en complétant comme indiqué : D'abord, nous (will take stock: faire le point) sur le projet. Ensuite, Claire (will speak: prendre la parole) sur le budget. Enfin, nous (will decide: trancher) la question du calendrier. | — | ["D'abord, nous ferons le point sur le projet. Ensuite, Claire prendra la parole sur le budget. Enfin, nous trancherons la question du calendrier."] | false | Three items in the futur simple, with d'abord, ensuite and enfin.
 - b2-meetings-and-calls-ex014 | translate | Rédigez ce compte rendu en complétant comme indiqué : (It was decided) de repousser la fin du projet. La proposition (was adopted: passé composé) (unanimously). | — | ["Il a été décidé de repousser la fin du projet. La proposition a été adoptée à l'unanimité."] | true | An impersonal passive, then a passive with agreement: adoptée.
 - b2-meetings-and-calls-ex015 | reorder | Remettez dans l'ordre : I'll hand over to Claire. | — | ["Je passe la parole à Claire"] | false | Passer la parole à + the person.
+
+## b2-negotiating
+
+### Vocab
+
+fr | pron | en | note
+
+- un fournisseur / une fournisseuse | uhn foor-nee-SUHR / ewn foor-nee-SUHZ | a supplier | —
+- un acheteur / une acheteuse | uh-nahsh-TUHR / ew-nahsh-TUHZ | a buyer | —
+- une commande | ewn koh-MAHND | an order | Passer une commande; commander.
+- un délai de livraison | uhn day-leh duh lee-vreh-ZOHN | a delivery time | —
+- faire une offre | fehr ew-NOF-ruh | to make an offer | —
+- une contre-proposition | ewn kohn-truh-proh-poh-zee-SYOHN | a counter-offer | —
+- nous serions prêts à | noo suh-ryohn preh-ZAH | we'd be willing to | + infinitive.
+- ce serait envisageable | suh suh-reh ahn-vee-zah-ZHAH-bluh | it could be considered | —
+- une remise | ewn ruh-MEEZ | a discount (on a price) | —
+- baisser | beh-SAY | to lower, to go down | Baisser le prix.
+- élevé / élevée | ay-luh-VAY | high (of a price, a level) | —
+- en échange de | ahn-nay-SHAHNZH duh | in exchange for | —
+- dans ce cas | dahn suh KAH | in that case | —
+- quitte à | KEET ah | even if it means | + infinitive.
+- non négociable | nohn nay-goh-SYAH-bluh | non-negotiable | —
+- une marge de manœuvre | ewn marzh duh mah-NUH-vruh | room for manoeuvre | —
+- céder | say-DAY | to give way, to give in | Like préférer: je cède.
+- faire un geste | fehr uhn ZHEST | to make a gesture (a small concession) | —
+- trouver un terrain d'entente | troo-vay uhn teh-ran dahn-TAHNT | to find common ground | —
+- conclure un accord | kohn-klew-ruh-nah-KOR | to strike a deal, to conclude an agreement | —
+- un engagement | uh-nahn-gahzh-MAHN | a commitment | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-negotiating-ex001 | multiple-choice | Indiquez le sens de cette phrase dans une négociation : Dans ce cas, nous pourrions faire un geste sur le prix. | ["a concession","a refusal","a greeting"] | ["a concession"] | false | Faire un geste offers a small concession.
+- b2-negotiating-ex002 | fill-in | Conjuguez payer au subjonctif : Nous ferons une remise à condition que vous ___ avant mai. | — | ["payiez"] | false | À condition que + subjunctive: que vous payiez.
+- b2-negotiating-ex003 | fill-in | Conjuguez pouvoir au subjonctif : Nous signons, à condition que vous ___ livrer en juin. | — | ["puissiez"] | false | À condition que + subjunctive: que vous puissiez.
+- b2-negotiating-ex004 | fill-in | Complétez : Nous baissons le prix en ___ d'une commande plus importante. | — | ["échange"] | false | En échange de: in exchange for.
+- b2-negotiating-ex005 | connector-choice | Choisissez le connecteur : Nous acceptons votre offre, ___ le prix change d'ici là. | ["à moins que","parce que","dès que"] | ["à moins que"] | false | À moins que + subjunctive: unless. Parce que and dès que take the indicative.
+- b2-negotiating-ex006 | register-shift | Transformez en registre soutenu, en commençant par « Je regrette, mais » : Non, ce n'est pas possible ! | — | ["Je regrette, mais ce ne serait pas possible","Je regrette, mais ce n'est pas possible"] | false | A polite refusal: an apology, then a softer phrase, often in the conditionnel.
+- b2-negotiating-ex007 | register-shift | Transformez en registre soutenu, avec le conditionnel : Nous voulons une remise. | — | ["Nous voudrions une remise","Nous aimerions une remise"] | false | The conditionnel softens a request.
+- b2-negotiating-ex008 | reformulation | Reformulez avec « si » + imparfait et « nous serions prêts à » : Si vous payez avant mai, nous baissons le prix. | — | ["Si vous payiez avant mai, nous serions prêts à baisser le prix","Nous serions prêts à baisser le prix si vous payiez avant mai"] | true | Si + imparfait with the conditionnel sounds more polite than si + present.
+- b2-negotiating-ex009 | reformulation | Reformulez avec « certes…, mais » : Le prix est élevé. Le délai est court. | — | ["Certes, le prix est élevé, mais le délai est court"] | false | Certes concedes the first point, mais brings the second.
+- b2-negotiating-ex010 | error-correction | Corrigez l'erreur : Nous signons à condition que vous payez à la commande. | — | ["Nous signons à condition que vous payiez à la commande"] | true | À condition que takes the subjunctive: payiez.
+- b2-negotiating-ex011 | multiple-choice | Indiquez le sens de : Quitte à payer plus, nous voulons tout en juin. | ["Even if it means paying more","Because we're paying more","So as not to pay more"] | ["Even if it means paying more"] | false | Quitte à + infinitive: even if it means.
+- b2-negotiating-ex012 | translate | Traduisez : We'd be willing to lower the price if you ordered more. | — | ["Nous serions prêts à baisser le prix si vous commandiez plus","Nous serions prêts à baisser le prix si vous en commandiez plus"] | true | Nous serions prêts à + infinitive, then si + imparfait.
+- b2-negotiating-ex013 | translate | Rédigez en complétant comme indiqué : Je vous fais (a counter-offer). Nous (would be willing to) livrer en juin, (on condition that) vous (pay: payer) à la commande. | — | ["Je vous fais une contre-proposition. Nous serions prêts à livrer en juin, à condition que vous payiez à la commande."] | true | A counter-offer, a conditional willingness and a condition with the subjunctive.
+- b2-negotiating-ex014 | translate | Rédigez ce mail en complétant comme indiqué : Madame, je vous confirme (our agreement). Nous (commit to: s'engager à) livrer avant le 15 juin. (In exchange), vous paierez à la commande. | — | ["Madame, je vous confirme notre accord. Nous nous engageons à livrer avant le 15 juin. En échange, vous paierez à la commande."] | true | Confirming the terms: the agreement, the commitment and the exchange.
+- b2-negotiating-ex015 | reorder | Remettez dans l'ordre : We have found common ground. | — | ["Nous avons trouvé un terrain d'entente"] | false | Trouver un terrain d'entente: to find common ground.
+
+## b2-presenting-data
+
+### Vocab
+
+fr | pron | en | note
+
+- un graphique | uhn grah-FEEK | a chart, a graph | —
+- une courbe | ewn KOORB | a curve, a line (on a chart) | —
+- un tableau | uhn tah-BLOH | a table (of figures) | —
+- les données | lay doh-NAY | data | —
+- l'évolution | lay-voh-lew-SYOHN | the change over time, the trend | —
+- les ventes | lay VAHNT | sales | —
+- augmenter de | og-mahn-tay DUH | to rise by | Augmenter de 5 %: the size of the change.
+- passer de… à | pah-SAY duh … ah | to go from… to | —
+- progresser | proh-greh-SAY | to grow, to increase steadily | —
+- chuter | shew-TAY | to fall sharply | —
+- se stabiliser | suh stah-bee-lee-ZAY | to level off | —
+- doubler / tripler | doo-BLAY / tree-PLAY | to double / to triple | —
+- nettement | net-MAHN | clearly, markedly | —
+- pour cent | poor SAHN | per cent | Written 10 %, with a space before %.
+- un pourcentage | uhn poor-sahn-TAHZH | a percentage | —
+- la moitié | lah mwah-TYAY | half | —
+- un tiers / un quart | uhn TYEHR / uhn KAR | a third / a quarter | —
+- la part | lah PAR | the share, the proportion | —
+- environ | ahn-vee-ROHN | about, approximately | —
+- près de | preh DUH | nearly, almost (with a figure) | Also 'near', for a place.
+- un taux | uhn TOH | a rate | Le taux de chômage.
+- une moyenne / en moyenne | ewn mwah-YEN / ahn mwah-YEN | an average / on average | —
+- plus… plus | PLEW … PLEW | the more… the more | —
+- d'autant plus que | doh-tahn plew KUH | all the more since, especially as | —
+- fictif / fictive | feek-TEEF / feek-TEEV | invented, not real | —
+- remarquable | ruh-mar-KAH-bluh | remarkable | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-presenting-data-ex001 | multiple-choice | Choisissez le verbe pour une baisse très forte. | ["chuter","progresser","se stabiliser"] | ["chuter"] | false | Chuter: to fall sharply.
+- b2-presenting-data-ex002 | fill-in | Complétez : Les ventes ont augmenté ___ 10 %. | — | ["de"] | false | Augmenter de + the size of the change.
+- b2-presenting-data-ex003 | fill-in | Complétez : 50 %, c'est la ___. | — | ["moitié"] | false | La moitié: half.
+- b2-presenting-data-ex004 | fill-in | Complétez : En ___, un salarié a deux primes par an. | — | ["moyenne"] | false | En moyenne: on average.
+- b2-presenting-data-ex005 | connector-choice | Choisissez la bonne réponse : Le taux de chômage est ___ 8 % à 6 %. | ["passé de","augmenté de","doublé de"] | ["passé de"] | false | Passer de… à gives the starting and the final figure.
+- b2-presenting-data-ex006 | reformulation | Reformulez avec un verbe : Les ventes sont passées de 100 à 300. | — | ["Les ventes ont triplé"] | false | From 100 to 300: tripler.
+- b2-presenting-data-ex007 | reformulation | Reformulez en groupe nominal, avec « une augmentation » : Les ventes ont augmenté de 5 %. | — | ["Une augmentation des ventes de 5 %","Une augmentation de 5 % des ventes"] | false | The verb becomes a noun; de links the rest.
+- b2-presenting-data-ex008 | register-shift | Transformez en registre soutenu, avec « progresser » : Les ventes, ça monte bien. | — | ["Les ventes progressent nettement","Les ventes progressent bien"] | false | A written commentary avoids ça and the dislocation.
+- b2-presenting-data-ex009 | error-correction | Corrigez l'erreur : Le prix a augmenté par 5 %. | — | ["Le prix a augmenté de 5 %"] | true | The size of the change follows de, not par.
+- b2-presenting-data-ex010 | multiple-choice | Indiquez le sens de : Plus on attend, plus c'est cher. | ["The longer you wait, the more expensive it is.","If you wait, it's cheaper.","You wait more, but it's cheap."] | ["The longer you wait, the more expensive it is."] | false | Plus… plus: the more… the more.
+- b2-presenting-data-ex011 | fill-in | Complétez : Cette hausse est d'___ plus importante que le marché recule. | — | ["autant"] | false | D'autant plus… que: all the more… since.
+- b2-presenting-data-ex012 | translate | Traduisez avec « augmenter de » : Sales rose by 10% in two years. | — | ["Les ventes ont augmenté de 10 % en deux ans","Les ventes ont augmenté de dix pour cent en deux ans","Les ventes ont augmenté de 10 pour cent en deux ans"] | false | Augmenter de + the percentage, then en + the period.
+- b2-presenting-data-ex013 | translate | Rédigez en complétant comme indiqué : Le graphique montre (the trend) des ventes. Elles (went from) 20 % (to) 30 %. Elles ont donc (risen by) 50 %. | — | ["Le graphique montre l'évolution des ventes. Elles sont passées de 20 % à 30 %. Elles ont donc augmenté de 50 %."] | true | L'évolution, passer de… à (with être) and augmenter de.
+- b2-presenting-data-ex014 | translate | Rédigez en complétant comme indiqué : (On average), nos équipes font deux réunions par semaine. Dans notre équipe, c'est (nearly) quatre, (that is to say) (clearly) plus. | — | ["En moyenne, nos équipes font deux réunions par semaine. Dans notre équipe, c'est près de quatre, c'est-à-dire nettement plus."] | true | En moyenne, près de and nettement for a comparison.
+- b2-presenting-data-ex015 | reorder | Remettez dans l'ordre : The more you work, the more you progress. | — | ["Plus on travaille, plus on progresse"] | false | Plus + clause, plus + clause, with no article.
+
+## b2-formal-report
+
+### Vocab
+
+fr | pron | en | note
+
+- un état des lieux | uh-nay-tah day LYUH | an overview of a situation, a status report | —
+- le constat | luh kohn-STAH | the findings (what has been observed) | —
+- une recommandation | ewn ruh-koh-mahn-dah-SYOHN | a recommendation | —
+- une annexe | ew-nah-NEKS | an appendix | En annexe: in the appendix.
+- il apparaît que | ee-lah-pah-reh KUH | it appears that | + indicative.
+- il convient de | eel kohn-vyan DUH | it's advisable to, one should | + infinitive.
+- il est recommandé de | ee-leh ruh-koh-mahn-day DUH | it's recommended to | + infinitive.
+- il importe que | ee-lan-port KUH | it's important that | + subjunctive.
+- préconiser | pray-koh-nee-ZAY | to recommend (formally) | —
+- mettre en œuvre / la mise en œuvre | meh-trahn-NUH-vruh / lah mee-zahn-NUH-vruh | to implement / implementation | —
+- à court terme / à moyen terme | ah koor TEHRM / ah mwah-yan TEHRM | in the short term / in the medium term | —
+- un axe d'amélioration | uh-nahks dah-may-lyoh-rah-SYOHN | an area for improvement | —
+- un indicateur | uh-nan-dee-kah-TUHR | an indicator, a measure of progress | —
+- un plan d'action | uhn plahn dak-SYOHN | an action plan | —
+- le suivi | luh swee-VEE | the follow-up | —
+- l'isolement / isolé | lee-zol-MAHN / ee-zoh-LAY | isolation / isolated | —
+- satisfait / satisfaite | sah-tees-FEH / sah-tees-FET | satisfied | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-formal-report-ex001 | multiple-choice | Choisissez la partie du rapport qui présente les faits. | ["le constat","les recommandations","l'annexe"] | ["le constat"] | false | Le constat gives the findings; the recommendations come after the analysis.
+- b2-formal-report-ex002 | fill-in | Complétez : Il ___ de réduire les coûts. | — | ["convient"] | false | Il convient de + infinitive: it's advisable to.
+- b2-formal-report-ex003 | fill-in | Conjuguez être au subjonctif : Il importe que le rapport ___ court. | — | ["soit"] | false | Il importe que + subjunctive.
+- b2-formal-report-ex004 | fill-in | Complétez avec un verbe à l'infinitif : Il faut maintenant ___ en œuvre ces recommandations. | — | ["mettre"] | false | Mettre en œuvre: to implement.
+- b2-formal-report-ex005 | connector-choice | Choisissez le connecteur : Les salariés sont satisfaits. ___, la productivité est restée stable. | ["En outre","Pourtant","Faute de"] | ["En outre"] | false | En outre adds a second positive point. Pourtant would contrast, and faute de needs a noun.
+- b2-formal-report-ex006 | register-shift | Transformez en style de rapport, avec « il convient de » : On doit vite changer la procédure. | — | ["Il convient de changer rapidement la procédure","Il convient de changer la procédure rapidement"] | false | Il convient de + infinitive, and rapidement instead of the spoken vite.
+- b2-formal-report-ex007 | register-shift | Transformez en registre courant, pour un mail à des collègues, avec « nous devons » : Il convient de réduire les coûts. | — | ["Nous devons réduire les coûts"] | false | Among colleagues, a direct nous devons replaces the impersonal phrase.
+- b2-formal-report-ex008 | reformulation | Reformulez au passif : L'équipe mettra en œuvre ces mesures. | — | ["Ces mesures seront mises en œuvre par l'équipe"] | false | The futur passive: seront mises, agreeing with ces mesures.
+- b2-formal-report-ex009 | reformulation | Reformulez avec « il est recommandé de » : Je recommande de faire une réunion par semaine. | — | ["Il est recommandé de faire une réunion par semaine"] | false | A report avoids je: il est recommandé de + infinitive.
+- b2-formal-report-ex010 | error-correction | Corrigez l'erreur : Il importe que les salariés sont informés. | — | ["Il importe que les salariés soient informés"] | false | Il importe que takes the subjunctive: soient.
+- b2-formal-report-ex011 | multiple-choice | Indiquez le sens de « préconiser ». | ["to recommend","to predict","to prepare"] | ["to recommend"] | false | Préconiser: to recommend formally.
+- b2-formal-report-ex012 | translate | Traduisez : It is advisable to reduce costs. | — | ["Il convient de réduire les coûts","Il est recommandé de réduire les coûts"] | false | Il convient de or il est recommandé de + infinitive.
+- b2-formal-report-ex013 | translate | Rédigez ce constat en complétant comme indiqué : (It appears that) les salariés (are) satisfaits. (According to) le sondage, (about) 70 % d'entre eux veulent garder le télétravail. | — | ["Il apparaît que les salariés sont satisfaits. Selon le sondage, environ 70 % d'entre eux veulent garder le télétravail.","Il apparaît que les salariés sont satisfaits. D'après le sondage, environ 70 % d'entre eux veulent garder le télétravail."] | false | Il apparaît que + indicative, then the source and an approximate figure.
+- b2-formal-report-ex014 | translate | Rédigez ces recommandations en complétant comme indiqué : (It is advisable to) garder deux jours de télétravail. (It is important that) chaque équipe (meets: se réunir) une fois par semaine. | — | ["Il convient de garder deux jours de télétravail. Il importe que chaque équipe se réunisse une fois par semaine.","Il est recommandé de garder deux jours de télétravail. Il importe que chaque équipe se réunisse une fois par semaine."] | false | An impersonal recommendation, then il importe que + subjunctive.
+- b2-formal-report-ex015 | reorder | Remettez dans l'ordre : The data are in the appendix. | — | ["Les données sont en annexe"] | false | En annexe: in the appendix.
+
+## b2-review-work
+
+### Vocab
+
+fr | pron | en | note
+
+- la qualité de vie au travail | lah kah-lee-tay duh vee oh trah-VAH-y | quality of working life | —
+- un bilan d'activité | uhn bee-lahn dak-tee-vee-TAY | an activity report, an annual review of work | —
+- une enquête interne | ew-nahn-ket an-TEHRN | an internal survey | —
+- un collaborateur / une collaboratrice | uhn koh-lah-boh-rah-TUHR / ewn koh-lah-boh-rah-TREESS | a colleague, a member of staff (formal) | —
+- une charge de travail | ewn sharzh duh trah-VAH-y | a workload | —
+- épuisé / épuisée | ay-pwee-ZAY | exhausted, worn out | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-review-work-ex001 | fill-in | Complétez avec faire au présent : Nous ___ réparer le chauffage par un prestataire. | — | ["faisons"] | false | Faire + infinitive: the contractor does the repair.
+- b2-review-work-ex002 | fill-in | Complétez avec laisser au présent : Le chef ___ les collaborateurs organiser leur temps. | — | ["laisse"] | false | Laisser + infinitive: he lets them organize their time.
+- b2-review-work-ex003 | fill-in | Mettez au participe présent (travailler) : Les salariés ___ le week-end ont une prime. | — | ["travaillant"] | false | The participe présent replaces qui travaillent.
+- b2-review-work-ex004 | fill-in | Mettez à l'infinitif passé (finir) : Après ___ l'enquête, nous avons écrit le rapport. | — | ["avoir fini"] | false | Après + past infinitive, for the earlier action.
+- b2-review-work-ex005 | connector-choice | Choisissez le connecteur : Nous embaucherons deux personnes, ___ le budget soit suffisant. | ["à condition que","parce que","dès que"] | ["à condition que"] | false | À condition que + subjunctive. Parce que and dès que take the indicative.
+- b2-review-work-ex006 | connector-choice | Choisissez le connecteur : La charge de travail a augmenté. ___, l'absentéisme a doublé. | ["Par conséquent","Pourtant","À moins que"] | ["Par conséquent"] | false | Par conséquent introduces a result.
+- b2-review-work-ex007 | multiple-choice | Choisissez la phrase du registre soutenu, pour un rapport. | ["Il convient d'embaucher deux personnes.","On doit vite embaucher deux personnes.","Embauchez deux personnes, c'est tout !"] | ["Il convient d'embaucher deux personnes."] | false | Il convient de: the impersonal style of a report.
+- b2-review-work-ex008 | reformulation | Reformulez avec « après avoir » : Nous avons fait l'enquête, puis nous avons écrit le rapport. | — | ["Après avoir fait l'enquête, nous avons écrit le rapport"] | false | Same subject: après avoir + participle.
+- b2-review-work-ex009 | reformulation | Reformulez avec un participe présent : Comme ils n'avaient pas le temps, les salariés n'ont pas appris le logiciel. | — | ["N'ayant pas le temps, les salariés n'ont pas appris le logiciel"] | false | N'ayant pas replaces comme + imparfait in written style.
+- b2-review-work-ex010 | error-correction | Corrigez l'erreur : Les prestataires, nous les avons faits venir lundi. | — | ["Les prestataires, nous les avons fait venir lundi"] | false | Fait doesn't agree before an infinitive.
+- b2-review-work-ex011 | register-shift | Transformez en style de rapport, avec « il importe que » : Les chefs doivent écouter les salariés. | — | ["Il importe que les chefs écoutent les salariés"] | false | Il importe que + subjunctive: écoutent.
+- b2-review-work-ex012 | multiple-choice | Indiquez le sens de « une charge de travail ». | ["a workload","a salary","a work tool"] | ["a workload"] | false | Une charge de travail: the amount of work a person has to do.
+- b2-review-work-ex013 | translate | Traduisez avec « dire que » : Many employees say they are exhausted. | — | ["Beaucoup de salariés disent qu'ils sont épuisés","Beaucoup de collaborateurs disent qu'ils sont épuisés"] | false | Dire que + indicative; épuisés agrees with the plural subject.
+- b2-review-work-ex014 | translate | Rédigez ce constat en complétant comme indiqué : (It appears that) la charge de travail (has risen: augmenter). (According to) l'enquête interne, (nearly) un collaborateur sur trois est épuisé. | — | ["Il apparaît que la charge de travail a augmenté. Selon l'enquête interne, près d'un collaborateur sur trois est épuisé.","Il apparaît que la charge de travail a augmenté. D'après l'enquête interne, près d'un collaborateur sur trois est épuisé."] | true | Il apparaît que + indicative, a source, and près de with a figure.
+- b2-review-work-ex015 | translate | Rédigez ces recommandations en complétant comme indiqué : (It is advisable to) embaucher deux personnes. Il est recommandé de (have … given: faire donner) une formation par le prestataire. Il importe que les chefs (let: laisser) les collaborateurs organiser leur temps. | — | ["Il convient d'embaucher deux personnes. Il est recommandé de faire donner une formation par le prestataire. Il importe que les chefs laissent les collaborateurs organiser leur temps.","Il est recommandé d'embaucher deux personnes. Il est recommandé de faire donner une formation par le prestataire. Il importe que les chefs laissent les collaborateurs organiser leur temps."] | false | An impersonal recommendation, the causative, and laisser + infinitive after il importe que.
+- b2-review-work-ex016 | reorder | Remettez dans l'ordre : Let the team organize its time. | — | ["Laissez l'équipe organiser son temps"] | false | Laisser + noun + infinitive.

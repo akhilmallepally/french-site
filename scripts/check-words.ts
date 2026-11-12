@@ -41,7 +41,7 @@ const IGNORE = new Set([
   // irregular forms of verbs defined elsewhere
   "souviens", "souvient", "souviennent", "souvenons", "souvenez",
   "deviendrais", "deviendrait", "deviendrai", "deviendra", "aperçu", "aperçue", "disparu", "disparue", "paie", "paies", "nourrisse", "nourrisses", "envoie", "envoies", "préviens", "prévient", "prévienne", "préviennent",
-  "réussisse", "comprennent", "compreniez", "agisse", "promis", "promise", "tiendrait", "tiendrais", "permis", "admis", "rappelle", "rappellent", "pourront", "convienne", "convient", "reviens", "atteint", "atteints", "reviendrait", "ouvert", "ouverte",
+  "réussisse", "comprennent", "compreniez", "agisse", "promis", "promise", "tiendrait", "tiendrais", "permis", "admis", "rappelle", "rappellent", "pourront", "convienne", "convient", "reviens", "atteint", "atteints", "paierons", "paierez", "paierai", "paiera", "réunisse", "réunissent", "reviendrait", "ouvert", "ouverte",
   // grammar terms and film titles
   "plus-que-parfait", "parfait", "souffle", "intouchables", "ch'tis",
   "montréal", "québec", "genève", "marseille", "rouen", "avignon", "cannes", "dupont", "martin", "dubois",
