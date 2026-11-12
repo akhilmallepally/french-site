@@ -41,7 +41,7 @@ médical médicale méthode méthodes négociation objection opposition paradoxa
 participant participante position positions priorité probabilité procédure profil prévention racisme registre
 restauration rhétorique rime risque risques romantisme récession satirique scandale scène solidarité spécialiste
 stratégie surprise surréalisme suspect symboliser thème thèmes transition électoral électorale émotion émotions absentéisme
-excellent excellente présentation action actions ambiance changement opposition coalition scandale politique électoral électorale monument monuments historique développement création importance sécurité taxe maximum satirique système systèmes profil profils priorité priorités récession inflation exporter importer économique économiques financier financière intervention interventions maintenance négociation négociations partenaire partenaires statistique statistiques majorité minorité analyse analyses contexte période périodes total productivité stable absentéisme
+excellent excellente présentation action actions ambiance changement opposition coalition scandale politique électoral électorale monument monuments historique développement création importance sécurité taxe maximum satirique système systèmes profil profils priorité priorités récession inflation exporter importer économique économiques financier financière intervention interventions maintenance négociation négociations partenaire partenaires statistique statistiques majorité minorité analyse analyses contexte période périodes total productivité stable absentéisme laboratoire laboratoires méthode méthodes observer analyser scientifique scientifiques biologie virus spécialiste spécialistes consultation consultations prévention médical médicale médicaux probabilité probabilités risque risques incertain incertaine concentration transition transitions paragraphe paragraphes introduction introductions
 `.trim().split(/\s+/));
 
 // A B2 vocab entry may repeat an A1–B1 entry only when it teaches a new meaning, listed here
@@ -55,6 +55,7 @@ export const NEW_MEANINGS: Record<string, string> = {
   "un état des lieux": "B2 (b2-formal-report): an overview of a situation. b1-housing-and-renting taught an inventory check.",
   "quoi": "B2 (b2-colloquial-french): the filler at the end of a sentence. a1-question-words taught what.",
   "trop": "B2 (b2-colloquial-french): very, in familiar speech. a2-adverbs-ment taught too (much).",
+  "une expérience": "B2 (b2-science-and-research): an experiment. b1-careers-and-job-hunting taught experience (l'expérience).",
   "une société": "B2 (b2-economy-and-business): a company. Society is on the cognate list and in b2-review-nuance (un débat de société).",
   "une action": "B2 (b2-economy-and-business): a share in a company. Action (an act) is on the cognate list.",
   "un serveur": "B2 (b2-relative-lequel): a computer server. a2-jobs-and-workplace taught a waiter (un serveur / une serveuse).",

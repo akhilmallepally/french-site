@@ -230,3 +230,18 @@
 - **Checks:** check:words, check:structures, audit (only the earlier purpose ex014), validate, test:content, test:checker (29/29) and build all pass. A1 to B1 output is unchanged.
 - **review-needed.md:** 11 items under 4 ids: *quitte à*, polite *si* + imparfait, *remise*, the % spacing, *augmenter de / passer de… à*, *données*, *il importe / il apparaît que*, the report plan, *nous* in reports, *collaborateur* and *qualité de vie au travail*.
 - **Not done:** no fluent-speaker check.
+
+## Unit 6
+
+- Written: b2-science-and-research (41), b2-health-system (42), b2-certainty-and-probability (43), b2-argumentative-essay (44), b2-review-science (45).
+- Teaching words (whole lesson): science 877 (1,247), health 821 (1,206), certainty 804 (1,170, well within the grammar cap, so nothing had to be cut), essay 890 (1,654), review 896 (1,336). Model essay 249 French words, after trimming from 254.
+- Deviations from the plan:
+  - health-system: added entries for *la santé*, *une maladie* and *un adulte*, which weren't in the earlier vocab.
+  - science-and-research: recaps *une preuve* (b1-expressing-doubt-certainty) instead of a new entry.
+  - argumentative-essay: added *le sujet* and *une amorce* (19 entries plus 7 glossary); *ouverture* is a B2 new meaning, so it's in the note, not in NEW_MEANINGS (which covers A1 to B1 only).
+  - review-science: *obligatoire* replaces *un progrès* (A2 has *faire des progrès*).
+- Fixed while checking: strictAccents on 3 exercises; teaching text below 800 in lessons 41 to 43, fixed with real sections (describing a study, questions to ask about a study, one visit step by step, where the adverb goes); untaught phrases replaced (*poser un problème*, *y voir*, *au lieu de*, *faire partie de*); an *adultes* that came before its lesson; mixed connector variants added to two plan-announcement answers.
+- Lists: COGNATES gained *transition(s)*, *paragraphe(s)*, *introduction(s)* and *concentration*, and B2_ENGLISH gained 5 prompt words.
+- Checks: check:words 110 (baseline), check:structures 0, audit 0 B2 rows for Unit 6, validate OK, test:content and test:checker passed (29/29), build OK. A1 to B1 words, structures and all-data unchanged; the audit differs only in B2 row labels and the lesson count.
+- review-needed.md: 5 new sections (mood claims, the *sans doute* false friend, *le fait que*, health-system facts with no rates, the dissertation plan and *nous*/*je*, the precautionary principle).
+- Not done: nothing.

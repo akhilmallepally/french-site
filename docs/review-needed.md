@@ -1327,3 +1327,44 @@ Every date, tradition and regional detail, for checking:
 
 - **"*Un collaborateur* is the formal word many companies use for an employee or a colleague."** Confirm.
 - **"*La qualité de vie au travail* is a common phrase in French companies."** Confirm.
+
+## b2-science-and-research
+
+- **"Science news ... uses the conditionnel for results that aren't confirmed: *ce traitement aiderait les malades*."** Confirm.
+- **"*Une revue scientifique* (a scientific journal); outside science, *une revue* is a magazine."** Confirm.
+- **"In a laboratory, *une expérience* is an experiment ... You *fais une expérience*, but you *as de l'expérience*."** Confirm.
+- **"*Démontrer* and *prouver* are strong; a result that only *montre* a link is weaker."** Confirm the nuance.
+- **"Research needs *le financement* (funding), often from the State, universities or companies."** Confirm (general fact).
+
+## b2-health-system
+
+- **"Going through this doctor first, before seeing *un spécialiste*, is called the coordinated care route, and it gives better reimbursement."** Confirm (no rates given).
+- **"Most people also have *une mutuelle*, a top-up insurance, often through their employer."** Confirm.
+- **"*Une clinique* ... is usually a private hospital, not a GP's surgery."** Confirm.
+- **"The doctor gives you *un arrêt maladie* (a sick note), which you send to your employer."** Confirm the procedure is described neutrally enough.
+- **"*Les déserts médicaux* are areas, often rural, where there are too few doctors."** Confirm (no figures given).
+- **"*La prise en charge* means coverage ... and also the care given to a patient."** Confirm.
+
+## b2-certainty-and-probability
+
+- **"*Il est probable que* + indicative; *il est possible que*, *il se peut que*, *il est peu probable que*, *il n'est pas certain que* + subjunctive."** Confirm.
+- **"*Il semblerait que* ... keeps the subjunctive."** Confirm (the indicative is also heard).
+- **"*Sans doute* ... means 'probably' ... To say 'without any doubt', add *aucun*."** Confirm.
+- **"*Le fait que* ... usually takes the subjunctive, especially at the start of the sentence ... the subjunctive is the safe choice."** Confirm.
+- **"With a compound tense ... [the adverb] usually goes between the auxiliary and the participle ... this position inside the verb group is the safest one."** Confirm.
+- **"*Il a dû oublier* ... is close to the futur antérieur of supposition: *il aura oublié*."** Confirm.
+
+## b2-argumentative-essay
+
+- **"French students learn one classic plan for it, the dialectical plan, in three parts"** (thèse, antithèse, synthèse). Confirm.
+- **"A French dissertation avoids *je* ... use *nous* for the writer."** Confirm (ex009 accepts only *nous* answers).
+- **"For other subjects, a plan in two parts is also common."** Confirm.
+- **The introduction moves** (*amorce*, *problématique*, *annonce du plan*) and the conclusion with an *ouverture*. Confirm the terms.
+- **"*Force est de constater que* + indicative"; "*il s'agit de*: its subject is only *il*."** Confirm.
+- **"*Une ouverture*" as the final wider question** is a new meaning of b2-nominalisation's *l'ouverture*. Confirm.
+
+## b2-review-science
+
+- **"*Le principe de précaution* says that a risk can justify action before science is certain."** Confirm the definition (neutral, no legal claim).
+- **"*Un comité d'éthique* is a group that gives its opinion on what is right in research or medicine."** Confirm.
+- **The model essay on compulsory prevention** gives general arguments only, with no figures and no medical advice. Confirm it reads as neutral.

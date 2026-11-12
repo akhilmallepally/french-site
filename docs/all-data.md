@@ -1,6 +1,6 @@
 # All lesson data
 
-204 written lessons, in course order.
+209 written lessons, in course order.
 
 ## a1-greetings
 
@@ -8086,3 +8086,226 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-review-work-ex014 | translate | Rédigez ce constat en complétant comme indiqué : (It appears that) la charge de travail (has risen: augmenter). (According to) l'enquête interne, (nearly) un collaborateur sur trois est épuisé. | — | ["Il apparaît que la charge de travail a augmenté. Selon l'enquête interne, près d'un collaborateur sur trois est épuisé.","Il apparaît que la charge de travail a augmenté. D'après l'enquête interne, près d'un collaborateur sur trois est épuisé."] | true | Il apparaît que + indicative, a source, and près de with a figure.
 - b2-review-work-ex015 | translate | Rédigez ces recommandations en complétant comme indiqué : (It is advisable to) embaucher deux personnes. Il est recommandé de (have … given: faire donner) une formation par le prestataire. Il importe que les chefs (let: laisser) les collaborateurs organiser leur temps. | — | ["Il convient d'embaucher deux personnes. Il est recommandé de faire donner une formation par le prestataire. Il importe que les chefs laissent les collaborateurs organiser leur temps.","Il est recommandé d'embaucher deux personnes. Il est recommandé de faire donner une formation par le prestataire. Il importe que les chefs laissent les collaborateurs organiser leur temps."] | false | An impersonal recommendation, the causative, and laisser + infinitive after il importe que.
 - b2-review-work-ex016 | reorder | Remettez dans l'ordre : Let the team organize its time. | — | ["Laissez l'équipe organiser son temps"] | false | Laisser + noun + infinitive.
+
+## b2-science-and-research
+
+### Vocab
+
+fr | pron | en | note
+
+- la recherche | lah ruh-SHEHRSH | research | Also 'a search'.
+- un chercheur / une chercheuse | uhn shehr-SHUHR / ewn shehr-SHUHZ | a researcher | —
+- un laboratoire | uhn lah-boh-rah-TWAHR | a laboratory | —
+- le financement | luh fee-nahns-MAHN | funding | —
+- une hypothèse | ew-nee-poh-TEZ | a hypothesis | —
+- une étude | ew-nay-TEWD | a study (a piece of research) | —
+- mener une étude | muh-nay ew-nay-TEWD | to carry out a study | Like acheter: je mène.
+- une expérience | ew-neks-pay-RYAHNSS | an experiment | Also 'experience'.
+- une méthode | ewn may-TOD | a method | —
+- un échantillon | uh-nay-shahn-tee-YOHN | a sample | —
+- mesurer | muh-zew-RAY | to measure | —
+- un résultat | uhn ray-zewl-TAH | a result | —
+- démontrer | day-mohn-TRAY | to demonstrate, to show | —
+- prouver | proo-VAY | to prove | —
+- tirer une conclusion | tee-ray ewn kohn-klew-ZYOHN | to draw a conclusion | —
+- une découverte | ewn day-koo-VEHRT | a discovery | —
+- une avancée | ew-nah-vahn-SAY | an advance, a breakthrough | —
+- une revue scientifique | ewn ruh-vew see-ahn-tee-FEEK | a scientific journal | Une revue is also a magazine.
+- un brevet | uhn bruh-VEH | a patent | —
+- un vaccin | uhn vak-SAN | a vaccine | —
+- un traitement | uhn tret-MAHN | a treatment | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-science-and-research-ex001 | fill-in | Complétez : Avant l'expérience, le chercheur propose une ___ : une idée à vérifier. | — | ["hypothèse"] | false | Une hypothèse: an idea that the research will test.
+- b2-science-and-research-ex002 | fill-in | Complétez : Les chercheurs ont étudié un ___ de mille personnes. | — | ["échantillon"] | false | Un échantillon: a sample.
+- b2-science-and-research-ex003 | fill-in | Complétez avec un verbe à l'infinitif : Cette équipe va ___ une étude sur le sommeil. | — | ["mener"] | false | Mener une étude: to carry out a study.
+- b2-science-and-research-ex004 | fill-in | Complétez : Le chercheur a fait une grande ___ : personne ne connaissait ce virus. | — | ["découverte"] | false | Une découverte: something found for the first time.
+- b2-science-and-research-ex005 | fill-in | Complétez : Sans ___, les chercheurs ne peuvent pas continuer leur recherche. | — | ["financement"] | false | Le financement: the money that pays for research.
+- b2-science-and-research-ex006 | multiple-choice | Indiquez le sens de « une expérience » dans un laboratoire. | ["an experiment","life experience","a job"] | ["an experiment"] | false | In a laboratory, une expérience is an experiment.
+- b2-science-and-research-ex007 | multiple-choice | Indiquez le sens de : Elle fait de la recherche en biologie. | ["She does research in biology.","She's looking for a biology book.","She teaches biology."] | ["She does research in biology."] | false | Faire de la recherche: to do research.
+- b2-science-and-research-ex008 | multiple-choice | Indiquez le sens de « une revue scientifique ». | ["a scientific journal","a meeting of scientists","a TV programme"] | ["a scientific journal"] | false | Une revue scientifique publishes research articles.
+- b2-science-and-research-ex009 | multiple-choice | Choisissez le bon ordre pour une recherche. | ["hypothèse, expérience, résultats, publication","publication, hypothèse, résultats, expérience","résultats, publication, expérience, hypothèse"] | ["hypothèse, expérience, résultats, publication"] | false | Research starts with a hypothesis and ends with publication.
+- b2-science-and-research-ex010 | reformulation | Reformulez au passif : Les chercheurs ont mené l'étude en mars. | — | ["L'étude a été menée par les chercheurs en mars","L'étude a été menée en mars par les chercheurs"] | true | The passé composé passive: a été menée, agreeing with l'étude.
+- b2-science-and-research-ex011 | error-correction | Corrigez l'erreur de verbe : Hier, nous avons eu une expérience au laboratoire. | — | ["Hier, nous avons fait une expérience au laboratoire"] | false | An experiment is something you do: faire une expérience. Avoir de l'expérience means to be experienced.
+- b2-science-and-research-ex012 | translate | Traduisez avec « mener » : The researchers carried out a study. | — | ["Les chercheurs ont mené une étude","Les chercheuses ont mené une étude"] | false | Mener une étude in the passé composé.
+- b2-science-and-research-ex013 | translate | Traduisez : This result has not been proven. | — | ["Ce résultat n'a pas été prouvé","Ce résultat n'a pas été démontré"] | true | The passé composé passive in the negative: n'a pas été prouvé.
+- b2-science-and-research-ex014 | translate | Rédigez en complétant comme indiqué : Les chercheurs ont testé (a hypothesis). Ils ont (measured: mesurer) les résultats sur deux (samples). Enfin, ils (published: publier) leur étude dans (a scientific journal). | — | ["Les chercheurs ont testé une hypothèse. Ils ont mesuré les résultats sur deux échantillons. Enfin, ils ont publié leur étude dans une revue scientifique."] | false | The steps of a study: hypothesis, measurement, publication.
+- b2-science-and-research-ex015 | reorder | Remettez dans l'ordre : The study was published in a journal. | — | ["L'étude a été publiée dans une revue"] | false | The passive: a été publiée, agreeing with l'étude.
+
+## b2-health-system
+
+### Vocab
+
+fr | pron | en | note
+
+- la santé / la santé publique | lah sahn-TAY / lah sahn-tay pew-BLEEK | health / public health | —
+- la Sécurité sociale | lah say-kew-ree-tay soh-SYAHL | the state health insurance system | —
+- une mutuelle | ewn mew-TWEL | top-up health insurance | —
+- le reste à charge | luh res-tah SHARZH | out-of-pocket costs (what the patient still pays) | —
+- la prise en charge | lah pree-zahn SHARZH | coverage; the care given to a patient | —
+- un adulte / une adulte | uh-nah-DEWLT / ew-nah-DEWLT | an adult | —
+- un généraliste | uhn zhay-nay-rah-LEEST | a GP, a general practitioner | —
+- un spécialiste | uhn spay-syah-LEEST | a specialist | —
+- les urgences | lay-zewr-ZHAHNSS | A&E, the emergency department | —
+- une clinique | ewn klee-NEEK | a private hospital | False friend: not a GP's surgery.
+- le personnel soignant | luh pehr-soh-nel swah-NYAHN | healthcare staff (nurses, carers) | —
+- soigner | swah-NYAY | to treat, to care for | —
+- un arrêt maladie | uh-nah-reh mah-lah-DEE | sick leave, a sick note | —
+- une maladie / une maladie chronique | ewn mah-lah-DEE / ewn mah-lah-dee kroh-NEEK | an illness / a chronic illness | —
+- la prévention | lah pray-vahn-SYOHN | prevention | —
+- le dépistage | luh day-pees-TAHZH | screening | —
+- une campagne de vaccination | ewn kahn-pah-nyuh duh vak-see-nah-SYOHN | a vaccination campaign | —
+- se faire vacciner | suh fehr vak-see-NAY | to get vaccinated | —
+- un désert médical | uhn day-zehr may-dee-KAHL | an area with too few doctors | —
+- un délai d'attente | uhn day-leh dah-TAHNT | a waiting time | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-health-system-ex001 | fill-in | Complétez : La Sécurité sociale paie une partie, et la ___ paie souvent le reste. | — | ["mutuelle"] | false | Une mutuelle: top-up insurance that covers what the Sécurité sociale doesn't.
+- b2-health-system-ex002 | fill-in | Complétez : Chaque adulte choisit un médecin ___, en général un généraliste. | — | ["traitant"] | false | Le médecin traitant: the doctor you register with.
+- b2-health-system-ex003 | fill-in | Complétez : Pour un problème très grave, on va aux ___ de l'hôpital. | — | ["urgences"] | false | Les urgences: the emergency department.
+- b2-health-system-ex004 | fill-in | Complétez : Le ___ permet de trouver une maladie avant les premiers signes. | — | ["dépistage"] | false | Le dépistage: screening.
+- b2-health-system-ex005 | fill-in | Complétez : Elle est malade : le médecin lui a donné un arrêt ___ de trois jours. | — | ["maladie"] | false | Un arrêt maladie: sick leave.
+- b2-health-system-ex006 | multiple-choice | Choisissez la phrase qui décrit le système français. | ["La Sécurité sociale paie une partie, et la mutuelle souvent le reste.","Le malade paie toujours tout.","La mutuelle paie tout, et la Sécurité sociale rien."] | ["La Sécurité sociale paie une partie, et la mutuelle souvent le reste."] | false | Costs are shared between the Sécurité sociale, the mutuelle and, sometimes, the patient.
+- b2-health-system-ex007 | multiple-choice | Indiquez le sens de « une clinique » en France. | ["a private hospital","a GP's surgery","a pharmacy"] | ["a private hospital"] | false | Une clinique is usually a private hospital, not a GP's surgery.
+- b2-health-system-ex008 | multiple-choice | Indiquez le sens de « un désert médical ». | ["an area with too few doctors","a hospital in the desert","a medical school"] | ["an area with too few doctors"] | false | Un désert médical: a place where it's hard to find a doctor.
+- b2-health-system-ex009 | multiple-choice | Trouvez le mot qui ne va pas avec les autres. | ["une mutuelle","un généraliste","un spécialiste"] | ["une mutuelle"] | false | Un généraliste and un spécialiste are doctors; une mutuelle is insurance.
+- b2-health-system-ex010 | reformulation | Reformulez au passif : La Sécurité sociale rembourse une partie de la consultation. | — | ["Une partie de la consultation est remboursée par la Sécurité sociale"] | false | The present passive: est remboursée, agreeing with une partie.
+- b2-health-system-ex011 | error-correction | Corrigez l'erreur : J'ai mal à la tête, je vais à la clinique voir mon généraliste. | — | ["J'ai mal à la tête, je vais chez mon généraliste"] | true | Une clinique is a private hospital. You go chez your GP.
+- b2-health-system-ex012 | translate | Traduisez avec « devoir » et « généraliste » : I have to choose a GP. | — | ["Je dois choisir un généraliste"] | false | Devoir + infinitive.
+- b2-health-system-ex013 | translate | Traduisez avec « traitement » : Prevention costs less than treatment. | — | ["La prévention coûte moins cher que le traitement","La prévention coûte moins cher que les traitements"] | false | Coûter moins cher que: to cost less than.
+- b2-health-system-ex014 | translate | Rédigez en complétant comme indiqué : En France, chaque adulte choisit (a GP: médecin traitant). (State health insurance) rembourse une partie de la consultation, et (top-up insurance) paie souvent le reste. | — | ["En France, chaque adulte choisit un médecin traitant. La Sécurité sociale rembourse une partie de la consultation, et la mutuelle paie souvent le reste."] | false | The three parts of the system: the médecin traitant, the Sécurité sociale and the mutuelle.
+- b2-health-system-ex015 | reorder | Remettez dans l'ordre : I got vaccinated last week. | — | ["Je me suis fait vacciner la semaine dernière"] | false | Se faire + infinitive; fait doesn't agree.
+
+## b2-certainty-and-probability
+
+### Vocab
+
+fr | pron | en | note
+
+- il est certain que | ee-leh sehr-tan KUH | it's certain that | + indicative.
+- il est probable que | ee-leh proh-BAH-bluh kuh | it's likely that | + indicative.
+- il est possible que | ee-leh poh-SEE-bluh kuh | it's possible that | + subjunctive.
+- il se peut que | eel suh puh KUH | it may be that | + subjunctive.
+- il est peu probable que | ee-leh puh proh-BAH-bluh kuh | it's unlikely that | + subjunctive.
+- il n'est pas certain que | eel neh pah sehr-tan KUH | it's not certain that | + subjunctive.
+- il semblerait que | eel sahn-bluh-reh KUH | it would seem that | + subjunctive.
+- sans doute | sahn DOOT | probably | False friend: not 'without doubt'.
+- sans aucun doute | sahn-zoh-kuhn DOOT | without any doubt, certainly | —
+- probablement | proh-bah-bluh-MAHN | probably | —
+- vraisemblablement | vreh-sahn-blah-bluh-MAHN | in all likelihood | —
+- il doit être… | eel dwah-TEH-truh | he must be… (a deduction) | Il a dû oublier: he must have forgotten.
+- le fait que | luh feh KUH | the fact that | Usually + subjunctive.
+- une incertitude | ew-nan-sehr-tee-TEWD | an uncertainty | —
+- prévisible | pray-vee-ZEE-bluh | predictable | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-certainty-and-probability-ex001 | fill-in | Conjuguez venir au subjonctif : Il est possible qu'il ___ demain. | — | ["vienne"] | false | Il est possible que + subjunctive.
+- b2-certainty-and-probability-ex002 | fill-in | Conjuguez pleuvoir au futur : Il est probable qu'il ___ demain. | — | ["pleuvra"] | false | Il est probable que + indicative, here the futur.
+- b2-certainty-and-probability-ex003 | fill-in | Conjuguez être au subjonctif : Il se peut que le train ___ en retard. | — | ["soit"] | false | Il se peut que + subjunctive.
+- b2-certainty-and-probability-ex004 | fill-in | Conjuguez être au subjonctif : Le fait qu'il ___ absent m'inquiète. | — | ["soit"] | false | Le fait que at the start of a sentence takes the subjunctive.
+- b2-certainty-and-probability-ex005 | multiple-choice | Indiquez le sens de « sans doute » : Il viendra sans doute. | ["probably","without any doubt","doubtfully"] | ["probably"] | false | Sans doute is a false friend: it means probably. For 'without any doubt', say sans aucun doute.
+- b2-certainty-and-probability-ex006 | multiple-choice | Choisissez l'expression la plus sûre. | ["il est certain que","il est probable que","il se peut que"] | ["il est certain que"] | false | Certain is stronger than probable, which is stronger than il se peut.
+- b2-certainty-and-probability-ex007 | connector-choice | Choisissez la bonne expression : ___ il pleuve demain. | ["Il se peut qu'","Il est probable qu'","Il est certain qu'"] | ["Il se peut qu'"] | false | Pleuve is subjunctive, so only il se peut que fits. The other two take the indicative.
+- b2-certainty-and-probability-ex008 | reformulation | Reformulez avec « il se peut que » : Peut-être qu'il viendra. | — | ["Il se peut qu'il vienne"] | false | Il se peut que + subjunctive.
+- b2-certainty-and-probability-ex009 | reformulation | Reformulez avec « devoir » : Il est sûrement malade. | — | ["Il doit être malade"] | false | Devoir expresses a deduction: he must be ill.
+- b2-certainty-and-probability-ex010 | error-correction | Corrigez l'erreur : Il est possible qu'il viendra. | — | ["Il est possible qu'il vienne"] | false | Il est possible que takes the subjunctive.
+- b2-certainty-and-probability-ex011 | register-shift | Transformez en registre courant, avec « peut-être que » : Il se peut qu'elle soit en retard. | — | ["Peut-être qu'elle est en retard","Peut-être qu'elle sera en retard"] | false | Peut-être que takes the indicative.
+- b2-certainty-and-probability-ex012 | translate | Traduisez : It's likely that it will rain. | — | ["Il est probable qu'il pleuvra","Il est probable qu'il va pleuvoir"] | false | Il est probable que + indicative.
+- b2-certainty-and-probability-ex013 | translate | Traduisez : He must have forgotten. | — | ["Il a dû oublier","Il aura oublié"] | true | Epistemic devoir in the passé composé, or the futur antérieur of supposition.
+- b2-certainty-and-probability-ex014 | translate | Rédigez en complétant comme indiqué : (It's certain that) les prix (will rise: augmenter, futur). (It's possible that) le marché (is: être) plus calme en juin. (It's unlikely that) la situation (changes: changer) vite. | — | ["Il est certain que les prix augmenteront. Il est possible que le marché soit plus calme en juin. Il est peu probable que la situation change vite."] | false | Indicative after certain, subjunctive after possible and peu probable.
+- b2-certainty-and-probability-ex015 | reorder | Remettez dans l'ordre : It may be that she's right. | — | ["Il se peut qu'elle ait raison"] | false | Il se peut que + subjunctive.
+
+## b2-argumentative-essay
+
+### Vocab
+
+fr | pron | en | note
+
+- une dissertation | ewn dee-sehr-tah-SYOHN | an essay (at school or university) | False friend: not a doctoral dissertation, which is une thèse.
+- le sujet | luh sew-ZHEH | the essay question, the topic | —
+- la thèse | lah TEZ | the thesis (the first position) | Also a doctoral thesis.
+- l'antithèse | lahn-tee-TEZ | the antithesis (the opposite position) | —
+- la synthèse | lah san-TEZ | the synthesis (a position that goes beyond both) | —
+- un paragraphe | uhn pah-rah-GRAHF | a paragraph | —
+- une transition | ewn trahn-zee-SYOHN | a transition (a sentence that links two parts) | —
+- une amorce | ew-nah-MORSS | an opening sentence, a hook | —
+- la problématique | lah proh-blay-mah-TEEK | the central question of an essay | —
+- on peut se demander si | ohn puh suh duh-mahn-DAY see | one may wonder whether | —
+- annoncer le plan | ah-nohn-say luh PLAHN | to announce the outline | —
+- dans un premier temps | dahn-zuhn pruh-myay TAHN | first, in a first part | —
+- dans un second temps | dahn-zuhn suh-gohn TAHN | second, in a second part | The c of second sounds like g.
+- force est de constater que | forss eh duh kohn-stah-TAY kuh | one has to admit that | + indicative. Formal.
+- il s'agit de | eel sah-ZHEE duh | it's a matter of, it's about | Impersonal: only il. + noun or infinitive.
+- étayer | ay-teh-YAY | to support (an argument) | —
+- un exemple concret | uh-neg-zahm-pluh kohn-KREH | a concrete example | —
+- en guise de conclusion | ahn geez duh kohn-klew-ZYOHN | by way of conclusion | —
+- une ouverture | ew-noo-vehr-TEWR | a final opening onto a wider question | New meaning: in b2-nominalisation, l'ouverture is the opening of a shop or a border.
+- partout | par-TOO | everywhere | —
+- une limite | ewn lee-MEET | a limit, a weakness | —
+- encadrer | ahn-kah-DRAY | to regulate, to supervise | —
+- le numérique | luh new-may-REEK | digital technology | Also an adjective: un outil numérique (a digital tool).
+- un enseignant / une enseignante | uh-nahn-seh-NYAHN / ew-nahn-seh-NYAHNT | a teacher | —
+- autoriser | oh-toh-ree-ZAY | to allow | —
+- un équilibre | uh-nay-kee-LEE-bruh | a balance | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-argumentative-essay-ex001 | multiple-choice | Choisissez la partie qui présente les arguments contre la thèse. | ["l'antithèse","la synthèse","l'amorce"] | ["l'antithèse"] | false | The antithesis gives the opposite position; the synthesis goes beyond both.
+- b2-argumentative-essay-ex002 | fill-in | Complétez : La ___ est la question centrale de la dissertation. | — | ["problématique"] | false | La problématique turns the sujet into the question the essay answers.
+- b2-argumentative-essay-ex003 | fill-in | Complétez : Dans un premier ___, nous verrons les avantages des écrans. | — | ["temps"] | false | Dans un premier temps, then dans un second temps, announce the parts.
+- b2-argumentative-essay-ex004 | multiple-choice | Choisissez le sens de « une dissertation ». | ["a school essay","a doctoral thesis","a conversation"] | ["a school essay"] | false | Une dissertation is a false friend: it's an essay. A doctoral dissertation is une thèse.
+- b2-argumentative-essay-ex005 | connector-choice | Choisissez le connecteur : Les écrans gênent la concentration. ___, certains outils numériques aident les élèves les plus faibles. | ["Cependant","En effet","Par conséquent"] | ["Cependant"] | false | Cependant opens the antithesis: the second sentence goes against the first.
+- b2-argumentative-essay-ex006 | register-shift | Mettez au registre soutenu, avec « force est de constater que » : Franchement, les écrans, ça gêne la concentration. | — | ["Force est de constater que les écrans gênent la concentration"] | false | The formal phrase replaces franchement, and the spoken ça disappears: les écrans gênent.
+- b2-argumentative-essay-ex007 | reformulation | Reformulez avec « force est de constater que » : Je pense que les élèves lisent moins. | — | ["Force est de constater que les élèves lisent moins"] | false | Force est de constater que + indicative removes the je.
+- b2-argumentative-essay-ex008 | reformulation | Reformulez la question avec « on peut se demander si » : L'école doit-elle interdire les écrans ? | — | ["On peut se demander si l'école doit interdire les écrans"] | false | The direct question becomes an indirect one after si, with normal word order.
+- b2-argumentative-essay-ex009 | error-correction | Corrigez l'erreur de registre, avec nous : Dans cette dissertation, je vais montrer que les écrans sont importants. | — | ["Dans cette dissertation, nous allons montrer que les écrans sont importants","Dans cette dissertation, nous montrerons que les écrans sont importants"] | false | A French essay avoids je; the writer uses nous.
+- b2-argumentative-essay-ex010 | fill-in | Complétez : Il ___ de savoir si les écrans aident les élèves. | — | ["s'agit"] | false | Il s'agit de: it's a matter of. Only il is possible as the subject.
+- b2-argumentative-essay-ex011 | multiple-choice | Choisissez le bon ordre pour une introduction. | ["amorce, problématique, annonce du plan","problématique, annonce du plan, amorce","annonce du plan, amorce, problématique"] | ["amorce, problématique, annonce du plan"] | false | Open the subject, ask the central question, then announce the parts.
+- b2-argumentative-essay-ex012 | translate | Traduisez : One may wonder whether screens help pupils. | — | ["On peut se demander si les écrans aident les élèves"] | false | On peut se demander si + indicative introduces the problématique.
+- b2-argumentative-essay-ex013 | translate | Rédigez cette introduction en complétant comme indiqué : (One may wonder whether) le télétravail (is) une bonne solution. (First), nous verrons ses avantages. (Second), nous montrerons ses limites. | — | ["On peut se demander si le télétravail est une bonne solution. Dans un premier temps, nous verrons ses avantages. Dans un second temps, nous montrerons ses limites.","On peut se demander si le télétravail est une bonne solution. D'abord, nous verrons ses avantages. Ensuite, nous montrerons ses limites.","On peut se demander si le télétravail est une bonne solution. Dans un premier temps, nous verrons ses avantages. Ensuite, nous montrerons ses limites.","On peut se demander si le télétravail est une bonne solution. D'abord, nous verrons ses avantages. Dans un second temps, nous montrerons ses limites."] | false | The problématique, then the announced plan. Dans un premier temps and dans un second temps are the essay style.
+- b2-argumentative-essay-ex014 | translate | Rédigez cette conclusion en complétant comme indiqué : (By way of conclusion), le télétravail (has) des avantages et des limites. (One may wonder whether) il (will change: futur simple) le monde du travail. | — | ["En guise de conclusion, le télétravail a des avantages et des limites. On peut se demander s'il changera le monde du travail."] | true | The bilan in one sentence, then the ouverture as an indirect question. Si + il becomes s'il.
+- b2-argumentative-essay-ex015 | reorder | Remettez dans l'ordre : It's a matter of finding a balance. | — | ["Il s'agit de trouver un équilibre"] | false | Il s'agit de + infinitive.
+
+## b2-review-science
+
+### Vocab
+
+fr | pron | en | note
+
+- obligatoire | oh-blee-gah-TWAHR | compulsory | —
+- un enjeu de santé publique | uh-nahn-ZHUH duh sahn-tay pew-BLEEK | a public-health issue | —
+- une controverse | ewn kohn-troh-VEHRSS | a controversy | —
+- le principe de précaution | luh pran-seep duh pray-koh-SYOHN | the precautionary principle | —
+- un comité d'éthique | uhn koh-mee-tay day-TEEK | an ethics committee | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-review-science-ex001 | fill-in | Conjuguez être : Il est possible que cette mesure ___ obligatoire. | — | ["soit"] | false | Il est possible que is below probable on the scale, so it takes the subjunctive.
+- b2-review-science-ex002 | fill-in | Conjuguez être au futur : Il est probable que cette mesure ___ obligatoire l'an prochain. | — | ["sera"] | false | Il est probable que takes the indicative, here the futur simple.
+- b2-review-science-ex003 | fill-in | Complétez avec un nom : On interdit les écrans. → L'___ des écrans. | — | ["interdiction"] | false | Interdire gives l'interdiction, a typical noun of the nominal style.
+- b2-review-science-ex004 | fill-in | Complétez : ___ est de constater que la prévention protège aussi les autres. | — | ["Force"] | false | Force est de constater que + indicative: one has to admit that.
+- b2-review-science-ex005 | connector-choice | Choisissez le connecteur : La prévention protège la santé de tous. ___, avec une mesure obligatoire, chacun perd une partie de sa liberté. | ["Cependant","En effet","De plus"] | ["Cependant"] | false | Cependant opens the opposite argument, as at the start of an antithesis.
+- b2-review-science-ex006 | connector-choice | Choisissez le connecteur : Le dépistage trouve certaines maladies plus tôt. ___, les médecins peuvent les soigner plus tôt. | ["Par conséquent","Pourtant","Néanmoins"] | ["Par conséquent"] | false | Par conséquent introduces a consequence; pourtant and néanmoins introduce an opposition.
+- b2-review-science-ex007 | multiple-choice | Choisissez la bonne réponse. | ["Il se peut que cette mesure soit nécessaire.","Il se peut que cette mesure est nécessaire.","Il se peut que cette mesure sera nécessaire."] | ["Il se peut que cette mesure soit nécessaire."] | false | Il se peut que takes the subjunctive: soit.
+- b2-review-science-ex008 | reformulation | Reformulez avec « le fait que » : Certains citoyens doutent, et cela inquiète le comité d'éthique. | — | ["Le fait que certains citoyens doutent inquiète le comité d'éthique"] | false | Le fait que turns the clause into the subject, with the subjunctive (doutent is the same form).
+- b2-review-science-ex009 | reformulation | Reformulez avec « il est peu probable que » : Une mesure obligatoire ne donnera sans doute pas confiance aux citoyens. | — | ["Il est peu probable qu'une mesure obligatoire donne confiance aux citoyens"] | false | Sans doute pas means probably not, so il est peu probable que, with the subjunctive donne.
+- b2-review-science-ex010 | error-correction | Corrigez l'erreur : Il est possible que la vaccination est obligatoire. | — | ["Il est possible que la vaccination soit obligatoire"] | false | Il est possible que takes the subjunctive: soit, not est.
+- b2-review-science-ex011 | register-shift | Mettez au registre soutenu, avec « force est de constater que » : Franchement, la prévention, ça protège tout le monde. | — | ["Force est de constater que la prévention protège tout le monde"] | false | The essay phrase replaces franchement, and the spoken ça disappears.
+- b2-review-science-ex012 | multiple-choice | Choisissez le mot : an ethics committee. | ["un comité d'éthique","le principe de précaution","une controverse"] | ["un comité d'éthique"] | false | Un comité d'éthique gives an opinion on what is right in research or medicine.
+- b2-review-science-ex013 | translate | Traduisez : Prevention is a public-health issue. | — | ["La prévention est un enjeu de santé publique"] | false | Un enjeu de santé publique: an issue for the health of the whole population.
+- b2-review-science-ex014 | translate | Rédigez cette introduction en complétant comme indiqué : (One may wonder whether) le dépistage (must: devoir) être obligatoire. (First), nous verrons ses avantages. (Second), nous montrerons ses limites. | — | ["On peut se demander si le dépistage doit être obligatoire. Dans un premier temps, nous verrons ses avantages. Dans un second temps, nous montrerons ses limites.","On peut se demander si le dépistage doit être obligatoire. D'abord, nous verrons ses avantages. Ensuite, nous montrerons ses limites.","On peut se demander si le dépistage doit être obligatoire. Dans un premier temps, nous verrons ses avantages. Ensuite, nous montrerons ses limites.","On peut se demander si le dépistage doit être obligatoire. D'abord, nous verrons ses avantages. Dans un second temps, nous montrerons ses limites."] | false | The problématique as an indirect question, then the announced plan.
+- b2-review-science-ex015 | translate | Rédigez ce paragraphe en complétant comme indiqué : (One has to admit that) la prévention (protects) les autres. (Indeed), le principe de précaution (asks: demander) d'agir tôt. (However), (it is unlikely that) une mesure obligatoire (gives: donner) confiance à tout le monde. | — | ["Force est de constater que la prévention protège les autres. En effet, le principe de précaution demande d'agir tôt. Cependant, il est peu probable qu'une mesure obligatoire donne confiance à tout le monde.","Force est de constater que la prévention protège les autres. En effet, le principe de précaution demande d'agir tôt. Néanmoins, il est peu probable qu'une mesure obligatoire donne confiance à tout le monde.","Force est de constater que la prévention protège les autres. En effet, le principe de précaution demande d'agir tôt. Pourtant, il est peu probable qu'une mesure obligatoire donne confiance à tout le monde."] | true | Force est de constater que + indicative, en effet to explain, then an opposing connector and peu probable + subjunctive.
+- b2-review-science-ex016 | reorder | Remettez dans l'ordre : The fact that the measure is compulsory worries some citizens. | — | ["Le fait que la mesure soit obligatoire inquiète certains citoyens"] | false | Le fait que + subjunctive at the start of the sentence.
