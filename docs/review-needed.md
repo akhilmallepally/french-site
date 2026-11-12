@@ -1273,3 +1273,33 @@ Every date, tradition and regional detail, for checking:
 ## b2-review-pronouns
 
 - **"*Elle s'est lavé les mains* ... *les mains qu'elle s'est lavées*" and "*Elles se sont parlé*" (no agreement).** Confirm the agreement checklist.
+
+## b2-economy-and-business
+
+- **"*Le bénéfice* is the profit, what remains after costs ... *le chiffre d'affaires* is turnover."** Confirm both false-friend notes.
+- **"*Une PME* is a small or medium-sized business"** (no thresholds given). Confirm.
+- **"*Une société* is the usual word for a company in business French, alongside *une entreprise*."** Confirm.
+- **"*Une prime* is extra pay on top of the salary, often at the end of the year."** Confirm.
+
+## b2-faire-causatif
+
+- **"In the passé composé, *fait* never agrees before an infinitive."** Confirm.
+- **"*Laissé* may agree or not before an infinitive: *je les ai laissé partir* and *je les ai laissés partir* are both accepted."** Confirm.
+- **"*Se faire avoir* (to be conned) is informal"; "*laisser tomber* ... is informal."** Confirm the registers.
+
+## b2-participles-and-gerund
+
+- **The five spelling pairs** (*fatiguant/fatigant*, *convainquant/convaincant*, *négligeant/négligent*, *précédant/précédent*, *différant/différent*). Confirm.
+- **"The participe présent ... is mainly used in writing."** Confirm.
+- **"*En arrivant, le train était en retard* is clumsy."** Confirm.
+
+## b2-infinitif-passe
+
+- **"In the negative, *ne pas* usually goes before the auxiliary ... In careful writing, you'll also see *de n'avoir pas fini*. Both are correct."** Confirm.
+- **"*Remercier de* and *remercier pour* are both used: *de* is more common before an infinitive, *pour* before a noun."** Confirm.
+- **"*Nier* takes the infinitive without *de*."** Confirm (*il nie avoir pris l'argent*).
+
+## b2-meetings-and-calls
+
+- **"Teams that use *vous* in emails often switch to *tu* in internal calls, and many speakers use *on* for *nous* in meetings, even formal ones."** Spoken habits, labelled. Confirm.
+- **"French minutes usually start with the date and the list of participants, then give one numbered item per point of the agenda."** Confirm.

@@ -1,6 +1,6 @@
 # All lesson data
 
-195 written lessons, in course order.
+200 written lessons, in course order.
 
 ## a1-greetings
 
@@ -7679,3 +7679,231 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-review-pronouns-ex014 | translate | Rédigez en complétant comme indiqué : Nous avons un nouveau local (next to which) il y a une école. (It's there that) nous nous réunissons le mardi. | — | ["Nous avons un nouveau local à côté duquel il y a une école. C'est là que nous nous réunissons le mardi."] | true | À côté duquel after a compound preposition, then c'est… que for the place.
 - b2-review-pronouns-ex015 | translate | Rédigez en complétant comme indiqué : (What we need), ce sont des personnes qui (have: avoir) un peu de temps. (As for) la mairie, elle nous a aidés à (set up) le projet. | — | ["Ce dont nous avons besoin, ce sont des personnes qui aient un peu de temps. Quant à la mairie, elle nous a aidés à mettre en place le projet.","Ce dont nous avons besoin, ce sont des personnes qui aient un peu de temps. Pour ce qui est de la mairie, elle nous a aidés à mettre en place le projet."] | true | Ce dont, the subjunctive for people sought, quant à or pour ce qui est de, and mettre en place.
 - b2-review-pronouns-ex016 | reorder | Remettez dans l'ordre : It's the project I care about. | — | ["C'est le projet auquel je tiens"] | false | Tenir à + le projet: auquel.
+
+## b2-economy-and-business
+
+### Vocab
+
+fr | pron | en | note
+
+- la croissance | lah krwah-SAHNSS | growth (of the economy) | —
+- la récession | lah ray-seh-SYOHN | recession | —
+- la conjoncture | lah kohn-zhohnk-TEWR | the economic situation, the current climate | —
+- le PIB | luh pay-ee-BAY | GDP (gross domestic product) | —
+- un secteur | uhn sek-TUHR | a sector | —
+- le marché | luh mar-SHAY | the market (in economics) | —
+- une société | ewn soh-syay-TAY | a company | Also 'society', as in un débat de société.
+- une PME | ewn pay-em-UH | an SME, a small or medium-sized business | —
+- une start-up | ewn star-TUP | a start-up | —
+- un actionnaire | uh-nak-syoh-NEHR | a shareholder | —
+- une action | ew-nak-SYOHN | a share (in a company) | Also 'an action'.
+- la concurrence | lah kohn-kew-RAHNSS | competition | —
+- un concurrent / une concurrente | uhn kohn-kew-RAHN / ewn kohn-kew-RAHNT | a competitor | —
+- racheter / le rachat | rahsh-TAY / luh rah-SHAH | to buy out, to take over / a takeover | —
+- le chiffre d'affaires | luh shee-fruh dah-FEHR | turnover, revenue | False friend: not 'business figures'.
+- le bénéfice | luh bay-nay-FEESS | profit | False friend: a benefit is un avantage or un bienfait.
+- une perte | ewn PEHRT | a loss | —
+- rentable | rahn-TAH-bluh | profitable | —
+- la rentabilité | lah rahn-tah-bee-lee-TAY | profitability | —
+- investir | an-ves-TEER | to invest | Like finir.
+- un investissement | uh-nan-ves-tees-MAHN | an investment | —
+- un bienfait | uhn byan-FEH | a benefit, a good effect | —
+- un salarié / une salariée | uhn sah-lah-RYAY / ewn sah-lah-RYAY | an employee | —
+- un licenciement | uhn lee-sahn-see-MAHN | a redundancy, a dismissal | —
+- la délocalisation | lah day-loh-kah-lee-zah-SYOHN | offshoring, moving production abroad | —
+- une prime | ewn PREEM | a bonus (extra pay) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-economy-and-business-ex001 | fill-in | Complétez : Après une longue récession, la ___ revient enfin. | — | ["croissance"] | false | La croissance: growth, the opposite of a recession.
+- b2-economy-and-business-ex002 | fill-in | Complétez : Cette année, l'entreprise a fait un ___ : elle a gagné de l'argent. | — | ["bénéfice"] | false | Le bénéfice: the profit a company makes.
+- b2-economy-and-business-ex003 | fill-in | Complétez avec un verbe à l'infinitif : L'usine va fermer, et le patron veut ___ des salariés. | — | ["licencier"] | false | Licencier: to make redundant, to dismiss.
+- b2-economy-and-business-ex004 | fill-in | Complétez : Ce projet coûte trop cher : il n'est pas ___. | — | ["rentable"] | false | Rentable: profitable.
+- b2-economy-and-business-ex005 | fill-in | Complétez : Dans ce secteur, la ___ est très forte : beaucoup d'entreprises vendent le même produit. | — | ["concurrence"] | false | La concurrence: competition between companies.
+- b2-economy-and-business-ex006 | multiple-choice | Indiquez le sens de « le bénéfice » dans un article sur une entreprise. | ["the profit","a health benefit","a present"] | ["the profit"] | false | In business, le bénéfice is the profit. A benefit is un avantage or un bienfait.
+- b2-economy-and-business-ex007 | multiple-choice | Indiquez le sens de « acheter des actions ». | ["to buy shares","to take action","to buy films"] | ["to buy shares"] | false | Une action is also a share in a company.
+- b2-economy-and-business-ex008 | multiple-choice | Indiquez le sens de « une société » dans : Il travaille dans une société de Lyon. | ["a company","a society","a club"] | ["a company"] | false | In business, une société is a company.
+- b2-economy-and-business-ex009 | multiple-choice | Trouvez le mot qui ne va pas avec les autres. | ["un investissement","un actionnaire","un concurrent"] | ["un investissement"] | false | Un actionnaire and un concurrent are people or companies; un investissement is money you put in.
+- b2-economy-and-business-ex010 | reformulation | Reformulez avec « rentable » : L'entreprise gagne de l'argent. | — | ["L'entreprise est rentable"] | false | Rentable describes a company or a project that makes money.
+- b2-economy-and-business-ex011 | error-correction | Corrigez l'erreur : Le sport a beaucoup de bénéfices pour nous. | — | ["Le sport a beaucoup de bienfaits pour nous"] | true | Le bénéfice is a profit. For good effects, say les bienfaits.
+- b2-economy-and-business-ex012 | translate | Traduisez : The company hired twenty people. | — | ["L'entreprise a embauché vingt personnes","La société a embauché vingt personnes"] | true | Embaucher in the passé composé.
+- b2-economy-and-business-ex013 | translate | Traduisez avec « diminuer » : Turnover fell this year. | — | ["Le chiffre d'affaires a diminué cette année","Cette année, le chiffre d'affaires a diminué"] | true | Le chiffre d'affaires: turnover. It's singular.
+- b2-economy-and-business-ex014 | translate | Rédigez en complétant comme indiqué : Cette année, le chiffre d'affaires (rose: augmenter, passé composé). L'entreprise a fait (a profit). Elle va (invest) dans un nouveau secteur. | — | ["Cette année, le chiffre d'affaires a augmenté. L'entreprise a fait un bénéfice. Elle va investir dans un nouveau secteur."] | true | Three facts about a company's results: turnover, profit and investment.
+- b2-economy-and-business-ex015 | reorder | Remettez dans l'ordre : The company is going to invest abroad. | — | ["L'entreprise va investir à l'étranger"] | true | Aller + infinitive, then à l'étranger.
+
+## b2-faire-causatif
+
+### Vocab
+
+fr | pron | en | note
+
+- faire réparer | fehr ray-pah-RAY | to have (something) repaired | —
+- faire venir | fehr vuh-NEER | to send for, to call out (someone) | —
+- faire faire | fehr FEHR | to have (something) done | —
+- faire visiter | fehr vee-zee-TAY | to show (someone) round | —
+- faire attendre | fehr ah-TAHN-druh | to keep (someone) waiting | —
+- faire remarquer | fehr ruh-mar-KAY | to point out | —
+- se faire couper les cheveux | suh fehr koo-pay lay shuh-VUH | to have your hair cut | —
+- se faire voler | suh fehr voh-LAY | to be robbed, to have (something) stolen | Elle s'est fait voler son sac.
+- se faire avoir | suh fehr ah-VWAHR | to be conned, to be had | Informal.
+- laisser faire | leh-say FEHR | to let it happen, to let (someone) do it | Laisse-moi faire: let me do it.
+- laisser tomber | leh-say tohn-BAY | to drop, to give up | Informal.
+- un plombier | uhn plohn-BYAY | a plumber | —
+- un garagiste | uhn gah-rah-ZHEEST | a garage mechanic | —
+- un devis | uhn duh-VEE | a quote, an estimate | —
+- un prestataire | uhn pres-tah-TEHR | a service provider, a contractor | —
+- une intervention | ew-nan-tehr-vahn-SYOHN | a call-out, a visit to do work | —
+- la maintenance / un contrat de maintenance | lah man-tuh-NAHNSS / uhn kohn-trah duh man-tuh-NAHNSS | maintenance / a maintenance contract | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-faire-causatif-ex001 | fill-in | Complétez avec faire au présent : Je ___ réparer ma voiture chez le garagiste. | — | ["fais"] | false | Faire + infinitive: the mechanic does the repair, not you.
+- b2-faire-causatif-ex002 | fill-in | Complétez avec l'infinitif de « venir » : Nous faisons ___ le plombier demain. | — | ["venir"] | false | Faire venir: to send for someone.
+- b2-faire-causatif-ex003 | fill-in | Mettez faire au passé composé : J'___ réparer le chauffage hier. | — | ["ai fait"] | false | Avoir + fait, then the infinitive.
+- b2-faire-causatif-ex004 | fill-in | Complétez avec l'infinitif de « couper » : Elle s'est fait ___ les cheveux. | — | ["couper"] | false | Se faire couper les cheveux: someone else cuts them.
+- b2-faire-causatif-ex005 | multiple-choice | Indiquez qui répare la voiture : Je fais réparer ma voiture. | ["someone else, a mechanic","I do it myself","nobody"] | ["someone else, a mechanic"] | false | With faire + infinitive, another person does the action.
+- b2-faire-causatif-ex006 | multiple-choice | Choisissez la bonne forme : Ces chaussures, je les ai ___ réparer. | ["fait","faites","faits"] | ["fait"] | false | Before an infinitive, fait never agrees.
+- b2-faire-causatif-ex007 | connector-choice | Choisissez le verbe : Ne m'aide pas, je sais comment m'y prendre. ___-moi faire ! | ["Laisse","Fais","Fait"] | ["Laisse"] | false | Laisser + infinitive: let me do it.
+- b2-faire-causatif-ex008 | reformulation | Reformulez avec « faire » + infinitif : Le plombier répare le chauffage. C'est moi qui le lui demande. | — | ["Je fais réparer le chauffage","Je fais réparer le chauffage par le plombier"] | false | Faire + infinitive; the person who does it can follow par.
+- b2-faire-causatif-ex009 | reformulation | Reformulez avec un pronom : Je fais réparer ma voiture. | — | ["Je la fais réparer"] | false | The pronoun goes before faire, not before the infinitive.
+- b2-faire-causatif-ex010 | error-correction | Corrigez l'erreur : Ma voiture, je l'ai faite réparer. | — | ["Ma voiture, je l'ai fait réparer"] | false | Fait doesn't agree before an infinitive, even with a preceding direct object.
+- b2-faire-causatif-ex011 | register-shift | Transformez en registre courant, avec « arrêter » : J'ai laissé tomber ce projet. | — | ["J'ai arrêté ce projet"] | false | Laisser tomber is informal; arrêter is neutral.
+- b2-faire-causatif-ex012 | translate | Traduisez : I had my car repaired. | — | ["J'ai fait réparer ma voiture"] | false | Faire réparer in the passé composé.
+- b2-faire-causatif-ex013 | translate | Traduisez : She got her bag stolen. | — | ["Elle s'est fait voler son sac","On lui a volé son sac"] | true | Se faire voler, or on + active verb. Fait doesn't agree.
+- b2-faire-causatif-ex014 | translate | Rédigez en complétant comme indiqué : Pour le déménagement, je vais (have … cleaned: nettoyer) l'appartement. Je vais (send for: venir) un plombier. Et je vais (have … repaired: réparer) le chauffage. | — | ["Pour le déménagement, je vais faire nettoyer l'appartement. Je vais faire venir un plombier. Et je vais faire réparer le chauffage."] | false | Aller + faire + infinitive, three times.
+- b2-faire-causatif-ex015 | reorder | Remettez dans l'ordre : I'll have it sent to you tomorrow. | — | ["Je vous le fais envoyer demain"] | false | Both pronouns go before faire, in the usual order.
+
+## b2-participles-and-gerund
+
+### Vocab
+
+fr | pron | en | note
+
+- le gérondif | luh zhay-rohn-DEEF | the gerund (en + -ant) | —
+- le participe présent | luh par-tee-seep pray-ZAHN | the present participle | —
+- un adjectif verbal | uh-nad-zhek-teef vehr-BAHL | a verbal adjective (an adjective in -ant or -ent made from a verb) | —
+- ayant + participe passé | eh-YAHN | having (done) | Ayant fini: having finished.
+- étant donné | ay-tahn doh-NAY | given (+ a noun) | Étant donné la situation…
+- le cas échéant | luh kah ay-shay-AHN | where applicable, if need be | —
+- fatigant / fatigante | fah-tee-GAHN / fah-tee-GAHNT | tiring | —
+- négligent / négligente | nay-glee-ZHAHN / nay-glee-ZHAHNT | careless, negligent | —
+- différent / différente | dee-fay-RAHN / dee-fay-RAHNT | different | —
+- une note de service | ewn not duh sehr-VEESS | a memo (inside a company) | —
+- un document de travail | uhn doh-kew-mahn duh trah-VAH-y | a working paper, a draft document | —
+- le personnel | luh pehr-soh-NEL | the staff | —
+- ci-dessous / ci-dessus | see-duh-SOO / see-duh-SEW | below / above (in a text) | —
+- concernant | kohn-sehr-NAHN | concerning, about | —
+- en cours | ahn KOOR | in progress, current | —
+- une procédure | ewn proh-say-DEWR | a procedure | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-participles-and-gerund-ex001 | fill-in | Mettez au participe présent (pouvoir) : Ne ___ pas venir, il a téléphoné. | — | ["pouvant"] | false | The participe présent gives a cause, like comme il ne pouvait pas.
+- b2-participles-and-gerund-ex002 | fill-in | Mettez au participe présent (travailler) : Les salariés ___ ici doivent lire la note. | — | ["travaillant"] | false | Travaillant replaces qui travaillent. It doesn't agree.
+- b2-participles-and-gerund-ex003 | fill-in | Complétez avec le participe présent d'avoir : ___ fini son travail, elle est partie. | — | ["Ayant"] | false | Ayant + participe passé: having done, for an earlier action.
+- b2-participles-and-gerund-ex004 | fill-in | Accordez l'adjectif verbal (convaincant) : Ce sont des arguments ___. | — | ["convaincants"] | false | The verbal adjective agrees like any adjective: convaincants.
+- b2-participles-and-gerund-ex005 | multiple-choice | Choisissez la bonne forme : C'est une journée ___. | ["fatigante","fatiguante","fatiguant"] | ["fatigante"] | false | The adjective is spelled fatigant, without u, and agrees: fatigante.
+- b2-participles-and-gerund-ex006 | multiple-choice | Choisissez la bonne forme : ___ ses collègues, il a obtenu le projet. | ["Convainquant","Convaincant","Convaincants"] | ["Convainquant"] | false | Here it's an action with an object (ses collègues): the participe présent, spelled with qu.
+- b2-participles-and-gerund-ex007 | connector-choice | Choisissez la bonne réponse : Il prend des notes ___ écoutant le directeur. | ["en","pour","par"] | ["en"] | false | The gérondif needs en: two actions at the same time, same subject.
+- b2-participles-and-gerund-ex008 | reformulation | Reformulez avec un participe présent : Comme il ne pouvait pas venir, il a envoyé un mail. | — | ["Ne pouvant pas venir, il a envoyé un mail"] | true | The participe présent replaces comme + verb in written French.
+- b2-participles-and-gerund-ex009 | reformulation | Reformulez avec un participe présent : Les salariés qui travaillent ici ont une prime. | — | ["Les salariés travaillant ici ont une prime"] | false | The participe présent replaces qui + verb.
+- b2-participles-and-gerund-ex010 | error-correction | Corrigez l'erreur : C'était une journée fatiguante. | — | ["C'était une journée fatigante"] | false | The adjective is fatigant, without u. Fatiguant is the participe présent.
+- b2-participles-and-gerund-ex011 | register-shift | Transformez en registre courant, avec « comme » : N'ayant pas le temps, elle n'est pas venue. | — | ["Comme elle n'avait pas le temps, elle n'est pas venue"] | false | In speech, comme + imparfait replaces the participe présent.
+- b2-participles-and-gerund-ex012 | translate | Traduisez : Having finished, she left. | — | ["Ayant fini, elle est partie","Après avoir fini, elle est partie"] | false | Ayant fini (written) or après avoir fini.
+- b2-participles-and-gerund-ex013 | translate | Traduisez : These arguments are convincing. | — | ["Ces arguments sont convaincants"] | false | The verbal adjective convaincant agrees with arguments.
+- b2-participles-and-gerund-ex014 | translate | Rédigez cette note de service en complétant comme indiqué : (Concerning) la réunion de lundi, (the staff) doit lire le document (below). Les salariés (having: avoir) des questions peuvent m'écrire. | — | ["Concernant la réunion de lundi, le personnel doit lire le document ci-dessous. Les salariés ayant des questions peuvent m'écrire."] | false | Concernant, le personnel (singular), ci-dessous and the participe présent ayant.
+- b2-participles-and-gerund-ex015 | reorder | Remettez dans l'ordre : Not knowing the answer, he said nothing. | — | ["Ne sachant pas la réponse, il n'a rien dit"] | false | Ne… pas around the participe présent, then the main clause.
+
+## b2-infinitif-passe
+
+### Vocab
+
+fr | pron | en | note
+
+- l'infinitif passé | lan-fee-nee-teef pah-SAY | the past infinitive | —
+- après être + participe passé | ah-preh-zeh-truh | after (having) … | Après être parti(e).
+- sans avoir + participe passé | sahn-zah-VWAHR | without having … | —
+- pour avoir + participe passé | poo-rah-VWAHR | for having … (a cause) | —
+- remercier de / pour | ruh-mehr-SYAY duh / poor | to thank for | Merci de m'avoir aidé.
+- se féliciter de | suh fay-lee-see-TAY duh | to be pleased with (yourself) for | —
+- avoir l'impression de | ah-vwahr lan-preh-SYOHN duh | to have the feeling of, to feel that you … | —
+- un entretien annuel | uh-nahn-truh-tyan ah-NWEL | an annual review (with your manager) | —
+- atteindre un objectif | ah-tan-druh uh-nob-zhek-TEEF | to reach a target | J'ai atteint mes objectifs.
+- dépasser | day-pah-SAY | to exceed, to go beyond | —
+- un retour | uhn ruh-TOOR | feedback | Also a return.
+- une erreur de parcours | ew-nay-ruhr duh par-KOOR | a slip, a setback | —
+- tirer des leçons de | tee-ray day luh-SOHN duh | to learn lessons from | —
+- une promotion | ewn proh-moh-SYOHN | a promotion; also a special offer | —
+- une augmentation (de salaire) | ew-nog-mahn-tah-SYOHN (duh sah-LEHR) | a pay rise | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-infinitif-passe-ex001 | fill-in | Mettez à l'infinitif passé (finir) : Après ___ le rapport, il est parti. | — | ["avoir fini"] | false | Après + avoir + participle: après avoir fini.
+- b2-infinitif-passe-ex002 | fill-in | Mettez à l'infinitif passé (partir) : Après ___, elle a appelé sa mère. | — | ["être partie"] | false | Partir takes être, and partie agrees with elle.
+- b2-infinitif-passe-ex003 | fill-in | Mettez à l'infinitif passé (dire) : Je regrette d'___ ça. | — | ["avoir dit"] | false | Regretter de + past infinitive: the action came first.
+- b2-infinitif-passe-ex004 | fill-in | Mettez à l'infinitif passé (aider) : Merci de m'___. | — | ["avoir aidé","avoir aidée"] | false | Merci de + past infinitive. Aidé agrees with me if a woman is speaking.
+- b2-infinitif-passe-ex005 | multiple-choice | Choisissez la bonne forme : Après être ___, Marie a téléphoné. | ["partie","parti","partis"] | ["partie"] | false | With être, the participle agrees with the subject: Marie, so partie.
+- b2-infinitif-passe-ex006 | multiple-choice | Indiquez le sens de : Il a été félicité pour avoir dépassé ses objectifs. | ["He was congratulated because he had exceeded his targets.","He was congratulated so that he would exceed his targets.","He was congratulated before exceeding his targets."] | ["He was congratulated because he had exceeded his targets."] | false | Pour + past infinitive gives a cause.
+- b2-infinitif-passe-ex007 | connector-choice | Choisissez la bonne réponse : ___ fini, elle est rentrée chez elle. | ["Après avoir","Après que","Avant de"] | ["Après avoir"] | false | One subject: après + past infinitive. Après que needs a subject and a verb.
+- b2-infinitif-passe-ex008 | reformulation | Reformulez avec « après avoir » : Il a vu l'erreur, puis il s'est excusé. | — | ["Après avoir vu l'erreur, il s'est excusé"] | false | The first action becomes après avoir + participle.
+- b2-infinitif-passe-ex009 | reformulation | Reformulez avec « regretter de » : Je regrette que j'aie dit ça. | — | ["Je regrette d'avoir dit ça"] | false | With one subject, use the infinitive, not que + subjunctive.
+- b2-infinitif-passe-ex010 | error-correction | Corrigez l'erreur : Après avoir parti, il a téléphoné. | — | ["Après être parti, il a téléphoné"] | true | Partir takes être, in the past infinitive too.
+- b2-infinitif-passe-ex011 | fill-in | Complétez avec « ne pas » à la bonne place : Je regrette de ___ avoir fini à temps. | — | ["ne pas"] | false | Ne pas goes before avoir: de ne pas avoir fini. (De n'avoir pas fini is also correct.)
+- b2-infinitif-passe-ex012 | translate | Traduisez avec « merci de » : Thank you for having helped me. | — | ["Merci de m'avoir aidé","Merci de m'avoir aidée"] | false | Merci de + past infinitive; aidée if a woman is speaking.
+- b2-infinitif-passe-ex013 | translate | Traduisez : She left without having said goodbye. | — | ["Elle est partie sans avoir dit au revoir","Elle est partie sans dire au revoir"] | false | Sans avoir + participle; sans dire is also common.
+- b2-infinitif-passe-ex014 | translate | Rédigez en complétant comme indiqué (un homme parle) : Cette année, je suis content (to have exceeded) mes objectifs. (After having changed: changer) d'équipe, j'ai mieux travaillé. Je regrette (not to have asked: demander) de l'aide plus tôt. | — | ["Cette année, je suis content d'avoir dépassé mes objectifs. Après avoir changé d'équipe, j'ai mieux travaillé. Je regrette de ne pas avoir demandé de l'aide plus tôt.","Cette année, je suis content d'avoir dépassé mes objectifs. Après avoir changé d'équipe, j'ai mieux travaillé. Je regrette de n'avoir pas demandé de l'aide plus tôt."] | false | Three past infinitives, including the negative, in either order.
+- b2-infinitif-passe-ex015 | reorder | Remettez dans l'ordre : I'm sorry I said that. | — | ["Je regrette d'avoir dit ça"] | false | Regretter de + past infinitive.
+
+## b2-meetings-and-calls
+
+### Vocab
+
+fr | pron | en | note
+
+- l'ordre du jour | lor-druh dew ZHOOR | the agenda (of a meeting) | —
+- le prochain point | luh proh-shan PWAN | the next item (on the agenda) | —
+- faire le point | fehr luh PWAN | to take stock, to review where things stand | —
+- un participant / une participante | uhn par-tee-see-PAHN / ewn par-tee-see-PAHNT | a participant | —
+- prendre la parole | prahn-druh lah pah-ROL | to speak, to take the floor | —
+- passer la parole à | pah-say lah pah-ROL ah | to hand over to (someone) | —
+- une visioconférence | ewn vee-zyoh-kohn-fay-RAHNSS | a video call, a video conference | —
+- vous m'entendez ? | voo mahn-tahn-DAY | can you hear me? | —
+- couper son micro | koo-pay sohn mee-KROH | to mute (your microphone) | —
+- partager son écran | par-tah-zhay soh-nay-KRAHN | to share your screen | —
+- la connexion | lah koh-nek-SYOHN | the connection (internet) | —
+- trancher | trahn-SHAY | to decide, to settle (a question) | —
+- une décision | ewn day-see-ZYOHN | a decision | Prendre une décision.
+- à l'unanimité | ah lew-nah-nee-mee-TAY | unanimously | —
+- je propose que nous | zhuh proh-pohz kuh NOO | I suggest we | + subjunctive. In speech: je propose qu'on…
+- un compte rendu | uhn kohnt rahn-DEW | the minutes, a written report of a meeting | —
+- une discussion | ewn dees-kew-SYOHN | a discussion | —
+- une proposition | ewn proh-poh-zee-SYOHN | a proposal | —
+- la participation | lah par-tee-see-pah-SYOHN | taking part, contribution | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-meetings-and-calls-ex001 | multiple-choice | Choisissez la phrase qui ouvre une réunion. | ["Bonjour à tous, voici l'ordre du jour.","Bon, je vous laisse, à demain !","Merci, c'est tout pour aujourd'hui."] | ["Bonjour à tous, voici l'ordre du jour."] | false | A meeting usually starts with a greeting and the agenda.
+- b2-meetings-and-calls-ex002 | fill-in | Complétez : Avant la réunion, j'envoie l'ordre du ___ à tous les participants. | — | ["jour"] | false | L'ordre du jour: the agenda.
+- b2-meetings-and-calls-ex003 | fill-in | Complétez avec un verbe à l'infinitif : Je voudrais ___ la parole, s'il vous plaît. | — | ["prendre"] | false | Prendre la parole: to take the floor.
+- b2-meetings-and-calls-ex004 | multiple-choice | Choisissez la phrase pour vérifier que les participants vous entendent. | ["Vous m'entendez ?","Je partage mon écran.","Je vous passe la parole."] | ["Vous m'entendez ?"] | false | Vous m'entendez ? checks the sound at the start of a call.
+- b2-meetings-and-calls-ex005 | connector-choice | Choisissez le connecteur pour la fin d'une réunion : ___, nous avons pris deux décisions. | ["En conclusion","D'abord","Pourtant"] | ["En conclusion"] | false | En conclusion sums up at the end. D'abord starts a list, and pourtant contrasts.
+- b2-meetings-and-calls-ex006 | register-shift | Transformez en registre soutenu, avec « je voudrais prendre la parole » : Arrête de parler, c'est à moi ! | — | ["Excusez-moi, je voudrais prendre la parole","Pardon, je voudrais prendre la parole","Je voudrais prendre la parole"] | false | In a meeting, ask for the floor politely.
+- b2-meetings-and-calls-ex007 | register-shift | Transformez en style de compte rendu, avec le passif : On a choisi le jour de la réunion. | — | ["Le jour de la réunion a été choisi"] | true | Minutes often use the passive: the decision matters, not who made it.
+- b2-meetings-and-calls-ex008 | reformulation | Reformulez au discours indirect, avec « Paul a expliqué que » : « Le rapport sera prêt vendredi. » | — | ["Paul a expliqué que le rapport serait prêt vendredi","Paul a expliqué que le rapport sera prêt vendredi"] | true | After a past verb, the futur becomes the conditionnel; sera is possible if Friday is still to come.
+- b2-meetings-and-calls-ex009 | reformulation | Reformulez avec « il a été décidé de » : On a décidé de repousser la réunion. | — | ["Il a été décidé de repousser la réunion"] | true | An impersonal passive, typical of minutes.
+- b2-meetings-and-calls-ex010 | error-correction | Corrigez l'erreur : Je propose que nous repoussons la réunion. | — | ["Je propose que nous repoussions la réunion"] | false | Proposer que takes the subjunctive: que nous repoussions.
+- b2-meetings-and-calls-ex011 | fill-in | Conjuguez faire au subjonctif : Je propose que nous ___ une pause. | — | ["fassions"] | false | Je propose que nous + subjunctive: fassions.
+- b2-meetings-and-calls-ex012 | translate | Traduisez (vous) : Can you hear me? I'll share my screen. | — | ["Vous m'entendez ? Je vais partager mon écran.","Vous m'entendez ? Je partage mon écran."] | false | Vous m'entendez ?, then aller + infinitive or the present.
+- b2-meetings-and-calls-ex013 | translate | Rédigez cet ordre du jour au futur, en complétant comme indiqué : D'abord, nous (will take stock: faire le point) sur le projet. Ensuite, Claire (will speak: prendre la parole) sur le budget. Enfin, nous (will decide: trancher) la question du calendrier. | — | ["D'abord, nous ferons le point sur le projet. Ensuite, Claire prendra la parole sur le budget. Enfin, nous trancherons la question du calendrier."] | false | Three items in the futur simple, with d'abord, ensuite and enfin.
+- b2-meetings-and-calls-ex014 | translate | Rédigez ce compte rendu en complétant comme indiqué : (It was decided) de repousser la fin du projet. La proposition (was adopted: passé composé) (unanimously). | — | ["Il a été décidé de repousser la fin du projet. La proposition a été adoptée à l'unanimité."] | true | An impersonal passive, then a passive with agreement: adoptée.
+- b2-meetings-and-calls-ex015 | reorder | Remettez dans l'ordre : I'll hand over to Claire. | — | ["Je passe la parole à Claire"] | false | Passer la parole à + the person.

@@ -204,3 +204,16 @@
 - **Checks:** check:words, check:structures, audit (only the earlier purpose ex014), validate, test:content, test:checker (29/29) and build all pass. A1 to B1 output is unchanged.
 - **review-needed.md:** 17 items under 6 ids: *dont* after compound prepositions, *qui* / *lequel* for people, *parmi* / *entre*, *quoique*, moods after superlatives and negatives, the *y* / *en* registers, *comme je te l'ai dit*, *c'est moi qui ai*, *ce sont*, dislocation, and the agreement checklist.
 - **Not done:** no fluent-speaker check.
+
+## Unit 5, part 1
+
+- **Teaching-text words:** economy-and-business 800, faire-causatif 815, participles-and-gerund 815, infinitif-passe 812, meetings-and-calls 809 (all b2-).
+- **Register deviations:** the economy and participles dialogues use *vous* (the plan had *tu*), and the meetings call is *vous* throughout (the plan mixed them), per the workplace rule. *Tu* and *on* in meetings are described as spoken habits.
+- **Vocab deviations:**
+  - Added entries: *racheter / le rachat*, *un bienfait*, *un salarié*, *un contrat de maintenance*, *différent* (the plan's "A2 recap" isn't in any vocab), *remercier*, three grammar terms, and a 3-word glossary for the minutes.
+  - Recaps instead of entries: *convaincant*, *précédent*, *suivant*, *ayant / étant*, *en conclusion*. NEW_MEANINGS has *une société* and *une action*.
+- **Exercise deviations:** five spelling pairs, not six (a sixth would need untaught words). Plan examples with untaught words were changed (*mentir*, *date*, *tais-toi*, *évier*). Several cues are pinned, and alternatives are listed (*on lui a volé*, *après avoir fini*, *sans dire*).
+- **Lists and scripts:** new COGNATES (economy terms, *intervention*, *maintenance*, *priorité*, *profil*, *système*), and in check-words.ts a few irregular forms and B2-only English words.
+- **Checks:** check:words, check:structures, audit (only the earlier purpose ex014), validate, test:content, test:checker (29/29) and build all pass. A1 to B1 output is unchanged.
+- **review-needed.md:** 16 items under 5 ids: the false friends and *PME*, *fait* / *laissé* agreement, the spelling pairs, past-infinitive negatives, *remercier de / pour*, *nier* + infinitive, and the spoken meeting habits.
+- **Not done:** no fluent-speaker check. Part 2 (negotiating to review-work) is still to write.
