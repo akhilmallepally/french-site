@@ -179,3 +179,15 @@
 - **Checks:** check:words, check:structures, audit (only the earlier purpose ex014), validate, test:content, test:checker (29/29) and build all pass. A1 to B1 output is unchanged.
 - **review-needed.md:** 18 items under 5 ids: *se voir* agreement, *on m'a dit*, the earlier *à* + infinitive uses, suffix genders, nominal style, *chapeau*, *il ressort que*, the press leanings and titles, the AFP, public broadcasting, and the satire framing.
 - **Not done:** no fluent-speaker check.
+
+## Unit 3 fixes
+
+- **passive-voice:** infinitive after *devoir* / *pouvoir*, subjunctive after *il faut que* (text, list, résumé). The résumé says *c'est être qui change de temps*; *de nouveau* and *à l'époque* are replaced; *de* / *par* "differ in emphasis". ex012 accepts *avant juin*; ex014's cue says passé composé and it also accepts *va être rénové*. *Reporter* and *annuler* confirmed.
+- **reported-speech-past:** the *était malade* example says "he was ill", with a "had been" note, and the résumé is reworded. ex012 pinned with *a dit*; ex014 accepts *allait ouvrir* (*terminer* isn't taught). *Déclaration*, *porte-parole* and *entretien* confirmed.
+- **reported-questions-orders:** ex014 accepts *allait être*. The *enquête* / *témoin* sentence credits each lesson separately, and the résumé is reworded.
+- **culture-french-press:** papers are described by type and format only; leanings are removed and review-needed.md is updated. The paragraph that repeated the tip is gone; local editions and agency texts are added.
+- **CLAUDE.md:** new fixed-phrase rule.
+- **Scan:**
+  - Fixed phrases defined at first use: *avoir lieu* (nuancing), *avoir du mal à* (social-issues), *faire semblant de* and *prendre du retard* (reporting-verbs), *de leur côté* (summary), *d'ici là* (a futur-anterieur note). Replaced: *de près*, *en plus*, *il s'agit de*, *au bord de*, *en même temps*.
+  - Claims softened: "most verbs with *à*" and "normally no *par*". *Aller* variants added in politics and review ex013 / ex014; summary ex014 pinned. The reporting-verbs résumé is reworded. All "you know X from Y" claims hold.
+- **Checks:** all 7 pass; the only B2 audit row is the earlier purpose ex014. A1 to B1 output is unchanged.

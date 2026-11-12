@@ -1229,7 +1229,7 @@ Every date, tradition and regional detail, for checking:
 
 ## b2-culture-french-press
 
-- **Leanings: "Le Monde ... often described as centre-left", "Le Figaro ... often described as on the right", "Libération ... often described as on the left".** Confirm the wording is fair and cautious.
+- **Types and formats: "Le Monde. A national general daily…", "Le Figaro. A national general daily with a strong section on the economy, and a weekend magazine", "Libération. A national general daily, often called *Libé*, known for its bold front pages".** Confirm. (Political leanings were removed from the lesson.)
 - **"Ouest-France ... is one of the most widely read daily papers in the country."** Confirm (no figures given).
 - **"Le Canard enchaîné. A satirical weekly that comes out on Wednesdays ... known for carrying no advertising."** Confirm.
 - **"*L'audiovisuel public* ... They're funded mainly by the State."** Confirm.

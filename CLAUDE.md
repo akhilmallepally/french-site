@@ -127,6 +127,7 @@ B2 inherits every B1 rule unless it's overridden here. They apply to B2 lessons 
 - **Claims.**
   - Check every "you know X from lesson Y" sentence against lesson Y's vocab or text before you write it. If Y doesn't teach X, or teaches it with another meaning, fix the link or the sentence.
   - Make no "always" or "never" claim unless it holds across all B2 lessons, including later ones (for example, *si* takes the conditionnel in indirect questions, so the rule is "no conditionnel after *si* meaning 'if'"). Otherwise, limit the claim to this lesson's uses.
+- **Fixed phrases.** check:words works word by word, so a phrase made of known words but never taught as a phrase passes it (*de nouveau*, *d'ici là*, *avoir lieu*, *avoir du mal à*, *une fois que*). Check by hand for such phrases in the teaching text, dialogues, exercises and glossaries. Define each one at first use, or replace it with taught French.
 - **Participle agreement.** Agreement of the past participle with a preceding direct object is taught at A2 (a2-pronouns-in-passe-compose, a2-relative-qui-que-ou, a2-reflexive-passe-compose). Use it freely in B2 dialogues, texts and exercises, and list the accepted variants.
 - **Structures.**
   - The teaching text, exercises and En résumé are strict.
