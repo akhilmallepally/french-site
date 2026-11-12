@@ -1,6 +1,6 @@
 # All lesson data
 
-189 written lessons, in course order.
+195 written lessons, in course order.
 
 ## a1-greetings
 
@@ -7428,3 +7428,254 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-review-news-ex014 | translate | Rédigez en complétant comme indiqué : Dans une interview exclusive, la maire a expliqué que la piscine (was) fermée. Elle a annoncé que le chantier (would start) en mars. Le journaliste lui a demandé (whether) les habitants (had been informed). | — | ["Dans une interview exclusive, la maire a expliqué que la piscine était fermée. Elle a annoncé que le chantier commencerait en mars. Le journaliste lui a demandé si les habitants avaient été informés.","Dans une interview exclusive, la maire a expliqué que la piscine était fermée. Elle a annoncé que le chantier allait commencer en mars. Le journaliste lui a demandé si les habitants avaient été informés."] | true | The imparfait, the conditionnel and si + the plus-que-parfait passive.
 - b2-review-news-ex015 | translate | Rédigez ce résumé en complétant comme indiqué : Le communiqué (is about) la fermeture de la piscine. (It emerges that) la rénovation commencera en mars. (In short), la mairie veut rassurer les habitants. | — | ["Le communiqué porte sur la fermeture de la piscine. Il ressort que la rénovation commencera en mars. En somme, la mairie veut rassurer les habitants.","Le communiqué traite de la fermeture de la piscine. Il ressort que la rénovation commencera en mars. En somme, la mairie veut rassurer les habitants.","Le communiqué porte sur la fermeture de la piscine. Il ressort que la rénovation commencera en mars. Bref, la mairie veut rassurer les habitants.","Le communiqué traite de la fermeture de la piscine. Il ressort que la rénovation commencera en mars. Bref, la mairie veut rassurer les habitants."] | false | Topic, main point and conclusion, in the present and the futur.
 - b2-review-news-ex016 | reorder | Remettez dans l'ordre : She promised that a press release would be published. | — | ["Elle a promis qu'un communiqué serait publié"] | false | The future in the past, in the passive: serait publié.
+
+## b2-relative-lequel
+
+### Vocab
+
+fr | pron | en | note
+
+- la raison pour laquelle | lah reh-zohn poor lah-KEL | the reason why | —
+- grâce auquel / grâce à laquelle | grahss oh-KEL / grahss ah lah-KEL | thanks to which | —
+- près duquel / près de laquelle | preh dew-KEL / preh duh lah-KEL | near which | —
+- à côté duquel / à côté de laquelle | ah koh-tay dew-KEL / ah koh-tay duh lah-KEL | next to which | —
+- au cours duquel / au cours de laquelle | oh koor dew-KEL / oh koor duh lah-KEL | during which | —
+- n'importe lequel / n'importe laquelle | nan-por-tuh luh-KEL / nan-por-tuh lah-KEL | any one (at all) | —
+- un logiciel | uhn loh-zhee-SYEL | software, a piece of software | —
+- une plateforme | ewn plaht-FORM | a platform (online) | —
+- un tableur | uhn tah-BLUHR | a spreadsheet | —
+- un dossier partagé | uhn doh-syay par-tah-ZHAY | a shared folder | —
+- un serveur | uhn sehr-VUHR | a server (computer) | —
+- un mode d'emploi | uhn mod dahn-PLWAH | instructions for use, a user guide | —
+- fonctionner | fohnk-syoh-NAY | to work (of a machine or a system) | —
+- une fonctionnalité | ewn fohnk-syoh-nah-lee-TAY | a feature (of software) | —
+- une préposition | ewn pray-poh-zee-SYOHN | a preposition | —
+- une phrase relative | ewn frahz ruh-lah-TEEV | a relative clause | —
+- auxquels / auxquelles | oh-KEL | to which (plural) | —
+- desquels / desquelles | day-KEL | of which (plural) | —
+- paramétrer | pah-rah-may-TRAY | to set up, to configure | Like préférer: je paramètre.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-relative-lequel-ex001 | fill-in | Complétez avec lequel, laquelle, lesquels ou lesquelles : C'est la raison pour ___ je suis venu. | — | ["laquelle"] | false | La raison is feminine singular: pour laquelle.
+- b2-relative-lequel-ex002 | fill-in | Complétez avec auquel, à laquelle, auxquels ou auxquelles : C'est le projet ___ je pense. | — | ["auquel"] | false | Penser à + le projet: à + lequel becomes auquel.
+- b2-relative-lequel-ex003 | fill-in | Complétez avec lequel, laquelle, lesquels ou lesquelles : Voici les outils avec ___ nous travaillons. | — | ["lesquels"] | false | Les outils is masculine plural: avec lesquels.
+- b2-relative-lequel-ex004 | fill-in | Complétez avec duquel, de laquelle, desquels ou desquelles : Le parc près ___ j'habite est très calme. | — | ["duquel"] | false | Près de + le parc: de + lequel becomes duquel.
+- b2-relative-lequel-ex005 | multiple-choice | Choisissez la bonne réponse : C'est le café à côté ___ je travaille. | ["duquel","dont","que"] | ["duquel"] | false | After a compound preposition such as à côté de, dont isn't possible: à côté duquel.
+- b2-relative-lequel-ex006 | multiple-choice | Choisissez la bonne forme : La plateforme sur ___ je travaille est nouvelle. | ["laquelle","lequel","lesquelles"] | ["laquelle"] | false | Lequel agrees with the noun it replaces: la plateforme, so laquelle.
+- b2-relative-lequel-ex007 | connector-choice | Choisissez la bonne réponse : Les idées ___ je pense sont simples. | ["auxquelles","auquel","à laquelle"] | ["auxquelles"] | false | Penser à + les idées (feminine plural): auxquelles.
+- b2-relative-lequel-ex008 | reformulation | Reformulez en une phrase avec « avec lequel » : Je travaille avec ce logiciel. Il est très simple. | — | ["Le logiciel avec lequel je travaille est très simple"] | false | Avec lequel replaces avec ce logiciel inside the relative clause.
+- b2-relative-lequel-ex009 | reformulation | Reformulez avec « la raison pour laquelle » : Il est parti parce que le travail était trop loin. | — | ["La raison pour laquelle il est parti, c'est que le travail était trop loin","La raison pour laquelle il est parti est que le travail était trop loin"] | false | La raison pour laquelle + the clause, then c'est que or est que + the cause.
+- b2-relative-lequel-ex010 | error-correction | Corrigez l'erreur : Le parc dont près j'habite est joli. | — | ["Le parc près duquel j'habite est joli"] | false | Dont can't follow près de. Use the preposition + duquel.
+- b2-relative-lequel-ex011 | fill-in | Complétez : Prends un ordinateur, n'importe ___ : ils marchent tous. | — | ["lequel"] | false | N'importe lequel: any one at all, masculine like un ordinateur.
+- b2-relative-lequel-ex012 | translate | Traduisez : The software I work with is new. | — | ["Le logiciel avec lequel je travaille est nouveau","Le logiciel sur lequel je travaille est nouveau"] | false | French can't end with a preposition: avec lequel (or sur lequel) goes before the subject.
+- b2-relative-lequel-ex013 | translate | Traduisez (un homme parle) : That's the reason why I left. | — | ["C'est la raison pour laquelle je suis parti","Voilà la raison pour laquelle je suis parti"] | false | The reason why: la raison pour laquelle.
+- b2-relative-lequel-ex014 | translate | Rédigez en complétant comme indiqué : (The software with which) nous travaillons est simple. (The platform thanks to which) l'équipe partage ses dossiers fonctionne bien. (The meeting during which) on présente les outils a lieu lundi. | — | ["Le logiciel avec lequel nous travaillons est simple. La plateforme grâce à laquelle l'équipe partage ses dossiers fonctionne bien. La réunion au cours de laquelle on présente les outils a lieu lundi.","Le logiciel avec lequel nous travaillons est simple. La plateforme grâce à laquelle l'équipe partage ses dossiers fonctionne bien. La réunion pendant laquelle on présente les outils a lieu lundi."] | true | Avec lequel, grâce à laquelle and au cours de laquelle (or pendant laquelle), each agreeing with its noun.
+- b2-relative-lequel-ex015 | reorder | Remettez dans l'ordre : This is the folder in which I put my documents. | — | ["C'est le dossier dans lequel je mets mes documents"] | false | Dans lequel, agreeing with le dossier, then the subject and the verb.
+
+## b2-relative-prepositions
+
+### Vocab
+
+fr | pron | en | note
+
+- ce à quoi | suh ah KWAH | what (after a verb + à) | Ce à quoi je pense.
+- ce sur quoi | suh sewr KWAH | what (after a verb + sur) | —
+- ce dont | suh DOHN | what (after a verb + de) | Ce dont j'ai besoin.
+- de quoi | duh KWAH | enough to, what's needed to | + infinitive: il y a de quoi manger.
+- il n'y a pas de quoi | eel nyah pah duh KWAH | you're welcome, don't mention it | —
+- quoi que | kwah KUH | whatever | + subjunctive. Two words.
+- qui que | kee KUH | whoever | + subjunctive.
+- où que | oo KUH | wherever | + subjunctive.
+- quoique | KWAH-kuh | although (= bien que) | One word, + subjunctive.
+- compter sur | kohn-tay SEWR | to rely on, to count on | —
+- s'attendre à | sah-tahn-druh AH | to expect | —
+- tenir à | tuh-neer AH | to be attached to, to care about | Like venir, with avoir.
+- se confier à | suh kohn-fee-yay AH | to confide in | —
+- un confident / une confidente | uhn kohn-fee-DAHN / ewn kohn-fee-DAHNT | a confidant | —
+- une relation de confiance | ewn ruh-lah-syohn duh kohn-FYAHNSS | a relationship of trust | —
+- reposer sur | ruh-poh-zay SEWR | to be based on, to rest on | —
+- une valeur | ewn vah-LUHR | a value (a principle) | —
+- une réponse | ew-nray-POHNSS | an answer, a reply | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-relative-prepositions-ex001 | fill-in | Complétez : C'est la collègue avec ___ je travaille. | — | ["qui"] | false | For a person after a preposition, French prefers qui: avec qui.
+- b2-relative-prepositions-ex002 | fill-in | Complétez avec ce à quoi, ce dont ou ce sur quoi : ___ je m'attendais, c'est à une réponse avant lundi. | — | ["Ce à quoi"] | true | S'attendre à: ce à quoi.
+- b2-relative-prepositions-ex003 | fill-in | Complétez avec ce à quoi, ce dont ou ce sur quoi : ___ j'ai besoin, c'est d'un peu de calme. | — | ["Ce dont"] | false | Avoir besoin de: ce dont.
+- b2-relative-prepositions-ex004 | fill-in | Complétez avec ce à quoi, ce dont ou ce sur quoi : ___ il compte, c'est sur ton aide. | — | ["Ce sur quoi"] | false | Compter sur: ce sur quoi.
+- b2-relative-prepositions-ex005 | multiple-choice | Choisissez la bonne réponse : Le collègue avec ___ je travaille est sympa. | ["qui","que","dont"] | ["qui"] | false | After a preposition, a person takes qui. Que and dont can't follow a preposition.
+- b2-relative-prepositions-ex006 | multiple-choice | Choisissez la bonne réponse : Ce n'est pas ___ je m'attendais. | ["ce à quoi","ce que","ce qui"] | ["ce à quoi"] | false | S'attendre à needs à, so ce à quoi.
+- b2-relative-prepositions-ex007 | connector-choice | Choisissez la bonne réponse : ___ je parle, c'est de ton travail. | ["Ce dont","Ce à quoi","Ce que"] | ["Ce dont"] | false | Parler de: ce dont.
+- b2-relative-prepositions-ex008 | reformulation | Reformulez en une phrase avec « sur qui » : J'ai une amie. Je compte sur elle. | — | ["J'ai une amie sur qui je compte"] | false | Sur qui replaces sur elle, after the noun.
+- b2-relative-prepositions-ex009 | reformulation | Reformulez avec « ce à quoi » et « s'attendre à » : Ce n'est pas ce que je pensais. | — | ["Ce n'est pas ce à quoi je m'attendais"] | true | S'attendre à takes à, so ce que becomes ce à quoi.
+- b2-relative-prepositions-ex010 | error-correction | Corrigez l'erreur : C'est l'amie que je compte sur. | — | ["C'est l'amie sur qui je compte","C'est l'amie sur laquelle je compte"] | false | The preposition goes before the relative: sur qui (or sur laquelle).
+- b2-relative-prepositions-ex011 | fill-in | Conjuguez faire au subjonctif : Quoi que tu ___, je serai là. | — | ["fasses"] | false | Quoi que (whatever) + subjunctive: quoi que tu fasses.
+- b2-relative-prepositions-ex012 | translate | Traduisez : She's the friend I rely on. | — | ["C'est l'amie sur qui je compte","C'est l'amie sur laquelle je compte"] | false | Compter sur + a person: sur qui, or less often sur laquelle.
+- b2-relative-prepositions-ex013 | translate | Traduisez : That's not what I expected. | — | ["Ce n'est pas ce à quoi je m'attendais","Ce n'est pas ce que j'attendais"] | true | S'attendre à: ce à quoi. Attendre takes a direct object, so ce que.
+- b2-relative-prepositions-ex014 | translate | Rédigez en complétant comme indiqué : Mon frère est (the one on whom) je compte. (What I care about), c'est notre relation de confiance. (Whatever) je fasse, il m'aide. | — | ["Mon frère est celui sur qui je compte. Ce à quoi je tiens, c'est notre relation de confiance. Quoi que je fasse, il m'aide.","Mon frère est celui sur lequel je compte. Ce à quoi je tiens, c'est notre relation de confiance. Quoi que je fasse, il m'aide."] | true | Sur qui for a person, ce à quoi with tenir à, and quoi que + subjunctive.
+- b2-relative-prepositions-ex015 | reorder | Remettez dans l'ordre : Wherever you go, call me. | — | ["Où que tu ailles, appelle-moi"] | false | Où que + subjunctive, then the main clause.
+
+## b2-subjunctive-relative-clauses
+
+### Vocab
+
+fr | pron | en | note
+
+- il n'y a personne qui | eel nyah pah pehr-SONN kee | there's nobody who | + subjunctive.
+- il n'y a rien qui | eel nyah ryan KEE | there's nothing that | + subjunctive.
+- le seul / la seule… qui | luh SUHL / lah SUHL … kee | the only (one)… who / that | Usually + subjunctive.
+- un profil | uhn proh-FEEL | a profile (the kind of person needed) | —
+- polyvalent / polyvalente | poh-lee-vah-LAHN / poh-lee-vah-LAHNT | versatile, able to do many tasks | —
+- être capable de | eh-truh kah-PAH-bluh duh | to be able to, to be capable of | —
+- l'esprit d'équipe | les-pree day-KEEP | team spirit | —
+- être à l'écoute | eh-truh ah lay-KOOT | to be a good listener, to pay attention to others | Être à l'écoute de quelqu'un.
+- exigeant / exigeante | eg-zee-ZHAHN / eg-zee-ZHAHNT | demanding | —
+- une perle rare | ewn pehrl RAHR | a rare gem, the ideal person | —
+- un critère | uhn kree-TEHR | a criterion | —
+- répondre à des critères | ray-pohn-drah day kree-TEHR | to meet criteria | —
+- convenir à | kohn-vuh-neer AH | to suit | Like venir, with avoir: ça me convient.
+- introuvable | an-troo-VAH-bluh | impossible to find | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-subjunctive-relative-clauses-ex001 | fill-in | Conjuguez savoir au subjonctif : Je cherche quelqu'un qui ___ parler espagnol. | — | ["sache"] | false | The person is sought, not known: the subjunctive, qui sache.
+- b2-subjunctive-relative-clauses-ex002 | fill-in | Conjuguez pouvoir au subjonctif : Il n'y a personne qui ___ m'aider. | — | ["puisse"] | false | After il n'y a personne qui, the subjunctive.
+- b2-subjunctive-relative-clauses-ex003 | fill-in | Conjuguez comprendre au subjonctif : C'est le seul collègue qui ___ ce logiciel. | — | ["comprenne"] | false | After le seul… qui, the subjunctive is usual.
+- b2-subjunctive-relative-clauses-ex004 | fill-in | Mettez au subjonctif passé (voir) : C'est le meilleur film que j'___. | — | ["aie vu"] | false | After a superlative, the written standard is the subjunctive; the film was seen in the past, so que j'aie vu.
+- b2-subjunctive-relative-clauses-ex005 | multiple-choice | Choisissez la phrase où on connaît déjà la personne. | ["Je cherche la collègue qui sait l'espagnol.","Je cherche une collègue qui sache l'espagnol.","Il n'y a personne qui sache l'espagnol."] | ["Je cherche la collègue qui sait l'espagnol."] | false | La collègue and the indicative sait: a real, known person.
+- b2-subjunctive-relative-clauses-ex006 | multiple-choice | Indiquez le sens de « maîtriser un logiciel ». | ["to have a good command of software","to buy software","to break software"] | ["to have a good command of software"] | false | Maîtriser: to master, to have a good command of.
+- b2-subjunctive-relative-clauses-ex007 | connector-choice | Choisissez la bonne forme : Il n'y a personne ici qui ___ parler espagnol. | ["sache","sait","savoir"] | ["sache"] | false | After il n'y a personne qui, the standard is the subjunctive.
+- b2-subjunctive-relative-clauses-ex008 | reformulation | Reformulez avec « Nous cherchons quelqu'un qui » : Profil : polyvalent, capable de travailler en équipe. | — | ["Nous cherchons quelqu'un qui soit polyvalent et capable de travailler en équipe","Nous cherchons quelqu'un qui soit polyvalent et qui soit capable de travailler en équipe"] | false | The person is sought, so qui soit.
+- b2-subjunctive-relative-clauses-ex009 | reformulation | Reformulez avec « il n'y a personne qui » : Quelqu'un peut répondre à cette question. | — | ["Il n'y a personne qui puisse répondre à cette question"] | true | The negative takes the subjunctive: qui puisse.
+- b2-subjunctive-relative-clauses-ex010 | error-correction | Corrigez la forme pour le registre soutenu : C'est le meilleur film que j'ai vu. | — | ["C'est le meilleur film que j'aie vu"] | false | In careful writing, a superlative takes the subjunctive: que j'aie vu.
+- b2-subjunctive-relative-clauses-ex011 | fill-in | Complétez avec convenir au présent : Cet appartement ne me ___ pas : il est trop petit. | — | ["convient"] | false | Convenir is like venir: il convient.
+- b2-subjunctive-relative-clauses-ex012 | translate | Traduisez avec « qui » : I'm looking for a flat that is quiet. | — | ["Je cherche un appartement qui soit calme"] | false | The flat is sought, not found yet: qui soit.
+- b2-subjunctive-relative-clauses-ex013 | translate | Traduisez : There's nobody who can help me. | — | ["Il n'y a personne qui puisse m'aider"] | true | Il n'y a personne qui + subjunctive.
+- b2-subjunctive-relative-clauses-ex014 | translate | Rédigez cette annonce en complétant comme indiqué : Nous cherchons quelqu'un qui (is: être) calme et qui (has: avoir) l'esprit d'équipe. C'est le seul appartement du quartier qui (has: avoir) un grand balcon. | — | ["Nous cherchons quelqu'un qui soit calme et qui ait l'esprit d'équipe. C'est le seul appartement du quartier qui ait un grand balcon."] | false | Two subjunctives for a sought person, and one after le seul… qui.
+- b2-subjunctive-relative-clauses-ex015 | reorder | Remettez dans l'ordre : There's nothing that suits me. | — | ["Il n'y a rien qui me convienne"] | false | Il n'y a rien qui + subjunctive: convienne.
+
+## b2-idiomatic-y-en
+
+### Vocab
+
+fr | pron | en | note
+
+- s'en aller | sahn-nah-LAY | to go away, to leave | Je m'en vais, il s'en va; je m'en suis allé(e).
+- en vouloir à | ahn voo-lwahr AH | to hold it against, to be angry with | Je lui en veux.
+- s'en sortir | sahn sor-TEER | to manage, to get by, to cope | —
+- s'en faire | sahn FEHR | to worry | Ne t'en fais pas: don't worry.
+- s'en remettre | sahn ruh-MEH-truh | to get over it, to recover from it | —
+- en rester là | ahn res-tay LAH | to leave it there, to go no further | —
+- ne pas en revenir | nuh pah-zahn ruh-vuh-NEER | to be amazed, not to believe it | Je n'en reviens pas !
+- en avoir marre | ahn-nah-vwahr MAHR | to be fed up | Informal: j'en ai marre de…
+- en avoir assez | ahn-nah-vwahr ah-SAY | to have had enough | Neutral.
+- ne plus en pouvoir | nuh plew-zahn poo-VWAHR | to be exhausted, to be at the end of your tether | Je n'en peux plus.
+- y tenir | ee tuh-NEER | to be keen on it, to care about it | J'y tiens.
+- s'y faire | see FEHR | to get used to it | —
+- s'y prendre | see PRAHN-druh | to go about it | Je ne sais pas comment m'y prendre.
+- ça y est | sah ee EH | that's it, done, there we are | —
+- y compris | ee kohn-PREE | including | —
+- je le sais | zhuh luh SEH | I know (it) | —
+- je l'espère | zhuh les-PEHR | I hope so | —
+- comme je te l'ai dit | kom zhuh tuh lay DEE | as I told you | Formal: comme je vous l'ai dit.
+- je m'en doutais | zhuh mahn doo-TEH | I suspected as much | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-idiomatic-y-en-ex001 | fill-in | Complétez avec en, y ou le : Ne t'___ fais pas, tout va bien. | — | ["en"] | false | S'en faire: to worry. Ne t'en fais pas: don't worry.
+- b2-idiomatic-y-en-ex002 | fill-in | Complétez avec en, y ou le : Il est très tard, je m'___ vais. | — | ["en"] | false | S'en aller: to leave. Je m'en vais.
+- b2-idiomatic-y-en-ex003 | fill-in | Complétez avec en, y ou le : C'est difficile au début, mais tu vas t'___ faire. | — | ["y"] | false | S'y faire: to get used to it.
+- b2-idiomatic-y-en-ex004 | fill-in | Complétez avec en, y ou le : — Paul part demain ? — Oui, je ___ sais. | — | ["le"] | false | Neutral le replaces the whole idea: that Paul is leaving.
+- b2-idiomatic-y-en-ex005 | fill-in | Complétez avec en, y ou le : Elle a eu des problèmes, mais elle s'___ est bien sortie. | — | ["en"] | false | S'en sortir: to manage. In the passé composé: elle s'en est sortie.
+- b2-idiomatic-y-en-ex006 | multiple-choice | Indiquez le sens de : Je m'en sors bien. | ["I'm managing well.","I'm going out a lot.","I'm leaving early."] | ["I'm managing well."] | false | S'en sortir: to manage, to cope.
+- b2-idiomatic-y-en-ex007 | multiple-choice | Indiquez le sens de : J'y tiens beaucoup. | ["I care about it a lot.","I'm holding it in my hand.","I live there a lot."] | ["I care about it a lot."] | false | Y tenir: to care about something, to be keen on it.
+- b2-idiomatic-y-en-ex008 | multiple-choice | Indiquez le sens de : Je n'en reviens pas ! | ["I can't believe it!","I'm not coming back!","I don't have any left!"] | ["I can't believe it!"] | false | Ne pas en revenir: to be amazed.
+- b2-idiomatic-y-en-ex009 | register-shift | Transformez en registre courant, avec « en avoir assez » : J'en ai marre de ce travail. | — | ["J'en ai assez de ce travail"] | false | En avoir marre is informal; en avoir assez is neutral.
+- b2-idiomatic-y-en-ex010 | reformulation | Reformulez avec « en vouloir à » : Je suis en colère contre lui. | — | ["Je lui en veux"] | false | En vouloir à quelqu'un: lui before en.
+- b2-idiomatic-y-en-ex011 | error-correction | Corrigez l'erreur : Je me suis en allé. | — | ["Je m'en suis allé","Je m'en suis allée"] | false | Me and en both go before the auxiliary, in that order: je m'en suis allé.
+- b2-idiomatic-y-en-ex012 | translate | Traduisez avec « s'en faire » (tu) : Don't worry. | — | ["Ne t'en fais pas"] | false | Ne t'en fais pas: the everyday way to say don't worry.
+- b2-idiomatic-y-en-ex013 | translate | Traduisez avec « en avoir marre » : I'm fed up with this job. | — | ["J'en ai marre de ce travail"] | false | En avoir marre de + noun. It's informal.
+- b2-idiomatic-y-en-ex014 | translate | Rédigez ce message en complétant comme indiqué : Je (can't take any more), mais je (am getting used to it: s'y faire). (That's it), j'ai fini mon premier mois ! | — | ["Je n'en peux plus, mais je m'y fais. Ça y est, j'ai fini mon premier mois !"] | false | Ne plus en pouvoir, s'y faire and ça y est.
+- b2-idiomatic-y-en-ex015 | reorder | Remettez dans l'ordre : As I told you, I'm leaving. | — | ["Comme je te l'ai dit, je m'en vais"] | false | Comme je te l'ai dit, with neutral le, then s'en aller.
+
+## b2-mise-en-relief
+
+### Vocab
+
+fr | pron | en | note
+
+- la mise en relief | lah mee-zahn ruh-LYEF | emphasis, putting something in focus | —
+- ce que je veux dire, c'est que | suh kuh zhuh vuh DEER, seh KUH | what I mean is that | —
+- le plus important, c'est | luh plew-zan-por-TAHN, SEH | the most important thing is | —
+- l'essentiel, c'est | leh-sahn-SYEL, SEH | the main thing is | —
+- justement | zhews-tuh-MAHN | precisely, as it happens | C'est justement pour ça que…
+- mettre l'accent sur | meh-truh lak-SAHN sewr | to stress, to put the emphasis on | —
+- une priorité | ewn pree-oh-ree-TAY | a priority | —
+- avant tout | ah-vahn TOO | above all, first and foremost | —
+- surtout | sewr-TOO | above all, especially | —
+- en particulier | ahn par-tee-kew-LYAY | in particular | —
+- au fond | oh FOHN | basically, deep down | —
+- quant à | kahn-tah | as for | Quant à moi; quant au projet.
+- pour ce qui est de | poor suh kee eh DUH | as regards, when it comes to | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-mise-en-relief-ex001 | fill-in | Complétez avec qui ou que : C'est Paul ___ a gagné. | — | ["qui"] | false | Paul is the subject of a gagné: c'est… qui.
+- b2-mise-en-relief-ex002 | fill-in | Complétez avec qui ou que : C'est demain ___ je pars. | — | ["que"] | false | Demain isn't the subject: c'est… que.
+- b2-mise-en-relief-ex003 | fill-in | Complétez avec qui ou que : C'est à Lyon ___ nous habitons. | — | ["que"] | false | A place in focus: c'est à Lyon que.
+- b2-mise-en-relief-ex004 | fill-in | Conjuguez avoir au présent : C'est moi qui ___ fini le rapport. | — | ["ai"] | false | After c'est moi qui, the verb agrees with moi: j'ai, so qui ai.
+- b2-mise-en-relief-ex005 | multiple-choice | Indiquez la partie mise en relief : C'est avec Sophie que j'ai préparé le dossier. | ["avec Sophie","le dossier","j'ai préparé"] | ["avec Sophie"] | false | What comes between c'est and que is in focus.
+- b2-mise-en-relief-ex006 | multiple-choice | Indiquez le sens de « quant à moi ». | ["as for me","because of me","next to me"] | ["as for me"] | false | Quant à introduces a new topic: as for.
+- b2-mise-en-relief-ex007 | connector-choice | Choisissez la bonne réponse : ___ budget, tout est prêt. | ["Quant au","Parce que le","Bien que le"] | ["Quant au"] | false | Quant à + le budget gives quant au budget: as for the budget.
+- b2-mise-en-relief-ex008 | reformulation | Reformulez en mettant le moment en relief, avec « c'est… que » : Je pars lundi. | — | ["C'est lundi que je pars"] | false | The time goes between c'est and que.
+- b2-mise-en-relief-ex009 | reformulation | Reformulez avec « c'est… qui » : Marie a trouvé la solution. | — | ["C'est Marie qui a trouvé la solution"] | true | The subject goes between c'est and qui.
+- b2-mise-en-relief-ex010 | error-correction | Corrigez l'erreur : C'est moi qui a raison. | — | ["C'est moi qui ai raison"] | false | The verb agrees with moi: qui ai.
+- b2-mise-en-relief-ex011 | register-shift | Transformez en registre soutenu, avec « c'est… que » : Le café, je l'adore. | — | ["C'est le café que j'adore"] | false | Spoken dislocation becomes a cleft sentence in careful French.
+- b2-mise-en-relief-ex012 | translate | Traduisez : It's Marie who found the solution. | — | ["C'est Marie qui a trouvé la solution"] | true | C'est + the subject + qui.
+- b2-mise-en-relief-ex013 | translate | Traduisez avec « ce qui compte » : What matters is to listen. | — | ["Ce qui compte, c'est d'écouter","Ce qui compte, c'est écouter"] | false | Ce qui compte, c'est (de) + infinitive.
+- b2-mise-en-relief-ex014 | translate | Rédigez en complétant comme indiqué : (It's Sophie who) a préparé le projet. (It's in June that) nous le présenterons. (What matters), c'est de garder nos clients. | — | ["C'est Sophie qui a préparé le projet. C'est en juin que nous le présenterons. Ce qui compte, c'est de garder nos clients."] | true | C'est… qui for the subject, c'est… que for the time, and ce qui compte, c'est.
+- b2-mise-en-relief-ex015 | reorder | Remettez dans l'ordre : It's you who are right. | — | ["C'est vous qui avez raison"] | false | After c'est vous qui, the verb agrees with vous.
+
+## b2-review-pronouns
+
+### Vocab
+
+fr | pron | en | note
+
+- une association de quartier | ew-nah-soh-syah-syohn duh kar-TYAY | a neighbourhood association | —
+- un projet commun | uhn proh-zheh koh-MUHN | a joint project | —
+- s'impliquer dans | san-plee-kay DAHN | to get involved in | —
+- mettre en place | meh-trahn PLAHSS | to set up | —
+- un local | uhn loh-KAHL | premises, a room or building for an activity | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-review-pronouns-ex001 | fill-in | Complétez : Nous avons un local à côté ___ il y a une école. | — | ["duquel"] | false | After à côté de, dont isn't possible: à côté duquel.
+- b2-review-pronouns-ex002 | fill-in | Complétez : Ce ___ nous avons besoin, c'est d'un peu de temps. | — | ["dont"] | false | Avoir besoin de: ce dont.
+- b2-review-pronouns-ex003 | fill-in | Complétez : C'est la collègue avec ___ j'ai organisé la fête. | — | ["qui"] | false | A person after a preposition: avec qui.
+- b2-review-pronouns-ex004 | error-correction | Corrigez l'erreur d'accord : Si j'avais vu ta sœur, je l'aurais appelé. | — | ["Si j'avais vu ta sœur, je l'aurais appelée"] | false | L' stands for ta sœur, a direct object before the verb: the participle agrees, appelée.
+- b2-review-pronouns-ex005 | connector-choice | Choisissez la bonne réponse : Le parc près ___ j'habite est grand. | ["duquel","dont","que"] | ["duquel"] | false | Près de is a compound preposition: près duquel.
+- b2-review-pronouns-ex006 | connector-choice | Choisissez la bonne réponse : La personne sur ___ je compte, c'est ma sœur. | ["qui","que","dont"] | ["qui"] | false | Compter sur + a person: sur qui.
+- b2-review-pronouns-ex007 | multiple-choice | Choisissez la bonne forme : Nous cherchons quelqu'un qui ___ du temps le samedi. | ["ait","avoir","avons"] | ["ait"] | false | Someone sought: the subjunctive, qui ait.
+- b2-review-pronouns-ex008 | reformulation | Reformulez en une phrase avec « auquel » : Nous pensons à un projet. Ce projet est un jardin partagé. | — | ["Le projet auquel nous pensons est un jardin partagé"] | false | Penser à + le projet: auquel.
+- b2-review-pronouns-ex009 | reformulation | Reformulez en une phrase avec « avec qui » : J'ai parlé avec des habitants. Ils sont très contents. | — | ["Les habitants avec qui j'ai parlé sont très contents"] | true | Avec qui for people, after the noun.
+- b2-review-pronouns-ex010 | error-correction | Corrigez l'erreur : C'est moi qui a écrit la lettre. | — | ["C'est moi qui ai écrit la lettre"] | false | After c'est moi qui, the verb agrees with moi: qui ai.
+- b2-review-pronouns-ex011 | register-shift | Transformez en registre soutenu, avec « c'est… qui » : Moi, j'ai trouvé le local. | — | ["C'est moi qui ai trouvé le local"] | false | Spoken dislocation becomes a cleft sentence.
+- b2-review-pronouns-ex012 | multiple-choice | Indiquez le sens de : Ne vous en faites pas. | ["Don't worry.","Don't do it.","Don't leave."] | ["Don't worry."] | false | S'en faire: to worry.
+- b2-review-pronouns-ex013 | translate | Traduisez avec « s'impliquer dans » : This is the association I'm getting involved in. | — | ["C'est l'association dans laquelle je m'implique","Voici l'association dans laquelle je m'implique"] | false | S'impliquer dans + l'association: dans laquelle.
+- b2-review-pronouns-ex014 | translate | Rédigez en complétant comme indiqué : Nous avons un nouveau local (next to which) il y a une école. (It's there that) nous nous réunissons le mardi. | — | ["Nous avons un nouveau local à côté duquel il y a une école. C'est là que nous nous réunissons le mardi."] | true | À côté duquel after a compound preposition, then c'est… que for the place.
+- b2-review-pronouns-ex015 | translate | Rédigez en complétant comme indiqué : (What we need), ce sont des personnes qui (have: avoir) un peu de temps. (As for) la mairie, elle nous a aidés à (set up) le projet. | — | ["Ce dont nous avons besoin, ce sont des personnes qui aient un peu de temps. Quant à la mairie, elle nous a aidés à mettre en place le projet.","Ce dont nous avons besoin, ce sont des personnes qui aient un peu de temps. Pour ce qui est de la mairie, elle nous a aidés à mettre en place le projet."] | true | Ce dont, the subjunctive for people sought, quant à or pour ce qui est de, and mettre en place.
+- b2-review-pronouns-ex016 | reorder | Remettez dans l'ordre : It's the project I care about. | — | ["C'est le projet auquel je tiens"] | false | Tenir à + le projet: auquel.

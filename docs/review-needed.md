@@ -1239,3 +1239,37 @@ Every date, tradition and regional detail, for checking:
 ## b2-review-news
 
 - **"*Interview* is borrowed from English but pronounced the French way."** Confirm.
+
+## b2-relative-lequel
+
+- **"*Dont* can't follow a preposition made of several words that ends in *de*, such as *près de*, *à côté de*, *au cours de* or *en face de*."** Confirm.
+- **"*La raison pour laquelle* is the usual way to say 'the reason why'."** Confirm.
+- **"For a place, *où* is often simpler than *dans lequel* ... *où* is more common in speech."** Confirm.
+
+## b2-relative-prepositions
+
+- **"For a person after a preposition, French prefers *qui* ... *Lequel* is also correct for people ... but it sounds more formal."** Confirm.
+- **"After *parmi* (among) and *entre* (between), French uses *lesquels* or *lesquelles*, even for people."** Confirm.
+- **"*Quoique* (one word) ... means 'although', like *bien que*."** Confirm.
+- **"*Ce n'est pas ce à quoi je m'attendais*" and "*Ce n'est pas ce que j'attendais*"** (ex013, both accepted). Confirm both are natural.
+
+## b2-subjunctive-relative-clauses
+
+- **"In speech, you'll also hear the indicative here (*le meilleur film que j'ai vu*) ... In careful writing, the subjunctive is the standard."** Confirm.
+- **"After *il n'y a personne qui*, *il n'y a rien qui* ... the standard is the subjunctive."** Confirm.
+- **The meaning contrast** (*je cherche un livre qui explique ça* / *le livre qui explique ça*). Confirm.
+
+## b2-idiomatic-y-en
+
+- **Meanings and registers:** *en avoir marre* informal, *en avoir assez* neutral, *ne plus en pouvoir* (exhausted), *s'en faire* (to worry), *ne pas en revenir* (to be amazed). Confirm.
+- **"Leaving it out (*comme je t'ai dit*) is common in speech, but the full form is standard."** Confirm.
+
+## b2-mise-en-relief
+
+- **"*C'est moi qui a* is a frequent mistake ... the verb must agree with *moi*."** Confirm.
+- **"With a plural noun, careful French says *ce sont* ... In speech, *c'est* is common there too."** Confirm.
+- **"Dislocation ... is very common in speech but sounds informal in writing."** Confirm.
+
+## b2-review-pronouns
+
+- **"*Elle s'est lavé les mains* ... *les mains qu'elle s'est lavées*" and "*Elles se sont parlé*" (no agreement).** Confirm the agreement checklist.

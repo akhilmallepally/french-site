@@ -191,3 +191,16 @@
   - Fixed phrases defined at first use: *avoir lieu* (nuancing), *avoir du mal à* (social-issues), *faire semblant de* and *prendre du retard* (reporting-verbs), *de leur côté* (summary), *d'ici là* (a futur-anterieur note). Replaced: *de près*, *en plus*, *il s'agit de*, *au bord de*, *en même temps*.
   - Claims softened: "most verbs with *à*" and "normally no *par*". *Aller* variants added in politics and review ex013 / ex014; summary ex014 pinned. The reporting-verbs résumé is reworded. All "you know X from Y" claims hold.
 - **Checks:** all 7 pass; the only B2 audit row is the earlier purpose ex014. A1 to B1 output is unchanged.
+
+## Unit 4
+
+- **Step 0:** the agreement checklist was already in unit-4.md (about 1,000 teaching words, within the review limits). It's written into b2-review-pronouns.
+- **Teaching-text words:** relative-lequel 802, relative-prepositions 805, subjunctive-relative-clauses 823, idiomatic-y-en 802, mise-en-relief 802, review-pronouns 806 (all b2-).
+- **Vocab deviations:**
+  - Recaps instead of entries: *le jour où* (a2-relative-qui-que-ou teaches *où* for time), *parler couramment*, *un logement*, *idéal*, *ce qui compte, c'est*, and *s'en vouloir* (*je m'en veux* is from b2-regret-and-reproach).
+  - Added: *quoique*, *une réponse*, the grammar terms (*préposition*, *phrase relative*), the plural forms *auxquels* / *desquels*, *il n'y a personne qui* and *la mise en relief*. NEW_MEANINGS has *un serveur*.
+- **Exercise deviations:** prepositions ex4 tests *ce sur quoi* instead of *où*. The *qui* / *lequel* MC uses clearly wrong distractors (*que*, *dont*), because *lequel* is correct too. Several cues are pinned, and *lequel* variants are listed for people.
+- **Hand checks:** no untaught fixed phrases left (*gagner du temps*, *parmi*, *le jour même* and *compliqué* were replaced). One sentence copied from A2 (*Tu lui as parlé ?*) is reworded. Dialogues avoid dislocation before b2-mise-en-relief.
+- **Checks:** check:words, check:structures, audit (only the earlier purpose ex014), validate, test:content, test:checker (29/29) and build all pass. A1 to B1 output is unchanged.
+- **review-needed.md:** 17 items under 6 ids: *dont* after compound prepositions, *qui* / *lequel* for people, *parmi* / *entre*, *quoique*, moods after superlatives and negatives, the *y* / *en* registers, *comme je te l'ai dit*, *c'est moi qui ai*, *ce sont*, dislocation, and the agreement checklist.
+- **Not done:** no fluent-speaker check.

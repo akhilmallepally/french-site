@@ -41,7 +41,7 @@ médical médicale méthode méthodes négociation objection opposition paradoxa
 participant participante position positions priorité probabilité procédure profil prévention racisme registre
 restauration rhétorique rime risque risques romantisme récession satirique scandale scène solidarité spécialiste
 stratégie surprise surréalisme suspect symboliser thème thèmes transition électoral électorale émotion émotions absentéisme
-excellent excellente présentation action actions ambiance changement opposition coalition scandale politique électoral électorale monument monuments historique développement création importance sécurité taxe maximum satirique
+excellent excellente présentation action actions ambiance changement opposition coalition scandale politique électoral électorale monument monuments historique développement création importance sécurité taxe maximum satirique système systèmes profil profils priorité priorités
 `.trim().split(/\s+/));
 
 // A B2 vocab entry may repeat an A1–B1 entry only when it teaches a new meaning, listed here
@@ -55,6 +55,7 @@ export const NEW_MEANINGS: Record<string, string> = {
   "un état des lieux": "B2 (b2-formal-report): an overview of a situation. b1-housing-and-renting taught an inventory check.",
   "quoi": "B2 (b2-colloquial-french): the filler at the end of a sentence. a1-question-words taught what.",
   "trop": "B2 (b2-colloquial-french): very, in familiar speech. a2-adverbs-ment taught too (much).",
+  "un serveur": "B2 (b2-relative-lequel): a computer server. a2-jobs-and-workplace taught a waiter (un serveur / une serveuse).",
   "un chapeau": "B2 (b2-summarizing-an-article): the standfirst of an article. a1-shopping-for-clothes taught a hat (le chapeau).",
   "un carrefour": "B2 (b2-review-what-might-have-been): a crossroads in life, figuratively. a1-asking-directions taught a road junction (le carrefour).",
 };
