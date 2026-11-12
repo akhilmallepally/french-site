@@ -41,7 +41,7 @@ const IGNORE = new Set([
   // irregular forms of verbs defined elsewhere
   "souviens", "souvient", "souviennent", "souvenons", "souvenez",
   "deviendrais", "deviendrait", "deviendrai", "deviendra", "aperçu", "aperçue", "disparu", "disparue", "paie", "paies", "nourrisse", "nourrisses", "envoie", "envoies", "préviens", "prévient", "prévienne", "préviennent",
-  "réussisse", "comprennent", "compreniez", "agisse",
+  "réussisse", "comprennent", "compreniez", "agisse", "promis", "promise", "tiendrait", "tiendrais", "permis", "admis", "rappelle", "reviendrait", "ouvert", "ouverte",
   // grammar terms and film titles
   "plus-que-parfait", "parfait", "souffle", "intouchables", "ch'tis",
   "montréal", "québec", "genève", "marseille", "rouen", "avignon", "cannes", "dupont", "martin", "dubois",
@@ -92,7 +92,7 @@ function names(s: string): Set<string> {
 }
 // More English words, used only for B2 and later, whose prompts and options mix in English sentences.
 // (Kept apart so that A1 to B1 results don't change.)
-const B2_ENGLISH = new Set(("say another way purchasing power volunteers help homeless people before after leave rains rain if wait until although late going out we'll it's we're don't i'll i'd you're there's that's mixed strong opinion meaning sentence word despite age he's still working stand someone up everyone heard him nobody hear careful shy soon you've arrived glad came about yourself promise future reproach someone without moving polite " +
+const B2_ENGLISH = new Set(("say another way purchasing power volunteers help homeless people before after leave rains rain if wait until although late going out we'll it's we're don't i'll i'd you're there's that's mixed strong opinion meaning sentence word despite age he's still working stand someone up everyone heard him nobody hear careful shy soon you've arrived glad came about yourself promise future reproach someone without moving polite left wing party voting twice hearing witness's " +
   "").trim().split(/\s+/));
 const isEnglishWord = (w: string, b2 = false) => ENGLISH.has(w) || (b2 && B2_ENGLISH.has(w));
 const isEnglish = (s: string, b2 = false) => {

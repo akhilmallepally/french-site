@@ -151,3 +151,18 @@
   - Unused entries now have examples in futur, subjonctif and regret. The review's warning covers preceding-object agreement. regret ex006 and ex008 have new variants.
 - **Docs:** 2 CLAUDE.md rules and the A2 agreement note. The unit-4.md agreement checklist with ex4 (about 1,000 teaching words, within limits), and the overview updated. 2 review-needed items.
 - **Checks:** all 7 pass; the only B2 audit row is the earlier purpose ex014. A1 to B1 output is unchanged.
+
+## Unit 3, run 1
+
+- **Teaching-text words:** politics-and-society 800, reported-speech-past 889, reported-questions-orders 815, reporting-verbs 808, passive-voice 828 (all b2-). Run 2 (b2-alternatives-to-passive to b2-review-news) isn't written yet.
+- **Vocab deviations:** recaps instead of entries for *candidat*, *démissionner*, *interdire*, *exiger*, *ajouter*, *confirmer*, *éviter de* and *ce jour-là*. Merged entries: *le pouvoir* / *au pouvoir*, *tenir sa promesse* / *tenir parole*, *la veille* / *la veille au soir*. Added entries: *le Parlement*, *le discours indirect*, *l'imparfait*, *un château*, *un mur*.
+- **Exercise deviations:**
+  - politics ex13 uses *monter* (*augmenter* isn't taught).
+  - reported-speech ex10 sets the context so that *viendra* is wrong.
+  - reporting-verbs ex13 is "nothing had changed" (the passive is the next lesson).
+  - passive ex10 corrects agreement (*aimé par* isn't wrong).
+  - Several cues are pinned. The "still true" exception adds variants in ex008, ex012 and ex009.
+- **Lists and scripts:** new COGNATES (*opposition*, *coalition*, *scandale*, *politique*, *électoral(e)*, *monument(s)*, *historique*), new irregular forms and B2-only English words in check-words.ts. *Imparfait* is a vocab entry because it's flagged at A2.
+- **Checks:** check:words, check:structures, audit (only the earlier purpose ex014), validate, test:content, test:checker (29/29) and build all pass. A1 to B1 output is unchanged.
+- **review-needed.md:** 21 items under 5 ids. They cover the institutions and law-making, two-round elections, the tense-shift exceptions, *insister pour que*, *audition*, *nier que*, *prétendre*, headlines, and *par* / *de* in the passive.
+- **Not done:** no fluent-speaker check.

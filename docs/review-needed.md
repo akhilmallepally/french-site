@@ -1170,3 +1170,39 @@ Every date, tradition and regional detail, for checking:
 - **"*C'est (de) ma faute* ... *c'est ma faute* is the more careful form."** Confirm.
 - **"*Tu aurais dû* is firmer than *tu aurais pu*."** Confirm.
 - **"After an apology, [*ce n'est pas grave*] means 'it doesn't matter'."** Confirm.
+
+## b2-politics-and-society
+
+- **"*Le Parlement* (Parliament) has two chambers: *l'Assemblée nationale* ... whose members, *les députés*, are elected directly by citizens, and *le Sénat*."** Confirm.
+- **"A law usually starts as *un projet de loi* (a bill), proposed by the government."** Confirm that the government proposes most laws.
+- **"*Voter une loi* means the same, but only Parliament does it: citizens vote in elections, not on most laws."** Confirm.
+- **"In France, the head of State is *le président de la République*, and *le Premier ministre* leads the government."** Confirm.
+- **"Many French elections have two rounds: *le premier tour* and *le second tour*."** Confirm.
+- **"In a conversation with people you don't know well, many French speakers avoid saying which party they vote for."** Confirm this is fair.
+- **"*Le gouvernement* is a narrower word than in English: it means the Prime Minister and the ministers."** Confirm.
+
+## b2-reported-speech-past
+
+- **"When the fact is still true when you report it, you may keep the present ... *Il m'a dit qu'il habitait à Lyon* is also correct, and it's the safer choice in writing."** Confirm.
+- **"Some tenses can't move further back ... the imparfait, the plus-que-parfait and the conditionnel."** Confirm the list.
+- **"*Paul a dit qu'il viendra, mais il n'est pas venu* is wrong."** Confirm.
+
+## b2-reported-questions-orders
+
+- **"*Insister pour que* ... takes *que* + subjunctive."** Confirm.
+- **"*Une audition* is a false friend in the news: it's usually a formal hearing by the police, a judge or a parliamentary committee."** Confirm.
+- **"*Dire de* is neutral, and *demander de* is more polite."** Confirm.
+
+## b2-reporting-verbs
+
+- **"After *nier que*, the verb usually goes in the subjunctive."** Confirm.
+- **"*Prétendre* ... suggests that the reporter doubts the claim."** Confirm.
+- **"*Démentir* is the word for a government or a company that says a piece of news is false."** Confirm.
+- **"French headlines usually put the reporting verb in the present, even for yesterday's news."** Confirm.
+
+## b2-passive-voice
+
+- **"*De* is usual when the participle describes a state or a feeling ... *aimé par ses élèves* is possible, but *aimé de ses élèves* sounds more natural."** Confirm.
+- **"*Entouré de policiers* describes a situation, while *entouré par les policiers* stresses the action."** Confirm.
+- **"A building that's *classé monument historique* is protected by the State, and any change to it must be approved."** Confirm.
+- **"Many French buildings have a small plaque by the door, often in the passive."** Confirm.

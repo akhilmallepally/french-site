@@ -1,6 +1,6 @@
 # All lesson data
 
-179 written lessons, in course order.
+184 written lessons, in course order.
 
 ## a1-greetings
 
@@ -6985,3 +6985,224 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-review-what-might-have-been-ex014 | translate | Rédigez en complétant comme indiqué : Il y a cinq ans, ma vie (changed completely). (By chance), j'ai rencontré une amie à la gare. Elle m'a proposé un poste à Paris. | — | ["Il y a cinq ans, ma vie a basculé. Par hasard, j'ai rencontré une amie à la gare. Elle m'a proposé un poste à Paris."] | true | Basculer in the passé composé, with avoir, and par hasard.
 - b2-review-what-might-have-been-ex015 | translate | Rédigez en complétant comme indiqué : Si je n'(had met) cette amie, j'(would still live) à Lyon. (In hindsight), je ne regrette rien. | — | ["Si je n'avais pas rencontré cette amie, j'habiterais encore à Lyon. Avec le recul, je ne regrette rien.","Si je n'avais pas rencontré cette amie, j'habiterais encore à Lyon. Rétrospectivement, je ne regrette rien."] | true | A past condition with a present result, then a look back.
 - b2-review-what-might-have-been-ex016 | reorder | Remettez dans l'ordre : My life changed completely ten years ago. | — | ["Ma vie a basculé il y a dix ans"] | false | Passé composé, then il y a + a length of time.
+
+## b2-politics-and-society
+
+### Vocab
+
+fr | pron | en | note
+
+- le gouvernement | luh goo-vehr-nuh-MAHN | the government | —
+- le Premier ministre | luh pruh-myay mee-NEES-truh | the Prime Minister | —
+- le Parlement | luh par-luh-MAHN | Parliament | —
+- l'Assemblée nationale | lah-sahn-blay nah-syoh-NAHL | the National Assembly | —
+- le Sénat | luh say-NAH | the Senate | —
+- un député / une députée | uhn day-pew-TAY / ewn day-pew-TAY | a member of the National Assembly, an MP | —
+- un parti politique | uhn par-tee poh-lee-TEEK | a political party | —
+- la gauche | lah GOHSH | the left (in politics) | Un parti de gauche.
+- la droite | lah DRWAHT | the right (in politics) | Un parti de droite.
+- le pouvoir | luh poo-VWAHR | power | Être au pouvoir: to be in power.
+- un projet de loi | uhn proh-zheh duh LWAH | a bill (a proposed law) | —
+- adopter une loi | ah-dop-tay ewn LWAH | to pass a law | —
+- une réforme | ewn ray-FORM | a reform | —
+- réformer | ray-for-MAY | to reform | —
+- une majorité absolue | ewn mah-zhoh-ree-tay ap-soh-LEW | an absolute majority (more than half) | —
+- élire | ay-LEER | to elect | Like lire: il élit, il a élu.
+- une campagne électorale | ewn kahn-pah-nyuh ay-lek-toh-RAHL | an election campaign | —
+- un sondage | uhn sohn-DAHZH | an opinion poll | —
+- un débat télévisé | uhn day-bah tay-lay-vee-ZAY | a TV debate | —
+- l'abstention | lap-stahn-SYOHN | abstention (not voting) | —
+- un mandat | uhn mahn-DAH | a term of office | —
+- la démission | lah day-mee-SYOHN | resignation | Présenter sa démission.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-politics-and-society-ex001 | fill-in | Complétez : Un ___ est élu à l'Assemblée nationale pour représenter les citoyens. | — | ["député"] | false | Un député sits in the Assemblée nationale.
+- b2-politics-and-society-ex002 | fill-in | Complétez : Le gouvernement présente un projet de ___ aux députés. | — | ["loi"] | false | Un projet de loi: a bill, which Parliament then debates.
+- b2-politics-and-society-ex003 | fill-in | Complétez : Selon un ___, beaucoup d'électeurs veulent des réformes. | — | ["sondage"] | false | Un sondage: an opinion poll.
+- b2-politics-and-society-ex004 | fill-in | Complétez : La maire est au début de son ___ : elle a été élue en mars. | — | ["mandat"] | false | Un mandat: the period an elected person holds office.
+- b2-politics-and-society-ex005 | fill-in | Complétez avec un verbe à l'infinitif : Après le scandale, le ministre a dû ___. | — | ["démissionner"] | false | Démissionner: to resign. The noun is la démission.
+- b2-politics-and-society-ex006 | multiple-choice | Indiquez où travaillent les députés. | ["à l'Assemblée nationale","à la mairie","à l'école"] | ["à l'Assemblée nationale"] | false | Députés sit in the Assemblée nationale, one of the two chambers of Parliament.
+- b2-politics-and-society-ex007 | multiple-choice | Indiquez le sens de « un parti de gauche ». | ["a left-wing party","a right-wing party","a party that has left"] | ["a left-wing party"] | false | La gauche is the left in politics; la droite is the right.
+- b2-politics-and-society-ex008 | multiple-choice | Indiquez le sens de « l'abstention ». | ["not voting","voting twice","a TV debate"] | ["not voting"] | false | L'abstention is the choice, or the fact, of not voting.
+- b2-politics-and-society-ex009 | multiple-choice | Trouvez le mot qui ne va pas avec les autres. | ["un sondage","un député","un ministre"] | ["un sondage"] | false | Un député and un ministre are people; un sondage is a poll.
+- b2-politics-and-society-ex010 | reformulation | Reformulez avec « élire », sans la forme passive : Le maire a été élu par les citoyens. | — | ["Les citoyens ont élu le maire"] | false | Élire in the passé composé: ils ont élu.
+- b2-politics-and-society-ex011 | error-correction | Corrigez l'erreur : Les citoyens ont adopté la loi à l'Assemblée nationale. | — | ["Les députés ont adopté la loi à l'Assemblée nationale","Les députés ont voté la loi à l'Assemblée nationale"] | true | Laws are passed by Parliament, so the subject is les députés. Citizens vote in elections.
+- b2-politics-and-society-ex012 | translate | Traduisez : The bill was passed by the National Assembly. | — | ["Le projet de loi a été adopté par l'Assemblée nationale","Le projet de loi a été voté par l'Assemblée nationale"] | true | The passé composé passive: a été adopté par.
+- b2-politics-and-society-ex013 | translate | Traduisez avec « monter » : According to a poll, abstention is going up. | — | ["Selon un sondage, l'abstention monte","D'après un sondage, l'abstention monte"] | false | Selon or d'après + noun, then the present.
+- b2-politics-and-society-ex014 | translate | Rédigez ce texte en complétant comme indiqué : (According to the polls), la gauche et la droite sont proches. Le débat télévisé (takes place) jeudi. Le nouveau (government) (will propose) une réforme. | — | ["Selon les sondages, la gauche et la droite sont proches. Le débat télévisé a lieu jeudi. Le nouveau gouvernement proposera une réforme.","D'après les sondages, la gauche et la droite sont proches. Le débat télévisé a lieu jeudi. Le nouveau gouvernement proposera une réforme."] | true | Selon or d'après, avoir lieu for an event, and the futur of proposer.
+- b2-politics-and-society-ex015 | reorder | Remettez dans l'ordre : The Prime Minister handed in his resignation. | — | ["Le Premier ministre a présenté sa démission"] | false | Présenter sa démission: to hand in your resignation.
+
+## b2-reported-speech-past
+
+### Vocab
+
+fr | pron | en | note
+
+- le discours indirect | luh dees-koor an-dee-REKT | reported speech, indirect speech | —
+- la concordance des temps | lah kohn-kor-dahnss day TAHN | the sequence of tenses | —
+- l'imparfait | lan-par-FEH | the imparfait (the tense) | —
+- une promesse | ewn proh-MESS | a promise | —
+- promettre que | proh-meh-truh KUH | to promise that | Like mettre: il a promis.
+- assurer que | ah-sew-ray KUH | to assure that, to insist that | —
+- tenir sa promesse / tenir parole | tuh-neer sah proh-MESS / tuh-neer pah-ROL | to keep your promise, to keep your word | Like venir, with avoir: il a tenu parole.
+- s'engager à | sahn-gah-zhay AH | to commit to | + infinitive. Like manger: nous nous engageons.
+- revenir sur | ruh-vuh-neer SEWR | to go back on (a promise, a decision) | —
+- un discours | uhn dees-KOOR | a speech | —
+- prononcer un discours | proh-nohn-say uhn dees-KOOR | to give a speech | —
+- une conférence de presse | ewn kohn-fay-rahnss duh PRESS | a press conference | —
+- un entretien | uh-nahn-truh-TYAN | an interview (in the media) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-reported-speech-past-ex001 | fill-in | Mettez à l'imparfait : « Je suis fatigué. » → Il a dit qu'il ___ fatigué. | — | ["était"] | false | After a past reporting verb, the present becomes the imparfait.
+- b2-reported-speech-past-ex002 | fill-in | Mettez au plus-que-parfait : « J'ai fini. » → Elle a dit qu'elle ___. | — | ["avait fini"] | false | The passé composé becomes the plus-que-parfait.
+- b2-reported-speech-past-ex003 | fill-in | Mettez au conditionnel présent : « Je viendrai. » → Il a promis qu'il ___. | — | ["viendrait"] | false | The futur becomes the conditionnel présent: the future in the past.
+- b2-reported-speech-past-ex004 | fill-in | Mettez au conditionnel passé : « J'aurai fini à midi. » → Elle a dit qu'elle ___ à midi. | — | ["aurait fini"] | false | The futur antérieur becomes the conditionnel passé.
+- b2-reported-speech-past-ex005 | multiple-choice | Choisissez le temps qui ne change pas après « il a dit que ». | ["l'imparfait","le présent","le futur"] | ["l'imparfait"] | false | The imparfait, the plus-que-parfait and the conditionnel stay as they are.
+- b2-reported-speech-past-ex006 | multiple-choice | Indiquez pourquoi on peut dire : Il m'a dit qu'il habite à Lyon. | ["He still lives in Lyon.","He lived in Lyon a long time ago.","He will move to Lyon one day."] | ["He still lives in Lyon."] | false | When the fact is still true, you may keep the present. Il habitait is correct too.
+- b2-reported-speech-past-ex007 | connector-choice | Choisissez la bonne forme : Léa a dit qu'elle ___, mais elle n'est pas venue. | ["viendrait","viendra","vienne"] | ["viendrait"] | false | The visit was in the past and didn't happen, so the futur becomes the conditionnel.
+- b2-reported-speech-past-ex008 | reformulation | Reformulez au discours indirect, avec « Il a dit que » : « Je cherche un appartement. » | — | ["Il a dit qu'il cherchait un appartement","Il a dit qu'il cherche un appartement"] | true | Je becomes il, and the present becomes the imparfait. Il cherche is possible if he's still looking.
+- b2-reported-speech-past-ex009 | reformulation | Reformulez avec « Elle a expliqué que » : Elle explique qu'elle a perdu ses clés. | — | ["Elle a expliqué qu'elle avait perdu ses clés"] | true | With a past reporting verb, the passé composé becomes the plus-que-parfait.
+- b2-reported-speech-past-ex010 | error-correction | Corrigez l'erreur de temps : Paul a dit qu'il viendra, mais il n'est pas venu. | — | ["Paul a dit qu'il viendrait, mais il n'est pas venu"] | true | The visit is no longer in the future, so the conditionnel is needed: il viendrait.
+- b2-reported-speech-past-ex011 | fill-in | Complétez : Le maire a tenu sa ___ : la piscine est ouverte. | — | ["promesse"] | false | Tenir sa promesse: to keep your promise.
+- b2-reported-speech-past-ex012 | translate | Traduisez : She said she would come. | — | ["Elle a dit qu'elle viendrait","Elle a dit qu'elle allait venir","Elle a dit qu'elle viendra"] | true | The future in the past: viendrait, or allait venir from the futur proche. Viendra is possible if the visit is still to come.
+- b2-reported-speech-past-ex013 | translate | Traduisez : He explained that he had lost his keys. | — | ["Il a expliqué qu'il avait perdu ses clés"] | true | Expliquer que + the plus-que-parfait for an earlier action.
+- b2-reported-speech-past-ex014 | translate | Rédigez en complétant comme indiqué : La maire a dit qu'elle (was) contente, que l'équipe (had finished) le projet et que la ville (would open) la piscine en juin. | — | ["La maire a dit qu'elle était contente, que l'équipe avait fini le projet et que la ville ouvrirait la piscine en juin."] | true | Imparfait, plus-que-parfait and conditionnel: the three main shifts after a past verb.
+- b2-reported-speech-past-ex015 | reorder | Remettez dans l'ordre : She promised that she would keep her word. | — | ["Elle a promis qu'elle tiendrait parole"] | false | Promettre que + the conditionnel for a promise about the future.
+
+## b2-reported-questions-orders
+
+### Vocab
+
+fr | pron | en | note
+
+- demander à quelqu'un de | duh-mahn-day ah kel-KUHN duh | to ask someone to | + infinitive.
+- ordonner à quelqu'un de | or-doh-nay ah kel-KUHN duh | to order someone to | —
+- interdire à quelqu'un de | an-tehr-deer ah kel-KUHN duh | to forbid someone to | Like dire, but vous interdisez.
+- permettre à quelqu'un de | pehr-meh-truh ah kel-KUHN duh | to allow someone to | Like mettre: il a permis.
+- supplier | sew-plee-YAY | to beg | Supplier quelqu'un de + infinitive.
+- exiger de | eg-zee-zhay DUH | to demand (that someone does something) | Exiger de quelqu'un qu'il… is formal; exiger de + infinitive is common.
+- insister pour que | an-sees-tay poor KUH | to insist that | + subjunctive.
+- interroger | an-teh-roh-ZHAY | to question, to interview | Like manger: nous interrogeons.
+- une question piège | ewn kes-tyohn PYEZH | a trick question | —
+- esquiver | es-kee-VAY | to dodge (a question) | —
+- une audition | ew-noh-dee-SYOHN | a hearing, a formal interview (by the police, a judge, Parliament) | False friend: also an audition, but in the news it's usually a hearing.
+- la police judiciaire | lah poh-leess zhew-dee-SYEHR | the criminal police (who investigate crimes) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-reported-questions-orders-ex001 | fill-in | Complétez : « Tu es libre ? » → Il m'a demandé ___ j'étais libre. | — | ["si"] | false | A yes/no question is reported with si.
+- b2-reported-questions-orders-ex002 | fill-in | Complétez : « Qu'est-ce que tu veux ? » → Elle m'a demandé ___ je voulais. | — | ["ce que"] | false | Qu'est-ce que becomes ce que.
+- b2-reported-questions-orders-ex003 | fill-in | Complétez : « Qu'est-ce qui ne va pas ? » → Il m'a demandé ___ n'allait pas. | — | ["ce qui"] | false | Qu'est-ce qui becomes ce qui.
+- b2-reported-questions-orders-ex004 | fill-in | Complétez : « Partez ! » → Elle nous a dit ___ partir. | — | ["de"] | false | An order is reported with de + infinitive.
+- b2-reported-questions-orders-ex005 | multiple-choice | Choisissez la bonne forme : « Tu viendras ? » → Il m'a demandé si je ___. | ["viendrais","viendras","viens"] | ["viendrais"] | false | After a past verb, the futur becomes the conditionnel, and tu becomes je.
+- b2-reported-questions-orders-ex006 | multiple-choice | Indiquez le sens de « l'audition du témoin » dans un article sur une enquête. | ["the hearing of the witness","the witness's concert","the witness's hearing aid"] | ["the hearing of the witness"] | false | In the news, une audition is usually a formal hearing.
+- b2-reported-questions-orders-ex007 | connector-choice | Choisissez le mot : Le policier m'a demandé ___ je connaissais la victime. | ["si","ce que","de"] | ["si"] | false | A yes/no question: si. Ce que needs an object, and de needs an infinitive.
+- b2-reported-questions-orders-ex008 | reformulation | Reformulez au discours indirect, avec « Il m'a dit » : « Viens ! » | — | ["Il m'a dit de venir"] | true | The imperative becomes de + infinitive.
+- b2-reported-questions-orders-ex009 | reformulation | Reformulez avec « Elle m'a demandé » : « Où est-ce que tu habites ? » | — | ["Elle m'a demandé où j'habitais","Elle m'a demandé où j'habite"] | true | Où stays, est-ce que disappears, and the present becomes the imparfait. J'habite is possible if it's still true.
+- b2-reported-questions-orders-ex010 | error-correction | Corrigez l'erreur : Il m'a demandé est-ce que j'étais prêt. | — | ["Il m'a demandé si j'étais prêt"] | true | Est-ce que disappears in a reported question; a yes/no question takes si.
+- b2-reported-questions-orders-ex011 | fill-in | Complétez : « Ne parlez pas ! » → Il nous a dit de ___ parler. | — | ["ne pas"] | false | Both parts of the negative go before the infinitive: de ne pas parler.
+- b2-reported-questions-orders-ex012 | translate | Traduisez : She asked me what I wanted. | — | ["Elle m'a demandé ce que je voulais"] | true | What becomes ce que, and the present becomes the imparfait.
+- b2-reported-questions-orders-ex013 | translate | Traduisez : He told us not to wait. | — | ["Il nous a dit de ne pas attendre"] | true | Dire à quelqu'un de ne pas + infinitive.
+- b2-reported-questions-orders-ex014 | translate | Rédigez en complétant comme indiqué : Le journaliste a demandé à la ministre (whether) la réforme (would be) prête en juin. Elle a répondu qu'elle ne (knew) pas. Il lui a demandé (what) elle (was going to do). Elle lui a dit (not to insist). | — | ["Le journaliste a demandé à la ministre si la réforme serait prête en juin. Elle a répondu qu'elle ne savait pas. Il lui a demandé ce qu'elle allait faire. Elle lui a dit de ne pas insister."] | true | Si + conditionnel, the imparfait, ce que + allait, and de ne pas + infinitive.
+- b2-reported-questions-orders-ex015 | reorder | Remettez dans l'ordre : He asked me where I lived. | — | ["Il m'a demandé où j'habitais"] | false | Demander + où + a statement word order.
+
+## b2-reporting-verbs
+
+### Vocab
+
+fr | pron | en | note
+
+- annoncer | ah-nohn-SAY | to announce | Like commencer: nous annonçons.
+- déclarer | day-klah-RAY | to declare, to state (officially) | —
+- estimer que | es-tee-may KUH | to consider that, to be of the opinion that | —
+- rappeler que | rah-puh-lay KUH | to point out, to remind (people) that | Like appeler: il rappelle.
+- citer | see-TAY | to quote | —
+- une citation | ewn see-tah-SYOHN | a quotation | —
+- affirmer | ah-feer-MAY | to state firmly, to assert | —
+- souligner | soo-lee-NYAY | to stress, to underline | —
+- insister sur | an-sees-tay SEWR | to insist on, to stress | —
+- dénoncer | day-nohn-SAY | to denounce, to condemn publicly | —
+- critiquer | kree-tee-KAY | to criticize | —
+- mettre en garde contre | meh-trahn gard KOHN-truh | to warn against | —
+- prétendre | pray-TAHN-druh | to claim (and the reporter doubts it) | False friend: not 'to pretend'. Like vendre: il prétend.
+- s'interroger sur | san-teh-roh-zhay SEWR | to wonder about, to question | —
+- nier | nee-YAY | to deny | Nier que + subjunctive.
+- démentir | day-mahn-TEER | to deny officially | Like partir: il dément, il a démenti.
+- admettre | ad-MEH-truh | to admit | Like mettre: il a admis.
+- avouer | ah-voo-AY | to confess, to own up | —
+- la veille | lah VEH-y | the day before | La veille au soir: the evening before.
+- le lendemain | luh lahn-duh-MAN | the next day, the day after | —
+- à ce moment-là | ah suh moh-mahn LAH | at that moment, at that time | —
+- précédent / précédente | pray-say-DAHN / pray-say-DAHNT | previous, before | La semaine précédente: the week before.
+- suivant / suivante | swee-VAHN / swee-VAHNT | following, next | L'année suivante: the following year.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-reporting-verbs-ex001 | fill-in | Complétez avec un verbe à l'infinitif : Le ministre continue à ___ les faits : il dit que tout est faux. | — | ["nier","démentir"] | false | Nier: to deny. Démentir is the official version of the same idea.
+- b2-reporting-verbs-ex002 | fill-in | Complétez avec un participe passé : Le suspect a ___ : il a pris l'argent. | — | ["avoué","admis"] | false | Avouer: to confess. Admettre is a little weaker: to admit.
+- b2-reporting-verbs-ex003 | fill-in | Complétez avec citer au présent : Le journaliste ___ une phrase du discours. | — | ["cite"] | false | Citer: to quote someone's exact words.
+- b2-reporting-verbs-ex004 | fill-in | Complétez avec un participe passé : Dans son discours, la ministre a ___ l'importance de l'école. | — | ["souligné"] | false | Souligner: to stress a point.
+- b2-reporting-verbs-ex005 | fill-in | Complétez avec un verbe au présent : L'association ___ les conditions de travail dans cette entreprise. | — | ["dénonce","critique"] | false | Dénoncer is stronger than critiquer: it condemns publicly.
+- b2-reporting-verbs-ex006 | multiple-choice | Indiquez le sens de : Il prétend qu'il était malade. | ["He claims he was ill (but I doubt it).","He pretends to be ill.","He knows for sure he was ill."] | ["He claims he was ill (but I doubt it)."] | false | Prétendre is a false friend: it means to claim, and it shows the reporter's doubt.
+- b2-reporting-verbs-ex007 | multiple-choice | Choisissez le verbe d'une réponse officielle : Le gouvernement ___ cette information. | ["dément","avoue","cite"] | ["dément"] | false | Démentir is the official denial of a piece of news.
+- b2-reporting-verbs-ex008 | connector-choice | Choisissez le mot : Lundi, elle m'a raconté qu'elle avait vu Paul ___, dimanche. | ["la veille","demain","le lendemain"] | ["la veille"] | false | Sunday is the day before Monday: la veille.
+- b2-reporting-verbs-ex009 | reformulation | Reformulez avec « annoncer » : Le maire a dit qu'une nouvelle piscine ouvrirait en juin. | — | ["Le maire a annoncé qu'une nouvelle piscine ouvrirait en juin"] | true | Annoncer is more precise than dire for news about the future.
+- b2-reporting-verbs-ex010 | register-shift | Transformez avec un verbe plus fort, « affirmer » : Elle a dit que la réforme était nécessaire. | — | ["Elle a affirmé que la réforme était nécessaire"] | true | Affirmer shows that she said it firmly.
+- b2-reporting-verbs-ex011 | error-correction | Corrigez l'erreur : Le ministre nie que le projet est trop cher. | — | ["Le ministre nie que le projet soit trop cher"] | false | Nier que, like douter que, takes the subjunctive.
+- b2-reporting-verbs-ex012 | translate | Traduisez : The minister denied the information. | — | ["Le ministre a démenti l'information","La ministre a démenti l'information","Le ministre a nié l'information","La ministre a nié l'information"] | true | Démentir is the official word; nier is also correct.
+- b2-reporting-verbs-ex013 | translate | Traduisez : She stressed that nothing had changed. | — | ["Elle a souligné que rien n'avait changé"] | true | Souligner que + the plus-que-parfait after a past verb.
+- b2-reporting-verbs-ex014 | translate | Rédigez en complétant comme indiqué : Le maire (stated) que la ville était plus sûre. L'opposition (claims) que c'est faux. Les journaux (criticize) sa décision. | — | ["Le maire a affirmé que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux critiquent sa décision.","Le maire a déclaré que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux critiquent sa décision."] | true | Three attitudes: a firm statement, a doubtful claim and a criticism.
+- b2-reporting-verbs-ex015 | reorder | Remettez dans l'ordre : The next day, she denied everything. | — | ["Le lendemain, elle a tout nié"] | false | Le lendemain at the start, then tout before the participle.
+
+## b2-passive-voice
+
+### Vocab
+
+fr | pron | en | note
+
+- entouré / entourée de | ahn-too-RAY duh | surrounded by | —
+- couvert / couverte de | koo-VEHR / koo-VEHRT duh | covered with | —
+- respecté / respectée de | res-pek-TAY duh | respected by | —
+- accompagné / accompagnée de | ah-kohn-pah-NYAY duh | accompanied by | —
+- être suivi de | eh-truh swee-VEE duh | to be followed by | —
+- le patrimoine | luh pah-tree-MWAHN | heritage (buildings, art and traditions) | —
+- un château | uhn shah-TOH | a castle, a château | —
+- un mur | uhn MEWR | a wall | —
+- classé / classée | klah-SAY | listed, protected (of a building) | Classé monument historique.
+- un chantier | uhn shahn-TYAY | a building site, building works | —
+- rénover | ray-noh-VAY | to renovate | —
+- une rénovation | ewn ray-noh-vah-SYOHN | a renovation | —
+- restaurer | res-toh-RAY | to restore (a building, a painting) | —
+- rebâtir | ruh-bah-TEER | to rebuild | Like finir.
+- achever | ahsh-VAY | to complete, to finish | False friend: not 'achieve'. Like acheter: j'achève.
+- inaugurer | ee-noh-gew-RAY | to open officially | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-passive-voice-ex001 | fill-in | Mettez au passif, au futur (construire) : Le nouveau pont ___ l'année prochaine. | — | ["sera construit"] | false | Être in the futur, then the participle: sera construit.
+- b2-passive-voice-ex002 | fill-in | Mettez au passif, à l'imparfait (entourer) : Autrefois, le château ___ d'un mur. | — | ["était entouré"] | false | Être in the imparfait: était entouré. De, because it's a state.
+- b2-passive-voice-ex003 | fill-in | Mettez au passif, au plus-que-parfait (fermer) : Quand nous sommes arrivés, la route ___. | — | ["avait été fermée"] | true | Avait été + participle; fermée agrees with la route.
+- b2-passive-voice-ex004 | fill-in | Mettez au passif, au futur antérieur (rénover) : D'ici juin, l'église ___. | — | ["aura été rénovée"] | true | Aura été + participle; rénovée agrees with l'église.
+- b2-passive-voice-ex005 | multiple-choice | Choisissez la bonne réponse : Cette professeure est respectée ___ tous ses élèves. | ["de","à","en"] | ["de"] | false | De is usual with verbs of feeling and attitude: respectée de tous.
+- b2-passive-voice-ex006 | multiple-choice | Choisissez la bonne forme : Les maisons ont été ___ par la tempête. | ["détruites","détruits","détruite"] | ["détruites"] | false | The participle agrees with the subject, les maisons: feminine plural.
+- b2-passive-voice-ex007 | connector-choice | Choisissez la bonne réponse : Le pont a été rebâti ___ une entreprise de Lyon. | ["par","de","à"] | ["par"] | false | An action with someone who does it: par.
+- b2-passive-voice-ex008 | reformulation | Reformulez au passif : La ville rénovera le musée. | — | ["Le musée sera rénové par la ville"] | false | The object becomes the subject; être takes the tense of the active verb, the futur.
+- b2-passive-voice-ex009 | reformulation | Reformulez au passif : Les secours avaient sauvé les enfants. | — | ["Les enfants avaient été sauvés par les secours"] | true | Plus-que-parfait passive: avaient été sauvés, agreeing with les enfants.
+- b2-passive-voice-ex010 | error-correction | Corrigez l'erreur : L'église a été rénové l'année dernière. | — | ["L'église a été rénovée l'année dernière"] | true | The participle agrees with the subject, l'église. Été never agrees.
+- b2-passive-voice-ex011 | fill-in | Complétez avec le participe passé de « restaurer » : Ce monument doit être ___ avant l'été. | — | ["restauré"] | false | Devoir + être + participle: the passive infinitive.
+- b2-passive-voice-ex012 | translate | Traduisez avec « rebâtir » : The bridge will have been rebuilt by June. | — | ["Le pont aura été rebâti d'ici juin","D'ici juin, le pont aura été rebâti"] | true | The futur antérieur passive: aura été rebâti.
+- b2-passive-voice-ex013 | translate | Traduisez : The castle was surrounded by a wall. | — | ["Le château était entouré d'un mur","Le château était entouré par un mur"] | false | A state in the past: the imparfait, and usually de.
+- b2-passive-voice-ex014 | translate | Rédigez cette information en complétant comme indiqué : Le musée (was closed) en mars. Il (will be renovated) par la ville. Il (will have been opened officially) avant l'été. | — | ["Le musée a été fermé en mars. Il sera rénové par la ville. Il aura été inauguré avant l'été."] | true | Three tenses of the passive: passé composé, futur and futur antérieur.
+- b2-passive-voice-ex015 | reorder | Remettez dans l'ordre : The church must be restored. | — | ["L'église doit être restaurée"] | false | Devoir + être + participle, agreeing with l'église.
