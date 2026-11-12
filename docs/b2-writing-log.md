@@ -262,3 +262,14 @@
   - Untaught fixed phrases replaced: *à temps* (infinitif-passe ex011) and *par écrit* (negotiating).
   - The infinitif-passe credit to b2-regret-and-reproach is now a LessonLink. All other "you know X" claims are verified.
 - CLAUDE.md gained a "Self-audit" bullet in the B2 conventions with the four rules. Checks: check:words 110 (baseline), check:structures 0, audit B2 rows only the accepted purpose-expressions ex014, validate OK, test:content and test:checker passed (29/29), build OK. A1 to B1 words, structures, audit and all-data are unchanged.
+
+## Unit 6 fixes
+
+- science-and-research: ex003 also accepts *faire* (une étude), and ex004 also accepts *avancée*; both explanations updated.
+- health-system: new entry v021 *passer par*, an untaught fixed phrase, now glossed at first use (*passer par le médecin traitant*). ex011 also accepts *je vais voir mon généraliste*.
+- certainty-and-probability: same-form subjunctives replaced (the example's *change* became *soit différente*, ex014's *change* became *puissent embaucher*, the dialogue's *donnent* became *aient donné*). The warning "only *certain* and *probable* keep the indicative" is now limited to this lesson's scale. The untaught *plus ou moins* is gone from the résumé.
+- review-science: same-form subjunctives removed (ex008 *doutent* became *n'aient pas confiance*; ex009 and ex015 *donne* became *soit acceptée*). In the model essay, *donne* became *soit bien acceptée* and *ait donné son avis*; the grammar bullet and translation follow.
+- argumentative-essay: no changes needed.
+- The audit also found: every vocab entry used (the script hits were plural or imperative forms), every "you know X" claim correct, no dialogue line breaking its lesson's rule, coherent paragraph exercises, no figures, quotes or named politicians in the health lessons, and no A1 to B1 vocab repeats.
+- review-needed.md: 3 lines added (*mener* vs *faire une étude*, *passer par*, the limited indicative claim).
+- Checks: check:words 110 (baseline), check:structures 0, audit B2 rows only the accepted purpose-expressions ex014, validate OK, test:content and test:checker passed (29/29), build OK. A1 to B1 words, structures, audit and all-data unchanged.

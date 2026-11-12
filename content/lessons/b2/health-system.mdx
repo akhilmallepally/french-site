@@ -17,6 +17,7 @@ vocab:
   - { id: "b2-health-system-v005", group: "system", fr: "la prise en charge", pron: "lah pree-zahn SHARZH", en: "coverage; the care given to a patient" }
   - { id: "b2-health-system-v020", group: "system", fr: "un adulte / une adulte", pron: "uh-nah-DEWLT / ew-nah-DEWLT", en: "an adult" }
   - { id: "b2-health-system-v006", group: "doctors", fr: "un généraliste", pron: "uhn zhay-nay-rah-LEEST", en: "a GP, a general practitioner" }
+  - { id: "b2-health-system-v021", group: "doctors", fr: "passer par", pron: "pah-say PAR", en: "to go through (a person or a step)" }
   - { id: "b2-health-system-v007", group: "doctors", fr: "un spécialiste", pron: "uhn spay-syah-LEEST", en: "a specialist" }
   - { id: "b2-health-system-v008", group: "doctors", fr: "les urgences", pron: "lay-zewr-ZHAHNSS", en: "A&E, the emergency department" }
   - { id: "b2-health-system-v009", group: "doctors", fr: "une clinique", pron: "ewn klee-NEEK", en: "a private hospital", note: "False friend: not a GP's surgery." }
@@ -88,7 +89,7 @@ exercises:
   - id: "b2-health-system-ex011"
     type: "error-correction"
     prompt: "Corrigez l'erreur : J'ai mal à la tête, je vais à la clinique voir mon généraliste."
-    answers: ["J'ai mal à la tête, je vais chez mon généraliste"]
+    answers: ["J'ai mal à la tête, je vais chez mon généraliste", "J'ai mal à la tête, je vais voir mon généraliste"]
     explanation: "Une clinique is a private hospital. You go chez your GP."
     strictAccents: true
   - id: "b2-health-system-ex012"
@@ -135,7 +136,7 @@ You know *la carte Vitale*, *une ordonnance*, *le médecin traitant* and *un ren
 
 <VocabTable group="doctors" />
 
-Each adult chooses *un médecin traitant*, usually *un généraliste* (a GP). Going through this doctor first, before seeing *un spécialiste*, is called the coordinated care route, and it gives better reimbursement. For an emergency, people go to *les urgences* of a hospital.
+Each adult chooses *un médecin traitant*, usually *un généraliste* (a GP). Going through this doctor first (*passer par le médecin traitant*), before seeing *un spécialiste*, is called the coordinated care route, and it gives better reimbursement. For an emergency, people go to *les urgences* of a hospital.
 
 **Une clinique** is a false friend: it's usually a private hospital, not a GP's surgery. You go *chez le médecin* or *chez le généraliste*. Doctors and *le personnel soignant* (nurses and carers) *soignent* (treat) patients. When you're ill and can't work, the doctor gives you *un arrêt maladie* (a sick note), which you send to your employer.
 

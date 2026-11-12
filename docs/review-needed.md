@@ -1335,6 +1335,7 @@ Every date, tradition and regional detail, for checking:
 - **"In a laboratory, *une expérience* is an experiment ... You *fais une expérience*, but you *as de l'expérience*."** Confirm.
 - **"*Démontrer* and *prouver* are strong; a result that only *montre* a link is weaker."** Confirm the nuance.
 - **"Research needs *le financement* (funding), often from the State, universities or companies."** Confirm (general fact).
+- **"*Faire une étude* is also correct, but *mener* is more formal"** (ex003 explanation). Confirm.
 
 ## b2-health-system
 
@@ -1344,6 +1345,7 @@ Every date, tradition and regional detail, for checking:
 - **"The doctor gives you *un arrêt maladie* (a sick note), which you send to your employer."** Confirm the procedure is described neutrally enough.
 - **"*Les déserts médicaux* are areas, often rural, where there are too few doctors."** Confirm (no figures given).
 - **"*La prise en charge* means coverage ... and also the care given to a patient."** Confirm.
+- **"*Passer par le médecin traitant*"** for going through the GP first (new entry *passer par*). Confirm it is the natural phrasing.
 
 ## b2-certainty-and-probability
 
@@ -1353,6 +1355,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Le fait que* ... usually takes the subjunctive, especially at the start of the sentence ... the subjunctive is the safe choice."** Confirm.
 - **"With a compound tense ... [the adverb] usually goes between the auxiliary and the participle ... this position inside the verb group is the safest one."** Confirm.
 - **"*Il a dû oublier* ... is close to the futur antérieur of supposition: *il aura oublié*."** Confirm.
+- **"On the scale in this lesson, only the certain and likely expressions keep the indicative."** Confirm (the claim is limited to this lesson's scale).
 
 ## b2-argumentative-essay
 
