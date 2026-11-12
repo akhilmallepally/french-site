@@ -166,3 +166,16 @@
 - **Checks:** check:words, check:structures, audit (only the earlier purpose ex014), validate, test:content, test:checker (29/29) and build all pass. A1 to B1 output is unchanged.
 - **review-needed.md:** 21 items under 5 ids. They cover the institutions and law-making, two-round elections, the tense-shift exceptions, *insister pour que*, *audition*, *nier que*, *prétendre*, headlines, and *par* / *de* in the passive.
 - **Not done:** no fluent-speaker check.
+
+## Unit 3, run 2
+
+- **Teaching-text words:** alternatives-to-passive 909, nominalisation 814, summarizing-an-article 802, culture-french-press 800, review-news 803 (all b2-).
+- **À + infinitive (hand check):** taught in b2-alternatives-to-passive. Earlier uses are glossed fixed phrases only (b1 *à voir absolument*, *à éviter*, *un appartement à louer*) plus a2-review-travel *choses à voir*; logged in review-needed.md.
+- **Vocab deviations:**
+  - New entries: *l'arrivée* (the plan's "A2 recap" isn't in any vocab), *les habitants*, the grammar terms (*adjectif / adverbe*, *masculin / féminin*, *groupe nominal*) and *l'auteur / l'autrice d'un article*. Unknown source verbs are shown in brackets in the noun entries.
+  - Recaps instead of entries: *un lecteur* (b1-review-opinions), *éditorial* and *abonnement* (B1). *Le chapeau* goes in NEW_MEANINGS.
+- **Exercise deviations:** the review's model text uses *sera ouverte* (*rouvrir* and *de nouveau* aren't taught), and several cues are pinned. Nominalisation doesn't overlap b2-politics-and-society or b2-reporting-verbs.
+- **Lists and scripts:** new COGNATES (*développement*, *création*, *importance*, *sécurité*, *taxe*, *maximum*, *satirique*), and in check-words.ts the press names and a few irregular forms.
+- **Checks:** check:words, check:structures, audit (only the earlier purpose ex014), validate, test:content, test:checker (29/29) and build all pass. A1 to B1 output is unchanged.
+- **review-needed.md:** 18 items under 5 ids: *se voir* agreement, *on m'a dit*, the earlier *à* + infinitive uses, suffix genders, nominal style, *chapeau*, *il ressort que*, the press leanings and titles, the AFP, public broadcasting, and the satire framing.
+- **Not done:** no fluent-speaker check.

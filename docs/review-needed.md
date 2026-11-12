@@ -1206,3 +1206,36 @@ Every date, tradition and regional detail, for checking:
 - **"*Entouré de policiers* describes a situation, while *entouré par les policiers* stresses the action."** Confirm.
 - **"A building that's *classé monument historique* is protected by the State, and any change to it must be approved."** Confirm.
 - **"Many French buildings have a small plaque by the door, often in the passive."** Confirm.
+
+## b2-alternatives-to-passive
+
+- **"In the passé composé, careful writers leave *vu* unchanged in this structure (*elle s'est vu refuser*) ... You'll often see *vue* too."** Confirm; ex004, ex009 and ex013 accept both.
+- **"*Se voir* + infinitive ... is more formal than *on*, and frequent in the news."** Confirm.
+- **"'I was told' is never *j'ai été dit*. It's *on m'a dit*."** Confirm the rule for verbs with *à* + a person.
+- **À + infinitive (hand check):** earlier lessons use it only as glossed fixed phrases (b1-reviewing-a-film-or-book: *à voir absolument*, *à éviter*; b1-housing-and-renting: *un appartement à louer*) and once in a2-review-travel (*beaucoup de choses à voir*). Confirm these read as fixed phrases at those levels.
+- **Customs in the dialogue:** "*le pain se pose sur la table, à côté de l'assiette*", "*le fromage se mange avant le dessert*". Confirm.
+
+## b2-nominalisation
+
+- **"Nouns in *-age* are masculine, with a few common exceptions: *la page*, *la plage* and *une image*."** Confirm.
+- **"When [*-eur*] comes from a verb, it usually names a person and is masculine ...; when it comes from an adjective, it names a quality and is feminine."** Confirm.
+- **"This *style nominal* ... journalists, reports and official documents use it. In speech, French uses verbs."** Confirm.
+- **"*La gratuité* is often used for public services that people don't pay for."** Confirm.
+
+## b2-summarizing-an-article
+
+- **"*Le chapeau*, the short text in bold under the headline."** Confirm the term.
+- **"*Il ressort que* (it emerges that) + indicative."** Confirm.
+
+## b2-culture-french-press
+
+- **Leanings: "Le Monde ... often described as centre-left", "Le Figaro ... often described as on the right", "Libération ... often described as on the left".** Confirm the wording is fair and cautious.
+- **"Ouest-France ... is one of the most widely read daily papers in the country."** Confirm (no figures given).
+- **"Le Canard enchaîné. A satirical weekly that comes out on Wednesdays ... known for carrying no advertising."** Confirm.
+- **"*L'audiovisuel public* ... They're funded mainly by the State."** Confirm.
+- **"The AFP ... Its journalists, in France and abroad, send news to newspapers, radio and television."** Confirm.
+- **Sensitive topic:** the satirical press is presented only as a genre ("mocks the powerful with humour"), with no mention of attacks. Confirm this is neutral.
+
+## b2-review-news
+
+- **"*Interview* is borrowed from English but pronounced the French way."** Confirm.

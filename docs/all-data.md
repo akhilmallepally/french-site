@@ -1,6 +1,6 @@
 # All lesson data
 
-184 written lessons, in course order.
+189 written lessons, in course order.
 
 ## a1-greetings
 
@@ -7206,3 +7206,220 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-passive-voice-ex013 | translate | Traduisez : The castle was surrounded by a wall. | — | ["Le château était entouré d'un mur","Le château était entouré par un mur"] | false | A state in the past: the imparfait, and usually de.
 - b2-passive-voice-ex014 | translate | Rédigez cette information en complétant comme indiqué : Le musée (was closed) en mars. Il (will be renovated) par la ville. Il (will have been opened officially) avant l'été. | — | ["Le musée a été fermé en mars. Il sera rénové par la ville. Il aura été inauguré avant l'été."] | true | Three tenses of the passive: passé composé, futur and futur antérieur.
 - b2-passive-voice-ex015 | reorder | Remettez dans l'ordre : The church must be restored. | — | ["L'église doit être restaurée"] | false | Devoir + être + participle, agreeing with l'église.
+
+## b2-alternatives-to-passive
+
+### Vocab
+
+fr | pron | en | note
+
+- ça se dit | sah suh DEE | people say that, that's said | —
+- ça ne se fait pas | sah nuh suh feh PAH | it isn't done, it's not polite | —
+- se vendre | suh VAHN-druh | to sell, to be sold | Ce livre se vend bien.
+- se manger | suh mahn-ZHAY | to be eaten | —
+- se boire | suh BWAHR | to be drunk | —
+- se porter | suh por-TAY | to be worn | —
+- se prononcer | suh proh-nohn-SAY | to be pronounced | —
+- s'écrire | say-KREER | to be spelled, to be written | —
+- se conjuguer | suh kohn-zhew-GAY | to be conjugated | —
+- se voir refuser | suh vwahr ruh-few-ZAY | to be refused | —
+- se voir offrir | suh vwahr oh-FREER | to be offered | —
+- il est prévu que | ee-leh pray-vew KUH | it's planned that | + indicative.
+- il est interdit de | ee-leh tan-tehr-dee DUH | it's forbidden to | —
+- il est conseillé de | ee-leh kohn-seh-yay DUH | it's advisable to | —
+- une coutume | ewn koo-TEWM | a custom | —
+- un usage | uh-new-ZAHZH | a convention, an accepted way of doing things | Often plural: les usages.
+- à vendre | ah VAHN-druh | for sale | Also à louer: to let.
+- facile / difficile à + infinitive | fah-SEEL / dee-fee-SEEL ah | easy / hard to (do) | C'est facile à faire.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-alternatives-to-passive-ex001 | fill-in | Conjuguez au présent (se manger) : Ce plat ___ froid. | — | ["se mange"] | true | The pronominal passive: the subject is the thing, and se + verb gives a general truth.
+- b2-alternatives-to-passive-ex002 | fill-in | Conjuguez au présent (s'écrire) : Ce mot ___ avec deux l. | — | ["s'écrit"] | false | S'écrire: to be spelled.
+- b2-alternatives-to-passive-ex003 | fill-in | Conjuguez au présent (se prononcer) : Le s final ne ___ pas. | — | ["se prononce"] | false | Se prononcer: to be pronounced.
+- b2-alternatives-to-passive-ex004 | fill-in | Conjuguez « se voir » au passé composé : Elle ___ refuser l'entrée. | — | ["s'est vu","s'est vue"] | false | Se voir + infinitive says what happened to her. Careful writers leave vu unchanged here, but vue is common.
+- b2-alternatives-to-passive-ex005 | multiple-choice | Choisissez la bonne phrase. | ["Le café se boit chaud.","Le café se bois chaud.","Le café boit chaud."] | ["Le café se boit chaud."] | false | Se boire in the il form: le café se boit.
+- b2-alternatives-to-passive-ex006 | multiple-choice | Indiquez le sens de : Ça ne se fait pas. | ["It isn't done (it's not polite).","It can't be built.","It isn't finished yet."] | ["It isn't done (it's not polite)."] | false | Ça ne se fait pas states a social rule.
+- b2-alternatives-to-passive-ex007 | register-shift | Transformez en registre courant, avec « on » : Une nouvelle gare a été construite. | — | ["On a construit une nouvelle gare"] | true | In everyday French, on + active verb often replaces the passive.
+- b2-alternatives-to-passive-ex008 | reformulation | Reformulez avec « se vendre » : Ce livre est beaucoup vendu. | — | ["Ce livre se vend beaucoup"] | false | Se vendre: the pronominal passive, with no agent.
+- b2-alternatives-to-passive-ex009 | reformulation | Reformulez avec « se voir » : On lui a refusé l'entrée. | — | ["Il s'est vu refuser l'entrée","Elle s'est vu refuser l'entrée","Elle s'est vue refuser l'entrée"] | false | The person who was refused becomes the subject of se voir + infinitive.
+- b2-alternatives-to-passive-ex010 | error-correction | Corrigez l'erreur pour le registre écrit : Ça se dit pas. | — | ["Ça ne se dit pas"] | false | Written French keeps ne: ça ne se dit pas.
+- b2-alternatives-to-passive-ex011 | fill-in | Complétez : Il y a une maison ___ vendre dans ma rue. | — | ["à"] | true | À + infinitive with a passive sense: a house to be sold.
+- b2-alternatives-to-passive-ex012 | translate | Traduisez avec « se boire » : This wine is drunk cold. | — | ["Ce vin se boit froid"] | false | Se boire, for a general rule about the wine.
+- b2-alternatives-to-passive-ex013 | translate | Traduisez : She was refused entry. | — | ["Elle s'est vu refuser l'entrée","Elle s'est vue refuser l'entrée","On lui a refusé l'entrée"] | true | Refuser à quelqu'un can't be made passive in French, so use se voir refuser or on.
+- b2-alternatives-to-passive-ex014 | translate | Rédigez en complétant comme indiqué : En France, le fromage (is eaten) avant le dessert. Le café (is drunk) à la fin du repas. Parler fort à table, ça (isn't done). | — | ["En France, le fromage se mange avant le dessert. Le café se boit à la fin du repas. Parler fort à table, ça ne se fait pas."] | true | Three customs, three pronominal passives.
+- b2-alternatives-to-passive-ex015 | reorder | Remettez dans l'ordre : This word is pronounced differently. | — | ["Ce mot se prononce autrement"] | false | Se prononcer: the pronominal passive.
+
+## b2-nominalisation
+
+### Vocab
+
+fr | pron | en | note
+
+- l'augmentation (augmenter) | log-mahn-tah-SYOHN (og-mahn-TAY) | the increase (to increase) | —
+- la diminution (diminuer) | lah dee-mee-new-SYOHN (dee-mee-new-AY) | the decrease (to decrease) | —
+- la suppression | lah sew-preh-SYOHN | the abolition, the cutting (of a tax, a job) | From supprimer.
+- le lancement (lancer) | luh lahnss-MAHN (lahn-SAY) | the launch (to launch) | —
+- la fermeture | lah fehr-muh-TEWR | the closure | From fermer.
+- l'ouverture | loo-vehr-TEWR | the opening | From ouvrir.
+- l'arrivée | lah-ree-VAY | the arrival | From arriver: the feminine participle.
+- la hausse | lah OHSS | the rise (in prices, numbers) | —
+- la baisse | lah BESS | the fall, the drop | —
+- le recul (reculer) | luh ruh-KEWL (ruh-kew-LAY) | a fall, a retreat (to fall back) | —
+- le départ | luh day-PAR | the departure; in politics, a resignation | From partir.
+- le maintien (maintenir) | luh man-TYAN (man-tuh-NEER) | keeping, maintaining (to keep) | —
+- la mise en place | lah mee-zahn PLAHSS | the setting up | From mettre en place.
+- la prise de conscience (prendre conscience) | lah preez duh kohn-SYAHNSS | awareness, realization (to become aware) | —
+- la gratuité (gratuit) | lah grah-twee-TAY (grah-TWEE) | being free of charge (free) | —
+- la fiabilité | lah fyah-bee-lee-TAY | reliability | From fiable.
+- la faiblesse | lah feh-BLESS | weakness | From faible.
+- la lenteur (lent) | lah lahn-TUHR (LAHN) | slowness (slow) | —
+- le style nominal | luh steel noh-mee-NAHL | nominal style (writing with nouns rather than verbs) | —
+- les habitants | lay-zah-bee-TAHN | the residents, the inhabitants | Un habitant / une habitante.
+- un adjectif / un adverbe | uh-nad-zhek-TEEF / uh-nad-VEHRB | an adjective / an adverb | —
+- masculin / féminin | mahs-kew-LAN / fay-mee-NAN | masculine / feminine | —
+- un groupe nominal | uhn groop noh-mee-NAHL | a noun phrase | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-nominalisation-ex001 | fill-in | Complétez avec le nom de « fermer » : La ___ de la gare est prévue en mai. | — | ["fermeture"] | false | Fermer → la fermeture, with the feminine suffix -ure.
+- b2-nominalisation-ex002 | fill-in | Complétez avec le nom de « lancer » : Le ___ du nouveau projet est prévu en juin. | — | ["lancement"] | false | Lancer → le lancement, with the masculine suffix -ment.
+- b2-nominalisation-ex003 | fill-in | Complétez avec le nom de « supprimer » : La ___ de cette taxe est une bonne nouvelle. | — | ["suppression"] | false | Supprimer → la suppression.
+- b2-nominalisation-ex004 | fill-in | Complétez avec le nom de « gratuit » : La ___ des musées le dimanche plaît aux familles. | — | ["gratuité"] | false | Gratuit → la gratuité, with the feminine suffix -ité.
+- b2-nominalisation-ex005 | fill-in | Complétez avec le nom de « faible » : La ___ du parti inquiète ses électeurs. | — | ["faiblesse"] | false | Faible → la faiblesse, with the feminine suffix -esse.
+- b2-nominalisation-ex006 | multiple-choice | Choisissez le bon article : ___ lancement du projet. | ["le","la","l'"] | ["le"] | false | Nouns in -ment are masculine.
+- b2-nominalisation-ex007 | multiple-choice | Choisissez la phrase au style nominal. | ["La hausse des prix inquiète les familles.","Les prix montent, et les familles sont inquiètes.","Les familles ont peur parce que les prix montent."] | ["La hausse des prix inquiète les familles."] | false | The verb monter becomes the noun la hausse, followed by de.
+- b2-nominalisation-ex008 | reformulation | Reformulez en groupe nominal, avec « la suppression » : Le gouvernement a supprimé la taxe. | — | ["La suppression de la taxe par le gouvernement","La suppression de la taxe"] | false | The object of the verb follows de; the subject, if you keep it, follows par.
+- b2-nominalisation-ex009 | reformulation | Reformulez en titre de journal, avec « la fermeture » : La gare va fermer dimanche. | — | ["Fermeture de la gare dimanche","La fermeture de la gare dimanche"] | false | Headlines often drop the article: Fermeture de la gare dimanche.
+- b2-nominalisation-ex010 | error-correction | Corrigez l'erreur : La augmentation des loyers inquiète les étudiants. | — | ["L'augmentation des loyers inquiète les étudiants"] | false | La becomes l' before a vowel: l'augmentation.
+- b2-nominalisation-ex011 | register-shift | Transformez en français parlé, avec « augmenter » au passé composé : Forte hausse des prix en mars. | — | ["Les prix ont beaucoup augmenté en mars","En mars, les prix ont beaucoup augmenté"] | false | In speech, the noun becomes a verb again, and the adjective forte becomes an adverb.
+- b2-nominalisation-ex012 | translate | Traduisez : The closure of the station surprised the residents. | — | ["La fermeture de la gare a surpris les habitants"] | true | La fermeture de + noun, then the passé composé of surprendre.
+- b2-nominalisation-ex013 | translate | Traduisez : The rise in prices worries voters. | — | ["La hausse des prix inquiète les électeurs","L'augmentation des prix inquiète les électeurs"] | false | La hausse or l'augmentation + des, then inquiéter.
+- b2-nominalisation-ex014 | translate | Rédigez trois titres en complétant comme indiqué : (Opening) d'une nouvelle école à Lyon. (Fall) du chômage en mars. (Departure) du ministre. | — | ["Ouverture d'une nouvelle école à Lyon. Baisse du chômage en mars. Départ du ministre.","Ouverture d'une nouvelle école à Lyon. Diminution du chômage en mars. Départ du ministre.","Ouverture d'une nouvelle école à Lyon. Recul du chômage en mars. Départ du ministre."] | true | Three nouns, no article, as in headlines. Baisse, diminution or recul all work for a fall.
+- b2-nominalisation-ex015 | reorder | Remettez dans l'ordre : Rise in rents in Paris | — | ["Hausse des loyers à Paris"] | false | A headline: noun, de + the thing that rises, then the place.
+
+## b2-summarizing-an-article
+
+### Vocab
+
+fr | pron | en | note
+
+- porter sur | por-tay SEWR | to be about (an article, a debate) | —
+- traiter de | treh-tay DUH | to deal with | —
+- l'idée principale | lee-day pran-see-PAHL | the main idea | —
+- un point clé | uhn pwan KLAY | a key point | —
+- dégager | day-gah-ZHAY | to bring out, to identify | Dégager l'idée principale. Like manger.
+- il ressort que | eel ruh-sor KUH | it emerges that | + indicative. Il ressort de l'article que…
+- un chapeau | uhn shah-POH | a standfirst (the short text under a headline) | —
+- résumer | ray-zew-MAY | to summarize | —
+- un résumé | uhn ray-zew-MAY | a summary | False friend: not a CV (un CV).
+- reformuler | ruh-for-mew-LAY | to rephrase | —
+- objectif / objective | ob-zhek-TEEF / ob-zhek-TEEV | objective, impartial | —
+- neutre | NUH-truh | neutral | —
+- mentionner | mahn-syoh-NAY | to mention | —
+- passer sous silence | pah-say soo see-LAHNSS | to leave out, to say nothing about | —
+- l'auteur / l'autrice d'un article | loh-TUHR / loh-TREESS dun-nar-TEEKL | the writer of an article | You know un auteur from cinema and books.
+- la rentrée | lah rahn-TRAY | the start of the academic year (in September) | —
+- consacrer | kohn-sah-KRAY | to spend (time, money) on, to devote to | Consacrer quelque chose à…
+- une résidence étudiante | ewn ray-zee-dahnss ay-tew-DYAHNT | a student residence, a hall of residence | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-summarizing-an-article-ex001 | multiple-choice | Indiquez l'idée principale : « Dans les grandes villes, les loyers des petits appartements augmentent, et beaucoup d'étudiants ont du mal à trouver un logement. » | ["Students struggle to find housing because rents are rising.","Students prefer small flats.","Big cities are building more flats."] | ["Students struggle to find housing because rents are rising."] | false | The main idea links the cause (rents) and the effect (students struggle).
+- b2-summarizing-an-article-ex002 | multiple-choice | Choisissez le résumé neutre. | ["L'article explique que les loyers augmentent.","Heureusement, l'article critique enfin les propriétaires.","Je pense que les loyers sont beaucoup trop chers."] | ["L'article explique que les loyers augmentent."] | false | A summary reports what the article says, without je and without the writer's feelings.
+- b2-summarizing-an-article-ex003 | fill-in | Complétez avec porter au présent : L'article ___ sur la hausse des loyers. | — | ["porte"] | false | Porter sur: to be about.
+- b2-summarizing-an-article-ex004 | fill-in | Complétez : Il ___ de l'article que les étudiants ont du mal à trouver un logement. | — | ["ressort"] | false | Il ressort de l'article que + indicative: it emerges from the article that.
+- b2-summarizing-an-article-ex005 | connector-choice | Choisissez le connecteur pour la dernière phrase d'un résumé : ___, le logement reste un problème important pour les jeunes. | ["En somme","Pourtant","Faute de"] | ["En somme"] | false | En somme introduces the conclusion. Pourtant introduces a contrast, and faute de needs a noun.
+- b2-summarizing-an-article-ex006 | reformulation | Reformulez au discours indirect, avec « Léa explique que » : « Je cherche un logement depuis juin. » | — | ["Léa explique qu'elle cherche un logement depuis juin"] | false | With a present reporting verb, the tense doesn't change; je becomes elle.
+- b2-summarizing-an-article-ex007 | reformulation | Reformulez en une phrase courte, avec « la hausse des loyers » : Les loyers ont beaucoup augmenté, et cela inquiète beaucoup les familles des étudiants. | — | ["La hausse des loyers inquiète les familles des étudiants","La hausse des loyers inquiète beaucoup les familles des étudiants","La hausse des loyers inquiète les familles"] | false | A noun phrase replaces the first clause, and the sentence gets shorter.
+- b2-summarizing-an-article-ex008 | register-shift | Transformez en résumé neutre, avec « affirmer » : Le ministre prétend que tout va bien, mais personne ne le croit. | — | ["Le ministre affirme que tout va bien"] | false | Affirmer reports the claim; prétendre and the end of the sentence show the writer's doubt.
+- b2-summarizing-an-article-ex009 | error-correction | Corrigez l'erreur de registre dans ce résumé : L'article explique que les loyers augmentent, et c'est une honte. | — | ["L'article explique que les loyers augmentent"] | false | Et c'est une honte is the summary writer's opinion: it doesn't belong in a summary.
+- b2-summarizing-an-article-ex010 | multiple-choice | Indiquez le sens de « un résumé ». | ["a summary","a CV","a fresh start"] | ["a summary"] | false | Un résumé is a false friend: a CV is un CV.
+- b2-summarizing-an-article-ex011 | fill-in | Complétez avec un nom (augmenter) : La ___ des loyers inquiète les étudiants. | — | ["hausse","augmentation"] | false | La hausse or l'augmentation: the noun of the verb.
+- b2-summarizing-an-article-ex012 | translate | Traduisez : The article is about rising rents. | — | ["L'article porte sur la hausse des loyers","L'article traite de la hausse des loyers","L'article porte sur l'augmentation des loyers","L'article traite de l'augmentation des loyers"] | false | Porter sur or traiter de + a noun phrase.
+- b2-summarizing-an-article-ex013 | translate | Rédigez ce résumé en complétant comme indiqué : L'article (is about) la fermeture d'une gare. (It emerges that) les habitants sont inquiets. Le maire (stresses) que rien n'est encore décidé. (In short), la ville doit trouver une solution. | — | ["L'article porte sur la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. En somme, la ville doit trouver une solution.","L'article traite de la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. En somme, la ville doit trouver une solution.","L'article porte sur la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. Bref, la ville doit trouver une solution.","L'article traite de la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. Bref, la ville doit trouver une solution."] | true | The four parts of a short summary: topic, main point, a reported view and a conclusion.
+- b2-summarizing-an-article-ex014 | translate | Rédigez en complétant comme indiqué : La journaliste (considers) que cette mesure est nécessaire. Elle (points out: rappeler) cependant qu'elle arrive tard. | — | ["La journaliste estime que cette mesure est nécessaire. Elle rappelle cependant qu'elle arrive tard."] | false | Estimer que and rappeler que report the writer's view neutrally.
+- b2-summarizing-an-article-ex015 | reorder | Remettez dans l'ordre : The article deals with housing. | — | ["L'article traite du logement"] | false | Traiter de + le logement gives traite du logement.
+
+## b2-culture-french-press
+
+### Vocab
+
+fr | pron | en | note
+
+- un journal national | uhn zhoor-nahl nah-syoh-NAHL | a national paper | —
+- la presse régionale | lah press ray-zhyoh-NAHL | the regional press | —
+- un journal gratuit | uhn zhoor-nahl grah-TWEE | a free paper | —
+- en kiosque | ahn KYOSK | on the newsstands | —
+- la presse satirique | lah press sah-tee-REEK | the satirical press | —
+- un dessin de presse | uhn deh-san duh PRESS | a press cartoon | —
+- la caricature | lah kah-ree-kah-TEWR | caricature, cartoons | —
+- une agence de presse | ew-nah-zhahnss duh PRESS | a news agency | —
+- l'audiovisuel public | loh-dyoh-vee-zwel pew-BLEEK | public broadcasting (TV and radio) | —
+- une rédaction | ewn ray-dak-SYOHN | an editorial team, a newsroom | —
+- un rédacteur en chef / une rédactrice en chef | uhn ray-dak-tuhr ahn SHEF / ewn ray-dak-treess ahn SHEF | an editor-in-chief | —
+- un éditorialiste / une éditorialiste | uh-nay-dee-toh-ryah-LEEST | a leader writer, an editorialist | —
+- une ligne éditoriale | ewn lee-nyuh ay-dee-toh-RYAHL | an editorial line | —
+- engagé / engagée | ahn-gah-ZHAY | committed, politically engaged | —
+- la liberté de la presse | lah lee-behr-tay duh lah PRESS | press freedom | —
+- se réunir | suh ray-ew-NEER | to meet, to hold a meeting | Like finir.
+- mettre en page | meh-trahn PAHZH | to lay out (a page) | —
+- l'imprimerie | lan-pree-MREE | the printing works | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-culture-french-press-ex001 | multiple-choice | Indiquez quel journal est un quotidien régional. | ["Ouest-France","Le Monde","Le Canard enchaîné"] | ["Ouest-France"] | false | Ouest-France covers the west of France; Le Monde is national, and Le Canard enchaîné is a satirical weekly.
+- b2-culture-french-press-ex002 | multiple-choice | Indiquez quel journal est satirique. | ["Le Canard enchaîné","Le Figaro","Ouest-France"] | ["Le Canard enchaîné"] | false | Le Canard enchaîné is a satirical weekly, known for its cartoons and investigations.
+- b2-culture-french-press-ex003 | multiple-choice | Indiquez ce qu'est l'AFP. | ["une agence de presse","un journal gratuit","une chaîne de radio"] | ["une agence de presse"] | false | The AFP, Agence France-Presse, sends news to newspapers, radio and TV.
+- b2-culture-french-press-ex004 | multiple-choice | Indiquez ce qu'est France Télévisions. | ["l'audiovisuel public","un journal satirique","une agence de presse"] | ["l'audiovisuel public"] | false | France Télévisions is the group of public TV channels.
+- b2-culture-french-press-ex005 | multiple-choice | Indiquez le sens de « en kiosque ». | ["on the newsstands","online only","out of print"] | ["on the newsstands"] | false | Un kiosque is a newsstand; en kiosque means on sale there.
+- b2-culture-french-press-ex006 | fill-in | Complétez : Les journalistes de la ___ se réunissent chaque matin. | — | ["rédaction"] | false | La rédaction: the editorial team, and the room where it works.
+- b2-culture-french-press-ex007 | fill-in | Complétez : Chaque jour, l'éditorialiste écrit l'___ du journal. | — | ["éditorial"] | false | L'éditorial is the opinion article, often written by the éditorialiste.
+- b2-culture-french-press-ex008 | fill-in | Complétez : Avec un ___, je peux lire tous les articles en ligne. | — | ["abonnement"] | false | Un abonnement: a subscription.
+- b2-culture-french-press-ex009 | reformulation | Reformulez au passif : L'éditorialiste écrit l'éditorial le soir. | — | ["L'éditorial est écrit par l'éditorialiste le soir","L'éditorial est écrit le soir par l'éditorialiste"] | false | The object becomes the subject: l'éditorial est écrit par…
+- b2-culture-french-press-ex010 | error-correction | Corrigez l'erreur : Le Canard enchaîné est un quotidien régional. | — | ["Le Canard enchaîné est un hebdomadaire satirique"] | false | Le Canard enchaîné comes out once a week and is satirical.
+- b2-culture-french-press-ex011 | translate | Traduisez : Press freedom is very important. | — | ["La liberté de la presse est très importante"] | false | Importante agrees with la liberté.
+- b2-culture-french-press-ex012 | translate | Traduisez : This paper has a committed editorial line. | — | ["Ce journal a une ligne éditoriale engagée"] | true | Engagée agrees with une ligne éditoriale.
+- b2-culture-french-press-ex013 | translate | Rédigez en complétant comme indiqué : Ouest-France est (a regional daily). Il est (on the newsstands) tous les matins. On peut aussi le lire (online). | — | ["Ouest-France est un quotidien régional. Il est en kiosque tous les matins. On peut aussi le lire en ligne."] | false | Un quotidien régional, en kiosque and en ligne.
+- b2-culture-french-press-ex014 | reorder | Remettez dans l'ordre : The newsroom meets every morning. | — | ["La rédaction se réunit tous les matins"] | false | Se réunir is like finir: elle se réunit.
+
+## b2-review-news
+
+### Vocab
+
+fr | pron | en | note
+
+- un communiqué | uhn koh-mew-nee-KAY | a press release, an official statement | —
+- un extrait | uh-nek-STREH | an extract | —
+- une interview exclusive | ew-nan-tehr-VYOO ek-sklew-ZEEV | an exclusive interview | —
+- la version officielle | lah vehr-syohn oh-fee-SYEL | the official version | —
+- recouper une information | ruh-koo-pay ew-nan-for-mah-SYOHN | to cross-check a piece of information | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-review-news-ex001 | fill-in | Mettez au discours indirect (être) : « La piscine est fermée. » → La maire a dit que la piscine ___ fermée. | — | ["était"] | false | After a past reporting verb, the present becomes the imparfait.
+- b2-review-news-ex002 | fill-in | Mettez au discours indirect (publier) : « Nous publierons un communiqué. » → Elle a promis qu'ils ___ un communiqué. | — | ["publieraient"] | false | The futur becomes the conditionnel: the future in the past.
+- b2-review-news-ex003 | fill-in | Mettez au discours indirect (commencer) : « Le chantier a commencé. » → Il a annoncé que le chantier ___. | — | ["avait commencé"] | false | The passé composé becomes the plus-que-parfait.
+- b2-review-news-ex004 | fill-in | Mettez au discours indirect : « Tout aura été rénové en septembre. » → Elle a assuré que tout ___ rénové en septembre. | — | ["aurait été"] | true | The futur antérieur becomes the conditionnel passé, here in the passive.
+- b2-review-news-ex005 | connector-choice | Choisissez le mot : Le journaliste lui a demandé ___ la piscine était fermée. | ["pourquoi","ce que","de"] | ["pourquoi"] | false | A question word stays as it is in a reported question.
+- b2-review-news-ex006 | connector-choice | Choisissez le mot : Elle nous a dit ___ ne pas attendre. | ["de","si","que"] | ["de"] | false | A reported order: de + infinitive, with ne pas before it.
+- b2-review-news-ex007 | multiple-choice | Choisissez le verbe qui montre un doute : Le maire ___ que tout va bien. | ["prétend","annonce","rappelle"] | ["prétend"] | false | Prétendre shows that the reporter doubts the claim.
+- b2-review-news-ex008 | reformulation | Reformulez au discours indirect, avec « Il m'a demandé » (vous = moi) : « Vous êtes d'accord ? » | — | ["Il m'a demandé si j'étais d'accord"] | true | A yes/no question: si, with vous becoming je and the imparfait.
+- b2-review-news-ex009 | reformulation | Reformulez au discours indirect, avec « Elle nous a dit » : « Ne publiez rien ! » | — | ["Elle nous a dit de ne rien publier"] | true | Ne rien goes before the infinitive: de ne rien publier.
+- b2-review-news-ex010 | error-correction | Corrigez l'erreur : Le journaliste a demandé qu'est-ce que la maire voulait faire. | — | ["Le journaliste a demandé ce que la maire voulait faire"] | true | Qu'est-ce que becomes ce que in a reported question.
+- b2-review-news-ex011 | register-shift | Transformez en registre courant, avec « on » : Un communiqué a été publié ce matin. | — | ["On a publié un communiqué ce matin","Ce matin, on a publié un communiqué"] | true | In everyday French, on + active verb replaces the passive.
+- b2-review-news-ex012 | multiple-choice | Indiquez le sens de « recouper une information ». | ["to cross-check information","to cut an article","to publish a press release"] | ["to cross-check information"] | false | Recouper: to check one source against another.
+- b2-review-news-ex013 | translate | Traduisez avec « selon » : According to the official version, the pool will be open in September. | — | ["Selon la version officielle, la piscine sera ouverte en septembre"] | false | Selon + the source, then the futur.
+- b2-review-news-ex014 | translate | Rédigez en complétant comme indiqué : Dans une interview exclusive, la maire a expliqué que la piscine (was) fermée. Elle a annoncé que le chantier (would start) en mars. Le journaliste lui a demandé (whether) les habitants (had been informed). | — | ["Dans une interview exclusive, la maire a expliqué que la piscine était fermée. Elle a annoncé que le chantier commencerait en mars. Le journaliste lui a demandé si les habitants avaient été informés."] | true | The imparfait, the conditionnel and si + the plus-que-parfait passive.
+- b2-review-news-ex015 | translate | Rédigez ce résumé en complétant comme indiqué : Le communiqué (is about) la fermeture de la piscine. (It emerges that) la rénovation commencera en mars. (In short), la mairie veut rassurer les habitants. | — | ["Le communiqué porte sur la fermeture de la piscine. Il ressort que la rénovation commencera en mars. En somme, la mairie veut rassurer les habitants.","Le communiqué traite de la fermeture de la piscine. Il ressort que la rénovation commencera en mars. En somme, la mairie veut rassurer les habitants.","Le communiqué porte sur la fermeture de la piscine. Il ressort que la rénovation commencera en mars. Bref, la mairie veut rassurer les habitants.","Le communiqué traite de la fermeture de la piscine. Il ressort que la rénovation commencera en mars. Bref, la mairie veut rassurer les habitants."] | false | Topic, main point and conclusion, in the present and the futur.
+- b2-review-news-ex016 | reorder | Remettez dans l'ordre : She promised that a press release would be published. | — | ["Elle a promis qu'un communiqué serait publié"] | false | The future in the past, in the passive: serait publié.
