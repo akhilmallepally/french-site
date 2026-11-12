@@ -129,6 +129,11 @@ B2 inherits every B1 rule unless it's overridden here. They apply to B2 lessons 
   - Make no "always" or "never" claim unless it holds across all B2 lessons, including later ones (for example, *si* takes the conditionnel in indirect questions, so the rule is "no conditionnel after *si* meaning 'if'"). Otherwise, limit the claim to this lesson's uses.
 - **Fixed phrases.** check:words works word by word, so a phrase made of known words but never taught as a phrase passes it (*de nouveau*, *d'ici là*, *avoir lieu*, *avoir du mal à*, *une fois que*). Check by hand for such phrases in the teaching text, dialogues, exercises and glossaries. Define each one at first use, or replace it with taught French.
 - **Participle agreement.** Agreement of the past participle with a preceding direct object is taught at A2 (a2-pronouns-in-passe-compose, a2-relative-qui-que-ou, a2-reflexive-passe-compose). Use it freely in B2 dialogues, texts and exercises, and list the accepted variants.
+- **Self-audit.**
+  - An example or table that contrasts two moods or tenses must use verbs whose forms differ in the two (not *qui explique*, which is the same in both moods).
+  - Check every dialogue line and example against each rule the lesson states (mood, repeated preposition, agreement, same subject). A line may not break the lesson's own rule.
+  - Every vocab entry is used in the teaching text, the dialogue or an exercise.
+  - A paragraph exercise must make sense as one coherent text.
 - **Structures.**
   - The teaching text, exercises and En résumé are strict.
   - A longer text may use at most 2 untaught structures. Each one is glossed in an English line inside the same section that starts with `Note:` and names the form in italics, for example "Note: *qu'il soit parti* is the past subjunctive, taught later in B2." check:structures counts these against the cap.

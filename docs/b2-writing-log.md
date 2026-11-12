@@ -245,3 +245,20 @@
 - Checks: check:words 110 (baseline), check:structures 0, audit 0 B2 rows for Unit 6, validate OK, test:content and test:checker passed (29/29), build OK. A1 to B1 words, structures and all-data unchanged; the audit differs only in B2 row labels and the lesson count.
 - review-needed.md: 5 new sections (mood claims, the *sans doute* false friend, *le fait que*, health-system facts with no rates, the dissertation plan and *nous*/*je*, the precautionary principle).
 - Not done: nothing.
+
+## Units 4 and 5 fixes
+
+- subjunctive-relative-clauses: both mood-table rows are now minimal pairs with different forms (*est / soit*, *peut / puisse*); ex014 is one coherent flatshare ad (two subjunctives for the flatmate, one after *le seul*); ex008 accepts *qui sache travailler en équipe*; *exigeant* is now used (*un poste exigeant*). ex012 unchanged: *tranquille* isn't taught. The "so far, relative clauses have been in the indicative" claim is verified: no A1 to B1 or earlier B2 lesson has a subjunctive relative, so it's unchanged.
+- relative-prepositions: dialogue uses *qu'elle me dise* and *c'est de quelqu'un qui m'écoute*; the repeated-preposition rule is limited to "a noun follows", since *c'est que* + clause takes none. ex001 accepts *laquelle*; ex012 accepts *sur qui / sur laquelle je peux compter*. *La confiance* is in b1-relationships (verified).
+- relative-lequel: *fonctionner* is "the standard word; *marcher* is more informal"; the dialogue translation says "during which"; *paramétrer* is used in an example; vocab ids are in order; ex008 accepts the appositive.
+- mise-en-relief: *sur le fond* is in b2-nuancing-opinions (verified). Scan fix: *l'essentiel, c'est que vous avez travaillé* (indicative where the subjunctive is standard) became *l'essentiel, c'est votre travail en équipe*.
+- faire-causatif: ex008 accepts *au plombier* and *je le fais réparer par le plombier*. *S'y prendre* is in b2-idiomatic-y-en (order 29, before 33), and b1-food-and-cooking has *faire cuire / bouillir / fondre* (both verified).
+- participles-and-gerund: ex008 and ex011 accept the requested variants (ex011 now has strictAccents); "can miss"; the dialogue says *n'avions pas reçu de réponse*.
+- Scan:
+  - Two dialogue lines broke their lesson's own rules: the infinitif-passe line *Après avoir atteint ces objectifs, c'est normal* (two subjects) became *…, vous avez raison d'en parler*; the mise-en-relief line is above.
+  - Unused vocab: three entries are now used (*en rester là* in idiomatic-y-en, *un document de travail* in participles-and-gerund, *un pourcentage* in presenting-data). The other script hits were inflected uses.
+  - review-pronouns ex003 accepts *laquelle*.
+  - presenting-data ex013 was incoherent: "sales" going from 20 % to 30 % and then "rising by 50 %". It now covers the share of online sales, which rises by ten points.
+  - Untaught fixed phrases replaced: *à temps* (infinitif-passe ex011) and *par écrit* (negotiating).
+  - The infinitif-passe credit to b2-regret-and-reproach is now a LessonLink. All other "you know X" claims are verified.
+- CLAUDE.md gained a "Self-audit" bullet in the B2 conventions with the four rules. Checks: check:words 110 (baseline), check:structures 0, audit B2 rows only the accepted purpose-expressions ex014, validate OK, test:content and test:checker passed (29/29), build OK. A1 to B1 words, structures, audit and all-data are unchanged.
