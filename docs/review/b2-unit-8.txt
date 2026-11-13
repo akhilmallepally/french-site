@@ -23,7 +23,7 @@ vocab:
   - { id: "b2-registers-v009", group: "words", fr: "un bouquin", pron: "uhn boo-KAN", en: "a book (familiar)" }
   - { id: "b2-registers-v010", group: "words", fr: "un ouvrage", pron: "uh-noo-VRAHZH", en: "a book, a work (formal)" }
   - { id: "b2-registers-v011", group: "words", fr: "le boulot", pron: "luh boo-LOH", en: "work, a job (familiar)" }
-  - { id: "b2-registers-v012", group: "words", fr: "un emploi", pron: "uh-nahn-PLWAH", en: "a job, employment (standard to formal)" }
+  - { id: "b2-registers-v012", group: "words", fr: "un emploi", pron: "uh-nahn-PLWAH", en: "a job, employment (standard)" }
   - { id: "b2-registers-v013", group: "words", fr: "bosser", pron: "boh-SAY", en: "to work (familiar)" }
   - { id: "b2-registers-v014", group: "words", fr: "bouffer", pron: "boo-FAY", en: "to eat (familiar)" }
   - { id: "b2-registers-v015", group: "words", fr: "se hâter", pron: "suh ah-TAY", en: "to hurry (formal)" }
@@ -147,7 +147,7 @@ Many everyday words have a familiar, a standard and a formal version.
 |---|---|---|
 | *une bagnole* | *une voiture* | *une automobile* |
 | *un bouquin* | *un livre* | *un ouvrage* |
-| *le boulot* | *le travail* | *un emploi* |
+| *le boulot* | *le travail* | (no special word) |
 | *bosser* | *travailler* | (no special word) |
 | *bouffer* | *manger* | (no special word) |
 | (no special word) | *se dépêcher* | *se hâter* |
@@ -339,7 +339,7 @@ exercises:
   - id: "b2-colloquial-french-ex011"
     type: "error-correction"
     prompt: "Corrigez l'erreur de registre en remplaçant « du coup » par « donc » (a formal email) : Madame, du coup, je vous envoie le dossier."
-    answers: ["Madame, je vous envoie donc le dossier"]
+    answers: ["Madame, je vous envoie donc le dossier", "Madame, donc, je vous envoie le dossier"]
     explanation: "Du coup is spoken; in an email, donc goes after the verb."
   - id: "b2-colloquial-french-ex012"
     type: "translate"
@@ -427,7 +427,7 @@ Fillers give the speaker time to think. *Bah* or *ben* (well) start an answer; *
 
 <VocabTable group="intensifiers" />
 
-Familiar French has its own words for "very". *Trop* means "too" in standard French, but in familiar speech it often means "so, really": *c'est trop bien* is a compliment. *Vachement* means "really" and is common among all ages. *Carrément* means "totally". *Grave*, used as an adverb, is youth speech: *c'est grave cool*.
+Familiar French has its own words for "very". *Trop* means "too" in standard French, but in familiar speech it often means "so, really": *c'est trop bien* is a compliment. *Vachement* means "really", and it's very common. *Carrément* means "totally". *Grave*, used as an adverb, is youth speech: *c'est grave cool*.
 
 <Example fr="Ce gâteau est trop bon !" en="This cake is so good! (familiar)" />
 <Example fr="Il fait vachement froid aujourd'hui." en="It's really cold today. (familiar)" />
@@ -504,29 +504,29 @@ vocab:
   - { id: "b2-culture-verlan-and-slang-v002", group: "terms", fr: "une expression argotique", pron: "ew-nek-spreh-syohn ar-goh-TEEK", en: "a slang expression" }
   - { id: "b2-culture-verlan-and-slang-v003", group: "terms", fr: "le verlan", pron: "luh vehr-LAHN", en: "verlan, slang made by swapping syllables" }
   - { id: "b2-culture-verlan-and-slang-v004", group: "terms", fr: "inverser les syllabes", pron: "an-vehr-say lay see-LAB", en: "to swap the syllables" }
-  - { id: "b2-culture-verlan-and-slang-v005", group: "verlan", fr: "ouf", pron: "OOF", en: "crazy, amazing (from fou)" }
-  - { id: "b2-culture-verlan-and-slang-v006", group: "verlan", fr: "relou", pron: "ruh-LOO", en: "annoying (from lourd)" }
-  - { id: "b2-culture-verlan-and-slang-v007", group: "verlan", fr: "chelou", pron: "shuh-LOO", en: "weird, shady (from louche)" }
-  - { id: "b2-culture-verlan-and-slang-v008", group: "verlan", fr: "zarbi", pron: "zar-BEE", en: "weird (from bizarre)" }
-  - { id: "b2-culture-verlan-and-slang-v009", group: "verlan", fr: "vénère", pron: "vay-NEHR", en: "angry (from énervé)" }
-  - { id: "b2-culture-verlan-and-slang-v010", group: "verlan", fr: "une meuf", pron: "ewn MUHF", en: "a woman, a girlfriend (from femme)" }
-  - { id: "b2-culture-verlan-and-slang-v011", group: "people", fr: "un mec", pron: "uhn MEK", en: "a guy, a boyfriend" }
-  - { id: "b2-culture-verlan-and-slang-v012", group: "people", fr: "une nana", pron: "ewn nah-NAH", en: "a woman, a girl" }
-  - { id: "b2-culture-verlan-and-slang-v013", group: "people", fr: "un pote", pron: "uhn POT", en: "a mate, a friend" }
-  - { id: "b2-culture-verlan-and-slang-v014", group: "money", fr: "le fric", pron: "luh FREEK", en: "money, cash" }
-  - { id: "b2-culture-verlan-and-slang-v015", group: "money", fr: "la thune", pron: "lah TEWN", en: "money, cash" }
-  - { id: "b2-culture-verlan-and-slang-v016", group: "feelings", fr: "kiffer", pron: "kee-FAY", en: "to love, to be really into" }
-  - { id: "b2-culture-verlan-and-slang-v017", group: "feelings", fr: "crevé / crevée", pron: "kruh-VAY", en: "knackered, exhausted" }
-  - { id: "b2-culture-verlan-and-slang-v018", group: "feelings", fr: "flipper", pron: "flee-PAY", en: "to freak out, to be scared" }
-  - { id: "b2-culture-verlan-and-slang-v019", group: "feelings", fr: "se marrer", pron: "suh mah-RAY", en: "to have a laugh" }
-  - { id: "b2-culture-verlan-and-slang-v020", group: "feelings", fr: "c'est la galère", pron: "seh lah gah-LEHR", en: "it's a hassle, it's a nightmare" }
-  - { id: "b2-culture-verlan-and-slang-v021", group: "glossary", fr: "à l'envers", pron: "ah lahn-VEHR", en: "back to front, the wrong way round" }
-  - { id: "b2-culture-verlan-and-slang-v022", group: "glossary", fr: "une banlieue", pron: "ewn bahn-LYUH", en: "a suburb, the outskirts of a city" }
-  - { id: "b2-culture-verlan-and-slang-v023", group: "glossary", fr: "longtemps", pron: "lohn-TAHN", en: "a long time" }
-  - { id: "b2-culture-verlan-and-slang-v024", group: "terms", fr: "vieillir", pron: "vyeh-YEER", en: "to get old, to age" }
-  - { id: "b2-culture-verlan-and-slang-v025", group: "glossary", fr: "démodé", pron: "day-moh-DAY", en: "old-fashioned, out of date" }
-  - { id: "b2-culture-verlan-and-slang-v026", group: "verlan", fr: "lourd / lourde", pron: "LOOR / LOORD", en: "heavy; (of a person) annoying" }
-  - { id: "b2-culture-verlan-and-slang-v027", group: "verlan", fr: "louche", pron: "LOOSH", en: "shady, suspicious" }
+  - { id: "b2-culture-verlan-and-slang-v005", group: "terms", fr: "vieillir", pron: "vyeh-YEER", en: "to get old, to age" }
+  - { id: "b2-culture-verlan-and-slang-v006", group: "verlan", fr: "ouf", pron: "OOF", en: "crazy, amazing (from fou)" }
+  - { id: "b2-culture-verlan-and-slang-v007", group: "verlan", fr: "relou", pron: "ruh-LOO", en: "annoying (from lourd)" }
+  - { id: "b2-culture-verlan-and-slang-v008", group: "verlan", fr: "chelou", pron: "shuh-LOO", en: "weird, shady (from louche)" }
+  - { id: "b2-culture-verlan-and-slang-v009", group: "verlan", fr: "zarbi", pron: "zar-BEE", en: "weird (from bizarre)" }
+  - { id: "b2-culture-verlan-and-slang-v010", group: "verlan", fr: "vénère", pron: "vay-NEHR", en: "angry (from énervé)" }
+  - { id: "b2-culture-verlan-and-slang-v011", group: "verlan", fr: "une meuf", pron: "ewn MUHF", en: "a woman, a girlfriend (from femme)" }
+  - { id: "b2-culture-verlan-and-slang-v012", group: "verlan", fr: "lourd / lourde", pron: "LOOR / LOORD", en: "heavy; (of a person) annoying" }
+  - { id: "b2-culture-verlan-and-slang-v013", group: "verlan", fr: "louche", pron: "LOOSH", en: "shady, suspicious" }
+  - { id: "b2-culture-verlan-and-slang-v014", group: "people", fr: "un mec", pron: "uhn MEK", en: "a guy, a boyfriend" }
+  - { id: "b2-culture-verlan-and-slang-v015", group: "people", fr: "une nana", pron: "ewn nah-NAH", en: "a woman, a girl" }
+  - { id: "b2-culture-verlan-and-slang-v016", group: "people", fr: "un pote", pron: "uhn POT", en: "a mate, a friend" }
+  - { id: "b2-culture-verlan-and-slang-v017", group: "money", fr: "le fric", pron: "luh FREEK", en: "money, cash" }
+  - { id: "b2-culture-verlan-and-slang-v018", group: "money", fr: "la thune", pron: "lah TEWN", en: "money, cash" }
+  - { id: "b2-culture-verlan-and-slang-v019", group: "feelings", fr: "kiffer", pron: "kee-FAY", en: "to love, to be really into" }
+  - { id: "b2-culture-verlan-and-slang-v020", group: "feelings", fr: "crevé / crevée", pron: "kruh-VAY", en: "knackered, exhausted" }
+  - { id: "b2-culture-verlan-and-slang-v021", group: "feelings", fr: "flipper", pron: "flee-PAY", en: "to freak out, to be scared" }
+  - { id: "b2-culture-verlan-and-slang-v022", group: "feelings", fr: "se marrer", pron: "suh mah-RAY", en: "to have a laugh" }
+  - { id: "b2-culture-verlan-and-slang-v023", group: "feelings", fr: "c'est la galère", pron: "seh lah gah-LEHR", en: "it's a hassle, it's a nightmare" }
+  - { id: "b2-culture-verlan-and-slang-v024", group: "glossary", fr: "à l'envers", pron: "ah lahn-VEHR", en: "back to front, the wrong way round" }
+  - { id: "b2-culture-verlan-and-slang-v025", group: "glossary", fr: "une banlieue", pron: "ewn bahn-LYUH", en: "a suburb, the outskirts of a city" }
+  - { id: "b2-culture-verlan-and-slang-v026", group: "glossary", fr: "longtemps", pron: "lohn-TAHN", en: "a long time" }
+  - { id: "b2-culture-verlan-and-slang-v027", group: "glossary", fr: "démodé", pron: "day-moh-DAY", en: "old-fashioned, out of date" }
 exercises:
   - id: "b2-culture-verlan-and-slang-ex001"
     type: "multiple-choice"
@@ -561,7 +561,7 @@ exercises:
   - id: "b2-culture-verlan-and-slang-ex006"
     type: "fill-in"
     prompt: "Complétez avec le mot courant : Je suis crevé, c'est-à-dire très ___."
-    answers: ["fatigué"]
+    answers: ["fatigué", "épuisé"]
     explanation: "Crevé is slang for très fatigué."
   - id: "b2-culture-verlan-and-slang-ex007"
     type: "fill-in"
@@ -746,20 +746,20 @@ vocab:
   - { id: "b2-false-friends-v004", group: "people", fr: "avoir hâte de", pron: "ah-vwahr AHT duh", en: "to look forward to, can't wait to" }
   - { id: "b2-false-friends-v005", group: "people", fr: "rude", pron: "REWD", en: "harsh, tough", note: "Not rude, which is impoli." }
   - { id: "b2-false-friends-v006", group: "people", fr: "une déception", pron: "ewn day-sep-SYOHN", en: "a disappointment", note: "Not a deception, which is une tromperie." }
-  - { id: "b2-false-friends-v007", group: "actions", fr: "assister à", pron: "ah-sees-TAY ah", en: "to attend (an event)", note: "Assister quelqu'un: to assist someone." }
-  - { id: "b2-false-friends-v008", group: "actions", fr: "supporter", pron: "sew-por-TAY", en: "to put up with, to bear", note: "Also to support a team." }
-  - { id: "b2-false-friends-v009", group: "actions", fr: "réaliser", pron: "ray-ah-lee-ZAY", en: "to carry out, to make (a project, a film)", note: "Informally also to realize; careful speakers prefer se rendre compte." }
-  - { id: "b2-false-friends-v010", group: "actions", fr: "blesser", pron: "bleh-SAY", en: "to injure, to hurt", note: "Not to bless, which is bénir." }
-  - { id: "b2-false-friends-v011", group: "things", fr: "une location", pron: "ewn loh-kah-SYOHN", en: "a rental, renting" }
-  - { id: "b2-false-friends-v012", group: "things", fr: "un car", pron: "uhn KAR", en: "a coach (bus between towns)" }
-  - { id: "b2-false-friends-v013", group: "things", fr: "une cave", pron: "ewn KAHV", en: "a cellar" }
-  - { id: "b2-false-friends-v014", group: "things", fr: "large", pron: "LARZH", en: "wide", note: "Large is grand." }
-  - { id: "b2-false-friends-v015", group: "things", fr: "un avertissement", pron: "uh-nah-vehr-tees-MAHN", en: "a warning", note: "Not an advertisement, which is une publicité." }
-  - { id: "b2-false-friends-v016", group: "things", fr: "un préjudice", pron: "uhn pray-zhew-DEESS", en: "harm, damage (formal, legal)", note: "Not prejudice, which is un préjugé." }
-  - { id: "b2-false-friends-v017", group: "possibly", fr: "éventuellement", pron: "ay-vahn-tew-el-MAHN", en: "possibly, if need be", note: "Not eventually, which is finalement." }
-  - { id: "b2-false-friends-v018", group: "possibly", fr: "éventuel / éventuelle", pron: "ay-vahn-TWEL", en: "possible" }
-  - { id: "b2-false-friends-v019", group: "people", fr: "dur / dure", pron: "DEWR", en: "hard, harsh" }
-  - { id: "b2-false-friends-v020", group: "people", fr: "impoli / impolie", pron: "an-poh-LEE", en: "rude, impolite" }
+  - { id: "b2-false-friends-v007", group: "people", fr: "dur / dure", pron: "DEWR", en: "hard, harsh" }
+  - { id: "b2-false-friends-v008", group: "people", fr: "impoli / impolie", pron: "an-poh-LEE", en: "rude, impolite" }
+  - { id: "b2-false-friends-v009", group: "actions", fr: "assister à", pron: "ah-sees-TAY ah", en: "to attend (an event)", note: "Assister quelqu'un: to assist someone." }
+  - { id: "b2-false-friends-v010", group: "actions", fr: "supporter", pron: "sew-por-TAY", en: "to put up with, to bear", note: "Also to support a team." }
+  - { id: "b2-false-friends-v011", group: "actions", fr: "réaliser", pron: "ray-ah-lee-ZAY", en: "to carry out, to make (a project, a film)", note: "Informally also to realize; careful speakers prefer se rendre compte." }
+  - { id: "b2-false-friends-v012", group: "actions", fr: "blesser", pron: "bleh-SAY", en: "to injure, to hurt", note: "Not to bless, which is bénir." }
+  - { id: "b2-false-friends-v013", group: "things", fr: "une location", pron: "ewn loh-kah-SYOHN", en: "a rental, renting" }
+  - { id: "b2-false-friends-v014", group: "things", fr: "un car", pron: "uhn KAR", en: "a coach (bus between towns)" }
+  - { id: "b2-false-friends-v015", group: "things", fr: "une cave", pron: "ewn KAHV", en: "a cellar" }
+  - { id: "b2-false-friends-v016", group: "things", fr: "large", pron: "LARZH", en: "wide", note: "Large is grand." }
+  - { id: "b2-false-friends-v017", group: "things", fr: "un avertissement", pron: "uh-nah-vehr-tees-MAHN", en: "a warning", note: "Not an advertisement, which is une publicité." }
+  - { id: "b2-false-friends-v018", group: "things", fr: "un préjudice", pron: "uhn pray-zhew-DEESS", en: "harm, damage (formal, legal)", note: "Not prejudice, which is un préjugé." }
+  - { id: "b2-false-friends-v019", group: "possibly", fr: "éventuellement", pron: "ay-vahn-tew-el-MAHN", en: "possibly, if need be", note: "Not eventually, which is finalement." }
+  - { id: "b2-false-friends-v020", group: "possibly", fr: "éventuel / éventuelle", pron: "ay-vahn-TWEL", en: "possible" }
 exercises:
   - id: "b2-false-friends-ex001"
     type: "multiple-choice"
@@ -996,27 +996,27 @@ vocab:
   - { id: "b2-debating-v001", group: "roles", fr: "un modérateur / une modératrice", pron: "uhn moh-day-rah-TUHR / ewn moh-day-rah-TREESS", en: "a moderator, a presenter of a debate" }
   - { id: "b2-debating-v002", group: "roles", fr: "le temps de parole", pron: "luh tahn duh pah-ROL", en: "speaking time" }
   - { id: "b2-debating-v003", group: "roles", fr: "avoir le dernier mot", pron: "ah-vwahr luh dehr-nyay MOH", en: "to have the last word" }
-  - { id: "b2-debating-v004", group: "floor", fr: "couper la parole à", pron: "koo-pay lah pah-ROL ah", en: "to interrupt (someone)" }
-  - { id: "b2-debating-v005", group: "floor", fr: "si je peux me permettre", pron: "see zhuh puh muh pehr-MEH-truh", en: "if I may" }
-  - { id: "b2-debating-v006", group: "floor", fr: "permettez-moi de", pron: "pehr-meh-tay-MWAH duh", en: "allow me to" }
-  - { id: "b2-debating-v007", group: "floor", fr: "laisser finir", pron: "leh-say fee-NEER", en: "to let (someone) finish", note: "Laissez-moi finir: let me finish." }
-  - { id: "b2-debating-v008", group: "floor", fr: "je ne vous ai pas interrompu", pron: "zhuh nuh voo-zay pah-zan-teh-rohn-PEW", en: "I didn't interrupt you", note: "Interrompre: to interrupt. Interrompue for a woman." }
-  - { id: "b2-debating-v009", group: "rebut", fr: "réfuter", pron: "ray-few-TAY", en: "to refute, to argue against" }
-  - { id: "b2-debating-v010", group: "rebut", fr: "contredire", pron: "kohn-truh-DEER", en: "to contradict", note: "Vous contredisez (not contredites)." }
-  - { id: "b2-debating-v011", group: "rebut", fr: "objecter que", pron: "ob-zhek-tay KUH", en: "to object that" }
-  - { id: "b2-debating-v012", group: "rebut", fr: "une objection", pron: "ew-nob-zhek-SYOHN", en: "an objection" }
-  - { id: "b2-debating-v013", group: "rebut", fr: "je maintiens que", pron: "zhuh man-tyan KUH", en: "I maintain that" }
-  - { id: "b2-debating-v014", group: "rebut", fr: "un argument de poids", pron: "uh-nar-gew-mahn duh PWAH", en: "a strong argument" }
-  - { id: "b2-debating-v015", group: "rebut", fr: "partager l'avis de quelqu'un", pron: "par-tah-zhay lah-VEE duh kel-KUHN", en: "to share someone's opinion" }
-  - { id: "b2-debating-v016", group: "refocus", fr: "revenons-en à", pron: "ruh-vuh-nohn-zahn AH", en: "let's get back to" }
-  - { id: "b2-debating-v017", group: "refocus", fr: "là n'est pas la question", pron: "lah neh pah lah kes-TYOHN", en: "that's not the point" }
-  - { id: "b2-debating-v018", group: "refocus", fr: "ce n'est pas le sujet", pron: "suh neh pah luh sew-ZHEH", en: "that's not what we're discussing" }
-  - { id: "b2-debating-v019", group: "refocus", fr: "rebondir sur", pron: "ruh-bohn-deer SEWR", en: "to pick up on (what someone said)", note: "New meaning: rebondir alone is to bounce back." }
-  - { id: "b2-debating-v020", group: "topic", fr: "un commerçant / une commerçante", pron: "uhn koh-mehr-SAHN / ewn koh-mehr-SAHNT", en: "a shopkeeper" }
-  - { id: "b2-debating-v021", group: "topic", fr: "un piéton / une piétonne", pron: "uhn pyay-TOHN / ewn pyay-TONN", en: "a pedestrian" }
-  - { id: "b2-debating-v022", group: "glossary", fr: "une livraison", pron: "ewn lee-vreh-ZOHN", en: "a delivery" }
-  - { id: "b2-debating-v023", group: "glossary", fr: "désormais", pron: "day-zor-MEH", en: "from now on" }
-  - { id: "b2-debating-v024", group: "roles", fr: "un auditeur / une auditrice", pron: "uh-noh-dee-TUHR / ew-noh-dee-TREESS", en: "a listener (radio)" }
+  - { id: "b2-debating-v004", group: "roles", fr: "un auditeur / une auditrice", pron: "uh-noh-dee-TUHR / ew-noh-dee-TREESS", en: "a listener (radio)" }
+  - { id: "b2-debating-v005", group: "floor", fr: "couper la parole à", pron: "koo-pay lah pah-ROL ah", en: "to interrupt (someone)" }
+  - { id: "b2-debating-v006", group: "floor", fr: "si je peux me permettre", pron: "see zhuh puh muh pehr-MEH-truh", en: "if I may" }
+  - { id: "b2-debating-v007", group: "floor", fr: "permettez-moi de", pron: "pehr-meh-tay-MWAH duh", en: "allow me to" }
+  - { id: "b2-debating-v008", group: "floor", fr: "laisser finir", pron: "leh-say fee-NEER", en: "to let (someone) finish", note: "Laissez-moi finir: let me finish." }
+  - { id: "b2-debating-v009", group: "floor", fr: "je ne vous ai pas interrompu", pron: "zhuh nuh voo-zay pah-zan-teh-rohn-PEW", en: "I didn't interrupt you", note: "Interrompre: to interrupt. Interrompue for a woman." }
+  - { id: "b2-debating-v010", group: "rebut", fr: "réfuter", pron: "ray-few-TAY", en: "to refute, to argue against" }
+  - { id: "b2-debating-v011", group: "rebut", fr: "contredire", pron: "kohn-truh-DEER", en: "to contradict", note: "Vous contredisez (not contredites)." }
+  - { id: "b2-debating-v012", group: "rebut", fr: "objecter que", pron: "ob-zhek-tay KUH", en: "to object that" }
+  - { id: "b2-debating-v013", group: "rebut", fr: "une objection", pron: "ew-nob-zhek-SYOHN", en: "an objection" }
+  - { id: "b2-debating-v014", group: "rebut", fr: "je maintiens que", pron: "zhuh man-tyan KUH", en: "I maintain that", note: "Like tenir: il maintient, ils maintiennent." }
+  - { id: "b2-debating-v015", group: "rebut", fr: "un argument de poids", pron: "uh-nar-gew-mahn duh PWAH", en: "a strong argument" }
+  - { id: "b2-debating-v016", group: "rebut", fr: "partager l'avis de quelqu'un", pron: "par-tah-zhay lah-VEE duh kel-KUHN", en: "to share someone's opinion" }
+  - { id: "b2-debating-v017", group: "refocus", fr: "revenons-en à", pron: "ruh-vuh-nohn-zahn AH", en: "let's get back to" }
+  - { id: "b2-debating-v018", group: "refocus", fr: "là n'est pas la question", pron: "lah neh pah lah kes-TYOHN", en: "that's not the point" }
+  - { id: "b2-debating-v019", group: "refocus", fr: "ce n'est pas le sujet", pron: "suh neh pah luh sew-ZHEH", en: "that's not what we're discussing" }
+  - { id: "b2-debating-v020", group: "refocus", fr: "rebondir sur", pron: "ruh-bohn-deer SEWR", en: "to pick up on (what someone said)", note: "New meaning: rebondir alone is to bounce back." }
+  - { id: "b2-debating-v021", group: "topic", fr: "un commerçant / une commerçante", pron: "uhn koh-mehr-SAHN / ewn koh-mehr-SAHNT", en: "a shopkeeper" }
+  - { id: "b2-debating-v022", group: "topic", fr: "un piéton / une piétonne", pron: "uhn pyay-TOHN / ewn pyay-TONN", en: "a pedestrian" }
+  - { id: "b2-debating-v023", group: "glossary", fr: "une livraison", pron: "ewn lee-vreh-ZOHN", en: "a delivery" }
+  - { id: "b2-debating-v024", group: "glossary", fr: "désormais", pron: "day-zor-MEH", en: "from now on" }
 exercises:
   - id: "b2-debating-ex001"
     type: "multiple-choice"
@@ -1048,7 +1048,7 @@ exercises:
     explanation: "The second sentence says the opposite, so it's a rebuttal."
   - id: "b2-debating-ex006"
     type: "register-shift"
-    prompt: "Mettez au registre courant : Arrête, c'est moi qui parle !"
+    prompt: "Mettez au registre courant (dans un débat, avec vous) : Arrête, c'est moi qui parle !"
     answers: ["Laissez-moi finir, s'il vous plaît", "Permettez-moi de finir, s'il vous plaît"]
     explanation: "In a debate, ask to finish politely, with vous."
   - id: "b2-debating-ex007"
@@ -1129,7 +1129,7 @@ To get the floor while someone is speaking, ask politely.
 <Example fr="Permettez-moi de finir ma phrase, s'il vous plaît." en="Allow me to finish my sentence, please." />
 <Example fr="Je ne vous ai pas interrompu, alors laissez-moi finir." en="I didn't interrupt you, so let me finish." />
 
-*Couper la parole à quelqu'un* is a normal part of a lively debate, but do it with a polite phrase first. In French debates, people interrupt more than in many English-speaking ones, so these phrases are useful both to take the floor and to defend it.
+*Couper la parole à quelqu'un* is a normal part of a lively debate, but do it with a polite phrase first. Lively debates often have interruptions, so these phrases are useful both to take the floor and to defend it.
 
 ## Answering an argument
 
@@ -1141,6 +1141,7 @@ When you disagree, you can *réfuter* an argument (show that it's wrong), *contr
 <Example fr="Permettez-moi de vous contredire : les chiffres disent le contraire." en="Allow me to contradict you: the figures say the opposite." />
 <Example fr="On peut objecter que les livraisons deviendront plus difficiles." en="One could object that deliveries will become more difficult." />
 <Example fr="Je maintiens que c'est un argument de poids." en="I maintain that it's a strong argument." />
+<Example fr="Elle maintient que la pollution est le vrai problème." en="She maintains that pollution is the real problem." />
 
 Note that *contredire* is irregular in one form: *vous contredisez*, not *vous contredites*. And before you answer *une objection*, show that you've understood it with *si je comprends bien* (*si je comprends bien, vous dites que…*), which you know from <LessonLink id="b2-negotiating" text="the lesson on negotiating" />.
 
@@ -1161,8 +1162,6 @@ Debates often drift away from their subject. The moderator, or a guest, can brin
 
 A strong debater sums up the other side's best argument before answering it. It shows that you've listened, and it makes your answer more convincing.
 
-<VocabTable group="topic" />
-
 <Example fr="Si je vous comprends bien, vous pensez que les commerçants vont perdre des clients." en="If I understand you correctly, you think shopkeepers will lose customers." />
 <Example fr="C'est justement la sécurité des piétons qui m'inquiète." en="It's precisely the safety of pedestrians that worries me." />
 
@@ -1171,6 +1170,8 @@ Then use the mise en relief from <LessonLink id="b2-mise-en-relief" text="the le
 ## En français
 
 A radio debate: should cars be banned from the city centre? Claire Dubois is the moderator. Monsieur Bernard is a shopkeeper; Madame Roux works for a cyclists' association.
+
+<VocabTable group="topic" />
 
 - *Monsieur Bernard, vous êtes commerçant. Faut-il interdire les voitures au centre-ville ?* (Mr Bernard, you're a shopkeeper. Should cars be banned from the town centre?)
 - *Je ne le pense pas. Beaucoup de mes clients viennent en voiture, surtout les personnes âgées.* (I don't think so. Many of my customers come by car, especially elderly people.)
@@ -1229,23 +1230,23 @@ tags: ["debate", "speaking", "persuasion"]
 prerequisites: ["b2-debating"]
 related: ["b2-nuancing-opinions", "b2-concession-opposition", "b2-review-final"]
 vocab:
-  - { id: "b2-persuasion-and-hedging-v001", group: "appeals", fr: "avouez que", pron: "ah-vway KUH", en: "you must admit that", note: "+ indicative." }
-  - { id: "b2-persuasion-and-hedging-v002", group: "appeals", fr: "convenez que", pron: "kohnv-nay KUH", en: "you'll agree that", note: "+ indicative." }
-  - { id: "b2-persuasion-and-hedging-v003", group: "appeals", fr: "croyez-moi", pron: "krwah-yay-MWAH", en: "believe me" }
-  - { id: "b2-persuasion-and-hedging-v004", group: "questions", fr: "n'est-il pas vrai que", pron: "neh-teel pah vreh KUH", en: "isn't it true that", note: "+ indicative." }
-  - { id: "b2-persuasion-and-hedging-v005", group: "questions", fr: "ne pensez-vous pas que", pron: "nuh pahn-say-voo pah KUH", en: "don't you think that", note: "+ indicative or subjunctive." }
-  - { id: "b2-persuasion-and-hedging-v006", group: "imagine", fr: "imaginons que", pron: "ee-mah-zhee-nohn KUH", en: "let's imagine that", note: "Usually + subjunctive." }
-  - { id: "b2-persuasion-and-hedging-v007", group: "imagine", fr: "admettons que", pron: "ad-meh-tohn KUH", en: "let's suppose that", note: "Usually + subjunctive." }
-  - { id: "b2-persuasion-and-hedging-v008", group: "weight", fr: "qui plus est", pron: "kee plew-ZEH", en: "what's more" }
-  - { id: "b2-persuasion-and-hedging-v009", group: "weight", fr: "sans compter que", pron: "sahn kohn-tay KUH", en: "not to mention that", note: "+ indicative." }
-  - { id: "b2-persuasion-and-hedging-v010", group: "weight", fr: "un argument massue", pron: "uh-nar-gew-mahn mah-SEW", en: "a knockout argument" }
-  - { id: "b2-persuasion-and-hedging-v011", group: "concede", fr: "j'en conviens", pron: "zhahn kohn-VYAN", en: "I grant you that" }
-  - { id: "b2-persuasion-and-hedging-v012", group: "concede", fr: "quoi qu'on en dise", pron: "kwah kohn-nahn DEEZ", en: "whatever people say" }
-  - { id: "b2-persuasion-and-hedging-v013", group: "means", fr: "persuader", pron: "pehr-sew-ah-DAY", en: "to persuade" }
-  - { id: "b2-persuasion-and-hedging-v014", group: "means", fr: "faire appel à", pron: "fehr ah-PEL ah", en: "to appeal to" }
-  - { id: "b2-persuasion-and-hedging-v015", group: "means", fr: "jouer sur", pron: "zhoo-ay SEWR", en: "to play on" }
-  - { id: "b2-persuasion-and-hedging-v016", group: "means", fr: "une stratégie", pron: "ewn strah-tay-ZHEE", en: "a strategy" }
-  - { id: "b2-persuasion-and-hedging-v017", group: "means", fr: "l'émotion", pron: "lay-moh-SYOHN", en: "emotion" }
+  - { id: "b2-persuasion-and-hedging-v001", group: "means", fr: "persuader", pron: "pehr-sew-ah-DAY", en: "to persuade" }
+  - { id: "b2-persuasion-and-hedging-v002", group: "means", fr: "faire appel à", pron: "fehr ah-PEL ah", en: "to appeal to" }
+  - { id: "b2-persuasion-and-hedging-v003", group: "means", fr: "jouer sur", pron: "zhoo-ay SEWR", en: "to play on" }
+  - { id: "b2-persuasion-and-hedging-v004", group: "means", fr: "une stratégie", pron: "ewn strah-tay-ZHEE", en: "a strategy" }
+  - { id: "b2-persuasion-and-hedging-v005", group: "means", fr: "l'émotion", pron: "lay-moh-SYOHN", en: "emotion" }
+  - { id: "b2-persuasion-and-hedging-v006", group: "appeals", fr: "avouez que", pron: "ah-vway KUH", en: "you must admit that", note: "+ indicative." }
+  - { id: "b2-persuasion-and-hedging-v007", group: "appeals", fr: "convenez que", pron: "kohnv-nay KUH", en: "you'll agree that", note: "+ indicative." }
+  - { id: "b2-persuasion-and-hedging-v008", group: "appeals", fr: "croyez-moi", pron: "krwah-yay-MWAH", en: "believe me" }
+  - { id: "b2-persuasion-and-hedging-v009", group: "questions", fr: "n'est-il pas vrai que", pron: "neh-teel pah vreh KUH", en: "isn't it true that", note: "+ indicative." }
+  - { id: "b2-persuasion-and-hedging-v010", group: "questions", fr: "ne pensez-vous pas que", pron: "nuh pahn-say-voo pah KUH", en: "don't you think that", note: "+ indicative or subjunctive." }
+  - { id: "b2-persuasion-and-hedging-v011", group: "imagine", fr: "imaginons que", pron: "ee-mah-zhee-nohn KUH", en: "let's imagine that", note: "Usually + subjunctive." }
+  - { id: "b2-persuasion-and-hedging-v012", group: "imagine", fr: "admettons que", pron: "ad-meh-tohn KUH", en: "let's suppose that", note: "Usually + subjunctive." }
+  - { id: "b2-persuasion-and-hedging-v013", group: "weight", fr: "qui plus est", pron: "kee plew-ZEH", en: "what's more" }
+  - { id: "b2-persuasion-and-hedging-v014", group: "weight", fr: "sans compter que", pron: "sahn kohn-tay KUH", en: "not to mention that", note: "+ indicative." }
+  - { id: "b2-persuasion-and-hedging-v015", group: "weight", fr: "un argument massue", pron: "uh-nar-gew-mahn mah-SEW", en: "a knockout argument" }
+  - { id: "b2-persuasion-and-hedging-v016", group: "concede", fr: "j'en conviens", pron: "zhahn kohn-VYAN", en: "I grant you that" }
+  - { id: "b2-persuasion-and-hedging-v017", group: "concede", fr: "quoi qu'on en dise", pron: "kwah kohn-nahn DEEZ", en: "whatever people say" }
 exercises:
   - id: "b2-persuasion-and-hedging-ex001"
     type: "multiple-choice"
@@ -1313,7 +1314,7 @@ exercises:
     explanation: "Imaginons que + subjunctive: ayez (vous) or aies (tu)."
   - id: "b2-persuasion-and-hedging-ex013"
     type: "translate"
-    prompt: "Rédigez en complétant comme indiqué : (You must admit that) la bibliothèque ferme trop tôt. (Isn't it true that) beaucoup d'étudiants travaillent le soir ? (What's more), le dimanche, tout est fermé. (Believe me), ce changement aidera tout le monde."
+    prompt: "Rédigez en complétant comme indiqué : (You must admit that: avouer) la bibliothèque ferme trop tôt. (Isn't it true that) beaucoup d'étudiants travaillent le soir ? (What's more: qui plus est), le dimanche, tout est fermé. (Believe me), ce changement aidera tout le monde."
     answers: ["Avouez que la bibliothèque ferme trop tôt. N'est-il pas vrai que beaucoup d'étudiants travaillent le soir ? Qui plus est, le dimanche, tout est fermé. Croyez-moi, ce changement aidera tout le monde."]
     strictAccents: true
     explanation: "An appeal, a rhetorical question, an intensifier and a direct appeal."
@@ -1340,7 +1341,7 @@ You can already soften an opinion with *il me semble que* and *dans une certaine
 
 <VocabTable group="means" />
 
-French distinguishes two ways of winning people over. You know *convaincre* (to convince), which works through reason and arguments. *Persuader* (to persuade) also works through feelings: it can *faire appel à l'émotion* or *jouer sur* the listener's fears and hopes. A good *stratégie* uses both, but a speaker who only plays on emotion soon loses the audience's trust.
+A classic distinction in rhetoric separates two ways of winning people over. You know *convaincre* (to convince), which works through reason and arguments. *Persuader* (to persuade) also works through feelings: it can *faire appel à l'émotion* or *jouer sur* the listener's fears and hopes. A good *stratégie* uses both, but a speaker who only plays on emotion soon loses the audience's trust.
 
 <Example fr="Ce discours fait appel à l'émotion plus qu'à la raison." en="This speech appeals to emotion more than to reason." />
 <Example fr="Elle joue sur nos peurs pour nous persuader." en="She plays on our fears to persuade us." />
@@ -1393,6 +1394,14 @@ The most persuasive speakers concede a point before the other side can use it. *
 
 <Example fr="Ce changement a un prix, j'en conviens. Néanmoins, il est nécessaire." en="This change has a cost, I grant you that. Nevertheless, it's necessary." />
 <Example fr="Quoi qu'on en dise, cette idée marche déjà dans d'autres villes." en="Whatever people say, this idea already works in other towns." />
+
+## Hedging after you persuade
+
+Persuading doesn't mean exaggerating. Once your main point is made, soften the details, so that the audience keeps trusting you. You know *il me semble que* and *dans une certaine mesure* from <LessonLink id="b2-nuancing-opinions" text="the lesson on nuancing opinions" />, and the probability scale from <LessonLink id="b2-certainty-and-probability" text="the lesson on certainty and probability" />: *il se peut que* + subjunctive sits lower on the scale than *il est probable que*.
+
+<Example fr="Il me semble que ce projet aidera beaucoup d'étudiants." en="It seems to me that this project will help many students." />
+<Example fr="Dans une certaine mesure, les autres ont raison : le projet a un prix." en="To some extent, the others are right: the project has a cost." />
+<Example fr="Il se peut que le projet soit plus long que prévu." en="The project may take longer than planned." />
 
 ## En français
 
@@ -1582,8 +1591,8 @@ Here is one model sentence for each unit, built on its key structure. Read them 
 <Example fr="Le ministre a annoncé que la loi serait votée en mai." en="The minister announced that the law would be passed in May. (Unit 3: reported speech and the passive)" />
 <Example fr="C'est le seul musée qui soit ouvert le lundi." en="It's the only museum that's open on Mondays. (Unit 4: the subjunctive after le seul)" />
 <Example fr="Nous avons fait réparer la machine par un prestataire." en="We had the machine repaired by a contractor. (Unit 5: faire + infinitive)" />
-<Example fr="Il est peu probable que les résultats changent beaucoup." en="It's unlikely that the results will change much. (Unit 6: peu probable + subjunctive)" />
-<Example fr="Mon ancien professeur a peint toute la ville." en="My former teacher painted the whole town. (Unit 7: ancien before the noun, tout as a determiner)" />
+<Example fr="Il est peu probable que les résultats soient très différents." en="It's unlikely that the results will be very different. (Unit 6: peu probable + subjunctive)" />
+<Example fr="Mon ancien professeur a visité tout le musée." en="My former teacher visited the whole museum. (Unit 7: ancien before the noun, tout as a determiner)" />
 <Example fr="Si je peux me permettre, je ne partage pas votre avis." en="If I may, I don't share your view. (Unit 8: debating)" />
 
 ## A few new words
@@ -1659,4 +1668,4 @@ Write your own *bilan de B2*, of five short paragraphs, on paper or in a notes a
 
 ## What's next
 
-The C1 level starts with <LessonLink id="c1-passe-simple" text="the lesson on the passé simple" />, where you'll learn to use the literary past actively.
+The C1 level will start with the passé simple, where you'll learn to use the literary past actively.

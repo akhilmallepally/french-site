@@ -311,7 +311,7 @@ You don't need to check items marked OK by someone else, or anything not listed.
 6. **Medium.** Is the terms right? The introduction moves (*amorce*, *problématique*, *annonce du plan*) and the conclusion with an *ouverture*
 7. **Medium.** Is this correct? "For a plan in three parts ... Some writers then say *dans un deuxième temps* for the second part." (note on *dans un troisième temps*)
 
-### Review: Science, health and environment (b2-review-science)
+### Review: Science and health (b2-review-science)
 
 1. **Medium.** Does this read as neutral? "*Le principe de précaution* says that a risk can justify action before science is certain."
 2. **Medium.** Is this correct? "*Un comité d'éthique* is a group that gives its opinion on what is right in research or medicine."

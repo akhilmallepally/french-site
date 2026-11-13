@@ -5,7 +5,7 @@ id: "b2-science-and-research"
 title: "Science and research"
 description: "Talk about research and the scientific method in French: hypotheses, experiments, samples, results, discoveries and publications."
 level: "B2"
-unit: "Science, health and environment"
+unit: "Science and health"
 order: 41
 type: "vocabulary"
 tags: ["science", "research", "vocabulary"]
@@ -56,7 +56,7 @@ exercises:
     explanation: "Une découverte: something found for the first time. Une avancée (a breakthrough) also fits."
   - id: "b2-science-and-research-ex005"
     type: "fill-in"
-    prompt: "Complétez : Sans ___, les chercheurs ne peuvent pas continuer leur recherche."
+    prompt: "Complétez avec « le financement » : Sans ___, les chercheurs ne peuvent pas continuer leur recherche."
     answers: ["financement"]
     explanation: "Le financement: the money that pays for research."
   - id: "b2-science-and-research-ex006"
@@ -92,7 +92,7 @@ exercises:
   - id: "b2-science-and-research-ex011"
     type: "error-correction"
     prompt: "Corrigez l'erreur de verbe : Hier, nous avons eu une expérience au laboratoire."
-    answers: ["Hier, nous avons fait une expérience au laboratoire"]
+    answers: ["Hier, nous avons fait une expérience au laboratoire", "Hier, nous avons réalisé une expérience au laboratoire"]
     explanation: "An experiment is something you do: faire une expérience. Avoir de l'expérience means to be experienced."
   - id: "b2-science-and-research-ex012"
     type: "translate"
@@ -140,7 +140,7 @@ Research starts with *une hypothèse* (a hypothesis), an idea to test. The resea
 
 <Example fr="L'équipe a mené une étude sur un échantillon de mille personnes." en="The team carried out a study on a sample of a thousand people." />
 
-**Une expérience** is a false friend in this context: in a laboratory, it's an experiment. You know *l'expérience* as professional experience from <LessonLink id="b1-careers-and-job-hunting" text="the lesson on careers and job hunting" />. You *fait une expérience* (do an experiment), but you *a de l'expérience* (have experience).
+**Une expérience** is a false friend in this context: in a laboratory, it's an experiment. You know *l'expérience* as professional experience from <LessonLink id="b1-careers-and-job-hunting" text="the lesson on careers and job hunting" />. You do an experiment, *faire une expérience*, but you have experience, *avoir de l'expérience*.
 
 ## Results
 
@@ -153,7 +153,7 @@ Research starts with *une hypothèse* (a hypothesis), an idea to test. The resea
 
 <Example fr="Cette découverte est protégée par un brevet." en="This discovery is protected by a patent." />
 
-Science news uses the passive a lot, because the result matters more than the team: *l'étude a été menée*, *les résultats ont été publiés*. It also uses the conditionnel for results that aren't confirmed: *ce traitement aiderait les malades*.
+Science news uses the passive a lot, because the result matters more than the team: *l'étude a été menée*, *les résultats ont été publiés*. It also uses the conditionnel, which you know from <LessonLink id="b2-conditionnel-passe" text="the lesson on the conditionnel passé" />, for results that aren't confirmed: *ce traitement aiderait les malades*.
 
 ## Medicine
 
@@ -229,7 +229,7 @@ id: "b2-health-system"
 title: "Health and the health system"
 description: "Understand how healthcare is organized and paid for in France (Sécurité sociale, mutuelle, médecin traitant, specialists) and talk about prevention and public-health debates."
 level: "B2"
-unit: "Science, health and environment"
+unit: "Science and health"
 order: 42
 type: "vocabulary"
 tags: ["health", "society", "vocabulary"]
@@ -241,22 +241,22 @@ vocab:
   - { id: "b2-health-system-v003", group: "system", fr: "une mutuelle", pron: "ewn mew-TWEL", en: "top-up health insurance" }
   - { id: "b2-health-system-v004", group: "system", fr: "le reste à charge", pron: "luh res-tah SHARZH", en: "out-of-pocket costs (what the patient still pays)" }
   - { id: "b2-health-system-v005", group: "system", fr: "la prise en charge", pron: "lah pree-zahn SHARZH", en: "coverage; the care given to a patient" }
-  - { id: "b2-health-system-v006", group: "doctors", fr: "un généraliste", pron: "uhn zhay-nay-rah-LEEST", en: "a GP, a general practitioner" }
-  - { id: "b2-health-system-v007", group: "doctors", fr: "un spécialiste", pron: "uhn spay-syah-LEEST", en: "a specialist" }
-  - { id: "b2-health-system-v008", group: "doctors", fr: "les urgences", pron: "lay-zewr-ZHAHNSS", en: "A&E, the emergency department" }
-  - { id: "b2-health-system-v009", group: "doctors", fr: "une clinique", pron: "ewn klee-NEEK", en: "a private hospital", note: "False friend: not a GP's surgery." }
-  - { id: "b2-health-system-v010", group: "doctors", fr: "le personnel soignant", pron: "luh pehr-soh-nel swah-NYAHN", en: "healthcare staff (nurses, carers)" }
-  - { id: "b2-health-system-v011", group: "doctors", fr: "soigner", pron: "swah-NYAY", en: "to treat, to care for" }
-  - { id: "b2-health-system-v012", group: "doctors", fr: "un arrêt maladie", pron: "uh-nah-reh mah-lah-DEE", en: "sick leave, a sick note" }
-  - { id: "b2-health-system-v013", group: "prevention", fr: "une maladie / une maladie chronique", pron: "ewn mah-lah-DEE / ewn mah-lah-dee kroh-NEEK", en: "an illness / a chronic illness" }
-  - { id: "b2-health-system-v014", group: "prevention", fr: "la prévention", pron: "lah pray-vahn-SYOHN", en: "prevention" }
-  - { id: "b2-health-system-v015", group: "prevention", fr: "le dépistage", pron: "luh day-pees-TAHZH", en: "screening" }
-  - { id: "b2-health-system-v016", group: "prevention", fr: "une campagne de vaccination", pron: "ewn kahn-pah-nyuh duh vak-see-nah-SYOHN", en: "a vaccination campaign" }
-  - { id: "b2-health-system-v017", group: "prevention", fr: "se faire vacciner", pron: "suh fehr vak-see-NAY", en: "to get vaccinated" }
-  - { id: "b2-health-system-v018", group: "debates", fr: "un désert médical", pron: "uhn day-zehr may-dee-KAHL", en: "an area with too few doctors" }
-  - { id: "b2-health-system-v019", group: "debates", fr: "un délai d'attente", pron: "uhn day-leh dah-TAHNT", en: "a waiting time" }
-  - { id: "b2-health-system-v020", group: "system", fr: "un adulte / une adulte", pron: "uh-nah-DEWLT / ew-nah-DEWLT", en: "an adult" }
-  - { id: "b2-health-system-v021", group: "doctors", fr: "passer par", pron: "pah-say PAR", en: "to go through (a person or a step)" }
+  - { id: "b2-health-system-v006", group: "system", fr: "un adulte / une adulte", pron: "uh-nah-DEWLT / ew-nah-DEWLT", en: "an adult" }
+  - { id: "b2-health-system-v007", group: "doctors", fr: "un généraliste", pron: "uhn zhay-nay-rah-LEEST", en: "a GP, a general practitioner" }
+  - { id: "b2-health-system-v008", group: "doctors", fr: "un spécialiste", pron: "uhn spay-syah-LEEST", en: "a specialist" }
+  - { id: "b2-health-system-v009", group: "doctors", fr: "les urgences", pron: "lay-zewr-ZHAHNSS", en: "A&E, the emergency department" }
+  - { id: "b2-health-system-v010", group: "doctors", fr: "une clinique", pron: "ewn klee-NEEK", en: "a private hospital", note: "False friend: not a GP's surgery." }
+  - { id: "b2-health-system-v011", group: "doctors", fr: "le personnel soignant", pron: "luh pehr-soh-nel swah-NYAHN", en: "healthcare staff (nurses, carers)" }
+  - { id: "b2-health-system-v012", group: "doctors", fr: "soigner", pron: "swah-NYAY", en: "to treat, to care for" }
+  - { id: "b2-health-system-v013", group: "doctors", fr: "un arrêt maladie", pron: "uh-nah-reh mah-lah-DEE", en: "sick leave, a sick note" }
+  - { id: "b2-health-system-v014", group: "doctors", fr: "passer par", pron: "pah-say PAR", en: "to go through (a person or a step)" }
+  - { id: "b2-health-system-v015", group: "prevention", fr: "une maladie / une maladie chronique", pron: "ewn mah-lah-DEE / ewn mah-lah-dee kroh-NEEK", en: "an illness / a chronic illness" }
+  - { id: "b2-health-system-v016", group: "prevention", fr: "la prévention", pron: "lah pray-vahn-SYOHN", en: "prevention" }
+  - { id: "b2-health-system-v017", group: "prevention", fr: "le dépistage", pron: "luh day-pees-TAHZH", en: "screening" }
+  - { id: "b2-health-system-v018", group: "prevention", fr: "une campagne de vaccination", pron: "ewn kahn-pah-nyuh duh vak-see-nah-SYOHN", en: "a vaccination campaign" }
+  - { id: "b2-health-system-v019", group: "prevention", fr: "se faire vacciner", pron: "suh fehr vak-see-NAY", en: "to get vaccinated" }
+  - { id: "b2-health-system-v020", group: "debates", fr: "un désert médical", pron: "uhn day-zehr may-dee-KAHL", en: "an area with too few doctors" }
+  - { id: "b2-health-system-v021", group: "debates", fr: "un délai d'attente", pron: "uhn day-leh dah-TAHNT", en: "a waiting time" }
 exercises:
   - id: "b2-health-system-ex001"
     type: "fill-in"
@@ -326,11 +326,11 @@ exercises:
   - id: "b2-health-system-ex013"
     type: "translate"
     prompt: "Traduisez avec « traitement » : Prevention costs less than treatment."
-    answers: ["La prévention coûte moins cher que le traitement", "La prévention coûte moins cher que les traitements"]
+    answers: ["La prévention coûte moins cher que le traitement", "La prévention coûte moins cher que les traitements", "La prévention coûte moins que le traitement"]
     explanation: "Coûter moins cher que: to cost less than."
   - id: "b2-health-system-ex014"
     type: "translate"
-    prompt: "Rédigez en complétant comme indiqué : En France, chaque adulte choisit (a GP: médecin traitant). (State health insurance) rembourse une partie de la consultation, et (top-up insurance) paie souvent le reste."
+    prompt: "Rédigez en complétant comme indiqué : En France, chaque adulte choisit (a GP: médecin traitant). (State health insurance: la Sécurité sociale) rembourse une partie de la consultation, et (top-up insurance: la mutuelle) paie souvent le reste."
     answers: ["En France, chaque adulte choisit un médecin traitant. La Sécurité sociale rembourse une partie de la consultation, et la mutuelle paie souvent le reste."]
     explanation: "The three parts of the system: the médecin traitant, the Sécurité sociale and the mutuelle."
   - id: "b2-health-system-ex015"
@@ -427,7 +427,7 @@ Sarah has just arrived in France for work. She asks her colleague, Monsieur Mart
 
 ## En résumé
 
-En France, chaque adulte choisit un médecin traitant, en général un généraliste. Quand on passe par lui avant de voir un spécialiste, on est mieux remboursé. Une consultation est payée en partie par la Sécurité sociale. La mutuelle paie souvent le reste, et ce qui reste au patient s'appelle le reste à charge. Pour un problème grave, on va aux urgences. Attention : on ne va pas voir son généraliste dans une clinique, qui est en général un hôpital qui n'est pas public. La santé publique repose aussi sur la prévention, avec le dépistage et les campagnes de vaccination. Parmi les débats, on parle souvent des déserts médicaux, où il y a trop peu de médecins, et des délais d'attente.
+En France, chaque adulte choisit un médecin traitant, en général un généraliste. Quand on passe par lui avant de voir un spécialiste, on est mieux remboursé. Une consultation est payée en partie par la Sécurité sociale. La mutuelle paie souvent le reste, et ce qui reste au patient s'appelle le reste à charge. Pour un problème grave, on va aux urgences. Attention : on ne va pas voir son généraliste dans une clinique : une clinique est en général un hôpital privé. La santé publique repose aussi sur la prévention, avec le dépistage et les campagnes de vaccination. Parmi les débats, on parle souvent des déserts médicaux, où il y a trop peu de médecins, et des délais d'attente.
 
 ## What's next
 
@@ -440,7 +440,7 @@ id: "b2-certainty-and-probability"
 title: "Certainty and probability"
 description: "Say how sure you are, from certain to unlikely, with the right mood: il est probable qu'il viendra, il se peut qu'il vienne. Add sans doute, epistemic devoir (il doit être malade) and le fait que + subjunctive."
 level: "B2"
-unit: "Science, health and environment"
+unit: "Science and health"
 order: 43
 type: "grammar"
 tags: ["subjunctive", "probability", "grammar", "science"]
@@ -534,7 +534,7 @@ exercises:
     strictAccents: true
   - id: "b2-certainty-and-probability-ex014"
     type: "translate"
-    prompt: "Rédigez en complétant comme indiqué : (It's certain that) les prix (will rise: augmenter, futur). (It's possible that) le marché (is: être) plus calme en juin. (It's unlikely that) les entreprises (can: pouvoir) embaucher beaucoup."
+    prompt: "Rédigez en complétant comme indiqué : (It's certain that) les prix (will rise: augmenter, futur). (It's possible that) le marché (is: être) plus calme en juin. (It's unlikely that: peu probable) les entreprises (can: pouvoir) embaucher beaucoup."
     answers: ["Il est certain que les prix augmenteront. Il est possible que le marché soit plus calme en juin. Il est peu probable que les entreprises puissent embaucher beaucoup.", "Il est clair que les prix augmenteront. Il est possible que le marché soit plus calme en juin. Il est peu probable que les entreprises puissent embaucher beaucoup.", "Il est certain que les prix augmenteront. Il se peut que le marché soit plus calme en juin. Il est peu probable que les entreprises puissent embaucher beaucoup.", "Il est clair que les prix augmenteront. Il se peut que le marché soit plus calme en juin. Il est peu probable que les entreprises puissent embaucher beaucoup."]
     explanation: "Indicative after il est certain (or clair) que, subjunctive after il est possible que (or il se peut que) and il est peu probable que."
   - id: "b2-certainty-and-probability-ex015"
@@ -681,7 +681,7 @@ id: "b2-argumentative-essay"
 title: "Writing an argumentative essay"
 description: "Write a structured French essay: la problématique, annoncer le plan, thèse, antithèse, synthèse, a conclusion with an ouverture, and essay phrases such as force est de constater que."
 level: "B2"
-unit: "Science, health and environment"
+unit: "Science and health"
 order: 44
 type: "communication"
 tags: ["writing", "essay", "argument"]
@@ -700,21 +700,21 @@ vocab:
   - { id: "b2-argumentative-essay-v010", group: "intro", fr: "on peut se demander si", pron: "ohn puh suh duh-mahn-DAY see", en: "one may wonder whether" }
   - { id: "b2-argumentative-essay-v011", group: "intro", fr: "annoncer le plan", pron: "ah-nohn-say luh PLAHN", en: "to announce the outline" }
   - { id: "b2-argumentative-essay-v012", group: "intro", fr: "dans un premier temps", pron: "dahn-zuhn pruh-myay TAHN", en: "first, in a first part" }
-  - { id: "b2-argumentative-essay-v013", group: "intro", fr: "dans un second temps", pron: "dahn-zuhn suh-gohn TAHN", en: "second, in a second part", note: "The c of second sounds like g." }
-  - { id: "b2-argumentative-essay-v014", group: "phrases", fr: "force est de constater que", pron: "forss eh duh kohn-stah-TAY kuh", en: "one has to admit that", note: "+ indicative. Formal." }
-  - { id: "b2-argumentative-essay-v015", group: "phrases", fr: "il s'agit de", pron: "eel sah-ZHEE duh", en: "it's a matter of, it's about", note: "Impersonal: only il. + noun or infinitive." }
-  - { id: "b2-argumentative-essay-v016", group: "phrases", fr: "étayer", pron: "ay-teh-YAY", en: "to support (an argument)" }
-  - { id: "b2-argumentative-essay-v017", group: "phrases", fr: "un exemple concret", pron: "uh-neg-zahm-pluh kohn-KREH", en: "a concrete example" }
-  - { id: "b2-argumentative-essay-v018", group: "conclusion", fr: "en guise de conclusion", pron: "ahn geez duh kohn-klew-ZYOHN", en: "by way of conclusion" }
-  - { id: "b2-argumentative-essay-v019", group: "conclusion", fr: "une ouverture", pron: "ew-noo-vehr-TEWR", en: "a final opening onto a wider question", note: "New meaning: in b2-nominalisation, l'ouverture is the opening of a shop or a border." }
-  - { id: "b2-argumentative-essay-v020", group: "glossary", fr: "partout", pron: "par-TOO", en: "everywhere" }
-  - { id: "b2-argumentative-essay-v021", group: "glossary", fr: "une limite", pron: "ewn lee-MEET", en: "a limit, a weakness" }
-  - { id: "b2-argumentative-essay-v022", group: "glossary", fr: "encadrer", pron: "ahn-kah-DRAY", en: "to regulate, to supervise" }
-  - { id: "b2-argumentative-essay-v023", group: "glossary", fr: "le numérique", pron: "luh new-may-REEK", en: "digital technology", note: "Also an adjective: un outil numérique (a digital tool)." }
-  - { id: "b2-argumentative-essay-v024", group: "glossary", fr: "un enseignant / une enseignante", pron: "uh-nahn-seh-NYAHN / ew-nahn-seh-NYAHNT", en: "a teacher" }
-  - { id: "b2-argumentative-essay-v025", group: "glossary", fr: "autoriser", pron: "oh-toh-ree-ZAY", en: "to allow" }
-  - { id: "b2-argumentative-essay-v026", group: "glossary", fr: "un équilibre", pron: "uh-nay-kee-LEE-bruh", en: "a balance" }
-  - { id: "b2-argumentative-essay-v027", group: "intro", fr: "dans un troisième temps", pron: "dahn-zuhn troh-zyem TAHN", en: "third, in a third part", note: "For a plan in three parts, such as thesis, antithesis, synthesis. Some writers then say dans un deuxième temps for the second part." }
+  - { id: "b2-argumentative-essay-v013", group: "intro", fr: "dans un second temps", pron: "dahn-zuhn suh-gohn TAHN", en: "second, in a second part", note: "The c of second sounds like g. Keep second for a plan in two parts; with three parts, say dans un deuxième temps." }
+  - { id: "b2-argumentative-essay-v014", group: "intro", fr: "dans un troisième temps", pron: "dahn-zuhn troh-zyem TAHN", en: "third, in a third part", note: "For a plan in three parts: dans un premier temps, dans un deuxième temps, dans un troisième temps." }
+  - { id: "b2-argumentative-essay-v015", group: "phrases", fr: "force est de constater que", pron: "forss eh duh kohn-stah-TAY kuh", en: "one has to admit that", note: "+ indicative. Formal." }
+  - { id: "b2-argumentative-essay-v016", group: "phrases", fr: "il s'agit de", pron: "eel sah-ZHEE duh", en: "it's a matter of, it's about", note: "Impersonal: only il. + noun or infinitive." }
+  - { id: "b2-argumentative-essay-v017", group: "phrases", fr: "étayer", pron: "ay-teh-YAY", en: "to support (an argument)" }
+  - { id: "b2-argumentative-essay-v018", group: "phrases", fr: "un exemple concret", pron: "uh-neg-zahm-pluh kohn-KREH", en: "a concrete example" }
+  - { id: "b2-argumentative-essay-v019", group: "conclusion", fr: "en guise de conclusion", pron: "ahn geez duh kohn-klew-ZYOHN", en: "by way of conclusion" }
+  - { id: "b2-argumentative-essay-v020", group: "conclusion", fr: "une ouverture", pron: "ew-noo-vehr-TEWR", en: "a final opening onto a wider question", note: "New meaning: in b2-nominalisation, l'ouverture is the opening of a shop or a border." }
+  - { id: "b2-argumentative-essay-v021", group: "glossary", fr: "partout", pron: "par-TOO", en: "everywhere" }
+  - { id: "b2-argumentative-essay-v022", group: "glossary", fr: "une limite", pron: "ewn lee-MEET", en: "a limit, a weakness" }
+  - { id: "b2-argumentative-essay-v023", group: "glossary", fr: "encadrer", pron: "ahn-kah-DRAY", en: "to regulate, to supervise" }
+  - { id: "b2-argumentative-essay-v024", group: "glossary", fr: "le numérique", pron: "luh new-may-REEK", en: "digital technology", note: "Also an adjective: un outil numérique (a digital tool)." }
+  - { id: "b2-argumentative-essay-v025", group: "glossary", fr: "un enseignant / une enseignante", pron: "uh-nahn-seh-NYAHN / ew-nahn-seh-NYAHNT", en: "a teacher" }
+  - { id: "b2-argumentative-essay-v026", group: "glossary", fr: "autoriser", pron: "oh-toh-ree-ZAY", en: "to allow" }
+  - { id: "b2-argumentative-essay-v027", group: "glossary", fr: "un équilibre", pron: "uh-nay-kee-LEE-bruh", en: "a balance" }
 exercises:
   - id: "b2-argumentative-essay-ex001"
     type: "multiple-choice"
@@ -838,7 +838,7 @@ The problématique is often an indirect question with *on peut se demander si*. 
 
 <Example fr="On peut donc se demander si l'école doit interdire les écrans ou apprendre aux élèves à s'en servir." en="One may therefore wonder whether school should ban screens or teach pupils to use them." />
 
-The plan is announced with *dans un premier temps* and *dans un second temps*, and the verbs are in the futur simple. For a third part, such as the synthesis, add *dans un troisième temps*: *dans un troisième temps, nous proposerons une solution* (third, we'll suggest a solution).
+The plan is announced with *dans un premier temps* and *dans un second temps*, and the verbs are in the futur simple. For a plan in three parts, such as thesis, antithesis and synthesis, say *dans un deuxième temps* for the second part and add *dans un troisième temps*: *dans un troisième temps, nous proposerons une solution* (third, we'll suggest a solution).
 
 <Example fr="Dans un premier temps, nous verrons les avantages des écrans. Dans un second temps, nous montrerons leurs limites." en="First, we'll look at the advantages of screens. Second, we'll show their limits." />
 
@@ -867,7 +867,7 @@ The conclusion has two moves. First, sum up the answer to the problématique in 
 
 ## Nominal style
 
-An essay often uses nouns where speech uses verbs. As in <LessonLink id="b2-nominalisation" text="the lesson on nominalisation" />, turn the verb into a noun. Instead of *on interdit les écrans* (screens are banned), write *l'interdiction des écrans* (the ban on screens). Instead of *les élèves se concentrent moins*, write *la concentration des élèves baisse* (pupils' concentration falls). One or two such nouns per paragraph are enough; too many make the text heavy.
+An essay often uses nouns where speech uses verbs. As in <LessonLink id="b2-nominalisation" text="the lesson on nominalisation" />, turn the verb into a noun. Instead of *on interdit les écrans* (screens are banned), write *l'interdiction des écrans* (the ban on screens). Instead of *les élèves se concentrent moins*, write *la baisse de la concentration des élèves* (the fall in pupils' concentration). One or two such nouns per paragraph are enough; too many make the text heavy.
 
 ## En français
 
@@ -878,7 +878,7 @@ Inès and Tom, two students, plan their essay together.
 - *Alors : on peut se demander si l'école doit interdire les écrans ou apprendre aux élèves à s'en servir.* (So: one may wonder whether school should ban screens or teach pupils to use them.)
 - *Très bien. Pour le plan, on fait thèse, antithèse, synthèse ?* (Very good. For the outline, shall we do thesis, antithesis, synthesis?)
 - *Oui. Dans un premier temps, les arguments pour l'interdiction.* (Yes. First, the arguments for the ban.)
-- *Et dans un second temps, ses limites. Mais il faut un exemple concret pour étayer chaque argument.* (And second, its limits. But we need a concrete example to support each argument.)
+- *Et dans un deuxième temps, ses limites. Mais il faut un exemple concret pour étayer chaque argument.* (And second, its limits. But we need a concrete example to support each argument.)
 - *Pour la thèse, les messages pendant les cours. Pour l'antithèse, les outils numériques qui aident les élèves les plus faibles.* (For the thesis, messages during lessons. For the antithesis, the digital tools that help the weakest pupils.)
 - *Et la synthèse ? Il s'agit de trouver un équilibre.* (And the synthesis? It's a matter of finding a balance.)
 - *Un usage encadré : les tablettes en cours, mais pas pendant les examens.* (Regulated use: tablets in lessons, but not during exams.)
@@ -891,7 +891,7 @@ This is a short model essay on the subject Inès and Tom planned. It follows the
 
 *Faut-il interdire les écrans à l'école ?*
 
-*Les écrans sont aujourd'hui partout dans la vie des élèves. Certains parents demandent leur interdiction à l'école, d'autres les trouvent indispensables. On peut donc se demander si l'école doit interdire les écrans ou apprendre aux élèves à s'en servir. Dans un premier temps, nous verrons les arguments pour l'interdiction. Dans un second temps, nous montrerons ses limites. Dans un troisième temps, nous proposerons un usage encadré.*
+*Les écrans sont aujourd'hui partout dans la vie des élèves. Certains parents demandent leur interdiction à l'école, d'autres les trouvent indispensables. On peut donc se demander si l'école doit interdire les écrans ou apprendre aux élèves à s'en servir. Dans un premier temps, nous verrons les arguments pour l'interdiction. Dans un deuxième temps, nous montrerons ses limites. Dans un troisième temps, nous proposerons un usage encadré.*
 
 *Force est de constater que les écrans gênent souvent la concentration. En effet, un élève qui lit ses messages pendant un cours écoute moins bien l'enseignant. De plus, le temps passé devant un écran réduit le temps de lecture et de sommeil.*
 
@@ -915,16 +915,16 @@ This is a short model essay on the subject Inès and Tom planned. It follows the
 
 ## What's next
 
-Next, <LessonLink id="b2-review-science" text="the review of science, health and environment" /> asks you to write your own essay on a science or health topic. Later, <LessonLink id="b2-debating" text="the lesson on debating" /> turns these arguments into speech.
+Next, <LessonLink id="b2-review-science" text="the review of science and health" /> asks you to write your own essay on a science or health topic. Later, <LessonLink id="b2-debating" text="the lesson on debating" /> turns these arguments into speech.
 
 === b2-review-science ===
 
 ---
 id: "b2-review-science"
-title: "Review: Science, health and environment"
+title: "Review: Science and health"
 description: "Bring the unit together in a short argumentative essay on a health topic: research and health vocabulary, the probability scale, le fait que, and the dissertation plan."
 level: "B2"
-unit: "Science, health and environment"
+unit: "Science and health"
 order: 45
 type: "review"
 tags: ["review", "science", "health", "writing", "essay"]
@@ -1063,7 +1063,7 @@ This is a short model essay on a public-health question. It follows the dialecti
 
 *La prévention doit-elle être obligatoire ?*
 
-*La prévention est aujourd'hui un enjeu de santé publique. Le dépistage et les campagnes de vaccination permettent de trouver ou d'éviter certaines maladies. Pourtant, il y a souvent une controverse quand une mesure devient obligatoire. On peut donc se demander si la prévention doit être obligatoire ou rester un choix. Dans un premier temps, nous verrons les arguments pour une prévention obligatoire. Dans un second temps, nous montrerons ses limites.*
+*La prévention est aujourd'hui un enjeu de santé publique. Le dépistage et les campagnes de vaccination permettent de trouver ou d'éviter certaines maladies. Pourtant, il y a souvent une controverse quand une mesure devient obligatoire. On peut donc se demander si la prévention doit être obligatoire ou rester un choix. Dans un premier temps, nous verrons les arguments pour une prévention obligatoire. Dans un deuxième temps, nous montrerons ses limites. Dans un troisième temps, nous chercherons un équilibre.*
 
 *Force est de constater que la prévention protège aussi les autres. En effet, le fait que beaucoup de personnes se fassent vacciner protège ceux qui ne peuvent pas se faire vacciner. De plus, le principe de précaution demande d'agir avant qu'il soit trop tard.*
 
@@ -1073,11 +1073,11 @@ This is a short model essay on a public-health question. It follows the dialecti
 
 *En guise de conclusion, la prévention obligatoire peut protéger la santé de tous, mais elle ne peut pas réussir sans la confiance des citoyens. On peut alors se demander comment l'école pourrait apprendre aux jeunes à protéger leur santé.*
 
-(Should prevention be compulsory? Prevention is a public-health issue today. Screening and vaccination campaigns make it possible to find or avoid some illnesses. Yet there is often a controversy when a measure becomes compulsory. One may therefore wonder whether prevention should be compulsory or remain a choice. First, we'll look at the arguments for compulsory prevention. Second, we'll show its limits. One has to admit that prevention also protects others. Indeed, the fact that many people get vaccinated protects those who can't get vaccinated. Moreover, the precautionary principle asks us to act before it's too late. However, with a compulsory measure, everyone loses part of their freedom. Furthermore, it's unlikely that a compulsory measure will be well accepted by those who have doubts. So it's a matter of finding a balance. A compulsory measure may be necessary for some illnesses, provided that an ethics committee has given its opinion before the decision. For the others, information and trust seem more important. By way of conclusion, compulsory prevention can protect everyone's health, but it can't succeed without citizens' trust. One may then wonder how school could teach young people to protect their health.)
+(Should prevention be compulsory? Prevention is a public-health issue today. Screening and vaccination campaigns make it possible to find or avoid some illnesses. Yet there is often a controversy when a measure becomes compulsory. One may therefore wonder whether prevention should be compulsory or remain a choice. First, we'll look at the arguments for compulsory prevention. Second, we'll show its limits. Third, we'll look for a balance. One has to admit that prevention also protects others. Indeed, the fact that many people get vaccinated protects those who can't get vaccinated. Moreover, the precautionary principle asks us to act before it's too late. However, with a compulsory measure, everyone loses part of their freedom. Furthermore, it's unlikely that a compulsory measure will be well accepted by those who have doubts. So it's a matter of finding a balance. A compulsory measure may be necessary for some illnesses, provided that an ethics committee has given its opinion before the decision. For the others, information and trust seem more important. By way of conclusion, compulsory prevention can protect everyone's health, but it can't succeed without citizens' trust. One may then wonder how school could teach young people to protect their health.)
 
 ## How the text uses the grammar
 
-- The introduction has the three moves of a dissertation: a general opening, the problématique with *on peut se demander si*, and the plan with *dans un premier temps* and *dans un second temps*.
+- The introduction has the three moves of a dissertation: a general opening, the problématique with *on peut se demander si*, and the three-part plan with *dans un premier temps*, *dans un deuxième temps* and *dans un troisième temps*.
 - The thesis starts with *force est de constater que* + indicative and gives a concrete example.
 - The phrase *le fait que* takes the subjunctive (*se fassent vacciner*), and *se faire vacciner* is the causative you know.
 - The conjunctions *avant que* and *à condition que* take the subjunctive (*soit*), as you learned in <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on subjunctive conjunctions" />; *ait donné* is the past subjunctive from <LessonLink id="b2-subjonctif-passe" text="the lesson on the past subjunctive" />.

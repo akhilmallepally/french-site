@@ -57,13 +57,13 @@ From docs/syllabus.md. One line per lesson: order, id, title, type. Order update
 - 39 · b2-formal-report · Writing a report · communication
 - 40 · b2-review-work · Review: Work and the economy · review
 
-## Unit 6: Science, health and environment
+## Unit 6: Science and health
 
 - 41 · b2-science-and-research · Science and research · vocabulary
 - 42 · b2-health-system · Health and the health system · vocabulary
 - 43 · b2-certainty-and-probability · Certainty and probability · grammar
 - 44 · b2-argumentative-essay · Writing an argumentative essay · communication
-- 45 · b2-review-science · Review: Science, health and environment · review
+- 45 · b2-review-science · Review: Science and health · review
 
 ## Unit 7: Culture and the arts
 

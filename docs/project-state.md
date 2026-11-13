@@ -83,6 +83,7 @@ audit:content also has B2 rows: lengths, En résumé, the exercise mix, A1 to B1
 
 ## 6. Status
 - **Levels written:** A1 (49 lessons), A2 (56), B1 (59) and B2 (59 lessons in 8 units) are written. B2 is planned in docs/plans/b2/ and logged in docs/b2-writing-log.md. C1 isn't started.
+- **C1 link to restore:** b2-review-final ends with plain text about the passé simple; once c1-passe-simple exists, turn it back into a LessonLink.
 - **Next stage:** write the C1 conventions in CLAUDE.md (and the checks behind them), then plan C1 unit by unit, as for B2.
 - **Last commit:** e7db04a, "Write B2 Unit 8" (local). Check `git status` for what has been pushed.
 - **Not committed:** the B2 wrap-up (scripts/b2-wrapup.ts, docs/b2-wrapup.md, docs/b2-reviewer-brief.md, docs/b2-browser-test.md, docs/review/, and four small claim fixes).

@@ -1,4 +1,4 @@
-# B2 Unit 6 plan: Science, health and environment
+# B2 Unit 6 plan: Science and health
 
 Status: revised after the first plan review (docs/b2-plan-review.md: decisions applied). No lesson files written yet. Rules and size limits: CLAUDE.md, "B2 conventions"; see the note at the top of unit-1.md. Lesson numbers follow docs/syllabus.md.
 This unit has five lessons: b2-nominalisation moved to Unit 3 and b2-logical-connectors to Unit 1.
@@ -259,7 +259,7 @@ This unit has five lessons: b2-nominalisation moved to Unit 3 and b2-logical-con
   - "avoid *je* in a formal essay"
 - **Size:** teaching about 1,000; whole about 1,700 (the essay is about 250 words); vocab 17; 15 exercises.
 
-## 45. b2-review-science: Review: Science, health and environment
+## 45. b2-review-science: Review: Science and health
 
 - **Type:** review · **Order:** 45
 - **Goal:** write an argumentative essay on a science or health topic.

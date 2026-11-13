@@ -8124,13 +8124,13 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-science-and-research-ex002 | fill-in | Complétez : Les chercheurs ont étudié un ___ de mille personnes. | — | ["échantillon"] | false | Un échantillon: a sample.
 - b2-science-and-research-ex003 | fill-in | Complétez avec un verbe à l'infinitif : Cette équipe va ___ une étude sur le sommeil. | — | ["mener","faire"] | false | Mener une étude: to carry out a study. Faire une étude is also correct, but mener is more formal.
 - b2-science-and-research-ex004 | fill-in | Complétez : Le chercheur a fait une grande ___ : personne ne connaissait ce virus. | — | ["découverte","avancée"] | false | Une découverte: something found for the first time. Une avancée (a breakthrough) also fits.
-- b2-science-and-research-ex005 | fill-in | Complétez : Sans ___, les chercheurs ne peuvent pas continuer leur recherche. | — | ["financement"] | false | Le financement: the money that pays for research.
+- b2-science-and-research-ex005 | fill-in | Complétez avec « le financement » : Sans ___, les chercheurs ne peuvent pas continuer leur recherche. | — | ["financement"] | false | Le financement: the money that pays for research.
 - b2-science-and-research-ex006 | multiple-choice | Indiquez le sens de « une expérience » dans un laboratoire. | ["an experiment","life experience","a job"] | ["an experiment"] | false | In a laboratory, une expérience is an experiment.
 - b2-science-and-research-ex007 | multiple-choice | Indiquez le sens de : Elle fait de la recherche en biologie. | ["She does research in biology.","She's looking for a biology book.","She teaches biology."] | ["She does research in biology."] | false | Faire de la recherche: to do research.
 - b2-science-and-research-ex008 | multiple-choice | Indiquez le sens de « une revue scientifique ». | ["a scientific journal","a meeting of scientists","a TV programme"] | ["a scientific journal"] | false | Une revue scientifique publishes research articles.
 - b2-science-and-research-ex009 | multiple-choice | Choisissez le bon ordre pour une recherche. | ["hypothèse, expérience, résultats, publication","publication, hypothèse, résultats, expérience","résultats, publication, expérience, hypothèse"] | ["hypothèse, expérience, résultats, publication"] | false | Research starts with a hypothesis and ends with publication.
 - b2-science-and-research-ex010 | reformulation | Reformulez au passif : Les chercheurs ont mené l'étude en mars. | — | ["L'étude a été menée par les chercheurs en mars","L'étude a été menée en mars par les chercheurs"] | true | The passé composé passive: a été menée, agreeing with l'étude.
-- b2-science-and-research-ex011 | error-correction | Corrigez l'erreur de verbe : Hier, nous avons eu une expérience au laboratoire. | — | ["Hier, nous avons fait une expérience au laboratoire"] | false | An experiment is something you do: faire une expérience. Avoir de l'expérience means to be experienced.
+- b2-science-and-research-ex011 | error-correction | Corrigez l'erreur de verbe : Hier, nous avons eu une expérience au laboratoire. | — | ["Hier, nous avons fait une expérience au laboratoire","Hier, nous avons réalisé une expérience au laboratoire"] | false | An experiment is something you do: faire une expérience. Avoir de l'expérience means to be experienced.
 - b2-science-and-research-ex012 | translate | Traduisez avec « mener » : The researchers carried out a study. | — | ["Les chercheurs ont mené une étude","Les chercheuses ont mené une étude"] | false | Mener une étude in the passé composé.
 - b2-science-and-research-ex013 | translate | Traduisez : This result has not been proven. | — | ["Ce résultat n'a pas été prouvé","Ce résultat n'a pas été démontré"] | true | The passé composé passive in the negative: n'a pas été prouvé.
 - b2-science-and-research-ex014 | translate | Rédigez en complétant comme indiqué : Les chercheurs ont testé (a hypothesis). Ils ont (measured: mesurer) les résultats sur deux (samples). Enfin, ils (published: publier) leur étude dans (a scientific journal). | — | ["Les chercheurs ont testé une hypothèse. Ils ont mesuré les résultats sur deux échantillons. Enfin, ils ont publié leur étude dans une revue scientifique."] | false | The steps of a study: hypothesis, measurement, publication.
@@ -8147,6 +8147,7 @@ fr | pron | en | note
 - une mutuelle | ewn mew-TWEL | top-up health insurance | —
 - le reste à charge | luh res-tah SHARZH | out-of-pocket costs (what the patient still pays) | —
 - la prise en charge | lah pree-zahn SHARZH | coverage; the care given to a patient | —
+- un adulte / une adulte | uh-nah-DEWLT / ew-nah-DEWLT | an adult | —
 - un généraliste | uhn zhay-nay-rah-LEEST | a GP, a general practitioner | —
 - un spécialiste | uhn spay-syah-LEEST | a specialist | —
 - les urgences | lay-zewr-ZHAHNSS | A&E, the emergency department | —
@@ -8154,6 +8155,7 @@ fr | pron | en | note
 - le personnel soignant | luh pehr-soh-nel swah-NYAHN | healthcare staff (nurses, carers) | —
 - soigner | swah-NYAY | to treat, to care for | —
 - un arrêt maladie | uh-nah-reh mah-lah-DEE | sick leave, a sick note | —
+- passer par | pah-say PAR | to go through (a person or a step) | —
 - une maladie / une maladie chronique | ewn mah-lah-DEE / ewn mah-lah-dee kroh-NEEK | an illness / a chronic illness | —
 - la prévention | lah pray-vahn-SYOHN | prevention | —
 - le dépistage | luh day-pees-TAHZH | screening | —
@@ -8161,8 +8163,6 @@ fr | pron | en | note
 - se faire vacciner | suh fehr vak-see-NAY | to get vaccinated | —
 - un désert médical | uhn day-zehr may-dee-KAHL | an area with too few doctors | —
 - un délai d'attente | uhn day-leh dah-TAHNT | a waiting time | —
-- un adulte / une adulte | uh-nah-DEWLT / ew-nah-DEWLT | an adult | —
-- passer par | pah-say PAR | to go through (a person or a step) | —
 
 ### Exercises
 
@@ -8180,8 +8180,8 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-health-system-ex010 | reformulation | Reformulez au passif : La Sécurité sociale rembourse une partie de la consultation. | — | ["Une partie de la consultation est remboursée par la Sécurité sociale"] | false | The present passive: est remboursée, agreeing with une partie.
 - b2-health-system-ex011 | error-correction | Corrigez l'erreur : J'ai mal à la tête, je vais à la clinique voir mon généraliste. | — | ["J'ai mal à la tête, je vais chez mon généraliste","J'ai mal à la tête, je vais voir mon généraliste"] | true | Une clinique is a private hospital. You go chez your GP.
 - b2-health-system-ex012 | translate | Traduisez avec « devoir » et « généraliste » : I have to choose a GP. | — | ["Je dois choisir un généraliste"] | false | Devoir + infinitive.
-- b2-health-system-ex013 | translate | Traduisez avec « traitement » : Prevention costs less than treatment. | — | ["La prévention coûte moins cher que le traitement","La prévention coûte moins cher que les traitements"] | false | Coûter moins cher que: to cost less than.
-- b2-health-system-ex014 | translate | Rédigez en complétant comme indiqué : En France, chaque adulte choisit (a GP: médecin traitant). (State health insurance) rembourse une partie de la consultation, et (top-up insurance) paie souvent le reste. | — | ["En France, chaque adulte choisit un médecin traitant. La Sécurité sociale rembourse une partie de la consultation, et la mutuelle paie souvent le reste."] | false | The three parts of the system: the médecin traitant, the Sécurité sociale and the mutuelle.
+- b2-health-system-ex013 | translate | Traduisez avec « traitement » : Prevention costs less than treatment. | — | ["La prévention coûte moins cher que le traitement","La prévention coûte moins cher que les traitements","La prévention coûte moins que le traitement"] | false | Coûter moins cher que: to cost less than.
+- b2-health-system-ex014 | translate | Rédigez en complétant comme indiqué : En France, chaque adulte choisit (a GP: médecin traitant). (State health insurance: la Sécurité sociale) rembourse une partie de la consultation, et (top-up insurance: la mutuelle) paie souvent le reste. | — | ["En France, chaque adulte choisit un médecin traitant. La Sécurité sociale rembourse une partie de la consultation, et la mutuelle paie souvent le reste."] | false | The three parts of the system: the médecin traitant, the Sécurité sociale and the mutuelle.
 - b2-health-system-ex015 | reorder | Remettez dans l'ordre : I got vaccinated last week. | — | ["Je me suis fait vacciner la semaine dernière"] | false | Se faire + infinitive; fait doesn't agree.
 
 ## b2-certainty-and-probability
@@ -8223,7 +8223,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-certainty-and-probability-ex011 | register-shift | Transformez en registre courant, avec « peut-être que » : Il se peut qu'elle soit en retard. | — | ["Peut-être qu'elle est en retard","Peut-être qu'elle sera en retard"] | false | Peut-être que takes the indicative.
 - b2-certainty-and-probability-ex012 | translate | Traduisez : It's likely that it will rain. | — | ["Il est probable qu'il pleuvra","Il est probable qu'il va pleuvoir"] | false | Il est probable que + indicative.
 - b2-certainty-and-probability-ex013 | translate | Traduisez : He must have forgotten. | — | ["Il a dû oublier","Il aura oublié"] | true | Epistemic devoir in the passé composé, or the futur antérieur of supposition.
-- b2-certainty-and-probability-ex014 | translate | Rédigez en complétant comme indiqué : (It's certain that) les prix (will rise: augmenter, futur). (It's possible that) le marché (is: être) plus calme en juin. (It's unlikely that) les entreprises (can: pouvoir) embaucher beaucoup. | — | ["Il est certain que les prix augmenteront. Il est possible que le marché soit plus calme en juin. Il est peu probable que les entreprises puissent embaucher beaucoup.","Il est clair que les prix augmenteront. Il est possible que le marché soit plus calme en juin. Il est peu probable que les entreprises puissent embaucher beaucoup.","Il est certain que les prix augmenteront. Il se peut que le marché soit plus calme en juin. Il est peu probable que les entreprises puissent embaucher beaucoup.","Il est clair que les prix augmenteront. Il se peut que le marché soit plus calme en juin. Il est peu probable que les entreprises puissent embaucher beaucoup."] | false | Indicative after il est certain (or clair) que, subjunctive after il est possible que (or il se peut que) and il est peu probable que.
+- b2-certainty-and-probability-ex014 | translate | Rédigez en complétant comme indiqué : (It's certain that) les prix (will rise: augmenter, futur). (It's possible that) le marché (is: être) plus calme en juin. (It's unlikely that: peu probable) les entreprises (can: pouvoir) embaucher beaucoup. | — | ["Il est certain que les prix augmenteront. Il est possible que le marché soit plus calme en juin. Il est peu probable que les entreprises puissent embaucher beaucoup.","Il est clair que les prix augmenteront. Il est possible que le marché soit plus calme en juin. Il est peu probable que les entreprises puissent embaucher beaucoup.","Il est certain que les prix augmenteront. Il se peut que le marché soit plus calme en juin. Il est peu probable que les entreprises puissent embaucher beaucoup.","Il est clair que les prix augmenteront. Il se peut que le marché soit plus calme en juin. Il est peu probable que les entreprises puissent embaucher beaucoup."] | false | Indicative after il est certain (or clair) que, subjunctive after il est possible que (or il se peut que) and il est peu probable que.
 - b2-certainty-and-probability-ex015 | reorder | Remettez dans l'ordre : It may be that she's right. | — | ["Il se peut qu'elle ait raison"] | false | Il se peut que + subjunctive.
 
 ## b2-argumentative-essay
@@ -8244,7 +8244,8 @@ fr | pron | en | note
 - on peut se demander si | ohn puh suh duh-mahn-DAY see | one may wonder whether | —
 - annoncer le plan | ah-nohn-say luh PLAHN | to announce the outline | —
 - dans un premier temps | dahn-zuhn pruh-myay TAHN | first, in a first part | —
-- dans un second temps | dahn-zuhn suh-gohn TAHN | second, in a second part | The c of second sounds like g.
+- dans un second temps | dahn-zuhn suh-gohn TAHN | second, in a second part | The c of second sounds like g. Keep second for a plan in two parts; with three parts, say dans un deuxième temps.
+- dans un troisième temps | dahn-zuhn troh-zyem TAHN | third, in a third part | For a plan in three parts: dans un premier temps, dans un deuxième temps, dans un troisième temps.
 - force est de constater que | forss eh duh kohn-stah-TAY kuh | one has to admit that | + indicative. Formal.
 - il s'agit de | eel sah-ZHEE duh | it's a matter of, it's about | Impersonal: only il. + noun or infinitive.
 - étayer | ay-teh-YAY | to support (an argument) | —
@@ -8258,7 +8259,6 @@ fr | pron | en | note
 - un enseignant / une enseignante | uh-nahn-seh-NYAHN / ew-nahn-seh-NYAHNT | a teacher | —
 - autoriser | oh-toh-ree-ZAY | to allow | —
 - un équilibre | uh-nay-kee-LEE-bruh | a balance | —
-- dans un troisième temps | dahn-zuhn troh-zyem TAHN | third, in a third part | For a plan in three parts, such as thesis, antithesis, synthesis. Some writers then say dans un deuxième temps for the second part.
 
 ### Exercises
 
@@ -8377,6 +8377,7 @@ fr | pron | en | note
 - un empire | uh-nahn-PEER | an empire | —
 - un empereur | uh-nahn-PRUHR | an emperor | —
 - le Code civil | luh kod see-VEEL | the Civil Code (France's book of civil law) | —
+- prendre le pouvoir | prahn-druh luh poo-VWAHR | to take power | —
 - une guerre mondiale | ewn gehr mohn-DYAL | a world war | Une guerre: a war.
 - la Première Guerre mondiale | lah pruh-myehr gehr mohn-DYAL | the First World War | —
 - la Seconde Guerre mondiale | lah suh-gohnd gehr mohn-DYAL | the Second World War | —
@@ -8386,6 +8387,8 @@ fr | pron | en | note
 - la Résistance | lah ray-zees-TAHNSS | the Resistance | —
 - un résistant / une résistante | uhn ray-zees-TAHN / ewn ray-zees-TAHNT | a member of the Resistance | —
 - la Libération | lah lee-bay-rah-SYOHN | the Liberation (1944) | —
+- occuper | oh-kew-PAY | to occupy | —
+- libérer | lee-bay-RAY | to liberate, to free | —
 - un monument aux morts | uhn moh-new-mahn oh MOR | a war memorial | —
 - une commémoration | ewn koh-may-moh-rah-SYOHN | a commemoration | —
 - le devoir de mémoire | luh duh-vwahr duh may-MWAHR | the duty to remember | —
@@ -8398,11 +8401,8 @@ fr | pron | en | note
 - l'Union européenne | lew-nyohn uh-roh-pay-EN | the European Union | —
 - la paix | lah PEH | peace | —
 - un tournant historique | uhn toor-nahn ees-toh-REEK | a historic turning point | —
-- prendre le pouvoir | prahn-druh luh poo-VWAHR | to take power | —
-- l'armée | lar-MAY | the army | —
-- occuper | oh-kew-PAY | to occupy | —
-- libérer | lee-bay-RAY | to liberate, to free | —
 - se rapprocher | suh rah-proh-SHAY | to come closer together | —
+- l'armée | lar-MAY | the army | —
 - un pays voisin | uhn peh-ee vwah-ZAN | a neighbouring country | —
 
 ### Exercises
@@ -8461,7 +8461,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-adjective-position-meaning-ex007 | fill-in | Complétez avec « même » : Elle a répondu le jour ___. | — | ["même"] | false | After the noun, même means very: le jour même, that very day.
 - b2-adjective-position-meaning-ex008 | connector-choice | Choisissez la bonne réponse : Cette famille n'a qu'un enfant : elle a ___. | ["un seul enfant","un enfant seul"] | ["un seul enfant"] | false | Before the noun, seul means only one. Un enfant seul is a child on his own.
 - b2-adjective-position-meaning-ex009 | reformulation | Reformulez avec « ancien » : C'est mon ami d'avant. | — | ["C'est mon ancien ami"] | false | Before the noun, ancien means former.
-- b2-adjective-position-meaning-ex010 | reformulation | Reformulez avec l'adjectif après le nom : Ce restaurant, c'est cher. | — | ["C'est un restaurant cher"] | false | After the noun, cher means expensive.
+- b2-adjective-position-meaning-ex010 | reformulation | Reformulez avec « un restaurant » et l'adjectif après le nom : Ce restaurant, c'est cher. | — | ["C'est un restaurant cher","C'est un restaurant très cher"] | false | After the noun, cher means expensive.
 - b2-adjective-position-meaning-ex011 | error-correction | Corrigez l'erreur (my own car) : J'ai enfin ma voiture propre. | — | ["J'ai enfin ma propre voiture"] | false | Ma propre voiture is my own car; ma voiture propre is my clean car.
 - b2-adjective-position-meaning-ex012 | translate | Traduisez (a man) : my former teacher | — | ["mon ancien professeur","mon ancien enseignant"] | false | Before the noun, ancien means former.
 - b2-adjective-position-meaning-ex013 | translate | Traduisez : She's the only woman who came. | — | ["C'est la seule femme qui est venue","C'est la seule femme qui soit venue","Elle est la seule femme qui est venue","Elle est la seule femme qui soit venue"] | false | Before the noun, seule means only. After la seule, the subjunctive (soit venue) is the careful form.
@@ -8574,6 +8574,7 @@ fr | pron | en | note
 - une langue seconde | ewn lahng suh-GOHND | a second language | —
 - bilingue | bee-LANG | bilingual | —
 - le plurilinguisme | luh plew-ree-lan-GWEESM | multilingualism | —
+- le wolof | luh woh-LOF | Wolof, a national language of Senegal | —
 - le contact des langues | luh kohn-takt day LAHNG | language contact | —
 - un emprunt | uh-nahn-PRUHN | a loanword | Emprunter: to borrow.
 - un mélange | uhn may-LAHNZH | a mix | —
@@ -8583,14 +8584,13 @@ fr | pron | en | note
 - une essencerie | ew-neh-sahn-SREE | a petrol station (Senegal) | —
 - s'enjailler | sahn-zhah-YAY | to have fun (Côte d'Ivoire, informal) | —
 - un taxi-brousse | uhn tahk-see-BROOSS | a bush taxi, a shared taxi between towns | —
+- s'amuser | sah-mew-ZAY | to have fun (standard French) | —
 - la négritude | lah nay-gree-TEWD | négritude, a literary movement of black French-speaking writers | —
 - un griot / une griotte | uhn gree-YOH / ewn gree-YOT | a griot, a West African storyteller and musician | —
 - vivant / vivante | vee-VAHN / vee-VAHNT | living, alive | —
 - antillais / antillaise | ahn-tee-YEH / ahn-tee-YEZ | from the French Caribbean | —
 - une voix | ewn VWAH | a voice | —
 - s'enrichir | sahn-ree-SHEER | to become richer | —
-- s'amuser | sah-mew-ZAY | to have fun (standard French) | —
-- le wolof | luh woh-LOF | Wolof, a national language of Senegal | —
 
 ### Exercises
 
@@ -8608,7 +8608,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-culture-francophone-africa-ex010 | error-correction | Corrigez l'erreur (French isn't official there) : Au Maroc, le français est la seule langue officielle. | — | ["Au Maroc, le français n'est pas une langue officielle"] | false | In Morocco, French is widely used, but it isn't an official language.
 - b2-culture-francophone-africa-ex011 | translate | Traduisez : French is a second language for many Senegalese people. | — | ["Le français est une langue seconde pour beaucoup de Sénégalais"] | false | Une langue seconde: a language learned after the first one, used every day.
 - b2-culture-francophone-africa-ex012 | translate | Traduisez : In Cameroon, many people are bilingual. | — | ["Au Cameroun, beaucoup de gens sont bilingues","Au Cameroun, beaucoup de personnes sont bilingues"] | false | Au Cameroun (masculine country); bilingue takes an s in the plural.
-- b2-culture-francophone-africa-ex013 | translate | Rédigez en complétant comme indiqué : En Côte d'Ivoire, le français est (the official language). Les jeunes d'Abidjan parlent aussi (nouchi). Ce mélange de langues montre (language contact). | — | ["En Côte d'Ivoire, le français est la langue officielle. Les jeunes d'Abidjan parlent aussi le nouchi. Ce mélange de langues montre le contact des langues."] | false | La langue officielle, le nouchi with its article, and le contact des langues.
+- b2-culture-francophone-africa-ex013 | translate | Rédigez en complétant comme indiqué : En Côte d'Ivoire, le français est (the official language). Les jeunes d'Abidjan parlent aussi (nouchi). Ce mélange de langues montre (language contact). | — | ["En Côte d'Ivoire, le français est la langue officielle. Les jeunes d'Abidjan parlent aussi le nouchi. Ce mélange de langues montre le contact des langues.","En Côte d'Ivoire, le français est la langue officielle. Les jeunes d'Abidjan parlent aussi nouchi. Ce mélange de langues montre le contact des langues.","En Côte d'Ivoire, le français est une langue officielle. Les jeunes d'Abidjan parlent aussi le nouchi. Ce mélange de langues montre le contact des langues.","En Côte d'Ivoire, le français est une langue officielle. Les jeunes d'Abidjan parlent aussi nouchi. Ce mélange de langues montre le contact des langues."] | false | La langue officielle, le nouchi with its article, and le contact des langues.
 - b2-culture-francophone-africa-ex014 | reorder | Remettez dans l'ordre : The griot tells the history of the village. | — | ["Le griot raconte l'histoire du village"] | false | Raconter l'histoire de + a place.
 
 ## b2-review-arts
@@ -8632,15 +8632,15 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-review-arts-ex003 | fill-in | Complétez : Au premier ___, une femme marche dans la rue. | — | ["plan"] | false | Au premier plan: in the foreground.
 - b2-review-arts-ex004 | fill-in | Complétez : C'est une œuvre ___ : le peintre défend une idée politique. | — | ["engagée"] | false | Une œuvre engagée defends an idea; engagée agrees with œuvre.
 - b2-review-arts-ex005 | connector-choice | Choisissez le connecteur : Les couleurs sont sombres. ___, la lumière donne une impression de paix. | ["Pourtant","En effet","Par conséquent"] | ["Pourtant"] | false | Pourtant opposes the light to the dark colours.
-- b2-review-arts-ex006 | connector-choice | Choisissez le connecteur : Ce tableau a été peint en 1946. ___, le contexte historique est important. | ["Par conséquent","Pourtant","Tout à coup"] | ["Par conséquent"] | false | The date explains why the context matters: par conséquent.
+- b2-review-arts-ex006 | connector-choice | Choisissez le connecteur : Le contexte historique est important. ___, ce tableau a été peint en 1946, peu après la guerre. | ["En effet","Pourtant","Tout à coup"] | ["En effet"] | false | The second sentence explains the first: en effet.
 - b2-review-arts-ex007 | multiple-choice | Indiquez le sens de : Ce tableau fut peint en 1946. | ["This painting was painted in 1946.","This painting will be painted in 1946.","This painting is being painted in 1946."] | ["This painting was painted in 1946."] | false | Fut peint is the passé simple passive: il a été peint.
 - b2-review-arts-ex008 | reformulation | Reformulez au passé composé : Le tableau fut montré au public en 1947. | — | ["Le tableau a été montré au public en 1947"] | true | Fut montré becomes a été montré.
 - b2-review-arts-ex009 | reformulation | Reformulez avec « évoquer » : Ce tableau me fait penser à la Libération. | — | ["Ce tableau évoque la Libération"] | false | Évoquer turns a personal reaction into an interpretation.
-- b2-review-arts-ex010 | error-correction | Corrigez l'erreur (a boy and a girl) : Les deux enfants sont toutes les deux au premier plan. | — | ["Les deux enfants sont tous les deux au premier plan"] | false | With a boy and a girl, the masculine is used: tous les deux.
+- b2-review-arts-ex010 | error-correction | Corrigez l'erreur : Un garçon et une fille sont toutes les deux au premier plan. | — | ["Un garçon et une fille sont tous les deux au premier plan"] | false | With a boy and a girl, the masculine is used: tous les deux.
 - b2-review-arts-ex011 | register-shift | Mettez au registre soutenu, avec « intemporel » : Franchement, ce tableau, il est toujours aussi bien aujourd'hui. | — | ["Ce tableau est intemporel","Ce tableau semble intemporel","C'est un tableau intemporel"] | false | A critic says intemporel instead of the spoken toujours aussi bien.
 - b2-review-arts-ex012 | multiple-choice | Choisissez le mot : a legacy | ["un héritage","un contexte historique","une œuvre engagée"] | ["un héritage"] | false | Un héritage is what an artist or a period leaves to those who come after.
 - b2-review-arts-ex013 | translate | Traduisez au passé composé : This work left its mark on its time. | — | ["Cette œuvre a marqué son temps","Cette œuvre a marqué son époque"] | true | Marquer son temps: to leave a mark on its time.
-- b2-review-arts-ex014 | translate | Rédigez en complétant comme indiqué : (In the foreground), deux enfants jouent. (In the background), on voit (an old building). Il s'en dégage (an impression of) calme. | — | ["Au premier plan, deux enfants jouent. À l'arrière-plan, on voit un bâtiment ancien. Il s'en dégage une impression de calme."] | true | The space of the picture, ancien after the noun for old, and il s'en dégage.
+- b2-review-arts-ex014 | translate | Rédigez en complétant comme indiqué : (In the foreground), deux enfants jouent. (In the background), on voit (an old building: ancien). Il s'en dégage (an impression of) calme. | — | ["Au premier plan, deux enfants jouent. À l'arrière-plan, on voit un bâtiment ancien. Il s'en dégage une impression de calme.","Au premier plan, deux enfants jouent. À l'arrière-plan, on voit un vieux bâtiment. Il s'en dégage une impression de calme."] | true | The space of the picture, ancien after the noun for old, and il s'en dégage.
 - b2-review-arts-ex015 | translate | Rédigez en complétant comme indiqué : Ce tableau a été peint (shortly after: peu après) la Seconde Guerre mondiale. (The historical context) est important. C'est (a committed work). | — | ["Ce tableau a été peint peu après la Seconde Guerre mondiale. Le contexte historique est important. C'est une œuvre engagée."] | true | The date, the context, then the kind of work.
 - b2-review-arts-ex016 | reorder | Remettez dans l'ordre : This painting is a real masterpiece. | — | ["Ce tableau est un vrai chef-d'œuvre"] | false | Before the noun, vrai means real.
 
@@ -8661,7 +8661,7 @@ fr | pron | en | note
 - un bouquin | uhn boo-KAN | a book (familiar) | —
 - un ouvrage | uh-noo-VRAHZH | a book, a work (formal) | —
 - le boulot | luh boo-LOH | work, a job (familiar) | —
-- un emploi | uh-nahn-PLWAH | a job, employment (standard to formal) | —
+- un emploi | uh-nahn-PLWAH | a job, employment (standard) | —
 - bosser | boh-SAY | to work (familiar) | —
 - bouffer | boo-FAY | to eat (familiar) | —
 - se hâter | suh ah-TAY | to hurry (formal) | —
@@ -8732,7 +8732,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-colloquial-french-ex008 | register-shift | Mettez au registre courant : T'es où ? Y a personne ici. | — | ["Où est-ce que tu es ? Il n'y a personne ici.","Où es-tu ? Il n'y a personne ici.","Tu es où ? Il n'y a personne ici."] | true | Tu es in full, and il n'y a with ne. The question can use est-ce que or inversion.
 - b2-colloquial-french-ex009 | register-shift | Mettez au registre familier, sans « ne » : Je ne comprends pas ce que tu dis. | — | ["Je comprends pas ce que tu dis"] | false | Spoken French drops ne. Keep this for friends.
 - b2-colloquial-french-ex010 | reformulation | Reformulez au registre familier, avec « on » : Nous allons au cinéma ce soir. | — | ["On va au cinéma ce soir"] | false | In speech, on often replaces nous, with a third-person verb: on va.
-- b2-colloquial-french-ex011 | error-correction | Corrigez l'erreur de registre en remplaçant « du coup » par « donc » (a formal email) : Madame, du coup, je vous envoie le dossier. | — | ["Madame, je vous envoie donc le dossier"] | false | Du coup is spoken; in an email, donc goes after the verb.
+- b2-colloquial-french-ex011 | error-correction | Corrigez l'erreur de registre en remplaçant « du coup » par « donc » (a formal email) : Madame, du coup, je vous envoie le dossier. | — | ["Madame, je vous envoie donc le dossier","Madame, donc, je vous envoie le dossier"] | false | Du coup is spoken; in an email, donc goes after the verb.
 - b2-colloquial-french-ex012 | translate | Traduisez au registre familier, avec « chais pas » et « genre » : Dunno, it's sort of weird. | — | ["Chais pas, c'est genre bizarre","Chais pas, c'est bizarre, genre"] | false | Chais pas for je ne sais pas, and genre as a filler.
 - b2-colloquial-french-ex013 | translate | Traduisez au registre familier, avec « du coup » et « on » : So we left early. | — | ["Du coup, on est partis tôt","On est partis tôt, du coup","Du coup, on est parti tôt","On est parti tôt, du coup"] | false | On for nous; the participle can agree with the people meant (partis) or stay unchanged.
 - b2-colloquial-french-ex014 | translate | Rédigez ce message au registre familier en complétant comme indiqué : (Don't worry: t'inquiète), (we're coming: on, venir) à huit heures. (There's: reduced) un bus à sept heures et demie. | — | ["T'inquiète, on vient à huit heures. Y a un bus à sept heures et demie."] | true | T'inquiète, on for nous, and y a for il y a.
@@ -8748,12 +8748,15 @@ fr | pron | en | note
 - une expression argotique | ew-nek-spreh-syohn ar-goh-TEEK | a slang expression | —
 - le verlan | luh vehr-LAHN | verlan, slang made by swapping syllables | —
 - inverser les syllabes | an-vehr-say lay see-LAB | to swap the syllables | —
+- vieillir | vyeh-YEER | to get old, to age | —
 - ouf | OOF | crazy, amazing (from fou) | —
 - relou | ruh-LOO | annoying (from lourd) | —
 - chelou | shuh-LOO | weird, shady (from louche) | —
 - zarbi | zar-BEE | weird (from bizarre) | —
 - vénère | vay-NEHR | angry (from énervé) | —
 - une meuf | ewn MUHF | a woman, a girlfriend (from femme) | —
+- lourd / lourde | LOOR / LOORD | heavy; (of a person) annoying | —
+- louche | LOOSH | shady, suspicious | —
 - un mec | uhn MEK | a guy, a boyfriend | —
 - une nana | ewn nah-NAH | a woman, a girl | —
 - un pote | uhn POT | a mate, a friend | —
@@ -8767,10 +8770,7 @@ fr | pron | en | note
 - à l'envers | ah lahn-VEHR | back to front, the wrong way round | —
 - une banlieue | ewn bahn-LYUH | a suburb, the outskirts of a city | —
 - longtemps | lohn-TAHN | a long time | —
-- vieillir | vyeh-YEER | to get old, to age | —
 - démodé | day-moh-DAY | old-fashioned, out of date | —
-- lourd / lourde | LOOR / LOORD | heavy; (of a person) annoying | —
-- louche | LOOSH | shady, suspicious | —
 
 ### Exercises
 
@@ -8781,7 +8781,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-culture-verlan-and-slang-ex003 | multiple-choice | Choisissez le mot d'origine de « chelou ». | ["louche","chaud","cheval"] | ["louche"] | false | Louche (shady) gives chelou.
 - b2-culture-verlan-and-slang-ex004 | multiple-choice | Choisissez le mot d'origine de « vénère ». | ["énervé","venir","vendre"] | ["énervé"] | false | Énervé (annoyed, angry) gives vénère.
 - b2-culture-verlan-and-slang-ex005 | multiple-choice | Choisissez le mot d'origine de « zarbi ». | ["bizarre","bien","zéro"] | ["bizarre"] | false | Bi-zarre becomes zar-bi.
-- b2-culture-verlan-and-slang-ex006 | fill-in | Complétez avec le mot courant : Je suis crevé, c'est-à-dire très ___. | — | ["fatigué"] | false | Crevé is slang for très fatigué.
+- b2-culture-verlan-and-slang-ex006 | fill-in | Complétez avec le mot courant : Je suis crevé, c'est-à-dire très ___. | — | ["fatigué","épuisé"] | false | Crevé is slang for très fatigué.
 - b2-culture-verlan-and-slang-ex007 | fill-in | Complétez avec le mot courant : Il n'a plus de fric, c'est-à-dire plus d'___. | — | ["argent"] | false | Le fric and la thune are slang for l'argent.
 - b2-culture-verlan-and-slang-ex008 | fill-in | Complétez avec le mot courant : C'est mon pote, c'est-à-dire mon ___. | — | ["ami"] | false | Un pote is a familiar word for un ami.
 - b2-culture-verlan-and-slang-ex009 | register-shift | Mettez au registre courant, avec « c'est difficile » : J'ai pas de thune, c'est la galère. | — | ["Je n'ai pas d'argent, c'est difficile"] | false | Standard French keeps ne, says argent, and replaces c'est la galère.
@@ -8803,6 +8803,8 @@ fr | pron | en | note
 - avoir hâte de | ah-vwahr AHT duh | to look forward to, can't wait to | —
 - rude | REWD | harsh, tough | Not rude, which is impoli.
 - une déception | ewn day-sep-SYOHN | a disappointment | Not a deception, which is une tromperie.
+- dur / dure | DEWR | hard, harsh | —
+- impoli / impolie | an-poh-LEE | rude, impolite | —
 - assister à | ah-sees-TAY ah | to attend (an event) | Assister quelqu'un: to assist someone.
 - supporter | sew-por-TAY | to put up with, to bear | Also to support a team.
 - réaliser | ray-ah-lee-ZAY | to carry out, to make (a project, a film) | Informally also to realize; careful speakers prefer se rendre compte.
@@ -8815,8 +8817,6 @@ fr | pron | en | note
 - un préjudice | uhn pray-zhew-DEESS | harm, damage (formal, legal) | Not prejudice, which is un préjugé.
 - éventuellement | ay-vahn-tew-el-MAHN | possibly, if need be | Not eventually, which is finalement.
 - éventuel / éventuelle | ay-vahn-TWEL | possible | —
-- dur / dure | DEWR | hard, harsh | —
-- impoli / impolie | an-poh-LEE | rude, impolite | —
 
 ### Exercises
 
@@ -8847,6 +8847,7 @@ fr | pron | en | note
 - un modérateur / une modératrice | uhn moh-day-rah-TUHR / ewn moh-day-rah-TREESS | a moderator, a presenter of a debate | —
 - le temps de parole | luh tahn duh pah-ROL | speaking time | —
 - avoir le dernier mot | ah-vwahr luh dehr-nyay MOH | to have the last word | —
+- un auditeur / une auditrice | uh-noh-dee-TUHR / ew-noh-dee-TREESS | a listener (radio) | —
 - couper la parole à | koo-pay lah pah-ROL ah | to interrupt (someone) | —
 - si je peux me permettre | see zhuh puh muh pehr-MEH-truh | if I may | —
 - permettez-moi de | pehr-meh-tay-MWAH duh | allow me to | —
@@ -8856,7 +8857,7 @@ fr | pron | en | note
 - contredire | kohn-truh-DEER | to contradict | Vous contredisez (not contredites).
 - objecter que | ob-zhek-tay KUH | to object that | —
 - une objection | ew-nob-zhek-SYOHN | an objection | —
-- je maintiens que | zhuh man-tyan KUH | I maintain that | —
+- je maintiens que | zhuh man-tyan KUH | I maintain that | Like tenir: il maintient, ils maintiennent.
 - un argument de poids | uh-nar-gew-mahn duh PWAH | a strong argument | —
 - partager l'avis de quelqu'un | par-tah-zhay lah-VEE duh kel-KUHN | to share someone's opinion | —
 - revenons-en à | ruh-vuh-nohn-zahn AH | let's get back to | —
@@ -8867,7 +8868,6 @@ fr | pron | en | note
 - un piéton / une piétonne | uhn pyay-TOHN / ewn pyay-TONN | a pedestrian | —
 - une livraison | ewn lee-vreh-ZOHN | a delivery | —
 - désormais | day-zor-MEH | from now on | —
-- un auditeur / une auditrice | uh-noh-dee-TUHR / ew-noh-dee-TREESS | a listener (radio) | —
 
 ### Exercises
 
@@ -8878,7 +8878,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-debating-ex003 | fill-in | Complétez : Revenons-___ à notre sujet : les voitures en ville. | — | ["en"] | false | Revenons-en à: let's get back to.
 - b2-debating-ex004 | multiple-choice | Choisissez la phrase qui revient au sujet du débat. | ["Revenons-en à la question des voitures.","Je vous laisse finir.","C'est un argument de poids."] | ["Revenons-en à la question des voitures."] | false | Revenons-en à refocuses the debate.
 - b2-debating-ex005 | connector-choice | Choisissez : Vous dites que les commerçants vont perdre des clients. ___ dans d'autres villes, c'est le contraire. | ["Permettez-moi de vous contredire :","Je partage votre avis :","Vous avez raison :"] | ["Permettez-moi de vous contredire :"] | false | The second sentence says the opposite, so it's a rebuttal.
-- b2-debating-ex006 | register-shift | Mettez au registre courant : Arrête, c'est moi qui parle ! | — | ["Laissez-moi finir, s'il vous plaît","Permettez-moi de finir, s'il vous plaît"] | false | In a debate, ask to finish politely, with vous.
+- b2-debating-ex006 | register-shift | Mettez au registre courant (dans un débat, avec vous) : Arrête, c'est moi qui parle ! | — | ["Laissez-moi finir, s'il vous plaît","Permettez-moi de finir, s'il vous plaît"] | false | In a debate, ask to finish politely, with vous.
 - b2-debating-ex007 | register-shift | Mettez au registre courant, avec « je ne suis pas d'accord » : N'importe quoi, c'est faux ! | — | ["Je ne suis pas d'accord, ce n'est pas vrai","Je ne suis pas d'accord, c'est faux"] | false | Je ne suis pas d'accord disagrees without insulting the other person.
 - b2-debating-ex008 | reformulation | Reformulez avec « partager l'avis de quelqu'un » : Vous avez tort. | — | ["Je ne partage pas votre avis"] | false | Je ne partage pas votre avis is firm but polite.
 - b2-debating-ex009 | reformulation | Reformulez avec « c'est justement… qui » : La pollution est le vrai problème. | — | ["C'est justement la pollution qui est le vrai problème"] | false | The mise en relief puts your main point in focus.
@@ -8895,6 +8895,11 @@ id | type | prompt | options | answers | strictAccents | explanation
 
 fr | pron | en | note
 
+- persuader | pehr-sew-ah-DAY | to persuade | —
+- faire appel à | fehr ah-PEL ah | to appeal to | —
+- jouer sur | zhoo-ay SEWR | to play on | —
+- une stratégie | ewn strah-tay-ZHEE | a strategy | —
+- l'émotion | lay-moh-SYOHN | emotion | —
 - avouez que | ah-vway KUH | you must admit that | + indicative.
 - convenez que | kohnv-nay KUH | you'll agree that | + indicative.
 - croyez-moi | krwah-yay-MWAH | believe me | —
@@ -8907,11 +8912,6 @@ fr | pron | en | note
 - un argument massue | uh-nar-gew-mahn mah-SEW | a knockout argument | —
 - j'en conviens | zhahn kohn-VYAN | I grant you that | —
 - quoi qu'on en dise | kwah kohn-nahn DEEZ | whatever people say | —
-- persuader | pehr-sew-ah-DAY | to persuade | —
-- faire appel à | fehr ah-PEL ah | to appeal to | —
-- jouer sur | zhoo-ay SEWR | to play on | —
-- une stratégie | ewn strah-tay-ZHEE | a strategy | —
-- l'émotion | lay-moh-SYOHN | emotion | —
 
 ### Exercises
 
@@ -8929,7 +8929,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-persuasion-and-hedging-ex010 | fill-in | Complétez : Quoi qu'on en ___, ce projet est une bonne idée. | — | ["dise"] | false | Quoi qu'on en dise: whatever people say. Dire is in the subjunctive.
 - b2-persuasion-and-hedging-ex011 | multiple-choice | Choisissez l'expression qui nuance une opinion. | ["Il me semble que…","Croyez-moi,…","Qui plus est,…"] | ["Il me semble que…"] | false | Il me semble que softens; croyez-moi and qui plus est push harder.
 - b2-persuasion-and-hedging-ex012 | translate | Traduisez : Let's imagine that you're right. | — | ["Imaginons que vous ayez raison","Imaginons que tu aies raison"] | false | Imaginons que + subjunctive: ayez (vous) or aies (tu).
-- b2-persuasion-and-hedging-ex013 | translate | Rédigez en complétant comme indiqué : (You must admit that) la bibliothèque ferme trop tôt. (Isn't it true that) beaucoup d'étudiants travaillent le soir ? (What's more), le dimanche, tout est fermé. (Believe me), ce changement aidera tout le monde. | — | ["Avouez que la bibliothèque ferme trop tôt. N'est-il pas vrai que beaucoup d'étudiants travaillent le soir ? Qui plus est, le dimanche, tout est fermé. Croyez-moi, ce changement aidera tout le monde."] | true | An appeal, a rhetorical question, an intensifier and a direct appeal.
+- b2-persuasion-and-hedging-ex013 | translate | Rédigez en complétant comme indiqué : (You must admit that: avouer) la bibliothèque ferme trop tôt. (Isn't it true that) beaucoup d'étudiants travaillent le soir ? (What's more: qui plus est), le dimanche, tout est fermé. (Believe me), ce changement aidera tout le monde. | — | ["Avouez que la bibliothèque ferme trop tôt. N'est-il pas vrai que beaucoup d'étudiants travaillent le soir ? Qui plus est, le dimanche, tout est fermé. Croyez-moi, ce changement aidera tout le monde."] | true | An appeal, a rhetorical question, an intensifier and a direct appeal.
 - b2-persuasion-and-hedging-ex014 | translate | Rédigez en complétant comme indiqué : Ce projet coûte cher, (I grant you that). (Nevertheless: néanmoins), il aidera tout le monde, (not to mention that) les étudiants le demandent depuis des années. | — | ["Ce projet coûte cher, j'en conviens. Néanmoins, il aidera tout le monde, sans compter que les étudiants le demandent depuis des années."] | false | A strategic concession: grant the point, then answer it with two arguments.
 - b2-persuasion-and-hedging-ex015 | reorder | Remettez dans l'ordre : Believe me, it's a good idea. | — | ["Croyez-moi, c'est une bonne idée"] | false | Croyez-moi opens a direct appeal.
 

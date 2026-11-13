@@ -211,7 +211,7 @@ Here is the opening of an invented tale. The imparfait sets the scene, and the p
 <Example fr="Il était une fois un roi qui vivait dans un grand château." en="Once upon a time, there was a king who lived in a big castle." />
 <Example fr="Un jour, le roi partit seul dans la forêt." en="One day, the king went off alone into the forest." />
 <Example fr="Il rencontra une vieille femme et lui parla pendant une heure." en="He met an old woman and spoke to her for an hour." />
-<Example fr="Quand il revint au château, la reine et leurs enfants l'attendirent devant la porte." en="When he came back to the castle, the queen and their children waited for him at the door." />
+<Example fr="Quand il revint au château, la reine et leurs enfants l'attendaient devant la porte." en="When he came back to the castle, the queen and their children were waiting for him at the door." />
 
 *Revint* is the passé simple of *revenir*, which is built on *venir* (*il vint*). Two things help when you read. First, the passé simple and the imparfait work together exactly like the passé composé and the imparfait. Second, some forms look like the present: *il finit* can be present or passé simple, and only the context tells you which.
 
@@ -264,32 +264,32 @@ vocab:
   - { id: "b2-culture-french-history-v001", group: "empire", fr: "un empire", pron: "uh-nahn-PEER", en: "an empire" }
   - { id: "b2-culture-french-history-v002", group: "empire", fr: "un empereur", pron: "uh-nahn-PRUHR", en: "an emperor" }
   - { id: "b2-culture-french-history-v003", group: "empire", fr: "le Code civil", pron: "luh kod see-VEEL", en: "the Civil Code (France's book of civil law)" }
-  - { id: "b2-culture-french-history-v004", group: "wars", fr: "une guerre mondiale", pron: "ewn gehr mohn-DYAL", en: "a world war", note: "Une guerre: a war." }
-  - { id: "b2-culture-french-history-v005", group: "wars", fr: "la Première Guerre mondiale", pron: "lah pruh-myehr gehr mohn-DYAL", en: "the First World War" }
-  - { id: "b2-culture-french-history-v006", group: "wars", fr: "la Seconde Guerre mondiale", pron: "lah suh-gohnd gehr mohn-DYAL", en: "the Second World War" }
-  - { id: "b2-culture-french-history-v007", group: "wars", fr: "un soldat / une soldate", pron: "uhn sol-DAH / ewn sol-DAT", en: "a soldier" }
-  - { id: "b2-culture-french-history-v008", group: "wars", fr: "un armistice", pron: "uh-nar-mees-TEESS", en: "an armistice" }
-  - { id: "b2-culture-french-history-v009", group: "wars", fr: "l'Occupation", pron: "loh-kew-pah-SYOHN", en: "the Occupation (of France, 1940 to 1944)" }
-  - { id: "b2-culture-french-history-v010", group: "wars", fr: "la Résistance", pron: "lah ray-zees-TAHNSS", en: "the Resistance" }
-  - { id: "b2-culture-french-history-v011", group: "wars", fr: "un résistant / une résistante", pron: "uhn ray-zees-TAHN / ewn ray-zees-TAHNT", en: "a member of the Resistance" }
-  - { id: "b2-culture-french-history-v012", group: "wars", fr: "la Libération", pron: "lah lee-bay-rah-SYOHN", en: "the Liberation (1944)" }
-  - { id: "b2-culture-french-history-v013", group: "memory", fr: "un monument aux morts", pron: "uhn moh-new-mahn oh MOR", en: "a war memorial" }
-  - { id: "b2-culture-french-history-v014", group: "memory", fr: "une commémoration", pron: "ewn koh-may-moh-rah-SYOHN", en: "a commemoration" }
-  - { id: "b2-culture-french-history-v015", group: "memory", fr: "le devoir de mémoire", pron: "luh duh-vwahr duh may-MWAHR", en: "the duty to remember" }
-  - { id: "b2-culture-french-history-v016", group: "colonies", fr: "une colonie", pron: "ewn koh-loh-NEE", en: "a colony" }
-  - { id: "b2-culture-french-history-v017", group: "colonies", fr: "la décolonisation", pron: "lah day-koh-loh-nee-zah-SYOHN", en: "decolonization" }
-  - { id: "b2-culture-french-history-v018", group: "colonies", fr: "l'indépendance", pron: "lan-day-pahn-DAHNSS", en: "independence" }
-  - { id: "b2-culture-french-history-v019", group: "europe", fr: "la construction européenne", pron: "lah kohn-strewk-syohn uh-roh-pay-EN", en: "European integration" }
-  - { id: "b2-culture-french-history-v020", group: "europe", fr: "un traité", pron: "uhn treh-TAY", en: "a treaty" }
-  - { id: "b2-culture-french-history-v021", group: "europe", fr: "signer un traité", pron: "see-nyay uhn treh-TAY", en: "to sign a treaty" }
-  - { id: "b2-culture-french-history-v022", group: "europe", fr: "l'Union européenne", pron: "lew-nyohn uh-roh-pay-EN", en: "the European Union" }
-  - { id: "b2-culture-french-history-v023", group: "europe", fr: "la paix", pron: "lah PEH", en: "peace" }
-  - { id: "b2-culture-french-history-v024", group: "europe", fr: "un tournant historique", pron: "uhn toor-nahn ees-toh-REEK", en: "a historic turning point" }
-  - { id: "b2-culture-french-history-v025", group: "empire", fr: "prendre le pouvoir", pron: "prahn-druh luh poo-VWAHR", en: "to take power" }
-  - { id: "b2-culture-french-history-v026", group: "glossary", fr: "l'armée", pron: "lar-MAY", en: "the army" }
-  - { id: "b2-culture-french-history-v027", group: "wars", fr: "occuper", pron: "oh-kew-PAY", en: "to occupy" }
-  - { id: "b2-culture-french-history-v028", group: "wars", fr: "libérer", pron: "lee-bay-RAY", en: "to liberate, to free" }
-  - { id: "b2-culture-french-history-v029", group: "europe", fr: "se rapprocher", pron: "suh rah-proh-SHAY", en: "to come closer together" }
+  - { id: "b2-culture-french-history-v004", group: "empire", fr: "prendre le pouvoir", pron: "prahn-druh luh poo-VWAHR", en: "to take power" }
+  - { id: "b2-culture-french-history-v005", group: "wars", fr: "une guerre mondiale", pron: "ewn gehr mohn-DYAL", en: "a world war", note: "Une guerre: a war." }
+  - { id: "b2-culture-french-history-v006", group: "wars", fr: "la Première Guerre mondiale", pron: "lah pruh-myehr gehr mohn-DYAL", en: "the First World War" }
+  - { id: "b2-culture-french-history-v007", group: "wars", fr: "la Seconde Guerre mondiale", pron: "lah suh-gohnd gehr mohn-DYAL", en: "the Second World War" }
+  - { id: "b2-culture-french-history-v008", group: "wars", fr: "un soldat / une soldate", pron: "uhn sol-DAH / ewn sol-DAT", en: "a soldier" }
+  - { id: "b2-culture-french-history-v009", group: "wars", fr: "un armistice", pron: "uh-nar-mees-TEESS", en: "an armistice" }
+  - { id: "b2-culture-french-history-v010", group: "wars", fr: "l'Occupation", pron: "loh-kew-pah-SYOHN", en: "the Occupation (of France, 1940 to 1944)" }
+  - { id: "b2-culture-french-history-v011", group: "wars", fr: "la Résistance", pron: "lah ray-zees-TAHNSS", en: "the Resistance" }
+  - { id: "b2-culture-french-history-v012", group: "wars", fr: "un résistant / une résistante", pron: "uhn ray-zees-TAHN / ewn ray-zees-TAHNT", en: "a member of the Resistance" }
+  - { id: "b2-culture-french-history-v013", group: "wars", fr: "la Libération", pron: "lah lee-bay-rah-SYOHN", en: "the Liberation (1944)" }
+  - { id: "b2-culture-french-history-v014", group: "wars", fr: "occuper", pron: "oh-kew-PAY", en: "to occupy" }
+  - { id: "b2-culture-french-history-v015", group: "wars", fr: "libérer", pron: "lee-bay-RAY", en: "to liberate, to free" }
+  - { id: "b2-culture-french-history-v016", group: "memory", fr: "un monument aux morts", pron: "uhn moh-new-mahn oh MOR", en: "a war memorial" }
+  - { id: "b2-culture-french-history-v017", group: "memory", fr: "une commémoration", pron: "ewn koh-may-moh-rah-SYOHN", en: "a commemoration" }
+  - { id: "b2-culture-french-history-v018", group: "memory", fr: "le devoir de mémoire", pron: "luh duh-vwahr duh may-MWAHR", en: "the duty to remember" }
+  - { id: "b2-culture-french-history-v019", group: "colonies", fr: "une colonie", pron: "ewn koh-loh-NEE", en: "a colony" }
+  - { id: "b2-culture-french-history-v020", group: "colonies", fr: "la décolonisation", pron: "lah day-koh-loh-nee-zah-SYOHN", en: "decolonization" }
+  - { id: "b2-culture-french-history-v021", group: "colonies", fr: "l'indépendance", pron: "lan-day-pahn-DAHNSS", en: "independence" }
+  - { id: "b2-culture-french-history-v022", group: "europe", fr: "la construction européenne", pron: "lah kohn-strewk-syohn uh-roh-pay-EN", en: "European integration" }
+  - { id: "b2-culture-french-history-v023", group: "europe", fr: "un traité", pron: "uhn treh-TAY", en: "a treaty" }
+  - { id: "b2-culture-french-history-v024", group: "europe", fr: "signer un traité", pron: "see-nyay uhn treh-TAY", en: "to sign a treaty" }
+  - { id: "b2-culture-french-history-v025", group: "europe", fr: "l'Union européenne", pron: "lew-nyohn uh-roh-pay-EN", en: "the European Union" }
+  - { id: "b2-culture-french-history-v026", group: "europe", fr: "la paix", pron: "lah PEH", en: "peace" }
+  - { id: "b2-culture-french-history-v027", group: "europe", fr: "un tournant historique", pron: "uhn toor-nahn ees-toh-REEK", en: "a historic turning point" }
+  - { id: "b2-culture-french-history-v028", group: "europe", fr: "se rapprocher", pron: "suh rah-proh-SHAY", en: "to come closer together" }
+  - { id: "b2-culture-french-history-v029", group: "glossary", fr: "l'armée", pron: "lar-MAY", en: "the army" }
   - { id: "b2-culture-french-history-v030", group: "glossary", fr: "un pays voisin", pron: "uhn peh-ee vwah-ZAN", en: "a neighbouring country" }
 exercises:
   - id: "b2-culture-french-history-ex001"
@@ -574,8 +574,8 @@ exercises:
     explanation: "Before the noun, ancien means former."
   - id: "b2-adjective-position-meaning-ex010"
     type: "reformulation"
-    prompt: "Reformulez avec l'adjectif après le nom : Ce restaurant, c'est cher."
-    answers: ["C'est un restaurant cher"]
+    prompt: "Reformulez avec « un restaurant » et l'adjectif après le nom : Ce restaurant, c'est cher."
+    answers: ["C'est un restaurant cher", "C'est un restaurant très cher"]
     explanation: "After the noun, cher means expensive."
   - id: "b2-adjective-position-meaning-ex011"
     type: "error-correction"
@@ -660,7 +660,7 @@ These adjectives say what the speaker feels when they come first. *Cher* before 
 
 <VocabTable group="size" />
 
-*Grand* is one of the short adjectives that go before the noun, but with people the position matters. *Un grand homme* is a great man; *un homme grand* is a tall man. For things, *grand* stays before and simply means "big": *une grande maison*.
+*Grand* is one of the short adjectives that go before the noun, but with people the position matters. *Un grand homme* is a great man; *un homme grand* is a tall man. For things, *grand* stays before and simply means "big": *une grande maison*. Careful with *femme*: *une grande femme* usually means a tall woman, so for a great woman say *une grande artiste* or *une grande peintre*.
 
 <Example fr="Notre vieux maire était un grand homme, mais pas un homme grand." en="Our old mayor was a great man, but not a tall man." />
 
@@ -699,7 +699,7 @@ Inès and Hugo are at a *vernissage*, the opening night of an exhibition.
 - *Ton ancien professeur ? Il est jeune !* (Your former teacher? He's young!)
 - *Il a quitté l'école l'année dernière. C'est un brave homme, toujours gentil.* (He left the school last year. He's a decent man, always kind.)
 - *Et la femme à côté de lui, c'est qui ? C'est une femme très grande !* (And the woman next to him, who is she? She's a very tall woman!)
-- *Oui, et c'est aussi une grande femme : c'est la peintre de l'exposition.* (Yes, and she's also a great woman: she's the painter of the exhibition.)
+- *Oui, et c'est aussi une grande artiste : c'est la peintre de l'exposition.* (Yes, and she's also a great artist: she's the painter of the exhibition.)
 - *Ah, c'est elle ! J'aime ses toiles, mais certaines sont très chères.* (Oh, it's her! I like her canvases, but some are very expensive.)
 - *C'est vrai. Mais c'est la seule exposition de l'année dans notre ville.* (True. But it's the only exhibition of the year in our town.)
 - *Tu veux lui parler ? Tu la connais ?* (Do you want to talk to her? Do you know her?)
@@ -1088,7 +1088,7 @@ By the end of this lesson you'll be able to describe a painting, say what it sug
 
 ## What you already know
 
-You gave your opinion of a film or a book in <LessonLink id="b1-reviewing-a-film-or-book" text="the lesson on reviewing a film or book" />, and you know *émouvant* and *représenter*. You learned *un tableau*, *une toile* and *un chef-d'œuvre* in <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />, and adjectives that change meaning in <LessonLink id="b2-adjective-position-meaning" text="the lesson on adjectives that change meaning" />. This lesson gives you a method for talking about a work of art.
+You gave your opinion of a film or a book in <LessonLink id="b1-reviewing-a-film-or-book" text="the lesson on reviewing a film or book" />, and you know *émouvant* from <LessonLink id="b1-cinema-and-books" text="the lesson on cinema and books" /> and *représenter* from <LessonLink id="b1-culture-french-republic" text="the lesson on the French Republic" />. You learned *un tableau*, *une toile* and *un chef-d'œuvre* in <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />, and adjectives that change meaning in <LessonLink id="b2-adjective-position-meaning" text="the lesson on adjectives that change meaning" />. This lesson gives you a method for talking about a work of art.
 
 ## Three steps
 
@@ -1171,17 +1171,17 @@ This is an original review of an invented painting by an invented painter, writt
 
 *La galerie du centre-ville présente cette semaine les toiles de Claire Morel. Au centre de l'exposition, on découvre « L'Attente », une grande toile aux couleurs sombres.*
 
-*Au premier plan, une femme est assise devant une table vide. À gauche du tableau, une fenêtre ouverte laisse entrer une lumière froide. À l'arrière-plan, on devine une ville sous la pluie.*
+*Au premier plan, une femme est assise devant une table vide. À gauche du tableau, une fenêtre ouverte laisse entrer une lumière froide. À l'arrière-plan, on voit une ville sous la pluie.*
 
 *Le regard de la femme est frappant : elle ne regarde pas le spectateur, mais la fenêtre. La lumière évoque le matin, après une nuit sans sommeil. Selon nous, la fenêtre symbolise un départ, ou peut-être une personne qui ne reviendra pas. Il s'en dégage une impression de silence et d'attente.*
 
-*Certes, la composition est très simple, et certains visiteurs la trouveront trop sobre. Mais c'est justement cette simplicité qu'on aime. Ce qu'on retient, c'est ce regard, qu'on n'oublie pas.*
+*Certes, la composition est très simple, et certains visiteurs la trouveront trop sobre. Mais c'est justement cette simplicité qu'on aime. Ce qu'on garde en mémoire, c'est ce regard.*
 
 *Une œuvre à voir, pour quiconque aime la peinture qui raconte une histoire.*
 
 <VocabTable group="glossary" />
 
-("The Wait", a gripping canvas. The town-centre gallery is showing Claire Morel's canvases this week. At the centre of the exhibition is "The Wait", a large canvas in dark colours. In the foreground, a woman is sitting at an empty table. On the left of the painting, an open window lets in a cold light. In the background, you can make out a town in the rain. The woman's gaze is striking: she isn't looking at the viewer, but at the window. The light brings to mind the morning, after a sleepless night. In our view, the window stands for a departure, or perhaps a person who won't come back. An impression of silence and waiting emerges from it. Admittedly, the composition is very simple, and some visitors will find it too understated. But it's precisely this simplicity that you love. What stays with you is that gaze, which you don't forget. A work to see, for anyone who loves painting that tells a story.)
+("The Wait", a gripping canvas. The town-centre gallery is showing Claire Morel's canvases this week. At the centre of the exhibition is "The Wait", a large canvas in dark colours. In the foreground, a woman is sitting at an empty table. On the left of the painting, an open window lets in a cold light. In the background, you can see a town in the rain. The woman's gaze is striking: she isn't looking at the viewer, but at the window. The light brings to mind the morning, after a sleepless night. In our view, the window stands for a departure, or perhaps a person who won't come back. An impression of silence and waiting emerges from it. Admittedly, the composition is very simple, and some visitors will find it too understated. But it's precisely this simplicity that you love. What you remember is that gaze. A work to see, for anyone who loves painting that tells a story.)
 
 <Callout type="warning" title="Il s'en dégage, not il en dégage">
   *Dégager* alone means "to bring out" or "to clear". For the feeling that comes from a work, the verb is pronominal: *il en dégage une impression de calme* is wrong. Write **il s'en dégage une impression de calme**.
@@ -1215,23 +1215,23 @@ vocab:
   - { id: "b2-culture-francophone-africa-v004", group: "languages", fr: "une langue seconde", pron: "ewn lahng suh-GOHND", en: "a second language" }
   - { id: "b2-culture-francophone-africa-v005", group: "languages", fr: "bilingue", pron: "bee-LANG", en: "bilingual" }
   - { id: "b2-culture-francophone-africa-v006", group: "languages", fr: "le plurilinguisme", pron: "luh plew-ree-lan-GWEESM", en: "multilingualism" }
-  - { id: "b2-culture-francophone-africa-v007", group: "contact", fr: "le contact des langues", pron: "luh kohn-takt day LAHNG", en: "language contact" }
-  - { id: "b2-culture-francophone-africa-v008", group: "contact", fr: "un emprunt", pron: "uh-nahn-PRUHN", en: "a loanword", note: "Emprunter: to borrow." }
-  - { id: "b2-culture-francophone-africa-v009", group: "contact", fr: "un mélange", pron: "uhn may-LAHNZH", en: "a mix" }
-  - { id: "b2-culture-francophone-africa-v010", group: "contact", fr: "un mot local", pron: "uhn moh loh-KAL", en: "a local word", note: "Plural: des mots locaux." }
-  - { id: "b2-culture-francophone-africa-v011", group: "contact", fr: "le nouchi", pron: "luh noo-SHEE", en: "nouchi, the street language of Abidjan (Côte d'Ivoire)" }
-  - { id: "b2-culture-francophone-africa-v012", group: "contact", fr: "le camfranglais", pron: "luh kahm-frahn-GLEH", en: "camfranglais, a mix of French, English and local languages (Cameroon)" }
-  - { id: "b2-culture-francophone-africa-v013", group: "local", fr: "une essencerie", pron: "ew-neh-sahn-SREE", en: "a petrol station (Senegal)" }
-  - { id: "b2-culture-francophone-africa-v014", group: "local", fr: "s'enjailler", pron: "sahn-zhah-YAY", en: "to have fun (Côte d'Ivoire, informal)" }
-  - { id: "b2-culture-francophone-africa-v015", group: "local", fr: "un taxi-brousse", pron: "uhn tahk-see-BROOSS", en: "a bush taxi, a shared taxi between towns" }
-  - { id: "b2-culture-francophone-africa-v016", group: "culture", fr: "la négritude", pron: "lah nay-gree-TEWD", en: "négritude, a literary movement of black French-speaking writers" }
-  - { id: "b2-culture-francophone-africa-v017", group: "culture", fr: "un griot / une griotte", pron: "uhn gree-YOH / ewn gree-YOT", en: "a griot, a West African storyteller and musician" }
-  - { id: "b2-culture-francophone-africa-v018", group: "glossary", fr: "vivant / vivante", pron: "vee-VAHN / vee-VAHNT", en: "living, alive" }
-  - { id: "b2-culture-francophone-africa-v019", group: "glossary", fr: "antillais / antillaise", pron: "ahn-tee-YEH / ahn-tee-YEZ", en: "from the French Caribbean" }
-  - { id: "b2-culture-francophone-africa-v020", group: "glossary", fr: "une voix", pron: "ewn VWAH", en: "a voice" }
-  - { id: "b2-culture-francophone-africa-v021", group: "glossary", fr: "s'enrichir", pron: "sahn-ree-SHEER", en: "to become richer" }
-  - { id: "b2-culture-francophone-africa-v022", group: "local", fr: "s'amuser", pron: "sah-mew-ZAY", en: "to have fun (standard French)" }
-  - { id: "b2-culture-francophone-africa-v023", group: "languages", fr: "le wolof", pron: "luh woh-LOF", en: "Wolof, a national language of Senegal" }
+  - { id: "b2-culture-francophone-africa-v007", group: "languages", fr: "le wolof", pron: "luh woh-LOF", en: "Wolof, a national language of Senegal" }
+  - { id: "b2-culture-francophone-africa-v008", group: "contact", fr: "le contact des langues", pron: "luh kohn-takt day LAHNG", en: "language contact" }
+  - { id: "b2-culture-francophone-africa-v009", group: "contact", fr: "un emprunt", pron: "uh-nahn-PRUHN", en: "a loanword", note: "Emprunter: to borrow." }
+  - { id: "b2-culture-francophone-africa-v010", group: "contact", fr: "un mélange", pron: "uhn may-LAHNZH", en: "a mix" }
+  - { id: "b2-culture-francophone-africa-v011", group: "contact", fr: "un mot local", pron: "uhn moh loh-KAL", en: "a local word", note: "Plural: des mots locaux." }
+  - { id: "b2-culture-francophone-africa-v012", group: "contact", fr: "le nouchi", pron: "luh noo-SHEE", en: "nouchi, the street language of Abidjan (Côte d'Ivoire)" }
+  - { id: "b2-culture-francophone-africa-v013", group: "contact", fr: "le camfranglais", pron: "luh kahm-frahn-GLEH", en: "camfranglais, a mix of French, English and local languages (Cameroon)" }
+  - { id: "b2-culture-francophone-africa-v014", group: "local", fr: "une essencerie", pron: "ew-neh-sahn-SREE", en: "a petrol station (Senegal)" }
+  - { id: "b2-culture-francophone-africa-v015", group: "local", fr: "s'enjailler", pron: "sahn-zhah-YAY", en: "to have fun (Côte d'Ivoire, informal)" }
+  - { id: "b2-culture-francophone-africa-v016", group: "local", fr: "un taxi-brousse", pron: "uhn tahk-see-BROOSS", en: "a bush taxi, a shared taxi between towns" }
+  - { id: "b2-culture-francophone-africa-v017", group: "local", fr: "s'amuser", pron: "sah-mew-ZAY", en: "to have fun (standard French)" }
+  - { id: "b2-culture-francophone-africa-v018", group: "culture", fr: "la négritude", pron: "lah nay-gree-TEWD", en: "négritude, a literary movement of black French-speaking writers" }
+  - { id: "b2-culture-francophone-africa-v019", group: "culture", fr: "un griot / une griotte", pron: "uhn gree-YOH / ewn gree-YOT", en: "a griot, a West African storyteller and musician" }
+  - { id: "b2-culture-francophone-africa-v020", group: "glossary", fr: "vivant / vivante", pron: "vee-VAHN / vee-VAHNT", en: "living, alive" }
+  - { id: "b2-culture-francophone-africa-v021", group: "glossary", fr: "antillais / antillaise", pron: "ahn-tee-YEH / ahn-tee-YEZ", en: "from the French Caribbean" }
+  - { id: "b2-culture-francophone-africa-v022", group: "glossary", fr: "une voix", pron: "ewn VWAH", en: "a voice" }
+  - { id: "b2-culture-francophone-africa-v023", group: "glossary", fr: "s'enrichir", pron: "sahn-ree-SHEER", en: "to become richer" }
 exercises:
   - id: "b2-culture-francophone-africa-ex001"
     type: "multiple-choice"
@@ -1301,7 +1301,7 @@ exercises:
   - id: "b2-culture-francophone-africa-ex013"
     type: "translate"
     prompt: "Rédigez en complétant comme indiqué : En Côte d'Ivoire, le français est (the official language). Les jeunes d'Abidjan parlent aussi (nouchi). Ce mélange de langues montre (language contact)."
-    answers: ["En Côte d'Ivoire, le français est la langue officielle. Les jeunes d'Abidjan parlent aussi le nouchi. Ce mélange de langues montre le contact des langues."]
+    answers: ["En Côte d'Ivoire, le français est la langue officielle. Les jeunes d'Abidjan parlent aussi le nouchi. Ce mélange de langues montre le contact des langues.", "En Côte d'Ivoire, le français est la langue officielle. Les jeunes d'Abidjan parlent aussi nouchi. Ce mélange de langues montre le contact des langues.", "En Côte d'Ivoire, le français est une langue officielle. Les jeunes d'Abidjan parlent aussi le nouchi. Ce mélange de langues montre le contact des langues.", "En Côte d'Ivoire, le français est une langue officielle. Les jeunes d'Abidjan parlent aussi nouchi. Ce mélange de langues montre le contact des langues."]
     explanation: "La langue officielle, le nouchi with its article, and le contact des langues."
   - id: "b2-culture-francophone-africa-ex014"
     type: "reorder"
@@ -1477,10 +1477,10 @@ exercises:
     explanation: "Pourtant opposes the light to the dark colours."
   - id: "b2-review-arts-ex006"
     type: "connector-choice"
-    prompt: "Choisissez le connecteur : Ce tableau a été peint en 1946. ___, le contexte historique est important."
-    options: ["Par conséquent", "Pourtant", "Tout à coup"]
-    answers: ["Par conséquent"]
-    explanation: "The date explains why the context matters: par conséquent."
+    prompt: "Choisissez le connecteur : Le contexte historique est important. ___, ce tableau a été peint en 1946, peu après la guerre."
+    options: ["En effet", "Pourtant", "Tout à coup"]
+    answers: ["En effet"]
+    explanation: "The second sentence explains the first: en effet."
   - id: "b2-review-arts-ex007"
     type: "multiple-choice"
     prompt: "Indiquez le sens de : Ce tableau fut peint en 1946."
@@ -1500,8 +1500,8 @@ exercises:
     explanation: "Évoquer turns a personal reaction into an interpretation."
   - id: "b2-review-arts-ex010"
     type: "error-correction"
-    prompt: "Corrigez l'erreur (a boy and a girl) : Les deux enfants sont toutes les deux au premier plan."
-    answers: ["Les deux enfants sont tous les deux au premier plan"]
+    prompt: "Corrigez l'erreur : Un garçon et une fille sont toutes les deux au premier plan."
+    answers: ["Un garçon et une fille sont tous les deux au premier plan"]
     explanation: "With a boy and a girl, the masculine is used: tous les deux."
   - id: "b2-review-arts-ex011"
     type: "register-shift"
@@ -1522,8 +1522,8 @@ exercises:
     explanation: "Marquer son temps: to leave a mark on its time."
   - id: "b2-review-arts-ex014"
     type: "translate"
-    prompt: "Rédigez en complétant comme indiqué : (In the foreground), deux enfants jouent. (In the background), on voit (an old building). Il s'en dégage (an impression of) calme."
-    answers: ["Au premier plan, deux enfants jouent. À l'arrière-plan, on voit un bâtiment ancien. Il s'en dégage une impression de calme."]
+    prompt: "Rédigez en complétant comme indiqué : (In the foreground), deux enfants jouent. (In the background), on voit (an old building: ancien). Il s'en dégage (an impression of) calme."
+    answers: ["Au premier plan, deux enfants jouent. À l'arrière-plan, on voit un bâtiment ancien. Il s'en dégage une impression de calme.", "Au premier plan, deux enfants jouent. À l'arrière-plan, on voit un vieux bâtiment. Il s'en dégage une impression de calme."]
     strictAccents: true
     explanation: "The space of the picture, ancien after the noun for old, and il s'en dégage."
   - id: "b2-review-arts-ex015"

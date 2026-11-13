@@ -1361,6 +1361,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Les déserts médicaux* are areas, often rural, where there are too few doctors."** Confirm (no figures given).
 - **"*La prise en charge* means coverage ... and also the care given to a patient."** Confirm.
 - **"*Passer par le médecin traitant*"** for going through the GP first (new entry *passer par*). Confirm it is the natural phrasing.
+- **Facts to confirm together:** the coordinated care route and its better reimbursement; the mutuelle often through the employer; the sick-note procedure (the doctor gives it, you send it to your employer); the déserts médicaux and long waiting times.
 
 ## b2-certainty-and-probability
 
@@ -1372,6 +1373,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Il a dû oublier* ... is close to the futur antérieur of supposition: *il aura oublié*."** Confirm.
 - **"On the scale in this lesson, only the certain and likely expressions keep the indicative."** Confirm (the claim is limited to this lesson's scale).
 - **"You'll also see the indicative, especially when *le fait que* comes after the verb: *on oublie souvent le fait que la recherche prend du temps*."** Confirm.
+- **"il semblerait que + subjunctive"**: the indicative is also found. Confirm the advice.
 
 ## b2-argumentative-essay
 
@@ -1382,6 +1384,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Force est de constater que* + indicative"; "*il s'agit de*: its subject is only *il*."** Confirm.
 - **"*Une ouverture*" as the final wider question** is a new meaning of b2-nominalisation's *l'ouverture*. Confirm.
 - **"For a plan in three parts ... Some writers then say *dans un deuxième temps* for the second part."** (note on *dans un troisième temps*). Confirm.
+- **"Keep second for a plan in two parts; with three parts, say dans un deuxième temps."** Confirm.
 
 ## b2-review-science
 
@@ -1398,6 +1401,7 @@ Every date, tradition and regional detail, for checking:
 - **Movement dates:** "In the early 19th century, *le romantisme*..."; "In the late 19th century, *l'impressionnisme* was above all a painting movement ... painters worked outside and tried to show light and movement"; "In the 1920s, *le surréalisme* looked for the world of dreams". Confirm.
 - **"*Ce comédien joue dans une pièce de Molière*"** (warning callout). Confirm it reads naturally.
 - **Tip:** "An *-a* added straight to the verb stem (*parl-a*), or the endings *-èrent*, *-irent* and *-urent*, tell you it's the passé simple. On its own, *-a* proves nothing." Confirm.
+- **The century and decade claims** for romanticism (early 19th century), impressionism (late 19th century) and surrealism (1920s). Confirm.
 
 ## b2-culture-french-history
 
@@ -1410,6 +1414,7 @@ Every date, tradition and regional detail, for checking:
 - **Warning:** "say la Seconde Guerre mondiale or la Deuxième Guerre mondiale, with Guerre in capitals and mondiale in lowercase." Confirm.
 - **Not covered:** the Vichy regime and the persecution of Jews during the Occupation. A fluent reviewer decides whether one neutral sentence belongs in the Second World War section (sensitive topic).
 - **"France already had colonies before the Revolution, such as *la Nouvelle-France* in North America."** Confirm.
+- **Dates and facts to confirm:** 1804, 1918, 1940, 1944, 1945, 1957, 1962; "almost every town and village has a monument aux morts"; the Treaty of Rome signed by six countries; the summaries of the Occupation and of decolonization.
 
 ## b2-adjective-position-meaning
 
@@ -1444,6 +1449,7 @@ Every date, tradition and regional detail, for checking:
 - **Négritude and Senghor:** "a literary movement born in Paris in the 1930s, among black students from Africa and the Caribbean writing in French"; Senghor "later became the first president of independent Senegal, and the first African member of the Académie française." Confirm.
 - **"Aujourd'hui, la francophonie est de plus en plus africaine."** (magazine piece) Confirm it's acceptable without figures.
 - **Warning:** "French is the official language there; the national languages are the country's own languages." Confirm.
+- **"la francophonie est de plus en plus africaine"**, the Maghreb official languages, and the Senghor facts (first president of independent Senegal; first African member of the Académie française). Confirm.
 
 ## b2-review-arts
 
@@ -1457,6 +1463,7 @@ Every date, tradition and regional detail, for checking:
 - **"After *aussi*, the inversion changes the meaning: at the start of a sentence, *aussi* means 'therefore'."** Confirm.
 - **"With *pouvoir* and *savoir*, formal French can use *ne* alone, without *pas*: *je ne saurais dire*, *je ne peux vous répondre*."** Confirm.
 - **"For 'we', familiar and standard speech use *on*; careful writing prefers *nous*."** Confirm.
+- **The word table** now gives no formal equivalent for *le travail* (*un emploi* is glossed as standard). Confirm the triplets that remain.
 
 ## b2-colloquial-french
 
@@ -1465,6 +1472,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Grave*, used as an adverb, is youth speech"; "*Vachement* ... is common among all ages."** Confirm.
 - **ex013 accepts *on est partis* and *on est parti*.** Confirm both are acceptable.
 - **"Speakers drop *il* in *il faut*"; "They use *c'est* for *ce sont*"; "They announce the subject first, then repeat it as a pronoun."** Confirm the labels (spoken).
+- **"Vachement means really, and it's very common."** Confirm (the earlier claim about all ages was removed).
 
 ## b2-culture-verlan-and-slang
 
@@ -1472,6 +1480,7 @@ Every date, tradition and regional detail, for checking:
 - **"Verlan is old, but it spread widely from the 1980s and 1990s, in the suburbs of big cities and then in rap music."** Confirm.
 - **"Some, like *relou* or *meuf*, are now understood by most French people."** Confirm.
 - **"*Lourd* gives *relou*: the final sound comes first."** Confirm the explanation.
+- **The derivation of relou from lourd**, and the dates and places of verlan's spread (1980s and 1990s, suburbs, rap). Confirm.
 
 ## b2-false-friends
 
@@ -1480,6 +1489,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Excité* ... can have a sexual sense."** Confirm.
 - **"*Assister quelqu'un* means 'to help someone'."** Confirm.
 - **ex012: "Rendu never agrees here, because compte is its direct object"** (*je me suis rendu compte*, not *rendue*, for a woman too). Confirm, and decide whether *rendue* should also be accepted.
+- **"Réaliser for to realize ... careful speakers prefer se rendre compte."** Confirm.
 
 ## b2-debating
 
@@ -1487,6 +1497,7 @@ Every date, tradition and regional detail, for checking:
 - **"In French debates, people interrupt more than in many English-speaking ones."** Confirm or soften.
 - **"*Contredire* is irregular in one form: *vous contredisez*, not *vous contredites*."** Confirm.
 - The debate on cars in city centres gives both sides their main arguments; check it reads as balanced.
+- **"Lively debates often have interruptions"** (replaces a claim that French debaters interrupt more). Confirm it reads as neutral.
 
 ## b2-persuasion-and-hedging
 

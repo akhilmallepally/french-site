@@ -383,15 +383,15 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 39 | b2-formal-report | Writing a report | Work and the economy | communication | b2-presenting-data, b2-passive-voice, b2-logical-connectors | Report structure, impersonal style, recommendations. |
 | 40 | b2-review-work | Review: Work and the economy | Work and the economy | review | b2-faire-causatif, b2-participles-and-gerund, b2-infinitif-passe, b2-negotiating, b2-formal-report | Write a short report with recommendations. |
 
-### Unit 6: Science, health and environment
+### Unit 6: Science and health
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 41 | b2-science-and-research | Science and research | Science, health and environment | vocabulary | b1-environment | Research, experiments, data, discoveries, climate science. |
-| 42 | b2-health-system | Health and the health system | Science, health and environment | vocabulary | a2-at-the-doctor | Sécurité sociale, la carte Vitale, specialists, prevention, public health debates. |
-| 43 | b2-certainty-and-probability | Certainty and probability | Science, health and environment | grammar | b2-subjunctive-conjunctions, b1-expressing-doubt-certainty | il est probable que (indicative) vs il est possible que (subjunctive); il se peut que, sans doute; le fait que + subjunctive. Reuses: science, health. |
-| 44 | b2-argumentative-essay | Writing an argumentative essay | Science, health and environment | communication | b2-logical-connectors, b2-nominalisation | Thesis, antithesis, synthesis; paragraphing; introductions and conclusions. |
-| 45 | b2-review-science | Review: Science, health and environment | Science, health and environment | review | b2-health-system, b2-certainty-and-probability, b2-argumentative-essay | Argumentative essay on a science or health topic. |
+| 41 | b2-science-and-research | Science and research | Science and health | vocabulary | b1-environment | Research, experiments, data, discoveries, climate science. |
+| 42 | b2-health-system | Health and the health system | Science and health | vocabulary | a2-at-the-doctor | Sécurité sociale, la carte Vitale, specialists, prevention, public health debates. |
+| 43 | b2-certainty-and-probability | Certainty and probability | Science and health | grammar | b2-subjunctive-conjunctions, b1-expressing-doubt-certainty | il est probable que (indicative) vs il est possible que (subjunctive); il se peut que, sans doute; le fait que + subjunctive. Reuses: science, health. |
+| 44 | b2-argumentative-essay | Writing an argumentative essay | Science and health | communication | b2-logical-connectors, b2-nominalisation | Thesis, antithesis, synthesis; paragraphing; introductions and conclusions. |
+| 45 | b2-review-science | Review: Science and health | Science and health | review | b2-health-system, b2-certainty-and-probability, b2-argumentative-essay | Argumentative essay on a science or health topic. |
 
 ### Unit 7: Culture and the arts
 
