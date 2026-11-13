@@ -174,9 +174,10 @@ C1 inherits every B2 convention unless it's changed here. Plans are in docs/plan
 - **Exercise types.** The B2 types stay: multiple-choice, fill-in, translate, reorder, reformulation, register-shift, error-correction and connector-choice. No new type is added, because lib/check-answer.ts can only grade a fixed list of answers; open writing keeps the model-answer pattern.
 - **Instructions.** The B2 list stays. Add only **Résumez** (summarize) and **Justifiez** (give the reason), for synthesis and essay tasks graded by model answer, and add them to INSTRUCTION_VERBS in scripts/b2-lists.ts at the same time.
 - **Literary tenses.**
-  - Passé simple: production is allowed from c1-passe-simple on, in narrative writing only (a story, a historical account). Never in dialogue or in an everyday register.
+  - Passé simple: production is allowed from c1-passe-simple on, in narrative writing only (a story, a historical account). Not in dialogue or an everyday register.
   - Passé antérieur: production in narrative writing from its lesson.
   - Imparfait and plus-que-parfait du subjonctif: recognition, plus light production in formal writing only, from c1-imperfect-subjunctive. No typed answer may require them; where they're possible, the present or passé subjunctive is also accepted.
+- **Exam practice.** Practice lessons in the style of the DALF C1 name no timings, task formats, scoring or rules of the exam: "a short exposé from a short document", "a synthesis of two documents". Any statement about the exam goes in docs/review-needed.md.
 - **Register labels.** Every example that isn't standard French carries a label in its translation: (literary), (formal), (familiar), (slang) or (spoken). Slang stays out of typed answers unless the instruction asks for it.
 - **Sensitive topics.** The B2 rules continue: neutral facts only, no figures, no invented quotes, no named living politicians, and every such sentence in docs/review-needed.md.
   - Contested history (the colonial period, the Algerian war, Vichy): state what happened in neutral words and dates, present historians' debates as debates, and give no verdict.
@@ -184,8 +185,9 @@ C1 inherits every B2 convention unless it's changed here. Plans are in docs/plan
   - Immigration and identity: describe policies and facts, never groups; no ethnic slang.
 - **Authors, works and quotations.**
   - Name authors and works only when you are sure of the facts (title, date, author).
-  - Quote only public-domain works (authors who died more than 70 years ago), and keep each quotation under 15 words.
-  - For any other author, don't quote: paraphrase the idea, or write an original sentence "in the style of" and label it as invented.
+  - Quote only authors on a named safe list: authors who died before 1900 (for example Molière, Racine, Voltaire, Hugo, Baudelaire, Flaubert). Keep each quotation under 15 words. Why a list rather than a rule: French law adds wartime and "mort pour la France" extensions to the usual term, and terms differ by country.
+  - All translations of quotations are our own.
+  - For any later author, don't quote: paraphrase the idea, or write an original pastiche "in the style of" and label it as invented.
   - Longer literary texts are original pastiches, labelled as such, never copies or close paraphrases.
 - **No repeats.** A C1 lesson recaps earlier material in 2 or 3 sentences with a LessonLink to the lesson that first taught it (see docs/c1-coverage.md), then teaches only what's new. Every "you know X from Y" claim is checked against lesson Y before it's written.
 - **C1 checklist** (the B2 self-audit rules, plus the defects that recurred in B2):

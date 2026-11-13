@@ -17,3 +17,22 @@
 - Open questions (in the overview): Unit 8 or folding it in; nine B2 overlaps to recap rather than re-teach; production of the imparfait du subjonctif; quotations versus pastiche; the DALF practice line.
 - docs/review-needed.md: new "C1 plan" section (12 items). docs/project-state.md: C1 is "planning done, writing not started", with the writing order.
 - Checks: validate:content OK, test:content OK, build OK.
+
+## C1 plan fixes
+
+- Already fixed before this prompt: none.
+- Corrections:
+  - c1-passe-anterieur: the spoken equivalent is the passé composé or surcomposé, and the exercise chooses the tense by the main verb.
+  - c1-passe-simple: adds full paradigms (*être, avoir, faire, venir/tenir, voir*) and 14 recognition verbs; "not in everyday speech or in modern dialogue" here and in CLAUDE.md; new narrative vocab (*le récit, s'écrier, se mettre à, à l'aube*) replaces the non-word.
+  - The overview explains key vocab versus the minimum, and each thin review got one new word (*la sobriété, un fil conducteur, captiver, un courant de pensée*).
+  - Poetry: syllables checked by scripts/scan-alexandrines.ts, or free verse.
+  - CLAUDE.md: a named quotation safe list (authors who died before 1900, own translations), and an "Exam practice" rule with no timings or scoring. The literature, philosophy, Enlightenment and cinema lessons are updated; unit-8 drops "ten-minute".
+  - *euphémiser* moved to c1-euphemism-and-synonyms; the dissertation's problématique is a rule of thumb; c1-subjunctive-nuances keeps only questions, *que* + subjunctive first, and meaning-changing moods.
+  - The inverted hypothesis lists *Fût-il* and *Serait-il*, both literary.
+- Merge: c1-conditionnel-journalistique folded into c1-advanced-connectors ("Advanced connectors and academic hedging"); 57 lessons.
+- Order: future-in-the-past moved to Unit 1, tricky-prepositions to Unit 2, formal-relatives and concession-and-hypothesis to Unit 3. One review per unit; units of 8, 9, 8, 7, 6, 6, 6, 7. Overview, links, writing order, docs/syllabus.md and docs/project-state.md updated.
+- Verify claims, with scripts/c1-find.ts (new):
+  - True: *de crainte que*, *aussitôt que*, *au cas où* + conditionnel, *la problématique*, *sobre*, *convaincant*, *la concordance des temps*, *la conjoncture*, *un héritage*, *au cours duquel*, *soutenu*, *le narrateur*, *le lendemain*, *à ce moment-là*, *or*, *en revanche*, negative *penser/croire que*; *après que* and *porter plainte* are in lesson text.
+  - Not taught, now new vocab: *par contre*, *s'écrier*, *se mettre à*, *à l'aube*, *le récit*, *à en croire*, *selon toute vraisemblance*, *sous réserve de*, and *penser/croire* in questions.
+- docs/c1-coverage.md now says the map is incomplete and to check with c1-find.ts. review-needed.md "C1 plan" gained 5 items, with 2 rewritten and 1 removed (*porter plainte*, verified). docs/review/c1-plan.txt regenerated.
+- Checks: validate:content OK, build OK.

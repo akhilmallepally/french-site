@@ -1514,14 +1514,18 @@ Every date, tradition and regional detail, for checking:
 ## C1 plan
 
 - **c1-passe-simple:** the irregular stems listed in docs/plans/c1/unit-1.md (*je fus, j'eus, je fis, je vins, je tins, je vis, je naquis, il mourut*), and the model sentence *Le roi entra, regarda la foule et se tut*. Confirm.
-- **c1-passe-anterieur:** "used after quand, lorsque, dès que, après que, à peine… que when the main verb is in the passé simple". Confirm.
+- **c1-passe-anterieur:** "used after quand, lorsque, dès que, après que, aussitôt que, à peine… que when the main verb is in the passé simple"; "its spoken equivalent is the passé composé or the passé surcomposé (quand il a eu fini, il est parti), not the plus-que-parfait". Confirm.
 - **c1-imperfect-subjunctive:** "where they appear (classic literature, very formal writing)"; is any light production in formal writing still natural today?
 - **c1-stylistic-inversion:** the list of adverbs that trigger inversion (*à peine, ainsi, du moins, encore*): which make inversion required, and which optional?
 - **c1-ne-expletif:** after comparisons (*plus que je ne pensais*) and *empêcher que*. Confirm the register.
-- **c1-concession-and-hypothesis:** *quand bien même* + conditionnel; *pour peu que*, *à supposer que*, *si tant est que* + subjunctive; the inverted conditional as literary. Confirm.
-- **c1-collocations:** is *porter plainte* already taught at B1? (check b1-making-a-complaint)
+- **c1-concession-and-hypothesis:** quand bien même + conditionnel; pour peu que, à supposer que, si tant est que + subjunctive; the inverted hypothesis *Fût-il malade, il viendrait* and *Serait-il malade, il viendrait*: are both literary, and are both still used?
 - **c1-culture-literary-canon, c1-culture-french-poetry, c1-culture-enlightenment:** periods, authors and dates to be chosen; public-domain status of every author quoted.
 - **c1-culture-may-68:** the neutral summary of May 1968 (dates, events, legacy debates).
 - **c1-culture-regional-languages, c1-culture-francophonie:** the status of each regional language and the OIF facts; no speaker figures.
 - **c1-culture-laicite-and-institutions:** how laïcité is applied in schools and public services.
 - **c1-law-and-institutions:** the roles of the Conseil d'État, tribunals and *recours*.
+- **c1-passe-simple:** the third-person forms listed for recognition (*il dit, il prit, il mit, il put, il voulut, il sut, il crut, il lut, il vécut, il écrivit, il connut, il courut, il naquit, il mourut*) and "not in everyday speech or in modern dialogue". Confirm.
+- **c1-culture-french-poetry:** the original poem (syllable counts, mute e, diérèse), once written and checked by scan-alexandrines.ts.
+- **Quotation safe list (CLAUDE.md):** authors who died before 1900; confirm the reasoning about French copyright terms (wartime and "mort pour la France" extensions) before relying on it.
+- **c1-exam-oral-presentation, c1-exam-written-tasks:** any sentence that describes the DALF itself (none planned; the lessons are practice only).
+- **c1-ne-expletif, c1-stylistic-inversion:** which uses are required, optional or old-fashioned today.

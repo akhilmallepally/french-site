@@ -427,94 +427,93 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 |---|---|---|---|---|---|---|
 | 1 | c1-passe-simple | The passé simple | Literary French | grammar | b1-plus-que-parfait, b2-arts-and-literature | Recognition and formation; its role in written narrative vs the passé composé. Reuses: literature, fairy tales. |
 | 2 | c1-passe-anterieur | The passé antérieur | Literary French | grammar | c1-passe-simple | Formation; quand / dès que / à peine… que in literary narrative. Reuses: literature. |
-| 3 | c1-imperfect-subjunctive | Imperfect and pluperfect subjunctive | Literary French | grammar | c1-passe-simple, b2-subjonctif-passe | Recognition in classic texts (qu'il fût, qu'il eût été); modern replacements. Reuses: literature, history. |
-| 4 | c1-reading-literary-narrative | Reading literary narrative | Literary French | communication | c1-passe-anterieur, c1-imperfect-subjunctive | Strategies for classic prose; style indirect libre; narrative tense systems. |
-| 5 | c1-culture-literary-canon | The French literary canon | Literary French | culture | c1-passe-simple | Molière to Camus and Ernaux: who's who and why they matter. |
-| 6 | c1-culture-french-poetry | French poetry | Literary French | culture | c1-culture-literary-canon | Versification (alexandrin, rime), Hugo, Baudelaire, Rimbaud, Prévert. |
-| 7 | c1-review-literary | Review: Literary French | Literary French | review | c1-reading-literary-narrative, c1-culture-french-poetry | Rewrite a literary passage in modern spoken French and analyse its tenses. |
+| 3 | c1-future-in-the-past | The future in the past and tense nuance | Literary French | grammar | b2-reported-speech-past, b2-futur-anterieur | Aller (imparfait) + infinitive for a future seen from the past; tense choice in formal reports. Reuses: project reporting, finance. |
+| 4 | c1-imperfect-subjunctive | Imperfect and pluperfect subjunctive | Literary French | grammar | c1-passe-simple, b2-subjonctif-passe | Recognition in classic texts (qu'il fût, qu'il eût été); modern replacements. Reuses: literature, history. |
+| 5 | c1-reading-literary-narrative | Reading literary narrative | Literary French | communication | c1-passe-anterieur, c1-imperfect-subjunctive | Strategies for classic prose; style indirect libre; narrative tense systems. |
+| 6 | c1-culture-literary-canon | The French literary canon | Literary French | culture | c1-passe-simple | Molière to Camus and Ernaux: who's who and why they matter. |
+| 7 | c1-culture-french-poetry | French poetry | Literary French | culture | c1-culture-literary-canon | Versification (alexandrin, rime), Hugo, Baudelaire, Rimbaud, Prévert. |
+| 8 | c1-review-literary | Review: Literary French | Literary French | review | c1-reading-literary-narrative, c1-culture-french-poetry | Rewrite a literary passage in modern spoken French and analyse its tenses. |
 
 ### Unit 2: Style and emphasis
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 8 | c1-stylistic-inversion | Stylistic inversion | Style and emphasis | grammar | a1-yes-no-questions, b2-registers | After peut-être, ainsi, sans doute, à peine; in reported-speech incises (dit-il). Reuses: literature, formal writing. |
-| 9 | c1-ne-expletif | The ne explétif | Style and emphasis | grammar | b2-subjunctive-conjunctions | After avant que, à moins que, de peur que, craindre que, plus… que. Reuses: formal writing, debate. |
-| 10 | c1-literary-negation | Literary negation | Style and emphasis | grammar | b1-ne-que-ni-ni, c1-ne-expletif | ne without pas (je ne saurais, je n'ose, je ne cesse de), nul, guère. Reuses: literature, correspondence. |
-| 11 | c1-dislocation-and-fronting | Dislocation and fronting | Style and emphasis | grammar | b2-mise-en-relief | Ce livre, je l'ai adoré; moi, je…; spoken vs written emphasis. Reuses: opinions, arts. |
-| 12 | c1-adverb-placement | Adverb placement and nuance | Style and emphasis | grammar | a2-adverbs-ment, b2-participles-and-gerund | Position and meaning shifts (seulement, même, bien); sentence adverbs. Reuses: formal writing. |
-| 13 | c1-precise-verbs | Precise verbs | Style and emphasis | vocabulary | b2-reporting-verbs | Replacing dire, faire, mettre, avoir, il y a with exact verbs. |
-| 14 | c1-collocations | Collocations | Style and emphasis | vocabulary | c1-precise-verbs | Natural word pairings: prendre une décision, émettre une hypothèse, un vif intérêt. |
-| 15 | c1-review-style | Review: Style and emphasis | Style and emphasis | review | c1-stylistic-inversion, c1-literary-negation, c1-dislocation-and-fronting, c1-adverb-placement, c1-collocations | Elevate a plain text into polished written French. |
+| 9 | c1-stylistic-inversion | Stylistic inversion | Style and emphasis | grammar | a1-yes-no-questions, b2-registers | After peut-être, ainsi, sans doute, à peine; in reported-speech incises (dit-il). Reuses: literature, formal writing. |
+| 10 | c1-ne-expletif | The ne explétif | Style and emphasis | grammar | b2-subjunctive-conjunctions | After avant que, à moins que, de peur que, craindre que, plus… que. Reuses: formal writing, debate. |
+| 11 | c1-literary-negation | Literary negation | Style and emphasis | grammar | b1-ne-que-ni-ni, c1-ne-expletif | ne without pas (je ne saurais, je n'ose, je ne cesse de), nul, guère. Reuses: literature, correspondence. |
+| 12 | c1-dislocation-and-fronting | Dislocation and fronting | Style and emphasis | grammar | b2-mise-en-relief | Ce livre, je l'ai adoré; moi, je…; spoken vs written emphasis. Reuses: opinions, arts. |
+| 13 | c1-adverb-placement | Adverb placement and nuance | Style and emphasis | grammar | a2-adverbs-ment, b2-participles-and-gerund | Position and meaning shifts (seulement, même, bien); sentence adverbs. Reuses: formal writing. |
+| 14 | c1-tricky-prepositions | Tricky prepositions | Style and emphasis | grammar | a2-verbs-with-a-and-de, b2-relative-prepositions | Nuanced à / de / en / par / pour / dans; verbs whose meaning changes with the preposition. Reuses: ideas, technology. |
+| 15 | c1-precise-verbs | Precise verbs | Style and emphasis | vocabulary | b2-reporting-verbs | Replacing dire, faire, mettre, avoir, il y a with exact verbs. |
+| 16 | c1-collocations | Collocations | Style and emphasis | vocabulary | c1-precise-verbs | Natural word pairings: prendre une décision, émettre une hypothèse, un vif intérêt. |
+| 17 | c1-review-style | Review: Style and emphasis | Style and emphasis | review | c1-stylistic-inversion, c1-literary-negation, c1-dislocation-and-fronting, c1-adverb-placement, c1-collocations | Elevate a plain text into polished written French. |
 
 ### Unit 3: Academic writing
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 16 | c1-participle-clauses | Participle clauses | Academic writing | grammar | b2-participles-and-gerund, b2-infinitif-passe | Ayant terminé…, une fois le projet fini, absolute constructions. Reuses: reports, science. |
-| 17 | c1-advanced-connectors | Advanced connectors | Academic writing | grammar | b2-logical-connectors | toujours est-il que, quitte à, faute de, dès lors que, à supposer que, si tant est que. Reuses: essays, debate. |
-| 18 | c1-conditionnel-journalistique | Hedging and the journalistic conditional | Academic writing | grammar | b2-reported-speech-past, b2-certainty-and-probability | Le ministre aurait démissionné; selon…; attributing claims precisely. Reuses: news, science. |
-| 19 | c1-abstract-nouns | Abstract nouns | Academic writing | vocabulary | b2-nominalisation | Concepts and processes: l'enjeu, la démarche, la mise en œuvre, le recul. |
-| 20 | c1-synthesis | The synthèse de documents | Academic writing | communication | c1-advanced-connectors, b2-summarizing-an-article | Combining several sources into one structured, neutral text. |
-| 21 | c1-dissertation | The French dissertation | Academic writing | communication | c1-synthesis, b2-argumentative-essay | Problématique, plan dialectique / thématique, transitions. |
-| 22 | c1-review-academic | Review: Academic writing | Academic writing | review | c1-participle-clauses, c1-conditionnel-journalistique, c1-abstract-nouns, c1-dissertation | Plan and write a dissertation introduction. |
+| 18 | c1-participle-clauses | Participle clauses | Academic writing | grammar | b2-participles-and-gerund, b2-infinitif-passe | Ayant terminé…, une fois le projet fini, absolute constructions. Reuses: reports, science. |
+| 19 | c1-formal-relatives-and-apposition | Formal relatives and apposition | Academic writing | grammar | c1-participle-clauses | dont and lequel in long sentences, ce dont / ce à quoi, apposition and detached adjectives. |
+| 20 | c1-advanced-connectors | Advanced connectors and academic hedging | Academic writing | grammar | b2-logical-connectors | or, en revanche (recap); dès lors, en l'occurrence, a fortiori, à cet égard, par contre (register); hedging with à en croire, selon toute vraisemblance, sous réserve de. |
+| 21 | c1-concession-and-hypothesis | Concession and hypothesis at C1 | Academic writing | grammar | c1-subjunctive-nuances | quand bien même + conditionnel, pour peu que, à supposer que, si tant est que, encore que. |
+| 22 | c1-abstract-nouns | Abstract nouns | Academic writing | vocabulary | b2-nominalisation | Concepts and processes: l'enjeu, la démarche, la mise en œuvre, le recul. |
+| 23 | c1-synthesis | The synthèse de documents | Academic writing | communication | c1-advanced-connectors, b2-summarizing-an-article | Combining several sources into one structured, neutral text. |
+| 24 | c1-dissertation | The French dissertation | Academic writing | communication | c1-synthesis, b2-argumentative-essay | Problématique, plan dialectique / thématique, transitions. |
+| 25 | c1-review-academic | Review: Academic writing | Academic writing | review | c1-participle-clauses, c1-advanced-connectors, c1-abstract-nouns, c1-dissertation | Plan and write a dissertation introduction. |
 
 ### Unit 4: Debate and rhetoric
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 23 | c1-rhetorical-devices | Rhetorical devices | Debate and rhetoric | vocabulary | b2-persuasion-and-hedging | Anaphora, antithesis, litotes, hyperbole, rhetorical questions, recognising them in speeches. |
-| 24 | c1-subjunctive-nuances | Subjunctive nuances | Debate and rhetoric | grammar | b2-subjunctive-relative-clauses, b2-subjonctif-passe | After superlatives (le seul qui sache), qui que / quoi que / où que, initial que (Qu'il vienne !). Reuses: debate, opinions. |
-| 25 | c1-formal-debate | Formal debate | Debate and rhetoric | communication | c1-rhetorical-devices, c1-advanced-connectors | Structured debate, moderating, conceding and turning arguments. |
-| 26 | c1-public-speaking | Speeches and presentations | Debate and rhetoric | communication | c1-rhetorical-devices | Writing a speech: opening hooks, signposting, closing strongly. |
-| 27 | c1-irony-and-understatement | Irony and understatement | Debate and rhetoric | communication | c1-rhetorical-devices | Litotes (ce n'est pas mal), antiphrasis, understatement in everyday French. |
-| 28 | c1-culture-satire-and-humour | Satire and humour | Debate and rhetoric | culture | c1-irony-and-understatement | Satirical press, political cartoons, stand-up, wordplay. |
-| 29 | c1-review-rhetoric | Review: Debate and rhetoric | Debate and rhetoric | review | c1-subjunctive-nuances, c1-formal-debate, c1-public-speaking, c1-culture-satire-and-humour | Write and annotate a persuasive speech. |
+| 26 | c1-rhetorical-devices | Rhetorical devices | Debate and rhetoric | vocabulary | b2-persuasion-and-hedging | Anaphora, antithesis, litotes, hyperbole, rhetorical questions, recognising them in speeches. |
+| 27 | c1-subjunctive-nuances | Subjunctive nuances | Debate and rhetoric | grammar | b2-subjunctive-relative-clauses, b2-subjonctif-passe | After superlatives (le seul qui sache), qui que / quoi que / où que, initial que (Qu'il vienne !). Reuses: debate, opinions. |
+| 28 | c1-formal-debate | Formal debate | Debate and rhetoric | communication | c1-rhetorical-devices, c1-advanced-connectors | Structured debate, moderating, conceding and turning arguments. |
+| 29 | c1-public-speaking | Speeches and presentations | Debate and rhetoric | communication | c1-rhetorical-devices | Writing a speech: opening hooks, signposting, closing strongly. |
+| 30 | c1-irony-and-understatement | Irony and understatement | Debate and rhetoric | communication | c1-rhetorical-devices | Litotes (ce n'est pas mal), antiphrasis, understatement in everyday French. |
+| 31 | c1-culture-satire-and-humour | Satire and humour | Debate and rhetoric | culture | c1-irony-and-understatement | Satirical press, political cartoons, stand-up, wordplay. |
+| 32 | c1-review-rhetoric | Review: Debate and rhetoric | Debate and rhetoric | review | c1-subjunctive-nuances, c1-formal-debate, c1-public-speaking, c1-culture-satire-and-humour | Write and annotate a persuasive speech. |
 
 ### Unit 5: Professional mastery
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 30 | c1-law-and-institutions | Law and institutions | Professional mastery | vocabulary | b2-politics-and-society | Courts, contracts, rights, legal register: le tribunal, la plainte, en vertu de. |
-| 31 | c1-finance-and-economics | Finance and economics | Professional mastery | vocabulary | b2-economy-and-business | Markets, investment, public finances, economic policy. |
-| 32 | c1-future-in-the-past | The future in the past and tense nuance | Professional mastery | grammar | b2-reported-speech-past, b2-futur-anterieur | Aller (imparfait) + infinitive for a future seen from the past; tense choice in formal reports. Reuses: project reporting, finance. |
-| 33 | c1-diplomatic-language | Diplomatic language | Professional mastery | communication | b2-persuasion-and-hedging, b2-conditionnel-passe | Tactful refusals, softened criticism, face-saving phrasing. |
-| 34 | c1-formal-correspondence | High-register correspondence | Professional mastery | communication | b1-formal-email, b2-registers | Formules de politesse, official letters, administrative French. |
-| 35 | c1-leading-a-meeting | Leading a meeting | Professional mastery | communication | b2-meetings-and-calls, c1-diplomatic-language | Chairing, managing disagreement, steering to a decision. |
-| 36 | c1-review-professional | Review: Professional mastery | Professional mastery | review | c1-law-and-institutions, c1-finance-and-economics, c1-future-in-the-past, c1-formal-correspondence, c1-leading-a-meeting | Write formal correspondence on a sensitive professional issue. |
+| 33 | c1-law-and-institutions | Law and institutions | Professional mastery | vocabulary | b2-politics-and-society | Courts, contracts, rights, legal register: le tribunal, la plainte, en vertu de. |
+| 34 | c1-finance-and-economics | Finance and economics | Professional mastery | vocabulary | b2-economy-and-business | Markets, investment, public finances, economic policy. |
+| 35 | c1-diplomatic-language | Diplomatic language | Professional mastery | communication | b2-persuasion-and-hedging, b2-conditionnel-passe | Tactful refusals, softened criticism, face-saving phrasing. |
+| 36 | c1-formal-correspondence | High-register correspondence | Professional mastery | communication | b1-formal-email, b2-registers | Formules de politesse, official letters, administrative French. |
+| 37 | c1-leading-a-meeting | Leading a meeting | Professional mastery | communication | b2-meetings-and-calls, c1-diplomatic-language | Chairing, managing disagreement, steering to a decision. |
+| 38 | c1-review-professional | Review: Professional mastery | Professional mastery | review | c1-law-and-institutions, c1-finance-and-economics, c1-future-in-the-past, c1-formal-correspondence, c1-leading-a-meeting | Write formal correspondence on a sensitive professional issue. |
 
 ### Unit 6: Ideas and society
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 37 | c1-philosophy-and-ideas | Philosophy and ideas | Ideas and society | vocabulary | c1-abstract-nouns | Philosophical vocabulary: la liberté, l'éthique, le libre arbitre, la conscience. |
-| 38 | c1-culture-enlightenment | The Enlightenment | Ideas and society | culture | c1-philosophy-and-ideas | Voltaire, Rousseau, Diderot, Montesquieu, and their legacy today. |
-| 39 | c1-culture-may-68 | May 68 and modern France | Ideas and society | culture | b2-culture-french-history | May 68, its slogans, and how it shaped French society. |
-| 40 | c1-technology-ethics | Technology and ethics | Ideas and society | vocabulary | b2-science-and-research | AI, privacy, bioethics, surveillance, digital rights. |
-| 41 | c1-culture-auteur-cinema | Auteur cinema | Ideas and society | culture | b1-culture-french-cinema | The auteur tradition from Truffaut to today; reading film criticism. |
-| 42 | c1-tricky-prepositions | Tricky prepositions | Ideas and society | grammar | a2-verbs-with-a-and-de, b2-relative-prepositions | Nuanced à / de / en / par / pour / dans; verbs whose meaning changes with the preposition. Reuses: ideas, technology. |
-| 43 | c1-review-ideas | Review: Ideas and society | Ideas and society | review | c1-culture-enlightenment, c1-culture-may-68, c1-technology-ethics, c1-culture-auteur-cinema, c1-tricky-prepositions | Essay connecting an Enlightenment idea to a current debate. |
+| 39 | c1-philosophy-and-ideas | Philosophy and ideas | Ideas and society | vocabulary | c1-abstract-nouns | Philosophical vocabulary: la liberté, l'éthique, le libre arbitre, la conscience. |
+| 40 | c1-culture-enlightenment | The Enlightenment | Ideas and society | culture | c1-philosophy-and-ideas | Voltaire, Rousseau, Diderot, Montesquieu, and their legacy today. |
+| 41 | c1-culture-may-68 | May 68 and modern France | Ideas and society | culture | b2-culture-french-history | May 68, its slogans, and how it shaped French society. |
+| 42 | c1-technology-ethics | Technology and ethics | Ideas and society | vocabulary | b2-science-and-research | AI, privacy, bioethics, surveillance, digital rights. |
+| 43 | c1-culture-auteur-cinema | Auteur cinema | Ideas and society | culture | b1-culture-french-cinema | The auteur tradition from Truffaut to today; reading film criticism. |
+| 44 | c1-review-ideas | Review: Ideas and society | Ideas and society | review | c1-culture-enlightenment, c1-culture-may-68, c1-technology-ethics, c1-culture-auteur-cinema, c1-tricky-prepositions | Essay connecting an Enlightenment idea to a current debate. |
 
 ### Unit 7: Living the language
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 44 | c1-proverbs-and-sayings | Proverbs and sayings | Living the language | vocabulary | b2-idioms-everyday | Common proverbs and how they're used, often half-quoted. |
-| 45 | c1-advanced-idioms | Advanced idioms | Living the language | vocabulary | b2-idioms-everyday, b2-idiomatic-y-en | Idioms by theme: work, money, emotions, conflict. |
-| 46 | c1-culture-regional-languages | Regional languages | Living the language | culture | b2-culture-francophone-africa | Breton, Occitan, Alsatian, Basque, Corsican, Creoles; language policy in France. |
-| 47 | c1-culture-francophonie | La Francophonie | Living the language | culture | c1-culture-regional-languages | The OIF and language policy; French as an official and working language; how its status differs by country (geography is covered in a2-culture-francophone-world). |
-| 48 | c1-register-shifting | Shifting register on demand | Living the language | communication | b2-colloquial-french, c1-formal-correspondence | Rewriting the same message from slang to administrative French. |
-| 49 | c1-review-living | Review: Living the language | Living the language | review | c1-proverbs-and-sayings, c1-advanced-idioms, c1-culture-francophonie, c1-register-shifting | Rewrite one text in three registers, with proverbs and idioms. |
+| 45 | c1-proverbs-and-sayings | Proverbs and sayings | Living the language | vocabulary | b2-idioms-everyday | Common proverbs and how they're used, often half-quoted. |
+| 46 | c1-advanced-idioms | Advanced idioms | Living the language | vocabulary | b2-idioms-everyday, b2-idiomatic-y-en | Idioms by theme: work, money, emotions, conflict. |
+| 47 | c1-culture-regional-languages | Regional languages | Living the language | culture | b2-culture-francophone-africa | Breton, Occitan, Alsatian, Basque, Corsican, Creoles; language policy in France. |
+| 48 | c1-culture-francophonie | La Francophonie | Living the language | culture | c1-culture-regional-languages | The OIF and language policy; French as an official and working language; how its status differs by country (geography is covered in a2-culture-francophone-world). |
+| 49 | c1-register-shifting | Shifting register on demand | Living the language | communication | b2-colloquial-french, c1-formal-correspondence | Rewriting the same message from slang to administrative French. |
+| 50 | c1-review-living | Review: Living the language | Living the language | review | c1-proverbs-and-sayings, c1-advanced-idioms, c1-culture-francophonie, c1-register-shifting | Rewrite one text in three registers, with proverbs and idioms. |
 
 ### Unit 8: Towards DALF C1
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 50 | c1-concession-and-hypothesis | Concession and hypothesis at C1 | Towards DALF C1 | grammar | c1-subjunctive-nuances | quand bien même + conditionnel, pour peu que, à supposer que, si tant est que, encore que. |
-| 51 | c1-formal-relatives-and-apposition | Formal relatives and apposition | Towards DALF C1 | grammar | c1-participle-clauses | dont and lequel in long sentences, ce dont / ce à quoi, apposition and detached adjectives. |
-| 52 | c1-euphemism-and-synonyms | Euphemism and nuance in synonyms | Towards DALF C1 | vocabulary | c1-precise-verbs | Softened words, near-synonyms by register and strength. |
-| 53 | c1-spoken-discourse-markers | Spoken discourse markers | Towards DALF C1 | vocabulary | c1-register-shifting | enfin, bon, quand même, tiens, disons, en fait, justement in speech. |
-| 54 | c1-culture-laicite-and-institutions | Laïcité and the institutions | Towards DALF C1 | culture | c1-law-and-institutions | The 1905 law, how laïcité is applied, the Constitution and the main institutions, neutrally. |
-| 55 | c1-exam-oral-presentation | Practice: an oral presentation | Towards DALF C1 | communication | c1-public-speaking, c1-formal-debate | DALF-style practice: prepare and give a structured exposé from documents. |
-| 56 | c1-exam-written-tasks | Practice: synthesis and essay | Towards DALF C1 | communication | c1-synthesis, c1-dissertation | DALF-style practice: a synthesis from two documents and an argued essay. |
-| 57 | c1-review-towards-dalf | Review: Towards DALF C1 | Towards DALF C1 | review | c1-concession-and-hypothesis, c1-formal-relatives-and-apposition, c1-exam-written-tasks | A short argued text using the unit. |
-| 58 | c1-review-final | C1 final review | Towards DALF C1 | review | c1-review-literary, c1-review-style, c1-review-academic, c1-review-rhetoric, c1-review-professional, c1-review-ideas, c1-review-living, c1-review-towards-dalf, c1-culture-francophonie, c1-register-shifting | Whole-level recap; C1 can-do checklist. |
+| 51 | c1-euphemism-and-synonyms | Euphemism and nuance in synonyms | Towards DALF C1 | vocabulary | c1-precise-verbs | Softened words, near-synonyms by register and strength. |
+| 52 | c1-spoken-discourse-markers | Spoken discourse markers | Towards DALF C1 | vocabulary | c1-register-shifting | enfin, bon, quand même, tiens, disons, en fait, justement in speech. |
+| 53 | c1-culture-laicite-and-institutions | Laïcité and the institutions | Towards DALF C1 | culture | c1-law-and-institutions | The 1905 law, how laïcité is applied, the Constitution and the main institutions, neutrally. |
+| 54 | c1-exam-oral-presentation | Practice: a short exposé | Towards DALF C1 | communication | c1-public-speaking, c1-formal-debate | Practice: a short exposé from a short document (problématique, plan, examples, questions). No claims about the exam's rules, timing or scoring. |
+| 55 | c1-exam-written-tasks | Practice: synthesis and essay | Towards DALF C1 | communication | c1-synthesis, c1-dissertation | Practice: a synthesis of two documents and an argued essay. No claims about the exam's rules, timing or scoring. |
+| 56 | c1-review-towards-dalf | Review: Towards DALF C1 | Towards DALF C1 | review | c1-concession-and-hypothesis, c1-formal-relatives-and-apposition, c1-exam-written-tasks | A short argued text using the unit. |
+| 57 | c1-review-final | C1 final review | Towards DALF C1 | review | c1-review-literary, c1-review-style, c1-review-academic, c1-review-rhetoric, c1-review-professional, c1-review-ideas, c1-review-living, c1-review-towards-dalf | Whole-level recap; C1 can-do checklist. |

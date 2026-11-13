@@ -1,0 +1,619 @@
+===== docs/plans/c1/overview.md =====
+
+# C1 plan: overview
+
+Status: plan only. No C1 lesson file is written. Rules: CLAUDE.md, "C1 conventions" (on top of the B2 conventions). Coverage of A1 to B2: docs/c1-coverage.md, checked with `node --experimental-strip-types scripts/c1-find.ts "phrase"`. Lesson numbers follow docs/syllabus.md.
+
+## Shape
+
+57 lessons in 8 units, with exactly one review at the end of each unit (the last unit ends with its review and the final review).
+
+| Unit | Title | Lessons | Count | Plan file |
+|---|---|---|---|---|
+| 1 | Literary French | 1 to 8 | 8 | unit-1.md |
+| 2 | Style and emphasis | 9 to 17 | 9 | unit-2.md |
+| 3 | Academic writing | 18 to 25 | 8 | unit-3.md |
+| 4 | Debate and rhetoric | 26 to 32 | 7 | unit-4.md |
+| 5 | Professional mastery | 33 to 38 | 6 | unit-5.md |
+| 6 | Ideas and society | 39 to 44 | 6 | unit-6.md |
+| 7 | Living the language | 45 to 50 | 6 | unit-7.md |
+| 8 | Towards DALF C1 | 51 to 57 | 7 | unit-8.md |
+
+**Vocab in the plans.** Each lesson's "key vocab" lists headline items only. The writer fills the lesson to the minimum (12 entries in grammar lessons, 15 elsewhere) with words used in complete sentences. Items marked "(recap)" are taught earlier and are not new words. Review lessons have 3 to 8 truly new words.
+
+## Writing order
+
+1. Unit 2 (clear grammar rules; mostly easier), then Unit 1 lessons 1 to 4 (the literary and narrative tenses).
+2. Unit 3 (it now holds concession and hypothesis and formal relatives, which Units 4 and 8 use) and Unit 5.
+3. Unit 4 and Unit 7.
+4. Unit 1 lessons 5 to 8 and Unit 6 (literature, ideas and culture; the quotation and fact rules make these harder).
+5. Unit 8 last, because its practice lessons and reviews draw on everything.
+
+Before writing, extend the B2 checks to C1: test:b2-exercises and scripts/b2-links-ids.ts, the C1 rows in audit:content (lengths, résumé 120 to 180, long texts 250 to 400), the C1 structure rules in check:structures (imparfait du subjonctif, passé antérieur, passé surcomposé), and scripts/scan-alexandrines.ts for the poetry lesson.
+
+## Decisions taken
+
+- **8 units**, with these moves from the first plan: c1-future-in-the-past to Unit 1; c1-tricky-prepositions to Unit 2; c1-formal-relatives-and-apposition and c1-concession-and-hypothesis to Unit 3, so the debate and essay lessons can use them.
+- **Hedging:** B2 already teaches the rumour conditionnel and hedging (b2-conditionnel-passe, b2-nuancing-opinions, b2-persuasion-and-hedging). What's new (*à en croire*, *selon toute vraisemblance*, *sous réserve de*) is too little for a lesson, so c1-conditionnel-journalistique is merged into c1-advanced-connectors ("Advanced connectors and academic hedging"). Total: 57 lessons.
+- **The imparfait du subjonctif** is never required in a typed answer; where it's possible, the present or passé subjunctive is also accepted.
+- **Quotations** come only from the named safe list in CLAUDE.md (authors who died before 1900), under 15 words, in our own translations. Later authors are paraphrased or pastiched, and labelled.
+- **DALF practice** names no timings, task formats or scoring: "a short exposé from a short document", "a synthesis of two documents".
+
+## Still open
+
+- **Overlap to recap, not re-teach** (check each with c1-find.ts while writing):
+  - c1-passe-simple: the recognition section of b2-arts-and-literature.
+  - c1-stylistic-inversion: b2-registers.
+  - c1-ne-expletif: b2-subjunctive-conjunctions and b1-subjonctif-wishes-emotions.
+  - c1-dislocation-and-fronting: b2-mise-en-relief and b2-colloquial-french.
+  - c1-synthesis and c1-dissertation: b2-summarizing-an-article and b2-argumentative-essay.
+  - c1-future-in-the-past: b2-reported-speech-past.
+  - c1-leading-a-meeting and c1-formal-correspondence: b2-meetings-and-calls and b1-formal-email.
+- **Poetry:** if scan-alexandrines.ts can't verify a classical poem, the lesson uses free verse. Decide once the script exists.
+- **Facts for a native speaker:** docs/review-needed.md, "C1 plan".
+
+===== docs/plans/c1/unit-1.md =====
+
+# C1 Unit 1 plan: Literary French
+
+Status: plan only. Rules: CLAUDE.md, "C1 conventions". Key vocab lists headline items; fill to the minimum with new words; "(recap)" items aren't new.
+
+## 1. c1-passe-simple: The passé simple (grammar · easier)
+
+b2-review-final mentions this lesson as the start of C1 (as plain text; restore the LessonLink when the file exists).
+
+- **Recap (2 sentences):** recognition of the 3rd person and *fut, eut, fit, vint, prit* from b2-arts-and-literature; the passé composé and imparfait from A2 and B1.
+- **Teaches:**
+  - the three regular patterns, all persons: *-ai, -as, -a, -âmes, -âtes, -èrent*; *-is, -is, -it, -îmes, -îtes, -irent*; *-us, -us, -ut, -ûmes, -ûtes, -urent*
+  - full paradigms of *être (je fus)*, *avoir (j'eus)*, *faire (je fis)*, *venir / tenir (je vins, je tins)*, *voir (je vis)*
+  - third person, for recognition, of the verbs a reader meets most: *dire (il dit)*, *prendre (il prit)*, *mettre (il mit)*, *pouvoir (il put)*, *vouloir (il voulut)*, *savoir (il sut)*, *croire (il crut)*, *lire (il lut)*, *vivre (il vécut)*, *écrire (il écrivit)*, *connaître (il connut)*, *courir (il courut)*, *naître (il naquit)*, *mourir (il mourut)*
+  - use: the narrative past of written stories and history; the passé simple for events, the imparfait for background; not in everyday speech or in modern dialogue
+  - forms that look like the present (*il finit*, *il dit*) and how context decides
+- **Key vocab (new):** *le récit* (the narrative), *s'écrier* (to exclaim), *se mettre à* (to start to), *à l'aube* (at dawn). Recaps: *soudain* (a2-passe-compose-vs-imparfait), *s'apercevoir que* (b1-plus-que-parfait), *aussitôt que* (b1-time-connectors), *le narrateur* (b2-arts-and-literature), *le lendemain* and *à ce moment-là* (b2-reporting-verbs). Fill to 12 with narrative verbs and time words.
+- **Model examples:**
+  - *Le roi entra, regarda la foule et se tut.* (The king came in, looked at the crowd and fell silent.)
+  - *Ils partirent à l'aube et arrivèrent le soir.* (They left at dawn and arrived in the evening.)
+  - *Nous fûmes surpris : personne ne nous attendait.* (We were surprised: no one was waiting for us.)
+  - *« Attention ! » s'écria-t-elle, et tout le monde se mit à courir.* ("Watch out!" she cried, and everyone started running.)
+  - *Elle naquit à Lyon en 1820.* (She was born in Lyon in 1820.) [invented person]
+- **Exercises (16):** fill-in (forms, all persons); multiple-choice (passé simple or present: *il finit*); reformulation (passé composé → passé simple in a story); error-correction (*ils partèrent* → *partirent*); translate; connector-choice (passé simple or imparfait in a tale); reorder; a write-out of a five-sentence tale.
+- **Links:** b2-arts-and-literature, b1-plus-que-parfait, a2-telling-a-story, b2-culture-french-history.
+
+## 2. c1-passe-anterieur: The passé antérieur (grammar · easier)
+
+- **Teaches:** formation (*il eut fini, elle fut partie*); use after *quand, lorsque, dès que, après que, aussitôt que, à peine… que* when the main verb is in the passé simple. Its spoken equivalent is the passé composé or the passé surcomposé (*quand il a eu fini, il est parti*), not the plus-que-parfait: the plus-que-parfait pairs with the imparfait (*quand il avait fini, il partait*).
+- **Vocab (new):** *à peine… que*, *le passé surcomposé*. Recaps: *dès que* and *aussitôt que* (b1-time-connectors), *après que* (b2-subjunctive-conjunctions, text).
+- **Exercises:** fill-in; multiple-choice (choose the tense by the main verb's tense: passé simple → passé antérieur; passé composé → surcomposé; imparfait → plus-que-parfait); reformulation; translate; reorder.
+- **Links:** b1-plus-que-parfait, b1-time-connectors, b2-futur-anterieur.
+
+## 3. c1-future-in-the-past: The future in the past and tense nuance (grammar · easier)
+
+Moved from Unit 5: it belongs with the narrative tenses.
+
+- **Recap:** the conditionnel as future in the past in reported speech (b2-reported-speech-past).
+- **Teaches:** *allait* + infinitive versus the conditionnel; *devait* + infinitive (was to); the conditionnel passé as a future perfect in the past; the historical present in narrative.
+- **Vocab (new):** *devait* (was to), *ne pas tarder à*, *le présent de narration*. Recap: *allait* + infinitive.
+- **Exercises:** fill-in, reformulation, multiple-choice, translate.
+- **Links:** b2-reported-speech-past, b2-futur-anterieur, b2-conditionnel-passe.
+
+## 4. c1-imperfect-subjunctive: Imperfect and pluperfect subjunctive (grammar · harder)
+
+- **Teaches:** recognition of *qu'il fût, qu'il eût, qu'il fît, qu'il vînt* and *qu'il eût fini*; where they appear (classic literature, very formal writing); their modern equivalents. Never required in a typed answer; where it's possible, the present or passé subjunctive is accepted.
+- **Vocab (new):** *qu'il fût*, *qu'il eût*, *le registre littéraire*. Recap: *la concordance des temps* (b2-reported-speech-past).
+- **Exercises:** multiple-choice (identify), reformulation (to modern French), translate, fill-in with both forms accepted.
+- **Links:** b2-subjonctif-passe, b2-reported-speech-past, b2-registers.
+
+## 5. c1-reading-literary-narrative: Reading literary narrative (communication · harder)
+
+- **Teaches:** reading a narrative in the passé simple: tense pairs, free indirect speech (*le discours indirect libre*), point of view.
+- **Vocab (new):** *le point de vue*, *le discours indirect libre*, *l'intrigue*, *le dénouement*. Recap: *le personnage* (b1-cinema-and-books).
+- **Longer text:** an original pastiche of a 19th-century short story, labelled as invented, 300 to 350 words.
+- **Exercises:** multiple-choice (comprehension), reformulation (free indirect → reported speech), translate, write-out.
+- **Links:** b2-arts-and-literature, b2-reported-speech-past.
+
+## 6. c1-culture-literary-canon: The French literary canon (culture · harder)
+
+- **Teaches:** a short neutral overview: the classical 17th century, the Enlightenment (link to Unit 6), the 19th-century novel, the 20th century; how French schools read these works.
+- **Vocab (new):** *un classique*, *le roman réaliste*, *un courant littéraire*, *une œuvre majeure*.
+- **Quotations:** only authors on the CLAUDE.md safe list (died before 1900), under 15 words, our own translations. 20th-century authors are named with their works and paraphrased, never quoted.
+- **Links:** b2-arts-and-literature, a2-culture-french-school-system.
+- **Flags:** facts and dates to review.
+
+## 7. c1-culture-french-poetry: French poetry (culture · harder)
+
+- **Teaches:** the alexandrine and the sonnet, rhyme and rhythm, reading a poem aloud (the mute *e*, the diérèse); two or three poets from the safe list.
+- **Vocab (new):** *l'alexandrin*, *le sonnet*, *la césure*, *le e muet*, *la diérèse*.
+- **Longer text:** an original poem in classical form, labelled as written for the lesson, with a commentary. Each line's syllable count (with the mute *e* and diérèse rules) is checked by scripts/scan-alexandrines.ts, written with the lesson; the lesson is listed in docs/review-needed.md for the native speaker. If a verse can't be verified, the poem is in free verse.
+- **Quotations:** safe-list poets only, under 15 words, our own translations.
+- **Links:** b2-arts-and-literature.
+
+## 8. c1-review-literary: Review: Literary French (review · easier)
+
+- **New words (3 to 8):** *le style*, *une tournure*, *pasticher*. Recap: *soutenu* (b2-registers).
+- **Model:** an original tale of 300 words in the passé simple and imparfait, with one passé antérieur and one recognized imparfait du subjonctif.
+- **Exercises:** one per lesson of the unit, plus reformulation, error-correction and a write-out.
+
+===== docs/plans/c1/unit-2.md =====
+
+# C1 Unit 2 plan: Style and emphasis
+
+Status: plan only. Rules: CLAUDE.md, "C1 conventions". Mostly easier to write: rules are clear and B2 has the models.
+
+## 9. c1-stylistic-inversion: Stylistic inversion (grammar · easier)
+
+- **Recap:** complex inversion and inversion after *peut-être*, *sans doute*, *aussi* (b2-registers).
+- **Teaches:** inversion after *à peine*, *ainsi*, *du moins*, *encore*; after direct speech (*dit-il*, *répondit-elle*); when inversion is required, optional or wrong (a rule of thumb where usage varies).
+- **Vocab (new):** *du moins*, *encore* (= even so), *toujours est-il que*. Recap: *à peine… que* (c1-passe-anterieur).
+- **Exercises:** reformulation, error-correction, fill-in, multiple-choice, reorder.
+- **Links:** b2-registers, a1-yes-no-questions.
+
+## 10. c1-ne-expletif: The ne explétif (grammar · easier)
+
+- **Recap:** *avant que… ne*, *à moins que… ne* (b2-subjunctive-conjunctions); *avoir peur que… ne* (b1-subjonctif-wishes-emotions); *de crainte que* (b2-purpose-expressions).
+- **Teaches:** after comparisons (*plus que je ne pensais*), *empêcher que*, *éviter que*; its register; how to tell it from a negation.
+- **Vocab (new):** *empêcher que*, *il s'en faut de peu que*, *plus… que je ne*.
+- **Exercises:** multiple-choice (negative or expletive?), fill-in, translate, reformulation.
+- **Links:** b2-subjunctive-conjunctions, b2-purpose-expressions.
+
+## 11. c1-literary-negation: Literary negation (grammar · easier)
+
+- **Recap:** *ne… guère* and *ne* alone with *pouvoir, savoir* (b2-registers); *ne… que* and *ni… ni* (b1-ne-que-ni-ni).
+- **Teaches:** *ne… point*, *ne… nullement*, *ne… aucunement*, *nul ne*, *ne* alone with *oser* and *cesser*.
+- **Vocab (new):** *ne… point*, *nullement*, *nul ne*, *je n'ose*.
+- **Exercises:** register-shift (literary → standard), multiple-choice, fill-in, translate.
+- **Links:** b2-registers, b1-ne-que-ni-ni.
+
+## 12. c1-dislocation-and-fronting: Dislocation and fronting (grammar · easier)
+
+- **Recap:** *c'est… qui / que* and *ce qui…, c'est* (b2-mise-en-relief); the repeated subject in speech (b2-colloquial-french).
+- **Teaches:** left and right dislocation (*ce film, je l'ai adoré*; *je l'ai adoré, ce film*); fronting in writing (*Rares sont ceux qui…*, *Reste la question de…*); choosing emphasis by register.
+- **Vocab (new):** *rares sont ceux qui*, *reste à savoir*. Recap: *toujours est-il que* (lesson 9).
+- **Exercises:** reformulation, register-shift, reorder, error-correction.
+- **Links:** b2-mise-en-relief, b2-colloquial-french.
+
+## 13. c1-adverb-placement: Adverb placement and nuance (grammar · easier)
+
+- **Teaches:** adverbs that change meaning by position (*seulement*, *même*, *aussi*), sentence adverbs (*heureusement*, *visiblement*), long adverbs in compound tenses.
+- **Vocab (new):** *visiblement*, *décidément*, *forcément*. Recap: *apparemment* (b1-conditionnel-present).
+- **Exercises:** multiple-choice, reorder, reformulation, translate.
+- **Links:** a2-adverbs-ment, b2-certainty-and-probability.
+
+## 14. c1-tricky-prepositions: Tricky prepositions (grammar · easier)
+
+Moved from Unit 6: it's a precision point, like the rest of this unit.
+
+- **Teaches:** verbs with two constructions (*manquer à / manquer de*, *penser à / penser de*, *tenir à / tenir de*), prepositions with islands and regions, *de* versus *par* after the passive (recap of b2-passive-voice).
+- **Vocab (new):** *manquer à*, *tenir de*, *penser de* (an opinion).
+- **Exercises:** fill-in, error-correction, multiple-choice.
+- **Links:** a2-verbs-with-a-and-de, b2-passive-voice, a2-prepositions-with-places.
+
+## 15. c1-precise-verbs: Precise verbs (vocabulary · easier)
+
+- **Teaches:** replacing *faire, mettre, dire, avoir* with precise verbs.
+- **Vocab (new, 20 to 25):** *effectuer*, *établir*, *disposer de*, *aborder*, *susciter*, *engendrer*.
+- **Exercises:** reformulation, fill-in, register-shift, translate.
+- **Links:** b2-reporting-verbs, b2-nominalisation.
+
+## 16. c1-collocations: Collocations (vocabulary · easier)
+
+- **Teaches:** fixed noun + verb and noun + adjective pairs.
+- **Vocab (new):** *émettre une hypothèse*, *une vive inquiétude*, *un rôle clé*, *prendre en compte*. Recap: *porter plainte* (b1-making-a-complaint, text).
+- **Exercises:** connector-choice (the right verb), fill-in, error-correction, translate.
+- **Links:** b2-science-and-research, b1-making-a-complaint.
+
+## 17. c1-review-style: Review: Style and emphasis (review · easier)
+
+- **New words (3 to 8):** *la mise en valeur*, *un effet de style*, *la sobriété*. Recap: *sobre* (b2-describing-a-work-of-art).
+- **Model:** a short editorial (300 words) using inversion, dislocation, a literary negation and precise verbs.
+
+===== docs/plans/c1/unit-3.md =====
+
+# C1 Unit 3 plan: Academic writing
+
+Status: plan only. Rules: CLAUDE.md, "C1 conventions". It now holds formal relatives and concession and hypothesis, so the debate (Unit 4) and the DALF practice (Unit 8) can use them.
+
+## 18. c1-participle-clauses: Participle clauses (grammar · easier)
+
+- **Recap:** the participe présent, *ayant fini*, the gérondif and the verbal adjective (b2-participles-and-gerund).
+- **Teaches:** the absolute participle clause (*La réunion terminée, chacun partit*), *étant donné* and *vu* as fixed participles, the dangling participle as a mistake (the test: the same subject).
+- **Vocab (new):** *compte tenu de*, *une fois… terminé*. Recaps: *étant donné* (b2-participles-and-gerund), *vu*.
+- **Exercises:** reformulation, error-correction (dangling participle), fill-in, translate.
+- **Links:** b2-participles-and-gerund, b2-infinitif-passe.
+
+## 19. c1-formal-relatives-and-apposition: Formal relatives and apposition (grammar · easier)
+
+Moved from Unit 8.
+
+- **Recap:** *dont* (b1-relative-dont), *lequel* and its forms, *au cours duquel* (b2-relative-lequel), *ce dont / ce à quoi* (b2-relative-prepositions).
+- **Teaches:** *dont* + noun in long sentences (*l'auteur dont on connaît l'œuvre*), *duquel* after a preposition phrase (*à l'issue duquel*), apposition and detached adjectives (*Fatiguée, elle rentra*), commas in formal prose.
+- **Vocab (new):** *à l'issue de laquelle*, *l'apposition*, *en raison duquel*.
+- **Exercises:** reformulation (two sentences → one), error-correction, reorder.
+- **Links:** b2-relative-lequel, b2-relative-prepositions, c1-participle-clauses.
+
+## 20. c1-advanced-connectors: Advanced connectors and academic hedging (grammar · easier)
+
+Merges the planned c1-conditionnel-journalistique: B2 already teaches the rumour conditionnel and hedging, and the new hedging items are too few for a lesson.
+
+- **Recap:** the B2 connectors (docs/c1-coverage.md), including *or* (b2-logical-connectors) and *en revanche* (b2-concession-opposition), with C1 usage notes; the rumour conditionnel (b2-conditionnel-passe) and hedging (b2-nuancing-opinions, b2-persuasion-and-hedging).
+- **Teaches (new):** *dès lors*, *en l'occurrence*, *a fortiori*, *à cet égard*; *par contre* versus *en revanche* as a register point; academic hedging with *à en croire*, *selon toute vraisemblance*, *sous réserve de*.
+- **Vocab (new):** *dès lors*, *en l'occurrence*, *a fortiori*, *à cet égard*, *par contre*, *à en croire*, *selon toute vraisemblance*, *sous réserve de*.
+- **Exercises:** connector-choice, reformulation (fact → hedged), error-correction, translate.
+- **Links:** b2-logical-connectors, b2-concession-opposition, b2-conditionnel-passe.
+
+## 21. c1-concession-and-hypothesis: Concession and hypothesis at C1 (grammar · harder)
+
+Moved from Unit 8, after the connectors.
+
+- **Recap:** *bien que*, *quoique*, *même si* (b2-concession-opposition); *si* + plus-que-parfait and mixed conditionals (b2-si-plus-que-parfait, b2-mixed-conditionals); *au cas où* + conditionnel (b2-mixed-conditionals, verified).
+- **Teaches:** *quand bien même* + conditionnel; *pour peu que*, *à supposer que*, *si tant est que* + subjunctive; *encore que*; the inverted hypothesis, both literary: *Fût-il malade, il viendrait* (imparfait du subjonctif, recognition) and *Serait-il malade, il viendrait* (conditionnel).
+- **Vocab (new):** *quand bien même*, *pour peu que*, *à supposer que*, *si tant est que*, *encore que*.
+- **Exercises:** fill-in (mood, with forms that differ), reformulation, connector-choice, error-correction, translate.
+- **Links:** b2-concession-opposition, b2-mixed-conditionals, c1-imperfect-subjunctive.
+
+## 22. c1-abstract-nouns: Abstract nouns (vocabulary · easier)
+
+- **Recap:** the suffixes from b2-nominalisation.
+- **Teaches:** abstract nouns for argument; nominal style in academic writing.
+- **Vocab (new, 20 to 25):** *la portée*, *la pertinence*, *la légitimité*, *l'ampleur*, *la démarche*.
+- **Exercises:** reformulation (verb → noun), fill-in, translate.
+- **Links:** b2-nominalisation.
+
+## 23. c1-synthesis: The synthèse de documents (communication · harder)
+
+- **Recap:** summarizing one article (b2-summarizing-an-article).
+- **Teaches:** combining two or three documents without quoting them or giving your opinion; the plan and the neutral voice.
+- **Longer texts:** two short original documents on a neutral subject (300 words in all) and a model synthesis.
+- **Exercises:** reformulation, multiple-choice (which sentence is neutral), write-out.
+- **Links:** b2-summarizing-an-article, b2-formal-report.
+
+## 24. c1-dissertation: The French dissertation (communication · harder)
+
+- **Recap:** the dialectical plan and *la problématique* (b2-argumentative-essay).
+- **Teaches:** the C1 essay: a problématique that is usually a question opening a debate rather than a yes/no question (a rule of thumb); transitions; the *ouverture*; the analytical plan as an alternative; using concession and hypothesis (lesson 21).
+- **Longer text:** an original model essay (350 to 400 words).
+- **Links:** b2-argumentative-essay, b2-review-science, c1-concession-and-hypothesis.
+
+## 25. c1-review-academic: Review: Academic writing (review · easier)
+
+- **New words (3 to 8):** *un corpus*, *mettre en perspective*, *un fil conducteur*. Recap: *la problématique* (b2-argumentative-essay).
+- **Model:** a short synthesis paragraph and an essay introduction.
+
+===== docs/plans/c1/unit-4.md =====
+
+# C1 Unit 4 plan: Debate and rhetoric
+
+Status: plan only. Rules: CLAUDE.md, "C1 conventions".
+
+## 26. c1-rhetorical-devices: Rhetorical devices (vocabulary · easier)
+
+- **Teaches:** naming and using *l'anaphore*, *la gradation*, *l'antithèse* (recap of the essay term), *la question rhétorique*, *la litote*, *l'hyperbole*, with original examples.
+- **Vocab (new):** *l'anaphore*, *la gradation*, *la litote*, *l'hyperbole*, *une figure de style*.
+- **Exercises:** multiple-choice (identify the device), reformulation, write-out.
+- **Links:** b2-persuasion-and-hedging, b2-argumentative-essay.
+
+## 27. c1-subjunctive-nuances: Subjunctive nuances (grammar · harder)
+
+- **Recap:** the B1 and B2 subjunctive lessons; *je ne pense pas que* / *je ne crois pas que* + subjunctive (b1-expressing-doubt-certainty, verified); *le seul, le premier* (b2-subjunctive-relative-clauses).
+- **Teaches (new contrasts only):** *penser, croire* in questions (*pensez-vous qu'il vienne / qu'il viendra ?*); *que* + subjunctive at the start of a sentence (*Qu'il soit fatigué, je le comprends*); the mood that changes the meaning (*il comprend que tu sois parti* / *que tu es parti*; *dire que* / *dire de*).
+- **Vocab (new):** *que… ou non*, *comprendre que* (two meanings), *admettre que* (two meanings).
+- **Exercises:** multiple-choice, fill-in with forms that differ in the two moods, reformulation, error-correction.
+- **Links:** b1-expressing-doubt-certainty, b2-subjunctive-relative-clauses, b2-certainty-and-probability.
+
+## 28. c1-formal-debate: Formal debate (communication · easier)
+
+- **Recap:** b2-debating.
+- **Teaches:** the formal debate format (opening statement, rebuttal, closing), conceding in a formal register with the C1 concessions (lesson 21), keeping to time.
+- **Longer text:** a transcript of an invented formal debate on a neutral subject (working hours, school, technology), every side given its strongest arguments.
+- **Links:** b2-debating, b2-persuasion-and-hedging, c1-concession-and-hypothesis.
+
+## 29. c1-public-speaking: Speeches and presentations (communication · easier)
+
+- **Teaches:** the structure of a speech, signposting (*Je commencerai par…*, *J'en viens maintenant à…*), addressing an audience, ending well.
+- **Vocab (new):** *j'en viens à*, *permettez-moi de conclure*, *mesdames et messieurs*.
+- **Links:** b2-presenting-data, b2-meetings-and-calls.
+
+## 30. c1-irony-and-understatement: Irony and understatement (communication · harder)
+
+- **Teaches:** recognizing irony and the *litote* (*ce n'est pas mal* = it's good), polite understatement, why irony can fail in writing.
+- **Vocab (new):** *l'ironie*, *ce n'est pas mal*, *pas fameux*, *pince-sans-rire*.
+- **Exercises:** multiple-choice (literal or ironic meaning), register-shift.
+- **Flags:** label every ironic example clearly.
+
+## 31. c1-culture-satire-and-humour: Satire and humour (culture · harder)
+
+- **Teaches:** a neutral overview of satirical traditions (fables, the satirical press, sketches); wordplay; why humour is hard to translate.
+- **Flags:** sensitive; follow the B2 press rule (no mention of the attacks on the satirical press); no living politicians; facts to review; fables quoted only from safe-list authors (La Fontaine, died 1695).
+- **Links:** b2-culture-french-press, b2-idioms-everyday.
+
+## 32. c1-review-rhetoric: Review: Debate and rhetoric (review · easier)
+
+- **New words (3 to 8):** *un orateur / une oratrice*, *un argument d'autorité*, *captiver*. Recap: *convaincant* (b1-review-opinions).
+- **Model:** a short persuasive speech with three devices and one strategic concession.
+
+===== docs/plans/c1/unit-5.md =====
+
+# C1 Unit 5 plan: Professional mastery
+
+Status: plan only. Rules: CLAUDE.md, "C1 conventions". Mostly easier: B2 Unit 5 is the model. c1-future-in-the-past has moved to Unit 1.
+
+## 33. c1-law-and-institutions: Law and institutions (vocabulary · harder)
+
+- **Teaches:** the vocabulary of law and the State (*un décret, une loi, le Conseil d'État, un tribunal, un recours*), without legal advice or figures.
+- **Vocab (new, 20 to 25):** *un décret*, *un recours*, *une juridiction*, *entrer en vigueur*, *abroger*.
+- **Flags:** facts to review; no legal advice.
+- **Links:** b1-culture-french-republic, b2-politics-and-society.
+
+## 34. c1-finance-and-economics: Finance and economics (vocabulary · easier)
+
+- **Teaches:** budgets, markets and public finance.
+- **Vocab (new):** *le déficit*, *la dette publique*, *un taux d'intérêt*, *la fiscalité*, *un placement*. Recap: *la conjoncture* (b2-economy-and-business).
+- **Flags:** no real figures.
+- **Links:** b2-economy-and-business, b2-presenting-data.
+
+## 35. c1-diplomatic-language: Diplomatic language (communication · easier)
+
+- **Teaches:** softening a refusal, saying no without saying no, the conditionnel of politeness at C1 level.
+- **Vocab (new):** *il ne nous sera malheureusement pas possible de*, *nous ne manquerons pas de*, *sauf erreur de ma part*.
+- **Links:** b2-negotiating, b2-regret-and-reproach.
+
+## 36. c1-formal-correspondence: High-register correspondence (communication · easier)
+
+- **Recap:** b1-formal-email and b2-formal-report.
+- **Teaches:** formal letters to institutions, the full closing formulas, *veuillez* + infinitive, references.
+- **Longer text:** an original formal letter and its reply (300 words).
+- **Links:** b1-formal-email, b2-formal-report.
+
+## 37. c1-leading-a-meeting: Leading a meeting (communication · easier)
+
+- **Recap:** b2-meetings-and-calls.
+- **Teaches:** chairing: opening, giving the floor, managing conflict, summing up decisions, the minutes.
+- **Links:** b2-meetings-and-calls, b2-debating.
+
+## 38. c1-review-professional: Review: Professional mastery (review · easier)
+
+- **New words (3 to 8):** *un ordre de mission*, *un cahier des charges*, *donner suite à*.
+- **Model:** a formal letter announcing a decision, with a diplomatic refusal.
+
+===== docs/plans/c1/unit-6.md =====
+
+# C1 Unit 6 plan: Ideas and society
+
+Status: plan only. Rules: CLAUDE.md, "C1 conventions". Harder to write: ideas, history and culture need careful facts and neutral wording. c1-tricky-prepositions has moved to Unit 2.
+
+## 39. c1-philosophy-and-ideas: Philosophy and ideas (vocabulary · harder)
+
+- **Teaches:** the words of ideas (*la raison, le libre arbitre, une notion*), how French schools teach philosophy (the final year of the lycée), neutrally.
+- **Vocab (new):** *le libre arbitre*, *la raison*, *une notion*, *un concept*, *remettre en question*.
+- **Quotations:** only safe-list philosophers (died before 1900, for example Descartes, Pascal, Rousseau), under 15 words, our own translations; later thinkers are paraphrased.
+- **Links:** b2-argumentative-essay, a2-culture-french-school-system.
+- **Flags:** facts to review.
+
+## 40. c1-culture-enlightenment: The Enlightenment (culture · harder)
+
+- **Teaches:** *les Lumières*: key ideas and figures (Voltaire, Rousseau, Diderot, Montesquieu: all on the safe list), the *Encyclopédie*, the link to the Revolution (recap of b1-culture-french-republic).
+- **Quotations:** safe list only, under 15 words, our own translations.
+- **Flags:** dates and facts to review.
+
+## 41. c1-culture-may-68: May 68 and modern France (culture · harder)
+
+- **Teaches:** what happened in May 1968, neutrally: students, strikes, the government's response, the debates about its legacy.
+- **Flags:** sensitive (contested history): present debates as debates; no living politicians; no quotations; dates to review.
+- **Links:** b2-culture-french-history, b2-politics-and-society.
+
+## 42. c1-technology-ethics: Technology and ethics (vocabulary · easier)
+
+- **Teaches:** artificial intelligence, data and privacy, ethics committees.
+- **Vocab (new):** *les données personnelles*, *la vie privée*, *un algorithme*, *la surveillance*. Recap: *un comité d'éthique* (b2-review-science).
+- **Links:** b1-technology-and-internet, b2-review-science.
+
+## 43. c1-culture-auteur-cinema: Auteur cinema (culture · harder)
+
+- **Recap:** b1-culture-french-cinema.
+- **Teaches:** *la Nouvelle Vague*, the idea of the *auteur*, talking about a film's style.
+- **Quotations:** none from films or directors (none are on the safe list); paraphrase only.
+- **Flags:** facts and names to review.
+- **Links:** b1-culture-french-cinema, b2-describing-a-work-of-art.
+
+## 44. c1-review-ideas: Review: Ideas and society (review · harder)
+
+- **New words (3 to 8):** *un débat d'idées*, *une remise en cause*, *un courant de pensée*. Recap: *un héritage* (b2-review-arts).
+- **Model:** an original essay introduction on a neutral question about technology or freedom.
+
+===== docs/plans/c1/unit-7.md =====
+
+# C1 Unit 7 plan: Living the language
+
+Status: plan only. Rules: CLAUDE.md, "C1 conventions".
+
+## 45. c1-proverbs-and-sayings: Proverbs and sayings (vocabulary · easier)
+
+- **Teaches:** common proverbs, their meaning and when people use them (often shortened or played with).
+- **Vocab (new):** *qui ne risque rien n'a rien*, *petit à petit, l'oiseau fait son nid*, *il ne faut pas vendre la peau de l'ours…*, *un proverbe*.
+- **Exercises:** multiple-choice (meaning), fill-in (complete the proverb), translate (an equivalent, not a literal version).
+- **Links:** b2-idioms-everyday.
+
+## 46. c1-advanced-idioms: Advanced idioms (vocabulary · easier)
+
+- **Recap:** the idioms in docs/c1-coverage.md (check with c1-find.ts).
+- **Teaches:** idioms for argument and work (*tenir la route*, *ne pas y aller par quatre chemins*, *noyer le poisson*), with register labels.
+- **Links:** b2-idioms-everyday, b2-idiomatic-y-en.
+
+## 47. c1-culture-regional-languages: Regional languages (culture · harder)
+
+- **Teaches:** Breton, Occitan, Alsatian, Basque, Corsican and the Creoles; their status and how they're taught today, neutrally, with no speaker figures.
+- **Flags:** facts to review; language policy stated neutrally.
+- **Links:** b2-culture-francophone-africa, b1-culture-quebec.
+
+## 48. c1-culture-francophonie: La Francophonie (culture · harder)
+
+- **Recap:** b2-culture-francophone-africa and b1-culture-quebec.
+- **Teaches:** the institution (the OIF), French in Belgium, Switzerland, Canada, Africa and the overseas territories, with labelled regional words; no speaker figures.
+- **Flags:** facts to review; colonial history stated neutrally.
+
+## 49. c1-register-shifting: Shifting register on demand (communication · easier)
+
+- **Recap:** b2-registers, b2-colloquial-french, b2-culture-verlan-and-slang.
+- **Teaches:** rewriting one message from slang to administrative French, and back.
+- **Exercises:** register-shift (all four directions), error-correction (mixed registers).
+
+## 50. c1-review-living: Review: Living the language (review · easier)
+
+- **New words (3 to 8):** *une variante*, *le parler*, *une expression régionale*.
+- **Model:** one message in three registers, with a proverb and two labelled regional words.
+
+===== docs/plans/c1/unit-8.md =====
+
+# C1 Unit 8 plan: Towards DALF C1
+
+Status: plan only. Rules: CLAUDE.md, "C1 conventions". Concession and hypothesis and formal relatives have moved to Unit 3. Practice lessons name no timings, task formats or scoring. Write this unit last.
+
+## 51. c1-euphemism-and-synonyms: Euphemism and nuance in synonyms (vocabulary · harder)
+
+- **Teaches:** euphemisms in public language (*un plan social*, *les personnes âgées*), *euphémiser*; near-synonyms by register and strength (*peur / crainte / effroi*; *dire / affirmer / prétendre*, recap of b2-reporting-verbs).
+- **Vocab (new):** *un euphémisme*, *euphémiser*, *un plan social*, *la crainte*, *l'effroi*, *un synonyme*.
+- **Flags:** sensitive (public language about social groups): neutral examples only.
+- **Links:** b2-reporting-verbs, b2-social-issues, c1-irony-and-understatement.
+
+## 52. c1-spoken-discourse-markers: Spoken discourse markers (vocabulary · easier)
+
+- **Recap:** the fillers of b2-colloquial-french.
+- **Teaches:** *enfin* (correcting yourself), *bon*, *quand même*, *tiens*, *disons*, *justement*, *en fait*, and their functions in speech.
+- **Exercises:** multiple-choice (function), connector-choice, register-shift.
+- **Links:** b2-colloquial-french.
+
+## 53. c1-culture-laicite-and-institutions: Laïcité and the institutions (culture · harder)
+
+- **Recap:** *la laïcité* and the 1905 law (b1-culture-french-republic).
+- **Teaches:** how laïcité is applied in schools and public services, the Constitution and the main institutions, explained as rules, not opinions.
+- **Flags:** sensitive (religion): no judgement of beliefs, no figures; every sentence in docs/review-needed.md.
+- **Links:** b1-culture-french-republic, b2-politics-and-society, c1-law-and-institutions.
+
+## 54. c1-exam-oral-presentation: Practice: a short exposé (communication · easier)
+
+- **Teaches:** preparing a short exposé from a short document: finding the problématique, a two- or three-part plan, examples, answering questions. Practice only, with no claims about the exam's rules, timing or scoring.
+- **Links:** c1-public-speaking, c1-formal-debate.
+
+## 55. c1-exam-written-tasks: Practice: synthesis and essay (communication · easier)
+
+- **Teaches:** planning a synthesis of two documents and an argued essay; checking your own text with a list. Practice only, with no claims about the exam.
+- **Links:** c1-synthesis, c1-dissertation, c1-concession-and-hypothesis.
+
+## 56. c1-review-towards-dalf: Review: Towards DALF C1 (review · easier)
+
+- **New words (3 to 8):** *une épreuve*, *un exposé*, *argumenter*.
+- **Model:** a short argued text using *quand bien même*, a formal relative and an apposition (all from Unit 3).
+
+## 57. c1-review-final: C1 final review (review · harder)
+
+- A can-do checklist for the whole level, one model sentence per unit (with LessonLinks), and a final piece of writing: *Mon bilan de C1*.
+- Exercises sample all eight units.
+
+===== CLAUDE.md (C1 conventions) =====
+
+## C1 conventions
+C1 inherits every B2 convention unless it's changed here. Plans are in docs/plans/c1/; the coverage map of what A1 to B2 already teach is docs/c1-coverage.md (built by scripts/c1-lists.ts).
+- **Teaching language.**
+  - Grammar rules and nuance are still explained in English: a C1 learner reads French well, but a rule misunderstood in French is a rule learned wrong.
+  - Short French glosses inside the English are allowed (*le passé simple, temps du récit*), but the English sentence must make sense without them.
+  - Every French example, dialogue line and longer text keeps an English translation. The one exception: a line that only repeats an example already translated earlier in the same lesson.
+- **Lengths.**
+  - Teaching text: 900 to 1,200 words (1,300 for grammar). The whole lesson stays under 2,100.
+  - Vocab: 15 to 30 entries (12 to 30 in grammar lessons), not counting glossary entries. Review lessons keep 3 to 8 new words.
+  - Exercises: 15 to 18, with at least 4 production tasks, 1 reorder and 1 reformulation.
+  - Dialogues: 12 to 16 lines.
+  - En résumé (grammar and vocabulary lessons): 120 to 180 words in every unit.
+  - Longer texts (communication, culture and review lessons): 250 to 400 French words, with a glossary.
+- **Exercise types.** The B2 types stay: multiple-choice, fill-in, translate, reorder, reformulation, register-shift, error-correction and connector-choice. No new type is added, because lib/check-answer.ts can only grade a fixed list of answers; open writing keeps the model-answer pattern.
+- **Instructions.** The B2 list stays. Add only **Résumez** (summarize) and **Justifiez** (give the reason), for synthesis and essay tasks graded by model answer, and add them to INSTRUCTION_VERBS in scripts/b2-lists.ts at the same time.
+- **Literary tenses.**
+  - Passé simple: production is allowed from c1-passe-simple on, in narrative writing only (a story, a historical account). Not in dialogue or an everyday register.
+  - Passé antérieur: production in narrative writing from its lesson.
+  - Imparfait and plus-que-parfait du subjonctif: recognition, plus light production in formal writing only, from c1-imperfect-subjunctive. No typed answer may require them; where they're possible, the present or passé subjunctive is also accepted.
+- **Exam practice.** Practice lessons in the style of the DALF C1 name no timings, task formats, scoring or rules of the exam: "a short exposé from a short document", "a synthesis of two documents". Any statement about the exam goes in docs/review-needed.md.
+- **Register labels.** Every example that isn't standard French carries a label in its translation: (literary), (formal), (familiar), (slang) or (spoken). Slang stays out of typed answers unless the instruction asks for it.
+- **Sensitive topics.** The B2 rules continue: neutral facts only, no figures, no invented quotes, no named living politicians, and every such sentence in docs/review-needed.md.
+  - Contested history (the colonial period, the Algerian war, Vichy): state what happened in neutral words and dates, present historians' debates as debates, and give no verdict.
+  - Religion and laïcité: explain the 1905 law and how laïcité is applied as institutions, not as opinions; don't rank or judge beliefs.
+  - Immigration and identity: describe policies and facts, never groups; no ethnic slang.
+- **Authors, works and quotations.**
+  - Name authors and works only when you are sure of the facts (title, date, author).
+  - Quote only authors on a named safe list: authors who died before 1900 (for example Molière, Racine, Voltaire, Hugo, Baudelaire, Flaubert). Keep each quotation under 15 words. Why a list rather than a rule: French law adds wartime and "mort pour la France" extensions to the usual term, and terms differ by country.
+  - All translations of quotations are our own.
+  - For any later author, don't quote: paraphrase the idea, or write an original pastiche "in the style of" and label it as invented.
+  - Longer literary texts are original pastiches, labelled as such, never copies or close paraphrases.
+- **No repeats.** A C1 lesson recaps earlier material in 2 or 3 sentences with a LessonLink to the lesson that first taught it (see docs/c1-coverage.md), then teaches only what's new. Every "you know X from Y" claim is checked against lesson Y before it's written.
+- **C1 checklist** (the B2 self-audit rules, plus the defects that recurred in B2):
+  - Accepted answers: list every valid answer built from taught material, or pin the cue; include oe/œ and *Elle est* / *C'est* variants.
+  - Mood and tense contrasts use verbs whose forms differ (not *donnent*, *reste*, *change*).
+  - Cues are pinned (an infinitive, a structure) wherever more than one answer would be valid.
+  - Vocab ids follow display order, and every entry is used in a complete French sentence.
+  - Fixed phrases made of known words are taught or glossed at first use.
+  - No "always", "never", "most common" or "almost always" unless the lesson's own examples agree; a rule of thumb is called one.
+  - Rules are stated by their real test (same subject, completion), not an approximation.
+  - Distractors are wrong in their sentence, and every rule tested in an exercise is explained in that lesson or an earlier one.
+  - A model text keeps one narrative tense per paragraph, and every dialogue obeys the lesson's own rules.
+  - Before finishing a unit, run check:words, check:structures, audit:content, test:b2-exercises (extended to C1) and scripts/b2-links-ids.ts (extended to C1).
+
+===== docs/c1-coverage.md =====
+
+# C1 coverage map
+
+Generated by `node --experimental-strip-types scripts/c1-lists.ts` from 223 A1 to B2 lessons. Before a C1 lesson teaches something, look it up here: if it's listed, recap it in 2 or 3 sentences and link the lesson.
+
+**This map is incomplete.** It's built from tagged lists (grammar lessons, a connector list, multi-word vocab), so "not listed" doesn't mean "not taught". Before claiming either, check with `node --experimental-strip-types scripts/c1-find.ts "phrase"`, which searches every A1 to B2 lesson's vocab and text.
+
+## Tenses and moods (grammar lessons)
+
+- The imperative: `a1-imperative`
+- The near future (aller + infinitive): `a1-near-future`
+- Passé composé with avoir: `a2-passe-compose-avoir`
+- Irregular past participles: `a2-past-participles-irregular`
+- Passé composé with être: `a2-passe-compose-etre`
+- Reflexive verbs in the passé composé: `a2-reflexive-passe-compose`
+- The imparfait: `a2-imparfait-formation`
+- Passé composé or imparfait?: `a2-passe-compose-vs-imparfait`
+- Pronouns in the passé composé: `a2-pronouns-in-passe-compose`
+- The futur simple: `a2-futur-simple`
+- The imperative with pronouns: `a2-imperative-with-pronouns`
+- Verbs + à / de + infinitive: `a2-verbs-with-a-and-de`
+- Si + present, future: `b1-si-present-futur`
+- The conditionnel présent: `b1-conditionnel-present`
+- Si + imparfait, conditionnel: `b1-si-imparfait-conditionnel`
+- The plus-que-parfait: `b1-plus-que-parfait`
+- The subjunctive: regular forms: `b1-subjonctif-formation`
+- Irregular subjunctives: `b1-subjonctif-irregular`
+- Subjunctive after il faut que: `b1-subjonctif-necessity`
+- Subjunctive after wishes and emotions: `b1-subjonctif-wishes-emotions`
+- Subjunctive or infinitive?: `b1-subjunctive-vs-infinitive`
+- Reported speech (present): `b1-reported-speech-present`
+- The gérondif: `b1-gerondif`
+- The passive voice: introduction: `b1-passive-voice-intro`
+- Subjunctive after conjunctions: `b2-subjunctive-conjunctions`
+- The conditionnel passé: `b2-conditionnel-passe`
+- Si + plus-que-parfait, conditionnel passé: `b2-si-plus-que-parfait`
+- The futur antérieur: `b2-futur-anterieur`
+- The past subjunctive: `b2-subjonctif-passe`
+- The passive voice in all tenses: `b2-passive-voice`
+- Alternatives to the passive: `b2-alternatives-to-passive`
+- Subjunctive in relative clauses: `b2-subjunctive-relative-clauses`
+- Faire + infinitive: `b2-faire-causatif`
+- Present participle, gerund, verbal adjective: `b2-participles-and-gerund`
+- The past infinitive: `b2-infinitif-passe`
+
+## All grammar lessons, by level
+
+**A1** (22): Subject pronouns `a1-subject-pronouns`; The verb être `a1-etre-present`; Gender and le, la, les `a1-definite-articles`; un, une, des `a1-indefinite-articles`; Plural nouns `a1-plural-nouns`; The verb avoir `a1-avoir-present`; mon, ma, mes `a1-possessive-adjectives`; Adjective agreement and position `a1-adjective-agreement`; Regular -er verbs `a1-er-verbs-present`; Negation with ne…pas `a1-negation-ne-pas`; Regular -ir and -re verbs `a1-ir-re-verbs-present`; Daily routine and reflexive verbs `a1-daily-routine-reflexive`; Faire and aller `a1-faire-and-aller`; à and de with articles `a1-contractions-a-de`; Yes/no questions `a1-yes-no-questions`; Question words `a1-question-words`; du, de la, des `a1-partitive-articles`; ce, cet, cette, ces `a1-demonstratives`; Prepositions of place `a1-prepositions-of-place`; The imperative `a1-imperative`; The near future (aller + infinitive) `a1-near-future`; pouvoir, vouloir, devoir `a1-modal-verbs`
+
+**A2** (27): Common irregular verbs `a2-irregular-verbs-present`; Passé composé with avoir `a2-passe-compose-avoir`; Irregular past participles `a2-past-participles-irregular`; Passé composé with être `a2-passe-compose-etre`; ne…jamais, rien, personne, plus `a2-negative-expressions`; Reflexive verbs in the passé composé `a2-reflexive-passe-compose`; Il faut and giving simple advice `a2-il-faut-and-advice`; Adverbs `a2-adverbs-ment`; The imparfait `a2-imparfait-formation`; Passé composé or imparfait? `a2-passe-compose-vs-imparfait`; C'est or il est? `a2-cest-vs-il-est`; Savoir and connaître `a2-savoir-connaitre`; depuis, pendant, il y a `a2-depuis-pendant-il-y-a`; Recent past and actions in progress `a2-venir-de-en-train-de`; Stressed pronouns `a2-stressed-pronouns`; Direct object pronouns `a2-direct-object-pronouns`; Indirect object pronouns `a2-indirect-object-pronouns`; The pronoun y `a2-pronoun-y`; The pronoun en `a2-pronoun-en`; Pronouns in the passé composé `a2-pronouns-in-passe-compose`; Prepositions: countries, cities and more `a2-prepositions-with-places`; The futur simple `a2-futur-simple`; Comparatives `a2-comparatives`; Superlatives `a2-superlatives`; Relative pronouns qui, que, où `a2-relative-qui-que-ou`; The imperative with pronouns `a2-imperative-with-pronouns`; Verbs + à / de + infinitive `a2-verbs-with-a-and-de`
+
+**B1** (23): ce qui, ce que `b1-ce-qui-ce-que`; The relative pronoun dont `b1-relative-dont`; Si + present, future `b1-si-present-futur`; The conditionnel présent `b1-conditionnel-present`; Si + imparfait, conditionnel `b1-si-imparfait-conditionnel`; The plus-que-parfait `b1-plus-que-parfait`; Time connectors `b1-time-connectors`; The subjunctive: regular forms `b1-subjonctif-formation`; Irregular subjunctives `b1-subjonctif-irregular`; Subjunctive after il faut que `b1-subjonctif-necessity`; Subjunctive after wishes and emotions `b1-subjonctif-wishes-emotions`; Subjunctive or infinitive? `b1-subjunctive-vs-infinitive`; Doubt and certainty `b1-expressing-doubt-certainty`; Double object pronouns `b1-double-object-pronouns`; Possessive pronouns `b1-possessive-pronouns`; Demonstrative pronouns `b1-demonstrative-pronouns`; Reported speech (present) `b1-reported-speech-present`; The gérondif `b1-gerondif`; Indefinite words `b1-indefinite-pronouns`; Lequel, laquelle `b1-interrogative-lequel`; Cause and consequence `b1-cause-and-consequence`; The passive voice: introduction `b1-passive-voice-intro`; ne…que and ni…ni `b1-ne-que-ni-ni`
+
+**B2** (24): Subjunctive after conjunctions `b2-subjunctive-conjunctions`; Concession and opposition `b2-concession-opposition`; Logical connectors `b2-logical-connectors`; Expressing purpose `b2-purpose-expressions`; The conditionnel passé `b2-conditionnel-passe`; Si + plus-que-parfait, conditionnel passé `b2-si-plus-que-parfait`; Mixed si-clauses `b2-mixed-conditionals`; The futur antérieur `b2-futur-anterieur`; The past subjunctive `b2-subjonctif-passe`; Reported speech in the past `b2-reported-speech-past`; Reported questions and orders `b2-reported-questions-orders`; The passive voice in all tenses `b2-passive-voice`; Alternatives to the passive `b2-alternatives-to-passive`; Nominalisation `b2-nominalisation`; lequel, auquel, duquel `b2-relative-lequel`; Prepositions with relative pronouns `b2-relative-prepositions`; Subjunctive in relative clauses `b2-subjunctive-relative-clauses`; Emphasis: c'est… qui / que `b2-mise-en-relief`; Faire + infinitive `b2-faire-causatif`; Present participle, gerund, verbal adjective `b2-participles-and-gerund`; The past infinitive `b2-infinitif-passe`; Certainty and probability `b2-certainty-and-probability`; Adjectives that change meaning `b2-adjective-position-meaning`; Tout, toute, tous, toutes `b2-tout`
+
+## Connectors and discourse markers
+
+parce que (a1-question-words); d'abord (a2-telling-a-story); ensuite (a2-telling-a-story); puis (a2-telling-a-story); enfin (a2-telling-a-story); de plus (b1-review-opinions); sinon (b1-si-present-futur); lorsque (b1-time-connectors); dès que (b1-time-connectors); finalement (b1-time-connectors); bref (b1-telling-an-anecdote); de plus en plus (de) (b1-environment); car (b1-cause-and-consequence); puisque (b1-cause-and-consequence); comme (b1-cause-and-consequence); à cause de (b1-cause-and-consequence); donc (b1-cause-and-consequence); d'une part… d'autre part (b1-presenting-an-argument); bien que (b2-subjunctive-conjunctions); avant que (b2-subjunctive-conjunctions); à condition que (b2-subjunctive-conjunctions); jusqu'à ce que (b2-subjunctive-conjunctions); sans que (b2-subjunctive-conjunctions); à moins que (b2-subjunctive-conjunctions); pourtant (b2-concession-opposition); cependant (b2-concession-opposition); néanmoins (b2-concession-opposition); certes (b2-concession-opposition); même si (b2-concession-opposition); alors que (b2-concession-opposition); tandis que (b2-concession-opposition); en revanche (b2-concession-opposition); en outre (b2-logical-connectors); d'ailleurs (b2-logical-connectors); en effet (b2-logical-connectors); or (b2-logical-connectors); ainsi (b2-logical-connectors); par conséquent (b2-logical-connectors); si bien que (b2-logical-connectors); en somme (b2-logical-connectors); pour que (b2-purpose-expressions); afin de (b2-purpose-expressions); afin que (b2-purpose-expressions); de peur que (b2-purpose-expressions); de sorte que (b2-purpose-expressions); une fois que (b2-futur-anterieur); quoique (b2-relative-prepositions); comme je te l'ai dit (b2-idiomatic-y-en); pour ce qui est de (b2-mise-en-relief); du coup (b2-colloquial-french); en gros (b2-colloquial-french); qui plus est (b2-persuasion-and-hedging); sans compter que (b2-persuasion-and-hedging)
+
+## Fixed phrases and idioms (121)
+
+Ça s'écrit comment ? (a1-alphabet-and-accents); faire les courses (a1-faire-and-aller); faire la cuisine (a1-faire-and-aller); faire le ménage (a1-faire-and-aller); faire la vaisselle (a1-faire-and-aller); faire du vélo (a1-hobbies-and-sports); faire du ski (a1-hobbies-and-sports); faire du yoga (a1-hobbies-and-sports); faire de la natation (a1-hobbies-and-sports); faire de la danse (a1-hobbies-and-sports); faire de la randonnée (a1-hobbies-and-sports); Il y a du soleil. (a1-weather-seasons); Il y a du vent. (a1-weather-seasons); Il y a des nuages. (a1-weather-seasons); Ça fait combien ? (a1-ordering-at-a-cafe); Il y a… près d'ici ? (a1-asking-directions); prendre → pris (a2-past-participles-irregular); mettre → mis (a2-past-participles-irregular); faire → fait (a2-past-participles-irregular); avoir → eu (a2-past-participles-irregular); être → été (a2-past-participles-irregular); tomber → tombé (a2-passe-compose-etre); en deux mille dix-neuf (a2-numbers-years-ordinals); il y a deux jours (a2-time-expressions-past); il y a un an (a2-time-expressions-past); être en train de + infinitive (a2-venir-de-en-train-de); avoir besoin de (a2-pronoun-en); avoir envie de (a2-pronoun-en); Il y a un train pour… ? (a2-travel-and-transport); Ça te dit de… ? (a2-invitations); Ça te dit ? (a2-invitations); faire la lessive (a2-home-and-chores); faire le lit (a2-home-and-chores); Ça me fait plaisir. (a2-emotions-and-feelings); Ça ne va pas ? (a2-emotions-and-feelings); donner des nouvelles (a2-writing-an-informal-email); faire des progrès (a2-review-final); être d'accord (avec) (b1-agreeing-disagreeing); avoir honte de (b1-relative-dont); être responsable de (b1-relative-dont); faire confiance à (b1-relationships); être en couple (b1-relationships); avoir le temps (b1-si-imparfait-conditionnel); avoir l'intention de (b1-dreams-and-ambitions); faire du bénévolat (b1-dreams-and-ambitions); prendre sa retraite (b1-dreams-and-ambitions); prendre une décision (b1-review-hypotheses); Ça se passe à… (b1-cinema-and-books); ça vaut le coup (b1-reviewing-a-film-or-book); faire ses valises (b1-subjonctif-irregular); être triste que (b1-subjonctif-wishes-emotions); ça me fait plaisir que (b1-subjonctif-wishes-emotions); avoir peur que (b1-subjonctif-wishes-emotions); faire un effort (b1-subjunctive-vs-infinitive); être au chômage (b1-careers-and-job-hunting); ça fait … que (b1-job-interview); il y a … que (b1-job-interview); faire le pont (b1-culture-work-life); mettre à jour (b1-technology-and-internet); faire des économies (b1-money-and-banking); être à découvert (b1-money-and-banking); En vous remerciant par avance, (b1-formal-email); être en panne (b1-making-a-complaint); Ça te dirait de… ? (b1-making-suggestions); Ça ne me dit rien. (b1-making-suggestions); avoir de la misère à (b1-culture-quebec); avoir du mal à (b2-social-issues); il pleut des cordes (b2-idioms-everyday); être dans la lune (b2-idioms-everyday); avoir la flemme (b2-idioms-everyday); avoir un coup de foudre (b2-idioms-everyday); une expression imagée (b2-idioms-everyday); coûter les yeux de la tête (b2-idioms-everyday); coûter un rein (b2-idioms-everyday); casser les pieds à quelqu'un (b2-idioms-everyday); mettre les pieds dans le plat (b2-idioms-everyday); avoir un poil dans la main (b2-idioms-everyday); se creuser la tête (b2-idioms-everyday); faire la tête (b2-idioms-everyday); avoir le bras long (b2-idioms-everyday); en un clin d'œil (b2-idioms-everyday); tomber dans les pommes (b2-idioms-everyday); avoir du pain sur la planche (b2-idioms-everyday); raconter des salades (b2-idioms-everyday); ne pas être dans son assiette (b2-idioms-everyday); poser un lapin à quelqu'un (b2-idioms-everyday); avoir le cafard (b2-idioms-everyday); donner sa langue au chat (b2-idioms-everyday); appeler un chat un chat (b2-idioms-everyday); faire des victimes (b2-conditionnel-passe); avoir des remords (b2-regret-and-reproach); ça ne se reproduira pas (b2-regret-and-reproach); tenir sa promesse (b2-reported-speech-past); mettre en garde contre (b2-reporting-verbs); faire semblant de (b2-reporting-verbs); prendre du retard (b2-reporting-verbs); être suivi de (b2-passive-voice); ça ne se fait pas (b2-alternatives-to-passive); passer sous silence (b2-summarizing-an-article); mettre en page (b2-culture-french-press); être capable de (b2-subjunctive-relative-clauses); être à l'écoute (b2-subjunctive-relative-clauses); mettre l'accent sur (b2-mise-en-relief); mettre en place (b2-review-pronouns); avoir l'impression de (b2-infinitif-passe); tirer des leçons de (b2-infinitif-passe); faire le point (b2-meetings-and-calls); prendre la parole (b2-meetings-and-calls); passer la parole à (b2-meetings-and-calls); couper son micro (b2-meetings-and-calls); faire une offre (b2-negotiating); faire un geste (b2-negotiating); passer de… à (b2-presenting-data); mettre en œuvre (b2-formal-report); tirer une conclusion (b2-science-and-research); en guise de conclusion (b2-argumentative-essay); prendre le pouvoir (b2-culture-french-history); avoir hâte de (b2-false-friends); avoir le dernier mot (b2-debating); couper la parole à (b2-debating); faire appel à (b2-persuasion-and-hedging)
