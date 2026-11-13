@@ -50,7 +50,7 @@ exercises:
     prompt: "Choisissez la bonne forme : Dès que j'___ mon travail, je partirai."
     options: ["aurai fini", "aurais fini", "avais fini"]
     answers: ["aurai fini"]
-    explanation: "The work is finished before you leave, so dès que takes the futur antérieur."
+    explanation: "The work will be finished before you leave, so dès que takes the futur antérieur, which stresses completion."
   - id: "b2-futur-anterieur-ex006"
     type: "multiple-choice"
     prompt: "Indiquez le sens de : Paul n'est pas venu ? Il aura oublié."
@@ -78,26 +78,26 @@ exercises:
     type: "error-correction"
     prompt: "Corrigez l'erreur : Je t'appellerai quand j'ai fini."
     answers: ["Je t'appellerai quand j'aurai fini"]
-    explanation: "Both actions are in the future, so quand takes the futur antérieur for the earlier one."
+    explanation: "With a futur in the main clause, the passé composé after quand is wrong. The call comes once the work is finished, so the futur antérieur: quand j'aurai fini."
   - id: "b2-futur-anterieur-ex011"
     type: "fill-in"
     prompt: "Complétez : Le projet sera fini ___ la fin du mois."
-    answers: ["d'ici"]
-    explanation: "D'ici + a point in time: by the end of the month."
+    answers: ["d'ici", "avant", "pour"]
+    explanation: "D'ici + a point in time: by the end of the month. D'ici is the one to learn; avant and pour also fit."
   - id: "b2-futur-anterieur-ex012"
     type: "translate"
-    prompt: "Traduisez : By Friday, we will have finished the report."
+    prompt: "Traduisez avec « finir » : By Friday, we will have finished the report."
     answers: ["D'ici vendredi, nous aurons fini le rapport", "Nous aurons fini le rapport d'ici vendredi"]
     explanation: "D'ici + the deadline, and the futur antérieur."
   - id: "b2-futur-anterieur-ex013"
     type: "translate"
-    prompt: "Traduisez avec « appeler » (tu, à un homme) : Call me as soon as you've arrived."
+    prompt: "Traduisez avec « appeler » et « dès que » (tu, à un homme) : Call me as soon as you've arrived."
     answers: ["Appelle-moi dès que tu seras arrivé"]
     explanation: "Dès que + futur antérieur, where English uses 'you've arrived'."
     strictAccents: true
   - id: "b2-futur-anterieur-ex014"
     type: "translate"
-    prompt: "Rédigez en complétant comme indiqué : D'ici lundi, nous (will have finished) la première étape. Dès que Sophie (has sent) les documents, j'(will write) le rapport. Une fois que nous (have delivered) le projet, nous (will celebrate) la fin du projet."
+    prompt: "Rédigez en complétant comme indiqué : D'ici lundi, nous (will have finished: finir) la première étape. Dès que Sophie (has sent: envoyer) les documents, j'(will write: écrire) le rapport. Une fois que nous (have delivered: livrer) le projet, nous (will celebrate: fêter) la fin du projet."
     answers: ["D'ici lundi, nous aurons fini la première étape. Dès que Sophie aura envoyé les documents, j'écrirai le rapport. Une fois que nous aurons livré le projet, nous fêterons la fin du projet."]
     explanation: "The futur antérieur for each earlier action, the futur for each later one."
     strictAccents: true
@@ -143,12 +143,14 @@ The first use describes an action that will be finished before a moment in the f
 
 ## Two future actions
 
-When two actions are both in the future, French marks the one that comes first with the futur antérieur, after *quand*, *lorsque*, *dès que* or **une fois que** (once). The later action is in the futur or the imperative. English uses the present or the present perfect here, so this is easy to forget.
+When two actions are both in the future and the first will be finished before the second begins, French uses the futur antérieur for the first one, after *quand*, *lorsque*, *dès que* or **une fois que** (once). It stresses that the action will be complete. The second action is in the futur or the imperative.
+
+When the two actions overlap or follow each other closely, the futur simple you know from <LessonLink id="b1-time-connectors" text="the lesson on time connectors" /> stays correct: *quand j'arriverai, je t'appellerai* (when I arrive, I'll call you). What is wrong is the present or the passé composé after *quand* or *dès que* when the main verb is in the futur. English uses the present or the present perfect here, so this is easy to get wrong.
 
 <Example fr="Dès que j'aurai fini, je partirai." en="As soon as I've finished, I'll leave." />
 <Example fr="Une fois que tu auras lu le dossier, appelle-moi." en="Once you've read the file, call me." />
 
-*Après que*, which you met in <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on conjunctions with the subjunctive" />, takes the indicative, so it works in the same way: *après que tu seras parti, je fermerai la porte*.
+*Après que*, which you met in <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on conjunctions with the subjunctive" />, takes the indicative, so it works in the same way: *après que tu seras parti, je fermerai la porte* (after you've left, I'll close the door).
 
 ## Since: depuis que
 
@@ -200,23 +202,23 @@ Madame Dupont, a team leader, checks a project with her colleague Antoine.
 - *Je l'écrirai dès que Sophie aura envoyé les documents.* (I'll write it as soon as Sophie has sent the documents.)
 - *Elle n'a pas encore envoyé les documents ? Elle aura oublié.* (She hasn't sent the documents yet? She must have forgotten.)
 - *Peut-être. Depuis qu'elle travaille sur l'autre projet, elle est très occupée.* (Maybe. Since she's been working on the other project, she's very busy.)
-- *Je l'appellerai. Une fois que vous aurez le rapport, pourrez-vous livrer le projet lundi ?* (I'll call her. Once you have the report, will you be able to deliver the project on Monday?)
+- *Je l'appellerai. Une fois que vous aurez écrit le rapport, pourrez-vous livrer le projet lundi ?* (I'll call her. Once you've written the report, will you be able to deliver the project on Monday?)
 - *Lundi, c'est difficile. Il y a toujours un imprévu. Nous pourrions repousser à mercredi ?* (Monday is difficult. There's always something unexpected. Could we put it back to Wednesday?)
 - *D'accord, mais il faut respecter ce délai : le client a prévu une réunion jeudi.* (OK, but we have to meet that deadline: the client has planned a meeting on Thursday.)
 - *Compris. Je vais changer le calendrier tout de suite.* (Understood. I'll change the schedule straight away.)
 - *Merci. Et attention à ne pas vous tromper de jour dans le message !* (Thanks. And be careful not to get the day wrong in the message!)
 
 <Callout type="warning" title="Quand j'aurai fini, not quand j'ai fini">
-  English says "when I've finished", so learners often write *je t'appellerai quand j'ai fini*. When the main verb is in the futur, the earlier action after *quand* or *dès que* goes in the futur antérieur: **je t'appellerai quand j'aurai fini**.
+  English says "when I've finished", so learners often write *je t'appellerai quand j'ai fini*. When the main verb is in the futur, the verb after *quand* or *dès que* can't be in the passé composé. If the action will be finished first, use the futur antérieur: **je t'appellerai quand j'aurai fini**.
 </Callout>
 
 <Callout type="tip" title="Plan your week backwards">
-  On Monday morning, write three sentences about Friday evening with *d'ici vendredi* or *vendredi soir*: *vendredi soir, j'aurai fini mon rapport, j'aurai appelé ma sœur et je serai allé à la piscine*. On Friday, check which ones came true. It's a planning habit and a grammar drill at the same time.
+  On Monday morning, write three sentences about Friday evening with *d'ici vendredi* or *vendredi soir*: *vendredi soir, j'aurai fini mon rapport, j'aurai appelé ma sœur et je serai allé à la piscine* (by Friday evening, I'll have finished my report, called my sister and been to the pool). On Friday, check which ones came true. It's a planning habit and a grammar drill at the same time.
 </Callout>
 
 ## En résumé
 
-Le futur antérieur se forme avec avoir ou être au futur, puis le participe passé : j'aurai fini, elle sera partie. Il montre qu'une action sera finie avant un moment du futur : d'ici vendredi, nous aurons fini. Après quand, dès que ou une fois que, il marque l'action qui vient en premier : dès que j'aurai fini, je partirai. Il permet aussi de dire ce qui est sûrement arrivé : il aura oublié.
+Le futur antérieur se forme avec avoir ou être au futur, puis le participe passé : j'aurai fini, elle sera partie. Il montre qu'une action sera finie avant un moment du futur : d'ici vendredi, nous aurons fini. Après quand, dès que ou une fois que, il montre qu'une action sera finie avant l'autre : dès que j'aurai fini, je partirai. Il permet aussi de dire ce qui est sûrement arrivé : il aura oublié.
 
 ## What's next
 

@@ -1089,6 +1089,7 @@ Every date, tradition and regional detail, for checking:
 - **"Il me semble que gives your own impression, and it takes the indicative. Il semble que reports a general impression, as if from the outside, and it takes the subjunctive."** Confirm both moods, including *il semble que* + subjunctive in the forum post: *il semble que beaucoup d'entre eux aient besoin de nous le vendredi*.
 - **"Mitigé means mixed or lukewarm. It's a false friend: it doesn't mean 'mitigated'."** Confirm *mon avis est mitigé* is natural for "my opinion is mixed".
 - **"*A priori* and *à première vue* (at first sight) introduce a first impression."** Confirm *a priori* in this sense (on the face of it).
+- **"This holds for affirmative sentences: in the negative, *il ne me semble pas que* takes the subjunctive too."** Confirm.
 
 ## b2-social-issues
 
@@ -1121,12 +1122,14 @@ Every date, tradition and regional detail, for checking:
 - **"*Or* ... introduces a new fact that changes the reasoning ... It's mostly written, and it usually comes after a full stop, followed by a comma."** Confirm.
 - **"*Vu que* is common in speech; *étant donné que* and *du fait que* are more formal."** Confirm.
 - **"*Tellement* goes before the adjective, the adverb or the participle; *si* can replace it before an adjective."** Confirm.
+- **"*Si bien que* ... usually after a comma; careful writers don't start a sentence with it."** Confirm.
 
 ## b2-purpose-expressions
 
 - **"With the subjunctive, it [*de sorte que*] gives a purpose (so that). With the indicative, it gives a result."** Confirm.
 - **"After *de peur que* and *de crainte que*, you'll often see the expletive *ne* ... It's common in writing and optional in speech."** Confirm.
 - **"*En vue de* (with a view to) is usually followed by a noun."** Confirm.
+- **"The test is the subject of each verb ... Who benefits doesn't matter: *mes parents travaillent pour me payer mes études*."** Confirm.
 
 ## b2-review-nuance
 
@@ -1144,6 +1147,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Se douter que* takes the indicative, because you think it's true."** Confirm, and that *se douter de* means to suspect.
 - **"*Faillir* + infinitive, in the passé composé, says that something nearly happened."** Confirm it's common in speech.
 - **"*J'avais* and *j'aurais* ... differ in two sounds: the vowel (*a* in *j'avais*, *o* in *j'aurais*) and the *r*."** Confirm the pronunciation claim.
+- **"It means nearly the same as presque ... faillir + infinitive is the usual way to say you nearly did something."** Confirm.
 
 ## b2-mixed-conditionals
 
@@ -1157,6 +1161,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Après que* ... takes the indicative, so it works in the same way: *après que tu seras parti, je fermerai la porte*."** Confirm.
 - **"*Il aura oublié* means the same as *il a sûrement oublié*."** Confirm the supposition use and that it's common in speech.
 - **"*Boucler un projet* is an informal but common way to say 'to wrap up a project' at work."** Confirm the register.
+- **"When the two actions overlap or follow each other closely, the futur simple ... stays correct: quand j'arriverai, je t'appellerai."** Confirm the rule.
 
 ## b2-subjonctif-passe
 
@@ -1171,6 +1176,9 @@ Every date, tradition and regional detail, for checking:
 - **"*C'est (de) ma faute* ... *c'est ma faute* is the more careful form."** Confirm.
 - **"*Tu aurais dû* is firmer than *tu aurais pu*."** Confirm.
 - **"After an apology, [*ce n'est pas grave*] means 'it doesn't matter'."** Confirm.
+- **"Je m'excuse"**: some speakers find it presumptuous (excusing yourself). Confirm whether a note is needed.
+- **"Ça ne se reproduira pas" in a formal email**: is ça acceptable there, or should the email use cela?
+- **"c'est ma faute is the standard form, and c'est de ma faute is common in speech."** Confirm.
 
 ## b2-politics-and-society
 
@@ -1451,6 +1459,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Du coup* ... many people find it overused."** Confirm.
 - **"*Grave*, used as an adverb, is youth speech"; "*Vachement* ... is common among all ages."** Confirm.
 - **ex013 accepts *on est partis* and *on est parti*.** Confirm both are acceptable.
+- **"Speakers drop *il* in *il faut*"; "They use *c'est* for *ce sont*"; "They announce the subject first, then repeat it as a pronoun."** Confirm the labels (spoken).
 
 ## b2-culture-verlan-and-slang
 
@@ -1465,3 +1474,23 @@ Every date, tradition and regional detail, for checking:
 - **"Many people also use *réaliser* for 'to realize', but careful speakers prefer *se rendre compte que*."** Confirm.
 - **"*Excité* ... can have a sexual sense."** Confirm.
 - **"*Assister quelqu'un* means 'to help someone'."** Confirm.
+- **ex012: "Rendu never agrees here, because compte is its direct object"** (*je me suis rendu compte*, not *rendue*, for a woman too). Confirm, and decide whether *rendue* should also be accepted.
+
+## b2-debating
+
+- **The register of each interruption phrase** (*si je peux me permettre*, *permettez-moi de*, *laissez-moi finir*, *je ne vous ai pas interrompu*, *vous me coupez la parole*). Confirm.
+- **"In French debates, people interrupt more than in many English-speaking ones."** Confirm or soften.
+- **"*Contredire* is irregular in one form: *vous contredisez*, not *vous contredites*."** Confirm.
+- The debate on cars in city centres gives both sides their main arguments; check it reads as balanced.
+
+## b2-persuasion-and-hedging
+
+- **"*Avouez que* ... *convenez que* ... Both take the indicative."** Confirm.
+- **"After *ne pensez-vous pas que*, both moods are used: the indicative when you present the idea as obvious, the subjunctive in more formal speech."** Confirm (ex003 accepts *ayons* and *avons*).
+- **"*Imaginons que* / *admettons que* ... In careful French, both usually take the subjunctive ... you'll also hear the indicative."** Confirm (ex009 treats the indicative as an error in careful French).
+- **"*Qui plus est* and *sans compter que* ... are more formal than *en plus* or *de plus*."** Confirm.
+
+## b2-review-final
+
+- **ex014 accepts *qui ait un jardin* and *qui a un jardin*.** Confirm both are acceptable for a flat that hasn't been found yet.
+- **"Fixé doesn't agree: the direct object, un objectif, comes after the verb"** (warning callout). Confirm.

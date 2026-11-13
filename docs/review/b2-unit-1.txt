@@ -1,0 +1,1752 @@
+=== b2-nuancing-opinions ===
+
+---
+id: "b2-nuancing-opinions"
+title: "Nuancing your opinion"
+description: "Soften, qualify and partly concede an opinion with il me semble que, dans une certaine mesure, plutôt and je dirais que."
+level: "B2"
+unit: "Nuance and society"
+order: 1
+type: "communication"
+tags: ["opinions", "nuance", "speaking", "writing"]
+prerequisites: ["b1-expressing-doubt-certainty", "b1-presenting-an-argument"]
+related: ["b1-expressing-opinions", "b1-agreeing-disagreeing", "b2-social-issues", "b2-persuasion-and-hedging"]
+vocab:
+  - { id: "b2-nuancing-opinions-v001", group: "degree", fr: "plutôt", pron: "plew-TOH", en: "rather, fairly" }
+  - { id: "b2-nuancing-opinions-v002", group: "degree", fr: "relativement", pron: "ruh-lah-teev-MAHN", en: "relatively" }
+  - { id: "b2-nuancing-opinions-v003", group: "degree", fr: "dans une certaine mesure", pron: "dahn-zewn sehr-ten muh-ZEWR", en: "to some extent" }
+  - { id: "b2-nuancing-opinions-v004", group: "degree", fr: "jusqu'à un certain point", pron: "zhews-kah uhn sehr-tan PWAN", en: "up to a point" }
+  - { id: "b2-nuancing-opinions-v005", group: "first", fr: "a priori", pron: "ah pree-oh-REE", en: "on the face of it, in principle" }
+  - { id: "b2-nuancing-opinions-v006", group: "first", fr: "à première vue", pron: "ah pruh-myehr VEW", en: "at first sight" }
+  - { id: "b2-nuancing-opinions-v007", group: "first", fr: "en principe", pron: "ahn pran-SEEP", en: "in principle, normally" }
+  - { id: "b2-nuancing-opinions-v008", group: "first", fr: "sur le fond", pron: "sewr luh FOHN", en: "basically, on the substance" }
+  - { id: "b2-nuancing-opinions-v009", group: "seem", fr: "il me semble que", pron: "eel muh sahn-bluh KUH", en: "it seems to me that", note: "Followed by the indicative." }
+  - { id: "b2-nuancing-opinions-v010", group: "seem", fr: "il semble que", pron: "eel sahn-bluh KUH", en: "it seems that", note: "Followed by the subjunctive." }
+  - { id: "b2-nuancing-opinions-v011", group: "seem", fr: "je dirais que", pron: "zhuh dee-reh KUH", en: "I'd say that" }
+  - { id: "b2-nuancing-opinions-v012", group: "concede", fr: "reconnaître que", pron: "ruh-koh-neh-truh KUH", en: "to acknowledge that", note: "Like connaître: je reconnais, nous reconnaissons." }
+  - { id: "b2-nuancing-opinions-v013", group: "concede", fr: "un contre-argument", pron: "uhn kohn-trar-gew-MAHN", en: "a counter-argument" }
+  - { id: "b2-nuancing-opinions-v014", group: "concede", fr: "nuancer", pron: "new-ahn-SAY", en: "to qualify, to add nuance to", note: "Like commencer: nous nuançons." }
+  - { id: "b2-nuancing-opinions-v015", group: "concede", fr: "une nuance", pron: "ewn new-AHNSS", en: "a nuance, a shade of meaning" }
+  - { id: "b2-nuancing-opinions-v016", group: "concede", fr: "mitigé / mitigée", pron: "mee-tee-ZHAY", en: "mixed, lukewarm", note: "False friend: not 'mitigated'." }
+  - { id: "b2-nuancing-opinions-v017", group: "concede", fr: "partagé / partagée", pron: "par-tah-ZHAY", en: "torn, in two minds" }
+  - { id: "b2-nuancing-opinions-v018", group: "topic", fr: "la semaine de quatre jours", pron: "lah suh-men duh kah-truh ZHOOR", en: "the four-day week" }
+  - { id: "b2-nuancing-opinions-v019", group: "glossary", fr: "les transports", pron: "lay trahns-POR", en: "transport; here, commuting" }
+  - { id: "b2-nuancing-opinions-v020", group: "first", fr: "avoir lieu", pron: "ah-vwahr LYUH", en: "to take place, to be held", note: "La réunion a lieu jeudi." }
+exercises:
+  - id: "b2-nuancing-opinions-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne forme : Il me semble que tu ___ raison."
+    options: ["as", "aies", "avoir"]
+    answers: ["as"]
+    explanation: "Il me semble que is followed by the indicative: tu as raison."
+  - id: "b2-nuancing-opinions-ex002"
+    type: "fill-in"
+    prompt: "Complétez avec être : Il semble que la réunion ___ annulée."
+    answers: ["soit"]
+    explanation: "Il semble que is followed by the subjunctive: que la réunion soit annulée."
+  - id: "b2-nuancing-opinions-ex003"
+    type: "fill-in"
+    prompt: "Complétez : Je suis d'accord avec toi, dans une certaine ___."
+    answers: ["mesure"]
+    explanation: "Dans une certaine mesure: to some extent."
+  - id: "b2-nuancing-opinions-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase la plus nuancée."
+    options: ["Je dirais que c'est plutôt une bonne idée.", "C'est la meilleure idée du monde.", "Cette idée est très mauvaise."]
+    answers: ["Je dirais que c'est plutôt une bonne idée."]
+    explanation: "Je dirais que and plutôt both soften the opinion. The other two are flat."
+  - id: "b2-nuancing-opinions-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : ___, le projet est simple, mais il faut bien l'étudier."
+    options: ["À première vue", "Grâce à", "Pourquoi"]
+    answers: ["À première vue"]
+    explanation: "À première vue (at first sight) introduces an impression that may change."
+  - id: "b2-nuancing-opinions-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de : Mon avis est mitigé."
+    options: ["My opinion is mixed.", "My opinion is very strong.", "I have no opinion."]
+    answers: ["My opinion is mixed."]
+    explanation: "Mitigé means mixed or lukewarm. It's a false friend: it doesn't mean 'mitigated'."
+  - id: "b2-nuancing-opinions-ex007"
+    type: "reformulation"
+    prompt: "Transformez en opinion nuancée, avec « je dirais que » et « plutôt » : Je suis contre ce projet."
+    answers: ["Je dirais que je suis plutôt contre ce projet"]
+    explanation: "Je dirais que softens the start, and plutôt softens the position."
+  - id: "b2-nuancing-opinions-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « il me semble que » : Ce restaurant est trop cher."
+    answers: ["Il me semble que ce restaurant est trop cher"]
+    explanation: "Il me semble que + indicative: the verb stays est."
+  - id: "b2-nuancing-opinions-ex009"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase avec « je reconnais que…, mais… » : Le projet est cher. Il est intéressant."
+    answers: ["Je reconnais que le projet est cher, mais il est intéressant"]
+    explanation: "Reconnaître que concedes the first point; mais brings back your view."
+  - id: "b2-nuancing-opinions-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Il semble qu'il est malade."
+    answers: ["Il semble qu'il soit malade", "Il me semble qu'il est malade"]
+    explanation: "Il semble que takes the subjunctive: qu'il soit. With me, il me semble que takes the indicative."
+  - id: "b2-nuancing-opinions-ex011"
+    type: "fill-in"
+    prompt: "Complétez (une femme parle) : Je suis ___ : j'aime l'idée, mais j'ai des doutes."
+    answers: ["partagée"]
+    explanation: "Partagé means torn; a woman says partagée."
+  - id: "b2-nuancing-opinions-ex012"
+    type: "translate"
+    prompt: "Traduisez : To some extent, I agree."
+    answers: ["Dans une certaine mesure, je suis d'accord", "Je suis d'accord dans une certaine mesure"]
+    explanation: "Dans une certaine mesure can open or close the sentence."
+  - id: "b2-nuancing-opinions-ex013"
+    type: "translate"
+    prompt: "Rédigez ce message en complétant comme indiqué : (At first sight), l'idée est bonne. (It seems to me that) elle coûte cher. (I'd say that) mon avis est (mixed)."
+    answers: ["À première vue, l'idée est bonne. Il me semble qu'elle coûte cher. Je dirais que mon avis est mitigé."]
+    explanation: "Three ways of softening: an impression, a personal view in the indicative, and a conditionnel."
+    strictAccents: true
+  - id: "b2-nuancing-opinions-ex014"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la consigne « Reformulez »."
+    options: ["Say it another way.", "Translate it.", "Put the words in order."]
+    answers: ["Say it another way."]
+    explanation: "Reformulez: rephrase. Traduisez is translate, and Remettez dans l'ordre is put in order."
+  - id: "b2-nuancing-opinions-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : It seems to me that you're right."
+    words: ["Il", "me", "semble", "que", "tu", "as", "raison"]
+    answers: ["Il me semble que tu as raison"]
+    explanation: "Il me semble que + indicative."
+---
+
+By the end of this lesson you'll be able to give an opinion with the right amount of certainty: soften it, limit it, or concede part of the other side.
+
+## Exercise instructions in French
+
+From this lesson on, the exercises at B2 give their instructions in French, with the *vous* form. You met four of these words at the end of B1, in <LessonLink id="b1-review-final" text="the B1 final review" />. Here is the full list.
+
+<Callout type="note" title="The instruction words">
+  **Complétez** (complete), **Choisissez** (choose), **Indiquez** (state, give), **Reformulez** (rephrase), **Transformez** (change, transform), **Corrigez** (correct), **Remettez dans l'ordre** (put in order), **Conjuguez** (conjugate), **Accordez** (make it agree), **Mettez au…** (put into the… tense), **Répondez** (answer), **Rédigez** (write out), **Traduisez** (translate), **Trouvez** (find). You'll also see *la phrase* (the sentence), *le mot* (the word), *le verbe* (the verb), *la forme* (the form), *le sens* (the meaning), *la bonne réponse* (the right answer), *le connecteur* (the connector), *l'erreur* (the mistake), *le registre* (the register), *soutenu* (formal), *courant* (standard), *familier* (informal), *le temps* (the tense) and *le texte* (the text). The explanations after each answer stay in English.
+</Callout>
+
+## What you already have
+
+At B1 you learned to give an opinion with *à mon avis* and *je pense que* in <LessonLink id="b1-expressing-opinions" text="the lesson on expressing opinions" />, and to agree in part with *en partie* in <LessonLink id="b1-agreeing-disagreeing" text="the lesson on agreeing and disagreeing" />. You also used the subjunctive after a negative opinion (*je ne pense pas que ce soit vrai*), from <LessonLink id="b1-expressing-doubt-certainty" text="the lesson on doubt and certainty" />. This lesson adds the words between "yes" and "no".
+
+## How strong is your view?
+
+<VocabTable group="degree" />
+
+*Plutôt* (rather, fairly) and *relativement* (relatively) soften an adjective or a verb. *Dans une certaine mesure* (to some extent) and *jusqu'à un certain point* (up to a point) limit how far you agree.
+
+<Example fr="L'idée est plutôt bonne, mais elle coûte cher." en="The idea is fairly good, but it's expensive." />
+<Example fr="Je suis d'accord avec toi jusqu'à un certain point." en="I agree with you up to a point." />
+
+*Plutôt* is very common in speech. *Relativement* sounds a little more careful and is frequent in writing: *un prix relativement bas* (a relatively low price).
+
+## First impressions
+
+<VocabTable group="first" />
+
+These four phrases say that your view could change once you know more. *A priori* and *à première vue* (at first sight) introduce a first impression. *En principe* means "normally, if everything goes to plan". *Sur le fond* (basically, on the substance) sets aside the details and talks about the main idea.
+
+<Example fr="A priori, le projet me plaît." en="On the face of it, I like the project." />
+<Example fr="En principe, la réunion a lieu jeudi." en="In principle, the meeting is on Thursday." />
+<Example fr="Sur le fond, nous sommes d'accord : il faut changer." en="Basically, we agree: things have to change." />
+
+*A priori* is written without an accent on the *a*, because it's Latin. *À première vue* has one.
+
+## It seems: indicative or subjunctive?
+
+<VocabTable group="seem" />
+
+Two very similar phrases take different moods. **Il me semble que** gives your own impression, and it takes the indicative. **Il semble que** reports a general impression, as if from the outside, and it takes the subjunctive, which you know from the B1 subjunctive lessons. This holds for affirmative sentences: in the negative, *il ne me semble pas que* takes the subjunctive too (*il ne me semble pas que ce soit vrai*, it doesn't seem to me that it's true).
+
+<Example fr="Il me semble que tu as raison." en="It seems to me that you're right." />
+<Example fr="Il semble que le projet soit trop cher." en="It seems that the project is too expensive." />
+
+*Je dirais que* (I'd say that) uses the conditionnel, from <LessonLink id="b1-conditionnel-present" text="the lesson on the conditionnel présent" />, to make any opinion sound less absolute. It's followed by the indicative.
+
+<Example fr="Je dirais que c'est un bon début." en="I'd say it's a good start." />
+
+## Conceding a point
+
+<VocabTable group="concede" />
+
+To sound fair, accept part of the other view before you answer it. You know *il est vrai que…, mais…* from <LessonLink id="b1-presenting-an-argument" text="the lesson on presenting an argument" />. **Reconnaître que** (to acknowledge that) does the same job, in a slightly more personal way.
+
+<Example fr="Je reconnais que le prix est élevé, mais la qualité est excellente." en="I acknowledge that the price is high, but the quality is excellent." />
+
+If you can't decide, say you're *partagé* (torn), or that your view is *mitigé* (mixed). To *nuancer* is to add a *nuance* to a view; a *contre-argument* is the point the other side will make.
+
+## In a debate
+
+<VocabTable group="topic" />
+
+The examples and the texts below discuss *la semaine de quatre jours*, a topic often debated in France and elsewhere. Notice how often each speaker softens a claim instead of contradicting the other directly.
+
+## En français
+
+Inès and Thomas, two colleagues, talk about a plan at their company.
+
+- *Tu as vu ? L'entreprise parle de la semaine de quatre jours.* (Have you seen? The company is talking about the four-day week.)
+- *Oui. A priori, c'est une bonne idée, non ?* (Yes. On the face of it, it's a good idea, isn't it?)
+- *Plutôt, oui. Mais il me semble qu'on travaillerait plus chaque jour.* (Fairly, yes. But it seems to me we'd work more each day.)
+- *C'est vrai, dans une certaine mesure. Les journées seraient plus longues.* (That's true, to some extent. The days would be longer.)
+- *Et pour les clients ? Il semble que certains ne soient pas contents.* (And what about the customers? It seems some aren't happy.)
+- *Je dirais que c'est un contre-argument sérieux, mais pas le plus important.* (I'd say that's a serious counter-argument, but not the most important one.)
+- *Moi, je suis partagée. Sur le fond, j'aime l'idée.* (I'm torn. Basically, I like the idea.)
+- *Je reconnais que trois jours de repos, ce serait génial.* (I admit that three days off would be great.)
+- *Jusqu'à un certain point ! Moi, j'aime bien le vendredi au bureau.* (Up to a point! I quite like Fridays at the office.)
+- *En principe, tu pourrais choisir ton jour libre.* (In principle, you could choose your day off.)
+- *Alors mon avis est mitigé. On en parle à la réunion ?* (Then my opinion is mixed. Shall we talk about it at the meeting?)
+- *D'accord. Je le note pour lundi.* (OK. I'll note it down for Monday.)
+
+## A forum thread
+
+Julie asks other employees what they think. One word in the thread is new.
+
+<VocabTable group="glossary" />
+
+- **Julie :** *Notre entreprise va essayer la semaine de quatre jours. A priori, je trouve l'idée excellente : un jour de plus avec ma famille et moins de transports. Mais je me demande si c'est possible dans tous les métiers. Qu'est-ce que vous en pensez ?*
+- **Marc :** *Il me semble que c'est plutôt une bonne nouvelle. Je reconnais que les journées seront plus longues, mais je préfère travailler un peu plus le lundi et avoir le vendredi libre. Pour moi, c'est relativement simple : moins de transports, c'est plus de temps libre.*
+- **Sophie :** *Mon avis est plus mitigé. À première vue, tout le monde est gagnant. Sur le fond, je ne suis pas sûre que nos clients soient d'accord : il semble que beaucoup d'entre eux aient besoin de nous le vendredi. En principe, l'idée me plaît, mais jusqu'à un certain point.*
+- **Julie :** *Merci à vous deux ! Vous m'aidez à nuancer mon point de vue. Je vais poser la question à la prochaine réunion.*
+
+(Julie: Our company is going to try the four-day week. On the face of it, I think the idea is excellent: one more day with my family and less commuting. But I wonder whether it's possible in every job. What do you think? Marc: It seems to me that it's fairly good news. I admit that the days will be longer, but I'd rather work a bit more on Monday and have Friday free. For me, it's relatively simple: less commuting means more free time. Sophie: My opinion is more mixed. At first sight, everyone wins. Basically, I'm not sure our customers will agree: it seems that many of them need us on Fridays. In principle, I like the idea, but up to a point. Julie: Thank you both! You're helping me to qualify my point of view. I'll raise the question at the next meeting.)
+
+<Callout type="warning" title="Il semble que, il me semble que">
+  The two phrases look almost identical, but they take different moods. **Il me semble que tu as raison** (indicative), but **il semble que tu aies raison** (subjunctive). In affirmative sentences, learn the pair as a rule: with *me*, the indicative; without *me*, the subjunctive. In the negative, both take the subjunctive: **il ne me semble pas que tu aies raison**.
+</Callout>
+
+<Callout type="tip" title="Add one qualifier">
+  For one week, every time you give an opinion in French, add exactly one word or phrase from this lesson: *plutôt*, *a priori*, *dans une certaine mesure*. One qualifier is enough to sound thoughtful. More than two in a sentence starts to sound as if you have no opinion at all.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="b2-social-issues" text="the lesson on social issues" /> gives you the vocabulary for the debates you'll nuance.
+
+=== b2-social-issues ===
+
+---
+id: "b2-social-issues"
+title: "Social issues"
+description: "Talk about poverty, inequality, housing, integration and the people and groups who help, without official figures."
+level: "B2"
+unit: "Nuance and society"
+order: 2
+type: "vocabulary"
+tags: ["society", "vocabulary", "social-issues"]
+prerequisites: ["b1-culture-french-republic"]
+related: ["b2-nuancing-opinions", "b2-subjunctive-conjunctions", "b1-housing-and-renting"]
+vocab:
+  - { id: "b2-social-issues-v001", group: "poverty", fr: "les inégalités", pron: "lay-zee-nay-gah-lee-TAY", en: "inequality, inequalities" }
+  - { id: "b2-social-issues-v002", group: "poverty", fr: "la pauvreté", pron: "lah poh-vruh-TAY", en: "poverty" }
+  - { id: "b2-social-issues-v003", group: "poverty", fr: "pauvre", pron: "POH-vruh", en: "poor" }
+  - { id: "b2-social-issues-v004", group: "poverty", fr: "précaire", pron: "pray-KEHR", en: "insecure, precarious" }
+  - { id: "b2-social-issues-v005", group: "poverty", fr: "la précarité", pron: "lah pray-kah-ree-TAY", en: "insecurity, precariousness" }
+  - { id: "b2-social-issues-v006", group: "poverty", fr: "défavorisé / défavorisée", pron: "day-fah-voh-ree-ZAY", en: "disadvantaged" }
+  - { id: "b2-social-issues-v007", group: "poverty", fr: "exclure", pron: "eks-KLEWR", en: "to exclude", note: "Past participle: exclu / exclue." }
+  - { id: "b2-social-issues-v008", group: "housing", fr: "la crise du logement", pron: "lah kreez dew lozh-MAHN", en: "the housing crisis" }
+  - { id: "b2-social-issues-v009", group: "housing", fr: "un logement social", pron: "uhn lozh-mahn soh-SYAL", en: "social housing, a council flat" }
+  - { id: "b2-social-issues-v010", group: "housing", fr: "un / une sans-abri", pron: "uhn / ewn sahn-zah-BREE", en: "a homeless person", note: "The plural doesn't change: des sans-abri." }
+  - { id: "b2-social-issues-v011", group: "people", fr: "un immigré / une immigrée", pron: "uh-nee-mee-GRAY / ew-nee-mee-GRAY", en: "an immigrant" }
+  - { id: "b2-social-issues-v012", group: "people", fr: "s'intégrer", pron: "san-tay-GRAY", en: "to integrate, to fit in", note: "Like préférer: je m'intègre." }
+  - { id: "b2-social-issues-v013", group: "people", fr: "un chômeur / une chômeuse", pron: "uhn shoh-MUHR / ewn shoh-MUHZ", en: "an unemployed person" }
+  - { id: "b2-social-issues-v014", group: "people", fr: "le pouvoir d'achat", pron: "luh poo-vwahr dah-SHAH", en: "purchasing power" }
+  - { id: "b2-social-issues-v015", group: "help", fr: "une association", pron: "ew-nah-soh-syah-SYOHN", en: "a charity, a voluntary group" }
+  - { id: "b2-social-issues-v016", group: "help", fr: "un / une bénévole", pron: "uhn / ewn bay-nay-VOL", en: "a volunteer" }
+  - { id: "b2-social-issues-v017", group: "help", fr: "le bénévolat", pron: "luh bay-nay-voh-LAH", en: "voluntary work" }
+  - { id: "b2-social-issues-v018", group: "help", fr: "une aide sociale", pron: "ew-ned soh-SYAL", en: "a welfare benefit" }
+  - { id: "b2-social-issues-v019", group: "action", fr: "une manifestation", pron: "ewn mah-nee-fes-tah-SYOHN", en: "a demonstration, a protest", note: "False friend: not 'a manifestation'." }
+  - { id: "b2-social-issues-v020", group: "action", fr: "manifester", pron: "mah-nee-fes-TAY", en: "to demonstrate, to protest" }
+  - { id: "b2-social-issues-v021", group: "action", fr: "lutter contre", pron: "lew-tay KOHN-truh", en: "to fight against" }
+  - { id: "b2-social-issues-v022", group: "action", fr: "la lutte contre", pron: "lah lewt KOHN-truh", en: "the fight against" }
+  - { id: "b2-social-issues-v023", group: "action", fr: "réduire", pron: "ray-DWEER", en: "to reduce", note: "Like conduire: je réduis, nous réduisons; réduit." }
+  - { id: "b2-social-issues-v024", group: "action", fr: "un enjeu", pron: "uh-nahn-ZHUH", en: "an issue, what's at stake", note: "Plural: des enjeux." }
+  - { id: "b2-social-issues-v025", group: "action", fr: "une mesure", pron: "ewn muh-ZEWR", en: "a measure, a policy" }
+  - { id: "b2-social-issues-v026", group: "housing", fr: "avoir du mal à", pron: "ah-vwahr dew MAHL ah", en: "to struggle to, to find it hard to", note: "+ infinitive." }
+exercises:
+  - id: "b2-social-issues-ex001"
+    type: "fill-in"
+    prompt: "Complétez : Beaucoup de jeunes vivent dans la ___ : des contrats courts et des petits salaires."
+    answers: ["précarité"]
+    explanation: "La précarité: insecurity, especially at work."
+  - id: "b2-social-issues-ex002"
+    type: "fill-in"
+    prompt: "Complétez : Elle aide une association tous les samedis : elle est ___."
+    answers: ["bénévole"]
+    explanation: "Un or une bénévole: a volunteer, who isn't paid."
+  - id: "b2-social-issues-ex003"
+    type: "fill-in"
+    prompt: "Complétez : Le loyer d'un logement ___ est moins cher."
+    answers: ["social"]
+    explanation: "Un logement social: social housing."
+  - id: "b2-social-issues-ex004"
+    type: "fill-in"
+    prompt: "Complétez avec un verbe : Cette association veut ___ contre la pauvreté."
+    answers: ["lutter"]
+    explanation: "Lutter contre: to fight against."
+  - id: "b2-social-issues-ex005"
+    type: "fill-in"
+    prompt: "Conjuguez réduire au présent : Nous ___ nos dépenses."
+    answers: ["réduisons"]
+    explanation: "Réduire is like conduire: nous réduisons."
+  - id: "b2-social-issues-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « une manifestation »."
+    options: ["a demonstration, a protest", "a meeting of friends", "a television programme"]
+    answers: ["a demonstration, a protest"]
+    explanation: "Une manifestation is a protest in the street. It's a false friend."
+  - id: "b2-social-issues-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : une personne qui n'a pas de logement, c'est…"
+    options: ["un sans-abri", "un bénévole", "un chômeur"]
+    answers: ["un sans-abri"]
+    explanation: "Un sans-abri has no home. Un chômeur has no job."
+  - id: "b2-social-issues-ex008"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « le pouvoir d'achat »."
+    options: ["purchasing power", "a shopping centre", "a bank loan"]
+    answers: ["purchasing power"]
+    explanation: "Le pouvoir d'achat: what your income lets you buy."
+  - id: "b2-social-issues-ex009"
+    type: "multiple-choice"
+    prompt: "Trouvez le mot qui ne va pas avec les autres."
+    options: ["le bénévolat", "la pauvreté", "la précarité"]
+    answers: ["le bénévolat"]
+    explanation: "La pauvreté and la précarité are problems; le bénévolat is a way of helping."
+  - id: "b2-social-issues-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « la lutte contre » : Lutter contre la pauvreté est important."
+    answers: ["La lutte contre la pauvreté est importante"]
+    explanation: "La lutte is feminine, so importante agrees with it."
+  - id: "b2-social-issues-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Il y a de plus en plus des sans-abri."
+    answers: ["Il y a de plus en plus de sans-abri"]
+    explanation: "De plus en plus de + a noun, with no article."
+    strictAccents: true
+  - id: "b2-social-issues-ex012"
+    type: "translate"
+    prompt: "Traduisez : More and more people are living in insecurity."
+    answers: ["De plus en plus de personnes vivent dans la précarité", "De plus en plus de gens vivent dans la précarité"]
+    explanation: "De plus en plus de + noun, and vivre dans la précarité."
+  - id: "b2-social-issues-ex013"
+    type: "translate"
+    prompt: "Traduisez : Volunteers help homeless people."
+    answers: ["Les bénévoles aident les sans-abri", "Des bénévoles aident les sans-abri"]
+    explanation: "Sans-abri doesn't change in the plural."
+  - id: "b2-social-issues-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : (Poverty) est un (issue) important. Les (charities) aident les personnes (disadvantaged). Il faut (fight against) les (inequalities)."
+    answers: ["La pauvreté est un enjeu important. Les associations aident les personnes défavorisées. Il faut lutter contre les inégalités.", "La pauvreté est un problème important. Les associations aident les personnes défavorisées. Il faut lutter contre les inégalités."]
+    explanation: "Défavorisées agrees with personnes, which is feminine plural."
+  - id: "b2-social-issues-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : She volunteers for a charity."
+    words: ["Elle", "est", "bénévole", "dans", "une", "association"]
+    answers: ["Elle est bénévole dans une association"]
+    explanation: "Être bénévole dans une association, with no article before bénévole."
+---
+
+By the end of this lesson you'll be able to talk about poverty, housing, integration and inequality, and about the people and groups who try to change things.
+
+## Before you start
+
+You already know *le chômage* from <LessonLink id="b1-careers-and-job-hunting" text="the lesson on careers and job hunting" />, *l'égalité* and *un citoyen* from <LessonLink id="b1-culture-french-republic" text="the lesson on the French Republic" />, and *le loyer* from <LessonLink id="b1-housing-and-renting" text="the lesson on housing and renting" />. This lesson builds the wider vocabulary of social debates. It deliberately uses no figures: numbers on poverty or immigration change every year and depend on how they're measured, so check a current source before you quote one. In debates, these words often come with the phrases from <LessonLink id="b2-nuancing-opinions" text="the lesson on nuancing your opinion" />, such as *dans une certaine mesure*: a social issue is rarely simple, and a nuanced view sounds more convincing.
+
+## Poverty and inequality
+
+<VocabTable group="poverty" />
+
+*Les inégalités* is usually plural in French, where English often says "inequality". *La pauvreté* is poverty in general; *la précarité* is the insecurity of people who could fall into it, for example with short contracts and low pay. *Défavorisé* (disadvantaged) is the neutral word for people or areas with fewer opportunities.
+
+<Example fr="Les inégalités entre les villes et les campagnes restent fortes." en="Inequality between cities and the countryside remains high." />
+<Example fr="Elle a un emploi précaire : son contrat finit dans deux mois." en="She has an insecure job: her contract ends in two months." />
+<Example fr="Personne ne doit être exclu à cause de son origine." en="Nobody should be excluded because of where they come from." />
+
+*Pauvre* also means "poor" in the sense of "unlucky" when it goes before the noun. You'll see this pattern with other adjectives later in B2, in <LessonLink id="b2-adjective-position-meaning" text="the lesson on adjectives that change meaning" />.
+
+## Housing
+
+<VocabTable group="housing" />
+
+*La crise du logement* describes a situation where homes are too expensive or too rare for the people who need them. *Un logement social* is rented at a lower price to households with modest incomes. *Un sans-abri* (a homeless person) is the neutral, respectful word; in everyday speech you'll also hear *un SDF*, short for *sans domicile fixe*.
+
+<Example fr="Avec la crise du logement, même les gens qui travaillent ont du mal à trouver un logement." en="With the housing crisis, even people who work struggle to find a home." />
+<Example fr="Elle attend un logement social depuis deux ans." en="She's been waiting for social housing for two years." />
+
+## People and integration
+
+<VocabTable group="people" />
+
+*Un immigré* is someone who has moved to France from another country. *S'intégrer* (to integrate, to fit in) is reflexive: *il s'est bien intégré*. These are sensitive subjects in France, as everywhere, so it's worth using neutral words and avoiding generalizations: say *certains*, *beaucoup*, or *dans certains cas*, rather than talking about a whole group.
+
+<Example fr="Apprendre la langue aide beaucoup à s'intégrer." en="Learning the language helps a lot with integration." />
+<Example fr="Les familles ont moins de pouvoir d'achat cette année." en="Families have less purchasing power this year." />
+
+*Un chômeur* (an unemployed person) comes from *le chômage*, which you already know. *Le pouvoir d'achat* (purchasing power) is what your income actually lets you buy, and it's a constant topic in French political debate.
+
+<Example fr="Ce chômeur cherche du travail depuis un an." en="This unemployed man has been looking for work for a year." />
+<Example fr="Cette association aide les immigrés à trouver un logement." en="This association helps immigrants find housing." />
+
+## Who helps
+
+<VocabTable group="help" />
+
+France has many *associations*, groups run partly or entirely by *bénévoles* (volunteers). The word *association* covers charities, but also sports clubs and neighbourhood groups. *Le bénévolat* is the activity itself. *Une aide sociale* is a welfare benefit paid by the State or the local authorities.
+
+<Example fr="Mon frère fait du bénévolat dans une association pour les sans-abri." en="My brother does voluntary work with a charity for homeless people." />
+
+## Taking action
+
+<VocabTable group="action" />
+
+*Une manifestation* is a demonstration in the street, and *manifester* means to take part in one. *Lutter contre* (to fight against) and its noun *la lutte contre* are the standard phrases for campaigns. *Réduire* (to reduce) is conjugated like *conduire*. *Un enjeu* is what's at stake in a debate, and *une mesure* is a policy decision.
+
+<Example fr="Beaucoup de personnes ont manifesté samedi à Paris." en="Many people demonstrated in Paris on Saturday." />
+<Example fr="L'État a annoncé de nouvelles mesures pour réduire la pauvreté." en="The State announced new measures to reduce poverty." />
+<Example fr="Le logement est un enjeu très important pour les jeunes." en="Housing is a very important issue for young people." />
+
+<Example fr="Il y a eu une grande manifestation dans le centre-ville samedi." en="There was a big demonstration in the town centre on Saturday." />
+
+## En français
+
+Léo and Chloé, two students, are preparing a presentation for their class.
+
+- *Pour la présentation de vendredi, on parle des sans-abri ?* (For Friday's presentation, shall we talk about homeless people?)
+- *Bonne idée. C'est un enjeu important, et de plus en plus de gens vivent dans la précarité.* (Good idea. It's an important issue, and more and more people are living in insecurity.)
+- *D'accord, mais on ne donne pas de statistiques sans une source fiable.* (OK, but we don't give any statistics without a reliable source.)
+- *Tu as raison. On peut aussi parler de la crise du logement.* (You're right. We can talk about the housing crisis too.)
+- *Oui. Avec les loyers, même des gens qui travaillent ont du mal à trouver un logement.* (Yes. With rents the way they are, even people who work struggle to find a home.)
+- *Et les solutions ? Les logements sociaux, les aides sociales…* (And the solutions? Social housing, welfare benefits…)
+- *Et les associations ! Ma tante est bénévole dans une association à Lyon.* (And charities! My aunt volunteers for a charity in Lyon.)
+- *Super. Tu pourrais lui poser quelques questions ?* (Great. Could you ask her a few questions?)
+- *Oui, je l'appelle ce soir. Elle connaît bien le bénévolat.* (Yes, I'll call her tonight. She knows a lot about voluntary work.)
+- *Parfait. Moi, je cherche des articles sur la lutte contre la pauvreté.* (Perfect. I'll look for articles on the fight against poverty.)
+- *Et à la fin, on pose une question à la classe : comment réduire les inégalités ?* (And at the end, we'll ask the class a question: how can we reduce inequality?)
+
+<Callout type="warning" title="Une manifestation is a protest">
+  In French, **une manifestation** is a demonstration in the street: *Il y a une manifestation contre la réforme.* It doesn't mean "a sign of something", the usual English sense of "manifestation". For that meaning, say it another way: *cela montre la crise* (it shows the crisis).
+</Callout>
+
+<Callout type="tip" title="Draw a word map">
+  Pick one issue, such as housing, and write it in the middle of a page. Around it, write the problems in one colour (*la crise du logement*, *les loyers*), the people in another (*les sans-abri*, *les bénévoles*), and the solutions in a third (*les logements sociaux*, *une mesure*). Seeing the words grouped by role helps you use them together when you speak.
+</Callout>
+
+## En résumé
+
+Les inégalités, la pauvreté et la crise du logement sont des enjeux importants. Beaucoup de personnes vivent dans la précarité, et certaines sont sans-abri. Pour les aider, il y a des aides sociales, des logements sociaux et des associations. Les bénévoles donnent leur temps pour lutter contre la pauvreté. Quand des citoyens ne sont pas d'accord avec une mesure, ils peuvent manifester dans la rue. Le but est de réduire les inégalités et d'aider chacun à s'intégrer.
+
+## What's next
+
+Next, <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on the subjunctive after conjunctions" /> shows you how to link two ideas with *bien que*, *avant que* and *à condition que*.
+
+=== b2-subjunctive-conjunctions ===
+
+---
+id: "b2-subjunctive-conjunctions"
+title: "Subjunctive after conjunctions"
+description: "Link two clauses with bien que, avant que, à condition que, jusqu'à ce que, sans que and à moins que, and switch to the infinitive when the subject is the same."
+level: "B2"
+unit: "Nuance and society"
+order: 3
+type: "grammar"
+tags: ["subjunctive", "conjunctions", "grammar"]
+prerequisites: ["b1-subjunctive-vs-infinitive"]
+related: ["b2-social-issues", "b2-concession-opposition", "b2-purpose-expressions", "b1-time-connectors"]
+vocab:
+  - { id: "b2-subjunctive-conjunctions-v001", group: "conj", fr: "bien que", pron: "byan KUH", en: "although" }
+  - { id: "b2-subjunctive-conjunctions-v002", group: "conj", fr: "avant que", pron: "ah-vahn KUH", en: "before" }
+  - { id: "b2-subjunctive-conjunctions-v003", group: "conj", fr: "à condition que", pron: "ah kohn-dee-syohn KUH", en: "provided that, on condition that" }
+  - { id: "b2-subjunctive-conjunctions-v004", group: "conj", fr: "jusqu'à ce que", pron: "zhews-kah suh KUH", en: "until" }
+  - { id: "b2-subjunctive-conjunctions-v005", group: "conj", fr: "sans que", pron: "sahn KUH", en: "without" }
+  - { id: "b2-subjunctive-conjunctions-v006", group: "conj", fr: "à moins que", pron: "ah mwan KUH", en: "unless" }
+  - { id: "b2-subjunctive-conjunctions-v007", group: "inf", fr: "à condition de", pron: "ah kohn-dee-syohn DUH", en: "provided that, + infinitive" }
+  - { id: "b2-subjunctive-conjunctions-v008", group: "inf", fr: "à moins de", pron: "ah mwan DUH", en: "unless, + infinitive" }
+  - { id: "b2-subjunctive-conjunctions-v009", group: "inf", fr: "le ne explétif", pron: "luh nuh ek-splay-TEEF", en: "the expletive ne (a ne that doesn't make the sentence negative)" }
+  - { id: "b2-subjunctive-conjunctions-v010", group: "steps", fr: "une démarche", pron: "ewn day-MARSH", en: "a procedure, a step (in a process)" }
+  - { id: "b2-subjunctive-conjunctions-v011", group: "steps", fr: "obtenir", pron: "op-tuh-NEER", en: "to obtain, to get", note: "Like venir, with avoir: j'obtiens, j'ai obtenu." }
+  - { id: "b2-subjunctive-conjunctions-v012", group: "steps", fr: "un titre de séjour", pron: "uhn tee-truh duh say-ZHOOR", en: "a residence permit" }
+  - { id: "b2-subjunctive-conjunctions-v013", group: "steps", fr: "attendre que", pron: "ah-tahn-druh KUH", en: "to wait until, + subjunctive" }
+  - { id: "b2-subjunctive-conjunctions-v014", group: "steps", fr: "accueillir", pron: "ah-kuh-YEER", en: "to welcome, to receive", note: "Present like an -er verb: j'accueille, nous accueillons." }
+  - { id: "b2-subjunctive-conjunctions-v015", group: "steps", fr: "un centre d'accueil", pron: "uhn sahn-truh dah-KUH-y", en: "a reception centre, a drop-in centre" }
+exercises:
+  - id: "b2-subjunctive-conjunctions-ex001"
+    type: "fill-in"
+    prompt: "Conjuguez venir au subjonctif : Bien qu'il ___ souvent, il ne parle pas beaucoup."
+    answers: ["vienne"]
+    explanation: "Bien que + subjunctive: qu'il vienne."
+  - id: "b2-subjunctive-conjunctions-ex002"
+    type: "fill-in"
+    prompt: "Conjuguez finir au subjonctif : Attendez jusqu'à ce que je ___."
+    answers: ["finisse"]
+    explanation: "Jusqu'à ce que + subjunctive: que je finisse."
+  - id: "b2-subjunctive-conjunctions-ex003"
+    type: "fill-in"
+    prompt: "Conjuguez pouvoir au subjonctif : Je viendrai à condition que tu ___ venir me chercher."
+    answers: ["puisses"]
+    explanation: "À condition que + subjunctive: que tu puisses."
+  - id: "b2-subjunctive-conjunctions-ex004"
+    type: "fill-in"
+    prompt: "Conjuguez être au subjonctif : Partons avant qu'il ___ trop tard."
+    answers: ["soit"]
+    explanation: "Avant que + subjunctive: qu'il soit."
+  - id: "b2-subjunctive-conjunctions-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Je te prête ma voiture ___ tu fasses attention."
+    options: ["à condition que", "jusqu'à ce que", "sans que"]
+    answers: ["à condition que"]
+    explanation: "À condition que sets a condition: I'll lend it if you're careful."
+  - id: "b2-subjunctive-conjunctions-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne phrase (le même sujet fait les deux actions)."
+    options: ["Je téléphone avant de partir.", "Je téléphone avant que je parte.", "Je téléphone avant partir."]
+    answers: ["Je téléphone avant de partir."]
+    explanation: "With the same subject, French uses avant de + infinitive, not avant que."
+  - id: "b2-subjunctive-conjunctions-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de : Partez avant qu'il ne pleuve."
+    options: ["Leave before it rains.", "Leave when it stops raining.", "Don't leave if it rains."]
+    answers: ["Leave before it rains."]
+    explanation: "The ne after avant que is the expletive ne: it isn't negative."
+  - id: "b2-subjunctive-conjunctions-ex008"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase avec « bien que » : Il fait froid. Nous sortons."
+    answers: ["Bien qu'il fasse froid, nous sortons", "Nous sortons bien qu'il fasse froid"]
+    explanation: "Bien que + subjunctive: qu'il fasse."
+  - id: "b2-subjunctive-conjunctions-ex009"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase avec « avant de » : Elle lit le dossier. Ensuite, elle signe."
+    answers: ["Elle lit le dossier avant de signer", "Elle lit le dossier avant de le signer", "Avant de signer, elle lit le dossier", "Avant de le signer, elle lit le dossier"]
+    explanation: "Same subject (elle), so avant de + infinitive."
+  - id: "b2-subjunctive-conjunctions-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Bien qu'il est fatigué, il travaille."
+    answers: ["Bien qu'il soit fatigué, il travaille", "Il travaille bien qu'il soit fatigué"]
+    explanation: "Bien que always takes the subjunctive: qu'il soit."
+  - id: "b2-subjunctive-conjunctions-ex011"
+    type: "fill-in"
+    prompt: "Complétez : Il ne partira pas, à moins ___ trouver un travail dans une autre ville."
+    answers: ["de"]
+    explanation: "Same subject: à moins de + infinitive."
+  - id: "b2-subjunctive-conjunctions-ex012"
+    type: "translate"
+    prompt: "Traduisez (tu) : I'll help you provided that you call me."
+    answers: ["Je t'aiderai à condition que tu m'appelles", "Je vais t'aider à condition que tu m'appelles", "Je t'aiderai à condition que tu me téléphones", "Je vais t'aider à condition que tu me téléphones"]
+    explanation: "À condition que + subjunctive: que tu m'appelles."
+    strictAccents: true
+  - id: "b2-subjunctive-conjunctions-ex013"
+    type: "translate"
+    prompt: "Traduisez : We'll wait until he arrives."
+    answers: ["Nous attendrons jusqu'à ce qu'il arrive", "Nous allons attendre jusqu'à ce qu'il arrive", "Nous attendrons qu'il arrive", "Nous allons attendre qu'il arrive"]
+    explanation: "Jusqu'à ce que or attendre que, both + subjunctive: qu'il arrive."
+    strictAccents: true
+  - id: "b2-subjunctive-conjunctions-ex014"
+    type: "translate"
+    prompt: "Rédigez ces trois consignes en mettant le verbe au subjonctif : Envoyez le dossier avant que le bureau (fermer). Vous aurez une réponse à condition que le dossier (être) complet. Attendez jusqu'à ce que nous vous (appeler)."
+    answers: ["Envoyez le dossier avant que le bureau ferme. Vous aurez une réponse à condition que le dossier soit complet. Attendez jusqu'à ce que nous vous appelions.", "Envoyez le dossier avant que le bureau ne ferme. Vous aurez une réponse à condition que le dossier soit complet. Attendez jusqu'à ce que nous vous appelions."]
+    explanation: "Three conjunctions, three subjunctives: ferme, soit, appelions. The ne after avant que is optional."
+    strictAccents: true
+  - id: "b2-subjunctive-conjunctions-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Although it's late, we're going out."
+    words: ["Bien", "qu'il", "soit", "tard", "nous", "sortons"]
+    answers: ["Bien qu'il soit tard, nous sortons"]
+    explanation: "Bien que + subjunctive, then the main clause."
+---
+
+By the end of this lesson you'll be able to link two ideas with six conjunctions that always take the subjunctive, and to switch to an infinitive when one person does both actions.
+
+## What you already know
+
+In <LessonLink id="b1-subjunctive-vs-infinitive" text="the lesson on the subjunctive or the infinitive" />, you learned that French uses *que* + subjunctive when there are two subjects (*je veux que tu partes*) and an infinitive when there's one (*je veux partir*). The same rule applies to the conjunctions in this lesson. You also know *avant de* + infinitive from <LessonLink id="b1-time-connectors" text="the lesson on time connectors" />.
+
+## Six conjunctions, one mood
+
+<VocabTable group="conj" />
+
+| Conjunction | Meaning | Example |
+|---|---|---|
+| *bien que* | although | *bien qu'il soit tard* |
+| *avant que* | before | *avant que tu partes* |
+| *à condition que* | provided that | *à condition que tu viennes* |
+| *jusqu'à ce que* | until | *jusqu'à ce qu'elle arrive* |
+| *sans que* | without | *sans que personne le sache* |
+| *à moins que* | unless | *à moins qu'il pleuve* |
+
+All six are always followed by the subjunctive. Learn them as a group, and you won't need to think about the mood each time. Notice that *que* becomes *qu'* before a vowel: *bien qu'il*, *jusqu'à ce qu'elle*. The *à* of *à condition que* and *à moins que* keeps its accent.
+
+## Bien que: although
+
+*Bien que* introduces a fact that you accept but that doesn't change the main point. The fact may be true, but the subjunctive is still required.
+
+<Example fr="Bien qu'elle soit fatiguée, elle continue à travailler." en="Although she's tired, she keeps working." />
+<Example fr="Nous sortons, bien qu'il fasse froid." en="We're going out, although it's cold." />
+
+## Avant que and jusqu'à ce que: time
+
+*Avant que* means "before", and *jusqu'à ce que* means "until". Both look ahead to something that hasn't happened yet, which is why they take the subjunctive.
+
+<Example fr="Je t'appelle avant que tu partes." en="I'll call you before you leave." />
+<Example fr="Attends ici jusqu'à ce que je revienne." en="Wait here until I come back." />
+
+*Attendre que* (to wait until) works in the same way: *j'attends que le bureau ouvre*.
+
+## Conditions: à condition que, à moins que
+
+*À condition que* (provided that) sets a condition. *À moins que* (unless) gives the one case where things change.
+
+<Example fr="Je te prête ma voiture à condition que tu la rendes demain." en="I'll lend you my car provided that you give it back tomorrow." />
+<Example fr="Nous partirons à 8 heures, à moins qu'il y ait une grève." en="We'll leave at 8, unless there's a strike." />
+
+## Sans que: without
+
+*Sans que* means "without" when the second action has a different subject.
+
+<Example fr="Il est entré sans que personne le voie." en="He came in without anyone seeing him." />
+
+## The same subject: back to the infinitive
+
+<VocabTable group="inf" />
+
+When one person does both actions, four of these conjunctions become a preposition + infinitive. *Avant que* becomes *avant de*, *sans que* becomes *sans*, *à condition que* becomes *à condition de*, and *à moins que* becomes *à moins de*.
+
+<Example fr="Je lis le contrat avant de signer." en="I read the contract before I sign." />
+<Example fr="Elle est partie sans dire au revoir." en="She left without saying goodbye." />
+<Example fr="Tu peux venir à condition d'arriver à l'heure." en="You can come provided that you arrive on time." />
+
+*Bien que* and *jusqu'à ce que* have no infinitive partner; they keep *que* + subjunctive even with one subject.
+
+## The expletive ne
+
+After *avant que* and *à moins que*, careful or formal French often adds a small *ne*, called *le ne explétif*. It doesn't make the sentence negative: the meaning is exactly the same. You met it after *avoir peur que* in <LessonLink id="b1-subjonctif-wishes-emotions" text="the lesson on wishes and emotions" />.
+
+<Example fr="Partez avant qu'il ne pleuve." en="Leave before it rains." />
+<Example fr="Je viendrai, à moins qu'il n'y ait un problème." en="I'll come, unless there's a problem." />
+
+<Example fr="Je pars avant que nous ne finissions." en="I'm leaving before we finish." />
+
+You don't need to use it yourself, but recognize it so you don't read it as a negation.
+
+## Applying for things
+
+<VocabTable group="steps" />
+
+These words come up when someone explains an official process, such as an application for housing or for papers. *Une démarche* is one step in a procedure; *les démarches* are all the paperwork together.
+
+<Example fr="Il faut faire beaucoup de démarches avant d'obtenir un titre de séjour." en="You have to go through a lot of steps before you get a residence permit." />
+<Example fr="Le centre d'accueil accueille les familles le matin." en="The drop-in centre receives families in the morning." />
+
+## En français
+
+Amina meets a volunteer at a drop-in centre about a housing application.
+
+- *Bonjour, madame. Je voudrais faire une demande de logement social.* (Hello. I'd like to apply for social housing.)
+- *Bonjour. Bien que les démarches soient longues, nous allons vous aider.* (Hello. Although the steps are long, we'll help you.)
+- *Merci. Qu'est-ce que je dois préparer ?* (Thank you. What do I need to prepare?)
+- *Un dossier complet. Nous ne pouvons pas l'envoyer à moins qu'il soit complet.* (A complete file. We can't send it unless it's complete.)
+- *J'ai mon titre de séjour et mon contrat de travail.* (I have my residence permit and my employment contract.)
+- *Parfait. Prenez une photo des documents avant que je les envoie.* (Perfect. Take a photo of the documents before I send them.)
+- *Et après, combien de temps faut-il attendre ?* (And afterwards, how long do I have to wait?)
+- *Ça dépend. Il faut attendre que la mairie vous réponde.* (It depends. You have to wait until the town hall replies.)
+- *Je peux revenir vous voir, à condition de prendre rendez-vous ?* (Can I come back and see you, provided I make an appointment?)
+- *Oui, ou venez le matin : nous vous accueillons sans rendez-vous.* (Yes, or come in the morning: we see people without an appointment.)
+
+<Callout type="note" title="Après que: the indicative">
+  *Après que* (after) takes the indicative in careful French, in contrast with *avant que*: **après qu'il est parti** (after he left), but *avant qu'il parte*. Many speakers use the subjunctive after *après que*, but the indicative is the standard.
+</Callout>
+
+<Callout type="warning" title="Bien que + subjunctive, always">
+  It's tempting to use the indicative after *bien que*, because the fact is true. But **bien qu'il soit fatigué**, never *bien qu'il est fatigué*. In conversation you may hear the indicative, but it's considered a mistake. If you want the indicative, use another word, such as *même si* (even if), which you'll meet in <LessonLink id="b2-concession-opposition" text="the next lesson" />.
+</Callout>
+
+<Callout type="tip" title="Swap the subject">
+  Take a sentence with an infinitive, such as *Je pars avant de manger*, and change the second subject: *Je pars avant que tu manges*. Then go back the other way. Switching between the two forms ten times takes a minute, and it fixes the rule better than learning a list.
+</Callout>
+
+## En résumé
+
+Bien que, avant que, à condition que, jusqu'à ce que, sans que et à moins que sont toujours suivis du subjonctif. Quand une seule personne fait les deux actions, on prend souvent l'infinitif : avant de partir, sans parler, à condition de venir, à moins de pouvoir. Bien que et jusqu'à ce que gardent que et le subjonctif. Après avant que et à moins que, on peut ajouter le ne explétif, qui ne change pas le sens de la phrase.
+
+## What's next
+
+Next, <LessonLink id="b2-concession-opposition" text="the lesson on concession and opposition" /> adds *malgré*, *pourtant* and *alors que* to *bien que*.
+
+=== b2-concession-opposition ===
+
+---
+id: "b2-concession-opposition"
+title: "Concession and opposition"
+description: "Contrast two facts and concede a point with malgré, même si, pourtant, cependant, néanmoins, alors que, tandis que, en revanche, quand même and avoir beau."
+level: "B2"
+unit: "Nuance and society"
+order: 4
+type: "grammar"
+tags: ["connectors", "concession", "grammar"]
+prerequisites: ["b2-subjunctive-conjunctions", "b1-cause-and-consequence"]
+related: ["b1-presenting-an-argument", "b1-agreeing-disagreeing", "b2-logical-connectors", "b2-relative-prepositions"]
+vocab:
+  - { id: "b2-concession-opposition-v001", group: "despite", fr: "malgré", pron: "mahl-GRAY", en: "despite, in spite of" }
+  - { id: "b2-concession-opposition-v002", group: "despite", fr: "pourtant", pron: "poor-TAHN", en: "yet, and yet" }
+  - { id: "b2-concession-opposition-v003", group: "despite", fr: "cependant", pron: "suh-pahn-DAHN", en: "however" }
+  - { id: "b2-concession-opposition-v004", group: "despite", fr: "néanmoins", pron: "nay-ahn-MWAN", en: "nevertheless (formal)" }
+  - { id: "b2-concession-opposition-v005", group: "despite", fr: "quand même", pron: "kahn MEM", en: "all the same, still (mainly spoken)" }
+  - { id: "b2-concession-opposition-v006", group: "despite", fr: "avoir beau", pron: "ah-vwahr BOH", en: "to do something in vain", note: "Avoir beau + infinitive: j'ai beau chercher." }
+  - { id: "b2-concession-opposition-v007", group: "despite", fr: "certes", pron: "sehrt", en: "admittedly, certainly" }
+  - { id: "b2-concession-opposition-v008", group: "contrast", fr: "alors que", pron: "ah-lor KUH", en: "whereas, while" }
+  - { id: "b2-concession-opposition-v009", group: "contrast", fr: "tandis que", pron: "tahn-dee KUH", en: "whereas, while" }
+  - { id: "b2-concession-opposition-v010", group: "contrast", fr: "en revanche", pron: "ahn ruh-VAHNSH", en: "on the other hand" }
+  - { id: "b2-concession-opposition-v011", group: "words", fr: "un écart", pron: "uh-nay-KAR", en: "a gap, a difference" }
+  - { id: "b2-concession-opposition-v012", group: "words", fr: "le niveau de vie", pron: "luh nee-voh duh VEE", en: "the standard of living" }
+  - { id: "b2-concession-opposition-v013", group: "words", fr: "un paradoxe", pron: "uhn pah-rah-DOKS", en: "a paradox" }
+  - { id: "b2-concession-opposition-v014", group: "words", fr: "une contradiction", pron: "ewn kohn-trah-deek-SYOHN", en: "a contradiction" }
+  - { id: "b2-concession-opposition-v015", group: "words", fr: "contradictoire", pron: "kohn-trah-deek-TWAHR", en: "contradictory" }
+  - { id: "b2-concession-opposition-v016", group: "words", fr: "s'opposer à", pron: "soh-poh-zay AH", en: "to be opposed to, to oppose" }
+  - { id: "b2-concession-opposition-v017", group: "evenif", fr: "même si", pron: "mem SEE", en: "even if, even though", note: "+ indicative: même s'il pleut." }
+exercises:
+  - id: "b2-concession-opposition-ex001"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : ___ la pluie, nous sommes sortis."
+    options: ["Malgré", "Bien que", "Alors que"]
+    answers: ["Malgré"]
+    explanation: "Malgré + a noun. Bien que and alors que need a verb."
+  - id: "b2-concession-opposition-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Paul aime la ville, ___ sa sœur préfère la campagne."
+    options: ["alors que", "malgré", "avoir beau"]
+    answers: ["alors que"]
+    explanation: "Alors que contrasts two facts, with the indicative."
+  - id: "b2-concession-opposition-ex003"
+    type: "fill-in"
+    prompt: "Conjuguez avoir au présent : Il ___ beau chercher, il ne trouve pas d'appartement."
+    answers: ["a"]
+    explanation: "Avoir beau + infinitive: il a beau chercher (he searches in vain)."
+    strictAccents: true
+  - id: "b2-concession-opposition-ex004"
+    type: "fill-in"
+    prompt: "Complétez : Il pleut, mais on sort quand ___."
+    answers: ["même"]
+    explanation: "Quand même: all the same."
+  - id: "b2-concession-opposition-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez le connecteur du registre soutenu."
+    options: ["néanmoins", "quand même", "bref"]
+    answers: ["néanmoins"]
+    explanation: "Néanmoins belongs to formal writing. Quand même is mainly spoken, and bref doesn't express concession."
+  - id: "b2-concession-opposition-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne phrase."
+    options: ["Il fait beau. Pourtant, il reste à la maison.", "Il fait beau, pourtant qu'il reste à la maison.", "Pourtant il fait beau qu'il reste à la maison."]
+    answers: ["Il fait beau. Pourtant, il reste à la maison."]
+    explanation: "Pourtant is an adverb: it isn't followed by que."
+  - id: "b2-concession-opposition-ex007"
+    type: "reformulation"
+    prompt: "Reformulez avec « malgré » + nom : Bien qu'il pleuve, le match a lieu."
+    answers: ["Malgré la pluie, le match a lieu", "Le match a lieu malgré la pluie", "Malgré le mauvais temps, le match a lieu", "Le match a lieu malgré le mauvais temps"]
+    explanation: "Malgré + a noun replaces bien que + a verb."
+    strictAccents: true
+  - id: "b2-concession-opposition-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « avoir beau » : Je cherche, mais je ne trouve pas mes clés."
+    answers: ["J'ai beau chercher, je ne trouve pas mes clés", "J'ai beau chercher mes clés, je ne les trouve pas", "J'ai beau chercher, je ne les trouve pas"]
+    explanation: "Avoir beau + infinitive says the effort doesn't work."
+  - id: "b2-concession-opposition-ex009"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Malgré qu'il pleut, nous sortons."
+    answers: ["Bien qu'il pleuve, nous sortons", "Malgré la pluie, nous sortons", "Même s'il pleut, nous sortons"]
+    explanation: "Malgré takes a noun, not que. Use malgré la pluie, bien que + subjunctive, or même si + indicative."
+  - id: "b2-concession-opposition-ex010"
+    type: "register-shift"
+    prompt: "Transformez en registre soutenu, avec « néanmoins » : C'est cher, mais je l'achète quand même."
+    answers: ["C'est cher. Néanmoins, je l'achète", "C'est cher, néanmoins je l'achète"]
+    explanation: "Néanmoins replaces both mais and quand même in formal writing."
+  - id: "b2-concession-opposition-ex011"
+    type: "fill-in"
+    prompt: "Complétez : À Paris, les loyers sont chers. En ___, les salaires sont meilleurs."
+    answers: ["revanche"]
+    explanation: "En revanche: on the other hand."
+  - id: "b2-concession-opposition-ex012"
+    type: "translate"
+    prompt: "Traduisez : Despite the rain, we went out."
+    answers: ["Malgré la pluie, nous sommes sortis", "Malgré la pluie, nous sommes sorties", "Nous sommes sortis malgré la pluie", "Nous sommes sorties malgré la pluie"]
+    explanation: "Malgré + noun. Sortir takes être, and the participle agrees with nous."
+  - id: "b2-concession-opposition-ex013"
+    type: "translate"
+    prompt: "Traduisez avec avoir beau : He tried in vain, he didn't succeed."
+    answers: ["Il a eu beau essayer, il n'a pas réussi"]
+    explanation: "Avoir beau in the passé composé: il a eu beau essayer."
+    strictAccents: true
+  - id: "b2-concession-opposition-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : La ville est chère, (whereas) la campagne est calme. (Despite) le bruit, j'aime Paris. Le travail est intéressant. (Nevertheless, formal), le salaire est bas."
+    answers: ["La ville est chère, alors que la campagne est calme. Malgré le bruit, j'aime Paris. Le travail est intéressant. Néanmoins, le salaire est bas.", "La ville est chère, tandis que la campagne est calme. Malgré le bruit, j'aime Paris. Le travail est intéressant. Néanmoins, le salaire est bas."]
+    explanation: "Alors que or tandis que for the contrast, malgré + noun, and néanmoins to start a formal sentence."
+  - id: "b2-concession-opposition-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Despite his age, he's still working."
+    words: ["Malgré", "son", "âge", "il", "travaille", "encore"]
+    answers: ["Malgré son âge, il travaille encore"]
+    explanation: "Malgré + noun at the start, then the main clause."
+---
+
+By the end of this lesson you'll be able to contrast two facts and concede a point with the main French connectors of opposition and concession.
+
+## What you already know
+
+You already concede a point with *il est vrai que…, mais…*, from <LessonLink id="b1-presenting-an-argument" text="the lesson on presenting an argument" />, and you compare two sides with *d'un côté… de l'autre*, from <LessonLink id="b1-agreeing-disagreeing" text="the lesson on agreeing and disagreeing" />. In <LessonLink id="b2-subjunctive-conjunctions" text="the last lesson" />, you added *bien que* + subjunctive. This lesson gives you the other common ways of saying "but", "despite" and "whereas".
+
+## Despite: malgré, not bien que
+
+<VocabTable group="despite" />
+
+*Malgré* (despite) is a preposition: it's followed by a noun or a pronoun. *Bien que* is a conjunction: it's followed by a verb in the subjunctive. The two say the same thing in different shapes.
+
+<Example fr="Malgré la pluie, le match a lieu." en="Despite the rain, the match is going ahead." />
+<Example fr="Bien qu'il pleuve, le match a lieu." en="Although it's raining, the match is going ahead." />
+
+## Even if: même si
+
+<VocabTable group="evenif" />
+
+*Même si* (even if, even though) also concedes a point, but it takes the indicative, like *si*. It's the usual way to concede a whole clause without the subjunctive. The meaning is close to *bien que*, but the mood is different: *même s'il pleut*, *bien qu'il pleuve*.
+
+<Example fr="Même s'il pleut, le match a lieu." en="Even if it's raining, the match is going ahead." />
+<Example fr="Je sors ce soir, même si je suis fatigué." en="I'm going out tonight, even though I'm tired." />
+
+## Starting a sentence: pourtant, cependant, néanmoins
+
+These three adverbs usually start a new sentence or a new clause, often after a full stop or a semicolon, and they're followed by a comma. They all mean roughly "however", but they differ in register. *Pourtant* (yet, and yet) is common in speech and writing, and often expresses surprise. *Cependant* (however) is neutral and frequent in writing. *Néanmoins* (nevertheless) is formal.
+
+<Example fr="Il a beaucoup travaillé. Pourtant, il a raté l'examen." en="He worked a lot. And yet he failed the exam." />
+<Example fr="Le projet est intéressant. Cependant, il coûte trop cher." en="The project is interesting. However, it costs too much." />
+<Example fr="Le projet avance bien ; néanmoins, il reste beaucoup de travail." en="The project is going well; nevertheless, there's still a lot of work." />
+
+## Comparing two facts: alors que, tandis que
+
+<VocabTable group="contrast" />
+
+*Alors que* and *tandis que* (whereas) put two facts side by side to show a contrast. Unlike *bien que*, they take the indicative. There's no deeper reason to look for: it's simply the rule for each conjunction, so learn *bien que* with the subjunctive and *alors que* and *tandis que* with the indicative.
+
+<Example fr="Mon frère adore la ville, alors que je préfère la campagne." en="My brother loves the city, whereas I prefer the countryside." />
+<Example fr="Les loyers sont de plus en plus chers, tandis que les salaires restent les mêmes." en="Rents are more and more expensive, while salaries stay the same." />
+
+*Alors que* can also mean "while" in time (*il est arrivé alors que je partais*), but the contrast meaning is the more common one. *En revanche* (on the other hand) is an adverb that does the same job between two sentences: *Paris est cher. En revanche, les salaires y sont plus hauts.*
+
+## Still and in vain: quand même, avoir beau
+
+*Quand même* (all the same, still) is the spoken way to say that something happens despite an obstacle. It usually comes after the verb.
+
+<Example fr="Il était malade, mais il est venu quand même." en="He was ill, but he came all the same." />
+
+*Avoir beau* + infinitive says that an effort doesn't work. Only *avoir* changes; *beau* stays as it is.
+
+<Example fr="J'ai beau chercher, je ne trouve pas mes clés." en="However hard I look, I can't find my keys." />
+<Example fr="Elle a eu beau parler, il n'a pas changé d'avis." en="She talked in vain; he didn't change his mind." />
+
+*Certes* (admittedly) accepts a point before a *mais*, a little more formally than *c'est vrai*: *Certes, c'est cher, mais c'est utile.*
+
+## Choosing the right connector
+
+If what you concede is a noun, use *malgré*. If it's a full clause, use *bien que* + subjunctive, or *même si* + indicative. If you compare two facts in one sentence, use *alors que* or *tandis que*. If you start a new sentence, use *pourtant* or *cependant*, or *néanmoins* in formal writing, and add *en revanche* when you simply contrast two sides. In conversation, *quand même* at the end of the sentence is often all you need: *C'était cher, mais j'y suis allé quand même.*
+
+## Talking about differences
+
+<VocabTable group="words" />
+
+<Example fr="L'écart entre les salaires reste important." en="The gap between salaries remains large." />
+<Example fr="Il y a une contradiction dans ce texte." en="There's a contradiction in this text." />
+<Example fr="Beaucoup de gens s'opposent à ce projet." en="Many people are opposed to this project." />
+
+*Contradictoire* (contradictory) describes two ideas that can't both be true; *un paradoxe* (a paradox) is a situation that seems contradictory but is real.
+
+<Example fr="Ces deux idées sont contradictoires." en="These two ideas are contradictory." />
+
+## En français
+
+Lucas visits Manon, who has moved from Paris to a small town.
+
+- *Tu ne regrettes pas Paris ?* (Don't you miss Paris?)
+- *Parfois. Malgré le bruit, j'aimais l'ambiance.* (Sometimes. Despite the noise, I liked the atmosphere.)
+- *Ici, en revanche, c'est calme, et les loyers sont bas.* (Here, on the other hand, it's quiet, and rents are low.)
+- *Certes, mais il n'y a pas beaucoup de cinémas.* (Admittedly, but there aren't many cinemas.)
+- *C'est vrai. Pourtant, tu sors plus qu'avant, non ?* (That's true. And yet you go out more than before, don't you?)
+- *Oui. J'ai beau trouver la ville trop calme, je sors avec mes amis tous les week-ends.* (Yes. I may find the town too quiet, but I go out with my friends every weekend.)
+- *Alors qu'à Paris, tu travaillais tard tous les soirs !* (Whereas in Paris, you worked late every evening!)
+- *Exactement. Ici, mon niveau de vie est meilleur, même avec un salaire plus bas.* (Exactly. Here, my standard of living is better, even with a lower salary.)
+- *Il y a un écart entre les salaires, non ?* (There's a gap between salaries, isn't there?)
+- *Oui, mais tout coûte moins cher. C'est un peu un paradoxe.* (Yes, but everything costs less. It's a bit of a paradox.)
+- *Bref, tu restes ici ?* (Anyway, are you staying here?)
+- *Oui, je reste. Mais je viendrai quand même souvent à Paris !* (Yes, I'm staying. But I'll still come to Paris often!)
+
+<Callout type="warning" title="Malgré + noun, bien que + verb">
+  Don't put *que* after *malgré*. *Malgré qu'il pleut* is wrong, and even *malgré qu'il pleuve* is criticized. Before a verb, use **bien qu'il pleuve**; before a noun, use **malgré la pluie**.
+</Callout>
+
+<Callout type="tip" title="One fact, two connectors">
+  Take one contrast from your own life, such as your town and the next one, and write it twice: once with *alors que* in one sentence, and once with *en revanche* across two sentences. Then add a third version with *malgré* and a noun. Saying the same idea three ways trains you to pick the connector that fits the sentence you've started.
+</Callout>
+
+## En résumé
+
+Malgré est suivi d'un nom : malgré la pluie. Bien que est suivi d'un verbe au subjonctif. Pourtant, cependant et néanmoins commencent souvent une phrase, et néanmoins est plus soutenu. Même si est suivi de l'indicatif : même s'il pleut. Alors que et tandis que comparent deux faits avec l'indicatif. En revanche montre une différence entre deux phrases. Avoir beau est suivi d'un infinitif : j'ai beau chercher veut dire que je cherche beaucoup, mais je ne trouve pas. Quand même se met après le verbe : il est malade, mais il vient quand même.
+
+## What's next
+
+Next, <LessonLink id="b2-idioms-everyday" text="the lesson on everyday idioms" /> gives you some colourful expressions, before <LessonLink id="b2-logical-connectors" text="the lesson on logical connectors" /> completes the connectors.
+
+=== b2-idioms-everyday ===
+
+---
+id: "b2-idioms-everyday"
+title: "Everyday idioms"
+description: "Understand and use 21 very common French idioms about the body, food and animals, with their register."
+level: "B2"
+unit: "Nuance and society"
+order: 5
+type: "vocabulary"
+tags: ["idioms", "vocabulary", "speaking"]
+prerequisites: ["b1-relationships"]
+related: ["b2-idiomatic-y-en", "b2-colloquial-french", "b2-logical-connectors"]
+vocab:
+  - { id: "b2-idioms-everyday-v001", group: "body", fr: "coûter les yeux de la tête", pron: "koo-tay lay-zyuh duh lah TET", en: "to cost an arm and a leg", note: "Informal." }
+  - { id: "b2-idioms-everyday-v002", group: "body", fr: "coûter un rein", pron: "koo-tay uhn RAN", en: "to cost a fortune", note: "Very informal." }
+  - { id: "b2-idioms-everyday-v003", group: "body", fr: "casser les pieds à quelqu'un", pron: "kah-say lay PYAY ah kel-KUHN", en: "to get on someone's nerves", note: "Informal." }
+  - { id: "b2-idioms-everyday-v004", group: "body", fr: "mettre les pieds dans le plat", pron: "meh-truh lay pyay dahn luh PLAH", en: "to put your foot in it", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v005", group: "body", fr: "avoir un poil dans la main", pron: "ah-vwahr uhn pwahl dahn lah MAN", en: "to be lazy", note: "Informal." }
+  - { id: "b2-idioms-everyday-v006", group: "body", fr: "se creuser la tête", pron: "suh kruh-zay lah TET", en: "to rack your brains", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v007", group: "body", fr: "faire la tête", pron: "fehr lah TET", en: "to sulk", note: "Informal." }
+  - { id: "b2-idioms-everyday-v008", group: "body", fr: "avoir le bras long", pron: "ah-vwahr luh brah LOHN", en: "to have influence, to know the right people", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v009", group: "body", fr: "en un clin d'œil", pron: "ahn-nuhn klan DUH-y", en: "in the blink of an eye", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v010", group: "food", fr: "tomber dans les pommes", pron: "tohn-bay dahn lay POMM", en: "to faint", note: "Informal." }
+  - { id: "b2-idioms-everyday-v011", group: "food", fr: "avoir du pain sur la planche", pron: "ah-vwahr dew pan sewr lah PLAHNSH", en: "to have a lot on your plate", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v012", group: "food", fr: "raconter des salades", pron: "rah-kohn-tay day sah-LAD", en: "to tell tall stories, to tell lies", note: "Informal." }
+  - { id: "b2-idioms-everyday-v013", group: "food", fr: "ne pas être dans son assiette", pron: "nuh pah-zeh-truh dahn sohn-nah-SYET", en: "to feel off, to be out of sorts", note: "Neutral. The possessive changes: je ne suis pas dans mon assiette." }
+  - { id: "b2-idioms-everyday-v014", group: "animals", fr: "poser un lapin à quelqu'un", pron: "poh-zay uhn lah-PAN ah kel-KUHN", en: "to stand someone up", note: "Informal." }
+  - { id: "b2-idioms-everyday-v015", group: "animals", fr: "avoir le cafard", pron: "ah-vwahr luh kah-FAR", en: "to feel down", note: "Informal. Un cafard is a cockroach." }
+  - { id: "b2-idioms-everyday-v016", group: "animals", fr: "donner sa langue au chat", pron: "doh-nay sah lahng oh SHAH", en: "to give up guessing", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v017", group: "animals", fr: "appeler un chat un chat", pron: "ah-play uhn shah uhn SHAH", en: "to call a spade a spade", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v018", group: "other", fr: "il pleut des cordes", pron: "eel pluh day KORD", en: "it's pouring", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v019", group: "other", fr: "être dans la lune", pron: "eh-truh dahn lah LEWN", en: "to be daydreaming", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v020", group: "other", fr: "avoir la flemme", pron: "ah-vwahr lah FLEM", en: "to not be bothered, to feel lazy", note: "Informal: avoir la flemme de + infinitive." }
+  - { id: "b2-idioms-everyday-v021", group: "other", fr: "avoir un coup de foudre", pron: "ah-vwahr uhn koo duh FOO-druh", en: "to fall in love at first sight", note: "Neutral: avoir un coup de foudre pour quelqu'un." }
+  - { id: "b2-idioms-everyday-v022", group: "other", fr: "une expression imagée", pron: "ew-neks-preh-syohn ee-mah-ZHAY", en: "an idiom, a figurative expression" }
+exercises:
+  - id: "b2-idioms-everyday-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « avoir le cafard »."
+    options: ["to feel down", "to be hungry", "to be scared of insects"]
+    answers: ["to feel down"]
+    explanation: "Avoir le cafard means to feel low, even though un cafard is a cockroach."
+  - id: "b2-idioms-everyday-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « poser un lapin à quelqu'un »."
+    options: ["to stand someone up", "to give someone a pet", "to arrive early"]
+    answers: ["to stand someone up"]
+    explanation: "Poser un lapin: not to turn up to a date or a meeting."
+  - id: "b2-idioms-everyday-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « coûter les yeux de la tête »."
+    options: ["to cost a fortune", "to hurt your eyes", "to be free"]
+    answers: ["to cost a fortune"]
+    explanation: "English uses an arm and a leg; French uses your eyes."
+  - id: "b2-idioms-everyday-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « tomber dans les pommes »."
+    options: ["to faint", "to fall in love", "to go to the market"]
+    answers: ["to faint"]
+    explanation: "Tomber dans les pommes: to faint, informally."
+  - id: "b2-idioms-everyday-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « avoir un poil dans la main »."
+    options: ["to be lazy", "to be very generous", "to be good with your hands"]
+    answers: ["to be lazy"]
+    explanation: "Avoir un poil dans la main: to be lazy, as if a hair stops you working."
+  - id: "b2-idioms-everyday-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Il m'a posé un ___ hier soir : j'ai attendu une heure."
+    answers: ["lapin"]
+    explanation: "Poser un lapin à quelqu'un: to stand someone up."
+  - id: "b2-idioms-everyday-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Il faisait si chaud qu'elle est tombée dans les ___."
+    answers: ["pommes"]
+    explanation: "Tomber dans les pommes: to faint."
+  - id: "b2-idioms-everyday-ex008"
+    type: "fill-in"
+    prompt: "Complétez : Cette semaine, j'ai du pain sur la ___."
+    answers: ["planche"]
+    explanation: "Avoir du pain sur la planche: to have a lot to do."
+  - id: "b2-idioms-everyday-ex009"
+    type: "register-shift"
+    prompt: "Transformez en registre courant, sans expression imagée : Il m'a posé un lapin."
+    answers: ["Il n'est pas venu au rendez-vous", "Il n'est pas venu à notre rendez-vous", "Il n'est pas venu à mon rendez-vous", "Il n'est pas venu"]
+    explanation: "The neutral version simply says that he didn't come."
+    strictAccents: true
+  - id: "b2-idioms-everyday-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec une expression imagée : Cette voiture coûte très cher."
+    answers: ["Cette voiture coûte les yeux de la tête", "Cette voiture coûte un rein"]
+    explanation: "Both idioms mean very expensive. Coûter un rein is the more informal one."
+  - id: "b2-idioms-everyday-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Je donne ma langue au chien."
+    answers: ["Je donne ma langue au chat"]
+    explanation: "The animal is fixed: donner sa langue au chat."
+  - id: "b2-idioms-everyday-ex012"
+    type: "translate"
+    prompt: "Traduisez avec une expression imagée : It's pouring."
+    answers: ["Il pleut des cordes"]
+    explanation: "Il pleut des cordes, not des chats et des chiens."
+  - id: "b2-idioms-everyday-ex013"
+    type: "translate"
+    prompt: "Traduisez : This phone costs an arm and a leg."
+    answers: ["Ce téléphone coûte les yeux de la tête", "Ce portable coûte les yeux de la tête", "Ce téléphone coûte un rein", "Ce portable coûte un rein"]
+    explanation: "Coûter les yeux de la tête is the French equivalent; coûter un rein is more informal."
+  - id: "b2-idioms-everyday-ex014"
+    type: "translate"
+    prompt: "Rédigez ce message en complétant comme indiqué : Désolée, je ne viens pas ce soir : j'ai (a lot on my plate). De plus, j'ai (feel down). Je ne suis pas (feeling off)."
+    answers: ["Désolée, je ne viens pas ce soir : j'ai du pain sur la planche. De plus, j'ai le cafard. Je ne suis pas dans mon assiette."]
+    explanation: "Three idioms; the possessive in dans son assiette changes to mon."
+  - id: "b2-idioms-everyday-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : He's daydreaming."
+    words: ["Il", "est", "dans", "la", "lune"]
+    answers: ["Il est dans la lune"]
+    explanation: "Être dans la lune: to be daydreaming."
+---
+
+By the end of this lesson you'll be able to understand and use 21 very common French idioms, and to know which ones are fine at work and which are only for friends.
+
+## How idioms work
+
+<VocabTable group="other" />
+
+An idiom, *une expression imagée*, means more than the sum of its words: *il pleut des cordes* is literally "it's raining ropes", but it simply means "it's pouring". You can't translate idioms word for word in either direction, and many English idioms have a French partner that uses a completely different picture. You already know a few phrases of this kind, such as *tomber amoureux*, from <LessonLink id="b1-relationships" text="the lesson on relationships" />.
+
+Two things matter when you use an idiom. First, the verb changes as usual, but the rest stays fixed: *j'ai la flemme*, *il avait la flemme*. Second, each idiom has a register. In the vocab tables, *neutral* means you can use it with almost anyone, and *informal* means friends and family only.
+
+<Example fr="Je suis dans la lune ce matin, je n'ai pas assez dormi." en="I'm daydreaming this morning, I didn't sleep enough." />
+<Example fr="J'ai la flemme de faire la cuisine ce soir." en="I can't be bothered to cook tonight." />
+<Example fr="Elle a eu un coup de foudre pour cette maison." en="She fell in love with this house at first sight." />
+
+*Avoir un coup de foudre* can be about a person, a place or an object. *Avoir la flemme* is followed by *de* + infinitive.
+
+## The body
+
+<VocabTable group="body" />
+
+Many French idioms use parts of the body. Notice that *coûter les yeux de la tête* and *coûter un rein* both mean "to be very expensive", but *coûter un rein* (literally "to cost a kidney") is more informal.
+
+<Example fr="Ce voyage m'a coûté les yeux de la tête." en="This trip cost me an arm and a leg." />
+<Example fr="Arrête de me casser les pieds avec cette histoire !" en="Stop going on at me about that story!" />
+<Example fr="Il a mis les pieds dans le plat en parlant de la fête surprise." en="He put his foot in it by mentioning the surprise party." />
+<Example fr="Elle connaît tout le monde : elle a le bras long." en="She knows everyone: she has influence." />
+
+<Example fr="Il ne fait jamais rien : il a un poil dans la main !" en="He never does anything: he's bone idle!" />
+<Example fr="Je me suis creusé la tête, mais je n'ai pas trouvé la réponse." en="I racked my brains, but I didn't find the answer." />
+<Example fr="Elle a fini ses devoirs en un clin d'œil." en="She finished her homework in the blink of an eye." />
+
+*Casser les pieds à quelqu'un* is informal, and close to rude when said directly: use it to describe someone, not to their face. *Faire la tête* (to sulk) is very common with children and partners: *Pourquoi tu fais la tête ?*
+
+## Food
+
+<VocabTable group="food" />
+
+<Example fr="Je ne suis pas dans mon assiette aujourd'hui." en="I'm feeling a bit off today." />
+<Example fr="Arrête de raconter des salades, je sais que c'est faux." en="Stop telling stories, I know it's not true." />
+
+*Ne pas être dans son assiette* has nothing to do with plates: it means you feel slightly unwell or not yourself. The possessive changes with the person: *je ne suis pas dans mon assiette*, *tu n'es pas dans ton assiette ?*
+
+## Animals
+
+<VocabTable group="animals" />
+
+<Example fr="Je ne trouve pas la réponse : je donne ma langue au chat." en="I can't find the answer: I give up." />
+<Example fr="Il faut appeler un chat un chat : ce projet ne marche pas." en="Let's call a spade a spade: this project isn't working." />
+
+*Donner sa langue au chat* is what you say when you give up on a riddle or a guess. *Avoir le cafard* (literally "to have the cockroach") means to feel down, and has nothing to do with insects in modern French.
+
+## Using idioms well
+
+Idioms make your French sound natural, but only in the right place. Use one or two in a conversation, not five in a row, or you'll sound as if you're reciting a list. Keep the informal ones, such as *coûter un rein* or *avoir la flemme*, for friends and family; in a job interview or a formal email, choose a plain sentence instead (*c'est très cher*, *je n'ai pas le temps*). Some idioms also sound old-fashioned to young speakers, so listen to how people around you talk before you adopt a new one. Finally, check the small words: it's *poser un lapin à quelqu'un* and *casser les pieds à quelqu'un*, with *à*, and *avoir la flemme de* + infinitive.
+
+## En français
+
+Zoé finds her flatmate Malik on the sofa on a Sunday evening.
+
+- *Ça ne va pas ? Tu n'es pas dans ton assiette ?* (What's wrong? Are you feeling off?)
+- *Non, j'ai le cafard. Quelle semaine !* (No, I'm feeling down. What a week!)
+- *Qu'est-ce qui s'est passé ?* (What happened?)
+- *D'abord, Hugo m'a posé un lapin samedi. J'ai attendu une heure au café.* (First, Hugo stood me up on Saturday. I waited an hour at the café.)
+- *Ce n'est pas sympa. Il t'a appelé après ?* (That's not nice. Did he call you afterwards?)
+- *Oui, mais il m'a raconté des salades : il dit qu'il a oublié son portable.* (Yes, but he told me some story: he says he forgot his phone.)
+- *Et au travail ?* (And at work?)
+- *J'ai du pain sur la planche, et ma patronne me casse les pieds.* (I've got a lot on my plate, and my boss is getting on my nerves.)
+- *Tu devrais lui parler et appeler un chat un chat.* (You should talk to her and call a spade a spade.)
+- *Je sais, mais j'ai la flemme de lui parler cette semaine.* (I know, but I can't be bothered to talk to her this week.)
+- *Bon, ce soir, on sort ? Il ne pleut plus des cordes.* (Right, shall we go out tonight? It's not pouring any more.)
+- *D'accord, bonne idée ! Allons-y.* (OK, good idea! Let's go.)
+
+<Callout type="warning" title="Il pleut des cordes, not des chats">
+  English idioms rarely translate word for word. *Il pleut des chats et des chiens* means nothing in French: say **il pleut des cordes**. In the same way, an expensive phone doesn't cost "an arm and a leg" but **les yeux de la tête**. When you're not sure of the French idiom, use a plain sentence instead: *il pleut beaucoup*, *ça coûte très cher*.
+</Callout>
+
+<Callout type="tip" title="Picture the idiom">
+  For each idiom, imagine the literal picture for a second: a rabbit placed on a chair instead of your date, a rope of rain, a hair in your hand that stops you working. The strange image is easy to remember, and it brings the meaning back with it. Then use the idiom once that day, in a message to a friend.
+</Callout>
+
+## En résumé
+
+Une expression imagée ne se traduit pas mot à mot. En français, il pleut des cordes, pas des chats ! Beaucoup d'expressions parlent de la tête, des yeux, des pieds ou de la main. D'autres parlent de ce qu'on mange, comme le pain, les pommes et les salades, ou des animaux, comme le chat et le lapin. Le verbe change, mais le reste de l'expression ne change pas. Beaucoup d'expressions sont du registre familier : on les dit avec des amis, pas dans une lettre formelle.
+
+## What's next
+
+Next, <LessonLink id="b2-logical-connectors" text="the lesson on logical connectors" /> helps you link your ideas in writing.
+
+=== b2-logical-connectors ===
+
+---
+id: "b2-logical-connectors"
+title: "Logical connectors"
+description: "Link ideas in writing to add, explain, draw a consequence and give a cause, with en outre, en effet, or, par conséquent, étant donné que, faute de and more."
+level: "B2"
+unit: "Nuance and society"
+order: 6
+type: "grammar"
+tags: ["connectors", "writing", "grammar"]
+prerequisites: ["b2-concession-opposition"]
+related: ["b1-cause-and-consequence", "b1-presenting-an-argument", "b2-purpose-expressions", "b2-argumentative-essay"]
+vocab:
+  - { id: "b2-logical-connectors-v001", group: "add", fr: "en outre", pron: "ahn-NOO-truh", en: "furthermore, in addition (formal)" }
+  - { id: "b2-logical-connectors-v002", group: "add", fr: "d'ailleurs", pron: "dah-YUHR", en: "besides, moreover, by the way" }
+  - { id: "b2-logical-connectors-v003", group: "explain", fr: "en effet", pron: "ahn-neh-FEH", en: "indeed, that's because", note: "False friend: not 'in effect'." }
+  - { id: "b2-logical-connectors-v004", group: "explain", fr: "c'est-à-dire", pron: "seh-tah-DEER", en: "that is to say" }
+  - { id: "b2-logical-connectors-v005", group: "explain", fr: "autrement dit", pron: "oh-truh-mahn DEE", en: "in other words" }
+  - { id: "b2-logical-connectors-v006", group: "explain", fr: "or", pron: "or", en: "now, yet (introduces a fact that changes the reasoning)" }
+  - { id: "b2-logical-connectors-v007", group: "result", fr: "ainsi", pron: "an-SEE", en: "thus, in this way" }
+  - { id: "b2-logical-connectors-v008", group: "result", fr: "par conséquent", pron: "par kohn-say-KAHN", en: "consequently, therefore" }
+  - { id: "b2-logical-connectors-v009", group: "result", fr: "d'où", pron: "doo", en: "hence, which explains", note: "Followed by a noun: d'où le retard." }
+  - { id: "b2-logical-connectors-v010", group: "result", fr: "si bien que", pron: "see byan KUH", en: "so that, with the result that", note: "Followed by the indicative." }
+  - { id: "b2-logical-connectors-v011", group: "result", fr: "tellement… que", pron: "tel-mahn … KUH", en: "so (much)… that" }
+  - { id: "b2-logical-connectors-v012", group: "cause", fr: "étant donné que", pron: "ay-tahn doh-nay KUH", en: "given that" }
+  - { id: "b2-logical-connectors-v013", group: "cause", fr: "vu que", pron: "vew KUH", en: "seeing that, since" }
+  - { id: "b2-logical-connectors-v014", group: "cause", fr: "du fait que", pron: "dew feh KUH", en: "because of the fact that" }
+  - { id: "b2-logical-connectors-v015", group: "cause", fr: "faute de", pron: "foht DUH", en: "for lack of", note: "Followed by a noun or an infinitive." }
+  - { id: "b2-logical-connectors-v016", group: "cause", fr: "à force de", pron: "ah forss DUH", en: "by dint of, by doing something again and again", note: "Followed by a noun or an infinitive." }
+  - { id: "b2-logical-connectors-v017", group: "sum", fr: "en somme", pron: "ahn SOMM", en: "in short, all in all" }
+  - { id: "b2-logical-connectors-v018", group: "either", fr: "soit… soit", pron: "SWAH … SWAH", en: "either… or" }
+  - { id: "b2-logical-connectors-v019", group: "either", fr: "ou bien", pron: "oo BYAN", en: "or else, or" }
+exercises:
+  - id: "b2-logical-connectors-ex001"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Ce quartier est calme. ___, il y a beaucoup de parcs."
+    options: ["En outre", "Faute de", "Vu que"]
+    answers: ["En outre"]
+    explanation: "En outre adds a second argument in the same direction."
+  - id: "b2-logical-connectors-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Il a raté le train, ___ il est arrivé en retard."
+    options: ["si bien qu'", "étant donné qu'", "faute d'"]
+    answers: ["si bien qu'"]
+    explanation: "Si bien que introduces the result of what comes before."
+  - id: "b2-logical-connectors-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : ___ il pleut, le match est annulé."
+    options: ["Étant donné qu'", "Par conséquent", "En somme"]
+    answers: ["Étant donné qu'"]
+    explanation: "Étant donné que gives the cause at the start of the sentence."
+  - id: "b2-logical-connectors-ex004"
+    type: "fill-in"
+    prompt: "Complétez : Les loyers sont trop chers, ___ les manifestations de samedi."
+    answers: ["d'où"]
+    explanation: "D'où + a noun: hence the demonstrations."
+    strictAccents: true
+  - id: "b2-logical-connectors-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Il a beaucoup travaillé, si ___ qu'il a réussi."
+    answers: ["bien"]
+    explanation: "Si bien que + indicative: with the result that."
+  - id: "b2-logical-connectors-ex006"
+    type: "fill-in"
+    prompt: "Complétez : ___ de temps, je n'ai pas fini le livre."
+    answers: ["Faute"]
+    explanation: "Faute de + a noun: for lack of time."
+  - id: "b2-logical-connectors-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « en effet » : Il est fatigué. En effet, il a mal dormi."
+    options: ["indeed, that's because", "on the other hand", "in conclusion"]
+    answers: ["indeed, that's because"]
+    explanation: "En effet explains or confirms what came before. It's a false friend: not 'in effect'."
+  - id: "b2-logical-connectors-ex008"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « or » : Il voulait partir en train. Or, la gare était fermée."
+    options: ["It introduces a fact that changes the situation.", "It gives a second choice.", "It concludes the text."]
+    answers: ["It introduces a fact that changes the situation."]
+    explanation: "Or brings in a new fact that the reasoning has to take into account."
+  - id: "b2-logical-connectors-ex009"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase avec « étant donné que » : Il pleut. Nous restons à la maison."
+    answers: ["Étant donné qu'il pleut, nous restons à la maison", "Nous restons à la maison étant donné qu'il pleut"]
+    explanation: "Étant donné que + indicative, at the start or after the main clause."
+    strictAccents: true
+  - id: "b2-logical-connectors-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « à force de » + infinitif : Il travaille beaucoup, c'est pourquoi il réussit."
+    answers: ["À force de travailler, il réussit", "Il réussit à force de travailler"]
+    explanation: "À force de + infinitive: the result comes from repeated effort."
+    strictAccents: true
+  - id: "b2-logical-connectors-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de connecteur : Il fait beau. En effet, nous restons à la maison."
+    answers: ["Il fait beau. Pourtant, nous restons à la maison", "Il fait beau. Cependant, nous restons à la maison", "Il fait beau. Néanmoins, nous restons à la maison"]
+    explanation: "En effet confirms; here the second sentence contrasts, so it needs pourtant, cependant or néanmoins."
+    strictAccents: true
+  - id: "b2-logical-connectors-ex012"
+    type: "register-shift"
+    prompt: "Transformez en registre soutenu, avec « étant donné que » : Vu que tu es là, tu peux m'aider ?"
+    answers: ["Étant donné que tu es là, tu peux m'aider ?", "Étant donné que tu es là, peux-tu m'aider ?"]
+    explanation: "Étant donné que is more formal than vu que."
+    strictAccents: true
+  - id: "b2-logical-connectors-ex013"
+    type: "translate"
+    prompt: "Traduisez avec « étant donné que » : Given that it's raining, we'll stay at home."
+    answers: ["Étant donné qu'il pleut, nous resterons à la maison", "Étant donné qu'il pleut, nous allons rester à la maison", "Nous resterons à la maison étant donné qu'il pleut", "Nous allons rester à la maison étant donné qu'il pleut"]
+    explanation: "Étant donné que + indicative, then the main clause."
+    strictAccents: true
+  - id: "b2-logical-connectors-ex014"
+    type: "translate"
+    prompt: "Rédigez ce paragraphe en complétant comme indiqué : Le centre-ville est très cher. (Furthermore), il y a beaucoup de bruit. (Consequently, formal), beaucoup de familles partent. (In other words), la ville change."
+    answers: ["Le centre-ville est très cher. En outre, il y a beaucoup de bruit. Par conséquent, beaucoup de familles partent. Autrement dit, la ville change.","Le centre-ville est très cher. De plus, il y a beaucoup de bruit. Par conséquent, beaucoup de familles partent. Autrement dit, la ville change.","Le centre-ville est très cher. D'ailleurs, il y a beaucoup de bruit. Par conséquent, beaucoup de familles partent. Autrement dit, la ville change."]
+    explanation: "Addition (en outre, de plus or d'ailleurs), consequence, then a rephrasing, each followed by a comma."
+    strictAccents: true
+  - id: "b2-logical-connectors-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : He worked so much that he's tired."
+    words: ["Il", "a", "tellement", "travaillé", "qu'il", "est", "fatigué"]
+    answers: ["Il a tellement travaillé qu'il est fatigué"]
+    explanation: "Tellement before the participle, then que + the result."
+---
+
+By the end of this lesson you'll be able to link the ideas in a paragraph so that a reader can follow your reasoning: adding, explaining, drawing consequences and giving causes.
+
+## What you already know
+
+You know *car*, *donc* and *c'est pourquoi* from <LessonLink id="b1-cause-and-consequence" text="the lesson on cause and consequence" />, and you can order arguments with *premièrement* and *deuxièmement*, from <LessonLink id="b1-presenting-an-argument" text="the lesson on presenting an argument" />. In <LessonLink id="b2-concession-opposition" text="the lesson on concession and opposition" />, you learned the connectors that say "but". This lesson covers all the others, the ones that make written French sound organized.
+
+## Adding an idea: de plus, en outre, d'ailleurs
+
+<VocabTable group="add" />
+
+*De plus* (moreover), which you know from <LessonLink id="b1-review-opinions" text="the review of opinions" />, adds an argument in the same direction. *En outre* (furthermore) does the same in formal writing. *D'ailleurs* (besides) adds an extra argument that supports the first one, often as an afterthought; in speech it can also mean "by the way".
+
+<Example fr="Ce quartier est calme. En outre, il y a beaucoup de parcs." en="This area is quiet. Furthermore, there are lots of parks." />
+<Example fr="Je n'irai pas à la fête. D'ailleurs, personne ne m'a invité." en="I won't go to the party. Besides, nobody invited me." />
+
+## Explaining: en effet, c'est-à-dire, autrement dit
+
+<VocabTable group="explain" />
+
+**En effet** is a false friend. It doesn't mean "in effect": it confirms or explains what you've just said, like "indeed" or "that's because". *C'est-à-dire* (that is to say) and *autrement dit* (in other words) rephrase an idea more clearly.
+
+<Example fr="Il est fatigué. En effet, il a mal dormi." en="He's tired. That's because he slept badly." />
+<Example fr="Elle travaille à temps partiel, c'est-à-dire trois jours par semaine." en="She works part-time, that is to say three days a week." />
+
+**Or** is a short but important word in argument. It introduces a new fact that changes the reasoning, like "now" or "yet" at the start of an English sentence. It's mostly written, and it usually comes after a full stop, followed by a comma.
+
+<Example fr="Il voulait partir en train. Or, la gare était fermée." en="He wanted to leave by train. Yet the station was closed." />
+
+## Drawing a consequence
+
+<VocabTable group="result" />
+
+*Ainsi* (thus) and *par conséquent* (consequently) start a sentence that follows from the one before. *Par conséquent* is a more formal *donc*. **Si bien que** joins the consequence in the same sentence, with the indicative. **D'où** is followed by a noun, not a verb: *d'où le retard* (hence the delay).
+
+<Example fr="Les trains étaient en grève. Par conséquent, beaucoup de gens ont travaillé de chez eux." en="The trains were on strike. Consequently, many people worked from home." />
+<Example fr="Il a raté le bus, si bien qu'il est arrivé en retard." en="He missed the bus, so he arrived late." />
+<Example fr="Les loyers sont très chers, d'où les manifestations de samedi." en="Rents are very expensive, hence Saturday's demonstrations." />
+
+*Tellement… que* (so much… that) puts the reason and the result in one sentence. *Tellement* goes before the adjective, the adverb or the participle; *si* can replace it before an adjective: *il est si fatigué qu'il dort*.
+
+<Example fr="Il a tellement travaillé qu'il est fatigué." en="He worked so much that he's tired." />
+
+## Giving a cause: étant donné que, vu que, du fait que
+
+<VocabTable group="cause" />
+
+*Étant donné que* (given that), *vu que* (seeing that) and *du fait que* (because of the fact that) all introduce a cause and take the indicative. *Vu que* is common in speech; *étant donné que* and *du fait que* are more formal.
+
+<Example fr="Étant donné qu'il pleut, le match est annulé." en="Given that it's raining, the match is cancelled." />
+
+**Faute de** (for lack of) and **à force de** (by doing something again and again) are followed by a noun or an infinitive. *Faute de* gives a cause that's missing; *à force de* gives one that's repeated.
+
+<Example fr="Faute de temps, je n'ai pas fini le livre." en="For lack of time, I didn't finish the book." />
+<Example fr="À force de travailler, elle a réussi son examen." en="By working hard, she passed her exam." />
+
+## Summing up: en somme
+
+<VocabTable group="sum" />
+
+*En somme* (in short) introduces a conclusion. It's a little more formal than *bref*, which you know from <LessonLink id="b1-telling-an-anecdote" text="the lesson on telling an anecdote" />.
+
+## Punctuation
+
+In writing, most of these connectors start a sentence and are followed by a comma: *En outre, …*, *Par conséquent, …*. *Si bien que* joins two clauses inside one sentence, usually after a comma; careful writers don't start a sentence with it. *Étant donné que* and *vu que* can start the sentence or follow the main clause.
+
+## Either… or
+
+<VocabTable group="either" />
+
+| Structure | Example |
+|---|---|
+| *soit… soit* | *Tu peux venir soit lundi, soit mardi.* |
+| *ou bien* | *On prend le train, ou bien on y va en voiture.* |
+
+## En français
+
+Clara asks her teacher, Monsieur Rivière, to look at a paragraph of her essay.
+
+- *Monsieur, vous pouvez regarder mon paragraphe ? Il me semble qu'il manque des liens entre les idées.* (Sir, could you look at my paragraph? It seems to me that the links between the ideas are missing.)
+- *Voyons. Vous écrivez : « Le vélo est pratique en ville. Il ne pollue pas. » Quel est le lien ?* (Let's see. You write: "Bikes are practical in town. They don't pollute." What's the link?)
+- *C'est une deuxième idée. Je peux mettre « en outre » ?* (It's a second idea. Can I put "en outre"?)
+- *Oui, ou « de plus ». Et ici : « Il y a de plus en plus de parkings à vélos. Beaucoup de gens prennent le vélo. »* (Yes, or "de plus". And here: "There are more and more bike racks. Lots of people cycle.")
+- *C'est une conséquence. Alors « par conséquent » ?* (It's a consequence. So "par conséquent"?)
+- *Exactement. Et à la fin, vous dites la même idée deux fois.* (Exactly. And at the end, you say the same idea twice.)
+- *Alors je mets « autrement dit » ?* (So I put "autrement dit"?)
+- *Oui, ou vous supprimez la deuxième phrase. C'est encore plus clair.* (Yes, or you delete the second sentence. That's even clearer.)
+- *D'accord. En somme, il faut un connecteur entre chaque idée ?* (OK. In short, I need a connector between every idea?)
+- *Pas toujours. Mais il faut qu'on comprenne le lien.* (Not always. But the reader has to understand the link.)
+
+<Callout type="warning" title="En effet confirms, it doesn't contrast">
+  *En effet* looks like "in effect", but it means "indeed" or "that's because": it confirms the sentence before. Don't use it for a contrast: *Il fait beau. En effet, nous restons à la maison* makes no sense. Write **Il fait beau. Pourtant, nous restons à la maison**.
+</Callout>
+
+<Callout type="tip" title="Highlight by function">
+  Take a short French article and highlight every connector in one of four colours: adding, explaining, consequence, cause. Then look at where each colour falls in the paragraph. You'll see that good writers use few connectors, and often at the start of a sentence, although some, such as *si bien que*, *d'où* or *étant donné que*, can also sit in the middle. Copy that habit in your own writing.
+</Callout>
+
+## En résumé
+
+Pour ajouter une idée, on dit de plus, en outre ou d'ailleurs. En effet explique ou confirme ce qu'on vient de dire. Or présente un fait qui change la situation. Pour une conséquence, on peut dire ainsi, par conséquent, si bien que, ou d'où avec un nom. Étant donné que, vu que et du fait que donnent une cause, avec l'indicatif. Faute de et à force de sont suivis d'un nom ou d'un infinitif. Pour finir, on dit en somme.
+
+## What's next
+
+Next, <LessonLink id="b2-purpose-expressions" text="the lesson on expressing purpose" /> shows you how to say why you do something, with *pour que* and *afin de*.
+
+=== b2-purpose-expressions ===
+
+---
+id: "b2-purpose-expressions"
+title: "Expressing purpose"
+description: "Say why you do something with pour, afin de and dans le but de + infinitive, or pour que, afin que and de peur que + subjunctive."
+level: "B2"
+unit: "Nuance and society"
+order: 7
+type: "grammar"
+tags: ["subjunctive", "purpose", "grammar"]
+prerequisites: ["b2-subjunctive-conjunctions"]
+related: ["b1-subjunctive-vs-infinitive", "b2-logical-connectors", "b2-social-issues"]
+vocab:
+  - { id: "b2-purpose-expressions-v001", group: "aim", fr: "pour que", pron: "poor KUH", en: "so that", note: "+ subjunctive" }
+  - { id: "b2-purpose-expressions-v002", group: "aim", fr: "afin de", pron: "ah-FAN duh", en: "in order to (formal)", note: "+ infinitive" }
+  - { id: "b2-purpose-expressions-v003", group: "aim", fr: "afin que", pron: "ah-fan KUH", en: "so that (formal)", note: "+ subjunctive" }
+  - { id: "b2-purpose-expressions-v004", group: "fear", fr: "de peur de", pron: "duh PUHR duh", en: "for fear of", note: "+ infinitive" }
+  - { id: "b2-purpose-expressions-v005", group: "fear", fr: "de peur que", pron: "duh puhr KUH", en: "for fear that", note: "+ subjunctive, often with ne" }
+  - { id: "b2-purpose-expressions-v006", group: "fear", fr: "de crainte que", pron: "duh krant KUH", en: "for fear that (formal)", note: "+ subjunctive, often with ne" }
+  - { id: "b2-purpose-expressions-v007", group: "fear", fr: "éviter que", pron: "ay-vee-tay KUH", en: "to avoid (something happening)", note: "+ subjunctive" }
+  - { id: "b2-purpose-expressions-v008", group: "sorte", fr: "de sorte que", pron: "duh sort KUH", en: "so that (purpose, + subjunctive); so (result, + indicative)" }
+  - { id: "b2-purpose-expressions-v009", group: "goal", fr: "dans le but de", pron: "dahn luh BEWT duh", en: "with the aim of" }
+  - { id: "b2-purpose-expressions-v010", group: "goal", fr: "en vue de", pron: "ahn VEW duh", en: "with a view to, in preparation for" }
+  - { id: "b2-purpose-expressions-v011", group: "goal", fr: "viser à", pron: "vee-ZAY ah", en: "to aim to" }
+  - { id: "b2-purpose-expressions-v012", group: "campaign", fr: "une campagne", pron: "ewn kahn-PAH-nyuh", en: "a campaign" }
+  - { id: "b2-purpose-expressions-v013", group: "campaign", fr: "encourager à", pron: "ahn-koo-rah-ZHAY ah", en: "to encourage to" }
+  - { id: "b2-purpose-expressions-v014", group: "campaign", fr: "dissuader de", pron: "dee-swah-DAY duh", en: "to deter from, to dissuade from" }
+  - { id: "b2-purpose-expressions-v015", group: "campaign", fr: "une affiche", pron: "ew-nah-FEESH", en: "a poster" }
+  - { id: "b2-purpose-expressions-v016", group: "campaign", fr: "un atelier", pron: "uh-nah-tuh-LYAY", en: "a workshop" }
+exercises:
+  - id: "b2-purpose-expressions-ex001"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne réponse : Je parle lentement ___ tu comprennes."
+    options: ["pour que", "pour", "de peur de"]
+    answers: ["pour que"]
+    explanation: "Two different subjects (je, tu), so pour que + subjunctive."
+  - id: "b2-purpose-expressions-ex002"
+    type: "fill-in"
+    prompt: "Conjuguez le verbe (venir) : Je t'envoie l'adresse afin que tu ___ ce soir."
+    answers: ["viennes"]
+    explanation: "Afin que + subjunctive: que tu viennes."
+  - id: "b2-purpose-expressions-ex003"
+    type: "fill-in"
+    prompt: "Conjuguez le verbe (être) : Il part tôt de peur que le train ne ___ plein."
+    answers: ["soit"]
+    explanation: "De peur que + subjunctive, here with the expletive ne: ne soit."
+  - id: "b2-purpose-expressions-ex004"
+    type: "fill-in"
+    prompt: "Conjuguez le verbe (faire) : Nous voulons éviter que les gens ___ trop de déchets."
+    answers: ["fassent"]
+    explanation: "Éviter que + subjunctive: qu'ils fassent."
+  - id: "b2-purpose-expressions-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez le sens : Il a parlé fort, de sorte que tout le monde l'a entendu."
+    options: ["Result: so everyone heard him.", "Purpose: so that everyone would hear him.", "Fear: for fear that nobody would hear him."]
+    answers: ["Result: so everyone heard him."]
+    explanation: "De sorte que + indicative (a entendu) gives a result. With the subjunctive, it would give a purpose."
+  - id: "b2-purpose-expressions-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez le registre de « afin de »."
+    options: ["soutenu", "familier"]
+    answers: ["soutenu"]
+    explanation: "Afin de means the same as pour, but it's formal."
+  - id: "b2-purpose-expressions-ex007"
+    type: "reformulation"
+    prompt: "Reformulez avec « pour » + infinitif : Je travaille pour que je réussisse."
+    answers: ["Je travaille pour réussir"]
+    explanation: "Same subject in both parts, so pour + infinitive. Pour que je réussisse is wrong."
+  - id: "b2-purpose-expressions-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « dans le but de » : Nous organisons une campagne parce que nous voulons réduire le gaspillage."
+    answers: ["Nous organisons une campagne dans le but de réduire le gaspillage"]
+    explanation: "Dans le but de + infinitive replaces parce que nous voulons."
+  - id: "b2-purpose-expressions-ex009"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Je t'explique tout pour qu'il vient demain."
+    answers: ["Je t'explique tout pour qu'il vienne demain"]
+    explanation: "Pour que takes the subjunctive: qu'il vienne."
+  - id: "b2-purpose-expressions-ex010"
+    type: "register-shift"
+    prompt: "Transformez en registre soutenu, avec « afin de » et « nous » : On fait une campagne pour sensibiliser les jeunes."
+    answers: ["Nous faisons une campagne afin de sensibiliser les jeunes"]
+    explanation: "Afin de replaces pour, and nous replaces on in formal writing."
+  - id: "b2-purpose-expressions-ex011"
+    type: "fill-in"
+    prompt: "Complétez : Cette campagne veut ___ les gens de gaspiller."
+    answers: ["dissuader"]
+    explanation: "Dissuader quelqu'un de + infinitive: to deter someone from doing something."
+  - id: "b2-purpose-expressions-ex012"
+    type: "translate"
+    prompt: "Traduisez : We're writing so that people understand."
+    answers: ["Nous écrivons pour que les gens comprennent", "Nous écrivons afin que les gens comprennent", "Nous écrivons de sorte que les gens comprennent"]
+    explanation: "Different subjects, so pour que, afin que or de sorte que + subjunctive."
+  - id: "b2-purpose-expressions-ex013"
+    type: "translate"
+    prompt: "Traduisez : She left early for fear of missing the train."
+    answers: ["Elle est partie tôt de peur de rater le train", "Elle est partie tôt de crainte de rater le train", "Elle est partie tôt de peur de manquer le train", "Elle est partie tôt de crainte de manquer le train"]
+    explanation: "Same subject, so de peur de + infinitive."
+  - id: "b2-purpose-expressions-ex014"
+    type: "translate"
+    prompt: "Traduisez les objectifs de cette campagne : Our campaign aims to reduce waste. We want to encourage families to cook the leftovers. We're organizing workshops so that children understand the problem."
+    answers: ["Notre campagne vise à réduire le gaspillage. Nous voulons encourager les familles à cuisiner les restes. Nous organisons des ateliers pour que les enfants comprennent le problème.","Notre campagne vise à réduire le gaspillage. Nous voulons encourager les familles à cuisiner les restes. Nous organisons des ateliers afin que les enfants comprennent le problème.","Notre campagne vise à réduire le gaspillage. Nous voulons encourager les familles à cuisiner les restes. Nous organisons des ateliers de sorte que les enfants comprennent le problème.","Notre campagne vise à réduire les déchets. Nous voulons encourager les familles à cuisiner les restes. Nous organisons des ateliers pour que les enfants comprennent le problème.","Notre campagne vise à réduire les déchets. Nous voulons encourager les familles à cuisiner les restes. Nous organisons des ateliers afin que les enfants comprennent le problème.","Notre campagne vise à réduire les déchets. Nous voulons encourager les familles à cuisiner les restes. Nous organisons des ateliers de sorte que les enfants comprennent le problème."]
+    explanation: "Viser à + infinitive, encourager quelqu'un à + infinitive, then pour que, afin que or de sorte que + subjunctive."
+    strictAccents: true
+  - id: "b2-purpose-expressions-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : I'm speaking slowly so that you understand."
+    words: ["Je", "parle", "lentement", "pour", "que", "vous", "compreniez"]
+    answers: ["Je parle lentement pour que vous compreniez"]
+    explanation: "Pour que + subjunctive: que vous compreniez."
+---
+
+By the end of this lesson you'll be able to say why you do something, and what you want to avoid, with both an infinitive and the subjunctive.
+
+## What you already know
+
+You've used *pour* + infinitive since A2: *Je suis ici pour apprendre* (I'm here to learn), from <LessonLink id="a2-prepositions-with-places" text="the lesson on prepositions with places" />. In <LessonLink id="b1-subjunctive-vs-infinitive" text="the lesson on the subjunctive versus the infinitive" />, you learned the key rule: same subject, infinitive; different subjects, *que* + subjunctive. And in <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on conjunctions with the subjunctive" />, you met *bien que*, *avant que* and the expletive *ne*. This lesson applies all of that to purpose.
+
+## Pour, afin de, pour que, afin que
+
+<VocabTable group="aim" />
+
+The rule is the same for the main purpose expressions, and the test is the subject of each verb. If both verbs have the same subject, use **pour** or **afin de** + infinitive. If the subjects are different, use **pour que** or **afin que** + subjunctive. Who benefits doesn't matter: in *mes parents travaillent pour me payer mes études* (my parents work to pay for my studies), I benefit, but my parents do both actions, so it's the infinitive.
+
+<Example fr="Je prends des notes pour ne rien oublier." en="I take notes so as not to forget anything." />
+<Example fr="Je prends des notes pour que tu puisses les lire." en="I take notes so that you can read them." />
+
+*Afin de* and *afin que* mean the same as *pour* and *pour que*, but they're formal. You'll find them in letters, reports and official texts. In conversation, *pour* is the normal choice.
+
+<Example fr="Merci de répondre avant vendredi afin que nous puissions organiser la réunion." en="Please reply before Friday so that we can organize the meeting." />
+
+Notice the negative with the infinitive: *pour ne rien oublier*, *pour ne pas être en retard*. Both parts of the negative come before the infinitive.
+
+## Saying what you want to avoid
+
+<VocabTable group="fear" />
+
+Sometimes the purpose is to stop something from happening. *De peur de* (for fear of) + infinitive works with one subject. *De peur que* + subjunctive works with two. *De crainte que* means the same, in a more formal register.
+
+<Example fr="Il ne dit rien de peur de se tromper." en="He says nothing for fear of being wrong." />
+<Example fr="Elle prend un parapluie de peur qu'il ne pleuve." en="She takes an umbrella in case it rains." />
+
+After *de peur que* and *de crainte que*, you'll often see the expletive *ne*, which doesn't make the sentence negative. It's common in writing and optional in speech: *de peur qu'il pleuve* means the same thing.
+
+*Éviter que* (to avoid something happening) also takes the subjunctive. With one subject, use *éviter de* + infinitive.
+
+<Example fr="Nous voulons éviter que le gaspillage soit aussi important." en="We want to prevent waste from being so large." />
+
+## De sorte que: two meanings
+
+<VocabTable group="sorte" />
+
+**De sorte que** changes meaning with the mood after it. With the subjunctive, it gives a purpose (so that). With the indicative, it gives a result (so, with the result that), like *si bien que* from <LessonLink id="b2-logical-connectors" text="the lesson on logical connectors" />.
+
+<Example fr="Parle fort, de sorte que tout le monde t'entende." en="Speak loudly, so that everyone can hear you." />
+<Example fr="Il a parlé fort, de sorte que tout le monde l'a entendu." en="He spoke loudly, so everyone heard him." />
+
+The first sentence describes an aim: it hasn't happened yet. The second describes a fact. If you can't decide which mood to use, ask yourself whether the second part is a hope or something that really happened.
+
+## Formal goals: dans le but de, en vue de, viser à
+
+<VocabTable group="goal" />
+
+These are useful in reports, project descriptions and opinion texts. *Dans le but de* (with the aim of) + infinitive is a heavier *pour*. *En vue de* (with a view to) is usually followed by a noun: *en vue des élections* (with the elections in mind). *Viser à* + infinitive means "to aim to".
+
+<Example fr="La ville a ouvert un centre d'accueil dans le but d'aider les sans-abri." en="The city opened a drop-in centre with the aim of helping homeless people." />
+<Example fr="Ce projet vise à réduire les inégalités." en="This project aims to reduce inequality." />
+
+## Talking about a campaign
+
+<VocabTable group="campaign" />
+
+*Une campagne* (a campaign) usually has a goal, so it brings purpose structures with it. *Encourager quelqu'un à* + infinitive pushes people to do something; *dissuader quelqu'un de* + infinitive pushes them not to. You know *sensibiliser* (to raise awareness) from <LessonLink id="b1-review-society" text="the review of society" />, and *convaincre* (to convince) from <LessonLink id="b1-review-opinions" text="the review of opinions" />.
+
+<Example fr="Cette campagne encourage les jeunes à voter." en="This campaign encourages young people to vote." />
+<Example fr="Les affiches visent à dissuader les gens de fumer." en="The posters aim to deter people from smoking." />
+
+## The whole list
+
+- Same subject: *pour*, *afin de*, *de peur de*, *dans le but de*, *éviter de* + infinitive.
+- Different subjects: *pour que*, *afin que*, *de peur que*, *de crainte que*, *éviter que* + subjunctive.
+- With a noun: *en vue de*.
+- With two moods: *de sorte que* + subjunctive (purpose) or + indicative (result).
+
+## En français
+
+Two members of a charity plan a campaign against food waste.
+
+- *Bon, notre campagne contre le gaspillage commence le mois prochain. Quel est notre objectif ?* (Right, our campaign against food waste starts next month. What's our goal?)
+- *Je dirais qu'on vise à changer les habitudes, pas seulement à informer.* (I'd say we aim to change habits, not just to inform.)
+- *D'accord. Alors on fait des affiches pour que les gens voient le problème ?* (OK. So we make posters so that people see the problem?)
+- *Oui, mais aussi des ateliers de cuisine, pour montrer comment cuisiner les restes.* (Yes, but also cooking workshops, to show how to cook leftovers.)
+- *Bonne idée. Et les supermarchés ? Il faut éviter qu'ils gaspillent les produits.* (Good idea. And the supermarkets? We have to stop them wasting products.)
+- *On peut leur écrire, de sorte qu'ils puissent donner les produits à des associations.* (We can write to them, so that they can give the products to charities.)
+- *Oui, mais pas tout de suite, de peur qu'ils ne disent non.* (Yes, but not straight away, in case they say no.)
+- *Tu as raison. On commence par les familles, et on leur écrit en vue de la réunion de mars.* (You're right. We start with families, and we write to them with the March meeting in mind.)
+- *Parfait. Je prépare un texte pour que tout le monde puisse le lire.* (Perfect. I'll prepare a text so that everyone can read it.)
+- *Super. Envoie-le avant jeudi, pour qu'on ait le temps d'en parler.* (Great. Send it before Thursday, so that we have time to talk about it.)
+
+<Callout type="warning" title="Pour + infinitive with one subject">
+  Don't use *pour que* when both parts have the same subject: *Je travaille pour que je réussisse* is wrong. With one subject, use the infinitive: **Je travaille pour réussir** (I work to succeed).
+</Callout>
+
+<Callout type="tip" title="Find the two subjects">
+  Before you write a purpose sentence, find the subject of each verb. If it's the same, reach for an infinitive, even when someone else benefits. If the subjects are different, you need *que* and the subjunctive. This quick check works for every expression in this lesson that has both forms.
+</Callout>
+
+## En résumé
+
+Pour dire pourquoi on fait quelque chose, on dit pour ou afin de avec l'infinitif quand la même personne fait les deux actions. Si une autre personne fait la deuxième action, on dit pour que ou afin que avec le subjonctif. Afin de et afin que sont du registre soutenu. De peur de et de peur que expriment une crainte, souvent avec ne après que. Éviter que prend aussi le subjonctif. De sorte que change de sens : avec le subjonctif, c'est un but, et avec l'indicatif, c'est une conséquence.
+
+## What's next
+
+Next, <LessonLink id="b2-review-nuance" text="the review of this unit" /> brings together nuance, concession, connectors and purpose in an opinion piece.
+
+=== b2-review-nuance ===
+
+---
+id: "b2-review-nuance"
+title: "Review: Nuance and society"
+description: "Bring the unit together in a nuanced opinion piece on social housing, with concession, connectors, purpose and an idiom."
+level: "B2"
+unit: "Nuance and society"
+order: 8
+type: "review"
+tags: ["review", "writing", "opinion"]
+prerequisites: ["b2-nuancing-opinions", "b2-social-issues", "b2-logical-connectors", "b2-purpose-expressions", "b2-idioms-everyday"]
+related: ["b2-subjunctive-conjunctions", "b2-concession-opposition", "b1-review-society"]
+vocab:
+  - { id: "b2-review-nuance-v001", fr: "un débat de société", pron: "uhn day-bah duh soh-syay-TAY", en: "a public debate, a social issue people argue about" }
+  - { id: "b2-review-nuance-v002", fr: "une piste", pron: "ewn PEEST", en: "a possible lead, an idea worth exploring" }
+  - { id: "b2-review-nuance-v003", fr: "concilier", pron: "kohn-see-LYAY", en: "to reconcile" }
+  - { id: "b2-review-nuance-v004", fr: "à long terme", pron: "ah lohn TEHRM", en: "in the long term" }
+  - { id: "b2-review-nuance-v005", fr: "un juste milieu", pron: "uhn zhewst mee-LYUH", en: "a happy medium" }
+  - { id: "b2-review-nuance-v006", fr: "une tribune", pron: "ewn tree-BEWN", en: "an opinion piece (in a newspaper)" }
+exercises:
+  - id: "b2-review-nuance-ex001"
+    type: "fill-in"
+    prompt: "Conjuguez le verbe (être) : Bien que les loyers ___ chers, ils restent en centre-ville."
+    answers: ["soient"]
+    explanation: "Bien que + subjunctive: que les loyers soient."
+  - id: "b2-review-nuance-ex002"
+    type: "fill-in"
+    prompt: "Conjuguez le verbe (pouvoir) : Nous écrivons pour que chaque famille ___ habiter en centre-ville."
+    answers: ["puisse"]
+    explanation: "Pour que + subjunctive: que chaque famille puisse."
+  - id: "b2-review-nuance-ex003"
+    type: "fill-in"
+    prompt: "Complétez : ___ le prix des loyers, beaucoup de familles restent en centre-ville."
+    answers: ["Malgré"]
+    explanation: "Malgré + a noun: in spite of the price of rents."
+  - id: "b2-review-nuance-ex004"
+    type: "fill-in"
+    prompt: "Complétez : La ville propose des logements sociaux afin ___ réduire les inégalités."
+    answers: ["de"]
+    explanation: "Afin de + infinitive: in order to reduce inequality."
+  - id: "b2-review-nuance-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Les loyers sont très chers, ___ les familles partent."
+    options: ["si bien que", "bien que", "afin que"]
+    answers: ["si bien que"]
+    explanation: "Si bien que + indicative gives the result."
+  - id: "b2-review-nuance-ex006"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Cette mesure aide les familles. ___, elle coûte cher."
+    options: ["Néanmoins", "Par conséquent", "En effet"]
+    answers: ["Néanmoins"]
+    explanation: "Néanmoins introduces a contrast. Par conséquent gives a result and en effet confirms."
+  - id: "b2-review-nuance-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez le sens : Vivre en centre-ville coûte les yeux de la tête."
+    options: ["It's very expensive.", "It's very tiring.", "It's very far away."]
+    answers: ["It's very expensive."]
+    explanation: "Coûter les yeux de la tête means to cost an arm and a leg."
+  - id: "b2-review-nuance-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « il me semble que » : Cette mesure est une bonne idée."
+    answers: ["Il me semble que cette mesure est une bonne idée"]
+    explanation: "Il me semble que softens the opinion and takes the indicative."
+  - id: "b2-review-nuance-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « malgré le prix des loyers » : Bien que les loyers soient chers, elle reste en centre-ville."
+    answers: ["Malgré le prix des loyers, elle reste en centre-ville", "Elle reste en centre-ville malgré le prix des loyers"]
+    explanation: "Malgré + a noun replaces bien que + a clause."
+  - id: "b2-review-nuance-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Nous écrivons cette tribune pour que la mairie agit."
+    answers: ["Nous écrivons cette tribune pour que la mairie agisse"]
+    explanation: "Pour que takes the subjunctive: que la mairie agisse."
+  - id: "b2-review-nuance-ex011"
+    type: "register-shift"
+    prompt: "Transformez en registre soutenu, avec « étant donné que » : Vu que les loyers sont chers, les familles partent."
+    answers: ["Étant donné que les loyers sont chers, les familles partent", "Les familles partent étant donné que les loyers sont chers"]
+    explanation: "Étant donné que is more formal than vu que."
+    strictAccents: true
+  - id: "b2-review-nuance-ex012"
+    type: "multiple-choice"
+    prompt: "Choisissez le sens de « un juste milieu »."
+    options: ["a happy medium", "a city centre", "an opinion piece"]
+    answers: ["a happy medium"]
+    explanation: "Un juste milieu is a balance between two extremes."
+  - id: "b2-review-nuance-ex013"
+    type: "translate"
+    prompt: "Traduisez : In the long term, this measure can reduce inequality."
+    answers: ["À long terme, cette mesure peut réduire les inégalités", "Cette mesure peut réduire les inégalités à long terme"]
+    explanation: "À long terme can start or end the sentence."
+    strictAccents: true
+  - id: "b2-review-nuance-ex014"
+    type: "translate"
+    prompt: "Traduisez ce paragraphe avec « certes », « néanmoins » et « donc » : Admittedly, this measure is expensive. Nevertheless, it reduces inequality. So we have to find a happy medium."
+    answers: ["Certes, cette mesure coûte cher. Néanmoins, elle réduit les inégalités. Il faut donc trouver un juste milieu.","Certes, cette mesure coûte cher. Néanmoins, elle réduit les inégalités. Donc, il faut trouver un juste milieu.","Certes, cette mesure est chère. Néanmoins, elle réduit les inégalités. Il faut donc trouver un juste milieu.","Certes, cette mesure est chère. Néanmoins, elle réduit les inégalités. Donc, il faut trouver un juste milieu."]
+    explanation: "Certes concedes the point, néanmoins answers it, and donc leads to the conclusion."
+  - id: "b2-review-nuance-ex015"
+    type: "translate"
+    prompt: "Traduisez ce paragraphe : Our goal is to reconcile the city centre and families. We're writing this opinion piece so that the town hall acts."
+    answers: ["Notre objectif est de concilier le centre-ville et les familles. Nous écrivons cette tribune pour que la mairie agisse.", "Notre objectif est de concilier le centre-ville et les familles. Nous écrivons cette tribune afin que la mairie agisse.", "Notre objectif est de concilier le centre-ville et les familles. Nous écrivons cette tribune de sorte que la mairie agisse.", "Notre but est de concilier le centre-ville et les familles. Nous écrivons cette tribune pour que la mairie agisse.", "Notre but est de concilier le centre-ville et les familles. Nous écrivons cette tribune afin que la mairie agisse.", "Notre but est de concilier le centre-ville et les familles. Nous écrivons cette tribune de sorte que la mairie agisse."]
+    explanation: "Concilier + two nouns, then pour que, afin que or de sorte que + subjunctive."
+  - id: "b2-review-nuance-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : It seems to me that we have to find a happy medium."
+    words: ["Il", "me", "semble", "qu'il", "faut", "trouver", "un", "juste", "milieu"]
+    answers: ["Il me semble qu'il faut trouver un juste milieu"]
+    explanation: "Il me semble que + indicative: il faut."
+---
+
+By the end of this lesson you'll be able to write a nuanced opinion piece on a social issue, with a concession, clear connectors and a stated aim.
+
+## What you've learned
+
+This unit has been about nuance: saying what you think without sounding absolute, and talking about the issues that divide a society. Skim this list, and go back to anything that feels shaky.
+
+- **Nuancing.** You know *a priori*, *il me semble que* and *dans une certaine mesure*, from <LessonLink id="b2-nuancing-opinions" text="the lesson on nuancing opinions" />.
+- **Social issues.** You know *la crise du logement*, *un logement social*, *les inégalités* and *une mesure*, from <LessonLink id="b2-social-issues" text="the lesson on social issues" />.
+- **Conjunctions.** You know *bien que*, *à condition que* and *sans que* + subjunctive, from <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on conjunctions with the subjunctive" />.
+- **Concession.** You know *malgré*, *pourtant*, *néanmoins* and *alors que*, from <LessonLink id="b2-concession-opposition" text="the lesson on concession and opposition" />.
+- **Idioms.** You know *coûter les yeux de la tête* and *avoir du pain sur la planche*, from <LessonLink id="b2-idioms-everyday" text="the lesson on everyday idioms" />.
+- **Connectors.** You know *en outre*, *en effet*, *or*, *si bien que* and *en somme*, from <LessonLink id="b2-logical-connectors" text="the lesson on logical connectors" />.
+- **Purpose.** You know *pour que*, *afin de* and *viser à*, from <LessonLink id="b2-purpose-expressions" text="the lesson on expressing purpose" />.
+
+## A few new words
+
+These six words are useful in any opinion piece. A *tribune* is the French name for a signed opinion text in a newspaper or on a website.
+
+<VocabTable />
+
+*Un débat de société* is broader than *un débat* (a debate), which you know from <LessonLink id="b1-presenting-an-argument" text="the lesson on presenting an argument" />: it's a question that a whole society argues about, such as housing or work. *Une piste* first means a track or a trail. In an argument, it's an idea you suggest exploring, without claiming that it solves everything. *Concilier* usually takes two nouns joined by *et*: you reconcile one thing and another. *Un juste milieu* is close to *un compromis* (a compromise), which you know from <LessonLink id="b1-subjunctive-vs-infinitive" text="the lesson on the subjunctive versus the infinitive" />, but it stresses balance rather than giving something up. *À long terme* often goes at the start of a sentence, followed by a comma.
+
+## A model opinion piece
+
+A resident of a large city wrote this *tribune* for the local news website.
+
+*Des logements sociaux en centre-ville : quelle piste ?*
+
+*Le logement est devenu un vrai débat de société. Dans beaucoup de villes, vivre en centre-ville coûte les yeux de la tête, si bien que les familles défavorisées partent loin de leur travail. Il me semble que nous pouvons changer la situation.*
+
+*A priori, la solution est simple : proposer plus de logements sociaux au centre. En effet, cette mesure vise à réduire les inégalités entre les quartiers. En outre, les gens habitent près de leur travail, d'où moins de transports.*
+
+*Certes, ce n'est pas si simple. Bien que les loyers soient plus bas pour les familles, les logements sociaux coûtent cher à la ville. Certains habitants ont aussi peur que leur quartier change. Or, une ville où seules les personnes riches peuvent vivre perd une partie de sa vie.*
+
+*Il faut donc trouver un juste milieu. Une piste : prévoir quelques logements sociaux dans chaque nouveau projet, afin que chaque quartier soit ouvert à tous. L'objectif est de concilier le prix des logements et la vie des quartiers.*
+
+*En somme, cette mesure ne va pas tout changer, mais à long terme, elle peut rendre nos villes plus justes.*
+
+(Social housing in the city centre: which way forward? Housing has become a real public debate. In many cities, living in the centre costs an arm and a leg, so disadvantaged families move far from their work. It seems to me that we can change the situation. On the face of it, the solution is simple: offer more social housing in the centre. Indeed, this measure aims to reduce inequality between neighbourhoods. Furthermore, people live near their work, hence less commuting. Admittedly, it isn't that simple. Although rents are lower for families, social housing is expensive for the city. Some residents are also afraid that their neighbourhood will change. Yet a city where only rich people can live loses part of its life. So we have to find a happy medium. One idea: plan a few social homes in every new project, so that every neighbourhood is open to everyone. The goal is to reconcile the price of housing and the life of neighbourhoods. All in all, this measure isn't going to change everything, but in the long term, it can make our cities fairer.)
+
+## How the text uses the grammar
+
+- **A nuanced start.** *Il me semble que* and *a priori* present the opinion as a view, not a fact. *Il me semble que* takes the indicative: *nous pouvons*.
+- **An idiom in a formal text.** *Coûter les yeux de la tête* is familiar, but one well-placed idiom makes a *tribune* lively. More than one would make it sound like a chat.
+- **Connectors.** *Si bien que* gives a result in the same sentence. *En effet* explains, *en outre* adds and *d'où* is followed by a noun. *Or* turns the reasoning back to the writer's side.
+- **The concession paragraph.** *Certes* admits that it isn't that simple, and *bien que* + subjunctive (*soient*) gives the cost. The writer accepts the other side's point, then answers it with *or*.
+- **Purpose.** *Vise à* + infinitive states the aim of the measure. *Afin que* + subjunctive (*soit*) states the aim of the proposal, because the subject changes.
+- **The ending.** *En somme* introduces the conclusion, and *à long terme* keeps the promise realistic.
+
+The order of the text matters as much as the grammar. The writer states the problem, gives a first answer, concedes the weak point, then proposes a compromise. Readers trust a *tribune* that shows the other side before it concludes.
+
+## Planning before you write
+
+A good *tribune* is planned before it's written. Spend five minutes on these steps, in English or in French, before you write a single sentence of the text.
+
+- Write your opinion in one sentence. If you can't, you're not ready to write the text yet.
+- List two arguments for your opinion and the strongest argument against it. That last one becomes your concession paragraph.
+- Decide which connector links each step: one to add, one to explain, one to concede and one to conclude. Four or five connectors are enough for a whole text.
+- Choose a proposal that's realistic. A *piste* that sounds possible convinces more readers than a perfect plan nobody believes in.
+- Decide on your register. A *tribune* is formal, so use *nous* rather than *on*, and keep familiar words for a single idiom at most.
+
+## Your turn
+
+Choose a social issue in your town or your country: housing, transport, work or poverty. Write a short *tribune* of three or four paragraphs, on paper or in a notes app.
+
+1. **A first paragraph** that presents the issue as *un débat de société*, with one nuancing phrase such as *il me semble que* or *dans une certaine mesure*.
+2. **A concession paragraph** that starts with *certes* and uses *bien que* + subjunctive or *malgré* + noun.
+3. **A proposal paragraph** that gives *une piste* with *pour que* or *afin que* + subjunctive.
+4. **A short conclusion** with *en somme* and *à long terme*.
+
+Try to include one idiom from this unit, but only one. Give your *tribune* a title that's a question: it invites the reader to think with you.
+
+## Check your work
+
+- After *bien que*, *pour que* and *afin que*, is the verb in the subjunctive?
+- After *il me semble que*, is the verb in the indicative?
+- Did you use *malgré* only before a noun, and *bien que* only before a clause?
+- With one subject, did you use *pour* or *afin de* + infinitive instead of *pour que*?
+- Does every connector start a sentence and take a comma, except *si bien que* and *bien que*, which join two clauses?
+
+<Callout type="warning" title="Malgré que is not standard">
+  Learners who know *malgré* and *bien que* often mix them into *malgré que*. You'll hear it, but it's not accepted in careful writing, so keep it out of a *tribune*. Write **bien que les loyers soient chers** or **malgré le prix des loyers**.
+</Callout>
+
+<Callout type="tip" title="Read your text as your opponent">
+  When your draft is ready, read it again as someone who disagrees with you. Mark the sentence they'd attack first. If your concession paragraph doesn't answer that sentence, rewrite it so that it does. A *tribune* that answers its strongest objection is far more convincing.
+</Callout>
+
+## What's next
+
+The next unit is about what might have been. It starts with <LessonLink id="b2-conditionnel-passe" text="the lesson on the conditionnel passé" />.

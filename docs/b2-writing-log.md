@@ -310,17 +310,68 @@
 
 ## Unit 8
 
-- Done: registers (53), colloquial-french (54), culture-verlan-and-slang (55), false-friends (56). Not done: debating (57), persuasion-and-hedging (58) and review-final (59). I stopped near the context limit after a finished lesson; continue with claude --continue.
-- Teaching words (whole lesson): 53: 890 (1,459); 54: 804 (1,221); 55: 828 (1,401); 56: 974 (1,382). Longer texts in 53 and 55 are within 150 to 250 French words (per the audit).
+- Done: all 7 lessons: registers (53), colloquial-french (54), culture-verlan-and-slang (55), false-friends (56), debating (57), persuasion-and-hedging (58), review-final (59).
+- Teaching words (whole lesson): 53: 890 (1,459); 54: 844 (1,261); 55: 828 (1,401); 56: 974 (1,382); 57: 847 (1,532); 58: 924 (1,531); 59: 975 (1,430). The longer texts in 53, 55, 57 and 58 are within 150 to 250 French words (per the audit).
+- 54 rewrite: its "Spoken grammar" section repeated b2-registers, so it's now a one-sentence recap plus three new spoken features: *faut* without *il*, *c'est* for *ce sont*, and the repeated subject (*mon frère, il…*).
 - Vocab deviations:
-  - 53 has no glossary (all words known).
-  - 55 adds *lourd*, *louche* and *vieillir* as regular entries, plus a 4-word glossary.
-  - 56 drops *sympathique* and *une lecture* (repeats of A1 *sympa* and *la lecture*; both are in the recap table) and adds *raisonnable*, *avoir hâte de*, *dur* and *impoli*.
-  - Recap claims cut: *en fait* (b1-cover-letter) and *je pense pas* (b1-expressing-doubt-certainty) aren't taught there. The recap table links *librairie* to a1-places-in-town and *reporter* is left out.
+  - 53 has no glossary. 55 adds *lourd*, *louche* and *vieillir*. 56 drops *sympathique* and *une lecture* (repeats of A1 *sympa* and *la lecture*, now in the recap table) and adds *raisonnable*, *avoir hâte de*, *dur* and *impoli*.
+  - 57 adds *partager l'avis de quelqu'un*, *un commerçant*, *un piéton* and *un auditeur*; 58 adds *ne pensez-vous pas que* as its own entry and drops *réviser* and *un examen* (A1 and A2 repeats).
+  - Recap claims cut: *en fait* and *je pense pas* aren't taught where the plan says.
 - Exercise deviations:
-  - 55 ex010 is a typed reformulation (*Ce film est ouf !*), so the lesson has its required reformulation.
-  - 56 ex010 corrects *assister la réunion*, because *assister le directeur* is correct French; ex012 accepts only *rendu* (it never agrees in *se rendre compte*).
-- Register: spoken features appear in typed answers only where the instruction asks for the familiar register (53 ex008 and ex013; 54 ex009, ex010 and ex012 to ex015; 55 ex010).
-- Lists and scripts: COGNATES gained *populaire(s)*, *rap*, *énorme(s)*, *maths*, *exercice(s)* and *négation*; B2_ENGLISH gained 14 option words. NEW_MEANINGS already had *quoi* and *trop*.
-- Checks: check:words 110 (baseline), check:structures 0, audit B2 rows only the accepted purpose-expressions ex014, validate OK, test:content and test:checker passed (29/29), build OK. A1 to B1 and Units 1 to 7 are unchanged.
-- review-needed.md: 4 new sections (register labels, inversion after *peut-être* and *aussi*, *ne* alone, *du coup* and *grave*, the verlan origins and the dating of each word, every false friend, *réaliser*, *excité*).
+  - 55 ex010 is a typed reformulation (*Ce film est ouf !*). 56 ex010 corrects *assister la réunion* (*assister le directeur* is correct French), and ex012 accepts only *rendu*.
+  - 57 ex005 rebuts with *permettez-moi de vous contredire* (*j'en conviens* belongs to 58). 58 ex003 accepts *ayons* and *avons*, and ex009 labels the subjunctive as careful French.
+  - 59 adds a "One sentence per unit" section (8 translated models), and its exercises cover all eight units.
+- Register: spoken features appear in typed answers only where the instruction asks for the familiar register (53, 54, 55). The passé simple is in no typed answer.
+- Lists and scripts:
+  - COGNATES gained *populaire(s)*, *rap*, *énorme(s)*, *maths*, *exercice(s)*, *négation*, *université(s)*, *concession(s)*, *technique(s)*, *prononciation*, *grammaire*, *vocabulaire*, *correct(e)* and *difficulté(s)*.
+  - IGNORE gained *deviendront*, *viendront*, *perdront* and *comprenais*; B2_ENGLISH gained 17 option words. NEW_MEANINGS already had *quoi* and *trop*.
+- Checks: check:words 110 (baseline), check:structures 0, audit B2 rows only the accepted purpose-expressions ex014, validate OK, test:content and test:checker passed (29/29), build OK. A1 to B1 and Units 1 to 7 unchanged.
+- review-needed.md: 7 sections (53 to 59), plus *rendu* vs *rendue* in 56 ex012 and the new spoken features in 54. Not done: nothing; B2 is complete.
+
+## B2 wrap-up
+
+- Cross-level audit: scripts/b2-wrapup.ts (kept; run with `node --experimental-strip-types scripts/b2-wrapup.ts`) writes docs/b2-wrapup.md. Results: 0 limit rows, 1 missing target (the planned c1-passe-simple), 9 forward signposts, 1 B2 vocab repeat (*un tableau*, a deliberate new meaning), 1 repeated 3-word phrase (*à côté de*), 20 claim flags.
+- Defects fixed (4 wrong credits):
+  - review-nuance credited *certes* to b2-nuancing-opinions; that sentence now names only the two words that lesson teaches.
+  - politics-and-society credited the passive to b1-reported-speech-present; it's now linked to b1-passive-voice-intro.
+  - review-science credited *ait donné* to b2-subjunctive-conjunctions; it's now linked to b2-subjonctif-passe.
+  - debating claimed the whole phrase *si je comprends bien, vous dites que*; it now claims only *si je comprends bien* from b2-negotiating.
+- The other 16 claim flags are artefacts (inflected forms, or a term that belongs to another link in the same sentence), checked by hand.
+- Judgement calls for you, at the top of docs/b2-wrapup.md: keep or unlink the 9 forward signposts; accept *un tableau*, *à côté de* and the Coming-soon link to c1-passe-simple.
+- Review bundles: docs/review/b2-unit-1.txt to b2-unit-8.txt (59 lessons, 88 to 166 KB each), so they stay tracked and .gitignore is unchanged.
+- Reviewer brief: docs/b2-reviewer-brief.md (the B1 brief is unchanged). It has a one-page introduction and reply format, then 229 items from review-needed.md, grouped by lesson in syllabus order, numbered, High first (85 High, 121 Medium, 23 Low).
+- docs/b2-browser-test.md: 12 exercises (3 per new type) and the five inputs to try. docs/project-state.md is updated with B2 status, the scripts, a conventions summary, gaps and the next stage (C1 conventions, then planning).
+- Checks: check:words 110 (baseline), check:structures 0, audit B2 rows only the accepted purpose-expressions ex014, validate OK, test:content and test:checker passed (29/29), build OK. A1 to B1 and Units 1 to 8 are unchanged apart from the 4 claim fixes.
+
+## Unit 1 review fixes
+
+- nuancing-opinions: ex005 distractors are now wrong in the sentence (*Grâce à*, *Pourquoi*); the *il me semble que* rule is limited to affirmative sentences, in the text and the warning (*il ne me semble pas que* + subjunctive); ex007 is a reformulation; ids sorted. Both B1 claims verified.
+- social-issues: *de plus en plus de* + noun is taught in b1-environment (verified); *un signe* (untaught) replaced with *cela montre la crise*; ids sorted.
+- subjunctive-conjunctions: "won't need to think about the mood each time"; *à condition que tu la rendes*; ex012 accepts *me téléphones*; real example *Je pars avant que nous ne finissions*, with *le ne explétif* named in the résumé; the B1 expletive *ne* is verified.
+- idioms-everyday: "more recent" removed; ex010 uses *cette voiture*. *Patronne* and *tomber amoureux* verified.
+- logical-connectors: tip says "often at the start", naming the mid-sentence ones. *Polluer* and *supprimer* verified.
+- purpose-expressions: the rule, tip, résumé and dialogue use the same-subject test, with the *mes parents travaillent pour me payer* example; *de sorte qu'ils puissent*; "the main purpose expressions"; *pour* + infinitive (a2) and *merci de* (a2-polite-requests) verified; vocab renumbered v001 to v016; the *gaspillent* example became *soit*.
+- review-nuance: *prévoir quelques logements sociaux dans chaque nouveau projet… soit ouvert*, and the bullet says *soit*; the title is *quelle piste ?*; ex015 accepts *Notre but est de…* (6 answers, deliberate, like purpose-expressions ex014).
+- Claims table (wrap-up NOT FOUND, verdict, action):
+  - Real, fixed: the 4 *tout* phrases in tout (now linked to a1-ordering-at-a-cafe, a2-telling-a-story and b1-agreeing-disagreeing); *ce serait bien* in conditionnel-passe (now *ce serait*); *ne vous en faites pas* in review-pronouns (now credited as *s'en faire*).
+  - Artefacts (a term that belongs to another link, an ellipsis or an inflected form), no action: *il est vrai que… mais*, *je ne pense pas que ce soit vrai*, *un débat de société*, *un juste milieu*, *un carrefour*, *la loi a été adoptée*, *c'est qui*, *à court / moyen terme* (the claim is *à long terme*), *plus… plus*, *parlez-vous ?*, *réaliser*, *une objection*, *si je comprends bien, vous dites que*.
+  - Forward signposts: 2 of 9 didn't say "later" (si-plus-que-parfait, regret-and-reproach) and now do.
+- Scan of Units 2 to 8:
+  - Vocab ids sorted in 9 lessons; no ids missing.
+  - Softened claims: *si bien que* "never after a full stop", "*plutôt* is the most common", "*courant* is never wrong", "the most common mistake", "always credit the source", "the most common use", "the most common professional situation".
+  - Mood heuristic: only the purpose-expressions *gaspillent* example needed changing.
+  - Not done in full: distractor validity and "rule tested but not explained" were spot-checked only.
+- Checks: check:words 110 (baseline), check:structures 0, audit B2 rows only purpose-expressions ex014 and review-nuance ex015 (both deliberate). CLAUDE.md Self-audit gained the 4 new rules. validate OK, test:content and test:checker passed (29/29), build OK, b2-wrapup 0 limit rows with 15 claim flags (all artefacts). A1 to B1 unchanged.
+
+## Unit 2 fixes
+
+- futur-anterieur: the rule is now "finished before the second begins". The futur simple stays correct for overlapping actions (*quand j'arriverai, je t'appellerai*, linked to b1-time-connectors), and the present or passé composé is what's wrong. The warning, résumé (still 60 to 100 words) and ex005/ex010 explanations match. The dialogue says *aurez écrit le rapport*; ex011 accepts *d'ici*, *avant* and *pour*; ex012 to ex014 cues pinned with infinitives; *après que tu seras parti* and the tip sentence are glossed.
+- conditionnel-passe: ex002 is *Avec un meilleur horaire de train*; Examples added for *non confirmé* (*Ce matin, le bilan est encore non confirmé*; *pour l'instant* isn't taught) and *la médecine*; vocab renumbered (no other file uses the ids). Item 8 was already fixed in the Unit 1 review ("One common use").
+- si-plus-que-parfait: *faillir* "nearly the same as *presque*"; the *si* check names the imparfait of *avoir*/*être*, never *-rai-*; "a frequent mistake in speech"; ids renumbered; two sentences glossed.
+- mixed-conditionals: Example and *prudent* sentence on separate lines; *quinze ans*. ex012's no-article rule is taught in a2-jobs-and-workplace (verified), so no Note.
+- subjonctif-passe: reflexive lines added (*qu'il se soit rétabli*, *qu'elle se soit rétablie*); Chloé says *le dernier examen ait été facile*; the *de justesse* sentence removed; *féliciter* takes *de* or *pour*; ex014 cues pinned; three phrases glossed.
+- regret-and-reproach: "you could have warned me"; *Tu aurais pu vérifier !*; *on* labelled as spoken for *nous* (a1-subject-pronouns teaches it); ex013 pinned and accepts *Ça*/*Cela* × *pas*/*plus*; ex014 accepts *À l'avenir*; ex007 accepts *de mon absence*. The email says *Mon train a été annulé* and *avant la réunion* (*à temps* isn't taught as a phrase). *C'est ma faute* is the standard form; two sentences glossed.
+- review-what-might-have-been: the new sentence uses *le jour d'après* instead of *le lendemain* (taught only in Unit 3), and the restaurant is now five years old; English updated; ex014 pins *basculer*; ex015 cue fixed and accepts *habiterais*/*vivrais* × *Avec le recul*/*Rétrospectivement*. The reorder component keys chips by index, so the repeated *a* in ex016 works; it's added to docs/b2-browser-test.md.
+- Claims verified, all true: the rumour conditionnel and *apparemment*; *rater*, *prévoir*, *tant pis*, *imprévu*; *sûrement*; *c'est dommage que*, *ravi*, the infinitive with one subject; *fier*, *déçu*; *ce n'est pas grave*; *carrefour*; *carrière*; *depuis*; *quand*/*lorsque*/*dès que*; *après que*, *à moins que*; *même si*; double pronouns. Reported speech (b2-reported-speech-past) and *si* = whether (b2-reported-questions-orders) exist later in B2. The passive is taught in b1-passive-voice-intro, so *a été annulé* needs no Note.
+- review-needed.md: *je m'excuse*, *ça* in a formal email, *c'est (de) ma faute*, the futur antérieur rule and *faillir*.
+- Checks: check:words 110 (baseline), check:structures 0, audit B2 rows only the two deliberate 6-answer rows, validate OK, test:content and test:checker passed (29/29), build OK, b2-wrapup 0 limit rows. A1 to B1 unchanged. docs/review/b2-unit-1 to 8 regenerated.

@@ -1,0 +1,1289 @@
+=== b2-relative-lequel ===
+
+---
+id: "b2-relative-lequel"
+title: "lequel, auquel, duquel"
+description: "Use lequel and its contracted forms as relative pronouns after prepositions: le logiciel avec lequel je travaille, le projet auquel je pense, le parc près duquel j'habite."
+level: "B2"
+unit: "Precision with pronouns"
+order: 26
+type: "grammar"
+tags: ["relative pronouns", "grammar", "work", "technology"]
+prerequisites: ["b1-interrogative-lequel", "b1-relative-dont"]
+related: ["a2-relative-qui-que-ou", "b1-indefinite-pronouns", "b2-relative-prepositions"]
+vocab:
+  - { id: "b2-relative-lequel-v001", group: "phrases", fr: "la raison pour laquelle", pron: "lah reh-zohn poor lah-KEL", en: "the reason why" }
+  - { id: "b2-relative-lequel-v002", group: "phrases", fr: "grâce auquel / grâce à laquelle", pron: "grahss oh-KEL / grahss ah lah-KEL", en: "thanks to which" }
+  - { id: "b2-relative-lequel-v003", group: "phrases", fr: "près duquel / près de laquelle", pron: "preh dew-KEL / preh duh lah-KEL", en: "near which" }
+  - { id: "b2-relative-lequel-v004", group: "phrases", fr: "à côté duquel / à côté de laquelle", pron: "ah koh-tay dew-KEL / ah koh-tay duh lah-KEL", en: "next to which" }
+  - { id: "b2-relative-lequel-v005", group: "phrases", fr: "au cours duquel / au cours de laquelle", pron: "oh koor dew-KEL / oh koor duh lah-KEL", en: "during which" }
+  - { id: "b2-relative-lequel-v006", group: "phrases", fr: "n'importe lequel / n'importe laquelle", pron: "nan-por-tuh luh-KEL / nan-por-tuh lah-KEL", en: "any one (at all)" }
+  - { id: "b2-relative-lequel-v007", group: "tools", fr: "un logiciel", pron: "uhn loh-zhee-SYEL", en: "software, a piece of software" }
+  - { id: "b2-relative-lequel-v008", group: "tools", fr: "une plateforme", pron: "ewn plaht-FORM", en: "a platform (online)" }
+  - { id: "b2-relative-lequel-v009", group: "tools", fr: "un tableur", pron: "uhn tah-BLUHR", en: "a spreadsheet" }
+  - { id: "b2-relative-lequel-v010", group: "tools", fr: "un dossier partagé", pron: "uhn doh-syay par-tah-ZHAY", en: "a shared folder" }
+  - { id: "b2-relative-lequel-v011", group: "tools", fr: "un serveur", pron: "uhn sehr-VUHR", en: "a server (computer)" }
+  - { id: "b2-relative-lequel-v012", group: "tools", fr: "un mode d'emploi", pron: "uhn mod dahn-PLWAH", en: "instructions for use, a user guide" }
+  - { id: "b2-relative-lequel-v013", group: "tools", fr: "fonctionner", pron: "fohnk-syoh-NAY", en: "to work (of a machine or a system)" }
+  - { id: "b2-relative-lequel-v014", group: "tools", fr: "une fonctionnalité", pron: "ewn fohnk-syoh-nah-lee-TAY", en: "a feature (of software)" }
+  - { id: "b2-relative-lequel-v015", group: "tools", fr: "paramétrer", pron: "pah-rah-may-TRAY", en: "to set up, to configure", note: "Like préférer: je paramètre." }
+  - { id: "b2-relative-lequel-v016", group: "terms", fr: "une préposition", pron: "ewn pray-poh-zee-SYOHN", en: "a preposition" }
+  - { id: "b2-relative-lequel-v017", group: "terms", fr: "une phrase relative", pron: "ewn frahz ruh-lah-TEEV", en: "a relative clause" }
+  - { id: "b2-relative-lequel-v018", group: "forms", fr: "auxquels / auxquelles", pron: "oh-KEL", en: "to which (plural)" }
+  - { id: "b2-relative-lequel-v019", group: "forms", fr: "desquels / desquelles", pron: "day-KEL", en: "of which (plural)" }
+exercises:
+  - id: "b2-relative-lequel-ex001"
+    type: "fill-in"
+    prompt: "Complétez avec lequel, laquelle, lesquels ou lesquelles : C'est la raison pour ___ je suis venu."
+    answers: ["laquelle"]
+    explanation: "La raison is feminine singular: pour laquelle."
+  - id: "b2-relative-lequel-ex002"
+    type: "fill-in"
+    prompt: "Complétez avec auquel, à laquelle, auxquels ou auxquelles : C'est le projet ___ je pense."
+    answers: ["auquel"]
+    explanation: "Penser à + le projet: à + lequel becomes auquel."
+  - id: "b2-relative-lequel-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec lequel, laquelle, lesquels ou lesquelles : Voici les outils avec ___ nous travaillons."
+    answers: ["lesquels"]
+    explanation: "Les outils is masculine plural: avec lesquels."
+  - id: "b2-relative-lequel-ex004"
+    type: "fill-in"
+    prompt: "Complétez avec duquel, de laquelle, desquels ou desquelles : Le parc près ___ j'habite est très calme."
+    answers: ["duquel"]
+    explanation: "Près de + le parc: de + lequel becomes duquel."
+  - id: "b2-relative-lequel-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : C'est le café à côté ___ je travaille."
+    options: ["duquel", "dont", "que"]
+    answers: ["duquel"]
+    explanation: "After a compound preposition such as à côté de, dont isn't possible: à côté duquel."
+  - id: "b2-relative-lequel-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne forme : La plateforme sur ___ je travaille est nouvelle."
+    options: ["laquelle", "lequel", "lesquelles"]
+    answers: ["laquelle"]
+    explanation: "Lequel agrees with the noun it replaces: la plateforme, so laquelle."
+  - id: "b2-relative-lequel-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne réponse : Les idées ___ je pense sont simples."
+    options: ["auxquelles", "auquel", "à laquelle"]
+    answers: ["auxquelles"]
+    explanation: "Penser à + les idées (feminine plural): auxquelles."
+  - id: "b2-relative-lequel-ex008"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase avec « avec lequel » : Je travaille avec ce logiciel. Il est très simple."
+    answers: ["Le logiciel avec lequel je travaille est très simple", "Ce logiciel, avec lequel je travaille, est très simple"]
+    explanation: "Avec lequel replaces avec ce logiciel inside the relative clause."
+  - id: "b2-relative-lequel-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « la raison pour laquelle » : Il est parti parce que le travail était trop loin."
+    answers: ["La raison pour laquelle il est parti, c'est que le travail était trop loin", "La raison pour laquelle il est parti est que le travail était trop loin"]
+    explanation: "La raison pour laquelle + the clause, then c'est que or est que + the cause."
+  - id: "b2-relative-lequel-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Le parc dont près j'habite est joli."
+    answers: ["Le parc près duquel j'habite est joli"]
+    explanation: "Dont can't follow près de. Use the preposition + duquel."
+  - id: "b2-relative-lequel-ex011"
+    type: "fill-in"
+    prompt: "Complétez : Prends un ordinateur, n'importe ___ : ils marchent tous."
+    answers: ["lequel"]
+    explanation: "N'importe lequel: any one at all, masculine like un ordinateur."
+  - id: "b2-relative-lequel-ex012"
+    type: "translate"
+    prompt: "Traduisez : The software I work with is new."
+    answers: ["Le logiciel avec lequel je travaille est nouveau", "Le logiciel sur lequel je travaille est nouveau"]
+    explanation: "French can't end with a preposition: avec lequel (or sur lequel) goes before the subject."
+  - id: "b2-relative-lequel-ex013"
+    type: "translate"
+    prompt: "Traduisez (un homme parle) : That's the reason why I left."
+    answers: ["C'est la raison pour laquelle je suis parti", "Voilà la raison pour laquelle je suis parti"]
+    explanation: "The reason why: la raison pour laquelle."
+  - id: "b2-relative-lequel-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : (The software with which) nous travaillons est simple. (The platform thanks to which) l'équipe partage ses dossiers fonctionne bien. (The meeting during which) on présente les outils a lieu lundi."
+    answers: ["Le logiciel avec lequel nous travaillons est simple. La plateforme grâce à laquelle l'équipe partage ses dossiers fonctionne bien. La réunion au cours de laquelle on présente les outils a lieu lundi.", "Le logiciel avec lequel nous travaillons est simple. La plateforme grâce à laquelle l'équipe partage ses dossiers fonctionne bien. La réunion pendant laquelle on présente les outils a lieu lundi."]
+    explanation: "Avec lequel, grâce à laquelle and au cours de laquelle (or pendant laquelle), each agreeing with its noun."
+    strictAccents: true
+  - id: "b2-relative-lequel-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : This is the folder in which I put my documents."
+    words: ["C'est", "le", "dossier", "dans", "lequel", "je", "mets", "mes", "documents"]
+    answers: ["C'est le dossier dans lequel je mets mes documents"]
+    explanation: "Dans lequel, agreeing with le dossier, then the subject and the verb."
+---
+
+By the end of this lesson you'll be able to join sentences with a preposition and a relative pronoun, as in *le logiciel avec lequel je travaille* (the software I work with).
+
+## What you already know
+
+You know *lequel*, *laquelle*, *lesquels* and *lesquelles* as question words from <LessonLink id="b1-interrogative-lequel" text="the lesson on lequel" />, including the contracted forms *auquel* and *duquel*. You also know the relatives *qui*, *que* and *où* from <LessonLink id="a2-relative-qui-que-ou" text="the lesson on qui, que and où" />, and *dont* from <LessonLink id="b1-relative-dont" text="the lesson on dont" />. This lesson uses the *lequel* forms as relatives, after a preposition.
+
+## A preposition + lequel
+
+<VocabTable group="terms" />
+
+When the verb in the relative clause needs a preposition (*travailler avec*, *compter sur*, *penser à*), the preposition comes first, followed by a form of *lequel*. It agrees in gender and number with the noun it replaces.
+
+<Example fr="Le logiciel avec lequel je travaille est très simple." en="The software I work with is very simple." />
+<Example fr="La plateforme sur laquelle nous partageons nos dossiers est nouvelle." en="The platform we share our folders on is new." />
+<Example fr="Les outils sans lesquels je ne peux pas travailler sont sur mon ordinateur." en="The tools I can't work without are on my computer." />
+
+English can put the preposition at the end ("the software I work with"). French can't: the preposition always comes before the relative. For things, use *lequel*; for people, French prefers *qui* after a preposition, which you'll see in <LessonLink id="b2-relative-prepositions" text="the next lesson" />.
+
+## With à: auquel
+
+<VocabTable group="forms" />
+
+With a verb that takes *à*, such as *penser à* or *s'intéresser à*, *à* contracts with the masculine and plural forms, as in the question words.
+
+| Noun | à + lequel |
+|---|---|
+| masculine singular | *auquel* |
+| feminine singular | *à laquelle* |
+| masculine plural | *auxquels* |
+| feminine plural | *auxquelles* |
+
+<Example fr="C'est le projet auquel je pense." en="It's the project I'm thinking about." />
+<Example fr="Les idées auxquelles je pense sont simples." en="The ideas I'm thinking of are simple." />
+
+## With de: duquel, and why not dont
+
+<VocabTable group="phrases" />
+
+After a simple *de*, you already use *dont*: *le projet dont je parle*. But *dont* can't follow a preposition made of several words that ends in *de*, such as *près de*, *à côté de*, *au cours de* or *en face de*. There, use the preposition + *duquel*, *de laquelle*, *desquels* or *desquelles*.
+
+<Example fr="Le parc près duquel j'habite est très calme." en="The park I live near is very quiet." />
+<Example fr="La réunion au cours de laquelle il a parlé était longue." en="The meeting during which he spoke was long." />
+
+**La raison pour laquelle** is the usual way to say "the reason why". *Grâce auquel* and *grâce à laquelle* mean "thanks to which".
+
+<Example fr="C'est la raison pour laquelle je suis venu." en="That's the reason why I came." />
+<Example fr="Voici l'outil grâce auquel nous travaillons plus vite." en="Here's the tool thanks to which we work faster." />
+
+## Où or dans lequel?
+
+For a place, *où* is often simpler than *dans lequel*: *la ville où j'habite* and *la ville dans laquelle j'habite* are both correct, but *où* is more common in speech. With a simple *de* (*parler de*, *avoir besoin de*), *dont* is the normal choice, and *de laquelle* sounds heavy: say *le projet dont je parle*.
+
+<Example fr="C'est la ville où j'ai fait mes études." en="It's the town where I studied." />
+
+## N'importe lequel
+
+You know *n'importe qui*, *n'importe quoi* and *n'importe où* from <LessonLink id="b1-indefinite-pronouns" text="the lesson on indefinite pronouns" />. **N'importe lequel** and **n'importe laquelle** mean "any one at all", when you're choosing from a group: *prends n'importe lequel* (take any one). In the plural, it's *n'importe lesquels* or *n'importe lesquelles*.
+
+## Tools at work
+
+<VocabTable group="tools" />
+
+Relative pronouns after prepositions are frequent when people describe tools and systems: what you work with, what something runs on, what it's used for. *Un logiciel* is a piece of software, *une plateforme* an online platform and *un tableur* a spreadsheet. *Fonctionner* is the standard word for "to work", said of a machine or a system; *marcher* is more informal. *Paramétrer* means to set up software: *c'est l'outil avec lequel on paramètre le serveur* (it's the tool you configure the server with). *Un serveur* here is a computer server, not a waiter.
+
+<Example fr="Le serveur sur lequel sont nos dossiers ne fonctionne pas." en="The server our folders are on isn't working." />
+
+You know *une mise à jour* (an update) and *une application* from <LessonLink id="b1-technology-and-internet" text="the lesson on technology and the internet" />.
+
+## The whole list
+
+- Preposition + *lequel / laquelle / lesquels / lesquelles*, agreeing with the noun.
+- *À* + *lequel*: *auquel*, *à laquelle*, *auxquels*, *auxquelles*.
+- *De* + *lequel* after *près de*, *à côté de*, *au cours de*: *duquel*, *de laquelle*, *desquels*, *desquelles*. *Dont* isn't possible there.
+- *La raison pour laquelle*: the reason why.
+- *N'importe lequel*: any one at all.
+
+## En français
+
+Marc, an IT colleague, explains the team's tools to Sarah, who has just joined the company.
+
+- *Bienvenue, Sarah. Je vais vous montrer les outils avec lesquels nous travaillons.* (Welcome, Sarah. I'll show you the tools we work with.)
+- *Merci. Quel est le logiciel principal ?* (Thank you. What's the main software?)
+- *C'est une plateforme grâce à laquelle toute l'équipe partage ses dossiers.* (It's a platform thanks to which the whole team shares its folders.)
+- *Et les dossiers partagés, ils sont où ?* (And the shared folders, where are they?)
+- *Sur le serveur, dans un dossier pour lequel il faut un mot de passe.* (On the server, in a folder you need a password for.)
+- *D'accord. Et pour les budgets, il y a un tableur ?* (OK. And for budgets, is there a spreadsheet?)
+- *Oui, n'importe lequel fonctionne, mais nous préférons celui de la plateforme.* (Yes, any one works, but we prefer the platform's.)
+- *Il y a un mode d'emploi ? Je ne connais pas toutes les fonctionnalités.* (Is there a user guide? I don't know all the features.)
+- *Oui, il est dans le dossier partagé. C'est la raison pour laquelle je vous conseille de le lire d'abord.* (Yes, it's in the shared folder. That's why I advise you to read it first.)
+- *Et si quelque chose ne fonctionne pas ?* (And if something doesn't work?)
+- *Appelez-moi. D'ailleurs, la réunion au cours de laquelle je présente les outils a lieu jeudi.* (Call me. Besides, the meeting during which I present the tools is on Thursday.)
+
+<Callout type="warning" title="Près duquel, not dont près">
+  Learners who know *dont* try to use it everywhere after *de*. *Le parc dont près j'habite* is wrong, because *près de* is a compound preposition. Keep the preposition and use **le parc près duquel j'habite**, **la gare à côté de laquelle je travaille**.
+</Callout>
+
+<Callout type="tip" title="Find the preposition first">
+  Before you write a relative clause, write the small sentence it comes from: *je travaille avec ce logiciel*. The preposition you see (*avec*) is the one that goes before *lequel*. Then make *lequel* agree with the noun. This two-second check prevents most mistakes with these pronouns.
+</Callout>
+
+## En résumé
+
+Quand le verbe de la phrase relative a une préposition, on met la préposition, puis lequel, laquelle, lesquels ou lesquelles : le logiciel avec lequel je travaille. Avec à, on dit auquel, à laquelle, auxquels et auxquelles. Après près de, à côté de ou au cours de, dont n'est pas possible : on dit le parc près duquel j'habite. La raison pour laquelle veut dire pourquoi. N'importe lequel veut dire n'importe quel objet du groupe.
+
+## What's next
+
+Next, <LessonLink id="b2-relative-prepositions" text="the lesson on prepositions with relative pronouns" /> shows what to use for people and for ideas.
+
+=== b2-relative-prepositions ===
+
+---
+id: "b2-relative-prepositions"
+title: "Prepositions with relative pronouns"
+description: "Choose the right relative after a preposition: avec qui for people, ce à quoi and ce dont for ideas, de quoi + infinitive, and the concessive quoi que, qui que and où que."
+level: "B2"
+unit: "Precision with pronouns"
+order: 27
+type: "grammar"
+tags: ["relative pronouns", "subjunctive", "grammar", "relationships"]
+prerequisites: ["b2-relative-lequel", "b1-ce-qui-ce-que"]
+related: ["b1-relative-dont", "a2-relative-qui-que-ou", "b2-subjunctive-conjunctions", "b2-subjunctive-relative-clauses"]
+vocab:
+  - { id: "b2-relative-prepositions-v001", group: "ideas", fr: "ce à quoi", pron: "suh ah KWAH", en: "what (after a verb + à)", note: "Ce à quoi je pense." }
+  - { id: "b2-relative-prepositions-v002", group: "ideas", fr: "ce sur quoi", pron: "suh sewr KWAH", en: "what (after a verb + sur)" }
+  - { id: "b2-relative-prepositions-v003", group: "ideas", fr: "ce dont", pron: "suh DOHN", en: "what (after a verb + de)", note: "Ce dont j'ai besoin." }
+  - { id: "b2-relative-prepositions-v004", group: "ideas", fr: "de quoi", pron: "duh KWAH", en: "enough to, what's needed to", note: "+ infinitive: il y a de quoi manger." }
+  - { id: "b2-relative-prepositions-v005", group: "ideas", fr: "il n'y a pas de quoi", pron: "eel nyah pah duh KWAH", en: "you're welcome, don't mention it" }
+  - { id: "b2-relative-prepositions-v006", group: "concessive", fr: "quoi que", pron: "kwah KUH", en: "whatever", note: "+ subjunctive. Two words." }
+  - { id: "b2-relative-prepositions-v007", group: "concessive", fr: "qui que", pron: "kee KUH", en: "whoever", note: "+ subjunctive." }
+  - { id: "b2-relative-prepositions-v008", group: "concessive", fr: "où que", pron: "oo KUH", en: "wherever", note: "+ subjunctive." }
+  - { id: "b2-relative-prepositions-v009", group: "concessive", fr: "quoique", pron: "KWAH-kuh", en: "although (= bien que)", note: "One word, + subjunctive." }
+  - { id: "b2-relative-prepositions-v010", group: "trust", fr: "compter sur", pron: "kohn-tay SEWR", en: "to rely on, to count on" }
+  - { id: "b2-relative-prepositions-v011", group: "trust", fr: "s'attendre à", pron: "sah-tahn-druh AH", en: "to expect" }
+  - { id: "b2-relative-prepositions-v012", group: "trust", fr: "tenir à", pron: "tuh-neer AH", en: "to be attached to, to care about", note: "Like venir, with avoir." }
+  - { id: "b2-relative-prepositions-v013", group: "trust", fr: "se confier à", pron: "suh kohn-fee-yay AH", en: "to confide in" }
+  - { id: "b2-relative-prepositions-v014", group: "trust", fr: "un confident / une confidente", pron: "uhn kohn-fee-DAHN / ewn kohn-fee-DAHNT", en: "a confidant" }
+  - { id: "b2-relative-prepositions-v015", group: "trust", fr: "une relation de confiance", pron: "ewn ruh-lah-syohn duh kohn-FYAHNSS", en: "a relationship of trust" }
+  - { id: "b2-relative-prepositions-v016", group: "trust", fr: "reposer sur", pron: "ruh-poh-zay SEWR", en: "to be based on, to rest on" }
+  - { id: "b2-relative-prepositions-v017", group: "trust", fr: "une valeur", pron: "ewn vah-LUHR", en: "a value (a principle)" }
+  - { id: "b2-relative-prepositions-v018", group: "trust", fr: "une réponse", pron: "ew-nray-POHNSS", en: "an answer, a reply" }
+exercises:
+  - id: "b2-relative-prepositions-ex001"
+    type: "fill-in"
+    prompt: "Complétez : C'est la collègue avec ___ je travaille."
+    answers: ["qui", "laquelle"]
+    explanation: "For a person after a preposition, French prefers qui: avec qui. Avec laquelle is also correct, but less common for a person."
+  - id: "b2-relative-prepositions-ex002"
+    type: "fill-in"
+    prompt: "Complétez avec ce à quoi, ce dont ou ce sur quoi : ___ je m'attendais, c'est à une réponse avant lundi."
+    answers: ["Ce à quoi"]
+    explanation: "S'attendre à: ce à quoi."
+    strictAccents: true
+  - id: "b2-relative-prepositions-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec ce à quoi, ce dont ou ce sur quoi : ___ j'ai besoin, c'est d'un peu de calme."
+    answers: ["Ce dont"]
+    explanation: "Avoir besoin de: ce dont."
+  - id: "b2-relative-prepositions-ex004"
+    type: "fill-in"
+    prompt: "Complétez avec ce à quoi, ce dont ou ce sur quoi : ___ il compte, c'est sur ton aide."
+    answers: ["Ce sur quoi"]
+    explanation: "Compter sur: ce sur quoi."
+  - id: "b2-relative-prepositions-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : Le collègue avec ___ je travaille est sympa."
+    options: ["qui", "que", "dont"]
+    answers: ["qui"]
+    explanation: "After a preposition, a person takes qui. Que and dont can't follow a preposition."
+  - id: "b2-relative-prepositions-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : Ce n'est pas ___ je m'attendais."
+    options: ["ce à quoi", "ce que", "ce qui"]
+    answers: ["ce à quoi"]
+    explanation: "S'attendre à needs à, so ce à quoi."
+  - id: "b2-relative-prepositions-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne réponse : ___ je parle, c'est de ton travail."
+    options: ["Ce dont", "Ce à quoi", "Ce que"]
+    answers: ["Ce dont"]
+    explanation: "Parler de: ce dont."
+  - id: "b2-relative-prepositions-ex008"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase avec « sur qui » : J'ai une amie. Je compte sur elle."
+    answers: ["J'ai une amie sur qui je compte"]
+    explanation: "Sur qui replaces sur elle, after the noun."
+  - id: "b2-relative-prepositions-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « ce à quoi » et « s'attendre à » : Ce n'est pas ce que je pensais."
+    answers: ["Ce n'est pas ce à quoi je m'attendais"]
+    explanation: "S'attendre à takes à, so ce que becomes ce à quoi."
+    strictAccents: true
+  - id: "b2-relative-prepositions-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : C'est l'amie que je compte sur."
+    answers: ["C'est l'amie sur qui je compte", "C'est l'amie sur laquelle je compte"]
+    explanation: "The preposition goes before the relative: sur qui (or sur laquelle)."
+  - id: "b2-relative-prepositions-ex011"
+    type: "fill-in"
+    prompt: "Conjuguez faire au subjonctif : Quoi que tu ___, je serai là."
+    answers: ["fasses"]
+    explanation: "Quoi que (whatever) + subjunctive: quoi que tu fasses."
+  - id: "b2-relative-prepositions-ex012"
+    type: "translate"
+    prompt: "Traduisez : She's the friend I rely on."
+    answers: ["C'est l'amie sur qui je compte", "C'est l'amie sur laquelle je compte", "C'est l'amie sur qui je peux compter", "C'est l'amie sur laquelle je peux compter"]
+    explanation: "Compter sur + a person: sur qui, or less often sur laquelle."
+  - id: "b2-relative-prepositions-ex013"
+    type: "translate"
+    prompt: "Traduisez : That's not what I expected."
+    answers: ["Ce n'est pas ce à quoi je m'attendais", "Ce n'est pas ce que j'attendais"]
+    explanation: "S'attendre à: ce à quoi. Attendre takes a direct object, so ce que."
+    strictAccents: true
+  - id: "b2-relative-prepositions-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Mon frère est (the one on whom) je compte. (What I care about), c'est notre relation de confiance. (Whatever) je fasse, il m'aide."
+    answers: ["Mon frère est celui sur qui je compte. Ce à quoi je tiens, c'est notre relation de confiance. Quoi que je fasse, il m'aide.", "Mon frère est celui sur lequel je compte. Ce à quoi je tiens, c'est notre relation de confiance. Quoi que je fasse, il m'aide."]
+    explanation: "Sur qui for a person, ce à quoi with tenir à, and quoi que + subjunctive."
+    strictAccents: true
+  - id: "b2-relative-prepositions-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Wherever you go, call me."
+    words: ["Où", "que", "tu", "ailles", "appelle-moi"]
+    answers: ["Où que tu ailles, appelle-moi"]
+    explanation: "Où que + subjunctive, then the main clause."
+---
+
+By the end of this lesson you'll be able to choose the right relative after a preposition: for a person, for an idea, and to say "whatever", "whoever" and "wherever".
+
+## What you already know
+
+You know *ce qui* and *ce que* from <LessonLink id="b1-ce-qui-ce-que" text="the lesson on ce qui and ce que" />, *dont* from <LessonLink id="b1-relative-dont" text="the lesson on dont" />, and a preposition + *lequel* for things from <LessonLink id="b2-relative-lequel" text="the last lesson" />. You also know *où* for a time (*le jour où nous sommes arrivés*) from <LessonLink id="a2-relative-qui-que-ou" text="the lesson on qui, que and où" />. This lesson completes the system.
+
+## People: a preposition + qui
+
+For a person after a preposition, French prefers **qui**: *avec qui*, *pour qui*, *à qui*, *chez qui*, *sur qui*. *Lequel* is also correct for people (*la collègue avec laquelle je travaille*), but it sounds more formal.
+
+<Example fr="C'est la collègue avec qui je travaille." en="She's the colleague I work with." />
+<Example fr="Le professeur à qui j'ai parlé était très gentil." en="The teacher I spoke to was very kind." />
+
+After *parmi* (among) and *entre* (between), French uses *lesquels* or *lesquelles*, even for people: *les amis parmi lesquels il y avait Paul*.
+
+## Ideas: ce à quoi, ce sur quoi, ce dont
+
+<VocabTable group="ideas" />
+
+When "what" refers to an idea, not a noun, French uses *ce* + the preposition + **quoi**. The preposition is the one the verb needs. With *de*, it's **ce dont**, as with *dont* after a noun.
+
+| Verb | "what…" |
+|---|---|
+| *penser à*, *s'attendre à*, *tenir à* | *ce à quoi* |
+| *compter sur*, *insister sur* | *ce sur quoi* |
+| *avoir besoin de*, *parler de* | *ce dont* |
+
+<Example fr="Ce à quoi je pense, c'est à mes vacances." en="What I'm thinking about is my holidays." />
+<Example fr="Ce dont j'ai besoin, c'est d'un peu de calme." en="What I need is a bit of peace and quiet." />
+<Example fr="Ce n'est pas ce à quoi je m'attendais." en="That's not what I expected." />
+
+Notice that the preposition is repeated after *c'est* when the sentence starts with *ce à quoi* or *ce dont* and a noun follows: *ce à quoi je pense, c'est à mes vacances*; *ce dont j'ai besoin, c'est d'un peu de calme*.
+
+**De quoi** + infinitive means "enough to" or "what's needed to": *il y a de quoi manger* (there's enough to eat). **Il n'y a pas de quoi** is a polite answer to *merci*, like *de rien*.
+
+Remember that *qui* after a preposition is only for people. For a thing, use *lequel*: *le livre auquel je pense*, never *le livre à qui je pense*.
+
+*De quoi* also appears in a useful negative: *il n'y a pas de quoi s'inquiéter* (there's no need to worry).
+
+<Example fr="Il y a de quoi manger pour tout le monde." en="There's enough food for everyone." />
+
+## Whatever, whoever, wherever
+
+<VocabTable group="concessive" />
+
+**Quoi que** (whatever), **qui que** (whoever) and **où que** (wherever) concede that something doesn't matter. They usually start the sentence, and a comma separates them from the main clause. They take the subjunctive, like *bien que* in <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on conjunctions with the subjunctive" />.
+
+<Example fr="Quoi que tu fasses, je serai là." en="Whatever you do, I'll be there." />
+<Example fr="Où que tu ailles, appelle-moi." en="Wherever you go, call me." />
+<Example fr="Qui que vous soyez, vous êtes les bienvenus." en="Whoever you are, you're welcome." />
+
+Don't confuse *quoi que* (two words, "whatever") with **quoique** (one word), which means "although", like *bien que*: *quoiqu'il soit tard, je sors* (although it's late, I'm going out). Both take the subjunctive.
+
+## Trust and relationships
+
+<VocabTable group="trust" />
+
+These verbs all need a preposition, so they're perfect for practising the relatives. *Compter sur quelqu'un* (to rely on someone) gives *la personne sur qui je compte*. *Se confier à* (to confide in) gives *l'ami à qui je me confie*. *Tenir à* (to care about) gives *ce à quoi je tiens*. You know *la confiance* from <LessonLink id="b1-relationships" text="the lesson on relationships" />.
+
+<Example fr="Notre amitié repose sur des valeurs que nous partageons." en="Our friendship is based on values we share." />
+
+<Example fr="Mon frère est mon confident : je lui dis tout." en="My brother is my confidant: I tell him everything." />
+
+## The whole list
+
+- A person after a preposition: *qui* (*avec qui*, *sur qui*); *lequel* is more formal.
+- After *parmi* and *entre*: *lesquels*, *lesquelles*.
+- An idea after a preposition: *ce à quoi*, *ce sur quoi*, *ce dont*.
+- *De quoi* + infinitive: enough to.
+- *Quoi que*, *qui que*, *où que* + subjunctive: whatever, whoever, wherever.
+
+## En français
+
+Léa and Hugo, two friends, talk about the people they can count on.
+
+- *Est-ce que tu as quelqu'un sur qui tu peux compter ?* (Do you have someone you can count on?)
+- *Oui, mon frère. C'est la personne à qui je me confie le plus.* (Yes, my brother. He's the person I confide in most.)
+- *Pour moi, c'est ma meilleure amie, Nina. Notre amitié repose sur la confiance.* (For me, it's my best friend, Nina. Our friendship is based on trust.)
+- *Elle sait tout ce que tu penses ?* (Does she know everything you think?)
+- *Presque tout. Ce à quoi je tiens, c'est qu'elle me dise toujours la vérité.* (Almost everything. What I care about is that she always tells me the truth.)
+- *C'est important. Ce dont j'ai besoin, c'est de quelqu'un qui m'écoute.* (That's important. What I need is someone who listens to me.)
+- *Et ton frère t'écoute ?* (And does your brother listen to you?)
+- *Toujours. Quoi que je fasse, il m'aide.* (Always. Whatever I do, he helps me.)
+- *Tu as de la chance. Et où que tu sois, vous vous appelez ?* (You're lucky. And wherever you are, do you call each other?)
+- *Oui, toutes les semaines. C'est une vraie relation de confiance.* (Yes, every week. It's a real relationship of trust.)
+- *C'est exactement ce à quoi je m'attendais !* (That's exactly what I expected!)
+
+<Callout type="warning" title="Sur qui je compte, not que je compte sur">
+  English ends the sentence with the preposition: "the person I count on". French can't. *C'est la personne que je compte sur* is wrong. Move the preposition to the front: **c'est la personne sur qui je compte**, **c'est ce à quoi je pense**.
+</Callout>
+
+<Callout type="tip" title="Learn the verb with its preposition">
+  For each new verb, learn its preposition as part of it: *compter sur*, *penser à*, *avoir besoin de*. Write them in a list with an example each. When you need a relative, the preposition is already in your head, and the right pronoun follows: *sur qui*, *à quoi*, *dont*.
+</Callout>
+
+## En résumé
+
+Après une préposition, on dit qui pour une personne : la collègue avec qui je travaille. Pour une idée, on dit ce à quoi, ce sur quoi ou ce dont, selon la préposition du verbe : ce à quoi je pense, ce dont j'ai besoin. De quoi avec un infinitif veut dire assez pour : il y a de quoi manger. Enfin, quoi que, qui que et où que sont suivis du subjonctif : quoi que tu fasses, je serai là.
+
+## What's next
+
+Next, <LessonLink id="b2-subjunctive-relative-clauses" text="the lesson on the subjunctive in relative clauses" /> shows when a relative clause takes the subjunctive.
+
+=== b2-subjunctive-relative-clauses ===
+
+---
+id: "b2-subjunctive-relative-clauses"
+title: "Subjunctive in relative clauses"
+description: "Use the subjunctive in a relative clause when the person or thing is sought, absent or unique: je cherche quelqu'un qui sache, il n'y a personne qui puisse, c'est le meilleur film que j'aie vu."
+level: "B2"
+unit: "Precision with pronouns"
+order: 28
+type: "grammar"
+tags: ["subjunctive", "relative pronouns", "grammar", "work"]
+prerequisites: ["b2-subjunctive-conjunctions", "a2-relative-qui-que-ou", "b2-subjonctif-passe"]
+related: ["a2-superlatives", "b1-subjonctif-irregular", "b1-job-interview", "b2-relative-prepositions"]
+vocab:
+  - { id: "b2-subjunctive-relative-clauses-v001", group: "structures", fr: "il n'y a personne qui", pron: "eel nyah pah pehr-SONN kee", en: "there's nobody who", note: "+ subjunctive." }
+  - { id: "b2-subjunctive-relative-clauses-v002", group: "structures", fr: "il n'y a rien qui", pron: "eel nyah ryan KEE", en: "there's nothing that", note: "+ subjunctive." }
+  - { id: "b2-subjunctive-relative-clauses-v003", group: "structures", fr: "le seul / la seule… qui", pron: "luh SUHL / lah SUHL … kee", en: "the only (one)… who / that", note: "Usually + subjunctive." }
+  - { id: "b2-subjunctive-relative-clauses-v004", group: "profile", fr: "un profil", pron: "uhn proh-FEEL", en: "a profile (the kind of person needed)" }
+  - { id: "b2-subjunctive-relative-clauses-v005", group: "profile", fr: "polyvalent / polyvalente", pron: "poh-lee-vah-LAHN / poh-lee-vah-LAHNT", en: "versatile, able to do many tasks" }
+  - { id: "b2-subjunctive-relative-clauses-v006", group: "profile", fr: "être capable de", pron: "eh-truh kah-PAH-bluh duh", en: "to be able to, to be capable of" }
+  - { id: "b2-subjunctive-relative-clauses-v007", group: "profile", fr: "l'esprit d'équipe", pron: "les-pree day-KEEP", en: "team spirit" }
+  - { id: "b2-subjunctive-relative-clauses-v008", group: "profile", fr: "être à l'écoute", pron: "eh-truh ah lay-KOOT", en: "to be a good listener, to pay attention to others", note: "Être à l'écoute de quelqu'un." }
+  - { id: "b2-subjunctive-relative-clauses-v009", group: "profile", fr: "exigeant / exigeante", pron: "eg-zee-ZHAHN / eg-zee-ZHAHNT", en: "demanding" }
+  - { id: "b2-subjunctive-relative-clauses-v010", group: "profile", fr: "une perle rare", pron: "ewn pehrl RAHR", en: "a rare gem, the ideal person" }
+  - { id: "b2-subjunctive-relative-clauses-v011", group: "criteria", fr: "un critère", pron: "uhn kree-TEHR", en: "a criterion" }
+  - { id: "b2-subjunctive-relative-clauses-v012", group: "criteria", fr: "répondre à des critères", pron: "ray-pohn-drah day kree-TEHR", en: "to meet criteria" }
+  - { id: "b2-subjunctive-relative-clauses-v013", group: "criteria", fr: "convenir à", pron: "kohn-vuh-neer AH", en: "to suit", note: "Like venir, with avoir: ça me convient." }
+  - { id: "b2-subjunctive-relative-clauses-v014", group: "criteria", fr: "introuvable", pron: "an-troo-VAH-bluh", en: "impossible to find" }
+exercises:
+  - id: "b2-subjunctive-relative-clauses-ex001"
+    type: "fill-in"
+    prompt: "Conjuguez savoir au subjonctif : Je cherche quelqu'un qui ___ parler espagnol."
+    answers: ["sache"]
+    explanation: "The person is sought, not known: the subjunctive, qui sache."
+  - id: "b2-subjunctive-relative-clauses-ex002"
+    type: "fill-in"
+    prompt: "Conjuguez pouvoir au subjonctif : Il n'y a personne qui ___ m'aider."
+    answers: ["puisse"]
+    explanation: "After il n'y a personne qui, the subjunctive."
+  - id: "b2-subjunctive-relative-clauses-ex003"
+    type: "fill-in"
+    prompt: "Conjuguez comprendre au subjonctif : C'est le seul collègue qui ___ ce logiciel."
+    answers: ["comprenne"]
+    explanation: "After le seul… qui, the subjunctive is usual."
+  - id: "b2-subjunctive-relative-clauses-ex004"
+    type: "fill-in"
+    prompt: "Mettez au subjonctif passé (voir) : C'est le meilleur film que j'___."
+    answers: ["aie vu"]
+    explanation: "After a superlative, the written standard is the subjunctive; the film was seen in the past, so que j'aie vu."
+  - id: "b2-subjunctive-relative-clauses-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase où on connaît déjà la personne."
+    options: ["Je cherche la collègue qui sait l'espagnol.", "Je cherche une collègue qui sache l'espagnol.", "Il n'y a personne qui sache l'espagnol."]
+    answers: ["Je cherche la collègue qui sait l'espagnol."]
+    explanation: "La collègue and the indicative sait: a real, known person."
+  - id: "b2-subjunctive-relative-clauses-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « maîtriser un logiciel »."
+    options: ["to have a good command of software", "to buy software", "to break software"]
+    answers: ["to have a good command of software"]
+    explanation: "Maîtriser: to master, to have a good command of."
+  - id: "b2-subjunctive-relative-clauses-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Il n'y a personne ici qui ___ parler espagnol."
+    options: ["sache", "sait", "savoir"]
+    answers: ["sache"]
+    explanation: "After il n'y a personne qui, the standard is the subjunctive."
+  - id: "b2-subjunctive-relative-clauses-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « Nous cherchons quelqu'un qui » : Profil : polyvalent, capable de travailler en équipe."
+    answers: ["Nous cherchons quelqu'un qui soit polyvalent et capable de travailler en équipe", "Nous cherchons quelqu'un qui soit polyvalent et qui soit capable de travailler en équipe", "Nous cherchons quelqu'un qui soit polyvalent et qui sache travailler en équipe"]
+    explanation: "The person is sought, so qui soit."
+  - id: "b2-subjunctive-relative-clauses-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « il n'y a personne qui » : Quelqu'un peut répondre à cette question."
+    answers: ["Il n'y a personne qui puisse répondre à cette question"]
+    explanation: "The negative takes the subjunctive: qui puisse."
+    strictAccents: true
+  - id: "b2-subjunctive-relative-clauses-ex010"
+    type: "error-correction"
+    prompt: "Corrigez la forme pour le registre soutenu : C'est le meilleur film que j'ai vu."
+    answers: ["C'est le meilleur film que j'aie vu"]
+    explanation: "In careful writing, a superlative takes the subjunctive: que j'aie vu."
+  - id: "b2-subjunctive-relative-clauses-ex011"
+    type: "fill-in"
+    prompt: "Complétez avec convenir au présent : Cet appartement ne me ___ pas : il est trop petit."
+    answers: ["convient"]
+    explanation: "Convenir is like venir: il convient."
+  - id: "b2-subjunctive-relative-clauses-ex012"
+    type: "translate"
+    prompt: "Traduisez avec « qui » : I'm looking for a flat that is quiet."
+    answers: ["Je cherche un appartement qui soit calme"]
+    explanation: "The flat is sought, not found yet: qui soit."
+  - id: "b2-subjunctive-relative-clauses-ex013"
+    type: "translate"
+    prompt: "Traduisez : There's nobody who can help me."
+    answers: ["Il n'y a personne qui puisse m'aider"]
+    explanation: "Il n'y a personne qui + subjunctive."
+    strictAccents: true
+  - id: "b2-subjunctive-relative-clauses-ex014"
+    type: "translate"
+    prompt: "Rédigez cette annonce de colocation en complétant comme indiqué : Nous cherchons quelqu'un qui (is: être) calme et qui (knows how to: savoir) cuisiner. Notre appartement est le seul du quartier qui (has: avoir) un grand balcon."
+    answers: ["Nous cherchons quelqu'un qui soit calme et qui sache cuisiner. Notre appartement est le seul du quartier qui ait un grand balcon."]
+    explanation: "One flatshare ad: two subjunctives for the flatmate who is sought, and one after le seul… qui for the flat."
+  - id: "b2-subjunctive-relative-clauses-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : There's nothing that suits me."
+    words: ["Il", "n'y", "a", "rien", "qui", "me", "convienne"]
+    answers: ["Il n'y a rien qui me convienne"]
+    explanation: "Il n'y a rien qui + subjunctive: convienne."
+---
+
+By the end of this lesson you'll be able to describe what you're looking for, what doesn't exist and what's unique, with the subjunctive in the relative clause.
+
+## What you already know
+
+You know relative clauses with *qui* and *que* from <LessonLink id="a2-relative-qui-que-ou" text="the lesson on qui, que and où" />, and the subjunctive forms from the B1 subjunctive lessons, including <LessonLink id="b1-subjonctif-irregular" text="the lesson on irregular subjunctives" />. You also know the past subjunctive from <LessonLink id="b2-subjonctif-passe" text="the lesson on the past subjunctive" />. So far in this course, relative clauses have been in the indicative. This lesson shows the three cases where they often aren't.
+
+## Something you're looking for
+
+<VocabTable group="structures" />
+
+When you look for a person or a thing that may not exist, the relative clause usually takes the subjunctive. When the person or thing exists and you know it, it takes the indicative.
+
+<Example fr="Je cherche quelqu'un qui sache parler espagnol." en="I'm looking for someone who can speak Spanish (if such a person exists)." />
+<Example fr="Je cherche la collègue qui sait parler espagnol." en="I'm looking for the colleague who speaks Spanish (I know she exists)." />
+
+Notice the article: *quelqu'un*, *un*, *une* often signal something sought, while *le*, *la* or a name point to something known. The mood tells the listener which one you mean.
+
+<Example fr="Nous cherchons un appartement qui soit calme et lumineux." en="We're looking for a flat that's quiet and bright." />
+
+## Something that doesn't exist
+
+After a negative such as *il n'y a personne qui*, *il n'y a rien qui* or *je ne connais personne qui*, the standard is the subjunctive, because the person or thing doesn't exist.
+
+<Example fr="Il n'y a personne qui puisse m'aider." en="There's nobody who can help me." />
+<Example fr="Je ne connais rien qui soit plus simple." en="I don't know anything that's simpler." />
+
+## Something unique
+
+After a superlative (*le meilleur*, *le plus beau*) or *le seul*, *le premier*, *le dernier*, the relative often takes the subjunctive. It presents the thing as unique, in your opinion. You know the superlative from <LessonLink id="a2-superlatives" text="the lesson on superlatives" />.
+
+<Example fr="C'est le meilleur film que j'aie vu." en="It's the best film I've ever seen." />
+<Example fr="C'est la seule personne qui comprenne vraiment le projet." en="She's the only person who really understands the project." />
+
+In speech, you'll also hear the indicative here (*le meilleur film que j'ai vu*), especially for a simple fact. In careful writing, the subjunctive is the standard. With the past subjunctive (*que j'aie vu*), the action happened before the moment of speaking.
+
+## The meaning changes with the mood
+
+The same sentence can take either mood, with a different meaning. The indicative states a fact; the subjunctive expresses a wish, a doubt or a judgement.
+
+| Indicative | Subjunctive |
+|---|---|
+| *Je cherche le livre qui est sur la table.* (I know the book.) | *Je cherche un livre qui soit facile à lire.* (Does one exist?) |
+| *Je connais quelqu'un qui peut t'aider.* (I know such a person.) | *Je cherche quelqu'un qui puisse t'aider.* (Does such a person exist?) |
+
+## The right profile
+
+<VocabTable group="profile" />
+
+Job ads and flatshare ads are full of these structures, because they describe someone who hasn't been found yet. A demanding job is *un poste exigeant*: *pour un poste aussi exigeant, nous cherchons quelqu'un qui soit disponible* (for such a demanding job, we're looking for someone who is available). *Un profil* is the kind of person a job needs: *polyvalent* (versatile), *capable de* travailler seul, with *l'esprit d'équipe* (team spirit). You know *maîtriser* (to master) from <LessonLink id="b1-cover-letter" text="the lesson on the cover letter" />, *couramment* (fluently) from <LessonLink id="b1-review-final" text="the B1 final review" />, and *disponible* from <LessonLink id="b1-job-interview" text="the lesson on the job interview" />.
+
+<Example fr="Nous cherchons une personne qui maîtrise les tableurs et qui soit à l'écoute des clients." en="We're looking for someone who has a good command of spreadsheets and who listens to customers." />
+
+*Une perle rare* is the ideal candidate, who is almost *introuvable* (impossible to find).
+
+<Example fr="Un candidat qui parle six langues ? Il est introuvable !" en="A candidate who speaks six languages? Impossible to find!" />
+
+## Criteria
+
+<VocabTable group="criteria" />
+
+*Un critère* is a criterion, and a candidate or a flat *répond à des critères* (meets criteria). *Convenir à* means to suit: *cet appartement me convient*. In a search, it often comes with the subjunctive: *je n'ai rien trouvé qui me convienne* (I haven't found anything that suits me).
+
+## The whole list
+
+- Something sought, which may not exist: subjunctive (*je cherche quelqu'un qui sache*).
+- Something known: indicative (*je cherche la collègue qui sait*).
+- After *il n'y a personne qui*, *il n'y a rien qui*: subjunctive.
+- After a superlative, *le seul*, *le premier*, *le dernier*: usually subjunctive in writing.
+
+## En français
+
+A recruiter, Madame Martin, and a manager, Monsieur Dupont, describe the candidate they need.
+
+- *Alors, quel profil cherchez-vous pour ce poste ?* (So, what profile are you looking for in this job?)
+- *Nous cherchons quelqu'un qui soit polyvalent et qui ait l'esprit d'équipe.* (We're looking for someone versatile, with team spirit.)
+- *Il faut aussi que cette personne parle anglais ?* (Does the person also need to speak English?)
+- *Oui, nous voulons une personne qui parle couramment anglais et espagnol.* (Yes, we want someone who speaks English and Spanish fluently.)
+- *Ce sera difficile. Il n'y a presque personne qui réponde à tous ces critères.* (That'll be hard. There's almost nobody who meets all those criteria.)
+- *Je sais. Mais je connais déjà une candidate qui pourrait convenir.* (I know. But I already know a candidate who might suit.)
+- *Ah bon ? Elle est à l'écoute de l'équipe ?* (Really? Does she listen to the team?)
+- *Oui, c'est la seule candidate qui ait vraiment compris nos besoins.* (Yes, she's the only candidate who has really understood our needs.)
+- *Une perle rare, alors ! Vous êtes sûr qu'il n'y a personne qui convienne mieux ?* (A rare gem, then! Are you sure there's nobody who'd suit better?)
+- *Sûr. C'est la meilleure candidate que j'aie rencontrée cette année.* (I'm sure. She's the best candidate I've met this year.)
+
+<Callout type="warning" title="Personne qui puisse, not personne qui peut">
+  After *il n'y a personne qui* and *il n'y a rien qui*, learners often keep the indicative from English. *Il n'y a personne qui peut m'aider* is heard in speech, but the standard is **il n'y a personne qui puisse m'aider**, and **il n'y a rien qui me convienne**.
+</Callout>
+
+<Callout type="tip" title="Write the ad, then the answer">
+  Write a three-line ad for something you need, a flatmate or a colleague, with *nous cherchons quelqu'un qui* + subjunctive. Then write the reply from a friend who knows someone: *je connais quelqu'un qui sait…*, in the indicative. Writing both sides makes you feel the difference between the two moods.
+</Callout>
+
+## En résumé
+
+Dans une phrase relative, on met le subjonctif quand on cherche une personne ou une chose qu'on ne connaît pas encore : je cherche quelqu'un qui sache parler espagnol. On le met aussi après il n'y a personne qui ou il n'y a rien qui. Après le meilleur, le seul ou le premier, on écrit souvent le subjonctif : c'est le meilleur film que j'aie vu. Quand on connaît déjà la personne ou la chose, on garde l'indicatif.
+
+## What's next
+
+Next, <LessonLink id="b2-idiomatic-y-en" text="the lesson on idiomatic y and en" /> shows the fixed verbs built on these two small pronouns.
+
+=== b2-idiomatic-y-en ===
+
+---
+id: "b2-idiomatic-y-en"
+title: "Idiomatic y and en"
+description: "Use the everyday verbs built on y and en (s'en aller, s'en sortir, ne t'en fais pas, s'y faire, j'en ai marre) and the neutral le: je le sais, je l'espère, comme je te l'ai dit."
+level: "B2"
+unit: "Precision with pronouns"
+order: 29
+type: "vocabulary"
+tags: ["pronouns", "idioms", "vocabulary", "speaking"]
+prerequisites: ["a2-pronoun-en", "b1-double-object-pronouns"]
+related: ["a2-pronoun-y", "a2-reflexive-passe-compose", "b2-idioms-everyday", "b2-regret-and-reproach"]
+vocab:
+  - { id: "b2-idiomatic-y-en-v001", group: "en", fr: "s'en aller", pron: "sahn-nah-LAY", en: "to go away, to leave", note: "Je m'en vais, il s'en va; je m'en suis allé(e)." }
+  - { id: "b2-idiomatic-y-en-v002", group: "en", fr: "en vouloir à", pron: "ahn voo-lwahr AH", en: "to hold it against, to be angry with", note: "Je lui en veux." }
+  - { id: "b2-idiomatic-y-en-v003", group: "en", fr: "s'en sortir", pron: "sahn sor-TEER", en: "to manage, to get by, to cope" }
+  - { id: "b2-idiomatic-y-en-v004", group: "en", fr: "s'en faire", pron: "sahn FEHR", en: "to worry", note: "Ne t'en fais pas: don't worry." }
+  - { id: "b2-idiomatic-y-en-v005", group: "en", fr: "s'en remettre", pron: "sahn ruh-MEH-truh", en: "to get over it, to recover from it" }
+  - { id: "b2-idiomatic-y-en-v006", group: "en", fr: "en rester là", pron: "ahn res-tay LAH", en: "to leave it there, to go no further" }
+  - { id: "b2-idiomatic-y-en-v007", group: "en", fr: "ne pas en revenir", pron: "nuh pah-zahn ruh-vuh-NEER", en: "to be amazed, not to believe it", note: "Je n'en reviens pas !" }
+  - { id: "b2-idiomatic-y-en-v008", group: "enough", fr: "en avoir marre", pron: "ahn-nah-vwahr MAHR", en: "to be fed up", note: "Informal: j'en ai marre de…" }
+  - { id: "b2-idiomatic-y-en-v009", group: "enough", fr: "en avoir assez", pron: "ahn-nah-vwahr ah-SAY", en: "to have had enough", note: "Neutral." }
+  - { id: "b2-idiomatic-y-en-v010", group: "enough", fr: "ne plus en pouvoir", pron: "nuh plew-zahn poo-VWAHR", en: "to be exhausted, to be at the end of your tether", note: "Je n'en peux plus." }
+  - { id: "b2-idiomatic-y-en-v011", group: "y", fr: "y tenir", pron: "ee tuh-NEER", en: "to be keen on it, to care about it", note: "J'y tiens." }
+  - { id: "b2-idiomatic-y-en-v012", group: "y", fr: "s'y faire", pron: "see FEHR", en: "to get used to it" }
+  - { id: "b2-idiomatic-y-en-v013", group: "y", fr: "s'y prendre", pron: "see PRAHN-druh", en: "to go about it", note: "Je ne sais pas comment m'y prendre." }
+  - { id: "b2-idiomatic-y-en-v014", group: "y", fr: "ça y est", pron: "sah ee EH", en: "that's it, done, there we are" }
+  - { id: "b2-idiomatic-y-en-v015", group: "y", fr: "y compris", pron: "ee kohn-PREE", en: "including" }
+  - { id: "b2-idiomatic-y-en-v016", group: "le", fr: "je le sais", pron: "zhuh luh SEH", en: "I know (it)" }
+  - { id: "b2-idiomatic-y-en-v017", group: "le", fr: "je l'espère", pron: "zhuh les-PEHR", en: "I hope so" }
+  - { id: "b2-idiomatic-y-en-v018", group: "le", fr: "comme je te l'ai dit", pron: "kom zhuh tuh lay DEE", en: "as I told you", note: "Formal: comme je vous l'ai dit." }
+  - { id: "b2-idiomatic-y-en-v019", group: "le", fr: "je m'en doutais", pron: "zhuh mahn doo-TEH", en: "I suspected as much" }
+exercises:
+  - id: "b2-idiomatic-y-en-ex001"
+    type: "fill-in"
+    prompt: "Complétez avec en, y ou le : Ne t'___ fais pas, tout va bien."
+    answers: ["en"]
+    explanation: "S'en faire: to worry. Ne t'en fais pas: don't worry."
+  - id: "b2-idiomatic-y-en-ex002"
+    type: "fill-in"
+    prompt: "Complétez avec en, y ou le : Il est très tard, je m'___ vais."
+    answers: ["en"]
+    explanation: "S'en aller: to leave. Je m'en vais."
+  - id: "b2-idiomatic-y-en-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec en, y ou le : C'est difficile au début, mais tu vas t'___ faire."
+    answers: ["y"]
+    explanation: "S'y faire: to get used to it."
+  - id: "b2-idiomatic-y-en-ex004"
+    type: "fill-in"
+    prompt: "Complétez avec en, y ou le : — Paul part demain ? — Oui, je ___ sais."
+    answers: ["le"]
+    explanation: "Neutral le replaces the whole idea: that Paul is leaving."
+  - id: "b2-idiomatic-y-en-ex005"
+    type: "fill-in"
+    prompt: "Complétez avec en, y ou le : Elle a eu des problèmes, mais elle s'___ est bien sortie."
+    answers: ["en"]
+    explanation: "S'en sortir: to manage. In the passé composé: elle s'en est sortie."
+  - id: "b2-idiomatic-y-en-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de : Je m'en sors bien."
+    options: ["I'm managing well.", "I'm going out a lot.", "I'm leaving early."]
+    answers: ["I'm managing well."]
+    explanation: "S'en sortir: to manage, to cope."
+  - id: "b2-idiomatic-y-en-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de : J'y tiens beaucoup."
+    options: ["I care about it a lot.", "I'm holding it in my hand.", "I live there a lot."]
+    answers: ["I care about it a lot."]
+    explanation: "Y tenir: to care about something, to be keen on it."
+  - id: "b2-idiomatic-y-en-ex008"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de : Je n'en reviens pas !"
+    options: ["I can't believe it!", "I'm not coming back!", "I don't have any left!"]
+    answers: ["I can't believe it!"]
+    explanation: "Ne pas en revenir: to be amazed."
+  - id: "b2-idiomatic-y-en-ex009"
+    type: "register-shift"
+    prompt: "Transformez en registre courant, avec « en avoir assez » : J'en ai marre de ce travail."
+    answers: ["J'en ai assez de ce travail"]
+    explanation: "En avoir marre is informal; en avoir assez is neutral."
+  - id: "b2-idiomatic-y-en-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « en vouloir à » : Je suis en colère contre lui."
+    answers: ["Je lui en veux"]
+    explanation: "En vouloir à quelqu'un: lui before en."
+  - id: "b2-idiomatic-y-en-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Je me suis en allé."
+    answers: ["Je m'en suis allé", "Je m'en suis allée"]
+    explanation: "Me and en both go before the auxiliary, in that order: je m'en suis allé."
+  - id: "b2-idiomatic-y-en-ex012"
+    type: "translate"
+    prompt: "Traduisez avec « s'en faire » (tu) : Don't worry."
+    answers: ["Ne t'en fais pas"]
+    explanation: "Ne t'en fais pas: the everyday way to say don't worry."
+  - id: "b2-idiomatic-y-en-ex013"
+    type: "translate"
+    prompt: "Traduisez avec « en avoir marre » : I'm fed up with this job."
+    answers: ["J'en ai marre de ce travail"]
+    explanation: "En avoir marre de + noun. It's informal."
+  - id: "b2-idiomatic-y-en-ex014"
+    type: "translate"
+    prompt: "Rédigez ce message en complétant comme indiqué : Je (can't take any more), mais je (am getting used to it: s'y faire). (That's it), j'ai fini mon premier mois !"
+    answers: ["Je n'en peux plus, mais je m'y fais. Ça y est, j'ai fini mon premier mois !"]
+    explanation: "Ne plus en pouvoir, s'y faire and ça y est."
+  - id: "b2-idiomatic-y-en-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : As I told you, I'm leaving."
+    words: ["Comme", "je", "te", "l'ai", "dit", "je", "m'en", "vais"]
+    answers: ["Comme je te l'ai dit, je m'en vais"]
+    explanation: "Comme je te l'ai dit, with neutral le, then s'en aller."
+---
+
+By the end of this lesson you'll be able to use the common verbs built on *y* and *en*, and the neutral pronoun *le*, which French speakers use all the time in conversation.
+
+## What you already know
+
+You know *y* and *en* as pronouns that replace a place or a quantity, from <LessonLink id="a2-pronoun-y" text="the lesson on y" /> and <LessonLink id="a2-pronoun-en" text="the lesson on en" />, and their order with other pronouns from <LessonLink id="b1-double-object-pronouns" text="the lesson on double object pronouns" />. In this lesson, *y* and *en* are part of a fixed verb. They don't replace a noun you could point to: the verb simply has a new meaning with them.
+
+## Verbs with en
+
+<VocabTable group="en" />
+
+These verbs carry *en* as part of their meaning. Many are pronominal, so they take *être* in the passé composé, and both pronouns go before the auxiliary, in the order *me / te / se* + *en*: *je m'en suis allé*, *elle s'en est sortie*.
+
+<Example fr="Il est tard, je m'en vais." en="It's late, I'm off." />
+<Example fr="Ne t'en fais pas, tu vas t'en sortir." en="Don't worry, you'll manage." />
+<Example fr="Elle a été très malade, mais elle s'en est remise." en="She was very ill, but she got over it." />
+
+*En vouloir à quelqu'un* means to hold something against someone: *je lui en veux* (I'm angry with him). You met *je m'en veux* (I'm annoyed with myself) as a fixed phrase in <LessonLink id="b2-regret-and-reproach" text="the lesson on regret and reproach" />: it's the same verb, used reflexively. *Je n'en reviens pas* means "I can't believe it", for good or bad surprises. *En rester là* means to go no further: *nous allons en rester là pour aujourd'hui* (we'll leave it there for today).
+
+## In the negative and the imperative
+
+In the negative, *ne* goes before both pronouns: *je ne m'en fais pas*, *ne t'en fais pas*, *il ne s'y fait pas*. In the affirmative imperative, the pronouns follow the verb, joined with hyphens: *va-t'en* (go away), and formally *allez-vous-en*. You know *allez-y* (go ahead) from <LessonLink id="a2-imperative-with-pronouns" text="the lesson on the imperative with pronouns" />; it works the same way.
+
+<Example fr="Ne t'en fais pas, ça y est, tout est prêt." en="Don't worry, that's it, everything's ready." />
+
+## Having had enough
+
+<VocabTable group="enough" />
+
+You saw idioms with a register in <LessonLink id="b2-idioms-everyday" text="the lesson on everyday idioms" />. These three need the same care. **En avoir marre** is informal: use it with friends. **En avoir assez** is neutral and fine at work. **Ne plus en pouvoir** means you're exhausted or can't stand something any more.
+
+<Example fr="J'en ai marre de ce bruit !" en="I'm fed up with this noise!" />
+<Example fr="Après dix heures de travail, je n'en peux plus." en="After ten hours of work, I'm exhausted." />
+
+The thing you're fed up with follows *de*: *j'en ai assez de ses retards*.
+
+## Verbs with y
+
+<VocabTable group="y" />
+
+*Y tenir* means to care about something: *j'y tiens* (it matters to me). You know *tenir à* + noun from <LessonLink id="b2-relative-prepositions" text="the lesson on prepositions with relative pronouns" />; *y* replaces the *à* phrase. *S'y faire* (to get used to it) and *s'y prendre* (to go about it) are very common when talking about a new situation. In *on s'y fait*, *on* means people in general, as often in these phrases.
+
+<Example fr="Le nouveau logiciel est difficile, mais on s'y fait." en="The new software is hard, but you get used to it." />
+<Example fr="Je ne sais pas comment m'y prendre." en="I don't know how to go about it." />
+
+**Ça y est** announces that something is done: *ça y est, j'ai fini !* **Y compris** means "including": *tout le monde, y compris le chef*.
+
+## The neutral le
+
+<VocabTable group="le" />
+
+*Le* can replace a whole idea, not just a noun. English often drops the word "it" or uses "so", but French needs *le*.
+
+<Example fr="— Il part demain ? — Oui, je le sais." en="'Is he leaving tomorrow?' 'Yes, I know.'" />
+<Example fr="— Tu crois qu'il viendra ? — Je l'espère." en="'Do you think he'll come?' 'I hope so.'" />
+<Example fr="Comme je te l'ai dit, la réunion est annulée." en="As I told you, the meeting is cancelled." />
+
+In *comme je te l'ai dit*, *le* stands for the fact you told. Leaving it out (*comme je t'ai dit*) is common in speech, but the full form is standard. *Je m'en doutais* (I suspected as much) uses *en* in the same way, for an idea: *se douter de quelque chose*.
+
+## En français
+
+Inès asks her friend Thomas about the first month in his new job.
+
+- *Alors, ce premier mois dans ton nouveau travail ?* (So, how was the first month in your new job?)
+- *Difficile. Je n'en peux plus, les journées sont trop longues.* (Hard. I'm exhausted, the days are too long.)
+- *Ne t'en fais pas, c'est normal au début. Tu vas t'y faire.* (Don't worry, that's normal at the start. You'll get used to it.)
+- *Je l'espère. Mais mon chef m'en veut, je crois.* (I hope so. But I think my boss is angry with me.)
+- *Pourquoi ? Qu'est-ce qui s'est passé ?* (Why? What happened?)
+- *J'ai oublié une réunion importante. Il n'a rien dit, mais je m'en doutais : il était fâché.* (I forgot an important meeting. He didn't say anything, but I suspected as much: he was annoyed.)
+- *Et tu as parlé avec lui ?* (And did you talk to him?)
+- *Oui, je me suis excusé, et nous en sommes restés là.* (Yes, I apologized, and we left it there.)
+- *Tu vois, tu t'en es bien sorti. Tu veux garder ce poste ?* (You see, you managed well. Do you want to keep the job?)
+- *Oui, j'y tiens. L'équipe est super, y compris mon chef !* (Yes, I care about it. The team is great, including my boss!)
+- *Alors ça va aller. Comme je te l'ai dit, le premier mois est toujours le plus difficile.* (Then it'll be fine. As I told you, the first month is always the hardest.)
+- *Je le sais. Mais j'en ai un peu marre de rentrer à neuf heures du soir !* (I know. But I'm a bit fed up with getting home at nine in the evening!)
+
+<Callout type="warning" title="Je m'en vais, je m'en suis allé">
+  With *s'en aller*, both pronouns stay together before the verb, and before the auxiliary in the passé composé. *Je me suis en allé* and *je me vais* are wrong. Say **je m'en vais** and **je m'en suis allé** (or **allée**). The imperative is **va-t'en** (go away).
+</Callout>
+
+<Callout type="tip" title="Keep a reply bank">
+  Many of these phrases are replies: *je le sais*, *je l'espère*, *je m'en doutais*, *ne t'en fais pas*, *ça y est*. Write them on a card and, during your next conversation in French, try to use two of them when you answer someone. Short replies like these make your French sound natural quickly.
+</Callout>
+
+## En résumé
+
+Dans s'en aller, s'en sortir, s'en faire, s'y faire ou y tenir, en et y font partie du verbe. Le pronom ne remplace pas un objet précis, et le verbe a un sens nouveau. Au passé composé, les deux pronoms vont devant être : je m'en suis allé. J'en ai marre est familier, mais j'en ai assez est courant. Enfin, le peut remplacer toute une idée : je le sais, je l'espère, comme je te l'ai dit.
+
+## What's next
+
+Next, <LessonLink id="b2-mise-en-relief" text="the lesson on emphasis" /> shows how to put one part of a sentence in focus.
+
+=== b2-mise-en-relief ===
+
+---
+id: "b2-mise-en-relief"
+title: "Emphasis: c'est… qui / que"
+description: "Put one part of a sentence in focus: c'est Paul qui a gagné, c'est demain que je pars, c'est moi qui ai fini. Add ce que je veux dire, c'est que…, quant à and spoken dislocation."
+level: "B2"
+unit: "Precision with pronouns"
+order: 30
+type: "grammar"
+tags: ["emphasis", "grammar", "speaking", "work"]
+prerequisites: ["b1-ce-qui-ce-que"]
+related: ["a2-stressed-pronouns", "b1-cause-and-consequence", "b2-debating"]
+vocab:
+  - { id: "b2-mise-en-relief-v001", group: "terms", fr: "la mise en relief", pron: "lah mee-zahn ruh-LYEF", en: "emphasis, putting something in focus" }
+  - { id: "b2-mise-en-relief-v002", group: "focus", fr: "ce que je veux dire, c'est que", pron: "suh kuh zhuh vuh DEER, seh KUH", en: "what I mean is that" }
+  - { id: "b2-mise-en-relief-v003", group: "focus", fr: "le plus important, c'est", pron: "luh plew-zan-por-TAHN, SEH", en: "the most important thing is" }
+  - { id: "b2-mise-en-relief-v004", group: "focus", fr: "l'essentiel, c'est", pron: "leh-sahn-SYEL, SEH", en: "the main thing is" }
+  - { id: "b2-mise-en-relief-v005", group: "focus", fr: "justement", pron: "zhews-tuh-MAHN", en: "precisely, as it happens", note: "C'est justement pour ça que…" }
+  - { id: "b2-mise-en-relief-v006", group: "focus", fr: "mettre l'accent sur", pron: "meh-truh lak-SAHN sewr", en: "to stress, to put the emphasis on" }
+  - { id: "b2-mise-en-relief-v007", group: "focus", fr: "une priorité", pron: "ewn pree-oh-ree-TAY", en: "a priority" }
+  - { id: "b2-mise-en-relief-v008", group: "adverbs", fr: "avant tout", pron: "ah-vahn TOO", en: "above all, first and foremost" }
+  - { id: "b2-mise-en-relief-v009", group: "adverbs", fr: "surtout", pron: "sewr-TOO", en: "above all, especially" }
+  - { id: "b2-mise-en-relief-v010", group: "adverbs", fr: "en particulier", pron: "ahn par-tee-kew-LYAY", en: "in particular" }
+  - { id: "b2-mise-en-relief-v011", group: "adverbs", fr: "au fond", pron: "oh FOHN", en: "basically, deep down" }
+  - { id: "b2-mise-en-relief-v012", group: "topic", fr: "quant à", pron: "kahn-tah", en: "as for", note: "Quant à moi; quant au projet." }
+  - { id: "b2-mise-en-relief-v013", group: "topic", fr: "pour ce qui est de", pron: "poor suh kee eh DUH", en: "as regards, when it comes to" }
+exercises:
+  - id: "b2-mise-en-relief-ex001"
+    type: "fill-in"
+    prompt: "Complétez avec qui ou que : C'est Paul ___ a gagné."
+    answers: ["qui"]
+    explanation: "Paul is the subject of a gagné: c'est… qui."
+  - id: "b2-mise-en-relief-ex002"
+    type: "fill-in"
+    prompt: "Complétez avec qui ou que : C'est demain ___ je pars."
+    answers: ["que"]
+    explanation: "Demain isn't the subject: c'est… que."
+  - id: "b2-mise-en-relief-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec qui ou que : C'est à Lyon ___ nous habitons."
+    answers: ["que"]
+    explanation: "A place in focus: c'est à Lyon que."
+  - id: "b2-mise-en-relief-ex004"
+    type: "fill-in"
+    prompt: "Conjuguez avoir au présent : C'est moi qui ___ fini le rapport."
+    answers: ["ai"]
+    explanation: "After c'est moi qui, the verb agrees with moi: j'ai, so qui ai."
+  - id: "b2-mise-en-relief-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez la partie mise en relief : C'est avec Sophie que j'ai préparé le dossier."
+    options: ["avec Sophie", "le dossier", "j'ai préparé"]
+    answers: ["avec Sophie"]
+    explanation: "What comes between c'est and que is in focus."
+  - id: "b2-mise-en-relief-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « quant à moi »."
+    options: ["as for me", "because of me", "next to me"]
+    answers: ["as for me"]
+    explanation: "Quant à introduces a new topic: as for."
+  - id: "b2-mise-en-relief-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne réponse : ___ budget, tout est prêt."
+    options: ["Quant au", "Parce que le", "Bien que le"]
+    answers: ["Quant au"]
+    explanation: "Quant à + le budget gives quant au budget: as for the budget."
+  - id: "b2-mise-en-relief-ex008"
+    type: "reformulation"
+    prompt: "Reformulez en mettant le moment en relief, avec « c'est… que » : Je pars lundi."
+    answers: ["C'est lundi que je pars"]
+    explanation: "The time goes between c'est and que."
+  - id: "b2-mise-en-relief-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « c'est… qui » : Marie a trouvé la solution."
+    answers: ["C'est Marie qui a trouvé la solution"]
+    explanation: "The subject goes between c'est and qui."
+    strictAccents: true
+  - id: "b2-mise-en-relief-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : C'est moi qui a raison."
+    answers: ["C'est moi qui ai raison"]
+    explanation: "The verb agrees with moi: qui ai."
+  - id: "b2-mise-en-relief-ex011"
+    type: "register-shift"
+    prompt: "Transformez en registre soutenu, avec « c'est… que » : Le café, je l'adore."
+    answers: ["C'est le café que j'adore"]
+    explanation: "Spoken dislocation becomes a cleft sentence in careful French."
+  - id: "b2-mise-en-relief-ex012"
+    type: "translate"
+    prompt: "Traduisez : It's Marie who found the solution."
+    answers: ["C'est Marie qui a trouvé la solution"]
+    explanation: "C'est + the subject + qui."
+    strictAccents: true
+  - id: "b2-mise-en-relief-ex013"
+    type: "translate"
+    prompt: "Traduisez avec « ce qui compte » : What matters is to listen."
+    answers: ["Ce qui compte, c'est d'écouter", "Ce qui compte, c'est écouter"]
+    explanation: "Ce qui compte, c'est (de) + infinitive."
+  - id: "b2-mise-en-relief-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : (It's Sophie who) a préparé le projet. (It's in June that) nous le présenterons. (What matters), c'est de garder nos clients."
+    answers: ["C'est Sophie qui a préparé le projet. C'est en juin que nous le présenterons. Ce qui compte, c'est de garder nos clients."]
+    explanation: "C'est… qui for the subject, c'est… que for the time, and ce qui compte, c'est."
+    strictAccents: true
+  - id: "b2-mise-en-relief-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : It's you who are right."
+    words: ["C'est", "vous", "qui", "avez", "raison"]
+    answers: ["C'est vous qui avez raison"]
+    explanation: "After c'est vous qui, the verb agrees with vous."
+---
+
+By the end of this lesson you'll be able to put one part of a sentence in focus, to correct a misunderstanding or to make your main point clear.
+
+## What you already know
+
+You know *ce qui me plaît, c'est…* and *ce qui compte, c'est…* from <LessonLink id="b1-ce-qui-ce-que" text="the lesson on ce qui and ce que" />, and *c'est pour ça que* from <LessonLink id="b1-cause-and-consequence" text="the lesson on cause and consequence" />. You also know *c'est moi* from <LessonLink id="a2-stressed-pronouns" text="the lesson on stressed pronouns" />. This lesson turns these into a general tool for emphasis.
+
+## C'est… qui, c'est… que
+
+<VocabTable group="terms" />
+
+English stresses a word with the voice: "*Paul* won". French usually can't do that, so it moves the word into **c'est… qui** or **c'est… que**. This is *la mise en relief* (emphasis).
+
+- **For the subject**, use *c'est… qui*: *Paul a gagné* → *c'est Paul qui a gagné*.
+- **For anything else**, use *c'est… que*: an object, a time, a place or a phrase with a preposition.
+
+<Example fr="C'est Paul qui a gagné." en="It was Paul who won." />
+<Example fr="C'est demain que je pars." en="It's tomorrow that I'm leaving." />
+<Example fr="C'est à Lyon que nous habitons, pas à Paris." en="It's in Lyon that we live, not in Paris." />
+<Example fr="C'est avec Sophie que j'ai préparé le dossier." en="It was with Sophie that I prepared the file." />
+
+The structure is often used to correct someone: *Non, ce n'est pas Marc qui a appelé, c'est Sophie.* With a plural noun, careful French says *ce sont*: *ce sont mes collègues qui ont tout organisé*. In speech, *c'est* is common there too.
+
+To ask about the focus, keep the same structure and add a question mark or *est-ce que*: *c'est toi qui as appelé ?* or *est-ce que c'est toi qui as appelé ?* The answer often repeats the structure: *oui, c'est moi*.
+
+## C'est moi qui ai
+
+After *c'est* + a stressed pronoun + *qui*, the verb agrees with the pronoun, not with *il*.
+
+| | |
+|---|---|
+| *c'est moi qui ai fini* | *c'est nous qui avons fini* |
+| *c'est toi qui as raison* | *c'est vous qui avez raison* |
+| *c'est lui qui est venu* | *ce sont eux qui sont venus* |
+
+<Example fr="C'est moi qui ai préparé la présentation." en="I'm the one who prepared the presentation." />
+
+*C'est moi qui a* is a frequent mistake, even in speech: the verb must agree with *moi*.
+
+## Ideas in focus
+
+<VocabTable group="focus" />
+
+To focus on an idea, start with *ce que…* or *ce qui…* and continue with *c'est*. **Ce que je veux dire, c'est que…** (what I mean is that) clarifies your point. **Le plus important, c'est…** and **l'essentiel, c'est…** introduce the main point. You can follow *c'est* with a noun, with *que* + a clause, or with *de* + infinitive.
+
+<Example fr="Ce que je veux dire, c'est que le budget a changé." en="What I mean is that the budget has changed." />
+<Example fr="Le plus important, c'est de bien écouter le client." en="The most important thing is to listen carefully to the customer." />
+
+*Justement* (precisely) adds force to a reply: *c'est justement pour ça que je t'appelle* (that's precisely why I'm calling you). *Mettre l'accent sur* means to stress a point, and *une priorité* is a priority.
+
+<Example fr="Notre priorité, c'est la qualité." en="Our priority is quality." />
+
+## Adverbs of emphasis
+
+<VocabTable group="adverbs" />
+
+*Avant tout* (above all) and *surtout* (especially) highlight the most important point. *En particulier* (in particular) narrows it down. *Au fond* (basically, deep down) gives what you really think. You know *sur le fond* from <LessonLink id="b2-nuancing-opinions" text="the lesson on nuancing your opinion" />; *au fond* is close in meaning, but more personal.
+
+<Example fr="Au fond, il a raison." en="Deep down, he's right." />
+
+<Example fr="J'aime le sport, surtout le tennis." en="I like sport, especially tennis." />
+<Example fr="Ce projet intéresse tout le monde, en particulier les jeunes." en="This project interests everyone, in particular young people." />
+
+## Changing the topic: quant à, pour ce qui est de
+
+<VocabTable group="topic" />
+
+**Quant à** (as for) and **pour ce qui est de** (as regards) announce a new topic at the start of a sentence. *Quant à* contracts like *à*: *quant au budget*, *quant aux clients*.
+
+<Example fr="Quant au calendrier, il ne change pas." en="As for the schedule, it isn't changing." />
+
+## Spoken dislocation
+
+In conversation, French often puts the topic at the start or the end of the sentence and repeats it with a pronoun: *Moi, je préfère le train.* *Le café, je l'adore.* *Il est super, ce film.* This is called dislocation. It's very common in speech but sounds informal in writing, where *c'est… que* or a plain sentence is better: *c'est le café que j'adore*.
+
+## The whole list
+
+- *C'est… qui* puts the subject in focus.
+- *C'est… que* puts anything else in focus: object, time, place, preposition phrase.
+- After *c'est moi qui*, the verb agrees with *moi*: *c'est moi qui ai*.
+- *Ce que je veux dire, c'est que…*, *le plus important, c'est…*
+- *Quant à*, *pour ce qui est de*: a new topic.
+- Dislocation (*moi, je…*): spoken only.
+
+## En français
+
+At a team meeting, Madame Dubois checks with her colleague Monsieur Martin who did what.
+
+- *Alors, qui a préparé la présentation pour le client ?* (So, who prepared the presentation for the client?)
+- *C'est moi qui l'ai préparée, avec l'aide de Sophie.* (I'm the one who prepared it, with Sophie's help.)
+- *Très bien. Et c'est vous qui avez parlé au client hier ?* (Very good. And was it you who spoke to the client yesterday?)
+- *Non, c'est Sophie qui l'a appelé. Moi, je me suis occupé du budget.* (No, it was Sophie who called him. I dealt with the budget.)
+- *Justement, c'est sur le budget que le client a des questions.* (As it happens, it's the budget the client has questions about.)
+- *Je sais. Ce que je veux dire, c'est que le budget a changé la semaine dernière.* (I know. What I mean is that the budget changed last week.)
+- *Ah, c'est pour ça qu'il a appelé. Quant au calendrier, il ne change pas ?* (Ah, that's why he called. As for the schedule, isn't it changing?)
+- *Non. Pour ce qui est du calendrier, tout est prévu pour juin.* (No. As regards the schedule, everything is planned for June.)
+- *Parfait. Ce qui compte avant tout, c'est de garder ce client.* (Perfect. What matters above all is keeping this client.)
+- *Bien sûr. C'est justement pour ça que nous mettons l'accent sur la qualité.* (Of course. That's precisely why we're putting the emphasis on quality.)
+- *Merci. L'essentiel, c'est votre travail en équipe.* (Thank you. The main thing is your teamwork.)
+
+<Callout type="warning" title="C'est moi qui ai, not qui a">
+  The verb after *c'est moi qui* agrees with *moi*. *C'est moi qui a fini* is wrong: say **c'est moi qui ai fini**. In the same way, **c'est nous qui sommes en retard** and **c'est vous qui avez raison**.
+</Callout>
+
+<Callout type="tip" title="Correct with c'est">
+  When someone gets a detail wrong, practise correcting it with *ce n'est pas…, c'est…*: *Ce n'est pas lundi que je pars, c'est mardi.* It's the most natural use of the structure, and you'll hear yourself put the stress in the right place without raising your voice.
+</Callout>
+
+## En résumé
+
+Pour mettre une partie de la phrase en relief, on dit c'est… qui pour la personne qui fait l'action : c'est Paul qui a gagné. Pour le reste, on dit c'est… que : c'est demain que je pars, c'est à Lyon que nous habitons. Après c'est moi qui, le verbe s'accorde avec moi : c'est moi qui ai fini. Pour une idée, on dit ce que je veux dire, c'est que… Quant à présente un nouveau thème. Quand on parle, on dit aussi moi, je…
+
+## What's next
+
+Next, <LessonLink id="b2-review-pronouns" text="the review of this unit" /> brings all the pronouns together in a neighbourhood newsletter.
+
+=== b2-review-pronouns ===
+
+---
+id: "b2-review-pronouns"
+title: "Review: Precision with pronouns"
+description: "Bring the unit together in a neighbourhood newsletter: relatives after prepositions, the subjunctive in relatives, idiomatic y and en, emphasis, and an agreement checklist for compound tenses."
+level: "B2"
+unit: "Precision with pronouns"
+order: 31
+type: "review"
+tags: ["review", "pronouns", "writing"]
+prerequisites: ["b2-relative-prepositions", "b2-subjunctive-relative-clauses", "b2-idiomatic-y-en", "b2-mise-en-relief"]
+related: ["b2-relative-lequel", "a2-pronouns-in-passe-compose", "a2-reflexive-passe-compose", "b2-economy-and-business"]
+vocab:
+  - { id: "b2-review-pronouns-v001", fr: "une association de quartier", pron: "ew-nah-soh-syah-syohn duh kar-TYAY", en: "a neighbourhood association" }
+  - { id: "b2-review-pronouns-v002", fr: "un projet commun", pron: "uhn proh-zheh koh-MUHN", en: "a joint project" }
+  - { id: "b2-review-pronouns-v003", fr: "s'impliquer dans", pron: "san-plee-kay DAHN", en: "to get involved in" }
+  - { id: "b2-review-pronouns-v004", fr: "mettre en place", pron: "meh-trahn PLAHSS", en: "to set up" }
+  - { id: "b2-review-pronouns-v005", fr: "un local", pron: "uhn loh-KAHL", en: "premises, a room or building for an activity" }
+exercises:
+  - id: "b2-review-pronouns-ex001"
+    type: "fill-in"
+    prompt: "Complétez : Nous avons un local à côté ___ il y a une école."
+    answers: ["duquel"]
+    explanation: "After à côté de, dont isn't possible: à côté duquel."
+  - id: "b2-review-pronouns-ex002"
+    type: "fill-in"
+    prompt: "Complétez : Ce ___ nous avons besoin, c'est d'un peu de temps."
+    answers: ["dont"]
+    explanation: "Avoir besoin de: ce dont."
+  - id: "b2-review-pronouns-ex003"
+    type: "fill-in"
+    prompt: "Complétez : C'est la collègue avec ___ j'ai organisé la fête."
+    answers: ["qui", "laquelle"]
+    explanation: "A person after a preposition: avec qui, or less often avec laquelle."
+  - id: "b2-review-pronouns-ex004"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur d'accord : Si j'avais vu ta sœur, je l'aurais appelé."
+    answers: ["Si j'avais vu ta sœur, je l'aurais appelée"]
+    explanation: "L' stands for ta sœur, a direct object before the verb: the participle agrees, appelée."
+  - id: "b2-review-pronouns-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne réponse : Le parc près ___ j'habite est grand."
+    options: ["duquel", "dont", "que"]
+    answers: ["duquel"]
+    explanation: "Près de is a compound preposition: près duquel."
+  - id: "b2-review-pronouns-ex006"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne réponse : La personne sur ___ je compte, c'est ma sœur."
+    options: ["qui", "que", "dont"]
+    answers: ["qui"]
+    explanation: "Compter sur + a person: sur qui."
+  - id: "b2-review-pronouns-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne forme : Nous cherchons quelqu'un qui ___ du temps le samedi."
+    options: ["ait", "avoir", "avons"]
+    answers: ["ait"]
+    explanation: "Someone sought: the subjunctive, qui ait."
+  - id: "b2-review-pronouns-ex008"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase avec « auquel » : Nous pensons à un projet. Ce projet est un jardin partagé."
+    answers: ["Le projet auquel nous pensons est un jardin partagé"]
+    explanation: "Penser à + le projet: auquel."
+  - id: "b2-review-pronouns-ex009"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase avec « avec qui » : J'ai parlé avec des habitants. Ils sont très contents."
+    answers: ["Les habitants avec qui j'ai parlé sont très contents"]
+    explanation: "Avec qui for people, after the noun."
+    strictAccents: true
+  - id: "b2-review-pronouns-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : C'est moi qui a écrit la lettre."
+    answers: ["C'est moi qui ai écrit la lettre"]
+    explanation: "After c'est moi qui, the verb agrees with moi: qui ai."
+  - id: "b2-review-pronouns-ex011"
+    type: "register-shift"
+    prompt: "Transformez en registre soutenu, avec « c'est… qui » : Moi, j'ai trouvé le local."
+    answers: ["C'est moi qui ai trouvé le local"]
+    explanation: "Spoken dislocation becomes a cleft sentence."
+  - id: "b2-review-pronouns-ex012"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de : Ne vous en faites pas."
+    options: ["Don't worry.", "Don't do it.", "Don't leave."]
+    answers: ["Don't worry."]
+    explanation: "S'en faire: to worry."
+  - id: "b2-review-pronouns-ex013"
+    type: "translate"
+    prompt: "Traduisez avec « s'impliquer dans » : This is the association I'm getting involved in."
+    answers: ["C'est l'association dans laquelle je m'implique", "Voici l'association dans laquelle je m'implique"]
+    explanation: "S'impliquer dans + l'association: dans laquelle."
+  - id: "b2-review-pronouns-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Nous avons un nouveau local (next to which) il y a une école. (It's there that) nous nous réunissons le mardi."
+    answers: ["Nous avons un nouveau local à côté duquel il y a une école. C'est là que nous nous réunissons le mardi."]
+    explanation: "À côté duquel after a compound preposition, then c'est… que for the place."
+    strictAccents: true
+  - id: "b2-review-pronouns-ex015"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : (What we need), ce sont des personnes qui (have: avoir) un peu de temps. (As for) la mairie, elle nous a aidés à (set up) le projet."
+    answers: ["Ce dont nous avons besoin, ce sont des personnes qui aient un peu de temps. Quant à la mairie, elle nous a aidés à mettre en place le projet.", "Ce dont nous avons besoin, ce sont des personnes qui aient un peu de temps. Pour ce qui est de la mairie, elle nous a aidés à mettre en place le projet."]
+    explanation: "Ce dont, the subjunctive for people sought, quant à or pour ce qui est de, and mettre en place."
+    strictAccents: true
+  - id: "b2-review-pronouns-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : It's the project I care about."
+    words: ["C'est", "le", "projet", "auquel", "je", "tiens"]
+    answers: ["C'est le projet auquel je tiens"]
+    explanation: "Tenir à + le projet: auquel."
+---
+
+By the end of this lesson you'll be able to write a short community text that links ideas precisely with relative pronouns, puts the key points in focus, and uses past participles correctly.
+
+## What you've learned
+
+This unit has been about the small words that make French precise: which pronoun goes after a preposition, when a relative needs the subjunctive, and how to put one idea in focus. Skim this list, and go back to anything that feels shaky.
+
+- **Lequel and its forms.** You know *avec lequel*, *auquel*, *près duquel* and *la raison pour laquelle*, from <LessonLink id="b2-relative-lequel" text="the lesson on lequel, auquel and duquel" />.
+- **Relatives after prepositions.** You know *avec qui*, *ce à quoi*, *ce dont* and *quoi que*, from <LessonLink id="b2-relative-prepositions" text="the lesson on prepositions with relative pronouns" />.
+- **The subjunctive in relatives.** You know *je cherche quelqu'un qui sache* and *il n'y a personne qui puisse*, from <LessonLink id="b2-subjunctive-relative-clauses" text="the lesson on the subjunctive in relative clauses" />.
+- **Idiomatic y and en.** You know *s'en faire* (*ne t'en fais pas*, *ne vous en faites pas*), *on s'y fait* and *je le sais*, from <LessonLink id="b2-idiomatic-y-en" text="the lesson on idiomatic y and en" />.
+- **Emphasis.** You know *c'est… qui*, *c'est… que* and *quant à*, from <LessonLink id="b2-mise-en-relief" text="the lesson on emphasis" />.
+
+## A few new words
+
+These five words are useful whenever people organize something together, from a sports club to a residents' group. All five appear in the newsletter below.
+
+<VocabTable />
+
+*Une association de quartier* is a local group of residents; you know *une association* from <LessonLink id="b2-social-issues" text="the lesson on social issues" />. *Un projet commun* is one that several people share. *S'impliquer dans* (to get involved in) takes *dans*, so it gives *l'association dans laquelle je m'implique*. *Mettre en place* means to set up; you met its noun, *la mise en place*, in <LessonLink id="b2-nominalisation" text="the lesson on nominalisation" />. *Un local* is a room or a building used by a group or a business.
+
+## A model newsletter
+
+This is the monthly newsletter of a neighbourhood association.
+
+*La lettre du quartier*
+
+*Bonjour à tous ! Ce mois-ci, c'est notre association de quartier qui vous écrit. Nous avons enfin un local, à côté duquel il y a une école. C'est là que nous nous réunirons chaque mardi.*
+
+*Le projet commun auquel nous pensons depuis l'hiver est un jardin partagé. Ce dont nous avons besoin, ce sont des personnes qui aient un peu de temps le samedi. Il n'y a personne dans notre groupe qui connaisse vraiment les jardins, mais ce n'est pas grave : ce à quoi nous tenons, c'est de partager un moment ensemble.*
+
+*Quant à la mairie, elle nous a aidés à mettre en place le projet. Les habitants avec qui nous avons parlé sont très contents.*
+
+*Si vous voulez vous impliquer dans l'association, venez nous voir n'importe quel mardi. Ne vous en faites pas si vous n'avez pas d'expérience : on s'y fait vite !*
+
+*À bientôt, l'équipe de l'association.*
+
+(The neighbourhood newsletter. Hello everyone! This month, it's our neighbourhood association writing to you. We finally have premises, next to which there's a school. That's where we'll meet every Tuesday. The joint project we've been thinking about since the winter is a shared garden. What we need is people who have a bit of time on Saturdays. There's nobody in our group who really knows about gardens, but that doesn't matter: what we care about is sharing time together. As for the town hall, it has helped us set up the project. The residents we've spoken to are very happy. If you'd like to get involved in the association, come and see us any Tuesday. Don't worry if you don't have any experience: you get used to it quickly! See you soon, the association team.)
+
+## How the text uses the grammar
+
+- **Lequel after a preposition.** *À côté duquel* uses *duquel* because *à côté de* is a compound preposition; *auquel* comes from *penser à*.
+- **Relatives for people and ideas.** *Avec qui* refers to people; *ce dont* and *ce à quoi* refer to ideas, with the preposition of the verb (*avoir besoin de*, *tenir à*).
+- **The subjunctive in relatives.** *Des personnes qui aient* and *personne… qui connaisse* describe people who are sought or don't exist.
+- **Emphasis.** *C'est notre association qui vous écrit* and *c'est là que nous nous réunirons* put the key points in focus; *quant à* introduces a new topic.
+- **Idiomatic pronouns.** *Ne vous en faites pas* and *on s'y fait* are fixed verbs with *en* and *y*.
+- **Agreement.** In *elle nous a aidés*, *aidés* agrees with *nous* (the association's members), a direct object before the verb.
+
+## Agreement checklist
+
+In <LessonLink id="a2-pronouns-in-passe-compose" text="the lesson on pronouns in the passé composé" />, you learned that with *avoir*, the participle agrees with a direct object placed before it. The rule is the same in every compound tense you've learned since: the plus-que-parfait, the futur antérieur, the conditionnel passé and the subjonctif passé.
+
+<Example fr="Si j'avais vu ta sœur, je l'aurais appelée." en="If I'd seen your sister, I'd have called her." />
+<Example fr="Quand je les aurai lues, je te donnerai mon avis sur ces lettres." en="When I've read them, I'll give you my opinion on these letters." />
+
+With pronominal verbs, the reflexive pronoun is usually the direct object, so the participle agrees with the subject, as in <LessonLink id="a2-reflexive-passe-compose" text="the lesson on reflexive verbs in the passé composé" />. When another direct object comes after the verb, there's no agreement (*elle s'est lavé les mains*). When it comes before, the participle agrees with it: *les mains qu'elle s'est lavées*.
+
+With verbs whose pronoun is indirect, such as *se parler*, *se téléphoner* or *se dire* (you speak *to* someone), there's no agreement at all.
+
+<Example fr="Elles se sont parlé pendant une heure." en="They talked to each other for an hour." />
+
+## Your turn
+
+Choose a local group you know or could imagine: a sports club, a neighbourhood association, a group of colleagues. Write a short newsletter of three or four paragraphs, on paper or in a notes app.
+
+1. **Introduce the group** with one sentence in *c'est… qui* and one place with *à côté duquel* or *près duquel*.
+2. **Describe a project** with *auquel* or *dans lequel*, and say what you need with *ce dont*.
+3. **Say who you're looking for**, with *nous cherchons quelqu'un qui* + subjunctive.
+4. **End with an invitation**, using *ne vous en faites pas* or *on s'y fait*.
+
+## Check your work
+
+- After a preposition, did you use *qui* for people and *lequel* for things?
+- After *près de*, *à côté de* or *au cours de*, did you use *duquel* rather than *dont*?
+- For ideas, did you use *ce à quoi* or *ce dont*, with the verb's preposition?
+- When the person is sought or doesn't exist, is the relative in the subjunctive?
+- After *c'est moi qui*, does the verb agree with *moi*?
+- With *avoir*, does the participle agree with a direct object placed before it?
+
+<Callout type="warning" title="Ils se sont parlé, not parlés">
+  After a year of agreement rules, learners often make every pronominal participle agree. With *se parler*, *se téléphoner* and *se dire*, the pronoun means "to each other", so there's no agreement: **ils se sont parlé**, **elles se sont téléphoné**, **nous nous sommes dit au revoir**.
+</Callout>
+
+<Callout type="tip" title="Read your text for one thing at a time">
+  When your newsletter is finished, reread it three times, each time looking for one thing only: first the prepositions before *qui* and *lequel*, then the moods in the relatives, then the participles. Checking one point at a time catches far more mistakes than one general reread.
+</Callout>
+
+## What's next
+
+The next unit is about work and the economy. It starts with <LessonLink id="b2-economy-and-business" text="the lesson on the economy and business" />.

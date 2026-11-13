@@ -136,6 +136,10 @@ B2 inherits every B1 rule unless it's overridden here. They apply to B2 lessons 
   - A paragraph exercise must make sense as one coherent text.
   - A rule of thumb in a grammar lesson is called one, and isn't stated as a rule, when the lesson's own list has exceptions.
   - A model text keeps one narrative tense per paragraph (for example the passé simple or the historical present, not both).
+  - State a grammar rule by its real test, not an approximation (for example "same subject", not "the same person benefits").
+  - Tips and rules don't say "always", "never", "almost always" or "most common" unless the lesson's own examples agree.
+  - An example that illustrates a mood contrast uses a verb whose forms differ between the moods (not *donnent*, *reste* or *invites*).
+  - A distractor must be wrong in its sentence, and a rule tested in an exercise must be explained in that lesson or an earlier one.
 - **Structures.**
   - The teaching text, exercises and En résumé are strict.
   - A longer text may use at most 2 untaught structures. Each one is glossed in an English line inside the same section that starts with `Note:` and names the form in italics, for example "Note: *qu'il soit parti* is the past subjunctive, taught later in B2." check:structures counts these against the cap.

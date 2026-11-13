@@ -1,0 +1,2051 @@
+=== b2-economy-and-business ===
+
+---
+id: "b2-economy-and-business"
+title: "The economy and business"
+description: "Talk about the economy and companies at news level: growth and recession, turnover and profit, shares, competition, investment, redundancies and offshoring."
+level: "B2"
+unit: "Work and the economy"
+order: 32
+type: "vocabulary"
+tags: ["economy", "business", "work", "vocabulary"]
+prerequisites: ["b1-careers-and-job-hunting", "b1-money-and-banking"]
+related: ["b2-social-issues", "b2-nominalisation", "b2-presenting-data", "b2-meetings-and-calls"]
+vocab:
+  - { id: "b2-economy-and-business-v001", group: "economy", fr: "la croissance", pron: "lah krwah-SAHNSS", en: "growth (of the economy)" }
+  - { id: "b2-economy-and-business-v002", group: "economy", fr: "la récession", pron: "lah ray-seh-SYOHN", en: "recession" }
+  - { id: "b2-economy-and-business-v003", group: "economy", fr: "la conjoncture", pron: "lah kohn-zhohnk-TEWR", en: "the economic situation, the current climate" }
+  - { id: "b2-economy-and-business-v004", group: "economy", fr: "le PIB", pron: "luh pay-ee-BAY", en: "GDP (gross domestic product)" }
+  - { id: "b2-economy-and-business-v005", group: "economy", fr: "un secteur", pron: "uhn sek-TUHR", en: "a sector" }
+  - { id: "b2-economy-and-business-v006", group: "economy", fr: "le marché", pron: "luh mar-SHAY", en: "the market (in economics)" }
+  - { id: "b2-economy-and-business-v007", group: "companies", fr: "une société", pron: "ewn soh-syay-TAY", en: "a company", note: "Also 'society', as in un débat de société." }
+  - { id: "b2-economy-and-business-v008", group: "companies", fr: "une PME", pron: "ewn pay-em-UH", en: "an SME, a small or medium-sized business" }
+  - { id: "b2-economy-and-business-v009", group: "companies", fr: "une start-up", pron: "ewn star-TUP", en: "a start-up" }
+  - { id: "b2-economy-and-business-v010", group: "companies", fr: "un actionnaire", pron: "uh-nak-syoh-NEHR", en: "a shareholder" }
+  - { id: "b2-economy-and-business-v011", group: "companies", fr: "une action", pron: "ew-nak-SYOHN", en: "a share (in a company)", note: "Also 'an action'." }
+  - { id: "b2-economy-and-business-v012", group: "companies", fr: "la concurrence", pron: "lah kohn-kew-RAHNSS", en: "competition" }
+  - { id: "b2-economy-and-business-v013", group: "companies", fr: "un concurrent / une concurrente", pron: "uhn kohn-kew-RAHN / ewn kohn-kew-RAHNT", en: "a competitor" }
+  - { id: "b2-economy-and-business-v014", group: "companies", fr: "racheter / le rachat", pron: "rahsh-TAY / luh rah-SHAH", en: "to buy out, to take over / a takeover" }
+  - { id: "b2-economy-and-business-v015", group: "results", fr: "le chiffre d'affaires", pron: "luh shee-fruh dah-FEHR", en: "turnover, revenue", note: "False friend: not 'business figures'." }
+  - { id: "b2-economy-and-business-v016", group: "results", fr: "le bénéfice", pron: "luh bay-nay-FEESS", en: "profit", note: "False friend: a benefit is un avantage or un bienfait." }
+  - { id: "b2-economy-and-business-v017", group: "results", fr: "une perte", pron: "ewn PEHRT", en: "a loss" }
+  - { id: "b2-economy-and-business-v018", group: "results", fr: "rentable", pron: "rahn-TAH-bluh", en: "profitable" }
+  - { id: "b2-economy-and-business-v019", group: "results", fr: "la rentabilité", pron: "lah rahn-tah-bee-lee-TAY", en: "profitability" }
+  - { id: "b2-economy-and-business-v020", group: "results", fr: "investir", pron: "an-ves-TEER", en: "to invest", note: "Like finir." }
+  - { id: "b2-economy-and-business-v021", group: "results", fr: "un investissement", pron: "uh-nan-ves-tees-MAHN", en: "an investment" }
+  - { id: "b2-economy-and-business-v022", group: "results", fr: "un bienfait", pron: "uhn byan-FEH", en: "a benefit, a good effect" }
+  - { id: "b2-economy-and-business-v023", group: "jobs", fr: "un salarié / une salariée", pron: "uhn sah-lah-RYAY / ewn sah-lah-RYAY", en: "an employee" }
+  - { id: "b2-economy-and-business-v024", group: "jobs", fr: "un licenciement", pron: "uhn lee-sahn-see-MAHN", en: "a redundancy, a dismissal" }
+  - { id: "b2-economy-and-business-v025", group: "jobs", fr: "la délocalisation", pron: "lah day-loh-kah-lee-zah-SYOHN", en: "offshoring, moving production abroad" }
+  - { id: "b2-economy-and-business-v026", group: "jobs", fr: "une prime", pron: "ewn PREEM", en: "a bonus (extra pay)" }
+exercises:
+  - id: "b2-economy-and-business-ex001"
+    type: "fill-in"
+    prompt: "Complétez : Après une longue récession, la ___ revient enfin."
+    answers: ["croissance"]
+    explanation: "La croissance: growth, the opposite of a recession."
+  - id: "b2-economy-and-business-ex002"
+    type: "fill-in"
+    prompt: "Complétez : Cette année, l'entreprise a fait un ___ : elle a gagné de l'argent."
+    answers: ["bénéfice"]
+    explanation: "Le bénéfice: the profit a company makes."
+  - id: "b2-economy-and-business-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec un verbe à l'infinitif : L'usine va fermer, et le patron veut ___ des salariés."
+    answers: ["licencier"]
+    explanation: "Licencier: to make redundant, to dismiss."
+  - id: "b2-economy-and-business-ex004"
+    type: "fill-in"
+    prompt: "Complétez : Ce projet coûte trop cher : il n'est pas ___."
+    answers: ["rentable"]
+    explanation: "Rentable: profitable."
+  - id: "b2-economy-and-business-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Dans ce secteur, la ___ est très forte : beaucoup d'entreprises vendent le même produit."
+    answers: ["concurrence"]
+    explanation: "La concurrence: competition between companies."
+  - id: "b2-economy-and-business-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « le bénéfice » dans un article sur une entreprise."
+    options: ["the profit", "a health benefit", "a present"]
+    answers: ["the profit"]
+    explanation: "In business, le bénéfice is the profit. A benefit is un avantage or un bienfait."
+  - id: "b2-economy-and-business-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « acheter des actions »."
+    options: ["to buy shares", "to take action", "to buy films"]
+    answers: ["to buy shares"]
+    explanation: "Une action is also a share in a company."
+  - id: "b2-economy-and-business-ex008"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « une société » dans : Il travaille dans une société de Lyon."
+    options: ["a company", "a society", "a club"]
+    answers: ["a company"]
+    explanation: "In business, une société is a company."
+  - id: "b2-economy-and-business-ex009"
+    type: "multiple-choice"
+    prompt: "Trouvez le mot qui ne va pas avec les autres."
+    options: ["un investissement", "un actionnaire", "un concurrent"]
+    answers: ["un investissement"]
+    explanation: "Un actionnaire and un concurrent are people or companies; un investissement is money you put in."
+  - id: "b2-economy-and-business-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « rentable » : L'entreprise gagne de l'argent."
+    answers: ["L'entreprise est rentable"]
+    explanation: "Rentable describes a company or a project that makes money."
+  - id: "b2-economy-and-business-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Le sport a beaucoup de bénéfices pour nous."
+    answers: ["Le sport a beaucoup de bienfaits pour nous"]
+    explanation: "Le bénéfice is a profit. For good effects, say les bienfaits."
+    strictAccents: true
+  - id: "b2-economy-and-business-ex012"
+    type: "translate"
+    prompt: "Traduisez : The company hired twenty people."
+    answers: ["L'entreprise a embauché vingt personnes", "La société a embauché vingt personnes"]
+    explanation: "Embaucher in the passé composé."
+    strictAccents: true
+  - id: "b2-economy-and-business-ex013"
+    type: "translate"
+    prompt: "Traduisez avec « diminuer » : Turnover fell this year."
+    answers: ["Le chiffre d'affaires a diminué cette année", "Cette année, le chiffre d'affaires a diminué"]
+    explanation: "Le chiffre d'affaires: turnover. It's singular."
+    strictAccents: true
+  - id: "b2-economy-and-business-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Cette année, le chiffre d'affaires (rose: augmenter, passé composé). L'entreprise a fait (a profit). Elle va (invest) dans un nouveau secteur."
+    answers: ["Cette année, le chiffre d'affaires a augmenté. L'entreprise a fait un bénéfice. Elle va investir dans un nouveau secteur."]
+    explanation: "Three facts about a company's results: turnover, profit and investment."
+    strictAccents: true
+  - id: "b2-economy-and-business-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The company is going to invest abroad."
+    words: ["L'entreprise", "va", "investir", "à", "l'étranger"]
+    answers: ["L'entreprise va investir à l'étranger"]
+    explanation: "Aller + infinitive, then à l'étranger."
+    strictAccents: true
+---
+
+By the end of this lesson you'll be able to follow economic news and talk about a company's results, its market and its jobs.
+
+## What you already know
+
+You know *un CDI*, *le salaire*, *le chômage*, *embaucher* and *licencier* from <LessonLink id="b1-careers-and-job-hunting" text="the lesson on careers and job hunting" />, and *un prêt*, *emprunter*, *le budget* and *dépenser* from <LessonLink id="b1-money-and-banking" text="the lesson on money and banking" />. You also know *le pouvoir d'achat* from <LessonLink id="b2-social-issues" text="the lesson on social issues" />, and *la hausse* and *la baisse* from <LessonLink id="b2-nominalisation" text="the lesson on nominalisation" />. This lesson moves from your own money to the economy and companies.
+
+## The economy
+
+<VocabTable group="economy" />
+
+*La croissance* (growth) and *la récession* are the two words of every economic headline. *La conjoncture* is the general economic situation at a given time: *la conjoncture est difficile*. *Le PIB* (GDP) measures what a country produces, and *l'inflation* is the rise in prices. *Le marché* here is the market in economics, not the street market you know from A1.
+
+<Example fr="Après une année difficile, la croissance revient." en="After a difficult year, growth is returning." />
+<Example fr="Dans ce secteur, les ventes changent beaucoup avec la conjoncture." en="In this sector, sales change a lot with the economic climate." />
+
+<Example fr="Le PIB a augmenté cette année." en="GDP rose this year." />
+
+## Companies
+
+<VocabTable group="companies" />
+
+*Une société* is the usual word for a company in business French, alongside *une entreprise*. You know it from *un débat de société*, where it means "society": the context tells you which. *Une PME* is a small or medium-sized business, and *une start-up* is a young company built on a new idea; it's pronounced as in English. *Un actionnaire* owns *des actions* (shares) in a company.
+
+<Example fr="Cette PME vend ses produits à l'étranger." en="This SME sells its products abroad." />
+<Example fr="Un concurrent veut racheter la société." en="A competitor wants to buy out the company." />
+
+<Example fr="Cette start-up a été créée par deux étudiants." en="This start-up was set up by two students." />
+
+*La concurrence* is competition between companies; *un concurrent* is a competitor. *Racheter* means to buy out a company, and *le rachat* is the takeover.
+
+## Results
+
+<VocabTable group="results" />
+
+**Le chiffre d'affaires** is turnover, the total a company sells in a year, before costs. **Le bénéfice** is the profit, what remains after costs. Both are false friends. When costs are higher than turnover, there's *une perte* (a loss). A company or a project that makes money is *rentable*, and *la rentabilité* is how much it makes.
+
+<Example fr="Le chiffre d'affaires a augmenté, mais le bénéfice a diminué." en="Turnover rose, but profit fell." />
+<Example fr="La société veut investir dans un nouveau secteur." en="The company wants to invest in a new sector." />
+
+<Example fr="La rentabilité de ce projet est faible." en="The profitability of this project is low." />
+<Example fr="Cet investissement coûte cher, mais il sera rentable." en="This investment is expensive, but it will be profitable." />
+
+*Investir* (to invest) is like *finir*: *nous investissons*. For a benefit in the everyday sense, French says *un avantage* or *un bienfait*: *les bienfaits du sport*.
+
+## Jobs
+
+<VocabTable group="jobs" />
+
+*Un salarié* is an employee, someone who receives a salary. When a company cuts jobs, the news speaks of *des licenciements*. *La délocalisation* is moving production to another country, usually where costs are lower. *Une prime* is extra pay on top of the salary, often at the end of the year.
+
+<Example fr="Les salariés ont reçu une prime en décembre." en="The employees received a bonus in December." />
+
+Economic news uses the passive and nominal style a lot: *cent emplois ont été supprimés*, *la fermeture de l'usine*, *la baisse des ventes*. You've learned both in the last unit.
+
+## Words that go together
+
+These nouns come with their own verbs. A company *fait un bénéfice* or *fait des pertes*, *investit dans* a sector, *est rachetée par* a competitor and *licencie des salariés*. A country *exporte* and *importe* goods, and its economy *est en croissance* or *en récession*. News reports also turn these facts into nouns, as you saw in the lesson on nominalisation: *la hausse du chiffre d'affaires*, *la baisse des bénéfices*, *le rachat de la société*. Learning the noun with its verb lets you understand a headline at once and write one yourself. In conversation, people prefer the verbs: *l'entreprise a gagné de l'argent* sounds more natural than *l'entreprise a fait un bénéfice* in everyday speech.
+
+## False friends
+
+Three words in this lesson look like English but mean something else:
+
+- **Le bénéfice** is a profit, not a benefit.
+- **Le chiffre d'affaires** is turnover, not business figures in general.
+- **Une société** is often a company, not a society.
+
+## En français
+
+Monsieur Martin and Madame Dubois, two colleagues, discuss news about their company.
+
+- *Vous avez entendu ? On dit que notre société va être rachetée.* (Have you heard? People are saying our company is going to be bought out.)
+- *Oui, par un concurrent, d'après ce que j'ai lu.* (Yes, by a competitor, from what I've read.)
+- *C'est inquiétant. J'ai peur d'une délocalisation de l'usine.* (It's worrying. I'm afraid the factory will be moved abroad.)
+- *Je ne crois pas. Notre chiffre d'affaires augmente, et nous sommes rentables.* (I don't think so. Our turnover is rising, and we're profitable.)
+- *C'est vrai, mais l'année dernière, il y a eu des pertes dans notre secteur.* (True, but last year there were losses in our sector.)
+- *Les actionnaires veulent sûrement plus de bénéfices.* (The shareholders surely want more profit.)
+- *Et pour nous, les salariés, qu'est-ce que ça change ?* (And for us, the employees, what does it change?)
+- *Si le rachat a lieu, il y aura peut-être des licenciements.* (If the takeover happens, there may be redundancies.)
+- *J'espère que non. Avec la conjoncture en ce moment, trouver un autre poste sera difficile.* (I hope not. With the economic climate at the moment, finding another job will be hard.)
+- *Attendons l'annonce officielle. Le patron doit parler aux salariés vendredi.* (Let's wait for the official announcement. The boss is due to speak to the employees on Friday.)
+- *Vous avez raison. Et notre prime, vous pensez qu'elle est menacée ?* (You're right. And our bonus, do you think it's under threat?)
+- *Si l'entreprise reste rentable, il n'y a pas de raison de la supprimer.* (If the company stays profitable, there's no reason to cut it.)
+
+<Callout type="warning" title="Le bénéfice is a profit">
+  *Le bénéfice* looks like "benefit", but in French it's almost always the profit a company makes. *Les bénéfices du sport* is wrong: say **les bienfaits du sport** or **les avantages du sport**. Keep *bénéfice* for money: **l'entreprise a fait un bénéfice**.
+</Callout>
+
+<Callout type="tip" title="Follow one company">
+  Choose one invented or local company in a French news story and keep a page on it: its *secteur*, its *concurrents*, its *chiffre d'affaires* going up or down, any *rachat* or *licenciements*. Each new article adds a line. In a few weeks, you'll read business news with a ready-made vocabulary.
+</Callout>
+
+## En résumé
+
+Quand l'économie va bien, il y a de la croissance. Quand elle va mal, il peut y avoir une récession. La conjoncture, c'est la situation économique du moment. Une société, ou une entreprise, a des actionnaires qui ont des actions de la société, et elle a des concurrents sur son marché. Le chiffre d'affaires, c'est tout ce qu'elle vend dans l'année. Le bénéfice, c'est l'argent qui reste après les coûts. Quand les coûts sont plus grands que le chiffre d'affaires, il y a une perte. Une entreprise qui gagne de l'argent est rentable. Pour l'emploi, on parle d'embaucher et de licencier des salariés, et de délocalisation quand l'usine part à l'étranger. Attention : un bénéfice n'est pas un bienfait.
+
+## What's next
+
+Next, <LessonLink id="b2-faire-causatif" text="the lesson on faire + infinitive" /> shows how to say that you have something done.
+
+=== b2-faire-causatif ===
+
+---
+id: "b2-faire-causatif"
+title: "Faire + infinitive"
+description: "Say that you have something done or let someone do something: je fais réparer ma voiture, je la fais réparer, elle s'est fait voler son sac, laisse-moi faire."
+level: "B2"
+unit: "Work and the economy"
+order: 33
+type: "grammar"
+tags: ["faire", "causative", "grammar", "work"]
+prerequisites: ["b1-double-object-pronouns", "b2-alternatives-to-passive"]
+related: ["b1-food-and-cooking", "b2-economy-and-business", "b2-review-work"]
+vocab:
+  - { id: "b2-faire-causatif-v001", group: "faire", fr: "faire réparer", pron: "fehr ray-pah-RAY", en: "to have (something) repaired" }
+  - { id: "b2-faire-causatif-v002", group: "faire", fr: "faire venir", pron: "fehr vuh-NEER", en: "to send for, to call out (someone)" }
+  - { id: "b2-faire-causatif-v003", group: "faire", fr: "faire faire", pron: "fehr FEHR", en: "to have (something) done" }
+  - { id: "b2-faire-causatif-v004", group: "faire", fr: "faire visiter", pron: "fehr vee-zee-TAY", en: "to show (someone) round" }
+  - { id: "b2-faire-causatif-v005", group: "faire", fr: "faire attendre", pron: "fehr ah-TAHN-druh", en: "to keep (someone) waiting" }
+  - { id: "b2-faire-causatif-v006", group: "faire", fr: "faire remarquer", pron: "fehr ruh-mar-KAY", en: "to point out" }
+  - { id: "b2-faire-causatif-v007", group: "se", fr: "se faire couper les cheveux", pron: "suh fehr koo-pay lay shuh-VUH", en: "to have your hair cut" }
+  - { id: "b2-faire-causatif-v008", group: "se", fr: "se faire voler", pron: "suh fehr voh-LAY", en: "to be robbed, to have (something) stolen", note: "Elle s'est fait voler son sac." }
+  - { id: "b2-faire-causatif-v009", group: "se", fr: "se faire avoir", pron: "suh fehr ah-VWAHR", en: "to be conned, to be had", note: "Informal." }
+  - { id: "b2-faire-causatif-v010", group: "laisser", fr: "laisser faire", pron: "leh-say FEHR", en: "to let it happen, to let (someone) do it", note: "Laisse-moi faire: let me do it." }
+  - { id: "b2-faire-causatif-v011", group: "laisser", fr: "laisser tomber", pron: "leh-say tohn-BAY", en: "to drop, to give up", note: "Informal." }
+  - { id: "b2-faire-causatif-v012", group: "pros", fr: "un plombier", pron: "uhn plohn-BYAY", en: "a plumber" }
+  - { id: "b2-faire-causatif-v013", group: "pros", fr: "un garagiste", pron: "uhn gah-rah-ZHEEST", en: "a garage mechanic" }
+  - { id: "b2-faire-causatif-v014", group: "pros", fr: "un devis", pron: "uhn duh-VEE", en: "a quote, an estimate" }
+  - { id: "b2-faire-causatif-v015", group: "pros", fr: "un prestataire", pron: "uhn pres-tah-TEHR", en: "a service provider, a contractor" }
+  - { id: "b2-faire-causatif-v016", group: "pros", fr: "une intervention", pron: "ew-nan-tehr-vahn-SYOHN", en: "a call-out, a visit to do work" }
+  - { id: "b2-faire-causatif-v017", group: "pros", fr: "la maintenance / un contrat de maintenance", pron: "lah man-tuh-NAHNSS / uhn kohn-trah duh man-tuh-NAHNSS", en: "maintenance / a maintenance contract" }
+exercises:
+  - id: "b2-faire-causatif-ex001"
+    type: "fill-in"
+    prompt: "Complétez avec faire au présent : Je ___ réparer ma voiture chez le garagiste."
+    answers: ["fais"]
+    explanation: "Faire + infinitive: the mechanic does the repair, not you."
+  - id: "b2-faire-causatif-ex002"
+    type: "fill-in"
+    prompt: "Complétez avec l'infinitif de « venir » : Nous faisons ___ le plombier demain."
+    answers: ["venir"]
+    explanation: "Faire venir: to send for someone."
+  - id: "b2-faire-causatif-ex003"
+    type: "fill-in"
+    prompt: "Mettez faire au passé composé : J'___ réparer le chauffage hier."
+    answers: ["ai fait"]
+    explanation: "Avoir + fait, then the infinitive."
+  - id: "b2-faire-causatif-ex004"
+    type: "fill-in"
+    prompt: "Complétez avec l'infinitif de « couper » : Elle s'est fait ___ les cheveux."
+    answers: ["couper"]
+    explanation: "Se faire couper les cheveux: someone else cuts them."
+  - id: "b2-faire-causatif-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez qui répare la voiture : Je fais réparer ma voiture."
+    options: ["someone else, a mechanic", "I do it myself", "nobody"]
+    answers: ["someone else, a mechanic"]
+    explanation: "With faire + infinitive, another person does the action."
+  - id: "b2-faire-causatif-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne forme : Ces chaussures, je les ai ___ réparer."
+    options: ["fait", "faites", "faits"]
+    answers: ["fait"]
+    explanation: "Before an infinitive, fait never agrees."
+  - id: "b2-faire-causatif-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe : Ne m'aide pas, je sais comment m'y prendre. ___-moi faire !"
+    options: ["Laisse", "Fais", "Fait"]
+    answers: ["Laisse"]
+    explanation: "Laisser + infinitive: let me do it."
+  - id: "b2-faire-causatif-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « faire » + infinitif : Le plombier répare le chauffage. C'est moi qui le lui demande."
+    answers: ["Je fais réparer le chauffage", "Je fais réparer le chauffage par le plombier", "Je fais réparer le chauffage au plombier", "Je le fais réparer par le plombier"]
+    explanation: "Faire + infinitive; the person who does it can follow par."
+  - id: "b2-faire-causatif-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec un pronom : Je fais réparer ma voiture."
+    answers: ["Je la fais réparer"]
+    explanation: "The pronoun goes before faire, not before the infinitive."
+  - id: "b2-faire-causatif-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Ma voiture, je l'ai faite réparer."
+    answers: ["Ma voiture, je l'ai fait réparer"]
+    explanation: "Fait doesn't agree before an infinitive, even with a preceding direct object."
+  - id: "b2-faire-causatif-ex011"
+    type: "register-shift"
+    prompt: "Transformez en registre courant, avec « arrêter » : J'ai laissé tomber ce projet."
+    answers: ["J'ai arrêté ce projet"]
+    explanation: "Laisser tomber is informal; arrêter is neutral."
+  - id: "b2-faire-causatif-ex012"
+    type: "translate"
+    prompt: "Traduisez : I had my car repaired."
+    answers: ["J'ai fait réparer ma voiture"]
+    explanation: "Faire réparer in the passé composé."
+  - id: "b2-faire-causatif-ex013"
+    type: "translate"
+    prompt: "Traduisez : She got her bag stolen."
+    answers: ["Elle s'est fait voler son sac", "On lui a volé son sac"]
+    explanation: "Se faire voler, or on + active verb. Fait doesn't agree."
+    strictAccents: true
+  - id: "b2-faire-causatif-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Pour le déménagement, je vais (have … cleaned: nettoyer) l'appartement. Je vais (send for: venir) un plombier. Et je vais (have … repaired: réparer) le chauffage."
+    answers: ["Pour le déménagement, je vais faire nettoyer l'appartement. Je vais faire venir un plombier. Et je vais faire réparer le chauffage."]
+    explanation: "Aller + faire + infinitive, three times."
+  - id: "b2-faire-causatif-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : I'll have it sent to you tomorrow."
+    words: ["Je", "vous", "le", "fais", "envoyer", "demain"]
+    answers: ["Je vous le fais envoyer demain"]
+    explanation: "Both pronouns go before faire, in the usual order."
+---
+
+By the end of this lesson you'll be able to say that you have something done by someone else, that something was done to you, and that you let someone do something.
+
+## What you already know
+
+You've used *faire cuire*, *faire bouillir* and *faire fondre* as fixed phrases since <LessonLink id="b1-food-and-cooking" text="the lesson on food and cooking" />. You know the order of two pronouns from <LessonLink id="b1-double-object-pronouns" text="the lesson on double object pronouns" />, and *se voir* + infinitive from <LessonLink id="b2-alternatives-to-passive" text="the lesson on alternatives to the passive" />. This lesson explains the pattern behind *faire cuire* and extends it.
+
+## Faire + infinitive
+
+<VocabTable group="faire" />
+
+**Faire** + infinitive means that you cause something to be done: someone else does the action. *Je répare ma voiture* means I repair it myself; *je fais réparer ma voiture* means a mechanic repairs it for me. The infinitive comes straight after *faire*, and the object comes after the infinitive.
+
+<Example fr="Je fais réparer ma voiture chez le garagiste." en="I'm having my car repaired at the garage." />
+<Example fr="Nous avons fait venir un plombier." en="We sent for a plumber." />
+<Example fr="La propriétaire nous a fait visiter l'appartement." en="The landlady showed us round the flat." />
+
+*Faire cuire* works in the same way: you don't cook, the heat does. *Faire faire* (to have something done) is common in speech: *je vais faire faire un devis*.
+
+To say who does the action, use *par* or *à*: *je fais réparer la voiture par le garagiste*. When there's no other object, the person who acts comes straight after the infinitive: *je fais venir le plombier*.
+
+## Pronouns go before faire
+
+Object pronouns go before *faire*, not before the infinitive, because *faire* and the infinitive work as a single verb.
+
+<Example fr="Ma voiture ? Je la fais réparer demain." en="My car? I'm having it repaired tomorrow." />
+<Example fr="Le plombier ? Je le fais venir lundi." en="The plumber? I'm sending for him on Monday." />
+<Example fr="Le contrat, je vous le fais envoyer." en="The contract, I'll have it sent to you." />
+
+In the passé composé, **fait never agrees** before an infinitive, even after a direct object pronoun: *je l'ai fait réparer*, *ces chaussures, je les ai fait réparer*. This is an exception to the agreement rule you know from <LessonLink id="a2-pronouns-in-passe-compose" text="the lesson on pronouns in the passé composé" />.
+
+In the affirmative imperative, the pronoun follows *faire*: *fais-le venir*, *faites-les entrer*.
+
+## Se faire + infinitive
+
+<VocabTable group="se" />
+
+**Se faire** + infinitive says that something is done to you or for you. *Je me fais couper les cheveux* means someone cuts my hair. It's also one more alternative to the passive, especially for something unpleasant: *elle s'est fait voler son sac* (she had her bag stolen).
+
+<Example fr="Il s'est fait couper les cheveux hier." en="He had his hair cut yesterday." />
+<Example fr="Elle s'est fait voler son sac dans le métro." en="She had her bag stolen on the metro." />
+
+*Fait* doesn't agree here either: *elle s'est fait voler*, not *faite*. *Se faire avoir* (to be conned) is informal: *à ce prix-là, tu t'es fait avoir*.
+
+## Laisser + infinitive
+
+<VocabTable group="laisser" />
+
+**Laisser** + infinitive means to let someone do something, or let something happen. The word order and the pronouns work as with *faire*: *laisse-moi faire* (let me do it), *je les laisse partir* (I let them go).
+
+<Example fr="Ne m'aide pas : laisse-moi faire." en="Don't help me: let me do it." />
+
+In the passé composé, *laissé* may agree or not before an infinitive: *je les ai laissé partir* and *je les ai laissés partir* are both accepted. *Laisser tomber* (to drop, to give up) is informal: *j'ai laissé tomber ce projet*. You'll practise *laisser* again in <LessonLink id="b2-review-work" text="the review of this unit" />.
+
+## In recipes
+
+Recipes use *faire* + infinitive all the time, because the cook makes the heat or the oven do the work: *faites cuire les pâtes dix minutes*, *faites fondre le beurre*. That's why you learned *faire cuire* and *faire fondre* as fixed phrases at B1. Now you can see that they follow the same rule as *faire réparer*.
+
+## Calling in a professional
+
+<VocabTable group="pros" />
+
+The causative is the natural way to talk about work done for you or your company. You *faire venir un plombier* or *un garagiste*, ask for *un devis* (a quote), and *un prestataire* (a contractor) comes for *une intervention* (a call-out). *Un contrat de maintenance* covers regular checks.
+
+<Example fr="Nous avons fait venir un prestataire pour réparer les ordinateurs." en="We had a contractor come in to repair the computers." />
+<Example fr="Le plombier a fait une intervention dans la cuisine ce matin." en="The plumber did a repair job in the kitchen this morning." />
+
+## The whole list
+
+- *Faire* + infinitive: someone else does the action (*je fais réparer ma voiture*).
+- The person who acts: *par* or *à*, or straight after the infinitive.
+- Pronouns go before *faire*: *je la fais réparer*.
+- *Fait* never agrees before an infinitive.
+- *Se faire* + infinitive: done to you or for you (*se faire couper les cheveux*, *se faire voler*).
+- *Laisser* + infinitive: let (*laisse-moi faire*); *laissé* may agree or not.
+
+## En français
+
+Madame Dubois, an office manager, meets Monsieur Martin, a contractor, about repairs.
+
+- *Bonjour, monsieur. Merci de venir aujourd'hui.* (Hello. Thank you for coming today.)
+- *Je vous en prie. Qu'est-ce qui ne va pas ?* (You're welcome. What's the problem?)
+- *Il y a une fuite dans la cuisine. J'ai déjà fait venir un plombier la semaine dernière, mais le problème est revenu.* (There's a leak in the kitchen. I already sent for a plumber last week, but the problem came back.)
+- *Je vais regarder. Vous voulez que je vous fasse un devis avant ?* (I'll take a look. Would you like me to give you a quote first?)
+- *Oui, s'il vous plaît. Je dois le montrer à mon patron.* (Yes, please. I have to show it to my boss.)
+- *Bien sûr. Et le chauffage ? Votre collègue m'a fait remarquer qu'il ne marche pas bien.* (Of course. And the heating? Your colleague pointed out that it isn't working well.)
+- *C'est vrai. Nous le faisons réparer chaque hiver, mais il est trop vieux.* (True. We have it repaired every winter, but it's too old.)
+- *Alors je vous conseille de le faire changer. Ce sera plus rentable.* (Then I'd advise you to have it replaced. It'll be more cost-effective.)
+- *D'accord. Et pour la maintenance, vous pouvez venir tous les mois ?* (OK. And for maintenance, can you come every month?)
+- *Oui, nous avons un contrat de maintenance. Je vous le fais envoyer demain.* (Yes, we have a maintenance contract. I'll have it sent to you tomorrow.)
+- *Parfait. Je ne veux plus faire attendre mes collègues dans le froid !* (Perfect. I don't want to keep my colleagues waiting in the cold any more!)
+
+<Callout type="warning" title="Je l'ai fait réparer, not faite">
+  After a year of agreement rules, it's tempting to make *fait* agree with a preceding object. Before an infinitive, it never does: *ma voiture, je l'ai faite réparer* is wrong. Say **je l'ai fait réparer**, and **elle s'est fait voler son sac**.
+</Callout>
+
+<Callout type="tip" title="Ask who does the action">
+  When you describe a job, ask yourself one question: did I do it, or did someone do it for me? If someone else did it, reach for *faire* + infinitive: *j'ai fait nettoyer*, *j'ai fait installer*. Saying *j'ai réparé ma voiture* when a mechanic did it gives yourself credit you don't deserve.
+</Callout>
+
+## En résumé
+
+Avec faire et un infinitif, une autre personne fait l'action : je fais réparer ma voiture veut dire que le garagiste la répare pour moi. Pour dire qui fait l'action, on peut ajouter par : je fais réparer la voiture par le garagiste. Les pronoms se mettent devant faire : je la fais réparer, je vous le fais envoyer. Au passé composé, fait ne s'accorde jamais devant un infinitif : je l'ai fait réparer. Avec se faire, l'action est faite pour vous ou contre vous : je me fais couper les cheveux, elle s'est fait voler son sac. Avec laisser, on permet à quelqu'un de faire quelque chose : laisse-moi faire. Laisser tomber est familier.
+
+## What's next
+
+Next, <LessonLink id="b2-participles-and-gerund" text="the lesson on the present participle and the gerund" /> looks at the three French forms in *-ant*.
+
+=== b2-participles-and-gerund ===
+
+---
+id: "b2-participles-and-gerund"
+title: "Present participle, gerund, verbal adjective"
+description: "Tell apart the gérondif (en travaillant), the written participe présent (ne pouvant pas venir, ayant fini) and the verbal adjective that agrees (des arguments convaincants), and spell the pairs right."
+level: "B2"
+unit: "Work and the economy"
+order: 34
+type: "grammar"
+tags: ["participles", "gerund", "grammar", "writing"]
+prerequisites: ["b1-gerondif"]
+related: ["b1-review-opinions", "b2-reporting-verbs", "b2-formal-report"]
+vocab:
+  - { id: "b2-participles-and-gerund-v001", group: "terms", fr: "le gérondif", pron: "luh zhay-rohn-DEEF", en: "the gerund (en + -ant)" }
+  - { id: "b2-participles-and-gerund-v002", group: "terms", fr: "le participe présent", pron: "luh par-tee-seep pray-ZAHN", en: "the present participle" }
+  - { id: "b2-participles-and-gerund-v003", group: "terms", fr: "un adjectif verbal", pron: "uh-nad-zhek-teef vehr-BAHL", en: "a verbal adjective (an adjective in -ant or -ent made from a verb)" }
+  - { id: "b2-participles-and-gerund-v004", group: "forms", fr: "ayant + participe passé", pron: "eh-YAHN", en: "having (done)", note: "Ayant fini: having finished." }
+  - { id: "b2-participles-and-gerund-v005", group: "forms", fr: "étant donné", pron: "ay-tahn doh-NAY", en: "given (+ a noun)", note: "Étant donné la situation…" }
+  - { id: "b2-participles-and-gerund-v006", group: "forms", fr: "le cas échéant", pron: "luh kah ay-shay-AHN", en: "where applicable, if need be" }
+  - { id: "b2-participles-and-gerund-v007", group: "pairs", fr: "fatigant / fatigante", pron: "fah-tee-GAHN / fah-tee-GAHNT", en: "tiring" }
+  - { id: "b2-participles-and-gerund-v008", group: "pairs", fr: "négligent / négligente", pron: "nay-glee-ZHAHN / nay-glee-ZHAHNT", en: "careless, negligent" }
+  - { id: "b2-participles-and-gerund-v009", group: "pairs", fr: "différent / différente", pron: "dee-fay-RAHN / dee-fay-RAHNT", en: "different" }
+  - { id: "b2-participles-and-gerund-v010", group: "office", fr: "une note de service", pron: "ewn not duh sehr-VEESS", en: "a memo (inside a company)" }
+  - { id: "b2-participles-and-gerund-v011", group: "office", fr: "un document de travail", pron: "uhn doh-kew-mahn duh trah-VAH-y", en: "a working paper, a draft document" }
+  - { id: "b2-participles-and-gerund-v012", group: "office", fr: "le personnel", pron: "luh pehr-soh-NEL", en: "the staff" }
+  - { id: "b2-participles-and-gerund-v013", group: "office", fr: "ci-dessous / ci-dessus", pron: "see-duh-SOO / see-duh-SEW", en: "below / above (in a text)" }
+  - { id: "b2-participles-and-gerund-v014", group: "office", fr: "concernant", pron: "kohn-sehr-NAHN", en: "concerning, about" }
+  - { id: "b2-participles-and-gerund-v015", group: "office", fr: "en cours", pron: "ahn KOOR", en: "in progress, current" }
+  - { id: "b2-participles-and-gerund-v016", group: "office", fr: "une procédure", pron: "ewn proh-say-DEWR", en: "a procedure" }
+exercises:
+  - id: "b2-participles-and-gerund-ex001"
+    type: "fill-in"
+    prompt: "Mettez au participe présent (pouvoir) : Ne ___ pas venir, il a téléphoné."
+    answers: ["pouvant"]
+    explanation: "The participe présent gives a cause, like comme il ne pouvait pas."
+  - id: "b2-participles-and-gerund-ex002"
+    type: "fill-in"
+    prompt: "Mettez au participe présent (travailler) : Les salariés ___ ici doivent lire la note."
+    answers: ["travaillant"]
+    explanation: "Travaillant replaces qui travaillent. It doesn't agree."
+  - id: "b2-participles-and-gerund-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec le participe présent d'avoir : ___ fini son travail, elle est partie."
+    answers: ["Ayant"]
+    explanation: "Ayant + participe passé: having done, for an earlier action."
+  - id: "b2-participles-and-gerund-ex004"
+    type: "fill-in"
+    prompt: "Accordez l'adjectif verbal (convaincant) : Ce sont des arguments ___."
+    answers: ["convaincants"]
+    explanation: "The verbal adjective agrees like any adjective: convaincants."
+  - id: "b2-participles-and-gerund-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne forme : C'est une journée ___."
+    options: ["fatigante", "fatiguante", "fatiguant"]
+    answers: ["fatigante"]
+    explanation: "The adjective is spelled fatigant, without u, and agrees: fatigante."
+  - id: "b2-participles-and-gerund-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne forme : ___ ses collègues, il a obtenu le projet."
+    options: ["Convainquant", "Convaincant", "Convaincants"]
+    answers: ["Convainquant"]
+    explanation: "Here it's an action with an object (ses collègues): the participe présent, spelled with qu."
+  - id: "b2-participles-and-gerund-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne réponse : Il prend des notes ___ écoutant le directeur."
+    options: ["en", "pour", "par"]
+    answers: ["en"]
+    explanation: "The gérondif needs en: two actions at the same time, same subject."
+  - id: "b2-participles-and-gerund-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec un participe présent : Comme il ne pouvait pas venir, il a envoyé un mail."
+    answers: ["Ne pouvant pas venir, il a envoyé un mail", "Ne pouvant venir, il a envoyé un mail"]
+    explanation: "The participe présent replaces comme + verb in written French."
+    strictAccents: true
+  - id: "b2-participles-and-gerund-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec un participe présent : Les salariés qui travaillent ici ont une prime."
+    answers: ["Les salariés travaillant ici ont une prime"]
+    explanation: "The participe présent replaces qui + verb."
+  - id: "b2-participles-and-gerund-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : C'était une journée fatiguante."
+    answers: ["C'était une journée fatigante"]
+    explanation: "The adjective is fatigant, without u. Fatiguant is the participe présent."
+  - id: "b2-participles-and-gerund-ex011"
+    type: "register-shift"
+    prompt: "Transformez en registre courant, avec « comme » : N'ayant pas le temps, elle n'est pas venue."
+    answers: ["Comme elle n'avait pas le temps, elle n'est pas venue", "Comme elle n'a pas eu le temps, elle n'est pas venue"]
+    explanation: "In speech, comme + imparfait replaces the participe présent."
+    strictAccents: true
+  - id: "b2-participles-and-gerund-ex012"
+    type: "translate"
+    prompt: "Traduisez : Having finished, she left."
+    answers: ["Ayant fini, elle est partie", "Après avoir fini, elle est partie"]
+    explanation: "Ayant fini (written) or après avoir fini."
+  - id: "b2-participles-and-gerund-ex013"
+    type: "translate"
+    prompt: "Traduisez : These arguments are convincing."
+    answers: ["Ces arguments sont convaincants"]
+    explanation: "The verbal adjective convaincant agrees with arguments."
+  - id: "b2-participles-and-gerund-ex014"
+    type: "translate"
+    prompt: "Rédigez cette note de service en complétant comme indiqué : (Concerning) la réunion de lundi, (the staff) doit lire le document (below). Les salariés (having: avoir) des questions peuvent m'écrire."
+    answers: ["Concernant la réunion de lundi, le personnel doit lire le document ci-dessous. Les salariés ayant des questions peuvent m'écrire."]
+    explanation: "Concernant, le personnel (singular), ci-dessous and the participe présent ayant."
+  - id: "b2-participles-and-gerund-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Not knowing the answer, he said nothing."
+    words: ["Ne", "sachant", "pas", "la", "réponse", "il", "n'a", "rien", "dit"]
+    answers: ["Ne sachant pas la réponse, il n'a rien dit"]
+    explanation: "Ne… pas around the participe présent, then the main clause."
+---
+
+By the end of this lesson you'll be able to tell apart the three French forms ending in *-ant*, use the written participle in memos and reports, and spell the pairs that trick even French speakers.
+
+## What you already know
+
+In <LessonLink id="b1-gerondif" text="the lesson on the gérondif" />, you learned *en* + *-ant* (*en marchant*), the irregular forms *étant*, *ayant* and *sachant*, and *tout en*. You know *convaincant* from <LessonLink id="b1-review-opinions" text="the review of opinions" />. This lesson adds the two other *-ant* forms.
+
+## Three forms in -ant
+
+<VocabTable group="terms" />
+
+The same ending can belong to three different forms.
+
+| Form | How it looks | What it does |
+|---|---|---|
+| *le gérondif* | *en travaillant* | an action at the same time, same subject |
+| *le participe présent* | *travaillant* | replaces *qui* + verb or *comme* + verb; doesn't change |
+| *l'adjectif verbal* | *intéressant(e)(s)* | an adjective; agrees with the noun |
+
+<Example fr="Elle écoute de la musique en travaillant." en="She listens to music while she works." />
+<Example fr="Les salariés travaillant le samedi ont une prime." en="Employees who work on Saturdays get a bonus." />
+<Example fr="Ce sont des films très intéressants." en="These are very interesting films." />
+
+## The participe présent
+
+<VocabTable group="forms" />
+
+The participe présent is the *-ant* form without *en*. It never changes. It's mainly used in writing: memos, reports, news, letters. It replaces two things.
+
+- **A relative clause with qui:** *les salariés qui travaillent ici* → *les salariés travaillant ici*.
+- **A cause with comme or parce que:** *comme il ne pouvait pas venir* → *ne pouvant pas venir*.
+
+<Example fr="Ne pouvant pas venir, il a envoyé un mail." en="As he couldn't come, he sent an email." />
+
+For an action that happened before, use **ayant** or **étant** + the past participle. With *étant*, the participle agrees with the subject: *étant partie tôt, elle n'a pas vu la fin*.
+
+<Example fr="Ayant fini son rapport, elle est rentrée chez elle." en="Having finished her report, she went home." />
+
+*Étant donné* + noun (given) and *le cas échéant* (where applicable) are frozen participles common in official texts: *étant donné la situation, la réunion est reportée*. You know *étant donné que* + clause from <LessonLink id="b2-logical-connectors" text="the lesson on logical connectors" />.
+
+<Example fr="Le cas échéant, contactez le service client." en="Where applicable, contact customer service." />
+
+In speech, people prefer *comme*, *parce que* or *qui*: *comme elle n'avait pas le temps* sounds more natural than *n'ayant pas le temps* in conversation.
+
+## The verbal adjective
+
+The verbal adjective describes a noun, like any adjective, so it agrees: *une réunion intéressante*, *des arguments convaincants*. To tell it from the participle, try two tests. If you can add *très* and make it feminine or plural, it's an adjective. If it has an object or an adverb after it, it's a participle.
+
+<Example fr="Ses arguments sont très convaincants." en="His arguments are very convincing." />
+<Example fr="Convainquant tous ses collègues, il a obtenu le projet." en="Convincing all his colleagues, he won the project." />
+
+## Whose action is it?
+
+The gérondif and the participe présent at the start of a sentence refer to the subject of the main verb. *En arrivant, j'ai vu Paul* means that I arrived. *En arrivant, le train était en retard* is clumsy, because it suggests the train arrived and then was late. If the subjects are different, use a full clause: *quand je suis arrivé, le train était en retard*.
+
+## Spelling pairs
+
+<VocabTable group="pairs" />
+
+For a few verbs, the adjective is spelled differently from the participle. These five are the most useful.
+
+| Participle (doesn't change) | Adjective (agrees) |
+|---|---|
+| *fatiguant* | *fatigant(e)* |
+| *convainquant* | *convaincant(e)* |
+| *négligeant* | *négligent(e)* |
+| *précédant* | *précédent(e)* |
+| *différant* | *différent(e)* |
+
+<Example fr="C'est un travail fatigant." en="It's tiring work." />
+<Example fr="Fatiguant ses collègues avec ses questions, il n'a pas obtenu de réponse." en="Tiring his colleagues with his questions, he didn't get an answer." />
+
+You know *précédent* from <LessonLink id="b2-reporting-verbs" text="the lesson on reporting verbs" />. Spell checkers can miss these pairs, so check them yourself.
+
+## Office French
+
+<VocabTable group="office" />
+
+The participe présent is typical of written workplace French. *Une note de service* is an internal memo, often sent to *le personnel* (the staff, a singular noun). *Ci-dessous* and *ci-dessus* (below and above) point to other parts of the text, and *concernant* (concerning) introduces the subject. *Un document de travail* is a draft that isn't final: *ce n'est qu'un document de travail* (it's only a working paper).
+
+<Example fr="Concernant la procédure en cours, voir le document ci-dessous." en="Concerning the current procedure, see the document below." />
+
+## The whole list
+
+- Gérondif: *en* + *-ant*, same subject, at the same time.
+- Participe présent: *-ant* alone, never changes, mainly written; replaces *qui* + verb or a cause.
+- *Ayant* / *étant* + past participle for an earlier action.
+- Verbal adjective: agrees; sometimes spelled differently (*fatigant*, *convaincant*, *négligent*, *précédent*, *différent*).
+
+## En français
+
+Two colleagues, Madame Dubois and Monsieur Martin, proof-read a memo before sending it.
+
+- *Vous pouvez lire ma note de service avant que je l'envoie ?* (Could you read my memo before I send it?)
+- *Bien sûr. « Les salariés travaillant le samedi auront une prime. » C'est clair.* (Of course. "Employees working on Saturdays will get a bonus." That's clear.)
+- *Et la suite ? « N'ayant pas reçu de réponse, nous avons changé la procédure. »* (And the next part? "Having had no reply, we've changed the procedure.")
+- *Parfait pour une note. Quand on parle, on dirait plutôt « comme nous n'avions pas reçu de réponse ».* (Perfect for a memo. Out loud, you'd rather say "as we hadn't received a reply".)
+- *D'accord. Et ici : « une semaine très fatiguante » ?* (OK. And here: "a very tiring week"?)
+- *Attention, c'est l'adjectif : « fatigante », sans u.* (Careful, it's the adjective: "fatigante", without u.)
+- *Merci. Et « des arguments convaincants », ça s'écrit avec qu ?* (Thanks. And "convincing arguments": is it spelled with qu?)
+- *Non, l'adjectif s'écrit avec un c. Le participe, lui, s'écrit avec qu.* (No, the adjective is spelled with a c. The participle is spelled with qu.)
+- *Je ne le savais pas. L'ordinateur n'a rien vu !* (I didn't know. The computer didn't notice!)
+- *C'est normal, il ne voit pas la différence. Je lirai la version suivante.* (That's normal, it can't tell the difference. I'll read the next version.)
+
+<Callout type="warning" title="Fatigant, not fatiguant">
+  The adjective and the participle sound the same, so learners copy the verb's spelling. *Une journée fatiguante* is wrong: the adjective is **fatigante**. In the same way, write **des arguments convaincants**, **la semaine précédente** and **un salarié négligent**.
+</Callout>
+
+<Callout type="tip" title="Try très">
+  When you meet an *-ant* word, put *très* before it in your head. *Très fatigant* makes sense, so it's an adjective: it agrees and takes the adjective spelling. *Très travaillant* doesn't, so it's a participle: it never changes. The test takes a second and solves most doubts.
+</Callout>
+
+## En résumé
+
+Il y a trois sortes de mots en -ant. Le gérondif a toujours en : il écoute de la musique en travaillant. Le participe présent n'a pas en et ne change jamais. On le trouve surtout à l'écrit, dans les notes et les rapports. Il remplace qui et un verbe, comme dans les salariés travaillant ici, ou une cause, comme dans ne pouvant pas venir, il a téléphoné. Pour une action passée, on dit ayant fini ou étant parti. L'adjectif verbal décrit un nom et s'accorde : des arguments convaincants, une journée fatigante. Quelques adjectifs s'écrivent autrement que le participe : fatigant, convaincant, négligent, précédent et différent.
+
+## What's next
+
+Next, <LessonLink id="b2-infinitif-passe" text="the lesson on the past infinitive" /> shows how to talk about an action that came before another one.
+
+=== b2-infinitif-passe ===
+
+---
+id: "b2-infinitif-passe"
+title: "The past infinitive"
+description: "Use avoir or être + participle after prepositions and verbs, for an earlier action: après être parti, sans avoir dit au revoir, merci de m'avoir aidé, je regrette d'avoir dit ça."
+level: "B2"
+unit: "Work and the economy"
+order: 35
+type: "grammar"
+tags: ["infinitive", "past", "grammar", "work"]
+prerequisites: ["b1-time-connectors", "a2-passe-compose-etre"]
+related: ["b2-regret-and-reproach", "b2-reporting-verbs", "b2-participles-and-gerund"]
+vocab:
+  - { id: "b2-infinitif-passe-v001", group: "form", fr: "l'infinitif passé", pron: "lan-fee-nee-teef pah-SAY", en: "the past infinitive" }
+  - { id: "b2-infinitif-passe-v002", group: "form", fr: "après être + participe passé", pron: "ah-preh-zeh-truh", en: "after (having) …", note: "Après être parti(e)." }
+  - { id: "b2-infinitif-passe-v003", group: "form", fr: "sans avoir + participe passé", pron: "sahn-zah-VWAHR", en: "without having …" }
+  - { id: "b2-infinitif-passe-v004", group: "form", fr: "pour avoir + participe passé", pron: "poo-rah-VWAHR", en: "for having … (a cause)" }
+  - { id: "b2-infinitif-passe-v005", group: "verbs", fr: "remercier de / pour", pron: "ruh-mehr-SYAY duh / poor", en: "to thank for", note: "Merci de m'avoir aidé." }
+  - { id: "b2-infinitif-passe-v006", group: "verbs", fr: "se féliciter de", pron: "suh fay-lee-see-TAY duh", en: "to be pleased with (yourself) for" }
+  - { id: "b2-infinitif-passe-v007", group: "verbs", fr: "avoir l'impression de", pron: "ah-vwahr lan-preh-SYOHN duh", en: "to have the feeling of, to feel that you …" }
+  - { id: "b2-infinitif-passe-v008", group: "review", fr: "un entretien annuel", pron: "uh-nahn-truh-tyan ah-NWEL", en: "an annual review (with your manager)" }
+  - { id: "b2-infinitif-passe-v009", group: "review", fr: "atteindre un objectif", pron: "ah-tan-druh uh-nob-zhek-TEEF", en: "to reach a target", note: "J'ai atteint mes objectifs." }
+  - { id: "b2-infinitif-passe-v010", group: "review", fr: "dépasser", pron: "day-pah-SAY", en: "to exceed, to go beyond" }
+  - { id: "b2-infinitif-passe-v011", group: "review", fr: "un retour", pron: "uhn ruh-TOOR", en: "feedback", note: "Also a return." }
+  - { id: "b2-infinitif-passe-v012", group: "review", fr: "une erreur de parcours", pron: "ew-nay-ruhr duh par-KOOR", en: "a slip, a setback" }
+  - { id: "b2-infinitif-passe-v013", group: "review", fr: "tirer des leçons de", pron: "tee-ray day luh-SOHN duh", en: "to learn lessons from" }
+  - { id: "b2-infinitif-passe-v014", group: "review", fr: "une promotion", pron: "ewn proh-moh-SYOHN", en: "a promotion; also a special offer" }
+  - { id: "b2-infinitif-passe-v015", group: "review", fr: "une augmentation (de salaire)", pron: "ew-nog-mahn-tah-SYOHN (duh sah-LEHR)", en: "a pay rise" }
+exercises:
+  - id: "b2-infinitif-passe-ex001"
+    type: "fill-in"
+    prompt: "Mettez à l'infinitif passé (finir) : Après ___ le rapport, il est parti."
+    answers: ["avoir fini"]
+    explanation: "Après + avoir + participle: après avoir fini."
+  - id: "b2-infinitif-passe-ex002"
+    type: "fill-in"
+    prompt: "Mettez à l'infinitif passé (partir) : Après ___, elle a appelé sa mère."
+    answers: ["être partie"]
+    explanation: "Partir takes être, and partie agrees with elle."
+  - id: "b2-infinitif-passe-ex003"
+    type: "fill-in"
+    prompt: "Mettez à l'infinitif passé (dire) : Je regrette d'___ ça."
+    answers: ["avoir dit"]
+    explanation: "Regretter de + past infinitive: the action came first."
+  - id: "b2-infinitif-passe-ex004"
+    type: "fill-in"
+    prompt: "Mettez à l'infinitif passé (aider) : Merci de m'___."
+    answers: ["avoir aidé", "avoir aidée"]
+    explanation: "Merci de + past infinitive. Aidé agrees with me if a woman is speaking."
+  - id: "b2-infinitif-passe-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne forme : Après être ___, Marie a téléphoné."
+    options: ["partie", "parti", "partis"]
+    answers: ["partie"]
+    explanation: "With être, the participle agrees with the subject: Marie, so partie."
+  - id: "b2-infinitif-passe-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de : Il a été félicité pour avoir dépassé ses objectifs."
+    options: ["He was congratulated because he had exceeded his targets.", "He was congratulated so that he would exceed his targets.", "He was congratulated before exceeding his targets."]
+    answers: ["He was congratulated because he had exceeded his targets."]
+    explanation: "Pour + past infinitive gives a cause."
+  - id: "b2-infinitif-passe-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne réponse : ___ fini, elle est rentrée chez elle."
+    options: ["Après avoir", "Après que", "Avant de"]
+    answers: ["Après avoir"]
+    explanation: "One subject: après + past infinitive. Après que needs a subject and a verb."
+  - id: "b2-infinitif-passe-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « après avoir » : Il a vu l'erreur, puis il s'est excusé."
+    answers: ["Après avoir vu l'erreur, il s'est excusé"]
+    explanation: "The first action becomes après avoir + participle."
+  - id: "b2-infinitif-passe-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « regretter de » : Je regrette que j'aie dit ça."
+    answers: ["Je regrette d'avoir dit ça"]
+    explanation: "With one subject, use the infinitive, not que + subjunctive."
+  - id: "b2-infinitif-passe-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Après avoir parti, il a téléphoné."
+    answers: ["Après être parti, il a téléphoné"]
+    explanation: "Partir takes être, in the past infinitive too."
+    strictAccents: true
+  - id: "b2-infinitif-passe-ex011"
+    type: "fill-in"
+    prompt: "Complétez avec « ne pas » à la bonne place : Je regrette de ___ avoir fini avant lundi."
+    answers: ["ne pas"]
+    explanation: "Ne pas goes before avoir: de ne pas avoir fini. (De n'avoir pas fini is also correct.)"
+  - id: "b2-infinitif-passe-ex012"
+    type: "translate"
+    prompt: "Traduisez avec « merci de » : Thank you for having helped me."
+    answers: ["Merci de m'avoir aidé", "Merci de m'avoir aidée"]
+    explanation: "Merci de + past infinitive; aidée if a woman is speaking."
+  - id: "b2-infinitif-passe-ex013"
+    type: "translate"
+    prompt: "Traduisez : She left without having said goodbye."
+    answers: ["Elle est partie sans avoir dit au revoir", "Elle est partie sans dire au revoir"]
+    explanation: "Sans avoir + participle; sans dire is also common."
+  - id: "b2-infinitif-passe-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué (un homme parle) : Cette année, je suis content (to have exceeded) mes objectifs. (After having changed: changer) d'équipe, j'ai mieux travaillé. Je regrette (not to have asked: demander) de l'aide plus tôt."
+    answers: ["Cette année, je suis content d'avoir dépassé mes objectifs. Après avoir changé d'équipe, j'ai mieux travaillé. Je regrette de ne pas avoir demandé de l'aide plus tôt.", "Cette année, je suis content d'avoir dépassé mes objectifs. Après avoir changé d'équipe, j'ai mieux travaillé. Je regrette de n'avoir pas demandé de l'aide plus tôt."]
+    explanation: "Three past infinitives, including the negative, in either order."
+  - id: "b2-infinitif-passe-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : I'm sorry I said that."
+    words: ["Je", "regrette", "d'avoir", "dit", "ça"]
+    answers: ["Je regrette d'avoir dit ça"]
+    explanation: "Regretter de + past infinitive."
+---
+
+By the end of this lesson you'll be able to talk about an action that came before another one, with *avoir* or *être* + participle after a preposition or a verb.
+
+## What you already know
+
+You've used *après avoir* + participle as a fixed phrase since <LessonLink id="b1-time-connectors" text="the lesson on time connectors" />: *après avoir mangé, nous sommes sortis*. In <LessonLink id="b2-regret-and-reproach" text="the lesson on regret and reproach" />, *regretter d'avoir* was a labelled fixed phrase. This lesson explains the form behind both.
+
+## Forming the past infinitive
+
+<VocabTable group="form" />
+
+The past infinitive is *avoir* or *être* in the infinitive, followed by the past participle. It shows that the action happened **before** the action of the main verb. You choose the auxiliary as in the passé composé, from <LessonLink id="a2-passe-compose-etre" text="the lesson on the passé composé with être" />.
+
+| Present infinitive | Past infinitive |
+|---|---|
+| *finir* | *avoir fini* |
+| *partir* | *être parti(e)(s)* |
+| *se lever* | *s'être levé(e)(s)* |
+
+With *être*, the participle agrees with the subject of the sentence: *après être partie, Marie a téléphoné*. With *avoir*, the usual rule for a direct object before the verb applies: *merci de m'avoir aidée*, said by a woman.
+
+<Example fr="Après être arrivés, ils ont dîné." en="After arriving, they had dinner." />
+<Example fr="Après s'être levée, elle a pris un café." en="After getting up, she had a coffee." />
+
+The past infinitive works only when both actions have the same subject. With two subjects, use *après que* + indicative: *après qu'il est parti, j'ai fermé la porte*.
+
+## After prepositions
+
+**Après**, **sans** and **pour** are the most common prepositions with the past infinitive.
+
+- **After an earlier action:** *après avoir fini*, *après être rentré*.
+- **Without an action:** *sans avoir dit au revoir* (without saying goodbye).
+- **For a cause:** *pour avoir* + participle, with a reward or a punishment: *il a été félicité pour avoir dépassé ses objectifs*.
+
+<Example fr="Elle est partie sans avoir dit au revoir." en="She left without saying goodbye." />
+<Example fr="Il a été remercié pour avoir aidé ses collègues." en="He was thanked for helping his colleagues." />
+
+## After verbs
+
+<VocabTable group="verbs" />
+
+Many verbs that take *de* + infinitive use the past infinitive for something already done. You know *regretter de* and *s'excuser de* from <LessonLink id="b2-regret-and-reproach" text="the lesson on regret and reproach" />, and *nier* from <LessonLink id="b2-reporting-verbs" text="the lesson on reporting verbs" />; *nier* takes the infinitive without *de*.
+
+<Example fr="Je regrette d'avoir dit ça." en="I'm sorry I said that." />
+<Example fr="Merci de m'avoir aidé." en="Thank you for helping me." />
+<Example fr="Il nie avoir pris l'argent." en="He denies taking the money." />
+
+*Remercier de* and *remercier pour* are both used: *de* is more common before an infinitive, *pour* before a noun (*merci pour votre aide*). *Avoir l'impression d'avoir* + participle means "to feel that you have done": *j'ai l'impression d'avoir oublié quelque chose*.
+
+## Present or past infinitive?
+
+The present infinitive is for an action at the same time as the main verb, or later. The past infinitive is for an action that is already over. Compare *je suis content de partir* (I'm glad to be leaving) and *je suis content d'être parti* (I'm glad I left). With verbs of thinking and saying, the past infinitive replaces a *que* clause when the subject is the same: *il pense avoir réussi* (he thinks he has succeeded).
+
+## The negative
+
+In the negative, *ne pas* usually goes before the auxiliary: *je regrette de ne pas avoir fini*. In careful writing, you'll also see *pas* after the auxiliary: *de n'avoir pas fini*. Both are correct.
+
+## At an annual review
+
+<VocabTable group="review" />
+
+The annual review, *l'entretien annuel*, is full of past infinitives, because you look back on the year. You talk about *atteindre ses objectifs* (reaching your targets) or *les dépasser*, ask for *un retour* (feedback), and admit *une erreur de parcours* (a setback) from which you *tirez des leçons*. *Une promotion* is a promotion at work, but in a shop it's a special offer. *Une augmentation* here is a pay rise; you know the word from <LessonLink id="b2-nominalisation" text="the lesson on nominalisation" /> as an increase.
+
+## The whole list
+
+- *Avoir* or *être* + past participle, for an action that came before.
+- With *être*, the participle agrees with the subject.
+- After *après*, *sans*, *pour* (cause), and verbs with *de* (*regretter de*, *merci de*); after *nier* without *de*.
+- Same subject only; with two subjects, use *après que*.
+- Negative: *de ne pas avoir fini* or *de n'avoir pas fini*.
+
+## En français
+
+Madame Dubois, a manager, holds the annual review of Monsieur Martin, one of her team.
+
+- *Bonjour, monsieur Martin. Commençons votre entretien annuel.* (Hello, Mr Martin. Let's start your annual review.)
+- *Bonjour. Merci de m'avoir donné ce rendez-vous.* (Hello. Thank you for giving me this appointment.)
+- *Je vous félicite d'avoir dépassé vos objectifs cette année.* (I congratulate you on exceeding your targets this year.)
+- *Merci. Après avoir changé d'équipe en mars, j'ai eu l'impression de mieux travailler.* (Thank you. After changing teams in March, I felt I was working better.)
+- *C'est vrai. Plusieurs clients vous ont remercié pour avoir respecté les délais.* (True. Several clients thanked you for meeting the deadlines.)
+- *Il y a eu aussi une erreur de parcours : le projet de juin.* (There was also a setback: the June project.)
+- *Oui, mais vous avez su en tirer des leçons. C'est ce qui compte.* (Yes, but you managed to learn from it. That's what matters.)
+- *Je regrette de ne pas avoir demandé de l'aide plus tôt.* (I regret not asking for help sooner.)
+- *Je comprends. Avez-vous un retour sur le travail de l'équipe ?* (I understand. Do you have any feedback on the team's work?)
+- *L'équipe est très bien. Mais j'aimerais parler d'une augmentation, ou d'une promotion.* (The team is very good. But I'd like to talk about a pay rise, or a promotion.)
+- *Après avoir atteint ces objectifs, vous avez raison d'en parler. Nous en parlerons avec le directeur.* (Having reached these targets, you're right to bring it up. We'll talk about it with the director.)
+
+<Callout type="warning" title="Après être parti, not après avoir parti">
+  The past infinitive keeps the auxiliary of the passé composé. Learners who know *après avoir* as a fixed phrase use it with every verb. *Après avoir parti* is wrong: say **après être parti** (or **partie**), **après être arrivés**, **après s'être levée**.
+</Callout>
+
+<Callout type="tip" title="Prepare your review in past infinitives">
+  Before an annual review or an interview, write three sentences that start with *je suis content d'avoir*, *je regrette de ne pas avoir* and *après avoir*. Saying them aloud once or twice gives you ready phrases for the meeting, and shows a balanced view of your year.
+</Callout>
+
+## En résumé
+
+L'infinitif passé se forme avec avoir ou être à l'infinitif, puis le participe passé : avoir fini, être parti. Il montre qu'une action est arrivée avant l'autre. On choisit avoir ou être comme au passé composé, et avec être, le participe s'accorde comme au passé composé : après être partie, Marie a téléphoné. On le trouve après des prépositions comme après, sans et pour : elle est partie sans avoir dit au revoir. Il vient aussi après des verbes comme regretter de ou remercier de : je regrette d'avoir dit ça, merci de m'avoir aidé. Il faut que la même personne fasse les deux actions. Avec ne pas, on dit de ne pas avoir fini, ou de n'avoir pas fini.
+
+## What's next
+
+Next, <LessonLink id="b2-meetings-and-calls" text="the lesson on meetings and professional calls" /> puts these forms to work in a video call.
+
+=== b2-meetings-and-calls ===
+
+---
+id: "b2-meetings-and-calls"
+title: "Meetings and professional calls"
+description: "Run or take part in a meeting or a video call in French: the agenda, taking the floor, video-call phrases, making decisions and writing the minutes."
+level: "B2"
+unit: "Work and the economy"
+order: 36
+type: "communication"
+tags: ["work", "meetings", "speaking", "writing"]
+prerequisites: ["b2-economy-and-business", "a2-phone-calls-and-messages"]
+related: ["b1-formal-email", "b2-reported-speech-past", "b2-mise-en-relief", "b2-negotiating"]
+vocab:
+  - { id: "b2-meetings-and-calls-v001", group: "running", fr: "l'ordre du jour", pron: "lor-druh dew ZHOOR", en: "the agenda (of a meeting)" }
+  - { id: "b2-meetings-and-calls-v002", group: "running", fr: "le prochain point", pron: "luh proh-shan PWAN", en: "the next item (on the agenda)" }
+  - { id: "b2-meetings-and-calls-v003", group: "running", fr: "faire le point", pron: "fehr luh PWAN", en: "to take stock, to review where things stand" }
+  - { id: "b2-meetings-and-calls-v004", group: "running", fr: "un participant / une participante", pron: "uhn par-tee-see-PAHN / ewn par-tee-see-PAHNT", en: "a participant" }
+  - { id: "b2-meetings-and-calls-v005", group: "floor", fr: "prendre la parole", pron: "prahn-druh lah pah-ROL", en: "to speak, to take the floor" }
+  - { id: "b2-meetings-and-calls-v006", group: "floor", fr: "passer la parole à", pron: "pah-say lah pah-ROL ah", en: "to hand over to (someone)" }
+  - { id: "b2-meetings-and-calls-v007", group: "video", fr: "une visioconférence", pron: "ewn vee-zyoh-kohn-fay-RAHNSS", en: "a video call, a video conference" }
+  - { id: "b2-meetings-and-calls-v008", group: "video", fr: "vous m'entendez ?", pron: "voo mahn-tahn-DAY", en: "can you hear me?" }
+  - { id: "b2-meetings-and-calls-v009", group: "video", fr: "couper son micro", pron: "koo-pay sohn mee-KROH", en: "to mute (your microphone)" }
+  - { id: "b2-meetings-and-calls-v010", group: "video", fr: "partager son écran", pron: "par-tah-zhay soh-nay-KRAHN", en: "to share your screen" }
+  - { id: "b2-meetings-and-calls-v011", group: "video", fr: "la connexion", pron: "lah koh-nek-SYOHN", en: "the connection (internet)" }
+  - { id: "b2-meetings-and-calls-v012", group: "deciding", fr: "trancher", pron: "trahn-SHAY", en: "to decide, to settle (a question)" }
+  - { id: "b2-meetings-and-calls-v013", group: "deciding", fr: "une décision", pron: "ewn day-see-ZYOHN", en: "a decision", note: "Prendre une décision." }
+  - { id: "b2-meetings-and-calls-v014", group: "deciding", fr: "à l'unanimité", pron: "ah lew-nah-nee-mee-TAY", en: "unanimously" }
+  - { id: "b2-meetings-and-calls-v015", group: "deciding", fr: "je propose que nous", pron: "zhuh proh-pohz kuh NOO", en: "I suggest we", note: "+ subjunctive. In speech: je propose qu'on…" }
+  - { id: "b2-meetings-and-calls-v016", group: "deciding", fr: "un compte rendu", pron: "uhn kohnt rahn-DEW", en: "the minutes, a written report of a meeting" }
+  - { id: "b2-meetings-and-calls-v017", group: "glossary", fr: "une discussion", pron: "ewn dees-kew-SYOHN", en: "a discussion" }
+  - { id: "b2-meetings-and-calls-v018", group: "glossary", fr: "une proposition", pron: "ewn proh-poh-zee-SYOHN", en: "a proposal" }
+  - { id: "b2-meetings-and-calls-v019", group: "glossary", fr: "la participation", pron: "lah par-tee-see-pah-SYOHN", en: "taking part, contribution" }
+exercises:
+  - id: "b2-meetings-and-calls-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase qui ouvre une réunion."
+    options: ["Bonjour à tous, voici l'ordre du jour.", "Bon, je vous laisse, à demain !", "Merci, c'est tout pour aujourd'hui."]
+    answers: ["Bonjour à tous, voici l'ordre du jour."]
+    explanation: "A meeting usually starts with a greeting and the agenda."
+  - id: "b2-meetings-and-calls-ex002"
+    type: "fill-in"
+    prompt: "Complétez : Avant la réunion, j'envoie l'ordre du ___ à tous les participants."
+    answers: ["jour"]
+    explanation: "L'ordre du jour: the agenda."
+  - id: "b2-meetings-and-calls-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec un verbe à l'infinitif : Je voudrais ___ la parole, s'il vous plaît."
+    answers: ["prendre"]
+    explanation: "Prendre la parole: to take the floor."
+  - id: "b2-meetings-and-calls-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase pour vérifier que les participants vous entendent."
+    options: ["Vous m'entendez ?", "Je partage mon écran.", "Je vous passe la parole."]
+    answers: ["Vous m'entendez ?"]
+    explanation: "Vous m'entendez ? checks the sound at the start of a call."
+  - id: "b2-meetings-and-calls-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur pour la fin d'une réunion : ___, nous avons pris deux décisions."
+    options: ["En conclusion", "D'abord", "Pourtant"]
+    answers: ["En conclusion"]
+    explanation: "En conclusion sums up at the end. D'abord starts a list, and pourtant contrasts."
+  - id: "b2-meetings-and-calls-ex006"
+    type: "register-shift"
+    prompt: "Transformez en registre soutenu, avec « je voudrais prendre la parole » : Arrête de parler, c'est à moi !"
+    answers: ["Excusez-moi, je voudrais prendre la parole", "Pardon, je voudrais prendre la parole", "Je voudrais prendre la parole"]
+    explanation: "In a meeting, ask for the floor politely."
+  - id: "b2-meetings-and-calls-ex007"
+    type: "register-shift"
+    prompt: "Transformez en style de compte rendu, avec le passif : On a choisi le jour de la réunion."
+    answers: ["Le jour de la réunion a été choisi"]
+    explanation: "Minutes often use the passive: the decision matters, not who made it."
+    strictAccents: true
+  - id: "b2-meetings-and-calls-ex008"
+    type: "reformulation"
+    prompt: "Reformulez au discours indirect, avec « Paul a expliqué que » : « Le rapport sera prêt vendredi. »"
+    answers: ["Paul a expliqué que le rapport serait prêt vendredi", "Paul a expliqué que le rapport sera prêt vendredi"]
+    explanation: "After a past verb, the futur becomes the conditionnel; sera is possible if Friday is still to come."
+    strictAccents: true
+  - id: "b2-meetings-and-calls-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « il a été décidé de » : On a décidé de repousser la réunion."
+    answers: ["Il a été décidé de repousser la réunion"]
+    explanation: "An impersonal passive, typical of minutes."
+    strictAccents: true
+  - id: "b2-meetings-and-calls-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Je propose que nous repoussons la réunion."
+    answers: ["Je propose que nous repoussions la réunion"]
+    explanation: "Proposer que takes the subjunctive: que nous repoussions."
+  - id: "b2-meetings-and-calls-ex011"
+    type: "fill-in"
+    prompt: "Conjuguez faire au subjonctif : Je propose que nous ___ une pause."
+    answers: ["fassions"]
+    explanation: "Je propose que nous + subjunctive: fassions."
+  - id: "b2-meetings-and-calls-ex012"
+    type: "translate"
+    prompt: "Traduisez (vous) : Can you hear me? I'll share my screen."
+    answers: ["Vous m'entendez ? Je vais partager mon écran.", "Vous m'entendez ? Je partage mon écran."]
+    explanation: "Vous m'entendez ?, then aller + infinitive or the present."
+  - id: "b2-meetings-and-calls-ex013"
+    type: "translate"
+    prompt: "Rédigez cet ordre du jour au futur, en complétant comme indiqué : D'abord, nous (will take stock: faire le point) sur le projet. Ensuite, Claire (will speak: prendre la parole) sur le budget. Enfin, nous (will decide: trancher) la question du calendrier."
+    answers: ["D'abord, nous ferons le point sur le projet. Ensuite, Claire prendra la parole sur le budget. Enfin, nous trancherons la question du calendrier."]
+    explanation: "Three items in the futur simple, with d'abord, ensuite and enfin."
+  - id: "b2-meetings-and-calls-ex014"
+    type: "translate"
+    prompt: "Rédigez ce compte rendu en complétant comme indiqué : (It was decided) de repousser la fin du projet. La proposition (was adopted: passé composé) (unanimously)."
+    answers: ["Il a été décidé de repousser la fin du projet. La proposition a été adoptée à l'unanimité."]
+    explanation: "An impersonal passive, then a passive with agreement: adoptée."
+    strictAccents: true
+  - id: "b2-meetings-and-calls-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : I'll hand over to Claire."
+    words: ["Je", "passe", "la", "parole", "à", "Claire"]
+    answers: ["Je passe la parole à Claire"]
+    explanation: "Passer la parole à + the person."
+---
+
+By the end of this lesson you'll be able to run or take part in a meeting or a video call in French, and write a short set of minutes afterwards.
+
+## What you already know
+
+You know *en réunion* and phone phrases such as *je vous passe…* from <LessonLink id="a2-phone-calls-and-messages" text="the lesson on phone calls and messages" />, and the formal email from <LessonLink id="b1-formal-email" text="the lesson on the formal email" />. You also know *en conclusion* from <LessonLink id="b1-review-opinions" text="the review of opinions" />. This lesson puts the unit's grammar to work in a very common professional situation: the meeting.
+
+## Running a meeting
+
+<VocabTable group="running" />
+
+A meeting starts with *l'ordre du jour* (the agenda), a short list of items, each called *un point*. The person who leads it opens with a greeting and the agenda, then moves through the items: *premier point*, *le prochain point*. *Faire le point* (to take stock) means reviewing where a project stands.
+
+<Example fr="Bonjour à tous. Voici l'ordre du jour : nous avons trois points." en="Hello everyone. Here's the agenda: we have three items." />
+<Example fr="Commençons par faire le point sur le projet." en="Let's start by taking stock of the project." />
+
+## Taking and giving the floor
+
+<VocabTable group="floor" />
+
+To speak, you *prendre la parole*; to let someone else speak, you *passer la parole à* them. These phrases keep a meeting polite, especially online, where people talk over each other easily.
+
+<Example fr="Je peux prendre la parole un instant ?" en="May I say something for a moment?" />
+<Example fr="Je passe la parole à Claire pour le budget." en="I'll hand over to Claire for the budget." />
+
+*C'est… qui* from <LessonLink id="b2-mise-en-relief" text="the lesson on emphasis" /> is useful to clarify who does what: *c'est Paul qui enverra le rapport*.
+
+## Video calls
+
+<VocabTable group="video" />
+
+Video calls have their own small phrases. *Vous m'entendez ?* checks the sound. You *couper votre micro* (mute) when you're not speaking, and *partager votre écran* (share your screen) to show a document. When *la connexion* is bad, people say *je vous entends mal* (I can't hear you well).
+
+<Example fr="Excusez-moi, je vous entends mal. C'est peut-être ma connexion." en="Sorry, I can't hear you well. It may be my connection." />
+
+Teams that use *vous* in emails often switch to *tu* in internal calls, and many speakers use *on* for *nous* in meetings, even formal ones. Both are spoken habits. In this lesson's dialogue and in your written minutes, keep *vous* and *nous*.
+
+## Deciding
+
+<VocabTable group="deciding" />
+
+To suggest something, say **je propose que nous** + subjunctive: *je propose que nous repoussions la réunion*. In speech, you'll often hear *je propose qu'on…*. *Trancher* means to settle a question when the group can't agree, and a decision taken by everyone is taken *à l'unanimité*.
+
+<Example fr="Je propose que nous fassions une pause." en="I suggest we take a break." />
+<Example fr="La décision a été prise à l'unanimité." en="The decision was taken unanimously." />
+
+## Phrases for each stage
+
+A meeting follows the same steps every time, and each one has its usual phrases.
+
+- To open the meeting, say *Si tout le monde est là, commençons.* (If everyone's here, let's start.) *Voici l'ordre du jour.*
+- To move on, say *Passons au prochain point.* (Let's move on to the next item.)
+- To check that you understand, say *Si je comprends bien, vous proposez que…* (If I understand correctly, you're suggesting that…)
+- To ask for views, say *Qu'en pensez-vous ?* (What do you think?)
+- To close, say *Avez-vous d'autres questions ? Merci à tous.*
+
+Send the agenda before the meeting, so that everyone can prepare, and the minutes the same day, while everyone still remembers what was said.
+
+## Writing the minutes
+
+*Un compte rendu* (the minutes) records what was said and decided. It uses the grammar of this unit and the last one: reported speech in the past (*Paul a expliqué que le rapport serait prêt vendredi*), from <LessonLink id="b2-reported-speech-past" text="the lesson on reported speech in the past" />; the passive and impersonal phrases (*il a été décidé de…*); and the futur antérieur for deadlines (*le rapport aura été envoyé d'ici vendredi*). Keep it short: one paragraph per item, with the decision in the last sentence. French minutes usually start with the date and the list of participants, then give one numbered item per point of the agenda. Use the passé composé for what was said and decided, and the futur for what comes next.
+
+## En français
+
+Madame Dubois leads her team's weekly video call with Monsieur Martin and Claire.
+
+- **Mme Dubois :** *Bonjour à tous. Vous m'entendez ?* (Hello everyone. Can you hear me?)
+- **M. Martin :** *Oui, très bien. Mais votre écran est noir.* (Yes, very well. But your screen is black.)
+- **Mme Dubois :** *Pardon, je vais partager mon écran. Voilà l'ordre du jour : trois points.* (Sorry, I'll share my screen. Here's the agenda: three items.)
+- **Claire :** *Excusez-moi, je vous entends mal. C'est peut-être ma connexion.* (Sorry, I can't hear you well. It may be my connection.)
+- **Mme Dubois :** *Coupez votre micro un moment, ça ira peut-être mieux. Premier point : faisons le point sur le projet.* (Mute your microphone for a moment, it may help. First item: let's take stock of the project.)
+- **M. Martin :** *Je peux prendre la parole ? Le rapport aura été envoyé au client d'ici vendredi.* (May I speak? The report will have been sent to the client by Friday.)
+- **Mme Dubois :** *Très bien. Claire, je vous passe la parole pour le budget.* (Very good. Claire, I'll hand over to you for the budget.)
+- **Claire :** *Merci. Le budget a augmenté, mais c'est le calendrier qui m'inquiète.* (Thank you. The budget has gone up, but it's the schedule that worries me.)
+- **M. Martin :** *Je propose que nous repoussions la fin du projet au 15 juin.* (I suggest we put the end of the project back to 15 June.)
+- **Mme Dubois :** *Il faut trancher aujourd'hui. Vous êtes d'accord ?* (We have to decide today. Do you agree?)
+- **Claire :** *Oui, je suis d'accord.* (Yes, I agree.)
+- **M. Martin :** *Moi aussi.* (So do I.)
+- **Mme Dubois :** *Alors c'est décidé à l'unanimité. Je ferai le compte rendu ce soir.* (Then it's decided unanimously. I'll write the minutes this evening.)
+
+## The minutes
+
+That evening, Madame Dubois sends the minutes to the team. Three words are new.
+
+<VocabTable group="glossary" />
+
+*Objet : Compte rendu de la visioconférence du 3 juin*
+
+*Bonjour à tous,*
+
+*Voici le compte rendu de notre visioconférence de ce matin. Participants : Claire, Paul Martin et moi.*
+
+*1. Point sur le projet : Paul a expliqué que le rapport aurait été envoyé au client d'ici vendredi.*
+
+*2. Budget et calendrier : Claire a souligné que le budget avait augmenté et que le calendrier l'inquiétait. Paul a proposé que nous repoussions la fin du projet au 15 juin. Après une courte discussion, la proposition a été adoptée à l'unanimité.*
+
+*3. Prochaine réunion : elle aura lieu le 10 juin à 9 heures, en visioconférence. L'ordre du jour sera envoyé lundi.*
+
+*Pour ce qui est des autres points, aucune décision n'a été prise. Le compte rendu de la réunion précédente est ci-dessous.*
+
+*Merci à tous pour votre participation. N'hésitez pas à m'écrire si vous avez des questions.*
+
+*Bonne journée,*
+
+*Sophie Dubois*
+
+(Subject: Minutes of the video call of 3 June. Hello everyone, here are the minutes of this morning's video call. Participants: Claire, Paul Martin and me. 1. Project update: Paul explained that the report would have been sent to the client by Friday. 2. Budget and schedule: Claire stressed that the budget had gone up and that she was worried about the schedule. Paul proposed that we put the end of the project back to 15 June. After a short discussion, the proposal was adopted unanimously. 3. Next meeting: it will take place on 10 June at 9 a.m., by video call. The agenda will be sent on Monday. For the other items, no decision was taken. The minutes of the previous meeting are below. Thank you all for taking part. Don't hesitate to write to me if you have any questions. Have a good day, Sophie Dubois.)
+
+Notice how the minutes turn the dialogue into reported speech: *le rapport aura été envoyé* becomes *aurait été envoyé*, and the decision is in the passive.
+
+<Callout type="warning" title="Je propose que nous repoussions">
+  *Proposer que* takes the subjunctive, because it's a suggestion, not a fact. *Je propose que nous repoussons la réunion* is wrong: say **je propose que nous repoussions la réunion**, and **je propose que nous fassions une pause**.
+</Callout>
+
+<Callout type="tip" title="Write the minutes as you go">
+  During a meeting, keep one line per agenda item and write only the decision, in the passive: *date de juin choisie*, *rapport à envoyer vendredi*. After the meeting, turn each line into one sentence of reported speech. The minutes take five minutes instead of an hour, and nothing is forgotten.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="b2-negotiating" text="the lesson on negotiating" /> shows how to make proposals and counter-offers.
+
+=== b2-negotiating ===
+
+---
+id: "b2-negotiating"
+title: "Negotiating"
+description: "Make proposals and counter-offers, set conditions, concede a point and reach an agreement: nous serions prêts à, à condition que, en échange de, quitte à, trouver un terrain d'entente."
+level: "B2"
+unit: "Work and the economy"
+order: 37
+type: "communication"
+tags: ["work", "negotiation", "speaking", "writing"]
+prerequisites: ["b2-meetings-and-calls", "b2-nuancing-opinions", "b2-concession-opposition"]
+related: ["b2-subjunctive-conjunctions", "b2-mixed-conditionals", "b2-review-nuance", "b2-presenting-data"]
+vocab:
+  - { id: "b2-negotiating-v001", group: "people", fr: "un fournisseur / une fournisseuse", pron: "uhn foor-nee-SUHR / ewn foor-nee-SUHZ", en: "a supplier" }
+  - { id: "b2-negotiating-v002", group: "people", fr: "un acheteur / une acheteuse", pron: "uh-nahsh-TUHR / ew-nahsh-TUHZ", en: "a buyer" }
+  - { id: "b2-negotiating-v003", group: "people", fr: "une commande", pron: "ewn koh-MAHND", en: "an order", note: "Passer une commande; commander." }
+  - { id: "b2-negotiating-v004", group: "people", fr: "un délai de livraison", pron: "uhn day-leh duh lee-vreh-ZOHN", en: "a delivery time" }
+  - { id: "b2-negotiating-v005", group: "offer", fr: "faire une offre", pron: "fehr ew-NOF-ruh", en: "to make an offer" }
+  - { id: "b2-negotiating-v006", group: "offer", fr: "une contre-proposition", pron: "ewn kohn-truh-proh-poh-zee-SYOHN", en: "a counter-offer" }
+  - { id: "b2-negotiating-v007", group: "offer", fr: "nous serions prêts à", pron: "noo suh-ryohn preh-ZAH", en: "we'd be willing to", note: "+ infinitive." }
+  - { id: "b2-negotiating-v008", group: "offer", fr: "ce serait envisageable", pron: "suh suh-reh ahn-vee-zah-ZHAH-bluh", en: "it could be considered" }
+  - { id: "b2-negotiating-v009", group: "offer", fr: "une remise", pron: "ewn ruh-MEEZ", en: "a discount (on a price)" }
+  - { id: "b2-negotiating-v010", group: "offer", fr: "baisser", pron: "beh-SAY", en: "to lower, to go down", note: "Baisser le prix." }
+  - { id: "b2-negotiating-v011", group: "conditions", fr: "en échange de", pron: "ahn-nay-SHAHNZH duh", en: "in exchange for" }
+  - { id: "b2-negotiating-v012", group: "conditions", fr: "dans ce cas", pron: "dahn suh KAH", en: "in that case" }
+  - { id: "b2-negotiating-v013", group: "conditions", fr: "quitte à", pron: "KEET ah", en: "even if it means", note: "+ infinitive." }
+  - { id: "b2-negotiating-v014", group: "conditions", fr: "non négociable", pron: "nohn nay-goh-SYAH-bluh", en: "non-negotiable" }
+  - { id: "b2-negotiating-v015", group: "conditions", fr: "une marge de manœuvre", pron: "ewn marzh duh mah-NUH-vruh", en: "room for manoeuvre" }
+  - { id: "b2-negotiating-v016", group: "conceding", fr: "céder", pron: "say-DAY", en: "to give way, to give in", note: "Like préférer: je cède." }
+  - { id: "b2-negotiating-v017", group: "conceding", fr: "faire un geste", pron: "fehr uhn ZHEST", en: "to make a gesture (a small concession)" }
+  - { id: "b2-negotiating-v018", group: "agreement", fr: "trouver un terrain d'entente", pron: "troo-vay uhn teh-ran dahn-TAHNT", en: "to find common ground" }
+  - { id: "b2-negotiating-v019", group: "agreement", fr: "conclure un accord", pron: "kohn-klew-ruh-nah-KOR", en: "to strike a deal, to conclude an agreement" }
+  - { id: "b2-negotiating-v020", group: "agreement", fr: "un engagement", pron: "uh-nahn-gahzh-MAHN", en: "a commitment" }
+  - { id: "b2-negotiating-v021", group: "offer", fr: "élevé / élevée", pron: "ay-luh-VAY", en: "high (of a price, a level)" }
+exercises:
+  - id: "b2-negotiating-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de cette phrase dans une négociation : Dans ce cas, nous pourrions faire un geste sur le prix."
+    options: ["a concession", "a refusal", "a greeting"]
+    answers: ["a concession"]
+    explanation: "Faire un geste offers a small concession."
+  - id: "b2-negotiating-ex002"
+    type: "fill-in"
+    prompt: "Conjuguez payer au subjonctif : Nous ferons une remise à condition que vous ___ avant mai."
+    answers: ["payiez"]
+    explanation: "À condition que + subjunctive: que vous payiez."
+  - id: "b2-negotiating-ex003"
+    type: "fill-in"
+    prompt: "Conjuguez pouvoir au subjonctif : Nous signons, à condition que vous ___ livrer en juin."
+    answers: ["puissiez"]
+    explanation: "À condition que + subjunctive: que vous puissiez."
+  - id: "b2-negotiating-ex004"
+    type: "fill-in"
+    prompt: "Complétez : Nous baissons le prix en ___ d'une commande plus importante."
+    answers: ["échange"]
+    explanation: "En échange de: in exchange for."
+  - id: "b2-negotiating-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Nous acceptons votre offre, ___ le prix change d'ici là."
+    options: ["à moins que", "parce que", "dès que"]
+    answers: ["à moins que"]
+    explanation: "À moins que + subjunctive: unless. Parce que and dès que take the indicative."
+  - id: "b2-negotiating-ex006"
+    type: "register-shift"
+    prompt: "Transformez en registre soutenu, en commençant par « Je regrette, mais » : Non, ce n'est pas possible !"
+    answers: ["Je regrette, mais ce ne serait pas possible", "Je regrette, mais ce n'est pas possible"]
+    explanation: "A polite refusal: an apology, then a softer phrase, often in the conditionnel."
+  - id: "b2-negotiating-ex007"
+    type: "register-shift"
+    prompt: "Transformez en registre soutenu, avec le conditionnel : Nous voulons une remise."
+    answers: ["Nous voudrions une remise", "Nous aimerions une remise"]
+    explanation: "The conditionnel softens a request."
+  - id: "b2-negotiating-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « si » + imparfait et « nous serions prêts à » : Si vous payez avant mai, nous baissons le prix."
+    answers: ["Si vous payiez avant mai, nous serions prêts à baisser le prix", "Nous serions prêts à baisser le prix si vous payiez avant mai"]
+    explanation: "Si + imparfait with the conditionnel sounds more polite than si + present."
+    strictAccents: true
+  - id: "b2-negotiating-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « certes…, mais » : Le prix est élevé. Le délai est court."
+    answers: ["Certes, le prix est élevé, mais le délai est court"]
+    explanation: "Certes concedes the first point, mais brings the second."
+  - id: "b2-negotiating-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Nous signons à condition que vous payez à la commande."
+    answers: ["Nous signons à condition que vous payiez à la commande"]
+    explanation: "À condition que takes the subjunctive: payiez."
+    strictAccents: true
+  - id: "b2-negotiating-ex011"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de : Quitte à payer plus, nous voulons tout en juin."
+    options: ["Even if it means paying more", "Because we're paying more", "So as not to pay more"]
+    answers: ["Even if it means paying more"]
+    explanation: "Quitte à + infinitive: even if it means."
+  - id: "b2-negotiating-ex012"
+    type: "translate"
+    prompt: "Traduisez : We'd be willing to lower the price if you ordered more."
+    answers: ["Nous serions prêts à baisser le prix si vous commandiez plus", "Nous serions prêts à baisser le prix si vous en commandiez plus"]
+    explanation: "Nous serions prêts à + infinitive, then si + imparfait."
+    strictAccents: true
+  - id: "b2-negotiating-ex013"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Je vous fais (a counter-offer). Nous (would be willing to) livrer en juin, (on condition that) vous (pay: payer) à la commande."
+    answers: ["Je vous fais une contre-proposition. Nous serions prêts à livrer en juin, à condition que vous payiez à la commande."]
+    explanation: "A counter-offer, a conditional willingness and a condition with the subjunctive."
+    strictAccents: true
+  - id: "b2-negotiating-ex014"
+    type: "translate"
+    prompt: "Rédigez ce mail en complétant comme indiqué : Madame, je vous confirme (our agreement). Nous (commit to: s'engager à) livrer avant le 15 juin. (In exchange), vous paierez à la commande."
+    answers: ["Madame, je vous confirme notre accord. Nous nous engageons à livrer avant le 15 juin. En échange, vous paierez à la commande."]
+    explanation: "Confirming the terms: the agreement, the commitment and the exchange."
+    strictAccents: true
+  - id: "b2-negotiating-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : We have found common ground."
+    words: ["Nous", "avons", "trouvé", "un", "terrain", "d'entente"]
+    answers: ["Nous avons trouvé un terrain d'entente"]
+    explanation: "Trouver un terrain d'entente: to find common ground."
+---
+
+By the end of this lesson you'll be able to make an offer, set conditions, give way on a point and close a deal politely in French.
+
+## What you already know
+
+You know *à condition que* and *à moins que* + subjunctive from <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on conjunctions with the subjunctive" />, the *si* patterns from <LessonLink id="b2-mixed-conditionals" text="the lesson on mixed si-clauses" />, and *certes…, mais* from <LessonLink id="b2-concession-opposition" text="the lesson on concession and opposition" />. You also know *une proposition* from <LessonLink id="b2-meetings-and-calls" text="the lesson on meetings and calls" />, and *un compromis* from <LessonLink id="b1-subjunctive-vs-infinitive" text="the lesson on the subjunctive versus the infinitive" />. Negotiating puts all of them together.
+
+## Who's at the table
+
+<VocabTable group="people" />
+
+A typical business negotiation is between *un fournisseur* (a supplier) and *un acheteur* (a buyer). They discuss *la commande* (the order), the price and *le délai de livraison* (the delivery time). Each side has points it can move on and points it can't. Before you start, decide what you want most, what you could give in return, and the limit you won't go beyond.
+
+<Example fr="L'acheteur demande une remise au fournisseur." en="The buyer asks the supplier for a discount." />
+
+## Making an offer
+
+<VocabTable group="offer" />
+
+In French, offers are usually made in the conditionnel, which sounds open and polite. **Nous serions prêts à** + infinitive (we'd be willing to) is the most useful phrase in a negotiation. **Ce serait envisageable** (it could be considered) answers a proposal without saying yes.
+
+<Example fr="Nous serions prêts à baisser le prix si vous commandiez plus." en="We'd be willing to lower the price if you ordered more." />
+<Example fr="Une remise, ce serait envisageable." en="A discount could be considered." />
+
+<Example fr="Nous vous faisons une offre : dix pour cent de remise." en="We're making you an offer: a ten per cent discount." />
+
+When the other side's proposal doesn't suit you, make *une contre-proposition* (a counter-offer). *Une remise* is a discount; you know the more general *une réduction* from <LessonLink id="b1-interrogative-lequel" text="the lesson on lequel" />.
+
+## Setting conditions
+
+<VocabTable group="conditions" />
+
+Conditions are the heart of a negotiation. Use *à condition que* + subjunctive, *si* + imparfait with the conditionnel, or **en échange de** (in exchange for).
+
+<Example fr="Nous vous faisons une remise, à condition que vous payiez à la commande." en="We'll give you a discount, provided that you pay on ordering." />
+<Example fr="En échange d'une commande plus importante, nous baissons le prix." en="In exchange for a bigger order, we'll lower the price." />
+
+**Quitte à** + infinitive means "even if it means": *quitte à payer plus, nous voulons tout en juin*. *Dans ce cas* (in that case) answers a condition. When a point can't move, it's *non négociable*; when it can, you have *une marge de manœuvre* (room for manoeuvre).
+
+## Giving way
+
+<VocabTable group="conceding" />
+
+A negotiation moves forward when one side *cède* (gives way) on a point, or *fait un geste* (makes a small concession). It's polite to concede before you ask for something in return: *certes, le prix est élevé, mais le délai est court*.
+
+<Example fr="Dans ce cas, nous pourrions faire un geste sur le prix." en="In that case, we could make a gesture on the price." />
+
+<Example fr="Sur le délai, nous ne céderons pas." en="On the deadline, we won't give way." />
+
+## Opening and closing
+
+A negotiation has its own polite frame, at the start and at the end.
+
+- To open, thank the other side and state the subject: *merci de nous recevoir; nous aimerions parler de la commande de juin*.
+- To check that you've understood a proposal, rephrase it: *si je comprends bien, vous proposez une remise en échange d'un paiement à la commande ?*
+- To close, sum up what has been agreed: *nous sommes donc d'accord sur le prix et sur le délai*.
+- To finish, promise a written confirmation: *je vous confirme tout cela dans un mail aujourd'hui*.
+
+Summing up at the end matters as much as the negotiation itself, because it avoids a different memory of the deal on each side.
+
+## Firm or soft
+
+The same message can be firm or soft. The present tense and a short sentence sound firm: *c'est non négociable*. The conditionnel and a softening phrase sound open: *ce serait difficile pour nous*. To refuse politely, start with *je regrette, mais…* and use the conditionnel: *je regrette, mais ce ne serait pas possible*. Keep the firm tone for the one or two points that really matter to you.
+
+## Reaching an agreement
+
+<VocabTable group="agreement" />
+
+When both sides accept, they *trouvent un terrain d'entente* (find common ground) and *concluent un accord* (strike a deal). The agreement is then confirmed in writing, with each side's *engagement* (commitment).
+
+<Example fr="Après deux heures, nous avons conclu un accord." en="After two hours, we struck a deal." />
+
+## En français
+
+Madame Dubois, a buyer, negotiates an order with Monsieur Martin, a supplier.
+
+- **Mme Dubois :** *Monsieur Martin, votre offre nous intéresse, mais le prix est trop élevé.* (Mr Martin, your offer interests us, but the price is too high.)
+- **M. Martin :** *Je comprends. Quel prix proposez-vous ?* (I understand. What price do you suggest?)
+- **Mme Dubois :** *Nous serions prêts à passer une grosse commande, à condition que vous fassiez une remise.* (We'd be willing to place a big order, provided that you give us a discount.)
+- **M. Martin :** *Une remise, c'est envisageable, mais pas trop importante. Ma marge de manœuvre est petite.* (A discount could be considered, but not too big. My room for manoeuvre is small.)
+- **Mme Dubois :** *Et si nous payions à la commande ?* (And what if we paid on ordering?)
+- **M. Martin :** *Dans ce cas, nous pourrions faire un geste sur le prix.* (In that case, we could make a gesture on the price.)
+- **Mme Dubois :** *Très bien. En revanche, le délai de livraison est non négociable : nous avons besoin des produits avant juin.* (Very good. On the other hand, the delivery time is non-negotiable: we need the products before June.)
+- **M. Martin :** *Juin, c'est difficile. Nous pourrions livrer une partie en mai et le reste en juillet.* (June is difficult. We could deliver part in May and the rest in July.)
+- **Mme Dubois :** *Quitte à payer un peu plus, nous préférons tout avoir en juin.* (Even if it means paying a bit more, we'd rather have everything in June.)
+- **M. Martin :** *Alors je vous fais une contre-proposition : tout en juin, sans remise.* (Then I'll make you a counter-offer: everything in June, with no discount.)
+- **Mme Dubois :** *Certes, c'est moins intéressant, mais le délai compte plus pour nous.* (Admittedly, that's less attractive, but the delivery time matters more to us.)
+- **M. Martin :** *Je crois que nous avons trouvé un terrain d'entente.* (I think we've found common ground.)
+- **Mme Dubois :** *Parfait. Concluons l'accord. Je vous écris aujourd'hui pour le confirmer.* (Perfect. Let's strike the deal. I'll write to you today to confirm it.)
+
+## Confirming the deal
+
+That afternoon, the two sides confirm the deal by email.
+
+*Objet : Notre accord*
+
+*Monsieur,*
+
+*Après notre entretien de ce matin, je vous confirme notre accord. Notre société commandera mille produits. Vous vous engagez à les livrer avant le 15 juin. Le prix reste celui de votre première offre, sans remise. En échange, nous paierons tout à la commande. Nous comptons sur votre équipe pour respecter ce délai, car nos clients attendent ces produits.*
+
+*Je vous remercie pour cette négociation, et je me réjouis de travailler avec vous.*
+
+*Bien cordialement,*
+
+*Claire Dubois*
+
+*Madame,*
+
+*Merci pour votre message. Tout est juste, et je vous confirme notre engagement : la livraison aura lieu avant le 15 juin. Notre équipe vous enverra le contrat d'ici vendredi. Si la commande est plus importante l'année prochaine, nous serions prêts à revoir le prix. Ce serait aussi l'occasion de parler d'un contrat de maintenance. Merci de votre confiance; je reste à votre disposition pour toute question.*
+
+*Bien cordialement,*
+
+*Paul Martin*
+
+(Subject: Our agreement. Dear Sir, following our meeting this morning, I confirm our agreement. Our company will order a thousand products. You commit to delivering them before 15 June. The price remains that of your first offer, with no discount. In exchange, we'll pay everything on ordering. We're counting on your team to meet this deadline, because our customers are waiting for these products. Thank you for this negotiation; I'm delighted to work with you. Kind regards, Claire Dubois. Dear Madam, thank you for your message. Everything is right, and I confirm our commitment: delivery will take place before 15 June. Our team will send you the contract by Friday. If the order is bigger next year, we'd be willing to review the price. It would also be the opportunity to talk about a maintenance contract. Thank you for your trust; I remain at your disposal for any question. Kind regards, Paul Martin.)
+
+<Callout type="warning" title="À condition que vous payiez, not payez">
+  *À condition que* sets a condition that hasn't happened yet, so it always takes the subjunctive. *À condition que vous payez* is wrong: say **à condition que vous payiez**, **à condition que vous puissiez livrer en juin**.
+</Callout>
+
+<Callout type="tip" title="Concede, then ask">
+  In a negotiation, prepare one small concession for each thing you want: *nous pourrions faire un geste sur le délai, en échange d'une remise*. Offering first makes your request sound fair, and the other side is more likely to accept it. Write your pairs down before the meeting.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="b2-presenting-data" text="the lesson on presenting data and trends" /> shows how to describe figures and charts.
+
+=== b2-presenting-data ===
+
+---
+id: "b2-presenting-data"
+title: "Presenting data and trends"
+description: "Describe a chart or a table in French: rises and falls, proportions, averages and comparisons, with augmenter de, passer de… à, la moitié, en moyenne, plus… plus and d'autant plus que."
+level: "B2"
+unit: "Work and the economy"
+order: 38
+type: "communication"
+tags: ["work", "data", "speaking", "writing"]
+prerequisites: ["b2-economy-and-business", "a2-superlatives", "b2-nominalisation"]
+related: ["b1-environment", "a2-comparatives", "b2-summarizing-an-article", "b2-formal-report"]
+vocab:
+  - { id: "b2-presenting-data-v001", group: "chart", fr: "un graphique", pron: "uhn grah-FEEK", en: "a chart, a graph" }
+  - { id: "b2-presenting-data-v002", group: "chart", fr: "une courbe", pron: "ewn KOORB", en: "a curve, a line (on a chart)" }
+  - { id: "b2-presenting-data-v003", group: "chart", fr: "un tableau", pron: "uhn tah-BLOH", en: "a table (of figures)" }
+  - { id: "b2-presenting-data-v004", group: "chart", fr: "les données", pron: "lay doh-NAY", en: "data" }
+  - { id: "b2-presenting-data-v005", group: "chart", fr: "l'évolution", pron: "lay-voh-lew-SYOHN", en: "the change over time, the trend" }
+  - { id: "b2-presenting-data-v006", group: "chart", fr: "les ventes", pron: "lay VAHNT", en: "sales" }
+  - { id: "b2-presenting-data-v007", group: "trend", fr: "augmenter de", pron: "og-mahn-tay DUH", en: "to rise by", note: "Augmenter de 5 %: the size of the change." }
+  - { id: "b2-presenting-data-v008", group: "trend", fr: "passer de… à", pron: "pah-SAY duh … ah", en: "to go from… to" }
+  - { id: "b2-presenting-data-v009", group: "trend", fr: "progresser", pron: "proh-greh-SAY", en: "to grow, to increase steadily" }
+  - { id: "b2-presenting-data-v010", group: "trend", fr: "chuter", pron: "shew-TAY", en: "to fall sharply" }
+  - { id: "b2-presenting-data-v011", group: "trend", fr: "se stabiliser", pron: "suh stah-bee-lee-ZAY", en: "to level off" }
+  - { id: "b2-presenting-data-v012", group: "trend", fr: "doubler / tripler", pron: "doo-BLAY / tree-PLAY", en: "to double / to triple" }
+  - { id: "b2-presenting-data-v013", group: "trend", fr: "nettement", pron: "net-MAHN", en: "clearly, markedly" }
+  - { id: "b2-presenting-data-v014", group: "size", fr: "pour cent", pron: "poor SAHN", en: "per cent", note: "Written 10 %, with a space before %." }
+  - { id: "b2-presenting-data-v015", group: "size", fr: "un pourcentage", pron: "uhn poor-sahn-TAHZH", en: "a percentage" }
+  - { id: "b2-presenting-data-v016", group: "size", fr: "la moitié", pron: "lah mwah-TYAY", en: "half" }
+  - { id: "b2-presenting-data-v017", group: "size", fr: "un tiers / un quart", pron: "uhn TYEHR / uhn KAR", en: "a third / a quarter" }
+  - { id: "b2-presenting-data-v018", group: "size", fr: "la part", pron: "lah PAR", en: "the share, the proportion" }
+  - { id: "b2-presenting-data-v019", group: "size", fr: "environ", pron: "ahn-vee-ROHN", en: "about, approximately" }
+  - { id: "b2-presenting-data-v020", group: "size", fr: "près de", pron: "preh DUH", en: "nearly, almost (with a figure)", note: "Also 'near', for a place." }
+  - { id: "b2-presenting-data-v021", group: "size", fr: "un taux", pron: "uhn TOH", en: "a rate", note: "Le taux de chômage." }
+  - { id: "b2-presenting-data-v022", group: "size", fr: "une moyenne / en moyenne", pron: "ewn mwah-YEN / ahn mwah-YEN", en: "an average / on average" }
+  - { id: "b2-presenting-data-v023", group: "compare", fr: "plus… plus", pron: "PLEW … PLEW", en: "the more… the more" }
+  - { id: "b2-presenting-data-v024", group: "compare", fr: "d'autant plus que", pron: "doh-tahn plew KUH", en: "all the more since, especially as" }
+  - { id: "b2-presenting-data-v025", group: "glossary", fr: "fictif / fictive", pron: "feek-TEEF / feek-TEEV", en: "invented, not real" }
+  - { id: "b2-presenting-data-v026", group: "glossary", fr: "remarquable", pron: "ruh-mar-KAH-bluh", en: "remarkable" }
+exercises:
+  - id: "b2-presenting-data-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez le verbe pour une baisse très forte."
+    options: ["chuter", "progresser", "se stabiliser"]
+    answers: ["chuter"]
+    explanation: "Chuter: to fall sharply."
+  - id: "b2-presenting-data-ex002"
+    type: "fill-in"
+    prompt: "Complétez : Les ventes ont augmenté ___ 10 %."
+    answers: ["de"]
+    explanation: "Augmenter de + the size of the change."
+  - id: "b2-presenting-data-ex003"
+    type: "fill-in"
+    prompt: "Complétez : 50 %, c'est la ___."
+    answers: ["moitié"]
+    explanation: "La moitié: half."
+  - id: "b2-presenting-data-ex004"
+    type: "fill-in"
+    prompt: "Complétez : En ___, un salarié a deux primes par an."
+    answers: ["moyenne"]
+    explanation: "En moyenne: on average."
+  - id: "b2-presenting-data-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne réponse : Le taux de chômage est ___ 8 % à 6 %."
+    options: ["passé de", "augmenté de", "doublé de"]
+    answers: ["passé de"]
+    explanation: "Passer de… à gives the starting and the final figure."
+  - id: "b2-presenting-data-ex006"
+    type: "reformulation"
+    prompt: "Reformulez avec un verbe : Les ventes sont passées de 100 à 300."
+    answers: ["Les ventes ont triplé"]
+    explanation: "From 100 to 300: tripler."
+  - id: "b2-presenting-data-ex007"
+    type: "reformulation"
+    prompt: "Reformulez en groupe nominal, avec « une augmentation » : Les ventes ont augmenté de 5 %."
+    answers: ["Une augmentation des ventes de 5 %", "Une augmentation de 5 % des ventes"]
+    explanation: "The verb becomes a noun; de links the rest."
+  - id: "b2-presenting-data-ex008"
+    type: "register-shift"
+    prompt: "Transformez en registre soutenu, avec « progresser » : Les ventes, ça monte bien."
+    answers: ["Les ventes progressent nettement", "Les ventes progressent bien"]
+    explanation: "A written commentary avoids ça and the dislocation."
+  - id: "b2-presenting-data-ex009"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Le prix a augmenté par 5 %."
+    answers: ["Le prix a augmenté de 5 %"]
+    explanation: "The size of the change follows de, not par."
+    strictAccents: true
+  - id: "b2-presenting-data-ex010"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de : Plus on attend, plus c'est cher."
+    options: ["The longer you wait, the more expensive it is.", "If you wait, it's cheaper.", "You wait more, but it's cheap."]
+    answers: ["The longer you wait, the more expensive it is."]
+    explanation: "Plus… plus: the more… the more."
+  - id: "b2-presenting-data-ex011"
+    type: "fill-in"
+    prompt: "Complétez : Cette hausse est d'___ plus importante que le marché recule."
+    answers: ["autant"]
+    explanation: "D'autant plus… que: all the more… since."
+  - id: "b2-presenting-data-ex012"
+    type: "translate"
+    prompt: "Traduisez avec « augmenter de » : Sales rose by 10% in two years."
+    answers: ["Les ventes ont augmenté de 10 % en deux ans", "Les ventes ont augmenté de dix pour cent en deux ans", "Les ventes ont augmenté de 10 pour cent en deux ans"]
+    explanation: "Augmenter de + the percentage, then en + the period."
+  - id: "b2-presenting-data-ex013"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Le graphique montre (the trend) de la part des ventes en ligne. Elle (went from) 20 % (to) 30 %. Elle a donc (risen by) 10 points."
+    answers: ["Le graphique montre l'évolution de la part des ventes en ligne. Elle est passée de 20 % à 30 %. Elle a donc augmenté de 10 points.", "Le graphique montre l'évolution de la part des ventes en ligne. Elle est passée de 20 % à 30 %. Elle a donc augmenté de dix points."]
+    explanation: "L'évolution, passer de… à (with être, agreeing with la part) and augmenter de. A share that goes from 20 % to 30 % rises by ten points."
+    strictAccents: true
+  - id: "b2-presenting-data-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : (On average), nos équipes font deux réunions par semaine. Dans notre équipe, c'est (nearly) quatre, (that is to say) (clearly) plus."
+    answers: ["En moyenne, nos équipes font deux réunions par semaine. Dans notre équipe, c'est près de quatre, c'est-à-dire nettement plus."]
+    explanation: "En moyenne, près de and nettement for a comparison."
+    strictAccents: true
+  - id: "b2-presenting-data-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The more you work, the more you progress."
+    words: ["Plus", "on", "travaille", "plus", "on", "progresse"]
+    answers: ["Plus on travaille, plus on progresse"]
+    explanation: "Plus + clause, plus + clause, with no article."
+---
+
+By the end of this lesson you'll be able to describe a chart or a table in French, in a presentation or in writing, with the right verbs for trends, proportions and comparisons.
+
+## What you already know
+
+You know *de plus en plus* and *de moins en moins* from <LessonLink id="b1-environment" text="the lesson on the environment" />, and comparatives from <LessonLink id="a2-comparatives" text="the lesson on comparatives" />. You know *la hausse* and *la baisse*, and how to turn a verb into a noun, from <LessonLink id="b2-nominalisation" text="the lesson on nominalisation" />. All the figures in this lesson are invented, to show how the language works.
+
+## Talking about a chart
+
+<VocabTable group="chart" />
+
+*Un graphique* (a chart) usually shows *une courbe* (a line) or bars; *un tableau* is a table of figures. *Les données* (data) is plural in French. *L'évolution* is the change over time: *l'évolution des ventes*.
+
+<Example fr="Ce graphique montre l'évolution des ventes entre 2020 et 2024." en="This chart shows the trend in sales between 2020 and 2024." />
+
+<Example fr="Les données de ce tableau montrent les ventes de chaque magasin." en="The data in this table show the sales of each shop." />
+
+## Rises and falls
+
+<VocabTable group="trend" />
+
+To describe a trend, use a verb: *augmenter*, *progresser* (to grow steadily), *chuter* (to fall sharply), *se stabiliser* (to level off), *doubler*, *tripler*. Add *nettement* (clearly) to stress the size of the change.
+
+<Example fr="Les ventes ont chuté en janvier." en="Sales fell sharply in January." />
+
+The two key structures give the figures:
+
+- **The size of the change** follows *de*: *les ventes ont augmenté de 10 %*.
+- **The starting and the final figure** follow *de… à*: *les ventes sont passées de 20 % à 30 %*.
+
+<Example fr="Les ventes ont augmenté de 10 % en deux ans." en="Sales rose by 10% in two years." />
+<Example fr="Le taux est passé de 8 % à 6 %." en="The rate went from 8% to 6%." />
+
+*Passer* takes *être* here: *elles sont passées*. Don't use *par* for the size of a change: *augmenter de 5 %*, never *par 5 %*.
+
+## Proportions and approximations
+
+<VocabTable group="size" />
+
+French writes a space before the % sign: *10 %*, said *dix pour cent*. For simple proportions, *la moitié* (half), *un tiers* (a third) and *un quart* (a quarter) are often clearer than *un pourcentage* (a percentage): *la moitié des salariés*. *La part* is the share of a total: *la part des ventes en ligne*.
+
+<Example fr="Près de la moitié des clients achètent en ligne." en="Nearly half of the customers buy online." />
+<Example fr="En moyenne, les ventes progressent d'environ 3 % par an." en="On average, sales grow by about 3% a year." />
+
+<Example fr="Ce pourcentage est très élevé." en="This percentage is very high." />
+
+*Environ* (about) and *près de* (nearly) round a figure. *Près de* also means "near" for a place; with a number, it means "almost". *Un taux* is a rate, such as *le taux de chômage*, and *une moyenne* is an average.
+
+## Comparing
+
+<VocabTable group="compare" />
+
+**Plus… plus** (the more… the more) links two trends that move together. There's no article: *plus la concurrence est forte, plus il est difficile de progresser*. *Moins… moins* and *plus… moins* work the same way.
+
+<Example fr="Plus les prix baissent, plus les ventes augmentent." en="The lower prices go, the more sales rise." />
+
+**D'autant plus… que** (all the more… since) adds a reason that makes a fact stronger: *cette hausse est d'autant plus remarquable que le marché recule*. You can also use it on its own: *c'est intéressant, d'autant plus que le secteur va mal*.
+
+## Structuring a short presentation
+
+A data presentation is easier to follow when it has a clear frame. Announce the plan, show each chart with one message, then conclude.
+
+- To announce the plan, use *d'abord*, *ensuite* and *enfin*: *d'abord les ventes, ensuite les coûts, enfin nos objectifs*.
+- To point to the chart, say *sur ce graphique, on voit que…* and name the line or the bar you mean.
+- To give the message, use one sentence with one figure: *nos ventes en ligne ont doublé*.
+- To conclude, use *en résumé*, which you know from the lesson on presenting an argument, or *pour finir*.
+
+Leave a moment for questions at the end, and keep one extra figure ready for the question you expect.
+
+## Spoken or written
+
+In a presentation, use short sentences and point to the chart: *comme vous voyez, la courbe monte*. In a written commentary, use the nominal style and the connectors from <LessonLink id="b2-logical-connectors" text="the lesson on logical connectors" />: *on observe une hausse de 10 %; par conséquent…*. Start with the general trend, then give two or three key figures, and end with a conclusion. Don't list every number: choose the ones that tell the story.
+
+## En français
+
+Monsieur Martin rehearses a chart for a presentation with his colleague, Madame Dubois.
+
+- **M. Martin :** *Je peux vous montrer mon graphique ? J'aimerais votre avis.* (Can I show you my chart? I'd like your opinion.)
+- **Mme Dubois :** *Bien sûr. Qu'est-ce qu'il montre ?* (Of course. What does it show?)
+- **M. Martin :** *L'évolution de nos ventes. Elles sont passées de deux à trois millions d'euros en deux ans.* (The trend in our sales. They went from two to three million euros in two years.)
+- **Mme Dubois :** *Donc elles ont augmenté de cinquante pour cent. C'est nettement mieux qu'avant !* (So they rose by fifty per cent. That's clearly better than before!)
+- **M. Martin :** *Oui. Mais regardez la courbe : cette année, les ventes se sont stabilisées.* (Yes. But look at the line: this year, sales levelled off.)
+- **Mme Dubois :** *Et pourquoi ? Le marché a changé ?* (And why? Has the market changed?)
+- **M. Martin :** *Un peu. Plus la concurrence est forte, plus il est difficile de progresser.* (A bit. The stronger the competition, the harder it is to grow.)
+- **Mme Dubois :** *C'est clair. Vous pourriez ajouter la moyenne du secteur, pour comparer.* (That's clear. You could add the sector average, to compare.)
+- **M. Martin :** *Bonne idée. En moyenne, le secteur progresse d'environ trois pour cent par an.* (Good idea. On average, the sector grows by about three per cent a year.)
+- **Mme Dubois :** *Alors votre hausse est d'autant plus intéressante que le secteur progresse lentement.* (Then your rise is all the more interesting since the sector is growing slowly.)
+- **M. Martin :** *Merci. Je vais commencer par ce point.* (Thank you. I'll start with that point.)
+
+## A chart commentary
+
+This is a written commentary on an invented chart. Two words are new.
+
+<VocabTable group="glossary" />
+
+*Les ventes en ligne d'une PME (chiffres fictifs)*
+
+*Le graphique ci-dessous présente l'évolution des ventes en ligne d'une PME entre 2020 et 2024. Les chiffres sont fictifs.*
+
+*En 2020, les ventes en ligne représentaient environ un quart du chiffre d'affaires. Elles ont ensuite nettement progressé : en trois ans, leur part est passée de 25 % à 50 %, c'est-à-dire qu'elle a doublé.*
+
+*En 2024, la courbe se stabilise : les ventes en ligne restent à environ la moitié du chiffre d'affaires. Cette hausse est d'autant plus remarquable que les ventes en magasin ont baissé de 10 % pendant la même période.*
+
+*En moyenne, la part des ventes en ligne a augmenté de près de huit points par an. Plus les clients achètent en ligne, plus la PME investit dans la livraison. Les ventes en magasin, elles, continuent à baisser.*
+
+*On peut donc conclure que la vente en ligne est devenue une priorité pour cette entreprise.*
+
+(Online sales of an SME (invented figures). The chart below shows the trend in an SME's online sales between 2020 and 2024. The figures are invented. In 2020, online sales made up about a quarter of turnover. They then grew clearly: in three years, their share went from 25% to 50%, in other words it doubled. In 2024, the line levels off: online sales stay at about half of turnover. This rise is all the more remarkable since in-store sales fell by 10% over the same period. On average, the share of online sales rose by nearly eight points a year. The more customers buy online, the more the SME invests in delivery. In-store sales, for their part, keep falling. We can therefore conclude that online selling has become a priority for this company.)
+
+<Callout type="warning" title="Augmenter de, not par">
+  English says "rose by 10%", so learners write *augmenter par 10 %*. In French, the size of a change follows *de*: **les ventes ont augmenté de 10 %**, **le prix a baissé de 5 euros**. And remember the space before the % sign in writing: **10 %**.
+</Callout>
+
+<Callout type="tip" title="One chart, one sentence first">
+  Before you present a chart, say its main message in one sentence: *les ventes en ligne ont doublé en trois ans*. Put that sentence first, then add the two or three figures that prove it. Your audience remembers the message, not the numbers.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="b2-formal-report" text="the lesson on writing a report" /> uses these figures in a structured report.
+
+=== b2-formal-report ===
+
+---
+id: "b2-formal-report"
+title: "Writing a report"
+description: "Write a short structured report with findings and recommendations in an impersonal style: le constat, il apparaît que, il convient de, il importe que, il est recommandé de, mettre en œuvre."
+level: "B2"
+unit: "Work and the economy"
+order: 39
+type: "communication"
+tags: ["work", "writing", "report"]
+prerequisites: ["b2-presenting-data", "b2-passive-voice", "b2-logical-connectors"]
+related: ["b1-formal-email", "b2-participles-and-gerund", "b2-nominalisation", "b2-argumentative-essay"]
+vocab:
+  - { id: "b2-formal-report-v001", group: "parts", fr: "un état des lieux", pron: "uh-nay-tah day LYUH", en: "an overview of a situation, a status report" }
+  - { id: "b2-formal-report-v002", group: "parts", fr: "le constat", pron: "luh kohn-STAH", en: "the findings (what has been observed)" }
+  - { id: "b2-formal-report-v003", group: "parts", fr: "une recommandation", pron: "ewn ruh-koh-mahn-dah-SYOHN", en: "a recommendation" }
+  - { id: "b2-formal-report-v004", group: "parts", fr: "une annexe", pron: "ew-nah-NEKS", en: "an appendix", note: "En annexe: in the appendix." }
+  - { id: "b2-formal-report-v005", group: "impersonal", fr: "il apparaît que", pron: "ee-lah-pah-reh KUH", en: "it appears that", note: "+ indicative." }
+  - { id: "b2-formal-report-v006", group: "impersonal", fr: "il convient de", pron: "eel kohn-vyan DUH", en: "it's advisable to, one should", note: "+ infinitive." }
+  - { id: "b2-formal-report-v007", group: "impersonal", fr: "il est recommandé de", pron: "ee-leh ruh-koh-mahn-day DUH", en: "it's recommended to", note: "+ infinitive." }
+  - { id: "b2-formal-report-v008", group: "impersonal", fr: "il importe que", pron: "ee-lan-port KUH", en: "it's important that", note: "+ subjunctive." }
+  - { id: "b2-formal-report-v009", group: "action", fr: "préconiser", pron: "pray-koh-nee-ZAY", en: "to recommend (formally)" }
+  - { id: "b2-formal-report-v010", group: "action", fr: "mettre en œuvre / la mise en œuvre", pron: "meh-trahn-NUH-vruh / lah mee-zahn-NUH-vruh", en: "to implement / implementation" }
+  - { id: "b2-formal-report-v011", group: "action", fr: "à court terme / à moyen terme", pron: "ah koor TEHRM / ah mwah-yan TEHRM", en: "in the short term / in the medium term" }
+  - { id: "b2-formal-report-v012", group: "action", fr: "un axe d'amélioration", pron: "uh-nahks dah-may-lyoh-rah-SYOHN", en: "an area for improvement" }
+  - { id: "b2-formal-report-v013", group: "action", fr: "un indicateur", pron: "uh-nan-dee-kah-TUHR", en: "an indicator, a measure of progress" }
+  - { id: "b2-formal-report-v014", group: "action", fr: "le suivi", pron: "luh swee-VEE", en: "the follow-up" }
+  - { id: "b2-formal-report-v015", group: "glossary", fr: "l'isolement / isolé", pron: "lee-zol-MAHN / ee-zoh-LAY", en: "isolation / isolated" }
+  - { id: "b2-formal-report-v016", group: "glossary", fr: "satisfait / satisfaite", pron: "sah-tees-FEH / sah-tees-FET", en: "satisfied" }
+  - { id: "b2-formal-report-v017", group: "action", fr: "un plan d'action", pron: "uhn plahn dak-SYOHN", en: "an action plan" }
+exercises:
+  - id: "b2-formal-report-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la partie du rapport qui présente les faits."
+    options: ["le constat", "les recommandations", "l'annexe"]
+    answers: ["le constat"]
+    explanation: "Le constat gives the findings; the recommendations come after the analysis."
+  - id: "b2-formal-report-ex002"
+    type: "fill-in"
+    prompt: "Complétez : Il ___ de réduire les coûts."
+    answers: ["convient"]
+    explanation: "Il convient de + infinitive: it's advisable to."
+  - id: "b2-formal-report-ex003"
+    type: "fill-in"
+    prompt: "Conjuguez être au subjonctif : Il importe que le rapport ___ court."
+    answers: ["soit"]
+    explanation: "Il importe que + subjunctive."
+  - id: "b2-formal-report-ex004"
+    type: "fill-in"
+    prompt: "Complétez avec un verbe à l'infinitif : Il faut maintenant ___ en œuvre ces recommandations."
+    answers: ["mettre"]
+    explanation: "Mettre en œuvre: to implement."
+  - id: "b2-formal-report-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Les salariés sont satisfaits. ___, la productivité est restée stable."
+    options: ["En outre", "Pourtant", "Faute de"]
+    answers: ["En outre"]
+    explanation: "En outre adds a second positive point. Pourtant would contrast, and faute de needs a noun."
+  - id: "b2-formal-report-ex006"
+    type: "register-shift"
+    prompt: "Transformez en style de rapport, avec « il convient de » : On doit vite changer la procédure."
+    answers: ["Il convient de changer rapidement la procédure", "Il convient de changer la procédure rapidement"]
+    explanation: "Il convient de + infinitive, and rapidement instead of the spoken vite."
+  - id: "b2-formal-report-ex007"
+    type: "register-shift"
+    prompt: "Transformez en registre courant, pour un mail à des collègues, avec « nous devons » : Il convient de réduire les coûts."
+    answers: ["Nous devons réduire les coûts"]
+    explanation: "Among colleagues, a direct nous devons replaces the impersonal phrase."
+  - id: "b2-formal-report-ex008"
+    type: "reformulation"
+    prompt: "Reformulez au passif : L'équipe mettra en œuvre ces mesures."
+    answers: ["Ces mesures seront mises en œuvre par l'équipe"]
+    explanation: "The futur passive: seront mises, agreeing with ces mesures."
+  - id: "b2-formal-report-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « il est recommandé de » : Je recommande de faire une réunion par semaine."
+    answers: ["Il est recommandé de faire une réunion par semaine"]
+    explanation: "A report avoids je: il est recommandé de + infinitive."
+  - id: "b2-formal-report-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Il importe que les salariés sont informés."
+    answers: ["Il importe que les salariés soient informés"]
+    explanation: "Il importe que takes the subjunctive: soient."
+  - id: "b2-formal-report-ex011"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « préconiser »."
+    options: ["to recommend", "to predict", "to prepare"]
+    answers: ["to recommend"]
+    explanation: "Préconiser: to recommend formally."
+  - id: "b2-formal-report-ex012"
+    type: "translate"
+    prompt: "Traduisez : It is advisable to reduce costs."
+    answers: ["Il convient de réduire les coûts", "Il est recommandé de réduire les coûts"]
+    explanation: "Il convient de or il est recommandé de + infinitive."
+  - id: "b2-formal-report-ex013"
+    type: "translate"
+    prompt: "Rédigez ce constat en complétant comme indiqué : (It appears that) les salariés (are) satisfaits. (According to) le sondage, (about) 70 % d'entre eux veulent garder le télétravail."
+    answers: ["Il apparaît que les salariés sont satisfaits. Selon le sondage, environ 70 % d'entre eux veulent garder le télétravail.", "Il apparaît que les salariés sont satisfaits. D'après le sondage, environ 70 % d'entre eux veulent garder le télétravail."]
+    explanation: "Il apparaît que + indicative, then the source and an approximate figure."
+  - id: "b2-formal-report-ex014"
+    type: "translate"
+    prompt: "Rédigez ces recommandations en complétant comme indiqué : (It is advisable to) garder deux jours de télétravail. (It is important that) chaque équipe (meets: se réunir) une fois par semaine."
+    answers: ["Il convient de garder deux jours de télétravail. Il importe que chaque équipe se réunisse une fois par semaine.", "Il est recommandé de garder deux jours de télétravail. Il importe que chaque équipe se réunisse une fois par semaine."]
+    explanation: "An impersonal recommendation, then il importe que + subjunctive."
+  - id: "b2-formal-report-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The data are in the appendix."
+    words: ["Les", "données", "sont", "en", "annexe"]
+    answers: ["Les données sont en annexe"]
+    explanation: "En annexe: in the appendix."
+---
+
+By the end of this lesson you'll be able to write a short report in French, with a clear structure, neutral findings and recommendations in an impersonal style.
+
+## What you already know
+
+You know the formal email from <LessonLink id="b1-formal-email" text="the lesson on the formal email" />, and *un rapport* (a report) from <LessonLink id="b2-futur-anterieur" text="the lesson on the futur antérieur" />. In this unit and the last, you learned the passive, the participe présent in writing, nominal style and how to present figures, in <LessonLink id="b2-presenting-data" text="the lesson on presenting data" />. A report uses all of them.
+
+## The structure of a report
+
+<VocabTable group="parts" />
+
+A French workplace report usually follows a fixed plan, with a short heading for each part.
+
+- **The subject (objet):** one line on what the report is about.
+- **The context (contexte):** why the report was asked for, and *un état des lieux* (an overview) of the situation.
+- **The findings (constat):** the facts and figures, without opinion.
+- **The analysis (analyse):** what the facts mean, with causes and consequences.
+- **The recommendations (recommandations):** what should be done, and when.
+
+Long tables and full survey results go *en annexe* (in the appendix), so that the report stays short. *Un état des lieux* here is an overview; you know it from <LessonLink id="b1-housing-and-renting" text="the lesson on housing and renting" />, where it meant the inventory check of a flat.
+
+## Impersonal style
+
+<VocabTable group="impersonal" />
+
+A report avoids *je*. The writer presents the facts and the advice as if they came from the situation itself. Four impersonal phrases do most of the work.
+
+<Example fr="Il apparaît que les salariés sont en majorité satisfaits." en="It appears that most employees are satisfied." />
+<Example fr="Il convient de réduire les coûts à court terme." en="Costs should be reduced in the short term." />
+<Example fr="Il est recommandé de faire une réunion par semaine." en="A weekly meeting is recommended." />
+<Example fr="Il importe que chaque équipe se réunisse une fois par semaine." en="It's important that each team meets once a week." />
+
+*Il apparaît que* takes the indicative, because it presents a fact. *Il importe que* takes the subjunctive, like *il faut que*. *Il convient de* and *il est recommandé de* are followed by an infinitive.
+
+The other tools you know complete the style: the passive (*les données ont été vérifiées*), the participe présent (*les salariés travaillant chez eux*), nominal phrases (*la baisse des coûts*) and the connectors from <LessonLink id="b2-logical-connectors" text="the lesson on logical connectors" /> (*en effet*, *par conséquent*, *en outre*).
+
+## Recommendations
+
+<VocabTable group="action" />
+
+A recommendation says what to do, who should do it and when. *Préconiser* (to recommend) is the formal verb. *Mettre en œuvre* (to implement) and *la mise en œuvre* (implementation) describe putting a decision into practice. Give a time frame: *à court terme* (in the short term), *à moyen terme* (in the medium term), or *à long terme*, which you know from <LessonLink id="b2-review-nuance" text="the review of Unit 1" />.
+
+<Example fr="Nous préconisons la mise en œuvre de deux mesures à court terme." en="We recommend implementing two measures in the short term." />
+
+End with *le suivi* (the follow-up): *un indicateur* (an indicator) to measure progress, and a date for the next review. *Un axe d'amélioration* (an area for improvement) is a polite way to name a weakness.
+
+<Example fr="Le temps de réponse aux clients est un axe d'amélioration." en="Response time to customers is an area for improvement." />
+<Example fr="Les avis des clients seront notre principal indicateur." en="Customer reviews will be our main indicator." />
+
+## One fact, three levels
+
+The same fact appears at three levels of a report, and each level has its own language. Keeping them apart is what makes a report clear.
+
+- In the findings, state the fact with a figure: *70 % des salariés veulent garder le télétravail*.
+- In the analysis, explain it with a connector: *en effet, le télétravail réduit le temps de transport*.
+- In the recommendations, say what to do, with an impersonal phrase: *il convient de garder les deux jours de télétravail*.
+
+If a recommendation appears in the findings, or an opinion in the analysis, move it to its own part. Readers often go straight to the recommendations, so they must make sense on their own.
+
+## Tone
+
+Keep the tone neutral and precise. Give figures rather than impressions: *70 % des salariés* is better than *beaucoup de salariés*. Put one idea per paragraph, and start each part with its heading. Avoid spoken words such as *vite* or *ça*: write *rapidement* and *cela*. When you need a personal voice, for a team, *nous* is acceptable in the recommendations: *nous préconisons*.
+
+## En français
+
+Madame Dubois, a manager, asks Léa, an intern, to write a report.
+
+- **Mme Dubois :** *Léa, j'aimerais que vous écriviez un rapport sur le télétravail dans notre société.* (Léa, I'd like you to write a report on remote working in our company.)
+- **Léa :** *Avec plaisir. Quelle forme doit-il avoir ?* (With pleasure. What form should it take?)
+- **Mme Dubois :** *Commencez par le contexte, puis faites un état des lieux : combien de salariés travaillent de chez eux, et combien de jours.* (Start with the context, then give an overview: how many employees work from home, and how many days.)
+- **Léa :** *D'accord. Et ensuite, le constat ?* (OK. And then the findings?)
+- **Mme Dubois :** *Oui. Il convient de rester neutre et de donner des chiffres.* (Yes. You should stay neutral and give figures.)
+- **Léa :** *Je peux citer le sondage de mars ?* (Can I quote the March survey?)
+- **Mme Dubois :** *Bien sûr. Mettez les tableaux en annexe, pour que le rapport reste court.* (Of course. Put the tables in the appendix, so that the report stays short.)
+- **Léa :** *Et pour les recommandations, j'écris « je recommande » ?* (And for the recommendations, do I write "I recommend"?)
+- **Mme Dubois :** *Non, préférez « il est recommandé de » ou « il importe que ».* (No, prefer "it's recommended to" or "it's important that".)
+- **Léa :** *Compris. Je vous l'envoie d'ici vendredi, avec deux ou trois pistes à court terme.* (Understood. I'll send it to you by Friday, with two or three ideas for the short term.)
+
+## A model report
+
+This is a short report on remote working in an invented company. Two words are new.
+
+<VocabTable group="glossary" />
+
+*Rapport : le télétravail, un an après*
+
+*Objet : bilan du télétravail après un an.*
+
+*Contexte : depuis janvier, les salariés peuvent travailler de chez eux deux jours par semaine.*
+
+*Constat : il apparaît que les salariés sont en majorité satisfaits. Selon le sondage de mars, environ 70 % d'entre eux veulent garder ce système. En outre, la productivité est restée stable. Certains salariés aimeraient aussi choisir leurs jours de télétravail.*
+
+*Analyse : le télétravail réduit le temps de transport, ce qui laisse plus de temps pour la famille. En revanche, certains salariés, travaillant seuls chez eux, se sentent isolés.*
+
+*Recommandations : voici notre plan d'action. Il convient de garder les deux jours de télétravail. Afin de réduire l'isolement, il est recommandé d'organiser une réunion d'équipe au bureau chaque semaine. Enfin, il importe que chaque chef d'équipe fasse le point tous les mois avec son équipe.*
+
+*Suivi : un nouvel état des lieux sera fait dans six mois. Les données du sondage sont en annexe.*
+
+(Report: remote working, one year on. Subject: review of remote working after a year. Context: since January, employees can work from home two days a week. Findings: it appears that most employees are satisfied. According to the March survey, about 70% of them want to keep this system. Furthermore, productivity has stayed stable. Some employees would also like to choose their remote-working days. Analysis: remote working reduces travel time, which leaves more time for family. On the other hand, some employees, working alone at home, feel isolated. Recommendations: here is our action plan. The two days of remote working should be kept. To reduce isolation, it's recommended to organize a team meeting at the office every week. Finally, it's important that each team leader takes stock with their team every month. Follow-up: a new overview will be carried out in six months. The survey data are in the appendix.)
+
+<Callout type="warning" title="Il importe que soient, not sont">
+  *Il importe que* works like *il faut que*: it always takes the subjunctive. *Il importe que les salariés sont informés* is wrong: write **il importe que les salariés soient informés**. *Il apparaît que*, on the other hand, takes the indicative: **il apparaît que les salariés sont satisfaits**.
+</Callout>
+
+<Callout type="tip" title="Write the recommendations first">
+  Before you write a report, decide on your two or three recommendations. Then write only the findings and analysis that lead to them. A report built backwards like this stays short and convincing, because every paragraph supports what you're asking for.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="b2-review-work" text="the review of this unit" /> brings work vocabulary and report writing together.
+
+=== b2-review-work ===
+
+---
+id: "b2-review-work"
+title: "Review: Work and the economy"
+description: "Bring the unit together in a short report on workload: findings, analysis and recommendations, with faire and laisser + infinitive, participles, the past infinitive and report style."
+level: "B2"
+unit: "Work and the economy"
+order: 40
+type: "review"
+tags: ["review", "work", "writing", "report"]
+prerequisites: ["b2-faire-causatif", "b2-participles-and-gerund", "b2-infinitif-passe", "b2-negotiating", "b2-formal-report"]
+related: ["b2-economy-and-business", "b2-meetings-and-calls", "b2-presenting-data"]
+vocab:
+  - { id: "b2-review-work-v001", fr: "la qualité de vie au travail", pron: "lah kah-lee-tay duh vee oh trah-VAH-y", en: "quality of working life" }
+  - { id: "b2-review-work-v002", fr: "un bilan d'activité", pron: "uhn bee-lahn dak-tee-vee-TAY", en: "an activity report, an annual review of work" }
+  - { id: "b2-review-work-v003", fr: "une enquête interne", pron: "ew-nahn-ket an-TEHRN", en: "an internal survey" }
+  - { id: "b2-review-work-v004", fr: "un collaborateur / une collaboratrice", pron: "uhn koh-lah-boh-rah-TUHR / ewn koh-lah-boh-rah-TREESS", en: "a colleague, a member of staff (formal)" }
+  - { id: "b2-review-work-v005", fr: "une charge de travail", pron: "ewn sharzh duh trah-VAH-y", en: "a workload" }
+  - { id: "b2-review-work-v006", fr: "épuisé / épuisée", pron: "ay-pwee-ZAY", en: "exhausted, worn out" }
+exercises:
+  - id: "b2-review-work-ex001"
+    type: "fill-in"
+    prompt: "Complétez avec faire au présent : Nous ___ réparer le chauffage par un prestataire."
+    answers: ["faisons"]
+    explanation: "Faire + infinitive: the contractor does the repair."
+  - id: "b2-review-work-ex002"
+    type: "fill-in"
+    prompt: "Complétez avec laisser au présent : Le chef ___ les collaborateurs organiser leur temps."
+    answers: ["laisse"]
+    explanation: "Laisser + infinitive: he lets them organize their time."
+  - id: "b2-review-work-ex003"
+    type: "fill-in"
+    prompt: "Mettez au participe présent (travailler) : Les salariés ___ le week-end ont une prime."
+    answers: ["travaillant"]
+    explanation: "The participe présent replaces qui travaillent."
+  - id: "b2-review-work-ex004"
+    type: "fill-in"
+    prompt: "Mettez à l'infinitif passé (finir) : Après ___ l'enquête, nous avons écrit le rapport."
+    answers: ["avoir fini"]
+    explanation: "Après + past infinitive, for the earlier action."
+  - id: "b2-review-work-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Nous embaucherons deux personnes, ___ le budget soit suffisant."
+    options: ["à condition que", "parce que", "dès que"]
+    answers: ["à condition que"]
+    explanation: "À condition que + subjunctive. Parce que and dès que take the indicative."
+  - id: "b2-review-work-ex006"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : La charge de travail a augmenté. ___, l'absentéisme a doublé."
+    options: ["Par conséquent", "Pourtant", "À moins que"]
+    answers: ["Par conséquent"]
+    explanation: "Par conséquent introduces a result."
+  - id: "b2-review-work-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase du registre soutenu, pour un rapport."
+    options: ["Il convient d'embaucher deux personnes.", "On doit vite embaucher deux personnes.", "Embauchez deux personnes, c'est tout !"]
+    answers: ["Il convient d'embaucher deux personnes."]
+    explanation: "Il convient de: the impersonal style of a report."
+  - id: "b2-review-work-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « après avoir » : Nous avons fait l'enquête, puis nous avons écrit le rapport."
+    answers: ["Après avoir fait l'enquête, nous avons écrit le rapport"]
+    explanation: "Same subject: après avoir + participle."
+  - id: "b2-review-work-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec un participe présent : Comme ils n'avaient pas le temps, les salariés n'ont pas appris le logiciel."
+    answers: ["N'ayant pas le temps, les salariés n'ont pas appris le logiciel"]
+    explanation: "N'ayant pas replaces comme + imparfait in written style."
+  - id: "b2-review-work-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Les prestataires, nous les avons faits venir lundi."
+    answers: ["Les prestataires, nous les avons fait venir lundi"]
+    explanation: "Fait doesn't agree before an infinitive."
+  - id: "b2-review-work-ex011"
+    type: "register-shift"
+    prompt: "Transformez en style de rapport, avec « il importe que » : Les chefs doivent écouter les salariés."
+    answers: ["Il importe que les chefs écoutent les salariés"]
+    explanation: "Il importe que + subjunctive: écoutent."
+  - id: "b2-review-work-ex012"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « une charge de travail »."
+    options: ["a workload", "a salary", "a work tool"]
+    answers: ["a workload"]
+    explanation: "Une charge de travail: the amount of work a person has to do."
+  - id: "b2-review-work-ex013"
+    type: "translate"
+    prompt: "Traduisez avec « dire que » : Many employees say they are exhausted."
+    answers: ["Beaucoup de salariés disent qu'ils sont épuisés", "Beaucoup de collaborateurs disent qu'ils sont épuisés"]
+    explanation: "Dire que + indicative; épuisés agrees with the plural subject."
+  - id: "b2-review-work-ex014"
+    type: "translate"
+    prompt: "Rédigez ce constat en complétant comme indiqué : (It appears that) la charge de travail (has risen: augmenter). (According to) l'enquête interne, (nearly) un collaborateur sur trois est épuisé."
+    answers: ["Il apparaît que la charge de travail a augmenté. Selon l'enquête interne, près d'un collaborateur sur trois est épuisé.", "Il apparaît que la charge de travail a augmenté. D'après l'enquête interne, près d'un collaborateur sur trois est épuisé."]
+    explanation: "Il apparaît que + indicative, a source, and près de with a figure."
+    strictAccents: true
+  - id: "b2-review-work-ex015"
+    type: "translate"
+    prompt: "Rédigez ces recommandations en complétant comme indiqué : (It is advisable to) embaucher deux personnes. Il est recommandé de (have … given: faire donner) une formation par le prestataire. Il importe que les chefs (let: laisser) les collaborateurs organiser leur temps."
+    answers: ["Il convient d'embaucher deux personnes. Il est recommandé de faire donner une formation par le prestataire. Il importe que les chefs laissent les collaborateurs organiser leur temps.", "Il est recommandé d'embaucher deux personnes. Il est recommandé de faire donner une formation par le prestataire. Il importe que les chefs laissent les collaborateurs organiser leur temps."]
+    explanation: "An impersonal recommendation, the causative, and laisser + infinitive after il importe que."
+  - id: "b2-review-work-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Let the team organize its time."
+    words: ["Laissez", "l'équipe", "organiser", "son", "temps"]
+    answers: ["Laissez l'équipe organiser son temps"]
+    explanation: "Laisser + noun + infinitive."
+---
+
+By the end of this lesson you'll be able to write a short workplace report on a real problem, with findings, analysis and recommendations.
+
+## What you've learned
+
+This unit has been about the world of work: the economy, meetings, negotiations, figures and reports. Skim this list, and go back to anything that feels shaky.
+
+- **The economy.** You know *la croissance*, *le chiffre d'affaires*, *le bénéfice* and *un licenciement*, from <LessonLink id="b2-economy-and-business" text="the lesson on the economy and business" />.
+- **Faire + infinitive.** You know *je fais réparer*, *je la fais réparer* and *laisse-moi faire*, from <LessonLink id="b2-faire-causatif" text="the lesson on faire + infinitive" />.
+- **Participles.** You know *les salariés travaillant ici*, *ayant fini* and *fatigant*, from <LessonLink id="b2-participles-and-gerund" text="the lesson on the present participle" />.
+- **The past infinitive.** You know *après être parti* and *je regrette d'avoir dit ça*, from <LessonLink id="b2-infinitif-passe" text="the lesson on the past infinitive" />.
+- **Meetings.** You know *l'ordre du jour*, *prendre la parole* and *un compte rendu*, from <LessonLink id="b2-meetings-and-calls" text="the lesson on meetings and calls" />.
+- **Negotiating.** You know *nous serions prêts à*, *en échange de* and *quitte à*, from <LessonLink id="b2-negotiating" text="the lesson on negotiating" />.
+- **Data.** You know *augmenter de*, *la moitié* and *plus… plus*, from <LessonLink id="b2-presenting-data" text="the lesson on presenting data" />.
+- **Reports.** You know *le constat*, *il convient de* and *il importe que*, from <LessonLink id="b2-formal-report" text="the lesson on writing a report" />.
+
+## A few new words
+
+These six words come up whenever a company looks at how its staff are doing.
+
+<VocabTable />
+
+*La qualité de vie au travail* is a common phrase in French companies for everything that makes work bearable: workload, hours, relations, space. *Un bilan d'activité* is the yearly review of what a team or a company has done. *Une enquête interne* is a survey of the staff. *Un collaborateur* is the formal word many companies use for an employee or a colleague. *Une charge de travail* is the amount of work someone has, and *épuisé* means exhausted. You know *le télétravail* from <LessonLink id="b1-culture-work-life" text="the lesson on work life in France" />.
+
+## Letting people do things
+
+You met *laisser* + infinitive briefly in the lesson on *faire*. It works like *faire*, with the infinitive after it and the pronouns before it, but it means letting rather than making. In a report, it's useful for recommendations about autonomy.
+
+- To let someone act, put the person between *laisser* and the infinitive: *laissez les collaborateurs organiser leur temps* (let staff organize their time).
+- With a pronoun, the pronoun goes before *laisser*: *le chef les laisse travailler de chez eux* (the manager lets them work from home).
+- After *il importe que*, *laisser* takes the subjunctive like any verb: *il importe que les chefs laissent les équipes décider*.
+
+Compare *faire*, where someone else acts because you ask them to: *nous faisons venir un prestataire*. With *laisser*, they act because you allow it.
+
+## A model report
+
+This is a short report on workload in an invented customer service team. The figures are invented.
+
+*Rapport : la charge de travail au service client*
+
+*Objet : état des lieux de la charge de travail, après le bilan d'activité de l'année.*
+
+*Constat : une enquête interne a été faite en mars. Il apparaît que la charge de travail a nettement augmenté : en moyenne, chaque collaborateur traite 30 % de demandes de plus qu'il y a deux ans. Près d'un salarié sur trois se dit épuisé, et l'absentéisme a doublé.*
+
+*Analyse : deux collaborateurs sont partis l'an dernier, et personne ne les a remplacés. Leurs dossiers ont été donnés au reste de l'équipe. En outre, après avoir choisi un nouveau logiciel, l'entreprise n'a pas laissé aux salariés le temps de l'apprendre.*
+
+*Recommandations : il convient d'embaucher deux personnes à court terme. Il est recommandé de faire donner une formation sur le logiciel par le prestataire. Enfin, il importe que les chefs d'équipe laissent les collaborateurs organiser leur temps, quitte à revoir certains objectifs.*
+
+*Suivi : une nouvelle enquête interne sera faite dans six mois, afin de voir l'évolution de la qualité de vie au travail.*
+
+(Report: workload in the customer service team. Subject: overview of the workload, following the year's activity report. Findings: an internal survey was carried out in March. It appears that the workload has clearly increased: on average, each member of staff handles 30% more requests than two years ago. Nearly one employee in three says they are exhausted, and absenteeism has doubled. Analysis: two members of staff left last year, and nobody replaced them. Their files were given to the rest of the team. Furthermore, after choosing new software, the company didn't give employees time to learn it. Recommendations: two people should be hired in the short term. It's recommended to have the contractor give training on the software. Finally, it's important that team leaders let staff organize their time, even if it means reviewing some targets. Follow-up: a new internal survey will be carried out in six months, to see how quality of working life changes.)
+
+## How the text uses the grammar
+
+- The report follows the usual plan: *objet*, *constat*, *analyse*, *recommandations* and *suivi*.
+- The impersonal phrases *il apparaît que*, *il convient de*, *il est recommandé de* and *il importe que* + subjunctive (*laissent*) keep the writer out of the text.
+- The data language from the lesson on presenting data gives the figures: *nettement*, *en moyenne*, *près de* and *a doublé*.
+- The causative and *laisser* show who acts: *faire donner une formation* means the contractor gives it, while *laissent les collaborateurs organiser* means the leaders allow it.
+- The past infinitive *après avoir choisi* marks the earlier action.
+- The negotiation phrase *quitte à revoir certains objectifs* concedes a cost, which makes the recommendation sound fair.
+
+## Your turn
+
+Choose a problem in a workplace you know: workload, meetings, tools, hours. Write a short report of five parts, on paper or in a notes app.
+
+1. **Subject and context**, in one or two sentences, with *un bilan d'activité* or *une enquête interne*.
+2. **Findings**, with *il apparaît que* and two invented figures.
+3. **Analysis**, with a past infinitive and a participe présent.
+4. **Two or three recommendations**, with *il convient de*, *il importe que* + subjunctive, and *faire* or *laisser* + infinitive.
+5. **Follow-up**, with a date and an indicator.
+
+## Check your work
+
+- Did you avoid *je*, and use impersonal phrases instead?
+- After *il importe que*, is the verb in the subjunctive?
+- With *faire* or *laisser* + infinitive, are the pronouns before *faire* or *laisser*, and is *fait* unchanged?
+- Is each participe présent unchanged, and each verbal adjective in agreement?
+- With a past infinitive, did you use *être* for verbs like *partir*?
+
+<Callout type="warning" title="Laisser les salariés décider, not de décider">
+  *Laisser*, like *faire*, is followed directly by the infinitive, with no *de*. *Laissez les collaborateurs d'organiser leur temps* is wrong: write **laissez les collaborateurs organiser leur temps**, **le chef les laisse travailler de chez eux**.
+</Callout>
+
+<Callout type="tip" title="One figure per finding">
+  When you write findings, give each one a single figure, even an approximate one: *près d'un salarié sur trois*, *30 % de demandes de plus*. A finding with a number is harder to dismiss than an impression, and it gives your recommendations a solid base.
+</Callout>
+
+## What's next
+
+The next unit is about science, health and the environment. It starts with <LessonLink id="b2-science-and-research" text="the lesson on science and research" />.

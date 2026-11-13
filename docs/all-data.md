@@ -1,6 +1,6 @@
 # All lesson data
 
-220 written lessons, in course order.
+223 written lessons, in course order.
 
 ## a1-greetings
 
@@ -6355,7 +6355,6 @@ fr | pron | en | note
 - a priori | ah pree-oh-REE | on the face of it, in principle | —
 - à première vue | ah pruh-myehr VEW | at first sight | —
 - en principe | ahn pran-SEEP | in principle, normally | —
-- avoir lieu | ah-vwahr LYUH | to take place, to be held | La réunion a lieu jeudi.
 - sur le fond | sewr luh FOHN | basically, on the substance | —
 - il me semble que | eel muh sahn-bluh KUH | it seems to me that | Followed by the indicative.
 - il semble que | eel sahn-bluh KUH | it seems that | Followed by the subjunctive.
@@ -6368,6 +6367,7 @@ fr | pron | en | note
 - partagé / partagée | par-tah-ZHAY | torn, in two minds | —
 - la semaine de quatre jours | lah suh-men duh kah-truh ZHOOR | the four-day week | —
 - les transports | lay trahns-POR | transport; here, commuting | —
+- avoir lieu | ah-vwahr LYUH | to take place, to be held | La réunion a lieu jeudi.
 
 ### Exercises
 
@@ -6377,9 +6377,9 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-nuancing-opinions-ex002 | fill-in | Complétez avec être : Il semble que la réunion ___ annulée. | — | ["soit"] | false | Il semble que is followed by the subjunctive: que la réunion soit annulée.
 - b2-nuancing-opinions-ex003 | fill-in | Complétez : Je suis d'accord avec toi, dans une certaine ___. | — | ["mesure"] | false | Dans une certaine mesure: to some extent.
 - b2-nuancing-opinions-ex004 | multiple-choice | Choisissez la phrase la plus nuancée. | ["Je dirais que c'est plutôt une bonne idée.","C'est la meilleure idée du monde.","Cette idée est très mauvaise."] | ["Je dirais que c'est plutôt une bonne idée."] | false | Je dirais que and plutôt both soften the opinion. The other two are flat.
-- b2-nuancing-opinions-ex005 | connector-choice | Choisissez le mot : ___, le projet est simple, mais il faut bien l'étudier. | ["À première vue","Jusqu'à un certain point","Partagé"] | ["À première vue"] | false | À première vue (at first sight) introduces an impression that may change.
+- b2-nuancing-opinions-ex005 | connector-choice | Choisissez le mot : ___, le projet est simple, mais il faut bien l'étudier. | ["À première vue","Grâce à","Pourquoi"] | ["À première vue"] | false | À première vue (at first sight) introduces an impression that may change.
 - b2-nuancing-opinions-ex006 | multiple-choice | Indiquez le sens de : Mon avis est mitigé. | ["My opinion is mixed.","My opinion is very strong.","I have no opinion."] | ["My opinion is mixed."] | false | Mitigé means mixed or lukewarm. It's a false friend: it doesn't mean 'mitigated'.
-- b2-nuancing-opinions-ex007 | register-shift | Transformez en opinion nuancée, avec « je dirais que » et « plutôt » : Je suis contre ce projet. | — | ["Je dirais que je suis plutôt contre ce projet"] | false | Je dirais que softens the start, and plutôt softens the position.
+- b2-nuancing-opinions-ex007 | reformulation | Transformez en opinion nuancée, avec « je dirais que » et « plutôt » : Je suis contre ce projet. | — | ["Je dirais que je suis plutôt contre ce projet"] | false | Je dirais que softens the start, and plutôt softens the position.
 - b2-nuancing-opinions-ex008 | reformulation | Reformulez avec « il me semble que » : Ce restaurant est trop cher. | — | ["Il me semble que ce restaurant est trop cher"] | false | Il me semble que + indicative: the verb stays est.
 - b2-nuancing-opinions-ex009 | reformulation | Reformulez en une phrase avec « je reconnais que…, mais… » : Le projet est cher. Il est intéressant. | — | ["Je reconnais que le projet est cher, mais il est intéressant"] | false | Reconnaître que concedes the first point; mais brings back your view.
 - b2-nuancing-opinions-ex010 | error-correction | Corrigez l'erreur : Il semble qu'il est malade. | — | ["Il semble qu'il soit malade","Il me semble qu'il est malade"] | false | Il semble que takes the subjunctive: qu'il soit. With me, il me semble que takes the indicative.
@@ -6405,7 +6405,6 @@ fr | pron | en | note
 - la crise du logement | lah kreez dew lozh-MAHN | the housing crisis | —
 - un logement social | uhn lozh-mahn soh-SYAL | social housing, a council flat | —
 - un / une sans-abri | uhn / ewn sahn-zah-BREE | a homeless person | The plural doesn't change: des sans-abri.
-- avoir du mal à | ah-vwahr dew MAHL ah | to struggle to, to find it hard to | + infinitive.
 - un immigré / une immigrée | uh-nee-mee-GRAY / ew-nee-mee-GRAY | an immigrant | —
 - s'intégrer | san-tay-GRAY | to integrate, to fit in | Like préférer: je m'intègre.
 - un chômeur / une chômeuse | uhn shoh-MUHR / ewn shoh-MUHZ | an unemployed person | —
@@ -6421,6 +6420,7 @@ fr | pron | en | note
 - réduire | ray-DWEER | to reduce | Like conduire: je réduis, nous réduisons; réduit.
 - un enjeu | uh-nahn-ZHUH | an issue, what's at stake | Plural: des enjeux.
 - une mesure | ewn muh-ZEWR | a measure, a policy | —
+- avoir du mal à | ah-vwahr dew MAHL ah | to struggle to, to find it hard to | + infinitive.
 
 ### Exercises
 
@@ -6479,7 +6479,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-subjunctive-conjunctions-ex009 | reformulation | Reformulez en une phrase avec « avant de » : Elle lit le dossier. Ensuite, elle signe. | — | ["Elle lit le dossier avant de signer","Elle lit le dossier avant de le signer","Avant de signer, elle lit le dossier","Avant de le signer, elle lit le dossier"] | false | Same subject (elle), so avant de + infinitive.
 - b2-subjunctive-conjunctions-ex010 | error-correction | Corrigez l'erreur : Bien qu'il est fatigué, il travaille. | — | ["Bien qu'il soit fatigué, il travaille","Il travaille bien qu'il soit fatigué"] | false | Bien que always takes the subjunctive: qu'il soit.
 - b2-subjunctive-conjunctions-ex011 | fill-in | Complétez : Il ne partira pas, à moins ___ trouver un travail dans une autre ville. | — | ["de"] | false | Same subject: à moins de + infinitive.
-- b2-subjunctive-conjunctions-ex012 | translate | Traduisez (tu) : I'll help you provided that you call me. | — | ["Je t'aiderai à condition que tu m'appelles","Je vais t'aider à condition que tu m'appelles"] | true | À condition que + subjunctive: que tu m'appelles.
+- b2-subjunctive-conjunctions-ex012 | translate | Traduisez (tu) : I'll help you provided that you call me. | — | ["Je t'aiderai à condition que tu m'appelles","Je vais t'aider à condition que tu m'appelles","Je t'aiderai à condition que tu me téléphones","Je vais t'aider à condition que tu me téléphones"] | true | À condition que + subjunctive: que tu m'appelles.
 - b2-subjunctive-conjunctions-ex013 | translate | Traduisez : We'll wait until he arrives. | — | ["Nous attendrons jusqu'à ce qu'il arrive","Nous allons attendre jusqu'à ce qu'il arrive","Nous attendrons qu'il arrive","Nous allons attendre qu'il arrive"] | true | Jusqu'à ce que or attendre que, both + subjunctive: qu'il arrive.
 - b2-subjunctive-conjunctions-ex014 | translate | Rédigez ces trois consignes en mettant le verbe au subjonctif : Envoyez le dossier avant que le bureau (fermer). Vous aurez une réponse à condition que le dossier (être) complet. Attendez jusqu'à ce que nous vous (appeler). | — | ["Envoyez le dossier avant que le bureau ferme. Vous aurez une réponse à condition que le dossier soit complet. Attendez jusqu'à ce que nous vous appelions.","Envoyez le dossier avant que le bureau ne ferme. Vous aurez une réponse à condition que le dossier soit complet. Attendez jusqu'à ce que nous vous appelions."] | true | Three conjunctions, three subjunctives: ferme, soit, appelions. The ne after avant que is optional.
 - b2-subjunctive-conjunctions-ex015 | reorder | Remettez dans l'ordre : Although it's late, we're going out. | — | ["Bien qu'il soit tard, nous sortons"] | false | Bien que + subjunctive, then the main clause.
@@ -6570,7 +6570,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-idioms-everyday-ex007 | fill-in | Complétez : Il faisait si chaud qu'elle est tombée dans les ___. | — | ["pommes"] | false | Tomber dans les pommes: to faint.
 - b2-idioms-everyday-ex008 | fill-in | Complétez : Cette semaine, j'ai du pain sur la ___. | — | ["planche"] | false | Avoir du pain sur la planche: to have a lot to do.
 - b2-idioms-everyday-ex009 | register-shift | Transformez en registre courant, sans expression imagée : Il m'a posé un lapin. | — | ["Il n'est pas venu au rendez-vous","Il n'est pas venu à notre rendez-vous","Il n'est pas venu à mon rendez-vous","Il n'est pas venu"] | true | The neutral version simply says that he didn't come.
-- b2-idioms-everyday-ex010 | reformulation | Reformulez avec une expression imagée : Ce téléphone coûte très cher. | — | ["Ce téléphone coûte les yeux de la tête","Ce téléphone coûte un rein"] | false | Both idioms mean very expensive. Coûter un rein is the more informal one.
+- b2-idioms-everyday-ex010 | reformulation | Reformulez avec une expression imagée : Cette voiture coûte très cher. | — | ["Cette voiture coûte les yeux de la tête","Cette voiture coûte un rein"] | false | Both idioms mean very expensive. Coûter un rein is the more informal one.
 - b2-idioms-everyday-ex011 | error-correction | Corrigez l'erreur : Je donne ma langue au chien. | — | ["Je donne ma langue au chat"] | false | The animal is fixed: donner sa langue au chat.
 - b2-idioms-everyday-ex012 | translate | Traduisez avec une expression imagée : It's pouring. | — | ["Il pleut des cordes"] | false | Il pleut des cordes, not des chats et des chiens.
 - b2-idioms-everyday-ex013 | translate | Traduisez : This phone costs an arm and a leg. | — | ["Ce téléphone coûte les yeux de la tête","Ce portable coûte les yeux de la tête","Ce téléphone coûte un rein","Ce portable coûte un rein"] | false | Coûter les yeux de la tête is the French equivalent; coûter un rein is more informal.
@@ -6697,7 +6697,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-review-nuance-ex012 | multiple-choice | Choisissez le sens de « un juste milieu ». | ["a happy medium","a city centre","an opinion piece"] | ["a happy medium"] | false | Un juste milieu is a balance between two extremes.
 - b2-review-nuance-ex013 | translate | Traduisez : In the long term, this measure can reduce inequality. | — | ["À long terme, cette mesure peut réduire les inégalités","Cette mesure peut réduire les inégalités à long terme"] | true | À long terme can start or end the sentence.
 - b2-review-nuance-ex014 | translate | Traduisez ce paragraphe avec « certes », « néanmoins » et « donc » : Admittedly, this measure is expensive. Nevertheless, it reduces inequality. So we have to find a happy medium. | — | ["Certes, cette mesure coûte cher. Néanmoins, elle réduit les inégalités. Il faut donc trouver un juste milieu.","Certes, cette mesure coûte cher. Néanmoins, elle réduit les inégalités. Donc, il faut trouver un juste milieu.","Certes, cette mesure est chère. Néanmoins, elle réduit les inégalités. Il faut donc trouver un juste milieu.","Certes, cette mesure est chère. Néanmoins, elle réduit les inégalités. Donc, il faut trouver un juste milieu."] | false | Certes concedes the point, néanmoins answers it, and donc leads to the conclusion.
-- b2-review-nuance-ex015 | translate | Traduisez ce paragraphe : Our goal is to reconcile the city centre and families. We're writing this opinion piece so that the town hall acts. | — | ["Notre objectif est de concilier le centre-ville et les familles. Nous écrivons cette tribune pour que la mairie agisse.","Notre objectif est de concilier le centre-ville et les familles. Nous écrivons cette tribune afin que la mairie agisse.","Notre objectif est de concilier le centre-ville et les familles. Nous écrivons cette tribune de sorte que la mairie agisse."] | false | Concilier + two nouns, then pour que, afin que or de sorte que + subjunctive.
+- b2-review-nuance-ex015 | translate | Traduisez ce paragraphe : Our goal is to reconcile the city centre and families. We're writing this opinion piece so that the town hall acts. | — | ["Notre objectif est de concilier le centre-ville et les familles. Nous écrivons cette tribune pour que la mairie agisse.","Notre objectif est de concilier le centre-ville et les familles. Nous écrivons cette tribune afin que la mairie agisse.","Notre objectif est de concilier le centre-ville et les familles. Nous écrivons cette tribune de sorte que la mairie agisse.","Notre but est de concilier le centre-ville et les familles. Nous écrivons cette tribune pour que la mairie agisse.","Notre but est de concilier le centre-ville et les familles. Nous écrivons cette tribune afin que la mairie agisse.","Notre but est de concilier le centre-ville et les familles. Nous écrivons cette tribune de sorte que la mairie agisse."] | false | Concilier + two nouns, then pour que, afin que or de sorte que + subjunctive.
 - b2-review-nuance-ex016 | reorder | Remettez dans l'ordre : It seems to me that we have to find a happy medium. | — | ["Il me semble qu'il faut trouver un juste milieu"] | false | Il me semble que + indicative: il faut.
 
 ## b2-conditionnel-passe
@@ -6716,7 +6716,6 @@ fr | pron | en | note
 - un tournant | uhn toor-NAHN | a turning point | —
 - envisager | ahn-vee-zah-ZHAY | to consider | Envisager de + infinitive. Like manger: nous envisageons.
 - autrement | oh-truh-MAHN | differently, otherwise | —
-- la médecine | lah mayd-SEEN | medicine (the subject, the profession) | —
 - selon des sources proches de | suh-lohn day soorss PROSH duh | according to sources close to | —
 - un bilan | uhn bee-LAHN | a toll (of victims, in the news) | —
 - un blessé / une blessée | uhn bleh-SAY / ewn bleh-SAY | an injured person | —
@@ -6724,13 +6723,14 @@ fr | pron | en | note
 - non confirmé / non confirmée | nohn kohn-feer-MAY | unconfirmed | —
 - le conditionnel passé | luh kohn-dee-syoh-nel pah-SAY | the conditionnel passé (past conditional) | —
 - le participe passé | luh par-tee-seep pah-SAY | the past participle | —
+- la médecine | lah mayd-SEEN | medicine (the subject, the profession) | —
 
 ### Exercises
 
 id | type | prompt | options | answers | strictAccents | explanation
 
 - b2-conditionnel-passe-ex001 | fill-in | Mettez au conditionnel passé (aimer) : Elle ___ voyager plus jeune. | — | ["aurait aimé"] | true | Aimer takes avoir: elle aurait aimé.
-- b2-conditionnel-passe-ex002 | fill-in | Mettez au conditionnel passé (partir) : À sa place, Paul ___ plus tôt. | — | ["serait parti"] | false | Partir takes être: Paul serait parti.
+- b2-conditionnel-passe-ex002 | fill-in | Mettez au conditionnel passé (partir) : Avec un meilleur horaire de train, Paul ___ plus tôt. | — | ["serait parti"] | false | Partir takes être: Paul serait parti.
 - b2-conditionnel-passe-ex003 | fill-in | Mettez au conditionnel passé (venir) : Avec plus de temps, mes parents ___ nous voir. | — | ["seraient venus"] | false | Venir takes être, and venus agrees with mes parents.
 - b2-conditionnel-passe-ex004 | fill-in | Mettez au conditionnel passé (pouvoir) : Avec une voiture, tu ___ arriver à l'heure. | — | ["aurais pu"] | false | Pouvoir takes avoir: tu aurais pu.
 - b2-conditionnel-passe-ex005 | multiple-choice | Choisissez la bonne forme : Elle ___ restée à la maison. | ["serait","aurait","aurais"] | ["serait"] | false | Rester takes être, as in the passé composé: elle serait restée.
@@ -6763,8 +6763,8 @@ fr | pron | en | note
 - au dernier moment | oh dehr-nyay moh-MAHN | at the last minute | —
 - de justesse | duh zhews-TESS | only just, narrowly | —
 - faillir | fah-YEER | to almost do | Passé composé + infinitive: j'ai failli tomber.
-- presque | PRESK | almost, nearly | —
 - se douter (de / que) | suh doo-TAY (duh / kuh) | to suspect | False friend: douter de means to doubt. Se douter que + indicative.
+- presque | PRESK | almost, nearly | —
 
 ### Exercises
 
@@ -6856,16 +6856,16 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-futur-anterieur-ex002 | fill-in | Mettez au futur antérieur (partir) : Quand tu arriveras, Paul ___. | — | ["sera parti"] | false | Partir takes être: Paul sera parti.
 - b2-futur-anterieur-ex003 | fill-in | Mettez au futur antérieur (arriver) : Appelle-moi dès que tu ___. | — | ["seras arrivé","seras arrivée"] | false | Arriver takes être: tu seras arrivé, or arrivée.
 - b2-futur-anterieur-ex004 | fill-in | Mettez au futur antérieur (lire) : Une fois que j'___ le dossier, je t'appellerai. | — | ["aurai lu"] | false | Une fois que + futur antérieur for the earlier action: j'aurai lu.
-- b2-futur-anterieur-ex005 | multiple-choice | Choisissez la bonne forme : Dès que j'___ mon travail, je partirai. | ["aurai fini","aurais fini","avais fini"] | ["aurai fini"] | false | The work is finished before you leave, so dès que takes the futur antérieur.
+- b2-futur-anterieur-ex005 | multiple-choice | Choisissez la bonne forme : Dès que j'___ mon travail, je partirai. | ["aurai fini","aurais fini","avais fini"] | ["aurai fini"] | false | The work will be finished before you leave, so dès que takes the futur antérieur, which stresses completion.
 - b2-futur-anterieur-ex006 | multiple-choice | Indiquez le sens de : Paul n'est pas venu ? Il aura oublié. | ["He's probably forgotten.","He will forget.","He would forget."] | ["He's probably forgotten."] | false | Here the futur antérieur is a guess about the past.
 - b2-futur-anterieur-ex007 | connector-choice | Choisissez le connecteur : Il est beaucoup plus heureux ___ il habite à Lyon. | ["depuis qu'","dès qu'","une fois qu'"] | ["depuis qu'"] | false | Depuis que + indicative: a situation that started in the past and continues.
 - b2-futur-anterieur-ex008 | reformulation | Reformulez avec « dès que » et le futur antérieur : Je finirai, puis je partirai. | — | ["Dès que j'aurai fini, je partirai","Je partirai dès que j'aurai fini"] | true | The first action takes the futur antérieur, the second the futur.
 - b2-futur-anterieur-ex009 | reformulation | Reformulez avec le futur antérieur : Il a sûrement oublié. | — | ["Il aura oublié"] | false | The futur antérieur alone can express a guess: il aura oublié.
-- b2-futur-anterieur-ex010 | error-correction | Corrigez l'erreur : Je t'appellerai quand j'ai fini. | — | ["Je t'appellerai quand j'aurai fini"] | false | Both actions are in the future, so quand takes the futur antérieur for the earlier one.
-- b2-futur-anterieur-ex011 | fill-in | Complétez : Le projet sera fini ___ la fin du mois. | — | ["d'ici"] | false | D'ici + a point in time: by the end of the month.
-- b2-futur-anterieur-ex012 | translate | Traduisez : By Friday, we will have finished the report. | — | ["D'ici vendredi, nous aurons fini le rapport","Nous aurons fini le rapport d'ici vendredi"] | false | D'ici + the deadline, and the futur antérieur.
-- b2-futur-anterieur-ex013 | translate | Traduisez avec « appeler » (tu, à un homme) : Call me as soon as you've arrived. | — | ["Appelle-moi dès que tu seras arrivé"] | true | Dès que + futur antérieur, where English uses 'you've arrived'.
-- b2-futur-anterieur-ex014 | translate | Rédigez en complétant comme indiqué : D'ici lundi, nous (will have finished) la première étape. Dès que Sophie (has sent) les documents, j'(will write) le rapport. Une fois que nous (have delivered) le projet, nous (will celebrate) la fin du projet. | — | ["D'ici lundi, nous aurons fini la première étape. Dès que Sophie aura envoyé les documents, j'écrirai le rapport. Une fois que nous aurons livré le projet, nous fêterons la fin du projet."] | true | The futur antérieur for each earlier action, the futur for each later one.
+- b2-futur-anterieur-ex010 | error-correction | Corrigez l'erreur : Je t'appellerai quand j'ai fini. | — | ["Je t'appellerai quand j'aurai fini"] | false | With a futur in the main clause, the passé composé after quand is wrong. The call comes once the work is finished, so the futur antérieur: quand j'aurai fini.
+- b2-futur-anterieur-ex011 | fill-in | Complétez : Le projet sera fini ___ la fin du mois. | — | ["d'ici","avant","pour"] | false | D'ici + a point in time: by the end of the month. D'ici is the one to learn; avant and pour also fit.
+- b2-futur-anterieur-ex012 | translate | Traduisez avec « finir » : By Friday, we will have finished the report. | — | ["D'ici vendredi, nous aurons fini le rapport","Nous aurons fini le rapport d'ici vendredi"] | false | D'ici + the deadline, and the futur antérieur.
+- b2-futur-anterieur-ex013 | translate | Traduisez avec « appeler » et « dès que » (tu, à un homme) : Call me as soon as you've arrived. | — | ["Appelle-moi dès que tu seras arrivé"] | true | Dès que + futur antérieur, where English uses 'you've arrived'.
+- b2-futur-anterieur-ex014 | translate | Rédigez en complétant comme indiqué : D'ici lundi, nous (will have finished: finir) la première étape. Dès que Sophie (has sent: envoyer) les documents, j'(will write: écrire) le rapport. Une fois que nous (have delivered: livrer) le projet, nous (will celebrate: fêter) la fin du projet. | — | ["D'ici lundi, nous aurons fini la première étape. Dès que Sophie aura envoyé les documents, j'écrirai le rapport. Une fois que nous aurons livré le projet, nous fêterons la fin du projet."] | true | The futur antérieur for each earlier action, the futur for each later one.
 - b2-futur-anterieur-ex015 | reorder | Remettez dans l'ordre : He will have left before noon. | — | ["Il sera parti avant midi"] | false | Être in the futur, then the participle.
 
 ## b2-subjonctif-passe
@@ -6905,7 +6905,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-subjonctif-passe-ex011 | fill-in | Complétez : Je voudrais te ___ de ton diplôme. | — | ["féliciter"] | false | Féliciter quelqu'un de: to congratulate someone on.
 - b2-subjonctif-passe-ex012 | translate | Traduisez avec « content » et « tu » (un homme parle à une femme) : I'm glad you came. | — | ["Je suis content que tu sois venue"] | false | Content que + past subjunctive; venue agrees with the woman.
 - b2-subjonctif-passe-ex013 | translate | Traduisez : Although she left early, she passed. | — | ["Bien qu'elle soit partie tôt, elle a réussi","Elle a réussi bien qu'elle soit partie tôt"] | true | Bien que + past subjunctive: qu'elle soit partie.
-- b2-subjonctif-passe-ex014 | translate | Rédigez cette carte en complétant comme indiqué : Chère Emma, nous sommes ravis que tu (have passed) ton examen. Bien que tu (have been) malade, tu as réussi ! (Congratulations) et à bientôt ! | — | ["Chère Emma, nous sommes ravis que tu aies réussi ton examen. Bien que tu aies été malade, tu as réussi ! Félicitations et à bientôt !","Chère Emma, nous sommes ravis que tu aies réussi ton examen. Bien que tu aies été malade, tu as réussi ! Bravo et à bientôt !"] | true | Two past subjunctives, after ravis que and bien que.
+- b2-subjonctif-passe-ex014 | translate | Rédigez cette carte en complétant comme indiqué : Chère Emma, nous sommes ravis que tu (have passed: réussir) ton examen. Bien que tu (have been: être) malade, tu as réussi ! (Congratulations) et à bientôt ! | — | ["Chère Emma, nous sommes ravis que tu aies réussi ton examen. Bien que tu aies été malade, tu as réussi ! Félicitations et à bientôt !","Chère Emma, nous sommes ravis que tu aies réussi ton examen. Bien que tu aies été malade, tu as réussi ! Bravo et à bientôt !"] | true | Two past subjunctives, after ravis que and bien que.
 - b2-subjonctif-passe-ex015 | reorder | Remettez dans l'ordre : I'm relieved that you've arrived. | — | ["Je suis soulagé que tu sois arrivé"] | false | Soulagé que + past subjunctive.
 
 ## b2-regret-and-reproach
@@ -6945,14 +6945,14 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-regret-and-reproach-ex004 | multiple-choice | Choisissez l'excuse du registre soutenu. | ["Je vous présente mes excuses.","Désolé !","Pardon !"] | ["Je vous présente mes excuses."] | false | Présenter ses excuses is formal. Désolé and pardon are everyday words.
 - b2-regret-and-reproach-ex005 | connector-choice | Choisissez le connecteur : ___ j'avais écouté tes conseils ! | ["Si seulement","Même si","Bien que"] | ["Si seulement"] | false | Si seulement + plus-que-parfait expresses a regret about the past.
 - b2-regret-and-reproach-ex006 | register-shift | Transformez en registre soutenu, avec « présenter ses excuses » : Désolé pour le retard ! | — | ["Je vous présente mes excuses pour le retard","Je vous présente toutes mes excuses pour le retard","Je vous présente mes excuses pour mon retard","Je vous présente toutes mes excuses pour mon retard"] | false | Je vous présente mes excuses pour + noun is the formal apology.
-- b2-regret-and-reproach-ex007 | register-shift | Transformez en registre courant, avec « désolé » (un homme parle) : Je vous présente mes excuses pour mon absence. | — | ["Désolé pour mon absence","Je suis désolé pour mon absence"] | false | Désolé pour + noun is the everyday apology.
+- b2-regret-and-reproach-ex007 | register-shift | Transformez en registre courant, avec « désolé » (un homme parle) : Je vous présente mes excuses pour mon absence. | — | ["Désolé pour mon absence","Je suis désolé pour mon absence","Désolé de mon absence","Je suis désolé de mon absence"] | false | Désolé pour + noun is the everyday apology.
 - b2-regret-and-reproach-ex008 | reformulation | Reformulez avec « tu aurais pu » : Pourquoi tu n'as pas appelé ? | — | ["Tu aurais pu appeler","Tu aurais pu m'appeler","Tu aurais pu me téléphoner"] | false | The question becomes a reproach: tu aurais pu + infinitive.
 - b2-regret-and-reproach-ex009 | reformulation | Reformulez avec « regretter de » : Je dois partir, et je le regrette. | — | ["Je regrette de devoir partir"] | false | Regretter de + infinitive, with one subject.
 - b2-regret-and-reproach-ex010 | error-correction | Corrigez l'erreur : J'aurais dû de venir. | — | ["J'aurais dû venir"] | true | Devoir is followed directly by the infinitive, with no de.
 - b2-regret-and-reproach-ex011 | fill-in | Complétez avec reprocher au présent : Il ___ à son frère d'être toujours en retard. | — | ["reproche"] | false | Reprocher à quelqu'un de + infinitive.
 - b2-regret-and-reproach-ex012 | translate | Traduisez : I should have listened to you. | — | ["J'aurais dû t'écouter","J'aurais dû vous écouter"] | true | J'aurais dû + infinitive. Écouter takes a direct object, so te or vous.
-- b2-regret-and-reproach-ex013 | translate | Rédigez ce message en complétant comme indiqué (une femme écrit) : (I'm really sorry), j'ai oublié ton anniversaire. (I should have) regarder mon calendrier. (It won't happen again). | — | ["Je suis vraiment désolée, j'ai oublié ton anniversaire. J'aurais dû regarder mon calendrier. Ça ne se reproduira pas."] | true | An apology, a regret with j'aurais dû, and a promise.
-- b2-regret-and-reproach-ex014 | translate | Rédigez ce message à un collègue en complétant comme indiqué (vous) : Bonjour Marc, (you could have) me prévenir : la réunion était à dix heures. (Next time), merci de m'envoyer un message. | — | ["Bonjour Marc, vous auriez pu me prévenir : la réunion était à dix heures. La prochaine fois, merci de m'envoyer un message."] | true | Vous auriez pu makes a polite but clear reproach; la prochaine fois turns it into a request.
+- b2-regret-and-reproach-ex013 | translate | Rédigez ce message en complétant comme indiqué (une femme écrit) : (I'm really sorry: désolé), j'ai oublié ton anniversaire. (I should have: devoir) regarder mon calendrier. (It won't happen again: se reproduire). | — | ["Je suis vraiment désolée, j'ai oublié ton anniversaire. J'aurais dû regarder mon calendrier. Ça ne se reproduira pas.","Je suis vraiment désolée, j'ai oublié ton anniversaire. J'aurais dû regarder mon calendrier. Cela ne se reproduira pas.","Je suis vraiment désolée, j'ai oublié ton anniversaire. J'aurais dû regarder mon calendrier. Ça ne se reproduira plus.","Je suis vraiment désolée, j'ai oublié ton anniversaire. J'aurais dû regarder mon calendrier. Cela ne se reproduira plus."] | true | An apology, a regret with j'aurais dû, and a promise.
+- b2-regret-and-reproach-ex014 | translate | Rédigez ce message à un collègue en complétant comme indiqué (vous) : Bonjour Marc, (you could have) me prévenir : la réunion était à dix heures. (Next time), merci de m'envoyer un message. | — | ["Bonjour Marc, vous auriez pu me prévenir : la réunion était à dix heures. La prochaine fois, merci de m'envoyer un message.","Bonjour Marc, vous auriez pu me prévenir : la réunion était à dix heures. À l'avenir, merci de m'envoyer un message."] | true | Vous auriez pu makes a polite but clear reproach; la prochaine fois turns it into a request.
 - b2-regret-and-reproach-ex015 | reorder | Remettez dans l'ordre : You should have told me. | — | ["Tu aurais dû me le dire"] | false | Tu aurais dû, then the pronouns before the infinitive.
 
 ## b2-review-what-might-have-been
@@ -6984,8 +6984,8 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-review-what-might-have-been-ex011 | error-correction | Corrigez l'erreur : Si j'aurais pris le train d'après, je travaillerais dans une banque. | — | ["Si j'avais pris le train d'après, je travaillerais dans une banque"] | false | No conditionnel after si meaning 'if': si j'avais pris.
 - b2-review-what-might-have-been-ex012 | register-shift | Transformez en reproche plus doux, avec « tu aurais pu » et « peut-être » : Tu aurais dû m'appeler ! | — | ["Tu aurais peut-être pu m'appeler","Tu aurais pu m'appeler, peut-être"] | false | Tu aurais pu is softer than tu aurais dû, and peut-être softens it further.
 - b2-review-what-might-have-been-ex013 | translate | Traduisez : In hindsight, it was a turning point. | — | ["Avec le recul, c'était un tournant","Rétrospectivement, c'était un tournant","Avec le recul, ça a été un tournant","Rétrospectivement, ça a été un tournant"] | true | Avec le recul or rétrospectivement, then un tournant.
-- b2-review-what-might-have-been-ex014 | translate | Rédigez en complétant comme indiqué : Il y a cinq ans, ma vie (changed completely). (By chance), j'ai rencontré une amie à la gare. Elle m'a proposé un poste à Paris. | — | ["Il y a cinq ans, ma vie a basculé. Par hasard, j'ai rencontré une amie à la gare. Elle m'a proposé un poste à Paris."] | true | Basculer in the passé composé, with avoir, and par hasard.
-- b2-review-what-might-have-been-ex015 | translate | Rédigez en complétant comme indiqué : Si je n'(had met) cette amie, j'(would still live) à Lyon. (In hindsight), je ne regrette rien. | — | ["Si je n'avais pas rencontré cette amie, j'habiterais encore à Lyon. Avec le recul, je ne regrette rien.","Si je n'avais pas rencontré cette amie, j'habiterais encore à Lyon. Rétrospectivement, je ne regrette rien."] | true | A past condition with a present result, then a look back.
+- b2-review-what-might-have-been-ex014 | translate | Rédigez en complétant comme indiqué : Il y a cinq ans, ma vie (changed completely: basculer). (By chance), j'ai rencontré une amie à la gare. Elle m'a proposé un poste à Paris. | — | ["Il y a cinq ans, ma vie a basculé. Par hasard, j'ai rencontré une amie à la gare. Elle m'a proposé un poste à Paris."] | true | Basculer in the passé composé, with avoir, and par hasard.
+- b2-review-what-might-have-been-ex015 | translate | Rédigez en complétant comme indiqué : Si je (had not met) cette amie, j'(would still live) à Lyon. (In hindsight), je ne regrette rien. | — | ["Si je n'avais pas rencontré cette amie, j'habiterais encore à Lyon. Avec le recul, je ne regrette rien.","Si je n'avais pas rencontré cette amie, j'habiterais encore à Lyon. Rétrospectivement, je ne regrette rien.","Si je n'avais pas rencontré cette amie, je vivrais encore à Lyon. Avec le recul, je ne regrette rien.","Si je n'avais pas rencontré cette amie, je vivrais encore à Lyon. Rétrospectivement, je ne regrette rien."] | true | A past condition with a present result, then a look back.
 - b2-review-what-might-have-been-ex016 | reorder | Remettez dans l'ordre : My life changed completely ten years ago. | — | ["Ma vie a basculé il y a dix ans"] | false | Passé composé, then il y a + a length of time.
 
 ## b2-politics-and-society
@@ -7045,7 +7045,6 @@ fr | pron | en | note
 
 - le discours indirect | luh dees-koor an-dee-REKT | reported speech, indirect speech | —
 - la concordance des temps | lah kohn-kor-dahnss day TAHN | the sequence of tenses | —
-- l'imparfait | lan-par-FEH | the imparfait (the tense) | —
 - une promesse | ewn proh-MESS | a promise | —
 - promettre que | proh-meh-truh KUH | to promise that | Like mettre: il a promis.
 - assurer que | ah-sew-ray KUH | to assure that, to insist that | —
@@ -7056,6 +7055,7 @@ fr | pron | en | note
 - prononcer un discours | proh-nohn-say uhn dees-KOOR | to give a speech | —
 - une conférence de presse | ewn kohn-fay-rahnss duh PRESS | a press conference | —
 - un entretien | uh-nahn-truh-TYAN | an interview (in the media) | —
+- l'imparfait | lan-par-FEH | the imparfait (the tense) | —
 
 ### Exercises
 
@@ -7138,15 +7138,15 @@ fr | pron | en | note
 - s'interroger sur | san-teh-roh-zhay SEWR | to wonder about, to question | —
 - nier | nee-YAY | to deny | Nier que + subjunctive.
 - démentir | day-mahn-TEER | to deny officially | Like partir: il dément, il a démenti.
-- faire semblant de | fehr sahn-blahn DUH | to pretend to | + infinitive.
 - admettre | ad-MEH-truh | to admit | Like mettre: il a admis.
 - avouer | ah-voo-AY | to confess, to own up | —
-- prendre du retard | prahn-druh dew ruh-TAR | to fall behind, to be delayed | —
 - la veille | lah VEH-y | the day before | La veille au soir: the evening before.
 - le lendemain | luh lahn-duh-MAN | the next day, the day after | —
 - à ce moment-là | ah suh moh-mahn LAH | at that moment, at that time | —
 - précédent / précédente | pray-say-DAHN / pray-say-DAHNT | previous, before | La semaine précédente: the week before.
 - suivant / suivante | swee-VAHN / swee-VAHNT | following, next | L'année suivante: the following year.
+- faire semblant de | fehr sahn-blahn DUH | to pretend to | + infinitive.
+- prendre du retard | prahn-druh dew ruh-TAR | to fall behind, to be delayed | —
 
 ### Exercises
 
@@ -7329,8 +7329,8 @@ fr | pron | en | note
 - l'auteur / l'autrice d'un article | loh-TUHR / loh-TREESS dun-nar-TEEKL | the writer of an article | You know un auteur from cinema and books.
 - la rentrée | lah rahn-TRAY | the start of the academic year (in September) | —
 - consacrer | kohn-sah-KRAY | to spend (time, money) on, to devote to | Consacrer quelque chose à…
-- de leur côté | duh luhr koh-TAY | for their part | —
 - une résidence étudiante | ewn ray-zee-dahnss ay-tew-DYAHNT | a student residence, a hall of residence | —
+- de leur côté | duh luhr koh-TAY | for their part | —
 
 ### Exercises
 
@@ -7924,7 +7924,6 @@ fr | pron | en | note
 - ce serait envisageable | suh suh-reh ahn-vee-zah-ZHAH-bluh | it could be considered | —
 - une remise | ewn ruh-MEEZ | a discount (on a price) | —
 - baisser | beh-SAY | to lower, to go down | Baisser le prix.
-- élevé / élevée | ay-luh-VAY | high (of a price, a level) | —
 - en échange de | ahn-nay-SHAHNZH duh | in exchange for | —
 - dans ce cas | dahn suh KAH | in that case | —
 - quitte à | KEET ah | even if it means | + infinitive.
@@ -7935,6 +7934,7 @@ fr | pron | en | note
 - trouver un terrain d'entente | troo-vay uhn teh-ran dahn-TAHNT | to find common ground | —
 - conclure un accord | kohn-klew-ruh-nah-KOR | to strike a deal, to conclude an agreement | —
 - un engagement | uh-nahn-gahzh-MAHN | a commitment | —
+- élevé / élevée | ay-luh-VAY | high (of a price, a level) | —
 
 ### Exercises
 
@@ -8028,10 +8028,10 @@ fr | pron | en | note
 - à court terme / à moyen terme | ah koor TEHRM / ah mwah-yan TEHRM | in the short term / in the medium term | —
 - un axe d'amélioration | uh-nahks dah-may-lyoh-rah-SYOHN | an area for improvement | —
 - un indicateur | uh-nan-dee-kah-TUHR | an indicator, a measure of progress | —
-- un plan d'action | uhn plahn dak-SYOHN | an action plan | —
 - le suivi | luh swee-VEE | the follow-up | —
 - l'isolement / isolé | lee-zol-MAHN / ee-zoh-LAY | isolation / isolated | —
 - satisfait / satisfaite | sah-tees-FEH / sah-tees-FET | satisfied | —
+- un plan d'action | uhn plahn dak-SYOHN | an action plan | —
 
 ### Exercises
 
@@ -8146,9 +8146,7 @@ fr | pron | en | note
 - une mutuelle | ewn mew-TWEL | top-up health insurance | —
 - le reste à charge | luh res-tah SHARZH | out-of-pocket costs (what the patient still pays) | —
 - la prise en charge | lah pree-zahn SHARZH | coverage; the care given to a patient | —
-- un adulte / une adulte | uh-nah-DEWLT / ew-nah-DEWLT | an adult | —
 - un généraliste | uhn zhay-nay-rah-LEEST | a GP, a general practitioner | —
-- passer par | pah-say PAR | to go through (a person or a step) | —
 - un spécialiste | uhn spay-syah-LEEST | a specialist | —
 - les urgences | lay-zewr-ZHAHNSS | A&E, the emergency department | —
 - une clinique | ewn klee-NEEK | a private hospital | False friend: not a GP's surgery.
@@ -8162,6 +8160,8 @@ fr | pron | en | note
 - se faire vacciner | suh fehr vak-see-NAY | to get vaccinated | —
 - un désert médical | uhn day-zehr may-dee-KAHL | an area with too few doctors | —
 - un délai d'attente | uhn day-leh dah-TAHNT | a waiting time | —
+- un adulte / une adulte | uh-nah-DEWLT / ew-nah-DEWLT | an adult | —
+- passer par | pah-say PAR | to go through (a person or a step) | —
 
 ### Exercises
 
@@ -8244,7 +8244,6 @@ fr | pron | en | note
 - annoncer le plan | ah-nohn-say luh PLAHN | to announce the outline | —
 - dans un premier temps | dahn-zuhn pruh-myay TAHN | first, in a first part | —
 - dans un second temps | dahn-zuhn suh-gohn TAHN | second, in a second part | The c of second sounds like g.
-- dans un troisième temps | dahn-zuhn troh-zyem TAHN | third, in a third part | For a plan in three parts, such as thesis, antithesis, synthesis. Some writers then say dans un deuxième temps for the second part.
 - force est de constater que | forss eh duh kohn-stah-TAY kuh | one has to admit that | + indicative. Formal.
 - il s'agit de | eel sah-ZHEE duh | it's a matter of, it's about | Impersonal: only il. + noun or infinitive.
 - étayer | ay-teh-YAY | to support (an argument) | —
@@ -8258,6 +8257,7 @@ fr | pron | en | note
 - un enseignant / une enseignante | uh-nahn-seh-NYAHN / ew-nahn-seh-NYAHNT | a teacher | —
 - autoriser | oh-toh-ree-ZAY | to allow | —
 - un équilibre | uh-nay-kee-LEE-bruh | a balance | —
+- dans un troisième temps | dahn-zuhn troh-zyem TAHN | third, in a third part | For a plan in three parts, such as thesis, antithesis, synthesis. Some writers then say dans un deuxième temps for the second part.
 
 ### Exercises
 
@@ -8836,3 +8836,132 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-false-friends-ex013 | translate | Traduisez au passé composé : I attended the meeting. | — | ["J'ai assisté à la réunion"] | true | Assister à + the event.
 - b2-false-friends-ex014 | translate | Rédigez en complétant comme indiqué : Hier, j'ai (attended) un concert. Mais c'était (a disappointment). Nous avons pris (a coach) pour rentrer. | — | ["Hier, j'ai assisté à un concert. Mais c'était une déception. Nous avons pris un car pour rentrer."] | true | Assister à, une déception and un car: three false friends used correctly.
 - b2-false-friends-ex015 | reorder | Remettez dans l'ordre : This street is very wide. | — | ["Cette rue est très large"] | false | Large means wide.
+
+## b2-debating
+
+### Vocab
+
+fr | pron | en | note
+
+- un modérateur / une modératrice | uhn moh-day-rah-TUHR / ewn moh-day-rah-TREESS | a moderator, a presenter of a debate | —
+- le temps de parole | luh tahn duh pah-ROL | speaking time | —
+- avoir le dernier mot | ah-vwahr luh dehr-nyay MOH | to have the last word | —
+- couper la parole à | koo-pay lah pah-ROL ah | to interrupt (someone) | —
+- si je peux me permettre | see zhuh puh muh pehr-MEH-truh | if I may | —
+- permettez-moi de | pehr-meh-tay-MWAH duh | allow me to | —
+- laisser finir | leh-say fee-NEER | to let (someone) finish | Laissez-moi finir: let me finish.
+- je ne vous ai pas interrompu | zhuh nuh voo-zay pah-zan-teh-rohn-PEW | I didn't interrupt you | Interrompre: to interrupt. Interrompue for a woman.
+- réfuter | ray-few-TAY | to refute, to argue against | —
+- contredire | kohn-truh-DEER | to contradict | Vous contredisez (not contredites).
+- objecter que | ob-zhek-tay KUH | to object that | —
+- une objection | ew-nob-zhek-SYOHN | an objection | —
+- je maintiens que | zhuh man-tyan KUH | I maintain that | —
+- un argument de poids | uh-nar-gew-mahn duh PWAH | a strong argument | —
+- partager l'avis de quelqu'un | par-tah-zhay lah-VEE duh kel-KUHN | to share someone's opinion | —
+- revenons-en à | ruh-vuh-nohn-zahn AH | let's get back to | —
+- là n'est pas la question | lah neh pah lah kes-TYOHN | that's not the point | —
+- ce n'est pas le sujet | suh neh pah luh sew-ZHEH | that's not what we're discussing | —
+- rebondir sur | ruh-bohn-deer SEWR | to pick up on (what someone said) | New meaning: rebondir alone is to bounce back.
+- un commerçant / une commerçante | uhn koh-mehr-SAHN / ewn koh-mehr-SAHNT | a shopkeeper | —
+- un piéton / une piétonne | uhn pyay-TOHN / ewn pyay-TONN | a pedestrian | —
+- une livraison | ewn lee-vreh-ZOHN | a delivery | —
+- désormais | day-zor-MEH | from now on | —
+- un auditeur / une auditrice | uh-noh-dee-TUHR / ew-noh-dee-TREESS | a listener (radio) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-debating-ex001 | multiple-choice | Choisissez la bonne façon d'interrompre dans un débat. | ["Si je peux me permettre, j'aimerais ajouter quelque chose.","Vous parlez trop, arrêtez !","Ça suffit, c'est à moi !"] | ["Si je peux me permettre, j'aimerais ajouter quelque chose."] | false | Si je peux me permettre asks for the floor politely.
+- b2-debating-ex002 | fill-in | Complétez : Excusez-moi, mais vous me coupez la ___ ! | — | ["parole"] | false | Couper la parole à quelqu'un: to interrupt them.
+- b2-debating-ex003 | fill-in | Complétez : Revenons-___ à notre sujet : les voitures en ville. | — | ["en"] | false | Revenons-en à: let's get back to.
+- b2-debating-ex004 | multiple-choice | Choisissez la phrase qui revient au sujet du débat. | ["Revenons-en à la question des voitures.","Je vous laisse finir.","C'est un argument de poids."] | ["Revenons-en à la question des voitures."] | false | Revenons-en à refocuses the debate.
+- b2-debating-ex005 | connector-choice | Choisissez : Vous dites que les commerçants vont perdre des clients. ___ dans d'autres villes, c'est le contraire. | ["Permettez-moi de vous contredire :","Je partage votre avis :","Vous avez raison :"] | ["Permettez-moi de vous contredire :"] | false | The second sentence says the opposite, so it's a rebuttal.
+- b2-debating-ex006 | register-shift | Mettez au registre courant : Arrête, c'est moi qui parle ! | — | ["Laissez-moi finir, s'il vous plaît","Permettez-moi de finir, s'il vous plaît"] | false | In a debate, ask to finish politely, with vous.
+- b2-debating-ex007 | register-shift | Mettez au registre courant, avec « je ne suis pas d'accord » : N'importe quoi, c'est faux ! | — | ["Je ne suis pas d'accord, ce n'est pas vrai","Je ne suis pas d'accord, c'est faux"] | false | Je ne suis pas d'accord disagrees without insulting the other person.
+- b2-debating-ex008 | reformulation | Reformulez avec « partager l'avis de quelqu'un » : Vous avez tort. | — | ["Je ne partage pas votre avis"] | false | Je ne partage pas votre avis is firm but polite.
+- b2-debating-ex009 | reformulation | Reformulez avec « c'est justement… qui » : La pollution est le vrai problème. | — | ["C'est justement la pollution qui est le vrai problème"] | false | The mise en relief puts your main point in focus.
+- b2-debating-ex010 | error-correction | Corrigez l'erreur : Je ne vous ai pas coupé la parole, alors laissez-moi de finir. | — | ["Je ne vous ai pas coupé la parole, alors laissez-moi finir"] | false | Laisser is followed directly by the infinitive, with no de.
+- b2-debating-ex011 | fill-in | Complétez : Le prix du parking ? Là n'est pas la ___ : nous parlons de la pollution. | — | ["question"] | false | Là n'est pas la question: that's not the point.
+- b2-debating-ex012 | translate | Traduisez : If I may, I'd like to add something. | — | ["Si je peux me permettre, j'aimerais ajouter quelque chose","Si je peux me permettre, je voudrais ajouter quelque chose"] | false | Si je peux me permettre, then a polite conditionnel.
+- b2-debating-ex013 | translate | Rédigez en complétant comme indiqué : (Allow me to) vous contredire. (I maintain that) les piétons sont plus en sécurité sans voitures. C'est (a strong argument). | — | ["Permettez-moi de vous contredire. Je maintiens que les piétons sont plus en sécurité sans voitures. C'est un argument de poids."] | false | A short rebuttal: ask to contradict, state your position, stress its weight.
+- b2-debating-ex014 | translate | Rédigez ce résumé du modérateur en complétant comme indiqué : Monsieur Bernard (refutes: réfuter) l'idée d'une ville sans voitures. Il (objects that) les commerçants perdront des clients. Madame Roux, elle, (maintains that) la pollution est le vrai problème. | — | ["Monsieur Bernard réfute l'idée d'une ville sans voitures. Il objecte que les commerçants perdront des clients. Madame Roux, elle, maintient que la pollution est le vrai problème."] | false | A fair summary reports each side with a neutral reporting verb.
+- b2-debating-ex015 | reorder | Remettez dans l'ordre : Let me finish, please. | — | ["Laissez-moi finir, s'il vous plaît"] | false | Laisser + infinitive, with no de.
+
+## b2-persuasion-and-hedging
+
+### Vocab
+
+fr | pron | en | note
+
+- avouez que | ah-vway KUH | you must admit that | + indicative.
+- convenez que | kohnv-nay KUH | you'll agree that | + indicative.
+- croyez-moi | krwah-yay-MWAH | believe me | —
+- n'est-il pas vrai que | neh-teel pah vreh KUH | isn't it true that | + indicative.
+- ne pensez-vous pas que | nuh pahn-say-voo pah KUH | don't you think that | + indicative or subjunctive.
+- imaginons que | ee-mah-zhee-nohn KUH | let's imagine that | Usually + subjunctive.
+- admettons que | ad-meh-tohn KUH | let's suppose that | Usually + subjunctive.
+- qui plus est | kee plew-ZEH | what's more | —
+- sans compter que | sahn kohn-tay KUH | not to mention that | + indicative.
+- un argument massue | uh-nar-gew-mahn mah-SEW | a knockout argument | —
+- j'en conviens | zhahn kohn-VYAN | I grant you that | —
+- quoi qu'on en dise | kwah kohn-nahn DEEZ | whatever people say | —
+- persuader | pehr-sew-ah-DAY | to persuade | —
+- faire appel à | fehr ah-PEL ah | to appeal to | —
+- jouer sur | zhoo-ay SEWR | to play on | —
+- une stratégie | ewn strah-tay-ZHEE | a strategy | —
+- l'émotion | lay-moh-SYOHN | emotion | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-persuasion-and-hedging-ex001 | multiple-choice | Indiquez la technique : N'est-il pas vrai que nous travaillons tous trop ? | ["une question rhétorique","une concession","une hypothèse"] | ["une question rhétorique"] | false | A question the speaker answers in advance: the listener is expected to say yes.
+- b2-persuasion-and-hedging-ex002 | fill-in | Conjuguez être au subjonctif : Imaginons que la bibliothèque ___ ouverte le dimanche. | — | ["soit"] | false | Imaginons que usually takes the subjunctive.
+- b2-persuasion-and-hedging-ex003 | fill-in | Conjuguez avoir : Ne pensez-vous pas que nous ___ besoin de plus de temps ? | — | ["ayons","avons"] | false | After ne pensez-vous pas que, both moods are used: the subjunctive ayons is more formal.
+- b2-persuasion-and-hedging-ex004 | multiple-choice | Indiquez le sens de « qui plus est ». | ["what's more","however","whoever"] | ["what's more"] | false | Qui plus est adds a stronger argument.
+- b2-persuasion-and-hedging-ex005 | connector-choice | Choisissez : Ce projet coûte cher, ___. Néanmoins, il aidera tous les étudiants. | ["j'en conviens","qui plus est","croyez-moi"] | ["j'en conviens"] | false | J'en conviens grants the point before néanmoins answers it.
+- b2-persuasion-and-hedging-ex006 | register-shift | Mettez au registre soutenu, avec « convenez que » : Vous voyez bien que c'est trop cher ! | — | ["Convenez que c'est trop cher","Convenez que cela est trop cher"] | false | Convenez que invites the listener to agree, without pushing.
+- b2-persuasion-and-hedging-ex007 | reformulation | Reformulez avec « n'est-il pas vrai que » : Les étudiants travaillent beaucoup. | — | ["N'est-il pas vrai que les étudiants travaillent beaucoup ?"] | false | The rhetorical question keeps the indicative: travaillent.
+- b2-persuasion-and-hedging-ex008 | reformulation | Reformulez avec « certes… mais » : Le projet est cher. Il aidera tout le monde. | — | ["Certes, le projet est cher, mais il aidera tout le monde","Le projet est certes cher, mais il aidera tout le monde"] | false | Concede first, then give the stronger argument after mais.
+- b2-persuasion-and-hedging-ex009 | error-correction | Corrigez l'erreur de mode (careful French) : Imaginons que vous avez raison. | — | ["Imaginons que vous ayez raison"] | false | In careful French, imaginons que takes the subjunctive: ayez.
+- b2-persuasion-and-hedging-ex010 | fill-in | Complétez : Quoi qu'on en ___, ce projet est une bonne idée. | — | ["dise"] | false | Quoi qu'on en dise: whatever people say. Dire is in the subjunctive.
+- b2-persuasion-and-hedging-ex011 | multiple-choice | Choisissez l'expression qui nuance une opinion. | ["Il me semble que…","Croyez-moi,…","Qui plus est,…"] | ["Il me semble que…"] | false | Il me semble que softens; croyez-moi and qui plus est push harder.
+- b2-persuasion-and-hedging-ex012 | translate | Traduisez : Let's imagine that you're right. | — | ["Imaginons que vous ayez raison","Imaginons que tu aies raison"] | false | Imaginons que + subjunctive: ayez (vous) or aies (tu).
+- b2-persuasion-and-hedging-ex013 | translate | Rédigez en complétant comme indiqué : (You must admit that) la bibliothèque ferme trop tôt. (Isn't it true that) beaucoup d'étudiants travaillent le soir ? (What's more), le dimanche, tout est fermé. (Believe me), ce changement aidera tout le monde. | — | ["Avouez que la bibliothèque ferme trop tôt. N'est-il pas vrai que beaucoup d'étudiants travaillent le soir ? Qui plus est, le dimanche, tout est fermé. Croyez-moi, ce changement aidera tout le monde."] | true | An appeal, a rhetorical question, an intensifier and a direct appeal.
+- b2-persuasion-and-hedging-ex014 | translate | Rédigez en complétant comme indiqué : Ce projet coûte cher, (I grant you that). (Nevertheless: néanmoins), il aidera tout le monde, (not to mention that) les étudiants le demandent depuis des années. | — | ["Ce projet coûte cher, j'en conviens. Néanmoins, il aidera tout le monde, sans compter que les étudiants le demandent depuis des années."] | false | A strategic concession: grant the point, then answer it with two arguments.
+- b2-persuasion-and-hedging-ex015 | reorder | Remettez dans l'ordre : Believe me, it's a good idea. | — | ["Croyez-moi, c'est une bonne idée"] | false | Croyez-moi opens a direct appeal.
+
+## b2-review-final
+
+### Vocab
+
+fr | pron | en | note
+
+- l'aisance | leh-ZAHNSS | ease, fluency | —
+- perfectionner | pehr-fek-syoh-NAY | to perfect, to improve | —
+- une lacune | ewn lah-KEWN | a gap (in knowledge) | —
+- approfondir | ah-proh-fohn-DEER | to deepen, to study in more depth | —
+- se fixer un objectif | suh feek-say uh-nob-zhek-TEEF | to set yourself a goal | —
+- un parcours d'apprentissage | uhn par-koor dah-prahn-tee-SAHZH | a learning path | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-review-final-ex001 | fill-in | Conjuguez venir au subjonctif : Je t'appelle avant que tu ___. | — | ["viennes"] | false | Unit 1: avant que always takes the subjunctive.
+- b2-review-final-ex002 | fill-in | Mettez au conditionnel passé (venir), un homme parle : Si j'avais su, je ___ plus tôt. | — | ["serais venu"] | false | Unit 2: si + plus-que-parfait, then the conditionnel passé.
+- b2-review-final-ex003 | multiple-choice | Choisissez le discours indirect correct : Il a dit : « Je viendrai demain. » | ["Il a dit qu'il viendrait le lendemain.","Il a dit qu'il vient aujourd'hui.","Il a dit qu'il venait la veille."] | ["Il a dit qu'il viendrait le lendemain."] | false | Unit 3: after a past reporting verb, the future becomes the conditionnel, and demain becomes le lendemain.
+- b2-review-final-ex004 | fill-in | Complétez avec lequel, laquelle, lesquels ou lesquelles : Voici l'outil avec ___ je travaille. | — | ["lequel"] | false | Unit 4: outil is masculine singular, so avec lequel.
+- b2-review-final-ex005 | fill-in | Mettez à l'infinitif passé (finir) : Après ___ mon rapport, je suis rentré. | — | ["avoir fini"] | false | Unit 5: après + past infinitive, for the earlier action.
+- b2-review-final-ex006 | fill-in | Conjuguez être au subjonctif : Il se peut que le musée ___ fermé lundi. | — | ["soit"] | false | Unit 6: il se peut que takes the subjunctive.
+- b2-review-final-ex007 | multiple-choice | Indiquez le sens de : Elle ouvrit la porte et sortit. | ["She opened the door and went out.","She will open the door and go out.","She is opening the door and going out."] | ["She opened the door and went out."] | false | Unit 7: ouvrit and sortit are in the passé simple: elle a ouvert, elle est sortie.
+- b2-review-final-ex008 | multiple-choice | Indiquez le registre : Je bosse pas demain. | ["familier","courant","soutenu"] | ["familier"] | false | Unit 8: bosser and the dropped ne are familiar.
+- b2-review-final-ex009 | reformulation | Reformulez avec « bien que » : Il pleut, mais nous sortons. | — | ["Bien qu'il pleuve, nous sortons","Nous sortons bien qu'il pleuve"] | false | Bien que takes the subjunctive: pleuve.
+- b2-review-final-ex010 | reformulation | Reformulez au passif : Le maire a ouvert l'exposition. | — | ["L'exposition a été ouverte par le maire"] | true | The passive in the passé composé: a été ouverte, agreeing with l'exposition.
+- b2-review-final-ex011 | error-correction | Corrigez l'erreur : Elles sont tout contentes. | — | ["Elles sont toutes contentes"] | false | The adverb tout agrees before a feminine adjective starting with a consonant.
+- b2-review-final-ex012 | register-shift | Mettez au registre courant : Chais pas, y a un truc qui marche pas. | — | ["Je ne sais pas, il y a quelque chose qui ne marche pas","Je ne sais pas, il y a une chose qui ne marche pas"] | true | Standard French: je ne sais pas, il y a, quelque chose, and ne in the negation.
+- b2-review-final-ex013 | translate | Traduisez (a woman speaking) : I would have come if I had known. | — | ["Je serais venue si j'avais su","Si j'avais su, je serais venue"] | false | Conditionnel passé with si + plus-que-parfait; venue agrees with a woman speaking.
+- b2-review-final-ex014 | translate | Traduisez : We're looking for a flat that has a garden. | — | ["Nous cherchons un appartement qui ait un jardin","Nous cherchons un appartement qui a un jardin"] | true | A flat you haven't found yet usually takes the subjunctive (ait); the indicative (a) is also heard.
+- b2-review-final-ex015 | translate | Rédigez en complétant comme indiqué : Cette année, j'ai (deepened: approfondir) ma grammaire. J'ai encore (some gaps) en vocabulaire. Je (have set myself a goal) : parler avec plus d'(ease). | — | ["Cette année, j'ai approfondi ma grammaire. J'ai encore des lacunes en vocabulaire. Je me suis fixé un objectif : parler avec plus d'aisance."] | false | Fixé doesn't agree: the direct object, un objectif, comes after the verb.
+- b2-review-final-ex016 | reorder | Remettez dans l'ordre : I want to perfect my French. | — | ["Je veux perfectionner mon français"] | false | Vouloir + infinitive.

@@ -1,0 +1,2236 @@
+=== b2-politics-and-society ===
+
+---
+id: "b2-politics-and-society"
+title: "Politics and institutions"
+description: "Follow political news in French: the government, Parliament, parties, bills and reforms, polls, abstention and resignations."
+level: "B2"
+unit: "News and reporting"
+order: 16
+type: "vocabulary"
+tags: ["politics", "news", "vocabulary", "society"]
+prerequisites: ["b1-culture-french-republic", "b1-media-and-news"]
+related: ["b1-passive-voice-intro", "b2-social-issues", "b2-reported-speech-past", "b2-culture-french-press"]
+vocab:
+  - { id: "b2-politics-and-society-v001", group: "institutions", fr: "le gouvernement", pron: "luh goo-vehr-nuh-MAHN", en: "the government" }
+  - { id: "b2-politics-and-society-v002", group: "institutions", fr: "le Premier ministre", pron: "luh pruh-myay mee-NEES-truh", en: "the Prime Minister" }
+  - { id: "b2-politics-and-society-v003", group: "institutions", fr: "le Parlement", pron: "luh par-luh-MAHN", en: "Parliament" }
+  - { id: "b2-politics-and-society-v004", group: "institutions", fr: "l'Assemblée nationale", pron: "lah-sahn-blay nah-syoh-NAHL", en: "the National Assembly" }
+  - { id: "b2-politics-and-society-v005", group: "institutions", fr: "le Sénat", pron: "luh say-NAH", en: "the Senate" }
+  - { id: "b2-politics-and-society-v006", group: "institutions", fr: "un député / une députée", pron: "uhn day-pew-TAY / ewn day-pew-TAY", en: "a member of the National Assembly, an MP" }
+  - { id: "b2-politics-and-society-v007", group: "parties", fr: "un parti politique", pron: "uhn par-tee poh-lee-TEEK", en: "a political party" }
+  - { id: "b2-politics-and-society-v008", group: "parties", fr: "la gauche", pron: "lah GOHSH", en: "the left (in politics)", note: "Un parti de gauche." }
+  - { id: "b2-politics-and-society-v009", group: "parties", fr: "la droite", pron: "lah DRWAHT", en: "the right (in politics)", note: "Un parti de droite." }
+  - { id: "b2-politics-and-society-v010", group: "parties", fr: "le pouvoir", pron: "luh poo-VWAHR", en: "power", note: "Être au pouvoir: to be in power." }
+  - { id: "b2-politics-and-society-v011", group: "laws", fr: "un projet de loi", pron: "uhn proh-zheh duh LWAH", en: "a bill (a proposed law)" }
+  - { id: "b2-politics-and-society-v012", group: "laws", fr: "adopter une loi", pron: "ah-dop-tay ewn LWAH", en: "to pass a law" }
+  - { id: "b2-politics-and-society-v013", group: "laws", fr: "une réforme", pron: "ewn ray-FORM", en: "a reform" }
+  - { id: "b2-politics-and-society-v014", group: "laws", fr: "réformer", pron: "ray-for-MAY", en: "to reform" }
+  - { id: "b2-politics-and-society-v015", group: "laws", fr: "une majorité absolue", pron: "ewn mah-zhoh-ree-tay ap-soh-LEW", en: "an absolute majority (more than half)" }
+  - { id: "b2-politics-and-society-v016", group: "elections", fr: "élire", pron: "ay-LEER", en: "to elect", note: "Like lire: il élit, il a élu." }
+  - { id: "b2-politics-and-society-v017", group: "elections", fr: "une campagne électorale", pron: "ewn kahn-pah-nyuh ay-lek-toh-RAHL", en: "an election campaign" }
+  - { id: "b2-politics-and-society-v018", group: "elections", fr: "un sondage", pron: "uhn sohn-DAHZH", en: "an opinion poll" }
+  - { id: "b2-politics-and-society-v019", group: "elections", fr: "un débat télévisé", pron: "uhn day-bah tay-lay-vee-ZAY", en: "a TV debate" }
+  - { id: "b2-politics-and-society-v020", group: "elections", fr: "l'abstention", pron: "lap-stahn-SYOHN", en: "abstention (not voting)" }
+  - { id: "b2-politics-and-society-v021", group: "elections", fr: "un mandat", pron: "uhn mahn-DAH", en: "a term of office" }
+  - { id: "b2-politics-and-society-v022", group: "elections", fr: "la démission", pron: "lah day-mee-SYOHN", en: "resignation", note: "Présenter sa démission." }
+exercises:
+  - id: "b2-politics-and-society-ex001"
+    type: "fill-in"
+    prompt: "Complétez : Un ___ est élu à l'Assemblée nationale pour représenter les citoyens."
+    answers: ["député"]
+    explanation: "Un député sits in the Assemblée nationale."
+  - id: "b2-politics-and-society-ex002"
+    type: "fill-in"
+    prompt: "Complétez : Le gouvernement présente un projet de ___ aux députés."
+    answers: ["loi"]
+    explanation: "Un projet de loi: a bill, which Parliament then debates."
+  - id: "b2-politics-and-society-ex003"
+    type: "fill-in"
+    prompt: "Complétez : Selon un ___, beaucoup d'électeurs veulent des réformes."
+    answers: ["sondage"]
+    explanation: "Un sondage: an opinion poll."
+  - id: "b2-politics-and-society-ex004"
+    type: "fill-in"
+    prompt: "Complétez : La maire est au début de son ___ : elle a été élue en mars."
+    answers: ["mandat"]
+    explanation: "Un mandat: the period an elected person holds office."
+  - id: "b2-politics-and-society-ex005"
+    type: "fill-in"
+    prompt: "Complétez avec un verbe à l'infinitif : Après le scandale, le ministre a dû ___."
+    answers: ["démissionner"]
+    explanation: "Démissionner: to resign. The noun is la démission."
+  - id: "b2-politics-and-society-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez où travaillent les députés."
+    options: ["à l'Assemblée nationale", "à la mairie", "à l'école"]
+    answers: ["à l'Assemblée nationale"]
+    explanation: "Députés sit in the Assemblée nationale, one of the two chambers of Parliament."
+  - id: "b2-politics-and-society-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « un parti de gauche »."
+    options: ["a left-wing party", "a right-wing party", "a party that has left"]
+    answers: ["a left-wing party"]
+    explanation: "La gauche is the left in politics; la droite is the right."
+  - id: "b2-politics-and-society-ex008"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « l'abstention »."
+    options: ["not voting", "voting twice", "a TV debate"]
+    answers: ["not voting"]
+    explanation: "L'abstention is the choice, or the fact, of not voting."
+  - id: "b2-politics-and-society-ex009"
+    type: "multiple-choice"
+    prompt: "Trouvez le mot qui ne va pas avec les autres."
+    options: ["un sondage", "un député", "un ministre"]
+    answers: ["un sondage"]
+    explanation: "Un député and un ministre are people; un sondage is a poll."
+  - id: "b2-politics-and-society-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « élire », sans la forme passive : Le maire a été élu par les citoyens."
+    answers: ["Les citoyens ont élu le maire"]
+    explanation: "Élire in the passé composé: ils ont élu."
+  - id: "b2-politics-and-society-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Les citoyens ont adopté la loi à l'Assemblée nationale."
+    answers: ["Les députés ont adopté la loi à l'Assemblée nationale", "Les députés ont voté la loi à l'Assemblée nationale"]
+    explanation: "Laws are passed by Parliament, so the subject is les députés. Citizens vote in elections."
+    strictAccents: true
+  - id: "b2-politics-and-society-ex012"
+    type: "translate"
+    prompt: "Traduisez : The bill was passed by the National Assembly."
+    answers: ["Le projet de loi a été adopté par l'Assemblée nationale", "Le projet de loi a été voté par l'Assemblée nationale"]
+    explanation: "The passé composé passive: a été adopté par."
+    strictAccents: true
+  - id: "b2-politics-and-society-ex013"
+    type: "translate"
+    prompt: "Traduisez avec « monter » : According to a poll, abstention is going up."
+    answers: ["Selon un sondage, l'abstention monte", "D'après un sondage, l'abstention monte"]
+    explanation: "Selon or d'après + noun, then the present."
+  - id: "b2-politics-and-society-ex014"
+    type: "translate"
+    prompt: "Rédigez ce texte en complétant comme indiqué : (According to the polls), la gauche et la droite sont proches. Le débat télévisé (takes place) jeudi. Le nouveau (government) (will propose) une réforme."
+    answers: ["Selon les sondages, la gauche et la droite sont proches. Le débat télévisé a lieu jeudi. Le nouveau gouvernement proposera une réforme.","D'après les sondages, la gauche et la droite sont proches. Le débat télévisé a lieu jeudi. Le nouveau gouvernement proposera une réforme.","Selon les sondages, la gauche et la droite sont proches. Le débat télévisé a lieu jeudi. Le nouveau gouvernement va proposer une réforme.","D'après les sondages, la gauche et la droite sont proches. Le débat télévisé a lieu jeudi. Le nouveau gouvernement va proposer une réforme."]
+    explanation: "Selon or d'après, avoir lieu for an event, and the futur of proposer."
+    strictAccents: true
+  - id: "b2-politics-and-society-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The Prime Minister handed in his resignation."
+    words: ["Le", "Premier", "ministre", "a", "présenté", "sa", "démission"]
+    answers: ["Le Premier ministre a présenté sa démission"]
+    explanation: "Présenter sa démission: to hand in your resignation."
+---
+
+By the end of this lesson you'll be able to follow political news in French: who makes the laws, how elections work, and the words for reforms, polls and resignations.
+
+## What you already know
+
+You know *la République*, *l'État*, *une loi*, *une élection*, *voter*, *un citoyen* and *le maire* from <LessonLink id="b1-culture-french-republic" text="the lesson on the French Republic" />. You also know *le président* and *être élu* from <LessonLink id="b1-passive-voice-intro" text="the lesson on the passive voice" />, and *une manifestation* from <LessonLink id="b2-social-issues" text="the lesson on social issues" />. This lesson adds the national institutions and the vocabulary of political news.
+
+## The institutions
+
+<VocabTable group="institutions" />
+
+In France, the head of State is *le président de la République*. *Le Premier ministre* (the Prime Minister) leads *le gouvernement* (the government), with the ministers. *Le Parlement* (Parliament) has two chambers: *l'Assemblée nationale* (the National Assembly), whose members, *les députés*, are elected directly by citizens, and *le Sénat* (the Senate).
+
+<Example fr="Le gouvernement, c'est le Premier ministre et ses ministres." en="The government is the Prime Minister and their ministers." />
+<Example fr="Les députés sont élus par les citoyens." en="MPs are elected by the citizens." />
+
+Notice the capitals: *l'Assemblée nationale* and *le Sénat* have one, because they're the names of institutions. *Le gouvernement* usually doesn't.
+
+## Parties, left and right
+
+<VocabTable group="parties" />
+
+*Un parti politique* is a political party. French politics is often described on a line from *la gauche* (the left) to *la droite* (the right), and the parties in between are *au centre*. You know *à gauche* and *à droite* from directions; in politics, they become nouns with *la*: *un parti de gauche*, *les électeurs de droite*.
+
+<Example fr="Ce parti est au pouvoir depuis deux ans." en="That party has been in power for two years." />
+
+<Example fr="Elle travaille pour un parti politique depuis dix ans." en="She has worked for a political party for ten years." />
+
+*Le pouvoir* (power) is the noun of the verb *pouvoir*. *Être au pouvoir* means to be in government, and the parties that aren't in power form *l'opposition*.
+
+## Making laws
+
+<VocabTable group="laws" />
+
+A law usually starts as *un projet de loi* (a bill), proposed by the government. The two chambers debate it, may change it, and vote on it. When Parliament votes for it, it *adopte la loi* (passes the law). *Voter une loi* means the same, but only Parliament does it: citizens vote in elections, not on most laws.
+
+<Example fr="Le projet de loi a été adopté par l'Assemblée nationale." en="The bill was passed by the National Assembly." />
+<Example fr="Le gouvernement veut réformer le système de santé." en="The government wants to reform the health system." />
+
+*Une réforme* is a change to a system, such as schools, work or pensions, and it's often what people protest about. *Une majorité absolue* means more than half of the votes or the seats, which lets a government pass its reforms more easily.
+
+## Elections and polls
+
+<VocabTable group="elections" />
+
+*Élire* (to elect) is conjugated like *lire*: *les citoyens élisent les députés*, *ils ont élu une nouvelle maire*. Before an election comes *la campagne électorale*, with meetings, posters and often *un débat télévisé* between candidates. You know *un candidat* from <LessonLink id="b1-careers-and-job-hunting" text="the lesson on careers and job hunting" />, where it meant a job applicant; in politics, it's someone standing for election.
+
+<Example fr="Selon un sondage, beaucoup d'électeurs n'ont pas encore choisi." en="According to a poll, many voters haven't chosen yet." />
+<Example fr="On parle beaucoup de l'abstention après chaque élection." en="There's a lot of talk about abstention after every election." />
+
+Many French elections have two rounds: *le premier tour* and *le second tour*. You know *un tour* (a round) from the lesson on the French Republic; between the two rounds, the candidates who are left campaign again.
+
+*Un mandat* is the period an elected person holds office. When a minister leaves office before the end, the news speaks of *la démission* (resignation): *le ministre a présenté sa démission*. You know the verb *démissionner* from the lesson on careers and job hunting.
+
+## Words to watch
+
+*La politique* means politics, but *une politique* is a policy: *la politique du gouvernement* (the government's policy). A politician is *un homme politique* or *une femme politique*. *Le gouvernement* is a narrower word than in English: it means the Prime Minister and the ministers, not the whole administration, which is *l'État*.
+
+Some words are easy because they look like English: *l'opposition*, *une coalition* (an agreement between parties to govern together), *un scandale*. Check the gender and the spelling, though: *un scandale* is masculine and ends in *-e*.
+
+## Talking about politics
+
+Political news in French uses the passive a lot (*la loi a été adoptée*), which you know from <LessonLink id="b1-passive-voice-intro" text="the lesson on the passive" />, and reported speech (*le ministre dit que…*), from <LessonLink id="b1-reported-speech-present" text="the lesson on reported speech" />. When you give your own view, the phrases from <LessonLink id="b2-nuancing-opinions" text="the lesson on nuancing your opinion" /> help you stay calm and fair: *dans une certaine mesure*, *a priori*. In a conversation with people you don't know well, many French speakers avoid saying which party they vote for.
+
+## En français
+
+Lucas and Inès share a flat. They're watching the evening news during an election campaign.
+
+- *Tu regardes le débat télévisé ce soir ?* (Are you watching the TV debate tonight?)
+- *Oui, c'est le dernier débat de la campagne électorale. Je veux savoir qui va gagner.* (Yes, it's the last debate of the election campaign. I want to know who's going to win.)
+- *Selon le dernier sondage, les deux candidats sont très proches.* (According to the latest poll, the two candidates are very close.)
+- *Et l'abstention ? Beaucoup de gens disent qu'ils ne vont pas voter.* (And abstention? Lots of people say they're not going to vote.)
+- *C'est vrai. Moi, je vote toujours, même si aucun parti ne me plaît vraiment.* (True. I always vote, even if no party really appeals to me.)
+- *Tu penses que le gouvernement va changer ?* (Do you think the government will change?)
+- *Ça dépend. Avec une majorité absolue, le gagnant pourra faire ses réformes.* (It depends. With an absolute majority, the winner will be able to make their reforms.)
+- *Et sans majorité, il faudra trouver des accords avec les autres partis.* (And without a majority, they'll have to find agreements with the other parties.)
+- *Écoute, le journaliste dit qu'un projet de loi sur le logement est présenté demain.* (Listen, the journalist says a housing bill is being presented tomorrow.)
+- *Encore un ? Les députés doivent d'abord le voter, puis le Sénat.* (Another one? The MPs have to vote on it first, then the Senate.)
+- *Oui, et ça peut prendre des mois. Bon, le débat commence !* (Yes, and that can take months. Right, the debate is starting!)
+
+<Callout type="warning" title="Le Premier ministre isn't the head of State">
+  English speakers sometimes call the French Prime Minister the leader of the country. In France, the head of State is **le président de la République**, and **le Premier ministre** leads the government. Use the right title, or the news won't make sense.
+</Callout>
+
+<Callout type="tip" title="Follow one bill">
+  Choose one *projet de loi* in the French news and follow it for a few weeks. Each time it's mentioned, note the verb used: *présenter*, *débattre*, *adopter*, *réformer*. You'll learn the vocabulary in the order it happens, and you'll understand the next bill much faster.
+</Callout>
+
+## En résumé
+
+En France, le gouvernement, c'est le Premier ministre et ses ministres. Le Parlement, c'est l'Assemblée nationale, avec les députés, et le Sénat. Le gouvernement présente souvent un projet de loi, puis le Parlement le vote et adopte la loi. Pendant une campagne électorale, il y a des sondages et des débats télévisés. Les citoyens élisent leurs représentants, mais certains ne votent pas : c'est l'abstention. Un ministre peut aussi présenter sa démission.
+
+## What's next
+
+Next, <LessonLink id="b2-reported-speech-past" text="the lesson on reported speech in the past" /> shows how to report what a politician said yesterday.
+
+=== b2-reported-speech-past ===
+
+---
+id: "b2-reported-speech-past"
+title: "Reported speech in the past"
+description: "Report what someone said with a past reporting verb, and shift the tenses correctly: il a dit qu'il viendrait, elle a expliqué qu'elle avait fini."
+level: "B2"
+unit: "News and reporting"
+order: 17
+type: "grammar"
+tags: ["reported speech", "tenses", "grammar", "news"]
+prerequisites: ["b1-reported-speech-present", "b1-plus-que-parfait", "b1-conditionnel-present", "b2-futur-anterieur"]
+related: ["b2-conditionnel-passe", "b2-reported-questions-orders", "b2-reporting-verbs"]
+vocab:
+  - { id: "b2-reported-speech-past-v001", group: "grammar", fr: "le discours indirect", pron: "luh dees-koor an-dee-REKT", en: "reported speech, indirect speech" }
+  - { id: "b2-reported-speech-past-v002", group: "grammar", fr: "la concordance des temps", pron: "lah kohn-kor-dahnss day TAHN", en: "the sequence of tenses" }
+  - { id: "b2-reported-speech-past-v003", group: "promise", fr: "une promesse", pron: "ewn proh-MESS", en: "a promise" }
+  - { id: "b2-reported-speech-past-v004", group: "promise", fr: "promettre que", pron: "proh-meh-truh KUH", en: "to promise that", note: "Like mettre: il a promis." }
+  - { id: "b2-reported-speech-past-v005", group: "promise", fr: "assurer que", pron: "ah-sew-ray KUH", en: "to assure that, to insist that" }
+  - { id: "b2-reported-speech-past-v006", group: "promise", fr: "tenir sa promesse / tenir parole", pron: "tuh-neer sah proh-MESS / tuh-neer pah-ROL", en: "to keep your promise, to keep your word", note: "Like venir, with avoir: il a tenu parole." }
+  - { id: "b2-reported-speech-past-v007", group: "promise", fr: "s'engager à", pron: "sahn-gah-zhay AH", en: "to commit to", note: "+ infinitive. Like manger: nous nous engageons." }
+  - { id: "b2-reported-speech-past-v008", group: "promise", fr: "revenir sur", pron: "ruh-vuh-neer SEWR", en: "to go back on (a promise, a decision)" }
+  - { id: "b2-reported-speech-past-v009", group: "media", fr: "un discours", pron: "uhn dees-KOOR", en: "a speech" }
+  - { id: "b2-reported-speech-past-v010", group: "media", fr: "prononcer un discours", pron: "proh-nohn-say uhn dees-KOOR", en: "to give a speech" }
+  - { id: "b2-reported-speech-past-v011", group: "media", fr: "une conférence de presse", pron: "ewn kohn-fay-rahnss duh PRESS", en: "a press conference" }
+  - { id: "b2-reported-speech-past-v012", group: "media", fr: "un entretien", pron: "uh-nahn-truh-TYAN", en: "an interview (in the media)" }
+  - { id: "b2-reported-speech-past-v013", group: "grammar", fr: "l'imparfait", pron: "lan-par-FEH", en: "the imparfait (the tense)" }
+exercises:
+  - id: "b2-reported-speech-past-ex001"
+    type: "fill-in"
+    prompt: "Mettez à l'imparfait : « Je suis fatigué. » → Il a dit qu'il ___ fatigué."
+    answers: ["était"]
+    explanation: "After a past reporting verb, the present becomes the imparfait."
+  - id: "b2-reported-speech-past-ex002"
+    type: "fill-in"
+    prompt: "Mettez au plus-que-parfait : « J'ai fini. » → Elle a dit qu'elle ___."
+    answers: ["avait fini"]
+    explanation: "The passé composé becomes the plus-que-parfait."
+  - id: "b2-reported-speech-past-ex003"
+    type: "fill-in"
+    prompt: "Mettez au conditionnel présent : « Je viendrai. » → Il a promis qu'il ___."
+    answers: ["viendrait"]
+    explanation: "The futur becomes the conditionnel présent: the future in the past."
+  - id: "b2-reported-speech-past-ex004"
+    type: "fill-in"
+    prompt: "Mettez au conditionnel passé : « J'aurai fini à midi. » → Elle a dit qu'elle ___ à midi."
+    answers: ["aurait fini"]
+    explanation: "The futur antérieur becomes the conditionnel passé."
+  - id: "b2-reported-speech-past-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez le temps qui ne change pas après « il a dit que »."
+    options: ["l'imparfait", "le présent", "le futur"]
+    answers: ["l'imparfait"]
+    explanation: "The imparfait, the plus-que-parfait and the conditionnel stay as they are."
+  - id: "b2-reported-speech-past-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez pourquoi on peut dire : Il m'a dit qu'il habite à Lyon."
+    options: ["He still lives in Lyon.", "He lived in Lyon a long time ago.", "He will move to Lyon one day."]
+    answers: ["He still lives in Lyon."]
+    explanation: "When the fact is still true, you may keep the present. Il habitait is correct too."
+  - id: "b2-reported-speech-past-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Léa a dit qu'elle ___, mais elle n'est pas venue."
+    options: ["viendrait", "viendra", "vienne"]
+    answers: ["viendrait"]
+    explanation: "The visit was in the past and didn't happen, so the futur becomes the conditionnel."
+  - id: "b2-reported-speech-past-ex008"
+    type: "reformulation"
+    prompt: "Reformulez au discours indirect, avec « Il a dit que » : « Je cherche un appartement. »"
+    answers: ["Il a dit qu'il cherchait un appartement", "Il a dit qu'il cherche un appartement"]
+    explanation: "Je becomes il, and the present becomes the imparfait. Il cherche is possible if he's still looking."
+    strictAccents: true
+  - id: "b2-reported-speech-past-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « Elle a expliqué que » : Elle explique qu'elle a perdu ses clés."
+    answers: ["Elle a expliqué qu'elle avait perdu ses clés"]
+    explanation: "With a past reporting verb, the passé composé becomes the plus-que-parfait."
+    strictAccents: true
+  - id: "b2-reported-speech-past-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de temps : Paul a dit qu'il viendra, mais il n'est pas venu."
+    answers: ["Paul a dit qu'il viendrait, mais il n'est pas venu"]
+    explanation: "The visit is no longer in the future, so the conditionnel is needed: il viendrait."
+    strictAccents: true
+  - id: "b2-reported-speech-past-ex011"
+    type: "fill-in"
+    prompt: "Complétez : Le maire a tenu sa ___ : la piscine est ouverte."
+    answers: ["promesse"]
+    explanation: "Tenir sa promesse: to keep your promise."
+  - id: "b2-reported-speech-past-ex012"
+    type: "translate"
+    prompt: "Traduisez avec « a dit » : She said she would come."
+    answers: ["Elle a dit qu'elle viendrait", "Elle a dit qu'elle allait venir", "Elle a dit qu'elle viendra"]
+    explanation: "The future in the past: viendrait, or allait venir from the futur proche. Viendra is possible if the visit is still to come."
+    strictAccents: true
+  - id: "b2-reported-speech-past-ex013"
+    type: "translate"
+    prompt: "Traduisez : He explained that he had lost his keys."
+    answers: ["Il a expliqué qu'il avait perdu ses clés"]
+    explanation: "Expliquer que + the plus-que-parfait for an earlier action."
+    strictAccents: true
+  - id: "b2-reported-speech-past-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : La maire a dit qu'elle (was) contente, que l'équipe (had finished) le projet et que la ville (would open) la piscine en juin."
+    answers: ["La maire a dit qu'elle était contente, que l'équipe avait fini le projet et que la ville ouvrirait la piscine en juin.","La maire a dit qu'elle était contente, que l'équipe avait fini le projet et que la ville allait ouvrir la piscine en juin."]
+    explanation: "Imparfait, plus-que-parfait and conditionnel: the three main shifts after a past verb."
+    strictAccents: true
+  - id: "b2-reported-speech-past-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : She promised that she would keep her word."
+    words: ["Elle", "a", "promis", "qu'elle", "tiendrait", "parole"]
+    answers: ["Elle a promis qu'elle tiendrait parole"]
+    explanation: "Promettre que + the conditionnel for a promise about the future."
+---
+
+By the end of this lesson you'll be able to report what someone said in the past, with the right tense in each part of the sentence.
+
+## What you already know
+
+In <LessonLink id="b1-reported-speech-present" text="the lesson on reported speech" />, you learned to report with a verb in the present: *il dit qu'il est fatigué*, *elle répond qu'elle viendra*. The pronouns and possessives change with the speaker (*je* becomes *il*, *mon* becomes *son*), but the tense of the reported verb stays the same. This lesson is about what happens when the reporting verb is in the past.
+
+## The sequence of tenses
+
+<VocabTable group="grammar" />
+
+When the reporting verb is in the past (*il a dit que*, *elle a expliqué que*), the verb in the reported part usually moves one step back in time. French calls this *la concordance des temps*.
+
+<Example fr="La concordance des temps change le temps du verbe." en="The sequence of tenses changes the tense of the verb." />
+
+| What was said | Reported after *il a dit que* |
+|---|---|
+| present: *« Je suis fatigué. »* | imparfait: *qu'il était fatigué* |
+| passé composé: *« J'ai fini. »* | plus-que-parfait: *qu'il avait fini* |
+| futur: *« Je viendrai. »* | conditionnel présent: *qu'il viendrait* |
+| futur antérieur: *« J'aurai fini à midi. »* | conditionnel passé: *qu'il aurait fini à midi* |
+| futur proche: *« Je vais partir. »* | *aller* in the imparfait: *qu'il allait partir* |
+
+<Example fr="Elle a dit qu'elle avait perdu son téléphone." en="She said she had lost her phone." />
+<Example fr="Il a expliqué qu'il viendrait après le travail." en="He explained that he would come after work." />
+
+The conditionnel here isn't a hypothesis: it's the future seen from a moment in the past, often called the future in the past. You know the forms from <LessonLink id="b1-conditionnel-present" text="the lesson on the conditionnel présent" /> and <LessonLink id="b2-conditionnel-passe" text="the lesson on the conditionnel passé" />. The futur antérieur, from <LessonLink id="b2-futur-anterieur" text="the lesson on the futur antérieur" />, follows the same logic and becomes the conditionnel passé.
+
+## The tenses that stay
+
+Some tenses can't move further back, so they stay as they are: the **imparfait**, the **plus-que-parfait** and the **conditionnel** (présent and passé).
+
+<Example fr="« J'étais malade. » → Il a dit qu'il était malade." en="'I was ill.' → He said he was ill." />
+<Example fr="« Je voudrais partir. » → Elle a dit qu'elle voudrait partir." en="'I'd like to leave.' → She said she'd like to leave." />
+
+In *il a dit qu'il était malade*, the imparfait can also mean "he had been ill": the context tells you which.
+
+## When the tenses don't shift
+
+There are two cases where you keep the original tense.
+
+- **When the reporting verb is in the present or the futur.** Nothing shifts: *il dit qu'il viendra*, *elle dira qu'elle a fini*. This is the B1 pattern.
+- **When the fact is still true when you report it.** You may keep the present, or the futur for something still to come. *Il m'a dit qu'il habite à Lyon* means that he still lives there. *Il m'a dit qu'il habitait à Lyon* is also correct, and it's the safer choice in writing.
+
+<Example fr="Elle m'a dit qu'elle travaille à Paris." en="She told me she works in Paris. (she still does)" />
+
+If the event is now in the past, you must shift. *Paul a dit qu'il viendra, mais il n'est pas venu* is wrong: the visit is no longer in the future, so say *Paul a dit qu'il viendrait*.
+
+Time words such as *demain* and *hier* can also change when you report, and you'll learn them in <LessonLink id="b2-reporting-verbs" text="the lesson on reporting verbs" />.
+
+## Promises
+
+<VocabTable group="promise" />
+
+Promises are the perfect place for the future in the past: someone said what they would do, and you check whether they did it. *Promettre que* and *assurer que* take the indicative, with the usual shifts. *S'engager à* + infinitive means to commit to doing something.
+
+<Example fr="Il a promis qu'il tiendrait parole." en="He promised he would keep his word." />
+<Example fr="La ministre s'est engagée à réformer les écoles." en="The minister committed to reforming schools." />
+
+*Tenir sa promesse* and *tenir parole* both mean to keep your word. *Revenir sur* is the opposite: *il est revenu sur sa promesse* (he went back on his promise).
+
+## Speeches and interviews
+
+<VocabTable group="media" />
+
+*Un discours* is a speech, and you *prononcer un discours* (give a speech). At *une conférence de presse*, journalists ask questions. *Un entretien* here is an interview in a newspaper or on the radio; you know it from <LessonLink id="b1-cover-letter" text="the lesson on the cover letter" /> as a job interview. You also know *une déclaration* and *un porte-parole* from the lesson on reported speech.
+
+<Example fr="Dans son discours, la maire a dit que la ville changerait." en="In her speech, the mayor said the town would change." />
+
+<Example fr="Le maire a prononcé un discours devant la mairie." en="The mayor gave a speech in front of the town hall." />
+
+## The whole list
+
+- After a past reporting verb: present → imparfait, passé composé → plus-que-parfait, futur → conditionnel présent, futur antérieur → conditionnel passé, *aller* + infinitive → *allait* + infinitive.
+- The imparfait, plus-que-parfait and conditionnel don't change.
+- No shift after a reporting verb in the present or the futur.
+- For a fact that's still true, the original tense is possible.
+
+## En français
+
+Sarah and Marc, two journalists, look back at the mayor's speech from last year.
+
+- *Tu te souviens du discours de la maire, l'année dernière ?* (Do you remember the mayor's speech last year?)
+- *Oui, elle l'a prononcé à la mairie. Elle a dit que la ville allait ouvrir une nouvelle piscine.* (Yes, she gave it at the town hall. She said the town was going to open a new swimming pool.)
+- *Elle a aussi promis que la piscine serait prête en juin.* (She also promised the pool would be ready in June.)
+- *Et elle a assuré qu'elle ne reviendrait pas sur sa promesse.* (And she assured everyone she wouldn't go back on her promise.)
+- *Pourtant, la piscine n'est toujours pas prête !* (And yet the pool still isn't ready!)
+- *À la conférence de presse de lundi, elle a expliqué qu'il y avait eu un problème avec l'entreprise.* (At Monday's press conference, she explained there had been a problem with the company.)
+- *Et elle s'est engagée à finir le projet ?* (And did she commit to finishing the project?)
+- *Oui. Elle a dit que la piscine ouvrirait en septembre et qu'elle aurait trouvé une solution d'ici là.* (Yes. She said the pool would open in September and that she would have found a solution by then.)
+- *Alors, elle tient parole ou pas ?* (So, is she keeping her word or not?)
+- *Pas tout à fait. Elle n'a pas tenu sa promesse pour juin, mais elle n'est pas revenue sur le projet.* (Not quite. She didn't keep her promise for June, but she hasn't gone back on the project.)
+- *Bon, je prépare un article. Je vais lui demander un entretien.* (Right, I'll write an article. I'll ask her for an interview.)
+
+<Callout type="warning" title="Il a dit qu'il viendrait, once it's past">
+  English speakers often keep "will" in their head and write *il a dit qu'il viendra*. That's only possible if the visit is still in the future. Once the moment has passed, use the conditionnel: **il a dit qu'il viendrait**, **elle a promis qu'elle appellerait**.
+</Callout>
+
+<Callout type="tip" title="Report the news you read">
+  After reading a short French article, tell someone what it said, in French, starting each sentence with *le journaliste a dit que* or *selon l'article*. Shifting the tenses aloud, about real news, trains the pattern far better than tables, because you have to decide each time whether the fact is still true.
+</Callout>
+
+## En résumé
+
+Quand le verbe qui rapporte les paroles est au passé, comme il a dit que, les temps changent. Le présent devient l'imparfait, le passé composé devient le plus-que-parfait, le futur devient le conditionnel présent, et le futur antérieur devient le conditionnel passé. L'imparfait, le plus-que-parfait et le conditionnel ne changent pas. Quand le verbe qui rapporte est au présent, comme dans il dit que, rien ne change. Si c'est encore vrai, on peut garder le présent : il m'a dit qu'il habite à Lyon.
+
+## What's next
+
+Next, <LessonLink id="b2-reported-questions-orders" text="the lesson on reported questions and orders" /> reports what people asked and what they told others to do.
+
+=== b2-reported-questions-orders ===
+
+---
+id: "b2-reported-questions-orders"
+title: "Reported questions and orders"
+description: "Report questions and orders in the past: il m'a demandé si j'étais libre, elle m'a dit de ne pas attendre. Add the verbs for ordering, forbidding and allowing."
+level: "B2"
+unit: "News and reporting"
+order: 18
+type: "grammar"
+tags: ["reported speech", "questions", "grammar", "news"]
+prerequisites: ["b2-reported-speech-past"]
+related: ["b1-reported-speech-present", "b1-giving-advice", "b2-reporting-verbs"]
+vocab:
+  - { id: "b2-reported-questions-orders-v001", group: "orders", fr: "demander à quelqu'un de", pron: "duh-mahn-day ah kel-KUHN duh", en: "to ask someone to", note: "+ infinitive." }
+  - { id: "b2-reported-questions-orders-v002", group: "orders", fr: "ordonner à quelqu'un de", pron: "or-doh-nay ah kel-KUHN duh", en: "to order someone to" }
+  - { id: "b2-reported-questions-orders-v003", group: "orders", fr: "interdire à quelqu'un de", pron: "an-tehr-deer ah kel-KUHN duh", en: "to forbid someone to", note: "Like dire, but vous interdisez." }
+  - { id: "b2-reported-questions-orders-v004", group: "orders", fr: "permettre à quelqu'un de", pron: "pehr-meh-truh ah kel-KUHN duh", en: "to allow someone to", note: "Like mettre: il a permis." }
+  - { id: "b2-reported-questions-orders-v005", group: "orders", fr: "supplier", pron: "sew-plee-YAY", en: "to beg", note: "Supplier quelqu'un de + infinitive." }
+  - { id: "b2-reported-questions-orders-v006", group: "orders", fr: "exiger de", pron: "eg-zee-zhay DUH", en: "to demand (that someone does something)", note: "Exiger de quelqu'un qu'il… is formal; exiger de + infinitive is common." }
+  - { id: "b2-reported-questions-orders-v007", group: "orders", fr: "insister pour que", pron: "an-sees-tay poor KUH", en: "to insist that", note: "+ subjunctive." }
+  - { id: "b2-reported-questions-orders-v008", group: "press", fr: "interroger", pron: "an-teh-roh-ZHAY", en: "to question, to interview", note: "Like manger: nous interrogeons." }
+  - { id: "b2-reported-questions-orders-v009", group: "press", fr: "une question piège", pron: "ewn kes-tyohn PYEZH", en: "a trick question" }
+  - { id: "b2-reported-questions-orders-v010", group: "press", fr: "esquiver", pron: "es-kee-VAY", en: "to dodge (a question)" }
+  - { id: "b2-reported-questions-orders-v011", group: "press", fr: "une audition", pron: "ew-noh-dee-SYOHN", en: "a hearing, a formal interview (by the police, a judge, Parliament)", note: "False friend: also an audition, but in the news it's usually a hearing." }
+  - { id: "b2-reported-questions-orders-v012", group: "press", fr: "la police judiciaire", pron: "lah poh-leess zhew-dee-SYEHR", en: "the criminal police (who investigate crimes)" }
+exercises:
+  - id: "b2-reported-questions-orders-ex001"
+    type: "fill-in"
+    prompt: "Complétez : « Tu es libre ? » → Il m'a demandé ___ j'étais libre."
+    answers: ["si"]
+    explanation: "A yes/no question is reported with si."
+  - id: "b2-reported-questions-orders-ex002"
+    type: "fill-in"
+    prompt: "Complétez : « Qu'est-ce que tu veux ? » → Elle m'a demandé ___ je voulais."
+    answers: ["ce que"]
+    explanation: "Qu'est-ce que becomes ce que."
+  - id: "b2-reported-questions-orders-ex003"
+    type: "fill-in"
+    prompt: "Complétez : « Qu'est-ce qui ne va pas ? » → Il m'a demandé ___ n'allait pas."
+    answers: ["ce qui"]
+    explanation: "Qu'est-ce qui becomes ce qui."
+  - id: "b2-reported-questions-orders-ex004"
+    type: "fill-in"
+    prompt: "Complétez : « Partez ! » → Elle nous a dit ___ partir."
+    answers: ["de"]
+    explanation: "An order is reported with de + infinitive."
+  - id: "b2-reported-questions-orders-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne forme : « Tu viendras ? » → Il m'a demandé si je ___."
+    options: ["viendrais", "viendras", "viens"]
+    answers: ["viendrais"]
+    explanation: "After a past verb, the futur becomes the conditionnel, and tu becomes je."
+  - id: "b2-reported-questions-orders-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « l'audition du témoin » dans un article sur une enquête."
+    options: ["the hearing of the witness", "the witness's concert", "the witness's hearing aid"]
+    answers: ["the hearing of the witness"]
+    explanation: "In the news, une audition is usually a formal hearing."
+  - id: "b2-reported-questions-orders-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Le policier m'a demandé ___ je connaissais la victime."
+    options: ["si", "ce que", "de"]
+    answers: ["si"]
+    explanation: "A yes/no question: si. Ce que needs an object, and de needs an infinitive."
+  - id: "b2-reported-questions-orders-ex008"
+    type: "reformulation"
+    prompt: "Reformulez au discours indirect, avec « Il m'a dit » : « Viens ! »"
+    answers: ["Il m'a dit de venir"]
+    explanation: "The imperative becomes de + infinitive."
+    strictAccents: true
+  - id: "b2-reported-questions-orders-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « Elle m'a demandé » : « Où est-ce que tu habites ? »"
+    answers: ["Elle m'a demandé où j'habitais", "Elle m'a demandé où j'habite"]
+    explanation: "Où stays, est-ce que disappears, and the present becomes the imparfait. J'habite is possible if it's still true."
+    strictAccents: true
+  - id: "b2-reported-questions-orders-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Il m'a demandé est-ce que j'étais prêt."
+    answers: ["Il m'a demandé si j'étais prêt"]
+    explanation: "Est-ce que disappears in a reported question; a yes/no question takes si."
+    strictAccents: true
+  - id: "b2-reported-questions-orders-ex011"
+    type: "fill-in"
+    prompt: "Complétez : « Ne parlez pas ! » → Il nous a dit de ___ parler."
+    answers: ["ne pas"]
+    explanation: "Both parts of the negative go before the infinitive: de ne pas parler."
+  - id: "b2-reported-questions-orders-ex012"
+    type: "translate"
+    prompt: "Traduisez : She asked me what I wanted."
+    answers: ["Elle m'a demandé ce que je voulais"]
+    explanation: "What becomes ce que, and the present becomes the imparfait."
+    strictAccents: true
+  - id: "b2-reported-questions-orders-ex013"
+    type: "translate"
+    prompt: "Traduisez : He told us not to wait."
+    answers: ["Il nous a dit de ne pas attendre"]
+    explanation: "Dire à quelqu'un de ne pas + infinitive."
+    strictAccents: true
+  - id: "b2-reported-questions-orders-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Le journaliste a demandé à la ministre (whether) la réforme (would be) prête en juin. Elle a répondu qu'elle ne (knew) pas. Il lui a demandé (what) elle (was going to do). Elle lui a dit (not to insist)."
+    answers: ["Le journaliste a demandé à la ministre si la réforme serait prête en juin. Elle a répondu qu'elle ne savait pas. Il lui a demandé ce qu'elle allait faire. Elle lui a dit de ne pas insister.", "Le journaliste a demandé à la ministre si la réforme allait être prête en juin. Elle a répondu qu'elle ne savait pas. Il lui a demandé ce qu'elle allait faire. Elle lui a dit de ne pas insister."]
+    explanation: "Si + conditionnel, the imparfait, ce que + allait, and de ne pas + infinitive."
+    strictAccents: true
+  - id: "b2-reported-questions-orders-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : He asked me where I lived."
+    words: ["Il", "m'a", "demandé", "où", "j'habitais"]
+    answers: ["Il m'a demandé où j'habitais"]
+    explanation: "Demander + où + a statement word order."
+---
+
+By the end of this lesson you'll be able to report what someone asked you and what they told you to do, in the past.
+
+## What you already know
+
+In <LessonLink id="b1-reported-speech-present" text="the lesson on reported speech" />, you learned to report questions with a present verb: *il demande si tu viens*, *elle veut savoir ce que tu fais*. In <LessonLink id="b1-giving-advice" text="the lesson on giving advice" />, you met *ne pas* + infinitive (*essaie de ne pas oublier*). And <LessonLink id="b2-reported-speech-past" text="the last lesson" /> gave you the tense shifts after a past reporting verb. This lesson puts the three together.
+
+## Reported questions in the past
+
+A reported question isn't a real question any more. There's no inversion, no *est-ce que* and no question mark. The verb shifts as in any reported speech after a past verb.
+
+| What was asked | Reported after *il m'a demandé* |
+|---|---|
+| a yes/no question: *« Tu es libre ? »* | *si j'étais libre* |
+| *« Qu'est-ce que tu veux ? »* | *ce que je voulais* |
+| *« Qu'est-ce qui se passe ? »* | *ce qui se passait* |
+| *« Où est-ce que tu habites ? »* | *où j'habitais* |
+| *« Quand partiras-tu ? »* | *quand je partirais* |
+
+<Example fr="Elle m'a demandé si j'avais fini." en="She asked me if I had finished." />
+<Example fr="Il voulait savoir pourquoi nous étions partis." en="He wanted to know why we had left." />
+
+With *demander*, the person you ask takes *à*: *j'ai demandé à Paul s'il venait*, or with a pronoun, *je lui ai demandé s'il venait*. The question words (*où*, *quand*, *comment*, *pourquoi*, *combien*) stay as they are. Only *qu'est-ce que* and *qu'est-ce qui* change, into *ce que* and *ce qui*. *Si* becomes *s'* before *il* and *ils*: *il m'a demandé s'il pouvait venir*.
+
+As in the last lesson, a fact that's still true can keep its tense: *elle m'a demandé où j'habite* is correct if you still live there.
+
+## Reported orders
+
+<VocabTable group="orders" />
+
+An order or a request, in the imperative, is reported with a verb + *de* + infinitive. The person who receives the order is introduced by *à*, or by an indirect pronoun such as *me*, *lui* or *leur*.
+
+<Example fr="« Viens ! » → Il m'a dit de venir." en="'Come!' → He told me to come." />
+<Example fr="« Pouvez-vous fermer la porte ? » → Elle m'a demandé de fermer la porte." en="'Could you close the door?' → She asked me to close the door." />
+
+A negative order puts **ne pas** before the infinitive: *« Ne pars pas ! » → il m'a dit de ne pas partir*. This is the pattern you know from *essaie de ne pas oublier*.
+
+*Dire de* is neutral, and *demander de* is more polite: it reports a request rather than an order. The other verbs in the table show the speaker's authority or emotion. *Ordonner* is a strong order, *interdire* forbids, *permettre* allows and *supplier* begs. You know *interdire* from <LessonLink id="b1-presenting-an-argument" text="the lesson on presenting an argument" /> and *exiger* from <LessonLink id="b1-making-a-complaint" text="the lesson on making a complaint" />; here they take *à quelqu'un de* or *de* + infinitive.
+
+<Example fr="Le médecin lui a interdit de faire du sport." en="The doctor forbade him to do sport." />
+<Example fr="Ses parents lui ont permis de sortir." en="Her parents allowed her to go out." />
+
+<Example fr="Le policier lui a ordonné de s'arrêter." en="The police officer ordered him to stop." />
+<Example fr="Elle m'a supplié de rester." en="She begged me to stay." />
+<Example fr="Le client a exigé d'être remboursé." en="The customer demanded to be reimbursed." />
+
+**Insister pour que** is different: it takes *que* + subjunctive, because it expresses a will: *elle a insisté pour que je reste* (she insisted that I stay).
+
+## At a press conference or an inquiry
+
+<VocabTable group="press" />
+
+Reported questions are everywhere in the news. Journalists *interrogent* (question) a minister, who may *esquiver* (dodge) *une question piège*. You know *une enquête* (an investigation) from <LessonLink id="b1-media-and-news" text="the lesson on media and news" />, and *un témoin* (a witness) from <LessonLink id="b1-reported-speech-present" text="the lesson on reported speech" />.
+
+<Example fr="La police judiciaire a interrogé trois témoins." en="The criminal police questioned three witnesses." />
+<Example fr="Pendant l'audition, on lui a demandé où il était ce soir-là." en="During the hearing, he was asked where he had been that evening." />
+
+**Une audition** is a false friend in the news: it's usually a formal hearing by the police, a judge or a parliamentary committee, not an audition for a play.
+
+## The whole list
+
+- Yes/no questions: *si* + statement order.
+- *Qu'est-ce que* → *ce que*; *qu'est-ce qui* → *ce qui*; other question words stay.
+- Orders: *dire*, *demander*, *ordonner*, *interdire*, *permettre* + *à quelqu'un de* + infinitive.
+- Negative orders: *de ne pas* + infinitive.
+- *Insister pour que* + subjunctive.
+- After a past verb, the usual tense shifts apply.
+
+## En français
+
+Léo, an intern at a local newspaper, reports an interview to his editor, Madame Dubois.
+
+- *Alors, Léo, comment s'est passé l'entretien avec la directrice de l'école ?* (So, Léo, how did the interview with the head teacher go?)
+- *Bien. Je lui ai demandé si l'école allait fermer.* (Well. I asked her whether the school was going to close.)
+- *Et qu'est-ce qu'elle a répondu ?* (And what did she say?)
+- *Elle a esquivé la question. Elle a dit que ce n'était pas le bon moment.* (She dodged the question. She said it wasn't the right time.)
+- *C'était peut-être une question piège pour elle. Vous lui avez demandé pourquoi ?* (Maybe it was a trick question for her. Did you ask her why?)
+- *Oui, je lui ai demandé pourquoi elle évitait de répondre. Elle m'a demandé de ne pas insister.* (Yes, I asked her why she was avoiding answering. She asked me not to insist.)
+- *Intéressant. Elle vous a interdit de publier quelque chose ?* (Interesting. Did she forbid you to publish anything?)
+- *Non, mais elle m'a demandé de lui envoyer l'article avant.* (No, but she asked me to send her the article first.)
+- *Ça, ce n'est pas possible. Nous ne montrons pas nos articles avant de les publier.* (That's not possible. We don't show our articles before publishing them.)
+- *D'accord. Et les parents d'élèves ? Ils m'ont dit qu'ils voulaient savoir ce qui allait changer.* (OK. And the parents? They told me they wanted to know what was going to change.)
+- *Alors appelez-les, et insistez pour qu'ils vous répondent.* (Then call them, and insist that they answer you.)
+- *Entendu. Je vous envoie l'article demain matin.* (Understood. I'll send you the article tomorrow morning.)
+
+<Callout type="warning" title="No est-ce que in a reported question">
+  A reported question is a statement. Don't write *il m'a demandé est-ce que j'étais prêt* or *elle m'a demandé qu'est-ce que je voulais*. Write **il m'a demandé si j'étais prêt** and **elle m'a demandé ce que je voulais**.
+</Callout>
+
+<Callout type="tip" title="Turn a chat into a report">
+  After a phone call or a meeting in French, write two lines about it as if for a colleague: one reported question and one reported order. *Il m'a demandé si le dossier était prêt. Il m'a dit de l'envoyer avant lundi.* Real conversations give you real verbs to shift, and the two lines take a minute.
+</Callout>
+
+## En résumé
+
+Pour rapporter au passé une question avec oui ou non, on dit il m'a demandé si. Qu'est-ce que devient ce que, et qu'est-ce qui devient ce qui. Les autres mots, comme où ou pourquoi, ne changent pas. Il n'y a pas d'est-ce que, et la phrase finit par un point. Pour un ordre, on dit il m'a dit de venir, avec de et l'infinitif. Pour dire de ne pas faire quelque chose, on dit il m'a dit de ne pas partir. Les temps changent comme dans le discours indirect.
+
+## What's next
+
+Next, <LessonLink id="b2-reporting-verbs" text="the lesson on reporting verbs" /> shows how to choose a verb that tells the reader what you think of what was said.
+
+=== b2-reporting-verbs ===
+
+---
+id: "b2-reporting-verbs"
+title: "Reporting verbs"
+description: "Choose the reporting verb that shows the speaker's attitude, such as affirmer, prétendre, nier, avouer and souligner, and shift time words when you report: la veille, le lendemain."
+level: "B2"
+unit: "News and reporting"
+order: 19
+type: "vocabulary"
+tags: ["reported speech", "news", "vocabulary", "verbs"]
+prerequisites: ["b2-reported-speech-past"]
+related: ["b1-reported-speech-present", "b2-nuancing-opinions", "b2-false-friends", "b2-passive-voice"]
+vocab:
+  - { id: "b2-reporting-verbs-v001", group: "neutral", fr: "annoncer", pron: "ah-nohn-SAY", en: "to announce", note: "Like commencer: nous annonçons." }
+  - { id: "b2-reporting-verbs-v002", group: "neutral", fr: "déclarer", pron: "day-klah-RAY", en: "to declare, to state (officially)" }
+  - { id: "b2-reporting-verbs-v003", group: "neutral", fr: "estimer que", pron: "es-tee-may KUH", en: "to consider that, to be of the opinion that" }
+  - { id: "b2-reporting-verbs-v004", group: "neutral", fr: "rappeler que", pron: "rah-puh-lay KUH", en: "to point out, to remind (people) that", note: "Like appeler: il rappelle." }
+  - { id: "b2-reporting-verbs-v005", group: "neutral", fr: "citer", pron: "see-TAY", en: "to quote" }
+  - { id: "b2-reporting-verbs-v006", group: "neutral", fr: "une citation", pron: "ewn see-tah-SYOHN", en: "a quotation" }
+  - { id: "b2-reporting-verbs-v007", group: "strong", fr: "affirmer", pron: "ah-feer-MAY", en: "to state firmly, to assert" }
+  - { id: "b2-reporting-verbs-v008", group: "strong", fr: "souligner", pron: "soo-lee-NYAY", en: "to stress, to underline" }
+  - { id: "b2-reporting-verbs-v009", group: "strong", fr: "insister sur", pron: "an-sees-tay SEWR", en: "to insist on, to stress" }
+  - { id: "b2-reporting-verbs-v010", group: "strong", fr: "dénoncer", pron: "day-nohn-SAY", en: "to denounce, to condemn publicly" }
+  - { id: "b2-reporting-verbs-v011", group: "strong", fr: "critiquer", pron: "kree-tee-KAY", en: "to criticize" }
+  - { id: "b2-reporting-verbs-v012", group: "strong", fr: "mettre en garde contre", pron: "meh-trahn gard KOHN-truh", en: "to warn against" }
+  - { id: "b2-reporting-verbs-v013", group: "doubt", fr: "prétendre", pron: "pray-TAHN-druh", en: "to claim (and the reporter doubts it)", note: "False friend: not 'to pretend'. Like vendre: il prétend." }
+  - { id: "b2-reporting-verbs-v014", group: "doubt", fr: "s'interroger sur", pron: "san-teh-roh-zhay SEWR", en: "to wonder about, to question" }
+  - { id: "b2-reporting-verbs-v015", group: "doubt", fr: "nier", pron: "nee-YAY", en: "to deny", note: "Nier que + subjunctive." }
+  - { id: "b2-reporting-verbs-v016", group: "doubt", fr: "démentir", pron: "day-mahn-TEER", en: "to deny officially", note: "Like partir: il dément, il a démenti." }
+  - { id: "b2-reporting-verbs-v017", group: "admit", fr: "admettre", pron: "ad-MEH-truh", en: "to admit", note: "Like mettre: il a admis." }
+  - { id: "b2-reporting-verbs-v018", group: "admit", fr: "avouer", pron: "ah-voo-AY", en: "to confess, to own up" }
+  - { id: "b2-reporting-verbs-v019", group: "time", fr: "la veille", pron: "lah VEH-y", en: "the day before", note: "La veille au soir: the evening before." }
+  - { id: "b2-reporting-verbs-v020", group: "time", fr: "le lendemain", pron: "luh lahn-duh-MAN", en: "the next day, the day after" }
+  - { id: "b2-reporting-verbs-v021", group: "time", fr: "à ce moment-là", pron: "ah suh moh-mahn LAH", en: "at that moment, at that time" }
+  - { id: "b2-reporting-verbs-v022", group: "time", fr: "précédent / précédente", pron: "pray-say-DAHN / pray-say-DAHNT", en: "previous, before", note: "La semaine précédente: the week before." }
+  - { id: "b2-reporting-verbs-v023", group: "time", fr: "suivant / suivante", pron: "swee-VAHN / swee-VAHNT", en: "following, next", note: "L'année suivante: the following year." }
+  - { id: "b2-reporting-verbs-v024", group: "doubt", fr: "faire semblant de", pron: "fehr sahn-blahn DUH", en: "to pretend to", note: "+ infinitive." }
+  - { id: "b2-reporting-verbs-v025", group: "admit", fr: "prendre du retard", pron: "prahn-druh dew ruh-TAR", en: "to fall behind, to be delayed" }
+exercises:
+  - id: "b2-reporting-verbs-ex001"
+    type: "fill-in"
+    prompt: "Complétez avec un verbe à l'infinitif : Le ministre continue à ___ les faits : il dit que tout est faux."
+    answers: ["nier", "démentir"]
+    explanation: "Nier: to deny. Démentir is the official version of the same idea."
+  - id: "b2-reporting-verbs-ex002"
+    type: "fill-in"
+    prompt: "Complétez avec un participe passé : Le suspect a ___ : il a pris l'argent."
+    answers: ["avoué", "admis"]
+    explanation: "Avouer: to confess. Admettre is a little weaker: to admit."
+  - id: "b2-reporting-verbs-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec citer au présent : Le journaliste ___ une phrase du discours."
+    answers: ["cite"]
+    explanation: "Citer: to quote someone's exact words."
+  - id: "b2-reporting-verbs-ex004"
+    type: "fill-in"
+    prompt: "Complétez avec un participe passé : Dans son discours, la ministre a ___ l'importance de l'école."
+    answers: ["souligné"]
+    explanation: "Souligner: to stress a point."
+  - id: "b2-reporting-verbs-ex005"
+    type: "fill-in"
+    prompt: "Complétez avec un verbe au présent : L'association ___ les conditions de travail dans cette entreprise."
+    answers: ["dénonce", "critique"]
+    explanation: "Dénoncer is stronger than critiquer: it condemns publicly."
+  - id: "b2-reporting-verbs-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de : Il prétend qu'il était malade."
+    options: ["He claims he was ill (but I doubt it).", "He pretends to be ill.", "He knows for sure he was ill."]
+    answers: ["He claims he was ill (but I doubt it)."]
+    explanation: "Prétendre is a false friend: it means to claim, and it shows the reporter's doubt."
+  - id: "b2-reporting-verbs-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez le verbe d'une réponse officielle : Le gouvernement ___ cette information."
+    options: ["dément", "avoue", "cite"]
+    answers: ["dément"]
+    explanation: "Démentir is the official denial of a piece of news."
+  - id: "b2-reporting-verbs-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Lundi, elle m'a raconté qu'elle avait vu Paul ___, dimanche."
+    options: ["la veille", "demain", "le lendemain"]
+    answers: ["la veille"]
+    explanation: "Sunday is the day before Monday: la veille."
+  - id: "b2-reporting-verbs-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « annoncer » : Le maire a dit qu'une nouvelle piscine ouvrirait en juin."
+    answers: ["Le maire a annoncé qu'une nouvelle piscine ouvrirait en juin"]
+    explanation: "Annoncer is more precise than dire for news about the future."
+    strictAccents: true
+  - id: "b2-reporting-verbs-ex010"
+    type: "register-shift"
+    prompt: "Transformez avec un verbe plus fort, « affirmer » : Elle a dit que la réforme était nécessaire."
+    answers: ["Elle a affirmé que la réforme était nécessaire"]
+    explanation: "Affirmer shows that she said it firmly."
+    strictAccents: true
+  - id: "b2-reporting-verbs-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Le ministre nie que le projet est trop cher."
+    answers: ["Le ministre nie que le projet soit trop cher"]
+    explanation: "Nier que, like douter que, takes the subjunctive."
+  - id: "b2-reporting-verbs-ex012"
+    type: "translate"
+    prompt: "Traduisez : The minister denied the information."
+    answers: ["Le ministre a démenti l'information", "La ministre a démenti l'information", "Le ministre a nié l'information", "La ministre a nié l'information"]
+    explanation: "Démentir is the official word; nier is also correct."
+    strictAccents: true
+  - id: "b2-reporting-verbs-ex013"
+    type: "translate"
+    prompt: "Traduisez : She stressed that nothing had changed."
+    answers: ["Elle a souligné que rien n'avait changé"]
+    explanation: "Souligner que + the plus-que-parfait after a past verb."
+    strictAccents: true
+  - id: "b2-reporting-verbs-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Le maire (stated) que la ville était plus sûre. L'opposition (claims) que c'est faux. Les journaux (criticize) sa décision."
+    answers: ["Le maire a affirmé que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux critiquent sa décision.", "Le maire a déclaré que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux critiquent sa décision."]
+    explanation: "Three attitudes: a firm statement, a doubtful claim and a criticism."
+    strictAccents: true
+  - id: "b2-reporting-verbs-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The next day, she denied everything."
+    words: ["Le", "lendemain", "elle", "a", "tout", "nié"]
+    answers: ["Le lendemain, elle a tout nié"]
+    explanation: "Le lendemain at the start, then tout before the participle."
+---
+
+By the end of this lesson you'll be able to choose a reporting verb that shows the speaker's attitude, and to shift time words when you report what was said at another time.
+
+## What you already know
+
+You know *dire que*, *répondre que*, *expliquer que* and *préciser* from <LessonLink id="b1-reported-speech-present" text="the lesson on reported speech" />, and *reconnaître que* from <LessonLink id="b2-nuancing-opinions" text="the lesson on nuancing your opinion" />. *Dire* is neutral: it tells the reader what was said, but not how. Journalists rarely stop there. The verb they choose tells you whether the speaker was calm, firm, defensive or doubtful, and whether the journalist believes them.
+
+## Neutral verbs
+
+<VocabTable group="neutral" />
+
+These verbs report without judging. *Annoncer* is for news, often about the future; *déclarer* is for an official statement. *Estimer que* gives an opinion, and *rappeler que* reminds the reader of a fact they may know already. You also know *ajouter* (to add) from <LessonLink id="b1-food-and-cooking" text="the lesson on food and cooking" />, where it was about recipes; in reporting, *il a ajouté que* introduces a second point.
+
+<Example fr="Le maire a annoncé que la piscine ouvrirait en juin." en="The mayor announced that the pool would open in June." />
+<Example fr="La ministre a rappelé que les députés avaient déjà voté la loi." en="The minister pointed out that the MPs had already passed the law." />
+
+<Example fr="Le maire estime que le projet est trop cher." en="The mayor considers that the project is too expensive." />
+
+*Citer* (to quote) is for exact words, which go between French quotation marks: *« … »*. *Une citation* is the quotation itself.
+
+<Example fr="Le journaliste a commencé son article par une citation." en="The journalist began his article with a quotation." />
+
+## Strong verbs
+
+<VocabTable group="strong" />
+
+*Affirmer* and *souligner* show that the speaker was firm, or wanted to make a point clear. *Insister sur* + noun means to stress something; you know *insister pour que* + subjunctive from <LessonLink id="b2-reported-questions-orders" text="the last lesson" />. *Dénoncer* and *critiquer* report an attack on someone's actions, and *mettre en garde contre* reports a warning.
+
+<Example fr="Il a affirmé qu'il n'avait rien vu." en="He stated firmly that he hadn't seen anything." />
+<Example fr="L'association dénonce les conditions de travail." en="The charity condemns the working conditions." />
+
+<Example fr="Elle a insisté sur l'importance de la sécurité." en="She stressed the importance of safety." />
+<Example fr="La police met en garde contre les faux mails." en="The police are warning against fake emails." />
+
+## Doubt and denial
+
+<VocabTable group="doubt" />
+
+**Prétendre** is a false friend: it doesn't mean "to pretend". It means "to claim", and it suggests that the reporter doubts the claim. *Il prétend qu'il était malade* means "he claims he was ill", and the reader is invited to doubt it. *S'interroger sur* (to wonder about) raises a question without accusing.
+
+<Example fr="Les journalistes s'interrogent sur l'avenir du projet." en="Journalists are wondering about the future of the project." />
+<Example fr="Il fait semblant de dormir." en="He's pretending to be asleep." />
+
+**Nier** (to deny) and **démentir** (to deny officially) reject a statement. *Démentir* is the word for a government or a company that says a piece of news is false. After *nier que*, the verb usually goes in the subjunctive, as after *douter que*.
+
+<Example fr="Le gouvernement a démenti cette information." en="The government denied this report." />
+<Example fr="Il nie que le projet soit trop cher." en="He denies that the project is too expensive." />
+
+## Admitting
+
+<VocabTable group="admit" />
+
+*Admettre* (to admit) concedes a point, often unwillingly. *Avouer* (to confess) is stronger: it's what you do when you've done something wrong. Both take the indicative, with the usual shifts after a past verb: *il a avoué qu'il avait pris l'argent* (he confessed he had taken the money).
+
+<Example fr="Elle a admis que le projet avait pris du retard." en="She admitted that the project had been delayed." />
+
+## Reporting verbs in headlines
+
+French headlines usually put the reporting verb in the present, even for yesterday's news: *Le ministre dément*, *La maire annonce une nouvelle piscine*. The present makes the news feel immediate. In the article itself, the journalist then switches to the passé composé and shifts the tenses after it. You also know *selon* from <LessonLink id="b1-conditionnel-present" text="the lesson on the conditionnel présent" />, which reports a source without any verb at all.
+
+## Shifting time words
+
+<VocabTable group="time" />
+
+When you report something said on another day, time words that pointed to that day have to change, because *demain* now means a different day. You know *ce jour-là* from <LessonLink id="a2-telling-a-story" text="the lesson on telling a story" />.
+
+<Example fr="Elle a dit qu'elle était occupée à ce moment-là." en="She said she was busy at that moment." />
+
+| Said on the day | Reported later |
+|---|---|
+| *aujourd'hui* | *ce jour-là* |
+| *hier* | *la veille* |
+| *demain* | *le lendemain* |
+| *maintenant* | *à ce moment-là* |
+| *la semaine dernière* | *la semaine précédente* |
+| *la semaine prochaine* | *la semaine suivante* |
+
+<Example fr="« Je pars demain. » → Il a dit qu'il partait le lendemain." en="'I'm leaving tomorrow.' → He said he was leaving the next day." />
+
+If you report on the same day, keep the original words: *ce matin, il m'a dit qu'il partait demain* is correct, because *demain* is still tomorrow.
+
+## En français
+
+Emma and Hugo, two journalism students, compare two papers' reports of the same speech.
+
+- *Tu as lu les articles sur le discours de la ministre ?* (Have you read the articles on the minister's speech?)
+- *Oui, et ils ne racontent pas la même chose ! Le premier dit qu'elle a annoncé une réforme.* (Yes, and they don't say the same thing! The first one says she announced a reform.)
+- *Et le deuxième prétend qu'elle a avoué une erreur.* (And the second claims she confessed to a mistake.)
+- *C'est faux. Elle a seulement admis que le projet avait pris du retard.* (That's wrong. She only admitted that the project had been delayed.)
+- *Elle a aussi souligné qu'elle n'avait encore rien décidé.* (She also stressed that she hadn't decided anything yet.)
+- *Oui, et elle a démenti les informations sur sa démission.* (Yes, and she denied the reports about her resignation.)
+- *Le deuxième journal cite seulement une phrase. Ce n'est pas sérieux.* (The second paper only quotes one sentence. That's not serious journalism.)
+- *Le premier, lui, rappelle qu'elle avait promis cette réforme l'année précédente.* (The first one points out that she had promised this reform the year before.)
+- *C'est vrai. Et il ajoute qu'elle présentera le projet la semaine prochaine.* (True. And it adds that she'll present the project next week.)
+- *Bref, pour savoir ce qu'elle a vraiment dit, il faut lire sa déclaration complète.* (In short, to know what she really said, you have to read her full statement.)
+
+<Callout type="warning" title="Prétendre doesn't mean pretend">
+  *Il prétend être malade* doesn't mean "he's pretending to be ill". It means **he claims he's ill**, and you're not sure he is. For "to pretend", French uses *faire semblant de*: **il fait semblant d'être malade**.
+</Callout>
+
+<Callout type="tip" title="Compare two headlines">
+  When a big story breaks, find it in two French newspapers and copy the main reporting verb from each article. *Annonce* in one and *prétend* in the other tells you more about the papers than about the story. Collecting verb pairs this way builds the vocabulary and trains you to read the press critically.
+</Callout>
+
+## En résumé
+
+Dire, annoncer, déclarer et rappeler que ne montrent pas l'avis du journaliste. Avec affirmer ou souligner, la personne parle avec force. Avec prétendre, le journaliste doute de ce qu'elle dit. Avec nier et démentir, on dit qu'une information est fausse, et après nier que, on met souvent le subjonctif. Quand on rapporte des paroles plus tard, demain devient le lendemain, et hier devient la veille.
+
+## What's next
+
+Next, <LessonLink id="b2-passive-voice" text="the lesson on the passive voice" /> shows the passive in every tense, another favourite of the news.
+
+=== b2-passive-voice ===
+
+---
+id: "b2-passive-voice"
+title: "The passive voice in all tenses"
+description: "Use the passive in every tense, from sera construit to aura été rénové, and choose between par and de: entouré d'un mur, respecté de tous."
+level: "B2"
+unit: "News and reporting"
+order: 20
+type: "grammar"
+tags: ["passive", "tenses", "grammar", "heritage"]
+prerequisites: ["b1-passive-voice-intro", "b2-futur-anterieur"]
+related: ["b2-conditionnel-passe", "b2-subjonctif-passe", "b2-alternatives-to-passive", "b2-false-friends"]
+vocab:
+  - { id: "b2-passive-voice-v001", group: "de", fr: "entouré / entourée de", pron: "ahn-too-RAY duh", en: "surrounded by" }
+  - { id: "b2-passive-voice-v002", group: "de", fr: "couvert / couverte de", pron: "koo-VEHR / koo-VEHRT duh", en: "covered with" }
+  - { id: "b2-passive-voice-v003", group: "de", fr: "respecté / respectée de", pron: "res-pek-TAY duh", en: "respected by" }
+  - { id: "b2-passive-voice-v004", group: "de", fr: "accompagné / accompagnée de", pron: "ah-kohn-pah-NYAY duh", en: "accompanied by" }
+  - { id: "b2-passive-voice-v005", group: "de", fr: "être suivi de", pron: "eh-truh swee-VEE duh", en: "to be followed by" }
+  - { id: "b2-passive-voice-v006", group: "heritage", fr: "le patrimoine", pron: "luh pah-tree-MWAHN", en: "heritage (buildings, art and traditions)" }
+  - { id: "b2-passive-voice-v007", group: "heritage", fr: "un château", pron: "uhn shah-TOH", en: "a castle, a château" }
+  - { id: "b2-passive-voice-v008", group: "heritage", fr: "un mur", pron: "uhn MEWR", en: "a wall" }
+  - { id: "b2-passive-voice-v009", group: "heritage", fr: "classé / classée", pron: "klah-SAY", en: "listed, protected (of a building)", note: "Classé monument historique." }
+  - { id: "b2-passive-voice-v010", group: "works", fr: "un chantier", pron: "uhn shahn-TYAY", en: "a building site, building works" }
+  - { id: "b2-passive-voice-v011", group: "works", fr: "rénover", pron: "ray-noh-VAY", en: "to renovate" }
+  - { id: "b2-passive-voice-v012", group: "works", fr: "une rénovation", pron: "ewn ray-noh-vah-SYOHN", en: "a renovation" }
+  - { id: "b2-passive-voice-v013", group: "works", fr: "restaurer", pron: "res-toh-RAY", en: "to restore (a building, a painting)" }
+  - { id: "b2-passive-voice-v014", group: "works", fr: "rebâtir", pron: "ruh-bah-TEER", en: "to rebuild", note: "Like finir." }
+  - { id: "b2-passive-voice-v015", group: "works", fr: "achever", pron: "ahsh-VAY", en: "to complete, to finish", note: "False friend: not 'achieve'. Like acheter: j'achève." }
+  - { id: "b2-passive-voice-v016", group: "works", fr: "inaugurer", pron: "ee-noh-gew-RAY", en: "to open officially" }
+exercises:
+  - id: "b2-passive-voice-ex001"
+    type: "fill-in"
+    prompt: "Mettez au passif, au futur (construire) : Le nouveau pont ___ l'année prochaine."
+    answers: ["sera construit"]
+    explanation: "Être in the futur, then the participle: sera construit."
+  - id: "b2-passive-voice-ex002"
+    type: "fill-in"
+    prompt: "Mettez au passif, à l'imparfait (entourer) : Autrefois, le château ___ d'un mur."
+    answers: ["était entouré"]
+    explanation: "Être in the imparfait: était entouré. De, because it's a state."
+  - id: "b2-passive-voice-ex003"
+    type: "fill-in"
+    prompt: "Mettez au passif, au plus-que-parfait (fermer) : Quand nous sommes arrivés, la route ___."
+    answers: ["avait été fermée"]
+    explanation: "Avait été + participle; fermée agrees with la route."
+    strictAccents: true
+  - id: "b2-passive-voice-ex004"
+    type: "fill-in"
+    prompt: "Mettez au passif, au futur antérieur (rénover) : D'ici juin, l'église ___."
+    answers: ["aura été rénovée"]
+    explanation: "Aura été + participle; rénovée agrees with l'église."
+    strictAccents: true
+  - id: "b2-passive-voice-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : Cette professeure est respectée ___ tous ses élèves."
+    options: ["de", "à", "en"]
+    answers: ["de"]
+    explanation: "De is usual with verbs of feeling and attitude: respectée de tous."
+  - id: "b2-passive-voice-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne forme : Les maisons ont été ___ par la tempête."
+    options: ["détruites", "détruits", "détruite"]
+    answers: ["détruites"]
+    explanation: "The participle agrees with the subject, les maisons: feminine plural."
+  - id: "b2-passive-voice-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne réponse : Le pont a été rebâti ___ une entreprise de Lyon."
+    options: ["par", "de", "à"]
+    answers: ["par"]
+    explanation: "An action with someone who does it: par."
+  - id: "b2-passive-voice-ex008"
+    type: "reformulation"
+    prompt: "Reformulez au passif : La ville rénovera le musée."
+    answers: ["Le musée sera rénové par la ville"]
+    explanation: "The object becomes the subject; être takes the tense of the active verb, the futur."
+  - id: "b2-passive-voice-ex009"
+    type: "reformulation"
+    prompt: "Reformulez au passif : Les secours avaient sauvé les enfants."
+    answers: ["Les enfants avaient été sauvés par les secours"]
+    explanation: "Plus-que-parfait passive: avaient été sauvés, agreeing with les enfants."
+    strictAccents: true
+  - id: "b2-passive-voice-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : L'église a été rénové l'année dernière."
+    answers: ["L'église a été rénovée l'année dernière"]
+    explanation: "The participle agrees with the subject, l'église. Été never agrees."
+    strictAccents: true
+  - id: "b2-passive-voice-ex011"
+    type: "fill-in"
+    prompt: "Complétez avec le participe passé de « restaurer » : Ce monument doit être ___ avant l'été."
+    answers: ["restauré"]
+    explanation: "Devoir + être + participle: the passive infinitive."
+  - id: "b2-passive-voice-ex012"
+    type: "translate"
+    prompt: "Traduisez avec « rebâtir » : The bridge will have been rebuilt by June."
+    answers: ["Le pont aura été rebâti d'ici juin", "D'ici juin, le pont aura été rebâti", "Le pont aura été rebâti avant juin", "Avant juin, le pont aura été rebâti"]
+    explanation: "The futur antérieur passive: aura été rebâti."
+    strictAccents: true
+  - id: "b2-passive-voice-ex013"
+    type: "translate"
+    prompt: "Traduisez : The castle was surrounded by a wall."
+    answers: ["Le château était entouré d'un mur", "Le château était entouré par un mur"]
+    explanation: "A state in the past: the imparfait, and usually de."
+  - id: "b2-passive-voice-ex014"
+    type: "translate"
+    prompt: "Rédigez cette information en complétant comme indiqué : Le musée (was closed: passé composé) en mars. Il (will be renovated) par la ville. Il (will have been opened officially) avant l'été."
+    answers: ["Le musée a été fermé en mars. Il sera rénové par la ville. Il aura été inauguré avant l'été.","Le musée a été fermé en mars. Il va être rénové par la ville. Il aura été inauguré avant l'été."]
+    explanation: "Three tenses of the passive: passé composé, futur and futur antérieur."
+    strictAccents: true
+  - id: "b2-passive-voice-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The church must be restored."
+    words: ["L'église", "doit", "être", "restaurée"]
+    answers: ["L'église doit être restaurée"]
+    explanation: "Devoir + être + participle, agreeing with l'église."
+---
+
+By the end of this lesson you'll be able to use the passive in every tense you know, and to choose between *par* and *de* for the person or thing behind the action.
+
+## What you already know
+
+In <LessonLink id="b1-passive-voice-intro" text="the lesson on the passive voice" />, you learned the passive in the present and the passé composé: *le pont est construit*, *le pont a été construit par la ville*. The participle agrees with the subject, and *par* introduces who did the action. This lesson takes the same pattern into every tense.
+
+## Être carries the tense
+
+The passive is always *être* + past participle. To change the tense, you change only *être*. The participle stays the same, and it agrees with the subject.
+
+| Tense | The museum is renovated… |
+|---|---|
+| present | *le musée est rénové* |
+| imparfait | *le musée était rénové* |
+| passé composé | *le musée a été rénové* |
+| plus-que-parfait | *le musée avait été rénové* |
+| futur | *le musée sera rénové* |
+| futur antérieur | *le musée aura été rénové* |
+| conditionnel présent | *le musée serait rénové* |
+| conditionnel passé | *le musée aurait été rénové* |
+| subjonctif présent | *que le musée soit rénové* |
+| subjonctif passé | *que le musée ait été rénové* |
+
+<Example fr="La route sera fermée pendant deux jours." en="The road will be closed for two days." />
+<Example fr="Selon la mairie, le château aurait été vendu." en="According to the town hall, the castle has reportedly been sold." />
+
+*Été*, the participle of *être*, never changes. Only the second participle agrees: *la route avait été fermée*, *les murs auront été restaurés*. You know the futur antérieur from <LessonLink id="b2-futur-anterieur" text="the lesson on the futur antérieur" /> and the subjonctif passé from <LessonLink id="b2-subjonctif-passe" text="the lesson on the past subjunctive" />; in the passive, they simply take *été* + participle.
+
+After *devoir* and *pouvoir*, the passive is in the infinitive: *être* + participle. After *il faut que*, it's in the subjunctive: *soit* + participle.
+
+<Example fr="Ce monument doit être restauré." en="This monument must be restored." />
+<Example fr="Il faut que le chantier soit achevé avant l'hiver." en="The building work has to be completed before the winter." />
+
+## Par or de?
+
+<VocabTable group="de" />
+
+**Par** introduces someone or something that does an action: *le pont a été rebâti par une entreprise de Lyon*. **De** is usual when the participle describes a state or a feeling rather than an action. You'll see it with verbs of feeling and attitude (*aimé de*, *respecté de*) and with verbs that describe a position (*entouré de*, *couvert de*, *accompagné de*, *suivi de*).
+
+<Example fr="Cette maire est respectée de tous." en="This mayor is respected by everyone." />
+<Example fr="Le château est entouré d'un grand parc." en="The castle is surrounded by a large park." />
+<Example fr="La ville était couverte de neige." en="The town was covered with snow." />
+
+<Example fr="Le président est arrivé, accompagné de deux ministres." en="The president arrived, accompanied by two ministers." />
+<Example fr="Le concert sera suivi d'un repas." en="The concert will be followed by a meal." />
+
+The difference isn't always strict. *Aimé par ses élèves* is possible, but *aimé de ses élèves* sounds more natural. With some verbs, the two differ in emphasis: *entouré de policiers* describes a situation, while *entouré par les policiers* stresses the action of surrounding.
+
+Notice that *de* + *le* still becomes *du*, and *de* + *les* becomes *des*: *suivi du ministre*, *couvert des feuilles d'automne*.
+
+## Heritage
+
+<VocabTable group="heritage" />
+
+The passive is common when you talk about old buildings, because what matters is usually the building, not the workers. *Le patrimoine* is a country's heritage: monuments, works of art and traditions. A building that's *classé monument historique* is protected by the State, and any change to it must be approved.
+
+<Example fr="Ce château est classé monument historique." en="This castle is a listed historic monument." />
+
+<Example fr="Ce château est un monument important du patrimoine français." en="This castle is an important monument of French heritage." />
+
+## Building works
+
+<VocabTable group="works" />
+
+*Un chantier* is a building site, and by extension the whole building project. *Rénover* modernizes a building; *restaurer* repairs it to bring back its original state; *rebâtir* rebuilds what was destroyed. When it's finished, the mayor or a minister *inaugure* it (opens it officially).
+
+**Achever** is a false friend: it means to complete or to finish, not "to achieve". *Le chantier a été achevé en juin* means that the work was finished in June. You know *reporter* (to postpone) from <LessonLink id="b1-si-present-futur" text="the lesson on si with the present" /> and *annuler* from <LessonLink id="a2-booking-a-hotel" text="the lesson on booking a hotel" />.
+
+<Example fr="Le musée sera inauguré en juin, après une longue rénovation." en="The museum will be opened officially in June, after a long renovation." />
+
+## The whole list
+
+- The passive: *être* in any tense + past participle.
+- The participle agrees with the subject; *été* never agrees.
+- After *devoir* and *pouvoir*, the passive is in the infinitive (*doit être restauré*); after *il faut que*, it's in the subjunctive (*il faut que le chantier soit achevé*).
+- *Par* for an action; *de* for a state or a feeling.
+
+## En français
+
+A guide shows a group of tourists a château under renovation.
+
+- *Excusez-moi, pourquoi y a-t-il un chantier devant le château ?* (Excuse me, why is there a building site in front of the château?)
+- *Le château est en rénovation. Il est classé monument historique, alors il doit être restauré avec beaucoup d'attention.* (The château is being renovated. It's a listed historic monument, so it has to be restored with great care.)
+- *Il a été construit quand ?* (When was it built?)
+- *Avant la Révolution. Il était entouré d'un grand mur, mais le mur a été détruit pendant la Révolution.* (Before the Revolution. It was surrounded by a big wall, but the wall was destroyed during the Revolution.)
+- *Et quand le chantier sera-t-il achevé ?* (And when will the building work be finished?)
+- *Selon la mairie, la rénovation sera achevée en juin. Mais le chantier a déjà été reporté deux fois.* (According to the town hall, the renovation will be completed in June. But the work has already been postponed twice.)
+- *Qui paie tout ça ?* (Who pays for all this?)
+- *Une partie est payée par la ville, et le reste par l'État.* (Part is paid for by the town, and the rest by the State.)
+- *Et après, le château sera ouvert au public ?* (And afterwards, will the château be open to the public?)
+- *Oui. Une fois que tout aura été rénové, il sera inauguré par la maire, et le public pourra le visiter.* (Yes. Once everything has been renovated, it will be opened officially by the mayor, and the public will be able to visit it.)
+
+<Callout type="warning" title="Été never agrees">
+  In compound passives, learners sometimes make *été* agree: *la route a étée fermée* is wrong. *Été* never changes. Only the last participle agrees with the subject: **la route a été fermée**, **les murs avaient été restaurés**.
+</Callout>
+
+<Callout type="tip" title="Read the plaques">
+  Many French buildings have a small plaque by the door, often in the passive: *Ce bâtiment a été construit en…*, *restauré en…*, *inauguré par…*. When you visit a French town, read them and say the sentence again in another tense, for example the futur. It turns a walk into a short grammar exercise.
+</Callout>
+
+## En résumé
+
+Au passif, c'est être qui change de temps : le musée sera rénové, la route avait été fermée, le pont aura été rebâti. Le participe ne change pas, sauf pour s'accorder comme avec être au passé composé, et été ne change jamais. Après devoir ou pouvoir, on met être à l'infinitif : ce monument doit être restauré. Après il faut que, on met être au subjonctif : il faut que le chantier soit achevé. Pour une action, on dit par. Pour une situation, ou avec aimer et respecter, on dit souvent de : il est respecté de tous.
+
+## What's next
+
+Next, <LessonLink id="b2-alternatives-to-passive" text="the lesson on alternatives to the passive" /> shows when French prefers *on* or another structure.
+
+=== b2-alternatives-to-passive ===
+
+---
+id: "b2-alternatives-to-passive"
+title: "Alternatives to the passive"
+description: "Say what's done without the passive: on, the pronominal passive (ça ne se fait pas, ce plat se mange froid), se voir + infinitive, il est interdit de, and à + infinitive (une maison à vendre)."
+level: "B2"
+unit: "News and reporting"
+order: 21
+type: "grammar"
+tags: ["passive", "pronominal verbs", "grammar", "customs"]
+prerequisites: ["b2-passive-voice"]
+related: ["b1-passive-voice-intro", "b1-reviewing-a-film-or-book", "b2-faire-causatif", "b2-nominalisation"]
+vocab:
+  - { id: "b2-alternatives-to-passive-v001", group: "pronominal", fr: "ça se dit", pron: "sah suh DEE", en: "people say that, that's said" }
+  - { id: "b2-alternatives-to-passive-v002", group: "pronominal", fr: "ça ne se fait pas", pron: "sah nuh suh feh PAH", en: "it isn't done, it's not polite" }
+  - { id: "b2-alternatives-to-passive-v003", group: "pronominal", fr: "se vendre", pron: "suh VAHN-druh", en: "to sell, to be sold", note: "Ce livre se vend bien." }
+  - { id: "b2-alternatives-to-passive-v004", group: "pronominal", fr: "se manger", pron: "suh mahn-ZHAY", en: "to be eaten" }
+  - { id: "b2-alternatives-to-passive-v005", group: "pronominal", fr: "se boire", pron: "suh BWAHR", en: "to be drunk" }
+  - { id: "b2-alternatives-to-passive-v006", group: "pronominal", fr: "se porter", pron: "suh por-TAY", en: "to be worn" }
+  - { id: "b2-alternatives-to-passive-v007", group: "language", fr: "se prononcer", pron: "suh proh-nohn-SAY", en: "to be pronounced" }
+  - { id: "b2-alternatives-to-passive-v008", group: "language", fr: "s'écrire", pron: "say-KREER", en: "to be spelled, to be written" }
+  - { id: "b2-alternatives-to-passive-v009", group: "language", fr: "se conjuguer", pron: "suh kohn-zhew-GAY", en: "to be conjugated" }
+  - { id: "b2-alternatives-to-passive-v010", group: "voir", fr: "se voir refuser", pron: "suh vwahr ruh-few-ZAY", en: "to be refused" }
+  - { id: "b2-alternatives-to-passive-v011", group: "voir", fr: "se voir offrir", pron: "suh vwahr oh-FREER", en: "to be offered" }
+  - { id: "b2-alternatives-to-passive-v012", group: "impersonal", fr: "il est prévu que", pron: "ee-leh pray-vew KUH", en: "it's planned that", note: "+ indicative." }
+  - { id: "b2-alternatives-to-passive-v013", group: "impersonal", fr: "il est interdit de", pron: "ee-leh tan-tehr-dee DUH", en: "it's forbidden to" }
+  - { id: "b2-alternatives-to-passive-v014", group: "impersonal", fr: "il est conseillé de", pron: "ee-leh kohn-seh-yay DUH", en: "it's advisable to" }
+  - { id: "b2-alternatives-to-passive-v015", group: "impersonal", fr: "une coutume", pron: "ewn koo-TEWM", en: "a custom" }
+  - { id: "b2-alternatives-to-passive-v016", group: "impersonal", fr: "un usage", pron: "uh-new-ZAHZH", en: "a convention, an accepted way of doing things", note: "Often plural: les usages." }
+  - { id: "b2-alternatives-to-passive-v017", group: "a", fr: "à vendre", pron: "ah VAHN-druh", en: "for sale", note: "Also à louer: to let." }
+  - { id: "b2-alternatives-to-passive-v018", group: "a", fr: "facile / difficile à + infinitive", pron: "fah-SEEL / dee-fee-SEEL ah", en: "easy / hard to (do)", note: "C'est facile à faire." }
+exercises:
+  - id: "b2-alternatives-to-passive-ex001"
+    type: "fill-in"
+    prompt: "Conjuguez au présent (se manger) : Ce plat ___ froid."
+    answers: ["se mange"]
+    explanation: "The pronominal passive: the subject is the thing, and se + verb gives a general truth."
+    strictAccents: true
+  - id: "b2-alternatives-to-passive-ex002"
+    type: "fill-in"
+    prompt: "Conjuguez au présent (s'écrire) : Ce mot ___ avec deux l."
+    answers: ["s'écrit"]
+    explanation: "S'écrire: to be spelled."
+  - id: "b2-alternatives-to-passive-ex003"
+    type: "fill-in"
+    prompt: "Conjuguez au présent (se prononcer) : Le s final ne ___ pas."
+    answers: ["se prononce"]
+    explanation: "Se prononcer: to be pronounced."
+  - id: "b2-alternatives-to-passive-ex004"
+    type: "fill-in"
+    prompt: "Conjuguez « se voir » au passé composé : Elle ___ refuser l'entrée."
+    answers: ["s'est vu", "s'est vue"]
+    explanation: "Se voir + infinitive says what happened to her. Careful writers leave vu unchanged here, but vue is common."
+  - id: "b2-alternatives-to-passive-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne phrase."
+    options: ["Le café se boit chaud.", "Le café se bois chaud.", "Le café boit chaud."]
+    answers: ["Le café se boit chaud."]
+    explanation: "Se boire in the il form: le café se boit."
+  - id: "b2-alternatives-to-passive-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de : Ça ne se fait pas."
+    options: ["It isn't done (it's not polite).", "It can't be built.", "It isn't finished yet."]
+    answers: ["It isn't done (it's not polite)."]
+    explanation: "Ça ne se fait pas states a social rule."
+  - id: "b2-alternatives-to-passive-ex007"
+    type: "register-shift"
+    prompt: "Transformez en registre courant, avec « on » : Une nouvelle gare a été construite."
+    answers: ["On a construit une nouvelle gare"]
+    explanation: "In everyday French, on + active verb often replaces the passive."
+    strictAccents: true
+  - id: "b2-alternatives-to-passive-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « se vendre » : Ce livre est beaucoup vendu."
+    answers: ["Ce livre se vend beaucoup"]
+    explanation: "Se vendre: the pronominal passive, with no agent."
+  - id: "b2-alternatives-to-passive-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « se voir » : On lui a refusé l'entrée."
+    answers: ["Il s'est vu refuser l'entrée", "Elle s'est vu refuser l'entrée", "Elle s'est vue refuser l'entrée"]
+    explanation: "The person who was refused becomes the subject of se voir + infinitive."
+  - id: "b2-alternatives-to-passive-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur pour le registre écrit : Ça se dit pas."
+    answers: ["Ça ne se dit pas"]
+    explanation: "Written French keeps ne: ça ne se dit pas."
+  - id: "b2-alternatives-to-passive-ex011"
+    type: "fill-in"
+    prompt: "Complétez : Il y a une maison ___ vendre dans ma rue."
+    answers: ["à"]
+    explanation: "À + infinitive with a passive sense: a house to be sold."
+    strictAccents: true
+  - id: "b2-alternatives-to-passive-ex012"
+    type: "translate"
+    prompt: "Traduisez avec « se boire » : This wine is drunk cold."
+    answers: ["Ce vin se boit froid"]
+    explanation: "Se boire, for a general rule about the wine."
+  - id: "b2-alternatives-to-passive-ex013"
+    type: "translate"
+    prompt: "Traduisez : She was refused entry."
+    answers: ["Elle s'est vu refuser l'entrée", "Elle s'est vue refuser l'entrée", "On lui a refusé l'entrée"]
+    explanation: "Refuser à quelqu'un can't be made passive in French, so use se voir refuser or on."
+    strictAccents: true
+  - id: "b2-alternatives-to-passive-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : En France, le fromage (is eaten) avant le dessert. Le café (is drunk) à la fin du repas. Parler fort à table, ça (isn't done)."
+    answers: ["En France, le fromage se mange avant le dessert. Le café se boit à la fin du repas. Parler fort à table, ça ne se fait pas."]
+    explanation: "Three customs, three pronominal passives."
+    strictAccents: true
+  - id: "b2-alternatives-to-passive-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : This word is pronounced differently."
+    words: ["Ce", "mot", "se", "prononce", "autrement"]
+    answers: ["Ce mot se prononce autrement"]
+    explanation: "Se prononcer: the pronominal passive."
+---
+
+By the end of this lesson you'll be able to say what's done, or how something is done, without using the passive, as French speakers usually do.
+
+## What you already know
+
+In <LessonLink id="b2-passive-voice" text="the last lesson" />, you learned the passive in every tense. It's common in the news and in formal writing, but much less in speech. You already met the main alternative, *on*, in <LessonLink id="b1-passive-voice-intro" text="the lesson on the passive voice" />. This lesson adds four more.
+
+## On: the everyday choice
+
+In conversation, *on* + an active verb usually replaces the passive, especially when you don't know or don't care who did the action.
+
+<Example fr="On a construit une nouvelle gare." en="A new station has been built." />
+<Example fr="On m'a dit que la réunion était annulée." en="I was told the meeting was cancelled." />
+
+The second example shows something the French passive can't do. With most verbs that take *à* + a person, such as *dire à*, *demander à*, *offrir à* or *refuser à*, the person can't become the subject of a passive. "I was told" is never *j'ai été dit*. It's *on m'a dit*.
+
+## The pronominal passive
+
+<VocabTable group="pronominal" />
+
+*Se* + a verb in the *il* or *ils* form, with a thing as the subject, says how something is usually done. It's the natural way to state customs, rules and general truths, and it normally has no agent with *par*.
+
+<Example fr="Ce plat se mange froid." en="This dish is eaten cold." />
+<Example fr="Ce livre se vend très bien." en="This book is selling very well." />
+<Example fr="Cette veste se porte en hiver." en="This jacket is worn in winter." />
+
+**Ça se dit** and **ça ne se fait pas** are two very common fixed uses: the first says that people use an expression, the second that something is impolite. *Mettre les coudes sur la table, ça ne se fait pas* (putting your elbows on the table isn't done).
+
+## Talking about language
+
+<VocabTable group="language" />
+
+The pronominal passive is also how French talks about its own words. You'll find it in dictionaries and grammar books.
+
+<Example fr="Ce mot s'écrit avec deux l." en="This word is spelled with two l's." />
+<Example fr="Le s final ne se prononce pas." en="The final s isn't pronounced." />
+<Example fr="Ce verbe se conjugue comme finir." en="This verb is conjugated like finir." />
+
+## Se voir + infinitive
+
+<VocabTable group="voir" />
+
+**Se voir** + infinitive tells you what happened to a person, often something done by an authority. It solves the problem of verbs with *à*: *on lui a refusé l'entrée* becomes *il s'est vu refuser l'entrée*. It's more formal than *on*, and frequent in the news.
+
+<Example fr="La candidate s'est vu offrir un poste à Paris." en="The candidate was offered a job in Paris." />
+
+In the passé composé, careful writers leave *vu* unchanged in this structure (*elle s'est vu refuser*), because *se* isn't the direct object of *voir*. You'll often see *vue* too.
+
+## Impersonal phrases
+
+<VocabTable group="impersonal" />
+
+Notices and official texts often use *il est* + participle: **il est interdit de** + infinitive (it's forbidden to), **il est conseillé de** (it's advisable to), and **il est prévu que** + indicative (it's planned that). They state a rule or a plan without saying who made it.
+
+<Example fr="Il est interdit de fumer dans le train." en="Smoking is forbidden on the train." />
+<Example fr="Il est prévu que le chantier commencera en mai." en="The building work is planned to start in May." />
+
+*Une coutume* is a custom, and *les usages* are the accepted ways of doing things in a place or a group: *les usages à table*.
+
+## À + infinitive
+
+<VocabTable group="a" />
+
+After a noun or an adjective, **à** + infinitive can have a passive sense: *une maison à vendre* is a house to be sold. You've met some of these as fixed phrases: *un appartement à louer*, in <LessonLink id="b1-housing-and-renting" text="the lesson on housing and renting" />, and *à voir absolument* and *à éviter*, in <LessonLink id="b1-reviewing-a-film-or-book" text="the lesson on reviewing a film or a book" />. The pattern works with many verbs: *un livre à lire*, *des questions à régler*.
+
+With *facile*, *difficile* and similar adjectives, compare the two structures. *C'est facile à faire* has the thing as its subject. *Il est facile de faire ça* is impersonal, and the thing comes after the infinitive.
+
+<Example fr="Cette recette est facile à faire." en="This recipe is easy to make." />
+<Example fr="Il est difficile de trouver un appartement à Paris." en="It's hard to find a flat in Paris." />
+
+*Se faire* + infinitive (*il s'est fait voler*) is another way to say what happens to someone, but it's taught later, in <LessonLink id="b2-faire-causatif" text="the lesson on faire + infinitive" />.
+
+## The whole list
+
+- In speech: *on* + active verb.
+- For customs, rules and language: *se* + verb (*ce plat se mange froid*).
+- For what happens to a person: *se voir* + infinitive (*elle s'est vu refuser l'entrée*).
+- For notices and plans: *il est interdit de*, *il est conseillé de*, *il est prévu que*.
+- After a noun or an adjective: *à* + infinitive (*une maison à vendre*, *facile à faire*).
+
+## En français
+
+Sarah is invited to lunch by Madame Dubois, a French host, and asks about table customs.
+
+- *Merci pour l'invitation, madame. Je ne connais pas bien les usages français.* (Thank you for the invitation. I don't know French customs well.)
+- *Ne vous inquiétez pas. D'abord, on boit un verre ensemble.* (Don't worry. First, we have a drink together.)
+- *Et à table, le pain se met dans l'assiette ?* (And at the table, does the bread go on the plate?)
+- *Non, il se pose sur la table, à côté de l'assiette.* (No, it goes on the table, next to the plate.)
+- *D'accord. Et le fromage, il se mange avant ou après le dessert ?* (OK. And the cheese, is it eaten before or after the dessert?)
+- *Avant le dessert. Et le café se boit à la fin, après le dessert.* (Before the dessert. And coffee is drunk at the end, after the dessert.)
+- *Je peux demander encore du fromage ? Ça se fait ?* (Can I ask for more cheese? Is that done?)
+- *Bien sûr ! En revanche, il est conseillé de rester à table jusqu'à la fin du repas.* (Of course! On the other hand, it's best to stay at the table until the end of the meal.)
+- *Et on se tutoie, ou c'est trop tôt ?* (And do we say tu to each other, or is it too soon?)
+- *Chez nous, ça se fait vite. Mais pour aujourd'hui, gardons le vous !* (In our family, that happens quickly. But for today, let's keep vous!)
+
+<Callout type="warning" title="On m'a dit, not j'ai été dit">
+  English says "I was told", "she was given", "we were asked". French can't make the person the subject of a passive with *dire à*, *donner à* or *demander à*. Say **on m'a dit**, **on lui a donné**, **on nous a demandé**, or, more formally, **elle s'est vu offrir**.
+</Callout>
+
+<Callout type="tip" title="Ask how it's said">
+  When you're not sure of a word, ask a French speaker with the pronominal passive: *Ça se dit ?*, *Ça s'écrit comment ?*, *Ça se prononce comment ?* These three questions are useful in any conversation, and every time you ask them, you practise the structure.
+</Callout>
+
+## En résumé
+
+Quand on parle, on remplace souvent le passif par on : on a construit une nouvelle gare. Pour une coutume, on met se devant le verbe : ce plat se mange froid, ça ne se fait pas, ce mot s'écrit avec deux l. Pour dire ce qui arrive à une personne, on peut dire elle s'est vu refuser l'entrée. Dans les textes officiels, on trouve il est interdit de ou il est prévu que. Enfin, une maison à vendre est une maison qu'on veut vendre.
+
+## What's next
+
+Next, <LessonLink id="b2-nominalisation" text="the lesson on nominalisation" /> turns verbs into nouns for the dense style of the news.
+
+=== b2-nominalisation ===
+
+---
+id: "b2-nominalisation"
+title: "Nominalisation"
+description: "Turn verbs and adjectives into nouns for the dense style of news writing and headlines: la hausse des prix, la fermeture de la gare, la gratuité des transports."
+level: "B2"
+unit: "News and reporting"
+order: 22
+type: "grammar"
+tags: ["nouns", "news", "writing", "grammar"]
+prerequisites: ["b2-politics-and-society"]
+related: ["b1-media-and-news", "b2-reporting-verbs", "b2-summarizing-an-article"]
+vocab:
+  - { id: "b2-nominalisation-v001", group: "verbs", fr: "l'augmentation (augmenter)", pron: "log-mahn-tah-SYOHN (og-mahn-TAY)", en: "the increase (to increase)" }
+  - { id: "b2-nominalisation-v002", group: "verbs", fr: "la diminution (diminuer)", pron: "lah dee-mee-new-SYOHN (dee-mee-new-AY)", en: "the decrease (to decrease)" }
+  - { id: "b2-nominalisation-v003", group: "verbs", fr: "la suppression", pron: "lah sew-preh-SYOHN", en: "the abolition, the cutting (of a tax, a job)", note: "From supprimer." }
+  - { id: "b2-nominalisation-v004", group: "verbs", fr: "le lancement (lancer)", pron: "luh lahnss-MAHN (lahn-SAY)", en: "the launch (to launch)" }
+  - { id: "b2-nominalisation-v005", group: "verbs", fr: "la fermeture", pron: "lah fehr-muh-TEWR", en: "the closure", note: "From fermer." }
+  - { id: "b2-nominalisation-v006", group: "verbs", fr: "l'ouverture", pron: "loo-vehr-TEWR", en: "the opening", note: "From ouvrir." }
+  - { id: "b2-nominalisation-v007", group: "verbs", fr: "l'arrivée", pron: "lah-ree-VAY", en: "the arrival", note: "From arriver: the feminine participle." }
+  - { id: "b2-nominalisation-v008", group: "zero", fr: "la hausse", pron: "lah OHSS", en: "the rise (in prices, numbers)" }
+  - { id: "b2-nominalisation-v009", group: "zero", fr: "la baisse", pron: "lah BESS", en: "the fall, the drop" }
+  - { id: "b2-nominalisation-v010", group: "zero", fr: "le recul (reculer)", pron: "luh ruh-KEWL (ruh-kew-LAY)", en: "a fall, a retreat (to fall back)" }
+  - { id: "b2-nominalisation-v011", group: "zero", fr: "le départ", pron: "luh day-PAR", en: "the departure; in politics, a resignation", note: "From partir." }
+  - { id: "b2-nominalisation-v012", group: "zero", fr: "le maintien (maintenir)", pron: "luh man-TYAN (man-tuh-NEER)", en: "keeping, maintaining (to keep)" }
+  - { id: "b2-nominalisation-v013", group: "zero", fr: "la mise en place", pron: "lah mee-zahn PLAHSS", en: "the setting up", note: "From mettre en place." }
+  - { id: "b2-nominalisation-v014", group: "zero", fr: "la prise de conscience (prendre conscience)", pron: "lah preez duh kohn-SYAHNSS", en: "awareness, realization (to become aware)" }
+  - { id: "b2-nominalisation-v015", group: "adj", fr: "la gratuité (gratuit)", pron: "lah grah-twee-TAY (grah-TWEE)", en: "being free of charge (free)" }
+  - { id: "b2-nominalisation-v016", group: "adj", fr: "la fiabilité", pron: "lah fyah-bee-lee-TAY", en: "reliability", note: "From fiable." }
+  - { id: "b2-nominalisation-v017", group: "adj", fr: "la faiblesse", pron: "lah feh-BLESS", en: "weakness", note: "From faible." }
+  - { id: "b2-nominalisation-v018", group: "adj", fr: "la lenteur (lent)", pron: "lah lahn-TUHR (LAHN)", en: "slowness (slow)" }
+  - { id: "b2-nominalisation-v019", group: "style", fr: "le style nominal", pron: "luh steel noh-mee-NAHL", en: "nominal style (writing with nouns rather than verbs)" }
+  - { id: "b2-nominalisation-v020", group: "style", fr: "les habitants", pron: "lay-zah-bee-TAHN", en: "the residents, the inhabitants", note: "Un habitant / une habitante." }
+  - { id: "b2-nominalisation-v021", group: "terms", fr: "un adjectif / un adverbe", pron: "uh-nad-zhek-TEEF / uh-nad-VEHRB", en: "an adjective / an adverb" }
+  - { id: "b2-nominalisation-v022", group: "terms", fr: "masculin / féminin", pron: "mahs-kew-LAN / fay-mee-NAN", en: "masculine / feminine" }
+  - { id: "b2-nominalisation-v023", group: "terms", fr: "un groupe nominal", pron: "uhn groop noh-mee-NAHL", en: "a noun phrase" }
+exercises:
+  - id: "b2-nominalisation-ex001"
+    type: "fill-in"
+    prompt: "Complétez avec le nom de « fermer » : La ___ de la gare est prévue en mai."
+    answers: ["fermeture"]
+    explanation: "Fermer → la fermeture, with the feminine suffix -ure."
+  - id: "b2-nominalisation-ex002"
+    type: "fill-in"
+    prompt: "Complétez avec le nom de « lancer » : Le ___ du nouveau projet est prévu en juin."
+    answers: ["lancement"]
+    explanation: "Lancer → le lancement, with the masculine suffix -ment."
+  - id: "b2-nominalisation-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec le nom de « supprimer » : La ___ de cette taxe est une bonne nouvelle."
+    answers: ["suppression"]
+    explanation: "Supprimer → la suppression."
+  - id: "b2-nominalisation-ex004"
+    type: "fill-in"
+    prompt: "Complétez avec le nom de « gratuit » : La ___ des musées le dimanche plaît aux familles."
+    answers: ["gratuité"]
+    explanation: "Gratuit → la gratuité, with the feminine suffix -ité."
+  - id: "b2-nominalisation-ex005"
+    type: "fill-in"
+    prompt: "Complétez avec le nom de « faible » : La ___ du parti inquiète ses électeurs."
+    answers: ["faiblesse"]
+    explanation: "Faible → la faiblesse, with the feminine suffix -esse."
+  - id: "b2-nominalisation-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez le bon article : ___ lancement du projet."
+    options: ["le", "la", "l'"]
+    answers: ["le"]
+    explanation: "Nouns in -ment are masculine."
+  - id: "b2-nominalisation-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase au style nominal."
+    options: ["La hausse des prix inquiète les familles.", "Les prix montent, et les familles sont inquiètes.", "Les familles ont peur parce que les prix montent."]
+    answers: ["La hausse des prix inquiète les familles."]
+    explanation: "The verb monter becomes the noun la hausse, followed by de."
+  - id: "b2-nominalisation-ex008"
+    type: "reformulation"
+    prompt: "Reformulez en groupe nominal, avec « la suppression » : Le gouvernement a supprimé la taxe."
+    answers: ["La suppression de la taxe par le gouvernement", "La suppression de la taxe"]
+    explanation: "The object of the verb follows de; the subject, if you keep it, follows par."
+  - id: "b2-nominalisation-ex009"
+    type: "reformulation"
+    prompt: "Reformulez en titre de journal, avec « la fermeture » : La gare va fermer dimanche."
+    answers: ["Fermeture de la gare dimanche", "La fermeture de la gare dimanche"]
+    explanation: "Headlines often drop the article: Fermeture de la gare dimanche."
+  - id: "b2-nominalisation-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : La augmentation des loyers inquiète les étudiants."
+    answers: ["L'augmentation des loyers inquiète les étudiants"]
+    explanation: "La becomes l' before a vowel: l'augmentation."
+  - id: "b2-nominalisation-ex011"
+    type: "register-shift"
+    prompt: "Transformez en français parlé, avec « augmenter » au passé composé : Forte hausse des prix en mars."
+    answers: ["Les prix ont beaucoup augmenté en mars", "En mars, les prix ont beaucoup augmenté"]
+    explanation: "In speech, the noun becomes a verb again, and the adjective forte becomes an adverb."
+  - id: "b2-nominalisation-ex012"
+    type: "translate"
+    prompt: "Traduisez : The closure of the station surprised the residents."
+    answers: ["La fermeture de la gare a surpris les habitants"]
+    explanation: "La fermeture de + noun, then the passé composé of surprendre."
+    strictAccents: true
+  - id: "b2-nominalisation-ex013"
+    type: "translate"
+    prompt: "Traduisez : The rise in prices worries voters."
+    answers: ["La hausse des prix inquiète les électeurs", "L'augmentation des prix inquiète les électeurs"]
+    explanation: "La hausse or l'augmentation + des, then inquiéter."
+  - id: "b2-nominalisation-ex014"
+    type: "translate"
+    prompt: "Rédigez trois titres en complétant comme indiqué : (Opening) d'une nouvelle école à Lyon. (Fall) du chômage en mars. (Departure) du ministre."
+    answers: ["Ouverture d'une nouvelle école à Lyon. Baisse du chômage en mars. Départ du ministre.", "Ouverture d'une nouvelle école à Lyon. Diminution du chômage en mars. Départ du ministre.", "Ouverture d'une nouvelle école à Lyon. Recul du chômage en mars. Départ du ministre."]
+    explanation: "Three nouns, no article, as in headlines. Baisse, diminution or recul all work for a fall."
+    strictAccents: true
+  - id: "b2-nominalisation-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Rise in rents in Paris"
+    words: ["Hausse", "des", "loyers", "à", "Paris"]
+    answers: ["Hausse des loyers à Paris"]
+    explanation: "A headline: noun, de + the thing that rises, then the place."
+---
+
+By the end of this lesson you'll be able to turn verbs and adjectives into nouns, and to recognize and write the dense nominal style of French headlines and news articles.
+
+## What you already know
+
+In <LessonLink id="b1-media-and-news" text="the lesson on media and news" />, you saw that headlines often drop the verb: *Le musée fermé dimanche*. In <LessonLink id="b2-politics-and-society" text="the lesson on politics and institutions" />, you learned nouns such as *une réforme* and *la démission*, which come from the verbs *réformer* and *démissionner*. This lesson shows the pattern behind them, so you can build such nouns yourself.
+
+## Why nouns?
+
+French news writing likes nouns. Where English says "prices have risen", a French headline says *hausse des prix* (rise in prices), and an article says *la hausse des prix inquiète les familles*. This *style nominal* packs a whole sentence into a noun phrase. It's precise and short, which is why journalists, reports and official documents use it. In speech, French uses verbs, as English does.
+
+## From verb to noun
+
+<VocabTable group="terms" />
+
+<VocabTable group="verbs" />
+
+Most nouns made from verbs use a suffix, and the suffix usually tells you the gender.
+
+| Suffix | Gender | Examples |
+|---|---|---|
+| *-tion*, *-sion* | feminine | *augmenter* → *l'augmentation*, *supprimer* → *la suppression* |
+| *-ment* | masculine | *lancer* → *le lancement* |
+| *-age* | masculine | *recycler* → *le recyclage* |
+| *-ure* | feminine | *fermer* → *la fermeture*, *ouvrir* → *l'ouverture* |
+| *-ée* | feminine | *arriver* → *l'arrivée* |
+
+Nouns in *-age* are masculine, with a few common exceptions: *la page*, *la plage* and *une image*. Nouns in *-ée* look like the feminine past participle: *une arrivée*, *une entrée*. You know *le recyclage* from <LessonLink id="b1-environment" text="the lesson on the environment" />.
+
+<Example fr="L'arrivée du train est prévue à midi." en="The train's arrival is planned for noon." />
+
+## Nouns with no suffix
+
+<VocabTable group="zero" />
+
+Some very common news nouns have no suffix at all: the noun is the verb without its ending. *La hausse* and *la baisse* (the rise and the fall) are the two most frequent in economic news. *Le recul* is a fall or a retreat; you know it from *avec le recul* (with hindsight), in <LessonLink id="b2-review-what-might-have-been" text="the review of the last unit" />, where it means "distance". *Le départ* is a departure, and in politics a resignation: *le départ du ministre*.
+
+<Example fr="La baisse du chômage se confirme." en="The fall in unemployment is being confirmed." />
+<Example fr="La mise en place de la réforme prendra du temps." en="Setting up the reform will take time." />
+
+<Example fr="Les habitants demandent le maintien de la gare." en="The residents are calling for the station to be kept." />
+<Example fr="Il y a aujourd'hui une prise de conscience du problème." en="There is now an awareness of the problem." />
+
+## From adjective to noun
+
+<VocabTable group="adj" />
+
+Be careful with *-eur*: when it comes from a verb, it usually names a person and is masculine (*un lecteur*, *un électeur*); when it comes from an adjective, it names a quality and is feminine (*la lenteur*). Adjectives become nouns too, mostly with feminine suffixes: *-ité* (*gratuit* → *la gratuité*, *fiable* → *la fiabilité*), *-esse* (*faible* → *la faiblesse*), *-eur* (*lent* → *la lenteur*) and *-ance* (*important* → *l'importance*).
+
+<Example fr="La gratuité des transports est un enjeu de la campagne." en="Free public transport is an issue in the campaign." />
+<Example fr="Les habitants critiquent la lenteur du chantier." en="Residents criticize how slowly the building work is going." />
+
+<Example fr="La fiabilité de cette source est importante." en="The reliability of this source is important." />
+
+*La gratuité* is often used for public services that people don't pay for: *la gratuité de l'école*, *la gratuité des musées le dimanche*.
+
+## Restructuring the sentence
+
+<VocabTable group="style" />
+
+To turn a sentence into a noun phrase, change the verb into its noun, and link the rest with **de**.
+
+- **The subject of the verb** becomes *de* + noun: *les prix augmentent* → *l'augmentation des prix*.
+- **The object of the verb** also becomes *de* + noun: *on ferme la gare* → *la fermeture de la gare*.
+- **An adverb** becomes an adjective: *les prix augmentent fortement* → *la forte hausse des prix*.
+- **The person who acts**, if you keep them, follows *par*: *la suppression de la taxe par le gouvernement*.
+
+Remember that *de* + *le* gives *du* and *de* + *les* gives *des*: *le départ du ministre*, *la hausse des loyers*. In headlines, the article at the start usually disappears: *Fermeture de la gare dimanche*.
+
+Don't overdo it. A chain of nouns joined by *de* (*la mise en place de la réforme de la gratuité des transports*) is hard to read. In a text, mix nominal phrases with ordinary verbs.
+
+## The whole list
+
+- Feminine suffixes: *-tion*, *-sion*, *-ure*, *-ée*, *-ité*, *-esse*, *-eur*, *-ance*.
+- Masculine suffixes: *-ment*, *-age* (except *la page*, *la plage*, *une image*).
+- No suffix: *la hausse*, *la baisse*, *le recul*, *le départ*.
+- Restructure with *de*; keep the person who acts with *par*.
+- Headlines and written news: nominal style. Speech: verbs.
+
+## En français
+
+Claire, an editor, helps Julien, a young reporter, write headlines for his articles.
+
+- *Julien, ton article est bien, mais il faut un titre court.* (Julien, your article is good, but it needs a short headline.)
+- *J'ai écrit : « La ville a décidé de fermer la piscine en août. »* (I wrote: "The town has decided to close the pool in August.")
+- *C'est une phrase, pas un titre. Dis plutôt : « Fermeture de la piscine en août ».* (That's a sentence, not a headline. Say: "Pool closing in August" instead.)
+- *Ah oui, c'est plus court. Et pour le deuxième : « Les prix des tickets de bus ont beaucoup augmenté » ?* (Oh yes, that's shorter. And for the second: "Bus ticket prices have risen a lot"?)
+- *« Forte hausse des prix des tickets de bus ». L'adverbe devient un adjectif.* ("Sharp rise in bus ticket prices". The adverb becomes an adjective.)
+- *Et le troisième : « Le maire veut que le bus soit gratuit pour les étudiants. »* (And the third: "The mayor wants buses to be free for students.")
+- *Alors : « Vers la gratuité du bus pour les étudiants ? » La question montre que ce n'est pas encore décidé.* (Then: "Towards free buses for students?" The question shows it isn't decided yet.)
+- *D'accord. Mais dans l'article, j'écris des phrases complètes ?* (OK. But in the article, do I write full sentences?)
+- *Oui. Avec trop de noms, un texte est difficile à lire.* (Yes. With too many nouns, a text is hard to read.)
+- *Compris. Je t'envoie les nouveaux titres dans dix minutes.* (Understood. I'll send you the new headlines in ten minutes.)
+
+<Callout type="warning" title="L'augmentation, not la augmentation">
+  Many of these nouns start with a vowel, so the article changes: *la* and *le* become *l'*. Don't write *la augmentation* or *la ouverture*: write **l'augmentation** and **l'ouverture**. The gender is still there: *l'augmentation est forte*.
+</Callout>
+
+<Callout type="tip" title="Rewrite the headline as a sentence">
+  When you read a French headline, say it as a full sentence: *Hausse des loyers à Paris* becomes *les loyers augmentent à Paris*. Then do the opposite with a sentence from the article. Going both ways trains you to read news fast and to write it, and it fixes each noun with its verb.
+</Callout>
+
+## En résumé
+
+Dans les journaux, on change souvent un verbe ou un adjectif en nom : fermer devient la fermeture, et gratuit devient la gratuité. La fin du nom donne souvent le genre : la fermeture, la gratuité et la faiblesse sont féminins, mais le lancement est masculin. Pour faire un groupe nominal, on met de devant le reste de la phrase : les prix augmentent devient la hausse des prix. Dans un titre, il n'y a souvent pas d'article. Quand on parle, on préfère les phrases avec un verbe.
+
+## What's next
+
+Next, <LessonLink id="b2-summarizing-an-article" text="the lesson on summarising an article" /> uses this style to sum up the news.
+
+=== b2-summarizing-an-article ===
+
+---
+id: "b2-summarizing-an-article"
+title: "Summarising an article"
+description: "Pick out an article's main idea and key points, and summarise them neutrally in French, crediting the source: l'article porte sur, il ressort que, en somme."
+level: "B2"
+unit: "News and reporting"
+order: 23
+type: "communication"
+tags: ["summary", "news", "writing", "reading"]
+prerequisites: ["b2-reporting-verbs", "b2-alternatives-to-passive", "b2-nominalisation"]
+related: ["b1-media-and-news", "b1-presenting-an-argument", "b2-logical-connectors", "b2-culture-french-press"]
+vocab:
+  - { id: "b2-summarizing-an-article-v001", group: "topic", fr: "porter sur", pron: "por-tay SEWR", en: "to be about (an article, a debate)" }
+  - { id: "b2-summarizing-an-article-v002", group: "topic", fr: "traiter de", pron: "treh-tay DUH", en: "to deal with" }
+  - { id: "b2-summarizing-an-article-v003", group: "topic", fr: "l'idée principale", pron: "lee-day pran-see-PAHL", en: "the main idea" }
+  - { id: "b2-summarizing-an-article-v004", group: "topic", fr: "un point clé", pron: "uhn pwan KLAY", en: "a key point" }
+  - { id: "b2-summarizing-an-article-v005", group: "topic", fr: "dégager", pron: "day-gah-ZHAY", en: "to bring out, to identify", note: "Dégager l'idée principale. Like manger." }
+  - { id: "b2-summarizing-an-article-v006", group: "topic", fr: "il ressort que", pron: "eel ruh-sor KUH", en: "it emerges that", note: "+ indicative. Il ressort de l'article que…" }
+  - { id: "b2-summarizing-an-article-v007", group: "topic", fr: "un chapeau", pron: "uhn shah-POH", en: "a standfirst (the short text under a headline)" }
+  - { id: "b2-summarizing-an-article-v008", group: "summary", fr: "résumer", pron: "ray-zew-MAY", en: "to summarize" }
+  - { id: "b2-summarizing-an-article-v009", group: "summary", fr: "un résumé", pron: "uhn ray-zew-MAY", en: "a summary", note: "False friend: not a CV (un CV)." }
+  - { id: "b2-summarizing-an-article-v010", group: "summary", fr: "reformuler", pron: "ruh-for-mew-LAY", en: "to rephrase" }
+  - { id: "b2-summarizing-an-article-v011", group: "summary", fr: "objectif / objective", pron: "ob-zhek-TEEF / ob-zhek-TEEV", en: "objective, impartial" }
+  - { id: "b2-summarizing-an-article-v012", group: "summary", fr: "neutre", pron: "NUH-truh", en: "neutral" }
+  - { id: "b2-summarizing-an-article-v013", group: "summary", fr: "mentionner", pron: "mahn-syoh-NAY", en: "to mention" }
+  - { id: "b2-summarizing-an-article-v014", group: "summary", fr: "passer sous silence", pron: "pah-say soo see-LAHNSS", en: "to leave out, to say nothing about" }
+  - { id: "b2-summarizing-an-article-v015", group: "summary", fr: "l'auteur / l'autrice d'un article", pron: "loh-TUHR / loh-TREESS dun-nar-TEEKL", en: "the writer of an article", note: "You know un auteur from cinema and books." }
+  - { id: "b2-summarizing-an-article-v016", group: "glossary", fr: "la rentrée", pron: "lah rahn-TRAY", en: "the start of the academic year (in September)" }
+  - { id: "b2-summarizing-an-article-v017", group: "glossary", fr: "consacrer", pron: "kohn-sah-KRAY", en: "to spend (time, money) on, to devote to", note: "Consacrer quelque chose à…" }
+  - { id: "b2-summarizing-an-article-v018", group: "glossary", fr: "une résidence étudiante", pron: "ewn ray-zee-dahnss ay-tew-DYAHNT", en: "a student residence, a hall of residence" }
+  - { id: "b2-summarizing-an-article-v019", group: "glossary", fr: "de leur côté", pron: "duh luhr koh-TAY", en: "for their part" }
+exercises:
+  - id: "b2-summarizing-an-article-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez l'idée principale : « Dans les grandes villes, les loyers des petits appartements augmentent, et beaucoup d'étudiants ont du mal à trouver un logement. »"
+    options: ["Students struggle to find housing because rents are rising.", "Students prefer small flats.", "Big cities are building more flats."]
+    answers: ["Students struggle to find housing because rents are rising."]
+    explanation: "The main idea links the cause (rents) and the effect (students struggle)."
+  - id: "b2-summarizing-an-article-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez le résumé neutre."
+    options: ["L'article explique que les loyers augmentent.", "Heureusement, l'article critique enfin les propriétaires.", "Je pense que les loyers sont beaucoup trop chers."]
+    answers: ["L'article explique que les loyers augmentent."]
+    explanation: "A summary reports what the article says, without je and without the writer's feelings."
+  - id: "b2-summarizing-an-article-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec porter au présent : L'article ___ sur la hausse des loyers."
+    answers: ["porte"]
+    explanation: "Porter sur: to be about."
+  - id: "b2-summarizing-an-article-ex004"
+    type: "fill-in"
+    prompt: "Complétez : Il ___ de l'article que les étudiants ont du mal à trouver un logement."
+    answers: ["ressort"]
+    explanation: "Il ressort de l'article que + indicative: it emerges from the article that."
+  - id: "b2-summarizing-an-article-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur pour la dernière phrase d'un résumé : ___, le logement reste un problème important pour les jeunes."
+    options: ["En somme", "Pourtant", "Faute de"]
+    answers: ["En somme"]
+    explanation: "En somme introduces the conclusion. Pourtant introduces a contrast, and faute de needs a noun."
+  - id: "b2-summarizing-an-article-ex006"
+    type: "reformulation"
+    prompt: "Reformulez au discours indirect, avec « Léa explique que » : « Je cherche un logement depuis juin. »"
+    answers: ["Léa explique qu'elle cherche un logement depuis juin"]
+    explanation: "With a present reporting verb, the tense doesn't change; je becomes elle."
+  - id: "b2-summarizing-an-article-ex007"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase courte, avec « la hausse des loyers » : Les loyers ont beaucoup augmenté, et cela inquiète beaucoup les familles des étudiants."
+    answers: ["La hausse des loyers inquiète les familles des étudiants", "La hausse des loyers inquiète beaucoup les familles des étudiants", "La hausse des loyers inquiète les familles"]
+    explanation: "A noun phrase replaces the first clause, and the sentence gets shorter."
+  - id: "b2-summarizing-an-article-ex008"
+    type: "register-shift"
+    prompt: "Transformez en résumé neutre, avec « affirmer » : Le ministre prétend que tout va bien, mais personne ne le croit."
+    answers: ["Le ministre affirme que tout va bien"]
+    explanation: "Affirmer reports the claim; prétendre and the end of the sentence show the writer's doubt."
+  - id: "b2-summarizing-an-article-ex009"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de registre dans ce résumé : L'article explique que les loyers augmentent, et c'est une honte."
+    answers: ["L'article explique que les loyers augmentent"]
+    explanation: "Et c'est une honte is the summary writer's opinion: it doesn't belong in a summary."
+  - id: "b2-summarizing-an-article-ex010"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « un résumé »."
+    options: ["a summary", "a CV", "a fresh start"]
+    answers: ["a summary"]
+    explanation: "Un résumé is a false friend: a CV is un CV."
+  - id: "b2-summarizing-an-article-ex011"
+    type: "fill-in"
+    prompt: "Complétez avec un nom (augmenter) : La ___ des loyers inquiète les étudiants."
+    answers: ["hausse", "augmentation"]
+    explanation: "La hausse or l'augmentation: the noun of the verb."
+  - id: "b2-summarizing-an-article-ex012"
+    type: "translate"
+    prompt: "Traduisez : The article is about rising rents."
+    answers: ["L'article porte sur la hausse des loyers", "L'article traite de la hausse des loyers", "L'article porte sur l'augmentation des loyers", "L'article traite de l'augmentation des loyers"]
+    explanation: "Porter sur or traiter de + a noun phrase."
+  - id: "b2-summarizing-an-article-ex013"
+    type: "translate"
+    prompt: "Rédigez ce résumé en complétant comme indiqué : L'article (is about) la fermeture d'une gare. (It emerges that) les habitants sont inquiets. Le maire (stresses) que rien n'est encore décidé. (In short), la ville doit trouver une solution."
+    answers: ["L'article porte sur la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. En somme, la ville doit trouver une solution.", "L'article traite de la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. En somme, la ville doit trouver une solution.", "L'article porte sur la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. Bref, la ville doit trouver une solution.", "L'article traite de la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. Bref, la ville doit trouver une solution."]
+    explanation: "The four parts of a short summary: topic, main point, a reported view and a conclusion."
+    strictAccents: true
+  - id: "b2-summarizing-an-article-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : La journaliste (considers: estimer) que cette mesure est nécessaire. Elle (points out: rappeler) cependant qu'elle arrive tard."
+    answers: ["La journaliste estime que cette mesure est nécessaire. Elle rappelle cependant qu'elle arrive tard."]
+    explanation: "Estimer que and rappeler que report the writer's view neutrally."
+  - id: "b2-summarizing-an-article-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The article deals with housing."
+    words: ["L'article", "traite", "du", "logement"]
+    answers: ["L'article traite du logement"]
+    explanation: "Traiter de + le logement gives traite du logement."
+---
+
+By the end of this lesson you'll be able to read a French news article, pick out its main idea and key points, and summarise it neutrally, crediting the source.
+
+## What you already know
+
+You know the press vocabulary (*un quotidien*, *à la une*, *une source*) from <LessonLink id="b1-media-and-news" text="the lesson on media and news" />, and *en résumé* from <LessonLink id="b1-presenting-an-argument" text="the lesson on presenting an argument" />. In this unit, you've learned to report speech, to choose a reporting verb, and to write in a nominal style, in <LessonLink id="b2-nominalisation" text="the lesson on nominalisation" />. A summary uses all three.
+
+## What a summary contains
+
+<VocabTable group="topic" />
+
+A good summary of a news article, *un résumé*, answers four questions in a few sentences.
+
+- **The source:** which paper, and what kind of text (an article, an interview, an editorial).
+- **The main idea:** what the article *porte sur* (is about), in one sentence.
+- **The key points:** two or three *points clés*, the facts or arguments that support the main idea.
+- **The writer's view**, if the article has one: what the journalist thinks, reported neutrally.
+
+To find the main idea, read the headline and *le chapeau*, the short text in bold under the headline. They usually give the topic. Then *dégager* (bring out) the key points, paragraph by paragraph. **Il ressort que** (it emerges that) + indicative introduces what you've concluded from the whole text.
+
+<Example fr="L'article porte sur la hausse des loyers étudiants." en="The article is about the rise in student rents." />
+<Example fr="Il ressort de l'article que beaucoup de jeunes ont du mal à trouver un logement." en="It emerges from the article that many young people struggle to find a home." />
+
+## Writing it neutrally
+
+<VocabTable group="summary" />
+
+A summary is **objectif** and **neutre**: it says what the article says, not what you think about it. Three habits help.
+
+<Example fr="Ce résumé est objectif : il ne donne pas d'opinion." en="This summary is objective: it gives no opinion." />
+
+- **Leave yourself out.** Don't write *je pense* or use words that judge, such as *heureusement* or *c'est une honte*.
+- **Use neutral reporting verbs:** *l'article explique que*, *l'auteur estime que*, *la journaliste rappelle que*. Keep *prétendre* only if the article itself doubts the claim, as you saw in <LessonLink id="b2-reporting-verbs" text="the lesson on reporting verbs" />.
+- **Rephrase rather than copy.** *Reformuler* means using your own words. If you quote, put the words in *« … »* and say who said them.
+
+<Example fr="L'autrice de l'article explique que les loyers augmentent." en="The author of the article explains that rents are rising." />
+
+If the article gives two sides, give both, in the same order and with a similar amount of space. Leaving one side out is a way of taking sides, even when every sentence you write is neutral.
+
+Write the summary in the present: *l'article explique que…*, *la ville prévoit…*. With a reporting verb in the present, the tenses don't shift, as in <LessonLink id="b1-reported-speech-present" text="the lesson on reported speech" />.
+
+A summary is much shorter than the article, so you have to *passer sous silence* (leave out) examples, details and most quotations. *Mentionner* an example is fine if it's essential. Nominal phrases keep it short: *la hausse des loyers* instead of *les loyers augmentent beaucoup*. For the last sentence, *en somme*, from <LessonLink id="b2-logical-connectors" text="the lesson on logical connectors" />, introduces the conclusion.
+
+## Step by step
+
+When you have an article to summarise, work in this order.
+
+1. **Read the headline and the chapeau**, and write the topic in one line: *l'article porte sur…*
+2. **Read the whole article once** without taking notes, to understand the main idea.
+3. **Underline one key sentence per paragraph.** These become your *points clés*.
+4. **Write the summary with your own words**, in the present, starting with the source.
+5. **Cut** anything that isn't essential, then end with *en somme* and the conclusion of the article.
+
+Credit the source in the first sentence: *Dans un article du Monde, la journaliste explique que…*, or *Selon Ouest-France…*. If the article quotes several people, name the side, not every person: *les associations estiment que…*, *selon la mairie…*. That keeps the summary short and fair to each side.
+
+## A false friend
+
+**Un résumé** is a false friend: it's a summary, not a CV, which is *un CV*. You know *un auteur* from <LessonLink id="b1-cinema-and-books" text="the lesson on cinema and books" />; for an article, people also say *le journaliste* or *la journaliste*.
+
+## En français
+
+Clara and Lucas, two students, prepare a presentation on a news article for Friday.
+
+- *Pour la présentation de vendredi, on choisit quel article ?* (For Friday's presentation, which article shall we choose?)
+- *Celui sur la hausse des loyers étudiants. Il porte sur un vrai problème.* (The one on the rise in student rents. It's about a real problem.)
+- *D'accord. Quelle est l'idée principale, selon toi ?* (OK. What's the main idea, in your view?)
+- *Il ressort que beaucoup d'étudiants ont du mal à trouver un logement.* (It emerges that many students struggle to find housing.)
+- *Et les points clés ? Il faut les dégager avant d'écrire le résumé.* (And the key points? We need to bring them out before we write the summary.)
+- *Les loyers augmentent, les propriétaires parlent de leurs charges, et la ville promet de nouvelles résidences.* (Rents are rising, landlords talk about their costs, and the town is promising new residences.)
+- *Attention, dans le résumé, on ne donne pas notre avis. On reste neutres.* (Careful, in the summary we don't give our opinion. We stay neutral.)
+- *Oui, et on cite la source au début : le nom du journal.* (Yes, and we name the source at the start: the name of the paper.)
+- *On mentionne aussi l'étudiante de Lyon ?* (Do we mention the student from Lyon too?)
+- *En une phrase seulement. Le reste, on peut le passer sous silence.* (In one sentence only. The rest, we can leave out.)
+
+## An article and its summary
+
+Here is an original article from a local news site, followed by a model summary. Four words or phrases are new.
+
+<VocabTable group="glossary" />
+
+*La hausse des loyers étudiants inquiète les familles*
+
+*À quelques semaines de la rentrée, trouver un logement devient difficile pour beaucoup d'étudiants. Les associations demandent des mesures.*
+
+*Dans les grandes villes, les loyers des petits appartements ont beaucoup augmenté. Selon une association étudiante, beaucoup de jeunes doivent consacrer une grande partie de leur budget au logement. « Je cherche depuis juin, et tout est trop cher », explique Léa, étudiante à Lyon. Les propriétaires, de leur côté, rappellent que leurs charges augmentent aussi.*
+
+*La ville a annoncé l'ouverture de nouvelles résidences étudiantes d'ici deux ans. Pour les associations, cette mesure est nécessaire, mais trop lente : elles demandent le maintien des aides au logement.*
+
+*Résumé : L'article porte sur la hausse des loyers étudiants dans les grandes villes. Il ressort que beaucoup de jeunes ont du mal à trouver un logement. Les propriétaires soulignent que leurs charges augmentent aussi. La ville prévoit l'ouverture de nouvelles résidences, mais les associations estiment que cette mesure est trop lente. En somme, le logement reste un enjeu important pour les étudiants.*
+
+(Rising student rents worry families. A few weeks before the start of the academic year, finding housing is becoming difficult for many students. Charities are asking for measures. In big cities, rents for small flats have risen a lot. According to a student association, many young people have to spend a large part of their budget on housing. "I've been looking since June, and everything's too expensive," explains Léa, a student in Lyon. Landlords, for their part, point out that their costs are rising too. The town has announced the opening of new student residences within two years. For the charities, this measure is necessary but too slow: they're asking for housing benefits to be kept. Summary: The article is about rising student rents in big cities. It emerges that many young people struggle to find housing. Landlords stress that their costs are rising too. The town is planning to open new residences, but the charities consider this measure too slow. In short, housing remains a major issue for students.)
+
+Notice what the summary leaves out: Léa's quotation and the detail about the budget. It keeps the topic, the two sides and the town's answer, and it ends with *en somme*.
+
+<Callout type="warning" title="No je in a summary">
+  Learners often add their opinion at the end: *L'article explique que les loyers augmentent, et je pense que c'est une honte.* In a summary, the last sentence concludes what the article says: **En somme, le logement reste un enjeu important pour les étudiants.** Keep your opinion for a separate paragraph, if you're asked for one.
+</Callout>
+
+<Callout type="tip" title="Summarise in one sentence first">
+  Before you write the summary, say the article in one sentence, out loud, without looking at it: *L'article porte sur…, et il ressort que…*. If you can't, read the headline and the chapeau again. That one sentence becomes the start of your summary, and everything else must support it.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="b2-culture-french-press" text="the lesson on the French press" /> introduces the papers and broadcasters you'll be summarising.
+
+=== b2-culture-french-press ===
+
+---
+id: "b2-culture-french-press"
+title: "The French press"
+description: "Get to know the main French national, regional and satirical papers, the AFP and public broadcasting, and what an editorial line is."
+level: "B2"
+unit: "News and reporting"
+order: 24
+type: "culture"
+tags: ["culture", "press", "media", "news"]
+prerequisites: ["b2-politics-and-society"]
+related: ["b1-media-and-news", "b2-summarizing-an-article", "b2-review-news"]
+vocab:
+  - { id: "b2-culture-french-press-v001", group: "papers", fr: "un journal national", pron: "uhn zhoor-nahl nah-syoh-NAHL", en: "a national paper" }
+  - { id: "b2-culture-french-press-v002", group: "papers", fr: "la presse régionale", pron: "lah press ray-zhyoh-NAHL", en: "the regional press" }
+  - { id: "b2-culture-french-press-v003", group: "papers", fr: "un journal gratuit", pron: "uhn zhoor-nahl grah-TWEE", en: "a free paper" }
+  - { id: "b2-culture-french-press-v004", group: "papers", fr: "en kiosque", pron: "ahn KYOSK", en: "on the newsstands" }
+  - { id: "b2-culture-french-press-v005", group: "satire", fr: "la presse satirique", pron: "lah press sah-tee-REEK", en: "the satirical press" }
+  - { id: "b2-culture-french-press-v006", group: "satire", fr: "un dessin de presse", pron: "uhn deh-san duh PRESS", en: "a press cartoon" }
+  - { id: "b2-culture-french-press-v007", group: "satire", fr: "la caricature", pron: "lah kah-ree-kah-TEWR", en: "caricature, cartoons" }
+  - { id: "b2-culture-french-press-v008", group: "media", fr: "une agence de presse", pron: "ew-nah-zhahnss duh PRESS", en: "a news agency" }
+  - { id: "b2-culture-french-press-v009", group: "media", fr: "l'audiovisuel public", pron: "loh-dyoh-vee-zwel pew-BLEEK", en: "public broadcasting (TV and radio)" }
+  - { id: "b2-culture-french-press-v010", group: "newsroom", fr: "une rédaction", pron: "ewn ray-dak-SYOHN", en: "an editorial team, a newsroom" }
+  - { id: "b2-culture-french-press-v011", group: "newsroom", fr: "un rédacteur en chef / une rédactrice en chef", pron: "uhn ray-dak-tuhr ahn SHEF / ewn ray-dak-treess ahn SHEF", en: "an editor-in-chief" }
+  - { id: "b2-culture-french-press-v012", group: "newsroom", fr: "un éditorialiste / une éditorialiste", pron: "uh-nay-dee-toh-ryah-LEEST", en: "a leader writer, an editorialist" }
+  - { id: "b2-culture-french-press-v013", group: "newsroom", fr: "une ligne éditoriale", pron: "ewn lee-nyuh ay-dee-toh-RYAHL", en: "an editorial line" }
+  - { id: "b2-culture-french-press-v014", group: "newsroom", fr: "engagé / engagée", pron: "ahn-gah-ZHAY", en: "committed, politically engaged" }
+  - { id: "b2-culture-french-press-v015", group: "newsroom", fr: "la liberté de la presse", pron: "lah lee-behr-tay duh lah PRESS", en: "press freedom" }
+  - { id: "b2-culture-french-press-v016", group: "glossary", fr: "se réunir", pron: "suh ray-ew-NEER", en: "to meet, to hold a meeting", note: "Like finir." }
+  - { id: "b2-culture-french-press-v017", group: "glossary", fr: "mettre en page", pron: "meh-trahn PAHZH", en: "to lay out (a page)" }
+  - { id: "b2-culture-french-press-v018", group: "glossary", fr: "l'imprimerie", pron: "lan-pree-MREE", en: "the printing works" }
+exercises:
+  - id: "b2-culture-french-press-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez quel journal est un quotidien régional."
+    options: ["Ouest-France", "Le Monde", "Le Canard enchaîné"]
+    answers: ["Ouest-France"]
+    explanation: "Ouest-France covers the west of France; Le Monde is national, and Le Canard enchaîné is a satirical weekly."
+  - id: "b2-culture-french-press-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez quel journal est satirique."
+    options: ["Le Canard enchaîné", "Le Figaro", "Ouest-France"]
+    answers: ["Le Canard enchaîné"]
+    explanation: "Le Canard enchaîné is a satirical weekly, known for its cartoons and investigations."
+  - id: "b2-culture-french-press-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez ce qu'est l'AFP."
+    options: ["une agence de presse", "un journal gratuit", "une chaîne de radio"]
+    answers: ["une agence de presse"]
+    explanation: "The AFP, Agence France-Presse, sends news to newspapers, radio and TV."
+  - id: "b2-culture-french-press-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez ce qu'est France Télévisions."
+    options: ["l'audiovisuel public", "un journal satirique", "une agence de presse"]
+    answers: ["l'audiovisuel public"]
+    explanation: "France Télévisions is the group of public TV channels."
+  - id: "b2-culture-french-press-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « en kiosque »."
+    options: ["on the newsstands", "online only", "out of print"]
+    answers: ["on the newsstands"]
+    explanation: "Un kiosque is a newsstand; en kiosque means on sale there."
+  - id: "b2-culture-french-press-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Les journalistes de la ___ se réunissent chaque matin."
+    answers: ["rédaction"]
+    explanation: "La rédaction: the editorial team, and the room where it works."
+  - id: "b2-culture-french-press-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Chaque jour, l'éditorialiste écrit l'___ du journal."
+    answers: ["éditorial"]
+    explanation: "L'éditorial is the opinion article, often written by the éditorialiste."
+  - id: "b2-culture-french-press-ex008"
+    type: "fill-in"
+    prompt: "Complétez : Avec un ___, je peux lire tous les articles en ligne."
+    answers: ["abonnement"]
+    explanation: "Un abonnement: a subscription."
+  - id: "b2-culture-french-press-ex009"
+    type: "reformulation"
+    prompt: "Reformulez au passif : L'éditorialiste écrit l'éditorial le soir."
+    answers: ["L'éditorial est écrit par l'éditorialiste le soir", "L'éditorial est écrit le soir par l'éditorialiste"]
+    explanation: "The object becomes the subject: l'éditorial est écrit par…"
+  - id: "b2-culture-french-press-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Le Canard enchaîné est un quotidien régional."
+    answers: ["Le Canard enchaîné est un hebdomadaire satirique"]
+    explanation: "Le Canard enchaîné comes out once a week and is satirical."
+  - id: "b2-culture-french-press-ex011"
+    type: "translate"
+    prompt: "Traduisez : Press freedom is very important."
+    answers: ["La liberté de la presse est très importante"]
+    explanation: "Importante agrees with la liberté."
+  - id: "b2-culture-french-press-ex012"
+    type: "translate"
+    prompt: "Traduisez : This paper has a committed editorial line."
+    answers: ["Ce journal a une ligne éditoriale engagée"]
+    explanation: "Engagée agrees with une ligne éditoriale."
+    strictAccents: true
+  - id: "b2-culture-french-press-ex013"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Ouest-France est (a regional daily). Il est (on the newsstands) tous les matins. On peut aussi le lire (online)."
+    answers: ["Ouest-France est un quotidien régional. Il est en kiosque tous les matins. On peut aussi le lire en ligne."]
+    explanation: "Un quotidien régional, en kiosque and en ligne."
+  - id: "b2-culture-french-press-ex014"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The newsroom meets every morning."
+    words: ["La", "rédaction", "se", "réunit", "tous", "les", "matins"]
+    answers: ["La rédaction se réunit tous les matins"]
+    explanation: "Se réunir is like finir: elle se réunit."
+---
+
+By the end of this lesson you'll know the main French newspapers and broadcasters, what kind of news each one offers, and the words for how a newsroom works.
+
+## What you already know
+
+You know *un quotidien* (a daily), *un hebdomadaire* (a weekly), *un éditorial*, *à la une* and *une source fiable* from <LessonLink id="b1-media-and-news" text="the lesson on media and news" />, and *un abonnement* (a subscription) from <LessonLink id="b1-demonstrative-pronouns" text="the lesson on demonstrative pronouns" />. This lesson puts names to the titles you'll see in a French *kiosque*.
+
+## National papers
+
+<VocabTable group="papers" />
+
+A few *journaux nationaux* (national papers) are read all over France and quoted by other media. Each one has its own tone and its own *ligne éditoriale*, which you discover best by reading it. Most are general papers, covering every kind of news; others are specialised, for example in sport or the economy.
+
+<Example fr="Ce journal national est lu dans toute la France." en="This national paper is read all over France." />
+<Example fr="Dans le métro, beaucoup de gens lisent un journal gratuit." en="On the metro, many people read a free paper." />
+
+**Le Monde.** A national general daily with long articles on politics, the economy and the world.
+
+**Le Figaro.** A national general daily with a strong section on the economy, and a weekend magazine.
+
+**Libération.** A national general daily, often called *Libé*, known for its bold front pages.
+
+Besides the dailies, *les hebdomadaires* (weekly news magazines) offer longer analysis, interviews and opinion pieces. Many readers combine a regional daily for local news with a weekly magazine for the national debate.
+
+In the big cities, *des journaux gratuits* (free papers) are also handed out in the morning, especially near stations. They're short and quick to read.
+
+## The regional press
+
+*La presse régionale* is very strong in France. Many people read a regional daily rather than a national one, because it covers their town, their region and local events. **Ouest-France**, published in the west of France, is one of the most widely read daily papers in the country. Regional papers are sold *en kiosque* and, more and more, read online. Many publish several local editions, one for each area, so the front page and the local pages change from one town to the next.
+
+## The satirical press
+
+<VocabTable group="satire" />
+
+France has a long tradition of *la presse satirique*, which mocks the powerful with humour, *la caricature* and *les dessins de presse* (press cartoons).
+
+<Example fr="Ce dessin de presse est une caricature d'un ministre." en="This press cartoon is a caricature of a minister." />
+
+**Le Canard enchaîné.** A satirical weekly that comes out on Wednesdays. It mixes cartoons and humour with serious investigations, and it's known for carrying no advertising.
+
+Satire is part of the French idea of *la liberté de la presse*: newspapers may criticize and mock political leaders, within the limits set by the law.
+
+## Agencies and public broadcasting
+
+<VocabTable group="media" />
+
+**L'AFP** (Agence France-Presse) is *une agence de presse* (a news agency). Its journalists, in France and abroad, send news to newspapers, radio and television, which then write their own articles. When a short article ends with *(AFP)*, its information comes from the agency. Agency texts are short and factual, because they're written to be reused quickly by other media.
+
+*L'audiovisuel public* (public broadcasting) includes **France Télévisions**, the group of public TV channels, and **Radio France**, the group of public radio stations. They're funded mainly by the State.
+
+## Reading a front page
+
+On *la une* (the front page), the biggest headline is the story the paper thinks matters most that day. Under it, a short text in bold, *le chapeau*, gives the main facts, and you'll use it in <LessonLink id="b2-summarizing-an-article" text="the lesson on summarising an article" />. Smaller headlines announce the other stories, with the page number inside. Comparing the *une* of two papers on the same day shows their choices quickly.
+
+Online, many papers let you read a few articles for free, then ask for *un abonnement*. Some articles are marked as reserved for subscribers.
+
+## In the newsroom
+
+<VocabTable group="newsroom" />
+
+*Une rédaction* is both a paper's editorial team and the room where it works. It's led by *un rédacteur en chef* or *une rédactrice en chef*, who chooses what goes *à la une*. *Un éditorialiste* writes the editorials, which give the paper's opinion. A paper with strong opinions is called *engagé* (committed).
+
+<Example fr="La rédactrice en chef choisit les articles à la une." en="The editor-in-chief chooses the front-page articles." />
+<Example fr="Ce journal a une ligne éditoriale très engagée." en="This paper has a very committed editorial line." />
+
+## En français
+
+Emma, an exchange student, asks her French friend Julien which paper to read.
+
+- *Julien, je veux lire la presse française. Quel journal tu me conseilles ?* (Julien, I want to read the French press. Which paper do you recommend?)
+- *Ça dépend. Pour l'actualité nationale, il y a Le Monde, Le Figaro ou Libération.* (It depends. For national news, there's Le Monde, Le Figaro or Libération.)
+- *Ils ont la même ligne éditoriale ?* (Do they have the same editorial line?)
+- *Non, chacun a sa ligne. Lis les trois une semaine, et compare les unes.* (No, each one has its own line. Read all three for a week, and compare the front pages.)
+- *Et pour les nouvelles de la région ?* (And for regional news?)
+- *Lis la presse régionale. Ici, à Rennes, c'est Ouest-France.* (Read the regional press. Here in Rennes, it's Ouest-France.)
+- *J'ai vu un journal avec un canard sur la première page. C'est quoi ?* (I saw a paper with a duck on the front page. What is it?)
+- *Le Canard enchaîné ! C'est un hebdomadaire satirique, en kiosque le mercredi. Il y a beaucoup de dessins de presse.* (Le Canard enchaîné! It's a satirical weekly, on the newsstands on Wednesdays. There are lots of press cartoons.)
+- *Et pour écouter les infos à la radio ?* (And to listen to the news on the radio?)
+- *Il y a Radio France, c'est l'audiovisuel public. Et compare toujours deux sources !* (There's Radio France, that's public broadcasting. And always compare two sources!)
+
+## A day in a newsroom
+
+This is an original magazine-style feature about an invented regional daily. Three words are new.
+
+<VocabTable group="glossary" />
+
+*Un jour dans une rédaction*
+
+*Il est huit heures. Dans la rédaction d'un quotidien régional, les journalistes vont se réunir avec la rédactrice en chef pour choisir les articles du jour.*
+
+*La première information arrive d'une agence de presse : une usine de la région va fermer. Avant d'écrire, une journaliste appelle la mairie pour vérifier l'information. « Une seule source, ce n'est pas assez », rappelle la rédactrice en chef.*
+
+*À midi, un dessin de presse est préparé sur la fermeture de l'usine. La ligne éditoriale du journal est claire : informer d'abord, donner son avis ensuite, dans l'éditorial.*
+
+*L'après-midi, les articles sont vérifiés, puis il faut mettre en page le journal. Le soir, l'éditorial est écrit par l'éditorialiste, et la une est choisie à la dernière minute.*
+
+*À vingt-deux heures, le journal part à l'imprimerie. Le lendemain matin, il sera en kiosque, mais les lecteurs pourront déjà lire les articles en ligne.*
+
+(A day in a newsroom. It's eight o'clock. In the newsroom of a regional daily, the journalists are about to meet with the editor-in-chief to choose the day's articles. The first piece of news comes from a news agency: a factory in the region is going to close. Before writing, a journalist calls the town hall to check the information. "One source isn't enough," the editor-in-chief reminds them. At noon, a press cartoon is prepared about the factory closing. The paper's editorial line is clear: inform first, give its opinion afterwards, in the editorial. In the afternoon, the articles are checked, then the paper has to be laid out. In the evening, the editorial is written by the leader writer, and the front page is chosen at the last minute. At ten o'clock at night, the paper goes to the printing works. The next morning, it will be on the newsstands, but readers will already be able to read the articles online.)
+
+<Callout type="warning" title="Le journal, la une, les journaux">
+  *Un journal* is a newspaper, and its plural is **les journaux**, not *les journals*. The front page is **la une**, a feminine noun: *à la une* means on the front page. And *le journal télévisé* is the TV news, not a newspaper.
+</Callout>
+
+<Callout type="tip" title="Read one story in three places">
+  Choose one news story and read it in a national paper, a regional paper and on a public radio website. Note what each one puts first, which sources it quotes, and whether it adds an opinion. You'll learn the press vocabulary and see the editorial lines for yourself, instead of taking anyone's word for them.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="b2-review-news" text="the review of this unit" /> brings together reporting, the passive and summarising.
+
+=== b2-review-news ===
+
+---
+id: "b2-review-news"
+title: "Review: News and reporting"
+description: "Bring the unit together: report an interview in the past, with the right reporting verbs and the passive, and summarise a press release neutrally."
+level: "B2"
+unit: "News and reporting"
+order: 25
+type: "review"
+tags: ["review", "reported speech", "news", "writing"]
+prerequisites: ["b2-reported-questions-orders", "b2-summarizing-an-article", "b2-culture-french-press"]
+related: ["b2-reported-speech-past", "b2-reporting-verbs", "b2-passive-voice", "b2-relative-lequel"]
+vocab:
+  - { id: "b2-review-news-v001", fr: "un communiqué", pron: "uhn koh-mew-nee-KAY", en: "a press release, an official statement" }
+  - { id: "b2-review-news-v002", fr: "un extrait", pron: "uh-nek-STREH", en: "an extract" }
+  - { id: "b2-review-news-v003", fr: "une interview exclusive", pron: "ew-nan-tehr-VYOO ek-sklew-ZEEV", en: "an exclusive interview" }
+  - { id: "b2-review-news-v004", fr: "la version officielle", pron: "lah vehr-syohn oh-fee-SYEL", en: "the official version" }
+  - { id: "b2-review-news-v005", fr: "recouper une information", pron: "ruh-koo-pay ew-nan-for-mah-SYOHN", en: "to cross-check a piece of information" }
+exercises:
+  - id: "b2-review-news-ex001"
+    type: "fill-in"
+    prompt: "Mettez au discours indirect (être) : « La piscine est fermée. » → La maire a dit que la piscine ___ fermée."
+    answers: ["était"]
+    explanation: "After a past reporting verb, the present becomes the imparfait."
+  - id: "b2-review-news-ex002"
+    type: "fill-in"
+    prompt: "Mettez au discours indirect (publier) : « Nous publierons un communiqué. » → Elle a promis qu'ils ___ un communiqué."
+    answers: ["publieraient"]
+    explanation: "The futur becomes the conditionnel: the future in the past."
+  - id: "b2-review-news-ex003"
+    type: "fill-in"
+    prompt: "Mettez au discours indirect (commencer) : « Le chantier a commencé. » → Il a annoncé que le chantier ___."
+    answers: ["avait commencé"]
+    explanation: "The passé composé becomes the plus-que-parfait."
+  - id: "b2-review-news-ex004"
+    type: "fill-in"
+    prompt: "Mettez au discours indirect : « Tout aura été rénové en septembre. » → Elle a assuré que tout ___ rénové en septembre."
+    answers: ["aurait été"]
+    explanation: "The futur antérieur becomes the conditionnel passé, here in the passive."
+    strictAccents: true
+  - id: "b2-review-news-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Le journaliste lui a demandé ___ la piscine était fermée."
+    options: ["pourquoi", "ce que", "de"]
+    answers: ["pourquoi"]
+    explanation: "A question word stays as it is in a reported question."
+  - id: "b2-review-news-ex006"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Elle nous a dit ___ ne pas attendre."
+    options: ["de", "si", "que"]
+    answers: ["de"]
+    explanation: "A reported order: de + infinitive, with ne pas before it."
+  - id: "b2-review-news-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez le verbe qui montre un doute : Le maire ___ que tout va bien."
+    options: ["prétend", "annonce", "rappelle"]
+    answers: ["prétend"]
+    explanation: "Prétendre shows that the reporter doubts the claim."
+  - id: "b2-review-news-ex008"
+    type: "reformulation"
+    prompt: "Reformulez au discours indirect, avec « Il m'a demandé » (vous = moi) : « Vous êtes d'accord ? »"
+    answers: ["Il m'a demandé si j'étais d'accord"]
+    explanation: "A yes/no question: si, with vous becoming je and the imparfait."
+    strictAccents: true
+  - id: "b2-review-news-ex009"
+    type: "reformulation"
+    prompt: "Reformulez au discours indirect, avec « Elle nous a dit » : « Ne publiez rien ! »"
+    answers: ["Elle nous a dit de ne rien publier"]
+    explanation: "Ne rien goes before the infinitive: de ne rien publier."
+    strictAccents: true
+  - id: "b2-review-news-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Le journaliste a demandé qu'est-ce que la maire voulait faire."
+    answers: ["Le journaliste a demandé ce que la maire voulait faire"]
+    explanation: "Qu'est-ce que becomes ce que in a reported question."
+    strictAccents: true
+  - id: "b2-review-news-ex011"
+    type: "register-shift"
+    prompt: "Transformez en registre courant, avec « on » : Un communiqué a été publié ce matin."
+    answers: ["On a publié un communiqué ce matin", "Ce matin, on a publié un communiqué"]
+    explanation: "In everyday French, on + active verb replaces the passive."
+    strictAccents: true
+  - id: "b2-review-news-ex012"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « recouper une information »."
+    options: ["to cross-check information", "to cut an article", "to publish a press release"]
+    answers: ["to cross-check information"]
+    explanation: "Recouper: to check one source against another."
+  - id: "b2-review-news-ex013"
+    type: "translate"
+    prompt: "Traduisez avec « selon » : According to the official version, the pool will be open in September."
+    answers: ["Selon la version officielle, la piscine sera ouverte en septembre","Selon la version officielle, la piscine va être ouverte en septembre"]
+    explanation: "Selon + the source, then the futur."
+  - id: "b2-review-news-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Dans une interview exclusive, la maire a expliqué que la piscine (was) fermée. Elle a annoncé que le chantier (would start) en mars. Le journaliste lui a demandé (whether) les habitants (had been informed)."
+    answers: ["Dans une interview exclusive, la maire a expliqué que la piscine était fermée. Elle a annoncé que le chantier commencerait en mars. Le journaliste lui a demandé si les habitants avaient été informés.","Dans une interview exclusive, la maire a expliqué que la piscine était fermée. Elle a annoncé que le chantier allait commencer en mars. Le journaliste lui a demandé si les habitants avaient été informés."]
+    explanation: "The imparfait, the conditionnel and si + the plus-que-parfait passive."
+    strictAccents: true
+  - id: "b2-review-news-ex015"
+    type: "translate"
+    prompt: "Rédigez ce résumé en complétant comme indiqué : Le communiqué (is about) la fermeture de la piscine. (It emerges that) la rénovation commencera en mars. (In short), la mairie veut rassurer les habitants."
+    answers: ["Le communiqué porte sur la fermeture de la piscine. Il ressort que la rénovation commencera en mars. En somme, la mairie veut rassurer les habitants.", "Le communiqué traite de la fermeture de la piscine. Il ressort que la rénovation commencera en mars. En somme, la mairie veut rassurer les habitants.", "Le communiqué porte sur la fermeture de la piscine. Il ressort que la rénovation commencera en mars. Bref, la mairie veut rassurer les habitants.", "Le communiqué traite de la fermeture de la piscine. Il ressort que la rénovation commencera en mars. Bref, la mairie veut rassurer les habitants."]
+    explanation: "Topic, main point and conclusion, in the present and the futur."
+  - id: "b2-review-news-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : She promised that a press release would be published."
+    words: ["Elle", "a", "promis", "qu'un", "communiqué", "serait", "publié"]
+    answers: ["Elle a promis qu'un communiqué serait publié"]
+    explanation: "The future in the past, in the passive: serait publié."
+---
+
+By the end of this lesson you'll be able to turn an interview into a report in the past, and to summarise an official statement neutrally.
+
+## What you've learned
+
+This unit has been about the news: how it's made, how it's reported, and how to read it critically. Skim this list, and go back to anything that feels shaky.
+
+- **Politics.** You know *le gouvernement*, *un projet de loi*, *un sondage* and *la démission*, from <LessonLink id="b2-politics-and-society" text="the lesson on politics and institutions" />.
+- **Reported speech in the past.** You know the tense shifts after *il a dit que*, and when they don't apply, from <LessonLink id="b2-reported-speech-past" text="the lesson on reported speech in the past" />.
+- **Questions and orders.** You know *il m'a demandé si*, *ce que*, *ce qui* and *de ne pas* + infinitive, from <LessonLink id="b2-reported-questions-orders" text="the lesson on reported questions and orders" />.
+- **Reporting verbs.** You know *affirmer*, *prétendre*, *nier*, *la veille* and *le lendemain*, from <LessonLink id="b2-reporting-verbs" text="the lesson on reporting verbs" />.
+- **The passive.** You know the passive in every tense, and *par* or *de*, from <LessonLink id="b2-passive-voice" text="the lesson on the passive voice" />.
+- **Alternatives to the passive.** You know *on*, *ça ne se fait pas* and *se voir refuser*, from <LessonLink id="b2-alternatives-to-passive" text="the lesson on alternatives to the passive" />.
+- **Nominal style.** You know *la hausse des prix* and *la fermeture de la gare*, from <LessonLink id="b2-nominalisation" text="the lesson on nominalisation" />.
+- **Summaries.** You know *l'article porte sur*, *il ressort que* and *en somme*, from <LessonLink id="b2-summarizing-an-article" text="the lesson on summarising an article" />.
+- **The press.** You know the main papers, *une rédaction* and *l'audiovisuel public*, from <LessonLink id="b2-culture-french-press" text="the lesson on the French press" />.
+
+## A few new words
+
+These five words come up whenever journalists work with official sources.
+
+<VocabTable />
+
+*Un communiqué* is an official statement sent to the press by a town hall, a company or a ministry. *Un extrait* is a short part of a longer text or interview. *Une interview exclusive* is one that only one paper or channel has; *interview* is borrowed from English but pronounced the French way. *La version officielle* is what the authorities say happened, which a journalist may question. Before publishing, a good journalist *recoupe l'information*: they check it against a second, independent source, as you saw in the newsroom feature.
+
+<Example fr="Un bon journaliste recoupe ses informations avant de publier." en="A good journalist cross-checks their information before publishing." />
+
+## An interview and its report
+
+A local paper publishes an exclusive interview with the mayor, Claire Dubois, about the town's swimming pool. Here is the interview, then the journalist's report of it.
+
+*Journaliste : Madame la maire, pourquoi la piscine est-elle fermée ?*
+
+*Claire Dubois : Elle est fermée parce qu'elle doit être rénovée.*
+
+*Journaliste : Quand sera-t-elle ouverte ?*
+
+*Claire Dubois : Le chantier commencera en mars, et tout aura été rénové d'ici septembre.*
+
+*Journaliste : Pourquoi certains habitants n'ont-ils pas été informés ?*
+
+*Claire Dubois : C'est vrai, il y a eu un problème. Nous publierons un communiqué demain.*
+
+*Rapport : Dans une interview exclusive, la maire a expliqué que la piscine était fermée parce qu'elle devait être rénovée. Elle a annoncé que le chantier commencerait en mars et que tout aurait été rénové d'ici septembre. Le journaliste lui a demandé pourquoi certains habitants n'avaient pas été informés. Elle a admis qu'il y avait eu un problème, et elle a promis qu'un communiqué serait publié le lendemain.*
+
+(Journalist: Madam Mayor, why is the pool closed? Claire Dubois: It's closed because it has to be renovated. Journalist: When will it be open? Claire Dubois: The work will start in March, and everything will have been renovated by September. Journalist: Why weren't some residents informed? Claire Dubois: It's true, there was a problem. We'll publish a press release tomorrow. Report: In an exclusive interview, the mayor explained that the pool was closed because it had to be renovated. She announced that the work would start in March and that everything would have been renovated by September. The journalist asked her why some residents hadn't been informed. She admitted that there had been a problem, and she promised that a press release would be published the next day.)
+
+## A summary of the press release
+
+The next day, the town hall publishes its *communiqué*. This is the model summary a student wrote of it.
+
+*Résumé d'un extrait du communiqué : Le communiqué de la mairie porte sur la fermeture de la piscine. Il ressort que la rénovation commencera en mars. Selon la version officielle, la piscine sera ouverte en septembre. En somme, la mairie veut rassurer les habitants.*
+
+(Summary of an extract from the press release: The town hall's press release is about the closure of the pool. It emerges that the renovation will start in March. According to the official version, the pool will be open in September. In short, the town hall wants to reassure residents.)
+
+## How the texts use the grammar
+
+- **The tense shifts.** *Est fermée* becomes *était fermée*, *commencera* becomes *commencerait*, *aura été rénové* becomes *aurait été rénové*, and *il y a eu* becomes *il y avait eu*.
+- **Time words.** *Demain* becomes *le lendemain*, because the report is written later.
+- **Reporting verbs.** *A expliqué* is neutral, *a annoncé* introduces news, and *a admis* shows that the mayor conceded a point.
+- **The reported question** keeps *pourquoi* and drops the inversion: *pourquoi certains habitants n'avaient pas été informés*.
+- **The passive.** *Doit être rénovée*, *aurait été rénové* and *serait publié* put the focus on the pool and the release, not on who does the work.
+- **The summary** uses the present, a nominal phrase (*la fermeture de la piscine*), *il ressort que* and *en somme*, with no opinion.
+
+## From interview to report
+
+The journalist's report follows a method you can reuse.
+
+1. **Choose what to keep.** A report doesn't repeat every question: it keeps the answers that matter to the reader.
+2. **Choose the verb** for each answer: *expliquer* for a reason, *annoncer* for news, *admettre* for a concession, *promettre* for a commitment.
+3. **Shift the tenses and the time words**, because the report is written after the interview.
+4. **Credit the source** at the start (*dans une interview exclusive*), and say when a fact comes from one side only (*selon la version officielle*).
+
+The same method works when you report a conversation with a colleague or a friend: you rarely report every word, only what changes something.
+
+## Your turn
+
+Choose a short interview, real or imagined, from a local news story: a mayor, a head teacher or a shop owner. Write two pieces, on paper or in a notes app.
+
+1. **A report of the interview** in five or six sentences, in the past, with at least one reported question, one reported order or promise, and three different reporting verbs.
+2. **A summary** of four sentences of the same story, in the present, with *porter sur*, *il ressort que* and *en somme*.
+
+If the facts come from one person only, say so in your report: *selon la version officielle*, *d'après la maire*. And if you can, *recoupez l'information* with a second source.
+
+## Check your work
+
+- After *il a dit que* or *elle a annoncé que*, did you shift the tenses, unless the fact is still true?
+- Did you change *demain* to *le lendemain* and *hier* to *la veille*?
+- In reported questions, did you drop *est-ce que* and the inversion?
+- In reported orders, is it *de* + infinitive, with *ne pas* before it?
+- In the passive, does the participle agree with the subject, and is *été* unchanged?
+- Is your summary in the present, and free of your own opinion?
+
+<Callout type="warning" title="Demain becomes le lendemain">
+  When you report an interview the next day, *demain* no longer means the same day. *Elle a promis qu'un communiqué serait publié demain* is wrong if you write it after the interview: say **elle a promis qu'un communiqué serait publié le lendemain**. Keep *demain* only if you report on the same day.
+</Callout>
+
+<Callout type="tip" title="Write the report before rereading">
+  After listening to a French interview on the radio, write your report from memory first, then listen again and correct it. You'll notice what you understood, which tenses you shifted, and which details you'd naturally leave out. That's exactly the skill a summary needs.
+</Callout>
+
+## What's next
+
+The next unit is about precision with pronouns. It starts with <LessonLink id="b2-relative-lequel" text="the lesson on lequel, auquel and duquel" />.

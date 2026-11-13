@@ -1,0 +1,1632 @@
+=== b2-arts-and-literature ===
+
+---
+id: "b2-arts-and-literature"
+title: "Arts and literature"
+description: "Talk about painting, theatre, poetry and literary movements (un tableau, une pièce de théâtre, un vers, un recueil, le romantisme), and recognize the passé simple in literary texts."
+level: "B2"
+unit: "Culture and the arts"
+order: 46
+type: "vocabulary"
+tags: ["arts", "literature", "passé simple"]
+prerequisites: ["b1-cinema-and-books"]
+related: ["b1-reviewing-a-film-or-book", "b2-culture-french-history", "b2-describing-a-work-of-art"]
+vocab:
+  - { id: "b2-arts-and-literature-v001", group: "painting", fr: "un tableau", pron: "uhn tah-BLOH", en: "a painting", note: "New meaning: in b2-presenting-data, a table of figures." }
+  - { id: "b2-arts-and-literature-v002", group: "painting", fr: "un peintre / une peintre", pron: "uhn PAN-truh / ewn PAN-truh", en: "a painter" }
+  - { id: "b2-arts-and-literature-v003", group: "painting", fr: "peindre", pron: "PAN-druh", en: "to paint", note: "il peint, ils peignent; passé composé: il a peint." }
+  - { id: "b2-arts-and-literature-v004", group: "painting", fr: "une toile", pron: "ewn TWAHL", en: "a canvas, a painting" }
+  - { id: "b2-arts-and-literature-v005", group: "painting", fr: "une œuvre", pron: "ew-NUH-vruh", en: "a work (of art)" }
+  - { id: "b2-arts-and-literature-v006", group: "painting", fr: "un chef-d'œuvre", pron: "uhn sheh-DUH-vruh", en: "a masterpiece", note: "Plural: des chefs-d'œuvre." }
+  - { id: "b2-arts-and-literature-v007", group: "painting", fr: "une exposition", pron: "ew-nek-spoh-zee-SYOHN", en: "an exhibition" }
+  - { id: "b2-arts-and-literature-v008", group: "theatre", fr: "une pièce de théâtre", pron: "ewn pyes duh tay-AH-truh", en: "a play" }
+  - { id: "b2-arts-and-literature-v009", group: "theatre", fr: "la mise en scène", pron: "lah mee-zahn SEN", en: "the staging, the direction (of a play)" }
+  - { id: "b2-arts-and-literature-v010", group: "theatre", fr: "un metteur en scène / une metteuse en scène", pron: "uhn meh-tuh-rahn SEN / ewn meh-tuh-zahn SEN", en: "a (theatre) director" }
+  - { id: "b2-arts-and-literature-v011", group: "theatre", fr: "un comédien / une comédienne", pron: "uhn koh-may-DYAN / ewn koh-may-DYEN", en: "an actor, an actress", note: "False friend: not a comedian." }
+  - { id: "b2-arts-and-literature-v012", group: "theatre", fr: "un humoriste / une humoriste", pron: "uh-new-moh-REEST / ew-new-moh-REEST", en: "a comedian" }
+  - { id: "b2-arts-and-literature-v013", group: "poetry", fr: "un poème", pron: "uhn poh-EM", en: "a poem" }
+  - { id: "b2-arts-and-literature-v014", group: "poetry", fr: "un vers", pron: "uhn VEHR", en: "a line of poetry", note: "False friend: a verse is une strophe." }
+  - { id: "b2-arts-and-literature-v015", group: "poetry", fr: "une strophe", pron: "ewn STROF", en: "a verse, a stanza" }
+  - { id: "b2-arts-and-literature-v016", group: "poetry", fr: "une rime", pron: "ewn REEM", en: "a rhyme" }
+  - { id: "b2-arts-and-literature-v017", group: "poetry", fr: "un recueil", pron: "uhn ruh-KUH-y", en: "a collection (of poems or stories)" }
+  - { id: "b2-arts-and-literature-v018", group: "stories", fr: "un conte", pron: "uhn KOHNT", en: "a tale, a fairy tale" }
+  - { id: "b2-arts-and-literature-v019", group: "stories", fr: "une nouvelle", pron: "ewn noo-VEL", en: "a short story", note: "New meaning: also a piece of news." }
+  - { id: "b2-arts-and-literature-v020", group: "stories", fr: "le narrateur / la narratrice", pron: "luh nah-rah-TUHR / lah nah-rah-TREESS", en: "the narrator" }
+  - { id: "b2-arts-and-literature-v021", group: "stories", fr: "un thème", pron: "uhn TEM", en: "a theme" }
+  - { id: "b2-arts-and-literature-v022", group: "movements", fr: "un mouvement artistique", pron: "uhn moov-mahn ar-tees-TEEK", en: "an artistic movement" }
+  - { id: "b2-arts-and-literature-v023", group: "movements", fr: "le romantisme", pron: "luh roh-mahn-TEESM", en: "romanticism" }
+  - { id: "b2-arts-and-literature-v024", group: "movements", fr: "l'impressionnisme", pron: "lan-preh-syoh-NEESM", en: "impressionism" }
+  - { id: "b2-arts-and-literature-v025", group: "movements", fr: "le surréalisme", pron: "luh sewr-ray-ah-LEESM", en: "surrealism" }
+  - { id: "b2-arts-and-literature-v026", group: "ps", fr: "le passé simple", pron: "luh pah-say SAN-pluh", en: "the passé simple (the literary past tense)" }
+  - { id: "b2-arts-and-literature-v027", group: "ps", fr: "il était une fois", pron: "ee-lay-teh ewn FWAH", en: "once upon a time" }
+  - { id: "b2-arts-and-literature-v028", group: "ps", fr: "un roi / une reine", pron: "uhn RWAH / ewn REN", en: "a king / a queen" }
+exercises:
+  - id: "b2-arts-and-literature-ex001"
+    type: "fill-in"
+    prompt: "Complétez : Le musée présente une ___ sur l'impressionnisme."
+    answers: ["exposition"]
+    explanation: "Une exposition: an exhibition."
+  - id: "b2-arts-and-literature-ex002"
+    type: "fill-in"
+    prompt: "Complétez : La ___ en scène de cette pièce est très moderne."
+    answers: ["mise"]
+    explanation: "La mise en scène: the staging of a play."
+  - id: "b2-arts-and-literature-ex003"
+    type: "fill-in"
+    prompt: "Complétez : Ce poème a trois strophes de quatre ___."
+    answers: ["vers"]
+    explanation: "Un vers is one line of a poem; une strophe is a group of lines."
+  - id: "b2-arts-and-literature-ex004"
+    type: "fill-in"
+    prompt: "Complétez : Elle a publié un ___ de poèmes."
+    answers: ["recueil"]
+    explanation: "Un recueil: a collection of poems or stories."
+  - id: "b2-arts-and-literature-ex005"
+    type: "fill-in"
+    prompt: "Complétez : C'est le plus beau tableau du musée, un vrai ___."
+    answers: ["chef-d'œuvre"]
+    explanation: "Un chef-d'œuvre: a masterpiece."
+  - id: "b2-arts-and-literature-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « un comédien »."
+    options: ["an actor", "a comedian", "a director"]
+    answers: ["an actor"]
+    explanation: "Un comédien is a false friend: it's an actor. A comedian is un humoriste."
+  - id: "b2-arts-and-literature-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « une nouvelle » dans la phrase : Elle a écrit une nouvelle de dix pages."
+    options: ["a short story", "a piece of news", "a new book"]
+    answers: ["a short story"]
+    explanation: "A text of ten pages is une nouvelle, a short story."
+  - id: "b2-arts-and-literature-ex008"
+    type: "multiple-choice"
+    prompt: "Choisissez l'infinitif de « il fit »."
+    options: ["faire", "finir", "fermer"]
+    answers: ["faire"]
+    explanation: "Fit is the passé simple of faire: il fit = il a fait."
+  - id: "b2-arts-and-literature-ex009"
+    type: "multiple-choice"
+    prompt: "Choisissez le passé composé de « ils partirent »."
+    options: ["ils sont partis", "ils vont partir", "ils partaient"]
+    answers: ["ils sont partis"]
+    explanation: "-irent is the passé simple plural of partir."
+  - id: "b2-arts-and-literature-ex010"
+    type: "reformulation"
+    prompt: "Reformulez au passé composé : Le roi partit dans la forêt."
+    answers: ["Le roi est parti dans la forêt"]
+    explanation: "Partit is the passé simple of partir; in speech, it's est parti."
+  - id: "b2-arts-and-literature-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de mot (the man tells jokes to the customers) : Ce soir, un comédien raconte des histoires drôles au café."
+    answers: ["Ce soir, un humoriste raconte des histoires drôles au café"]
+    explanation: "Someone who tells jokes is un humoriste. Un comédien is an actor."
+  - id: "b2-arts-and-literature-ex012"
+    type: "translate"
+    prompt: "Traduisez : The exhibition shows the painter's masterpieces."
+    answers: ["L'exposition montre les chefs-d'œuvre du peintre", "L'exposition présente les chefs-d'œuvre du peintre", "L'exposition montre les chefs-d'œuvre de la peintre", "L'exposition présente les chefs-d'œuvre de la peintre"]
+    explanation: "Chefs-d'œuvre: the s goes on chef."
+  - id: "b2-arts-and-literature-ex013"
+    type: "translate"
+    prompt: "Traduisez : I'm reading a collection of short stories."
+    answers: ["Je lis un recueil de nouvelles", "Je suis en train de lire un recueil de nouvelles"]
+    explanation: "Un recueil de nouvelles: une nouvelle is a short story."
+  - id: "b2-arts-and-literature-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Mon œuvre préférée est (a painting: un tableau) impressionniste. Le peintre (painted: peindre, passé composé) la mer. C'est (a masterpiece)."
+    answers: ["Mon œuvre préférée est un tableau impressionniste. Le peintre a peint la mer. C'est un chef-d'œuvre."]
+    strictAccents: true
+    explanation: "Peindre gives a peint in the passé composé."
+  - id: "b2-arts-and-literature-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The staging of this play is very modern."
+    words: ["La", "mise", "en", "scène", "de", "cette", "pièce", "est", "très", "moderne"]
+    answers: ["La mise en scène de cette pièce est très moderne"]
+    explanation: "La mise en scène de + the play."
+---
+
+By the end of this lesson you'll be able to talk about painting, theatre, poetry and literary movements, and recognize the passé simple when you read a story.
+
+## What you already know
+
+You know *un roman*, *un auteur / une autrice*, *un personnage* and *une scène* from <LessonLink id="b1-cinema-and-books" text="the lesson on cinema and books" />, and how to give your opinion of a book from <LessonLink id="b1-reviewing-a-film-or-book" text="the lesson on reviewing a film or book" />. This lesson adds painting, theatre and poetry, and a past tense you'll meet in books.
+
+## Painting
+
+<VocabTable group="painting" />
+
+*Un tableau* is a painting. You know the word from <LessonLink id="b2-presenting-data" text="the lesson on presenting data" /> as a table of figures; in a museum, it usually means a picture. *Une toile* is the canvas, and by extension the painting itself. *Une œuvre* is any work of art: a painting, a book, a piece of music. The best ones are *des chefs-d'œuvre* (masterpieces), with the plural *s* on *chef*.
+
+<Example fr="Le peintre a peint ce tableau en une semaine." en="The painter painted this picture in a week." />
+<Example fr="Cette exposition présente les toiles d'une jeune peintre." en="This exhibition shows the canvases of a young painter." />
+<Example fr="Pour moi, cette œuvre est un chef-d'œuvre." en="For me, this work is a masterpiece." />
+
+*Peindre* is irregular: *il peint*, *ils peignent*, and *il a peint* in the passé composé.
+
+## Theatre
+
+<VocabTable group="theatre" />
+
+*Une pièce de théâtre* is a play. You know *une pièce* as a room and a coin. *La mise en scène* is the way a play is staged, and *le metteur en scène* is the person who stages it.
+
+**Un comédien** is a false friend: it's an actor, especially on stage. Someone who tells jokes is *un humoriste*.
+
+<Example fr="Les comédiens jouent cette pièce depuis trois mois." en="The actors have been performing this play for three months." />
+<Example fr="La metteuse en scène a choisi une mise en scène très simple." en="The director chose a very simple staging." />
+
+## Poetry
+
+<VocabTable group="poetry" />
+
+A poem is made of lines, *des vers*, grouped in *des strophes*. **Un vers** is a false friend too: it's one line, not a whole verse. The lines often end with *une rime*. Poems are published together in *un recueil*.
+
+<Example fr="Chaque strophe de ce poème a quatre vers." en="Each verse of this poem has four lines." />
+<Example fr="Les deux derniers vers ont la même rime." en="The last two lines have the same rhyme." />
+
+## Stories
+
+<VocabTable group="stories" />
+
+Besides novels, you'll read *des contes* (tales, often for children) and *des nouvelles* (short stories). You know *une nouvelle* as a piece of news; in a bookshop, it's a short story. The person who tells the story is *le narrateur*, who isn't always the author. *Un thème* is what a work is about.
+
+<Example fr="Le narrateur de cette nouvelle est un enfant." en="The narrator of this short story is a child." />
+<Example fr="L'amour est le thème principal de ce conte." en="Love is the main theme of this tale." />
+
+## Movements
+
+<VocabTable group="movements" />
+
+*Un mouvement artistique* is a group of artists who share ideas at the same time. Three are worth knowing by name.
+
+- In the early 19th century, *le romantisme* put feelings and nature at the centre, in poetry, novels and painting.
+- In the late 19th century, *l'impressionnisme* was above all a painting movement: painters worked outside and tried to show light and movement.
+- In the 1920s, *le surréalisme* looked for the world of dreams, in poetry and painting.
+
+<Example fr="Ce mouvement artistique a changé la peinture." en="This artistic movement changed painting." />
+<Example fr="Le surréalisme s'intéresse aux rêves." en="Surrealism is interested in dreams." />
+
+## Recognizing the passé simple
+
+<VocabTable group="ps" />
+
+In novels, tales and history books, you'll meet a past tense that people don't use in speech: *le passé simple*. It means the same as the passé composé (a finished action), but it belongs to written, literary French. At B2 you only need to recognize it, mostly in the third person.
+
+The endings tell you which verb you're reading:
+
+| Verb type | *il / elle* | *ils / elles* | Passé composé |
+|---|---|---|---|
+| *-er* verbs (*parler*) | *il parla* | *ils parlèrent* | *il a parlé* |
+| most *-ir* and *-re* verbs (*partir*, *attendre*) | *il partit*, *il attendit* | *ils partirent*, *ils attendirent* | *il est parti*, *il a attendu* |
+| many other verbs (*vouloir*, *connaître*) | *il voulut*, *il connut* | *ils voulurent*, *ils connurent* | *il a voulu*, *il a connu* |
+
+A few very common verbs are irregular, and you'll see them on almost every page:
+
+- For *être*, the forms are *il fut* and *ils furent*.
+- For *avoir*, they are *il eut* and *ils eurent*.
+- For *faire*, they are *il fit* and *ils firent*.
+- For *venir*, they are *il vint* and *ils vinrent*.
+- For *prendre*, they are *il prit* and *ils prirent*.
+
+Here is the opening of an invented tale. The imparfait sets the scene, and the passé simple tells what happened.
+
+<Example fr="Il était une fois un roi qui vivait dans un grand château." en="Once upon a time, there was a king who lived in a big castle." />
+<Example fr="Un jour, le roi partit seul dans la forêt." en="One day, the king went off alone into the forest." />
+<Example fr="Il rencontra une vieille femme et lui parla pendant une heure." en="He met an old woman and spoke to her for an hour." />
+<Example fr="Quand il revint au château, la reine et leurs enfants l'attendirent devant la porte." en="When he came back to the castle, the queen and their children waited for him at the door." />
+
+*Revint* is the passé simple of *revenir*, which is built on *venir* (*il vint*). Two things help when you read. First, the passé simple and the imparfait work together exactly like the passé composé and the imparfait. Second, some forms look like the present: *il finit* can be present or passé simple, and only the context tells you which.
+
+## En français
+
+Clara and Malik leave an exhibition and plan their weekend.
+
+- *Alors, cette exposition, tu as aimé ?* (So, did you like the exhibition?)
+- *Beaucoup. Les toiles de ce peintre sont magnifiques.* (A lot. This painter's canvases are magnificent.)
+- *Pour moi, le grand tableau près de la sortie est un vrai chef-d'œuvre.* (For me, the big painting near the exit is a real masterpiece.)
+- *C'est vrai. Tu veux aller au théâtre samedi ?* (That's true. Do you want to go to the theatre on Saturday?)
+- *Oui ! Il y a une nouvelle pièce au théâtre du centre-ville.* (Yes! There's a new play at the theatre in the town centre.)
+- *Qui est le metteur en scène ?* (Who's the director?)
+- *Je ne sais pas, mais la mise en scène est très moderne, d'après les journaux.* (I don't know, but the staging is very modern, according to the papers.)
+- *Et les comédiens, ils sont bons ?* (And the actors, are they good?)
+- *Excellents. Mais ce n'est pas une pièce drôle : le thème, c'est l'amour impossible.* (Excellent. But it isn't a funny play: the theme is impossible love.)
+- *Pas de problème. Je réserve deux billets ce soir ?* (No problem. Shall I book two tickets tonight?)
+- *Oui, merci ! Et samedi, je t'apporte mon recueil de poèmes préféré.* (Yes, thanks! And on Saturday, I'll bring you my favourite collection of poems.)
+
+<Callout type="warning" title="Un comédien is an actor">
+  *Un comédien* looks like "a comedian", but it means an actor, often on stage: *ce comédien joue dans une pièce de Molière*. For someone who tells jokes, say **un humoriste**: **c'est un humoriste très drôle**.
+</Callout>
+
+<Callout type="tip" title="Read the verb ending first">
+  When a sentence in a novel looks strange, find the verb and read its ending before anything else. An *-a* added straight to the verb stem (*parl-a*), or the endings *-èrent*, *-irent* and *-urent*, tell you it's the passé simple. On its own, *-a* proves nothing: *il a* and *il va* are present, and *il parlera* is future. Replace it in your head with the passé composé (*il parla* = *il a parlé*), and the sentence becomes ordinary French.
+</Callout>
+
+## En résumé
+
+Pour parler de peinture, on dit un tableau, une toile, une œuvre et un chef-d'œuvre. Un peintre peint des tableaux, et un musée présente une exposition. Au théâtre, on voit une pièce de théâtre. Le metteur en scène choisit la mise en scène, et les comédiens jouent. Attention : un comédien n'est pas un humoriste. Un poème a des strophes, une strophe a des vers, et les vers ont souvent une rime. Dans un recueil, il y a des poèmes ou des nouvelles. Le romantisme, l'impressionnisme et le surréalisme sont des mouvements artistiques. Enfin, le passé simple est un temps des livres, pas de la conversation. Il est facile à voir dans un texte : il parla, ils parlèrent, il partit, il fut.
+
+## What's next
+
+Next, <LessonLink id="b2-culture-french-history" text="the lesson on key moments in French history" /> uses the passé simple in a historical text. Later, <LessonLink id="b2-describing-a-work-of-art" text="the lesson on describing a work of art" /> helps you talk about a painting in detail.
+
+=== b2-culture-french-history ===
+
+---
+id: "b2-culture-french-history"
+title: "Key moments in French history"
+description: "Five turning points of modern French history and the words to talk about them: l'Empire, les deux guerres mondiales, l'Occupation et la Résistance, la décolonisation, la construction européenne."
+level: "B2"
+unit: "Culture and the arts"
+order: 47
+type: "culture"
+tags: ["culture", "history"]
+prerequisites: ["b2-politics-and-society", "b2-arts-and-literature"]
+related: ["b1-culture-french-republic", "a2-culture-holidays-and-festivals", "b1-culture-quebec", "b2-culture-francophone-africa"]
+vocab:
+  - { id: "b2-culture-french-history-v001", group: "empire", fr: "un empire", pron: "uh-nahn-PEER", en: "an empire" }
+  - { id: "b2-culture-french-history-v002", group: "empire", fr: "un empereur", pron: "uh-nahn-PRUHR", en: "an emperor" }
+  - { id: "b2-culture-french-history-v003", group: "empire", fr: "le Code civil", pron: "luh kod see-VEEL", en: "the Civil Code (France's book of civil law)" }
+  - { id: "b2-culture-french-history-v004", group: "wars", fr: "une guerre mondiale", pron: "ewn gehr mohn-DYAL", en: "a world war", note: "Une guerre: a war." }
+  - { id: "b2-culture-french-history-v005", group: "wars", fr: "la Première Guerre mondiale", pron: "lah pruh-myehr gehr mohn-DYAL", en: "the First World War" }
+  - { id: "b2-culture-french-history-v006", group: "wars", fr: "la Seconde Guerre mondiale", pron: "lah suh-gohnd gehr mohn-DYAL", en: "the Second World War" }
+  - { id: "b2-culture-french-history-v007", group: "wars", fr: "un soldat / une soldate", pron: "uhn sol-DAH / ewn sol-DAT", en: "a soldier" }
+  - { id: "b2-culture-french-history-v008", group: "wars", fr: "un armistice", pron: "uh-nar-mees-TEESS", en: "an armistice" }
+  - { id: "b2-culture-french-history-v009", group: "wars", fr: "l'Occupation", pron: "loh-kew-pah-SYOHN", en: "the Occupation (of France, 1940 to 1944)" }
+  - { id: "b2-culture-french-history-v010", group: "wars", fr: "la Résistance", pron: "lah ray-zees-TAHNSS", en: "the Resistance" }
+  - { id: "b2-culture-french-history-v011", group: "wars", fr: "un résistant / une résistante", pron: "uhn ray-zees-TAHN / ewn ray-zees-TAHNT", en: "a member of the Resistance" }
+  - { id: "b2-culture-french-history-v012", group: "wars", fr: "la Libération", pron: "lah lee-bay-rah-SYOHN", en: "the Liberation (1944)" }
+  - { id: "b2-culture-french-history-v013", group: "memory", fr: "un monument aux morts", pron: "uhn moh-new-mahn oh MOR", en: "a war memorial" }
+  - { id: "b2-culture-french-history-v014", group: "memory", fr: "une commémoration", pron: "ewn koh-may-moh-rah-SYOHN", en: "a commemoration" }
+  - { id: "b2-culture-french-history-v015", group: "memory", fr: "le devoir de mémoire", pron: "luh duh-vwahr duh may-MWAHR", en: "the duty to remember" }
+  - { id: "b2-culture-french-history-v016", group: "colonies", fr: "une colonie", pron: "ewn koh-loh-NEE", en: "a colony" }
+  - { id: "b2-culture-french-history-v017", group: "colonies", fr: "la décolonisation", pron: "lah day-koh-loh-nee-zah-SYOHN", en: "decolonization" }
+  - { id: "b2-culture-french-history-v018", group: "colonies", fr: "l'indépendance", pron: "lan-day-pahn-DAHNSS", en: "independence" }
+  - { id: "b2-culture-french-history-v019", group: "europe", fr: "la construction européenne", pron: "lah kohn-strewk-syohn uh-roh-pay-EN", en: "European integration" }
+  - { id: "b2-culture-french-history-v020", group: "europe", fr: "un traité", pron: "uhn treh-TAY", en: "a treaty" }
+  - { id: "b2-culture-french-history-v021", group: "europe", fr: "signer un traité", pron: "see-nyay uhn treh-TAY", en: "to sign a treaty" }
+  - { id: "b2-culture-french-history-v022", group: "europe", fr: "l'Union européenne", pron: "lew-nyohn uh-roh-pay-EN", en: "the European Union" }
+  - { id: "b2-culture-french-history-v023", group: "europe", fr: "la paix", pron: "lah PEH", en: "peace" }
+  - { id: "b2-culture-french-history-v024", group: "europe", fr: "un tournant historique", pron: "uhn toor-nahn ees-toh-REEK", en: "a historic turning point" }
+  - { id: "b2-culture-french-history-v025", group: "empire", fr: "prendre le pouvoir", pron: "prahn-druh luh poo-VWAHR", en: "to take power" }
+  - { id: "b2-culture-french-history-v026", group: "glossary", fr: "l'armée", pron: "lar-MAY", en: "the army" }
+  - { id: "b2-culture-french-history-v027", group: "wars", fr: "occuper", pron: "oh-kew-PAY", en: "to occupy" }
+  - { id: "b2-culture-french-history-v028", group: "wars", fr: "libérer", pron: "lee-bay-RAY", en: "to liberate, to free" }
+  - { id: "b2-culture-french-history-v029", group: "europe", fr: "se rapprocher", pron: "suh rah-proh-SHAY", en: "to come closer together" }
+  - { id: "b2-culture-french-history-v030", group: "glossary", fr: "un pays voisin", pron: "uhn peh-ee vwah-ZAN", en: "a neighbouring country" }
+exercises:
+  - id: "b2-culture-french-history-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : Napoléon devient empereur en…"
+    options: ["1804", "1789", "1914"]
+    answers: ["1804"]
+    explanation: "Napoleon became emperor in 1804. 1789 is the Revolution, and 1914 the start of the First World War."
+  - id: "b2-culture-french-history-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : L'armistice de la Première Guerre mondiale est signé le…"
+    options: ["11 novembre 1918", "14 juillet 1789", "8 mai 1945"]
+    answers: ["11 novembre 1918"]
+    explanation: "11 November 1918 is the armistice; 8 May 1945 is the end of the Second World War in Europe."
+  - id: "b2-culture-french-history-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : Pendant la Seconde Guerre mondiale, les résistants…"
+    options: ["luttent contre l'Occupation", "signent le traité de Rome", "écrivent le Code civil"]
+    answers: ["luttent contre l'Occupation"]
+    explanation: "Les résistants fought against the Occupation."
+  - id: "b2-culture-french-history-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : Le traité de Rome, en 1957, est une étape de…"
+    options: ["la construction européenne", "la décolonisation", "la Révolution française"]
+    answers: ["la construction européenne"]
+    explanation: "The Treaty of Rome is a step in European integration."
+  - id: "b2-culture-french-history-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : La décolonisation, c'est le moment où…"
+    options: ["les colonies deviennent indépendantes", "la France crée un empire", "la guerre commence en Europe"]
+    answers: ["les colonies deviennent indépendantes"]
+    explanation: "Decolonization is when colonies become independent."
+  - id: "b2-culture-french-history-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : Le Code civil est…"
+    options: ["un recueil de lois", "un traité européen", "une commémoration"]
+    answers: ["un recueil de lois"]
+    explanation: "Le Code civil is a collection of laws, published in 1804."
+  - id: "b2-culture-french-history-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Pendant l'Occupation, beaucoup de Français entrent dans la ___."
+    answers: ["Résistance"]
+    explanation: "La Résistance: the movement against the Occupation."
+  - id: "b2-culture-french-history-ex008"
+    type: "fill-in"
+    prompt: "Complétez : En 1957, six pays signent un ___ à Rome."
+    answers: ["traité"]
+    explanation: "Signer un traité: to sign a treaty."
+  - id: "b2-culture-french-history-ex009"
+    type: "fill-in"
+    prompt: "Complétez : Le 11 novembre est le jour de l'___ de 1918."
+    answers: ["armistice"]
+    explanation: "L'armistice of 11 November 1918 ended the fighting of the First World War."
+  - id: "b2-culture-french-history-ex010"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de : Napoléon devint empereur."
+    options: ["Napoleon became emperor.", "Napoleon will become emperor.", "Napoleon wants to become emperor."]
+    answers: ["Napoleon became emperor."]
+    explanation: "Devint is the passé simple of devenir: il est devenu."
+  - id: "b2-culture-french-history-ex011"
+    type: "reformulation"
+    prompt: "Reformulez au passé composé : Le traité fut signé à Rome."
+    answers: ["Le traité a été signé à Rome"]
+    strictAccents: true
+    explanation: "Fut signé is the passé simple passive; in the passé composé, it's a été signé."
+  - id: "b2-culture-french-history-ex012"
+    type: "translate"
+    prompt: "Traduisez avec « lutter contre » au passé composé : The Resistance fought against the Occupation."
+    answers: ["La Résistance a lutté contre l'Occupation"]
+    strictAccents: true
+    explanation: "Lutter contre: to fight against."
+  - id: "b2-culture-french-history-ex013"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué, au présent : En 1804, Napoléon (becomes: devenir) empereur. Il (creates: créer) le Code civil. Plus tard, il (loses: perdre) son empire."
+    answers: ["En 1804, Napoléon devient empereur. Il crée le Code civil. Plus tard, il perd son empire."]
+    explanation: "History is often told in the present: devient, crée, perd."
+  - id: "b2-culture-french-history-ex014"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Paris was liberated in 1944."
+    words: ["Paris", "a", "été", "libéré", "en", "1944"]
+    answers: ["Paris a été libéré en 1944"]
+    explanation: "The passive in the passé composé: a été libéré."
+---
+
+By the end of this lesson you'll know five turning points of modern French history and the words to talk about them.
+
+## What you already know
+
+You know *la Révolution française* and *la prise de la Bastille* from <LessonLink id="b1-culture-french-republic" text="the lesson on the French Republic" />, and *le 14 juillet*, which celebrates them, from <LessonLink id="a2-culture-holidays-and-festivals" text="the lesson on holidays and festivals" />. This lesson starts after the Revolution and follows France into the twentieth century.
+
+## Napoleon and the Empire
+
+<VocabTable group="empire" />
+
+After the Revolution, a general, Napoléon Bonaparte, took power. In 1804, he became *empereur*, and France became *un empire*. The same year, the *Code civil* was published: a single book of civil law for the whole country, on marriage, property and contracts. It has been changed many times, but it's still in use.
+
+<Example fr="Napoléon est devenu empereur en 1804." en="Napoleon became emperor in 1804." />
+<Example fr="Le Code civil existe encore aujourd'hui." en="The Civil Code still exists today." />
+
+## The two World Wars
+
+<VocabTable group="wars" />
+
+**La Première Guerre mondiale** lasted from 1914 to 1918. Much of the fighting happened in the north and east of France, and many *soldats* died. It ended with *l'armistice* of 11 November 1918.
+
+<Example fr="L'armistice a été signé le 11 novembre 1918." en="The armistice was signed on 11 November 1918." />
+
+**La Seconde Guerre mondiale** began in 1939. In 1940, the German army occupied a large part of France: this period is called *l'Occupation*. Men and women who fought against it formed *la Résistance*, and each of them was *un résistant* or *une résistante*. Paris was freed in August 1944: that's *la Libération*. The war ended in Europe on 8 May 1945.
+
+<Example fr="Pendant l'Occupation, des résistants ont lutté contre l'armée allemande." en="During the Occupation, members of the Resistance fought against the German army." />
+<Example fr="La Libération de Paris a eu lieu en août 1944." en="The Liberation of Paris took place in August 1944." />
+
+You know *avoir lieu* from <LessonLink id="b2-nuancing-opinions" text="the lesson on nuancing opinions" />.
+
+## Remembering
+
+<VocabTable group="memory" />
+
+Almost every French town and village has *un monument aux morts*, with the names of its soldiers who died. Each year, on 11 November and 8 May, people meet there for *une commémoration*. French uses the phrase *le devoir de mémoire* for the idea that a society must remember the victims of its past.
+
+<Example fr="Le maire lit les noms des soldats devant le monument aux morts." en="The mayor reads the soldiers' names in front of the war memorial." />
+<Example fr="Pour beaucoup de Français, le devoir de mémoire est important." en="For many French people, the duty to remember is important." />
+
+## Decolonization
+
+<VocabTable group="colonies" />
+
+France already had colonies before the Revolution, such as *la Nouvelle-France* in North America, which you know from <LessonLink id="b1-culture-quebec" text="the lesson on Quebec" />. In the nineteenth and early twentieth centuries, it had *des colonies* mainly in Africa and Asia. After 1945, these territories asked for their independence, and most of them became independent in the 1950s and 1960s. This period is called *la décolonisation*. In some countries, independence came peacefully; in others, after a war, as in Algeria, independent since 1962. The subject is still discussed in France today, and historians continue to study it.
+
+<Example fr="Après 1945, beaucoup de colonies ont demandé leur indépendance." en="After 1945, many colonies asked for their independence." />
+<Example fr="L'Algérie est indépendante depuis 1962." en="Algeria has been independent since 1962." />
+
+You'll see where French is spoken in Africa today in <LessonLink id="b2-culture-francophone-africa" text="the lesson on francophone Africa" />.
+
+## European integration
+
+<VocabTable group="europe" />
+
+After two wars, France and its neighbours wanted to keep *la paix*. *La construction européenne* is the slow process of bringing European countries together. In 1957, six countries, including France and Germany, signed *le traité de Rome*, which created a common market. This community later became *l'Union européenne*.
+
+<Example fr="Six pays ont signé un traité à Rome en 1957." en="Six countries signed a treaty in Rome in 1957." />
+<Example fr="La construction européenne est née d'un désir de paix." en="European integration was born of a wish for peace." />
+
+## Talking about the past
+
+History books in French often tell the past in the present, to make it vivid: *en 1804, Napoléon devient empereur*. You'll also find the passé simple, which you met in <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />: *Napoléon devint empereur*. In conversation, use the passé composé: *Napoléon est devenu empereur*.
+
+To say that an event changed everything, call it *un tournant historique*. You know *un tournant* from <LessonLink id="b2-conditionnel-passe" text="the lesson on the conditionnel passé" />.
+
+<Example fr="La Libération a été un tournant historique pour la France." en="The Liberation was a historic turning point for France." />
+
+## En français
+
+Léo and his grandfather stop in front of the war memorial on 11 November.
+
+- *Papi, pourquoi il y a des gens devant le monument aux morts ?* (Grandpa, why are there people in front of the war memorial?)
+- *Aujourd'hui, c'est le 11 novembre. On se souvient de la Première Guerre mondiale.* (Today is 11 November. People remember the First World War.)
+- *C'était quand, cette guerre ?* (When was that war?)
+- *De 1914 à 1918. L'armistice a été signé le 11 novembre 1918.* (From 1914 to 1918. The armistice was signed on 11 November 1918.)
+- *Et les noms sur le monument, ce sont des soldats ?* (And the names on the memorial, are they soldiers?)
+- *Oui, ce sont les soldats du village qui sont morts pendant la guerre.* (Yes, they're the soldiers from the village who died in the war.)
+- *Ton père était soldat aussi ?* (Was your father a soldier too?)
+- *Non, mais pendant la Seconde Guerre mondiale, il était résistant.* (No, but during the Second World War, he was in the Resistance.)
+- *C'est pour ça que tu viens à la commémoration ?* (Is that why you come to the commemoration?)
+- *Oui. C'est le devoir de mémoire : il ne faut pas oublier ceux qui sont morts.* (Yes. It's the duty to remember: we mustn't forget those who died.)
+
+## A short history
+
+This is an original encyclopaedia-style overview of the five moments.
+
+*Cinq tournants de l'histoire de France*
+
+*L'Empire. Après la Révolution, Napoléon Bonaparte prit le pouvoir. En 1804, il devint empereur. La même année, le Code civil fut publié : ce recueil de lois existe encore aujourd'hui.*
+
+*La Première Guerre mondiale. De 1914 à 1918, la France perd beaucoup de soldats. L'armistice est signé le 11 novembre 1918.*
+
+*La Seconde Guerre mondiale. En 1940, l'armée allemande occupe une grande partie de la France : c'est l'Occupation. Des résistants luttent contre l'armée allemande. Paris est libéré en août 1944, et la guerre finit en Europe le 8 mai 1945.*
+
+*La décolonisation. Après 1945, les colonies françaises d'Afrique et d'Asie demandent leur indépendance. Beaucoup deviennent indépendantes dans les années 1950 et 1960, certaines après une guerre, comme l'Algérie en 1962.*
+
+*La construction européenne. Pour garder la paix, la France et les pays voisins se rapprochent. Le traité de Rome est signé en 1957 par six pays. Plus tard, cette communauté devient l'Union européenne.*
+
+Note: the Empire paragraph is in the passé simple, from <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />: *prit* (took, from *prendre*), *devint* (became, from *devenir*, built on *venir*) and *fut publié* (was published). The other paragraphs use the historical present.
+
+<VocabTable group="glossary" />
+
+(Five turning points in French history. The Empire: after the Revolution, Napoleon Bonaparte took power. In 1804, he became emperor. The same year, the Civil Code was published: this collection of laws still exists today. The First World War: from 1914 to 1918, France loses many soldiers. The armistice is signed on 11 November 1918. The Second World War: in 1940, the German army occupies a large part of France: this is the Occupation. Members of the Resistance fight against the German army. Paris is liberated in August 1944, and the war ends in Europe on 8 May 1945. Decolonization: after 1945, the French colonies in Africa and Asia ask for their independence. Many become independent in the 1950s and 1960s, some after a war, such as Algeria in 1962. European integration: to keep the peace, France and the neighbouring countries come closer together. The Treaty of Rome is signed in 1957 by six countries. Later, this community becomes the European Union.)
+
+<Callout type="warning" title="La Seconde Guerre mondiale">
+  English can say "World War Two", with the number after the noun. French puts an ordinal first: *la guerre mondiale deux* is wrong. Say **la Seconde Guerre mondiale** or **la Deuxième Guerre mondiale**, with *Guerre* capitalized and *mondiale* in lowercase.
+</Callout>
+
+<Callout type="tip" title="Visit the monument in your town">
+  If you're in France, stop at the local *monument aux morts* and read the names and the dates on it. Then look for one date in this lesson and say in French what happened: *en 1918, l'armistice a été signé*. A real place makes the history easier to remember.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="b2-adjective-position-meaning" text="the lesson on adjectives that change meaning" /> shows how the position of an adjective can change what it means.
+
+=== b2-adjective-position-meaning ===
+
+---
+id: "b2-adjective-position-meaning"
+title: "Adjectives that change meaning"
+description: "Use the adjectives whose meaning depends on their position: un ancien ami / un bâtiment ancien, ma propre voiture / une voiture propre, un grand homme / un homme grand, le même jour / le jour même."
+level: "B2"
+unit: "Culture and the arts"
+order: 48
+type: "grammar"
+tags: ["grammar", "adjectives"]
+prerequisites: ["a1-adjective-agreement"]
+related: ["a2-describing-your-town", "b1-dreams-and-ambitions", "b2-describing-a-work-of-art"]
+vocab:
+  - { id: "b2-adjective-position-meaning-v001", group: "time", fr: "un ancien ami / un bâtiment ancien", pron: "uh-nahn-syan nah-MEE / uhn bah-teet-mahn ahn-SYAN", en: "a former friend / an old building" }
+  - { id: "b2-adjective-position-meaning-v002", group: "time", fr: "la dernière semaine / la semaine dernière", pron: "lah dehr-nyehr suh-MEN / lah suh-men dehr-NYEHR", en: "the final week / last week" }
+  - { id: "b2-adjective-position-meaning-v003", group: "time", fr: "la prochaine fois / la semaine prochaine", pron: "lah proh-shen FWAH / lah suh-men proh-SHEN", en: "the next time / next week" }
+  - { id: "b2-adjective-position-meaning-v004", group: "time", fr: "le même jour / le jour même", pron: "luh mem ZHOOR / luh zhoor MEM", en: "the same day / that very day" }
+  - { id: "b2-adjective-position-meaning-v005", group: "feeling", fr: "mon cher ami / un repas cher", pron: "mohn sheh-rah-MEE / uhn ruh-pah SHEHR", en: "my dear friend / an expensive meal" }
+  - { id: "b2-adjective-position-meaning-v006", group: "feeling", fr: "un pauvre homme / un homme pauvre", pron: "uhn poh-vruh OMM / uh-nomm POH-vruh", en: "a poor (unfortunate) man / a poor (penniless) man" }
+  - { id: "b2-adjective-position-meaning-v007", group: "feeling", fr: "un brave homme / un homme brave", pron: "uhn brah-VOMM / uh-nomm BRAHV", en: "a decent man / a brave man" }
+  - { id: "b2-adjective-position-meaning-v008", group: "feeling", fr: "une curieuse idée / un enfant curieux", pron: "ewn kew-ryuh-zee-DAY / uh-nahn-fahn kew-RYUH", en: "an odd idea / a curious (inquisitive) child" }
+  - { id: "b2-adjective-position-meaning-v009", group: "feeling", fr: "un sale type / une chemise sale", pron: "uhn sal TEEP / ewn shuh-meez SAL", en: "a nasty guy / a dirty shirt", note: "Un sale type is informal." }
+  - { id: "b2-adjective-position-meaning-v010", group: "size", fr: "un grand homme / un homme grand", pron: "uhn grahn-TOMM / uh-nomm GRAHN", en: "a great man / a tall man" }
+  - { id: "b2-adjective-position-meaning-v011", group: "size", fr: "un seul enfant / un enfant seul", pron: "uhn suh-lahn-FAHN / uh-nahn-fahn SUHL", en: "only one child / a child on his own" }
+  - { id: "b2-adjective-position-meaning-v012", group: "size", fr: "certaines personnes / une chose certaine", pron: "sehr-ten pehr-SONN / ewn shohz sehr-TEN", en: "some people / a sure thing" }
+  - { id: "b2-adjective-position-meaning-v013", group: "size", fr: "différentes personnes / des personnes différentes", pron: "dee-fay-rahnt pehr-SONN / day pehr-sonn dee-fay-RAHNT", en: "various people / different people" }
+  - { id: "b2-adjective-position-meaning-v014", group: "quality", fr: "ma propre voiture / une voiture propre", pron: "mah proh-pruh vwah-TEWR / ewn vwah-tewr PROH-pruh", en: "my own car / a clean car" }
+  - { id: "b2-adjective-position-meaning-v015", group: "quality", fr: "une simple question / une question simple", pron: "ewn san-pluh kes-TYOHN / ewn kes-tyohn SAN-pluh", en: "just a question / an easy question" }
+  - { id: "b2-adjective-position-meaning-v016", group: "quality", fr: "un vrai problème / une histoire vraie", pron: "uhn vreh proh-BLEM / ew-nees-twahr VREH", en: "a real problem / a true story" }
+  - { id: "b2-adjective-position-meaning-v017", group: "events", fr: "un vernissage", pron: "uhn vehr-nee-SAHZH", en: "an exhibition opening, a private view" }
+exercises:
+  - id: "b2-adjective-position-meaning-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « un ancien ami »."
+    options: ["a former friend", "an elderly friend", "a rich friend"]
+    answers: ["a former friend"]
+    explanation: "Before the noun, ancien means former. After it, it means old: un bâtiment ancien."
+  - id: "b2-adjective-position-meaning-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « un repas cher »."
+    options: ["an expensive meal", "a dear meal", "a cheap meal"]
+    answers: ["an expensive meal"]
+    explanation: "After the noun, cher means expensive. Before it, it means dear: mon cher ami."
+  - id: "b2-adjective-position-meaning-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « un homme grand »."
+    options: ["a tall man", "a great man", "an old man"]
+    answers: ["a tall man"]
+    explanation: "After the noun, grand describes height. Un grand homme is a great man."
+  - id: "b2-adjective-position-meaning-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « une simple question »."
+    options: ["just a question", "a rude question", "a long question"]
+    answers: ["just a question"]
+    explanation: "Before the noun, simple means only, just. After it, it means easy: une question simple."
+  - id: "b2-adjective-position-meaning-ex005"
+    type: "fill-in"
+    prompt: "Complétez avec la bonne forme de « cher » : Ma ___ amie, merci pour ta lettre."
+    answers: ["chère"]
+    explanation: "Before the noun, cher means dear, and it agrees: ma chère amie."
+  - id: "b2-adjective-position-meaning-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec la bonne forme de « dernier » : Les vacances finissent bientôt : c'est la ___ semaine."
+    answers: ["dernière"]
+    explanation: "Before the noun, dernier is the last one in a series: la dernière semaine des vacances."
+  - id: "b2-adjective-position-meaning-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec « même » : Elle a répondu le jour ___."
+    answers: ["même"]
+    explanation: "After the noun, même means very: le jour même, that very day."
+  - id: "b2-adjective-position-meaning-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne réponse : Cette famille n'a qu'un enfant : elle a ___."
+    options: ["un seul enfant", "un enfant seul"]
+    answers: ["un seul enfant"]
+    explanation: "Before the noun, seul means only one. Un enfant seul is a child on his own."
+  - id: "b2-adjective-position-meaning-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « ancien » : C'est mon ami d'avant."
+    answers: ["C'est mon ancien ami"]
+    explanation: "Before the noun, ancien means former."
+  - id: "b2-adjective-position-meaning-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec l'adjectif après le nom : Ce restaurant, c'est cher."
+    answers: ["C'est un restaurant cher"]
+    explanation: "After the noun, cher means expensive."
+  - id: "b2-adjective-position-meaning-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (my own car) : J'ai enfin ma voiture propre."
+    answers: ["J'ai enfin ma propre voiture"]
+    explanation: "Ma propre voiture is my own car; ma voiture propre is my clean car."
+  - id: "b2-adjective-position-meaning-ex012"
+    type: "translate"
+    prompt: "Traduisez (a man) : my former teacher"
+    answers: ["mon ancien professeur", "mon ancien enseignant"]
+    explanation: "Before the noun, ancien means former."
+  - id: "b2-adjective-position-meaning-ex013"
+    type: "translate"
+    prompt: "Traduisez : She's the only woman who came."
+    answers: ["C'est la seule femme qui est venue", "C'est la seule femme qui soit venue", "Elle est la seule femme qui est venue", "Elle est la seule femme qui soit venue"]
+    explanation: "Before the noun, seule means only. After la seule, the subjunctive (soit venue) is the careful form."
+  - id: "b2-adjective-position-meaning-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Paul est (a decent man: brave). Mais son voisin est (a nasty guy: sale, familier). Hier, ils ont eu (a real problem)."
+    answers: ["Paul est un brave homme. Mais son voisin est un sale type. Hier, ils ont eu un vrai problème."]
+    explanation: "Brave, sale and vrai change meaning before the noun: decent, nasty, real."
+  - id: "b2-adjective-position-meaning-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : She lives in an old building."
+    words: ["Elle", "habite", "dans", "un", "bâtiment", "ancien"]
+    answers: ["Elle habite dans un bâtiment ancien"]
+    explanation: "After the noun, ancien means old."
+---
+
+By the end of this lesson you'll be able to use the adjectives whose meaning changes with their position, before or after the noun.
+
+## What you already know
+
+You know how adjectives agree, and that a few short ones such as *beau*, *jeune* and *petit* go before the noun, from <LessonLink id="a1-adjective-agreement" text="the lesson on adjective agreement" />. You've met *propre* as "clean" in <LessonLink id="a2-describing-your-town" text="the lesson on describing your town" />, and as "own" in *monter sa propre entreprise*, in <LessonLink id="b1-dreams-and-ambitions" text="the lesson on dreams and ambitions" />. This lesson explains that double meaning, and fifteen others like it.
+
+## The principle
+
+Most French adjectives go after the noun. A small group can go on either side, and the position changes the meaning. A rule of thumb helps with most of them, but not all: *dernier*, *prochain*, *seul*, *certain*, *différent* and *même* have their own patterns, shown below.
+
+- After the noun, the adjective usually has its literal, objective meaning, and it separates this thing from others: *un homme pauvre* has no money.
+- Before the noun, the meaning is usually figurative or subjective, and the adjective says how the speaker sees it: *un pauvre homme* is a man you feel sorry for.
+
+<Example fr="Ce pauvre homme a perdu son chien." en="This poor man has lost his dog." />
+<Example fr="Cette association aide les familles pauvres." en="This association helps poor families." />
+
+The adjective still agrees as usual, wherever it is: *une pauvre femme*, *des familles pauvres*.
+
+## Time and age
+
+<VocabTable group="time" />
+
+*Ancien* before the noun means "former": *mon ancien professeur* no longer teaches me. After the noun, it means "old", for things: *un bâtiment ancien*.
+
+<Example fr="Mon ancien collègue travaille maintenant dans un bâtiment ancien du centre-ville." en="My former colleague now works in an old building in the town centre." />
+
+With time words, *dernier* and *prochain* go after the noun when you count from today: *la semaine dernière* (last week), *la semaine prochaine* (next week). They go before the noun for the last or next one in a series: *la dernière semaine des vacances* (the final week of the holidays), *la prochaine fois* (the next time).
+
+<Example fr="La dernière semaine des vacances, il a fait froid tous les jours." en="In the final week of the holidays, it was cold every day." />
+<Example fr="La prochaine fois, je réserverai plus tôt." en="Next time, I'll book earlier." />
+
+*Même* before the noun means "same": *le même jour*. After it, it means "very", and stresses the noun: *le jour même* (that very day).
+
+<Example fr="Nous avons notre anniversaire le même jour." en="We have our birthday on the same day." />
+<Example fr="J'ai reçu sa lettre et je lui ai répondu le jour même." en="I got her letter and replied that very day." />
+
+## Feelings and judgements
+
+<VocabTable group="feeling" />
+
+These adjectives say what the speaker feels when they come first. *Cher* before the noun is "dear", and after it "expensive". *Pauvre* before is "unfortunate", and after "without money". *Brave* before is "decent, kind", and after "brave", though *courageux* (courageous) is more common for that. *Curieux* before is "odd", and after, for a person, "curious" or "inquisitive".
+
+<Example fr="Mon cher ami, ce repas cher était une erreur !" en="My dear friend, this expensive meal was a mistake!" />
+<Example fr="Le voisin est un brave homme : il aide tout le monde." en="The neighbour is a decent man: he helps everyone." />
+<Example fr="Quelle curieuse idée de partir sans manteau !" en="What an odd idea to go out without a coat!" />
+<Example fr="C'est un enfant curieux, qui pose beaucoup de questions." en="He's an inquisitive child, who asks lots of questions." />
+
+*Sale* after the noun means "dirty". Before a person, it's an informal insult: *un sale type* (a nasty guy). Keep that one for friends, or for describing a film villain.
+
+<Example fr="Ne mets pas cette chemise sale !" en="Don't put on that dirty shirt!" />
+
+## Size and number
+
+<VocabTable group="size" />
+
+*Grand* is one of the short adjectives that go before the noun, but with people the position matters. *Un grand homme* is a great man; *un homme grand* is a tall man. For things, *grand* stays before and simply means "big": *une grande maison*.
+
+<Example fr="Notre vieux maire était un grand homme, mais pas un homme grand." en="Our old mayor was a great man, but not a tall man." />
+
+*Seul* before the noun means "only one": *un seul enfant*. After it, it means "on his own": *un enfant seul*. *Certain* before a plural noun means "some" (*certaines personnes*), and after it "sure" (*une chose certaine*). *Différent* before a plural noun means "various" (*différentes personnes*), and after it "different from each other".
+
+<Example fr="Elle a un seul enfant, et cet enfant est souvent seul." en="She has only one child, and that child is often on his own." />
+<Example fr="Certaines personnes pensent que c'est une chose certaine." en="Some people think it's a sure thing." />
+<Example fr="J'ai parlé à différentes personnes, qui ont des avis différents." en="I spoke to various people, who have different opinions." />
+
+## Quality
+
+<VocabTable group="quality" />
+
+*Propre* is the classic case. Before the noun, it means "own": *ma propre voiture*. After it, it means "clean": *une voiture propre*. *Simple* before the noun means "just, mere" (*une simple question*), and after it "easy, plain" (*une question simple*). *Vrai* before the noun means "real", a strong judgement (*un vrai problème*), and after it "true", the opposite of invented (*une histoire vraie*).
+
+<Example fr="J'ai enfin ma propre voiture, et je la garde toujours propre." en="I finally have my own car, and I always keep it clean." />
+<Example fr="C'est une simple question, mais ce n'est pas une question simple." en="It's just a question, but it isn't an easy question." />
+<Example fr="Ce film raconte une histoire vraie, et c'est un vrai chef-d'œuvre." en="This film tells a true story, and it's a real masterpiece." />
+
+## The whole list
+
+- Before the noun, *ancien* means former, *dernier* the last in a series, *prochain* the next in a series, and *même* the same.
+- After the noun, *ancien* means old, *dernier* and *prochain* count from today, and *même* means very.
+- Before the noun, *cher*, *pauvre*, *brave*, *curieux* and *sale* give a feeling: dear, unfortunate, decent, odd, nasty.
+- After the noun, they're literal: expensive, without money, brave, inquisitive, dirty.
+- *Grand*, *seul*, *certain* and *différent* before the noun mean great, only one, some and various; after it, tall, on his own, sure and different.
+- *Propre*, *simple* and *vrai* before the noun mean own, just and real; after it, clean, easy and true.
+
+## En français
+
+Inès and Hugo are at a *vernissage*, the opening night of an exhibition.
+
+<VocabTable group="events" />
+
+- *Tu vois l'homme près du grand tableau ? C'est mon ancien professeur de français.* (Do you see the man near the big painting? He's my former French teacher.)
+- *Ton ancien professeur ? Il est jeune !* (Your former teacher? He's young!)
+- *Il a quitté l'école l'année dernière. C'est un brave homme, toujours gentil.* (He left the school last year. He's a decent man, always kind.)
+- *Et la femme à côté de lui, c'est qui ? C'est une femme très grande !* (And the woman next to him, who is she? She's a very tall woman!)
+- *Oui, et c'est aussi une grande femme : c'est la peintre de l'exposition.* (Yes, and she's also a great woman: she's the painter of the exhibition.)
+- *Ah, c'est elle ! J'aime ses toiles, mais certaines sont très chères.* (Oh, it's her! I like her canvases, but some are very expensive.)
+- *C'est vrai. Mais c'est la seule exposition de l'année dans notre ville.* (True. But it's the only exhibition of the year in our town.)
+- *Tu veux lui parler ? Tu la connais ?* (Do you want to talk to her? Do you know her?)
+- *Un peu. C'est une curieuse personne : elle ne parle à personne pendant ses vernissages !* (A little. She's an odd person: she doesn't talk to anyone at her openings!)
+- *Alors je lui écrirai la prochaine fois !* (Then I'll write to her next time!)
+
+<Callout type="warning" title="Ma propre voiture, not ma voiture propre">
+  To say "my own car", learners often put *propre* after the noun, as with most adjectives. *Ma voiture propre* means "my clean car". For "own", put it first: **ma propre voiture**, **sa propre chambre**.
+</Callout>
+
+<Callout type="tip" title="One sentence, two meanings">
+  For each pair, write one sentence that uses both positions, as in *ma propre voiture est enfin une voiture propre*. The contrast inside one sentence is easier to remember than two separate rules. Say it aloud a few times, and you'll hear which order sounds right.
+</Callout>
+
+## En résumé
+
+En français, beaucoup d'adjectifs sont après le nom. Mais certains adjectifs changent de sens selon leur place. Souvent, après le nom, l'adjectif a son sens simple et concret : un bâtiment ancien, un repas cher, un homme pauvre, une voiture propre, une histoire vraie. Avant le nom, le sens est souvent moins concret : il montre ce que pense la personne qui parle : un ancien ami, mon cher ami, un pauvre homme, ma propre voiture, un vrai problème. Un grand homme est un homme important, et un homme grand est un homme de grande taille. Un seul enfant, c'est un enfant et pas deux. Un enfant seul est un enfant qui n'a personne avec lui. L'adjectif s'accorde toujours avec le nom, avant ou après.
+
+## What's next
+
+Next, <LessonLink id="b2-tout" text="the lesson on tout" /> looks at *tout*, *toute*, *tous* and *toutes*. Later, <LessonLink id="b2-describing-a-work-of-art" text="the lesson on describing a work of art" /> uses these adjectives to describe a painting.
+
+=== b2-tout ===
+
+---
+id: "b2-tout"
+title: "Tout, toute, tous, toutes"
+description: "Use tout as a determiner, a pronoun and an adverb, pronounce tous correctly, and use set phrases (en tout cas, tout de même, tout compte fait, à tout prix) and the indefinites quiconque and quelconque."
+level: "B2"
+unit: "Culture and the arts"
+order: 49
+type: "grammar"
+tags: ["grammar", "indefinites", "tout"]
+prerequisites: ["b1-indefinite-pronouns"]
+related: ["b1-ce-qui-ce-que", "b2-relative-lequel", "b2-arts-and-literature"]
+vocab:
+  - { id: "b2-tout-v001", group: "det", fr: "tout le / toute la", pron: "too luh / toot lah", en: "all the, the whole", note: "Tout le musée: the whole museum." }
+  - { id: "b2-tout-v002", group: "det", fr: "tous les / toutes les", pron: "too lay / toot lay", en: "all the, every", note: "The s of tous is silent here." }
+  - { id: "b2-tout-v003", group: "pron", fr: "tous (pronom)", pron: "TOOSS", en: "all of them", note: "As a pronoun, the s is pronounced: ils sont tous là." }
+  - { id: "b2-tout-v004", group: "pron", fr: "tous les deux / toutes les deux", pron: "too lay DUH / toot lay DUH", en: "both" }
+  - { id: "b2-tout-v005", group: "adv", fr: "tout seul / toute seule", pron: "too SUHL / toot SUHL", en: "all alone, completely alone" }
+  - { id: "b2-tout-v006", group: "phrases", fr: "tout le temps", pron: "too luh TAHN", en: "all the time" }
+  - { id: "b2-tout-v007", group: "phrases", fr: "en tout cas", pron: "ahn too KAH", en: "in any case" }
+  - { id: "b2-tout-v008", group: "phrases", fr: "de toute façon", pron: "duh toot fah-SOHN", en: "anyway" }
+  - { id: "b2-tout-v009", group: "phrases", fr: "tout de même", pron: "too duh MEM", en: "all the same, still" }
+  - { id: "b2-tout-v010", group: "phrases", fr: "tout compte fait", pron: "too kohnt FEH", en: "all things considered" }
+  - { id: "b2-tout-v011", group: "phrases", fr: "à tout prix", pron: "ah too PREE", en: "at all costs" }
+  - { id: "b2-tout-v012", group: "phrases", fr: "du tout au tout", pron: "dew too-toh TOO", en: "completely (of a change)" }
+  - { id: "b2-tout-v013", group: "indef", fr: "quiconque", pron: "kee-KOHNK", en: "anyone who, whoever", note: "+ a singular verb." }
+  - { id: "b2-tout-v014", group: "indef", fr: "quelconque", pron: "kel-KOHNK", en: "any (at all); ordinary", note: "After the noun: une raison quelconque." }
+  - { id: "b2-tout-v015", group: "museum", fr: "un guide / une guide", pron: "uhn GEED / ewn GEED", en: "a guide" }
+  - { id: "b2-tout-v016", group: "museum", fr: "une salle", pron: "ewn SAL", en: "a room (in a museum or a public building)" }
+exercises:
+  - id: "b2-tout-ex001"
+    type: "fill-in"
+    prompt: "Complétez avec tout, toute, tous ou toutes : Il a plu ___ la journée."
+    answers: ["toute"]
+    explanation: "Journée is feminine singular: toute la journée."
+  - id: "b2-tout-ex002"
+    type: "fill-in"
+    prompt: "Complétez avec tout, toute, tous ou toutes : Ce matin, ___ les élèves sont arrivés à l'heure."
+    answers: ["tous"]
+    explanation: "Élèves arrivés is masculine plural: tous les élèves."
+  - id: "b2-tout-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec tout, toute, tous ou toutes : J'ai lu ___ ses nouvelles."
+    answers: ["toutes"]
+    explanation: "Nouvelles is feminine plural: toutes ses nouvelles."
+  - id: "b2-tout-ex004"
+    type: "fill-in"
+    prompt: "Complétez avec tout, toute, tous ou toutes : Elle a mangé ___ le gâteau."
+    answers: ["tout"]
+    explanation: "Gâteau is masculine singular: tout le gâteau, the whole cake."
+  - id: "b2-tout-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase où on prononce le s de « tous »."
+    options: ["Ils sont tous venus.", "Je marche tous les jours.", "Je vois tous mes amis."]
+    answers: ["Ils sont tous venus."]
+    explanation: "As a pronoun, tous ends in an s sound. Before a noun, the s is silent."
+  - id: "b2-tout-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne forme : Elle est ___ contente."
+    options: ["toute", "tout", "tous"]
+    answers: ["toute"]
+    explanation: "The adverb tout agrees before a feminine adjective starting with a consonant: toute contente."
+  - id: "b2-tout-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Je ne sais pas s'il viendra. ___, nous commencerons à huit heures."
+    options: ["En tout cas", "Tout à coup", "Tout seul"]
+    answers: ["En tout cas"]
+    explanation: "En tout cas: whatever happens, in any case."
+  - id: "b2-tout-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « tous les » : Chaque élève a un livre."
+    answers: ["Tous les élèves ont un livre"]
+    explanation: "Chaque + singular becomes tous les + plural, with a plural verb."
+  - id: "b2-tout-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « tous » après l'auxiliaire : Tous les invités sont venus."
+    answers: ["Les invités sont tous venus", "Ils sont tous venus"]
+    explanation: "The pronoun tous goes between the auxiliary and the participle, with its s pronounced."
+  - id: "b2-tout-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Paul et Marie sont toutes les deux en vacances."
+    answers: ["Paul et Marie sont tous les deux en vacances"]
+    explanation: "With a man and a woman, the masculine is used: tous les deux."
+  - id: "b2-tout-ex011"
+    type: "fill-in"
+    prompt: "Complétez avec « quiconque » ou « quelconque » : ___ arrive en retard doit attendre la pause."
+    answers: ["quiconque"]
+    explanation: "Quiconque: anyone who, with a singular verb (arrive, doit)."
+  - id: "b2-tout-ex012"
+    type: "translate"
+    prompt: "Traduisez au passé composé : They all came."
+    answers: ["Ils sont tous venus", "Elles sont toutes venues", "Tous sont venus", "Toutes sont venues"]
+    explanation: "The pronoun tous or toutes goes between the auxiliary and the participle."
+  - id: "b2-tout-ex013"
+    type: "translate"
+    prompt: "Traduisez à l'imparfait : She was all alone."
+    answers: ["Elle était toute seule"]
+    explanation: "Tout agrees before seule, a feminine adjective starting with a consonant."
+  - id: "b2-tout-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Hier, nous avons visité (all the rooms) du musée. Les tableaux étaient (all of them: pronoun) magnifiques. (All things considered), c'était une belle journée."
+    answers: ["Hier, nous avons visité toutes les salles du musée. Les tableaux étaient tous magnifiques. Tout compte fait, c'était une belle journée."]
+    explanation: "Toutes les salles (determiner), tous after the verb (pronoun), and the set phrase tout compte fait."
+  - id: "b2-tout-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : I see my friends all the time."
+    words: ["Je", "vois", "mes", "amis", "tout", "le", "temps"]
+    answers: ["Je vois mes amis tout le temps"]
+    explanation: "Tout le temps: all the time."
+---
+
+By the end of this lesson you'll be able to use *tout* in its three roles, pronounce *tous* correctly, and use the most common phrases built on it.
+
+## What you already know
+
+You know *tout le monde*, *chaque*, *chacun* and *n'importe qui* from <LessonLink id="b1-indefinite-pronouns" text="the lesson on indefinite pronouns" />, and *tout ce que* from <LessonLink id="b1-ce-qui-ce-que" text="the lesson on ce qui and ce que" />. You also know the set phrases *tout de suite* from <LessonLink id="a1-ordering-at-a-cafe" text="the lesson on ordering at a café" />, *tout à coup* from <LessonLink id="a2-telling-a-story" text="the lesson on telling a story" />, and *tout à fait* and *pas du tout* from <LessonLink id="b1-agreeing-disagreeing" text="the lesson on agreeing and disagreeing" />. *Partout* (everywhere) comes from <LessonLink id="b2-argumentative-essay" text="the lesson on the argumentative essay" />. This lesson puts *tout* into one system.
+
+## Three roles
+
+*Tout* can be three different words, and each one behaves in its own way.
+
+- As a determiner, before a noun, it agrees with the noun: *toute la journée* (the whole day).
+- As a pronoun, it replaces a noun: *tout est prêt* (everything is ready), *ils sont tous là* (they're all here).
+- As an adverb, before an adjective, it means "completely": *il est tout seul* (he's all alone).
+
+## Tout as a determiner
+
+<VocabTable group="det" />
+
+Before a noun with *le*, *la*, *les*, a possessive or a demonstrative, *tout* has four forms. In the singular, it means "the whole"; in the plural, "all the" or "every".
+
+<Example fr="Nous avons visité tout le musée en une matinée." en="We visited the whole museum in one morning." />
+<Example fr="Toute la ville est venue au vernissage." en="The whole town came to the opening." />
+<Example fr="Elle a lu tous ses romans et toutes ses nouvelles." en="She has read all her novels and all her short stories." />
+
+With a time word, *tous les* means "every": you know *tous les jours* from A1, and you can say *toutes les semaines* or *tous les deux ans*. In this role, the *s* of *tous* is silent: *tous les jours* sounds like "too lay zhoor".
+
+<Example fr="Le musée change d'exposition tous les trois mois." en="The museum changes its exhibition every three months." />
+
+## Tout as a pronoun
+
+<VocabTable group="pron" />
+
+Alone, *tout* means "everything". In a compound tense, it goes between the auxiliary and the participle.
+
+<Example fr="Tout est prêt pour l'exposition." en="Everything is ready for the exhibition." />
+<Example fr="Le guide a tout expliqué." en="The guide explained everything." />
+
+*Tous* and *toutes* mean "all of them". They usually go after a simple verb, and between the auxiliary and the participle in a compound tense. As a pronoun, *tous* is pronounced with an *s* sound at the end, which is how you hear the difference.
+
+<Example fr="Les tableaux ? Je les connais tous." en="The paintings? I know all of them." />
+<Example fr="Les visiteuses sont toutes arrivées." en="The visitors have all arrived." />
+
+*Tous les deux* and *toutes les deux* mean "both". Use the masculine as soon as there's one man in the group, as with any plural.
+
+<Example fr="Mon frère et ma sœur sont tous les deux peintres." en="My brother and my sister are both painters." />
+
+## Tout as an adverb
+
+<VocabTable group="adv" />
+
+Before an adjective, *tout* means "completely, very". As an adverb, it doesn't change, with one exception: it agrees before a feminine adjective that starts with a consonant (or an aspirate *h*, as in *toute honteuse*, very ashamed).
+
+<Example fr="Il est tout content de son nouveau tableau." en="He's really happy with his new painting." />
+<Example fr="Elle est toute contente de son exposition." en="She's really happy with her exhibition." />
+<Example fr="Elle est tout heureuse." en="She's very happy." />
+
+The masculine plural shows why the pronunciation matters. *Ils sont tout contents*, with a silent ending, means "they're really happy" (the adverb). *Ils sont tous contents*, with an *s* sound, means "they're all happy" (the pronoun).
+
+<Example fr="Après la visite, les enfants étaient tout contents." en="After the tour, the children were really happy." />
+<Example fr="Après la visite, les enfants étaient tous contents." en="After the tour, the children were all happy." />
+
+## Set phrases
+
+<VocabTable group="phrases" />
+
+These phrases are frequent in conversation and in writing. Learn them as units.
+
+- To say "in any case, whatever happens", use *en tout cas*: *en tout cas, je viendrai* (in any case, I'll come).
+- To dismiss what was just said, use *de toute façon*: *de toute façon, c'est trop tard* (anyway, it's too late).
+- To keep a point despite something, use *tout de même*: *il pleuvait, mais nous sommes sortis tout de même* (it was raining, but we went out all the same).
+- To give a final view after thinking, use *tout compte fait*: *tout compte fait, je préfère rester* (all things considered, I'd rather stay).
+- To show determination, use *à tout prix*: *il veut gagner à tout prix* (he wants to win at all costs).
+- To describe a complete change, use *du tout au tout*: *son style a changé du tout au tout* (her style has changed completely).
+
+<Example fr="Mon frère regarde son téléphone tout le temps." en="My brother looks at his phone all the time." />
+
+## Quiconque and quelconque
+
+<VocabTable group="indef" />
+
+*Quiconque* means "anyone who" or "whoever". It's formal, and it takes a singular verb. *Quelconque* goes after a noun and means "any at all": *pour une raison quelconque* (for some reason or other). Said of a work or a person, it means "ordinary, nothing special". You know *n'importe lequel* (any one) from <LessonLink id="b2-relative-lequel" text="the lesson on lequel" />.
+
+<Example fr="Quiconque a un billet peut entrer dans toutes les salles." en="Anyone who has a ticket can go into all the rooms." />
+<Example fr="Il n'est pas venu, pour une raison quelconque." en="He didn't come, for some reason or other." />
+<Example fr="Ce film est quelconque : je l'ai déjà oublié." en="This film is nothing special: I've already forgotten it." />
+
+## The whole list
+
+- The determiner agrees with its noun, giving *tout le*, *toute la*, *tous les* and *toutes les*, with a silent *s*.
+- The pronoun is *tout* for everything, and *tous* (with an *s* sound) or *toutes* for all of them.
+- The adverb doesn't change, except before a feminine adjective starting with a consonant: *toute contente*, *toutes seules*.
+- The set phrases are *en tout cas*, *de toute façon*, *tout de même*, *tout compte fait*, *à tout prix*, *du tout au tout* and *tout le temps*.
+- *Quiconque* takes a singular verb, and *quelconque* goes after the noun.
+
+## En français
+
+A museum guide answers questions from a group of visitors.
+
+<VocabTable group="museum" />
+
+- *Excusez-moi, madame, nous pouvons voir toutes les salles ?* (Excuse me, can we see all the rooms?)
+- *Oui, toutes les salles sont ouvertes aujourd'hui. La visite prend toute la matinée.* (Yes, all the rooms are open today. The tour takes the whole morning.)
+- *Et les tableaux de cette salle, ils sont tous du même peintre ?* (And the paintings in this room, are they all by the same painter?)
+- *Oui, ils sont tous de lui. Il a peint toute sa vie dans la même ville.* (Yes, they're all his. He painted all his life in the same town.)
+- *Nous pouvons prendre des photos ?* (Can we take photos?)
+- *Non, je suis désolée. Quiconque prend une photo doit quitter la salle.* (No, I'm sorry. Anyone who takes a photo has to leave the room.)
+- *D'accord. Et ce petit tableau, il est célèbre ?* (All right. And this small painting, is it famous?)
+- *Au début, les journaux le trouvaient quelconque. Mais tout compte fait, c'est son chef-d'œuvre.* (At first, the papers found it ordinary. But all things considered, it's his masterpiece.)
+- *Mon frère et moi, nous voulons tous les deux savoir : il y a un café dans le musée ?* (My brother and I both want to know: is there a café in the museum?)
+- *Oui, près de la sortie. En tout cas, prenez votre temps : avec votre billet, vous pouvez rester toute la journée.* (Yes, near the exit. In any case, take your time: with your ticket, you can stay all day.)
+
+<Callout type="warning" title="Ils sont tous venus: say the s">
+  Learners often keep the silent *s* of *tous les jours* when *tous* is a pronoun. In **ils sont tous venus** and **je les connais tous**, the *s* is pronounced. Without it, listeners may hear *tout*, the adverb.
+</Callout>
+
+<Callout type="tip" title="Ask what tout is doing">
+  Before you write *tout*, ask one question: is it before a noun, replacing a noun, or before an adjective? The answer gives you the rule at once: agree with the noun, agree with what it replaces, or stay unchanged (except before a feminine consonant).
+</Callout>
+
+## En résumé
+
+Le mot tout a trois rôles. Devant un nom, il s'accorde avec le nom : tout le musée, toute la ville, tous les jours, toutes les salles. Dans ce cas, on ne prononce pas le s de tous. Comme pronom, tout veut dire toutes les choses : tout est prêt. Tous et toutes remplacent un nom au pluriel : ils sont tous venus. Ici, on prononce le s de tous. Devant un adjectif, tout veut dire très, et il ne change pas : il est tout content, ils sont tout contents. Il s'accorde seulement devant un adjectif féminin qui commence par une consonne : elle est toute contente. Enfin, quiconque veut dire n'importe quelle personne qui, et il est suivi d'un verbe au singulier.
+
+## What's next
+
+Next, <LessonLink id="b2-describing-a-work-of-art" text="the lesson on describing a work of art" /> helps you describe, interpret and judge a painting.
+
+=== b2-describing-a-work-of-art ===
+
+---
+id: "b2-describing-a-work-of-art"
+title: "Describing a work of art"
+description: "Describe, interpret and judge a painting: au premier plan, à l'arrière-plan, évoquer, suggérer, symboliser, frappant, saisissant, sobre, il s'en dégage."
+level: "B2"
+unit: "Culture and the arts"
+order: 50
+type: "communication"
+tags: ["arts", "description", "opinion"]
+prerequisites: ["b2-arts-and-literature", "b2-adjective-position-meaning"]
+related: ["b1-reviewing-a-film-or-book", "b2-mise-en-relief", "b2-nuancing-opinions"]
+vocab:
+  - { id: "b2-describing-a-work-of-art-v001", group: "space", fr: "au premier plan", pron: "oh pruh-myay PLAHN", en: "in the foreground" }
+  - { id: "b2-describing-a-work-of-art-v002", group: "space", fr: "à l'arrière-plan", pron: "ah lah-ryehr-PLAHN", en: "in the background" }
+  - { id: "b2-describing-a-work-of-art-v003", group: "space", fr: "au centre", pron: "oh SAHN-truh", en: "in the centre" }
+  - { id: "b2-describing-a-work-of-art-v004", group: "space", fr: "à gauche du tableau / à droite du tableau", pron: "ah gohsh dew tah-BLOH / ah drwaht dew tah-BLOH", en: "on the left of the painting / on the right of the painting" }
+  - { id: "b2-describing-a-work-of-art-v005", group: "look", fr: "la lumière", pron: "lah lew-MYEHR", en: "the light" }
+  - { id: "b2-describing-a-work-of-art-v006", group: "look", fr: "les couleurs vives", pron: "lay koo-luhr VEEV", en: "bright colours", note: "Vif / vive: bright, lively." }
+  - { id: "b2-describing-a-work-of-art-v007", group: "look", fr: "les couleurs sombres", pron: "lay koo-luhr SOHN-bruh", en: "dark colours" }
+  - { id: "b2-describing-a-work-of-art-v008", group: "look", fr: "une touche", pron: "ewn TOOSH", en: "a brushstroke, a touch (of colour)" }
+  - { id: "b2-describing-a-work-of-art-v009", group: "look", fr: "le regard", pron: "luh ruh-GAR", en: "the gaze, the look (in someone's eyes)" }
+  - { id: "b2-describing-a-work-of-art-v010", group: "look", fr: "le spectateur / la spectatrice", pron: "luh spek-tah-TUHR / lah spek-tah-TREESS", en: "the viewer" }
+  - { id: "b2-describing-a-work-of-art-v011", group: "meaning", fr: "évoquer", pron: "ay-voh-KAY", en: "to evoke, to bring to mind" }
+  - { id: "b2-describing-a-work-of-art-v012", group: "meaning", fr: "suggérer", pron: "sewg-zhay-RAY", en: "to suggest", note: "Like préférer: il suggère." }
+  - { id: "b2-describing-a-work-of-art-v013", group: "meaning", fr: "symboliser", pron: "san-boh-lee-ZAY", en: "to symbolize" }
+  - { id: "b2-describing-a-work-of-art-v014", group: "meaning", fr: "une impression", pron: "ew-nan-preh-SYOHN", en: "an impression" }
+  - { id: "b2-describing-a-work-of-art-v015", group: "meaning", fr: "une interprétation", pron: "ew-nan-tehr-pray-tah-SYOHN", en: "an interpretation" }
+  - { id: "b2-describing-a-work-of-art-v016", group: "meaning", fr: "il s'en dégage", pron: "eel sahn day-GAHZH", en: "it gives off, there emerges from it", note: "Il s'en dégage une impression de calme." }
+  - { id: "b2-describing-a-work-of-art-v017", group: "judge", fr: "frappant / frappante", pron: "frah-PAHN / frah-PAHNT", en: "striking" }
+  - { id: "b2-describing-a-work-of-art-v018", group: "judge", fr: "saisissant / saisissante", pron: "seh-zee-SAHN / seh-zee-SAHNT", en: "gripping, arresting" }
+  - { id: "b2-describing-a-work-of-art-v019", group: "judge", fr: "sobre", pron: "SOH-bruh", en: "understated, restrained" }
+  - { id: "b2-describing-a-work-of-art-v020", group: "glossary", fr: "une fenêtre", pron: "ewn fuh-NEH-truh", en: "a window" }
+  - { id: "b2-describing-a-work-of-art-v021", group: "glossary", fr: "assis / assise", pron: "ah-SEE / ah-SEEZ", en: "sitting, seated" }
+  - { id: "b2-describing-a-work-of-art-v022", group: "glossary", fr: "le silence", pron: "luh see-LAHNSS", en: "silence" }
+  - { id: "b2-describing-a-work-of-art-v023", group: "glossary", fr: "une attente", pron: "ew-nah-TAHNT", en: "a wait, waiting" }
+  - { id: "b2-describing-a-work-of-art-v024", group: "glossary", fr: "vide", pron: "VEED", en: "empty" }
+exercises:
+  - id: "b2-describing-a-work-of-art-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : ce qui est le plus près du spectateur est…"
+    options: ["au premier plan", "à l'arrière-plan", "au centre"]
+    answers: ["au premier plan"]
+    explanation: "Au premier plan: in the foreground, closest to the viewer."
+  - id: "b2-describing-a-work-of-art-ex002"
+    type: "fill-in"
+    prompt: "Complétez avec « évoquer » au présent : Ces couleurs vives ___ l'été."
+    answers: ["évoquent"]
+    explanation: "Évoquer: to bring to mind. Plural subject: évoquent."
+  - id: "b2-describing-a-work-of-art-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec « frappant » : Le regard de cette femme est très ___."
+    answers: ["frappant"]
+    explanation: "Le regard is masculine: frappant."
+  - id: "b2-describing-a-work-of-art-ex004"
+    type: "fill-in"
+    prompt: "Complétez : Le peintre peint par petites ___ de couleur."
+    answers: ["touches"]
+    explanation: "Une touche: a small brushstroke of colour."
+  - id: "b2-describing-a-work-of-art-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez l'expression qui décrit : Au premier plan, ___ une femme qui lit."
+    options: ["on voit", "cela symbolise", "je trouve"]
+    answers: ["on voit"]
+    explanation: "On voit describes; cela symbolise interprets; je trouve judges."
+  - id: "b2-describing-a-work-of-art-ex006"
+    type: "register-shift"
+    prompt: "Mettez au registre soutenu, avec « saisissant » : C'est trop beau, ce tableau !"
+    answers: ["Ce tableau est saisissant", "Ce tableau est vraiment saisissant", "C'est un tableau saisissant"]
+    explanation: "Trop beau is spoken; a critic says saisissant."
+  - id: "b2-describing-a-work-of-art-ex007"
+    type: "reformulation"
+    prompt: "Reformulez avec « évoquer » : Ce rouge, ça me fait penser à la colère."
+    answers: ["Ce rouge évoque la colère"]
+    explanation: "Évoquer turns a personal reaction into an interpretation."
+  - id: "b2-describing-a-work-of-art-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « certes… mais » : Ce tableau est beau. Il est un peu sobre."
+    answers: ["Certes, ce tableau est beau, mais il est un peu sobre", "Ce tableau est certes beau, mais il est un peu sobre"]
+    explanation: "Certes… mais concedes a point before the reservation."
+  - id: "b2-describing-a-work-of-art-ex009"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Il en dégage une impression de calme."
+    answers: ["Il s'en dégage une impression de calme"]
+    explanation: "The phrase is pronominal: il s'en dégage."
+  - id: "b2-describing-a-work-of-art-ex010"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « une curieuse lumière »."
+    options: ["an odd light", "an inquisitive light", "a bright light"]
+    answers: ["an odd light"]
+    explanation: "Before the noun, curieux means odd."
+  - id: "b2-describing-a-work-of-art-ex011"
+    type: "fill-in"
+    prompt: "Complétez : Il s'en ___ une impression de liberté."
+    answers: ["dégage"]
+    explanation: "Il s'en dégage: there emerges from it."
+  - id: "b2-describing-a-work-of-art-ex012"
+    type: "translate"
+    prompt: "Traduisez : In the foreground, a woman is reading."
+    answers: ["Au premier plan, une femme lit", "Au premier plan, il y a une femme qui lit", "Une femme lit au premier plan", "Au premier plan, une femme est en train de lire"]
+    explanation: "Au premier plan: in the foreground. The present lit covers is reading."
+    strictAccents: true
+  - id: "b2-describing-a-work-of-art-ex013"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : (In the centre), il y a une maison. (In the background), on voit la mer. Les couleurs sont (bright)."
+    answers: ["Au centre, il y a une maison. À l'arrière-plan, on voit la mer. Les couleurs sont vives."]
+    strictAccents: true
+    explanation: "Au centre, à l'arrière-plan, and vives agreeing with couleurs."
+  - id: "b2-describing-a-work-of-art-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Ce tableau (evokes) l'été. (What I like), c'est la lumière. (All things considered), c'est une œuvre (striking)."
+    answers: ["Ce tableau évoque l'été. Ce que j'aime, c'est la lumière. Tout compte fait, c'est une œuvre frappante.", "Ce tableau évoque l'été. Ce qui me plaît, c'est la lumière. Tout compte fait, c'est une œuvre frappante."]
+    explanation: "Interpretation with évoquer, mise en relief, then a judgement: frappante agrees with œuvre."
+    strictAccents: true
+  - id: "b2-describing-a-work-of-art-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The colours give an impression of calm."
+    words: ["Les", "couleurs", "donnent", "une", "impression", "de", "calme"]
+    answers: ["Les couleurs donnent une impression de calme"]
+    explanation: "Une impression de + noun."
+---
+
+By the end of this lesson you'll be able to describe a painting, say what it suggests to you, and give a balanced judgement.
+
+## What you already know
+
+You gave your opinion of a film or a book in <LessonLink id="b1-reviewing-a-film-or-book" text="the lesson on reviewing a film or book" />, and you know *émouvant* and *représenter*. You learned *un tableau*, *une toile* and *un chef-d'œuvre* in <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />, and adjectives that change meaning in <LessonLink id="b2-adjective-position-meaning" text="the lesson on adjectives that change meaning" />. This lesson gives you a method for talking about a work of art.
+
+## Three steps
+
+A good description of a work of art moves in three steps, and each step has its own language.
+
+- First, describe what anyone can see: *au premier plan, une femme lit* (in the foreground, a woman is reading).
+- Then, interpret what it suggests: *la lumière évoque le matin* (the light suggests the morning).
+- Last, judge: *c'est une œuvre frappante* (it's a striking work).
+
+Keeping the steps apart makes your opinion more convincing, because the reader can see what it's based on.
+
+## Where things are
+
+<VocabTable group="space" />
+
+Start with the space of the picture. *Au premier plan* is what is closest to the viewer, *à l'arrière-plan* what is furthest away, and *au centre* the middle. For the sides, say *à gauche du tableau* or *à droite du tableau*, from the viewer's point of view.
+
+<Example fr="Au premier plan, un enfant joue avec un chien." en="In the foreground, a child is playing with a dog." />
+<Example fr="À l'arrière-plan, on voit une ville sous la pluie." en="In the background, you can see a town in the rain." />
+<Example fr="À gauche du tableau, une porte est ouverte." en="On the left of the painting, a door is open." />
+
+## Colour, light and the gaze
+
+<VocabTable group="look" />
+
+Then describe the look of the work. *Les couleurs vives* are bright, *les couleurs sombres* dark. *La lumière* can come from one side, or be soft or hard. *Une touche* is a single brushstroke: the impressionists painted in small *touches* of pure colour. *Le regard* is the look in a person's eyes, and *le spectateur* is the person looking at the work.
+
+<Example fr="Le peintre choisit des couleurs sombres et peu de lumière." en="The painter uses dark colours and little light." />
+<Example fr="Le regard de la jeune femme suit le spectateur." en="The young woman's gaze follows the viewer." />
+<Example fr="On voit chaque touche de couleur sur la toile." en="You can see each brushstroke of colour on the canvas." />
+
+## Saying what it suggests
+
+<VocabTable group="meaning" />
+
+Interpretation verbs let you go beyond what is visible. *Évoquer* means "to bring to mind", *suggérer* "to suggest" and *symboliser* "to stand for". You know *représenter* (to show, to depict), which describes rather than interprets. *Il s'en dégage* (there emerges from it) introduces the general feeling of a work; it's the idiomatic *en* you met in <LessonLink id="b2-idiomatic-y-en" text="the lesson on idiomatic y and en" />.
+
+<Example fr="Cette lumière rouge évoque la fin d'une journée." en="This red light brings to mind the end of a day." />
+<Example fr="La fenêtre ouverte symbolise la liberté." en="The open window stands for freedom." />
+<Example fr="Il s'en dégage une impression de calme." en="An impression of calm emerges from it." />
+
+Present an interpretation as yours, not as a fact: *selon moi*, *on peut penser que*, *cela suggère peut-être*. Several interpretations of one work can be valid, and *une interprétation* is stronger when it points to a detail of the picture.
+
+<Example fr="Mon interprétation est différente : pour moi, cette femme attend quelqu'un." en="My interpretation is different: for me, this woman is waiting for someone." />
+
+## Judging
+
+<VocabTable group="judge" />
+
+For the judgement, choose precise adjectives rather than *beau* or *bien*. *Frappant* (striking) is for a detail that catches the eye; *saisissant* (gripping) is stronger, for a work that holds you. *Sobre* is a compliment in art criticism: understated, with no unnecessary effects. You know *émouvant* (moving).
+
+<Example fr="Le contraste entre les deux personnages est frappant." en="The contrast between the two figures is striking." />
+<Example fr="C'est un portrait sobre, mais saisissant." en="It's an understated portrait, but a gripping one." />
+
+To nuance a judgement, use the tools from <LessonLink id="b2-nuancing-opinions" text="the lesson on nuancing opinions" /> and *certes… mais*: *certes, la composition est simple, mais la lumière est saisissante*. To put your main point first, use the mise en relief from <LessonLink id="b2-mise-en-relief" text="the lesson on mise en relief" />: *ce qui me plaît, c'est la lumière*.
+
+Adjective position matters here too: *une curieuse lumière* is an odd light, with *curieuse* before the noun.
+
+## En français
+
+Clara and Malik stand in front of a large painting and don't agree.
+
+- *Qu'est-ce que tu en penses ?* (What do you think of it?)
+- *Franchement, je ne comprends pas. C'est juste une femme assise devant une fenêtre.* (Honestly, I don't get it. It's just a woman sitting in front of a window.)
+- *Regarde le regard de la femme : elle attend quelque chose.* (Look at the woman's gaze: she's waiting for something.)
+- *Peut-être. Mais les couleurs sont très sombres.* (Maybe. But the colours are very dark.)
+- *Justement. Il s'en dégage une impression de solitude.* (Exactly. There's an impression of loneliness coming from it.)
+- *Et la fenêtre ouverte, à gauche du tableau ?* (And the open window, on the left of the painting?)
+- *Pour moi, elle symbolise la liberté, ou une vie qu'elle n'a pas.* (For me, it stands for freedom, or a life she doesn't have.)
+- *C'est une interprétation. Moi, je vois juste une fenêtre !* (That's one interpretation. I just see a window!)
+- *D'accord, mais avoue que la lumière est frappante.* (OK, but admit that the light is striking.)
+- *Ça, oui. Le tableau est sobre, mais il est saisissant.* (That, yes. The painting is understated, but it's gripping.)
+- *Tu vois, tu commences à l'aimer !* (You see, you're starting to like it!)
+
+## An exhibition review
+
+This is an original review of an invented painting by an invented painter, written in the style of a culture magazine.
+
+*« L'Attente », une toile saisissante*
+
+*La galerie du centre-ville présente cette semaine les toiles de Claire Morel. Au centre de l'exposition, on découvre « L'Attente », une grande toile aux couleurs sombres.*
+
+*Au premier plan, une femme est assise devant une table vide. À gauche du tableau, une fenêtre ouverte laisse entrer une lumière froide. À l'arrière-plan, on devine une ville sous la pluie.*
+
+*Le regard de la femme est frappant : elle ne regarde pas le spectateur, mais la fenêtre. La lumière évoque le matin, après une nuit sans sommeil. Selon nous, la fenêtre symbolise un départ, ou peut-être une personne qui ne reviendra pas. Il s'en dégage une impression de silence et d'attente.*
+
+*Certes, la composition est très simple, et certains visiteurs la trouveront trop sobre. Mais c'est justement cette simplicité qu'on aime. Ce qu'on retient, c'est ce regard, qu'on n'oublie pas.*
+
+*Une œuvre à voir, pour quiconque aime la peinture qui raconte une histoire.*
+
+<VocabTable group="glossary" />
+
+("The Wait", a gripping canvas. The town-centre gallery is showing Claire Morel's canvases this week. At the centre of the exhibition is "The Wait", a large canvas in dark colours. In the foreground, a woman is sitting at an empty table. On the left of the painting, an open window lets in a cold light. In the background, you can make out a town in the rain. The woman's gaze is striking: she isn't looking at the viewer, but at the window. The light brings to mind the morning, after a sleepless night. In our view, the window stands for a departure, or perhaps a person who won't come back. An impression of silence and waiting emerges from it. Admittedly, the composition is very simple, and some visitors will find it too understated. But it's precisely this simplicity that you love. What stays with you is that gaze, which you don't forget. A work to see, for anyone who loves painting that tells a story.)
+
+<Callout type="warning" title="Il s'en dégage, not il en dégage">
+  *Dégager* alone means "to bring out" or "to clear". For the feeling that comes from a work, the verb is pronominal: *il en dégage une impression de calme* is wrong. Write **il s'en dégage une impression de calme**.
+</Callout>
+
+<Callout type="tip" title="Describe for one minute before you judge">
+  In front of a painting, force yourself to describe it in French for one full minute before you give any opinion: the foreground, the background, the colours, the light. Only then say what it evokes and what you think. Your judgement will be sharper, and you'll practise the most useful words.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="b2-culture-francophone-africa" text="the lesson on francophone Africa" /> looks at French as it's spoken and written in Africa.
+
+=== b2-culture-francophone-africa ===
+
+---
+id: "b2-culture-francophone-africa"
+title: "Francophone Africa"
+description: "Where and how French is used in West and Central Africa and the Maghreb: langue officielle, langue nationale, bilingue, le nouchi, le camfranglais, labelled local words, la négritude and the griots."
+level: "B2"
+unit: "Culture and the arts"
+order: 51
+type: "culture"
+tags: ["culture", "francophonie", "Africa"]
+prerequisites: ["b1-culture-quebec"]
+related: ["a2-culture-francophone-world", "b2-culture-french-history", "b2-registers"]
+vocab:
+  - { id: "b2-culture-francophone-africa-v001", group: "languages", fr: "la francophonie", pron: "lah frahn-koh-foh-NEE", en: "the French-speaking world" }
+  - { id: "b2-culture-francophone-africa-v002", group: "languages", fr: "une langue officielle", pron: "ewn lahng oh-fee-SYEL", en: "an official language" }
+  - { id: "b2-culture-francophone-africa-v003", group: "languages", fr: "une langue nationale", pron: "ewn lahng nah-syoh-NAL", en: "a national language" }
+  - { id: "b2-culture-francophone-africa-v004", group: "languages", fr: "une langue seconde", pron: "ewn lahng suh-GOHND", en: "a second language" }
+  - { id: "b2-culture-francophone-africa-v005", group: "languages", fr: "bilingue", pron: "bee-LANG", en: "bilingual" }
+  - { id: "b2-culture-francophone-africa-v006", group: "languages", fr: "le plurilinguisme", pron: "luh plew-ree-lan-GWEESM", en: "multilingualism" }
+  - { id: "b2-culture-francophone-africa-v007", group: "contact", fr: "le contact des langues", pron: "luh kohn-takt day LAHNG", en: "language contact" }
+  - { id: "b2-culture-francophone-africa-v008", group: "contact", fr: "un emprunt", pron: "uh-nahn-PRUHN", en: "a loanword", note: "Emprunter: to borrow." }
+  - { id: "b2-culture-francophone-africa-v009", group: "contact", fr: "un mélange", pron: "uhn may-LAHNZH", en: "a mix" }
+  - { id: "b2-culture-francophone-africa-v010", group: "contact", fr: "un mot local", pron: "uhn moh loh-KAL", en: "a local word", note: "Plural: des mots locaux." }
+  - { id: "b2-culture-francophone-africa-v011", group: "contact", fr: "le nouchi", pron: "luh noo-SHEE", en: "nouchi, the street language of Abidjan (Côte d'Ivoire)" }
+  - { id: "b2-culture-francophone-africa-v012", group: "contact", fr: "le camfranglais", pron: "luh kahm-frahn-GLEH", en: "camfranglais, a mix of French, English and local languages (Cameroon)" }
+  - { id: "b2-culture-francophone-africa-v013", group: "local", fr: "une essencerie", pron: "ew-neh-sahn-SREE", en: "a petrol station (Senegal)" }
+  - { id: "b2-culture-francophone-africa-v014", group: "local", fr: "s'enjailler", pron: "sahn-zhah-YAY", en: "to have fun (Côte d'Ivoire, informal)" }
+  - { id: "b2-culture-francophone-africa-v015", group: "local", fr: "un taxi-brousse", pron: "uhn tahk-see-BROOSS", en: "a bush taxi, a shared taxi between towns" }
+  - { id: "b2-culture-francophone-africa-v016", group: "culture", fr: "la négritude", pron: "lah nay-gree-TEWD", en: "négritude, a literary movement of black French-speaking writers" }
+  - { id: "b2-culture-francophone-africa-v017", group: "culture", fr: "un griot / une griotte", pron: "uhn gree-YOH / ewn gree-YOT", en: "a griot, a West African storyteller and musician" }
+  - { id: "b2-culture-francophone-africa-v018", group: "glossary", fr: "vivant / vivante", pron: "vee-VAHN / vee-VAHNT", en: "living, alive" }
+  - { id: "b2-culture-francophone-africa-v019", group: "glossary", fr: "antillais / antillaise", pron: "ahn-tee-YEH / ahn-tee-YEZ", en: "from the French Caribbean" }
+  - { id: "b2-culture-francophone-africa-v020", group: "glossary", fr: "une voix", pron: "ewn VWAH", en: "a voice" }
+  - { id: "b2-culture-francophone-africa-v021", group: "glossary", fr: "s'enrichir", pron: "sahn-ree-SHEER", en: "to become richer" }
+  - { id: "b2-culture-francophone-africa-v022", group: "local", fr: "s'amuser", pron: "sah-mew-ZAY", en: "to have fun (standard French)" }
+  - { id: "b2-culture-francophone-africa-v023", group: "languages", fr: "le wolof", pron: "luh woh-LOF", en: "Wolof, a national language of Senegal" }
+exercises:
+  - id: "b2-culture-francophone-africa-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : Au Sénégal, la langue officielle est…"
+    options: ["le français", "l'anglais", "l'espagnol"]
+    answers: ["le français"]
+    explanation: "French is the official language of Senegal; Wolof is the most widely spoken national language."
+  - id: "b2-culture-francophone-africa-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : Le Cameroun a deux langues officielles :"
+    options: ["le français et l'anglais", "le français et l'espagnol", "l'anglais et l'italien"]
+    answers: ["le français et l'anglais"]
+    explanation: "Cameroon is officially bilingual, in French and English."
+  - id: "b2-culture-francophone-africa-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « s'enjailler » (Côte d'Ivoire)."
+    options: ["to have fun", "to get angry", "to work hard"]
+    answers: ["to have fun"]
+    explanation: "S'enjailler comes from the English enjoy. It's informal and Ivorian."
+  - id: "b2-culture-francophone-africa-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « une essencerie » (Sénégal)."
+    options: ["a petrol station", "a perfume shop", "a school"]
+    answers: ["a petrol station"]
+    explanation: "Une essencerie, from essence (petrol), is a Senegalese word for une station-service."
+  - id: "b2-culture-francophone-africa-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : La négritude est…"
+    options: ["un mouvement littéraire", "une langue de la rue", "un plat sénégalais"]
+    answers: ["un mouvement littéraire"]
+    explanation: "La négritude is a literary movement born in the 1930s."
+  - id: "b2-culture-francophone-africa-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Au Sénégal, le français est la langue ___."
+    answers: ["officielle"]
+    explanation: "Une langue officielle: the language of the State, of the law and of school."
+  - id: "b2-culture-francophone-africa-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Le mot « s'enjailler » est un ___ à l'anglais."
+    answers: ["emprunt"]
+    explanation: "Un emprunt: a word borrowed from another language."
+  - id: "b2-culture-francophone-africa-ex008"
+    type: "fill-in"
+    prompt: "Complétez : Elle parle français et anglais depuis son enfance : elle est ___."
+    answers: ["bilingue"]
+    explanation: "Bilingue: speaking two languages."
+  - id: "b2-culture-francophone-africa-ex009"
+    type: "reformulation"
+    prompt: "Reformulez en français standard : Ce soir, je vais m'enjailler !"
+    answers: ["Ce soir, je vais m'amuser"]
+    explanation: "S'enjailler is the Ivorian informal word for s'amuser."
+  - id: "b2-culture-francophone-africa-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (French isn't official there) : Au Maroc, le français est la seule langue officielle."
+    answers: ["Au Maroc, le français n'est pas une langue officielle"]
+    explanation: "In Morocco, French is widely used, but it isn't an official language."
+  - id: "b2-culture-francophone-africa-ex011"
+    type: "translate"
+    prompt: "Traduisez : French is a second language for many Senegalese people."
+    answers: ["Le français est une langue seconde pour beaucoup de Sénégalais"]
+    explanation: "Une langue seconde: a language learned after the first one, used every day."
+  - id: "b2-culture-francophone-africa-ex012"
+    type: "translate"
+    prompt: "Traduisez : In Cameroon, many people are bilingual."
+    answers: ["Au Cameroun, beaucoup de gens sont bilingues", "Au Cameroun, beaucoup de personnes sont bilingues"]
+    explanation: "Au Cameroun (masculine country); bilingue takes an s in the plural."
+  - id: "b2-culture-francophone-africa-ex013"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : En Côte d'Ivoire, le français est (the official language). Les jeunes d'Abidjan parlent aussi (nouchi). Ce mélange de langues montre (language contact)."
+    answers: ["En Côte d'Ivoire, le français est la langue officielle. Les jeunes d'Abidjan parlent aussi le nouchi. Ce mélange de langues montre le contact des langues."]
+    explanation: "La langue officielle, le nouchi with its article, and le contact des langues."
+  - id: "b2-culture-francophone-africa-ex014"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The griot tells the history of the village."
+    words: ["Le", "griot", "raconte", "l'histoire", "du", "village"]
+    answers: ["Le griot raconte l'histoire du village"]
+    explanation: "Raconter l'histoire de + a place."
+---
+
+By the end of this lesson you'll know where and how French is used in West and Central Africa and the Maghreb, and you'll recognize some local words, writers and traditions.
+
+## What you already know
+
+In <LessonLink id="a2-culture-francophone-world" text="the lesson on the French-speaking world" />, you met *le Sénégal*, *la Côte d'Ivoire*, *le Cameroun* and the Maghreb, and you learned that many Senegalese people also speak Wolof. In <LessonLink id="b1-culture-quebec" text="the lesson on Quebec" />, you saw that French has its own words and accents outside France. This lesson looks at how French lives beside other languages in Africa, without repeating the list of countries.
+
+## French beside other languages
+
+<VocabTable group="languages" />
+
+In many African countries, French is *une langue officielle*: the language of the State, the law, the administration and, often, school. But it's rarely the only language. Beside it, there are *des langues nationales*, the languages of the country's peoples, which families speak at home.
+
+**Le Sénégal.** French is the official language, and Wolof is the most widely spoken national language. For many people, French is *une langue seconde*: learned at school and used at work, after the language of the family.
+
+**La Côte d'Ivoire.** French is the official language, and many local languages are spoken. In Abidjan, French is also the everyday language of the street.
+
+**Le Cameroun.** The country is officially *bilingue*, in French and English, with many local languages too.
+
+Speaking two, three or four languages is normal in these countries. This *plurilinguisme* is part of daily life: people change language with the situation, sometimes inside one conversation.
+
+<Example fr="Au Cameroun, le français et l'anglais sont des langues officielles." en="In Cameroon, French and English are official languages." />
+<Example fr="Beaucoup de Sénégalais parlent wolof en famille et français au travail." en="Many Senegalese people speak Wolof at home and French at work." />
+
+The place of French in Africa comes from the colonial period, which you saw in <LessonLink id="b2-culture-french-history" text="the lesson on French history" />. After independence, many countries kept French as one of their official languages.
+
+## The Maghreb
+
+In Algeria, Morocco and Tunisia, the official languages are Arabic and, in Algeria and Morocco, Tamazight (Berber). French isn't an official language there, but it remains widely used in education, business, science and the media. Many people move between Arabic, French and sometimes Tamazight every day.
+
+<Example fr="Au Maroc, le français n'est pas une langue officielle, mais on le parle souvent au travail." en="In Morocco, French isn't an official language, but it's often spoken at work." />
+
+## When languages meet
+
+<VocabTable group="contact" />
+
+*Le contact des langues* changes French. Local languages give French *des emprunts* (loanwords), and French gives words to local languages. Sometimes a whole new way of speaking appears from *un mélange* of languages.
+
+**Le nouchi** was born in the streets of Abidjan. It mixes French with Ivorian languages and English, and it's now used by many young people and in music.
+
+**Le camfranglais**, in Cameroon, mixes French, English and local languages. It's above all a language of young people in the cities.
+
+<Example fr="Le nouchi est un mélange de français, de langues ivoiriennes et d'anglais." en="Nouchi is a mix of French, Ivorian languages and English." />
+
+## Labelled local words
+
+<VocabTable group="local" />
+
+You'll meet *des mots locaux* that people in France may not know. Each one belongs to a country or a region, so use it with its label, as you did with Quebec words.
+
+- In Senegal, a petrol station is *une essencerie*, from *essence* (petrol), where France says *une station-service*.
+- In Côte d'Ivoire, *s'enjailler* (from the English "enjoy") means to have fun; it's informal.
+- In much of West and Central Africa, *un taxi-brousse* is a shared taxi that travels between towns.
+
+<Example fr="On s'arrête à l'essencerie avant de partir ?" en="Shall we stop at the petrol station before we leave? (Senegal, spoken)" />
+<Example fr="Nous avons pris un taxi-brousse pour aller au village." en="We took a bush taxi to get to the village." />
+
+In an exam or a formal letter, use standard French. You'll see how to choose your register in <LessonLink id="b2-registers" text="the lesson on registers" />.
+
+## Literature and music
+
+<VocabTable group="culture" />
+
+**La négritude** is a literary movement born in Paris in the 1930s, among black students from Africa and the Caribbean writing in French. They wanted to show the value of black cultures and histories. One of its best-known poets, **Léopold Sédar Senghor**, was Senegalese; he later became the first president of independent Senegal, and the first African member of the Académie française.
+
+<Example fr="La négritude est un mouvement littéraire des années 1930." en="Négritude is a literary movement of the 1930s." />
+
+**Les griots** are West African storytellers and musicians. They keep the history of families and villages, and tell it in words and songs. Today, many African artists sing in French, in local languages, or in both, and their music is popular across the French-speaking world.
+
+<Example fr="Le griot chante l'histoire de la famille pendant la fête." en="The griot sings the family's history during the celebration." />
+
+## En français
+
+Awa, a student from Abidjan, explains an Ivorian expression to her classmate Lucas.
+
+- *Awa, hier tu m'as écrit « je vais m'enjailler ». Ça veut dire quoi ?* (Awa, yesterday you wrote "je vais m'enjailler" to me. What does it mean?)
+- *C'est du nouchi, le français de la rue à Abidjan. S'enjailler, c'est s'amuser.* (It's nouchi, the street French of Abidjan. S'enjailler means to have fun.)
+- *Ça vient de l'anglais, non ?* (It comes from English, doesn't it?)
+- *Oui, de « enjoy ». Le nouchi a beaucoup d'emprunts à l'anglais et aux langues ivoiriennes.* (Yes, from "enjoy". Nouchi has lots of loanwords from English and from Ivorian languages.)
+- *Et tout le monde parle nouchi en Côte d'Ivoire ?* (And does everyone speak nouchi in Côte d'Ivoire?)
+- *Surtout les jeunes. Mais à l'école et au travail, nous parlons le français standard.* (Mostly young people. But at school and at work, we speak standard French.)
+- *Alors tu es bilingue ?* (So you're bilingual?)
+- *Plus que ça ! Je parle aussi le dioula avec ma famille.* (More than that! I also speak Dioula with my family.)
+- *Moi, je ne parle que le français, et un peu d'anglais.* (I only speak French, and a bit of English.)
+- *Alors viens à Abidjan : mes amis vont t'apprendre quelques mots locaux !* (Then come to Abidjan: my friends will teach you a few local words!)
+- *D'accord, mais d'abord, apprends-moi à m'enjailler !* (OK, but first, teach me how to have fun!)
+
+## A magazine piece
+
+This is an original magazine piece about French in Africa.
+
+*Le français d'Afrique, une langue vivante*
+
+*Aujourd'hui, la francophonie est de plus en plus africaine. Du Sénégal au Cameroun, le français est une langue officielle, mais il vit à côté de beaucoup de langues nationales. Pour beaucoup de gens, c'est une langue seconde : on la parle à l'école et au travail, et on garde sa langue de famille à la maison.*
+
+*Ce plurilinguisme change le français. Dans les rues d'Abidjan, les jeunes parlent le nouchi, un mélange de français, de langues ivoiriennes et d'anglais. Au Cameroun, le camfranglais joue le même rôle. Ces façons de parler donnent au français des mots nouveaux, comme « s'enjailler » ou « une essencerie ».*
+
+*Dans les années 1930, à Paris, des étudiants africains et antillais lancèrent le mouvement de la négritude. Léopold Sédar Senghor, poète sénégalais, en fut l'une des grandes voix.*
+
+*Aujourd'hui, le français d'Afrique a sa littérature, et la tradition orale reste forte : les griots racontent toujours l'histoire des familles. Grâce à ce contact des langues, le français continue de s'enrichir.*
+
+Note: *lancèrent* (launched) and *fut* (was) are in the passé simple, the forms of *lancer* and *être*, from <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />.
+
+<VocabTable group="glossary" />
+
+(The French of Africa, a living language. Today, the French-speaking world is more and more African. From Senegal to Cameroon, French is an official language, but it lives beside many national languages. For many people, it's a second language: they speak it at school and at work, and keep their family language at home. This multilingualism is changing French. In the streets of Abidjan, young people speak nouchi, a mix of French, Ivorian languages and English. In Cameroon, camfranglais plays the same role. These ways of speaking give French new words, such as "s'enjailler" or "une essencerie". In the 1930s, in Paris, African and Caribbean students launched the négritude movement. Léopold Sédar Senghor, a Senegalese poet, was one of its great voices. Today, the French of Africa has its literature, and the oral tradition is still strong: griots still tell the history of families. Thanks to this contact between languages, French keeps growing richer.)
+
+<Callout type="warning" title="Langue officielle, not langue nationale">
+  Learners often call French *la langue nationale* of Senegal or Côte d'Ivoire. French is the official language there; the national languages are the country's own languages. Write **le français est la langue officielle du Sénégal**, and **le wolof est une langue nationale**.
+</Callout>
+
+<Callout type="tip" title="Listen to French from another country">
+  Once a week, listen to a radio programme, a podcast or songs from a French-speaking African country. Note one local word and its country, and check its standard French equivalent. Your ear will get used to other accents, and you'll understand more of the French-speaking world.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="b2-review-arts" text="the review of culture and the arts" /> brings the unit together in a critical description of a work of art.
+
+=== b2-review-arts ===
+
+---
+id: "b2-review-arts"
+title: "Review: Culture and the arts"
+description: "Bring the unit together in a critical description of a work of art in its historical context: describing, interpreting and judging, tout, adjective position and the passé simple."
+level: "B2"
+unit: "Culture and the arts"
+order: 52
+type: "review"
+tags: ["review", "arts", "history", "writing"]
+prerequisites: ["b2-culture-french-history", "b2-tout", "b2-describing-a-work-of-art", "b2-culture-francophone-africa"]
+related: ["b2-arts-and-literature", "b2-adjective-position-meaning"]
+vocab:
+  - { id: "b2-review-arts-v001", fr: "un contexte historique", pron: "uhn kohn-tekst ees-toh-REEK", en: "a historical context" }
+  - { id: "b2-review-arts-v002", fr: "une œuvre engagée", pron: "ew-nuh-vruh ahn-gah-ZHAY", en: "a committed work (one that defends a political or social idea)" }
+  - { id: "b2-review-arts-v003", fr: "un héritage", pron: "uh-nay-ree-TAHZH", en: "a legacy, a heritage" }
+  - { id: "b2-review-arts-v004", fr: "marquer son temps", pron: "mar-kay sohn TAHN", en: "to leave a mark on its time" }
+  - { id: "b2-review-arts-v005", fr: "intemporel / intemporelle", pron: "an-tahn-poh-REL", en: "timeless" }
+exercises:
+  - id: "b2-review-arts-ex001"
+    type: "fill-in"
+    prompt: "Complétez avec tout, toute, tous ou toutes : ___ la ville est venue voir l'exposition."
+    answers: ["toute"]
+    explanation: "Ville is feminine singular: toute la ville, the whole town."
+  - id: "b2-review-arts-ex002"
+    type: "fill-in"
+    prompt: "Complétez avec « même » à la bonne place : C'est le ___ peintre qui a fait ces deux tableaux."
+    answers: ["même"]
+    explanation: "Before the noun, même means same."
+  - id: "b2-review-arts-ex003"
+    type: "fill-in"
+    prompt: "Complétez : Au premier ___, une femme marche dans la rue."
+    answers: ["plan"]
+    explanation: "Au premier plan: in the foreground."
+  - id: "b2-review-arts-ex004"
+    type: "fill-in"
+    prompt: "Complétez : C'est une œuvre ___ : le peintre défend une idée politique."
+    answers: ["engagée"]
+    explanation: "Une œuvre engagée defends an idea; engagée agrees with œuvre."
+  - id: "b2-review-arts-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Les couleurs sont sombres. ___, la lumière donne une impression de paix."
+    options: ["Pourtant", "En effet", "Par conséquent"]
+    answers: ["Pourtant"]
+    explanation: "Pourtant opposes the light to the dark colours."
+  - id: "b2-review-arts-ex006"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Ce tableau a été peint en 1946. ___, le contexte historique est important."
+    options: ["Par conséquent", "Pourtant", "Tout à coup"]
+    answers: ["Par conséquent"]
+    explanation: "The date explains why the context matters: par conséquent."
+  - id: "b2-review-arts-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de : Ce tableau fut peint en 1946."
+    options: ["This painting was painted in 1946.", "This painting will be painted in 1946.", "This painting is being painted in 1946."]
+    answers: ["This painting was painted in 1946."]
+    explanation: "Fut peint is the passé simple passive: il a été peint."
+  - id: "b2-review-arts-ex008"
+    type: "reformulation"
+    prompt: "Reformulez au passé composé : Le tableau fut montré au public en 1947."
+    answers: ["Le tableau a été montré au public en 1947"]
+    strictAccents: true
+    explanation: "Fut montré becomes a été montré."
+  - id: "b2-review-arts-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « évoquer » : Ce tableau me fait penser à la Libération."
+    answers: ["Ce tableau évoque la Libération"]
+    explanation: "Évoquer turns a personal reaction into an interpretation."
+  - id: "b2-review-arts-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (a boy and a girl) : Les deux enfants sont toutes les deux au premier plan."
+    answers: ["Les deux enfants sont tous les deux au premier plan"]
+    explanation: "With a boy and a girl, the masculine is used: tous les deux."
+  - id: "b2-review-arts-ex011"
+    type: "register-shift"
+    prompt: "Mettez au registre soutenu, avec « intemporel » : Franchement, ce tableau, il est toujours aussi bien aujourd'hui."
+    answers: ["Ce tableau est intemporel", "Ce tableau semble intemporel", "C'est un tableau intemporel"]
+    explanation: "A critic says intemporel instead of the spoken toujours aussi bien."
+  - id: "b2-review-arts-ex012"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : a legacy"
+    options: ["un héritage", "un contexte historique", "une œuvre engagée"]
+    answers: ["un héritage"]
+    explanation: "Un héritage is what an artist or a period leaves to those who come after."
+  - id: "b2-review-arts-ex013"
+    type: "translate"
+    prompt: "Traduisez au passé composé : This work left its mark on its time."
+    answers: ["Cette œuvre a marqué son temps", "Cette œuvre a marqué son époque"]
+    strictAccents: true
+    explanation: "Marquer son temps: to leave a mark on its time."
+  - id: "b2-review-arts-ex014"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : (In the foreground), deux enfants jouent. (In the background), on voit (an old building). Il s'en dégage (an impression of) calme."
+    answers: ["Au premier plan, deux enfants jouent. À l'arrière-plan, on voit un bâtiment ancien. Il s'en dégage une impression de calme."]
+    strictAccents: true
+    explanation: "The space of the picture, ancien after the noun for old, and il s'en dégage."
+  - id: "b2-review-arts-ex015"
+    type: "translate"
+    prompt: "Rédigez en complétant comme indiqué : Ce tableau a été peint (shortly after: peu après) la Seconde Guerre mondiale. (The historical context) est important. C'est (a committed work)."
+    answers: ["Ce tableau a été peint peu après la Seconde Guerre mondiale. Le contexte historique est important. C'est une œuvre engagée."]
+    strictAccents: true
+    explanation: "The date, the context, then the kind of work."
+  - id: "b2-review-arts-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : This painting is a real masterpiece."
+    words: ["Ce", "tableau", "est", "un", "vrai", "chef-d'œuvre"]
+    answers: ["Ce tableau est un vrai chef-d'œuvre"]
+    explanation: "Before the noun, vrai means real."
+---
+
+By the end of this lesson you'll be able to write a short critical description of a work of art and place it in its historical context.
+
+## What you've learned
+
+This unit has been about culture and the arts: painting, literature, history and the French-speaking world. Skim this list, and go back to anything that feels shaky.
+
+- **The arts.** You know *un tableau*, *une pièce de théâtre*, *un recueil* and the passé simple (*il fut*, *ils partirent*), from <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />.
+- **History.** You know *l'Occupation*, *la Libération*, *la décolonisation* and *un tournant historique*, from <LessonLink id="b2-culture-french-history" text="the lesson on French history" />.
+- **Adjectives.** You know *un ancien ami*, *ma propre voiture* and *un vrai problème*, from <LessonLink id="b2-adjective-position-meaning" text="the lesson on adjectives that change meaning" />.
+- **Tout.** You know *toute la ville*, *ils sont tous venus* and *tout compte fait*, from <LessonLink id="b2-tout" text="the lesson on tout" />.
+- **Describing art.** You know *au premier plan*, *évoquer*, *frappant* and *il s'en dégage*, from <LessonLink id="b2-describing-a-work-of-art" text="the lesson on describing a work of art" />.
+- **Africa.** You know *une langue officielle*, *le nouchi* and *la négritude*, from <LessonLink id="b2-culture-francophone-africa" text="the lesson on francophone Africa" />.
+
+## A few new words
+
+These five words help you place a work in its time.
+
+<VocabTable />
+
+*Le contexte historique* is the period a work comes from: what was happening when it was made. *Une œuvre engagée* defends a political or social idea; you know *engagé* from <LessonLink id="b2-culture-french-press" text="the lesson on the French press" />. A work that *a marqué son temps* changed how people of its period saw things. *Son héritage* is what it leaves to later artists. And a work that still speaks to us today is *intemporelle*.
+
+<Example fr="Pour comprendre ce roman, il faut connaître son contexte historique." en="To understand this novel, you need to know its historical context." />
+<Example fr="Cette chanson engagée a marqué son temps." en="This committed song left its mark on its time." />
+<Example fr="Son héritage est encore visible chez les jeunes peintres." en="Her legacy can still be seen in young painters' work." />
+<Example fr="Ce poème parle d'amour : il est intemporel." en="This poem is about love: it's timeless." />
+
+## Context before judgement
+
+A critical description now has four steps: the context, the description, the interpretation and the judgement. Put the context first, in one or two sentences, with a date and an event. Then describe, interpret and judge, as in the lesson on describing a work of art.
+
+- To give the date, use the passive in the passé composé: *ce tableau a été peint en 1946*. In a museum guide or an art book, you may read the passé simple instead: *il fut peint en 1946*.
+- To link the work to its period, use *le contexte historique* and a connector: *par conséquent*, *en effet*.
+- To judge its importance, use *marquer son temps*, *un héritage* or *intemporel*.
+
+Keep the context short. A reader wants to understand the work, not read a history lesson: one event that explains the work is enough.
+
+## A model description
+
+This is an original critical description of an invented painting. The painter, Jean Varenne, and the painting are invented.
+
+*« Après la pluie », Jean Varenne, 1946*
+
+*Jean Varenne peint ce tableau en 1946, peu après la Seconde Guerre mondiale. Le contexte historique est important : la France sort de l'Occupation, et beaucoup de familles n'ont plus rien.*
+
+*Au premier plan, une jeune femme et un enfant marchent dans une rue vide. Tous les deux regardent l'arrière-plan, où une lumière vive arrive entre deux bâtiments anciens. Les couleurs sont sombres, mais cette seule touche de lumière change tout. Il s'en dégage une impression de paix.*
+
+*Certes, ce n'est pas une œuvre engagée : Varenne ne défend pas d'idée politique. Pourtant, ce tableau marque son temps : pour beaucoup de Français, la lumière symbolise la Libération et la fin de la guerre.*
+
+*Aujourd'hui encore, la toile semble intemporelle. Son héritage est clair : après lui, beaucoup de jeunes peintres choisissent des couleurs sombres et une seule touche de lumière. Tout compte fait, c'est une simple scène de rue, mais c'est un vrai chef-d'œuvre.*
+
+("After the Rain", Jean Varenne, 1946. Jean Varenne paints this picture in 1946, shortly after the Second World War. The historical context is important: France is coming out of the Occupation, and many families have nothing left. In the foreground, a young woman and a child are walking down an empty street. Both of them are looking at the background, where a bright light comes between two old buildings. The colours are dark, but this single touch of light changes everything. An impression of peace emerges from it. Admittedly, it isn't a committed work: Varenne doesn't defend any political idea. And yet this painting leaves its mark on its time: for many French people, the light symbolizes the Liberation and the end of the war. Even today, the canvas seems timeless. Its legacy is clear: after him, many young painters choose dark colours and a single touch of light. All things considered, it's just a street scene, but it's a real masterpiece.)
+
+## How the text uses the grammar
+
+- The context comes first, with a date and the history from the lesson on French history: *la Seconde Guerre mondiale*, *l'Occupation*, *la Libération*.
+- The whole text uses the present, as critics and history books often do: *peint*, *sort*, *marque*, *symbolise*.
+- The description follows the space of the picture: *au premier plan*, *l'arrière-plan*.
+- *Tout* appears as a pronoun (*change tout*), in *tous les deux* (both), and in the set phrase *tout compte fait*.
+- Adjective position changes the meaning: *bâtiments anciens* (old), *une seule touche* (only one), *une simple scène* (just a scene), *un vrai chef-d'œuvre* (a real one).
+- The judgement is nuanced with *certes* and *pourtant*, then closes with the new words *marqué son temps*, *intemporelle* and *héritage*.
+
+## Your turn
+
+Choose a work you know: a painting, a song, a novel or a film. Write a short critical description of five parts, on paper or in a notes app.
+
+1. **Context**, in one or two sentences, with a date and *le contexte historique*.
+2. **Description**, with *au premier plan*, *à l'arrière-plan* or *au centre*, or the subject of the work.
+3. **Interpretation**, with *évoquer*, *symboliser* or *il s'en dégage*.
+4. **Judgement**, with *certes… mais* and a precise adjective, such as *frappant*, *saisissant* or *sobre*.
+5. **Importance**, with *marquer son temps*, *un héritage* or *intemporel*.
+
+## Check your work
+
+- Did you put the context first, and keep it short?
+- Are the adjectives in the right place for the meaning you want (*un ancien ami*, *un bâtiment ancien*)?
+- Does *tout* agree when it's a determiner (*toute la ville*), and is *tous* used for a mixed group?
+- Did you use the passé composé, not the passé simple, in what you wrote?
+- Does each interpretation point to a detail of the work?
+
+<Callout type="warning" title="Une œuvre engagée, not engageante">
+  For a work that defends an idea, learners sometimes say *une œuvre engageante*, which means "an appealing work". The word for a committed work is **engagée**: **une œuvre engagée**, **un artiste engagé**.
+</Callout>
+
+<Callout type="tip" title="Find one date before you write">
+  Before you write about a work, look up just one fact: the year it was made, and one event of that year. Write that sentence first. With the context fixed, the description and the judgement become easier, because you know what the work was answering.
+</Callout>
+
+## What's next
+
+The next unit is about registers and debate. It starts with <LessonLink id="b2-registers" text="the lesson on registers of French" />.

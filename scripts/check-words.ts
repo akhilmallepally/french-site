@@ -42,7 +42,7 @@ const IGNORE = new Set([
   "souviens", "souvient", "souviennent", "souvenons", "souvenez",
   "deviendrais", "deviendrait", "deviendrai", "deviendra", "aperçu", "aperçue", "disparu", "disparue", "paie", "paies", "nourrisse", "nourrisses", "envoie", "envoies", "préviens", "prévient", "prévienne", "préviennent",
   // passé simple forms, recognized from b2-arts-and-literature on
-  "fit", "firent", "vint", "vinrent", "revint", "revinrent", "fut", "furent", "eut", "eurent", "prit", "prirent", "devint", "devinrent", "deviennent", "reviendra",
+  "fit", "firent", "vint", "vinrent", "revint", "revinrent", "fut", "furent", "eut", "eurent", "prit", "prirent", "devint", "devinrent", "deviennent", "reviendra", "deviendront", "viendront", "perdront", "comprenais",
   // names and loanwords in b2-culture-francophone-africa
   "dioula", "léopold", "sédar", "senghor", "enjoy", "abidjan", "tamazight", "varenne",
   "réussisse", "comprennent", "compreniez", "agisse", "promis", "promise", "tiendrait", "tiendrais", "permis", "admis", "rappelle", "rappellent", "pourront", "convienne", "convient", "reviens", "atteint", "atteints", "paierons", "paierez", "paierai", "paiera", "réunisse", "réunissent", "enverrez", "enverra", "enverrai", "reviendrait", "ouvert", "ouverte",
@@ -97,7 +97,7 @@ function names(s: string): Set<string> {
 }
 // More English words, used only for B2 and later, whose prompts and options mix in English sentences.
 // (Kept apart so that A1 to B1 results don't change.)
-const B2_ENGLISH = new Set(("say another way purchasing power volunteers help homeless people before after leave rains rain if wait until although late going out we'll it's we're don't i'll i'd you're there's that's mixed strong opinion meaning sentence word despite age he's still working stand someone up everyone heard him nobody hear careful shy soon you've arrived glad came about yourself promise future reproach someone without moving polite left wing party voting twice hearing witness's managing well leaving early convincing isn't finished yet struggle find housing because rising flats building check life costs than treatment probably doubtfully may wonder whether screens pupils became emperor become wants suddenly however meh really convinced yes absolutely seriously ill sensitive sensual possibly eventually immediately " +
+const B2_ENGLISH = new Set(("say another way purchasing power volunteers help homeless people before after leave rains rain if wait until although late going out we'll it's we're don't i'll i'd you're there's that's mixed strong opinion meaning sentence word despite age he's still working stand someone up everyone heard him nobody hear careful shy soon you've arrived glad came about yourself promise future reproach someone without moving polite left wing party voting twice hearing witness's managing well leaving early convincing isn't finished yet struggle find housing because rising flats building check life costs than treatment probably doubtfully may wonder whether screens pupils became emperor become wants suddenly however meh really convinced yes absolutely seriously ill sensitive sensual possibly eventually immediately finish what's whoever " +
   "").trim().split(/\s+/));
 const isEnglishWord = (w: string, b2 = false) => ENGLISH.has(w) || (b2 && B2_ENGLISH.has(w));
 const isEnglish = (s: string, b2 = false) => {
