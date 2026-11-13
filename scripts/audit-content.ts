@@ -236,10 +236,10 @@ function audit(lessons: AuditLesson[]) {
     const IRREGULAR: Record<string, string[]> = {
       avoir: ["a", "ai", "as", "avoi", "avons", "avez", "avai", "avi", "ont", "eu", "aur", "ait", "aient", "ay"],
       etre: ["etre", "est", "suis", "es", "sommes", "etes", "sont", "ete", "etai", "etan", "ser", "soi", "soy", "fu"],
-      faire: ["fai", "fais", "fait", "font", "fer", "fass"],
+      faire: ["fai", "fais", "fait", "font", "fer", "fass", "fit", "firent"],
       aller: ["vais", "vas", "va", "vont", "all", "irai", "iras", "ira", "iron", "irez", "aill"],
       pouvoir: ["peu", "pouv", "pourr", "puiss", "pu"],
-      mettre: ["met", "mis"], prendre: ["prend", "pren", "pris"], tenir: ["tien", "ten", "tin"],
+      mettre: ["met", "mis"], prendre: ["prend", "pren", "pris", "prit", "prir"], tenir: ["tien", "ten", "tin"],
       venir: ["vien", "ven", "vin"], devoir: ["doi", "dev", "du"], savoir: ["sai", "sav", "sach", "su", "saur"],
       dire: ["dis", "dit", "dir", "dise"], voir: ["voi", "voy", "vu", "verr"], atteindre: ["attei", "atteign"], elire: ["eli", "elu"],
       admettre: ["admet", "admis"], promettre: ["promet", "promis"], permettre: ["permet", "permis"],

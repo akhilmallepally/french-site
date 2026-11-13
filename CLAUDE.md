@@ -134,6 +134,8 @@ B2 inherits every B1 rule unless it's overridden here. They apply to B2 lessons 
   - Check every dialogue line and example against each rule the lesson states (mood, repeated preposition, agreement, same subject). A line may not break the lesson's own rule.
   - Every vocab entry is used in a complete French sentence in the text (an Example, a dialogue or longer-text line, the En résumé), the dialogue or an exercise. Naming it or glossing it inside an English sentence doesn't count. audit:content checks this for B2 ("B2 vocab entry not used in a complete sentence").
   - A paragraph exercise must make sense as one coherent text.
+  - A rule of thumb in a grammar lesson is called one, and isn't stated as a rule, when the lesson's own list has exceptions.
+  - A model text keeps one narrative tense per paragraph (for example the passé simple or the historical present, not both).
 - **Structures.**
   - The teaching text, exercises and En résumé are strict.
   - A longer text may use at most 2 untaught structures. Each one is glossed in an English line inside the same section that starts with `Note:` and names the form in italics, for example "Note: *qu'il soit parti* is the past subjunctive, taught later in B2." check:structures counts these against the cap.

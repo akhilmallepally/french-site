@@ -8361,9 +8361,9 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-arts-and-literature-ex008 | multiple-choice | Choisissez l'infinitif de « il fit ». | ["faire","finir","fermer"] | ["faire"] | false | Fit is the passé simple of faire: il fit = il a fait.
 - b2-arts-and-literature-ex009 | multiple-choice | Choisissez le passé composé de « ils partirent ». | ["ils sont partis","ils vont partir","ils partaient"] | ["ils sont partis"] | false | -irent is the passé simple plural of partir.
 - b2-arts-and-literature-ex010 | reformulation | Reformulez au passé composé : Le roi partit dans la forêt. | — | ["Le roi est parti dans la forêt"] | false | Partit is the passé simple of partir; in speech, it's est parti.
-- b2-arts-and-literature-ex011 | error-correction | Corrigez l'erreur de mot (the man tells jokes on stage) : Ce soir, un comédien raconte des histoires drôles au café. | — | ["Ce soir, un humoriste raconte des histoires drôles au café"] | false | Someone who tells jokes is un humoriste. Un comédien is an actor.
+- b2-arts-and-literature-ex011 | error-correction | Corrigez l'erreur de mot (the man tells jokes to the customers) : Ce soir, un comédien raconte des histoires drôles au café. | — | ["Ce soir, un humoriste raconte des histoires drôles au café"] | false | Someone who tells jokes is un humoriste. Un comédien is an actor.
 - b2-arts-and-literature-ex012 | translate | Traduisez : The exhibition shows the painter's masterpieces. | — | ["L'exposition montre les chefs-d'œuvre du peintre","L'exposition présente les chefs-d'œuvre du peintre","L'exposition montre les chefs-d'œuvre de la peintre","L'exposition présente les chefs-d'œuvre de la peintre"] | false | Chefs-d'œuvre: the s goes on chef.
-- b2-arts-and-literature-ex013 | translate | Traduisez : I'm reading a collection of short stories. | — | ["Je lis un recueil de nouvelles"] | false | Un recueil de nouvelles: une nouvelle is a short story.
+- b2-arts-and-literature-ex013 | translate | Traduisez : I'm reading a collection of short stories. | — | ["Je lis un recueil de nouvelles","Je suis en train de lire un recueil de nouvelles"] | false | Un recueil de nouvelles: une nouvelle is a short story.
 - b2-arts-and-literature-ex014 | translate | Rédigez en complétant comme indiqué : Mon œuvre préférée est (a painting: un tableau) impressionniste. Le peintre (painted: peindre, passé composé) la mer. C'est (a masterpiece). | — | ["Mon œuvre préférée est un tableau impressionniste. Le peintre a peint la mer. C'est un chef-d'œuvre."] | true | Peindre gives a peint in the passé composé.
 - b2-arts-and-literature-ex015 | reorder | Remettez dans l'ordre : The staging of this play is very modern. | — | ["La mise en scène de cette pièce est très moderne"] | false | La mise en scène de + the play.
 
@@ -8401,8 +8401,8 @@ fr | pron | en | note
 - l'armée | lar-MAY | the army | —
 - occuper | oh-kew-PAY | to occupy | —
 - libérer | lee-bay-RAY | to liberate, to free | —
-- un pays voisin | uhn peh-ee vwah-ZAN | a neighbouring country | —
 - se rapprocher | suh rah-proh-SHAY | to come closer together | —
+- un pays voisin | uhn peh-ee vwah-ZAN | a neighbouring country | —
 
 ### Exercises
 
@@ -8457,13 +8457,13 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-adjective-position-meaning-ex004 | multiple-choice | Indiquez le sens de « une simple question ». | ["just a question","a rude question","a long question"] | ["just a question"] | false | Before the noun, simple means only, just. After it, it means easy: une question simple.
 - b2-adjective-position-meaning-ex005 | fill-in | Complétez avec la bonne forme de « cher » : Ma ___ amie, merci pour ta lettre. | — | ["chère"] | false | Before the noun, cher means dear, and it agrees: ma chère amie.
 - b2-adjective-position-meaning-ex006 | fill-in | Complétez avec la bonne forme de « dernier » : Les vacances finissent bientôt : c'est la ___ semaine. | — | ["dernière"] | false | Before the noun, dernier is the last one in a series: la dernière semaine des vacances.
-- b2-adjective-position-meaning-ex007 | fill-in | Complétez avec « même » à la bonne place : Elle a répondu le jour ___. | — | ["même"] | false | After the noun, même means very: le jour même, that very day.
-- b2-adjective-position-meaning-ex008 | connector-choice | Choisissez la bonne réponse : Il n'y a qu'un enfant dans cette famille : c'est ___. | ["un seul enfant","un enfant seul"] | ["un seul enfant"] | false | Before the noun, seul means only one. Un enfant seul is a child on his own.
+- b2-adjective-position-meaning-ex007 | fill-in | Complétez avec « même » : Elle a répondu le jour ___. | — | ["même"] | false | After the noun, même means very: le jour même, that very day.
+- b2-adjective-position-meaning-ex008 | connector-choice | Choisissez la bonne réponse : Cette famille n'a qu'un enfant : elle a ___. | ["un seul enfant","un enfant seul"] | ["un seul enfant"] | false | Before the noun, seul means only one. Un enfant seul is a child on his own.
 - b2-adjective-position-meaning-ex009 | reformulation | Reformulez avec « ancien » : C'est mon ami d'avant. | — | ["C'est mon ancien ami"] | false | Before the noun, ancien means former.
 - b2-adjective-position-meaning-ex010 | reformulation | Reformulez avec l'adjectif après le nom : Ce restaurant, c'est cher. | — | ["C'est un restaurant cher"] | false | After the noun, cher means expensive.
 - b2-adjective-position-meaning-ex011 | error-correction | Corrigez l'erreur (my own car) : J'ai enfin ma voiture propre. | — | ["J'ai enfin ma propre voiture"] | false | Ma propre voiture is my own car; ma voiture propre is my clean car.
 - b2-adjective-position-meaning-ex012 | translate | Traduisez (a man) : my former teacher | — | ["mon ancien professeur","mon ancien enseignant"] | false | Before the noun, ancien means former.
-- b2-adjective-position-meaning-ex013 | translate | Traduisez : She's the only woman who came. | — | ["C'est la seule femme qui est venue","C'est la seule femme qui soit venue"] | false | Before the noun, seule means only. After la seule, the subjunctive (soit venue) is the careful form.
+- b2-adjective-position-meaning-ex013 | translate | Traduisez : She's the only woman who came. | — | ["C'est la seule femme qui est venue","C'est la seule femme qui soit venue","Elle est la seule femme qui est venue","Elle est la seule femme qui soit venue"] | false | Before the noun, seule means only. After la seule, the subjunctive (soit venue) is the careful form.
 - b2-adjective-position-meaning-ex014 | translate | Rédigez en complétant comme indiqué : Paul est (a decent man: brave). Mais son voisin est (a nasty guy: sale, familier). Hier, ils ont eu (a real problem). | — | ["Paul est un brave homme. Mais son voisin est un sale type. Hier, ils ont eu un vrai problème."] | false | Brave, sale and vrai change meaning before the noun: decent, nasty, real.
 - b2-adjective-position-meaning-ex015 | reorder | Remettez dans l'ordre : She lives in an old building. | — | ["Elle habite dans un bâtiment ancien"] | false | After the noun, ancien means old.
 
@@ -8502,7 +8502,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-tout-ex006 | multiple-choice | Choisissez la bonne forme : Elle est ___ contente. | ["toute","tout","tous"] | ["toute"] | false | The adverb tout agrees before a feminine adjective starting with a consonant: toute contente.
 - b2-tout-ex007 | connector-choice | Choisissez le connecteur : Je ne sais pas s'il viendra. ___, nous commencerons à huit heures. | ["En tout cas","Tout à coup","Tout seul"] | ["En tout cas"] | false | En tout cas: whatever happens, in any case.
 - b2-tout-ex008 | reformulation | Reformulez avec « tous les » : Chaque élève a un livre. | — | ["Tous les élèves ont un livre"] | false | Chaque + singular becomes tous les + plural, with a plural verb.
-- b2-tout-ex009 | reformulation | Reformulez avec « tous » après l'auxiliaire : Tous les invités sont venus. | — | ["Les invités sont tous venus"] | false | The pronoun tous goes between the auxiliary and the participle, with its s pronounced.
+- b2-tout-ex009 | reformulation | Reformulez avec « tous » après l'auxiliaire : Tous les invités sont venus. | — | ["Les invités sont tous venus","Ils sont tous venus"] | false | The pronoun tous goes between the auxiliary and the participle, with its s pronounced.
 - b2-tout-ex010 | error-correction | Corrigez l'erreur : Paul et Marie sont toutes les deux en vacances. | — | ["Paul et Marie sont tous les deux en vacances"] | false | With a man and a woman, the masculine is used: tous les deux.
 - b2-tout-ex011 | fill-in | Complétez avec « quiconque » ou « quelconque » : ___ arrive en retard doit attendre la pause. | — | ["quiconque"] | false | Quiconque: anyone who, with a singular verb (arrive, doit).
 - b2-tout-ex012 | translate | Traduisez au passé composé : They all came. | — | ["Ils sont tous venus","Elles sont toutes venues","Tous sont venus","Toutes sont venues"] | false | The pronoun tous or toutes goes between the auxiliary and the participle.
@@ -8538,8 +8538,8 @@ fr | pron | en | note
 - une fenêtre | ewn fuh-NEH-truh | a window | —
 - assis / assise | ah-SEE / ah-SEEZ | sitting, seated | —
 - le silence | luh see-LAHNSS | silence | —
-- vide | VEED | empty | —
 - une attente | ew-nah-TAHNT | a wait, waiting | —
+- vide | VEED | empty | —
 
 ### Exercises
 
@@ -8550,13 +8550,13 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-describing-a-work-of-art-ex003 | fill-in | Complétez avec « frappant » : Le regard de cette femme est très ___. | — | ["frappant"] | false | Le regard is masculine: frappant.
 - b2-describing-a-work-of-art-ex004 | fill-in | Complétez : Le peintre peint par petites ___ de couleur. | — | ["touches"] | false | Une touche: a small brushstroke of colour.
 - b2-describing-a-work-of-art-ex005 | connector-choice | Choisissez l'expression qui décrit : Au premier plan, ___ une femme qui lit. | ["on voit","cela symbolise","je trouve"] | ["on voit"] | false | On voit describes; cela symbolise interprets; je trouve judges.
-- b2-describing-a-work-of-art-ex006 | register-shift | Mettez au registre soutenu, avec « saisissant » : C'est trop beau, ce tableau ! | — | ["Ce tableau est saisissant","Ce tableau est vraiment saisissant"] | false | Trop beau is spoken; a critic says saisissant.
+- b2-describing-a-work-of-art-ex006 | register-shift | Mettez au registre soutenu, avec « saisissant » : C'est trop beau, ce tableau ! | — | ["Ce tableau est saisissant","Ce tableau est vraiment saisissant","C'est un tableau saisissant"] | false | Trop beau is spoken; a critic says saisissant.
 - b2-describing-a-work-of-art-ex007 | reformulation | Reformulez avec « évoquer » : Ce rouge, ça me fait penser à la colère. | — | ["Ce rouge évoque la colère"] | false | Évoquer turns a personal reaction into an interpretation.
 - b2-describing-a-work-of-art-ex008 | reformulation | Reformulez avec « certes… mais » : Ce tableau est beau. Il est un peu sobre. | — | ["Certes, ce tableau est beau, mais il est un peu sobre","Ce tableau est certes beau, mais il est un peu sobre"] | false | Certes… mais concedes a point before the reservation.
 - b2-describing-a-work-of-art-ex009 | error-correction | Corrigez l'erreur : Il en dégage une impression de calme. | — | ["Il s'en dégage une impression de calme"] | false | The phrase is pronominal: il s'en dégage.
 - b2-describing-a-work-of-art-ex010 | multiple-choice | Indiquez le sens de « une curieuse lumière ». | ["an odd light","an inquisitive light","a bright light"] | ["an odd light"] | false | Before the noun, curieux means odd.
 - b2-describing-a-work-of-art-ex011 | fill-in | Complétez : Il s'en ___ une impression de liberté. | — | ["dégage"] | false | Il s'en dégage: there emerges from it.
-- b2-describing-a-work-of-art-ex012 | translate | Traduisez : In the foreground, a woman is reading. | — | ["Au premier plan, une femme lit","Au premier plan, il y a une femme qui lit","Une femme lit au premier plan"] | true | Au premier plan: in the foreground. The present lit covers is reading.
+- b2-describing-a-work-of-art-ex012 | translate | Traduisez : In the foreground, a woman is reading. | — | ["Au premier plan, une femme lit","Au premier plan, il y a une femme qui lit","Une femme lit au premier plan","Au premier plan, une femme est en train de lire"] | true | Au premier plan: in the foreground. The present lit covers is reading.
 - b2-describing-a-work-of-art-ex013 | translate | Rédigez en complétant comme indiqué : (In the centre), il y a une maison. (In the background), on voit la mer. Les couleurs sont (bright). | — | ["Au centre, il y a une maison. À l'arrière-plan, on voit la mer. Les couleurs sont vives."] | true | Au centre, à l'arrière-plan, and vives agreeing with couleurs.
 - b2-describing-a-work-of-art-ex014 | translate | Rédigez en complétant comme indiqué : Ce tableau (evokes) l'été. (What I like), c'est la lumière. (All things considered), c'est une œuvre (striking). | — | ["Ce tableau évoque l'été. Ce que j'aime, c'est la lumière. Tout compte fait, c'est une œuvre frappante.","Ce tableau évoque l'été. Ce qui me plaît, c'est la lumière. Tout compte fait, c'est une œuvre frappante."] | true | Interpretation with évoquer, mise en relief, then a judgement: frappante agrees with œuvre.
 - b2-describing-a-work-of-art-ex015 | reorder | Remettez dans l'ordre : The colours give an impression of calm. | — | ["Les couleurs donnent une impression de calme"] | false | Une impression de + noun.
@@ -8573,7 +8573,6 @@ fr | pron | en | note
 - une langue seconde | ewn lahng suh-GOHND | a second language | —
 - bilingue | bee-LANG | bilingual | —
 - le plurilinguisme | luh plew-ree-lan-GWEESM | multilingualism | —
-- le wolof | luh woh-LOF | Wolof, a national language of Senegal | —
 - le contact des langues | luh kohn-takt day LAHNG | language contact | —
 - un emprunt | uh-nahn-PRUHN | a loanword | Emprunter: to borrow.
 - un mélange | uhn may-LAHNZH | a mix | —
@@ -8582,7 +8581,6 @@ fr | pron | en | note
 - le camfranglais | luh kahm-frahn-GLEH | camfranglais, a mix of French, English and local languages (Cameroon) | —
 - une essencerie | ew-neh-sahn-SREE | a petrol station (Senegal) | —
 - s'enjailler | sahn-zhah-YAY | to have fun (Côte d'Ivoire, informal) | —
-- s'amuser | sah-mew-ZAY | to have fun (standard French) | —
 - un taxi-brousse | uhn tahk-see-BROOSS | a bush taxi, a shared taxi between towns | —
 - la négritude | lah nay-gree-TEWD | négritude, a literary movement of black French-speaking writers | —
 - un griot / une griotte | uhn gree-YOH / ewn gree-YOT | a griot, a West African storyteller and musician | —
@@ -8590,6 +8588,8 @@ fr | pron | en | note
 - antillais / antillaise | ahn-tee-YEH / ahn-tee-YEZ | from the French Caribbean | —
 - une voix | ewn VWAH | a voice | —
 - s'enrichir | sahn-ree-SHEER | to become richer | —
+- s'amuser | sah-mew-ZAY | to have fun (standard French) | —
+- le wolof | luh woh-LOF | Wolof, a national language of Senegal | —
 
 ### Exercises
 
@@ -8636,7 +8636,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-review-arts-ex008 | reformulation | Reformulez au passé composé : Le tableau fut montré au public en 1947. | — | ["Le tableau a été montré au public en 1947"] | true | Fut montré becomes a été montré.
 - b2-review-arts-ex009 | reformulation | Reformulez avec « évoquer » : Ce tableau me fait penser à la Libération. | — | ["Ce tableau évoque la Libération"] | false | Évoquer turns a personal reaction into an interpretation.
 - b2-review-arts-ex010 | error-correction | Corrigez l'erreur (a boy and a girl) : Les deux enfants sont toutes les deux au premier plan. | — | ["Les deux enfants sont tous les deux au premier plan"] | false | With a boy and a girl, the masculine is used: tous les deux.
-- b2-review-arts-ex011 | register-shift | Mettez au registre soutenu, avec « intemporel » : Franchement, ce tableau, il est toujours aussi bien aujourd'hui. | — | ["Ce tableau est intemporel","Ce tableau semble intemporel"] | false | A critic says intemporel instead of the spoken toujours aussi bien.
+- b2-review-arts-ex011 | register-shift | Mettez au registre soutenu, avec « intemporel » : Franchement, ce tableau, il est toujours aussi bien aujourd'hui. | — | ["Ce tableau est intemporel","Ce tableau semble intemporel","C'est un tableau intemporel"] | false | A critic says intemporel instead of the spoken toujours aussi bien.
 - b2-review-arts-ex012 | multiple-choice | Choisissez le mot : a legacy | ["un héritage","un contexte historique","une œuvre engagée"] | ["un héritage"] | false | Un héritage is what an artist or a period leaves to those who come after.
 - b2-review-arts-ex013 | translate | Traduisez au passé composé : This work left its mark on its time. | — | ["Cette œuvre a marqué son temps","Cette œuvre a marqué son époque"] | true | Marquer son temps: to leave a mark on its time.
 - b2-review-arts-ex014 | translate | Rédigez en complétant comme indiqué : (In the foreground), deux enfants jouent. (In the background), on voit (an old building). Il s'en dégage (an impression of) calme. | — | ["Au premier plan, deux enfants jouent. À l'arrière-plan, on voit un bâtiment ancien. Il s'en dégage une impression de calme."] | true | The space of the picture, ancien after the noun for old, and il s'en dégage.

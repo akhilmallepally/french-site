@@ -45,6 +45,8 @@ describe("checkAnswer", () => {
     assert.equal(status("soeur", ["sœur"]), "correct");
     assert.equal(status("sœur", ["soeur"]), "correct");
     assert.equal(status("ex aequo", ["ex æquo"]), "correct");
+    assert.equal(status("un chef-d'oeuvre", ["un chef-d'œuvre"]), "correct");
+    assert.equal(status("Ce tableau est un vrai chef-d’oeuvre", ["Ce tableau est un vrai chef-d'œuvre"]), "correct");
   });
 
   test("accent-less input is correct-accents, never an exact match", () => {

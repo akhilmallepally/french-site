@@ -1384,6 +1384,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Un vers* ... it's one line, not a whole verse"; "*une strophe*: a verse, a stanza".** Confirm.
 - **Movement dates:** "In the early 19th century, *le romantisme*..."; "In the late 19th century, *l'impressionnisme* was above all a painting movement ... painters worked outside and tried to show light and movement"; "In the 1920s, *le surréalisme* looked for the world of dreams". Confirm.
 - **"*Ce comédien joue dans une pièce de Molière*"** (warning callout). Confirm it reads naturally.
+- **Tip:** "An *-a* added straight to the verb stem (*parl-a*), or the endings *-èrent*, *-irent* and *-urent*, tell you it's the passé simple. On its own, *-a* proves nothing." Confirm.
 
 ## b2-culture-french-history
 
@@ -1394,6 +1395,8 @@ Every date, tradition and regional detail, for checking:
 - **"In 1957, six countries, including France and Germany, signed le traité de Rome, which created a common market. This community later became l'Union européenne."** Confirm.
 - **"Each year, on 11 November and 8 May, people meet there for une commémoration."** Confirm.
 - **Warning:** "say la Seconde Guerre mondiale or la Deuxième Guerre mondiale, with Guerre in capitals and mondiale in lowercase." Confirm.
+- **Not covered:** the Vichy regime and the persecution of Jews during the Occupation. A fluent reviewer decides whether one neutral sentence belongs in the Second World War section (sensitive topic).
+- **"France already had colonies before the Revolution, such as *la Nouvelle-France* in North America."** Confirm.
 
 ## b2-adjective-position-meaning
 
@@ -1409,6 +1412,7 @@ Every date, tradition and regional detail, for checking:
 - **"As a pronoun, *tous* is pronounced with an s sound at the end ... In this role [determiner], the s of tous is silent."** Confirm.
 - **"*Quiconque* means 'anyone who' or 'whoever'. It's formal, and it takes a singular verb."** Confirm.
 - **"*Quelconque* ... Said of a work or a person, it means 'ordinary, nothing special'."** Confirm.
+- **"(or an aspirate *h*, as in *toute honteuse*, very ashamed)"**. Confirm the example.
 
 ## b2-describing-a-work-of-art
 
