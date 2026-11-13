@@ -1436,3 +1436,32 @@ Every date, tradition and regional detail, for checking:
 
 - **"*Une œuvre engageante* ... means 'an appealing work'. The word for a committed work is *engagée*."** Confirm.
 - The painter Jean Varenne and the painting « Après la pluie » are invented, and labelled as invented.
+
+## b2-registers
+
+- **Every register label**, including the word table (*bagnole / voiture / automobile*, *bouquin / livre / ouvrage*, *boulot / travail / emploi*, *se dépêcher / se hâter*, *habiter / demeurer*). Confirm.
+- **"After *peut-être* and *sans doute*, the inversion is the formal choice; in speech, people say *peut-être que* with normal order."** Confirm.
+- **"After *aussi*, the inversion changes the meaning: at the start of a sentence, *aussi* means 'therefore'."** Confirm.
+- **"With *pouvoir* and *savoir*, formal French can use *ne* alone, without *pas*: *je ne saurais dire*, *je ne peux vous répondre*."** Confirm.
+- **"For 'we', familiar and standard speech use *on*; careful writing prefers *nous*."** Confirm.
+
+## b2-colloquial-french
+
+- **Every register label** (*trop* = very, *vachement*, *carrément*, *grave*, *un truc*, *un machin*). Confirm.
+- **"*Du coup* ... many people find it overused."** Confirm.
+- **"*Grave*, used as an adverb, is youth speech"; "*Vachement* ... is common among all ages."** Confirm.
+- **ex013 accepts *on est partis* and *on est parti*.** Confirm both are acceptable.
+
+## b2-culture-verlan-and-slang
+
+- **Each word's meaning, origin and current use** (*ouf*, *relou*, *chelou*, *zarbi*, *vénère*, *meuf*, *mec*, *nana*, *pote*, *fric*, *thune*, *kiffer*, *crevé*, *flipper*, *se marrer*, *c'est la galère*); some may be dated. No ethnic terms are used.
+- **"Verlan is old, but it spread widely from the 1980s and 1990s, in the suburbs of big cities and then in rap music."** Confirm.
+- **"Some, like *relou* or *meuf*, are now understood by most French people."** Confirm.
+- **"*Lourd* gives *relou*: the final sound comes first."** Confirm the explanation.
+
+## b2-false-friends
+
+- **Every meaning**, especially *rude* (harsh), *supporter* ("also to support a team ... but not for supporting an idea"), *un préjudice* (formal, legal).
+- **"Many people also use *réaliser* for 'to realize', but careful speakers prefer *se rendre compte que*."** Confirm.
+- **"*Excité* ... can have a sexual sense."** Confirm.
+- **"*Assister quelqu'un* means 'to help someone'."** Confirm.

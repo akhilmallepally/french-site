@@ -307,3 +307,20 @@
 - The scan fixed: tense mixing in two model texts (review-arts is now all historical present, with the Note removed; in africa the literature paragraph is all passé simple, *lancèrent* and *fut*); out-of-order ids in describing-a-work-of-art and africa; the untaught *on peut y voir* and *fait la force de*; the aspirate *h* in tout's rule; an overclaiming tip in africa; 4 missing answers (*C'est un tableau saisissant*, *en train de lire*, *Ils sont tous venus*, *C'est un tableau intemporel*). The audit matcher now knows *prit* and *fit*.
 - CLAUDE.md "Self-audit" gained the rule-of-thumb rule and the one-tense-per-paragraph rule.
 - Checks: check:words 110 (baseline), check:structures 0, audit B2 rows only the accepted purpose-expressions ex014, validate OK, test:content and test:checker passed (29/29), build OK. A1 to B1 and Units 1 to 6 unchanged.
+
+## Unit 8
+
+- Done: registers (53), colloquial-french (54), culture-verlan-and-slang (55), false-friends (56). Not done: debating (57), persuasion-and-hedging (58) and review-final (59). I stopped near the context limit after a finished lesson; continue with claude --continue.
+- Teaching words (whole lesson): 53: 890 (1,459); 54: 804 (1,221); 55: 828 (1,401); 56: 974 (1,382). Longer texts in 53 and 55 are within 150 to 250 French words (per the audit).
+- Vocab deviations:
+  - 53 has no glossary (all words known).
+  - 55 adds *lourd*, *louche* and *vieillir* as regular entries, plus a 4-word glossary.
+  - 56 drops *sympathique* and *une lecture* (repeats of A1 *sympa* and *la lecture*; both are in the recap table) and adds *raisonnable*, *avoir hâte de*, *dur* and *impoli*.
+  - Recap claims cut: *en fait* (b1-cover-letter) and *je pense pas* (b1-expressing-doubt-certainty) aren't taught there. The recap table links *librairie* to a1-places-in-town and *reporter* is left out.
+- Exercise deviations:
+  - 55 ex010 is a typed reformulation (*Ce film est ouf !*), so the lesson has its required reformulation.
+  - 56 ex010 corrects *assister la réunion*, because *assister le directeur* is correct French; ex012 accepts only *rendu* (it never agrees in *se rendre compte*).
+- Register: spoken features appear in typed answers only where the instruction asks for the familiar register (53 ex008 and ex013; 54 ex009, ex010 and ex012 to ex015; 55 ex010).
+- Lists and scripts: COGNATES gained *populaire(s)*, *rap*, *énorme(s)*, *maths*, *exercice(s)* and *négation*; B2_ENGLISH gained 14 option words. NEW_MEANINGS already had *quoi* and *trop*.
+- Checks: check:words 110 (baseline), check:structures 0, audit B2 rows only the accepted purpose-expressions ex014, validate OK, test:content and test:checker passed (29/29), build OK. A1 to B1 and Units 1 to 7 are unchanged.
+- review-needed.md: 4 new sections (register labels, inversion after *peut-être* and *aussi*, *ne* alone, *du coup* and *grave*, the verlan origins and the dating of each word, every false friend, *réaliser*, *excité*).

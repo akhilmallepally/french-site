@@ -1,6 +1,6 @@
 # All lesson data
 
-216 written lessons, in course order.
+220 written lessons, in course order.
 
 ## a1-greetings
 
@@ -8642,3 +8642,197 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-review-arts-ex014 | translate | Rédigez en complétant comme indiqué : (In the foreground), deux enfants jouent. (In the background), on voit (an old building). Il s'en dégage (an impression of) calme. | — | ["Au premier plan, deux enfants jouent. À l'arrière-plan, on voit un bâtiment ancien. Il s'en dégage une impression de calme."] | true | The space of the picture, ancien after the noun for old, and il s'en dégage.
 - b2-review-arts-ex015 | translate | Rédigez en complétant comme indiqué : Ce tableau a été peint (shortly after: peu après) la Seconde Guerre mondiale. (The historical context) est important. C'est (a committed work). | — | ["Ce tableau a été peint peu après la Seconde Guerre mondiale. Le contexte historique est important. C'est une œuvre engagée."] | true | The date, the context, then the kind of work.
 - b2-review-arts-ex016 | reorder | Remettez dans l'ordre : This painting is a real masterpiece. | — | ["Ce tableau est un vrai chef-d'œuvre"] | false | Before the noun, vrai means real.
+
+## b2-registers
+
+### Vocab
+
+fr | pron | en | note
+
+- le registre familier | luh ruh-zhees-truh fah-mee-LYAY | the familiar register | —
+- le registre courant | luh ruh-zhees-truh koo-RAHN | the standard register | —
+- le registre soutenu | luh ruh-zhees-truh soot-NEW | the formal register | —
+- un niveau de langue | uhn nee-voh duh LAHNG | a level of language, a register | —
+- un interlocuteur / une interlocutrice | uh-nan-tehr-loh-kew-TUHR / ew-nan-tehr-loh-kew-TREESS | the person you're speaking to | —
+- adapter son discours | ah-dap-tay sohn dees-KOOR | to adapt the way you speak | —
+- une bagnole | ewn bah-NYOL | a car (familiar) | —
+- une automobile | ew-noh-toh-moh-BEEL | a car (formal) | —
+- un bouquin | uhn boo-KAN | a book (familiar) | —
+- un ouvrage | uh-noo-VRAHZH | a book, a work (formal) | —
+- le boulot | luh boo-LOH | work, a job (familiar) | —
+- un emploi | uh-nahn-PLWAH | a job, employment (standard to formal) | —
+- bosser | boh-SAY | to work (familiar) | —
+- bouffer | boo-FAY | to eat (familiar) | —
+- se hâter | suh ah-TAY | to hurry (formal) | —
+- demeurer | duh-muh-RAY | to live, to remain (formal) | —
+- ne… guère | nuh … GEHR | hardly, barely (formal) | —
+- je ne saurais dire | zhuh nuh soh-reh DEER | I couldn't say (formal) | —
+- peut-être est-il… | puh-teh-truh eh-TEEL | perhaps he is… (formal inversion) | —
+- aussi + inversion | oh-SEE | therefore, so (formal, at the start of a sentence) | Aussi avons-nous décidé… In the middle of a sentence, aussi still means also.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-registers-ex001 | multiple-choice | Indiquez le registre : J'ai pas le temps, je bosse. | ["familier","courant","soutenu"] | ["familier"] | false | The dropped ne and bosser are familiar.
+- b2-registers-ex002 | multiple-choice | Indiquez le registre : Je ne saurais dire quand il arrivera. | ["soutenu","courant","familier"] | ["soutenu"] | false | Je ne saurais dire, with ne alone, is formal.
+- b2-registers-ex003 | fill-in | Complétez avec le mot du registre soutenu : une bagnole, une voiture, une ___. | — | ["automobile"] | false | Familiar bagnole, standard voiture, formal automobile.
+- b2-registers-ex004 | fill-in | Complétez la question avec l'inversion : Paul vient ce soir ? → Paul vient-___ ce soir ? | — | ["il"] | false | With a noun subject, the formal question repeats it as a pronoun: Paul vient-il ?
+- b2-registers-ex005 | connector-choice | Choisissez le connecteur : Le train était en retard. ___ sommes-nous arrivés après le début de la réunion. | ["Aussi","Peut-être","Pourtant"] | ["Aussi"] | false | At the start of a sentence, with inversion, aussi means therefore.
+- b2-registers-ex006 | register-shift | Mettez au registre courant : J'ai pas trouvé mon bouquin. | — | ["Je n'ai pas trouvé mon livre"] | false | Standard French keeps ne and says livre.
+- b2-registers-ex007 | register-shift | Mettez au registre soutenu, avec « demeurer » : Il habite à Lyon depuis dix ans. | — | ["Il demeure à Lyon depuis dix ans"] | true | Demeurer is the formal word for habiter.
+- b2-registers-ex008 | register-shift | Mettez au registre familier, avec « bosser » et sans « ne » : Je ne travaille pas demain. | — | ["Je bosse pas demain"] | false | The familiar register drops ne and uses bosser. Keep this for friends.
+- b2-registers-ex009 | reformulation | Reformulez avec l'inversion : Est-ce que Paul vient ? | — | ["Paul vient-il ?"] | false | Complex inversion: the noun first, then the verb and a pronoun.
+- b2-registers-ex010 | reformulation | Reformulez avec « peut-être » au début de la phrase et l'inversion : Il est peut-être malade. | — | ["Peut-être est-il malade"] | false | In formal writing, peut-être at the start is followed by inversion.
+- b2-registers-ex011 | error-correction | Corrigez les deux erreurs de registre (a formal letter) : Madame, je vous présente mes excuses, mais j'ai pas reçu votre bouquin. | — | ["Madame, je vous présente mes excuses, mais je n'ai pas reçu votre ouvrage","Madame, je vous présente mes excuses, mais je n'ai pas reçu votre livre"] | false | A letter keeps ne, and bouquin is familiar: ouvrage (formal) or livre (standard).
+- b2-registers-ex012 | multiple-choice | Indiquez le sens de : Il ne parle guère. | ["He hardly speaks.","He never speaks.","He speaks a lot."] | ["He hardly speaks."] | false | Ne… guère means hardly; it's formal.
+- b2-registers-ex013 | translate | Rédigez ce message au registre familier en complétant comme indiqué : Je (am working: bosser) demain, alors je (can't: pouvoir, sans « ne ») venir. | — | ["Je bosse demain, alors je peux pas venir."] | false | A message to a friend: bosser, and no ne.
+- b2-registers-ex014 | translate | Rédigez cette réponse au registre soutenu en complétant comme indiqué : Madame, je (can't say: savoir, conditionnel) quand l'ouvrage arrivera. (Therefore: aussi + inversion) je (have: avoir) décidé de vous écrire. | — | ["Madame, je ne saurais dire quand l'ouvrage arrivera. Aussi ai-je décidé de vous écrire."] | false | Je ne saurais dire, then aussi with inversion: ai-je.
+- b2-registers-ex015 | reorder | Remettez dans l'ordre : Perhaps he is ill. | — | ["Peut-être est-il malade"] | false | Formal inversion after peut-être.
+
+## b2-colloquial-french
+
+### Vocab
+
+fr | pron | en | note
+
+- t'es | TEH | you're (spoken tu es) | —
+- y a | YAH | there's (spoken il y a) | —
+- chais pas | sheh PAH | dunno (spoken je ne sais pas) | —
+- t'inquiète | tan-KYET | don't worry (spoken ne t'inquiète pas) | —
+- ouais | WEH | yeah | —
+- nan | NAHN | nah, no | —
+- mouais | MWEH | meh, yes but not convinced | —
+- bah / ben | BAH / BAN | well | —
+- euh | UH | er, um | —
+- genre | ZHAHN-ruh | like, sort of (spoken filler) | —
+- quoi | KWAH | you know, right (at the end of a sentence) | New meaning: also the question word what.
+- du coup | dew KOO | so, as a result (spoken) | —
+- en gros | ahn GROH | basically, roughly | —
+- grosso modo | groh-soh moh-DOH | roughly, more or less | —
+- trop | TROH | so, really (familiar) | New meaning: also too, too much.
+- vachement | vash-MAHN | really, very (familiar) | —
+- carrément | kah-ray-MAHN | totally, absolutely (familiar) | —
+- grave | GRAHV | seriously, really (familiar, young people) | —
+- un truc | uhn TREWK | a thing (familiar) | —
+- un machin | uhn mah-SHAN | a whatsit, a thingy (familiar) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-colloquial-french-ex001 | multiple-choice | Indiquez le sens de « du coup » : Il pleuvait, du coup on est restés à la maison. | ["so, as a result","suddenly","however"] | ["so, as a result"] | false | Du coup introduces a consequence in spoken French.
+- b2-colloquial-french-ex002 | multiple-choice | Indiquez le sens de « genre » : C'était genre bizarre. | ["sort of","never","because"] | ["sort of"] | false | Genre is a spoken filler, like the English like or sort of.
+- b2-colloquial-french-ex003 | multiple-choice | Indiquez le sens de « mouais ». | ["meh, not really convinced","yes, absolutely","no way"] | ["meh, not really convinced"] | false | Mouais is a reluctant yes.
+- b2-colloquial-french-ex004 | multiple-choice | Indiquez le sens de « grave » : Il est grave sympa. | ["really","seriously ill","not at all"] | ["really"] | false | Used as an adverb by young people, grave means really.
+- b2-colloquial-french-ex005 | fill-in | Complétez avec la forme réduite de « il y a » : ___ trop de bruit ici ! | — | ["Y a"] | true | In speech, il y a often becomes y a.
+- b2-colloquial-french-ex006 | fill-in | Complétez : Le bus n'est pas venu, du ___ je suis venu à pied. | — | ["coup"] | false | Du coup: so, as a result.
+- b2-colloquial-french-ex007 | register-shift | Mettez au registre courant : Chais pas, c'est un truc bizarre. | — | ["Je ne sais pas, c'est une chose bizarre","Je ne sais pas, c'est quelque chose de bizarre"] | false | Standard French: je ne sais pas, and une chose or quelque chose instead of un truc.
+- b2-colloquial-french-ex008 | register-shift | Mettez au registre courant : T'es où ? Y a personne ici. | — | ["Où est-ce que tu es ? Il n'y a personne ici.","Où es-tu ? Il n'y a personne ici.","Tu es où ? Il n'y a personne ici."] | true | Tu es in full, and il n'y a with ne. The question can use est-ce que or inversion.
+- b2-colloquial-french-ex009 | register-shift | Mettez au registre familier, sans « ne » : Je ne comprends pas ce que tu dis. | — | ["Je comprends pas ce que tu dis"] | false | Spoken French drops ne. Keep this for friends.
+- b2-colloquial-french-ex010 | reformulation | Reformulez au registre familier, avec « on » : Nous allons au cinéma ce soir. | — | ["On va au cinéma ce soir"] | false | In speech, on often replaces nous, with a third-person verb: on va.
+- b2-colloquial-french-ex011 | error-correction | Corrigez l'erreur de registre en remplaçant « du coup » par « donc » (a formal email) : Madame, du coup, je vous envoie le dossier. | — | ["Madame, je vous envoie donc le dossier"] | false | Du coup is spoken; in an email, donc goes after the verb.
+- b2-colloquial-french-ex012 | translate | Traduisez au registre familier, avec « chais pas » et « genre » : Dunno, it's sort of weird. | — | ["Chais pas, c'est genre bizarre","Chais pas, c'est bizarre, genre"] | false | Chais pas for je ne sais pas, and genre as a filler.
+- b2-colloquial-french-ex013 | translate | Traduisez au registre familier, avec « du coup » et « on » : So we left early. | — | ["Du coup, on est partis tôt","On est partis tôt, du coup","Du coup, on est parti tôt","On est parti tôt, du coup"] | false | On for nous; the participle can agree with the people meant (partis) or stay unchanged.
+- b2-colloquial-french-ex014 | translate | Rédigez ce message au registre familier en complétant comme indiqué : (Don't worry: t'inquiète), (we're coming: on, venir) à huit heures. (There's: reduced) un bus à sept heures et demie. | — | ["T'inquiète, on vient à huit heures. Y a un bus à sept heures et demie."] | true | T'inquiète, on for nous, and y a for il y a.
+- b2-colloquial-french-ex015 | reorder | Remettez dans l'ordre : There's nobody, you know. | — | ["Y a personne, quoi"] | false | Y a for il y a, no ne, and quoi at the end.
+
+## b2-culture-verlan-and-slang
+
+### Vocab
+
+fr | pron | en | note
+
+- l'argot | lar-GOH | slang | —
+- une expression argotique | ew-nek-spreh-syohn ar-goh-TEEK | a slang expression | —
+- le verlan | luh vehr-LAHN | verlan, slang made by swapping syllables | —
+- inverser les syllabes | an-vehr-say lay see-LAB | to swap the syllables | —
+- ouf | OOF | crazy, amazing (from fou) | —
+- relou | ruh-LOO | annoying (from lourd) | —
+- chelou | shuh-LOO | weird, shady (from louche) | —
+- zarbi | zar-BEE | weird (from bizarre) | —
+- vénère | vay-NEHR | angry (from énervé) | —
+- une meuf | ewn MUHF | a woman, a girlfriend (from femme) | —
+- un mec | uhn MEK | a guy, a boyfriend | —
+- une nana | ewn nah-NAH | a woman, a girl | —
+- un pote | uhn POT | a mate, a friend | —
+- le fric | luh FREEK | money, cash | —
+- la thune | lah TEWN | money, cash | —
+- kiffer | kee-FAY | to love, to be really into | —
+- crevé / crevée | kruh-VAY | knackered, exhausted | —
+- flipper | flee-PAY | to freak out, to be scared | —
+- se marrer | suh mah-RAY | to have a laugh | —
+- c'est la galère | seh lah gah-LEHR | it's a hassle, it's a nightmare | —
+- à l'envers | ah lahn-VEHR | back to front, the wrong way round | —
+- une banlieue | ewn bahn-LYUH | a suburb, the outskirts of a city | —
+- longtemps | lohn-TAHN | a long time | —
+- vieillir | vyeh-YEER | to get old, to age | —
+- démodé | day-moh-DAY | old-fashioned, out of date | —
+- lourd / lourde | LOOR / LOORD | heavy; (of a person) annoying | —
+- louche | LOOSH | shady, suspicious | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-culture-verlan-and-slang-ex001 | multiple-choice | Choisissez le mot d'origine de « ouf ». | ["fou","oui","œuf"] | ["fou"] | false | Fou, said back to front, gives ouf.
+- b2-culture-verlan-and-slang-ex002 | multiple-choice | Choisissez le mot d'origine de « relou ». | ["lourd","long","rouge"] | ["lourd"] | false | Lourd (heavy, annoying) gives relou.
+- b2-culture-verlan-and-slang-ex003 | multiple-choice | Choisissez le mot d'origine de « chelou ». | ["louche","chaud","cheval"] | ["louche"] | false | Louche (shady) gives chelou.
+- b2-culture-verlan-and-slang-ex004 | multiple-choice | Choisissez le mot d'origine de « vénère ». | ["énervé","venir","vendre"] | ["énervé"] | false | Énervé (annoyed, angry) gives vénère.
+- b2-culture-verlan-and-slang-ex005 | multiple-choice | Choisissez le mot d'origine de « zarbi ». | ["bizarre","bien","zéro"] | ["bizarre"] | false | Bi-zarre becomes zar-bi.
+- b2-culture-verlan-and-slang-ex006 | fill-in | Complétez avec le mot courant : Je suis crevé, c'est-à-dire très ___. | — | ["fatigué"] | false | Crevé is slang for très fatigué.
+- b2-culture-verlan-and-slang-ex007 | fill-in | Complétez avec le mot courant : Il n'a plus de fric, c'est-à-dire plus d'___. | — | ["argent"] | false | Le fric and la thune are slang for l'argent.
+- b2-culture-verlan-and-slang-ex008 | fill-in | Complétez avec le mot courant : C'est mon pote, c'est-à-dire mon ___. | — | ["ami"] | false | Un pote is a familiar word for un ami.
+- b2-culture-verlan-and-slang-ex009 | register-shift | Mettez au registre courant, avec « c'est difficile » : J'ai pas de thune, c'est la galère. | — | ["Je n'ai pas d'argent, c'est difficile"] | false | Standard French keeps ne, says argent, and replaces c'est la galère.
+- b2-culture-verlan-and-slang-ex010 | reformulation | Reformulez en verlan, avec le mot qui vient de « fou » : Ce film est fou ! | — | ["Ce film est ouf !"] | false | Fou, back to front, gives ouf. Keep it for friends.
+- b2-culture-verlan-and-slang-ex011 | error-correction | Corrigez l'erreur de registre (a job interview) : Je kiffe vraiment ce boulot. | — | ["J'aime vraiment ce travail","J'aime vraiment ce poste","J'aime vraiment cet emploi"] | false | In an interview, use aimer and travail, poste or emploi.
+- b2-culture-verlan-and-slang-ex012 | translate | Traduisez avec « crevé » : I'm knackered, I'm going to bed. | — | ["Je suis crevé, je vais me coucher","Je suis crevée, je vais me coucher"] | false | Crevé agrees with the speaker: crevée for a woman.
+- b2-culture-verlan-and-slang-ex013 | translate | Rédigez en complétant comme indiqué : Le verlan (swaps the syllables: inverser, présent) des mots. Par exemple, « fou » (becomes: devenir) « ouf ». Ce mot est (a slang expression) très courante. | — | ["Le verlan inverse les syllabes des mots. Par exemple, « fou » devient « ouf ». Ce mot est une expression argotique très courante."] | false | Inverser les syllabes, devenir, and une expression argotique.
+- b2-culture-verlan-and-slang-ex014 | reorder | Remettez dans l'ordre : My mate loves this film. | — | ["Mon pote kiffe ce film"] | false | Kiffer is slang for adorer.
+
+## b2-false-friends
+
+### Vocab
+
+fr | pron | en | note
+
+- sensible | sahn-SEE-bluh | sensitive | Not sensible, which is raisonnable.
+- raisonnable | reh-zoh-NAH-bluh | sensible, reasonable | —
+- excité / excitée | ek-see-TAY | overexcited, worked up | Can have a sexual sense. For looking forward to, say avoir hâte de.
+- avoir hâte de | ah-vwahr AHT duh | to look forward to, can't wait to | —
+- rude | REWD | harsh, tough | Not rude, which is impoli.
+- une déception | ewn day-sep-SYOHN | a disappointment | Not a deception, which is une tromperie.
+- assister à | ah-sees-TAY ah | to attend (an event) | Assister quelqu'un: to assist someone.
+- supporter | sew-por-TAY | to put up with, to bear | Also to support a team.
+- réaliser | ray-ah-lee-ZAY | to carry out, to make (a project, a film) | Informally also to realize; careful speakers prefer se rendre compte.
+- blesser | bleh-SAY | to injure, to hurt | Not to bless, which is bénir.
+- une location | ewn loh-kah-SYOHN | a rental, renting | —
+- un car | uhn KAR | a coach (bus between towns) | —
+- une cave | ewn KAHV | a cellar | —
+- large | LARZH | wide | Large is grand.
+- un avertissement | uh-nah-vehr-tees-MAHN | a warning | Not an advertisement, which is une publicité.
+- un préjudice | uhn pray-zhew-DEESS | harm, damage (formal, legal) | Not prejudice, which is un préjugé.
+- éventuellement | ay-vahn-tew-el-MAHN | possibly, if need be | Not eventually, which is finalement.
+- éventuel / éventuelle | ay-vahn-TWEL | possible | —
+- dur / dure | DEWR | hard, harsh | —
+- impoli / impolie | an-poh-LEE | rude, impolite | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-false-friends-ex001 | multiple-choice | Indiquez le sens de « sensible ». | ["sensitive","sensible","sensual"] | ["sensitive"] | false | Sensible means sensitive. Sensible in English is raisonnable.
+- b2-false-friends-ex002 | multiple-choice | Indiquez le sens de « éventuellement ». | ["possibly","eventually","immediately"] | ["possibly"] | false | Éventuellement means possibly, if need be. Eventually is finalement.
+- b2-false-friends-ex003 | multiple-choice | Indiquez le sens de « une location ». | ["a rental","a place","a position on a map"] | ["a rental"] | false | Une location is a rental: une voiture de location.
+- b2-false-friends-ex004 | multiple-choice | Indiquez le sens de « un car ». | ["a coach","a car","a cart"] | ["a coach"] | false | Un car is a coach between towns. A car is une voiture.
+- b2-false-friends-ex005 | multiple-choice | Indiquez le sens de « supporter » dans la phrase : Je ne supporte pas le bruit. | ["to put up with","to carry out","to attend"] | ["to put up with"] | false | Je ne supporte pas le bruit: I can't stand noise.
+- b2-false-friends-ex006 | multiple-choice | Indiquez le sens de « une déception ». | ["a disappointment","a deception","a decision"] | ["a disappointment"] | false | Une déception is a disappointment; you know déçu (disappointed).
+- b2-false-friends-ex007 | fill-in | Complétez avec « sensible » ou « raisonnable » : Elle est très ___ : une remarque un peu dure la rend triste pour toute la journée. | — | ["sensible"] | false | Someone easily hurt is sensible (sensitive).
+- b2-false-friends-ex008 | fill-in | Complétez avec « sensible » ou « raisonnable » : Il ne dépense jamais trop : il est très ___. | — | ["raisonnable"] | false | Sensible in the English sense is raisonnable.
+- b2-false-friends-ex009 | fill-in | Complétez avec « sensible » ou « raisonnable » : C'est une solution ___ : elle coûte peu et elle marche. | — | ["raisonnable"] | false | A sensible solution is une solution raisonnable.
+- b2-false-friends-ex010 | error-correction | Corrigez l'erreur (I attended) : J'ai assisté la réunion de lundi. | — | ["J'ai assisté à la réunion de lundi"] | true | To attend an event is assister à. Assister quelqu'un means to help them.
+- b2-false-friends-ex011 | error-correction | Corrigez l'erreur, avec « avoir hâte de » : Je suis excité de partir en voyage. | — | ["J'ai hâte de partir en voyage"] | false | Excité means overexcited, and can have a sexual sense. For looking forward to, say avoir hâte de.
+- b2-false-friends-ex012 | reformulation | Reformulez avec « se rendre compte que » : J'ai réalisé que j'avais oublié mes clés. | — | ["Je me suis rendu compte que j'avais oublié mes clés"] | false | Réaliser for to realize is common but criticized; se rendre compte is the careful form. Rendu never agrees here, because compte is its direct object.
+- b2-false-friends-ex013 | translate | Traduisez au passé composé : I attended the meeting. | — | ["J'ai assisté à la réunion"] | true | Assister à + the event.
+- b2-false-friends-ex014 | translate | Rédigez en complétant comme indiqué : Hier, j'ai (attended) un concert. Mais c'était (a disappointment). Nous avons pris (a coach) pour rentrer. | — | ["Hier, j'ai assisté à un concert. Mais c'était une déception. Nous avons pris un car pour rentrer."] | true | Assister à, une déception and un car: three false friends used correctly.
+- b2-false-friends-ex015 | reorder | Remettez dans l'ordre : This street is very wide. | — | ["Cette rue est très large"] | false | Large means wide.
