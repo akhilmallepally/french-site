@@ -132,7 +132,7 @@ B2 inherits every B1 rule unless it's overridden here. They apply to B2 lessons 
 - **Self-audit.**
   - An example or table that contrasts two moods or tenses must use verbs whose forms differ in the two (not *qui explique*, which is the same in both moods).
   - Check every dialogue line and example against each rule the lesson states (mood, repeated preposition, agreement, same subject). A line may not break the lesson's own rule.
-  - Every vocab entry is used in the teaching text, the dialogue or an exercise.
+  - Every vocab entry is used in a complete French sentence in the text (an Example, a dialogue or longer-text line, the En résumé), the dialogue or an exercise. Naming it or glossing it inside an English sentence doesn't count. audit:content checks this for B2 ("B2 vocab entry not used in a complete sentence").
   - A paragraph exercise must make sense as one coherent text.
 - **Structures.**
   - The teaching text, exercises and En résumé are strict.

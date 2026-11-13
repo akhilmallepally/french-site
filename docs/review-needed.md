@@ -1095,6 +1095,7 @@ Every date, tradition and regional detail, for checking:
 - **"These are sensitive subjects in France, as everywhere, so it's worth using neutral words and avoiding generalizations."** Sensitive topic (immigration), with *Un immigré is someone who has moved to France from another country* and *Apprendre la langue aide beaucoup à s'intégrer*. Confirm they're neutral.
 - **"*Un sans-abri* (a homeless person) is the neutral, respectful word; in everyday speech you'll also hear *un SDF*, short for *sans domicile fixe*."** Confirm the register of each.
 - **"The word *association* covers charities, but also sports clubs and neighbourhood groups."** Confirm.
+- **"Cette association aide les immigrés à trouver un logement."** and **"Il y a eu une grande manifestation dans le centre-ville samedi."** Sensitive topic: check that both read as neutral.
 
 ## b2-subjunctive-conjunctions
 
@@ -1235,6 +1236,7 @@ Every date, tradition and regional detail, for checking:
 - **"*L'audiovisuel public* ... They're funded mainly by the State."** Confirm.
 - **"The AFP ... Its journalists, in France and abroad, send news to newspapers, radio and television."** Confirm.
 - **Sensitive topic:** the satirical press is presented only as a genre ("mocks the powerful with humour"), with no mention of attacks. Confirm this is neutral.
+- **"Ce dessin de presse est une caricature d'un ministre."** Sensitive topic: check that it reads as neutral (the lesson doesn't mention the attacks).
 
 ## b2-review-news
 
@@ -1356,6 +1358,7 @@ Every date, tradition and regional detail, for checking:
 - **"With a compound tense ... [the adverb] usually goes between the auxiliary and the participle ... this position inside the verb group is the safest one."** Confirm.
 - **"*Il a dû oublier* ... is close to the futur antérieur of supposition: *il aura oublié*."** Confirm.
 - **"On the scale in this lesson, only the certain and likely expressions keep the indicative."** Confirm (the claim is limited to this lesson's scale).
+- **"You'll also see the indicative, especially when *le fait que* comes after the verb: *on oublie souvent le fait que la recherche prend du temps*."** Confirm.
 
 ## b2-argumentative-essay
 
@@ -1365,6 +1368,7 @@ Every date, tradition and regional detail, for checking:
 - **The introduction moves** (*amorce*, *problématique*, *annonce du plan*) and the conclusion with an *ouverture*. Confirm the terms.
 - **"*Force est de constater que* + indicative"; "*il s'agit de*: its subject is only *il*."** Confirm.
 - **"*Une ouverture*" as the final wider question** is a new meaning of b2-nominalisation's *l'ouverture*. Confirm.
+- **"For a plan in three parts ... Some writers then say *dans un deuxième temps* for the second part."** (note on *dans un troisième temps*). Confirm.
 
 ## b2-review-science
 

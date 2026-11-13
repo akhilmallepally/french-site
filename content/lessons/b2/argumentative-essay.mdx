@@ -23,6 +23,7 @@ vocab:
   - { id: "b2-argumentative-essay-v011", group: "intro", fr: "annoncer le plan", pron: "ah-nohn-say luh PLAHN", en: "to announce the outline" }
   - { id: "b2-argumentative-essay-v012", group: "intro", fr: "dans un premier temps", pron: "dahn-zuhn pruh-myay TAHN", en: "first, in a first part" }
   - { id: "b2-argumentative-essay-v013", group: "intro", fr: "dans un second temps", pron: "dahn-zuhn suh-gohn TAHN", en: "second, in a second part", note: "The c of second sounds like g." }
+  - { id: "b2-argumentative-essay-v027", group: "intro", fr: "dans un troisième temps", pron: "dahn-zuhn troh-zyem TAHN", en: "third, in a third part", note: "For a plan in three parts, such as thesis, antithesis, synthesis. Some writers then say dans un deuxième temps for the second part." }
   - { id: "b2-argumentative-essay-v014", group: "phrases", fr: "force est de constater que", pron: "forss eh duh kohn-stah-TAY kuh", en: "one has to admit that", note: "+ indicative. Formal." }
   - { id: "b2-argumentative-essay-v015", group: "phrases", fr: "il s'agit de", pron: "eel sah-ZHEE duh", en: "it's a matter of, it's about", note: "Impersonal: only il. + noun or infinitive." }
   - { id: "b2-argumentative-essay-v016", group: "phrases", fr: "étayer", pron: "ay-teh-YAY", en: "to support (an argument)" }
@@ -103,9 +104,9 @@ exercises:
     explanation: "On peut se demander si + indicative introduces the problématique."
   - id: "b2-argumentative-essay-ex013"
     type: "translate"
-    prompt: "Rédigez cette introduction en complétant comme indiqué : (One may wonder whether) le télétravail (is) une bonne solution. (First), nous verrons ses avantages. (Second), nous montrerons ses limites."
-    answers: ["On peut se demander si le télétravail est une bonne solution. Dans un premier temps, nous verrons ses avantages. Dans un second temps, nous montrerons ses limites.", "On peut se demander si le télétravail est une bonne solution. D'abord, nous verrons ses avantages. Ensuite, nous montrerons ses limites.", "On peut se demander si le télétravail est une bonne solution. Dans un premier temps, nous verrons ses avantages. Ensuite, nous montrerons ses limites.", "On peut se demander si le télétravail est une bonne solution. D'abord, nous verrons ses avantages. Dans un second temps, nous montrerons ses limites."]
-    explanation: "The problématique, then the announced plan. Dans un premier temps and dans un second temps are the essay style."
+    prompt: "Rédigez cette introduction en complétant comme indiqué : (One may wonder whether) le télétravail (is) une bonne solution. (First, formal essay phrase), nous verrons ses avantages. (Second, formal essay phrase), nous montrerons ses limites."
+    answers: ["On peut se demander si le télétravail est une bonne solution. Dans un premier temps, nous verrons ses avantages. Dans un second temps, nous montrerons ses limites."]
+    explanation: "The problématique, then the announced plan with the formal essay phrases dans un premier temps and dans un second temps."
   - id: "b2-argumentative-essay-ex014"
     type: "translate"
     prompt: "Rédigez cette conclusion en complétant comme indiqué : (By way of conclusion), le télétravail (has) des avantages et des limites. (One may wonder whether) il (will change: futur simple) le monde du travail."
@@ -140,6 +141,9 @@ Each part has two or three *paragraphes*, one argument per paragraph. Between tw
 
 <Example fr="Les écrans ont donc de vrais inconvénients. Pourtant, ils ont aussi des avantages." en="So screens have real drawbacks. And yet, they also have advantages." />
 
+<Example fr="Chaque paragraphe donne un seul argument." en="Each paragraph gives a single argument." />
+<Example fr="Une bonne transition résume la partie précédente." en="A good transition sums up the previous part." />
+
 This plan works best when *le sujet* (the essay question) asks for a yes or no, such as *Faut-il interdire les écrans à l'école ?* (Should screens be banned at school?). For other subjects, a plan in two parts is also common.
 
 ## The introduction
@@ -156,7 +160,7 @@ The problématique is often an indirect question with *on peut se demander si*. 
 
 <Example fr="On peut donc se demander si l'école doit interdire les écrans ou apprendre aux élèves à s'en servir." en="One may therefore wonder whether school should ban screens or teach pupils to use them." />
 
-The plan is announced with *dans un premier temps* and *dans un second temps*, and the verbs are in the futur simple.
+The plan is announced with *dans un premier temps* and *dans un second temps*, and the verbs are in the futur simple. For a third part, such as the synthesis, add *dans un troisième temps*: *dans un troisième temps, nous proposerons une solution* (third, we'll suggest a solution).
 
 <Example fr="Dans un premier temps, nous verrons les avantages des écrans. Dans un second temps, nous montrerons leurs limites." en="First, we'll look at the advantages of screens. Second, we'll show their limits." />
 
@@ -185,7 +189,7 @@ The conclusion has two moves. First, sum up the answer to the problématique in 
 
 ## Nominal style
 
-An essay often uses nouns where speech uses verbs. Instead of *si on interdit les écrans* (if screens are banned), write *l'interdiction des écrans* (the ban on screens). Instead of *les élèves se concentrent moins*, write *la concentration des élèves baisse* (pupils' concentration falls). One or two such nouns per paragraph are enough; too many make the text heavy.
+An essay often uses nouns where speech uses verbs. As in <LessonLink id="b2-nominalisation" text="the lesson on nominalisation" />, turn the verb into a noun. Instead of *on interdit les écrans* (screens are banned), write *l'interdiction des écrans* (the ban on screens). Instead of *les élèves se concentrent moins*, write *la concentration des élèves baisse* (pupils' concentration falls). One or two such nouns per paragraph are enough; too many make the text heavy.
 
 ## En français
 
@@ -209,7 +213,7 @@ This is a short model essay on the subject Inès and Tom planned. It follows the
 
 *Faut-il interdire les écrans à l'école ?*
 
-*Les écrans sont aujourd'hui partout dans la vie des élèves. Certains parents demandent leur interdiction à l'école, d'autres les trouvent indispensables. On peut donc se demander si l'école doit interdire les écrans ou apprendre aux élèves à s'en servir. Dans un premier temps, nous verrons les arguments pour l'interdiction. Dans un second temps, nous montrerons ses limites, avant de proposer un usage encadré.*
+*Les écrans sont aujourd'hui partout dans la vie des élèves. Certains parents demandent leur interdiction à l'école, d'autres les trouvent indispensables. On peut donc se demander si l'école doit interdire les écrans ou apprendre aux élèves à s'en servir. Dans un premier temps, nous verrons les arguments pour l'interdiction. Dans un second temps, nous montrerons ses limites. Dans un troisième temps, nous proposerons un usage encadré.*
 
 *Force est de constater que les écrans gênent souvent la concentration. En effet, un élève qui lit ses messages pendant un cours écoute moins bien l'enseignant. De plus, le temps passé devant un écran réduit le temps de lecture et de sommeil.*
 
@@ -217,11 +221,11 @@ This is a short model essay on the subject Inès and Tom planned. It follows the
 
 *Il s'agit donc de trouver un équilibre : encadrer l'usage des écrans sans les interdire. Les enseignants pourraient, par exemple, autoriser les tablettes pendant certains cours et les interdire pendant les examens. Bien que cette solution soit plus difficile à mettre en œuvre, elle apprend aux élèves à bien se servir des écrans.*
 
-*En guise de conclusion, l'interdiction des écrans est une réponse simple à un vrai problème, mais elle ne suffit pas. Un usage encadré semble plus réaliste. On peut alors se demander si l'école peut, seule, apprendre aux jeunes à vivre avec le numérique.*
+*En guise de conclusion, l'interdiction des écrans est une réponse simple à un vrai problème, mais ce n'est pas la seule réponse. Un usage encadré semble plus réaliste. On peut alors se demander si l'école peut, seule, apprendre aux jeunes à vivre avec le numérique.*
 
 <VocabTable group="glossary" />
 
-(Should screens be banned at school? Screens are everywhere in pupils' lives today. Some parents call for a ban at school; others find them essential. One may therefore wonder whether school should ban screens or teach pupils to use them. First, we'll look at the arguments for a ban. Second, we'll show its limits, before suggesting regulated use. One has to admit that screens often disturb concentration. Indeed, a pupil who reads their messages during a lesson listens less well to the teacher. Moreover, time spent in front of a screen reduces time for reading and sleep. However, a total ban would also have drawbacks. Digital technology is very present in the world of work, and school must prepare pupils for that world. Furthermore, some digital tools help the weakest pupils. So it's a matter of finding a balance: regulating the use of screens without banning them. Teachers could, for example, allow tablets in some lessons and ban them during exams. Although this solution is harder to put into practice, it teaches pupils to use screens well. By way of conclusion, banning screens is a simple answer to a real problem, but it isn't enough. Regulated use seems more realistic. One may then wonder whether school can, on its own, teach young people to live with digital technology.)
+(Should screens be banned at school? Screens are everywhere in pupils' lives today. Some parents call for a ban at school; others find them essential. One may therefore wonder whether school should ban screens or teach pupils to use them. First, we'll look at the arguments for a ban. Second, we'll show its limits. Third, we'll suggest regulated use. One has to admit that screens often disturb concentration. Indeed, a pupil who reads their messages during a lesson listens less well to the teacher. Moreover, time spent in front of a screen reduces time for reading and sleep. However, a total ban would also have drawbacks. Digital technology is very present in the world of work, and school must prepare pupils for that world. Furthermore, some digital tools help the weakest pupils. So it's a matter of finding a balance: regulating the use of screens without banning them. Teachers could, for example, allow tablets in some lessons and ban them during exams. Although this solution is harder to put into practice, it teaches pupils to use screens well. By way of conclusion, banning screens is a simple answer to a real problem, but it isn't the only answer. Regulated use seems more realistic. One may then wonder whether school can, on its own, teach young people to live with digital technology.)
 
 <Callout type="warning" title="No je pense que in an essay">
   English essays often say "I think". A French dissertation avoids *je*: *je pense que les élèves lisent moins* sounds too personal. Write **force est de constater que les élèves lisent moins**, or use *nous* for the writer: **nous verrons que…**
@@ -233,4 +237,4 @@ This is a short model essay on the subject Inès and Tom planned. It follows the
 
 ## What's next
 
-Next, <LessonLink id="b2-review-science" text="the review of science, health and environment" /> asks you to write your own essay on a health topic. Later, <LessonLink id="b2-debating" text="the lesson on debating" /> turns these arguments into speech.
+Next, <LessonLink id="b2-review-science" text="the review of science, health and environment" /> asks you to write your own essay on a science or health topic. Later, <LessonLink id="b2-debating" text="the lesson on debating" /> turns these arguments into speech.

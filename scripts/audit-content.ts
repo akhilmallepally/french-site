@@ -134,7 +134,7 @@ function audit(lessons: AuditLesson[]) {
   const P: Record<string, string[]> = {
     length: [], callout: [], prereq: [], dupVocab: [], dupTip: [], dupAns: [],
     strictAccented: [], strictPlain: [], mc: [], reorder: [], many: [], coming: [], noReorder: [],
-    b2Length: [], b2Resume: [], b2Mix: [], b2VocabRepeat: [], b2Copied: [], b2PasseSimple: [], b2Spoken: [], b2Text: [],
+    b2Length: [], b2Resume: [], b2Mix: [], b2VocabRepeat: [], b2Copied: [], b2PasseSimple: [], b2Spoken: [], b2Text: [], b2Unused: [],
   };
   let lastRank = -1;
   const pendingRank: AuditLesson[] = [];
@@ -209,6 +209,59 @@ function audit(lessons: AuditLesson[]) {
       if (first && !(k in NEW_MEANINGS)) {
         P.b2VocabRepeat.push(`${l.id} (${v.id}): "${v.fr}" repeats ${first}. List it in NEW_MEANINGS (scripts/b2-lists.ts) with the reason, or drop it.`);
       }
+    }
+
+    // Vocab used in a complete sentence: an Example, a dialogue or longer-text line, the En résumé,
+    // an italic sentence in the teaching text, or an exercise sentence (fill-in gaps filled in).
+    // A term that is only named (alone in italics, or quoted in « » in a prompt) doesn't count.
+    const spans: string[] = [
+      ...[...l.body.matchAll(/<Example fr="([^"]*)"/g)].map((m) => m[1]),
+      ...sections.filter((s) => s.kind === "dialogue" || s.kind === "text").flatMap((s) => italicLines(s.body)),
+      ...sections.filter((s) => s.kind === "resume").flatMap((s) => s.body.split(/(?<=[.!?])\s+/)),
+      ...sections.filter((s) => s.kind === "teaching").flatMap((s) => [...s.body.matchAll(/\*([^*\n]+)\*/g)].map((m) => m[1])),
+      ...exs.flatMap((e) => {
+        // The instruction before the colon is its own sentence; quoted « » terms are only named.
+        const raw = (e.prompt ?? "").replace(/«[^»]*»/g, " ");
+        const cut = raw.indexOf(":");
+        const instruction = cut >= 0 ? raw.slice(0, cut) : "";
+        const prompt = cut >= 0 ? raw.slice(cut + 1) : raw;
+        const filled = prompt.includes("___") ? (e.answers ?? []).map((a) => prompt.replace(/___/g, a)) : [prompt];
+        return [instruction, ...filled, ...(e.answers ?? []), ...(e.options ?? [])];
+      }),
+    ];
+    // Words without accents, so that céder matches cède; irregular verbs also match their common forms.
+    const wordsOf = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().split(/[^a-zœæ-]+/).filter(Boolean);
+    const spanWords = spans.map(wordsOf);
+    const STOP = new Set(["le", "la", "les", "l", "un", "une", "des", "de", "d", "du", "a", "au", "aux", "que", "qu", "se", "s", "en", "y", "et", "ou", "quelqu", "quelque", "chose", "on", "son", "sa", "ses", "ne", "pas"]);
+    const IRREGULAR: Record<string, string[]> = {
+      avoir: ["a", "ai", "as", "avoi", "avons", "avez", "avai", "avi", "ont", "eu", "aur", "ait", "aient", "ay"],
+      etre: ["etre", "est", "suis", "es", "sommes", "etes", "sont", "ete", "etai", "etan", "ser", "soi", "soy", "fu"],
+      faire: ["fai", "fais", "fait", "font", "fer", "fass"],
+      aller: ["vais", "vas", "va", "vont", "all", "irai", "iras", "ira", "iron", "irez", "aill"],
+      pouvoir: ["peu", "pouv", "pourr", "puiss", "pu"],
+      mettre: ["met", "mis"], prendre: ["prend", "pren", "pris"], tenir: ["tien", "ten", "tin"],
+      venir: ["vien", "ven", "vin"], devoir: ["doi", "dev", "du"], savoir: ["sai", "sav", "sach", "su", "saur"],
+      dire: ["dis", "dit", "dir", "dise"], voir: ["voi", "voy", "vu", "verr"], atteindre: ["attei", "atteign"], elire: ["eli", "elu"],
+      admettre: ["admet", "admis"], promettre: ["promet", "promis"], permettre: ["permet", "permis"],
+    };
+    // A compound such as revenir or maintenir takes the forms of its base verb, with its prefix.
+    const stemsOf = (tk: string) => {
+      if (IRREGULAR[tk]) return IRREGULAR[tk];
+      const base = Object.keys(IRREGULAR).find((k) => k.length >= 4 && tk.length > k.length && tk.endsWith(k));
+      if (base) return IRREGULAR[base].filter((st) => st.length >= 2).map((st) => tk.slice(0, -base.length) + st);
+      return [tk.length <= 4 ? tk : tk.slice(0, Math.max(3, tk.length - 3))];
+    };
+    // Stems of one or two letters (a, es, va, vu) match whole words only.
+    const matches = (tk: string, w: string) => stemsOf(tk).some((st) => (st.length <= 2 ? w === st : w.startsWith(st)));
+    const usedIn = (fr: string) => fr.split(/\s*\/\s*/).some((form) => {
+      const clean = form.replace(/\(.*?\)/g, " ").split("+")[0].replace(/[…!?.]/g, " ");
+      const all = wordsOf(clean);
+      const toks = all.filter((w) => !STOP.has(w));
+      if (!toks.length) return true;
+      return spanWords.some((sw) => sw.length > all.length && toks.every((tk) => sw.some((w) => matches(tk, w))));
+    });
+    for (const v of l.vocab ?? []) {
+      if (!usedIn(String(v.fr))) P.b2Unused.push(`${l.id} (${v.id}): "${v.fr}" is never used in a complete sentence`);
     }
 
     for (const s of sentencesOf(l)) {
@@ -356,6 +409,7 @@ function audit(lessons: AuditLesson[]) {
     ["B2 passé simple before b2-arts-and-literature, or in an answer the learner types", P.b2PasseSimple],
     ["B2 dropped ne in an exercise answer before b2-registers", P.b2Spoken],
     ["B2 longer text outside 150 to 250 French words (communication and culture lessons)", P.b2Text],
+    ["B2 vocab entry not used in a complete sentence (text, dialogue or exercise; naming or glossing it doesn't count)", P.b2Unused],
   ];
   const out = [
     "# Audit report", "", `Audited ${lessons.length} written lessons. Generated by \`npm run audit:content\`.`, "",
