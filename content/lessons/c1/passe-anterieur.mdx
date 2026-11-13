@@ -8,7 +8,7 @@ order: 2
 type: "grammar"
 tags: ["grammar", "past tenses", "literary French"]
 prerequisites: ["c1-passe-simple"]
-related: ["b1-plus-que-parfait", "b1-time-connectors", "b2-futur-anterieur", "c1-stylistic-inversion"]
+related: ["b1-plus-que-parfait", "b1-time-connectors", "b2-futur-anterieur", "c1-future-in-the-past", "c1-stylistic-inversion"]
 vocab:
   - { id: "c1-passe-anterieur-v001", group: "forms", fr: "le passé antérieur", pron: "luh pah-SAY ahn-tay-RYUHR", en: "the passé antérieur (past anterior)" }
   - { id: "c1-passe-anterieur-v002", group: "forms", fr: "le passé surcomposé", pron: "luh pah-SAY sewr-kohn-poh-ZAY", en: "the passé surcomposé (double compound past)", note: "Il a eu fini: spoken French." }
@@ -52,16 +52,16 @@ exercises:
     explanation: "The main verb is in the passé simple (donna), and the letter was written just before: the passé antérieur."
   - id: "c1-passe-anterieur-ex006"
     type: "multiple-choice"
-    prompt: "Indiquez le temps qui convient après « quand » : le verbe principal est à l'imparfait et décrit une habitude."
+    prompt: "Indiquez le temps le plus courant après « quand » : le verbe principal est à l'imparfait et décrit une habitude."
     options: ["le plus-que-parfait", "le passé antérieur", "le passé simple"]
     answers: ["le plus-que-parfait"]
-    explanation: "A habit in the imparfait pairs with the plus-que-parfait: quand il avait fini, il partait."
+    explanation: "A habit in the imparfait usually pairs with the plus-que-parfait: quand il avait fini, il partait."
   - id: "c1-passe-anterieur-ex007"
     type: "multiple-choice"
-    prompt: "Indiquez le temps qui convient après « quand », à l'oral, pour une action finie juste avant : le verbe principal est au passé composé."
-    options: ["le passé surcomposé", "le passé antérieur", "le passé simple"]
+    prompt: "Indiquez le temps qui convient après « quand », à l'oral, pour insister sur le fait que l'action est finie : le verbe principal est au passé composé."
+    options: ["le passé surcomposé", "le passé composé", "le passé antérieur"]
     answers: ["le passé surcomposé"]
-    explanation: "In speech, the passé composé pairs with the passé surcomposé: quand il a eu fini, il est parti."
+    explanation: "The passé composé is possible in speech, but to insist that the first action was over, use the passé surcomposé: quand il a eu fini, il est parti."
   - id: "c1-passe-anterieur-ex008"
     type: "multiple-choice"
     prompt: "Indiquez le temps de « fut arrivée » dans la phrase : Dès qu'elle fut arrivée, la cloche sonna."
@@ -71,15 +71,15 @@ exercises:
   - id: "c1-passe-anterieur-ex009"
     type: "connector-choice"
     prompt: "Choisissez la bonne forme : Chaque soir, quand il ___ son travail, il rentrait à pied."
-    options: ["avait fini", "eut fini", "aura fini"]
+    options: ["avait fini", "aura fini", "finira"]
     answers: ["avait fini"]
-    explanation: "Chaque soir and rentrait describe a habit in the imparfait, so the earlier action takes the plus-que-parfait."
+    explanation: "Chaque soir and rentrait describe a habit in the imparfait. The usual partner for the earlier action is the plus-que-parfait; aura fini and finira are future forms."
   - id: "c1-passe-anterieur-ex010"
     type: "connector-choice"
     prompt: "Choisissez le connecteur : ___ eut-elle fermé la porte que la cloche sonna."
     options: ["À peine", "Dès que", "Lorsque"]
     answers: ["À peine"]
-    explanation: "Only à peine is followed by inversion and a second clause with que."
+    explanation: "Of the three, only à peine is followed by inversion and a second clause with que."
   - id: "c1-passe-anterieur-ex011"
     type: "reformulation"
     prompt: "Reformulez au passé simple et au passé antérieur, comme dans un récit : Quand il a eu fini, il est parti."
@@ -179,9 +179,9 @@ You'll also meet the passé antérieur, more rarely, in a main clause with *bien
 
 ## À peine… que
 
-You know *à peine* (barely) from <LessonLink id="b1-ne-que-ni-ni" text="the lesson on ne… que and ne… ni… ni" />. With *que*, it means "no sooner… than": the second event followed almost before the first was over. *À peine* goes with the passé antérieur, and *que* introduces the passé simple.
+You know *à peine* (barely) from <LessonLink id="b1-ne-que-ni-ni" text="the lesson on ne… que and ne… ni… ni" />. With *que*, it means "no sooner… than": the second event followed almost before the first was over. In a passé simple narrative, *à peine* goes with the passé antérieur and *que* introduces the passé simple. Outside that system, you also meet the plus-que-parfait with the passé composé or the imparfait: *à peine étions-nous arrivés qu'il a commencé à pleuvoir* (no sooner had we arrived than it started to rain).
 
-When *à peine* opens the sentence, the auxiliary and the subject pronoun are inverted, as after *peut-être* in <LessonLink id="b2-registers" text="the lesson on registers" />. With a noun subject, the noun stays in front and a pronoun follows the auxiliary. Inside the sentence, *à peine* follows the auxiliary and there's no inversion.
+When *à peine* opens a written sentence, careful writers invert the auxiliary and the subject pronoun, as after *peut-être* in <LessonLink id="b2-registers" text="the lesson on registers" />. With a noun subject, the noun stays in front and a pronoun follows the auxiliary. Inside the sentence, *à peine* follows the auxiliary and there's no inversion.
 
 <Example fr="À peine fut-il sorti qu'il se mit à pleuvoir." en="No sooner had he gone out than it started to rain." />
 <Example fr="À peine le brouillard se fut-il dissipé que les cavaliers partirent." en="No sooner had the fog cleared than the riders left." />
@@ -197,7 +197,7 @@ The tense of the main verb decides the tense of the earlier action. Look at the 
 | passé composé (speech) | passé surcomposé or passé composé | *Quand il a eu fini, il est parti.* |
 | imparfait (a habit) | plus-que-parfait | *Quand il avait fini, il partait.* |
 
-The last line describes something repeated: every evening, when he had finished, he would leave. The plus-que-parfait pairs with the imparfait, not with a single event in the passé simple.
+The last line describes something repeated: every evening, when he had finished, he would leave. For a habit in the imparfait, the usual partner is the plus-que-parfait; for a single event in the passé simple, it's the passé antérieur.
 
 <Example fr="Chaque soir, quand il avait fini son travail, il rentrait à pied." en="Every evening, when he had finished his work, he walked home." />
 
@@ -248,7 +248,7 @@ Samir asks Lucie about the story she's writing. They speak in the passé compos�
 
 ## En résumé
 
-Le passé antérieur se forme avec avoir ou être au passé simple et le participe passé : il eut fini, elle fut partie, ils se furent endormis. L'accord du participe se fait comme au passé composé. Dans un récit écrit, il marque une action finie juste avant une autre, qui est au passé simple. On le trouve surtout après quand, lorsque, dès que, aussitôt que et après que : quand il eut fini, il partit. Avec à peine… que, la seconde action suit presque tout de suite, et on fait l'inversion quand à peine est au début de la phrase : à peine fut-il sorti qu'il se mit à pleuvoir. À l'oral, on dit plutôt quand il a eu fini, il est parti : c'est le passé surcomposé. Pour une habitude à l'imparfait, il faut le plus-que-parfait : quand il avait fini, il partait.
+Le passé antérieur se forme avec avoir ou être au passé simple et le participe passé : il eut fini, elle fut partie, ils se furent endormis. L'accord du participe se fait comme au passé composé. Dans un récit écrit, il marque une action finie juste avant une autre, qui est au passé simple. On le trouve surtout après quand, lorsque, dès que, aussitôt que et après que : quand il eut fini, il partit. Avec à peine… que, la seconde action suit presque tout de suite, et on fait l'inversion quand à peine est au début de la phrase : à peine fut-il sorti qu'il se mit à pleuvoir. À l'oral, on dit plutôt quand il a eu fini, il est parti : c'est le passé surcomposé. Pour une habitude à l'imparfait, on prend en général le plus-que-parfait : quand il avait fini, il partait.
 
 ## What's next
 

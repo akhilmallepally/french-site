@@ -200,6 +200,13 @@ C1 inherits every B2 convention unless it's changed here. Plans are in docs/plan
   - Rules are stated by their real test (same subject, completion), not an approximation.
   - Distractors are wrong in their sentence, and every rule tested in an exercise is explained in that lesson or an earlier one.
   - A model text keeps one narrative tense per paragraph, and every dialogue obeys the lesson's own rules.
-  - Before finishing a unit, run check:words, check:structures, audit:content, test:b2-exercises (extended to C1) and scripts/b2-links-ids.ts (extended to C1).
+  - Before finishing a unit, run check:words, check:structures, audit:content, test:b2-exercises (extended to C1), scripts/b2-links-ids.ts (extended to C1) and check:c1-links.
+  - Forward links: a LessonLink or `related` entry to a lesson that isn't written yet is plain text, listed in docs/c1-forward-links.md (lesson, text, target), and restored when the target is written. `npm run check:c1-links` fails on a link to a missing lesson.
+  - Cross-lesson consistency: when a construction (such as *à peine*) appears in more than one C1 lesson, grep all C1 lessons and make the statements agree.
+  - Rule words: every "every", "only", "always", "never" and "the others" in teaching text and exercise explanations is true for the lesson's own tables and examples.
+  - Distractors: for each one, ask "would a careful writer accept it in this sentence?" If yes, change the sentence or pin the cue.
+  - Recap claims: run scripts/c1-find.ts before any "you know X from Y", and record the lesson id in the log.
+  - En résumé opens with its own subject, never *Cette* or *Ces* pointing outside it. Every vocab entry, grammar terms included, appears in at least one complete French sentence.
+  - The log gives teaching-text, whole-lesson and En résumé word counts for every lesson.
 
 @AGENTS.md

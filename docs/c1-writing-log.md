@@ -58,3 +58,25 @@
   - *dès* answers get strictAccents because the audit flags them.
 - **Step 4:** the LessonLink to c1-passe-simple in b2-review-final is restored.
 - **Checks:** all pass. check:words is still 110, check:structures is 0, test:b2-exercises shows 340 exercises with 0 failures, and b2-links-ids shows 62 lessons with 0 failures.
+
+## Batch 2
+
+- **Word counts** (teaching / whole / résumé; vocab; exercises):
+  - Pilot after fixes: passe-simple 1,154 / 1,698 / 137 (13 vocab, 18 exercises); passe-anterieur 1,061 / 1,673 / 141 (13, 18); stylistic-inversion 1,103 / 1,516 / 138 (13, 18).
+  - New lessons: future-in-the-past 948 / 1,563 / 127 (12 vocab, 18 exercises); ne-expletif 1,002 / 1,415 / 136 (12, 18); literary-negation 913 / 1,264 / 132 (14, 18).
+- **Pilot fixes:**
+  - Done: venir/tenir (-inrent); spelling changes plus *fallut*, *dut* and *plut*, with ex017 and ex018 and wrong-form checks; ex008 (pleuvait); the *à peine* wording; ex009 and ex007; forward links; the résumé opener.
+  - Already done: *une incise* is used in a full sentence in the En résumé.
+- **Recap claims checked with c1-find:**
+  - All pilot claims are true.
+  - New lessons found that *le ne explétif* (b1-subjonctif-wishes-emotions, b2-subjunctive-conjunctions), *de peur que* and *éviter que* (b2-purpose-expressions) are already taught, and so are *allait* + infinitive and the conditionnel passé (b2-reported-speech-past). These are recaps, not new vocab.
+- **Conventions and tools:**
+  - The C1 checklist gains 7 rules.
+  - docs/c1-forward-links.md and scripts/c1-links.ts (`npm run check:c1-links`) are new.
+  - test:b2-exercises now also checks C1 fill-in and translate answers.
+- **What didn't fit:**
+  - ne-expletif and literary-negation were under 900 teaching words; teaching sections were added.
+  - Syllabus prerequisites were widened: b2-purpose-expressions for ne-expletif, b2-registers for literary-negation.
+  - 2 forward links are pending.
+  - check:words needed the name Paul instead of Jules.
+- **Checks:** all pass. check:words is still 110, check:structures is 0, test:b2-exercises shows 404 checks with 0 failures, and b2-links-ids shows 65 lessons with 0 failures.

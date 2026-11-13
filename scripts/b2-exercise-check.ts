@@ -42,6 +42,23 @@ for (const dir of dirs) for (const f of fs.readdirSync(dir).filter((x) => x.ends
   }
 }
 
+// C1: every accepted fill-in and translate answer passes the checker, and the passé simple items reject
+// the usual wrong forms (a missing cedilla is reported, not accepted; a regular ending on falloir is wrong).
+{
+  const dir = path.join(process.cwd(), "content", "lessons", "c1");
+  const all = fs.existsSync(dir) ? fs.readdirSync(dir).filter((x) => x.endsWith(".mdx")).flatMap((f) => (matter(fs.readFileSync(path.join(dir, f), "utf8")).data.exercises ?? []) as any[]) : [];
+  for (const e of all.filter((x) => x.type === "fill-in" || x.type === "translate")) {
+    checked++;
+    for (const a of e.answers ?? []) if (checkAnswer(a, e.answers, e.strictAccents === true).status !== "correct") failures.push(e.id + ": accepted answer fails: " + a);
+  }
+  const wrong: [string, string][] = [["c1-passe-simple-ex017", "commenca"], ["c1-passe-simple-ex017", "commensa"], ["c1-passe-simple-ex018", "falla"], ["c1-passe-simple-ex018", "faillit"]];
+  for (const [id, w] of wrong) {
+    const e = all.find((x) => x.id === id);
+    if (!e) failures.push(id + ": not found");
+    else if (checkAnswer(w, e.answers, e.strictAccents === true).status === "correct") failures.push(id + ": wrong form accepted: " + w);
+  }
+}
+
 // The reorder with a repeated word ("a" twice): the chips, in answer order, must rebuild the answer.
 {
   const { data } = matter(fs.readFileSync(path.join(process.cwd(), "content", "lessons", "b2", "review-what-might-have-been.mdx"), "utf8"));

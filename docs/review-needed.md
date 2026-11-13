@@ -1557,3 +1557,37 @@ Every date, tradition and regional detail, for checking:
 - **Relative clauses:** "It's optional… This inversion is wrong in two cases. With a pronoun subject… And when the verb has its own direct object." Confirm.
 - **"The whole list"**: inversion "usual in careful writing" after *à peine*, *peut-être*, *sans doute* and *aussi* (therefore); optional after *ainsi* and *du moins*. Confirm each label.
 - **Dialogue:** *Toujours est-il que* glossed as *« en tout cas »*, and *ton histoire a des erreurs, toujours est-il qu'elle me plaît !* Confirm the gloss and the use.
+
+### c1-passe-anterieur (Prompt 29 additions)
+
+- **ex009 and "For a habit in the imparfait, the usual partner is the plus-que-parfait":** does the passé antérieur sometimes pair with a repeated imparfait in literature (*Quand il eut dîné, il sortait*)? If so, "usual" is right. The distractor *eut fini* was replaced by *aura fini* and *finira*.
+- **"Outside that system, you also meet the plus-que-parfait with the passé composé or the imparfait: à peine étions-nous arrivés qu'il a commencé à pleuvoir."** Confirm.
+
+### c1-passe-simple (Prompt 29 additions)
+
+- **"Falloir and pleuvoir are impersonal: in a story, you meet them with il."** and **"Plut is also the passé simple of plaire."** Confirm.
+- **"Verbs in -ger keep an e before a and â, and verbs in -cer take a cedilla… Before -èrent, there's no change."** Confirm.
+
+### c1-future-in-the-past
+
+- **"[Devait + infinitive] can also announce what fate had in store: 'was to'. This use is literary, and it's common with jamais."** Confirm.
+- **"Il savait qu'il partirait places the departure at some point later. Il savait qu'il allait partir makes it close or already decided."** Confirm the nuance.
+- **"In that frame [the présent de narration], what comes later is in the futur simple, not the conditionnel."** Confirm, and confirm ex009.
+- **"Elle n'y reviendrait que dix ans plus tard"** (conditionnel as the narrator's jump ahead, labelled literary). Confirm.
+- **ex013** accepts *partirait*, *allait partir* and *devait partir* after *Ce jour-là, il savait que…*. Confirm all three.
+
+### c1-ne-expletif
+
+- **"When the fear itself is denied or questioned (je ne crains pas que, craignez-vous que…?), the ne explétif is usually left out."** Confirm.
+- **"After autant… que and aussi… que, which compare equal things, there's no ne."** Confirm.
+- **"Don't add it after bien que, pour que or après que."** Confirm.
+- **Il s'en faut de peu que: "You'll mostly meet it in the passé composé… with the subjunctive and usually the ne."** Confirm, and confirm that ex012 accepts the version without *ne*.
+- **"[Empêcher que and éviter que] take the subjunctive, and the ne is common but optional."** Confirm.
+
+### c1-literary-negation
+
+- **"Ne… point… is literary and a little old-fashioned, and it often sounds stronger."** Confirm.
+- **"With an infinitive… The same holds for ne point and ne jamais. Nullement and aucunement… follow the infinitive"** (*Elle dit ne regretter nullement son choix*). Confirm.
+- **"With these verbs [oser, cesser], pas is still correct; leaving it out raises the register."** Confirm *ne cesser de* with *pas* (*il ne cesse pas de pleuvoir*) as standard.
+- **"In a formal letter or an essay, ne cesser de, nullement, nul ne and sans… ni are natural and well received. Ne… point belongs to literature."** Confirm.
+- **ex008:** *Il partit sans argent ni amis*: confirm that *ni* is the expected form here.

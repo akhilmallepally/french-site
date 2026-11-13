@@ -1,6 +1,6 @@
 # All lesson data
 
-226 written lessons, in course order.
+229 written lessons, in course order.
 
 ## a1-greetings
 
@@ -8998,7 +8998,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-passe-simple-ex005 | multiple-choice | Indiquez le temps de « finit » dans la phrase : Ce soir-là, il finit son repas et sortit. | ["le passé simple","le présent","l'imparfait"] | ["le passé simple"] | false | Finit can be present or passé simple. Here sortit and ce soir-là show a past story.
 - c1-passe-simple-ex006 | multiple-choice | Choisissez l'infinitif de « il naquit ». | ["naître","nager","nier"] | ["naître"] | false | Naître: il naquit (he was born).
 - c1-passe-simple-ex007 | multiple-choice | Choisissez l'infinitif de « ils crurent ». | ["croire","courir","crier"] | ["croire"] | false | Croire: il crut, ils crurent. Courir gives ils coururent.
-- c1-passe-simple-ex008 | connector-choice | Choisissez la bonne forme : La nuit ___ quand le roi entra. | ["tombait","tomba","tombera"] | ["tombait"] | false | The night falling is the background: imparfait. The king's entrance is the event: passé simple.
+- c1-passe-simple-ex008 | connector-choice | Choisissez la bonne forme : Il ___ depuis trois jours quand le roi entra. | ["pleuvait","plut","pleuvra"] | ["pleuvait"] | false | With depuis, the rain was already going on when the king came in: imparfait. The king's entrance is the event: passé simple.
 - c1-passe-simple-ex009 | connector-choice | Choisissez la bonne forme : Soudain, la porte ___. | ["s'ouvrit","s'ouvrait","s'ouvrira"] | ["s'ouvrit"] | false | Soudain marks a single event: passé simple.
 - c1-passe-simple-ex010 | reformulation | Reformulez au passé simple, comme dans un récit : Elle est entrée et elle a regardé la foule. | — | ["Elle entra et regarda la foule","Elle entra et elle regarda la foule"] | false | Two events in a written narrative: entra, regarda.
 - c1-passe-simple-ex011 | reformulation | Reformulez au passé composé, comme à l'oral : Ils partirent à l'aube. | — | ["Ils sont partis à l'aube"] | true | In speech, the passé simple becomes the passé composé.
@@ -9007,6 +9007,8 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-passe-simple-ex014 | translate | Traduisez au passé simple (se taire), comme dans un récit : The king fell silent. | — | ["Le roi se tut"] | false | Se taire: il se tut.
 - c1-passe-simple-ex015 | translate | Rédigez ce début de récit en complétant comme indiqué : Il (was: être, imparfait) tard. Le héros (crossed: franchir, passé simple) le seuil et (caught sight of: apercevoir, passé simple) une lumière. | — | ["Il était tard. Le héros franchit le seuil et aperçut une lumière."] | false | The imparfait sets the scene; the passé simple tells the events.
 - c1-passe-simple-ex016 | reorder | Remettez dans l'ordre : They left at dawn. | — | ["Ils partirent à l'aube","À l'aube, ils partirent"] | false | Partir: ils partirent.
+- c1-passe-simple-ex017 | fill-in | Conjuguez au passé simple (commencer) : Le roi ___ sa lettre à l'aube. | — | ["commença"] | false | -cer verbs take a cedilla before a: il commença.
+- c1-passe-simple-ex018 | fill-in | Conjuguez au passé simple (falloir) : Il ___ partir avant la nuit. | — | ["fallut"] | false | Falloir is impersonal: il fallut.
 
 ## c1-passe-anterieur
 
@@ -9037,11 +9039,11 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-passe-anterieur-ex003 | fill-in | Conjuguez au passé antérieur (s'endormir) : Lorsque les voyageurs ___, l'auberge devint silencieuse. | — | ["se furent endormis"] | false | Reflexive verbs take être: ils se furent endormis, with agreement.
 - c1-passe-anterieur-ex004 | fill-in | Conjuguez au passé surcomposé (finir) : Quand j'___ mon travail, je suis sorti. | — | ["ai eu fini"] | false | Avoir in the passé composé + participle: j'ai eu fini. It goes with a passé composé in speech.
 - c1-passe-anterieur-ex005 | connector-choice | Choisissez la bonne forme : Quand il ___ sa lettre, il la donna au messager. | ["eut écrit","aura écrit","écrira"] | ["eut écrit"] | false | The main verb is in the passé simple (donna), and the letter was written just before: the passé antérieur.
-- c1-passe-anterieur-ex006 | multiple-choice | Indiquez le temps qui convient après « quand » : le verbe principal est à l'imparfait et décrit une habitude. | ["le plus-que-parfait","le passé antérieur","le passé simple"] | ["le plus-que-parfait"] | false | A habit in the imparfait pairs with the plus-que-parfait: quand il avait fini, il partait.
-- c1-passe-anterieur-ex007 | multiple-choice | Indiquez le temps qui convient après « quand », à l'oral, pour une action finie juste avant : le verbe principal est au passé composé. | ["le passé surcomposé","le passé antérieur","le passé simple"] | ["le passé surcomposé"] | false | In speech, the passé composé pairs with the passé surcomposé: quand il a eu fini, il est parti.
+- c1-passe-anterieur-ex006 | multiple-choice | Indiquez le temps le plus courant après « quand » : le verbe principal est à l'imparfait et décrit une habitude. | ["le plus-que-parfait","le passé antérieur","le passé simple"] | ["le plus-que-parfait"] | false | A habit in the imparfait usually pairs with the plus-que-parfait: quand il avait fini, il partait.
+- c1-passe-anterieur-ex007 | multiple-choice | Indiquez le temps qui convient après « quand », à l'oral, pour insister sur le fait que l'action est finie : le verbe principal est au passé composé. | ["le passé surcomposé","le passé composé","le passé antérieur"] | ["le passé surcomposé"] | false | The passé composé is possible in speech, but to insist that the first action was over, use the passé surcomposé: quand il a eu fini, il est parti.
 - c1-passe-anterieur-ex008 | multiple-choice | Indiquez le temps de « fut arrivée » dans la phrase : Dès qu'elle fut arrivée, la cloche sonna. | ["le passé antérieur","le passé composé","le plus-que-parfait"] | ["le passé antérieur"] | false | Être in the passé simple + participle: the passé antérieur.
-- c1-passe-anterieur-ex009 | connector-choice | Choisissez la bonne forme : Chaque soir, quand il ___ son travail, il rentrait à pied. | ["avait fini","eut fini","aura fini"] | ["avait fini"] | false | Chaque soir and rentrait describe a habit in the imparfait, so the earlier action takes the plus-que-parfait.
-- c1-passe-anterieur-ex010 | connector-choice | Choisissez le connecteur : ___ eut-elle fermé la porte que la cloche sonna. | ["À peine","Dès que","Lorsque"] | ["À peine"] | false | Only à peine is followed by inversion and a second clause with que.
+- c1-passe-anterieur-ex009 | connector-choice | Choisissez la bonne forme : Chaque soir, quand il ___ son travail, il rentrait à pied. | ["avait fini","aura fini","finira"] | ["avait fini"] | false | Chaque soir and rentrait describe a habit in the imparfait. The usual partner for the earlier action is the plus-que-parfait; aura fini and finira are future forms.
+- c1-passe-anterieur-ex010 | connector-choice | Choisissez le connecteur : ___ eut-elle fermé la porte que la cloche sonna. | ["À peine","Dès que","Lorsque"] | ["À peine"] | false | Of the three, only à peine is followed by inversion and a second clause with que.
 - c1-passe-anterieur-ex011 | reformulation | Reformulez au passé simple et au passé antérieur, comme dans un récit : Quand il a eu fini, il est parti. | — | ["Quand il eut fini, il partit","Il partit quand il eut fini","Lorsqu'il eut fini, il partit","Il partit lorsqu'il eut fini"] | false | In a written narrative, the passé surcomposé becomes the passé antérieur and the passé composé becomes the passé simple.
 - c1-passe-anterieur-ex012 | reformulation | Reformulez avec « à peine… que » au début de la phrase et l'inversion : Dès qu'il fut sorti, il se mit à pleuvoir. | — | ["À peine fut-il sorti qu'il se mit à pleuvoir"] | true | À peine at the start, inversion of the auxiliary and the pronoun, then que + passé simple.
 - c1-passe-anterieur-ex013 | register-shift | Transformez au passé composé et au passé surcomposé, comme à l'oral : Dès qu'elle eut fini, elle sortit. | — | ["Dès qu'elle a eu fini, elle est sortie","Elle est sortie dès qu'elle a eu fini"] | true | In speech: the passé surcomposé for the earlier action, the passé composé for the main verb, with agreement: elle est sortie.
@@ -9050,6 +9052,48 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-passe-anterieur-ex016 | translate | Traduisez au passé simple et au passé antérieur, comme dans un récit (après que, frapper) : After the messenger had knocked, the door opened. | — | ["Après que le messager eut frappé, la porte s'ouvrit","La porte s'ouvrit après que le messager eut frappé"] | false | Après que takes the indicative: le messager eut frappé. The door opening is the event: s'ouvrit.
 - c1-passe-anterieur-ex017 | translate | Rédigez ce début de récit en complétant comme indiqué : Il (was: faire, imparfait) nuit. Lorsque le voyageur (had eaten: manger, passé antérieur), il (went up: monter, passé simple) dans sa chambre. | — | ["Il faisait nuit. Lorsque le voyageur eut mangé, il monta dans sa chambre."] | true | The imparfait sets the scene, the passé antérieur marks the meal as finished, and the passé simple tells the next event.
 - c1-passe-anterieur-ex018 | reorder | Remettez dans l'ordre : No sooner had he gone out than it started to rain. | — | ["À peine fut-il sorti qu'il se mit à pleuvoir"] | true | À peine, the inverted auxiliary and pronoun, the participle, then que + passé simple.
+
+## c1-future-in-the-past
+
+### Vocab
+
+fr | pron | en | note
+
+- le futur dans le passé | luh few-TEWR dahn luh pah-SAY | the future in the past | —
+- devait + infinitive | duh-VEH | was supposed to; (in a story) was to | Il devait arriver à midi. Il ne devait jamais revenir.
+- ne pas tarder à | nuh pah tar-DAY ah | not to be long in (doing), to (do) soon | + infinitive: il ne tarda pas à revenir.
+- le présent de narration | luh pray-ZAHN duh nah-rah-SYOHN | the historical present | —
+- le port | luh POR | the port, the harbour | —
+- le navire | luh nah-VEER | the ship | —
+- le marin | luh mah-RAN | the sailor | —
+- embarquer | ahn-bar-KAY | to board, to go on board | —
+- la frontière | lah frohn-TYEHR | the border | —
+- lointain / lointaine | lwan-TAN / lwan-TEN | distant, faraway | —
+- le siècle | luh SYEK-luh | the century | —
+- fonder | fohn-DAY | to found, to set up | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-future-in-the-past-ex001 | fill-in | Conjuguez au conditionnel présent (devenir) : À vingt ans, il ne savait pas encore qu'il ___ marin. | — | ["deviendrait"] | false | Seen from a past moment, a later event takes the conditionnel: il deviendrait.
+- c1-future-in-the-past-ex002 | fill-in | Conjuguez au conditionnel passé (finir) : Elle avait promis de m'appeler dès qu'elle ___. | — | ["aurait fini"] | false | After a past verb, the futur antérieur of the time clause becomes the conditionnel passé: dès qu'elle aurait fini.
+- c1-future-in-the-past-ex003 | fill-in | Conjuguez au conditionnel présent (venir) : Elle disait qu'elle ___ quand elle aurait le temps. | — | ["viendrait"] | false | Both future actions move into the conditionnel: viendrait, aurait.
+- c1-future-in-the-past-ex004 | fill-in | Complétez avec « devoir » à l'imparfait : Le navire ___ partir à midi, mais il n'est parti que le soir. | — | ["devait"] | false | Devait + infinitive: what was planned, here not what happened.
+- c1-future-in-the-past-ex005 | connector-choice | Choisissez la bonne forme : Ce jour-là, ils ne savaient pas qu'ils ne ___ jamais leur village. | ["reverraient","revoient","reverrons"] | ["reverraient"] | false | A later event seen from ce jour-là: the conditionnel. Revoient is the present, and reverrons doesn't match ils.
+- c1-future-in-the-past-ex006 | multiple-choice | Indiquez le sens de « devait » dans la phrase : Il devait arriver à midi, mais il n'est jamais venu. | ["was supposed to","must have","would have"] | ["was supposed to"] | false | Devait + infinitive gives the plan; mais shows it didn't happen.
+- c1-future-in-the-past-ex007 | multiple-choice | Choisissez le sens de la phrase : Elle ne devait jamais revenir. | ["She was never to come back.","She will never come back.","She has never come back."] | ["She was never to come back."] | false | In a story, ne devait jamais + infinitive announces what fate had in store.
+- c1-future-in-the-past-ex008 | connector-choice | Choisissez la bonne forme : Il ___ embarquer quand sa mère surgit de la foule. | ["allait","irait","ira"] | ["allait"] | false | Allait + infinitive: he was about to board when something interrupted him.
+- c1-future-in-the-past-ex009 | multiple-choice | Choisissez le temps de la suite dans un récit au présent de narration : En 1850, il quitte son village ; il ne le ___ jamais. | ["reverra (le futur simple)","reverrait (le conditionnel présent)","avait revu (le plus-que-parfait)"] | ["reverra (le futur simple)"] | false | When the story is told in the present, a later event takes the futur simple.
+- c1-future-in-the-past-ex010 | reformulation | Reformulez avec « ne pas tarder à », au passé simple : Il se mit bientôt à pleuvoir. | — | ["Il ne tarda pas à pleuvoir"] | true | Ne pas tarder à + infinitive: it wasn't long before it rained.
+- c1-future-in-the-past-ex011 | reformulation | Reformulez en commençant par « Elle disait qu'elle » : Je viendrai dès que j'aurai fini. | — | ["Elle disait qu'elle viendrait dès qu'elle aurait fini"] | true | The futur becomes the conditionnel, and the futur antérieur becomes the conditionnel passé.
+- c1-future-in-the-past-ex012 | reformulation | Reformulez au présent de narration, avec le futur simple pour la suite : En 1850, il quitta son village ; il ne le revit jamais. | — | ["En 1850, il quitte son village ; il ne le reverra jamais"] | false | Quitta becomes quitte, and the later event, seen from that present, takes the futur: reverra.
+- c1-future-in-the-past-ex013 | error-correction | Corrigez l'erreur : Ce jour-là, il savait qu'il partira le lendemain. | — | ["Ce jour-là, il savait qu'il partirait le lendemain","Ce jour-là, il savait qu'il allait partir le lendemain","Ce jour-là, il savait qu'il devait partir le lendemain"] | true | Seen from ce jour-là, the departure is a future in the past: partirait, allait partir, or devait partir for a plan.
+- c1-future-in-the-past-ex014 | error-correction | Corrigez l'erreur : Elle avait promis de partir dès qu'elle aura fini. | — | ["Elle avait promis de partir dès qu'elle aurait fini"] | true | After a past verb, the time clause takes the conditionnel passé: dès qu'elle aurait fini.
+- c1-future-in-the-past-ex015 | translate | Traduisez avec « devait » : The train was supposed to arrive at noon. | — | ["Le train devait arriver à midi"] | true | Devait + infinitive for a plan.
+- c1-future-in-the-past-ex016 | translate | Traduisez au passé simple, comme dans un récit (ne pas tarder à, revenir) : The rider soon came back. | — | ["Le cavalier ne tarda pas à revenir","La cavalière ne tarda pas à revenir"] | true | Ne tarda pas à + infinitive, in the passé simple of the narrative.
+- c1-future-in-the-past-ex017 | translate | Traduisez avec le conditionnel passé (penser, avant le soir, franchir) : She thought that she would have crossed the border before evening. | — | ["Elle pensait qu'avant le soir, elle aurait franchi la frontière","Elle pensait qu'elle aurait franchi la frontière avant le soir"] | false | A future perfect seen from the past: the conditionnel passé, aurait franchi.
+- c1-future-in-the-past-ex018 | reorder | Remettez dans l'ordre : He was never to see his country again. | — | ["Il ne devait jamais revoir son pays"] | false | Ne devait jamais + infinitive: what fate had in store.
 
 ## c1-stylistic-inversion
 
@@ -9080,7 +9124,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-stylistic-inversion-ex003 | fill-in | Complétez avec l'incise au passé simple (répondre, le témoin) : « Je n'ai rien vu », ___. | — | ["répondit le témoin"] | false | With a noun subject, the incise uses simple inversion, with no extra pronoun: répondit le témoin.
 - c1-stylistic-inversion-ex004 | multiple-choice | Choisissez la phrase correcte. | ["« Je pars », dit Paul.","« Je pars », Paul dit-il.","« Je pars », dit-il Paul."] | ["« Je pars », dit Paul."] | false | An incise with a noun subject: the verb, then the noun, and no pronoun.
 - c1-stylistic-inversion-ex005 | multiple-choice | Choisissez la phrase correcte. | ["Peut-être est-il malade.","Peut-être qu'est-il malade.","Peut-être il est-il malade."] | ["Peut-être est-il malade."] | false | Peut-être at the start takes inversion, or que with normal order, never both.
-- c1-stylistic-inversion-ex006 | multiple-choice | Indiquez si l'inversion est obligatoire, possible ou impossible : dans une incise, après une citation. | ["obligatoire","possible","impossible"] | ["obligatoire"] | false | In written French, the subject of an incise always comes after the verb: « Je pars », dit-il.
+- c1-stylistic-inversion-ex006 | multiple-choice | Indiquez si l'inversion est obligatoire, possible ou impossible : dans une incise, après une citation. | ["obligatoire","possible","impossible"] | ["obligatoire"] | false | In written French, the subject of an incise comes after the verb: « Je pars », dit-il.
 - c1-stylistic-inversion-ex007 | multiple-choice | Indiquez si l'inversion est obligatoire, possible ou impossible : dans une relative, avec un pronom sujet (le livre qu'il lit). | ["impossible","possible","obligatoire"] | ["impossible"] | false | Inversion in a relative clause works only with a noun subject: le livre que lit Paul, but le livre qu'il lit.
 - c1-stylistic-inversion-ex008 | connector-choice | Choisissez le connecteur : Il a tout compris, ___ le croit-il. | ["du moins","peut-être que","parce que"] | ["du moins"] | false | Du moins corrects what was just said, and here it's followed by inversion: du moins le croit-il.
 - c1-stylistic-inversion-ex009 | connector-choice | Choisissez le connecteur : Le projet est intéressant. ___ faut-il trouver l'argent. | ["Encore","Peut-être que","Parce que"] | ["Encore"] | false | Encore at the start, with inversion, means still or even so: encore faut-il trouver l'argent.
@@ -9093,3 +9137,89 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-stylistic-inversion-ex016 | translate | Traduisez avec une incise au passé simple (répondre, le voyageur) : “I don't know,” the traveller replied. | — | ["« Je ne sais pas », répondit le voyageur."] | false | The incise follows the quotation, with simple inversion: répondit le voyageur.
 - c1-stylistic-inversion-ex017 | translate | Traduisez avec « toujours est-il que » : The fact remains that nobody came. | — | ["Toujours est-il que personne n'est venu"] | false | Toujours est-il que is a fixed phrase with inversion, followed by normal order.
 - c1-stylistic-inversion-ex018 | reorder | Remettez dans l'ordre : He probably forgot. (formal) | — | ["Sans doute a-t-il oublié"] | false | Sans doute at the start, then the inverted auxiliary and pronoun.
+
+## c1-ne-expletif
+
+### Vocab
+
+fr | pron | en | note
+
+- empêcher que | ahn-peh-SHAY kuh | to prevent (something from happening) | + subjunctive, often with ne: empêcher que la situation ne devienne grave.
+- redouter que | ruh-doo-TAY kuh | to dread that, to fear that (formal) | + subjunctive, often with ne.
+- il s'en faut de peu que | eel sahn FOH duh PUH kuh | very nearly, it comes close to | Mostly in the past: il s'en est fallu de peu que nous ne soyons en retard (we very nearly were late).
+- plus… que je ne | plew… kuh zhuh NUH | more… than I (thought, expected) | Also moins, autre, meilleur… que + ne + indicative.
+- le pont | luh POHN | the bridge | —
+- s'effondrer | say-fohn-DRAY | to collapse | —
+- se propager | suh proh-pah-ZHAY | to spread | —
+- glisser | glee-SAY | to slip, to slide | —
+- s'aggraver | sah-grah-VAY | to get worse | —
+- l'issue (f.) | lee-SEW | the outcome | Not an issue (a problem): that's un problème or une question.
+- la fuite | lah FWEET | the leak; the escape | —
+- le soupçon | luh soop-SOHN | the suspicion | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-ne-expletif-ex001 | multiple-choice | Indiquez le sens de la phrase : J'ai peur qu'il ne vienne. | ["I'm afraid he'll come.","I'm afraid he won't come.","I'm not afraid he'll come."] | ["I'm afraid he'll come."] | false | No pas: the ne is explétif and adds no negation.
+- c1-ne-expletif-ex002 | multiple-choice | Indiquez le sens de la phrase : J'ai peur qu'il ne vienne pas. | ["I'm afraid he won't come.","I'm afraid he'll come.","I'm not afraid he'll come."] | ["I'm afraid he won't come."] | false | Ne… pas is a real negation: the fear is that he won't come.
+- c1-ne-expletif-ex003 | multiple-choice | Indiquez le sens de « ne » dans la phrase : Partez avant qu'il ne soit trop tard. | ["ne explétif","négation"] | ["ne explétif"] | false | Avant que… ne, with no pas: the meaning is "before it's too late".
+- c1-ne-expletif-ex004 | multiple-choice | Indiquez le sens de « ne » dans la phrase : Je crains qu'elle ne puisse pas venir. | ["négation","ne explétif"] | ["négation"] | false | Ne… pas: the fear is that she can't come.
+- c1-ne-expletif-ex005 | fill-in | Conjuguez au subjonctif, avec le ne explétif (venir) : Il faut partir avant qu'il ___. | — | ["ne vienne"] | false | Avant que + subjunctive, with the ne explétif: avant qu'il ne vienne.
+- c1-ne-expletif-ex006 | fill-in | Complétez avec le ne explétif (penser, imparfait) : Le voyage a été plus long que je ___. | — | ["ne pensais"] | false | After a comparison, the ne explétif comes with the indicative: que je ne pensais.
+- c1-ne-expletif-ex007 | fill-in | Conjuguez au subjonctif, avec le ne explétif (partir) : Nous avons tout fait pour éviter qu'il ___. | — | ["ne parte"] | false | Éviter que + subjunctive, here with the ne explétif: qu'il ne parte.
+- c1-ne-expletif-ex008 | connector-choice | Choisissez le connecteur : Il a fermé la fenêtre, ___ le chat ne sorte. | ["de crainte que","parce que","pendant que"] | ["de crainte que"] | false | Sorte is a subjunctive, and the ne explétif follows a word of fear: de crainte que.
+- c1-ne-expletif-ex009 | connector-choice | Choisissez la bonne forme : Il est plus tard que je ne ___. | ["croyais","croie","croyais pas"] | ["croyais"] | false | A comparison takes the indicative and no pas: que je ne croyais.
+- c1-ne-expletif-ex010 | register-shift | Transformez en français courant, sans le ne explétif : Je crains qu'il ne soit trop tard. | — | ["Je crains qu'il soit trop tard","J'ai peur qu'il soit trop tard"] | false | Drop the ne; the meaning doesn't change. J'ai peur que is the everyday verb.
+- c1-ne-expletif-ex011 | register-shift | Transformez au registre soutenu, avec le ne explétif : On doit partir avant qu'il fasse nuit. | — | ["Nous devons partir avant qu'il ne fasse nuit","On doit partir avant qu'il ne fasse nuit"] | false | Add ne before the subjunctive; careful writing also prefers nous to on.
+- c1-ne-expletif-ex012 | reformulation | Reformulez avec « il s'en est fallu de peu que » : Nous avons presque été en retard. | — | ["Il s'en est fallu de peu que nous ne soyons en retard","Il s'en est fallu de peu que nous soyons en retard"] | false | Il s'en est fallu de peu que + subjunctive, usually with the ne explétif: que nous ne soyons.
+- c1-ne-expletif-ex013 | reformulation | Reformulez avec « empêcher que » et le ne explétif : Il faut éviter que la situation devienne grave. | — | ["Il faut empêcher que la situation ne devienne grave"] | false | Empêcher que + subjunctive, with the ne explétif in careful writing.
+- c1-ne-expletif-ex014 | error-correction | Corrigez l'erreur (la personne craint qu'il vienne) : J'ai peur qu'il ne vienne pas. | — | ["J'ai peur qu'il ne vienne","J'ai peur qu'il vienne"] | false | With pas, the sentence means the opposite. Drop pas: the ne explétif is optional.
+- c1-ne-expletif-ex015 | error-correction | Corrigez l'erreur : Le film était meilleur que je ne le pensais pas. | — | ["Le film était meilleur que je ne le pensais","Le film était meilleur que je le pensais","Le film était meilleur que je ne pensais","Le film était meilleur que je pensais"] | false | A comparison has no pas. Keep the ne explétif or drop it; the le is optional too.
+- c1-ne-expletif-ex016 | translate | Traduisez avec le ne explétif (vous, avant que, partir) : Call him before he leaves. | — | ["Appelez-le avant qu'il ne parte"] | false | Avant que + subjunctive, with the ne explétif: avant qu'il ne parte.
+- c1-ne-expletif-ex017 | translate | Traduisez en français courant, sans le ne explétif : I'm afraid she'll be late. | — | ["J'ai peur qu'elle soit en retard","Je crains qu'elle soit en retard"] | false | Avoir peur que + subjunctive. In everyday French, no ne.
+- c1-ne-expletif-ex018 | reorder | Remettez dans l'ordre : It's harder than I thought. | — | ["C'est plus difficile que je ne pensais"] | false | A comparison, then que je ne + indicative.
+
+## c1-literary-negation
+
+### Vocab
+
+fr | pron | en | note
+
+- ne… point | nuh… PWAN | not, not at all (literary) | —
+- nullement / aucunement | newl-MAHN / oh-kew-nuh-MAHN | not at all, in no way (formal) | Also alone, as a reply: Nullement.
+- nul ne / nulle ne | newl nuh | nobody, no one (formal) | Nul ne sait. No pas.
+- nul / nulle + noun | NEWL | no (formal) | Il n'avait nulle envie de partir. Nulle part: nowhere.
+- je n'ose | zhuh NOZ | I dare not (literary) | Oser: to dare. Standard: je n'ose pas.
+- ne cesser de | nuh seh-SAY duh | to keep (doing), never to stop (formal) | Il ne cesse de pleuvoir.
+- ne… ni ne | nuh… nee nuh | neither… nor (with two verbs) | Il ne mange ni ne dort.
+- sans… ni | sahn… nee | without… or (formal) | Sans argent ni bagages.
+- le repos | luh ruh-POH | rest | —
+- la plainte | lah PLANT | the complaint, the moan | —
+- suffire | sew-FEER | to be enough | Il suffit, ça suffit.
+- la fierté | lah fyehr-TAY | pride | —
+- le malheur | luh mah-LUHR | misfortune, unhappiness | —
+- pardonner | par-doh-NAY | to forgive | Pardonner à quelqu'un.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-literary-negation-ex001 | multiple-choice | Indiquez le sens de la phrase : Je ne l'ai point vu. | ["I didn't see him at all.","I saw him at one point.","I only saw him."] | ["I didn't see him at all."] | false | Ne… point is a literary negative, like ne… pas but stronger.
+- c1-literary-negation-ex002 | multiple-choice | Indiquez le registre de la phrase : Il ne cesse de pleuvoir. | ["soutenu","familier","courant"] | ["soutenu"] | false | Ne alone with cesser belongs to formal and literary French. Everyday French says il n'arrête pas de pleuvoir.
+- c1-literary-negation-ex003 | multiple-choice | Indiquez le sens de « nul ne » dans la phrase : Nul ne sait où il est parti. | ["nobody","nothing","never"] | ["nobody"] | false | Nul ne is the formal equivalent of personne ne.
+- c1-literary-negation-ex004 | fill-in | Complétez au registre soutenu avec « nul » : ___ ne peut entrer sans invitation. | — | ["Nul"] | false | Nul ne + verb, with no pas: nobody may come in.
+- c1-literary-negation-ex005 | fill-in | Complétez au registre soutenu, sans « pas » (oser, présent) : Je n'___ vous déranger. | — | ["ose"] | false | With oser, formal French can use ne alone: je n'ose vous déranger.
+- c1-literary-negation-ex006 | fill-in | Complétez au registre soutenu (cesser, présent) : Il ne ___ de se plaindre. | — | ["cesse"] | false | Ne cesser de + infinitive, with no pas: he keeps complaining.
+- c1-literary-negation-ex007 | connector-choice | Choisissez le mot : Il ne mange ___ ne dort depuis trois jours. | ["ni","pas","point"] | ["ni"] | false | Ne… ni ne joins two negative verbs: he neither eats nor sleeps.
+- c1-literary-negation-ex008 | connector-choice | Choisissez le mot : Il partit sans argent ___ amis. | ["ni","et pas","point"] | ["ni"] | false | After sans, formal French joins a second element with ni: sans argent ni amis.
+- c1-literary-negation-ex009 | register-shift | Transformez en français courant, avec « pas » : Je ne l'ai point vu. | — | ["Je ne l'ai pas vu"] | false | Point becomes pas, in the same place.
+- c1-literary-negation-ex010 | register-shift | Transformez en français courant : Nul ne sait où il est. | — | ["Personne ne sait où il est"] | true | Nul ne becomes personne ne. Neither takes pas.
+- c1-literary-negation-ex011 | register-shift | Transformez en français courant, avec « arrêter de » : Il ne cesse de pleuvoir. | — | ["Il n'arrête pas de pleuvoir"] | false | Ne cesser de becomes ne pas arrêter de, with pas.
+- c1-literary-negation-ex012 | register-shift | Transformez au registre soutenu, avec « nullement » : Je ne suis pas du tout fâché. | — | ["Je ne suis nullement fâché"] | false | Nullement replaces pas du tout.
+- c1-literary-negation-ex013 | reformulation | Reformulez avec « ne… ni ne » : Il ne lit pas et il n'écrit pas. | — | ["Il ne lit ni n'écrit"] | false | One ne before the first verb, then ni ne (here ni n') before the second.
+- c1-literary-negation-ex014 | error-correction | Corrigez l'erreur : Nul ne le sait pas. | — | ["Nul ne le sait","Personne ne le sait"] | false | Nul ne already makes the sentence negative: no pas.
+- c1-literary-negation-ex015 | error-correction | Corrigez l'erreur : Il n'a ni frère ni pas de sœur. | — | ["Il n'a ni frère ni sœur"] | true | Ne… ni… ni takes no pas and no article.
+- c1-literary-negation-ex016 | translate | Traduisez en français courant : Nobody knows. | — | ["Personne ne sait","Personne ne le sait"] | false | Everyday French: personne ne. The formal nul ne isn't needed here.
+- c1-literary-negation-ex017 | translate | Traduisez au registre soutenu, avec « oser » sans « pas » : I dare not answer. | — | ["Je n'ose répondre"] | false | Oser with ne alone: je n'ose répondre.
+- c1-literary-negation-ex018 | reorder | Remettez dans l'ordre : I don't doubt it at all. (formal) | — | ["Je n'en doute nullement"] | false | Ne… nullement, with en for the thing doubted.

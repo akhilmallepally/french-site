@@ -7,8 +7,7 @@ import matter from "gray-matter";
 
 const ROOT = process.cwd();
 // Links to planned lessons that are allowed for now. Keep this list short and documented in docs/project-state.md.
-// C1 pilot: the "What's next" links of c1-passe-anterieur and c1-stylistic-inversion point to the next planned lessons.
-const ALLOWED_MISSING = new Set<string>(["c1-future-in-the-past", "c1-ne-expletif"]);
+const ALLOWED_MISSING = new Set<string>([]);
 
 const ids = new Set<string>();
 for (const lv of ["a1", "a2", "b1", "b2", "c1", "c2"]) {

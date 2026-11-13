@@ -37,7 +37,7 @@ administratif administrative africain africaine alternative alternatives analyse
 coalition colonial coloniale colonie colonies composition conclusion connexion consultation contexte contraste création
 discrimination décision décisions décolonisation développement document documents empire exclusion exporter importer
 financier financière formel formelle francophonie historique idéal idéale immigration importance impression
-impressionnisme incertain incertaine danger dangers formes dialogue dialogues indépendance inflation informel informelle interprétation interrogatoire
+impressionnisme incertain incertaine stylistique danger dangers formes dialogue dialogues indépendance inflation informel informelle interprétation interrogatoire
 intervention introduction intégration journaliste journalistes laboratoire maintenance modéré modérée monument monuments
 médical médicale méthode méthodes négociation objection opposition paradoxal paradoxale paragraphe partenaire
 participant participante position positions priorité probabilité procédure profil prévention racisme registre

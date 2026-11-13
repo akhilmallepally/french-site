@@ -8,7 +8,7 @@ order: 1
 type: "grammar"
 tags: ["grammar", "past tenses", "literary French"]
 prerequisites: ["b1-plus-que-parfait", "b2-arts-and-literature"]
-related: ["a2-passe-compose-vs-imparfait", "c1-passe-anterieur", "c1-reading-literary-narrative"]
+related: ["a2-passe-compose-vs-imparfait", "c1-passe-anterieur"]
 vocab:
   - { id: "c1-passe-simple-v001", group: "words", fr: "le récit", pron: "luh ray-SEE", en: "the narrative, the story (as told)" }
   - { id: "c1-passe-simple-v002", group: "words", fr: "un héros / une héroïne", pron: "uhn ay-ROH / ew-nay-roh-EEN", en: "a hero / a heroine", note: "No liaison: le héros." }
@@ -64,10 +64,10 @@ exercises:
     explanation: "Croire: il crut, ils crurent. Courir gives ils coururent."
   - id: "c1-passe-simple-ex008"
     type: "connector-choice"
-    prompt: "Choisissez la bonne forme : La nuit ___ quand le roi entra."
-    options: ["tombait", "tomba", "tombera"]
-    answers: ["tombait"]
-    explanation: "The night falling is the background: imparfait. The king's entrance is the event: passé simple."
+    prompt: "Choisissez la bonne forme : Il ___ depuis trois jours quand le roi entra."
+    options: ["pleuvait", "plut", "pleuvra"]
+    answers: ["pleuvait"]
+    explanation: "With depuis, the rain was already going on when the king came in: imparfait. The king's entrance is the event: passé simple."
   - id: "c1-passe-simple-ex009"
     type: "connector-choice"
     prompt: "Choisissez la bonne forme : Soudain, la porte ___."
@@ -112,6 +112,16 @@ exercises:
     words: ["Ils", "partirent", "à", "l'aube"]
     answers: ["Ils partirent à l'aube", "À l'aube, ils partirent"]
     explanation: "Partir: ils partirent."
+  - id: "c1-passe-simple-ex017"
+    type: "fill-in"
+    prompt: "Conjuguez au passé simple (commencer) : Le roi ___ sa lettre à l'aube."
+    answers: ["commença"]
+    explanation: "-cer verbs take a cedilla before a: il commença."
+  - id: "c1-passe-simple-ex018"
+    type: "fill-in"
+    prompt: "Conjuguez au passé simple (falloir) : Il ___ partir avant la nuit."
+    answers: ["fallut"]
+    explanation: "Falloir is impersonal: il fallut."
 ---
 
 By the end of this lesson you'll be able to read the passé simple in any person and write it yourself in a story or a historical account.
@@ -131,7 +141,7 @@ As in speech, the past needs two tenses. The passé simple tells the events, one
 
 ## The three regular patterns
 
-Every verb follows one of three sets of endings. The *nous* and *vous* forms are rare, because narratives are mostly in the third person, but you'll meet them in first-person novels.
+Most verbs follow one of three sets of endings; *venir*, *tenir* and the verbs built on them have a fourth, shown in the next section. The *nous* and *vous* forms are rare, because narratives are mostly in the third person, but you'll meet them in first-person novels.
 
 | | *-er* verbs (*parler*) | most *-ir* and *-re* verbs (*finir*, *attendre*) | many *-oir* and other verbs (*vouloir*) |
 |---|---|---|---|
@@ -142,13 +152,25 @@ Every verb follows one of three sets of endings. The *nous* and *vous* forms are
 | *vous* | *parlâtes* | *finîtes* | *voulûtes* |
 | *ils / elles* | *parlèrent* | *finirent* | *voulurent* |
 
-The *nous* and *vous* forms always have a circumflex accent on the vowel before *-mes* and *-tes*. Only *-er* verbs take *-èrent*; the others take *-irent* or *-urent*. *Aller* is an *-er* verb here: *il alla*, *ils allèrent*.
+The *nous* and *vous* forms always have a circumflex accent on the vowel before *-mes* and *-tes*. Only *-er* verbs take *-èrent*; most others take *-irent* or *-urent*, and *venir* and *tenir* take *-inrent*. *Aller* is an *-er* verb here: *il alla*, *ils allèrent*.
 
 <Example fr="Ils parlèrent jusqu'à l'aube, puis ils se turent." en="They talked until dawn, then they fell silent." />
 
+## Spelling changes in -er verbs
+
+The spelling changes you know from the imparfait in <LessonLink id="a2-imparfait-formation" text="the lesson on forming the imparfait" /> come back here. Verbs in *-ger* keep an *e* before *a* and *â*, and verbs in *-cer* take a cedilla, so that the consonant stays soft. Before *-èrent*, there's no change.
+
+| | *manger* | *commencer* |
+|---|---|---|
+| *il / elle* | *mangea* | *commença* |
+| *nous* | *mangeâmes* | *commençâmes* |
+| *ils / elles* | *mangèrent* | *commencèrent* |
+
+<Example fr="Le héros mangea en silence, puis il commença sa lettre." en="The hero ate in silence, then he began his letter." />
+
 ## Six verbs to know in full
 
-These six are the backbone of every narrative.
+These six are the backbone of most narratives.
 
 | | *être* | *avoir* | *faire* | *venir* | *tenir* | *voir* |
 |---|---|---|---|---|---|---|
@@ -184,7 +206,13 @@ Many common verbs have a short or unexpected stem. You need to recognize them, m
 | *courir* | *courut* | *coururent* |
 | *naître* | *naquit* | *naquirent* |
 | *mourir* | *mourut* | *moururent* |
+| *devoir* | *dut* | *durent* |
+| *falloir* | *fallut* (*il fallut*) | none |
+| *pleuvoir* | *plut* (*il plut*) | none |
 
+*Falloir* and *pleuvoir* are impersonal: in a story, you meet them with *il*. *Plut* is also the passé simple of *plaire*: *le livre lui plut* (he liked the book).
+
+<Example fr="Il fallut partir avant la nuit, et ils durent laisser les chevaux." en="They had to leave before nightfall, and they had to leave the horses behind." />
 <Example fr="Elle naquit à Lyon et vécut toute sa vie à Paris." en="She was born in Lyon and lived all her life in Paris. (an invented person)" />
 <Example fr="Il prit sa lettre, la lut deux fois et ne dit rien." en="He took her letter, read it twice and said nothing." />
 
@@ -235,7 +263,7 @@ Clara and Malik talk about the novel Malik is reading. They use the passé compo
 - *D'accord, mais je te préviens : la fin est triste !* (OK, but I'm warning you: the ending is sad!)
 
 <Callout type="warning" title="Ils partirent, not ils partèrent">
-  Learners often add *-èrent* to every verb in the plural. Only *-er* verbs take it: *ils parlèrent*, *ils allèrent*. Other verbs take *-irent* or *-urent*: **ils partirent**, **ils prirent**, **ils voulurent**.
+  Learners often add *-èrent* to every verb in the plural. Only *-er* verbs take it: *ils parlèrent*, *ils allèrent*. Most other verbs take *-irent* or *-urent*, and *venir* and *tenir* take *-inrent*: **ils partirent**, **ils prirent**, **ils voulurent**, **ils vinrent**.
 </Callout>
 
 <Callout type="tip" title="Retell a page in the passé simple">

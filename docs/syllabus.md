@@ -439,8 +439,8 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
 | 9 | c1-stylistic-inversion | Stylistic inversion | Style and emphasis | grammar | a1-yes-no-questions, b2-registers | After peut-être, ainsi, sans doute, à peine; in reported-speech incises (dit-il). Reuses: literature, formal writing. |
-| 10 | c1-ne-expletif | The ne explétif | Style and emphasis | grammar | b2-subjunctive-conjunctions | After avant que, à moins que, de peur que, craindre que, plus… que. Reuses: formal writing, debate. |
-| 11 | c1-literary-negation | Literary negation | Style and emphasis | grammar | b1-ne-que-ni-ni, c1-ne-expletif | ne without pas (je ne saurais, je n'ose, je ne cesse de), nul, guère. Reuses: literature, correspondence. |
+| 10 | c1-ne-expletif | The ne explétif | Style and emphasis | grammar | b2-subjunctive-conjunctions, b2-purpose-expressions | After avant que, à moins que, de peur que, craindre que, plus… que. Reuses: formal writing, debate. |
+| 11 | c1-literary-negation | Literary negation | Style and emphasis | grammar | b1-ne-que-ni-ni, b2-registers, c1-ne-expletif | ne without pas (je ne saurais, je n'ose, je ne cesse de), nul, guère. Reuses: literature, correspondence. |
 | 12 | c1-dislocation-and-fronting | Dislocation and fronting | Style and emphasis | grammar | b2-mise-en-relief | Ce livre, je l'ai adoré; moi, je…; spoken vs written emphasis. Reuses: opinions, arts. |
 | 13 | c1-adverb-placement | Adverb placement and nuance | Style and emphasis | grammar | a2-adverbs-ment, b2-participles-and-gerund | Position and meaning shifts (seulement, même, bien); sentence adverbs. Reuses: formal writing. |
 | 14 | c1-tricky-prepositions | Tricky prepositions | Style and emphasis | grammar | a2-verbs-with-a-and-de, b2-relative-prepositions | Nuanced à / de / en / par / pour / dans; verbs whose meaning changes with the preposition. Reuses: ideas, technology. |

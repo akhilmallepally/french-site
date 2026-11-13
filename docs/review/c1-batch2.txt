@@ -1,0 +1,728 @@
+===== content/lessons/c1/future-in-the-past.mdx =====
+---
+id: "c1-future-in-the-past"
+title: "The future in the past and tense nuance"
+description: "Look ahead from a moment in the past: the conditionnel and the conditionnel passé outside reported speech, allait and devait + infinitive, ne pas tarder à, and the historical present with the futur in reports."
+level: "C1"
+unit: "Literary French"
+order: 3
+type: "grammar"
+tags: ["grammar", "past tenses", "literary French", "formal writing"]
+prerequisites: ["b2-reported-speech-past", "b2-futur-anterieur"]
+related: ["c1-passe-simple", "c1-passe-anterieur", "b2-conditionnel-passe"]
+vocab:
+  - { id: "c1-future-in-the-past-v001", group: "forms", fr: "le futur dans le passé", pron: "luh few-TEWR dahn luh pah-SAY", en: "the future in the past" }
+  - { id: "c1-future-in-the-past-v002", group: "forms", fr: "devait + infinitive", pron: "duh-VEH", en: "was supposed to; (in a story) was to", note: "Il devait arriver à midi. Il ne devait jamais revenir." }
+  - { id: "c1-future-in-the-past-v003", group: "forms", fr: "ne pas tarder à", pron: "nuh pah tar-DAY ah", en: "not to be long in (doing), to (do) soon", note: "+ infinitive: il ne tarda pas à revenir." }
+  - { id: "c1-future-in-the-past-v004", group: "forms", fr: "le présent de narration", pron: "luh pray-ZAHN duh nah-rah-SYOHN", en: "the historical present" }
+  - { id: "c1-future-in-the-past-v005", group: "story", fr: "le port", pron: "luh POR", en: "the port, the harbour" }
+  - { id: "c1-future-in-the-past-v006", group: "story", fr: "le navire", pron: "luh nah-VEER", en: "the ship" }
+  - { id: "c1-future-in-the-past-v007", group: "story", fr: "le marin", pron: "luh mah-RAN", en: "the sailor" }
+  - { id: "c1-future-in-the-past-v008", group: "story", fr: "embarquer", pron: "ahn-bar-KAY", en: "to board, to go on board" }
+  - { id: "c1-future-in-the-past-v009", group: "story", fr: "la frontière", pron: "lah frohn-TYEHR", en: "the border" }
+  - { id: "c1-future-in-the-past-v010", group: "story", fr: "lointain / lointaine", pron: "lwan-TAN / lwan-TEN", en: "distant, faraway" }
+  - { id: "c1-future-in-the-past-v011", group: "story", fr: "le siècle", pron: "luh SYEK-luh", en: "the century" }
+  - { id: "c1-future-in-the-past-v012", group: "story", fr: "fonder", pron: "fohn-DAY", en: "to found, to set up" }
+exercises:
+  - id: "c1-future-in-the-past-ex001"
+    type: "fill-in"
+    prompt: "Conjuguez au conditionnel présent (devenir) : À vingt ans, il ne savait pas encore qu'il ___ marin."
+    answers: ["deviendrait"]
+    explanation: "Seen from a past moment, a later event takes the conditionnel: il deviendrait."
+  - id: "c1-future-in-the-past-ex002"
+    type: "fill-in"
+    prompt: "Conjuguez au conditionnel passé (finir) : Elle avait promis de m'appeler dès qu'elle ___."
+    answers: ["aurait fini"]
+    explanation: "After a past verb, the futur antérieur of the time clause becomes the conditionnel passé: dès qu'elle aurait fini."
+  - id: "c1-future-in-the-past-ex003"
+    type: "fill-in"
+    prompt: "Conjuguez au conditionnel présent (venir) : Elle disait qu'elle ___ quand elle aurait le temps."
+    answers: ["viendrait"]
+    explanation: "Both future actions move into the conditionnel: viendrait, aurait."
+  - id: "c1-future-in-the-past-ex004"
+    type: "fill-in"
+    prompt: "Complétez avec « devoir » à l'imparfait : Le navire ___ partir à midi, mais il n'est parti que le soir."
+    answers: ["devait"]
+    explanation: "Devait + infinitive: what was planned, here not what happened."
+  - id: "c1-future-in-the-past-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Ce jour-là, ils ne savaient pas qu'ils ne ___ jamais leur village."
+    options: ["reverraient", "revoient", "reverrons"]
+    answers: ["reverraient"]
+    explanation: "A later event seen from ce jour-là: the conditionnel. Revoient is the present, and reverrons doesn't match ils."
+  - id: "c1-future-in-the-past-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « devait » dans la phrase : Il devait arriver à midi, mais il n'est jamais venu."
+    options: ["was supposed to", "must have", "would have"]
+    answers: ["was supposed to"]
+    explanation: "Devait + infinitive gives the plan; mais shows it didn't happen."
+  - id: "c1-future-in-the-past-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez le sens de la phrase : Elle ne devait jamais revenir."
+    options: ["She was never to come back.", "She will never come back.", "She has never come back."]
+    answers: ["She was never to come back."]
+    explanation: "In a story, ne devait jamais + infinitive announces what fate had in store."
+  - id: "c1-future-in-the-past-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Il ___ embarquer quand sa mère surgit de la foule."
+    options: ["allait", "irait", "ira"]
+    answers: ["allait"]
+    explanation: "Allait + infinitive: he was about to board when something interrupted him."
+  - id: "c1-future-in-the-past-ex009"
+    type: "multiple-choice"
+    prompt: "Choisissez le temps de la suite dans un récit au présent de narration : En 1850, il quitte son village ; il ne le ___ jamais."
+    options: ["reverra (le futur simple)", "reverrait (le conditionnel présent)", "avait revu (le plus-que-parfait)"]
+    answers: ["reverra (le futur simple)"]
+    explanation: "When the story is told in the present, a later event takes the futur simple."
+  - id: "c1-future-in-the-past-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « ne pas tarder à », au passé simple : Il se mit bientôt à pleuvoir."
+    answers: ["Il ne tarda pas à pleuvoir"]
+    explanation: "Ne pas tarder à + infinitive: it wasn't long before it rained."
+    strictAccents: true
+  - id: "c1-future-in-the-past-ex011"
+    type: "reformulation"
+    prompt: "Reformulez en commençant par « Elle disait qu'elle » : Je viendrai dès que j'aurai fini."
+    answers: ["Elle disait qu'elle viendrait dès qu'elle aurait fini"]
+    explanation: "The futur becomes the conditionnel, and the futur antérieur becomes the conditionnel passé."
+    strictAccents: true
+  - id: "c1-future-in-the-past-ex012"
+    type: "reformulation"
+    prompt: "Reformulez au présent de narration, avec le futur simple pour la suite : En 1850, il quitta son village ; il ne le revit jamais."
+    answers: ["En 1850, il quitte son village ; il ne le reverra jamais"]
+    explanation: "Quitta becomes quitte, and the later event, seen from that present, takes the futur: reverra."
+  - id: "c1-future-in-the-past-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Ce jour-là, il savait qu'il partira le lendemain."
+    answers: ["Ce jour-là, il savait qu'il partirait le lendemain", "Ce jour-là, il savait qu'il allait partir le lendemain", "Ce jour-là, il savait qu'il devait partir le lendemain"]
+    explanation: "Seen from ce jour-là, the departure is a future in the past: partirait, allait partir, or devait partir for a plan."
+    strictAccents: true
+  - id: "c1-future-in-the-past-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Elle avait promis de partir dès qu'elle aura fini."
+    answers: ["Elle avait promis de partir dès qu'elle aurait fini"]
+    explanation: "After a past verb, the time clause takes the conditionnel passé: dès qu'elle aurait fini."
+    strictAccents: true
+  - id: "c1-future-in-the-past-ex015"
+    type: "translate"
+    prompt: "Traduisez avec « devait » : The train was supposed to arrive at noon."
+    answers: ["Le train devait arriver à midi"]
+    explanation: "Devait + infinitive for a plan."
+    strictAccents: true
+  - id: "c1-future-in-the-past-ex016"
+    type: "translate"
+    prompt: "Traduisez au passé simple, comme dans un récit (ne pas tarder à, revenir) : The rider soon came back."
+    answers: ["Le cavalier ne tarda pas à revenir", "La cavalière ne tarda pas à revenir"]
+    explanation: "Ne tarda pas à + infinitive, in the passé simple of the narrative."
+    strictAccents: true
+  - id: "c1-future-in-the-past-ex017"
+    type: "translate"
+    prompt: "Traduisez avec le conditionnel passé (penser, avant le soir, franchir) : She thought that she would have crossed the border before evening."
+    answers: ["Elle pensait qu'avant le soir, elle aurait franchi la frontière", "Elle pensait qu'elle aurait franchi la frontière avant le soir"]
+    explanation: "A future perfect seen from the past: the conditionnel passé, aurait franchi."
+  - id: "c1-future-in-the-past-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : He was never to see his country again."
+    words: ["Il", "ne", "devait", "jamais", "revoir", "son", "pays"]
+    answers: ["Il ne devait jamais revoir son pays"]
+    explanation: "Ne devait jamais + infinitive: what fate had in store."
+---
+
+By the end of this lesson you'll be able to look ahead from a moment in the past, in a story or a report, and choose between the conditionnel, *allait*, *devait* and the futur.
+
+## What you already know
+
+In <LessonLink id="b2-reported-speech-past" text="the lesson on reported speech in the past" />, you shifted the tenses after *il a dit que*: the futur became the conditionnel (*qu'il viendrait*), the futur antérieur became the conditionnel passé (*qu'il aurait fini*), and *je vais partir* became *qu'il allait partir*. You know the futur antérieur after *quand* and *dès que* from <LessonLink id="b2-futur-anterieur" text="the lesson on the futur antérieur" />. This lesson uses the same forms outside reported speech, wherever a story looks ahead.
+
+## The future seen from the past
+
+<VocabTable group="forms" />
+
+A narrative stands at a moment in the past. Anything that comes later, seen from that moment, takes the conditionnel. This is called *le futur dans le passé*. It appears after verbs like *savoir*, *penser* and *espérer*, but also on its own, when the narrator announces what will happen next.
+
+<Example fr="À vingt ans, il ne savait pas encore qu'il deviendrait marin." en="At twenty, he didn't yet know that he would become a sailor." />
+<Example fr="Elle quitta la ville en mars. Elle n'y reviendrait que dix ans plus tard." en="She left the city in March. She wouldn't come back until ten years later. (literary)" />
+
+The second sentence has no verb like *savoir*: the narrator jumps ahead. This use belongs to written narrative.
+
+## The future perfect in the past
+
+When the earlier of two future actions is seen from the past, the futur antérieur becomes the conditionnel passé, in the main clause and after *quand*, *dès que* or *une fois que*.
+
+<Example fr="Il pensait qu'avant la nuit, il aurait franchi la frontière." en="He thought that by nightfall he would have crossed the border." />
+<Example fr="Elle avait promis de m'écrire dès qu'elle serait arrivée." en="She had promised to write to me as soon as she had arrived." />
+
+Compare the present version, *elle promet de m'écrire dès qu'elle sera arrivée*: *sera arrivée* becomes *serait arrivée*.
+
+## Allait + infinitive: about to
+
+*Aller* in the imparfait + infinitive is the futur proche seen from the past. It shows an action that was close, planned or about to start. Interrupted by an event in the passé simple, it means "was about to".
+
+<Example fr="Il allait embarquer quand on l'appela." en="He was about to board when someone called him." />
+
+The conditionnel and *allait* are both correct after *il savait que*, with a nuance. *Il savait qu'il partirait* places the departure at some point later. *Il savait qu'il allait partir* makes it close or already decided.
+
+<Example fr="Elle savait qu'un jour, elle partirait." en="She knew that one day she would leave." />
+<Example fr="Elle savait qu'elle allait partir le lendemain." en="She knew she was going to leave the next day." />
+
+## Devait + infinitive: a plan or fate
+
+*Devoir* in the imparfait + infinitive has two meanings in a past context. In everyday French, it gives a plan, often one that didn't work out: "was supposed to".
+
+<Example fr="Le navire devait partir à midi, mais il ne partit que le soir." en="The ship was supposed to leave at noon, but it didn't leave until the evening." />
+
+In a story, it can also announce what fate had in store: "was to". This use is literary, and it's common with *jamais*.
+
+<Example fr="Il quitta le port ce jour-là. Il ne devait jamais revoir son pays." en="He left the harbour that day. He was never to see his country again. (literary)" />
+
+Don't confuse it with the passé simple of *devoir*: *il dut partir* means "he had to leave", an obligation that was carried out.
+
+## Ne pas tarder à
+
+*Ne pas tarder à* + infinitive means "not to be long in doing": the next event came quickly. In a narrative, it's often in the passé simple; in speech, you'll hear *il ne va pas tarder* (he won't be long).
+
+<Example fr="La pluie ne tarda pas à tomber." en="It wasn't long before the rain started to fall." />
+
+## The historical present in reports
+
+Historians, journalists and biographers often tell past events in the present: this is *le présent de narration*. It makes the account more direct. In that frame, what comes later is in the futur simple, not the conditionnel, because the "now" of the story is the present.
+
+<Example fr="Au dix-neuvième siècle, elle fonde une école dans un pays lointain ; elle y passera toute sa vie." en="In the nineteenth century, she founds a school in a distant country; she will spend her whole life there. (an invented person)" />
+
+Choose one frame per paragraph: passé simple and imparfait with the conditionnel, or the present with the futur.
+
+## The whole list
+
+- Later, seen from the past: conditionnel (*il deviendrait*).
+- Earlier of two future actions, seen from the past: conditionnel passé (*dès qu'elle serait arrivée*).
+- Close or decided: *allait* + infinitive.
+- A plan: *devait* + infinitive; fate, in a story: *ne devait jamais* + infinitive.
+- Soon after: *ne pas tarder à* + infinitive.
+- In a report in the present: futur simple for what comes later.
+
+## A short narrative
+
+<VocabTable group="story" />
+
+This is the opening of an original story. The first paragraph sets the scene in the imparfait, with the conditionnel for what comes later. The second tells the events in the passé simple.
+
+*En 1850, Paul avait vingt ans et vivait dans un petit village, loin de la mer. Il rêvait de voyages, mais il ne savait pas encore qu'il deviendrait marin.*
+
+*Un matin d'automne, il marcha jusqu'au port. Le navire devait partir à midi, mais il ne partit que le soir. Paul allait embarquer quand sa mère surgit de la foule. Elle lui donna une lettre et lui dit qu'il la lirait quand il serait arrivé. Le navire ne tarda pas à s'éloigner. Paul ne devait jamais revoir son village.*
+
+(In 1850, Paul was twenty and lived in a small village, far from the sea. He dreamt of travelling, but he didn't yet know that he would become a sailor. One autumn morning, he walked to the harbour. The ship was supposed to leave at noon, but it didn't leave until the evening. Paul was about to board when his mother appeared out of the crowd. She gave him a letter and told him he would read it once he had arrived. It wasn't long before the ship moved away. Paul was never to see his village again.)
+
+## En français
+
+Nadia missed this morning's meeting. Her colleague Marc tells her what happened.
+
+- *Tu n'étais pas à la réunion ce matin ?* (Weren't you at the meeting this morning?)
+- *Non, je devais venir, mais mon train a eu une heure de retard.* (No, I was supposed to come, but my train was an hour late.)
+- *Dommage ! La directrice a annoncé qu'elle partirait à la fin du mois.* (Pity! The director announced she would leave at the end of the month.)
+- *Quoi ? Elle m'avait dit qu'elle resterait jusqu'en juin !* (What? She'd told me she would stay until June!)
+- *Elle a changé d'avis. Elle a dit qu'elle nous donnerait le nom de son remplaçant dès qu'elle l'aurait choisi.* (She changed her mind. She said she'd give us the name of her replacement as soon as she'd chosen him.)
+- *Et notre projet ? On allait le finir en mai.* (And our project? We were going to finish it in May.)
+- *Elle a promis qu'on l'aurait fini avant son départ.* (She promised we'd have finished it before she left.)
+- *J'en doute. On ne va pas tarder à avoir des problèmes.* (I doubt it. It won't be long before we have problems.)
+- *Ne t'inquiète pas.* (Don't worry.)
+- *Tu as raison. Au fait, elle devait nous envoyer un message cet après-midi.* (You're right. By the way, she was supposed to send us a message this afternoon.)
+- *Elle l'a envoyé il y a une heure. Elle allait t'appeler, d'ailleurs.* (She sent it an hour ago. She was going to call you, actually.)
+- *Alors je vais l'appeler moi-même.* (Then I'll call her myself.)
+
+<Callout type="warning" title="Dès qu'elle serait arrivée, not dès qu'elle sera arrivée">
+  After a verb in the past, learners often keep the futur antérieur in the time clause. Seen from the past, it becomes the conditionnel passé: *elle avait promis de m'écrire* **dès qu'elle serait arrivée**.
+</Callout>
+
+<Callout type="tip" title="Write what they didn't know yet">
+  Pick a moment in your own past and write three sentences that start with *Ce jour-là, je ne savais pas encore que…*, each with a conditionnel. Then rewrite one of them with *ne devait jamais* or *allait*. It trains the future in the past on a story you know well.
+</Callout>
+
+## En résumé
+
+Le futur dans le passé montre ce qui arrive plus tard, vu d'un moment du passé. On met alors le verbe au conditionnel : il ne savait pas encore qu'il deviendrait marin. Pour l'action finie avant une autre, on prend le conditionnel passé, aussi après quand et dès que : elle avait promis d'écrire dès qu'elle serait arrivée. Aller à l'imparfait suivi de l'infinitif montre une action proche ou décidée : il allait embarquer quand on l'appela. Devoir à l'imparfait suivi de l'infinitif donne un projet, souvent manqué, ou, dans un récit, le destin : il ne devait jamais revoir son pays. Ne pas tarder à veut dire que l'action suivante arrive vite. Avec le présent de narration, on raconte le passé au présent, et la suite est au futur simple.
+
+## What's next
+
+The next lesson, on the imperfect and pluperfect subjunctive, shows two literary forms of the subjunctive that you'll meet in classic texts.
+
+===== content/lessons/c1/ne-expletif.mdx =====
+---
+id: "c1-ne-expletif"
+title: "The ne explétif"
+description: "Recognize and use the ne explétif after avant que, à moins que, de peur que, craindre que, empêcher que, il s'en faut de peu que and comparisons (plus… que je ne pensais), and tell it apart from a real negation."
+level: "C1"
+unit: "Style and emphasis"
+order: 10
+type: "grammar"
+tags: ["grammar", "subjunctive", "negation", "formal writing"]
+prerequisites: ["b2-subjunctive-conjunctions", "b2-purpose-expressions"]
+related: ["b1-subjonctif-wishes-emotions", "c1-stylistic-inversion"]
+vocab:
+  - { id: "c1-ne-expletif-v001", group: "triggers", fr: "empêcher que", pron: "ahn-peh-SHAY kuh", en: "to prevent (something from happening)", note: "+ subjunctive, often with ne: empêcher que la situation ne devienne grave." }
+  - { id: "c1-ne-expletif-v002", group: "triggers", fr: "redouter que", pron: "ruh-doo-TAY kuh", en: "to dread that, to fear that (formal)", note: "+ subjunctive, often with ne." }
+  - { id: "c1-ne-expletif-v003", group: "triggers", fr: "il s'en faut de peu que", pron: "eel sahn FOH duh PUH kuh", en: "very nearly, it comes close to", note: "Mostly in the past: il s'en est fallu de peu que nous ne soyons en retard (we very nearly were late)." }
+  - { id: "c1-ne-expletif-v004", group: "triggers", fr: "plus… que je ne", pron: "plew… kuh zhuh NUH", en: "more… than I (thought, expected)", note: "Also moins, autre, meilleur… que + ne + indicative." }
+  - { id: "c1-ne-expletif-v005", group: "words", fr: "le pont", pron: "luh POHN", en: "the bridge" }
+  - { id: "c1-ne-expletif-v006", group: "words", fr: "s'effondrer", pron: "say-fohn-DRAY", en: "to collapse" }
+  - { id: "c1-ne-expletif-v007", group: "words", fr: "se propager", pron: "suh proh-pah-ZHAY", en: "to spread" }
+  - { id: "c1-ne-expletif-v008", group: "words", fr: "glisser", pron: "glee-SAY", en: "to slip, to slide" }
+  - { id: "c1-ne-expletif-v009", group: "words", fr: "s'aggraver", pron: "sah-grah-VAY", en: "to get worse" }
+  - { id: "c1-ne-expletif-v010", group: "words", fr: "l'issue (f.)", pron: "lee-SEW", en: "the outcome", note: "Not an issue (a problem): that's un problème or une question." }
+  - { id: "c1-ne-expletif-v011", group: "words", fr: "la fuite", pron: "lah FWEET", en: "the leak; the escape" }
+  - { id: "c1-ne-expletif-v012", group: "words", fr: "le soupçon", pron: "luh soop-SOHN", en: "the suspicion" }
+exercises:
+  - id: "c1-ne-expletif-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : J'ai peur qu'il ne vienne."
+    options: ["I'm afraid he'll come.", "I'm afraid he won't come.", "I'm not afraid he'll come."]
+    answers: ["I'm afraid he'll come."]
+    explanation: "No pas: the ne is explétif and adds no negation."
+  - id: "c1-ne-expletif-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : J'ai peur qu'il ne vienne pas."
+    options: ["I'm afraid he won't come.", "I'm afraid he'll come.", "I'm not afraid he'll come."]
+    answers: ["I'm afraid he won't come."]
+    explanation: "Ne… pas is a real negation: the fear is that he won't come."
+  - id: "c1-ne-expletif-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « ne » dans la phrase : Partez avant qu'il ne soit trop tard."
+    options: ["ne explétif", "négation"]
+    answers: ["ne explétif"]
+    explanation: "Avant que… ne, with no pas: the meaning is \"before it's too late\"."
+  - id: "c1-ne-expletif-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « ne » dans la phrase : Je crains qu'elle ne puisse pas venir."
+    options: ["négation", "ne explétif"]
+    answers: ["négation"]
+    explanation: "Ne… pas: the fear is that she can't come."
+  - id: "c1-ne-expletif-ex005"
+    type: "fill-in"
+    prompt: "Conjuguez au subjonctif, avec le ne explétif (venir) : Il faut partir avant qu'il ___."
+    answers: ["ne vienne"]
+    explanation: "Avant que + subjunctive, with the ne explétif: avant qu'il ne vienne."
+  - id: "c1-ne-expletif-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec le ne explétif (penser, imparfait) : Le voyage a été plus long que je ___."
+    answers: ["ne pensais"]
+    explanation: "After a comparison, the ne explétif comes with the indicative: que je ne pensais."
+  - id: "c1-ne-expletif-ex007"
+    type: "fill-in"
+    prompt: "Conjuguez au subjonctif, avec le ne explétif (partir) : Nous avons tout fait pour éviter qu'il ___."
+    answers: ["ne parte"]
+    explanation: "Éviter que + subjunctive, here with the ne explétif: qu'il ne parte."
+  - id: "c1-ne-expletif-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Il a fermé la fenêtre, ___ le chat ne sorte."
+    options: ["de crainte que", "parce que", "pendant que"]
+    answers: ["de crainte que"]
+    explanation: "Sorte is a subjunctive, and the ne explétif follows a word of fear: de crainte que."
+  - id: "c1-ne-expletif-ex009"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Il est plus tard que je ne ___."
+    options: ["croyais", "croie", "croyais pas"]
+    answers: ["croyais"]
+    explanation: "A comparison takes the indicative and no pas: que je ne croyais."
+  - id: "c1-ne-expletif-ex010"
+    type: "register-shift"
+    prompt: "Transformez en français courant, sans le ne explétif : Je crains qu'il ne soit trop tard."
+    answers: ["Je crains qu'il soit trop tard", "J'ai peur qu'il soit trop tard"]
+    explanation: "Drop the ne; the meaning doesn't change. J'ai peur que is the everyday verb."
+  - id: "c1-ne-expletif-ex011"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec le ne explétif : On doit partir avant qu'il fasse nuit."
+    answers: ["Nous devons partir avant qu'il ne fasse nuit", "On doit partir avant qu'il ne fasse nuit"]
+    explanation: "Add ne before the subjunctive; careful writing also prefers nous to on."
+  - id: "c1-ne-expletif-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec « il s'en est fallu de peu que » : Nous avons presque été en retard."
+    answers: ["Il s'en est fallu de peu que nous ne soyons en retard", "Il s'en est fallu de peu que nous soyons en retard"]
+    explanation: "Il s'en est fallu de peu que + subjunctive, usually with the ne explétif: que nous ne soyons."
+  - id: "c1-ne-expletif-ex013"
+    type: "reformulation"
+    prompt: "Reformulez avec « empêcher que » et le ne explétif : Il faut éviter que la situation devienne grave."
+    answers: ["Il faut empêcher que la situation ne devienne grave"]
+    explanation: "Empêcher que + subjunctive, with the ne explétif in careful writing."
+  - id: "c1-ne-expletif-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (la personne craint qu'il vienne) : J'ai peur qu'il ne vienne pas."
+    answers: ["J'ai peur qu'il ne vienne", "J'ai peur qu'il vienne"]
+    explanation: "With pas, the sentence means the opposite. Drop pas: the ne explétif is optional."
+  - id: "c1-ne-expletif-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Le film était meilleur que je ne le pensais pas."
+    answers: ["Le film était meilleur que je ne le pensais", "Le film était meilleur que je le pensais", "Le film était meilleur que je ne pensais", "Le film était meilleur que je pensais"]
+    explanation: "A comparison has no pas. Keep the ne explétif or drop it; the le is optional too."
+  - id: "c1-ne-expletif-ex016"
+    type: "translate"
+    prompt: "Traduisez avec le ne explétif (vous, avant que, partir) : Call him before he leaves."
+    answers: ["Appelez-le avant qu'il ne parte"]
+    explanation: "Avant que + subjunctive, with the ne explétif: avant qu'il ne parte."
+  - id: "c1-ne-expletif-ex017"
+    type: "translate"
+    prompt: "Traduisez en français courant, sans le ne explétif : I'm afraid she'll be late."
+    answers: ["J'ai peur qu'elle soit en retard", "Je crains qu'elle soit en retard"]
+    explanation: "Avoir peur que + subjunctive. In everyday French, no ne."
+  - id: "c1-ne-expletif-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : It's harder than I thought."
+    words: ["C'est", "plus", "difficile", "que", "je", "ne", "pensais"]
+    answers: ["C'est plus difficile que je ne pensais"]
+    explanation: "A comparison, then que je ne + indicative."
+---
+
+By the end of this lesson you'll be able to recognize the *ne* that doesn't negate, use it in careful writing, and never confuse it with a real negation.
+
+## What you already know
+
+You met *le ne explétif* in <LessonLink id="b1-subjonctif-wishes-emotions" text="the lesson on the subjunctive of wishes and emotions" />, after *avoir peur que* and *craindre que*, and used it after *avant que* and *à moins que* in <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on conjunctions with the subjunctive" />. In <LessonLink id="b2-purpose-expressions" text="the lesson on purpose expressions" />, you saw it after *de peur que* and *de crainte que*, and you learned *éviter que*. This lesson completes the list and shows how to tell it from a negation.
+
+## What the ne explétif is
+
+The *ne explétif* is a small *ne* with no negative meaning and no *pas*. It doesn't change what the sentence says: with or without it, the meaning is the same. It marks a careful, formal register, and in most places it's optional. In everyday speech, people usually leave it out.
+
+<Example fr="Partez avant qu'il ne soit trop tard." en="Leave before it's too late. (formal)" />
+<Example fr="Partez avant qu'il soit trop tard." en="Leave before it's too late. (standard)" />
+
+It appears where the idea behind the clause is a risk, a fear or something you want to prevent, or after a comparison of inequality.
+
+## After words of fear and prevention
+
+<VocabTable group="triggers" />
+
+After *avoir peur que*, *craindre que*, *redouter que*, *de peur que* and *de crainte que*, the subjunctive is often preceded by the *ne explétif* in writing.
+
+<Example fr="Je redoute qu'il ne fasse une erreur." en="I dread that he'll make a mistake. (formal)" />
+
+*Empêcher que* and *éviter que* express what you want to prevent. They take the subjunctive, and the *ne* is common but optional.
+
+<Example fr="Il faut empêcher que la situation ne devienne grave." en="We must prevent the situation from becoming serious. (formal)" />
+<Example fr="Nous avons tout fait pour éviter qu'il ne parte." en="We did everything we could to stop him leaving. (formal)" />
+
+*Il s'en faut de peu que* means "very nearly": something almost happened. You'll mostly meet it in the passé composé, *il s'en est fallu de peu que*, with the subjunctive and usually the *ne*.
+
+<Example fr="Il s'en est fallu de peu que nous ne soyons en retard." en="We very nearly were late. (formal)" />
+
+When the fear itself is denied or questioned (*je ne crains pas que*, *craignez-vous que…?*), the *ne explétif* is usually left out. Treat this as a rule of thumb.
+
+## After a comparison
+
+After a comparison of inequality, such as *plus… que*, *moins… que*, *autre… que* or *meilleur… que*, followed by a clause, careful French adds *ne* before the verb. Here the verb is in the indicative, not the subjunctive. You can also add *le*, which stands for the idea.
+
+<Example fr="L'incendie s'est propagé plus vite que nous ne le pensions." en="The fire spread faster than we thought. (formal)" />
+<Example fr="L'issue du match a été moins heureuse que nous ne l'espérions." en="The outcome of the match was less happy than we'd hoped. (formal)" />
+
+After *autant… que* and *aussi… que*, which compare equal things, there's no *ne*.
+
+## Ne explétif or negation?
+
+This is the key point. A real negation has a second word: *pas*, *plus*, *jamais*, *rien*. The *ne explétif* stands alone. With a word of fear, the two can mean opposite things.
+
+| Sentence | Meaning |
+|---|---|
+| *J'ai peur qu'il ne vienne.* | I'm afraid he'll come. (formal) |
+| *J'ai peur qu'il vienne.* | I'm afraid he'll come. (standard) |
+| *J'ai peur qu'il ne vienne pas.* | I'm afraid he won't come. |
+
+The same test works after *de crainte que*.
+
+<Example fr="Elle a gardé ses soupçons pour elle, de crainte qu'on ne la croie pas." en="She kept her suspicions to herself, for fear that people wouldn't believe her." />
+
+Here *ne… pas* is a real negation: she was afraid of not being believed.
+
+## Using it in your own writing
+
+In a formal letter, a report or an essay, the *ne explétif* is a mark of care, but it's never required. As a rule of thumb, use it where readers expect it, after *avant que*, *à moins que* and the verbs of fear, and leave it out of quick emails to colleagues and of anything you say aloud.
+
+Don't add it after *bien que*, *pour que* or *après que*. These conjunctions don't express a risk, and a *ne* there reads as a mistake or as a negation without its partner. It never goes with an infinitive either: *avant de partir*, *de peur de glisser*. Remember too that with *avant que* and *de peur que*, when both verbs have the same subject, you normally use the infinitive instead, as you saw at B2.
+
+<Example fr="Je vous écris avant que vous ne preniez votre décision." en="I'm writing to you before you make your decision. (formal)" />
+
+## Words for risks
+
+<VocabTable group="words" />
+
+The *ne explétif* is common in formal reports about risks: accidents, damage, a situation that could get worse. The verbs below are useful in such reports, in any tense.
+
+<Example fr="Le vieux pont s'est effondré pendant la tempête." en="The old bridge collapsed during the storm." />
+<Example fr="La situation s'aggrave plus vite qu'on ne le pensait." en="The situation is getting worse faster than people thought. (formal)" />
+<Example fr="Il faut trouver la fuite avant qu'il ne soit trop tard." en="We must find the leak before it's too late. (formal)" />
+<Example fr="Il a glissé et il est tombé." en="He slipped and fell." />
+
+## En français
+
+Claire has written a formal letter to a client. She asks her manager, Monsieur Duval, to read it.
+
+- *Monsieur Duval, vous pouvez lire ma lettre au client ?* (Mr Duval, can you read my letter to the client?)
+- *Bien sûr. Vous avez écrit : « avant que nous ne fassions une nouvelle offre ».* (Of course. You wrote: "before we make a new offer".)
+- *Oui. C'est une erreur ? Il n'y a pas de « pas ».* (Yes. Is that a mistake? There's no "pas".)
+- *Non, c'est le ne explétif. Il ne veut pas dire « pas », et dans une lettre, il est très bien.* (No, it's the ne explétif. It doesn't mean "not", and in a letter it's very good.)
+- *Et à l'oral ?* (And when speaking?)
+- *À l'oral, on ne le dit pas souvent. « Avant que nous fassions une offre » est aussi correct.* (When speaking, people don't say it often. "Avant que nous fassions une offre" is also correct.)
+- *Et ici : « Je crains que le délai ne soit trop court. »* (And here: "I fear the deadline may be too short.")
+- *Parfait. Mais attention : « que le délai ne soit pas assez long », c'est le contraire !* (Perfect. But careful: "que le délai ne soit pas assez long" is the opposite!)
+- *Je comprends. La lettre m'a pris plus de temps que je ne pensais.* (I understand. The letter took me longer than I thought.)
+- *Comme toujours ! Envoyez-la avant que le client ne parte en vacances.* (As always! Send it before the client goes on holiday.)
+- *Je l'envoie tout de suite. Merci pour votre aide.* (I'll send it straight away. Thanks for your help.)
+- *Avec plaisir. Bonne soirée !* (My pleasure. Have a good evening!)
+
+<Callout type="warning" title="J'ai peur qu'il ne vienne means he might come">
+  Learners often read every *ne* as "not". Without *pas*, the *ne* after a word of fear is explétif: **j'ai peur qu'il ne vienne** means "I'm afraid he'll come". To say "I'm afraid he won't come", you need **j'ai peur qu'il ne vienne pas**.
+</Callout>
+
+<Callout type="tip" title="Cover the ne and reread">
+  When you meet a *ne* without *pas* in a formal text, cover it with your finger and reread the sentence. If the meaning stays the same, it's explétif. If the sentence now says the opposite, look again: there may be a partner word further on.
+</Callout>
+
+## En résumé
+
+Le ne explétif est un petit ne sans pas, qui ne fait pas de la phrase une négation. Avec ou sans lui, la phrase veut dire la même chose. On le trouve surtout à l'écrit soutenu, et on peut souvent ne pas le mettre. Il suit les mots de peur et les verbes qui veulent empêcher quelque chose : avoir peur que, craindre que, redouter que, de crainte que, empêcher que, éviter que, avant que, à moins que, il s'en faut de peu que. Après ces mots, le verbe est au subjonctif : avant qu'il ne parte. Après plus… que ou moins… que, le verbe est à l'indicatif : c'est plus difficile que je ne pensais. Attention : avec pas, c'est une vraie négation. J'ai peur qu'il ne vienne et j'ai peur qu'il ne vienne pas ont des sens contraires.
+
+## What's next
+
+Next, <LessonLink id="c1-literary-negation" text="the lesson on literary negation" /> shows *ne… point*, *nul ne* and the other negatives of formal and literary French.
+
+===== content/lessons/c1/literary-negation.mdx =====
+---
+id: "c1-literary-negation"
+title: "Literary negation"
+description: "Read and use the negatives of formal and literary French: ne… point, nullement and aucunement, nul ne, ne alone with oser and cesser, ne… ni ne and sans… ni, with their everyday equivalents."
+level: "C1"
+unit: "Style and emphasis"
+order: 11
+type: "grammar"
+tags: ["grammar", "negation", "literary French", "formal writing"]
+prerequisites: ["b1-ne-que-ni-ni", "b2-registers", "c1-ne-expletif"]
+related: ["b1-indefinite-pronouns", "a2-negative-expressions", "c1-stylistic-inversion"]
+vocab:
+  - { id: "c1-literary-negation-v001", group: "negatives", fr: "ne… point", pron: "nuh… PWAN", en: "not, not at all (literary)" }
+  - { id: "c1-literary-negation-v002", group: "negatives", fr: "nullement / aucunement", pron: "newl-MAHN / oh-kew-nuh-MAHN", en: "not at all, in no way (formal)", note: "Also alone, as a reply: Nullement." }
+  - { id: "c1-literary-negation-v003", group: "negatives", fr: "nul ne / nulle ne", pron: "newl nuh", en: "nobody, no one (formal)", note: "Nul ne sait. No pas." }
+  - { id: "c1-literary-negation-v004", group: "negatives", fr: "nul / nulle + noun", pron: "NEWL", en: "no (formal)", note: "Il n'avait nulle envie de partir. Nulle part: nowhere." }
+  - { id: "c1-literary-negation-v005", group: "negatives", fr: "je n'ose", pron: "zhuh NOZ", en: "I dare not (literary)", note: "Oser: to dare. Standard: je n'ose pas." }
+  - { id: "c1-literary-negation-v006", group: "negatives", fr: "ne cesser de", pron: "nuh seh-SAY duh", en: "to keep (doing), never to stop (formal)", note: "Il ne cesse de pleuvoir." }
+  - { id: "c1-literary-negation-v007", group: "negatives", fr: "ne… ni ne", pron: "nuh… nee nuh", en: "neither… nor (with two verbs)", note: "Il ne mange ni ne dort." }
+  - { id: "c1-literary-negation-v008", group: "negatives", fr: "sans… ni", pron: "sahn… nee", en: "without… or (formal)", note: "Sans argent ni bagages." }
+  - { id: "c1-literary-negation-v009", group: "words", fr: "le repos", pron: "luh ruh-POH", en: "rest" }
+  - { id: "c1-literary-negation-v010", group: "words", fr: "la plainte", pron: "lah PLANT", en: "the complaint, the moan" }
+  - { id: "c1-literary-negation-v011", group: "words", fr: "suffire", pron: "sew-FEER", en: "to be enough", note: "Il suffit, ça suffit." }
+  - { id: "c1-literary-negation-v012", group: "words", fr: "la fierté", pron: "lah fyehr-TAY", en: "pride" }
+  - { id: "c1-literary-negation-v013", group: "words", fr: "le malheur", pron: "luh mah-LUHR", en: "misfortune, unhappiness" }
+  - { id: "c1-literary-negation-v014", group: "words", fr: "pardonner", pron: "par-doh-NAY", en: "to forgive", note: "Pardonner à quelqu'un." }
+exercises:
+  - id: "c1-literary-negation-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Je ne l'ai point vu."
+    options: ["I didn't see him at all.", "I saw him at one point.", "I only saw him."]
+    answers: ["I didn't see him at all."]
+    explanation: "Ne… point is a literary negative, like ne… pas but stronger."
+  - id: "c1-literary-negation-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre de la phrase : Il ne cesse de pleuvoir."
+    options: ["soutenu", "familier", "courant"]
+    answers: ["soutenu"]
+    explanation: "Ne alone with cesser belongs to formal and literary French. Everyday French says il n'arrête pas de pleuvoir."
+  - id: "c1-literary-negation-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « nul ne » dans la phrase : Nul ne sait où il est parti."
+    options: ["nobody", "nothing", "never"]
+    answers: ["nobody"]
+    explanation: "Nul ne is the formal equivalent of personne ne."
+  - id: "c1-literary-negation-ex004"
+    type: "fill-in"
+    prompt: "Complétez au registre soutenu avec « nul » : ___ ne peut entrer sans invitation."
+    answers: ["Nul"]
+    explanation: "Nul ne + verb, with no pas: nobody may come in."
+  - id: "c1-literary-negation-ex005"
+    type: "fill-in"
+    prompt: "Complétez au registre soutenu, sans « pas » (oser, présent) : Je n'___ vous déranger."
+    answers: ["ose"]
+    explanation: "With oser, formal French can use ne alone: je n'ose vous déranger."
+  - id: "c1-literary-negation-ex006"
+    type: "fill-in"
+    prompt: "Complétez au registre soutenu (cesser, présent) : Il ne ___ de se plaindre."
+    answers: ["cesse"]
+    explanation: "Ne cesser de + infinitive, with no pas: he keeps complaining."
+  - id: "c1-literary-negation-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Il ne mange ___ ne dort depuis trois jours."
+    options: ["ni", "pas", "point"]
+    answers: ["ni"]
+    explanation: "Ne… ni ne joins two negative verbs: he neither eats nor sleeps."
+  - id: "c1-literary-negation-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Il partit sans argent ___ amis."
+    options: ["ni", "et pas", "point"]
+    answers: ["ni"]
+    explanation: "After sans, formal French joins a second element with ni: sans argent ni amis."
+  - id: "c1-literary-negation-ex009"
+    type: "register-shift"
+    prompt: "Transformez en français courant, avec « pas » : Je ne l'ai point vu."
+    answers: ["Je ne l'ai pas vu"]
+    explanation: "Point becomes pas, in the same place."
+  - id: "c1-literary-negation-ex010"
+    type: "register-shift"
+    prompt: "Transformez en français courant : Nul ne sait où il est."
+    answers: ["Personne ne sait où il est"]
+    explanation: "Nul ne becomes personne ne. Neither takes pas."
+    strictAccents: true
+  - id: "c1-literary-negation-ex011"
+    type: "register-shift"
+    prompt: "Transformez en français courant, avec « arrêter de » : Il ne cesse de pleuvoir."
+    answers: ["Il n'arrête pas de pleuvoir"]
+    explanation: "Ne cesser de becomes ne pas arrêter de, with pas."
+  - id: "c1-literary-negation-ex012"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « nullement » : Je ne suis pas du tout fâché."
+    answers: ["Je ne suis nullement fâché"]
+    explanation: "Nullement replaces pas du tout."
+  - id: "c1-literary-negation-ex013"
+    type: "reformulation"
+    prompt: "Reformulez avec « ne… ni ne » : Il ne lit pas et il n'écrit pas."
+    answers: ["Il ne lit ni n'écrit"]
+    explanation: "One ne before the first verb, then ni ne (here ni n') before the second."
+  - id: "c1-literary-negation-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Nul ne le sait pas."
+    answers: ["Nul ne le sait", "Personne ne le sait"]
+    explanation: "Nul ne already makes the sentence negative: no pas."
+  - id: "c1-literary-negation-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Il n'a ni frère ni pas de sœur."
+    answers: ["Il n'a ni frère ni sœur"]
+    explanation: "Ne… ni… ni takes no pas and no article."
+    strictAccents: true
+  - id: "c1-literary-negation-ex016"
+    type: "translate"
+    prompt: "Traduisez en français courant : Nobody knows."
+    answers: ["Personne ne sait", "Personne ne le sait"]
+    explanation: "Everyday French: personne ne. The formal nul ne isn't needed here."
+  - id: "c1-literary-negation-ex017"
+    type: "translate"
+    prompt: "Traduisez au registre soutenu, avec « oser » sans « pas » : I dare not answer."
+    answers: ["Je n'ose répondre"]
+    explanation: "Oser with ne alone: je n'ose répondre."
+  - id: "c1-literary-negation-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : I don't doubt it at all. (formal)"
+    words: ["Je", "n'en", "doute", "nullement"]
+    answers: ["Je n'en doute nullement"]
+    explanation: "Ne… nullement, with en for the thing doubted."
+---
+
+By the end of this lesson you'll be able to read the negatives of literary and formal French, use a few of them in careful writing, and turn each one into everyday French.
+
+## What you already know
+
+In <LessonLink id="b2-registers" text="the lesson on registers" />, you met *ne… guère* (hardly) and *ne* alone with *pouvoir* and *savoir*: *je ne saurais dire*. You know *ne… ni… ni* from <LessonLink id="b1-ne-que-ni-ni" text="the lesson on ne… que and ne… ni… ni" />, and *ne… aucun* from <LessonLink id="b1-indefinite-pronouns" text="the lesson on indefinite pronouns" />. In <LessonLink id="c1-ne-expletif" text="the lesson on the ne explétif" />, you saw a *ne* that doesn't negate. This lesson is about the ones that do.
+
+## Negatives without pas
+
+<VocabTable group="negatives" />
+
+Literary and formal French has several negatives that replace *pas*. Each keeps *ne* before the verb, and none of them takes *pas* as well. You'll read them in novels, in older texts and in very formal letters. In conversation, they sound bookish or ironic.
+
+## Ne… point
+
+*Ne… point* works like *ne… pas*, in the same places. It's literary and a little old-fashioned, and it often sounds stronger: "not at all".
+
+<Example fr="Je ne regrette point notre rencontre." en="I don't regret our meeting in the least. (literary)" />
+<Example fr="Sa fierté ne lui permettait point de se plaindre." en="His pride didn't allow him to complain. (literary)" />
+
+## Nullement and aucunement
+
+*Nullement* and *aucunement* mean "not at all, in no way". They follow the verb or the auxiliary, like *pas*, and they can also stand alone as a formal reply.
+
+<Example fr="Je n'en doute nullement." en="I don't doubt it at all. (formal)" />
+<Example fr="Il n'était aucunement fâché. Fâché ? Nullement." en="He wasn't angry in any way. Angry? Not at all. (formal)" />
+
+## Nul ne and nul + noun
+
+*Nul*, as a subject, means "nobody". It's the formal equivalent of *personne*, and it takes *ne* without *pas*. As an adjective, *nul* or *nulle* means "no" and agrees with its noun.
+
+<Example fr="Nul ne connaissait son malheur." en="Nobody knew of his misfortune. (literary)" />
+<Example fr="Il n'avait nulle envie de partir." en="He had no wish to leave. (literary)" />
+
+You know *c'était nul* (it was rubbish) from everyday French. That *nul* is an ordinary adjective with a different meaning, and it takes *pas* like any other: *ce n'était pas nul*.
+
+## Ne alone with oser and cesser
+
+With *pouvoir* and *savoir*, you already use *ne* alone in formal French. *Oser* (to dare) and *cesser* (to stop) work the same way. *Ne cesser de* + infinitive means "to keep doing": the action doesn't stop. With these verbs, *pas* is still correct; leaving it out raises the register.
+
+<Example fr="Je n'ose lui demander de me pardonner." en="I dare not ask him to forgive me. (literary)" />
+<Example fr="Il ne cesse de pleuvoir depuis trois jours." en="It's been raining non-stop for three days. (formal)" />
+
+## Ni in formal prose
+
+You know *ne… ni… ni* with nouns: *il n'a ni frère ni sœur*. With two verbs, formal French puts *ne* before the first and *ni ne* before the second.
+
+<Example fr="Il ne mange ni ne dort." en="He neither eats nor sleeps. (formal)" />
+
+After *sans*, a second element is joined with *ni*, not *et*.
+
+<Example fr="Il travailla toute la nuit, sans repos ni plainte." en="He worked all night, without rest or complaint. (literary)" />
+
+## With an infinitive
+
+With an infinitive, both parts of these negatives usually come before it, as with *ne pas*: *pour ne pas être en retard*. The same holds for *ne point* and *ne jamais*. *Nullement* and *aucunement* are different: they follow the infinitive, like an adverb.
+
+<Example fr="Il préféra ne point répondre." en="He preferred not to answer at all. (literary)" />
+<Example fr="Elle dit ne regretter nullement son choix." en="She said she didn't regret her choice in the least. (formal)" />
+
+## Which ones to use yourself
+
+You'll read all of these forms, but you don't need to write all of them. In a formal letter or an essay, *ne cesser de*, *nullement*, *nul ne* and *sans… ni* are natural and well received. *Ne… point* belongs to literature and older texts: use it only when you imitate a literary style, or it will sound like a pastiche. In emails, at work and in speech, go back to the everyday forms in the table below.
+
+## Words for the literary register
+
+<VocabTable group="words" />
+
+These words often go with the negatives above in older prose. *Suffire* (to be enough) is also everyday French.
+
+<Example fr="Un mot suffit : nul ne répondit." en="One word was enough: nobody answered. (literary)" />
+
+## The whole list
+
+| Literary or formal | Everyday French |
+|---|---|
+| *je ne l'ai point vu* | *je ne l'ai pas vu* |
+| *je n'en doute nullement / aucunement* | *je n'en doute pas du tout* |
+| *nul ne sait* | *personne ne sait* |
+| *il n'avait nulle envie* | *il n'avait aucune envie* |
+| *je n'ose répondre* | *je n'ose pas répondre* |
+| *il ne cesse de pleuvoir* | *il n'arrête pas de pleuvoir* |
+| *il ne mange ni ne dort* | *il ne mange pas et il ne dort pas* |
+| *sans argent ni amis* | *sans argent et sans amis* |
+
+## En français
+
+Camille is reading a novel from the nineteenth century. Yanis looks over her shoulder. They speak everyday French and quote the book.
+
+- *C'est quoi, ce vieux livre ?* (What's that old book? (familiar))
+- *Un roman du dix-neuvième siècle. Écoute : « Je n'ose vous écrire. »* (A novel from the nineteenth century. Listen: "Je n'ose vous écrire.")
+- *« Je n'ose » ? Il manque le « pas », non ?* ("Je n'ose"? The "pas" is missing, isn't it?)
+- *Non, avec oser, à l'écrit soutenu, « ne » suffit.* (No, with oser, in formal writing, "ne" is enough.)
+- *Nous, on dirait « je n'ose pas t'écrire ».* (We'd say "je n'ose pas t'écrire". (spoken))
+- *Exactement. Plus loin : « Nul ne connaît mon secret. »* (Exactly. Further on: "Nul ne connaît mon secret.")
+- *C'est-à-dire « personne ne connaît mon secret » ?* (Meaning "nobody knows my secret"?)
+- *Oui. Et à la fin : « Je ne regrette point notre rencontre. »* (Yes. And at the end: "Je ne regrette point notre rencontre.")
+- *« Point », c'est comme « pas » ?* (Is "point" like "pas"?)
+- *Oui, mais plus fort et plus littéraire. Aujourd'hui, on ne le dit presque plus.* (Yes, but stronger and more literary. Today, people hardly say it any more.)
+- *Il n'arrête pas de se plaindre, ton héros !* (He doesn't stop complaining, your hero!)
+- *L'auteur, lui, écrirait : « il ne cesse de se plaindre ».* (The author would write: "il ne cesse de se plaindre".)
+
+<Callout type="warning" title="Nul ne sait, not nul ne sait pas">
+  Learners often add *pas* out of habit. *Point*, *nullement*, *aucunement* and *nul* already complete the negation, so *pas* makes the sentence wrong: **nul ne sait**, **je n'en doute nullement**, never *nul ne sait pas*.
+</Callout>
+
+<Callout type="tip" title="Look for the partner of ne">
+  When you meet *ne* in a literary text, look for its partner: *pas*, *point*, *guère*, *nul*, *ni*, *nullement*. If there's none, check the verb (*oser*, *cesser*, *pouvoir*, *savoir*). If it's none of these, think of the *ne explétif* from the last lesson.
+</Callout>
+
+## En résumé
+
+La langue littéraire et la langue soutenue ont plusieurs formes de négation sans pas. Ne… point a le sens de ne… pas, mais il est plus fort et un peu ancien : je ne regrette point notre rencontre. Nullement et aucunement veulent dire pas du tout : je n'en doute nullement. Nul ne a le sens de personne ne, et nul ou nulle devant un nom a le sens d'aucun : nul ne sait, il n'avait nulle envie de partir. Avec oser, cesser, pouvoir et savoir, ne peut rester seul : je n'ose répondre, il ne cesse de pleuvoir. Avec deux verbes, on écrit ne… ni ne : il ne mange ni ne dort. Après sans, on ajoute un second mot avec ni : sans argent ni amis. Avec point, nullement, aucunement et nul, on n'ajoute jamais pas.
+
+## What's next
+
+Next, the lesson on dislocation and fronting shows how to put a word at the front of a sentence for emphasis.
+
