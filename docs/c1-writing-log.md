@@ -36,3 +36,25 @@
   - Not taught, now new vocab: *par contre*, *s'écrier*, *se mettre à*, *à l'aube*, *le récit*, *à en croire*, *selon toute vraisemblance*, *sous réserve de*, and *penser/croire* in questions.
 - docs/c1-coverage.md now says the map is incomplete and to check with c1-find.ts. review-needed.md "C1 plan" gained 5 items, with 2 rewritten and 1 removed (*porter plainte*, verified). docs/review/c1-plan.txt regenerated.
 - Checks: validate:content OK, build OK.
+
+## Pilot batch
+
+- **Lessons** (teaching / whole / résumé words; vocab; exercises, with production tasks; dialogue lines):
+  - c1-passe-simple: 971 / 1,515 / 137; 13 vocab; 16 exercises (6 production); 12 lines.
+  - c1-passe-anterieur: 1,013 / 1,623 / 139; 13 vocab; 18 exercises (7 production); 12 lines.
+  - c1-stylistic-inversion: 1,103 / 1,516 / 138; 13 vocab; 18 exercises (8 production); 12 lines.
+- **Step 1, tool changes:**
+  - audit-content.ts runs the B2 checks on C1 with the C1 limits, and adds passé simple stems for *mettre* and *taire*.
+  - check-words.ts has a C1 passé simple lemmatizer (regular endings plus a list of irregular forms).
+  - check-structures.ts has two new rules: the passé antérieur and the imparfait du subjonctif.
+  - b2-lists.ts gains *Résumez* and *Justifiez*.
+  - test:b2-exercises and b2-links-ids now also cover C1.
+- **What didn't fit:**
+  - "What's next" points to planned lessons (c1-future-in-the-past, c1-ne-expletif). Both are in ALLOWED_MISSING and noted in project-state.
+  - *aussitôt* is already taught in b1-time-connectors, so it was dropped from the vocab and linked instead.
+  - A2 teaches *encore* as "still", so the new entry is *encore + inversion*.
+  - An incise (*s'écria-t-elle*) was removed from c1-passe-simple, because incises are taught in lesson 9.
+  - The audit rows still say "B2" but now check C1 too.
+  - *dès* answers get strictAccents because the audit flags them.
+- **Step 4:** the LessonLink to c1-passe-simple in b2-review-final is restored.
+- **Checks:** all pass. check:words is still 110, check:structures is 0, test:b2-exercises shows 340 exercises with 0 failures, and b2-links-ids shows 62 lessons with 0 failures.

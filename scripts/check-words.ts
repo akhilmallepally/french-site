@@ -18,6 +18,24 @@ import { resumeFrench, splitSections, textSectionFrench } from "./lesson-text.ts
 import { COGNATES, INSTRUCTION_WORDS } from "./b2-lists.ts";
 
 const B2_RANK = ["a1", "a2", "b1", "b2", "c1", "c2"].indexOf("b2"); // same order as LEVELS below
+const C1_RANK = ["a1", "a2", "b1", "b2", "c1", "c2"].indexOf("c1");
+// C1 produces the passé simple. A regular form counts as known when its infinitive is known
+// (regarda → regarder, franchit → franchir, attendit → attendre); irregular stems are listed below.
+const PS_INFINITIVES: [RegExp, string[]][] = [
+  [/(?:èrent|âmes|âtes|ai|as|a)$/, ["er"]],
+  [/(?:irent|îmes|îtes|it|is)$/, ["ir", "re"]],
+  [/(?:urent|ûmes|ûtes|ut|us)$/, ["oir", "re"]],
+];
+function psInfinitives(w: string): string[] {
+  const out: string[] = [];
+  for (const [re, ends] of PS_INFINITIVES) if (re.test(w)) for (const e of ends) out.push(w.replace(re, "") + e);
+  return out;
+}
+// Irregular passé simple and literary forms used in C1 lessons, plus the deliberate mistake *partèrent* (an error-correction prompt).
+const C1_FORMS = new Set(`tint tinrent fus fûmes fûtes eus eûmes eûtes fis fîmes fîtes vins vînmes vîntes tins tînmes tîntes vis vîmes vîtes
+mit mirent tut turent put purent sut surent crut crurent lut lurent vécut vécurent naquit naquirent mourut moururent connut connurent
+courut coururent voulut voulurent aperçut aperçurent prit prirent dit dirent écrivit écrivirent fit firent vint vinrent revint devint
+partèrent`.split(/\s+/));
 
 const ROOT = process.cwd();
 const LESSONS_DIR = path.join(ROOT, "content", "lessons");
@@ -188,6 +206,7 @@ for (const l of lessons) {
       if (IGNORE.has(w) || isEnglishWord(w, l.rank >= B2_RANK) || skip.has(w) || fixedWords.has(w) || w.length < 2) continue;
       if (l.rank >= B2_RANK && (COGNATES.has(w) || INSTRUCTION_WORDS.has(w))) continue;
       if (roots(w).some((r) => knownRoots.has(r))) continue;
+      if (l.rank >= C1_RANK && (C1_FORMS.has(w) || psInfinitives(w).some((inf) => roots(inf).some((r) => knownRoots.has(r))))) continue;
       if (!missing.has(w)) missing.set(w, s.length > 70 ? s.slice(0, 70) + "…" : s);
     }
   }

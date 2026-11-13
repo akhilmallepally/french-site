@@ -1,0 +1,758 @@
+===== content/lessons/c1/passe-simple.mdx =====
+---
+id: "c1-passe-simple"
+title: "The passé simple"
+description: "Read and write the passé simple: all persons of the regular patterns, the full forms of être, avoir, faire, venir, tenir and voir, the third person of the verbs readers meet most, and the passé simple with the imparfait in a written narrative."
+level: "C1"
+unit: "Literary French"
+order: 1
+type: "grammar"
+tags: ["grammar", "past tenses", "literary French"]
+prerequisites: ["b1-plus-que-parfait", "b2-arts-and-literature"]
+related: ["a2-passe-compose-vs-imparfait", "c1-passe-anterieur", "c1-reading-literary-narrative"]
+vocab:
+  - { id: "c1-passe-simple-v001", group: "words", fr: "le récit", pron: "luh ray-SEE", en: "the narrative, the story (as told)" }
+  - { id: "c1-passe-simple-v002", group: "words", fr: "un héros / une héroïne", pron: "uhn ay-ROH / ew-nay-roh-EEN", en: "a hero / a heroine", note: "No liaison: le héros." }
+  - { id: "c1-passe-simple-v003", group: "words", fr: "la foule", pron: "lah FOOL", en: "the crowd" }
+  - { id: "c1-passe-simple-v004", group: "words", fr: "le seuil", pron: "luh SUH-y", en: "the doorstep, the threshold" }
+  - { id: "c1-passe-simple-v005", group: "words", fr: "à l'aube", pron: "ah LOHB", en: "at dawn" }
+  - { id: "c1-passe-simple-v006", group: "verbs", fr: "s'écrier", pron: "say-kree-YAY", en: "to exclaim, to cry out" }
+  - { id: "c1-passe-simple-v007", group: "verbs", fr: "se mettre à", pron: "suh meh-truh AH", en: "to start to, to begin to", note: "+ infinitive: il se mit à courir." }
+  - { id: "c1-passe-simple-v008", group: "verbs", fr: "se taire", pron: "suh TEHR", en: "to fall silent, to stop talking", note: "Il se tait; passé simple: il se tut." }
+  - { id: "c1-passe-simple-v009", group: "verbs", fr: "surgir", pron: "sewr-ZHEER", en: "to appear suddenly" }
+  - { id: "c1-passe-simple-v010", group: "verbs", fr: "s'enfuir", pron: "sahn-FWEER", en: "to run away, to flee" }
+  - { id: "c1-passe-simple-v011", group: "verbs", fr: "saisir", pron: "seh-ZEER", en: "to grab, to seize" }
+  - { id: "c1-passe-simple-v012", group: "verbs", fr: "apercevoir", pron: "ah-pehr-suh-VWAHR", en: "to catch sight of", note: "Passé simple: il aperçut. S'apercevoir que is to notice that." }
+  - { id: "c1-passe-simple-v013", group: "verbs", fr: "franchir", pron: "frahn-SHEER", en: "to cross, to step over" }
+exercises:
+  - id: "c1-passe-simple-ex001"
+    type: "fill-in"
+    prompt: "Conjuguez au passé simple (parler) : Ils ___ toute la nuit."
+    answers: ["parlèrent"]
+    explanation: "-er verbs: ils parlèrent."
+  - id: "c1-passe-simple-ex002"
+    type: "fill-in"
+    prompt: "Conjuguez au passé simple (être) : Nous ___ très surpris."
+    answers: ["fûmes"]
+    explanation: "Être: je fus, tu fus, il fut, nous fûmes, vous fûtes, ils furent."
+  - id: "c1-passe-simple-ex003"
+    type: "fill-in"
+    prompt: "Conjuguez au passé simple (franchir) : Le héros ___ le seuil sans un mot."
+    answers: ["franchit"]
+    explanation: "-ir verbs like finir: il franchit."
+  - id: "c1-passe-simple-ex004"
+    type: "fill-in"
+    prompt: "Conjuguez au passé simple (venir) : Elles ___ à l'aube."
+    answers: ["vinrent"]
+    explanation: "Venir: il vint, ils vinrent."
+  - id: "c1-passe-simple-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps de « finit » dans la phrase : Ce soir-là, il finit son repas et sortit."
+    options: ["le passé simple", "le présent", "l'imparfait"]
+    answers: ["le passé simple"]
+    explanation: "Finit can be present or passé simple. Here sortit and ce soir-là show a past story."
+  - id: "c1-passe-simple-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez l'infinitif de « il naquit »."
+    options: ["naître", "nager", "nier"]
+    answers: ["naître"]
+    explanation: "Naître: il naquit (he was born)."
+  - id: "c1-passe-simple-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez l'infinitif de « ils crurent »."
+    options: ["croire", "courir", "crier"]
+    answers: ["croire"]
+    explanation: "Croire: il crut, ils crurent. Courir gives ils coururent."
+  - id: "c1-passe-simple-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : La nuit ___ quand le roi entra."
+    options: ["tombait", "tomba", "tombera"]
+    answers: ["tombait"]
+    explanation: "The night falling is the background: imparfait. The king's entrance is the event: passé simple."
+  - id: "c1-passe-simple-ex009"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Soudain, la porte ___."
+    options: ["s'ouvrit", "s'ouvrait", "s'ouvrira"]
+    answers: ["s'ouvrit"]
+    explanation: "Soudain marks a single event: passé simple."
+  - id: "c1-passe-simple-ex010"
+    type: "reformulation"
+    prompt: "Reformulez au passé simple, comme dans un récit : Elle est entrée et elle a regardé la foule."
+    answers: ["Elle entra et regarda la foule", "Elle entra et elle regarda la foule"]
+    explanation: "Two events in a written narrative: entra, regarda."
+  - id: "c1-passe-simple-ex011"
+    type: "reformulation"
+    prompt: "Reformulez au passé composé, comme à l'oral : Ils partirent à l'aube."
+    answers: ["Ils sont partis à l'aube"]
+    explanation: "In speech, the passé simple becomes the passé composé."
+    strictAccents: true
+  - id: "c1-passe-simple-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Ils partèrent à l'aube."
+    answers: ["Ils partirent à l'aube"]
+    explanation: "Partir follows the -ir pattern: ils partirent. Only -er verbs have -èrent."
+    strictAccents: true
+  - id: "c1-passe-simple-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de registre (un homme écrit un message à un ami) : Hier, je pris le train et je vins te voir."
+    answers: ["Hier, j'ai pris le train et je suis venu te voir", "Hier, j'ai pris le train et suis venu te voir"]
+    explanation: "A message to a friend uses the passé composé, not the passé simple."
+  - id: "c1-passe-simple-ex014"
+    type: "translate"
+    prompt: "Traduisez au passé simple (se taire), comme dans un récit : The king fell silent."
+    answers: ["Le roi se tut"]
+    explanation: "Se taire: il se tut."
+  - id: "c1-passe-simple-ex015"
+    type: "translate"
+    prompt: "Rédigez ce début de récit en complétant comme indiqué : Il (was: être, imparfait) tard. Le héros (crossed: franchir, passé simple) le seuil et (caught sight of: apercevoir, passé simple) une lumière."
+    answers: ["Il était tard. Le héros franchit le seuil et aperçut une lumière."]
+    explanation: "The imparfait sets the scene; the passé simple tells the events."
+  - id: "c1-passe-simple-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : They left at dawn."
+    words: ["Ils", "partirent", "à", "l'aube"]
+    answers: ["Ils partirent à l'aube", "À l'aube, ils partirent"]
+    explanation: "Partir: ils partirent."
+---
+
+By the end of this lesson you'll be able to read the passé simple in any person and write it yourself in a story or a historical account.
+
+## What you already know
+
+In <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />, you learned to recognize the passé simple in the third person (*il parla*, *ils partirent*) and the common forms *fut*, *eut*, *fit*, *vint* and *prit*. You know how the passé composé and the imparfait share the work in a story from <LessonLink id="a2-passe-compose-vs-imparfait" text="the lesson on the passé composé and the imparfait" />. This lesson completes the passé simple and lets you produce it.
+
+## What the passé simple is for
+
+The passé simple is the past tense of written narrative: novels, tales, short stories and history books. It presents an event as complete and in sequence, like the passé composé, but it belongs to writing. It isn't used in everyday speech or in modern dialogue: when a character speaks in a novel, they use the passé composé, like you.
+
+As in speech, the past needs two tenses. The passé simple tells the events, one after the other. The imparfait describes the background: the weather, a state, an action already going on.
+
+<Example fr="La nuit tombait quand le roi entra dans la salle." en="Night was falling when the king came into the room." />
+<Example fr="Le héros franchit le seuil, saisit la lettre et se mit à courir." en="The hero stepped over the threshold, grabbed the letter and started running." />
+
+## The three regular patterns
+
+Every verb follows one of three sets of endings. The *nous* and *vous* forms are rare, because narratives are mostly in the third person, but you'll meet them in first-person novels.
+
+| | *-er* verbs (*parler*) | most *-ir* and *-re* verbs (*finir*, *attendre*) | many *-oir* and other verbs (*vouloir*) |
+|---|---|---|---|
+| *je* | *parlai* | *finis* | *voulus* |
+| *tu* | *parlas* | *finis* | *voulus* |
+| *il / elle* | *parla* | *finit* | *voulut* |
+| *nous* | *parlâmes* | *finîmes* | *voulûmes* |
+| *vous* | *parlâtes* | *finîtes* | *voulûtes* |
+| *ils / elles* | *parlèrent* | *finirent* | *voulurent* |
+
+The *nous* and *vous* forms always have a circumflex accent on the vowel before *-mes* and *-tes*. Only *-er* verbs take *-èrent*; the others take *-irent* or *-urent*. *Aller* is an *-er* verb here: *il alla*, *ils allèrent*.
+
+<Example fr="Ils parlèrent jusqu'à l'aube, puis ils se turent." en="They talked until dawn, then they fell silent." />
+
+## Six verbs to know in full
+
+These six are the backbone of every narrative.
+
+| | *être* | *avoir* | *faire* | *venir* | *tenir* | *voir* |
+|---|---|---|---|---|---|---|
+| *je* | *fus* | *eus* | *fis* | *vins* | *tins* | *vis* |
+| *tu* | *fus* | *eus* | *fis* | *vins* | *tins* | *vis* |
+| *il / elle* | *fut* | *eut* | *fit* | *vint* | *tint* | *vit* |
+| *nous* | *fûmes* | *eûmes* | *fîmes* | *vînmes* | *tînmes* | *vîmes* |
+| *vous* | *fûtes* | *eûtes* | *fîtes* | *vîntes* | *tîntes* | *vîtes* |
+| *ils / elles* | *furent* | *eurent* | *firent* | *vinrent* | *tinrent* | *virent* |
+
+*Venir* and *tenir* share a fourth pattern, in *-ins* and *-int*, and so do the verbs built on them: *il revint*, *il devint*, *il retint*.
+
+<Example fr="Nous fûmes surpris : personne ne nous attendait." en="We were surprised: nobody was waiting for us." />
+<Example fr="Elle vint à l'aube et vit que la maison était vide." en="She came at dawn and saw that the house was empty." />
+
+## Verbs you'll meet in the third person
+
+Many common verbs have a short or unexpected stem. You need to recognize them, mostly in the third person.
+
+| Infinitive | *il / elle* | *ils / elles* |
+|---|---|---|
+| *dire* | *dit* | *dirent* |
+| *prendre* | *prit* | *prirent* |
+| *mettre* | *mit* | *mirent* |
+| *pouvoir* | *put* | *purent* |
+| *vouloir* | *voulut* | *voulurent* |
+| *savoir* | *sut* | *surent* |
+| *croire* | *crut* | *crurent* |
+| *lire* | *lut* | *lurent* |
+| *vivre* | *vécut* | *vécurent* |
+| *écrire* | *écrivit* | *écrivirent* |
+| *connaître* | *connut* | *connurent* |
+| *courir* | *courut* | *coururent* |
+| *naître* | *naquit* | *naquirent* |
+| *mourir* | *mourut* | *moururent* |
+
+<Example fr="Elle naquit à Lyon et vécut toute sa vie à Paris." en="She was born in Lyon and lived all her life in Paris. (an invented person)" />
+<Example fr="Il prit sa lettre, la lut deux fois et ne dit rien." en="He took her letter, read it twice and said nothing." />
+
+## Forms that look like the present
+
+Some passé simple forms are identical to the present: *il finit*, *il dit*, *il choisit*, *il réussit*. Only the context tells you which tense you're reading. In a story told in the past, with other verbs in the passé simple or imparfait around it, it's the passé simple. With *aujourd'hui* or *maintenant*, or among other present-tense verbs, it's the present.
+
+<Example fr="Ce soir-là, il finit son repas et sortit sans un mot." en="That evening, he finished his meal and went out without a word." />
+<Example fr="Tous les soirs, il finit son repas et lit le journal." en="Every evening, he finishes his meal and reads the paper." />
+
+## Words for telling a story
+
+<VocabTable group="words" />
+
+<VocabTable group="verbs" />
+
+Narratives need verbs of sudden action and words that move the story forward. *Soudain*, which you know from <LessonLink id="a2-passe-compose-vs-imparfait" text="the lesson on the passé composé and the imparfait" />, and *aussitôt* (at once), from <LessonLink id="b1-time-connectors" text="the lesson on time connectors" />, introduce the next event. *Se mettre à* + infinitive starts an action. *Apercevoir* is to catch sight of; you know *s'apercevoir que* (to notice that) from <LessonLink id="b1-plus-que-parfait" text="the lesson on the plus-que-parfait" />.
+
+<Example fr="Soudain, un homme surgit de la foule et s'enfuit." en="Suddenly, a man appeared out of the crowd and ran away." />
+<Example fr="Elle aperçut le danger et s'écria aussitôt : « Attention ! »" en="She caught sight of the danger and cried out at once: “Watch out!”" />
+<Example fr="Le récit commence à l'aube, dans un petit village." en="The narrative begins at dawn, in a small village." />
+
+## A short narrative
+
+This is the opening of an original tale. The first paragraph sets the scene in the imparfait; the second tells the events in the passé simple.
+
+*Il pleuvait depuis trois jours. Dans le château, tout le monde attendait le roi, et personne ne parlait.*
+
+*À l'aube, le roi franchit enfin le seuil. Il regarda la foule, saisit la lettre de sa fille et la lut en silence. Puis il se tut longtemps. Soudain, il s'écria : « Préparez les chevaux ! » Aussitôt, tout le château se mit à courir.*
+
+(It had been raining for three days. In the castle, everyone was waiting for the king, and nobody was speaking. At dawn, the king finally stepped over the threshold. He looked at the crowd, took his daughter's letter and read it in silence. Then he said nothing for a long time. Suddenly, he cried out: "Prepare the horses!" At once, the whole castle started running.)
+
+## En français
+
+Clara and Malik talk about the novel Malik is reading. They use the passé composé, like everyone in conversation, and quote the novel's passé simple.
+
+- *Qu'est-ce que tu lis ?* (What are you reading?)
+- *Un vieux roman. Il est écrit au passé simple.* (An old novel. It's written in the passé simple.)
+- *Ce n'est pas trop difficile ?* (Isn't it too hard?)
+- *Au début, si. Mais maintenant, je reconnais les formes : « il entra », « elle se tut ».* (At first, yes. But now I recognize the forms: "il entra", "elle se tut".)
+- *Et « il dit » ? C'est le présent ou le passé simple ?* (And "il dit"? Is that the present or the passé simple?)
+- *Ça dépend de la phrase. Ici, c'est le passé simple : « Il dit merci et partit. »* (It depends on the sentence. Here it's the passé simple: "He said thank you and left.")
+- *Pourquoi l'auteur n'a pas choisi le passé composé ?* (Why didn't the author choose the passé composé?)
+- *Parce que c'est un récit écrit. À l'oral, personne ne dit « je fus surpris » !* (Because it's a written narrative. In speech, nobody says "je fus surpris"!)
+- *Et quand les personnages parlent ?* (And when the characters speak?)
+- *Ils parlent au présent et au passé composé, comme nous.* (They speak in the present and the passé composé, like us.)
+- *Tu me le prêtes quand tu l'auras fini ?* (Will you lend it to me when you've finished it?)
+- *D'accord, mais je te préviens : la fin est triste !* (OK, but I'm warning you: the ending is sad!)
+
+<Callout type="warning" title="Ils partirent, not ils partèrent">
+  Learners often add *-èrent* to every verb in the plural. Only *-er* verbs take it: *ils parlèrent*, *ils allèrent*. Other verbs take *-irent* or *-urent*: **ils partirent**, **ils prirent**, **ils voulurent**.
+</Callout>
+
+<Callout type="tip" title="Retell a page in the passé simple">
+  Take a page of a story you've read, or a short news item, and rewrite the events in the passé simple, keeping the descriptions in the imparfait. Then read your page aloud. Writing a few paragraphs a week is the fastest way to make the forms automatic.
+</Callout>
+
+## En résumé
+
+Le passé simple est le temps du récit écrit : on le trouve dans les romans, les contes et les livres d'histoire, mais pas dans la conversation de tous les jours ni dans les dialogues modernes. Il raconte les événements, et l'imparfait décrit la situation : la nuit tombait quand le roi entra. Les verbes en -er font il parla, ils parlèrent. Beaucoup d'autres verbes font il finit, ils finirent, ou il voulut, ils voulurent. Être, avoir, faire, venir, tenir et voir sont à connaître à toutes les personnes : il fut, il eut, il fit, il vint, il tint, il vit. Il faut aussi reconnaître il dit, il prit, il mit, il put, il sut, il naquit ou il mourut. Attention : il finit et il dit peuvent être au présent ou au passé simple. C'est le contexte qui décide.
+
+## What's next
+
+Next, <LessonLink id="c1-passe-anterieur" text="the lesson on the passé antérieur" /> shows how a narrative marks an action finished just before another.
+
+===== content/lessons/c1/passe-anterieur.mdx =====
+---
+id: "c1-passe-anterieur"
+title: "The passé antérieur"
+description: "Form the passé antérieur (il eut fini, elle fut partie), use it after quand, lorsque, dès que, aussitôt que, après que and à peine… que in a passé simple narrative, and choose its partners in speech: the passé surcomposé, the passé composé and, for habits, the plus-que-parfait."
+level: "C1"
+unit: "Literary French"
+order: 2
+type: "grammar"
+tags: ["grammar", "past tenses", "literary French"]
+prerequisites: ["c1-passe-simple"]
+related: ["b1-plus-que-parfait", "b1-time-connectors", "b2-futur-anterieur", "c1-stylistic-inversion"]
+vocab:
+  - { id: "c1-passe-anterieur-v001", group: "forms", fr: "le passé antérieur", pron: "luh pah-SAY ahn-tay-RYUHR", en: "the passé antérieur (past anterior)" }
+  - { id: "c1-passe-anterieur-v002", group: "forms", fr: "le passé surcomposé", pron: "luh pah-SAY sewr-kohn-poh-ZAY", en: "the passé surcomposé (double compound past)", note: "Il a eu fini: spoken French." }
+  - { id: "c1-passe-anterieur-v003", group: "forms", fr: "à peine… que", pron: "ah PEN… kuh", en: "no sooner… than, hardly… when", note: "À peine fut-il sorti qu'il se mit à pleuvoir." }
+  - { id: "c1-passe-anterieur-v004", group: "story", fr: "l'auberge (f.)", pron: "loh-BEHRZH", en: "the inn" }
+  - { id: "c1-passe-anterieur-v005", group: "story", fr: "le voyageur / la voyageuse", pron: "luh vwah-yah-ZHUHR / lah vwah-yah-ZHUHZ", en: "the traveller" }
+  - { id: "c1-passe-anterieur-v006", group: "story", fr: "le messager / la messagère", pron: "luh may-sah-ZHAY / lah may-sah-ZHEHR", en: "the messenger" }
+  - { id: "c1-passe-anterieur-v007", group: "story", fr: "le cavalier / la cavalière", pron: "luh kah-vah-LYAY / lah kah-vah-LYEHR", en: "the rider, the horseman / horsewoman" }
+  - { id: "c1-passe-anterieur-v008", group: "story", fr: "la cloche", pron: "lah KLOSH", en: "the bell" }
+  - { id: "c1-passe-anterieur-v009", group: "story", fr: "le brouillard", pron: "luh broo-YAR", en: "the fog" }
+  - { id: "c1-passe-anterieur-v010", group: "story-verbs", fr: "frapper", pron: "frah-PAY", en: "to knock, to hit", note: "Frapper à la porte: to knock at the door." }
+  - { id: "c1-passe-anterieur-v011", group: "story-verbs", fr: "s'éloigner", pron: "say-lwah-NYAY", en: "to move away, to go off" }
+  - { id: "c1-passe-anterieur-v012", group: "story-verbs", fr: "se dissiper", pron: "suh dee-see-PAY", en: "to clear, to lift (fog, doubts)" }
+  - { id: "c1-passe-anterieur-v013", group: "story-verbs", fr: "s'endormir", pron: "sahn-dor-MEER", en: "to fall asleep", note: "Conjugated like dormir: il s'endort." }
+exercises:
+  - id: "c1-passe-anterieur-ex001"
+    type: "fill-in"
+    prompt: "Conjuguez au passé antérieur (finir) : Quand il ___ son repas, il sortit."
+    answers: ["eut fini"]
+    explanation: "Avoir in the passé simple + participle: il eut fini."
+  - id: "c1-passe-anterieur-ex002"
+    type: "fill-in"
+    prompt: "Conjuguez au passé antérieur (partir) : Dès qu'elles ___, il ferma la porte."
+    answers: ["furent parties"]
+    explanation: "Partir takes être, and the participle agrees with elles: elles furent parties."
+  - id: "c1-passe-anterieur-ex003"
+    type: "fill-in"
+    prompt: "Conjuguez au passé antérieur (s'endormir) : Lorsque les voyageurs ___, l'auberge devint silencieuse."
+    answers: ["se furent endormis"]
+    explanation: "Reflexive verbs take être: ils se furent endormis, with agreement."
+  - id: "c1-passe-anterieur-ex004"
+    type: "fill-in"
+    prompt: "Conjuguez au passé surcomposé (finir) : Quand j'___ mon travail, je suis sorti."
+    answers: ["ai eu fini"]
+    explanation: "Avoir in the passé composé + participle: j'ai eu fini. It goes with a passé composé in speech."
+  - id: "c1-passe-anterieur-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Quand il ___ sa lettre, il la donna au messager."
+    options: ["eut écrit", "aura écrit", "écrira"]
+    answers: ["eut écrit"]
+    explanation: "The main verb is in the passé simple (donna), and the letter was written just before: the passé antérieur."
+  - id: "c1-passe-anterieur-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps qui convient après « quand » : le verbe principal est à l'imparfait et décrit une habitude."
+    options: ["le plus-que-parfait", "le passé antérieur", "le passé simple"]
+    answers: ["le plus-que-parfait"]
+    explanation: "A habit in the imparfait pairs with the plus-que-parfait: quand il avait fini, il partait."
+  - id: "c1-passe-anterieur-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps qui convient après « quand », à l'oral, pour une action finie juste avant : le verbe principal est au passé composé."
+    options: ["le passé surcomposé", "le passé antérieur", "le passé simple"]
+    answers: ["le passé surcomposé"]
+    explanation: "In speech, the passé composé pairs with the passé surcomposé: quand il a eu fini, il est parti."
+  - id: "c1-passe-anterieur-ex008"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps de « fut arrivée » dans la phrase : Dès qu'elle fut arrivée, la cloche sonna."
+    options: ["le passé antérieur", "le passé composé", "le plus-que-parfait"]
+    answers: ["le passé antérieur"]
+    explanation: "Être in the passé simple + participle: the passé antérieur."
+  - id: "c1-passe-anterieur-ex009"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Chaque soir, quand il ___ son travail, il rentrait à pied."
+    options: ["avait fini", "eut fini", "aura fini"]
+    answers: ["avait fini"]
+    explanation: "Chaque soir and rentrait describe a habit in the imparfait, so the earlier action takes the plus-que-parfait."
+  - id: "c1-passe-anterieur-ex010"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : ___ eut-elle fermé la porte que la cloche sonna."
+    options: ["À peine", "Dès que", "Lorsque"]
+    answers: ["À peine"]
+    explanation: "Only à peine is followed by inversion and a second clause with que."
+  - id: "c1-passe-anterieur-ex011"
+    type: "reformulation"
+    prompt: "Reformulez au passé simple et au passé antérieur, comme dans un récit : Quand il a eu fini, il est parti."
+    answers: ["Quand il eut fini, il partit", "Il partit quand il eut fini", "Lorsqu'il eut fini, il partit", "Il partit lorsqu'il eut fini"]
+    explanation: "In a written narrative, the passé surcomposé becomes the passé antérieur and the passé composé becomes the passé simple."
+  - id: "c1-passe-anterieur-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec « à peine… que » au début de la phrase et l'inversion : Dès qu'il fut sorti, il se mit à pleuvoir."
+    answers: ["À peine fut-il sorti qu'il se mit à pleuvoir"]
+    explanation: "À peine at the start, inversion of the auxiliary and the pronoun, then que + passé simple."
+    strictAccents: true
+  - id: "c1-passe-anterieur-ex013"
+    type: "register-shift"
+    prompt: "Transformez au passé composé et au passé surcomposé, comme à l'oral : Dès qu'elle eut fini, elle sortit."
+    answers: ["Dès qu'elle a eu fini, elle est sortie", "Elle est sortie dès qu'elle a eu fini"]
+    explanation: "In speech: the passé surcomposé for the earlier action, the passé composé for the main verb, with agreement: elle est sortie."
+    strictAccents: true
+  - id: "c1-passe-anterieur-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de temps : Quand il eut fini, il est parti."
+    answers: ["Quand il eut fini, il partit", "Quand il a eu fini, il est parti", "Quand il a fini, il est parti"]
+    explanation: "The passé antérieur goes with the passé simple: quand il eut fini, il partit. In speech, keep the passé composé and use the passé surcomposé or the passé composé after quand."
+    strictAccents: true
+  - id: "c1-passe-anterieur-ex015"
+    type: "translate"
+    prompt: "Traduisez au passé simple et au passé antérieur, comme dans un récit (dès que, partir) : As soon as the fog had cleared, the riders left."
+    answers: ["Dès que le brouillard se fut dissipé, les cavaliers partirent", "Les cavaliers partirent dès que le brouillard se fut dissipé"]
+    explanation: "Se dissiper takes être: le brouillard se fut dissipé. Then the passé simple: partirent."
+    strictAccents: true
+  - id: "c1-passe-anterieur-ex016"
+    type: "translate"
+    prompt: "Traduisez au passé simple et au passé antérieur, comme dans un récit (après que, frapper) : After the messenger had knocked, the door opened."
+    answers: ["Après que le messager eut frappé, la porte s'ouvrit", "La porte s'ouvrit après que le messager eut frappé"]
+    explanation: "Après que takes the indicative: le messager eut frappé. The door opening is the event: s'ouvrit."
+  - id: "c1-passe-anterieur-ex017"
+    type: "translate"
+    prompt: "Rédigez ce début de récit en complétant comme indiqué : Il (was: faire, imparfait) nuit. Lorsque le voyageur (had eaten: manger, passé antérieur), il (went up: monter, passé simple) dans sa chambre."
+    answers: ["Il faisait nuit. Lorsque le voyageur eut mangé, il monta dans sa chambre."]
+    explanation: "The imparfait sets the scene, the passé antérieur marks the meal as finished, and the passé simple tells the next event."
+    strictAccents: true
+  - id: "c1-passe-anterieur-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : No sooner had he gone out than it started to rain."
+    words: ["À", "peine", "fut-il", "sorti", "qu'il", "se", "mit", "à", "pleuvoir"]
+    answers: ["À peine fut-il sorti qu'il se mit à pleuvoir"]
+    explanation: "À peine, the inverted auxiliary and pronoun, the participle, then que + passé simple."
+    strictAccents: true
+---
+
+By the end of this lesson you'll be able to show, in a written narrative, that one action was finished just before the next, and to choose the right tense for the same idea in speech.
+
+## What you already know
+
+You know the plus-que-parfait (*il avait fini*) from <LessonLink id="b1-plus-que-parfait" text="the lesson on the plus-que-parfait" />, and *dès que*, *aussitôt que* and *lorsque* from <LessonLink id="b1-time-connectors" text="the lesson on time connectors" />. In <LessonLink id="b2-futur-anterieur" text="the lesson on the futur antérieur" />, you used a compound tense after *quand* for the earlier of two future actions. The passé antérieur does the same job in a story told in the passé simple, which you learned to write in <LessonLink id="c1-passe-simple" text="the lesson on the passé simple" />.
+
+## What the passé antérieur does
+
+In a written narrative, two events can follow each other so closely that the first must be complete before the second starts: he finished his meal, then he left. French marks the first event with the passé antérieur and the second with the passé simple.
+
+<Example fr="Quand il eut fini son repas, il sortit." en="When he had finished his meal, he went out." />
+
+Like the passé simple, it belongs to writing: novels, tales and history books. You'll read it far more often than you write it, but at C1 you should be able to use it in a story of your own.
+
+## Forming it
+
+<VocabTable group="forms" />
+
+The passé antérieur is the auxiliary in the passé simple, followed by the past participle. The choice between *avoir* and *être* and the agreement of the participle work exactly as in the passé composé.
+
+| | *finir* (avoir) | *partir* (être) | *s'endormir* (reflexive) |
+|---|---|---|---|
+| *je* | *eus fini* | *fus parti(e)* | *me fus endormi(e)* |
+| *tu* | *eus fini* | *fus parti(e)* | *te fus endormi(e)* |
+| *il / elle* | *eut fini* | *fut parti(e)* | *se fut endormi(e)* |
+| *nous* | *eûmes fini* | *fûmes parti(e)s* | *nous fûmes endormi(e)s* |
+| *vous* | *eûtes fini* | *fûtes parti(e)(s)* | *vous fûtes endormi(e)(s)* |
+| *ils / elles* | *eurent fini* | *furent parti(e)s* | *se furent endormi(e)s* |
+
+You'll mostly meet the third person.
+
+<Example fr="Dès qu'elle fut partie, ils se mirent à parler." en="As soon as she had left, they started talking." />
+
+## After quand, lorsque, dès que and aussitôt que
+
+The passé antérieur usually sits in a time clause after *quand*, *lorsque*, *dès que* or *aussitôt que*, and the main verb is in the passé simple. With *dès que* and *aussitôt que*, it stresses that the second event followed at once.
+
+<Example fr="Lorsque les voyageurs se furent endormis, l'auberge devint silencieuse." en="When the travellers had fallen asleep, the inn became silent." />
+<Example fr="Aussitôt que le cavalier se fut éloigné, la cloche sonna." en="As soon as the rider had gone off, the bell rang." />
+
+*Après que* works the same way. You know from <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on conjunctions with the subjunctive" /> that it takes the indicative in careful French, and the passé antérieur is an indicative tense.
+
+<Example fr="Après que le messager eut frappé à la porte, on lui ouvrit." en="After the messenger had knocked at the door, someone opened it for him." />
+
+You'll also meet the passé antérieur, more rarely, in a main clause with *bientôt* or *vite*, to show how quickly an action was completed.
+
+<Example fr="Il eut bientôt fini sa lettre." en="He soon had his letter finished." />
+
+## À peine… que
+
+You know *à peine* (barely) from <LessonLink id="b1-ne-que-ni-ni" text="the lesson on ne… que and ne… ni… ni" />. With *que*, it means "no sooner… than": the second event followed almost before the first was over. *À peine* goes with the passé antérieur, and *que* introduces the passé simple.
+
+When *à peine* opens the sentence, the auxiliary and the subject pronoun are inverted, as after *peut-être* in <LessonLink id="b2-registers" text="the lesson on registers" />. With a noun subject, the noun stays in front and a pronoun follows the auxiliary. Inside the sentence, *à peine* follows the auxiliary and there's no inversion.
+
+<Example fr="À peine fut-il sorti qu'il se mit à pleuvoir." en="No sooner had he gone out than it started to rain." />
+<Example fr="À peine le brouillard se fut-il dissipé que les cavaliers partirent." en="No sooner had the fog cleared than the riders left." />
+<Example fr="Il fut à peine sorti qu'il se mit à pleuvoir." en="He had barely gone out when it started to rain." />
+
+## Which tense goes with which
+
+The tense of the main verb decides the tense of the earlier action. Look at the main verb first.
+
+| Main verb | Earlier action | Example |
+|---|---|---|
+| passé simple (writing) | passé antérieur | *Quand il eut fini, il partit.* |
+| passé composé (speech) | passé surcomposé or passé composé | *Quand il a eu fini, il est parti.* |
+| imparfait (a habit) | plus-que-parfait | *Quand il avait fini, il partait.* |
+
+The last line describes something repeated: every evening, when he had finished, he would leave. The plus-que-parfait pairs with the imparfait, not with a single event in the passé simple.
+
+<Example fr="Chaque soir, quand il avait fini son travail, il rentrait à pied." en="Every evening, when he had finished his work, he walked home." />
+
+## In speech: the passé surcomposé
+
+The passé antérieur isn't used in conversation. In speech, people use the passé composé after *quand* or *dès que*, or, to stress that the first action was really over, the passé surcomposé: the auxiliary in the passé composé, then the participle (*il a eu fini*). It's mostly used with *avoir* verbs, and it belongs to speech rather than to careful writing.
+
+<Example fr="Quand j'ai eu fini mon travail, je suis sorti." en="When I'd finished my work, I went out. (spoken, a man speaking)" />
+
+## A short narrative
+
+<VocabTable group="story" />
+
+<VocabTable group="story-verbs" />
+
+This is the opening of an original tale. The first paragraph sets the scene in the imparfait; the second tells the events in the passé simple, with the passé antérieur in the time clauses.
+
+*Il faisait froid, et le brouillard cachait le village. Dans l'auberge, les voyageurs dormaient déjà.*
+
+*Vers minuit, un cavalier frappa à la porte. Quand on lui eut ouvert, il entra sans un mot et posa sur la table une lettre du roi. À peine les voyageurs eurent-ils lu la lettre qu'ils se mirent tous à parler. Après que le messager se fut éloigné, personne ne put s'endormir. Dès que le brouillard se fut dissipé, à l'aube, ils partirent.*
+
+(It was cold, and the fog was hiding the village. In the inn, the travellers were already asleep. Around midnight, a rider knocked at the door. When someone had opened it for him, he came in without a word and put a letter from the king on the table. No sooner had the travellers read the letter than they all started talking. After the messenger had gone off, nobody could fall asleep. As soon as the fog had cleared, at dawn, they left.)
+
+## En français
+
+Samir asks Lucie about the story she's writing. They speak in the passé composé, and Lucie quotes her story.
+
+- *Tu as fini ton histoire ?* (Have you finished your story?)
+- *Presque. Quand j'ai eu fini la première partie, je l'ai envoyée à ma sœur.* (Almost. When I'd finished the first part, I sent it to my sister.)
+- *« Quand j'ai eu fini » ? C'est quel temps, ça ?* ("When I'd finished"? What tense is that?)
+- *Le passé surcomposé. On l'entend à l'oral, pour une action finie juste avant une autre.* (The passé surcomposé. You hear it in speech, for an action finished just before another.)
+- *Et dans ton histoire, il y en a ?* (And is there any in your story?)
+- *Non, mon histoire est au passé simple. Alors j'écris « quand il eut fini ».* (No, my story is in the passé simple. So I write "quand il eut fini".)
+- *Ah, le passé antérieur. Je l'ai vu dans des romans, mais jamais à l'oral.* (Ah, the passé antérieur. I've seen it in novels, but never in speech.)
+- *C'est normal : on ne le trouve qu'à l'écrit.* (That's normal: you only find it in writing.)
+- *Tu peux me donner une phrase de ton histoire ?* (Can you give me a sentence from your story?)
+- *« À peine le cavalier fut-il parti que la cloche sonna. »* ("No sooner had the rider left than the bell rang.")
+- *Très bien ! Je pourrai la lire quand tu auras fini ?* (Very good! Can I read it when you've finished?)
+- *Bien sûr. Dès que j'aurai écrit la fin, je te l'enverrai.* (Of course. As soon as I've written the ending, I'll send it to you.)
+
+<Callout type="warning" title="Quand il eut fini, il partit, not il est parti">
+  Learners sometimes put a passé antérieur in the time clause and a passé composé in the main clause. The two tenses belong to different systems: keep **quand il eut fini, il partit** in writing, and **quand il a eu fini, il est parti** in speech.
+</Callout>
+
+<Callout type="tip" title="Read the main verb first">
+  When you meet a time clause in a text, find the main verb before you read the clause. Its tense tells you which partner to expect: passé simple and passé antérieur, passé composé and passé surcomposé, imparfait and plus-que-parfait. Do the same before you write the clause yourself.
+</Callout>
+
+## En résumé
+
+Le passé antérieur se forme avec avoir ou être au passé simple et le participe passé : il eut fini, elle fut partie, ils se furent endormis. L'accord du participe se fait comme au passé composé. Dans un récit écrit, il marque une action finie juste avant une autre, qui est au passé simple. On le trouve surtout après quand, lorsque, dès que, aussitôt que et après que : quand il eut fini, il partit. Avec à peine… que, la seconde action suit presque tout de suite, et on fait l'inversion quand à peine est au début de la phrase : à peine fut-il sorti qu'il se mit à pleuvoir. À l'oral, on dit plutôt quand il a eu fini, il est parti : c'est le passé surcomposé. Pour une habitude à l'imparfait, il faut le plus-que-parfait : quand il avait fini, il partait.
+
+## What's next
+
+Next, <LessonLink id="c1-future-in-the-past" text="the lesson on the future in the past" /> shows how a narrative looks ahead from a moment in the past.
+
+===== content/lessons/c1/stylistic-inversion.mdx =====
+---
+id: "c1-stylistic-inversion"
+title: "Stylistic inversion"
+description: "Put the verb before its subject in careful written French: after à peine, ainsi, du moins, encore and toujours est-il que, after direct speech (dit-il, répondit le témoin) and in relative clauses, and know when inversion is required, optional or wrong."
+level: "C1"
+unit: "Style and emphasis"
+order: 9
+type: "grammar"
+tags: ["grammar", "word order", "formal writing", "literary French"]
+prerequisites: ["a1-yes-no-questions", "b2-registers"]
+related: ["c1-passe-anterieur", "b2-logical-connectors", "b2-reporting-verbs"]
+vocab:
+  - { id: "c1-stylistic-inversion-v001", group: "adverbs", fr: "du moins", pron: "dew MWAN", en: "at least, or at least (correcting what was just said)", note: "Il a fini, du moins le dit-il." }
+  - { id: "c1-stylistic-inversion-v002", group: "adverbs", fr: "encore + inversion", pron: "ahn-KOR", en: "still, even so (formal, at the start of a sentence)", note: "Encore faut-il que… In the middle of a sentence, encore means still." }
+  - { id: "c1-stylistic-inversion-v003", group: "adverbs", fr: "toujours est-il que", pron: "too-zhoor eh-TEEL kuh", en: "the fact remains that, anyway" }
+  - { id: "c1-stylistic-inversion-v004", group: "incises", fr: "une incise", pron: "ew-nan-SEEZ", en: "a reporting clause (dit-il, répondit-elle)" }
+  - { id: "c1-stylistic-inversion-v005", group: "incises", fr: "murmurer", pron: "mewr-mew-RAY", en: "to murmur, to whisper" }
+  - { id: "c1-stylistic-inversion-v006", group: "incises", fr: "soupirer", pron: "soo-pee-RAY", en: "to sigh" }
+  - { id: "c1-stylistic-inversion-v007", group: "incises", fr: "reprendre", pron: "ruh-PRAHN-druh", en: "to go on (speaking), to continue", note: "In an incise: reprit-il." }
+  - { id: "c1-stylistic-inversion-v008", group: "incises", fr: "s'étonner", pron: "say-toh-NAY", en: "to be surprised, to wonder" }
+  - { id: "c1-stylistic-inversion-v009", group: "incises", fr: "rétorquer", pron: "ray-tor-KAY", en: "to retort" }
+  - { id: "c1-stylistic-inversion-v010", group: "writing", fr: "le lecteur / la lectrice", pron: "luh lek-TUHR / lah lek-TREESS", en: "the reader" }
+  - { id: "c1-stylistic-inversion-v011", group: "writing", fr: "le romancier / la romancière", pron: "luh roh-mahn-SYAY / lah roh-mahn-SYEHR", en: "the novelist" }
+  - { id: "c1-stylistic-inversion-v012", group: "writing", fr: "le témoin", pron: "luh tay-MWAN", en: "the witness" }
+  - { id: "c1-stylistic-inversion-v013", group: "writing", fr: "la règle", pron: "lah REG-luh", en: "the rule" }
+exercises:
+  - id: "c1-stylistic-inversion-ex001"
+    type: "fill-in"
+    prompt: "Complétez avec l'incise au passé simple (dire, il) : « Je vous attends ici », ___."
+    answers: ["dit-il"]
+    explanation: "After direct speech, the verb comes before the subject pronoun: dit-il."
+  - id: "c1-stylistic-inversion-ex002"
+    type: "fill-in"
+    prompt: "Complétez avec l'incise au passé simple (demander, elle) : « Où allez-vous ? » ___."
+    answers: ["demanda-t-elle"]
+    explanation: "Demanda ends in a vowel and elle starts with one, so add -t-: demanda-t-elle."
+  - id: "c1-stylistic-inversion-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec l'incise au passé simple (répondre, le témoin) : « Je n'ai rien vu », ___."
+    answers: ["répondit le témoin"]
+    explanation: "With a noun subject, the incise uses simple inversion, with no extra pronoun: répondit le témoin."
+  - id: "c1-stylistic-inversion-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase correcte."
+    options: ["« Je pars », dit Paul.", "« Je pars », Paul dit-il.", "« Je pars », dit-il Paul."]
+    answers: ["« Je pars », dit Paul."]
+    explanation: "An incise with a noun subject: the verb, then the noun, and no pronoun."
+  - id: "c1-stylistic-inversion-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase correcte."
+    options: ["Peut-être est-il malade.", "Peut-être qu'est-il malade.", "Peut-être il est-il malade."]
+    answers: ["Peut-être est-il malade."]
+    explanation: "Peut-être at the start takes inversion, or que with normal order, never both."
+  - id: "c1-stylistic-inversion-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez si l'inversion est obligatoire, possible ou impossible : dans une incise, après une citation."
+    options: ["obligatoire", "possible", "impossible"]
+    answers: ["obligatoire"]
+    explanation: "In written French, the subject of an incise always comes after the verb: « Je pars », dit-il."
+  - id: "c1-stylistic-inversion-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez si l'inversion est obligatoire, possible ou impossible : dans une relative, avec un pronom sujet (le livre qu'il lit)."
+    options: ["impossible", "possible", "obligatoire"]
+    answers: ["impossible"]
+    explanation: "Inversion in a relative clause works only with a noun subject: le livre que lit Paul, but le livre qu'il lit."
+  - id: "c1-stylistic-inversion-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Il a tout compris, ___ le croit-il."
+    options: ["du moins", "peut-être que", "parce que"]
+    answers: ["du moins"]
+    explanation: "Du moins corrects what was just said, and here it's followed by inversion: du moins le croit-il."
+  - id: "c1-stylistic-inversion-ex009"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Le projet est intéressant. ___ faut-il trouver l'argent."
+    options: ["Encore", "Peut-être que", "Parce que"]
+    answers: ["Encore"]
+    explanation: "Encore at the start, with inversion, means still or even so: encore faut-il trouver l'argent."
+  - id: "c1-stylistic-inversion-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec l'inversion : Peut-être qu'elle a raison."
+    answers: ["Peut-être a-t-elle raison"]
+    explanation: "Drop que and invert: peut-être a-t-elle raison. Add -t- between the two vowels."
+    strictAccents: true
+  - id: "c1-stylistic-inversion-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « à peine » au début de la phrase et l'inversion : Le train était à peine parti que la neige a commencé à tomber."
+    answers: ["À peine le train était-il parti que la neige a commencé à tomber"]
+    explanation: "A noun subject stays in front and a pronoun follows the auxiliary: à peine le train était-il parti."
+    strictAccents: true
+  - id: "c1-stylistic-inversion-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec « ainsi » au début de la phrase et l'inversion : Il a donc pu partir plus tôt."
+    answers: ["Ainsi a-t-il pu partir plus tôt"]
+    explanation: "Ainsi (thus) at the start, then inversion of the auxiliary and the pronoun."
+    strictAccents: true
+  - id: "c1-stylistic-inversion-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : « Je suis fatigué », Paul dit-il."
+    answers: ["« Je suis fatigué », dit Paul.", "Paul dit : « Je suis fatigué »."]
+    explanation: "In an incise with a noun subject, use simple inversion: dit Paul. Or put Paul dit before the quotation."
+  - id: "c1-stylistic-inversion-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Peut-être qu'est-il parti."
+    answers: ["Peut-être est-il parti", "Peut-être qu'il est parti", "Il est peut-être parti"]
+    explanation: "Either inversion (formal) or que with normal order (standard), not both."
+  - id: "c1-stylistic-inversion-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Voici le livre que lit-il."
+    answers: ["Voici le livre qu'il lit"]
+    explanation: "With a pronoun subject, a relative clause keeps normal order: qu'il lit."
+  - id: "c1-stylistic-inversion-ex016"
+    type: "translate"
+    prompt: "Traduisez avec une incise au passé simple (répondre, le voyageur) : “I don't know,” the traveller replied."
+    answers: ["« Je ne sais pas », répondit le voyageur."]
+    explanation: "The incise follows the quotation, with simple inversion: répondit le voyageur."
+  - id: "c1-stylistic-inversion-ex017"
+    type: "translate"
+    prompt: "Traduisez avec « toujours est-il que » : The fact remains that nobody came."
+    answers: ["Toujours est-il que personne n'est venu"]
+    explanation: "Toujours est-il que is a fixed phrase with inversion, followed by normal order."
+  - id: "c1-stylistic-inversion-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : He probably forgot. (formal)"
+    words: ["Sans", "doute", "a-t-il", "oublié"]
+    answers: ["Sans doute a-t-il oublié"]
+    explanation: "Sans doute at the start, then the inverted auxiliary and pronoun."
+---
+
+By the end of this lesson you'll be able to put the verb before its subject where careful written French expects it, and to tell when inversion is required, optional or wrong.
+
+## What you already know
+
+You know inversion in questions (*parlez-vous… ?*) from <LessonLink id="a1-yes-no-questions" text="the lesson on yes/no questions" />. In <LessonLink id="b2-registers" text="the lesson on registers" />, you met complex inversion with a noun subject (*Paul vient-il ?*) and inversion after *peut-être*, *sans doute* and *aussi* at the start of a sentence. You also used *à peine… que* with inversion in <LessonLink id="c1-passe-anterieur" text="the lesson on the passé antérieur" />. This lesson adds the other places where written French inverts.
+
+## Three cases: required, optional, wrong
+
+Stylistic inversion isn't a question. It's a word order that marks careful writing, and it follows a few patterns. In some places it's required: leaving it out sounds like a mistake. In others it's optional: it raises the register, and the plain order is also correct. In a few places it's wrong. Usage varies between writers, so treat the lists in this lesson as rules of thumb for careful modern prose.
+
+The two forms work as in questions. With a pronoun subject, the pronoun follows the verb or the auxiliary, with *-t-* between two vowels. With a noun subject, the noun stays in front and a pronoun follows the verb: this is complex inversion.
+
+<Example fr="Sans doute le témoin s'est-il trompé." en="The witness was probably mistaken. (formal)" />
+
+## After adverbs at the start of a sentence
+
+<VocabTable group="adverbs" />
+
+You know *ainsi* (thus) from <LessonLink id="b2-logical-connectors" text="the lesson on logical connectors" />. At the start of a sentence, it can take inversion. With a comma and the normal order, it's also correct, and less formal.
+
+<Example fr="Ainsi le lecteur comprend-il enfin la fin du roman." en="Thus the reader finally understands the ending of the novel. (formal)" />
+<Example fr="Ainsi, le lecteur comprend enfin la fin du roman." en="Thus the reader finally understands the ending of the novel. (standard)" />
+
+*Du moins* corrects or limits what was just said: "or at least". After a comma, inversion is common in writing, but the normal order is also correct.
+
+<Example fr="La romancière a fini son livre, du moins le dit-elle." en="The novelist has finished her book, or at least that's what she says. (formal)" />
+
+*Encore* at the start of a sentence, with inversion, means "still" or "even so": it adds a condition that limits what came before. In this meaning, inversion is required. In the middle of a sentence, *encore* keeps its usual meaning, "still", which you know from <LessonLink id="a2-negative-expressions" text="the lesson on negative expressions" />.
+
+<Example fr="Le plan est bon. Encore faut-il que tout le monde soit d'accord." en="The plan is good. Even so, everyone still has to agree. (formal)" />
+
+*Toujours est-il que* is a fixed phrase: the inversion is frozen inside it, and the clause after *que* keeps normal order. It means "the fact remains that" and moves past a doubt to what is certain.
+
+<Example fr="Je ne sais pas pourquoi il est parti. Toujours est-il qu'il n'est pas revenu." en="I don't know why he left. The fact remains that he hasn't come back." />
+
+When *à peine* opens a written sentence, careful writers invert, in any tense. Inside the sentence, *à peine* follows the auxiliary and there's no inversion.
+
+<Example fr="À peine sommes-nous arrivés qu'il a commencé à pleuvoir." en="No sooner had we arrived than it started to rain. (formal)" />
+
+## After direct speech
+
+<VocabTable group="incises" />
+
+When a reporting verb follows or interrupts a quotation, its subject comes after it. This short clause is called *une incise*. In written French, the inversion is required, whatever the tense.
+
+- With a pronoun subject, the verb and the pronoun are joined by a hyphen, with *-t-* between two vowels: *dit-il*, *demanda-t-elle*, *a-t-il répondu*.
+- With a noun subject, there's no extra pronoun: *répondit le témoin*, *dit Paul*. This is simple inversion, unlike complex inversion in questions.
+- An incise can also sit inside the quotation, between two commas.
+
+<Example fr="« Je pars demain », dit-elle." en="“I'm leaving tomorrow,” she said." />
+<Example fr="« Déjà ? » s'étonna le romancier." en="“Already?” the novelist wondered." />
+<Example fr="« Je sais, soupira-t-il, mais c'est trop tard. »" en="“I know,” he sighed, “but it's too late.”" />
+<Example fr="« Vous avez tort », rétorqua la lectrice." en="“You're wrong,” the reader retorted." />
+
+Novels use many reporting verbs besides *dire*: *murmurer*, *soupirer*, *s'étonner*, *rétorquer*, and *reprendre* (to go on speaking).
+
+<Example fr="« Il faut partir, reprit-elle. Il faut partir maintenant », murmura-t-elle." en="“We have to leave,” she went on. “We have to leave now,” she whispered." />
+
+In casual speech, you'll hear *« Je pars », il a dit* with normal order. It's fine when you talk, but in writing it reads as a mistake.
+
+## In relative clauses
+
+<VocabTable group="writing" />
+
+After *que*, *où* and *dont*, a noun subject can follow the verb. It's optional, and writers use it when the verb is short and the subject is long, so that the sentence doesn't end on a lone verb.
+
+<Example fr="La maison où vivait la romancière est aujourd'hui un musée." en="The house where the novelist lived is a museum today." />
+<Example fr="C'est la règle que suivent beaucoup de lecteurs." en="It's the rule that many readers follow." />
+
+This inversion is wrong in two cases. With a pronoun subject, keep normal order: *le livre qu'il lit*, not *que lit-il*. And when the verb has its own direct object, the subject must stay in front: *le jour où Paul a rencontré sa femme*.
+
+## Where inversion is wrong
+
+As a rule of thumb, don't invert in these places:
+
+- After *peut-être que* and *sans doute que*: *que* replaces the inversion. Say *peut-être qu'il est malade* or *peut-être est-il malade*, never both.
+- In a relative clause with a pronoun subject, or with a direct object after the verb.
+- After *aussi* in the middle of a sentence, where it means "also".
+
+## The whole list
+
+- Required: in an incise (*dit-il*, *répondit le témoin*), after *encore* meaning "even so", and in *toujours est-il que*.
+- Usual in careful writing: after *à peine*, *peut-être* and *sans doute* at the start of a sentence, and after *aussi* meaning "therefore".
+- Optional: after *ainsi* and *du moins*, and in a relative clause with a noun subject.
+- Wrong: after *peut-être que*, and in a relative clause with a pronoun subject or a direct object.
+
+## En français
+
+Inès reads the short story her colleague Théo wrote for the office newsletter. They speak in everyday spoken French and quote his text.
+
+- *J'ai lu ton histoire. Elle est bien, mais il y a un problème dans les dialogues.* (I've read your story. It's good, but there's a problem in the dialogues.)
+- *Quel problème ? J'ai écrit : « Je pars », il a dit.* (What problem? I wrote: "I'm leaving," he said.)
+- *À l'écrit, on met le verbe avant le sujet : « Je pars », dit-il.* (In writing, you put the verb before the subject: "Je pars", dit-il.)
+- *Et avec un prénom ? « Je pars », Paul dit-il ?* (And with a first name? "Je pars", Paul dit-il?)
+- *Non, là, il n'y a pas de pronom : « Je pars », dit Paul.* (No, then there's no pronoun: "Je pars", dit Paul.)
+- *D'accord. Et la phrase avec « peut-être » ?* (OK. And the sentence with peut-être?)
+- *Tu as écrit « peut-être qu'il est malade ». C'est correct, mais c'est de l'oral.* (You wrote "peut-être qu'il est malade". It's correct, but it's spoken French.)
+- *Alors j'écris « peut-être est-il malade » ?* (So I write "peut-être est-il malade"?)
+- *Oui, c'est plus soutenu. Mais jamais « peut-être qu'est-il ».* (Yes, it's more formal. But never "peut-être qu'est-il".)
+- *Et « toujours est-il que » ? Je l'ai vu dans un roman.* (And "toujours est-il que"? I saw it in a novel.)
+- *Ça veut dire « en tout cas ». Par exemple : ton histoire a des erreurs, toujours est-il qu'elle me plaît !* (It means "anyway". For example: your story has mistakes, but the fact remains that I like it!)
+- *Merci ! Je change les dialogues ce soir, du moins j'essaie.* (Thanks! I'll change the dialogues tonight, or at least I'll try.)
+
+<Callout type="warning" title="Dit Paul, not Paul dit-il">
+  Learners often use complex inversion in an incise because they know it from questions. After a quotation, a noun subject simply follows the verb: **« Je pars », dit Paul**, not *« Je pars », Paul dit-il*.
+</Callout>
+
+<Callout type="tip" title="Collect reporting verbs">
+  When you read a novel, note every reporting verb you find in an incise, with its sentence: *murmura-t-elle*, *rétorqua le témoin*. After a few chapters, you'll have a list that lets your own dialogues go far beyond *dit-il*.
+</Callout>
+
+## En résumé
+
+Cette inversion met le verbe avant le sujet dans la langue écrite soignée. Avec un pronom, on écrit dit-il ou demanda-t-elle. Avec un nom, on garde le nom devant et on ajoute un pronom après le verbe : sans doute le témoin s'est-il trompé. Dans une incise, après une citation, l'inversion est obligatoire, et un nom sujet suit le verbe sans pronom : « Je pars », dit Paul. L'inversion est aussi obligatoire après encore au début de la phrase, quand il ajoute une condition, et dans toujours est-il que. Après à peine, peut-être et sans doute au début de la phrase, elle est la règle à l'écrit soigné. Après ainsi et du moins, elle est possible. Dans une relative, un nom sujet peut suivre le verbe, mais pas un pronom : le livre qu'il lit. Après peut-être que, on garde l'ordre normal.
+
+## What's next
+
+Next, <LessonLink id="c1-ne-expletif" text="the lesson on the ne explétif" /> shows a *ne* that doesn't make a sentence negative.
+

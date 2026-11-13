@@ -226,6 +226,9 @@ const RULES: Rule[] = [
   { name: "certainty and probability", teaches: "b2-certainty-and-probability", from: "b2", find: all(/\b(?:il se peut qu|il est (?:peu |très |fort )?probable qu|il est possible qu|il paraît probable qu|le fait qu)(?:e\b|')/gi) },
   { name: "concessive relative", teaches: "b2-relative-prepositions", from: "b2", find: all(/(?<![a-zàâäçéèêëîïôöûùüÿœ])(?:quoi qu(?:e\b|')|qui que\b|où que\b)/gi) },
   { name: "passé simple", teaches: "b2-arts-and-literature", from: "b2", find: passeSimpleForms },
+  // C1 literary tenses. The passé antérieur rule only looks at avoir + participle, because fut + participle is also the passé simple passive.
+  { name: "passé antérieur", teaches: "c1-passe-anterieur", from: "b2", find: all(/(?<![a-zàâçéèêëîïôûùüÿœ])(?:eus|eut|eûmes|eûtes|eurent)\s+[a-zàâçéèêëîïôûùüÿœ]+(?:é|i|u|is|it|ert|int|uit)(?![a-zàâçéèêëîïôûùüÿœ])/gi) },
+  { name: "imparfait du subjonctif", teaches: "c1-imperfect-subjunctive", from: "b2", find: all(/(?<![a-zàâçéèêëîïôûùüÿœ])qu(?:'|e\s+)(?:il|elle|on|ils|elles|je|tu|nous|vous)\s+(?:fût|eût|fît|vînt|fussent|eussent|fissent|vinssent|fusse|eusse|pût|sût)(?![a-zàâçéèêëîïôûùüÿœ])/gi) },
 ];
 
 // Line of the file where a match appears: the first line containing the match, preferring one that

@@ -7,7 +7,8 @@ import matter from "gray-matter";
 
 const ROOT = process.cwd();
 // Links to planned lessons that are allowed for now. Keep this list short and documented in docs/project-state.md.
-const ALLOWED_MISSING = new Set<string>([]);
+// C1 pilot: the "What's next" links of c1-passe-anterieur and c1-stylistic-inversion point to the next planned lessons.
+const ALLOWED_MISSING = new Set<string>(["c1-future-in-the-past", "c1-ne-expletif"]);
 
 const ids = new Set<string>();
 for (const lv of ["a1", "a2", "b1", "b2", "c1", "c2"]) {
@@ -25,15 +26,14 @@ for (const line of fs.readFileSync(path.join(ROOT, "docs", "syllabus.md"), "utf8
   if (lv) level = lv[1];
   const u = line.match(/^### Unit \d+:\s*(.+)$/);
   if (u) title = u[1].trim();
-  const m = line.match(/^\|\s*\d+\s*\|\s*(b2-[^\s|]+)\s*\|/);
+  const m = line.match(/^\|\s*\d+\s*\|\s*((?:b2|c1)-[^\s|]+)\s*\|/);
   if (m) unitOf.set(m[1], title);
 }
 
 const failures: string[] = [];
-const dir = path.join(ROOT, "content", "lessons", "b2");
-const files = fs.readdirSync(dir).filter((x) => x.endsWith(".mdx"));
+const files = ["b2", "c1"].map((lv) => path.join(ROOT, "content", "lessons", lv)).filter((d) => fs.existsSync(d)).flatMap((d) => fs.readdirSync(d).filter((x) => x.endsWith(".mdx")).map((x) => path.join(d, x)));
 for (const f of files) {
-  const { data, content } = matter(fs.readFileSync(path.join(dir, f), "utf8"));
+  const { data, content } = matter(fs.readFileSync(f, "utf8"));
   for (const m of content.matchAll(/<LessonLink\b[^>]*id="([^"]+)"/g)) {
     if (!ids.has(m[1]) && !ALLOWED_MISSING.has(m[1])) failures.push(`${data.id}: LessonLink to missing lesson ${m[1]}`);
   }
@@ -45,9 +45,9 @@ for (const f of files) {
   if (displayed.some((n, i) => i > 0 && n < displayed[i - 1])) failures.push(`${data.id}: vocab ids not in display order (${displayed.join(",")})`);
   if (new Set(nums).size !== nums.length) failures.push(`${data.id}: duplicate vocab ids`);
   const expected = unitOf.get(data.id);
-  if (!expected) failures.push(`${data.id}: not in the B2 syllabus`);
+  if (!expected) failures.push(`${data.id}: not in the syllabus`);
   else if (expected !== data.unit) failures.push(`${data.id}: unit "${data.unit}" but syllabus says "${expected}"`);
 }
-console.log(`b2-links-ids: ${files.length} lessons checked, ${failures.length} failure(s).`);
+console.log(`b2-links-ids: ${files.length} B2 and C1 lessons checked, ${failures.length} failure(s).`);
 for (const f of failures) console.log(`  ${f}`);
 if (failures.length) process.exit(1);

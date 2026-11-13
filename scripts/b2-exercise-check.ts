@@ -1,4 +1,4 @@
-// Self-test for the B2 exercise types: every accepted answer must pass lib/check-answer.ts,
+// Self-test for the B2 and C1 exercise types: every accepted answer must pass lib/check-answer.ts,
 // and the text the learner starts from (the wrong or original sentence) must not.
 // Run with: npm run test:b2-exercises
 import fs from "node:fs";
@@ -6,12 +6,12 @@ import path from "node:path";
 import matter from "gray-matter";
 import { checkAnswer, checkChoice, sameWords } from "../lib/check-answer.ts";
 
-const dir = path.join(process.cwd(), "content", "lessons", "b2");
+const dirs = ["b2", "c1"].map((lv) => path.join(process.cwd(), "content", "lessons", lv)).filter((d) => fs.existsSync(d));
 const TYPED = new Set(["reformulation", "register-shift", "error-correction"]);
 const failures: string[] = [];
 let checked = 0;
 
-for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".mdx"))) {
+for (const dir of dirs) for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".mdx"))) {
   const { data } = matter(fs.readFileSync(path.join(dir, f), "utf8"));
   for (const e of (data.exercises ?? []) as any[]) {
     const answers: string[] = e.answers ?? [];
@@ -44,7 +44,7 @@ for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".mdx"))) {
 
 // The reorder with a repeated word ("a" twice): the chips, in answer order, must rebuild the answer.
 {
-  const { data } = matter(fs.readFileSync(path.join(dir, "review-what-might-have-been.mdx"), "utf8"));
+  const { data } = matter(fs.readFileSync(path.join(process.cwd(), "content", "lessons", "b2", "review-what-might-have-been.mdx"), "utf8"));
   const e = (data.exercises as any[]).find((x) => x.id === "b2-review-what-might-have-been-ex016");
   const words: string[] = e.words;
   const repeated = words.filter((w) => w === "a").length;

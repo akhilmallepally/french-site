@@ -153,12 +153,17 @@ function audit(lessons: AuditLesson[]) {
 
   // B2 checks: lengths, En résumé, the exercise and vocab mix, repeats from earlier levels,
   // the passé simple, and spoken features in answers.
+  // Used for B2 and C1 lessons; C1 has its own limits (CLAUDE.md, "C1 conventions").
   function auditB2(l: AuditLesson, whole: number) {
     const type = l.type ?? "";
     const teach = renderedWords(teachingText(l.body));
-    const maxTeach = type === "grammar" ? 1200 : 1100;
-    if (teach < 800 || teach > maxTeach) P.b2Length.push(`${l.id}: teaching text ${teach} words (B2: 800 to ${maxTeach})`);
-    if (whole > 1800) P.b2Length.push(`${l.id}: whole lesson ${whole} words (B2 cap: 1800)`);
+    const c1 = l.id.startsWith("c1-");
+    const LV = c1 ? "C1" : "B2";
+    const maxTeach = c1 ? (type === "grammar" ? 1300 : 1200) : type === "grammar" ? 1200 : 1100;
+    const minTeach = c1 ? 900 : 800;
+    const maxWhole = c1 ? 2100 : 1800;
+    if (teach < minTeach || teach > maxTeach) P.b2Length.push(`${l.id}: teaching text ${teach} words (${LV}: ${minTeach} to ${maxTeach})`);
+    if (whole > maxWhole) P.b2Length.push(`${l.id}: whole lesson ${whole} words (${LV} cap: ${maxWhole})`);
 
     const sections = splitSections(l.body);
     const resumeAt = sections.findIndex((s) => s.kind === "resume");
@@ -168,7 +173,7 @@ function audit(lessons: AuditLesson[]) {
     if (resumeAt >= 0) {
       const words = resumeWords(l.body);
       const unit = unitNumber.get(l.id) ?? 0;
-      const [lo, hi] = unit >= 5 ? [100, 150] : [60, 100];
+      const [lo, hi] = c1 ? [120, 180] : unit >= 5 ? [100, 150] : [60, 100];
       if (words < lo || words > hi) P.b2Resume.push(`${l.id}: En résumé ${words} words (unit ${unit || "?"}: ${lo} to ${hi})`);
       const after = sections.slice(resumeAt + 1).map((s) => s.heading);
       if (after.some((h) => h !== "What's next")) P.b2Resume.push(`${l.id}: En résumé should be the last section before What's next`);
@@ -184,15 +189,17 @@ function audit(lessons: AuditLesson[]) {
     const count = (pred: (e: Exercise) => boolean) => exs.filter(pred).length;
     const production = count((e) => PRODUCTION.has(e.type));
     const issues: string[] = [];
-    if (exs.length < 14 || exs.length > 16) issues.push(`${exs.length} exercises (14 to 16)`);
-    if (production < 3) issues.push(`${production} production tasks (at least 3)`);
+    const [elo, ehi, pmin] = c1 ? [15, 18, 4] : [14, 16, 3];
+    if (exs.length < elo || exs.length > ehi) issues.push(`${exs.length} exercises (${elo} to ${ehi})`);
+    if (production < pmin) issues.push(`${production} production tasks (at least ${pmin})`);
     if (!count((e) => e.type === "reorder")) issues.push("no reorder");
     if (!count((e) => e.type === "reformulation")) issues.push("no reformulation");
     if (issues.length) P.b2Mix.push(`${l.id}: ${issues.join(", ")}`);
     const dialogue = sections.find((s) => s.kind === "dialogue");
     if (dialogue) {
       const lines = dialogue.body.split("\n").filter((x) => /^- /.test(x.trim())).length;
-      if (lines < 10 || lines > 14) P.b2Mix.push(`${l.id}: dialogue has ${lines} lines (B2: 10 to 14)`);
+      const [dlo, dhi] = c1 ? [12, 16] : [10, 14];
+      if (lines < dlo || lines > dhi) P.b2Mix.push(`${l.id}: dialogue has ${lines} lines (${LV}: ${dlo} to ${dhi})`);
     }
     if ((type === "communication" || type === "culture") && !sections.some((s) => s.kind === "text")) {
       P.b2Mix.push(`${l.id}: no longer-text section (${type} lesson)`);
@@ -200,7 +207,8 @@ function audit(lessons: AuditLesson[]) {
     // The longer text: French words in the longer-text sections (italic lines; translations and notes left out).
     if (type === "communication" || type === "culture") {
       const words = countWords(sections.filter((s) => s.kind === "text").flatMap((s) => italicLines(s.body)).join(" "));
-      if (words && (words < 150 || words > 250)) P.b2Text.push(`${l.id}: longer text ${words} French words (B2: 150 to 250)`);
+      const [tlo, thi] = c1 ? [250, 400] : [150, 250];
+      if (words && (words < tlo || words > thi)) P.b2Text.push(`${l.id}: longer text ${words} French words (${LV}: ${tlo} to ${thi})`);
     }
 
     for (const v of l.vocab ?? []) {
@@ -239,7 +247,7 @@ function audit(lessons: AuditLesson[]) {
       faire: ["fai", "fais", "fait", "font", "fer", "fass", "fit", "firent"],
       aller: ["vais", "vas", "va", "vont", "all", "irai", "iras", "ira", "iron", "irez", "aill"],
       pouvoir: ["peu", "pouv", "pourr", "puiss", "pu"],
-      mettre: ["met", "mis"], prendre: ["prend", "pren", "pris", "prit", "prir"], tenir: ["tien", "ten", "tin"],
+      mettre: ["met", "mis", "mit", "mirent"], taire: ["tai", "tais", "tut", "turent"], prendre: ["prend", "pren", "pris", "prit", "prir"], tenir: ["tien", "ten", "tin"],
       venir: ["vien", "ven", "vin"], devoir: ["doi", "dev", "du"], savoir: ["sai", "sav", "sach", "su", "saur"],
       dire: ["dis", "dit", "dir", "dise"], voir: ["voi", "voy", "vu", "verr"], atteindre: ["attei", "atteign"], elire: ["eli", "elu"],
       admettre: ["admet", "admis"], promettre: ["promet", "promis"], permettre: ["permet", "permis"],
@@ -278,15 +286,15 @@ function audit(lessons: AuditLesson[]) {
       ...sections.filter((s) => s.kind !== "teaching").flatMap((s) => (s.kind === "resume" ? [s.body] : italicLines(s.body))),
       ...exs.flatMap((e) => [e.prompt ?? "", ...(e.answers ?? []), ...(e.options ?? [])]),
     ];
-    if (l.order < PASSE_SIMPLE_FROM) {
+    if (!c1 && l.order < PASSE_SIMPLE_FROM) {
       const forms = [...new Set(french.flatMap(passeSimpleForms))];
       if (forms.length) P.b2PasseSimple.push(`${l.id}: passé simple before lesson ${PASSE_SIMPLE_FROM} (${forms.join(", ")})`);
     }
     for (const e of exs) {
       if (!TYPED.has(e.type)) continue;
       const forms = [...new Set((e.answers ?? []).flatMap(passeSimpleForms))];
-      if (forms.length) P.b2PasseSimple.push(`${l.id} / ${e.id}: passé simple in an answer the learner types (${forms.join(", ")})`);
-      if (l.order < SPOKEN_FROM) {
+      if (forms.length && !c1) P.b2PasseSimple.push(`${l.id} / ${e.id}: passé simple in an answer the learner types (${forms.join(", ")})`);
+      if (!c1 && l.order < SPOKEN_FROM) {
         for (const a of e.answers ?? []) {
           if (dropsNe(a)) P.b2Spoken.push(`${l.id} / ${e.id}: dropped ne before lesson ${SPOKEN_FROM}: ${JSON.stringify(a)}`);
         }
@@ -303,7 +311,7 @@ function audit(lessons: AuditLesson[]) {
     }
     pendingRank.push(l);
     const whole = renderedWords(l.body);
-    if (l.id.startsWith("b2-")) {
+    if (l.id.startsWith("b2-") || l.id.startsWith("c1-")) {
       auditB2(l, whole);
     } else if (l.id.startsWith("b1-")) {
       // B1: teaching text excludes dialogues and longer texts (see CLAUDE.md, B1 conventions).

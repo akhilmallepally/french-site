@@ -7,6 +7,8 @@
 export const INSTRUCTION_VERBS = [
   "Complétez", "Choisissez", "Indiquez", "Reformulez", "Transformez", "Corrigez", "Remettez dans l'ordre",
   "Conjuguez", "Accordez", "Mettez au…", "Répondez", "Rédigez", "Traduisez", "Trouvez",
+  // C1 only (model-answer tasks): see CLAUDE.md, "C1 conventions".
+  "Résumez", "Justifiez",
 ];
 export const INSTRUCTION_NOUNS = [
   "la phrase", "le mot", "le verbe", "la forme", "le sens", "la bonne réponse", "le connecteur", "l'erreur",
@@ -35,7 +37,7 @@ administratif administrative africain africaine alternative alternatives analyse
 coalition colonial coloniale colonie colonies composition conclusion connexion consultation contexte contraste création
 discrimination décision décisions décolonisation développement document documents empire exclusion exporter importer
 financier financière formel formelle francophonie historique idéal idéale immigration importance impression
-impressionnisme incertain incertaine indépendance inflation informel informelle interprétation interrogatoire
+impressionnisme incertain incertaine danger dangers formes dialogue dialogues indépendance inflation informel informelle interprétation interrogatoire
 intervention introduction intégration journaliste journalistes laboratoire maintenance modéré modérée monument monuments
 médical médicale méthode méthodes négociation objection opposition paradoxal paradoxale paragraphe partenaire
 participant participante position positions priorité probabilité procédure profil prévention racisme registre

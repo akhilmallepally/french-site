@@ -1529,3 +1529,31 @@ Every date, tradition and regional detail, for checking:
 - **Quotation safe list (CLAUDE.md):** authors who died before 1900; confirm the reasoning about French copyright terms (wartime and "mort pour la France" extensions) before relying on it.
 - **c1-exam-oral-presentation, c1-exam-written-tasks:** any sentence that describes the DALF itself (none planned; the lessons are practice only).
 - **c1-ne-expletif, c1-stylistic-inversion:** which uses are required, optional or old-fashioned today.
+
+## C1 lessons
+
+### c1-passe-simple
+
+- **"Only -er verbs take -èrent; the others take -irent or -urent."** and **"Venir and tenir share a fourth pattern, in -ins and -int."** Confirm as stated.
+- **"It isn't used in everyday speech or in modern dialogue: when a character speaks in a novel, they use the passé composé."** Confirm for modern fiction.
+- **The third-person table** (*dit, prit, mit, put, voulut, sut, crut, lut, vécut, écrivit, connut, courut, naquit, mourut*) and the full tables of *être, avoir, faire, venir, tenir, voir*. Confirm every form.
+- **ex005:** *Ce soir-là, il finit son repas et sortit*: confirm that the context makes *finit* a passé simple.
+- **Narrative:** *À l'aube, le roi franchit enfin le seuil… Aussitôt, tout le château se mit à courir.* Confirm it reads naturally.
+
+### c1-passe-anterieur
+
+- **"The passé antérieur usually sits in a time clause after quand, lorsque, dès que or aussitôt que, and the main verb is in the passé simple."** Confirm.
+- **"You'll also meet the passé antérieur, more rarely, in a main clause with bientôt or vite"** (*Il eut bientôt fini sa lettre*). Confirm.
+- **"When à peine opens the sentence, the auxiliary and the subject pronoun are inverted… Inside the sentence, à peine follows the auxiliary and there's no inversion"** (*Il fut à peine sorti qu'il se mit à pleuvoir*). Confirm.
+- **The pairing table:** passé simple + passé antérieur; passé composé + passé surcomposé or passé composé; imparfait (habit) + plus-que-parfait. Confirm that **ex009** (*eut fini* with a habitual *rentrait*) is clearly wrong.
+- **"[The passé surcomposé is] mostly used with avoir verbs, and it belongs to speech rather than to careful writing."** Confirm.
+- **ex014** accepts *Quand il eut fini, il partit*, *Quand il a eu fini, il est parti* and *Quand il a fini, il est parti*. Confirm all three.
+
+### c1-stylistic-inversion
+
+- **"Encore at the start of a sentence, with inversion, means 'still' or 'even so'… In this meaning, inversion is required."** Confirm.
+- **"After a comma, inversion is common in writing [after du moins], but the normal order is also correct."** and **"[After ainsi] with a comma and the normal order, it's also correct."** Confirm.
+- **"In written French, the inversion is required, whatever the tense"** (incises), and **"With a noun subject, there's no extra pronoun."** Confirm.
+- **Relative clauses:** "It's optional… This inversion is wrong in two cases. With a pronoun subject… And when the verb has its own direct object." Confirm.
+- **"The whole list"**: inversion "usual in careful writing" after *à peine*, *peut-être*, *sans doute* and *aussi* (therefore); optional after *ainsi* and *du moins*. Confirm each label.
+- **Dialogue:** *Toujours est-il que* glossed as *« en tout cas »*, and *ton histoire a des erreurs, toujours est-il qu'elle me plaît !* Confirm the gloss and the use.

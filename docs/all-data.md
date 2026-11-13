@@ -1,6 +1,6 @@
 # All lesson data
 
-223 written lessons, in course order.
+226 written lessons, in course order.
 
 ## a1-greetings
 
@@ -8966,3 +8966,130 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-review-final-ex014 | translate | Traduisez : We're looking for a flat that has a garden. | — | ["Nous cherchons un appartement qui ait un jardin","Nous cherchons un appartement qui a un jardin"] | true | A flat you haven't found yet usually takes the subjunctive (ait); the indicative (a) is also heard.
 - b2-review-final-ex015 | translate | Rédigez en complétant comme indiqué : Cette année, j'ai (deepened: approfondir) ma grammaire. J'ai encore (some gaps) en vocabulaire. Je (have set myself a goal) : parler avec plus d'(ease). | — | ["Cette année, j'ai approfondi ma grammaire. J'ai encore des lacunes en vocabulaire. Je me suis fixé un objectif : parler avec plus d'aisance."] | false | Fixé doesn't agree: the direct object, un objectif, comes after the verb.
 - b2-review-final-ex016 | reorder | Remettez dans l'ordre : I want to perfect my French. | — | ["Je veux perfectionner mon français"] | false | Vouloir + infinitive.
+
+## c1-passe-simple
+
+### Vocab
+
+fr | pron | en | note
+
+- le récit | luh ray-SEE | the narrative, the story (as told) | —
+- un héros / une héroïne | uhn ay-ROH / ew-nay-roh-EEN | a hero / a heroine | No liaison: le héros.
+- la foule | lah FOOL | the crowd | —
+- le seuil | luh SUH-y | the doorstep, the threshold | —
+- à l'aube | ah LOHB | at dawn | —
+- s'écrier | say-kree-YAY | to exclaim, to cry out | —
+- se mettre à | suh meh-truh AH | to start to, to begin to | + infinitive: il se mit à courir.
+- se taire | suh TEHR | to fall silent, to stop talking | Il se tait; passé simple: il se tut.
+- surgir | sewr-ZHEER | to appear suddenly | —
+- s'enfuir | sahn-FWEER | to run away, to flee | —
+- saisir | seh-ZEER | to grab, to seize | —
+- apercevoir | ah-pehr-suh-VWAHR | to catch sight of | Passé simple: il aperçut. S'apercevoir que is to notice that.
+- franchir | frahn-SHEER | to cross, to step over | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-passe-simple-ex001 | fill-in | Conjuguez au passé simple (parler) : Ils ___ toute la nuit. | — | ["parlèrent"] | false | -er verbs: ils parlèrent.
+- c1-passe-simple-ex002 | fill-in | Conjuguez au passé simple (être) : Nous ___ très surpris. | — | ["fûmes"] | false | Être: je fus, tu fus, il fut, nous fûmes, vous fûtes, ils furent.
+- c1-passe-simple-ex003 | fill-in | Conjuguez au passé simple (franchir) : Le héros ___ le seuil sans un mot. | — | ["franchit"] | false | -ir verbs like finir: il franchit.
+- c1-passe-simple-ex004 | fill-in | Conjuguez au passé simple (venir) : Elles ___ à l'aube. | — | ["vinrent"] | false | Venir: il vint, ils vinrent.
+- c1-passe-simple-ex005 | multiple-choice | Indiquez le temps de « finit » dans la phrase : Ce soir-là, il finit son repas et sortit. | ["le passé simple","le présent","l'imparfait"] | ["le passé simple"] | false | Finit can be present or passé simple. Here sortit and ce soir-là show a past story.
+- c1-passe-simple-ex006 | multiple-choice | Choisissez l'infinitif de « il naquit ». | ["naître","nager","nier"] | ["naître"] | false | Naître: il naquit (he was born).
+- c1-passe-simple-ex007 | multiple-choice | Choisissez l'infinitif de « ils crurent ». | ["croire","courir","crier"] | ["croire"] | false | Croire: il crut, ils crurent. Courir gives ils coururent.
+- c1-passe-simple-ex008 | connector-choice | Choisissez la bonne forme : La nuit ___ quand le roi entra. | ["tombait","tomba","tombera"] | ["tombait"] | false | The night falling is the background: imparfait. The king's entrance is the event: passé simple.
+- c1-passe-simple-ex009 | connector-choice | Choisissez la bonne forme : Soudain, la porte ___. | ["s'ouvrit","s'ouvrait","s'ouvrira"] | ["s'ouvrit"] | false | Soudain marks a single event: passé simple.
+- c1-passe-simple-ex010 | reformulation | Reformulez au passé simple, comme dans un récit : Elle est entrée et elle a regardé la foule. | — | ["Elle entra et regarda la foule","Elle entra et elle regarda la foule"] | false | Two events in a written narrative: entra, regarda.
+- c1-passe-simple-ex011 | reformulation | Reformulez au passé composé, comme à l'oral : Ils partirent à l'aube. | — | ["Ils sont partis à l'aube"] | true | In speech, the passé simple becomes the passé composé.
+- c1-passe-simple-ex012 | error-correction | Corrigez l'erreur : Ils partèrent à l'aube. | — | ["Ils partirent à l'aube"] | true | Partir follows the -ir pattern: ils partirent. Only -er verbs have -èrent.
+- c1-passe-simple-ex013 | error-correction | Corrigez l'erreur de registre (un homme écrit un message à un ami) : Hier, je pris le train et je vins te voir. | — | ["Hier, j'ai pris le train et je suis venu te voir","Hier, j'ai pris le train et suis venu te voir"] | false | A message to a friend uses the passé composé, not the passé simple.
+- c1-passe-simple-ex014 | translate | Traduisez au passé simple (se taire), comme dans un récit : The king fell silent. | — | ["Le roi se tut"] | false | Se taire: il se tut.
+- c1-passe-simple-ex015 | translate | Rédigez ce début de récit en complétant comme indiqué : Il (was: être, imparfait) tard. Le héros (crossed: franchir, passé simple) le seuil et (caught sight of: apercevoir, passé simple) une lumière. | — | ["Il était tard. Le héros franchit le seuil et aperçut une lumière."] | false | The imparfait sets the scene; the passé simple tells the events.
+- c1-passe-simple-ex016 | reorder | Remettez dans l'ordre : They left at dawn. | — | ["Ils partirent à l'aube","À l'aube, ils partirent"] | false | Partir: ils partirent.
+
+## c1-passe-anterieur
+
+### Vocab
+
+fr | pron | en | note
+
+- le passé antérieur | luh pah-SAY ahn-tay-RYUHR | the passé antérieur (past anterior) | —
+- le passé surcomposé | luh pah-SAY sewr-kohn-poh-ZAY | the passé surcomposé (double compound past) | Il a eu fini: spoken French.
+- à peine… que | ah PEN… kuh | no sooner… than, hardly… when | À peine fut-il sorti qu'il se mit à pleuvoir.
+- l'auberge (f.) | loh-BEHRZH | the inn | —
+- le voyageur / la voyageuse | luh vwah-yah-ZHUHR / lah vwah-yah-ZHUHZ | the traveller | —
+- le messager / la messagère | luh may-sah-ZHAY / lah may-sah-ZHEHR | the messenger | —
+- le cavalier / la cavalière | luh kah-vah-LYAY / lah kah-vah-LYEHR | the rider, the horseman / horsewoman | —
+- la cloche | lah KLOSH | the bell | —
+- le brouillard | luh broo-YAR | the fog | —
+- frapper | frah-PAY | to knock, to hit | Frapper à la porte: to knock at the door.
+- s'éloigner | say-lwah-NYAY | to move away, to go off | —
+- se dissiper | suh dee-see-PAY | to clear, to lift (fog, doubts) | —
+- s'endormir | sahn-dor-MEER | to fall asleep | Conjugated like dormir: il s'endort.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-passe-anterieur-ex001 | fill-in | Conjuguez au passé antérieur (finir) : Quand il ___ son repas, il sortit. | — | ["eut fini"] | false | Avoir in the passé simple + participle: il eut fini.
+- c1-passe-anterieur-ex002 | fill-in | Conjuguez au passé antérieur (partir) : Dès qu'elles ___, il ferma la porte. | — | ["furent parties"] | false | Partir takes être, and the participle agrees with elles: elles furent parties.
+- c1-passe-anterieur-ex003 | fill-in | Conjuguez au passé antérieur (s'endormir) : Lorsque les voyageurs ___, l'auberge devint silencieuse. | — | ["se furent endormis"] | false | Reflexive verbs take être: ils se furent endormis, with agreement.
+- c1-passe-anterieur-ex004 | fill-in | Conjuguez au passé surcomposé (finir) : Quand j'___ mon travail, je suis sorti. | — | ["ai eu fini"] | false | Avoir in the passé composé + participle: j'ai eu fini. It goes with a passé composé in speech.
+- c1-passe-anterieur-ex005 | connector-choice | Choisissez la bonne forme : Quand il ___ sa lettre, il la donna au messager. | ["eut écrit","aura écrit","écrira"] | ["eut écrit"] | false | The main verb is in the passé simple (donna), and the letter was written just before: the passé antérieur.
+- c1-passe-anterieur-ex006 | multiple-choice | Indiquez le temps qui convient après « quand » : le verbe principal est à l'imparfait et décrit une habitude. | ["le plus-que-parfait","le passé antérieur","le passé simple"] | ["le plus-que-parfait"] | false | A habit in the imparfait pairs with the plus-que-parfait: quand il avait fini, il partait.
+- c1-passe-anterieur-ex007 | multiple-choice | Indiquez le temps qui convient après « quand », à l'oral, pour une action finie juste avant : le verbe principal est au passé composé. | ["le passé surcomposé","le passé antérieur","le passé simple"] | ["le passé surcomposé"] | false | In speech, the passé composé pairs with the passé surcomposé: quand il a eu fini, il est parti.
+- c1-passe-anterieur-ex008 | multiple-choice | Indiquez le temps de « fut arrivée » dans la phrase : Dès qu'elle fut arrivée, la cloche sonna. | ["le passé antérieur","le passé composé","le plus-que-parfait"] | ["le passé antérieur"] | false | Être in the passé simple + participle: the passé antérieur.
+- c1-passe-anterieur-ex009 | connector-choice | Choisissez la bonne forme : Chaque soir, quand il ___ son travail, il rentrait à pied. | ["avait fini","eut fini","aura fini"] | ["avait fini"] | false | Chaque soir and rentrait describe a habit in the imparfait, so the earlier action takes the plus-que-parfait.
+- c1-passe-anterieur-ex010 | connector-choice | Choisissez le connecteur : ___ eut-elle fermé la porte que la cloche sonna. | ["À peine","Dès que","Lorsque"] | ["À peine"] | false | Only à peine is followed by inversion and a second clause with que.
+- c1-passe-anterieur-ex011 | reformulation | Reformulez au passé simple et au passé antérieur, comme dans un récit : Quand il a eu fini, il est parti. | — | ["Quand il eut fini, il partit","Il partit quand il eut fini","Lorsqu'il eut fini, il partit","Il partit lorsqu'il eut fini"] | false | In a written narrative, the passé surcomposé becomes the passé antérieur and the passé composé becomes the passé simple.
+- c1-passe-anterieur-ex012 | reformulation | Reformulez avec « à peine… que » au début de la phrase et l'inversion : Dès qu'il fut sorti, il se mit à pleuvoir. | — | ["À peine fut-il sorti qu'il se mit à pleuvoir"] | true | À peine at the start, inversion of the auxiliary and the pronoun, then que + passé simple.
+- c1-passe-anterieur-ex013 | register-shift | Transformez au passé composé et au passé surcomposé, comme à l'oral : Dès qu'elle eut fini, elle sortit. | — | ["Dès qu'elle a eu fini, elle est sortie","Elle est sortie dès qu'elle a eu fini"] | true | In speech: the passé surcomposé for the earlier action, the passé composé for the main verb, with agreement: elle est sortie.
+- c1-passe-anterieur-ex014 | error-correction | Corrigez l'erreur de temps : Quand il eut fini, il est parti. | — | ["Quand il eut fini, il partit","Quand il a eu fini, il est parti","Quand il a fini, il est parti"] | true | The passé antérieur goes with the passé simple: quand il eut fini, il partit. In speech, keep the passé composé and use the passé surcomposé or the passé composé after quand.
+- c1-passe-anterieur-ex015 | translate | Traduisez au passé simple et au passé antérieur, comme dans un récit (dès que, partir) : As soon as the fog had cleared, the riders left. | — | ["Dès que le brouillard se fut dissipé, les cavaliers partirent","Les cavaliers partirent dès que le brouillard se fut dissipé"] | true | Se dissiper takes être: le brouillard se fut dissipé. Then the passé simple: partirent.
+- c1-passe-anterieur-ex016 | translate | Traduisez au passé simple et au passé antérieur, comme dans un récit (après que, frapper) : After the messenger had knocked, the door opened. | — | ["Après que le messager eut frappé, la porte s'ouvrit","La porte s'ouvrit après que le messager eut frappé"] | false | Après que takes the indicative: le messager eut frappé. The door opening is the event: s'ouvrit.
+- c1-passe-anterieur-ex017 | translate | Rédigez ce début de récit en complétant comme indiqué : Il (was: faire, imparfait) nuit. Lorsque le voyageur (had eaten: manger, passé antérieur), il (went up: monter, passé simple) dans sa chambre. | — | ["Il faisait nuit. Lorsque le voyageur eut mangé, il monta dans sa chambre."] | true | The imparfait sets the scene, the passé antérieur marks the meal as finished, and the passé simple tells the next event.
+- c1-passe-anterieur-ex018 | reorder | Remettez dans l'ordre : No sooner had he gone out than it started to rain. | — | ["À peine fut-il sorti qu'il se mit à pleuvoir"] | true | À peine, the inverted auxiliary and pronoun, the participle, then que + passé simple.
+
+## c1-stylistic-inversion
+
+### Vocab
+
+fr | pron | en | note
+
+- du moins | dew MWAN | at least, or at least (correcting what was just said) | Il a fini, du moins le dit-il.
+- encore + inversion | ahn-KOR | still, even so (formal, at the start of a sentence) | Encore faut-il que… In the middle of a sentence, encore means still.
+- toujours est-il que | too-zhoor eh-TEEL kuh | the fact remains that, anyway | —
+- une incise | ew-nan-SEEZ | a reporting clause (dit-il, répondit-elle) | —
+- murmurer | mewr-mew-RAY | to murmur, to whisper | —
+- soupirer | soo-pee-RAY | to sigh | —
+- reprendre | ruh-PRAHN-druh | to go on (speaking), to continue | In an incise: reprit-il.
+- s'étonner | say-toh-NAY | to be surprised, to wonder | —
+- rétorquer | ray-tor-KAY | to retort | —
+- le lecteur / la lectrice | luh lek-TUHR / lah lek-TREESS | the reader | —
+- le romancier / la romancière | luh roh-mahn-SYAY / lah roh-mahn-SYEHR | the novelist | —
+- le témoin | luh tay-MWAN | the witness | —
+- la règle | lah REG-luh | the rule | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-stylistic-inversion-ex001 | fill-in | Complétez avec l'incise au passé simple (dire, il) : « Je vous attends ici », ___. | — | ["dit-il"] | false | After direct speech, the verb comes before the subject pronoun: dit-il.
+- c1-stylistic-inversion-ex002 | fill-in | Complétez avec l'incise au passé simple (demander, elle) : « Où allez-vous ? » ___. | — | ["demanda-t-elle"] | false | Demanda ends in a vowel and elle starts with one, so add -t-: demanda-t-elle.
+- c1-stylistic-inversion-ex003 | fill-in | Complétez avec l'incise au passé simple (répondre, le témoin) : « Je n'ai rien vu », ___. | — | ["répondit le témoin"] | false | With a noun subject, the incise uses simple inversion, with no extra pronoun: répondit le témoin.
+- c1-stylistic-inversion-ex004 | multiple-choice | Choisissez la phrase correcte. | ["« Je pars », dit Paul.","« Je pars », Paul dit-il.","« Je pars », dit-il Paul."] | ["« Je pars », dit Paul."] | false | An incise with a noun subject: the verb, then the noun, and no pronoun.
+- c1-stylistic-inversion-ex005 | multiple-choice | Choisissez la phrase correcte. | ["Peut-être est-il malade.","Peut-être qu'est-il malade.","Peut-être il est-il malade."] | ["Peut-être est-il malade."] | false | Peut-être at the start takes inversion, or que with normal order, never both.
+- c1-stylistic-inversion-ex006 | multiple-choice | Indiquez si l'inversion est obligatoire, possible ou impossible : dans une incise, après une citation. | ["obligatoire","possible","impossible"] | ["obligatoire"] | false | In written French, the subject of an incise always comes after the verb: « Je pars », dit-il.
+- c1-stylistic-inversion-ex007 | multiple-choice | Indiquez si l'inversion est obligatoire, possible ou impossible : dans une relative, avec un pronom sujet (le livre qu'il lit). | ["impossible","possible","obligatoire"] | ["impossible"] | false | Inversion in a relative clause works only with a noun subject: le livre que lit Paul, but le livre qu'il lit.
+- c1-stylistic-inversion-ex008 | connector-choice | Choisissez le connecteur : Il a tout compris, ___ le croit-il. | ["du moins","peut-être que","parce que"] | ["du moins"] | false | Du moins corrects what was just said, and here it's followed by inversion: du moins le croit-il.
+- c1-stylistic-inversion-ex009 | connector-choice | Choisissez le connecteur : Le projet est intéressant. ___ faut-il trouver l'argent. | ["Encore","Peut-être que","Parce que"] | ["Encore"] | false | Encore at the start, with inversion, means still or even so: encore faut-il trouver l'argent.
+- c1-stylistic-inversion-ex010 | reformulation | Reformulez avec l'inversion : Peut-être qu'elle a raison. | — | ["Peut-être a-t-elle raison"] | true | Drop que and invert: peut-être a-t-elle raison. Add -t- between the two vowels.
+- c1-stylistic-inversion-ex011 | reformulation | Reformulez avec « à peine » au début de la phrase et l'inversion : Le train était à peine parti que la neige a commencé à tomber. | — | ["À peine le train était-il parti que la neige a commencé à tomber"] | true | A noun subject stays in front and a pronoun follows the auxiliary: à peine le train était-il parti.
+- c1-stylistic-inversion-ex012 | reformulation | Reformulez avec « ainsi » au début de la phrase et l'inversion : Il a donc pu partir plus tôt. | — | ["Ainsi a-t-il pu partir plus tôt"] | true | Ainsi (thus) at the start, then inversion of the auxiliary and the pronoun.
+- c1-stylistic-inversion-ex013 | error-correction | Corrigez l'erreur : « Je suis fatigué », Paul dit-il. | — | ["« Je suis fatigué », dit Paul.","Paul dit : « Je suis fatigué »."] | false | In an incise with a noun subject, use simple inversion: dit Paul. Or put Paul dit before the quotation.
+- c1-stylistic-inversion-ex014 | error-correction | Corrigez l'erreur : Peut-être qu'est-il parti. | — | ["Peut-être est-il parti","Peut-être qu'il est parti","Il est peut-être parti"] | false | Either inversion (formal) or que with normal order (standard), not both.
+- c1-stylistic-inversion-ex015 | error-correction | Corrigez l'erreur : Voici le livre que lit-il. | — | ["Voici le livre qu'il lit"] | false | With a pronoun subject, a relative clause keeps normal order: qu'il lit.
+- c1-stylistic-inversion-ex016 | translate | Traduisez avec une incise au passé simple (répondre, le voyageur) : “I don't know,” the traveller replied. | — | ["« Je ne sais pas », répondit le voyageur."] | false | The incise follows the quotation, with simple inversion: répondit le voyageur.
+- c1-stylistic-inversion-ex017 | translate | Traduisez avec « toujours est-il que » : The fact remains that nobody came. | — | ["Toujours est-il que personne n'est venu"] | false | Toujours est-il que is a fixed phrase with inversion, followed by normal order.
+- c1-stylistic-inversion-ex018 | reorder | Remettez dans l'ordre : He probably forgot. (formal) | — | ["Sans doute a-t-il oublié"] | false | Sans doute at the start, then the inverted auxiliary and pronoun.
