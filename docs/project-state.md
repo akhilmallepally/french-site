@@ -1,7 +1,7 @@
 # Project state (as of 13 November 2026)
 
 ## 1. The site, the stack and the scripts
-Parlons is a free, text-only site that teaches French to English speakers from A1 to C1 (C2 later), through lessons with vocab tables, dialogues and exercises. It's built with Next.js 16 (App Router, TypeScript, Tailwind v4, no src/). Lessons are MDX files in content/lessons/<level>/<slug>.mdx, parsed with gray-matter and rendered with next-mdx-remote/rsc. All file reading goes through lib/lessons.ts. Supabase (auth, progress, spaced repetition) comes later. The folder is c:\Users\akhil\Documents\french-site and the repo is github.com/akhilmallepally/french-site. To deploy, commit to master and push; the live site on Vercel builds from master (confirm the Vercel settings if unsure). Read CLAUDE.md first: it holds every writing rule.
+Parlons is a free, text-only site that teaches French to English speakers from A1 to C1 (C2 later), through lessons with vocab tables, dialogues and exercises. It's built with Next.js 16 (App Router, TypeScript, Tailwind v4, no src/). Lessons are MDX files in content/lessons/<level>/<slug>.mdx, parsed with gray-matter and rendered with next-mdx-remote/rsc. All file reading goes through lib/lessons.ts. Google sign-in through Supabase gates B1 and above: A1 and A2 are free, and other levels show their lesson body only after a server-side getUser() check (docs/auth-setup.md, branch `auth`, not merged). Progress in Supabase, with RLS, and spaced repetition come later. The folder is c:\Users\akhil\Documents\french-site and the repo is github.com/akhilmallepally/french-site. To deploy, commit to master and push; the live site on Vercel builds from master (confirm the Vercel settings if unsure). Read CLAUDE.md first: it holds every writing rule.
 
 | Script | What it checks |
 |---|---|
@@ -76,6 +76,11 @@ audit:content also has B2 rows: lengths, En résumé, the exercise mix, A1 to B1
 - **Phone check and learner tests:** not started.
 
 ## 6. Status
+- **Auth (branch `auth`, uncommitted):**
+  - Done: gating, the sign-in page, a safe `next` redirect, and the header states.
+  - Proven by `npm run test:gating` (124 gated lessons, 0 leaks in HTML, RSC, prefetch, segments, `.next/static` and the prerendered files) and `npm run test:safe-next`.
+  - Manual steps (private repo, Supabase and Google URLs, Vercel env vars) and the known limits are in docs/auth-setup.md.
+  - Next: auth prompt 3 (tables and RLS).
 - **Levels written:** A1 (49 lessons), A2 (56), B1 (59) and B2 (59).
 - **C1:** planning done (revised in Prompt 27); pilot batch written in Prompt 28 and fixed in Prompt 29, batch 2 written in Prompt 29 (c1-future-in-the-past, c1-ne-expletif, c1-literary-negation; review file docs/review/c1-batch2.txt). Pilot: c1-passe-simple, c1-passe-anterieur, c1-stylistic-inversion; log in docs/c1-writing-log.md, review file docs/review/c1-pilot.txt). Conventions in CLAUDE.md ("C1 conventions"); plan in docs/plans/c1/overview.md and unit-1.md to unit-8.md (57 lessons, 8 units: 8, 9, 8, 7, 6, 6, 6, 7; the syllabus is updated); coverage map docs/c1-coverage.md (scripts/c1-lists.ts) and the search tool scripts/c1-find.ts. Writing order: Unit 2 and Unit 1 lessons 1 to 4, then Units 3 and 5, then Units 4 and 7, then Unit 1 lessons 5 to 8 and Unit 6, then Unit 8. Before writing, extend the B2 checks to C1 (see the overview).
 - **B2 units:** 1 Nuance and society (lessons 1 to 8), 2 What might have been (9 to 15), 3 News and reporting (16 to 25), 4 Precision with pronouns (26 to 31), 5 Work and the economy (32 to 40), 6 Science and health (41 to 45), 7 Culture and the arts (46 to 52), 8 Registers and debate (53 to 59). Plans in docs/plans/b2/, history in docs/b2-writing-log.md.

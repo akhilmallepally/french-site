@@ -1,3 +1,5 @@
+// Dev script over untyped frontmatter data.
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // B2 links and ids: every LessonLink target exists (documented exceptions only), vocab ids follow
 // the display order of the VocabTables, and each lesson's unit title matches its syllabus unit.
 // Run with: node --experimental-strip-types scripts/b2-links-ids.ts

@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { MDXRemote } from "next-mdx-remote/rsc";
-import remarkGfm from "remark-gfm";
-import { ExercisePlayer } from "@/components/exercise-player";
+import { Suspense } from "react";
+import { GatedLessonBody, LessonBody, LessonBodySkeleton } from "@/components/lesson-body";
 import { ConnectionSection, LessonChip, TypeBadge } from "@/components/lesson-ui";
-import { mdxComponents, VocabTable } from "@/components/mdx";
-import { compareLessons, getAllLessons, getLesson, getLessonConnections, levelToSlug, type LessonMeta } from "@/lib/lessons";
+import { grantFreeAccess } from "@/lib/auth";
+import { compareLessons, getAllLessons, getLessonConnections, getLessonMeta, isFreeLevel, levelToSlug, type LessonMeta } from "@/lib/lessons";
 
 type Props = PageProps<"/lessons/[level]/[slug]">;
 
@@ -18,17 +17,17 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { level, slug } = await params;
-  const lesson = getLesson(level, slug);
-  if (!lesson) return {};
-  return { title: `${lesson.meta.title} (${lesson.meta.level})`, description: lesson.meta.description };
+  const meta = getLessonMeta(level, slug);
+  if (!meta) return {};
+  return { title: `${meta.title} (${meta.level})`, description: meta.description };
 }
 
 export default async function LessonPage({ params }: Props) {
   const { level, slug } = await params;
-  const lesson = getLesson(level, slug);
-  if (!lesson) notFound();
+  // The shell only ever sees metadata. The body, vocab and exercises are loaded inside LessonBody.
+  const meta = getLessonMeta(level, slug);
+  if (!meta) notFound();
 
-  const { meta } = lesson;
   const links = getLessonConnections(meta.id)!;
   const nearestFirst = [...links.prerequisites].sort((a, b) => compareLessons(b, a));
   const nearPrereqs = nearestFirst.slice(0, MAX_PREREQS_SHOWN);
@@ -83,19 +82,14 @@ export default async function LessonPage({ params }: Props) {
         </aside>
       )}
 
-      <article className="prose prose-lg mt-8 max-w-none prose-headings:font-serif prose-headings:font-semibold prose-headings:text-foreground prose-p:text-foreground prose-li:text-foreground prose-strong:text-foreground prose-a:text-accent prose-a:underline-offset-2">
-        <MDXRemote
-          source={lesson.content}
-          components={{
-            ...mdxComponents,
-            VocabTable: ({ group }: { group?: string }) => <VocabTable items={lesson.vocab} group={group} />,
-          }}
-          options={{ mdxOptions: { remarkPlugins: [remarkGfm] } }}
-        />
-      </article>
-
-      {lesson.exercises.length > 0 && (
-        <ExercisePlayer key={meta.id} lessonId={meta.id} exercises={lesson.exercises} />
+      {isFreeLevel(meta.level) ? (
+        // A1 and A2: no request data, so the whole lesson is prerendered as before.
+        <LessonBody access={grantFreeAccess(meta)} />
+      ) : (
+        // Other levels: checked on the server at request time; the static shell holds only the skeleton.
+        <Suspense fallback={<LessonBodySkeleton />}>
+          <GatedLessonBody meta={meta} />
+        </Suspense>
       )}
 
       {(links.prev || links.next) && (
