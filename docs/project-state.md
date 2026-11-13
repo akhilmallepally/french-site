@@ -76,11 +76,12 @@ audit:content also has B2 rows: lengths, En résumé, the exercise mix, A1 to B1
 - **Phone check and learner tests:** not started.
 
 ## 6. Status
-- **Levels written:** A1 (49 lessons), A2 (56), B1 (59) and B2 (59). C1 isn't started.
+- **Levels written:** A1 (49 lessons), A2 (56), B1 (59) and B2 (59).
+- **C1:** planning done, writing not started. Conventions in CLAUDE.md ("C1 conventions"); plan in docs/plans/c1/overview.md and unit-1.md to unit-8.md (58 lessons, 8 units; the syllabus is updated); coverage map in docs/c1-coverage.md (scripts/c1-lists.ts). Writing order: Unit 2 and Unit 1 lessons 1 to 3, then Units 3 and 5, then Units 4 and 7, then Unit 1 lessons 4 to 7 and Unit 6, then Unit 8. Before writing, extend the B2 checks to C1 (see the overview).
 - **B2 units:** 1 Nuance and society (lessons 1 to 8), 2 What might have been (9 to 15), 3 News and reporting (16 to 25), 4 Precision with pronouns (26 to 31), 5 Work and the economy (32 to 40), 6 Science and health (41 to 45), 7 Culture and the arts (46 to 52), 8 Registers and debate (53 to 59). Plans in docs/plans/b2/, history in docs/b2-writing-log.md.
 - **Baselines:** check:words 110 (the A1/A2 backlog; B1 and B2 at 0), check:structures 0, test:checker 29 tests, test:b2-exercises 316 exercises with 0 failures. The audit's only B2 rows are two deliberate six-answer exercises (b2-purpose-expressions ex014, b2-review-nuance ex015).
 - **Last commit:** check `git log`; the B2 review fixes and the wrap-up (Prompts 21 to 25) are not committed.
-- **Next steps, in order:** (1) C1 conventions in CLAUDE.md, then C1 planning; (2) the B1 review, including the 13 unread B1 grammar lessons; (3) the B2 native-speaker review; (4) phone and learner tests.
+- **Next steps, in order:** (1) review the C1 plan (docs/plans/c1/overview.md, open questions), then write C1 in the planned order; (2) the B1 review, including the 13 unread B1 grammar lessons; (3) the B2 native-speaker review; (4) phone and learner tests.
 
 ## 7. How work is split
 - **The assistant** writes the prompts, reviews the live pages and the exported data (all-data.md, batch-review.md), and decides what to fix.

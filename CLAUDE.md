@@ -158,4 +158,46 @@ B2 inherits every B1 rule unless it's overridden here. They apply to B2 lessons 
   - The slang lesson has no ethnic terms.
   - List every such sentence in docs/review-needed.md.
 
+## C1 conventions
+C1 inherits every B2 convention unless it's changed here. Plans are in docs/plans/c1/; the coverage map of what A1 to B2 already teach is docs/c1-coverage.md (built by scripts/c1-lists.ts).
+- **Teaching language.**
+  - Grammar rules and nuance are still explained in English: a C1 learner reads French well, but a rule misunderstood in French is a rule learned wrong.
+  - Short French glosses inside the English are allowed (*le passé simple, temps du récit*), but the English sentence must make sense without them.
+  - Every French example, dialogue line and longer text keeps an English translation. The one exception: a line that only repeats an example already translated earlier in the same lesson.
+- **Lengths.**
+  - Teaching text: 900 to 1,200 words (1,300 for grammar). The whole lesson stays under 2,100.
+  - Vocab: 15 to 30 entries (12 to 30 in grammar lessons), not counting glossary entries. Review lessons keep 3 to 8 new words.
+  - Exercises: 15 to 18, with at least 4 production tasks, 1 reorder and 1 reformulation.
+  - Dialogues: 12 to 16 lines.
+  - En résumé (grammar and vocabulary lessons): 120 to 180 words in every unit.
+  - Longer texts (communication, culture and review lessons): 250 to 400 French words, with a glossary.
+- **Exercise types.** The B2 types stay: multiple-choice, fill-in, translate, reorder, reformulation, register-shift, error-correction and connector-choice. No new type is added, because lib/check-answer.ts can only grade a fixed list of answers; open writing keeps the model-answer pattern.
+- **Instructions.** The B2 list stays. Add only **Résumez** (summarize) and **Justifiez** (give the reason), for synthesis and essay tasks graded by model answer, and add them to INSTRUCTION_VERBS in scripts/b2-lists.ts at the same time.
+- **Literary tenses.**
+  - Passé simple: production is allowed from c1-passe-simple on, in narrative writing only (a story, a historical account). Never in dialogue or in an everyday register.
+  - Passé antérieur: production in narrative writing from its lesson.
+  - Imparfait and plus-que-parfait du subjonctif: recognition, plus light production in formal writing only, from c1-imperfect-subjunctive. No typed answer may require them; where they're possible, the present or passé subjunctive is also accepted.
+- **Register labels.** Every example that isn't standard French carries a label in its translation: (literary), (formal), (familiar), (slang) or (spoken). Slang stays out of typed answers unless the instruction asks for it.
+- **Sensitive topics.** The B2 rules continue: neutral facts only, no figures, no invented quotes, no named living politicians, and every such sentence in docs/review-needed.md.
+  - Contested history (the colonial period, the Algerian war, Vichy): state what happened in neutral words and dates, present historians' debates as debates, and give no verdict.
+  - Religion and laïcité: explain the 1905 law and how laïcité is applied as institutions, not as opinions; don't rank or judge beliefs.
+  - Immigration and identity: describe policies and facts, never groups; no ethnic slang.
+- **Authors, works and quotations.**
+  - Name authors and works only when you are sure of the facts (title, date, author).
+  - Quote only public-domain works (authors who died more than 70 years ago), and keep each quotation under 15 words.
+  - For any other author, don't quote: paraphrase the idea, or write an original sentence "in the style of" and label it as invented.
+  - Longer literary texts are original pastiches, labelled as such, never copies or close paraphrases.
+- **No repeats.** A C1 lesson recaps earlier material in 2 or 3 sentences with a LessonLink to the lesson that first taught it (see docs/c1-coverage.md), then teaches only what's new. Every "you know X from Y" claim is checked against lesson Y before it's written.
+- **C1 checklist** (the B2 self-audit rules, plus the defects that recurred in B2):
+  - Accepted answers: list every valid answer built from taught material, or pin the cue; include oe/œ and *Elle est* / *C'est* variants.
+  - Mood and tense contrasts use verbs whose forms differ (not *donnent*, *reste*, *change*).
+  - Cues are pinned (an infinitive, a structure) wherever more than one answer would be valid.
+  - Vocab ids follow display order, and every entry is used in a complete French sentence.
+  - Fixed phrases made of known words are taught or glossed at first use.
+  - No "always", "never", "most common" or "almost always" unless the lesson's own examples agree; a rule of thumb is called one.
+  - Rules are stated by their real test (same subject, completion), not an approximation.
+  - Distractors are wrong in their sentence, and every rule tested in an exercise is explained in that lesson or an earlier one.
+  - A model text keeps one narrative tense per paragraph, and every dialogue obeys the lesson's own rules.
+  - Before finishing a unit, run check:words, check:structures, audit:content, test:b2-exercises (extended to C1) and scripts/b2-links-ids.ts (extended to C1).
+
 @AGENTS.md

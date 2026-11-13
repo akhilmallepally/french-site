@@ -503,4 +503,18 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 46 | c1-culture-regional-languages | Regional languages | Living the language | culture | b2-culture-francophone-africa | Breton, Occitan, Alsatian, Basque, Corsican, Creoles; language policy in France. |
 | 47 | c1-culture-francophonie | La Francophonie | Living the language | culture | c1-culture-regional-languages | The OIF and language policy; French as an official and working language; how its status differs by country (geography is covered in a2-culture-francophone-world). |
 | 48 | c1-register-shifting | Shifting register on demand | Living the language | communication | b2-colloquial-french, c1-formal-correspondence | Rewriting the same message from slang to administrative French. |
-| 49 | c1-review-final | C1 final review | Living the language | review | c1-review-literary, c1-review-style, c1-review-academic, c1-review-rhetoric, c1-review-professional, c1-review-ideas, c1-advanced-idioms, c1-proverbs-and-sayings, c1-culture-francophonie, c1-register-shifting | Whole-level recap; C1 can-do checklist. |
+| 49 | c1-review-living | Review: Living the language | Living the language | review | c1-proverbs-and-sayings, c1-advanced-idioms, c1-culture-francophonie, c1-register-shifting | Rewrite one text in three registers, with proverbs and idioms. |
+
+### Unit 8: Towards DALF C1
+
+| # | id | title | unit | type | prerequisites | scope |
+|---|---|---|---|---|---|---|
+| 50 | c1-concession-and-hypothesis | Concession and hypothesis at C1 | Towards DALF C1 | grammar | c1-subjunctive-nuances | quand bien même + conditionnel, pour peu que, à supposer que, si tant est que, encore que. |
+| 51 | c1-formal-relatives-and-apposition | Formal relatives and apposition | Towards DALF C1 | grammar | c1-participle-clauses | dont and lequel in long sentences, ce dont / ce à quoi, apposition and detached adjectives. |
+| 52 | c1-euphemism-and-synonyms | Euphemism and nuance in synonyms | Towards DALF C1 | vocabulary | c1-precise-verbs | Softened words, near-synonyms by register and strength. |
+| 53 | c1-spoken-discourse-markers | Spoken discourse markers | Towards DALF C1 | vocabulary | c1-register-shifting | enfin, bon, quand même, tiens, disons, en fait, justement in speech. |
+| 54 | c1-culture-laicite-and-institutions | Laïcité and the institutions | Towards DALF C1 | culture | c1-law-and-institutions | The 1905 law, how laïcité is applied, the Constitution and the main institutions, neutrally. |
+| 55 | c1-exam-oral-presentation | Practice: an oral presentation | Towards DALF C1 | communication | c1-public-speaking, c1-formal-debate | DALF-style practice: prepare and give a structured exposé from documents. |
+| 56 | c1-exam-written-tasks | Practice: synthesis and essay | Towards DALF C1 | communication | c1-synthesis, c1-dissertation | DALF-style practice: a synthesis from two documents and an argued essay. |
+| 57 | c1-review-towards-dalf | Review: Towards DALF C1 | Towards DALF C1 | review | c1-concession-and-hypothesis, c1-formal-relatives-and-apposition, c1-exam-written-tasks | A short argued text using the unit. |
+| 58 | c1-review-final | C1 final review | Towards DALF C1 | review | c1-review-literary, c1-review-style, c1-review-academic, c1-review-rhetoric, c1-review-professional, c1-review-ideas, c1-review-living, c1-review-towards-dalf, c1-culture-francophonie, c1-register-shifting | Whole-level recap; C1 can-do checklist. |
