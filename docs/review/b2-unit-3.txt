@@ -235,17 +235,17 @@ related: ["b2-conditionnel-passe", "b2-reported-questions-orders", "b2-reporting
 vocab:
   - { id: "b2-reported-speech-past-v001", group: "grammar", fr: "le discours indirect", pron: "luh dees-koor an-dee-REKT", en: "reported speech, indirect speech" }
   - { id: "b2-reported-speech-past-v002", group: "grammar", fr: "la concordance des temps", pron: "lah kohn-kor-dahnss day TAHN", en: "the sequence of tenses" }
-  - { id: "b2-reported-speech-past-v003", group: "promise", fr: "une promesse", pron: "ewn proh-MESS", en: "a promise" }
-  - { id: "b2-reported-speech-past-v004", group: "promise", fr: "promettre que", pron: "proh-meh-truh KUH", en: "to promise that", note: "Like mettre: il a promis." }
-  - { id: "b2-reported-speech-past-v005", group: "promise", fr: "assurer que", pron: "ah-sew-ray KUH", en: "to assure that, to insist that" }
-  - { id: "b2-reported-speech-past-v006", group: "promise", fr: "tenir sa promesse / tenir parole", pron: "tuh-neer sah proh-MESS / tuh-neer pah-ROL", en: "to keep your promise, to keep your word", note: "Like venir, with avoir: il a tenu parole." }
-  - { id: "b2-reported-speech-past-v007", group: "promise", fr: "s'engager à", pron: "sahn-gah-zhay AH", en: "to commit to", note: "+ infinitive. Like manger: nous nous engageons." }
-  - { id: "b2-reported-speech-past-v008", group: "promise", fr: "revenir sur", pron: "ruh-vuh-neer SEWR", en: "to go back on (a promise, a decision)" }
-  - { id: "b2-reported-speech-past-v009", group: "media", fr: "un discours", pron: "uhn dees-KOOR", en: "a speech" }
-  - { id: "b2-reported-speech-past-v010", group: "media", fr: "prononcer un discours", pron: "proh-nohn-say uhn dees-KOOR", en: "to give a speech" }
-  - { id: "b2-reported-speech-past-v011", group: "media", fr: "une conférence de presse", pron: "ewn kohn-fay-rahnss duh PRESS", en: "a press conference" }
-  - { id: "b2-reported-speech-past-v012", group: "media", fr: "un entretien", pron: "uh-nahn-truh-TYAN", en: "an interview (in the media)" }
-  - { id: "b2-reported-speech-past-v013", group: "grammar", fr: "l'imparfait", pron: "lan-par-FEH", en: "the imparfait (the tense)" }
+  - { id: "b2-reported-speech-past-v003", group: "grammar", fr: "l'imparfait", pron: "lan-par-FEH", en: "the imparfait (the tense)" }
+  - { id: "b2-reported-speech-past-v004", group: "promise", fr: "une promesse", pron: "ewn proh-MESS", en: "a promise" }
+  - { id: "b2-reported-speech-past-v005", group: "promise", fr: "promettre que", pron: "proh-meh-truh KUH", en: "to promise that", note: "Like mettre: il a promis." }
+  - { id: "b2-reported-speech-past-v006", group: "promise", fr: "assurer que", pron: "ah-sew-ray KUH", en: "to assure that, to insist that" }
+  - { id: "b2-reported-speech-past-v007", group: "promise", fr: "tenir sa promesse / tenir parole", pron: "tuh-neer sah proh-MESS / tuh-neer pah-ROL", en: "to keep your promise, to keep your word", note: "Like venir, with avoir: il a tenu parole." }
+  - { id: "b2-reported-speech-past-v008", group: "promise", fr: "s'engager à", pron: "sahn-gah-zhay AH", en: "to commit to", note: "+ infinitive. Like manger: nous nous engageons." }
+  - { id: "b2-reported-speech-past-v009", group: "promise", fr: "revenir sur", pron: "ruh-vuh-neer SEWR", en: "to go back on (a promise, a decision)" }
+  - { id: "b2-reported-speech-past-v010", group: "media", fr: "un discours", pron: "uhn dees-KOOR", en: "a speech" }
+  - { id: "b2-reported-speech-past-v011", group: "media", fr: "prononcer un discours", pron: "proh-nohn-say uhn dees-KOOR", en: "to give a speech" }
+  - { id: "b2-reported-speech-past-v012", group: "media", fr: "une conférence de presse", pron: "ewn kohn-fay-rahnss duh PRESS", en: "a press conference" }
+  - { id: "b2-reported-speech-past-v013", group: "media", fr: "un entretien", pron: "uh-nahn-truh-TYAN", en: "an interview (in the media)" }
 exercises:
   - id: "b2-reported-speech-past-ex001"
     type: "fill-in"

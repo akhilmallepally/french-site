@@ -120,9 +120,9 @@ None.
 - lui: a2-stressed-pronouns (a2-stressed-pronouns-v003); a2-indirect-object-pronouns (a2-indirect-object-pronouns-v001)
 - une pièce: a2-home-and-chores (a2-home-and-chores-v003); b1-ne-que-ni-ni (b1-ne-que-ni-ni-v009)
 - un bouchon: b1-si-present-futur (b1-si-present-futur-v009); b1-culture-regional-cuisine (b1-culture-regional-cuisine-v010)
-- un entretien: b1-cover-letter (b1-cover-letter-v013); b2-reported-speech-past (b2-reported-speech-past-v012)
+- un entretien: b1-cover-letter (b1-cover-letter-v013); b2-reported-speech-past (b2-reported-speech-past-v013)
 - un état des lieux: b1-housing-and-renting (b1-housing-and-renting-v021); b2-formal-report (b2-formal-report-v001)
-- un bilan: b1-review-final (b1-review-final-v001); b2-conditionnel-passe (b2-conditionnel-passe-v012)
+- un bilan: b1-review-final (b1-review-final-v001); b2-conditionnel-passe (b2-conditionnel-passe-v015)
 - un tableau: b2-presenting-data (b2-presenting-data-v003); b2-arts-and-literature (b2-arts-and-literature-v001)
 
 ## Two tips with the same title

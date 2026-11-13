@@ -20,18 +20,18 @@ vocab:
   - { id: "b2-nuancing-opinions-v006", group: "first", fr: "à première vue", pron: "ah pruh-myehr VEW", en: "at first sight" }
   - { id: "b2-nuancing-opinions-v007", group: "first", fr: "en principe", pron: "ahn pran-SEEP", en: "in principle, normally" }
   - { id: "b2-nuancing-opinions-v008", group: "first", fr: "sur le fond", pron: "sewr luh FOHN", en: "basically, on the substance" }
-  - { id: "b2-nuancing-opinions-v009", group: "seem", fr: "il me semble que", pron: "eel muh sahn-bluh KUH", en: "it seems to me that", note: "Followed by the indicative." }
-  - { id: "b2-nuancing-opinions-v010", group: "seem", fr: "il semble que", pron: "eel sahn-bluh KUH", en: "it seems that", note: "Followed by the subjunctive." }
-  - { id: "b2-nuancing-opinions-v011", group: "seem", fr: "je dirais que", pron: "zhuh dee-reh KUH", en: "I'd say that" }
-  - { id: "b2-nuancing-opinions-v012", group: "concede", fr: "reconnaître que", pron: "ruh-koh-neh-truh KUH", en: "to acknowledge that", note: "Like connaître: je reconnais, nous reconnaissons." }
-  - { id: "b2-nuancing-opinions-v013", group: "concede", fr: "un contre-argument", pron: "uhn kohn-trar-gew-MAHN", en: "a counter-argument" }
-  - { id: "b2-nuancing-opinions-v014", group: "concede", fr: "nuancer", pron: "new-ahn-SAY", en: "to qualify, to add nuance to", note: "Like commencer: nous nuançons." }
-  - { id: "b2-nuancing-opinions-v015", group: "concede", fr: "une nuance", pron: "ewn new-AHNSS", en: "a nuance, a shade of meaning" }
-  - { id: "b2-nuancing-opinions-v016", group: "concede", fr: "mitigé / mitigée", pron: "mee-tee-ZHAY", en: "mixed, lukewarm", note: "False friend: not 'mitigated'." }
-  - { id: "b2-nuancing-opinions-v017", group: "concede", fr: "partagé / partagée", pron: "par-tah-ZHAY", en: "torn, in two minds" }
-  - { id: "b2-nuancing-opinions-v018", group: "topic", fr: "la semaine de quatre jours", pron: "lah suh-men duh kah-truh ZHOOR", en: "the four-day week" }
-  - { id: "b2-nuancing-opinions-v019", group: "glossary", fr: "les transports", pron: "lay trahns-POR", en: "transport; here, commuting" }
-  - { id: "b2-nuancing-opinions-v020", group: "first", fr: "avoir lieu", pron: "ah-vwahr LYUH", en: "to take place, to be held", note: "La réunion a lieu jeudi." }
+  - { id: "b2-nuancing-opinions-v009", group: "first", fr: "avoir lieu", pron: "ah-vwahr LYUH", en: "to take place, to be held", note: "La réunion a lieu jeudi." }
+  - { id: "b2-nuancing-opinions-v010", group: "seem", fr: "il me semble que", pron: "eel muh sahn-bluh KUH", en: "it seems to me that", note: "Followed by the indicative." }
+  - { id: "b2-nuancing-opinions-v011", group: "seem", fr: "il semble que", pron: "eel sahn-bluh KUH", en: "it seems that", note: "Followed by the subjunctive." }
+  - { id: "b2-nuancing-opinions-v012", group: "seem", fr: "je dirais que", pron: "zhuh dee-reh KUH", en: "I'd say that" }
+  - { id: "b2-nuancing-opinions-v013", group: "concede", fr: "reconnaître que", pron: "ruh-koh-neh-truh KUH", en: "to acknowledge that", note: "Like connaître: je reconnais, nous reconnaissons." }
+  - { id: "b2-nuancing-opinions-v014", group: "concede", fr: "un contre-argument", pron: "uhn kohn-trar-gew-MAHN", en: "a counter-argument" }
+  - { id: "b2-nuancing-opinions-v015", group: "concede", fr: "nuancer", pron: "new-ahn-SAY", en: "to qualify, to add nuance to", note: "Like commencer: nous nuançons." }
+  - { id: "b2-nuancing-opinions-v016", group: "concede", fr: "une nuance", pron: "ewn new-AHNSS", en: "a nuance, a shade of meaning" }
+  - { id: "b2-nuancing-opinions-v017", group: "concede", fr: "mitigé / mitigée", pron: "mee-tee-ZHAY", en: "mixed, lukewarm", note: "False friend: not 'mitigated'." }
+  - { id: "b2-nuancing-opinions-v018", group: "concede", fr: "partagé / partagée", pron: "par-tah-ZHAY", en: "torn, in two minds" }
+  - { id: "b2-nuancing-opinions-v019", group: "topic", fr: "la semaine de quatre jours", pron: "lah suh-men duh kah-truh ZHOOR", en: "the four-day week" }
+  - { id: "b2-nuancing-opinions-v020", group: "glossary", fr: "les transports", pron: "lay trahns-POR", en: "transport; here, commuting" }
 exercises:
   - id: "b2-nuancing-opinions-ex001"
     type: "multiple-choice"
@@ -249,22 +249,22 @@ vocab:
   - { id: "b2-social-issues-v008", group: "housing", fr: "la crise du logement", pron: "lah kreez dew lozh-MAHN", en: "the housing crisis" }
   - { id: "b2-social-issues-v009", group: "housing", fr: "un logement social", pron: "uhn lozh-mahn soh-SYAL", en: "social housing, a council flat" }
   - { id: "b2-social-issues-v010", group: "housing", fr: "un / une sans-abri", pron: "uhn / ewn sahn-zah-BREE", en: "a homeless person", note: "The plural doesn't change: des sans-abri." }
-  - { id: "b2-social-issues-v011", group: "people", fr: "un immigré / une immigrée", pron: "uh-nee-mee-GRAY / ew-nee-mee-GRAY", en: "an immigrant" }
-  - { id: "b2-social-issues-v012", group: "people", fr: "s'intégrer", pron: "san-tay-GRAY", en: "to integrate, to fit in", note: "Like préférer: je m'intègre." }
-  - { id: "b2-social-issues-v013", group: "people", fr: "un chômeur / une chômeuse", pron: "uhn shoh-MUHR / ewn shoh-MUHZ", en: "an unemployed person" }
-  - { id: "b2-social-issues-v014", group: "people", fr: "le pouvoir d'achat", pron: "luh poo-vwahr dah-SHAH", en: "purchasing power" }
-  - { id: "b2-social-issues-v015", group: "help", fr: "une association", pron: "ew-nah-soh-syah-SYOHN", en: "a charity, a voluntary group" }
-  - { id: "b2-social-issues-v016", group: "help", fr: "un / une bénévole", pron: "uhn / ewn bay-nay-VOL", en: "a volunteer" }
-  - { id: "b2-social-issues-v017", group: "help", fr: "le bénévolat", pron: "luh bay-nay-voh-LAH", en: "voluntary work" }
-  - { id: "b2-social-issues-v018", group: "help", fr: "une aide sociale", pron: "ew-ned soh-SYAL", en: "a welfare benefit" }
-  - { id: "b2-social-issues-v019", group: "action", fr: "une manifestation", pron: "ewn mah-nee-fes-tah-SYOHN", en: "a demonstration, a protest", note: "False friend: not 'a manifestation'." }
-  - { id: "b2-social-issues-v020", group: "action", fr: "manifester", pron: "mah-nee-fes-TAY", en: "to demonstrate, to protest" }
-  - { id: "b2-social-issues-v021", group: "action", fr: "lutter contre", pron: "lew-tay KOHN-truh", en: "to fight against" }
-  - { id: "b2-social-issues-v022", group: "action", fr: "la lutte contre", pron: "lah lewt KOHN-truh", en: "the fight against" }
-  - { id: "b2-social-issues-v023", group: "action", fr: "réduire", pron: "ray-DWEER", en: "to reduce", note: "Like conduire: je réduis, nous réduisons; réduit." }
-  - { id: "b2-social-issues-v024", group: "action", fr: "un enjeu", pron: "uh-nahn-ZHUH", en: "an issue, what's at stake", note: "Plural: des enjeux." }
-  - { id: "b2-social-issues-v025", group: "action", fr: "une mesure", pron: "ewn muh-ZEWR", en: "a measure, a policy" }
-  - { id: "b2-social-issues-v026", group: "housing", fr: "avoir du mal à", pron: "ah-vwahr dew MAHL ah", en: "to struggle to, to find it hard to", note: "+ infinitive." }
+  - { id: "b2-social-issues-v011", group: "housing", fr: "avoir du mal à", pron: "ah-vwahr dew MAHL ah", en: "to struggle to, to find it hard to", note: "+ infinitive." }
+  - { id: "b2-social-issues-v012", group: "people", fr: "un immigré / une immigrée", pron: "uh-nee-mee-GRAY / ew-nee-mee-GRAY", en: "an immigrant" }
+  - { id: "b2-social-issues-v013", group: "people", fr: "s'intégrer", pron: "san-tay-GRAY", en: "to integrate, to fit in", note: "Like préférer: je m'intègre." }
+  - { id: "b2-social-issues-v014", group: "people", fr: "un chômeur / une chômeuse", pron: "uhn shoh-MUHR / ewn shoh-MUHZ", en: "an unemployed person" }
+  - { id: "b2-social-issues-v015", group: "people", fr: "le pouvoir d'achat", pron: "luh poo-vwahr dah-SHAH", en: "purchasing power" }
+  - { id: "b2-social-issues-v016", group: "help", fr: "une association", pron: "ew-nah-soh-syah-SYOHN", en: "a charity, a voluntary group" }
+  - { id: "b2-social-issues-v017", group: "help", fr: "un / une bénévole", pron: "uhn / ewn bay-nay-VOL", en: "a volunteer" }
+  - { id: "b2-social-issues-v018", group: "help", fr: "le bénévolat", pron: "luh bay-nay-voh-LAH", en: "voluntary work" }
+  - { id: "b2-social-issues-v019", group: "help", fr: "une aide sociale", pron: "ew-ned soh-SYAL", en: "a welfare benefit" }
+  - { id: "b2-social-issues-v020", group: "action", fr: "une manifestation", pron: "ewn mah-nee-fes-tah-SYOHN", en: "a demonstration, a protest", note: "False friend: not 'a manifestation'." }
+  - { id: "b2-social-issues-v021", group: "action", fr: "manifester", pron: "mah-nee-fes-TAY", en: "to demonstrate, to protest" }
+  - { id: "b2-social-issues-v022", group: "action", fr: "lutter contre", pron: "lew-tay KOHN-truh", en: "to fight against" }
+  - { id: "b2-social-issues-v023", group: "action", fr: "la lutte contre", pron: "lah lewt KOHN-truh", en: "the fight against" }
+  - { id: "b2-social-issues-v024", group: "action", fr: "réduire", pron: "ray-DWEER", en: "to reduce", note: "Like conduire: je réduis, nous réduisons; réduit." }
+  - { id: "b2-social-issues-v025", group: "action", fr: "un enjeu", pron: "uh-nahn-ZHUH", en: "an issue, what's at stake", note: "Plural: des enjeux." }
+  - { id: "b2-social-issues-v026", group: "action", fr: "une mesure", pron: "ewn muh-ZEWR", en: "a measure, a policy" }
 exercises:
   - id: "b2-social-issues-ex001"
     type: "fill-in"
@@ -694,16 +694,16 @@ vocab:
   - { id: "b2-concession-opposition-v005", group: "despite", fr: "quand même", pron: "kahn MEM", en: "all the same, still (mainly spoken)" }
   - { id: "b2-concession-opposition-v006", group: "despite", fr: "avoir beau", pron: "ah-vwahr BOH", en: "to do something in vain", note: "Avoir beau + infinitive: j'ai beau chercher." }
   - { id: "b2-concession-opposition-v007", group: "despite", fr: "certes", pron: "sehrt", en: "admittedly, certainly" }
-  - { id: "b2-concession-opposition-v008", group: "contrast", fr: "alors que", pron: "ah-lor KUH", en: "whereas, while" }
-  - { id: "b2-concession-opposition-v009", group: "contrast", fr: "tandis que", pron: "tahn-dee KUH", en: "whereas, while" }
-  - { id: "b2-concession-opposition-v010", group: "contrast", fr: "en revanche", pron: "ahn ruh-VAHNSH", en: "on the other hand" }
-  - { id: "b2-concession-opposition-v011", group: "words", fr: "un écart", pron: "uh-nay-KAR", en: "a gap, a difference" }
-  - { id: "b2-concession-opposition-v012", group: "words", fr: "le niveau de vie", pron: "luh nee-voh duh VEE", en: "the standard of living" }
-  - { id: "b2-concession-opposition-v013", group: "words", fr: "un paradoxe", pron: "uhn pah-rah-DOKS", en: "a paradox" }
-  - { id: "b2-concession-opposition-v014", group: "words", fr: "une contradiction", pron: "ewn kohn-trah-deek-SYOHN", en: "a contradiction" }
-  - { id: "b2-concession-opposition-v015", group: "words", fr: "contradictoire", pron: "kohn-trah-deek-TWAHR", en: "contradictory" }
-  - { id: "b2-concession-opposition-v016", group: "words", fr: "s'opposer à", pron: "soh-poh-zay AH", en: "to be opposed to, to oppose" }
-  - { id: "b2-concession-opposition-v017", group: "evenif", fr: "même si", pron: "mem SEE", en: "even if, even though", note: "+ indicative: même s'il pleut." }
+  - { id: "b2-concession-opposition-v008", group: "evenif", fr: "même si", pron: "mem SEE", en: "even if, even though", note: "+ indicative: même s'il pleut." }
+  - { id: "b2-concession-opposition-v009", group: "contrast", fr: "alors que", pron: "ah-lor KUH", en: "whereas, while" }
+  - { id: "b2-concession-opposition-v010", group: "contrast", fr: "tandis que", pron: "tahn-dee KUH", en: "whereas, while" }
+  - { id: "b2-concession-opposition-v011", group: "contrast", fr: "en revanche", pron: "ahn ruh-VAHNSH", en: "on the other hand" }
+  - { id: "b2-concession-opposition-v012", group: "words", fr: "un écart", pron: "uh-nay-KAR", en: "a gap, a difference" }
+  - { id: "b2-concession-opposition-v013", group: "words", fr: "le niveau de vie", pron: "luh nee-voh duh VEE", en: "the standard of living" }
+  - { id: "b2-concession-opposition-v014", group: "words", fr: "un paradoxe", pron: "uhn pah-rah-DOKS", en: "a paradox" }
+  - { id: "b2-concession-opposition-v015", group: "words", fr: "une contradiction", pron: "ewn kohn-trah-deek-SYOHN", en: "a contradiction" }
+  - { id: "b2-concession-opposition-v016", group: "words", fr: "contradictoire", pron: "kohn-trah-deek-TWAHR", en: "contradictory" }
+  - { id: "b2-concession-opposition-v017", group: "words", fr: "s'opposer à", pron: "soh-poh-zay AH", en: "to be opposed to, to oppose" }
 exercises:
   - id: "b2-concession-opposition-ex001"
     type: "connector-choice"
@@ -909,28 +909,28 @@ tags: ["idioms", "vocabulary", "speaking"]
 prerequisites: ["b1-relationships"]
 related: ["b2-idiomatic-y-en", "b2-colloquial-french", "b2-logical-connectors"]
 vocab:
-  - { id: "b2-idioms-everyday-v001", group: "body", fr: "coûter les yeux de la tête", pron: "koo-tay lay-zyuh duh lah TET", en: "to cost an arm and a leg", note: "Informal." }
-  - { id: "b2-idioms-everyday-v002", group: "body", fr: "coûter un rein", pron: "koo-tay uhn RAN", en: "to cost a fortune", note: "Very informal." }
-  - { id: "b2-idioms-everyday-v003", group: "body", fr: "casser les pieds à quelqu'un", pron: "kah-say lay PYAY ah kel-KUHN", en: "to get on someone's nerves", note: "Informal." }
-  - { id: "b2-idioms-everyday-v004", group: "body", fr: "mettre les pieds dans le plat", pron: "meh-truh lay pyay dahn luh PLAH", en: "to put your foot in it", note: "Neutral." }
-  - { id: "b2-idioms-everyday-v005", group: "body", fr: "avoir un poil dans la main", pron: "ah-vwahr uhn pwahl dahn lah MAN", en: "to be lazy", note: "Informal." }
-  - { id: "b2-idioms-everyday-v006", group: "body", fr: "se creuser la tête", pron: "suh kruh-zay lah TET", en: "to rack your brains", note: "Neutral." }
-  - { id: "b2-idioms-everyday-v007", group: "body", fr: "faire la tête", pron: "fehr lah TET", en: "to sulk", note: "Informal." }
-  - { id: "b2-idioms-everyday-v008", group: "body", fr: "avoir le bras long", pron: "ah-vwahr luh brah LOHN", en: "to have influence, to know the right people", note: "Neutral." }
-  - { id: "b2-idioms-everyday-v009", group: "body", fr: "en un clin d'œil", pron: "ahn-nuhn klan DUH-y", en: "in the blink of an eye", note: "Neutral." }
-  - { id: "b2-idioms-everyday-v010", group: "food", fr: "tomber dans les pommes", pron: "tohn-bay dahn lay POMM", en: "to faint", note: "Informal." }
-  - { id: "b2-idioms-everyday-v011", group: "food", fr: "avoir du pain sur la planche", pron: "ah-vwahr dew pan sewr lah PLAHNSH", en: "to have a lot on your plate", note: "Neutral." }
-  - { id: "b2-idioms-everyday-v012", group: "food", fr: "raconter des salades", pron: "rah-kohn-tay day sah-LAD", en: "to tell tall stories, to tell lies", note: "Informal." }
-  - { id: "b2-idioms-everyday-v013", group: "food", fr: "ne pas être dans son assiette", pron: "nuh pah-zeh-truh dahn sohn-nah-SYET", en: "to feel off, to be out of sorts", note: "Neutral. The possessive changes: je ne suis pas dans mon assiette." }
-  - { id: "b2-idioms-everyday-v014", group: "animals", fr: "poser un lapin à quelqu'un", pron: "poh-zay uhn lah-PAN ah kel-KUHN", en: "to stand someone up", note: "Informal." }
-  - { id: "b2-idioms-everyday-v015", group: "animals", fr: "avoir le cafard", pron: "ah-vwahr luh kah-FAR", en: "to feel down", note: "Informal. Un cafard is a cockroach." }
-  - { id: "b2-idioms-everyday-v016", group: "animals", fr: "donner sa langue au chat", pron: "doh-nay sah lahng oh SHAH", en: "to give up guessing", note: "Neutral." }
-  - { id: "b2-idioms-everyday-v017", group: "animals", fr: "appeler un chat un chat", pron: "ah-play uhn shah uhn SHAH", en: "to call a spade a spade", note: "Neutral." }
-  - { id: "b2-idioms-everyday-v018", group: "other", fr: "il pleut des cordes", pron: "eel pluh day KORD", en: "it's pouring", note: "Neutral." }
-  - { id: "b2-idioms-everyday-v019", group: "other", fr: "être dans la lune", pron: "eh-truh dahn lah LEWN", en: "to be daydreaming", note: "Neutral." }
-  - { id: "b2-idioms-everyday-v020", group: "other", fr: "avoir la flemme", pron: "ah-vwahr lah FLEM", en: "to not be bothered, to feel lazy", note: "Informal: avoir la flemme de + infinitive." }
-  - { id: "b2-idioms-everyday-v021", group: "other", fr: "avoir un coup de foudre", pron: "ah-vwahr uhn koo duh FOO-druh", en: "to fall in love at first sight", note: "Neutral: avoir un coup de foudre pour quelqu'un." }
-  - { id: "b2-idioms-everyday-v022", group: "other", fr: "une expression imagée", pron: "ew-neks-preh-syohn ee-mah-ZHAY", en: "an idiom, a figurative expression" }
+  - { id: "b2-idioms-everyday-v001", group: "other", fr: "il pleut des cordes", pron: "eel pluh day KORD", en: "it's pouring", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v002", group: "other", fr: "être dans la lune", pron: "eh-truh dahn lah LEWN", en: "to be daydreaming", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v003", group: "other", fr: "avoir la flemme", pron: "ah-vwahr lah FLEM", en: "to not be bothered, to feel lazy", note: "Informal: avoir la flemme de + infinitive." }
+  - { id: "b2-idioms-everyday-v004", group: "other", fr: "avoir un coup de foudre", pron: "ah-vwahr uhn koo duh FOO-druh", en: "to fall in love at first sight", note: "Neutral: avoir un coup de foudre pour quelqu'un." }
+  - { id: "b2-idioms-everyday-v005", group: "other", fr: "une expression imagée", pron: "ew-neks-preh-syohn ee-mah-ZHAY", en: "an idiom, a figurative expression" }
+  - { id: "b2-idioms-everyday-v006", group: "body", fr: "coûter les yeux de la tête", pron: "koo-tay lay-zyuh duh lah TET", en: "to cost an arm and a leg", note: "Informal." }
+  - { id: "b2-idioms-everyday-v007", group: "body", fr: "coûter un rein", pron: "koo-tay uhn RAN", en: "to cost a fortune", note: "Very informal." }
+  - { id: "b2-idioms-everyday-v008", group: "body", fr: "casser les pieds à quelqu'un", pron: "kah-say lay PYAY ah kel-KUHN", en: "to get on someone's nerves", note: "Informal." }
+  - { id: "b2-idioms-everyday-v009", group: "body", fr: "mettre les pieds dans le plat", pron: "meh-truh lay pyay dahn luh PLAH", en: "to put your foot in it", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v010", group: "body", fr: "avoir un poil dans la main", pron: "ah-vwahr uhn pwahl dahn lah MAN", en: "to be lazy", note: "Informal." }
+  - { id: "b2-idioms-everyday-v011", group: "body", fr: "se creuser la tête", pron: "suh kruh-zay lah TET", en: "to rack your brains", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v012", group: "body", fr: "faire la tête", pron: "fehr lah TET", en: "to sulk", note: "Informal." }
+  - { id: "b2-idioms-everyday-v013", group: "body", fr: "avoir le bras long", pron: "ah-vwahr luh brah LOHN", en: "to have influence, to know the right people", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v014", group: "body", fr: "en un clin d'œil", pron: "ahn-nuhn klan DUH-y", en: "in the blink of an eye", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v015", group: "food", fr: "tomber dans les pommes", pron: "tohn-bay dahn lay POMM", en: "to faint", note: "Informal." }
+  - { id: "b2-idioms-everyday-v016", group: "food", fr: "avoir du pain sur la planche", pron: "ah-vwahr dew pan sewr lah PLAHNSH", en: "to have a lot on your plate", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v017", group: "food", fr: "raconter des salades", pron: "rah-kohn-tay day sah-LAD", en: "to tell tall stories, to tell lies", note: "Informal." }
+  - { id: "b2-idioms-everyday-v018", group: "food", fr: "ne pas être dans son assiette", pron: "nuh pah-zeh-truh dahn sohn-nah-SYET", en: "to feel off, to be out of sorts", note: "Neutral. The possessive changes: je ne suis pas dans mon assiette." }
+  - { id: "b2-idioms-everyday-v019", group: "animals", fr: "poser un lapin à quelqu'un", pron: "poh-zay uhn lah-PAN ah kel-KUHN", en: "to stand someone up", note: "Informal." }
+  - { id: "b2-idioms-everyday-v020", group: "animals", fr: "avoir le cafard", pron: "ah-vwahr luh kah-FAR", en: "to feel down", note: "Informal. Un cafard is a cockroach." }
+  - { id: "b2-idioms-everyday-v021", group: "animals", fr: "donner sa langue au chat", pron: "doh-nay sah lahng oh SHAH", en: "to give up guessing", note: "Neutral." }
+  - { id: "b2-idioms-everyday-v022", group: "animals", fr: "appeler un chat un chat", pron: "ah-play uhn shah uhn SHAH", en: "to call a spade a spade", note: "Neutral." }
 exercises:
   - id: "b2-idioms-everyday-ex001"
     type: "multiple-choice"

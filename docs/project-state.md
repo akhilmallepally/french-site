@@ -12,6 +12,8 @@ Parlons is a free, text-only site that teaches French to English speakers from A
 | check:words | Lists French words in examples, dialogues and exercises with no vocab entry in this or an earlier lesson. You can filter it by level or lesson id. |
 | check:structures | B1 and B2 (B2 rules added for every B2 grammar point). Lists grammar used before the lesson that teaches it: subjunctive, conditionnel, plus-que-parfait, gérondif, passive, double pronouns, dont, ce qui/que, lequel, ne… que and ni… ni, demonstrative and possessive pronouns, reported speech. |
 | build | next build (after validate:content). |
+| test:b2-exercises | scripts/b2-exercise-check.ts: every accepted answer of the B2 reformulation, register-shift, error-correction, connector-choice and reorder exercises passes lib/check-answer.ts, and the starting sentence or wrong options do not (316 exercises, 0 failures). |
+| scripts/b2-links-ids.ts | B2 LessonLink targets exist, vocab ids follow display order, and each lesson's unit matches the syllabus (run with `node --experimental-strip-types scripts/b2-links-ids.ts`). |
 | scripts/b2-wrapup.ts | One-off B2 cross-level audit (run with `node --experimental-strip-types scripts/b2-wrapup.ts`): link targets, forward links, vocab and sentence repeats, "you know X" claims, per-unit statistics and limits. Writes docs/b2-wrapup.md. |
 
 audit:content also has B2 rows: lengths, En résumé, the exercise mix, A1 to B1 vocab repeats (NEW_MEANINGS), copied sentences and tips, the passé simple, dropped *ne* before lesson 53, longer-text length, and vocab used in a complete sentence. check:words has B2 lists in scripts/b2-lists.ts (COGNATES, NEW_MEANINGS, the instruction words).
@@ -67,26 +69,18 @@ audit:content also has B2 rows: lengths, En résumé, the exercise mix, A1 to B1
 - **B2 audit rows:** b2-purpose-expressions ex014 has 6 accepted answers (deliberate). The b2-wrapup judgement calls are listed at the top of docs/b2-wrapup.md.
 
 ## 5. Open items
-- **B2 has no fluent-speaker check yet.** docs/b2-reviewer-brief.md lists 229 items (85 High), and docs/review/b2-unit-1.txt to b2-unit-8.txt hold the lesson files for the reviewer.
-- **The four new B2 exercise types aren't browser-tested.** docs/b2-browser-test.md lists 12 exercises to try.
-- **The B1 review is still pending** (docs/reviewer-brief.md has no answers recorded).
-- **B1 fixes from the live-page review:** done locally on 10 November and passing every check, but **not committed or pushed**.
-  - conditionnel stems
-  - subjonctif-irregular warning, dialogue line and *falloir* sentence
-  - double-pronoun rule
-  - formal-email *suite à*
-  - plus-que-parfait *auparavant* sentence
-- **docs/batch-review.md** (vocab and exercises of 10 B1 lessons): written and untracked, still waiting to be reviewed.
-- **13 B1 grammar lessons not yet read on the live site:** open.
-- **docs/reviewer-brief.md** (402 claims for a native speaker): written, with edits not yet committed. It has no answers recorded yet.
-- **Phone check and learner tests:** no record in the repo. Treat as not started.
+- **B2 browser test:** docs/b2-browser-test.md (the four new exercise types, the repeated-word reorder, one lesson per unit at phone width). Not run yet.
+- **B2 native-speaker review:** docs/b2-reviewer-brief.md and docs/b2-review-items.md (253 items, 59 possibly resolved), with the lessons in docs/review/b2-unit-1.txt to b2-unit-8.txt. Not started.
+- **C1 link to restore:** b2-review-final ends with plain text about the passé simple; when c1-passe-simple exists, turn it back into a LessonLink.
+- **B1 review still pending:** docs/reviewer-brief.md has no answers recorded, and 13 B1 grammar lessons are still unread on the live site.
+- **Phone check and learner tests:** not started.
 
 ## 6. Status
-- **Levels written:** A1 (49 lessons), A2 (56), B1 (59) and B2 (59 lessons in 8 units) are written. B2 is planned in docs/plans/b2/ and logged in docs/b2-writing-log.md. C1 isn't started.
-- **C1 link to restore:** b2-review-final ends with plain text about the passé simple; once c1-passe-simple exists, turn it back into a LessonLink.
-- **Next stage:** write the C1 conventions in CLAUDE.md (and the checks behind them), then plan C1 unit by unit, as for B2.
-- **Last commit:** e7db04a, "Write B2 Unit 8" (local). Check `git status` for what has been pushed.
-- **Not committed:** the B2 wrap-up (scripts/b2-wrapup.ts, docs/b2-wrapup.md, docs/b2-reviewer-brief.md, docs/b2-browser-test.md, docs/review/, and four small claim fixes).
+- **Levels written:** A1 (49 lessons), A2 (56), B1 (59) and B2 (59). C1 isn't started.
+- **B2 units:** 1 Nuance and society (lessons 1 to 8), 2 What might have been (9 to 15), 3 News and reporting (16 to 25), 4 Precision with pronouns (26 to 31), 5 Work and the economy (32 to 40), 6 Science and health (41 to 45), 7 Culture and the arts (46 to 52), 8 Registers and debate (53 to 59). Plans in docs/plans/b2/, history in docs/b2-writing-log.md.
+- **Baselines:** check:words 110 (the A1/A2 backlog; B1 and B2 at 0), check:structures 0, test:checker 29 tests, test:b2-exercises 316 exercises with 0 failures. The audit's only B2 rows are two deliberate six-answer exercises (b2-purpose-expressions ex014, b2-review-nuance ex015).
+- **Last commit:** check `git log`; the B2 review fixes and the wrap-up (Prompts 21 to 25) are not committed.
+- **Next steps, in order:** (1) C1 conventions in CLAUDE.md, then C1 planning; (2) the B1 review, including the 13 unread B1 grammar lessons; (3) the B2 native-speaker review; (4) phone and learner tests.
 
 ## 7. How work is split
 - **The assistant** writes the prompts, reviews the live pages and the exported data (all-data.md, batch-review.md), and decides what to fix.

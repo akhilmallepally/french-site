@@ -6356,6 +6356,7 @@ fr | pron | en | note
 - à première vue | ah pruh-myehr VEW | at first sight | —
 - en principe | ahn pran-SEEP | in principle, normally | —
 - sur le fond | sewr luh FOHN | basically, on the substance | —
+- avoir lieu | ah-vwahr LYUH | to take place, to be held | La réunion a lieu jeudi.
 - il me semble que | eel muh sahn-bluh KUH | it seems to me that | Followed by the indicative.
 - il semble que | eel sahn-bluh KUH | it seems that | Followed by the subjunctive.
 - je dirais que | zhuh dee-reh KUH | I'd say that | —
@@ -6367,7 +6368,6 @@ fr | pron | en | note
 - partagé / partagée | par-tah-ZHAY | torn, in two minds | —
 - la semaine de quatre jours | lah suh-men duh kah-truh ZHOOR | the four-day week | —
 - les transports | lay trahns-POR | transport; here, commuting | —
-- avoir lieu | ah-vwahr LYUH | to take place, to be held | La réunion a lieu jeudi.
 
 ### Exercises
 
@@ -6405,6 +6405,7 @@ fr | pron | en | note
 - la crise du logement | lah kreez dew lozh-MAHN | the housing crisis | —
 - un logement social | uhn lozh-mahn soh-SYAL | social housing, a council flat | —
 - un / une sans-abri | uhn / ewn sahn-zah-BREE | a homeless person | The plural doesn't change: des sans-abri.
+- avoir du mal à | ah-vwahr dew MAHL ah | to struggle to, to find it hard to | + infinitive.
 - un immigré / une immigrée | uh-nee-mee-GRAY / ew-nee-mee-GRAY | an immigrant | —
 - s'intégrer | san-tay-GRAY | to integrate, to fit in | Like préférer: je m'intègre.
 - un chômeur / une chômeuse | uhn shoh-MUHR / ewn shoh-MUHZ | an unemployed person | —
@@ -6420,7 +6421,6 @@ fr | pron | en | note
 - réduire | ray-DWEER | to reduce | Like conduire: je réduis, nous réduisons; réduit.
 - un enjeu | uh-nahn-ZHUH | an issue, what's at stake | Plural: des enjeux.
 - une mesure | ewn muh-ZEWR | a measure, a policy | —
-- avoir du mal à | ah-vwahr dew MAHL ah | to struggle to, to find it hard to | + infinitive.
 
 ### Exercises
 
@@ -6497,6 +6497,7 @@ fr | pron | en | note
 - quand même | kahn MEM | all the same, still (mainly spoken) | —
 - avoir beau | ah-vwahr BOH | to do something in vain | Avoir beau + infinitive: j'ai beau chercher.
 - certes | sehrt | admittedly, certainly | —
+- même si | mem SEE | even if, even though | + indicative: même s'il pleut.
 - alors que | ah-lor KUH | whereas, while | —
 - tandis que | tahn-dee KUH | whereas, while | —
 - en revanche | ahn ruh-VAHNSH | on the other hand | —
@@ -6506,7 +6507,6 @@ fr | pron | en | note
 - une contradiction | ewn kohn-trah-deek-SYOHN | a contradiction | —
 - contradictoire | kohn-trah-deek-TWAHR | contradictory | —
 - s'opposer à | soh-poh-zay AH | to be opposed to, to oppose | —
-- même si | mem SEE | even if, even though | + indicative: même s'il pleut.
 
 ### Exercises
 
@@ -6534,6 +6534,11 @@ id | type | prompt | options | answers | strictAccents | explanation
 
 fr | pron | en | note
 
+- il pleut des cordes | eel pluh day KORD | it's pouring | Neutral.
+- être dans la lune | eh-truh dahn lah LEWN | to be daydreaming | Neutral.
+- avoir la flemme | ah-vwahr lah FLEM | to not be bothered, to feel lazy | Informal: avoir la flemme de + infinitive.
+- avoir un coup de foudre | ah-vwahr uhn koo duh FOO-druh | to fall in love at first sight | Neutral: avoir un coup de foudre pour quelqu'un.
+- une expression imagée | ew-neks-preh-syohn ee-mah-ZHAY | an idiom, a figurative expression | —
 - coûter les yeux de la tête | koo-tay lay-zyuh duh lah TET | to cost an arm and a leg | Informal.
 - coûter un rein | koo-tay uhn RAN | to cost a fortune | Very informal.
 - casser les pieds à quelqu'un | kah-say lay PYAY ah kel-KUHN | to get on someone's nerves | Informal.
@@ -6551,11 +6556,6 @@ fr | pron | en | note
 - avoir le cafard | ah-vwahr luh kah-FAR | to feel down | Informal. Un cafard is a cockroach.
 - donner sa langue au chat | doh-nay sah lahng oh SHAH | to give up guessing | Neutral.
 - appeler un chat un chat | ah-play uhn shah uhn SHAH | to call a spade a spade | Neutral.
-- il pleut des cordes | eel pluh day KORD | it's pouring | Neutral.
-- être dans la lune | eh-truh dahn lah LEWN | to be daydreaming | Neutral.
-- avoir la flemme | ah-vwahr lah FLEM | to not be bothered, to feel lazy | Informal: avoir la flemme de + infinitive.
-- avoir un coup de foudre | ah-vwahr uhn koo duh FOO-druh | to fall in love at first sight | Neutral: avoir un coup de foudre pour quelqu'un.
-- une expression imagée | ew-neks-preh-syohn ee-mah-ZHAY | an idiom, a figurative expression | —
 
 ### Exercises
 
@@ -6706,6 +6706,8 @@ id | type | prompt | options | answers | strictAccents | explanation
 
 fr | pron | en | note
 
+- le conditionnel passé | luh kohn-dee-syoh-nel pah-SAY | the conditionnel passé (past conditional) | —
+- le participe passé | luh par-tee-seep pah-SAY | the past participle | —
 - j'aurais aimé | zhoh-reh-zeh-MAY | I'd have liked, I wish I had | + infinitive: j'aurais aimé partir.
 - ça aurait été / cela aurait été | sah oh-reh-tay-TAY / suh-lah oh-reh-tay-TAY | it would have been | Cela is more formal, mostly written.
 - à ta place, j'aurais… | ah tah PLAHSS zhoh-REH | in your place, I'd have… | Formal: à votre place.
@@ -6716,14 +6718,12 @@ fr | pron | en | note
 - un tournant | uhn toor-NAHN | a turning point | —
 - envisager | ahn-vee-zah-ZHAY | to consider | Envisager de + infinitive. Like manger: nous envisageons.
 - autrement | oh-truh-MAHN | differently, otherwise | —
+- la médecine | lah mayd-SEEN | medicine (the subject, the profession) | —
 - selon des sources proches de | suh-lohn day soorss PROSH duh | according to sources close to | —
 - un bilan | uhn bee-LAHN | a toll (of victims, in the news) | —
 - un blessé / une blessée | uhn bleh-SAY / ewn bleh-SAY | an injured person | —
 - faire des victimes | fehr day veek-TEEM | to claim victims, to leave people hurt or dead | —
 - non confirmé / non confirmée | nohn kohn-feer-MAY | unconfirmed | —
-- le conditionnel passé | luh kohn-dee-syoh-nel pah-SAY | the conditionnel passé (past conditional) | —
-- le participe passé | luh par-tee-seep pah-SAY | the past participle | —
-- la médecine | lah mayd-SEEN | medicine (the subject, the profession) | —
 
 ### Exercises
 
@@ -6763,8 +6763,8 @@ fr | pron | en | note
 - au dernier moment | oh dehr-nyay moh-MAHN | at the last minute | —
 - de justesse | duh zhews-TESS | only just, narrowly | —
 - faillir | fah-YEER | to almost do | Passé composé + infinitive: j'ai failli tomber.
-- se douter (de / que) | suh doo-TAY (duh / kuh) | to suspect | False friend: douter de means to doubt. Se douter que + indicative.
 - presque | PRESK | almost, nearly | —
+- se douter (de / que) | suh doo-TAY (duh / kuh) | to suspect | False friend: douter de means to doubt. Se douter que + indicative.
 
 ### Exercises
 
@@ -7045,6 +7045,7 @@ fr | pron | en | note
 
 - le discours indirect | luh dees-koor an-dee-REKT | reported speech, indirect speech | —
 - la concordance des temps | lah kohn-kor-dahnss day TAHN | the sequence of tenses | —
+- l'imparfait | lan-par-FEH | the imparfait (the tense) | —
 - une promesse | ewn proh-MESS | a promise | —
 - promettre que | proh-meh-truh KUH | to promise that | Like mettre: il a promis.
 - assurer que | ah-sew-ray KUH | to assure that, to insist that | —
@@ -7055,7 +7056,6 @@ fr | pron | en | note
 - prononcer un discours | proh-nohn-say uhn dees-KOOR | to give a speech | —
 - une conférence de presse | ewn kohn-fay-rahnss duh PRESS | a press conference | —
 - un entretien | uh-nahn-truh-TYAN | an interview (in the media) | —
-- l'imparfait | lan-par-FEH | the imparfait (the tense) | —
 
 ### Exercises
 
@@ -7435,6 +7435,10 @@ id | type | prompt | options | answers | strictAccents | explanation
 
 fr | pron | en | note
 
+- une préposition | ewn pray-poh-zee-SYOHN | a preposition | —
+- une phrase relative | ewn frahz ruh-lah-TEEV | a relative clause | —
+- auxquels / auxquelles | oh-KEL | to which (plural) | —
+- desquels / desquelles | day-KEL | of which (plural) | —
 - la raison pour laquelle | lah reh-zohn poor lah-KEL | the reason why | —
 - grâce auquel / grâce à laquelle | grahss oh-KEL / grahss ah lah-KEL | thanks to which | —
 - près duquel / près de laquelle | preh dew-KEL / preh duh lah-KEL | near which | —
@@ -7450,10 +7454,6 @@ fr | pron | en | note
 - fonctionner | fohnk-syoh-NAY | to work (of a machine or a system) | —
 - une fonctionnalité | ewn fohnk-syoh-nah-lee-TAY | a feature (of software) | —
 - paramétrer | pah-rah-may-TRAY | to set up, to configure | Like préférer: je paramètre.
-- une préposition | ewn pray-poh-zee-SYOHN | a preposition | —
-- une phrase relative | ewn frahz ruh-lah-TEEV | a relative clause | —
-- auxquels / auxquelles | oh-KEL | to which (plural) | —
-- desquels / desquelles | day-KEL | of which (plural) | —
 
 ### Exercises
 
@@ -7925,6 +7925,7 @@ fr | pron | en | note
 - ce serait envisageable | suh suh-reh ahn-vee-zah-ZHAH-bluh | it could be considered | —
 - une remise | ewn ruh-MEEZ | a discount (on a price) | —
 - baisser | beh-SAY | to lower, to go down | Baisser le prix.
+- élevé / élevée | ay-luh-VAY | high (of a price, a level) | —
 - en échange de | ahn-nay-SHAHNZH duh | in exchange for | —
 - dans ce cas | dahn suh KAH | in that case | —
 - quitte à | KEET ah | even if it means | + infinitive.
@@ -7935,7 +7936,6 @@ fr | pron | en | note
 - trouver un terrain d'entente | troo-vay uhn teh-ran dahn-TAHNT | to find common ground | —
 - conclure un accord | kohn-klew-ruh-nah-KOR | to strike a deal, to conclude an agreement | —
 - un engagement | uh-nahn-gahzh-MAHN | a commitment | —
-- élevé / élevée | ay-luh-VAY | high (of a price, a level) | —
 
 ### Exercises
 

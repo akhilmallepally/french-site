@@ -1,59 +1,33 @@
-# B2 browser test: the four new exercise types
+# B2 browser test
 
-The B2 exercise types `reformulation`, `register-shift`, `error-correction` and `connector-choice` are graded by lib/check-answer.ts and pass test:checker, but they haven't been tried in a browser. Run `npm run dev`, open each lesson at `/lessons/b2/<slug>`, and try the exercises below. Exercise numbers are the order on the page (ex001 is the first).
+Run `npm run dev` and open each page below. The scripts already pass (test:checker and test:b2-exercises), so this checks only what a browser shows. Tick each box.
 
-## What to check on every typed exercise
+## 1. The four new exercise types
 
-For each exercise, type these five answers in turn:
+For each typed exercise, try: the right answer; a wrong answer; the right answer without accents; in lowercase; with a curly apostrophe (’). Check the feedback text and that the score counts once.
 
-1. **Correct:** the first listed answer exactly. Expect "correct" and the score to go up once.
-2. **Wrong:** change one word. Expect "wrong", the expected answer shown, and no score.
-3. **No accents:** the right answer without accents (*a ete* for *a été*). Expect the "right except for a missing accent" message. Where the exercise has strictAccents, expect it not to count as fully correct.
-4. **No capitals:** the right answer in lowercase. Expect "correct".
-5. **Curly apostrophe:** type *l’exposition* with a curly apostrophe (’). Expect "correct".
+- [ ] `/lessons/b2/subjunctive-conjunctions` **ex005** (connector-choice): the options are buttons; the chosen one fills the ___ gap; a wrong choice shows the right one.
+- [ ] `/lessons/b2/subjunctive-conjunctions` **ex008** (reformulation): both listed answers are accepted.
+- [ ] `/lessons/b2/subjunctive-conjunctions` **ex010** (error-correction): typing the original wrong sentence back is marked wrong.
+- [ ] `/lessons/b2/concession-opposition` **ex010** (register-shift): the formal answer is accepted; the familiar original isn't.
 
-Also check that the English feedback (the explanation) appears after you answer, that the score at the end counts each exercise once, and that a second correct answer listed in `answers` is accepted too.
+## 2. Reorder with a repeated word
 
-## Reformulation
+- [ ] `/lessons/b2/review-what-might-have-been` **ex016**: the chip *a* appears twice. Tap each one: each moves on its own, and *Ma vie a basculé il y a dix ans* is accepted whichever *a* you place first.
 
-| Lesson (slug) | Exercise | What it tests |
-|---|---|---|
-| registers | ex009 | *Paul vient-il ?*: a hyphen and a question mark in the answer. |
-| tout | ex009 | Two accepted answers (*Les invités sont tous venus*, *Ils sont tous venus*). |
-| science-and-research | ex010 | The passive, with strictAccents (*a été*), and two word orders. |
+## 3. Phone width (about 375 px wide)
 
-## Register-shift
+Narrow the window or use the browser's device mode. On each page, check: tables scroll or wrap without breaking the page, the VocabTable and the glossary are readable, the exercises fit and their buttons can be tapped, and the LessonLinks work.
 
-| Lesson (slug) | Exercise | What it tests |
-|---|---|---|
-| colloquial-french | ex008 | Three accepted answers, two sentences in one answer, and strictAccents (*où*). |
-| registers | ex008 | An answer with a dropped *ne* (*Je bosse pas demain*), which should be accepted. |
-| describing-a-work-of-art | ex006 | Three accepted answers, including *C'est un tableau saisissant* (apostrophe). |
+- [ ] Unit 1: `/lessons/b2/subjunctive-conjunctions`
+- [ ] Unit 2: `/lessons/b2/conditionnel-passe`
+- [ ] Unit 3: `/lessons/b2/passive-voice` (tense table)
+- [ ] Unit 4: `/lessons/b2/relative-lequel` (forms table)
+- [ ] Unit 5: `/lessons/b2/presenting-data` (glossary under the chart commentary)
+- [ ] Unit 6: `/lessons/b2/certainty-and-probability` (probability table)
+- [ ] Unit 7: `/lessons/b2/culture-francophone-africa` (longer text and glossary)
+- [ ] Unit 8: `/lessons/b2/registers` (word table with three columns)
 
-## Error-correction
+## If something fails
 
-| Lesson (slug) | Exercise | What it tests |
-|---|---|---|
-| false-friends | ex010 | strictAccents on *à*: typing *assiste a la reunion* should not count as fully correct. |
-| tout | ex010 | A one-word change inside a long sentence (*toutes* → *tous*). |
-| arts-and-literature | ex011 | A word replacement (*comédien* → *humoriste*). |
-
-## Connector-choice
-
-| Lesson (slug) | Exercise | What to check |
-|---|---|---|
-| tout | ex007 | The chosen option fills the ___ gap at the start of the sentence (*En tout cas, nous commencerons…*). |
-| debating | ex005 | An option that ends with a colon (*Permettez-moi de vous contredire :*): check the spacing once it's in the gap. |
-| registers | ex005 | *Aussi* fills a gap before an inversion (*Aussi sommes-nous arrivés…*); check the capital stays. |
-
-For connector-choice, also check that the options are buttons, not a text box, that a wrong choice shows the right one, and that the filled sentence reads correctly once the gap is filled.
-
-## Reorder with a repeated word
-
-| Lesson (slug) | Exercise | What to check |
-|---|---|---|
-| review-what-might-have-been | ex016 | The chip *a* appears twice. Tap each one: both should move, separately, and the sentence *Ma vie a basculé il y a dix ans* should be accepted whichever *a* you place first. |
-
-## Report
-
-For each exercise, note: lesson, exercise number, which of the five inputs behaved unexpectedly, and what the page showed.
+Write one line per problem: page, exercise or section, what you did, what you expected, what you saw. For example: `concession-opposition ex010: typed the answer in lowercase, expected correct, saw "incorrect".`

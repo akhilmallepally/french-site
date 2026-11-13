@@ -12,25 +12,25 @@ tags: ["relative pronouns", "grammar", "work", "technology"]
 prerequisites: ["b1-interrogative-lequel", "b1-relative-dont"]
 related: ["a2-relative-qui-que-ou", "b1-indefinite-pronouns", "b2-relative-prepositions"]
 vocab:
-  - { id: "b2-relative-lequel-v001", group: "phrases", fr: "la raison pour laquelle", pron: "lah reh-zohn poor lah-KEL", en: "the reason why" }
-  - { id: "b2-relative-lequel-v002", group: "phrases", fr: "grâce auquel / grâce à laquelle", pron: "grahss oh-KEL / grahss ah lah-KEL", en: "thanks to which" }
-  - { id: "b2-relative-lequel-v003", group: "phrases", fr: "près duquel / près de laquelle", pron: "preh dew-KEL / preh duh lah-KEL", en: "near which" }
-  - { id: "b2-relative-lequel-v004", group: "phrases", fr: "à côté duquel / à côté de laquelle", pron: "ah koh-tay dew-KEL / ah koh-tay duh lah-KEL", en: "next to which" }
-  - { id: "b2-relative-lequel-v005", group: "phrases", fr: "au cours duquel / au cours de laquelle", pron: "oh koor dew-KEL / oh koor duh lah-KEL", en: "during which" }
-  - { id: "b2-relative-lequel-v006", group: "phrases", fr: "n'importe lequel / n'importe laquelle", pron: "nan-por-tuh luh-KEL / nan-por-tuh lah-KEL", en: "any one (at all)" }
-  - { id: "b2-relative-lequel-v007", group: "tools", fr: "un logiciel", pron: "uhn loh-zhee-SYEL", en: "software, a piece of software" }
-  - { id: "b2-relative-lequel-v008", group: "tools", fr: "une plateforme", pron: "ewn plaht-FORM", en: "a platform (online)" }
-  - { id: "b2-relative-lequel-v009", group: "tools", fr: "un tableur", pron: "uhn tah-BLUHR", en: "a spreadsheet" }
-  - { id: "b2-relative-lequel-v010", group: "tools", fr: "un dossier partagé", pron: "uhn doh-syay par-tah-ZHAY", en: "a shared folder" }
-  - { id: "b2-relative-lequel-v011", group: "tools", fr: "un serveur", pron: "uhn sehr-VUHR", en: "a server (computer)" }
-  - { id: "b2-relative-lequel-v012", group: "tools", fr: "un mode d'emploi", pron: "uhn mod dahn-PLWAH", en: "instructions for use, a user guide" }
-  - { id: "b2-relative-lequel-v013", group: "tools", fr: "fonctionner", pron: "fohnk-syoh-NAY", en: "to work (of a machine or a system)" }
-  - { id: "b2-relative-lequel-v014", group: "tools", fr: "une fonctionnalité", pron: "ewn fohnk-syoh-nah-lee-TAY", en: "a feature (of software)" }
-  - { id: "b2-relative-lequel-v015", group: "tools", fr: "paramétrer", pron: "pah-rah-may-TRAY", en: "to set up, to configure", note: "Like préférer: je paramètre." }
-  - { id: "b2-relative-lequel-v016", group: "terms", fr: "une préposition", pron: "ewn pray-poh-zee-SYOHN", en: "a preposition" }
-  - { id: "b2-relative-lequel-v017", group: "terms", fr: "une phrase relative", pron: "ewn frahz ruh-lah-TEEV", en: "a relative clause" }
-  - { id: "b2-relative-lequel-v018", group: "forms", fr: "auxquels / auxquelles", pron: "oh-KEL", en: "to which (plural)" }
-  - { id: "b2-relative-lequel-v019", group: "forms", fr: "desquels / desquelles", pron: "day-KEL", en: "of which (plural)" }
+  - { id: "b2-relative-lequel-v001", group: "terms", fr: "une préposition", pron: "ewn pray-poh-zee-SYOHN", en: "a preposition" }
+  - { id: "b2-relative-lequel-v002", group: "terms", fr: "une phrase relative", pron: "ewn frahz ruh-lah-TEEV", en: "a relative clause" }
+  - { id: "b2-relative-lequel-v003", group: "forms", fr: "auxquels / auxquelles", pron: "oh-KEL", en: "to which (plural)" }
+  - { id: "b2-relative-lequel-v004", group: "forms", fr: "desquels / desquelles", pron: "day-KEL", en: "of which (plural)" }
+  - { id: "b2-relative-lequel-v005", group: "phrases", fr: "la raison pour laquelle", pron: "lah reh-zohn poor lah-KEL", en: "the reason why" }
+  - { id: "b2-relative-lequel-v006", group: "phrases", fr: "grâce auquel / grâce à laquelle", pron: "grahss oh-KEL / grahss ah lah-KEL", en: "thanks to which" }
+  - { id: "b2-relative-lequel-v007", group: "phrases", fr: "près duquel / près de laquelle", pron: "preh dew-KEL / preh duh lah-KEL", en: "near which" }
+  - { id: "b2-relative-lequel-v008", group: "phrases", fr: "à côté duquel / à côté de laquelle", pron: "ah koh-tay dew-KEL / ah koh-tay duh lah-KEL", en: "next to which" }
+  - { id: "b2-relative-lequel-v009", group: "phrases", fr: "au cours duquel / au cours de laquelle", pron: "oh koor dew-KEL / oh koor duh lah-KEL", en: "during which" }
+  - { id: "b2-relative-lequel-v010", group: "phrases", fr: "n'importe lequel / n'importe laquelle", pron: "nan-por-tuh luh-KEL / nan-por-tuh lah-KEL", en: "any one (at all)" }
+  - { id: "b2-relative-lequel-v011", group: "tools", fr: "un logiciel", pron: "uhn loh-zhee-SYEL", en: "software, a piece of software" }
+  - { id: "b2-relative-lequel-v012", group: "tools", fr: "une plateforme", pron: "ewn plaht-FORM", en: "a platform (online)" }
+  - { id: "b2-relative-lequel-v013", group: "tools", fr: "un tableur", pron: "uhn tah-BLUHR", en: "a spreadsheet" }
+  - { id: "b2-relative-lequel-v014", group: "tools", fr: "un dossier partagé", pron: "uhn doh-syay par-tah-ZHAY", en: "a shared folder" }
+  - { id: "b2-relative-lequel-v015", group: "tools", fr: "un serveur", pron: "uhn sehr-VUHR", en: "a server (computer)" }
+  - { id: "b2-relative-lequel-v016", group: "tools", fr: "un mode d'emploi", pron: "uhn mod dahn-PLWAH", en: "instructions for use, a user guide" }
+  - { id: "b2-relative-lequel-v017", group: "tools", fr: "fonctionner", pron: "fohnk-syoh-NAY", en: "to work (of a machine or a system)" }
+  - { id: "b2-relative-lequel-v018", group: "tools", fr: "une fonctionnalité", pron: "ewn fohnk-syoh-nah-lee-TAY", en: "a feature (of software)" }
+  - { id: "b2-relative-lequel-v019", group: "tools", fr: "paramétrer", pron: "pah-rah-may-TRAY", en: "to set up, to configure", note: "Like préférer: je paramètre." }
 exercises:
   - id: "b2-relative-lequel-ex001"
     type: "fill-in"

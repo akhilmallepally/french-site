@@ -1160,17 +1160,17 @@ vocab:
   - { id: "b2-negotiating-v008", group: "offer", fr: "ce serait envisageable", pron: "suh suh-reh ahn-vee-zah-ZHAH-bluh", en: "it could be considered" }
   - { id: "b2-negotiating-v009", group: "offer", fr: "une remise", pron: "ewn ruh-MEEZ", en: "a discount (on a price)" }
   - { id: "b2-negotiating-v010", group: "offer", fr: "baisser", pron: "beh-SAY", en: "to lower, to go down", note: "Baisser le prix." }
-  - { id: "b2-negotiating-v011", group: "conditions", fr: "en échange de", pron: "ahn-nay-SHAHNZH duh", en: "in exchange for" }
-  - { id: "b2-negotiating-v012", group: "conditions", fr: "dans ce cas", pron: "dahn suh KAH", en: "in that case" }
-  - { id: "b2-negotiating-v013", group: "conditions", fr: "quitte à", pron: "KEET ah", en: "even if it means", note: "+ infinitive." }
-  - { id: "b2-negotiating-v014", group: "conditions", fr: "non négociable", pron: "nohn nay-goh-SYAH-bluh", en: "non-negotiable" }
-  - { id: "b2-negotiating-v015", group: "conditions", fr: "une marge de manœuvre", pron: "ewn marzh duh mah-NUH-vruh", en: "room for manoeuvre" }
-  - { id: "b2-negotiating-v016", group: "conceding", fr: "céder", pron: "say-DAY", en: "to give way, to give in", note: "Like préférer: je cède." }
-  - { id: "b2-negotiating-v017", group: "conceding", fr: "faire un geste", pron: "fehr uhn ZHEST", en: "to make a gesture (a small concession)" }
-  - { id: "b2-negotiating-v018", group: "agreement", fr: "trouver un terrain d'entente", pron: "troo-vay uhn teh-ran dahn-TAHNT", en: "to find common ground" }
-  - { id: "b2-negotiating-v019", group: "agreement", fr: "conclure un accord", pron: "kohn-klew-ruh-nah-KOR", en: "to strike a deal, to conclude an agreement" }
-  - { id: "b2-negotiating-v020", group: "agreement", fr: "un engagement", pron: "uh-nahn-gahzh-MAHN", en: "a commitment" }
-  - { id: "b2-negotiating-v021", group: "offer", fr: "élevé / élevée", pron: "ay-luh-VAY", en: "high (of a price, a level)" }
+  - { id: "b2-negotiating-v011", group: "offer", fr: "élevé / élevée", pron: "ay-luh-VAY", en: "high (of a price, a level)" }
+  - { id: "b2-negotiating-v012", group: "conditions", fr: "en échange de", pron: "ahn-nay-SHAHNZH duh", en: "in exchange for" }
+  - { id: "b2-negotiating-v013", group: "conditions", fr: "dans ce cas", pron: "dahn suh KAH", en: "in that case" }
+  - { id: "b2-negotiating-v014", group: "conditions", fr: "quitte à", pron: "KEET ah", en: "even if it means", note: "+ infinitive." }
+  - { id: "b2-negotiating-v015", group: "conditions", fr: "non négociable", pron: "nohn nay-goh-SYAH-bluh", en: "non-negotiable" }
+  - { id: "b2-negotiating-v016", group: "conditions", fr: "une marge de manœuvre", pron: "ewn marzh duh mah-NUH-vruh", en: "room for manoeuvre" }
+  - { id: "b2-negotiating-v017", group: "conceding", fr: "céder", pron: "say-DAY", en: "to give way, to give in", note: "Like préférer: je cède." }
+  - { id: "b2-negotiating-v018", group: "conceding", fr: "faire un geste", pron: "fehr uhn ZHEST", en: "to make a gesture (a small concession)" }
+  - { id: "b2-negotiating-v019", group: "agreement", fr: "trouver un terrain d'entente", pron: "troo-vay uhn teh-ran dahn-TAHNT", en: "to find common ground" }
+  - { id: "b2-negotiating-v020", group: "agreement", fr: "conclure un accord", pron: "kohn-klew-ruh-nah-KOR", en: "to strike a deal, to conclude an agreement" }
+  - { id: "b2-negotiating-v021", group: "agreement", fr: "un engagement", pron: "uh-nahn-gahzh-MAHN", en: "a commitment" }
 exercises:
   - id: "b2-negotiating-ex001"
     type: "multiple-choice"
