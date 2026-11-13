@@ -1,6 +1,6 @@
 # All lesson data
 
-209 written lessons, in course order.
+216 written lessons, in course order.
 
 ## a1-greetings
 
@@ -8311,3 +8311,334 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-review-science-ex014 | translate | Rédigez cette introduction en complétant comme indiqué : (One may wonder whether) le dépistage (must: devoir) être obligatoire. (First), nous verrons ses avantages. (Second), nous montrerons ses limites. | — | ["On peut se demander si le dépistage doit être obligatoire. Dans un premier temps, nous verrons ses avantages. Dans un second temps, nous montrerons ses limites.","On peut se demander si le dépistage doit être obligatoire. D'abord, nous verrons ses avantages. Ensuite, nous montrerons ses limites.","On peut se demander si le dépistage doit être obligatoire. Dans un premier temps, nous verrons ses avantages. Ensuite, nous montrerons ses limites.","On peut se demander si le dépistage doit être obligatoire. D'abord, nous verrons ses avantages. Dans un second temps, nous montrerons ses limites."] | false | The problématique as an indirect question, then the announced plan.
 - b2-review-science-ex015 | translate | Rédigez ce paragraphe en complétant comme indiqué : (One has to admit that) la prévention (protects) les autres. (Indeed), le principe de précaution (asks: demander) d'agir tôt. (However), (it is unlikely that) une mesure obligatoire (is: être) acceptée par tout le monde. | — | ["Force est de constater que la prévention protège les autres. En effet, le principe de précaution demande d'agir tôt. Cependant, il est peu probable qu'une mesure obligatoire soit acceptée par tout le monde.","Force est de constater que la prévention protège les autres. En effet, le principe de précaution demande d'agir tôt. Néanmoins, il est peu probable qu'une mesure obligatoire soit acceptée par tout le monde.","Force est de constater que la prévention protège les autres. En effet, le principe de précaution demande d'agir tôt. Pourtant, il est peu probable qu'une mesure obligatoire soit acceptée par tout le monde."] | true | Force est de constater que + indicative, en effet to explain, then an opposing connector and peu probable + subjunctive.
 - b2-review-science-ex016 | reorder | Remettez dans l'ordre : The fact that the measure is compulsory worries some citizens. | — | ["Le fait que la mesure soit obligatoire inquiète certains citoyens"] | false | Le fait que + subjunctive at the start of the sentence.
+
+## b2-arts-and-literature
+
+### Vocab
+
+fr | pron | en | note
+
+- un tableau | uhn tah-BLOH | a painting | New meaning: in b2-presenting-data, a table of figures.
+- un peintre / une peintre | uhn PAN-truh / ewn PAN-truh | a painter | —
+- peindre | PAN-druh | to paint | il peint, ils peignent; passé composé: il a peint.
+- une toile | ewn TWAHL | a canvas, a painting | —
+- une œuvre | ew-NUH-vruh | a work (of art) | —
+- un chef-d'œuvre | uhn sheh-DUH-vruh | a masterpiece | Plural: des chefs-d'œuvre.
+- une exposition | ew-nek-spoh-zee-SYOHN | an exhibition | —
+- une pièce de théâtre | ewn pyes duh tay-AH-truh | a play | —
+- la mise en scène | lah mee-zahn SEN | the staging, the direction (of a play) | —
+- un metteur en scène / une metteuse en scène | uhn meh-tuh-rahn SEN / ewn meh-tuh-zahn SEN | a (theatre) director | —
+- un comédien / une comédienne | uhn koh-may-DYAN / ewn koh-may-DYEN | an actor, an actress | False friend: not a comedian.
+- un humoriste / une humoriste | uh-new-moh-REEST / ew-new-moh-REEST | a comedian | —
+- un poème | uhn poh-EM | a poem | —
+- un vers | uhn VEHR | a line of poetry | False friend: a verse is une strophe.
+- une strophe | ewn STROF | a verse, a stanza | —
+- une rime | ewn REEM | a rhyme | —
+- un recueil | uhn ruh-KUH-y | a collection (of poems or stories) | —
+- un conte | uhn KOHNT | a tale, a fairy tale | —
+- une nouvelle | ewn noo-VEL | a short story | New meaning: also a piece of news.
+- le narrateur / la narratrice | luh nah-rah-TUHR / lah nah-rah-TREESS | the narrator | —
+- un thème | uhn TEM | a theme | —
+- un mouvement artistique | uhn moov-mahn ar-tees-TEEK | an artistic movement | —
+- le romantisme | luh roh-mahn-TEESM | romanticism | —
+- l'impressionnisme | lan-preh-syoh-NEESM | impressionism | —
+- le surréalisme | luh sewr-ray-ah-LEESM | surrealism | —
+- le passé simple | luh pah-say SAN-pluh | the passé simple (the literary past tense) | —
+- il était une fois | ee-lay-teh ewn FWAH | once upon a time | —
+- un roi / une reine | uhn RWAH / ewn REN | a king / a queen | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-arts-and-literature-ex001 | fill-in | Complétez : Le musée présente une ___ sur l'impressionnisme. | — | ["exposition"] | false | Une exposition: an exhibition.
+- b2-arts-and-literature-ex002 | fill-in | Complétez : La ___ en scène de cette pièce est très moderne. | — | ["mise"] | false | La mise en scène: the staging of a play.
+- b2-arts-and-literature-ex003 | fill-in | Complétez : Ce poème a trois strophes de quatre ___. | — | ["vers"] | false | Un vers is one line of a poem; une strophe is a group of lines.
+- b2-arts-and-literature-ex004 | fill-in | Complétez : Elle a publié un ___ de poèmes. | — | ["recueil"] | false | Un recueil: a collection of poems or stories.
+- b2-arts-and-literature-ex005 | fill-in | Complétez : C'est le plus beau tableau du musée, un vrai ___. | — | ["chef-d'œuvre"] | false | Un chef-d'œuvre: a masterpiece.
+- b2-arts-and-literature-ex006 | multiple-choice | Indiquez le sens de « un comédien ». | ["an actor","a comedian","a director"] | ["an actor"] | false | Un comédien is a false friend: it's an actor. A comedian is un humoriste.
+- b2-arts-and-literature-ex007 | multiple-choice | Indiquez le sens de « une nouvelle » dans la phrase : Elle a écrit une nouvelle de dix pages. | ["a short story","a piece of news","a new book"] | ["a short story"] | false | A text of ten pages is une nouvelle, a short story.
+- b2-arts-and-literature-ex008 | multiple-choice | Choisissez l'infinitif de « il fit ». | ["faire","finir","fermer"] | ["faire"] | false | Fit is the passé simple of faire: il fit = il a fait.
+- b2-arts-and-literature-ex009 | multiple-choice | Choisissez le passé composé de « ils partirent ». | ["ils sont partis","ils vont partir","ils partaient"] | ["ils sont partis"] | false | -irent is the passé simple plural of partir.
+- b2-arts-and-literature-ex010 | reformulation | Reformulez au passé composé : Le roi partit dans la forêt. | — | ["Le roi est parti dans la forêt"] | false | Partit is the passé simple of partir; in speech, it's est parti.
+- b2-arts-and-literature-ex011 | error-correction | Corrigez l'erreur de mot (the man tells jokes on stage) : Ce soir, un comédien raconte des histoires drôles au café. | — | ["Ce soir, un humoriste raconte des histoires drôles au café"] | false | Someone who tells jokes is un humoriste. Un comédien is an actor.
+- b2-arts-and-literature-ex012 | translate | Traduisez : The exhibition shows the painter's masterpieces. | — | ["L'exposition montre les chefs-d'œuvre du peintre","L'exposition présente les chefs-d'œuvre du peintre","L'exposition montre les chefs-d'œuvre de la peintre","L'exposition présente les chefs-d'œuvre de la peintre"] | false | Chefs-d'œuvre: the s goes on chef.
+- b2-arts-and-literature-ex013 | translate | Traduisez : I'm reading a collection of short stories. | — | ["Je lis un recueil de nouvelles"] | false | Un recueil de nouvelles: une nouvelle is a short story.
+- b2-arts-and-literature-ex014 | translate | Rédigez en complétant comme indiqué : Mon œuvre préférée est (a painting: un tableau) impressionniste. Le peintre (painted: peindre, passé composé) la mer. C'est (a masterpiece). | — | ["Mon œuvre préférée est un tableau impressionniste. Le peintre a peint la mer. C'est un chef-d'œuvre."] | true | Peindre gives a peint in the passé composé.
+- b2-arts-and-literature-ex015 | reorder | Remettez dans l'ordre : The staging of this play is very modern. | — | ["La mise en scène de cette pièce est très moderne"] | false | La mise en scène de + the play.
+
+## b2-culture-french-history
+
+### Vocab
+
+fr | pron | en | note
+
+- un empire | uh-nahn-PEER | an empire | —
+- un empereur | uh-nahn-PRUHR | an emperor | —
+- le Code civil | luh kod see-VEEL | the Civil Code (France's book of civil law) | —
+- une guerre mondiale | ewn gehr mohn-DYAL | a world war | Une guerre: a war.
+- la Première Guerre mondiale | lah pruh-myehr gehr mohn-DYAL | the First World War | —
+- la Seconde Guerre mondiale | lah suh-gohnd gehr mohn-DYAL | the Second World War | —
+- un soldat / une soldate | uhn sol-DAH / ewn sol-DAT | a soldier | —
+- un armistice | uh-nar-mees-TEESS | an armistice | —
+- l'Occupation | loh-kew-pah-SYOHN | the Occupation (of France, 1940 to 1944) | —
+- la Résistance | lah ray-zees-TAHNSS | the Resistance | —
+- un résistant / une résistante | uhn ray-zees-TAHN / ewn ray-zees-TAHNT | a member of the Resistance | —
+- la Libération | lah lee-bay-rah-SYOHN | the Liberation (1944) | —
+- un monument aux morts | uhn moh-new-mahn oh MOR | a war memorial | —
+- une commémoration | ewn koh-may-moh-rah-SYOHN | a commemoration | —
+- le devoir de mémoire | luh duh-vwahr duh may-MWAHR | the duty to remember | —
+- une colonie | ewn koh-loh-NEE | a colony | —
+- la décolonisation | lah day-koh-loh-nee-zah-SYOHN | decolonization | —
+- l'indépendance | lan-day-pahn-DAHNSS | independence | —
+- la construction européenne | lah kohn-strewk-syohn uh-roh-pay-EN | European integration | —
+- un traité | uhn treh-TAY | a treaty | —
+- signer un traité | see-nyay uhn treh-TAY | to sign a treaty | —
+- l'Union européenne | lew-nyohn uh-roh-pay-EN | the European Union | —
+- la paix | lah PEH | peace | —
+- un tournant historique | uhn toor-nahn ees-toh-REEK | a historic turning point | —
+- prendre le pouvoir | prahn-druh luh poo-VWAHR | to take power | —
+- l'armée | lar-MAY | the army | —
+- occuper | oh-kew-PAY | to occupy | —
+- libérer | lee-bay-RAY | to liberate, to free | —
+- un pays voisin | uhn peh-ee vwah-ZAN | a neighbouring country | —
+- se rapprocher | suh rah-proh-SHAY | to come closer together | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-culture-french-history-ex001 | multiple-choice | Choisissez la bonne réponse : Napoléon devient empereur en… | ["1804","1789","1914"] | ["1804"] | false | Napoleon became emperor in 1804. 1789 is the Revolution, and 1914 the start of the First World War.
+- b2-culture-french-history-ex002 | multiple-choice | Choisissez la bonne réponse : L'armistice de la Première Guerre mondiale est signé le… | ["11 novembre 1918","14 juillet 1789","8 mai 1945"] | ["11 novembre 1918"] | false | 11 November 1918 is the armistice; 8 May 1945 is the end of the Second World War in Europe.
+- b2-culture-french-history-ex003 | multiple-choice | Choisissez la bonne réponse : Pendant la Seconde Guerre mondiale, les résistants… | ["luttent contre l'Occupation","signent le traité de Rome","écrivent le Code civil"] | ["luttent contre l'Occupation"] | false | Les résistants fought against the Occupation.
+- b2-culture-french-history-ex004 | multiple-choice | Choisissez la bonne réponse : Le traité de Rome, en 1957, est une étape de… | ["la construction européenne","la décolonisation","la Révolution française"] | ["la construction européenne"] | false | The Treaty of Rome is a step in European integration.
+- b2-culture-french-history-ex005 | multiple-choice | Choisissez la bonne réponse : La décolonisation, c'est le moment où… | ["les colonies deviennent indépendantes","la France crée un empire","la guerre commence en Europe"] | ["les colonies deviennent indépendantes"] | false | Decolonization is when colonies become independent.
+- b2-culture-french-history-ex006 | multiple-choice | Choisissez la bonne réponse : Le Code civil est… | ["un recueil de lois","un traité européen","une commémoration"] | ["un recueil de lois"] | false | Le Code civil is a collection of laws, published in 1804.
+- b2-culture-french-history-ex007 | fill-in | Complétez : Pendant l'Occupation, beaucoup de Français entrent dans la ___. | — | ["Résistance"] | false | La Résistance: the movement against the Occupation.
+- b2-culture-french-history-ex008 | fill-in | Complétez : En 1957, six pays signent un ___ à Rome. | — | ["traité"] | false | Signer un traité: to sign a treaty.
+- b2-culture-french-history-ex009 | fill-in | Complétez : Le 11 novembre est le jour de l'___ de 1918. | — | ["armistice"] | false | L'armistice of 11 November 1918 ended the fighting of the First World War.
+- b2-culture-french-history-ex010 | multiple-choice | Indiquez le sens de : Napoléon devint empereur. | ["Napoleon became emperor.","Napoleon will become emperor.","Napoleon wants to become emperor."] | ["Napoleon became emperor."] | false | Devint is the passé simple of devenir: il est devenu.
+- b2-culture-french-history-ex011 | reformulation | Reformulez au passé composé : Le traité fut signé à Rome. | — | ["Le traité a été signé à Rome"] | true | Fut signé is the passé simple passive; in the passé composé, it's a été signé.
+- b2-culture-french-history-ex012 | translate | Traduisez avec « lutter contre » au passé composé : The Resistance fought against the Occupation. | — | ["La Résistance a lutté contre l'Occupation"] | true | Lutter contre: to fight against.
+- b2-culture-french-history-ex013 | translate | Rédigez en complétant comme indiqué, au présent : En 1804, Napoléon (becomes: devenir) empereur. Il (creates: créer) le Code civil. Plus tard, il (loses: perdre) son empire. | — | ["En 1804, Napoléon devient empereur. Il crée le Code civil. Plus tard, il perd son empire."] | false | History is often told in the present: devient, crée, perd.
+- b2-culture-french-history-ex014 | reorder | Remettez dans l'ordre : Paris was liberated in 1944. | — | ["Paris a été libéré en 1944"] | false | The passive in the passé composé: a été libéré.
+
+## b2-adjective-position-meaning
+
+### Vocab
+
+fr | pron | en | note
+
+- un ancien ami / un bâtiment ancien | uh-nahn-syan nah-MEE / uhn bah-teet-mahn ahn-SYAN | a former friend / an old building | —
+- la dernière semaine / la semaine dernière | lah dehr-nyehr suh-MEN / lah suh-men dehr-NYEHR | the final week / last week | —
+- la prochaine fois / la semaine prochaine | lah proh-shen FWAH / lah suh-men proh-SHEN | the next time / next week | —
+- le même jour / le jour même | luh mem ZHOOR / luh zhoor MEM | the same day / that very day | —
+- mon cher ami / un repas cher | mohn sheh-rah-MEE / uhn ruh-pah SHEHR | my dear friend / an expensive meal | —
+- un pauvre homme / un homme pauvre | uhn poh-vruh OMM / uh-nomm POH-vruh | a poor (unfortunate) man / a poor (penniless) man | —
+- un brave homme / un homme brave | uhn brah-VOMM / uh-nomm BRAHV | a decent man / a brave man | —
+- une curieuse idée / un enfant curieux | ewn kew-ryuh-zee-DAY / uh-nahn-fahn kew-RYUH | an odd idea / a curious (inquisitive) child | —
+- un sale type / une chemise sale | uhn sal TEEP / ewn shuh-meez SAL | a nasty guy / a dirty shirt | Un sale type is informal.
+- un grand homme / un homme grand | uhn grahn-TOMM / uh-nomm GRAHN | a great man / a tall man | —
+- un seul enfant / un enfant seul | uhn suh-lahn-FAHN / uh-nahn-fahn SUHL | only one child / a child on his own | —
+- certaines personnes / une chose certaine | sehr-ten pehr-SONN / ewn shohz sehr-TEN | some people / a sure thing | —
+- différentes personnes / des personnes différentes | dee-fay-rahnt pehr-SONN / day pehr-sonn dee-fay-RAHNT | various people / different people | —
+- ma propre voiture / une voiture propre | mah proh-pruh vwah-TEWR / ewn vwah-tewr PROH-pruh | my own car / a clean car | —
+- une simple question / une question simple | ewn san-pluh kes-TYOHN / ewn kes-tyohn SAN-pluh | just a question / an easy question | —
+- un vrai problème / une histoire vraie | uhn vreh proh-BLEM / ew-nees-twahr VREH | a real problem / a true story | —
+- un vernissage | uhn vehr-nee-SAHZH | an exhibition opening, a private view | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-adjective-position-meaning-ex001 | multiple-choice | Indiquez le sens de « un ancien ami ». | ["a former friend","an elderly friend","a rich friend"] | ["a former friend"] | false | Before the noun, ancien means former. After it, it means old: un bâtiment ancien.
+- b2-adjective-position-meaning-ex002 | multiple-choice | Indiquez le sens de « un repas cher ». | ["an expensive meal","a dear meal","a cheap meal"] | ["an expensive meal"] | false | After the noun, cher means expensive. Before it, it means dear: mon cher ami.
+- b2-adjective-position-meaning-ex003 | multiple-choice | Indiquez le sens de « un homme grand ». | ["a tall man","a great man","an old man"] | ["a tall man"] | false | After the noun, grand describes height. Un grand homme is a great man.
+- b2-adjective-position-meaning-ex004 | multiple-choice | Indiquez le sens de « une simple question ». | ["just a question","a rude question","a long question"] | ["just a question"] | false | Before the noun, simple means only, just. After it, it means easy: une question simple.
+- b2-adjective-position-meaning-ex005 | fill-in | Complétez avec la bonne forme de « cher » : Ma ___ amie, merci pour ta lettre. | — | ["chère"] | false | Before the noun, cher means dear, and it agrees: ma chère amie.
+- b2-adjective-position-meaning-ex006 | fill-in | Complétez avec la bonne forme de « dernier » : Les vacances finissent bientôt : c'est la ___ semaine. | — | ["dernière"] | false | Before the noun, dernier is the last one in a series: la dernière semaine des vacances.
+- b2-adjective-position-meaning-ex007 | fill-in | Complétez avec « même » à la bonne place : Elle a répondu le jour ___. | — | ["même"] | false | After the noun, même means very: le jour même, that very day.
+- b2-adjective-position-meaning-ex008 | connector-choice | Choisissez la bonne réponse : Il n'y a qu'un enfant dans cette famille : c'est ___. | ["un seul enfant","un enfant seul"] | ["un seul enfant"] | false | Before the noun, seul means only one. Un enfant seul is a child on his own.
+- b2-adjective-position-meaning-ex009 | reformulation | Reformulez avec « ancien » : C'est mon ami d'avant. | — | ["C'est mon ancien ami"] | false | Before the noun, ancien means former.
+- b2-adjective-position-meaning-ex010 | reformulation | Reformulez avec l'adjectif après le nom : Ce restaurant, c'est cher. | — | ["C'est un restaurant cher"] | false | After the noun, cher means expensive.
+- b2-adjective-position-meaning-ex011 | error-correction | Corrigez l'erreur (my own car) : J'ai enfin ma voiture propre. | — | ["J'ai enfin ma propre voiture"] | false | Ma propre voiture is my own car; ma voiture propre is my clean car.
+- b2-adjective-position-meaning-ex012 | translate | Traduisez (a man) : my former teacher | — | ["mon ancien professeur","mon ancien enseignant"] | false | Before the noun, ancien means former.
+- b2-adjective-position-meaning-ex013 | translate | Traduisez : She's the only woman who came. | — | ["C'est la seule femme qui est venue","C'est la seule femme qui soit venue"] | false | Before the noun, seule means only. After la seule, the subjunctive (soit venue) is the careful form.
+- b2-adjective-position-meaning-ex014 | translate | Rédigez en complétant comme indiqué : Paul est (a decent man: brave). Mais son voisin est (a nasty guy: sale, familier). Hier, ils ont eu (a real problem). | — | ["Paul est un brave homme. Mais son voisin est un sale type. Hier, ils ont eu un vrai problème."] | false | Brave, sale and vrai change meaning before the noun: decent, nasty, real.
+- b2-adjective-position-meaning-ex015 | reorder | Remettez dans l'ordre : She lives in an old building. | — | ["Elle habite dans un bâtiment ancien"] | false | After the noun, ancien means old.
+
+## b2-tout
+
+### Vocab
+
+fr | pron | en | note
+
+- tout le / toute la | too luh / toot lah | all the, the whole | Tout le musée: the whole museum.
+- tous les / toutes les | too lay / toot lay | all the, every | The s of tous is silent here.
+- tous (pronom) | TOOSS | all of them | As a pronoun, the s is pronounced: ils sont tous là.
+- tous les deux / toutes les deux | too lay DUH / toot lay DUH | both | —
+- tout seul / toute seule | too SUHL / toot SUHL | all alone, completely alone | —
+- tout le temps | too luh TAHN | all the time | —
+- en tout cas | ahn too KAH | in any case | —
+- de toute façon | duh toot fah-SOHN | anyway | —
+- tout de même | too duh MEM | all the same, still | —
+- tout compte fait | too kohnt FEH | all things considered | —
+- à tout prix | ah too PREE | at all costs | —
+- du tout au tout | dew too-toh TOO | completely (of a change) | —
+- quiconque | kee-KOHNK | anyone who, whoever | + a singular verb.
+- quelconque | kel-KOHNK | any (at all); ordinary | After the noun: une raison quelconque.
+- un guide / une guide | uhn GEED / ewn GEED | a guide | —
+- une salle | ewn SAL | a room (in a museum or a public building) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-tout-ex001 | fill-in | Complétez avec tout, toute, tous ou toutes : Il a plu ___ la journée. | — | ["toute"] | false | Journée is feminine singular: toute la journée.
+- b2-tout-ex002 | fill-in | Complétez avec tout, toute, tous ou toutes : Ce matin, ___ les élèves sont arrivés à l'heure. | — | ["tous"] | false | Élèves arrivés is masculine plural: tous les élèves.
+- b2-tout-ex003 | fill-in | Complétez avec tout, toute, tous ou toutes : J'ai lu ___ ses nouvelles. | — | ["toutes"] | false | Nouvelles is feminine plural: toutes ses nouvelles.
+- b2-tout-ex004 | fill-in | Complétez avec tout, toute, tous ou toutes : Elle a mangé ___ le gâteau. | — | ["tout"] | false | Gâteau is masculine singular: tout le gâteau, the whole cake.
+- b2-tout-ex005 | multiple-choice | Choisissez la phrase où on prononce le s de « tous ». | ["Ils sont tous venus.","Je marche tous les jours.","Je vois tous mes amis."] | ["Ils sont tous venus."] | false | As a pronoun, tous ends in an s sound. Before a noun, the s is silent.
+- b2-tout-ex006 | multiple-choice | Choisissez la bonne forme : Elle est ___ contente. | ["toute","tout","tous"] | ["toute"] | false | The adverb tout agrees before a feminine adjective starting with a consonant: toute contente.
+- b2-tout-ex007 | connector-choice | Choisissez le connecteur : Je ne sais pas s'il viendra. ___, nous commencerons à huit heures. | ["En tout cas","Tout à coup","Tout seul"] | ["En tout cas"] | false | En tout cas: whatever happens, in any case.
+- b2-tout-ex008 | reformulation | Reformulez avec « tous les » : Chaque élève a un livre. | — | ["Tous les élèves ont un livre"] | false | Chaque + singular becomes tous les + plural, with a plural verb.
+- b2-tout-ex009 | reformulation | Reformulez avec « tous » après l'auxiliaire : Tous les invités sont venus. | — | ["Les invités sont tous venus"] | false | The pronoun tous goes between the auxiliary and the participle, with its s pronounced.
+- b2-tout-ex010 | error-correction | Corrigez l'erreur : Paul et Marie sont toutes les deux en vacances. | — | ["Paul et Marie sont tous les deux en vacances"] | false | With a man and a woman, the masculine is used: tous les deux.
+- b2-tout-ex011 | fill-in | Complétez avec « quiconque » ou « quelconque » : ___ arrive en retard doit attendre la pause. | — | ["quiconque"] | false | Quiconque: anyone who, with a singular verb (arrive, doit).
+- b2-tout-ex012 | translate | Traduisez au passé composé : They all came. | — | ["Ils sont tous venus","Elles sont toutes venues","Tous sont venus","Toutes sont venues"] | false | The pronoun tous or toutes goes between the auxiliary and the participle.
+- b2-tout-ex013 | translate | Traduisez à l'imparfait : She was all alone. | — | ["Elle était toute seule"] | false | Tout agrees before seule, a feminine adjective starting with a consonant.
+- b2-tout-ex014 | translate | Rédigez en complétant comme indiqué : Hier, nous avons visité (all the rooms) du musée. Les tableaux étaient (all of them: pronoun) magnifiques. (All things considered), c'était une belle journée. | — | ["Hier, nous avons visité toutes les salles du musée. Les tableaux étaient tous magnifiques. Tout compte fait, c'était une belle journée."] | false | Toutes les salles (determiner), tous after the verb (pronoun), and the set phrase tout compte fait.
+- b2-tout-ex015 | reorder | Remettez dans l'ordre : I see my friends all the time. | — | ["Je vois mes amis tout le temps"] | false | Tout le temps: all the time.
+
+## b2-describing-a-work-of-art
+
+### Vocab
+
+fr | pron | en | note
+
+- au premier plan | oh pruh-myay PLAHN | in the foreground | —
+- à l'arrière-plan | ah lah-ryehr-PLAHN | in the background | —
+- au centre | oh SAHN-truh | in the centre | —
+- à gauche du tableau / à droite du tableau | ah gohsh dew tah-BLOH / ah drwaht dew tah-BLOH | on the left of the painting / on the right of the painting | —
+- la lumière | lah lew-MYEHR | the light | —
+- les couleurs vives | lay koo-luhr VEEV | bright colours | Vif / vive: bright, lively.
+- les couleurs sombres | lay koo-luhr SOHN-bruh | dark colours | —
+- une touche | ewn TOOSH | a brushstroke, a touch (of colour) | —
+- le regard | luh ruh-GAR | the gaze, the look (in someone's eyes) | —
+- le spectateur / la spectatrice | luh spek-tah-TUHR / lah spek-tah-TREESS | the viewer | —
+- évoquer | ay-voh-KAY | to evoke, to bring to mind | —
+- suggérer | sewg-zhay-RAY | to suggest | Like préférer: il suggère.
+- symboliser | san-boh-lee-ZAY | to symbolize | —
+- une impression | ew-nan-preh-SYOHN | an impression | —
+- une interprétation | ew-nan-tehr-pray-tah-SYOHN | an interpretation | —
+- il s'en dégage | eel sahn day-GAHZH | it gives off, there emerges from it | Il s'en dégage une impression de calme.
+- frappant / frappante | frah-PAHN / frah-PAHNT | striking | —
+- saisissant / saisissante | seh-zee-SAHN / seh-zee-SAHNT | gripping, arresting | —
+- sobre | SOH-bruh | understated, restrained | —
+- une fenêtre | ewn fuh-NEH-truh | a window | —
+- assis / assise | ah-SEE / ah-SEEZ | sitting, seated | —
+- le silence | luh see-LAHNSS | silence | —
+- vide | VEED | empty | —
+- une attente | ew-nah-TAHNT | a wait, waiting | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-describing-a-work-of-art-ex001 | multiple-choice | Choisissez la bonne réponse : ce qui est le plus près du spectateur est… | ["au premier plan","à l'arrière-plan","au centre"] | ["au premier plan"] | false | Au premier plan: in the foreground, closest to the viewer.
+- b2-describing-a-work-of-art-ex002 | fill-in | Complétez avec « évoquer » au présent : Ces couleurs vives ___ l'été. | — | ["évoquent"] | false | Évoquer: to bring to mind. Plural subject: évoquent.
+- b2-describing-a-work-of-art-ex003 | fill-in | Complétez avec « frappant » : Le regard de cette femme est très ___. | — | ["frappant"] | false | Le regard is masculine: frappant.
+- b2-describing-a-work-of-art-ex004 | fill-in | Complétez : Le peintre peint par petites ___ de couleur. | — | ["touches"] | false | Une touche: a small brushstroke of colour.
+- b2-describing-a-work-of-art-ex005 | connector-choice | Choisissez l'expression qui décrit : Au premier plan, ___ une femme qui lit. | ["on voit","cela symbolise","je trouve"] | ["on voit"] | false | On voit describes; cela symbolise interprets; je trouve judges.
+- b2-describing-a-work-of-art-ex006 | register-shift | Mettez au registre soutenu, avec « saisissant » : C'est trop beau, ce tableau ! | — | ["Ce tableau est saisissant","Ce tableau est vraiment saisissant"] | false | Trop beau is spoken; a critic says saisissant.
+- b2-describing-a-work-of-art-ex007 | reformulation | Reformulez avec « évoquer » : Ce rouge, ça me fait penser à la colère. | — | ["Ce rouge évoque la colère"] | false | Évoquer turns a personal reaction into an interpretation.
+- b2-describing-a-work-of-art-ex008 | reformulation | Reformulez avec « certes… mais » : Ce tableau est beau. Il est un peu sobre. | — | ["Certes, ce tableau est beau, mais il est un peu sobre","Ce tableau est certes beau, mais il est un peu sobre"] | false | Certes… mais concedes a point before the reservation.
+- b2-describing-a-work-of-art-ex009 | error-correction | Corrigez l'erreur : Il en dégage une impression de calme. | — | ["Il s'en dégage une impression de calme"] | false | The phrase is pronominal: il s'en dégage.
+- b2-describing-a-work-of-art-ex010 | multiple-choice | Indiquez le sens de « une curieuse lumière ». | ["an odd light","an inquisitive light","a bright light"] | ["an odd light"] | false | Before the noun, curieux means odd.
+- b2-describing-a-work-of-art-ex011 | fill-in | Complétez : Il s'en ___ une impression de liberté. | — | ["dégage"] | false | Il s'en dégage: there emerges from it.
+- b2-describing-a-work-of-art-ex012 | translate | Traduisez : In the foreground, a woman is reading. | — | ["Au premier plan, une femme lit","Au premier plan, il y a une femme qui lit","Une femme lit au premier plan"] | true | Au premier plan: in the foreground. The present lit covers is reading.
+- b2-describing-a-work-of-art-ex013 | translate | Rédigez en complétant comme indiqué : (In the centre), il y a une maison. (In the background), on voit la mer. Les couleurs sont (bright). | — | ["Au centre, il y a une maison. À l'arrière-plan, on voit la mer. Les couleurs sont vives."] | true | Au centre, à l'arrière-plan, and vives agreeing with couleurs.
+- b2-describing-a-work-of-art-ex014 | translate | Rédigez en complétant comme indiqué : Ce tableau (evokes) l'été. (What I like), c'est la lumière. (All things considered), c'est une œuvre (striking). | — | ["Ce tableau évoque l'été. Ce que j'aime, c'est la lumière. Tout compte fait, c'est une œuvre frappante.","Ce tableau évoque l'été. Ce qui me plaît, c'est la lumière. Tout compte fait, c'est une œuvre frappante."] | true | Interpretation with évoquer, mise en relief, then a judgement: frappante agrees with œuvre.
+- b2-describing-a-work-of-art-ex015 | reorder | Remettez dans l'ordre : The colours give an impression of calm. | — | ["Les couleurs donnent une impression de calme"] | false | Une impression de + noun.
+
+## b2-culture-francophone-africa
+
+### Vocab
+
+fr | pron | en | note
+
+- la francophonie | lah frahn-koh-foh-NEE | the French-speaking world | —
+- une langue officielle | ewn lahng oh-fee-SYEL | an official language | —
+- une langue nationale | ewn lahng nah-syoh-NAL | a national language | —
+- une langue seconde | ewn lahng suh-GOHND | a second language | —
+- bilingue | bee-LANG | bilingual | —
+- le plurilinguisme | luh plew-ree-lan-GWEESM | multilingualism | —
+- le wolof | luh woh-LOF | Wolof, a national language of Senegal | —
+- le contact des langues | luh kohn-takt day LAHNG | language contact | —
+- un emprunt | uh-nahn-PRUHN | a loanword | Emprunter: to borrow.
+- un mélange | uhn may-LAHNZH | a mix | —
+- un mot local | uhn moh loh-KAL | a local word | Plural: des mots locaux.
+- le nouchi | luh noo-SHEE | nouchi, the street language of Abidjan (Côte d'Ivoire) | —
+- le camfranglais | luh kahm-frahn-GLEH | camfranglais, a mix of French, English and local languages (Cameroon) | —
+- une essencerie | ew-neh-sahn-SREE | a petrol station (Senegal) | —
+- s'enjailler | sahn-zhah-YAY | to have fun (Côte d'Ivoire, informal) | —
+- s'amuser | sah-mew-ZAY | to have fun (standard French) | —
+- un taxi-brousse | uhn tahk-see-BROOSS | a bush taxi, a shared taxi between towns | —
+- la négritude | lah nay-gree-TEWD | négritude, a literary movement of black French-speaking writers | —
+- un griot / une griotte | uhn gree-YOH / ewn gree-YOT | a griot, a West African storyteller and musician | —
+- vivant / vivante | vee-VAHN / vee-VAHNT | living, alive | —
+- antillais / antillaise | ahn-tee-YEH / ahn-tee-YEZ | from the French Caribbean | —
+- une voix | ewn VWAH | a voice | —
+- s'enrichir | sahn-ree-SHEER | to become richer | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-culture-francophone-africa-ex001 | multiple-choice | Choisissez la bonne réponse : Au Sénégal, la langue officielle est… | ["le français","l'anglais","l'espagnol"] | ["le français"] | false | French is the official language of Senegal; Wolof is the most widely spoken national language.
+- b2-culture-francophone-africa-ex002 | multiple-choice | Choisissez la bonne réponse : Le Cameroun a deux langues officielles : | ["le français et l'anglais","le français et l'espagnol","l'anglais et l'italien"] | ["le français et l'anglais"] | false | Cameroon is officially bilingual, in French and English.
+- b2-culture-francophone-africa-ex003 | multiple-choice | Indiquez le sens de « s'enjailler » (Côte d'Ivoire). | ["to have fun","to get angry","to work hard"] | ["to have fun"] | false | S'enjailler comes from the English enjoy. It's informal and Ivorian.
+- b2-culture-francophone-africa-ex004 | multiple-choice | Indiquez le sens de « une essencerie » (Sénégal). | ["a petrol station","a perfume shop","a school"] | ["a petrol station"] | false | Une essencerie, from essence (petrol), is a Senegalese word for une station-service.
+- b2-culture-francophone-africa-ex005 | multiple-choice | Choisissez la bonne réponse : La négritude est… | ["un mouvement littéraire","une langue de la rue","un plat sénégalais"] | ["un mouvement littéraire"] | false | La négritude is a literary movement born in the 1930s.
+- b2-culture-francophone-africa-ex006 | fill-in | Complétez : Au Sénégal, le français est la langue ___. | — | ["officielle"] | false | Une langue officielle: the language of the State, of the law and of school.
+- b2-culture-francophone-africa-ex007 | fill-in | Complétez : Le mot « s'enjailler » est un ___ à l'anglais. | — | ["emprunt"] | false | Un emprunt: a word borrowed from another language.
+- b2-culture-francophone-africa-ex008 | fill-in | Complétez : Elle parle français et anglais depuis son enfance : elle est ___. | — | ["bilingue"] | false | Bilingue: speaking two languages.
+- b2-culture-francophone-africa-ex009 | reformulation | Reformulez en français standard : Ce soir, je vais m'enjailler ! | — | ["Ce soir, je vais m'amuser"] | false | S'enjailler is the Ivorian informal word for s'amuser.
+- b2-culture-francophone-africa-ex010 | error-correction | Corrigez l'erreur (French isn't official there) : Au Maroc, le français est la seule langue officielle. | — | ["Au Maroc, le français n'est pas une langue officielle"] | false | In Morocco, French is widely used, but it isn't an official language.
+- b2-culture-francophone-africa-ex011 | translate | Traduisez : French is a second language for many Senegalese people. | — | ["Le français est une langue seconde pour beaucoup de Sénégalais"] | false | Une langue seconde: a language learned after the first one, used every day.
+- b2-culture-francophone-africa-ex012 | translate | Traduisez : In Cameroon, many people are bilingual. | — | ["Au Cameroun, beaucoup de gens sont bilingues","Au Cameroun, beaucoup de personnes sont bilingues"] | false | Au Cameroun (masculine country); bilingue takes an s in the plural.
+- b2-culture-francophone-africa-ex013 | translate | Rédigez en complétant comme indiqué : En Côte d'Ivoire, le français est (the official language). Les jeunes d'Abidjan parlent aussi (nouchi). Ce mélange de langues montre (language contact). | — | ["En Côte d'Ivoire, le français est la langue officielle. Les jeunes d'Abidjan parlent aussi le nouchi. Ce mélange de langues montre le contact des langues."] | false | La langue officielle, le nouchi with its article, and le contact des langues.
+- b2-culture-francophone-africa-ex014 | reorder | Remettez dans l'ordre : The griot tells the history of the village. | — | ["Le griot raconte l'histoire du village"] | false | Raconter l'histoire de + a place.
+
+## b2-review-arts
+
+### Vocab
+
+fr | pron | en | note
+
+- un contexte historique | uhn kohn-tekst ees-toh-REEK | a historical context | —
+- une œuvre engagée | ew-nuh-vruh ahn-gah-ZHAY | a committed work (one that defends a political or social idea) | —
+- un héritage | uh-nay-ree-TAHZH | a legacy, a heritage | —
+- marquer son temps | mar-kay sohn TAHN | to leave a mark on its time | —
+- intemporel / intemporelle | an-tahn-poh-REL | timeless | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- b2-review-arts-ex001 | fill-in | Complétez avec tout, toute, tous ou toutes : ___ la ville est venue voir l'exposition. | — | ["toute"] | false | Ville is feminine singular: toute la ville, the whole town.
+- b2-review-arts-ex002 | fill-in | Complétez avec « même » à la bonne place : C'est le ___ peintre qui a fait ces deux tableaux. | — | ["même"] | false | Before the noun, même means same.
+- b2-review-arts-ex003 | fill-in | Complétez : Au premier ___, une femme marche dans la rue. | — | ["plan"] | false | Au premier plan: in the foreground.
+- b2-review-arts-ex004 | fill-in | Complétez : C'est une œuvre ___ : le peintre défend une idée politique. | — | ["engagée"] | false | Une œuvre engagée defends an idea; engagée agrees with œuvre.
+- b2-review-arts-ex005 | connector-choice | Choisissez le connecteur : Les couleurs sont sombres. ___, la lumière donne une impression de paix. | ["Pourtant","En effet","Par conséquent"] | ["Pourtant"] | false | Pourtant opposes the light to the dark colours.
+- b2-review-arts-ex006 | connector-choice | Choisissez le connecteur : Ce tableau a été peint en 1946. ___, le contexte historique est important. | ["Par conséquent","Pourtant","Tout à coup"] | ["Par conséquent"] | false | The date explains why the context matters: par conséquent.
+- b2-review-arts-ex007 | multiple-choice | Indiquez le sens de : Ce tableau fut peint en 1946. | ["This painting was painted in 1946.","This painting will be painted in 1946.","This painting is being painted in 1946."] | ["This painting was painted in 1946."] | false | Fut peint is the passé simple passive: il a été peint.
+- b2-review-arts-ex008 | reformulation | Reformulez au passé composé : Le tableau fut montré au public en 1947. | — | ["Le tableau a été montré au public en 1947"] | true | Fut montré becomes a été montré.
+- b2-review-arts-ex009 | reformulation | Reformulez avec « évoquer » : Ce tableau me fait penser à la Libération. | — | ["Ce tableau évoque la Libération"] | false | Évoquer turns a personal reaction into an interpretation.
+- b2-review-arts-ex010 | error-correction | Corrigez l'erreur (a boy and a girl) : Les deux enfants sont toutes les deux au premier plan. | — | ["Les deux enfants sont tous les deux au premier plan"] | false | With a boy and a girl, the masculine is used: tous les deux.
+- b2-review-arts-ex011 | register-shift | Mettez au registre soutenu, avec « intemporel » : Franchement, ce tableau, il est toujours aussi bien aujourd'hui. | — | ["Ce tableau est intemporel","Ce tableau semble intemporel"] | false | A critic says intemporel instead of the spoken toujours aussi bien.
+- b2-review-arts-ex012 | multiple-choice | Choisissez le mot : a legacy | ["un héritage","un contexte historique","une œuvre engagée"] | ["un héritage"] | false | Un héritage is what an artist or a period leaves to those who come after.
+- b2-review-arts-ex013 | translate | Traduisez au passé composé : This work left its mark on its time. | — | ["Cette œuvre a marqué son temps","Cette œuvre a marqué son époque"] | true | Marquer son temps: to leave a mark on its time.
+- b2-review-arts-ex014 | translate | Rédigez en complétant comme indiqué : (In the foreground), deux enfants jouent. (In the background), on voit (an old building). Il s'en dégage (an impression of) calme. | — | ["Au premier plan, deux enfants jouent. À l'arrière-plan, on voit un bâtiment ancien. Il s'en dégage une impression de calme."] | true | The space of the picture, ancien after the noun for old, and il s'en dégage.
+- b2-review-arts-ex015 | translate | Rédigez en complétant comme indiqué : Ce tableau a été peint (shortly after: peu après) la Seconde Guerre mondiale. (The historical context) est important. C'est (a committed work). | — | ["Ce tableau a été peint peu après la Seconde Guerre mondiale. Le contexte historique est important. C'est une œuvre engagée."] | true | The date, the context, then the kind of work.
+- b2-review-arts-ex016 | reorder | Remettez dans l'ordre : This painting is a real masterpiece. | — | ["Ce tableau est un vrai chef-d'œuvre"] | false | Before the noun, vrai means real.

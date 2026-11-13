@@ -1375,3 +1375,60 @@ Every date, tradition and regional detail, for checking:
 - **"*Le principe de précaution* says that a risk can justify action before science is certain."** Confirm the definition (neutral, no legal claim).
 - **"*Un comité d'éthique* is a group that gives its opinion on what is right in research or medicine."** Confirm.
 - **The model essay on compulsory prevention** gives general arguments only, with no figures and no medical advice. Confirm it reads as neutral.
+
+## b2-arts-and-literature
+
+- **"It means the same as the passé composé (a finished action), but it belongs to written, literary French ... people don't use [it] in speech."** Confirm.
+- **The passé simple table** (*il parla / ils parlèrent*, *il partit / ils partirent*, *il attendit*, *il voulut / ils voulurent*, *il connut*) and the irregular forms *fut*, *eut*, *fit*, *vint*, *prit*. Confirm.
+- **"*Un comédien* ... it's an actor, especially on stage. Someone who tells jokes is *un humoriste*."** Confirm.
+- **"*Un vers* ... it's one line, not a whole verse"; "*une strophe*: a verse, a stanza".** Confirm.
+- **Movement dates:** "In the early 19th century, *le romantisme*..."; "In the late 19th century, *l'impressionnisme* was above all a painting movement ... painters worked outside and tried to show light and movement"; "In the 1920s, *le surréalisme* looked for the world of dreams". Confirm.
+- **"*Ce comédien joue dans une pièce de Molière*"** (warning callout). Confirm it reads naturally.
+
+## b2-culture-french-history
+
+- **"In 1804, he became *empereur* ... The same year, the *Code civil* was published ... It has been changed many times, but it's still in use."** Confirm.
+- **"La Première Guerre mondiale lasted from 1914 to 1918 ... Much of the fighting happened in the north and east of France ... It ended with l'armistice of 11 November 1918."** Confirm.
+- **"In 1940, the German army occupied a large part of France ... Paris was freed in August 1944 ... The war ended in Europe on 8 May 1945."** Confirm.
+- **Decolonization (sensitive):** "After 1945, these territories asked for their independence, and most of them became independent in the 1950s and 1960s ... In some countries, independence came peacefully; in others, after a war, as in Algeria, independent since 1962. The subject is still discussed in France today." Check it reads as neutral.
+- **"In 1957, six countries, including France and Germany, signed le traité de Rome, which created a common market. This community later became l'Union européenne."** Confirm.
+- **"Each year, on 11 November and 8 May, people meet there for une commémoration."** Confirm.
+- **Warning:** "say la Seconde Guerre mondiale or la Deuxième Guerre mondiale, with Guerre in capitals and mondiale in lowercase." Confirm.
+
+## b2-adjective-position-meaning
+
+- **Every pair's meanings**, especially: "*Brave* before is 'decent, kind', and after 'brave', though *courageux* is more common for that"; "*Curieux* before is 'odd', and after, for a person, 'curious' or 'inquisitive'"; "*Simple* before the noun means 'just, mere' ... after it 'easy, plain'". Confirm.
+- **"*Grand* ... With people ... Un grand homme is a great man; un homme grand is a tall man. For things, grand stays before and simply means 'big'."** Confirm.
+- **"*Dernier* and *prochain* go after the noun when you count from today ... before the noun for the last or next one in a series."** Confirm.
+- **"*Certain* before a plural noun means 'some' ... *Différent* before a plural noun means 'various'."** Confirm.
+- **"*Sale* ... Before a person, it's an informal insult: *un sale type*."** Confirm the register note.
+
+## b2-tout
+
+- **"As an adverb, it doesn't change, with one exception: it agrees before a feminine adjective that starts with a consonant"** (*toute contente*, but *tout heureuse*). Confirm, including aspirate h (the plan's wording).
+- **"As a pronoun, *tous* is pronounced with an s sound at the end ... In this role [determiner], the s of tous is silent."** Confirm.
+- **"*Quiconque* means 'anyone who' or 'whoever'. It's formal, and it takes a singular verb."** Confirm.
+- **"*Quelconque* ... Said of a work or a person, it means 'ordinary, nothing special'."** Confirm.
+
+## b2-describing-a-work-of-art
+
+- **"*Sobre* is a compliment in art criticism: understated, with no unnecessary effects."** Confirm.
+- **"*Frappant* (striking) is for a detail that catches the eye; *saisissant* (gripping) is stronger."** Confirm the nuance.
+- **"*Il s'en dégage*" as the pronominal form; "*il en dégage une impression de calme* is wrong".** Confirm.
+- The painter Claire Morel and the painting « L'Attente » are invented, and labelled as invented.
+
+## b2-culture-francophone-africa
+
+- **Facts:** "Le Sénégal. French is the official language, and Wolof is the most widely spoken national language"; "La Côte d'Ivoire. French is the official language"; "Le Cameroun. The country is officially bilingue, in French and English." Confirm.
+- **The Maghreb:** "the official languages are Arabic and, in Algeria and Morocco, Tamazight (Berber). French isn't an official language there, but it remains widely used in education, business, science and the media." Confirm.
+- **"After independence, many countries kept French as one of their official languages."** Confirm (sensitive: neutral).
+- **Nouchi and camfranglais:** "Le nouchi was born in the streets of Abidjan ... mixes French with Ivorian languages and English"; "Le camfranglais, in Cameroon, mixes French, English and local languages ... above all a language of young people in the cities." Confirm.
+- **Local words:** *une essencerie* (Senegal, petrol station); *s'enjailler* (Côte d'Ivoire, from English "enjoy", informal); *un taxi-brousse* ("in much of West and Central Africa"). Confirm meanings and countries.
+- **Négritude and Senghor:** "a literary movement born in Paris in the 1930s, among black students from Africa and the Caribbean writing in French"; Senghor "later became the first president of independent Senegal, and the first African member of the Académie française." Confirm.
+- **"Aujourd'hui, la francophonie est de plus en plus africaine."** (magazine piece) Confirm it's acceptable without figures.
+- **Warning:** "French is the official language there; the national languages are the country's own languages." Confirm.
+
+## b2-review-arts
+
+- **"*Une œuvre engageante* ... means 'an appealing work'. The word for a committed work is *engagée*."** Confirm.
+- The painter Jean Varenne and the painting « Après la pluie » are invented, and labelled as invented.

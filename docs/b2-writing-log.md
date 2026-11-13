@@ -282,3 +282,19 @@
 - New rule: CLAUDE.md "Self-audit" now counts an entry as used only in a complete French sentence. audit:content has a new B2 row, "vocab entry not used in a complete sentence". It ignores quoted « » terms and bare glosses, and matches inflected and irregular forms.
 - Scan of all 45 B2 lessons: 62 entries in 26 lessons failed. Each now has one translated Example after the paragraph that introduces it (5 sentences reworded for check:words). The neutral sensitive-topic sentences (immigrés, manifestation, caricature) are in review-needed.md.
 - Checks: check:words 110 (baseline), check:structures 0, audit B2 rows only the accepted purpose-expressions ex014 (the new row is 0), validate OK, test:content and test:checker passed (29/29), build OK. A1 to B1 words, structures, audit and all-data unchanged.
+
+## Unit 7
+
+- Written: arts-and-literature (46), culture-french-history (47), adjective-position-meaning (48), tout (49), describing-a-work-of-art (50), culture-francophone-africa (51), review-arts (52).
+- Teaching words (whole lesson): 46: 1,094 (1,432); 47: 839 (1,408); 48: 1,131 (1,480); 49: 1,086 (1,465); 50: 846 (1,407); 51: 922 (1,506); 52: 876 (1,232). The longer texts of 47, 50 and 51 are within 150 to 250 French words (per the audit).
+- Vocab deviations:
+  - 46 adds *peindre*, *un humoriste* (for the *comédien* false friend), *il était une fois* and *un roi / une reine* (for the glossed tale).
+  - 47 adds *un soldat*, *la paix*, *un monument aux morts*, *prendre le pouvoir*, *occuper*, *libérer*, *se rapprocher* and *un pays voisin*.
+  - 48 adds *un vernissage*; 49 adds *un guide* and *une salle* (*partout* is a recap of lesson 44).
+  - 50 adds *la lumière* and 4 glossary words; 51 adds *s'amuser*, *un mélange* and *le wolof*. None repeats an A1 to B1 entry, so NEW_MEANINGS is unchanged.
+- Exercise deviations: 48 ex013 says "the only woman who came" (*personne* trips the audit's dropped-*ne* check). 51 ex009 uses *je vais m'enjailler* (no spoken *on* in a typed answer). Answers were added for *tous sont venus*, *de la peintre* and *a marqué son époque*.
+- Register: spoken *on* appears only in a labelled example (51); typed answers have no spoken features; the passé simple is never in a typed answer.
+- Lists and scripts: COGNATES gained arts, history and language terms (*impressionniste*, *existe*, *indépendant(e)(s)*, *européen(ne)(s)*, *communauté*, *rôle*, *pluriel*, *singulier*, *consonne*, *auxiliaire*, *solitude*, *galerie*, *simplicité*, *visiteur(s)*, *ivoirien(ne)(s)*, *africain(e)(s)*, *littéraire*, *standard*, *oral(e)*, *poète*, *génération*, *visible*, *impossible*). check-words IGNORE gained passé simple forms (*fit*, *vint*, *fut*, *eut*, *prit*, *devint*, ...), *deviennent*, *reviendra* and the names *dioula*, *léopold*, *sédar*, *senghor*, *abidjan*, *tamazight*, *varenne*, *enjoy*. *Wolof* became a vocab entry instead, because IGNORE changed an A2 result. B2_ENGLISH gained 4 words.
+- Checks: check:words 110 (baseline), check:structures 0, audit B2 rows only the accepted purpose-expressions ex014 (Unit 7 has 0 in every row, including the complete-sentence row), validate OK (after adding lesson 49's missing museum vocab table), test:content and test:checker passed (29/29), build OK. A1 to B1 words, structures, audit and all-data are unchanged, and Units 1 to 6 still show only the accepted row.
+- review-needed.md: 7 new sections (passé simple claims, movement dates, history dates and the neutral decolonization paragraph, every adjective pair, *tout* agreement and *quiconque*, *sobre*, the Africa facts and local words, Senghor, *engagée* vs *engageante*). Invented works and painters are labelled.
+- Not done: nothing.
