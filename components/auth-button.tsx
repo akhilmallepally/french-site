@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import type { User } from '@supabase/supabase-js'
 import { createClient } from '@/lib/supabase/client'
+import { getSupabaseEnv } from '@/lib/supabase/env'
 import { safeNext } from '@/lib/safe-next'
 
 const linkStyle = 'text-sm font-medium text-muted transition-colors hover:text-accent'
@@ -12,7 +13,9 @@ const linkStyle = 'text-sm font-medium text-muted transition-colors hover:text-a
 async function startGoogleSignIn(next: string) {
   const origin = window.location.origin
   const target = safeNext(next, origin)
-  await createClient().auth.signInWithOAuth({
+  const supabase = createClient()
+  if (!supabase) throw new Error('Sign-in is not available right now')
+  await supabase.auth.signInWithOAuth({
     provider: 'google',
     options: { redirectTo: `${origin}/auth/callback?next=${encodeURIComponent(target)}` },
   })
@@ -21,12 +24,18 @@ async function startGoogleSignIn(next: string) {
 /** Header control. The UI state only; access to lessons is decided on the server (lib/auth.ts). */
 export default function AuthButton() {
   const router = useRouter()
-  // undefined while loading, so the header doesn't flash the wrong state.
-  const [user, setUser] = useState<User | null | undefined>(undefined)
+  // undefined while loading, so the header doesn't flash the wrong state. With no Supabase config
+  // (build-time public variables) the header starts, and stays, signed out.
+  const [user, setUser] = useState<User | null | undefined>(() => (getSupabaseEnv() ? undefined : null))
 
   useEffect(() => {
     const supabase = createClient()
-    supabase.auth.getUser().then(({ data }) => setUser(data.user))
+    // Not configured: the initial state is already signed out.
+    if (!supabase) return
+    supabase.auth
+      .getUser()
+      .then(({ data }) => setUser(data.user))
+      .catch(() => setUser(null))
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((_event, session) => setUser(session?.user ?? null))
@@ -34,7 +43,11 @@ export default function AuthButton() {
   }, [])
 
   async function signOut() {
-    await createClient().auth.signOut()
+    try {
+      await createClient()?.auth.signOut()
+    } catch {
+      // The auth server is unreachable: still clear the local state below.
+    }
     setUser(null)
     // Re-render the server components of this page: a gated lesson now shows the sign-in panel.
     router.refresh()
@@ -57,7 +70,7 @@ export default function AuthButton() {
 
   return (
     <button
-      onClick={() => startGoogleSignIn(window.location.pathname + window.location.search)}
+      onClick={() => startGoogleSignIn(window.location.pathname + window.location.search).catch(() => {})}
       className={linkStyle}
     >
       Sign in<span className="hidden sm:inline"> with Google</span>

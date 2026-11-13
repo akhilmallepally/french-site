@@ -9,11 +9,17 @@ export async function GET(request: Request) {
   const next = safeNext(searchParams.get('next'), origin)
 
   if (code) {
-    const supabase = await createClient()
-    const { error } = await supabase.auth.exchangeCodeForSession(code)
+    try {
+      const supabase = await createClient()
+      const { error } = supabase
+        ? await supabase.auth.exchangeCodeForSession(code)
+        : { error: new Error('Supabase is not configured') }
 
-    if (!error) {
-      return NextResponse.redirect(new URL(next, origin))
+      if (!error) {
+        return NextResponse.redirect(new URL(next, origin))
+      }
+    } catch {
+      // Network or client error: fall through to the sign-in error page.
     }
   }
 
