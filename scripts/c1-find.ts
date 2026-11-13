@@ -1,3 +1,5 @@
+// Dev script over untyped frontmatter data.
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // Find where a phrase is taught in A1 to B2: prints each lesson id whose vocab or text contains it.
 // Usage: node --experimental-strip-types scripts/c1-find.ts "de crainte que" "après que"
 // A hit in the text isn't proof that the lesson teaches the phrase: read the line it shows.

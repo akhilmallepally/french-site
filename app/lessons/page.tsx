@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { LevelCompletion } from "@/components/progress-status";
-import { getLevelSummaries } from "@/lib/lessons";
+import { getLevelSummaries, isFreeLevel } from "@/lib/lessons";
 
 export const metadata: Metadata = { title: "Lessons" };
 
@@ -51,6 +51,9 @@ export default function LessonsPage() {
                 {l.name}
               </h2>
               <p className="mt-1 text-sm leading-relaxed text-muted">{l.summary}</p>
+              {!isFreeLevel(l.level) && !l.comingLater && (
+                <p className="mt-2 text-xs font-medium text-accent">Free with a Google sign-in</p>
+              )}
               {l.lessonCount > 0 && <LevelCompletion lessonIds={l.lessonIds} />}
             </Link>
           </li>

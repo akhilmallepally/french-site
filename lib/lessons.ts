@@ -44,9 +44,25 @@ export function levelIndex(level: Level): number {
   return LEVELS.indexOf(level);
 }
 
+/**
+ * Free levels are readable without signing in. Everything else, including any level added
+ * later, needs a Google sign-in (default deny). Accepts "A1" or the URL slug "a1".
+ */
+const FREE_LEVELS: readonly string[] = ["a1", "a2"];
+export function isFreeLevel(level: Level | string): boolean {
+  return FREE_LEVELS.includes(String(level).toLowerCase());
+}
+
 // ---------- Data shapes ----------
 
-export type LessonMeta = {
+/**
+ * Leak guard: a LessonMeta can never carry the lesson body, vocab or exercises. The page shell,
+ * metadata, static params and level pages only ever receive LessonMeta, so passing body data
+ * into them is a type error (see lib/lessons.typetest.ts).
+ */
+type NoBody = { content?: never; body?: never; vocab?: never; exercises?: never };
+
+export type LessonMeta = NoBody & {
   id: string; // stable forever; never derive it from the filename
   slug: string; // from the filename; may change (add a redirect if it does)
   href: string;
@@ -61,7 +77,23 @@ export type LessonMeta = {
   related: string[]; // lesson ids
 };
 
+/** A parsed lesson file, used by the validator and the scripts. Pages never receive it. */
 export type Lesson = { meta: LessonMeta; content: string; vocab: VocabItem[]; exercises: Exercise[] };
+
+/**
+ * Proof that the server allowed this lesson to be read. Only lib/auth.ts creates it
+ * (grantFreeAccess for A1 and A2, grantLessonAccess after a server-side getUser()).
+ */
+export type LessonAccess = { readonly grant: "lesson-access"; readonly lessonId: string };
+
+/** The lesson body, vocab and exercises. Only loadLessonFull returns it, and only with a LessonAccess. */
+export type LessonFull = {
+  readonly kind: "lesson-full";
+  readonly id: string;
+  readonly body: string;
+  readonly vocab: VocabItem[];
+  readonly exercises: Exercise[];
+};
 
 export type Unit = { name: string; lessons: LessonMeta[] };
 
@@ -338,7 +370,9 @@ export function computeConnections(
 
 // ---------- Site API (what pages use) ----------
 
-type ContentIndex = { lessons: LessonMeta[]; lessonById: Map<string, Lesson>; planned: PlannedLesson[] };
+// The index keeps metadata only. Bodies, vocab and exercises are read from disk again by
+// loadLessonFull, so nothing but metadata is held for the shell.
+type ContentIndex = { lessons: LessonMeta[]; fileById: Map<string, { folder: string; slug: string }>; planned: PlannedLesson[] };
 
 let cached: ContentIndex | null = null;
 
@@ -355,7 +389,7 @@ function load(): ContentIndex {
   const lessons = parsed.map((p) => p.lesson!).sort((a, b) => compareLessons(a.meta, b.meta));
   const index: ContentIndex = {
     lessons: lessons.map((l) => l.meta),
-    lessonById: new Map(lessons.map((l) => [l.meta.id, l])),
+    fileById: new Map(lessons.map((l) => [l.meta.id, { folder: levelToSlug(l.meta.level), slug: l.meta.slug }])),
     planned: readSyllabus(),
   };
   // Cache in production builds only, so edits show up immediately in dev.
@@ -377,12 +411,25 @@ export function getPlannedLesson(id: string): PlannedLesson | null {
   return load().planned.find((p) => p.id === id) ?? null;
 }
 
-export function getLesson(levelSlug: string, slug: string): Lesson | null {
+/** Metadata only: safe for the page shell, generateMetadata and links. */
+export function getLessonMeta(levelSlug: string, slug: string): LessonMeta | null {
   const level = levelFromSlug(levelSlug);
   if (!level || !SLUG_PATTERN.test(slug)) return null;
-  const { lessons, lessonById } = load();
-  const meta = lessons.find((l) => l.level === level && l.slug === slug);
-  return meta ? lessonById.get(meta.id)! : null;
+  return load().lessons.find((l) => l.level === level && l.slug === slug) ?? null;
+}
+
+/**
+ * Reads the body, vocab and exercises of one lesson from disk. Requires a LessonAccess, which
+ * only lib/auth.ts hands out, so a gated lesson can't be loaded without the server-side check.
+ */
+export function loadLessonFull(access: LessonAccess): LessonFull {
+  const file = load().fileById.get(access.lessonId);
+  if (!file) throw new Error(`Unknown lesson id: ${access.lessonId}`);
+  const folderPath = path.join(process.cwd(), "content", "lessons", file.folder);
+  const { data, content } = matter(fs.readFileSync(path.join(folderPath, `${file.slug}.mdx`), "utf8"));
+  const { lesson, errors } = parseLesson({ file: `${file.folder}/${file.slug}.mdx`, folder: file.folder, slug: file.slug, data, content });
+  if (!lesson) throw new Error(`Invalid lesson ${file.folder}/${file.slug}.mdx: ${errors.join("; ")}`);
+  return { kind: "lesson-full", id: lesson.meta.id, body: lesson.content, vocab: lesson.vocab, exercises: lesson.exercises };
 }
 
 export function getLevelSummaries() {

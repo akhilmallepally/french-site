@@ -1,3 +1,5 @@
+// Dev script over untyped frontmatter data.
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // Self-test for the B2 and C1 exercise types: every accepted answer must pass lib/check-answer.ts,
 // and the text the learner starts from (the wrong or original sentence) must not.
 // Run with: npm run test:b2-exercises

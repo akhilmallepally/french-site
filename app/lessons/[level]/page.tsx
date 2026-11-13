@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { TypeBadge } from "@/components/lesson-ui";
 import { LessonStatus } from "@/components/progress-status";
-import { LEVELS, getLevel, levelToSlug } from "@/lib/lessons";
+import { LEVELS, getLevel, isFreeLevel, levelToSlug } from "@/lib/lessons";
 
 export function generateStaticParams() {
   return LEVELS.map((level) => ({ level: levelToSlug(level) }));
@@ -36,6 +36,9 @@ export default async function LevelPage({ params }: PageProps<"/lessons/[level]"
           <span className="text-accent">{level.level}</span> {level.name}
         </h1>
         <p className="mt-3 text-lg text-muted">{level.summary}</p>
+        {!isFreeLevel(level.level) && (
+          <p className="mt-3 text-sm font-medium text-accent">Free with a Google sign-in</p>
+        )}
       </header>
 
       {lessonCount === 0 ? (

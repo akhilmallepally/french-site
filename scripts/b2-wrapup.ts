@@ -1,3 +1,5 @@
+// Dev script over untyped frontmatter data.
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // B2 wrap-up audit: cross-level checks on all B2 lessons, written to docs/b2-wrapup.md.
 // Run with: node --experimental-strip-types scripts/b2-wrapup.ts
 // It never fails; read the report.
