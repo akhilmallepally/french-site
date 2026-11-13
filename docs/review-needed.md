@@ -1201,6 +1201,7 @@ Every date, tradition and regional detail, for checking:
 - **"*Insister pour que* ... takes *que* + subjunctive."** Confirm.
 - **"*Une audition* is a false friend in the news: it's usually a formal hearing by the police, a judge or a parliamentary committee."** Confirm.
 - **"*Dire de* is neutral, and *demander de* is more polite."** Confirm.
+- **"Supplier is the exception: it takes a direct object (il m'a supplié de rester)."** Confirm.
 
 ## b2-reporting-verbs
 
@@ -1223,6 +1224,8 @@ Every date, tradition and regional detail, for checking:
 - **"'I was told' is never *j'ai été dit*. It's *on m'a dit*."** Confirm the rule for verbs with *à* + a person.
 - **À + infinitive (hand check):** earlier lessons use it only as glossed fixed phrases (b1-reviewing-a-film-or-book: *à voir absolument*, *à éviter*; b1-housing-and-renting: *un appartement à louer*) and once in a2-review-travel (*beaucoup de choses à voir*). Confirm these read as fixed phrases at those levels.
 - **Customs in the dialogue:** "*le pain se pose sur la table, à côté de l'assiette*", "*le fromage se mange avant le dessert*". Confirm.
+- **"il est prévu que + subjunctive (the indicative is also heard)"** (*Il est prévu que le chantier soit terminé en mai*). Confirm.
+- **"usage is divided: both elle s'est vu refuser and elle s'est vue refuser are accepted, and vu is the stricter recommendation."** Confirm.
 
 ## b2-nominalisation
 
@@ -1245,6 +1248,8 @@ Every date, tradition and regional detail, for checking:
 - **"The AFP ... Its journalists, in France and abroad, send news to newspapers, radio and television."** Confirm.
 - **Sensitive topic:** the satirical press is presented only as a genre ("mocks the powerful with humour"), with no mention of attacks. Confirm this is neutral.
 - **"Ce dessin de presse est une caricature d'un ministre."** Sensitive topic: check that it reads as neutral (the lesson doesn't mention the attacks).
+- **"some journaux gratuits (free papers) have been handed out in the morning, especially near stations."** Confirm the wording is safe today.
+- **Ouest-France as one of the most widely read papers, and Libération known for bold front pages** (lesson text). Confirm both.
 
 ## b2-review-news
 

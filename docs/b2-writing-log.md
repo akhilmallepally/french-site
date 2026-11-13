@@ -375,3 +375,19 @@
 - Claims verified, all true: the rumour conditionnel and *apparemment*; *rater*, *prévoir*, *tant pis*, *imprévu*; *sûrement*; *c'est dommage que*, *ravi*, the infinitive with one subject; *fier*, *déçu*; *ce n'est pas grave*; *carrefour*; *carrière*; *depuis*; *quand*/*lorsque*/*dès que*; *après que*, *à moins que*; *même si*; double pronouns. Reported speech (b2-reported-speech-past) and *si* = whether (b2-reported-questions-orders) exist later in B2. The passive is taught in b1-passive-voice-intro, so *a été annulé* needs no Note.
 - review-needed.md: *je m'excuse*, *ça* in a formal email, *c'est (de) ma faute*, the futur antérieur rule and *faillir*.
 - Checks: check:words 110 (baseline), check:structures 0, audit B2 rows only the two deliberate 6-answer rows, validate OK, test:content and test:checker passed (29/29), build OK, b2-wrapup 0 limit rows. A1 to B1 unchanged. docs/review/b2-unit-1 to 8 regenerated.
+
+## Units (News and reporting, Precision with pronouns, Work and the economy) fixes
+
+- Already fixed by Prompts 21 and 22: none of these items. The vocab ids in reporting-verbs, summarizing-an-article and formal-report were sorted by number in Prompt 21 but not by display order; that's done here.
+- News and reporting:
+  - reported-speech-past: *le discours indirect* used in an Example.
+  - reported-questions-orders: same-form subjunctives replaced (*que je parte*, *qu'ils soient clairs*); the *supplier* exception (direct object) added; ex014 pinned (*aller*, *savoir*). reporting-verbs: *nier que* "usually" + subjunctive in the note, text and ex011; Examples for *suivant* and *la veille*; ex014 pinned and accepts *dénoncent*; ids follow display order. passive-voice: résumé agreement fixed; ex014 pins *inaugurer*; LessonLink to b2-conditionnel-passe for the rumour conditionnel; an *annuler* Example.
+  - alternatives-to-passive: *il est prévu que* + subjunctive (note, text, Example *soit terminé*); *vu*/*vue* both accepted; ex013 explanation; spoken *on* labelled. nominalisation: *-ée* exceptions (*un musée*, *un lycée*, *un trophée*); *le départ* corrected; ex012 and ex013 pinned; ids in display order; terms used in 2 Examples.
+  - summarizing ex013 pinned; press ex010 accepts 3 answers, and the free-paper claims are reworded; review-news ex013 accepts *ouvrira*.
+- Pronouns: review-pronouns' no-agreement line now points to the A2 lesson that teaches it (*se téléphoner*).
+- Work and the economy:
+  - economy: *l'inflation* entry and Example; "almost always" removed; "the last unit" corrected to the News unit, with LessonLinks; ex014 tense in the instruction; ids in display order. *Un bienfait* stays in "results", the section that teaches it. Participles ex006 rewritten (*Ses arguments sont très ___*) and the *très* test called a rule of thumb, with the real test; negotiating ex006 accepts *cela*; presenting-data ex013 and ex014 pinned; formal-report ids in display order.
+- "Verify" items that turned out false:
+  - "the last unit" in economy (now fixed); ex006 in subjunctive-relative-clauses: *maîtriser* is taught in b1-cover-letter, so no change; item 25: *fortement* isn't taught, so it wasn't added to nominalisation ex011.
+- Verify items that held (no change): all the claims in items 1, 4, 8, 13, 17, 22, 28, 31, 33, 38 to 40, 43, 45, 47, 49, 51 and 54; *avoir lieu* (b2-nuancing-opinions); *en ligne* (b1-technology-and-internet); the infinitif passé rule; meetings already go from futur antérieur to conditionnel passé; presenting-data ex005 is consistent; the summarizing article and every En résumé are within range (audit).
+- Checks: check:words 110 (baseline), check:structures 0, audit B2 rows only the two deliberate 6-answer rows, validate OK, test:content and test:checker passed (29/29), build OK, b2-wrapup 0 limit rows. A1 to B1 unchanged; review bundles regenerated.

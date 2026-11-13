@@ -368,6 +368,9 @@ In *il a dit qu'il était malade*, the imparfait can also mean "he had been ill"
 
 ## When the tenses don't shift
 
+<Example fr="Au discours indirect, le temps du verbe change souvent." en="In reported speech, the tense of the verb often changes." />
+
+
 There are two cases where you keep the original tense.
 
 - **When the reporting verb is in the present or the futur.** Nothing shifts: *il dit qu'il viendra*, *elle dira qu'elle a fini*. This is the B1 pattern.
@@ -541,7 +544,7 @@ exercises:
     strictAccents: true
   - id: "b2-reported-questions-orders-ex014"
     type: "translate"
-    prompt: "Rédigez en complétant comme indiqué : Le journaliste a demandé à la ministre (whether) la réforme (would be) prête en juin. Elle a répondu qu'elle ne (knew) pas. Il lui a demandé (what) elle (was going to do). Elle lui a dit (not to insist)."
+    prompt: "Rédigez en complétant comme indiqué : Le journaliste a demandé à la ministre (whether) la réforme (would be) prête en juin. Elle a répondu qu'elle ne (knew: savoir) pas. Il lui a demandé (what) elle (was going to do: aller). Elle lui a dit (not to insist)."
     answers: ["Le journaliste a demandé à la ministre si la réforme serait prête en juin. Elle a répondu qu'elle ne savait pas. Il lui a demandé ce qu'elle allait faire. Elle lui a dit de ne pas insister.", "Le journaliste a demandé à la ministre si la réforme allait être prête en juin. Elle a répondu qu'elle ne savait pas. Il lui a demandé ce qu'elle allait faire. Elle lui a dit de ne pas insister."]
     explanation: "Si + conditionnel, the imparfait, ce que + allait, and de ne pas + infinitive."
     strictAccents: true
@@ -582,7 +585,7 @@ As in the last lesson, a fact that's still true can keep its tense: *elle m'a de
 
 <VocabTable group="orders" />
 
-An order or a request, in the imperative, is reported with a verb + *de* + infinitive. The person who receives the order is introduced by *à*, or by an indirect pronoun such as *me*, *lui* or *leur*.
+An order or a request, in the imperative, is reported with a verb + *de* + infinitive. The person who receives the order is introduced by *à*, or by an indirect pronoun such as *me*, *lui* or *leur*. *Supplier* is the exception: it takes a direct object (*il m'a supplié de rester*, he begged me to stay; *je l'ai supplié de partir*, I begged him to leave).
 
 <Example fr="« Viens ! » → Il m'a dit de venir." en="'Come!' → He told me to come." />
 <Example fr="« Pouvez-vous fermer la porte ? » → Elle m'a demandé de fermer la porte." en="'Could you close the door?' → She asked me to close the door." />
@@ -598,7 +601,7 @@ A negative order puts **ne pas** before the infinitive: *« Ne pars pas ! » →
 <Example fr="Elle m'a supplié de rester." en="She begged me to stay." />
 <Example fr="Le client a exigé d'être remboursé." en="The customer demanded to be reimbursed." />
 
-**Insister pour que** is different: it takes *que* + subjunctive, because it expresses a will: *elle a insisté pour que je reste* (she insisted that I stay).
+**Insister pour que** is different: it takes *que* + subjunctive, because it expresses a will: *elle a insisté pour que je parte* (she insisted that I leave).
 
 ## At a press conference or an inquiry
 
@@ -634,7 +637,7 @@ Léo, an intern at a local newspaper, reports an interview to his editor, Madame
 - *Non, mais elle m'a demandé de lui envoyer l'article avant.* (No, but she asked me to send her the article first.)
 - *Ça, ce n'est pas possible. Nous ne montrons pas nos articles avant de les publier.* (That's not possible. We don't show our articles before publishing them.)
 - *D'accord. Et les parents d'élèves ? Ils m'ont dit qu'ils voulaient savoir ce qui allait changer.* (OK. And the parents? They told me they wanted to know what was going to change.)
-- *Alors appelez-les, et insistez pour qu'ils vous répondent.* (Then call them, and insist that they answer you.)
+- *Alors appelez-les, et insistez pour qu'ils soient clairs.* (Then call them, and insist that they be clear.)
 - *Entendu. Je vous envoie l'article demain matin.* (Understood. I'll send you the article tomorrow morning.)
 
 <Callout type="warning" title="No est-ce que in a reported question">
@@ -681,17 +684,17 @@ vocab:
   - { id: "b2-reporting-verbs-v012", group: "strong", fr: "mettre en garde contre", pron: "meh-trahn gard KOHN-truh", en: "to warn against" }
   - { id: "b2-reporting-verbs-v013", group: "doubt", fr: "prétendre", pron: "pray-TAHN-druh", en: "to claim (and the reporter doubts it)", note: "False friend: not 'to pretend'. Like vendre: il prétend." }
   - { id: "b2-reporting-verbs-v014", group: "doubt", fr: "s'interroger sur", pron: "san-teh-roh-zhay SEWR", en: "to wonder about, to question" }
-  - { id: "b2-reporting-verbs-v015", group: "doubt", fr: "nier", pron: "nee-YAY", en: "to deny", note: "Nier que + subjunctive." }
+  - { id: "b2-reporting-verbs-v015", group: "doubt", fr: "nier", pron: "nee-YAY", en: "to deny", note: "Nier que + subjunctive, usually." }
   - { id: "b2-reporting-verbs-v016", group: "doubt", fr: "démentir", pron: "day-mahn-TEER", en: "to deny officially", note: "Like partir: il dément, il a démenti." }
-  - { id: "b2-reporting-verbs-v017", group: "admit", fr: "admettre", pron: "ad-MEH-truh", en: "to admit", note: "Like mettre: il a admis." }
-  - { id: "b2-reporting-verbs-v018", group: "admit", fr: "avouer", pron: "ah-voo-AY", en: "to confess, to own up" }
-  - { id: "b2-reporting-verbs-v019", group: "time", fr: "la veille", pron: "lah VEH-y", en: "the day before", note: "La veille au soir: the evening before." }
-  - { id: "b2-reporting-verbs-v020", group: "time", fr: "le lendemain", pron: "luh lahn-duh-MAN", en: "the next day, the day after" }
-  - { id: "b2-reporting-verbs-v021", group: "time", fr: "à ce moment-là", pron: "ah suh moh-mahn LAH", en: "at that moment, at that time" }
-  - { id: "b2-reporting-verbs-v022", group: "time", fr: "précédent / précédente", pron: "pray-say-DAHN / pray-say-DAHNT", en: "previous, before", note: "La semaine précédente: the week before." }
-  - { id: "b2-reporting-verbs-v023", group: "time", fr: "suivant / suivante", pron: "swee-VAHN / swee-VAHNT", en: "following, next", note: "L'année suivante: the following year." }
-  - { id: "b2-reporting-verbs-v024", group: "doubt", fr: "faire semblant de", pron: "fehr sahn-blahn DUH", en: "to pretend to", note: "+ infinitive." }
-  - { id: "b2-reporting-verbs-v025", group: "admit", fr: "prendre du retard", pron: "prahn-druh dew ruh-TAR", en: "to fall behind, to be delayed" }
+  - { id: "b2-reporting-verbs-v017", group: "doubt", fr: "faire semblant de", pron: "fehr sahn-blahn DUH", en: "to pretend to", note: "+ infinitive." }
+  - { id: "b2-reporting-verbs-v018", group: "admit", fr: "admettre", pron: "ad-MEH-truh", en: "to admit", note: "Like mettre: il a admis." }
+  - { id: "b2-reporting-verbs-v019", group: "admit", fr: "avouer", pron: "ah-voo-AY", en: "to confess, to own up" }
+  - { id: "b2-reporting-verbs-v020", group: "admit", fr: "prendre du retard", pron: "prahn-druh dew ruh-TAR", en: "to fall behind, to be delayed" }
+  - { id: "b2-reporting-verbs-v021", group: "time", fr: "la veille", pron: "lah VEH-y", en: "the day before", note: "La veille au soir: the evening before." }
+  - { id: "b2-reporting-verbs-v022", group: "time", fr: "le lendemain", pron: "luh lahn-duh-MAN", en: "the next day, the day after" }
+  - { id: "b2-reporting-verbs-v023", group: "time", fr: "à ce moment-là", pron: "ah suh moh-mahn LAH", en: "at that moment, at that time" }
+  - { id: "b2-reporting-verbs-v024", group: "time", fr: "précédent / précédente", pron: "pray-say-DAHN / pray-say-DAHNT", en: "previous, before", note: "La semaine précédente: the week before." }
+  - { id: "b2-reporting-verbs-v025", group: "time", fr: "suivant / suivante", pron: "swee-VAHN / swee-VAHNT", en: "following, next", note: "L'année suivante: the following year." }
 exercises:
   - id: "b2-reporting-verbs-ex001"
     type: "fill-in"
@@ -752,7 +755,7 @@ exercises:
     type: "error-correction"
     prompt: "Corrigez l'erreur : Le ministre nie que le projet est trop cher."
     answers: ["Le ministre nie que le projet soit trop cher"]
-    explanation: "Nier que, like douter que, takes the subjunctive."
+    explanation: "Nier que, like douter que, usually takes the subjunctive."
   - id: "b2-reporting-verbs-ex012"
     type: "translate"
     prompt: "Traduisez : The minister denied the information."
@@ -767,8 +770,8 @@ exercises:
     strictAccents: true
   - id: "b2-reporting-verbs-ex014"
     type: "translate"
-    prompt: "Rédigez en complétant comme indiqué : Le maire (stated) que la ville était plus sûre. L'opposition (claims) que c'est faux. Les journaux (criticize) sa décision."
-    answers: ["Le maire a affirmé que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux critiquent sa décision.", "Le maire a déclaré que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux critiquent sa décision."]
+    prompt: "Rédigez en complétant comme indiqué : Le maire (stated) que la ville était plus sûre. L'opposition (claims: prétendre) que c'est faux. Les journaux (criticize: critiquer) sa décision."
+    answers: ["Le maire a affirmé que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux critiquent sa décision.", "Le maire a déclaré que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux critiquent sa décision.", "Le maire a affirmé que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux dénoncent sa décision.", "Le maire a déclaré que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux dénoncent sa décision."]
     explanation: "Three attitudes: a firm statement, a doubtful claim and a criticism."
     strictAccents: true
   - id: "b2-reporting-verbs-ex015"
@@ -854,6 +857,9 @@ When you report something said on another day, time words that pointed to that d
 | *maintenant* | *à ce moment-là* |
 | *la semaine dernière* | *la semaine précédente* |
 | *la semaine prochaine* | *la semaine suivante* |
+
+<Example fr="Il a dit qu'il viendrait la semaine suivante." en="He said he would come the following week." />
+<Example fr="Elle m'a appelé la veille de son voyage." en="She called me the day before her trip." />
 
 <Example fr="« Je pars demain. » → Il a dit qu'il partait le lendemain." en="'I'm leaving tomorrow.' → He said he was leaving the next day." />
 
@@ -996,7 +1002,7 @@ exercises:
     explanation: "A state in the past: the imparfait, and usually de."
   - id: "b2-passive-voice-ex014"
     type: "translate"
-    prompt: "Rédigez cette information en complétant comme indiqué : Le musée (was closed: passé composé) en mars. Il (will be renovated) par la ville. Il (will have been opened officially) avant l'été."
+    prompt: "Rédigez cette information en complétant comme indiqué : Le musée (was closed: passé composé) en mars. Il (will be renovated) par la ville. Il (will have been opened officially: inaugurer) avant l'été."
     answers: ["Le musée a été fermé en mars. Il sera rénové par la ville. Il aura été inauguré avant l'été.","Le musée a été fermé en mars. Il va être rénové par la ville. Il aura été inauguré avant l'été."]
     explanation: "Three tenses of the passive: passé composé, futur and futur antérieur."
     strictAccents: true
@@ -1033,6 +1039,8 @@ The passive is always *être* + past participle. To change the tense, you change
 
 <Example fr="La route sera fermée pendant deux jours." en="The road will be closed for two days." />
 <Example fr="Selon la mairie, le château aurait été vendu." en="According to the town hall, the castle has reportedly been sold." />
+
+The conditionnel here marks news that isn't confirmed, as in <LessonLink id="b2-conditionnel-passe" text="the lesson on the conditionnel passé" />.
 
 *Été*, the participle of *être*, never changes. Only the second participle agrees: *la route avait été fermée*, *les murs auront été restaurés*. You know the futur antérieur from <LessonLink id="b2-futur-anterieur" text="the lesson on the futur antérieur" /> and the subjonctif passé from <LessonLink id="b2-subjonctif-passe" text="the lesson on the past subjunctive" />; in the passive, they simply take *été* + participle.
 
@@ -1076,6 +1084,8 @@ The passive is common when you talk about old buildings, because what matters is
 
 **Achever** is a false friend: it means to complete or to finish, not "to achieve". *Le chantier a été achevé en juin* means that the work was finished in June. You know *reporter* (to postpone) from <LessonLink id="b1-si-present-futur" text="the lesson on si with the present" /> and *annuler* from <LessonLink id="a2-booking-a-hotel" text="the lesson on booking a hotel" />.
 
+<Example fr="Le concert a été annulé à cause de la pluie." en="The concert was cancelled because of the rain." />
+
 <Example fr="Le musée sera inauguré en juin, après une longue rénovation." en="The museum will be opened officially in June, after a long renovation." />
 
 ## The whole list
@@ -1110,7 +1120,7 @@ A guide shows a group of tourists a château under renovation.
 
 ## En résumé
 
-Au passif, c'est être qui change de temps : le musée sera rénové, la route avait été fermée, le pont aura été rebâti. Le participe ne change pas, sauf pour s'accorder comme avec être au passé composé, et été ne change jamais. Après devoir ou pouvoir, on met être à l'infinitif : ce monument doit être restauré. Après il faut que, on met être au subjonctif : il faut que le chantier soit achevé. Pour une action, on dit par. Pour une situation, ou avec aimer et respecter, on dit souvent de : il est respecté de tous.
+Au passif, c'est être qui change de temps : le musée sera rénové, la route avait été fermée, le pont aura été rebâti. Le dernier participe s'accorde, comme dans la route a été fermée, et été ne change jamais. Après devoir ou pouvoir, on met être à l'infinitif : ce monument doit être restauré. Après il faut que, on met être au subjonctif : il faut que le chantier soit achevé. Pour une action, on dit par. Pour une situation, ou avec aimer et respecter, on dit souvent de : il est respecté de tous.
 
 ## What's next
 
@@ -1141,7 +1151,7 @@ vocab:
   - { id: "b2-alternatives-to-passive-v009", group: "language", fr: "se conjuguer", pron: "suh kohn-zhew-GAY", en: "to be conjugated" }
   - { id: "b2-alternatives-to-passive-v010", group: "voir", fr: "se voir refuser", pron: "suh vwahr ruh-few-ZAY", en: "to be refused" }
   - { id: "b2-alternatives-to-passive-v011", group: "voir", fr: "se voir offrir", pron: "suh vwahr oh-FREER", en: "to be offered" }
-  - { id: "b2-alternatives-to-passive-v012", group: "impersonal", fr: "il est prévu que", pron: "ee-leh pray-vew KUH", en: "it's planned that", note: "+ indicative." }
+  - { id: "b2-alternatives-to-passive-v012", group: "impersonal", fr: "il est prévu que", pron: "ee-leh pray-vew KUH", en: "it's planned that", note: "+ subjunctive (the indicative is also heard)." }
   - { id: "b2-alternatives-to-passive-v013", group: "impersonal", fr: "il est interdit de", pron: "ee-leh tan-tehr-dee DUH", en: "it's forbidden to" }
   - { id: "b2-alternatives-to-passive-v014", group: "impersonal", fr: "il est conseillé de", pron: "ee-leh kohn-seh-yay DUH", en: "it's advisable to" }
   - { id: "b2-alternatives-to-passive-v015", group: "impersonal", fr: "une coutume", pron: "ewn koo-TEWM", en: "a custom" }
@@ -1169,7 +1179,7 @@ exercises:
     type: "fill-in"
     prompt: "Conjuguez « se voir » au passé composé : Elle ___ refuser l'entrée."
     answers: ["s'est vu", "s'est vue"]
-    explanation: "Se voir + infinitive says what happened to her. Careful writers leave vu unchanged here, but vue is common."
+    explanation: "Se voir + infinitive says what happened to her. Both vu and vue are accepted; vu is the stricter recommendation."
   - id: "b2-alternatives-to-passive-ex005"
     type: "multiple-choice"
     prompt: "Choisissez la bonne phrase."
@@ -1218,7 +1228,7 @@ exercises:
     type: "translate"
     prompt: "Traduisez : She was refused entry."
     answers: ["Elle s'est vu refuser l'entrée", "Elle s'est vue refuser l'entrée", "On lui a refusé l'entrée"]
-    explanation: "Refuser à quelqu'un can't be made passive in French, so use se voir refuser or on."
+    explanation: "With refuser à quelqu'un, the person can't become the subject of a passive, so use se voir refuser or on."
     strictAccents: true
   - id: "b2-alternatives-to-passive-ex014"
     type: "translate"
@@ -1279,16 +1289,16 @@ The pronominal passive is also how French talks about its own words. You'll find
 
 <Example fr="La candidate s'est vu offrir un poste à Paris." en="The candidate was offered a job in Paris." />
 
-In the passé composé, careful writers leave *vu* unchanged in this structure (*elle s'est vu refuser*), because *se* isn't the direct object of *voir*. You'll often see *vue* too.
+In the passé composé, usage is divided in this structure: both *elle s'est vu refuser* and *elle s'est vue refuser* are accepted, and *vu* is the stricter recommendation.
 
 ## Impersonal phrases
 
 <VocabTable group="impersonal" />
 
-Notices and official texts often use *il est* + participle: **il est interdit de** + infinitive (it's forbidden to), **il est conseillé de** (it's advisable to), and **il est prévu que** + indicative (it's planned that). They state a rule or a plan without saying who made it.
+Notices and official texts often use *il est* + participle: **il est interdit de** + infinitive (it's forbidden to), **il est conseillé de** (it's advisable to), and **il est prévu que** + subjunctive (it's planned that; the indicative is also heard). They state a rule or a plan without saying who made it.
 
 <Example fr="Il est interdit de fumer dans le train." en="Smoking is forbidden on the train." />
-<Example fr="Il est prévu que le chantier commencera en mai." en="The building work is planned to start in May." />
+<Example fr="Il est prévu que le chantier soit terminé en mai." en="The building work is planned to be finished in May." />
 
 *Une coutume* is a custom, and *les usages* are the accepted ways of doing things in a place or a group: *les usages à table*.
 
@@ -1325,7 +1335,7 @@ Sarah is invited to lunch by Madame Dubois, a French host, and asks about table 
 - *Avant le dessert. Et le café se boit à la fin, après le dessert.* (Before the dessert. And coffee is drunk at the end, after the dessert.)
 - *Je peux demander encore du fromage ? Ça se fait ?* (Can I ask for more cheese? Is that done?)
 - *Bien sûr ! En revanche, il est conseillé de rester à table jusqu'à la fin du repas.* (Of course! On the other hand, it's best to stay at the table until the end of the meal.)
-- *Et on se tutoie, ou c'est trop tôt ?* (And do we say tu to each other, or is it too soon?)
+- *Et on se tutoie, ou c'est trop tôt ?* (And do we say tu to each other, or is it too soon? *on*, spoken, for *nous*)
 - *Chez nous, ça se fait vite. Mais pour aujourd'hui, gardons le vous !* (In our family, that happens quickly. But for today, let's keep vous!)
 
 <Callout type="warning" title="On m'a dit, not j'ai été dit">
@@ -1358,29 +1368,29 @@ tags: ["nouns", "news", "writing", "grammar"]
 prerequisites: ["b2-politics-and-society"]
 related: ["b1-media-and-news", "b2-reporting-verbs", "b2-summarizing-an-article"]
 vocab:
-  - { id: "b2-nominalisation-v001", group: "verbs", fr: "l'augmentation (augmenter)", pron: "log-mahn-tah-SYOHN (og-mahn-TAY)", en: "the increase (to increase)" }
-  - { id: "b2-nominalisation-v002", group: "verbs", fr: "la diminution (diminuer)", pron: "lah dee-mee-new-SYOHN (dee-mee-new-AY)", en: "the decrease (to decrease)" }
-  - { id: "b2-nominalisation-v003", group: "verbs", fr: "la suppression", pron: "lah sew-preh-SYOHN", en: "the abolition, the cutting (of a tax, a job)", note: "From supprimer." }
-  - { id: "b2-nominalisation-v004", group: "verbs", fr: "le lancement (lancer)", pron: "luh lahnss-MAHN (lahn-SAY)", en: "the launch (to launch)" }
-  - { id: "b2-nominalisation-v005", group: "verbs", fr: "la fermeture", pron: "lah fehr-muh-TEWR", en: "the closure", note: "From fermer." }
-  - { id: "b2-nominalisation-v006", group: "verbs", fr: "l'ouverture", pron: "loo-vehr-TEWR", en: "the opening", note: "From ouvrir." }
-  - { id: "b2-nominalisation-v007", group: "verbs", fr: "l'arrivée", pron: "lah-ree-VAY", en: "the arrival", note: "From arriver: the feminine participle." }
-  - { id: "b2-nominalisation-v008", group: "zero", fr: "la hausse", pron: "lah OHSS", en: "the rise (in prices, numbers)" }
-  - { id: "b2-nominalisation-v009", group: "zero", fr: "la baisse", pron: "lah BESS", en: "the fall, the drop" }
-  - { id: "b2-nominalisation-v010", group: "zero", fr: "le recul (reculer)", pron: "luh ruh-KEWL (ruh-kew-LAY)", en: "a fall, a retreat (to fall back)" }
-  - { id: "b2-nominalisation-v011", group: "zero", fr: "le départ", pron: "luh day-PAR", en: "the departure; in politics, a resignation", note: "From partir." }
-  - { id: "b2-nominalisation-v012", group: "zero", fr: "le maintien (maintenir)", pron: "luh man-TYAN (man-tuh-NEER)", en: "keeping, maintaining (to keep)" }
-  - { id: "b2-nominalisation-v013", group: "zero", fr: "la mise en place", pron: "lah mee-zahn PLAHSS", en: "the setting up", note: "From mettre en place." }
-  - { id: "b2-nominalisation-v014", group: "zero", fr: "la prise de conscience (prendre conscience)", pron: "lah preez duh kohn-SYAHNSS", en: "awareness, realization (to become aware)" }
-  - { id: "b2-nominalisation-v015", group: "adj", fr: "la gratuité (gratuit)", pron: "lah grah-twee-TAY (grah-TWEE)", en: "being free of charge (free)" }
-  - { id: "b2-nominalisation-v016", group: "adj", fr: "la fiabilité", pron: "lah fyah-bee-lee-TAY", en: "reliability", note: "From fiable." }
-  - { id: "b2-nominalisation-v017", group: "adj", fr: "la faiblesse", pron: "lah feh-BLESS", en: "weakness", note: "From faible." }
-  - { id: "b2-nominalisation-v018", group: "adj", fr: "la lenteur (lent)", pron: "lah lahn-TUHR (LAHN)", en: "slowness (slow)" }
-  - { id: "b2-nominalisation-v019", group: "style", fr: "le style nominal", pron: "luh steel noh-mee-NAHL", en: "nominal style (writing with nouns rather than verbs)" }
-  - { id: "b2-nominalisation-v020", group: "style", fr: "les habitants", pron: "lay-zah-bee-TAHN", en: "the residents, the inhabitants", note: "Un habitant / une habitante." }
-  - { id: "b2-nominalisation-v021", group: "terms", fr: "un adjectif / un adverbe", pron: "uh-nad-zhek-TEEF / uh-nad-VEHRB", en: "an adjective / an adverb" }
-  - { id: "b2-nominalisation-v022", group: "terms", fr: "masculin / féminin", pron: "mahs-kew-LAN / fay-mee-NAN", en: "masculine / feminine" }
-  - { id: "b2-nominalisation-v023", group: "terms", fr: "un groupe nominal", pron: "uhn groop noh-mee-NAHL", en: "a noun phrase" }
+  - { id: "b2-nominalisation-v001", group: "terms", fr: "un adjectif / un adverbe", pron: "uh-nad-zhek-TEEF / uh-nad-VEHRB", en: "an adjective / an adverb" }
+  - { id: "b2-nominalisation-v002", group: "terms", fr: "masculin / féminin", pron: "mahs-kew-LAN / fay-mee-NAN", en: "masculine / feminine" }
+  - { id: "b2-nominalisation-v003", group: "terms", fr: "un groupe nominal", pron: "uhn groop noh-mee-NAHL", en: "a noun phrase" }
+  - { id: "b2-nominalisation-v004", group: "verbs", fr: "l'augmentation (augmenter)", pron: "log-mahn-tah-SYOHN (og-mahn-TAY)", en: "the increase (to increase)" }
+  - { id: "b2-nominalisation-v005", group: "verbs", fr: "la diminution (diminuer)", pron: "lah dee-mee-new-SYOHN (dee-mee-new-AY)", en: "the decrease (to decrease)" }
+  - { id: "b2-nominalisation-v006", group: "verbs", fr: "la suppression", pron: "lah sew-preh-SYOHN", en: "the abolition, the cutting (of a tax, a job)", note: "From supprimer." }
+  - { id: "b2-nominalisation-v007", group: "verbs", fr: "le lancement (lancer)", pron: "luh lahnss-MAHN (lahn-SAY)", en: "the launch (to launch)" }
+  - { id: "b2-nominalisation-v008", group: "verbs", fr: "la fermeture", pron: "lah fehr-muh-TEWR", en: "the closure", note: "From fermer." }
+  - { id: "b2-nominalisation-v009", group: "verbs", fr: "l'ouverture", pron: "loo-vehr-TEWR", en: "the opening", note: "From ouvrir." }
+  - { id: "b2-nominalisation-v010", group: "verbs", fr: "l'arrivée", pron: "lah-ree-VAY", en: "the arrival", note: "From arriver: the feminine participle." }
+  - { id: "b2-nominalisation-v011", group: "zero", fr: "la hausse", pron: "lah OHSS", en: "the rise (in prices, numbers)" }
+  - { id: "b2-nominalisation-v012", group: "zero", fr: "la baisse", pron: "lah BESS", en: "the fall, the drop" }
+  - { id: "b2-nominalisation-v013", group: "zero", fr: "le recul (reculer)", pron: "luh ruh-KEWL (ruh-kew-LAY)", en: "a fall, a retreat (to fall back)" }
+  - { id: "b2-nominalisation-v014", group: "zero", fr: "le départ", pron: "luh day-PAR", en: "departure; of a minister, leaving office", note: "From partir. A resignation is la démission." }
+  - { id: "b2-nominalisation-v015", group: "zero", fr: "le maintien (maintenir)", pron: "luh man-TYAN (man-tuh-NEER)", en: "keeping, maintaining (to keep)" }
+  - { id: "b2-nominalisation-v016", group: "zero", fr: "la mise en place", pron: "lah mee-zahn PLAHSS", en: "the setting up", note: "From mettre en place." }
+  - { id: "b2-nominalisation-v017", group: "zero", fr: "la prise de conscience (prendre conscience)", pron: "lah preez duh kohn-SYAHNSS", en: "awareness, realization (to become aware)" }
+  - { id: "b2-nominalisation-v018", group: "adj", fr: "la gratuité (gratuit)", pron: "lah grah-twee-TAY (grah-TWEE)", en: "being free of charge (free)" }
+  - { id: "b2-nominalisation-v019", group: "adj", fr: "la fiabilité", pron: "lah fyah-bee-lee-TAY", en: "reliability", note: "From fiable." }
+  - { id: "b2-nominalisation-v020", group: "adj", fr: "la faiblesse", pron: "lah feh-BLESS", en: "weakness", note: "From faible." }
+  - { id: "b2-nominalisation-v021", group: "adj", fr: "la lenteur (lent)", pron: "lah lahn-TUHR (LAHN)", en: "slowness (slow)" }
+  - { id: "b2-nominalisation-v022", group: "style", fr: "le style nominal", pron: "luh steel noh-mee-NAHL", en: "nominal style (writing with nouns rather than verbs)" }
+  - { id: "b2-nominalisation-v023", group: "style", fr: "les habitants", pron: "lay-zah-bee-TAHN", en: "the residents, the inhabitants", note: "Un habitant / une habitante." }
 exercises:
   - id: "b2-nominalisation-ex001"
     type: "fill-in"
@@ -1441,13 +1451,13 @@ exercises:
     explanation: "In speech, the noun becomes a verb again, and the adjective forte becomes an adverb."
   - id: "b2-nominalisation-ex012"
     type: "translate"
-    prompt: "Traduisez : The closure of the station surprised the residents."
+    prompt: "Traduisez avec « surprendre » : The closure of the station surprised the residents."
     answers: ["La fermeture de la gare a surpris les habitants"]
     explanation: "La fermeture de + noun, then the passé composé of surprendre."
     strictAccents: true
   - id: "b2-nominalisation-ex013"
     type: "translate"
-    prompt: "Traduisez : The rise in prices worries voters."
+    prompt: "Traduisez avec « inquiéter » : The rise in prices worries voters."
     answers: ["La hausse des prix inquiète les électeurs", "L'augmentation des prix inquiète les électeurs"]
     explanation: "La hausse or l'augmentation + des, then inquiéter."
   - id: "b2-nominalisation-ex014"
@@ -1488,7 +1498,7 @@ Most nouns made from verbs use a suffix, and the suffix usually tells you the ge
 | *-ment* | masculine | *lancer* → *le lancement* |
 | *-age* | masculine | *recycler* → *le recyclage* |
 | *-ure* | feminine | *fermer* → *la fermeture*, *ouvrir* → *l'ouverture* |
-| *-ée* | feminine | *arriver* → *l'arrivée* |
+| *-ée* | feminine (but *un musée*, *un lycée*, *un trophée*) | *arriver* → *l'arrivée* |
 
 Nouns in *-age* are masculine, with a few common exceptions: *la page*, *la plage* and *une image*. Nouns in *-ée* look like the feminine past participle: *une arrivée*, *une entrée*. You know *le recyclage* from <LessonLink id="b1-environment" text="the lesson on the environment" />.
 
@@ -1529,6 +1539,9 @@ To turn a sentence into a noun phrase, change the verb into its noun, and link t
 - **The object of the verb** also becomes *de* + noun: *on ferme la gare* → *la fermeture de la gare*.
 - **An adverb** becomes an adjective: *les prix augmentent fortement* → *la forte hausse des prix*.
 - **The person who acts**, if you keep them, follows *par*: *la suppression de la taxe par le gouvernement*.
+
+<Example fr="Dans un groupe nominal, l'adverbe devient souvent un adjectif." en="In a noun phrase, the adverb often becomes an adjective." />
+<Example fr="Les noms comme la fermeture sont féminins, et les noms comme le lancement sont masculins." en="Nouns like la fermeture are feminine, and nouns like le lancement are masculine." />
 
 Remember that *de* + *le* gives *du* and *de* + *les* gives *des*: *le départ du ministre*, *la hausse des loyers*. In headlines, the article at the start usually disappears: *Fermeture de la gare dimanche*.
 
@@ -1673,7 +1686,7 @@ exercises:
     explanation: "Porter sur or traiter de + a noun phrase."
   - id: "b2-summarizing-an-article-ex013"
     type: "translate"
-    prompt: "Rédigez ce résumé en complétant comme indiqué : L'article (is about) la fermeture d'une gare. (It emerges that) les habitants sont inquiets. Le maire (stresses) que rien n'est encore décidé. (In short), la ville doit trouver une solution."
+    prompt: "Rédigez ce résumé en complétant comme indiqué : L'article (is about) la fermeture d'une gare. (It emerges that) les habitants sont inquiets. Le maire (stresses: souligner) que rien n'est encore décidé. (In short), la ville doit trouver une solution."
     answers: ["L'article porte sur la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. En somme, la ville doit trouver une solution.", "L'article traite de la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. En somme, la ville doit trouver une solution.", "L'article porte sur la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. Bref, la ville doit trouver une solution.", "L'article traite de la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. Bref, la ville doit trouver une solution."]
     explanation: "The four parts of a short summary: topic, main point, a reported view and a conclusion."
     strictAccents: true
@@ -1881,7 +1894,7 @@ exercises:
   - id: "b2-culture-french-press-ex010"
     type: "error-correction"
     prompt: "Corrigez l'erreur : Le Canard enchaîné est un quotidien régional."
-    answers: ["Le Canard enchaîné est un hebdomadaire satirique"]
+    answers: ["Le Canard enchaîné est un hebdomadaire satirique", "Le Canard enchaîné est un hebdomadaire", "Le Canard enchaîné est un journal satirique"]
     explanation: "Le Canard enchaîné comes out once a week and is satirical."
   - id: "b2-culture-french-press-ex011"
     type: "translate"
@@ -1920,7 +1933,7 @@ You know *un quotidien* (a daily), *un hebdomadaire* (a weekly), *un éditorial*
 A few *journaux nationaux* (national papers) are read all over France and quoted by other media. Each one has its own tone and its own *ligne éditoriale*, which you discover best by reading it. Most are general papers, covering every kind of news; others are specialised, for example in sport or the economy.
 
 <Example fr="Ce journal national est lu dans toute la France." en="This national paper is read all over France." />
-<Example fr="Dans le métro, beaucoup de gens lisent un journal gratuit." en="On the metro, many people read a free paper." />
+<Example fr="Dans le métro, j'ai souvent lu un journal gratuit." en="On the metro, I've often read a free paper." />
 
 **Le Monde.** A national general daily with long articles on politics, the economy and the world.
 
@@ -1930,7 +1943,7 @@ A few *journaux nationaux* (national papers) are read all over France and quoted
 
 Besides the dailies, *les hebdomadaires* (weekly news magazines) offer longer analysis, interviews and opinion pieces. Many readers combine a regional daily for local news with a weekly magazine for the national debate.
 
-In the big cities, *des journaux gratuits* (free papers) are also handed out in the morning, especially near stations. They're short and quick to read.
+In the big cities, some *journaux gratuits* (free papers) have been handed out in the morning, especially near stations. They're short and quick to read.
 
 ## The regional press
 
@@ -2110,7 +2123,7 @@ exercises:
   - id: "b2-review-news-ex013"
     type: "translate"
     prompt: "Traduisez avec « selon » : According to the official version, the pool will be open in September."
-    answers: ["Selon la version officielle, la piscine sera ouverte en septembre","Selon la version officielle, la piscine va être ouverte en septembre"]
+    answers: ["Selon la version officielle, la piscine ouvrira en septembre", "Selon la version officielle, la piscine sera ouverte en septembre","Selon la version officielle, la piscine va être ouverte en septembre"]
     explanation: "Selon + the source, then the futur."
   - id: "b2-review-news-ex014"
     type: "translate"

@@ -7113,7 +7113,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-reported-questions-orders-ex011 | fill-in | Complétez : « Ne parlez pas ! » → Il nous a dit de ___ parler. | — | ["ne pas"] | false | Both parts of the negative go before the infinitive: de ne pas parler.
 - b2-reported-questions-orders-ex012 | translate | Traduisez : She asked me what I wanted. | — | ["Elle m'a demandé ce que je voulais"] | true | What becomes ce que, and the present becomes the imparfait.
 - b2-reported-questions-orders-ex013 | translate | Traduisez : He told us not to wait. | — | ["Il nous a dit de ne pas attendre"] | true | Dire à quelqu'un de ne pas + infinitive.
-- b2-reported-questions-orders-ex014 | translate | Rédigez en complétant comme indiqué : Le journaliste a demandé à la ministre (whether) la réforme (would be) prête en juin. Elle a répondu qu'elle ne (knew) pas. Il lui a demandé (what) elle (was going to do). Elle lui a dit (not to insist). | — | ["Le journaliste a demandé à la ministre si la réforme serait prête en juin. Elle a répondu qu'elle ne savait pas. Il lui a demandé ce qu'elle allait faire. Elle lui a dit de ne pas insister.","Le journaliste a demandé à la ministre si la réforme allait être prête en juin. Elle a répondu qu'elle ne savait pas. Il lui a demandé ce qu'elle allait faire. Elle lui a dit de ne pas insister."] | true | Si + conditionnel, the imparfait, ce que + allait, and de ne pas + infinitive.
+- b2-reported-questions-orders-ex014 | translate | Rédigez en complétant comme indiqué : Le journaliste a demandé à la ministre (whether) la réforme (would be) prête en juin. Elle a répondu qu'elle ne (knew: savoir) pas. Il lui a demandé (what) elle (was going to do: aller). Elle lui a dit (not to insist). | — | ["Le journaliste a demandé à la ministre si la réforme serait prête en juin. Elle a répondu qu'elle ne savait pas. Il lui a demandé ce qu'elle allait faire. Elle lui a dit de ne pas insister.","Le journaliste a demandé à la ministre si la réforme allait être prête en juin. Elle a répondu qu'elle ne savait pas. Il lui a demandé ce qu'elle allait faire. Elle lui a dit de ne pas insister."] | true | Si + conditionnel, the imparfait, ce que + allait, and de ne pas + infinitive.
 - b2-reported-questions-orders-ex015 | reorder | Remettez dans l'ordre : He asked me where I lived. | — | ["Il m'a demandé où j'habitais"] | false | Demander + où + a statement word order.
 
 ## b2-reporting-verbs
@@ -7136,17 +7136,17 @@ fr | pron | en | note
 - mettre en garde contre | meh-trahn gard KOHN-truh | to warn against | —
 - prétendre | pray-TAHN-druh | to claim (and the reporter doubts it) | False friend: not 'to pretend'. Like vendre: il prétend.
 - s'interroger sur | san-teh-roh-zhay SEWR | to wonder about, to question | —
-- nier | nee-YAY | to deny | Nier que + subjunctive.
+- nier | nee-YAY | to deny | Nier que + subjunctive, usually.
 - démentir | day-mahn-TEER | to deny officially | Like partir: il dément, il a démenti.
+- faire semblant de | fehr sahn-blahn DUH | to pretend to | + infinitive.
 - admettre | ad-MEH-truh | to admit | Like mettre: il a admis.
 - avouer | ah-voo-AY | to confess, to own up | —
+- prendre du retard | prahn-druh dew ruh-TAR | to fall behind, to be delayed | —
 - la veille | lah VEH-y | the day before | La veille au soir: the evening before.
 - le lendemain | luh lahn-duh-MAN | the next day, the day after | —
 - à ce moment-là | ah suh moh-mahn LAH | at that moment, at that time | —
 - précédent / précédente | pray-say-DAHN / pray-say-DAHNT | previous, before | La semaine précédente: the week before.
 - suivant / suivante | swee-VAHN / swee-VAHNT | following, next | L'année suivante: the following year.
-- faire semblant de | fehr sahn-blahn DUH | to pretend to | + infinitive.
-- prendre du retard | prahn-druh dew ruh-TAR | to fall behind, to be delayed | —
 
 ### Exercises
 
@@ -7162,10 +7162,10 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-reporting-verbs-ex008 | connector-choice | Choisissez le mot : Lundi, elle m'a raconté qu'elle avait vu Paul ___, dimanche. | ["la veille","demain","le lendemain"] | ["la veille"] | false | Sunday is the day before Monday: la veille.
 - b2-reporting-verbs-ex009 | reformulation | Reformulez avec « annoncer » : Le maire a dit qu'une nouvelle piscine ouvrirait en juin. | — | ["Le maire a annoncé qu'une nouvelle piscine ouvrirait en juin"] | true | Annoncer is more precise than dire for news about the future.
 - b2-reporting-verbs-ex010 | register-shift | Transformez avec un verbe plus fort, « affirmer » : Elle a dit que la réforme était nécessaire. | — | ["Elle a affirmé que la réforme était nécessaire"] | true | Affirmer shows that she said it firmly.
-- b2-reporting-verbs-ex011 | error-correction | Corrigez l'erreur : Le ministre nie que le projet est trop cher. | — | ["Le ministre nie que le projet soit trop cher"] | false | Nier que, like douter que, takes the subjunctive.
+- b2-reporting-verbs-ex011 | error-correction | Corrigez l'erreur : Le ministre nie que le projet est trop cher. | — | ["Le ministre nie que le projet soit trop cher"] | false | Nier que, like douter que, usually takes the subjunctive.
 - b2-reporting-verbs-ex012 | translate | Traduisez : The minister denied the information. | — | ["Le ministre a démenti l'information","La ministre a démenti l'information","Le ministre a nié l'information","La ministre a nié l'information"] | true | Démentir is the official word; nier is also correct.
 - b2-reporting-verbs-ex013 | translate | Traduisez : She stressed that nothing had changed. | — | ["Elle a souligné que rien n'avait changé"] | true | Souligner que + the plus-que-parfait after a past verb.
-- b2-reporting-verbs-ex014 | translate | Rédigez en complétant comme indiqué : Le maire (stated) que la ville était plus sûre. L'opposition (claims) que c'est faux. Les journaux (criticize) sa décision. | — | ["Le maire a affirmé que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux critiquent sa décision.","Le maire a déclaré que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux critiquent sa décision."] | true | Three attitudes: a firm statement, a doubtful claim and a criticism.
+- b2-reporting-verbs-ex014 | translate | Rédigez en complétant comme indiqué : Le maire (stated) que la ville était plus sûre. L'opposition (claims: prétendre) que c'est faux. Les journaux (criticize: critiquer) sa décision. | — | ["Le maire a affirmé que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux critiquent sa décision.","Le maire a déclaré que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux critiquent sa décision.","Le maire a affirmé que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux dénoncent sa décision.","Le maire a déclaré que la ville était plus sûre. L'opposition prétend que c'est faux. Les journaux dénoncent sa décision."] | true | Three attitudes: a firm statement, a doubtful claim and a criticism.
 - b2-reporting-verbs-ex015 | reorder | Remettez dans l'ordre : The next day, she denied everything. | — | ["Le lendemain, elle a tout nié"] | false | Le lendemain at the start, then tout before the participle.
 
 ## b2-passive-voice
@@ -7208,7 +7208,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-passive-voice-ex011 | fill-in | Complétez avec le participe passé de « restaurer » : Ce monument doit être ___ avant l'été. | — | ["restauré"] | false | Devoir + être + participle: the passive infinitive.
 - b2-passive-voice-ex012 | translate | Traduisez avec « rebâtir » : The bridge will have been rebuilt by June. | — | ["Le pont aura été rebâti d'ici juin","D'ici juin, le pont aura été rebâti","Le pont aura été rebâti avant juin","Avant juin, le pont aura été rebâti"] | true | The futur antérieur passive: aura été rebâti.
 - b2-passive-voice-ex013 | translate | Traduisez : The castle was surrounded by a wall. | — | ["Le château était entouré d'un mur","Le château était entouré par un mur"] | false | A state in the past: the imparfait, and usually de.
-- b2-passive-voice-ex014 | translate | Rédigez cette information en complétant comme indiqué : Le musée (was closed: passé composé) en mars. Il (will be renovated) par la ville. Il (will have been opened officially) avant l'été. | — | ["Le musée a été fermé en mars. Il sera rénové par la ville. Il aura été inauguré avant l'été.","Le musée a été fermé en mars. Il va être rénové par la ville. Il aura été inauguré avant l'été."] | true | Three tenses of the passive: passé composé, futur and futur antérieur.
+- b2-passive-voice-ex014 | translate | Rédigez cette information en complétant comme indiqué : Le musée (was closed: passé composé) en mars. Il (will be renovated) par la ville. Il (will have been opened officially: inaugurer) avant l'été. | — | ["Le musée a été fermé en mars. Il sera rénové par la ville. Il aura été inauguré avant l'été.","Le musée a été fermé en mars. Il va être rénové par la ville. Il aura été inauguré avant l'été."] | true | Three tenses of the passive: passé composé, futur and futur antérieur.
 - b2-passive-voice-ex015 | reorder | Remettez dans l'ordre : The church must be restored. | — | ["L'église doit être restaurée"] | false | Devoir + être + participle, agreeing with l'église.
 
 ## b2-alternatives-to-passive
@@ -7228,7 +7228,7 @@ fr | pron | en | note
 - se conjuguer | suh kohn-zhew-GAY | to be conjugated | —
 - se voir refuser | suh vwahr ruh-few-ZAY | to be refused | —
 - se voir offrir | suh vwahr oh-FREER | to be offered | —
-- il est prévu que | ee-leh pray-vew KUH | it's planned that | + indicative.
+- il est prévu que | ee-leh pray-vew KUH | it's planned that | + subjunctive (the indicative is also heard).
 - il est interdit de | ee-leh tan-tehr-dee DUH | it's forbidden to | —
 - il est conseillé de | ee-leh kohn-seh-yay DUH | it's advisable to | —
 - une coutume | ewn koo-TEWM | a custom | —
@@ -7243,7 +7243,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-alternatives-to-passive-ex001 | fill-in | Conjuguez au présent (se manger) : Ce plat ___ froid. | — | ["se mange"] | true | The pronominal passive: the subject is the thing, and se + verb gives a general truth.
 - b2-alternatives-to-passive-ex002 | fill-in | Conjuguez au présent (s'écrire) : Ce mot ___ avec deux l. | — | ["s'écrit"] | false | S'écrire: to be spelled.
 - b2-alternatives-to-passive-ex003 | fill-in | Conjuguez au présent (se prononcer) : Le s final ne ___ pas. | — | ["se prononce"] | false | Se prononcer: to be pronounced.
-- b2-alternatives-to-passive-ex004 | fill-in | Conjuguez « se voir » au passé composé : Elle ___ refuser l'entrée. | — | ["s'est vu","s'est vue"] | false | Se voir + infinitive says what happened to her. Careful writers leave vu unchanged here, but vue is common.
+- b2-alternatives-to-passive-ex004 | fill-in | Conjuguez « se voir » au passé composé : Elle ___ refuser l'entrée. | — | ["s'est vu","s'est vue"] | false | Se voir + infinitive says what happened to her. Both vu and vue are accepted; vu is the stricter recommendation.
 - b2-alternatives-to-passive-ex005 | multiple-choice | Choisissez la bonne phrase. | ["Le café se boit chaud.","Le café se bois chaud.","Le café boit chaud."] | ["Le café se boit chaud."] | false | Se boire in the il form: le café se boit.
 - b2-alternatives-to-passive-ex006 | multiple-choice | Indiquez le sens de : Ça ne se fait pas. | ["It isn't done (it's not polite).","It can't be built.","It isn't finished yet."] | ["It isn't done (it's not polite)."] | false | Ça ne se fait pas states a social rule.
 - b2-alternatives-to-passive-ex007 | register-shift | Transformez en registre courant, avec « on » : Une nouvelle gare a été construite. | — | ["On a construit une nouvelle gare"] | true | In everyday French, on + active verb often replaces the passive.
@@ -7252,7 +7252,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-alternatives-to-passive-ex010 | error-correction | Corrigez l'erreur pour le registre écrit : Ça se dit pas. | — | ["Ça ne se dit pas"] | false | Written French keeps ne: ça ne se dit pas.
 - b2-alternatives-to-passive-ex011 | fill-in | Complétez : Il y a une maison ___ vendre dans ma rue. | — | ["à"] | true | À + infinitive with a passive sense: a house to be sold.
 - b2-alternatives-to-passive-ex012 | translate | Traduisez avec « se boire » : This wine is drunk cold. | — | ["Ce vin se boit froid"] | false | Se boire, for a general rule about the wine.
-- b2-alternatives-to-passive-ex013 | translate | Traduisez : She was refused entry. | — | ["Elle s'est vu refuser l'entrée","Elle s'est vue refuser l'entrée","On lui a refusé l'entrée"] | true | Refuser à quelqu'un can't be made passive in French, so use se voir refuser or on.
+- b2-alternatives-to-passive-ex013 | translate | Traduisez : She was refused entry. | — | ["Elle s'est vu refuser l'entrée","Elle s'est vue refuser l'entrée","On lui a refusé l'entrée"] | true | With refuser à quelqu'un, the person can't become the subject of a passive, so use se voir refuser or on.
 - b2-alternatives-to-passive-ex014 | translate | Rédigez en complétant comme indiqué : En France, le fromage (is eaten) avant le dessert. Le café (is drunk) à la fin du repas. Parler fort à table, ça (isn't done). | — | ["En France, le fromage se mange avant le dessert. Le café se boit à la fin du repas. Parler fort à table, ça ne se fait pas."] | true | Three customs, three pronominal passives.
 - b2-alternatives-to-passive-ex015 | reorder | Remettez dans l'ordre : This word is pronounced differently. | — | ["Ce mot se prononce autrement"] | false | Se prononcer: the pronominal passive.
 
@@ -7262,6 +7262,9 @@ id | type | prompt | options | answers | strictAccents | explanation
 
 fr | pron | en | note
 
+- un adjectif / un adverbe | uh-nad-zhek-TEEF / uh-nad-VEHRB | an adjective / an adverb | —
+- masculin / féminin | mahs-kew-LAN / fay-mee-NAN | masculine / feminine | —
+- un groupe nominal | uhn groop noh-mee-NAHL | a noun phrase | —
 - l'augmentation (augmenter) | log-mahn-tah-SYOHN (og-mahn-TAY) | the increase (to increase) | —
 - la diminution (diminuer) | lah dee-mee-new-SYOHN (dee-mee-new-AY) | the decrease (to decrease) | —
 - la suppression | lah sew-preh-SYOHN | the abolition, the cutting (of a tax, a job) | From supprimer.
@@ -7272,7 +7275,7 @@ fr | pron | en | note
 - la hausse | lah OHSS | the rise (in prices, numbers) | —
 - la baisse | lah BESS | the fall, the drop | —
 - le recul (reculer) | luh ruh-KEWL (ruh-kew-LAY) | a fall, a retreat (to fall back) | —
-- le départ | luh day-PAR | the departure; in politics, a resignation | From partir.
+- le départ | luh day-PAR | departure; of a minister, leaving office | From partir. A resignation is la démission.
 - le maintien (maintenir) | luh man-TYAN (man-tuh-NEER) | keeping, maintaining (to keep) | —
 - la mise en place | lah mee-zahn PLAHSS | the setting up | From mettre en place.
 - la prise de conscience (prendre conscience) | lah preez duh kohn-SYAHNSS | awareness, realization (to become aware) | —
@@ -7282,9 +7285,6 @@ fr | pron | en | note
 - la lenteur (lent) | lah lahn-TUHR (LAHN) | slowness (slow) | —
 - le style nominal | luh steel noh-mee-NAHL | nominal style (writing with nouns rather than verbs) | —
 - les habitants | lay-zah-bee-TAHN | the residents, the inhabitants | Un habitant / une habitante.
-- un adjectif / un adverbe | uh-nad-zhek-TEEF / uh-nad-VEHRB | an adjective / an adverb | —
-- masculin / féminin | mahs-kew-LAN / fay-mee-NAN | masculine / feminine | —
-- un groupe nominal | uhn groop noh-mee-NAHL | a noun phrase | —
 
 ### Exercises
 
@@ -7301,8 +7301,8 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-nominalisation-ex009 | reformulation | Reformulez en titre de journal, avec « la fermeture » : La gare va fermer dimanche. | — | ["Fermeture de la gare dimanche","La fermeture de la gare dimanche"] | false | Headlines often drop the article: Fermeture de la gare dimanche.
 - b2-nominalisation-ex010 | error-correction | Corrigez l'erreur : La augmentation des loyers inquiète les étudiants. | — | ["L'augmentation des loyers inquiète les étudiants"] | false | La becomes l' before a vowel: l'augmentation.
 - b2-nominalisation-ex011 | register-shift | Transformez en français parlé, avec « augmenter » au passé composé : Forte hausse des prix en mars. | — | ["Les prix ont beaucoup augmenté en mars","En mars, les prix ont beaucoup augmenté"] | false | In speech, the noun becomes a verb again, and the adjective forte becomes an adverb.
-- b2-nominalisation-ex012 | translate | Traduisez : The closure of the station surprised the residents. | — | ["La fermeture de la gare a surpris les habitants"] | true | La fermeture de + noun, then the passé composé of surprendre.
-- b2-nominalisation-ex013 | translate | Traduisez : The rise in prices worries voters. | — | ["La hausse des prix inquiète les électeurs","L'augmentation des prix inquiète les électeurs"] | false | La hausse or l'augmentation + des, then inquiéter.
+- b2-nominalisation-ex012 | translate | Traduisez avec « surprendre » : The closure of the station surprised the residents. | — | ["La fermeture de la gare a surpris les habitants"] | true | La fermeture de + noun, then the passé composé of surprendre.
+- b2-nominalisation-ex013 | translate | Traduisez avec « inquiéter » : The rise in prices worries voters. | — | ["La hausse des prix inquiète les électeurs","L'augmentation des prix inquiète les électeurs"] | false | La hausse or l'augmentation + des, then inquiéter.
 - b2-nominalisation-ex014 | translate | Rédigez trois titres en complétant comme indiqué : (Opening) d'une nouvelle école à Lyon. (Fall) du chômage en mars. (Departure) du ministre. | — | ["Ouverture d'une nouvelle école à Lyon. Baisse du chômage en mars. Départ du ministre.","Ouverture d'une nouvelle école à Lyon. Diminution du chômage en mars. Départ du ministre.","Ouverture d'une nouvelle école à Lyon. Recul du chômage en mars. Départ du ministre."] | true | Three nouns, no article, as in headlines. Baisse, diminution or recul all work for a fall.
 - b2-nominalisation-ex015 | reorder | Remettez dans l'ordre : Rise in rents in Paris | — | ["Hausse des loyers à Paris"] | false | A headline: noun, de + the thing that rises, then the place.
 
@@ -7348,7 +7348,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-summarizing-an-article-ex010 | multiple-choice | Indiquez le sens de « un résumé ». | ["a summary","a CV","a fresh start"] | ["a summary"] | false | Un résumé is a false friend: a CV is un CV.
 - b2-summarizing-an-article-ex011 | fill-in | Complétez avec un nom (augmenter) : La ___ des loyers inquiète les étudiants. | — | ["hausse","augmentation"] | false | La hausse or l'augmentation: the noun of the verb.
 - b2-summarizing-an-article-ex012 | translate | Traduisez : The article is about rising rents. | — | ["L'article porte sur la hausse des loyers","L'article traite de la hausse des loyers","L'article porte sur l'augmentation des loyers","L'article traite de l'augmentation des loyers"] | false | Porter sur or traiter de + a noun phrase.
-- b2-summarizing-an-article-ex013 | translate | Rédigez ce résumé en complétant comme indiqué : L'article (is about) la fermeture d'une gare. (It emerges that) les habitants sont inquiets. Le maire (stresses) que rien n'est encore décidé. (In short), la ville doit trouver une solution. | — | ["L'article porte sur la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. En somme, la ville doit trouver une solution.","L'article traite de la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. En somme, la ville doit trouver une solution.","L'article porte sur la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. Bref, la ville doit trouver une solution.","L'article traite de la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. Bref, la ville doit trouver une solution."] | true | The four parts of a short summary: topic, main point, a reported view and a conclusion.
+- b2-summarizing-an-article-ex013 | translate | Rédigez ce résumé en complétant comme indiqué : L'article (is about) la fermeture d'une gare. (It emerges that) les habitants sont inquiets. Le maire (stresses: souligner) que rien n'est encore décidé. (In short), la ville doit trouver une solution. | — | ["L'article porte sur la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. En somme, la ville doit trouver une solution.","L'article traite de la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. En somme, la ville doit trouver une solution.","L'article porte sur la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. Bref, la ville doit trouver une solution.","L'article traite de la fermeture d'une gare. Il ressort que les habitants sont inquiets. Le maire souligne que rien n'est encore décidé. Bref, la ville doit trouver une solution."] | true | The four parts of a short summary: topic, main point, a reported view and a conclusion.
 - b2-summarizing-an-article-ex014 | translate | Rédigez en complétant comme indiqué : La journaliste (considers: estimer) que cette mesure est nécessaire. Elle (points out: rappeler) cependant qu'elle arrive tard. | — | ["La journaliste estime que cette mesure est nécessaire. Elle rappelle cependant qu'elle arrive tard."] | false | Estimer que and rappeler que report the writer's view neutrally.
 - b2-summarizing-an-article-ex015 | reorder | Remettez dans l'ordre : The article deals with housing. | — | ["L'article traite du logement"] | false | Traiter de + le logement gives traite du logement.
 
@@ -7390,7 +7390,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-culture-french-press-ex007 | fill-in | Complétez : Chaque jour, l'éditorialiste écrit l'___ du journal. | — | ["éditorial"] | false | L'éditorial is the opinion article, often written by the éditorialiste.
 - b2-culture-french-press-ex008 | fill-in | Complétez : Avec un ___, je peux lire tous les articles en ligne. | — | ["abonnement"] | false | Un abonnement: a subscription.
 - b2-culture-french-press-ex009 | reformulation | Reformulez au passif : L'éditorialiste écrit l'éditorial le soir. | — | ["L'éditorial est écrit par l'éditorialiste le soir","L'éditorial est écrit le soir par l'éditorialiste"] | false | The object becomes the subject: l'éditorial est écrit par…
-- b2-culture-french-press-ex010 | error-correction | Corrigez l'erreur : Le Canard enchaîné est un quotidien régional. | — | ["Le Canard enchaîné est un hebdomadaire satirique"] | false | Le Canard enchaîné comes out once a week and is satirical.
+- b2-culture-french-press-ex010 | error-correction | Corrigez l'erreur : Le Canard enchaîné est un quotidien régional. | — | ["Le Canard enchaîné est un hebdomadaire satirique","Le Canard enchaîné est un hebdomadaire","Le Canard enchaîné est un journal satirique"] | false | Le Canard enchaîné comes out once a week and is satirical.
 - b2-culture-french-press-ex011 | translate | Traduisez : Press freedom is very important. | — | ["La liberté de la presse est très importante"] | false | Importante agrees with la liberté.
 - b2-culture-french-press-ex012 | translate | Traduisez : This paper has a committed editorial line. | — | ["Ce journal a une ligne éditoriale engagée"] | true | Engagée agrees with une ligne éditoriale.
 - b2-culture-french-press-ex013 | translate | Rédigez en complétant comme indiqué : Ouest-France est (a regional daily). Il est (on the newsstands) tous les matins. On peut aussi le lire (online). | — | ["Ouest-France est un quotidien régional. Il est en kiosque tous les matins. On peut aussi le lire en ligne."] | false | Un quotidien régional, en kiosque and en ligne.
@@ -7424,7 +7424,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-review-news-ex010 | error-correction | Corrigez l'erreur : Le journaliste a demandé qu'est-ce que la maire voulait faire. | — | ["Le journaliste a demandé ce que la maire voulait faire"] | true | Qu'est-ce que becomes ce que in a reported question.
 - b2-review-news-ex011 | register-shift | Transformez en registre courant, avec « on » : Un communiqué a été publié ce matin. | — | ["On a publié un communiqué ce matin","Ce matin, on a publié un communiqué"] | true | In everyday French, on + active verb replaces the passive.
 - b2-review-news-ex012 | multiple-choice | Indiquez le sens de « recouper une information ». | ["to cross-check information","to cut an article","to publish a press release"] | ["to cross-check information"] | false | Recouper: to check one source against another.
-- b2-review-news-ex013 | translate | Traduisez avec « selon » : According to the official version, the pool will be open in September. | — | ["Selon la version officielle, la piscine sera ouverte en septembre","Selon la version officielle, la piscine va être ouverte en septembre"] | false | Selon + the source, then the futur.
+- b2-review-news-ex013 | translate | Traduisez avec « selon » : According to the official version, the pool will be open in September. | — | ["Selon la version officielle, la piscine ouvrira en septembre","Selon la version officielle, la piscine sera ouverte en septembre","Selon la version officielle, la piscine va être ouverte en septembre"] | false | Selon + the source, then the futur.
 - b2-review-news-ex014 | translate | Rédigez en complétant comme indiqué : Dans une interview exclusive, la maire a expliqué que la piscine (was) fermée. Elle a annoncé que le chantier (would start) en mars. Le journaliste lui a demandé (whether) les habitants (had been informed). | — | ["Dans une interview exclusive, la maire a expliqué que la piscine était fermée. Elle a annoncé que le chantier commencerait en mars. Le journaliste lui a demandé si les habitants avaient été informés.","Dans une interview exclusive, la maire a expliqué que la piscine était fermée. Elle a annoncé que le chantier allait commencer en mars. Le journaliste lui a demandé si les habitants avaient été informés."] | true | The imparfait, the conditionnel and si + the plus-que-parfait passive.
 - b2-review-news-ex015 | translate | Rédigez ce résumé en complétant comme indiqué : Le communiqué (is about) la fermeture de la piscine. (It emerges that) la rénovation commencera en mars. (In short), la mairie veut rassurer les habitants. | — | ["Le communiqué porte sur la fermeture de la piscine. Il ressort que la rénovation commencera en mars. En somme, la mairie veut rassurer les habitants.","Le communiqué traite de la fermeture de la piscine. Il ressort que la rénovation commencera en mars. En somme, la mairie veut rassurer les habitants.","Le communiqué porte sur la fermeture de la piscine. Il ressort que la rénovation commencera en mars. Bref, la mairie veut rassurer les habitants.","Le communiqué traite de la fermeture de la piscine. Il ressort que la rénovation commencera en mars. Bref, la mairie veut rassurer les habitants."] | false | Topic, main point and conclusion, in the present and the futur.
 - b2-review-news-ex016 | reorder | Remettez dans l'ordre : She promised that a press release would be published. | — | ["Elle a promis qu'un communiqué serait publié"] | false | The future in the past, in the passive: serait publié.
@@ -7692,6 +7692,7 @@ fr | pron | en | note
 - le PIB | luh pay-ee-BAY | GDP (gross domestic product) | —
 - un secteur | uhn sek-TUHR | a sector | —
 - le marché | luh mar-SHAY | the market (in economics) | —
+- l'inflation | lan-flah-SYOHN | inflation (rising prices) | —
 - une société | ewn soh-syay-TAY | a company | Also 'society', as in un débat de société.
 - une PME | ewn pay-em-UH | an SME, a small or medium-sized business | —
 - une start-up | ewn star-TUP | a start-up | —
@@ -7730,7 +7731,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-economy-and-business-ex011 | error-correction | Corrigez l'erreur : Le sport a beaucoup de bénéfices pour nous. | — | ["Le sport a beaucoup de bienfaits pour nous"] | true | Le bénéfice is a profit. For good effects, say les bienfaits.
 - b2-economy-and-business-ex012 | translate | Traduisez : The company hired twenty people. | — | ["L'entreprise a embauché vingt personnes","La société a embauché vingt personnes"] | true | Embaucher in the passé composé.
 - b2-economy-and-business-ex013 | translate | Traduisez avec « diminuer » : Turnover fell this year. | — | ["Le chiffre d'affaires a diminué cette année","Cette année, le chiffre d'affaires a diminué"] | true | Le chiffre d'affaires: turnover. It's singular.
-- b2-economy-and-business-ex014 | translate | Rédigez en complétant comme indiqué : Cette année, le chiffre d'affaires (rose: augmenter, passé composé). L'entreprise a fait (a profit). Elle va (invest) dans un nouveau secteur. | — | ["Cette année, le chiffre d'affaires a augmenté. L'entreprise a fait un bénéfice. Elle va investir dans un nouveau secteur."] | true | Three facts about a company's results: turnover, profit and investment.
+- b2-economy-and-business-ex014 | translate | Rédigez en complétant comme indiqué, avec « augmenter » au passé composé : Cette année, le chiffre d'affaires (rose: augmenter). L'entreprise a fait (a profit). Elle va (invest) dans un nouveau secteur. | — | ["Cette année, le chiffre d'affaires a augmenté. L'entreprise a fait un bénéfice. Elle va investir dans un nouveau secteur."] | true | Three facts about a company's results: turnover, profit and investment.
 - b2-economy-and-business-ex015 | reorder | Remettez dans l'ordre : The company is going to invest abroad. | — | ["L'entreprise va investir à l'étranger"] | true | Aller + infinitive, then à l'étranger.
 
 ## b2-faire-causatif
@@ -7809,7 +7810,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-participles-and-gerund-ex003 | fill-in | Complétez avec le participe présent d'avoir : ___ fini son travail, elle est partie. | — | ["Ayant"] | false | Ayant + participe passé: having done, for an earlier action.
 - b2-participles-and-gerund-ex004 | fill-in | Accordez l'adjectif verbal (convaincant) : Ce sont des arguments ___. | — | ["convaincants"] | false | The verbal adjective agrees like any adjective: convaincants.
 - b2-participles-and-gerund-ex005 | multiple-choice | Choisissez la bonne forme : C'est une journée ___. | ["fatigante","fatiguante","fatiguant"] | ["fatigante"] | false | The adjective is spelled fatigant, without u, and agrees: fatigante.
-- b2-participles-and-gerund-ex006 | multiple-choice | Choisissez la bonne forme : ___ ses collègues, il a obtenu le projet. | ["Convainquant","Convaincant","Convaincants"] | ["Convainquant"] | false | Here it's an action with an object (ses collègues): the participe présent, spelled with qu.
+- b2-participles-and-gerund-ex006 | multiple-choice | Choisissez la bonne forme : Ses arguments sont très ___. | ["convaincants","convaincante","convaincant"] | ["convaincants"] | false | A quality of the arguments, after très: the adjective, which agrees with arguments (masculine plural): convaincants.
 - b2-participles-and-gerund-ex007 | connector-choice | Choisissez la bonne réponse : Il prend des notes ___ écoutant le directeur. | ["en","pour","par"] | ["en"] | false | The gérondif needs en: two actions at the same time, same subject.
 - b2-participles-and-gerund-ex008 | reformulation | Reformulez avec un participe présent : Comme il ne pouvait pas venir, il a envoyé un mail. | — | ["Ne pouvant pas venir, il a envoyé un mail","Ne pouvant venir, il a envoyé un mail"] | true | The participe présent replaces comme + verb in written French.
 - b2-participles-and-gerund-ex009 | reformulation | Reformulez avec un participe présent : Les salariés qui travaillent ici ont une prime. | — | ["Les salariés travaillant ici ont une prime"] | false | The participe présent replaces qui + verb.
@@ -7945,7 +7946,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-negotiating-ex003 | fill-in | Conjuguez pouvoir au subjonctif : Nous signons, à condition que vous ___ livrer en juin. | — | ["puissiez"] | false | À condition que + subjunctive: que vous puissiez.
 - b2-negotiating-ex004 | fill-in | Complétez : Nous baissons le prix en ___ d'une commande plus importante. | — | ["échange"] | false | En échange de: in exchange for.
 - b2-negotiating-ex005 | connector-choice | Choisissez le connecteur : Nous acceptons votre offre, ___ le prix change d'ici là. | ["à moins que","parce que","dès que"] | ["à moins que"] | false | À moins que + subjunctive: unless. Parce que and dès que take the indicative.
-- b2-negotiating-ex006 | register-shift | Transformez en registre soutenu, en commençant par « Je regrette, mais » : Non, ce n'est pas possible ! | — | ["Je regrette, mais ce ne serait pas possible","Je regrette, mais ce n'est pas possible"] | false | A polite refusal: an apology, then a softer phrase, often in the conditionnel.
+- b2-negotiating-ex006 | register-shift | Transformez en registre soutenu, en commençant par « Je regrette, mais » : Non, ce n'est pas possible ! | — | ["Je regrette, mais ce ne serait pas possible","Je regrette, mais ce n'est pas possible","Je regrette, mais cela ne serait pas possible","Je regrette, mais cela n'est pas possible"] | false | A polite refusal: an apology, then a softer phrase, often in the conditionnel.
 - b2-negotiating-ex007 | register-shift | Transformez en registre soutenu, avec le conditionnel : Nous voulons une remise. | — | ["Nous voudrions une remise","Nous aimerions une remise"] | false | The conditionnel softens a request.
 - b2-negotiating-ex008 | reformulation | Reformulez avec « si » + imparfait et « nous serions prêts à » : Si vous payez avant mai, nous baissons le prix. | — | ["Si vous payiez avant mai, nous serions prêts à baisser le prix","Nous serions prêts à baisser le prix si vous payiez avant mai"] | true | Si + imparfait with the conditionnel sounds more polite than si + present.
 - b2-negotiating-ex009 | reformulation | Reformulez avec « certes…, mais » : Le prix est élevé. Le délai est court. | — | ["Certes, le prix est élevé, mais le délai est court"] | false | Certes concedes the first point, mais brings the second.
@@ -8005,8 +8006,8 @@ id | type | prompt | options | answers | strictAccents | explanation
 - b2-presenting-data-ex010 | multiple-choice | Indiquez le sens de : Plus on attend, plus c'est cher. | ["The longer you wait, the more expensive it is.","If you wait, it's cheaper.","You wait more, but it's cheap."] | ["The longer you wait, the more expensive it is."] | false | Plus… plus: the more… the more.
 - b2-presenting-data-ex011 | fill-in | Complétez : Cette hausse est d'___ plus importante que le marché recule. | — | ["autant"] | false | D'autant plus… que: all the more… since.
 - b2-presenting-data-ex012 | translate | Traduisez avec « augmenter de » : Sales rose by 10% in two years. | — | ["Les ventes ont augmenté de 10 % en deux ans","Les ventes ont augmenté de dix pour cent en deux ans","Les ventes ont augmenté de 10 pour cent en deux ans"] | false | Augmenter de + the percentage, then en + the period.
-- b2-presenting-data-ex013 | translate | Rédigez en complétant comme indiqué : Le graphique montre (the trend) de la part des ventes en ligne. Elle (went from) 20 % (to) 30 %. Elle a donc (risen by) 10 points. | — | ["Le graphique montre l'évolution de la part des ventes en ligne. Elle est passée de 20 % à 30 %. Elle a donc augmenté de 10 points.","Le graphique montre l'évolution de la part des ventes en ligne. Elle est passée de 20 % à 30 %. Elle a donc augmenté de dix points."] | true | L'évolution, passer de… à (with être, agreeing with la part) and augmenter de. A share that goes from 20 % to 30 % rises by ten points.
-- b2-presenting-data-ex014 | translate | Rédigez en complétant comme indiqué : (On average), nos équipes font deux réunions par semaine. Dans notre équipe, c'est (nearly) quatre, (that is to say) (clearly) plus. | — | ["En moyenne, nos équipes font deux réunions par semaine. Dans notre équipe, c'est près de quatre, c'est-à-dire nettement plus."] | true | En moyenne, près de and nettement for a comparison.
+- b2-presenting-data-ex013 | translate | Rédigez en complétant comme indiqué : Le graphique montre (the trend) de la part des ventes en ligne. Elle (went from: passer, passé composé) 20 % (to) 30 %. Elle a donc (risen by: augmenter) 10 points. | — | ["Le graphique montre l'évolution de la part des ventes en ligne. Elle est passée de 20 % à 30 %. Elle a donc augmenté de 10 points.","Le graphique montre l'évolution de la part des ventes en ligne. Elle est passée de 20 % à 30 %. Elle a donc augmenté de dix points."] | true | L'évolution, passer de… à (with être, agreeing with la part) and augmenter de. A share that goes from 20 % to 30 % rises by ten points.
+- b2-presenting-data-ex014 | translate | Rédigez en complétant comme indiqué : (On average: moyenne), nos équipes font deux réunions par semaine. Dans notre équipe, c'est (nearly: près) quatre, (that is to say) (clearly: nettement) plus. | — | ["En moyenne, nos équipes font deux réunions par semaine. Dans notre équipe, c'est près de quatre, c'est-à-dire nettement plus."] | true | En moyenne, près de and nettement for a comparison.
 - b2-presenting-data-ex015 | reorder | Remettez dans l'ordre : The more you work, the more you progress. | — | ["Plus on travaille, plus on progresse"] | false | Plus + clause, plus + clause, with no article.
 
 ## b2-formal-report
@@ -8029,9 +8030,9 @@ fr | pron | en | note
 - un axe d'amélioration | uh-nahks dah-may-lyoh-rah-SYOHN | an area for improvement | —
 - un indicateur | uh-nan-dee-kah-TUHR | an indicator, a measure of progress | —
 - le suivi | luh swee-VEE | the follow-up | —
+- un plan d'action | uhn plahn dak-SYOHN | an action plan | —
 - l'isolement / isolé | lee-zol-MAHN / ee-zoh-LAY | isolation / isolated | —
 - satisfait / satisfaite | sah-tees-FEH / sah-tees-FET | satisfied | —
-- un plan d'action | uhn plahn dak-SYOHN | an action plan | —
 
 ### Exercises
 
