@@ -228,5 +228,7 @@ C1 inherits every B2 convention unless it's changed here. Plans are in docs/plan
   - A claim about a proportion of speakers, users or the population follows the no-figures rule: rephrase it without the proportion, or add it to docs/review-needed.md.
   - English glosses and translations must not use an English idiom with another meaning (old maid, public school…); choose the plain word.
   - A claim about literary or intellectual history that uses "after", "first", "founded" or a label (existentialist, romantic…) is checked against the dates and against what the author accepted; contested labels are given as "often linked with".
+  - For a law, a treaty or an official text, say what the date is: adopted, published or in force ("adopted in 2016, applied since 2018").
+  - Every accepted answer must keep the meaning of the prompt; a variant that changes the meaning is not accepted, however natural (rule 7 applies to keys).
 
 @AGENTS.md

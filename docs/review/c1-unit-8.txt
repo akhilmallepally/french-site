@@ -1,0 +1,1513 @@
+===== content/lessons/c1/euphemism-and-synonyms.mdx =====
+---
+id: "c1-euphemism-and-synonyms"
+title: "Euphemism and nuance in synonyms"
+description: "Euphemisms in public and polite language (une personne âgée, un demandeur d'emploi, un plan social, il nous a quittés), why they're used and how to read them, and near-synonyms ranked by strength and register: peur, crainte, effroi, terreur; problème, souci, difficulté, préoccupation; regarder, observer, contempler."
+level: "C1"
+unit: "Towards DALF C1"
+order: 51
+type: "vocabulary"
+tags: ["vocabulary", "register", "nuance", "style"]
+prerequisites: ["c1-precise-verbs", "b2-reporting-verbs", "b2-social-issues", "c1-rhetorical-devices"]
+related: ["c1-irony-and-understatement", "c1-register-shifting", "c1-diplomatic-language"]
+vocab:
+  - { id: "c1-euphemism-and-synonyms-v001", group: "soft", fr: "un euphémisme", pron: "uh-nuh-fay-MEES-muh", en: "a euphemism" }
+  - { id: "c1-euphemism-and-synonyms-v002", group: "soft", fr: "euphémiser", pron: "uh-fay-mee-ZAY", en: "to soften (with a euphemism), to play down" }
+  - { id: "c1-euphemism-and-synonyms-v003", group: "soft", fr: "une personne âgée", pron: "ewn pehr-sonn ah-ZHAY", en: "an older person, an elderly person" }
+  - { id: "c1-euphemism-and-synonyms-v004", group: "soft", fr: "une personne en situation de handicap", pron: "ewn pehr-sonn ahn see-tew-ah-syohn duh ahn-dee-KAP", en: "a person with a disability" }
+  - { id: "c1-euphemism-and-synonyms-v005", group: "soft", fr: "un non-voyant / une non-voyante", pron: "uhn nohn-vwah-YAHN / ewn nohn-vwah-YAHNT", en: "a blind person, a visually impaired person" }
+  - { id: "c1-euphemism-and-synonyms-v006", group: "soft", fr: "un demandeur d'emploi / une demandeuse d'emploi", pron: "uhn duh-mahn-duhr dahn-PLWAH / ewn duh-mahn-duhz dahn-PLWAH", en: "a jobseeker" }
+  - { id: "c1-euphemism-and-synonyms-v007", group: "soft", fr: "un plan social", pron: "uhn plahn soh-SYAL", en: "a redundancy plan (literally, a social plan)" }
+  - { id: "c1-euphemism-and-synonyms-v008", group: "soft", fr: "un technicien de surface / une technicienne de surface", pron: "uhn tek-nee-syan duh sewr-FASS", en: "a cleaner (over-polite, often mocked)" }
+  - { id: "c1-euphemism-and-synonyms-v009", group: "soft", fr: "nous quitter (il nous a quittés)", pron: "noo kee-TAY (eel noo-zah kee-TAY)", en: "to pass away (he has passed away)" }
+  - { id: "c1-euphemism-and-synonyms-v010", group: "near", fr: "un synonyme / un quasi-synonyme", pron: "uhn see-noh-NEEM / uhn kah-zee-see-noh-NEEM", en: "a synonym / a near-synonym" }
+  - { id: "c1-euphemism-and-synonyms-v011", group: "near", fr: "la crainte", pron: "lah KRANT", en: "fear, apprehension (more formal than la peur)" }
+  - { id: "c1-euphemism-and-synonyms-v012", group: "near", fr: "l'effroi (m.)", pron: "leh-FRWAH", en: "dread, terror (literary)" }
+  - { id: "c1-euphemism-and-synonyms-v013", group: "near", fr: "la terreur", pron: "lah teh-RUHR", en: "terror" }
+  - { id: "c1-euphemism-and-synonyms-v014", group: "near", fr: "un souci", pron: "uhn soo-SEE", en: "a worry, a problem (everyday)" }
+  - { id: "c1-euphemism-and-synonyms-v015", group: "near", fr: "une préoccupation", pron: "ewn pray-oh-kew-pah-SYOHN", en: "a concern (formal)" }
+  - { id: "c1-euphemism-and-synonyms-v016", group: "near", fr: "observer", pron: "op-sehr-VAY", en: "to observe, to watch closely" }
+  - { id: "c1-euphemism-and-synonyms-v017", group: "near", fr: "contempler", pron: "kohn-tahn-PLAY", en: "to contemplate, to gaze at (with admiration)" }
+  - { id: "c1-euphemism-and-synonyms-v018", group: "near", fr: "comblé / comblée", pron: "kohn-BLAY", en: "overjoyed, fulfilled" }
+exercises:
+  - id: "c1-euphemism-and-synonyms-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez ce que veut dire « un plan social » dans une entreprise."
+    options: ["un plan de licenciements", "une fête pour les salariés", "une augmentation des salaires"]
+    answers: ["un plan de licenciements"]
+    explanation: "Un plan social is a euphemism for a plan to make employees redundant."
+  - id: "c1-euphemism-and-synonyms-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot le plus fort : la peur, la crainte, la terreur."
+    options: ["la terreur", "la crainte", "la peur"]
+    answers: ["la terreur"]
+    explanation: "From weakest to strongest: la crainte, la peur, la terreur; l'effroi is literary."
+  - id: "c1-euphemism-and-synonyms-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre du mot « souci » dans : J'ai un petit souci avec ma voiture."
+    options: ["courant", "soutenu", "littéraire"]
+    answers: ["courant"]
+    explanation: "Un souci is everyday French; une préoccupation is the formal word."
+  - id: "c1-euphemism-and-synonyms-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe : Assis sur un banc, il ___ la mer pendant des heures : il la trouvait si belle !"
+    options: ["contemplait", "surveillait", "mesurait"]
+    answers: ["contemplait"]
+    explanation: "Contempler: to gaze at with admiration; il la trouvait si belle shows the feeling. Surveiller is to keep watch; mesurer is to measure."
+  - id: "c1-euphemism-and-synonyms-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Dire « il nous a quittés » au lieu de « il est mort », c'est utiliser un ___."
+    answers: ["euphémisme"]
+    explanation: "Un euphémisme softens a hard reality."
+  - id: "c1-euphemism-and-synonyms-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Une personne qui cherche du travail est un demandeur d'___."
+    answers: ["emploi"]
+    explanation: "Un demandeur d'emploi: the official, neutral term."
+  - id: "c1-euphemism-and-synonyms-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez le terme neutre et respectueux : une personne ___."
+    options: ["en situation de handicap", "pas normale", "malade de naissance"]
+    answers: ["en situation de handicap"]
+    explanation: "Une personne en situation de handicap is the usual respectful term."
+  - id: "c1-euphemism-and-synonyms-ex008"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « une préoccupation » : C'est notre plus gros souci."
+    answers: ["C'est notre principale préoccupation", "C'est notre plus grande préoccupation", "C'est notre préoccupation principale"]
+    explanation: "Un souci (everyday) becomes une préoccupation (formal); gros becomes principal or grand."
+  - id: "c1-euphemism-and-synonyms-ex009"
+    type: "register-shift"
+    prompt: "Transformez avec un euphémisme, « nous quitter », au passé composé : Mon grand-père est mort l'année dernière."
+    answers: ["Mon grand-père nous a quittés l'année dernière", "L'année dernière, mon grand-père nous a quittés"]
+    strictAccents: true
+    explanation: "Il nous a quittés: a gentle way to say he died. Quittés agrees with nous."
+  - id: "c1-euphemism-and-synonyms-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « euphémiser » : Le ministre a présenté la situation comme moins grave qu'elle n'est."
+    answers: ["Le ministre a euphémisé la situation"]
+    strictAccents: true
+    explanation: "Euphémiser: to play down with soft words."
+  - id: "c1-euphemism-and-synonyms-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « comblé » (un homme parle) : Je suis plus qu'heureux, j'ai tout ce que je voulais."
+    answers: ["Je suis comblé"]
+    explanation: "Comblé: so happy that nothing is missing."
+  - id: "c1-euphemism-and-synonyms-ex012"
+    type: "translate"
+    prompt: "Traduisez (une personne âgée) : This service helps older people."
+    answers: ["Ce service aide les personnes âgées"]
+    explanation: "Les personnes âgées: the neutral, respectful term."
+  - id: "c1-euphemism-and-synonyms-ex013"
+    type: "translate"
+    prompt: "Traduisez (la crainte) : Her fear of failure prevents her from trying."
+    answers: ["Sa crainte de l'échec l'empêche d'essayer"]
+    explanation: "La crainte de + noun: a more formal word than la peur."
+  - id: "c1-euphemism-and-synonyms-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de registre (gardez le registre soutenu) : Madame, nous avons un gros souci concernant votre dossier."
+    answers: ["Madame, nous avons une préoccupation concernant votre dossier", "Madame, nous avons une difficulté concernant votre dossier"]
+    explanation: "Un gros souci is everyday French; in a formal letter, une préoccupation or une difficulté."
+  - id: "c1-euphemism-and-synonyms-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de mot : La scientifique contemple les oiseaux pour les compter."
+    answers: ["La scientifique observe les oiseaux pour les compter"]
+    explanation: "Contempler implies admiration; a scientist who counts observes."
+  - id: "c1-euphemism-and-synonyms-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : This expression is a euphemism."
+    words: ["Cette", "expression", "est", "un", "euphémisme"]
+    answers: ["Cette expression est un euphémisme"]
+    explanation: "Un euphémisme: masculine."
+---
+
+By the end of this lesson you'll be able to recognize euphemisms in public and polite French, use the respectful terms that have become standard, and choose between near-synonyms by strength and register.
+
+## What you already know
+
+You know *affirmer*, *prétendre* and *déclarer* from <LessonLink id="b2-reporting-verbs" text="the lesson on reporting verbs" />, where the verb you choose shows what you think of a claim. You know *la litote* and *la gradation* from <LessonLink id="c1-rhetorical-devices" text="the lesson on rhetorical devices" />, and *un chômeur* from <LessonLink id="b2-social-issues" text="the lesson on social issues" />. This lesson looks at two kinds of word choice: softening, and choosing the exact strength.
+
+## Euphemisms
+
+<VocabTable group="soft" />
+
+*Un euphémisme* replaces a hard or unpleasant word with a softer one. To *euphémiser* is to play something down with gentle words. French uses euphemisms for three reasons, and it helps to know which one is at work.
+
+**Respect.** Some euphemisms have simply become the standard, respectful term. *Une personne âgée* (an older person) is the usual word for someone old; *une personne en situation de handicap* (a person with a disability) puts the person first; *un non-voyant* is a polite word for a blind person. In public and professional French, use these terms.
+
+<Example fr="Ce service de transport est réservé aux personnes âgées et aux personnes en situation de handicap." en="This transport service is reserved for older people and people with disabilities." />
+
+**Politeness and grief.** To speak of a death gently, people say *il nous a quittés* (he has passed away) or *elle a disparu* (she has gone), which you know from the lesson on the plus-que-parfait.
+
+<Example fr="Notre ancien directeur nous a quittés la semaine dernière." en="Our former director passed away last week." />
+
+**Administration and business.** Official language also softens. *Un demandeur d'emploi* (a jobseeker) is the administrative term for someone looking for work, more neutral than *un chômeur*. *Un plan social* means a plan to make employees redundant. *Un technicien de surface* (a cleaner) is often quoted, and mocked, as an example of over-polite language.
+
+<Example fr="L'entreprise a annoncé un plan social : deux cents postes seront supprimés." en="The company announced a redundancy plan: two hundred jobs will be cut." />
+<Example fr="Les demandeurs d'emploi peuvent se former sans payer." en="Jobseekers can get training without paying." />
+
+Views on these softer words differ. For some, they show respect and avoid hurting people. For others, some of them hide reality: a reader should know that *un plan social* means job losses. As a reader, translate each euphemism back into plain words before you judge the text; as a writer, use the respectful terms, and avoid the ones that hide facts.
+
+A euphemism is close to the litote you know: both say less. The difference is the aim. A litote says less to mean more (*ce n'est pas mal*, it's very good), while a euphemism says less to soften. In irony, a speaker may also use a euphemism on purpose, to make a hard fact sound absurdly gentle.
+
+<Example fr="Le journaliste refuse d'euphémiser : il parle de licenciements, pas de plan social." en="The journalist refuses to soften it: he talks about redundancies, not a &quot;social plan&quot;." />
+<Example fr="« Technicien de surface » est un euphémisme dont on se moque souvent." en="&quot;Technicien de surface&quot; is a euphemism that people often make fun of." />
+
+## Near-synonyms: strength
+
+<VocabTable group="near" />
+
+*Un synonyme* has the same meaning as another word; in practice, most are *des quasi-synonymes* (near-synonyms) that differ in strength or register. Learn them as ladders.
+
+| Weaker or neutral | Stronger | Strongest |
+|---|---|---|
+| *la crainte* (apprehension, formal) | *la peur* (fear) | *la terreur*; *l'effroi* (literary) |
+| *content* (pleased) | *ravi* (delighted) | *comblé* (overjoyed, fulfilled) |
+| *regarder* (to look at) | *observer* (to watch closely) | *contempler* (to gaze at with admiration) |
+
+<Example fr="Elle a exprimé sa crainte d'un nouvel échec." en="She expressed her apprehension of another failure." />
+<Example fr="Pendant la guerre, les habitants vivaient dans la terreur." en="During the war, the inhabitants lived in terror." />
+<Example fr="Il resta immobile, saisi d'effroi." en="He stood still, seized with dread. (literary)" />
+<Example fr="Avec sa famille et son travail, elle se sent comblée." en="With her family and her work, she feels fulfilled." />
+<Example fr="Le chercheur observe les oiseaux depuis dix ans ; le voyageur, lui, contemple la mer." en="The researcher has been observing birds for ten years; the traveller, for his part, gazes at the sea." />
+
+## Near-synonyms: register
+
+Some synonyms differ less in strength than in register. A *problème* is neutral; *un souci* (a worry, a problem) is everyday and slightly softer; *une difficulté* is neutral to formal; *une préoccupation* (a concern) belongs to formal writing.
+
+<Example fr="J'ai un petit souci avec mon ordinateur." en="I've got a little problem with my computer. (everyday)" />
+<Example fr="La sécurité des usagers est notre première préoccupation." en="The safety of users is our first concern. (formal)" />
+
+As a rule of thumb, when two words seem equal, ask two questions: is one stronger, and is one more formal? Then choose for your reader, as you learned in the lesson on register shifting.
+
+## En français
+
+Two journalists, Hugo and Samira, check a headline before it goes online.
+
+- *Tu as vu le titre ? « L'usine annonce un plan social ».* (Have you seen the headline? "The factory announces a social plan".)
+- *C'est un euphémisme. Nos lecteurs doivent comprendre qu'il y aura des licenciements.* (That's a euphemism. Our readers must understand that there will be redundancies.)
+- *D'accord, on écrit « L'usine va supprimer des emplois ».* (OK, we write "The factory is going to cut jobs".)
+- *Et dans l'article, tu parles des « vieux » du quartier.* (And in the article, you talk about the "old people" of the neighbourhood.)
+- *Oui, c'est un peu brutal. Je mets « les personnes âgées ».* (Yes, it's a bit harsh. I'll put "older people".)
+- *Là, l'euphémisme est justifié : c'est le terme respectueux.* (There, the euphemism is justified: it's the respectful term.)
+- *Et « la peur des salariés », c'est assez fort ?* (And "the employees' fear", is that strong enough?)
+- *Pour un article, je dirais « l'inquiétude ». « La terreur », ce serait exagéré.* (For an article, I'd say "worry". "Terror" would be exaggerated.)
+- *Tu as raison. Il faut le mot juste, ni plus fort ni plus faible.* (You're right. You need the right word, neither stronger nor weaker.)
+- *Exactement. On ne doit ni euphémiser ni exagérer.* (Exactly. We must neither play it down nor exaggerate.)
+- *Bon, je relis une dernière fois et je publie.* (Right, I'll reread it one last time and publish.)
+- *Parfait. Le directeur sera comblé.* (Perfect. The editor will be delighted.)
+
+<Callout type="warning" title="Une personne âgée, not une vieille personne, in public French">
+  Learners often translate "an old person" word for word. In public, professional or written French, use the respectful term: **une personne âgée**, **les personnes âgées**. *Un vieux* or *une vieille* can sound rude.
+</Callout>
+
+<Callout type="tip" title="Build a three-step ladder">
+  Each time you learn a word for a feeling, look for one weaker and one stronger word, and write the three on one line: *contrarié, fâché, furieux*. When you write, check that the step you chose matches the facts, neither softer nor stronger.
+</Callout>
+
+## En résumé
+
+Un euphémisme remplace un mot dur par un mot plus doux, et euphémiser, c'est présenter une réalité de façon moins dure. Certains euphémismes sont devenus les termes respectueux : on dit une personne âgée, une personne en situation de handicap, un non-voyant, et un demandeur d'emploi dans la langue administrative. Pour parler d'une mort, on dit qu'une personne nous a quittés. D'autres euphémismes cachent une réalité : un plan social annonce des licenciements, et le mot technicien de surface fait souvent rire. Il faut donc traduire chaque euphémisme en mots simples avant de juger un texte. Les quasi-synonymes se distinguent par la force et par le registre : la crainte est moins forte que la peur, et la terreur ou l'effroi sont plus forts. Un souci est courant, une préoccupation est soutenue. On regarde, on observe avec attention, on contemple ce qu'on trouve beau, et une personne comblée a tout ce qu'elle voulait.
+
+## What's next
+
+Next, <LessonLink id="c1-spoken-discourse-markers" text="the lesson on spoken discourse markers" /> turns to the small words that organize spoken French: *enfin*, *bon*, *quand même*, *disons*.
+
+===== content/lessons/c1/spoken-discourse-markers.mdx =====
+---
+id: "c1-spoken-discourse-markers"
+title: "Spoken discourse markers"
+description: "The small words that organize spoken French: bon, eh bien and voilà to open and close; enfin, en fait and disons to correct and approximate; si tu veux and à la limite to hedge; quand même ! and tiens ! to react; remarque and cela dit to add a nuance; tu vois ? to check, with their register."
+level: "C1"
+unit: "Towards DALF C1"
+order: 52
+type: "vocabulary"
+tags: ["vocabulary", "speaking", "register", "conversation"]
+prerequisites: ["b2-colloquial-french", "c1-register-shifting", "b2-concession-opposition"]
+related: ["c1-euphemism-and-synonyms", "c1-leading-a-meeting", "c1-exam-oral-presentation"]
+vocab:
+  - { id: "c1-spoken-discourse-markers-v001", group: "frame", fr: "bon, alors…", pron: "bonn ah-LOR", en: "right, so… (to start or move on)" }
+  - { id: "c1-spoken-discourse-markers-v002", group: "frame", fr: "eh bien…", pron: "ay BYAN", en: "well… (to start an answer)" }
+  - { id: "c1-spoken-discourse-markers-v003", group: "frame", fr: "voilà", pron: "vwah-LAH", en: "there you go, that's it (to close a point)" }
+  - { id: "c1-spoken-discourse-markers-v004", group: "adjust", fr: "enfin, je veux dire…", pron: "ahn-fan zhuh vuh DEER", en: "well, I mean… (to correct yourself)" }
+  - { id: "c1-spoken-discourse-markers-v005", group: "adjust", fr: "en fait", pron: "ahn FET", en: "actually, in fact (to correct an idea)" }
+  - { id: "c1-spoken-discourse-markers-v006", group: "adjust", fr: "disons que…", pron: "dee-zohn KUH", en: "let's say that… (to approximate or soften)" }
+  - { id: "c1-spoken-discourse-markers-v007", group: "adjust", fr: "si tu veux / si vous voulez", pron: "see tew VUH / see voo voo-LAY", en: "if you like, in a way (to hedge)" }
+  - { id: "c1-spoken-discourse-markers-v008", group: "adjust", fr: "à la limite", pron: "ah lah lee-MEET", en: "at a pinch, if it comes to it" }
+  - { id: "c1-spoken-discourse-markers-v009", group: "react", fr: "quand même !", pron: "kahn MEM", en: "honestly! really! (indignation, insistence)" }
+  - { id: "c1-spoken-discourse-markers-v010", group: "react", fr: "tiens ! / tenez !", pron: "TYAN / tuh-NAY", en: "oh look! / here (surprise; handing something over)" }
+  - { id: "c1-spoken-discourse-markers-v011", group: "react", fr: "remarque / remarquez", pron: "ruh-MARK / ruh-mar-KAY", en: "mind you" }
+  - { id: "c1-spoken-discourse-markers-v012", group: "react", fr: "cela dit / ceci dit", pron: "suh-lah DEE / suh-see DEE", en: "that said, having said that" }
+  - { id: "c1-spoken-discourse-markers-v013", group: "react", fr: "pour le coup", pron: "poor luh KOO", en: "this time, for once, in this case (familiar)" }
+  - { id: "c1-spoken-discourse-markers-v014", group: "react", fr: "tu vois ? / vous voyez ?", pron: "tew VWAH / voo vwah-YAY", en: "you see? (to check the listener follows)" }
+  - { id: "c1-spoken-discourse-markers-v015", group: "react", fr: "en réalité", pron: "ahn ray-ah-lee-TAY", en: "in reality, in fact (written)" }
+  - { id: "c1-spoken-discourse-markers-v016", group: "react", fr: "un marqueur de discours", pron: "uhn mar-kuhr duh dees-KOOR", en: "a discourse marker" }
+exercises:
+  - id: "c1-spoken-discourse-markers-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le rôle de « enfin » dans : Il arrive lundi, enfin, je veux dire mardi."
+    options: ["revenir sur ce qu'on vient de dire", "conclure une liste", "exprimer la colère"]
+    answers: ["revenir sur ce qu'on vient de dire"]
+    explanation: "Enfin, je veux dire: the speaker corrects what he has just said."
+  - id: "c1-spoken-discourse-markers-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le rôle de « quand même » dans : Tu aurais pu prévenir, quand même !"
+    options: ["exprimer un reproche", "donner un exemple", "changer de sujet"]
+    answers: ["exprimer un reproche"]
+    explanation: "Quand même ! at the end adds indignation or insistence."
+  - id: "c1-spoken-discourse-markers-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le rôle de « tiens » dans : Tiens, il pleut !"
+    options: ["exprimer la surprise", "revenir sur une erreur", "conclure"]
+    answers: ["exprimer la surprise"]
+    explanation: "Tiens ! marks surprise at something you notice."
+  - id: "c1-spoken-discourse-markers-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le rôle de « voilà » dans : On réserve la salle, on envoie les invitations, et voilà."
+    options: ["conclure", "exprimer un doute", "poser une question"]
+    answers: ["conclure"]
+    explanation: "Et voilà closes a list or an explanation."
+  - id: "c1-spoken-discourse-markers-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le marqueur qu'on peut garder dans un courriel de travail."
+    options: ["cela dit", "quand même !", "pour le coup"]
+    answers: ["cela dit"]
+    explanation: "Cela dit works in writing; quand même ! and pour le coup are spoken."
+  - id: "c1-spoken-discourse-markers-ex006"
+    type: "connector-choice"
+    prompt: "Choisissez le marqueur : Je pensais qu'il était fâché. ___, il était seulement fatigué."
+    options: ["En fait", "Tiens", "Quand même"]
+    answers: ["En fait"]
+    explanation: "En fait corrects a wrong idea: actually."
+  - id: "c1-spoken-discourse-markers-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez le marqueur : Le film est long. ___, la fin est très belle."
+    options: ["Cela dit", "Tiens", "Voilà"]
+    answers: ["Cela dit"]
+    explanation: "Cela dit adds a nuance after a criticism: that said."
+  - id: "c1-spoken-discourse-markers-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez le marqueur : Je préfère le train. ___, je peux prendre la voiture si c'est plus simple."
+    options: ["À la limite", "Tiens", "Voilà"]
+    answers: ["À la limite"]
+    explanation: "À la limite: at a pinch, as a last option."
+  - id: "c1-spoken-discourse-markers-ex009"
+    type: "register-shift"
+    prompt: "Transformez au registre écrit, sans les marqueurs de l'oral : Bon, alors, en fait, la réunion est reportée, voilà."
+    answers: ["La réunion est reportée", "En réalité, la réunion est reportée"]
+    explanation: "In writing, the markers go: only the information stays."
+  - id: "c1-spoken-discourse-markers-ex010"
+    type: "register-shift"
+    prompt: "Transformez au registre écrit, sans les marqueurs de l'oral : Disons que le projet a pris un peu de retard, tu vois ?"
+    answers: ["Le projet a pris un peu de retard"]
+    strictAccents: true
+    explanation: "Disons que softens; tu vois ? checks the listener. Neither belongs in a written report."
+  - id: "c1-spoken-discourse-markers-ex011"
+    type: "register-shift"
+    prompt: "Transformez au registre écrit, avec « cela dit » : C'est cher. Remarque, c'est de très bonne qualité."
+    answers: ["C'est cher. Cela dit, c'est de très bonne qualité", "C'est cher ; cela dit, c'est de très bonne qualité"]
+    explanation: "Remarque is spoken; cela dit carries the same nuance in writing."
+  - id: "c1-spoken-discourse-markers-ex012"
+    type: "translate"
+    prompt: "Traduisez à l'oral (en fait) : Actually, I've changed my mind."
+    answers: ["En fait, j'ai changé d'avis"]
+    strictAccents: true
+    explanation: "En fait: actually, correcting what was expected."
+  - id: "c1-spoken-discourse-markers-ex013"
+    type: "translate"
+    prompt: "Traduisez à l'oral (enfin, je veux dire) : He's thirty, well, I mean thirty-one."
+    answers: ["Il a trente ans, enfin, je veux dire trente et un", "Il a trente ans, enfin, je veux dire trente et un ans"]
+    strictAccents: true
+    explanation: "Enfin, je veux dire corrects a detail on the spot."
+  - id: "c1-spoken-discourse-markers-ex014"
+    type: "reformulation"
+    prompt: "Reformulez à l'oral, avec « disons que » : Le résultat n'est pas très bon."
+    answers: ["Disons que le résultat n'est pas très bon"]
+    explanation: "Disons que softens a negative judgment."
+  - id: "c1-spoken-discourse-markers-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de registre (gardez le registre soutenu) : Madame, nous avons reçu votre demande. Bon, voilà, nous vous répondrons sous peu."
+    answers: ["Madame, nous avons reçu votre demande. Nous vous répondrons sous peu", "Madame, nous avons reçu votre demande et nous vous répondrons sous peu"]
+    explanation: "Bon and voilà are spoken markers; they don't belong in a formal letter."
+  - id: "c1-spoken-discourse-markers-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Actually, the shop is closed on Mondays."
+    words: ["En", "fait", "le", "magasin", "est", "fermé", "le", "lundi"]
+    answers: ["En fait, le magasin est fermé le lundi"]
+    explanation: "En fait at the start of the sentence."
+---
+
+By the end of this lesson you'll be able to understand and use the small words that organize spoken French, and know which of them to keep out of formal writing.
+
+## What you already know
+
+You know the fillers and reductions of everyday speech (*ben*, *du coup*, *en gros*, *genre*, *quoi*) from <LessonLink id="b2-colloquial-french" text="the lesson on spoken, everyday French" />, *quand même* (all the same) from <LessonLink id="b2-concession-opposition" text="the lesson on concession and opposition" />, and *justement* from <LessonLink id="b2-mise-en-relief" text="the lesson on emphasis" />. You know how to move between registers from <LessonLink id="c1-register-shifting" text="the lesson on shifting register" />. This lesson looks at the markers that structure a conversation.
+
+## What markers do
+
+*Un marqueur de discours* (a discourse marker) adds no information; it tells the listener how to take what you're saying: you're starting, correcting yourself, hesitating, reacting or checking that they follow. Native speakers use them constantly, and a learner who never does sounds stiff. Used too often, they sound like hesitation. As a rule of thumb, one or two per sentence is plenty.
+
+<Example fr="Ces petits mots sont des marqueurs de discours : ils organisent la conversation." en="These small words are discourse markers: they organize the conversation." />
+
+## Opening and closing
+
+<VocabTable group="frame" />
+
+*Bon, alors…* opens a new topic or moves things on, often at the start of a meeting or a call. *Eh bien…* (well…) starts an answer, especially when you need a second to think. *Voilà* closes a point, a list or an explanation: there you go, that's it.
+
+<Example fr="Bon, alors, on commence par le budget ?" en="Right, so, shall we start with the budget? (spoken)" />
+<Example fr="Eh bien, je ne m'attendais pas à cette question." en="Well, I wasn't expecting that question. (spoken)" />
+<Example fr="On envoie le dossier, on attend la réponse, et voilà." en="We send the file, we wait for the answer, and that's it. (spoken)" />
+
+## Correcting, approximating and hedging
+
+<VocabTable group="adjust" />
+
+*Enfin*, which you know as "finally", has another use in speech: **enfin, je veux dire…** corrects what you've just said. *En fait* (actually) corrects an idea, yours or the listener's. *Disons que…* (let's say that…) gives an approximation or softens a judgment. *Si tu veux* or *si vous voulez* (if you like, in a way) hedges a word you're not sure fits. *À la limite* (at a pinch) presents a last option.
+
+<Example fr="La réunion est à dix heures, enfin, je veux dire à onze heures." en="The meeting is at ten, well, I mean at eleven. (spoken)" />
+<Example fr="On croit que c'est simple. En fait, c'est assez difficile." en="People think it's simple. Actually, it's fairly difficult. (spoken)" />
+<Example fr="Disons que ce n'était pas sa meilleure présentation." en="Let's say it wasn't her best presentation. (spoken)" />
+<Example fr="C'est une sorte de chef d'équipe, si vous voulez." en="He's a kind of team leader, if you like. (spoken)" />
+<Example fr="Je préfère jeudi. À la limite, vendredi matin." en="I prefer Thursday. At a pinch, Friday morning. (spoken)" />
+
+Note that *disons que* is a form of politeness: like the euphemism, it softens. *Disons que le résultat n'est pas très bon* is gentler than *le résultat est mauvais*.
+
+## Reacting and adding a nuance
+
+<VocabTable group="react" />
+
+**Quand même !** at the end of a sentence expresses indignation, a reproach or insistence: *tu aurais pu prévenir, quand même !* (honestly, you could have warned me!). It's different from *quand même* meaning "all the same", which you know.
+
+**Tiens !** marks surprise (*tiens, il pleut !*); *tiens* or *tenez* also accompanies a gesture of giving (*tenez, voici votre clé*).
+
+**Remarque** or *remarquez* (mind you) adds a point that slightly qualifies what you said. *Cela dit* or *ceci dit* (that said) does the same, and it's the one you can keep in writing. *Pour le coup* (this time, for once) is familiar.
+
+**Tu vois ?** or *vous voyez ?* checks that the listener follows.
+
+<Example fr="Tu aurais pu prévenir, quand même !" en="Honestly, you could have warned me! (spoken)" />
+<Example fr="Tiens, je ne savais pas que tu parlais allemand !" en="Oh, I didn't know you spoke German! (spoken)" />
+<Example fr="Tenez, voici votre clé." en="Here's your key." />
+<Example fr="L'hôtel est loin du centre. Remarque, il est très calme." en="The hotel is far from the centre. Mind you, it's very quiet. (spoken)" />
+<Example fr="Le projet coûte cher. Cela dit, il répond à un vrai besoin." en="The project is expensive. That said, it meets a real need." />
+<Example fr="D'habitude il est en retard, mais pour le coup, il est arrivé le premier." en="He's usually late, but this time he arrived first. (familiar)" />
+<Example fr="Il faut d'abord choisir le thème, tu vois ?" en="You have to choose the theme first, you see? (spoken)" />
+
+## Speech and writing
+
+As a rule of thumb, the markers in this lesson belong to speech. In an informal email, *en fait* and *cela dit* are fine. In formal writing, keep only *cela dit* and replace the others with written connectors: *en réalité* for *en fait*, *cependant* or *néanmoins* for *remarque*, *en somme* for *voilà*. When you rewrite spoken French for a report, the markers simply go; only the information stays.
+
+<Example fr="En réalité, la réunion est reportée." en="In fact, the meeting has been postponed. (written)" />
+
+## En français
+
+Inès and Paul plan a weekend away.
+
+- *Bon, alors, on part samedi ?* (Right, so, are we leaving on Saturday? (spoken))
+- *Eh bien, samedi, je travaille le matin.* (Well, on Saturday, I'm working in the morning. (spoken))
+- *Tiens, je croyais que tu ne travaillais plus le samedi.* (Oh, I thought you didn't work on Saturdays any more. (spoken))
+- *En fait, c'est seulement ce mois-ci.* (Actually, it's only this month. (spoken))
+- *D'accord. On part samedi midi, enfin, je veux dire vers treize heures.* (OK. We leave on Saturday at noon, well, I mean around one. (spoken))
+- *Parfait. Et on dort où ? Chez ta sœur ?* (Perfect. And where do we sleep? At your sister's? (spoken))
+- *Disons que ce n'est pas l'idéal : elle a trois enfants.* (Let's say it's not ideal: she has three children. (spoken))
+- *Un petit hôtel, alors ? Remarque, c'est plus cher.* (A small hotel, then? Mind you, it's more expensive. (spoken))
+- *Cela dit, on sera plus tranquilles.* (That said, we'll be quieter. (spoken))
+- *À la limite, on peut prendre une seule nuit.* (At a pinch, we can take just one night. (spoken))
+- *Oui. Et pour le coup, c'est toi qui réserves !* (Yes. And this time, you're the one who books! (familiar))
+- *Moi ? Tu pourrais le faire, quand même !* (Me? Honestly, you could do it! (spoken))
+- *Bon, je réserve. On trouve l'hôtel, on prend une nuit, et voilà.* (Right, I'll book. We find the hotel, we take one night, and that's it. (spoken))
+- *Voilà. Tu vois, c'était simple.* (There you go. You see, it was simple. (spoken))
+
+<Callout type="warning" title="En fait, not en effet, to correct">
+  Learners often confuse the two. *En effet* confirms what was just said (indeed); **en fait** corrects it (actually): *je croyais qu'il était parti ; **en fait**, il était encore là*.
+</Callout>
+
+<Callout type="tip" title="Listen for one marker at a time">
+  When you watch a French interview or podcast, choose one marker, such as *disons*, and note each time you hear it and what it does there. After three or four markers, start using them yourself, one at a time, in conversation.
+</Callout>
+
+## En résumé
+
+Les marqueurs de discours n'ajoutent pas d'information : ils montrent comment comprendre ce qu'on dit. Bon, alors ouvre un sujet, eh bien commence une réponse, et voilà ferme une explication. Enfin, je veux dire permet de revenir sur ce qu'on vient de dire, en fait change une idée fausse, et disons que donne une idée moins précise ou rend un jugement plus doux. Si tu veux, ou si vous voulez, montre qu'un mot ne convient pas tout à fait, et à la limite présente une dernière solution. Quand même, à la fin d'une phrase, exprime un reproche. Tiens marque la surprise, et tenez accompagne un objet qu'on donne. Remarque et cela dit ajoutent une nuance, pour le coup est familier, et tu vois vérifie que la personne suit. Ces mots appartiennent à l'oral : à l'écrit soutenu, on garde seulement cela dit, et on remplace les autres par des mots de l'écrit, comme en réalité ou cependant.
+
+## What's next
+
+Next, <LessonLink id="c1-culture-laicite-and-institutions" text="the lesson on laïcité and the institutions" /> explains how a key principle of the Republic is applied.
+
+===== content/lessons/c1/culture-laicite-and-institutions.mdx =====
+---
+id: "c1-culture-laicite-and-institutions"
+title: "Laïcité and the institutions"
+description: "How laïcité works as a set of rules: the 1905 law separating the Churches and the State, Article 1 of the Constitution, the neutrality of public services, the rules in state schools, the exceptions, and the main institutions of the Fifth Republic, explained as institutions, not opinions."
+level: "C1"
+unit: "Towards DALF C1"
+order: 53
+type: "culture"
+tags: ["culture", "institutions", "law", "society"]
+prerequisites: ["b1-culture-french-republic", "b2-politics-and-society", "c1-law-and-institutions"]
+related: ["c1-culture-enlightenment", "c1-culture-may-68", "c1-exam-written-tasks"]
+vocab:
+  - { id: "c1-culture-laicite-and-institutions-v001", group: "law", fr: "laïque", pron: "lah-EEK", en: "secular (of the State, a school)" }
+  - { id: "c1-culture-laicite-and-institutions-v002", group: "law", fr: "la séparation des Églises et de l'État", pron: "lah say-pah-rah-syohn day-zay-gleez ay duh lay-TAH", en: "the separation of the Churches and the State" }
+  - { id: "c1-culture-laicite-and-institutions-v003", group: "law", fr: "la liberté de conscience", pron: "lah lee-behr-tay duh kohn-SYAHNSS", en: "freedom of conscience (to believe or not to believe)" }
+  - { id: "c1-culture-laicite-and-institutions-v004", group: "law", fr: "un culte / le libre exercice des cultes", pron: "uhn KEWLT / luh lee-breg-zehr-sees day KEWLT", en: "a religion, a form of worship / the free exercise of worship" }
+  - { id: "c1-culture-laicite-and-institutions-v005", group: "law", fr: "subventionner", pron: "sewb-vahn-syoh-NAY", en: "to subsidize, to fund" }
+  - { id: "c1-culture-laicite-and-institutions-v006", group: "law", fr: "indivisible", pron: "an-dee-vee-ZEE-bluh", en: "indivisible" }
+  - { id: "c1-culture-laicite-and-institutions-v007", group: "apply", fr: "la neutralité", pron: "lah nuh-trah-lee-TAY", en: "neutrality" }
+  - { id: "c1-culture-laicite-and-institutions-v008", group: "apply", fr: "un agent public / une agente publique", pron: "uh-nah-zhahn pew-BLEEK / ew-nah-zhahnt pew-BLEEK", en: "a public employee, a civil servant" }
+  - { id: "c1-culture-laicite-and-institutions-v009", group: "apply", fr: "un signe religieux", pron: "uhn see-nyuh ruh-lee-ZHYUH", en: "a religious symbol" }
+  - { id: "c1-culture-laicite-and-institutions-v010", group: "apply", fr: "ostensible", pron: "os-tahn-SEE-bluh", en: "conspicuous, clearly visible" }
+  - { id: "c1-culture-laicite-and-institutions-v011", group: "apply", fr: "l'école publique (f.)", pron: "lay-kol pew-BLEEK", en: "state school, public education" }
+  - { id: "c1-culture-laicite-and-institutions-v012", group: "apply", fr: "un aumônier / une aumônière", pron: "uh-noh-moh-NYAY / ew-noh-moh-NYEHR", en: "a chaplain (in a hospital, a prison, the army)" }
+  - { id: "c1-culture-laicite-and-institutions-v013", group: "apply", fr: "le régime concordataire", pron: "luh ray-zheem kohn-kor-dah-TEHR", en: "the Concordat system (in Alsace and Moselle)" }
+  - { id: "c1-culture-laicite-and-institutions-v014", group: "power", fr: "le chef de l'État", pron: "luh shef duh lay-TAH", en: "the head of State" }
+  - { id: "c1-culture-laicite-and-institutions-v015", group: "power", fr: "le suffrage universel direct", pron: "luh sew-frahzh ew-nee-vehr-sel dee-REKT", en: "direct universal suffrage" }
+  - { id: "c1-culture-laicite-and-institutions-v016", group: "power", fr: "nommer", pron: "noh-MAY", en: "to appoint" }
+  - { id: "c1-culture-laicite-and-institutions-v017", group: "power", fr: "voter une loi", pron: "voh-tay ewn LWAH", en: "to pass a law (in Parliament)" }
+  - { id: "c1-culture-laicite-and-institutions-v018", group: "glossary", fr: "les convictions religieuses (f.)", pron: "lay kohn-veek-syohn ruh-lee-ZHYUHZ", en: "religious beliefs" }
+exercises:
+  - id: "c1-culture-laicite-and-institutions-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez l'année de la loi de séparation des Églises et de l'État."
+    options: ["1905", "1789", "1958"]
+    answers: ["1905"]
+    explanation: "The law was adopted on 9 December 1905."
+  - id: "c1-culture-laicite-and-institutions-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez ce que garantit la loi de 1905."
+    options: ["la liberté de conscience et le libre exercice des cultes", "une religion officielle pour l'État", "le droit de vote des femmes"]
+    answers: ["la liberté de conscience et le libre exercice des cultes"]
+    explanation: "Article 1 of the 1905 law: freedom of conscience and the free exercise of worship."
+  - id: "c1-culture-laicite-and-institutions-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez qui doit respecter la neutralité religieuse dans son travail."
+    options: ["un agent public", "un usager du service public", "un client d'un magasin"]
+    answers: ["un agent public"]
+    explanation: "Public employees must be neutral; users of public services keep their freedom of conscience."
+  - id: "c1-culture-laicite-and-institutions-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez où le régime concordataire existe encore."
+    options: ["en Alsace et en Moselle", "à Paris", "en Bretagne"]
+    answers: ["en Alsace et en Moselle"]
+    explanation: "Alsace and Moselle keep the Concordat system: they were German in 1905."
+  - id: "c1-culture-laicite-and-institutions-ex005"
+    type: "fill-in"
+    prompt: "Complétez l'article 1 de la Constitution : La France est une République indivisible, ___, démocratique et sociale."
+    answers: ["laïque"]
+    explanation: "Article 1 of the Constitution of 1958."
+  - id: "c1-culture-laicite-and-institutions-ex006"
+    type: "fill-in"
+    prompt: "Complétez : À l'hôpital, à l'armée et en prison, un ___ peut accompagner les personnes qui le souhaitent."
+    answers: ["aumônier"]
+    explanation: "Un aumônier: a chaplain. Chaplaincies in hospitals and prisons are an exception provided for in the 1905 law."
+  - id: "c1-culture-laicite-and-institutions-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Le président de la République est le ___."
+    options: ["chef de l'État", "Premier ministre", "Conseil d'État"]
+    answers: ["chef de l'État"]
+    explanation: "The President is the head of State; the Prime Minister leads the government."
+  - id: "c1-culture-laicite-and-institutions-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « la neutralité » : Au travail, un agent public ne montre pas ses convictions religieuses."
+    answers: ["Au travail, un agent public respecte la neutralité", "Un agent public respecte la neutralité au travail", "Au travail, un agent public est tenu à la neutralité"]
+    strictAccents: true
+    explanation: "La neutralité: public employees don't show their religious beliefs at work."
+  - id: "c1-culture-laicite-and-institutions-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « subventionner » : L'État ne donne d'argent à aucun culte."
+    answers: ["L'État ne subventionne aucun culte"]
+    explanation: "Article 2 of the 1905 law: the Republic doesn't subsidize any religion."
+  - id: "c1-culture-laicite-and-institutions-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « nommer » au présent : C'est le président de la République qui choisit le Premier ministre."
+    answers: ["Le président de la République nomme le Premier ministre"]
+    explanation: "Nommer: to appoint."
+  - id: "c1-culture-laicite-and-institutions-ex011"
+    type: "translate"
+    prompt: "Traduisez (le suffrage universel direct) : The President is elected by direct universal suffrage."
+    answers: ["Le président est élu au suffrage universel direct", "Le président de la République est élu au suffrage universel direct"]
+    strictAccents: true
+    explanation: "Élu au suffrage universel direct: elected directly by the voters."
+  - id: "c1-culture-laicite-and-institutions-ex012"
+    type: "translate"
+    prompt: "Traduisez (voter une loi) : Parliament passes the laws."
+    answers: ["Le Parlement vote les lois"]
+    explanation: "Voter une loi: to pass a law."
+  - id: "c1-culture-laicite-and-institutions-ex013"
+    type: "translate"
+    prompt: "Traduisez (un signe religieux, ostensible) : Conspicuous religious symbols are forbidden for pupils in state schools."
+    answers: ["Les signes religieux ostensibles sont interdits aux élèves des écoles publiques", "Les signes religieux ostensibles sont interdits pour les élèves des écoles publiques", "Dans les écoles publiques, les signes religieux ostensibles sont interdits aux élèves"]
+    explanation: "Law of 2004, for pupils in state primary and secondary schools."
+  - id: "c1-culture-laicite-and-institutions-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : En France, l'État subventionne une religion officielle."
+    answers: ["En France, l'État ne subventionne aucun culte", "En France, l'État n'a pas de religion officielle"]
+    strictAccents: true
+    explanation: "The State has no official religion and doesn't subsidize any religion."
+  - id: "c1-culture-laicite-and-institutions-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Les usagers des services publics doivent respecter la neutralité religieuse."
+    answers: ["Les agents publics doivent respecter la neutralité religieuse"]
+    explanation: "Neutrality applies to public employees, not to the people who use public services."
+  - id: "c1-culture-laicite-and-institutions-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The State has no official religion."
+    words: ["L'État", "n'a", "pas", "de", "religion", "officielle"]
+    answers: ["L'État n'a pas de religion officielle"]
+    explanation: "Pas de: no article after a negation."
+---
+
+By the end of this lesson you'll be able to explain what laïcité means in French law and how it's applied, and describe the main institutions of the Fifth Republic, in neutral, precise French.
+
+## What you already know
+
+You know *la laïcité* and the law of 1905 in outline from <LessonLink id="b1-culture-french-republic" text="the lesson on the French Republic" />. You know *l'Assemblée nationale*, *le Sénat*, *le gouvernement* and *le Premier ministre* from <LessonLink id="b2-politics-and-society" text="the lesson on politics and society" />, and *la Constitution*, *le Conseil constitutionnel* and *le Conseil d'État* from <LessonLink id="c1-law-and-institutions" text="the lesson on law and institutions" />. This lesson looks at laïcité as a set of rules, and at how the institutions share power.
+
+## Laïcité in the law
+
+<VocabTable group="law" />
+
+**The 1905 law.** The law of 9 December 1905 organized *la séparation des Églises et de l'État*. Its first article says that the Republic ensures *la liberté de conscience* (freedom of conscience) and guarantees *le libre exercice des cultes* (the free exercise of worship), within the limits of public order. Its second article says that the Republic does not recognize, pay or *subventionner* (subsidize) any religion.
+
+<Example fr="La République garantit la liberté de conscience et le libre exercice des cultes." en="The Republic guarantees freedom of conscience and the free exercise of worship." />
+<Example fr="Depuis 1905, l'État ne subventionne aucun culte." en="Since 1905, the State hasn't subsidized any religion." />
+
+**The Constitution.** The Constitution of 1958, adopted by referendum that year, begins with this sentence:
+
+<Example fr="« La France est une République indivisible, laïque, démocratique et sociale. » (Constitution de 1958, article 1)" en="&quot;France is an indivisible, secular, democratic and social Republic.&quot;" />
+
+*Laïque* (secular) describes the State and its institutions, not the citizens: the State is neutral, and citizens are free to believe or not to believe, and to practise their religion.
+
+## How laïcité is applied
+
+<VocabTable group="apply" />
+
+**Public services.** The State and public services must respect *la neutralité* (neutrality). This applies to *les agents publics* (public employees): at work, they don't show their religious beliefs, and they treat everyone equally. The people who use public services, *les usagers*, keep their freedom of conscience, within the rules of each service.
+
+<Example fr="Au travail, un agent public doit respecter la neutralité." en="At work, a public employee must respect neutrality." />
+
+**State schools.** *L'école publique* (state schools) gives no religious teaching. A law adopted in 2004 forbids pupils in state primary and secondary schools from wearing *des signes religieux ostensibles* (conspicuous religious symbols). This rule doesn't apply at university, and private schools under contract with the State may have a religious character.
+
+<Example fr="À l'école publique, les élèves ne peuvent pas porter de signes religieux ostensibles." en="In state schools, pupils can't wear conspicuous religious symbols." />
+
+**Exceptions.** The 1905 law itself provides for *des aumôniers* (chaplains) in places that people can't easily leave, such as hospitals and prisons; the army also has its chaplains. And in Alsace and Moselle, which were German in 1905, *le régime concordataire* (the Concordat system) still applies: there, some religions have an official status.
+
+<Example fr="En Alsace et en Moselle, le régime concordataire existe encore." en="In Alsace and Moselle, the Concordat system still exists." />
+<Example fr="À l'hôpital, un aumônier peut rendre visite aux malades qui le demandent." en="In hospital, a chaplain can visit patients who ask for it." />
+
+How to apply laïcité in particular cases is regularly debated, and courts, especially the Conseil d'État, often decide where the line falls. In French, present these debates as questions about the rules, and attribute each position; this course doesn't take sides.
+
+## The institutions of the Fifth Republic
+
+<VocabTable group="power" />
+
+**The President.** The President of the Republic is *le chef de l'État* (the head of State), elected by *le suffrage universel direct* (direct universal suffrage). He or she *nomme* (appoints) the Prime Minister and can dissolve the Assemblée nationale, as you saw in the lesson on May 68.
+
+**The government.** The Prime Minister leads the government, which runs the country's policy and answers to the Assemblée nationale.
+
+**Parliament.** The Parliament, made of the Assemblée nationale and the Sénat, *vote les lois* (passes the laws) and checks the government's action. The Sénat is elected indirectly, by local elected representatives, and represents the local authorities. When the two chambers disagree on a bill, the Assemblée nationale can, in the end, have the last word.
+
+**The guardians.** The Conseil constitutionnel checks that laws respect the Constitution, and the Conseil d'État advises the government and judges disputes with the administration. Laïcité, written in the Constitution, is one of the principles they protect.
+
+<Example fr="Le président de la République est le chef de l'État." en="The President of the Republic is the head of State." />
+<Example fr="Le président est élu au suffrage universel direct, et il nomme le Premier ministre." en="The President is elected by direct universal suffrage, and he or she appoints the Prime Minister." />
+<Example fr="Le Parlement vote les lois, et le Conseil constitutionnel vérifie qu'elles respectent la Constitution." en="Parliament passes the laws, and the Conseil constitutionnel checks that they respect the Constitution." />
+
+## A short article
+
+The article below is an original text written for this lesson.
+
+*La laïcité au quotidien : ce que dit la règle*
+
+*En France, la laïcité n'est pas une opinion : c'est un principe écrit dans la Constitution. Elle repose sur deux idées. D'abord, l'État est neutre : il n'a pas de religion officielle et ne subventionne aucun culte. Ensuite, chaque personne est libre de croire ou de ne pas croire, et de pratiquer sa religion dans le respect de l'ordre public.*
+
+*Cette règle ne concerne pas tout le monde de la même façon. À la mairie, à la poste ou à l'hôpital, les agents publics doivent respecter la neutralité : ils ne montrent pas leurs convictions religieuses pendant leur travail. Les usagers, eux, gardent leur liberté.*
+
+*À l'école publique, la situation est particulière. Depuis une loi de 2004, les élèves des écoles, des collèges et des lycées publics ne peuvent pas porter de signes religieux ostensibles. À l'université, en revanche, les étudiants sont libres.*
+
+*La laïcité protège donc à la fois l'État et les religions : l'État ne dépend d'aucune religion, et aucune religion ne dépend de l'État. Les élèves étudient d'ailleurs ce principe en classe, comme les autres principes de la République.*
+
+*La loi de 1905 prévoit aussi des exceptions : des aumôniers peuvent être présents à l'hôpital ou en prison. L'armée a, elle aussi, ses aumôniers. Et en Alsace et en Moselle, qui étaient allemandes en 1905, un régime particulier existe toujours.*
+
+*Quand l'application de la règle pose une question, ce sont souvent les juges, en particulier ceux du Conseil d'État, qui la tranchent. Le principe reste le même : la neutralité de l'État, et la liberté de chacun.*
+
+<VocabTable group="glossary" />
+
+(Laïcité in everyday life: what the rule says. In France, laïcité isn't an opinion: it is a principle written into the Constitution. It rests on two ideas. First, the State is neutral: it has no official religion and doesn't subsidize any religion. Second, everyone is free to believe or not to believe, and to practise their religion while respecting public order. This rule doesn't concern everyone in the same way. At the town hall, the post office or the hospital, public employees must respect neutrality: they don't show their religious beliefs during their work. Users, for their part, keep their freedom. In state schools, the situation is particular. Since a law of 2004, pupils in state primary schools, collèges and lycées can't wear conspicuous religious symbols. At university, on the other hand, students are free. Laïcité therefore protects both the State and religions: the State depends on no religion, and no religion depends on the State. Pupils in fact study this principle in class, like the other principles of the Republic. The 1905 law also provides for exceptions: chaplains can be present in hospitals or in prisons. The army, too, has its chaplains. And in Alsace and Moselle, which were German in 1905, a special system still exists. When applying the rule raises a question, it's often judges, in particular those of the Conseil d'État, who settle it. The principle stays the same: the neutrality of the State, and the freedom of each person.)
+
+<Callout type="warning" title="L'État est laïque, not les Français sont laïques">
+  Learners often apply *laïque* to people, as if it meant "not religious". In law, it describes the State and its institutions: **l'État est laïque**, **l'école publique est laïque**. A citizen can be religious or not; the State stays neutral.
+</Callout>
+
+<Callout type="tip" title="Check who the rule applies to">
+  Before you write a sentence about laïcité, ask who the rule concerns: the State, a public employee, a pupil, a student or a user. Most mistakes about laïcité come from applying a rule meant for one of them to another.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-exam-oral-presentation" text="the practice lesson on the short exposé" /> helps you prepare a short talk from a short document.
+
+===== content/lessons/c1/exam-oral-presentation.mdx =====
+---
+id: "c1-exam-oral-presentation"
+title: "Practice: a short exposé"
+description: "Prepare and give a short exposé from a short document: read for the theme and the position, find a problématique, build a two- or three-part plan with concrete examples, open and close well, and answer questions calmly. Practice with an original document and a model exposé."
+level: "C1"
+unit: "Towards DALF C1"
+order: 54
+type: "communication"
+tags: ["communication", "speaking", "exposé", "exam practice"]
+prerequisites: ["c1-public-speaking", "c1-formal-debate", "c1-dissertation", "c1-spoken-discourse-markers"]
+related: ["c1-exam-written-tasks", "c1-review-towards-dalf", "b2-summarizing-an-article"]
+vocab:
+  - { id: "c1-exam-oral-presentation-v001", group: "prepare", fr: "prendre des notes", pron: "prahn-druh day NOTT", en: "to take notes" }
+  - { id: "c1-exam-oral-presentation-v002", group: "prepare", fr: "un mot-clé", pron: "uhn moh-KLAY", en: "a keyword" }
+  - { id: "c1-exam-oral-presentation-v003", group: "prepare", fr: "un brouillon", pron: "uhn broo-YOHN", en: "a rough draft, rough notes" }
+  - { id: "c1-exam-oral-presentation-v004", group: "prepare", fr: "soulever une question", pron: "sool-vay ewn kes-TYOHN", en: "to raise a question" }
+  - { id: "c1-exam-oral-presentation-v005", group: "prepare", fr: "le point de départ", pron: "luh pwan duh day-PAR", en: "the starting point" }
+  - { id: "c1-exam-oral-presentation-v006", group: "prepare", fr: "illustrer", pron: "ee-lew-STRAY", en: "to illustrate (with an example)" }
+  - { id: "c1-exam-oral-presentation-v007", group: "speak", fr: "s'articuler autour de", pron: "sar-tee-kew-lay oh-toor DUH", en: "to be organized around" }
+  - { id: "c1-exam-oral-presentation-v008", group: "speak", fr: "en guise d'introduction", pron: "ahn geez dan-troh-dewk-SYOHN", en: "by way of introduction" }
+  - { id: "c1-exam-oral-presentation-v009", group: "speak", fr: "pour conclure", pron: "poor kohn-KLEWR", en: "to conclude" }
+  - { id: "c1-exam-oral-presentation-v010", group: "speak", fr: "une piste de réflexion", pron: "ewn peest duh ray-flek-SYOHN", en: "a line of thought, an idea to explore" }
+  - { id: "c1-exam-oral-presentation-v011", group: "answer", fr: "si je comprends bien", pron: "see zhuh kohn-prahn BYAN", en: "if I understand correctly" }
+  - { id: "c1-exam-oral-presentation-v012", group: "answer", fr: "gagner du temps", pron: "gah-nyay dew TAHN", en: "to buy time" }
+  - { id: "c1-exam-oral-presentation-v013", group: "answer", fr: "laissez-moi réfléchir un instant", pron: "leh-say mwah ray-flay-sheer uh-nan-STAHN", en: "let me think for a moment" }
+  - { id: "c1-exam-oral-presentation-v014", group: "answer", fr: "je n'irais pas jusqu'à dire que", pron: "zhuh nee-reh pah zhews-kah deer KUH", en: "I wouldn't go as far as to say that" }
+  - { id: "c1-exam-oral-presentation-v015", group: "answer", fr: "je ne connais pas bien ce sujet, mais…", pron: "zhuh nuh koh-neh pah byan suh sew-ZHEH meh", en: "I don't know this subject well, but…" }
+  - { id: "c1-exam-oral-presentation-v016", group: "glossary", fr: "respire (respirer)", pron: "res-PEER", en: "breathes (to breathe)" }
+  - { id: "c1-exam-oral-presentation-v017", group: "glossary", fr: "les piétons (m.)", pron: "lay pyay-TOHN", en: "pedestrians" }
+exercises:
+  - id: "c1-exam-oral-presentation-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez la partie de l'exposé : « Ce document soulève une question : faut-il fermer le centre-ville aux voitures ? »"
+    options: ["la problématique", "la conclusion", "un exemple"]
+    answers: ["la problématique"]
+    explanation: "The question the exposé will answer: the problématique."
+  - id: "c1-exam-oral-presentation-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase qui annonce le plan."
+    options: ["Mon exposé s'articulera autour de deux parties.", "Si je comprends bien, vous me demandez mon avis.", "Pour conclure, je dirais que c'est une bonne idée."]
+    answers: ["Mon exposé s'articulera autour de deux parties."]
+    explanation: "S'articuler autour de announces the structure."
+  - id: "c1-exam-oral-presentation-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase qui permet de gagner du temps poliment."
+    options: ["C'est une question intéressante ; laissez-moi réfléchir un instant.", "Je ne sais pas.", "Passons à la question suivante."]
+    answers: ["C'est une question intéressante ; laissez-moi réfléchir un instant."]
+    explanation: "Acknowledge the question, then ask for a moment."
+  - id: "c1-exam-oral-presentation-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez ce qu'il faut faire en premier quand on lit le document."
+    options: ["trouver le thème et la position de l'auteur", "apprendre le texte par cœur", "écrire toute la conclusion"]
+    answers: ["trouver le thème et la position de l'auteur"]
+    explanation: "First the theme and the author's position, then the problématique."
+  - id: "c1-exam-oral-presentation-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Quand on prépare un exposé, on écrit ses idées sur un ___."
+    answers: ["brouillon"]
+    explanation: "Un brouillon: rough notes, never read aloud word for word."
+  - id: "c1-exam-oral-presentation-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Pour ___ cette idée, je prendrai l'exemple de ma ville."
+    answers: ["illustrer"]
+    explanation: "Illustrer une idée: to give an example of it."
+  - id: "c1-exam-oral-presentation-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez l'expression pour la dernière partie de l'exposé : ___, je dirais que le document pose une vraie question de société."
+    options: ["Pour conclure", "Si je comprends bien", "En guise d'introduction"]
+    answers: ["Pour conclure"]
+    explanation: "Pour conclure introduces the conclusion; en guise d'introduction would open the exposé."
+  - id: "c1-exam-oral-presentation-ex008"
+    type: "reformulation"
+    prompt: "Reformulez en problématique, avec « on peut se demander si » : Fermer le centre aux voitures, c'est une bonne idée ?"
+    answers: ["On peut se demander si fermer le centre aux voitures est une bonne idée", "On peut se demander s'il faut fermer le centre aux voitures"]
+    explanation: "An indirect question with si, no inversion."
+  - id: "c1-exam-oral-presentation-ex009"
+    type: "reformulation"
+    prompt: "Reformulez la question avec « si je comprends bien, vous me demandez si » : Selon vous, les commerçants ont-ils raison ?"
+    answers: ["Si je comprends bien, vous me demandez si les commerçants ont raison"]
+    explanation: "Reformulating the question shows you've understood it and gives you a moment."
+  - id: "c1-exam-oral-presentation-ex010"
+    type: "reformulation"
+    prompt: "Reformulez de façon nuancée, avec « je n'irais pas jusqu'à dire que » : Les voitures doivent disparaître des villes."
+    answers: ["Je n'irais pas jusqu'à dire que les voitures doivent disparaître des villes"]
+    strictAccents: true
+    explanation: "A polite way to reject an extreme position. Doivent is the same form in the indicative and the subjunctive."
+  - id: "c1-exam-oral-presentation-ex011"
+    type: "translate"
+    prompt: "Traduisez (s'articuler autour de, au futur) : My presentation will be organized around two parts."
+    answers: ["Mon exposé s'articulera autour de deux parties"]
+    explanation: "S'articuler autour de: to be organized around."
+  - id: "c1-exam-oral-presentation-ex012"
+    type: "translate"
+    prompt: "Traduisez (soulever une question) : This document raises an important question."
+    answers: ["Ce document soulève une question importante"]
+    explanation: "Soulever une question: to raise a question."
+  - id: "c1-exam-oral-presentation-ex013"
+    type: "translate"
+    prompt: "Traduisez (je ne connais pas bien ce sujet) : I don't know this subject well, but I can give an example."
+    answers: ["Je ne connais pas bien ce sujet, mais je peux donner un exemple", "Je ne connais pas bien ce sujet, mais je peux vous donner un exemple"]
+    explanation: "Admit a limit, then offer what you can."
+  - id: "c1-exam-oral-presentation-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de registre (gardez un registre soutenu) : Bon, alors, mon exposé, en gros, il a deux parties."
+    answers: ["Mon exposé s'articule autour de deux parties", "Mon exposé comporte deux parties", "Mon exposé a deux parties"]
+    strictAccents: true
+    explanation: "Bon, alors and en gros are spoken markers; the dislocation (mon exposé, il) is spoken too."
+  - id: "c1-exam-oral-presentation-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : En guise de conclure, je dirais que le projet est utile."
+    answers: ["Pour conclure, je dirais que le projet est utile", "En guise de conclusion, je dirais que le projet est utile"]
+    explanation: "En guise de needs a noun: en guise de conclusion, or simply pour conclure."
+  - id: "c1-exam-oral-presentation-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Let me think for a moment."
+    words: ["Laissez-moi", "réfléchir", "un", "instant"]
+    answers: ["Laissez-moi réfléchir un instant"]
+    explanation: "A polite way to buy time."
+---
+
+By the end of this lesson you'll be able to prepare a short exposé from a short document, give it with a clear plan, and answer questions calmly.
+
+## What you already know
+
+You know how to open and close a speech (*mesdames et messieurs*, *j'en viens à*, *permettez-moi de conclure*) from <LessonLink id="c1-public-speaking" text="the lesson on speeches and presentations" />, and how to grant and turn a point (*je vous l'accorde*, *il n'en demeure pas moins que*) from <LessonLink id="c1-formal-debate" text="the lesson on formal debate" />. You know *la problématique* with *dans quelle mesure* and the kinds of plan from <LessonLink id="c1-dissertation" text="the lesson on the dissertation" />, and *un exposé* from <LessonLink id="c1-abstract-nouns" text="the lesson on abstract nouns" />. This practice lesson puts them together for a short talk based on a document. It says nothing about any exam's rules: it trains the skill.
+
+## Reading the document
+
+<VocabTable group="prepare" />
+
+A short document, such as a newspaper article, an opinion piece or an interview, is *le point de départ* (the starting point), not the subject itself. As a rule of thumb, read it twice. The first time, find the theme and the author's position. The second time, *prendre des notes* (take notes): underline *les mots-clés* (keywords), note the main facts, and ask what question the document *soulève* (raises) beyond its own case.
+
+<Example fr="Le document n'est qu'un point de départ : l'exposé va plus loin." en="The document is only a starting point: the exposé goes further." />
+<Example fr="Pendant la deuxième lecture, je prends des notes et je souligne chaque mot-clé." en="During the second reading, I take notes and underline each keyword." />
+<Example fr="Ce document soulève une question de société : comment partager la ville ?" en="This document raises a social question: how should the city be shared?" />
+
+Then work on *un brouillon* (rough notes). Don't write the exposé in full sentences: write the problématique, the plan and a few keywords, so that you speak rather than read. Find one or two concrete examples to *illustrer* (illustrate) each part: something you have seen, a fact about your own country, or the document's own case.
+
+<Example fr="Sur mon brouillon, j'écris seulement le plan et quelques mots-clés." en="On my rough notes, I write only the plan and a few keywords." />
+<Example fr="Pour illustrer cette idée, je prendrai l'exemple de ma ville." en="To illustrate this idea, I'll take the example of my town." />
+
+## Building the exposé
+
+<VocabTable group="speak" />
+
+A short exposé follows the shape of an essay, spoken:
+
+1. **Introduction**: present the document in a sentence (its theme, its source if you have it), then state the problématique as an indirect question. *En guise d'introduction* (by way of introduction) can open it.
+2. **The plan**: announce it in one sentence. *Mon exposé s'articulera autour de deux parties* (my presentation will be organized around two parts).
+3. **The parts**: two or three, each with one idea and one example. Two parts is often enough for a short exposé: advantages and limits, causes and consequences, or facts and solutions.
+4. **Conclusion**: *pour conclure* (to conclude), answer the problématique in one or two sentences, then open the subject with *une piste de réflexion* (a line of thought for the future).
+
+<Example fr="En guise d'introduction, je voudrais présenter rapidement le document." en="By way of introduction, I'd like to present the document briefly." />
+<Example fr="Mon exposé s'articulera autour de deux parties : les avantages, puis les limites." en="My presentation will be organized around two parts: the advantages, then the limits." />
+<Example fr="Pour conclure, je proposerais une piste de réflexion : et si chaque quartier choisissait ?" en="To conclude, I'd suggest a line of thought: what if each neighbourhood chose?" />
+
+Speak from your notes, look at the people listening, keep a steady pace, and use the discourse markers of the previous lesson sparingly: *bon* or *voilà* once can make you sound natural, but not in every sentence.
+
+## Answering questions
+
+<VocabTable group="answer" />
+
+Questions after an exposé aren't a trap: they show that people listened. Four habits help.
+
+- **Reformulate** the question before you answer: *si je comprends bien* (if I understand correctly), *vous me demandez si…*. It shows you've understood, and it gives you a moment.
+- **Gain time** politely when you need to think: *c'est une question intéressante ; laissez-moi réfléchir un instant*. That's a polite way to *gagner du temps* (buy time).
+- **Nuance** rather than contradict: *je n'irais pas jusqu'à dire que…* (I wouldn't go as far as to say that…).
+- **Admit a limit** honestly, then offer what you can: *je ne connais pas bien ce sujet, mais…*.
+
+<Example fr="Si je comprends bien, vous me demandez si cette mesure est juste pour tous." en="If I understand correctly, you're asking me whether this measure is fair to everyone." />
+<Example fr="Je n'irais pas jusqu'à dire que les voitures doivent disparaître." en="I wouldn't go as far as to say that cars should disappear." />
+<Example fr="Je ne connais pas bien ce sujet, mais je peux vous donner un exemple." en="I don't know this subject well, but I can give you an example." />
+<Example fr="Cette question est importante ; en la reformulant, on gagne du temps pour réfléchir." en="This question is important; by reformulating it, you buy time to think." />
+
+## A document and a model exposé
+
+The document and the exposé below are original texts written for this lesson. The town is invented.
+
+*Le document : « Dimanche sans voitures : une ville qui respire »*
+
+*Depuis le printemps, le centre de Montval est fermé aux voitures un dimanche par mois. Ce jour-là, les rues appartiennent aux piétons et aux vélos. Les familles marchent dans les rues, les enfants jouent sur la place, et la pollution baisse. Les commerçants, eux, sont partagés : certains vendent plus, d'autres disent que leurs clients ne viennent plus. La mairie souhaite maintenant fermer le centre tous les dimanches, mais elle veut d'abord demander l'avis des habitants.*
+
+*L'exposé*
+
+*En guise d'introduction, je voudrais présenter ce document. Il s'agit d'un article sur une ville, Montval, qui ferme son centre aux voitures un dimanche par mois. Ce document soulève une question : on peut se demander dans quelle mesure une ville peut réduire la place de la voiture sans gêner ceux qui en ont besoin. Mon exposé s'articulera autour de deux parties : les avantages de cette mesure, puis ses limites.*
+
+*D'abord, cette mesure a de vrais avantages. La pollution baisse, et les habitants retrouvent leurs rues. Pour illustrer cette idée, je prendrai l'exemple de ma ville, où une rue fermée aux voitures est devenue un lieu de rencontre.*
+
+*Ensuite, il faut reconnaître ses limites. Les commerçants n'en profitent pas tous, et certaines personnes, âgées ou qui habitent loin, ont besoin de leur voiture.*
+
+*Pour conclure, je dirais que la mesure est utile, à condition de proposer d'autres solutions, comme des transports gratuits ce jour-là. On pourrait ouvrir une piste de réflexion : et si chaque quartier choisissait ses propres règles ?*
+
+<VocabTable group="glossary" />
+
+(The document: "Car-free Sunday: a town that breathes". Since the spring, the centre of Montval has been closed to cars one Sunday a month. That day, the streets belong to pedestrians and bikes. Families walk in the streets, children play in the square, and pollution falls. Shopkeepers, for their part, are divided: some sell more, others say their customers no longer come. The town hall now wants to close the centre every Sunday, but it first wants to ask the residents' opinion. The exposé. By way of introduction, I'd like to present this document. It's an article about a town, Montval, that closes its centre to cars one Sunday a month. This document raises a question: one may ask to what extent a town can reduce the place of the car without inconveniencing those who need one. My presentation will be organized around two parts: the advantages of this measure, then its limits. First, this measure has real advantages. Pollution falls, and residents take back their streets. To illustrate this idea, I'll take the example of my town, where a street closed to cars has become a meeting place. Next, its limits must be acknowledged. Not all shopkeepers benefit from it, and some people, older people or those who live far away, need their car. To conclude, I'd say that the measure is useful, provided other solutions are offered, such as free public transport that day. One could open a line of thought: what if each neighbourhood chose its own rules?)
+
+## En français
+
+After the exposé, Clara, who listened, asks Malik some questions.
+
+- *Merci. Vous dites que la mesure est utile. Et pour les commerçants ?* (Thank you. You say the measure is useful. What about the shopkeepers?)
+- *Si je comprends bien, vous me demandez si les commerçants y perdent ?* (If I understand correctly, you're asking whether the shopkeepers lose out?)
+- *Exactement.* (Exactly.)
+- *Le document dit qu'ils sont partagés : certains vendent plus, d'autres disent que leurs clients ne viennent plus.* (The document says they're divided: some sell more, others say their customers no longer come.)
+- *Et vous, qu'en pensez-vous ?* (And what do you think?)
+- *C'est une question intéressante ; laissez-moi réfléchir un instant.* (That's an interesting question; let me think for a moment.)
+- *Prenez votre temps.* (Take your time.)
+- *Je pense qu'un dimanche par mois ne pose pas de problème. Tous les dimanches, en revanche, ce serait plus difficile pour eux.* (I think one Sunday a month isn't a problem. Every Sunday, on the other hand, would be harder for them.)
+- *Certains disent que les voitures devraient disparaître des centres-villes.* (Some people say that cars should disappear from town centres.)
+- *Je n'irais pas jusqu'à dire que les voitures doivent disparaître : certaines personnes en ont besoin.* (I wouldn't go as far as to say that cars must disappear: some people need them.)
+- *Et dans votre pays, ça existe ?* (And does this exist in your country?)
+- *Je ne connais pas bien ce sujet, mais je sais que ma ville a déjà fermé une rue aux voitures.* (I don't know this subject well, but I know my town has already closed a street to cars.)
+
+<Callout type="warning" title="Mon exposé s'articule autour de, not mon exposé, il a">
+  Learners often announce the plan in spoken style, with a dislocation: *mon exposé, il a deux parties*. In an exposé, use the formal sentence: **mon exposé s'articule autour de deux parties**.
+</Callout>
+
+<Callout type="tip" title="Rehearse with a stranger's question">
+  After you rehearse an exposé, ask a friend to ask you one question you haven't prepared. Answer it with the four habits: reformulate, take a moment, nuance, admit a limit if you must. Answering one surprise question a day builds more confidence than rereading your notes.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-exam-written-tasks" text="the practice lesson on synthesis and essay" /> trains the written side: a synthesis of two documents and an argued essay.
+
+===== content/lessons/c1/exam-written-tasks.mdx =====
+---
+id: "c1-exam-written-tasks"
+title: "Practice: synthesis and essay"
+description: "Practise the two long written tasks of advanced French: a synthesis of two documents, built by idea and with no personal opinion, and an argued essay with a clear plan and a concession; then check your own text with a list. Practice with two original documents and a model synthesis."
+level: "C1"
+unit: "Towards DALF C1"
+order: 55
+type: "communication"
+tags: ["communication", "writing", "synthesis", "exam practice"]
+prerequisites: ["c1-synthesis", "c1-dissertation", "c1-concession-and-hypothesis", "c1-advanced-connectors"]
+related: ["c1-exam-oral-presentation", "c1-review-towards-dalf", "c1-review-academic"]
+vocab:
+  - { id: "c1-exam-written-tasks-v001", group: "task", fr: "respecter la consigne", pron: "res-pek-tay lah kohn-SEE-nyuh", en: "to follow the instructions" }
+  - { id: "c1-exam-written-tasks-v002", group: "task", fr: "être hors sujet", pron: "eh-truh or sew-ZHEH", en: "to be off topic" }
+  - { id: "c1-exam-written-tasks-v003", group: "task", fr: "un contresens", pron: "uhn kohn-truh-SAHNSS", en: "a misreading, a mistranslation" }
+  - { id: "c1-exam-written-tasks-v004", group: "task", fr: "équilibré / équilibrée", pron: "ay-kee-lee-BRAY", en: "balanced" }
+  - { id: "c1-exam-written-tasks-v005", group: "task", fr: "un plan détaillé", pron: "uhn plahn day-tah-YAY", en: "a detailed outline" }
+  - { id: "c1-exam-written-tasks-v006", group: "topic", fr: "les devoirs à la maison (m.)", pron: "lay duh-vwahr ah lah meh-ZOHN", en: "homework" }
+  - { id: "c1-exam-written-tasks-v007", group: "topic", fr: "les inégalités (f.)", pron: "lay-zee-nay-gah-lee-TAY", en: "inequalities" }
+  - { id: "c1-exam-written-tasks-v008", group: "topic", fr: "l'autonomie (f.)", pron: "loh-toh-noh-MEE", en: "independence, self-reliance" }
+  - { id: "c1-exam-written-tasks-v009", group: "topic", fr: "développer", pron: "day-voh-PLAY", en: "to develop" }
+  - { id: "c1-exam-written-tasks-v010", group: "topic", fr: "une association de parents d'élèves", pron: "ew-nah-soh-syah-syohn duh pah-rahn day-LEV", en: "a parents' association" }
+  - { id: "c1-exam-written-tasks-v011", group: "check", fr: "une grille de relecture", pron: "ewn gree-yuh duh ruh-lek-TEWR", en: "a checklist for rereading" }
+  - { id: "c1-exam-written-tasks-v012", group: "check", fr: "l'orthographe (f.)", pron: "lor-toh-GRAF", en: "spelling" }
+  - { id: "c1-exam-written-tasks-v013", group: "check", fr: "la ponctuation", pron: "lah pohnk-tew-ah-SYOHN", en: "punctuation" }
+  - { id: "c1-exam-written-tasks-v014", group: "check", fr: "une faute d'accord", pron: "ewn foht dah-KOR", en: "an agreement mistake" }
+  - { id: "c1-exam-written-tasks-v015", group: "check", fr: "une répétition", pron: "ewn ray-pay-tee-SYOHN", en: "a repetition (of a word)" }
+  - { id: "c1-exam-written-tasks-v016", group: "check", fr: "une phrase de transition", pron: "ewn frahz duh trahn-zee-SYOHN", en: "a linking sentence between two parts" }
+exercises:
+  - id: "c1-exam-written-tasks-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez ce qu'on ne fait pas dans une synthèse de documents."
+    options: ["donner son opinion personnelle", "confronter les documents", "organiser le texte par idées"]
+    answers: ["donner son opinion personnelle"]
+    explanation: "A synthesis is objective: no personal opinion."
+  - id: "c1-exam-written-tasks-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase qui confronte deux documents."
+    options: ["Si l'enseignante voit dans les devoirs un moyen de progresser, l'association y voit une source d'inégalités.", "Je pense que les devoirs ne servent à rien.", "Le premier document parle des devoirs. Le deuxième document parle aussi des devoirs."]
+    answers: ["Si l'enseignante voit dans les devoirs un moyen de progresser, l'association y voit une source d'inégalités."]
+    explanation: "One sentence, both views, each attributed, linked by a concessive si."
+  - id: "c1-exam-written-tasks-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le défaut de ce plan de synthèse : première partie, le document 1 ; deuxième partie, le document 2."
+    options: ["Il résume les documents l'un après l'autre au lieu de les organiser par idées.", "Il a trop de parties.", "Il donne une opinion personnelle."]
+    answers: ["Il résume les documents l'un après l'autre au lieu de les organiser par idées."]
+    explanation: "A synthesis is built by idea, not document by document."
+  - id: "c1-exam-written-tasks-ex004"
+    type: "fill-in"
+    prompt: "Complétez : Un texte qui ne traite pas le sujet demandé est hors ___."
+    answers: ["sujet"]
+    explanation: "Être hors sujet: to be off topic."
+  - id: "c1-exam-written-tasks-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Avant de rendre son texte, on le relit avec une grille de ___."
+    answers: ["relecture"]
+    explanation: "Une grille de relecture: a checklist for rereading."
+  - id: "c1-exam-written-tasks-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Comprendre un texte dans le sens contraire de ce qu'il dit, c'est faire un ___."
+    options: ["contresens", "plan détaillé", "brouillon"]
+    answers: ["contresens"]
+    explanation: "Un contresens: a misreading."
+  - id: "c1-exam-written-tasks-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Les deux documents ___ sur un point : les devoirs doivent être adaptés à l'âge des élèves."
+    options: ["s'accordent", "divergent", "se contredisent"]
+    answers: ["s'accordent"]
+    explanation: "S'accorder sur: to agree on, a point in common."
+  - id: "c1-exam-written-tasks-ex008"
+    type: "reformulation"
+    prompt: "Reformulez de façon objective, avec « selon l'enseignante » : Les devoirs aident vraiment les élèves à progresser."
+    answers: ["Selon l'enseignante, les devoirs aident les élèves à progresser", "Selon l'enseignante, les devoirs aident vraiment les élèves à progresser"]
+    strictAccents: true
+    explanation: "In a synthesis, every view is attributed to its source."
+  - id: "c1-exam-written-tasks-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « quand bien même » et le conditionnel : Même si les devoirs étaient supprimés, les inégalités resteraient."
+    answers: ["Quand bien même les devoirs seraient supprimés, les inégalités resteraient", "Les inégalités resteraient, quand bien même les devoirs seraient supprimés"]
+    explanation: "Quand bien même + conditionnel in both clauses."
+  - id: "c1-exam-written-tasks-ex010"
+    type: "reformulation"
+    prompt: "Reformulez sans répétition, avec « ces derniers » : Les élèves ont des devoirs, mais les élèves n'ont pas tous de l'aide."
+    answers: ["Les élèves ont des devoirs, mais ces derniers n'ont pas tous de l'aide"]
+    explanation: "Ces derniers refers back to the last group named and avoids the repetition."
+  - id: "c1-exam-written-tasks-ex011"
+    type: "translate"
+    prompt: "Traduisez (les inégalités) : According to the association, homework increases inequalities."
+    answers: ["Selon l'association, les devoirs à la maison augmentent les inégalités", "Selon l'association, les devoirs augmentent les inégalités", "D'après l'association, les devoirs à la maison augmentent les inégalités", "D'après l'association, les devoirs augmentent les inégalités"]
+    strictAccents: true
+    explanation: "Selon or d'après attributes the view."
+  - id: "c1-exam-written-tasks-ex012"
+    type: "translate"
+    prompt: "Traduisez (respecter la consigne) : First, you must follow the instructions."
+    answers: ["D'abord, il faut respecter la consigne", "Il faut d'abord respecter la consigne"]
+    explanation: "Respecter la consigne: to do exactly what the task asks."
+  - id: "c1-exam-written-tasks-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur d'accord : Les deux documents que j'ai lu sont très différents."
+    answers: ["Les deux documents que j'ai lus sont très différents"]
+    explanation: "With avoir, the participle agrees with a direct object placed before it: que (les documents) j'ai lus."
+  - id: "c1-exam-written-tasks-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de méthode (synthèse) : À mon avis, l'enseignante a raison."
+    answers: ["Selon l'enseignante, les devoirs aident les élèves à progresser", "L'enseignante estime que les devoirs aident les élèves à progresser"]
+    strictAccents: true
+    explanation: "No personal opinion in a synthesis: report the view and attribute it."
+  - id: "c1-exam-written-tasks-ex015"
+    type: "translate"
+    prompt: "Traduisez (équilibré) : A balanced essay gives each position its best argument."
+    answers: ["Une dissertation équilibrée donne à chaque position son meilleur argument", "Un essai équilibré donne à chaque position son meilleur argument"]
+    strictAccents: true
+    explanation: "Équilibré: balanced, fair to each side."
+  - id: "c1-exam-written-tasks-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Both documents agree on one point."
+    words: ["Les", "deux", "documents", "s'accordent", "sur", "un", "point"]
+    answers: ["Les deux documents s'accordent sur un point"]
+    explanation: "S'accorder sur: to agree on."
+---
+
+By the end of this lesson you'll be able to plan and write a synthesis of two documents and an argued essay, and check your own text with a list before you hand it in.
+
+## What you already know
+
+You know how to build a synthesis by idea, with *confronter*, *un point commun*, *une divergence* and *s'accorder sur*, from <LessonLink id="c1-synthesis" text="the lesson on synthesis" />, and the dissertation's plans and problématique from <LessonLink id="c1-dissertation" text="the lesson on the dissertation" />. You know *quand bien même* from <LessonLink id="c1-concession-and-hypothesis" text="the lesson on concession and hypothesis" /> and connectors such as *dès lors* and *à cet égard* from <LessonLink id="c1-advanced-connectors" text="the lesson on advanced connectors" />. This practice lesson trains the two long written tasks, without any claim about an exam's rules.
+
+## Two different tasks
+
+<VocabTable group="task" />
+
+**A synthesis** brings together the ideas of several documents in a new, shorter text. It is *objectif* (objective), a word you know from <LessonLink id="b2-summarizing-an-article" text="the lesson on summarizing an article" />: you give no personal opinion, you attribute every view to its source, and you organize the text by idea, not document by document. A good synthesis is *équilibré* (balanced): each document gets its fair place.
+
+**An argued essay** answers a question with your own reasoning. Here you do take a position, but you show that you've considered the other side, usually with a concession (*certes…, mais…*, *quand bien même…*).
+
+In both tasks, read the instructions twice before you start. The first rule is to *respecter la consigne* (follow the instructions): the subject, the length, the kind of text. A text that doesn't answer the question asked *est hors sujet* (is off topic). In a synthesis, the most serious mistake is *un contresens* (a misreading): making a document say the opposite of what it says.
+
+<Example fr="Une synthèse doit rester objective : on ne donne pas son avis." en="A synthesis must stay objective: you don't give your opinion." />
+<Example fr="Avant d'écrire, relisez la consigne pour ne pas être hors sujet." en="Before writing, reread the instructions so you're not off topic." />
+<Example fr="Faire dire à un auteur le contraire de ce qu'il dit, c'est un contresens." en="Making an author say the opposite of what they say is a misreading." />
+
+## Planning a synthesis
+
+As a rule of thumb, work in four steps:
+
+1. **Read each document** and note its main idea and its two or three arguments.
+2. **Compare**: find the points the documents share and the points where they diverge.
+3. **Build *un plan détaillé* (a detailed outline) by idea**: one part per question the documents answer, each mixing both documents.
+4. **Write** an introduction that presents the documents and the shared question, the parts with linking sentences, and a short conclusion that sums up, still without your opinion.
+
+<Example fr="Mon plan détaillé compte deux parties, organisées par idées." en="My detailed outline has two parts, organized by idea." />
+
+## Planning an essay
+
+For an essay, start from the question, turn it into a problématique, and choose a plan: dialectical (for, against, beyond), analytical or thematic, as you saw in the lesson on the dissertation. Place your concession where it helps your argument, and finish each part with *une phrase de transition* (a linking sentence) to the next.
+
+<Example fr="Quand bien même les devoirs seraient supprimés, les inégalités resteraient." en="Even if homework were abolished, the inequalities would remain." />
+<Example fr="Une phrase de transition annonce la partie suivante." en="A linking sentence announces the next part." />
+
+## Two documents and a model synthesis
+
+<VocabTable group="topic" />
+
+The two documents and the synthesis below are original texts written for this lesson. The people are invented.
+
+*Document 1 : le point de vue d'une enseignante*
+
+*« Les devoirs à la maison permettent aux élèves de revoir seuls ce qu'ils ont appris en classe. Ils développent l'autonomie et l'habitude de travailler chaque jour. Sans devoirs, beaucoup d'élèves oublieraient vite la leçon du jour. Bien sûr, ils doivent être courts et adaptés à l'âge des élèves. » (Claire Durand, professeure de collège)*
+
+*Document 2 : la position d'une association de parents d'élèves*
+
+*« Tous les enfants n'ont pas les mêmes chances devant les devoirs. Certains sont aidés par leurs parents, d'autres travaillent seuls dans une maison où il n'y a pas de calme. Les parents qui travaillent tard ne peuvent pas toujours aider leurs enfants, même s'ils le veulent. Les devoirs augmentent donc les inégalités. Nous demandons qu'ils soient faits à l'école, avec un adulte, et adaptés à l'âge de chacun. »*
+
+*Synthèse*
+
+*Les deux documents s'interrogent sur la place des devoirs à la maison. Si l'enseignante y voit un moyen de développer l'autonomie des élèves et de ne pas oublier la leçon du jour, l'association de parents estime au contraire qu'ils augmentent les inégalités, puisque tous les enfants ne sont pas aidés de la même façon. Les deux sources s'accordent cependant sur un point : les devoirs doivent être adaptés à l'âge des élèves. Elles divergent en revanche sur le lieu : l'enseignante défend le travail à la maison, tandis que l'association demande qu'il soit fait à l'école, avec un adulte. Ainsi, les deux textes répondent à la même question, mais ils ne proposent pas la même solution.*
+
+(Document 1: a teacher's point of view. "Homework allows pupils to go over on their own what they've learned in class. It develops independence and the habit of working every day. Without homework, many pupils would quickly forget the day's lesson. Of course, it must be short and suited to the pupils' age." (Claire Durand, collège teacher) Document 2: the position of a parents' association. "Not all children have the same chances when it comes to homework. Some are helped by their parents, others work alone in a home where there is no quiet. Parents who work late can't always help their children, even if they want to. Homework therefore increases inequalities. We ask that it be done at school, with an adult, and suited to each child's age." Synthesis. Both documents examine the place of homework. While the teacher sees it as a way to develop pupils' independence and not forget the day's lesson, the parents' association believes, on the contrary, that it increases inequalities, since not all children get the same help. The two sources agree, however, on one point: homework must be suited to the pupils' age. They differ, on the other hand, on the place: the teacher defends work at home, whereas the association asks for it to be done at school, with an adult. So the two texts answer the same question, but they don't propose the same solution.)
+
+## How the synthesis works
+
+- **By idea, not by document**: the first sentence states the shared question; then each sentence confronts the two sources.
+- **Every view attributed**: *l'enseignante y voit…*, *l'association estime…*; no *je*, no *à mon avis*.
+- **A point in common and a divergence**: *s'accordent sur un point* (the pupils' age), *divergent sur le lieu* (home or school).
+- **Connectors**: a concessive *si*, *au contraire*, *puisque*, *cependant*, *en revanche*, *tandis que*.
+
+## Checking your text
+
+<VocabTable group="check" />
+
+Keep *une grille de relecture* (a checklist for rereading) and use it on every text:
+
+- **The task**: does the text answer the question asked, at the right length, in the right form?
+- **The method**: in a synthesis, is every view attributed and is there no personal opinion? In an essay, is the plan announced and followed?
+- **The links**: does each part end with a linking sentence, and are the connectors varied?
+- **The language**: check *l'orthographe* (spelling), *la ponctuation* (punctuation), each *faute d'accord* (agreement mistake), especially past participles, and each *répétition* (repeated word).
+
+<Example fr="Je relis mon texte trois fois : pour le sens, pour les accords, puis pour l'orthographe et la ponctuation." en="I reread my text three times: for the meaning, for the agreements, then for spelling and punctuation." />
+<Example fr="Une faute d'accord sur un participe passé est une erreur qu'on fait souvent." en="An agreement mistake on a past participle is an error people often make." />
+<Example fr="Pour éviter une répétition, on peut utiliser ces derniers ou un synonyme." en="To avoid a repetition, you can use ces derniers or a synonym." />
+
+<Callout type="warning" title="Selon l'association, not à mon avis, in a synthesis">
+  Learners often slip their own opinion into a synthesis. In a synthesis, every judgment belongs to a source: **selon l'association, les devoirs augmentent les inégalités**, not *à mon avis, les devoirs augmentent les inégalités*. Keep your opinion for the essay.
+</Callout>
+
+<Callout type="tip" title="Reread for one thing at a time">
+  Don't reread a text once for everything. Read it once for the meaning, once only for the agreements, once only for spelling and punctuation. On each reading, you'll see mistakes that you missed when you were looking for everything at once.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-review-towards-dalf" text="the review of this unit" /> brings the unit together in a short argued text.
+
+===== content/lessons/c1/review-towards-dalf.mdx =====
+---
+id: "c1-review-towards-dalf"
+title: "Review: Towards DALF C1"
+description: "Bring Unit 8 together in a short argued text: nuanced word choice, a clear plan, a concession with quand bien même, a formal relative and an apposition, checked with a list. An original argued text on learning a foreign language early."
+level: "C1"
+unit: "Towards DALF C1"
+order: 56
+type: "review"
+tags: ["review", "writing", "argument", "exam practice"]
+prerequisites: ["c1-euphemism-and-synonyms", "c1-exam-oral-presentation", "c1-exam-written-tasks", "c1-concession-and-hypothesis", "c1-formal-relatives-and-apposition"]
+related: ["c1-review-academic", "c1-review-final", "c1-dissertation"]
+vocab:
+  - { id: "c1-review-towards-dalf-v001", group: "new", fr: "argumenter", pron: "ar-gew-mahn-TAY", en: "to argue, to make a reasoned case" }
+  - { id: "c1-review-towards-dalf-v002", group: "new", fr: "une prise de position", pron: "ewn preez duh poh-zee-SYOHN", en: "a stance, a stated position" }
+  - { id: "c1-review-towards-dalf-v003", group: "new", fr: "une langue étrangère", pron: "ewn lahng ay-trahn-ZHEHR", en: "a foreign language" }
+  - { id: "c1-review-towards-dalf-v004", group: "new", fr: "précoce", pron: "pray-KOSS", en: "early (happening at a young age)" }
+exercises:
+  - id: "c1-review-towards-dalf-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez le terme neutre pour parler d'une personne qui cherche du travail."
+    options: ["un demandeur d'emploi", "un technicien de surface", "un plan social"]
+    answers: ["un demandeur d'emploi"]
+    explanation: "Un demandeur d'emploi: the neutral, administrative term."
+  - id: "c1-review-towards-dalf-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le marqueur : Je croyais que c'était loin. ___, c'est à cinq minutes à pied."
+    options: ["En fait", "Tiens", "Quand même"]
+    answers: ["En fait"]
+    explanation: "En fait corrects a wrong idea."
+  - id: "c1-review-towards-dalf-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot de l'article 1 de la Constitution : La France est une République indivisible, ___, démocratique et sociale."
+    options: ["laïque", "religieuse", "grande"]
+    answers: ["laïque"]
+    explanation: "Article 1 of the Constitution of 1958."
+  - id: "c1-review-towards-dalf-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase qui reformule une question avant d'y répondre."
+    options: ["Si je comprends bien, vous me demandez si cette mesure est juste.", "Pour conclure, cette mesure est juste.", "En guise d'introduction, je présente le document."]
+    answers: ["Si je comprends bien, vous me demandez si cette mesure est juste."]
+    explanation: "Si je comprends bien: reformulating shows you understood and buys a moment."
+  - id: "c1-review-towards-dalf-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez ce qu'il faut éviter dans une synthèse de documents."
+    options: ["une opinion personnelle", "un point commun", "une phrase de transition"]
+    answers: ["une opinion personnelle"]
+    explanation: "A synthesis is objective: no personal opinion."
+  - id: "c1-review-towards-dalf-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Pour bien ___, il faut des raisons, des exemples et une concession."
+    answers: ["argumenter"]
+    explanation: "Argumenter: to make a reasoned case."
+  - id: "c1-review-towards-dalf-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Dire clairement ce qu'on pense d'un sujet, c'est une ___ de position."
+    answers: ["prise"]
+    explanation: "Une prise de position: a stance."
+  - id: "c1-review-towards-dalf-ex008"
+    type: "fill-in"
+    prompt: "Complétez : Apprendre une langue étrangère dès la maternelle, c'est un apprentissage ___."
+    answers: ["précoce"]
+    explanation: "Précoce: early, at a young age."
+  - id: "c1-review-towards-dalf-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « quand bien même » : Même si l'enfant progressait vite, le résultat dépendrait des conditions."
+    answers: ["Quand bien même l'enfant progresserait vite, le résultat dépendrait des conditions", "Le résultat dépendrait des conditions, quand bien même l'enfant progresserait vite"]
+    explanation: "Quand bien même + conditionnel in both clauses."
+  - id: "c1-review-towards-dalf-ex010"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase, avec une apposition : La fille de ma voisine est élève de maternelle. Elle chante déjà en anglais."
+    answers: ["La fille de ma voisine, élève de maternelle, chante déjà en anglais", "Élève de maternelle, la fille de ma voisine chante déjà en anglais"]
+    explanation: "The apposition, between commas, replaces a second sentence."
+  - id: "c1-review-towards-dalf-ex011"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase, avec « grâce auquel » : C'est un jeu. Grâce à ce jeu, les enfants trouvent des mots nouveaux."
+    answers: ["C'est un jeu grâce auquel les enfants trouvent des mots nouveaux"]
+    explanation: "Grâce à + lequel: grâce auquel."
+  - id: "c1-review-towards-dalf-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Quand bien même il progresse vite, il aurait besoin d'aide."
+    answers: ["Quand bien même il progresserait vite, il aurait besoin d'aide"]
+    explanation: "Quand bien même takes the conditionnel."
+  - id: "c1-review-towards-dalf-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de relatif : C'est un sujet duquel je parlerai ensuite."
+    answers: ["C'est un sujet dont je parlerai ensuite"]
+    explanation: "Parler de + a noun alone: dont, not duquel."
+  - id: "c1-review-towards-dalf-ex014"
+    type: "translate"
+    prompt: "Traduisez (une langue étrangère, de plus en plus tôt) : Children start a foreign language earlier and earlier."
+    answers: ["Les enfants commencent une langue étrangère de plus en plus tôt"]
+    explanation: "De plus en plus tôt: earlier and earlier."
+  - id: "c1-review-towards-dalf-ex015"
+    type: "translate"
+    prompt: "Traduisez (une prise de position, nuancé) : My position is nuanced."
+    answers: ["Ma prise de position est nuancée"]
+    explanation: "Nuancée agrees with prise de position."
+  - id: "c1-review-towards-dalf-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : We will first see its advantages."
+    words: ["Nous", "verrons", "d'abord", "ses", "avantages"]
+    answers: ["Nous verrons d'abord ses avantages"]
+    explanation: "The announced plan, in the future."
+---
+
+By the end of this lesson you'll be able to write a short argued text with a clear plan, precise words and the formal structures of the level, and check it before you hand it in.
+
+## What you've learned
+
+Skim this list, and go back to anything that feels shaky.
+
+- **Euphemism and synonyms**: you know *un euphémisme*, *une personne âgée*, *la crainte* and *une préoccupation*, from <LessonLink id="c1-euphemism-and-synonyms" text="the lesson on euphemism and nuance in synonyms" />.
+- **Discourse markers**: you know *en fait*, *disons que*, *cela dit* and *à la limite*, from <LessonLink id="c1-spoken-discourse-markers" text="the lesson on spoken discourse markers" />.
+- **Laïcité and the institutions**: you know *laïque*, *la neutralité*, *le chef de l'État* and *voter une loi*, from <LessonLink id="c1-culture-laicite-and-institutions" text="the lesson on laïcité and the institutions" />.
+- **The short exposé**: you know *soulever une question*, *s'articuler autour de* and *si je comprends bien*, from <LessonLink id="c1-exam-oral-presentation" text="the practice lesson on the short exposé" />.
+- **Synthesis and essay**: you know *respecter la consigne*, *être hors sujet* and *une grille de relecture*, from <LessonLink id="c1-exam-written-tasks" text="the practice lesson on synthesis and essay" />.
+
+The model also uses three structures from Unit 3: *quand bien même* with the conditionnel, from <LessonLink id="c1-concession-and-hypothesis" text="the lesson on concession and hypothesis" />, and formal relatives and apposition, from <LessonLink id="c1-formal-relatives-and-apposition" text="the lesson on formal relatives and apposition" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+To *argumenter* is to make a reasoned case: a claim, reasons and examples. *Une prise de position* is a stated position on a question; in an essay, it usually comes at the end, after you've weighed both sides. *Une langue étrangère* (a foreign language) and *précoce* (early, at a young age) are the theme of the model.
+
+<Example fr="Pour argumenter, il ne suffit pas d'affirmer : il faut des raisons et des exemples." en="To argue a case, it isn't enough to assert: you need reasons and examples." />
+<Example fr="Sa prise de position est claire, mais elle reste nuancée." en="Her stance is clear, but it remains nuanced." />
+<Example fr="Un apprentissage précoce d'une langue étrangère a des avantages et des limites." en="Learning a foreign language early has advantages and limits." />
+
+## From the exposé to the written text
+
+The plan you build for a short exposé and the plan of a short argued text are the same: a problématique, two or three parts, examples, a conclusion. What changes is the language. In speech, you reformulate questions, you may use one discourse marker to sound natural, and you repeat your plan so that listeners can follow. In writing, the reader can go back, so you don't repeat; you use written connectors instead of spoken markers, and every sentence must be complete. Before you write, ask which of the two you're doing.
+
+<Example fr="À l'oral, on répète le plan ; à l'écrit, on l'annonce une seule fois." en="When speaking, you repeat the plan; in writing, you announce it only once." />
+
+## A short argued text
+
+An argued text at this level combines the tools of the whole course. As a rule of thumb, aim for these five features:
+
+1. **A problématique and an announced plan**, as in the lesson on the dissertation: *on peut dès lors se demander dans quelle mesure…*, *nous verrons d'abord…, puis…*.
+2. **Precise, neutral words**: the respectful terms of the lesson on euphemism, and the right strength among synonyms.
+3. **A concession** with *quand bien même* + conditionnel, before the main argument.
+4. **Formal structures**: one formal relative (*grâce auquel*, *dont*, *en raison duquel*) and one apposition.
+5. **A nuanced conclusion**: your *prise de position*, with its conditions.
+
+Keep the spoken markers of the lesson on discourse markers out of the text, except *cela dit*, and reread it with the checklist from the practice lesson on synthesis and essay.
+
+## The model
+
+The text below is an original argued text written for this lesson. It answers the question: *Faut-il apprendre une langue étrangère dès l'école maternelle ?*
+
+*Faut-il apprendre une langue étrangère dès l'école maternelle ?*
+
+*Dans beaucoup de pays, les enfants commencent une langue étrangère de plus en plus tôt. Certains y voient une chance, d'autres une charge de plus pour de très jeunes élèves, et la question divise les parents comme les enseignants. On peut dès lors se demander dans quelle mesure un apprentissage précoce est utile. Nous verrons d'abord ses avantages, puis ses limites.*
+
+*D'abord, un jeune enfant apprend en jouant, sans peur de se tromper. Il entend des sons qu'un adulte reproduira moins facilement. Ce contact précoce, grâce auquel l'oreille s'habitue à une autre langue, prépare les apprentissages futurs. La fille de ma voisine, élève de maternelle, chante déjà des chansons en anglais. Elle ne traduit pas : elle répète, elle imite, et elle s'amuse.*
+
+*Cependant, quand bien même l'enfant progresserait vite, le résultat dépendrait des conditions. Quelques minutes de temps en temps, avec un enseignant qui ne parle pas bien la langue, ne suffisent pas. Par ailleurs, certains enfants maîtrisent encore mal la langue de l'école, dont l'apprentissage reste la priorité. Enfin, toutes les familles ne peuvent pas payer des cours en plus, ce qui peut augmenter les inégalités.*
+
+*Pour conclure, un apprentissage précoce peut être une vraie chance, à condition de se faire chaque semaine et d'être confié à des enseignants formés. Une langue étrangère ne remplace pas la langue de l'école : elle vient s'ajouter à elle. Ma prise de position est donc nuancée : oui, mais vraiment pas dans n'importe quelles conditions.*
+
+(Should children learn a foreign language from nursery school? In many countries, children start a foreign language earlier and earlier. Some see it as an opportunity, others as one more burden for very young pupils, and the question divides parents and teachers alike. One may therefore ask to what extent early learning is useful. We will first see its advantages, then its limits. First, a young child learns through play, without fear of making mistakes. They hear sounds that an adult will reproduce less easily. This early contact, thanks to which the ear gets used to another language, prepares future learning. My neighbour's daughter, a nursery-school pupil, already sings songs in English. She doesn't translate: she repeats, she imitates, and she has fun. However, even if the child made quick progress, the result would depend on the conditions. A few minutes now and then, with a teacher who doesn't speak the language well, aren't enough. Moreover, some children still have a poor command of the language of school, learning which remains the priority. Finally, not all families can pay for extra lessons, which can increase inequalities. To conclude, early learning can be a real opportunity, provided it happens every week and is entrusted to trained teachers. A foreign language doesn't replace the language of school: it comes in addition to it. My position is therefore nuanced: yes, but really not under just any conditions.)
+
+## How the text uses the unit
+
+- **Problématique and plan**: *on peut dès lors se demander dans quelle mesure…*, then *nous verrons d'abord ses avantages, puis ses limites*, in two parts, each opened by a connector (*d'abord*, *cependant*).
+- **The positions**: introduced neutrally and attributed (*certains y voient…, d'autres…*).
+- **The concession**: *quand bien même l'enfant progresserait vite, le résultat dépendrait des conditions*, with the conditionnel in both clauses.
+- **Formal structures**: two relatives, *grâce auquel* and *dont*, and one apposition, *la fille de ma voisine, élève de maternelle,*.
+- **The conclusion**: *pour conclure*, then *ma prise de position est donc nuancée*, with its conditions.
+- **No spoken markers and no figures.**
+
+## Your turn
+
+Write a short argued text of about two hundred words on one of these questions: *Faut-il interdire les téléphones à l'école ?* or *Le télétravail est-il une bonne chose ?* Use the five features: a problématique and a plan, precise words, a concession with *quand bien même*, one formal relative and one apposition, and a nuanced conclusion. Then reread it with your checklist.
+
+## Check your work
+
+- Does the introduction state a problématique and announce the plan?
+- Is each position attributed, in neutral words?
+- Is *quand bien même* followed by the conditionnel, and is the main clause in the conditionnel too?
+- Does the text contain one formal relative and one apposition, both correct?
+- Did you reread once for the meaning, once for the agreements, and once for spelling and punctuation?
+
+<Callout type="warning" title="Quand bien même il progresserait, not quand bien même il progresse">
+  Learners often put the present after *quand bien même*, as after *même si*. It takes the conditionnel: **quand bien même l'enfant progresserait vite**, not *quand bien même l'enfant progresse vite*.
+</Callout>
+
+<Callout type="tip" title="Write the conclusion second">
+  Once you have your problématique, write your conclusion next, before the body. Knowing exactly where you want to arrive keeps each part on track; then write the body, and adjust the conclusion at the end if your argument changed on the way.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-review-final" text="the C1 final review" /> brings all eight units together.
+
+===== content/lessons/c1/review-final.mdx =====
+---
+id: "c1-review-final"
+title: "C1 final review"
+description: "The whole C1 level in one lesson: a can-do checklist with one model sentence per unit, three new words to talk about your progress, and a final piece of writing, Mon bilan de C1, built only from structures taught in the course."
+level: "C1"
+unit: "Towards DALF C1"
+order: 57
+type: "review"
+tags: ["review", "final", "writing", "self-assessment"]
+prerequisites: ["c1-review-literary", "c1-review-style", "c1-review-academic", "c1-review-rhetoric", "c1-review-professional", "c1-review-ideas", "c1-review-living", "c1-review-towards-dalf"]
+related: ["c1-passe-simple", "c1-exam-written-tasks", "c1-register-shifting"]
+vocab:
+  - { id: "c1-review-final-v001", group: "new", fr: "les acquis (m.)", pron: "lay-zah-KEE", en: "what you have learned, your achievements" }
+  - { id: "c1-review-final-v002", group: "new", fr: "la fluidité", pron: "lah flew-ee-dee-TAY", en: "fluency" }
+  - { id: "c1-review-final-v003", group: "new", fr: "persévérer", pron: "pehr-say-vay-RAY", en: "to persevere, to keep going" }
+exercises:
+  - id: "c1-review-final-ex001"
+    type: "fill-in"
+    prompt: "Conjuguez au passé simple : Le voyageur ___ (entrer) sans un mot."
+    answers: ["entra"]
+    explanation: "Unit 1: -er verbs in the passé simple, il entra."
+  - id: "c1-review-final-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase correcte."
+    options: ["Peut-être faut-il attendre.", "Peut-être que faut-il attendre.", "Peut-être il faut-il attendre."]
+    answers: ["Peut-être faut-il attendre."]
+    explanation: "Unit 2: peut-être at the start takes inversion (or que with normal order, never both)."
+  - id: "c1-review-final-ex003"
+    type: "reformulation"
+    prompt: "Reformulez avec une proposition participiale : Quand le dossier a été signé, l'équipe a commencé le travail."
+    answers: ["Le dossier signé, l'équipe a commencé le travail", "Une fois le dossier signé, l'équipe a commencé le travail"]
+    strictAccents: true
+    explanation: "Unit 3: the participle clause has its own subject, le dossier."
+  - id: "c1-review-final-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Le projet a un coût, je vous l'accorde. Il n'en demeure pas moins ___ il est utile."
+    options: ["qu'", "parce qu'", "lorsqu'"]
+    answers: ["qu'"]
+    explanation: "Unit 4: il n'en demeure pas moins que, the turn after a concession."
+  - id: "c1-review-final-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la formule d'une lettre formelle."
+    options: ["Je vous saurais gré de bien vouloir me répondre.", "Tu peux me répondre ?", "Réponds-moi vite, merci !"]
+    answers: ["Je vous saurais gré de bien vouloir me répondre."]
+    explanation: "Unit 5: the formal request of the lesson on high-register correspondence."
+  - id: "c1-review-final-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui présente le débat de façon neutre."
+    options: ["Pour certains, nous avons un libre arbitre ; pour d'autres, nos choix ont des causes.", "Le libre arbitre n'existe pas, c'est évident.", "Ceux qui croient au libre arbitre se trompent, voilà tout."]
+    answers: ["Pour certains, nous avons un libre arbitre ; pour d'autres, nos choix ont des causes."]
+    explanation: "Unit 6: each position is given and attributed."
+  - id: "c1-review-final-ex007"
+    type: "fill-in"
+    prompt: "Complétez le proverbe : Après la pluie, le beau ___."
+    answers: ["temps"]
+    explanation: "Unit 7: things will get better."
+  - id: "c1-review-final-ex008"
+    type: "multiple-choice"
+    prompt: "Indiquez le rôle de « cela dit » dans : Le film est long. Cela dit, la fin est très belle."
+    options: ["ajouter une nuance", "revenir sur une erreur", "exprimer la surprise"]
+    answers: ["ajouter une nuance"]
+    explanation: "Unit 8: cela dit adds a nuance, and it works in writing too."
+  - id: "c1-review-final-ex009"
+    type: "fill-in"
+    prompt: "Complétez : Ce que j'ai appris pendant l'année, ce sont mes ___."
+    answers: ["acquis"]
+    explanation: "Les acquis: what you have learned."
+  - id: "c1-review-final-ex010"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Parler sans chercher ses mots, c'est parler avec ___."
+    options: ["fluidité", "lacune", "acquis"]
+    answers: ["fluidité"]
+    explanation: "La fluidité: fluency."
+  - id: "c1-review-final-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « persévérer » au futur proche : Je vais continuer mes efforts, même si c'est difficile."
+    answers: ["Je vais persévérer, même si c'est difficile", "Je vais persévérer"]
+    explanation: "Persévérer: to keep going despite difficulties."
+  - id: "c1-review-final-ex012"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu : Le chauffage est mort depuis lundi."
+    answers: ["Le chauffage ne fonctionne plus depuis lundi"]
+    explanation: "Unit 7: mort (familiar, for a machine) becomes ne fonctionne plus."
+  - id: "c1-review-final-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Quand bien même il serait fatigué, il continue."
+    answers: ["Quand bien même il serait fatigué, il continuerait"]
+    explanation: "Unit 3: quand bien même takes the conditionnel in both clauses."
+  - id: "c1-review-final-ex014"
+    type: "translate"
+    prompt: "Traduisez (avant que) : Leave before it rains."
+    answers: ["Partez avant qu'il ne pleuve", "Partez avant qu'il pleuve", "Pars avant qu'il ne pleuve", "Pars avant qu'il pleuve"]
+    explanation: "Unit 2: avant que + subjunctive, with or without the ne explétif."
+  - id: "c1-review-final-ex015"
+    type: "translate"
+    prompt: "Traduisez (le libre arbitre) : Do we have free will?"
+    answers: ["Avons-nous un libre arbitre ?", "Est-ce que nous avons un libre arbitre ?", "A-t-on un libre arbitre ?"]
+    strictAccents: true
+    explanation: "Unit 6: le libre arbitre."
+  - id: "c1-review-final-ex016"
+    type: "translate"
+    prompt: "Traduisez (si je comprends bien) : If I understand correctly, you're asking me for an example."
+    answers: ["Si je comprends bien, vous me demandez un exemple"]
+    explanation: "Unit 8: reformulate the question before you answer."
+  - id: "c1-review-final-ex017"
+    type: "error-correction"
+    prompt: "Corrigez le mélange des registres (gardez le registre soutenu) : Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées. Bonne journée !"
+    answers: ["Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées"]
+    explanation: "Units 5 and 7: nothing comes after the closing formula of a formal letter."
+  - id: "c1-review-final-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : My greatest progress is in speaking."
+    words: ["Mon", "plus", "grand", "progrès", "est", "à", "l'oral"]
+    answers: ["Mon plus grand progrès est à l'oral"]
+    explanation: "Le progrès: progress."
+---
+
+By the end of this lesson you'll be able to check your level against everything C1 has taught, and write a short, well-built text about your own progress.
+
+## What C1 has covered
+
+This checklist goes unit by unit. For each one, read the statement, read the model sentence, and ask yourself whether you could write a sentence like it without help. If not, go back to the linked lesson.
+
+**Unit 1, Literary French.** I can read a story told in the passé simple, recognize the passé antérieur and the imperfect subjunctive, and read a classical line of verse. See <LessonLink id="c1-passe-simple" text="the lesson on the passé simple" />.
+
+<Example fr="Le voyageur entra dans l'auberge et demanda pourquoi la cloche se taisait." en="The traveller entered the inn and asked why the bell was silent. (literary)" />
+
+**Unit 2, Style and emphasis.** I can use stylistic inversion, the ne explétif, literary negation and the precise verbs and collocations of careful writing. See <LessonLink id="c1-stylistic-inversion" text="the lesson on stylistic inversion" />.
+
+<Example fr="Peut-être faut-il attendre la fin de l'année pour juger." en="Perhaps we should wait until the end of the year to judge. (formal)" />
+
+**Unit 3, Academic writing.** I can use participle clauses, formal relatives, apposition and concession, and write a synthesis and a dissertation. See <LessonLink id="c1-participle-clauses" text="the lesson on participle clauses" />.
+
+<Example fr="Le rapport terminé, l'équipe a présenté ses conclusions." en="With the report finished, the team presented its conclusions." />
+
+**Unit 4, Debate and rhetoric.** I can concede a point and turn it, use a few rhetorical devices, and recognize irony. See <LessonLink id="c1-formal-debate" text="the lesson on formal debate" />.
+
+<Example fr="Le projet a un coût, je vous l'accorde. Il n'en demeure pas moins qu'il répond à un vrai besoin." en="The project has a cost, I grant you. The fact remains that it meets a real need." />
+
+**Unit 5, Professional mastery.** I can write to an institution in the high register, lead a meeting and use the language of law and finance. See <LessonLink id="c1-formal-correspondence" text="the lesson on high-register correspondence" />.
+
+<Example fr="Je vous saurais gré de bien vouloir m'envoyer le dossier complet." en="I would be grateful if you would send me the complete file. (formal)" />
+
+**Unit 6, Ideas and society.** I can discuss ideas, history and technology, and present a debate neutrally, attributing each position. See <LessonLink id="c1-philosophy-and-ideas" text="the lesson on philosophy and ideas" />.
+
+<Example fr="Pour certains, nous avons un libre arbitre ; pour d'autres, nos choix ont des causes." en="For some, we have free will; for others, our choices have causes." />
+
+**Unit 7, Living the language.** I can use proverbs and idioms where they fit, recognize regional French, and move between registers on purpose. See <LessonLink id="c1-register-shifting" text="the lesson on shifting register" />.
+
+<Example fr="Le chauffage est mort depuis lundi ; le chauffage ne fonctionne plus depuis lundi." en="The heating's been dead since Monday (familiar); the heating has not been working since Monday (formal)." />
+
+**Unit 8, Towards DALF C1.** I can choose words by strength and register, use spoken markers, explain laïcité as a set of rules, give a short exposé and write a synthesis or an argued text. See <LessonLink id="c1-exam-oral-presentation" text="the practice lesson on the short exposé" />.
+
+<Example fr="Si je comprends bien, vous me demandez si cette mesure est juste pour tous." en="If I understand correctly, you're asking me whether this measure is fair to everyone." />
+
+## A few new words
+
+<VocabTable group="new" />
+
+These three words help you talk about your progress. *Les acquis* (always plural in this sense) are what you have learned and can rely on. *La fluidité* (fluency) is speaking or writing without searching for words. To *persévérer* is to keep going when it's difficult, which is the main advice at the end of any level.
+
+<Example fr="Mes acquis sont nombreux à l'écrit, mais ma fluidité à l'oral peut encore progresser." en="My achievements are solid in writing, but my fluency in speaking can still improve." />
+<Example fr="Pour atteindre le niveau suivant, il faut persévérer." en="To reach the next level, you have to keep going." />
+
+## Writing your bilan
+
+*Un bilan* (a review, a stock-take) of your learning is a short text in your own voice, in the first person. As a rule of thumb, build it in four paragraphs:
+
+1. **Where you started and where you are**: one concrete before-and-after.
+2. **Your strengths**: two or three precise skills, each with an example.
+3. **What remains**: one or two weak points, stated honestly and precisely.
+4. **What's next**: an objective you can check, and why you'll keep going.
+
+Write it in standard written French: the passé composé and the imparfait for the past, not the passé simple, which belongs to stories. Use a few of the structures of the level where they fit naturally, not all of them: a text that piles up every C1 structure sounds like an exercise.
+
+## The model
+
+The text below is an original text written for this lesson.
+
+*Mon bilan de C1*
+
+*Il y a un an, je lisais des romans français avec un dictionnaire à côté de moi. Aujourd'hui, je lis des nouvelles du dix-neuvième siècle presque sans aide, et je reconnais le passé simple dès la première lecture. Je comprends aussi les films de la Nouvelle Vague sans sous-titres.*
+
+*Mes acquis sont nombreux. J'écris des synthèses sans donner mon avis, je construis une dissertation autour d'une problématique, et je sais passer d'un registre à l'autre : je n'écris plus au propriétaire comme à mes amis. Peut-être mon plus grand progrès est-il à l'oral : je prends la parole en réunion, je reformule les questions et je gagne du temps quand il le faut. Ma professeure, grande lectrice de poésie, m'a aussi fait découvrir Baudelaire. Au travail, j'écris des courriels plus précis, et j'ose enfin dire non poliment.*
+
+*Il me reste cependant des lacunes. La fluidité, que je croyais acquise, disparaît encore quand je suis fatigué. Les accords du participe passé, dont je connais pourtant les règles, me posent encore des problèmes à l'écrit. Je cherche aussi parfois mes mots dans une discussion rapide, surtout quand plusieurs personnes parlent en même temps.*
+
+*Mon objectif pour l'année prochaine est simple : lire un classique par mois et faire un exposé devant des amis chaque semaine. Quand bien même j'atteindrais un jour le niveau C2, je continuerais à lire chaque jour. Je garderai aussi ma grille de relecture près de mon bureau. Je vais donc persévérer, car c'est en forgeant qu'on devient forgeron.*
+
+(My C1 review. A year ago, I read French novels with a dictionary next to me. Today, I read nineteenth-century short stories almost without help, and I recognize the passé simple on the first reading. I also understand New Wave films without subtitles. My achievements are many. I write syntheses without giving my opinion, I build a dissertation around a problématique, and I can move from one register to another: I no longer write to the landlord as I write to my friends. Perhaps my greatest progress is in speaking: I speak up in meetings, I reformulate questions and I buy time when I need to. My teacher, a great reader of poetry, also introduced me to Baudelaire. At work, I write more precise emails, and I finally dare to say no politely. I still have gaps, however. Fluency, which I thought I had acquired, still disappears when I'm tired. Past participle agreements, whose rules I do know, still cause me problems in writing. I also sometimes search for my words in a fast discussion, especially when several people are talking at once. My objective for next year is simple: read one classic a month and give a presentation to friends every week. Even if I one day reached the C2 level, I would go on reading every day. I'll also keep my rereading checklist near my desk. So I'm going to keep going, because practice makes perfect.)
+
+## How the bilan uses the course
+
+- **The plan**: four paragraphs, as above: before and after, strengths, what remains, objective.
+- **Unit 2**: inversion after *peut-être* (*peut-être mon plus grand progrès est-il à l'oral*).
+- **Unit 3**: an apposition (*ma professeure, grande lectrice de poésie,*), the relatives *que* and *dont*, and *quand bien même* with the conditionnel in both clauses.
+- **Units 5 and 8**: the skills of the meeting and the exposé (*je prends la parole*, *je reformule les questions*, *je gagne du temps*).
+- **Unit 7**: a proverb in its place, at the end (*c'est en forgeant qu'on devient forgeron*), and the idea of moving between registers.
+- **The new words**: *mes acquis*, *la fluidité* and *persévérer*.
+- **No passé simple**: a bilan is not a story, so it uses the passé composé and the imparfait.
+
+The writer is a man here (*fatigué*); a woman would write *fatiguée*.
+
+## Your turn
+
+Write your own *bilan de C1* in about two hundred words, in four paragraphs. Use the three new words, one structure from at least three different units, and an objective you can check in a month. Then reread it with the checklist from the practice lesson on synthesis and essay.
+
+## Check your work
+
+- Does each paragraph do one job: before and after, strengths, what remains, objective?
+- Is each strength backed by an example?
+- Did you use the passé composé and the imparfait, and no passé simple?
+- Is every structure you borrowed correct (inversion, apposition, *quand bien même*)?
+- Is your objective concrete enough to check?
+
+<Callout type="warning" title="Mes acquis, not mes acquises">
+  Learners sometimes make *acquis* agree with the things learned. In this sense, the noun is masculine plural: **mes acquis sont nombreux**. The participle does agree, as in *la fluidité, que je croyais **acquise***.
+</Callout>
+
+<Callout type="tip" title="Reread your first C1 text">
+  Find the first text you wrote at the start of C1 and reread it next to your bilan. Note three things you would now write differently. Seeing your own progress, sentence by sentence, is the best reason to persevere.
+</Callout>
+
+## What's next
+
+You've finished C1. To revise, start again from <LessonLink id="c1-review-literary" text="the review of Unit 1" /> and work through the unit reviews in order; each one links back to the lessons it recycles.
+

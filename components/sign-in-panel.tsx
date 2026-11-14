@@ -6,7 +6,7 @@ export function SignInPanel({ next }: { next: string }) {
   const href = `/sign-in?next=${encodeURIComponent(safeNext(next))}`;
   return (
     <section className="mt-8 rounded-2xl border border-border bg-card px-6 py-10 text-center sm:px-10">
-      <p className="text-xs font-semibold uppercase tracking-widest text-accent">Free with a Google sign-in</p>
+      <p className="text-xs font-semibold uppercase tracking-widest text-accent">Google sign-in required</p>
       <h2 className="mt-3 font-serif text-2xl font-semibold sm:text-3xl">
         Sign in with Google to read this lesson. It&apos;s free.
       </h2>

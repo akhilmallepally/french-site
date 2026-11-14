@@ -37,7 +37,7 @@ export default async function LevelPage({ params }: PageProps<"/lessons/[level]"
         </h1>
         <p className="mt-3 text-lg text-muted">{level.summary}</p>
         {!isFreeLevel(level.level) && (
-          <p className="mt-3 text-sm font-medium text-accent">Free with a Google sign-in</p>
+          <p className="mt-3 text-sm font-medium text-accent">Google sign-in required</p>
         )}
       </header>
 

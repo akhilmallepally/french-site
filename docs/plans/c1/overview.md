@@ -1,6 +1,6 @@
 # C1 plan: overview
 
-Status: Units 1 to 7 are written; Units 1 to 5 and 7 have been reviewed as whole units, and Unit 6 is ready for its unit review. 50 of 57 lessons are written. Unit 8 remains. Rules: CLAUDE.md, "C1 conventions" (on top of the B2 conventions). Coverage of A1 to B2: docs/c1-coverage.md, checked with `node --experimental-strip-types scripts/c1-find.ts "phrase"`. Lesson numbers follow docs/syllabus.md.
+Status: all eight units are written: 57 of 57 lessons. Units 1 to 7 have been reviewed as whole units, and Unit 8 is ready for its unit review. Rules: CLAUDE.md, "C1 conventions" (on top of the B2 conventions). Coverage of A1 to B2: docs/c1-coverage.md, checked with `node --experimental-strip-types scripts/c1-find.ts "phrase"`. Lesson numbers follow docs/syllabus.md.
 
 ## Shape
 

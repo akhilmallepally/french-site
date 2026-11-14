@@ -52,7 +52,7 @@ export default function LessonsPage() {
               </h2>
               <p className="mt-1 text-sm leading-relaxed text-muted">{l.summary}</p>
               {!isFreeLevel(l.level) && !l.comingLater && (
-                <p className="mt-2 text-xs font-medium text-accent">Free with a Google sign-in</p>
+                <p className="mt-2 text-xs font-medium text-accent">Google sign-in required</p>
               )}
               {l.lessonCount > 0 && <LevelCompletion lessonIds={l.lessonIds} />}
             </Link>

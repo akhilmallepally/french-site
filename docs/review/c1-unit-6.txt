@@ -147,7 +147,7 @@ You know *la liberté* from <LessonLink id="b1-culture-french-republic" text="th
 <Example fr="Le bonheur est une notion que chaque philosophe comprend à sa manière." en="Happiness is a notion that each philosopher understands in their own way." />
 <Example fr="Dans ce livre, chaque concept a un sens très clair." en="In this book, each concept has a very clear meaning." />
 
-**Le libre arbitre** (free will) is a classic debate, and French presents it as one. Pour certains philosophes, nous choisissons librement nos actes, et nous en sommes responsables. Pour d'autres, nos choix ont toujours des causes : notre histoire, notre corps, notre société. Many positions sit between the two.
+**Le libre arbitre** (free will) is a classic debate, and French presents it as one. For some philosophers, we choose our actions *librement* (freely), and we are responsible for them. For others, our choices always have causes: our history, our body, our society. Many positions sit between the two.
 
 <Example fr="Pour certains, nous avons un libre arbitre ; pour d'autres, nos choix ont des causes que nous ne voyons pas." en="For some, we have free will; for others, our choices have causes we don't see." />
 
@@ -256,7 +256,8 @@ vocab:
   - { id: "c1-culture-enlightenment-v013", group: "legacy", fr: "la Déclaration des droits de l'homme et du citoyen", pron: "lah day-klah-rah-syohn day drwah duh LOMM ay dew see-twah-YAN", en: "the Declaration of the Rights of Man and of the Citizen (1789)" }
   - { id: "c1-culture-enlightenment-v014", group: "legacy", fr: "la liberté d'expression", pron: "lah lee-behr-tay dek-spreh-SYOHN", en: "freedom of expression" }
   - { id: "c1-culture-enlightenment-v015", group: "legacy", fr: "l'esclavage (m.)", pron: "les-klah-VAHZH", en: "slavery" }
-  - { id: "c1-culture-enlightenment-v016", group: "glossary", fr: "la prison", pron: "lah pree-ZOHN", en: "prison" }
+  - { id: "c1-culture-enlightenment-v016", group: "legacy", fr: "rédiger", pron: "ray-dee-ZHAY", en: "to draft, to write (a formal text)" }
+  - { id: "c1-culture-enlightenment-v017", group: "glossary", fr: "la prison", pron: "lah pree-ZOHN", en: "prison" }
 exercises:
   - id: "c1-culture-enlightenment-ex001"
     type: "multiple-choice"
@@ -317,10 +318,10 @@ exercises:
     explanation: "Défendre la tolérance: a central cause of Voltaire's."
   - id: "c1-culture-enlightenment-ex011"
     type: "translate"
-    prompt: "Traduisez au passif (la Déclaration des droits de l'homme et du citoyen) : The Declaration of the Rights of Man and of the Citizen was written in 1789."
-    answers: ["La Déclaration des droits de l'homme et du citoyen a été écrite en 1789"]
+    prompt: "Traduisez au passif, avec « écrire », « rédiger » ou « adopter » : The Declaration of the Rights of Man and of the Citizen dates from 1789."
+    answers: ["La Déclaration des droits de l'homme et du citoyen a été écrite en 1789", "La Déclaration des droits de l'homme et du citoyen a été rédigée en 1789", "La Déclaration des droits de l'homme et du citoyen a été adoptée en 1789"]
     strictAccents: true
-    explanation: "Passive, with the participle agreeing with la Déclaration: a été écrite."
+    explanation: "Passive, with the participle agreeing with la Déclaration. Écrite and rédigée date the drafting, adoptée the vote: all three place it in 1789."
   - id: "c1-culture-enlightenment-ex012"
     type: "translate"
     prompt: "Traduisez à l'imparfait (un salon, passer par) : Ideas travelled through the salons."
@@ -375,7 +376,7 @@ Their shared ideas, as a rule of thumb: reason should judge every claim, whoever
 **Montesquieu** (1689–1755) first mocked French society through the eyes of two Persian visitors in his *Lettres persanes* (1721). In *De l'esprit des lois* (1748), he compared political systems and argued for *la séparation des pouvoirs*: the power to make laws (*le pouvoir législatif*), to apply them (*le pouvoir exécutif*) and to judge (*le pouvoir judiciaire*) should be in different hands, so that no one can abuse them.
 
 <Example fr="Montesquieu défend la séparation des pouvoirs." en="Montesquieu argues for the separation of powers." />
-<Example fr="« Il faut que, par la disposition des choses, le pouvoir arrête le pouvoir. » (Montesquieu, De l'esprit des lois)" en="&quot;Things must be arranged so that power checks power.&quot; (our translation)" />
+<Example fr="« […] il faut que, par la disposition des choses, le pouvoir arrête le pouvoir. » (Montesquieu, De l'esprit des lois)" en="&quot;[…] things must be arranged so that power checks power.&quot; (our translation)" />
 
 **Voltaire** (1694–1778) fought for tolerance and freedom of thought with humour and energy. When Jean Calas, a Protestant merchant from Toulouse, was executed in 1762 after an unfair trial, Voltaire campaigned for years to have him cleared, and wrote his *Traité sur la tolérance* (1763). His tale *Candide* (1759) ends with a modest piece of advice:
 
@@ -402,13 +403,14 @@ Women played a real part too. **Émilie du Châtelet** (1706–1749), a scientis
 
 In August 1789, a few weeks after the storming of the Bastille, the revolutionaries adopted *la Déclaration des droits de l'homme et du citoyen*. Its text echoes Enlightenment ideas: freedom, equality before the law, *la liberté d'expression* (freedom of expression), the separation of powers and the sovereignty of the nation.
 
+<Example fr="Les députés ont rédigé la Déclaration en quelques semaines." en="The deputies drafted the Declaration in a few weeks." />
 <Example fr="La Déclaration des droits de l'homme et du citoyen défend la liberté d'expression." en="The Declaration of the Rights of Man and of the Citizen defends freedom of expression." />
 
 How far the Enlightenment caused the Revolution is a historians' debate. For some, the writers of the Enlightenment prepared the ground by teaching people to question authority. For others, the causes were first of all economic and political, such as the state's debts and the cost of bread, and the ideas served to express a crisis that had other roots.
 
-The legacy is debated too. For many, the Enlightenment is the source of human rights, democracy and secular institutions. Others point out its limits: many of its writers didn't extend the equality they defended to women, and few campaigned against *l'esclavage* (slavery) in the colonies, although some, such as Diderot's circle, criticized it. Present both views, and attribute them.
+The legacy is debated too. For many, the Enlightenment is the source of human rights, democracy and secular institutions. Others point out its limits: many of its writers didn't extend the equality they defended to women. And although Montesquieu (in book XV of *De l'esprit des lois*), Voltaire (in *Candide*) and the *Encyclopédie* attacked *l'esclavage* (slavery), this criticism rarely became a campaign for abolition before the 1780s. Present both views, and attribute them.
 
-<Example fr="Pour certains spécialistes, les Lumières ont des limites : peu d'auteurs ont critiqué l'esclavage." en="For some specialists, the Enlightenment has limits: few writers criticized slavery." />
+<Example fr="Pour certains spécialistes, les Lumières ont des limites : beaucoup d'auteurs ont critiqué l'esclavage, mais peu ont demandé sa fin avant les années 1780." en="For some specialists, the Enlightenment has limits: many writers criticized slavery, but few called for its end before the 1780s." />
 
 ## A short article
 
@@ -521,7 +523,7 @@ exercises:
   - id: "c1-culture-may-68-ex008"
     type: "reformulation"
     prompt: "Reformulez avec « occuper » au passé composé : Les ouvriers sont restés dans l'usine jour et nuit pour arrêter le travail."
-    answers: ["Les ouvriers ont occupé l'usine"]
+    answers: ["Les ouvriers ont occupé l'usine", "Les ouvriers ont occupé l'usine jour et nuit"]
     strictAccents: true
     explanation: "Occuper une usine: to stay in it as a form of strike."
   - id: "c1-culture-may-68-ex009"
@@ -532,7 +534,7 @@ exercises:
   - id: "c1-culture-may-68-ex010"
     type: "reformulation"
     prompt: "Reformulez avec « la libération des mœurs » : Après 1968, la vie privée est devenue plus libre."
-    answers: ["Après 1968, on a parlé de la libération des mœurs", "Après 1968, il y a eu une libération des mœurs"]
+    answers: ["Après 1968, il y a eu une libération des mœurs", "Il y a eu une libération des mœurs après 1968", "Après 1968, il y a eu la libération des mœurs"]
     strictAccents: true
     explanation: "La libération des mœurs: the loosening of social and sexual norms."
   - id: "c1-culture-may-68-ex011"
@@ -581,7 +583,7 @@ You know *une grève* and *un syndicat* from <LessonLink id="b1-culture-work-lif
 
 ## France in the 1960s
 
-In 1968, France was a prosperous country. The economy had grown fast since the war, and more young people than ever went to *l'université* (university). General de Gaulle had been president since 1959, in the Fifth Republic founded in 1958. At the same time, students in many countries, from the United States to Germany, were protesting against the war in Vietnam and against the authority of their elders.
+In 1968, France was a prosperous country. The economy had grown fast since the war, and more young people than ever went to *l'université* (university). General de Gaulle had been president since 1959, in the Fifth Republic, whose constitution was adopted in 1958. At the same time, students in many countries, from the United States to Germany, were protesting against the war in Vietnam and against the authority of their elders.
 
 <Example fr="Dans les années 1960, de plus en plus de jeunes allaient à l'université." en="In the 1960s, more and more young people went to university." />
 
@@ -745,7 +747,7 @@ exercises:
     explanation: "Poser un problème éthique: to raise an ethical problem."
   - id: "c1-technology-ethics-ex009"
     type: "reformulation"
-    prompt: "Reformulez avec « collecter des données » : Cette application garde des informations sur ses utilisateurs."
+    prompt: "Reformulez avec « collecter des données » : Cette application rassemble des informations sur ses utilisateurs."
     answers: ["Cette application collecte des données sur ses utilisateurs"]
     explanation: "Collecter des données: to collect data."
   - id: "c1-technology-ethics-ex010"
@@ -798,7 +800,7 @@ You know *les données* (data) from <LessonLink id="b2-presenting-data" text="th
 
 Every time you use an app, a site or a loyalty card, companies may *collecter des données* (collect data) about you. *Les données personnelles* (personal data) are any information linked to a person: name, address, location, purchases, health. *La vie privée* (privacy) is the part of your life that others have no right to know without your agreement.
 
-In the European Union, a 2018 regulation, known in French as *le RGPD* and in English as the GDPR, sets the rules for *la protection des données* (data protection). Its central idea is *le consentement* (consent): a company must, as a rule, ask you to *donner votre consentement* clearly before using your data for some purposes. In France, an independent authority, the CNIL, checks that these rules are applied.
+In the European Union, a regulation adopted in 2016 and applied since 2018, known in French as *le RGPD* and in English as the GDPR, sets the rules for *la protection des données* (data protection). Its central idea is *le consentement* (consent): a company must, as a rule, ask you to *donner votre consentement* clearly before using your data for some purposes. In France, an independent authority, the CNIL, checks that these rules are applied.
 
 *Le droit à l'oubli* (the right to be forgotten) lets a person ask for some old information about them to disappear from search results.
 
@@ -835,7 +837,8 @@ The debate about AI, presented neutrally:
 
 <Example fr="Ce programme sait reconnaître un visage dans une foule." en="This program can recognize a face in a crowd." />
 <Example fr="Une erreur peut toucher une personne innocente." en="An error can affect an innocent person." />
- The debate sets *la sécurité* (security) against privacy and freedom.
+
+The debate sets *la sécurité* (security) against privacy and freedom.
 
 - **For some**, these tools protect the public: they help find people who commit crimes and prevent attacks in crowded places.
 - **For others**, they threaten *la vie privée* and freedom: being identified everywhere changes how people behave, and errors can fall on innocent people.
@@ -847,7 +850,7 @@ The debate about AI, presented neutrally:
 
 <VocabTable group="ethics" />
 
-When a technology *pose un problème éthique* (raises an ethical problem), societies try to set *des garde-fous* (safeguards): laws, independent authorities, ethics committees. *La bioéthique* (bioethics) applies the same questions to medicine and biology, such as what may be done with human genes or embryos. France has had bioethics laws since the 1990s, and they are revised regularly after public debate.
+When a technology *pose un problème éthique* (raises an ethical problem), societies try to set *des garde-fous* (safeguards): laws, independent authorities, ethics committees. *La bioéthique* (bioethics) applies the same questions to medicine and biology, such as what may be done with human genes or embryos. France adopted its first bioethics laws in 1994, and they have been revised several times since, each time after public debate.
 
 <Example fr="La reconnaissance faciale pose un problème éthique : qui contrôle les images ?" en="Facial recognition raises an ethical problem: who controls the images?" />
 <Example fr="Pour beaucoup, la loi doit fixer des garde-fous avant que la technologie soit utilisée partout." en="For many, the law should set safeguards before the technology is used everywhere." />
@@ -981,7 +984,7 @@ exercises:
   - id: "c1-culture-auteur-cinema-ex012"
     type: "translate"
     prompt: "Traduisez (la lumière naturelle) : They filmed in the street, with natural light."
-    answers: ["Ils ont filmé dans la rue, avec la lumière naturelle", "Ils filmaient dans la rue, avec la lumière naturelle"]
+    answers: ["Ils ont filmé dans la rue, avec la lumière naturelle", "Ils filmaient dans la rue, avec la lumière naturelle", "Ils ont filmé dans la rue, à la lumière naturelle", "Ils filmaient dans la rue, à la lumière naturelle"]
     strictAccents: true
     explanation: "Filmer: to film. The New Wave liked real places and natural light."
   - id: "c1-culture-auteur-cinema-ex013"

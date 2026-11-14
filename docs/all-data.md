@@ -1,6 +1,6 @@
 # All lesson data
 
-273 written lessons, in course order.
+280 written lessons, in course order.
 
 ## a1-greetings
 
@@ -10746,6 +10746,7 @@ fr | pron | en | note
 - la Déclaration des droits de l'homme et du citoyen | lah day-klah-rah-syohn day drwah duh LOMM ay dew see-twah-YAN | the Declaration of the Rights of Man and of the Citizen (1789) | —
 - la liberté d'expression | lah lee-behr-tay dek-spreh-SYOHN | freedom of expression | —
 - l'esclavage (m.) | les-klah-VAHZH | slavery | —
+- rédiger | ray-dee-ZHAY | to draft, to write (a formal text) | —
 - la prison | lah pree-ZOHN | prison | —
 
 ### Exercises
@@ -10762,7 +10763,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-culture-enlightenment-ex008 | reformulation | Reformulez avec « défendre la souveraineté du peuple » : Rousseau pense que c'est le peuple qui doit décider. | — | ["Rousseau défend la souveraineté du peuple"] | false | La souveraineté du peuple: the people, not a king, hold the highest power.
 - c1-culture-enlightenment-ex009 | reformulation | Reformulez au passif, avec « censurer » au passé composé : Les autorités ont interdit le livre. | — | ["Le livre a été censuré","Le livre a été censuré par les autorités"] | true | Censurer: to ban or cut a text. Passive: a été censuré.
 - c1-culture-enlightenment-ex010 | translate | Traduisez (la tolérance) : Voltaire defended tolerance. | — | ["Voltaire a défendu la tolérance","Voltaire défendait la tolérance"] | true | Défendre la tolérance: a central cause of Voltaire's.
-- c1-culture-enlightenment-ex011 | translate | Traduisez au passif (la Déclaration des droits de l'homme et du citoyen) : The Declaration of the Rights of Man and of the Citizen was written in 1789. | — | ["La Déclaration des droits de l'homme et du citoyen a été écrite en 1789"] | true | Passive, with the participle agreeing with la Déclaration: a été écrite.
+- c1-culture-enlightenment-ex011 | translate | Traduisez au passif, avec « écrire », « rédiger » ou « adopter » : The Declaration of the Rights of Man and of the Citizen dates from 1789. | — | ["La Déclaration des droits de l'homme et du citoyen a été écrite en 1789","La Déclaration des droits de l'homme et du citoyen a été rédigée en 1789","La Déclaration des droits de l'homme et du citoyen a été adoptée en 1789"] | true | Passive, with the participle agreeing with la Déclaration. Écrite and rédigée date the drafting, adoptée the vote: all three place it in 1789.
 - c1-culture-enlightenment-ex012 | translate | Traduisez à l'imparfait (un salon, passer par) : Ideas travelled through the salons. | — | ["Les idées passaient par les salons"] | false | A habit in the past: imparfait.
 - c1-culture-enlightenment-ex013 | error-correction | Corrigez l'erreur d'auteur : Voltaire a écrit Du contrat social. | — | ["Rousseau a écrit Du contrat social"] | true | Du contrat social (1762) is Rousseau's.
 - c1-culture-enlightenment-ex014 | error-correction | Corrigez l'erreur : L'Encyclopédie est l'œuvre de Montesquieu. | — | ["L'Encyclopédie est l'œuvre de Diderot et d'Alembert","L'Encyclopédie est l'œuvre de Diderot et de d'Alembert"] | false | Diderot and d'Alembert directed the Encyclopédie.
@@ -10809,9 +10810,9 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-culture-may-68-ex005 | fill-in | Complétez : Le 30 mai 1968, de Gaulle annonce qu'il va ___ l'Assemblée nationale. | — | ["dissoudre"] | false | Dissoudre l'Assemblée nationale: to dissolve the National Assembly, which leads to new elections.
 - c1-culture-may-68-ex006 | multiple-choice | Indiquez le résultat des élections législatives de juin 1968. | ["Une large victoire des gaullistes","La victoire des étudiants","La fin de la Cinquième République"] | ["Une large victoire des gaullistes"] | false | The June 1968 elections gave the Gaullists a large majority.
 - c1-culture-may-68-ex007 | multiple-choice | Indiquez la phrase qui présente le débat de façon neutre. | ["Pour certains, Mai 68 a libéré la société ; pour d'autres, il a affaibli l'autorité.","Mai 68 a sauvé la France, c'est évident.","Mai 68 n'a rien changé, tout le monde le sait."] | ["Pour certains, Mai 68 a libéré la société ; pour d'autres, il a affaibli l'autorité."] | false | A neutral sentence gives both positions and attributes them.
-- c1-culture-may-68-ex008 | reformulation | Reformulez avec « occuper » au passé composé : Les ouvriers sont restés dans l'usine jour et nuit pour arrêter le travail. | — | ["Les ouvriers ont occupé l'usine"] | true | Occuper une usine: to stay in it as a form of strike.
+- c1-culture-may-68-ex008 | reformulation | Reformulez avec « occuper » au passé composé : Les ouvriers sont restés dans l'usine jour et nuit pour arrêter le travail. | — | ["Les ouvriers ont occupé l'usine","Les ouvriers ont occupé l'usine jour et nuit"] | true | Occuper une usine: to stay in it as a form of strike.
 - c1-culture-may-68-ex009 | reformulation | Reformulez avec « contester » : Les étudiants refusaient l'autorité de leurs professeurs. | — | ["Les étudiants contestaient l'autorité de leurs professeurs"] | false | Contester l'autorité: to challenge authority.
-- c1-culture-may-68-ex010 | reformulation | Reformulez avec « la libération des mœurs » : Après 1968, la vie privée est devenue plus libre. | — | ["Après 1968, on a parlé de la libération des mœurs","Après 1968, il y a eu une libération des mœurs"] | true | La libération des mœurs: the loosening of social and sexual norms.
+- c1-culture-may-68-ex010 | reformulation | Reformulez avec « la libération des mœurs » : Après 1968, la vie privée est devenue plus libre. | — | ["Après 1968, il y a eu une libération des mœurs","Il y a eu une libération des mœurs après 1968","Après 1968, il y a eu la libération des mœurs"] | true | La libération des mœurs: the loosening of social and sexual norms.
 - c1-culture-may-68-ex011 | translate | Traduisez au passé composé (une grève générale) : In May 1968, France experienced a general strike. | — | ["En mai 1968, la France a connu une grève générale"] | true | Connaître here means to go through, to experience.
 - c1-culture-may-68-ex012 | translate | Traduisez au passé composé (dissoudre) : De Gaulle dissolved the National Assembly. | — | ["De Gaulle a dissous l'Assemblée nationale"] | true | Dissoudre has an irregular participle: dissous.
 - c1-culture-may-68-ex013 | translate | Traduisez (un mouvement étudiant) : The student movement started at Nanterre. | — | ["Le mouvement étudiant a commencé à Nanterre","Le mouvement étudiant est né à Nanterre"] | true | Commencer takes avoir; naître takes être.
@@ -10861,7 +10862,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-technology-ethics-ex006 | multiple-choice | Indiquez la phrase qui présente le débat de façon neutre. | ["Pour certains, la reconnaissance faciale renforce la sécurité ; pour d'autres, elle menace la vie privée.","La reconnaissance faciale est une mauvaise chose, c'est évident.","Seuls les gens qui ont quelque chose à cacher sont contre la surveillance."] | ["Pour certains, la reconnaissance faciale renforce la sécurité ; pour d'autres, elle menace la vie privée."] | false | A neutral sentence gives both positions and attributes them.
 - c1-technology-ethics-ex007 | multiple-choice | Choisissez le mot : Quand une machine décide seule d'accepter ou de refuser un dossier, c'est une décision ___. | ["automatisée","privée","personnelle"] | ["automatisée"] | false | Une décision automatisée: taken by a program, without a person.
 - c1-technology-ethics-ex008 | reformulation | Reformulez avec « poser un problème éthique » : Avec cette technologie, il y a une question de bien et de mal. | — | ["Cette technologie pose un problème éthique"] | false | Poser un problème éthique: to raise an ethical problem.
-- c1-technology-ethics-ex009 | reformulation | Reformulez avec « collecter des données » : Cette application garde des informations sur ses utilisateurs. | — | ["Cette application collecte des données sur ses utilisateurs"] | false | Collecter des données: to collect data.
+- c1-technology-ethics-ex009 | reformulation | Reformulez avec « collecter des données » : Cette application rassemble des informations sur ses utilisateurs. | — | ["Cette application collecte des données sur ses utilisateurs"] | false | Collecter des données: to collect data.
 - c1-technology-ethics-ex010 | reformulation | Reformulez avec « la transparence » : On ne sait pas comment cet algorithme prend ses décisions. | — | ["Cet algorithme manque de transparence","Il manque de transparence"] | false | Manquer de transparence: to lack transparency.
 - c1-technology-ethics-ex011 | translate | Traduisez (la protection des données) : Data protection is a right. | — | ["La protection des données est un droit"] | false | La protection des données: data protection.
 - c1-technology-ethics-ex012 | translate | Traduisez (la vie privée) : We must protect our privacy. | — | ["Nous devons protéger notre vie privée","Il faut protéger notre vie privée","On doit protéger notre vie privée"] | false | La vie privée: privacy. On doit is less formal than nous devons.
@@ -10908,7 +10909,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-culture-auteur-cinema-ex009 | reformulation | Reformulez avec « le montage » : La façon dont les plans sont mis ensemble est très rapide. | — | ["Le montage est très rapide"] | false | Le montage: the editing, the way shots are put together.
 - c1-culture-auteur-cinema-ex010 | translate | Traduisez (un cinéaste) : Truffaut was first a critic, then a film-maker. | — | ["Truffaut a d'abord été critique, puis cinéaste","Truffaut a été d'abord critique, puis cinéaste","Truffaut était d'abord critique, puis cinéaste"] | true | No article before a profession after être: il a été critique.
 - c1-culture-auteur-cinema-ex011 | translate | Traduisez (le cinéma d'auteur) : I prefer auteur cinema to mainstream cinema. | — | ["Je préfère le cinéma d'auteur au cinéma grand public"] | false | Préférer A à B: à + le becomes au.
-- c1-culture-auteur-cinema-ex012 | translate | Traduisez (la lumière naturelle) : They filmed in the street, with natural light. | — | ["Ils ont filmé dans la rue, avec la lumière naturelle","Ils filmaient dans la rue, avec la lumière naturelle"] | true | Filmer: to film. The New Wave liked real places and natural light.
+- c1-culture-auteur-cinema-ex012 | translate | Traduisez (la lumière naturelle) : They filmed in the street, with natural light. | — | ["Ils ont filmé dans la rue, avec la lumière naturelle","Ils filmaient dans la rue, avec la lumière naturelle","Ils ont filmé dans la rue, à la lumière naturelle","Ils filmaient dans la rue, à la lumière naturelle"] | true | Filmer: to film. The New Wave liked real places and natural light.
 - c1-culture-auteur-cinema-ex013 | error-correction | Corrigez l'erreur : À bout de souffle est un film de François Truffaut. | — | ["À bout de souffle est un film de Jean-Luc Godard","À bout de souffle est un film de Godard"] | true | À bout de souffle (1960) is Godard's; Les Quatre Cents Coups (1959) is Truffaut's.
 - c1-culture-auteur-cinema-ex014 | error-correction | Corrigez l'erreur de mot : Dans ce film, le gros plan est très rapide : les plans changent toutes les deux secondes. | — | ["Dans ce film, le montage est très rapide : les plans changent toutes les deux secondes"] | false | The speed of the changes between shots is the montage, not the close-up.
 - c1-culture-auteur-cinema-ex015 | reformulation | Reformulez avec « une œuvre personnelle » : Ce film montre clairement le style et les idées de son cinéaste. | — | ["Ce film est une œuvre personnelle","C'est une œuvre personnelle"] | false | Une œuvre personnelle: a work that carries its author's mark.
@@ -11209,3 +11210,293 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-review-living-ex016 | multiple-choice | Choisissez le mot : Huitante est une ___ régionale de quatre-vingts. | ["variante","charte","transmission"] | ["variante"] | false | Une variante: another form of the same word.
 - c1-review-living-ex017 | multiple-choice | Choisissez le mot : Le ___ d'une ville, c'est sa façon de parler : son accent, ses mots, ses expressions. | ["parler","sommet","panneau"] | ["parler"] | false | Le parler: the way people speak in a place.
 - c1-review-living-ex018 | reorder | Remettez dans l'ordre : As the saying goes, every cloud has a silver lining. | — | ["Comme dit le proverbe, après la pluie, le beau temps"] | false | Comme dit le proverbe introduces the saying.
+
+## c1-euphemism-and-synonyms
+
+### Vocab
+
+fr | pron | en | note
+
+- un euphémisme | uh-nuh-fay-MEES-muh | a euphemism | —
+- euphémiser | uh-fay-mee-ZAY | to soften (with a euphemism), to play down | —
+- une personne âgée | ewn pehr-sonn ah-ZHAY | an older person, an elderly person | —
+- une personne en situation de handicap | ewn pehr-sonn ahn see-tew-ah-syohn duh ahn-dee-KAP | a person with a disability | —
+- un non-voyant / une non-voyante | uhn nohn-vwah-YAHN / ewn nohn-vwah-YAHNT | a blind person, a visually impaired person | —
+- un demandeur d'emploi / une demandeuse d'emploi | uhn duh-mahn-duhr dahn-PLWAH / ewn duh-mahn-duhz dahn-PLWAH | a jobseeker | —
+- un plan social | uhn plahn soh-SYAL | a redundancy plan (literally, a social plan) | —
+- un technicien de surface / une technicienne de surface | uhn tek-nee-syan duh sewr-FASS | a cleaner (over-polite, often mocked) | —
+- nous quitter (il nous a quittés) | noo kee-TAY (eel noo-zah kee-TAY) | to pass away (he has passed away) | —
+- un synonyme / un quasi-synonyme | uhn see-noh-NEEM / uhn kah-zee-see-noh-NEEM | a synonym / a near-synonym | —
+- la crainte | lah KRANT | fear, apprehension (more formal than la peur) | —
+- l'effroi (m.) | leh-FRWAH | dread, terror (literary) | —
+- la terreur | lah teh-RUHR | terror | —
+- un souci | uhn soo-SEE | a worry, a problem (everyday) | —
+- une préoccupation | ewn pray-oh-kew-pah-SYOHN | a concern (formal) | —
+- observer | op-sehr-VAY | to observe, to watch closely | —
+- contempler | kohn-tahn-PLAY | to contemplate, to gaze at (with admiration) | —
+- comblé / comblée | kohn-BLAY | overjoyed, fulfilled | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-euphemism-and-synonyms-ex001 | multiple-choice | Indiquez ce que veut dire « un plan social » dans une entreprise. | ["un plan de licenciements","une fête pour les salariés","une augmentation des salaires"] | ["un plan de licenciements"] | false | Un plan social is a euphemism for a plan to make employees redundant.
+- c1-euphemism-and-synonyms-ex002 | multiple-choice | Choisissez le mot le plus fort : la peur, la crainte, la terreur. | ["la terreur","la crainte","la peur"] | ["la terreur"] | false | From weakest to strongest: la crainte, la peur, la terreur; l'effroi is literary.
+- c1-euphemism-and-synonyms-ex003 | multiple-choice | Indiquez le registre du mot « souci » dans : J'ai un petit souci avec ma voiture. | ["courant","soutenu","littéraire"] | ["courant"] | false | Un souci is everyday French; une préoccupation is the formal word.
+- c1-euphemism-and-synonyms-ex004 | connector-choice | Choisissez le verbe : Assis sur un banc, il ___ la mer pendant des heures : il la trouvait si belle ! | ["contemplait","surveillait","mesurait"] | ["contemplait"] | false | Contempler: to gaze at with admiration; il la trouvait si belle shows the feeling. Surveiller is to keep watch; mesurer is to measure.
+- c1-euphemism-and-synonyms-ex005 | fill-in | Complétez : Dire « il nous a quittés » au lieu de « il est mort », c'est utiliser un ___. | — | ["euphémisme"] | false | Un euphémisme softens a hard reality.
+- c1-euphemism-and-synonyms-ex006 | fill-in | Complétez : Une personne qui cherche du travail est un demandeur d'___. | — | ["emploi"] | false | Un demandeur d'emploi: the official, neutral term.
+- c1-euphemism-and-synonyms-ex007 | multiple-choice | Choisissez le terme neutre et respectueux : une personne ___. | ["en situation de handicap","pas normale","malade de naissance"] | ["en situation de handicap"] | false | Une personne en situation de handicap is the usual respectful term.
+- c1-euphemism-and-synonyms-ex008 | register-shift | Transformez au registre soutenu, avec « une préoccupation » : C'est notre plus gros souci. | — | ["C'est notre principale préoccupation","C'est notre plus grande préoccupation","C'est notre préoccupation principale"] | false | Un souci (everyday) becomes une préoccupation (formal); gros becomes principal or grand.
+- c1-euphemism-and-synonyms-ex009 | register-shift | Transformez avec un euphémisme, « nous quitter », au passé composé : Mon grand-père est mort l'année dernière. | — | ["Mon grand-père nous a quittés l'année dernière","L'année dernière, mon grand-père nous a quittés"] | true | Il nous a quittés: a gentle way to say he died. Quittés agrees with nous.
+- c1-euphemism-and-synonyms-ex010 | reformulation | Reformulez avec « euphémiser » : Le ministre a présenté la situation comme moins grave qu'elle n'est. | — | ["Le ministre a euphémisé la situation"] | true | Euphémiser: to play down with soft words.
+- c1-euphemism-and-synonyms-ex011 | reformulation | Reformulez avec « comblé » (un homme parle) : Je suis plus qu'heureux, j'ai tout ce que je voulais. | — | ["Je suis comblé"] | false | Comblé: so happy that nothing is missing.
+- c1-euphemism-and-synonyms-ex012 | translate | Traduisez (une personne âgée) : This service helps older people. | — | ["Ce service aide les personnes âgées"] | false | Les personnes âgées: the neutral, respectful term.
+- c1-euphemism-and-synonyms-ex013 | translate | Traduisez (la crainte) : Her fear of failure prevents her from trying. | — | ["Sa crainte de l'échec l'empêche d'essayer"] | false | La crainte de + noun: a more formal word than la peur.
+- c1-euphemism-and-synonyms-ex014 | error-correction | Corrigez l'erreur de registre (gardez le registre soutenu) : Madame, nous avons un gros souci concernant votre dossier. | — | ["Madame, nous avons une préoccupation concernant votre dossier","Madame, nous avons une difficulté concernant votre dossier"] | false | Un gros souci is everyday French; in a formal letter, une préoccupation or une difficulté.
+- c1-euphemism-and-synonyms-ex015 | error-correction | Corrigez l'erreur de mot : La scientifique contemple les oiseaux pour les compter. | — | ["La scientifique observe les oiseaux pour les compter"] | false | Contempler implies admiration; a scientist who counts observes.
+- c1-euphemism-and-synonyms-ex016 | reorder | Remettez dans l'ordre : This expression is a euphemism. | — | ["Cette expression est un euphémisme"] | false | Un euphémisme: masculine.
+
+## c1-spoken-discourse-markers
+
+### Vocab
+
+fr | pron | en | note
+
+- bon, alors… | bonn ah-LOR | right, so… (to start or move on) | —
+- eh bien… | ay BYAN | well… (to start an answer) | —
+- voilà | vwah-LAH | there you go, that's it (to close a point) | —
+- enfin, je veux dire… | ahn-fan zhuh vuh DEER | well, I mean… (to correct yourself) | —
+- en fait | ahn FET | actually, in fact (to correct an idea) | —
+- disons que… | dee-zohn KUH | let's say that… (to approximate or soften) | —
+- si tu veux / si vous voulez | see tew VUH / see voo voo-LAY | if you like, in a way (to hedge) | —
+- à la limite | ah lah lee-MEET | at a pinch, if it comes to it | —
+- quand même ! | kahn MEM | honestly! really! (indignation, insistence) | —
+- tiens ! / tenez ! | TYAN / tuh-NAY | oh look! / here (surprise; handing something over) | —
+- remarque / remarquez | ruh-MARK / ruh-mar-KAY | mind you | —
+- cela dit / ceci dit | suh-lah DEE / suh-see DEE | that said, having said that | —
+- pour le coup | poor luh KOO | this time, for once, in this case (familiar) | —
+- tu vois ? / vous voyez ? | tew VWAH / voo vwah-YAY | you see? (to check the listener follows) | —
+- en réalité | ahn ray-ah-lee-TAY | in reality, in fact (written) | —
+- un marqueur de discours | uhn mar-kuhr duh dees-KOOR | a discourse marker | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-spoken-discourse-markers-ex001 | multiple-choice | Indiquez le rôle de « enfin » dans : Il arrive lundi, enfin, je veux dire mardi. | ["revenir sur ce qu'on vient de dire","conclure une liste","exprimer la colère"] | ["revenir sur ce qu'on vient de dire"] | false | Enfin, je veux dire: the speaker corrects what he has just said.
+- c1-spoken-discourse-markers-ex002 | multiple-choice | Indiquez le rôle de « quand même » dans : Tu aurais pu prévenir, quand même ! | ["exprimer un reproche","donner un exemple","changer de sujet"] | ["exprimer un reproche"] | false | Quand même ! at the end adds indignation or insistence.
+- c1-spoken-discourse-markers-ex003 | multiple-choice | Indiquez le rôle de « tiens » dans : Tiens, il pleut ! | ["exprimer la surprise","revenir sur une erreur","conclure"] | ["exprimer la surprise"] | false | Tiens ! marks surprise at something you notice.
+- c1-spoken-discourse-markers-ex004 | multiple-choice | Indiquez le rôle de « voilà » dans : On réserve la salle, on envoie les invitations, et voilà. | ["conclure","exprimer un doute","poser une question"] | ["conclure"] | false | Et voilà closes a list or an explanation.
+- c1-spoken-discourse-markers-ex005 | multiple-choice | Indiquez le marqueur qu'on peut garder dans un courriel de travail. | ["cela dit","quand même !","pour le coup"] | ["cela dit"] | false | Cela dit works in writing; quand même ! and pour le coup are spoken.
+- c1-spoken-discourse-markers-ex006 | connector-choice | Choisissez le marqueur : Je pensais qu'il était fâché. ___, il était seulement fatigué. | ["En fait","Tiens","Quand même"] | ["En fait"] | false | En fait corrects a wrong idea: actually.
+- c1-spoken-discourse-markers-ex007 | connector-choice | Choisissez le marqueur : Le film est long. ___, la fin est très belle. | ["Cela dit","Tiens","Voilà"] | ["Cela dit"] | false | Cela dit adds a nuance after a criticism: that said.
+- c1-spoken-discourse-markers-ex008 | connector-choice | Choisissez le marqueur : Je préfère le train. ___, je peux prendre la voiture si c'est plus simple. | ["À la limite","Tiens","Voilà"] | ["À la limite"] | false | À la limite: at a pinch, as a last option.
+- c1-spoken-discourse-markers-ex009 | register-shift | Transformez au registre écrit, sans les marqueurs de l'oral : Bon, alors, en fait, la réunion est reportée, voilà. | — | ["La réunion est reportée","En réalité, la réunion est reportée"] | false | In writing, the markers go: only the information stays.
+- c1-spoken-discourse-markers-ex010 | register-shift | Transformez au registre écrit, sans les marqueurs de l'oral : Disons que le projet a pris un peu de retard, tu vois ? | — | ["Le projet a pris un peu de retard"] | true | Disons que softens; tu vois ? checks the listener. Neither belongs in a written report.
+- c1-spoken-discourse-markers-ex011 | register-shift | Transformez au registre écrit, avec « cela dit » : C'est cher. Remarque, c'est de très bonne qualité. | — | ["C'est cher. Cela dit, c'est de très bonne qualité","C'est cher ; cela dit, c'est de très bonne qualité"] | false | Remarque is spoken; cela dit carries the same nuance in writing.
+- c1-spoken-discourse-markers-ex012 | translate | Traduisez à l'oral (en fait) : Actually, I've changed my mind. | — | ["En fait, j'ai changé d'avis"] | true | En fait: actually, correcting what was expected.
+- c1-spoken-discourse-markers-ex013 | translate | Traduisez à l'oral (enfin, je veux dire) : He's thirty, well, I mean thirty-one. | — | ["Il a trente ans, enfin, je veux dire trente et un","Il a trente ans, enfin, je veux dire trente et un ans"] | true | Enfin, je veux dire corrects a detail on the spot.
+- c1-spoken-discourse-markers-ex014 | reformulation | Reformulez à l'oral, avec « disons que » : Le résultat n'est pas très bon. | — | ["Disons que le résultat n'est pas très bon"] | false | Disons que softens a negative judgment.
+- c1-spoken-discourse-markers-ex015 | error-correction | Corrigez l'erreur de registre (gardez le registre soutenu) : Madame, nous avons reçu votre demande. Bon, voilà, nous vous répondrons sous peu. | — | ["Madame, nous avons reçu votre demande. Nous vous répondrons sous peu","Madame, nous avons reçu votre demande et nous vous répondrons sous peu"] | false | Bon and voilà are spoken markers; they don't belong in a formal letter.
+- c1-spoken-discourse-markers-ex016 | reorder | Remettez dans l'ordre : Actually, the shop is closed on Mondays. | — | ["En fait, le magasin est fermé le lundi"] | false | En fait at the start of the sentence.
+
+## c1-culture-laicite-and-institutions
+
+### Vocab
+
+fr | pron | en | note
+
+- laïque | lah-EEK | secular (of the State, a school) | —
+- la séparation des Églises et de l'État | lah say-pah-rah-syohn day-zay-gleez ay duh lay-TAH | the separation of the Churches and the State | —
+- la liberté de conscience | lah lee-behr-tay duh kohn-SYAHNSS | freedom of conscience (to believe or not to believe) | —
+- un culte / le libre exercice des cultes | uhn KEWLT / luh lee-breg-zehr-sees day KEWLT | a religion, a form of worship / the free exercise of worship | —
+- subventionner | sewb-vahn-syoh-NAY | to subsidize, to fund | —
+- indivisible | an-dee-vee-ZEE-bluh | indivisible | —
+- la neutralité | lah nuh-trah-lee-TAY | neutrality | —
+- un agent public / une agente publique | uh-nah-zhahn pew-BLEEK / ew-nah-zhahnt pew-BLEEK | a public employee, a civil servant | —
+- un signe religieux | uhn see-nyuh ruh-lee-ZHYUH | a religious symbol | —
+- ostensible | os-tahn-SEE-bluh | conspicuous, clearly visible | —
+- l'école publique (f.) | lay-kol pew-BLEEK | state school, public education | —
+- un aumônier / une aumônière | uh-noh-moh-NYAY / ew-noh-moh-NYEHR | a chaplain (in a hospital, a prison, the army) | —
+- le régime concordataire | luh ray-zheem kohn-kor-dah-TEHR | the Concordat system (in Alsace and Moselle) | —
+- le chef de l'État | luh shef duh lay-TAH | the head of State | —
+- le suffrage universel direct | luh sew-frahzh ew-nee-vehr-sel dee-REKT | direct universal suffrage | —
+- nommer | noh-MAY | to appoint | —
+- voter une loi | voh-tay ewn LWAH | to pass a law (in Parliament) | —
+- les convictions religieuses (f.) | lay kohn-veek-syohn ruh-lee-ZHYUHZ | religious beliefs | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-culture-laicite-and-institutions-ex001 | multiple-choice | Choisissez l'année de la loi de séparation des Églises et de l'État. | ["1905","1789","1958"] | ["1905"] | false | The law was adopted on 9 December 1905.
+- c1-culture-laicite-and-institutions-ex002 | multiple-choice | Indiquez ce que garantit la loi de 1905. | ["la liberté de conscience et le libre exercice des cultes","une religion officielle pour l'État","le droit de vote des femmes"] | ["la liberté de conscience et le libre exercice des cultes"] | false | Article 1 of the 1905 law: freedom of conscience and the free exercise of worship.
+- c1-culture-laicite-and-institutions-ex003 | multiple-choice | Indiquez qui doit respecter la neutralité religieuse dans son travail. | ["un agent public","un usager du service public","un client d'un magasin"] | ["un agent public"] | false | Public employees must be neutral; users of public services keep their freedom of conscience.
+- c1-culture-laicite-and-institutions-ex004 | multiple-choice | Indiquez où le régime concordataire existe encore. | ["en Alsace et en Moselle","à Paris","en Bretagne"] | ["en Alsace et en Moselle"] | false | Alsace and Moselle keep the Concordat system: they were German in 1905.
+- c1-culture-laicite-and-institutions-ex005 | fill-in | Complétez l'article 1 de la Constitution : La France est une République indivisible, ___, démocratique et sociale. | — | ["laïque"] | false | Article 1 of the Constitution of 1958.
+- c1-culture-laicite-and-institutions-ex006 | fill-in | Complétez : À l'hôpital, à l'armée et en prison, un ___ peut accompagner les personnes qui le souhaitent. | — | ["aumônier"] | false | Un aumônier: a chaplain. Chaplaincies in hospitals and prisons are an exception provided for in the 1905 law.
+- c1-culture-laicite-and-institutions-ex007 | multiple-choice | Choisissez le mot : Le président de la République est le ___. | ["chef de l'État","Premier ministre","Conseil d'État"] | ["chef de l'État"] | false | The President is the head of State; the Prime Minister leads the government.
+- c1-culture-laicite-and-institutions-ex008 | reformulation | Reformulez avec « la neutralité » : Au travail, un agent public ne montre pas ses convictions religieuses. | — | ["Au travail, un agent public respecte la neutralité","Un agent public respecte la neutralité au travail","Au travail, un agent public est tenu à la neutralité"] | true | La neutralité: public employees don't show their religious beliefs at work.
+- c1-culture-laicite-and-institutions-ex009 | reformulation | Reformulez avec « subventionner » : L'État ne donne d'argent à aucun culte. | — | ["L'État ne subventionne aucun culte"] | false | Article 2 of the 1905 law: the Republic doesn't subsidize any religion.
+- c1-culture-laicite-and-institutions-ex010 | reformulation | Reformulez avec « nommer » au présent : C'est le président de la République qui choisit le Premier ministre. | — | ["Le président de la République nomme le Premier ministre"] | false | Nommer: to appoint.
+- c1-culture-laicite-and-institutions-ex011 | translate | Traduisez (le suffrage universel direct) : The President is elected by direct universal suffrage. | — | ["Le président est élu au suffrage universel direct","Le président de la République est élu au suffrage universel direct"] | true | Élu au suffrage universel direct: elected directly by the voters.
+- c1-culture-laicite-and-institutions-ex012 | translate | Traduisez (voter une loi) : Parliament passes the laws. | — | ["Le Parlement vote les lois"] | false | Voter une loi: to pass a law.
+- c1-culture-laicite-and-institutions-ex013 | translate | Traduisez (un signe religieux, ostensible) : Conspicuous religious symbols are forbidden for pupils in state schools. | — | ["Les signes religieux ostensibles sont interdits aux élèves des écoles publiques","Les signes religieux ostensibles sont interdits pour les élèves des écoles publiques","Dans les écoles publiques, les signes religieux ostensibles sont interdits aux élèves"] | false | Law of 2004, for pupils in state primary and secondary schools.
+- c1-culture-laicite-and-institutions-ex014 | error-correction | Corrigez l'erreur : En France, l'État subventionne une religion officielle. | — | ["En France, l'État ne subventionne aucun culte","En France, l'État n'a pas de religion officielle"] | true | The State has no official religion and doesn't subsidize any religion.
+- c1-culture-laicite-and-institutions-ex015 | error-correction | Corrigez l'erreur : Les usagers des services publics doivent respecter la neutralité religieuse. | — | ["Les agents publics doivent respecter la neutralité religieuse"] | false | Neutrality applies to public employees, not to the people who use public services.
+- c1-culture-laicite-and-institutions-ex016 | reorder | Remettez dans l'ordre : The State has no official religion. | — | ["L'État n'a pas de religion officielle"] | false | Pas de: no article after a negation.
+
+## c1-exam-oral-presentation
+
+### Vocab
+
+fr | pron | en | note
+
+- prendre des notes | prahn-druh day NOTT | to take notes | —
+- un mot-clé | uhn moh-KLAY | a keyword | —
+- un brouillon | uhn broo-YOHN | a rough draft, rough notes | —
+- soulever une question | sool-vay ewn kes-TYOHN | to raise a question | —
+- le point de départ | luh pwan duh day-PAR | the starting point | —
+- illustrer | ee-lew-STRAY | to illustrate (with an example) | —
+- s'articuler autour de | sar-tee-kew-lay oh-toor DUH | to be organized around | —
+- en guise d'introduction | ahn geez dan-troh-dewk-SYOHN | by way of introduction | —
+- pour conclure | poor kohn-KLEWR | to conclude | —
+- une piste de réflexion | ewn peest duh ray-flek-SYOHN | a line of thought, an idea to explore | —
+- si je comprends bien | see zhuh kohn-prahn BYAN | if I understand correctly | —
+- gagner du temps | gah-nyay dew TAHN | to buy time | —
+- laissez-moi réfléchir un instant | leh-say mwah ray-flay-sheer uh-nan-STAHN | let me think for a moment | —
+- je n'irais pas jusqu'à dire que | zhuh nee-reh pah zhews-kah deer KUH | I wouldn't go as far as to say that | —
+- je ne connais pas bien ce sujet, mais… | zhuh nuh koh-neh pah byan suh sew-ZHEH meh | I don't know this subject well, but… | —
+- respire (respirer) | res-PEER | breathes (to breathe) | —
+- les piétons (m.) | lay pyay-TOHN | pedestrians | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-exam-oral-presentation-ex001 | multiple-choice | Indiquez la partie de l'exposé : « Ce document soulève une question : faut-il fermer le centre-ville aux voitures ? » | ["la problématique","la conclusion","un exemple"] | ["la problématique"] | false | The question the exposé will answer: the problématique.
+- c1-exam-oral-presentation-ex002 | multiple-choice | Choisissez la phrase qui annonce le plan. | ["Mon exposé s'articulera autour de deux parties.","Si je comprends bien, vous me demandez mon avis.","Pour conclure, je dirais que c'est une bonne idée."] | ["Mon exposé s'articulera autour de deux parties."] | false | S'articuler autour de announces the structure.
+- c1-exam-oral-presentation-ex003 | multiple-choice | Choisissez la phrase qui permet de gagner du temps poliment. | ["C'est une question intéressante ; laissez-moi réfléchir un instant.","Je ne sais pas.","Passons à la question suivante."] | ["C'est une question intéressante ; laissez-moi réfléchir un instant."] | false | Acknowledge the question, then ask for a moment.
+- c1-exam-oral-presentation-ex004 | multiple-choice | Indiquez ce qu'il faut faire en premier quand on lit le document. | ["trouver le thème et la position de l'auteur","apprendre le texte par cœur","écrire toute la conclusion"] | ["trouver le thème et la position de l'auteur"] | false | First the theme and the author's position, then the problématique.
+- c1-exam-oral-presentation-ex005 | fill-in | Complétez : Quand on prépare un exposé, on écrit ses idées sur un ___. | — | ["brouillon"] | false | Un brouillon: rough notes, never read aloud word for word.
+- c1-exam-oral-presentation-ex006 | fill-in | Complétez : Pour ___ cette idée, je prendrai l'exemple de ma ville. | — | ["illustrer"] | false | Illustrer une idée: to give an example of it.
+- c1-exam-oral-presentation-ex007 | connector-choice | Choisissez l'expression pour la dernière partie de l'exposé : ___, je dirais que le document pose une vraie question de société. | ["Pour conclure","Si je comprends bien","En guise d'introduction"] | ["Pour conclure"] | false | Pour conclure introduces the conclusion; en guise d'introduction would open the exposé.
+- c1-exam-oral-presentation-ex008 | reformulation | Reformulez en problématique, avec « on peut se demander si » : Fermer le centre aux voitures, c'est une bonne idée ? | — | ["On peut se demander si fermer le centre aux voitures est une bonne idée","On peut se demander s'il faut fermer le centre aux voitures"] | false | An indirect question with si, no inversion.
+- c1-exam-oral-presentation-ex009 | reformulation | Reformulez la question avec « si je comprends bien, vous me demandez si » : Selon vous, les commerçants ont-ils raison ? | — | ["Si je comprends bien, vous me demandez si les commerçants ont raison"] | false | Reformulating the question shows you've understood it and gives you a moment.
+- c1-exam-oral-presentation-ex010 | reformulation | Reformulez de façon nuancée, avec « je n'irais pas jusqu'à dire que » : Les voitures doivent disparaître des villes. | — | ["Je n'irais pas jusqu'à dire que les voitures doivent disparaître des villes"] | true | A polite way to reject an extreme position. Doivent is the same form in the indicative and the subjunctive.
+- c1-exam-oral-presentation-ex011 | translate | Traduisez (s'articuler autour de, au futur) : My presentation will be organized around two parts. | — | ["Mon exposé s'articulera autour de deux parties"] | false | S'articuler autour de: to be organized around.
+- c1-exam-oral-presentation-ex012 | translate | Traduisez (soulever une question) : This document raises an important question. | — | ["Ce document soulève une question importante"] | false | Soulever une question: to raise a question.
+- c1-exam-oral-presentation-ex013 | translate | Traduisez (je ne connais pas bien ce sujet) : I don't know this subject well, but I can give an example. | — | ["Je ne connais pas bien ce sujet, mais je peux donner un exemple","Je ne connais pas bien ce sujet, mais je peux vous donner un exemple"] | false | Admit a limit, then offer what you can.
+- c1-exam-oral-presentation-ex014 | error-correction | Corrigez l'erreur de registre (gardez un registre soutenu) : Bon, alors, mon exposé, en gros, il a deux parties. | — | ["Mon exposé s'articule autour de deux parties","Mon exposé comporte deux parties","Mon exposé a deux parties"] | true | Bon, alors and en gros are spoken markers; the dislocation (mon exposé, il) is spoken too.
+- c1-exam-oral-presentation-ex015 | error-correction | Corrigez l'erreur : En guise de conclure, je dirais que le projet est utile. | — | ["Pour conclure, je dirais que le projet est utile","En guise de conclusion, je dirais que le projet est utile"] | false | En guise de needs a noun: en guise de conclusion, or simply pour conclure.
+- c1-exam-oral-presentation-ex016 | reorder | Remettez dans l'ordre : Let me think for a moment. | — | ["Laissez-moi réfléchir un instant"] | false | A polite way to buy time.
+
+## c1-exam-written-tasks
+
+### Vocab
+
+fr | pron | en | note
+
+- respecter la consigne | res-pek-tay lah kohn-SEE-nyuh | to follow the instructions | —
+- être hors sujet | eh-truh or sew-ZHEH | to be off topic | —
+- un contresens | uhn kohn-truh-SAHNSS | a misreading, a mistranslation | —
+- équilibré / équilibrée | ay-kee-lee-BRAY | balanced | —
+- un plan détaillé | uhn plahn day-tah-YAY | a detailed outline | —
+- une grille de relecture | ewn gree-yuh duh ruh-lek-TEWR | a checklist for rereading | —
+- l'orthographe (f.) | lor-toh-GRAF | spelling | —
+- la ponctuation | lah pohnk-tew-ah-SYOHN | punctuation | —
+- une faute d'accord | ewn foht dah-KOR | an agreement mistake | —
+- une répétition | ewn ray-pay-tee-SYOHN | a repetition (of a word) | —
+- une phrase de transition | ewn frahz duh trahn-zee-SYOHN | a linking sentence between two parts | —
+- les devoirs à la maison (m.) | lay duh-vwahr ah lah meh-ZOHN | homework | —
+- les inégalités (f.) | lay-zee-nay-gah-lee-TAY | inequalities | —
+- l'autonomie (f.) | loh-toh-noh-MEE | independence, self-reliance | —
+- développer | day-voh-PLAY | to develop | —
+- une association de parents d'élèves | ew-nah-soh-syah-syohn duh pah-rahn day-LEV | a parents' association | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-exam-written-tasks-ex001 | multiple-choice | Indiquez ce qu'on ne fait pas dans une synthèse de documents. | ["donner son opinion personnelle","confronter les documents","organiser le texte par idées"] | ["donner son opinion personnelle"] | false | A synthesis is objective: no personal opinion.
+- c1-exam-written-tasks-ex002 | multiple-choice | Choisissez la phrase qui confronte deux documents. | ["Si l'enseignante voit dans les devoirs un moyen de progresser, l'association y voit une source d'inégalités.","Je pense que les devoirs ne servent à rien.","Le premier document parle des devoirs. Le deuxième document parle aussi des devoirs."] | ["Si l'enseignante voit dans les devoirs un moyen de progresser, l'association y voit une source d'inégalités."] | false | One sentence, both views, each attributed, linked by a concessive si.
+- c1-exam-written-tasks-ex003 | multiple-choice | Indiquez le défaut de ce plan de synthèse : première partie, le document 1 ; deuxième partie, le document 2. | ["Il résume les documents l'un après l'autre au lieu de les organiser par idées.","Il a trop de parties.","Il donne une opinion personnelle."] | ["Il résume les documents l'un après l'autre au lieu de les organiser par idées."] | false | A synthesis is built by idea, not document by document.
+- c1-exam-written-tasks-ex004 | fill-in | Complétez : Un texte qui ne traite pas le sujet demandé est hors ___. | — | ["sujet"] | false | Être hors sujet: to be off topic.
+- c1-exam-written-tasks-ex005 | fill-in | Complétez : Avant de rendre son texte, on le relit avec une grille de ___. | — | ["relecture"] | false | Une grille de relecture: a checklist for rereading.
+- c1-exam-written-tasks-ex006 | multiple-choice | Choisissez le mot : Comprendre un texte dans le sens contraire de ce qu'il dit, c'est faire un ___. | ["contresens","plan détaillé","brouillon"] | ["contresens"] | false | Un contresens: a misreading.
+- c1-exam-written-tasks-ex007 | connector-choice | Choisissez le connecteur : Les deux documents ___ sur un point : les devoirs doivent être adaptés à l'âge des élèves. | ["s'accordent","divergent","se contredisent"] | ["s'accordent"] | false | S'accorder sur: to agree on, a point in common.
+- c1-exam-written-tasks-ex008 | reformulation | Reformulez de façon objective, avec « selon l'enseignante » : Les devoirs aident vraiment les élèves à progresser. | — | ["Selon l'enseignante, les devoirs aident les élèves à progresser","Selon l'enseignante, les devoirs aident vraiment les élèves à progresser"] | true | In a synthesis, every view is attributed to its source.
+- c1-exam-written-tasks-ex009 | reformulation | Reformulez avec « quand bien même » et le conditionnel : Même si les devoirs étaient supprimés, les inégalités resteraient. | — | ["Quand bien même les devoirs seraient supprimés, les inégalités resteraient","Les inégalités resteraient, quand bien même les devoirs seraient supprimés"] | false | Quand bien même + conditionnel in both clauses.
+- c1-exam-written-tasks-ex010 | reformulation | Reformulez sans répétition, avec « ces derniers » : Les élèves ont des devoirs, mais les élèves n'ont pas tous de l'aide. | — | ["Les élèves ont des devoirs, mais ces derniers n'ont pas tous de l'aide"] | false | Ces derniers refers back to the last group named and avoids the repetition.
+- c1-exam-written-tasks-ex011 | translate | Traduisez (les inégalités) : According to the association, homework increases inequalities. | — | ["Selon l'association, les devoirs à la maison augmentent les inégalités","Selon l'association, les devoirs augmentent les inégalités","D'après l'association, les devoirs à la maison augmentent les inégalités","D'après l'association, les devoirs augmentent les inégalités"] | true | Selon or d'après attributes the view.
+- c1-exam-written-tasks-ex012 | translate | Traduisez (respecter la consigne) : First, you must follow the instructions. | — | ["D'abord, il faut respecter la consigne","Il faut d'abord respecter la consigne"] | false | Respecter la consigne: to do exactly what the task asks.
+- c1-exam-written-tasks-ex013 | error-correction | Corrigez l'erreur d'accord : Les deux documents que j'ai lu sont très différents. | — | ["Les deux documents que j'ai lus sont très différents"] | false | With avoir, the participle agrees with a direct object placed before it: que (les documents) j'ai lus.
+- c1-exam-written-tasks-ex014 | error-correction | Corrigez l'erreur de méthode (synthèse) : À mon avis, l'enseignante a raison. | — | ["Selon l'enseignante, les devoirs aident les élèves à progresser","L'enseignante estime que les devoirs aident les élèves à progresser"] | true | No personal opinion in a synthesis: report the view and attribute it.
+- c1-exam-written-tasks-ex015 | translate | Traduisez (équilibré) : A balanced essay gives each position its best argument. | — | ["Une dissertation équilibrée donne à chaque position son meilleur argument","Un essai équilibré donne à chaque position son meilleur argument"] | true | Équilibré: balanced, fair to each side.
+- c1-exam-written-tasks-ex016 | reorder | Remettez dans l'ordre : Both documents agree on one point. | — | ["Les deux documents s'accordent sur un point"] | false | S'accorder sur: to agree on.
+
+## c1-review-towards-dalf
+
+### Vocab
+
+fr | pron | en | note
+
+- argumenter | ar-gew-mahn-TAY | to argue, to make a reasoned case | —
+- une prise de position | ewn preez duh poh-zee-SYOHN | a stance, a stated position | —
+- une langue étrangère | ewn lahng ay-trahn-ZHEHR | a foreign language | —
+- précoce | pray-KOSS | early (happening at a young age) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-review-towards-dalf-ex001 | multiple-choice | Choisissez le terme neutre pour parler d'une personne qui cherche du travail. | ["un demandeur d'emploi","un technicien de surface","un plan social"] | ["un demandeur d'emploi"] | false | Un demandeur d'emploi: the neutral, administrative term.
+- c1-review-towards-dalf-ex002 | connector-choice | Choisissez le marqueur : Je croyais que c'était loin. ___, c'est à cinq minutes à pied. | ["En fait","Tiens","Quand même"] | ["En fait"] | false | En fait corrects a wrong idea.
+- c1-review-towards-dalf-ex003 | multiple-choice | Choisissez le mot de l'article 1 de la Constitution : La France est une République indivisible, ___, démocratique et sociale. | ["laïque","religieuse","grande"] | ["laïque"] | false | Article 1 of the Constitution of 1958.
+- c1-review-towards-dalf-ex004 | multiple-choice | Choisissez la phrase qui reformule une question avant d'y répondre. | ["Si je comprends bien, vous me demandez si cette mesure est juste.","Pour conclure, cette mesure est juste.","En guise d'introduction, je présente le document."] | ["Si je comprends bien, vous me demandez si cette mesure est juste."] | false | Si je comprends bien: reformulating shows you understood and buys a moment.
+- c1-review-towards-dalf-ex005 | multiple-choice | Indiquez ce qu'il faut éviter dans une synthèse de documents. | ["une opinion personnelle","un point commun","une phrase de transition"] | ["une opinion personnelle"] | false | A synthesis is objective: no personal opinion.
+- c1-review-towards-dalf-ex006 | fill-in | Complétez : Pour bien ___, il faut des raisons, des exemples et une concession. | — | ["argumenter"] | false | Argumenter: to make a reasoned case.
+- c1-review-towards-dalf-ex007 | fill-in | Complétez : Dire clairement ce qu'on pense d'un sujet, c'est une ___ de position. | — | ["prise"] | false | Une prise de position: a stance.
+- c1-review-towards-dalf-ex008 | fill-in | Complétez : Apprendre une langue étrangère dès la maternelle, c'est un apprentissage ___. | — | ["précoce"] | false | Précoce: early, at a young age.
+- c1-review-towards-dalf-ex009 | reformulation | Reformulez avec « quand bien même » : Même si l'enfant progressait vite, le résultat dépendrait des conditions. | — | ["Quand bien même l'enfant progresserait vite, le résultat dépendrait des conditions","Le résultat dépendrait des conditions, quand bien même l'enfant progresserait vite"] | false | Quand bien même + conditionnel in both clauses.
+- c1-review-towards-dalf-ex010 | reformulation | Reformulez en une phrase, avec une apposition : La fille de ma voisine est élève de maternelle. Elle chante déjà en anglais. | — | ["La fille de ma voisine, élève de maternelle, chante déjà en anglais","Élève de maternelle, la fille de ma voisine chante déjà en anglais"] | false | The apposition, between commas, replaces a second sentence.
+- c1-review-towards-dalf-ex011 | reformulation | Reformulez en une phrase, avec « grâce auquel » : C'est un jeu. Grâce à ce jeu, les enfants trouvent des mots nouveaux. | — | ["C'est un jeu grâce auquel les enfants trouvent des mots nouveaux"] | false | Grâce à + lequel: grâce auquel.
+- c1-review-towards-dalf-ex012 | error-correction | Corrigez l'erreur : Quand bien même il progresse vite, il aurait besoin d'aide. | — | ["Quand bien même il progresserait vite, il aurait besoin d'aide"] | false | Quand bien même takes the conditionnel.
+- c1-review-towards-dalf-ex013 | error-correction | Corrigez l'erreur de relatif : C'est un sujet duquel je parlerai ensuite. | — | ["C'est un sujet dont je parlerai ensuite"] | false | Parler de + a noun alone: dont, not duquel.
+- c1-review-towards-dalf-ex014 | translate | Traduisez (une langue étrangère, de plus en plus tôt) : Children start a foreign language earlier and earlier. | — | ["Les enfants commencent une langue étrangère de plus en plus tôt"] | false | De plus en plus tôt: earlier and earlier.
+- c1-review-towards-dalf-ex015 | translate | Traduisez (une prise de position, nuancé) : My position is nuanced. | — | ["Ma prise de position est nuancée"] | false | Nuancée agrees with prise de position.
+- c1-review-towards-dalf-ex016 | reorder | Remettez dans l'ordre : We will first see its advantages. | — | ["Nous verrons d'abord ses avantages"] | false | The announced plan, in the future.
+
+## c1-review-final
+
+### Vocab
+
+fr | pron | en | note
+
+- les acquis (m.) | lay-zah-KEE | what you have learned, your achievements | —
+- la fluidité | lah flew-ee-dee-TAY | fluency | —
+- persévérer | pehr-say-vay-RAY | to persevere, to keep going | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-review-final-ex001 | fill-in | Conjuguez au passé simple : Le voyageur ___ (entrer) sans un mot. | — | ["entra"] | false | Unit 1: -er verbs in the passé simple, il entra.
+- c1-review-final-ex002 | multiple-choice | Choisissez la phrase correcte. | ["Peut-être faut-il attendre.","Peut-être que faut-il attendre.","Peut-être il faut-il attendre."] | ["Peut-être faut-il attendre."] | false | Unit 2: peut-être at the start takes inversion (or que with normal order, never both).
+- c1-review-final-ex003 | reformulation | Reformulez avec une proposition participiale : Quand le dossier a été signé, l'équipe a commencé le travail. | — | ["Le dossier signé, l'équipe a commencé le travail","Une fois le dossier signé, l'équipe a commencé le travail"] | true | Unit 3: the participle clause has its own subject, le dossier.
+- c1-review-final-ex004 | connector-choice | Choisissez le mot : Le projet a un coût, je vous l'accorde. Il n'en demeure pas moins ___ il est utile. | ["qu'","parce qu'","lorsqu'"] | ["qu'"] | false | Unit 4: il n'en demeure pas moins que, the turn after a concession.
+- c1-review-final-ex005 | multiple-choice | Choisissez la formule d'une lettre formelle. | ["Je vous saurais gré de bien vouloir me répondre.","Tu peux me répondre ?","Réponds-moi vite, merci !"] | ["Je vous saurais gré de bien vouloir me répondre."] | false | Unit 5: the formal request of the lesson on high-register correspondence.
+- c1-review-final-ex006 | multiple-choice | Indiquez la phrase qui présente le débat de façon neutre. | ["Pour certains, nous avons un libre arbitre ; pour d'autres, nos choix ont des causes.","Le libre arbitre n'existe pas, c'est évident.","Ceux qui croient au libre arbitre se trompent, voilà tout."] | ["Pour certains, nous avons un libre arbitre ; pour d'autres, nos choix ont des causes."] | false | Unit 6: each position is given and attributed.
+- c1-review-final-ex007 | fill-in | Complétez le proverbe : Après la pluie, le beau ___. | — | ["temps"] | false | Unit 7: things will get better.
+- c1-review-final-ex008 | multiple-choice | Indiquez le rôle de « cela dit » dans : Le film est long. Cela dit, la fin est très belle. | ["ajouter une nuance","revenir sur une erreur","exprimer la surprise"] | ["ajouter une nuance"] | false | Unit 8: cela dit adds a nuance, and it works in writing too.
+- c1-review-final-ex009 | fill-in | Complétez : Ce que j'ai appris pendant l'année, ce sont mes ___. | — | ["acquis"] | false | Les acquis: what you have learned.
+- c1-review-final-ex010 | multiple-choice | Choisissez le mot : Parler sans chercher ses mots, c'est parler avec ___. | ["fluidité","lacune","acquis"] | ["fluidité"] | false | La fluidité: fluency.
+- c1-review-final-ex011 | reformulation | Reformulez avec « persévérer » au futur proche : Je vais continuer mes efforts, même si c'est difficile. | — | ["Je vais persévérer, même si c'est difficile","Je vais persévérer"] | false | Persévérer: to keep going despite difficulties.
+- c1-review-final-ex012 | register-shift | Transformez au registre soutenu : Le chauffage est mort depuis lundi. | — | ["Le chauffage ne fonctionne plus depuis lundi"] | false | Unit 7: mort (familiar, for a machine) becomes ne fonctionne plus.
+- c1-review-final-ex013 | error-correction | Corrigez l'erreur : Quand bien même il serait fatigué, il continue. | — | ["Quand bien même il serait fatigué, il continuerait"] | false | Unit 3: quand bien même takes the conditionnel in both clauses.
+- c1-review-final-ex014 | translate | Traduisez (avant que) : Leave before it rains. | — | ["Partez avant qu'il ne pleuve","Partez avant qu'il pleuve","Pars avant qu'il ne pleuve","Pars avant qu'il pleuve"] | false | Unit 2: avant que + subjunctive, with or without the ne explétif.
+- c1-review-final-ex015 | translate | Traduisez (le libre arbitre) : Do we have free will? | — | ["Avons-nous un libre arbitre ?","Est-ce que nous avons un libre arbitre ?","A-t-on un libre arbitre ?"] | true | Unit 6: le libre arbitre.
+- c1-review-final-ex016 | translate | Traduisez (si je comprends bien) : If I understand correctly, you're asking me for an example. | — | ["Si je comprends bien, vous me demandez un exemple"] | false | Unit 8: reformulate the question before you answer.
+- c1-review-final-ex017 | error-correction | Corrigez le mélange des registres (gardez le registre soutenu) : Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées. Bonne journée ! | — | ["Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées"] | false | Units 5 and 7: nothing comes after the closing formula of a formal letter.
+- c1-review-final-ex018 | reorder | Remettez dans l'ordre : My greatest progress is in speaking. | — | ["Mon plus grand progrès est à l'oral"] | false | Le progrès: progress.

@@ -254,3 +254,34 @@
   - Unit 6 comes before Unit 7, so Unit 7 words (*génération*, *risque* in a proverb) weren't available; *un risque* is now defined here.
   - The syllabus listed c1-tricky-prepositions as a review prerequisite; I replaced it with c1-dissertation.
   - The Unit 6 syllabus rows were rewritten to match the lessons' scope.
+
+## Unit 8
+
+- **Unit 6 fixes (Prompt 38, items 1–7):** none were already done; all applied.
+  - GDPR "adopted in 2016 and applied since 2018"; bioethics "first laws in 1994"; the 1958 constitution "adopted".
+  - Keys and text: ex010's meaning-changing key removed; the free-will French put into English; the slavery claim rewritten (Montesquieu XV, *Candide*, the *Encyclopédie*); the cut marked in the Montesquieu quotation; keys widened (ex011 with a neutral cue, ex012, two others). *rédiger* added as vocab.
+  - The 11 words checked are all first taught in Unit 6, so none were dropped. Rules 27 and 28 added; c1-unit-6.txt regenerated.
+- **Rendering:** the scan of every lesson at every level found 1 component glued to text (technology-ethics); fixed.
+- **New lessons** (teaching / whole / résumé; vocab + glossary; exercises (production); dialogue lines; longer text):
+  - euphemism-and-synonyms: 911 / 1,306 / 150; 18; 16 (8); 12 lines.
+  - spoken-discourse-markers: 922 / 1,336 / 155; 16; 16 (7); 14 lines.
+  - culture-laicite-and-institutions: 925 / 1,446; 17 + 1; 16 (8); no dialogue; 263.
+  - exam-oral-presentation: 941 / 1,737; 15 + 2; 16 (8); 12 lines; 253.
+  - exam-written-tasks: 918 / 1,429; 16; 16 (8); no dialogue; 253.
+  - review-towards-dalf: 931 / 1,440; 4 new; 16 (7); 257.
+  - review-final: 1,129 / 1,631; 3 new; 18 (8); 251.
+- **Recap claims, false or partial:**
+  - The plan's new words *une épreuve* (c1-culture-literary-canon), *un exposé* (c1-abstract-nouns) and *étayer* (b2) were already taught, so the review-towards-dalf new words are *argumenter*, *une prise de position*, *une langue étrangère* and *précoce*.
+  - *objectif* repeated B2 and became a recap.
+  - *toutefois*, *en réalité*, *corriger*, *apprendre* forms and *utile* turned out to be untaught. They were replaced, or (*en réalité*) defined.
+- **Checks against baselines:**
+  - check:words 110 (unchanged); check:structures 0.
+  - audit: 73 / 4 / 6 informational; every C1 length, mix and longer-text row is 0.
+  - validate OK, no warnings; test:content OK; test:checker 29/29.
+  - test:b2-exercises: 1,035 checked, 0 failures; b2-links-ids: 116 lessons, 0 failures; check:c1-links: 57 lessons, 0 failures.
+  - check:alexandrines 8/8; build OK.
+- **Forward links:** none remain; c1-review-living → c1-euphemism-and-synonyms was restored.
+- **Didn't fit:**
+  - The final review has no next lesson, so its What's next links back to c1-review-literary for revision.
+  - The DALF lessons make no claim about the exam; laïcité is explained as rules, with no figures and no judgement, and every such sentence is in docs/review-needed.md.
+  - Overview: 57 of 57 written. Syllabus prerequisites for orders 51–57 updated.

@@ -18,6 +18,7 @@ Restored in Prompt 36: c1-imperfect-subjunctive → c1-reading-literary-narrativ
 
 Restored in Prompt 37: c1-review-professional → c1-philosophy-and-ideas (What's next) and c1-culture-literary-canon → c1-culture-enlightenment (The eighteenth century).
 
+Restored in Prompt 38: c1-review-living → c1-euphemism-and-synonyms (What's next). No pending links remain.
+
 | Lesson | Text | Target |
 |---|---|---|
-| c1-review-living | "The next unit prepares you for the DALF C1. It starts with the lesson on euphemism and nuance in synonyms." (What's next) | c1-euphemism-and-synonyms |

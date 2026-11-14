@@ -1883,16 +1883,16 @@ Every date, tradition and regional detail, for checking:
 
 - **Quotations (safe list, our translations):** Montaigne, *« Que sais-je ? »* (*Essais*; his motto, in modern spelling: the 16th-century text has *Que sçay-je ?*); Descartes, *« Je pense, donc je suis. »* (*Discours de la méthode*, 1637); Pascal, *« Le cœur a ses raisons que la raison ne connaît point. »* (*Pensées*, published after his death). Confirm each text, work and date, and Montaigne (1533–1592), Pascal (1623–1662).
 - **Meanings:** *la raison* (the faculty) vs *une raison* (a cause); *la conscience* as consciousness and conscience; *avoir bonne conscience*; "as a rule of thumb, *une notion* is a broad, general idea, while *un concept* is defined precisely inside a theory". Confirm.
-- **School:** "philosophy is taught in the final year of the lycée, *la terminale*. The course is built around notions such as consciousness, freedom, truth or happiness"; "Students choose between essay questions, often in the form *Peut-on… ?* or *Faut-il… ?*, and *l'explication de texte*"; *Le bac de philo est souvent la première épreuve écrite du bac.* Confirm against the current exam.
+- **School:** "philosophy is taught in the final year of the lycée, *la terminale*. The course is built around notions such as consciousness, freedom, truth or happiness"; "Students choose between essay questions, often in the form *Peut-on… ?* or *Faut-il… ?*, and *l'explication de texte*"; *Le bac de philo est souvent la première épreuve écrite du bac.* The exam calendar changes from year to year; confirm against the current one.
 - **"*l'existence* (existence) became a central word in twentieth-century French thought."** Confirm.
 
 ### c1-culture-enlightenment
 
-- **Quotations (safe list, our translations):** Montesquieu, *« Il faut que, par la disposition des choses, le pouvoir arrête le pouvoir. »* (*De l'esprit des lois*, 1748, book XI, chapter 4); Voltaire, *« Il faut cultiver notre jardin. »* (last words of *Candide*, 1759); Rousseau, *« L'homme est né libre, et partout il est dans les fers. »* (*Du contrat social*, 1762, book I, chapter 1). Confirm each word for word.
+- **Quotations (safe list, our translations):** Montesquieu, *« […] il faut que, par la disposition des choses, le pouvoir arrête le pouvoir. »* (the cut is marked) (*De l'esprit des lois*, 1748, book XI, chapter 4); Voltaire, *« Il faut cultiver notre jardin. »* (last words of *Candide*, 1759); Rousseau, *« L'homme est né libre, et partout il est dans les fers. »* (*Du contrat social*, 1762, book I, chapter 1). Confirm each word for word.
 - **Misattribution:** "A famous sentence about defending to the death someone's right to speak is often attributed to Voltaire, but it isn't his: it was written by an English biographer at the start of the twentieth century" (Evelyn Beatrice Hall, 1906). Confirm.
 - **Facts and dates:** Montesquieu (1689–1755), *Lettres persanes* (1721); Voltaire (1694–1778), Jean Calas executed in 1762, *Traité sur la tolérance* (1763), "campaigned for years to have him cleared"; Rousseau (1712–1778), born in Geneva, *Émile* (1762); Diderot (1713–1784) and d'Alembert, *l'Encyclopédie* "published from 1751 to 1772", "banned more than once"; Émilie du Châtelet (1706–1749) "translated Newton's major work into French"; Madame Geoffrin's salon; the Declaration adopted in August 1789. Confirm each.
 - **Article:** *Voltaire a passé du temps à la Bastille quand il était jeune, et Diderot a passé quelques mois en prison à Vincennes*; books printed *en Hollande ou à Genève*. Confirm.
-- **Sensitive (slavery, legacy):** "many of its writers didn't extend the equality they defended to women, and few campaigned against *l'esclavage* (slavery) in the colonies, although some, such as Diderot's circle, criticized it"; the two positions on the link with the Revolution. Confirm the neutral wording.
+- **Sensitive (slavery, legacy):** "many of its writers didn't extend the equality they defended to women. And although Montesquieu (in book XV of *De l'esprit des lois*), Voltaire (in *Candide*) and the *Encyclopédie* attacked *l'esclavage* (slavery), this criticism rarely became a campaign for abolition before the 1780s"; Example *beaucoup d'auteurs ont critiqué l'esclavage, mais peu ont demandé sa fin avant les années 1780*; the two positions on the link with the Revolution. Confirm the neutral wording.
 
 ### c1-culture-may-68
 
@@ -1902,7 +1902,7 @@ Every date, tradition and regional detail, for checking:
 
 ### c1-technology-ethics
 
-- **Law and institutions (no figures):** "In the European Union, a 2018 regulation, known in French as *le RGPD* and in English as the GDPR, sets the rules for *la protection des données*"; "a company must, as a rule, ask you to *donner votre consentement* clearly before using your data for some purposes"; "In France, an independent authority, the CNIL, checks that these rules are applied"; *le droit à l'oubli* "lets a person ask for some old information about them to disappear from search results"; "France has had bioethics laws since the 1990s, and they are revised regularly after public debate". Confirm.
+- **Law and institutions (no figures):** "In the European Union, a regulation adopted in 2016 and applied since 2018, known in French as *le RGPD* and in English as the GDPR, sets the rules for *la protection des données*"; "a company must, as a rule, ask you to *donner votre consentement* clearly before using your data for some purposes"; "In France, an independent authority, the CNIL, checks that these rules are applied"; *le droit à l'oubli* "lets a person ask for some old information about them to disappear from search results"; "France adopted its first bioethics laws in 1994, and they have been revised several times since, each time after public debate". Confirm.
 - **Debates:** the "for some / for others" bullets on AI and on surveillance. Confirm the balance.
 
 ### c1-culture-auteur-cinema
@@ -1915,6 +1915,12 @@ Every date, tradition and regional detail, for checking:
 
 - **The model introduction** (original): confirm it reads naturally, in particular *Le progrès technique, ce sont ici les outils nouveaux…* and *Pour d'autres, c'est une remise en cause de nos libertés*.
 - **New words:** *une remise en cause* "is very close to *la remise en question*… and the two are often interchangeable". Confirm.
+
+### Prompt 38 changes to Unit 6
+
+- **c1-culture-enlightenment:** *Les députés ont rédigé la Déclaration en quelques semaines.* (summer 1789). Confirm. ex011 now accepts *écrite*, *rédigée* and *adoptée* with the cue "dates from 1789".
+- **c1-culture-may-68:** "the Fifth Republic, whose constitution was adopted in 1958". ex010 now accepts only *il y a eu une (la) libération des mœurs*. Confirm.
+- **c1-philosophy-and-ideas:** the free-will paragraph is now in English, with *librement* glossed. Confirm.
 
 ### c1-proverbs-and-sayings
 
@@ -1972,3 +1978,44 @@ Every date, tradition and regional detail, for checking:
 - **c1-culture-francophonie:** *Le mot courriel a été créé au Québec ; aujourd'hui, il est courant en France aussi.*; *Le français est aussi une langue de travail de l'ONU.*; "In many African countries, French is the language of school and administration, while many people speak a national language at home." Confirm.
 - **c1-proverbs-and-sayings:** the dialogue's job offer is now in Toronto, so the worry about English fits. Confirm the dialogue still reads naturally.
 - **c1-advanced-idioms:** the dialogue now uses *payer les pots cassés* for someone else's mistake: *Tout ça parce que l'ancien directeur a trop dépensé : ce sont nos projets qui vont payer les pots cassés.* Confirm.
+
+### c1-euphemism-and-synonyms
+
+- **Sensitive (public language about social groups):** *une personne âgée*, *une personne en situation de handicap*, *un non-voyant* as "the standard, respectful term"; *un demandeur d'emploi* "more neutral than *un chômeur*"; *un plan social* = a redundancy plan; *un technicien de surface* "often quoted, and mocked, as an example of over-polite language"; "*Un vieux* or *une vieille* can sound rude". Confirm each and the neutral tone.
+- **Strength and register:** "*la crainte* (apprehension, formal) < *la peur* < *la terreur*; *l'effroi* (literary)"; *content < ravi < comblé*; *regarder < observer < contempler*; *un souci* (everyday) vs *une préoccupation* (formal). Confirm.
+- **"A litote says less to mean more… while a euphemism says less to soften."** Confirm.
+
+### c1-spoken-discourse-markers
+
+- **Functions:** *enfin, je veux dire* (self-correction), *en fait* (correcting an idea), *disons que* (approximation, softening), *si tu veux* (hedging), *à la limite* (at a pinch), *quand même !* (indignation), *tiens ! / tenez* (surprise; handing over), *remarque* (mind you), *cela dit* (that said; "the one you can keep in writing"), *pour le coup* (familiar), *tu vois ?*. Confirm each function and register label.
+- **"In formal writing, keep only *cela dit* and replace the others with written connectors: *en réalité* for *en fait*, *cependant* or *néanmoins* for *remarque*, *en somme* for *voilà*."** Confirm.
+- **Warning:** *en effet* confirms, *en fait* corrects. Confirm.
+
+### c1-culture-laicite-and-institutions
+
+- **Sensitive (religion, laïcité), every sentence of the law section:** "The law of 9 December 1905 organized *la séparation des Églises et de l'État*. Its first article says that the Republic ensures *la liberté de conscience* and guarantees *le libre exercice des cultes*, within the limits of public order. Its second article says that the Republic does not recognize, pay or *subventionner* any religion." Confirm.
+- **Constitution:** "The Constitution of 1958, adopted by referendum that year"; Article 1 quoted: *« La France est une République indivisible, laïque, démocratique et sociale. »* Confirm the wording.
+- **Application:** neutrality of *les agents publics*, freedom of *les usagers* "within the rules of each service"; "A law adopted in 2004 forbids pupils in state primary and secondary schools from wearing *des signes religieux ostensibles*"; "This rule doesn't apply at university, and private schools under contract with the State may have a religious character". Confirm.
+- **Exceptions:** "The 1905 law itself provides for *des aumôniers* in places that people can't easily leave, such as hospitals and prisons; the army also has its chaplains"; Alsace and Moselle, "which were German in 1905", keep *le régime concordataire*, where "some religions have an official status". Confirm.
+- **Institutions:** the President, "elected by *le suffrage universel direct*", appoints the Prime Minister and can dissolve the Assemblée nationale; the government "answers to the Assemblée nationale"; "The Sénat is elected indirectly, by local elected representatives, and represents the local authorities"; "the Assemblée nationale can, in the end, have the last word"; the roles of the Conseil constitutionnel and the Conseil d'État. Confirm.
+- **Article:** *Les élèves étudient d'ailleurs ce principe en classe, comme les autres principes de la République.* Confirm. The lesson gives no figures and judges no belief.
+
+### c1-exam-oral-presentation
+
+- **Exam claims:** the lesson describes the skill only ("a short exposé from a short document") and says it "says nothing about any exam's rules". Confirm that nothing in it reads as a claim about the DALF format, timing or scoring.
+- **Formulas:** *s'articuler autour de*, *en guise d'introduction*, *une piste de réflexion*, *je n'irais pas jusqu'à dire que*, *laissez-moi réfléchir un instant*. Confirm they're natural in a spoken exposé.
+
+### c1-exam-written-tasks
+
+- **Exam claims:** the lesson trains "a synthesis of two documents and an argued essay… without any claim about an exam's rules". Confirm that nothing reads as a statement about the DALF.
+- **Method:** "A synthesis… is objective: you give no personal opinion, you attribute every view to its source, and you organize the text by idea". Confirm.
+- **The two documents** (original; Claire Durand is invented) and the model synthesis: confirm they read naturally and that the synthesis is faithful to both documents.
+
+### c1-review-towards-dalf
+
+- **The model** (original argued text on learning a foreign language at nursery school): confirm the structures (*grâce auquel l'oreille s'habitue*, *dont l'apprentissage reste la priorité*, *quand bien même l'enfant progresserait vite, le résultat dépendrait des conditions*) and that the two positions read neutrally.
+
+### c1-review-final
+
+- **The model *Mon bilan de C1*** (original): confirm *Peut-être mon plus grand progrès est-il à l'oral*, *Ma professeure, grande lectrice de poésie, m'a aussi fait découvrir Baudelaire*, and *Quand bien même j'atteindrais un jour le niveau C2, je continuerais à lire chaque jour*.
+- **New words:** *les acquis* ("always plural in this sense"), *la fluidité*, *persévérer*. Confirm.
