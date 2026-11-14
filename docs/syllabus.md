@@ -488,12 +488,12 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 39 | c1-philosophy-and-ideas | Philosophy and ideas | Ideas and society | vocabulary | c1-abstract-nouns | Philosophical vocabulary: la liberté, l'éthique, le libre arbitre, la conscience. |
-| 40 | c1-culture-enlightenment | The Enlightenment | Ideas and society | culture | c1-philosophy-and-ideas | Voltaire, Rousseau, Diderot, Montesquieu, and their legacy today. |
-| 41 | c1-culture-may-68 | May 68 and modern France | Ideas and society | culture | b2-culture-french-history | May 68, its slogans, and how it shaped French society. |
-| 42 | c1-technology-ethics | Technology and ethics | Ideas and society | vocabulary | b2-science-and-research | AI, privacy, bioethics, surveillance, digital rights. |
-| 43 | c1-culture-auteur-cinema | Auteur cinema | Ideas and society | culture | b1-culture-french-cinema | The auteur tradition from Truffaut to today; reading film criticism. |
-| 44 | c1-review-ideas | Review: Ideas and society | Ideas and society | review | c1-culture-enlightenment, c1-culture-may-68, c1-technology-ethics, c1-culture-auteur-cinema, c1-tricky-prepositions | Essay connecting an Enlightenment idea to a current debate. |
+| 39 | c1-philosophy-and-ideas | Philosophy and ideas | Ideas and society | vocabulary | c1-abstract-nouns, b2-argumentative-essay, a2-culture-french-school-system | Philosophical vocabulary: la raison, la conscience, une notion, un concept, le libre arbitre, l'éthique; Montaigne, Descartes and Pascal quoted; philosophy in terminale. |
+| 40 | c1-culture-enlightenment | The Enlightenment | Ideas and society | culture | c1-philosophy-and-ideas, c1-culture-literary-canon, b1-culture-french-republic | Voltaire, Rousseau, Diderot, Montesquieu, Émilie du Châtelet and the salons; the Declaration of 1789; the debated legacy. |
+| 41 | c1-culture-may-68 | May 68 and modern France | Ideas and society | culture | b2-culture-french-history, b2-politics-and-society, b1-culture-work-life | May 68 told neutrally (students, general strike, Grenelle, dissolution, June elections); slogans described, not quoted; the debated legacy. |
+| 42 | c1-technology-ethics | Technology and ethics | Ideas and society | vocabulary | c1-philosophy-and-ideas, b1-technology-and-internet, b2-review-science | AI, privacy, consent, bias, bioethics, surveillance, the right to be forgotten. |
+| 43 | c1-culture-auteur-cinema | Auteur cinema | Ideas and society | culture | b1-culture-french-cinema, b1-reviewing-a-film-or-book, b2-describing-a-work-of-art | The Cahiers du cinéma and la politique des auteurs, Truffaut, Godard, Varda; film-style vocabulary; an original film review. |
+| 44 | c1-review-ideas | Review: Ideas and society | Ideas and society | review | c1-philosophy-and-ideas, c1-culture-enlightenment, c1-culture-may-68, c1-technology-ethics, c1-culture-auteur-cinema, c1-dissertation | Essay introduction connecting an Enlightenment idea to a current debate. |
 
 ### Unit 7: Living the language
 

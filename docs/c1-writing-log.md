@@ -220,3 +220,37 @@
   - The Enlightenment is only named; it's a new forward link to c1-culture-enlightenment, which should recap these names.
   - Restored: c1-imperfect-subjunctive → c1-reading-literary-narrative.
   - reading-literary-narrative is 2,016 words, close to the 2,100 cap.
+
+## Unit 6
+
+- **Unit 1 fixes (Prompt 37, items 1–4):** none were already done; all applied.
+  - Realism "alongside… and after" the romantics; Sartre named as existentialism's thinker, and Camus "often linked with existentialism though he rejected the label"; *old maid* → *old servant*.
+  - The rider is the king's messenger; *vécut ensuite à Paris*.
+  - Poem line 8 now reads *au bruit léger de l'eau*; it scans at 12 and keeps the caesura.
+  - Unit 6 does have c1-culture-enlightenment, so the canon lesson's promise is now a LessonLink.
+  - Rules 25 and 26 added; c1-unit-1.txt regenerated.
+- **New lessons** (teaching / whole / résumé; vocab + glossary; exercises (production); dialogue lines; longer text):
+  - philosophy-and-ideas: 1,105 / 1,486 / 158; 19; 16 (8); 12 lines.
+  - culture-enlightenment: 1,027 / 1,538; 15 + 1; 16 (7); no dialogue; 253.
+  - culture-may-68: 971 / 1,485; 21 + 1; 16 (8); no dialogue; 254.
+  - technology-ethics: 1,013 / 1,427 / 139; 23; 16 (8); 12 lines.
+  - culture-auteur-cinema: 1,012 / 1,538; 16; 16 (8); no dialogue; 257.
+  - review-ideas: 934 / 1,465; 4 new; 16 (7); 265.
+- **Quotations** (safe list, one per source per lesson, our translations):
+  - Montaigne, *Que sais-je ?* (*Essais*); Descartes, *Je pense, donc je suis* (*Discours de la méthode*, 1637); Pascal, *Le cœur a ses raisons…* (*Pensées*, 1670).
+  - Montesquieu, *…le pouvoir arrête le pouvoir* (*De l'esprit des lois*, 1748); Voltaire, *Il faut cultiver notre jardin* (*Candide*, 1759); Rousseau, *L'homme est né libre…* (*Du contrat social*, 1762).
+  - Nothing is quoted in May 68 (slogans described) or in auteur cinema.
+- **Recap claims, false or partial:**
+  - *utiliser* was first taught in review-living (order 50) but is needed at order 42. It's now in technology-ethics, and review-living recaps it.
+  - *faire débat* was used in philosophy-and-ideas before May 68 glossed it, so it was rephrased there.
+  - c1-review-professional → c1-philosophy-and-ideas restored.
+- **Checks against baselines:**
+  - check:words 110 (unchanged); check:structures 0.
+  - audit: 73 / 4 / 6 informational; every C1 length, mix and longer-text row is 0.
+  - validate OK, no warnings; test:content OK; test:checker 29/29.
+  - test:b2-exercises: 952 checked, 0 failures; b2-links-ids: 109 lessons, 0 failures; check:c1-links: 50 lessons, 0 failures.
+  - check:alexandrines 8/8; build OK.
+- **Didn't fit:**
+  - Unit 6 comes before Unit 7, so Unit 7 words (*génération*, *risque* in a proverb) weren't available; *un risque* is now defined here.
+  - The syllabus listed c1-tricky-prepositions as a review prerequisite; I replaced it with c1-dissertation.
+  - The Unit 6 syllabus rows were rewritten to match the lessons' scope.

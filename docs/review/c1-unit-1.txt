@@ -214,7 +214,7 @@ Many common verbs have a short or unexpected stem. You need to recognize them, m
 *Falloir* and *pleuvoir* are impersonal: in a story, you meet them with *il*. *Plut* is also the passé simple of *plaire*: *le livre lui plut* (he liked the book).
 
 <Example fr="Il fallut partir avant la nuit, et ils durent laisser les chevaux." en="They had to leave before nightfall, and they had to leave the horses behind." />
-<Example fr="Elle naquit à Lyon et vécut toute sa vie à Paris." en="She was born in Lyon and lived all her life in Paris. (an invented person)" />
+<Example fr="Elle naquit à Lyon et vécut ensuite à Paris." en="She was born in Lyon and later lived in Paris. (an invented person)" />
 <Example fr="Il prit sa lettre, la lut deux fois et ne dit rien." en="He took her letter, read it twice and said nothing." />
 
 ## Forms that look like the present
@@ -499,9 +499,9 @@ This is the opening of an original tale. The first paragraph sets the scene in t
 
 *Il faisait froid, et le brouillard cachait le village. Dans l'auberge, les voyageurs dormaient déjà.*
 
-*Vers minuit, un cavalier frappa à la porte. Quand on lui eut ouvert, il entra sans un mot et posa sur la table une lettre du roi. À peine les voyageurs eurent-ils lu la lettre qu'ils se mirent tous à parler. Après que le messager se fut éloigné, personne ne put s'endormir. Dès que le brouillard se fut dissipé, à l'aube, ils partirent.*
+*Vers minuit, un cavalier, messager du roi, frappa à la porte. Quand on lui eut ouvert, il entra sans un mot et posa sur la table une lettre du roi. À peine les voyageurs eurent-ils lu la lettre qu'ils se mirent tous à parler. Après que le messager se fut éloigné, personne ne put s'endormir. Dès que le brouillard se fut dissipé, à l'aube, ils partirent.*
 
-(It was cold, and the fog was hiding the village. In the inn, the travellers were already asleep. Around midnight, a rider knocked at the door. When someone had opened it for him, he came in without a word and put a letter from the king on the table. No sooner had the travellers read the letter than they all started talking. After the messenger had gone off, nobody could fall asleep. As soon as the fog had cleared, at dawn, they left.)
+(It was cold, and the fog was hiding the village. In the inn, the travellers were already asleep. Around midnight, a rider, the king's messenger, knocked at the door. When someone had opened it for him, he came in without a word and put a letter from the king on the table. No sooner had the travellers read the letter than they all started talking. After the messenger had gone off, nobody could fall asleep. As soon as the fog had cleared, at dawn, they left.)
 
 ## En français
 
@@ -1158,7 +1158,7 @@ exercises:
     explanation: "Déjà shows a situation in progress at that moment: imparfait, not passé simple."
   - id: "c1-reading-literary-narrative-ex013"
     type: "translate"
-    prompt: "Traduisez (le testament, revenir à) : The house went to the old maid."
+    prompt: "Traduisez (le testament, revenir à) : The house went to the old servant."
     answers: ["La maison revint à la vieille servante", "La maison est revenue à la vieille servante", "La maison revenait à la vieille servante"]
     strictAccents: true
     explanation: "Revenir à quelqu'un: to go to someone in a will. In a written story, the passé simple; in speech, the passé composé; the story's own sentence uses the imparfait, because it reports what the will said."
@@ -1266,7 +1266,7 @@ The story below is an original pastiche of a 19th-century short story, written f
 
 <VocabTable group="glossary" />
 
-(The Will. The notary had written a short letter: Mademoiselle Adèle Morin was requested to come to Saint-Rémy the following Thursday, for the reading of her aunt's will. Adèle left at dawn. The stagecoach was full, and it was cold. During the whole journey, she thought only of the old house with the green shutters, the garden, the piano in the drawing room. Her aunt had always preferred her to the others. Hadn't she promised her, ten years earlier, that everything would one day be hers? When she arrived, night was falling. The notary was waiting for her in the drawing room, with Marthe, the old maid, who didn't look up. As soon as he had closed the door, he opened the envelope and read in a slow voice. The house, the garden, the piano: everything went to Marthe. To Adèle, the aunt left a box of letters. Adèle said nothing. The house to Marthe! To a servant! After so many visits, so many little presents, so many Sundays wasted in that gloomy house! How could they have done this to her? In the evening, alone in her room at the inn, she opened the box. The letters were her own: all the ones she had written to her aunt since childhood. On each one, the old woman had noted the day and a single sentence. On the last, Adèle read: "She is asking for money again." She stayed motionless for a long time. Then she understood that her aunt had seen everything, and that it would have been better if she had come to see her without asking for anything. The next day, she took the stagecoach back. She took nothing but the box.)
+(The Will. The notary had written a short letter: Mademoiselle Adèle Morin was requested to come to Saint-Rémy the following Thursday, for the reading of her aunt's will. Adèle left at dawn. The stagecoach was full, and it was cold. During the whole journey, she thought only of the old house with the green shutters, the garden, the piano in the drawing room. Her aunt had always preferred her to the others. Hadn't she promised her, ten years earlier, that everything would one day be hers? When she arrived, night was falling. The notary was waiting for her in the drawing room, with Marthe, the old servant, who didn't look up. As soon as he had closed the door, he opened the envelope and read in a slow voice. The house, the garden, the piano: everything went to Marthe. To Adèle, the aunt left a box of letters. Adèle said nothing. The house to Marthe! To a servant! After so many visits, so many little presents, so many Sundays wasted in that gloomy house! How could they have done this to her? In the evening, alone in her room at the inn, she opened the box. The letters were her own: all the ones she had written to her aunt since childhood. On each one, the old woman had noted the day and a single sentence. On the last, Adèle read: "She is asking for money again." She stayed motionless for a long time. Then she understood that her aunt had seen everything, and that it would have been better if she had come to see her without asking for anything. The next day, she took the stagecoach back. She took nothing but the box.)
 
 ## How the story works
 
@@ -1442,7 +1442,7 @@ You know *un roman* and *un personnage* from <LessonLink id="b1-cinema-and-books
 Literary history groups writers into *courants littéraires* (movements). As a rule of thumb, a movement shares ideas about what literature should do, not only a period. The labels are useful, but many writers don't fit one box, so treat them as a first map, not a verdict.
 
 <Example fr="Madame Bovary est une œuvre majeure du dix-neuvième siècle." en="Madame Bovary is a major work of the nineteenth century." />
-<Example fr="Le romantisme est un courant littéraire du début du dix-neuvième siècle." en="Romanticism is a literary movement of the early nineteenth century." />
+<Example fr="Le romantisme est un courant littéraire du dix-neuvième siècle." en="Romanticism is a literary movement of the nineteenth century." />
 
 ## The seventeenth century: classicism
 
@@ -1467,13 +1467,13 @@ La Fontaine's *Fables* also belong to this century; you'll meet them again in <L
 
 ## The eighteenth century: the Enlightenment
 
-The eighteenth century is the century of *les Lumières* (the Enlightenment). Writers such as Voltaire, Montesquieu, Rousseau and Diderot used essays, letters, tales and the great *Encyclopédie* to question authority and defend reason. Voltaire's *Candide* (1759) is still one of the most widely read books of the period. The ideas of the Enlightenment have a lesson of their own in the unit on ideas and society; here, remember the names and the century.
+The eighteenth century is the century of *les Lumières* (the Enlightenment). Writers such as Voltaire, Montesquieu, Rousseau and Diderot used essays, letters, tales and the great *Encyclopédie* to question authority and defend reason. Voltaire's *Candide* (1759) is still one of the most widely read books of the period. The ideas of the Enlightenment have a lesson of their own, <LessonLink id="c1-culture-enlightenment" text="the lesson on the Enlightenment" />; here, remember the names and the century.
 
 ## The nineteenth century: the novel
 
 <VocabTable group="novel" />
 
-The nineteenth century is the great age of the French novel. After the romantic generation, led by Victor Hugo, *le roman réaliste* set out to describe society as it is: Balzac in the many novels of *La Comédie humaine*, Stendhal in *Le Rouge et le Noir* (1830), and Flaubert in *Madame Bovary* (1857). Later, *le naturalisme* of Émile Zola went further, studying families and workers almost like a scientist, for example in *Germinal* (1885). Maupassant, a master of *la nouvelle*, wrote hundreds of short stories, many of them with a twist at the end, like the one you read in <LessonLink id="c1-reading-literary-narrative" text="the lesson on reading literary narrative" />.
+The nineteenth century is the great age of the French novel. Alongside the romantic generation, led by Victor Hugo, and after it, *le roman réaliste* set out to describe society as it is: Balzac in the many novels of *La Comédie humaine*, Stendhal in *Le Rouge et le Noir* (1830), and Flaubert in *Madame Bovary* (1857). Later, *le naturalisme* of Émile Zola went further, studying families and workers almost like a scientist, for example in *Germinal* (1885). Maupassant, a master of *la nouvelle*, wrote hundreds of short stories, many of them with a twist at the end, like the one you read in <LessonLink id="c1-reading-literary-narrative" text="the lesson on reading literary narrative" />.
 
 <Example fr="Zola est l'écrivain le plus connu du naturalisme." en="Zola is the best-known writer of naturalism." />
 
@@ -1482,7 +1482,7 @@ The nineteenth century is the great age of the French novel. After the romantic 
 The twentieth century is harder to sum up, and the list grows every year. A few names come up constantly:
 
 - **Marcel Proust**, whose *À la recherche du temps perdu* follows memory across several volumes.
-- **Albert Camus**, author of *L'Étranger* (1942), and **Jean-Paul Sartre**, both linked with *l'existentialisme*, a philosophy of freedom and responsibility.
+- **Jean-Paul Sartre**, the best-known thinker of *l'existentialisme*, a philosophy of freedom and responsibility, and **Albert Camus**, author of *L'Étranger* (1942), often linked with existentialism though he rejected the label; his name is usually tied to the idea of the absurd.
 - **Simone de Beauvoir**, whose essay *Le Deuxième Sexe* (1949) shaped debates about women's condition.
 - **Marguerite Duras** and, more recently, **Annie Ernaux**, who received the Nobel Prize in Literature in 2022 and writes about memory and social class.
 
@@ -1748,11 +1748,11 @@ The poem below was written for this lesson, in classical form: two quatrains of 
 
 *Je vois l'aube, la neige et le bord du rivage,*
 
-*Et je ferme le livre au bruit lointain de l'eau.*
+*Et je ferme le livre au bruit léger de l'eau.*
 
 <VocabTable group="glossary" />
 
-(Evening reading. In the evening, when the house falls asleep in silence, I open an old book with quiet, distant words; a voice from long ago, under the lamp, begins to speak to me softly of ports and gardens. I am no longer here: I walk on the page, I cross the sea on board a big boat; I see the dawn, the snow and the edge of the shore, and I close the book to the distant sound of the water.)
+(Evening reading. In the evening, when the house falls asleep in silence, I open an old book with quiet, distant words; a voice from long ago, under the lamp, begins to speak to me softly of ports and gardens. I am no longer here: I walk on the page, I cross the sea on board a big boat; I see the dawn, the snow and the edge of the shore, and I close the book to the light sound of the water.)
 
 ## Un commentaire
 

@@ -1644,6 +1644,13 @@ Every date, tradition and regional detail, for checking:
 - **Spoken equivalents:** *Quand il a eu mangé, il a demandé…* (passé surcomposé) and *Dès qu'il est arrivé, la cloche a sonné* for *À peine fut-il arrivé que la cloche sonna*. Confirm.
 - **New words:** *le style*, *une tournure*, *pasticher*, *un conteur / une conteuse*. Confirm the glosses.
 
+### Prompt 37 changes to Unit 1
+
+- **c1-culture-french-poetry, the poem:** lines 7 and 8 put an elided mute e at the caesura (*la nei|ge et le bord*, *le li|vre au bruit*). This is allowed in classical verse (as in the first line of Racine's *Athalie*, *temple* before *adorer*). Confirm both lines. Line 8 now reads *Et je ferme le livre au bruit léger de l'eau* (12 syllables by scripts/scan-alexandrines.ts), so *lointain* no longer appears twice.
+- **c1-culture-literary-canon, the bac de français:** *Certaines œuvres sont au programme pour toute la France*; *À l'écrit, on leur propose par exemple un commentaire ou une dissertation. À l'oral, ils expliquent un texte étudié en classe, puis ils parlent d'une œuvre qu'ils ont lue.* These details can change with each reform; confirm against the current exam.
+- **c1-culture-literary-canon, history:** "Alongside the romantic generation, led by Victor Hugo, and after it, *le roman réaliste* set out to describe society as it is"; "Jean-Paul Sartre, the best-known thinker of *l'existentialisme*… and Albert Camus… often linked with existentialism though he rejected the label; his name is usually tied to the idea of the absurd." Confirm.
+- **c1-passe-anterieur:** *un cavalier, messager du roi, frappa à la porte*. **c1-passe-simple:** *Elle naquit à Lyon et vécut ensuite à Paris.* Confirm.
+
 ### c1-dislocation-and-fronting
 
 - **The pronoun table:** direct object → *le, la, les*; *à* + person → *lui, leur*; *à* + thing → *y*; *de* + thing or amount → *en* (*Du café, j'en bois trop*; *Des comédiens comme ça, il y en a peu*). Confirm each example.
@@ -1871,6 +1878,43 @@ Every date, tradition and regional detail, for checking:
 - **c1-public-speaking:** the speech's history *Ce projet est né il y a cinq ans, quand notre vieille bibliothèque, déjà ouverte le dimanche, est devenue trop petite pour la ville.* and the hours *du mardi au dimanche, le dimanche l'après-midi seulement*. Invented; confirm they read naturally.
 - **c1-irony-and-understatement:** *il ne fait pas chaud* is now a sincere understatement that sets up the ironic *brûlants*; the review adds *La salle était froide, et nous avons gardé nos manteaux.* Confirm the irony still reads clearly.
 - **c1-rhetorical-devices:** *un silence assourdissant* as the oxymore example. Confirm it's a natural, current example.
+
+### c1-philosophy-and-ideas
+
+- **Quotations (safe list, our translations):** Montaigne, *« Que sais-je ? »* (*Essais*; his motto, in modern spelling: the 16th-century text has *Que sçay-je ?*); Descartes, *« Je pense, donc je suis. »* (*Discours de la méthode*, 1637); Pascal, *« Le cœur a ses raisons que la raison ne connaît point. »* (*Pensées*, published after his death). Confirm each text, work and date, and Montaigne (1533–1592), Pascal (1623–1662).
+- **Meanings:** *la raison* (the faculty) vs *une raison* (a cause); *la conscience* as consciousness and conscience; *avoir bonne conscience*; "as a rule of thumb, *une notion* is a broad, general idea, while *un concept* is defined precisely inside a theory". Confirm.
+- **School:** "philosophy is taught in the final year of the lycée, *la terminale*. The course is built around notions such as consciousness, freedom, truth or happiness"; "Students choose between essay questions, often in the form *Peut-on… ?* or *Faut-il… ?*, and *l'explication de texte*"; *Le bac de philo est souvent la première épreuve écrite du bac.* Confirm against the current exam.
+- **"*l'existence* (existence) became a central word in twentieth-century French thought."** Confirm.
+
+### c1-culture-enlightenment
+
+- **Quotations (safe list, our translations):** Montesquieu, *« Il faut que, par la disposition des choses, le pouvoir arrête le pouvoir. »* (*De l'esprit des lois*, 1748, book XI, chapter 4); Voltaire, *« Il faut cultiver notre jardin. »* (last words of *Candide*, 1759); Rousseau, *« L'homme est né libre, et partout il est dans les fers. »* (*Du contrat social*, 1762, book I, chapter 1). Confirm each word for word.
+- **Misattribution:** "A famous sentence about defending to the death someone's right to speak is often attributed to Voltaire, but it isn't his: it was written by an English biographer at the start of the twentieth century" (Evelyn Beatrice Hall, 1906). Confirm.
+- **Facts and dates:** Montesquieu (1689–1755), *Lettres persanes* (1721); Voltaire (1694–1778), Jean Calas executed in 1762, *Traité sur la tolérance* (1763), "campaigned for years to have him cleared"; Rousseau (1712–1778), born in Geneva, *Émile* (1762); Diderot (1713–1784) and d'Alembert, *l'Encyclopédie* "published from 1751 to 1772", "banned more than once"; Émilie du Châtelet (1706–1749) "translated Newton's major work into French"; Madame Geoffrin's salon; the Declaration adopted in August 1789. Confirm each.
+- **Article:** *Voltaire a passé du temps à la Bastille quand il était jeune, et Diderot a passé quelques mois en prison à Vincennes*; books printed *en Hollande ou à Genève*. Confirm.
+- **Sensitive (slavery, legacy):** "many of its writers didn't extend the equality they defended to women, and few campaigned against *l'esclavage* (slavery) in the colonies, although some, such as Diderot's circle, criticized it"; the two positions on the link with the Revolution. Confirm the neutral wording.
+
+### c1-culture-may-68
+
+- **Sensitive (contested history), every sentence of the events:** Nanterre in March 1968; Nanterre closed and the Sorbonne cleared at the start of May; the night of the barricades, 10 to 11 May; the march of 13 May; the general strike; *les accords de Grenelle* (25 to 27 May; "raised wages, including the minimum wage, and gave more rights to unions in companies"; "Many strikers, however, refused to go back to work at first"); de Gaulle "left Paris for a few hours without saying where he was going" on 29 May; the radio speech and the dissolution on 30 May; the Champs-Élysées demonstration; the June elections ("a large majority" for the Gaullists); de Gaulle's departure in April 1969 "after losing a referendum on another subject". Confirm each date and fact.
+- **Legacy:** the "for some" and "for others" paragraphs, "the debate often follows political lines", and "several changes attributed to May 68 had begun before it". Confirm the balance and neutral tone. No living person is named; slogans are described, not quoted ("one of the best known says that it is forbidden to forbid").
+- **"General de Gaulle had been president since 1959, in the Fifth Republic founded in 1958."** Confirm.
+
+### c1-technology-ethics
+
+- **Law and institutions (no figures):** "In the European Union, a 2018 regulation, known in French as *le RGPD* and in English as the GDPR, sets the rules for *la protection des données*"; "a company must, as a rule, ask you to *donner votre consentement* clearly before using your data for some purposes"; "In France, an independent authority, the CNIL, checks that these rules are applied"; *le droit à l'oubli* "lets a person ask for some old information about them to disappear from search results"; "France has had bioethics laws since the 1990s, and they are revised regularly after public debate". Confirm.
+- **Debates:** the "for some / for others" bullets on AI and on surveillance. Confirm the balance.
+
+### c1-culture-auteur-cinema
+
+- **Facts:** *les Cahiers du cinéma* "founded in 1951"; "Truffaut defended it in a famous 1954 article that attacked the well-made but impersonal French films of the time"; Truffaut, Godard, Rohmer and Chabrol as critics who became directors; Agnès Varda "often called a forerunner of the movement, had already made a feature film in 1955"; *Cléo de 5 à 7* (1962) "follows a young singer through part of an afternoon in Paris, almost in real time"; Godard's jump cuts in *À bout de souffle*. Confirm each.
+- **Funding:** "France supports this kind of cinema with public funding, managed by a national film centre"; the two positions on it. Confirm.
+- **Vocabulary:** *un faux raccord* for "a jump cut, a continuity break". Confirm the usual French term.
+
+### c1-review-ideas
+
+- **The model introduction** (original): confirm it reads naturally, in particular *Le progrès technique, ce sont ici les outils nouveaux…* and *Pour d'autres, c'est une remise en cause de nos libertés*.
+- **New words:** *une remise en cause* "is very close to *la remise en question*… and the two are often interchangeable". Confirm.
 
 ### c1-proverbs-and-sayings
 

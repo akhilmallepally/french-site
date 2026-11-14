@@ -1,0 +1,1288 @@
+===== content/lessons/c1/philosophy-and-ideas.mdx =====
+---
+id: "c1-philosophy-and-ideas"
+title: "Philosophy and ideas"
+description: "The words of ideas: la raison, la conscience, une notion, un concept, le libre arbitre, remettre en question and l'esprit critique, three short classic quotations, and how French schools teach philosophy in the final year of the lycée."
+level: "C1"
+unit: "Ideas and society"
+order: 39
+type: "vocabulary"
+tags: ["vocabulary", "philosophy", "ideas", "school"]
+prerequisites: ["c1-abstract-nouns", "b2-argumentative-essay", "a2-culture-french-school-system"]
+related: ["c1-culture-enlightenment", "c1-culture-literary-canon", "c1-dissertation"]
+vocab:
+  - { id: "c1-philosophy-and-ideas-v001", group: "ideas", fr: "la philosophie", pron: "lah fee-loh-zoh-FEE", en: "philosophy" }
+  - { id: "c1-philosophy-and-ideas-v002", group: "ideas", fr: "un philosophe / une philosophe", pron: "uhn fee-loh-ZOF / ewn fee-loh-ZOF", en: "a philosopher" }
+  - { id: "c1-philosophy-and-ideas-v003", group: "ideas", fr: "la raison", pron: "lah reh-ZOHN", en: "reason (the ability to think and judge)", note: "Une raison: a reason, a cause." }
+  - { id: "c1-philosophy-and-ideas-v004", group: "ideas", fr: "la conscience", pron: "lah kohn-SYAHNSS", en: "consciousness; conscience" }
+  - { id: "c1-philosophy-and-ideas-v005", group: "ideas", fr: "avoir bonne conscience", pron: "ah-vwahr bonn kohn-SYAHNSS", en: "to have a clear conscience" }
+  - { id: "c1-philosophy-and-ideas-v006", group: "ideas", fr: "une notion", pron: "ewn noh-SYOHN", en: "a notion, a general idea" }
+  - { id: "c1-philosophy-and-ideas-v007", group: "ideas", fr: "un concept", pron: "uhn kohn-SEPT", en: "a concept (a precisely defined idea)" }
+  - { id: "c1-philosophy-and-ideas-v008", group: "ideas", fr: "le libre arbitre", pron: "luh lee-brar-BEE-truh", en: "free will", note: "Croire au libre arbitre." }
+  - { id: "c1-philosophy-and-ideas-v009", group: "ideas", fr: "librement", pron: "lee-bruh-MAHN", en: "freely" }
+  - { id: "c1-philosophy-and-ideas-v010", group: "ideas", fr: "le bonheur", pron: "luh boh-NUHR", en: "happiness" }
+  - { id: "c1-philosophy-and-ideas-v011", group: "ideas", fr: "la sagesse", pron: "lah sah-ZHESS", en: "wisdom" }
+  - { id: "c1-philosophy-and-ideas-v012", group: "ideas", fr: "l'existence (f.)", pron: "leg-zees-TAHNSS", en: "existence" }
+  - { id: "c1-philosophy-and-ideas-v013", group: "method", fr: "remettre en question", pron: "ruh-meh-trahn kes-TYOHN", en: "to question, to challenge" }
+  - { id: "c1-philosophy-and-ideas-v014", group: "method", fr: "l'esprit critique (m.)", pron: "les-pree kree-TEEK", en: "critical thinking" }
+  - { id: "c1-philosophy-and-ideas-v015", group: "method", fr: "penser par soi-même", pron: "pahn-say par swah-MEM", en: "to think for yourself" }
+  - { id: "c1-philosophy-and-ideas-v016", group: "method", fr: "l'éthique (f.)", pron: "lay-TEEK", en: "ethics" }
+  - { id: "c1-philosophy-and-ideas-v017", group: "method", fr: "le bien et le mal", pron: "luh byan ay luh MAL", en: "good and evil" }
+  - { id: "c1-philosophy-and-ideas-v018", group: "school", fr: "l'explication de texte (f.)", pron: "lek-splee-kah-syohn duh TEKST", en: "the close reading of a passage (an exam exercise)" }
+  - { id: "c1-philosophy-and-ideas-v019", group: "school", fr: "le bac de philo", pron: "luh bak duh fee-LOH", en: "the philosophy paper of the bac (everyday)" }
+exercises:
+  - id: "c1-philosophy-and-ideas-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « la raison » dans : Pour Descartes, la raison permet de trouver la vérité."
+    options: ["ce qui nous permet de penser et de juger", "une cause", "le fait d'avoir raison"]
+    answers: ["ce qui nous permet de penser et de juger"]
+    explanation: "La raison, with la: the ability to think. Une raison is a cause; avoir raison is to be right."
+  - id: "c1-philosophy-and-ideas-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Pour certains philosophes, nous choisissons librement nos actes ; ils croient au ___."
+    options: ["libre arbitre", "bac de philo", "concept"]
+    answers: ["libre arbitre"]
+    explanation: "Croire au libre arbitre: to believe in free will."
+  - id: "c1-philosophy-and-ideas-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « avoir bonne conscience »."
+    options: ["se sentir en paix avec ce qu'on a fait", "être bien réveillé", "bien connaître un sujet"]
+    answers: ["se sentir en paix avec ce qu'on a fait"]
+    explanation: "Avoir bonne conscience: to have a clear conscience."
+  - id: "c1-philosophy-and-ideas-ex004"
+    type: "fill-in"
+    prompt: "Complétez la phrase de Descartes : Je pense, donc je ___."
+    answers: ["suis"]
+    explanation: "Descartes, Discours de la méthode (1637)."
+  - id: "c1-philosophy-and-ideas-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Avoir l'___ critique, c'est ne pas croire tout ce qu'on lit."
+    answers: ["esprit"]
+    explanation: "L'esprit critique: critical thinking."
+  - id: "c1-philosophy-and-ideas-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Une idée générale, souvent large et peu précise, est une ___."
+    options: ["notion", "sagesse", "existence"]
+    answers: ["notion"]
+    explanation: "Une notion: a general idea. Un concept is more precisely defined."
+  - id: "c1-philosophy-and-ideas-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez l'auteur de la question « Que sais-je ? »."
+    options: ["Montaigne", "Descartes", "Pascal"]
+    answers: ["Montaigne"]
+    explanation: "Montaigne, in the Essais."
+  - id: "c1-philosophy-and-ideas-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « remettre en question » : Elle doute de tout ce qu'on lui a appris."
+    answers: ["Elle remet en question tout ce qu'on lui a appris"]
+    strictAccents: true
+    explanation: "Remettre en question: to question, to challenge."
+  - id: "c1-philosophy-and-ideas-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « penser par soi-même » : Il ne répète pas les idées des autres."
+    answers: ["Il pense par lui-même"]
+    explanation: "Penser par soi-même becomes penser par lui-même with il."
+  - id: "c1-philosophy-and-ideas-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « croire au libre arbitre » : Elle pense que nous choisissons librement."
+    answers: ["Elle croit au libre arbitre"]
+    explanation: "Croire au libre arbitre: to believe that we choose freely."
+  - id: "c1-philosophy-and-ideas-ex011"
+    type: "translate"
+    prompt: "Traduisez (le bonheur, le but) : Is happiness the goal of life?"
+    answers: ["Le bonheur est-il le but de la vie ?", "Est-ce que le bonheur est le but de la vie ?"]
+    explanation: "Le bonheur: happiness. A classic philosophy question, with inversion."
+  - id: "c1-philosophy-and-ideas-ex012"
+    type: "translate"
+    prompt: "Traduisez (avoir bonne conscience) : He has a clear conscience."
+    answers: ["Il a bonne conscience"]
+    strictAccents: true
+    explanation: "Avoir bonne conscience, with no article."
+  - id: "c1-philosophy-and-ideas-ex013"
+    type: "translate"
+    prompt: "Traduisez (concerner, l'éthique) : This question concerns ethics, not the law."
+    answers: ["Cette question concerne l'éthique, pas la loi", "Cette question concerne l'éthique et non la loi", "Cette question concerne l'éthique, et pas la loi"]
+    explanation: "L'éthique: ethics, the study of how to act well."
+  - id: "c1-philosophy-and-ideas-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur d'auteur : C'est Pascal qui a écrit « Je pense, donc je suis »."
+    answers: ["C'est Descartes qui a écrit « Je pense, donc je suis »"]
+    strictAccents: true
+    explanation: "Je pense, donc je suis is Descartes's, in the Discours de la méthode (1637)."
+  - id: "c1-philosophy-and-ideas-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : En France, la philosophie est enseignée en seconde, au lycée."
+    answers: ["En France, la philosophie est enseignée en terminale, au lycée"]
+    explanation: "Philosophy is taught in the final year of the lycée, la terminale."
+  - id: "c1-philosophy-and-ideas-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The heart has its reasons that reason does not know."
+    words: ["Le", "cœur", "a", "ses", "raisons", "que", "la", "raison", "ne", "connaît", "point"]
+    answers: ["Le cœur a ses raisons que la raison ne connaît point"]
+    explanation: "Pascal, Pensées. Ne… point is a literary ne… pas."
+---
+
+By the end of this lesson you'll be able to talk about ideas in French: name the main notions of philosophy, use them precisely, and understand how French schools teach philosophy.
+
+## What you already know
+
+You know *la liberté* from <LessonLink id="b1-culture-french-republic" text="the lesson on the French Republic" /> and *douter* from <LessonLink id="b1-expressing-doubt-certainty" text="the lesson on doubt and certainty" />. You know *la remise en question* and *prendre du recul* from <LessonLink id="c1-abstract-nouns" text="the lesson on abstract nouns" />, and *la dissertation* and *la problématique* from <LessonLink id="b2-argumentative-essay" text="the lesson on the argumentative essay" />. This lesson adds the words French uses to discuss ideas themselves.
+
+## The words of ideas
+
+<VocabTable group="ideas" />
+
+*La philosophie* asks general questions: what can we know, how should we act, what is a good life? *Un philosophe* or *une philosophe* tries to answer them with arguments rather than authority.
+
+**La raison** (reason) is the ability to think and judge. Don't confuse it with *une raison*, a cause, or *avoir raison*, to be right. The article does the work: *la raison* is the faculty, *une raison* is one particular cause.
+
+<Example fr="Pour Descartes, la raison permet de distinguer le vrai du faux." en="For Descartes, reason makes it possible to tell true from false." />
+
+**La conscience** has two meanings that English splits. It can be consciousness, our awareness of ourselves and the world, or conscience, the inner voice that judges what we do. *Avoir bonne conscience* is to have a clear conscience; the context usually tells you which meaning is meant.
+
+<Example fr="Après avoir dit la vérité, elle avait bonne conscience." en="After telling the truth, she had a clear conscience." />
+
+**Une notion** and **un concept** are close. As a rule of thumb, *une notion* is a broad, general idea (*la notion de justice*), while *un concept* is defined precisely inside a theory. French school philosophy is organized around *notions*: the big words the course explores, such as *la conscience*, *la liberté* or *le bonheur*.
+
+<Example fr="Le bonheur est une notion que chaque philosophe comprend à sa manière." en="Happiness is a notion that each philosopher understands in their own way." />
+<Example fr="Dans ce livre, chaque concept a un sens très clair." en="In this book, each concept has a very clear meaning." />
+
+**Le libre arbitre** (free will) is a classic debate, and French presents it as one. Pour certains philosophes, nous choisissons librement nos actes, et nous en sommes responsables. Pour d'autres, nos choix ont toujours des causes : notre histoire, notre corps, notre société. Many positions sit between the two.
+
+<Example fr="Pour certains, nous avons un libre arbitre ; pour d'autres, nos choix ont des causes que nous ne voyons pas." en="For some, we have free will; for others, our choices have causes we don't see." />
+
+*La sagesse* (wisdom) and *le bonheur* (happiness) are among the oldest subjects of philosophy, and *l'existence* (existence) became a central word in twentieth-century French thought.
+
+<Example fr="Pour beaucoup de philosophes anciens, la sagesse permettait d'arriver au bonheur." en="For many ancient philosophers, wisdom was the way to reach happiness." />
+<Example fr="Le sens de l'existence est une question que chacun se pose un jour." en="The meaning of existence is a question everyone asks themselves one day." />
+
+## Three classic sentences
+
+French readers quote a few philosophical sentences constantly. All three below come from authors on this course's safe list, and the translations are our own.
+
+<Example fr="« Que sais-je ? » (Montaigne, Essais)" en="&quot;What do I know?&quot; (our translation)" />
+
+Montaigne (1533–1592) made this question his motto: a reminder to doubt what we think we know. In his *Essais*, he tests his own opinions one after another.
+
+<Example fr="« Je pense, donc je suis. » (Descartes, Discours de la méthode, 1637)" en="&quot;I think, therefore I am.&quot; (our translation)" />
+
+Descartes doubts everything he can, then finds one thing he can't doubt: while he doubts, he is thinking, so he exists.
+
+<Example fr="« Le cœur a ses raisons que la raison ne connaît point. » (Pascal, Pensées)" en="&quot;The heart has its reasons that reason does not know.&quot; (our translation)" />
+
+Pascal (1623–1662) plays on the two meanings of *raison*: the heart's reasons (causes, motives) and reason (the faculty). His *Pensées* were published after his death.
+
+## Questioning and judging
+
+<VocabTable group="method" />
+
+The method of philosophy is to *remettre en question* (question, challenge) what seems obvious. *L'esprit critique* (critical thinking) is the habit of checking a claim before accepting it, and *penser par soi-même* (to think for yourself) is the goal many teachers give the subject. Change the pronoun with the subject: *je pense par moi-même*, *elle pense par elle-même*.
+
+<Example fr="En classe, on apprend à remettre en question ce qui semble évident." en="In class, you learn to question what seems obvious." />
+<Example fr="L'esprit critique aide chacun à penser par soi-même." en="Critical thinking helps everyone to think for themselves." />
+
+*L'éthique* (ethics) asks how to act well; it is the word used for debates about medicine, technology or business. *Le bien et le mal* (good and evil) is the basic pair of moral words.
+
+<Example fr="Ce débat ne concerne pas la loi, mais l'éthique." en="This debate isn't about the law, but about ethics." />
+<Example fr="Très tôt, un enfant apprend à distinguer le bien et le mal." en="Very early, a child learns to tell good from evil." />
+
+## Philosophy at school
+
+<VocabTable group="school" />
+
+In France, philosophy is taught in the final year of the lycée, *la terminale*. The course is built around notions such as consciousness, freedom, truth or happiness, studied through classic and modern texts. At the end of the year comes the philosophy paper of the bac, called *le bac de philo* in everyday French. Students choose between essay questions, often in the form *Peut-on… ?* or *Faut-il… ?*, and *l'explication de texte*, the close reading of a philosophical passage. The questions of the day are discussed on the radio and in the press, and many adults try them again for fun.
+
+<Example fr="Le bac de philo est souvent la première épreuve écrite du bac." en="The philosophy paper is often the first written paper of the bac." />
+<Example fr="Pour l'explication de texte, il faut suivre le raisonnement de l'auteur ligne par ligne." en="For the close reading, you have to follow the author's reasoning line by line." />
+
+## En français
+
+Two students in *terminale* come out of their philosophy class.
+
+- *Alors, tu crois au libre arbitre, toi ?* (So, do you believe in free will?)
+- *Je ne sais pas. Le prof nous a montré les deux positions.* (I don't know. The teacher showed us both positions.)
+- *Moi, j'ai l'impression de choisir ce que je fais.* (I have the feeling that I choose what I do.)
+- *Oui, mais ton choix a peut-être des causes que tu ne vois pas.* (Yes, but your choice may have causes that you don't see.)
+- *Tu remets en question tout ce que je dis !* (You question everything I say!)
+- *C'est le principe de la philosophie : penser par soi-même.* (That's the principle of philosophy: thinking for yourself.)
+- *Et Descartes, alors ? « Je pense, donc je suis. »* (And what about Descartes? "I think, therefore I am.")
+- *Justement, il a d'abord douté de tout.* (Exactly, he first doubted everything.)
+- *Tu as choisi quelle notion pour ton exposé ?* (Which notion did you choose for your presentation?)
+- *Le bonheur. Je vais parler de la sagesse chez les anciens.* (Happiness. I'm going to talk about wisdom in ancient thinkers.)
+- *Bonne chance. Moi, je prépare l'explication de texte pour le bac de philo.* (Good luck. I'm preparing the close reading for the philosophy paper.)
+- *On révise ensemble ce soir ?* (Shall we revise together tonight?)
+
+<Callout type="warning" title="La raison, not une raison, for the faculty">
+  Learners often mix up the faculty and a cause. For the ability to think, use the article *la*: **la raison permet de juger**. *Une raison* is a cause (*il a une bonne raison*), and *avoir raison* means to be right.
+</Callout>
+
+<Callout type="tip" title="Answer one question a week">
+  Each week, take one classic question, such as *Peut-on être heureux seul ?*, and write three sentences: one for, one against, and one that defines the key notion. You'll practise the vocabulary of ideas and the habit of giving both sides.
+</Callout>
+
+## En résumé
+
+La philosophie pose des questions générales sur ce qu'on peut savoir, sur l'action et sur la vie. La raison est ce qui nous permet de penser et de juger ; une raison, c'est une cause, et avoir raison, c'est ne pas se tromper. La conscience, c'est savoir qu'on existe, mais c'est aussi la voix qui juge nos actes : on a bonne conscience quand on se sent en paix avec ce qu'on a fait. Une notion est une idée générale ; un concept a un sens très clair et précis. Le libre arbitre est un sujet de débat : pour certains, nous choisissons librement ; pour d'autres, nos choix ont des causes. La méthode de la philosophie, c'est de remettre en question ce qui semble évident, avec esprit critique, pour penser par soi-même. L'éthique étudie le bien et le mal. En France, on étudie la philosophie en terminale, et le bac de philo propose des sujets de dissertation et une explication de texte.
+
+## What's next
+
+Next, <LessonLink id="c1-culture-enlightenment" text="the lesson on the Enlightenment" /> looks at the eighteenth-century thinkers who put reason at the centre of public debate.
+
+===== content/lessons/c1/culture-enlightenment.mdx =====
+---
+id: "c1-culture-enlightenment"
+title: "The Enlightenment"
+description: "Les Lumières: Montesquieu, Voltaire, Rousseau, Diderot and the Encyclopédie, Émilie du Châtelet and the salons, the key ideas (reason, tolerance, the separation of powers, the sovereignty of the people), how ideas circulated, and the debates about their link with the Revolution."
+level: "C1"
+unit: "Ideas and society"
+order: 40
+type: "culture"
+tags: ["culture", "history", "ideas", "philosophy"]
+prerequisites: ["c1-philosophy-and-ideas", "c1-culture-literary-canon", "b1-culture-french-republic"]
+related: ["c1-culture-satire-and-humour", "b2-culture-french-history", "c1-review-ideas"]
+vocab:
+  - { id: "c1-culture-enlightenment-v001", group: "age", fr: "les Lumières (f. pl.)", pron: "lay lew-MYEHR", en: "the Enlightenment", note: "Le siècle des Lumières: the eighteenth century." }
+  - { id: "c1-culture-enlightenment-v002", group: "age", fr: "un préjugé", pron: "uhn pray-zhew-ZHAY", en: "a prejudice, a preconceived idea" }
+  - { id: "c1-culture-enlightenment-v003", group: "age", fr: "la tolérance", pron: "lah toh-lay-RAHNSS", en: "tolerance" }
+  - { id: "c1-culture-enlightenment-v004", group: "age", fr: "le progrès", pron: "luh proh-GREH", en: "progress" }
+  - { id: "c1-culture-enlightenment-v005", group: "age", fr: "la censure / censurer", pron: "lah sahn-SEWR / sahn-sew-RAY", en: "censorship / to censor" }
+  - { id: "c1-culture-enlightenment-v006", group: "thinkers", fr: "la séparation des pouvoirs", pron: "lah say-pah-rah-syohn day poo-VWAHR", en: "the separation of powers" }
+  - { id: "c1-culture-enlightenment-v007", group: "thinkers", fr: "le pouvoir législatif / exécutif / judiciaire", pron: "luh poo-vwahr lay-zhee-slah-TEEF / eg-zay-kew-TEEF / zhew-dee-SYEHR", en: "the legislative / executive / judicial power" }
+  - { id: "c1-culture-enlightenment-v008", group: "thinkers", fr: "la souveraineté du peuple", pron: "lah soo-vren-tay dew PUH-pluh", en: "the sovereignty of the people" }
+  - { id: "c1-culture-enlightenment-v009", group: "thinkers", fr: "la volonté générale", pron: "lah voh-lohn-tay zhay-nay-RAL", en: "the general will" }
+  - { id: "c1-culture-enlightenment-v010", group: "thinkers", fr: "une encyclopédie", pron: "ew-nahn-see-kloh-pay-DEE", en: "an encyclopedia", note: "L'Encyclopédie: Diderot and d'Alembert's." }
+  - { id: "c1-culture-enlightenment-v011", group: "thinkers", fr: "rassembler les savoirs", pron: "rah-sahn-blay lay sah-VWAHR", en: "to bring knowledge together" }
+  - { id: "c1-culture-enlightenment-v012", group: "thinkers", fr: "un salon", pron: "uhn sah-LOHN", en: "a salon (a regular gathering of writers and thinkers in a private home)", note: "Also: le salon, the living room." }
+  - { id: "c1-culture-enlightenment-v013", group: "legacy", fr: "la Déclaration des droits de l'homme et du citoyen", pron: "lah day-klah-rah-syohn day drwah duh LOMM ay dew see-twah-YAN", en: "the Declaration of the Rights of Man and of the Citizen (1789)" }
+  - { id: "c1-culture-enlightenment-v014", group: "legacy", fr: "la liberté d'expression", pron: "lah lee-behr-tay dek-spreh-SYOHN", en: "freedom of expression" }
+  - { id: "c1-culture-enlightenment-v015", group: "legacy", fr: "l'esclavage (m.)", pron: "les-klah-VAHZH", en: "slavery" }
+  - { id: "c1-culture-enlightenment-v016", group: "glossary", fr: "la prison", pron: "lah pree-ZOHN", en: "prison" }
+exercises:
+  - id: "c1-culture-enlightenment-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez l'auteur de De l'esprit des lois (1748)."
+    options: ["Montesquieu", "Rousseau", "Voltaire"]
+    answers: ["Montesquieu"]
+    explanation: "Montesquieu published De l'esprit des lois in 1748."
+  - id: "c1-culture-enlightenment-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez l'œuvre de Rousseau publiée en 1762."
+    options: ["Du contrat social", "Candide", "De l'esprit des lois"]
+    answers: ["Du contrat social"]
+    explanation: "Du contrat social (1762). Candide is Voltaire's; De l'esprit des lois is Montesquieu's."
+  - id: "c1-culture-enlightenment-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « la séparation des pouvoirs »."
+    options: ["Faire les lois, les faire respecter et juger sont des pouvoirs confiés à des personnes différentes.", "Le roi décide de tout, seul.", "Chaque région a son propre roi."]
+    answers: ["Faire les lois, les faire respecter et juger sont des pouvoirs confiés à des personnes différentes."]
+    explanation: "Montesquieu's idea: the legislative, executive and judicial powers in different hands."
+  - id: "c1-culture-enlightenment-ex004"
+    type: "fill-in"
+    prompt: "Complétez : On appelle souvent le dix-huitième siècle le siècle des ___."
+    answers: ["Lumières"]
+    explanation: "Le siècle des Lumières: the light of reason against prejudice."
+  - id: "c1-culture-enlightenment-ex005"
+    type: "fill-in"
+    prompt: "Complétez les derniers mots de Candide : Il faut cultiver notre ___."
+    answers: ["jardin"]
+    explanation: "Voltaire, Candide (1759)."
+  - id: "c1-culture-enlightenment-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Voltaire défend la ___ : chacun doit pouvoir pratiquer sa religion en paix."
+    options: ["tolérance", "censure", "souveraineté du peuple"]
+    answers: ["tolérance"]
+    explanation: "La tolérance: accepting other people's beliefs."
+  - id: "c1-culture-enlightenment-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « un préjugé »."
+    options: ["une opinion qu'on a avant de réfléchir", "une loi", "un livre interdit"]
+    answers: ["une opinion qu'on a avant de réfléchir"]
+    explanation: "Un préjugé: an idea judged in advance, without reflection."
+  - id: "c1-culture-enlightenment-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « défendre la souveraineté du peuple » : Rousseau pense que c'est le peuple qui doit décider."
+    answers: ["Rousseau défend la souveraineté du peuple"]
+    explanation: "La souveraineté du peuple: the people, not a king, hold the highest power."
+  - id: "c1-culture-enlightenment-ex009"
+    type: "reformulation"
+    prompt: "Reformulez au passif, avec « censurer » au passé composé : Les autorités ont interdit le livre."
+    answers: ["Le livre a été censuré", "Le livre a été censuré par les autorités"]
+    strictAccents: true
+    explanation: "Censurer: to ban or cut a text. Passive: a été censuré."
+  - id: "c1-culture-enlightenment-ex010"
+    type: "translate"
+    prompt: "Traduisez (la tolérance) : Voltaire defended tolerance."
+    answers: ["Voltaire a défendu la tolérance", "Voltaire défendait la tolérance"]
+    strictAccents: true
+    explanation: "Défendre la tolérance: a central cause of Voltaire's."
+  - id: "c1-culture-enlightenment-ex011"
+    type: "translate"
+    prompt: "Traduisez au passif (la Déclaration des droits de l'homme et du citoyen) : The Declaration of the Rights of Man and of the Citizen was written in 1789."
+    answers: ["La Déclaration des droits de l'homme et du citoyen a été écrite en 1789"]
+    strictAccents: true
+    explanation: "Passive, with the participle agreeing with la Déclaration: a été écrite."
+  - id: "c1-culture-enlightenment-ex012"
+    type: "translate"
+    prompt: "Traduisez à l'imparfait (un salon, passer par) : Ideas travelled through the salons."
+    answers: ["Les idées passaient par les salons"]
+    explanation: "A habit in the past: imparfait."
+  - id: "c1-culture-enlightenment-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur d'auteur : Voltaire a écrit Du contrat social."
+    answers: ["Rousseau a écrit Du contrat social"]
+    strictAccents: true
+    explanation: "Du contrat social (1762) is Rousseau's."
+  - id: "c1-culture-enlightenment-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : L'Encyclopédie est l'œuvre de Montesquieu."
+    answers: ["L'Encyclopédie est l'œuvre de Diderot et d'Alembert", "L'Encyclopédie est l'œuvre de Diderot et de d'Alembert"]
+    explanation: "Diderot and d'Alembert directed the Encyclopédie."
+  - id: "c1-culture-enlightenment-ex015"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui présente le débat de façon neutre."
+    options: ["Pour certains spécialistes, les Lumières ont préparé la Révolution ; pour d'autres, le lien est moins direct.", "Les Lumières ont causé la Révolution, c'est évident.", "Les Lumières n'ont eu aucun rôle, tout le monde le sait."]
+    answers: ["Pour certains spécialistes, les Lumières ont préparé la Révolution ; pour d'autres, le lien est moins direct."]
+    explanation: "A neutral presentation gives each position and attributes it."
+  - id: "c1-culture-enlightenment-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Power must stop power."
+    words: ["Le", "pouvoir", "doit", "arrêter", "le", "pouvoir"]
+    answers: ["Le pouvoir doit arrêter le pouvoir"]
+    explanation: "A short modern version of Montesquieu's idea."
+---
+
+By the end of this lesson you'll be able to present the French Enlightenment: its main writers, its key ideas, how those ideas circulated, and the debates about what it changed.
+
+## What you already know
+
+You met Voltaire, Montesquieu, Rousseau and Diderot by name in <LessonLink id="c1-culture-literary-canon" text="the lesson on the French literary canon" />, and *le conte philosophique* in <LessonLink id="c1-culture-satire-and-humour" text="the lesson on satire and humour" />. You know *la raison* and *remettre en question* from <LessonLink id="c1-philosophy-and-ideas" text="the lesson on philosophy and ideas" />, and *la Révolution française* from <LessonLink id="b1-culture-french-republic" text="the lesson on the French Republic" />. This lesson looks at the ideas themselves.
+
+## The century of light
+
+<VocabTable group="age" />
+
+*Les Lumières* (the Enlightenment) is the name given to a movement of ideas in eighteenth-century Europe. The image is light against darkness: the light of reason against *les préjugés* (prejudices), superstition and blind obedience. In France, its writers called themselves *philosophes*, but they weren't only academic philosophers: they wrote novels, plays, tales, letters, dictionaries and pamphlets.
+
+Their shared ideas, as a rule of thumb: reason should judge every claim, whoever makes it; *la tolérance* (tolerance) should replace religious persecution; knowledge should be shared; and *le progrès* (progress) of science and education can make people happier. Many of their books faced *la censure* (censorship) from the Church or the royal authorities.
+
+<Example fr="Les philosophes des Lumières voulaient remplacer les préjugés par la raison." en="The Enlightenment philosophers wanted to replace prejudice with reason." />
+<Example fr="Au dix-huitième siècle, beaucoup croyaient au progrès des sciences." en="In the eighteenth century, many believed in the progress of science." />
+
+## Four writers and a dictionary
+
+<VocabTable group="thinkers" />
+
+**Montesquieu** (1689–1755) first mocked French society through the eyes of two Persian visitors in his *Lettres persanes* (1721). In *De l'esprit des lois* (1748), he compared political systems and argued for *la séparation des pouvoirs*: the power to make laws (*le pouvoir législatif*), to apply them (*le pouvoir exécutif*) and to judge (*le pouvoir judiciaire*) should be in different hands, so that no one can abuse them.
+
+<Example fr="Montesquieu défend la séparation des pouvoirs." en="Montesquieu argues for the separation of powers." />
+<Example fr="« Il faut que, par la disposition des choses, le pouvoir arrête le pouvoir. » (Montesquieu, De l'esprit des lois)" en="&quot;Things must be arranged so that power checks power.&quot; (our translation)" />
+
+**Voltaire** (1694–1778) fought for tolerance and freedom of thought with humour and energy. When Jean Calas, a Protestant merchant from Toulouse, was executed in 1762 after an unfair trial, Voltaire campaigned for years to have him cleared, and wrote his *Traité sur la tolérance* (1763). His tale *Candide* (1759) ends with a modest piece of advice:
+
+<Example fr="« Il faut cultiver notre jardin. » (Voltaire, Candide)" en="&quot;We must cultivate our garden.&quot; (our translation)" />
+
+A famous sentence about defending to the death someone's right to speak is often attributed to Voltaire, but it isn't his: it was written by an English biographer at the start of the twentieth century to sum up his attitude. Check a quotation before you use it.
+
+**Jean-Jacques Rousseau** (1712–1778), born in Geneva, argued in *Du contrat social* (1762) for *la souveraineté du peuple* (the sovereignty of the people): legitimate laws express *la volonté générale* (the general will), not the will of a king. The same year, *Émile* set out his ideas on education.
+
+<Example fr="« L'homme est né libre, et partout il est dans les fers. » (Rousseau, Du contrat social)" en="&quot;Man is born free, and everywhere he is in chains.&quot; (our translation)" />
+
+**Denis Diderot** (1713–1784) directed, with the mathematician d'Alembert, *l'Encyclopédie* (published from 1751 to 1772). This huge work wanted to *rassembler les savoirs* (bring knowledge together), from philosophy to the techniques of crafts and trades, and it was banned more than once.
+
+<Example fr="L'Encyclopédie voulait rassembler les savoirs de son temps." en="The Encyclopédie wanted to bring together the knowledge of its time." />
+
+Women played a real part too. **Émilie du Châtelet** (1706–1749), a scientist, translated Newton's major work into French. In Paris, women such as Madame Geoffrin held *salons*, regular gatherings where writers, scientists and artists met and discussed new ideas.
+
+<Example fr="Dans les salons, on parlait de science, de politique et de religion." en="In the salons, people talked about science, politics and religion." />
+<Example fr="Pour Rousseau, la loi doit exprimer la volonté générale." en="For Rousseau, the law must express the general will." />
+
+## From ideas to the Revolution
+
+<VocabTable group="legacy" />
+
+In August 1789, a few weeks after the storming of the Bastille, the revolutionaries adopted *la Déclaration des droits de l'homme et du citoyen*. Its text echoes Enlightenment ideas: freedom, equality before the law, *la liberté d'expression* (freedom of expression), the separation of powers and the sovereignty of the nation.
+
+<Example fr="La Déclaration des droits de l'homme et du citoyen défend la liberté d'expression." en="The Declaration of the Rights of Man and of the Citizen defends freedom of expression." />
+
+How far the Enlightenment caused the Revolution is a historians' debate. For some, the writers of the Enlightenment prepared the ground by teaching people to question authority. For others, the causes were first of all economic and political, such as the state's debts and the cost of bread, and the ideas served to express a crisis that had other roots.
+
+The legacy is debated too. For many, the Enlightenment is the source of human rights, democracy and secular institutions. Others point out its limits: many of its writers didn't extend the equality they defended to women, and few campaigned against *l'esclavage* (slavery) in the colonies, although some, such as Diderot's circle, criticized it. Present both views, and attribute them.
+
+<Example fr="Pour certains spécialistes, les Lumières ont des limites : peu d'auteurs ont critiqué l'esclavage." en="For some specialists, the Enlightenment has limits: few writers criticized slavery." />
+
+## A short article
+
+The article below is an original text written for this lesson.
+
+*Comment les idées des Lumières ont voyagé*
+
+*Au dix-huitième siècle, un livre qui critiquait le roi ou l'Église pouvait être censuré. Beaucoup d'auteurs publiaient donc sans leur nom, ou faisaient imprimer leurs œuvres à l'étranger, en Hollande ou à Genève, avant de les faire entrer en France en secret.*
+
+*Les idées passaient aussi par la parole. À Paris, des femmes invitaient chez elles, dans leur salon, des écrivains, des savants et des artistes. On y lisait des textes nouveaux, on y parlait de science, de politique et de religion. Dans les cafés, on lisait les journaux et on commentait les nouvelles.*
+
+*Les lettres jouaient aussi un grand rôle, et Voltaire écrivait sans cesse à des amis dans toute l'Europe. Une idée lancée à Paris pouvait ainsi arriver à Berlin ou à Saint-Pétersbourg quelques semaines plus tard. Écrire pouvait pourtant coûter cher : Voltaire a passé du temps à la Bastille quand il était jeune, et Diderot a passé quelques mois en prison à Vincennes.*
+
+*Enfin, l'Encyclopédie de Diderot et d'Alembert voulait rassembler les savoirs de son temps, des sciences aux métiers. Elle a été interdite plusieurs fois, mais sa publication a continué.*
+
+*Les spécialistes ne sont pas tous d'accord sur le rôle de ces idées dans la Révolution. Pour certains, les Lumières l'ont préparée ; pour d'autres, ses causes sont d'abord économiques et politiques. Beaucoup pensent cependant que ce siècle a changé la façon de débattre : une idée devait désormais être jugée par la raison, et non par l'autorité de la personne qui la défend.*
+
+<VocabTable group="glossary" />
+
+(How the ideas of the Enlightenment travelled. In the eighteenth century, a book that criticized the king or the Church could be censored. Many authors therefore published without their name, or had their works printed abroad, in Holland or in Geneva, before bringing them into France in secret. Ideas also travelled by word of mouth. In Paris, women invited writers, scientists and artists to their homes, to their salon. People read new texts there and talked about science, politics and religion. In the cafés, people read the newspapers and commented on the news. Letters also played a large part, and Voltaire wrote constantly to friends all over Europe. An idea launched in Paris could thus reach Berlin or Saint Petersburg a few weeks later. Writing could still cost a writer dearly, though: Voltaire spent time in the Bastille when he was young, and Diderot spent a few months in prison at Vincennes. Finally, Diderot and d'Alembert's Encyclopédie wanted to bring together the knowledge of its time, from the sciences to the trades. It was banned several times, but its publication went on. Specialists don't all agree on the role of these ideas in the Revolution. For some, the Enlightenment prepared it; for others, its causes were first of all economic and political. Many think, however, that this century changed the way people debate: from then on, an idea had to be judged by reason, and not by the authority of the person defending it.)
+
+<Callout type="warning" title="Le siècle des Lumières, not la Lumière">
+  Learners often write the name in the singular. The movement is always plural, with a capital: **les Lumières**, **le siècle des Lumières**. *La lumière*, in the singular, is just light.
+</Callout>
+
+<Callout type="tip" title="Check the source of a quotation">
+  Before you quote a famous thinker, look for the work and, if you can, the chapter. Many sentences that circulate online are wrongly attributed, as the "Voltaire" sentence above shows. A quotation with its source is also more convincing in an essay.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-culture-may-68" text="the lesson on May 68" /> moves to the twentieth century and a crisis that is still debated in France.
+
+===== content/lessons/c1/culture-may-68.mdx =====
+---
+id: "c1-culture-may-68"
+title: "May 68 and modern France"
+description: "What happened in May and June 1968, told neutrally: the student movement, the general strike, the Grenelle negotiations, de Gaulle's dissolution of the Assemblée nationale and the June elections, then the debates about its legacy."
+level: "C1"
+unit: "Ideas and society"
+order: 41
+type: "culture"
+tags: ["culture", "history", "politics", "society"]
+prerequisites: ["b2-culture-french-history", "b2-politics-and-society", "b1-culture-work-life"]
+related: ["c1-culture-enlightenment", "b2-social-issues", "c1-review-ideas"]
+vocab:
+  - { id: "c1-culture-may-68-v001", group: "students", fr: "Mai 68", pron: "meh swah-SAHNT-weet", en: "May 68 (the events of May and June 1968)" }
+  - { id: "c1-culture-may-68-v002", group: "students", fr: "l'université (f.)", pron: "lew-nee-vehr-see-TAY", en: "the university" }
+  - { id: "c1-culture-may-68-v003", group: "students", fr: "un mouvement étudiant", pron: "uhn moov-mahn ay-tew-DYAHN", en: "a student movement" }
+  - { id: "c1-culture-may-68-v004", group: "students", fr: "la contestation / contester", pron: "lah kohn-tes-tah-SYOHN / kohn-tes-TAY", en: "protest, challenge / to challenge, to protest against" }
+  - { id: "c1-culture-may-68-v005", group: "students", fr: "le Quartier latin", pron: "luh kar-tyay lah-TAN", en: "the Latin Quarter (the student district of Paris)" }
+  - { id: "c1-culture-may-68-v006", group: "students", fr: "une barricade", pron: "ewn bah-ree-KAD", en: "a barricade" }
+  - { id: "c1-culture-may-68-v007", group: "students", fr: "les forces de l'ordre (f.)", pron: "lay fors duh LOR-druh", en: "the police (formal: the forces of law and order)" }
+  - { id: "c1-culture-may-68-v008", group: "students", fr: "une affiche / un graffiti", pron: "ew-nah-FEESH / uhn grah-fee-TEE", en: "a poster / a piece of graffiti" }
+  - { id: "c1-culture-may-68-v009", group: "strike", fr: "une grève générale", pron: "ewn grev zhay-nay-RAL", en: "a general strike" }
+  - { id: "c1-culture-may-68-v010", group: "strike", fr: "un ouvrier / une ouvrière", pron: "uh-noo-vree-YAY / ew-noo-vree-YEHR", en: "a (factory) worker" }
+  - { id: "c1-culture-may-68-v011", group: "strike", fr: "un gréviste / une gréviste", pron: "uhn gray-VEEST / ewn gray-VEEST", en: "a striker" }
+  - { id: "c1-culture-may-68-v012", group: "strike", fr: "occuper une usine", pron: "oh-kew-pay ew-new-ZEEN", en: "to occupy a factory" }
+  - { id: "c1-culture-may-68-v013", group: "strike", fr: "les accords de Grenelle (m.)", pron: "lay-zah-kor duh gruh-NEL", en: "the Grenelle agreements (May 1968)" }
+  - { id: "c1-culture-may-68-v014", group: "strike", fr: "dissoudre (dissous) / la dissolution", pron: "dee-SOO-druh (dee-SOO) / lah dee-soh-lew-SYOHN", en: "to dissolve (dissolved) / the dissolution (of an assembly)", note: "Dissoudre l'Assemblée nationale." }
+  - { id: "c1-culture-may-68-v015", group: "strike", fr: "des élections législatives (f.)", pron: "day-zay-lek-syohn lay-zhee-slah-TEEV", en: "parliamentary elections" }
+  - { id: "c1-culture-may-68-v016", group: "strike", fr: "une victoire / les gaullistes (m.)", pron: "ewn veek-TWAHR / lay goh-LEEST", en: "a victory / the Gaullists (de Gaulle's supporters)" }
+  - { id: "c1-culture-may-68-v017", group: "legacy", fr: "la jeunesse", pron: "lah zhuh-NESS", en: "youth, young people" }
+  - { id: "c1-culture-may-68-v018", group: "legacy", fr: "l'autorité (f.)", pron: "loh-toh-ree-TAY", en: "authority" }
+  - { id: "c1-culture-may-68-v019", group: "legacy", fr: "la libération des mœurs", pron: "lah lee-bay-rah-syohn day MUHRS", en: "the loosening of social and sexual norms" }
+  - { id: "c1-culture-may-68-v020", group: "legacy", fr: "l'individualisme (m.)", pron: "lan-dee-vee-dew-ah-LEES-muh", en: "individualism" }
+  - { id: "c1-culture-may-68-v021", group: "legacy", fr: "affaiblir", pron: "ah-feh-BLEER", en: "to weaken" }
+  - { id: "c1-culture-may-68-v022", group: "glossary", fr: "accéléré (accélérer)", pron: "ak-say-lay-RAY", en: "speeded up (to speed up)" }
+exercises:
+  - id: "c1-culture-may-68-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : En mars 1968, le mouvement étudiant commence à…"
+    options: ["Nanterre", "Marseille", "Lyon"]
+    answers: ["Nanterre"]
+    explanation: "The movement started at the university of Nanterre, west of Paris, in March 1968."
+  - id: "c1-culture-may-68-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez ce qui se passe dans la nuit du 10 au 11 mai 1968."
+    options: ["La nuit des barricades, dans le Quartier latin", "Les élections législatives", "Les accords de Grenelle"]
+    answers: ["La nuit des barricades, dans le Quartier latin"]
+    explanation: "The night of the barricades, with violent clashes between students and the police."
+  - id: "c1-culture-may-68-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Quand les ouvriers de presque tous les secteurs arrêtent le travail, c'est une ___."
+    options: ["grève générale", "barricade", "dissolution"]
+    answers: ["grève générale"]
+    explanation: "Une grève générale: a strike across the whole economy."
+  - id: "c1-culture-may-68-ex004"
+    type: "fill-in"
+    prompt: "Complétez : Fin mai 1968, le gouvernement, les patrons et les syndicats se réunissent rue de ___."
+    answers: ["Grenelle"]
+    explanation: "They met at the Ministry of Labour, rue de Grenelle: hence les accords de Grenelle."
+  - id: "c1-culture-may-68-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Le 30 mai 1968, de Gaulle annonce qu'il va ___ l'Assemblée nationale."
+    answers: ["dissoudre"]
+    explanation: "Dissoudre l'Assemblée nationale: to dissolve the National Assembly, which leads to new elections."
+  - id: "c1-culture-may-68-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le résultat des élections législatives de juin 1968."
+    options: ["Une large victoire des gaullistes", "La victoire des étudiants", "La fin de la Cinquième République"]
+    answers: ["Une large victoire des gaullistes"]
+    explanation: "The June 1968 elections gave the Gaullists a large majority."
+  - id: "c1-culture-may-68-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui présente le débat de façon neutre."
+    options: ["Pour certains, Mai 68 a libéré la société ; pour d'autres, il a affaibli l'autorité.", "Mai 68 a sauvé la France, c'est évident.", "Mai 68 n'a rien changé, tout le monde le sait."]
+    answers: ["Pour certains, Mai 68 a libéré la société ; pour d'autres, il a affaibli l'autorité."]
+    explanation: "A neutral sentence gives both positions and attributes them."
+  - id: "c1-culture-may-68-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « occuper » au passé composé : Les ouvriers sont restés dans l'usine jour et nuit pour arrêter le travail."
+    answers: ["Les ouvriers ont occupé l'usine"]
+    strictAccents: true
+    explanation: "Occuper une usine: to stay in it as a form of strike."
+  - id: "c1-culture-may-68-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « contester » : Les étudiants refusaient l'autorité de leurs professeurs."
+    answers: ["Les étudiants contestaient l'autorité de leurs professeurs"]
+    explanation: "Contester l'autorité: to challenge authority."
+  - id: "c1-culture-may-68-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « la libération des mœurs » : Après 1968, la vie privée est devenue plus libre."
+    answers: ["Après 1968, on a parlé de la libération des mœurs", "Après 1968, il y a eu une libération des mœurs"]
+    strictAccents: true
+    explanation: "La libération des mœurs: the loosening of social and sexual norms."
+  - id: "c1-culture-may-68-ex011"
+    type: "translate"
+    prompt: "Traduisez au passé composé (une grève générale) : In May 1968, France experienced a general strike."
+    answers: ["En mai 1968, la France a connu une grève générale"]
+    strictAccents: true
+    explanation: "Connaître here means to go through, to experience."
+  - id: "c1-culture-may-68-ex012"
+    type: "translate"
+    prompt: "Traduisez au passé composé (dissoudre) : De Gaulle dissolved the National Assembly."
+    answers: ["De Gaulle a dissous l'Assemblée nationale"]
+    strictAccents: true
+    explanation: "Dissoudre has an irregular participle: dissous."
+  - id: "c1-culture-may-68-ex013"
+    type: "translate"
+    prompt: "Traduisez (un mouvement étudiant) : The student movement started at Nanterre."
+    answers: ["Le mouvement étudiant a commencé à Nanterre", "Le mouvement étudiant est né à Nanterre"]
+    strictAccents: true
+    explanation: "Commencer takes avoir; naître takes être."
+  - id: "c1-culture-may-68-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Après Mai 68, les gaullistes ont perdu les élections de juin."
+    answers: ["Après Mai 68, les gaullistes ont gagné les élections de juin"]
+    strictAccents: true
+    explanation: "The Gaullists won the June 1968 elections by a large margin."
+  - id: "c1-culture-may-68-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de mois : La grève générale a commencé en mars 1968."
+    answers: ["La grève générale a commencé en mai 1968"]
+    strictAccents: true
+    explanation: "The student movement began in March; the general strike spread in May."
+  - id: "c1-culture-may-68-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The legacy of May 68 is still debated."
+    words: ["L'héritage", "de", "Mai", "68", "fait", "encore", "débat"]
+    answers: ["L'héritage de Mai 68 fait encore débat"]
+    explanation: "Faire débat: to be debated."
+---
+
+By the end of this lesson you'll be able to tell what happened in May and June 1968 in neutral words, and present the debates about what it changed in France.
+
+## What you already know
+
+You know *une grève* and *un syndicat* from <LessonLink id="b1-culture-work-life" text="the lesson on working life" />, *l'Assemblée nationale* and *le gouvernement* from <LessonLink id="b2-politics-and-society" text="the lesson on politics and society" />, and *une manifestation* from <LessonLink id="b2-social-issues" text="the lesson on social issues" />. You know *un slogan* from <LessonLink id="c1-rhetorical-devices" text="the lesson on rhetorical devices" />. This lesson uses them for one of the most discussed moments of modern French history.
+
+## France in the 1960s
+
+In 1968, France was a prosperous country. The economy had grown fast since the war, and more young people than ever went to *l'université* (university). General de Gaulle had been president since 1959, in the Fifth Republic founded in 1958. At the same time, students in many countries, from the United States to Germany, were protesting against the war in Vietnam and against the authority of their elders.
+
+<Example fr="Dans les années 1960, de plus en plus de jeunes allaient à l'université." en="In the 1960s, more and more young people went to university." />
+
+## The student movement
+
+<VocabTable group="students" />
+
+**Nanterre.** In March 1968, *un mouvement étudiant* began at the new university of Nanterre, west of Paris. Students protested against the rules of university life and, more broadly, against the society around them. This is *la contestation* (protest, the challenge to authority).
+
+**The Latin Quarter.** At the start of May, the university of Nanterre was closed and the police cleared the Sorbonne, in Paris. Students demonstrated in the Latin Quarter. In the night of 10 to 11 May, they built *des barricades* with paving stones and cars, and there were violent clashes with *les forces de l'ordre* (the police).
+
+**Words on the walls.** *Des affiches* (posters) and *des graffitis* covered the walls of Paris. Their slogans played with paradox and poetry; one of the best known says that it is forbidden to forbid. These slogans are anonymous and are still quoted today.
+
+<Example fr="Dans la nuit du 10 au 11 mai, les étudiants ont construit des barricades." en="In the night of 10 to 11 May, the students built barricades." />
+<Example fr="Les étudiants contestaient l'autorité de l'université et de la société." en="The students challenged the authority of the university and of society." />
+<Example fr="Début mai, les forces de l'ordre ont fait sortir les étudiants de la Sorbonne." en="At the start of May, the police removed the students from the Sorbonne." />
+
+## The general strike
+
+<VocabTable group="strike" />
+
+**The strike.** On 13 May, trade unions and students marched together in Paris. In the days that followed, the movement reached the workplaces: *des ouvriers* (workers) went on strike and *occupaient leur usine* (occupied their factory), and *une grève générale* (a general strike) spread across the country. Transport, factories and many offices stopped.
+
+**Grenelle.** From 25 to 27 May, the government, led by Prime Minister Georges Pompidou, negotiated with employers and unions. *Les accords de Grenelle* raised wages, including the minimum wage, and gave more rights to unions in companies. Many strikers, however, refused to go back to work at first.
+
+**De Gaulle's answer.** On 29 May, de Gaulle left Paris for a few hours without saying where he was going. On 30 May, he spoke on the radio and announced that he would *dissoudre l'Assemblée nationale* (dissolve the National Assembly). The same evening, a large demonstration in his support filled the Champs-Élysées. Work started again little by little in June, and *les élections législatives* (parliamentary elections) of late June gave the Gaullists a large majority.
+
+<Example fr="Fin mai, les ouvriers de nombreuses usines faisaient grève." en="At the end of May, workers in many factories were on strike." />
+<Example fr="Le 30 mai, de Gaulle a annoncé qu'il allait dissoudre l'Assemblée nationale." en="On 30 May, de Gaulle announced that he was going to dissolve the National Assembly." />
+<Example fr="Les élections législatives de juin ont donné une large victoire aux gaullistes." en="The parliamentary elections in June gave the Gaullists a large victory." />
+
+De Gaulle left power the following year, in April 1969, after losing a referendum on another subject.
+
+## A legacy still debated
+
+<VocabTable group="legacy" />
+
+May 68 didn't change the regime, but its legacy still *fait débat* (is debated), and the debate often follows political lines. Present each side and attribute it.
+
+**For some**, May 68 opened French society. It gave *la jeunesse* (young people) a voice, weakened a rigid *autorité* (authority) in the family, at school and at work, and prepared *la libération des mœurs* (the loosening of social and sexual norms) and the women's movements of the 1970s. Workers also gained new rights.
+
+**For others**, May 68 was mainly a revolt of privileged students. It weakened the authority of teachers and parents, encouraged *l'individualisme* (individualism) and left a society with fewer shared rules. Some also stress the disorder and the violence of those weeks.
+
+Many historians add a third point: several changes attributed to May 68 had begun before it, and the events speeded them up rather than created them.
+
+<Example fr="Pour certains, Mai 68 a donné la parole à la jeunesse ; pour d'autres, il a encouragé l'individualisme." en="For some, May 68 gave young people a voice; for others, it encouraged individualism." />
+
+## A short article
+
+The article below is an original text written for this lesson.
+
+*Mai 68 : un printemps qui divise encore*
+
+*Au printemps 1968, la contestation est d'abord venue des universités. En mars, à Nanterre, des étudiants ont contesté les règles de la vie étudiante. Début mai, la police a fait sortir les étudiants de la Sorbonne, et des manifestations ont commencé dans le Quartier latin. Dans la nuit du 10 au 11 mai, des barricades se sont élevées dans les rues.*
+
+*Sur les murs de Paris, des affiches et des graffitis répétaient des slogans pleins d'humour et de poésie. Personne ne connaît leurs auteurs, mais on les cite encore aujourd'hui, dans les livres comme dans la presse.*
+
+*Le mouvement a ensuite gagné le monde du travail. Après une grande manifestation le 13 mai, des ouvriers ont occupé leurs usines, et la grève générale a arrêté une grande partie du pays. Fin mai, les accords de Grenelle ont augmenté les salaires, mais beaucoup de grévistes ont d'abord refusé de reprendre le travail.*
+
+*Le 30 mai, le général de Gaulle a annoncé la dissolution de l'Assemblée nationale. En juin, le travail a repris peu à peu, et les élections législatives ont donné une large majorité aux gaullistes.*
+
+*Aujourd'hui encore, l'héritage de Mai 68 fait débat. Pour certains, ces semaines ont donné la parole à la jeunesse et ouvert la voie à une société plus libre. Pour d'autres, elles ont affaibli l'autorité et encouragé l'individualisme. Les spécialistes, eux, rappellent souvent que la société française changeait déjà avant 1968 : les événements de mai ont plutôt accéléré des évolutions déjà en cours.*
+
+<VocabTable group="glossary" />
+
+(May 68: a spring that still divides. In the spring of 1968, protest first came from the universities. In March, at Nanterre, students protested against the rules of student life. At the start of May, the police removed the students from the Sorbonne, and demonstrations began in the Latin Quarter. In the night of 10 to 11 May, barricades went up in the streets. On the walls of Paris, posters and graffiti repeated slogans full of humour and poetry. Nobody knows who wrote them, but they are still quoted today, in books as in the press. The movement then reached the world of work. After a large demonstration on 13 May, workers occupied their factories, and the general strike brought a large part of the country to a halt. At the end of May, the Grenelle agreements raised wages, but many strikers at first refused to go back to work. On 30 May, General de Gaulle announced the dissolution of the National Assembly. In June, work started again little by little, and the parliamentary elections gave the Gaullists a large majority. Even today, the legacy of May 68 is debated. For some, those weeks gave young people a voice and opened the way to a freer society. For others, they weakened authority and encouraged individualism. Specialists, for their part, often point out that French society was already changing before 1968: the events of May speeded up changes that were already under way rather than starting them.)
+
+<Callout type="warning" title="Mai 68, not le mai 1968">
+  Learners often translate "May 68" word for word with an article. The events have a fixed name with a capital and no article: **Mai 68** (or *les événements de Mai 68*). *En mai 1968* is the date.
+</Callout>
+
+<Callout type="tip" title="Give each side the same space">
+  When you write about a contested event, write the "for some" paragraph and the "for others" paragraph with the same number of sentences, and give each its best argument. Then reread them as a supporter of each side: if one paragraph sounds weaker, strengthen it.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-technology-ethics" text="the lesson on technology and ethics" /> turns to a current debate: data, privacy and artificial intelligence.
+
+===== content/lessons/c1/technology-ethics.mdx =====
+---
+id: "c1-technology-ethics"
+title: "Technology and ethics"
+description: "The vocabulary of current debates about technology: personal data, privacy, consent, algorithms, artificial intelligence and its biases, surveillance and facial recognition, bioethics, and how to present each side of these debates in balanced French."
+level: "C1"
+unit: "Ideas and society"
+order: 42
+type: "vocabulary"
+tags: ["vocabulary", "technology", "ethics", "society"]
+prerequisites: ["c1-philosophy-and-ideas", "b1-technology-and-internet", "b2-review-science"]
+related: ["c1-culture-enlightenment", "b2-science-and-research", "c1-review-ideas"]
+vocab:
+  - { id: "c1-technology-ethics-v001", group: "data", fr: "les données personnelles (f.)", pron: "lay doh-nay pehr-soh-NEL", en: "personal data" }
+  - { id: "c1-technology-ethics-v002", group: "data", fr: "collecter des données", pron: "koh-lek-tay day doh-NAY", en: "to collect data" }
+  - { id: "c1-technology-ethics-v003", group: "data", fr: "utiliser / l'utilisation (f.)", pron: "ew-tee-lee-ZAY / lew-tee-lee-zah-SYOHN", en: "to use / use" }
+  - { id: "c1-technology-ethics-v004", group: "data", fr: "la vie privée", pron: "lah vee pree-VAY", en: "privacy, private life" }
+  - { id: "c1-technology-ethics-v005", group: "data", fr: "la protection des données", pron: "lah proh-tek-syohn day doh-NAY", en: "data protection" }
+  - { id: "c1-technology-ethics-v006", group: "data", fr: "le consentement / donner son consentement", pron: "luh kohn-sahnt-MAHN / doh-nay sohn kohn-sahnt-MAHN", en: "consent / to give your consent" }
+  - { id: "c1-technology-ethics-v007", group: "data", fr: "le droit à l'oubli", pron: "luh drwah ah loo-BLEE", en: "the right to be forgotten" }
+  - { id: "c1-technology-ethics-v008", group: "ai", fr: "l'intelligence artificielle (f.) / l'IA", pron: "lan-teh-lee-zhahns ar-tee-fee-SYEL / lee-AH", en: "artificial intelligence / AI" }
+  - { id: "c1-technology-ethics-v009", group: "ai", fr: "un algorithme", pron: "uh-nahl-goh-REETM", en: "an algorithm" }
+  - { id: "c1-technology-ethics-v010", group: "ai", fr: "un biais", pron: "uhn BYEH", en: "a bias" }
+  - { id: "c1-technology-ethics-v011", group: "ai", fr: "une décision automatisée", pron: "ewn day-see-zyohn oh-toh-mah-tee-ZAY", en: "an automated decision" }
+  - { id: "c1-technology-ethics-v012", group: "ai", fr: "la transparence", pron: "lah trahns-pah-RAHNSS", en: "transparency" }
+  - { id: "c1-technology-ethics-v013", group: "ai", fr: "un risque", pron: "uhn REESK", en: "a risk" }
+  - { id: "c1-technology-ethics-v014", group: "watch", fr: "la surveillance", pron: "lah sewr-veh-YAHNSS", en: "surveillance, monitoring" }
+  - { id: "c1-technology-ethics-v015", group: "watch", fr: "une caméra de surveillance", pron: "ewn kah-may-rah duh sewr-veh-YAHNSS", en: "a surveillance camera, a CCTV camera" }
+  - { id: "c1-technology-ethics-v016", group: "watch", fr: "la reconnaissance faciale", pron: "lah ruh-koh-neh-sahns fah-SYAL", en: "facial recognition" }
+  - { id: "c1-technology-ethics-v017", group: "watch", fr: "reconnaître un visage", pron: "ruh-koh-neh-truh uhn vee-ZAHZH", en: "to recognize a face" }
+  - { id: "c1-technology-ethics-v018", group: "watch", fr: "la sécurité", pron: "lah say-kew-ree-TAY", en: "security, safety" }
+  - { id: "c1-technology-ethics-v019", group: "watch", fr: "renforcer", pron: "rahn-for-SAY", en: "to strengthen, to increase" }
+  - { id: "c1-technology-ethics-v020", group: "watch", fr: "innocent / innocente", pron: "ee-noh-SAHN / ee-noh-SAHNT", en: "innocent" }
+  - { id: "c1-technology-ethics-v021", group: "ethics", fr: "la bioéthique", pron: "lah bee-oh-ay-TEEK", en: "bioethics" }
+  - { id: "c1-technology-ethics-v022", group: "ethics", fr: "poser un problème éthique", pron: "poh-zay uhn proh-blem ay-TEEK", en: "to raise an ethical problem" }
+  - { id: "c1-technology-ethics-v023", group: "ethics", fr: "un garde-fou", pron: "uhn gar-duh-FOO", en: "a safeguard", note: "Plural: des garde-fous." }
+exercises:
+  - id: "c1-technology-ethics-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Un programme qui donne de moins bonnes réponses pour certains groupes de personnes a un ___."
+    options: ["biais", "garde-fou", "consentement"]
+    answers: ["biais"]
+    explanation: "Un biais: a systematic error, often learned from the data."
+  - id: "c1-technology-ethics-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « le droit à l'oubli »."
+    options: ["le droit de demander qu'une information sur soi disparaisse d'internet", "le droit d'oublier son mot de passe", "le droit de ne pas aller à l'école"]
+    answers: ["le droit de demander qu'une information sur soi disparaisse d'internet"]
+    explanation: "Le droit à l'oubli: asking for old information about you to be removed from search results."
+  - id: "c1-technology-ethics-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Une caméra qui reconnaît les visages utilise la ___."
+    options: ["reconnaissance faciale", "bioéthique", "transparence"]
+    answers: ["reconnaissance faciale"]
+    explanation: "La reconnaissance faciale: identifying people from their faces."
+  - id: "c1-technology-ethics-ex004"
+    type: "fill-in"
+    prompt: "Complétez : Avant de collecter vos données, un site doit vous demander votre ___."
+    answers: ["consentement"]
+    explanation: "Donner son consentement: to agree, explicitly."
+  - id: "c1-technology-ethics-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Une règle qui limite les risques d'une technologie est un garde-___."
+    answers: ["fou"]
+    explanation: "Un garde-fou: a safeguard (literally, a railing)."
+  - id: "c1-technology-ethics-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui présente le débat de façon neutre."
+    options: ["Pour certains, la reconnaissance faciale renforce la sécurité ; pour d'autres, elle menace la vie privée.", "La reconnaissance faciale est une mauvaise chose, c'est évident.", "Seuls les gens qui ont quelque chose à cacher sont contre la surveillance."]
+    answers: ["Pour certains, la reconnaissance faciale renforce la sécurité ; pour d'autres, elle menace la vie privée."]
+    explanation: "A neutral sentence gives both positions and attributes them."
+  - id: "c1-technology-ethics-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Quand une machine décide seule d'accepter ou de refuser un dossier, c'est une décision ___."
+    options: ["automatisée", "privée", "personnelle"]
+    answers: ["automatisée"]
+    explanation: "Une décision automatisée: taken by a program, without a person."
+  - id: "c1-technology-ethics-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « poser un problème éthique » : Avec cette technologie, il y a une question de bien et de mal."
+    answers: ["Cette technologie pose un problème éthique"]
+    explanation: "Poser un problème éthique: to raise an ethical problem."
+  - id: "c1-technology-ethics-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « collecter des données » : Cette application garde des informations sur ses utilisateurs."
+    answers: ["Cette application collecte des données sur ses utilisateurs"]
+    explanation: "Collecter des données: to collect data."
+  - id: "c1-technology-ethics-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « la transparence » : On ne sait pas comment cet algorithme prend ses décisions."
+    answers: ["Cet algorithme manque de transparence", "Il manque de transparence"]
+    explanation: "Manquer de transparence: to lack transparency."
+  - id: "c1-technology-ethics-ex011"
+    type: "translate"
+    prompt: "Traduisez (la protection des données) : Data protection is a right."
+    answers: ["La protection des données est un droit"]
+    explanation: "La protection des données: data protection."
+  - id: "c1-technology-ethics-ex012"
+    type: "translate"
+    prompt: "Traduisez (la vie privée) : We must protect our privacy."
+    answers: ["Nous devons protéger notre vie privée", "Il faut protéger notre vie privée", "On doit protéger notre vie privée"]
+    explanation: "La vie privée: privacy. On doit is less formal than nous devons."
+  - id: "c1-technology-ethics-ex013"
+    type: "translate"
+    prompt: "Traduisez (l'intelligence artificielle, un risque) : Artificial intelligence brings advantages and risks."
+    answers: ["L'intelligence artificielle apporte des avantages et des risques", "L'IA apporte des avantages et des risques"]
+    explanation: "Apporter des avantages et des risques: a balanced way to begin."
+  - id: "c1-technology-ethics-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Un algorithme est toujours neutre, parce que c'est une machine."
+    answers: ["Un algorithme n'est pas toujours neutre, même si c'est une machine", "Un algorithme n'est pas toujours neutre, bien que ce soit une machine", "Un algorithme n'est pas toujours neutre"]
+    explanation: "An algorithm can reproduce the biases of its data or of its designers."
+  - id: "c1-technology-ethics-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur d'accord : Les données personnelles est protégée par la loi."
+    answers: ["Les données personnelles sont protégées par la loi"]
+    explanation: "Les données is plural: sont protégées."
+  - id: "c1-technology-ethics-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : This technology raises an ethical problem."
+    words: ["Cette", "technologie", "pose", "un", "problème", "éthique"]
+    answers: ["Cette technologie pose un problème éthique"]
+    explanation: "Poser un problème: to raise a problem."
+---
+
+By the end of this lesson you'll be able to discuss data, privacy, artificial intelligence and surveillance in precise French, and present each side of these debates in balanced terms.
+
+## What you already know
+
+You know *les données* (data) from <LessonLink id="b2-presenting-data" text="the lesson on presenting data" />, *les réseaux sociaux* and *une application* from <LessonLink id="b1-technology-and-internet" text="the lesson on technology and the internet" />, and *un comité d'éthique* from <LessonLink id="b2-review-science" text="the review of science and health" />. You know *l'éthique* and *le bien et le mal* from <LessonLink id="c1-philosophy-and-ideas" text="the lesson on philosophy and ideas" />. This lesson applies them to technology.
+
+## Data and privacy
+
+<VocabTable group="data" />
+
+Every time you use an app, a site or a loyalty card, companies may *collecter des données* (collect data) about you. *Les données personnelles* (personal data) are any information linked to a person: name, address, location, purchases, health. *La vie privée* (privacy) is the part of your life that others have no right to know without your agreement.
+
+In the European Union, a 2018 regulation, known in French as *le RGPD* and in English as the GDPR, sets the rules for *la protection des données* (data protection). Its central idea is *le consentement* (consent): a company must, as a rule, ask you to *donner votre consentement* clearly before using your data for some purposes. In France, an independent authority, the CNIL, checks that these rules are applied.
+
+*Le droit à l'oubli* (the right to be forgotten) lets a person ask for some old information about them to disappear from search results.
+
+<Example fr="Cette application collecte des données sur ses utilisateurs sans le dire clairement." en="This app collects data on its users without saying so clearly." />
+<Example fr="Sans votre consentement, le site n'a pas le droit d'utiliser vos données personnelles." en="Without your consent, the site has no right to use your personal data." />
+<Example fr="Le droit à l'oubli protège la vie privée des personnes." en="The right to be forgotten protects people's privacy." />
+<Example fr="La protection des données est une priorité pour beaucoup d'utilisateurs." en="Data protection is a priority for many users." />
+
+## Algorithms and artificial intelligence
+
+<VocabTable group="ai" />
+
+*Un algorithme* is a series of instructions that a program follows. *L'intelligence artificielle* (artificial intelligence), often shortened to *l'IA*, describes programs that learn from large amounts of data to translate, recognize images or write text.
+
+Two words come up in every debate about AI. *Un biais* (a bias) is a systematic error: a program trained on unbalanced data can give worse results for some groups of people. *La transparence* (transparency) is the ability to understand how a program reaches its result. With *une décision automatisée* (an automated decision), such as accepting or refusing a loan, people often ask who is responsible and how to challenge it.
+
+<Example fr="Un algorithme peut reproduire les biais des données qui ont servi à l'entraîner." en="An algorithm can reproduce the biases of the data used to train it." />
+<Example fr="On reproche souvent à ces programmes de manquer de transparence." en="These programs are often criticized for a lack of transparency." />
+<Example fr="Une décision automatisée doit pouvoir être contestée par une personne." en="It must be possible for a person to challenge an automated decision." />
+<Example fr="L'utilisation de ces programmes pose de nouvelles questions." en="The use of these programs raises new questions." />
+
+The debate about AI, presented neutrally:
+
+- **For some**, AI is a tool for progress: it can help doctors read medical images, translate between languages and save time on repetitive tasks.
+- **For others**, it carries real *risques* (risks): biased decisions, false information that looks true, and jobs replaced without a plan for the people who did them.
+
+<Example fr="Pour certains, l'IA aide les médecins ; pour d'autres, elle présente des risques pour l'emploi." en="For some, AI helps doctors; for others, it presents risks for jobs." />
+
+## Surveillance and security
+
+<VocabTable group="watch" />
+
+*La surveillance* covers every way of watching people: *des caméras de surveillance* (CCTV cameras) in the street, the monitoring of communications, and now *la reconnaissance faciale* (facial recognition), which identifies people from their faces: a program learns to *reconnaître un visage* (recognize a face).
+
+<Example fr="Ce programme sait reconnaître un visage dans une foule." en="This program can recognize a face in a crowd." />
+<Example fr="Une erreur peut toucher une personne innocente." en="An error can affect an innocent person." />
+ The debate sets *la sécurité* (security) against privacy and freedom.
+
+- **For some**, these tools protect the public: they help find people who commit crimes and prevent attacks in crowded places.
+- **For others**, they threaten *la vie privée* and freedom: being identified everywhere changes how people behave, and errors can fall on innocent people.
+
+<Example fr="Pour certains, les caméras de surveillance renforcent la sécurité dans les gares." en="For some, CCTV cameras increase security in stations." />
+<Example fr="Pour d'autres, la reconnaissance faciale menace la liberté de chacun." en="For others, facial recognition threatens everyone's freedom." />
+
+## Ethics and safeguards
+
+<VocabTable group="ethics" />
+
+When a technology *pose un problème éthique* (raises an ethical problem), societies try to set *des garde-fous* (safeguards): laws, independent authorities, ethics committees. *La bioéthique* (bioethics) applies the same questions to medicine and biology, such as what may be done with human genes or embryos. France has had bioethics laws since the 1990s, and they are revised regularly after public debate.
+
+<Example fr="La reconnaissance faciale pose un problème éthique : qui contrôle les images ?" en="Facial recognition raises an ethical problem: who controls the images?" />
+<Example fr="Pour beaucoup, la loi doit fixer des garde-fous avant que la technologie soit utilisée partout." en="For many, the law should set safeguards before the technology is used everywhere." />
+<Example fr="Les lois de bioéthique encadrent la recherche sur le vivant." en="Bioethics laws regulate research on living things." />
+
+## En français
+
+Two colleagues talk about a plan to install facial recognition cameras at their local station.
+
+- *Tu as vu ? La gare va peut-être installer des caméras avec reconnaissance faciale.* (Have you seen? The station may install cameras with facial recognition.)
+- *Oui. Pour la sécurité, ça peut aider.* (Yes. For security, it can help.)
+- *Peut-être, mais ça pose un problème éthique : on est filmé tout le temps, et un programme peut reconnaître notre visage.* (Maybe, but it raises an ethical problem: you're filmed all the time, and a program can recognize your face.)
+- *Ceux qui n'ont rien à se reprocher n'ont rien à craindre, non ?* (People with nothing to hide have nothing to fear, don't they?)
+- *Ce n'est pas si simple. La vie privée, c'est aussi une liberté.* (It's not that simple. Privacy is a freedom too.)
+- *D'accord, mais si ces caméras aident à retrouver une personne recherchée par la police ?* (OK, but what if these cameras help find a person wanted by the police?)
+- *Alors il faut des garde-fous : qui garde les images, et pendant combien de temps ?* (Then you need safeguards: who keeps the images, and for how long?)
+- *Et les erreurs ? J'ai lu que ces systèmes peuvent avoir des biais.* (And errors? I read that these systems can have biases.)
+- *Justement. Une personne innocente pourrait être arrêtée à cause d'un algorithme.* (Exactly. An innocent person could be arrested because of an algorithm.)
+- *Donc tu es contre ?* (So you're against it?)
+- *Pas forcément. Je veux de la transparence et un vrai débat avant.* (Not necessarily. I want transparency and a real debate first.)
+- *Là-dessus, on est d'accord.* (On that, we agree.)
+
+<Callout type="warning" title="Les données, plural">
+  Learners often use *la donnée* for "data" in general. In everyday French, the word is plural: **les données personnelles sont protégées**, **ces données sont sensibles**. *Une donnée* is one single piece of information.
+</Callout>
+
+<Callout type="tip" title="Name the value on each side">
+  In a technology debate, write down the value each side defends before you argue: security, privacy, freedom, health, progress. Once you've named them, you can present the conflict fairly (*la sécurité contre la vie privée*) instead of choosing a side by accident.
+</Callout>
+
+## En résumé
+
+Les données personnelles sont toutes les informations liées à une personne. Beaucoup de sites et d'applications collectent des données, mais la vie privée est protégée : en Europe, un site doit en général demander le consentement des utilisateurs, et la protection des données est un droit. Le droit à l'oubli permet de faire disparaître certaines vieilles informations. Un algorithme suit des règles précises ; l'intelligence artificielle apprend à partir de données. Elle peut avoir des biais, et ses décisions automatisées manquent parfois de transparence. Pour certains, l'IA est un outil de progrès ; pour d'autres, elle présente des risques. La surveillance, avec les caméras et la reconnaissance faciale, oppose la sécurité et la vie privée. Quand une technologie pose un problème éthique, la société cherche des garde-fous. La bioéthique pose les mêmes questions pour la médecine et la recherche sur le vivant.
+
+## What's next
+
+Next, <LessonLink id="c1-culture-auteur-cinema" text="the lesson on auteur cinema" /> looks at how French critics and directors made the director the author of a film.
+
+===== content/lessons/c1/culture-auteur-cinema.mdx =====
+---
+id: "c1-culture-auteur-cinema"
+title: "Auteur cinema"
+description: "The French idea of the director as author: the Cahiers du cinéma, la politique des auteurs, the New Wave directors in more depth, the words to describe a film's style (le plan, le montage, le hors-champ, la caméra à l'épaule), and an original film review to read."
+level: "C1"
+unit: "Ideas and society"
+order: 43
+type: "culture"
+tags: ["culture", "cinema", "criticism", "style"]
+prerequisites: ["b1-culture-french-cinema", "b1-reviewing-a-film-or-book", "b2-describing-a-work-of-art"]
+related: ["c1-review-literary", "b2-arts-and-literature", "c1-review-ideas"]
+vocab:
+  - { id: "c1-culture-auteur-cinema-v001", group: "idea", fr: "un cinéaste / une cinéaste", pron: "uhn see-nay-AST / ewn see-nay-AST", en: "a film-maker" }
+  - { id: "c1-culture-auteur-cinema-v002", group: "idea", fr: "le cinéma d'auteur", pron: "luh see-nay-mah doh-TUHR", en: "auteur cinema, art-house cinema" }
+  - { id: "c1-culture-auteur-cinema-v003", group: "idea", fr: "la politique des auteurs", pron: "lah poh-lee-teek day-zoh-TUHR", en: "the auteur theory (the director as the author of a film)" }
+  - { id: "c1-culture-auteur-cinema-v004", group: "idea", fr: "une revue", pron: "ewn ruh-VEW", en: "a magazine, a journal (specialized)" }
+  - { id: "c1-culture-auteur-cinema-v005", group: "idea", fr: "le cinéma grand public", pron: "luh see-nay-mah grahn pew-BLEEK", en: "mainstream cinema" }
+  - { id: "c1-culture-auteur-cinema-v006", group: "idea", fr: "une œuvre personnelle", pron: "ew-nuh-vruh pehr-soh-NEL", en: "a personal work" }
+  - { id: "c1-culture-auteur-cinema-v007", group: "style", fr: "un gros plan", pron: "uhn groh PLAHN", en: "a close-up" }
+  - { id: "c1-culture-auteur-cinema-v008", group: "style", fr: "un plan-séquence", pron: "uhn plahn-say-KAHNSS", en: "a long take (a whole scene filmed without a cut)" }
+  - { id: "c1-culture-auteur-cinema-v009", group: "style", fr: "le montage", pron: "luh mohn-TAHZH", en: "the editing" }
+  - { id: "c1-culture-auteur-cinema-v010", group: "style", fr: "un faux raccord", pron: "uhn foh rah-KOR", en: "a jump cut, a continuity break" }
+  - { id: "c1-culture-auteur-cinema-v011", group: "style", fr: "la caméra à l'épaule", pron: "lah kah-may-rah ah lay-POHL", en: "the hand-held camera" }
+  - { id: "c1-culture-auteur-cinema-v012", group: "style", fr: "le hors-champ", pron: "luh or-SHAHN", en: "off-screen space (what we don't see in the frame)" }
+  - { id: "c1-culture-auteur-cinema-v013", group: "style", fr: "la voix off", pron: "lah vwah OFF", en: "the voice-over" }
+  - { id: "c1-culture-auteur-cinema-v014", group: "style", fr: "la lumière naturelle", pron: "lah lew-myehr nah-tew-REL", en: "natural light" }
+  - { id: "c1-culture-auteur-cinema-v015", group: "style", fr: "filmer", pron: "feel-MAY", en: "to film" }
+  - { id: "c1-culture-auteur-cinema-v016", group: "style", fr: "la lenteur", pron: "lah lahn-TUHR", en: "slowness" }
+exercises:
+  - id: "c1-culture-auteur-cinema-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « la politique des auteurs »."
+    options: ["l'idée que le réalisateur est le vrai auteur d'un film", "les règles du gouvernement pour le cinéma", "le nombre d'entrées d'un film"]
+    answers: ["l'idée que le réalisateur est le vrai auteur d'un film"]
+    explanation: "La politique des auteurs: the critics' idea that the director is the author of the film."
+  - id: "c1-culture-auteur-cinema-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Toute une scène filmée sans coupure est un ___."
+    options: ["plan-séquence", "gros plan", "faux raccord"]
+    answers: ["plan-séquence"]
+    explanation: "Un plan-séquence: a long take, a whole scene in a single shot."
+  - id: "c1-culture-auteur-cinema-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : On voit seulement le visage de l'actrice, très près : c'est un ___."
+    options: ["gros plan", "plan-séquence", "montage"]
+    answers: ["gros plan"]
+    explanation: "Un gros plan: a close-up."
+  - id: "c1-culture-auteur-cinema-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez la cinéaste de Cléo de 5 à 7 (1962)."
+    options: ["Agnès Varda", "Simone de Beauvoir", "Marguerite Duras"]
+    answers: ["Agnès Varda"]
+    explanation: "Agnès Varda made Cléo de 5 à 7 in 1962."
+  - id: "c1-culture-auteur-cinema-ex005"
+    type: "fill-in"
+    prompt: "Complétez : On entend un bruit, mais on ne voit pas d'où il vient : il vient du hors-___."
+    answers: ["champ"]
+    explanation: "Le hors-champ: what is outside the frame."
+  - id: "c1-culture-auteur-cinema-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Dans les années 1950, les critiques des Cahiers du ___ défendent la politique des auteurs."
+    answers: ["cinéma"]
+    explanation: "Les Cahiers du cinéma, the film magazine founded in 1951."
+  - id: "c1-culture-auteur-cinema-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : La personne qui raconte l'histoire sans être à l'image parle en ___."
+    options: ["voix off", "gros plan", "lumière naturelle"]
+    answers: ["voix off"]
+    explanation: "La voix off: the voice-over."
+  - id: "c1-culture-auteur-cinema-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « la caméra à l'épaule » : Le cinéaste tient lui-même la caméra en marchant avec les acteurs."
+    answers: ["Le cinéaste filme caméra à l'épaule", "Le cinéaste filme avec la caméra à l'épaule"]
+    strictAccents: true
+    explanation: "Filmer caméra à l'épaule: to film with a hand-held camera."
+  - id: "c1-culture-auteur-cinema-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « le montage » : La façon dont les plans sont mis ensemble est très rapide."
+    answers: ["Le montage est très rapide"]
+    explanation: "Le montage: the editing, the way shots are put together."
+  - id: "c1-culture-auteur-cinema-ex010"
+    type: "translate"
+    prompt: "Traduisez (un cinéaste) : Truffaut was first a critic, then a film-maker."
+    answers: ["Truffaut a d'abord été critique, puis cinéaste", "Truffaut a été d'abord critique, puis cinéaste", "Truffaut était d'abord critique, puis cinéaste"]
+    strictAccents: true
+    explanation: "No article before a profession after être: il a été critique."
+  - id: "c1-culture-auteur-cinema-ex011"
+    type: "translate"
+    prompt: "Traduisez (le cinéma d'auteur) : I prefer auteur cinema to mainstream cinema."
+    answers: ["Je préfère le cinéma d'auteur au cinéma grand public"]
+    explanation: "Préférer A à B: à + le becomes au."
+  - id: "c1-culture-auteur-cinema-ex012"
+    type: "translate"
+    prompt: "Traduisez (la lumière naturelle) : They filmed in the street, with natural light."
+    answers: ["Ils ont filmé dans la rue, avec la lumière naturelle", "Ils filmaient dans la rue, avec la lumière naturelle"]
+    strictAccents: true
+    explanation: "Filmer: to film. The New Wave liked real places and natural light."
+  - id: "c1-culture-auteur-cinema-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : À bout de souffle est un film de François Truffaut."
+    answers: ["À bout de souffle est un film de Jean-Luc Godard", "À bout de souffle est un film de Godard"]
+    strictAccents: true
+    explanation: "À bout de souffle (1960) is Godard's; Les Quatre Cents Coups (1959) is Truffaut's."
+  - id: "c1-culture-auteur-cinema-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de mot : Dans ce film, le gros plan est très rapide : les plans changent toutes les deux secondes."
+    answers: ["Dans ce film, le montage est très rapide : les plans changent toutes les deux secondes"]
+    explanation: "The speed of the changes between shots is the montage, not the close-up."
+  - id: "c1-culture-auteur-cinema-ex015"
+    type: "reformulation"
+    prompt: "Reformulez avec « une œuvre personnelle » : Ce film montre clairement le style et les idées de son cinéaste."
+    answers: ["Ce film est une œuvre personnelle", "C'est une œuvre personnelle"]
+    explanation: "Une œuvre personnelle: a work that carries its author's mark."
+  - id: "c1-culture-auteur-cinema-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The director is the author of the film."
+    words: ["Le", "réalisateur", "est", "l'auteur", "du", "film"]
+    answers: ["Le réalisateur est l'auteur du film"]
+    explanation: "The central idea of la politique des auteurs."
+---
+
+By the end of this lesson you'll be able to explain the French idea of auteur cinema, place the main New Wave film-makers, and describe a film's style in precise French.
+
+## What you already know
+
+You know *la Nouvelle Vague*, *tourner un film*, Truffaut's *Les Quatre Cents Coups* (1959) and Godard's *À bout de souffle* (1960) from <LessonLink id="b1-culture-french-cinema" text="the lesson on French cinema" />, and *une critique* and *le scénario* from <LessonLink id="b1-reviewing-a-film-or-book" text="the lesson on reviewing a film or a book" />. You know *au premier plan* and *la lumière* from <LessonLink id="b2-describing-a-work-of-art" text="the lesson on describing a work of art" />. This lesson goes from the names to the idea behind them.
+
+## The director as author
+
+<VocabTable group="idea" />
+
+In the 1950s, a group of young critics wrote for *une revue* (a specialist magazine), *les Cahiers du cinéma*, founded in 1951. They argued that the real author of a film is its director, not the writer of the screenplay or the studio. A true *cinéaste* (film-maker), they said, leaves a personal mark on every film: themes that return, a way of placing the camera, a rhythm. This idea is called *la politique des auteurs* (the auteur theory). Truffaut defended it in a famous 1954 article that attacked the well-made but impersonal French films of the time.
+
+<Example fr="Les Cahiers du cinéma sont une revue de critique de cinéma." en="The Cahiers du cinéma is a film criticism magazine." />
+<Example fr="Pour les critiques des Cahiers du cinéma, un vrai cinéaste est l'auteur de ses films." en="For the Cahiers du cinéma critics, a true film-maker is the author of his or her films." />
+
+Several of these critics then became directors themselves: Truffaut, Godard, Rohmer, Chabrol. Their first films, at the end of the 1950s, launched *la Nouvelle Vague*. Agnès Varda, often called a forerunner of the movement, had already made a feature film in 1955; her *Cléo de 5 à 7* (1962) follows a young singer through part of an afternoon in Paris, almost in real time.
+
+<Example fr="Agnès Varda a tourné Cléo de 5 à 7 dans les rues de Paris." en="Agnès Varda shot Cléo de 5 à 7 in the streets of Paris." />
+
+Today, French uses *le cinéma d'auteur* (auteur or art-house cinema) for films that express a director's personal vision, as opposed to *le cinéma grand public* (mainstream cinema), made first of all to attract a large audience. The line between the two isn't strict: some auteur films are popular, and some mainstream films have a clear style. As a rule of thumb, a critic calls a film *une œuvre personnelle* (a personal work) when you could recognize its director without seeing the credits.
+
+<Example fr="Ce cinéaste fait un cinéma d'auteur exigeant, loin du cinéma grand public." en="This film-maker makes demanding auteur cinema, far from mainstream cinema." />
+<Example fr="Chaque film de cette réalisatrice est une œuvre très personnelle." en="Each film by this director is a very personal work." />
+
+France supports this kind of cinema with public funding, managed by a national film centre, and with many art-house cinemas and film festivals. Supporters say this protects creativity and diversity; critics answer that some subsidized films find very few viewers. Both arguments come up whenever the system is discussed.
+
+## Describing a film's style
+
+<VocabTable group="style" />
+
+To talk about style, critics use a precise vocabulary. *Un plan* is a shot: everything between two cuts. *Un gros plan* (a close-up) shows a face or an object very near. *Un plan-séquence* (a long take) films a whole scene without a cut, and often creates tension or a feeling of real time.
+
+*Le montage* (the editing) is the way the shots are put together. A fast *montage* gives energy; a slow one gives weight. In *À bout de souffle*, Godard used *des faux raccords* (jump cuts): he cut inside the same shot, so the image jumps, and the audience notices the editing instead of forgetting it.
+
+<Example fr="Dans À bout de souffle, Godard utilise des faux raccords que le spectateur remarque tout de suite." en="In À bout de souffle, Godard uses jump cuts that the viewer notices at once." />
+<Example fr="La scène est filmée en un seul plan-séquence de plusieurs minutes." en="The scene is filmed in a single long take lasting several minutes." />
+
+The New Wave liked to *filmer* (film) in real places, often with *la caméra à l'épaule* (a hand-held camera) and *la lumière naturelle* (natural light), which gave its films a feeling of freedom and of life caught in the moment.
+
+*Le hors-champ* (off-screen space) is everything the camera doesn't show: a voice, a noise, a character who has just left the frame. Directors use it to suggest rather than show. *La voix off* (the voice-over) is a voice heard over the images, often a narrator's.
+
+<Example fr="Le cinéaste filme caméra à l'épaule, au milieu de la foule." en="The film-maker films with a hand-held camera, in the middle of the crowd." />
+<Example fr="Une voix off raconte l'histoire, et le danger reste dans le hors-champ." en="A voice-over tells the story, and the danger stays off screen." />
+
+Critics also judge rhythm. *La lenteur* (slowness) can be a choice, to let the viewer look and think, or a weakness, when nothing happens. A good review says which, and why.
+
+<Example fr="La lenteur du film est voulue : elle laisse le temps de regarder." en="The film's slowness is deliberate: it leaves time to look." />
+<Example fr="Cette scène est filmée en gros plan, avec la lumière naturelle du matin." en="This scene is filmed in close-up, with the natural light of morning." />
+
+## A film review
+
+The review below is an original text written for this lesson. The film, the director and the actors are invented.
+
+*Le Silence des quais, de Claire Morand*
+
+*Avec son troisième film, Claire Morand confirme qu'elle est une vraie cinéaste. Le Silence des quais suit une jeune femme qui attend, pendant toute une nuit, un bateau qui ne vient pas. Le scénario tient en deux lignes ; tout le reste est mise en scène.*
+
+*Le film s'ouvre sur un plan-séquence de plusieurs minutes, caméra à l'épaule, qui suit l'héroïne sur le port. Puis le rythme change : le montage devient plus lent, les gros plans sont de plus en plus nombreux, et la lumière naturelle de la nuit donne à chaque visage une couleur étrange. La cinéaste filme surtout ce qu'on ne voit pas. Le bateau reste dans le hors-champ, et une voix off, celle d'un homme qu'on ne verra jamais, lit de vieilles lettres.*
+
+*Les acteurs, que le public ne connaît pas encore, parlent peu, et leurs silences disent plus que leurs mots. L'actrice principale, souvent filmée en gros plan pendant de longues minutes, porte tout le film sur son visage.*
+
+*Cette lenteur est le choix le plus fort du film, mais aussi sa limite. Certains spectateurs aimeront cette attente ; d'autres trouveront que l'histoire n'avance pas. Il faut reconnaître que la dernière demi-heure perd un peu de sa force.*
+
+*Reste une œuvre personnelle, qui fait confiance au spectateur et lui laisse le temps de regarder. Dans un cinéma français partagé entre le cinéma d'auteur et le cinéma grand public, Le Silence des quais fait clairement son choix. On n'est pas obligé de le suivre, mais on ne l'oubliera pas.*
+
+(The Silence of the Quays, by Claire Morand. With her third film, Claire Morand confirms that she is a true film-maker. The Silence of the Quays follows a young woman who waits, for a whole night, for a boat that doesn't come. The screenplay fits in two lines; everything else is direction. The film opens with a long take lasting several minutes, with a hand-held camera, that follows the heroine around the port. Then the rhythm changes: the editing slows down, the close-ups multiply, and the natural light of the night gives each face a strange colour. The film-maker mostly films what we don't see. The boat stays off screen, and a voice-over, that of a man we will never see, reads old letters. The actors, whom the public doesn't know yet, speak little, and their silences say more than their words. The lead actress, often filmed in close-up for long minutes, carries the whole film on her face. This slowness is the film's strongest choice, but also its limit. Some viewers will love this waiting; others will find that the story doesn't move forward. It has to be said that the last half-hour loses some of its strength. What remains is a personal work, which trusts the viewer and leaves them time to look. In a French cinema divided between auteur cinema and mainstream cinema, The Silence of the Quays clearly makes its choice. You don't have to follow it, but you won't forget it.)
+
+<Callout type="warning" title="Un cinéaste, not un directeur">
+  Learners often call a film director *un directeur*. In French, *un directeur* runs a company or a school. For films, say **un réalisateur**, **une réalisatrice**, or, for an auteur, **un cinéaste**, **une cinéaste**.
+</Callout>
+
+<Callout type="tip" title="Watch one scene twice">
+  Choose one scene of a film you like and watch it twice: the first time for the story, the second time with the sound off, counting the shots and noting each close-up, long take or camera movement. Then describe the scene in four French sentences with the words of this lesson.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-review-ideas" text="the review of this unit" /> brings ideas, history and technology together in the introduction of an essay.
+
+===== content/lessons/c1/review-ideas.mdx =====
+---
+id: "c1-review-ideas"
+title: "Review: Ideas and society"
+description: "Bring Unit 6 together in the introduction of an essay that links an Enlightenment idea to a current debate: an amorce in history, defined terms, positions given fairly and attributed, a problématique and an announced plan."
+level: "C1"
+unit: "Ideas and society"
+order: 44
+type: "review"
+tags: ["review", "ideas", "essay", "debate"]
+prerequisites: ["c1-philosophy-and-ideas", "c1-culture-enlightenment", "c1-culture-may-68", "c1-technology-ethics", "c1-culture-auteur-cinema", "c1-dissertation"]
+related: ["c1-review-academic", "b2-argumentative-essay", "c1-abstract-nouns"]
+vocab:
+  - { id: "c1-review-ideas-v001", group: "new", fr: "un débat d'idées", pron: "uhn day-bah dee-DAY", en: "a debate of ideas, an intellectual debate" }
+  - { id: "c1-review-ideas-v002", group: "new", fr: "une remise en cause", pron: "ewn ruh-meez ahn KOHZ", en: "a challenge, a calling into question (close to la remise en question)" }
+  - { id: "c1-review-ideas-v003", group: "new", fr: "un courant de pensée", pron: "uhn koo-rahn duh pahn-SAY", en: "a school of thought, a current of thought" }
+  - { id: "c1-review-ideas-v004", group: "new", fr: "le progrès technique", pron: "luh proh-greh tek-NEEK", en: "technological progress" }
+exercises:
+  - id: "c1-review-ideas-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « le libre arbitre »."
+    options: ["la liberté de choisir ses actes", "la sagesse des anciens", "le droit à l'oubli"]
+    answers: ["la liberté de choisir ses actes"]
+    explanation: "Le libre arbitre: free will."
+  - id: "c1-review-ideas-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez l'auteur de l'idée de séparation des pouvoirs."
+    options: ["Montesquieu", "Rousseau", "Diderot"]
+    answers: ["Montesquieu"]
+    explanation: "Montesquieu, De l'esprit des lois (1748)."
+  - id: "c1-review-ideas-ex003"
+    type: "fill-in"
+    prompt: "Complétez : En mai 1968, une grève ___ arrête une grande partie du pays."
+    answers: ["générale"]
+    explanation: "Une grève générale: a strike across the whole economy."
+  - id: "c1-review-ideas-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Un programme formé sur de mauvaises données peut avoir des ___."
+    options: ["biais", "garde-fous", "plans-séquences"]
+    answers: ["biais"]
+    explanation: "Un biais: a systematic error, often learned from the data."
+  - id: "c1-review-ideas-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Toute une scène filmée sans coupure est un ___."
+    options: ["plan-séquence", "gros plan", "faux raccord"]
+    answers: ["plan-séquence"]
+    explanation: "Un plan-séquence: a long take."
+  - id: "c1-review-ideas-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Ce débat d'___ oppose deux visions de la liberté."
+    answers: ["idées"]
+    explanation: "Un débat d'idées: an intellectual debate."
+  - id: "c1-review-ideas-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Les Lumières sont un ___ du dix-huitième siècle."
+    options: ["courant de pensée", "garde-fou", "plan-séquence"]
+    answers: ["courant de pensée"]
+    explanation: "Un courant de pensée: a school of thought."
+  - id: "c1-review-ideas-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « il y a une remise en cause de » : Avec les réseaux sociaux, on remet en question la vie privée."
+    answers: ["Avec les réseaux sociaux, il y a une remise en cause de la vie privée", "Il y a une remise en cause de la vie privée avec les réseaux sociaux"]
+    strictAccents: true
+    explanation: "Une remise en cause: a calling into question."
+  - id: "c1-review-ideas-ex009"
+    type: "reformulation"
+    prompt: "Reformulez en question indirecte, avec « on peut se demander dans quelle mesure » : Le progrès technique nous rend-il plus libres ?"
+    answers: ["On peut se demander dans quelle mesure le progrès technique nous rend plus libres", "On peut dès lors se demander dans quelle mesure le progrès technique nous rend plus libres"]
+    strictAccents: true
+    explanation: "In an indirect question, no inversion and no question mark."
+  - id: "c1-review-ideas-ex010"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui présente le débat de façon neutre."
+    options: ["Pour certains, la technique élargit nos libertés ; pour d'autres, elle les menace.", "La technique menace nos libertés, c'est évident.", "Ceux qui critiquent la technique ont peur du progrès."]
+    answers: ["Pour certains, la technique élargit nos libertés ; pour d'autres, elle les menace."]
+    explanation: "Each position is given and attributed, in the same tone."
+  - id: "c1-review-ideas-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de construction : On peut se demander dans quelle mesure le progrès nous rend-il plus libres."
+    answers: ["On peut se demander dans quelle mesure le progrès nous rend plus libres"]
+    explanation: "An indirect question has no inversion."
+  - id: "c1-review-ideas-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur d'auteur : Rousseau a écrit De l'esprit des lois."
+    answers: ["Montesquieu a écrit De l'esprit des lois"]
+    strictAccents: true
+    explanation: "De l'esprit des lois (1748) is Montesquieu's; Du contrat social (1762) is Rousseau's."
+  - id: "c1-review-ideas-ex013"
+    type: "translate"
+    prompt: "Traduisez (un héritage, faire débat) : The legacy of the Enlightenment is still debated."
+    answers: ["L'héritage des Lumières fait encore débat", "L'héritage des Lumières fait toujours débat"]
+    explanation: "Faire débat: to be debated."
+  - id: "c1-review-ideas-ex014"
+    type: "translate"
+    prompt: "Traduisez (le progrès technique) : Technological progress can create new forms of control."
+    answers: ["Le progrès technique peut créer de nouvelles formes de contrôle"]
+    explanation: "Le progrès technique: technological progress."
+  - id: "c1-review-ideas-ex015"
+    type: "translate"
+    prompt: "Traduisez (pour certains… pour d'autres, menacer) : For some, technology broadens our freedoms; for others, it threatens them."
+    answers: ["Pour certains, la technique élargit nos libertés ; pour d'autres, elle les menace", "Pour certains, la technologie élargit nos libertés ; pour d'autres, elle les menace"]
+    explanation: "Attribute each position, and keep the same structure for both."
+  - id: "c1-review-ideas-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : We will first see that technology has broadened our freedoms."
+    words: ["Nous", "verrons", "d'abord", "que", "la", "technique", "a", "élargi", "nos", "libertés"]
+    answers: ["Nous verrons d'abord que la technique a élargi nos libertés"]
+    explanation: "The first part of the announced plan."
+---
+
+By the end of this lesson you'll be able to write the introduction of an essay on a debate of ideas, linking a classic idea to a current question and presenting each side fairly.
+
+## What you've learned
+
+Skim this list, and go back to anything that feels shaky.
+
+- **Philosophy**: you know *la raison*, *le libre arbitre*, *remettre en question* and *l'esprit critique*, from <LessonLink id="c1-philosophy-and-ideas" text="the lesson on philosophy and ideas" />.
+- **The Enlightenment**: you know *les Lumières*, *la séparation des pouvoirs*, *la tolérance* and *le progrès*, from <LessonLink id="c1-culture-enlightenment" text="the lesson on the Enlightenment" />.
+- **May 68**: you know *la contestation*, *une grève générale*, *l'autorité* and *faire débat*, from <LessonLink id="c1-culture-may-68" text="the lesson on May 68" />.
+- **Technology and ethics**: you know *les données personnelles*, *la vie privée*, *un biais* and *un garde-fou*, from <LessonLink id="c1-technology-ethics" text="the lesson on technology and ethics" />.
+- **Auteur cinema**: you know *un cinéaste*, *la politique des auteurs*, *le montage* and *un plan-séquence*, from <LessonLink id="c1-culture-auteur-cinema" text="the lesson on auteur cinema" />.
+
+You also know *un héritage* (a legacy) from <LessonLink id="b2-review-arts" text="the review of arts and culture" />, and the parts of an essay introduction from <LessonLink id="c1-dissertation" text="the lesson on the dissertation" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+These four words help you frame a debate. *Un débat d'idées* is a debate about principles rather than facts. *Une remise en cause* is a calling into question; it's very close to *la remise en question*, which you met in the lesson on abstract nouns, and the two are often interchangeable. *Un courant de pensée* is a school of thought, such as the Enlightenment or existentialism. *Le progrès technique* (technological progress) is the theme of the model below.
+
+<Example fr="La liberté d'expression sur internet est un vrai débat d'idées." en="Freedom of expression online is a real debate of ideas." />
+<Example fr="Avec les réseaux sociaux, la vie privée connaît une remise en cause." en="With social networks, privacy is being called into question." />
+<Example fr="Les Lumières sont un courant de pensée qui a marqué toute l'Europe." en="The Enlightenment is a school of thought that left its mark on all of Europe." />
+
+## Writing about a debate of ideas
+
+An essay introduction on a debate of ideas follows the method you know, with one extra demand: fairness. As a rule of thumb, build it in five moves:
+
+1. **The amorce**: start from a precise moment in the history of ideas, such as an Enlightenment thinker or May 68, then bring it to today.
+2. **The terms**: define the key words of the question in one sentence each. In a debate of ideas, the definitions often decide the answer.
+3. **The positions**: give each side its strongest argument, in the same tone and at similar length, and attribute it: *pour certains…, pour d'autres…*.
+4. **The problématique**: turn the question into an indirect question, with no inversion: *on peut dès lors se demander dans quelle mesure…*.
+5. **The plan**: announce the parts with *nous verrons d'abord…, nous montrerons ensuite…, nous nous demanderons enfin…*.
+
+Each lesson of this unit can give you an amorce. The Enlightenment gives you reason, tolerance and progress; May 68 gives you the challenge to authority; the lesson on technology gives you the debates of today; auteur cinema shows how a group of critics changed the way people judge a work. Choose the one closest to your question, and keep it short.
+
+Three habits keep the tone neutral. Don't say what a group "always" thinks; say what *some* people argue. Give no figures you can't check. And keep your own view for the conclusion: the introduction asks the question, it doesn't answer it.
+
+## A model introduction
+
+The introduction below is an original text written for this lesson. It answers the question: *Le progrès technique nous rend-il plus libres ?*
+
+*Introduction*
+
+*Au dix-huitième siècle, un courant de pensée, les Lumières, voyait dans le progrès des sciences un moyen de libérer les hommes des préjugés. Dans l'Encyclopédie, Diderot et d'Alembert voulaient rassembler tous les savoirs. Deux siècles plus tard, en Mai 68, des étudiants ont contesté l'autorité au nom de la liberté. Aujourd'hui, nos téléphones nous donnent accès aux savoirs en quelques secondes, mais ils collectent aussi nos données et savent où nous allons.*
+
+*Le progrès technique, ce sont ici les outils nouveaux qui transforment notre vie quotidienne, des réseaux sociaux à l'intelligence artificielle. Être libre, c'est pouvoir penser et agir par soi-même, sans que d'autres décident à notre place. La question n'est donc pas seulement technique : elle touche à notre façon de vivre ensemble.*
+
+*Ce débat d'idées n'est pas nouveau, mais il prend une forme nouvelle. Pour certains, la technique continue l'héritage des Lumières : elle rassemble les savoirs et donne la parole à chacun. Pour d'autres, c'est une remise en cause de nos libertés : la surveillance, les algorithmes et leurs biais décident de plus en plus souvent à notre place.*
+
+*On peut dès lors se demander dans quelle mesure le progrès technique, qui promet de nous libérer, crée aussi de nouvelles formes de contrôle.*
+
+*Nous verrons d'abord que la technique a vraiment élargi nos libertés, en particulier l'accès au savoir et la liberté d'expression. Nous montrerons ensuite qu'elle les menace aussi, par la collecte des données et la surveillance. Nous nous demanderons enfin à quelles conditions, et avec quels garde-fous, elle peut rester au service de la liberté.*
+
+(Introduction. In the eighteenth century, a school of thought, the Enlightenment, saw in the progress of science a way to free people from prejudice. In the Encyclopédie, Diderot and d'Alembert wanted to bring all knowledge together. Two centuries later, in May 68, students challenged authority in the name of freedom. Today, our phones give us access to knowledge in a few seconds, but they also collect our data and know where we go. Technological progress here means the new tools that are transforming our daily lives, from social networks to artificial intelligence. Being free means being able to think and act for yourself, without others deciding for you. So the question isn't only a technical one: it concerns the way we live together. This debate of ideas isn't new, but it is taking a new form. For some, technology continues the legacy of the Enlightenment: it brings knowledge together and gives everyone a voice. For others, it is a challenge to our freedoms: surveillance, algorithms and their biases decide for us more and more often. One may therefore ask to what extent technological progress, which promises to free us, also creates new forms of control. We will first see that technology has really broadened our freedoms, in particular access to knowledge and freedom of expression. We will then show that it also threatens them, through data collection and surveillance. Finally, we will ask under what conditions, and with what safeguards, it can remain at the service of freedom.)
+
+## How the introduction uses the unit
+
+- **The amorce**: two sentences on the Enlightenment and the *Encyclopédie*, one on May 68, then *aujourd'hui* to bring the subject to the present.
+- **The terms**: *le progrès technique* and *être libre*, defined in one sentence each.
+- **The positions**: two sentences of similar length, each attributed (*pour certains…*, *pour d'autres…*), each with its strongest argument; no figures, and no "always" about any group.
+- **The problématique**: *on peut dès lors se demander dans quelle mesure…*, with no inversion.
+- **The plan**: three parts announced with *nous verrons d'abord*, *nous montrerons ensuite* and *nous nous demanderons enfin*, ending with the safeguards from the lesson on technology.
+- **The new words**: *un courant de pensée*, *le progrès technique*, *un débat d'idées* and *une remise en cause*, each in a complete sentence.
+
+## Your turn
+
+Write the introduction of an essay on one of these questions: *La liberté d'expression doit-elle avoir des limites ?* or *Faut-il remettre en question l'autorité ?* Use the five moves: an amorce from the Enlightenment or May 68, two defined terms, two attributed positions of similar length, a problématique with *dans quelle mesure*, and a plan in three parts.
+
+## Check your work
+
+- Does the amorce start from a precise moment, and does it reach the present?
+- Are the key terms defined, each in one sentence?
+- Are both positions attributed, in the same tone, and of similar length?
+- Is the problématique an indirect question, with no inversion?
+- Does the introduction stay neutral, with no figures and no verdict?
+
+<Callout type="warning" title="Pour d'autres, not pour autres">
+  When learners balance two positions, they often drop the *d'*. The pair is **pour certains…, pour d'autres…**, just as you say *d'autres personnes*. *Les autres* means "all the others", which changes the meaning.
+</Callout>
+
+<Callout type="tip" title="Date your amorce">
+  Avoid starting with *depuis toujours* or *de nos jours*, which say nothing. Start instead from one dated fact: a book (*Du contrat social*, 1762), an event (May 1968) or a law. A precise first sentence tells the reader at once that you know your subject.
+</Callout>
+
+## What's next
+
+The next unit is about living the language. It starts with <LessonLink id="c1-proverbs-and-sayings" text="the lesson on proverbs and sayings" />.
+

@@ -1,6 +1,6 @@
 # All lesson data
 
-267 written lessons, in course order.
+273 written lessons, in course order.
 
 ## a1-greetings
 
@@ -9181,7 +9181,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-reading-literary-narrative-ex010 | reformulation | Reformulez au discours indirect, avec « elle pensa que » : Sa tante l'avait toujours préférée aux autres. | — | ["Elle pensa que sa tante l'avait toujours préférée aux autres"] | false | The thought is now reported, with a verb of thinking and que; the tenses don't change.
 - c1-reading-literary-narrative-ex011 | reformulation | Reformulez au passé composé, comme à l'oral : Le lendemain, elle reprit la diligence. | — | ["Le lendemain, elle a repris la diligence","Elle a repris la diligence le lendemain"] | true | In speech and everyday writing, the passé composé replaces the passé simple.
 - c1-reading-literary-narrative-ex012 | error-correction | Corrigez l'erreur de temps : Quand elle arriva, le notaire l'attendit déjà dans le salon. | — | ["Quand elle arriva, le notaire l'attendait déjà dans le salon"] | false | Déjà shows a situation in progress at that moment: imparfait, not passé simple.
-- c1-reading-literary-narrative-ex013 | translate | Traduisez (le testament, revenir à) : The house went to the old maid. | — | ["La maison revint à la vieille servante","La maison est revenue à la vieille servante","La maison revenait à la vieille servante"] | true | Revenir à quelqu'un: to go to someone in a will. In a written story, the passé simple; in speech, the passé composé; the story's own sentence uses the imparfait, because it reports what the will said.
+- c1-reading-literary-narrative-ex013 | translate | Traduisez (le testament, revenir à) : The house went to the old servant. | — | ["La maison revint à la vieille servante","La maison est revenue à la vieille servante","La maison revenait à la vieille servante"] | true | Revenir à quelqu'un: to go to someone in a will. In a written story, the passé simple; in speech, the passé composé; the story's own sentence uses the imparfait, because it reports what the will said.
 - c1-reading-literary-narrative-ex014 | translate | Traduisez (le notaire) : The notary was waiting for her in the drawing room. | — | ["Le notaire l'attendait dans le salon","Le notaire l'attendait au salon"] | false | Was waiting: imparfait, the background.
 - c1-reading-literary-narrative-ex015 | translate | Traduisez au passé simple (immobile) : She stayed motionless for a long time. | — | ["Elle resta longtemps immobile","Elle resta immobile longtemps","Elle resta immobile pendant longtemps"] | false | Resta: a completed event, even a long one, so passé simple.
 - c1-reading-literary-narrative-ex016 | reorder | Remettez dans l'ordre : She took nothing but the box. | — | ["Elle ne prit que la boîte"] | false | Ne… que: only, around the verb.
@@ -10678,6 +10678,274 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-review-professional-ex015 | translate | Traduisez avec « un cahier des charges » et « ci-joint » : Please find the specifications attached. | — | ["Veuillez trouver ci-joint le cahier des charges","Vous trouverez ci-joint le cahier des charges"] | false | Veuillez trouver ci-joint, or vous trouverez ci-joint.
 - c1-review-professional-ex016 | reorder | Remettez dans l'ordre : We will be sure to answer you. | — | ["Nous ne manquerons pas de vous répondre"] | false | Nous ne manquerons pas de + infinitive: a formal promise.
 
+## c1-philosophy-and-ideas
+
+### Vocab
+
+fr | pron | en | note
+
+- la philosophie | lah fee-loh-zoh-FEE | philosophy | —
+- un philosophe / une philosophe | uhn fee-loh-ZOF / ewn fee-loh-ZOF | a philosopher | —
+- la raison | lah reh-ZOHN | reason (the ability to think and judge) | Une raison: a reason, a cause.
+- la conscience | lah kohn-SYAHNSS | consciousness; conscience | —
+- avoir bonne conscience | ah-vwahr bonn kohn-SYAHNSS | to have a clear conscience | —
+- une notion | ewn noh-SYOHN | a notion, a general idea | —
+- un concept | uhn kohn-SEPT | a concept (a precisely defined idea) | —
+- le libre arbitre | luh lee-brar-BEE-truh | free will | Croire au libre arbitre.
+- librement | lee-bruh-MAHN | freely | —
+- le bonheur | luh boh-NUHR | happiness | —
+- la sagesse | lah sah-ZHESS | wisdom | —
+- l'existence (f.) | leg-zees-TAHNSS | existence | —
+- remettre en question | ruh-meh-trahn kes-TYOHN | to question, to challenge | —
+- l'esprit critique (m.) | les-pree kree-TEEK | critical thinking | —
+- penser par soi-même | pahn-say par swah-MEM | to think for yourself | —
+- l'éthique (f.) | lay-TEEK | ethics | —
+- le bien et le mal | luh byan ay luh MAL | good and evil | —
+- l'explication de texte (f.) | lek-splee-kah-syohn duh TEKST | the close reading of a passage (an exam exercise) | —
+- le bac de philo | luh bak duh fee-LOH | the philosophy paper of the bac (everyday) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-philosophy-and-ideas-ex001 | multiple-choice | Indiquez le sens de « la raison » dans : Pour Descartes, la raison permet de trouver la vérité. | ["ce qui nous permet de penser et de juger","une cause","le fait d'avoir raison"] | ["ce qui nous permet de penser et de juger"] | false | La raison, with la: the ability to think. Une raison is a cause; avoir raison is to be right.
+- c1-philosophy-and-ideas-ex002 | multiple-choice | Choisissez le mot : Pour certains philosophes, nous choisissons librement nos actes ; ils croient au ___. | ["libre arbitre","bac de philo","concept"] | ["libre arbitre"] | false | Croire au libre arbitre: to believe in free will.
+- c1-philosophy-and-ideas-ex003 | multiple-choice | Indiquez le sens de « avoir bonne conscience ». | ["se sentir en paix avec ce qu'on a fait","être bien réveillé","bien connaître un sujet"] | ["se sentir en paix avec ce qu'on a fait"] | false | Avoir bonne conscience: to have a clear conscience.
+- c1-philosophy-and-ideas-ex004 | fill-in | Complétez la phrase de Descartes : Je pense, donc je ___. | — | ["suis"] | false | Descartes, Discours de la méthode (1637).
+- c1-philosophy-and-ideas-ex005 | fill-in | Complétez : Avoir l'___ critique, c'est ne pas croire tout ce qu'on lit. | — | ["esprit"] | false | L'esprit critique: critical thinking.
+- c1-philosophy-and-ideas-ex006 | multiple-choice | Choisissez le mot : Une idée générale, souvent large et peu précise, est une ___. | ["notion","sagesse","existence"] | ["notion"] | false | Une notion: a general idea. Un concept is more precisely defined.
+- c1-philosophy-and-ideas-ex007 | multiple-choice | Choisissez l'auteur de la question « Que sais-je ? ». | ["Montaigne","Descartes","Pascal"] | ["Montaigne"] | false | Montaigne, in the Essais.
+- c1-philosophy-and-ideas-ex008 | reformulation | Reformulez avec « remettre en question » : Elle doute de tout ce qu'on lui a appris. | — | ["Elle remet en question tout ce qu'on lui a appris"] | true | Remettre en question: to question, to challenge.
+- c1-philosophy-and-ideas-ex009 | reformulation | Reformulez avec « penser par soi-même » : Il ne répète pas les idées des autres. | — | ["Il pense par lui-même"] | false | Penser par soi-même becomes penser par lui-même with il.
+- c1-philosophy-and-ideas-ex010 | reformulation | Reformulez avec « croire au libre arbitre » : Elle pense que nous choisissons librement. | — | ["Elle croit au libre arbitre"] | false | Croire au libre arbitre: to believe that we choose freely.
+- c1-philosophy-and-ideas-ex011 | translate | Traduisez (le bonheur, le but) : Is happiness the goal of life? | — | ["Le bonheur est-il le but de la vie ?","Est-ce que le bonheur est le but de la vie ?"] | false | Le bonheur: happiness. A classic philosophy question, with inversion.
+- c1-philosophy-and-ideas-ex012 | translate | Traduisez (avoir bonne conscience) : He has a clear conscience. | — | ["Il a bonne conscience"] | true | Avoir bonne conscience, with no article.
+- c1-philosophy-and-ideas-ex013 | translate | Traduisez (concerner, l'éthique) : This question concerns ethics, not the law. | — | ["Cette question concerne l'éthique, pas la loi","Cette question concerne l'éthique et non la loi","Cette question concerne l'éthique, et pas la loi"] | false | L'éthique: ethics, the study of how to act well.
+- c1-philosophy-and-ideas-ex014 | error-correction | Corrigez l'erreur d'auteur : C'est Pascal qui a écrit « Je pense, donc je suis ». | — | ["C'est Descartes qui a écrit « Je pense, donc je suis »"] | true | Je pense, donc je suis is Descartes's, in the Discours de la méthode (1637).
+- c1-philosophy-and-ideas-ex015 | error-correction | Corrigez l'erreur : En France, la philosophie est enseignée en seconde, au lycée. | — | ["En France, la philosophie est enseignée en terminale, au lycée"] | false | Philosophy is taught in the final year of the lycée, la terminale.
+- c1-philosophy-and-ideas-ex016 | reorder | Remettez dans l'ordre : The heart has its reasons that reason does not know. | — | ["Le cœur a ses raisons que la raison ne connaît point"] | false | Pascal, Pensées. Ne… point is a literary ne… pas.
+
+## c1-culture-enlightenment
+
+### Vocab
+
+fr | pron | en | note
+
+- les Lumières (f. pl.) | lay lew-MYEHR | the Enlightenment | Le siècle des Lumières: the eighteenth century.
+- un préjugé | uhn pray-zhew-ZHAY | a prejudice, a preconceived idea | —
+- la tolérance | lah toh-lay-RAHNSS | tolerance | —
+- le progrès | luh proh-GREH | progress | —
+- la censure / censurer | lah sahn-SEWR / sahn-sew-RAY | censorship / to censor | —
+- la séparation des pouvoirs | lah say-pah-rah-syohn day poo-VWAHR | the separation of powers | —
+- le pouvoir législatif / exécutif / judiciaire | luh poo-vwahr lay-zhee-slah-TEEF / eg-zay-kew-TEEF / zhew-dee-SYEHR | the legislative / executive / judicial power | —
+- la souveraineté du peuple | lah soo-vren-tay dew PUH-pluh | the sovereignty of the people | —
+- la volonté générale | lah voh-lohn-tay zhay-nay-RAL | the general will | —
+- une encyclopédie | ew-nahn-see-kloh-pay-DEE | an encyclopedia | L'Encyclopédie: Diderot and d'Alembert's.
+- rassembler les savoirs | rah-sahn-blay lay sah-VWAHR | to bring knowledge together | —
+- un salon | uhn sah-LOHN | a salon (a regular gathering of writers and thinkers in a private home) | Also: le salon, the living room.
+- la Déclaration des droits de l'homme et du citoyen | lah day-klah-rah-syohn day drwah duh LOMM ay dew see-twah-YAN | the Declaration of the Rights of Man and of the Citizen (1789) | —
+- la liberté d'expression | lah lee-behr-tay dek-spreh-SYOHN | freedom of expression | —
+- l'esclavage (m.) | les-klah-VAHZH | slavery | —
+- la prison | lah pree-ZOHN | prison | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-culture-enlightenment-ex001 | multiple-choice | Choisissez l'auteur de De l'esprit des lois (1748). | ["Montesquieu","Rousseau","Voltaire"] | ["Montesquieu"] | false | Montesquieu published De l'esprit des lois in 1748.
+- c1-culture-enlightenment-ex002 | multiple-choice | Choisissez l'œuvre de Rousseau publiée en 1762. | ["Du contrat social","Candide","De l'esprit des lois"] | ["Du contrat social"] | false | Du contrat social (1762). Candide is Voltaire's; De l'esprit des lois is Montesquieu's.
+- c1-culture-enlightenment-ex003 | multiple-choice | Indiquez le sens de « la séparation des pouvoirs ». | ["Faire les lois, les faire respecter et juger sont des pouvoirs confiés à des personnes différentes.","Le roi décide de tout, seul.","Chaque région a son propre roi."] | ["Faire les lois, les faire respecter et juger sont des pouvoirs confiés à des personnes différentes."] | false | Montesquieu's idea: the legislative, executive and judicial powers in different hands.
+- c1-culture-enlightenment-ex004 | fill-in | Complétez : On appelle souvent le dix-huitième siècle le siècle des ___. | — | ["Lumières"] | false | Le siècle des Lumières: the light of reason against prejudice.
+- c1-culture-enlightenment-ex005 | fill-in | Complétez les derniers mots de Candide : Il faut cultiver notre ___. | — | ["jardin"] | false | Voltaire, Candide (1759).
+- c1-culture-enlightenment-ex006 | multiple-choice | Choisissez le mot : Voltaire défend la ___ : chacun doit pouvoir pratiquer sa religion en paix. | ["tolérance","censure","souveraineté du peuple"] | ["tolérance"] | false | La tolérance: accepting other people's beliefs.
+- c1-culture-enlightenment-ex007 | multiple-choice | Indiquez le sens de « un préjugé ». | ["une opinion qu'on a avant de réfléchir","une loi","un livre interdit"] | ["une opinion qu'on a avant de réfléchir"] | false | Un préjugé: an idea judged in advance, without reflection.
+- c1-culture-enlightenment-ex008 | reformulation | Reformulez avec « défendre la souveraineté du peuple » : Rousseau pense que c'est le peuple qui doit décider. | — | ["Rousseau défend la souveraineté du peuple"] | false | La souveraineté du peuple: the people, not a king, hold the highest power.
+- c1-culture-enlightenment-ex009 | reformulation | Reformulez au passif, avec « censurer » au passé composé : Les autorités ont interdit le livre. | — | ["Le livre a été censuré","Le livre a été censuré par les autorités"] | true | Censurer: to ban or cut a text. Passive: a été censuré.
+- c1-culture-enlightenment-ex010 | translate | Traduisez (la tolérance) : Voltaire defended tolerance. | — | ["Voltaire a défendu la tolérance","Voltaire défendait la tolérance"] | true | Défendre la tolérance: a central cause of Voltaire's.
+- c1-culture-enlightenment-ex011 | translate | Traduisez au passif (la Déclaration des droits de l'homme et du citoyen) : The Declaration of the Rights of Man and of the Citizen was written in 1789. | — | ["La Déclaration des droits de l'homme et du citoyen a été écrite en 1789"] | true | Passive, with the participle agreeing with la Déclaration: a été écrite.
+- c1-culture-enlightenment-ex012 | translate | Traduisez à l'imparfait (un salon, passer par) : Ideas travelled through the salons. | — | ["Les idées passaient par les salons"] | false | A habit in the past: imparfait.
+- c1-culture-enlightenment-ex013 | error-correction | Corrigez l'erreur d'auteur : Voltaire a écrit Du contrat social. | — | ["Rousseau a écrit Du contrat social"] | true | Du contrat social (1762) is Rousseau's.
+- c1-culture-enlightenment-ex014 | error-correction | Corrigez l'erreur : L'Encyclopédie est l'œuvre de Montesquieu. | — | ["L'Encyclopédie est l'œuvre de Diderot et d'Alembert","L'Encyclopédie est l'œuvre de Diderot et de d'Alembert"] | false | Diderot and d'Alembert directed the Encyclopédie.
+- c1-culture-enlightenment-ex015 | multiple-choice | Indiquez la phrase qui présente le débat de façon neutre. | ["Pour certains spécialistes, les Lumières ont préparé la Révolution ; pour d'autres, le lien est moins direct.","Les Lumières ont causé la Révolution, c'est évident.","Les Lumières n'ont eu aucun rôle, tout le monde le sait."] | ["Pour certains spécialistes, les Lumières ont préparé la Révolution ; pour d'autres, le lien est moins direct."] | false | A neutral presentation gives each position and attributes it.
+- c1-culture-enlightenment-ex016 | reorder | Remettez dans l'ordre : Power must stop power. | — | ["Le pouvoir doit arrêter le pouvoir"] | false | A short modern version of Montesquieu's idea.
+
+## c1-culture-may-68
+
+### Vocab
+
+fr | pron | en | note
+
+- Mai 68 | meh swah-SAHNT-weet | May 68 (the events of May and June 1968) | —
+- l'université (f.) | lew-nee-vehr-see-TAY | the university | —
+- un mouvement étudiant | uhn moov-mahn ay-tew-DYAHN | a student movement | —
+- la contestation / contester | lah kohn-tes-tah-SYOHN / kohn-tes-TAY | protest, challenge / to challenge, to protest against | —
+- le Quartier latin | luh kar-tyay lah-TAN | the Latin Quarter (the student district of Paris) | —
+- une barricade | ewn bah-ree-KAD | a barricade | —
+- les forces de l'ordre (f.) | lay fors duh LOR-druh | the police (formal: the forces of law and order) | —
+- une affiche / un graffiti | ew-nah-FEESH / uhn grah-fee-TEE | a poster / a piece of graffiti | —
+- une grève générale | ewn grev zhay-nay-RAL | a general strike | —
+- un ouvrier / une ouvrière | uh-noo-vree-YAY / ew-noo-vree-YEHR | a (factory) worker | —
+- un gréviste / une gréviste | uhn gray-VEEST / ewn gray-VEEST | a striker | —
+- occuper une usine | oh-kew-pay ew-new-ZEEN | to occupy a factory | —
+- les accords de Grenelle (m.) | lay-zah-kor duh gruh-NEL | the Grenelle agreements (May 1968) | —
+- dissoudre (dissous) / la dissolution | dee-SOO-druh (dee-SOO) / lah dee-soh-lew-SYOHN | to dissolve (dissolved) / the dissolution (of an assembly) | Dissoudre l'Assemblée nationale.
+- des élections législatives (f.) | day-zay-lek-syohn lay-zhee-slah-TEEV | parliamentary elections | —
+- une victoire / les gaullistes (m.) | ewn veek-TWAHR / lay goh-LEEST | a victory / the Gaullists (de Gaulle's supporters) | —
+- la jeunesse | lah zhuh-NESS | youth, young people | —
+- l'autorité (f.) | loh-toh-ree-TAY | authority | —
+- la libération des mœurs | lah lee-bay-rah-syohn day MUHRS | the loosening of social and sexual norms | —
+- l'individualisme (m.) | lan-dee-vee-dew-ah-LEES-muh | individualism | —
+- affaiblir | ah-feh-BLEER | to weaken | —
+- accéléré (accélérer) | ak-say-lay-RAY | speeded up (to speed up) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-culture-may-68-ex001 | multiple-choice | Choisissez la bonne réponse : En mars 1968, le mouvement étudiant commence à… | ["Nanterre","Marseille","Lyon"] | ["Nanterre"] | false | The movement started at the university of Nanterre, west of Paris, in March 1968.
+- c1-culture-may-68-ex002 | multiple-choice | Indiquez ce qui se passe dans la nuit du 10 au 11 mai 1968. | ["La nuit des barricades, dans le Quartier latin","Les élections législatives","Les accords de Grenelle"] | ["La nuit des barricades, dans le Quartier latin"] | false | The night of the barricades, with violent clashes between students and the police.
+- c1-culture-may-68-ex003 | multiple-choice | Choisissez le mot : Quand les ouvriers de presque tous les secteurs arrêtent le travail, c'est une ___. | ["grève générale","barricade","dissolution"] | ["grève générale"] | false | Une grève générale: a strike across the whole economy.
+- c1-culture-may-68-ex004 | fill-in | Complétez : Fin mai 1968, le gouvernement, les patrons et les syndicats se réunissent rue de ___. | — | ["Grenelle"] | false | They met at the Ministry of Labour, rue de Grenelle: hence les accords de Grenelle.
+- c1-culture-may-68-ex005 | fill-in | Complétez : Le 30 mai 1968, de Gaulle annonce qu'il va ___ l'Assemblée nationale. | — | ["dissoudre"] | false | Dissoudre l'Assemblée nationale: to dissolve the National Assembly, which leads to new elections.
+- c1-culture-may-68-ex006 | multiple-choice | Indiquez le résultat des élections législatives de juin 1968. | ["Une large victoire des gaullistes","La victoire des étudiants","La fin de la Cinquième République"] | ["Une large victoire des gaullistes"] | false | The June 1968 elections gave the Gaullists a large majority.
+- c1-culture-may-68-ex007 | multiple-choice | Indiquez la phrase qui présente le débat de façon neutre. | ["Pour certains, Mai 68 a libéré la société ; pour d'autres, il a affaibli l'autorité.","Mai 68 a sauvé la France, c'est évident.","Mai 68 n'a rien changé, tout le monde le sait."] | ["Pour certains, Mai 68 a libéré la société ; pour d'autres, il a affaibli l'autorité."] | false | A neutral sentence gives both positions and attributes them.
+- c1-culture-may-68-ex008 | reformulation | Reformulez avec « occuper » au passé composé : Les ouvriers sont restés dans l'usine jour et nuit pour arrêter le travail. | — | ["Les ouvriers ont occupé l'usine"] | true | Occuper une usine: to stay in it as a form of strike.
+- c1-culture-may-68-ex009 | reformulation | Reformulez avec « contester » : Les étudiants refusaient l'autorité de leurs professeurs. | — | ["Les étudiants contestaient l'autorité de leurs professeurs"] | false | Contester l'autorité: to challenge authority.
+- c1-culture-may-68-ex010 | reformulation | Reformulez avec « la libération des mœurs » : Après 1968, la vie privée est devenue plus libre. | — | ["Après 1968, on a parlé de la libération des mœurs","Après 1968, il y a eu une libération des mœurs"] | true | La libération des mœurs: the loosening of social and sexual norms.
+- c1-culture-may-68-ex011 | translate | Traduisez au passé composé (une grève générale) : In May 1968, France experienced a general strike. | — | ["En mai 1968, la France a connu une grève générale"] | true | Connaître here means to go through, to experience.
+- c1-culture-may-68-ex012 | translate | Traduisez au passé composé (dissoudre) : De Gaulle dissolved the National Assembly. | — | ["De Gaulle a dissous l'Assemblée nationale"] | true | Dissoudre has an irregular participle: dissous.
+- c1-culture-may-68-ex013 | translate | Traduisez (un mouvement étudiant) : The student movement started at Nanterre. | — | ["Le mouvement étudiant a commencé à Nanterre","Le mouvement étudiant est né à Nanterre"] | true | Commencer takes avoir; naître takes être.
+- c1-culture-may-68-ex014 | error-correction | Corrigez l'erreur : Après Mai 68, les gaullistes ont perdu les élections de juin. | — | ["Après Mai 68, les gaullistes ont gagné les élections de juin"] | true | The Gaullists won the June 1968 elections by a large margin.
+- c1-culture-may-68-ex015 | error-correction | Corrigez l'erreur de mois : La grève générale a commencé en mars 1968. | — | ["La grève générale a commencé en mai 1968"] | true | The student movement began in March; the general strike spread in May.
+- c1-culture-may-68-ex016 | reorder | Remettez dans l'ordre : The legacy of May 68 is still debated. | — | ["L'héritage de Mai 68 fait encore débat"] | false | Faire débat: to be debated.
+
+## c1-technology-ethics
+
+### Vocab
+
+fr | pron | en | note
+
+- les données personnelles (f.) | lay doh-nay pehr-soh-NEL | personal data | —
+- collecter des données | koh-lek-tay day doh-NAY | to collect data | —
+- utiliser / l'utilisation (f.) | ew-tee-lee-ZAY / lew-tee-lee-zah-SYOHN | to use / use | —
+- la vie privée | lah vee pree-VAY | privacy, private life | —
+- la protection des données | lah proh-tek-syohn day doh-NAY | data protection | —
+- le consentement / donner son consentement | luh kohn-sahnt-MAHN / doh-nay sohn kohn-sahnt-MAHN | consent / to give your consent | —
+- le droit à l'oubli | luh drwah ah loo-BLEE | the right to be forgotten | —
+- l'intelligence artificielle (f.) / l'IA | lan-teh-lee-zhahns ar-tee-fee-SYEL / lee-AH | artificial intelligence / AI | —
+- un algorithme | uh-nahl-goh-REETM | an algorithm | —
+- un biais | uhn BYEH | a bias | —
+- une décision automatisée | ewn day-see-zyohn oh-toh-mah-tee-ZAY | an automated decision | —
+- la transparence | lah trahns-pah-RAHNSS | transparency | —
+- un risque | uhn REESK | a risk | —
+- la surveillance | lah sewr-veh-YAHNSS | surveillance, monitoring | —
+- une caméra de surveillance | ewn kah-may-rah duh sewr-veh-YAHNSS | a surveillance camera, a CCTV camera | —
+- la reconnaissance faciale | lah ruh-koh-neh-sahns fah-SYAL | facial recognition | —
+- reconnaître un visage | ruh-koh-neh-truh uhn vee-ZAHZH | to recognize a face | —
+- la sécurité | lah say-kew-ree-TAY | security, safety | —
+- renforcer | rahn-for-SAY | to strengthen, to increase | —
+- innocent / innocente | ee-noh-SAHN / ee-noh-SAHNT | innocent | —
+- la bioéthique | lah bee-oh-ay-TEEK | bioethics | —
+- poser un problème éthique | poh-zay uhn proh-blem ay-TEEK | to raise an ethical problem | —
+- un garde-fou | uhn gar-duh-FOO | a safeguard | Plural: des garde-fous.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-technology-ethics-ex001 | multiple-choice | Choisissez le mot : Un programme qui donne de moins bonnes réponses pour certains groupes de personnes a un ___. | ["biais","garde-fou","consentement"] | ["biais"] | false | Un biais: a systematic error, often learned from the data.
+- c1-technology-ethics-ex002 | multiple-choice | Indiquez le sens de « le droit à l'oubli ». | ["le droit de demander qu'une information sur soi disparaisse d'internet","le droit d'oublier son mot de passe","le droit de ne pas aller à l'école"] | ["le droit de demander qu'une information sur soi disparaisse d'internet"] | false | Le droit à l'oubli: asking for old information about you to be removed from search results.
+- c1-technology-ethics-ex003 | multiple-choice | Choisissez le mot : Une caméra qui reconnaît les visages utilise la ___. | ["reconnaissance faciale","bioéthique","transparence"] | ["reconnaissance faciale"] | false | La reconnaissance faciale: identifying people from their faces.
+- c1-technology-ethics-ex004 | fill-in | Complétez : Avant de collecter vos données, un site doit vous demander votre ___. | — | ["consentement"] | false | Donner son consentement: to agree, explicitly.
+- c1-technology-ethics-ex005 | fill-in | Complétez : Une règle qui limite les risques d'une technologie est un garde-___. | — | ["fou"] | false | Un garde-fou: a safeguard (literally, a railing).
+- c1-technology-ethics-ex006 | multiple-choice | Indiquez la phrase qui présente le débat de façon neutre. | ["Pour certains, la reconnaissance faciale renforce la sécurité ; pour d'autres, elle menace la vie privée.","La reconnaissance faciale est une mauvaise chose, c'est évident.","Seuls les gens qui ont quelque chose à cacher sont contre la surveillance."] | ["Pour certains, la reconnaissance faciale renforce la sécurité ; pour d'autres, elle menace la vie privée."] | false | A neutral sentence gives both positions and attributes them.
+- c1-technology-ethics-ex007 | multiple-choice | Choisissez le mot : Quand une machine décide seule d'accepter ou de refuser un dossier, c'est une décision ___. | ["automatisée","privée","personnelle"] | ["automatisée"] | false | Une décision automatisée: taken by a program, without a person.
+- c1-technology-ethics-ex008 | reformulation | Reformulez avec « poser un problème éthique » : Avec cette technologie, il y a une question de bien et de mal. | — | ["Cette technologie pose un problème éthique"] | false | Poser un problème éthique: to raise an ethical problem.
+- c1-technology-ethics-ex009 | reformulation | Reformulez avec « collecter des données » : Cette application garde des informations sur ses utilisateurs. | — | ["Cette application collecte des données sur ses utilisateurs"] | false | Collecter des données: to collect data.
+- c1-technology-ethics-ex010 | reformulation | Reformulez avec « la transparence » : On ne sait pas comment cet algorithme prend ses décisions. | — | ["Cet algorithme manque de transparence","Il manque de transparence"] | false | Manquer de transparence: to lack transparency.
+- c1-technology-ethics-ex011 | translate | Traduisez (la protection des données) : Data protection is a right. | — | ["La protection des données est un droit"] | false | La protection des données: data protection.
+- c1-technology-ethics-ex012 | translate | Traduisez (la vie privée) : We must protect our privacy. | — | ["Nous devons protéger notre vie privée","Il faut protéger notre vie privée","On doit protéger notre vie privée"] | false | La vie privée: privacy. On doit is less formal than nous devons.
+- c1-technology-ethics-ex013 | translate | Traduisez (l'intelligence artificielle, un risque) : Artificial intelligence brings advantages and risks. | — | ["L'intelligence artificielle apporte des avantages et des risques","L'IA apporte des avantages et des risques"] | false | Apporter des avantages et des risques: a balanced way to begin.
+- c1-technology-ethics-ex014 | error-correction | Corrigez l'erreur : Un algorithme est toujours neutre, parce que c'est une machine. | — | ["Un algorithme n'est pas toujours neutre, même si c'est une machine","Un algorithme n'est pas toujours neutre, bien que ce soit une machine","Un algorithme n'est pas toujours neutre"] | false | An algorithm can reproduce the biases of its data or of its designers.
+- c1-technology-ethics-ex015 | error-correction | Corrigez l'erreur d'accord : Les données personnelles est protégée par la loi. | — | ["Les données personnelles sont protégées par la loi"] | false | Les données is plural: sont protégées.
+- c1-technology-ethics-ex016 | reorder | Remettez dans l'ordre : This technology raises an ethical problem. | — | ["Cette technologie pose un problème éthique"] | false | Poser un problème: to raise a problem.
+
+## c1-culture-auteur-cinema
+
+### Vocab
+
+fr | pron | en | note
+
+- un cinéaste / une cinéaste | uhn see-nay-AST / ewn see-nay-AST | a film-maker | —
+- le cinéma d'auteur | luh see-nay-mah doh-TUHR | auteur cinema, art-house cinema | —
+- la politique des auteurs | lah poh-lee-teek day-zoh-TUHR | the auteur theory (the director as the author of a film) | —
+- une revue | ewn ruh-VEW | a magazine, a journal (specialized) | —
+- le cinéma grand public | luh see-nay-mah grahn pew-BLEEK | mainstream cinema | —
+- une œuvre personnelle | ew-nuh-vruh pehr-soh-NEL | a personal work | —
+- un gros plan | uhn groh PLAHN | a close-up | —
+- un plan-séquence | uhn plahn-say-KAHNSS | a long take (a whole scene filmed without a cut) | —
+- le montage | luh mohn-TAHZH | the editing | —
+- un faux raccord | uhn foh rah-KOR | a jump cut, a continuity break | —
+- la caméra à l'épaule | lah kah-may-rah ah lay-POHL | the hand-held camera | —
+- le hors-champ | luh or-SHAHN | off-screen space (what we don't see in the frame) | —
+- la voix off | lah vwah OFF | the voice-over | —
+- la lumière naturelle | lah lew-myehr nah-tew-REL | natural light | —
+- filmer | feel-MAY | to film | —
+- la lenteur | lah lahn-TUHR | slowness | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-culture-auteur-cinema-ex001 | multiple-choice | Indiquez le sens de « la politique des auteurs ». | ["l'idée que le réalisateur est le vrai auteur d'un film","les règles du gouvernement pour le cinéma","le nombre d'entrées d'un film"] | ["l'idée que le réalisateur est le vrai auteur d'un film"] | false | La politique des auteurs: the critics' idea that the director is the author of the film.
+- c1-culture-auteur-cinema-ex002 | multiple-choice | Choisissez le mot : Toute une scène filmée sans coupure est un ___. | ["plan-séquence","gros plan","faux raccord"] | ["plan-séquence"] | false | Un plan-séquence: a long take, a whole scene in a single shot.
+- c1-culture-auteur-cinema-ex003 | multiple-choice | Choisissez le mot : On voit seulement le visage de l'actrice, très près : c'est un ___. | ["gros plan","plan-séquence","montage"] | ["gros plan"] | false | Un gros plan: a close-up.
+- c1-culture-auteur-cinema-ex004 | multiple-choice | Choisissez la cinéaste de Cléo de 5 à 7 (1962). | ["Agnès Varda","Simone de Beauvoir","Marguerite Duras"] | ["Agnès Varda"] | false | Agnès Varda made Cléo de 5 à 7 in 1962.
+- c1-culture-auteur-cinema-ex005 | fill-in | Complétez : On entend un bruit, mais on ne voit pas d'où il vient : il vient du hors-___. | — | ["champ"] | false | Le hors-champ: what is outside the frame.
+- c1-culture-auteur-cinema-ex006 | fill-in | Complétez : Dans les années 1950, les critiques des Cahiers du ___ défendent la politique des auteurs. | — | ["cinéma"] | false | Les Cahiers du cinéma, the film magazine founded in 1951.
+- c1-culture-auteur-cinema-ex007 | multiple-choice | Choisissez le mot : La personne qui raconte l'histoire sans être à l'image parle en ___. | ["voix off","gros plan","lumière naturelle"] | ["voix off"] | false | La voix off: the voice-over.
+- c1-culture-auteur-cinema-ex008 | reformulation | Reformulez avec « la caméra à l'épaule » : Le cinéaste tient lui-même la caméra en marchant avec les acteurs. | — | ["Le cinéaste filme caméra à l'épaule","Le cinéaste filme avec la caméra à l'épaule"] | true | Filmer caméra à l'épaule: to film with a hand-held camera.
+- c1-culture-auteur-cinema-ex009 | reformulation | Reformulez avec « le montage » : La façon dont les plans sont mis ensemble est très rapide. | — | ["Le montage est très rapide"] | false | Le montage: the editing, the way shots are put together.
+- c1-culture-auteur-cinema-ex010 | translate | Traduisez (un cinéaste) : Truffaut was first a critic, then a film-maker. | — | ["Truffaut a d'abord été critique, puis cinéaste","Truffaut a été d'abord critique, puis cinéaste","Truffaut était d'abord critique, puis cinéaste"] | true | No article before a profession after être: il a été critique.
+- c1-culture-auteur-cinema-ex011 | translate | Traduisez (le cinéma d'auteur) : I prefer auteur cinema to mainstream cinema. | — | ["Je préfère le cinéma d'auteur au cinéma grand public"] | false | Préférer A à B: à + le becomes au.
+- c1-culture-auteur-cinema-ex012 | translate | Traduisez (la lumière naturelle) : They filmed in the street, with natural light. | — | ["Ils ont filmé dans la rue, avec la lumière naturelle","Ils filmaient dans la rue, avec la lumière naturelle"] | true | Filmer: to film. The New Wave liked real places and natural light.
+- c1-culture-auteur-cinema-ex013 | error-correction | Corrigez l'erreur : À bout de souffle est un film de François Truffaut. | — | ["À bout de souffle est un film de Jean-Luc Godard","À bout de souffle est un film de Godard"] | true | À bout de souffle (1960) is Godard's; Les Quatre Cents Coups (1959) is Truffaut's.
+- c1-culture-auteur-cinema-ex014 | error-correction | Corrigez l'erreur de mot : Dans ce film, le gros plan est très rapide : les plans changent toutes les deux secondes. | — | ["Dans ce film, le montage est très rapide : les plans changent toutes les deux secondes"] | false | The speed of the changes between shots is the montage, not the close-up.
+- c1-culture-auteur-cinema-ex015 | reformulation | Reformulez avec « une œuvre personnelle » : Ce film montre clairement le style et les idées de son cinéaste. | — | ["Ce film est une œuvre personnelle","C'est une œuvre personnelle"] | false | Une œuvre personnelle: a work that carries its author's mark.
+- c1-culture-auteur-cinema-ex016 | reorder | Remettez dans l'ordre : The director is the author of the film. | — | ["Le réalisateur est l'auteur du film"] | false | The central idea of la politique des auteurs.
+
+## c1-review-ideas
+
+### Vocab
+
+fr | pron | en | note
+
+- un débat d'idées | uhn day-bah dee-DAY | a debate of ideas, an intellectual debate | —
+- une remise en cause | ewn ruh-meez ahn KOHZ | a challenge, a calling into question (close to la remise en question) | —
+- un courant de pensée | uhn koo-rahn duh pahn-SAY | a school of thought, a current of thought | —
+- le progrès technique | luh proh-greh tek-NEEK | technological progress | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-review-ideas-ex001 | multiple-choice | Indiquez le sens de « le libre arbitre ». | ["la liberté de choisir ses actes","la sagesse des anciens","le droit à l'oubli"] | ["la liberté de choisir ses actes"] | false | Le libre arbitre: free will.
+- c1-review-ideas-ex002 | multiple-choice | Choisissez l'auteur de l'idée de séparation des pouvoirs. | ["Montesquieu","Rousseau","Diderot"] | ["Montesquieu"] | false | Montesquieu, De l'esprit des lois (1748).
+- c1-review-ideas-ex003 | fill-in | Complétez : En mai 1968, une grève ___ arrête une grande partie du pays. | — | ["générale"] | false | Une grève générale: a strike across the whole economy.
+- c1-review-ideas-ex004 | multiple-choice | Choisissez le mot : Un programme formé sur de mauvaises données peut avoir des ___. | ["biais","garde-fous","plans-séquences"] | ["biais"] | false | Un biais: a systematic error, often learned from the data.
+- c1-review-ideas-ex005 | multiple-choice | Choisissez le mot : Toute une scène filmée sans coupure est un ___. | ["plan-séquence","gros plan","faux raccord"] | ["plan-séquence"] | false | Un plan-séquence: a long take.
+- c1-review-ideas-ex006 | fill-in | Complétez : Ce débat d'___ oppose deux visions de la liberté. | — | ["idées"] | false | Un débat d'idées: an intellectual debate.
+- c1-review-ideas-ex007 | multiple-choice | Choisissez le mot : Les Lumières sont un ___ du dix-huitième siècle. | ["courant de pensée","garde-fou","plan-séquence"] | ["courant de pensée"] | false | Un courant de pensée: a school of thought.
+- c1-review-ideas-ex008 | reformulation | Reformulez avec « il y a une remise en cause de » : Avec les réseaux sociaux, on remet en question la vie privée. | — | ["Avec les réseaux sociaux, il y a une remise en cause de la vie privée","Il y a une remise en cause de la vie privée avec les réseaux sociaux"] | true | Une remise en cause: a calling into question.
+- c1-review-ideas-ex009 | reformulation | Reformulez en question indirecte, avec « on peut se demander dans quelle mesure » : Le progrès technique nous rend-il plus libres ? | — | ["On peut se demander dans quelle mesure le progrès technique nous rend plus libres","On peut dès lors se demander dans quelle mesure le progrès technique nous rend plus libres"] | true | In an indirect question, no inversion and no question mark.
+- c1-review-ideas-ex010 | multiple-choice | Indiquez la phrase qui présente le débat de façon neutre. | ["Pour certains, la technique élargit nos libertés ; pour d'autres, elle les menace.","La technique menace nos libertés, c'est évident.","Ceux qui critiquent la technique ont peur du progrès."] | ["Pour certains, la technique élargit nos libertés ; pour d'autres, elle les menace."] | false | Each position is given and attributed, in the same tone.
+- c1-review-ideas-ex011 | error-correction | Corrigez l'erreur de construction : On peut se demander dans quelle mesure le progrès nous rend-il plus libres. | — | ["On peut se demander dans quelle mesure le progrès nous rend plus libres"] | false | An indirect question has no inversion.
+- c1-review-ideas-ex012 | error-correction | Corrigez l'erreur d'auteur : Rousseau a écrit De l'esprit des lois. | — | ["Montesquieu a écrit De l'esprit des lois"] | true | De l'esprit des lois (1748) is Montesquieu's; Du contrat social (1762) is Rousseau's.
+- c1-review-ideas-ex013 | translate | Traduisez (un héritage, faire débat) : The legacy of the Enlightenment is still debated. | — | ["L'héritage des Lumières fait encore débat","L'héritage des Lumières fait toujours débat"] | false | Faire débat: to be debated.
+- c1-review-ideas-ex014 | translate | Traduisez (le progrès technique) : Technological progress can create new forms of control. | — | ["Le progrès technique peut créer de nouvelles formes de contrôle"] | false | Le progrès technique: technological progress.
+- c1-review-ideas-ex015 | translate | Traduisez (pour certains… pour d'autres, menacer) : For some, technology broadens our freedoms; for others, it threatens them. | — | ["Pour certains, la technique élargit nos libertés ; pour d'autres, elle les menace","Pour certains, la technologie élargit nos libertés ; pour d'autres, elle les menace"] | false | Attribute each position, and keep the same structure for both.
+- c1-review-ideas-ex016 | reorder | Remettez dans l'ordre : We will first see that technology has broadened our freedoms. | — | ["Nous verrons d'abord que la technique a élargi nos libertés"] | false | The first part of the announced plan.
+
 ## c1-proverbs-and-sayings
 
 ### Vocab
@@ -10917,7 +11185,6 @@ fr | pron | en | note
 - une variante | ewn vah-RYAHNT | a variant (another form of the same word or phrase) | —
 - le parler | luh par-LAY | the local speech, the way of speaking (of a place or group) | —
 - une expression régionale | ew-nek-spreh-syohn ray-zhyoh-NAL | a regional expression (a word or phrase used in one region) | —
-- utiliser | ew-tee-lee-ZAY | to use | —
 - une autorisation | ew-noh-toh-ree-zah-SYOHN | a permission, an authorization | —
 
 ### Exercises
