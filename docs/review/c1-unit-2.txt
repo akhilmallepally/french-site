@@ -1,0 +1,2323 @@
+=== c1-stylistic-inversion ===
+
+---
+id: "c1-stylistic-inversion"
+title: "Stylistic inversion"
+description: "Put the verb before its subject in careful written French: after à peine, ainsi, du moins, encore and toujours est-il que, after direct speech (dit-il, répondit le témoin) and in relative clauses, and know when inversion is required, optional or wrong."
+level: "C1"
+unit: "Style and emphasis"
+order: 9
+type: "grammar"
+tags: ["grammar", "word order", "formal writing", "literary French"]
+prerequisites: ["a1-yes-no-questions", "b2-registers"]
+related: ["c1-passe-anterieur", "b2-logical-connectors", "b2-reporting-verbs"]
+vocab:
+  - { id: "c1-stylistic-inversion-v001", group: "adverbs", fr: "du moins", pron: "dew MWAN", en: "at least, or at least (correcting what was just said)", note: "Il a fini, du moins le dit-il." }
+  - { id: "c1-stylistic-inversion-v002", group: "adverbs", fr: "encore + inversion", pron: "ahn-KOR", en: "still, even so (formal, at the start of a sentence)", note: "Encore faut-il que… In the middle of a sentence, encore means still." }
+  - { id: "c1-stylistic-inversion-v003", group: "adverbs", fr: "toujours est-il que", pron: "too-zhoor eh-TEEL kuh", en: "the fact remains that, anyway" }
+  - { id: "c1-stylistic-inversion-v004", group: "incises", fr: "une incise", pron: "ew-nan-SEEZ", en: "a reporting clause (dit-il, répondit-elle)" }
+  - { id: "c1-stylistic-inversion-v005", group: "incises", fr: "murmurer", pron: "mewr-mew-RAY", en: "to murmur, to whisper" }
+  - { id: "c1-stylistic-inversion-v006", group: "incises", fr: "soupirer", pron: "soo-pee-RAY", en: "to sigh" }
+  - { id: "c1-stylistic-inversion-v007", group: "incises", fr: "reprendre", pron: "ruh-PRAHN-druh", en: "to go on (speaking), to continue", note: "In an incise: reprit-il." }
+  - { id: "c1-stylistic-inversion-v008", group: "incises", fr: "s'étonner", pron: "say-toh-NAY", en: "to be surprised, to wonder" }
+  - { id: "c1-stylistic-inversion-v009", group: "incises", fr: "rétorquer", pron: "ray-tor-KAY", en: "to retort" }
+  - { id: "c1-stylistic-inversion-v010", group: "writing", fr: "le lecteur / la lectrice", pron: "luh lek-TUHR / lah lek-TREESS", en: "the reader" }
+  - { id: "c1-stylistic-inversion-v011", group: "writing", fr: "le romancier / la romancière", pron: "luh roh-mahn-SYAY / lah roh-mahn-SYEHR", en: "the novelist" }
+  - { id: "c1-stylistic-inversion-v012", group: "writing", fr: "le témoin", pron: "luh tay-MWAN", en: "the witness" }
+  - { id: "c1-stylistic-inversion-v013", group: "writing", fr: "la règle", pron: "lah REG-luh", en: "the rule" }
+exercises:
+  - id: "c1-stylistic-inversion-ex001"
+    type: "fill-in"
+    prompt: "Complétez avec l'incise au passé simple (dire, il) : « Je vous attends ici », ___."
+    answers: ["dit-il"]
+    explanation: "After direct speech, the verb comes before the subject pronoun: dit-il."
+  - id: "c1-stylistic-inversion-ex002"
+    type: "fill-in"
+    prompt: "Complétez avec l'incise au passé simple (demander, elle) : « Où allez-vous ? » ___."
+    answers: ["demanda-t-elle"]
+    explanation: "Demanda ends in a vowel and elle starts with one, so add -t-: demanda-t-elle."
+  - id: "c1-stylistic-inversion-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec l'incise au passé simple (répondre, le témoin) : « Je n'ai rien vu », ___."
+    answers: ["répondit le témoin"]
+    explanation: "With a noun subject, the incise uses simple inversion, with no extra pronoun: répondit le témoin."
+  - id: "c1-stylistic-inversion-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase correcte."
+    options: ["« Je pars », dit Paul.", "« Je pars », Paul dit-il.", "« Je pars », dit-il Paul."]
+    answers: ["« Je pars », dit Paul."]
+    explanation: "An incise with a noun subject: the verb, then the noun, and no pronoun."
+  - id: "c1-stylistic-inversion-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase correcte."
+    options: ["Peut-être est-il malade.", "Peut-être qu'est-il malade.", "Peut-être il est-il malade."]
+    answers: ["Peut-être est-il malade."]
+    explanation: "Peut-être at the start takes inversion, or que with normal order, never both."
+  - id: "c1-stylistic-inversion-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez si l'inversion est obligatoire, possible ou impossible : dans une incise, après une citation."
+    options: ["obligatoire", "possible", "impossible"]
+    answers: ["obligatoire"]
+    explanation: "In written French, the subject of an incise comes after the verb: « Je pars », dit-il."
+  - id: "c1-stylistic-inversion-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez si l'inversion est obligatoire, possible ou impossible : dans une relative, avec un pronom sujet (le livre qu'il lit)."
+    options: ["impossible", "possible", "obligatoire"]
+    answers: ["impossible"]
+    explanation: "Inversion in a relative clause works only with a noun subject: le livre que lit Paul, but le livre qu'il lit."
+  - id: "c1-stylistic-inversion-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Il a tout compris, ___ le croit-il."
+    options: ["du moins", "peut-être que", "parce que"]
+    answers: ["du moins"]
+    explanation: "Du moins corrects what was just said, and here it's followed by inversion: du moins le croit-il."
+  - id: "c1-stylistic-inversion-ex009"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Le projet est intéressant. ___ faut-il trouver l'argent."
+    options: ["Encore", "Peut-être que", "Parce que"]
+    answers: ["Encore"]
+    explanation: "Encore at the start, with inversion, means still or even so: encore faut-il trouver l'argent."
+  - id: "c1-stylistic-inversion-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec l'inversion : Peut-être qu'elle a raison."
+    answers: ["Peut-être a-t-elle raison"]
+    explanation: "Drop que and invert: peut-être a-t-elle raison. Add -t- between the two vowels."
+    strictAccents: true
+  - id: "c1-stylistic-inversion-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « à peine » au début de la phrase et l'inversion : Le train était à peine parti que la neige a commencé à tomber."
+    answers: ["À peine le train était-il parti que la neige a commencé à tomber"]
+    explanation: "A noun subject stays in front and a pronoun follows the auxiliary: à peine le train était-il parti."
+    strictAccents: true
+  - id: "c1-stylistic-inversion-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec « ainsi » au début de la phrase et l'inversion : Il a donc pu partir plus tôt."
+    answers: ["Ainsi a-t-il pu partir plus tôt"]
+    explanation: "Ainsi (thus) at the start, then inversion of the auxiliary and the pronoun."
+    strictAccents: true
+  - id: "c1-stylistic-inversion-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : « Je suis fatigué », Paul dit-il."
+    answers: ["« Je suis fatigué », dit Paul.", "Paul dit : « Je suis fatigué »."]
+    explanation: "In an incise with a noun subject, use simple inversion: dit Paul. Or put Paul dit before the quotation."
+  - id: "c1-stylistic-inversion-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Peut-être qu'est-il parti."
+    answers: ["Peut-être est-il parti", "Peut-être qu'il est parti", "Il est peut-être parti"]
+    explanation: "Either inversion (formal) or que with normal order (standard), not both."
+  - id: "c1-stylistic-inversion-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Voici le livre que lit-il."
+    answers: ["Voici le livre qu'il lit"]
+    explanation: "With a pronoun subject, a relative clause keeps normal order: qu'il lit."
+  - id: "c1-stylistic-inversion-ex016"
+    type: "translate"
+    prompt: "Traduisez avec une incise au passé simple (répondre, le voyageur) : “I don't know,” the traveller replied."
+    answers: ["« Je ne sais pas », répondit le voyageur."]
+    explanation: "The incise follows the quotation, with simple inversion: répondit le voyageur."
+  - id: "c1-stylistic-inversion-ex017"
+    type: "translate"
+    prompt: "Traduisez avec « toujours est-il que » : The fact remains that nobody came."
+    answers: ["Toujours est-il que personne n'est venu"]
+    explanation: "Toujours est-il que is a fixed phrase with inversion, followed by normal order."
+  - id: "c1-stylistic-inversion-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : He probably forgot. (formal)"
+    words: ["Sans", "doute", "a-t-il", "oublié"]
+    answers: ["Sans doute a-t-il oublié"]
+    explanation: "Sans doute at the start, then the inverted auxiliary and pronoun."
+---
+
+By the end of this lesson you'll be able to put the verb before its subject where careful written French expects it, and to tell when inversion is required, optional or wrong.
+
+## What you already know
+
+You know inversion in questions (*parlez-vous… ?*) from <LessonLink id="a1-yes-no-questions" text="the lesson on yes/no questions" />. In <LessonLink id="b2-registers" text="the lesson on registers" />, you met complex inversion with a noun subject (*Paul vient-il ?*) and inversion after *peut-être*, *sans doute* and *aussi* at the start of a sentence. You also used *à peine… que* with inversion in <LessonLink id="c1-passe-anterieur" text="the lesson on the passé antérieur" />. This lesson adds the other places where written French inverts.
+
+## Three cases: required, optional, wrong
+
+Stylistic inversion isn't a question. It's a word order that marks careful writing, and it follows a few patterns. In some places it's required: leaving it out sounds like a mistake. In others it's optional: it raises the register, and the plain order is also correct. In a few places it's wrong. Usage varies between writers, so treat the lists in this lesson as rules of thumb for careful modern prose.
+
+The two forms work as in questions. With a pronoun subject, the pronoun follows the verb or the auxiliary, with *-t-* between two vowels. With a noun subject, the noun stays in front and a pronoun follows the verb: this is complex inversion.
+
+<Example fr="Sans doute le témoin s'est-il trompé." en="The witness was probably mistaken. (formal)" />
+
+## After adverbs at the start of a sentence
+
+<VocabTable group="adverbs" />
+
+You know *ainsi* (thus) from <LessonLink id="b2-logical-connectors" text="the lesson on logical connectors" />. At the start of a sentence, it can take inversion. With a comma and the normal order, it's also correct, and less formal.
+
+<Example fr="Ainsi le lecteur comprend-il enfin la fin du roman." en="Thus the reader finally understands the ending of the novel. (formal)" />
+<Example fr="Ainsi, le lecteur comprend enfin la fin du roman." en="Thus the reader finally understands the ending of the novel. (standard)" />
+
+*Du moins* corrects or limits what was just said: "or at least". After a comma, inversion is common in writing, but the normal order is also correct.
+
+<Example fr="La romancière a fini son livre, du moins le dit-elle." en="The novelist has finished her book, or at least that's what she says. (formal)" />
+
+*Encore* at the start of a sentence, with inversion, means "still" or "even so": it adds a condition that limits what came before. In this meaning, inversion is required. In the middle of a sentence, *encore* keeps its usual meaning, "still", which you know from <LessonLink id="a2-negative-expressions" text="the lesson on negative expressions" />.
+
+<Example fr="Le plan est bon. Encore faut-il que tout le monde soit d'accord." en="The plan is good. Even so, everyone still has to agree. (formal)" />
+
+*Toujours est-il que* is a fixed phrase: the inversion is frozen inside it, and the clause after *que* keeps normal order. It means "the fact remains that" and moves past a doubt to what is certain.
+
+<Example fr="Je ne sais pas pourquoi il est parti. Toujours est-il qu'il n'est pas revenu." en="I don't know why he left. The fact remains that he hasn't come back." />
+
+When *à peine* opens a written sentence, careful writers invert, in any tense. Inside the sentence, *à peine* follows the auxiliary and there's no inversion.
+
+<Example fr="À peine sommes-nous arrivés qu'il a commencé à pleuvoir." en="No sooner had we arrived than it started to rain. (formal)" />
+
+## After direct speech
+
+<VocabTable group="incises" />
+
+When a reporting verb follows or interrupts a quotation, its subject comes after it. This short clause is called *une incise*. In written French, the inversion is required, whatever the tense.
+
+- With a pronoun subject, the verb and the pronoun are joined by a hyphen, with *-t-* between two vowels: *dit-il*, *demanda-t-elle*, *a-t-il répondu*.
+- With a noun subject, there's no extra pronoun: *répondit le témoin*, *dit Paul*. This is simple inversion, unlike complex inversion in questions.
+- An incise can also sit inside the quotation, between two commas.
+
+<Example fr="« Je pars demain », dit-elle." en="“I'm leaving tomorrow,” she said." />
+<Example fr="« Déjà ? » s'étonna le romancier." en="“Already?” the novelist wondered." />
+<Example fr="« Je sais, soupira-t-il, mais c'est trop tard. »" en="“I know,” he sighed, “but it's too late.”" />
+<Example fr="« Vous avez tort », rétorqua la lectrice." en="“You're wrong,” the reader retorted." />
+
+Novels use many reporting verbs besides *dire*: *murmurer*, *soupirer*, *s'étonner*, *rétorquer*, and *reprendre* (to go on speaking).
+
+<Example fr="« Il faut partir, reprit-elle. Il faut partir maintenant », murmura-t-elle." en="“We have to leave,” she went on. “We have to leave now,” she whispered." />
+
+In casual speech, you'll hear *« Je pars », il a dit* with normal order. It's fine when you talk, but in writing it reads as a mistake.
+
+## In relative clauses
+
+<VocabTable group="writing" />
+
+After *que*, *où* and *dont*, a noun subject can follow the verb. It's optional, and writers use it when the verb is short and the subject is long, so that the sentence doesn't end on a lone verb.
+
+<Example fr="La maison où vivait la romancière est aujourd'hui un musée." en="The house where the novelist lived is a museum today." />
+<Example fr="C'est la règle que suivent beaucoup de lecteurs." en="It's the rule that many readers follow." />
+
+This inversion is wrong in two cases. With a pronoun subject, keep normal order: *le livre qu'il lit*, not *que lit-il*. And when the verb has its own direct object, the subject must stay in front: *le jour où Paul a rencontré sa femme*.
+
+## Where inversion is wrong
+
+As a rule of thumb, don't invert in these places:
+
+- After *peut-être que* and *sans doute que*: *que* replaces the inversion. Say *peut-être qu'il est malade* or *peut-être est-il malade*, never both.
+- In a relative clause with a pronoun subject, or with a direct object after the verb.
+- After *aussi* in the middle of a sentence, where it means "also".
+
+## The whole list
+
+- Required: in an incise (*dit-il*, *répondit le témoin*), after *encore* meaning "even so", and in *toujours est-il que*.
+- Usual in careful writing: after *à peine*, *peut-être* and *sans doute* at the start of a sentence, and after *aussi* meaning "therefore".
+- Optional: after *ainsi* and *du moins*, and in a relative clause with a noun subject.
+- Wrong: after *peut-être que*, and in a relative clause with a pronoun subject or a direct object.
+
+## En français
+
+Inès reads the short story her colleague Théo wrote for the office newsletter. They speak in everyday spoken French and quote his text.
+
+- *J'ai lu ton histoire. Elle est bien, mais il y a un problème dans les dialogues.* (I've read your story. It's good, but there's a problem in the dialogues.)
+- *Quel problème ? J'ai écrit : « Je pars », il a dit.* (What problem? I wrote: "I'm leaving," he said.)
+- *À l'écrit, on met le verbe avant le sujet : « Je pars », dit-il.* (In writing, you put the verb before the subject: "Je pars", dit-il.)
+- *Et avec un prénom ? « Je pars », Paul dit-il ?* (And with a first name? "Je pars", Paul dit-il?)
+- *Non, là, il n'y a pas de pronom : « Je pars », dit Paul.* (No, then there's no pronoun: "Je pars", dit Paul.)
+- *D'accord. Et la phrase avec « peut-être » ?* (OK. And the sentence with peut-être?)
+- *Tu as écrit « peut-être qu'il est malade ». C'est correct, mais c'est de l'oral.* (You wrote "peut-être qu'il est malade". It's correct, but it's spoken French.)
+- *Alors j'écris « peut-être est-il malade » ?* (So I write "peut-être est-il malade"?)
+- *Oui, c'est plus soutenu. Mais jamais « peut-être qu'est-il ».* (Yes, it's more formal. But never "peut-être qu'est-il".)
+- *Et « toujours est-il que » ? Je l'ai vu dans un roman.* (And "toujours est-il que"? I saw it in a novel.)
+- *Ça veut dire « en tout cas ». Par exemple : ton histoire a des erreurs, toujours est-il qu'elle me plaît !* (It means "anyway". For example: your story has mistakes, but the fact remains that I like it!)
+- *Merci ! Je change les dialogues ce soir, du moins j'essaie.* (Thanks! I'll change the dialogues tonight, or at least I'll try.)
+
+<Callout type="warning" title="Dit Paul, not Paul dit-il">
+  Learners often use complex inversion in an incise because they know it from questions. After a quotation, a noun subject simply follows the verb: **« Je pars », dit Paul**, not *« Je pars », Paul dit-il*.
+</Callout>
+
+<Callout type="tip" title="Collect reporting verbs">
+  When you read a novel, note every reporting verb you find in an incise, with its sentence: *murmura-t-elle*, *rétorqua le témoin*. After a few chapters, you'll have a list that lets your own dialogues go far beyond *dit-il*.
+</Callout>
+
+## En résumé
+
+L'inversion stylistique met le verbe avant le sujet dans la langue écrite soignée. Avec un pronom, on écrit dit-il ou demanda-t-elle. Avec un nom, on garde le nom devant et on ajoute un pronom après le verbe : sans doute le témoin s'est-il trompé. Dans une incise, après une citation, l'inversion est obligatoire, et un nom sujet suit le verbe sans pronom : « Je pars », dit Paul. L'inversion est aussi obligatoire après encore au début de la phrase, quand il ajoute une condition, et dans toujours est-il que. Après à peine, peut-être et sans doute au début de la phrase, elle est la règle à l'écrit soigné. Après ainsi et du moins, elle est possible. Dans une relative, un nom sujet peut suivre le verbe, mais pas un pronom : le livre qu'il lit. Après peut-être que, on garde l'ordre normal.
+
+## What's next
+
+Next, <LessonLink id="c1-ne-expletif" text="the lesson on the ne explétif" /> shows a *ne* that doesn't make a sentence negative.
+
+=== c1-ne-expletif ===
+
+---
+id: "c1-ne-expletif"
+title: "The ne explétif"
+description: "Recognize and use the ne explétif after avant que, à moins que, de peur que, craindre que, empêcher que, il s'en faut de peu que and comparisons (plus… que je ne pensais), and tell it apart from a real negation."
+level: "C1"
+unit: "Style and emphasis"
+order: 10
+type: "grammar"
+tags: ["grammar", "subjunctive", "negation", "formal writing"]
+prerequisites: ["b2-subjunctive-conjunctions", "b2-purpose-expressions"]
+related: ["b1-subjonctif-wishes-emotions", "c1-stylistic-inversion"]
+vocab:
+  - { id: "c1-ne-expletif-v001", group: "triggers", fr: "empêcher que", pron: "ahn-peh-SHAY kuh", en: "to prevent (something from happening)", note: "+ subjunctive, often with ne: empêcher que la situation ne devienne grave." }
+  - { id: "c1-ne-expletif-v002", group: "triggers", fr: "redouter que", pron: "ruh-doo-TAY kuh", en: "to dread that, to fear that (formal)", note: "+ subjunctive, often with ne." }
+  - { id: "c1-ne-expletif-v003", group: "triggers", fr: "il s'en faut de peu que", pron: "eel sahn FOH duh PUH kuh", en: "very nearly, it comes close to", note: "Mostly in the past: il s'en est fallu de peu que nous ne soyons en retard (we very nearly were late)." }
+  - { id: "c1-ne-expletif-v004", group: "triggers", fr: "plus… que je ne", pron: "plew… kuh zhuh NUH", en: "more… than I (thought, expected)", note: "Also moins, autre, meilleur… que + ne + indicative." }
+  - { id: "c1-ne-expletif-v005", group: "words", fr: "le pont", pron: "luh POHN", en: "the bridge" }
+  - { id: "c1-ne-expletif-v006", group: "words", fr: "s'effondrer", pron: "say-fohn-DRAY", en: "to collapse" }
+  - { id: "c1-ne-expletif-v007", group: "words", fr: "se propager", pron: "suh proh-pah-ZHAY", en: "to spread" }
+  - { id: "c1-ne-expletif-v008", group: "words", fr: "glisser", pron: "glee-SAY", en: "to slip, to slide" }
+  - { id: "c1-ne-expletif-v009", group: "words", fr: "s'aggraver", pron: "sah-grah-VAY", en: "to get worse" }
+  - { id: "c1-ne-expletif-v010", group: "words", fr: "l'issue (f.)", pron: "lee-SEW", en: "the outcome", note: "Not an issue (a problem): that's un problème or une question." }
+  - { id: "c1-ne-expletif-v011", group: "words", fr: "la fuite", pron: "lah FWEET", en: "the leak; the escape" }
+  - { id: "c1-ne-expletif-v012", group: "words", fr: "le soupçon", pron: "luh soop-SOHN", en: "the suspicion" }
+exercises:
+  - id: "c1-ne-expletif-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : J'ai peur qu'il ne vienne."
+    options: ["I'm afraid he'll come.", "I'm afraid he won't come.", "I'm not afraid he'll come."]
+    answers: ["I'm afraid he'll come."]
+    explanation: "No pas: the ne is explétif and adds no negation."
+  - id: "c1-ne-expletif-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : J'ai peur qu'il ne vienne pas."
+    options: ["I'm afraid he won't come.", "I'm afraid he'll come.", "I'm not afraid he'll come."]
+    answers: ["I'm afraid he won't come."]
+    explanation: "Ne… pas is a real negation: the fear is that he won't come."
+  - id: "c1-ne-expletif-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « ne » dans la phrase : Partez avant qu'il ne soit trop tard."
+    options: ["ne explétif", "négation"]
+    answers: ["ne explétif"]
+    explanation: "Avant que… ne, with no pas: the meaning is \"before it's too late\"."
+  - id: "c1-ne-expletif-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « ne » dans la phrase : Je crains qu'elle ne puisse pas venir."
+    options: ["négation", "ne explétif"]
+    answers: ["négation"]
+    explanation: "Ne… pas: the fear is that she can't come."
+  - id: "c1-ne-expletif-ex005"
+    type: "fill-in"
+    prompt: "Conjuguez au subjonctif, avec le ne explétif (venir) : Il faut partir avant qu'il ___."
+    answers: ["ne vienne"]
+    explanation: "Avant que + subjunctive, with the ne explétif: avant qu'il ne vienne."
+  - id: "c1-ne-expletif-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec le ne explétif (penser, imparfait) : Le voyage a été plus long que je ___."
+    answers: ["ne pensais", "ne le pensais"]
+    explanation: "After a comparison, the ne explétif comes with the indicative: que je ne pensais, or que je ne le pensais."
+  - id: "c1-ne-expletif-ex007"
+    type: "fill-in"
+    prompt: "Conjuguez au subjonctif, avec le ne explétif (partir) : Nous avons tout fait pour éviter qu'il ___."
+    answers: ["ne parte"]
+    explanation: "Éviter que + subjunctive, here with the ne explétif: qu'il ne parte."
+  - id: "c1-ne-expletif-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Il a fermé la fenêtre, ___ le chat ne sorte."
+    options: ["de crainte que", "parce que", "pendant que"]
+    answers: ["de crainte que"]
+    explanation: "Sorte is a subjunctive, and the ne explétif follows a word of fear: de crainte que."
+  - id: "c1-ne-expletif-ex009"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Il est plus tard que je ne ___."
+    options: ["croyais", "croie", "croyais pas"]
+    answers: ["croyais"]
+    explanation: "A comparison takes the indicative and no pas: que je ne croyais."
+  - id: "c1-ne-expletif-ex010"
+    type: "register-shift"
+    prompt: "Transformez en français courant, sans le ne explétif : Je crains qu'il ne soit trop tard."
+    answers: ["Je crains qu'il soit trop tard", "J'ai peur qu'il soit trop tard"]
+    explanation: "Drop the ne; the meaning doesn't change. J'ai peur que is the everyday verb."
+  - id: "c1-ne-expletif-ex011"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec le ne explétif : On doit partir avant qu'il fasse nuit."
+    answers: ["Nous devons partir avant qu'il ne fasse nuit", "On doit partir avant qu'il ne fasse nuit"]
+    explanation: "Add ne before the subjunctive; careful writing also prefers nous to on."
+  - id: "c1-ne-expletif-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec « il s'en est fallu de peu que » : Nous avons presque été en retard."
+    answers: ["Il s'en est fallu de peu que nous ne soyons en retard", "Il s'en est fallu de peu que nous soyons en retard"]
+    explanation: "Il s'en est fallu de peu que + subjunctive, usually with the ne explétif: que nous ne soyons."
+  - id: "c1-ne-expletif-ex013"
+    type: "reformulation"
+    prompt: "Reformulez avec « empêcher que » et le ne explétif : Il faut éviter que la situation devienne grave."
+    answers: ["Il faut empêcher que la situation ne devienne grave"]
+    explanation: "Empêcher que + subjunctive, with the ne explétif in careful writing."
+  - id: "c1-ne-expletif-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (la personne craint qu'il vienne) : J'ai peur qu'il ne vienne pas."
+    answers: ["J'ai peur qu'il ne vienne", "J'ai peur qu'il vienne"]
+    explanation: "With pas, the sentence means the opposite. Drop pas: the ne explétif is optional."
+  - id: "c1-ne-expletif-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Le film était meilleur que je ne le pensais pas."
+    answers: ["Le film était meilleur que je ne le pensais", "Le film était meilleur que je le pensais", "Le film était meilleur que je ne pensais", "Le film était meilleur que je pensais"]
+    explanation: "A comparison has no pas. Keep the ne explétif or drop it; the le is optional too."
+  - id: "c1-ne-expletif-ex016"
+    type: "translate"
+    prompt: "Traduisez avec le ne explétif (vous, avant que, partir) : Call him before he leaves."
+    answers: ["Appelez-le avant qu'il ne parte"]
+    explanation: "Avant que + subjunctive, with the ne explétif: avant qu'il ne parte."
+  - id: "c1-ne-expletif-ex017"
+    type: "translate"
+    prompt: "Traduisez en français courant, sans le ne explétif : I'm afraid she'll be late."
+    answers: ["J'ai peur qu'elle soit en retard", "Je crains qu'elle soit en retard"]
+    explanation: "Avoir peur que + subjunctive. In everyday French, no ne."
+  - id: "c1-ne-expletif-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : It's harder than I thought."
+    words: ["C'est", "plus", "difficile", "que", "je", "ne", "pensais"]
+    answers: ["C'est plus difficile que je ne pensais"]
+    explanation: "A comparison, then que je ne + indicative."
+---
+
+By the end of this lesson you'll be able to recognize the *ne* that doesn't negate, use it in careful writing, and never confuse it with a real negation.
+
+## What you already know
+
+You met *le ne explétif* in <LessonLink id="b1-subjonctif-wishes-emotions" text="the lesson on the subjunctive of wishes and emotions" />, after *avoir peur que* and *craindre que*, and used it after *avant que* and *à moins que* in <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on conjunctions with the subjunctive" />. In <LessonLink id="b2-purpose-expressions" text="the lesson on purpose expressions" />, you saw it after *de peur que* and *de crainte que*, and you learned *éviter que*. This lesson completes the list and shows how to tell it from a negation.
+
+## What the ne explétif is
+
+The *ne explétif* is a small *ne* with no negative meaning and no *pas*. It doesn't change what the sentence says: with or without it, the meaning is the same. It marks a careful, formal register, and in most places it's optional. In everyday speech, people usually leave it out.
+
+<Example fr="Partez avant qu'il ne soit trop tard." en="Leave before it's too late. (formal)" />
+<Example fr="Partez avant qu'il soit trop tard." en="Leave before it's too late. (standard)" />
+
+It appears where the idea behind the clause is a risk, a fear or something you want to prevent, or after a comparison of inequality.
+
+## After words of fear and prevention
+
+<VocabTable group="triggers" />
+
+After *avoir peur que*, *craindre que*, *redouter que*, *de peur que* and *de crainte que*, the subjunctive is often preceded by the *ne explétif* in writing.
+
+<Example fr="Je redoute qu'il ne fasse une erreur." en="I dread that he'll make a mistake. (formal)" />
+
+*Empêcher que* and *éviter que* express what you want to prevent. They take the subjunctive, and the *ne* is common but optional.
+
+<Example fr="Il faut empêcher que la situation ne devienne grave." en="We must prevent the situation from becoming serious. (formal)" />
+<Example fr="Nous avons tout fait pour éviter qu'il ne parte." en="We did everything we could to stop him leaving. (formal)" />
+
+*Il s'en faut de peu que* means "very nearly": something almost happened. You'll mostly meet it in the passé composé, *il s'en est fallu de peu que*, with the subjunctive and usually the *ne*.
+
+<Example fr="Il s'en est fallu de peu que nous ne soyons en retard." en="We very nearly were late. (formal)" />
+
+When the fear itself is denied or questioned (*je ne crains pas que*, *craignez-vous que…?*), the *ne explétif* is usually left out. Treat this as a rule of thumb.
+
+## After a comparison
+
+After a comparison of inequality, such as *plus… que*, *moins… que*, *autre… que* or *meilleur… que*, followed by a clause, careful French adds *ne* before the verb. Here the verb is in the indicative, not the subjunctive. You can also add *le*, which stands for the idea.
+
+<Example fr="L'incendie s'est propagé plus vite que nous ne le pensions." en="The fire spread faster than we thought. (formal)" />
+<Example fr="L'issue du match a été moins heureuse que nous ne l'espérions." en="The outcome of the match was less happy than we'd hoped. (formal)" />
+
+After *autant… que* and *aussi… que*, which compare equal things, there's no *ne*.
+
+## Ne explétif or negation?
+
+This is the key point. A real negation has a second word: *pas*, *plus*, *jamais*, *rien*. The *ne explétif* stands alone. With a word of fear, the two can mean opposite things.
+
+| Sentence | Meaning |
+|---|---|
+| *J'ai peur qu'il ne vienne.* | I'm afraid he'll come. (formal) |
+| *J'ai peur qu'il vienne.* | I'm afraid he'll come. (standard) |
+| *J'ai peur qu'il ne vienne pas.* | I'm afraid he won't come. |
+
+The same test works after *de crainte que*.
+
+<Example fr="Elle a gardé ses soupçons pour elle, de crainte qu'on ne la croie pas." en="She kept her suspicions to herself, for fear that people wouldn't believe her." />
+
+Here *ne… pas* is a real negation: she was afraid of not being believed.
+
+## Using it in your own writing
+
+In a formal letter, a report or an essay, the *ne explétif* is a mark of care, but it's never required. As a rule of thumb, use it where readers expect it, after *avant que*, *à moins que* and the verbs of fear, and leave it out of quick emails to colleagues and of anything you say aloud.
+
+Don't add it after *bien que*, *pour que* or *après que*. These conjunctions don't express a risk, and a *ne* there reads as a mistake or as a negation without its partner. It never goes with an infinitive either: *avant de partir*, *de peur de glisser*. Remember too that with *avant que* and *de peur que*, when both verbs have the same subject, you normally use the infinitive instead, as you saw at B2.
+
+<Example fr="Je vous écris avant que vous ne preniez votre décision." en="I'm writing to you before you make your decision. (formal)" />
+<Example fr="Nous partirons demain, à moins que la tempête ne s'aggrave." en="We'll leave tomorrow, unless the storm gets worse. (formal)" />
+
+## Words for risks
+
+<VocabTable group="words" />
+
+The *ne explétif* is common in formal reports about risks: accidents, damage, a situation that could get worse. The verbs below are useful in such reports, in any tense.
+
+<Example fr="Le vieux pont s'est effondré pendant la tempête." en="The old bridge collapsed during the storm." />
+<Example fr="La situation s'aggrave plus vite qu'on ne le pensait." en="The situation is getting worse faster than people thought. (formal)" />
+<Example fr="Il faut trouver la fuite avant qu'il ne soit trop tard." en="We must find the leak before it's too late. (formal)" />
+<Example fr="Tenez-lui la main : il faut éviter qu'il ne glisse." en="Hold his hand: we must stop him slipping. (formal)" />
+
+## En français
+
+Claire has written a formal letter to a client. She asks her manager, Monsieur Duval, to read it.
+
+- *Monsieur Duval, vous pouvez lire ma lettre au client ?* (Mr Duval, can you read my letter to the client?)
+- *Bien sûr. Vous avez écrit : « avant que nous ne fassions une nouvelle offre ».* (Of course. You wrote: "before we make a new offer".)
+- *Oui. C'est une erreur ? Il n'y a pas de « pas ».* (Yes. Is that a mistake? There's no "pas".)
+- *Non, c'est le ne explétif. Il ne veut pas dire « pas », et dans une lettre, il est très bien.* (No, it's the ne explétif. It doesn't mean "not", and in a letter it's very good.)
+- *Et à l'oral ?* (And when speaking?)
+- *À l'oral, on ne le dit pas souvent. « Avant que nous fassions une offre » est aussi correct.* (When speaking, people don't say it often. "Avant que nous fassions une offre" is also correct.)
+- *Et si j'écris : « Je crains que le client ne vienne » ?* (And if I write: "Je crains que le client ne vienne"?)
+- *Ça veut dire que vous avez peur qu'il vienne. Mais « je crains qu'il ne vienne pas », c'est le contraire !* (That means you're afraid he'll come. But "je crains qu'il ne vienne pas" is the opposite!)
+- *Je comprends. La lettre m'a pris plus de temps que je ne pensais.* (I understand. The letter took me longer than I thought.)
+- *Comme toujours ! Envoyez-la avant que le client ne parte en vacances.* (As always! Send it before the client goes on holiday.)
+- *Je l'envoie tout de suite. Merci pour votre aide.* (I'll send it straight away. Thanks for your help.)
+- *Avec plaisir. Bonne soirée !* (My pleasure. Have a good evening!)
+
+<Callout type="warning" title="J'ai peur qu'il ne vienne means he might come">
+  Learners often read every *ne* as "not". Without *pas*, the *ne* after a word of fear is explétif: **j'ai peur qu'il ne vienne** means "I'm afraid he'll come". To say "I'm afraid he won't come", you need **j'ai peur qu'il ne vienne pas**.
+</Callout>
+
+<Callout type="tip" title="Cover the ne and reread">
+  When you meet a *ne* in a formal text, first look further on for a partner word (*pas*, *plus*, *jamais*, *rien*). If there's none, cover the *ne* with your finger and reread the sentence: if the meaning stays the same, it's explétif.
+</Callout>
+
+## En résumé
+
+Le ne explétif est un petit ne sans pas, qui ne fait pas de la phrase une négation. Avec ou sans lui, la phrase veut dire la même chose. On le trouve surtout à l'écrit soutenu, et on peut souvent ne pas le mettre. Il suit les mots de peur et les verbes qui veulent empêcher quelque chose : avoir peur que, craindre que, redouter que, de crainte que, empêcher que, éviter que, avant que, à moins que, il s'en faut de peu que. Après ces mots, le verbe est au subjonctif : avant qu'il ne parte. Après plus… que ou moins… que, le verbe est à l'indicatif : c'est plus difficile que je ne pensais. Attention : avec pas, c'est une vraie négation. J'ai peur qu'il ne vienne et j'ai peur qu'il ne vienne pas ont des sens contraires.
+
+## What's next
+
+Next, <LessonLink id="c1-literary-negation" text="the lesson on literary negation" /> shows *ne… point*, *nul ne* and the other negatives of formal and literary French.
+
+=== c1-literary-negation ===
+
+---
+id: "c1-literary-negation"
+title: "Literary negation"
+description: "Read and use the negatives of formal and literary French: ne… point, nullement and aucunement, nul ne, ne alone with oser and cesser, ne… ni ne and sans… ni, with their everyday equivalents."
+level: "C1"
+unit: "Style and emphasis"
+order: 11
+type: "grammar"
+tags: ["grammar", "negation", "literary French", "formal writing"]
+prerequisites: ["b1-ne-que-ni-ni", "b2-registers", "c1-ne-expletif"]
+related: ["b1-indefinite-pronouns", "a2-negative-expressions", "c1-stylistic-inversion"]
+vocab:
+  - { id: "c1-literary-negation-v001", group: "negatives", fr: "ne… point", pron: "nuh… PWAN", en: "not, not at all (literary)" }
+  - { id: "c1-literary-negation-v002", group: "negatives", fr: "nullement / aucunement", pron: "newl-MAHN / oh-kew-nuh-MAHN", en: "not at all, in no way (formal)", note: "Also alone, as a reply: Nullement." }
+  - { id: "c1-literary-negation-v003", group: "negatives", fr: "nul ne / nulle ne", pron: "newl nuh", en: "nobody, no one (formal)", note: "Nul ne sait. No pas." }
+  - { id: "c1-literary-negation-v004", group: "negatives", fr: "nul / nulle + noun", pron: "NEWL", en: "no (formal)", note: "Il n'avait nulle envie de partir. Nulle part: nowhere." }
+  - { id: "c1-literary-negation-v005", group: "negatives", fr: "je n'ose", pron: "zhuh NOZ", en: "I dare not (literary)", note: "Oser: to dare. Standard: je n'ose pas." }
+  - { id: "c1-literary-negation-v006", group: "negatives", fr: "ne cesser de", pron: "nuh seh-SAY duh", en: "to keep (doing), never to stop (formal)", note: "Il ne cesse de pleuvoir." }
+  - { id: "c1-literary-negation-v007", group: "negatives", fr: "ne… ni ne", pron: "nuh… nee nuh", en: "neither… nor (with two verbs)", note: "Il ne mange ni ne dort." }
+  - { id: "c1-literary-negation-v008", group: "negatives", fr: "sans… ni", pron: "sahn… nee", en: "without… or (formal)", note: "Sans argent ni bagages." }
+  - { id: "c1-literary-negation-v009", group: "words", fr: "le repos", pron: "luh ruh-POH", en: "rest" }
+  - { id: "c1-literary-negation-v010", group: "words", fr: "la plainte", pron: "lah PLANT", en: "the complaint, the moan" }
+  - { id: "c1-literary-negation-v011", group: "words", fr: "suffire", pron: "sew-FEER", en: "to be enough", note: "Il suffit, ça suffit." }
+  - { id: "c1-literary-negation-v012", group: "words", fr: "la fierté", pron: "lah fyehr-TAY", en: "pride" }
+  - { id: "c1-literary-negation-v013", group: "words", fr: "le malheur", pron: "luh mah-LUHR", en: "misfortune, unhappiness" }
+  - { id: "c1-literary-negation-v014", group: "words", fr: "pardonner", pron: "par-doh-NAY", en: "to forgive", note: "Pardonner à quelqu'un." }
+exercises:
+  - id: "c1-literary-negation-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Je ne l'ai point vu."
+    options: ["I didn't see him at all.", "I saw him at one point.", "I only saw him."]
+    answers: ["I didn't see him at all."]
+    explanation: "Ne… point is a literary negative, like ne… pas but stronger."
+  - id: "c1-literary-negation-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre de la phrase : Il ne cesse de pleuvoir."
+    options: ["soutenu", "familier", "courant"]
+    answers: ["soutenu"]
+    explanation: "Ne alone with cesser belongs to formal and literary French. Standard French says il ne cesse pas de pleuvoir or il n'arrête pas de pleuvoir."
+  - id: "c1-literary-negation-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « nul ne » dans la phrase : Nul ne sait où il est parti."
+    options: ["nobody", "nothing", "never"]
+    answers: ["nobody"]
+    explanation: "Nul ne is the formal equivalent of personne ne."
+  - id: "c1-literary-negation-ex004"
+    type: "fill-in"
+    prompt: "Complétez au registre soutenu avec « nul » : ___ ne peut entrer sans invitation."
+    answers: ["Nul"]
+    explanation: "Nul ne + verb, with no pas: nobody may come in."
+  - id: "c1-literary-negation-ex005"
+    type: "fill-in"
+    prompt: "Complétez au registre soutenu, sans « pas » (oser, présent) : Je n'___ vous déranger."
+    answers: ["ose"]
+    explanation: "With oser, formal French can use ne alone: je n'ose vous déranger."
+  - id: "c1-literary-negation-ex006"
+    type: "fill-in"
+    prompt: "Complétez au registre soutenu, sans « pas » (cesser, présent) : Il ne ___ de se plaindre."
+    answers: ["cesse"]
+    explanation: "Ne cesser de + infinitive, with no pas: he keeps complaining."
+  - id: "c1-literary-negation-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Il ne mange ___ ne dort depuis trois jours."
+    options: ["ni", "pas", "point"]
+    answers: ["ni"]
+    explanation: "Ne… ni ne joins two negative verbs: he neither eats nor sleeps."
+  - id: "c1-literary-negation-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Il partit sans argent ___ amis."
+    options: ["ni", "et pas", "point"]
+    answers: ["ni"]
+    explanation: "After sans, formal French joins a second element with ni: sans argent ni amis."
+  - id: "c1-literary-negation-ex009"
+    type: "register-shift"
+    prompt: "Transformez en français courant, avec « pas » : Je ne l'ai point vu."
+    answers: ["Je ne l'ai pas vu"]
+    explanation: "Point becomes pas, in the same place."
+  - id: "c1-literary-negation-ex010"
+    type: "register-shift"
+    prompt: "Transformez en français courant : Nul ne sait où il est."
+    answers: ["Personne ne sait où il est"]
+    explanation: "Nul ne becomes personne ne. Neither takes pas."
+    strictAccents: true
+  - id: "c1-literary-negation-ex011"
+    type: "register-shift"
+    prompt: "Transformez en français courant, avec « arrêter de » : Il ne cesse de pleuvoir."
+    answers: ["Il n'arrête pas de pleuvoir"]
+    explanation: "Ne cesser de becomes ne pas arrêter de, with pas."
+  - id: "c1-literary-negation-ex012"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « nullement » : Je ne suis pas du tout fâché."
+    answers: ["Je ne suis nullement fâché"]
+    explanation: "Nullement replaces pas du tout."
+  - id: "c1-literary-negation-ex013"
+    type: "reformulation"
+    prompt: "Reformulez avec « ne… ni ne » : Il ne lit pas et il n'écrit pas."
+    answers: ["Il ne lit ni n'écrit"]
+    explanation: "One ne before the first verb, then ni ne (here ni n') before the second."
+  - id: "c1-literary-negation-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Nul ne le sait pas."
+    answers: ["Nul ne le sait", "Personne ne le sait"]
+    explanation: "Nul ne already makes the sentence negative: no pas."
+  - id: "c1-literary-negation-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Il n'a ni frère ni pas de sœur."
+    answers: ["Il n'a ni frère ni sœur"]
+    explanation: "Ne… ni… ni takes no pas and no article."
+    strictAccents: true
+  - id: "c1-literary-negation-ex016"
+    type: "translate"
+    prompt: "Traduisez en français courant : Nobody knows."
+    answers: ["Personne ne sait", "Personne ne le sait"]
+    explanation: "Everyday French: personne ne. The formal nul ne isn't needed here."
+  - id: "c1-literary-negation-ex017"
+    type: "translate"
+    prompt: "Traduisez au registre soutenu, avec « oser » sans « pas » : I dare not answer."
+    answers: ["Je n'ose répondre"]
+    explanation: "Oser with ne alone: je n'ose répondre."
+  - id: "c1-literary-negation-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : I don't doubt it at all. (formal)"
+    words: ["Je", "n'en", "doute", "nullement"]
+    answers: ["Je n'en doute nullement"]
+    explanation: "Ne… nullement, with en for the thing doubted."
+---
+
+By the end of this lesson you'll be able to read the negatives of literary and formal French, use a few of them in careful writing, and turn each one into everyday French.
+
+## What you already know
+
+In <LessonLink id="b2-registers" text="the lesson on registers" />, you met *ne… guère* (hardly) and *ne* alone with *pouvoir* and *savoir*: *je ne saurais dire*. You know *ne… ni… ni* from <LessonLink id="b1-ne-que-ni-ni" text="the lesson on ne… que and ne… ni… ni" />, and *ne… aucun* from <LessonLink id="b1-indefinite-pronouns" text="the lesson on indefinite pronouns" />. In <LessonLink id="c1-ne-expletif" text="the lesson on the ne explétif" />, you saw a *ne* that doesn't negate. This lesson is about the ones that do.
+
+## Negatives without pas
+
+<VocabTable group="negatives" />
+
+Literary and formal French has several negatives that replace *pas*. All but one keep *ne* before the verb, and none of them takes *pas* as well. The exception is *sans… ni*, which takes neither *ne* nor *pas*: *sans argent ni amis*. You'll read them in novels, in older texts and in very formal letters. In conversation, they sound bookish or ironic.
+
+## Ne… point
+
+*Ne… point* works like *ne… pas*, in the same places. It's literary and a little old-fashioned, and it often sounds stronger: "not at all".
+
+<Example fr="Je ne regrette point notre rencontre." en="I don't regret our meeting in the least. (literary)" />
+<Example fr="Sa fierté ne lui permettait point de se plaindre." en="His pride didn't allow him to complain. (literary)" />
+
+## Nullement and aucunement
+
+*Nullement* and *aucunement* mean "not at all, in no way". They follow the verb or the auxiliary, like *pas*, and they can also stand alone as a formal reply.
+
+<Example fr="Je n'en doute nullement." en="I don't doubt it at all. (formal)" />
+<Example fr="Il n'était aucunement fâché. Fâché ? Nullement." en="He wasn't angry in any way. Angry? Not at all. (formal)" />
+
+## Nul ne and nul + noun
+
+*Nul*, as a subject, means "nobody". It's the formal equivalent of *personne*, and it takes *ne* without *pas*. As an adjective, *nul* or *nulle* means "no" and agrees with its noun.
+
+<Example fr="Nul ne connaissait son malheur." en="Nobody knew of his misfortune. (literary)" />
+<Example fr="Il n'avait nulle envie de partir." en="He had no wish to leave. (literary)" />
+
+You know *c'était nul* (it was rubbish) from <LessonLink id="a2-talking-about-your-weekend" text="the lesson on talking about your weekend" />. That *nul* is an ordinary adjective with a different meaning, and it takes *pas* like any other: *ce n'était pas nul*.
+
+## Ne alone with oser and cesser
+
+With *pouvoir* and *savoir*, you already use *ne* alone in formal French. *Oser* (to dare) and *cesser* (to stop) work the same way. *Ne cesser de* + infinitive means "to keep doing": the action doesn't stop. With all four verbs, *ne* alone (*il ne cesse de pleuvoir*, *je n'ose le dire*) is formal or literary. *Ne… pas* (*il ne cesse pas de pleuvoir*, *je n'ose pas le dire*) is standard French and fully correct.
+
+<Example fr="Je n'ose lui demander de me pardonner." en="I dare not ask him to forgive me. (literary)" />
+<Example fr="Il ne cesse de pleuvoir depuis trois jours." en="It's been raining non-stop for three days. (formal)" />
+
+## Ni in formal prose
+
+You know *ne… ni… ni* with nouns: *il n'a ni frère ni sœur*. With two verbs, formal French puts *ne* before the first and *ni ne* before the second.
+
+<Example fr="Il ne mange ni ne dort." en="He neither eats nor sleeps. (formal)" />
+
+After *sans*, formal French joins a second element with *ni*: *sans argent ni amis*. Everyday French repeats *sans*: *sans argent et sans amis*.
+
+<Example fr="Il travailla toute la nuit, sans repos ni plainte." en="He worked all night, without rest or complaint. (literary)" />
+
+## With an infinitive
+
+With an infinitive, both parts of these negatives usually come before it, as with *ne pas*: *pour ne pas être en retard*. The same holds for *ne point* and *ne jamais*. *Nullement* and *aucunement* are different: they follow the infinitive, like an adverb.
+
+<Example fr="Il préféra ne point répondre." en="He preferred not to answer at all. (literary)" />
+<Example fr="Elle dit ne regretter nullement son choix." en="She said she didn't regret her choice in the least. (formal)" />
+
+## Which ones to use yourself
+
+You'll read all of these forms, but you don't need to write all of them. In a formal letter or an essay, *ne cesser de*, *nullement*, *nul ne* and *sans… ni* are natural and well received. *Ne… point* belongs to literature and older texts: use it only when you imitate a literary style, or it will sound like a pastiche. In emails, at work and in speech, go back to the everyday forms in the table below.
+
+## Words for the literary register
+
+<VocabTable group="words" />
+
+These words often go with the negatives above in older prose. *Suffire* (to be enough) is also everyday French.
+
+<Example fr="Un mot suffit : nul ne répondit." en="One word was enough: nobody answered. (literary)" />
+
+## The whole list
+
+| Literary or formal | Everyday French |
+|---|---|
+| *je ne l'ai point vu* | *je ne l'ai pas vu* |
+| *je n'en doute nullement / aucunement* | *je n'en doute pas du tout* |
+| *nul ne sait* | *personne ne sait* |
+| *il n'avait nulle envie* | *il n'avait aucune envie* |
+| *je n'ose répondre* | *je n'ose pas répondre* |
+| *il ne cesse de pleuvoir* | *il ne cesse pas de pleuvoir*, *il n'arrête pas de pleuvoir* |
+| *il ne mange ni ne dort* | *il ne mange pas et il ne dort pas* |
+| *sans argent ni amis* | *sans argent et sans amis* |
+
+## En français
+
+Camille is reading a novel from the nineteenth century. Yanis looks over her shoulder. They speak everyday French and quote the book.
+
+- *C'est quoi, ce vieux livre ?* (What's that old book? (familiar))
+- *Un roman du dix-neuvième siècle. Écoute : « Je n'ose vous écrire. »* (A novel from the nineteenth century. Listen: "Je n'ose vous écrire.")
+- *« Je n'ose » ? Il manque le « pas », non ?* ("Je n'ose"? The "pas" is missing, isn't it?)
+- *Non, avec oser, à l'écrit soutenu, « ne » suffit.* (No, with oser, in formal writing, "ne" is enough.)
+- *Nous, on dirait « je n'ose pas t'écrire ».* (We'd say "je n'ose pas t'écrire". (spoken))
+- *Exactement. Plus loin : « Nul ne connaît mon secret. »* (Exactly. Further on: "Nul ne connaît mon secret.")
+- *C'est-à-dire « personne ne connaît mon secret » ?* (Meaning "nobody knows my secret"?)
+- *Oui. Et à la fin : « Je ne regrette point notre rencontre. »* (Yes. And at the end: "Je ne regrette point notre rencontre.")
+- *« Point », c'est comme « pas » ?* (Is "point" like "pas"?)
+- *Oui, mais plus fort et plus littéraire. Aujourd'hui, on ne le dit presque plus.* (Yes, but stronger and more literary. Today, people hardly say it any more.)
+- *Il n'arrête pas de se plaindre, ton héros !* (He doesn't stop complaining, your hero!)
+- *L'auteur, lui, écrirait : « il ne cesse de se plaindre ».* (The author would write: "il ne cesse de se plaindre".)
+
+<Callout type="warning" title="Nul ne sait, not nul ne sait pas">
+  Learners often add *pas* out of habit. *Point*, *nullement*, *aucunement* and *nul* already complete the negation, so *pas* makes the sentence wrong: **nul ne sait**, **je n'en doute nullement**, never *nul ne sait pas*.
+</Callout>
+
+<Callout type="tip" title="Look for the partner of ne">
+  When you meet *ne* in a literary text, look for its partner: *pas*, *point*, *guère*, *nul*, *ni*, *nullement*. If there's none, check the verb (*oser*, *cesser*, *pouvoir*, *savoir*). If it's none of these, think of the *ne explétif* from the last lesson.
+</Callout>
+
+## En résumé
+
+La langue littéraire et la langue soutenue ont plusieurs formes de négation sans pas. Ne… point a le sens de ne… pas, mais il est plus fort et un peu ancien : je ne regrette point notre rencontre. Nullement et aucunement veulent dire pas du tout : je n'en doute nullement. Nul ne a le sens de personne ne, et nul ou nulle devant un nom a le sens d'aucun : nul ne sait, il n'avait nulle envie de partir. Avec oser, cesser, pouvoir et savoir, ne peut rester seul à l'écrit soutenu : je n'ose répondre, il ne cesse de pleuvoir. Avec pas, la phrase est courante et tout à fait correcte. Avec deux verbes, on écrit ne… ni ne : il ne mange ni ne dort. Après sans, le registre soutenu ajoute un second mot avec ni, sans ne et sans pas : sans argent ni amis. Avec point, nullement, aucunement et nul, on n'ajoute jamais pas.
+
+## What's next
+
+Next, <LessonLink id="c1-dislocation-and-fronting" text="the lesson on dislocation and fronting" /> shows how to put a word at the front of a sentence for emphasis.
+
+=== c1-dislocation-and-fronting ===
+
+---
+id: "c1-dislocation-and-fronting"
+title: "Dislocation and fronting"
+description: "Put the topic first or last in speech (ce film, je l'ai adoré; je l'ai adoré, ce film) with the right pronoun, and front words in formal writing (rares sont ceux qui, reste à savoir si, telle est la raison), choosing the emphasis that fits the register."
+level: "C1"
+unit: "Style and emphasis"
+order: 12
+type: "grammar"
+tags: ["grammar", "emphasis", "word order", "registers"]
+prerequisites: ["b2-mise-en-relief", "b2-colloquial-french", "c1-stylistic-inversion"]
+related: ["c1-literary-negation", "c1-passe-simple", "b2-registers"]
+vocab:
+  - { id: "c1-dislocation-and-fronting-v001", group: "spoken", fr: "la dislocation", pron: "lah dees-loh-kah-SYOHN", en: "dislocation (moving a word to the start or end of the sentence and repeating it with a pronoun)" }
+  - { id: "c1-dislocation-and-fronting-v002", group: "spoken", fr: "le thème (de la phrase)", pron: "luh TEM duh lah FRAHZ", en: "the topic, what the sentence is about", note: "Not le sujet, the grammatical subject: in ce film, je l'ai adoré, the subject is je." }
+  - { id: "c1-dislocation-and-fronting-v003", group: "written", fr: "rares sont ceux qui", pron: "rahr sohn suh KEE", en: "few people…, there are few who… (formal)", note: "Rares sont les pièces qui… The adjective agrees." }
+  - { id: "c1-dislocation-and-fronting-v004", group: "written", fr: "nombreux sont ceux qui", pron: "nohn-bruh sohn suh KEE", en: "many people… (formal)", note: "Nombreuses sont les femmes qui…" }
+  - { id: "c1-dislocation-and-fronting-v005", group: "written", fr: "reste à savoir si", pron: "rest ah sah-VWAHR see", en: "it remains to be seen whether (formal)", note: "Standard: il reste à savoir si." }
+  - { id: "c1-dislocation-and-fronting-v006", group: "written", fr: "reste la question de", pron: "rest lah kes-TYOHN duh", en: "there remains the question of (formal)", note: "Plural: restent deux questions, or impersonal il reste deux questions." }
+  - { id: "c1-dislocation-and-fronting-v007", group: "written", fr: "tel est / telle est", pron: "teh-LEH / teh-LEH", en: "such is, that is (formal)", note: "Tel agrees with the noun after it: telle est la raison, tels sont les faits." }
+  - { id: "c1-dislocation-and-fronting-v008", group: "written", fr: "le sort", pron: "luh SOR", en: "fate, lot", note: "Tel fut son sort (literary, passé simple): such was his fate." }
+  - { id: "c1-dislocation-and-fronting-v009", group: "words", fr: "la pièce de théâtre", pron: "lah pyes duh tay-AH-truh", en: "the play" }
+  - { id: "c1-dislocation-and-fronting-v010", group: "words", fr: "le comédien / la comédienne", pron: "luh koh-may-DYAN / lah koh-may-DYEN", en: "the actor / the actress (on stage)", note: "Not a comedian: that's un humoriste." }
+  - { id: "c1-dislocation-and-fronting-v011", group: "words", fr: "le décor", pron: "luh day-KOR", en: "the set, the scenery" }
+  - { id: "c1-dislocation-and-fronting-v012", group: "words", fr: "la représentation", pron: "lah ruh-pray-zahn-tah-SYOHN", en: "the performance (of a play)" }
+  - { id: "c1-dislocation-and-fronting-v013", group: "words", fr: "bouleverser", pron: "bool-vehr-SAY", en: "to move deeply, to overwhelm; to upset" }
+  - { id: "c1-dislocation-and-fronting-v014", group: "words", fr: "la critique", pron: "lah kree-TEEK", en: "the review (of a show or book); criticism" }
+  - { id: "c1-dislocation-and-fronting-v015", group: "words", fr: "le metteur en scène", pron: "luh meh-tuhr ahn SEN", en: "the director (of a play)" }
+exercises:
+  - id: "c1-dislocation-and-fronting-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez où on entend surtout cette phrase : Ce film, je l'ai adoré."
+    options: ["à l'oral", "dans un rapport officiel"]
+    answers: ["à l'oral"]
+    explanation: "Dislocation is a feature of speech. A formal report would say j'ai beaucoup apprécié ce film."
+  - id: "c1-dislocation-and-fronting-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Ton frère, je ___ ai écrit hier."
+    options: ["lui", "l'", "en"]
+    answers: ["lui"]
+    explanation: "Écrire à quelqu'un: the person is taken up by lui."
+  - id: "c1-dislocation-and-fronting-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Du café, j'___ bois trois tasses par jour."
+    options: ["en", "le", "y"]
+    answers: ["en"]
+    explanation: "An amount (du café, trois tasses) is taken up by en."
+  - id: "c1-dislocation-and-fronting-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Ce projet, j'___ pense tous les jours."
+    options: ["y", "en", "le"]
+    answers: ["y"]
+    explanation: "Penser à quelque chose: the thing is taken up by y."
+  - id: "c1-dislocation-and-fronting-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Le chocolat, j'adore ça."
+    options: ["I love chocolate (in general).", "I love this particular chocolate.", "I don't like chocolate."]
+    answers: ["I love chocolate (in general)."]
+    explanation: "Ça takes up a noun used in a general sense. For one particular chocolate, you'd say ce chocolat, je l'adore."
+  - id: "c1-dislocation-and-fronting-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Rares sont ceux qui lisent ce roman jusqu'à la fin."
+    options: ["Few people read this novel to the end.", "Many people read this novel to the end.", "The people who read this novel to the end are strange."]
+    answers: ["Few people read this novel to the end."]
+    explanation: "Rares sont ceux qui: few people. Rare here means few in number, not strange."
+  - id: "c1-dislocation-and-fronting-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps de « fut » dans la phrase : Tel fut son sort."
+    options: ["le passé simple", "l'imparfait du subjonctif", "le présent"]
+    answers: ["le passé simple"]
+    explanation: "Fut, with no circumflex and no que, is the passé simple of être: such was his fate."
+  - id: "c1-dislocation-and-fronting-ex008"
+    type: "fill-in"
+    prompt: "Accordez « tel » : ___ est la raison de mon départ."
+    answers: ["Telle"]
+    explanation: "Tel agrees with the noun that follows: la raison is feminine singular, so telle."
+  - id: "c1-dislocation-and-fronting-ex009"
+    type: "fill-in"
+    prompt: "Accordez « tel » : ___ sont les faits."
+    answers: ["Tels"]
+    explanation: "Les faits is masculine plural, so tels."
+  - id: "c1-dislocation-and-fronting-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « rares sont ceux qui » : Peu de gens comprennent ce texte."
+    answers: ["Rares sont ceux qui comprennent ce texte"]
+    explanation: "Rares comes first, then sont, then ceux qui + verb in the plural."
+  - id: "c1-dislocation-and-fronting-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « reste à savoir si » : On ne sait pas encore si le projet réussira."
+    answers: ["Reste à savoir si le projet réussira", "Il reste à savoir si le projet réussira", "Reste à savoir si le projet va réussir", "Il reste à savoir si le projet va réussir"]
+    explanation: "Reste à savoir si opens the sentence; il reste à savoir si is the standard version."
+    strictAccents: true
+  - id: "c1-dislocation-and-fronting-ex012"
+    type: "register-shift"
+    prompt: "Transformez au registre courant écrit, sans dislocation : Ce film, je l'ai adoré."
+    answers: ["J'ai adoré ce film", "C'est ce film que j'ai adoré"]
+    explanation: "In writing, use the plain order, or c'est… que to keep the emphasis."
+  - id: "c1-dislocation-and-fronting-ex013"
+    type: "register-shift"
+    prompt: "Transformez à l'oral, avec une dislocation au début de la phrase : J'ai déjà vu cette pièce de théâtre."
+    answers: ["Cette pièce de théâtre, je l'ai déjà vue"]
+    explanation: "The topic goes first, then l' before the verb. L' stands for a feminine noun placed before avoir, so the participle agrees: vue."
+  - id: "c1-dislocation-and-fronting-ex014"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « telle est » : C'est la raison de notre choix."
+    answers: ["Telle est la raison de notre choix"]
+    explanation: "Telle est replaces c'est in formal writing; telle agrees with la raison."
+  - id: "c1-dislocation-and-fronting-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur en gardant la dislocation : Ce roman, je lui ai adoré."
+    answers: ["Ce roman, je l'ai adoré"]
+    explanation: "Adorer takes a direct object, so the topic is taken up by le (l'), not lui."
+  - id: "c1-dislocation-and-fronting-ex016"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Rares sont ceux qui le sait."
+    answers: ["Rares sont ceux qui le savent"]
+    explanation: "Ceux is plural, so the verb is too: ceux qui le savent."
+  - id: "c1-dislocation-and-fronting-ex017"
+    type: "translate"
+    prompt: "Traduisez au registre soutenu, avec « nombreux sont ceux qui » (aimer) : Many people love this play."
+    answers: ["Nombreux sont ceux qui aiment cette pièce", "Nombreux sont ceux qui aiment cette pièce de théâtre"]
+    explanation: "Nombreux comes first, then sont ceux qui + verb in the plural."
+  - id: "c1-dislocation-and-fronting-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre, avec le thème au début : I loved that film. (spoken)"
+    words: ["Ce", "film", "je", "l'ai", "adoré"]
+    answers: ["Ce film, je l'ai adoré"]
+    explanation: "Left dislocation: the topic first, then the pronoun l' before the verb."
+---
+
+By the end of this lesson you'll be able to put the topic first or last in spoken French with the right pronoun, front a word in formal writing, and choose the kind of emphasis that fits the register.
+
+## What you already know
+
+In <LessonLink id="b2-mise-en-relief" text="the lesson on emphasis" />, you learned *c'est… qui*, *c'est… que* and *ce qui…, c'est*, and you met spoken dislocation briefly: *moi, je préfère le train*, *le café, je l'adore*. In <LessonLink id="b2-colloquial-french" text="the lesson on spoken, everyday French" />, you saw that speakers announce the subject and then repeat it: *mon frère, il travaille à Lyon*. This lesson shows how dislocation works with every kind of pronoun, and what formal writing does instead.
+
+## Left dislocation: the topic first
+
+<VocabTable group="spoken" />
+
+In speech, French often puts *le thème* (the topic, what the sentence is about) at the start, and then takes it up with a pronoun inside the sentence. This is called *la dislocation*. The pronoun is the one the verb needs. Don't confuse *le thème* with *le sujet*, the grammatical subject.
+
+<Example fr="Dans « ce film, je l'ai adoré », le thème est ce film, et le sujet est je." en="In “ce film, je l'ai adoré”, the topic is ce film, and the subject is je." />
+
+| The verb takes… | Pronoun | Example |
+|---|---|---|
+| a direct object | *le, la, les* | *Ce film, je l'ai adoré.* |
+| *à* + a person | *lui, leur* | *Ton frère, je lui ai écrit.* |
+| *à* + a thing | *y* | *Ce projet, j'y pense souvent.* |
+| *de* + a thing, or an amount | *en* | *Du café, j'en bois trop.* |
+| a subject | *il, elle, ils, elles* | *Mon frère, il travaille à Lyon.* |
+
+<Example fr="Cette pièce de théâtre, je l'ai vue deux fois." en="I've seen that play twice. (spoken)" />
+<Example fr="Tes parents, tu leur as parlé ?" en="Have you spoken to your parents? (spoken)" />
+<Example fr="Des comédiens comme ça, il y en a peu." en="There aren't many actors like that. (spoken)" />
+
+The past participle agrees as usual when a direct object pronoun comes before it: *la pièce… je l'ai vue*.
+
+## Ça for a general idea
+
+When the topic is a noun in a general sense, especially with verbs of liking, speakers often take it up with *ça*, not with *le*. Treat this as a rule of thumb.
+
+<Example fr="Le chocolat, j'adore ça." en="I love chocolate. (spoken; chocolate in general)" />
+<Example fr="Ce chocolat, je l'adore." en="I love this chocolate. (spoken; one particular chocolate)" />
+
+## Right dislocation: the topic at the end
+
+The topic can also come at the end, after a pronoun that announces it. This is common when the topic is already clear from the situation, or as an afterthought.
+
+<Example fr="Je l'ai adoré, ce film." en="I loved that film. (spoken)" />
+<Example fr="Il est où, ton sac ?" en="Where's your bag? (spoken)" />
+<Example fr="Elle m'a bouleversé, cette représentation." en="That performance moved me deeply. (spoken; a man speaking)" />
+
+## Moi, je… and two topics at once
+
+A stressed pronoun (*moi*, *toi*, *lui*, *nous*…) at the start marks a contrast with other people: *moi, je reste*. You can combine it with a second topic, which gives a sentence with two dislocations.
+
+<Example fr="Moi, ce décor, je l'ai trouvé très beau." en="Personally, I found that set very beautiful. (spoken)" />
+
+## A spoken feature
+
+Dislocation is normal in conversation and in informal writing such as messages. In a report, an essay or a formal letter, it sounds like speech. There, use the plain order, or *c'est… que*, or *quant à* for a new topic.
+
+<Example fr="J'ai beaucoup aimé la mise en scène." en="I liked the staging very much." />
+<Example fr="C'est la mise en scène que j'ai le plus aimée." en="It was the staging that I liked most." />
+
+## Fronting in formal writing
+
+<VocabTable group="written" />
+
+Formal writing has its own ways of putting a word first. They don't repeat anything with a pronoun: the word moves, and the subject often comes after the verb.
+
+**Rares sont ceux qui** and **nombreux sont ceux qui** put the adjective first, then *être*, then the subject. The adjective agrees with the noun: *rares sont les pièces*, *nombreuses sont les comédiennes*.
+
+<Example fr="Rares sont ceux qui ont vu la première représentation." en="Few people saw the first performance. (formal)" />
+<Example fr="Nombreuses sont les critiques qui saluent le metteur en scène." en="Many reviews praise the director. (formal)" />
+
+**Reste** at the start, without *il*, introduces what is still to be dealt with. *Reste à savoir si* means "it remains to be seen whether". With a plural noun, the verb is plural: *restent deux questions*. The impersonal version stays singular: *il reste deux questions*. The standard versions are *il reste à savoir si* and *il reste la question de*.
+
+<Example fr="Reste à savoir si le public suivra." en="It remains to be seen whether the audience will follow. (formal)" />
+<Example fr="Reste la question du décor." en="There remains the question of the set. (formal)" />
+
+**Tel est**, **telle est**, **tels sont** and **telles sont** sum up what came before. *Tel* agrees with the noun that follows. In literary narrative, you'll also read it with the passé simple, for recognition: *tel fut son sort* (such was his fate).
+
+<Example fr="Telle est la raison de notre choix." en="That is the reason for our choice. (formal)" />
+<Example fr="Il ne revint jamais. Tel fut son sort." en="He never came back. Such was his fate. (literary)" />
+
+You already know *toujours est-il que* (the fact remains that) from <LessonLink id="c1-stylistic-inversion" text="the lesson on stylistic inversion" />. It works the same way: it puts the main point at the front of a formal sentence.
+
+## Choosing the emphasis
+
+| Speech | Standard writing | Formal writing |
+|---|---|---|
+| *Ce film, je l'ai adoré.* | *C'est ce film que j'ai adoré.* | *Rares sont les films qui m'ont autant touché.* |
+| *Des gens comme lui, il y en a peu.* | *Il y a peu de gens comme lui.* | *Rares sont ceux qui lui ressemblent.* |
+| *C'est ça, la raison.* | *Voilà la raison.* | *Telle est la raison.* |
+
+In the first row, the formal sentence has the same emphasis but says something different: formal writing has no exact equivalent of *ce film, je l'ai adoré*.
+
+As a rule of thumb, match the emphasis to the register of the rest of your text. A fronted *rares sont ceux qui* in a text message sounds stiff, and a dislocation in a formal letter sounds careless.
+
+## Words for a show
+
+<VocabTable group="words" />
+
+*Le comédien* is an actor on stage, not a comedian. *La critique* is both a review and criticism in general. *Bouleverser* means to move someone deeply or to upset.
+
+<Example fr="Les comédiens ont joué devant une salle pleine." en="The actors played to a full house." />
+<Example fr="La critique a été très dure avec le metteur en scène." en="The review was very harsh on the director." />
+
+## The whole list
+
+- Left dislocation: *le thème* (the topic) first, then a pronoun (*le, lui, y, en, il*…): *ce film, je l'ai adoré*.
+- *Ça* for a general idea: *le chocolat, j'adore ça*.
+- Right dislocation: pronoun first, *le thème* at the end: *je l'ai adoré, ce film*.
+- *Moi, je…*: contrast with others.
+- All of these are spoken or informal.
+- Formal fronting: *rares* or *nombreux sont ceux qui*, *reste à savoir si*, *reste la question de*, *telle est la raison*.
+
+## En français
+
+Malik and Clara are leaving the theatre. Clara writes reviews for a local newspaper.
+
+- *Alors, la pièce, tu l'as aimée ?* (So, did you like the play? (spoken))
+- *Moi, je l'ai adorée. Les comédiens, ils étaient très bons.* (I loved it. The actors were very good. (spoken))
+- *Le décor, je l'ai trouvé un peu triste.* (I found the set a bit gloomy. (spoken))
+- *Tu trouves ? Moi, il m'a beaucoup plu, ce décor.* (Do you think so? I liked that set a lot. (spoken))
+- *Et la fin, tu en penses quoi ?* (And what do you think of the ending? (spoken))
+- *Elle m'a bouleversée. Je vais écrire une critique pour le journal.* (It moved me deeply. I'm going to write a review for the paper.)
+- *Tu vas écrire comme tu parles ?* (Are you going to write the way you speak?)
+- *Non ! Écoute : « Rares sont les pièces aussi émouvantes. »* (No! Listen: "Few plays are so moving.")
+- *C'est plus joli que « des pièces aussi émouvantes, il y en a peu ».* (That sounds nicer than "plays as moving as that, there aren't many". (spoken))
+- *Et à la fin : « Telle est la force de cette pièce : elle vous suit longtemps. »* (And at the end: "Such is the power of this play: it stays with you for a long time.")
+- *Et le décor ?* (And the set?)
+- *« Reste la question du décor : tout le monde ne l'aimera pas. »* ("There remains the question of the set: not everyone will like it.")
+- *Ça, c'est pour moi !* (That one's for me! (spoken))
+- *Exactement. Ton avis, je l'ai noté.* (Exactly. I've noted your opinion. (spoken))
+
+<Callout type="warning" title="Ce roman, je l'ai adoré, not je lui ai adoré">
+  Learners often pick the pronoun by the person or thing, not by the verb. The pronoun is the one the verb needs: *adorer* takes a direct object, so **ce roman, je l'ai adoré**; *écrire à* takes *lui*, so **ton frère, je lui ai écrit**.
+</Callout>
+
+<Callout type="tip" title="Hunt for the comma">
+  When you reread a formal text you've written, look for a comma followed by a pronoun near the start of a sentence (*Ce point, il…*, *Le budget, nous l'…*). Each one is probably a dislocation from your speaking habits. Rewrite it in the plain order or with *c'est… que*.
+</Callout>
+
+## En résumé
+
+La dislocation est une façon de mettre un mot en relief à l'oral. On met le thème de la phrase au début, puis on le reprend avec le pronom dont le verbe a besoin : ce film, je l'ai adoré ; ton frère, je lui ai écrit ; ce projet, j'y pense ; du café, j'en bois trop. Pour une idée générale, on dit souvent ça : le chocolat, j'adore ça. On peut aussi mettre le mot à la fin : je l'ai adoré, ce film. Moi, je… montre une différence avec les autres. À l'écrit soutenu, on évite la dislocation. On met plutôt un mot en tête sans pronom : rares sont ceux qui, nombreux sont ceux qui, reste à savoir si, reste la question de, telle est la raison. Tel s'accorde avec le nom qui suit. Il faut donc choisir la mise en relief selon le registre du texte.
+
+## What's next
+
+Next, <LessonLink id="c1-adverb-placement" text="the lesson on adverb placement" /> shows how moving one small word, such as *seulement* or *même*, can change what a sentence means.
+
+=== c1-adverb-placement ===
+
+---
+id: "c1-adverb-placement"
+title: "Adverb placement and nuance"
+description: "Move seulement, même and aussi to change what a sentence means, use sentence adverbs (visiblement, décidément, forcément), and place long adverbs in compound tenses, with placements given as tendencies."
+level: "C1"
+unit: "Style and emphasis"
+order: 13
+type: "grammar"
+tags: ["grammar", "adverbs", "word order", "nuance"]
+prerequisites: ["a2-adverbs-ment", "b1-ne-que-ni-ni", "c1-stylistic-inversion"]
+related: ["b2-registers", "c1-dislocation-and-fronting", "b1-conditionnel-present"]
+vocab:
+  - { id: "c1-adverb-placement-v001", group: "position", fr: "Seulement, …", pron: "suhl-MAHN", en: "the only thing is…, but… (at the start of a sentence)", note: "Le restaurant est bon. Seulement, il est cher." }
+  - { id: "c1-adverb-placement-v002", group: "position", fr: "même (= even)", pron: "MEM", en: "even", note: "Before the word it stresses: même Paul, il a même ri." }
+  - { id: "c1-adverb-placement-v003", group: "position", fr: "lui-même / elle-même / eux-mêmes", pron: "lwee-MEM / el-MEM / uh-MEM", en: "himself / herself / themselves (for emphasis)", note: "Même agrees in the plural: nous-mêmes, eux-mêmes." }
+  - { id: "c1-adverb-placement-v004", group: "position", fr: "le jour même", pron: "luh zhoor MEM", en: "that very day", note: "Le même jour: the same day." }
+  - { id: "c1-adverb-placement-v005", group: "position", fr: "la virgule", pron: "lah veer-GEWL", en: "the comma" }
+  - { id: "c1-adverb-placement-v006", group: "position", fr: "rire / il a ri", pron: "reer / ee-lah REE", en: "to laugh / he laughed" }
+  - { id: "c1-adverb-placement-v007", group: "sentence", fr: "un adverbe de phrase", pron: "uh-nad-vehr-buh duh FRAHZ", en: "a sentence adverb (one that comments on the whole sentence)" }
+  - { id: "c1-adverb-placement-v008", group: "sentence", fr: "visiblement", pron: "vee-zee-bluh-MAHN", en: "visibly, evidently (from what you can see)" }
+  - { id: "c1-adverb-placement-v009", group: "sentence", fr: "décidément", pron: "day-see-day-MAHN", en: "really, definitely (after the same thing has happened again)", note: "Décidément, tu es toujours en retard !" }
+  - { id: "c1-adverb-placement-v010", group: "sentence", fr: "forcément", pron: "for-say-MAHN", en: "necessarily, inevitably", note: "Pas forcément: not necessarily." }
+  - { id: "c1-adverb-placement-v011", group: "sentence", fr: "sérieusement", pron: "say-ryuhz-MAHN", en: "seriously" }
+  - { id: "c1-adverb-placement-v012", group: "long", fr: "complètement", pron: "kohn-plet-MAHN", en: "completely" }
+  - { id: "c1-adverb-placement-v013", group: "long", fr: "longuement", pron: "lohng-MAHN", en: "at length, for a long time" }
+  - { id: "c1-adverb-placement-v014", group: "long", fr: "attentivement", pron: "ah-tahn-teev-MAHN", en: "carefully, attentively" }
+  - { id: "c1-adverb-placement-v015", group: "long", fr: "soigneusement", pron: "swah-nyuhz-MAHN", en: "carefully, neatly" }
+  - { id: "c1-adverb-placement-v016", group: "long", fr: "relire", pron: "ruh-LEER", en: "to reread, to read over", note: "Like lire: j'ai relu." }
+exercises:
+  - id: "c1-adverb-placement-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Même Paul a ri."
+    options: ["Even Paul laughed.", "Paul himself laughed.", "Paul laughed again."]
+    answers: ["Even Paul laughed."]
+    explanation: "Même before a noun means even: Paul, of all people, laughed."
+  - id: "c1-adverb-placement-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Paul lui-même a ri."
+    options: ["Paul himself laughed.", "Even Paul laughed.", "Paul laughed at himself."]
+    answers: ["Paul himself laughed."]
+    explanation: "Lui-même after the noun stresses the person: Paul himself, not someone else."
+  - id: "c1-adverb-placement-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « le jour même » dans la phrase : Il a reçu la lettre et il est parti le jour même."
+    options: ["that very day", "the next day", "every day"]
+    answers: ["that very day"]
+    explanation: "After the noun, même means very: le jour même, that very day."
+  - id: "c1-adverb-placement-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « Aussi » dans la phrase : Il pleuvait. Aussi sommes-nous restés à la maison."
+    options: ["therefore", "also", "as"]
+    answers: ["therefore"]
+    explanation: "At the start of a sentence, followed by inversion, aussi means therefore (formal)."
+  - id: "c1-adverb-placement-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « Seulement » dans la phrase : Le restaurant est excellent. Seulement, il est très cher."
+    options: ["the only thing is", "only the restaurant", "not only"]
+    answers: ["the only thing is"]
+    explanation: "Seulement at the start of a sentence, with a comma, introduces a drawback: the only thing is, but."
+  - id: "c1-adverb-placement-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « franchement » dans la phrase : Il nous a parlé franchement."
+    options: ["in a frank way (how he spoke)", "frankly, in my opinion (a comment on the whole sentence)"]
+    answers: ["in a frank way (how he spoke)"]
+    explanation: "After the verb, with no comma, franchement describes the manner. At the start, with a comma, it would comment on the sentence: franchement, il nous a menti."
+  - id: "c1-adverb-placement-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui veut dire « He spoke to Marie and to nobody else »."
+    options: ["Il a parlé seulement à Marie.", "Seulement, il a parlé à Marie.", "Il a même parlé à Marie."]
+    answers: ["Il a parlé seulement à Marie."]
+    explanation: "Right before à Marie, seulement restricts Marie. At the start, it means the only thing is; même means even."
+  - id: "c1-adverb-placement-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez l'adverbe : Tu es encore en retard ! ___, tu ne changeras jamais."
+    options: ["Décidément", "Heureusement", "Lentement"]
+    answers: ["Décidément"]
+    explanation: "Décidément comments on something that has happened once again."
+  - id: "c1-adverb-placement-ex009"
+    type: "connector-choice"
+    prompt: "Choisissez l'adverbe : Les livres chers sont meilleurs ? Pas ___."
+    options: ["forcément", "décidément", "lentement"]
+    answers: ["forcément"]
+    explanation: "Pas forcément: not necessarily."
+  - id: "c1-adverb-placement-ex010"
+    type: "reformulation"
+    prompt: "Reformulez la deuxième phrase avec « Aussi » en tête et l'inversion : Il pleuvait. Nous sommes donc restés à la maison."
+    answers: ["Aussi sommes-nous restés à la maison", "Il pleuvait. Aussi sommes-nous restés à la maison"]
+    explanation: "Aussi (therefore) opens the second sentence, and the subject pronoun goes after the auxiliary: sommes-nous restés."
+    strictAccents: true
+  - id: "c1-adverb-placement-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « complètement » : Il a oublié la réunion."
+    answers: ["Il a complètement oublié la réunion", "Il a oublié complètement la réunion", "Il a oublié la réunion complètement"]
+    explanation: "Before the participle is the most usual place for complètement; after the participle or at the end is also possible."
+    strictAccents: true
+  - id: "c1-adverb-placement-ex012"
+    type: "translate"
+    prompt: "Traduisez (même) : Even my brother understood."
+    answers: ["Même mon frère a compris"]
+    strictAccents: true
+    explanation: "Même goes right before the word it stresses: même mon frère."
+  - id: "c1-adverb-placement-ex013"
+    type: "translate"
+    prompt: "Traduisez avec « visiblement » : She was visibly tired."
+    answers: ["Elle était visiblement fatiguée", "Visiblement, elle était fatiguée", "Elle était fatiguée, visiblement"]
+    explanation: "A sentence adverb can go after the verb, at the start with a comma, or at the end with a comma."
+  - id: "c1-adverb-placement-ex014"
+    type: "translate"
+    prompt: "Traduisez avec « longuement » et « y » (réfléchir) : I thought about it at length."
+    answers: ["J'y ai longuement réfléchi", "J'y ai réfléchi longuement"]
+    explanation: "Longuement often goes between the auxiliary and the participle; after the participle is also correct."
+  - id: "c1-adverb-placement-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Ils ont tout fait eux-même."
+    answers: ["Ils ont tout fait eux-mêmes"]
+    explanation: "Même agrees with a plural pronoun: eux-mêmes."
+  - id: "c1-adverb-placement-ex016"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (le sens : not necessarily true) : Ce n'est forcément pas vrai."
+    answers: ["Ce n'est pas forcément vrai"]
+    explanation: "Pas forcément means not necessarily: pas comes first. Forcément pas would mean necessarily not."
+  - id: "c1-adverb-placement-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Even my sister came."
+    words: ["Même", "ma", "sœur", "est", "venue"]
+    answers: ["Même ma sœur est venue"]
+    explanation: "Même right before ma sœur: even my sister. Ma sœur est même venue would mean my sister even came, as an extra."
+---
+
+By the end of this lesson you'll be able to move *seulement*, *même* and *aussi* to change what a sentence means, use sentence adverbs to comment on what you say, and place long adverbs in compound tenses.
+
+## What you already know
+
+In <LessonLink id="a2-adverbs-ment" text="the lesson on adverbs" />, you placed short adverbs between the auxiliary and the participle (*j'ai bien mangé*) and most *-ment* adverbs after it, as a guide. You know *seulement* from <LessonLink id="b1-ne-que-ni-ni" text="the lesson on ne… que and ni… ni" />, and *aussi* with inversion (therefore) from <LessonLink id="b2-registers" text="the lesson on registers" />, which <LessonLink id="c1-stylistic-inversion" text="the lesson on stylistic inversion" /> came back to. This lesson is about how the position of an adverb can change its meaning.
+
+## Seulement: what it restricts
+
+<VocabTable group="position" />
+
+*Seulement* restricts the word it stands next to, usually the one right after it. Put it where the restriction belongs.
+
+<Example fr="Il travaille seulement le matin." en="He works only in the morning." />
+<Example fr="Il a parlé seulement à Marie." en="He spoke only to Marie (to nobody else)." />
+
+Between the auxiliary and the participle, *seulement* can restrict what follows it or the action itself. *Il a seulement lu le résumé* usually means he read the summary and not the book. Said with stress on *lu*, it can mean that he only read it and did nothing more with it. In speech, the voice shows what's restricted; in writing, put *seulement* right before the word you mean, or use *ne… que*: *il n'a lu que le résumé*.
+
+At the start of a sentence, followed by a comma, *seulement* changes meaning: it introduces a drawback, like "the only thing is" or "but".
+
+<Example fr="Le restaurant est très bon. Seulement, il est cher." en="The restaurant is very good. The only thing is, it's expensive." />
+
+## Même: even, or itself
+
+*Même* has two meanings, and its position tells them apart.
+
+- **Before a noun or a pronoun**, *même* means "even": *même Paul a ri* (even Paul laughed).
+- **After a stressed pronoun**, joined with a hyphen, it means "himself, herself": *lui-même*, *elle-même*. In the plural, *même* agrees: *nous-mêmes*, *eux-mêmes*.
+- **After a noun**, it means "very" or "itself": *le jour même* (that very day).
+
+<Example fr="Même les enfants ont compris." en="Even the children understood." />
+<Example fr="Le directeur lui-même est venu nous voir." en="The director himself came to see us." />
+<Example fr="Il a reçu la lettre et il est parti le jour même." en="He got the letter and left that very day." />
+
+Compare *le même jour* (the same day), where *même* is an adjective before the noun. After the verb, *même* means "even" and stresses the action: *il a même ri* (he even laughed). So *même Paul a ri* and *Paul a même ri* don't say the same thing: in the first, Paul is the surprise; in the second, the laughing is.
+
+## Aussi: also, or therefore
+
+Inside the sentence, *aussi* means "also": *nous sommes aussi restés à la maison* (we also stayed at home). At the start of a sentence, followed by inversion, it means "therefore" in formal writing.
+
+<Example fr="Il pleuvait. Aussi sommes-nous restés à la maison." en="It was raining. We therefore stayed at home. (formal)" />
+
+In everyday French, say *donc* or *alors* for "therefore", and keep *aussi* for "also".
+
+## Sentence adverbs
+
+<VocabTable group="sentence" />
+
+Some adverbs don't describe how something is done: they comment on the whole sentence. This is *un adverbe de phrase* (a sentence adverb). You know *heureusement* from <LessonLink id="a2-adverbs-ment" text="the lesson on adverbs" />, *franchement* from <LessonLink id="b1-expressing-opinions" text="the lesson on expressing opinions" />, and *apparemment* from <LessonLink id="b1-conditionnel-present" text="the lesson on the conditionnel présent" />.
+
+A sentence adverb often goes at the start with a comma, after the conjugated verb, or at the end after a comma. The meaning stays the same.
+
+<Example fr="Visiblement, elle était fatiguée." en="She was visibly tired." />
+<Example fr="Elle était visiblement fatiguée." en="She was visibly tired." />
+
+Some adverbs can be either kind, and the position helps you tell them apart. At the start with a comma, *franchement* and *sérieusement* comment on the sentence. After the verb, with no comma, they describe the manner.
+
+<Example fr="Franchement, ce film est trop long." en="Frankly, this film is too long." />
+<Example fr="Il nous a parlé franchement." en="He spoke to us frankly (in a frank way)." />
+<Example fr="Sérieusement, tu pars demain ?" en="Seriously, you're leaving tomorrow?" />
+<Example fr="Il fait son travail sérieusement." en="He does his work seriously." />
+
+The four sentence adverbs below have different shades:
+
+- **Visiblement** means "from what you can see": *il est visiblement content*.
+- **Apparemment** means "from what people say or how it looks": *apparemment, la réunion est annulée*.
+- **Décidément** reacts to something that has happened again: *décidément, tu es toujours en retard !*
+- **Forcément** means "necessarily", and *pas forcément* means "not necessarily". Put *pas* first: *ce n'est pas forcément vrai*.
+
+<Example fr="Un examen difficile n'est pas forcément un mauvais examen." en="A difficult exam isn't necessarily a bad exam." />
+
+## Long adverbs in compound tenses
+
+<VocabTable group="long" />
+
+At A2, you put most *-ment* adverbs after the participle. At this level, you'll see that many of them can also go between the auxiliary and the participle. Treat what follows as tendencies, not laws.
+
+- Adverbs of degree and completeness (*complètement*, *totalement*) and of time (*longuement*) usually go before the participle, and they can also follow it.
+- Sentence adverbs (*visiblement*, *probablement*, *heureusement*) usually go before the participle.
+- Adverbs of manner that say how the action was done (*attentivement*, *soigneusement*, *lentement*) more often go after it.
+
+<Example fr="Il a complètement oublié la réunion." en="He completely forgot the meeting." />
+<Example fr="J'y ai longuement réfléchi." en="I thought about it at length." />
+<Example fr="Elle a probablement raté son train." en="She's probably missed her train." />
+<Example fr="Relisez attentivement votre copie avant de la rendre." en="Reread your paper carefully before you hand it in." />
+
+With an infinitive, a short adverb usually comes before it: *il faut bien relire*. A long adverb of manner usually follows: *il faut relire soigneusement chaque phrase*.
+
+## The whole list
+
+- *Seulement* before the word it restricts; *Seulement,* at the start: "the only thing is".
+- *Même* + noun: even; noun + *même*: very; *lui-même*: himself; verb + *même*: even (the action).
+- *Aussi* inside the sentence: also; *Aussi* + inversion at the start: therefore (formal).
+- Sentence adverbs: at the start, after the verb, or at the end, with no change of meaning.
+- *Franchement*, *sérieusement*: at the start, a comment; after the verb, the manner.
+- Long adverbs in compound tenses: degree, time and sentence adverbs usually before the participle; manner more often after it.
+
+## En français
+
+Lucas and Emma, two students, have just come out of an exam.
+
+- *Alors, l'examen ? Tu as tout fini ?* (So, the exam? Did you finish everything?)
+- *Non, j'ai seulement fini la première partie.* (No, I only finished the first part.)
+- *Moi aussi ! Même Julie n'a pas eu le temps.* (Me too! Even Julie didn't have time.)
+- *Julie ? Elle finit toujours en avance, pourtant.* (Julie? She always finishes early, though.)
+- *Oui, mais aujourd'hui, elle était visiblement stressée.* (Yes, but today she was visibly stressed.)
+- *Apparemment, le professeur va donner plus de temps la prochaine fois.* (Apparently, the teacher is going to give more time next time.)
+- *Qui t'a dit ça ?* (Who told you that?)
+- *Julie elle-même. Elle lui a parlé juste après l'examen.* (Julie herself. She spoke to him right after the exam.)
+- *Décidément, elle pense à tout !* (She really does think of everything!)
+- *Et toi, tu as relu tes réponses ?* (And you, did you read over your answers?)
+- *J'ai seulement relu la fin, et pas très attentivement.* (I only read over the end, and not very carefully.)
+- *Ce n'est pas forcément grave. On verra bien !* (That's not necessarily a problem. We'll see!)
+- *Seulement, si mes notes sont mauvaises, mes parents vont être déçus.* (The only thing is, if my marks are bad, my parents will be disappointed.)
+- *Tu as longuement révisé. Ça va aller.* (You revised for a long time. It'll be fine.)
+
+<Callout type="warning" title="Pas forcément, not forcément pas">
+  Learners often put *forcément* where English puts "necessarily". For "not necessarily", *pas* comes first: **ce n'est pas forcément vrai**. *Ce n'est forcément pas vrai* says something else: that it's necessarily untrue.
+</Callout>
+
+<Callout type="tip" title="Move one word, read three sentences">
+  Take one short sentence of your own and move *même* or *seulement* into every possible slot: *même Paul a ri*, *Paul a même ri*, *Paul lui-même a ri*. Write the English meaning next to each. Doing this with your own sentences fixes the positions faster than any table.
+</Callout>
+
+## En résumé
+
+La place d'un adverbe peut changer le sens de la phrase. Seulement se met devant le mot qu'il limite : il a parlé seulement à Marie. Au début de la phrase, suivi d'une virgule, seulement présente un problème : le restaurant est bon. Seulement, il est cher. Même devant un nom montre une surprise : même Paul a ri. Après un pronom, lui-même ou eux-mêmes insiste sur la personne, et le jour même veut dire ce jour-là, pas un autre. Aussi au milieu de la phrase ajoute une idée, mais au début, avec l'inversion, il veut dire donc : aussi sommes-nous restés à la maison. Un adverbe de phrase, comme visiblement, décidément ou forcément, donne l'avis de la personne qui parle sur toute la phrase. Au passé composé, complètement et longuement se mettent souvent avant le participe, et attentivement plutôt après. Ce sont des habitudes, pas des règles fixes.
+
+## What's next
+
+Next, <LessonLink id="c1-tricky-prepositions" text="the lesson on tricky prepositions" /> looks at small words that change a verb's meaning: *penser à* and *penser de*, *manquer à* and *manquer de*.
+
+=== c1-tricky-prepositions ===
+
+---
+id: "c1-tricky-prepositions"
+title: "Tricky prepositions"
+description: "Verbs whose meaning changes with the preposition (manquer à / manquer de, penser à / penser de, croire à / croire en, rêver de / rêver à, tenir à / tenir de), de or par after a passive, and prepositions with islands, overseas regions and cities with an article."
+level: "C1"
+unit: "Style and emphasis"
+order: 14
+type: "grammar"
+tags: ["grammar", "prepositions", "verbs", "places"]
+prerequisites: ["a2-verbs-with-a-and-de", "a2-prepositions-with-places", "b2-passive-voice", "b2-relative-prepositions"]
+related: ["b1-relative-dont", "a2-pronoun-y", "c1-adverb-placement"]
+vocab:
+  - { id: "c1-tricky-prepositions-v001", group: "verbs", fr: "manquer à quelqu'un", pron: "mahn-KAY ah kel-KUHN", en: "to be missed by someone", note: "Tu me manques: I miss you. The person or thing that's missed is the subject." }
+  - { id: "c1-tricky-prepositions-v002", group: "verbs", fr: "penser de", pron: "pahn-SAY duh", en: "to think of, to have an opinion of", note: "Que pensez-vous de ce film ? Qu'en pensez-vous ?" }
+  - { id: "c1-tricky-prepositions-v003", group: "verbs", fr: "croire à", pron: "krwahr AH", en: "to believe in (that something exists or is true)", note: "Croire aux fantômes, croire à une excuse." }
+  - { id: "c1-tricky-prepositions-v004", group: "verbs", fr: "croire en", pron: "krwahr AHN", en: "to believe in, to have faith in (a person, a value)", note: "Croire en quelqu'un, croire en Dieu." }
+  - { id: "c1-tricky-prepositions-v005", group: "verbs", fr: "rêver à", pron: "reh-VAY ah", en: "to muse on, to daydream about (literary)" }
+  - { id: "c1-tricky-prepositions-v006", group: "verbs", fr: "tenir de", pron: "tuh-NEER duh", en: "to take after (a relative)", note: "Elle tient de sa mère." }
+  - { id: "c1-tricky-prepositions-v007", group: "verbs", fr: "le fantôme", pron: "luh fahn-TOHM", en: "the ghost" }
+  - { id: "c1-tricky-prepositions-v008", group: "verbs", fr: "l'excuse (f.)", pron: "lek-SKEWZ", en: "the excuse" }
+  - { id: "c1-tricky-prepositions-v009", group: "passive", fr: "entouré par", pron: "ahn-too-RAY par", en: "surrounded by (an action)", note: "La maison a été entourée par la police." }
+  - { id: "c1-tricky-prepositions-v010", group: "passive", fr: "le policier / la policière", pron: "luh poh-lee-SYAY / lah poh-lee-SYEHR", en: "the police officer" }
+  - { id: "c1-tricky-prepositions-v011", group: "places", fr: "l'île (f.)", pron: "LEEL", en: "the island" }
+  - { id: "c1-tricky-prepositions-v012", group: "places", fr: "Cuba / Madagascar", pron: "kew-BAH / mah-dah-gahs-KAR", en: "Cuba / Madagascar", note: "à Cuba, à Madagascar" }
+  - { id: "c1-tricky-prepositions-v013", group: "places", fr: "la Corse", pron: "lah KORSS", en: "Corsica", note: "en Corse" }
+  - { id: "c1-tricky-prepositions-v014", group: "places", fr: "la Martinique", pron: "lah mar-tee-NEEK", en: "Martinique", note: "en Martinique or à la Martinique" }
+  - { id: "c1-tricky-prepositions-v015", group: "places", fr: "La Réunion", pron: "lah ray-ew-NYOHN", en: "Réunion (a French island in the Indian Ocean)", note: "à La Réunion" }
+  - { id: "c1-tricky-prepositions-v016", group: "places", fr: "les Antilles (f.)", pron: "lay-zahn-TEE-y", en: "the French Caribbean, the Antilles", note: "aux Antilles, des Antilles" }
+  - { id: "c1-tricky-prepositions-v017", group: "places", fr: "l'Iran (m.) / Israël (m.)", pron: "lee-RAHN / eez-rah-EL", en: "Iran / Israel", note: "Masculine, but they start with a vowel: en Iran, en Israël." }
+  - { id: "c1-tricky-prepositions-v018", group: "places", fr: "Le Havre / Le Caire", pron: "luh AH-vruh / luh KEHR", en: "Le Havre / Cairo", note: "au Havre, du Caire" }
+exercises:
+  - id: "c1-tricky-prepositions-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Paris manque beaucoup à Julie."
+    options: ["Julie really misses Paris.", "Paris really misses Julie.", "Paris doesn't have enough for Julie."]
+    answers: ["Julie really misses Paris."]
+    explanation: "With manquer à, what's missed is the subject: Paris is missed by Julie."
+  - id: "c1-tricky-prepositions-ex002"
+    type: "translate"
+    prompt: "Traduisez (manquer) : I miss my friends."
+    answers: ["Mes amis me manquent", "Mes amies me manquent"]
+    explanation: "The friends are the subject, and I'm the indirect object: mes amis me manquent."
+  - id: "c1-tricky-prepositions-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec la bonne préposition : Que pensez-vous ___ ce projet ?"
+    answers: ["de"]
+    explanation: "Penser de asks for an opinion: que pensez-vous de… ?"
+  - id: "c1-tricky-prepositions-ex004"
+    type: "fill-in"
+    prompt: "Complétez avec la bonne préposition : Je pense souvent ___ mes grands-parents."
+    answers: ["à"]
+    explanation: "Penser à: to have someone or something in mind."
+    strictAccents: true
+  - id: "c1-tricky-prepositions-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne préposition : Elle croit ___ ses enfants : elle sait qu'ils vont réussir."
+    options: ["en", "par", "sur"]
+    answers: ["en"]
+    explanation: "Croire en quelqu'un: to have faith in a person."
+  - id: "c1-tricky-prepositions-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Elle tient de sa mère."
+    options: ["She takes after her mother.", "She cares a lot about her mother.", "She is holding her mother's hand."]
+    answers: ["She takes after her mother."]
+    explanation: "Tenir de: to take after. Caring about someone is tenir à."
+  - id: "c1-tricky-prepositions-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez la préposition : Les montagnes étaient couvertes ___ neige."
+    options: ["de", "par", "en"]
+    answers: ["de"]
+    explanation: "A state, not an action: couvertes de neige. Par would need an article and an agent doing something."
+  - id: "c1-tricky-prepositions-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez la préposition : À six heures du matin, la maison a été entourée ___ la police."
+    options: ["par", "de", "en"]
+    answers: ["par"]
+    explanation: "An action at a given time, by an agent: entourée par la police."
+  - id: "c1-tricky-prepositions-ex009"
+    type: "fill-in"
+    prompt: "Complétez avec la bonne préposition (et l'article si besoin) : Elle est née ___ Havre."
+    answers: ["au"]
+    explanation: "Le Havre keeps its article, and à + le contracts: au Havre."
+  - id: "c1-tricky-prepositions-ex010"
+    type: "fill-in"
+    prompt: "Complétez avec la bonne préposition (et l'article si besoin) : Il travaille ___ Cuba depuis deux ans."
+    answers: ["à"]
+    explanation: "An island whose name has no article usually takes à, whatever its size: à Cuba, à Madagascar, à Malte."
+    strictAccents: true
+  - id: "c1-tricky-prepositions-ex011"
+    type: "fill-in"
+    prompt: "Complétez avec la bonne préposition (et l'article si besoin) : Ma sœur habite ___ Martinique."
+    answers: ["en", "à la"]
+    explanation: "Both are used: en Martinique is more usual today, and à la Martinique is also correct."
+    strictAccents: true
+  - id: "c1-tricky-prepositions-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Elle revient de les Antilles."
+    answers: ["Elle revient des Antilles"]
+    explanation: "De + les contracts: des Antilles."
+  - id: "c1-tricky-prepositions-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (lui = mon frère) : Je lui pense souvent."
+    answers: ["Je pense souvent à lui", "Je pense à lui souvent"]
+    explanation: "With penser à, a person is a stressed pronoun after à: je pense à lui, not je lui pense."
+    strictAccents: true
+  - id: "c1-tricky-prepositions-ex014"
+    type: "reformulation"
+    prompt: "Reformulez avec « manquer à », en commençant par « Paris » : Julie est triste loin de Paris."
+    answers: ["Paris manque à Julie", "Paris lui manque"]
+    explanation: "Paris is the subject, and Julie, who misses it, follows à: Paris manque à Julie, or Paris lui manque."
+    strictAccents: true
+  - id: "c1-tricky-prepositions-ex015"
+    type: "reformulation"
+    prompt: "Reformulez au passif : Tous les élèves aiment cette professeure."
+    answers: ["Cette professeure est aimée de tous les élèves", "Cette professeure est aimée par tous les élèves"]
+    explanation: "A feeling describes a state, so de is usual (aimée de); par is also correct."
+  - id: "c1-tricky-prepositions-ex016"
+    type: "translate"
+    prompt: "Traduisez (tenir de) : He takes after his father."
+    answers: ["Il tient de son père"]
+    explanation: "Tenir de + the relative he resembles."
+  - id: "c1-tricky-prepositions-ex017"
+    type: "translate"
+    prompt: "Traduisez (croire à) : I don't believe his excuse."
+    answers: ["Je ne crois pas à son excuse"]
+    strictAccents: true
+    explanation: "Croire à: to believe that something is true. Croire with no preposition is also correct here: je ne crois pas son excuse."
+  - id: "c1-tricky-prepositions-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : I miss my country."
+    words: ["Mon", "pays", "me", "manque"]
+    answers: ["Mon pays me manque"]
+    explanation: "The country is the subject of manquer, and me is the person who misses it."
+---
+
+By the end of this lesson you'll be able to use verbs whose meaning changes with the preposition, choose between *de* and *par* after a passive, and use the right preposition with islands, overseas regions and cities that have an article.
+
+## What you already know
+
+You learned that verbs take *à* or *de* before an infinitive in <LessonLink id="a2-verbs-with-a-and-de" text="the lesson on verbs with à and de" />, and the prepositions with cities and countries (*à Nantes*, *en Italie*, *au Japon*, *aux États-Unis*) in <LessonLink id="a2-prepositions-with-places" text="the lesson on prepositions with places" />. In <LessonLink id="b2-passive-voice" text="the lesson on the passive voice" />, you saw *par* for the agent of an action and *de* for a state or a feeling (*entouré de*, *respecté de*). This lesson adds the cases where the choice changes the meaning.
+
+## One verb, two meanings
+
+<VocabTable group="verbs" />
+
+**Manquer à** and **manquer de** are the classic trap. *Manquer de* means "to lack", which you know from <LessonLink id="b1-relative-dont" text="the lesson on dont" />: *il manque de temps* (he's short of time). *Manquer à* means "to be missed by", so the roles are the reverse of English. You know *tu me manques* (I miss you) from <LessonLink id="a2-writing-an-informal-email" text="the lesson on writing an informal email" />.
+
+<Example fr="Paris manque beaucoup à Julie." en="Julie misses Paris a lot." />
+<Example fr="Mes amis me manquent." en="I miss my friends." />
+<Example fr="Cette équipe manque d'expérience." en="This team lacks experience." />
+
+With no preposition, *manquer* + object means "to miss" in the sense of not catching: *il a manqué son train*.
+
+**Penser à** means to think about, to have in mind; you met it with *y* in <LessonLink id="a2-pronoun-y" text="the lesson on the pronoun y" />. **Penser de** asks for or gives an opinion, mostly in questions and with *en*, as in *qu'est-ce que tu en penses ?* With *penser à*, a person stays after *à* as a stressed pronoun: *je pense à lui*, not *je lui pense*.
+
+<Example fr="Je pense souvent à mes grands-parents." en="I often think about my grandparents." />
+<Example fr="Que pensez-vous de ce projet ?" en="What do you think of this project?" />
+
+**Croire à** and **croire en** both translate as "to believe in". As a rule of thumb, *croire à* is about whether something exists or is true, and *croire en* is about trust or faith in a person or a value. Usage overlaps with some nouns (*croire à l'avenir*, *croire en l'avenir*). *Croire quelqu'un*, with no preposition, means to believe what they say. With a thing and no preposition, *croire* means to believe it as it's told: *je ne crois pas son histoire* (I don't believe his story).
+
+<Example fr="Il croit aux fantômes." en="He believes in ghosts." />
+<Example fr="Je ne crois pas à son excuse." en="I don't believe his excuse." />
+<Example fr="Ma directrice croit en moi." en="My manager believes in me." />
+
+**Rêver de** is the everyday verb, for a wish or a night's dream: *je rêve de voyager*, *j'ai rêvé de toi*. **Rêver à** is literary: to muse on, to let your mind wander to something.
+
+<Example fr="Assis devant la mer, il rêvait à son enfance." en="Sitting by the sea, he was musing on his childhood. (literary)" />
+
+**Tenir à** means to care about, or to insist on, as you saw in <LessonLink id="b2-relative-prepositions" text="the lesson on relatives after prepositions" />. **Tenir de** means to take after a relative.
+
+<Example fr="Je tiens beaucoup à cette maison." en="This house means a lot to me." />
+<Example fr="Elle tient de sa mère : elle adore voyager." en="She takes after her mother: she loves travelling." />
+
+**Jouer à** and **jouer de** you've known since A1: *jouer au tennis* for games and sports, *jouer du piano* for instruments. Remember the contractions: *jouer aux cartes*, *jouer de la guitare*.
+
+## De or par after a passive
+
+<VocabTable group="passive" />
+
+The rule from B2 still holds: *par* for an agent that performs an action, *de* for a state, a position or a feeling. At this level, notice that some verbs take both, with a change of meaning.
+
+<Example fr="La maison est entourée d'un grand jardin." en="The house is surrounded by a large garden." />
+<Example fr="À six heures du matin, la maison a été entourée par la police." en="At six in the morning, the house was surrounded by the police." />
+<Example fr="Le film sera suivi d'un débat." en="The film will be followed by a debate." />
+<Example fr="Le suspect a été suivi par deux policiers." en="The suspect was followed by two police officers." />
+
+In each pair, the first sentence describes how things are or come in order, and the second tells what someone did. With verbs of feeling (*aimé*, *respecté*), *de* is the more elegant choice, and *par* is also correct.
+
+## Islands, overseas regions and cities with an article
+
+<VocabTable group="places" />
+
+You know the rule for countries: *en* before a feminine country or one that starts with a vowel, *au* before a masculine one, *aux* before a plural one. So masculine countries that start with a vowel take *en*: *en Iran*, *en Israël*.
+
+Islands follow other habits. Take these as rules of thumb, and learn each name with its preposition.
+
+- **An island whose name has no article** usually takes *à*, whatever its size: *à Cuba*, *à Madagascar*, *à Malte*.
+- **A feminine name used with an article** (*la Corse*, *la Sicile*) usually takes *en*: *en Corse*, *en Sicile*.
+- **An exception: La Réunion** keeps its article after *à*: *à La Réunion*.
+- **Plural groups of islands** take *aux*: *aux Antilles*.
+
+For Martinique and Guadeloupe, both *en Martinique* and *à la Martinique* are correct; *en* is the more usual today.
+
+<Example fr="Elle a passé un an à Madagascar." en="She spent a year in Madagascar." />
+<Example fr="Nous partons en Corse cet été." en="We're going to Corsica this summer." />
+<Example fr="Mon frère habite à La Réunion." en="My brother lives on Réunion." />
+
+Cities whose name has an article keep it, and *à* or *de* contracts with *le*: *au Havre*, *au Caire*, *du Havre*, *du Caire*. A feminine article doesn't contract: *à La Rochelle*.
+
+To say where someone comes from, use the same contractions with *de*: *du Mexique*, *des Antilles*, *d'Iran*, *de Corse*, *de La Réunion*.
+
+<Example fr="Il est rentré des Antilles la semaine dernière." en="He came back from the Antilles last week." />
+
+## The whole list
+
+- *Manquer à* (to be missed by), *manquer de* (to lack), *manquer* + object (to miss a train).
+- *Penser à* (to think about; *à lui*), *penser de* (an opinion; *en*).
+- *Croire à* (true, real), *croire en* (trust, faith), *croire quelqu'un* (believe what they say), *croire quelque chose* (believe it's true: *je ne crois pas son histoire*).
+- *Rêver de* (everyday), *rêver à* (literary).
+- *Tenir à* (to care about), *tenir de* (to take after).
+- Passive: *par* for an action, *de* for a state or a feeling.
+- Islands: *à Cuba*, *en Corse*, *à La Réunion*, *aux Antilles*; *en* or *à la Martinique*. Cities with *le*: *au Havre*, *du Caire*.
+
+## En français
+
+Sophie has just moved to Réunion for work. She's on a video call with her friend Karim, in Lyon.
+
+- *Alors, la vie à La Réunion ?* (So, how's life on Réunion?)
+- *C'est magnifique, mais Lyon me manque un peu.* (It's beautiful, but I miss Lyon a bit.)
+- *Et nous, on ne te manque pas ?* (And what about us, don't you miss us? (spoken))
+- *Bien sûr que si ! Je pense souvent à vous.* (Of course I do! I often think about you.)
+- *Et ton nouveau travail, qu'est-ce que tu en penses ?* (And your new job, what do you think of it?)
+- *Il me plaît. Ma directrice croit en moi, et ça aide.* (I like it. My manager believes in me, and that helps.)
+- *Tu vas voyager un peu ? Madagascar n'est pas loin.* (Are you going to travel a bit? Madagascar isn't far.)
+- *Oui, je rêve d'aller à Madagascar, et un jour à Cuba.* (Yes, I dream of going to Madagascar, and one day to Cuba.)
+- *Toujours l'envie de partir ! Tu tiens de ton père.* (Always wanting to go somewhere! You take after your father.)
+- *C'est vrai. Lui, il a habité en Martinique pendant dix ans.* (That's true. He lived in Martinique for ten years. (spoken))
+- *Et ta sœur, elle vit toujours aux Antilles ?* (And your sister, does she still live in the Antilles? (spoken))
+- *Non, elle est rentrée des Antilles l'année dernière. Elle vit au Havre maintenant.* (No, she came back from the Antilles last year. She lives in Le Havre now.)
+- *Au Havre ? Elle doit manquer de soleil !* (In Le Havre? She must be short of sun!)
+- *Un peu ! Mais elle joue du piano dans un groupe, et elle est heureuse.* (A bit! But she plays the piano in a band, and she's happy.)
+
+<Callout type="warning" title="Tu me manques means I miss you">
+  English speakers often build *manquer à* like "to miss" and swap the roles. The person or thing that's missed is the subject: to say "I miss you", write **tu me manques**, and for "Julie misses Paris", write **Paris manque à Julie**.
+</Callout>
+
+<Callout type="tip" title="Learn the place with its preposition">
+  When you meet a new island, region or city, note it with its preposition and its "from" form, as one unit: *à Cuba, de Cuba*; *en Corse, de Corse*; *au Havre, du Havre*. You'll never have to work out the rule again for that place.
+</Callout>
+
+## En résumé
+
+Certains verbes changent de sens avec la préposition. Manquer de veut dire ne pas avoir assez de quelque chose, mais manquer à veut dire que quelqu'un est triste sans une personne ou un lieu : Paris manque à Julie, tu me manques. Penser à, c'est avoir quelqu'un ou quelque chose en tête, et penser de donne un avis : que pensez-vous de ce projet ? Croire à porte sur ce qui est vrai, et croire en porte sur la confiance : il croit aux fantômes, elle croit en ses enfants. Sans préposition, on dit aussi : je ne crois pas son histoire. Rêver à est littéraire, et tenir de sa mère, c'est être comme sa mère. Après un passif, on met par pour une action et de pour un état. Avec les îles, on dit à Cuba, en Corse, à La Réunion et aux Antilles, et on dit en Martinique ou à la Martinique. Avec Le Havre ou Le Caire, on dit au Havre et du Caire.
+
+## What's next
+
+Next, <LessonLink id="c1-precise-verbs" text="the lesson on precise verbs" /> shows how to replace *dire*, *faire* and *mettre* with the exact verb a careful writer would choose.
+
+=== c1-precise-verbs ===
+
+---
+id: "c1-precise-verbs"
+title: "Precise verbs"
+description: "Replace faire, mettre, dire, avoir and il y a with the exact verb a careful writer would choose: effectuer, procéder à, aborder, disposer de, comporter, il existe, se dérouler, susciter and more."
+level: "C1"
+unit: "Style and emphasis"
+order: 15
+type: "vocabulary"
+tags: ["vocabulary", "verbs", "formal writing", "style"]
+prerequisites: ["b2-reporting-verbs", "b2-formal-report"]
+related: ["b2-nominalisation", "c1-tricky-prepositions", "b2-science-and-research"]
+vocab:
+  - { id: "c1-precise-verbs-v001", group: "faire", fr: "effectuer", pron: "ay-fek-tew-AY", en: "to carry out, to make (a payment, a visit, works)" }
+  - { id: "c1-precise-verbs-v002", group: "faire", fr: "procéder à", pron: "proh-say-DAY ah", en: "to carry out, to proceed with (formal)", note: "Procéder à une vérification." }
+  - { id: "c1-precise-verbs-v003", group: "faire", fr: "accomplir", pron: "ah-kohn-PLEER", en: "to accomplish, to carry out (a task)", note: "Like finir." }
+  - { id: "c1-precise-verbs-v004", group: "faire", fr: "élaborer", pron: "ay-lah-boh-RAY", en: "to draw up, to develop (a plan, a project)" }
+  - { id: "c1-precise-verbs-v005", group: "faire", fr: "les travaux (m.)", pron: "lay trah-VOH", en: "(building) works" }
+  - { id: "c1-precise-verbs-v006", group: "faire", fr: "le paiement", pron: "luh peh-MAHN", en: "the payment" }
+  - { id: "c1-precise-verbs-v007", group: "faire", fr: "la vérification", pron: "lah vay-ree-fee-kah-SYOHN", en: "the check" }
+  - { id: "c1-precise-verbs-v008", group: "mettre", fr: "déposer", pron: "day-poh-ZAY", en: "to put down, to drop off, to submit (a file)", note: "Déposer un dossier, déposer quelqu'un à la gare." }
+  - { id: "c1-precise-verbs-v009", group: "mettre", fr: "instaurer", pron: "an-stoh-RAY", en: "to bring in, to establish (a rule, a system)" }
+  - { id: "c1-precise-verbs-v010", group: "dire", fr: "aborder", pron: "ah-bor-DAY", en: "to bring up, to deal with (a subject)" }
+  - { id: "c1-precise-verbs-v011", group: "dire", fr: "formuler", pron: "for-mew-LAY", en: "to put into words, to make (a request, a criticism)" }
+  - { id: "c1-precise-verbs-v012", group: "dire", fr: "lors de", pron: "LOR duh", en: "during, at the time of (formal)" }
+  - { id: "c1-precise-verbs-v013", group: "avoir", fr: "disposer de", pron: "dees-poh-ZAY duh", en: "to have (available)", note: "Nous disposons de deux salles." }
+  - { id: "c1-precise-verbs-v014", group: "avoir", fr: "posséder", pron: "poh-say-DAY", en: "to own, to possess", note: "Je possède, nous possédons." }
+  - { id: "c1-precise-verbs-v015", group: "avoir", fr: "comporter", pron: "kohn-por-TAY", en: "to include, to consist of", note: "Le rapport comporte trois parties." }
+  - { id: "c1-precise-verbs-v016", group: "avoir", fr: "ressentir", pron: "ruh-sahn-TEER", en: "to feel (an emotion)", note: "Like partir: je ressens." }
+  - { id: "c1-precise-verbs-v017", group: "ilya", fr: "il existe", pron: "ee-leg-ZEEST", en: "there is, there are (formal)", note: "Il existe plusieurs solutions." }
+  - { id: "c1-precise-verbs-v018", group: "ilya", fr: "se trouver", pron: "suh troo-VAY", en: "to be (located)", note: "La gare se trouve au centre." }
+  - { id: "c1-precise-verbs-v019", group: "ilya", fr: "figurer", pron: "fee-gew-RAY", en: "to appear, to be listed", note: "Son nom figure sur la liste." }
+  - { id: "c1-precise-verbs-v020", group: "ilya", fr: "régner", pron: "ray-NYAY", en: "to reign; (of a mood) to fill the place", note: "Un lourd silence régnait." }
+  - { id: "c1-precise-verbs-v021", group: "ilya", fr: "se dérouler", pron: "suh day-roo-LAY", en: "to take place, to go (an event)", note: "La réunion s'est bien déroulée." }
+  - { id: "c1-precise-verbs-v022", group: "cause", fr: "susciter", pron: "sew-see-TAY", en: "to arouse, to give rise to (a reaction)", note: "Susciter l'intérêt, des critiques." }
+  - { id: "c1-precise-verbs-v023", group: "cause", fr: "engendrer", pron: "ahn-zhahn-DRAY", en: "to generate, to cause" }
+  - { id: "c1-precise-verbs-v024", group: "cause", fr: "entraîner", pron: "ahn-treh-NAY", en: "to lead to, to bring about", note: "Also: to train (sport)." }
+exercises:
+  - id: "c1-precise-verbs-ex001"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe précis : Le client a ___ le paiement hier."
+    options: ["effectué", "disposé", "figuré"]
+    answers: ["effectué"]
+    explanation: "Effectuer un paiement: to make a payment."
+  - id: "c1-precise-verbs-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe précis : Le rapport ___ trois parties."
+    options: ["comporte", "effectue", "aborde"]
+    answers: ["comporte"]
+    explanation: "Comporter: to consist of, to include."
+  - id: "c1-precise-verbs-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe précis : Cette décision a ___ beaucoup de critiques."
+    options: ["suscité", "déposé", "comporté"]
+    answers: ["suscité"]
+    explanation: "Susciter des critiques: to give rise to criticism."
+  - id: "c1-precise-verbs-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe précis : La réunion s'est ___ dans la grande salle."
+    options: ["déroulée", "comportée", "disposée"]
+    answers: ["déroulée"]
+    explanation: "Se dérouler: to take place. Se comporter means to behave, and se disposer à means to get ready to."
+  - id: "c1-precise-verbs-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Nous disposons de deux heures."
+    options: ["We have two hours available.", "We are getting rid of two hours.", "We need two more hours."]
+    answers: ["We have two hours available."]
+    explanation: "Disposer de: to have at your disposal."
+  - id: "c1-precise-verbs-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec « figurer » au présent : Son nom ne ___ pas sur la liste."
+    answers: ["figure"]
+    explanation: "Figurer sur une liste: to appear on a list."
+  - id: "c1-precise-verbs-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec « procéder » au passé composé : La police ___ à une vérification."
+    answers: ["a procédé"]
+    explanation: "Procéder à + noun: a procédé à une vérification."
+    strictAccents: true
+  - id: "c1-precise-verbs-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « effectuer » : Nous avons fait une visite du chantier."
+    answers: ["Nous avons effectué une visite du chantier"]
+    explanation: "Effectuer replaces faire with a visit, a payment or works."
+  - id: "c1-precise-verbs-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « il existe » : Il y a plusieurs solutions."
+    answers: ["Il existe plusieurs solutions"]
+    explanation: "Il existe is the written alternative to il y a."
+  - id: "c1-precise-verbs-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « comporter » : Dans ce dossier, il y a trois documents."
+    answers: ["Ce dossier comporte trois documents"]
+    explanation: "The container becomes the subject: ce dossier comporte."
+  - id: "c1-precise-verbs-ex011"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « aborder » et « nous » : On a parlé du budget."
+    answers: ["Nous avons abordé le budget", "Nous avons abordé la question du budget"]
+    explanation: "Aborder takes a direct object: aborder le budget, aborder la question du budget."
+  - id: "c1-precise-verbs-ex012"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « disposer de » et « nous » : On a un budget de cinq cents euros."
+    answers: ["Nous disposons d'un budget de cinq cents euros", "Nous disposons d'un budget de 500 euros"]
+    explanation: "Disposer de + the thing you have: nous disposons d'un budget."
+  - id: "c1-precise-verbs-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Nous disposons deux salles."
+    answers: ["Nous disposons de deux salles"]
+    explanation: "Disposer needs de in this meaning: disposer de."
+  - id: "c1-precise-verbs-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : La réunion a procédé dans la grande salle."
+    answers: ["La réunion s'est déroulée dans la grande salle", "La réunion a eu lieu dans la grande salle"]
+    strictAccents: true
+    explanation: "An event se déroule or a lieu. Procéder à means to carry out something."
+  - id: "c1-precise-verbs-ex015"
+    type: "translate"
+    prompt: "Traduisez avec « susciter » : This project has aroused a lot of interest."
+    answers: ["Ce projet a suscité beaucoup d'intérêt", "Ce projet a suscité un grand intérêt"]
+    strictAccents: true
+    explanation: "Susciter l'intérêt: to arouse interest."
+  - id: "c1-precise-verbs-ex016"
+    type: "translate"
+    prompt: "Traduisez avec « se trouver » : The station is in the town centre."
+    answers: ["La gare se trouve dans le centre-ville", "La gare se trouve au centre-ville", "La gare se trouve au centre", "La gare se trouve dans le centre"]
+    explanation: "Se trouver gives a location, more precisely than être."
+  - id: "c1-precise-verbs-ex017"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre de la phrase : Le paiement a été effectué."
+    options: ["soutenu", "familier"]
+    answers: ["soutenu"]
+    explanation: "Effectuer belongs to careful and administrative French. In familiar speech, you'd say j'ai payé."
+  - id: "c1-precise-verbs-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : A heavy silence filled the room."
+    words: ["Un", "lourd", "silence", "régnait", "dans", "la", "salle"]
+    answers: ["Un lourd silence régnait dans la salle", "Un silence lourd régnait dans la salle"]
+    explanation: "Régner replaces il y avait. Lourd can come before or after silence."
+---
+
+By the end of this lesson you'll be able to replace *faire*, *mettre*, *dire*, *avoir* and *il y a* with precise verbs, so that your formal writing says exactly what you mean.
+
+## What you already know
+
+You know precise reporting verbs such as *souligner* and *affirmer* from <LessonLink id="b2-reporting-verbs" text="the lesson on reporting verbs" />, and *mettre en œuvre* from <LessonLink id="b2-formal-report" text="the lesson on the formal report" />. You also know *mener une étude* from <LessonLink id="b2-science-and-research" text="the lesson on science and research" />. This lesson does the same work for the most common general verbs.
+
+## Why precise verbs matter
+
+In conversation, *faire*, *mettre*, *dire* and *avoir* do most of the work, and that's fine. In a report, an essay or a formal letter, a text full of them sounds vague and repetitive. A precise verb says more in fewer words: *effectuer un paiement* tells the reader exactly what kind of "doing" happened.
+
+These verbs aren't more correct than the general ones. They belong to written and careful French. Use them where a reader expects care. *Faire* and *avoir* stay correct everywhere, and they're the natural choice in speech.
+
+## Instead of faire
+
+<VocabTable group="faire" />
+
+*Effectuer* is the all-purpose formal replacement for *faire* with an action: a payment, a visit, works, a journey. *Procéder à* is more official, and it takes *à* + a noun: a check, a vote, an analysis. *Accomplir* stresses that a task was completed. *Élaborer* is for a plan or a project that takes thought and time.
+
+<Example fr="Les travaux seront effectués en juin." en="The works will be carried out in June." />
+<Example fr="L'équipe a procédé à un vote." en="The team proceeded to a vote." />
+<Example fr="Elle a accompli son travail sans difficulté." en="She carried out her work without difficulty." />
+<Example fr="Nous avons élaboré un plan sur trois ans." en="We've drawn up a three-year plan." />
+
+## Instead of mettre
+
+<VocabTable group="mettre" />
+
+*Déposer* is to put something down or hand it in: a file, a parcel, a person at the station. *Instaurer* is to bring in a rule or a system, where speech would say *mettre en place*.
+
+<Example fr="Vous pouvez déposer votre dossier à l'accueil." en="You can hand in your file at reception." />
+<Example fr="La mairie a instauré une nouvelle règle pour les parkings." en="The town hall has brought in a new rule for car parks." />
+
+## Instead of dire
+
+<VocabTable group="dire" />
+
+For reporting what someone said, use the verbs from B2: *affirmer*, *souligner*, *préciser*. Two more help when you write about a meeting or a text. *Aborder* is to bring up or deal with a subject, and it takes a direct object. *Formuler* is to put something into words, often a request or a criticism.
+
+<Example fr="Lors de la réunion, nous avons abordé la question du budget." en="During the meeting, we dealt with the question of the budget." />
+<Example fr="Les habitants ont formulé plusieurs demandes." en="The residents made several requests." />
+
+## Instead of avoir
+
+<VocabTable group="avoir" />
+
+*Disposer de* means to have something available, ready to use; it always takes *de* in this meaning. *Posséder* is to own. *Comporter* is to consist of or include, and the container is the subject. *Ressentir* is to feel an emotion, where speech says *avoir peur* or *avoir de la peine*.
+
+<Example fr="L'entreprise dispose de trois sites en France." en="The company has three sites in France." />
+<Example fr="Sa famille possède une maison en Bretagne." en="Her family owns a house in Brittany." />
+<Example fr="Le formulaire comporte deux pages." en="The form consists of two pages." />
+<Example fr="Elle a ressenti une grande peur pendant la tempête." en="She felt very afraid during the storm." />
+
+## Instead of il y a
+
+<VocabTable group="ilya" />
+
+*Il y a* is the everyday way to say "there is", and the precise alternatives depend on what you mean.
+
+- **To say that something exists**: *il existe*, in writing.
+- **To give a location**: *se trouver*.
+- **To say that a name or a fact is on a list or in a document**: *figurer*.
+- **To describe a mood or a silence**: *régner*.
+- **To say that an event happens**: *se dérouler*, or *avoir lieu*, which you know from <LessonLink id="b2-nuancing-opinions" text="the lesson on nuancing your opinion" />.
+
+<Example fr="Il existe plusieurs solutions à ce problème." en="There are several solutions to this problem." />
+<Example fr="La gare se trouve près du centre." en="The station is near the centre." />
+<Example fr="Votre nom ne figure pas sur la liste." en="Your name isn't on the list." />
+<Example fr="Un lourd silence régnait dans la salle." en="A heavy silence filled the room." />
+<Example fr="La conférence s'est déroulée dans le calme." en="The conference went off calmly." />
+
+## Cause and effect
+
+<VocabTable group="cause" />
+
+Instead of *faire* or *créer* for a consequence, use a verb that shows what kind. *Susciter* is for a reaction: interest, criticism, worry. *Engendrer* and *entraîner* are for a consequence; both are common in reports. You already know *provoquer* from <LessonLink id="b1-cause-and-consequence" text="the lesson on cause and consequence" />.
+
+<Example fr="Cette décision a suscité de nombreuses critiques." en="This decision gave rise to a lot of criticism." />
+<Example fr="Ce retard a engendré des problèmes pour toute l'équipe." en="This delay caused problems for the whole team." />
+<Example fr="La hausse des prix entraîne des difficultés pour les familles." en="The rise in prices leads to difficulties for families." />
+
+## Don't overdo it
+
+One precise verb per sentence is usually enough. If every verb is rare and long, the text becomes heavy, and the reader notices the effort instead of the meaning. As a rule of thumb, replace a general verb when the precise one adds information, not just to sound formal.
+
+## The whole list
+
+| General | Precise (written) |
+|---|---|
+| *faire un paiement, une visite* | *effectuer* |
+| *faire une vérification* | *procéder à* |
+| *faire un plan* | *élaborer* |
+| *mettre en place une règle* | *instaurer* |
+| *apporter, laisser un dossier* | *déposer* |
+| *parler d'un sujet* | *aborder* |
+| *avoir (à sa disposition)* | *disposer de* |
+| *il y a trois parties dans* | *comporter* |
+| *il y a* | *il existe, se trouver, figurer, régner, se dérouler* |
+| *faire, créer (une réaction)* | *susciter, engendrer, entraîner* |
+
+## En français
+
+Thomas, an intern, has written his first report. His manager, Madame Dubois, goes through it with him.
+
+- *Thomas, j'ai lu votre rapport. Il est clair, mais les verbes sont trop simples.* (Thomas, I've read your report. It's clear, but the verbs are too plain.)
+- *Trop simples ? Qu'est-ce que je dois changer ?* (Too plain? What should I change?)
+- *Vous écrivez « on a fait des travaux ». Écrivez plutôt « nous avons effectué des travaux ».* (You write "on a fait des travaux". Write "nous avons effectué des travaux" instead.)
+- *D'accord. Et « il y a trois parties dans le rapport » ?* (OK. And "il y a trois parties dans le rapport"?)
+- *« Le rapport comporte trois parties. » C'est plus précis.* ("Le rapport comporte trois parties." It's more precise.)
+- *Et ici : « on a parlé du budget pendant la réunion » ?* (And here: "on a parlé du budget pendant la réunion"?)
+- *« Nous avons abordé le budget lors de la réunion. »* ("Nous avons abordé le budget lors de la réunion.")
+- *Et « le projet a créé beaucoup d'intérêt » ?* (And "le projet a créé beaucoup d'intérêt"?)
+- *Écrivez « le projet a suscité un grand intérêt ».* (Write "le projet a suscité un grand intérêt".)
+- *Mais à l'oral, je peux garder « faire » et « avoir » ?* (But when I speak, can I keep "faire" and "avoir"?)
+- *Bien sûr. Ces verbes précis sont surtout pour l'écrit.* (Of course. These precise verbs are mainly for writing.)
+- *Et si je mets un verbe précis dans chaque phrase ?* (And what if I put a precise verb in every sentence?)
+- *Alors le texte devient lourd. Gardez-les là où ils apportent quelque chose.* (Then the text becomes heavy. Keep them where they add something.)
+- *Merci. Je vous envoie la nouvelle version demain.* (Thank you. I'll send you the new version tomorrow.)
+
+<Callout type="warning" title="Disposer de, not disposer">
+  Learners often drop the *de* because "to have" takes a direct object. In the meaning "to have available", *disposer* needs **de**: **nous disposons de deux salles**, **l'entreprise dispose d'un budget important**.
+</Callout>
+
+<Callout type="tip" title="Circle the general verbs">
+  When you revise a formal text, circle every *faire*, *mettre*, *avoir* and *il y a*. Then replace about one in three, starting with the ones that hide the most information. You'll improve the text without making it heavy.
+</Callout>
+
+## En résumé
+
+Dans un texte écrit soigné, on peut remplacer les verbes généraux par des verbes précis. Au lieu de faire, on dit effectuer un paiement ou une visite, procéder à une vérification, accomplir un travail ou élaborer un plan. Au lieu de mettre, on dit déposer un dossier ou instaurer une règle. Pour parler d'un sujet, on l'aborde, et on formule une demande. Au lieu d'avoir, on dit disposer de, posséder, comporter ou ressentir. Au lieu d'il y a, on dit il existe, se trouver, figurer, régner ou se dérouler, selon le sens. Pour une conséquence, on dit susciter, engendrer ou entraîner. Ces verbes ne sont pas meilleurs que faire ou avoir : ils sont plus précis. Un seul verbe précis par phrase suffit souvent.
+
+## What's next
+
+Next, <LessonLink id="c1-collocations" text="the lesson on collocations" /> shows which verbs and adjectives naturally go with which nouns, such as *émettre une hypothèse* and *une vive inquiétude*.
+
+=== c1-collocations ===
+
+---
+id: "c1-collocations"
+title: "Collocations"
+description: "Use the words French naturally puts together: émettre une hypothèse, commettre une erreur, jouer un rôle clé, tenir compte de, relever un défi, une vive inquiétude, une large majorité, grièvement blessé."
+level: "C1"
+unit: "Style and emphasis"
+order: 16
+type: "vocabulary"
+tags: ["vocabulary", "collocations", "formal writing", "style"]
+prerequisites: ["c1-precise-verbs", "b2-science-and-research"]
+related: ["b1-making-a-complaint", "b1-review-hypotheses", "c1-review-style"]
+vocab:
+  - { id: "c1-collocations-v001", group: "term", fr: "une collocation", pron: "ewn koh-loh-kah-SYOHN", en: "a collocation (words that naturally go together)" }
+  - { id: "c1-collocations-v002", group: "verbs", fr: "émettre une hypothèse / il a émis", pron: "ay-meh-truh ew-nee-poh-TEZ / ee-lah ay-MEE", en: "to put forward a hypothesis", note: "Like mettre: il a émis." }
+  - { id: "c1-collocations-v003", group: "verbs", fr: "commettre une erreur", pron: "koh-meh-truh ew-neh-RUHR", en: "to make a mistake (formal)", note: "Like mettre: il a commis. Faire une erreur is also correct." }
+  - { id: "c1-collocations-v004", group: "verbs", fr: "jouer un rôle dans", pron: "zhoo-ay uhn ROHL dahn", en: "to play a part in" }
+  - { id: "c1-collocations-v005", group: "verbs", fr: "prendre en compte", pron: "prahn-drahn KOHNT", en: "to take into account" }
+  - { id: "c1-collocations-v006", group: "verbs", fr: "tenir compte de", pron: "tuh-neer KOHNT duh", en: "to take account of" }
+  - { id: "c1-collocations-v007", group: "verbs", fr: "accorder de l'importance à", pron: "ah-kor-day duh lan-por-TAHNSS ah", en: "to attach importance to" }
+  - { id: "c1-collocations-v008", group: "verbs", fr: "dresser un bilan", pron: "dreh-say uhn bee-LAHN", en: "to take stock, to draw up an assessment" }
+  - { id: "c1-collocations-v009", group: "verbs", fr: "relever un défi", pron: "ruhl-vay uhn day-FEE", en: "to rise to a challenge", note: "Je relève, nous relevons." }
+  - { id: "c1-collocations-v010", group: "verbs", fr: "lancer un projet", pron: "lahn-say uhn proh-ZHEH", en: "to launch a project" }
+  - { id: "c1-collocations-v011", group: "adjectives", fr: "une vive inquiétude", pron: "ewn veev an-kyay-TEWD", en: "deep concern, serious worry" }
+  - { id: "c1-collocations-v012", group: "adjectives", fr: "un vif intérêt", pron: "uhn vee-fan-tay-REH", en: "a keen interest" }
+  - { id: "c1-collocations-v013", group: "adjectives", fr: "un rôle clé", pron: "uhn rohl KLAY", en: "a key role" }
+  - { id: "c1-collocations-v014", group: "adjectives", fr: "une lourde responsabilité", pron: "ewn loor-duh rehs-pohn-sah-bee-lee-TAY", en: "a heavy responsibility" }
+  - { id: "c1-collocations-v015", group: "adjectives", fr: "une large majorité", pron: "ewn lar-zhuh mah-zhoh-ree-TAY", en: "a large majority" }
+  - { id: "c1-collocations-v016", group: "adjectives", fr: "un profond désaccord", pron: "uhn proh-fohn day-zah-KOR", en: "a deep disagreement" }
+  - { id: "c1-collocations-v017", group: "adverbs", fr: "grièvement blessé", pron: "gree-ev-MAHN bleh-SAY", en: "seriously injured", note: "Mostly with blessé (also brûlé). For illness: gravement malade." }
+  - { id: "c1-collocations-v018", group: "adverbs", fr: "parfaitement conscient de", pron: "par-fet-MAHN kohn-SYAHN duh", en: "fully aware of" }
+exercises:
+  - id: "c1-collocations-ex001"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe : Les chercheurs ont ___ une hypothèse."
+    options: ["émis", "commis", "joué"]
+    answers: ["émis"]
+    explanation: "Émettre une hypothèse: to put forward a hypothesis. You commit a mistake (commettre une erreur) and play a part (jouer un rôle)."
+  - id: "c1-collocations-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe : Il a ___ une grave erreur."
+    options: ["commis", "émis", "relevé"]
+    answers: ["commis"]
+    explanation: "Commettre une erreur, in careful French; faire une erreur is also correct."
+  - id: "c1-collocations-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Ce document joue un rôle ___ dans l'enquête."
+    options: ["clé", "lourd", "large"]
+    answers: ["clé"]
+    explanation: "Un rôle clé: a key role. Clé works like an adjective here."
+  - id: "c1-collocations-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : La nouvelle a suscité une ___ inquiétude."
+    options: ["vive", "lourde", "large"]
+    answers: ["vive"]
+    explanation: "Vif or vive intensifies feelings and interest: une vive inquiétude."
+  - id: "c1-collocations-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Le projet a été adopté à une ___ majorité."
+    options: ["large", "vive", "lourde"]
+    answers: ["large"]
+    explanation: "Une large majorité: a large majority."
+  - id: "c1-collocations-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec « tenir » au participe passé : Nous avons ___ compte de vos remarques."
+    answers: ["tenu"]
+    explanation: "Tenir compte de: nous avons tenu compte de…"
+  - id: "c1-collocations-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec « relever » au passé composé : L'équipe ___ le défi."
+    answers: ["a relevé"]
+    explanation: "Relever un défi: l'équipe a relevé le défi."
+    strictAccents: true
+  - id: "c1-collocations-ex008"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Deux personnes ont été grièvement blessées."
+    options: ["Two people were seriously injured.", "Two people were slightly injured.", "Two people were seriously ill."]
+    answers: ["Two people were seriously injured."]
+    explanation: "Grièvement goes mostly with blessé (also brûlé): seriously injured."
+  - id: "c1-collocations-ex009"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : to make a decision"
+    options: ["prendre une décision", "faire une décision", "donner une décision"]
+    answers: ["prendre une décision"]
+    explanation: "French takes a decision: prendre une décision."
+  - id: "c1-collocations-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « prendre en compte » : Nous avons tenu compte de vos remarques."
+    answers: ["Nous avons pris en compte vos remarques", "Nous avons pris vos remarques en compte"]
+    explanation: "Prendre en compte takes a direct object, before or after en compte."
+  - id: "c1-collocations-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « dresser » : Le directeur a fait le bilan de l'année."
+    answers: ["Le directeur a dressé le bilan de l'année", "Le directeur a dressé un bilan de l'année"]
+    strictAccents: true
+    explanation: "Dresser un bilan is the written collocation; faire le bilan is the everyday one."
+  - id: "c1-collocations-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Il a commis une hypothèse."
+    answers: ["Il a émis une hypothèse", "Il a fait une hypothèse", "Il a formulé une hypothèse"]
+    strictAccents: true
+    explanation: "You put forward a hypothesis (émettre, formuler, or faire); commettre goes with an error or a crime."
+  - id: "c1-collocations-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Nous accordons beaucoup d'importance de la sécurité."
+    answers: ["Nous accordons beaucoup d'importance à la sécurité"]
+    explanation: "Accorder de l'importance à quelque chose."
+    strictAccents: true
+  - id: "c1-collocations-ex014"
+    type: "translate"
+    prompt: "Traduisez avec « relever » : They rose to the challenge."
+    answers: ["Ils ont relevé le défi", "Elles ont relevé le défi"]
+    explanation: "Relever un défi: to rise to a challenge."
+  - id: "c1-collocations-ex015"
+    type: "translate"
+    prompt: "Traduisez avec « susciter » et « vif » : This proposal aroused keen interest."
+    answers: ["Cette proposition a suscité un vif intérêt"]
+    strictAccents: true
+    explanation: "Un vif intérêt, with susciter from the lesson on precise verbs."
+  - id: "c1-collocations-ex016"
+    type: "translate"
+    prompt: "Traduisez avec « lourd » : It's a heavy responsibility."
+    answers: ["C'est une lourde responsabilité"]
+    explanation: "Lourd goes before responsabilité in this collocation."
+  - id: "c1-collocations-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The director made a serious mistake."
+    words: ["Le", "directeur", "a", "commis", "une", "grave", "erreur"]
+    answers: ["Le directeur a commis une grave erreur", "Le directeur a commis une erreur grave"]
+    explanation: "Commettre une erreur; grave can come before or after erreur."
+---
+
+By the end of this lesson you'll be able to use the verbs and adjectives that French naturally puts with common nouns, so that your writing sounds French and not translated.
+
+## What you already know
+
+You know several pairs already. *Une hypothèse*, *mener une étude* and *tirer une conclusion* come from <LessonLink id="b2-science-and-research" text="the lesson on science and research" />, and *prendre une décision* from <LessonLink id="b1-review-hypotheses" text="the review of hypotheses" />. You met *porter plainte* in <LessonLink id="b1-making-a-complaint" text="the lesson on making a complaint" />, and *susciter l'intérêt* in <LessonLink id="c1-precise-verbs" text="the lesson on precise verbs" />.
+
+## What a collocation is
+
+<VocabTable group="term" />
+
+*Une collocation* is a pair of words that naturally go together. Nothing in grammar explains it: you simply don't say *faire une décision* in French, even though English says "make a decision". Collocations are why a sentence can be correct and still sound foreign.
+
+<Example fr="Cette phrase est correcte, mais la collocation est mauvaise." en="This sentence is correct, but the collocation is wrong." />
+
+The safest strategy is to learn the noun with its verb or adjective, as one unit.
+
+## Verb and noun
+
+<VocabTable group="verbs" />
+
+Many English "make", "take" and "have" phrases have their own French verb.
+
+- **A hypothesis is put forward**: *émettre une hypothèse*. *Faire une hypothèse* is also heard.
+- **A mistake is committed**: *commettre une erreur* in careful French; *faire une erreur* is fine in everyday French.
+- **A part is played**: *jouer un rôle dans*.
+- **Something is taken into account**: *prendre en compte* (+ direct object) or *tenir compte de*.
+- **Importance is given**: *accorder de l'importance à*.
+- **Stock is taken**: *dresser un bilan*; *faire le bilan* is the everyday version.
+- **A challenge is met**: *relever un défi*.
+- **A project is launched**: *lancer un projet*.
+
+<Example fr="Les chercheurs ont émis une nouvelle hypothèse." en="The researchers put forward a new hypothesis." />
+<Example fr="Nous avons tenu compte de toutes vos remarques." en="We've taken account of all your comments." />
+<Example fr="La mairie accorde beaucoup d'importance à la sécurité." en="The town hall attaches great importance to safety." />
+<Example fr="À la fin de l'année, le directeur dresse un bilan." en="At the end of the year, the director takes stock." />
+<Example fr="L'association a lancé un projet pour les jeunes." en="The association has launched a project for young people." />
+
+Watch the constructions: *prendre en compte vos remarques* has no preposition, but *tenir compte de vos remarques* and *jouer un rôle dans le projet* do.
+
+## Adjective and noun
+
+<VocabTable group="adjectives" />
+
+French often intensifies a noun with a set adjective where English uses "big", "strong" or "deep". *Vif* and *vive* go with feelings and interest. *Lourd* goes with a responsibility or a consequence. *Large* goes with a majority. *Profond* goes with a disagreement or respect. *Clé*, after a noun, means "key".
+
+<Example fr="Les habitants ont exprimé une vive inquiétude." en="The residents expressed deep concern." />
+<Example fr="Elle porte une lourde responsabilité." en="She bears a heavy responsibility." />
+<Example fr="Il existe un profond désaccord entre les deux partis." en="There is a deep disagreement between the two parties." />
+
+Swapping the adjective changes the tone or sounds wrong: *une grande inquiétude* is fine but plainer, while *une lourde inquiétude* isn't a usual pairing. As a rule of thumb, when you're not sure of the adjective, use the plain one (*grand*, *important*) rather than guess.
+
+## Adverb and adjective
+
+<VocabTable group="adverbs" />
+
+A few adverbs go with very few adjectives. *Grièvement* goes mostly with *blessé* (also *brûlé*, burnt); for illness, say *gravement malade*. *Parfaitement* goes naturally with *conscient*.
+
+<Example fr="Mon voisin a été grièvement blessé." en="My neighbour was seriously injured." />
+<Example fr="Je suis parfaitement conscient du problème." en="I'm fully aware of the problem." />
+
+## Everyday and careful pairs
+
+Several nouns have two partners: an everyday verb and a more careful one. Both are correct, but they don't sit in the same texts. In a conversation or a quick email, the everyday pair is natural. In a report, an essay or a formal letter, the careful pair shows control of the language.
+
+| Everyday | Careful |
+|---|---|
+| *faire une erreur* | *commettre une erreur* |
+| *faire une hypothèse* | *émettre une hypothèse* |
+| *faire le bilan* | *dresser un bilan* |
+| *faire attention à une remarque* | *tenir compte d'une remarque* |
+
+<Example fr="Le rapport dresse un bilan de la première année." en="The report takes stock of the first year." />
+<Example fr="Pendant la réunion, j'ai fait le bilan avec mon équipe." en="During the meeting, I took stock with my team." />
+
+Don't mix the two levels in one sentence: a careful verb next to a familiar word sounds odd.
+
+## How to learn them
+
+Collocations are best learned from reading, not from rules. When you read a French article, note the pairs, not the single words: write *relever un défi*, not just *défi*. Group them by noun, so that each noun brings its verb and its adjective with it.
+
+## The whole list
+
+| English | French collocation |
+|---|---|
+| put forward a hypothesis | *émettre une hypothèse* |
+| make a mistake | *commettre une erreur* (*faire une erreur*) |
+| play a part in | *jouer un rôle dans* |
+| take into account | *prendre en compte*, *tenir compte de* |
+| attach importance to | *accorder de l'importance à* |
+| take stock | *dresser un bilan* (*faire le bilan*) |
+| rise to a challenge | *relever un défi* |
+| deep concern, keen interest | *une vive inquiétude*, *un vif intérêt* |
+| a heavy responsibility, a large majority | *une lourde responsabilité*, *une large majorité* |
+| seriously injured, fully aware | *grièvement blessé*, *parfaitement conscient* |
+
+## En français
+
+Léa, a journalist, has written an article about a project of the town hall. Her editor, Hugo, reads it with her.
+
+- *Léa, ton article est bon, mais certaines phrases sont trop proches de l'anglais.* (Léa, your article is good, but some sentences are too close to English.)
+- *Lesquelles ?* (Which ones?)
+- *Ici : « le maire a pris un rôle important ». On dit « il a joué un rôle clé ».* (Here: "le maire a pris un rôle important". We say "il a joué un rôle clé".)
+- *D'accord. Et « les habitants ont une grande inquiétude » ?* (OK. And "les habitants ont une grande inquiétude"?)
+- *C'est correct, mais « les habitants ont exprimé une vive inquiétude » est plus fort.* (That's correct, but "les habitants ont exprimé une vive inquiétude" is stronger.)
+- *Et « nous avons fait une erreur dans nos chiffres » ?* (And "nous avons fait une erreur dans nos chiffres"?)
+- *Ça va aussi. À l'écrit, « commettre une erreur » est plus soigné.* (That's fine too. In writing, "commettre une erreur" is more careful.)
+- *J'ai aussi écrit : « la mairie va faire attention aux remarques des habitants ».* (I also wrote: "la mairie va faire attention aux remarques des habitants".)
+- *Écris plutôt « la mairie va tenir compte des remarques des habitants ».* (Write "la mairie va tenir compte des remarques des habitants" instead.)
+- *Le maire a aussi parlé d'un grand défi pour la ville.* (The mayor also spoke of a big challenge for the town.)
+- *Alors termine avec une question : « La ville saura-t-elle relever ce défi ? »* (Then end with a question: "Will the town be able to rise to this challenge?")
+- *J'aime bien. Et pour le vote ?* (I like it. And for the vote?)
+- *« Le projet a été adopté à une large majorité. »* ("The project was passed by a large majority.")
+- *Merci. Je vais noter ces expressions.* (Thanks. I'll write these expressions down.)
+
+<Callout type="warning" title="Prendre une décision, not faire une décision">
+  English speakers often translate "make a decision" word for word. French takes a decision: **prendre une décision**. In the same way, French says **prendre rendez-vous** and **poser une question**, where English says "make" and "ask".
+</Callout>
+
+<Callout type="tip" title="One noun, two partners">
+  When you meet an important noun, find two words that often go with it: a verb and an adjective. For *défi*: *relever un défi*, *un grand défi*. Writing them together on one line fixes them much better than writing the noun alone.
+</Callout>
+
+## En résumé
+
+Une collocation est un groupe de mots qui vont souvent ensemble. La grammaire ne l'explique pas : il faut l'apprendre. Avec un nom, on choisit le bon verbe : on émet une hypothèse, on commet une erreur, on joue un rôle dans un projet, on prend en compte une remarque ou on en tient compte, on accorde de l'importance à quelque chose, on dresse un bilan, on relève un défi et on lance un projet. Certains adjectifs donnent plus de force au nom : une vive inquiétude, un vif intérêt, une lourde responsabilité, une large majorité, un profond désaccord, un rôle clé. Certains adverbes vont avec très peu d'adjectifs : grièvement blessé, parfaitement conscient. Pour bien les apprendre, il vaut mieux noter le nom avec son verbe et son adjectif.
+
+## What's next
+
+Next, <LessonLink id="c1-review-style" text="the review of this unit" /> brings inversion, negation, emphasis and precise words together in a short editorial.
+
+=== c1-review-style ===
+
+---
+id: "c1-review-style"
+title: "Review: Style and emphasis"
+description: "Bring Unit 2 together by turning a plain text into polished written French: stylistic inversion, the ne explétif, literary negation, fronting, adverb placement, prepositions, precise verbs and collocations, used with restraint."
+level: "C1"
+unit: "Style and emphasis"
+order: 17
+type: "review"
+tags: ["review", "style", "formal writing", "editorial"]
+prerequisites: ["c1-stylistic-inversion", "c1-literary-negation", "c1-dislocation-and-fronting", "c1-adverb-placement", "c1-collocations"]
+related: ["c1-ne-expletif", "c1-tricky-prepositions", "c1-precise-verbs"]
+vocab:
+  - { id: "c1-review-style-v001", group: "new", fr: "la mise en valeur", pron: "lah mee-zahn vah-LUHR", en: "highlighting, showing something to advantage" }
+  - { id: "c1-review-style-v002", group: "new", fr: "un effet de style", pron: "uh-neh-feh duh STEEL", en: "a stylistic effect" }
+  - { id: "c1-review-style-v003", group: "new", fr: "la sobriété", pron: "lah soh-bree-ay-TAY", en: "restraint, sobriety (of style)" }
+  - { id: "c1-review-style-v004", group: "new", fr: "alourdir", pron: "ah-loor-DEER", en: "to weigh down, to make heavy (a text)", note: "Like finir." }
+  - { id: "c1-review-style-v005", group: "glossary", fr: "honnête", pron: "oh-NET", en: "honest, fair" }
+  - { id: "c1-review-style-v006", group: "glossary", fr: "agréable", pron: "ah-gray-AH-bluh", en: "pleasant" }
+  - { id: "c1-review-style-v007", group: "glossary", fr: "la patience (perdre patience)", pron: "lah pah-SYAHNSS (pehr-druh pah-SYAHNSS)", en: "patience (to lose patience)" }
+exercises:
+  - id: "c1-review-style-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la forme du registre soutenu : Sans doute ___ raison."
+    options: ["a-t-il", "il a-t-il", "a il"]
+    answers: ["a-t-il"]
+    explanation: "After sans doute at the start of a sentence, careful writing inverts the verb and the pronoun: sans doute a-t-il raison."
+  - id: "c1-review-style-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Je crains que la mairie ne change d'avis."
+    options: ["I'm afraid the town hall will change its mind.", "I'm afraid the town hall won't change its mind.", "I'm not afraid the town hall will change its mind."]
+    answers: ["I'm afraid the town hall will change its mind."]
+    explanation: "No pas: the ne is explétif and adds no negation."
+  - id: "c1-review-style-ex003"
+    type: "fill-in"
+    prompt: "Complétez au registre soutenu avec « nul » : ___ ne connaît le prix du projet."
+    answers: ["Nul"]
+    explanation: "Nul ne + verb, with no pas: nobody knows."
+  - id: "c1-review-style-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le mot du registre soutenu : ___ sont ceux qui prennent le bus."
+    options: ["Rares", "Peu", "Beaucoup"]
+    answers: ["Rares"]
+    explanation: "Rares sont ceux qui: the adjective comes first, then sont. Peu and beaucoup can't be used this way."
+  - id: "c1-review-style-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Même le maire prend son vélo."
+    options: ["Even the mayor cycles.", "The mayor cycles too.", "The mayor cycles every day."]
+    answers: ["Even the mayor cycles."]
+    explanation: "Même before a noun means even."
+  - id: "c1-review-style-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec un pronom (= I don't miss cars) : Les voitures ne ___ manquent pas."
+    answers: ["me"]
+    explanation: "With manquer à, what's missed is the subject: les voitures ne me manquent pas."
+  - id: "c1-review-style-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe précis : Les travaux seront ___ en juin."
+    options: ["effectués", "disposés", "comportés"]
+    answers: ["effectués"]
+    explanation: "Effectuer des travaux: to carry out works."
+  - id: "c1-review-style-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe : Les commerçants ont ___ une vive inquiétude."
+    options: ["exprimé", "commis", "relevé"]
+    answers: ["exprimé"]
+    explanation: "Exprimer une inquiétude. You commit a mistake and rise to a challenge."
+  - id: "c1-review-style-ex009"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « rares sont les habitants qui » : Peu d'habitants prennent le bus."
+    answers: ["Rares sont les habitants qui prennent le bus"]
+    explanation: "Rares sont les habitants qui + verb in the plural."
+  - id: "c1-review-style-ex010"
+    type: "register-shift"
+    prompt: "Transformez au registre courant écrit, sans dislocation : Le centre-ville, on ne le reconnaît plus."
+    answers: ["On ne reconnaît plus le centre-ville", "Nous ne reconnaissons plus le centre-ville"]
+    explanation: "Put the noun back in the object position and drop the pronoun le."
+  - id: "c1-review-style-ex011"
+    type: "reformulation"
+    prompt: "Reformulez la deuxième phrase avec « Aussi » en tête et l'inversion : Le projet coûte cher. La mairie doit donc le défendre."
+    answers: ["Aussi la mairie doit-elle le défendre", "Le projet coûte cher. Aussi la mairie doit-elle le défendre"]
+    explanation: "With a noun subject, keep the noun first and add a pronoun after the verb: la mairie doit-elle."
+  - id: "c1-review-style-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec « comporter » : Dans le plan, il y a trois étapes."
+    answers: ["Le plan comporte trois étapes"]
+    explanation: "The container becomes the subject of comporter."
+  - id: "c1-review-style-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (le sens : before it's too late) : Agissons avant qu'il ne soit pas trop tard."
+    answers: ["Agissons avant qu'il ne soit trop tard", "Agissons avant qu'il soit trop tard"]
+    explanation: "With pas, the sentence would mean \"before it is not too late\", which makes no sense. Drop pas, and keep or drop the ne explétif."
+  - id: "c1-review-style-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Cette mesure a joué un rôle clé à la réussite du projet."
+    answers: ["Cette mesure a joué un rôle clé dans la réussite du projet"]
+    strictAccents: true
+    explanation: "Jouer un rôle dans quelque chose."
+  - id: "c1-review-style-ex015"
+    type: "translate"
+    prompt: "Traduisez au registre soutenu, avec « nullement » : We are in no way against this project."
+    answers: ["Nous ne sommes nullement contre ce projet"]
+    explanation: "Ne… nullement replaces ne… pas du tout in formal writing."
+  - id: "c1-review-style-ex016"
+    type: "translate"
+    prompt: "Traduisez avec « seulement » : The street is closed only on Sundays."
+    answers: ["La rue est fermée seulement le dimanche", "La rue est fermée le dimanche seulement"]
+    explanation: "Seulement goes next to the word it restricts: seulement le dimanche, or le dimanche seulement."
+  - id: "c1-review-style-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Such is the challenge that the town must rise to."
+    words: ["Tel", "est", "le", "défi", "que", "la", "ville", "doit", "relever"]
+    answers: ["Tel est le défi que la ville doit relever"]
+    explanation: "Tel est + noun opens the sentence; relever un défi is the collocation."
+  - id: "c1-review-style-ex018"
+    type: "translate"
+    prompt: "Traduisez avec « alourdir » : Too many effects weigh down a text."
+    answers: ["Trop d'effets alourdissent un texte", "Trop d'effets de style alourdissent un texte", "Trop d'effets alourdissent le texte", "Trop d'effets de style alourdissent le texte"]
+    explanation: "Alourdir is like finir: ils alourdissent."
+---
+
+By the end of this lesson you'll be able to take a plain text and make it polished written French, choosing a few effects from this unit and using them with restraint.
+
+## What you've learned
+
+This unit has been about style: how word order, negation, adverbs and word choice change the tone of a text. Skim this list, and go back to anything that feels shaky.
+
+- **Inversion.** After *sans doute*, *à peine* and *aussi* (therefore), careful writing inverts the verb and the subject pronoun (*sans doute a-t-il raison*); with a noun subject, it adds a pronoun (*sans doute la mairie a-t-elle tort*), from <LessonLink id="c1-stylistic-inversion" text="the lesson on stylistic inversion" />.
+- **The ne explétif.** *Avant qu'il ne soit trop tard*, *plus vite que nous ne le pensions*, from <LessonLink id="c1-ne-expletif" text="the lesson on the ne explétif" />.
+- **Literary negation.** *Nul ne sait*, *je n'en doute nullement*, *il ne cesse de pleuvoir*, from <LessonLink id="c1-literary-negation" text="the lesson on literary negation" />.
+- **Emphasis.** Dislocation in speech (*ce film, je l'ai adoré*) and fronting in writing (*rares sont ceux qui*, *reste à savoir si*, *telle est la raison*), from <LessonLink id="c1-dislocation-and-fronting" text="the lesson on dislocation and fronting" />.
+- **Adverbs.** *Même le maire*, *seulement le dimanche*, *visiblement*, from <LessonLink id="c1-adverb-placement" text="the lesson on adverb placement" />.
+- **Prepositions.** *Paris manque à Julie*, *croire en*, *penser de*, from <LessonLink id="c1-tricky-prepositions" text="the lesson on tricky prepositions" />.
+- **Precise verbs.** *Effectuer*, *disposer de*, *comporter*, *se dérouler*, *susciter*, from <LessonLink id="c1-precise-verbs" text="the lesson on precise verbs" />.
+- **Collocations.** *Dresser un bilan*, *relever un défi*, *une vive inquiétude*, *un rôle clé*, from <LessonLink id="c1-collocations" text="the lesson on collocations" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+These four words help you talk about style itself. *La mise en valeur* is what emphasis does: it shows one idea to advantage. *Un effet de style* is any choice that gives a sentence a particular tone, such as an inversion or a fronted word. *La sobriété* is restraint, a style without too many effects; you know the adjective *sobre* from <LessonLink id="b2-describing-a-work-of-art" text="the lesson on describing a work of art" />. *Alourdir* is to make a text heavy.
+
+<Example fr="L'inversion permet la mise en valeur de l'idée principale." en="Inversion lets you highlight the main idea." />
+<Example fr="Chaque effet de style doit avoir une raison." en="Every stylistic effect needs a reason." />
+<Example fr="Un bon éditorial garde une certaine sobriété." en="A good editorial keeps a certain restraint." />
+<Example fr="Trop de verbes rares alourdissent le texte." en="Too many rare verbs weigh the text down." />
+
+## From plain to polished
+
+In this lesson, *un effet de style* means a word-order or negation device: fronting, inversion after *sans doute*, *aussi* or *à peine*, a literary negation, or the *ne explétif*. Precise verbs, collocations and the incise after a quotation (*nous a dit une commerçante*) don't count as effects: they're simply good word choice.
+
+Polishing a text isn't about putting every effect of the unit into one paragraph. It's about choosing a few, in the right places. Work in this order.
+
+1. **Replace the vague verbs.** Circle *faire*, *mettre*, *avoir* and *il y a*, and change those that hide information: *effectuer des travaux*, *le plan comporte trois étapes*.
+2. **Fix the collocations.** Check each important noun with its verb and adjective: *dresser un bilan*, *une large majorité*.
+3. **Put one idea in focus.** Use fronting or inversion once or twice, for the points that matter most: *rares sont ceux qui…*, *aussi la mairie doit-elle…*.
+4. **Choose the register of the negations.** In a formal text, one *nul ne* or *ne… nullement* can replace a plain negation. Keep *ne… point* for literary imitation.
+5. **Check the small words.** Is *seulement* or *même* next to the word it modifies? Does *manquer à* have the right subject? Does *disposer* have its *de*?
+
+Then reread for *sobriété*. If two effects sit in the same sentence, remove one. As a rule of thumb, a paragraph of five sentences needs no more than two effects.
+
+## One sentence, three steps
+
+Here is how one plain sentence becomes formal, one step at a time. Each step changes a single thing.
+
+<Example fr="Il y a beaucoup de gens qui ont peur pour les commerces." en="There are a lot of people who are worried about the shops." />
+<Example fr="Nombreux sont ceux qui ont peur pour les commerces." en="Many people are worried about the shops. (formal)" />
+<Example fr="Nombreux sont ceux qui expriment une vive inquiétude pour les commerces." en="Many people are expressing deep concern about the shops. (formal)" />
+
+The first step replaces *il y a beaucoup de gens qui* with fronting. The second replaces *avoir peur* with a collocation. A third step, such as an inversion, would be too much for one sentence.
+
+The same method works for a sentence about a decision:
+
+<Example fr="La mairie n'a pas du tout pensé aux familles." en="The town hall didn't think about families at all." />
+<Example fr="La mairie n'a nullement tenu compte des familles." en="The town hall took no account of families whatsoever. (formal)" />
+
+Here, *nullement* replaces *pas du tout*, and *tenir compte de* replaces *penser à*. Two changes are enough.
+
+## Traps when you polish
+
+Three mistakes come back again and again when learners make a text more formal.
+
+- **Changing the meaning.** A *pas* added after a *ne explétif* turns the sentence into its opposite. A *seulement* moved to another place restricts another word. After each change, check that the sentence still says what you meant.
+- **Mixing registers.** A fronted *rares sont ceux qui* next to a dislocation or a familiar word sounds like two writers. Keep one register per paragraph.
+- **Forgetting the construction.** Precise verbs and collocations bring their own prepositions: *disposer de*, *tenir compte de*, *jouer un rôle dans*, *accorder de l'importance à*. Learn the preposition with the verb.
+
+## A model editorial
+
+This is an original editorial about an invented town, Saint-Aubin, written for this lesson.
+
+*Saint-Aubin, une ville sans voitures ?*
+
+*Depuis le 1er mars, les voitures ne peuvent plus entrer dans le centre de Saint-Aubin. Le débat a duré plus d'un an. La mesure, instaurée par la mairie, a suscité une vive inquiétude chez les commerçants. Rares sont ceux qui étaient d'accord au début. « Le centre, on ne le reconnaît plus ! », nous a dit une commerçante.*
+
+*Il faut pourtant dresser un bilan honnête. Le premier mois s'est déroulé dans le calme, et les chiffres sont meilleurs que nous ne le pensions : la pollution a baissé, et les rues sont plus vivantes. Le samedi, les familles marchent dans les rues, et les enfants jouent sur la place. Même les commerçants le reconnaissent.*
+
+*Sans doute la mairie a-t-elle commis des erreurs. Elle a peu tenu compte des personnes âgées, pour qui le bus reste difficile. Elle doit maintenant les écouter. Nul ne regrette pourtant la situation d'avant.*
+
+*Reste la question des commerces. Le calme ne leur pose aucun problème. Ce sont les clients des villages voisins qui leur manquent : il n'existe pas de parking à l'entrée de la ville. Le samedi, ils faisaient leurs courses dans le centre ; aujourd'hui, ils vont ailleurs.*
+
+*Telle est la difficulté : une ville plus agréable ne doit pas devenir une ville fermée. La mairie doit agir avant que les commerçants perdent patience. Aussi lui demandons-nous d'élaborer un plan pour les parkings. Ce plan jouera un rôle clé dans l'avenir de Saint-Aubin. La ville saura-t-elle relever ce défi ?*
+
+<VocabTable group="glossary" />
+
+(Saint-Aubin, a town without cars? Since 1 March, cars can no longer enter the centre of Saint-Aubin. The debate lasted more than a year. The measure, brought in by the town hall, aroused deep concern among the shopkeepers. Few of them agreed at first. "You can't recognize the centre any more!", one shopkeeper told us (spoken). We must nevertheless take stock honestly. The first month went off calmly, and the figures are better than we thought: pollution has fallen, and the streets are livelier. On Saturdays, families walk in the streets, and children play in the square. Even the shopkeepers admit it. No doubt the town hall made mistakes. It took little account of older people, for whom the bus is still difficult. It must now listen to them. Yet nobody misses the situation before. There remains the question of the shops. The quiet causes them no problem. What they miss are the customers from the neighbouring villages: there's no car park at the entrance to the town. On Saturdays, they used to do their shopping in the centre; today, they go elsewhere. Such is the difficulty: a more pleasant town mustn't become a closed town. The town hall must act before the shopkeepers lose patience. We therefore ask it to draw up a plan for car parks. This plan will play a key role in the future of Saint-Aubin. Will the town rise to this challenge?)
+
+## How the text uses the unit
+
+- **Precise verbs and collocations** (not counted as effects): *instaurée*, *a suscité une vive inquiétude*, *dresser un bilan*, *s'est déroulé*, *il n'existe pas de parking*, *élaborer un plan*, *jouera un rôle clé*, *relever ce défi*.
+- **Fronting**: *rares sont ceux qui* (paragraph 1), *reste la question des commerces* (paragraph 4), *telle est la difficulté* (paragraph 5).
+- **Inversion**: *sans doute la mairie a-t-elle commis* (paragraph 3), *aussi lui demandons-nous* (paragraph 5). The incise *nous a dit une commerçante* and the closing question *la ville saura-t-elle…* are ordinary formal word order, not counted as effects.
+- **Literary negation**: *nul ne regrette* (paragraph 3).
+- **The ne explétif**: *meilleurs que nous ne le pensions* (paragraph 2).
+- **Adverbs and prepositions**: *même les commerçants*, and *manquer à* with the clients as the subject.
+- **Dislocation** appears only once, inside a quotation, because it's spoken French.
+
+Notice what the text doesn't do. Each paragraph has one or two effects, never more, and the plainest sentences (*la pollution a baissé*) carry the facts. That restraint is *la sobriété*.
+
+Notice also the order of the paragraphs: the facts first, then the assessment, then the problem, and finally the request to the town hall. Fronting and inversion appear where the argument turns (*sans doute*, *reste la question*, *telle est*, *aussi*), so the reader feels each step. An effect placed at a turning point helps the reader; the same effect in the middle of a list of facts only slows them down.
+
+## Your turn
+
+Here is a plain paragraph. Rewrite it as the second paragraph of an editorial, with three or four of the effects above.
+
+*Choisissez trois ou quatre effets de style pour la mise en valeur des idées principales, et gardez une certaine sobriété : trop d'effets alourdissent le texte.*
+
+(Choose three or four stylistic effects to highlight the main ideas, and keep a certain restraint: too many effects weigh the text down.)
+
+*Il y a eu beaucoup de discussions sur le nouveau parc. Beaucoup de gens étaient contre. Maintenant, on a fait un premier bilan, et les résultats sont meilleurs qu'on pensait. Mais il reste un problème : on n'a pas pensé aux familles. La mairie doit faire quelque chose vite.*
+
+(There's been a lot of discussion about the new park. Many people were against it. Now a first assessment has been made, and the results are better than people thought. But one problem remains: nobody thought about families. The town hall must do something quickly.)
+
+For example, you could use *susciter* for the discussions, *rares sont ceux qui* or *nombreux sont ceux qui*, *dresser un bilan*, *meilleurs que nous ne le pensions*, *reste la question de*, *tenir compte de* and *aussi* with inversion. Keep at least two plain sentences.
+
+## Check your work
+
+- Did you replace only the general verbs that hide information?
+- Is each collocation right (*dresser un bilan* rather than *faire le bilan* in formal writing)?
+- After *rares sont ceux qui* or *nombreux sont ceux qui*, is the verb plural?
+- After *aussi* with inversion, did you keep a noun subject first and add a pronoun (*aussi la mairie doit-elle*)?
+- Is there a *pas* after the *ne explétif* by mistake?
+- Are there two plain sentences left, so that the effects stand out?
+
+<Callout type="warning" title="Aussi la mairie doit-elle, not aussi doit la mairie">
+  With a noun subject, learners often swap the noun and the verb after *aussi*. Keep the noun first and add a pronoun after the verb: **aussi la mairie doit-elle agir**. With a pronoun subject, simply invert: **aussi devons-nous agir**.
+</Callout>
+
+<Callout type="tip" title="Read it aloud as a listener">
+  When you've polished a text, read it aloud once, as if you were hearing it on the radio. Wherever you run out of breath or lose the thread, an effect is in the way: remove it or split the sentence. Good formal French still sounds natural when read aloud.
+</Callout>
+
+## What's next
+
+The next unit is about academic writing. It starts with <LessonLink id="c1-participle-clauses" text="the lesson on participle clauses" />.

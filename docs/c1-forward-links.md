@@ -8,8 +8,9 @@ Restored in Prompt 30: c1-future-in-the-past → c1-imperfect-subjunctive and c1
 
 Restored in Prompt 31: c1-tricky-prepositions → c1-precise-verbs (What's next link).
 
+Restored in Prompt 32: c1-imperfect-subjunctive → c1-concession-and-hypothesis (Two other uses) and c1-review-style → c1-participle-clauses (What's next).
+
 | Lesson | Text | Target |
 |---|---|---|
-| c1-imperfect-subjunctive | "The lesson on concession and hypothesis comes back to it in Unit 3." (Two other uses) | c1-concession-and-hypothesis |
 | c1-imperfect-subjunctive | "Next, the lesson on reading literary narrative puts…" (What's next) | c1-reading-literary-narrative |
-| c1-review-style | "The next unit is about academic writing. It starts with the lesson on participle clauses." (What's next) | c1-participle-clauses |
+| c1-review-academic | "The next unit is about debate and rhetoric. It starts with the lesson on rhetorical devices." (What's next) | c1-rhetorical-devices |

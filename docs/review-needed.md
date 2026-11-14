@@ -1675,3 +1675,60 @@ Every date, tradition and regional detail, for checking:
 - **Model editorial** (invented town, Saint-Aubin): confirm it reads as a natural local-newspaper editorial, in particular *Sans doute la mairie a-t-elle commis des erreurs*, *Aussi lui demandons-nous d'élaborer un plan*, *Elle n'a guère tenu compte des personnes âgées*.
 - **"As a rule of thumb, a paragraph of five sentences needs no more than two effects."** Confirm as advice.
 - **ex011** accepts *Aussi la mairie doit-elle le défendre*. Confirm.
+
+### Prompt 32 changes to Unit 2
+
+- **c1-collocations:** "*Grièvement* goes mostly with *blessé* (also *brûlé*, burnt)." Confirm, and confirm whether *grièvement atteint* is also usual.
+- **c1-review-style:** the definition "*un effet de style* means a word-order or negation device… Precise verbs, collocations and the incise… don't count as effects" (a teaching convention, not a grammar claim), and the revised editorial: *Nul ne regrette pourtant la situation d'avant*, *il n'existe pas de parking à l'entrée de la ville*, *La ville saura-t-elle relever ce défi ?*. Confirm they read naturally.
+- **c1-precise-verbs:** the table row "*apporter, laisser un dossier* → *déposer*". Confirm.
+
+### c1-participle-clauses
+
+- **"Before the noun, they don't agree"** (*vu*, *étant donné*, *excepté*): *vu la situation*, *étant donné les circonstances*, *excepté le président*. Confirm, including whether *étant données les circonstances* is also accepted.
+- **"Étant donné… means the same [as vu], in a slightly more formal register"** and **"vu is also common in speech"** (*Vu l'heure, on va s'arrêter*). Confirm.
+- **Absolute clauses:** *La réunion terminée, chacun est rentré chez soi*; *Le train ayant du retard, nous avons manqué la correspondance*; *Les participants arrivés, la séance a été ouverte*; *Tous les points traités, le président a levé la séance*. Confirm each.
+- **ex010** accepts *ayant du retard* and *ayant eu du retard*; **ex011** accepts *est terminé*, *sera terminé* and *aura été terminé*. Confirm.
+
+### c1-formal-relatives-and-apposition
+
+- **"*Dont* can't follow a preposition of several words… à l'issue de, en raison de, à la suite de"**, and *l'homme à la fille duquel j'ai parlé*. Confirm.
+- **Relatives with and without commas:** *Les étudiants qui avaient travaillé ont réussi* (only those) vs *Les étudiants, qui avaient travaillé, ont réussi* (all). Confirm the meaning claim.
+- **"The article in an apposition is optional… a little more formal"** (*Victor Hugo, auteur des Misérables*). Confirm.
+- **Facts:** Victor Hugo spent "nearly twenty years in exile" as an opponent of the Second Empire, the exile lasted "until 1870", and he returned to France at 68. Confirm.
+
+### c1-advanced-connectors
+
+- **"*Par contre*… is correct French. In formal and academic writing, however, many teachers and style guides prefer *en revanche*."** Confirm the register note.
+- **"*Dès lors*… stresses that the consequence follows necessarily"**; **"*Dès lors que* + indicative… since, given that"**; **"*En l'occurrence*… It doesn't mean 'by chance'"**; **"*A fortiori* (written without an accent)"**. Confirm.
+- **"*D'ailleurs* adds a supporting point, often one that the reader didn't expect, while *en outre* simply adds one more point of the same kind."** Confirm.
+- **ex013:** *À en croire de la presse* as the error. Confirm.
+
+### c1-concession-and-hypothesis
+
+- **"*Quand bien même*… takes the conditionnel, and the main clause is usually in the conditionnel too"**; ex013 also accepts *Quand bien même il pleuvrait, nous partirons*. Confirm whether a futur main clause is acceptable.
+- **"*Encore que* + subjunctive… the verb can also be left out"** (*encore qu'un peu long*). Confirm, and whether *encore que* + indicative or conditionnel should be mentioned.
+- **The three conditions:** *pour peu que* (a minimal condition is enough), *à supposer que* (for the sake of argument), *si tant est que* (doubt). Confirm the shades.
+- **Inverted hypothesis:** *Serait-il malade, il viendrait*; *Serait-il ministre, il devrait respecter la loi*. Confirm both as literary "even if".
+
+### c1-abstract-nouns
+
+- **Meanings:** *la portée* (scope, reach, impact), *l'ampleur* (scale), *l'essor* (rise, boom), *l'apport* (contribution), *le bien-fondé* ("usually follows douter de or reconnaître"), *la démarche* (approach), *le cadre* (*dans le cadre de ce projet*). Confirm.
+- **"As a rule of thumb, use one abstract noun per sentence… turn a noun back into a verb when a sentence has more than two de."** Confirm as advice.
+
+### c1-synthesis
+
+- **The four rules** (neutral, nothing from outside, no quotation, organized by ideas) and **"A text that summarizes the first document, then the second, is two summaries, not a synthesis."** Confirm as a description of the French synthèse (no exam claims are made).
+- **"As a rule of thumb, a synthesis has an introduction, two or three parts and a short conclusion"** and **"aim for a quarter to a third of their total length"** (documents of a page or more). Confirm.
+- **Documents and model** (invented town and union): *au détriment du personnel*, *la tribune d'un syndicat*, *les horaires du dimanche vont de quatorze à dix-huit heures*. Confirm they read naturally.
+
+### c1-dissertation
+
+- **"At C1, as a rule of thumb, the problématique is an open question"** (*dans quelle mesure*, *en quoi*). Confirm.
+- **The three plans:** dialectical (debate), analytical (facts, causes, consequences or solutions), thematic (one aspect per part), and "the third part… *dépasse l'opposition*". Confirm.
+- **"This *si* doesn't express a condition: it means 'while, although', and it takes the indicative."** Confirm.
+- **Model essay:** the three parts are announced with *dans un premier temps*, *dans un deuxième temps*, *dans un troisième temps* (following b2-argumentative-essay). Confirm the essay reads naturally, in particular *Les écrans permettent ainsi d'élargir le public des lecteurs* and *il convient de dépasser cette opposition*.
+
+### c1-review-academic
+
+- **Model synthesis and introduction** (invented corpus on the four-day week): confirm *émet en revanche des réserves sur sa faisabilité*, *selon toute vraisemblance, écrivent ses auteurs*, *Certains y voient un progrès social, d'autres un risque pour l'économie*.
+- **ex007:** the plan *1. Une mesure qui répond à de vraies attentes 2. Une faisabilité qui dépend du secteur 3. Une mesure à mettre en perspective* labelled dialectical. Confirm.

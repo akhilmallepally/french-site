@@ -452,13 +452,13 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 18 | c1-participle-clauses | Participle clauses | Academic writing | grammar | b2-participles-and-gerund, b2-infinitif-passe | Ayant terminé…, une fois le projet fini, absolute constructions. Reuses: reports, science. |
-| 19 | c1-formal-relatives-and-apposition | Formal relatives and apposition | Academic writing | grammar | c1-participle-clauses | dont and lequel in long sentences, ce dont / ce à quoi, apposition and detached adjectives. |
-| 20 | c1-advanced-connectors | Advanced connectors and academic hedging | Academic writing | grammar | b2-logical-connectors | or, en revanche (recap); dès lors, en l'occurrence, a fortiori, à cet égard, par contre (register); hedging with à en croire, selon toute vraisemblance, sous réserve de. |
-| 21 | c1-concession-and-hypothesis | Concession and hypothesis at C1 | Academic writing | grammar | c1-subjunctive-nuances | quand bien même + conditionnel, pour peu que, à supposer que, si tant est que, encore que. |
-| 22 | c1-abstract-nouns | Abstract nouns | Academic writing | vocabulary | b2-nominalisation | Concepts and processes: l'enjeu, la démarche, la mise en œuvre, le recul. |
+| 18 | c1-participle-clauses | Participle clauses | Academic writing | grammar | b2-participles-and-gerund, b2-futur-anterieur | Ayant terminé…, une fois le projet fini, absolute constructions. Reuses: reports, science. |
+| 19 | c1-formal-relatives-and-apposition | Formal relatives and apposition | Academic writing | grammar | b2-relative-lequel, b2-relative-prepositions, c1-participle-clauses | dont and lequel in long sentences, ce dont / ce à quoi, apposition and detached adjectives. |
+| 20 | c1-advanced-connectors | Advanced connectors and academic hedging | Academic writing | grammar | b2-logical-connectors, b2-concession-opposition, b2-conditionnel-passe | or, en revanche (recap); dès lors, en l'occurrence, a fortiori, à cet égard, par contre (register); hedging with à en croire, selon toute vraisemblance, sous réserve de. |
+| 21 | c1-concession-and-hypothesis | Concession and hypothesis at C1 | Academic writing | grammar | b2-concession-opposition, b2-mixed-conditionals, c1-imperfect-subjunctive | quand bien même + conditionnel, pour peu que, à supposer que, si tant est que, encore que. |
+| 22 | c1-abstract-nouns | Abstract nouns | Academic writing | vocabulary | b2-nominalisation, b2-formal-report | Concepts and processes: l'enjeu, la démarche, la mise en œuvre, le recul. |
 | 23 | c1-synthesis | The synthèse de documents | Academic writing | communication | c1-advanced-connectors, b2-summarizing-an-article | Combining several sources into one structured, neutral text. |
-| 24 | c1-dissertation | The French dissertation | Academic writing | communication | c1-synthesis, b2-argumentative-essay | Problématique, plan dialectique / thématique, transitions. |
+| 24 | c1-dissertation | The French dissertation | Academic writing | communication | c1-synthesis, b2-argumentative-essay, c1-concession-and-hypothesis | Problématique, plan dialectique / thématique, transitions. |
 | 25 | c1-review-academic | Review: Academic writing | Academic writing | review | c1-participle-clauses, c1-advanced-connectors, c1-abstract-nouns, c1-dissertation | Plan and write a dissertation introduction. |
 
 ### Unit 4: Debate and rhetoric

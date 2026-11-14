@@ -1,6 +1,6 @@
 # All lesson data
 
-236 written lessons, in course order.
+244 written lessons, in course order.
 
 ## a1-greetings
 
@@ -9414,7 +9414,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 
 fr | pron | en | note
 
-- effectuer | ay-feh-ktew-AY | to carry out, to make (a payment, a visit, works) | —
+- effectuer | ay-fek-tew-AY | to carry out, to make (a payment, a visit, works) | —
 - procéder à | proh-say-DAY ah | to carry out, to proceed with (formal) | Procéder à une vérification.
 - accomplir | ah-kohn-PLEER | to accomplish, to carry out (a task) | Like finir.
 - élaborer | ay-lah-boh-RAY | to draw up, to develop (a plan, a project) | —
@@ -9457,8 +9457,8 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-precise-verbs-ex012 | register-shift | Transformez au registre soutenu, avec « disposer de » et « nous » : On a un budget de cinq cents euros. | — | ["Nous disposons d'un budget de cinq cents euros","Nous disposons d'un budget de 500 euros"] | false | Disposer de + the thing you have: nous disposons d'un budget.
 - c1-precise-verbs-ex013 | error-correction | Corrigez l'erreur : Nous disposons deux salles. | — | ["Nous disposons de deux salles"] | false | Disposer needs de in this meaning: disposer de.
 - c1-precise-verbs-ex014 | error-correction | Corrigez l'erreur : La réunion a procédé dans la grande salle. | — | ["La réunion s'est déroulée dans la grande salle","La réunion a eu lieu dans la grande salle"] | true | An event se déroule or a lieu. Procéder à means to carry out something.
-- c1-precise-verbs-ex015 | translate | Traduisez avec « susciter » : This project has aroused a lot of interest. | — | ["Ce projet a suscité beaucoup d'intérêt"] | true | Susciter l'intérêt: to arouse interest.
-- c1-precise-verbs-ex016 | translate | Traduisez avec « se trouver » : The station is in the town centre. | — | ["La gare se trouve dans le centre-ville","La gare se trouve au centre-ville"] | false | Se trouver gives a location, more precisely than être.
+- c1-precise-verbs-ex015 | translate | Traduisez avec « susciter » : This project has aroused a lot of interest. | — | ["Ce projet a suscité beaucoup d'intérêt","Ce projet a suscité un grand intérêt"] | true | Susciter l'intérêt: to arouse interest.
+- c1-precise-verbs-ex016 | translate | Traduisez avec « se trouver » : The station is in the town centre. | — | ["La gare se trouve dans le centre-ville","La gare se trouve au centre-ville","La gare se trouve au centre","La gare se trouve dans le centre"] | false | Se trouver gives a location, more precisely than être.
 - c1-precise-verbs-ex017 | multiple-choice | Indiquez le registre de la phrase : Le paiement a été effectué. | ["soutenu","familier"] | ["soutenu"] | false | Effectuer belongs to careful and administrative French. In familiar speech, you'd say j'ai payé.
 - c1-precise-verbs-ex018 | reorder | Remettez dans l'ordre : A heavy silence filled the room. | — | ["Un lourd silence régnait dans la salle","Un silence lourd régnait dans la salle"] | false | Régner replaces il y avait. Lourd can come before or after silence.
 
@@ -9469,8 +9469,8 @@ id | type | prompt | options | answers | strictAccents | explanation
 fr | pron | en | note
 
 - une collocation | ewn koh-loh-kah-SYOHN | a collocation (words that naturally go together) | —
-- émettre une hypothèse / il a émis | ay-meh-tr ewn ee-poh-TEZ / ee-lah ay-MEE | to put forward a hypothesis | Like mettre: il a émis.
-- commettre une erreur | koh-meh-tr ewn eh-RUHR | to make a mistake (formal) | Like mettre: il a commis. Faire une erreur is also correct.
+- émettre une hypothèse / il a émis | ay-meh-truh ew-nee-poh-TEZ / ee-lah ay-MEE | to put forward a hypothesis | Like mettre: il a émis.
+- commettre une erreur | koh-meh-truh ew-neh-RUHR | to make a mistake (formal) | Like mettre: il a commis. Faire une erreur is also correct.
 - jouer un rôle dans | zhoo-ay uhn ROHL dahn | to play a part in | —
 - prendre en compte | prahn-drahn KOHNT | to take into account | —
 - tenir compte de | tuh-neer KOHNT duh | to take account of | —
@@ -9484,7 +9484,7 @@ fr | pron | en | note
 - une lourde responsabilité | ewn loor-duh rehs-pohn-sah-bee-lee-TAY | a heavy responsibility | —
 - une large majorité | ewn lar-zhuh mah-zhoh-ree-TAY | a large majority | —
 - un profond désaccord | uhn proh-fohn day-zah-KOR | a deep disagreement | —
-- grièvement blessé | gree-ev-MAHN bleh-SAY | seriously injured | Only with blessé. For illness: gravement malade.
+- grièvement blessé | gree-ev-MAHN bleh-SAY | seriously injured | Mostly with blessé (also brûlé). For illness: gravement malade.
 - parfaitement conscient de | par-fet-MAHN kohn-SYAHN duh | fully aware of | —
 
 ### Exercises
@@ -9498,11 +9498,11 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-collocations-ex005 | connector-choice | Choisissez le mot : Le projet a été adopté à une ___ majorité. | ["large","vive","lourde"] | ["large"] | false | Une large majorité: a large majority.
 - c1-collocations-ex006 | fill-in | Complétez avec « tenir » au participe passé : Nous avons ___ compte de vos remarques. | — | ["tenu"] | false | Tenir compte de: nous avons tenu compte de…
 - c1-collocations-ex007 | fill-in | Complétez avec « relever » au passé composé : L'équipe ___ le défi. | — | ["a relevé"] | true | Relever un défi: l'équipe a relevé le défi.
-- c1-collocations-ex008 | multiple-choice | Indiquez le sens de la phrase : Deux personnes ont été grièvement blessées. | ["Two people were seriously injured.","Two people were slightly injured.","Two people were seriously ill."] | ["Two people were seriously injured."] | false | Grièvement goes only with blessé: seriously injured.
+- c1-collocations-ex008 | multiple-choice | Indiquez le sens de la phrase : Deux personnes ont été grièvement blessées. | ["Two people were seriously injured.","Two people were slightly injured.","Two people were seriously ill."] | ["Two people were seriously injured."] | false | Grièvement goes mostly with blessé (also brûlé): seriously injured.
 - c1-collocations-ex009 | multiple-choice | Choisissez la bonne réponse : to make a decision | ["prendre une décision","faire une décision","donner une décision"] | ["prendre une décision"] | false | French takes a decision: prendre une décision.
 - c1-collocations-ex010 | reformulation | Reformulez avec « prendre en compte » : Nous avons tenu compte de vos remarques. | — | ["Nous avons pris en compte vos remarques","Nous avons pris vos remarques en compte"] | false | Prendre en compte takes a direct object, before or after en compte.
-- c1-collocations-ex011 | reformulation | Reformulez avec « dresser » : Le directeur a fait le bilan de l'année. | — | ["Le directeur a dressé le bilan de l'année"] | true | Dresser un bilan is the written collocation; faire le bilan is the everyday one.
-- c1-collocations-ex012 | error-correction | Corrigez l'erreur : Il a commis une hypothèse. | — | ["Il a émis une hypothèse","Il a fait une hypothèse"] | true | You put forward a hypothesis (émettre, or faire); commettre goes with an error or a crime.
+- c1-collocations-ex011 | reformulation | Reformulez avec « dresser » : Le directeur a fait le bilan de l'année. | — | ["Le directeur a dressé le bilan de l'année","Le directeur a dressé un bilan de l'année"] | true | Dresser un bilan is the written collocation; faire le bilan is the everyday one.
+- c1-collocations-ex012 | error-correction | Corrigez l'erreur : Il a commis une hypothèse. | — | ["Il a émis une hypothèse","Il a fait une hypothèse","Il a formulé une hypothèse"] | true | You put forward a hypothesis (émettre, formuler, or faire); commettre goes with an error or a crime.
 - c1-collocations-ex013 | error-correction | Corrigez l'erreur : Nous accordons beaucoup d'importance de la sécurité. | — | ["Nous accordons beaucoup d'importance à la sécurité"] | true | Accorder de l'importance à quelque chose.
 - c1-collocations-ex014 | translate | Traduisez avec « relever » : They rose to the challenge. | — | ["Ils ont relevé le défi","Elles ont relevé le défi"] | false | Relever un défi: to rise to a challenge.
 - c1-collocations-ex015 | translate | Traduisez avec « susciter » et « vif » : This proposal aroused keen interest. | — | ["Cette proposition a suscité un vif intérêt"] | true | Un vif intérêt, with susciter from the lesson on precise verbs.
@@ -9539,9 +9539,359 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-review-style-ex010 | register-shift | Transformez au registre courant écrit, sans dislocation : Le centre-ville, on ne le reconnaît plus. | — | ["On ne reconnaît plus le centre-ville","Nous ne reconnaissons plus le centre-ville"] | false | Put the noun back in the object position and drop the pronoun le.
 - c1-review-style-ex011 | reformulation | Reformulez la deuxième phrase avec « Aussi » en tête et l'inversion : Le projet coûte cher. La mairie doit donc le défendre. | — | ["Aussi la mairie doit-elle le défendre","Le projet coûte cher. Aussi la mairie doit-elle le défendre"] | false | With a noun subject, keep the noun first and add a pronoun after the verb: la mairie doit-elle.
 - c1-review-style-ex012 | reformulation | Reformulez avec « comporter » : Dans le plan, il y a trois étapes. | — | ["Le plan comporte trois étapes"] | false | The container becomes the subject of comporter.
-- c1-review-style-ex013 | error-correction | Corrigez l'erreur (le sens : before it's too late) : Agissons avant qu'il ne soit pas trop tard. | — | ["Agissons avant qu'il ne soit trop tard","Agissons avant qu'il soit trop tard"] | false | With pas, the sentence says the opposite. Keep the ne explétif or drop it, but drop pas.
+- c1-review-style-ex013 | error-correction | Corrigez l'erreur (le sens : before it's too late) : Agissons avant qu'il ne soit pas trop tard. | — | ["Agissons avant qu'il ne soit trop tard","Agissons avant qu'il soit trop tard"] | false | With pas, the sentence would mean "before it is not too late", which makes no sense. Drop pas, and keep or drop the ne explétif.
 - c1-review-style-ex014 | error-correction | Corrigez l'erreur : Cette mesure a joué un rôle clé à la réussite du projet. | — | ["Cette mesure a joué un rôle clé dans la réussite du projet"] | true | Jouer un rôle dans quelque chose.
 - c1-review-style-ex015 | translate | Traduisez au registre soutenu, avec « nullement » : We are in no way against this project. | — | ["Nous ne sommes nullement contre ce projet"] | false | Ne… nullement replaces ne… pas du tout in formal writing.
 - c1-review-style-ex016 | translate | Traduisez avec « seulement » : The street is closed only on Sundays. | — | ["La rue est fermée seulement le dimanche","La rue est fermée le dimanche seulement"] | false | Seulement goes next to the word it restricts: seulement le dimanche, or le dimanche seulement.
 - c1-review-style-ex017 | reorder | Remettez dans l'ordre : Such is the challenge that the town must rise to. | — | ["Tel est le défi que la ville doit relever"] | false | Tel est + noun opens the sentence; relever un défi is the collocation.
-- c1-review-style-ex018 | translate | Traduisez avec « alourdir » : Too many effects weigh down a text. | — | ["Trop d'effets alourdissent un texte","Trop d'effets de style alourdissent un texte"] | false | Alourdir is like finir: ils alourdissent.
+- c1-review-style-ex018 | translate | Traduisez avec « alourdir » : Too many effects weigh down a text. | — | ["Trop d'effets alourdissent un texte","Trop d'effets de style alourdissent un texte","Trop d'effets alourdissent le texte","Trop d'effets de style alourdissent le texte"] | false | Alourdir is like finir: ils alourdissent.
+
+## c1-participle-clauses
+
+### Vocab
+
+fr | pron | en | note
+
+- la proposition participiale | lah proh-poh-zee-syohn par-tee-see-PYAL | the participle clause (with its own subject) | —
+- une fois + nom + participe | ewn FWAH | once (something is done) | Une fois le rapport terminé: once the report is finished.
+- compte tenu de | kohnt tuh-NEW duh | given, in view of, taking into account | —
+- vu + nom | VEW | given, in view of | Vu la situation. Invariable before the noun.
+- excepté | ek-sep-TAY | except | Invariable before the noun: excepté les enfants.
+- la séance | lah say-AHNSS | the session, the sitting (of a meeting) | —
+- ouvrir / lever la séance | oo-vreer / luh-vay lah say-AHNSS | to open / to close the meeting (formal) | —
+- le procès-verbal | luh proh-seh-vehr-BAHL | the minutes (of a meeting) | —
+- approuver | ah-proo-VAY | to approve | —
+- le contrat | luh kohn-TRAH | the contract | —
+- le participant / la participante | luh par-tee-see-PAHN / lah par-tee-see-PAHNT | the participant | —
+- le calendrier | luh kah-lahn-DRYAY | the schedule, the calendar | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-participle-clauses-ex001 | multiple-choice | Indiquez le sujet de « terminée » dans la phrase : La réunion terminée, chacun est rentré chez soi. | ["la réunion","chacun"] | ["la réunion"] | false | In an absolute participle clause, the participle has its own subject: la réunion (est) terminée.
+- c1-participle-clauses-ex002 | multiple-choice | Indiquez la phrase correcte. | ["En sortant du bureau, j'ai vu Paul.","En sortant du bureau, la pluie a commencé.","Sorti du bureau, la pluie m'a surpris."] | ["En sortant du bureau, j'ai vu Paul."] | false | A participle or gérondif with no subject of its own refers to the subject of the main verb. The rain didn't leave the office.
+- c1-participle-clauses-ex003 | connector-choice | Choisissez le mot : ___ la situation, nous reportons la réunion. | ["Vu","Une fois","Excepté"] | ["Vu"] | false | Vu + noun: given the situation.
+- c1-participle-clauses-ex004 | connector-choice | Choisissez le mot : Tous les participants, ___ le président, ont signé. | ["excepté","vu","compte tenu"] | ["excepté"] | false | Excepté: except the president.
+- c1-participle-clauses-ex005 | connector-choice | Choisissez le mot : ___ de la hausse des prix, le budget a été revu. | ["Compte tenu","Vu","Étant donné"] | ["Compte tenu"] | false | Only compte tenu takes de: compte tenu de la hausse. Vu and étant donné are followed directly by the noun.
+- c1-participle-clauses-ex006 | fill-in | Accordez le participe (terminer) : Une fois la séance ___, chacun est rentré. | — | ["terminée"] | false | In an absolute clause, the participle agrees with its own subject: la séance terminée.
+- c1-participle-clauses-ex007 | fill-in | Accordez le participe (signer) : Les contrats ___, les travaux ont commencé. | — | ["signés"] | false | Les contrats is masculine plural: signés.
+- c1-participle-clauses-ex008 | reformulation | Reformulez avec une proposition participiale : Quand la réunion a été terminée, chacun est rentré chez soi. | — | ["La réunion terminée, chacun est rentré chez soi","Une fois la réunion terminée, chacun est rentré chez soi"] | false | The noun and its participle open the sentence: la réunion terminée, or une fois la réunion terminée.
+- c1-participle-clauses-ex009 | reformulation | Reformulez avec « compte tenu de » : Comme la situation est difficile, nous reportons le projet. | — | ["Compte tenu de la situation, nous reportons le projet","Nous reportons le projet compte tenu de la situation","Compte tenu de la difficulté de la situation, nous reportons le projet"] | false | Compte tenu de + noun replaces comme + clause.
+- c1-participle-clauses-ex010 | reformulation | Reformulez avec « ayant » : Comme le train avait du retard, nous avons manqué la correspondance. | — | ["Le train ayant du retard, nous avons manqué la correspondance","Le train ayant eu du retard, nous avons manqué la correspondance"] | false | The train is the subject of ayant, and it isn't the subject of the main verb, so it must be stated.
+- c1-participle-clauses-ex011 | register-shift | Transformez en français courant, avec « une fois que » : Le rapport terminé, envoyez-le au directeur. | — | ["Une fois que le rapport est terminé, envoyez-le au directeur","Une fois que le rapport sera terminé, envoyez-le au directeur","Une fois que le rapport aura été terminé, envoyez-le au directeur"] | true | Une fois que + a conjugated verb is the everyday version of the participle clause.
+- c1-participle-clauses-ex012 | error-correction | Corrigez l'erreur en gardant le début, avec « j'ai vu que » : En arrivant à la gare, le train était parti. | — | ["En arrivant à la gare, j'ai vu que le train était parti"] | true | En arrivant refers to the subject of the main verb, so the main verb needs a subject who arrived: j'ai vu que…
+- c1-participle-clauses-ex013 | error-correction | Corrigez l'erreur d'accord : Une fois les documents signé, envoyez-les. | — | ["Une fois les documents signés, envoyez-les"] | false | The participle agrees with les documents: signés.
+- c1-participle-clauses-ex014 | translate | Traduisez avec une proposition participiale (terminer) : The meeting over, everyone left. | — | ["La réunion terminée, chacun est parti","La réunion terminée, tout le monde est parti","Une fois la réunion terminée, chacun est parti","Une fois la réunion terminée, tout le monde est parti"] | false | La réunion terminée: the noun, then its participle.
+- c1-participle-clauses-ex015 | translate | Traduisez avec « vu » et « nous » (s'arrêter, futur proche) : Given the time, we're going to stop here. | — | ["Vu l'heure, nous allons nous arrêter ici","Nous allons nous arrêter ici vu l'heure","Vu l'heure, nous allons nous arrêter là","Nous allons nous arrêter là vu l'heure"] | true | Vu + noun, with no de: vu l'heure.
+- c1-participle-clauses-ex016 | multiple-choice | Indiquez le registre de la phrase : La séance levée, chacun quitta la salle. | ["soutenu","familier"] | ["soutenu"] | false | An absolute participle clause, here with the passé simple, belongs to formal writing.
+- c1-participle-clauses-ex017 | reorder | Remettez dans l'ordre : Once the contract was signed, the work began. | — | ["Une fois le contrat signé, les travaux ont commencé","Les travaux ont commencé une fois le contrat signé"] | false | Une fois + noun + participle can open or close the sentence.
+
+## c1-formal-relatives-and-apposition
+
+### Vocab
+
+fr | pron | en | note
+
+- l'écriture (f.) | lay-kree-TEWR | writing, style of writing | —
+- admirer | ad-mee-RAY | to admire | —
+- à l'issue de | ah lee-SEW duh | at the end of (a meeting, an event) | À l'issue duquel, à l'issue de laquelle.
+- à la suite de | ah lah SWEET duh | following, after | À la suite duquel, à la suite de laquelle.
+- en raison duquel / de laquelle | ahn reh-zohn dew-KEL / duh lah-KEL | because of which | —
+- la conférence | lah kohn-fay-RAHNSS | the lecture, the conference | —
+- une relative déterminative | ewn ruh-lah-teev day-tehr-mee-nah-TEEV | a defining relative clause (no commas) | —
+- une relative explicative | ewn ruh-lah-teev ek-splee-kah-TEEV | a non-defining relative clause (between commas) | —
+- l'apposition (f.) | lah-poh-zee-SYOHN | apposition (a noun or adjective placed next to another noun, between commas) | —
+- un adjectif détaché | uh-nad-zhek-teef day-tah-SHAY | a detached adjective (set off by a comma) | —
+- l'exil (m.) | leg-ZEEL | exile | —
+- la soirée | lah swah-RAY | the evening, the party | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-formal-relatives-and-apposition-ex001 | multiple-choice | Indiquez le sens de la phrase : Les étudiants qui avaient travaillé ont réussi. | ["Only the students who had worked passed.","All the students passed, and they had all worked."] | ["Only the students who had worked passed."] | false | With no commas, the relative clause defines which students: only those who had worked.
+- c1-formal-relatives-and-apposition-ex002 | multiple-choice | Indiquez le sens de la phrase : Les étudiants, qui avaient travaillé, ont réussi. | ["All the students passed, and they had all worked.","Only the students who had worked passed."] | ["All the students passed, and they had all worked."] | false | Between commas, the relative clause adds information about all the students.
+- c1-formal-relatives-and-apposition-ex003 | multiple-choice | Indiquez la phrase qui veut dire : tous les invités sont venus, et ils avaient tous reçu une lettre. | ["Les invités, qui avaient reçu une lettre, sont venus.","Les invités qui avaient reçu une lettre sont venus."] | ["Les invités, qui avaient reçu une lettre, sont venus."] | false | The commas make the clause non-defining: it's about all the guests.
+- c1-formal-relatives-and-apposition-ex004 | connector-choice | Choisissez le pronom : C'est un écrivain ___ on connaît surtout les romans. | ["dont","duquel","que"] | ["dont"] | false | Les romans de cet écrivain: de + noun, so dont, then the normal order on connaît les romans.
+- c1-formal-relatives-and-apposition-ex005 | connector-choice | Choisissez le pronom : La conférence, à l'issue ___ un débat a eu lieu, était longue. | ["de laquelle","dont","duquel"] | ["de laquelle"] | false | À l'issue de is a preposition of several words, so dont is impossible; la conférence is feminine: de laquelle.
+- c1-formal-relatives-and-apposition-ex006 | connector-choice | Choisissez le pronom : Le retard, en raison ___ nous avons manqué le train, était de vingt minutes. | ["duquel","dont","de laquelle"] | ["duquel"] | false | En raison de + le retard (masculine): en raison duquel.
+- c1-formal-relatives-and-apposition-ex007 | fill-in | Complétez avec un pronom relatif : L'écrivaine ___ j'ai lu tous les livres donne une conférence ce soir. | — | ["dont"] | false | Tous les livres de l'écrivaine: dont.
+- c1-formal-relatives-and-apposition-ex008 | error-correction | Corrigez l'erreur : C'est une autrice dont j'admire son écriture. | — | ["C'est une autrice dont j'admire l'écriture"] | false | Dont already means "whose": the noun after it takes le, la or les, not a possessive.
+- c1-formal-relatives-and-apposition-ex009 | error-correction | Corrigez l'erreur : La réunion à l'issue dont nous avons voté était longue. | — | ["La réunion à l'issue de laquelle nous avons voté était longue"] | true | After à l'issue de, use de laquelle (feminine), never dont.
+- c1-formal-relatives-and-apposition-ex010 | reformulation | Reformulez en une phrase avec « dont » : Je lis un roman. L'auteur de ce roman est belge. | — | ["Je lis un roman dont l'auteur est belge"] | false | L'auteur du roman: dont l'auteur est belge.
+- c1-formal-relatives-and-apposition-ex011 | reformulation | Reformulez en une phrase, avec une apposition après « Victor Hugo » : Victor Hugo a écrit Les Misérables. Il a passé des années en exil. | — | ["Victor Hugo, l'auteur des Misérables, a passé des années en exil","Victor Hugo, auteur des Misérables, a passé des années en exil"] | true | The apposition sits between commas right after the noun. It can keep or drop the article.
+- c1-formal-relatives-and-apposition-ex012 | reformulation | Reformulez en commençant par l'adjectif : Elle était fatiguée, et elle est rentrée tôt. | — | ["Fatiguée, elle est rentrée tôt"] | false | A detached adjective at the start refers to the subject of the main verb: fatiguée, elle…
+- c1-formal-relatives-and-apposition-ex013 | translate | Traduisez avec « au cours de laquelle » : It was an evening during which everyone laughed. | — | ["C'était une soirée au cours de laquelle tout le monde a ri","C'était une soirée au cours de laquelle chacun a ri"] | true | Au cours de + la soirée: au cours de laquelle.
+- c1-formal-relatives-and-apposition-ex014 | translate | Traduisez avec « dont » : the town whose mayor I know | — | ["la ville dont je connais le maire","la ville dont je connais la maire"] | false | Dont + subject + verb + le maire: the normal word order follows dont.
+- c1-formal-relatives-and-apposition-ex015 | reorder | Remettez dans l'ordre : Tired, she went to bed early. | — | ["Fatiguée, elle s'est couchée tôt","Elle s'est couchée tôt, fatiguée"] | false | The detached adjective can open the sentence or close it, after a comma.
+- c1-formal-relatives-and-apposition-ex016 | multiple-choice | Indiquez la phrase correcte. | ["Inquiet, il a appelé sa mère.","Inquiet, sa mère l'a appelé.","Inquiète, il a appelé sa mère."] | ["Inquiet, il a appelé sa mère."] | false | A detached adjective refers to the subject of the main verb and agrees with it: inquiet, il…
+
+## c1-advanced-connectors
+
+### Vocab
+
+fr | pron | en | note
+
+- académique | ah-kah-day-MEEK | academic | —
+- le raisonnement | luh reh-zonn-MAHN | the reasoning, the argument | —
+- dès lors | deh LOR | consequently, from then on (formal) | Dès lors que + indicative: since, given that.
+- dès lors que | deh lor KUH | since, given that, as soon as (formal) | —
+- en l'occurrence | ahn loh-kew-RAHNSS | in this case, as it happens, namely | —
+- a fortiori | ah for-SYOH-ree | all the more so, even more so (formal) | —
+- à cet égard | ah set ay-GAR | in this respect, on this point (formal) | —
+- par contre | par KOHN-truh | on the other hand (everyday) | Formal writing prefers en revanche.
+- à en croire | ah ahn KRWAHR | if we're to believe, according to (with some doubt) | + noun: à en croire la presse.
+- selon toute vraisemblance | suh-lohn toot vreh-sahn-BLAHNSS | in all likelihood | —
+- sous réserve de | soo ray-zehrv DUH | subject to, provided there is | Sous réserve de l'accord du conseil.
+- l'accord (m.) | lah-KOR | the agreement, the approval | —
+- le ministre / la ministre | luh mee-NEES-truh / lah mee-NEES-truh | the minister | —
+- le ministère | luh mee-nees-TEHR | the ministry | —
+- limité / limitée | lee-mee-TAY | limited | —
+- l'adolescent / l'adolescente | lah-doh-leh-SAHN / lah-doh-leh-SAHNT | the teenager | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-advanced-connectors-ex001 | connector-choice | Choisissez le connecteur : Les données sont limitées. ___, il est difficile de conclure. | ["Dès lors","En l'occurrence","À cet égard"] | ["Dès lors"] | false | Dès lors introduces a consequence: the data are limited, so it's hard to conclude.
+- c1-advanced-connectors-ex002 | connector-choice | Choisissez le connecteur : Certaines villes ont réduit la circulation, ___ Lyon et Nantes. | ["en l'occurrence","a fortiori","dès lors"] | ["en l'occurrence"] | false | En l'occurrence names the case in question: namely Lyon and Nantes.
+- c1-advanced-connectors-ex003 | connector-choice | Choisissez le connecteur : Si les adultes ont du mal à comprendre ce texte, ___ les enfants. | ["a fortiori","en l'occurrence","à cet égard"] | ["a fortiori"] | false | A fortiori: the conclusion is even more true for the second case.
+- c1-advanced-connectors-ex004 | connector-choice | Choisissez le connecteur : La sécurité est notre priorité. ___, de nouvelles règles seront instaurées. | ["À cet égard","A fortiori","En l'occurrence"] | ["À cet égard"] | false | À cet égard links the new rules to the point just made: in this respect.
+- c1-advanced-connectors-ex005 | multiple-choice | Indiquez le registre de « par contre » dans la phrase : Le prix est bas. Par contre, la qualité est faible. | ["courant","soutenu"] | ["courant"] | false | Par contre is common in speech and everyday writing; formal writing prefers en revanche.
+- c1-advanced-connectors-ex006 | multiple-choice | Indiquez le sens de « Or » dans la phrase : Il voulait partir en train. Or, le train était annulé. | ["But (a new fact that changes the reasoning)","Or (an alternative)","Therefore"] | ["But (a new fact that changes the reasoning)"] | false | Or introduces a fact that changes the situation; as a connector, it never means "or".
+- c1-advanced-connectors-ex007 | multiple-choice | Indiquez le sens de « à en croire » dans la phrase : À en croire la presse, la ministre partirait. | ["if we're to believe the press (with some doubt)","because the press believes it","the press doesn't believe it"] | ["if we're to believe the press (with some doubt)"] | false | À en croire + source keeps a distance from the claim, often with the conditionnel.
+- c1-advanced-connectors-ex008 | reformulation | Reformulez avec « selon toute vraisemblance » : Le projet sera prêt en juin. | — | ["Selon toute vraisemblance, le projet sera prêt en juin","Le projet sera, selon toute vraisemblance, prêt en juin","Le projet sera prêt en juin, selon toute vraisemblance"] | false | The hedge can open the sentence, follow the verb or close the sentence.
+- c1-advanced-connectors-ex009 | reformulation | Reformulez avec « à en croire » et le conditionnel : Le rapport dit que le projet coûte dix millions. | — | ["À en croire le rapport, le projet coûterait dix millions"] | true | À en croire + source, then the conditionnel: the writer doesn't confirm the figure.
+- c1-advanced-connectors-ex010 | reformulation | Reformulez avec « sous réserve de » : Le projet sera lancé si le conseil donne son accord. | — | ["Le projet sera lancé sous réserve de l'accord du conseil","Sous réserve de l'accord du conseil, le projet sera lancé"] | false | Sous réserve de + noun replaces si + clause.
+- c1-advanced-connectors-ex011 | register-shift | Transformez au registre soutenu, avec « en revanche » : Le prix est bas. Par contre, la qualité est faible. | — | ["Le prix est bas. En revanche, la qualité est faible"] | false | En revanche is the formal choice for a contrast.
+- c1-advanced-connectors-ex012 | error-correction | Corrigez l'erreur : Les données sont fiables. Dès lors que, nous pouvons conclure. | — | ["Les données sont fiables. Dès lors, nous pouvons conclure"] | true | Dès lors que needs a clause after it. On its own, before a comma, write dès lors.
+- c1-advanced-connectors-ex013 | error-correction | Corrigez l'erreur : À en croire de la presse, la ministre partirait. | — | ["À en croire la presse, la ministre partirait"] | true | À en croire is followed directly by the source, with no de.
+- c1-advanced-connectors-ex014 | translate | Traduisez avec « dès lors que » (tirer une conclusion) : Since the data are reliable, we can draw a conclusion. | — | ["Dès lors que les données sont fiables, nous pouvons tirer une conclusion","Nous pouvons tirer une conclusion dès lors que les données sont fiables"] | true | Dès lors que + indicative: since, given that.
+- c1-advanced-connectors-ex015 | translate | Traduisez avec « a fortiori » : This text is difficult for adults, and a fortiori for children. | — | ["Ce texte est difficile pour les adultes, et a fortiori pour les enfants"] | true | A fortiori adds the case where the claim is even truer.
+- c1-advanced-connectors-ex016 | translate | Traduisez avec « selon toute vraisemblance » : In all likelihood, the meeting will be postponed. | — | ["Selon toute vraisemblance, la réunion sera reportée","La réunion sera, selon toute vraisemblance, reportée","La réunion sera reportée, selon toute vraisemblance"] | false | Selon toute vraisemblance, with the futur: the writer is almost sure.
+- c1-advanced-connectors-ex017 | reorder | Remettez dans l'ordre : In this respect, the report is clear. | — | ["À cet égard, le rapport est clair","Le rapport est clair à cet égard"] | false | À cet égard can open the sentence or close it.
+
+## c1-concession-and-hypothesis
+
+### Vocab
+
+fr | pron | en | note
+
+- quand bien même | kahn byan MEM | even if (formal) | + conditionnel: quand bien même il pleuvrait.
+- encore que | ahn-kor KUH | although, mind you (formal) | + subjunctive, often added after the main point.
+- pour peu que | poor puh KUH | if only, as long as (even a little) | + subjunctive.
+- à supposer que | ah sew-poh-ZAY kuh | supposing that, assuming that | + subjunctive.
+- si tant est que | see tahn-teh KUH | assuming that (which is doubtful) | + subjunctive.
+- serait-il… | suh-reh-TEEL | even if he were… (literary) | Serait-il malade, il viendrait.
+- financer | fee-nahn-SAY | to fund, to finance | Nous finançons.
+- une subvention | ewn sewb-vahn-SYOHN | a grant, a subsidy | —
+- le festival | luh fes-tee-VAHL | the festival | —
+- un effort | uh-neh-FOR | an effort | Faire un effort.
+- optimiste | op-tee-MEEST | optimistic | —
+- à l'intérieur | ah lan-tay-RYUHR | inside, indoors | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-concession-and-hypothesis-ex001 | connector-choice | Choisissez la forme : Quand bien même il ___, nous partirions. | ["pleuvrait","pleut","pleuve"] | ["pleuvrait"] | false | Quand bien même takes the conditionnel: quand bien même il pleuvrait.
+- c1-concession-and-hypothesis-ex002 | connector-choice | Choisissez la forme : Pour peu qu'il ___ beau, la plage sera pleine. | ["fasse","fait","ferait"] | ["fasse"] | false | Pour peu que takes the subjunctive: qu'il fasse.
+- c1-concession-and-hypothesis-ex003 | connector-choice | Choisissez la forme : À supposer que le projet ___ accepté, qui le financera ? | ["soit","est","sera"] | ["soit"] | false | À supposer que takes the subjunctive: soit.
+- c1-concession-and-hypothesis-ex004 | connector-choice | Choisissez la forme : Il réussira, si tant est qu'il ___ des efforts. | ["fasse","fait","fera"] | ["fasse"] | false | Si tant est que takes the subjunctive, and it suggests doubt: he'll pass, assuming he makes an effort.
+- c1-concession-and-hypothesis-ex005 | multiple-choice | Indiquez le sens de la phrase : Serait-il malade, il viendrait. | ["Even if he were ill, he would come.","Is he ill? He would come.","If he is ill, he will come."] | ["Even if he were ill, he would come."] | false | Inversion with the conditionnel, at the start, is a literary way to say même s'il était malade.
+- c1-concession-and-hypothesis-ex006 | multiple-choice | Indiquez le registre de la phrase : Fût-il malade, il viendrait. | ["soutenu","familier"] | ["soutenu"] | false | Fût-il, with the imparfait du subjonctif, is literary: recognize it, and write même s'il était malade.
+- c1-concession-and-hypothesis-ex007 | fill-in | Conjuguez au conditionnel présent (savoir) : Quand bien même il le ___, il ne dirait rien. | — | ["saurait"] | false | Quand bien même + conditionnel: il le saurait.
+- c1-concession-and-hypothesis-ex008 | fill-in | Conjuguez au subjonctif (pouvoir) : À supposer qu'elle ___ venir, où dormira-t-elle ? | — | ["puisse"] | false | À supposer que + subjunctive: qu'elle puisse.
+- c1-concession-and-hypothesis-ex009 | reformulation | Reformulez avec « quand bien même » : Même si tu insistais, je refuserais. | — | ["Quand bien même tu insisterais, je refuserais","Je refuserais quand bien même tu insisterais"] | false | Même si + imparfait becomes quand bien même + conditionnel.
+- c1-concession-and-hypothesis-ex010 | reformulation | Reformulez avec « à supposer que » : Si le budget est accepté, que ferons-nous ? | — | ["À supposer que le budget soit accepté, que ferons-nous ?"] | true | À supposer que + subjunctive: soit accepté.
+- c1-concession-and-hypothesis-ex011 | reformulation | Reformulez avec « encore que » : Le film est bon, mais il est un peu long. | — | ["Le film est bon, encore qu'il soit un peu long","Le film est bon, encore qu'un peu long"] | false | Encore que + subjunctive adds a reservation after the main point; the verb can also be left out.
+- c1-concession-and-hypothesis-ex012 | register-shift | Transformez en français courant, avec « même si » : Serait-il malade, il viendrait. | — | ["Même s'il était malade, il viendrait","Il viendrait même s'il était malade"] | false | Même si + imparfait, then the conditionnel.
+- c1-concession-and-hypothesis-ex013 | error-correction | Corrigez l'erreur : Quand bien même il pleuvra, nous partirons. | — | ["Quand bien même il pleuvrait, nous partirions","Quand bien même il pleuvrait, nous partirons"] | false | Quand bien même takes the conditionnel. The main clause is usually in the conditionnel too.
+- c1-concession-and-hypothesis-ex014 | error-correction | Corrigez l'erreur : À supposer qu'il est d'accord, nous signerons. | — | ["À supposer qu'il soit d'accord, nous signerons"] | true | À supposer que takes the subjunctive: qu'il soit.
+- c1-concession-and-hypothesis-ex015 | translate | Traduisez avec « pour peu que » (faire un effort, réussir) : If he makes the slightest effort, he'll pass. | — | ["Pour peu qu'il fasse un effort, il réussira","Il réussira pour peu qu'il fasse un effort"] | false | Pour peu que + subjunctive: the smallest condition is enough.
+- c1-concession-and-hypothesis-ex016 | translate | Traduisez avec « si tant est que » : We'll leave on Monday, assuming the weather is fine. | — | ["Nous partirons lundi, si tant est qu'il fasse beau","Si tant est qu'il fasse beau, nous partirons lundi"] | false | Si tant est que + subjunctive, with a hint of doubt.
+- c1-concession-and-hypothesis-ex017 | reorder | Remettez dans l'ordre : Even if he were rich, he wouldn't buy it. | — | ["Quand bien même il serait riche, il ne l'achèterait pas","Il ne l'achèterait pas quand bien même il serait riche"] | false | Quand bien même + conditionnel, and the conditionnel in the main clause.
+
+## c1-abstract-nouns
+
+### Vocab
+
+fr | pron | en | note
+
+- la pertinence / pertinent | lah pehr-tee-NAHNSS / pehr-tee-NAHN | relevance / relevant | —
+- la légitimité / légitime | lah lay-zhee-tee-mee-TAY / lay-zhee-TEEM | legitimacy / legitimate | —
+- la cohérence / cohérent | lah koh-ay-RAHNSS / koh-ay-RAHN | consistency, coherence / consistent | —
+- la rigueur / rigoureux | lah ree-GUHR / ree-goo-RUH | rigour / rigorous | Rigoureuse in the feminine.
+- le bien-fondé | luh byan-fohn-DAY | the merits, the validity (of a claim or decision) | —
+- l'efficacité (f.) / efficace | leh-fee-kah-see-TAY / eh-fee-KASS | effectiveness / effective | —
+- la portée | lah por-TAY | the scope, the reach, the impact | —
+- l'ampleur (f.) | lahn-PLUHR | the scale, the extent | —
+- l'essor (m.) | leh-SOR | the rise, the boom | —
+- l'apport (m.) | lah-POR | the contribution | —
+- le changement | luh shahnzh-MAHN | the change | —
+- la démarche | lah day-MARSH | the approach, the method, the process | —
+- le cadre | luh KAH-druh | the framework, the setting | —
+- la prise en compte | lah pree-zahn KOHNT | taking into account | From prendre en compte.
+- la remise en question | lah ruh-mee-zahn kes-TYOHN | questioning, challenging | From remettre en question.
+- la mise en évidence | lah mee-zahn ay-vee-DAHNSS | highlighting, bringing to light | From mettre en évidence.
+- la faisabilité | lah fuh-zah-bee-lee-TAY | feasibility | —
+- prendre du recul | prahn-druh dew ruh-KEWL | to step back, to see things from a distance | —
+- abstrait / abstraite | ab-STREH / ab-STRET | abstract | —
+- un exposé | uh-nek-spoh-ZAY | a presentation, a talk (at school or university) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-abstract-nouns-ex001 | connector-choice | Choisissez le mot : Les chercheurs doutent de la ___ de ces données. | ["fiabilité","démarche","portée"] | ["fiabilité"] | false | You doubt whether data can be trusted: la fiabilité.
+- c1-abstract-nouns-ex002 | connector-choice | Choisissez le mot : Personne n'avait prévu l'___ de la crise. | ["ampleur","apport","essor"] | ["ampleur"] | false | L'ampleur: the scale of the crisis. Apport is a contribution and essor a rise.
+- c1-abstract-nouns-ex003 | connector-choice | Choisissez le mot : Quel est l'___ de ce débat ? | ["enjeu","ampleur","démarche"] | ["enjeu"] | false | Quel est needs a masculine noun: l'enjeu (what is at stake). Ampleur and démarche are feminine.
+- c1-abstract-nouns-ex004 | multiple-choice | Indiquez le sens de « la portée » dans la phrase : Personne ne mesure encore la portée de cette décision. | ["its impact and reach","its legal basis","its author"] | ["its impact and reach"] | false | La portée d'une décision: how far its effects go.
+- c1-abstract-nouns-ex005 | multiple-choice | Indiquez le sens de « prendre du recul ». | ["to step back and see things from a distance","to go backwards","to fall behind"] | ["to step back and see things from a distance"] | false | Prendre du recul: to look at a situation with distance. To fall behind is prendre du retard.
+- c1-abstract-nouns-ex006 | fill-in | Complétez avec le nom de « pertinent » : Je doute de la ___ de cet argument. | — | ["pertinence"] | false | Pertinent → la pertinence.
+- c1-abstract-nouns-ex007 | fill-in | Complétez avec le nom de « légitime » : Tout le monde reconnaît la ___ de cette demande. | — | ["légitimité"] | false | Légitime → la légitimité.
+- c1-abstract-nouns-ex008 | reformulation | Reformulez en commençant par « La prise en compte » : Il est nécessaire de prendre en compte les besoins des habitants. | — | ["La prise en compte des besoins des habitants est nécessaire"] | false | Prendre en compte → la prise en compte de: the verb becomes a noun followed by de.
+- c1-abstract-nouns-ex009 | reformulation | Reformulez avec « l'ampleur » : Nous n'avions pas compris que le problème était si grand. | — | ["Nous n'avions pas compris l'ampleur du problème"] | false | Que le problème était si grand → l'ampleur du problème.
+- c1-abstract-nouns-ex010 | reformulation | Reformulez avec « la cohérence », en commençant par « Je doute de » : Je ne suis pas sûr que ce plan soit cohérent. | — | ["Je doute de la cohérence de ce plan"] | false | Cohérent → la cohérence de ce plan.
+- c1-abstract-nouns-ex011 | register-shift | Transformez au registre soutenu, en commençant par « Le constat est clair » : On voit bien que les prix augmentent. | — | ["Le constat est clair : les prix augmentent","Le constat est clair : les prix sont en hausse"] | false | Le constat (the finding) opens the sentence, then the fact.
+- c1-abstract-nouns-ex012 | error-correction | Corrigez l'erreur de genre : Le démarche de l'auteur est originale. | — | ["La démarche de l'auteur est originale"] | false | Démarche is feminine: la démarche.
+- c1-abstract-nouns-ex013 | error-correction | Corrigez l'erreur : Quelle est la enjeu de ce vote ? | — | ["Quel est l'enjeu de ce vote ?"] | false | Enjeu is masculine and starts with a vowel: quel est l'enjeu.
+- c1-abstract-nouns-ex014 | translate | Traduisez avec « l'essor » : the rise of online reading | — | ["l'essor de la lecture en ligne"] | false | L'essor de + noun: the rise, the boom.
+- c1-abstract-nouns-ex015 | translate | Traduisez avec « la démarche » : The approach is interesting. | — | ["La démarche est intéressante"] | false | Démarche is feminine, so intéressante.
+- c1-abstract-nouns-ex016 | translate | Traduisez avec « le bien-fondé » : Nobody doubts the merits of this decision. | — | ["Personne ne doute du bien-fondé de cette décision","Nul ne doute du bien-fondé de cette décision"] | false | Douter de + le bien-fondé: du bien-fondé.
+- c1-abstract-nouns-ex017 | reorder | Remettez dans l'ordre : We must measure the scale of the problem. | — | ["Il faut mesurer l'ampleur du problème"] | false | Mesurer l'ampleur de: a frequent pairing in reports.
+
+## c1-synthesis
+
+### Vocab
+
+fr | pron | en | note
+
+- une synthèse de documents | ewn san-tez duh doh-kew-MAHN | a synthesis of documents (a classic French written exercise) | —
+- confronter | kohn-frohn-TAY | to compare, to set side by side (documents, points of view) | —
+- un point commun | uhn pwan koh-MUHN | a point in common | —
+- une divergence | ewn dee-vehr-ZHAHNSS | a difference of view | —
+- s'accorder sur | sah-kor-DAY sewr | to agree on | —
+- diverger | dee-vehr-ZHAY | to differ, to diverge | Nous divergeons.
+- se compléter | suh kohn-play-TAY | to complement each other | Ils se complètent.
+- de même | duh MEM | likewise, in the same way | —
+- l'un… l'autre | luhn… LOH-truh | the one… the other | L'un des documents… l'autre…
+- le titre | luh TEE-truh | the title | —
+- le bibliothécaire / la bibliothécaire | luh bee-blee-oh-tay-KEHR | the librarian | —
+- l'usager / l'usagère | lew-zah-ZHAY / lew-zah-ZHEHR | the user (of a public service) | —
+- le syndicat | luh san-dee-KAH | the (trade) union | —
+- l'inquiétude (f.) | lan-kyay-TEWD | concern, worry | —
+- volontaire | voh-lohn-TEHR | voluntary; a volunteer | —
+- la demande | lah duh-MAHND | the demand, the request | —
+- au détriment de | oh day-tree-MAHN duh | at the expense of | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-synthesis-ex001 | multiple-choice | Indiquez la phrase qui convient à une synthèse. | ["Le premier document présente l'ouverture le dimanche comme un succès.","Heureusement, la bibliothèque ouvre enfin le dimanche.","Je pense que les bibliothécaires ont raison."] | ["Le premier document présente l'ouverture le dimanche comme un succès."] | false | A synthesis reports what the documents say. Heureusement and je pense give the writer's opinion.
+- c1-synthesis-ex002 | multiple-choice | Indiquez ce qu'une synthèse ne contient pas. | ["l'avis de la personne qui écrit","les idées des documents","un plan"] | ["l'avis de la personne qui écrit"] | false | A synthesis is neutral: no personal opinion, no outside information.
+- c1-synthesis-ex003 | multiple-choice | Indiquez le plan qui convient le mieux à une synthèse. | ["des parties organisées par idées, qui confrontent les documents","un résumé du premier document, puis un résumé du second","l'avis personnel, puis les documents"] | ["des parties organisées par idées, qui confrontent les documents"] | false | A synthesis is organized by ideas, and each part compares what the documents say.
+- c1-synthesis-ex004 | connector-choice | Choisissez le verbe : Les deux documents ___ sur un point : la demande du public est forte. | ["s'accordent","divergent","confrontent"] | ["s'accordent"] | false | S'accorder sur: to agree on. Diverger means the opposite.
+- c1-synthesis-ex005 | connector-choice | Choisissez le connecteur : Le premier document insiste sur les avantages, ___ le second souligne les difficultés. | ["tandis que","dès lors que","pour peu que"] | ["tandis que"] | false | Tandis que contrasts two things at the same level: one document… the other.
+- c1-synthesis-ex006 | fill-in | Conjuguez « diverger » au présent : Les deux documents ___ sur la question du personnel. | — | ["divergent"] | false | Ils divergent: the two documents differ on this point.
+- c1-synthesis-ex007 | reformulation | Reformulez sans citation, avec « selon » : La maire dit : « C'est un grand succès. » | — | ["Selon la maire, c'est un grand succès"] | false | A synthesis reformulates instead of quoting, and it says whose view it is: selon la maire.
+- c1-synthesis-ex008 | reformulation | Reformulez de façon neutre, avec « le second document souligne l'inquiétude » : Le syndicat a bien raison de s'inquiéter pour le personnel. | — | ["Le second document souligne l'inquiétude du syndicat pour le personnel"] | false | Remove the judgement (a bien raison) and report the view.
+- c1-synthesis-ex009 | reformulation | Reformulez en une phrase avec « tandis que » : Le premier document parle des usagers. Le second parle du personnel. | — | ["Le premier document parle des usagers, tandis que le second parle du personnel","Tandis que le premier document parle des usagers, le second parle du personnel"] | true | Tandis que joins two contrasting points in one sentence.
+- c1-synthesis-ex010 | error-correction | Corrigez l'erreur (une synthèse ne donne pas d'avis) : Selon moi, les deux documents se complètent. | — | ["Les deux documents se complètent"] | false | Remove selon moi: the synthesis doesn't speak for its writer.
+- c1-synthesis-ex011 | error-correction | Corrigez l'erreur : Les deux documents s'accordent de ce point. | — | ["Les deux documents s'accordent sur ce point"] | false | S'accorder sur un point.
+- c1-synthesis-ex012 | translate | Traduisez avec « confronter » : This synthesis compares two documents. | — | ["Cette synthèse confronte deux documents"] | false | Confronter des documents: to set them side by side.
+- c1-synthesis-ex013 | translate | Traduisez avec « un point commun » : The two documents have one point in common. | — | ["Les deux documents ont un point commun"] | false | Avoir un point commun.
+- c1-synthesis-ex014 | translate | Traduisez avec « porter sur » et « l'ouverture » : Both documents are about libraries opening on Sundays. | — | ["Les deux documents portent sur l'ouverture des bibliothèques le dimanche"] | false | A typical first sentence: the common subject of the documents.
+- c1-synthesis-ex015 | reorder | Remettez dans l'ordre : The two documents agree on one point. | — | ["Les deux documents s'accordent sur un point"] | false | S'accorder sur + the point.
+- c1-synthesis-ex016 | multiple-choice | Indiquez la bonne façon de citer une idée dans une synthèse. | ["Le premier document affirme que la demande est forte.","« La demande est forte », dit le premier document.","Comme on le sait, la demande est forte."] | ["Le premier document affirme que la demande est forte."] | false | Reformulate and name the source; don't quote, and don't present a document's view as general knowledge.
+
+## c1-dissertation
+
+### Vocab
+
+fr | pron | en | note
+
+- dans quelle mesure | dahn kel muh-ZEWR | to what extent | —
+- en quoi | ahn KWAH | in what way, how | —
+- un plan dialectique | uhn plahn dee-ah-lek-TEEK | a dialectical plan (thesis, antithesis, synthesis) | —
+- un plan analytique | uhn plahn ah-nah-lee-TEEK | an analytical plan (facts, causes, consequences or solutions) | —
+- un plan thématique | uhn plahn tay-mah-TEEK | a thematic plan (one aspect per part) | —
+- le développement | luh dayv-lop-MAHN | the body (of an essay) | —
+- dépasser une opposition | day-pah-SAY ew-noh-poh-zee-SYOHN | to go beyond an opposition | —
+- il n'en reste pas moins que | eel nahn rest pah MWAN kuh | the fact remains that, nevertheless | + indicative.
+- si… (concessive) | SEE | while…, although… | Si les écrans facilitent l'accès, il n'en reste pas moins que… No future or conditionnel after si.
+- l'attention (f.) | lah-tahn-SYOHN | attention, concentration | —
+- le support | luh sew-POR | the medium (paper, screen) | Not support in the sense of help.
+- l'ordinateur (m.) | lor-dee-nah-TUHR | the computer | —
+- la tablette | lah tah-BLET | the tablet (computer) | —
+- accessible | ak-seh-SEE-bluh | accessible, easy to reach | —
+- transformer | trahns-for-MAY | to transform, to change deeply | —
+- l'accès (m.) | lak-SEH | access | L'accès aux textes.
+- la manière | lah mah-NYEHR | the way, the manner | La manière dont nous lisons.
+- rapide | rah-PEED | fast, quick | —
+- le papier | luh pah-PYAY | paper | —
+- quotidien / quotidienne | koh-tee-DYAN / koh-tee-DYEN | daily, everyday | —
+- échapper à | ay-shah-PAY ah | to escape | —
+- modifier | moh-dee-FYAY | to change, to alter | —
+- agrandir | ah-grahn-DEER | to enlarge | Like finir.
+- élargir | ay-lar-ZHEER | to widen | Like finir.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-dissertation-ex001 | multiple-choice | Indiquez la meilleure problématique pour le sujet « Les écrans changent-ils la lecture ? » | ["Dans quelle mesure les écrans transforment-ils notre façon de lire ?","Les écrans sont-ils mauvais ?","J'aime lire sur écran."] | ["Dans quelle mesure les écrans transforment-ils notre façon de lire ?"] | false | An open question (dans quelle mesure) invites a nuanced answer instead of a yes or no.
+- c1-dissertation-ex002 | multiple-choice | Indiquez le type de plan : 1. Le constat 2. Les causes 3. Les solutions. | ["un plan analytique","un plan dialectique","un plan thématique"] | ["un plan analytique"] | false | Facts, causes, then solutions: the analytical plan.
+- c1-dissertation-ex003 | multiple-choice | Indiquez le type de plan : 1. La thèse 2. L'antithèse 3. La synthèse. | ["un plan dialectique","un plan analytique","un plan thématique"] | ["un plan dialectique"] | false | Thesis, antithesis, synthesis: the dialectical plan.
+- c1-dissertation-ex004 | multiple-choice | Indiquez la phrase qui sert de transition. | ["Si les écrans facilitent l'accès aux textes, il n'en reste pas moins qu'ils changent notre attention.","Les écrans facilitent l'accès aux textes.","En guise de conclusion, les écrans sont importants."] | ["Si les écrans facilitent l'accès aux textes, il n'en reste pas moins qu'ils changent notre attention."] | false | A transition sums up the part just finished (si…) and announces the next (il n'en reste pas moins que…).
+- c1-dissertation-ex005 | connector-choice | Choisissez le mot : ___ les écrans facilitent la lecture, il n'en reste pas moins qu'ils fatiguent les yeux. | ["Si","Pour peu que","Dès lors"] | ["Si"] | false | Concessive si grants the first point before the main one: while screens make reading easier…
+- c1-dissertation-ex006 | connector-choice | Choisissez le mot : Il n'en reste pas moins ___ le livre papier garde ses lecteurs. | ["que","qui","dont"] | ["que"] | false | Il n'en reste pas moins que + a clause in the indicative.
+- c1-dissertation-ex007 | fill-in | Complétez la problématique : Dans quelle ___ le numérique change-t-il l'école ? | — | ["mesure"] | false | Dans quelle mesure: to what extent.
+- c1-dissertation-ex008 | reformulation | Reformulez en problématique ouverte, avec « dans quelle mesure » : Les écrans changent-ils notre façon de lire ? | — | ["Dans quelle mesure les écrans changent-ils notre façon de lire ?"] | false | Dans quelle mesure opens the question; the formal inversion stays: changent-ils.
+- c1-dissertation-ex009 | reformulation | Reformulez avec « en quoi » : Est-ce que la lecture sur écran est différente ? | — | ["En quoi la lecture sur écran est-elle différente ?"] | false | En quoi asks how something differs, with formal inversion: est-elle.
+- c1-dissertation-ex010 | reformulation | Reformulez en une phrase avec « si… il n'en reste pas moins que » : Le numérique a des avantages. Mais il pose des problèmes. | — | ["Si le numérique a des avantages, il n'en reste pas moins qu'il pose des problèmes"] | true | Si grants the first point; il n'en reste pas moins que gives the main one.
+- c1-dissertation-ex011 | error-correction | Corrigez l'erreur (registre soutenu) : Dans quelle mesure les écrans changent notre façon de lire ? | — | ["Dans quelle mesure les écrans changent-ils notre façon de lire ?"] | false | In a written problématique, keep the formal inversion: les écrans changent-ils.
+- c1-dissertation-ex012 | error-correction | Corrigez l'erreur : Quand bien même la lecture sur écran progresse, le livre resterait important. | — | ["Quand bien même la lecture sur écran progresserait, le livre resterait important"] | false | Quand bien même takes the conditionnel: progresserait.
+- c1-dissertation-ex013 | translate | Traduisez avec « dans quelle mesure » : To what extent does reading on screen change our attention? | — | ["Dans quelle mesure la lecture sur écran change-t-elle notre attention ?"] | false | Dans quelle mesure + noun subject + verb + pronoun: change-t-elle.
+- c1-dissertation-ex014 | translate | Traduisez avec « il n'en reste pas moins que » : Nevertheless, the book keeps its readers. | — | ["Il n'en reste pas moins que le livre garde ses lecteurs"] | false | Il n'en reste pas moins que + indicative.
+- c1-dissertation-ex015 | reorder | Remettez dans l'ordre : To what extent are screens changing reading? | — | ["Dans quelle mesure les écrans changent-ils la lecture"] | false | Dans quelle mesure, then the noun subject, then the verb with -ils.
+- c1-dissertation-ex016 | multiple-choice | Indiquez la meilleure ouverture pour la conclusion d'une dissertation sur les écrans et la lecture. | ["On peut se demander si l'école doit apprendre aux enfants à lire sur écran.","Les écrans changent la lecture.","Merci de m'avoir lu."] | ["On peut se demander si l'école doit apprendre aux enfants à lire sur écran."] | false | An ouverture widens the subject with a related question; it doesn't repeat the answer.
+
+## c1-review-academic
+
+### Vocab
+
+fr | pron | en | note
+
+- un corpus | uhn kor-PEWS | a set of documents (to be studied together) | —
+- mettre en perspective | meh-trahn pehr-spek-TEEV | to put into perspective, to set against a wider context | —
+- un fil conducteur | uhn feel kohn-dewk-TUHR | a common thread, a guiding thread | —
+- la norme | lah NORM | the norm, the standard | —
+- généraliser | zhay-nay-rah-lee-ZAY | to extend to everyone, to make general | —
+- un essai | uh-neh-SEH | a trial, a test | —
+- un chef d'entreprise | uhn shef dahn-truh-PREEZ | a business owner, a company head | —
+- les attentes (f.) | lay-zah-TAHNT | expectations | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-review-academic-ex001 | multiple-choice | Indiquez le sujet de « terminés » dans la phrase : Les essais terminés, l'entreprise a décidé de continuer. | ["les essais","l'entreprise"] | ["les essais"] | false | In an absolute participle clause, the participle has its own subject: les essais (sont) terminés.
+- c1-review-academic-ex002 | connector-choice | Choisissez le pronom : Ce débat, ___ les enjeux sont nombreux, divise les entreprises. | ["dont","duquel","que"] | ["dont"] | false | Les enjeux de ce débat: dont, then the normal order.
+- c1-review-academic-ex003 | connector-choice | Choisissez le connecteur : Les données sont limitées. ___, il faut rester prudent. | ["Dès lors","En l'occurrence","A fortiori"] | ["Dès lors"] | false | Dès lors draws the consequence: the data are limited, so caution is needed.
+- c1-review-academic-ex004 | connector-choice | Choisissez la forme : Quand bien même la mesure ___ populaire, elle poserait des problèmes. | ["serait","est","soit"] | ["serait"] | false | Quand bien même takes the conditionnel.
+- c1-review-academic-ex005 | connector-choice | Choisissez le nom : Il faut mesurer l'___ de la demande. | ["ampleur","démarche","faisabilité"] | ["ampleur"] | false | L'ampleur de la demande: how large it is.
+- c1-review-academic-ex006 | multiple-choice | Indiquez la phrase qui convient à une synthèse. | ["Le deuxième document met en évidence des résultats plus mitigés.","Malheureusement, les résultats sont mitigés.","À mon avis, l'étude a tort."] | ["Le deuxième document met en évidence des résultats plus mitigés."] | false | A synthesis reports what each document says, with no judgement.
+- c1-review-academic-ex007 | multiple-choice | Indiquez le type de plan : 1. Une mesure qui répond à de vraies attentes 2. Une faisabilité qui dépend du secteur 3. Une mesure à mettre en perspective. | ["un plan dialectique","un plan analytique","un plan thématique"] | ["un plan dialectique"] | false | A point for, a point against, then a part that goes beyond the opposition: a dialectical plan.
+- c1-review-academic-ex008 | fill-in | Complétez : Les trois documents du ___ portent sur la semaine de quatre jours. | — | ["corpus"] | false | Le corpus: the set of documents studied together.
+- c1-review-academic-ex009 | reformulation | Reformulez avec une proposition participiale : Quand les essais ont été terminés, l'entreprise a continué. | — | ["Les essais terminés, l'entreprise a continué","Une fois les essais terminés, l'entreprise a continué"] | true | The noun and its participle open the sentence; the participle agrees: terminés.
+- c1-review-academic-ex010 | reformulation | Reformulez avec « selon toute vraisemblance » : L'efficacité de la mesure dépend du secteur. | — | ["Selon toute vraisemblance, l'efficacité de la mesure dépend du secteur","L'efficacité de la mesure dépend, selon toute vraisemblance, du secteur","L'efficacité de la mesure dépend du secteur, selon toute vraisemblance"] | false | The hedge turns a fact into a strong probability.
+- c1-review-academic-ex011 | reformulation | Reformulez en une phrase avec « dont » : Ce débat divise les entreprises. Ses enjeux sont nombreux. | — | ["Ce débat, dont les enjeux sont nombreux, divise les entreprises"] | false | Dont + les enjeux, between commas: the clause adds information about the debate.
+- c1-review-academic-ex012 | register-shift | Transformez au registre soutenu, avec « en revanche » : Les salariés sont pour. Par contre, certains chefs d'entreprise sont contre. | — | ["Les salariés sont pour. En revanche, certains chefs d'entreprise sont contre"] | false | En revanche is the formal choice for a contrast.
+- c1-review-academic-ex013 | error-correction | Corrigez l'erreur : À supposer que la mesure est adoptée, qui la financera ? | — | ["À supposer que la mesure soit adoptée, qui la financera ?"] | true | À supposer que takes the subjunctive: soit adoptée.
+- c1-review-academic-ex014 | error-correction | Corrigez l'erreur en gardant le début, avec « j'ai trouvé » : Ayant lu les documents, la synthèse a été facile à écrire. | — | ["Ayant lu les documents, j'ai trouvé la synthèse facile à écrire"] | true | Ayant lu refers to the subject of the main verb: the synthesis didn't read the documents, I did.
+- c1-review-academic-ex015 | translate | Traduisez avec « mettre en perspective » : We must put these results in perspective. | — | ["Il faut mettre ces résultats en perspective","Nous devons mettre ces résultats en perspective"] | false | Mettre quelque chose en perspective: the object goes between mettre and en perspective.
+- c1-review-academic-ex016 | translate | Traduisez avec « dans quelle mesure » : To what extent can the four-day week become the norm? | — | ["Dans quelle mesure la semaine de quatre jours peut-elle devenir la norme ?"] | false | Dans quelle mesure + noun subject + verb + pronoun: peut-elle.
+- c1-review-academic-ex017 | reorder | Remettez dans l'ordre : The common thread of the essay is clear. | — | ["Le fil conducteur de la dissertation est clair"] | false | Un fil conducteur: the idea that links every part of a text.

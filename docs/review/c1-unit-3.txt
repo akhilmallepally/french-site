@@ -1,0 +1,1910 @@
+===== content/lessons/c1/participle-clauses.mdx =====
+---
+id: "c1-participle-clauses"
+title: "Participle clauses"
+description: "Write absolute participle clauses with their own subject (la réunion terminée, chacun partit; le train ayant du retard…), use une fois + participle, vu, compte tenu de and étant donné, and avoid the dangling participle."
+level: "C1"
+unit: "Academic writing"
+order: 18
+type: "grammar"
+tags: ["grammar", "participles", "formal writing", "reports"]
+prerequisites: ["b2-participles-and-gerund", "b2-futur-anterieur"]
+related: ["b2-infinitif-passe", "b2-logical-connectors", "c1-review-style"]
+vocab:
+  - { id: "c1-participle-clauses-v001", group: "forms", fr: "la proposition participiale", pron: "lah proh-poh-zee-syohn par-tee-see-PYAL", en: "the participle clause (with its own subject)" }
+  - { id: "c1-participle-clauses-v002", group: "forms", fr: "une fois + nom + participe", pron: "ewn FWAH", en: "once (something is done)", note: "Une fois le rapport terminé: once the report is finished." }
+  - { id: "c1-participle-clauses-v003", group: "fixed", fr: "compte tenu de", pron: "kohnt tuh-NEW duh", en: "given, in view of, taking into account" }
+  - { id: "c1-participle-clauses-v004", group: "fixed", fr: "vu + nom", pron: "VEW", en: "given, in view of", note: "Vu la situation. Invariable before the noun." }
+  - { id: "c1-participle-clauses-v005", group: "fixed", fr: "excepté", pron: "ek-sep-TAY", en: "except", note: "Invariable before the noun: excepté les enfants." }
+  - { id: "c1-participle-clauses-v006", group: "words", fr: "la séance", pron: "lah say-AHNSS", en: "the session, the sitting (of a meeting)" }
+  - { id: "c1-participle-clauses-v007", group: "words", fr: "ouvrir / lever la séance", pron: "oo-vreer / luh-vay lah say-AHNSS", en: "to open / to close the meeting (formal)" }
+  - { id: "c1-participle-clauses-v008", group: "words", fr: "le procès-verbal", pron: "luh proh-seh-vehr-BAHL", en: "the minutes (of a meeting)" }
+  - { id: "c1-participle-clauses-v009", group: "words", fr: "approuver", pron: "ah-proo-VAY", en: "to approve" }
+  - { id: "c1-participle-clauses-v010", group: "words", fr: "le contrat", pron: "luh kohn-TRAH", en: "the contract" }
+  - { id: "c1-participle-clauses-v011", group: "words", fr: "le participant / la participante", pron: "luh par-tee-see-PAHN / lah par-tee-see-PAHNT", en: "the participant" }
+  - { id: "c1-participle-clauses-v012", group: "words", fr: "le calendrier", pron: "luh kah-lahn-DRYAY", en: "the schedule, the calendar" }
+exercises:
+  - id: "c1-participle-clauses-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sujet de « terminée » dans la phrase : La réunion terminée, chacun est rentré chez soi."
+    options: ["la réunion", "chacun"]
+    answers: ["la réunion"]
+    explanation: "In an absolute participle clause, the participle has its own subject: la réunion (est) terminée."
+  - id: "c1-participle-clauses-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase correcte."
+    options: ["En sortant du bureau, j'ai vu Paul.", "En sortant du bureau, la pluie a commencé.", "Sorti du bureau, la pluie m'a surpris."]
+    answers: ["En sortant du bureau, j'ai vu Paul."]
+    explanation: "A participle or gérondif with no subject of its own refers to the subject of the main verb. The rain didn't leave the office."
+  - id: "c1-participle-clauses-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : ___ la situation, nous reportons la réunion."
+    options: ["Vu", "Une fois", "Excepté"]
+    answers: ["Vu"]
+    explanation: "Vu + noun: given the situation."
+  - id: "c1-participle-clauses-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Tous les participants, ___ le président, ont signé."
+    options: ["excepté", "vu", "compte tenu"]
+    answers: ["excepté"]
+    explanation: "Excepté: except the president."
+  - id: "c1-participle-clauses-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : ___ de la hausse des prix, le budget a été revu."
+    options: ["Compte tenu", "Vu", "Étant donné"]
+    answers: ["Compte tenu"]
+    explanation: "Only compte tenu takes de: compte tenu de la hausse. Vu and étant donné are followed directly by the noun."
+  - id: "c1-participle-clauses-ex006"
+    type: "fill-in"
+    prompt: "Accordez le participe (terminer) : Une fois la séance ___, chacun est rentré."
+    answers: ["terminée"]
+    explanation: "In an absolute clause, the participle agrees with its own subject: la séance terminée."
+  - id: "c1-participle-clauses-ex007"
+    type: "fill-in"
+    prompt: "Accordez le participe (signer) : Les contrats ___, les travaux ont commencé."
+    answers: ["signés"]
+    explanation: "Les contrats is masculine plural: signés."
+  - id: "c1-participle-clauses-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec une proposition participiale : Quand la réunion a été terminée, chacun est rentré chez soi."
+    answers: ["La réunion terminée, chacun est rentré chez soi", "Une fois la réunion terminée, chacun est rentré chez soi"]
+    explanation: "The noun and its participle open the sentence: la réunion terminée, or une fois la réunion terminée."
+  - id: "c1-participle-clauses-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « compte tenu de » : Comme la situation est difficile, nous reportons le projet."
+    answers: ["Compte tenu de la situation, nous reportons le projet", "Nous reportons le projet compte tenu de la situation", "Compte tenu de la difficulté de la situation, nous reportons le projet"]
+    explanation: "Compte tenu de + noun replaces comme + clause."
+  - id: "c1-participle-clauses-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « ayant » : Comme le train avait du retard, nous avons manqué la correspondance."
+    answers: ["Le train ayant du retard, nous avons manqué la correspondance", "Le train ayant eu du retard, nous avons manqué la correspondance"]
+    explanation: "The train is the subject of ayant, and it isn't the subject of the main verb, so it must be stated."
+  - id: "c1-participle-clauses-ex011"
+    type: "register-shift"
+    prompt: "Transformez en français courant, avec « une fois que » : Le rapport terminé, envoyez-le au directeur."
+    answers: ["Une fois que le rapport est terminé, envoyez-le au directeur", "Une fois que le rapport sera terminé, envoyez-le au directeur", "Une fois que le rapport aura été terminé, envoyez-le au directeur"]
+    strictAccents: true
+    explanation: "Une fois que + a conjugated verb is the everyday version of the participle clause."
+  - id: "c1-participle-clauses-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur en gardant le début, avec « j'ai vu que » : En arrivant à la gare, le train était parti."
+    answers: ["En arrivant à la gare, j'ai vu que le train était parti"]
+    strictAccents: true
+    explanation: "En arrivant refers to the subject of the main verb, so the main verb needs a subject who arrived: j'ai vu que…"
+  - id: "c1-participle-clauses-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur d'accord : Une fois les documents signé, envoyez-les."
+    answers: ["Une fois les documents signés, envoyez-les"]
+    explanation: "The participle agrees with les documents: signés."
+  - id: "c1-participle-clauses-ex014"
+    type: "translate"
+    prompt: "Traduisez avec une proposition participiale (terminer) : The meeting over, everyone left."
+    answers: ["La réunion terminée, chacun est parti", "La réunion terminée, tout le monde est parti", "Une fois la réunion terminée, chacun est parti", "Une fois la réunion terminée, tout le monde est parti"]
+    explanation: "La réunion terminée: the noun, then its participle."
+  - id: "c1-participle-clauses-ex015"
+    type: "translate"
+    prompt: "Traduisez avec « vu » et « nous » (s'arrêter, futur proche) : Given the time, we're going to stop here."
+    answers: ["Vu l'heure, nous allons nous arrêter ici", "Nous allons nous arrêter ici vu l'heure", "Vu l'heure, nous allons nous arrêter là", "Nous allons nous arrêter là vu l'heure"]
+    strictAccents: true
+    explanation: "Vu + noun, with no de: vu l'heure."
+  - id: "c1-participle-clauses-ex016"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre de la phrase : La séance levée, chacun quitta la salle."
+    options: ["soutenu", "familier"]
+    answers: ["soutenu"]
+    explanation: "An absolute participle clause, here with the passé simple, belongs to formal writing."
+  - id: "c1-participle-clauses-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Once the contract was signed, the work began."
+    words: ["Une", "fois", "le", "contrat", "signé", "les", "travaux", "ont", "commencé"]
+    answers: ["Une fois le contrat signé, les travaux ont commencé", "Les travaux ont commencé une fois le contrat signé"]
+    explanation: "Une fois + noun + participle can open or close the sentence."
+---
+
+By the end of this lesson you'll be able to write participle clauses that have their own subject, use the fixed participles of formal French, and avoid a participle that refers to the wrong person.
+
+## What you already know
+
+In <LessonLink id="b2-participles-and-gerund" text="the lesson on the present participle and the gérondif" />, you learned the participe présent, *ayant* or *étant* + past participle, *étant donné*, and the rule that an *-ant* form at the start of a sentence refers to the subject of the main verb. You know *une fois que* from <LessonLink id="b2-futur-anterieur" text="the lesson on the futur antérieur" />, and *vu que* from <LessonLink id="b2-logical-connectors" text="the lesson on logical connectors" />. This lesson adds clauses with their own subject.
+
+## The absolute participle clause
+
+<VocabTable group="forms" />
+
+A participle clause can have its own subject, different from the subject of the main verb. French grammar calls it *la proposition participiale*. The noun comes first, then the participle, and the clause is separated from the rest by a comma.
+
+<Example fr="La réunion terminée, chacun est rentré chez soi." en="The meeting over, everyone went home." />
+<Example fr="Le contrat signé, les travaux ont commencé." en="Once the contract was signed, the work began." />
+
+<Example fr="Dans cette phrase, la proposition participiale a son propre sujet." en="In this sentence, the participle clause has its own subject." />
+
+The past participle agrees with its own subject, as with *être*: *la réunion terminée*, *les contrats signés*. The clause usually gives a time or a cause: the first event is over, then the second one happens.
+
+With a present participle, the clause gives a cause or a circumstance. For an earlier action, use *ayant* or *étant* + past participle.
+
+<Example fr="Le train ayant du retard, nous avons manqué la correspondance." en="As the train was late, we missed our connection." />
+<Example fr="Les participants ayant lu le rapport, la discussion a été courte." en="As the participants had read the report, the discussion was short." />
+
+## Une fois + noun + participle
+
+*Une fois* + noun + participle is the most flexible form. It means "once (something is done)", and it works in any tense.
+
+<Example fr="Une fois le rapport terminé, envoyez-le au directeur." en="Once the report is finished, send it to the director." />
+<Example fr="Une fois la séance levée, les participants sont partis." en="Once the meeting was closed, the participants left." />
+
+In everyday French, use *une fois que* + a conjugated verb: *une fois que le rapport est terminé, envoyez-le*.
+
+## Fixed participles: vu, étant donné, compte tenu de, excepté
+
+<VocabTable group="fixed" />
+
+A few participles work like prepositions. Before the noun, they don't agree.
+
+- **Vu** + noun means "given": *vu la situation*, *vu l'heure*.
+- **Étant donné** + noun means the same, in a slightly more formal register: *étant donné les circonstances*.
+- **Compte tenu de** + noun means "taking into account". It's the only one of the three that takes *de*.
+- **Excepté** + noun means "except", like *sauf*: *tous excepté le président*.
+
+<Example fr="Vu la situation, nous reportons la réunion." en="Given the situation, we're postponing the meeting." />
+<Example fr="Compte tenu de la hausse des prix, le budget a été revu." en="In view of the rise in prices, the budget has been revised." />
+<Example fr="Tous les participants ont signé, excepté le président." en="All the participants signed, except the president." />
+
+## Same subject or own subject: the test
+
+This is the key point, and it extends the B2 rule. A participle clause with no noun of its own refers to the subject of the main verb. The test is simple: ask "who did the action of the participle?", then check that the answer is the subject of the main verb.
+
+<Example fr="Arrivé à la gare, il a vu que le train était parti." en="When he got to the station, he saw that the train had left." />
+
+Here *arrivé* and *il* have the same subject: correct. *Arrivé à la gare, le train était parti* would mean that the train got to the station. If the subjects differ, give the participle its own noun, or use a conjugated verb with *quand* or *comme*.
+
+<Example fr="Les participants arrivés, la séance a été ouverte." en="When the participants had arrived, the meeting was opened." />
+
+## Register
+
+Absolute participle clauses belong to written French: reports, minutes, history and literature. In literary narrative, you'll often meet them with the passé simple: *la séance levée, chacun quitta la salle*. In speech, use *quand*, *comme*, *une fois que* or *après* + past infinitive.
+
+| Formal writing | Everyday French |
+|---|---|
+| *La réunion terminée, chacun est parti.* | *Quand la réunion a été finie, tout le monde est parti.* |
+| *Le train ayant du retard, nous avons manqué la correspondance.* | *Comme le train avait du retard, on a raté la correspondance.* |
+| *Vu l'heure, nous allons nous arrêter.* | *Vu l'heure, on va s'arrêter.* |
+
+The last row shows that *vu* is also common in speech.
+
+## Words for minutes
+
+<VocabTable group="words" />
+
+Participle clauses are typical of *le procès-verbal* (the minutes of a meeting). The president *ouvre la séance* and later *lève la séance*; the participants *approuvent* the budget or *le calendrier*.
+
+<Example fr="La séance ouverte, le président a présenté l'ordre du jour." en="With the meeting open, the president presented the agenda." />
+<Example fr="Le calendrier approuvé, chacun a reçu une copie du contrat." en="Once the schedule had been approved, everyone received a copy of the contract." />
+
+## The whole list
+
+- Absolute clause: noun + participle, own subject: *la réunion terminée, chacun est parti*.
+- With a present participle: *le train ayant du retard, …*
+- *Une fois* + noun + participle: *une fois le rapport terminé*.
+- Fixed participles, invariable before the noun: *vu*, *étant donné*, *excepté*; and *compte tenu de*.
+- The test: who did the action of the participle? If it isn't the subject of the main verb, give the participle its own noun.
+- Register: formal writing; in speech, *quand*, *comme*, *une fois que*.
+
+## En français
+
+Nadia is writing the minutes of this morning's meeting. Her colleague Julien reads over her shoulder.
+
+- *Tu as fini le procès-verbal de la séance ?* (Have you finished the minutes of the meeting?)
+- *Presque. J'ai écrit : « La séance ouverte, le président a présenté l'ordre du jour. »* (Nearly. I wrote: "With the meeting open, the president presented the agenda.")
+- *C'est très écrit ! À l'oral, on dirait « quand la séance a commencé ».* (That's very written! In speech, we'd say "quand la séance a commencé". (spoken))
+- *Oui, mais c'est un procès-verbal, pas une conversation.* (Yes, but it's minutes, not a conversation.)
+- *D'accord. Et pour le budget ?* (OK. And for the budget?)
+- *« Compte tenu de la hausse des prix, le budget a été revu. »* ("In view of the rise in prices, the budget was revised.")
+- *Et la question du calendrier ?* (And the question of the schedule?)
+- *« Vu l'heure, elle a été reportée à la prochaine séance. »* ("Given the time, it was postponed to the next meeting.")
+- *Attention à la phrase suivante : « Ayant lu le rapport, la réunion a commencé. »* (Careful with the next sentence: "Having read the report, the meeting began.")
+- *Ah oui, ce n'est pas la réunion qui a lu le rapport ! « Les participants ayant lu le rapport, la réunion a commencé. »* (Oh yes, it wasn't the meeting that read the report! "As the participants had read the report, the meeting began.")
+- *C'est juste. Et la fin ?* (That's right. And the end?)
+- *« Tous les points traités, le président a levé la séance. »* ("All the items dealt with, the president closed the meeting.")
+- *Parfait. Une fois le texte relu, envoie-le à toute l'équipe.* (Perfect. Once the text has been read over, send it to the whole team.)
+- *Je l'envoie dès que j'ai fini.* (I'll send it as soon as I've finished.)
+
+<Callout type="warning" title="Arrivé à la gare, il a vu…, not arrivé à la gare, le train…">
+  Learners often open with a past participle and then change the subject. A participle with no noun of its own refers to the subject of the main verb: write **arrivé à la gare, il a vu que le train était parti**, or give it its own subject: **les participants arrivés, la séance a été ouverte**.
+</Callout>
+
+<Callout type="tip" title="Close each step of the minutes">
+  When you write minutes or a report, start each new paragraph with a participle clause that closes the previous step: *Le budget approuvé, …*, *Ce point traité, …*. The reader sees at once that one item is finished and the next one begins.
+</Callout>
+
+## En résumé
+
+La proposition participiale a son propre sujet, différent du sujet du verbe principal : la réunion terminée, chacun est rentré chez soi. Le nom vient d'abord, puis le participe, qui s'accorde avec ce nom. Avec ayant ou étant, la proposition donne une cause : le train ayant du retard, nous avons manqué la correspondance. Une fois suivi d'un nom et d'un participe veut dire après la fin d'une action : une fois le rapport terminé, envoyez-le. Vu, étant donné et excepté ne s'accordent pas devant le nom, et compte tenu prend de : compte tenu de la hausse des prix. Un participe sans nom a le même sujet que le verbe principal. Si ce n'est pas la même personne, il faut donner au participe son propre sujet. Ces formes sont typiques de l'écrit. À l'oral, on dit plutôt quand, comme ou une fois que.
+
+## What's next
+
+Next, <LessonLink id="c1-formal-relatives-and-apposition" text="the lesson on formal relatives and apposition" /> shows how to build long, clear sentences with *dont*, *duquel* and detached adjectives.
+
+===== content/lessons/c1/formal-relatives-and-apposition.mdx =====
+---
+id: "c1-formal-relatives-and-apposition"
+title: "Formal relatives and apposition"
+description: "Build long, clear sentences: dont + noun with no possessive, a preposition + noun + duquel (à l'issue duquel, en raison duquel), relatives with and without commas, apposition and detached adjectives."
+level: "C1"
+unit: "Academic writing"
+order: 19
+type: "grammar"
+tags: ["grammar", "relative pronouns", "formal writing", "punctuation"]
+prerequisites: ["b2-relative-lequel", "b2-relative-prepositions", "c1-participle-clauses"]
+related: ["b1-relative-dont", "c1-dislocation-and-fronting", "b2-arts-and-literature"]
+vocab:
+  - { id: "c1-formal-relatives-and-apposition-v001", group: "dont", fr: "l'écriture (f.)", pron: "lay-kree-TEWR", en: "writing, style of writing" }
+  - { id: "c1-formal-relatives-and-apposition-v002", group: "dont", fr: "admirer", pron: "ad-mee-RAY", en: "to admire" }
+  - { id: "c1-formal-relatives-and-apposition-v003", group: "duquel", fr: "à l'issue de", pron: "ah lee-SEW duh", en: "at the end of (a meeting, an event)", note: "À l'issue duquel, à l'issue de laquelle." }
+  - { id: "c1-formal-relatives-and-apposition-v004", group: "duquel", fr: "à la suite de", pron: "ah lah SWEET duh", en: "following, after", note: "À la suite duquel, à la suite de laquelle." }
+  - { id: "c1-formal-relatives-and-apposition-v005", group: "duquel", fr: "en raison duquel / de laquelle", pron: "ahn reh-zohn dew-KEL / duh lah-KEL", en: "because of which" }
+  - { id: "c1-formal-relatives-and-apposition-v006", group: "duquel", fr: "la conférence", pron: "lah kohn-fay-RAHNSS", en: "the lecture, the conference" }
+  - { id: "c1-formal-relatives-and-apposition-v007", group: "commas", fr: "une relative déterminative", pron: "ewn ruh-lah-teev day-tehr-mee-nah-TEEV", en: "a defining relative clause (no commas)" }
+  - { id: "c1-formal-relatives-and-apposition-v008", group: "commas", fr: "une relative explicative", pron: "ewn ruh-lah-teev ek-splee-kah-TEEV", en: "a non-defining relative clause (between commas)" }
+  - { id: "c1-formal-relatives-and-apposition-v009", group: "apposition", fr: "l'apposition (f.)", pron: "lah-poh-zee-SYOHN", en: "apposition (a noun or adjective placed next to another noun, between commas)" }
+  - { id: "c1-formal-relatives-and-apposition-v010", group: "apposition", fr: "un adjectif détaché", pron: "uh-nad-zhek-teef day-tah-SHAY", en: "a detached adjective (set off by a comma)" }
+  - { id: "c1-formal-relatives-and-apposition-v011", group: "apposition", fr: "l'exil (m.)", pron: "leg-ZEEL", en: "exile" }
+  - { id: "c1-formal-relatives-and-apposition-v012", group: "apposition", fr: "la soirée", pron: "lah swah-RAY", en: "the evening, the party" }
+exercises:
+  - id: "c1-formal-relatives-and-apposition-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Les étudiants qui avaient travaillé ont réussi."
+    options: ["Only the students who had worked passed.", "All the students passed, and they had all worked."]
+    answers: ["Only the students who had worked passed."]
+    explanation: "With no commas, the relative clause defines which students: only those who had worked."
+  - id: "c1-formal-relatives-and-apposition-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Les étudiants, qui avaient travaillé, ont réussi."
+    options: ["All the students passed, and they had all worked.", "Only the students who had worked passed."]
+    answers: ["All the students passed, and they had all worked."]
+    explanation: "Between commas, the relative clause adds information about all the students."
+  - id: "c1-formal-relatives-and-apposition-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui veut dire : tous les invités sont venus, et ils avaient tous reçu une lettre."
+    options: ["Les invités, qui avaient reçu une lettre, sont venus.", "Les invités qui avaient reçu une lettre sont venus."]
+    answers: ["Les invités, qui avaient reçu une lettre, sont venus."]
+    explanation: "The commas make the clause non-defining: it's about all the guests."
+  - id: "c1-formal-relatives-and-apposition-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le pronom : C'est un écrivain ___ on connaît surtout les romans."
+    options: ["dont", "duquel", "que"]
+    answers: ["dont"]
+    explanation: "Les romans de cet écrivain: de + noun, so dont, then the normal order on connaît les romans."
+  - id: "c1-formal-relatives-and-apposition-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le pronom : La conférence, à l'issue ___ un débat a eu lieu, était longue."
+    options: ["de laquelle", "dont", "duquel"]
+    answers: ["de laquelle"]
+    explanation: "À l'issue de is a preposition of several words, so dont is impossible; la conférence is feminine: de laquelle."
+  - id: "c1-formal-relatives-and-apposition-ex006"
+    type: "connector-choice"
+    prompt: "Choisissez le pronom : Le retard, en raison ___ nous avons manqué le train, était de vingt minutes."
+    options: ["duquel", "dont", "de laquelle"]
+    answers: ["duquel"]
+    explanation: "En raison de + le retard (masculine): en raison duquel."
+  - id: "c1-formal-relatives-and-apposition-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec un pronom relatif : L'écrivaine ___ j'ai lu tous les livres donne une conférence ce soir."
+    answers: ["dont"]
+    explanation: "Tous les livres de l'écrivaine: dont."
+  - id: "c1-formal-relatives-and-apposition-ex008"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : C'est une autrice dont j'admire son écriture."
+    answers: ["C'est une autrice dont j'admire l'écriture"]
+    explanation: "Dont already means \"whose\": the noun after it takes le, la or les, not a possessive."
+  - id: "c1-formal-relatives-and-apposition-ex009"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : La réunion à l'issue dont nous avons voté était longue."
+    answers: ["La réunion à l'issue de laquelle nous avons voté était longue"]
+    strictAccents: true
+    explanation: "After à l'issue de, use de laquelle (feminine), never dont."
+  - id: "c1-formal-relatives-and-apposition-ex010"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase avec « dont » : Je lis un roman. L'auteur de ce roman est belge."
+    answers: ["Je lis un roman dont l'auteur est belge"]
+    explanation: "L'auteur du roman: dont l'auteur est belge."
+  - id: "c1-formal-relatives-and-apposition-ex011"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase, avec une apposition après « Victor Hugo » : Victor Hugo a écrit Les Misérables. Il a passé des années en exil."
+    answers: ["Victor Hugo, l'auteur des Misérables, a passé des années en exil", "Victor Hugo, auteur des Misérables, a passé des années en exil"]
+    strictAccents: true
+    explanation: "The apposition sits between commas right after the noun. It can keep or drop the article."
+  - id: "c1-formal-relatives-and-apposition-ex012"
+    type: "reformulation"
+    prompt: "Reformulez en commençant par l'adjectif : Elle était fatiguée, et elle est rentrée tôt."
+    answers: ["Fatiguée, elle est rentrée tôt"]
+    explanation: "A detached adjective at the start refers to the subject of the main verb: fatiguée, elle…"
+  - id: "c1-formal-relatives-and-apposition-ex013"
+    type: "translate"
+    prompt: "Traduisez avec « au cours de laquelle » : It was an evening during which everyone laughed."
+    answers: ["C'était une soirée au cours de laquelle tout le monde a ri", "C'était une soirée au cours de laquelle chacun a ri"]
+    strictAccents: true
+    explanation: "Au cours de + la soirée: au cours de laquelle."
+  - id: "c1-formal-relatives-and-apposition-ex014"
+    type: "translate"
+    prompt: "Traduisez avec « dont » : the town whose mayor I know"
+    answers: ["la ville dont je connais le maire", "la ville dont je connais la maire"]
+    explanation: "Dont + subject + verb + le maire: the normal word order follows dont."
+  - id: "c1-formal-relatives-and-apposition-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Tired, she went to bed early."
+    words: ["Fatiguée", "elle", "s'est", "couchée", "tôt"]
+    answers: ["Fatiguée, elle s'est couchée tôt", "Elle s'est couchée tôt, fatiguée"]
+    explanation: "The detached adjective can open the sentence or close it, after a comma."
+  - id: "c1-formal-relatives-and-apposition-ex016"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase correcte."
+    options: ["Inquiet, il a appelé sa mère.", "Inquiet, sa mère l'a appelé.", "Inquiète, il a appelé sa mère."]
+    answers: ["Inquiet, il a appelé sa mère."]
+    explanation: "A detached adjective refers to the subject of the main verb and agrees with it: inquiet, il…"
+---
+
+By the end of this lesson you'll be able to build long formal sentences with *dont* and *duquel*, choose between a relative clause with or without commas, and use apposition and detached adjectives.
+
+## What you already know
+
+You know *dont* for verbs with *de* and for "whose" from <LessonLink id="b1-relative-dont" text="the lesson on dont" />, and *au cours duquel* and *la raison pour laquelle* from <LessonLink id="b2-relative-lequel" text="the lesson on lequel, auquel and duquel" />, where you also learned that *dont* can't follow a preposition of several words. *Ce dont* and *ce à quoi* come from <LessonLink id="b2-relative-prepositions" text="the lesson on relatives after prepositions" />. This lesson uses them in the long sentences of academic writing.
+
+## Dont + noun: the word order
+
+<VocabTable group="dont" />
+
+When *dont* means "whose" or "of which", the noun it depends on comes later in the clause, in the normal order: subject, verb, object. The noun takes *le*, *la* or *les*, not a possessive, because *dont* already says whose it is.
+
+<Example fr="C'est un écrivain dont on connaît surtout les romans." en="He's a writer whose novels are best known." />
+<Example fr="C'est une autrice dont j'admire l'écriture." en="She's an author whose writing I admire." />
+
+*Dont j'admire son écriture* is a common mistake: the possessive repeats what *dont* already says.
+
+In a long sentence, keep the subject of the relative clause close to *dont*, and don't let the clause grow longer than the main sentence. If it does, split the sentence in two.
+
+## A preposition + noun + duquel
+
+<VocabTable group="duquel" />
+
+You know that *dont* can't follow *près de* or *au cours de*. The same is true of the formal prepositions of academic writing: *à l'issue de* (at the end of), *en raison de* (because of), *à la suite de* (following). Use the preposition + *duquel*, *de laquelle*, *desquels* or *desquelles*.
+
+<Example fr="La conférence, à l'issue de laquelle un débat a eu lieu, était longue." en="The lecture, at the end of which a debate took place, was long." />
+<Example fr="Le retard, en raison duquel nous avons manqué le train, était de vingt minutes." en="The delay, because of which we missed the train, was twenty minutes." />
+<Example fr="La réunion, à la suite de laquelle le projet a été lancé, a duré deux heures." en="The meeting, following which the project was launched, lasted two hours." />
+
+The same applies when *dont* would depend on a noun that follows a preposition: *l'homme à la fille duquel j'ai parlé* (the man whose daughter I spoke to). This form is very formal. In most texts, a simpler sentence is clearer: *j'ai parlé à la fille de cet homme*.
+
+## Commas change the meaning
+
+<VocabTable group="commas" />
+
+French distinguishes two kinds of relative clause, and the commas show which one you mean.
+
+- **Une relative déterminative**, with no commas, says which people or things you mean. Without it, the sentence would mean something else.
+- **Une relative explicative**, between commas, adds information about all of them. You could remove it and the main sentence would still be true.
+
+<Example fr="Les étudiants qui avaient travaillé ont réussi." en="The students who had worked passed (only those)." />
+<Example fr="Les étudiants, qui avaient travaillé, ont réussi." en="The students, who had all worked, passed." />
+
+Check the meaning before you add commas: in the first sentence, some students didn't pass; in the second, all of them did.
+
+## Apposition and detached adjectives
+
+<VocabTable group="apposition" />
+
+*L'apposition* places a noun next to another noun, between commas, to add information about it. It often replaces a relative clause with *qui est*.
+
+<Example fr="Victor Hugo, l'auteur des Misérables, a passé près de vingt ans en exil." en="Victor Hugo, the author of Les Misérables, spent nearly twenty years in exile." />
+
+The article in an apposition is optional: *Victor Hugo, auteur des Misérables, …* is also correct and a little more formal.
+
+An adjective or a participle can be detached in the same way, at the start or at the end of the sentence. A detached adjective at the start refers to the subject of the main verb and agrees with it, just like the participle clauses in <LessonLink id="c1-participle-clauses" text="the lesson on participle clauses" />.
+
+<Example fr="Inquiète, elle a appelé son frère." en="Worried, she called her brother." />
+<Example fr="Il est arrivé à la soirée, surpris de voir tant de monde." en="He arrived at the party, surprised to see so many people." />
+
+*Inquiet, sa mère l'a appelé* would mean that the mother was worried, with the wrong agreement. If the adjective describes someone else, put it next to that person or use a clause.
+
+## Commas in formal prose
+
+The same commas frame every detached element: an apposition, a relative explicative, a detached adjective, a participle clause. As a rule of thumb, if you can remove the element and keep a correct sentence, put it between commas; if the sentence needs it to say who or what, don't.
+
+<Example fr="Le rapport, qui comporte trois parties, a été approuvé." en="The report, which consists of three parts, was approved." />
+
+## The whole list
+
+- *Dont* + subject + verb + *le / la / les* + noun: *dont j'admire l'écriture*.
+- After a preposition of several words: *à l'issue duquel*, *en raison de laquelle*, never *dont*.
+- No commas: the relative defines; between commas: it adds information.
+- Apposition: a noun between commas, with or without the article.
+- Detached adjective: same subject as the main verb, same agreement.
+
+## En français
+
+Inès and Tom, two students, are writing a presentation about Victor Hugo.
+
+- *Tu as écrit l'introduction ?* (Have you written the introduction?)
+- *Oui : « Victor Hugo, dont on connaît surtout Les Misérables, a aussi écrit des poèmes. »* (Yes: "Victor Hugo, whose best-known work is Les Misérables, also wrote poems.")
+- *Bien. Mais j'ai mis : « dont on connaît surtout ses romans ».* (Good. But I put: "dont on connaît surtout ses romans".)
+- *Non, pas de « son » après « dont ». On dit « dont on connaît surtout les romans ».* (No, no "ses" after "dont". We say "dont on connaît surtout les romans".)
+- *D'accord. Ensuite, je parle de son exil.* (OK. Then I talk about his exile.)
+- *Écris : « Hugo, opposant au Second Empire, a passé près de vingt ans en exil. »* (Write: "Hugo, an opponent of the Second Empire, spent nearly twenty years in exile.")
+- *C'est une apposition ! Il faut des virgules ?* (That's an apposition! Do we need commas?)
+- *Oui, avant et après. Sans elles, la phrase est difficile à lire.* (Yes, before and after. Without them, the sentence is hard to read.)
+- *Et pour la fin : « L'exil, au cours duquel il a beaucoup écrit, a duré jusqu'en 1870. »* (And for the end: "The exile, during which he wrote a lot, lasted until 1870.")
+- *Très bien. Tu peux aussi commencer une phrase par un adjectif.* (Very good. You can also start a sentence with an adjective.)
+- *Comme « Fatigué, Hugo est rentré en France » ?* (Like "Tired, Hugo returned to France"?)
+- *Oui, si c'est vrai ! Je ne sais pas s'il était fatigué.* (Yes, if it's true! I don't know if he was tired.)
+- *Alors j'écris plutôt « Âgé de soixante-huit ans, Hugo est rentré en France ».* (Then I'll write "At the age of sixty-eight, Hugo returned to France" instead.)
+- *Parfait, c'est vrai et c'est bien écrit.* (Perfect, it's true and it's well written.)
+
+<Callout type="warning" title="Dont j'admire l'écriture, not dont j'admire son écriture">
+  Learners often add a possessive after *dont*, because English says "whose writing". *Dont* already gives the owner, so the noun takes an article: **c'est une autrice dont j'admire l'écriture**, **un écrivain dont on connaît les romans**.
+</Callout>
+
+<Callout type="tip" title="Remove it and reread">
+  Before you put commas around a relative clause, cover it and reread the sentence. If the sentence still says what you mean, the clause is explicative and goes between commas. If it now says something else (*les étudiants ont réussi*, all of them), keep the clause without commas.
+</Callout>
+
+## En résumé
+
+Dans une phrase longue, dont est suivi de l'ordre normal : sujet, verbe, puis le nom avec le, la ou les. On dit dont j'admire l'écriture, sans son, sa ou ses, car dont montre déjà à qui est la chose. Après une préposition de plusieurs mots, comme à l'issue de ou en raison de, on emploie duquel ou de laquelle, et jamais dont : la conférence, à l'issue de laquelle un débat a eu lieu. Les virgules changent le sens. Une relative déterminative, sans virgules, dit de qui on parle. Une relative explicative, entre virgules, ajoute une information sur tous. L'apposition place un nom à côté d'un autre nom, entre virgules : Victor Hugo, l'auteur des Misérables, a passé près de vingt ans en exil. Un adjectif détaché au début de la phrase a le même sujet que le verbe principal : inquiète, elle a appelé son frère.
+
+## What's next
+
+Next, <LessonLink id="c1-advanced-connectors" text="the lesson on advanced connectors and academic hedging" /> gives you the linking words of academic writing and the tools to state a claim with care.
+
+===== content/lessons/c1/advanced-connectors.mdx =====
+---
+id: "c1-advanced-connectors"
+title: "Advanced connectors and academic hedging"
+description: "Link ideas like an academic writer with dès lors, en l'occurrence, a fortiori and à cet égard, choose en revanche or par contre by register, and state a claim with care: à en croire, selon toute vraisemblance, sous réserve de."
+level: "C1"
+unit: "Academic writing"
+order: 20
+type: "grammar"
+tags: ["grammar", "connectors", "hedging", "academic writing"]
+prerequisites: ["b2-logical-connectors", "b2-concession-opposition", "b2-conditionnel-passe"]
+related: ["b2-nuancing-opinions", "b2-persuasion-and-hedging", "c1-formal-relatives-and-apposition"]
+vocab:
+  - { id: "c1-advanced-connectors-v001", group: "logic", fr: "académique", pron: "ah-kah-day-MEEK", en: "academic" }
+  - { id: "c1-advanced-connectors-v002", group: "logic", fr: "le raisonnement", pron: "luh reh-zonn-MAHN", en: "the reasoning, the argument" }
+  - { id: "c1-advanced-connectors-v003", group: "logic", fr: "dès lors", pron: "deh LOR", en: "consequently, from then on (formal)", note: "Dès lors que + indicative: since, given that." }
+  - { id: "c1-advanced-connectors-v004", group: "logic", fr: "dès lors que", pron: "deh lor KUH", en: "since, given that, as soon as (formal)" }
+  - { id: "c1-advanced-connectors-v005", group: "logic", fr: "en l'occurrence", pron: "ahn loh-kew-RAHNSS", en: "in this case, as it happens, namely" }
+  - { id: "c1-advanced-connectors-v006", group: "logic", fr: "a fortiori", pron: "ah for-SYOH-ree", en: "all the more so, even more so (formal)" }
+  - { id: "c1-advanced-connectors-v007", group: "logic", fr: "à cet égard", pron: "ah set ay-GAR", en: "in this respect, on this point (formal)" }
+  - { id: "c1-advanced-connectors-v008", group: "register", fr: "par contre", pron: "par KOHN-truh", en: "on the other hand (everyday)", note: "Formal writing prefers en revanche." }
+  - { id: "c1-advanced-connectors-v009", group: "hedging", fr: "à en croire", pron: "ah ahn KRWAHR", en: "if we're to believe, according to (with some doubt)", note: "+ noun: à en croire la presse." }
+  - { id: "c1-advanced-connectors-v010", group: "hedging", fr: "selon toute vraisemblance", pron: "suh-lohn toot vreh-sahn-BLAHNSS", en: "in all likelihood" }
+  - { id: "c1-advanced-connectors-v011", group: "hedging", fr: "sous réserve de", pron: "soo ray-zehrv DUH", en: "subject to, provided there is", note: "Sous réserve de l'accord du conseil." }
+  - { id: "c1-advanced-connectors-v012", group: "hedging", fr: "l'accord (m.)", pron: "lah-KOR", en: "the agreement, the approval" }
+  - { id: "c1-advanced-connectors-v013", group: "hedging", fr: "le ministre / la ministre", pron: "luh mee-NEES-truh / lah mee-NEES-truh", en: "the minister" }
+  - { id: "c1-advanced-connectors-v014", group: "hedging", fr: "le ministère", pron: "luh mee-nees-TEHR", en: "the ministry" }
+  - { id: "c1-advanced-connectors-v015", group: "hedging", fr: "limité / limitée", pron: "lee-mee-TAY", en: "limited" }
+  - { id: "c1-advanced-connectors-v016", group: "hedging", fr: "l'adolescent / l'adolescente", pron: "lah-doh-leh-SAHN / lah-doh-leh-SAHNT", en: "the teenager" }
+exercises:
+  - id: "c1-advanced-connectors-ex001"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Les données sont limitées. ___, il est difficile de conclure."
+    options: ["Dès lors", "En l'occurrence", "À cet égard"]
+    answers: ["Dès lors"]
+    explanation: "Dès lors introduces a consequence: the data are limited, so it's hard to conclude."
+  - id: "c1-advanced-connectors-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Certaines villes ont réduit la circulation, ___ Lyon et Nantes."
+    options: ["en l'occurrence", "a fortiori", "dès lors"]
+    answers: ["en l'occurrence"]
+    explanation: "En l'occurrence names the case in question: namely Lyon and Nantes."
+  - id: "c1-advanced-connectors-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Si les adultes ont du mal à comprendre ce texte, ___ les enfants."
+    options: ["a fortiori", "en l'occurrence", "à cet égard"]
+    answers: ["a fortiori"]
+    explanation: "A fortiori: the conclusion is even more true for the second case."
+  - id: "c1-advanced-connectors-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : La sécurité est notre priorité. ___, de nouvelles règles seront instaurées."
+    options: ["À cet égard", "A fortiori", "En l'occurrence"]
+    answers: ["À cet égard"]
+    explanation: "À cet égard links the new rules to the point just made: in this respect."
+  - id: "c1-advanced-connectors-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre de « par contre » dans la phrase : Le prix est bas. Par contre, la qualité est faible."
+    options: ["courant", "soutenu"]
+    answers: ["courant"]
+    explanation: "Par contre is common in speech and everyday writing; formal writing prefers en revanche."
+  - id: "c1-advanced-connectors-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « Or » dans la phrase : Il voulait partir en train. Or, le train était annulé."
+    options: ["But (a new fact that changes the reasoning)", "Or (an alternative)", "Therefore"]
+    answers: ["But (a new fact that changes the reasoning)"]
+    explanation: "Or introduces a fact that changes the situation; as a connector, it never means \"or\"."
+  - id: "c1-advanced-connectors-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « à en croire » dans la phrase : À en croire la presse, la ministre partirait."
+    options: ["if we're to believe the press (with some doubt)", "because the press believes it", "the press doesn't believe it"]
+    answers: ["if we're to believe the press (with some doubt)"]
+    explanation: "À en croire + source keeps a distance from the claim, often with the conditionnel."
+  - id: "c1-advanced-connectors-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « selon toute vraisemblance » : Le projet sera prêt en juin."
+    answers: ["Selon toute vraisemblance, le projet sera prêt en juin", "Le projet sera, selon toute vraisemblance, prêt en juin", "Le projet sera prêt en juin, selon toute vraisemblance"]
+    explanation: "The hedge can open the sentence, follow the verb or close the sentence."
+  - id: "c1-advanced-connectors-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « à en croire » et le conditionnel : Le rapport dit que le projet coûte dix millions."
+    answers: ["À en croire le rapport, le projet coûterait dix millions"]
+    strictAccents: true
+    explanation: "À en croire + source, then the conditionnel: the writer doesn't confirm the figure."
+  - id: "c1-advanced-connectors-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « sous réserve de » : Le projet sera lancé si le conseil donne son accord."
+    answers: ["Le projet sera lancé sous réserve de l'accord du conseil", "Sous réserve de l'accord du conseil, le projet sera lancé"]
+    explanation: "Sous réserve de + noun replaces si + clause."
+  - id: "c1-advanced-connectors-ex011"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « en revanche » : Le prix est bas. Par contre, la qualité est faible."
+    answers: ["Le prix est bas. En revanche, la qualité est faible"]
+    explanation: "En revanche is the formal choice for a contrast."
+  - id: "c1-advanced-connectors-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Les données sont fiables. Dès lors que, nous pouvons conclure."
+    answers: ["Les données sont fiables. Dès lors, nous pouvons conclure"]
+    strictAccents: true
+    explanation: "Dès lors que needs a clause after it. On its own, before a comma, write dès lors."
+  - id: "c1-advanced-connectors-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : À en croire de la presse, la ministre partirait."
+    answers: ["À en croire la presse, la ministre partirait"]
+    explanation: "À en croire is followed directly by the source, with no de."
+    strictAccents: true
+  - id: "c1-advanced-connectors-ex014"
+    type: "translate"
+    prompt: "Traduisez avec « dès lors que » (tirer une conclusion) : Since the data are reliable, we can draw a conclusion."
+    answers: ["Dès lors que les données sont fiables, nous pouvons tirer une conclusion", "Nous pouvons tirer une conclusion dès lors que les données sont fiables"]
+    strictAccents: true
+    explanation: "Dès lors que + indicative: since, given that."
+  - id: "c1-advanced-connectors-ex015"
+    type: "translate"
+    prompt: "Traduisez avec « a fortiori » : This text is difficult for adults, and a fortiori for children."
+    answers: ["Ce texte est difficile pour les adultes, et a fortiori pour les enfants"]
+    strictAccents: true
+    explanation: "A fortiori adds the case where the claim is even truer."
+  - id: "c1-advanced-connectors-ex016"
+    type: "translate"
+    prompt: "Traduisez avec « selon toute vraisemblance » : In all likelihood, the meeting will be postponed."
+    answers: ["Selon toute vraisemblance, la réunion sera reportée", "La réunion sera, selon toute vraisemblance, reportée", "La réunion sera reportée, selon toute vraisemblance"]
+    explanation: "Selon toute vraisemblance, with the futur: the writer is almost sure."
+  - id: "c1-advanced-connectors-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : In this respect, the report is clear."
+    words: ["À", "cet", "égard", "le", "rapport", "est", "clair"]
+    answers: ["À cet égard, le rapport est clair", "Le rapport est clair à cet égard"]
+    explanation: "À cet égard can open the sentence or close it."
+---
+
+By the end of this lesson you'll be able to link the steps of an argument with the connectors of academic French, choose the right register for a contrast, and state a claim with exactly the confidence the evidence allows.
+
+## What you already know
+
+You know the main connectors of argument from <LessonLink id="b2-logical-connectors" text="the lesson on logical connectors" /> (*en outre*, *or*, *par conséquent*, *d'où*, *en somme*) and *en revanche* from <LessonLink id="b2-concession-opposition" text="the lesson on concession and opposition" />. The conditionnel for a fact you can't confirm comes from <LessonLink id="b2-conditionnel-passe" text="the lesson on the conditionnel passé" />, and *a priori* and *dans une certaine mesure* from <LessonLink id="b2-nuancing-opinions" text="the lesson on nuancing your opinion" />. This lesson adds the connectors and hedges that academic texts rely on.
+
+## Connectors of academic reasoning
+
+<VocabTable group="logic" />
+
+Academic French links each step of an argument explicitly. Four connectors are typical of it.
+
+**Dès lors** draws a consequence, like *par conséquent*, but it stresses that the consequence follows necessarily from what was just said. **Dès lors que** + indicative introduces a condition already met: "since, given that".
+
+<Example fr="Les données sont limitées. Dès lors, il est difficile de conclure." en="The data are limited. Consequently, it's difficult to draw a conclusion." />
+<Example fr="Dès lors que les données sont fiables, nous pouvons tirer une conclusion." en="Since the data are reliable, we can draw a conclusion." />
+
+**En l'occurrence** names the particular case you're talking about: "in this case, namely". It doesn't mean "by chance".
+
+<Example fr="Certaines villes ont réduit la circulation, en l'occurrence Lyon et Nantes." en="Some cities have reduced traffic, namely Lyon and Nantes." />
+
+**A fortiori** (written without an accent) says that a conclusion is even more true in a second case.
+
+<Example fr="Ce texte est difficile pour les adultes, et a fortiori pour les enfants." en="This text is difficult for adults, and all the more so for children." />
+
+**À cet égard** links a sentence to the point just made: "in this respect, on this point".
+
+<Example fr="La sécurité est notre priorité. À cet égard, de nouvelles règles seront instaurées." en="Safety is our priority. In this respect, new rules will be brought in." />
+
+## Two B2 connectors at C1
+
+Two connectors you know need care in academic writing.
+
+**Or** introduces a new fact that changes the reasoning, often the second step of a three-step argument: a rule, then a fact, then the conclusion. As a connector, it never means "or", and it's followed by a comma.
+
+<Example fr="Tout candidat doit avoir un diplôme. Or, Paul n'en a pas. Dès lors, sa candidature est refusée." en="Every candidate must have a degree. But Paul doesn't have one. Consequently, his application is turned down." />
+
+**D'ailleurs** adds a supporting point, often one that the reader didn't expect, while **en outre** simply adds one more point of the same kind. In an essay, use *en outre* for a list and *d'ailleurs* for an aside that strengthens the argument.
+
+## En revanche or par contre: a register point
+
+<VocabTable group="register" />
+
+*Par contre* and *en revanche* both mark a contrast. *Par contre* is very common in speech and in everyday writing, and it's correct French. In formal and academic writing, however, many teachers and style guides prefer *en revanche*. As a rule of thumb, write *en revanche* in an essay, a report or a formal letter, and use *par contre* freely when you speak.
+
+<Example fr="Le prix est bas. Par contre, la qualité est faible." en="The price is low. On the other hand, the quality is poor." />
+<Example fr="Le prix est bas. En revanche, la qualité est faible." en="The price is low. On the other hand, the quality is poor. (formal)" />
+
+## Academic hedging
+
+<VocabTable group="hedging" />
+
+A careful writer doesn't state more than the evidence shows. B2 gave you the conditionnel for unconfirmed facts and *a priori* or *il semble que* for caution. Three formal tools complete the set.
+
+**À en croire** + a source keeps a distance from what the source says: "if we're to believe". It's often followed by the conditionnel.
+
+<Example fr="À en croire la presse, la ministre partirait à la fin du mois." en="If the press is to be believed, the minister is going to leave at the end of the month." />
+
+**Selon toute vraisemblance** says that something is very probable, but not certain: "in all likelihood".
+
+<Example fr="Selon toute vraisemblance, la réunion sera reportée." en="In all likelihood, the meeting will be postponed." />
+
+**Sous réserve de** + noun makes a statement depend on a condition: "subject to".
+
+<Example fr="Le projet sera lancé sous réserve de l'accord du conseil." en="The project will be launched subject to the council's approval." />
+
+Compare the three levels of confidence: *le projet coûtera dix millions* (certain), *selon toute vraisemblance, le projet coûtera dix millions* (very probable), *à en croire le rapport, le projet coûterait dix millions* (reported, not confirmed).
+
+## The whole list
+
+| Connector or hedge | Use |
+|---|---|
+| *dès lors* / *dès lors que* | a necessary consequence / since, given that |
+| *en l'occurrence* | naming the case in question |
+| *a fortiori* | even more true in a second case |
+| *à cet égard* | in this respect |
+| *or* | a new fact that changes the reasoning |
+| *en revanche* / *par contre* | contrast: formal / everyday |
+| *à en croire* + source | reported, with distance |
+| *selon toute vraisemblance* | very probable |
+| *sous réserve de* + noun | subject to a condition |
+
+## En français
+
+Sarah, a student, shows a chapter of her research project to her supervisor, Madame Martin.
+
+- *Madame, j'ai fini la partie sur les résultats. Vous pouvez la lire ?* (Madame Martin, I've finished the section on the results. Could you read it?)
+- *Volontiers. Vous écrivez : « Les jeunes lisent moins. » C'est un peu direct.* (Gladly. You write: "Young people read less." It's a little blunt.)
+- *Mais les données le montrent !* (But the data show it!)
+- *Elles le suggèrent. Écrivez plutôt : « Selon toute vraisemblance, les jeunes lisent moins. »* (They suggest it. Write instead: "In all likelihood, young people read less.")
+- *Et quand je parle de l'enquête du ministère ?* (And when I mention the ministry's survey?)
+- *« À en croire cette enquête, le temps de lecture aurait baissé. » Le conditionnel montre que vous ne l'affirmez pas.* ("If this survey is to be believed, reading time has fallen." The conditionnel shows that you're not stating it as fact.)
+- *D'accord. Et ici, j'ai mis « par contre ».* (OK. And here, I put "par contre".)
+- *C'est correct, mais dans un texte académique, « en revanche » est plus soigné.* (It's correct, but in an academic text, "en revanche" is more careful.)
+- *Et pour donner un exemple précis ?* (And to give a precise example?)
+- *« Certains lecteurs, en l'occurrence les adolescents, lisent surtout en ligne. »* ("Some readers, namely teenagers, read mostly online.")
+- *Et pour ma conclusion ?* (And for my conclusion?)
+- *« L'échantillon est limité. Dès lors, ces résultats restent à confirmer. »* ("The sample is limited. Consequently, these results remain to be confirmed.")
+- *Ce n'est pas trop prudent ?* (Isn't that too cautious?)
+- *Non, c'est honnête. À cet égard, votre travail est déjà très bon.* (No, it's honest. In this respect, your work is already very good.)
+
+<Callout type="warning" title="Dès lors, not dès lors que, before a comma">
+  Learners often write *dès lors que* where they mean "consequently". *Dès lors que* needs a clause: **dès lors que les données sont fiables, nous pouvons conclure**. To start a sentence with a consequence, write **dès lors,** followed by the main clause.
+</Callout>
+
+<Callout type="tip" title="Grade your claims">
+  Before you hand in an academic text, mark each claim with a number from 1 to 3: 1 for what you're sure of, 2 for what is very probable, 3 for what a source says. Then check that the wording matches: plain verbs for 1, *selon toute vraisemblance* for 2, *à en croire* and the conditionnel for 3.
+</Callout>
+
+## En résumé
+
+Le texte académique relie chaque étape du raisonnement. Dès lors annonce une conséquence nécessaire, et dès lors que, suivi de l'indicatif, veut dire puisque. En l'occurrence donne le cas précis dont on parle : certaines villes, en l'occurrence Lyon et Nantes. A fortiori montre qu'une conclusion est encore plus vraie dans un second cas, et à cet égard relie une phrase au point précédent. Or présente un fait nouveau qui change le raisonnement. Par contre est correct et très courant à l'oral, mais à l'écrit soutenu, on préfère en revanche. Pour rester prudent, on dit à en croire la presse, souvent avec le conditionnel, selon toute vraisemblance pour ce qui est très probable, et sous réserve de pour une condition : le projet sera lancé sous réserve de l'accord du conseil.
+
+## What's next
+
+Next, <LessonLink id="c1-concession-and-hypothesis" text="the lesson on concession and hypothesis" /> shows how to grant a point and imagine a case with *quand bien même*, *pour peu que* and *à supposer que*.
+
+===== content/lessons/c1/concession-and-hypothesis.mdx =====
+---
+id: "c1-concession-and-hypothesis"
+title: "Concession and hypothesis at C1"
+description: "Grant a point and imagine a case in formal French: quand bien même + conditionnel; pour peu que, à supposer que, si tant est que + subjunctive; encore que; and the literary inverted hypothesis (serait-il, fût-il)."
+level: "C1"
+unit: "Academic writing"
+order: 21
+type: "grammar"
+tags: ["grammar", "subjunctive", "conditionnel", "argument"]
+prerequisites: ["b2-concession-opposition", "b2-mixed-conditionals", "c1-imperfect-subjunctive"]
+related: ["b2-subjunctive-conjunctions", "b2-si-plus-que-parfait", "c1-advanced-connectors"]
+vocab:
+  - { id: "c1-concession-and-hypothesis-v001", group: "concession", fr: "quand bien même", pron: "kahn byan MEM", en: "even if (formal)", note: "+ conditionnel: quand bien même il pleuvrait." }
+  - { id: "c1-concession-and-hypothesis-v002", group: "concession", fr: "encore que", pron: "ahn-kor KUH", en: "although, mind you (formal)", note: "+ subjunctive, often added after the main point." }
+  - { id: "c1-concession-and-hypothesis-v003", group: "hypothesis", fr: "pour peu que", pron: "poor puh KUH", en: "if only, as long as (even a little)", note: "+ subjunctive." }
+  - { id: "c1-concession-and-hypothesis-v004", group: "hypothesis", fr: "à supposer que", pron: "ah sew-poh-ZAY kuh", en: "supposing that, assuming that", note: "+ subjunctive." }
+  - { id: "c1-concession-and-hypothesis-v005", group: "hypothesis", fr: "si tant est que", pron: "see tahn-teh KUH", en: "assuming that (which is doubtful)", note: "+ subjunctive." }
+  - { id: "c1-concession-and-hypothesis-v006", group: "inverted", fr: "serait-il…", pron: "suh-reh-TEEL", en: "even if he were… (literary)", note: "Serait-il malade, il viendrait." }
+  - { id: "c1-concession-and-hypothesis-v007", group: "words", fr: "financer", pron: "fee-nahn-SAY", en: "to fund, to finance", note: "Nous finançons." }
+  - { id: "c1-concession-and-hypothesis-v008", group: "words", fr: "une subvention", pron: "ewn sewb-vahn-SYOHN", en: "a grant, a subsidy" }
+  - { id: "c1-concession-and-hypothesis-v009", group: "words", fr: "le festival", pron: "luh fes-tee-VAHL", en: "the festival" }
+  - { id: "c1-concession-and-hypothesis-v010", group: "words", fr: "un effort", pron: "uh-neh-FOR", en: "an effort", note: "Faire un effort." }
+  - { id: "c1-concession-and-hypothesis-v011", group: "words", fr: "optimiste", pron: "op-tee-MEEST", en: "optimistic" }
+  - { id: "c1-concession-and-hypothesis-v012", group: "words", fr: "à l'intérieur", pron: "ah lan-tay-RYUHR", en: "inside, indoors" }
+exercises:
+  - id: "c1-concession-and-hypothesis-ex001"
+    type: "connector-choice"
+    prompt: "Choisissez la forme : Quand bien même il ___, nous partirions."
+    options: ["pleuvrait", "pleut", "pleuve"]
+    answers: ["pleuvrait"]
+    explanation: "Quand bien même takes the conditionnel: quand bien même il pleuvrait."
+  - id: "c1-concession-and-hypothesis-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez la forme : Pour peu qu'il ___ beau, la plage sera pleine."
+    options: ["fasse", "fait", "ferait"]
+    answers: ["fasse"]
+    explanation: "Pour peu que takes the subjunctive: qu'il fasse."
+  - id: "c1-concession-and-hypothesis-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez la forme : À supposer que le projet ___ accepté, qui le financera ?"
+    options: ["soit", "est", "sera"]
+    answers: ["soit"]
+    explanation: "À supposer que takes the subjunctive: soit."
+  - id: "c1-concession-and-hypothesis-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez la forme : Il réussira, si tant est qu'il ___ des efforts."
+    options: ["fasse", "fait", "fera"]
+    answers: ["fasse"]
+    explanation: "Si tant est que takes the subjunctive, and it suggests doubt: he'll pass, assuming he makes an effort."
+  - id: "c1-concession-and-hypothesis-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Serait-il malade, il viendrait."
+    options: ["Even if he were ill, he would come.", "Is he ill? He would come.", "If he is ill, he will come."]
+    answers: ["Even if he were ill, he would come."]
+    explanation: "Inversion with the conditionnel, at the start, is a literary way to say même s'il était malade."
+  - id: "c1-concession-and-hypothesis-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre de la phrase : Fût-il malade, il viendrait."
+    options: ["soutenu", "familier"]
+    answers: ["soutenu"]
+    explanation: "Fût-il, with the imparfait du subjonctif, is literary: recognize it, and write même s'il était malade."
+  - id: "c1-concession-and-hypothesis-ex007"
+    type: "fill-in"
+    prompt: "Conjuguez au conditionnel présent (savoir) : Quand bien même il le ___, il ne dirait rien."
+    answers: ["saurait"]
+    explanation: "Quand bien même + conditionnel: il le saurait."
+  - id: "c1-concession-and-hypothesis-ex008"
+    type: "fill-in"
+    prompt: "Conjuguez au subjonctif (pouvoir) : À supposer qu'elle ___ venir, où dormira-t-elle ?"
+    answers: ["puisse"]
+    explanation: "À supposer que + subjunctive: qu'elle puisse."
+  - id: "c1-concession-and-hypothesis-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « quand bien même » : Même si tu insistais, je refuserais."
+    answers: ["Quand bien même tu insisterais, je refuserais", "Je refuserais quand bien même tu insisterais"]
+    explanation: "Même si + imparfait becomes quand bien même + conditionnel."
+  - id: "c1-concession-and-hypothesis-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « à supposer que » : Si le budget est accepté, que ferons-nous ?"
+    answers: ["À supposer que le budget soit accepté, que ferons-nous ?"]
+    strictAccents: true
+    explanation: "À supposer que + subjunctive: soit accepté."
+  - id: "c1-concession-and-hypothesis-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « encore que » : Le film est bon, mais il est un peu long."
+    answers: ["Le film est bon, encore qu'il soit un peu long", "Le film est bon, encore qu'un peu long"]
+    explanation: "Encore que + subjunctive adds a reservation after the main point; the verb can also be left out."
+  - id: "c1-concession-and-hypothesis-ex012"
+    type: "register-shift"
+    prompt: "Transformez en français courant, avec « même si » : Serait-il malade, il viendrait."
+    answers: ["Même s'il était malade, il viendrait", "Il viendrait même s'il était malade"]
+    explanation: "Même si + imparfait, then the conditionnel."
+  - id: "c1-concession-and-hypothesis-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Quand bien même il pleuvra, nous partirons."
+    answers: ["Quand bien même il pleuvrait, nous partirions", "Quand bien même il pleuvrait, nous partirons"]
+    explanation: "Quand bien même takes the conditionnel. The main clause is usually in the conditionnel too."
+  - id: "c1-concession-and-hypothesis-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : À supposer qu'il est d'accord, nous signerons."
+    answers: ["À supposer qu'il soit d'accord, nous signerons"]
+    strictAccents: true
+    explanation: "À supposer que takes the subjunctive: qu'il soit."
+  - id: "c1-concession-and-hypothesis-ex015"
+    type: "translate"
+    prompt: "Traduisez avec « pour peu que » (faire un effort, réussir) : If he makes the slightest effort, he'll pass."
+    answers: ["Pour peu qu'il fasse un effort, il réussira", "Il réussira pour peu qu'il fasse un effort"]
+    explanation: "Pour peu que + subjunctive: the smallest condition is enough."
+  - id: "c1-concession-and-hypothesis-ex016"
+    type: "translate"
+    prompt: "Traduisez avec « si tant est que » : We'll leave on Monday, assuming the weather is fine."
+    answers: ["Nous partirons lundi, si tant est qu'il fasse beau", "Si tant est qu'il fasse beau, nous partirons lundi"]
+    explanation: "Si tant est que + subjunctive, with a hint of doubt."
+  - id: "c1-concession-and-hypothesis-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Even if he were rich, he wouldn't buy it."
+    words: ["Quand", "bien", "même", "il", "serait", "riche", "il", "ne", "l'achèterait", "pas"]
+    answers: ["Quand bien même il serait riche, il ne l'achèterait pas", "Il ne l'achèterait pas quand bien même il serait riche"]
+    explanation: "Quand bien même + conditionnel, and the conditionnel in the main clause."
+---
+
+By the end of this lesson you'll be able to grant a point and imagine a case with the formal tools of argument, choose the right mood after each one, and recognize the literary inverted hypothesis.
+
+## What you already know
+
+You know *même si* and *quand même* from <LessonLink id="b2-concession-opposition" text="the lesson on concession and opposition" />, *bien que* + subjunctive from <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on conjunctions with the subjunctive" />, and *quoique* from <LessonLink id="b2-relative-prepositions" text="the lesson on relatives after prepositions" />. *Au cas où* + conditionnel comes from <LessonLink id="b2-mixed-conditionals" text="the lesson on mixed si-clauses" />, and *fût-il* from <LessonLink id="c1-imperfect-subjunctive" text="the lesson on the imperfect subjunctive" />. This lesson adds the formal conjunctions of argument, each with its own mood.
+
+## Quand bien même: even if, in theory
+
+<VocabTable group="concession" />
+
+*Quand bien même* means "even if", for a case you only imagine. Unlike *même si*, it takes the conditionnel, and the main clause is usually in the conditionnel too.
+
+<Example fr="Quand bien même il pleuvrait, nous partirions." en="Even if it rained, we would leave. (formal)" />
+<Example fr="Même s'il pleuvait, nous partirions." en="Even if it rained, we would leave." />
+
+Compare the moods: *quand bien même il pleuvrait* (conditionnel), *même s'il pleuvait* (imparfait). In the past, use the conditionnel passé: *quand bien même il aurait plu, nous serions partis*.
+
+*Quand bien même* sounds stronger than *même si*: the speaker grants the worst case and keeps the conclusion. It's typical of essays and debates.
+
+## Encore que: a reservation added afterwards
+
+*Encore que* + subjunctive adds a reservation after the main point: "although, mind you". It often comes at the end of a sentence, and the verb can be left out.
+
+<Example fr="Le film est bon, encore qu'il soit un peu long." en="The film is good, although it's a bit long. (formal)" />
+<Example fr="Le film est bon, encore qu'un peu long." en="The film is good, if a bit long. (formal)" />
+
+*Bien que* puts the concession first and the main point after it. *Encore que* does the opposite: the main point comes first, and the reservation follows as an afterthought.
+
+## Three ways to set a condition
+
+<VocabTable group="hypothesis" />
+
+Three conjunctions set a condition, and all three take the subjunctive. They differ in how the speaker sees the condition.
+
+- **Pour peu que**: the smallest condition is enough. *Pour peu qu'il fasse beau, la plage sera pleine* (if the weather is even a little fine, the beach will be full).
+- **À supposer que**: you assume something for the sake of argument. *À supposer que le projet soit accepté, qui le financera ?*
+- **Si tant est que**: you doubt the condition will be met. *Il réussira, si tant est qu'il fasse des efforts.*
+
+<Example fr="Pour peu qu'il fasse beau, la plage sera pleine." en="If the weather is at all fine, the beach will be full." />
+<Example fr="À supposer que le projet soit accepté, qui le financera ?" en="Assuming the project is accepted, who will fund it?" />
+<Example fr="Il réussira, si tant est qu'il fasse des efforts." en="He'll pass, assuming he makes an effort (which isn't certain)." />
+
+In each pair, the verb after the conjunction differs from the indicative: *qu'il fasse* (not *fait*), *soit* (not *est*). The main clause is in the futur or the present, as with *si* + present.
+
+Remember that *si* itself never takes the subjunctive or, when it means "if", the conditionnel: *si le projet est accepté*. Only these conjunctions with *que* take the subjunctive.
+
+## The inverted hypothesis: literary
+
+<VocabTable group="inverted" />
+
+In literary and very formal French, a hypothesis can be expressed with no conjunction at all, by inverting the verb and the subject pronoun at the start of the sentence. The meaning is "even if".
+
+- With the conditionnel: **Serait-il malade, il viendrait.** (Even if he were ill, he would come.)
+- With the imparfait du subjonctif, for recognition only: **Fût-il malade, il viendrait.**
+
+<Example fr="Serait-il ministre, il devrait respecter la loi." en="Even if he were a minister, he would have to respect the law. (literary)" />
+
+Both are literary. In your own writing, prefer *même si* or *quand bien même*. You'll meet the inverted forms in classic texts and in speeches.
+
+## Choosing the right tool
+
+All of these tools belong to careful writing and formal speech. In conversation, *même si* and *si* with the indicative cover most of the same ground, and *quand bien même* or *si tant est que* can sound bookish among friends. Keep them for essays, reports and debates, where they show exactly how far you grant a point.
+
+
+| You want to say | Formal tool | Mood |
+|---|---|---|
+| even if (imagined) | *quand bien même* | conditionnel |
+| although (afterthought) | *encore que* | subjunctive |
+| if only, as long as | *pour peu que* | subjunctive |
+| supposing that | *à supposer que* | subjunctive |
+| assuming (doubtfully) | *si tant est que* | subjunctive |
+| in case | *au cas où* | conditionnel |
+| even if (literary) | *serait-il…*, *fût-il…* | conditionnel, imparfait du subjonctif |
+
+## Words for a project
+
+<VocabTable group="words" />
+
+These tools are useful whenever you discuss a plan and its risks: how to *financer* (fund) it, whether *une subvention* (a grant) will come, and what happens if it doesn't.
+
+<Example fr="La ville pourrait financer le festival, à supposer que la région lui donne une subvention." en="The town could fund the festival, assuming the region gives it a grant." />
+
+## En français
+
+Malik and Clara run a small theatre association. They're planning a summer festival.
+
+- *Le festival aura lieu en juillet, à supposer que la mairie nous donne une subvention.* (The festival will take place in July, assuming the town hall gives us a grant.)
+- *Et si elle refuse ?* (And if it refuses?)
+- *Quand bien même elle refuserait, nous trouverions l'argent ailleurs.* (Even if it refused, we would find the money elsewhere.)
+- *Tu es optimiste ! Il faudrait d'autres entreprises pour financer le projet.* (You're optimistic! We'd need other companies to fund the project.)
+- *Pour peu qu'on contacte les bonnes entreprises, ce sera possible.* (As long as we contact the right companies, it'll be possible. (spoken))
+- *Si tant est qu'elles aient du budget cette année…* (Assuming they have any budget this year…)
+- *Certaines en ont, encore que ce soit plus difficile qu'avant.* (Some do, although it's harder than before.)
+- *Et le public ? Il viendra ?* (And the audience? Will they come?)
+- *Pour peu qu'il fasse beau, la place sera pleine.* (If the weather's at all fine, the square will be full.)
+- *Et au cas où il pleuvrait ?* (And in case it rains?)
+- *On jouerait à l'intérieur, à la mairie.* (We'd play indoors, at the town hall. (spoken))
+- *Tu penses vraiment à tout !* (You really do think of everything!)
+- *Il le faut. Même si c'est difficile, ce festival doit avoir lieu.* (I have to. Even if it's difficult, this festival must take place.)
+- *Alors, au travail !* (Then let's get to work!)
+
+<Callout type="warning" title="Quand bien même il pleuvrait, not il pleuve or il pleut">
+  Learners often give *quand bien même* the subjunctive, like *bien que*, or the indicative, like *même si*. It takes the conditionnel: **quand bien même il pleuvrait, nous partirions**.
+</Callout>
+
+<Callout type="tip" title="Pick the tool by how sure you are">
+  When you write an argument, ask how likely your condition is. Likely and minimal: *pour peu que*. Neutral, for the sake of argument: *à supposer que*. Doubtful: *si tant est que*. Imagined and conceded: *quand bien même*. One question gives you the conjunction and its mood.
+</Callout>
+
+## En résumé
+
+Pour faire une concession ou une hypothèse à l'écrit soutenu, on a plusieurs outils, chacun avec son mode. Quand bien même veut dire même si, pour un cas qu'on imagine, et il prend le conditionnel : quand bien même il pleuvrait, nous partirions. Encore que ajoute une réserve après l'idée principale, avec le subjonctif : le film est bon, encore qu'il soit un peu long. Pour peu que, à supposer que et si tant est que posent une condition et prennent le subjonctif. Pour peu que montre qu'une petite condition suffit, à supposer que fait une hypothèse pour la discussion, et si tant est que montre un doute. Au cas où prend le conditionnel. Enfin, la langue littéraire peut mettre le verbe avant le sujet, sans que ni si : serait-il malade, il viendrait. Fût-il malade a le même sens, avec l'imparfait du subjonctif.
+
+## What's next
+
+Next, <LessonLink id="c1-abstract-nouns" text="the lesson on abstract nouns" /> gives you the vocabulary of academic argument: *la portée*, *la pertinence*, *l'ampleur* and *la démarche*.
+
+===== content/lessons/c1/abstract-nouns.mdx =====
+---
+id: "c1-abstract-nouns"
+title: "Abstract nouns"
+description: "The abstract nouns of academic argument: judging an argument (la pertinence, la légitimité, la cohérence, le bien-fondé), measuring scale (la portée, l'ampleur, l'essor) and describing a method (la démarche, le cadre, la prise en compte, prendre du recul)."
+level: "C1"
+unit: "Academic writing"
+order: 22
+type: "vocabulary"
+tags: ["vocabulary", "academic writing", "nominalisation", "argument"]
+prerequisites: ["b2-nominalisation", "b2-formal-report"]
+related: ["b2-review-science", "c1-collocations", "c1-advanced-connectors"]
+vocab:
+  - { id: "c1-abstract-nouns-v001", group: "judge", fr: "la pertinence / pertinent", pron: "lah pehr-tee-NAHNSS / pehr-tee-NAHN", en: "relevance / relevant" }
+  - { id: "c1-abstract-nouns-v002", group: "judge", fr: "la légitimité / légitime", pron: "lah lay-zhee-tee-mee-TAY / lay-zhee-TEEM", en: "legitimacy / legitimate" }
+  - { id: "c1-abstract-nouns-v003", group: "judge", fr: "la cohérence / cohérent", pron: "lah koh-ay-RAHNSS / koh-ay-RAHN", en: "consistency, coherence / consistent" }
+  - { id: "c1-abstract-nouns-v004", group: "judge", fr: "la rigueur / rigoureux", pron: "lah ree-GUHR / ree-goo-RUH", en: "rigour / rigorous", note: "Rigoureuse in the feminine." }
+  - { id: "c1-abstract-nouns-v005", group: "judge", fr: "le bien-fondé", pron: "luh byan-fohn-DAY", en: "the merits, the validity (of a claim or decision)" }
+  - { id: "c1-abstract-nouns-v006", group: "judge", fr: "l'efficacité (f.) / efficace", pron: "leh-fee-kah-see-TAY / eh-fee-KASS", en: "effectiveness / effective" }
+  - { id: "c1-abstract-nouns-v007", group: "scale", fr: "la portée", pron: "lah por-TAY", en: "the scope, the reach, the impact" }
+  - { id: "c1-abstract-nouns-v008", group: "scale", fr: "l'ampleur (f.)", pron: "lahn-PLUHR", en: "the scale, the extent" }
+  - { id: "c1-abstract-nouns-v009", group: "scale", fr: "l'essor (m.)", pron: "leh-SOR", en: "the rise, the boom" }
+  - { id: "c1-abstract-nouns-v010", group: "scale", fr: "l'apport (m.)", pron: "lah-POR", en: "the contribution" }
+  - { id: "c1-abstract-nouns-v011", group: "scale", fr: "le changement", pron: "luh shahnzh-MAHN", en: "the change" }
+  - { id: "c1-abstract-nouns-v012", group: "method", fr: "la démarche", pron: "lah day-MARSH", en: "the approach, the method, the process" }
+  - { id: "c1-abstract-nouns-v013", group: "method", fr: "le cadre", pron: "luh KAH-druh", en: "the framework, the setting" }
+  - { id: "c1-abstract-nouns-v014", group: "method", fr: "la prise en compte", pron: "lah pree-zahn KOHNT", en: "taking into account", note: "From prendre en compte." }
+  - { id: "c1-abstract-nouns-v015", group: "method", fr: "la remise en question", pron: "lah ruh-mee-zahn kes-TYOHN", en: "questioning, challenging", note: "From remettre en question." }
+  - { id: "c1-abstract-nouns-v016", group: "method", fr: "la mise en évidence", pron: "lah mee-zahn ay-vee-DAHNSS", en: "highlighting, bringing to light", note: "From mettre en évidence." }
+  - { id: "c1-abstract-nouns-v017", group: "method", fr: "la faisabilité", pron: "lah fuh-zah-bee-lee-TAY", en: "feasibility" }
+  - { id: "c1-abstract-nouns-v018", group: "method", fr: "prendre du recul", pron: "prahn-druh dew ruh-KEWL", en: "to step back, to see things from a distance" }
+  - { id: "c1-abstract-nouns-v019", group: "method", fr: "abstrait / abstraite", pron: "ab-STREH / ab-STRET", en: "abstract" }
+  - { id: "c1-abstract-nouns-v020", group: "method", fr: "un exposé", pron: "uh-nek-spoh-ZAY", en: "a presentation, a talk (at school or university)" }
+exercises:
+  - id: "c1-abstract-nouns-ex001"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Les chercheurs doutent de la ___ de ces données."
+    options: ["fiabilité", "démarche", "portée"]
+    answers: ["fiabilité"]
+    explanation: "You doubt whether data can be trusted: la fiabilité."
+  - id: "c1-abstract-nouns-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Personne n'avait prévu l'___ de la crise."
+    options: ["ampleur", "apport", "essor"]
+    answers: ["ampleur"]
+    explanation: "L'ampleur: the scale of the crisis. Apport is a contribution and essor a rise."
+  - id: "c1-abstract-nouns-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Quel est l'___ de ce débat ?"
+    options: ["enjeu", "ampleur", "démarche"]
+    answers: ["enjeu"]
+    explanation: "Quel est needs a masculine noun: l'enjeu (what is at stake). Ampleur and démarche are feminine."
+  - id: "c1-abstract-nouns-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « la portée » dans la phrase : Personne ne mesure encore la portée de cette décision."
+    options: ["its impact and reach", "its legal basis", "its author"]
+    answers: ["its impact and reach"]
+    explanation: "La portée d'une décision: how far its effects go."
+  - id: "c1-abstract-nouns-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « prendre du recul »."
+    options: ["to step back and see things from a distance", "to go backwards", "to fall behind"]
+    answers: ["to step back and see things from a distance"]
+    explanation: "Prendre du recul: to look at a situation with distance. To fall behind is prendre du retard."
+  - id: "c1-abstract-nouns-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec le nom de « pertinent » : Je doute de la ___ de cet argument."
+    answers: ["pertinence"]
+    explanation: "Pertinent → la pertinence."
+  - id: "c1-abstract-nouns-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec le nom de « légitime » : Tout le monde reconnaît la ___ de cette demande."
+    answers: ["légitimité"]
+    explanation: "Légitime → la légitimité."
+  - id: "c1-abstract-nouns-ex008"
+    type: "reformulation"
+    prompt: "Reformulez en commençant par « La prise en compte » : Il est nécessaire de prendre en compte les besoins des habitants."
+    answers: ["La prise en compte des besoins des habitants est nécessaire"]
+    explanation: "Prendre en compte → la prise en compte de: the verb becomes a noun followed by de."
+  - id: "c1-abstract-nouns-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « l'ampleur » : Nous n'avions pas compris que le problème était si grand."
+    answers: ["Nous n'avions pas compris l'ampleur du problème"]
+    explanation: "Que le problème était si grand → l'ampleur du problème."
+  - id: "c1-abstract-nouns-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « la cohérence », en commençant par « Je doute de » : Je ne suis pas sûr que ce plan soit cohérent."
+    answers: ["Je doute de la cohérence de ce plan"]
+    explanation: "Cohérent → la cohérence de ce plan."
+  - id: "c1-abstract-nouns-ex011"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, en commençant par « Le constat est clair » : On voit bien que les prix augmentent."
+    answers: ["Le constat est clair : les prix augmentent", "Le constat est clair : les prix sont en hausse"]
+    explanation: "Le constat (the finding) opens the sentence, then the fact."
+  - id: "c1-abstract-nouns-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de genre : Le démarche de l'auteur est originale."
+    answers: ["La démarche de l'auteur est originale"]
+    explanation: "Démarche is feminine: la démarche."
+  - id: "c1-abstract-nouns-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Quelle est la enjeu de ce vote ?"
+    answers: ["Quel est l'enjeu de ce vote ?"]
+    explanation: "Enjeu is masculine and starts with a vowel: quel est l'enjeu."
+  - id: "c1-abstract-nouns-ex014"
+    type: "translate"
+    prompt: "Traduisez avec « l'essor » : the rise of online reading"
+    answers: ["l'essor de la lecture en ligne"]
+    explanation: "L'essor de + noun: the rise, the boom."
+  - id: "c1-abstract-nouns-ex015"
+    type: "translate"
+    prompt: "Traduisez avec « la démarche » : The approach is interesting."
+    answers: ["La démarche est intéressante"]
+    explanation: "Démarche is feminine, so intéressante."
+  - id: "c1-abstract-nouns-ex016"
+    type: "translate"
+    prompt: "Traduisez avec « le bien-fondé » : Nobody doubts the merits of this decision."
+    answers: ["Personne ne doute du bien-fondé de cette décision", "Nul ne doute du bien-fondé de cette décision"]
+    explanation: "Douter de + le bien-fondé: du bien-fondé."
+  - id: "c1-abstract-nouns-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : We must measure the scale of the problem."
+    words: ["Il", "faut", "mesurer", "l'ampleur", "du", "problème"]
+    answers: ["Il faut mesurer l'ampleur du problème"]
+    explanation: "Mesurer l'ampleur de: a frequent pairing in reports."
+---
+
+By the end of this lesson you'll be able to use the abstract nouns of academic argument to judge a claim, measure the scale of a problem and describe a method, without making your writing heavy.
+
+## What you already know
+
+In <LessonLink id="b2-nominalisation" text="the lesson on nominalisation" />, you turned verbs and adjectives into nouns (*l'augmentation*, *la fiabilité*, *la mise en place*) and learned *le style nominal*. You know *le constat* from <LessonLink id="b2-formal-report" text="the lesson on the formal report" /> and *un enjeu* from <LessonLink id="b2-review-science" text="the review of science and research" />. This lesson adds the nouns that academic texts use to discuss ideas rather than facts.
+
+## Why abstract nouns
+
+Academic French often talks about ideas as things: not "this argument is relevant" but "the relevance of this argument". A noun can become the subject of a sentence, take adjectives and be discussed: *la pertinence de cet argument est discutable*. This is why essays, reports and syntheses use so many of them, and why a C1 reader expects them in any text that weighs ideas against each other.
+
+The nouns below come in families. Learn each with its adjective or verb, so that you can move between the two styles.
+
+## Judging an argument
+
+<VocabTable group="judge" />
+
+These nouns help you evaluate a claim, a decision or a study. *La pertinence* is whether it's relevant; *la légitimité*, whether it's justified or acceptable; *la cohérence*, whether its parts fit together; *la rigueur*, whether it's careful and exact. *Le bien-fondé* is the validity of a claim or decision, and it usually follows *douter de* or *reconnaître*. *L'efficacité* is whether something works.
+
+<Example fr="Je doute de la pertinence de cet argument." en="I doubt whether this argument is relevant." />
+<Example fr="Personne ne remet plus en question la légitimité de cette demande." en="Nobody questions the legitimacy of this request any more." />
+<Example fr="L'étude manque de rigueur : l'échantillon est trop petit." en="The study lacks rigour: the sample is too small." />
+<Example fr="Nul ne doute du bien-fondé de cette décision." en="Nobody doubts the merits of this decision. (formal)" />
+
+## Scale and impact
+
+<VocabTable group="scale" />
+
+*La portée* is how far something reaches: the impact of a decision or the scope of a study. *L'ampleur* is the size of a problem or a phenomenon. *L'essor* is a rise, a boom. *L'apport* is what something contributes.
+
+<Example fr="Personne ne mesure encore la portée de cette décision." en="Nobody yet grasps the impact of this decision." />
+<Example fr="Il faut mesurer l'ampleur du problème." en="We must measure the scale of the problem." />
+<Example fr="L'essor de la lecture en ligne a changé le marché du livre." en="The rise of online reading has changed the book market." />
+<Example fr="L'apport de cette étude est important." en="This study's contribution is significant." />
+
+## Method
+
+<VocabTable group="method" />
+
+These nouns describe how a study or an essay proceeds. *La démarche* is the approach. *Le cadre* is the framework or context. *La prise en compte*, *la remise en question* and *la mise en évidence* are nouns built on the verbs *prendre en compte*, *remettre en question* and *mettre en évidence*. *La faisabilité* is whether a plan can be carried out. *Prendre du recul* means to step back and see a question from a distance.
+
+<Example fr="La démarche de l'auteur est originale." en="The author's approach is original." />
+<Example fr="Dans le cadre de ce projet, nous avons interrogé dix salariés." en="As part of this project, we interviewed ten employees." />
+<Example fr="La prise en compte des besoins des habitants est nécessaire." en="Taking residents' needs into account is necessary." />
+<Example fr="Avant de donner votre avis, il faut prendre du recul." en="Before giving your opinion, you need to step back." />
+
+## From verbs to nouns, and back
+
+Nominal style lets you pack an idea into a noun phrase. Compare:
+
+<Example fr="Nous n'avions pas compris que le problème était si grand." en="We hadn't understood that the problem was so big." />
+<Example fr="Nous n'avions pas compris l'ampleur du problème." en="We hadn't understood the scale of the problem." />
+
+The second sentence is shorter and more formal. But a text made only of nouns is hard to read. As a rule of thumb, use one abstract noun per sentence, keep a real verb in every sentence, and turn a noun back into a verb when a sentence has more than two *de*.
+
+<Example fr="La prise en compte de la remise en question de la démarche est nécessaire." en="Taking into account the questioning of the approach is necessary. (too heavy)" />
+<Example fr="Il faut tenir compte des critiques de notre démarche." en="We need to take account of the criticism of our approach." />
+
+## The whole list
+
+| Noun | Related word | Use |
+|---|---|---|
+| *la pertinence* | *pertinent* | relevance |
+| *la légitimité* | *légitime* | legitimacy |
+| *la cohérence* | *cohérent* | consistency |
+| *la rigueur* | *rigoureux* | rigour |
+| *le bien-fondé* | | validity, merits |
+| *l'efficacité* | *efficace* | effectiveness |
+| *la portée*, *l'ampleur* | | impact, scale |
+| *l'essor*, *l'apport* | | rise, contribution |
+| *la démarche*, *le cadre* | | approach, framework |
+| *la prise en compte* | *prendre en compte* | taking into account |
+| *la remise en question* | *remettre en question* | questioning |
+| *la mise en évidence* | *mettre en évidence* | highlighting |
+| *la faisabilité* | | feasibility |
+
+## En français
+
+Léo and Emma, two students, are preparing a presentation on the four-day week.
+
+- *Pour l'exposé sur la semaine de quatre jours, par quoi on commence ?* (For the presentation on the four-day week, where do we start? (spoken))
+- *Par le constat : beaucoup d'entreprises s'y intéressent.* (With the findings: a lot of companies are interested in it.)
+- *D'accord. Ensuite, on parle de l'ampleur du changement ?* (OK. Then we talk about the scale of the change? (spoken))
+- *Oui, et des enjeux : la santé des salariés, le temps libre…* (Yes, and what's at stake: employees' health, free time…)
+- *Il faut aussi présenter notre démarche.* (We also need to present our approach.)
+- *On a lu trois études et on a interrogé dix salariés.* (We read three studies and interviewed ten employees. (spoken))
+- *Avec dix personnes, la portée de nos résultats est limitée.* (With ten people, the scope of our results is limited.)
+- *C'est vrai. Il faut le dire, pour être honnêtes.* (True. We have to say so, to be honest.)
+- *Et la légitimité de la mesure ? Certains ne sont pas d'accord.* (And the legitimacy of the measure? Some people disagree.)
+- *On peut parler de la pertinence de leurs arguments.* (We can talk about how relevant their arguments are. (spoken))
+- *Attention, pas trop de noms abstraits : le texte devient lourd.* (Careful, not too many abstract nouns: the text gets heavy.)
+- *Tu as raison. Prenons un peu de recul : notre message principal, c'est quoi ?* (You're right. Let's step back: what's our main message? (spoken))
+- *Que la semaine de quatre jours est possible, mais pas partout.* (That the four-day week is possible, but not everywhere.)
+- *Parfait. Commençons par ça.* (Perfect. Let's start with that.)
+
+<Callout type="warning" title="La démarche, l'enjeu: check the gender">
+  Learners often guess the gender of abstract nouns from English. Learn it with the article: **la démarche**, **la portée**, **l'ampleur** (feminine), but **l'enjeu**, **l'essor**, **l'apport**, **le cadre** (masculine). A wrong gender shows at once in *quel est l'enjeu* or *la démarche est originale*.
+</Callout>
+
+<Callout type="tip" title="Keep a verb in every sentence">
+  When you revise an academic text, underline the conjugated verb of each sentence. If it's only *être* or *avoir* and the sentence holds three abstract nouns, turn one noun back into a verb. Your text stays formal, but the reader can follow it.
+</Callout>
+
+## En résumé
+
+Le texte académique parle souvent des idées comme de choses, avec des noms abstraits. Quand on donne son avis sur un argument, on parle de sa pertinence, de sa légitimité, de sa cohérence, de sa rigueur, de son bien-fondé ou de son efficacité. Pour mesurer un problème, on parle de sa portée, de son ampleur, de son essor ou de l'apport d'une étude. Pour présenter une méthode, on parle de la démarche, du cadre, de la prise en compte, de la remise en question, de la mise en évidence ou de la faisabilité d'un projet. Prendre du recul veut dire regarder une question de loin. Il faut apprendre chaque nom avec son article et son adjectif ou son verbe. Attention : trop de noms rendent le texte lourd, et il faut garder un vrai verbe dans chaque phrase.
+
+## What's next
+
+Next, <LessonLink id="c1-synthesis" text="the lesson on the synthèse de documents" /> puts these nouns to work: you'll combine several documents into one neutral text.
+
+===== content/lessons/c1/synthesis.mdx =====
+---
+id: "c1-synthesis"
+title: "The synthèse de documents"
+description: "Combine two or three documents into one neutral text: compare them by idea, build a plan, reformulate without quoting and without giving your opinion, with a model synthesis of two original documents."
+level: "C1"
+unit: "Academic writing"
+order: 23
+type: "communication"
+tags: ["communication", "academic writing", "synthesis", "neutral writing"]
+prerequisites: ["c1-advanced-connectors", "b2-summarizing-an-article"]
+related: ["b2-formal-report", "c1-abstract-nouns", "c1-dissertation"]
+vocab:
+  - { id: "c1-synthesis-v001", group: "method", fr: "une synthèse de documents", pron: "ewn san-tez duh doh-kew-MAHN", en: "a synthesis of documents (a classic French written exercise)" }
+  - { id: "c1-synthesis-v002", group: "method", fr: "confronter", pron: "kohn-frohn-TAY", en: "to compare, to set side by side (documents, points of view)" }
+  - { id: "c1-synthesis-v003", group: "method", fr: "un point commun", pron: "uhn pwan koh-MUHN", en: "a point in common" }
+  - { id: "c1-synthesis-v004", group: "method", fr: "une divergence", pron: "ewn dee-vehr-ZHAHNSS", en: "a difference of view" }
+  - { id: "c1-synthesis-v005", group: "method", fr: "s'accorder sur", pron: "sah-kor-DAY sewr", en: "to agree on" }
+  - { id: "c1-synthesis-v006", group: "method", fr: "diverger", pron: "dee-vehr-ZHAY", en: "to differ, to diverge", note: "Nous divergeons." }
+  - { id: "c1-synthesis-v007", group: "method", fr: "se compléter", pron: "suh kohn-play-TAY", en: "to complement each other", note: "Ils se complètent." }
+  - { id: "c1-synthesis-v008", group: "method", fr: "de même", pron: "duh MEM", en: "likewise, in the same way" }
+  - { id: "c1-synthesis-v009", group: "method", fr: "l'un… l'autre", pron: "luhn… LOH-truh", en: "the one… the other", note: "L'un des documents… l'autre…" }
+  - { id: "c1-synthesis-v010", group: "method", fr: "le titre", pron: "luh TEE-truh", en: "the title" }
+  - { id: "c1-synthesis-v011", group: "topic", fr: "le bibliothécaire / la bibliothécaire", pron: "luh bee-blee-oh-tay-KEHR", en: "the librarian" }
+  - { id: "c1-synthesis-v012", group: "topic", fr: "l'usager / l'usagère", pron: "lew-zah-ZHAY / lew-zah-ZHEHR", en: "the user (of a public service)" }
+  - { id: "c1-synthesis-v013", group: "topic", fr: "le syndicat", pron: "luh san-dee-KAH", en: "the (trade) union" }
+  - { id: "c1-synthesis-v014", group: "topic", fr: "l'inquiétude (f.)", pron: "lan-kyay-TEWD", en: "concern, worry" }
+  - { id: "c1-synthesis-v015", group: "topic", fr: "volontaire", pron: "voh-lohn-TEHR", en: "voluntary; a volunteer" }
+  - { id: "c1-synthesis-v016", group: "topic", fr: "la demande", pron: "lah duh-MAHND", en: "the demand, the request" }
+  - { id: "c1-synthesis-v017", group: "glossary", fr: "au détriment de", pron: "oh day-tree-MAHN duh", en: "at the expense of" }
+exercises:
+  - id: "c1-synthesis-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui convient à une synthèse."
+    options: ["Le premier document présente l'ouverture le dimanche comme un succès.", "Heureusement, la bibliothèque ouvre enfin le dimanche.", "Je pense que les bibliothécaires ont raison."]
+    answers: ["Le premier document présente l'ouverture le dimanche comme un succès."]
+    explanation: "A synthesis reports what the documents say. Heureusement and je pense give the writer's opinion."
+  - id: "c1-synthesis-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez ce qu'une synthèse ne contient pas."
+    options: ["l'avis de la personne qui écrit", "les idées des documents", "un plan"]
+    answers: ["l'avis de la personne qui écrit"]
+    explanation: "A synthesis is neutral: no personal opinion, no outside information."
+  - id: "c1-synthesis-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le plan qui convient le mieux à une synthèse."
+    options: ["des parties organisées par idées, qui confrontent les documents", "un résumé du premier document, puis un résumé du second", "l'avis personnel, puis les documents"]
+    answers: ["des parties organisées par idées, qui confrontent les documents"]
+    explanation: "A synthesis is organized by ideas, and each part compares what the documents say."
+  - id: "c1-synthesis-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe : Les deux documents ___ sur un point : la demande du public est forte."
+    options: ["s'accordent", "divergent", "confrontent"]
+    answers: ["s'accordent"]
+    explanation: "S'accorder sur: to agree on. Diverger means the opposite."
+  - id: "c1-synthesis-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Le premier document insiste sur les avantages, ___ le second souligne les difficultés."
+    options: ["tandis que", "dès lors que", "pour peu que"]
+    answers: ["tandis que"]
+    explanation: "Tandis que contrasts two things at the same level: one document… the other."
+  - id: "c1-synthesis-ex006"
+    type: "fill-in"
+    prompt: "Conjuguez « diverger » au présent : Les deux documents ___ sur la question du personnel."
+    answers: ["divergent"]
+    explanation: "Ils divergent: the two documents differ on this point."
+  - id: "c1-synthesis-ex007"
+    type: "reformulation"
+    prompt: "Reformulez sans citation, avec « selon » : La maire dit : « C'est un grand succès. »"
+    answers: ["Selon la maire, c'est un grand succès"]
+    explanation: "A synthesis reformulates instead of quoting, and it says whose view it is: selon la maire."
+  - id: "c1-synthesis-ex008"
+    type: "reformulation"
+    prompt: "Reformulez de façon neutre, avec « le second document souligne l'inquiétude » : Le syndicat a bien raison de s'inquiéter pour le personnel."
+    answers: ["Le second document souligne l'inquiétude du syndicat pour le personnel"]
+    explanation: "Remove the judgement (a bien raison) and report the view."
+  - id: "c1-synthesis-ex009"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase avec « tandis que » : Le premier document parle des usagers. Le second parle du personnel."
+    answers: ["Le premier document parle des usagers, tandis que le second parle du personnel", "Tandis que le premier document parle des usagers, le second parle du personnel"]
+    strictAccents: true
+    explanation: "Tandis que joins two contrasting points in one sentence."
+  - id: "c1-synthesis-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (une synthèse ne donne pas d'avis) : Selon moi, les deux documents se complètent."
+    answers: ["Les deux documents se complètent"]
+    explanation: "Remove selon moi: the synthesis doesn't speak for its writer."
+  - id: "c1-synthesis-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Les deux documents s'accordent de ce point."
+    answers: ["Les deux documents s'accordent sur ce point"]
+    explanation: "S'accorder sur un point."
+  - id: "c1-synthesis-ex012"
+    type: "translate"
+    prompt: "Traduisez avec « confronter » : This synthesis compares two documents."
+    answers: ["Cette synthèse confronte deux documents"]
+    explanation: "Confronter des documents: to set them side by side."
+  - id: "c1-synthesis-ex013"
+    type: "translate"
+    prompt: "Traduisez avec « un point commun » : The two documents have one point in common."
+    answers: ["Les deux documents ont un point commun"]
+    explanation: "Avoir un point commun."
+  - id: "c1-synthesis-ex014"
+    type: "translate"
+    prompt: "Traduisez avec « porter sur » et « l'ouverture » : Both documents are about libraries opening on Sundays."
+    answers: ["Les deux documents portent sur l'ouverture des bibliothèques le dimanche"]
+    explanation: "A typical first sentence: the common subject of the documents."
+  - id: "c1-synthesis-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The two documents agree on one point."
+    words: ["Les", "deux", "documents", "s'accordent", "sur", "un", "point"]
+    answers: ["Les deux documents s'accordent sur un point"]
+    explanation: "S'accorder sur + the point."
+  - id: "c1-synthesis-ex016"
+    type: "multiple-choice"
+    prompt: "Indiquez la bonne façon de citer une idée dans une synthèse."
+    options: ["Le premier document affirme que la demande est forte.", "« La demande est forte », dit le premier document.", "Comme on le sait, la demande est forte."]
+    answers: ["Le premier document affirme que la demande est forte."]
+    explanation: "Reformulate and name the source; don't quote, and don't present a document's view as general knowledge."
+---
+
+By the end of this lesson you'll be able to read two or three documents on the same subject and combine them into one structured, neutral text.
+
+## What you already know
+
+In <LessonLink id="b2-summarizing-an-article" text="the lesson on summarising an article" />, you learned to stay *neutre* and *objectif*, to *reformuler* rather than copy, and to start with what an article *porte sur*. You know the connectors of comparison *en revanche* and *tandis que* from <LessonLink id="b2-concession-opposition" text="the lesson on concession and opposition" />, and the hedges of <LessonLink id="c1-advanced-connectors" text="the lesson on advanced connectors" />. A synthesis uses all of them, with one new difficulty: several documents at once.
+
+## What a synthèse is
+
+<VocabTable group="method" />
+
+*Une synthèse de documents* is a classic French written exercise in schools, universities and the workplace. You read two or three documents on one subject and write a single text that presents their ideas together. Four rules define it.
+
+- **It's neutral.** You don't give your opinion, and you don't judge the documents.
+- **It contains nothing else.** No outside facts and no examples of your own: only what the documents say.
+- **It doesn't quote.** You reformulate, and you say which document an idea comes from.
+- **It's organized by ideas, not by document.** Each part *confronte* the documents on one question: where they *s'accordent*, where they *divergent*, how they *se complètent*.
+
+The last rule is the hardest. A text that summarizes the first document, then the second, is two summaries, not a synthesis.
+
+## Step 1: compare before you write
+
+Read each document once for its main idea, then a second time with a pencil. Make a small grid: one line per question the documents raise, one column per document. In each box, note what the document says, in a few words of your own. Some boxes stay empty: that's information too.
+
+The grid shows you *les points communs* and *les divergences*. Those become your plan.
+
+## Step 2: build the plan
+
+As a rule of thumb, a synthesis has an introduction, two or three parts and a short conclusion.
+
+- **The introduction** presents the common subject and the documents in one or two sentences: *les deux documents portent sur…*. It can announce the plan.
+- **Each part** answers one question from your grid, with the views of all the documents on it.
+- **The conclusion** sums up the main point of agreement or disagreement. It doesn't add an opinion.
+
+## Step 3: write neutrally
+
+To say who thinks what, use the reporting verbs you know (*affirmer*, *souligner*, *estimer*) with a neutral subject: *le premier document*, *l'autre article*, *selon la maire*. To compare, use *de même*, *en revanche*, *tandis que*, *l'un… l'autre*. To show how sure a source is, keep its hedges: if a document says *selon toute vraisemblance*, don't turn it into a fact.
+
+<Example fr="L'un des documents insiste sur les avantages, tandis que l'autre souligne les difficultés." en="One of the documents stresses the advantages, while the other highlights the difficulties." />
+<Example fr="De même, les deux auteurs évoquent la demande du public." en="Likewise, both writers mention public demand." />
+
+Avoid every word that judges: *heureusement*, *malheureusement*, *à juste titre*, *il est évident que*. And avoid "I": a synthesis never says *je pense*.
+
+## Useful formulas
+
+A synthesis has its own set phrases. They're neutral, and they keep the reader oriented.
+
+- **To open**: *les deux documents portent sur…*, *ces textes traitent de…*.
+- **To present agreement**: *les documents s'accordent sur…*, *les deux auteurs soulignent…*, *de même…*.
+- **To present a difference**: *en revanche…*, *tandis que…*, *les documents divergent sur…*.
+- **To show that they complement each other**: *l'un… l'autre…*, *les documents se complètent*.
+- **To conclude**: *au total…*, *en somme…*.
+
+<Example fr="Ces textes traitent du même sujet, mais ils divergent sur les solutions." en="These texts deal with the same subject, but they differ on the solutions." />
+<Example fr="En somme, les documents se complètent plus qu'ils ne s'opposent." en="In short, the documents complement each other more than they contradict each other." />
+
+Two more habits help. First, give each document a short, neutral name the first time you mention it (*l'article*, *la tribune*), and keep it. Second, never write that a document "is right" or "is wrong": write what it says, and let the reader judge. If your teacher asks for a title, choose a neutral one that names the subject, not your conclusion.
+
+## Two documents
+
+<VocabTable group="topic" />
+
+These two short documents are original texts written for this lesson. The town and the people in them are invented.
+
+*Document 1 : un article de presse locale*
+
+*Depuis le mois de septembre, la bibliothèque de Saint-Aubin ouvre le dimanche après-midi. Selon la maire, c'est un grand succès : les familles viennent nombreuses, et beaucoup d'usagers qui travaillent pendant la semaine découvrent enfin les lieux. La ville a recruté deux étudiants pour aider l'équipe, et les horaires du dimanche vont de quatorze à dix-huit heures. Les bibliothécaires reconnaissent que l'ambiance est agréable, mais certains trouvent les journées longues.*
+
+*Document 2 : la tribune d'un syndicat*
+
+*L'ouverture des bibliothèques le dimanche répond à une vraie demande, nous le reconnaissons. Mais elle ne doit pas se faire au détriment du personnel. Le travail du dimanche doit rester volontaire et être mieux payé. Sans moyens supplémentaires, les équipes s'épuisent, et la qualité du service finit par baisser. Notre syndicat demande donc que chaque ouverture soit précédée d'une discussion avec le personnel.*
+
+<VocabTable group="glossary" />
+
+(Document 1, a local newspaper article: Since September, the Saint-Aubin library has been open on Sunday afternoons. According to the mayor, it's a great success: families come in large numbers, and many users who work during the week are at last discovering the place. The town has taken on two students to help the team, and the Sunday opening hours are from two to six. The librarians agree that the atmosphere is pleasant, but some find the days long. Document 2, an opinion piece by a union: Opening libraries on Sundays meets a real demand; we recognize that. But it mustn't be done at the expense of the staff. Sunday work must remain voluntary and be better paid. Without extra resources, teams wear themselves out, and the quality of the service ends up falling. Our union therefore asks that every opening be preceded by a discussion with the staff.)
+
+## A model synthesis
+
+*Les deux documents portent sur l'ouverture des bibliothèques le dimanche. L'un est un article de presse locale, l'autre la tribune d'un syndicat.*
+
+*Les deux textes s'accordent d'abord sur un point : cette ouverture répond à une demande du public. Le premier document la présente comme un succès, en particulier pour les familles et des usagers qui travaillent en semaine.*
+
+*En revanche, ils divergent sur les conditions de travail. L'article évoque seulement la fatigue de certains bibliothécaires, tandis que la tribune demande que le travail du dimanche reste volontaire et soit mieux payé.*
+
+*Au total, les documents se complètent : l'un montre l'intérêt du public, l'autre les conditions qui permettraient de maintenir ce service.*
+
+(Both documents are about opening libraries on Sundays. One is a local newspaper article, the other a union opinion piece. The two texts first agree on one point: this opening meets public demand. The first document presents it as a success, especially with families and with users who work during the week. On the other hand, they differ on working conditions. The article only mentions the tiredness of some librarians, while the opinion piece asks that Sunday work remain voluntary and be better paid. All in all, the documents complement each other: one shows public interest, the other the conditions that would make it possible to keep this service going.)
+
+## How the model works
+
+- **The introduction** names the subject and the two documents, with no opinion.
+- **The plan follows ideas**: first the point of agreement (the demand), then the divergence (working conditions). Each paragraph speaks of both documents.
+- **There's no quotation.** *C'est un grand succès* becomes *la présente comme un succès*.
+- **Every view has its source**: *le premier document*, *l'article*, *la tribune*.
+- **The connectors carry the comparison**: *d'abord*, *en revanche*, *tandis que*, *l'un… l'autre*.
+- **The conclusion** shows how the documents fit together, without taking sides.
+
+Here the synthesis is nearly as long as the two documents, because they're very short. With documents of a page or more, as a rule of thumb, aim for a quarter to a third of their total length.
+
+## En français
+
+Camille is writing her first synthesis. She asks her friend Hugo, who studies law, for advice.
+
+- *J'ai lu les deux documents. Je commence par résumer le premier ?* (I've read the two documents. Shall I start by summarizing the first one?)
+- *Non, sinon tu fais deux résumés. Il faut organiser par idées.* (No, otherwise you'll write two summaries. You need to organize it by ideas.)
+- *Comment je trouve les idées ?* (How do I find the ideas?)
+- *Fais un tableau : les questions d'un côté, les documents de l'autre.* (Make a grid: the questions on one side, the documents on the other.)
+- *D'accord. Les deux parlent de la demande du public.* (OK. Both talk about public demand.)
+- *Voilà un point commun. Et la différence ?* (That's a point in common. And the difference?)
+- *Le syndicat parle surtout du personnel.* (The union talks mainly about the staff.)
+- *Alors ça, c'est ta deuxième partie.* (Then that's your second part.)
+- *Je peux dire que je suis d'accord avec le syndicat ?* (Can I say that I agree with the union?)
+- *Surtout pas ! Une synthèse reste neutre.* (Definitely not! A synthesis stays neutral.)
+- *Et je peux citer la maire ?* (And can I quote the mayor?)
+- *Non, tu reformules : « selon la maire, c'est un succès ».* (No, you reformulate: "according to the mayor, it's a success".)
+
+<Callout type="warning" title="Organize by ideas, not by document">
+  The most common mistake is to summarize document 1, then document 2. Each part of a synthesis compares the documents on one question: **les deux documents s'accordent sur…**, **en revanche, ils divergent sur…**.
+</Callout>
+
+<Callout type="tip" title="Write the grid before the text">
+  Spend the first part of your time on the grid of questions and documents, not on writing. When every box is filled, the plan is already there, and the writing goes much faster.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-dissertation" text="the lesson on the French dissertation" /> moves from neutral synthesis to argued writing: a problématique, a plan and transitions.
+
+===== content/lessons/c1/dissertation.mdx =====
+---
+id: "c1-dissertation"
+title: "The French dissertation"
+description: "Write the C1 essay: an open problématique (dans quelle mesure, en quoi), the dialectical, analytical and thematic plans, transitions with il n'en reste pas moins que, concession and hypothesis in argument, and an ouverture, with an original model essay."
+level: "C1"
+unit: "Academic writing"
+order: 24
+type: "communication"
+tags: ["communication", "academic writing", "essay", "argument"]
+prerequisites: ["c1-synthesis", "b2-argumentative-essay", "c1-concession-and-hypothesis"]
+related: ["b2-review-science", "c1-advanced-connectors", "c1-abstract-nouns"]
+vocab:
+  - { id: "c1-dissertation-v001", group: "question", fr: "dans quelle mesure", pron: "dahn kel muh-ZEWR", en: "to what extent" }
+  - { id: "c1-dissertation-v002", group: "question", fr: "en quoi", pron: "ahn KWAH", en: "in what way, how" }
+  - { id: "c1-dissertation-v003", group: "plans", fr: "un plan dialectique", pron: "uhn plahn dee-ah-lek-TEEK", en: "a dialectical plan (thesis, antithesis, synthesis)" }
+  - { id: "c1-dissertation-v004", group: "plans", fr: "un plan analytique", pron: "uhn plahn ah-nah-lee-TEEK", en: "an analytical plan (facts, causes, consequences or solutions)" }
+  - { id: "c1-dissertation-v005", group: "plans", fr: "un plan thématique", pron: "uhn plahn tay-mah-TEEK", en: "a thematic plan (one aspect per part)" }
+  - { id: "c1-dissertation-v006", group: "plans", fr: "le développement", pron: "luh dayv-lop-MAHN", en: "the body (of an essay)" }
+  - { id: "c1-dissertation-v007", group: "plans", fr: "dépasser une opposition", pron: "day-pah-SAY ew-noh-poh-zee-SYOHN", en: "to go beyond an opposition" }
+  - { id: "c1-dissertation-v008", group: "links", fr: "il n'en reste pas moins que", pron: "eel nahn rest pah MWAN kuh", en: "the fact remains that, nevertheless", note: "+ indicative." }
+  - { id: "c1-dissertation-v009", group: "links", fr: "si… (concessive)", pron: "SEE", en: "while…, although…", note: "Si les écrans facilitent l'accès, il n'en reste pas moins que… No future or conditionnel after si." }
+  - { id: "c1-dissertation-v010", group: "topic", fr: "l'attention (f.)", pron: "lah-tahn-SYOHN", en: "attention, concentration" }
+  - { id: "c1-dissertation-v011", group: "topic", fr: "le support", pron: "luh sew-POR", en: "the medium (paper, screen)", note: "Not support in the sense of help." }
+  - { id: "c1-dissertation-v012", group: "topic", fr: "l'ordinateur (m.)", pron: "lor-dee-nah-TUHR", en: "the computer" }
+  - { id: "c1-dissertation-v013", group: "topic", fr: "la tablette", pron: "lah tah-BLET", en: "the tablet (computer)" }
+  - { id: "c1-dissertation-v014", group: "topic", fr: "accessible", pron: "ak-seh-SEE-bluh", en: "accessible, easy to reach" }
+  - { id: "c1-dissertation-v015", group: "topic", fr: "transformer", pron: "trahns-for-MAY", en: "to transform, to change deeply" }
+  - { id: "c1-dissertation-v016", group: "topic", fr: "l'accès (m.)", pron: "lak-SEH", en: "access", note: "L'accès aux textes." }
+  - { id: "c1-dissertation-v017", group: "topic", fr: "la manière", pron: "lah mah-NYEHR", en: "the way, the manner", note: "La manière dont nous lisons." }
+  - { id: "c1-dissertation-v018", group: "topic", fr: "rapide", pron: "rah-PEED", en: "fast, quick" }
+  - { id: "c1-dissertation-v019", group: "topic", fr: "le papier", pron: "luh pah-PYAY", en: "paper" }
+  - { id: "c1-dissertation-v020", group: "topic", fr: "quotidien / quotidienne", pron: "koh-tee-DYAN / koh-tee-DYEN", en: "daily, everyday" }
+  - { id: "c1-dissertation-v021", group: "glossary", fr: "échapper à", pron: "ay-shah-PAY ah", en: "to escape" }
+  - { id: "c1-dissertation-v022", group: "glossary", fr: "modifier", pron: "moh-dee-FYAY", en: "to change, to alter" }
+  - { id: "c1-dissertation-v023", group: "glossary", fr: "agrandir", pron: "ah-grahn-DEER", en: "to enlarge", note: "Like finir." }
+  - { id: "c1-dissertation-v024", group: "glossary", fr: "élargir", pron: "ay-lar-ZHEER", en: "to widen", note: "Like finir." }
+exercises:
+  - id: "c1-dissertation-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez la meilleure problématique pour le sujet « Les écrans changent-ils la lecture ? »"
+    options: ["Dans quelle mesure les écrans transforment-ils notre façon de lire ?", "Les écrans sont-ils mauvais ?", "J'aime lire sur écran."]
+    answers: ["Dans quelle mesure les écrans transforment-ils notre façon de lire ?"]
+    explanation: "An open question (dans quelle mesure) invites a nuanced answer instead of a yes or no."
+  - id: "c1-dissertation-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le type de plan : 1. Le constat 2. Les causes 3. Les solutions."
+    options: ["un plan analytique", "un plan dialectique", "un plan thématique"]
+    answers: ["un plan analytique"]
+    explanation: "Facts, causes, then solutions: the analytical plan."
+  - id: "c1-dissertation-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le type de plan : 1. La thèse 2. L'antithèse 3. La synthèse."
+    options: ["un plan dialectique", "un plan analytique", "un plan thématique"]
+    answers: ["un plan dialectique"]
+    explanation: "Thesis, antithesis, synthesis: the dialectical plan."
+  - id: "c1-dissertation-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui sert de transition."
+    options: ["Si les écrans facilitent l'accès aux textes, il n'en reste pas moins qu'ils changent notre attention.", "Les écrans facilitent l'accès aux textes.", "En guise de conclusion, les écrans sont importants."]
+    answers: ["Si les écrans facilitent l'accès aux textes, il n'en reste pas moins qu'ils changent notre attention."]
+    explanation: "A transition sums up the part just finished (si…) and announces the next (il n'en reste pas moins que…)."
+  - id: "c1-dissertation-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : ___ les écrans facilitent la lecture, il n'en reste pas moins qu'ils fatiguent les yeux."
+    options: ["Si", "Pour peu que", "Dès lors"]
+    answers: ["Si"]
+    explanation: "Concessive si grants the first point before the main one: while screens make reading easier…"
+  - id: "c1-dissertation-ex006"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Il n'en reste pas moins ___ le livre papier garde ses lecteurs."
+    options: ["que", "qui", "dont"]
+    answers: ["que"]
+    explanation: "Il n'en reste pas moins que + a clause in the indicative."
+  - id: "c1-dissertation-ex007"
+    type: "fill-in"
+    prompt: "Complétez la problématique : Dans quelle ___ le numérique change-t-il l'école ?"
+    answers: ["mesure"]
+    explanation: "Dans quelle mesure: to what extent."
+  - id: "c1-dissertation-ex008"
+    type: "reformulation"
+    prompt: "Reformulez en problématique ouverte, avec « dans quelle mesure » : Les écrans changent-ils notre façon de lire ?"
+    answers: ["Dans quelle mesure les écrans changent-ils notre façon de lire ?"]
+    explanation: "Dans quelle mesure opens the question; the formal inversion stays: changent-ils."
+  - id: "c1-dissertation-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « en quoi » : Est-ce que la lecture sur écran est différente ?"
+    answers: ["En quoi la lecture sur écran est-elle différente ?"]
+    explanation: "En quoi asks how something differs, with formal inversion: est-elle."
+  - id: "c1-dissertation-ex010"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase avec « si… il n'en reste pas moins que » : Le numérique a des avantages. Mais il pose des problèmes."
+    answers: ["Si le numérique a des avantages, il n'en reste pas moins qu'il pose des problèmes"]
+    strictAccents: true
+    explanation: "Si grants the first point; il n'en reste pas moins que gives the main one."
+  - id: "c1-dissertation-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (registre soutenu) : Dans quelle mesure les écrans changent notre façon de lire ?"
+    answers: ["Dans quelle mesure les écrans changent-ils notre façon de lire ?"]
+    explanation: "In a written problématique, keep the formal inversion: les écrans changent-ils."
+  - id: "c1-dissertation-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Quand bien même la lecture sur écran progresse, le livre resterait important."
+    answers: ["Quand bien même la lecture sur écran progresserait, le livre resterait important"]
+    explanation: "Quand bien même takes the conditionnel: progresserait."
+  - id: "c1-dissertation-ex013"
+    type: "translate"
+    prompt: "Traduisez avec « dans quelle mesure » : To what extent does reading on screen change our attention?"
+    answers: ["Dans quelle mesure la lecture sur écran change-t-elle notre attention ?"]
+    explanation: "Dans quelle mesure + noun subject + verb + pronoun: change-t-elle."
+  - id: "c1-dissertation-ex014"
+    type: "translate"
+    prompt: "Traduisez avec « il n'en reste pas moins que » : Nevertheless, the book keeps its readers."
+    answers: ["Il n'en reste pas moins que le livre garde ses lecteurs"]
+    explanation: "Il n'en reste pas moins que + indicative."
+  - id: "c1-dissertation-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : To what extent are screens changing reading?"
+    words: ["Dans", "quelle", "mesure", "les", "écrans", "changent-ils", "la", "lecture"]
+    answers: ["Dans quelle mesure les écrans changent-ils la lecture"]
+    explanation: "Dans quelle mesure, then the noun subject, then the verb with -ils."
+  - id: "c1-dissertation-ex016"
+    type: "multiple-choice"
+    prompt: "Indiquez la meilleure ouverture pour la conclusion d'une dissertation sur les écrans et la lecture."
+    options: ["On peut se demander si l'école doit apprendre aux enfants à lire sur écran.", "Les écrans changent la lecture.", "Merci de m'avoir lu."]
+    answers: ["On peut se demander si l'école doit apprendre aux enfants à lire sur écran."]
+    explanation: "An ouverture widens the subject with a related question; it doesn't repeat the answer."
+---
+
+By the end of this lesson you'll be able to write a C1 essay: an open problématique, a plan that suits the subject, clear transitions, nuanced arguments and an ouverture.
+
+## What you already know
+
+In <LessonLink id="b2-argumentative-essay" text="the lesson on the argumentative essay" />, you learned the structure of *une dissertation*: *l'amorce*, *la problématique*, the announced plan, the dialectical plan (*la thèse*, *l'antithèse*, *la synthèse*), *une transition*, *en guise de conclusion* and *une ouverture*. You can grant a point with *quand bien même* and *encore que* from <LessonLink id="c1-concession-and-hypothesis" text="the lesson on concession and hypothesis" />. This lesson takes each of those steps to C1 level.
+
+## An open problématique
+
+<VocabTable group="question" />
+
+At B2, the subject often asked for a yes or no, and the problématique was an indirect question with *on peut se demander si*. At C1, as a rule of thumb, the problématique is an open question that makes room for a nuanced answer. Two formulas are typical: **dans quelle mesure** (to what extent) and **en quoi** (in what way).
+
+<Example fr="Dans quelle mesure les écrans transforment-ils notre façon de lire ?" en="To what extent are screens changing the way we read?" />
+<Example fr="En quoi la lecture sur écran est-elle différente ?" en="In what way is reading on screen different?" />
+
+The question keeps the formal inversion of written French: with a noun subject, add a pronoun after the verb (*les écrans changent-ils*). A good problématique doesn't contain the answer: *pourquoi les écrans sont-ils dangereux ?* has already decided.
+
+## Three kinds of plan
+
+<VocabTable group="plans" />
+
+The body of the essay, *le développement*, follows a plan announced at the end of the introduction. You know the dialectical plan. Two others are common, and the subject decides which one fits.
+
+- **Un plan dialectique** (thesis, antithesis, synthesis) suits a question that opens a debate. The third part doesn't just choose a side: it *dépasse l'opposition*, for example by showing that the two views apply in different cases.
+- **Un plan analytique** (the facts, their causes, their consequences or the solutions) suits a subject about a problem or a phenomenon.
+- **Un plan thématique** (one aspect per part: economic, social, cultural) suits a subject that asks you to describe or assess something from several angles.
+
+<Example fr="Le développement comporte deux ou trois parties." en="The body has two or three parts." />
+<Example fr="Pour un sujet sur un problème, un plan analytique convient souvent mieux qu'un plan thématique." en="For a subject about a problem, an analytical plan often works better than a thematic one." />
+
+As a rule of thumb, ask what the subject asks you to do: debate, explain or explore. Whatever the plan, two or three parts of similar length read better than one long part and one short one, and each part usually holds two or three arguments with an example each. In each case, every part should answer the problématique, not just describe the subject.
+
+## Transitions
+
+A transition closes one part and opens the next in one or two sentences. At C1, it often grants what the last part showed and then turns: concessive **si** + the indicative, then **il n'en reste pas moins que** (the fact remains that).
+
+<VocabTable group="links" />
+
+<Example fr="Si les écrans facilitent l'accès aux textes, il n'en reste pas moins qu'ils changent notre attention." en="While screens make texts easier to reach, the fact remains that they change our attention." />
+
+This *si* doesn't express a condition: it means "while, although", and it takes the indicative like the *si* of a condition. Other transitions use the tools of earlier lessons: *reste à savoir si…*, *reste la question de…*, or a question.
+
+## Nuance in the arguments
+
+An argument at C1 rarely stands alone: it's supported by an example, then nuanced. Three tools help.
+
+- **Concession**: *certes… mais*, *quand bien même* + conditionnel, *encore que* + subjunctive.
+- **Hedging**: *selon toute vraisemblance*, *à en croire* + source, from <LessonLink id="c1-advanced-connectors" text="the lesson on advanced connectors" />.
+- **Abstract nouns**: *la portée*, *les enjeux*, *la pertinence*, from <LessonLink id="c1-abstract-nouns" text="the lesson on abstract nouns" />.
+
+<Example fr="Quand bien même l'attention changerait, la lecture elle-même ne disparaîtrait pas." en="Even if attention were to change, reading itself wouldn't disappear." />
+
+## The conclusion and the ouverture
+
+The conclusion answers the problématique in two or three sentences, with no new argument and no new example. The ouverture then widens the subject with a related question. It shouldn't change the subject completely, and it shouldn't repeat the answer.
+
+<Example fr="On peut se demander si l'école doit apprendre aux enfants à lire sur écran." en="One may ask whether schools should teach children to read on screen." />
+
+## A model essay
+
+<VocabTable group="topic" />
+
+This is an original model essay written for this lesson. It uses a dialectical plan in three short parts.
+
+*Sujet : Dans quelle mesure les écrans changent-ils notre façon de lire ?*
+
+*Aujourd'hui, on lit partout : dans le métro, sur son téléphone, sur un ordinateur au travail. Les écrans font désormais partie de la vie quotidienne, et la lecture ne peut pas y échapper. On peut dès lors se demander dans quelle mesure les écrans transforment notre façon de lire. Nous verrons d'abord qu'ils rendent les textes plus accessibles, puis qu'ils peuvent modifier notre attention, avant de montrer que les deux formes de lecture peuvent se compléter.*
+
+*Dans un premier temps, force est de constater que les écrans ont rendu la lecture plus accessible. Un article, un roman ou une étude sont disponibles en quelques secondes, souvent sans frais. De même, les personnes qui voient mal peuvent agrandir le texte. Les bibliothèques en ligne permettent aussi de lire des textes rares. Les écrans permettent ainsi d'élargir le public des lecteurs.*
+
+*Si les écrans facilitent l'accès aux textes, il n'en reste pas moins qu'ils changent la manière dont nous lisons. Dans un deuxième temps, en effet, la lecture sur écran est souvent plus rapide. Le lecteur passe d'un texte à l'autre, et des messages l'interrompent. Selon toute vraisemblance, cette lecture rapide convient surtout aux textes courts, encore que certains lecteurs lisent longtemps sur une tablette. Quand bien même l'attention changerait, la lecture elle-même ne disparaîtrait pas.*
+
+*Dans un troisième temps, il convient de dépasser cette opposition. Le papier et l'écran ne s'excluent pas : on lit un article sur son téléphone et un roman sur papier. Pour un texte long et difficile, beaucoup de lecteurs préfèrent encore le papier ; pour une information rapide, l'écran suffit. Chaque support a ses usages, et un bon lecteur sait choisir le sien.*
+
+*En guise de conclusion, les écrans transforment notre façon de lire, mais sans remplacer le livre : ils ajoutent une lecture plus rapide à une lecture plus lente. On peut se demander si l'école doit apprendre aux enfants à lire sur écran.*
+
+<VocabTable group="glossary" />
+
+(Subject: To what extent are screens changing the way we read? Today, we read everywhere: on the underground, on our phones, on a computer at work. Screens are now part of everyday life, and reading can't escape them. One may therefore ask to what extent screens are transforming the way we read. We will first see that they make texts more accessible, then that they can change our attention, before showing that the two forms of reading can complement each other. Firstly, it must be said that screens have made reading more accessible. An article, a novel or a study is available in a few seconds, often free of charge. Likewise, people with poor eyesight can enlarge the text. Online libraries also make it possible to read rare texts. Screens thus make it possible to widen the reading public. While screens make texts easier to reach, the fact remains that they change the way we read. Secondly, reading on screen is indeed often faster. The reader moves from one text to another, and messages interrupt them. In all likelihood, this fast reading suits short texts above all, although some readers read for a long time on a tablet. Even if attention were to change, reading itself wouldn't disappear. Thirdly, we should go beyond this opposition. Paper and screen don't exclude each other: we read an article on our phone and a novel on paper. For a long, difficult text, many readers still prefer paper; for quick information, the screen is enough. Each medium has its uses, and a good reader knows how to choose the right one. By way of conclusion, screens are transforming the way we read, but without replacing the book: they add a faster kind of reading to a slower one. One may ask whether schools should teach children to read on screen.)
+
+## How the essay works
+
+- **The introduction** has an amorce (*on lit partout*), an open problématique (*dans quelle mesure*) and the plan in the futur simple (*nous verrons*).
+- **The parts** follow a dialectical plan, announced with *dans un premier temps*, *dans un deuxième temps* and *dans un troisième temps*.
+- **The transition** between the first and second parts uses *si… il n'en reste pas moins que*.
+- **The arguments are nuanced** with *selon toute vraisemblance*, *encore que* and *quand bien même*.
+- **The third part** goes beyond the opposition instead of choosing a side.
+- **The conclusion** answers the problématique, then opens with a related question.
+
+## En français
+
+Julie and Lucas are preparing an essay for their university course.
+
+- *Le sujet, c'est : « Les écrans changent-ils notre façon de lire ? »* (The subject is: "Are screens changing the way we read?")
+- *On répond oui ou non ?* (Do we answer yes or no?)
+- *Ni l'un ni l'autre. On fait une problématique ouverte : « dans quelle mesure… ».* (Neither. We write an open problématique: "to what extent…".)
+- *D'accord. Et quel plan ? Dialectique ?* (OK. And which plan? Dialectical?)
+- *Oui, le sujet ouvre un débat. Mais la troisième partie doit dépasser l'opposition.* (Yes, the subject opens a debate. But the third part has to go beyond the opposition.)
+- *Comment on passe d'une partie à l'autre ?* (How do we move from one part to the next? (spoken))
+- *Avec une transition : « si…, il n'en reste pas moins que… ».* (With a transition: "while…, the fact remains that…".)
+- *Et pour nuancer un argument ?* (And to nuance an argument?)
+- *« Quand bien même », ou « encore que ». On les a vus la semaine dernière.* ("Quand bien même", or "encore que". We saw them last week. (spoken))
+- *Et la conclusion ?* (And the conclusion?)
+- *Une réponse courte, puis une ouverture : une question proche du sujet.* (A short answer, then an ouverture: a question close to the subject.)
+- *Parfait. On commence par l'introduction ?* (Perfect. Shall we start with the introduction? (spoken))
+
+<Callout type="warning" title="Dans quelle mesure les écrans changent-ils…, not les écrans changent…">
+  Learners often drop the inversion after *dans quelle mesure* or *en quoi*, as they would in speech. In a written problématique, keep it: **dans quelle mesure les écrans changent-ils notre façon de lire ?**
+</Callout>
+
+<Callout type="tip" title="Write the transitions first">
+  Once your plan is ready, write the two transitions before anything else, each in one sentence with *si…, il n'en reste pas moins que…*. If you can't write them, the parts don't follow from each other yet: fix the plan before you write the body.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-review-academic" text="the review of this unit" /> brings participle clauses, connectors, abstract nouns and the essay together in a synthesis paragraph and an essay introduction.
+
+===== content/lessons/c1/review-academic.mdx =====
+---
+id: "c1-review-academic"
+title: "Review: Academic writing"
+description: "Bring Unit 3 together in a synthesis paragraph on a small corpus and an essay introduction: participle clauses, formal relatives, academic connectors and hedging, concession and hypothesis, abstract nouns, the synthèse and the dissertation."
+level: "C1"
+unit: "Academic writing"
+order: 25
+type: "review"
+tags: ["review", "academic writing", "synthesis", "essay"]
+prerequisites: ["c1-participle-clauses", "c1-advanced-connectors", "c1-abstract-nouns", "c1-dissertation"]
+related: ["c1-formal-relatives-and-apposition", "c1-concession-and-hypothesis", "c1-synthesis"]
+vocab:
+  - { id: "c1-review-academic-v001", group: "new", fr: "un corpus", pron: "uhn kor-PEWS", en: "a set of documents (to be studied together)" }
+  - { id: "c1-review-academic-v002", group: "new", fr: "mettre en perspective", pron: "meh-trahn pehr-spek-TEEV", en: "to put into perspective, to set against a wider context" }
+  - { id: "c1-review-academic-v003", group: "new", fr: "un fil conducteur", pron: "uhn feel kohn-dewk-TUHR", en: "a common thread, a guiding thread" }
+  - { id: "c1-review-academic-v004", group: "new", fr: "la norme", pron: "lah NORM", en: "the norm, the standard" }
+  - { id: "c1-review-academic-v005", group: "new", fr: "généraliser", pron: "zhay-nay-rah-lee-ZAY", en: "to extend to everyone, to make general" }
+  - { id: "c1-review-academic-v006", group: "glossary", fr: "un essai", pron: "uh-neh-SEH", en: "a trial, a test" }
+  - { id: "c1-review-academic-v007", group: "glossary", fr: "un chef d'entreprise", pron: "uhn shef dahn-truh-PREEZ", en: "a business owner, a company head" }
+  - { id: "c1-review-academic-v008", group: "glossary", fr: "les attentes (f.)", pron: "lay-zah-TAHNT", en: "expectations" }
+exercises:
+  - id: "c1-review-academic-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sujet de « terminés » dans la phrase : Les essais terminés, l'entreprise a décidé de continuer."
+    options: ["les essais", "l'entreprise"]
+    answers: ["les essais"]
+    explanation: "In an absolute participle clause, the participle has its own subject: les essais (sont) terminés."
+  - id: "c1-review-academic-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le pronom : Ce débat, ___ les enjeux sont nombreux, divise les entreprises."
+    options: ["dont", "duquel", "que"]
+    answers: ["dont"]
+    explanation: "Les enjeux de ce débat: dont, then the normal order."
+  - id: "c1-review-academic-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : Les données sont limitées. ___, il faut rester prudent."
+    options: ["Dès lors", "En l'occurrence", "A fortiori"]
+    answers: ["Dès lors"]
+    explanation: "Dès lors draws the consequence: the data are limited, so caution is needed."
+  - id: "c1-review-academic-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez la forme : Quand bien même la mesure ___ populaire, elle poserait des problèmes."
+    options: ["serait", "est", "soit"]
+    answers: ["serait"]
+    explanation: "Quand bien même takes the conditionnel."
+  - id: "c1-review-academic-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le nom : Il faut mesurer l'___ de la demande."
+    options: ["ampleur", "démarche", "faisabilité"]
+    answers: ["ampleur"]
+    explanation: "L'ampleur de la demande: how large it is."
+  - id: "c1-review-academic-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui convient à une synthèse."
+    options: ["Le deuxième document met en évidence des résultats plus mitigés.", "Malheureusement, les résultats sont mitigés.", "À mon avis, l'étude a tort."]
+    answers: ["Le deuxième document met en évidence des résultats plus mitigés."]
+    explanation: "A synthesis reports what each document says, with no judgement."
+  - id: "c1-review-academic-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le type de plan : 1. Une mesure qui répond à de vraies attentes 2. Une faisabilité qui dépend du secteur 3. Une mesure à mettre en perspective."
+    options: ["un plan dialectique", "un plan analytique", "un plan thématique"]
+    answers: ["un plan dialectique"]
+    explanation: "A point for, a point against, then a part that goes beyond the opposition: a dialectical plan."
+  - id: "c1-review-academic-ex008"
+    type: "fill-in"
+    prompt: "Complétez : Les trois documents du ___ portent sur la semaine de quatre jours."
+    answers: ["corpus"]
+    explanation: "Le corpus: the set of documents studied together."
+  - id: "c1-review-academic-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec une proposition participiale : Quand les essais ont été terminés, l'entreprise a continué."
+    answers: ["Les essais terminés, l'entreprise a continué", "Une fois les essais terminés, l'entreprise a continué"]
+    strictAccents: true
+    explanation: "The noun and its participle open the sentence; the participle agrees: terminés."
+  - id: "c1-review-academic-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « selon toute vraisemblance » : L'efficacité de la mesure dépend du secteur."
+    answers: ["Selon toute vraisemblance, l'efficacité de la mesure dépend du secteur", "L'efficacité de la mesure dépend, selon toute vraisemblance, du secteur", "L'efficacité de la mesure dépend du secteur, selon toute vraisemblance"]
+    explanation: "The hedge turns a fact into a strong probability."
+  - id: "c1-review-academic-ex011"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase avec « dont » : Ce débat divise les entreprises. Ses enjeux sont nombreux."
+    answers: ["Ce débat, dont les enjeux sont nombreux, divise les entreprises"]
+    explanation: "Dont + les enjeux, between commas: the clause adds information about the debate."
+  - id: "c1-review-academic-ex012"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « en revanche » : Les salariés sont pour. Par contre, certains chefs d'entreprise sont contre."
+    answers: ["Les salariés sont pour. En revanche, certains chefs d'entreprise sont contre"]
+    explanation: "En revanche is the formal choice for a contrast."
+  - id: "c1-review-academic-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : À supposer que la mesure est adoptée, qui la financera ?"
+    answers: ["À supposer que la mesure soit adoptée, qui la financera ?"]
+    strictAccents: true
+    explanation: "À supposer que takes the subjunctive: soit adoptée."
+  - id: "c1-review-academic-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur en gardant le début, avec « j'ai trouvé » : Ayant lu les documents, la synthèse a été facile à écrire."
+    answers: ["Ayant lu les documents, j'ai trouvé la synthèse facile à écrire"]
+    strictAccents: true
+    explanation: "Ayant lu refers to the subject of the main verb: the synthesis didn't read the documents, I did."
+  - id: "c1-review-academic-ex015"
+    type: "translate"
+    prompt: "Traduisez avec « mettre en perspective » : We must put these results in perspective."
+    answers: ["Il faut mettre ces résultats en perspective", "Nous devons mettre ces résultats en perspective"]
+    explanation: "Mettre quelque chose en perspective: the object goes between mettre and en perspective."
+  - id: "c1-review-academic-ex016"
+    type: "translate"
+    prompt: "Traduisez avec « dans quelle mesure » : To what extent can the four-day week become the norm?"
+    answers: ["Dans quelle mesure la semaine de quatre jours peut-elle devenir la norme ?"]
+    explanation: "Dans quelle mesure + noun subject + verb + pronoun: peut-elle."
+  - id: "c1-review-academic-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The common thread of the essay is clear."
+    words: ["Le", "fil", "conducteur", "de", "la", "dissertation", "est", "clair"]
+    answers: ["Le fil conducteur de la dissertation est clair"]
+    explanation: "Un fil conducteur: the idea that links every part of a text."
+---
+
+By the end of this lesson you'll be able to write a synthesis paragraph on a small set of documents and an essay introduction, using the tools of academic French from this unit.
+
+## What you've learned
+
+This unit has been about academic writing: building long, clear sentences, linking ideas, stating claims with care, and organizing a synthesis or an essay. Skim this list, and go back to anything that feels shaky.
+
+- **Participle clauses**: you know *la réunion terminée, chacun est parti*, *compte tenu de*, *vu*, and the test of the same subject, from <LessonLink id="c1-participle-clauses" text="the lesson on participle clauses" />.
+- **Formal relatives**: you know *dont* + noun with no possessive, *à l'issue duquel*, relatives with and without commas, apposition, from <LessonLink id="c1-formal-relatives-and-apposition" text="the lesson on formal relatives and apposition" />.
+- **Connectors and hedging**: you know *dès lors*, *en l'occurrence*, *a fortiori*, *à cet égard*, *en revanche* rather than *par contre*, *selon toute vraisemblance*, *à en croire*, from <LessonLink id="c1-advanced-connectors" text="the lesson on advanced connectors" />.
+- **Concession and hypothesis**: you know *quand bien même* + conditionnel, *pour peu que*, *à supposer que*, *si tant est que*, *encore que*, from <LessonLink id="c1-concession-and-hypothesis" text="the lesson on concession and hypothesis" />.
+- **Abstract nouns**: you know *la pertinence*, *l'ampleur*, *la démarche*, *la faisabilité*, *la mise en évidence*, from <LessonLink id="c1-abstract-nouns" text="the lesson on abstract nouns" />.
+- **The synthèse.** A neutral text organized by ideas, with no quotation and no opinion, from <LessonLink id="c1-synthesis" text="the lesson on the synthèse de documents" />.
+- **The dissertation.** An open problématique, three kinds of plan, transitions with *il n'en reste pas moins que*, from <LessonLink id="c1-dissertation" text="the lesson on the French dissertation" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+These five words are useful whenever you work on several documents or plan an essay. *Un corpus* is the set of documents you study together. *Mettre en perspective* is to set an idea against a wider context. *Un fil conducteur* is the thread that links every part of a text. *La norme* is what is usual or standard, and *généraliser* is to extend something to everyone. You know *la problématique* from <LessonLink id="b2-argumentative-essay" text="the lesson on the argumentative essay" />.
+
+<Example fr="Le corpus comporte trois documents de nature différente." en="The corpus contains three documents of different kinds." />
+<Example fr="Une bonne conclusion met le sujet en perspective." en="A good conclusion puts the subject into perspective." />
+<Example fr="Le fil conducteur de la dissertation est clair." en="The essay's common thread is clear." />
+
+## Two tasks, one method
+
+The synthesis and the essay look different: one is neutral, the other argues. But they share a method, and the tools of this unit serve both.
+
+1. **Read and sort.** For a synthesis, fill a grid of questions and documents. For an essay, list arguments for and against, with an example for each.
+2. **Find the fil conducteur.** In a synthesis, it's the common subject and the main agreement or disagreement. In an essay, it's the problématique.
+3. **Plan by ideas.** Each part answers one question. Announce the plan in the introduction.
+4. **Write with precise tools.** Use connectors to show each step (*dès lors*, *en revanche*, *tandis que*), hedges to match the evidence (*selon toute vraisemblance*), and abstract nouns to name ideas (*la faisabilité*, *l'ampleur*).
+5. **Reread for register and length.** A participle clause or a *dont* clause tightens a sentence; three in a row make it hard to read.
+
+The difference lies in the voice. In a synthesis, every view belongs to a document: *le premier document souligne…*. In an essay, you build your own answer, but you still nuance it: *quand bien même…*, *encore que…*.
+
+## A model synthesis paragraph and essay introduction
+
+The corpus below is invented: a newspaper article, a study and an opinion piece by a business owner, all about the four-day week. The two texts are original models written for this lesson.
+
+*Synthèse (extrait)*
+
+*Les trois documents du corpus portent sur la semaine de quatre jours. Ils s'accordent sur un constat : la demande des salariés est forte. Le premier, un article de presse, souligne les bons effets sur la santé, car les salariés se disent moins fatigués ; les premiers essais terminés, beaucoup d'entreprises ont choisi de continuer. Le deuxième, une étude qui porte sur cent entreprises, met en évidence des résultats plus mitigés : selon toute vraisemblance, écrivent ses auteurs, l'efficacité de la mesure dépend du secteur. Le troisième document, la tribune d'un chef d'entreprise, émet en revanche des réserves sur sa faisabilité dans les petites entreprises. Au total, les documents se complètent : l'un montre l'intérêt de la mesure, les deux autres en précisent les limites.*
+
+*Dissertation (introduction)*
+
+*Sujet : Faut-il généraliser la semaine de quatre jours ?*
+
+*Depuis quelques années, de nombreuses entreprises font l'essai de la semaine de quatre jours. Ce débat, dont les enjeux dépassent le monde du travail, porte autant sur la santé des salariés que sur l'économie. Certains y voient un progrès social, d'autres un risque pour l'économie. Quand bien même la mesure serait populaire, la généraliser poserait des questions difficiles. La question est donc à la fois sociale et économique. Dès lors, on peut se demander dans quelle mesure la semaine de quatre jours peut devenir la norme. Nous verrons d'abord qu'elle répond à de vraies attentes, puis que sa faisabilité dépend du secteur, avant de montrer qu'il faut la mettre en perspective avec d'autres façons d'organiser le travail.*
+
+<VocabTable group="glossary" />
+
+(Synthesis, extract: The three documents in the corpus are about the four-day week. They agree on one finding: employees' demand is strong. The first, a press article, stresses the good effects on health, as employees say they feel less tired; with the first trials over, many companies chose to continue. The second, a study of a hundred companies, brings out more mixed results: in all likelihood, its authors write, the measure's effectiveness depends on the sector. The third document, an opinion piece by a business owner, on the other hand expresses reservations about its feasibility in small companies. All in all, the documents complement each other: one shows the interest of the measure, the other two set out its limits. Essay, introduction. Subject: Should the four-day week be made general? For some years, many companies have been trying out the four-day week. This debate, whose stakes go beyond the world of work, concerns employees' health as much as the economy. Some see it as social progress, others as a risk to the economy. Even if the measure were popular, making it general would raise difficult questions. The question is therefore both social and economic. Consequently, one may ask to what extent the four-day week can become the norm. We will first see that it meets real expectations, then that its feasibility depends on the sector, before showing that it must be put into perspective with other ways of organizing work.)
+
+## How the texts use the unit
+
+- **Participle clause**: *les premiers essais terminés* (synthesis).
+- **Formal relative**: *ce débat, dont les enjeux dépassent le monde du travail* (introduction).
+- **Connectors**: *en revanche* and *au total* (synthesis), *dès lors* (introduction).
+- **Hedging**: *selon toute vraisemblance*, attributed to the study's authors (synthesis).
+- **Concession and hypothesis**: *quand bien même la mesure serait populaire* (introduction).
+- **Abstract nouns**: *le constat*, *la faisabilité*, *l'efficacité*, *les enjeux*.
+- **Synthesis method**: the documents are named neutrally (*le premier*, *le deuxième*, *le troisième document*), compared by idea, and never quoted.
+- **Essay method**: an amorce, an open problématique with *dans quelle mesure*, and a three-part plan in the futur simple, ending with *mettre en perspective*.
+
+## Your turn
+
+Write the introduction of an essay on this subject, in five or six sentences.
+
+*Sujet : Le numérique rend-il les études plus faciles ?*
+
+(Subject: Is digital technology making studying easier?)
+
+Start with an amorce, then turn the subject into an open problématique with *dans quelle mesure* or *en quoi*. Announce a dialectical or analytical plan in the futur simple. Use at least one *dont* clause, one connector from this unit and one concession with *quand bien même* or *encore que*. Keep one fil conducteur: every sentence should lead to the problématique.
+
+## Check your work
+
+- Does your problématique ask an open question, without the answer in it?
+- After *dans quelle mesure* or *en quoi*, did you keep the inversion (*le numérique rend-il…*)?
+- After *dont*, did you use *le*, *la* or *les*, not a possessive?
+- After *quand bien même*, is the verb in the conditionnel?
+- Is your plan announced in the futur simple, with one idea per part?
+- Did you avoid *par contre* and *je pense* in formal writing?
+
+<Callout type="warning" title="Dans quelle mesure la semaine… peut-elle, not peut la semaine">
+  After *dans quelle mesure* with a noun subject, learners often put the verb before the noun. Keep the noun first and add a pronoun after the verb: **dans quelle mesure la semaine de quatre jours peut-elle devenir la norme ?**
+</Callout>
+
+<Callout type="tip" title="One sentence for the fil conducteur">
+  Before you write a synthesis or an essay, write one sentence that states your fil conducteur, and stick it above your notes. Each time you start a paragraph, check that it serves that sentence. If it doesn't, it belongs in another text.
+</Callout>
+
+## What's next
+
+The next unit is about debate and rhetoric. It starts with the lesson on rhetorical devices.
+

@@ -216,5 +216,7 @@ C1 inherits every B2 convention unless it's changed here. Plans are in docs/plan
   - A form the lesson marks as formal-only or literary is never the only accepted answer, unless the instruction asks for that register.
   - Every example given to illustrate a rule shows that rule, gloss included: read each example against the sentence before it.
   - Use French grammar terms as French grammar uses them (*le sujet* is the grammatical subject; *le thème* is the topic). Check any heuristic (size, gender, frequency) against every example given for it.
+  - A model text obeys every limit and rule its own lesson states, and a section that describes the model ("How the text uses the unit") matches it exactly. Count before writing the claim.
+  - For each typed key, search the lesson (and earlier lessons of the same unit) for other phrasings of the same meaning, and accept each one or pin the wording in the prompt.
 
 @AGENTS.md
