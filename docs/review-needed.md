@@ -2028,3 +2028,42 @@ Every date, tradition and regional detail, for checking:
 - **c1-exam-oral-presentation:** Malik's answer *je sais que d'autres villes ont déjà essayé des dimanches sans voitures*. Confirm it reads naturally.
 - **c1-diplomatic-language:** "formal French does the same with *pouvoir* and *savoir* (*nous regrettons de ne pouvoir accepter*, *je ne saurais dire*)". Confirm.
 - **c1-philosophy-and-ideas:** Pascal's *Pensées* dated 1670 in the quotation's attribution (first edition, after his death). Confirm. Montaigne's *Que sais-je ?* is given without a year (the *Essais* appeared from 1580 to 1588).
+
+## C2 plan
+
+Every item is **to verify** before the lesson that relies on it is written (docs/plans/c2/).
+
+### Grammar and spelling (Unit 1)
+
+- **c2-agreement-pronominal-verbs:** to verify: *elles se sont lavé les mains*, *les mains qu'elles se sont lavées*, *ils se sont parlé / téléphoné / succédé / plu / souri / nui*, *elles se sont souvenues / évanouies*, *ils se sont rendu compte* (invariable), *elle s'est fait voler* (invariable); and that the 1990 rectifications don't change these rules.
+- **c2-agreement-with-infinitives:** to verify: *les musiciens que j'ai entendus jouer* / *les airs que j'ai entendu jouer*; *fait* + infinitive always invariable; *laissé* + infinitive may stay invariable since the 1990 rectifications; the agreement with *en* (*des pommes, j'en ai mangé*) and how much usage varies.
+- **c2-tout-quelque-meme:** to verify: *toute contente*, *toutes honteuses*, *tout étonnée*; *quelque* + number = about (invariable); *quelque… que* + subjunctive; *quelle que soit la raison*; *même* adverb vs adjective.
+- **c2-agreement-colours-compounds-numbers:** to verify: the list of colour nouns that agree (*rose, mauve, fauve, écarlate, pourpre, incarnat*); *des yeux bleu clair*; *quatre-vingts / quatre-vingt-deux*, *deux cents / deux cent un*, *mille* invariable; compound-noun plurals in traditional and 1990 spelling (*des porte-monnaie / porte-monnaies*); the 1990 hyphenation of all compound numbers.
+- **The 1990 rectifications:** to verify: published by the Conseil supérieur de la langue française in 1990 (Journal officiel, December 1990), recommended rather than compulsory, and which institutions use them (school programmes since 2008? to verify).
+
+### Lexis and specialized French (Units 2 and 3)
+
+- **c2-paronyms:** to verify each pair's meanings: *éminent / imminent*, *conjecture / conjoncture*, *perpétrer / perpétuer*, *infecter / infester*, *prodige / prodigue*, *effraction / infraction*, *collision / collusion*, *recouvrer / recouvrir*, *acception / acceptation*.
+- **c2-advanced-false-friends:** to verify the status of *réaliser que* and *opportunité* (accepted, criticized, or both) before labelling them.
+- **c2-anglicisms-and-official-terms:** to verify: the official French terms and their dates of publication (*courriel*, *mot-dièse*, *infolettre*, *mercatique*); the role of the Commission d'enrichissement de la langue française and FranceTerme; *divulgâcher* and *baladodiffusion* as Québec terms (Office québécois de la langue française); the 1994 law on the use of French (Loi Toubon), adopted in August 1994, stated without figures.
+- **c2-legal-french:** to verify whether the Cour de cassation has abandoned the "attendu que" style of judgments, and since when, before mentioning it.
+- **c2-medical-french, c2-scientific-french, c2-administrative-french:** all texts invented; to verify that no term or procedure is presented as current French law or medical advice.
+
+### Reading and writing (Units 4 and 5)
+
+- **c2-commentaire-de-texte:** to verify the description of the method (axes de lecture, citations enchâssées, ouverture) against current French school practice, without exam claims.
+- **c2-contraction-de-texte:** to verify the counting convention taught (how *c'est-à-dire*, elisions and numbers count) and that the lesson presents it as one convention among others.
+- **c2-reading-the-press:** to verify the genre definitions (dépêche, éditorial, chronique, billet, tribune, brève, chapeau, titraille).
+
+### The language and its literatures (Unit 7)
+
+- **c2-culture-history-of-french:** to verify: the Strasbourg Oaths (842) as the oldest text usually counted as French, and the line to quote; the ordinance of Villers-Cotterêts (1539) and what it required; the Académie française (founded 1635) and the first edition of its dictionary (1694); the Revolution's language debates (the abbé Grégoire's report, 1794); the 1990 rectifications; the 1994 law.
+- **c2-culture-medieval-and-renaissance:** to verify: *La Chanson de Roland* (around 1100, anonymous); Chrétien de Troyes (twelfth century); *le Roman de Renart*; Villon (born 1431, date of death unknown); Rabelais (died 1553); Du Bellay (*Défense et illustration de la langue française*, 1549); Ronsard (1524–1585); Louise Labé; any quotation, word for word in modernized spelling.
+- **c2-culture-twentieth-century-and-today:** to verify: the Oulipo (founded 1960; Queneau, Le Lionnais); Perec's *La Disparition* (1969) as a lipogram; the Nouveau Roman; autofiction (the term and its first use); the prix Goncourt; the rentrée littéraire.
+- **c2-culture-francophone-literatures:** to verify, and treat as sensitive: *la négritude* (Senghor, Césaire, Damas, 1930s); Césaire's *Cahier d'un retour au pays natal* (1939); Senghor at the Académie française (1983); Maghrebi authors to name; *la créolité* (*Éloge de la créolité*, 1989); Québec authors to name; Belgian and Swiss authors to name.
+- **c2-culture-wordplay:** to verify that any named performer or author is paraphrased, not quoted, and that every example pun is original.
+
+### General
+
+- **Quotation safe list at C2:** to verify that anonymous medieval texts may be quoted, and that modernized spelling is acceptable as "word for word".
+- **No exam practice at C2:** to verify that no lesson describes the DALF C2 (format, timing, scoring).

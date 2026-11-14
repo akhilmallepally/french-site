@@ -95,6 +95,7 @@ audit:content also has B2 rows: lengths, En résumé, the exercise mix, A1 to B1
 - **B2 units:** 1 Nuance and society (lessons 1 to 8), 2 What might have been (9 to 15), 3 News and reporting (16 to 25), 4 Precision with pronouns (26 to 31), 5 Work and the economy (32 to 40), 6 Science and health (41 to 45), 7 Culture and the arts (46 to 52), 8 Registers and debate (53 to 59). Plans in docs/plans/b2/, history in docs/b2-writing-log.md.
 - **Baselines:** check:words 110 (the A1/A2 backlog; B1, B2 and C1 at 0), check:structures 0, test:checker 29 tests, test:b2-exercises (B2 and C1) 0 failures, b2-links-ids 0 failures, check:c1-links 0 failures, check:alexandrines 8/8, c1-wrapup 0 mechanical failures. The audit's informational rows: 73 shared vocab texts, 4 exercises with more than five answers, 6 lessons without a reorder (all A1/A2).
 - **Last commit:** check `git log`; the B2 review fixes and the wrap-up (Prompts 21 to 25) are not committed.
+- **C2:** planned in Prompt 40 (docs/plans/c2/overview.md, 46 lessons in 8 units; open questions at the top, including the writing-task question); coverage in docs/c2-coverage.md (scripts/c2-lists.ts, scripts/c2-find.ts); log in docs/c2-writing-log.md. Not yet approved.
 - **Next steps, in order:** (1) the C1 native-speaker review (docs/c1-reviewer-brief.md); (2) the B2 native-speaker review; (3) the B1 review, including the 13 unread B1 grammar lessons; (4) phone and learner tests; (5) C2 planning.
 
 ## 7. How work is split

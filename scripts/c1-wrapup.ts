@@ -54,6 +54,12 @@ const sentencesOf = (l: Lesson) => [
   ...splitSections(l.body).filter((s) => s.kind === "dialogue" || s.kind === "text").flatMap((s) => italicLines(s.body)),
 ].map(norm).filter((s) => s.split(" ").length >= 4);
 const calloutTitles = (l: Lesson) => [...l.body.matchAll(/<Callout type="(\w+)" title="([^"]*)"/g)].map((m) => ({ type: m[1], title: norm(m[2]) }));
+// Turn components into readable text before quoting a sentence: an Example becomes "fr (en)", a LessonLink its text.
+const plain = (text: string) => text
+  .replace(/<Example\b[^>]*\/>/g, (t) => `${attr(t, "fr") ?? ""} (${attr(t, "en") ?? ""})`)
+  .replace(/<LessonLink\b[^>]*\/>/g, (t) => attr(t, "text") ?? byId.get(attr(t, "id") ?? "")?.title ?? attr(t, "id") ?? "")
+  .replace(/<Callout\b[^>]*>/g, (t) => `${attr(t, "title") ?? ""}:`)
+  .replace(/&quot;/g, '"');
 const sentenceAround = (text: string, idx: number) => {
   const start = Math.max(text.lastIndexOf("\n", idx), text.lastIndexOf(". ", idx)) + 1;
   let end = text.indexOf("\n", idx); if (end < 0) end = text.length;
@@ -177,7 +183,7 @@ for (const l of c1) {
 const dateRows: string[] = [];
 for (const l of c1) {
   const seen = new Set<string>();
-  const texts = [l.body, ...l.exercises.flatMap((e: any) => [e.prompt, ...(e.answers ?? []), e.explanation].filter(Boolean))];
+  const texts = [plain(l.body), ...l.exercises.flatMap((e: any) => [e.prompt, ...(e.answers ?? []), e.explanation].filter(Boolean))];
   for (const t of texts) for (const m of String(t).matchAll(/\b(1[0-9]\d{2}|20\d{2})\b/g)) {
     const s = sentenceAround(String(t), m.index ?? 0);
     const k = `${m[1]}|${s}`;
@@ -194,7 +200,7 @@ for (const name of NAMES) {
   const hits: string[] = [];
   const re = new RegExp(`(?<![\\p{L}-])${name}(?![\\p{L}-])`, "u");
   for (const l of c1) {
-    const lines = l.body.split("\n").filter((x) => re.test(x) && !/^\(/.test(x.trim()));
+    const lines = plain(l.body).split("\n").filter((x) => re.test(x) && !/^\(/.test(x.trim()));
     if (lines.length) hits.push(`${l.id}: ${lines.slice(0, 2).map((x) => x.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 160)).join(" / ")}`);
   }
   if (hits.length > 1) placeRows.push(`**${name}** (${hits.length} lessons): ${hits.join(" | ")}`);

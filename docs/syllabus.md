@@ -1,6 +1,6 @@
 # Parlons syllabus (approved)
 
-Outline of every planned lesson. A1 is written. Levels A1–C1; C2 comes later.
+Outline of every planned lesson. A1 to C1 are written; C2 is planned (docs/plans/c2/).
 
 ## Conventions
 
@@ -19,7 +19,8 @@ Outline of every planned lesson. A1 is written. Levels A1–C1; C2 comes later.
 | B1 | ~60 | 59 | 9 | 23 | 9 | 13 | 5 | 9 |
 | B2 | ~60 | 59 | 8 | 24 | 11 | 12 | 4 | 8 |
 | C1 | ~50 | 57 | 8 | 15 | 12 | 12 | 9 | 9 |
-| **Total** | ~260 | **280** | **39** | **111** | **51** | **55** | **23** | **40** |
+| C2 (planned) | ~50 | 46 | 8 | 6 | 10 | 15 | 6 | 9 |
+| **Total** | ~310 | **326** | **47** | **117** | **61** | **70** | **29** | **49** |
 
 A1 runs over target on purpose: six review lessons and two culture lessons sit on top of ~40 teaching lessons, and A1 is where beginners most need small steps.
 
@@ -517,3 +518,93 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 55 | c1-exam-written-tasks | Practice: synthesis and essay | Towards DALF C1 | communication | c1-synthesis, c1-dissertation, c1-concession-and-hypothesis, c1-advanced-connectors | Practice: a synthesis of two documents and an argued essay. No claims about the exam's rules, timing or scoring. |
 | 56 | c1-review-towards-dalf | Review: Towards DALF C1 | Towards DALF C1 | review | c1-euphemism-and-synonyms, c1-exam-oral-presentation, c1-exam-written-tasks, c1-concession-and-hypothesis, c1-formal-relatives-and-apposition | A short argued text using the unit. |
 | 57 | c1-review-final | C1 final review | Towards DALF C1 | review | c1-review-literary, c1-review-style, c1-review-academic, c1-review-rhetoric, c1-review-professional, c1-review-ideas, c1-review-living, c1-review-towards-dalf | Whole-level recap; C1 can-do checklist, one model sentence per unit, and a model bilan. |
+
+## C2 · Mastery (planned)
+
+Planned in docs/plans/c2/ (Prompt 40); no lesson file exists yet. Every row is planned and may change after the plan's review.
+
+### Unit 1: Precision in form
+
+| # | id | title | unit | type | prerequisites | scope |
+|---|---|---|---|---|---|---|
+| 1 | c2-agreement-pronominal-verbs | Past participles of pronominal verbs | Precision in form | grammar | a2-reflexive-passe-compose, a2-pronouns-in-passe-compose, b2-faire-causatif | Planned. The COD test; reciprocal verbs with an indirect pronoun; essentially pronominal verbs; se rendre compte. |
+| 2 | c2-agreement-with-infinitives | Participles followed by an infinitive | Precision in form | grammar | b2-faire-causatif, c2-agreement-pronominal-verbs | Planned. Verbs of perception, fait and laissé + infinitive (with the 1990 option), the participle with en. |
+| 3 | c2-tout-quelque-meme | Tout, quelque, même | Precision in form | grammar | b2-tout, c1-adverb-placement | Planned. Adverbial tout before feminine adjectives, quelque(s), quelque… que, quel que soit, même adverb or adjective. |
+| 4 | c2-agreement-colours-compounds-numbers | Colours, compound nouns and numbers | Precision in form | grammar | a1-adjective-agreement, a1-numbers-21-100 | Planned. Colour adjectives, compound-noun plurals, vingt, cent and mille, traditional and 1990 spellings. |
+| 5 | c2-concordance-in-writing | The full sequence of tenses | Precision in form | grammar | b2-reported-speech-past, c1-imperfect-subjunctive, c1-future-in-the-past | Planned. Time anchors in long texts, general truths, the literary subjunctive concordance (recognition). |
+| 6 | c2-ellipsis-and-nominal-style | Ellipsis and the nominal style | Precision in form | grammar | b2-nominalisation, b2-formal-report, c1-leading-a-meeting | Planned. Verb ellipsis, headline grammar, notes and slides, and back to full sentences. |
+| 7 | c2-review-form | Review: Precision in form | Precision in form | review | c2-agreement-pronominal-verbs, c2-agreement-with-infinitives, c2-tout-quelque-meme, c2-agreement-colours-compounds-numbers, c2-concordance-in-writing, c2-ellipsis-and-nominal-style | Planned. Proofreading a text with ten errors. |
+
+### Unit 2: Words with precision
+
+| # | id | title | unit | type | prerequisites | scope |
+|---|---|---|---|---|---|---|
+| 8 | c2-paronyms | Paronyms | Words with precision | vocabulary | b2-false-friends, c1-precise-verbs | Planned. Éminent / imminent, conjecture / conjoncture and other confusable pairs. |
+| 9 | c2-polysemy | One word, several meanings | Words with precision | vocabulary | c1-abstract-nouns | Planned. Main senses of pièce, note, coup, matière, valeur, titre, relever, soutenir. |
+| 10 | c2-word-formation | How words are built | Words with precision | vocabulary | b2-nominalisation, c1-abstract-nouns | Planned. Prefixes, suffixes, learned roots, compounds, mots-valises, neologisms. |
+| 11 | c2-advanced-false-friends | Advanced false friends | Words with precision | vocabulary | b2-false-friends, c2-paronyms | Planned. The false friends left after B2, with register labels for debated uses. |
+| 12 | c2-anglicisms-and-official-terms | Anglicisms and their official replacements | Words with precision | vocabulary | c1-culture-francophonie, c2-word-formation | Planned. Common anglicisms, official French terms, how terms are recommended, the purism debate. |
+| 13 | c2-review-words | Review: Words with precision | Words with precision | review | c2-paronyms, c2-polysemy, c2-word-formation, c2-advanced-false-friends, c2-anglicisms-and-official-terms | Planned. Replacing imprecise words in a text. |
+
+### Unit 3: Specialized French
+
+| # | id | title | unit | type | prerequisites | scope |
+|---|---|---|---|---|---|---|
+| 14 | c2-legal-french | Legal French | Specialized French | vocabulary | c1-law-and-institutions, c1-formal-correspondence | Planned. Reading contracts and decision summaries; restating clauses plainly. |
+| 15 | c2-medical-french | Medical French | Specialized French | vocabulary | b2-health-system, b2-science-and-research | Planned. Patient leaflets and consultation summaries (invented medicines). |
+| 16 | c2-scientific-french | Scientific French | Specialized French | vocabulary | b2-science-and-research, b2-persuasion-and-hedging | Planned. Abstracts, popular science, hedging, correlation and causation. |
+| 17 | c2-administrative-french | Reading administrative French | Specialized French | vocabulary | c1-formal-correspondence, c1-culture-laicite-and-institutions | Planned. Official letters and forms, and replying with the full layout. |
+| 18 | c2-review-specialized | Review: Specialized French | Specialized French | review | c2-legal-french, c2-medical-french, c2-scientific-french, c2-administrative-french | Planned. One situation in three registers; vulgarisation. |
+
+### Unit 4: Reading between the lines
+
+| # | id | title | unit | type | prerequisites | scope |
+|---|---|---|---|---|---|---|
+| 19 | c2-implicit-meaning | Presuppositions and implied meaning | Reading between the lines | communication | c1-irony-and-understatement, c1-euphemism-and-synonyms, b2-reporting-verbs | Planned. Presuppositions, sous-entendus, connotation, modalisation. |
+| 20 | c2-argument-analysis | Analysing an argument | Reading between the lines | communication | c1-formal-debate, c1-advanced-connectors | Planned. Types of argument and common fallacies, and how to answer them. |
+| 21 | c2-commentaire-de-texte | The commentaire de texte | Reading between the lines | communication | c1-reading-literary-narrative, c1-rhetorical-devices, c1-dissertation | Planned. The method of the close commentary, on an original pastiche passage. |
+| 22 | c2-stylistic-analysis | Style: rhythm, sound and syntax | Reading between the lines | communication | c1-culture-french-poetry, c1-stylistic-inversion, c2-commentaire-de-texte | Planned. Periods, ternary rhythm, sound figures, parataxis and hypotaxis. |
+| 23 | c2-reading-the-press | Press genres and styles | Reading between the lines | culture | b2-culture-french-press, b2-summarizing-an-article, c2-implicit-meaning | Planned. Dépêche, éditorial, chronique, billet, tribune, reportage, brève. |
+| 24 | c2-review-reading | Review: Reading between the lines | Reading between the lines | review | c2-implicit-meaning, c2-argument-analysis, c2-commentaire-de-texte, c2-stylistic-analysis, c2-reading-the-press | Planned. A short op-ed analysed. |
+
+### Unit 5: Writing at length and translating
+
+| # | id | title | unit | type | prerequisites | scope |
+|---|---|---|---|---|---|---|
+| 25 | c2-contraction-de-texte | The contraction and the résumé to a word count | Writing at length and translating | communication | b2-summarizing-an-article, c1-synthesis, c2-ellipsis-and-nominal-style | Planned. Reducing a text to a proportion, keeping its logic and voice. |
+| 26 | c2-long-essay | The long essay | Writing at length and translating | communication | c1-dissertation, c1-concession-and-hypothesis, c1-review-ideas | Planned. A full essay: paragraphs, parts, transitions, no padding. |
+| 27 | c2-version | Translating into English | Writing at length and translating | communication | b2-false-friends, c2-advanced-false-friends, c1-register-shifting | Planned. Version: method and traps (tenses, on, register, idioms). |
+| 28 | c2-theme | Translating into French | Writing at length and translating | communication | c1-precise-verbs, c1-collocations, c2-anglicisms-and-official-terms | Planned. Thème: method, structures to avoid, idiomatic equivalents. |
+| 29 | c2-revising-your-style | Revising your own writing | Writing at length and translating | communication | c1-exam-written-tasks, c1-register-shifting, c2-stylistic-analysis | Planned. Heaviness, repetition, register breaks, weak verbs. |
+| 30 | c2-review-writing | Review: Writing at length | Writing at length and translating | review | c2-contraction-de-texte, c2-long-essay, c2-version, c2-theme, c2-revising-your-style | Planned. One text from notes to contraction. |
+
+### Unit 6: Mediation and negotiation
+
+| # | id | title | unit | type | prerequisites | scope |
+|---|---|---|---|---|---|---|
+| 31 | c2-mediation | Explaining a text to someone else | Mediation and negotiation | communication | c1-synthesis, c1-register-shifting, c1-exam-oral-presentation | Planned. Relaying a document to a reader who hasn't read it, adapted and faithful. |
+| 32 | c2-negotiation | Negotiating in writing | Mediation and negotiation | communication | b2-negotiating, c1-diplomatic-language, c1-concession-and-hypothesis | Planned. An email negotiation from opening position to written agreement. |
+| 33 | c2-structured-oral-argument | A structured oral argument | Mediation and negotiation | communication | c1-public-speaking, c1-formal-debate, c1-spoken-discourse-markers | Planned. A spoken argument written out: thesis, signposts, rebuttal, close. |
+| 34 | c2-interviews-and-questioning | Asking precise questions | Mediation and negotiation | communication | b2-reported-questions-orders, c1-stylistic-inversion, c1-leading-a-meeting | Planned. Open, closed and follow-up questions; pressing politely. |
+| 35 | c2-review-mediation | Review: Mediation and negotiation | Mediation and negotiation | review | c2-mediation, c2-negotiation, c2-structured-oral-argument, c2-interviews-and-questioning | Planned. A neighbourhood dispute resolved through mediation. |
+
+### Unit 7: The language and its literatures
+
+| # | id | title | unit | type | prerequisites | scope |
+|---|---|---|---|---|---|---|
+| 36 | c2-culture-history-of-french | A short history of French | The language and its literatures | culture | c1-culture-regional-languages, c1-culture-francophonie, c2-anglicisms-and-official-terms | Planned. From Latin to today: key texts, institutions and laws (all facts to verify). |
+| 37 | c2-culture-medieval-and-renaissance | Literature before the classics | The language and its literatures | culture | c1-culture-literary-canon, c2-culture-history-of-french | Planned. Middle Ages to the Renaissance; Old French for recognition; safe-list quotations only. |
+| 38 | c2-culture-twentieth-century-and-today | Literature since 1900 | The language and its literatures | culture | c1-culture-literary-canon | Planned. Movements and prizes since 1900, by paraphrase; an original lipogram. |
+| 39 | c2-culture-francophone-literatures | Francophone literatures | The language and its literatures | culture | c1-culture-francophonie, b2-culture-francophone-africa, b1-culture-quebec | Planned. Négritude, Maghrebi, Caribbean, Québec, Belgian and Swiss literatures, neutrally. |
+| 40 | c2-culture-wordplay | Humour and wordplay | The language and its literatures | culture | c1-culture-satire-and-humour, c1-proverbs-and-sayings, c2-polysemy | Planned. Headline puns, homophony, mots d'esprit, why wordplay resists translation. |
+| 41 | c2-review-literatures | Review: The language and its literatures | The language and its literatures | review | c2-culture-history-of-french, c2-culture-medieval-and-renaissance, c2-culture-twentieth-century-and-today, c2-culture-francophone-literatures, c2-culture-wordplay | Planned. A short essay on how French has changed. |
+
+### Unit 8: Range and mastery
+
+| # | id | title | unit | type | prerequisites | scope |
+|---|---|---|---|---|---|---|
+| 42 | c2-pastiche | Writing in a style | Range and mastery | communication | c1-review-literary, c2-stylistic-analysis, c2-reading-the-press | Planned. Pastiche and parody of a fable, a dépêche and a notice, labelled. |
+| 43 | c2-idiomatic-precision | Idioms at C2 | Range and mastery | vocabulary | c1-advanced-idioms, c1-proverbs-and-sayings, c1-collocations | Planned. Near-idioms, register and strength, twisted idioms in the press. |
+| 44 | c2-register-mastery | Moving between registers within one text | Range and mastery | communication | c1-register-shifting, c1-irony-and-understatement, c1-reading-literary-narrative | Planned. Deliberate register breaks and how readers recognize them. |
+| 45 | c2-review-range | Review: Range and mastery | Range and mastery | review | c2-pastiche, c2-idiomatic-precision, c2-register-mastery | Planned. One text in three registers and two styles. |
+| 46 | c2-review-final | C2 final review | Range and mastery | review | c2-review-form, c2-review-words, c2-review-specialized, c2-review-reading, c2-review-writing, c2-review-mediation, c2-review-literatures, c2-review-range | Planned. Whole-level recap; can-do checklist; Mon rapport à la langue française. |
