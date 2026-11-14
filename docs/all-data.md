@@ -1,6 +1,6 @@
 # All lesson data
 
-250 written lessons, in course order.
+257 written lessons, in course order.
 
 ## a1-greetings
 
@@ -9895,6 +9895,328 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-review-academic-ex016 | translate | Traduisez avec « dans quelle mesure » : To what extent can the four-day week become the norm? | — | ["Dans quelle mesure la semaine de quatre jours peut-elle devenir la norme ?"] | false | Dans quelle mesure + noun subject + verb + pronoun: peut-elle.
 - c1-review-academic-ex017 | reorder | Remettez dans l'ordre : The common thread of the essay is clear. | — | ["Le fil conducteur de la dissertation est clair"] | false | Un fil conducteur: the idea that links every part of a text.
 
+## c1-rhetorical-devices
+
+### Vocab
+
+fr | pron | en | note
+
+- une figure de style | ewn fee-gewr duh STEEL | a figure of speech, a rhetorical device | —
+- un procédé | uhn proh-say-DAY | a device, a technique | —
+- percutant / percutante | pehr-kew-TAHN / pehr-kew-TAHNT | punchy, striking | —
+- marquer les esprits | mar-kay lay-zes-PREE | to make an impression, to stick in people's minds | —
+- l'anaphore (f.) | lah-nah-FOR | anaphora (repeating words at the start of several sentences) | —
+- la gradation | lah grah-dah-SYOHN | climax, gradation (words in increasing strength) | —
+- le rythme | luh REET-muh | rhythm | —
+- l'oxymore (m.) | lok-see-MOR | oxymoron (two opposite words joined) | —
+- une victoire amère | ewn veek-twahr ah-MEHR | a bitter victory (an oxymoron) | —
+- la question rhétorique | lah kes-tyohn ray-toh-REEK | the rhetorical question | —
+- la litote | lah lee-TOT | litotes (saying less to mean more) | —
+- l'hyperbole (f.) | lee-pehr-BOLL | hyperbole (deliberate exaggeration) | —
+- exagérer | eg-zah-zhay-RAY | to exaggerate | J'exagère, nous exagérons.
+- la métaphore | lah may-tah-FOR | metaphor | —
+- une comparaison | ewn kohn-pah-reh-ZOHN | a comparison, a simile | With comme, tel, pareil à.
+- un slogan | uhn sloh-GAHN | a slogan | —
+- l'auditoire (m.) | loh-dee-TWAHR | the audience (of a speech) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-rhetorical-devices-ex001 | multiple-choice | Indiquez la figure de style : Nous voulons une ville propre. Nous voulons une ville sûre. Nous voulons une ville pour tous. | ["l'anaphore","la litote","l'oxymore"] | ["l'anaphore"] | false | Nous voulons is repeated at the start of each sentence: anaphora.
+- c1-rhetorical-devices-ex002 | multiple-choice | Indiquez la figure de style : Ce n'est pas une mauvaise idée. | ["la litote","l'hyperbole","la gradation"] | ["la litote"] | false | Saying "not bad" to mean "good": litotes.
+- c1-rhetorical-devices-ex003 | multiple-choice | Indiquez la figure de style : Je vous l'ai dit mille fois ! | ["l'hyperbole","la litote","l'antithèse"] | ["l'hyperbole"] | false | Mille fois is a deliberate exaggeration: hyperbole.
+- c1-rhetorical-devices-ex004 | multiple-choice | Indiquez la figure de style : C'était une victoire amère. | ["l'oxymore","l'anaphore","la question rhétorique"] | ["l'oxymore"] | false | A victory should be sweet; amère joins two opposite ideas: oxymoron.
+- c1-rhetorical-devices-ex005 | multiple-choice | Indiquez la figure de style : Il faut agir aujourd'hui, demain, toujours. | ["la gradation","la litote","l'oxymore"] | ["la gradation"] | false | The time words grow in strength: gradation.
+- c1-rhetorical-devices-ex006 | multiple-choice | Indiquez la figure de style : Qui peut encore croire que rien ne va changer ? | ["la question rhétorique","l'anaphore","la litote"] | ["la question rhétorique"] | false | The speaker expects no answer: the question makes a point.
+- c1-rhetorical-devices-ex007 | connector-choice | Choisissez le mot : Ce discours a ___ les esprits. | ["marqué","exagéré","procédé"] | ["marqué"] | false | Marquer les esprits: to make a lasting impression.
+- c1-rhetorical-devices-ex008 | fill-in | Complétez : Ce slogan est court et ___ : tout le monde s'en souvient. | — | ["percutant"] | false | Percutant: punchy, striking.
+- c1-rhetorical-devices-ex009 | reformulation | Reformulez avec une anaphore en « Nous voulons » : Nous voulons des écoles, des hôpitaux et des transports. | — | ["Nous voulons des écoles, nous voulons des hôpitaux, nous voulons des transports","Nous voulons des écoles. Nous voulons des hôpitaux. Nous voulons des transports"] | false | Repeat nous voulons before each item: the repetition gives rhythm.
+- c1-rhetorical-devices-ex010 | reformulation | Reformulez avec une litote, en commençant par « Ce n'est pas » : C'est une très bonne idée. | — | ["Ce n'est pas une mauvaise idée","Ce n'est pas une idée mauvaise"] | false | Deny the opposite to say more with less: ce n'est pas une mauvaise idée.
+- c1-rhetorical-devices-ex011 | reformulation | Reformulez avec une question rhétorique en « Qui peut » : Personne ne peut nier ce problème. | — | ["Qui peut nier ce problème ?"] | false | A question that expects no answer replaces the statement.
+- c1-rhetorical-devices-ex012 | error-correction | Corrigez l'erreur (le sens : not a bad idea) : Ce n'est pas une bonne idée. | — | ["Ce n'est pas une mauvaise idée"] | false | A litote denies the opposite: pas mauvaise means good. Pas bonne means bad.
+- c1-rhetorical-devices-ex013 | translate | Traduisez avec « une figure de style » : Anaphora is a figure of speech. | — | ["L'anaphore est une figure de style"] | false | Une figure de style: the general term for a rhetorical device.
+- c1-rhetorical-devices-ex014 | translate | Traduisez avec « exagérer » : He exaggerates to make people laugh. | — | ["Il exagère pour faire rire"] | false | Exagérer pour faire rire: the effect makes it a figure of speech.
+- c1-rhetorical-devices-ex015 | translate | Traduisez avec « l'auditoire » : The president looked at the audience. | — | ["Le président a regardé l'auditoire","La présidente a regardé l'auditoire"] | true | L'auditoire: the people listening to a speech.
+- c1-rhetorical-devices-ex016 | reorder | Remettez dans l'ordre : This metaphor makes the text more striking. | — | ["Cette métaphore rend le texte plus percutant"] | false | Rendre + noun + adjective: to make something more striking.
+
+## c1-subjunctive-nuances
+
+### Vocab
+
+fr | pron | en | note
+
+- le mode | luh MOD | the mood (indicative, subjunctive, conditionnel…) | —
+- pensez-vous que… ? | pahn-say-voo KUH | do you think that…? | + subjunctive (doubt) or indicative (neutral).
+- que… ou non | kuh… oo NOHN | whether… or not | + subjunctive: que tu le veuilles ou non.
+- qu'il + subjonctif ! | KEEL | let him…, he should… (a wish or an order) | Qu'il entre ! Qu'elle attende !
+- comprendre que | kohn-prahn-druh KUH | + indicative: to realize that; + subjunctive: to understand why, to accept that | —
+- admettre que | ad-meh-truh KUH | + indicative: to acknowledge that; + subjunctive: to accept the idea that, to allow that | Like mettre: j'admets.
+- dire que + subjonctif | deer KUH | to tell someone to (an order) | Il dit que tu viennes = il te dit de venir.
+- s'attendre à ce que | sah-tahn-drah suh KUH | to expect that | + subjunctive.
+- tenir à ce que | tuh-neer ah suh KUH | to insist that, to be keen that | + subjunctive.
+- accepter que | ak-sep-tay KUH | to accept that | + subjunctive: il accepte que tu partes.
+- il est normal que | ee-leh nor-MAHL kuh | it's normal that, it's understandable that | + subjunctive.
+- à l'avance | ah lah-VAHNSS | in advance | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-subjunctive-nuances-ex001 | multiple-choice | Indiquez le sens de la phrase : Il comprend que tu sois parti. | ["He understands why you left (and accepts it).","He realizes that you have left.","He doesn't know that you left."] | ["He understands why you left (and accepts it)."] | false | Comprendre que + subjunctive: to find it normal, to understand why.
+- c1-subjunctive-nuances-ex002 | multiple-choice | Indiquez le sens de la phrase : Il comprend que tu es parti. | ["He realizes that you have left.","He understands why you left (and accepts it).","He wants you to leave."] | ["He realizes that you have left."] | false | Comprendre que + indicative: to realize a fact.
+- c1-subjunctive-nuances-ex003 | multiple-choice | Indiquez le sens de la phrase : Il dit que tu viennes. | ["He says you should come.","He says that you're coming.","He says that you came."] | ["He says you should come."] | false | Dire que + subjunctive is an order: il dit que tu viennes = il te dit de venir.
+- c1-subjunctive-nuances-ex004 | connector-choice | Choisissez la forme : Qu'il ___ fatigué, je le comprends. | ["soit","est","sera"] | ["soit"] | false | A que clause at the start of the sentence takes the subjunctive, even after comprendre.
+- c1-subjunctive-nuances-ex005 | connector-choice | Choisissez la forme : Que tu le ___ ou non, il faut partir. | ["veuilles","veux","voudras"] | ["veuilles"] | false | Que… ou non takes the subjunctive: que tu le veuilles ou non.
+- c1-subjunctive-nuances-ex006 | fill-in | Conjuguez « venir » au subjonctif ou à l'indicatif futur : Pensez-vous qu'il ___ demain ? | — | ["vienne","viendra"] | false | Both are correct: the subjunctive suggests doubt, the futur is a neutral question.
+- c1-subjunctive-nuances-ex007 | fill-in | Conjuguez « avoir » au subjonctif : J'admets qu'il ___ pu se tromper. | — | ["ait"] | false | Admettre que + subjunctive: to accept the possibility.
+- c1-subjunctive-nuances-ex008 | fill-in | Conjuguez « être » au subjonctif : Je m'attends à ce que la réunion ___ longue. | — | ["soit"] | false | S'attendre à ce que + subjunctive.
+- c1-subjunctive-nuances-ex009 | reformulation | Reformulez avec « que… ou non » et « vouloir » : Même si tu ne le veux pas, il faut partir. | — | ["Que tu le veuilles ou non, il faut partir","Il faut partir, que tu le veuilles ou non"] | true | Que tu le veuilles ou non: whether you like it or not.
+- c1-subjunctive-nuances-ex010 | reformulation | Reformulez en commençant par « Qu'il » : Je comprends qu'il soit déçu. | — | ["Qu'il soit déçu, je le comprends"] | false | The que clause moves to the front and le takes it up after the verb.
+- c1-subjunctive-nuances-ex011 | reformulation | Reformulez avec « dire de » : Il m'a dit que je vienne. | — | ["Il m'a dit de venir"] | true | Dire que + subjunctive and dire de + infinitive both give an order; dire de is the everyday form.
+- c1-subjunctive-nuances-ex012 | reformulation | Reformulez avec « tenir à ce que » : Je veux absolument que tout soit prêt. | — | ["Je tiens à ce que tout soit prêt"] | true | Tenir à ce que + subjunctive: to insist that.
+- c1-subjunctive-nuances-ex013 | error-correction | Corrigez l'erreur : Que tu le veux ou non, nous partons. | — | ["Que tu le veuilles ou non, nous partons"] | true | Que… ou non takes the subjunctive.
+- c1-subjunctive-nuances-ex014 | error-correction | Corrigez l'erreur (le sens : he realizes) : Il se rend compte que tu sois parti. | — | ["Il se rend compte que tu es parti","Il se rend compte que tu es partie"] | false | Se rendre compte que states a fact: indicative.
+- c1-subjunctive-nuances-ex015 | translate | Traduisez avec « comprendre que » et le subjonctif : I understand why she is angry. | — | ["Je comprends qu'elle soit en colère"] | false | Comprendre que + subjunctive: you understand the reason and accept it.
+- c1-subjunctive-nuances-ex016 | translate | Traduisez avec « s'attendre à ce que » : We expect him to come. | — | ["Nous nous attendons à ce qu'il vienne"] | true | S'attendre à ce que + subjunctive.
+- c1-subjunctive-nuances-ex017 | reorder | Remettez dans l'ordre : Whether you like it or not, the meeting is tomorrow. | — | ["Que tu le veuilles ou non, la réunion est demain","La réunion est demain, que tu le veuilles ou non"] | false | Que tu le veuilles ou non can open or close the sentence.
+
+## c1-formal-debate
+
+### Vocab
+
+fr | pron | en | note
+
+- la motion | lah moh-SYOHN | the motion (the question debated) | —
+- défendre la motion / s'opposer à la motion | day-fahn-druh lah moh-SYOHN | to speak for / against the motion | —
+- l'intervenant / l'intervenante | lan-tehr-vuh-NAHN / lan-tehr-vuh-NAHNT | the speaker (in a debate or a panel) | —
+- la déclaration d'ouverture | lah day-klah-rah-syohn doo-vehr-TEWR | the opening statement | —
+- la réplique / répliquer | lah ray-PLEEK / ray-plee-KAY | the rebuttal, the reply / to reply | —
+- le temps imparti | luh tahn an-par-TEE | the allotted time | —
+- concéder | kohn-say-DAY | to concede, to grant | Je concède, nous concédons.
+- je vous l'accorde | zhuh voo lah-KORD | I grant you that | —
+- il n'en demeure pas moins que | eel nahn duh-muhr pah MWAN kuh | the fact remains that (formal) | Like il n'en reste pas moins que.
+- je vous rejoins sur ce point | zhuh voo ruh-zhwan sewr suh PWAN | I agree with you on that point | —
+- retourner l'argument | ruh-toor-nay lar-gew-MAHN | to turn the argument round | —
+- un musée | uhn mew-ZAY | a museum | —
+- un bien commun | uhn byan koh-MUHN | a common good | —
+- le contribuable | luh kohn-tree-BEW-ah-bluh | the taxpayer | —
+- la fréquentation | lah fray-kahn-tah-SYOHN | the number of visitors, attendance | —
+- l'entretien (m.) | lahn-truh-TYAN | the upkeep, the maintenance (of a building) | —
+- les collections (f.) | lay koh-lek-SYOHN | the collections (of a museum) | —
+- appartiennent (appartenir à) | ah-par-TYEN (ah-par-tuh-NEER ah) | belong (to belong to) | —
+- modeste | moh-DEST | modest; (of a family) on a low income | —
+- la culture | lah kewl-TEWR | culture | —
+- la conservation | lah kohn-sehr-vah-SYOHN | conservation, preservation | —
+- le soutien | luh soo-TYAN | support | —
+- ciblé / ciblée | see-BLAY | targeted | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-formal-debate-ex001 | multiple-choice | Indiquez le sens de « la motion » dans un débat formel. | ["the question debated","the speaker's movement","the final vote"] | ["the question debated"] | false | La motion: the statement that one side defends and the other opposes.
+- c1-formal-debate-ex002 | multiple-choice | Indiquez la phrase qui fait une concession. | ["Je vous l'accorde, la gratuité a un coût.","Vous avez tort sur toute la ligne.","Je maintiens que la gratuité est indispensable."] | ["Je vous l'accorde, la gratuité a un coût."] | false | Je vous l'accorde grants a point to the other side before you answer it.
+- c1-formal-debate-ex003 | multiple-choice | Indiquez l'ordre d'un débat formel. | ["déclarations d'ouverture, répliques, conclusions","conclusions, répliques, déclarations d'ouverture","répliques, déclarations d'ouverture, conclusions"] | ["déclarations d'ouverture, répliques, conclusions"] | false | Each side opens, then replies to the other, then concludes.
+- c1-formal-debate-ex004 | connector-choice | Choisissez l'expression : La gratuité a un coût, ___. Il n'en demeure pas moins qu'elle attire un nouveau public. | ["je vous l'accorde","je vous rejoins","je maintiens"] | ["je vous l'accorde"] | false | Je vous l'accorde, at the end of the point you grant, prepares the turn.
+- c1-formal-debate-ex005 | connector-choice | Choisissez le mot : Il vous reste une minute sur le temps ___. | ["imparti","concédé","répliqué"] | ["imparti"] | false | Le temps imparti: the time allotted to each speaker.
+- c1-formal-debate-ex006 | fill-in | Complétez : Je vous ___ sur ce point : les musées doivent rester accessibles. | — | ["rejoins"] | false | Je vous rejoins sur ce point: I agree with you on that point.
+- c1-formal-debate-ex007 | reformulation | Reformulez avec « il n'en demeure pas moins que » : C'est vrai que l'entrée coûte cher, mais les musées doivent se financer. | — | ["L'entrée coûte cher, il n'en demeure pas moins que les musées doivent se financer","Certes, l'entrée coûte cher, il n'en demeure pas moins que les musées doivent se financer"] | false | Grant the first point, then turn with il n'en demeure pas moins que.
+- c1-formal-debate-ex008 | reformulation | Reformulez avec « je vous l'accorde » : D'accord, la gratuité a un coût, mais elle attire de nouveaux visiteurs. | — | ["La gratuité a un coût, je vous l'accorde, mais elle attire de nouveaux visiteurs","Je vous l'accorde, la gratuité a un coût, mais elle attire de nouveaux visiteurs"] | true | Je vous l'accorde replaces d'accord in a formal debate.
+- c1-formal-debate-ex009 | register-shift | Transformez en intervention formelle, avec « permettez-moi de » : Attends, je ne suis pas d'accord avec ça. | — | ["Permettez-moi de ne pas être d'accord avec cela","Permettez-moi de ne pas être d'accord"] | false | Vous, permettez-moi de and cela make the objection formal.
+- c1-formal-debate-ex010 | register-shift | Transformez au registre soutenu, avec « je vous rejoins sur ce point » : Là, t'as raison. | — | ["Je vous rejoins sur ce point"] | false | In a formal debate, agreement is expressed with vous and a formula.
+- c1-formal-debate-ex011 | error-correction | Corrigez l'erreur : Je vous accorde, la gratuité a un coût. | — | ["Je vous l'accorde, la gratuité a un coût"] | true | Accorder needs its object: je vous l'accorde, where l' stands for the point granted.
+- c1-formal-debate-ex012 | error-correction | Corrigez l'erreur : Il n'en demeure pas moins qu'elle attire pas de nouveaux visiteurs. | — | ["Il n'en demeure pas moins qu'elle n'attire pas de nouveaux visiteurs"] | false | In a formal debate, keep the ne of the negation.
+- c1-formal-debate-ex013 | translate | Traduisez (défendre la motion) : Our team speaks for the motion. | — | ["Notre équipe défend la motion"] | false | Défendre la motion: to argue for it.
+- c1-formal-debate-ex014 | translate | Traduisez (retourner l'argument) : She turned the argument round. | — | ["Elle a retourné l'argument"] | true | Retourner l'argument: to use the other side's point against them.
+- c1-formal-debate-ex015 | translate | Traduisez (le contribuable) : Who will pay? The taxpayer. | — | ["Qui paiera ? Le contribuable","Qui va payer ? Le contribuable"] | false | Le contribuable: the person who pays taxes.
+- c1-formal-debate-ex016 | reorder | Remettez dans l'ordre : I agree with you on that point. | — | ["Je vous rejoins sur ce point"] | false | Rejoindre quelqu'un sur un point: to agree with them on it.
+
+## c1-public-speaking
+
+### Vocab
+
+fr | pron | en | note
+
+- mesdames et messieurs | may-dahm-zay-may-SYUH | ladies and gentlemen | —
+- chers collègues / chers amis | shehr koh-LEG, shehr-zah-MEE | dear colleagues, dear friends | —
+- une allocution | ew-nah-loh-kew-SYOHN | a (short, formal) speech | —
+- une accroche | ew-nah-KROSH | a hook (an opening that catches attention) | —
+- interpeller | an-tehr-puh-LAY | to address directly, to call out to (the audience) | —
+- je commencerai par | zhuh koh-mahnss-RAY par | I'll begin with | —
+- en premier lieu | ahn pruh-myay LYUH | first of all, in the first place | —
+- j'en viens (maintenant) à | zhahn VYAN ah | I now come to, which brings me to | —
+- avant de conclure | ah-vahn duh kohn-KLEWR | before I conclude | —
+- permettez-moi de conclure | pehr-meh-tay mwah duh kohn-KLEWR | allow me to conclude | —
+- marquer une pause | mar-kay ewn POHZ | to pause (deliberately) | —
+- la voix | lah VWAH | the voice | —
+- le trac | luh TRAK | stage fright, nerves | —
+- le micro | luh mee-KROH | the microphone | —
+- la médiathèque | lah may-dyah-TEK | the (multimedia) library | —
+- la lecture publique | lah lek-tewr pew-BLEEK | public library services | —
+- un lieu de rencontre | uhn lyuh duh rahn-KOHN-truh | a meeting place | —
+- les architectes | lay-zar-shee-TEKT | the architects | —
+- un luxe | uhn LEWKS | a luxury | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-public-speaking-ex001 | multiple-choice | Indiquez la meilleure accroche pour un discours sur la lecture. | ["Combien d'entre vous ont lu un livre ce mois-ci ?","Bonjour, je vais parler de la lecture.","La lecture, c'est important, voilà."] | ["Combien d'entre vous ont lu un livre ce mois-ci ?"] | false | A question to the audience is a classic hook: it interpellates them from the first sentence.
+- c1-public-speaking-ex002 | multiple-choice | Indiquez la phrase qui annonce une nouvelle partie du discours. | ["J'en viens maintenant à la question du financement.","Je vous remercie de votre attention.","Mesdames et messieurs, bonsoir."] | ["J'en viens maintenant à la question du financement."] | false | J'en viens à signposts the move to the next point.
+- c1-public-speaking-ex003 | multiple-choice | Indiquez la formule qui ouvre un discours devant un public formel. | ["Mesdames et messieurs,","Salut tout le monde,","Cher Monsieur,"] | ["Mesdames et messieurs,"] | false | Mesdames et messieurs addresses a formal audience; cher Monsieur is for a letter to one person.
+- c1-public-speaking-ex004 | connector-choice | Choisissez l'expression : ___, je voudrais remercier toutes les personnes qui ont rendu ce projet possible. | ["En premier lieu","Avant de conclure","J'en viens à"] | ["En premier lieu"] | false | En premier lieu opens the first point. Avant de conclure comes at the end, and j'en viens à needs a noun after it.
+- c1-public-speaking-ex005 | connector-choice | Choisissez le verbe : Avant chaque idée importante, l'intervenante ___ une pause. | ["marque","interpelle","commence"] | ["marque"] | false | Marquer une pause: to pause on purpose.
+- c1-public-speaking-ex006 | fill-in | Complétez : J'en ___ maintenant à la question du budget. | — | ["viens"] | false | Venir à un point: j'en viens à.
+- c1-public-speaking-ex007 | reformulation | Reformulez avec « je commencerai par » : D'abord, je vais présenter le projet. | — | ["Je commencerai par présenter le projet","Je commencerai par la présentation du projet"] | false | Je commencerai par + infinitive or noun announces the first part.
+- c1-public-speaking-ex008 | reformulation | Reformulez avec « permettez-moi de conclure » : Pour finir, je vais dire une chose. | — | ["Permettez-moi de conclure par une chose","Permettez-moi de conclure sur une chose"] | false | Permettez-moi de conclure is the formal way to announce the end.
+- c1-public-speaking-ex009 | register-shift | Transformez en début de discours formel, avec « mesdames et messieurs » : Salut tout le monde, merci d'être là. | — | ["Mesdames et messieurs, merci d'être là","Mesdames et messieurs, merci de votre présence"] | true | A formal speech opens with mesdames et messieurs and thanks the audience.
+- c1-public-speaking-ex010 | register-shift | Transformez au registre soutenu, avec « j'en viens à » : Bon, maintenant, on passe au budget. | — | ["J'en viens maintenant au budget","J'en viens au budget"] | true | J'en viens à replaces on passe à in a speech; à + le gives au.
+- c1-public-speaking-ex011 | error-correction | Corrigez l'erreur : J'en viens maintenant de la question du budget. | — | ["J'en viens maintenant à la question du budget"] | true | En venir à: j'en viens à la question.
+- c1-public-speaking-ex012 | error-correction | Corrigez l'erreur : Permettez-moi conclure. | — | ["Permettez-moi de conclure"] | false | Permettre à quelqu'un de + infinitive: permettez-moi de conclure.
+- c1-public-speaking-ex013 | translate | Traduisez (le trac) : Before speaking, she always has stage fright. | — | ["Avant de parler, elle a toujours le trac","Elle a toujours le trac avant de parler"] | true | Avoir le trac: to have stage fright.
+- c1-public-speaking-ex014 | translate | Traduisez (interpeller) : The speaker addressed the audience directly. | — | ["L'intervenant a interpellé l'auditoire","L'intervenante a interpellé l'auditoire"] | true | Interpeller l'auditoire: to speak to the audience directly.
+- c1-public-speaking-ex015 | translate | Traduisez avec « avant de conclure » : Before I conclude, I'd like to thank you. | — | ["Avant de conclure, je voudrais vous remercier","Avant de conclure, j'aimerais vous remercier"] | false | Avant de conclure announces the last part of the speech.
+- c1-public-speaking-ex016 | reorder | Remettez dans l'ordre : I now come to the second part. | — | ["J'en viens maintenant à la seconde partie"] | false | J'en viens maintenant à: the classic signpost.
+
+## c1-irony-and-understatement
+
+### Vocab
+
+fr | pron | en | note
+
+- l'ironie (f.) / ironique | lee-roh-NEE / ee-roh-NEEK | irony / ironic | —
+- l'humour (m.) | lew-MOOR | humour | —
+- l'antiphrase (f.) | lahn-tee-FRAHZ | antiphrasis (saying the opposite of what you mean) | —
+- au second degré | oh suh-gohn duh-GRAY | tongue in cheek, not meant literally | —
+- prendre au premier degré | prahn-droh pruh-myay duh-GRAY | to take literally | —
+- pince-sans-rire | panss-sahn-REER | deadpan (a person or a kind of humour) | —
+- le ton | luh TOHN | the tone (of voice or of a text) | —
+- vexer | vek-SAY | to offend, to hurt someone's feelings | —
+- ce n'est pas mal | suh neh pah MAHL | it's quite good, it's good (understatement) | —
+- pas fameux / pas fameuse | pah fah-MUH / pah fah-MUHZ | not great, rather bad | —
+- ce n'est pas terrible | suh neh pah teh-REE-bluh | it's not great (false friend: not 'terrible') | —
+- il ne fait pas chaud | eel nuh feh pah SHOH | it's cold (understatement) | —
+- je ne dis pas non | zhuh nuh dee pah NOHN | yes please, I wouldn't say no | —
+- sincère | san-SEHR | sincere | —
+- comme d'habitude | kom dah-bee-TEWD | as usual | —
+- les guillemets (m.) | lay geey-MEH | quotation marks (« ») | —
+- un émoji | uh-nay-moh-ZHEE | an emoji | —
+- le blog | luh BLOG | the blog | —
+- délicat / délicate | day-lee-KAH / day-lee-KAT | thoughtful, delicate | —
+- créatif / créative | kray-ah-TEEF / kray-ah-TEEV | creative | —
+- l'extérieur (m.) | lek-stay-RYUHR | the outside | —
+- brûlant / brûlante | brew-LAHN / brew-LAHNT | scorching, burning hot | —
+- mérite (mériter) | may-REET (may-ree-TAY) | deserves (to deserve) | —
+- le chef | luh SHEF | the chef (in a restaurant) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-irony-and-understatement-ex001 | multiple-choice | Indiquez le sens de la phrase, dite après un repas réussi : Ce n'était pas mal. | ["It was good.","It was bad.","It was average."] | ["It was good."] | false | Ce n'est pas mal is an understatement: it usually means good, sometimes very good.
+- c1-irony-and-understatement-ex002 | multiple-choice | Indiquez le sens de la phrase : Le film n'était pas terrible. | ["The film wasn't great.","The film wasn't frightening.","The film was terrible."] | ["The film wasn't great."] | false | Pas terrible means not great. Terrible here doesn't mean 'awful' or 'frightening'.
+- c1-irony-and-understatement-ex003 | multiple-choice | Indiquez le sens de la phrase, dite après une panne de train de trois heures : Quel voyage agréable ! | ["The journey was unpleasant (ironic).","The journey was pleasant.","The journey was short."] | ["The journey was unpleasant (ironic)."] | false | Antiphrasis: the speaker says the opposite of what the context shows.
+- c1-irony-and-understatement-ex004 | multiple-choice | Indiquez le sens de la phrase, en réponse à « Un café ? » : Je ne dis pas non. | ["Yes, please.","No, thank you.","I don't know."] | ["Yes, please."] | false | Je ne dis pas non is a polite understatement for yes.
+- c1-irony-and-understatement-ex005 | connector-choice | Choisissez l'expression : Il a pris ma remarque au ___ degré et il s'est vexé. | ["premier","second","dernier"] | ["premier"] | false | Prendre au premier degré: to take literally, and so to miss the joke.
+- c1-irony-and-understatement-ex006 | fill-in | Complétez : C'est de l'humour au ___ degré : il ne faut pas le prendre à la lettre. | — | ["second"] | false | Au second degré: not meant literally.
+- c1-irony-and-understatement-ex007 | register-shift | Transformez en phrase neutre, sans ironie, avec « Le voyage » : Quel voyage agréable ! (après trois heures de retard) | — | ["Le voyage n'a pas été agréable"] | true | Say literally what the irony means.
+- c1-irony-and-understatement-ex008 | register-shift | Transformez en phrase neutre, avec « froid » : Il ne fait pas chaud aujourd'hui. | — | ["Il fait froid aujourd'hui","Aujourd'hui, il fait froid"] | false | The understatement means it's cold.
+- c1-irony-and-understatement-ex009 | reformulation | Reformulez avec une litote, en commençant par « Ce n'est pas » : Ce restaurant est bon. | — | ["Ce n'est pas un mauvais restaurant"] | false | Deny the opposite: ce n'est pas un mauvais restaurant.
+- c1-irony-and-understatement-ex010 | reformulation | Reformulez avec « pas fameux » : Ce repas était assez mauvais. | — | ["Ce repas n'était pas fameux"] | false | Pas fameux: not great, rather bad.
+- c1-irony-and-understatement-ex011 | error-correction | Corrigez l'erreur de sens (le film était moyen) : Le film était terrible. | — | ["Le film n'était pas terrible"] | false | To say a film was mediocre, French uses the negative: pas terrible.
+- c1-irony-and-understatement-ex012 | translate | Traduisez (pince-sans-rire) : He has a deadpan sense of humour. | — | ["Il a un humour pince-sans-rire","Il est pince-sans-rire"] | true | Pince-sans-rire: making jokes with a straight face.
+- c1-irony-and-understatement-ex013 | translate | Traduisez (vexer) : My joke offended her. | — | ["Ma blague l'a vexée"] | true | Vexer: to hurt someone's feelings. The participle agrees with l' (her).
+- c1-irony-and-understatement-ex014 | translate | Traduisez (le ton) : In an email, nobody hears the tone. | — | ["Dans un courriel, personne n'entend le ton","Dans un e-mail, personne n'entend le ton","Dans un mail, personne n'entend le ton"] | false | Without the voice, the tone of irony disappears.
+- c1-irony-and-understatement-ex015 | multiple-choice | Indiquez la phrase la plus sûre dans un courriel de travail. | ["Le rapport est arrivé avec deux jours de retard.","Bravo, quel rapport rapide, comme d'habitude !","Quel rapport rapide !"] | ["Le rapport est arrivé avec deux jours de retard."] | false | Irony in a professional email can hurt or be misread; say it plainly.
+- c1-irony-and-understatement-ex016 | reorder | Remettez dans l'ordre : He took my joke literally. | — | ["Il a pris ma blague au premier degré"] | true | Prendre au premier degré: to take literally.
+
+## c1-culture-satire-and-humour
+
+### Vocab
+
+fr | pron | en | note
+
+- la satire | lah sah-TEER | satire | —
+- tourner en ridicule | toor-nay ahn ree-dee-KEWL | to make fun of, to hold up to ridicule | —
+- le rire | luh REER | laughter | —
+- une fable | ewn FAH-bluh | a fable | —
+- la morale (d'une fable) | lah moh-RAHL | the moral (of a fable) | —
+- le loup / l'agneau (m.) | luh LOO / lah-NYOH | the wolf / the lamb | —
+- l'hypocrisie (f.) | lee-poh-kree-ZEE | hypocrisy | —
+- un conte philosophique | uhn kohnt fee-loh-zoh-FEEK | a philosophical tale | —
+- un sketch | uhn SKETCH | a sketch (a short comic scene) | —
+- le stand-up | luh stahn-DUP | stand-up comedy | —
+- l'autodérision (f.) | loh-toh-day-ree-ZYOHN | self-mockery | —
+- un jeu de mots | uhn zhuh duh MOH | a play on words | —
+- un calembour | uhn kah-lahn-BOOR | a pun | —
+- une contrepèterie | ewn kohn-truh-peh-TREE | a spoonerism (swapping sounds between words) | —
+- un sous-entendu | uhn soo-zahn-tahn-DEW | an innuendo, an implication | —
+- intraduisible | an-trah-dwee-ZEE-bluh | untranslatable | —
+- les puissants (m.) | lay pwee-SAHN | the powerful | —
+- les mœurs (f.) | lay MUHRSS | customs, manners (of a society) | —
+- le lion / le renard | luh LYOHN / luh ruh-NAR | the lion / the fox | —
+- le fanatisme | luh fah-nah-TEESM | fanaticism | —
+- imitent (imiter) | ee-MEET (ee-mee-TAY) | imitate (to imitate) | —
+- apprécie (apprécier) | ah-pray-SEE (ah-pray-SYAY) | enjoys (to enjoy, to appreciate) | —
+- complice | kohn-PLEESS | in on the joke; an accomplice | —
+- une allusion | ew-nah-lew-ZYOHN | a reference, an allusion | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-culture-satire-and-humour-ex001 | multiple-choice | Indiquez l'auteur des Fables. | ["La Fontaine","Voltaire","Molière"] | ["La Fontaine"] | false | Jean de La Fontaine wrote the Fables; Molière wrote comedies, and Voltaire lived in the eighteenth century.
+- c1-culture-satire-and-humour-ex002 | multiple-choice | Indiquez ce que Molière tourne en ridicule dans ses comédies. | ["l'hypocrisie et les défauts de la société de son temps","les rois de l'Antiquité","la presse"] | ["l'hypocrisie et les défauts de la société de son temps"] | false | Molière laughs at hypocrites, false doctors and social pretensions.
+- c1-culture-satire-and-humour-ex003 | multiple-choice | Indiquez le sens de « un calembour ». | ["a pun","a cartoon","a moral"] | ["a pun"] | false | Un calembour plays on two meanings of the same sound.
+- c1-culture-satire-and-humour-ex004 | multiple-choice | Indiquez le sens de « l'autodérision ». | ["laughing at yourself","laughing at the powerful","refusing to laugh"] | ["laughing at yourself"] | false | Auto- means self: l'autodérision is self-mockery.
+- c1-culture-satire-and-humour-ex005 | connector-choice | Choisissez le mot : Chaque fable se termine par une ___. | ["morale","contrepèterie","caricature"] | ["morale"] | false | La morale: the lesson at the end of a fable.
+- c1-culture-satire-and-humour-ex006 | connector-choice | Choisissez le mot : Ce jeu de mots est ___ : il n'existe qu'en français. | ["intraduisible","satirique","philosophique"] | ["intraduisible"] | false | Intraduisible: impossible to translate.
+- c1-culture-satire-and-humour-ex007 | fill-in | Complétez : La presse satirique tourne les puissants en ___. | — | ["ridicule"] | false | Tourner quelqu'un en ridicule: to make fun of them.
+- c1-culture-satire-and-humour-ex008 | reformulation | Reformulez avec « tourner en ridicule » : Le journal se moque des ministres. | — | ["Le journal tourne les ministres en ridicule","Le journal tourne en ridicule les ministres"] | false | Tourner en ridicule takes a direct object, before or after en ridicule.
+- c1-culture-satire-and-humour-ex009 | reformulation | Reformulez avec « un sous-entendu » : Il ne le dit pas, mais tout le monde comprend. | — | ["C'est un sous-entendu","Il le dit par un sous-entendu"] | false | Un sous-entendu: something suggested without being said.
+- c1-culture-satire-and-humour-ex010 | error-correction | Corrigez l'erreur : La morale de cette fable est à la fin du loup. | — | ["La morale de cette fable est à la fin"] | true | The moral comes at the end of the fable, not of the wolf.
+- c1-culture-satire-and-humour-ex011 | error-correction | Corrigez l'erreur : Le Canard enchaîné est un quotidien satirique. | — | ["Le Canard enchaîné est un hebdomadaire satirique"] | false | Le Canard enchaîné comes out once a week: un hebdomadaire.
+- c1-culture-satire-and-humour-ex012 | translate | Traduisez (le rire) : Laughter is a weapon against the powerful. | — | ["Le rire est une arme contre les puissants"] | false | Le rire: laughter as a general idea.
+- c1-culture-satire-and-humour-ex013 | translate | Traduisez (un sketch) : The comedian wrote a new sketch. | — | ["L'humoriste a écrit un nouveau sketch"] | true | Un humoriste: a comedian; un sketch: a short comic scene.
+- c1-culture-satire-and-humour-ex014 | translate | Traduisez (intraduisible) : This pun is untranslatable. | — | ["Ce calembour est intraduisible","Ce jeu de mots est intraduisible"] | false | A pun depends on the sounds of one language.
+- c1-culture-satire-and-humour-ex015 | multiple-choice | Indiquez ce qu'est une contrepèterie. | ["swapping sounds between words to create a hidden second meaning","a long satirical article","a drawing of a politician"] | ["swapping sounds between words to create a hidden second meaning"] | false | Une contrepèterie swaps sounds, often to hide a cheeky second meaning.
+- c1-culture-satire-and-humour-ex016 | reorder | Remettez dans l'ordre : Satire makes fun of the powerful. | — | ["La satire tourne les puissants en ridicule","La satire tourne en ridicule les puissants"] | false | Tourner en ridicule: the object can come before or after en ridicule.
+
+## c1-review-rhetoric
+
+### Vocab
+
+fr | pron | en | note
+
+- un orateur / une oratrice | uh-noh-rah-TUHR / ew-noh-rah-TREESS | a speaker (in public), an orator | —
+- un argument d'autorité | uh-nar-gew-mahn doh-toh-ree-TAY | an argument from authority (relying on an expert or an official source) | —
+- captiver | kap-tee-VAY | to captivate, to hold (an audience's) attention | —
+- un plaidoyer | uhn pleh-dwah-YAY | a plea, a speech in defence of something | —
+- gênés / gênées (gêner) | zheh-NAY (zheh-NAY) | bothered (to bother) | —
+- déplacer | day-plah-SAY | to move (something somewhere else) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-review-rhetoric-ex001 | multiple-choice | Indiquez la figure de style : Nous proposons de commencer plus tard. Nous proposons de nettoyer nous-mêmes. Nous proposons d'en parler. | ["l'anaphore","la litote","l'oxymore"] | ["l'anaphore"] | false | Nous proposons is repeated at the start of each sentence: anaphora.
+- c1-review-rhetoric-ex002 | connector-choice | Choisissez la forme : Que le marché ___ du bruit, je l'admets. | ["fasse","fait","fera"] | ["fasse"] | false | A que clause at the front takes the subjunctive: fasse, not fait.
+- c1-review-rhetoric-ex003 | multiple-choice | Indiquez la phrase qui fait une concession dans un débat formel. | ["Je vous l'accorde, le marché fait du bruit.","Le marché ne fait aucun bruit.","Vous avez complètement tort."] | ["Je vous l'accorde, le marché fait du bruit."] | false | Je vous l'accorde grants the other side's point.
+- c1-review-rhetoric-ex004 | connector-choice | Choisissez l'expression : ___ maintenant aux solutions que nous proposons. | ["J'en viens","Je commencerai","Permettez-moi"] | ["J'en viens"] | false | J'en viens à: the signpost for a new part. Je commencerai needs par, and permettez-moi needs de.
+- c1-review-rhetoric-ex005 | multiple-choice | Indiquez le sens de la phrase : Ce ne serait pas une petite perte. | ["It would be a big loss.","It would be a small loss.","It wouldn't be a loss."] | ["It would be a big loss."] | false | A litote: denying the opposite says more.
+- c1-review-rhetoric-ex006 | multiple-choice | Indiquez la phrase avec un argument d'autorité. | ["Une étude de la mairie montre que le centre reçoit plus de visiteurs le samedi.","Je pense que le marché est important.","Tout le monde aime le marché."] | ["Une étude de la mairie montre que le centre reçoit plus de visiteurs le samedi."] | false | An argument from authority relies on an official or expert source.
+- c1-review-rhetoric-ex007 | fill-in | Complétez : Dès la première phrase, l'oratrice a su ___ son auditoire. | — | ["captiver"] | false | Captiver un auditoire: to hold its attention.
+- c1-review-rhetoric-ex008 | reformulation | Reformulez avec une question rhétorique en « Qui » : Tout le monde a déjà acheté quelque chose au marché. | — | ["Qui n'a jamais acheté quelque chose au marché ?","Qui n'a jamais rien acheté au marché ?"] | true | A negative rhetorical question expects everyone to agree.
+- c1-review-rhetoric-ex009 | reformulation | Reformulez en commençant par « Que » : J'admets que le marché pose des problèmes. | — | ["Que le marché pose des problèmes, je l'admets"] | false | The que clause moves to the front and le takes it up.
+- c1-review-rhetoric-ex010 | reformulation | Reformulez avec « il n'en demeure pas moins que » : C'est vrai, il y a du bruit, mais le marché fait vivre le quartier. | — | ["Il y a du bruit, il n'en demeure pas moins que le marché fait vivre le quartier","Certes, il y a du bruit, il n'en demeure pas moins que le marché fait vivre le quartier"] | true | Grant, then turn with il n'en demeure pas moins que.
+- c1-review-rhetoric-ex011 | register-shift | Transformez en début de discours formel, avec « mesdames et messieurs » : Bon, salut à tous, je vais vous parler du marché. | — | ["Mesdames et messieurs, je vais vous parler du marché","Mesdames et messieurs, je voudrais vous parler du marché"] | false | A formal speech opens with mesdames et messieurs.
+- c1-review-rhetoric-ex012 | error-correction | Corrigez l'erreur : Que le marché pose des problèmes, je l'admets pas. | — | ["Que le marché pose des problèmes, je ne l'admets pas"] | false | In a formal speech, keep the ne of the negation.
+- c1-review-rhetoric-ex013 | error-correction | Corrigez l'erreur (le sens : it was quite good) : Le discours n'était pas bien. | — | ["Le discours n'était pas mal"] | false | The litote that means good is pas mal; pas bien means not good.
+- c1-review-rhetoric-ex014 | translate | Traduisez (un plaidoyer) : Her speech was a plea for the market. | — | ["Son discours était un plaidoyer pour le marché","Son discours a été un plaidoyer pour le marché"] | true | Un plaidoyer pour: a speech in defence of something.
+- c1-review-rhetoric-ex015 | translate | Traduisez (un orateur) : A good speaker looks at the audience. | — | ["Un bon orateur regarde l'auditoire","Une bonne oratrice regarde l'auditoire","Un bon orateur regarde le public","Une bonne oratrice regarde le public"] | false | Un orateur, une oratrice: someone who speaks in public.
+- c1-review-rhetoric-ex016 | reorder | Remettez dans l'ordre : Allow me to conclude with a question. | — | ["Permettez-moi de conclure par une question"] | false | Permettez-moi de conclure par: the formal announcement of the end.
+
 ## c1-law-and-institutions
 
 ### Vocab
@@ -9922,7 +10244,7 @@ fr | pron | en | note
 - un procès | uhn proh-SEH | a trial, a court case | —
 - un jugement | uhn zhewzh-MAHN | a judgment, a ruling | —
 - faire appel (de) | fehr ah-PEL | to appeal (against a ruling) | —
-- former un recours | for-may uhn ruh-KOOR | to lodge an appeal, to take legal action (against a decision) | —
+- former un recours | for-may uhn ruh-KOOR | to lodge an appeal, to take legal action (against a decision) | Formal. Also déposer un recours; everyday: faire un recours.
 - un droit | uhn DRWAH | a right; (le droit) law as a subject | —
 - être tenu de | eh-truh tuh-NEW duh | to be required to, to be obliged to | Tenue, tenus, tenues.
 - juridique | zhew-ree-DEEK | legal (relating to law) | —
@@ -9933,7 +10255,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 
 - c1-law-and-institutions-ex001 | connector-choice | Choisissez le verbe : La loi ___ en vigueur le 1er janvier. | ["entrera","abrogera","saisira"] | ["entrera"] | false | Entrer en vigueur: to come into force.
 - c1-law-and-institutions-ex002 | connector-choice | Choisissez le verbe : Le gouvernement a ___ ce décret, qui n'est donc plus en vigueur. | ["abrogé","promulgué","saisi"] | ["abrogé"] | false | Abroger: to repeal. A repealed text is no longer in force.
-- c1-law-and-institutions-ex003 | connector-choice | Choisissez le mot : Il a perdu son procès, mais il va faire ___. | ["appel","recours","jugement"] | ["appel"] | false | Faire appel: to appeal. You form a recours (former un recours), you don't make one.
+- c1-law-and-institutions-ex003 | connector-choice | Choisissez le mot : Il a perdu son procès, mais il va faire ___. | ["appel","recours","jugement"] | ["appel"] | false | Faire appel: to appeal against a ruling. Recours needs an article and a verb of its own (former, déposer or faire un recours), and jugement doesn't fit after faire here.
 - c1-law-and-institutions-ex004 | multiple-choice | Indiquez le sens de « en vertu de » dans la phrase : En vertu de cette loi, les entreprises sont tenues d'informer leurs clients. | ["under, by virtue of","against","in spite of"] | ["under, by virtue of"] | false | En vertu de + a text: the text is the basis of the rule.
 - c1-law-and-institutions-ex005 | multiple-choice | Indiquez la juridiction qui juge d'abord un conflit entre un habitant et sa mairie. | ["le tribunal administratif","la Cour de cassation","le Conseil constitutionnel"] | ["le tribunal administratif"] | false | Conflicts with public bodies go first to the administrative courts: le tribunal administratif.
 - c1-law-and-institutions-ex006 | multiple-choice | Indiquez le rôle du Conseil constitutionnel. | ["Il vérifie que les lois respectent la Constitution.","Il vote les lois.","Il juge les procès entre voisins."] | ["Il vérifie que les lois respectent la Constitution."] | false | The Parliament votes the laws; the Conseil constitutionnel checks them against the Constitution.
@@ -9943,7 +10265,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-law-and-institutions-ex010 | reformulation | Reformulez avec « en vertu de » : Cette décision a été prise parce que l'article 3 le permet. | — | ["Cette décision a été prise en vertu de l'article 3","En vertu de l'article 3, cette décision a été prise"] | true | En vertu de + the text that allows the decision.
 - c1-law-and-institutions-ex011 | register-shift | Transformez au registre soutenu, avec « saisir » : L'association est allée devant le tribunal. | — | ["L'association a saisi le tribunal"] | true | Saisir une juridiction: to take a case to a court.
 - c1-law-and-institutions-ex012 | error-correction | Corrigez l'erreur : Le décret a été abrogé, il est donc toujours en vigueur. | — | ["Le décret a été abrogé, il n'est donc plus en vigueur"] | true | Abrogé means repealed: the decree is no longer in force.
-- c1-law-and-institutions-ex013 | error-correction | Corrigez l'erreur : Il a fait recours contre la décision. | — | ["Il a formé un recours contre la décision"] | true | The collocation is former un recours. Faire goes with appel: faire appel d'un jugement.
+- c1-law-and-institutions-ex013 | error-correction | Corrigez l'erreur : Il a fait recours contre la décision. | — | ["Il a formé un recours contre la décision","Il a déposé un recours contre la décision","Il a fait un recours contre la décision"] | true | Recours is a noun and needs an article: un recours. Former un recours is the formal verb; déposer and, in everyday French, faire un recours are also used.
 - c1-law-and-institutions-ex014 | translate | Traduisez avec « abroger » : Parliament repealed the law. | — | ["Le Parlement a abrogé la loi"] | true | Abroger une loi: to repeal a law.
 - c1-law-and-institutions-ex015 | translate | Traduisez (un avocat, un procès) : She needs a lawyer for her trial. | — | ["Elle a besoin d'un avocat pour son procès","Elle a besoin d'une avocate pour son procès"] | true | Avoir besoin de + un avocat or une avocate.
 - c1-law-and-institutions-ex016 | reorder | Remettez dans l'ordre : The law will come into force next year. | — | ["La loi entrera en vigueur l'année prochaine","L'année prochaine, la loi entrera en vigueur"] | false | Entrer en vigueur; the time phrase can open or close the sentence.
@@ -9968,8 +10290,9 @@ fr | pron | en | note
 - un ménage | uhn may-NAHZH | a household | —
 - un taux d'intérêt | uhn toh dan-tay-REH | an interest rate | —
 - la banque centrale | lah bahnk sahn-TRAHL | the central bank | —
-- relever / baisser ses taux | ruhl-VAY / beh-SAY say TOH | to raise / to lower its rates | —
+- relever (remonter) / baisser ses taux | ruhl-VAY (ruh-mohn-TAY) / beh-SAY say TOH | to raise (raise again) / to lower its rates | —
 - l'épargne (f.) / épargner | lay-PARN-yuh / ay-par-NYAY | savings / to save | —
+- davantage | dah-vahn-TAHZH | more (formal) | —
 - un placement | uhn plahss-MAHN | an investment (of savings) | —
 - rapporter | rah-por-TAY | to bring in, to yield (money) | —
 - la Bourse | lah BOORSS | the stock exchange | —
@@ -9989,13 +10312,13 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-finance-and-economics-ex007 | fill-in | Complétez avec le nom de « dépenser » : Les ___ publiques ont augmenté. | — | ["dépenses"] | false | Dépenser → les dépenses.
 - c1-finance-and-economics-ex008 | reformulation | Reformulez avec « relancer » : Le gouvernement veut que l'économie reparte. | — | ["Le gouvernement veut relancer l'économie"] | false | Relancer l'économie: to get it going again.
 - c1-finance-and-economics-ex009 | reformulation | Reformulez avec « la dette publique » et « augmenter » : L'État doit de plus en plus d'argent. | — | ["La dette publique augmente"] | false | What the State owes is la dette publique.
-- c1-finance-and-economics-ex010 | reformulation | Reformulez avec « épargner » : Les ménages gardent une partie de leur argent pour plus tard. | — | ["Les ménages épargnent"] | false | Épargner: to keep money aside, to save.
+- c1-finance-and-economics-ex010 | reformulation | Reformulez avec « épargner » : Les ménages gardent une partie de leur argent pour plus tard. | — | ["Les ménages épargnent","Les ménages épargnent une partie de leur argent"] | false | Épargner: to keep money aside, to save.
 - c1-finance-and-economics-ex011 | register-shift | Transformez au registre soutenu, avec « ne… guère » : Ce placement rapporte pas beaucoup. | — | ["Ce placement ne rapporte guère"] | false | Restore ne and use ne… guère (hardly) for a formal register.
-- c1-finance-and-economics-ex012 | error-correction | Corrigez l'erreur : La banque centrale a monté ses taux. | — | ["La banque centrale a relevé ses taux","La banque centrale a augmenté ses taux"] | true | Rates are relevés or augmentés; monter is intransitive here (les taux montent).
+- c1-finance-and-economics-ex012 | error-correction | Corrigez l'erreur : La banque centrale a monté ses taux. | — | ["La banque centrale a relevé ses taux","La banque centrale a augmenté ses taux","La banque centrale a remonté ses taux"] | true | Rates are relevés, augmentés or remontés; monter itself is used without an object here (les taux montent).
 - c1-finance-and-economics-ex013 | error-correction | Corrigez l'erreur : Le dette publique augmente. | — | ["La dette publique augmente"] | false | Dette is feminine: la dette.
 - c1-finance-and-economics-ex014 | translate | Traduisez avec « la fiscalité » et « réformer » : The government wants to reform taxation. | — | ["Le gouvernement veut réformer la fiscalité"] | false | La fiscalité: the tax system as a whole.
-- c1-finance-and-economics-ex015 | translate | Traduisez (un taux d'intérêt, élevé) : Interest rates are high. | — | ["Les taux d'intérêt sont élevés"] | false | Élevé, not haut, for a rate or a price.
-- c1-finance-and-economics-ex016 | translate | Traduisez (épargner, un ménage) : Households are saving more. | — | ["Les ménages épargnent plus"] | false | Un ménage: a household, in economics.
+- c1-finance-and-economics-ex015 | translate | Traduisez (un taux d'intérêt, élevé) : Interest rates are high. | — | ["Les taux d'intérêt sont élevés"] | false | Élevé is the usual adjective for a rate or a price.
+- c1-finance-and-economics-ex016 | translate | Traduisez (épargner, un ménage) : Households are saving more. | — | ["Les ménages épargnent plus","Les ménages épargnent davantage"] | false | Un ménage: a household, in economics.
 - c1-finance-and-economics-ex017 | reorder | Remettez dans l'ordre : The State must reduce its deficit. | — | ["L'État doit réduire son déficit"] | false | Réduire le déficit: a standard pairing in economic news.
 
 ## c1-diplomatic-language
@@ -10017,7 +10340,6 @@ fr | pron | en | note
 - prendre bonne note de | prahn-druh bonn NOT duh | to take due note of | —
 - dans la mesure du possible | dahn lah muh-zewr dew poh-SEE-bluh | as far as possible | —
 - un geste commercial | uhn zhest koh-mehr-SYAHL | a goodwill gesture (a discount or credit) | —
-- la facture | lah fak-TEWR | the invoice, the bill | —
 - une remise exceptionnelle | ewn ruh-meez ek-sep-syoh-NEL | a special discount | —
 - fidèle | fee-DEL | loyal | —
 - le partenariat | luh par-tuh-nah-RYAH | the partnership | —
@@ -10036,7 +10358,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-diplomatic-language-ex005 | connector-choice | Choisissez l'expression : ___, la facture a déjà été payée le 3 mars. | ["Sauf erreur de ma part","À notre grand regret","Dans la mesure du possible"] | ["Sauf erreur de ma part"] | false | Sauf erreur de ma part introduces a fact the writer believes but presents politely.
 - c1-diplomatic-language-ex006 | fill-in | Complétez : Nous ne sommes pas en ___ de vous répondre aujourd'hui. | — | ["mesure"] | false | Ne pas être en mesure de: not to be in a position to.
 - c1-diplomatic-language-ex007 | register-shift | Transformez en refus diplomatique, avec « il ne nous sera malheureusement pas possible de » : On ne peut pas vous rembourser. | — | ["Il ne nous sera malheureusement pas possible de vous rembourser"] | false | The impersonal structure takes the refusal away from the person.
-- c1-diplomatic-language-ex008 | register-shift | Transformez en remarque diplomatique, en commençant par « Sauf erreur de ma part, la facture » : Vous vous êtes trompé dans la facture. | — | ["Sauf erreur de ma part, la facture comporte une erreur"] | false | Make the invoice the subject, not the person, and soften with sauf erreur de ma part.
+- c1-diplomatic-language-ex008 | register-shift | Transformez en remarque diplomatique, en commençant par « Sauf erreur de ma part, la facture » : Vous vous êtes trompé dans la facture. | — | ["Sauf erreur de ma part, la facture comporte une erreur","Sauf erreur de ma part, la facture contient une erreur"] | false | Make the invoice the subject, not the person, and soften with sauf erreur de ma part.
 - c1-diplomatic-language-ex009 | reformulation | Reformulez avec « nous ne manquerons pas de » : Nous vous informerons, c'est promis. | — | ["Nous ne manquerons pas de vous informer"] | false | Nous ne manquerons pas de + infinitive is a formal promise.
 - c1-diplomatic-language-ex010 | reformulation | Reformulez avec « nous regrettons de ne pouvoir » : Nous sommes désolés de ne pas pouvoir accepter. | — | ["Nous regrettons de ne pouvoir accepter"] | false | With pouvoir, formal French can drop pas: de ne pouvoir accepter.
 - c1-diplomatic-language-ex011 | reformulation | Reformulez avec « prendre bonne note de », au passé composé : Nous avons bien compris votre demande. | — | ["Nous avons pris bonne note de votre demande"] | false | Prendre bonne note de: to acknowledge formally.
@@ -10087,7 +10409,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-formal-correspondence-ex006 | fill-in | Complétez : Nous accusons ___ de votre dossier. | — | ["réception"] | false | Accuser réception de: to acknowledge receipt of.
 - c1-formal-correspondence-ex007 | reformulation | Reformulez avec « je vous saurais gré de bien vouloir » : Pouvez-vous m'envoyer le formulaire ? | — | ["Je vous saurais gré de bien vouloir m'envoyer le formulaire"] | false | A question becomes a formal request in the conditionnel.
 - c1-formal-correspondence-ex008 | reformulation | Reformulez avec « par la présente » : Je vous écris pour vous informer de mon départ. | — | ["Par la présente, je vous informe de mon départ"] | false | Par la présente replaces je vous écris pour.
-- c1-formal-correspondence-ex009 | register-shift | Transformez au registre soutenu, avec « à la suite de » : Suite à notre conversation, je vous envoie le document. | — | ["À la suite de notre conversation, je vous envoie le document"] | true | Suite à is common, but careful writers prefer à la suite de in a formal letter.
+- c1-formal-correspondence-ex009 | register-shift | Transformez au registre soutenu, avec « à la suite de » : Suite à notre conversation, je vous envoie le document. | — | ["À la suite de notre conversation, je vous envoie le document","À la suite de notre conversation, je vous adresse le document"] | true | Suite à is common, but careful writers prefer à la suite de in a formal letter.
 - c1-formal-correspondence-ex010 | register-shift | Transformez en formule finale complète, pour Madame la Directrice : Cordialement. | — | ["Je vous prie d'agréer, Madame la Directrice, l'expression de mes salutations distinguées","Veuillez agréer, Madame la Directrice, l'expression de mes salutations distinguées","Je vous prie d'agréer, Madame la Directrice, l'expression de ma considération distinguée","Veuillez agréer, Madame la Directrice, l'expression de ma considération distinguée"] | false | The full formula: je vous prie d'agréer or veuillez agréer, the title between commas, then the expression.
 - c1-formal-correspondence-ex011 | error-correction | Corrigez l'erreur : Madame la Directrice Dubois, | — | ["Madame la Directrice,"] | false | With a title, don't add the name.
 - c1-formal-correspondence-ex012 | error-correction | Corrigez l'erreur : Je vous saurais gré à bien vouloir me répondre. | — | ["Je vous saurais gré de bien vouloir me répondre"] | false | Je vous saurais gré de + infinitive.
@@ -10155,11 +10477,8 @@ fr | pron | en | note
 - un cahier des charges | uhn kah-yay day SHARZH | a specification, a set of requirements | —
 - un ordre de mission | uh-nor-druh duh mee-SYOHN | a travel authorization (for a work trip) | —
 - le montant | luh mohn-TAHN | the amount (of money) | —
-- la commune | lah koh-MEWN | the municipality, the town (as a local authority) | —
 - la salle des fêtes | lah sahl day FET | the community hall | —
 - le règlement | luh reh-gluh-MAHN | the regulations, the rules | —
-- versé / versée (verser) | vehr-SAY | paid (to pay a sum) | —
-- détaillé / détaillée | day-tah-YAY | detailed | —
 - l'adjoint / l'adjointe au maire | lad-ZHWAN / lad-ZHWANT oh MEHR | the deputy mayor | —
 
 ### Exercises
@@ -10167,7 +10486,7 @@ fr | pron | en | note
 id | type | prompt | options | answers | strictAccents | explanation
 
 - c1-review-professional-ex001 | multiple-choice | Indiquez le sens de la phrase : Le nouveau règlement entrera en vigueur le 1er juin. | ["The new rules will come into force on 1 June.","The new rules will be repealed on 1 June.","The new rules will be voted on 1 June."] | ["The new rules will come into force on 1 June."] | false | Entrer en vigueur: to come into force. Repealed is abrogé.
-- c1-review-professional-ex002 | connector-choice | Choisissez le mot : Compte tenu de la baisse des ___, la commune réduit ses dépenses. | ["recettes","déficits","taux d'intérêt"] | ["recettes"] | false | When revenue falls, a town cuts its spending: la baisse des recettes.
+- c1-review-professional-ex002 | connector-choice | Choisissez le mot : Compte tenu de la baisse des ___, la ville réduit ses dépenses. | ["recettes","déficits","taux d'intérêt"] | ["recettes"] | false | When revenue falls, a town cuts its spending: la baisse des recettes.
 - c1-review-professional-ex003 | multiple-choice | Indiquez la réponse la plus diplomatique. | ["Il ne nous sera malheureusement pas possible de mettre la salle à votre disposition.","Nous refusons de vous prêter la salle.","La salle n'est pas pour vous."] | ["Il ne nous sera malheureusement pas possible de mettre la salle à votre disposition."] | false | Impersonal, in the future, with malheureusement.
 - c1-review-professional-ex004 | connector-choice | Choisissez le mot : J'ai l'honneur ___ vous informer que votre demande a été acceptée. | ["de","à","pour"] | ["de"] | false | J'ai l'honneur de + infinitive.
 - c1-review-professional-ex005 | fill-in | Accordez le participe de « s'abstenir » : Deux membres du conseil se sont ___. | — | ["abstenus"] | false | S'abstenir takes être; the participle agrees with deux membres.
@@ -10179,6 +10498,6 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-review-professional-ex011 | register-shift | Transformez au registre soutenu, avec « compte tenu de la rigueur budgétaire » : Comme on a moins d'argent cette année, la subvention est réduite. | — | ["Compte tenu de la rigueur budgétaire, la subvention est réduite","La subvention est réduite compte tenu de la rigueur budgétaire"] | false | Compte tenu de + noun replaces comme + clause.
 - c1-review-professional-ex012 | error-correction | Corrigez l'erreur : En vertu à ce règlement, la salle est fermée. | — | ["En vertu de ce règlement, la salle est fermée"] | false | En vertu de + the text.
 - c1-review-professional-ex013 | error-correction | Corrigez l'erreur : Madame la Présidente Moreau, | — | ["Madame la Présidente,"] | false | With a title, no name.
-- c1-review-professional-ex014 | translate | Traduisez avec « donner suite à » : We will not be able to act on your request. | — | ["Nous ne pourrons pas donner suite à votre demande","Il ne nous sera pas possible de donner suite à votre demande"] | true | Donner suite à une demande, in a refusal.
+- c1-review-professional-ex014 | translate | Traduisez avec « donner suite à » : We will not be able to act on your request. | — | ["Nous ne pourrons pas donner suite à votre demande","Il ne nous sera pas possible de donner suite à votre demande","Nous ne serons pas en mesure de donner suite à votre demande"] | true | Donner suite à une demande, in a refusal.
 - c1-review-professional-ex015 | translate | Traduisez avec « un cahier des charges » et « ci-joint » : Please find the specifications attached. | — | ["Veuillez trouver ci-joint le cahier des charges","Vous trouverez ci-joint le cahier des charges"] | false | Veuillez trouver ci-joint, or vous trouverez ci-joint.
 - c1-review-professional-ex016 | reorder | Remettez dans l'ordre : We will be sure to answer you. | — | ["Nous ne manquerons pas de vous répondre"] | false | Nous ne manquerons pas de + infinitive: a formal promise.

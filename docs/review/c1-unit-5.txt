@@ -32,7 +32,7 @@ vocab:
   - { id: "c1-law-and-institutions-v019", group: "case", fr: "un procès", pron: "uhn proh-SEH", en: "a trial, a court case" }
   - { id: "c1-law-and-institutions-v020", group: "case", fr: "un jugement", pron: "uhn zhewzh-MAHN", en: "a judgment, a ruling" }
   - { id: "c1-law-and-institutions-v021", group: "case", fr: "faire appel (de)", pron: "fehr ah-PEL", en: "to appeal (against a ruling)" }
-  - { id: "c1-law-and-institutions-v022", group: "case", fr: "former un recours", pron: "for-may uhn ruh-KOOR", en: "to lodge an appeal, to take legal action (against a decision)" }
+  - { id: "c1-law-and-institutions-v022", group: "case", fr: "former un recours", pron: "for-may uhn ruh-KOOR", en: "to lodge an appeal, to take legal action (against a decision)", note: "Formal. Also déposer un recours; everyday: faire un recours." }
   - { id: "c1-law-and-institutions-v023", group: "rights", fr: "un droit", pron: "uhn DRWAH", en: "a right; (le droit) law as a subject" }
   - { id: "c1-law-and-institutions-v024", group: "rights", fr: "être tenu de", pron: "eh-truh tuh-NEW duh", en: "to be required to, to be obliged to", note: "Tenue, tenus, tenues." }
   - { id: "c1-law-and-institutions-v025", group: "rights", fr: "juridique", pron: "zhew-ree-DEEK", en: "legal (relating to law)" }
@@ -54,7 +54,7 @@ exercises:
     prompt: "Choisissez le mot : Il a perdu son procès, mais il va faire ___."
     options: ["appel", "recours", "jugement"]
     answers: ["appel"]
-    explanation: "Faire appel: to appeal. You form a recours (former un recours), you don't make one."
+    explanation: "Faire appel: to appeal against a ruling. Recours needs an article and a verb of its own (former, déposer or faire un recours), and jugement doesn't fit after faire here."
   - id: "c1-law-and-institutions-ex004"
     type: "multiple-choice"
     prompt: "Indiquez le sens de « en vertu de » dans la phrase : En vertu de cette loi, les entreprises sont tenues d'informer leurs clients."
@@ -109,9 +109,9 @@ exercises:
   - id: "c1-law-and-institutions-ex013"
     type: "error-correction"
     prompt: "Corrigez l'erreur : Il a fait recours contre la décision."
-    answers: ["Il a formé un recours contre la décision"]
+    answers: ["Il a formé un recours contre la décision", "Il a déposé un recours contre la décision", "Il a fait un recours contre la décision"]
     strictAccents: true
-    explanation: "The collocation is former un recours. Faire goes with appel: faire appel d'un jugement."
+    explanation: "Recours is a noun and needs an article: un recours. Former un recours is the formal verb; déposer and, in everyday French, faire un recours are also used."
   - id: "c1-law-and-institutions-ex014"
     type: "translate"
     prompt: "Traduisez avec « abroger » : Parliament repealed the law."
@@ -180,7 +180,7 @@ France has two separate orders of courts. *La justice* in the ordinary sense (di
 
 <VocabTable group="case" />
 
-*Un procès* is a trial or a court case, where *un juge* or *une juge* decides and each side is helped by *un avocat* or *une avocate*. The decision is *un jugement*. A side that disagrees can *faire appel* (appeal). Against a decision of an administration, you *formez un recours*: the collocation is *former un recours*, not *faire un recours*.
+*Un procès* is a trial or a court case, where *un juge* or *une juge* decides and each side is helped by *un avocat* or *une avocate*. The decision is *un jugement*. A side that disagrees can *faire appel* (appeal). Against a decision of an administration, you take legal action: in formal writing, *former un recours*; *déposer un recours* is also standard, and everyday administrative French often says *faire un recours*.
 
 <Example fr="Elle a perdu son procès, mais elle a fait appel du jugement." en="She lost her case, but she appealed against the ruling." />
 <Example fr="Plusieurs habitants ont formé un recours contre ce projet." en="Several residents have taken legal action against this project." />
@@ -235,8 +235,8 @@ Sarah tells her friend Lucas, a law student, about something she read in the pap
 - *Rassure-toi, je n'ai pas de procès en cours.* (Don't worry, I don't have a court case going on.)
 - *Tant mieux. Un procès, ça peut durer longtemps.* (Just as well. A court case can last a long time. (spoken))
 
-<Callout type="warning" title="Former un recours, not faire un recours">
-  Learners often use *faire* with every legal noun. The collocations differ: **former un recours** (against a decision), **faire appel** (against a ruling), **porter plainte** (with the police or a court).
+<Callout type="warning" title="Former un recours in formal writing">
+  Learners often use *faire* with every legal noun, and sometimes drop the article. In formal writing, choose the established collocation: **former un recours** (against a decision; everyday French also says *faire un recours*), **faire appel** (against a ruling), **porter plainte** (with the police or a court).
 </Callout>
 
 <Callout type="tip" title="Name the order of the court">
@@ -277,13 +277,14 @@ vocab:
   - { id: "c1-finance-and-economics-v011", group: "policy", fr: "un ménage", pron: "uhn may-NAHZH", en: "a household" }
   - { id: "c1-finance-and-economics-v012", group: "markets", fr: "un taux d'intérêt", pron: "uhn toh dan-tay-REH", en: "an interest rate" }
   - { id: "c1-finance-and-economics-v013", group: "markets", fr: "la banque centrale", pron: "lah bahnk sahn-TRAHL", en: "the central bank" }
-  - { id: "c1-finance-and-economics-v014", group: "markets", fr: "relever / baisser ses taux", pron: "ruhl-VAY / beh-SAY say TOH", en: "to raise / to lower its rates" }
+  - { id: "c1-finance-and-economics-v014", group: "markets", fr: "relever (remonter) / baisser ses taux", pron: "ruhl-VAY (ruh-mohn-TAY) / beh-SAY say TOH", en: "to raise (raise again) / to lower its rates" }
   - { id: "c1-finance-and-economics-v015", group: "markets", fr: "l'épargne (f.) / épargner", pron: "lay-PARN-yuh / ay-par-NYAY", en: "savings / to save" }
-  - { id: "c1-finance-and-economics-v016", group: "markets", fr: "un placement", pron: "uhn plahss-MAHN", en: "an investment (of savings)" }
-  - { id: "c1-finance-and-economics-v017", group: "markets", fr: "rapporter", pron: "rah-por-TAY", en: "to bring in, to yield (money)" }
-  - { id: "c1-finance-and-economics-v018", group: "markets", fr: "la Bourse", pron: "lah BOORSS", en: "the stock exchange" }
-  - { id: "c1-finance-and-economics-v019", group: "markets", fr: "une obligation", pron: "ew-noh-blee-gah-SYOHN", en: "a bond (a loan to a State or a company)", note: "Also an obligation, a duty." }
-  - { id: "c1-finance-and-economics-v020", group: "markets", fr: "les marchés financiers", pron: "lay mar-shay fee-nahn-SYAY", en: "the financial markets" }
+  - { id: "c1-finance-and-economics-v016", group: "markets", fr: "davantage", pron: "dah-vahn-TAHZH", en: "more (formal)" }
+  - { id: "c1-finance-and-economics-v017", group: "markets", fr: "un placement", pron: "uhn plahss-MAHN", en: "an investment (of savings)" }
+  - { id: "c1-finance-and-economics-v018", group: "markets", fr: "rapporter", pron: "rah-por-TAY", en: "to bring in, to yield (money)" }
+  - { id: "c1-finance-and-economics-v019", group: "markets", fr: "la Bourse", pron: "lah BOORSS", en: "the stock exchange" }
+  - { id: "c1-finance-and-economics-v020", group: "markets", fr: "une obligation", pron: "ew-noh-blee-gah-SYOHN", en: "a bond (a loan to a State or a company)", note: "Also an obligation, a duty." }
+  - { id: "c1-finance-and-economics-v021", group: "markets", fr: "les marchés financiers", pron: "lay mar-shay fee-nahn-SYAY", en: "the financial markets" }
 exercises:
   - id: "c1-finance-and-economics-ex001"
     type: "connector-choice"
@@ -339,7 +340,7 @@ exercises:
   - id: "c1-finance-and-economics-ex010"
     type: "reformulation"
     prompt: "Reformulez avec « épargner » : Les ménages gardent une partie de leur argent pour plus tard."
-    answers: ["Les ménages épargnent"]
+    answers: ["Les ménages épargnent", "Les ménages épargnent une partie de leur argent"]
     explanation: "Épargner: to keep money aside, to save."
   - id: "c1-finance-and-economics-ex011"
     type: "register-shift"
@@ -349,9 +350,9 @@ exercises:
   - id: "c1-finance-and-economics-ex012"
     type: "error-correction"
     prompt: "Corrigez l'erreur : La banque centrale a monté ses taux."
-    answers: ["La banque centrale a relevé ses taux", "La banque centrale a augmenté ses taux"]
+    answers: ["La banque centrale a relevé ses taux", "La banque centrale a augmenté ses taux", "La banque centrale a remonté ses taux"]
     strictAccents: true
-    explanation: "Rates are relevés or augmentés; monter is intransitive here (les taux montent)."
+    explanation: "Rates are relevés, augmentés or remontés; monter itself is used without an object here (les taux montent)."
   - id: "c1-finance-and-economics-ex013"
     type: "error-correction"
     prompt: "Corrigez l'erreur : Le dette publique augmente."
@@ -366,11 +367,11 @@ exercises:
     type: "translate"
     prompt: "Traduisez (un taux d'intérêt, élevé) : Interest rates are high."
     answers: ["Les taux d'intérêt sont élevés"]
-    explanation: "Élevé, not haut, for a rate or a price."
+    explanation: "Élevé is the usual adjective for a rate or a price."
   - id: "c1-finance-and-economics-ex016"
     type: "translate"
     prompt: "Traduisez (épargner, un ménage) : Households are saving more."
-    answers: ["Les ménages épargnent plus"]
+    answers: ["Les ménages épargnent plus", "Les ménages épargnent davantage"]
     explanation: "Un ménage: a household, in economics."
   - id: "c1-finance-and-economics-ex017"
     type: "reorder"
@@ -413,12 +414,12 @@ Economic debates often oppose two policies. *La relance* means spending more, or
 
 <VocabTable group="markets" />
 
-*Un taux d'intérêt* is the price of borrowing. *La banque centrale* can *relever* or *baisser ses taux*: when they go up, borrowing costs more; when they go down, it costs less. The rates themselves *montent* or *baissent*, but the bank *relève* them: *monter* isn't used with an object here.
+*Un taux d'intérêt* is the price of borrowing. *La banque centrale* can *relever* or *baisser ses taux*: when they go up, borrowing costs more; when they go down, it costs less. The rates themselves *montent* or *baissent*; the bank *relève* them (or *remonte* them, after a fall).
 
 *L'épargne* is the money people put aside, and *épargner* is to save. That money can go into *un placement* (an investment), which *rapporte* (yields) more or less, with more or less risk. *La Bourse* is the stock exchange, where *les actions* you know from B2 are bought and sold. *Une obligation*, in finance, is a bond: a loan to a State or a company that pays interest. Elsewhere, it keeps its everyday meaning of a duty.
 
 <Example fr="La banque centrale a relevé ses taux pour faire baisser l'inflation." en="The central bank raised its rates to bring inflation down." />
-<Example fr="Les ménages épargnent plus quand l'avenir est incertain." en="Households save more when the future is uncertain." />
+<Example fr="Les ménages épargnent davantage quand l'avenir est incertain." en="Households save more when the future is uncertain." />
 <Example fr="Un placement sans risque rapporte en général moins." en="A risk-free investment usually yields less." />
 <Example fr="Les marchés financiers ont réagi à la décision." en="The financial markets reacted to the decision." />
 
@@ -461,8 +462,8 @@ Lucas is reading an economic article. He asks his sister Emma, who works in a ba
 
 - *Emma, ici ils disent que la banque centrale a relevé ses taux. Ça veut dire quoi ?* (Emma, here they say the central bank raised its rates. What does that mean? (spoken))
 - *Que les taux d'intérêt montent : emprunter coûte plus cher.* (That interest rates are going up: borrowing costs more.)
-- *Alors c'est le moment d'épargner, pas d'acheter un appartement ?* (So it's the time to save, not to buy a flat?)
-- *Pour beaucoup de ménages, oui. L'épargne rapporte un peu plus.* (For many households, yes. Savings bring in a bit more.)
+- *Alors qui gagne et qui perd ?* (So who wins and who loses?)
+- *En général, l'épargne rapporte un peu plus, et ceux qui empruntent paient plus cher.* (In general, savings bring in a bit more, and people who borrow pay more.)
 - *Et l'article parle aussi du déficit public.* (And the article also talks about the public deficit.)
 - *C'est quand l'État dépense plus que ses recettes.* (That's when the State spends more than its revenue.)
 - *Et pour le payer, il s'endette ?* (And to pay for it, it borrows?)
@@ -482,7 +483,7 @@ Lucas is reading an economic article. He asks his sister Emma, who works in a ba
 
 ## En résumé
 
-Le budget de l'État fixe les dépenses publiques et les recettes, qui viennent surtout des impôts. La fiscalité est l'ensemble du système des impôts. Quand les dépenses sont plus élevées que les recettes, il y a un déficit public, et l'État s'endette. La dette publique est le total de ce que l'État doit. Pour aider l'économie, un gouvernement peut choisir la relance, c'est-à-dire dépenser plus, ou la rigueur budgétaire, c'est-à-dire réduire les dépenses. La banque centrale peut relever ou baisser ses taux d'intérêt. Les ménages épargnent et choisissent des placements, qui rapportent plus ou moins. À la Bourse, on achète des actions, et une obligation est un prêt à l'État ou à une entreprise. Il faut séparer les faits, comme une hausse de la dette, et les jugements.
+Le budget de l'État fixe les dépenses publiques et les recettes, qui viennent surtout des impôts. La fiscalité est l'ensemble du système des impôts. Quand les dépenses sont plus élevées que les recettes, il y a un déficit public, et l'État s'endette. La dette publique est le total de ce que l'État doit. Un gouvernement doit choisir entre deux politiques : la relance, c'est-à-dire dépenser plus pour faire repartir l'économie, ou la rigueur budgétaire, c'est-à-dire réduire les dépenses pour réduire le déficit. La banque centrale peut relever ou baisser ses taux d'intérêt. Les ménages épargnent et choisissent des placements, qui rapportent plus ou moins. À la Bourse, on achète des actions, et une obligation est un prêt à l'État ou à une entreprise. Il faut séparer les faits, comme une hausse de la dette, et les jugements.
 
 ## What's next
 
@@ -514,13 +515,12 @@ vocab:
   - { id: "c1-diplomatic-language-v011", group: "promise", fr: "prendre bonne note de", pron: "prahn-druh bonn NOT duh", en: "to take due note of" }
   - { id: "c1-diplomatic-language-v012", group: "promise", fr: "dans la mesure du possible", pron: "dahn lah muh-zewr dew poh-SEE-bluh", en: "as far as possible" }
   - { id: "c1-diplomatic-language-v013", group: "promise", fr: "un geste commercial", pron: "uhn zhest koh-mehr-SYAHL", en: "a goodwill gesture (a discount or credit)" }
-  - { id: "c1-diplomatic-language-v014", group: "promise", fr: "la facture", pron: "lah fak-TEWR", en: "the invoice, the bill" }
-  - { id: "c1-diplomatic-language-v015", group: "promise", fr: "une remise exceptionnelle", pron: "ewn ruh-meez ek-sep-syoh-NEL", en: "a special discount" }
-  - { id: "c1-diplomatic-language-v016", group: "promise", fr: "fidèle", pron: "fee-DEL", en: "loyal" }
-  - { id: "c1-diplomatic-language-v017", group: "glossary", fr: "le partenariat", pron: "luh par-tuh-nah-RYAH", en: "the partnership" }
-  - { id: "c1-diplomatic-language-v018", group: "glossary", fr: "la livraison gratuite", pron: "lah lee-vreh-zohn grah-TWEET", en: "free delivery" }
-  - { id: "c1-diplomatic-language-v019", group: "glossary", fr: "la compréhension", pron: "lah kohn-pray-ahn-SYOHN", en: "understanding" }
-  - { id: "c1-diplomatic-language-v020", group: "glossary", fr: "le transporteur", pron: "luh trahns-por-TUHR", en: "the carrier, the delivery company" }
+  - { id: "c1-diplomatic-language-v014", group: "promise", fr: "une remise exceptionnelle", pron: "ewn ruh-meez ek-sep-syoh-NEL", en: "a special discount" }
+  - { id: "c1-diplomatic-language-v015", group: "promise", fr: "fidèle", pron: "fee-DEL", en: "loyal" }
+  - { id: "c1-diplomatic-language-v016", group: "glossary", fr: "le partenariat", pron: "luh par-tuh-nah-RYAH", en: "the partnership" }
+  - { id: "c1-diplomatic-language-v017", group: "glossary", fr: "la livraison gratuite", pron: "lah lee-vreh-zohn grah-TWEET", en: "free delivery" }
+  - { id: "c1-diplomatic-language-v018", group: "glossary", fr: "la compréhension", pron: "lah kohn-pray-ahn-SYOHN", en: "understanding" }
+  - { id: "c1-diplomatic-language-v019", group: "glossary", fr: "le transporteur", pron: "luh trahns-por-TUHR", en: "the carrier, the delivery company" }
 exercises:
   - id: "c1-diplomatic-language-ex001"
     type: "multiple-choice"
@@ -565,7 +565,7 @@ exercises:
   - id: "c1-diplomatic-language-ex008"
     type: "register-shift"
     prompt: "Transformez en remarque diplomatique, en commençant par « Sauf erreur de ma part, la facture » : Vous vous êtes trompé dans la facture."
-    answers: ["Sauf erreur de ma part, la facture comporte une erreur"]
+    answers: ["Sauf erreur de ma part, la facture comporte une erreur", "Sauf erreur de ma part, la facture contient une erreur"]
     explanation: "Make the invoice the subject, not the person, and soften with sauf erreur de ma part."
   - id: "c1-diplomatic-language-ex009"
     type: "reformulation"
@@ -615,7 +615,7 @@ By the end of this lesson you'll be able to refuse a request, point out an error
 
 ## What you already know
 
-You know the polite conditionnel and *je vous serais reconnaissant de* from <LessonLink id="b1-formal-email" text="the lesson on writing a formal email" />, *nous serions prêts à* and *faire un geste* from <LessonLink id="b2-negotiating" text="the lesson on negotiating" />, and *présenter ses excuses* and *un contretemps* from <LessonLink id="b2-regret-and-reproach" text="the lesson on regret and reproach" />. You also know *ne* alone with *pouvoir* (*je ne saurais dire*, *de ne pouvoir*) from <LessonLink id="c1-literary-negation" text="the lesson on literary negation" />. Diplomatic French combines all of these.
+You know the polite conditionnel and *je vous serais reconnaissant de* from <LessonLink id="b1-formal-email" text="the lesson on writing a formal email" />, *nous serions prêts à* and *faire un geste* from <LessonLink id="b2-negotiating" text="the lesson on negotiating" />, and *présenter ses excuses* and *un contretemps* from <LessonLink id="b2-regret-and-reproach" text="the lesson on regret and reproach" />. You also know *ne* alone with *pouvoir* and *savoir* (*je ne saurais dire*, *de ne pouvoir*) from <LessonLink id="c1-literary-negation" text="the lesson on literary negation" />. Diplomatic French combines all of these.
 
 ## What makes a sentence diplomatic
 
@@ -688,9 +688,9 @@ The two emails below are original texts written for this lesson. The company and
 
 *Je vous remercie de votre message et je comprends tout à fait votre déception : un retard de deux semaines n'est pas ce que vous pouvez attendre d'un partenariat de dix ans.*
 
-*À notre grand regret, il ne nous sera malheureusement pas possible de vous accorder une remise de vingt pour cent, ni la livraison gratuite pour toutes vos commandes. En revanche, nous vous proposons un geste commercial de dix pour cent sur cette facture, ainsi que la livraison gratuite pour votre prochaine commande.*
+*À notre grand regret, il ne nous sera pas possible de vous accorder une remise de vingt pour cent, ni la livraison gratuite pour toutes vos commandes : nos conditions commerciales ne permettent pas de remise supérieure à dix pour cent. En revanche, nous vous proposons un geste commercial de dix pour cent sur cette facture, ainsi que la livraison gratuite pour votre prochaine commande.*
 
-*Sauf erreur de ma part, ce retard venait d'un problème chez notre transporteur, que nous avons depuis changé. Nous avons aussi vérifié la livraison de janvier : elle était arrivée avec un jour de retard, et nous vous présentons nos excuses pour ces deux retards. Nous ne manquerons pas de vous prévenir, dans la mesure du possible, si un nouveau retard se présente. Je reste à votre disposition pour en parler par téléphone.*
+*Ce retard venait d'un problème chez notre transporteur, que nous avons depuis changé. Sauf erreur de ma part, la livraison de janvier était arrivée avec un jour de retard ; nous vous présentons nos excuses pour ces deux retards. Nous ne manquerons pas de vous prévenir, dans la mesure du possible, si un nouveau retard se présente. Je reste à votre disposition pour en parler par téléphone.*
 
 *Je vous prie d'agréer, Monsieur, mes salutations distinguées.*
 
@@ -698,15 +698,15 @@ The two emails below are original texts written for this lesson. The company and
 
 <VocabTable group="glossary" />
 
-(Subject: March order. Dear Madam, We have been customers of your company for ten years. Our last order arrived two weeks late, which caused us real difficulties. It isn't the first time: in January, a delivery had already arrived late. We therefore ask you for a special discount of twenty per cent on the invoice, as well as free delivery for our next orders. We count on your understanding. Kind regards, Paul Martin. Subject: RE: March order. Dear Sir, Thank you for your message; I fully understand your disappointment: a two-week delay is not what you can expect from a ten-year partnership. To our great regret, we will unfortunately not be able to grant you a twenty per cent discount, nor free delivery for all your orders. On the other hand, we offer you a goodwill gesture of ten per cent on this invoice, as well as free delivery for your next order. Unless I'm mistaken, this delay came from a problem with our carrier, which we have since changed. We have also checked the January delivery: it arrived one day late, and we apologize for both delays. We will be sure to let you know, as far as possible, if there is another delay. I remain at your disposal to talk about it by phone. Yours faithfully, Claire Dubois, customer service.)
+(Subject: March order. Dear Madam, We have been customers of your company for ten years. Our last order arrived two weeks late, which caused us real difficulties. It isn't the first time: in January, a delivery had already arrived late. We therefore ask you for a special discount of twenty per cent on the invoice, as well as free delivery for our next orders. We count on your understanding. Kind regards, Paul Martin. Subject: RE: March order. Dear Sir, Thank you for your message; I fully understand your disappointment: a two-week delay is not what you can expect from a ten-year partnership. To our great regret, we will not be able to grant you a twenty per cent discount, nor free delivery for all your orders: our commercial terms do not allow discounts above ten per cent. On the other hand, we offer you a goodwill gesture of ten per cent on this invoice, as well as free delivery for your next order. This delay came from a problem with our carrier, which we have since changed. Unless I'm mistaken, the January delivery arrived one day late; we apologize for both delays. We will be sure to let you know, as far as possible, if there is another delay. I remain at your disposal to talk about it by phone. Yours faithfully, Claire Dubois, customer service.)
 
 ## How the reply works
 
 - **Thanks and acknowledgement**: *je vous remercie*, *je comprends tout à fait votre déception*.
-- **The refusal**: *à notre grand regret, il ne nous sera malheureusement pas possible de*, with *ni* for the second item.
+- **The refusal**: *à notre grand regret, il ne nous sera pas possible de*, with *ni* for the second item, and a short reason: *nos conditions commerciales ne permettent pas de remise supérieure à dix pour cent*.
 - **The offer**: *en revanche, nous vous proposons un geste commercial*.
-- **The explanation**, softened: *sauf erreur de ma part*.
-- **An apology** for both delays, including the one in January that the client mentioned: *nous vous présentons nos excuses pour ces deux retards*.
+- **The explanation** of the March delay, stated plainly: *ce retard venait d'un problème chez notre transporteur*.
+- **An apology** for both delays, with the January delay softened by *sauf erreur de ma part*: *nous vous présentons nos excuses pour ces deux retards*.
 - **The positive close**: *nous ne manquerons pas de*, *dans la mesure du possible*, *je reste à votre disposition*.
 
 Notice that the reply repeats both requests before refusing them, so the client knows he was read carefully.
@@ -823,7 +823,7 @@ exercises:
   - id: "c1-formal-correspondence-ex009"
     type: "register-shift"
     prompt: "Transformez au registre soutenu, avec « à la suite de » : Suite à notre conversation, je vous envoie le document."
-    answers: ["À la suite de notre conversation, je vous envoie le document"]
+    answers: ["À la suite de notre conversation, je vous envoie le document", "À la suite de notre conversation, je vous adresse le document"]
     strictAccents: true
     explanation: "Suite à is common, but careful writers prefer à la suite de in a formal letter."
   - id: "c1-formal-correspondence-ex010"
@@ -931,17 +931,23 @@ Many institutions now accept requests by email. The register doesn't change: the
 
 <Example fr="Vous trouverez ci-joint le certificat médical mentionné dans ma demande." en="Please find attached the medical certificate mentioned in my request." />
 
-Whatever the medium, reread for consistency: the same title in the salutation and the closing, the same person (*je* or *nous*) throughout, and one request per letter.
+Whatever the medium, reread for consistency: the same title in the salutation and the closing; *je* for the person who signs and *nous* for the institution, each used in the same way throughout; and one request per letter.
 
 ## A letter and its reply
 
 The letter and the reply below are original texts written for this lesson. The people and the university are invented.
 
+*Inès Moreau, 12 rue des Lilas, Lyon*
+
+*Madame la Présidente de l'université de Saint-Aubin*
+
+*Lyon, le 15 mai*
+
 *Objet : demande de délai pour la remise de mon mémoire*
 
 *Madame la Présidente,*
 
-*J'ai l'honneur de solliciter un délai supplémentaire pour la remise de mon mémoire de master, prévue le 30 mai. Pendant le mois d'avril, j'ai été malade et je n'ai pas pu travailler pendant trois semaines, comme l'indique le certificat médical ci-joint. Je vais mieux aujourd'hui et j'ai repris mon travail. Mon travail porte sur l'histoire des bibliothèques publiques en France, et il me reste deux parties à écrire. Je vous saurais gré de bien vouloir m'accorder un délai d'un mois. Ma directrice de mémoire, que j'ai informée de ma situation, est favorable à cette demande.*
+*J'ai l'honneur de solliciter un délai supplémentaire pour la remise de mon mémoire de master, prévue le 30 mai. En avril, j'ai été malade et je n'ai pas pu travailler pendant trois semaines, comme l'indique le certificat médical ci-joint. Je vais mieux aujourd'hui et j'ai repris mes recherches. Mon mémoire porte sur l'histoire des bibliothèques publiques en France, et il me reste deux parties à écrire. Je vous saurais gré de bien vouloir m'accorder un délai d'un mois. Ma directrice de mémoire, que j'ai informée de ma situation, est favorable à cette demande.*
 
 *Je me tiens à votre disposition pour tout autre document et vous remercie par avance de votre attention.*
 
@@ -955,7 +961,7 @@ The letter and the reply below are original texts written for this lesson. The p
 
 *Madame,*
 
-*En réponse à votre courrier du 15 mai, j'accuse réception de votre demande et du certificat médical qui l'accompagnait. Votre dossier a été étudié le 18 mai. Compte tenu de votre situation, j'ai le plaisir de vous informer qu'un délai vous est accordé. Votre mémoire devra cependant être remis au plus tard le 20 juin, afin que la soutenance puisse avoir lieu avant l'été. Je vous saurais gré d'en informer votre directrice de mémoire. Pour toute question, vous pouvez contacter le secrétariat du master. J'espère que vous allez tout à fait bien aujourd'hui.*
+*En réponse à votre courrier du 15 mai, j'accuse réception de votre demande et du certificat médical qui l'accompagnait. Votre dossier a été étudié le 18 mai. Compte tenu de votre situation, j'ai le plaisir de vous informer qu'un délai vous est accordé. Votre mémoire devra cependant être remis au plus tard le 20 juin, afin que la soutenance puisse avoir lieu avant l'été. Je vous saurais gré d'en informer votre directrice de mémoire. Pour toute question, vous pouvez contacter le secrétariat du master.*
 
 *Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.*
 
@@ -963,11 +969,11 @@ The letter and the reply below are original texts written for this lesson. The p
 
 <VocabTable group="glossary" />
 
-(Subject: request for an extension for the submission of my dissertation. Madam President, I have the honour to request an extension for the submission of my master's dissertation, due on 30 May. During April, I was ill and could not work for three weeks, as the attached medical certificate shows. I am better now and have gone back to work. My work is on the history of public libraries in France, and I still have two parts to write. I would be grateful if you would grant me a one-month extension. My supervisor, whom I have informed of my situation, supports this request. I remain at your disposal for any other document and thank you in advance for your attention. Yours faithfully, Inès Moreau. Your ref.: your letter of 15 May. Subject: your request for an extension. Madam, In reply to your letter of 15 May, I acknowledge receipt of your request and of the medical certificate that came with it. Your file was examined on 18 May. In view of your situation, I am pleased to inform you that an extension is granted. Your dissertation must, however, be submitted by 20 June at the latest, so that the viva can take place before the summer. I would be grateful if you would inform your supervisor. For any question, you can contact the master's office. I hope you are fully well again now. Yours faithfully, the President of the university.)
+(Inès Moreau, 12 rue des Lilas, Lyon. To the President of the University of Saint-Aubin. Lyon, 15 May. Subject: request for an extension for the submission of my dissertation. Madam President, I have the honour to request an extension for the submission of my master's dissertation, due on 30 May. In April, I was ill and could not work for three weeks, as the attached medical certificate shows. I am better now and have gone back to my research. My dissertation is on the history of public libraries in France, and I still have two parts to write. I would be grateful if you would grant me a one-month extension. My supervisor, whom I have informed of my situation, supports this request. I remain at your disposal for any other document and thank you in advance for your attention. Yours faithfully, Inès Moreau. Your ref.: your letter of 15 May. Subject: your request for an extension. Madam, In reply to your letter of 15 May, I acknowledge receipt of your request and of the medical certificate that came with it. Your file was examined on 18 May. In view of your situation, I am pleased to inform you that an extension is granted. Your dissertation must, however, be submitted by 20 June at the latest, so that the viva can take place before the summer. I would be grateful if you would inform your supervisor. For any question, you can contact the master's office. Yours faithfully, the President of the university.)
 
 ## How the letters work
 
-- **The request** opens with *j'ai l'honneur de solliciter*, gives the reason and a supporting document (*le certificat médical ci-joint*), then asks with *je vous saurais gré de bien vouloir*.
+- **The request** follows the layout of the lesson (sender, recipient with her title, place and date, objet), opens with *j'ai l'honneur de solliciter*, gives the reason and a supporting document (*le certificat médical ci-joint*), then asks with *je vous saurais gré de bien vouloir*.
 - **The salutation** uses the title, *Madame la Présidente*, and the closing repeats it.
 - **The reply** opens with *en réponse à votre courrier* and *j'accuse réception de*, grants the request partly (*un délai vous est accordé*, *au plus tard le 20 juin*) and ends with a request of its own.
 - **The closings differ**: the student writes to a superior (*ma considération distinguée*); the president replies with *mes salutations distinguées*.
@@ -1208,21 +1214,23 @@ This record is an original text written for this lesson. The association and the
 
 *Présents : douze membres du bureau. Présidente de séance : Madame Lefèvre.*
 
-*La séance est ouverte à dix-huit heures. Après un tour de table, les échanges portent sur trois points.*
+*La séance est ouverte à dix-huit heures. Après un tour de table, les échanges portent sur quatre points.*
 
 *Point 1 : l'aménagement de la cour de l'immeuble. Les membres s'accordent sur le principe d'un parking à vélos. La proposition de Monsieur Petit, qui prévoit vingt places, est mise aux voix à main levée : elle est adoptée par dix voix, deux membres s'étant abstenus. Le coût sera partagé entre l'association et le propriétaire de l'immeuble, sous réserve de l'accord de celui-ci. Madame Morel est chargée de demander trois devis avant le 15 avril.*
 
-*Point 2 : la fête du quartier. Monsieur Petit propose le 14 juin, et Madame Morel préfère un samedi plus tôt. Après des échanges assez vifs sur ce point, la présidente recadre le débat et propose un vote. La fête aura lieu le samedi 7 juin. Décision prise à l'unanimité.*
+*Point 2 : la fête du quartier. Le 14 juin, proposé par Monsieur Petit, est aussi le jour de la fête de l'école ; après un échange assez vif, la présidente recadre le débat. La fête aura lieu le samedi 7 juin. Décision prise à l'unanimité. Monsieur Petit est chargé de demander l'accord de la mairie avant le 30 avril.*
 
-*Point 3 : le bruit des travaux de la rue voisine. Plusieurs habitants se plaignent du bruit dès sept heures du matin. Madame Lefèvre écrira à la mairie pour demander combien de temps les travaux vont durer. La suite de ce point est reportée à la prochaine réunion, faute de temps. Nous y reviendrons en priorité.*
+*Point 3 : le bruit des travaux de la rue voisine. Madame Lefèvre écrira à la mairie avant le 30 mars pour demander combien de temps les travaux vont durer. Ce point sera traité en priorité à la prochaine réunion.*
 
 *La présidente fait la synthèse des échanges, puis l'ordre du jour étant épuisé, lève la séance à vingt heures.*
+
+*Point 4 : questions diverses. Aucune question n'a été posée.*
 
 *Prochaine réunion : le 9 avril, à dix-huit heures. Ce relevé sera envoyé à tous les membres de l'association.*
 
 <VocabTable group="glossary" />
 
-(Saint-Jacques Residents' Association. Record of decisions of the meeting of 12 March. Present: twelve committee members. Chair: Madame Lefèvre. The meeting opens at 6 p.m. After a round, the discussion covers three points. Point 1: fitting out the building's courtyard. The members agree on the principle of a bike park. Monsieur Petit's proposal, which provides for twenty spaces, is put to a show-of-hands vote: it is adopted by ten votes, two members having abstained. The cost will be shared between the association and the owner of the building, subject to the owner's agreement. Madame Morel is to ask for three quotes before 15 April. Point 2: the neighbourhood party. Monsieur Petit proposes 14 June, and Madame Morel prefers an earlier Saturday. After a rather heated discussion on this point, the chair brings the debate back on track and proposes a vote. The party will take place on Saturday 7 June. Decision taken unanimously. Point 3: the noise from the works in the next street. Several residents complain about the noise from seven in the morning. Madame Lefèvre will write to the town hall to ask how long the works will last. The rest of this point is postponed to the next meeting, for lack of time. We will come back to it as a priority. The chair sums up the discussion, then, the agenda having been covered, closes the meeting at 8 p.m. Next meeting: 9 April, at 6 p.m. This record will be sent to all the members of the association.)
+(Saint-Jacques Residents' Association. Record of decisions of the meeting of 12 March. Present: twelve committee members. Chair: Madame Lefèvre. The meeting opens at 6 p.m. After a round, the discussion covers four points. Point 1: fitting out the building's courtyard. The members agree on the principle of a bike park. Monsieur Petit's proposal, which provides for twenty spaces, is put to a show-of-hands vote: it is adopted by ten votes, two members having abstained. The cost will be shared between the association and the owner of the building, subject to the owner's agreement. Madame Morel is to ask for three quotes before 15 April. Point 2: the neighbourhood party. 14 June, proposed by Monsieur Petit, is also the day of the school party; after a rather heated exchange, the chair brings the debate back on track. The party will take place on Saturday 7 June. Decision taken unanimously. Monsieur Petit is to ask for the town hall's agreement before 30 April. Point 3: the noise from the works in the next street. Madame Lefèvre will write to the town hall before 30 March to ask how long the works will last. This point will be dealt with as a priority at the next meeting. The chair sums up the discussion, then, the agenda having been covered, closes the meeting at 8 p.m. Point 4: any other business. No questions were raised. Next meeting: 9 April, at 6 p.m. This record will be sent to all the members of the association.)
 
 ## En français
 
@@ -1230,13 +1238,13 @@ The meeting of 12 March, during point 2.
 
 - *Je donne la parole à Monsieur Petit.* (I give the floor to Monsieur Petit.)
 - *Merci. Pour la fête, je propose le 14 juin : il y a moins de monde en vacances.* (Thank you. For the party, I suggest 14 June: fewer people are on holiday.)
-- *Le 14 ? C'est le jour du marché ! Personne ne viendra.* (The 14th? That's market day! Nobody will come.)
+- *Le 14 ? C'est le jour de la fête de l'école ! Les familles ne viendront pas.* (The 14th? That's the day of the school party! Families won't come.)
 - *Ce n'est pas vrai, l'an dernier…* (That's not true, last year…)
 - *Je me permets de vous interrompre. Je comprends tout à fait vos deux positions.* (May I interrupt you. I fully understand both your positions.)
-- *Mais le marché, c'est important.* (But the market matters.)
-- *Il y a peut-être un malentendu : le marché finit à treize heures, et la fête commence le soir.* (There may be a misunderstanding: the market ends at 1 p.m., and the party starts in the evening.)
-- *Ah, je pensais que la fête commençait le matin.* (Ah, I thought the party started in the morning.)
-- *Revenons-en à l'ordre du jour : nous devons choisir un jour aujourd'hui. Je propose le 7 juin.* (Let's get back to the agenda: we have to choose a day today. I suggest 7 June.)
+- *Mais la fête de l'école, c'est important pour les familles.* (But the school party matters to families.)
+- *Il y a peut-être un malentendu. Monsieur Petit, vous tenez au 14, ou seulement à un jour avant les vacances ?* (There may be a misunderstanding. Monsieur Petit, do you insist on the 14th, or simply on a day before the holidays?)
+- *Avant les vacances, surtout.* (Before the holidays, mainly.)
+- *Revenons-en à l'ordre du jour : nous devons choisir un jour aujourd'hui. Le 7 juin est avant les vacances, et l'école n'a pas de fête ce jour-là. Je propose le 7 juin.* (Let's get back to the agenda: we have to choose a day today. 7 June is before the holidays, and the school has no party that day. I suggest 7 June.)
 - *Le 7, ça me va.* (The 7th suits me. (spoken))
 - *Moi aussi.* (Me too.)
 - *Je mets la proposition aux voix, à main levée. Qui est pour le 7 juin ?* (I'm putting the proposal to a show-of-hands vote. Who is in favour of 7 June?)
@@ -1272,12 +1280,9 @@ vocab:
   - { id: "c1-review-professional-v002", group: "new", fr: "un cahier des charges", pron: "uhn kah-yay day SHARZH", en: "a specification, a set of requirements" }
   - { id: "c1-review-professional-v003", group: "new", fr: "un ordre de mission", pron: "uh-nor-druh duh mee-SYOHN", en: "a travel authorization (for a work trip)" }
   - { id: "c1-review-professional-v004", group: "new", fr: "le montant", pron: "luh mohn-TAHN", en: "the amount (of money)" }
-  - { id: "c1-review-professional-v005", group: "glossary", fr: "la commune", pron: "lah koh-MEWN", en: "the municipality, the town (as a local authority)" }
-  - { id: "c1-review-professional-v006", group: "glossary", fr: "la salle des fêtes", pron: "lah sahl day FET", en: "the community hall" }
-  - { id: "c1-review-professional-v007", group: "glossary", fr: "le règlement", pron: "luh reh-gluh-MAHN", en: "the regulations, the rules" }
-  - { id: "c1-review-professional-v008", group: "glossary", fr: "versé / versée (verser)", pron: "vehr-SAY", en: "paid (to pay a sum)" }
-  - { id: "c1-review-professional-v009", group: "glossary", fr: "détaillé / détaillée", pron: "day-tah-YAY", en: "detailed" }
-  - { id: "c1-review-professional-v010", group: "glossary", fr: "l'adjoint / l'adjointe au maire", pron: "lad-ZHWAN / lad-ZHWANT oh MEHR", en: "the deputy mayor" }
+  - { id: "c1-review-professional-v005", group: "glossary", fr: "la salle des fêtes", pron: "lah sahl day FET", en: "the community hall" }
+  - { id: "c1-review-professional-v006", group: "glossary", fr: "le règlement", pron: "luh reh-gluh-MAHN", en: "the regulations, the rules" }
+  - { id: "c1-review-professional-v007", group: "glossary", fr: "l'adjoint / l'adjointe au maire", pron: "lad-ZHWAN / lad-ZHWANT oh MEHR", en: "the deputy mayor" }
 exercises:
   - id: "c1-review-professional-ex001"
     type: "multiple-choice"
@@ -1287,7 +1292,7 @@ exercises:
     explanation: "Entrer en vigueur: to come into force. Repealed is abrogé."
   - id: "c1-review-professional-ex002"
     type: "connector-choice"
-    prompt: "Choisissez le mot : Compte tenu de la baisse des ___, la commune réduit ses dépenses."
+    prompt: "Choisissez le mot : Compte tenu de la baisse des ___, la ville réduit ses dépenses."
     options: ["recettes", "déficits", "taux d'intérêt"]
     answers: ["recettes"]
     explanation: "When revenue falls, a town cuts its spending: la baisse des recettes."
@@ -1353,7 +1358,7 @@ exercises:
   - id: "c1-review-professional-ex014"
     type: "translate"
     prompt: "Traduisez avec « donner suite à » : We will not be able to act on your request."
-    answers: ["Nous ne pourrons pas donner suite à votre demande", "Il ne nous sera pas possible de donner suite à votre demande"]
+    answers: ["Nous ne pourrons pas donner suite à votre demande", "Il ne nous sera pas possible de donner suite à votre demande", "Nous ne serons pas en mesure de donner suite à votre demande"]
     explanation: "Donner suite à une demande, in a refusal."
     strictAccents: true
   - id: "c1-review-professional-ex015"
@@ -1390,7 +1395,7 @@ These four words are frequent in professional letters. *Donner suite à* is to a
 <Example fr="Nous avons le plaisir de donner suite à votre demande." en="We are pleased to act on your request." />
 <Example fr="Le cahier des charges précise les règles de sécurité." en="The specification sets out the safety rules." />
 <Example fr="Mon ordre de mission couvre le voyage et l'hôtel." en="My travel authorization covers the journey and the hotel." />
-<Example fr="Le montant de la subvention sera versé en juin." en="The amount of the grant will be paid in June." />
+<Example fr="Le montant de la subvention sera payé en juin." en="The amount of the grant will be paid in June." />
 
 ## Announcing a decision: the plan
 
@@ -1424,11 +1429,11 @@ This letter is an original text written for this lesson. The town, the associati
 
 *En réponse à votre courrier du 2 mars, j'ai l'honneur de vous informer que le conseil municipal a étudié votre demande lors de sa séance du 15 avril.*
 
-*Le conseil a décidé de donner suite à votre demande de subvention pour le festival d'été. Compte tenu de la rigueur budgétaire qu'impose cette année la baisse des recettes de la commune, le montant de cette subvention sera cependant limité à la moitié de la somme demandée.*
+*Le conseil a décidé de donner suite à votre demande de subvention pour le festival d'été. Compte tenu de la rigueur budgétaire qu'impose cette année la baisse des recettes de la ville, le montant de cette subvention sera cependant limité à la moitié de la somme demandée.*
 
 *En revanche, il ne nous sera malheureusement pas possible de mettre la salle des fêtes à votre disposition en juillet : des travaux, prévus depuis l'an dernier, y auront lieu pendant tout l'été. Nous mesurons tout à fait la déception que cette décision peut causer.*
 
-*En vertu du règlement municipal, toute manifestation publique doit respecter un cahier des charges. Afin que la subvention puisse être versée, je vous saurais gré de bien vouloir nous adresser, avant le 31 mai, le budget détaillé du festival et le cahier des charges signé.*
+*En vertu du règlement municipal, toute manifestation publique doit respecter un cahier des charges. Afin que la subvention puisse être payée, je vous saurais gré de bien vouloir nous adresser, avant le 31 mai, le budget complet du festival et le cahier des charges signé.*
 
 *Sauf erreur de ma part, votre association a déjà joué dans la cour de l'école l'an dernier. Ce lieu pourrait, sous réserve de l'accord de la directrice, accueillir certaines représentations. Nous ne manquerons pas de vous tenir informée de sa réponse.*
 
@@ -1438,13 +1443,13 @@ This letter is an original text written for this lesson. The town, the associati
 
 <VocabTable group="glossary" />
 
-(Saint-Aubin town hall, associations department. Our ref.: SA-114. For the attention of Madame Clara Moreau, president of the association "Théâtre en ville". Saint-Aubin, 18 April. Subject: your request for a grant and a hall. Madam President, In reply to your letter of 2 March, I have the honour to inform you that the town council examined your request at its meeting of 15 April. The council decided to act on your request for a grant for the summer festival. In view of the budgetary restraint imposed this year by the fall in the town's revenue, the amount of this grant will, however, be limited to half of the sum requested. On the other hand, we will unfortunately not be able to put the community hall at your disposal in July: works, planned since last year, will take place there all summer. We fully appreciate the disappointment this decision may cause. Under the town regulations, every public event must respect a set of requirements. So that the grant can be paid, I would be grateful if you would send us, before 31 May, the detailed budget of the festival and the signed set of requirements. Unless I'm mistaken, your association performed in the school yard last year. This place could, subject to the head teacher's agreement, host some performances. We will be sure to keep you informed of her reply. Yours faithfully, for the mayor, the deputy mayor for associations.)
+(Saint-Aubin town hall, associations department. Our ref.: SA-114. For the attention of Madame Clara Moreau, president of the association "Théâtre en ville". Saint-Aubin, 18 April. Subject: your request for a grant and a hall. Madam President, In reply to your letter of 2 March, I have the honour to inform you that the town council examined your request at its meeting of 15 April. The council decided to act on your request for a grant for the summer festival. In view of the budgetary restraint imposed this year by the fall in the town's revenue, the amount of this grant will, however, be limited to half of the sum requested. On the other hand, we will unfortunately not be able to put the community hall at your disposal in July: works, planned since last year, will take place there all summer. We fully appreciate the disappointment this decision may cause. Under the town regulations, every public event must respect a set of requirements. So that the grant can be paid, I would be grateful if you would send us, before 31 May, the full budget of the festival and the signed set of requirements. Unless I'm mistaken, your association performed in the school yard last year. This place could, subject to the head teacher's agreement, host some performances. We will be sure to keep you informed of her reply. Yours faithfully, for the mayor, the deputy mayor for associations.)
 
 ## How the letter uses the unit
 
 - **Formal correspondence**: the references (*N/Réf.*), *à l'attention de*, *l'objet*, *Madame la Présidente* in the salutation and the closing, *en réponse à votre courrier*, *j'ai l'honneur de vous informer*, *je vous saurais gré de bien vouloir*.
 - **Meetings**: the decision was taken *lors de sa séance du 15 avril*.
-- **Finance**: *la rigueur budgétaire*, *la baisse des recettes*, *le montant*, *le budget détaillé*.
+- **Finance**: *la rigueur budgétaire*, *la baisse des recettes*, *le montant*, *le budget complet*.
 - **Law and rules**: *en vertu du règlement municipal*, *sous réserve de l'accord de la directrice*.
 - **Diplomacy**: the positive decision comes first; the refusal uses *en revanche*, *il ne nous sera malheureusement pas possible de*, a reason and *nous mesurons tout à fait la déception*; the close uses *sauf erreur de ma part* and *nous ne manquerons pas de*.
 - **New words**: *donner suite à*, *le montant*, *un cahier des charges*.

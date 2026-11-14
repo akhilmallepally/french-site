@@ -201,11 +201,11 @@ function audit(lessons: AuditLesson[]) {
       const [dlo, dhi] = c1 ? [12, 16] : [10, 14];
       if (lines < dlo || lines > dhi) P.b2Mix.push(`${l.id}: dialogue has ${lines} lines (${LV}: ${dlo} to ${dhi})`);
     }
-    if ((type === "communication" || type === "culture") && !sections.some((s) => s.kind === "text")) {
+    if ((type === "communication" || type === "culture" || (c1 && type === "review")) && !sections.some((s) => s.kind === "text")) {
       P.b2Mix.push(`${l.id}: no longer-text section (${type} lesson)`);
     }
     // The longer text: French words in the longer-text sections (italic lines; translations and notes left out).
-    if (type === "communication" || type === "culture") {
+    if (type === "communication" || type === "culture" || (c1 && type === "review")) {
       const words = countWords(sections.filter((s) => s.kind === "text").flatMap((s) => italicLines(s.body)).join(" "));
       const [tlo, thi] = c1 ? [250, 400] : [150, 250];
       if (words && (words < tlo || words > thi)) P.b2Text.push(`${l.id}: longer text ${words} French words (${LV}: ${tlo} to ${thi})`);

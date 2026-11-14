@@ -465,13 +465,13 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 26 | c1-rhetorical-devices | Rhetorical devices | Debate and rhetoric | vocabulary | b2-persuasion-and-hedging | Anaphora, antithesis, litotes, hyperbole, rhetorical questions, recognising them in speeches. |
-| 27 | c1-subjunctive-nuances | Subjunctive nuances | Debate and rhetoric | grammar | b2-subjunctive-relative-clauses, b2-subjonctif-passe | After superlatives (le seul qui sache), qui que / quoi que / où que, initial que (Qu'il vienne !). Reuses: debate, opinions. |
-| 28 | c1-formal-debate | Formal debate | Debate and rhetoric | communication | c1-rhetorical-devices, c1-advanced-connectors | Structured debate, moderating, conceding and turning arguments. |
-| 29 | c1-public-speaking | Speeches and presentations | Debate and rhetoric | communication | c1-rhetorical-devices | Writing a speech: opening hooks, signposting, closing strongly. |
-| 30 | c1-irony-and-understatement | Irony and understatement | Debate and rhetoric | communication | c1-rhetorical-devices | Litotes (ce n'est pas mal), antiphrasis, understatement in everyday French. |
-| 31 | c1-culture-satire-and-humour | Satire and humour | Debate and rhetoric | culture | c1-irony-and-understatement | Satirical press, political cartoons, stand-up, wordplay. |
-| 32 | c1-review-rhetoric | Review: Debate and rhetoric | Debate and rhetoric | review | c1-subjunctive-nuances, c1-formal-debate, c1-public-speaking, c1-culture-satire-and-humour | Write and annotate a persuasive speech. |
+| 26 | c1-rhetorical-devices | Rhetorical devices | Debate and rhetoric | vocabulary | b2-persuasion-and-hedging, b2-argumentative-essay | Anaphora, antithesis, litotes, hyperbole, rhetorical questions, recognising them in speeches. |
+| 27 | c1-subjunctive-nuances | Subjunctive nuances | Debate and rhetoric | grammar | b1-expressing-doubt-certainty, b2-subjunctive-relative-clauses, b2-certainty-and-probability | After superlatives (le seul qui sache), qui que / quoi que / où que, initial que (Qu'il vienne !). Reuses: debate, opinions. |
+| 28 | c1-formal-debate | Formal debate | Debate and rhetoric | communication | b2-debating, c1-concession-and-hypothesis, c1-rhetorical-devices | Structured debate, moderating, conceding and turning arguments. |
+| 29 | c1-public-speaking | Speeches and presentations | Debate and rhetoric | communication | b2-presenting-data, b2-meetings-and-calls, c1-rhetorical-devices | Writing a speech: opening hooks, signposting, closing strongly. |
+| 30 | c1-irony-and-understatement | Irony and understatement | Debate and rhetoric | communication | c1-rhetorical-devices, b2-colloquial-french | Litotes (ce n'est pas mal), antiphrasis, understatement in everyday French. |
+| 31 | c1-culture-satire-and-humour | Satire and humour | Debate and rhetoric | culture | c1-irony-and-understatement, b2-culture-french-press | Satirical press, political cartoons, stand-up, wordplay. |
+| 32 | c1-review-rhetoric | Review: Debate and rhetoric | Debate and rhetoric | review | c1-rhetorical-devices, c1-subjunctive-nuances, c1-formal-debate, c1-public-speaking, c1-irony-and-understatement, c1-culture-satire-and-humour | Write and annotate a persuasive speech. |
 
 ### Unit 5: Professional mastery
 

@@ -23,13 +23,14 @@ vocab:
   - { id: "c1-finance-and-economics-v011", group: "policy", fr: "un ménage", pron: "uhn may-NAHZH", en: "a household" }
   - { id: "c1-finance-and-economics-v012", group: "markets", fr: "un taux d'intérêt", pron: "uhn toh dan-tay-REH", en: "an interest rate" }
   - { id: "c1-finance-and-economics-v013", group: "markets", fr: "la banque centrale", pron: "lah bahnk sahn-TRAHL", en: "the central bank" }
-  - { id: "c1-finance-and-economics-v014", group: "markets", fr: "relever / baisser ses taux", pron: "ruhl-VAY / beh-SAY say TOH", en: "to raise / to lower its rates" }
+  - { id: "c1-finance-and-economics-v014", group: "markets", fr: "relever (remonter) / baisser ses taux", pron: "ruhl-VAY (ruh-mohn-TAY) / beh-SAY say TOH", en: "to raise (raise again) / to lower its rates" }
   - { id: "c1-finance-and-economics-v015", group: "markets", fr: "l'épargne (f.) / épargner", pron: "lay-PARN-yuh / ay-par-NYAY", en: "savings / to save" }
-  - { id: "c1-finance-and-economics-v016", group: "markets", fr: "un placement", pron: "uhn plahss-MAHN", en: "an investment (of savings)" }
-  - { id: "c1-finance-and-economics-v017", group: "markets", fr: "rapporter", pron: "rah-por-TAY", en: "to bring in, to yield (money)" }
-  - { id: "c1-finance-and-economics-v018", group: "markets", fr: "la Bourse", pron: "lah BOORSS", en: "the stock exchange" }
-  - { id: "c1-finance-and-economics-v019", group: "markets", fr: "une obligation", pron: "ew-noh-blee-gah-SYOHN", en: "a bond (a loan to a State or a company)", note: "Also an obligation, a duty." }
-  - { id: "c1-finance-and-economics-v020", group: "markets", fr: "les marchés financiers", pron: "lay mar-shay fee-nahn-SYAY", en: "the financial markets" }
+  - { id: "c1-finance-and-economics-v016", group: "markets", fr: "davantage", pron: "dah-vahn-TAHZH", en: "more (formal)" }
+  - { id: "c1-finance-and-economics-v017", group: "markets", fr: "un placement", pron: "uhn plahss-MAHN", en: "an investment (of savings)" }
+  - { id: "c1-finance-and-economics-v018", group: "markets", fr: "rapporter", pron: "rah-por-TAY", en: "to bring in, to yield (money)" }
+  - { id: "c1-finance-and-economics-v019", group: "markets", fr: "la Bourse", pron: "lah BOORSS", en: "the stock exchange" }
+  - { id: "c1-finance-and-economics-v020", group: "markets", fr: "une obligation", pron: "ew-noh-blee-gah-SYOHN", en: "a bond (a loan to a State or a company)", note: "Also an obligation, a duty." }
+  - { id: "c1-finance-and-economics-v021", group: "markets", fr: "les marchés financiers", pron: "lay mar-shay fee-nahn-SYAY", en: "the financial markets" }
 exercises:
   - id: "c1-finance-and-economics-ex001"
     type: "connector-choice"
@@ -85,7 +86,7 @@ exercises:
   - id: "c1-finance-and-economics-ex010"
     type: "reformulation"
     prompt: "Reformulez avec « épargner » : Les ménages gardent une partie de leur argent pour plus tard."
-    answers: ["Les ménages épargnent"]
+    answers: ["Les ménages épargnent", "Les ménages épargnent une partie de leur argent"]
     explanation: "Épargner: to keep money aside, to save."
   - id: "c1-finance-and-economics-ex011"
     type: "register-shift"
@@ -95,9 +96,9 @@ exercises:
   - id: "c1-finance-and-economics-ex012"
     type: "error-correction"
     prompt: "Corrigez l'erreur : La banque centrale a monté ses taux."
-    answers: ["La banque centrale a relevé ses taux", "La banque centrale a augmenté ses taux"]
+    answers: ["La banque centrale a relevé ses taux", "La banque centrale a augmenté ses taux", "La banque centrale a remonté ses taux"]
     strictAccents: true
-    explanation: "Rates are relevés or augmentés; monter is intransitive here (les taux montent)."
+    explanation: "Rates are relevés, augmentés or remontés; monter itself is used without an object here (les taux montent)."
   - id: "c1-finance-and-economics-ex013"
     type: "error-correction"
     prompt: "Corrigez l'erreur : Le dette publique augmente."
@@ -112,11 +113,11 @@ exercises:
     type: "translate"
     prompt: "Traduisez (un taux d'intérêt, élevé) : Interest rates are high."
     answers: ["Les taux d'intérêt sont élevés"]
-    explanation: "Élevé, not haut, for a rate or a price."
+    explanation: "Élevé is the usual adjective for a rate or a price."
   - id: "c1-finance-and-economics-ex016"
     type: "translate"
     prompt: "Traduisez (épargner, un ménage) : Households are saving more."
-    answers: ["Les ménages épargnent plus"]
+    answers: ["Les ménages épargnent plus", "Les ménages épargnent davantage"]
     explanation: "Un ménage: a household, in economics."
   - id: "c1-finance-and-economics-ex017"
     type: "reorder"
@@ -159,12 +160,12 @@ Economic debates often oppose two policies. *La relance* means spending more, or
 
 <VocabTable group="markets" />
 
-*Un taux d'intérêt* is the price of borrowing. *La banque centrale* can *relever* or *baisser ses taux*: when they go up, borrowing costs more; when they go down, it costs less. The rates themselves *montent* or *baissent*, but the bank *relève* them: *monter* isn't used with an object here.
+*Un taux d'intérêt* is the price of borrowing. *La banque centrale* can *relever* or *baisser ses taux*: when they go up, borrowing costs more; when they go down, it costs less. The rates themselves *montent* or *baissent*; the bank *relève* them (or *remonte* them, after a fall).
 
 *L'épargne* is the money people put aside, and *épargner* is to save. That money can go into *un placement* (an investment), which *rapporte* (yields) more or less, with more or less risk. *La Bourse* is the stock exchange, where *les actions* you know from B2 are bought and sold. *Une obligation*, in finance, is a bond: a loan to a State or a company that pays interest. Elsewhere, it keeps its everyday meaning of a duty.
 
 <Example fr="La banque centrale a relevé ses taux pour faire baisser l'inflation." en="The central bank raised its rates to bring inflation down." />
-<Example fr="Les ménages épargnent plus quand l'avenir est incertain." en="Households save more when the future is uncertain." />
+<Example fr="Les ménages épargnent davantage quand l'avenir est incertain." en="Households save more when the future is uncertain." />
 <Example fr="Un placement sans risque rapporte en général moins." en="A risk-free investment usually yields less." />
 <Example fr="Les marchés financiers ont réagi à la décision." en="The financial markets reacted to the decision." />
 
@@ -207,8 +208,8 @@ Lucas is reading an economic article. He asks his sister Emma, who works in a ba
 
 - *Emma, ici ils disent que la banque centrale a relevé ses taux. Ça veut dire quoi ?* (Emma, here they say the central bank raised its rates. What does that mean? (spoken))
 - *Que les taux d'intérêt montent : emprunter coûte plus cher.* (That interest rates are going up: borrowing costs more.)
-- *Alors c'est le moment d'épargner, pas d'acheter un appartement ?* (So it's the time to save, not to buy a flat?)
-- *Pour beaucoup de ménages, oui. L'épargne rapporte un peu plus.* (For many households, yes. Savings bring in a bit more.)
+- *Alors qui gagne et qui perd ?* (So who wins and who loses?)
+- *En général, l'épargne rapporte un peu plus, et ceux qui empruntent paient plus cher.* (In general, savings bring in a bit more, and people who borrow pay more.)
 - *Et l'article parle aussi du déficit public.* (And the article also talks about the public deficit.)
 - *C'est quand l'État dépense plus que ses recettes.* (That's when the State spends more than its revenue.)
 - *Et pour le payer, il s'endette ?* (And to pay for it, it borrows?)
@@ -228,7 +229,7 @@ Lucas is reading an economic article. He asks his sister Emma, who works in a ba
 
 ## En résumé
 
-Le budget de l'État fixe les dépenses publiques et les recettes, qui viennent surtout des impôts. La fiscalité est l'ensemble du système des impôts. Quand les dépenses sont plus élevées que les recettes, il y a un déficit public, et l'État s'endette. La dette publique est le total de ce que l'État doit. Pour aider l'économie, un gouvernement peut choisir la relance, c'est-à-dire dépenser plus, ou la rigueur budgétaire, c'est-à-dire réduire les dépenses. La banque centrale peut relever ou baisser ses taux d'intérêt. Les ménages épargnent et choisissent des placements, qui rapportent plus ou moins. À la Bourse, on achète des actions, et une obligation est un prêt à l'État ou à une entreprise. Il faut séparer les faits, comme une hausse de la dette, et les jugements.
+Le budget de l'État fixe les dépenses publiques et les recettes, qui viennent surtout des impôts. La fiscalité est l'ensemble du système des impôts. Quand les dépenses sont plus élevées que les recettes, il y a un déficit public, et l'État s'endette. La dette publique est le total de ce que l'État doit. Un gouvernement doit choisir entre deux politiques : la relance, c'est-à-dire dépenser plus pour faire repartir l'économie, ou la rigueur budgétaire, c'est-à-dire réduire les dépenses pour réduire le déficit. La banque centrale peut relever ou baisser ses taux d'intérêt. Les ménages épargnent et choisissent des placements, qui rapportent plus ou moins. À la Bourse, on achète des actions, et une obligation est un prêt à l'État ou à une entreprise. Il faut séparer les faits, comme une hausse de la dette, et les jugements.
 
 ## What's next
 

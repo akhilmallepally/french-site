@@ -132,3 +132,32 @@
   - Syllabus prerequisites changed for all 6 lessons; review-professional's c1-future-in-the-past was replaced with c1-diplomatic-language.
   - *donner suite à* was kept out of the diplomatic lesson so that it stays new in the review.
   - The law lesson gives no legal advice and the finance lesson no real figures; both say so in the text.
+
+## Unit 4
+
+- **Unit 5 fixes:** none was already done; A1 to A8 all applied.
+  - *recours*: the three registers are labelled; ex013 accepts *formé*, *déposé* and *fait un recours*.
+  - Meeting: the dialogue and the relevé now tell one story (the 14 June objection is the school party), and the relevé keeps only decisions.
+  - Diplomatic reply: a reason for the refusal added, one regret only, *sauf erreur* moved to the January delivery.
+  - Formal letters: the je/nous rule rewritten; the student's letter has the full layout; the repetitions and the odd last line are gone.
+  - Keys and polish: 6 keys added (with *davantage* and *remonter* taught in the finance lesson); *pouvoir and savoir* fixed; the finance dialogue and résumé reworded.
+  - Vocab: *la facture* dropped (B1); the review now has 4 new words + 3 glossary entries (*commune*, *versée*, *détaillé* replaced by taught words).
+- **C1 limits:** audit:content already used the C1 limits but skipped C1 review lessons; it now checks their longer texts. Out of range:
+  - c1-review-style (longer text 435): its "What you've learned" bullets were counted as text; reworded, and "Traps when you polish" cut to keep the teaching text under 1,200.
+  - c1-adverb-placement and c1-tricky-prepositions: their "whole list" bullets started with French and didn't count as teaching text; reworded.
+  - Overview: status updated (34 of 57 written) and the unit-review decision added. CLAUDE.md gains rules 19 and 20.
+- **New lessons** (teaching / whole / résumé; vocab without glossary; exercises, with production; dialogue lines):
+  - rhetorical-devices: 909 / 1,279 / 131; 17; 16 (7); 12 lines.
+  - subjunctive-nuances: 956 / 1,307 / 126; 12; 17 (8); 12 lines.
+  - formal-debate: 965 / 1,754; 15 + 8 glossary; 16 (9); 12 lines.
+  - public-speaking: 917 / 1,678; 15 + 4 glossary; 16 (9); 12 lines.
+  - irony-and-understatement: 976 / 1,720; 17 + 7 glossary; 16 (8); 12 lines.
+  - culture-satire-and-humour: 922 / 1,438; 16 + 8 glossary; 16 (7); no dialogue.
+  - review-rhetoric: 906 / 1,435; 4 new + 2 glossary; 16 (8).
+  - All longer texts are between 250 and 400 words.
+- **Recap claims, false or partial:** rhetorical questions are taught in b2-persuasion-and-hedging (text), not as vocab. *qui que, quoi que* are already in b2-relative-prepositions, so they weren't retaught. *en colère*, *un poste* and *nier* repeated A2 and B1 entries and were replaced (by *accepter que* and *il est normal que* in subjunctive-nuances).
+- **Checks against baselines:** check:words 110 (unchanged), check:structures 0, audit summary identical to the committed report (73 / 4 / 6 informational), validate OK (no warnings), test:content OK, test:checker 29/29, test:b2-exercises 775 checked 0 failures, b2-links-ids 93 lessons 0 failures, check:c1-links 0 failures (review-academic → rhetorical-devices restored), build OK.
+- **Didn't fit:**
+  - Unit 4 comes before Unit 5 in course order, so it can't use Unit 5 words (*davantage*, *diplomatique*, *un malentendu*).
+  - *orateur* and *captiver* were kept out of the earlier lessons so that they stay new in the review.
+  - Syllabus prerequisites updated for all 7 lessons.

@@ -220,5 +220,7 @@ C1 inherits every B2 convention unless it's changed here. Plans are in docs/plan
   - For each typed key, search the lesson (and earlier lessons of the same unit) for other phrasings of the same meaning, and accept each one or pin the wording in the prompt.
   - A model text follows the method its own lesson or unit teaches (by idea, every view with its source, the plan announced), not only its grammar.
   - In choice exercises, every option fits the blank's form (article, elision, agreement), so that only meaning decides; and no distractor is a valid answer.
+  - When a dialogue and a model text describe the same event, every fact (dates, reasons, who said what, the outcome) matches; check each one.
+  - Before calling a common form wrong, check whether it's only less formal. If it is, label the register ("formal: *former un recours*; everyday: *faire un recours*") instead of marking it as an error.
 
 @AGENTS.md

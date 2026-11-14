@@ -1914,5 +1914,5 @@ Start with an amorce, then turn the subject into an open problématique with *da
 
 ## What's next
 
-The next unit is about debate and rhetoric. It starts with the lesson on rhetorical devices.
+The next unit is about debate and rhetoric. It starts with <LessonLink id="c1-rhetorical-devices" text="the lesson on rhetorical devices" />.
 

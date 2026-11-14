@@ -1,6 +1,6 @@
 # C1 plan: overview
 
-Status: plan only. No C1 lesson file is written. Rules: CLAUDE.md, "C1 conventions" (on top of the B2 conventions). Coverage of A1 to B2: docs/c1-coverage.md, checked with `node --experimental-strip-types scripts/c1-find.ts "phrase"`. Lesson numbers follow docs/syllabus.md.
+Status: Units 2, 3, 4 and 5 are written and reviewed as whole units; Unit 1 has its first four lessons (c1-passe-simple to c1-imperfect-subjunctive). 34 of 57 lessons are written. Units 6, 7 and 8 and lessons 5 to 8 of Unit 1 remain. Rules: CLAUDE.md, "C1 conventions" (on top of the B2 conventions). Coverage of A1 to B2: docs/c1-coverage.md, checked with `node --experimental-strip-types scripts/c1-find.ts "phrase"`. Lesson numbers follow docs/syllabus.md.
 
 ## Shape
 
@@ -30,6 +30,8 @@ Status: plan only. No C1 lesson file is written. Rules: CLAUDE.md, "C1 conventio
 Before writing, extend the B2 checks to C1: test:b2-exercises and scripts/b2-links-ids.ts, the C1 rows in audit:content (lengths, résumé 120 to 180, long texts 250 to 400), the C1 structure rules in check:structures (imparfait du subjonctif, passé antérieur, passé surcomposé), and scripts/scan-alexandrines.ts for the poetry lesson.
 
 ## Decisions taken
+
+- **Writing and review by unit:** each unit is now written and reviewed as a whole, with docs/review/c1-unit-N.txt as its review file.
 
 - **8 units**, with these moves from the first plan: c1-future-in-the-past to Unit 1; c1-tricky-prepositions to Unit 2; c1-formal-relatives-and-apposition and c1-concession-and-hypothesis to Unit 3, so the debate and essay lessons can use them.
 - **Hedging:** B2 already teaches the rumour conditionnel and hedging (b2-conditionnel-passe, b2-nuancing-opinions, b2-persuasion-and-hedging). What's new (*à en croire*, *selon toute vraisemblance*, *sous réserve de*) is too little for a lesson, so c1-conditionnel-journalistique is merged into c1-advanced-connectors ("Advanced connectors and academic hedging"). Total: 57 lessons.

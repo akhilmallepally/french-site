@@ -1780,3 +1780,54 @@ Every date, tradition and regional detail, for checking:
 - **The plan of a decision letter** (positive decision first, then the refusal; stated as a rule of thumb). Confirm as advice.
 - **The model letter** (invented town hall): *le montant de cette subvention sera cependant limité à la moitié de la somme demandée*; *En vertu du règlement municipal, toute manifestation publique doit respecter un cahier des charges* (invented rule); *Pour le maire, l'adjointe chargée des associations*. Confirm the letter reads naturally.
 - **New words:** *donner suite à*, *un cahier des charges*, *un ordre de mission* ("authorizes a work trip"), *le montant*. Confirm.
+
+### Prompt 34 changes to Unit 5
+
+- **c1-law-and-institutions:** "in formal writing, *former un recours*; *déposer un recours* is also standard, and everyday administrative French often says *faire un recours*." ex013 now accepts *formé*, *déposé* and *fait un recours*. Confirm the three collocations and their registers.
+- **c1-leading-a-meeting:** the dialogue and the relevé now agree: 14 June is the day of the school party, and the chair proposes 7 June, before the holidays. Confirm the dialogue reads naturally (*vous tenez au 14, ou seulement à un jour avant les vacances ?*).
+- **c1-diplomatic-language:** the reply now gives a reason (*nos conditions commerciales ne permettent pas de remise supérieure à dix pour cent*) and uses *sauf erreur de ma part* about the January delivery. Confirm.
+- **c1-finance-and-economics:** *la banque centrale a remonté ses taux* and *les ménages épargnent davantage* are now accepted. Confirm *remonter ses taux* (usually after a fall).
+
+### c1-rhetorical-devices
+
+- **Definitions:** *l'anaphore*, *la gradation*, *l'antithèse*, *l'oxymore* (*une victoire amère*), *la question rhétorique*, *la litote*, *l'hyperbole*, *la métaphore*, *la comparaison*. Confirm each definition and example.
+- **"The litote is especially French: a speaker who says *ce n'était pas mal* often means it was very good."** Confirm.
+- **Advice (rules of thumb):** "three items are enough" for an anaphora; "one or two devices per paragraph… three or four in a whole speech". Confirm as advice.
+
+### c1-subjunctive-nuances
+
+- **"In a question with inversion, *penser que* and *croire que* can take either mood. The subjunctive shows doubt… The indicative is a neutral question, and it's what you'll hear most with *est-ce que*."** Confirm (ex006 accepts *vienne* and *viendra*).
+- **"With a negative question, *ne pensez-vous pas que*, the speaker expects 'yes', so the indicative is usual."** Confirm.
+- **"When a *que* clause comes first in the sentence, it takes the subjunctive, even if the verb that follows would normally take the indicative."** Confirm.
+- **Mood and meaning:** *comprendre que* + indicative (realize) / + subjunctive (understand why, accept); *admettre que* + indicative (acknowledge) / + subjunctive (accept an idea or possibility); *dire que* + subjunctive (order). Confirm each.
+- **"*S'attendre à ce que*… and *tenir à ce que*… always take the subjunctive."** Confirm.
+- **Dialogue:** *Pensez-vous qu'il revienne un jour ?*; *Elle m'a dit que je sois prête à aider.*; *Qu'elle vienne vous voir, alors !* Confirm they read naturally.
+
+### c1-formal-debate
+
+- **Format (rule of thumb):** opening statements, rebuttals, conclusions; "*il n'en demeure pas moins que* (more formal than *il n'en reste pas moins que*)". Confirm.
+- **"Many juries count [a new argument in the conclusion] against you."** Confirm as advice.
+- **The debate** (invented, on free entry to national museums): Karim's "*Une gratuité ciblée coûte moins et aide mieux*" and Léa's "*là où l'entrée est devenue gratuite pour les jeunes, leur fréquentation a nettement augmenté*". These are arguments in an invented debate, not facts; confirm the text presents them neutrally.
+
+### c1-public-speaking
+
+- **Delivery advice:** "Speak more slowly than in conversation… learn the first two sentences by heart"; "plan one minute per slide". Confirm as advice.
+- **The speech** (invented library opening): confirm *Madame la Maire, mesdames et messieurs, chers amis* as the order of address, and that the speech reads naturally.
+
+### c1-irony-and-understatement
+
+- **Understatements:** *ce n'est pas mal* (good, often very good), *pas fameux* and *ce n'est pas terrible* (not great, often bad), *il ne fait pas chaud* (it's cold), *je ne dis pas non* (yes please). Confirm each.
+- **"In France, irony and understatement are part of everyday humour among friends, between colleagues who know each other, and in the media. They aren't a sign of hostility."** Confirm as a cultural statement.
+- **The review** (invented restaurant, ironic): confirm the irony is clear to a French reader and that *Le pain n'était pas fameux, mais il était au moins frais* reads as sincere.
+
+### c1-culture-satire-and-humour
+
+- **Facts:** La Fontaine (1621–1695), *Fables* published from 1668, *Le Loup et l'Agneau* and its moral *« La raison du plus fort est toujours la meilleure. »*; Molière (1622–1673), *Tartuffe*, the doctors; Voltaire, *Candide* (1759); *Le Canard enchaîné*, "a satirical weekly founded in 1915"; "the king himself attended his comedies". Confirm each.
+- **"Since the early 2000s, *le stand-up*… has become very popular, especially among young audiences."** Confirm.
+- **Contrepèterie:** "swaps sounds between two words to create a second meaning, often cheeky". Confirm.
+- **Sensitive:** the lesson names no living politician and doesn't mention attacks on the satirical press. Confirm the neutral tone, in particular *En France, on pense souvent que la liberté de rire fait partie de la liberté d'expression.*
+
+### c1-review-rhetoric
+
+- **The model speech** (invented market, town meeting): exactly three devices (rhetorical question at the start and end, anaphora *nous proposons*, litote *ce ne serait pas une petite perte*), one concession with two fronted *que* clauses. Confirm it reads naturally and that no other device is obvious.
+- **New words:** *un orateur / une oratrice*, *un argument d'autorité*, *captiver*, *un plaidoyer*. Confirm.
