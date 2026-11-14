@@ -2019,3 +2019,12 @@ Every date, tradition and regional detail, for checking:
 
 - **The model *Mon bilan de C1*** (original): confirm *Peut-être mon plus grand progrès est-il à l'oral*, *Ma professeure, grande lectrice de poésie, m'a aussi fait découvrir Baudelaire*, and *Quand bien même j'atteindrais un jour le niveau C2, je continuerais à lire chaque jour*.
 - **New words:** *les acquis* ("always plural in this sense"), *la fluidité*, *persévérer*. Confirm.
+
+### Prompt 39 changes to Unit 8 and the wrap-up
+
+- **c1-culture-laicite-and-institutions:** "The Constitution of 1958… opens with a preamble; its Article 1 begins with this sentence"; "in Alsace and Moselle… the State pays the ministers of the recognized religions" (article: *l'État y paie les ministres de certains cultes*); *Depuis 1905, en règle générale, l'État ne subventionne aucun culte.* Confirm.
+- **c1-euphemism-and-synonyms:** "its official name today is *un plan de sauvegarde de l'emploi*… itself a euphemism"; ex014 now accepts *Madame, votre dossier (nous) pose une difficulté* and *Madame, nous rencontrons une difficulté concernant votre dossier*. Confirm.
+- **c1-spoken-discourse-markers:** "*En fait* and *cela dit* are exceptions: both are common in standard writing too." Confirm.
+- **c1-exam-oral-presentation:** Malik's answer *je sais que d'autres villes ont déjà essayé des dimanches sans voitures*. Confirm it reads naturally.
+- **c1-diplomatic-language:** "formal French does the same with *pouvoir* and *savoir* (*nous regrettons de ne pouvoir accepter*, *je ne saurais dire*)". Confirm.
+- **c1-philosophy-and-ideas:** Pascal's *Pensées* dated 1670 in the quotation's attribution (first edition, after his death). Confirm. Montaigne's *Que sais-je ?* is given without a year (the *Essais* appeared from 1580 to 1588).

@@ -1,5 +1,4 @@
-=== c1-stylistic-inversion ===
-
+===== content/lessons/c1/stylistic-inversion.mdx =====
 ---
 id: "c1-stylistic-inversion"
 title: "Stylistic inversion"
@@ -132,7 +131,7 @@ By the end of this lesson you'll be able to put the verb before its subject wher
 
 ## What you already know
 
-You know inversion in questions (*parlez-vous… ?*) from <LessonLink id="a1-yes-no-questions" text="the lesson on yes/no questions" />. In <LessonLink id="b2-registers" text="the lesson on registers" />, you met complex inversion with a noun subject (*Paul vient-il ?*) and inversion after *peut-être*, *sans doute* and *aussi* at the start of a sentence. You also used *à peine… que* with inversion in <LessonLink id="c1-passe-anterieur" text="the lesson on the passé antérieur" />. This lesson adds the other places where written French inverts.
+You know inversion in questions (*parlez-vous anglais ?*) from <LessonLink id="a1-yes-no-questions" text="the lesson on yes/no questions" />. In <LessonLink id="b2-registers" text="the lesson on registers" />, you met complex inversion with a noun subject (*Paul vient-il ?*) and inversion after *peut-être*, *sans doute* and *aussi* at the start of a sentence. You also used *à peine… que* with inversion in <LessonLink id="c1-passe-anterieur" text="the lesson on the passé antérieur" />. This lesson adds the other places where written French inverts.
 
 ## Three cases: required, optional, wrong
 
@@ -247,8 +246,7 @@ L'inversion stylistique met le verbe avant le sujet dans la langue écrite soign
 
 Next, <LessonLink id="c1-ne-expletif" text="the lesson on the ne explétif" /> shows a *ne* that doesn't make a sentence negative.
 
-=== c1-ne-expletif ===
-
+===== content/lessons/c1/ne-expletif.mdx =====
 ---
 id: "c1-ne-expletif"
 title: "The ne explétif"
@@ -377,7 +375,7 @@ By the end of this lesson you'll be able to recognize the *ne* that doesn't nega
 
 ## What you already know
 
-You met *le ne explétif* in <LessonLink id="b1-subjonctif-wishes-emotions" text="the lesson on the subjunctive of wishes and emotions" />, after *avoir peur que* and *craindre que*, and used it after *avant que* and *à moins que* in <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on conjunctions with the subjunctive" />. In <LessonLink id="b2-purpose-expressions" text="the lesson on purpose expressions" />, you saw it after *de peur que* and *de crainte que*, and you learned *éviter que*. This lesson completes the list and shows how to tell it from a negation.
+You know *avoir peur que* and *craindre que* + subjunctive from <LessonLink id="b1-subjonctif-wishes-emotions" text="the lesson on the subjunctive of wishes and emotions" />, and *le ne explétif* after *avant que* and *à moins que* from <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on conjunctions with the subjunctive" />. In <LessonLink id="b2-purpose-expressions" text="the lesson on purpose expressions" />, you saw it after *de peur que* and *de crainte que*, and you learned *éviter que*. This lesson completes the list and shows how to tell it from a negation.
 
 ## What the ne explétif is
 
@@ -485,8 +483,7 @@ Le ne explétif est un petit ne sans pas, qui ne fait pas de la phrase une néga
 
 Next, <LessonLink id="c1-literary-negation" text="the lesson on literary negation" /> shows *ne… point*, *nul ne* and the other negatives of formal and literary French.
 
-=== c1-literary-negation ===
-
+===== content/lessons/c1/literary-negation.mdx =====
 ---
 id: "c1-literary-negation"
 title: "Literary negation"
@@ -731,8 +728,7 @@ La langue littéraire et la langue soutenue ont plusieurs formes de négation sa
 
 Next, <LessonLink id="c1-dislocation-and-fronting" text="the lesson on dislocation and fronting" /> shows how to put a word at the front of a sentence for emphasis.
 
-=== c1-dislocation-and-fronting ===
-
+===== content/lessons/c1/dislocation-and-fronting.mdx =====
 ---
 id: "c1-dislocation-and-fronting"
 title: "Dislocation and fronting"
@@ -1006,8 +1002,7 @@ La dislocation est une façon de mettre un mot en relief à l'oral. On met le th
 
 Next, <LessonLink id="c1-adverb-placement" text="the lesson on adverb placement" /> shows how moving one small word, such as *seulement* or *même*, can change what a sentence means.
 
-=== c1-adverb-placement ===
-
+===== content/lessons/c1/adverb-placement.mdx =====
 ---
 id: "c1-adverb-placement"
 title: "Adverb placement and nuance"
@@ -1268,8 +1263,7 @@ La place d'un adverbe peut changer le sens de la phrase. Seulement se met devant
 
 Next, <LessonLink id="c1-tricky-prepositions" text="the lesson on tricky prepositions" /> looks at small words that change a verb's meaning: *penser à* and *penser de*, *manquer à* and *manquer de*.
 
-=== c1-tricky-prepositions ===
-
+===== content/lessons/c1/tricky-prepositions.mdx =====
 ---
 id: "c1-tricky-prepositions"
 title: "Tricky prepositions"
@@ -1528,8 +1522,7 @@ Certains verbes changent de sens avec la préposition. Manquer de veut dire ne p
 
 Next, <LessonLink id="c1-precise-verbs" text="the lesson on precise verbs" /> shows how to replace *dire*, *faire* and *mettre* with the exact verb a careful writer would choose.
 
-=== c1-precise-verbs ===
-
+===== content/lessons/c1/precise-verbs.mdx =====
 ---
 id: "c1-precise-verbs"
 title: "Precise verbs"
@@ -1731,7 +1724,7 @@ For reporting what someone said, use the verbs from B2: *affirmer*, *souligner*,
 - **To give a location**: *se trouver*.
 - **To say that a name or a fact is on a list or in a document**: *figurer*.
 - **To describe a mood or a silence**: *régner*.
-- **To say that an event happens**: *se dérouler*, or *avoir lieu*, which you know from <LessonLink id="b2-nuancing-opinions" text="the lesson on nuancing your opinion" />.
+- **To say that an event happens**: *se dérouler*. You know the everyday *avoir lieu* from <LessonLink id="b2-nuancing-opinions" text="the lesson on nuancing your opinion" />.
 
 <Example fr="Il existe plusieurs solutions à ce problème." en="There are several solutions to this problem." />
 <Example fr="La gare se trouve près du centre." en="The station is near the centre." />
@@ -1803,8 +1796,7 @@ Dans un texte écrit soigné, on peut remplacer les verbes généraux par des ve
 
 Next, <LessonLink id="c1-collocations" text="the lesson on collocations" /> shows which verbs and adjectives naturally go with which nouns, such as *émettre une hypothèse* and *une vive inquiétude*.
 
-=== c1-collocations ===
-
+===== content/lessons/c1/collocations.mdx =====
 ---
 id: "c1-collocations"
 title: "Collocations"
@@ -2066,8 +2058,7 @@ Une collocation est un groupe de mots qui vont souvent ensemble. La grammaire ne
 
 Next, <LessonLink id="c1-review-style" text="the review of this unit" /> brings inversion, negation, emphasis and precise words together in a short editorial.
 
-=== c1-review-style ===
-
+===== content/lessons/c1/review-style.mdx =====
 ---
 id: "c1-review-style"
 title: "Review: Style and emphasis"
@@ -2198,7 +2189,7 @@ This unit has been about style: how word order, negation, adverbs and word choic
 - **The ne explétif**: you know *avant qu'il ne soit trop tard*, *plus vite que nous ne le pensions*, from <LessonLink id="c1-ne-expletif" text="the lesson on the ne explétif" />.
 - **Literary negation**: you know *nul ne sait*, *je n'en doute nullement*, *il ne cesse de pleuvoir*, from <LessonLink id="c1-literary-negation" text="the lesson on literary negation" />.
 - **Emphasis**: dislocation in speech (*ce film, je l'ai adoré*) and fronting in writing (*rares sont ceux qui*, *reste à savoir si*, *telle est la raison*), from <LessonLink id="c1-dislocation-and-fronting" text="the lesson on dislocation and fronting" />.
-- **Adverbs**: you know *même le maire*, *seulement le dimanche*, *visiblement*, from <LessonLink id="c1-adverb-placement" text="the lesson on adverb placement" />.
+- **Adverbs**: you know *seulement le matin*, *le jour même* and *visiblement*, from <LessonLink id="c1-adverb-placement" text="the lesson on adverb placement" />.
 - **Prepositions**: you know *Paris manque à Julie*, *croire en*, *penser de*, from <LessonLink id="c1-tricky-prepositions" text="the lesson on tricky prepositions" />.
 - **Precise verbs**: you know *effectuer*, *disposer de*, *comporter*, *se dérouler*, *susciter*, from <LessonLink id="c1-precise-verbs" text="the lesson on precise verbs" />.
 - **Collocations**: you know *dresser un bilan*, *relever un défi*, *une vive inquiétude*, *un rôle clé*, from <LessonLink id="c1-collocations" text="the lesson on collocations" />.
@@ -2312,3 +2303,4 @@ For example, you could use *susciter* for the discussions, *rares sont ceux qui*
 ## What's next
 
 The next unit is about academic writing. It starts with <LessonLink id="c1-participle-clauses" text="the lesson on participle clauses" />.
+

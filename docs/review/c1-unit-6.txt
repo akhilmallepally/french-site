@@ -168,7 +168,7 @@ Montaigne (1533–1592) made this question his motto: a reminder to doubt what w
 
 Descartes doubts everything he can, then finds one thing he can't doubt: while he doubts, he is thinking, so he exists.
 
-<Example fr="« Le cœur a ses raisons que la raison ne connaît point. » (Pascal, Pensées)" en="&quot;The heart has its reasons that reason does not know.&quot; (our translation)" />
+<Example fr="« Le cœur a ses raisons que la raison ne connaît point. » (Pascal, Pensées, 1670)" en="&quot;The heart has its reasons that reason does not know.&quot; (our translation)" />
 
 Pascal (1623–1662) plays on the two meanings of *raison*: the heart's reasons (causes, motives) and reason (the faculty). His *Pensées* were published after his death.
 

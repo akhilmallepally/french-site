@@ -615,7 +615,7 @@ By the end of this lesson you'll be able to refuse a request, point out an error
 
 ## What you already know
 
-You know the polite conditionnel and *je vous serais reconnaissant de* from <LessonLink id="b1-formal-email" text="the lesson on writing a formal email" />, *nous serions prêts à* and *faire un geste* from <LessonLink id="b2-negotiating" text="the lesson on negotiating" />, and *présenter ses excuses* and *un contretemps* from <LessonLink id="b2-regret-and-reproach" text="the lesson on regret and reproach" />. You also know *ne* alone with *pouvoir* and *savoir* (*je ne saurais dire*, *de ne pouvoir*) from <LessonLink id="c1-literary-negation" text="the lesson on literary negation" />. Diplomatic French combines all of these.
+You know the polite conditionnel and *je vous serais reconnaissant de* from <LessonLink id="b1-formal-email" text="the lesson on writing a formal email" />, *nous serions prêts à* and *faire un geste* from <LessonLink id="b2-negotiating" text="the lesson on negotiating" />, and *présenter ses excuses* and *un contretemps* from <LessonLink id="b2-regret-and-reproach" text="the lesson on regret and reproach" />. You also know *ne* alone with *oser* and *cesser* (*je n'ose*) from <LessonLink id="c1-literary-negation" text="the lesson on literary negation" />; formal French does the same with *pouvoir* and *savoir* (*nous regrettons de ne pouvoir accepter*, *je ne saurais dire*). Diplomatic French combines all of these.
 
 ## What makes a sentence diplomatic
 
@@ -898,7 +898,7 @@ The first sentence says why you write. *En réponse à* refers to a previous let
 <Example fr="Par la présente, je vous informe de ma démission." en="I hereby inform you of my resignation." />
 <Example fr="J'ai l'honneur de solliciter un délai supplémentaire." en="I have the honour to request an extension." />
 
-*Suite à* is very common in emails and letters, but some careful writers prefer *à la suite de*, which you know from <LessonLink id="c1-formal-relatives-and-apposition" text="the lesson on formal relatives" />, or *en réponse à*.
+*Suite à*, which you know from <LessonLink id="b1-formal-email" text="the lesson on writing a formal email" />, is very common in emails and letters, but some careful writers prefer *à la suite de* (from <LessonLink id="c1-formal-relatives-and-apposition" text="the lesson on formal relatives" />) or *en réponse à*.
 
 ## Making a request
 
@@ -1216,7 +1216,7 @@ This record is an original text written for this lesson. The association and the
 
 *La séance est ouverte à dix-huit heures. Après un tour de table, les échanges portent sur quatre points.*
 
-*Point 1 : l'aménagement de la cour de l'immeuble. Les membres s'accordent sur le principe d'un parking à vélos. La proposition de Monsieur Petit, qui prévoit vingt places, est mise aux voix à main levée : elle est adoptée par dix voix, deux membres s'étant abstenus. Le coût sera partagé entre l'association et le propriétaire de l'immeuble, sous réserve de l'accord de celui-ci. Madame Morel est chargée de demander trois devis avant le 15 avril.*
+*Point 1 : l'aménagement de la cour de l'immeuble. Les membres s'accordent sur le principe d'un parking à vélos. La proposition de Monsieur Petit, qui prévoit vingt places, est mise aux voix à main levée : elle est adoptée par dix voix, deux membres s'étant abstenus. Le coût sera partagé entre l'association et le propriétaire de l'immeuble, sous réserve de l'accord du propriétaire. Madame Morel est chargée de demander trois devis avant le 15 avril.*
 
 *Point 2 : la fête du quartier. Le 14 juin, proposé par Monsieur Petit, est aussi le jour de la fête de l'école ; après un échange assez vif, la présidente recadre le débat. La fête aura lieu le samedi 7 juin. Décision prise à l'unanimité. Monsieur Petit est chargé de demander l'accord de la mairie avant le 30 avril.*
 
@@ -1478,5 +1478,5 @@ Follow the seven steps of the plan. Use *donner suite à* for the positive decis
 
 ## What's next
 
-The next unit is about ideas and society. It starts with the lesson on philosophy and ideas.
+The next unit is about ideas and society. It starts with <LessonLink id="c1-philosophy-and-ideas" text="the lesson on philosophy and ideas" />.
 

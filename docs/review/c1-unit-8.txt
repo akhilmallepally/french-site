@@ -104,9 +104,9 @@ exercises:
     explanation: "La crainte de + noun: a more formal word than la peur."
   - id: "c1-euphemism-and-synonyms-ex014"
     type: "error-correction"
-    prompt: "Corrigez l'erreur de registre (gardez le registre soutenu) : Madame, nous avons un gros souci concernant votre dossier."
-    answers: ["Madame, nous avons une préoccupation concernant votre dossier", "Madame, nous avons une difficulté concernant votre dossier"]
-    explanation: "Un gros souci is everyday French; in a formal letter, une préoccupation or une difficulté."
+    prompt: "Corrigez l'erreur de registre (gardez le registre soutenu) : Madame, votre dossier nous pose un gros souci."
+    answers: ["Madame, votre dossier nous pose une difficulté", "Madame, votre dossier pose une difficulté", "Madame, nous rencontrons une difficulté concernant votre dossier"]
+    explanation: "Un gros souci is everyday French; in a formal letter, a file poses une difficulté. Avoid avoir une préoccupation, which is a calque of English."
   - id: "c1-euphemism-and-synonyms-ex015"
     type: "error-correction"
     prompt: "Corrigez l'erreur de mot : La scientifique contemple les oiseaux pour les compter."
@@ -136,11 +136,11 @@ You know *affirmer*, *prétendre* and *déclarer* from <LessonLink id="b2-report
 
 <Example fr="Ce service de transport est réservé aux personnes âgées et aux personnes en situation de handicap." en="This transport service is reserved for older people and people with disabilities." />
 
-**Politeness and grief.** To speak of a death gently, people say *il nous a quittés* (he has passed away) or *elle a disparu* (she has gone), which you know from the lesson on the plus-que-parfait.
+**Politeness and grief.** To speak of a death gently, people say *il nous a quittés* (he has passed away) or *elle a disparu* (she has gone); you know *disparaître* from <LessonLink id="b1-plus-que-parfait" text="the lesson on the plus-que-parfait" />.
 
 <Example fr="Notre ancien directeur nous a quittés la semaine dernière." en="Our former director passed away last week." />
 
-**Administration and business.** Official language also softens. *Un demandeur d'emploi* (a jobseeker) is the administrative term for someone looking for work, more neutral than *un chômeur*. *Un plan social* means a plan to make employees redundant. *Un technicien de surface* (a cleaner) is often quoted, and mocked, as an example of over-polite language.
+**Administration and business.** Official language also softens. *Un demandeur d'emploi* (a jobseeker) is the administrative term for someone looking for work, more neutral than *un chômeur*. *Un plan social* means a plan to make employees redundant; its official name today is *un plan de sauvegarde de l'emploi* (literally, a job protection plan), itself a euphemism. *Un technicien de surface* (a cleaner) is often quoted, and mocked, as an example of over-polite language.
 
 <Example fr="L'entreprise a annoncé un plan social : deux cents postes seront supprimés." en="The company announced a redundancy plan: two hundred jobs will be cut." />
 <Example fr="Les demandeurs d'emploi peuvent se former sans payer." en="Jobseekers can get training without paying." />
@@ -172,7 +172,7 @@ A euphemism is close to the litote you know: both say less. The difference is th
 
 ## Near-synonyms: register
 
-Some synonyms differ less in strength than in register. A *problème* is neutral; *un souci* (a worry, a problem) is everyday and slightly softer; *une difficulté* is neutral to formal; *une préoccupation* (a concern) belongs to formal writing.
+Some synonyms differ less in strength than in register. Un *problème* is neutral; *un souci* (a worry, a problem) is everyday and slightly softer; *une difficulté* is neutral to formal; *une préoccupation* (a concern) belongs to formal writing.
 
 <Example fr="J'ai un petit souci avec mon ordinateur." en="I've got a little problem with my computer. (everyday)" />
 <Example fr="La sécurité des usagers est notre première préoccupation." en="The safety of users is our first concern. (formal)" />
@@ -194,7 +194,7 @@ Two journalists, Hugo and Samira, check a headline before it goes online.
 - *Tu as raison. Il faut le mot juste, ni plus fort ni plus faible.* (You're right. You need the right word, neither stronger nor weaker.)
 - *Exactement. On ne doit ni euphémiser ni exagérer.* (Exactly. We must neither play it down nor exaggerate.)
 - *Bon, je relis une dernière fois et je publie.* (Right, I'll reread it one last time and publish.)
-- *Parfait. Le directeur sera comblé.* (Perfect. The editor will be delighted.)
+- *Parfait. Le directeur sera ravi.* (Perfect. The editor will be delighted.)
 
 <Callout type="warning" title="Une personne âgée, not une vieille personne, in public French">
   Learners often translate "an old person" word for word. In public, professional or written French, use the respectful term: **une personne âgée**, **les personnes âgées**. *Un vieux* or *une vieille* can sound rude.
@@ -227,7 +227,7 @@ related: ["c1-euphemism-and-synonyms", "c1-leading-a-meeting", "c1-exam-oral-pre
 vocab:
   - { id: "c1-spoken-discourse-markers-v001", group: "frame", fr: "bon, alors…", pron: "bonn ah-LOR", en: "right, so… (to start or move on)" }
   - { id: "c1-spoken-discourse-markers-v002", group: "frame", fr: "eh bien…", pron: "ay BYAN", en: "well… (to start an answer)" }
-  - { id: "c1-spoken-discourse-markers-v003", group: "frame", fr: "voilà", pron: "vwah-LAH", en: "there you go, that's it (to close a point)" }
+  - { id: "c1-spoken-discourse-markers-v003", group: "frame", fr: "et voilà", pron: "ay vwah-LAH", en: "there you go, that's it (to close a point)" }
   - { id: "c1-spoken-discourse-markers-v004", group: "adjust", fr: "enfin, je veux dire…", pron: "ahn-fan zhuh vuh DEER", en: "well, I mean… (to correct yourself)" }
   - { id: "c1-spoken-discourse-markers-v005", group: "adjust", fr: "en fait", pron: "ahn FET", en: "actually, in fact (to correct an idea)" }
   - { id: "c1-spoken-discourse-markers-v006", group: "adjust", fr: "disons que…", pron: "dee-zohn KUH", en: "let's say that… (to approximate or soften)" }
@@ -293,7 +293,7 @@ exercises:
   - id: "c1-spoken-discourse-markers-ex009"
     type: "register-shift"
     prompt: "Transformez au registre écrit, sans les marqueurs de l'oral : Bon, alors, en fait, la réunion est reportée, voilà."
-    answers: ["La réunion est reportée", "En réalité, la réunion est reportée"]
+    answers: ["La réunion est reportée", "En réalité, la réunion est reportée", "En fait, la réunion est reportée"]
     explanation: "In writing, the markers go: only the information stays."
   - id: "c1-spoken-discourse-markers-ex010"
     type: "register-shift"
@@ -352,7 +352,7 @@ You know the fillers and reductions of everyday speech (*ben*, *du coup*, *en gr
 
 <VocabTable group="frame" />
 
-*Bon, alors…* opens a new topic or moves things on, often at the start of a meeting or a call. *Eh bien…* (well…) starts an answer, especially when you need a second to think. *Voilà* closes a point, a list or an explanation: there you go, that's it.
+*Bon, alors…* opens a new topic or moves things on, often at the start of a meeting or a call. *Eh bien…* (well…) starts an answer, especially when you need a second to think. *Et voilà* closes a point, a list or an explanation: there you go, that's it. You know *voilà* (here you are) from <LessonLink id="a1-review-food-and-shopping" text="the A1 review on food and shopping" />; this is its other use.
 
 <Example fr="Bon, alors, on commence par le budget ?" en="Right, so, shall we start with the budget? (spoken)" />
 <Example fr="Eh bien, je ne m'attendais pas à cette question." en="Well, I wasn't expecting that question. (spoken)" />
@@ -394,7 +394,7 @@ Note that *disons que* is a form of politeness: like the euphemism, it softens. 
 
 ## Speech and writing
 
-As a rule of thumb, the markers in this lesson belong to speech. In an informal email, *en fait* and *cela dit* are fine. In formal writing, keep only *cela dit* and replace the others with written connectors: *en réalité* for *en fait*, *cependant* or *néanmoins* for *remarque*, *en somme* for *voilà*. When you rewrite spoken French for a report, the markers simply go; only the information stays.
+As a rule of thumb, the markers in this lesson belong to speech. *En fait* and *cela dit* are exceptions: both are common in standard writing too. In formal writing, again as a rule of thumb, keep *cela dit* and replace the others with written connectors: *en réalité* for *en fait*, *cependant* or *néanmoins* for *remarque*, *en somme* for *voilà*. When you rewrite spoken French for a report, the markers simply go; only the information stays.
 
 <Example fr="En réalité, la réunion est reportée." en="In fact, the meeting has been postponed. (written)" />
 
@@ -427,7 +427,7 @@ Inès and Paul plan a weekend away.
 
 ## En résumé
 
-Les marqueurs de discours n'ajoutent pas d'information : ils montrent comment comprendre ce qu'on dit. Bon, alors ouvre un sujet, eh bien commence une réponse, et voilà ferme une explication. Enfin, je veux dire permet de revenir sur ce qu'on vient de dire, en fait change une idée fausse, et disons que donne une idée moins précise ou rend un jugement plus doux. Si tu veux, ou si vous voulez, montre qu'un mot ne convient pas tout à fait, et à la limite présente une dernière solution. Quand même, à la fin d'une phrase, exprime un reproche. Tiens marque la surprise, et tenez accompagne un objet qu'on donne. Remarque et cela dit ajoutent une nuance, pour le coup est familier, et tu vois vérifie que la personne suit. Ces mots appartiennent à l'oral : à l'écrit soutenu, on garde seulement cela dit, et on remplace les autres par des mots de l'écrit, comme en réalité ou cependant.
+Les marqueurs de discours n'ajoutent pas d'information : ils montrent comment comprendre ce qu'on dit. Bon, alors ouvre un sujet, eh bien commence une réponse, et voilà ferme une explication. Enfin, je veux dire permet de revenir sur ce qu'on vient de dire, en fait change une idée fausse, et disons que donne une idée moins précise ou rend un jugement plus doux. Si tu veux, ou si vous voulez, montre qu'un mot ne convient pas tout à fait, et à la limite présente une dernière solution. Quand même, à la fin d'une phrase, exprime un reproche. Tiens marque la surprise, et tenez accompagne un objet qu'on donne. Remarque et cela dit ajoutent une nuance, pour le coup est familier, et tu vois vérifie que la personne suit. Ces mots appartiennent à l'oral : à l'écrit soutenu, on garde surtout cela dit, et on remplace en général les autres par des mots de l'écrit, comme en réalité ou cependant.
 
 ## What's next
 
@@ -515,7 +515,7 @@ exercises:
     type: "reformulation"
     prompt: "Reformulez avec « subventionner » : L'État ne donne d'argent à aucun culte."
     answers: ["L'État ne subventionne aucun culte"]
-    explanation: "Article 2 of the 1905 law: the Republic doesn't subsidize any religion."
+    explanation: "Article 2 of the 1905 law: as a general rule, the Republic doesn't subsidize any religion (Alsace and Moselle are the exception)."
   - id: "c1-culture-laicite-and-institutions-ex010"
     type: "reformulation"
     prompt: "Reformulez avec « nommer » au présent : C'est le président de la République qui choisit le Premier ministre."
@@ -542,7 +542,7 @@ exercises:
     prompt: "Corrigez l'erreur : En France, l'État subventionne une religion officielle."
     answers: ["En France, l'État ne subventionne aucun culte", "En France, l'État n'a pas de religion officielle"]
     strictAccents: true
-    explanation: "The State has no official religion and doesn't subsidize any religion."
+    explanation: "As a general rule, the State has no official religion and doesn't subsidize any religion; Alsace and Moselle are the exception."
   - id: "c1-culture-laicite-and-institutions-ex015"
     type: "error-correction"
     prompt: "Corrigez l'erreur : Les usagers des services publics doivent respecter la neutralité religieuse."
@@ -569,9 +569,9 @@ You know *la laïcité* and the law of 1905 in outline from <LessonLink id="b1-c
 **The 1905 law.** The law of 9 December 1905 organized *la séparation des Églises et de l'État*. Its first article says that the Republic ensures *la liberté de conscience* (freedom of conscience) and guarantees *le libre exercice des cultes* (the free exercise of worship), within the limits of public order. Its second article says that the Republic does not recognize, pay or *subventionner* (subsidize) any religion.
 
 <Example fr="La République garantit la liberté de conscience et le libre exercice des cultes." en="The Republic guarantees freedom of conscience and the free exercise of worship." />
-<Example fr="Depuis 1905, l'État ne subventionne aucun culte." en="Since 1905, the State hasn't subsidized any religion." />
+<Example fr="Depuis 1905, en règle générale, l'État ne subventionne aucun culte." en="Since 1905, as a general rule, the State hasn't subsidized any religion." />
 
-**The Constitution.** The Constitution of 1958, adopted by referendum that year, begins with this sentence:
+**The Constitution.** The Constitution of 1958, adopted by referendum that year, opens with a preamble; its Article 1 begins with this sentence:
 
 <Example fr="« La France est une République indivisible, laïque, démocratique et sociale. » (Constitution de 1958, article 1)" en="&quot;France is an indivisible, secular, democratic and social Republic.&quot;" />
 
@@ -589,7 +589,7 @@ You know *la laïcité* and the law of 1905 in outline from <LessonLink id="b1-c
 
 <Example fr="À l'école publique, les élèves ne peuvent pas porter de signes religieux ostensibles." en="In state schools, pupils can't wear conspicuous religious symbols." />
 
-**Exceptions.** The 1905 law itself provides for *des aumôniers* (chaplains) in places that people can't easily leave, such as hospitals and prisons; the army also has its chaplains. And in Alsace and Moselle, which were German in 1905, *le régime concordataire* (the Concordat system) still applies: there, some religions have an official status.
+**Exceptions.** The 1905 law itself provides for *des aumôniers* (chaplains) in places that people can't easily leave, such as hospitals and prisons; the army also has its chaplains. And in Alsace and Moselle, which were German in 1905, *le régime concordataire* (the Concordat system) still applies: there, some religions have an official status, and the State pays the ministers of the recognized religions.
 
 <Example fr="En Alsace et en Moselle, le régime concordataire existe encore." en="In Alsace and Moselle, the Concordat system still exists." />
 <Example fr="À l'hôpital, un aumônier peut rendre visite aux malades qui le demandent." en="In hospital, a chaplain can visit patients who ask for it." />
@@ -626,13 +626,13 @@ The article below is an original text written for this lesson.
 
 *La laïcité protège donc à la fois l'État et les religions : l'État ne dépend d'aucune religion, et aucune religion ne dépend de l'État. Les élèves étudient d'ailleurs ce principe en classe, comme les autres principes de la République.*
 
-*La loi de 1905 prévoit aussi des exceptions : des aumôniers peuvent être présents à l'hôpital ou en prison. L'armée a, elle aussi, ses aumôniers. Et en Alsace et en Moselle, qui étaient allemandes en 1905, un régime particulier existe toujours.*
+*La loi de 1905 prévoit aussi des exceptions : des aumôniers peuvent être présents à l'hôpital ou en prison. L'armée a, elle aussi, ses aumôniers. Et en Alsace et en Moselle, qui étaient allemandes en 1905, un régime particulier existe toujours : l'État y paie les ministres de certains cultes.*
 
 *Quand l'application de la règle pose une question, ce sont souvent les juges, en particulier ceux du Conseil d'État, qui la tranchent. Le principe reste le même : la neutralité de l'État, et la liberté de chacun.*
 
 <VocabTable group="glossary" />
 
-(Laïcité in everyday life: what the rule says. In France, laïcité isn't an opinion: it is a principle written into the Constitution. It rests on two ideas. First, the State is neutral: it has no official religion and doesn't subsidize any religion. Second, everyone is free to believe or not to believe, and to practise their religion while respecting public order. This rule doesn't concern everyone in the same way. At the town hall, the post office or the hospital, public employees must respect neutrality: they don't show their religious beliefs during their work. Users, for their part, keep their freedom. In state schools, the situation is particular. Since a law of 2004, pupils in state primary schools, collèges and lycées can't wear conspicuous religious symbols. At university, on the other hand, students are free. Laïcité therefore protects both the State and religions: the State depends on no religion, and no religion depends on the State. Pupils in fact study this principle in class, like the other principles of the Republic. The 1905 law also provides for exceptions: chaplains can be present in hospitals or in prisons. The army, too, has its chaplains. And in Alsace and Moselle, which were German in 1905, a special system still exists. When applying the rule raises a question, it's often judges, in particular those of the Conseil d'État, who settle it. The principle stays the same: the neutrality of the State, and the freedom of each person.)
+(Laïcité in everyday life: what the rule says. In France, laïcité isn't an opinion: it is a principle written into the Constitution. It rests on two ideas. First, the State is neutral: it has no official religion and doesn't subsidize any religion. Second, everyone is free to believe or not to believe, and to practise their religion while respecting public order. This rule doesn't concern everyone in the same way. At the town hall, the post office or the hospital, public employees must respect neutrality: they don't show their religious beliefs during their work. Users, for their part, keep their freedom. In state schools, the situation is particular. Since a law of 2004, pupils in state primary schools, collèges and lycées can't wear conspicuous religious symbols. At university, on the other hand, students are free. Laïcité therefore protects both the State and religions: the State depends on no religion, and no religion depends on the State. Pupils in fact study this principle in class, like the other principles of the Republic. The 1905 law also provides for exceptions: chaplains can be present in hospitals or in prisons. The army, too, has its chaplains. And in Alsace and Moselle, which were German in 1905, a special system still exists: there, the State pays the ministers of some religions. When applying the rule raises a question, it's often judges, in particular those of the Conseil d'État, who settle it. The principle stays the same: the neutrality of the State, and the freedom of each person.)
 
 <Callout type="warning" title="L'État est laïque, not les Français sont laïques">
   Learners often apply *laïque* to people, as if it meant "not religious". In law, it describes the State and its institutions: **l'État est laïque**, **l'école publique est laïque**. A citizen can be religious or not; the State stays neutral.
@@ -857,8 +857,8 @@ After the exposé, Clara, who listened, asks Malik some questions.
 - *Je pense qu'un dimanche par mois ne pose pas de problème. Tous les dimanches, en revanche, ce serait plus difficile pour eux.* (I think one Sunday a month isn't a problem. Every Sunday, on the other hand, would be harder for them.)
 - *Certains disent que les voitures devraient disparaître des centres-villes.* (Some people say that cars should disappear from town centres.)
 - *Je n'irais pas jusqu'à dire que les voitures doivent disparaître : certaines personnes en ont besoin.* (I wouldn't go as far as to say that cars must disappear: some people need them.)
-- *Et dans votre pays, ça existe ?* (And does this exist in your country?)
-- *Je ne connais pas bien ce sujet, mais je sais que ma ville a déjà fermé une rue aux voitures.* (I don't know this subject well, but I know my town has already closed a street to cars.)
+- *Et combien de villes françaises font la même chose ?* (And how many French towns do the same?)
+- *Je ne connais pas bien ce sujet, mais je sais que d'autres villes ont déjà essayé des dimanches sans voitures.* (I don't know this subject well, but I know that other towns have already tried car-free Sundays.)
 
 <Callout type="warning" title="Mon exposé s'articule autour de, not mon exposé, il a">
   Learners often announce the plan in spoken style, with a dislocation: *mon exposé, il a deux parties*. In an exposé, use the formal sentence: **mon exposé s'articule autour de deux parties**.
@@ -955,9 +955,9 @@ exercises:
     explanation: "Quand bien même + conditionnel in both clauses."
   - id: "c1-exam-written-tasks-ex010"
     type: "reformulation"
-    prompt: "Reformulez sans répétition, avec « ces derniers » : Les élèves ont des devoirs, mais les élèves n'ont pas tous de l'aide."
-    answers: ["Les élèves ont des devoirs, mais ces derniers n'ont pas tous de l'aide"]
-    explanation: "Ces derniers refers back to the last group named and avoids the repetition."
+    prompt: "Reformulez sans répétition, avec « ces derniers » : Les parents aident les élèves, mais les élèves ne sont pas tous aidés de la même façon."
+    answers: ["Les parents aident les élèves, mais ces derniers ne sont pas tous aidés de la même façon"]
+    explanation: "Ces derniers points to the last plural noun named, here les élèves, and avoids the repetition."
   - id: "c1-exam-written-tasks-ex011"
     type: "translate"
     prompt: "Traduisez (les inégalités) : According to the association, homework increases inequalities."
@@ -975,11 +975,11 @@ exercises:
     answers: ["Les deux documents que j'ai lus sont très différents"]
     explanation: "With avoir, the participle agrees with a direct object placed before it: que (les documents) j'ai lus."
   - id: "c1-exam-written-tasks-ex014"
-    type: "error-correction"
-    prompt: "Corrigez l'erreur de méthode (synthèse) : À mon avis, l'enseignante a raison."
-    answers: ["Selon l'enseignante, les devoirs aident les élèves à progresser", "L'enseignante estime que les devoirs aident les élèves à progresser"]
-    strictAccents: true
-    explanation: "No personal opinion in a synthesis: report the view and attribute it."
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase qui convient dans une synthèse."
+    options: ["Selon l'enseignante, les devoirs aident les élèves à progresser.", "À mon avis, l'enseignante a raison.", "Les devoirs aident les élèves à progresser, c'est évident."]
+    answers: ["Selon l'enseignante, les devoirs aident les élèves à progresser."]
+    explanation: "No personal opinion in a synthesis: report the view and attribute it to its source."
   - id: "c1-exam-written-tasks-ex015"
     type: "translate"
     prompt: "Traduisez (équilibré) : A balanced essay gives each position its best argument."
@@ -1072,7 +1072,7 @@ Keep *une grille de relecture* (a checklist for rereading) and use it on every t
 
 <Example fr="Je relis mon texte trois fois : pour le sens, pour les accords, puis pour l'orthographe et la ponctuation." en="I reread my text three times: for the meaning, for the agreements, then for spelling and punctuation." />
 <Example fr="Une faute d'accord sur un participe passé est une erreur qu'on fait souvent." en="An agreement mistake on a past participle is an error people often make." />
-<Example fr="Pour éviter une répétition, on peut utiliser ces derniers ou un synonyme." en="To avoid a repetition, you can use ces derniers or a synonym." />
+<Example fr="Pour éviter une répétition, on peut utiliser ces derniers ou un synonyme." en="To avoid a repetition, you can use ces derniers (which points to the last noun named) or a synonym." />
 
 <Callout type="warning" title="Selon l'association, not à mon avis, in a synthesis">
   Learners often slip their own opinion into a synthesis. In a synthesis, every judgment belongs to a source: **selon l'association, les devoirs augmentent les inégalités**, not *à mon avis, les devoirs augmentent les inégalités*. Keep your opinion for the essay.
@@ -1244,11 +1244,11 @@ The text below is an original argued text written for this lesson. It answers th
 
 *D'abord, un jeune enfant apprend en jouant, sans peur de se tromper. Il entend des sons qu'un adulte reproduira moins facilement. Ce contact précoce, grâce auquel l'oreille s'habitue à une autre langue, prépare les apprentissages futurs. La fille de ma voisine, élève de maternelle, chante déjà des chansons en anglais. Elle ne traduit pas : elle répète, elle imite, et elle s'amuse.*
 
-*Cependant, quand bien même l'enfant progresserait vite, le résultat dépendrait des conditions. Quelques minutes de temps en temps, avec un enseignant qui ne parle pas bien la langue, ne suffisent pas. Par ailleurs, certains enfants maîtrisent encore mal la langue de l'école, dont l'apprentissage reste la priorité. Enfin, toutes les familles ne peuvent pas payer des cours en plus, ce qui peut augmenter les inégalités.*
+*Cependant, quand bien même l'enfant progresserait vite, le résultat dépendrait des conditions. Quelques minutes de temps en temps, avec un enseignant qui ne parle pas bien la langue, ne suffisent pas. Par ailleurs, certains enfants maîtrisent encore mal la langue de l'école, dont l'apprentissage reste la priorité. Enfin, l'emploi du temps de l'école est déjà plein : ajouter une langue, c'est prendre du temps à autre chose.*
 
 *Pour conclure, un apprentissage précoce peut être une vraie chance, à condition de se faire chaque semaine et d'être confié à des enseignants formés. Une langue étrangère ne remplace pas la langue de l'école : elle vient s'ajouter à elle. Ma prise de position est donc nuancée : oui, mais vraiment pas dans n'importe quelles conditions.*
 
-(Should children learn a foreign language from nursery school? In many countries, children start a foreign language earlier and earlier. Some see it as an opportunity, others as one more burden for very young pupils, and the question divides parents and teachers alike. One may therefore ask to what extent early learning is useful. We will first see its advantages, then its limits. First, a young child learns through play, without fear of making mistakes. They hear sounds that an adult will reproduce less easily. This early contact, thanks to which the ear gets used to another language, prepares future learning. My neighbour's daughter, a nursery-school pupil, already sings songs in English. She doesn't translate: she repeats, she imitates, and she has fun. However, even if the child made quick progress, the result would depend on the conditions. A few minutes now and then, with a teacher who doesn't speak the language well, aren't enough. Moreover, some children still have a poor command of the language of school, learning which remains the priority. Finally, not all families can pay for extra lessons, which can increase inequalities. To conclude, early learning can be a real opportunity, provided it happens every week and is entrusted to trained teachers. A foreign language doesn't replace the language of school: it comes in addition to it. My position is therefore nuanced: yes, but really not under just any conditions.)
+(Should children learn a foreign language from nursery school? In many countries, children start a foreign language earlier and earlier. Some see it as an opportunity, others as one more burden for very young pupils, and the question divides parents and teachers alike. One may therefore ask to what extent early learning is useful. We will first see its advantages, then its limits. First, a young child learns through play, without fear of making mistakes. They hear sounds that an adult will reproduce less easily. This early contact, thanks to which the ear gets used to another language, prepares future learning. My neighbour's daughter, a nursery-school pupil, already sings songs in English. She doesn't translate: she repeats, she imitates, and she has fun. However, even if the child made quick progress, the result would depend on the conditions. A few minutes now and then, with a teacher who doesn't speak the language well, aren't enough. Moreover, some children still have a poor command of the language of school, learning which remains the priority. Finally, the school timetable is already full: adding a language means taking time away from something else. To conclude, early learning can be a real opportunity, provided it happens every week and is entrusted to trained teachers. A foreign language doesn't replace the language of school: it comes in addition to it. My position is therefore nuanced: yes, but really not under just any conditions.)
 
 ## How the text uses the unit
 
@@ -1437,7 +1437,7 @@ This checklist goes unit by unit. For each one, read the statement, read the mod
 
 **Unit 8, Towards DALF C1.** I can choose words by strength and register, use spoken markers, explain laïcité as a set of rules, give a short exposé and write a synthesis or an argued text. See <LessonLink id="c1-exam-oral-presentation" text="the practice lesson on the short exposé" />.
 
-<Example fr="Si je comprends bien, vous me demandez si cette mesure est juste pour tous." en="If I understand correctly, you're asking me whether this measure is fair to everyone." />
+<Example fr="Si je comprends bien, vous me demandez si cette mesure profite à tout le monde." en="If I understand correctly, you're asking me whether this measure benefits everyone." />
 
 ## A few new words
 

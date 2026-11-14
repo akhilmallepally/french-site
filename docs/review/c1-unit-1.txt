@@ -415,7 +415,7 @@ By the end of this lesson you'll be able to show, in a written narrative, that o
 
 ## What you already know
 
-You know the plus-que-parfait (*il avait fini*) from <LessonLink id="b1-plus-que-parfait" text="the lesson on the plus-que-parfait" />, and *dès que*, *aussitôt que* and *lorsque* from <LessonLink id="b1-time-connectors" text="the lesson on time connectors" />. In <LessonLink id="b2-futur-anterieur" text="the lesson on the futur antérieur" />, you used a compound tense after *quand* for the earlier of two future actions. The passé antérieur does the same job in a story told in the passé simple, which you learned to write in <LessonLink id="c1-passe-simple" text="the lesson on the passé simple" />.
+You know the plus-que-parfait (*il avait mis*) from <LessonLink id="b1-plus-que-parfait" text="the lesson on the plus-que-parfait" />, and *dès que*, *aussitôt que* and *lorsque* from <LessonLink id="b1-time-connectors" text="the lesson on time connectors" />. In <LessonLink id="b2-futur-anterieur" text="the lesson on the futur antérieur" />, you used a compound tense after *quand* for the earlier of two future actions. The passé antérieur does the same job in a story told in the passé simple, which you learned to write in <LessonLink id="c1-passe-simple" text="the lesson on the passé simple" />.
 
 ## What the passé antérieur does
 
@@ -1328,14 +1328,15 @@ vocab:
   - { id: "c1-culture-literary-canon-v008", group: "classical", fr: "concevoir", pron: "kohn-suh-VWAHR", en: "to conceive, to understand (an idea)", note: "Ce que l'on conçoit…" }
   - { id: "c1-culture-literary-canon-v009", group: "classical", fr: "s'énoncer", pron: "say-nohn-SAY", en: "to be expressed, to be put into words (formal)" }
   - { id: "c1-culture-literary-canon-v010", group: "classical", fr: "clairement", pron: "klehr-MAHN", en: "clearly" }
-  - { id: "c1-culture-literary-canon-v011", group: "classical", fr: "cornélien / cornélienne", pron: "kor-nay-LYAN / kor-nay-LYEN", en: "Cornelian (torn between duty and passion, as in Corneille)" }
-  - { id: "c1-culture-literary-canon-v012", group: "novel", fr: "le roman réaliste", pron: "luh roh-mahn ray-ah-LEEST", en: "the realist novel" }
-  - { id: "c1-culture-literary-canon-v013", group: "novel", fr: "le naturalisme", pron: "luh nah-tew-rah-LEESS-muh", en: "naturalism" }
-  - { id: "c1-culture-literary-canon-v014", group: "novel", fr: "l'existentialisme (m.)", pron: "leg-zees-tahn-syah-LEESS-muh", en: "existentialism" }
-  - { id: "c1-culture-literary-canon-v015", group: "school", fr: "le commentaire de texte", pron: "luh koh-mahn-tehr duh TEKST", en: "the close commentary of a passage (a French school exercise)" }
-  - { id: "c1-culture-literary-canon-v016", group: "school", fr: "être au programme", pron: "eh-troh proh-GRAHM", en: "to be on the syllabus" }
-  - { id: "c1-culture-literary-canon-v017", group: "school", fr: "une épreuve", pron: "ew-nay-PRUHV", en: "a test, a paper (in an exam)" }
-  - { id: "c1-culture-literary-canon-v018", group: "school", fr: "une culture commune", pron: "ewn kewl-tewr koh-MEWN", en: "a shared culture" }
+  - { id: "c1-culture-literary-canon-v011", group: "classical", fr: "poétique", pron: "poh-ay-TEEK", en: "poetic; (noun) the art of poetry", note: "L'Art poétique: Boileau's treatise in verse." }
+  - { id: "c1-culture-literary-canon-v012", group: "classical", fr: "cornélien / cornélienne", pron: "kor-nay-LYAN / kor-nay-LYEN", en: "Cornelian (torn between duty and passion, as in Corneille)" }
+  - { id: "c1-culture-literary-canon-v013", group: "novel", fr: "le roman réaliste", pron: "luh roh-mahn ray-ah-LEEST", en: "the realist novel" }
+  - { id: "c1-culture-literary-canon-v014", group: "novel", fr: "le naturalisme", pron: "luh nah-tew-rah-LEESS-muh", en: "naturalism" }
+  - { id: "c1-culture-literary-canon-v015", group: "novel", fr: "l'existentialisme (m.)", pron: "leg-zees-tahn-syah-LEESS-muh", en: "existentialism" }
+  - { id: "c1-culture-literary-canon-v016", group: "school", fr: "le commentaire de texte", pron: "luh koh-mahn-tehr duh TEKST", en: "the close commentary of a passage (a French school exercise)" }
+  - { id: "c1-culture-literary-canon-v017", group: "school", fr: "être au programme", pron: "eh-troh proh-GRAHM", en: "to be on the syllabus" }
+  - { id: "c1-culture-literary-canon-v018", group: "school", fr: "une épreuve", pron: "ew-nay-PRUHV", en: "a test, a paper (in an exam)" }
+  - { id: "c1-culture-literary-canon-v019", group: "school", fr: "une culture commune", pron: "ewn kewl-tewr koh-MEWN", en: "a shared culture" }
 exercises:
   - id: "c1-culture-literary-canon-ex001"
     type: "multiple-choice"
@@ -1460,7 +1461,7 @@ Corneille's heroes are often torn between duty and passion, and French still cal
 
 The poet and critic Boileau summed up the classical ideal of clear writing in *L'Art poétique* (1674):
 
-<Example fr="« Ce que l'on conçoit bien s'énonce clairement. » (Boileau)" en="&quot;What is well understood is clearly expressed.&quot; (our translation)" />
+<Example fr="« Ce que l'on conçoit bien s'énonce clairement. » (Boileau, L'Art poétique)" en="&quot;What is well understood is clearly expressed.&quot; (our translation)" />
 <Example fr="Le héros doit choisir entre son amour et son devoir : c'est un choix cornélien." en="The hero has to choose between his love and his duty: it's a Cornelian choice." />
 
 La Fontaine's *Fables* also belong to this century; you'll meet them again in <LessonLink id="c1-culture-satire-and-humour" text="the lesson on satire and humour" />.
@@ -1671,7 +1672,7 @@ French verse isn't measured by stresses, as English verse is, but by the number 
 
 Here is an alexandrine from Racine's tragedy *Phèdre* (1677), with its count:
 
-<Example fr="« Le jour n'est pas plus pur que le fond de mon cœur. » (Racine)" en="&quot;The day is not purer than the depths of my heart.&quot; (our translation)" />
+<Example fr="« Le jour n'est pas plus pur que le fond de mon cœur. » (Racine, Phèdre)" en="&quot;The day is not purer than the depths of my heart.&quot; (our translation)" />
 
 Le / jour / n'est / pas / plus / pur // que / le / fond / de / mon / cœur: twelve syllables, with the caesura after *pur*. Each vowel sound is one syllable: *jour*, *fond* and *cœur* count as one each.
 
@@ -1689,7 +1690,7 @@ The hardest part of counting is *le e muet*, the e at the end of words such as *
 
 Victor Hugo's poem *Demain, dès l'aube*, from *Les Contemplations* (1856), shows two of them in its first line: the e of *aube* is dropped before *à*, the e of *heure* before *où*, and the e of *campagne*, at the end of the line, isn't counted:
 
-<Example fr="« Demain, dès l'aube, à l'heure où blanchit la campagne » (Hugo)" en="&quot;Tomorrow, at dawn, at the hour when the countryside turns white&quot; (our translation)" />
+<Example fr="« Demain, dès l'aube, à l'heure où blanchit la campagne » (Hugo, Les Contemplations)" en="&quot;Tomorrow, at dawn, at the hour when the countryside turns white&quot; (our translation)" />
 
 De / main / dès / l'aube / à / l'heure // où / blan / chit / la / cam / pagne: twelve.
 
@@ -1708,7 +1709,7 @@ A rhyme is *féminine* when the line ends with a mute e (*silence*, *page*), and
 
 *Le sonnet* is the best-known fixed form: fourteen lines, in two *quatrains* followed by two *tercets*, often in alexandrines. Baudelaire used it many times in *Les Fleurs du mal* (1857), for example in the sonnet *Correspondances*. His poem *L'Albatros*, in the same collection, opens with a famous alexandrine:
 
-<Example fr="« Souvent, pour s'amuser, les hommes d'équipage » (Baudelaire)" en="&quot;Often, to amuse themselves, the men of the crew&quot; (our translation)" />
+<Example fr="« Souvent, pour s'amuser, les hommes d'équipage » (Baudelaire, Les Fleurs du mal)" en="&quot;Often, to amuse themselves, the men of the crew&quot; (our translation)" />
 
 Here the e of *hommes* is counted: hom / mes / d'é / qui / page. Inside the line, an ending in *-es* is counted before a consonant and, unlike a final *-e*, before a vowel too.
 
@@ -1716,7 +1717,7 @@ Here the e of *hommes* is counted: hom / mes / d'é / qui / page. Inside the lin
 
 Not all French verse uses twelve syllables. Verlaine liked short, musical lines, such as these six-syllable lines from *Romances sans paroles* (1874):
 
-<Example fr="« Il pleure dans mon cœur / Comme il pleut sur la ville » (Verlaine)" en="&quot;It weeps in my heart / As it rains on the town&quot; (our translation)" />
+<Example fr="« Il pleure dans mon cœur / Comme il pleut sur la ville » (Verlaine, Romances sans paroles)" en="&quot;It weeps in my heart / As it rains on the town&quot; (our translation)" />
 
 From the late nineteenth century on, poets such as Rimbaud loosened the rules, and in the twentieth century *le vers libre* (free verse), with no fixed count and often no rhyme, became common: Apollinaire removed punctuation from *Alcools* (1913), and Prévert's *Paroles* (1946) uses the words of everyday life. This course describes their poems rather than quoting them.
 
@@ -1905,7 +1906,7 @@ By the end of this lesson you'll be able to write a short tale in literary Frenc
 
 Skim this list, and go back to anything that feels shaky.
 
-- **The passé simple**: you know its forms (*il partit*, *ils levèrent*) and its role for events, from <LessonLink id="c1-passe-simple" text="the lesson on the passé simple" />.
+- **The passé simple**: you know its forms (*il entra*, *ils partirent*) and its role for events, from <LessonLink id="c1-passe-simple" text="the lesson on the passé simple" />.
 - **The passé antérieur**: you know *quand il eut fini* and *à peine… que*, from <LessonLink id="c1-passe-anterieur" text="the lesson on the passé antérieur" />.
 - **The future in the past**: you know *devait* + infinitive (was to) and *ne pas tarder à*, from <LessonLink id="c1-future-in-the-past" text="the lesson on the future in the past" />.
 - **The imperfect subjunctive**: you recognize *qu'il fût*, *qu'il fît* and *il eût préféré*, from <LessonLink id="c1-imperfect-subjunctive" text="the lesson on the imperfect subjunctive" />.

@@ -190,45 +190,53 @@ C1 inherits every B2 convention unless it's changed here. Plans are in docs/plan
   - For any later author, don't quote: paraphrase the idea, or write an original pastiche "in the style of" and label it as invented.
   - Longer literary texts are original pastiches, labelled as such, never copies or close paraphrases.
 - **No repeats.** A C1 lesson recaps earlier material in 2 or 3 sentences with a LessonLink to the lesson that first taught it (see docs/c1-coverage.md), then teaches only what's new. Every "you know X from Y" claim is checked against lesson Y before it's written.
-- **C1 checklist** (the B2 self-audit rules, plus the defects that recurred in B2):
-  - Accepted answers: list every valid answer built from taught material, or pin the cue; include oe/œ and *Elle est* / *C'est* variants.
-  - Mood and tense contrasts use verbs whose forms differ (not *donnent*, *reste*, *change*).
-  - Cues are pinned (an infinitive, a structure) wherever more than one answer would be valid.
-  - Vocab ids follow display order, and every entry is used in a complete French sentence.
-  - Fixed phrases made of known words are taught or glossed at first use.
-  - No "always", "never", "most common" or "almost always" unless the lesson's own examples agree; a rule of thumb is called one.
-  - Rules are stated by their real test (same subject, completion), not an approximation.
-  - Distractors are wrong in their sentence, and every rule tested in an exercise is explained in that lesson or an earlier one.
-  - A model text keeps one narrative tense per paragraph, and every dialogue obeys the lesson's own rules.
-  - Before finishing a unit, run check:words, check:structures, audit:content, test:b2-exercises (extended to C1), scripts/b2-links-ids.ts (extended to C1) and check:c1-links.
-  - Forward links: a LessonLink or `related` entry to a lesson that isn't written yet is plain text, listed in docs/c1-forward-links.md (lesson, text, target), and restored when the target is written. `npm run check:c1-links` fails on a link to a missing lesson.
-  - Cross-lesson consistency: when a construction (such as *à peine*) appears in more than one C1 lesson, grep all C1 lessons and make the statements agree.
-  - Rule words: every "every", "only", "always", "never" and "the others" in teaching text and exercise explanations is true for the lesson's own tables and examples.
-  - Distractors: for each one, ask "would a careful writer accept it in this sentence?" If yes, change the sentence or pin the cue.
-  - Recap claims: run scripts/c1-find.ts before any "you know X from Y", and record the lesson id in the log.
-  - En résumé opens with its own subject, never *Cette* or *Ces* pointing outside it. Every vocab entry, grammar terms included, appears in at least one complete French sentence.
-  - The log gives teaching-text, whole-lesson and En résumé word counts for every lesson.
-  - Meaning claims ("the same", "the opposite") in dialogues and notes: translate both sentences and check the claim before writing it.
-  - Answer keys: every fill-in, reformulation and translate key includes the variants the lesson's own examples use (with or without an optional *ne*, *le* or *pas*, *on* or *nous*).
-  - Grammar terms in vocab appear in a complete French sentence, not only inside English.
-  - An exercise sentence that can mean two things gets context or a pinned cue.
-  - When describing a verb's meanings (*devoir*, *pouvoir*, *falloir*), write "the meanings that matter here" unless all meanings are listed.
-  - A form the lesson marks as formal-only or literary is never the only accepted answer, unless the instruction asks for that register.
-  - Every example given to illustrate a rule shows that rule, gloss included: read each example against the sentence before it.
-  - Use French grammar terms as French grammar uses them (*le sujet* is the grammatical subject; *le thème* is the topic). Check any heuristic (size, gender, frequency) against every example given for it.
-  - A model text obeys every limit and rule its own lesson states, and a section that describes the model ("How the text uses the unit") matches it exactly. Count before writing the claim.
-  - For each typed key, search the lesson (and earlier lessons of the same unit) for other phrasings of the same meaning, and accept each one or pin the wording in the prompt.
-  - A model text follows the method its own lesson or unit teaches (by idea, every view with its source, the plan announced), not only its grammar.
-  - In choice exercises, every option fits the blank's form (article, elision, agreement), so that only meaning decides; and no distractor is a valid answer.
-  - When a dialogue and a model text describe the same event, every fact (dates, reasons, who said what, the outcome) matches; check each one.
-  - Before calling a common form wrong, check whether it's only less formal. If it is, label the register ("formal: *former un recours*; everyday: *faire un recours*") instead of marking it as an error.
-  - Before stating a fact about a work (its structure, where a moral or a line comes, a date), check it against the work and against any quotation the lesson itself uses.
-  - When a character summarizes or quotes another character, the summary matches what was said; when a later dialogue comments on a model text, every comment is true of that text.
-  - A model letter shows the full layout from c1-formal-correspondence (sender, place and date, objet, salutation, closing) unless the lesson labels it as an extract.
-  - A claim about a proportion of speakers, users or the population follows the no-figures rule: rephrase it without the proportion, or add it to docs/review-needed.md.
-  - English glosses and translations must not use an English idiom with another meaning (old maid, public school…); choose the plain word.
-  - A claim about literary or intellectual history that uses "after", "first", "founded" or a label (existentialist, romantic…) is checked against the dates and against what the author accepted; contested labels are given as "often linked with".
-  - For a law, a treaty or an official text, say what the date is: adopted, published or in force ("adopted in 2016, applied since 2018").
-  - Every accepted answer must keep the meaning of the prompt; a variant that changes the meaning is not accepted, however natural (rule 7 applies to keys).
+- **C1 checklist** (the B2 self-audit rules, plus the defects that recurred in B2 and C1), by group:
+  - **Facts and claims**
+    - No "always", "never", "most common" or "almost always" unless the lesson's own examples agree; a rule of thumb is called one.
+    - Rules are stated by their real test (same subject, completion), not an approximation.
+    - Cross-lesson consistency: when a construction (such as *à peine*) appears in more than one C1 lesson, grep all C1 lessons and make the statements agree.
+    - Rule words: every "every", "only", "always", "never" and "the others" in teaching text and exercise explanations is true for the lesson's own tables and examples.
+    - Recap claims: run scripts/c1-find.ts before any "you know X from Y", and record the lesson id in the log.
+    - Meaning claims ("the same", "the opposite") in dialogues and notes: translate both sentences and check the claim before writing it.
+    - When describing a verb's meanings (*devoir*, *pouvoir*, *falloir*), write "the meanings that matter here" unless all meanings are listed.
+    - Every example given to illustrate a rule shows that rule, gloss included: read each example against the sentence before it.
+    - Use French grammar terms as French grammar uses them (*le sujet* is the grammatical subject; *le thème* is the topic). Check any heuristic (size, gender, frequency) against every example given for it.
+    - Before stating a fact about a work (its structure, where a moral or a line comes, a date), check it against the work and against any quotation the lesson itself uses.
+    - A claim about a proportion of speakers, users or the population follows the no-figures rule: rephrase it without the proportion, or add it to docs/review-needed.md.
+    - A claim about literary or intellectual history that uses "after", "first", "founded" or a label (existentialist, romantic…) is checked against the dates and against what the author accepted; contested labels are given as "often linked with".
+    - For a law, a treaty or an official text, say what the date is: adopted, published or in force ("adopted in 2016, applied since 2018").
+  - **Answer keys and exercises**
+    - Accepted answers: list every valid answer built from taught material, or pin the cue; include oe/œ and *Elle est* / *C'est* variants.
+    - Cues are pinned (an infinitive, a structure) wherever more than one answer would be valid.
+    - Distractors are wrong in their sentence, and every rule tested in an exercise is explained in that lesson or an earlier one.
+    - Distractors: for each one, ask "would a careful writer accept it in this sentence?" If yes, change the sentence or pin the cue.
+    - Answer keys: every fill-in, reformulation and translate key includes the variants the lesson's own examples use (with or without an optional *ne*, *le* or *pas*, *on* or *nous*).
+    - An exercise sentence that can mean two things gets context or a pinned cue.
+    - A form the lesson marks as formal-only or literary is never the only accepted answer, unless the instruction asks for that register.
+    - For each typed key, search the lesson (and earlier lessons of the same unit) for other phrasings of the same meaning, and accept each one or pin the wording in the prompt.
+    - In choice exercises, every option fits the blank's form (article, elision, agreement), so that only meaning decides; and no distractor is a valid answer.
+    - Every accepted answer must keep the meaning of the prompt; a variant that changes the meaning is not accepted, however natural (the meaning-claims rule applies to keys too).
+  - **Models and dialogues**
+    - Mood and tense contrasts use verbs whose forms differ (not *donnent*, *reste*, *change*).
+    - A model text keeps one narrative tense per paragraph, and every dialogue obeys the lesson's own rules.
+    - A model text obeys every limit and rule its own lesson states, and a section that describes the model ("How the text uses the unit") matches it exactly. Count before writing the claim.
+    - A model text follows the method its own lesson or unit teaches (by idea, every view with its source, the plan announced), not only its grammar.
+    - When a dialogue and a model text describe the same event, every fact (dates, reasons, who said what, the outcome) matches; check each one.
+    - When a character summarizes or quotes another character, the summary matches what was said; when a later dialogue comments on a model text, every comment is true of that text.
+    - A model letter shows the full layout from c1-formal-correspondence (sender, place and date, objet, salutation, closing) unless the lesson labels it as an extract.
+  - **Register and language**
+    - Fixed phrases made of known words are taught or glossed at first use.
+    - Before calling a common form wrong, check whether it's only less formal. If it is, label the register ("formal: *former un recours*; everyday: *faire un recours*") instead of marking it as an error.
+    - English glosses and translations must not use an English idiom with another meaning (old maid, public school…); choose the plain word.
+    - Pronouns that point back (ces derniers, celui-ci, ce dernier, le premier… le second): check the antecedent in the final sentence.
+    - Formal phrasing: no English calques (avoir une préoccupation, adresser un problème, faire du sens…); check the collocation in a French dictionary or in the course before accepting it.
+  - **Rendering and checks**
+    - A component (Example, VocabTable, Callout) never shares its line with text, and a blank line separates it from the next paragraph.
+    - Vocab ids follow display order, and every entry is used in a complete French sentence.
+    - En résumé opens with its own subject, never *Cette* or *Ces* pointing outside it. Every vocab entry, grammar terms included, appears in at least one complete French sentence.
+    - Grammar terms in vocab appear in a complete French sentence, not only inside English.
+    - Before finishing a unit, run check:words, check:structures, audit:content, test:b2-exercises (extended to C1), scripts/b2-links-ids.ts (extended to C1) and check:c1-links.
+    - Forward links: a LessonLink or `related` entry to a lesson that isn't written yet is plain text, listed in docs/c1-forward-links.md (lesson, text, target), and restored when the target is written. `npm run check:c1-links` fails on a link to a missing lesson.
+    - The log gives teaching-text, whole-lesson and En résumé word counts for every lesson.
 
 @AGENTS.md

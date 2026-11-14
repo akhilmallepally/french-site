@@ -1,6 +1,6 @@
 # C1 plan: overview
 
-Status: all eight units are written: 57 of 57 lessons. Units 1 to 7 have been reviewed as whole units, and Unit 8 is ready for its unit review. Rules: CLAUDE.md, "C1 conventions" (on top of the B2 conventions). Coverage of A1 to B2: docs/c1-coverage.md, checked with `node --experimental-strip-types scripts/c1-find.ts "phrase"`. Lesson numbers follow docs/syllabus.md.
+Status: written, wrapped up, awaiting native review. All eight units are written (57 of 57 lessons), each unit has been fixed after its own review, and the level-wide wrap-up is done (docs/c1-wrapup.md, scripts/c1-wrapup.ts). The native-speaker review is next: docs/c1-reviewer-brief.md and docs/c1-review-items.md, with the lessons in docs/review/c1-unit-1.txt to c1-unit-8.txt. Rules: CLAUDE.md, "C1 conventions" (on top of the B2 conventions). Coverage of A1 to B2: docs/c1-coverage.md, checked with `node --experimental-strip-types scripts/c1-find.ts "phrase"`. Lesson numbers follow docs/syllabus.md.
 
 ## Shape
 

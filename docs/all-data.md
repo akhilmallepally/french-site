@@ -9202,6 +9202,7 @@ fr | pron | en | note
 - concevoir | kohn-suh-VWAHR | to conceive, to understand (an idea) | Ce que l'on conçoit…
 - s'énoncer | say-nohn-SAY | to be expressed, to be put into words (formal) | —
 - clairement | klehr-MAHN | clearly | —
+- poétique | poh-ay-TEEK | poetic; (noun) the art of poetry | L'Art poétique: Boileau's treatise in verse.
 - cornélien / cornélienne | kor-nay-LYAN / kor-nay-LYEN | Cornelian (torn between duty and passion, as in Corneille) | —
 - le roman réaliste | luh roh-mahn ray-ah-LEEST | the realist novel | —
 - le naturalisme | luh nah-tew-rah-LEESS-muh | naturalism | —
@@ -11253,7 +11254,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-euphemism-and-synonyms-ex011 | reformulation | Reformulez avec « comblé » (un homme parle) : Je suis plus qu'heureux, j'ai tout ce que je voulais. | — | ["Je suis comblé"] | false | Comblé: so happy that nothing is missing.
 - c1-euphemism-and-synonyms-ex012 | translate | Traduisez (une personne âgée) : This service helps older people. | — | ["Ce service aide les personnes âgées"] | false | Les personnes âgées: the neutral, respectful term.
 - c1-euphemism-and-synonyms-ex013 | translate | Traduisez (la crainte) : Her fear of failure prevents her from trying. | — | ["Sa crainte de l'échec l'empêche d'essayer"] | false | La crainte de + noun: a more formal word than la peur.
-- c1-euphemism-and-synonyms-ex014 | error-correction | Corrigez l'erreur de registre (gardez le registre soutenu) : Madame, nous avons un gros souci concernant votre dossier. | — | ["Madame, nous avons une préoccupation concernant votre dossier","Madame, nous avons une difficulté concernant votre dossier"] | false | Un gros souci is everyday French; in a formal letter, une préoccupation or une difficulté.
+- c1-euphemism-and-synonyms-ex014 | error-correction | Corrigez l'erreur de registre (gardez le registre soutenu) : Madame, votre dossier nous pose un gros souci. | — | ["Madame, votre dossier nous pose une difficulté","Madame, votre dossier pose une difficulté","Madame, nous rencontrons une difficulté concernant votre dossier"] | false | Un gros souci is everyday French; in a formal letter, a file poses une difficulté. Avoid avoir une préoccupation, which is a calque of English.
 - c1-euphemism-and-synonyms-ex015 | error-correction | Corrigez l'erreur de mot : La scientifique contemple les oiseaux pour les compter. | — | ["La scientifique observe les oiseaux pour les compter"] | false | Contempler implies admiration; a scientist who counts observes.
 - c1-euphemism-and-synonyms-ex016 | reorder | Remettez dans l'ordre : This expression is a euphemism. | — | ["Cette expression est un euphémisme"] | false | Un euphémisme: masculine.
 
@@ -11265,7 +11266,7 @@ fr | pron | en | note
 
 - bon, alors… | bonn ah-LOR | right, so… (to start or move on) | —
 - eh bien… | ay BYAN | well… (to start an answer) | —
-- voilà | vwah-LAH | there you go, that's it (to close a point) | —
+- et voilà | ay vwah-LAH | there you go, that's it (to close a point) | —
 - enfin, je veux dire… | ahn-fan zhuh vuh DEER | well, I mean… (to correct yourself) | —
 - en fait | ahn FET | actually, in fact (to correct an idea) | —
 - disons que… | dee-zohn KUH | let's say that… (to approximate or soften) | —
@@ -11292,7 +11293,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-spoken-discourse-markers-ex006 | connector-choice | Choisissez le marqueur : Je pensais qu'il était fâché. ___, il était seulement fatigué. | ["En fait","Tiens","Quand même"] | ["En fait"] | false | En fait corrects a wrong idea: actually.
 - c1-spoken-discourse-markers-ex007 | connector-choice | Choisissez le marqueur : Le film est long. ___, la fin est très belle. | ["Cela dit","Tiens","Voilà"] | ["Cela dit"] | false | Cela dit adds a nuance after a criticism: that said.
 - c1-spoken-discourse-markers-ex008 | connector-choice | Choisissez le marqueur : Je préfère le train. ___, je peux prendre la voiture si c'est plus simple. | ["À la limite","Tiens","Voilà"] | ["À la limite"] | false | À la limite: at a pinch, as a last option.
-- c1-spoken-discourse-markers-ex009 | register-shift | Transformez au registre écrit, sans les marqueurs de l'oral : Bon, alors, en fait, la réunion est reportée, voilà. | — | ["La réunion est reportée","En réalité, la réunion est reportée"] | false | In writing, the markers go: only the information stays.
+- c1-spoken-discourse-markers-ex009 | register-shift | Transformez au registre écrit, sans les marqueurs de l'oral : Bon, alors, en fait, la réunion est reportée, voilà. | — | ["La réunion est reportée","En réalité, la réunion est reportée","En fait, la réunion est reportée"] | false | In writing, the markers go: only the information stays.
 - c1-spoken-discourse-markers-ex010 | register-shift | Transformez au registre écrit, sans les marqueurs de l'oral : Disons que le projet a pris un peu de retard, tu vois ? | — | ["Le projet a pris un peu de retard"] | true | Disons que softens; tu vois ? checks the listener. Neither belongs in a written report.
 - c1-spoken-discourse-markers-ex011 | register-shift | Transformez au registre écrit, avec « cela dit » : C'est cher. Remarque, c'est de très bonne qualité. | — | ["C'est cher. Cela dit, c'est de très bonne qualité","C'est cher ; cela dit, c'est de très bonne qualité"] | false | Remarque is spoken; cela dit carries the same nuance in writing.
 - c1-spoken-discourse-markers-ex012 | translate | Traduisez à l'oral (en fait) : Actually, I've changed my mind. | — | ["En fait, j'ai changé d'avis"] | true | En fait: actually, correcting what was expected.
@@ -11338,12 +11339,12 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-culture-laicite-and-institutions-ex006 | fill-in | Complétez : À l'hôpital, à l'armée et en prison, un ___ peut accompagner les personnes qui le souhaitent. | — | ["aumônier"] | false | Un aumônier: a chaplain. Chaplaincies in hospitals and prisons are an exception provided for in the 1905 law.
 - c1-culture-laicite-and-institutions-ex007 | multiple-choice | Choisissez le mot : Le président de la République est le ___. | ["chef de l'État","Premier ministre","Conseil d'État"] | ["chef de l'État"] | false | The President is the head of State; the Prime Minister leads the government.
 - c1-culture-laicite-and-institutions-ex008 | reformulation | Reformulez avec « la neutralité » : Au travail, un agent public ne montre pas ses convictions religieuses. | — | ["Au travail, un agent public respecte la neutralité","Un agent public respecte la neutralité au travail","Au travail, un agent public est tenu à la neutralité"] | true | La neutralité: public employees don't show their religious beliefs at work.
-- c1-culture-laicite-and-institutions-ex009 | reformulation | Reformulez avec « subventionner » : L'État ne donne d'argent à aucun culte. | — | ["L'État ne subventionne aucun culte"] | false | Article 2 of the 1905 law: the Republic doesn't subsidize any religion.
+- c1-culture-laicite-and-institutions-ex009 | reformulation | Reformulez avec « subventionner » : L'État ne donne d'argent à aucun culte. | — | ["L'État ne subventionne aucun culte"] | false | Article 2 of the 1905 law: as a general rule, the Republic doesn't subsidize any religion (Alsace and Moselle are the exception).
 - c1-culture-laicite-and-institutions-ex010 | reformulation | Reformulez avec « nommer » au présent : C'est le président de la République qui choisit le Premier ministre. | — | ["Le président de la République nomme le Premier ministre"] | false | Nommer: to appoint.
 - c1-culture-laicite-and-institutions-ex011 | translate | Traduisez (le suffrage universel direct) : The President is elected by direct universal suffrage. | — | ["Le président est élu au suffrage universel direct","Le président de la République est élu au suffrage universel direct"] | true | Élu au suffrage universel direct: elected directly by the voters.
 - c1-culture-laicite-and-institutions-ex012 | translate | Traduisez (voter une loi) : Parliament passes the laws. | — | ["Le Parlement vote les lois"] | false | Voter une loi: to pass a law.
 - c1-culture-laicite-and-institutions-ex013 | translate | Traduisez (un signe religieux, ostensible) : Conspicuous religious symbols are forbidden for pupils in state schools. | — | ["Les signes religieux ostensibles sont interdits aux élèves des écoles publiques","Les signes religieux ostensibles sont interdits pour les élèves des écoles publiques","Dans les écoles publiques, les signes religieux ostensibles sont interdits aux élèves"] | false | Law of 2004, for pupils in state primary and secondary schools.
-- c1-culture-laicite-and-institutions-ex014 | error-correction | Corrigez l'erreur : En France, l'État subventionne une religion officielle. | — | ["En France, l'État ne subventionne aucun culte","En France, l'État n'a pas de religion officielle"] | true | The State has no official religion and doesn't subsidize any religion.
+- c1-culture-laicite-and-institutions-ex014 | error-correction | Corrigez l'erreur : En France, l'État subventionne une religion officielle. | — | ["En France, l'État ne subventionne aucun culte","En France, l'État n'a pas de religion officielle"] | true | As a general rule, the State has no official religion and doesn't subsidize any religion; Alsace and Moselle are the exception.
 - c1-culture-laicite-and-institutions-ex015 | error-correction | Corrigez l'erreur : Les usagers des services publics doivent respecter la neutralité religieuse. | — | ["Les agents publics doivent respecter la neutralité religieuse"] | false | Neutrality applies to public employees, not to the people who use public services.
 - c1-culture-laicite-and-institutions-ex016 | reorder | Remettez dans l'ordre : The State has no official religion. | — | ["L'État n'a pas de religion officielle"] | false | Pas de: no article after a negation.
 
@@ -11403,17 +11404,17 @@ fr | pron | en | note
 - un contresens | uhn kohn-truh-SAHNSS | a misreading, a mistranslation | —
 - équilibré / équilibrée | ay-kee-lee-BRAY | balanced | —
 - un plan détaillé | uhn plahn day-tah-YAY | a detailed outline | —
+- les devoirs à la maison (m.) | lay duh-vwahr ah lah meh-ZOHN | homework | —
+- les inégalités (f.) | lay-zee-nay-gah-lee-TAY | inequalities | —
+- l'autonomie (f.) | loh-toh-noh-MEE | independence, self-reliance | —
+- développer | day-voh-PLAY | to develop | —
+- une association de parents d'élèves | ew-nah-soh-syah-syohn duh pah-rahn day-LEV | a parents' association | —
 - une grille de relecture | ewn gree-yuh duh ruh-lek-TEWR | a checklist for rereading | —
 - l'orthographe (f.) | lor-toh-GRAF | spelling | —
 - la ponctuation | lah pohnk-tew-ah-SYOHN | punctuation | —
 - une faute d'accord | ewn foht dah-KOR | an agreement mistake | —
 - une répétition | ewn ray-pay-tee-SYOHN | a repetition (of a word) | —
 - une phrase de transition | ewn frahz duh trahn-zee-SYOHN | a linking sentence between two parts | —
-- les devoirs à la maison (m.) | lay duh-vwahr ah lah meh-ZOHN | homework | —
-- les inégalités (f.) | lay-zee-nay-gah-lee-TAY | inequalities | —
-- l'autonomie (f.) | loh-toh-noh-MEE | independence, self-reliance | —
-- développer | day-voh-PLAY | to develop | —
-- une association de parents d'élèves | ew-nah-soh-syah-syohn duh pah-rahn day-LEV | a parents' association | —
 
 ### Exercises
 
@@ -11428,11 +11429,11 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-exam-written-tasks-ex007 | connector-choice | Choisissez le connecteur : Les deux documents ___ sur un point : les devoirs doivent être adaptés à l'âge des élèves. | ["s'accordent","divergent","se contredisent"] | ["s'accordent"] | false | S'accorder sur: to agree on, a point in common.
 - c1-exam-written-tasks-ex008 | reformulation | Reformulez de façon objective, avec « selon l'enseignante » : Les devoirs aident vraiment les élèves à progresser. | — | ["Selon l'enseignante, les devoirs aident les élèves à progresser","Selon l'enseignante, les devoirs aident vraiment les élèves à progresser"] | true | In a synthesis, every view is attributed to its source.
 - c1-exam-written-tasks-ex009 | reformulation | Reformulez avec « quand bien même » et le conditionnel : Même si les devoirs étaient supprimés, les inégalités resteraient. | — | ["Quand bien même les devoirs seraient supprimés, les inégalités resteraient","Les inégalités resteraient, quand bien même les devoirs seraient supprimés"] | false | Quand bien même + conditionnel in both clauses.
-- c1-exam-written-tasks-ex010 | reformulation | Reformulez sans répétition, avec « ces derniers » : Les élèves ont des devoirs, mais les élèves n'ont pas tous de l'aide. | — | ["Les élèves ont des devoirs, mais ces derniers n'ont pas tous de l'aide"] | false | Ces derniers refers back to the last group named and avoids the repetition.
+- c1-exam-written-tasks-ex010 | reformulation | Reformulez sans répétition, avec « ces derniers » : Les parents aident les élèves, mais les élèves ne sont pas tous aidés de la même façon. | — | ["Les parents aident les élèves, mais ces derniers ne sont pas tous aidés de la même façon"] | false | Ces derniers points to the last plural noun named, here les élèves, and avoids the repetition.
 - c1-exam-written-tasks-ex011 | translate | Traduisez (les inégalités) : According to the association, homework increases inequalities. | — | ["Selon l'association, les devoirs à la maison augmentent les inégalités","Selon l'association, les devoirs augmentent les inégalités","D'après l'association, les devoirs à la maison augmentent les inégalités","D'après l'association, les devoirs augmentent les inégalités"] | true | Selon or d'après attributes the view.
 - c1-exam-written-tasks-ex012 | translate | Traduisez (respecter la consigne) : First, you must follow the instructions. | — | ["D'abord, il faut respecter la consigne","Il faut d'abord respecter la consigne"] | false | Respecter la consigne: to do exactly what the task asks.
 - c1-exam-written-tasks-ex013 | error-correction | Corrigez l'erreur d'accord : Les deux documents que j'ai lu sont très différents. | — | ["Les deux documents que j'ai lus sont très différents"] | false | With avoir, the participle agrees with a direct object placed before it: que (les documents) j'ai lus.
-- c1-exam-written-tasks-ex014 | error-correction | Corrigez l'erreur de méthode (synthèse) : À mon avis, l'enseignante a raison. | — | ["Selon l'enseignante, les devoirs aident les élèves à progresser","L'enseignante estime que les devoirs aident les élèves à progresser"] | true | No personal opinion in a synthesis: report the view and attribute it.
+- c1-exam-written-tasks-ex014 | multiple-choice | Choisissez la phrase qui convient dans une synthèse. | ["Selon l'enseignante, les devoirs aident les élèves à progresser.","À mon avis, l'enseignante a raison.","Les devoirs aident les élèves à progresser, c'est évident."] | ["Selon l'enseignante, les devoirs aident les élèves à progresser."] | false | No personal opinion in a synthesis: report the view and attribute it to its source.
 - c1-exam-written-tasks-ex015 | translate | Traduisez (équilibré) : A balanced essay gives each position its best argument. | — | ["Une dissertation équilibrée donne à chaque position son meilleur argument","Un essai équilibré donne à chaque position son meilleur argument"] | true | Équilibré: balanced, fair to each side.
 - c1-exam-written-tasks-ex016 | reorder | Remettez dans l'ordre : Both documents agree on one point. | — | ["Les deux documents s'accordent sur un point"] | false | S'accorder sur: to agree on.
 

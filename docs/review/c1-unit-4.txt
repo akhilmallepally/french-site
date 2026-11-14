@@ -1384,7 +1384,7 @@ By the end of this lesson you'll be able to describe the main French traditions 
 
 ## What you already know
 
-You know *la presse satirique*, *un dessin de presse* and *la caricature* from <LessonLink id="b2-culture-french-press" text="the lesson on the French press" />, *un humoriste* from <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />, and *se moquer de* from <LessonLink id="b1-relative-dont" text="the lesson on dont" />. In <LessonLink id="c1-irony-and-understatement" text="the lesson on irony and understatement" />, you learned to read irony. This lesson places it in a long tradition.
+You know *la presse satirique*, *un dessin de presse* and *la caricature* from <LessonLink id="b2-culture-french-press" text="the lesson on the French press" />, *un humoriste* from <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />, and *se moquer de* from <LessonLink id="b1-relative-dont" text="the lesson on dont" />. In <LessonLink id="c1-irony-and-understatement" text="the lesson on irony and understatement" />, you learned to read irony. This lesson places it in a long tradition. You met La Fontaine, Molière and Voltaire, and their centuries, in <LessonLink id="c1-culture-literary-canon" text="the lesson on the French literary canon" />; this lesson looks at how they made people laugh.
 
 ## A long tradition
 
@@ -1394,7 +1394,7 @@ France has a long tradition of *la satire*: humour that *tourne en ridicule* the
 
 **Les fables.** Jean de La Fontaine (1621–1695) published his *Fables* from 1668. In short stories in verse, animals behave like people, and most fables state *une morale*, often at the end, sometimes at the start. In *Le Loup et l'Agneau*, the moral comes first, in the opening line; then a wolf finds a pretext to eat a lamb.
 
-<Example fr="« La raison du plus fort est toujours la meilleure. » (La Fontaine)" en="\"The argument of the strongest is always the best.\" (our translation)" />
+<Example fr="« La raison du plus fort est toujours la meilleure. » (La Fontaine, Fables)" en="\"The argument of the strongest is always the best.\" (our translation)" />
 
 Behind the animals, readers recognize the court and the powerful of the time.
 

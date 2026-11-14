@@ -285,3 +285,26 @@
   - The final review has no next lesson, so its What's next links back to c1-review-literary for revision.
   - The DALF lessons make no claim about the exam; laïcité is explained as rules, with no figures and no judgement, and every such sentence is in docs/review-needed.md.
   - Overview: 57 of 57 written. Syllabus prerequisites for orders 51–57 updated.
+
+## C1 wrap-up
+
+- **Unit 8 fixes (Prompt 39, items 1–6):** none were already done; all applied.
+  - *ces derniers* now points to les élèves; the calque *avoir une préoccupation* was replaced with *pose une difficulté*; written-tasks ex014 is now a multiple choice.
+  - Laïcité: the preamble and Article 1, and the State paying ministers in Alsace-Moselle (the general rule is marked as such).
+  - Malik's limit is now about figures; *ravi*; *plan de sauvegarde de l'emploi*; *disparaître* is linked; *en fait* is noted as standard in writing; the timetable argument replaces paid lessons.
+  - The C1-wide antecedent scan found one more: *celui-ci* in leading-a-meeting, now *du propriétaire*. Rules 29 and 30 added.
+- **Wrap-up** (scripts/c1-wrapup.ts → docs/c1-wrapup.md; mechanical failures 4 → 0):
+  - Links: 0 missing targets, 0 forward links left, 4 forward signposts kept as a judgement call.
+  - "You know" claims: 326 checked, 15 flagged; 8 were false or misattributed and fixed, 7 were artefacts.
+  - Repeats: 2 vocab (*voilà* → *et voilà*, *quand même* in NEW_MEANINGS), 1 sentence, 1 callout title; all fixed.
+  - Quotations: 14, none over the limit; six attributions now name their work.
+  - Dates and places: 160 dates and 11 recurring names read; no contradiction found.
+- **Docs:** c1-unit-1.txt to c1-unit-8.txt regenerated in one format; c1-reviewer-brief.md and c1-review-items.md written; overview and project-state updated.
+  - Review items: 309 (22 possibly resolved; Language 169, Culture and register 84, Facts 42, Sensitive 14).
+  - CLAUDE.md: the C1 checklist is now in five groups, all 41 rules kept, plus the component-spacing rule.
+- **Checks against baselines:**
+  - check:words 110 (unchanged); check:structures 0.
+  - audit: 73 / 4 / 6 informational; validate OK; test:content OK; test:checker 29/29.
+  - test:b2-exercises: 1,034 checked, 0 failures; b2-links-ids: 116 lessons, 0 failures; check:c1-links: 57 lessons, 0 failures.
+  - check:alexandrines 8/8 (and --test); c1-wrapup 0 mechanical failures; build OK.
+- **Left for the native reviewer:** the 309 items, with Units 1–3 grammar first, then the sensitive items, the quotations and the poem, and the facts in Units 6 and 8. The four signposts, two undated quotations and recurring names are listed as judgement calls in docs/c1-wrapup.md.

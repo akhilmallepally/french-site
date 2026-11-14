@@ -50,6 +50,7 @@ excellent excellente présentation action actions ambiance changement opposition
 // with the reason (the audit flags any other repeat as an error). Key: the `fr` text, lowercase.
 // These are the new meanings marked in docs/plans/b2.
 export const NEW_MEANINGS: Record<string, string> = {
+  "quand même": "C1 (c1-spoken-discourse-markers, as quand même !): indignation or insistence at the end of a sentence. b2-concession-opposition taught all the same.",
   "un bilan": "B2 (b2-conditionnel-passe): a toll, in the news. b1-review-final taught a stock-take.",
   "un entretien": "B2 (b2-reported-speech-past): a media interview. b1-cover-letter taught a job interview.",
   "le marché": "B2 (b2-economy-and-business): the market, in economics. a1-places-in-town taught a street market.",
