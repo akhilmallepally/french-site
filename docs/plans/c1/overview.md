@@ -1,6 +1,6 @@
 # C1 plan: overview
 
-Status: Units 2, 3, 4, 5 and 7 are written and reviewed as whole units; Unit 1 has its first four lessons (c1-passe-simple to c1-imperfect-subjunctive). 40 of 57 lessons are written. Units 6 and 8 and lessons 5 to 8 of Unit 1 remain. Rules: CLAUDE.md, "C1 conventions" (on top of the B2 conventions). Coverage of A1 to B2: docs/c1-coverage.md, checked with `node --experimental-strip-types scripts/c1-find.ts "phrase"`. Lesson numbers follow docs/syllabus.md.
+Status: Units 1, 2, 3, 4, 5 and 7 are written; Units 2 to 5 and 7 have been reviewed as whole units, and Unit 1 is ready for its unit review. 44 of 57 lessons are written. Units 6 and 8 remain. Rules: CLAUDE.md, "C1 conventions" (on top of the B2 conventions). Coverage of A1 to B2: docs/c1-coverage.md, checked with `node --experimental-strip-types scripts/c1-find.ts "phrase"`. Lesson numbers follow docs/syllabus.md.
 
 ## Shape
 
@@ -49,5 +49,5 @@ Before writing, extend the B2 checks to C1: test:b2-exercises and scripts/b2-lin
   - c1-synthesis and c1-dissertation: b2-summarizing-an-article and b2-argumentative-essay.
   - c1-future-in-the-past: b2-reported-speech-past.
   - c1-leading-a-meeting and c1-formal-correspondence: b2-meetings-and-calls and b1-formal-email.
-- **Poetry:** if scan-alexandrines.ts can't verify a classical poem, the lesson uses free verse. Decide once the script exists.
+- **Poetry:** decided in Prompt 36. scripts/scan-alexandrines.ts (`npm run check:alexandrines`) verifies every line of the original poem in c1-culture-french-poetry and the four quoted lines (Racine, Hugo, Baudelaire, Verlaine), so the lesson uses a classical poem: two quatrains of alexandrines with alternating rhymes. A native speaker still reviews it (docs/review-needed.md).
 - **Facts for a native speaker:** docs/review-needed.md, "C1 plan".

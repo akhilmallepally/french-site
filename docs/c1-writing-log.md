@@ -184,3 +184,39 @@
   - Unit 6 isn't written, so Unit 7 uses only Units 1–5. When Unit 6 is written, it mustn't re-introduce Unit 7 vocab as new.
   - review-living needs *le souper*, so it has a sixth prerequisite (a2-culture-francophone-world). Its What's next is a forward link to c1-euphemism-and-synonyms, now listed. No pending link pointed to Unit 7.
   - register-shifting's longer text is exactly 250 words. Syllabus prerequisites for orders 46–50 and the overview (40 of 57) are updated.
+
+## Unit 1, lessons 5 to 8
+
+- **Unit 7 fixes (Prompt 36, items 1–8):** none were already done; all applied.
+  - Heating: broken in the whole building, in every version.
+  - Full letter layouts: register-shifting and review-living.
+  - Catalan in the south; *beaucoup d'habitants vivent très bien avec les deux*; Toronto; *courriel* créé au Québec.
+  - Proportions rephrased: *de plus en plus de…*, and "many people speak" instead of "most people speak".
+  - Idioms: *mettre la main à la pâte* and *payer les pots cassés* are now labelled everyday; the dialogue uses *pots cassés* for someone else's mistake.
+  - Answer keys widened in 9 exercises; ex010's "…, et je vous remercie" removed.
+  - Dropped as already taught: *l'allemand* (A1) and *le logement* (B2). Kept as taught nowhere else: *le sud*, *une génération*, *les dictionnaires*, *la température*, *un radiateur*.
+  - Added: *l'ONU*, to keep francophonie at 15 entries; *utiliser*, taught nowhere before, as a review-living new word.
+  - The only component glued to text in C1 (regional-languages) is fixed. Rules 23 and 24 added; c1-unit-7.txt regenerated.
+- **New lessons** (teaching / whole; vocab + glossary; exercises (production); dialogue lines; longer text):
+  - reading-literary-narrative: 1,183 / 2,016; 16 + 1; 16 (7); 12 lines; 259.
+  - culture-literary-canon: 1,030 / 1,572; 18; 16 (7); no dialogue; 274.
+  - culture-french-poetry: 1,020 / 1,634; 17 + 6; 16 (6); no dialogue; 284.
+  - review-literary: 1,038 / 1,596; 4 new + 1 glossary; 17 (7); 259.
+- **Poetry:** I wrote scripts/scan-alexandrines.ts (`npm run check:alexandrines`; `--test` checks known lines by Racine, Hugo, Baudelaire and Verlaine). All 8 lines of the original poem pass, so the lesson uses classical form, not free verse. A native speaker should still check it.
+- **Recap claims, false or partial:**
+  - The plan's new *l'intrigue* is already in b1-cinema-and-books, so it's a recap.
+  - *un point de vue* is B1, as an opinion; I added *le point de vue interne / externe* instead.
+  - "Luxembourg… at A2" is true (a2-culture-francophone-world vocab) and is now a LessonLink.
+  - The satire lesson now recaps La Fontaine, Molière and Voltaire with a link to the canon lesson.
+- **Checks against baselines:**
+  - check:words 110 (unchanged); check:structures 0.
+  - audit: 73 / 4 / 6 informational; every C1 length, mix and longer-text row is 0.
+  - validate OK, no warnings; test:content OK; test:checker 29/29.
+  - test:b2-exercises: 888 checked, 0 failures; b2-links-ids: 103 lessons, 0 failures; check:c1-links: 44 lessons, 0 failures.
+  - check:alexandrines 8/8; build OK.
+- **Didn't fit:**
+  - Lessons 5–8 come before Units 2–7 in course order, so I avoided words those units define (*romancier*, *imiter*, *le loup*).
+  - Some basic words are taught nowhere: *bateau*, *traverser*, *ciel*, *le nombre*, *terminer*, *clairement*. They became glossary or vocab entries, or I reworded.
+  - The Enlightenment is only named; it's a new forward link to c1-culture-enlightenment, which should recap these names.
+  - Restored: c1-imperfect-subjunctive → c1-reading-literary-narrative.
+  - reading-literary-narrative is 2,016 words, close to the 2,100 cap.

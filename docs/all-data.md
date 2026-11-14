@@ -1,6 +1,6 @@
 # All lesson data
 
-263 written lessons, in course order.
+267 written lessons, in course order.
 
 ## a1-greetings
 
@@ -9141,6 +9141,182 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-imperfect-subjunctive-ex016 | translate | Traduisez en français moderne (regretter, partir) : She was sorry that he had left. | — | ["Elle regrettait qu'il soit parti","Elle a regretté qu'il soit parti"] | true | Regretter que + passé subjunctive for an earlier action: qu'il soit parti.
 - c1-imperfect-subjunctive-ex017 | reorder | Remettez dans l'ordre : Although he was ill, he left. (literary) | — | ["Bien qu'il fût malade, il partit","Il partit bien qu'il fût malade"] | false | Bien que + imparfait du subjonctif (fût), then the passé simple (partit). The bien que clause can also come second.
 
+## c1-reading-literary-narrative
+
+### Vocab
+
+fr | pron | en | note
+
+- un narrateur omniscient | uhn nah-rah-tuhr omm-nee-SYAHN | an all-knowing narrator | —
+- le point de vue interne | luh pwan duh vew an-TEHRN | the internal point of view (the story seen through one character's eyes) | —
+- le point de vue externe | luh pwan duh vew ek-STEHRN | the external point of view (only what an observer could see) | —
+- le discours indirect libre | luh dees-koor an-dee-rekt LEE-bruh | free indirect speech | —
+- la situation initiale | lah see-tew-ah-syohn ee-nee-SYAL | the opening situation | —
+- l'élément déclencheur (m.) | lay-lay-mahn day-klahn-SHUHR | the triggering event | —
+- le dénouement | luh day-noo-MAHN | the ending, the resolution | —
+- la chute | lah SHEWT | the twist at the end (of a short story) | —
+- un retour en arrière | uhn ruh-toor ahn-nah-RYEHR | a flashback | —
+- le notaire | luh noh-TEHR | the notary (the lawyer who handles wills and property) | —
+- le testament | luh tes-tah-MAHN | the will | —
+- la diligence | lah dee-lee-ZHAHNSS | the stagecoach | —
+- la servante | lah sehr-VAHNT | the maid, the servant (old-fashioned) | —
+- les volets (m.) | lay voh-LEH | the shutters | —
+- revenir à quelqu'un | ruh-vuh-neer ah kel-KUHN | to go to someone (in a will), to be someone's by right | —
+- immobile | ee-moh-BEEL | motionless, still | —
+- une enveloppe | ewn ahn-VLOP | an envelope | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-reading-literary-narrative-ex001 | multiple-choice | Indiquez le rôle du temps : Adèle partit à l'aube. La diligence était pleine. | ["partit : un événement du récit ; était : l'arrière-plan","partit : l'arrière-plan ; était : un événement du récit","les deux verbes : des événements du récit"] | ["partit : un événement du récit ; était : l'arrière-plan"] | false | The passé simple moves the story on; the imparfait describes the background.
+- c1-reading-literary-narrative-ex002 | multiple-choice | Indiquez la phrase au discours indirect libre. | ["La maison à Marthe ! À une servante ! Comment avait-on pu lui faire cela ?","Elle se demanda comment on avait pu lui faire cela.","« Comment a-t-on pu me faire cela ? » dit-elle."] | ["La maison à Marthe ! À une servante ! Comment avait-on pu lui faire cela ?"] | false | No verb of saying, no que, no quotation marks, but the character's own exclamations, in the narrator's tenses and persons. The second sentence is indirect speech; the third is direct speech.
+- c1-reading-literary-narrative-ex003 | multiple-choice | Choisissez le point de vue : Le narrateur nous montre ce qu'Adèle voit, sent et pense, mais pas ce que pense Marthe. | ["le point de vue interne","le point de vue externe","un narrateur omniscient"] | ["le point de vue interne"] | false | Internal point of view: we see the story through one character's eyes.
+- c1-reading-literary-narrative-ex004 | multiple-choice | Choisissez le mot : La dernière phrase d'une nouvelle change le sens de toute l'histoire. C'est ___. | ["la chute","la situation initiale","l'élément déclencheur"] | ["la chute"] | false | La chute: the twist at the end of a short story.
+- c1-reading-literary-narrative-ex005 | connector-choice | Choisissez le temps (la nuit commençait à tomber) : Quand elle arriva, la nuit ___. | ["tombait","tomba","était tombée"] | ["tombait"] | false | Night beginning to fall is the background to her arrival: imparfait. Tomba would make nightfall a separate event; était tombée would mean it was already dark.
+- c1-reading-literary-narrative-ex006 | multiple-choice | Indiquez le temps de « eut fermé » dans : Dès qu'il eut fermé la porte, il ouvrit l'enveloppe. | ["le passé antérieur","le plus-que-parfait","le passé composé"] | ["le passé antérieur"] | false | Eut fermé: passé antérieur, an action just before another in the passé simple, after dès que.
+- c1-reading-literary-narrative-ex007 | fill-in | Complétez : La partie du récit où tout se termine s'appelle le ___. | — | ["dénouement"] | false | Le dénouement: the ending, where the story is resolved.
+- c1-reading-literary-narrative-ex008 | fill-in | Complétez : Avant le train, on voyageait souvent en ___. | — | ["diligence"] | false | La diligence: the stagecoach.
+- c1-reading-literary-narrative-ex009 | reformulation | Reformulez au discours indirect, avec « elle se demanda » : Comment avait-on pu lui faire cela ? | — | ["Elle se demanda comment on avait pu lui faire cela"] | false | Free indirect speech becomes indirect speech with a verb of saying and comment, no inversion.
+- c1-reading-literary-narrative-ex010 | reformulation | Reformulez au discours indirect, avec « elle pensa que » : Sa tante l'avait toujours préférée aux autres. | — | ["Elle pensa que sa tante l'avait toujours préférée aux autres"] | false | The thought is now reported, with a verb of thinking and que; the tenses don't change.
+- c1-reading-literary-narrative-ex011 | reformulation | Reformulez au passé composé, comme à l'oral : Le lendemain, elle reprit la diligence. | — | ["Le lendemain, elle a repris la diligence","Elle a repris la diligence le lendemain"] | true | In speech and everyday writing, the passé composé replaces the passé simple.
+- c1-reading-literary-narrative-ex012 | error-correction | Corrigez l'erreur de temps : Quand elle arriva, le notaire l'attendit déjà dans le salon. | — | ["Quand elle arriva, le notaire l'attendait déjà dans le salon"] | false | Déjà shows a situation in progress at that moment: imparfait, not passé simple.
+- c1-reading-literary-narrative-ex013 | translate | Traduisez (le testament, revenir à) : The house went to the old maid. | — | ["La maison revint à la vieille servante","La maison est revenue à la vieille servante","La maison revenait à la vieille servante"] | true | Revenir à quelqu'un: to go to someone in a will. In a written story, the passé simple; in speech, the passé composé; the story's own sentence uses the imparfait, because it reports what the will said.
+- c1-reading-literary-narrative-ex014 | translate | Traduisez (le notaire) : The notary was waiting for her in the drawing room. | — | ["Le notaire l'attendait dans le salon","Le notaire l'attendait au salon"] | false | Was waiting: imparfait, the background.
+- c1-reading-literary-narrative-ex015 | translate | Traduisez au passé simple (immobile) : She stayed motionless for a long time. | — | ["Elle resta longtemps immobile","Elle resta immobile longtemps","Elle resta immobile pendant longtemps"] | false | Resta: a completed event, even a long one, so passé simple.
+- c1-reading-literary-narrative-ex016 | reorder | Remettez dans l'ordre : She took nothing but the box. | — | ["Elle ne prit que la boîte"] | false | Ne… que: only, around the verb.
+
+## c1-culture-literary-canon
+
+### Vocab
+
+fr | pron | en | note
+
+- un classique | uhn klah-SEEK | a classic (a work still read long after it was written) | —
+- une œuvre majeure | ew-nuh-vruh mah-ZHUHR | a major work | —
+- un courant littéraire | uhn koo-rahn lee-tay-REHR | a literary movement | —
+- le dix-septième / le dix-huitième siècle | luh dee-seh-TYEM / luh dee-zwee-TYEM SYEH-kluh | the seventeenth / the eighteenth century | —
+- le classicisme | luh klah-see-SEESS-muh | classicism (17th-century French literature and its rules) | —
+- une tragédie | ewn trah-zhay-DEE | a tragedy | —
+- la règle des trois unités | lah reh-gluh day trwah-zew-nee-TAY | the rule of the three unities (one action, one place, one day) | —
+- concevoir | kohn-suh-VWAHR | to conceive, to understand (an idea) | Ce que l'on conçoit…
+- s'énoncer | say-nohn-SAY | to be expressed, to be put into words (formal) | —
+- clairement | klehr-MAHN | clearly | —
+- cornélien / cornélienne | kor-nay-LYAN / kor-nay-LYEN | Cornelian (torn between duty and passion, as in Corneille) | —
+- le roman réaliste | luh roh-mahn ray-ah-LEEST | the realist novel | —
+- le naturalisme | luh nah-tew-rah-LEESS-muh | naturalism | —
+- l'existentialisme (m.) | leg-zees-tahn-syah-LEESS-muh | existentialism | —
+- le commentaire de texte | luh koh-mahn-tehr duh TEKST | the close commentary of a passage (a French school exercise) | —
+- être au programme | eh-troh proh-GRAHM | to be on the syllabus | —
+- une épreuve | ew-nay-PRUHV | a test, a paper (in an exam) | —
+- une culture commune | ewn kewl-tewr koh-MEWN | a shared culture | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-culture-literary-canon-ex001 | multiple-choice | Indiquez le siècle de Molière, de Racine et de La Fontaine. | ["le dix-septième siècle","le dix-huitième siècle","le dix-neuvième siècle"] | ["le dix-septième siècle"] | false | Corneille, Racine, Molière and La Fontaine are the great classical writers of the seventeenth century.
+- c1-culture-literary-canon-ex002 | multiple-choice | Choisissez le courant : Zola décrit la vie des ouvriers comme un scientifique. | ["le naturalisme","le classicisme","l'existentialisme"] | ["le naturalisme"] | false | Naturalism, with Zola, studies society almost like a scientist.
+- c1-culture-literary-canon-ex003 | multiple-choice | Choisissez la bonne réponse : Phèdre, de Racine, est ___. | ["une tragédie","un roman","un recueil de poèmes"] | ["une tragédie"] | false | Racine wrote tragedies in verse; Phèdre is one of the best known.
+- c1-culture-literary-canon-ex004 | fill-in | Complétez : Selon la règle des trois ___, la pièce a une seule action, en un seul lieu et en un seul jour. | — | ["unités"] | false | La règle des trois unités: one action, one place, one day.
+- c1-culture-literary-canon-ex005 | fill-in | Complétez : Au lycée, on explique comment un extrait produit son effet dans un commentaire de ___. | — | ["texte"] | false | Le commentaire de texte: a close commentary of a passage, not a summary.
+- c1-culture-literary-canon-ex006 | multiple-choice | Choisissez l'écrivain : L'Étranger (1942). | ["Albert Camus","Molière","Gustave Flaubert"] | ["Albert Camus"] | false | Camus published L'Étranger in 1942.
+- c1-culture-literary-canon-ex007 | multiple-choice | Choisissez le mot : Un roman qu'on lit encore deux siècles plus tard est ___. | ["un classique","un extrait","une épreuve"] | ["un classique"] | false | Un classique: a work that is still read long after it was written.
+- c1-culture-literary-canon-ex008 | multiple-choice | Indiquez le sens de « un choix cornélien ». | ["un choix entre le devoir et l'amour","un choix très drôle","un choix facile"] | ["un choix entre le devoir et l'amour"] | false | Cornélien: torn between duty and passion, like the heroes of Corneille.
+- c1-culture-literary-canon-ex009 | reformulation | Reformulez avec « une œuvre majeure » : Madame Bovary est l'un des romans les plus importants du dix-neuvième siècle. | — | ["Madame Bovary est une œuvre majeure du dix-neuvième siècle"] | false | Une œuvre majeure: a major work.
+- c1-culture-literary-canon-ex010 | reformulation | Reformulez avec « être au programme » : Cette année, les élèves doivent étudier cette pièce. | — | ["Cette année, cette pièce est au programme","Cette pièce est au programme cette année"] | false | Être au programme: to be on the syllabus.
+- c1-culture-literary-canon-ex011 | error-correction | Corrigez l'erreur : Tartuffe est un roman de Molière. | — | ["Tartuffe est une pièce de Molière","Tartuffe est une pièce de théâtre de Molière","Tartuffe est une comédie de Molière"] | false | Molière wrote plays, not novels: Tartuffe is a comedy.
+- c1-culture-literary-canon-ex012 | error-correction | Corrigez l'erreur de siècle : Voltaire a écrit Candide au dix-septième siècle. | — | ["Voltaire a écrit Candide au dix-huitième siècle"] | true | Candide was published in 1759, in the eighteenth century.
+- c1-culture-literary-canon-ex013 | translate | Traduisez (le roman réaliste) : Balzac and Flaubert wrote realist novels. | — | ["Balzac et Flaubert ont écrit des romans réalistes"] | false | Le roman réaliste: the realist novel of the nineteenth century.
+- c1-culture-literary-canon-ex014 | translate | Traduisez (un classique) : This novel has become a classic. | — | ["Ce roman est devenu un classique"] | false | Devenir un classique: to become a classic.
+- c1-culture-literary-canon-ex015 | translate | Traduisez la phrase de Boileau (concevoir, s'énoncer) : What is well understood is clearly expressed. | — | ["Ce que l'on conçoit bien s'énonce clairement","Ce qu'on conçoit bien s'énonce clairement"] | false | Boileau, L'Art poétique (1674): clear thought makes clear writing.
+- c1-culture-literary-canon-ex016 | reorder | Remettez dans l'ordre : One must eat to live, and not live to eat. | — | ["Il faut manger pour vivre, et non pas vivre pour manger"] | false | Molière, L'Avare (1668).
+
+## c1-culture-french-poetry
+
+### Vocab
+
+fr | pron | en | note
+
+- la poésie | lah poh-ay-ZEE | poetry | —
+- un poète / une poétesse | uhn poh-ET / ewn poh-ay-TESS | a poet | —
+- l'alexandrin (m.) | lah-lek-sahn-DRAN | the alexandrine (a line of twelve syllables) | —
+- la césure | lah say-ZEWR | the caesura (the break inside a line) | —
+- un hémistiche | uh-nay-mees-TEESH | a half-line (each half of an alexandrine) | —
+- une voyelle / une consonne | ewn vwah-YEL / ewn kohn-SONN | a vowel / a consonant | —
+- le e muet | luh uh mew-EH | the mute e | —
+- la diérèse | lah dee-ay-REHZ | diaeresis (saying two vowels as two syllables) | —
+- la synérèse | lah see-nay-REHZ | synaeresis (saying two vowels as one syllable) | —
+- pur / pure | PEWR | pure | —
+- un équipage | uh-nay-kee-PAHZH | a crew (of a ship) | —
+- une rime masculine / féminine | ewn reem mahs-kew-LEEN / fay-mee-NEEN | a masculine rhyme (no final mute e) / a feminine rhyme (with a final mute e) | —
+- des rimes plates / croisées / embrassées | day reem PLAT / krwah-ZAY / ahn-brah-SAY | rhymes in pairs (AABB) / alternate rhymes (ABAB) / enclosed rhymes (ABBA) | —
+- le sonnet | luh soh-NEH | the sonnet | —
+- un quatrain / un tercet | uhn kah-TRAN / uhn tehr-SEH | a four-line stanza / a three-line stanza | —
+- le vers libre | luh vehr LEE-bruh | free verse | —
+- lire à voix haute | leer ah vwah OHT | to read aloud | —
+- tranquille | trahn-KEEL | quiet, calm | —
+- autrefois | oh-truh-FWAH | long ago, in the past | —
+- le rivage | luh ree-VAHZH | the shore | —
+- s'endort (s'endormir) | sahn-DOR | falls asleep (to fall asleep) | —
+- traverse (traverser) | trah-VEHRS | cross (to cross) | —
+- un bateau | uhn bah-TOH | a boat | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-culture-french-poetry-ex001 | multiple-choice | Indiquez combien de syllabes a un alexandrin. | ["douze","dix","huit"] | ["douze"] | false | The alexandrine has twelve syllables.
+- c1-culture-french-poetry-ex002 | multiple-choice | Choisissez la bonne réponse : Un sonnet a ___. | ["deux quatrains et deux tercets","trois quatrains","quatorze strophes"] | ["deux quatrains et deux tercets"] | false | Fourteen lines: two four-line stanzas, then two three-line stanzas.
+- c1-culture-french-poetry-ex003 | multiple-choice | Indiquez le nom des rimes : le premier vers rime avec le troisième, et le deuxième avec le quatrième. | ["des rimes croisées","des rimes embrassées","des rimes plates"] | ["des rimes croisées"] | false | ABAB: alternate rhymes. ABBA is embrassées; AABB is plates.
+- c1-culture-french-poetry-ex004 | fill-in | Complétez : Dans un alexandrin, la ___ coupe le vers après la sixième syllabe. | — | ["césure"] | false | La césure: the break after the sixth syllable.
+- c1-culture-french-poetry-ex005 | fill-in | Complétez : Un alexandrin a deux hémistiches de six ___. | — | ["syllabes"] | false | Two half-lines of six syllables each.
+- c1-culture-french-poetry-ex006 | multiple-choice | Indiquez si le e muet de « lampe » compte dans ce vers : Une voix d'autrefois, sous la lampe, commence | ["Il compte : il est devant une consonne.","Il ne compte pas : il est devant une voyelle.","Il ne compte pas : il est à la fin du vers."] | ["Il compte : il est devant une consonne."] | false | Lampe is followed by commence, which starts with a consonant: the mute e is counted, lam-pe.
+- c1-culture-french-poetry-ex007 | multiple-choice | Indiquez si le e muet de « heure » compte dans ce vers : Demain, dès l'aube, à l'heure où blanchit la campagne | ["Il ne compte pas : il est devant une voyelle.","Il compte : il est devant une consonne.","Il ne compte pas : il est à la fin du vers."] | ["Il ne compte pas : il est devant une voyelle."] | false | Heure is followed by où: the mute e is elided.
+- c1-culture-french-poetry-ex008 | multiple-choice | Choisissez le poète des Fleurs du mal. | ["Baudelaire","Racine","Molière"] | ["Baudelaire"] | false | Charles Baudelaire published Les Fleurs du mal in 1857.
+- c1-culture-french-poetry-ex009 | multiple-choice | Indiquez combien de syllabes a ce vers de Verlaine : Il pleure dans mon cœur | ["six","cinq","sept"] | ["six"] | false | Il / pleu / re / dans / mon / cœur: the e of pleure is counted before the consonant of dans.
+- c1-culture-french-poetry-ex010 | reformulation | Reformulez avec « un alexandrin » : Ce vers a douze syllabes. | — | ["Ce vers est un alexandrin","C'est un alexandrin"] | false | Un alexandrin: a line of twelve syllables.
+- c1-culture-french-poetry-ex011 | reformulation | Reformulez avec « des rimes plates » : Les rimes vont deux par deux. | — | ["Ce sont des rimes plates","Les rimes sont des rimes plates"] | false | AABB: rimes plates.
+- c1-culture-french-poetry-ex012 | error-correction | Corrigez l'erreur : Un sonnet a douze vers. | — | ["Un sonnet a quatorze vers"] | true | A sonnet has fourteen lines.
+- c1-culture-french-poetry-ex013 | error-correction | Corrigez l'erreur : Dans un alexandrin, la césure vient après la quatrième syllabe. | — | ["Dans un alexandrin, la césure vient après la sixième syllabe"] | false | The caesura comes after the sixth syllable, in the middle of the line.
+- c1-culture-french-poetry-ex014 | translate | Traduisez (le e muet) : At the end of the line, the mute e is not counted. | — | ["À la fin du vers, le e muet ne compte pas","En fin de vers, le e muet ne compte pas","À la fin du vers, on ne compte pas le e muet","Le e muet ne compte pas à la fin du vers"] | true | At the end of the line, the mute e is never counted, even when it is heard a little.
+- c1-culture-french-poetry-ex015 | translate | Traduisez (un recueil, la poésie) : This collection changed French poetry. | — | ["Ce recueil a changé la poésie française"] | true | Un recueil: a collection of poems.
+- c1-culture-french-poetry-ex016 | reorder | Remettez dans l'ordre : A sonnet ends with two three-line stanzas. | — | ["Un sonnet finit par deux tercets"] | false | Finir par: to end with.
+
+## c1-review-literary
+
+### Vocab
+
+fr | pron | en | note
+
+- le style | luh STEEL | style (the way a writer writes) | —
+- une tournure | ewn toor-NEWR | a turn of phrase, a construction | —
+- pasticher | pahs-tee-SHAY | to write in the style of (an author), to pastiche | —
+- un conteur / une conteuse | uhn kohn-TUHR / ewn kohn-TUHZ | a storyteller | —
+- un fantôme | uhn fahn-TOHM | a ghost | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-review-literary-ex001 | fill-in | Conjuguez au passé simple : Au large, les marins ___ (lever) la tête. | — | ["levèrent"] | false | Lever, like all -er verbs: ils levèrent.
+- c1-review-literary-ex002 | multiple-choice | Indiquez le temps de « finit » dans : Le soir, il finit son repas et sortit. | ["le passé simple","le présent","l'imparfait"] | ["le passé simple"] | false | Finit can be present or passé simple; sortit, in the same sentence, shows that it's the passé simple.
+- c1-review-literary-ex003 | fill-in | Complétez au passé antérieur : Quand il ___ mangé, il demanda pourquoi la cloche se taisait. | — | ["eut"] | true | Quand + passé antérieur, then the passé simple: quand il eut mangé, il demanda.
+- c1-review-literary-ex004 | multiple-choice | Indiquez le sens de « devait » : Personne ne le savait encore, mais cet homme devait changer la vie du port. | ["un événement futur, vu du passé","une chose qu'il fallait faire","une hypothèse"] | ["un événement futur, vu du passé"] | false | Devait + infinitive in a story: was to, an event that happened later.
+- c1-review-literary-ex005 | reformulation | Reformulez en français moderne, avec le subjonctif présent : Le roi ordonna qu'on le fît descendre. | — | ["Le roi ordonna qu'on le fasse descendre","Le roi a ordonné qu'on le fasse descendre"] | true | Fît is the imperfect subjunctive of faire; modern French uses the present subjunctive, fasse.
+- c1-review-literary-ex006 | multiple-choice | Indiquez la phrase au discours indirect libre. | ["Qui était-il ? Un marin d'autrefois, un fantôme ?","Les marins se demandèrent qui il était.","« Qui est-il ? » demandèrent les marins."] | ["Qui était-il ? Un marin d'autrefois, un fantôme ?"] | false | Questions in the narration, in the past, with no verb of saying: free indirect speech.
+- c1-review-literary-ex007 | multiple-choice | Choisissez le siècle du classicisme, de Racine et de Molière. | ["le dix-septième siècle","le dix-huitième siècle","le dix-neuvième siècle"] | ["le dix-septième siècle"] | false | Classicism is the literature of the seventeenth century.
+- c1-review-literary-ex008 | multiple-choice | Indiquez combien de syllabes a ce vers : Le soir, quand la maison s'endort dans le silence | ["douze","onze","treize"] | ["douze"] | false | Le / soir / quand / la / mai / son // s'en / dort / dans / le / si / lence: the final e of silence isn't counted.
+- c1-review-literary-ex009 | multiple-choice | Choisissez le mot : Écrire une histoire dans le style de Maupassant, c'est le ___. | ["pasticher","traduire","résumer"] | ["pasticher"] | false | Pasticher: to write in the style of an author.
+- c1-review-literary-ex010 | fill-in | Complétez : « À peine… que » est une ___ du registre littéraire. | — | ["tournure"] | false | Une tournure: a turn of phrase, a construction.
+- c1-review-literary-ex011 | reformulation | Reformulez au passé composé, comme à l'oral : Le voyageur frappa à la porte de l'auberge. | — | ["Le voyageur a frappé à la porte de l'auberge"] | true | In speech, the passé composé replaces the passé simple.
+- c1-review-literary-ex012 | reformulation | Reformulez au passé composé, avec « dès que », comme à l'oral : À peine fut-il arrivé que la cloche sonna. | — | ["Dès qu'il est arrivé, la cloche a sonné","La cloche a sonné dès qu'il est arrivé"] | true | À peine… que with inversion and the passé antérieur is literary; in speech, dès que with the passé composé.
+- c1-review-literary-ex013 | error-correction | Corrigez l'erreur de temps : Quand il eut mangé, il demandait pourquoi la cloche se taisait. | — | ["Quand il eut mangé, il demanda pourquoi la cloche se taisait"] | true | The passé antérieur goes with a main verb in the passé simple: il demanda.
+- c1-review-literary-ex014 | error-correction | Corrigez la forme du passé simple : Les marins voyèrent la cloche. | — | ["Les marins virent la cloche"] | false | Voir: ils virent.
+- c1-review-literary-ex015 | translate | Traduisez au passé simple (se mettre à) : The bell started to ring. | — | ["La cloche se mit à sonner"] | true | Se mettre à: to start to. Passé simple: elle se mit.
+- c1-review-literary-ex016 | translate | Traduisez à l'imparfait, puis au passé simple : It was cold. The traveller entered the inn. | — | ["Il faisait froid. Le voyageur entra dans l'auberge"] | false | The background in the imparfait, the event in the passé simple.
+- c1-review-literary-ex017 | reorder | Remettez dans l'ordre : No one ever saw him again. | — | ["On ne le revit jamais"] | false | Revit: passé simple of revoir.
+
 ## c1-stylistic-inversion
 
 ### Vocab
@@ -10543,7 +10719,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-proverbs-and-sayings-ex010 | translate | Traduisez par le proverbe français de même sens : Better late than never. | — | ["Mieux vaut tard que jamais"] | false | Here the French and English proverbs happen to match closely.
 - c1-proverbs-and-sayings-ex011 | translate | Traduisez par le proverbe français de même sens : Where there's a will, there's a way. | — | ["Vouloir, c'est pouvoir","Quand on veut, on peut"] | false | Vouloir, c'est pouvoir; in speech, people also say quand on veut, on peut.
 - c1-proverbs-and-sayings-ex012 | reformulation | Reformulez avec un proverbe : Attends demain pour décider, tu y verras plus clair. | — | ["La nuit porte conseil"] | false | La nuit porte conseil says exactly this.
-- c1-proverbs-and-sayings-ex013 | reformulation | Reformulez avec « comme dit le proverbe » et le proverbe sur l'ours : Ne parlons pas de succès avant la fin du match. | — | ["Comme dit le proverbe, il ne faut pas vendre la peau de l'ours avant de l'avoir tué"] | false | Comme dit le proverbe introduces a proverb in full.
+- c1-proverbs-and-sayings-ex013 | reformulation | Reformulez avec « comme dit le proverbe » et le proverbe sur l'ours : Ne parlons pas de succès avant la fin du match. | — | ["Comme dit le proverbe, il ne faut pas vendre la peau de l'ours avant de l'avoir tué","Il ne faut pas vendre la peau de l'ours avant de l'avoir tué, comme dit le proverbe"] | false | Comme dit le proverbe introduces a proverb in full.
 - c1-proverbs-and-sayings-ex014 | error-correction | Corrigez l'erreur : L'habit ne fait pas la moine. | — | ["L'habit ne fait pas le moine"] | false | Le moine is masculine. Proverbs have a fixed form: change nothing.
 - c1-proverbs-and-sayings-ex015 | error-correction | Corrigez l'erreur : Les absents ont toujours raison. | — | ["Les absents ont toujours tort"] | false | The proverb says the opposite: people who aren't there get the blame.
 - c1-proverbs-and-sayings-ex016 | reorder | Remettez dans l'ordre : Nothing ventured, nothing gained. | — | ["Qui ne risque rien n'a rien"] | false | A proverb has a fixed word order.
@@ -10568,9 +10744,9 @@ fr | pron | en | note
 - mettre la charrue avant les bœufs | meh-truh lah shah-REW ah-vahn lay BUH | to put the cart before the horse | —
 - être dans le même bateau | eh-truh dahn luh mem bah-TOH | to be in the same boat | —
 - faire d'une pierre deux coups | fehr dewn PYEHR duh KOO | to kill two birds with one stone | —
-- mettre la main à la pâte | meh-truh lah MAN ah lah PAHT | to lend a hand, to muck in | Familiar.
+- mettre la main à la pâte | meh-truh lah MAN ah lah PAHT | to lend a hand, to muck in | Everyday; common in the press too.
 - se serrer la ceinture | suh seh-ray lah san-TEWR | to tighten one's belt | —
-- payer les pots cassés | peh-yay lay poh kah-SAY | to pay for someone else's mistakes, to take the blame | Familiar.
+- payer les pots cassés | peh-yay lay poh kah-SAY | to pay for someone else's mistakes, to take the blame | Everyday; common in the press too.
 
 ### Exercises
 
@@ -10584,13 +10760,13 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-advanced-idioms-ex006 | fill-in | Complétez : Après trois échecs, elle a fini par jeter l'___. | — | ["éponge"] | false | Jeter l'éponge: to give up.
 - c1-advanced-idioms-ex007 | fill-in | Complétez : Pour trouver un accord, chacun doit mettre de l'eau dans son ___. | — | ["vin"] | false | Mettre de l'eau dans son vin: to soften one's demands.
 - c1-advanced-idioms-ex008 | reformulation | Reformulez avec « enfoncer une porte ouverte » : Tu dis une chose que tout le monde sait déjà. | — | ["Tu enfonces une porte ouverte"] | false | Enfoncer une porte ouverte: to state the obvious.
-- c1-advanced-idioms-ex009 | reformulation | Reformulez avec « avoir carte blanche » : La directrice m'a laissé faire comme je veux. | — | ["J'ai carte blanche","J'ai eu carte blanche"] | false | Avoir carte blanche: to have a free hand.
+- c1-advanced-idioms-ex009 | reformulation | Reformulez avec « avoir carte blanche » : La directrice m'a laissé faire comme je veux. | — | ["J'ai carte blanche","J'ai eu carte blanche","La directrice m'a donné carte blanche"] | true | Avoir carte blanche: to have a free hand.
 - c1-advanced-idioms-ex010 | reformulation | Reformulez avec « faire d'une pierre deux coups », au passé composé : En allant à Lyon, j'ai vu le client et ma sœur. | — | ["En allant à Lyon, j'ai fait d'une pierre deux coups","J'ai fait d'une pierre deux coups en allant à Lyon"] | true | Faire d'une pierre deux coups: to achieve two things at once.
-- c1-advanced-idioms-ex011 | register-shift | Transformez en français courant, sans expression imagée, avec « payer pour les erreurs des autres » : Ce sont les salariés qui ont payé les pots cassés. | — | ["Ce sont les salariés qui ont payé pour les erreurs des autres"] | false | Payer les pots cassés: to pay for other people's mistakes.
+- c1-advanced-idioms-ex011 | register-shift | Transformez en français courant, sans expression imagée, avec « payer pour les erreurs des autres » : Ce sont les salariés qui ont payé les pots cassés. | — | ["Ce sont les salariés qui ont payé pour les erreurs des autres","Les salariés ont payé pour les erreurs des autres"] | false | Payer les pots cassés: to pay for other people's mistakes.
 - c1-advanced-idioms-ex012 | error-correction | Corrigez l'erreur : Il a mis les bœufs avant la charrue. | — | ["Il a mis la charrue avant les bœufs"] | true | The idiom is fixed: mettre la charrue avant les bœufs.
 - c1-advanced-idioms-ex013 | error-correction | Corrigez l'erreur : Nous sommes dans un même bateau. | — | ["Nous sommes dans le même bateau"] | false | The fixed form is dans le même bateau.
 - c1-advanced-idioms-ex014 | translate | Traduisez par l'expression française de même sens : Let's take the bull by the horns. | — | ["Prenons le taureau par les cornes"] | false | Here French and English share the image.
-- c1-advanced-idioms-ex015 | translate | Traduisez par l'expression française de même sens : We'll have to tighten our belts. | — | ["Il faudra se serrer la ceinture","Nous allons devoir nous serrer la ceinture","Il va falloir se serrer la ceinture"] | false | Se serrer la ceinture: to spend less.
+- c1-advanced-idioms-ex015 | translate | Traduisez par l'expression française de même sens : We'll have to tighten our belts. | — | ["Il faudra se serrer la ceinture","Nous allons devoir nous serrer la ceinture","Il va falloir se serrer la ceinture","On va devoir se serrer la ceinture","Nous devrons nous serrer la ceinture"] | false | Se serrer la ceinture: to spend less.
 - c1-advanced-idioms-ex016 | reorder | Remettez dans l'ordre : He tries to please both sides. | — | ["Il essaie de ménager la chèvre et le chou"] | false | Ménager la chèvre et le chou: to keep both sides happy.
 
 ## c1-culture-regional-languages
@@ -10634,11 +10810,11 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-culture-regional-languages-ex007 | fill-in | Complétez : Aux Antilles et à La Réunion, on parle aussi des ___ à base française. | — | ["créoles"] | false | Les créoles: languages born from contact between French and other languages.
 - c1-culture-regional-languages-ex008 | reformulation | Reformulez en commençant par « La transmission de la langue », avec « diminuer » : Les parents parlent de moins en moins la langue à leurs enfants. | — | ["La transmission de la langue diminue","La transmission de la langue aux enfants diminue","La transmission de la langue des parents aux enfants diminue"] | false | La transmission names the passing on of a language between generations.
 - c1-culture-regional-languages-ex009 | reformulation | Reformulez avec « il y a un panneau bilingue » : À l'entrée du village, le nom est écrit en français et en breton. | — | ["À l'entrée du village, il y a un panneau bilingue","Il y a un panneau bilingue à l'entrée du village"] | true | Un panneau bilingue: a sign in two languages.
-- c1-culture-regional-languages-ex010 | error-correction | Corrigez l'erreur : Le basque est une langue romane. | — | ["Le basque n'est pas une langue romane"] | false | Occitan is a Romance language; Basque doesn't belong to any of the main European families.
+- c1-culture-regional-languages-ex010 | error-correction | Corrigez l'erreur : Le basque est une langue romane. | — | ["Le basque n'est pas une langue romane","Le basque ne fait partie d'aucune grande famille de langues européennes"] | false | Occitan is a Romance language; Basque doesn't belong to any of the main European families.
 - c1-culture-regional-languages-ex011 | error-correction | Corrigez l'erreur : Le corse est une langue germanique. | — | ["Le corse est une langue romane"] | false | Corsican is a Romance language, close to the Italian of Tuscany.
 - c1-culture-regional-languages-ex012 | translate | Traduisez (une langue régionale) : Breton is a regional language. | — | ["Le breton est une langue régionale"] | false | Language names are masculine and written without a capital in French.
 - c1-culture-regional-languages-ex013 | translate | Traduisez (l'enseignement) : The teaching of regional languages exists in many schools. | — | ["L'enseignement des langues régionales existe dans de nombreuses écoles","L'enseignement des langues régionales existe dans beaucoup d'écoles"] | false | L'enseignement de + subject.
-- c1-culture-regional-languages-ex014 | translate | Traduisez (le patrimoine) : These languages are part of France's heritage. | — | ["Ces langues font partie du patrimoine de la France","Ces langues appartiennent au patrimoine de la France"] | false | Faire partie de or appartenir à + le patrimoine.
+- c1-culture-regional-languages-ex014 | translate | Traduisez (le patrimoine) : These languages are part of France's heritage. | — | ["Ces langues font partie du patrimoine de la France","Ces langues appartiennent au patrimoine de la France","Ces langues font partie du patrimoine français"] | false | Faire partie de or appartenir à + le patrimoine.
 - c1-culture-regional-languages-ex015 | multiple-choice | Indiquez la phrase correcte. | ["La langue de la République est le français.","Le breton est la langue officielle de la Bretagne.","Les langues régionales n'ont aucune place dans l'enseignement."] | ["La langue de la République est le français."] | false | The Constitution states that French is the language of the Republic; regional languages are taught but aren't official.
 - c1-culture-regional-languages-ex016 | reorder | Remettez dans l'ordre : Regional languages belong to France's heritage. | — | ["Les langues régionales appartiennent au patrimoine de la France"] | false | This is the wording of the Constitution since 2008.
 
@@ -10651,10 +10827,10 @@ fr | pron | en | note
 - l'OIF (l'Organisation internationale de la Francophonie) | loh-ee-EF | the OIF (International Organization of La Francophonie) | —
 - un sommet | uhn soh-MEH | a summit (a meeting of heads of State) | —
 - un pays membre | uhn pay-ee MAHN-bruh | a member country | —
+- l'ONU (f.) | loh-NEW | the UN (l'Organisation des Nations unies) | —
 - une langue de travail | ewn lahng duh trah-VAH-y | a working language | —
 - la colonisation | lah koh-loh-nee-zah-SYOHN | colonization | —
 - le néerlandais | luh nay-ehr-lahn-DEH | Dutch | —
-- l'allemand (m.) | lahl-MAHN | German (the language) | —
 - le romanche | luh roh-MAHNSH | Romansh (a language of Switzerland) | —
 - huitante | wee-TAHNT | eighty (in some Swiss cantons) | France: quatre-vingts.
 - une votation | ewn voh-tah-SYOHN | a popular vote, a referendum (Switzerland) | —
@@ -10681,8 +10857,8 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-culture-francophonie-ex009 | reformulation | Reformulez en français de France, avec « soixante-dix » : J'ai septante euros. | — | ["J'ai soixante-dix euros"] | false | Septante (Belgium, Switzerland) = soixante-dix (France).
 - c1-culture-francophonie-ex010 | reformulation | Reformulez avec « un pays membre » : Ce pays fait partie de l'OIF. | — | ["C'est un pays membre de l'OIF","Ce pays est un pays membre de l'OIF"] | false | Un pays membre de l'OIF: a country that belongs to the organization.
 - c1-culture-francophonie-ex011 | error-correction | Corrigez l'erreur : En Suisse, on dit « huitante » dans tous les cantons. | — | ["En Suisse, on dit « huitante » dans certains cantons"] | false | Huitante is used in some Swiss cantons only; others say quatre-vingts.
-- c1-culture-francophonie-ex012 | error-correction | Corrigez l'erreur : Le Canada a une seule langue officielle, le français. | — | ["Le Canada a deux langues officielles, le français et l'anglais"] | true | Canada is officially bilingual at the federal level; French is the only official language of Québec.
-- c1-culture-francophonie-ex013 | translate | Traduisez (une langue de travail) : French is a working language of the United Nations. | — | ["Le français est une langue de travail des Nations unies"] | false | Une langue de travail de + the organization.
+- c1-culture-francophonie-ex012 | error-correction | Corrigez l'erreur : Le Canada a une seule langue officielle, le français. | — | ["Le Canada a deux langues officielles, le français et l'anglais","Le Canada a deux langues officielles, l'anglais et le français","Le Canada a deux langues officielles"] | true | Canada is officially bilingual at the federal level; French is the only official language of Québec.
+- c1-culture-francophonie-ex013 | translate | Traduisez (une langue de travail) : French is a working language of the United Nations. | — | ["Le français est une langue de travail des Nations unies","Le français est une langue de travail de l'ONU"] | false | Une langue de travail de + the organization. L'ONU (l'Organisation des Nations unies) is the usual French abbreviation for the UN.
 - c1-culture-francophonie-ex014 | translate | Traduisez (une variété) : There are several varieties of French. | — | ["Il existe plusieurs variétés de français","Il y a plusieurs variétés de français"] | true | Une variété: a form of a language spoken in one place.
 - c1-culture-francophonie-ex015 | multiple-choice | Indiquez la phrase la plus neutre sur l'histoire du français en Afrique. | ["Le français est arrivé en Afrique avec la colonisation, puis beaucoup de pays l'ont gardé après leur indépendance.","Le français est la seule vraie langue de l'Afrique.","Le français n'a aucune place en Afrique aujourd'hui."] | ["Le français est arrivé en Afrique avec la colonisation, puis beaucoup de pays l'ont gardé après leur indépendance."] | false | A neutral sentence states the history and the present without judging.
 - c1-culture-francophonie-ex016 | reorder | Remettez dans l'ordre : French is shared by many countries. | — | ["Le français est partagé par de nombreux pays"] | false | Être partagé par: the passive with par.
@@ -10706,7 +10882,6 @@ fr | pron | en | note
 - intervenir | an-tehr-vuh-NEER | to come and deal with something (a repair, a problem) | Like venir: il est intervenu.
 - dans les meilleurs délais | dahn lay meh-yuhr day-LEH | as soon as possible (formal) | —
 - faire le nécessaire | fehr luh nay-seh-SEHR | to do what is needed | —
-- le logement | luh lozh-MAHN | the accommodation, the flat | —
 - persister | pehr-sees-TAY | to continue, to persist | —
 - la température | lah tahn-pay-rah-TEWR | the temperature | —
 - un radiateur | uhn rah-dyah-TUHR | a heater, a radiator | —
@@ -10725,7 +10900,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-register-shifting-ex007 | register-shift | Transformez au registre courant, avec « en panne » : Le chauffage est mort. | — | ["Le chauffage est en panne"] | false | Mort (familiar, for a machine) becomes en panne.
 - c1-register-shifting-ex008 | register-shift | Transformez au registre soutenu, avec « je vous saurais gré de bien vouloir » : Vous pouvez envoyer quelqu'un ? | — | ["Je vous saurais gré de bien vouloir envoyer quelqu'un","Je vous saurais gré de bien vouloir m'envoyer quelqu'un","Je vous saurais gré de bien vouloir envoyer un technicien"] | false | A direct question becomes a formal request in the conditionnel.
 - c1-register-shifting-ex009 | register-shift | Transformez au registre familier, avec « on » et « galérer » : Nous avons beaucoup de difficultés depuis lundi. | — | ["On galère depuis lundi","On galère beaucoup depuis lundi","On galère grave depuis lundi"] | false | On for nous and galérer for avoir des difficultés.
-- c1-register-shifting-ex010 | error-correction | Corrigez le mélange des registres (gardez le registre soutenu) : Je vous prie d'agréer mes salutations distinguées, et merci, c'est sympa. | — | ["Je vous prie d'agréer mes salutations distinguées","Je vous prie d'agréer mes salutations distinguées, et je vous remercie"] | false | C'est sympa is familiar: it doesn't belong after a formal closing.
+- c1-register-shifting-ex010 | error-correction | Corrigez le mélange des registres (gardez le registre soutenu) : Je vous prie d'agréer mes salutations distinguées, et merci, c'est sympa. | — | ["Je vous prie d'agréer mes salutations distinguées"] | false | C'est sympa is familiar, and it doesn't belong after a formal closing. Thanks go before the closing formula (je vous remercie par avance de votre attention), not after it.
 - c1-register-shifting-ex011 | error-correction | Corrigez le mélange des registres (gardez le registre familier) : Salut Karim, je vous saurais gré de m'apporter un pull. | — | ["Salut Karim, tu peux m'apporter un pull ?","Salut Karim, tu pourrais m'apporter un pull ?","Salut Karim, est-ce que tu peux m'apporter un pull ?","Salut Karim, tu m'apportes un pull ?"] | false | Je vous saurais gré de is administrative; to a friend, tu peux or tu pourrais.
 - c1-register-shifting-ex012 | translate | Traduisez au registre soutenu (le locataire, signaler) : The tenant reported the problem on Monday. | — | ["Le locataire a signalé le problème lundi","La locataire a signalé le problème lundi","Lundi, le locataire a signalé le problème","Lundi, la locataire a signalé le problème"] | true | Signaler un problème: the neutral, formal verb.
 - c1-register-shifting-ex013 | translate | Traduisez au registre familier (ça craint) : That's really bad. | — | ["Ça craint vraiment","Ça craint grave"] | false | Ça craint is slang; grave as an intensifier is familiar too.
@@ -10742,6 +10917,8 @@ fr | pron | en | note
 - une variante | ewn vah-RYAHNT | a variant (another form of the same word or phrase) | —
 - le parler | luh par-LAY | the local speech, the way of speaking (of a place or group) | —
 - une expression régionale | ew-nek-spreh-syohn ray-zhyoh-NAL | a regional expression (a word or phrase used in one region) | —
+- utiliser | ew-tee-lee-ZAY | to use | —
+- une autorisation | ew-noh-toh-ree-zah-SYOHN | a permission, an authorization | —
 
 ### Exercises
 
@@ -10752,14 +10929,14 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-review-living-ex003 | reformulation | Reformulez avec le proverbe qui commence par « mieux vaut » : Il vaut mieux arriver en retard que ne pas venir du tout. | — | ["Mieux vaut tard que jamais"] | false | Mieux vaut tard que jamais: better late than never.
 - c1-review-living-ex004 | multiple-choice | Choisissez l'expression : Tout le monde doit aider à installer les tables : il faut ___. | ["mettre la main à la pâte","jeter l'éponge","noyer le poisson"] | ["mettre la main à la pâte"] | false | Mettre la main à la pâte: to lend a hand. Jeter l'éponge is to give up; noyer le poisson is to dodge the question.
 - c1-review-living-ex005 | reformulation | Reformulez avec « jeter l'éponge », au passé composé : Après trois essais, il a tout arrêté. | — | ["Après trois essais, il a jeté l'éponge","Il a jeté l'éponge après trois essais"] | true | Jeter l'éponge: to throw in the towel, to give up.
-- c1-review-living-ex006 | translate | Traduisez avec « être dans le même bateau » : We're all in the same boat. | — | ["Nous sommes tous dans le même bateau","On est tous dans le même bateau"] | false | Être dans le même bateau: to share the same difficult situation. On est is spoken; nous sommes is standard.
+- c1-review-living-ex006 | translate | Traduisez avec « être dans le même bateau » : We're all in the same boat. | — | ["Nous sommes tous dans le même bateau","On est tous dans le même bateau","Nous sommes toutes dans le même bateau"] | false | Être dans le même bateau: to share the same difficult situation. On est is spoken; nous sommes is standard.
 - c1-review-living-ex007 | multiple-choice | Indiquez le sens de « huitante » en Suisse, dans les cantons où on dit ce mot. | ["quatre-vingts","soixante-dix","quatre-vingt-dix"] | ["quatre-vingts"] | false | Huitante is eighty in some Swiss cantons; septante is seventy and nonante ninety.
 - c1-review-living-ex008 | multiple-choice | Indiquez le mot qu'on dit en Suisse pour le repas du soir. | ["le souper","le petit-déjeuner","le déjeuner"] | ["le souper"] | false | In Switzerland, as in Belgium and Québec, le souper is the evening meal.
 - c1-review-living-ex009 | fill-in | Complétez : Dans le sud-ouest, « chocolatine » n'est pas une faute : c'est une expression ___. | — | ["régionale"] | false | Une expression régionale is used in one region; dictionaries label it, but it isn't a mistake.
 - c1-review-living-ex010 | error-correction | Corrigez l'erreur : En Suisse, le souper est le repas de midi. | — | ["En Suisse, le souper est le repas du soir","En Suisse, le dîner est le repas de midi"] | false | In Switzerland, le dîner is at midday and le souper in the evening.
 - c1-review-living-ex011 | multiple-choice | Choisissez la bonne réponse : Le français est une ___ des Nations unies. | ["langue de travail","langue régionale","école immersive"] | ["langue de travail"] | false | French is one of the working languages of the United Nations.
 - c1-review-living-ex012 | register-shift | Transformez au registre courant, avec « reporter » au passif : Le souper, c'est mort pour samedi, on le fait samedi prochain. | — | ["Le souper est reporté au samedi suivant","Le souper est reporté à samedi prochain","Le souper est reporté au samedi prochain","Le souper de samedi est reporté au samedi suivant"] | true | C'est mort (familiar) becomes the neutral passive est reporté.
-- c1-review-living-ex013 | register-shift | Transformez au registre soutenu, avec « je vous saurais gré de bien vouloir » : Vous pouvez nous prêter la place ? | — | ["Je vous saurais gré de bien vouloir nous prêter la place"] | false | A direct question becomes the formal request je vous saurais gré de bien vouloir + infinitive.
+- c1-review-living-ex013 | register-shift | Transformez au registre soutenu, avec « je vous saurais gré de bien vouloir » : Vous pouvez nous prêter la place ? | — | ["Je vous saurais gré de bien vouloir nous prêter la place","Je vous saurais gré de bien vouloir mettre la place à notre disposition","Je vous saurais gré de bien vouloir nous autoriser à utiliser la place"] | true | A direct question becomes the formal request je vous saurais gré de bien vouloir + infinitive.
 - c1-review-living-ex014 | error-correction | Corrigez le mélange des registres (gardez le registre soutenu) : Je vous saurais gré de bien vouloir nous prêter la place, c'est super sympa. | — | ["Je vous saurais gré de bien vouloir nous prêter la place"] | false | C'est super sympa is familiar; it doesn't belong in a formal request.
 - c1-review-living-ex015 | translate | Traduisez au registre familier, avec « on » et « se geler », au passé composé : We were freezing on the square. | — | ["On s'est gelés sur la place","On s'est gelé sur la place"] | true | Se geler is familiar. With on meaning nous, the participle can agree in the plural or stay singular.
 - c1-review-living-ex016 | multiple-choice | Choisissez le mot : Huitante est une ___ régionale de quatre-vingts. | ["variante","charte","transmission"] | ["variante"] | false | Une variante: another form of the same word.

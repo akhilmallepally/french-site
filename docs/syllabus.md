@@ -429,10 +429,10 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | 2 | c1-passe-anterieur | The passé antérieur | Literary French | grammar | c1-passe-simple | Formation; quand / dès que / à peine… que in literary narrative. Reuses: literature. |
 | 3 | c1-future-in-the-past | The future in the past and tense nuance | Literary French | grammar | b2-reported-speech-past, b2-futur-anterieur | Aller (imparfait) + infinitive for a future seen from the past; tense choice in formal reports. Reuses: project reporting, finance. |
 | 4 | c1-imperfect-subjunctive | Imperfect and pluperfect subjunctive | Literary French | grammar | c1-passe-simple, b2-subjonctif-passe | Recognition in classic texts (qu'il fût, qu'il eût été); modern replacements. Reuses: literature, history. |
-| 5 | c1-reading-literary-narrative | Reading literary narrative | Literary French | communication | c1-passe-anterieur, c1-imperfect-subjunctive | Strategies for classic prose; style indirect libre; narrative tense systems. |
-| 6 | c1-culture-literary-canon | The French literary canon | Literary French | culture | c1-passe-simple | Molière to Camus and Ernaux: who's who and why they matter. |
-| 7 | c1-culture-french-poetry | French poetry | Literary French | culture | c1-culture-literary-canon | Versification (alexandrin, rime), Hugo, Baudelaire, Rimbaud, Prévert. |
-| 8 | c1-review-literary | Review: Literary French | Literary French | review | c1-reading-literary-narrative, c1-culture-french-poetry | Rewrite a literary passage in modern spoken French and analyse its tenses. |
+| 5 | c1-reading-literary-narrative | Reading literary narrative | Literary French | communication | c1-passe-anterieur, c1-imperfect-subjunctive, b2-arts-and-literature, b2-reported-speech-past | Strategies for classic prose; style indirect libre; narrative tense systems. |
+| 6 | c1-culture-literary-canon | The French literary canon | Literary French | culture | c1-passe-simple, b2-arts-and-literature, a2-culture-french-school-system | Molière to Camus and Ernaux: who's who and why they matter. |
+| 7 | c1-culture-french-poetry | French poetry | Literary French | culture | c1-culture-literary-canon, b2-arts-and-literature, b2-culture-verlan-and-slang | Versification (alexandrin, césure, e muet, rime, sonnet); lines from Racine, Hugo, Baudelaire and Verlaine; Rimbaud, Apollinaire and Prévert named, not quoted. |
+| 8 | c1-review-literary | Review: Literary French | Literary French | review | c1-passe-anterieur, c1-future-in-the-past, c1-imperfect-subjunctive, c1-reading-literary-narrative, c1-culture-literary-canon, c1-culture-french-poetry | Rewrite a literary passage in modern spoken French and analyse its tenses. |
 
 ### Unit 2: Style and emphasis
 

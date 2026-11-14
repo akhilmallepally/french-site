@@ -224,5 +224,7 @@ C1 inherits every B2 convention unless it's changed here. Plans are in docs/plan
   - Before calling a common form wrong, check whether it's only less formal. If it is, label the register ("formal: *former un recours*; everyday: *faire un recours*") instead of marking it as an error.
   - Before stating a fact about a work (its structure, where a moral or a line comes, a date), check it against the work and against any quotation the lesson itself uses.
   - When a character summarizes or quotes another character, the summary matches what was said; when a later dialogue comments on a model text, every comment is true of that text.
+  - A model letter shows the full layout from c1-formal-correspondence (sender, place and date, objet, salutation, closing) unless the lesson labels it as an extract.
+  - A claim about a proportion of speakers, users or the population follows the no-figures rule: rephrase it without the proportion, or add it to docs/review-needed.md.
 
 @AGENTS.md

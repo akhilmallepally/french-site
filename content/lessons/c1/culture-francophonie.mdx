@@ -13,10 +13,10 @@ vocab:
   - { id: "c1-culture-francophonie-v001", group: "institution", fr: "l'OIF (l'Organisation internationale de la Francophonie)", pron: "loh-ee-EF", en: "the OIF (International Organization of La Francophonie)" }
   - { id: "c1-culture-francophonie-v002", group: "institution", fr: "un sommet", pron: "uhn soh-MEH", en: "a summit (a meeting of heads of State)" }
   - { id: "c1-culture-francophonie-v003", group: "institution", fr: "un pays membre", pron: "uhn pay-ee MAHN-bruh", en: "a member country" }
-  - { id: "c1-culture-francophonie-v004", group: "institution", fr: "une langue de travail", pron: "ewn lahng duh trah-VAH-y", en: "a working language" }
-  - { id: "c1-culture-francophonie-v005", group: "institution", fr: "la colonisation", pron: "lah koh-loh-nee-zah-SYOHN", en: "colonization" }
-  - { id: "c1-culture-francophonie-v006", group: "europe", fr: "le néerlandais", pron: "luh nay-ehr-lahn-DEH", en: "Dutch" }
-  - { id: "c1-culture-francophonie-v007", group: "europe", fr: "l'allemand (m.)", pron: "lahl-MAHN", en: "German (the language)" }
+  - { id: "c1-culture-francophonie-v004", group: "institution", fr: "l'ONU (f.)", pron: "loh-NEW", en: "the UN (l'Organisation des Nations unies)" }
+  - { id: "c1-culture-francophonie-v005", group: "institution", fr: "une langue de travail", pron: "ewn lahng duh trah-VAH-y", en: "a working language" }
+  - { id: "c1-culture-francophonie-v006", group: "institution", fr: "la colonisation", pron: "lah koh-loh-nee-zah-SYOHN", en: "colonization" }
+  - { id: "c1-culture-francophonie-v007", group: "europe", fr: "le néerlandais", pron: "luh nay-ehr-lahn-DEH", en: "Dutch" }
   - { id: "c1-culture-francophonie-v008", group: "europe", fr: "le romanche", pron: "luh roh-MAHNSH", en: "Romansh (a language of Switzerland)" }
   - { id: "c1-culture-francophonie-v009", group: "europe", fr: "huitante", pron: "wee-TAHNT", en: "eighty (in some Swiss cantons)", note: "France: quatre-vingts." }
   - { id: "c1-culture-francophonie-v010", group: "europe", fr: "une votation", pron: "ewn voh-tah-SYOHN", en: "a popular vote, a referendum (Switzerland)" }
@@ -92,14 +92,14 @@ exercises:
   - id: "c1-culture-francophonie-ex012"
     type: "error-correction"
     prompt: "Corrigez l'erreur : Le Canada a une seule langue officielle, le français."
-    answers: ["Le Canada a deux langues officielles, le français et l'anglais"]
+    answers: ["Le Canada a deux langues officielles, le français et l'anglais", "Le Canada a deux langues officielles, l'anglais et le français", "Le Canada a deux langues officielles"]
     strictAccents: true
     explanation: "Canada is officially bilingual at the federal level; French is the only official language of Québec."
   - id: "c1-culture-francophonie-ex013"
     type: "translate"
     prompt: "Traduisez (une langue de travail) : French is a working language of the United Nations."
-    answers: ["Le français est une langue de travail des Nations unies"]
-    explanation: "Une langue de travail de + the organization."
+    answers: ["Le français est une langue de travail des Nations unies", "Le français est une langue de travail de l'ONU"]
+    explanation: "Une langue de travail de + the organization. L'ONU (l'Organisation des Nations unies) is the usual French abbreviation for the UN."
   - id: "c1-culture-francophonie-ex014"
     type: "translate"
     prompt: "Traduisez (une variété) : There are several varieties of French."
@@ -152,7 +152,7 @@ The spread of French outside Europe is linked to *la colonisation*. After indepe
 
 <Example fr="La semaine prochaine, les Suisses votent lors d'une votation sur les transports." en="Next week, the Swiss are voting in a referendum on transport." />
 
-**Le Luxembourg.** You met it at A2: French is one of the country's languages, alongside Luxembourgish and German.
+**Le Luxembourg.** You met it in <LessonLink id="a2-culture-francophone-world" text="the lesson on the French-speaking world" />: French is one of the country's languages, alongside Luxembourgish and German.
 
 <Example fr="Dans certains cantons suisses, on dit huitante pour quatre-vingts." en="In some Swiss cantons, people say huitante for eighty. (regional)" />
 
@@ -180,7 +180,7 @@ The status of French differs from one country to another, and the words for it a
 | many African countries | an official language, or the language of school and administration, alongside national languages |
 | international organizations | an official or working language |
 
-As a rule of thumb, ask two questions about any country: is French official, and is it the language people speak at home? The two answers are often different. In many African countries, French is the language of school and administration, while most people speak a national language at home.
+As a rule of thumb, ask two questions about any country: is French official, and is it the language people speak at home? The two answers are often different. In many African countries, French is the language of school and administration, while many people speak a national language at home.
 
 ## French in Africa today
 
@@ -192,7 +192,7 @@ You saw at B2 that African French creates its own words: *une essencerie* (a pet
 
 French isn't one single language spoken the same way everywhere: it has *des variétés*. Each has its accent and its *régionalismes*, words used in one area. A careful speaker labels them: *(Belgique)*, *(Suisse)*, *(Québec)*. None is "better" French; in international writing, standard French is the common reference.
 
-<Example fr="Le mot courriel est un régionalisme du Québec qu'on dit aussi en France." en="The word courriel is a Québec regionalism that is also used in France." />
+<Example fr="Le mot courriel a été créé au Québec ; aujourd'hui, il est courant en France aussi." en="The word courriel was created in Québec; today it's standard in France too." />
 
 ## A short article
 
@@ -200,19 +200,19 @@ The article below is an original text written for this lesson.
 
 *Le français, une langue en partage*
 
-*Le français n'est pas seulement la langue de la France. Il est partagé par de nombreux pays, sur tous les continents, et la majorité des personnes qui le parlent vivent aujourd'hui sur d'autres continents que l'Europe. Les mots voyagent aussi : courriel, venu du Québec, est entré dans le français de France.*
+*Le français n'est pas seulement la langue de la France. Il est partagé par de nombreux pays, sur tous les continents, et de plus en plus de personnes qui le parlent vivent sur d'autres continents que l'Europe, surtout en Afrique. Les mots voyagent aussi : courriel, venu du Québec, est entré dans le français de France.*
 
 *En Europe, il est une langue officielle en Belgique, en Suisse et au Luxembourg, où il vit à côté d'autres langues. On y compte parfois autrement : septante, nonante, et même huitante dans certains cantons suisses.*
 
 *En Amérique, le Québec a fait du français sa seule langue officielle, tandis que le Canada est bilingue. En Afrique, le français est arrivé avec la colonisation ; après leur indépendance, beaucoup de pays l'ont gardé comme langue officielle ou langue de l'école, à côté de leurs langues nationales. Dans les rues d'Abidjan, le français se mélange aux langues locales et crée des mots nouveaux, que les dictionnaires finissent parfois par accueillir.*
 
-*Pour faire vivre ce partage, les pays membres de l'OIF se réunissent tous les deux ans environ lors d'un sommet. Ils parlent de l'enseignement, de la culture et de la place du français dans le monde.*
+*Le français est aussi une langue de travail de l'ONU. Pour faire vivre ce partage, les pays membres de l'OIF se réunissent tous les deux ans environ lors d'un sommet. Ils parlent de l'enseignement, de la culture et de la place du français dans le monde.*
 
 *Cette langue commune n'est pas pour autant une langue unique. Chaque pays a ses mots, ses accents et ses expressions. Un Belge, une Québécoise et un Ivoirien se comprennent, mais chacun reconnaît vite d'où vient l'autre. C'est sans doute la force de la francophonie : une langue partagée, et mille façons de la parler.*
 
 <VocabTable group="glossary" />
 
-(French, a shared language. French isn't only the language of France. It is shared by many countries, on every continent, and the majority of the people who speak it now live on continents other than Europe. Words travel too: courriel, which came from Québec, has entered the French of France. In Europe, it is an official language in Belgium, Switzerland and Luxembourg, where it lives alongside other languages. People there sometimes count differently: septante, nonante, and even huitante in some Swiss cantons. In America, Québec has made French its only official language, while Canada is bilingual. In Africa, French arrived with colonization; after independence, many countries kept it as an official language or a language of school, alongside their national languages. In the streets of Abidjan, French mixes with local languages and creates new words, which dictionaries sometimes end up accepting. To keep this sharing alive, the member countries of the OIF meet about every two years at a summit. They talk about education, culture and the place of French in the world. This common language isn't a single, uniform language, though. Each country has its words, its accents and its expressions. A Belgian man, a Québec woman and an Ivorian man understand each other, but each quickly recognizes where the other comes from. That is probably the strength of the French-speaking world: one shared language, and a thousand ways of speaking it.)
+(French, a shared language. French isn't only the language of France. It is shared by many countries, on every continent, and more and more of the people who speak it live on continents other than Europe, especially in Africa. Words travel too: courriel, which came from Québec, has entered the French of France. In Europe, it is an official language in Belgium, Switzerland and Luxembourg, where it lives alongside other languages. People there sometimes count differently: septante, nonante, and even huitante in some Swiss cantons. In America, Québec has made French its only official language, while Canada is bilingual. In Africa, French arrived with colonization; after independence, many countries kept it as an official language or a language of school, alongside their national languages. In the streets of Abidjan, French mixes with local languages and creates new words, which dictionaries sometimes end up accepting. French is also a working language of the UN. To keep this sharing alive, the member countries of the OIF meet about every two years at a summit. They talk about education, culture and the place of French in the world. This common language isn't a single, uniform language, though. Each country has its words, its accents and its expressions. A Belgian man, a Québec woman and an Ivorian man understand each other, but each quickly recognizes where the other comes from. That is probably the strength of the French-speaking world: one shared language, and a thousand ways of speaking it.)
 
 <Callout type="warning" title="La Francophonie, la francophonie">
   Learners often mix up the two spellings. With a capital, **la Francophonie** is the institution (the OIF and its summits); with a small letter, **la francophonie** is the French-speaking world itself.

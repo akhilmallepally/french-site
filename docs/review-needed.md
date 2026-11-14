@@ -1613,6 +1613,37 @@ Every date, tradition and regional detail, for checking:
 - **Examples:** *Le roi ordonna qu'on fermât la porte du château.*; *Elle attendait qu'il lui parlât.*; *Bien qu'il eût fini son travail, il resta au bureau.*; *Je regrettais qu'elle fût partie si tôt.* Confirm they read as natural classic French.
 - **Dialogue:** a family letter "written in 1920" uses *vînt*, *fût* and *il eût préféré*; *En 1920, beaucoup de gens écrivaient encore comme ça.* Confirm that this is plausible for a careful letter writer of that time.
 
+### c1-reading-literary-narrative
+
+- **Points of view:** *un narrateur omniscient*, *le point de vue interne*, *le point de vue externe*, as French school readers use them ("French school readers ask about *le point de vue*"). Confirm the terms and definitions.
+- **Free indirect speech:** "There's no *dit-elle*, no *que*, no quotation marks. The narrator keeps the third person and the past tenses, but the character's own voice comes through." Confirm.
+- **"Many 19th-century *nouvelles* end with *une chute*."** Confirm as a general statement.
+- **The story** (original pastiche, *Le Testament*): confirm it reads as a natural 19th-century pastiche, in particular *Mademoiselle Adèle Morin était priée de venir à Saint-Rémy*, *La maison à Marthe ! À une servante !* (free indirect speech) and *il eût mieux valu qu'elle vînt la voir sans rien demander*.
+- **ex013:** *La maison revint / est revenue / revenait à la vieille servante* for "The house went to the old maid". Confirm *revenir à* for an inheritance.
+
+### c1-culture-literary-canon
+
+- **Quotations (safe list, our translations):** *« Il faut manger pour vivre, et non pas vivre pour manger. »* (Molière, *L'Avare*, 1668, Act III, scene 1, spoken by Valère; "the miser Harpagon is delighted by this maxim, spoken by his steward"). *« Ce que l'on conçoit bien s'énonce clairement. »* (Boileau, *L'Art poétique*, 1674). Confirm the exact text, the scene and the speaker.
+- **Facts and dates:** Racine, *Phèdre*; Voltaire, *Candide* (1759); Balzac, *La Comédie humaine*; Stendhal, *Le Rouge et le Noir* (1830); Flaubert, *Madame Bovary* (1857); Zola, *Germinal* (1885); Maupassant "wrote hundreds of short stories"; Proust, *À la recherche du temps perdu* "across several volumes"; Camus, *L'Étranger* (1942); Beauvoir, *Le Deuxième Sexe* (1949); Annie Ernaux, "Nobel Prize in Literature in 2022". Confirm each.
+- **Classicism:** "In the seventeenth century, especially under Louis XIV, French literature looked for order, clarity and balance"; "Many plays of the time follow *la règle des trois unités*"; *cornélien* = torn between duty and passion. Confirm.
+- **School (article):** *Certaines œuvres sont au programme pour toute la France*; *À la fin de la première, les élèves passent l'épreuve de français du bac. À l'écrit, on leur propose par exemple un commentaire ou une dissertation. À l'oral, ils expliquent un texte étudié en classe, puis ils parlent d'une œuvre qu'ils ont lue.* Confirm against the current exam (no figures given).
+- **"Streets and schools carry writers' names, and journalists quote them."**; *quand on dit de quelqu'un que c'est un vrai Tartuffe*. Confirm.
+- **Living author:** Annie Ernaux is named with no quotation, as "writes about memory and social class". Confirm the neutral wording.
+
+### c1-culture-french-poetry
+
+- **The original poem** *Lecture du soir* (two quatrains of alexandrines, alternating rhymes): every line passes scripts/scan-alexandrines.ts. A native speaker should confirm the scansion, the rhymes (*lointains / jardins*, *bateau / eau*), the alternation of feminine and masculine rhymes, and that the poem reads naturally.
+- **Quotations (safe list, our translations):** Racine, *Phèdre* (1677): *« Le jour n'est pas plus pur que le fond de mon cœur. »*; Hugo, *Les Contemplations* (1856), first line of *Demain, dès l'aube*; Baudelaire, *Les Fleurs du mal* (1857), first line of *L'Albatros* ("in the same collection": the poem was added in a later edition); Verlaine, *Romances sans paroles* (1874): *« Il pleure dans mon cœur / Comme il pleut sur la ville »*. Confirm each text and source, and that *Correspondances* is a sonnet.
+- **Prosody rules:** the mute e "before a consonant is counted; before a vowel or a silent h it is dropped; at the end of the line it is never counted"; "an ending in *-es* is counted before a consonant and, unlike a final *-e*, before a vowel too"; "classical poets usually count *nation* as three syllables and *lion* as two, while *rien* and *bien* count as one". Confirm each.
+- **Free verse:** "Apollinaire removed punctuation from *Alcools* (1913), and Prévert's *Paroles* (1946) uses the words of everyday life"; Rimbaud "loosened the rules". Named, not quoted. Confirm.
+- **Reading aloud:** "pause very slightly at the caesura and a little longer at the end of each line". Confirm as advice.
+
+### c1-review-literary
+
+- **The model tale** (original, *La Cloche du brouillard*): confirm it reads naturally as a traditional tale, in particular *il ordonna qu'on le fît descendre*, *ses soldats ne tardèrent pas à arriver* and *grâce au son de la cloche, ils purent enfin rentrer au port*.
+- **Spoken equivalents:** *Quand il a eu mangé, il a demandé…* (passé surcomposé) and *Dès qu'il est arrivé, la cloche a sonné* for *À peine fut-il arrivé que la cloche sonna*. Confirm.
+- **New words:** *le style*, *une tournure*, *pasticher*, *un conteur / une conteuse*. Confirm the glosses.
+
 ### c1-dislocation-and-fronting
 
 - **The pronoun table:** direct object → *le, la, les*; *à* + person → *lui, leur*; *à* + thing → *y*; *de* + thing or amount → *en* (*Du café, j'en bois trop*; *Des comédiens comme ça, il y en a peu*). Confirm each example.
@@ -1851,7 +1882,7 @@ Every date, tradition and regional detail, for checking:
 
 ### c1-advanced-idioms
 
-- **Register:** "Most of the idioms here are everyday French: fine in a conversation at work, in an email to a colleague and in a newspaper article, but out of place in a formal letter." Confirm for each idiom in the vocab.
+- **Register:** "The idioms here are everyday French: fine in a conversation at work, in an email to a colleague and in a newspaper article, but out of place in a formal letter." Since Prompt 36, *mettre la main à la pâte* and *payer les pots cassés* are labelled everyday ("common in the press too"), not familiar. Confirm for each idiom in the vocab.
 - **Meanings:** each vocab gloss (*noyer le poisson*, *ménager la chèvre et le chou*, *payer les pots cassés*, *mettre la main à la pâte*). Confirm.
 - **"Many idioms also have a negative form that's very common"** (*ne pas tenir la route*). Confirm.
 
@@ -1871,7 +1902,7 @@ Every date, tradition and regional detail, for checking:
 - **"French is also *une langue de travail* in many international organizations, including the United Nations and the European Union, and one of the official languages of the Olympic movement."** Confirm.
 - **Countries:** Belgium's three official languages; Switzerland's four national languages; *huitante* "in some cantons"; *une votation*; Canada "officially bilingual at the federal level", Québec's only official language French; Haiti "French and Haitian Creole are both official languages"; French Guiana and Mayotte. Confirm each.
 - **Status table:** "France, Québec, the overseas departments: the only official language". Confirm.
-- **Article:** *la majorité des personnes qui le parlent vivent aujourd'hui sur d'autres continents que l'Europe*; *courriel, venu du Québec, est entré dans le français de France*; *En Afrique, le français est arrivé avec la colonisation* (sensitive: decolonization; neutral wording, no figures). Confirm.
+- **Article:** *de plus en plus de personnes qui le parlent vivent sur d'autres continents que l'Europe, surtout en Afrique* (rephrased in Prompt 36 without a proportion); *courriel, venu du Québec, est entré dans le français de France*; *En Afrique, le français est arrivé avec la colonisation* (sensitive: decolonization; neutral wording, no figures). Confirm.
 - **Regionalisms:** *une essencerie* (Senegal), *s'enjailler* (Côte d'Ivoire), "some of their words reach dictionaries". Confirm.
 
 ### c1-register-shifting
@@ -1888,3 +1919,12 @@ Every date, tradition and regional detail, for checking:
 - **Advice:** "In an administrative letter: leave [proverbs and idioms] out… a proverb there sounds like a joke." Confirm as advice.
 - **Text 1:** *faut que tout le monde mette la main à la pâte* (spoken, *il* dropped). Confirm it reads naturally.
 - **New words:** *une variante*, *le parler* (the way of speaking of a place or group), *une expression régionale*. Confirm the glosses.
+
+### Prompt 36 changes to Unit 7
+
+- **c1-register-shifting:** the heating has broken down in the whole building: message 2 now says *Je pense que c'est le cas chez vous aussi* and the letter *le chauffage de l'immeuble ne fonctionne plus*. The letter has the full layout (*Lucas Martin, 8 rue des Écoles, Saint-Aubin*; *Monsieur Bernard, propriétaire…*; *Saint-Aubin, le 18 novembre*; *Objet : panne de chauffage*). ex010 explanation: "Thanks go before the closing formula (*je vous remercie par avance de votre attention*), not after it." Confirm.
+- **c1-review-living:** the letter has the full layout (*Léa Favre, pour l'association de quartier, 5 chemin du Lac, Montvert*; *Administration communale de Montvert*; *Objet : demande d'autorisation pour notre souper de quartier*) and *organiser notre souper*. Confirm *administration communale* for a Swiss commune.
+- **c1-culture-regional-languages:** "such as Catalan in the south, and Picard and Flemish in the north"; the article now says *beaucoup d'habitants vivent très bien avec les deux*. Confirm.
+- **c1-culture-francophonie:** *Le mot courriel a été créé au Québec ; aujourd'hui, il est courant en France aussi.*; *Le français est aussi une langue de travail de l'ONU.*; "In many African countries, French is the language of school and administration, while many people speak a national language at home." Confirm.
+- **c1-proverbs-and-sayings:** the dialogue's job offer is now in Toronto, so the worry about English fits. Confirm the dialogue still reads naturally.
+- **c1-advanced-idioms:** the dialogue now uses *payer les pots cassés* for someone else's mistake: *Tout ça parce que l'ancien directeur a trop dépensé : ce sont nos projets qui vont payer les pots cassés.* Confirm.

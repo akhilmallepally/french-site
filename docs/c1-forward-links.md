@@ -14,8 +14,10 @@ Restored in Prompt 34: c1-review-academic → c1-rhetorical-devices (What's next
 
 Prompt 35: no pending link pointed to a Unit 7 lesson. New: c1-review-living → c1-euphemism-and-synonyms.
 
+Restored in Prompt 36: c1-imperfect-subjunctive → c1-reading-literary-narrative (What's next). New: c1-culture-literary-canon → c1-culture-enlightenment.
+
 | Lesson | Text | Target |
 |---|---|---|
-| c1-imperfect-subjunctive | "Next, the lesson on reading literary narrative puts…" (What's next) | c1-reading-literary-narrative |
 | c1-review-professional | "The next unit is about ideas and society. It starts with the lesson on philosophy and ideas." (What's next) | c1-philosophy-and-ideas |
 | c1-review-living | "The next unit prepares you for the DALF C1. It starts with the lesson on euphemism and nuance in synonyms." (What's next) | c1-euphemism-and-synonyms |
+| c1-culture-literary-canon | "The ideas of the Enlightenment have a lesson of their own in the unit on ideas and society" (The eighteenth century) | c1-culture-enlightenment |

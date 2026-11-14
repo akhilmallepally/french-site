@@ -1,0 +1,2004 @@
+===== content/lessons/c1/passe-simple.mdx =====
+---
+id: "c1-passe-simple"
+title: "The passé simple"
+description: "Read and write the passé simple: all persons of the regular patterns, the full forms of être, avoir, faire, venir, tenir and voir, the third person of the verbs readers meet most, and the passé simple with the imparfait in a written narrative."
+level: "C1"
+unit: "Literary French"
+order: 1
+type: "grammar"
+tags: ["grammar", "past tenses", "literary French"]
+prerequisites: ["b1-plus-que-parfait", "b2-arts-and-literature"]
+related: ["a2-passe-compose-vs-imparfait", "c1-passe-anterieur"]
+vocab:
+  - { id: "c1-passe-simple-v001", group: "words", fr: "le récit", pron: "luh ray-SEE", en: "the narrative, the story (as told)" }
+  - { id: "c1-passe-simple-v002", group: "words", fr: "un héros / une héroïne", pron: "uhn ay-ROH / ew-nay-roh-EEN", en: "a hero / a heroine", note: "No liaison: le héros." }
+  - { id: "c1-passe-simple-v003", group: "words", fr: "la foule", pron: "lah FOOL", en: "the crowd" }
+  - { id: "c1-passe-simple-v004", group: "words", fr: "le seuil", pron: "luh SUH-y", en: "the doorstep, the threshold" }
+  - { id: "c1-passe-simple-v005", group: "words", fr: "à l'aube", pron: "ah LOHB", en: "at dawn" }
+  - { id: "c1-passe-simple-v006", group: "verbs", fr: "s'écrier", pron: "say-kree-YAY", en: "to exclaim, to cry out" }
+  - { id: "c1-passe-simple-v007", group: "verbs", fr: "se mettre à", pron: "suh meh-truh AH", en: "to start to, to begin to", note: "+ infinitive: il se mit à courir." }
+  - { id: "c1-passe-simple-v008", group: "verbs", fr: "se taire", pron: "suh TEHR", en: "to fall silent, to stop talking", note: "Il se tait; passé simple: il se tut." }
+  - { id: "c1-passe-simple-v009", group: "verbs", fr: "surgir", pron: "sewr-ZHEER", en: "to appear suddenly" }
+  - { id: "c1-passe-simple-v010", group: "verbs", fr: "s'enfuir", pron: "sahn-FWEER", en: "to run away, to flee" }
+  - { id: "c1-passe-simple-v011", group: "verbs", fr: "saisir", pron: "seh-ZEER", en: "to grab, to seize" }
+  - { id: "c1-passe-simple-v012", group: "verbs", fr: "apercevoir", pron: "ah-pehr-suh-VWAHR", en: "to catch sight of", note: "Passé simple: il aperçut. S'apercevoir que is to notice that." }
+  - { id: "c1-passe-simple-v013", group: "verbs", fr: "franchir", pron: "frahn-SHEER", en: "to cross, to step over" }
+exercises:
+  - id: "c1-passe-simple-ex001"
+    type: "fill-in"
+    prompt: "Conjuguez au passé simple (parler) : Ils ___ toute la nuit."
+    answers: ["parlèrent"]
+    explanation: "-er verbs: ils parlèrent."
+  - id: "c1-passe-simple-ex002"
+    type: "fill-in"
+    prompt: "Conjuguez au passé simple (être) : Nous ___ très surpris."
+    answers: ["fûmes"]
+    explanation: "Être: je fus, tu fus, il fut, nous fûmes, vous fûtes, ils furent."
+  - id: "c1-passe-simple-ex003"
+    type: "fill-in"
+    prompt: "Conjuguez au passé simple (franchir) : Le héros ___ le seuil sans un mot."
+    answers: ["franchit"]
+    explanation: "-ir verbs like finir: il franchit."
+  - id: "c1-passe-simple-ex004"
+    type: "fill-in"
+    prompt: "Conjuguez au passé simple (venir) : Elles ___ à l'aube."
+    answers: ["vinrent"]
+    explanation: "Venir: il vint, ils vinrent."
+  - id: "c1-passe-simple-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps de « finit » dans la phrase : Ce soir-là, il finit son repas et sortit."
+    options: ["le passé simple", "le présent", "l'imparfait"]
+    answers: ["le passé simple"]
+    explanation: "Finit can be present or passé simple. Here sortit and ce soir-là show a past story."
+  - id: "c1-passe-simple-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez l'infinitif de « il naquit »."
+    options: ["naître", "nager", "nier"]
+    answers: ["naître"]
+    explanation: "Naître: il naquit (he was born)."
+  - id: "c1-passe-simple-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez l'infinitif de « ils crurent »."
+    options: ["croire", "courir", "crier"]
+    answers: ["croire"]
+    explanation: "Croire: il crut, ils crurent. Courir gives ils coururent."
+  - id: "c1-passe-simple-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Il ___ depuis trois jours quand le roi entra."
+    options: ["pleuvait", "plut", "pleuvra"]
+    answers: ["pleuvait"]
+    explanation: "With depuis, the rain was already going on when the king came in: imparfait. The king's entrance is the event: passé simple."
+  - id: "c1-passe-simple-ex009"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Soudain, la porte ___."
+    options: ["s'ouvrit", "s'ouvrait", "s'ouvrira"]
+    answers: ["s'ouvrit"]
+    explanation: "Soudain marks a single event: passé simple."
+  - id: "c1-passe-simple-ex010"
+    type: "reformulation"
+    prompt: "Reformulez au passé simple, comme dans un récit : Elle est entrée et elle a regardé la foule."
+    answers: ["Elle entra et regarda la foule", "Elle entra et elle regarda la foule"]
+    explanation: "Two events in a written narrative: entra, regarda."
+  - id: "c1-passe-simple-ex011"
+    type: "reformulation"
+    prompt: "Reformulez au passé composé, comme à l'oral : Ils partirent à l'aube."
+    answers: ["Ils sont partis à l'aube"]
+    explanation: "In speech, the passé simple becomes the passé composé."
+    strictAccents: true
+  - id: "c1-passe-simple-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Ils partèrent à l'aube."
+    answers: ["Ils partirent à l'aube"]
+    explanation: "Partir follows the -ir pattern: ils partirent. Only -er verbs have -èrent."
+    strictAccents: true
+  - id: "c1-passe-simple-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de registre (un homme écrit un message à un ami) : Hier, je pris le train et je vins te voir."
+    answers: ["Hier, j'ai pris le train et je suis venu te voir", "Hier, j'ai pris le train et suis venu te voir"]
+    explanation: "A message to a friend uses the passé composé, not the passé simple."
+  - id: "c1-passe-simple-ex014"
+    type: "translate"
+    prompt: "Traduisez au passé simple (se taire), comme dans un récit : The king fell silent."
+    answers: ["Le roi se tut"]
+    explanation: "Se taire: il se tut."
+  - id: "c1-passe-simple-ex015"
+    type: "translate"
+    prompt: "Rédigez ce début de récit en complétant comme indiqué : Il (was: être, imparfait) tard. Le héros (crossed: franchir, passé simple) le seuil et (caught sight of: apercevoir, passé simple) une lumière."
+    answers: ["Il était tard. Le héros franchit le seuil et aperçut une lumière."]
+    explanation: "The imparfait sets the scene; the passé simple tells the events."
+  - id: "c1-passe-simple-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : They left at dawn."
+    words: ["Ils", "partirent", "à", "l'aube"]
+    answers: ["Ils partirent à l'aube", "À l'aube, ils partirent"]
+    explanation: "Partir: ils partirent."
+  - id: "c1-passe-simple-ex017"
+    type: "fill-in"
+    prompt: "Conjuguez au passé simple (commencer) : Le roi ___ sa lettre à l'aube."
+    answers: ["commença"]
+    explanation: "-cer verbs take a cedilla before a: il commença."
+  - id: "c1-passe-simple-ex018"
+    type: "fill-in"
+    prompt: "Conjuguez au passé simple (falloir) : Il ___ partir avant la nuit."
+    answers: ["fallut"]
+    explanation: "Falloir is impersonal: il fallut."
+---
+
+By the end of this lesson you'll be able to read the passé simple in any person and write it yourself in a story or a historical account.
+
+## What you already know
+
+In <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />, you learned to recognize the passé simple in the third person (*il parla*, *ils partirent*) and the common forms *fut*, *eut*, *fit*, *vint* and *prit*. You know how the passé composé and the imparfait share the work in a story from <LessonLink id="a2-passe-compose-vs-imparfait" text="the lesson on the passé composé and the imparfait" />. This lesson completes the passé simple and lets you produce it.
+
+## What the passé simple is for
+
+The passé simple is the past tense of written narrative: novels, tales, short stories and history books. It presents an event as complete and in sequence, like the passé composé, but it belongs to writing. It isn't used in everyday speech or in modern dialogue: when a character speaks in a novel, they use the passé composé, like you.
+
+As in speech, the past needs two tenses. The passé simple tells the events, one after the other. The imparfait describes the background: the weather, a state, an action already going on.
+
+<Example fr="La nuit tombait quand le roi entra dans la salle." en="Night was falling when the king came into the room." />
+<Example fr="Le héros franchit le seuil, saisit la lettre et se mit à courir." en="The hero stepped over the threshold, grabbed the letter and started running." />
+
+## The three regular patterns
+
+Most verbs follow one of three sets of endings; *venir*, *tenir* and the verbs built on them have a fourth, shown in the next section. The *nous* and *vous* forms are rare, because narratives are mostly in the third person, but you'll meet them in first-person novels.
+
+| | *-er* verbs (*parler*) | most *-ir* and *-re* verbs (*finir*, *attendre*) | many *-oir* and other verbs (*vouloir*) |
+|---|---|---|---|
+| *je* | *parlai* | *finis* | *voulus* |
+| *tu* | *parlas* | *finis* | *voulus* |
+| *il / elle* | *parla* | *finit* | *voulut* |
+| *nous* | *parlâmes* | *finîmes* | *voulûmes* |
+| *vous* | *parlâtes* | *finîtes* | *voulûtes* |
+| *ils / elles* | *parlèrent* | *finirent* | *voulurent* |
+
+The *nous* and *vous* forms always have a circumflex accent on the vowel before *-mes* and *-tes*. Only *-er* verbs take *-èrent*; most others take *-irent* or *-urent*, and *venir* and *tenir* take *-inrent*. *Aller* is an *-er* verb here: *il alla*, *ils allèrent*.
+
+<Example fr="Ils parlèrent jusqu'à l'aube, puis ils se turent." en="They talked until dawn, then they fell silent." />
+
+## Spelling changes in -er verbs
+
+The spelling changes you know from the imparfait in <LessonLink id="a2-imparfait-formation" text="the lesson on forming the imparfait" /> come back here. Verbs in *-ger* keep an *e* before *a* and *â*, and verbs in *-cer* take a cedilla, so that the consonant stays soft. Before *-èrent*, there's no change.
+
+| | *manger* | *commencer* |
+|---|---|---|
+| *il / elle* | *mangea* | *commença* |
+| *nous* | *mangeâmes* | *commençâmes* |
+| *ils / elles* | *mangèrent* | *commencèrent* |
+
+<Example fr="Le héros mangea en silence, puis il commença sa lettre." en="The hero ate in silence, then he began his letter." />
+
+## Six verbs to know in full
+
+These six are the backbone of most narratives.
+
+| | *être* | *avoir* | *faire* | *venir* | *tenir* | *voir* |
+|---|---|---|---|---|---|---|
+| *je* | *fus* | *eus* | *fis* | *vins* | *tins* | *vis* |
+| *tu* | *fus* | *eus* | *fis* | *vins* | *tins* | *vis* |
+| *il / elle* | *fut* | *eut* | *fit* | *vint* | *tint* | *vit* |
+| *nous* | *fûmes* | *eûmes* | *fîmes* | *vînmes* | *tînmes* | *vîmes* |
+| *vous* | *fûtes* | *eûtes* | *fîtes* | *vîntes* | *tîntes* | *vîtes* |
+| *ils / elles* | *furent* | *eurent* | *firent* | *vinrent* | *tinrent* | *virent* |
+
+*Venir* and *tenir* share a fourth pattern, in *-ins* and *-int*, and so do the verbs built on them: *il revint*, *il devint*, *il retint*.
+
+<Example fr="Nous fûmes surpris : personne ne nous attendait." en="We were surprised: nobody was waiting for us." />
+<Example fr="Elle vint à l'aube et vit que la maison était vide." en="She came at dawn and saw that the house was empty." />
+
+## Verbs you'll meet in the third person
+
+Many common verbs have a short or unexpected stem. You need to recognize them, mostly in the third person.
+
+| Infinitive | *il / elle* | *ils / elles* |
+|---|---|---|
+| *dire* | *dit* | *dirent* |
+| *prendre* | *prit* | *prirent* |
+| *mettre* | *mit* | *mirent* |
+| *pouvoir* | *put* | *purent* |
+| *vouloir* | *voulut* | *voulurent* |
+| *savoir* | *sut* | *surent* |
+| *croire* | *crut* | *crurent* |
+| *lire* | *lut* | *lurent* |
+| *vivre* | *vécut* | *vécurent* |
+| *écrire* | *écrivit* | *écrivirent* |
+| *connaître* | *connut* | *connurent* |
+| *courir* | *courut* | *coururent* |
+| *naître* | *naquit* | *naquirent* |
+| *mourir* | *mourut* | *moururent* |
+| *devoir* | *dut* | *durent* |
+| *falloir* | *fallut* (*il fallut*) | none |
+| *pleuvoir* | *plut* (*il plut*) | none |
+
+*Falloir* and *pleuvoir* are impersonal: in a story, you meet them with *il*. *Plut* is also the passé simple of *plaire*: *le livre lui plut* (he liked the book).
+
+<Example fr="Il fallut partir avant la nuit, et ils durent laisser les chevaux." en="They had to leave before nightfall, and they had to leave the horses behind." />
+<Example fr="Elle naquit à Lyon et vécut toute sa vie à Paris." en="She was born in Lyon and lived all her life in Paris. (an invented person)" />
+<Example fr="Il prit sa lettre, la lut deux fois et ne dit rien." en="He took her letter, read it twice and said nothing." />
+
+## Forms that look like the present
+
+Some passé simple forms are identical to the present: *il finit*, *il dit*, *il choisit*, *il réussit*. Only the context tells you which tense you're reading. In a story told in the past, with other verbs in the passé simple or imparfait around it, it's the passé simple. With *aujourd'hui* or *maintenant*, or among other present-tense verbs, it's the present.
+
+<Example fr="Ce soir-là, il finit son repas et sortit sans un mot." en="That evening, he finished his meal and went out without a word." />
+<Example fr="Tous les soirs, il finit son repas et lit le journal." en="Every evening, he finishes his meal and reads the paper." />
+
+## Words for telling a story
+
+<VocabTable group="words" />
+
+<VocabTable group="verbs" />
+
+Narratives need verbs of sudden action and words that move the story forward. *Soudain*, which you know from <LessonLink id="a2-passe-compose-vs-imparfait" text="the lesson on the passé composé and the imparfait" />, and *aussitôt* (at once), from <LessonLink id="b1-time-connectors" text="the lesson on time connectors" />, introduce the next event. *Se mettre à* + infinitive starts an action. *Apercevoir* is to catch sight of; you know *s'apercevoir que* (to notice that) from <LessonLink id="b1-plus-que-parfait" text="the lesson on the plus-que-parfait" />.
+
+<Example fr="Soudain, un homme surgit de la foule et s'enfuit." en="Suddenly, a man appeared out of the crowd and ran away." />
+<Example fr="Elle aperçut le danger et s'écria aussitôt : « Attention ! »" en="She caught sight of the danger and cried out at once: “Watch out!”" />
+<Example fr="Le récit commence à l'aube, dans un petit village." en="The narrative begins at dawn, in a small village." />
+
+## A short narrative
+
+This is the opening of an original tale. The first paragraph sets the scene in the imparfait; the second tells the events in the passé simple.
+
+*Il pleuvait depuis trois jours. Dans le château, tout le monde attendait le roi, et personne ne parlait.*
+
+*À l'aube, le roi franchit enfin le seuil. Il regarda la foule, saisit la lettre de sa fille et la lut en silence. Puis il se tut longtemps. Soudain, il s'écria : « Préparez les chevaux ! » Aussitôt, tout le château se mit à courir.*
+
+(It had been raining for three days. In the castle, everyone was waiting for the king, and nobody was speaking. At dawn, the king finally stepped over the threshold. He looked at the crowd, took his daughter's letter and read it in silence. Then he said nothing for a long time. Suddenly, he cried out: "Prepare the horses!" At once, the whole castle started running.)
+
+## En français
+
+Clara and Malik talk about the novel Malik is reading. They use the passé composé, like everyone in conversation, and quote the novel's passé simple.
+
+- *Qu'est-ce que tu lis ?* (What are you reading?)
+- *Un vieux roman. Il est écrit au passé simple.* (An old novel. It's written in the passé simple.)
+- *Ce n'est pas trop difficile ?* (Isn't it too hard?)
+- *Au début, si. Mais maintenant, je reconnais les formes : « il entra », « elle se tut ».* (At first, yes. But now I recognize the forms: "il entra", "elle se tut".)
+- *Et « il dit » ? C'est le présent ou le passé simple ?* (And "il dit"? Is that the present or the passé simple?)
+- *Ça dépend de la phrase. Ici, c'est le passé simple : « Il dit merci et partit. »* (It depends on the sentence. Here it's the passé simple: "He said thank you and left.")
+- *Pourquoi l'auteur n'a pas choisi le passé composé ?* (Why didn't the author choose the passé composé?)
+- *Parce que c'est un récit écrit. À l'oral, personne ne dit « je fus surpris » !* (Because it's a written narrative. In speech, nobody says "je fus surpris"!)
+- *Et quand les personnages parlent ?* (And when the characters speak?)
+- *Ils parlent au présent et au passé composé, comme nous.* (They speak in the present and the passé composé, like us.)
+- *Tu me le prêtes quand tu l'auras fini ?* (Will you lend it to me when you've finished it?)
+- *D'accord, mais je te préviens : la fin est triste !* (OK, but I'm warning you: the ending is sad!)
+
+<Callout type="warning" title="Ils partirent, not ils partèrent">
+  Learners often add *-èrent* to every verb in the plural. Only *-er* verbs take it: *ils parlèrent*, *ils allèrent*. Most other verbs take *-irent* or *-urent*, and *venir* and *tenir* take *-inrent*: **ils partirent**, **ils prirent**, **ils voulurent**, **ils vinrent**.
+</Callout>
+
+<Callout type="tip" title="Retell a page in the passé simple">
+  Take a page of a story you've read, or a short news item, and rewrite the events in the passé simple, keeping the descriptions in the imparfait. Then read your page aloud. Writing a few paragraphs a week is the fastest way to make the forms automatic.
+</Callout>
+
+## En résumé
+
+Le passé simple est le temps du récit écrit : on le trouve dans les romans, les contes et les livres d'histoire, mais pas dans la conversation de tous les jours ni dans les dialogues modernes. Il raconte les événements, et l'imparfait décrit la situation : la nuit tombait quand le roi entra. Les verbes en -er font il parla, ils parlèrent. Beaucoup d'autres verbes font il finit, ils finirent, ou il voulut, ils voulurent. Être, avoir, faire, venir, tenir et voir sont à connaître à toutes les personnes : il fut, il eut, il fit, il vint, il tint, il vit. Il faut aussi reconnaître il dit, il prit, il mit, il put, il sut, il naquit ou il mourut. Attention : il finit et il dit peuvent être au présent ou au passé simple. C'est le contexte qui décide.
+
+## What's next
+
+Next, <LessonLink id="c1-passe-anterieur" text="the lesson on the passé antérieur" /> shows how a narrative marks an action finished just before another.
+
+===== content/lessons/c1/passe-anterieur.mdx =====
+---
+id: "c1-passe-anterieur"
+title: "The passé antérieur"
+description: "Form the passé antérieur (il eut fini, elle fut partie), use it after quand, lorsque, dès que, aussitôt que, après que and à peine… que in a passé simple narrative, and choose its partners in speech: the passé surcomposé, the passé composé and, for habits, the plus-que-parfait."
+level: "C1"
+unit: "Literary French"
+order: 2
+type: "grammar"
+tags: ["grammar", "past tenses", "literary French"]
+prerequisites: ["c1-passe-simple"]
+related: ["b1-plus-que-parfait", "b1-time-connectors", "b2-futur-anterieur", "c1-future-in-the-past", "c1-stylistic-inversion"]
+vocab:
+  - { id: "c1-passe-anterieur-v001", group: "forms", fr: "le passé antérieur", pron: "luh pah-SAY ahn-tay-RYUHR", en: "the passé antérieur (past anterior)" }
+  - { id: "c1-passe-anterieur-v002", group: "forms", fr: "le passé surcomposé", pron: "luh pah-SAY sewr-kohn-poh-ZAY", en: "the passé surcomposé (double compound past)", note: "Il a eu fini: spoken French." }
+  - { id: "c1-passe-anterieur-v003", group: "forms", fr: "à peine… que", pron: "ah PEN… kuh", en: "no sooner… than, hardly… when", note: "À peine fut-il sorti qu'il se mit à pleuvoir." }
+  - { id: "c1-passe-anterieur-v004", group: "story", fr: "l'auberge (f.)", pron: "loh-BEHRZH", en: "the inn" }
+  - { id: "c1-passe-anterieur-v005", group: "story", fr: "le voyageur / la voyageuse", pron: "luh vwah-yah-ZHUHR / lah vwah-yah-ZHUHZ", en: "the traveller" }
+  - { id: "c1-passe-anterieur-v006", group: "story", fr: "le messager / la messagère", pron: "luh may-sah-ZHAY / lah may-sah-ZHEHR", en: "the messenger" }
+  - { id: "c1-passe-anterieur-v007", group: "story", fr: "le cavalier / la cavalière", pron: "luh kah-vah-LYAY / lah kah-vah-LYEHR", en: "the rider, the horseman / horsewoman" }
+  - { id: "c1-passe-anterieur-v008", group: "story", fr: "la cloche", pron: "lah KLOSH", en: "the bell" }
+  - { id: "c1-passe-anterieur-v009", group: "story", fr: "le brouillard", pron: "luh broo-YAR", en: "the fog" }
+  - { id: "c1-passe-anterieur-v010", group: "story-verbs", fr: "frapper", pron: "frah-PAY", en: "to knock, to hit", note: "Frapper à la porte: to knock at the door." }
+  - { id: "c1-passe-anterieur-v011", group: "story-verbs", fr: "s'éloigner", pron: "say-lwah-NYAY", en: "to move away, to go off" }
+  - { id: "c1-passe-anterieur-v012", group: "story-verbs", fr: "se dissiper", pron: "suh dee-see-PAY", en: "to clear, to lift (fog, doubts)" }
+  - { id: "c1-passe-anterieur-v013", group: "story-verbs", fr: "s'endormir", pron: "sahn-dor-MEER", en: "to fall asleep", note: "Conjugated like dormir: il s'endort." }
+exercises:
+  - id: "c1-passe-anterieur-ex001"
+    type: "fill-in"
+    prompt: "Conjuguez au passé antérieur (finir) : Quand il ___ son repas, il sortit."
+    answers: ["eut fini"]
+    explanation: "Avoir in the passé simple + participle: il eut fini."
+  - id: "c1-passe-anterieur-ex002"
+    type: "fill-in"
+    prompt: "Conjuguez au passé antérieur (partir) : Dès qu'elles ___, il ferma la porte."
+    answers: ["furent parties"]
+    explanation: "Partir takes être, and the participle agrees with elles: elles furent parties."
+  - id: "c1-passe-anterieur-ex003"
+    type: "fill-in"
+    prompt: "Conjuguez au passé antérieur (s'endormir) : Lorsque les voyageurs ___, l'auberge devint silencieuse."
+    answers: ["se furent endormis"]
+    explanation: "Reflexive verbs take être: ils se furent endormis, with agreement."
+  - id: "c1-passe-anterieur-ex004"
+    type: "fill-in"
+    prompt: "Conjuguez au passé surcomposé (finir) : Quand j'___ mon travail, je suis sorti."
+    answers: ["ai eu fini"]
+    explanation: "Avoir in the passé composé + participle: j'ai eu fini. It goes with a passé composé in speech."
+  - id: "c1-passe-anterieur-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Quand il ___ sa lettre, il la donna au messager."
+    options: ["eut écrit", "aura écrit", "écrira"]
+    answers: ["eut écrit"]
+    explanation: "The main verb is in the passé simple (donna), and the letter was written just before: the passé antérieur."
+  - id: "c1-passe-anterieur-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps le plus courant après « quand » : le verbe principal est à l'imparfait et décrit une habitude."
+    options: ["le plus-que-parfait", "le passé antérieur", "le passé simple"]
+    answers: ["le plus-que-parfait"]
+    explanation: "A habit in the imparfait usually pairs with the plus-que-parfait: quand il avait fini, il partait."
+  - id: "c1-passe-anterieur-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps qui convient après « quand », à l'oral, pour insister sur le fait que l'action est finie : le verbe principal est au passé composé."
+    options: ["le passé surcomposé", "le passé composé", "le passé antérieur"]
+    answers: ["le passé surcomposé"]
+    explanation: "The passé composé is possible in speech, but to insist that the first action was over, use the passé surcomposé: quand il a eu fini, il est parti."
+  - id: "c1-passe-anterieur-ex008"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps de « fut arrivée » dans la phrase : Dès qu'elle fut arrivée, la cloche sonna."
+    options: ["le passé antérieur", "le passé composé", "le plus-que-parfait"]
+    answers: ["le passé antérieur"]
+    explanation: "Être in the passé simple + participle: the passé antérieur."
+  - id: "c1-passe-anterieur-ex009"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Chaque soir, quand il ___ son travail, il rentrait à pied."
+    options: ["avait fini", "aura fini", "finira"]
+    answers: ["avait fini"]
+    explanation: "Chaque soir and rentrait describe a habit in the imparfait. The usual partner for the earlier action is the plus-que-parfait; aura fini and finira are future forms."
+  - id: "c1-passe-anterieur-ex010"
+    type: "connector-choice"
+    prompt: "Choisissez le connecteur : ___ eut-elle fermé la porte que la cloche sonna."
+    options: ["À peine", "Dès que", "Lorsque"]
+    answers: ["À peine"]
+    explanation: "Of the three, only à peine is followed by inversion and a second clause with que."
+  - id: "c1-passe-anterieur-ex011"
+    type: "reformulation"
+    prompt: "Reformulez au passé simple et au passé antérieur, comme dans un récit : Quand il a eu fini, il est parti."
+    answers: ["Quand il eut fini, il partit", "Il partit quand il eut fini", "Lorsqu'il eut fini, il partit", "Il partit lorsqu'il eut fini"]
+    explanation: "In a written narrative, the passé surcomposé becomes the passé antérieur and the passé composé becomes the passé simple."
+  - id: "c1-passe-anterieur-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec « à peine… que » au début de la phrase et l'inversion : Dès qu'il fut sorti, il se mit à pleuvoir."
+    answers: ["À peine fut-il sorti qu'il se mit à pleuvoir"]
+    explanation: "À peine at the start, inversion of the auxiliary and the pronoun, then que + passé simple."
+    strictAccents: true
+  - id: "c1-passe-anterieur-ex013"
+    type: "register-shift"
+    prompt: "Transformez au passé composé et au passé surcomposé, comme à l'oral : Dès qu'elle eut fini, elle sortit."
+    answers: ["Dès qu'elle a eu fini, elle est sortie", "Elle est sortie dès qu'elle a eu fini"]
+    explanation: "In speech: the passé surcomposé for the earlier action, the passé composé for the main verb, with agreement: elle est sortie."
+    strictAccents: true
+  - id: "c1-passe-anterieur-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de temps : Quand il eut fini, il est parti."
+    answers: ["Quand il eut fini, il partit", "Quand il a eu fini, il est parti", "Quand il a fini, il est parti"]
+    explanation: "The passé antérieur goes with the passé simple: quand il eut fini, il partit. In speech, keep the passé composé and use the passé surcomposé or the passé composé after quand."
+    strictAccents: true
+  - id: "c1-passe-anterieur-ex015"
+    type: "translate"
+    prompt: "Traduisez au passé simple et au passé antérieur, comme dans un récit (dès que, partir) : As soon as the fog had cleared, the riders left."
+    answers: ["Dès que le brouillard se fut dissipé, les cavaliers partirent", "Les cavaliers partirent dès que le brouillard se fut dissipé"]
+    explanation: "Se dissiper takes être: le brouillard se fut dissipé. Then the passé simple: partirent."
+    strictAccents: true
+  - id: "c1-passe-anterieur-ex016"
+    type: "translate"
+    prompt: "Traduisez au passé simple et au passé antérieur, comme dans un récit (après que, frapper) : After the messenger had knocked, the door opened."
+    answers: ["Après que le messager eut frappé, la porte s'ouvrit", "La porte s'ouvrit après que le messager eut frappé"]
+    explanation: "Après que takes the indicative: le messager eut frappé. The door opening is the event: s'ouvrit."
+  - id: "c1-passe-anterieur-ex017"
+    type: "translate"
+    prompt: "Rédigez ce début de récit en complétant comme indiqué : Il (was: faire, imparfait) nuit. Lorsque le voyageur (had eaten: manger, passé antérieur), il (went up: monter, passé simple) dans sa chambre."
+    answers: ["Il faisait nuit. Lorsque le voyageur eut mangé, il monta dans sa chambre."]
+    explanation: "The imparfait sets the scene, the passé antérieur marks the meal as finished, and the passé simple tells the next event."
+    strictAccents: true
+  - id: "c1-passe-anterieur-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : No sooner had he gone out than it started to rain."
+    words: ["À", "peine", "fut-il", "sorti", "qu'il", "se", "mit", "à", "pleuvoir"]
+    answers: ["À peine fut-il sorti qu'il se mit à pleuvoir"]
+    explanation: "À peine, the inverted auxiliary and pronoun, the participle, then que + passé simple."
+    strictAccents: true
+---
+
+By the end of this lesson you'll be able to show, in a written narrative, that one action was finished just before the next, and to choose the right tense for the same idea in speech.
+
+## What you already know
+
+You know the plus-que-parfait (*il avait fini*) from <LessonLink id="b1-plus-que-parfait" text="the lesson on the plus-que-parfait" />, and *dès que*, *aussitôt que* and *lorsque* from <LessonLink id="b1-time-connectors" text="the lesson on time connectors" />. In <LessonLink id="b2-futur-anterieur" text="the lesson on the futur antérieur" />, you used a compound tense after *quand* for the earlier of two future actions. The passé antérieur does the same job in a story told in the passé simple, which you learned to write in <LessonLink id="c1-passe-simple" text="the lesson on the passé simple" />.
+
+## What the passé antérieur does
+
+In a written narrative, two events can follow each other so closely that the first must be complete before the second starts: he finished his meal, then he left. French marks the first event with the passé antérieur and the second with the passé simple.
+
+<Example fr="Quand il eut fini son repas, il sortit." en="When he had finished his meal, he went out." />
+
+Like the passé simple, it belongs to writing: novels, tales and history books. You'll read it far more often than you write it, but at C1 you should be able to use it in a story of your own.
+
+## Forming it
+
+<VocabTable group="forms" />
+
+The passé antérieur is the auxiliary in the passé simple, followed by the past participle. The choice between *avoir* and *être* and the agreement of the participle work exactly as in the passé composé.
+
+| | *finir* (avoir) | *partir* (être) | *s'endormir* (reflexive) |
+|---|---|---|---|
+| *je* | *eus fini* | *fus parti(e)* | *me fus endormi(e)* |
+| *tu* | *eus fini* | *fus parti(e)* | *te fus endormi(e)* |
+| *il / elle* | *eut fini* | *fut parti(e)* | *se fut endormi(e)* |
+| *nous* | *eûmes fini* | *fûmes parti(e)s* | *nous fûmes endormi(e)s* |
+| *vous* | *eûtes fini* | *fûtes parti(e)(s)* | *vous fûtes endormi(e)(s)* |
+| *ils / elles* | *eurent fini* | *furent parti(e)s* | *se furent endormi(e)s* |
+
+You'll mostly meet the third person.
+
+<Example fr="Dès qu'elle fut partie, ils se mirent à parler." en="As soon as she had left, they started talking." />
+
+## After quand, lorsque, dès que and aussitôt que
+
+The passé antérieur usually sits in a time clause after *quand*, *lorsque*, *dès que* or *aussitôt que*, and the main verb is in the passé simple. With *dès que* and *aussitôt que*, it stresses that the second event followed at once.
+
+<Example fr="Lorsque les voyageurs se furent endormis, l'auberge devint silencieuse." en="When the travellers had fallen asleep, the inn became silent." />
+<Example fr="Aussitôt que le cavalier se fut éloigné, la cloche sonna." en="As soon as the rider had gone off, the bell rang." />
+
+*Après que* works the same way. You know from <LessonLink id="b2-subjunctive-conjunctions" text="the lesson on conjunctions with the subjunctive" /> that it takes the indicative in careful French, and the passé antérieur is an indicative tense.
+
+<Example fr="Après que le messager eut frappé à la porte, on lui ouvrit." en="After the messenger had knocked at the door, someone opened it for him." />
+
+You'll also meet the passé antérieur, more rarely, in a main clause with *bientôt* or *vite*, to show how quickly an action was completed.
+
+<Example fr="Il eut bientôt fini sa lettre." en="He soon had his letter finished." />
+
+## À peine… que
+
+You know *à peine* (barely) from <LessonLink id="b1-ne-que-ni-ni" text="the lesson on ne… que and ne… ni… ni" />. With *que*, it means "no sooner… than": the second event followed almost before the first was over. In a passé simple narrative, *à peine* goes with the passé antérieur and *que* introduces the passé simple. Outside that system, you also meet the plus-que-parfait with the passé composé or the imparfait: *à peine étions-nous arrivés qu'il a commencé à pleuvoir* (no sooner had we arrived than it started to rain).
+
+When *à peine* opens a written sentence, careful writers invert the auxiliary and the subject pronoun, as after *peut-être* in <LessonLink id="b2-registers" text="the lesson on registers" />. With a noun subject, the noun stays in front and a pronoun follows the auxiliary. Inside the sentence, *à peine* follows the auxiliary and there's no inversion.
+
+<Example fr="À peine fut-il sorti qu'il se mit à pleuvoir." en="No sooner had he gone out than it started to rain." />
+<Example fr="À peine le brouillard se fut-il dissipé que les cavaliers partirent." en="No sooner had the fog cleared than the riders left." />
+<Example fr="Il fut à peine sorti qu'il se mit à pleuvoir." en="He had barely gone out when it started to rain." />
+
+## Which tense goes with which
+
+The tense of the main verb decides the tense of the earlier action. Look at the main verb first.
+
+| Main verb | Earlier action | Example |
+|---|---|---|
+| passé simple (writing) | passé antérieur | *Quand il eut fini, il partit.* |
+| passé composé (speech) | passé surcomposé or passé composé | *Quand il a eu fini, il est parti.* |
+| imparfait (a habit) | plus-que-parfait | *Quand il avait fini, il partait.* |
+
+The last line describes something repeated: every evening, when he had finished, he would leave. For a habit in the imparfait, the usual partner is the plus-que-parfait; for a single event in the passé simple, it's the passé antérieur.
+
+<Example fr="Chaque soir, quand il avait fini son travail, il rentrait à pied." en="Every evening, when he had finished his work, he walked home." />
+
+## In speech: the passé surcomposé
+
+The passé antérieur isn't used in conversation. In speech, people use the passé composé after *quand* or *dès que*, or, to stress that the first action was really over, the passé surcomposé: the auxiliary in the passé composé, then the participle (*il a eu fini*). It's mostly used with *avoir* verbs, and it belongs to speech rather than to careful writing.
+
+<Example fr="Quand j'ai eu fini mon travail, je suis sorti." en="When I'd finished my work, I went out. (spoken, a man speaking)" />
+
+## A short narrative
+
+<VocabTable group="story" />
+
+<VocabTable group="story-verbs" />
+
+This is the opening of an original tale. The first paragraph sets the scene in the imparfait; the second tells the events in the passé simple, with the passé antérieur in the time clauses.
+
+*Il faisait froid, et le brouillard cachait le village. Dans l'auberge, les voyageurs dormaient déjà.*
+
+*Vers minuit, un cavalier frappa à la porte. Quand on lui eut ouvert, il entra sans un mot et posa sur la table une lettre du roi. À peine les voyageurs eurent-ils lu la lettre qu'ils se mirent tous à parler. Après que le messager se fut éloigné, personne ne put s'endormir. Dès que le brouillard se fut dissipé, à l'aube, ils partirent.*
+
+(It was cold, and the fog was hiding the village. In the inn, the travellers were already asleep. Around midnight, a rider knocked at the door. When someone had opened it for him, he came in without a word and put a letter from the king on the table. No sooner had the travellers read the letter than they all started talking. After the messenger had gone off, nobody could fall asleep. As soon as the fog had cleared, at dawn, they left.)
+
+## En français
+
+Samir asks Lucie about the story she's writing. They speak in the passé composé, and Lucie quotes her story.
+
+- *Tu as fini ton histoire ?* (Have you finished your story?)
+- *Presque. Quand j'ai eu fini la première partie, je l'ai envoyée à ma sœur.* (Almost. When I'd finished the first part, I sent it to my sister.)
+- *« Quand j'ai eu fini » ? C'est quel temps, ça ?* ("When I'd finished"? What tense is that?)
+- *Le passé surcomposé. On l'entend à l'oral, pour une action finie juste avant une autre.* (The passé surcomposé. You hear it in speech, for an action finished just before another.)
+- *Et dans ton histoire, il y en a ?* (And is there any in your story?)
+- *Non, mon histoire est au passé simple. Alors j'écris « quand il eut fini ».* (No, my story is in the passé simple. So I write "quand il eut fini".)
+- *Ah, le passé antérieur. Je l'ai vu dans des romans, mais jamais à l'oral.* (Ah, the passé antérieur. I've seen it in novels, but never in speech.)
+- *C'est normal : on ne le trouve qu'à l'écrit.* (That's normal: you only find it in writing.)
+- *Tu peux me donner une phrase de ton histoire ?* (Can you give me a sentence from your story?)
+- *« À peine le cavalier fut-il parti que la cloche sonna. »* ("No sooner had the rider left than the bell rang.")
+- *Très bien ! Je pourrai la lire quand tu auras fini ?* (Very good! Can I read it when you've finished?)
+- *Bien sûr. Dès que j'aurai écrit la fin, je te l'enverrai.* (Of course. As soon as I've written the ending, I'll send it to you.)
+
+<Callout type="warning" title="Quand il eut fini, il partit, not il est parti">
+  Learners sometimes put a passé antérieur in the time clause and a passé composé in the main clause. The two tenses belong to different systems: keep **quand il eut fini, il partit** in writing, and **quand il a eu fini, il est parti** in speech.
+</Callout>
+
+<Callout type="tip" title="Read the main verb first">
+  When you meet a time clause in a text, find the main verb before you read the clause. Its tense tells you which partner to expect: passé simple and passé antérieur, passé composé and passé surcomposé, imparfait and plus-que-parfait. Do the same before you write the clause yourself.
+</Callout>
+
+## En résumé
+
+Le passé antérieur se forme avec avoir ou être au passé simple et le participe passé : il eut fini, elle fut partie, ils se furent endormis. L'accord du participe se fait comme au passé composé. Dans un récit écrit, il marque une action finie juste avant une autre, qui est au passé simple. On le trouve surtout après quand, lorsque, dès que, aussitôt que et après que : quand il eut fini, il partit. Avec à peine… que, la seconde action suit presque tout de suite, et on fait l'inversion quand à peine est au début de la phrase : à peine fut-il sorti qu'il se mit à pleuvoir. À l'oral, on dit plutôt quand il a eu fini, il est parti : c'est le passé surcomposé. Pour une habitude à l'imparfait, on prend en général le plus-que-parfait : quand il avait fini, il partait.
+
+## What's next
+
+Next, <LessonLink id="c1-future-in-the-past" text="the lesson on the future in the past" /> shows how a narrative looks ahead from a moment in the past.
+
+===== content/lessons/c1/future-in-the-past.mdx =====
+---
+id: "c1-future-in-the-past"
+title: "The future in the past and tense nuance"
+description: "Look ahead from a moment in the past: the conditionnel and the conditionnel passé outside reported speech, allait and devait + infinitive, ne pas tarder à, and the historical present with the futur in reports."
+level: "C1"
+unit: "Literary French"
+order: 3
+type: "grammar"
+tags: ["grammar", "past tenses", "literary French", "formal writing"]
+prerequisites: ["b2-reported-speech-past", "b2-futur-anterieur"]
+related: ["c1-passe-simple", "c1-passe-anterieur", "b2-conditionnel-passe"]
+vocab:
+  - { id: "c1-future-in-the-past-v001", group: "forms", fr: "le futur dans le passé", pron: "luh few-TEWR dahn luh pah-SAY", en: "the future in the past" }
+  - { id: "c1-future-in-the-past-v002", group: "forms", fr: "devait + infinitive", pron: "duh-VEH", en: "was supposed to; (in a story) was to", note: "Il devait arriver à midi. Il ne devait jamais revenir." }
+  - { id: "c1-future-in-the-past-v003", group: "forms", fr: "ne pas tarder à", pron: "nuh pah tar-DAY ah", en: "not to be long in (doing), to (do) soon", note: "+ infinitive: il ne tarda pas à revenir." }
+  - { id: "c1-future-in-the-past-v004", group: "forms", fr: "le présent de narration", pron: "luh pray-ZAHN duh nah-rah-SYOHN", en: "the historical present" }
+  - { id: "c1-future-in-the-past-v005", group: "story", fr: "le port", pron: "luh POR", en: "the port, the harbour" }
+  - { id: "c1-future-in-the-past-v006", group: "story", fr: "le navire", pron: "luh nah-VEER", en: "the ship" }
+  - { id: "c1-future-in-the-past-v007", group: "story", fr: "le marin", pron: "luh mah-RAN", en: "the sailor" }
+  - { id: "c1-future-in-the-past-v008", group: "story", fr: "embarquer", pron: "ahn-bar-KAY", en: "to board, to go on board" }
+  - { id: "c1-future-in-the-past-v009", group: "story", fr: "la frontière", pron: "lah frohn-TYEHR", en: "the border" }
+  - { id: "c1-future-in-the-past-v010", group: "story", fr: "lointain / lointaine", pron: "lwan-TAN / lwan-TEN", en: "distant, faraway" }
+  - { id: "c1-future-in-the-past-v011", group: "story", fr: "le siècle", pron: "luh SYEK-luh", en: "the century" }
+  - { id: "c1-future-in-the-past-v012", group: "story", fr: "fonder", pron: "fohn-DAY", en: "to found, to set up" }
+exercises:
+  - id: "c1-future-in-the-past-ex001"
+    type: "fill-in"
+    prompt: "Conjuguez au conditionnel présent (devenir) : À vingt ans, il ne savait pas encore qu'il ___ marin."
+    answers: ["deviendrait"]
+    explanation: "Seen from a past moment, a later event takes the conditionnel: il deviendrait."
+  - id: "c1-future-in-the-past-ex002"
+    type: "fill-in"
+    prompt: "Conjuguez au conditionnel passé (finir) : Elle avait promis de m'appeler dès qu'elle ___."
+    answers: ["aurait fini"]
+    explanation: "After a past verb, the futur antérieur of the time clause becomes the conditionnel passé: dès qu'elle aurait fini."
+  - id: "c1-future-in-the-past-ex003"
+    type: "fill-in"
+    prompt: "Conjuguez au conditionnel présent (venir) : Elle disait qu'elle ___ quand elle aurait le temps."
+    answers: ["viendrait"]
+    explanation: "Both future actions move into the conditionnel: viendrait, aurait."
+  - id: "c1-future-in-the-past-ex004"
+    type: "fill-in"
+    prompt: "Complétez avec « devoir » à l'imparfait : Le navire ___ partir à midi, mais il n'est parti que le soir."
+    answers: ["devait"]
+    explanation: "Devait + infinitive: what was planned, here not what happened."
+  - id: "c1-future-in-the-past-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Ce jour-là, ils ne savaient pas qu'ils ne ___ jamais leur village."
+    options: ["reverraient", "revoient", "reverrons"]
+    answers: ["reverraient"]
+    explanation: "A later event seen from ce jour-là: the conditionnel. Revoient is the present, and reverrons doesn't match ils."
+  - id: "c1-future-in-the-past-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « devait » dans la phrase : Il devait arriver à midi, mais il n'est jamais venu."
+    options: ["was supposed to", "must have", "would have"]
+    answers: ["was supposed to"]
+    explanation: "Devait + infinitive gives the plan; mais shows it didn't happen."
+  - id: "c1-future-in-the-past-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez le sens de la deuxième phrase, dans un récit : Elle quitta le village ce jour-là. Elle ne devait jamais revenir."
+    options: ["She was never to come back.", "She will never come back.", "She has never come back."]
+    answers: ["She was never to come back."]
+    explanation: "She left the village that day. In a story told in the passé simple, ne devait jamais + infinitive announces what fate had in store: she was never to come back."
+  - id: "c1-future-in-the-past-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne forme : Il ___ embarquer quand sa mère surgit de la foule."
+    options: ["allait", "irait", "ira"]
+    answers: ["allait"]
+    explanation: "Allait + infinitive: he was about to board when something interrupted him."
+  - id: "c1-future-in-the-past-ex009"
+    type: "multiple-choice"
+    prompt: "Choisissez le temps de la suite dans un récit au présent de narration : En 1850, il quitte son village ; il ne le ___ jamais."
+    options: ["reverra (le futur simple)", "reverrait (le conditionnel présent)", "avait revu (le plus-que-parfait)"]
+    answers: ["reverra (le futur simple)"]
+    explanation: "When the story is told in the present, a later event takes the futur simple."
+  - id: "c1-future-in-the-past-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « ne pas tarder à », au passé simple : Il se mit bientôt à pleuvoir."
+    answers: ["Il ne tarda pas à pleuvoir"]
+    explanation: "Ne pas tarder à + infinitive: it wasn't long before it rained."
+    strictAccents: true
+  - id: "c1-future-in-the-past-ex011"
+    type: "reformulation"
+    prompt: "Reformulez en commençant par « Elle disait qu'elle » : Je viendrai dès que j'aurai fini."
+    answers: ["Elle disait qu'elle viendrait dès qu'elle aurait fini"]
+    explanation: "The futur becomes the conditionnel, and the futur antérieur becomes the conditionnel passé."
+    strictAccents: true
+  - id: "c1-future-in-the-past-ex012"
+    type: "reformulation"
+    prompt: "Reformulez au présent de narration, avec le futur simple pour la suite : En 1850, il quitta son village ; il ne le revit jamais."
+    answers: ["En 1850, il quitte son village ; il ne le reverra jamais"]
+    explanation: "Quitta becomes quitte, and the later event, seen from that present, takes the futur: reverra."
+  - id: "c1-future-in-the-past-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Ce jour-là, il savait qu'il partira le lendemain."
+    answers: ["Ce jour-là, il savait qu'il partirait le lendemain", "Ce jour-là, il savait qu'il allait partir le lendemain", "Ce jour-là, il savait qu'il devait partir le lendemain"]
+    explanation: "Seen from ce jour-là, the departure is a future in the past: partirait, allait partir, or devait partir for a plan."
+    strictAccents: true
+  - id: "c1-future-in-the-past-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Elle avait promis de partir dès qu'elle aura fini."
+    answers: ["Elle avait promis de partir dès qu'elle aurait fini"]
+    explanation: "After a past verb, the time clause takes the conditionnel passé: dès qu'elle aurait fini."
+    strictAccents: true
+  - id: "c1-future-in-the-past-ex015"
+    type: "translate"
+    prompt: "Traduisez avec « devait » : The train was supposed to arrive at noon."
+    answers: ["Le train devait arriver à midi"]
+    explanation: "Devait + infinitive for a plan."
+    strictAccents: true
+  - id: "c1-future-in-the-past-ex016"
+    type: "translate"
+    prompt: "Traduisez au passé simple, comme dans un récit (ne pas tarder à, revenir) : The rider soon came back."
+    answers: ["Le cavalier ne tarda pas à revenir", "La cavalière ne tarda pas à revenir"]
+    explanation: "Ne tarda pas à + infinitive, in the passé simple of the narrative."
+    strictAccents: true
+  - id: "c1-future-in-the-past-ex017"
+    type: "translate"
+    prompt: "Traduisez avec le conditionnel passé (penser, avant le soir, franchir) : She thought that she would have crossed the border before evening."
+    answers: ["Elle pensait qu'avant le soir, elle aurait franchi la frontière", "Elle pensait qu'elle aurait franchi la frontière avant le soir"]
+    explanation: "A future perfect seen from the past: the conditionnel passé, aurait franchi."
+  - id: "c1-future-in-the-past-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : He was never to see his country again."
+    words: ["Il", "ne", "devait", "jamais", "revoir", "son", "pays"]
+    answers: ["Il ne devait jamais revoir son pays"]
+    explanation: "Ne devait jamais + infinitive: what fate had in store."
+---
+
+By the end of this lesson you'll be able to look ahead from a moment in the past, in a story or a report, and choose between the conditionnel, *allait*, *devait* and the futur.
+
+## What you already know
+
+In <LessonLink id="b2-reported-speech-past" text="the lesson on reported speech in the past" />, you shifted the tenses after *il a dit que*: the futur became the conditionnel (*qu'il viendrait*), the futur antérieur became the conditionnel passé (*qu'il aurait fini*), and *je vais partir* became *qu'il allait partir*. You know the futur antérieur after *quand* and *dès que* from <LessonLink id="b2-futur-anterieur" text="the lesson on the futur antérieur" />. This lesson uses the same forms outside reported speech, wherever a story looks ahead.
+
+## The future seen from the past
+
+<VocabTable group="forms" />
+
+A narrative stands at a moment in the past. Anything that comes later, seen from that moment, usually takes the conditionnel; the alternatives are *allait* and *devait* + infinitive, below. This is called *le futur dans le passé*. It appears after verbs like *savoir*, *penser* and *espérer*, but also on its own, when the narrator announces what will happen next.
+
+<Example fr="À vingt ans, il ne savait pas encore qu'il deviendrait marin." en="At twenty, he didn't yet know that he would become a sailor." />
+<Example fr="Elle quitta la ville en mars. Elle n'y reviendrait que dix ans plus tard." en="She left the city in March. She wouldn't come back until ten years later. (literary)" />
+
+The second sentence has no verb like *savoir*: the narrator jumps ahead. This use belongs to written narrative.
+
+<Example fr="Dans cette phrase, reviendrait est un futur dans le passé." en="In this sentence, reviendrait is a future in the past." />
+
+## The future perfect in the past
+
+When the earlier of two future actions is seen from the past, the futur antérieur becomes the conditionnel passé, in the main clause and after *quand*, *dès que* or *une fois que*.
+
+<Example fr="Il pensait qu'avant la nuit, il aurait franchi la frontière." en="He thought that by nightfall he would have crossed the border." />
+<Example fr="Elle avait promis de m'écrire dès qu'elle serait arrivée." en="She had promised to write to me as soon as she had arrived." />
+
+Compare the present version, *elle promet de m'écrire dès qu'elle sera arrivée*: *sera arrivée* becomes *serait arrivée*.
+
+## Allait + infinitive: about to
+
+*Aller* in the imparfait + infinitive is the futur proche seen from the past. It shows an action that was close, planned or about to start. Interrupted by an event in the passé simple, it means "was about to".
+
+<Example fr="Il allait embarquer quand on l'appela." en="He was about to board when someone called him." />
+
+The conditionnel and *allait* are both correct after *il savait que*, with a nuance. *Il savait qu'il partirait* places the departure at some point later. *Il savait qu'il allait partir* makes it close or already decided.
+
+<Example fr="Elle savait qu'un jour, elle partirait." en="She knew that one day she would leave." />
+<Example fr="Elle savait qu'elle allait partir le lendemain." en="She knew she was going to leave the next day." />
+
+## Devait + infinitive: a plan or fate
+
+*Devoir* in the imparfait + infinitive has two meanings that matter here. It can also mean an obligation (*il devait travailler le samedi*, he had to work on Saturdays) or a probability (*il devait être tard*, it must have been late), like the deduction you saw in <LessonLink id="b2-certainty-and-probability" text="the lesson on certainty and probability" />; only the context tells them apart. In everyday French, it gives a plan, often one that didn't work out: "was supposed to".
+
+<Example fr="Le navire devait partir à midi, mais il ne partit que le soir." en="The ship was supposed to leave at noon, but it didn't leave until the evening." />
+
+In a story, it can also announce what fate had in store: "was to". This use is literary, and it's common with *jamais*.
+
+<Example fr="Il quitta le port ce jour-là. Il ne devait jamais revoir son pays." en="He left the harbour that day. He was never to see his country again. (literary)" />
+
+Don't confuse it with the passé simple of *devoir*: *il dut partir* means "he had to leave", an obligation that was carried out.
+
+## Ne pas tarder à
+
+*Ne pas tarder à* + infinitive means "not to be long in doing": the next event came quickly. In a narrative, it's often in the passé simple; in speech, you'll hear *il ne va pas tarder* (he won't be long).
+
+<Example fr="La pluie ne tarda pas à tomber." en="It wasn't long before the rain started to fall." />
+
+## The historical present in reports
+
+Historians, journalists and biographers often tell past events in the present: this is *le présent de narration*. It makes the account more direct. In that frame, what comes later is in the futur simple, not the conditionnel, because the "now" of the story is the present.
+
+<Example fr="Au dix-neuvième siècle, elle fonde une école dans un pays lointain ; elle y passera toute sa vie." en="In the nineteenth century, she founds a school in a distant country; she will spend her whole life there. (an invented person)" />
+
+<Example fr="Ce récit est écrit au présent de narration." en="This account is written in the historical present." />
+
+Choose one frame per paragraph: passé simple and imparfait with the conditionnel, or the present with the futur.
+
+## The whole list
+
+- Later, seen from the past: conditionnel (*il deviendrait*).
+- Earlier of two future actions, seen from the past: conditionnel passé (*dès qu'elle serait arrivée*).
+- Close or decided: *allait* + infinitive.
+- A plan: *devait* + infinitive; fate, in a story: *ne devait jamais* + infinitive.
+- Soon after: *ne pas tarder à* + infinitive.
+- In a report in the present: futur simple for what comes later.
+
+## A short narrative
+
+<VocabTable group="story" />
+
+This is the opening of an original story. The first paragraph sets the scene in the imparfait, with the conditionnel for what comes later. The second tells the events in the passé simple.
+
+*En 1850, Paul avait vingt ans et vivait dans un petit village, loin de la mer. Il rêvait de voyages, mais il ne savait pas encore qu'il deviendrait marin.*
+
+*Un matin d'automne, il marcha jusqu'au port. Le navire devait partir à midi, mais il ne partit que le soir. Paul allait embarquer quand sa mère surgit de la foule. Elle lui donna une lettre et lui dit qu'il la lirait quand il serait arrivé. Le navire ne tarda pas à s'éloigner. Paul ne devait jamais revoir son village.*
+
+(In 1850, Paul was twenty and lived in a small village, far from the sea. He dreamt of travelling, but he didn't yet know that he would become a sailor. One autumn morning, he walked to the harbour. The ship was supposed to leave at noon, but it didn't leave until the evening. Paul was about to board when his mother appeared out of the crowd. She gave him a letter and told him he would read it once he had arrived. It wasn't long before the ship moved away. Paul was never to see his village again.)
+
+## En français
+
+Nadia missed this morning's meeting. Her colleague Marc tells her what happened.
+
+- *Tu n'étais pas à la réunion ce matin ?* (Weren't you at the meeting this morning?)
+- *Non, je devais venir, mais mon train a eu une heure de retard.* (No, I was supposed to come, but my train was an hour late.)
+- *Dommage ! La directrice a annoncé qu'elle partirait à la fin du mois.* (Pity! The director announced she would leave at the end of the month.)
+- *Quoi ? Elle m'avait dit qu'elle resterait jusqu'en juin !* (What? She'd told me she would stay until June!)
+- *Elle a changé d'avis. Elle a dit qu'elle nous donnerait le nom de son remplaçant dès qu'elle l'aurait choisi.* (She changed her mind. She said she'd give us the name of her replacement as soon as she'd chosen him.)
+- *Et notre projet ? On allait le finir en mai.* (And our project? We were going to finish it in May.)
+- *Elle a promis qu'on l'aurait fini avant son départ.* (She promised we'd have finished it before she left.)
+- *J'en doute. On ne va pas tarder à avoir des problèmes.* (I doubt it. It won't be long before we have problems.)
+- *Ne t'inquiète pas.* (Don't worry.)
+- *Tu as raison. Au fait, elle devait nous envoyer un message cet après-midi.* (You're right. By the way, she was supposed to send us a message this afternoon.)
+- *Elle l'a envoyé il y a une heure. Elle allait t'appeler, d'ailleurs.* (She sent it an hour ago. She was going to call you, actually.)
+- *Alors je vais l'appeler moi-même.* (Then I'll call her myself.)
+
+<Callout type="warning" title="Dès qu'elle serait arrivée, not dès qu'elle sera arrivée">
+  After a verb in the past, learners often keep the futur antérieur in the time clause. Seen from the past, it becomes the conditionnel passé: *elle avait promis de m'écrire* **dès qu'elle serait arrivée**.
+</Callout>
+
+<Callout type="tip" title="Write what they didn't know yet">
+  Pick a moment in your own past and write three sentences that start with *Ce jour-là, je ne savais pas encore que…*, each with a conditionnel. Then rewrite one of them with *ne devait jamais* or *allait*. It trains the future in the past on a story you know well.
+</Callout>
+
+## En résumé
+
+Le futur dans le passé montre ce qui arrive plus tard, vu d'un moment du passé. On met alors en général le verbe au conditionnel : il ne savait pas encore qu'il deviendrait marin. Pour l'action finie avant une autre, on prend le conditionnel passé, aussi après quand et dès que : elle avait promis d'écrire dès qu'elle serait arrivée. Aller à l'imparfait suivi de l'infinitif montre une action proche ou décidée : il allait embarquer quand on l'appela. Devoir à l'imparfait suivi de l'infinitif donne un projet, souvent manqué, ou, dans un récit, le destin : il ne devait jamais revoir son pays. Ne pas tarder à veut dire que l'action suivante arrive vite. Avec le présent de narration, on raconte le passé au présent, et la suite est au futur simple.
+
+## What's next
+
+Next, <LessonLink id="c1-imperfect-subjunctive" text="the lesson on the imperfect and pluperfect subjunctive" /> shows two literary forms of the subjunctive that you'll meet in classic texts.
+
+===== content/lessons/c1/imperfect-subjunctive.mdx =====
+---
+id: "c1-imperfect-subjunctive"
+title: "Imperfect and pluperfect subjunctive"
+description: "Recognize the imparfait and plus-que-parfait du subjonctif in classic texts (qu'il fût, qu'il eût, qu'il vînt, qu'il eût fini), tell them from the passé simple, read il eût préféré and fût-il, and give their modern equivalents."
+level: "C1"
+unit: "Literary French"
+order: 4
+type: "grammar"
+tags: ["grammar", "subjunctive", "literary French", "recognition"]
+prerequisites: ["c1-passe-simple", "b2-subjonctif-passe"]
+related: ["b2-reported-speech-past", "b2-registers", "c1-future-in-the-past"]
+vocab:
+  - { id: "c1-imperfect-subjunctive-v001", group: "forms", fr: "l'imparfait du subjonctif", pron: "lan-par-FEH dew sewb-zhohnk-TEEF", en: "the imperfect subjunctive (literary)" }
+  - { id: "c1-imperfect-subjunctive-v002", group: "forms", fr: "qu'il parlât / qu'ils parlassent", pron: "keel par-LAH / keel par-LASS", en: "that he spoke / that they spoke (literary)", note: "Modern: qu'il parle, qu'ils parlent." }
+  - { id: "c1-imperfect-subjunctive-v003", group: "forms", fr: "qu'il finît", pron: "keel fee-NEE", en: "that he finished (literary)", note: "Modern: qu'il finisse." }
+  - { id: "c1-imperfect-subjunctive-v004", group: "forms", fr: "qu'il fût", pron: "keel FEW", en: "that he was (literary)", note: "Être. Modern: qu'il soit." }
+  - { id: "c1-imperfect-subjunctive-v005", group: "forms", fr: "qu'il eût", pron: "kee-LEW", en: "that he had (literary)", note: "Avoir. Modern: qu'il ait." }
+  - { id: "c1-imperfect-subjunctive-v006", group: "forms", fr: "qu'il fît", pron: "keel FEE", en: "that he did, that he made (literary)", note: "Faire. Modern: qu'il fasse." }
+  - { id: "c1-imperfect-subjunctive-v007", group: "forms", fr: "qu'il vînt", pron: "keel VAN", en: "that he came (literary)", note: "Venir. Modern: qu'il vienne." }
+  - { id: "c1-imperfect-subjunctive-v008", group: "forms", fr: "il fallait que", pron: "eel fah-LEH kuh", en: "it was necessary that, (someone) had to", note: "The imparfait of il faut que, + subjunctive." }
+  - { id: "c1-imperfect-subjunctive-v009", group: "words", fr: "le registre littéraire", pron: "luh ruh-zhees-truh lee-tay-REHR", en: "the literary register" }
+  - { id: "c1-imperfect-subjunctive-v010", group: "words", fr: "l'accent circonflexe (m.)", pron: "lak-SAHN seer-kohn-FLEKS", en: "the circumflex accent" }
+  - { id: "c1-imperfect-subjunctive-v011", group: "words", fr: "le roi / la reine", pron: "luh RWAH / lah REN", en: "the king / the queen" }
+  - { id: "c1-imperfect-subjunctive-v012", group: "words", fr: "la porte du château", pron: "lah por-tuh dew shah-TOH", en: "the castle gate" }
+  - { id: "c1-imperfect-subjunctive-v013", group: "pluperfect", fr: "le plus-que-parfait du subjonctif", pron: "luh plews-kuh-par-FEH dew sewb-zhohnk-TEEF", en: "the pluperfect subjunctive (literary)" }
+  - { id: "c1-imperfect-subjunctive-v014", group: "pluperfect", fr: "qu'il eût fini / qu'il fût parti", pron: "kee-lew fee-NEE / keel few par-TEE", en: "that he had finished / that he had left (literary)", note: "Modern: qu'il ait fini, qu'il soit parti." }
+  - { id: "c1-imperfect-subjunctive-v015", group: "pluperfect", fr: "il eût préféré", pron: "ee-lew pray-fay-RAY", en: "he would have preferred (literary)", note: "= il aurait préféré." }
+  - { id: "c1-imperfect-subjunctive-v016", group: "pluperfect", fr: "on eût dit", pron: "oh-new DEE", en: "you would have thought, it looked like (literary)", note: "= on aurait dit." }
+  - { id: "c1-imperfect-subjunctive-v017", group: "pluperfect", fr: "fût-il", pron: "FEW-teel", en: "even if he were (literary)", note: "Fût-il malade = même s'il était malade." }
+exercises:
+  - id: "c1-imperfect-subjunctive-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps de « fût » dans la phrase : Bien qu'il fût malade, il partit."
+    options: ["l'imparfait du subjonctif", "le passé simple", "l'imparfait"]
+    answers: ["l'imparfait du subjonctif"]
+    explanation: "Bien que needs the subjunctive, and fût has a circumflex: it's the imparfait du subjonctif of être. Partit is the passé simple."
+  - id: "c1-imperfect-subjunctive-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps de « fut » dans la phrase : Il fut malade tout l'hiver."
+    options: ["le passé simple", "l'imparfait du subjonctif", "le présent"]
+    answers: ["le passé simple"]
+    explanation: "No que, no trigger and no circumflex: fut is the passé simple of être, an event in a story."
+  - id: "c1-imperfect-subjunctive-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps de « vînt » dans la phrase 1 et de « vint » dans la phrase 2 : (1) Le roi voulait qu'il vînt. (2) Le roi vint le soir."
+    options: ["(1) imparfait du subjonctif, (2) passé simple", "(1) passé simple, (2) imparfait du subjonctif", "(1) et (2) passé simple"]
+    answers: ["(1) imparfait du subjonctif, (2) passé simple"]
+    explanation: "After voulait que, with a circumflex, vînt is the subjunctive. Vint, with no que and no accent, is the passé simple."
+  - id: "c1-imperfect-subjunctive-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez la forme moderne de « qu'il vînt » dans la phrase : Il fallait qu'il vînt avant la nuit."
+    options: ["qu'il vienne", "qu'il viendrait", "qu'il est venu"]
+    answers: ["qu'il vienne"]
+    explanation: "Modern French uses the present subjunctive, whatever the tense of the main verb: il fallait qu'il vienne."
+  - id: "c1-imperfect-subjunctive-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Il eût préféré se taire."
+    options: ["He would have preferred to keep quiet.", "He had preferred to keep quiet.", "He preferred to keep quiet."]
+    answers: ["He would have preferred to keep quiet."]
+    explanation: "Il eût préféré is a literary conditionnel passé: il aurait préféré."
+  - id: "c1-imperfect-subjunctive-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « Fût-il » dans la phrase : Fût-il malade, il viendrait."
+    options: ["Even if he were ill", "Because he was ill", "When he was ill"]
+    answers: ["Even if he were ill"]
+    explanation: "Fût-il at the start of a sentence, with inversion, is concessive: même s'il était malade."
+  - id: "c1-imperfect-subjunctive-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez la forme du subjonctif : Le roi ordonna qu'on ___ la porte du château."
+    options: ["fermât", "ferma", "fermera"]
+    answers: ["fermât"]
+    explanation: "Ordonner que takes the subjunctive; after a past main verb, a classic text uses the imparfait du subjonctif: qu'on fermât. Ferma is the passé simple, and fermera the futur."
+  - id: "c1-imperfect-subjunctive-ex008"
+    type: "fill-in"
+    prompt: "Conjuguez au subjonctif (être) : Il fallait que la porte du château ___ fermée avant la nuit."
+    answers: ["soit", "fût"]
+    explanation: "Modern French says soit. A classic text would write fût, with a circumflex; fut without it is the passé simple."
+    strictAccents: true
+  - id: "c1-imperfect-subjunctive-ex009"
+    type: "fill-in"
+    prompt: "Conjuguez au subjonctif (avoir fini) : Bien qu'il ___ son travail, il resta au bureau."
+    answers: ["ait fini", "eût fini"]
+    explanation: "Modern French uses the passé subjunctive, ait fini. A classic text would use the plus-que-parfait du subjonctif, eût fini."
+    strictAccents: true
+  - id: "c1-imperfect-subjunctive-ex010"
+    type: "reformulation"
+    prompt: "Reformulez en français moderne : Je voulais qu'il vînt."
+    answers: ["Je voulais qu'il vienne"]
+    explanation: "Vînt becomes the present subjunctive, vienne. The main verb stays in the imparfait."
+  - id: "c1-imperfect-subjunctive-ex011"
+    type: "reformulation"
+    prompt: "Reformulez en français moderne : Il eût préféré partir."
+    answers: ["Il aurait préféré partir"]
+    explanation: "Il eût préféré is the literary form of the conditionnel passé, il aurait préféré."
+    strictAccents: true
+  - id: "c1-imperfect-subjunctive-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec le subjonctif passé : Je regrettais qu'il fût parti."
+    answers: ["Je regrettais qu'il soit parti"]
+    explanation: "Fût parti is the plus-que-parfait du subjonctif; its modern equivalent is the passé subjunctive, soit parti."
+  - id: "c1-imperfect-subjunctive-ex013"
+    type: "register-shift"
+    prompt: "Transformez en français courant, en gardant « bien que » : Bien qu'elle fût fatiguée, elle travaillait encore."
+    answers: ["Bien qu'elle soit fatiguée, elle travaillait encore"]
+    explanation: "Fût becomes soit. Modern French keeps the present subjunctive after a main verb in the past."
+  - id: "c1-imperfect-subjunctive-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (un récit au passé simple, sans subjonctif) : Ce soir-là, il fût très heureux."
+    answers: ["Ce soir-là, il fut très heureux"]
+    explanation: "There's no que and no trigger, so this is the passé simple of être: fut, without a circumflex."
+    strictAccents: true
+  - id: "c1-imperfect-subjunctive-ex015"
+    type: "translate"
+    prompt: "Traduisez en français moderne, avec « il fallait que » (partir) : He had to leave before nightfall."
+    answers: ["Il fallait qu'il parte avant la nuit"]
+    explanation: "Il fallait que + present subjunctive in modern French: qu'il parte."
+  - id: "c1-imperfect-subjunctive-ex016"
+    type: "translate"
+    prompt: "Traduisez en français moderne (regretter, partir) : She was sorry that he had left."
+    answers: ["Elle regrettait qu'il soit parti", "Elle a regretté qu'il soit parti"]
+    strictAccents: true
+    explanation: "Regretter que + passé subjunctive for an earlier action: qu'il soit parti."
+  - id: "c1-imperfect-subjunctive-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Although he was ill, he left. (literary)"
+    words: ["Bien", "qu'il", "fût", "malade", "il", "partit"]
+    answers: ["Bien qu'il fût malade, il partit", "Il partit bien qu'il fût malade"]
+    explanation: "Bien que + imparfait du subjonctif (fût), then the passé simple (partit). The bien que clause can also come second."
+---
+
+By the end of this lesson you'll be able to recognize the two literary tenses of the subjunctive in classic texts, tell them from the passé simple, and say what each form means in modern French.
+
+## What you already know
+
+In <LessonLink id="b2-subjonctif-passe" text="the lesson on the past subjunctive" />, you learned that modern French needs only two subjunctives, the present and the passé, whatever the tense of the main verb, and that two other tenses belong to old literary texts. This lesson is about those two. You'll also use the passé simple forms from <LessonLink id="c1-passe-simple" text="the lesson on the passé simple" />, because the new forms are built on them.
+
+## Where you'll meet them
+
+<VocabTable group="forms" />
+
+*L'imparfait du subjonctif* and *le plus-que-parfait du subjonctif* belong to *le registre littéraire* (the literary register). You'll find them in novels and plays from before the twentieth century, in some very formal writing, and in a few fixed phrases. They aren't used in conversation.
+
+In practice, you'll mostly meet the third person singular: *qu'il fût*, *qu'il eût*, *qu'elle vînt*. Classic authors used every person, but the plural forms (*que nous parlassions*, *qu'ils parlassent*) are long and unusual, and today they can sound comic.
+
+These forms usually follow a main verb in the past or in the conditionnel (*il fallait qu'il vînt*, *je voudrais qu'il vînt*). That's the classic rule of the *concordance des temps*, which you met for the indicative in <LessonLink id="b2-reported-speech-past" text="the lesson on reported speech in the past" />. In classic French, it also applied to the subjunctive.
+
+<VocabTable group="words" />
+
+<Example fr="Le roi voulait que la reine vînt avec lui." en="The king wanted the queen to come with him. (literary)" />
+<Example fr="Le roi voulait que la reine vienne avec lui." en="The king wanted the queen to come with him. (standard)" />
+
+## How the imparfait du subjonctif is formed
+
+Take the passé simple, *tu* form (*tu parlas*, *tu finis*, *tu fus*, *tu eus*, *tu fis*, *tu vins*), and add *-se*, *-ses*, *-sions*, *-siez* or *-sent*: *que je parlasse*, *qu'ils parlassent*. In the third person singular, the final *s* is replaced by *l'accent circonflexe* (the circumflex accent) on the vowel and a *-t*: *qu'il parlât*, *qu'il fût*, *qu'il vînt*.
+
+| Verb | Passé simple | Imparfait du subjonctif | Modern equivalent |
+|---|---|---|---|
+| parler | *il parla* | *qu'il parlât* | *qu'il parle* |
+| finir | *il finit* | *qu'il finît* | *qu'il finisse* |
+| être | *il fut* | *qu'il fût* | *qu'il soit* |
+| avoir | *il eut* | *qu'il eût* | *qu'il ait* |
+| faire | *il fit* | *qu'il fît* | *qu'il fasse* |
+| venir | *il vint* | *qu'il vînt* | *qu'il vienne* |
+
+In the plural, you'll sometimes see *qu'ils parlassent*, *qu'ils fussent* or *qu'ils eussent*. You don't need to learn the whole table: if you know the passé simple, you'll recognize the stem.
+
+<Example fr="Il fallait qu'il vînt avant la nuit." en="He had to come before nightfall. (literary)" />
+<Example fr="Le roi ordonna qu'on fermât la porte du château." en="The king ordered the castle gate to be shut. (literary)" />
+<Example fr="Elle attendait qu'il lui parlât." en="She was waiting for him to speak to her. (literary)" />
+
+## Subjunctive or passé simple?
+
+In the third person singular, the two tenses look almost the same. Two clues tell them apart. The subjunctive has a circumflex (and, in *-er* verbs, a final *-t*: *parla*, *parlât*), and it follows *que* after a trigger such as *il fallait*, *vouloir*, *bien que* or *avant que*. The passé simple tells an event, with no *que* in front.
+
+| Imparfait du subjonctif | Passé simple |
+|---|---|
+| *qu'il fût* | *il fut* |
+| *qu'il eût* | *il eut* |
+| *qu'il fît* | *il fit* |
+| *qu'il vînt* | *il vint* |
+| *qu'il parlât* | *il parla* |
+
+<Example fr="Bien qu'il fût malade, il partit." en="Although he was ill, he left. (literary)" />
+
+In this sentence, *fût* is the subjunctive after *bien que*, and *partit* is the passé simple of the story.
+
+## The plus-que-parfait du subjonctif
+
+<VocabTable group="pluperfect" />
+
+The *plus-que-parfait du subjonctif* is *avoir* or *être* in the imparfait du subjonctif (*eût*, *fût*), followed by the past participle. It shows an action finished before the past main verb. Its modern equivalent is the passé subjunctive.
+
+<Example fr="Bien qu'il eût fini son travail, il resta au bureau." en="Although he had finished his work, he stayed at the office. (literary)" />
+<Example fr="Je regrettais qu'elle fût partie si tôt." en="I was sorry she had left so early. (literary)" />
+
+In modern French: *bien qu'il ait fini*, *je regrettais qu'elle soit partie*.
+
+## Two other uses: il eût préféré and fût-il
+
+The same forms have two uses outside a *que* clause.
+
+The first is a literary conditionnel passé. *Il eût préféré* means exactly *il aurait préféré* (he would have preferred). The phrase *on eût dit* (you would have thought, it looked like) is still found in careful writing.
+
+<Example fr="Il eût préféré rester chez lui." en="He would have preferred to stay at home. (literary)" />
+<Example fr="On eût dit un enfant perdu." en="He looked like a lost child. (literary)" />
+
+The second is a concessive form at the start of a sentence, with inversion: *fût-il* means "even if he were". <LessonLink id="c1-concession-and-hypothesis" text="The lesson on concession and hypothesis" /> comes back to it in Unit 3.
+
+<Example fr="Fût-il malade, il viendrait." en="Even if he were ill, he would come. (literary)" />
+
+In modern French: *même s'il était malade, il viendrait*.
+
+## The classic sequence and the modern one
+
+In classic French, the tense of the subjunctive followed the main verb:
+
+- After a main verb in the present or future: the present or passé subjunctive (*je veux qu'il vienne*).
+- After a main verb in the past or in the conditionnel, for the same time or later: the imparfait du subjonctif (*je voulais qu'il vînt*, *je voudrais qu'il vînt*).
+- After a main verb in the past or in the conditionnel, for an earlier action: the plus-que-parfait du subjonctif (*je regrettais qu'il fût parti*).
+
+Modern French keeps only the first line, whatever the main verb: *je voulais qu'il vienne*, *je voudrais qu'il vienne*, *je regrettais qu'il soit parti*. When you rewrite a classic sentence in modern French, change only the subjunctive and keep the main verb as it is.
+
+## In your own writing
+
+You need to read these forms, not to write them. In a very formal text, a third person singular form such as *qu'il fût* or *qu'il eût* is still possible, and some writers like it. As a rule of thumb, use it only where the rest of the text is just as formal, and never in an email or in speech. In every typed answer in this course, the present or passé subjunctive is accepted wherever these forms are possible.
+
+## The whole list
+
+- Imparfait du subjonctif: the *tu* form of the passé simple + *-se*, *-ses*…, with a circumflex and *-t* for *il*: *qu'il parlât, finît, fût, eût, fît, vînt*. Modern: present subjunctive.
+- Plus-que-parfait du subjonctif: *eût* or *fût* + participle; *qu'il eût fini, qu'il fût parti*. Modern: passé subjunctive.
+- *Il eût préféré* = *il aurait préféré*; *on eût dit* = *on aurait dit*.
+- *Fût-il* + adjective: "even if he were".
+- Classic sequence: after a main verb in the past or the conditionnel, imparfait or plus-que-parfait du subjonctif (*je voudrais qu'il vînt*). Modern: present or passé subjunctive.
+- Subjunctive or passé simple: look for *que* and the circumflex.
+
+## En français
+
+Inès has found an old family letter. She reads it with her grandfather.
+
+- *Papi, j'ai trouvé une vieille lettre de ta grand-mère dans une boîte.* (Grandpa, I found an old letter from your grandmother in a box.)
+- *Ah ! Elle l'a écrite en 1920, à sa sœur. Lis-moi le début.* (Ah! She wrote it in 1920, to her sister. Read me the beginning.)
+- *« Notre père voulait que Jean vînt avec nous. » Vînt ? C'est le passé simple ?* ("Notre père voulait que Jean vînt avec nous." Vînt? Is that the passé simple?)
+- *Non, regarde l'accent circonflexe et le « que » : c'est l'imparfait du subjonctif.* (No, look at the circumflex and the "que": it's the imperfect subjunctive.)
+- *Et aujourd'hui, on dirait quoi ?* (And what would we say today?)
+- *« Notre père voulait que Jean vienne avec nous. » Le sens ne change pas.* ("Notre père voulait que Jean vienne avec nous." The meaning doesn't change.)
+- *D'accord. Plus loin : « Bien qu'il fût malade, il partit le lendemain. »* (OK. Further on: "Bien qu'il fût malade, il partit le lendemain.")
+- *Là, tu as les deux temps : fût est un subjonctif, et partit, un passé simple.* (There you have both tenses: fût is a subjunctive, and partit a passé simple.)
+- *Et cette phrase : « Il eût préféré rester. »* (And this sentence: "Il eût préféré rester.")
+- *C'est un conditionnel passé littéraire. Aujourd'hui, on dit « il aurait préféré rester ».* (It's a literary conditionnel passé. Today, we say "il aurait préféré rester".)
+- *Ta grand-mère écrivait comme dans un roman !* (Your grandmother wrote like someone in a novel!)
+- *En 1920, beaucoup de gens écrivaient encore comme ça.* (In 1920, a lot of people still wrote like that.)
+- *Et toi, tu l'écris, l'imparfait du subjonctif ?* (And you, do you write the imperfect subjunctive? (spoken))
+- *Jamais ! Mais je sais encore le lire.* (Never! But I can still read it.)
+
+<Callout type="warning" title="Il fut malade, not il fût malade">
+  Learners who have just met the subjunctive often put a circumflex on the passé simple. In a story, with no *que* and no trigger, the verb is the passé simple and has no circumflex: **ce soir-là, il fut très heureux**. Keep *fût* for the subjunctive: **bien qu'il fût malade**.
+</Callout>
+
+<Callout type="tip" title="Read it twice">
+  When a classic text slows you down, read each hard sentence twice: once as it's written, and once in your head with the modern form (*fût* becomes *soit*, *eût fini* becomes *ait fini*). The second reading gives you the meaning, and the first trains your eye for the next text.
+</Callout>
+
+## En résumé
+
+L'imparfait du subjonctif et le plus-que-parfait du subjonctif sont deux temps du registre littéraire. On les trouve dans les vieux romans et dans l'écrit très soutenu, surtout après un verbe principal au passé ou au conditionnel. Pour trouver l'imparfait du subjonctif, on part du passé simple : il parla donne qu'il parlât, il fut donne qu'il fût, il vint donne qu'il vînt. Avec il ou elle, l'accent circonflexe et le que montrent que c'est un subjonctif, et pas un passé simple. Le plus-que-parfait du subjonctif se forme avec eût ou fût et le participe passé : qu'il eût fini, qu'il fût parti. Aujourd'hui, on dit qu'il parle, qu'il vienne, qu'il ait fini ou qu'il soit parti. Il eût préféré a le sens de il aurait préféré, et fût-il malade veut dire même s'il était malade. Il faut savoir lire ces formes, mais on n'a pas besoin de les écrire.
+
+## What's next
+
+Next, <LessonLink id="c1-reading-literary-narrative" text="the lesson on reading literary narrative" /> puts the passé simple, the passé antérieur and these subjunctive forms together in a longer story.
+
+===== content/lessons/c1/reading-literary-narrative.mdx =====
+---
+id: "c1-reading-literary-narrative"
+title: "Reading literary narrative"
+description: "Read a story told in the passé simple: what each tense does, who is telling the story and through whose eyes, how to spot free indirect speech, and how a short story is built, with an original pastiche of a 19th-century short story."
+level: "C1"
+unit: "Literary French"
+order: 5
+type: "communication"
+tags: ["communication", "literature", "reading", "narrative"]
+prerequisites: ["c1-passe-anterieur", "c1-imperfect-subjunctive", "b2-arts-and-literature", "b2-reported-speech-past"]
+related: ["c1-passe-simple", "c1-culture-literary-canon", "b2-describing-a-work-of-art"]
+vocab:
+  - { id: "c1-reading-literary-narrative-v001", group: "voice", fr: "un narrateur omniscient", pron: "uhn nah-rah-tuhr omm-nee-SYAHN", en: "an all-knowing narrator" }
+  - { id: "c1-reading-literary-narrative-v002", group: "voice", fr: "le point de vue interne", pron: "luh pwan duh vew an-TEHRN", en: "the internal point of view (the story seen through one character's eyes)" }
+  - { id: "c1-reading-literary-narrative-v003", group: "voice", fr: "le point de vue externe", pron: "luh pwan duh vew ek-STEHRN", en: "the external point of view (only what an observer could see)" }
+  - { id: "c1-reading-literary-narrative-v004", group: "voice", fr: "le discours indirect libre", pron: "luh dees-koor an-dee-rekt LEE-bruh", en: "free indirect speech" }
+  - { id: "c1-reading-literary-narrative-v005", group: "shape", fr: "la situation initiale", pron: "lah see-tew-ah-syohn ee-nee-SYAL", en: "the opening situation" }
+  - { id: "c1-reading-literary-narrative-v006", group: "shape", fr: "l'élément déclencheur (m.)", pron: "lay-lay-mahn day-klahn-SHUHR", en: "the triggering event" }
+  - { id: "c1-reading-literary-narrative-v007", group: "shape", fr: "le dénouement", pron: "luh day-noo-MAHN", en: "the ending, the resolution" }
+  - { id: "c1-reading-literary-narrative-v008", group: "shape", fr: "la chute", pron: "lah SHEWT", en: "the twist at the end (of a short story)" }
+  - { id: "c1-reading-literary-narrative-v009", group: "shape", fr: "un retour en arrière", pron: "uhn ruh-toor ahn-nah-RYEHR", en: "a flashback" }
+  - { id: "c1-reading-literary-narrative-v010", group: "story", fr: "le notaire", pron: "luh noh-TEHR", en: "the notary (the lawyer who handles wills and property)" }
+  - { id: "c1-reading-literary-narrative-v011", group: "story", fr: "le testament", pron: "luh tes-tah-MAHN", en: "the will" }
+  - { id: "c1-reading-literary-narrative-v012", group: "story", fr: "la diligence", pron: "lah dee-lee-ZHAHNSS", en: "the stagecoach" }
+  - { id: "c1-reading-literary-narrative-v013", group: "story", fr: "la servante", pron: "lah sehr-VAHNT", en: "the maid, the servant (old-fashioned)" }
+  - { id: "c1-reading-literary-narrative-v014", group: "story", fr: "les volets (m.)", pron: "lay voh-LEH", en: "the shutters" }
+  - { id: "c1-reading-literary-narrative-v015", group: "story", fr: "revenir à quelqu'un", pron: "ruh-vuh-neer ah kel-KUHN", en: "to go to someone (in a will), to be someone's by right" }
+  - { id: "c1-reading-literary-narrative-v016", group: "story", fr: "immobile", pron: "ee-moh-BEEL", en: "motionless, still" }
+  - { id: "c1-reading-literary-narrative-v017", group: "glossary", fr: "une enveloppe", pron: "ewn ahn-VLOP", en: "an envelope" }
+exercises:
+  - id: "c1-reading-literary-narrative-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le rôle du temps : Adèle partit à l'aube. La diligence était pleine."
+    options: ["partit : un événement du récit ; était : l'arrière-plan", "partit : l'arrière-plan ; était : un événement du récit", "les deux verbes : des événements du récit"]
+    answers: ["partit : un événement du récit ; était : l'arrière-plan"]
+    explanation: "The passé simple moves the story on; the imparfait describes the background."
+  - id: "c1-reading-literary-narrative-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase au discours indirect libre."
+    options: ["La maison à Marthe ! À une servante ! Comment avait-on pu lui faire cela ?", "Elle se demanda comment on avait pu lui faire cela.", "« Comment a-t-on pu me faire cela ? » dit-elle."]
+    answers: ["La maison à Marthe ! À une servante ! Comment avait-on pu lui faire cela ?"]
+    explanation: "No verb of saying, no que, no quotation marks, but the character's own exclamations, in the narrator's tenses and persons. The second sentence is indirect speech; the third is direct speech."
+  - id: "c1-reading-literary-narrative-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez le point de vue : Le narrateur nous montre ce qu'Adèle voit, sent et pense, mais pas ce que pense Marthe."
+    options: ["le point de vue interne", "le point de vue externe", "un narrateur omniscient"]
+    answers: ["le point de vue interne"]
+    explanation: "Internal point of view: we see the story through one character's eyes."
+  - id: "c1-reading-literary-narrative-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : La dernière phrase d'une nouvelle change le sens de toute l'histoire. C'est ___."
+    options: ["la chute", "la situation initiale", "l'élément déclencheur"]
+    answers: ["la chute"]
+    explanation: "La chute: the twist at the end of a short story."
+  - id: "c1-reading-literary-narrative-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le temps (la nuit commençait à tomber) : Quand elle arriva, la nuit ___."
+    options: ["tombait", "tomba", "était tombée"]
+    answers: ["tombait"]
+    explanation: "Night beginning to fall is the background to her arrival: imparfait. Tomba would make nightfall a separate event; était tombée would mean it was already dark."
+  - id: "c1-reading-literary-narrative-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps de « eut fermé » dans : Dès qu'il eut fermé la porte, il ouvrit l'enveloppe."
+    options: ["le passé antérieur", "le plus-que-parfait", "le passé composé"]
+    answers: ["le passé antérieur"]
+    explanation: "Eut fermé: passé antérieur, an action just before another in the passé simple, after dès que."
+  - id: "c1-reading-literary-narrative-ex007"
+    type: "fill-in"
+    prompt: "Complétez : La partie du récit où tout se termine s'appelle le ___."
+    answers: ["dénouement"]
+    explanation: "Le dénouement: the ending, where the story is resolved."
+  - id: "c1-reading-literary-narrative-ex008"
+    type: "fill-in"
+    prompt: "Complétez : Avant le train, on voyageait souvent en ___."
+    answers: ["diligence"]
+    explanation: "La diligence: the stagecoach."
+  - id: "c1-reading-literary-narrative-ex009"
+    type: "reformulation"
+    prompt: "Reformulez au discours indirect, avec « elle se demanda » : Comment avait-on pu lui faire cela ?"
+    answers: ["Elle se demanda comment on avait pu lui faire cela"]
+    explanation: "Free indirect speech becomes indirect speech with a verb of saying and comment, no inversion."
+  - id: "c1-reading-literary-narrative-ex010"
+    type: "reformulation"
+    prompt: "Reformulez au discours indirect, avec « elle pensa que » : Sa tante l'avait toujours préférée aux autres."
+    answers: ["Elle pensa que sa tante l'avait toujours préférée aux autres"]
+    explanation: "The thought is now reported, with a verb of thinking and que; the tenses don't change."
+  - id: "c1-reading-literary-narrative-ex011"
+    type: "reformulation"
+    prompt: "Reformulez au passé composé, comme à l'oral : Le lendemain, elle reprit la diligence."
+    answers: ["Le lendemain, elle a repris la diligence", "Elle a repris la diligence le lendemain"]
+    strictAccents: true
+    explanation: "In speech and everyday writing, the passé composé replaces the passé simple."
+  - id: "c1-reading-literary-narrative-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de temps : Quand elle arriva, le notaire l'attendit déjà dans le salon."
+    answers: ["Quand elle arriva, le notaire l'attendait déjà dans le salon"]
+    explanation: "Déjà shows a situation in progress at that moment: imparfait, not passé simple."
+  - id: "c1-reading-literary-narrative-ex013"
+    type: "translate"
+    prompt: "Traduisez (le testament, revenir à) : The house went to the old maid."
+    answers: ["La maison revint à la vieille servante", "La maison est revenue à la vieille servante", "La maison revenait à la vieille servante"]
+    strictAccents: true
+    explanation: "Revenir à quelqu'un: to go to someone in a will. In a written story, the passé simple; in speech, the passé composé; the story's own sentence uses the imparfait, because it reports what the will said."
+  - id: "c1-reading-literary-narrative-ex014"
+    type: "translate"
+    prompt: "Traduisez (le notaire) : The notary was waiting for her in the drawing room."
+    answers: ["Le notaire l'attendait dans le salon", "Le notaire l'attendait au salon"]
+    explanation: "Was waiting: imparfait, the background."
+  - id: "c1-reading-literary-narrative-ex015"
+    type: "translate"
+    prompt: "Traduisez au passé simple (immobile) : She stayed motionless for a long time."
+    answers: ["Elle resta longtemps immobile", "Elle resta immobile longtemps", "Elle resta immobile pendant longtemps"]
+    explanation: "Resta: a completed event, even a long one, so passé simple."
+  - id: "c1-reading-literary-narrative-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : She took nothing but the box."
+    words: ["Elle", "ne", "prit", "que", "la", "boîte"]
+    answers: ["Elle ne prit que la boîte"]
+    explanation: "Ne… que: only, around the verb."
+---
+
+By the end of this lesson you'll be able to read a story told in the passé simple and see how it works: what each tense does, through whose eyes you see, and where a character's thoughts slip into the narration.
+
+## What you already know
+
+You know the forms and the role of the passé simple from <LessonLink id="c1-passe-simple" text="the lesson on the passé simple" />, the passé antérieur after *dès que* from <LessonLink id="c1-passe-anterieur" text="the lesson on the passé antérieur" />, and recognized forms such as *qu'il vînt* and *il eût préféré* from <LessonLink id="c1-imperfect-subjunctive" text="the lesson on the imperfect subjunctive" />. You know *le narrateur* and *une nouvelle* (a short story) from <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />. This lesson puts these pieces together to read a whole story.
+
+## Who is telling the story?
+
+<VocabTable group="voice" />
+
+Every story has a narrator, but narrators don't all know the same things. French school readers ask about *le point de vue*: whose eyes we see through. You know *un point de vue* as an opinion from <LessonLink id="b1-expressing-opinions" text="the lesson on expressing opinions" />; in a story, it means the position from which events are seen.
+
+- **An all-knowing narrator**: *un narrateur omniscient* knows every character's thoughts, the past and sometimes the future.
+- **One character's eyes**: with *le point de vue interne*, you see, feel and think with one character, and you know only what that character knows.
+- **An observer**: with *le point de vue externe*, you see only what a camera would see: gestures, words, places, but no thoughts.
+
+<Example fr="Le narrateur omniscient sait ce que pense chaque personnage." en="The all-knowing narrator knows what each character is thinking." />
+<Example fr="Avec le point de vue externe, on ne connaît pas les pensées des personnages." en="With the external point of view, you don't know the characters' thoughts." />
+
+Many stories move between points of view, so ask the question paragraph by paragraph. The point of view decides what you can trust: a character who sees only part of the truth may lead you to a wrong conclusion, and that can be the whole point of the story.
+
+## What each tense does
+
+In a literary story, each tense has a job. As in a painting, where you know *au premier plan* and *à l'arrière-plan* from <LessonLink id="b2-describing-a-work-of-art" text="the lesson on describing a work of art" />, a story has a foreground and a background.
+
+| Tense | Job in the story | Example |
+|---|---|---|
+| passé simple | the events, one after another | *Adèle partit à l'aube.* |
+| imparfait | the background: places, states, actions in progress | *La diligence était pleine.* |
+| plus-que-parfait | an earlier past, before the story's events | *Le notaire avait écrit une lettre.* |
+| passé antérieur | an event just before another, after *dès que*, *quand*, *à peine… que* | *Dès qu'il eut fermé la porte, il ouvrit l'enveloppe.* |
+
+When you read, mark the verbs in the passé simple: together, they tell you the plot in a few lines. The imparfait tells you what the world looked like while it happened.
+
+<Example fr="Quand elle arriva, la nuit tombait." en="When she arrived, night was falling." />
+
+## Free indirect speech
+
+*Le discours indirect libre* gives a character's thoughts or words without announcing them. There's no *dit-elle*, no *que*, no quotation marks. The narrator keeps the third person and the past tenses, but the character's own voice comes through: exclamations, questions, short sentences, their words and feelings.
+
+Compare three ways of giving the same thought:
+
+- **Direct speech**: *« Comment a-t-on pu me faire cela ? » se demanda-t-elle.* ("How could they do this to me?" she wondered.)
+- **Indirect speech**: *Elle se demanda comment on avait pu lui faire cela.* (She wondered how they could have done this to her.)
+- **Free indirect speech**: *Comment avait-on pu lui faire cela ?* (How could they have done this to her?)
+
+The third version is shorter and closer to the character: you're inside her head, but the narrator hasn't disappeared. As a rule of thumb, suspect free indirect speech when a sentence in the narration sounds like someone's thought: an exclamation, a question with no one to answer it, a judgment the narrator wouldn't make.
+
+<Example fr="Elle relut la lettre. Dix ans de visites, et pour rien !" en="She read the letter again. Ten years of visits, and for nothing!" />
+
+## How a short story is built
+
+<VocabTable group="shape" />
+
+A traditional short story follows a simple shape. It starts with *la situation initiale*: who, where, when. Then comes *l'élément déclencheur*, the event that sets the story moving. The story builds to *le dénouement*, where it's resolved. Many 19th-century *nouvelles* end with *une chute*, a last line that changes the meaning of what came before. A story can also include *un retour en arrière*, a jump into the past, usually in the plus-que-parfait.
+
+<Example fr="La chute de cette nouvelle change le sens de toute l'histoire." en="The twist at the end of this short story changes the meaning of the whole story." />
+<Example fr="Le récit commence par un retour en arrière." en="The narrative opens with a flashback." />
+<Example fr="Dans cette nouvelle, la situation initiale est très courte, et la lettre du notaire est l'élément déclencheur." en="In this short story, the opening situation is very short, and the notary's letter is the triggering event." />
+
+## Reading strategy
+
+Read a literary story twice. The first time, read for the story: don't stop at every unknown word, and keep going to the end. The second time, read for the method: underline the passé simple verbs, circle the imparfait, mark any sentence that might be free indirect speech, and note where the point of view changes. Then check the shape: where is the triggering event, and where does the story turn?
+
+## A short story
+
+<VocabTable group="story" />
+
+The story below is an original pastiche of a 19th-century short story, written for this lesson. The places and characters are invented.
+
+*Le Testament*
+
+*Le notaire avait écrit une lettre courte : Mademoiselle Adèle Morin était priée de venir à Saint-Rémy le jeudi suivant, pour la lecture du testament de sa tante.*
+
+*Adèle partit à l'aube. La diligence était pleine, et il faisait froid. Pendant tout le voyage, elle ne pensa qu'à la vieille maison aux volets verts, au jardin, au piano du salon. Sa tante l'avait toujours préférée aux autres. Ne lui avait-elle pas promis, dix ans plus tôt, que tout serait un jour à elle ?*
+
+*Quand elle arriva, la nuit tombait. Le notaire l'attendait dans le salon, avec Marthe, la vieille servante, qui ne leva pas les yeux. Dès qu'il eut fermé la porte, il ouvrit l'enveloppe et lut d'une voix lente. La maison, le jardin, le piano, tout revenait à Marthe. À Adèle, la tante laissait une boîte de lettres.*
+
+*Adèle ne dit rien. La maison à Marthe ! À une servante ! Après tant de visites, tant de petits cadeaux, tant de dimanches perdus dans cette maison triste ! Comment avait-on pu lui faire cela ?*
+
+*Le soir, seule dans sa chambre d'auberge, elle ouvrit la boîte. Les lettres étaient les siennes : toutes celles qu'elle avait écrites à sa tante depuis l'enfance. Sur chacune, la vieille femme avait noté le jour et une seule phrase. Sur la dernière, Adèle lut : « Elle demande encore de l'argent. »*
+
+*Elle resta longtemps immobile. Puis elle comprit que sa tante avait tout vu, et qu'il eût mieux valu qu'elle vînt la voir sans rien demander. Le lendemain, elle reprit la diligence. Elle ne prit que la boîte.*
+
+<VocabTable group="glossary" />
+
+(The Will. The notary had written a short letter: Mademoiselle Adèle Morin was requested to come to Saint-Rémy the following Thursday, for the reading of her aunt's will. Adèle left at dawn. The stagecoach was full, and it was cold. During the whole journey, she thought only of the old house with the green shutters, the garden, the piano in the drawing room. Her aunt had always preferred her to the others. Hadn't she promised her, ten years earlier, that everything would one day be hers? When she arrived, night was falling. The notary was waiting for her in the drawing room, with Marthe, the old maid, who didn't look up. As soon as he had closed the door, he opened the envelope and read in a slow voice. The house, the garden, the piano: everything went to Marthe. To Adèle, the aunt left a box of letters. Adèle said nothing. The house to Marthe! To a servant! After so many visits, so many little presents, so many Sundays wasted in that gloomy house! How could they have done this to her? In the evening, alone in her room at the inn, she opened the box. The letters were her own: all the ones she had written to her aunt since childhood. On each one, the old woman had noted the day and a single sentence. On the last, Adèle read: "She is asking for money again." She stayed motionless for a long time. Then she understood that her aunt had seen everything, and that it would have been better if she had come to see her without asking for anything. The next day, she took the stagecoach back. She took nothing but the box.)
+
+## How the story works
+
+- **Shape**: the letter is the triggering event; the reading of the will is the turning point; the last note in the box is *la chute*, which explains the will.
+- **Point of view**: internal, through Adèle's eyes. We never learn what Marthe thinks, and we learn the aunt's view only at the end, through her notes.
+- **Tenses**: the passé simple carries the events (*partit*, *arriva*, *ouvrit*, *comprit*, *reprit*); the imparfait sets the scene (*était pleine*, *tombait*, *attendait*); the plus-que-parfait looks further back (*avait écrit*, *avait promis*); one passé antérieur (*dès qu'il eut fermé*).
+- **Free indirect speech**: *Ne lui avait-elle pas promis… ?* and *La maison à Marthe ! À une servante !… Comment avait-on pu lui faire cela ?* are Adèle's thoughts, in the narrator's third person.
+- **Literary forms to recognize**: *il eût mieux valu* (it would have been better) and *qu'elle vînt* (that she came), the pluperfect and imperfect subjunctive.
+
+## En français
+
+Two members of a reading group discuss the story.
+
+- *Tu as aimé la nouvelle ?* (Did you like the short story?)
+- *Beaucoup. Au début, j'étais du côté d'Adèle.* (A lot. At first, I was on Adèle's side.)
+- *Normal : on voit tout avec ses yeux. C'est le point de vue interne.* (Of course: we see everything through her eyes. It's the internal point of view.)
+- *Oui, et quand elle pense « La maison à Marthe ! À une servante ! », on est avec elle.* (Yes, and when she thinks "The house to Marthe! To a servant!", we're with her.)
+- *C'est du discours indirect libre : pas de « dit-elle », mais on entend sa voix.* (That's free indirect speech: no "she said", but you hear her voice.)
+- *Et puis il y a la boîte de lettres.* (And then there's the box of letters.)
+- *Avec la dernière note : « Elle demande encore de l'argent. »* (With the last note: "She is asking for money again.")
+- *C'est la chute. Tout à coup, on comprend le testament.* (That's the twist. Suddenly, you understand the will.)
+- *Et on comprend aussi qu'Adèle n'était pas si gentille.* (And you also understand that Adèle wasn't so kind.)
+- *Ce qui me plaît, c'est qu'elle ne dit rien devant le notaire.* (What I like is that she says nothing in front of the notary.)
+- *Oui, elle ne prend que la boîte. C'est une fin très sobre.* (Yes, she takes only the box. It's a very restrained ending.)
+- *On la lit une deuxième fois la semaine prochaine, pour les temps ?* (Shall we read it a second time next week, for the tenses?)
+
+<Callout type="warning" title="Elle resta longtemps, not elle restait longtemps">
+  Learners often put a long action in the imparfait because it lasted. In a story, a completed event takes the passé simple, however long it was: **elle resta longtemps immobile**, not *elle restait longtemps immobile*, unless you're describing the background to another event.
+</Callout>
+
+<Callout type="tip" title="Read the passé simple verbs alone">
+  After a first reading, copy only the verbs in the passé simple, in order, onto one line: *partit, pensa, arriva, leva, ouvrit, lut…*. If you can retell the story from that line, you've understood the plot, and you can then spend your second reading on the style.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-culture-literary-canon" text="the lesson on the French literary canon" /> introduces the authors and periods that these stories come from.
+
+===== content/lessons/c1/culture-literary-canon.mdx =====
+---
+id: "c1-culture-literary-canon"
+title: "The French literary canon"
+description: "A short, neutral overview of the French classics: the classical seventeenth century, the Enlightenment, the nineteenth-century novel and the twentieth century, with the words to talk about periods and genres and an original article on how French schools read these works."
+level: "C1"
+unit: "Literary French"
+order: 6
+type: "culture"
+tags: ["culture", "literature", "history", "school"]
+prerequisites: ["c1-passe-simple", "b2-arts-and-literature", "a2-culture-french-school-system"]
+related: ["c1-reading-literary-narrative", "c1-culture-french-poetry", "b2-culture-french-history"]
+vocab:
+  - { id: "c1-culture-literary-canon-v001", group: "canon", fr: "un classique", pron: "uhn klah-SEEK", en: "a classic (a work still read long after it was written)" }
+  - { id: "c1-culture-literary-canon-v002", group: "canon", fr: "une œuvre majeure", pron: "ew-nuh-vruh mah-ZHUHR", en: "a major work" }
+  - { id: "c1-culture-literary-canon-v003", group: "canon", fr: "un courant littéraire", pron: "uhn koo-rahn lee-tay-REHR", en: "a literary movement" }
+  - { id: "c1-culture-literary-canon-v004", group: "classical", fr: "le dix-septième / le dix-huitième siècle", pron: "luh dee-seh-TYEM / luh dee-zwee-TYEM SYEH-kluh", en: "the seventeenth / the eighteenth century" }
+  - { id: "c1-culture-literary-canon-v005", group: "classical", fr: "le classicisme", pron: "luh klah-see-SEESS-muh", en: "classicism (17th-century French literature and its rules)" }
+  - { id: "c1-culture-literary-canon-v006", group: "classical", fr: "une tragédie", pron: "ewn trah-zhay-DEE", en: "a tragedy" }
+  - { id: "c1-culture-literary-canon-v007", group: "classical", fr: "la règle des trois unités", pron: "lah reh-gluh day trwah-zew-nee-TAY", en: "the rule of the three unities (one action, one place, one day)" }
+  - { id: "c1-culture-literary-canon-v008", group: "classical", fr: "concevoir", pron: "kohn-suh-VWAHR", en: "to conceive, to understand (an idea)", note: "Ce que l'on conçoit…" }
+  - { id: "c1-culture-literary-canon-v009", group: "classical", fr: "s'énoncer", pron: "say-nohn-SAY", en: "to be expressed, to be put into words (formal)" }
+  - { id: "c1-culture-literary-canon-v010", group: "classical", fr: "clairement", pron: "klehr-MAHN", en: "clearly" }
+  - { id: "c1-culture-literary-canon-v011", group: "classical", fr: "cornélien / cornélienne", pron: "kor-nay-LYAN / kor-nay-LYEN", en: "Cornelian (torn between duty and passion, as in Corneille)" }
+  - { id: "c1-culture-literary-canon-v012", group: "novel", fr: "le roman réaliste", pron: "luh roh-mahn ray-ah-LEEST", en: "the realist novel" }
+  - { id: "c1-culture-literary-canon-v013", group: "novel", fr: "le naturalisme", pron: "luh nah-tew-rah-LEESS-muh", en: "naturalism" }
+  - { id: "c1-culture-literary-canon-v014", group: "novel", fr: "l'existentialisme (m.)", pron: "leg-zees-tahn-syah-LEESS-muh", en: "existentialism" }
+  - { id: "c1-culture-literary-canon-v015", group: "school", fr: "le commentaire de texte", pron: "luh koh-mahn-tehr duh TEKST", en: "the close commentary of a passage (a French school exercise)" }
+  - { id: "c1-culture-literary-canon-v016", group: "school", fr: "être au programme", pron: "eh-troh proh-GRAHM", en: "to be on the syllabus" }
+  - { id: "c1-culture-literary-canon-v017", group: "school", fr: "une épreuve", pron: "ew-nay-PRUHV", en: "a test, a paper (in an exam)" }
+  - { id: "c1-culture-literary-canon-v018", group: "school", fr: "une culture commune", pron: "ewn kewl-tewr koh-MEWN", en: "a shared culture" }
+exercises:
+  - id: "c1-culture-literary-canon-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le siècle de Molière, de Racine et de La Fontaine."
+    options: ["le dix-septième siècle", "le dix-huitième siècle", "le dix-neuvième siècle"]
+    answers: ["le dix-septième siècle"]
+    explanation: "Corneille, Racine, Molière and La Fontaine are the great classical writers of the seventeenth century."
+  - id: "c1-culture-literary-canon-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez le courant : Zola décrit la vie des ouvriers comme un scientifique."
+    options: ["le naturalisme", "le classicisme", "l'existentialisme"]
+    answers: ["le naturalisme"]
+    explanation: "Naturalism, with Zola, studies society almost like a scientist."
+  - id: "c1-culture-literary-canon-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : Phèdre, de Racine, est ___."
+    options: ["une tragédie", "un roman", "un recueil de poèmes"]
+    answers: ["une tragédie"]
+    explanation: "Racine wrote tragedies in verse; Phèdre is one of the best known."
+  - id: "c1-culture-literary-canon-ex004"
+    type: "fill-in"
+    prompt: "Complétez : Selon la règle des trois ___, la pièce a une seule action, en un seul lieu et en un seul jour."
+    answers: ["unités"]
+    explanation: "La règle des trois unités: one action, one place, one day."
+  - id: "c1-culture-literary-canon-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Au lycée, on explique comment un extrait produit son effet dans un commentaire de ___."
+    answers: ["texte"]
+    explanation: "Le commentaire de texte: a close commentary of a passage, not a summary."
+  - id: "c1-culture-literary-canon-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez l'écrivain : L'Étranger (1942)."
+    options: ["Albert Camus", "Molière", "Gustave Flaubert"]
+    answers: ["Albert Camus"]
+    explanation: "Camus published L'Étranger in 1942."
+  - id: "c1-culture-literary-canon-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Un roman qu'on lit encore deux siècles plus tard est ___."
+    options: ["un classique", "un extrait", "une épreuve"]
+    answers: ["un classique"]
+    explanation: "Un classique: a work that is still read long after it was written."
+  - id: "c1-culture-literary-canon-ex008"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « un choix cornélien »."
+    options: ["un choix entre le devoir et l'amour", "un choix très drôle", "un choix facile"]
+    answers: ["un choix entre le devoir et l'amour"]
+    explanation: "Cornélien: torn between duty and passion, like the heroes of Corneille."
+  - id: "c1-culture-literary-canon-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « une œuvre majeure » : Madame Bovary est l'un des romans les plus importants du dix-neuvième siècle."
+    answers: ["Madame Bovary est une œuvre majeure du dix-neuvième siècle"]
+    explanation: "Une œuvre majeure: a major work."
+  - id: "c1-culture-literary-canon-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « être au programme » : Cette année, les élèves doivent étudier cette pièce."
+    answers: ["Cette année, cette pièce est au programme", "Cette pièce est au programme cette année"]
+    explanation: "Être au programme: to be on the syllabus."
+  - id: "c1-culture-literary-canon-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Tartuffe est un roman de Molière."
+    answers: ["Tartuffe est une pièce de Molière", "Tartuffe est une pièce de théâtre de Molière", "Tartuffe est une comédie de Molière"]
+    explanation: "Molière wrote plays, not novels: Tartuffe is a comedy."
+  - id: "c1-culture-literary-canon-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de siècle : Voltaire a écrit Candide au dix-septième siècle."
+    answers: ["Voltaire a écrit Candide au dix-huitième siècle"]
+    strictAccents: true
+    explanation: "Candide was published in 1759, in the eighteenth century."
+  - id: "c1-culture-literary-canon-ex013"
+    type: "translate"
+    prompt: "Traduisez (le roman réaliste) : Balzac and Flaubert wrote realist novels."
+    answers: ["Balzac et Flaubert ont écrit des romans réalistes"]
+    explanation: "Le roman réaliste: the realist novel of the nineteenth century."
+  - id: "c1-culture-literary-canon-ex014"
+    type: "translate"
+    prompt: "Traduisez (un classique) : This novel has become a classic."
+    answers: ["Ce roman est devenu un classique"]
+    explanation: "Devenir un classique: to become a classic."
+  - id: "c1-culture-literary-canon-ex015"
+    type: "translate"
+    prompt: "Traduisez la phrase de Boileau (concevoir, s'énoncer) : What is well understood is clearly expressed."
+    answers: ["Ce que l'on conçoit bien s'énonce clairement", "Ce qu'on conçoit bien s'énonce clairement"]
+    explanation: "Boileau, L'Art poétique (1674): clear thought makes clear writing."
+  - id: "c1-culture-literary-canon-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : One must eat to live, and not live to eat."
+    words: ["Il", "faut", "manger", "pour", "vivre", "et", "non", "pas", "vivre", "pour", "manger"]
+    answers: ["Il faut manger pour vivre, et non pas vivre pour manger"]
+    explanation: "Molière, L'Avare (1668)."
+---
+
+By the end of this lesson you'll be able to place the major French writers in their periods, name their genres and movements, and understand why French readers keep quoting them.
+
+## What you already know
+
+You know *un roman* and *un personnage* from <LessonLink id="b1-cinema-and-books" text="the lesson on cinema and books" />, and *une pièce de théâtre*, *un recueil*, *un chef-d'œuvre* and *le romantisme* from <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />. You know *le lycée* and *le bac* from <LessonLink id="a2-culture-french-school-system" text="the lesson on the French school system" />. This lesson gives you a short map of the classics, period by period.
+
+## What makes a classic
+
+<VocabTable group="canon" />
+
+*Un classique* is a work that people still read long after it was written: at school, in new editions, on stage, in films. France gives its classics a large place in school and in public life. Streets and schools carry writers' names, and journalists quote them. Knowing the main names helps you understand references that French speakers take for granted.
+
+Literary history groups writers into *courants littéraires* (movements). As a rule of thumb, a movement shares ideas about what literature should do, not only a period. The labels are useful, but many writers don't fit one box, so treat them as a first map, not a verdict.
+
+<Example fr="Madame Bovary est une œuvre majeure du dix-neuvième siècle." en="Madame Bovary is a major work of the nineteenth century." />
+<Example fr="Le romantisme est un courant littéraire du début du dix-neuvième siècle." en="Romanticism is a literary movement of the early nineteenth century." />
+
+## The seventeenth century: classicism
+
+<VocabTable group="classical" />
+
+In the seventeenth century, especially under Louis XIV, French literature looked for order, clarity and balance. This is *le classicisme*.
+
+<Example fr="Le classicisme aime l'ordre et les règles." en="Classicism loves order and rules." />
+
+In the theatre, Corneille and Racine wrote *tragédies* in verse, and Molière wrote comedies. Many plays of the time follow *la règle des trois unités*: one main action, in one place, within one day.
+
+Corneille's heroes are often torn between duty and passion, and French still calls such a dilemma *cornélien*. Racine's tragedies, such as *Phèdre*, show passions that destroy the characters. Molière laughed at hypocrites and misers. In *L'Avare* (1668), the miser Harpagon is delighted by this maxim, spoken by his steward, because it saves money.
+
+<Example fr="« Il faut manger pour vivre, et non pas vivre pour manger. » (Molière, L'Avare)" en="&quot;One must eat to live, and not live to eat.&quot; (our translation)" />
+
+The poet and critic Boileau summed up the classical ideal of clear writing in *L'Art poétique* (1674):
+
+<Example fr="« Ce que l'on conçoit bien s'énonce clairement. » (Boileau)" en="&quot;What is well understood is clearly expressed.&quot; (our translation)" />
+<Example fr="Le héros doit choisir entre son amour et son devoir : c'est un choix cornélien." en="The hero has to choose between his love and his duty: it's a Cornelian choice." />
+
+La Fontaine's *Fables* also belong to this century; you'll meet them again in <LessonLink id="c1-culture-satire-and-humour" text="the lesson on satire and humour" />.
+
+## The eighteenth century: the Enlightenment
+
+The eighteenth century is the century of *les Lumières* (the Enlightenment). Writers such as Voltaire, Montesquieu, Rousseau and Diderot used essays, letters, tales and the great *Encyclopédie* to question authority and defend reason. Voltaire's *Candide* (1759) is still one of the most widely read books of the period. The ideas of the Enlightenment have a lesson of their own in the unit on ideas and society; here, remember the names and the century.
+
+## The nineteenth century: the novel
+
+<VocabTable group="novel" />
+
+The nineteenth century is the great age of the French novel. After the romantic generation, led by Victor Hugo, *le roman réaliste* set out to describe society as it is: Balzac in the many novels of *La Comédie humaine*, Stendhal in *Le Rouge et le Noir* (1830), and Flaubert in *Madame Bovary* (1857). Later, *le naturalisme* of Émile Zola went further, studying families and workers almost like a scientist, for example in *Germinal* (1885). Maupassant, a master of *la nouvelle*, wrote hundreds of short stories, many of them with a twist at the end, like the one you read in <LessonLink id="c1-reading-literary-narrative" text="the lesson on reading literary narrative" />.
+
+<Example fr="Zola est l'écrivain le plus connu du naturalisme." en="Zola is the best-known writer of naturalism." />
+
+## The twentieth century
+
+The twentieth century is harder to sum up, and the list grows every year. A few names come up constantly:
+
+- **Marcel Proust**, whose *À la recherche du temps perdu* follows memory across several volumes.
+- **Albert Camus**, author of *L'Étranger* (1942), and **Jean-Paul Sartre**, both linked with *l'existentialisme*, a philosophy of freedom and responsibility.
+- **Simone de Beauvoir**, whose essay *Le Deuxième Sexe* (1949) shaped debates about women's condition.
+- **Marguerite Duras** and, more recently, **Annie Ernaux**, who received the Nobel Prize in Literature in 2022 and writes about memory and social class.
+
+For these authors, this course paraphrases rather than quotes.
+
+<Example fr="Camus et Sartre ont tous les deux écrit des romans et des essais." en="Camus and Sartre both wrote novels and essays." />
+<Example fr="Le nom de Sartre reste lié à l'existentialisme." en="Sartre's name remains linked to existentialism." />
+
+## How schools read the classics
+
+<VocabTable group="school" />
+
+At the *lycée*, French students read whole works and many extracts. The best-known exercise is *le commentaire de texte*: not a summary, but a close reading that shows how a passage produces its effect. Some works *sont au programme*: they are on a national list for a given year. At the end of *la première*, students sit the French *épreuve* of the bac, written and oral. That's one reason why the classics remain *une culture commune*: adults who studied them at school recognize the same names and quotations.
+
+## A short article
+
+The article below is an original text written for this lesson.
+
+*Les classiques au lycée*
+
+*En France, la littérature tient une grande place au lycée. En seconde et en première, les élèves lisent des œuvres du début à la fin : une pièce de Molière ou de Racine, un roman du dix-neuvième siècle, un recueil de poèmes, parfois un essai. Certaines œuvres sont au programme pour toute la France ; les professeurs en choisissent d'autres et ajoutent des extraits.*
+
+*Le travail le plus connu est le commentaire de texte. On ne résume pas l'histoire : on explique comment un extrait produit son effet. Pourquoi l'auteur a-t-il choisi ce mot, ce temps, cette image ? Avec les yeux de quel personnage le lecteur voit-il la scène ?*
+
+*À la fin de la première, les élèves passent l'épreuve de français du bac. À l'écrit, on leur propose par exemple un commentaire ou une dissertation. À l'oral, ils expliquent un texte étudié en classe, puis ils parlent d'une œuvre qu'ils ont lue.*
+
+*Beaucoup d'adultes gardent de ces années des souvenirs très différents : des heures où ils s'ennuyaient, mais aussi la découverte d'un livre qui les a marqués pour toujours. Les classiques restent ainsi une culture commune. Quand un journaliste parle d'un choix cornélien, ou quand on dit de quelqu'un que c'est un vrai Tartuffe, chacun comprend la référence. On peut aimer ou détester ces livres, mais on les a souvent rencontrés au lycée.*
+
+*Ces lectures ne s'arrêtent pas à l'école. Chaque année, des pièces de Molière sont jouées dans toute la France, et des romans du dix-neuvième siècle deviennent des films ou des séries. Les classiques ne sont donc pas seulement des livres d'école : ils continuent à vivre sur scène et à l'écran.*
+
+(Classics at the lycée. In France, literature has a large place at the lycée. In seconde and première, students read works from beginning to end: a play by Molière or Racine, a nineteenth-century novel, a collection of poems, sometimes an essay. Some works are on the syllabus for the whole of France; teachers choose others and add extracts. The best-known exercise is the close commentary. You don't summarize the story: you explain how an extract produces its effect. Why did the author choose this word, this tense, this image? Through which character's eyes does the reader see the scene? At the end of première, students take the French paper of the bac. In the written exam, they are offered, for example, a commentary or an essay. In the oral, they explain a text studied in class, then they talk about a work they have read. Many adults keep very different memories of those years: hours when they were bored, but also the discovery of a book that marked them for ever. The classics thus remain a shared culture. When a journalist talks about a Cornelian choice, or when people say someone is a real Tartuffe, everyone understands the reference. You can love or hate these books, but people have often met them at the lycée. These readings don't stop at school. Every year, plays by Molière are performed all over France, and nineteenth-century novels become films or series. So the classics aren't only school books: they go on living on stage and on screen.)
+
+<Callout type="warning" title="Une pièce, not un roman">
+  Learners often call every book *un roman*. Molière and Racine wrote plays: **Tartuffe est une pièce de Molière**, not *un roman de Molière*. Use **un recueil** for poems or stories, and keep **un roman** for a long work of fiction in prose.
+</Callout>
+
+<Callout type="tip" title="See the play before you read it">
+  Plays were written to be seen. Before you read a play by Molière or Racine, watch a filmed performance or a recording of a production. Once you know the voices and the action, the verse on the page is much easier to follow.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-culture-french-poetry" text="the lesson on French poetry" /> looks at the alexandrine, the sonnet and a few poets on the classic list.
+
+===== content/lessons/c1/culture-french-poetry.mdx =====
+---
+id: "c1-culture-french-poetry"
+title: "French poetry"
+description: "How French verse works: counting syllables in the alexandrine, the caesura, the mute e, diaeresis, rhyme patterns and the sonnet, with lines from Racine, Hugo, Baudelaire and Verlaine and an original poem in classical form with its commentary."
+level: "C1"
+unit: "Literary French"
+order: 7
+type: "culture"
+tags: ["culture", "literature", "poetry", "pronunciation"]
+prerequisites: ["c1-culture-literary-canon", "b2-arts-and-literature", "b2-culture-verlan-and-slang"]
+related: ["c1-reading-literary-narrative", "c1-rhetorical-devices", "a1-alphabet-and-accents"]
+vocab:
+  - { id: "c1-culture-french-poetry-v001", group: "count", fr: "la poésie", pron: "lah poh-ay-ZEE", en: "poetry" }
+  - { id: "c1-culture-french-poetry-v002", group: "count", fr: "un poète / une poétesse", pron: "uhn poh-ET / ewn poh-ay-TESS", en: "a poet" }
+  - { id: "c1-culture-french-poetry-v003", group: "count", fr: "l'alexandrin (m.)", pron: "lah-lek-sahn-DRAN", en: "the alexandrine (a line of twelve syllables)" }
+  - { id: "c1-culture-french-poetry-v004", group: "count", fr: "la césure", pron: "lah say-ZEWR", en: "the caesura (the break inside a line)" }
+  - { id: "c1-culture-french-poetry-v005", group: "count", fr: "un hémistiche", pron: "uh-nay-mees-TEESH", en: "a half-line (each half of an alexandrine)" }
+  - { id: "c1-culture-french-poetry-v006", group: "count", fr: "une voyelle / une consonne", pron: "ewn vwah-YEL / ewn kohn-SONN", en: "a vowel / a consonant" }
+  - { id: "c1-culture-french-poetry-v007", group: "count", fr: "le e muet", pron: "luh uh mew-EH", en: "the mute e" }
+  - { id: "c1-culture-french-poetry-v008", group: "count", fr: "la diérèse", pron: "lah dee-ay-REHZ", en: "diaeresis (saying two vowels as two syllables)" }
+  - { id: "c1-culture-french-poetry-v009", group: "count", fr: "la synérèse", pron: "lah see-nay-REHZ", en: "synaeresis (saying two vowels as one syllable)" }
+  - { id: "c1-culture-french-poetry-v010", group: "count", fr: "pur / pure", pron: "PEWR", en: "pure" }
+  - { id: "c1-culture-french-poetry-v011", group: "count", fr: "un équipage", pron: "uh-nay-kee-PAHZH", en: "a crew (of a ship)" }
+  - { id: "c1-culture-french-poetry-v012", group: "rhyme", fr: "une rime masculine / féminine", pron: "ewn reem mahs-kew-LEEN / fay-mee-NEEN", en: "a masculine rhyme (no final mute e) / a feminine rhyme (with a final mute e)" }
+  - { id: "c1-culture-french-poetry-v013", group: "rhyme", fr: "des rimes plates / croisées / embrassées", pron: "day reem PLAT / krwah-ZAY / ahn-brah-SAY", en: "rhymes in pairs (AABB) / alternate rhymes (ABAB) / enclosed rhymes (ABBA)" }
+  - { id: "c1-culture-french-poetry-v014", group: "rhyme", fr: "le sonnet", pron: "luh soh-NEH", en: "the sonnet" }
+  - { id: "c1-culture-french-poetry-v015", group: "rhyme", fr: "un quatrain / un tercet", pron: "uhn kah-TRAN / uhn tehr-SEH", en: "a four-line stanza / a three-line stanza" }
+  - { id: "c1-culture-french-poetry-v016", group: "rhyme", fr: "le vers libre", pron: "luh vehr LEE-bruh", en: "free verse" }
+  - { id: "c1-culture-french-poetry-v017", group: "rhyme", fr: "lire à voix haute", pron: "leer ah vwah OHT", en: "to read aloud" }
+  - { id: "c1-culture-french-poetry-v018", group: "glossary", fr: "tranquille", pron: "trahn-KEEL", en: "quiet, calm" }
+  - { id: "c1-culture-french-poetry-v019", group: "glossary", fr: "autrefois", pron: "oh-truh-FWAH", en: "long ago, in the past" }
+  - { id: "c1-culture-french-poetry-v020", group: "glossary", fr: "le rivage", pron: "luh ree-VAHZH", en: "the shore" }
+  - { id: "c1-culture-french-poetry-v021", group: "glossary", fr: "s'endort (s'endormir)", pron: "sahn-DOR", en: "falls asleep (to fall asleep)" }
+  - { id: "c1-culture-french-poetry-v022", group: "glossary", fr: "traverse (traverser)", pron: "trah-VEHRS", en: "cross (to cross)" }
+  - { id: "c1-culture-french-poetry-v023", group: "glossary", fr: "un bateau", pron: "uhn bah-TOH", en: "a boat" }
+exercises:
+  - id: "c1-culture-french-poetry-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez combien de syllabes a un alexandrin."
+    options: ["douze", "dix", "huit"]
+    answers: ["douze"]
+    explanation: "The alexandrine has twelve syllables."
+  - id: "c1-culture-french-poetry-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : Un sonnet a ___."
+    options: ["deux quatrains et deux tercets", "trois quatrains", "quatorze strophes"]
+    answers: ["deux quatrains et deux tercets"]
+    explanation: "Fourteen lines: two four-line stanzas, then two three-line stanzas."
+  - id: "c1-culture-french-poetry-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le nom des rimes : le premier vers rime avec le troisième, et le deuxième avec le quatrième."
+    options: ["des rimes croisées", "des rimes embrassées", "des rimes plates"]
+    answers: ["des rimes croisées"]
+    explanation: "ABAB: alternate rhymes. ABBA is embrassées; AABB is plates."
+  - id: "c1-culture-french-poetry-ex004"
+    type: "fill-in"
+    prompt: "Complétez : Dans un alexandrin, la ___ coupe le vers après la sixième syllabe."
+    answers: ["césure"]
+    explanation: "La césure: the break after the sixth syllable."
+  - id: "c1-culture-french-poetry-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Un alexandrin a deux hémistiches de six ___."
+    answers: ["syllabes"]
+    explanation: "Two half-lines of six syllables each."
+  - id: "c1-culture-french-poetry-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez si le e muet de « lampe » compte dans ce vers : Une voix d'autrefois, sous la lampe, commence"
+    options: ["Il compte : il est devant une consonne.", "Il ne compte pas : il est devant une voyelle.", "Il ne compte pas : il est à la fin du vers."]
+    answers: ["Il compte : il est devant une consonne."]
+    explanation: "Lampe is followed by commence, which starts with a consonant: the mute e is counted, lam-pe."
+  - id: "c1-culture-french-poetry-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez si le e muet de « heure » compte dans ce vers : Demain, dès l'aube, à l'heure où blanchit la campagne"
+    options: ["Il ne compte pas : il est devant une voyelle.", "Il compte : il est devant une consonne.", "Il ne compte pas : il est à la fin du vers."]
+    answers: ["Il ne compte pas : il est devant une voyelle."]
+    explanation: "Heure is followed by où: the mute e is elided."
+  - id: "c1-culture-french-poetry-ex008"
+    type: "multiple-choice"
+    prompt: "Choisissez le poète des Fleurs du mal."
+    options: ["Baudelaire", "Racine", "Molière"]
+    answers: ["Baudelaire"]
+    explanation: "Charles Baudelaire published Les Fleurs du mal in 1857."
+  - id: "c1-culture-french-poetry-ex009"
+    type: "multiple-choice"
+    prompt: "Indiquez combien de syllabes a ce vers de Verlaine : Il pleure dans mon cœur"
+    options: ["six", "cinq", "sept"]
+    answers: ["six"]
+    explanation: "Il / pleu / re / dans / mon / cœur: the e of pleure is counted before the consonant of dans."
+  - id: "c1-culture-french-poetry-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « un alexandrin » : Ce vers a douze syllabes."
+    answers: ["Ce vers est un alexandrin", "C'est un alexandrin"]
+    explanation: "Un alexandrin: a line of twelve syllables."
+  - id: "c1-culture-french-poetry-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « des rimes plates » : Les rimes vont deux par deux."
+    answers: ["Ce sont des rimes plates", "Les rimes sont des rimes plates"]
+    explanation: "AABB: rimes plates."
+  - id: "c1-culture-french-poetry-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Un sonnet a douze vers."
+    answers: ["Un sonnet a quatorze vers"]
+    strictAccents: true
+    explanation: "A sonnet has fourteen lines."
+  - id: "c1-culture-french-poetry-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Dans un alexandrin, la césure vient après la quatrième syllabe."
+    answers: ["Dans un alexandrin, la césure vient après la sixième syllabe"]
+    explanation: "The caesura comes after the sixth syllable, in the middle of the line."
+  - id: "c1-culture-french-poetry-ex014"
+    type: "translate"
+    prompt: "Traduisez (le e muet) : At the end of the line, the mute e is not counted."
+    answers: ["À la fin du vers, le e muet ne compte pas", "En fin de vers, le e muet ne compte pas", "À la fin du vers, on ne compte pas le e muet", "Le e muet ne compte pas à la fin du vers"]
+    strictAccents: true
+    explanation: "At the end of the line, the mute e is never counted, even when it is heard a little."
+  - id: "c1-culture-french-poetry-ex015"
+    type: "translate"
+    prompt: "Traduisez (un recueil, la poésie) : This collection changed French poetry."
+    answers: ["Ce recueil a changé la poésie française"]
+    strictAccents: true
+    explanation: "Un recueil: a collection of poems."
+  - id: "c1-culture-french-poetry-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : A sonnet ends with two three-line stanzas."
+    words: ["Un", "sonnet", "finit", "par", "deux", "tercets"]
+    answers: ["Un sonnet finit par deux tercets"]
+    explanation: "Finir par: to end with."
+---
+
+By the end of this lesson you'll be able to count the syllables of a French line of verse, recognize the alexandrine and the sonnet, and read a classical poem aloud with the right rhythm.
+
+## What you already know
+
+You know *un poème*, *un vers* (a line of poetry), *une strophe*, *une rime* and *un recueil* from <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />, and *une syllabe* from <LessonLink id="b2-culture-verlan-and-slang" text="the lesson on verlan and slang" />. You met Racine and the classical century in <LessonLink id="c1-culture-literary-canon" text="the lesson on the French literary canon" />. This lesson shows how French verse is measured and how to read it.
+
+## Counting syllables
+
+<VocabTable group="count" />
+
+French verse isn't measured by stresses, as English verse is, but by the number of syllables. The great classical line is *l'alexandrin*: twelve syllables. A *césure* (a break) divides it after the sixth syllable into two *hémistiches* of six. In classical *poésie*, a word must end at the caesura.
+
+Here is an alexandrine from Racine's tragedy *Phèdre* (1677), with its count:
+
+<Example fr="« Le jour n'est pas plus pur que le fond de mon cœur. » (Racine)" en="&quot;The day is not purer than the depths of my heart.&quot; (our translation)" />
+
+Le / jour / n'est / pas / plus / pur // que / le / fond / de / mon / cœur: twelve syllables, with the caesura after *pur*. Each vowel sound is one syllable: *jour*, *fond* and *cœur* count as one each.
+
+<Example fr="Un alexandrin a douze syllabes et une césure après la sixième." en="An alexandrine has twelve syllables and a caesura after the sixth." />
+
+## The mute e
+
+The hardest part of counting is *le e muet*, the e at the end of words such as *heure* or *lampe*. In everyday French, you hardly hear it. In classical verse, it follows three rules:
+
+- **Before a consonant**, it is counted: *u-ne voix* has three syllables.
+- **Before a vowel or a silent h**, it is dropped: in *l'heure où*, the e of *heure* disappears.
+- **At the end of the line**, it is never counted.
+
+<Example fr="Devant une consonne, le e muet compte ; devant une voyelle, il ne compte pas." en="Before a consonant, the mute e is counted; before a vowel, it isn't." />
+
+Victor Hugo's poem *Demain, dès l'aube*, from *Les Contemplations* (1856), shows two of them in its first line: the e of *aube* is dropped before *à*, the e of *heure* before *où*, and the e of *campagne*, at the end of the line, isn't counted:
+
+<Example fr="« Demain, dès l'aube, à l'heure où blanchit la campagne » (Hugo)" en="&quot;Tomorrow, at dawn, at the hour when the countryside turns white&quot; (our translation)" />
+
+De / main / dès / l'aube / à / l'heure // où / blan / chit / la / cam / pagne: twelve.
+
+## Diaeresis and synaeresis
+
+Some vowel pairs can be said as one syllable or two. Saying them as two is *la diérèse*; saying them as one is *la synérèse*. Classical poets usually count *nation* as three syllables (na-ti-on) and *lion* as two (li-on), while *rien* and *bien* count as one. A dictionary of versification gives the usual count, and a poet sometimes uses a diaeresis to slow a line down and make a word stand out.
+
+<Example fr="Avec une diérèse, le poète fait entendre chaque voyelle." en="With a diaeresis, the poet makes each vowel heard." />
+<Example fr="Avec une synérèse, rien et bien comptent pour une seule syllabe." en="With synaeresis, rien and bien count as a single syllable." />
+
+## Rhyme and the sonnet
+
+<VocabTable group="rhyme" />
+
+A rhyme is *féminine* when the line ends with a mute e (*silence*, *page*), and *masculine* otherwise (*jardins*, *bateau*). Classical poets alternate the two. The rhymes can be arranged in three ways: *rimes plates* (AABB), *rimes croisées* (ABAB) and *rimes embrassées* (ABBA).
+
+*Le sonnet* is the best-known fixed form: fourteen lines, in two *quatrains* followed by two *tercets*, often in alexandrines. Baudelaire used it many times in *Les Fleurs du mal* (1857), for example in the sonnet *Correspondances*. His poem *L'Albatros*, in the same collection, opens with a famous alexandrine:
+
+<Example fr="« Souvent, pour s'amuser, les hommes d'équipage » (Baudelaire)" en="&quot;Often, to amuse themselves, the men of the crew&quot; (our translation)" />
+
+Here the e of *hommes* is counted: hom / mes / d'é / qui / page. Inside the line, an ending in *-es* is counted before a consonant and, unlike a final *-e*, before a vowel too.
+
+## Shorter lines and free verse
+
+Not all French verse uses twelve syllables. Verlaine liked short, musical lines, such as these six-syllable lines from *Romances sans paroles* (1874):
+
+<Example fr="« Il pleure dans mon cœur / Comme il pleut sur la ville » (Verlaine)" en="&quot;It weeps in my heart / As it rains on the town&quot; (our translation)" />
+
+From the late nineteenth century on, poets such as Rimbaud loosened the rules, and in the twentieth century *le vers libre* (free verse), with no fixed count and often no rhyme, became common: Apollinaire removed punctuation from *Alcools* (1913), and Prévert's *Paroles* (1946) uses the words of everyday life. This course describes their poems rather than quoting them.
+
+<Example fr="Dans le vers libre, le poète ne compte plus les syllabes." en="In free verse, the poet no longer counts syllables." />
+
+## Reading a poem aloud
+
+To *lire à voix haute* a classical poem, say the mute e lightly when it counts (*u-ne voix*), make the liaisons, and pause very slightly at the caesura and a little longer at the end of each line. Don't stop at the end of a line if the sentence goes on; just hold the last syllable a moment.
+
+<Example fr="Pour lire un alexandrin à voix haute, on fait une petite pause à la césure." en="To read an alexandrine aloud, you make a short pause at the caesura." />
+
+## An original poem
+
+The poem below was written for this lesson, in classical form: two quatrains of alexandrines with alternating rhymes. Each line was checked by a syllable-counting script; a native speaker will also review it.
+
+*Lecture du soir*
+
+*Le soir, quand la maison s'endort dans le silence,*
+
+*J'ouvre un vieux livre aux mots tranquilles et lointains,*
+
+*Une voix d'autrefois, sous la lampe, commence*
+
+*À me parler tout bas de ports et de jardins.*
+
+*Je ne suis plus ici : je marche sur la page,*
+
+*Je traverse la mer à bord d'un grand bateau ;*
+
+*Je vois l'aube, la neige et le bord du rivage,*
+
+*Et je ferme le livre au bruit lointain de l'eau.*
+
+<VocabTable group="glossary" />
+
+(Evening reading. In the evening, when the house falls asleep in silence, I open an old book with quiet, distant words; a voice from long ago, under the lamp, begins to speak to me softly of ports and gardens. I am no longer here: I walk on the page, I cross the sea on board a big boat; I see the dawn, the snow and the edge of the shore, and I close the book to the distant sound of the water.)
+
+## Un commentaire
+
+*Le poème a deux quatrains en alexandrins. Chaque vers a douze syllabes, et la césure le coupe après la sixième : « Le soir, quand la maison // s'endort dans le silence ».*
+
+*Les rimes sont croisées : silence et commence, lointains et jardins, page et rivage, bateau et eau. Les rimes féminines finissent par un e muet ; les rimes masculines, non. Dans chaque quatrain, on passe de l'une à l'autre, vers après vers.*
+
+*Le e muet change le compte. Dans « Une voix », il compte, parce qu'il est devant une consonne : on dit u-ne voix. Dans « la neige et le bord », le e de neige ne compte pas, parce qu'il est devant une voyelle. À la fin du vers, dans silence ou page, il ne compte pas non plus.*
+
+*Le sens suit la forme. Le premier quatrain reste dans la maison, le soir ; le second part en voyage sur la mer, puis revient au livre fermé. Les derniers mots, « de l'eau », gardent le voyage encore un instant, quand le lecteur est déjà rentré.*
+
+*Pour lire ce poème à voix haute, on fait une petite pause à chaque césure, puis une pause plus longue à la fin de chaque quatrain. On prononce aussi les e muets qui comptent, sans les faire trop entendre.*
+
+(A commentary. The poem has two quatrains in alexandrines. Each line has twelve syllables, and the caesura divides it after the sixth: "Le soir, quand la maison // s'endort dans le silence". The rhymes alternate: silence and commence, lointains and jardins, page and rivage, bateau and eau. The feminine rhymes end with a mute e; the masculine rhymes don't. In each quatrain, you move from one to the other, line after line. The mute e changes the count. In "Une voix", it counts, because it comes before a consonant: you say u-ne voix. In "la neige et le bord", the e of neige doesn't count, because it comes before a vowel. At the end of the line, in silence or page, it doesn't count either. The meaning follows the form. The first quatrain stays in the house, in the evening; the second sets off on a journey across the sea, then comes back to the closed book. The last words, "de l'eau", keep the journey alive for a moment longer, when the reader has already come home. To read this poem aloud, make a short pause at each caesura, then a longer pause at the end of each quatrain. Also say the mute e's that count, without stressing them too much.)
+
+<Callout type="warning" title="U-ne voix: don't drop a counted e">
+  Learners reading verse aloud often swallow the mute e as they would in conversation, and the line loses a syllable. Before a consonant, say it lightly: **u-ne voix d'autrefois**, not *un' voix d'autrefois*.
+</Callout>
+
+<Callout type="tip" title="Tap the syllables">
+  When you read a line of verse, tap one finger on the table for each syllable. At first, check the mute e at each tap: consonant next, vowel next or end of line? After a few poems, you'll feel the twelve beats of the alexandrine without counting.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-review-literary" text="the review of this unit" /> brings the narrative tenses, the classics and poetry together in one original tale.
+
+===== content/lessons/c1/review-literary.mdx =====
+---
+id: "c1-review-literary"
+title: "Review: Literary French"
+description: "Bring Unit 1 together in an original tale: the passé simple and the imparfait, one passé antérieur, a future in the past, a recognized imperfect subjunctive and a line of free indirect speech, then rewrite it in modern spoken French."
+level: "C1"
+unit: "Literary French"
+order: 8
+type: "review"
+tags: ["review", "literature", "narrative", "tenses"]
+prerequisites: ["c1-passe-anterieur", "c1-future-in-the-past", "c1-imperfect-subjunctive", "c1-reading-literary-narrative", "c1-culture-literary-canon", "c1-culture-french-poetry"]
+related: ["c1-passe-simple", "c1-stylistic-inversion", "b2-arts-and-literature"]
+vocab:
+  - { id: "c1-review-literary-v001", group: "new", fr: "le style", pron: "luh STEEL", en: "style (the way a writer writes)" }
+  - { id: "c1-review-literary-v002", group: "new", fr: "une tournure", pron: "ewn toor-NEWR", en: "a turn of phrase, a construction" }
+  - { id: "c1-review-literary-v003", group: "new", fr: "pasticher", pron: "pahs-tee-SHAY", en: "to write in the style of (an author), to pastiche" }
+  - { id: "c1-review-literary-v004", group: "new", fr: "un conteur / une conteuse", pron: "uhn kohn-TUHR / ewn kohn-TUHZ", en: "a storyteller" }
+  - { id: "c1-review-literary-v005", group: "glossary", fr: "un fantôme", pron: "uhn fahn-TOHM", en: "a ghost" }
+exercises:
+  - id: "c1-review-literary-ex001"
+    type: "fill-in"
+    prompt: "Conjuguez au passé simple : Au large, les marins ___ (lever) la tête."
+    answers: ["levèrent"]
+    explanation: "Lever, like all -er verbs: ils levèrent."
+  - id: "c1-review-literary-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps de « finit » dans : Le soir, il finit son repas et sortit."
+    options: ["le passé simple", "le présent", "l'imparfait"]
+    answers: ["le passé simple"]
+    explanation: "Finit can be present or passé simple; sortit, in the same sentence, shows that it's the passé simple."
+  - id: "c1-review-literary-ex003"
+    type: "fill-in"
+    prompt: "Complétez au passé antérieur : Quand il ___ mangé, il demanda pourquoi la cloche se taisait."
+    answers: ["eut"]
+    strictAccents: true
+    explanation: "Quand + passé antérieur, then the passé simple: quand il eut mangé, il demanda."
+  - id: "c1-review-literary-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « devait » : Personne ne le savait encore, mais cet homme devait changer la vie du port."
+    options: ["un événement futur, vu du passé", "une chose qu'il fallait faire", "une hypothèse"]
+    answers: ["un événement futur, vu du passé"]
+    explanation: "Devait + infinitive in a story: was to, an event that happened later."
+  - id: "c1-review-literary-ex005"
+    type: "reformulation"
+    prompt: "Reformulez en français moderne, avec le subjonctif présent : Le roi ordonna qu'on le fît descendre."
+    answers: ["Le roi ordonna qu'on le fasse descendre", "Le roi a ordonné qu'on le fasse descendre"]
+    strictAccents: true
+    explanation: "Fît is the imperfect subjunctive of faire; modern French uses the present subjunctive, fasse."
+  - id: "c1-review-literary-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase au discours indirect libre."
+    options: ["Qui était-il ? Un marin d'autrefois, un fantôme ?", "Les marins se demandèrent qui il était.", "« Qui est-il ? » demandèrent les marins."]
+    answers: ["Qui était-il ? Un marin d'autrefois, un fantôme ?"]
+    explanation: "Questions in the narration, in the past, with no verb of saying: free indirect speech."
+  - id: "c1-review-literary-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez le siècle du classicisme, de Racine et de Molière."
+    options: ["le dix-septième siècle", "le dix-huitième siècle", "le dix-neuvième siècle"]
+    answers: ["le dix-septième siècle"]
+    explanation: "Classicism is the literature of the seventeenth century."
+  - id: "c1-review-literary-ex008"
+    type: "multiple-choice"
+    prompt: "Indiquez combien de syllabes a ce vers : Le soir, quand la maison s'endort dans le silence"
+    options: ["douze", "onze", "treize"]
+    answers: ["douze"]
+    explanation: "Le / soir / quand / la / mai / son // s'en / dort / dans / le / si / lence: the final e of silence isn't counted."
+  - id: "c1-review-literary-ex009"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Écrire une histoire dans le style de Maupassant, c'est le ___."
+    options: ["pasticher", "traduire", "résumer"]
+    answers: ["pasticher"]
+    explanation: "Pasticher: to write in the style of an author."
+  - id: "c1-review-literary-ex010"
+    type: "fill-in"
+    prompt: "Complétez : « À peine… que » est une ___ du registre littéraire."
+    answers: ["tournure"]
+    explanation: "Une tournure: a turn of phrase, a construction."
+  - id: "c1-review-literary-ex011"
+    type: "reformulation"
+    prompt: "Reformulez au passé composé, comme à l'oral : Le voyageur frappa à la porte de l'auberge."
+    answers: ["Le voyageur a frappé à la porte de l'auberge"]
+    strictAccents: true
+    explanation: "In speech, the passé composé replaces the passé simple."
+  - id: "c1-review-literary-ex012"
+    type: "reformulation"
+    prompt: "Reformulez au passé composé, avec « dès que », comme à l'oral : À peine fut-il arrivé que la cloche sonna."
+    answers: ["Dès qu'il est arrivé, la cloche a sonné", "La cloche a sonné dès qu'il est arrivé"]
+    strictAccents: true
+    explanation: "À peine… que with inversion and the passé antérieur is literary; in speech, dès que with the passé composé."
+  - id: "c1-review-literary-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de temps : Quand il eut mangé, il demandait pourquoi la cloche se taisait."
+    answers: ["Quand il eut mangé, il demanda pourquoi la cloche se taisait"]
+    strictAccents: true
+    explanation: "The passé antérieur goes with a main verb in the passé simple: il demanda."
+  - id: "c1-review-literary-ex014"
+    type: "error-correction"
+    prompt: "Corrigez la forme du passé simple : Les marins voyèrent la cloche."
+    answers: ["Les marins virent la cloche"]
+    explanation: "Voir: ils virent."
+  - id: "c1-review-literary-ex015"
+    type: "translate"
+    prompt: "Traduisez au passé simple (se mettre à) : The bell started to ring."
+    answers: ["La cloche se mit à sonner"]
+    strictAccents: true
+    explanation: "Se mettre à: to start to. Passé simple: elle se mit."
+  - id: "c1-review-literary-ex016"
+    type: "translate"
+    prompt: "Traduisez à l'imparfait, puis au passé simple : It was cold. The traveller entered the inn."
+    answers: ["Il faisait froid. Le voyageur entra dans l'auberge"]
+    explanation: "The background in the imparfait, the event in the passé simple."
+  - id: "c1-review-literary-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : No one ever saw him again."
+    words: ["On", "ne", "le", "revit", "jamais"]
+    answers: ["On ne le revit jamais"]
+    explanation: "Revit: passé simple of revoir."
+---
+
+By the end of this lesson you'll be able to write a short tale in literary French, with the narrative tenses in their places, and rewrite it in the French people speak today.
+
+## What you've learned
+
+Skim this list, and go back to anything that feels shaky.
+
+- **The passé simple**: you know its forms (*il partit*, *ils levèrent*) and its role for events, from <LessonLink id="c1-passe-simple" text="the lesson on the passé simple" />.
+- **The passé antérieur**: you know *quand il eut fini* and *à peine… que*, from <LessonLink id="c1-passe-anterieur" text="the lesson on the passé antérieur" />.
+- **The future in the past**: you know *devait* + infinitive (was to) and *ne pas tarder à*, from <LessonLink id="c1-future-in-the-past" text="the lesson on the future in the past" />.
+- **The imperfect subjunctive**: you recognize *qu'il fût*, *qu'il fît* and *il eût préféré*, from <LessonLink id="c1-imperfect-subjunctive" text="the lesson on the imperfect subjunctive" />.
+- **Reading narrative**: you know *le discours indirect libre*, *le point de vue interne* and *la chute*, from <LessonLink id="c1-reading-literary-narrative" text="the lesson on reading literary narrative" />.
+- **The canon**: you know *le classicisme*, *le roman réaliste* and *un classique*, from <LessonLink id="c1-culture-literary-canon" text="the lesson on the French literary canon" />.
+- **Poetry**: you know *l'alexandrin*, *la césure* and *le e muet*, from <LessonLink id="c1-culture-french-poetry" text="the lesson on French poetry" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+These four words help you talk about writing. *Le style* is the way a writer writes: the choice of words, the length of sentences, the rhythm. *Une tournure* is a turn of phrase or a construction, such as *à peine… que*. To *pasticher* an author is to write a new text in that author's style, as the stories in this unit do. *Un conteur* or *une conteuse* tells stories, often aloud.
+
+<Example fr="Le style de ce conte est simple, mais chaque tournure est précise." en="The style of this tale is simple, but every turn of phrase is precise." />
+<Example fr="Pour pasticher un auteur, il faut d'abord bien connaître son style." en="To write a pastiche of an author, you first need to know their style well." />
+<Example fr="Le soir, une conteuse raconte des histoires aux enfants du village." en="In the evening, a storyteller tells stories to the village children." />
+
+## Writing a literary tale
+
+A short literary tale uses the tools of the whole unit. As a rule of thumb, plan it in this order:
+
+1. **The opening situation**, in the imparfait: place, time, a problem. *Il était une fois…*
+2. **The triggering event**, in the passé simple: someone arrives, something happens.
+3. **The events**, one after another, in the passé simple, with the background in the imparfait.
+4. **One earlier event**, in the plus-que-parfait, and one event just before another, in the passé antérieur after *quand* or *dès que*.
+5. **A look ahead**: *personne ne le savait encore, mais…* with *devait* + infinitive.
+6. **The ending**, with a twist or an open question; a line of free indirect speech fits well here.
+
+Use one literary form at a time. A tale with an imperfect subjunctive in every paragraph sounds like a parody; one recognized form, in the right place, is enough to give the tone. Keep the dialogue, if there is any, in ordinary present-tense French: the passé simple belongs to the narration, not to what characters say.
+
+## A model tale
+
+The tale below is an original text written for this lesson, in the style of a traditional tale. The port, the king and the traveller are invented.
+
+*La Cloche du brouillard*
+
+*Il était une fois, dans un port lointain, une vieille cloche qui ne sonnait plus. Chaque soir d'hiver, le brouillard montait de la mer, et les marins, qui ne voyaient plus la terre, avaient peur de rentrer. Plusieurs navires s'étaient déjà perdus.*
+
+*Un soir, un voyageur frappa à la porte de l'auberge. Il portait un long manteau gris et ne disait presque rien. Personne ne le savait encore, mais cet homme devait changer la vie du port. Quand il eut mangé, il demanda pourquoi la cloche se taisait.*
+
+*« Elle est trop lourde, répondit la femme de l'auberge. Plus personne ne sait la faire sonner. »*
+
+*Le voyageur ne répondit pas. À l'aube, on l'aperçut en haut de la tour, près de la cloche. Le roi, qui regardait le port depuis son château, s'écria qu'un étranger n'avait rien à faire là, et il ordonna qu'on le fît descendre. Ses soldats ne tardèrent pas à arriver.*
+
+*Mais au même moment, le brouillard se mit à monter, et la cloche sonna. Une fois, deux fois, dix fois. En mer, les marins levèrent la tête : grâce au son de la cloche, ils purent enfin rentrer au port.*
+
+*Quand le brouillard se dissipa, la foule courut vers la tour. Le voyageur n'y était plus. Qui était-il ? Un marin d'autrefois, un roi sans pays, un fantôme ? Personne ne le sut, et on ne le revit jamais.*
+
+*Depuis ce jour, la cloche sonne seule chaque fois que le brouillard monte de la mer. C'est du moins ce que racontent les conteurs du port.*
+
+<VocabTable group="glossary" />
+
+(The Fog Bell. Once upon a time, in a distant port, there was an old bell that no longer rang. Every winter evening, the fog rose from the sea, and the sailors, who could no longer see the land, were afraid to come home. Several ships had already been lost. One evening, a traveller knocked at the door of the inn. He wore a long grey coat and said almost nothing. No one knew it yet, but this man was to change the life of the port. When he had eaten, he asked why the bell was silent. "It's too heavy," answered the woman at the inn. "No one knows how to ring it any more." The traveller didn't answer. At dawn, he was seen at the top of the tower, near the bell. The king, who was watching the port from his castle, cried out that a stranger had no business there, and he ordered that he be brought down. His soldiers soon arrived. But at that very moment, the fog began to rise, and the bell rang. Once, twice, ten times. At sea, the sailors looked up: thanks to the sound of the bell, they could at last come back to port. When the fog cleared, the crowd ran towards the tower. The traveller was no longer there. Who was he? A sailor from long ago, a king without a country, a ghost? Nobody knew, and he was never seen again. Since that day, the bell rings by itself every time the fog rises from the sea. At least, that's what the storytellers of the port say.)
+
+## How the tale uses the unit
+
+- **Passé simple and imparfait**: the events (*frappa*, *demanda*, *aperçut*, *sonna*, *levèrent*, *courut*) against the background (*montait*, *avaient peur*, *portait*, *regardait*).
+- **Plus-que-parfait**: *plusieurs navires s'étaient déjà perdus*, before the story starts.
+- **One passé antérieur**: *quand il eut mangé, il demanda…*.
+- **The future in the past**: *cet homme devait changer la vie du port*, and *ses soldats ne tardèrent pas à arriver*.
+- **One recognized imperfect subjunctive**: *il ordonna qu'on le fît descendre* (modern French: *qu'on le fasse descendre*).
+- **Free indirect speech and the ending**: *Qui était-il ? Un marin d'autrefois, un roi sans pays, un fantôme ?* leaves the mystery open; the last paragraph, in the present, brings the tale back to today.
+- **Dialogue**: the woman at the inn speaks in the present, in ordinary French.
+
+## From literary to spoken French
+
+When you retell a literary text aloud, the tenses change, but the story doesn't. The passé simple becomes the passé composé, the passé antérieur becomes the passé composé or the passé surcomposé, and the imperfect subjunctive becomes the present subjunctive. The imparfait and the plus-que-parfait stay as they are.
+
+<Example fr="Le voyageur a frappé à la porte de l'auberge." en="The traveller knocked at the door of the inn. (spoken; written: frappa)" />
+<Example fr="Quand il a eu mangé, il a demandé pourquoi la cloche ne sonnait plus." en="When he had eaten, he asked why the bell didn't ring any more. (spoken; written: quand il eut mangé, il demanda)" />
+<Example fr="Le roi a ordonné qu'on le fasse descendre." en="The king ordered that he be brought down. (spoken; written: qu'on le fît descendre)" />
+
+## Your turn
+
+Write a short tale of eight to ten sentences in the style of a traditional tale. Follow the six-step plan. Use the passé simple for the events and the imparfait for the background, one passé antérieur, one *devait* + infinitive and one line of free indirect speech. Then retell it aloud to a friend, or record it, in spoken French: every passé simple becomes a passé composé.
+
+## Check your work
+
+- Does each verb in the passé simple move the story on, and does each imparfait describe the background?
+- Is the passé antérieur after *quand*, *dès que* or *à peine… que*, with a main verb in the passé simple?
+- Does the line of free indirect speech sound like the character, with no *dit-il* and no *que*?
+- Is the dialogue, if any, in ordinary present-tense French?
+- In your spoken version, did you replace every passé simple and keep every imparfait?
+
+<Callout type="warning" title="Il eut mangé, il demanda: keep the pair">
+  Learners often pair the passé antérieur with an imparfait. The passé antérieur needs a main verb in the passé simple: **quand il eut mangé, il demanda**, not *quand il eut mangé, il demandait*.
+</Callout>
+
+<Callout type="tip" title="Tell it before you write it">
+  Before you write a tale, tell it aloud once, in everyday French, in under a minute. If you can't tell it simply, the plot isn't clear yet. Once it is, write it down and only then put the events in the passé simple.
+</Callout>
+
+## What's next
+
+The next unit is about style and emphasis. It starts with <LessonLink id="c1-stylistic-inversion" text="the lesson on stylistic inversion" />.
+

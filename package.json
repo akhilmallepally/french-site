@@ -16,6 +16,7 @@
     "check:structures": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check-structures.ts",
     "test:b2-exercises": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/b2-exercise-check.ts",
     "check:c1-links": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/c1-links.ts",
+    "check:alexandrines": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/scan-alexandrines.ts --file content/lessons/c1/culture-french-poetry.mdx --section \"An original poem\"",
     "test:safe-next": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test lib/safe-next.test.ts",
     "test:gating": "node scripts/test-gating.mjs",
     "test:no-supabase-env": "node scripts/test-no-supabase-env.mjs"
