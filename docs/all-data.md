@@ -1,6 +1,6 @@
 # All lesson data
 
-257 written lessons, in course order.
+263 written lessons, in course order.
 
 ## a1-greetings
 
@@ -9909,7 +9909,7 @@ fr | pron | en | note
 - la gradation | lah grah-dah-SYOHN | climax, gradation (words in increasing strength) | —
 - le rythme | luh REET-muh | rhythm | —
 - l'oxymore (m.) | lok-see-MOR | oxymoron (two opposite words joined) | —
-- une victoire amère | ewn veek-twahr ah-MEHR | a bitter victory (an oxymoron) | —
+- un silence assourdissant | uhn see-lahnss ah-soor-dee-SAHN | a deafening silence (an oxymoron: assourdissant means deafening) | —
 - la question rhétorique | lah kes-tyohn ray-toh-REEK | the rhetorical question | —
 - la litote | lah lee-TOT | litotes (saying less to mean more) | —
 - l'hyperbole (f.) | lee-pehr-BOLL | hyperbole (deliberate exaggeration) | —
@@ -9926,13 +9926,13 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-rhetorical-devices-ex001 | multiple-choice | Indiquez la figure de style : Nous voulons une ville propre. Nous voulons une ville sûre. Nous voulons une ville pour tous. | ["l'anaphore","la litote","l'oxymore"] | ["l'anaphore"] | false | Nous voulons is repeated at the start of each sentence: anaphora.
 - c1-rhetorical-devices-ex002 | multiple-choice | Indiquez la figure de style : Ce n'est pas une mauvaise idée. | ["la litote","l'hyperbole","la gradation"] | ["la litote"] | false | Saying "not bad" to mean "good": litotes.
 - c1-rhetorical-devices-ex003 | multiple-choice | Indiquez la figure de style : Je vous l'ai dit mille fois ! | ["l'hyperbole","la litote","l'antithèse"] | ["l'hyperbole"] | false | Mille fois is a deliberate exaggeration: hyperbole.
-- c1-rhetorical-devices-ex004 | multiple-choice | Indiquez la figure de style : C'était une victoire amère. | ["l'oxymore","l'anaphore","la question rhétorique"] | ["l'oxymore"] | false | A victory should be sweet; amère joins two opposite ideas: oxymoron.
+- c1-rhetorical-devices-ex004 | multiple-choice | Indiquez la figure de style : Il y a eu un silence assourdissant. | ["l'oxymore","l'anaphore","la question rhétorique"] | ["l'oxymore"] | false | Silence makes no noise, and assourdissant means deafening: two opposite words joined, an oxymoron.
 - c1-rhetorical-devices-ex005 | multiple-choice | Indiquez la figure de style : Il faut agir aujourd'hui, demain, toujours. | ["la gradation","la litote","l'oxymore"] | ["la gradation"] | false | The time words grow in strength: gradation.
 - c1-rhetorical-devices-ex006 | multiple-choice | Indiquez la figure de style : Qui peut encore croire que rien ne va changer ? | ["la question rhétorique","l'anaphore","la litote"] | ["la question rhétorique"] | false | The speaker expects no answer: the question makes a point.
 - c1-rhetorical-devices-ex007 | connector-choice | Choisissez le mot : Ce discours a ___ les esprits. | ["marqué","exagéré","procédé"] | ["marqué"] | false | Marquer les esprits: to make a lasting impression.
 - c1-rhetorical-devices-ex008 | fill-in | Complétez : Ce slogan est court et ___ : tout le monde s'en souvient. | — | ["percutant"] | false | Percutant: punchy, striking.
 - c1-rhetorical-devices-ex009 | reformulation | Reformulez avec une anaphore en « Nous voulons » : Nous voulons des écoles, des hôpitaux et des transports. | — | ["Nous voulons des écoles, nous voulons des hôpitaux, nous voulons des transports","Nous voulons des écoles. Nous voulons des hôpitaux. Nous voulons des transports"] | false | Repeat nous voulons before each item: the repetition gives rhythm.
-- c1-rhetorical-devices-ex010 | reformulation | Reformulez avec une litote, en commençant par « Ce n'est pas » : C'est une très bonne idée. | — | ["Ce n'est pas une mauvaise idée","Ce n'est pas une idée mauvaise"] | false | Deny the opposite to say more with less: ce n'est pas une mauvaise idée.
+- c1-rhetorical-devices-ex010 | reformulation | Reformulez avec une litote, en commençant par « Ce n'est pas » : C'est une très bonne idée. | — | ["Ce n'est pas une mauvaise idée"] | false | Deny the opposite to say more with less: ce n'est pas une mauvaise idée.
 - c1-rhetorical-devices-ex011 | reformulation | Reformulez avec une question rhétorique en « Qui peut » : Personne ne peut nier ce problème. | — | ["Qui peut nier ce problème ?"] | false | A question that expects no answer replaces the statement.
 - c1-rhetorical-devices-ex012 | error-correction | Corrigez l'erreur (le sens : not a bad idea) : Ce n'est pas une bonne idée. | — | ["Ce n'est pas une mauvaise idée"] | false | A litote denies the opposite: pas mauvaise means good. Pas bonne means bad.
 - c1-rhetorical-devices-ex013 | translate | Traduisez avec « une figure de style » : Anaphora is a figure of speech. | — | ["L'anaphore est une figure de style"] | false | Une figure de style: the general term for a rhetorical device.
@@ -9998,7 +9998,7 @@ fr | pron | en | note
 - il n'en demeure pas moins que | eel nahn duh-muhr pah MWAN kuh | the fact remains that (formal) | Like il n'en reste pas moins que.
 - je vous rejoins sur ce point | zhuh voo ruh-zhwan sewr suh PWAN | I agree with you on that point | —
 - retourner l'argument | ruh-toor-nay lar-gew-MAHN | to turn the argument round | —
-- un musée | uhn mew-ZAY | a museum | —
+- un don | uhn DOHN | a donation, a gift (of money) | —
 - un bien commun | uhn byan koh-MUHN | a common good | —
 - le contribuable | luh kohn-tree-BEW-ah-bluh | the taxpayer | —
 - la fréquentation | lah fray-kahn-tah-SYOHN | the number of visitors, attendance | —
@@ -10049,7 +10049,7 @@ fr | pron | en | note
 - avant de conclure | ah-vahn duh kohn-KLEWR | before I conclude | —
 - permettez-moi de conclure | pehr-meh-tay mwah duh kohn-KLEWR | allow me to conclude | —
 - marquer une pause | mar-kay ewn POHZ | to pause (deliberately) | —
-- la voix | lah VWAH | the voice | —
+- une diapositive | ewn dyah-poh-zee-TEEV | a slide (in a presentation) | —
 - le trac | luh TRAK | stage fright, nerves | —
 - le micro | luh mee-KROH | the microphone | —
 - la médiathèque | lah may-dyah-TEK | the (multimedia) library | —
@@ -10062,20 +10062,20 @@ fr | pron | en | note
 
 id | type | prompt | options | answers | strictAccents | explanation
 
-- c1-public-speaking-ex001 | multiple-choice | Indiquez la meilleure accroche pour un discours sur la lecture. | ["Combien d'entre vous ont lu un livre ce mois-ci ?","Bonjour, je vais parler de la lecture.","La lecture, c'est important, voilà."] | ["Combien d'entre vous ont lu un livre ce mois-ci ?"] | false | A question to the audience is a classic hook: it interpellates them from the first sentence.
+- c1-public-speaking-ex001 | multiple-choice | Indiquez la meilleure accroche pour un discours sur la lecture. | ["Combien d'entre vous ont lu un livre ce mois-ci ?","Bonjour, je vais parler de la lecture.","La lecture, c'est important, voilà."] | ["Combien d'entre vous ont lu un livre ce mois-ci ?"] | false | A question to the audience is a classic hook: it speaks directly to them from the first sentence.
 - c1-public-speaking-ex002 | multiple-choice | Indiquez la phrase qui annonce une nouvelle partie du discours. | ["J'en viens maintenant à la question du financement.","Je vous remercie de votre attention.","Mesdames et messieurs, bonsoir."] | ["J'en viens maintenant à la question du financement."] | false | J'en viens à signposts the move to the next point.
 - c1-public-speaking-ex003 | multiple-choice | Indiquez la formule qui ouvre un discours devant un public formel. | ["Mesdames et messieurs,","Salut tout le monde,","Cher Monsieur,"] | ["Mesdames et messieurs,"] | false | Mesdames et messieurs addresses a formal audience; cher Monsieur is for a letter to one person.
-- c1-public-speaking-ex004 | connector-choice | Choisissez l'expression : ___, je voudrais remercier toutes les personnes qui ont rendu ce projet possible. | ["En premier lieu","Avant de conclure","J'en viens à"] | ["En premier lieu"] | false | En premier lieu opens the first point. Avant de conclure comes at the end, and j'en viens à needs a noun after it.
+- c1-public-speaking-ex004 | connector-choice | Choisissez l'expression : ___, je voudrais remercier toutes les personnes qui ont rendu ce projet possible. | ["En premier lieu","Permettez-moi de","J'en viens à"] | ["En premier lieu"] | false | En premier lieu opens the first point. Permettez-moi de and j'en viens à need a verb or a noun after them, so they can't stand alone before a comma.
 - c1-public-speaking-ex005 | connector-choice | Choisissez le verbe : Avant chaque idée importante, l'intervenante ___ une pause. | ["marque","interpelle","commence"] | ["marque"] | false | Marquer une pause: to pause on purpose.
 - c1-public-speaking-ex006 | fill-in | Complétez : J'en ___ maintenant à la question du budget. | — | ["viens"] | false | Venir à un point: j'en viens à.
 - c1-public-speaking-ex007 | reformulation | Reformulez avec « je commencerai par » : D'abord, je vais présenter le projet. | — | ["Je commencerai par présenter le projet","Je commencerai par la présentation du projet"] | false | Je commencerai par + infinitive or noun announces the first part.
-- c1-public-speaking-ex008 | reformulation | Reformulez avec « permettez-moi de conclure » : Pour finir, je vais dire une chose. | — | ["Permettez-moi de conclure par une chose","Permettez-moi de conclure sur une chose"] | false | Permettez-moi de conclure is the formal way to announce the end.
+- c1-public-speaking-ex008 | reformulation | Reformulez avec « permettez-moi de conclure » : Pour finir, je vais dire une chose. | — | ["Permettez-moi de conclure par une chose","Permettez-moi de conclure sur une chose","Permettez-moi de conclure en disant une chose"] | false | Permettez-moi de conclure is the formal way to announce the end.
 - c1-public-speaking-ex009 | register-shift | Transformez en début de discours formel, avec « mesdames et messieurs » : Salut tout le monde, merci d'être là. | — | ["Mesdames et messieurs, merci d'être là","Mesdames et messieurs, merci de votre présence"] | true | A formal speech opens with mesdames et messieurs and thanks the audience.
 - c1-public-speaking-ex010 | register-shift | Transformez au registre soutenu, avec « j'en viens à » : Bon, maintenant, on passe au budget. | — | ["J'en viens maintenant au budget","J'en viens au budget"] | true | J'en viens à replaces on passe à in a speech; à + le gives au.
 - c1-public-speaking-ex011 | error-correction | Corrigez l'erreur : J'en viens maintenant de la question du budget. | — | ["J'en viens maintenant à la question du budget"] | true | En venir à: j'en viens à la question.
 - c1-public-speaking-ex012 | error-correction | Corrigez l'erreur : Permettez-moi conclure. | — | ["Permettez-moi de conclure"] | false | Permettre à quelqu'un de + infinitive: permettez-moi de conclure.
 - c1-public-speaking-ex013 | translate | Traduisez (le trac) : Before speaking, she always has stage fright. | — | ["Avant de parler, elle a toujours le trac","Elle a toujours le trac avant de parler"] | true | Avoir le trac: to have stage fright.
-- c1-public-speaking-ex014 | translate | Traduisez (interpeller) : The speaker addressed the audience directly. | — | ["L'intervenant a interpellé l'auditoire","L'intervenante a interpellé l'auditoire"] | true | Interpeller l'auditoire: to speak to the audience directly.
+- c1-public-speaking-ex014 | translate | Traduisez (interpeller) : The speaker addressed the audience directly. | — | ["L'intervenant a interpellé l'auditoire","L'intervenante a interpellé l'auditoire","L'intervenant a interpellé le public","L'intervenante a interpellé le public"] | true | Interpeller l'auditoire: to speak to the audience directly.
 - c1-public-speaking-ex015 | translate | Traduisez avec « avant de conclure » : Before I conclude, I'd like to thank you. | — | ["Avant de conclure, je voudrais vous remercier","Avant de conclure, j'aimerais vous remercier"] | false | Avant de conclure announces the last part of the speech.
 - c1-public-speaking-ex016 | reorder | Remettez dans l'ordre : I now come to the second part. | — | ["J'en viens maintenant à la seconde partie"] | false | J'en viens maintenant à: the classic signpost.
 
@@ -10099,7 +10099,7 @@ fr | pron | en | note
 - il ne fait pas chaud | eel nuh feh pah SHOH | it's cold (understatement) | —
 - je ne dis pas non | zhuh nuh dee pah NOHN | yes please, I wouldn't say no | —
 - sincère | san-SEHR | sincere | —
-- comme d'habitude | kom dah-bee-TEWD | as usual | —
+- désagréable | day-zah-gray-AH-bluh | unpleasant | —
 - les guillemets (m.) | lay geey-MEH | quotation marks (« ») | —
 - un émoji | uh-nay-moh-ZHEE | an emoji | —
 - le blog | luh BLOG | the blog | —
@@ -10120,7 +10120,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-irony-and-understatement-ex004 | multiple-choice | Indiquez le sens de la phrase, en réponse à « Un café ? » : Je ne dis pas non. | ["Yes, please.","No, thank you.","I don't know."] | ["Yes, please."] | false | Je ne dis pas non is a polite understatement for yes.
 - c1-irony-and-understatement-ex005 | connector-choice | Choisissez l'expression : Il a pris ma remarque au ___ degré et il s'est vexé. | ["premier","second","dernier"] | ["premier"] | false | Prendre au premier degré: to take literally, and so to miss the joke.
 - c1-irony-and-understatement-ex006 | fill-in | Complétez : C'est de l'humour au ___ degré : il ne faut pas le prendre à la lettre. | — | ["second"] | false | Au second degré: not meant literally.
-- c1-irony-and-understatement-ex007 | register-shift | Transformez en phrase neutre, sans ironie, avec « Le voyage » : Quel voyage agréable ! (après trois heures de retard) | — | ["Le voyage n'a pas été agréable"] | true | Say literally what the irony means.
+- c1-irony-and-understatement-ex007 | register-shift | Transformez en phrase neutre, sans ironie, avec « Le voyage » : Quel voyage agréable ! (après trois heures de retard) | — | ["Le voyage n'a pas été agréable","Le voyage a été désagréable","Le voyage était désagréable","Le voyage n'était pas agréable"] | true | Say literally what the irony means.
 - c1-irony-and-understatement-ex008 | register-shift | Transformez en phrase neutre, avec « froid » : Il ne fait pas chaud aujourd'hui. | — | ["Il fait froid aujourd'hui","Aujourd'hui, il fait froid"] | false | The understatement means it's cold.
 - c1-irony-and-understatement-ex009 | reformulation | Reformulez avec une litote, en commençant par « Ce n'est pas » : Ce restaurant est bon. | — | ["Ce n'est pas un mauvais restaurant"] | false | Deny the opposite: ce n'est pas un mauvais restaurant.
 - c1-irony-and-understatement-ex010 | reformulation | Reformulez avec « pas fameux » : Ce repas était assez mauvais. | — | ["Ce repas n'était pas fameux"] | false | Pas fameux: not great, rather bad.
@@ -10170,12 +10170,12 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-culture-satire-and-humour-ex002 | multiple-choice | Indiquez ce que Molière tourne en ridicule dans ses comédies. | ["l'hypocrisie et les défauts de la société de son temps","les rois de l'Antiquité","la presse"] | ["l'hypocrisie et les défauts de la société de son temps"] | false | Molière laughs at hypocrites, false doctors and social pretensions.
 - c1-culture-satire-and-humour-ex003 | multiple-choice | Indiquez le sens de « un calembour ». | ["a pun","a cartoon","a moral"] | ["a pun"] | false | Un calembour plays on two meanings of the same sound.
 - c1-culture-satire-and-humour-ex004 | multiple-choice | Indiquez le sens de « l'autodérision ». | ["laughing at yourself","laughing at the powerful","refusing to laugh"] | ["laughing at yourself"] | false | Auto- means self: l'autodérision is self-mockery.
-- c1-culture-satire-and-humour-ex005 | connector-choice | Choisissez le mot : Chaque fable se termine par une ___. | ["morale","contrepèterie","caricature"] | ["morale"] | false | La morale: the lesson at the end of a fable.
+- c1-culture-satire-and-humour-ex005 | connector-choice | Choisissez le mot : Une fable contient souvent une ___ : la leçon de l'histoire. | ["morale","contrepèterie","caricature"] | ["morale"] | false | La morale: the lesson of a fable, often at the end, sometimes at the start.
 - c1-culture-satire-and-humour-ex006 | connector-choice | Choisissez le mot : Ce jeu de mots est ___ : il n'existe qu'en français. | ["intraduisible","satirique","philosophique"] | ["intraduisible"] | false | Intraduisible: impossible to translate.
 - c1-culture-satire-and-humour-ex007 | fill-in | Complétez : La presse satirique tourne les puissants en ___. | — | ["ridicule"] | false | Tourner quelqu'un en ridicule: to make fun of them.
 - c1-culture-satire-and-humour-ex008 | reformulation | Reformulez avec « tourner en ridicule » : Le journal se moque des ministres. | — | ["Le journal tourne les ministres en ridicule","Le journal tourne en ridicule les ministres"] | false | Tourner en ridicule takes a direct object, before or after en ridicule.
-- c1-culture-satire-and-humour-ex009 | reformulation | Reformulez avec « un sous-entendu » : Il ne le dit pas, mais tout le monde comprend. | — | ["C'est un sous-entendu","Il le dit par un sous-entendu"] | false | Un sous-entendu: something suggested without being said.
-- c1-culture-satire-and-humour-ex010 | error-correction | Corrigez l'erreur : La morale de cette fable est à la fin du loup. | — | ["La morale de cette fable est à la fin"] | true | The moral comes at the end of the fable, not of the wolf.
+- c1-culture-satire-and-humour-ex009 | reformulation | Reformulez avec « comprendre le sous-entendu », au passé composé : Tout le monde a compris ce qu'il voulait dire sans le dire. | — | ["Tout le monde a compris le sous-entendu"] | true | Un sous-entendu: something suggested without being said.
+- c1-culture-satire-and-humour-ex010 | error-correction | Corrigez l'erreur : Le moral de cette fable est célèbre. | — | ["La morale de cette fable est célèbre"] | false | The lesson of a fable is la morale (feminine). Le moral is your mood.
 - c1-culture-satire-and-humour-ex011 | error-correction | Corrigez l'erreur : Le Canard enchaîné est un quotidien satirique. | — | ["Le Canard enchaîné est un hebdomadaire satirique"] | false | Le Canard enchaîné comes out once a week: un hebdomadaire.
 - c1-culture-satire-and-humour-ex012 | translate | Traduisez (le rire) : Laughter is a weapon against the powerful. | — | ["Le rire est une arme contre les puissants"] | false | Le rire: laughter as a general idea.
 - c1-culture-satire-and-humour-ex013 | translate | Traduisez (un sketch) : The comedian wrote a new sketch. | — | ["L'humoriste a écrit un nouveau sketch"] | true | Un humoriste: a comedian; un sketch: a short comic scene.
@@ -10501,3 +10501,267 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-review-professional-ex014 | translate | Traduisez avec « donner suite à » : We will not be able to act on your request. | — | ["Nous ne pourrons pas donner suite à votre demande","Il ne nous sera pas possible de donner suite à votre demande","Nous ne serons pas en mesure de donner suite à votre demande"] | true | Donner suite à une demande, in a refusal.
 - c1-review-professional-ex015 | translate | Traduisez avec « un cahier des charges » et « ci-joint » : Please find the specifications attached. | — | ["Veuillez trouver ci-joint le cahier des charges","Vous trouverez ci-joint le cahier des charges"] | false | Veuillez trouver ci-joint, or vous trouverez ci-joint.
 - c1-review-professional-ex016 | reorder | Remettez dans l'ordre : We will be sure to answer you. | — | ["Nous ne manquerons pas de vous répondre"] | false | Nous ne manquerons pas de + infinitive: a formal promise.
+
+## c1-proverbs-and-sayings
+
+### Vocab
+
+fr | pron | en | note
+
+- un proverbe | uhn proh-VEHRB | a proverb | —
+- un dicton | uhn deek-TOHN | a saying (often about weather or daily life) | —
+- comme dit le proverbe | kom dee luh proh-VEHRB | as the saying goes | —
+- qui ne risque rien n'a rien | kee nuh reesk RYAN nah RYAN | nothing ventured, nothing gained | —
+- petit à petit, l'oiseau fait son nid | puh-tee-tah-puh-TEE, lwah-zoh feh sohn NEE | little by little, you get there (slow and steady) | —
+- c'est en forgeant qu'on devient forgeron | seh-tahn for-ZHAHN kohn duh-vyan for-zhuh-ROHN | practice makes perfect | —
+- vouloir, c'est pouvoir | voo-LWAHR, seh poo-VWAHR | where there's a will, there's a way | —
+- mieux vaut tard que jamais | myuh voh TAR kuh zhah-MEH | better late than never | —
+- il ne faut pas vendre la peau de l'ours avant de l'avoir tué | eel nuh foh pah vahn-druh lah poh duh LOORSS ah-vahn duh lah-vwahr tew-AY | don't count your chickens before they're hatched | —
+- l'habit ne fait pas le moine | lah-BEE nuh feh pah luh MWAN | don't judge a book by its cover | —
+- il n'y a pas de fumée sans feu | eel nyah pah duh few-may sahn FUH | there's no smoke without fire | —
+- la nuit porte conseil | lah nwee port kohn-SEY | sleep on it | —
+- les absents ont toujours tort | lay-zap-SAHN ohn too-zhoor TOR | the absent are always in the wrong | —
+- après la pluie, le beau temps | ah-preh lah PLWEE, luh boh TAHN | every cloud has a silver lining, things will get better | —
+- tout vient à point à qui sait attendre | too vyan-tah PWAN ah kee seh-tah-TAHN-druh | good things come to those who wait | —
+- qui se ressemble s'assemble | kee suh ruh-SAHN-bluh sah-SAHN-bluh | birds of a feather flock together | —
+- le forgeron | luh for-zhuh-ROHN | the blacksmith | —
+- le moine | luh MWAN | the monk | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-proverbs-and-sayings-ex001 | multiple-choice | Indiquez le sens du proverbe : L'habit ne fait pas le moine. | ["Appearances can be misleading.","Clothes are expensive.","Monks dress simply."] | ["Appearances can be misleading."] | false | Wearing a monk's habit doesn't make you a monk: don't judge by appearances.
+- c1-proverbs-and-sayings-ex002 | multiple-choice | Indiquez le sens du proverbe : Il ne faut pas vendre la peau de l'ours avant de l'avoir tué. | ["Don't count on a success before it has happened.","Don't hunt wild animals.","Sell things quickly."] | ["Don't count on a success before it has happened."] | false | You can't sell a bear's skin before you've caught the bear: wait for the result.
+- c1-proverbs-and-sayings-ex003 | multiple-choice | Indiquez la situation où l'on dit : La nuit porte conseil. | ["Before an important decision, to suggest waiting until the next day.","When someone is tired.","To say goodnight."] | ["Before an important decision, to suggest waiting until the next day."] | false | La nuit porte conseil: things are clearer after a night's sleep.
+- c1-proverbs-and-sayings-ex004 | multiple-choice | Indiquez le sens de la phrase : Bon, qui ne risque rien… | ["Let's take the risk (the speaker shortens the proverb).","Let's not take any risks.","Nobody is in danger."] | ["Let's take the risk (the speaker shortens the proverb)."] | false | Speakers often say only the first half of a proverb; everyone knows the end: … n'a rien.
+- c1-proverbs-and-sayings-ex005 | fill-in | Complétez le proverbe : Petit à petit, l'oiseau fait son ___. | — | ["nid"] | false | Petit à petit, l'oiseau fait son nid: slow, steady effort pays.
+- c1-proverbs-and-sayings-ex006 | fill-in | Complétez le proverbe : Il n'y a pas de fumée sans ___. | — | ["feu"] | false | There's no smoke without fire: a rumour usually has some cause.
+- c1-proverbs-and-sayings-ex007 | fill-in | Complétez le proverbe : Mieux vaut tard que ___. | — | ["jamais"] | false | Better late than never.
+- c1-proverbs-and-sayings-ex008 | connector-choice | Choisissez le mot : C'est en forgeant qu'on devient ___. | ["forgeron","moine","oiseau"] | ["forgeron"] | false | You become a blacksmith by working iron: practice makes perfect.
+- c1-proverbs-and-sayings-ex009 | translate | Traduisez par le proverbe français de même sens : Practice makes perfect. | — | ["C'est en forgeant qu'on devient forgeron"] | false | Translate a proverb by its equivalent, not word for word.
+- c1-proverbs-and-sayings-ex010 | translate | Traduisez par le proverbe français de même sens : Better late than never. | — | ["Mieux vaut tard que jamais"] | false | Here the French and English proverbs happen to match closely.
+- c1-proverbs-and-sayings-ex011 | translate | Traduisez par le proverbe français de même sens : Where there's a will, there's a way. | — | ["Vouloir, c'est pouvoir","Quand on veut, on peut"] | false | Vouloir, c'est pouvoir; in speech, people also say quand on veut, on peut.
+- c1-proverbs-and-sayings-ex012 | reformulation | Reformulez avec un proverbe : Attends demain pour décider, tu y verras plus clair. | — | ["La nuit porte conseil"] | false | La nuit porte conseil says exactly this.
+- c1-proverbs-and-sayings-ex013 | reformulation | Reformulez avec « comme dit le proverbe » et le proverbe sur l'ours : Ne parlons pas de succès avant la fin du match. | — | ["Comme dit le proverbe, il ne faut pas vendre la peau de l'ours avant de l'avoir tué"] | false | Comme dit le proverbe introduces a proverb in full.
+- c1-proverbs-and-sayings-ex014 | error-correction | Corrigez l'erreur : L'habit ne fait pas la moine. | — | ["L'habit ne fait pas le moine"] | false | Le moine is masculine. Proverbs have a fixed form: change nothing.
+- c1-proverbs-and-sayings-ex015 | error-correction | Corrigez l'erreur : Les absents ont toujours raison. | — | ["Les absents ont toujours tort"] | false | The proverb says the opposite: people who aren't there get the blame.
+- c1-proverbs-and-sayings-ex016 | reorder | Remettez dans l'ordre : Nothing ventured, nothing gained. | — | ["Qui ne risque rien n'a rien"] | false | A proverb has a fixed word order.
+
+## c1-advanced-idioms
+
+### Vocab
+
+fr | pron | en | note
+
+- tenir la route | tuh-neer lah ROOT | to hold up, to be sound (an argument, a plan) | Everyday; also in journalism.
+- ne pas y aller par quatre chemins | nuh pah-zee ah-lay par kah-truh shuh-MAN | not to beat about the bush, to be direct | Everyday.
+- tourner autour du pot | toor-nay oh-toor dew POH | to beat about the bush | Everyday.
+- noyer le poisson | nwah-yay luh pwah-SOHN | to cloud the issue, to dodge the question | Everyday; often critical.
+- enfoncer une porte ouverte | ahn-fohn-say ew-nuh port oo-VEHRT | to state the obvious | Everyday.
+- mettre de l'eau dans son vin | meh-truh duh LOH dahn sohn VAN | to tone down one's demands, to compromise | Everyday; also in journalism.
+- couper la poire en deux | koo-pay lah PWAHR ahn DUH | to split the difference | Everyday.
+- ménager la chèvre et le chou | may-nah-zhay lah SHEH-vruh ay luh SHOO | to try to please both sides | Everyday.
+- prendre le taureau par les cornes | prahn-druh luh toh-ROH par lay KORN | to take the bull by the horns | Everyday.
+- jeter l'éponge | zhuh-tay lay-POHNZH | to throw in the towel, to give up | Everyday.
+- avoir carte blanche | ah-vwahr kart BLAHNSH | to have a free hand | —
+- mettre la charrue avant les bœufs | meh-truh lah shah-REW ah-vahn lay BUH | to put the cart before the horse | —
+- être dans le même bateau | eh-truh dahn luh mem bah-TOH | to be in the same boat | —
+- faire d'une pierre deux coups | fehr dewn PYEHR duh KOO | to kill two birds with one stone | —
+- mettre la main à la pâte | meh-truh lah MAN ah lah PAHT | to lend a hand, to muck in | Familiar.
+- se serrer la ceinture | suh seh-ray lah san-TEWR | to tighten one's belt | —
+- payer les pots cassés | peh-yay lay poh kah-SAY | to pay for someone else's mistakes, to take the blame | Familiar.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-advanced-idioms-ex001 | multiple-choice | Indiquez le sens de la phrase : Ton argument ne tient pas la route. | ["Your argument doesn't hold up.","Your argument is too long.","Your argument is about traffic."] | ["Your argument doesn't hold up."] | false | Tenir la route: to be solid, like a car that holds the road.
+- c1-advanced-idioms-ex002 | multiple-choice | Indiquez le sens de la phrase : Le ministre a noyé le poisson. | ["The minister dodged the question.","The minister gave a direct answer.","The minister was in a boat."] | ["The minister dodged the question."] | false | Noyer le poisson: to bury a question under other topics so it's never answered.
+- c1-advanced-idioms-ex003 | multiple-choice | Indiquez le sens de la phrase : Il n'y est pas allé par quatre chemins. | ["He said it directly.","He took a long route.","He hesitated a lot."] | ["He said it directly."] | false | Ne pas y aller par quatre chemins: to be direct, the opposite of tourner autour du pot.
+- c1-advanced-idioms-ex004 | connector-choice | Choisissez l'expression : Arrête de ___ : dis-moi franchement ce que tu penses. | ["tourner autour du pot","couper la poire en deux","faire d'une pierre deux coups"] | ["tourner autour du pot"] | false | Tourner autour du pot: to avoid getting to the point.
+- c1-advanced-idioms-ex005 | connector-choice | Choisissez l'expression : Vous demandez dix, nous proposons six. Coupons ___ : huit. | ["la poire en deux","les pots cassés","la route"] | ["la poire en deux"] | false | Couper la poire en deux: to meet halfway.
+- c1-advanced-idioms-ex006 | fill-in | Complétez : Après trois échecs, elle a fini par jeter l'___. | — | ["éponge"] | false | Jeter l'éponge: to give up.
+- c1-advanced-idioms-ex007 | fill-in | Complétez : Pour trouver un accord, chacun doit mettre de l'eau dans son ___. | — | ["vin"] | false | Mettre de l'eau dans son vin: to soften one's demands.
+- c1-advanced-idioms-ex008 | reformulation | Reformulez avec « enfoncer une porte ouverte » : Tu dis une chose que tout le monde sait déjà. | — | ["Tu enfonces une porte ouverte"] | false | Enfoncer une porte ouverte: to state the obvious.
+- c1-advanced-idioms-ex009 | reformulation | Reformulez avec « avoir carte blanche » : La directrice m'a laissé faire comme je veux. | — | ["J'ai carte blanche","J'ai eu carte blanche"] | false | Avoir carte blanche: to have a free hand.
+- c1-advanced-idioms-ex010 | reformulation | Reformulez avec « faire d'une pierre deux coups », au passé composé : En allant à Lyon, j'ai vu le client et ma sœur. | — | ["En allant à Lyon, j'ai fait d'une pierre deux coups","J'ai fait d'une pierre deux coups en allant à Lyon"] | true | Faire d'une pierre deux coups: to achieve two things at once.
+- c1-advanced-idioms-ex011 | register-shift | Transformez en français courant, sans expression imagée, avec « payer pour les erreurs des autres » : Ce sont les salariés qui ont payé les pots cassés. | — | ["Ce sont les salariés qui ont payé pour les erreurs des autres"] | false | Payer les pots cassés: to pay for other people's mistakes.
+- c1-advanced-idioms-ex012 | error-correction | Corrigez l'erreur : Il a mis les bœufs avant la charrue. | — | ["Il a mis la charrue avant les bœufs"] | true | The idiom is fixed: mettre la charrue avant les bœufs.
+- c1-advanced-idioms-ex013 | error-correction | Corrigez l'erreur : Nous sommes dans un même bateau. | — | ["Nous sommes dans le même bateau"] | false | The fixed form is dans le même bateau.
+- c1-advanced-idioms-ex014 | translate | Traduisez par l'expression française de même sens : Let's take the bull by the horns. | — | ["Prenons le taureau par les cornes"] | false | Here French and English share the image.
+- c1-advanced-idioms-ex015 | translate | Traduisez par l'expression française de même sens : We'll have to tighten our belts. | — | ["Il faudra se serrer la ceinture","Nous allons devoir nous serrer la ceinture","Il va falloir se serrer la ceinture"] | false | Se serrer la ceinture: to spend less.
+- c1-advanced-idioms-ex016 | reorder | Remettez dans l'ordre : He tries to please both sides. | — | ["Il essaie de ménager la chèvre et le chou"] | false | Ménager la chèvre et le chou: to keep both sides happy.
+
+## c1-culture-regional-languages
+
+### Vocab
+
+fr | pron | en | note
+
+- une langue régionale | ewn lahng ray-zhyoh-NAHL | a regional language | —
+- un dialecte | uhn dyah-LEKT | a dialect | —
+- une charte | ewn SHART | a charter | —
+- ratifier | rah-tee-FYAY | to ratify | —
+- l'unité (f.) | lew-nee-TAY | unity | —
+- le breton | luh bruh-TOHN | Breton (a Celtic language) | —
+- l'occitan (m.) | lok-see-TAHN | Occitan (a Romance language of the south) | —
+- l'alsacien (m.) | lal-zah-SYAN | Alsatian (a Germanic dialect) | —
+- le basque | luh BASK | Basque | —
+- le corse | luh KORSS | Corsican | —
+- le créole | luh kray-OLL | Creole | —
+- une langue romane / celtique / germanique | ewn lahng roh-MAHN / sel-TEEK / zhehr-mah-NEEK | a Romance / Celtic / Germanic language | —
+- une chocolatine | ewn shoh-koh-lah-TEEN | a pain au chocolat (regional, south-west) | —
+- le français régional | luh frahn-seh ray-zhyoh-NAHL | regional French (the French of a region) | —
+- l'enseignement (m.) | lahn-sen-yuh-MAHN | teaching, education | —
+- une école immersive | ew-nay-koll ee-mehr-SEEV | an immersion school (lessons mainly in the regional language) | —
+- un panneau bilingue | uhn pah-noh bee-LANG | a bilingual sign | —
+- la transmission | lah trahns-mee-SYOHN | passing on (a language, from one generation to the next) | —
+- une génération | ewn zhay-nay-rah-SYOHN | a generation | —
+- le sud | luh SEWD | the south | —
+- les départements d'outre-mer | lay day-par-tuh-mahn doo-truh-MEHR | the overseas departments | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-culture-regional-languages-ex001 | multiple-choice | Indiquez la famille du breton. | ["une langue celtique","une langue romane","une langue germanique"] | ["une langue celtique"] | false | Breton belongs to the Celtic family, like Welsh and Cornish.
+- c1-culture-regional-languages-ex002 | multiple-choice | Indiquez la langue régionale qui ne fait partie d'aucune grande famille de langues européennes. | ["le basque","l'occitan","le corse"] | ["le basque"] | false | Basque is not an Indo-European language; Occitan and Corsican are Romance languages.
+- c1-culture-regional-languages-ex003 | multiple-choice | Indiquez ce que dit la Constitution depuis 2008 sur les langues régionales. | ["Elles appartiennent au patrimoine de la France.","Elles sont des langues officielles.","Elles sont interdites à l'école."] | ["Elles appartiennent au patrimoine de la France."] | false | Since 2008, the Constitution says that regional languages belong to France's heritage; French remains the language of the Republic.
+- c1-culture-regional-languages-ex004 | connector-choice | Choisissez le mot : Dans une école ___, la majorité des cours ont lieu en breton. | ["immersive","officielle","germanique"] | ["immersive"] | false | Une école immersive teaches mainly in the regional language.
+- c1-culture-regional-languages-ex005 | connector-choice | Choisissez le verbe : La France a signé la Charte européenne des langues régionales, mais elle ne l'a pas ___. | ["ratifiée","signée","parlée"] | ["ratifiée"] | false | Signing is the first step; ratifying makes the charter binding. France has signed but not ratified it.
+- c1-culture-regional-languages-ex006 | fill-in | Complétez : En Alsace, on parle aussi l'___, un dialecte germanique. | — | ["alsacien"] | false | L'alsacien: the Germanic dialect of Alsace.
+- c1-culture-regional-languages-ex007 | fill-in | Complétez : Aux Antilles et à La Réunion, on parle aussi des ___ à base française. | — | ["créoles"] | false | Les créoles: languages born from contact between French and other languages.
+- c1-culture-regional-languages-ex008 | reformulation | Reformulez en commençant par « La transmission de la langue », avec « diminuer » : Les parents parlent de moins en moins la langue à leurs enfants. | — | ["La transmission de la langue diminue","La transmission de la langue aux enfants diminue","La transmission de la langue des parents aux enfants diminue"] | false | La transmission names the passing on of a language between generations.
+- c1-culture-regional-languages-ex009 | reformulation | Reformulez avec « il y a un panneau bilingue » : À l'entrée du village, le nom est écrit en français et en breton. | — | ["À l'entrée du village, il y a un panneau bilingue","Il y a un panneau bilingue à l'entrée du village"] | true | Un panneau bilingue: a sign in two languages.
+- c1-culture-regional-languages-ex010 | error-correction | Corrigez l'erreur : Le basque est une langue romane. | — | ["Le basque n'est pas une langue romane"] | false | Occitan is a Romance language; Basque doesn't belong to any of the main European families.
+- c1-culture-regional-languages-ex011 | error-correction | Corrigez l'erreur : Le corse est une langue germanique. | — | ["Le corse est une langue romane"] | false | Corsican is a Romance language, close to the Italian of Tuscany.
+- c1-culture-regional-languages-ex012 | translate | Traduisez (une langue régionale) : Breton is a regional language. | — | ["Le breton est une langue régionale"] | false | Language names are masculine and written without a capital in French.
+- c1-culture-regional-languages-ex013 | translate | Traduisez (l'enseignement) : The teaching of regional languages exists in many schools. | — | ["L'enseignement des langues régionales existe dans de nombreuses écoles","L'enseignement des langues régionales existe dans beaucoup d'écoles"] | false | L'enseignement de + subject.
+- c1-culture-regional-languages-ex014 | translate | Traduisez (le patrimoine) : These languages are part of France's heritage. | — | ["Ces langues font partie du patrimoine de la France","Ces langues appartiennent au patrimoine de la France"] | false | Faire partie de or appartenir à + le patrimoine.
+- c1-culture-regional-languages-ex015 | multiple-choice | Indiquez la phrase correcte. | ["La langue de la République est le français.","Le breton est la langue officielle de la Bretagne.","Les langues régionales n'ont aucune place dans l'enseignement."] | ["La langue de la République est le français."] | false | The Constitution states that French is the language of the Republic; regional languages are taught but aren't official.
+- c1-culture-regional-languages-ex016 | reorder | Remettez dans l'ordre : Regional languages belong to France's heritage. | — | ["Les langues régionales appartiennent au patrimoine de la France"] | false | This is the wording of the Constitution since 2008.
+
+## c1-culture-francophonie
+
+### Vocab
+
+fr | pron | en | note
+
+- l'OIF (l'Organisation internationale de la Francophonie) | loh-ee-EF | the OIF (International Organization of La Francophonie) | —
+- un sommet | uhn soh-MEH | a summit (a meeting of heads of State) | —
+- un pays membre | uhn pay-ee MAHN-bruh | a member country | —
+- une langue de travail | ewn lahng duh trah-VAH-y | a working language | —
+- la colonisation | lah koh-loh-nee-zah-SYOHN | colonization | —
+- le néerlandais | luh nay-ehr-lahn-DEH | Dutch | —
+- l'allemand (m.) | lahl-MAHN | German (the language) | —
+- le romanche | luh roh-MAHNSH | Romansh (a language of Switzerland) | —
+- huitante | wee-TAHNT | eighty (in some Swiss cantons) | France: quatre-vingts.
+- une votation | ewn voh-tah-SYOHN | a popular vote, a referendum (Switzerland) | —
+- un canton | uhn kahn-TOHN | a canton (a Swiss region) | —
+- un territoire | uhn teh-ree-TWAHR | a territory | —
+- la Guyane / Mayotte | lah gwee-YAHN / mah-YOT | French Guiana / Mayotte | —
+- une variété | ewn vah-ryay-TAY | a variety (of a language) | —
+- un régionalisme | uhn ray-zhyoh-nah-LEESM | a regional word or expression | —
+- partagé (partager) | par-tah-ZHAY | shared (to share) | —
+- les dictionnaires (m.) | lay deek-syoh-NEHR | dictionaries | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-culture-francophonie-ex001 | multiple-choice | Indiquez le sens de « la francophonie » écrit avec une minuscule. | ["all the people and countries that use French","the international organization","the French government"] | ["all the people and countries that use French"] | false | With a small f, la francophonie is the French-speaking world; with a capital, la Francophonie is the institution.
+- c1-culture-francophonie-ex002 | multiple-choice | Indiquez ce que veut dire « septante » en Belgique et en Suisse. | ["soixante-dix","soixante","quatre-vingts"] | ["soixante-dix"] | false | Septante is seventy in Belgium and Switzerland; France says soixante-dix.
+- c1-culture-francophonie-ex003 | multiple-choice | Indiquez les langues officielles de la Belgique. | ["le français, le néerlandais et l'allemand","le français seulement","le français et l'anglais"] | ["le français, le néerlandais et l'allemand"] | false | Belgium has three official languages: French, Dutch and German.
+- c1-culture-francophonie-ex004 | multiple-choice | Indiquez le pays où « une votation » est un mot courant. | ["la Suisse","la Belgique","le Sénégal"] | ["la Suisse"] | false | Swiss citizens often vote on specific questions: une votation.
+- c1-culture-francophonie-ex005 | connector-choice | Choisissez le mot : Le français est une langue de ___ dans plusieurs organisations internationales. | ["travail","sommet","membre"] | ["travail"] | false | Une langue de travail: a language used in the daily work of an organization.
+- c1-culture-francophonie-ex006 | connector-choice | Choisissez le mot : Tous les deux ans environ, les chefs d'État des pays membres se réunissent lors d'un ___. | ["sommet","canton","territoire"] | ["sommet"] | false | Le Sommet de la Francophonie brings together the heads of State and government.
+- c1-culture-francophonie-ex007 | fill-in | Complétez : En Suisse, on parle allemand, français, italien et ___. | — | ["romanche"] | false | Switzerland has four national languages, including Romansh.
+- c1-culture-francophonie-ex008 | fill-in | Complétez : Un mot qu'on dit dans une seule région est un ___. | — | ["régionalisme"] | false | Un régionalisme: a word or expression typical of one area.
+- c1-culture-francophonie-ex009 | reformulation | Reformulez en français de France, avec « soixante-dix » : J'ai septante euros. | — | ["J'ai soixante-dix euros"] | false | Septante (Belgium, Switzerland) = soixante-dix (France).
+- c1-culture-francophonie-ex010 | reformulation | Reformulez avec « un pays membre » : Ce pays fait partie de l'OIF. | — | ["C'est un pays membre de l'OIF","Ce pays est un pays membre de l'OIF"] | false | Un pays membre de l'OIF: a country that belongs to the organization.
+- c1-culture-francophonie-ex011 | error-correction | Corrigez l'erreur : En Suisse, on dit « huitante » dans tous les cantons. | — | ["En Suisse, on dit « huitante » dans certains cantons"] | false | Huitante is used in some Swiss cantons only; others say quatre-vingts.
+- c1-culture-francophonie-ex012 | error-correction | Corrigez l'erreur : Le Canada a une seule langue officielle, le français. | — | ["Le Canada a deux langues officielles, le français et l'anglais"] | true | Canada is officially bilingual at the federal level; French is the only official language of Québec.
+- c1-culture-francophonie-ex013 | translate | Traduisez (une langue de travail) : French is a working language of the United Nations. | — | ["Le français est une langue de travail des Nations unies"] | false | Une langue de travail de + the organization.
+- c1-culture-francophonie-ex014 | translate | Traduisez (une variété) : There are several varieties of French. | — | ["Il existe plusieurs variétés de français","Il y a plusieurs variétés de français"] | true | Une variété: a form of a language spoken in one place.
+- c1-culture-francophonie-ex015 | multiple-choice | Indiquez la phrase la plus neutre sur l'histoire du français en Afrique. | ["Le français est arrivé en Afrique avec la colonisation, puis beaucoup de pays l'ont gardé après leur indépendance.","Le français est la seule vraie langue de l'Afrique.","Le français n'a aucune place en Afrique aujourd'hui."] | ["Le français est arrivé en Afrique avec la colonisation, puis beaucoup de pays l'ont gardé après leur indépendance."] | false | A neutral sentence states the history and the present without judging.
+- c1-culture-francophonie-ex016 | reorder | Remettez dans l'ordre : French is shared by many countries. | — | ["Le français est partagé par de nombreux pays"] | false | Être partagé par: the passive with par.
+
+## c1-register-shifting
+
+### Vocab
+
+fr | pron | en | note
+
+- le registre administratif | luh ruh-zhees-truh ad-mee-nees-trah-TEEF | the administrative register (letters to institutions) | —
+- monter / descendre d'un registre | mohn-TAY / day-sahn-druh duhn ruh-ZHEES-truh | to move up / down a register | —
+- un mélange des registres | uhn may-lahnzh day ruh-ZHEES-truh | a mix of registers | —
+- ça craint | sah KRAN | that's bad, that's a pain (slang) | —
+- galérer | gah-lay-RAY | to struggle, to have a hard time (familiar) | From c'est la galère.
+- se geler | suh zhuh-LAY | to be freezing (familiar) | On se gèle.
+- l'appart | lah-PAR | the flat (familiar, short for l'appartement) | —
+- le locataire / la locataire | luh loh-kah-TEHR | the tenant | —
+- le propriétaire / la propriétaire | luh proh-pree-ay-TEHR | the owner, the landlord | —
+- un technicien / une technicienne | uhn tek-nee-SYAN / ewn tek-nee-SYEN | a technician | —
+- intervenir | an-tehr-vuh-NEER | to come and deal with something (a repair, a problem) | Like venir: il est intervenu.
+- dans les meilleurs délais | dahn lay meh-yuhr day-LEH | as soon as possible (formal) | —
+- faire le nécessaire | fehr luh nay-seh-SEHR | to do what is needed | —
+- le logement | luh lozh-MAHN | the accommodation, the flat | —
+- persister | pehr-sees-TAY | to continue, to persist | —
+- la température | lah tahn-pay-rah-TEWR | the temperature | —
+- un radiateur | uhn rah-dyah-TUHR | a heater, a radiator | —
+- top | top | great, the best (familiar) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-register-shifting-ex001 | multiple-choice | Indiquez le registre de la phrase : On se gèle, le chauffage est mort, ça craint. | ["familier","courant","soutenu"] | ["familier"] | false | Se geler, mort for a broken heater and ça craint are familiar and slang.
+- c1-register-shifting-ex002 | multiple-choice | Indiquez le registre de la phrase : Je vous saurais gré de bien vouloir faire intervenir un technicien dans les meilleurs délais. | ["soutenu","courant","familier"] | ["soutenu"] | false | Je vous saurais gré de, bien vouloir and dans les meilleurs délais belong to formal, administrative French.
+- c1-register-shifting-ex003 | multiple-choice | Indiquez la phrase qui mélange les registres. | ["Madame, je vous saurais gré de bien vouloir réparer ce truc.","Madame, je vous saurais gré de bien vouloir réparer le chauffage.","Salut, tu peux réparer le truc ?"] | ["Madame, je vous saurais gré de bien vouloir réparer ce truc."] | false | Un truc is familiar; it clashes with je vous saurais gré de.
+- c1-register-shifting-ex004 | connector-choice | Choisissez l'expression du registre administratif : Merci de ___ pour que le chauffage soit réparé. | ["faire le nécessaire","galérer","vous geler"] | ["faire le nécessaire"] | false | Faire le nécessaire: to do what is needed, in formal requests.
+- c1-register-shifting-ex005 | fill-in | Complétez au registre soutenu : Merci d'intervenir dans les meilleurs ___. | — | ["délais"] | false | Dans les meilleurs délais: as soon as possible, in formal French.
+- c1-register-shifting-ex006 | register-shift | Transformez au registre courant, avec « froid » : On se gèle dans l'appart. | — | ["Il fait froid dans l'appartement","Il fait très froid dans l'appartement","Nous avons froid dans l'appartement","On a froid dans l'appartement"] | true | Se geler becomes il fait froid, and l'appart becomes l'appartement.
+- c1-register-shifting-ex007 | register-shift | Transformez au registre courant, avec « en panne » : Le chauffage est mort. | — | ["Le chauffage est en panne"] | false | Mort (familiar, for a machine) becomes en panne.
+- c1-register-shifting-ex008 | register-shift | Transformez au registre soutenu, avec « je vous saurais gré de bien vouloir » : Vous pouvez envoyer quelqu'un ? | — | ["Je vous saurais gré de bien vouloir envoyer quelqu'un","Je vous saurais gré de bien vouloir m'envoyer quelqu'un","Je vous saurais gré de bien vouloir envoyer un technicien"] | false | A direct question becomes a formal request in the conditionnel.
+- c1-register-shifting-ex009 | register-shift | Transformez au registre familier, avec « on » et « galérer » : Nous avons beaucoup de difficultés depuis lundi. | — | ["On galère depuis lundi","On galère beaucoup depuis lundi","On galère grave depuis lundi"] | false | On for nous and galérer for avoir des difficultés.
+- c1-register-shifting-ex010 | error-correction | Corrigez le mélange des registres (gardez le registre soutenu) : Je vous prie d'agréer mes salutations distinguées, et merci, c'est sympa. | — | ["Je vous prie d'agréer mes salutations distinguées","Je vous prie d'agréer mes salutations distinguées, et je vous remercie"] | false | C'est sympa is familiar: it doesn't belong after a formal closing.
+- c1-register-shifting-ex011 | error-correction | Corrigez le mélange des registres (gardez le registre familier) : Salut Karim, je vous saurais gré de m'apporter un pull. | — | ["Salut Karim, tu peux m'apporter un pull ?","Salut Karim, tu pourrais m'apporter un pull ?","Salut Karim, est-ce que tu peux m'apporter un pull ?","Salut Karim, tu m'apportes un pull ?"] | false | Je vous saurais gré de is administrative; to a friend, tu peux or tu pourrais.
+- c1-register-shifting-ex012 | translate | Traduisez au registre soutenu (le locataire, signaler) : The tenant reported the problem on Monday. | — | ["Le locataire a signalé le problème lundi","La locataire a signalé le problème lundi","Lundi, le locataire a signalé le problème","Lundi, la locataire a signalé le problème"] | true | Signaler un problème: the neutral, formal verb.
+- c1-register-shifting-ex013 | translate | Traduisez au registre familier (ça craint) : That's really bad. | — | ["Ça craint vraiment","Ça craint grave"] | false | Ça craint is slang; grave as an intensifier is familiar too.
+- c1-register-shifting-ex014 | reformulation | Reformulez avec « persister » : Le problème continue. | — | ["Le problème persiste"] | false | Persister: the formal verb for a problem that goes on.
+- c1-register-shifting-ex015 | reformulation | Reformulez avec « intervenir » : Un technicien doit venir réparer le chauffage. | — | ["Un technicien doit intervenir","Un technicien doit intervenir pour réparer le chauffage","Un technicien doit intervenir sur le chauffage"] | false | Intervenir: to come and deal with a problem.
+- c1-register-shifting-ex016 | reorder | Remettez dans l'ordre : Please do what is needed as soon as possible. | — | ["Merci de faire le nécessaire dans les meilleurs délais"] | false | Two formal formulas in one request.
+
+## c1-review-living
+
+### Vocab
+
+fr | pron | en | note
+
+- une variante | ewn vah-RYAHNT | a variant (another form of the same word or phrase) | —
+- le parler | luh par-LAY | the local speech, the way of speaking (of a place or group) | —
+- une expression régionale | ew-nek-spreh-syohn ray-zhyoh-NAL | a regional expression (a word or phrase used in one region) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-review-living-ex001 | multiple-choice | Choisissez le proverbe : Il pleut depuis trois jours, mais demain il fera beau. | ["Après la pluie, le beau temps.","L'habit ne fait pas le moine.","Qui se ressemble s'assemble."] | ["Après la pluie, le beau temps."] | false | Après la pluie, le beau temps: things will get better. Here it also fits the weather literally.
+- c1-review-living-ex002 | fill-in | Complétez le proverbe : C'est en forgeant qu'on devient ___. | — | ["forgeron"] | false | C'est en forgeant qu'on devient forgeron: practice makes perfect.
+- c1-review-living-ex003 | reformulation | Reformulez avec le proverbe qui commence par « mieux vaut » : Il vaut mieux arriver en retard que ne pas venir du tout. | — | ["Mieux vaut tard que jamais"] | false | Mieux vaut tard que jamais: better late than never.
+- c1-review-living-ex004 | multiple-choice | Choisissez l'expression : Tout le monde doit aider à installer les tables : il faut ___. | ["mettre la main à la pâte","jeter l'éponge","noyer le poisson"] | ["mettre la main à la pâte"] | false | Mettre la main à la pâte: to lend a hand. Jeter l'éponge is to give up; noyer le poisson is to dodge the question.
+- c1-review-living-ex005 | reformulation | Reformulez avec « jeter l'éponge », au passé composé : Après trois essais, il a tout arrêté. | — | ["Après trois essais, il a jeté l'éponge","Il a jeté l'éponge après trois essais"] | true | Jeter l'éponge: to throw in the towel, to give up.
+- c1-review-living-ex006 | translate | Traduisez avec « être dans le même bateau » : We're all in the same boat. | — | ["Nous sommes tous dans le même bateau","On est tous dans le même bateau"] | false | Être dans le même bateau: to share the same difficult situation. On est is spoken; nous sommes is standard.
+- c1-review-living-ex007 | multiple-choice | Indiquez le sens de « huitante » en Suisse, dans les cantons où on dit ce mot. | ["quatre-vingts","soixante-dix","quatre-vingt-dix"] | ["quatre-vingts"] | false | Huitante is eighty in some Swiss cantons; septante is seventy and nonante ninety.
+- c1-review-living-ex008 | multiple-choice | Indiquez le mot qu'on dit en Suisse pour le repas du soir. | ["le souper","le petit-déjeuner","le déjeuner"] | ["le souper"] | false | In Switzerland, as in Belgium and Québec, le souper is the evening meal.
+- c1-review-living-ex009 | fill-in | Complétez : Dans le sud-ouest, « chocolatine » n'est pas une faute : c'est une expression ___. | — | ["régionale"] | false | Une expression régionale is used in one region; dictionaries label it, but it isn't a mistake.
+- c1-review-living-ex010 | error-correction | Corrigez l'erreur : En Suisse, le souper est le repas de midi. | — | ["En Suisse, le souper est le repas du soir","En Suisse, le dîner est le repas de midi"] | false | In Switzerland, le dîner is at midday and le souper in the evening.
+- c1-review-living-ex011 | multiple-choice | Choisissez la bonne réponse : Le français est une ___ des Nations unies. | ["langue de travail","langue régionale","école immersive"] | ["langue de travail"] | false | French is one of the working languages of the United Nations.
+- c1-review-living-ex012 | register-shift | Transformez au registre courant, avec « reporter » au passif : Le souper, c'est mort pour samedi, on le fait samedi prochain. | — | ["Le souper est reporté au samedi suivant","Le souper est reporté à samedi prochain","Le souper est reporté au samedi prochain","Le souper de samedi est reporté au samedi suivant"] | true | C'est mort (familiar) becomes the neutral passive est reporté.
+- c1-review-living-ex013 | register-shift | Transformez au registre soutenu, avec « je vous saurais gré de bien vouloir » : Vous pouvez nous prêter la place ? | — | ["Je vous saurais gré de bien vouloir nous prêter la place"] | false | A direct question becomes the formal request je vous saurais gré de bien vouloir + infinitive.
+- c1-review-living-ex014 | error-correction | Corrigez le mélange des registres (gardez le registre soutenu) : Je vous saurais gré de bien vouloir nous prêter la place, c'est super sympa. | — | ["Je vous saurais gré de bien vouloir nous prêter la place"] | false | C'est super sympa is familiar; it doesn't belong in a formal request.
+- c1-review-living-ex015 | translate | Traduisez au registre familier, avec « on » et « se geler », au passé composé : We were freezing on the square. | — | ["On s'est gelés sur la place","On s'est gelé sur la place"] | true | Se geler is familiar. With on meaning nous, the participle can agree in the plural or stay singular.
+- c1-review-living-ex016 | multiple-choice | Choisissez le mot : Huitante est une ___ régionale de quatre-vingts. | ["variante","charte","transmission"] | ["variante"] | false | Une variante: another form of the same word.
+- c1-review-living-ex017 | multiple-choice | Choisissez le mot : Le ___ d'une ville, c'est sa façon de parler : son accent, ses mots, ses expressions. | ["parler","sommet","panneau"] | ["parler"] | false | Le parler: the way people speak in a place.
+- c1-review-living-ex018 | reorder | Remettez dans l'ordre : As the saying goes, every cloud has a silver lining. | — | ["Comme dit le proverbe, après la pluie, le beau temps"] | false | Comme dit le proverbe introduces the saying.

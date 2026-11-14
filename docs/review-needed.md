@@ -1790,8 +1790,8 @@ Every date, tradition and regional detail, for checking:
 
 ### c1-rhetorical-devices
 
-- **Definitions:** *l'anaphore*, *la gradation*, *l'antithèse*, *l'oxymore* (*une victoire amère*), *la question rhétorique*, *la litote*, *l'hyperbole*, *la métaphore*, *la comparaison*. Confirm each definition and example.
-- **"The litote is especially French: a speaker who says *ce n'était pas mal* often means it was very good."** Confirm.
+- **Definitions:** *l'anaphore*, *la gradation*, *l'antithèse*, *l'oxymore* (*un silence assourdissant*), *la question rhétorique*, *la litote*, *l'hyperbole*, *la métaphore*, *la comparaison*. Confirm each definition and example.
+- **"The litote is very common in French: a speaker who says *ce n'était pas mal* often means it was very good."** Confirm.
 - **Advice (rules of thumb):** "three items are enough" for an anaphora; "one or two devices per paragraph… three or four in a whole speech". Confirm as advice.
 
 ### c1-subjunctive-nuances
@@ -1805,9 +1805,9 @@ Every date, tradition and regional detail, for checking:
 
 ### c1-formal-debate
 
-- **Format (rule of thumb):** opening statements, rebuttals, conclusions; "*il n'en demeure pas moins que* (more formal than *il n'en reste pas moins que*)". Confirm.
+- **Format (rule of thumb):** opening statements, rebuttals, conclusions; "*il n'en demeure pas moins que*, a slightly more literary variant of *il n'en reste pas moins que*". Confirm.
 - **"Many juries count [a new argument in the conclusion] against you."** Confirm as advice.
-- **The debate** (invented, on free entry to national museums): Karim's "*Une gratuité ciblée coûte moins et aide mieux*" and Léa's "*là où l'entrée est devenue gratuite pour les jeunes, leur fréquentation a nettement augmenté*". These are arguments in an invented debate, not facts; confirm the text presents them neutrally.
+- **The debate** (invented, on free entry to national museums): Léa's rebuttal *Justement : plus de visiteurs, c'est plus de dons, donc moins d'argent public à trouver. Or, une entrée gratuite ferait sans doute venir ceux qui ne viennent jamais, à commencer par les jeunes.* and Karim's *Mais pour tous, la fréquentation augmenterait surtout chez les visiteurs qui venaient déjà.* These are hypotheses in an invented debate, not facts. Confirm they read as such.
 
 ### c1-public-speaking
 
@@ -1829,5 +1829,62 @@ Every date, tradition and regional detail, for checking:
 
 ### c1-review-rhetoric
 
-- **The model speech** (invented market, town meeting): exactly three devices (rhetorical question at the start and end, anaphora *nous proposons*, litote *ce ne serait pas une petite perte*), one concession with two fronted *que* clauses. Confirm it reads naturally and that no other device is obvious.
+- **The model speech** (invented market, town meeting): exactly three devices (a rhetorical question at the hook, the anaphora *nous proposons*, a closing rhetorical question), one concession with two fronted *que* clauses, the plan announcing three parts (*…et enfin à nos solutions*). Confirm it reads naturally.
 - **New words:** *un orateur / une oratrice*, *un argument d'autorité*, *captiver*, *un plaidoyer*. Confirm.
+
+### Prompt 35 changes to Unit 4
+
+- **c1-culture-satire-and-humour:** "most fables state *une morale*, often at the end, sometimes at the start"; the moral of *Le Loup et l'Agneau* is its opening line. Confirm both against the text of the fable.
+- **c1-culture-satire-and-humour:** the article now keeps one tense per paragraph (present frame; imparfait for La Fontaine and Molière; passé composé *Voltaire a choisi… a critiqué*; present *Aujourd'hui, on lit encore les fables…*). Confirm it reads naturally.
+- **c1-formal-debate:** the after-debate dialogue now says Léa didn't answer the targeted-free-entry argument: *une gratuité pour tous est plus simple, et personne n'a besoin de montrer qui il est*. Confirm.
+- **c1-public-speaking:** the speech's history *Ce projet est né il y a cinq ans, quand notre vieille bibliothèque, déjà ouverte le dimanche, est devenue trop petite pour la ville.* and the hours *du mardi au dimanche, le dimanche l'après-midi seulement*. Invented; confirm they read naturally.
+- **c1-irony-and-understatement:** *il ne fait pas chaud* is now a sincere understatement that sets up the ironic *brûlants*; the review adds *La salle était froide, et nous avons gardé nos manteaux.* Confirm the irony still reads clearly.
+- **c1-rhetorical-devices:** *un silence assourdissant* as the oxymore example. Confirm it's a natural, current example.
+
+### c1-proverbs-and-sayings
+
+- **Meanings and equivalents:** every row of the proverb table (for example *il ne faut pas vendre la peau de l'ours avant de l'avoir tué* = don't count your chickens before they're hatched; *l'habit ne fait pas le moine* = don't judge a book by its cover; *les absents ont toujours tort*). Confirm each.
+- **"French speakers often say only the first half of a proverb, and leave the listener to finish it… Saying the whole proverb can even sound a little heavy in conversation."** Confirm.
+- **"*Un dicton* is similar but often more local or practical, about the weather or the seasons."** Confirm.
+- **"*Qui se ressemble s'assemble*… often with a hint of criticism."** Confirm.
+- **Advice:** "use one proverb per conversation or text at most". Confirm as advice.
+
+### c1-advanced-idioms
+
+- **Register:** "Most of the idioms here are everyday French: fine in a conversation at work, in an email to a colleague and in a newspaper article, but out of place in a formal letter." Confirm for each idiom in the vocab.
+- **Meanings:** each vocab gloss (*noyer le poisson*, *ménager la chèvre et le chou*, *payer les pots cassés*, *mettre la main à la pâte*). Confirm.
+- **"Many idioms also have a negative form that's very common"** (*ne pas tenir la route*). Confirm.
+
+### c1-culture-regional-languages
+
+- **Constitution:** "Since 1992, the Constitution has said: *la langue de la République est le français*." "Since 2008, the Constitution has added that *les langues régionales appartiennent au patrimoine de la France*." Confirm the dates and wording (Articles 2 and 75-1).
+- **"France signed the European *charte* on regional or minority languages in 1999, but has not *ratifié* it."** Confirm.
+- **Schools:** "Diwan schools for Breton, Calandretas for Occitan and Ikastolak for Basque", "run by associations". Confirm names and spelling.
+- **Article:** *Il y a plus de cent ans, l'école de la République enseignait en français, et beaucoup de familles ont cessé de parler leur langue régionale à leurs enfants. Les spécialistes ne sont pas tous d'accord sur les raisons et la vitesse de ce changement.* Sensitive (language policy); confirm the neutral tone.
+- **Regional French:** "In the south-west, for example, many people say *une chocolatine* where Paris says *un pain au chocolat*"; "In the south, the final *e* of words is often pronounced, as in Occitan." Confirm.
+- **Languages:** Breton (Celtic), Occitan (Romance), Alsatian (Germanic dialect), Basque (not part of the main European families), Corsican, Creoles in the overseas departments. Confirm each classification.
+- **Identity:** "Debates about regional languages are therefore often debates about identity, and they can be sensitive." Confirm the neutral tone.
+
+### c1-culture-francophonie
+
+- **OIF:** "based in Paris. Its origins go back to an agency created in 1970 at a conference in Niamey, in Niger." "About every two years, the heads of State and government meet at *un sommet*." Confirm.
+- **"French is also *une langue de travail* in many international organizations, including the United Nations and the European Union, and one of the official languages of the Olympic movement."** Confirm.
+- **Countries:** Belgium's three official languages; Switzerland's four national languages; *huitante* "in some cantons"; *une votation*; Canada "officially bilingual at the federal level", Québec's only official language French; Haiti "French and Haitian Creole are both official languages"; French Guiana and Mayotte. Confirm each.
+- **Status table:** "France, Québec, the overseas departments: the only official language". Confirm.
+- **Article:** *la majorité des personnes qui le parlent vivent aujourd'hui sur d'autres continents que l'Europe*; *courriel, venu du Québec, est entré dans le français de France*; *En Afrique, le français est arrivé avec la colonisation* (sensitive: decolonization; neutral wording, no figures). Confirm.
+- **Regionalisms:** *une essencerie* (Senegal), *s'enjailler* (Côte d'Ivoire), "some of their words reach dictionaries". Confirm.
+
+### c1-register-shifting
+
+- **Register labels:** *ça craint* (slang), *galérer*, *se geler*, *l'appart*, *le chauffage est mort*, *t'es top* (familiar); *le chauffage ne fonctionne plus*, *faire le nécessaire*, *dans les meilleurs délais*, *intervenir* (formal or administrative). Confirm each label.
+- **The four messages** (invented heating breakdown): confirm the letter (*Locataire de l'appartement situé au troisième étage, je me permets de vous signaler…*) reads as natural administrative French, and that *Bonjour Monsieur Dubois* + *Bien cordialement* fits an email to a manager.
+- **Dialogue:** Inès calls *merci d'avance, bonne journée* at the end of a letter to a landlord *un mélange des registres*. Confirm.
+- **Advice:** "Moving up, work in this order…"; "the more official the reader and the longer the message will be kept, the higher the register" (rule of thumb). Confirm as advice.
+
+### c1-review-living
+
+- **The model** (invented Swiss neighbourhood supper): *huitante* and *le souper* used in all three versions, including the letter to *la commune*, on the claim "For a writer from a Swiss canton where *huitante* is used, *huitante* and *le souper* are the normal words, in a text to a friend as much as in a letter to the town council." Confirm, including *la commune* for the town council in Switzerland.
+- **"Regional words don't belong to a register."** and "*huitante* is standard in some Swiss cantons and not used in others". Confirm.
+- **Advice:** "In an administrative letter: leave [proverbs and idioms] out… a proverb there sounds like a joke." Confirm as advice.
+- **Text 1:** *faut que tout le monde mette la main à la pâte* (spoken, *il* dropped). Confirm it reads naturally.
+- **New words:** *une variante*, *le parler* (the way of speaking of a place or group), *une expression régionale*. Confirm the glosses.

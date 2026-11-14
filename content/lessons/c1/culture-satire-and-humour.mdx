@@ -61,10 +61,10 @@ exercises:
     explanation: "Auto- means self: l'autodérision is self-mockery."
   - id: "c1-culture-satire-and-humour-ex005"
     type: "connector-choice"
-    prompt: "Choisissez le mot : Chaque fable se termine par une ___."
+    prompt: "Choisissez le mot : Une fable contient souvent une ___ : la leçon de l'histoire."
     options: ["morale", "contrepèterie", "caricature"]
     answers: ["morale"]
-    explanation: "La morale: the lesson at the end of a fable."
+    explanation: "La morale: the lesson of a fable, often at the end, sometimes at the start."
   - id: "c1-culture-satire-and-humour-ex006"
     type: "connector-choice"
     prompt: "Choisissez le mot : Ce jeu de mots est ___ : il n'existe qu'en français."
@@ -83,15 +83,15 @@ exercises:
     explanation: "Tourner en ridicule takes a direct object, before or after en ridicule."
   - id: "c1-culture-satire-and-humour-ex009"
     type: "reformulation"
-    prompt: "Reformulez avec « un sous-entendu » : Il ne le dit pas, mais tout le monde comprend."
-    answers: ["C'est un sous-entendu", "Il le dit par un sous-entendu"]
+    prompt: "Reformulez avec « comprendre le sous-entendu », au passé composé : Tout le monde a compris ce qu'il voulait dire sans le dire."
+    answers: ["Tout le monde a compris le sous-entendu"]
+    strictAccents: true
     explanation: "Un sous-entendu: something suggested without being said."
   - id: "c1-culture-satire-and-humour-ex010"
     type: "error-correction"
-    prompt: "Corrigez l'erreur : La morale de cette fable est à la fin du loup."
-    answers: ["La morale de cette fable est à la fin"]
-    strictAccents: true
-    explanation: "The moral comes at the end of the fable, not of the wolf."
+    prompt: "Corrigez l'erreur : Le moral de cette fable est célèbre."
+    answers: ["La morale de cette fable est célèbre"]
+    explanation: "The lesson of a fable is la morale (feminine). Le moral is your mood."
   - id: "c1-culture-satire-and-humour-ex011"
     type: "error-correction"
     prompt: "Corrigez l'erreur : Le Canard enchaîné est un quotidien satirique."
@@ -139,7 +139,7 @@ You know *la presse satirique*, *un dessin de presse* and *la caricature* from <
 
 France has a long tradition of *la satire*: humour that *tourne en ridicule* the powerful, the pretentious and the hypocritical. *Le rire* is seen as a way to criticize without giving a lecture.
 
-**Les fables.** Jean de La Fontaine (1621–1695) published his *Fables* from 1668. In short stories in verse, animals behave like people, and each fable ends with *une morale*. In *Le Loup et l'Agneau*, a wolf finds a pretext to eat a lamb; the moral is famous.
+**Les fables.** Jean de La Fontaine (1621–1695) published his *Fables* from 1668. In short stories in verse, animals behave like people, and most fables state *une morale*, often at the end, sometimes at the start. In *Le Loup et l'Agneau*, the moral comes first, in the opening line; then a wolf finds a pretext to eat a lamb.
 
 <Example fr="« La raison du plus fort est toujours la meilleure. » (La Fontaine)" en="\"The argument of the strongest is always the best.\" (our translation)" />
 
@@ -200,11 +200,13 @@ The article below is an original text written for this lesson.
 
 *Rire du pouvoir : une tradition française*
 
-*En France, on aime rire des puissants. Cette tradition est vieille. Il y a plus de trois cents ans, La Fontaine faisait parler des animaux : derrière le loup, le lion ou le renard, ses lecteurs reconnaissaient la cour et ses mœurs. On lit encore ses fables à l'école aujourd'hui. À la même époque, Molière tournait en ridicule l'hypocrisie et les médecins de son temps, et le roi lui-même assistait à ses comédies. Le public s'amusait, mais il réfléchissait aussi.*
+*En France, on aime rire des puissants. Cette tradition est vieille.*
 
-*Au siècle suivant, Voltaire choisit le conte philosophique. Sous une forme légère, il critique la guerre, le fanatisme et ceux qui pensent que tout va pour le mieux.*
+*Il y a plus de trois cents ans, La Fontaine faisait parler des animaux : derrière le loup, le lion ou le renard, ses lecteurs reconnaissaient la cour et ses mœurs. À la même époque, Molière tournait en ridicule l'hypocrisie et les médecins de son temps, et le roi lui-même assistait à ses comédies. Le public s'amusait, mais il réfléchissait aussi.*
 
-*Aujourd'hui, la tradition continue sous d'autres formes. La presse satirique commente l'actualité avec des dessins et des jeux de mots. Chaque semaine, les lecteurs retrouvent ainsi des personnages qu'ils connaissent bien, toujours un peu ridicules. À la radio et à la télévision, les humoristes imitent les responsables politiques et se moquent des petites habitudes de chacun. Sur scène, le stand-up a trouvé un jeune public, qui apprécie l'autodérision autant que la critique.*
+*Au siècle suivant, Voltaire a choisi le conte philosophique. Sous une forme légère, il a critiqué la guerre, le fanatisme et ceux qui pensent que tout va pour le mieux.*
+
+*Aujourd'hui, on lit encore les fables de La Fontaine à l'école, et la tradition continue sous d'autres formes. La presse satirique commente l'actualité avec des dessins et des jeux de mots. Chaque semaine, les lecteurs retrouvent ainsi des personnages qu'ils connaissent bien, toujours un peu ridicules. À la radio et à la télévision, les humoristes imitent les responsables politiques et se moquent des petites habitudes de chacun. Sur scène, le stand-up a trouvé un jeune public, qui apprécie l'autodérision autant que la critique.*
 
 *Ce rire a ses règles. Il vise plutôt les puissants que les faibles, et il suppose un public complice, qui comprend les sous-entendus. C'est pourquoi l'humour voyage mal : un calembour ou une contrepèterie reste souvent intraduisible, et une allusion à l'actualité peut tomber à plat dans un autre pays.*
 
@@ -212,10 +214,10 @@ The article below is an original text written for this lesson.
 
 <VocabTable group="glossary" />
 
-(Laughing at power: a French tradition. In France, people like to laugh at the powerful. This tradition is old. More than three hundred years ago, La Fontaine made animals speak: behind the wolf, the lion or the fox, his readers recognized the court and its customs. His fables are still read at school today. At the same time, Molière made fun of hypocrisy and the doctors of his time, and the king himself attended his comedies. The audience enjoyed itself, but it also thought. In the following century, Voltaire chose the philosophical tale. In a light form, he criticizes war, fanaticism and those who think that all is for the best. Today, the tradition continues in other forms. The satirical press comments on the news with cartoons and wordplay. Every week, readers find characters they know well, always a little ridiculous. On radio and television, comedians imitate politicians and make fun of everyone's little habits. On stage, stand-up has found a young audience, which enjoys self-mockery as much as criticism. This laughter has its rules. It targets the powerful rather than the weak, and it assumes an audience in on the joke, who understands the innuendo. That's why humour travels badly: a pun or a spoonerism often remains untranslatable, and a reference to the news can fall flat in another country. Laughing at power isn't always easy. But in France, people often think that the freedom to laugh is part of freedom of expression.)
+(Laughing at power: a French tradition. In France, people like to laugh at the powerful. This tradition is old. More than three hundred years ago, La Fontaine made animals speak: behind the wolf, the lion or the fox, his readers recognized the court and its customs. At the same time, Molière made fun of hypocrisy and the doctors of his time, and the king himself attended his comedies. The audience enjoyed itself, but it also thought. In the following century, Voltaire chose the philosophical tale. In a light form, he criticized war, fanaticism and those who think that all is for the best. Today, La Fontaine's fables are still read at school, and the tradition continues in other forms. The satirical press comments on the news with cartoons and wordplay. Every week, readers find characters they know well, always a little ridiculous. On radio and television, comedians imitate politicians and make fun of everyone's little habits. On stage, stand-up has found a young audience, which enjoys self-mockery as much as criticism. This laughter has its rules. It targets the powerful rather than the weak, and it assumes an audience in on the joke, who understands the innuendo. That's why humour travels badly: a pun or a spoonerism often remains untranslatable, and a reference to the news can fall flat in another country. Laughing at power isn't always easy. But in France, people often think that the freedom to laugh is part of freedom of expression.)
 
 <Callout type="warning" title="Une morale, not un moral">
-  Learners often confuse the two nouns. The lesson at the end of a fable is feminine: **la morale de la fable**. *Le moral* (masculine) is your mood: *avoir le moral*.
+  Learners often confuse the two nouns. The lesson of a fable is feminine: **la morale de la fable**. *Le moral* (masculine) is your mood: *avoir le moral*.
 </Callout>
 
 <Callout type="tip" title="Start with La Fontaine">

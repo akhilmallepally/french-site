@@ -222,5 +222,7 @@ C1 inherits every B2 convention unless it's changed here. Plans are in docs/plan
   - In choice exercises, every option fits the blank's form (article, elision, agreement), so that only meaning decides; and no distractor is a valid answer.
   - When a dialogue and a model text describe the same event, every fact (dates, reasons, who said what, the outcome) matches; check each one.
   - Before calling a common form wrong, check whether it's only less formal. If it is, label the register ("formal: *former un recours*; everyday: *faire un recours*") instead of marking it as an error.
+  - Before stating a fact about a work (its structure, where a moral or a line comes, a date), check it against the work and against any quotation the lesson itself uses.
+  - When a character summarizes or quotes another character, the summary matches what was said; when a later dialogue comments on a model text, every comment is true of that text.
 
 @AGENTS.md

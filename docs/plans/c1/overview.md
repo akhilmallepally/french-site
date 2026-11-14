@@ -1,6 +1,6 @@
 # C1 plan: overview
 
-Status: Units 2, 3, 4 and 5 are written and reviewed as whole units; Unit 1 has its first four lessons (c1-passe-simple to c1-imperfect-subjunctive). 34 of 57 lessons are written. Units 6, 7 and 8 and lessons 5 to 8 of Unit 1 remain. Rules: CLAUDE.md, "C1 conventions" (on top of the B2 conventions). Coverage of A1 to B2: docs/c1-coverage.md, checked with `node --experimental-strip-types scripts/c1-find.ts "phrase"`. Lesson numbers follow docs/syllabus.md.
+Status: Units 2, 3, 4, 5 and 7 are written and reviewed as whole units; Unit 1 has its first four lessons (c1-passe-simple to c1-imperfect-subjunctive). 40 of 57 lessons are written. Units 6 and 8 and lessons 5 to 8 of Unit 1 remain. Rules: CLAUDE.md, "C1 conventions" (on top of the B2 conventions). Coverage of A1 to B2: docs/c1-coverage.md, checked with `node --experimental-strip-types scripts/c1-find.ts "phrase"`. Lesson numbers follow docs/syllabus.md.
 
 ## Shape
 

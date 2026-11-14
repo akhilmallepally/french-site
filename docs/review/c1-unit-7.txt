@@ -1,0 +1,1377 @@
+===== content/lessons/c1/proverbs-and-sayings.mdx =====
+---
+id: "c1-proverbs-and-sayings"
+title: "Proverbs and sayings"
+description: "Understand and use common French proverbs (qui ne risque rien n'a rien, petit à petit l'oiseau fait son nid, il ne faut pas vendre la peau de l'ours…), how speakers half-quote or twist them, and how to translate them by an equivalent rather than word for word."
+level: "C1"
+unit: "Living the language"
+order: 45
+type: "vocabulary"
+tags: ["vocabulary", "proverbs", "culture", "everyday French"]
+prerequisites: ["b2-idioms-everyday"]
+related: ["c1-culture-satire-and-humour", "c1-rhetorical-devices", "b2-idiomatic-y-en"]
+vocab:
+  - { id: "c1-proverbs-and-sayings-v001", group: "terms", fr: "un proverbe", pron: "uhn proh-VEHRB", en: "a proverb" }
+  - { id: "c1-proverbs-and-sayings-v002", group: "terms", fr: "un dicton", pron: "uhn deek-TOHN", en: "a saying (often about weather or daily life)" }
+  - { id: "c1-proverbs-and-sayings-v003", group: "terms", fr: "comme dit le proverbe", pron: "kom dee luh proh-VEHRB", en: "as the saying goes" }
+  - { id: "c1-proverbs-and-sayings-v004", group: "effort", fr: "qui ne risque rien n'a rien", pron: "kee nuh reesk RYAN nah RYAN", en: "nothing ventured, nothing gained" }
+  - { id: "c1-proverbs-and-sayings-v005", group: "effort", fr: "petit à petit, l'oiseau fait son nid", pron: "puh-tee-tah-puh-TEE, lwah-zoh feh sohn NEE", en: "little by little, you get there (slow and steady)" }
+  - { id: "c1-proverbs-and-sayings-v006", group: "effort", fr: "c'est en forgeant qu'on devient forgeron", pron: "seh-tahn for-ZHAHN kohn duh-vyan for-zhuh-ROHN", en: "practice makes perfect" }
+  - { id: "c1-proverbs-and-sayings-v007", group: "effort", fr: "vouloir, c'est pouvoir", pron: "voo-LWAHR, seh poo-VWAHR", en: "where there's a will, there's a way" }
+  - { id: "c1-proverbs-and-sayings-v008", group: "effort", fr: "mieux vaut tard que jamais", pron: "myuh voh TAR kuh zhah-MEH", en: "better late than never" }
+  - { id: "c1-proverbs-and-sayings-v009", group: "caution", fr: "il ne faut pas vendre la peau de l'ours avant de l'avoir tué", pron: "eel nuh foh pah vahn-druh lah poh duh LOORSS ah-vahn duh lah-vwahr tew-AY", en: "don't count your chickens before they're hatched" }
+  - { id: "c1-proverbs-and-sayings-v010", group: "caution", fr: "l'habit ne fait pas le moine", pron: "lah-BEE nuh feh pah luh MWAN", en: "don't judge a book by its cover" }
+  - { id: "c1-proverbs-and-sayings-v011", group: "caution", fr: "il n'y a pas de fumée sans feu", pron: "eel nyah pah duh few-may sahn FUH", en: "there's no smoke without fire" }
+  - { id: "c1-proverbs-and-sayings-v012", group: "caution", fr: "la nuit porte conseil", pron: "lah nwee port kohn-SEY", en: "sleep on it" }
+  - { id: "c1-proverbs-and-sayings-v013", group: "caution", fr: "les absents ont toujours tort", pron: "lay-zap-SAHN ohn too-zhoor TOR", en: "the absent are always in the wrong" }
+  - { id: "c1-proverbs-and-sayings-v014", group: "life", fr: "après la pluie, le beau temps", pron: "ah-preh lah PLWEE, luh boh TAHN", en: "every cloud has a silver lining, things will get better" }
+  - { id: "c1-proverbs-and-sayings-v015", group: "life", fr: "tout vient à point à qui sait attendre", pron: "too vyan-tah PWAN ah kee seh-tah-TAHN-druh", en: "good things come to those who wait" }
+  - { id: "c1-proverbs-and-sayings-v016", group: "life", fr: "qui se ressemble s'assemble", pron: "kee suh ruh-SAHN-bluh sah-SAHN-bluh", en: "birds of a feather flock together" }
+  - { id: "c1-proverbs-and-sayings-v017", group: "life", fr: "le forgeron", pron: "luh for-zhuh-ROHN", en: "the blacksmith" }
+  - { id: "c1-proverbs-and-sayings-v018", group: "life", fr: "le moine", pron: "luh MWAN", en: "the monk" }
+exercises:
+  - id: "c1-proverbs-and-sayings-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens du proverbe : L'habit ne fait pas le moine."
+    options: ["Appearances can be misleading.", "Clothes are expensive.", "Monks dress simply."]
+    answers: ["Appearances can be misleading."]
+    explanation: "Wearing a monk's habit doesn't make you a monk: don't judge by appearances."
+  - id: "c1-proverbs-and-sayings-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens du proverbe : Il ne faut pas vendre la peau de l'ours avant de l'avoir tué."
+    options: ["Don't count on a success before it has happened.", "Don't hunt wild animals.", "Sell things quickly."]
+    answers: ["Don't count on a success before it has happened."]
+    explanation: "You can't sell a bear's skin before you've caught the bear: wait for the result."
+  - id: "c1-proverbs-and-sayings-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez la situation où l'on dit : La nuit porte conseil."
+    options: ["Before an important decision, to suggest waiting until the next day.", "When someone is tired.", "To say goodnight."]
+    answers: ["Before an important decision, to suggest waiting until the next day."]
+    explanation: "La nuit porte conseil: things are clearer after a night's sleep."
+  - id: "c1-proverbs-and-sayings-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Bon, qui ne risque rien…"
+    options: ["Let's take the risk (the speaker shortens the proverb).", "Let's not take any risks.", "Nobody is in danger."]
+    answers: ["Let's take the risk (the speaker shortens the proverb)."]
+    explanation: "Speakers often say only the first half of a proverb; everyone knows the end: … n'a rien."
+  - id: "c1-proverbs-and-sayings-ex005"
+    type: "fill-in"
+    prompt: "Complétez le proverbe : Petit à petit, l'oiseau fait son ___."
+    answers: ["nid"]
+    explanation: "Petit à petit, l'oiseau fait son nid: slow, steady effort pays."
+  - id: "c1-proverbs-and-sayings-ex006"
+    type: "fill-in"
+    prompt: "Complétez le proverbe : Il n'y a pas de fumée sans ___."
+    answers: ["feu"]
+    explanation: "There's no smoke without fire: a rumour usually has some cause."
+  - id: "c1-proverbs-and-sayings-ex007"
+    type: "fill-in"
+    prompt: "Complétez le proverbe : Mieux vaut tard que ___."
+    answers: ["jamais"]
+    explanation: "Better late than never."
+  - id: "c1-proverbs-and-sayings-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : C'est en forgeant qu'on devient ___."
+    options: ["forgeron", "moine", "oiseau"]
+    answers: ["forgeron"]
+    explanation: "You become a blacksmith by working iron: practice makes perfect."
+  - id: "c1-proverbs-and-sayings-ex009"
+    type: "translate"
+    prompt: "Traduisez par le proverbe français de même sens : Practice makes perfect."
+    answers: ["C'est en forgeant qu'on devient forgeron"]
+    explanation: "Translate a proverb by its equivalent, not word for word."
+  - id: "c1-proverbs-and-sayings-ex010"
+    type: "translate"
+    prompt: "Traduisez par le proverbe français de même sens : Better late than never."
+    answers: ["Mieux vaut tard que jamais"]
+    explanation: "Here the French and English proverbs happen to match closely."
+  - id: "c1-proverbs-and-sayings-ex011"
+    type: "translate"
+    prompt: "Traduisez par le proverbe français de même sens : Where there's a will, there's a way."
+    answers: ["Vouloir, c'est pouvoir", "Quand on veut, on peut"]
+    explanation: "Vouloir, c'est pouvoir; in speech, people also say quand on veut, on peut."
+  - id: "c1-proverbs-and-sayings-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec un proverbe : Attends demain pour décider, tu y verras plus clair."
+    answers: ["La nuit porte conseil"]
+    explanation: "La nuit porte conseil says exactly this."
+  - id: "c1-proverbs-and-sayings-ex013"
+    type: "reformulation"
+    prompt: "Reformulez avec « comme dit le proverbe » et le proverbe sur l'ours : Ne parlons pas de succès avant la fin du match."
+    answers: ["Comme dit le proverbe, il ne faut pas vendre la peau de l'ours avant de l'avoir tué"]
+    explanation: "Comme dit le proverbe introduces a proverb in full."
+  - id: "c1-proverbs-and-sayings-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : L'habit ne fait pas la moine."
+    answers: ["L'habit ne fait pas le moine"]
+    explanation: "Le moine is masculine. Proverbs have a fixed form: change nothing."
+  - id: "c1-proverbs-and-sayings-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Les absents ont toujours raison."
+    answers: ["Les absents ont toujours tort"]
+    explanation: "The proverb says the opposite: people who aren't there get the blame."
+  - id: "c1-proverbs-and-sayings-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Nothing ventured, nothing gained."
+    words: ["Qui", "ne", "risque", "rien", "n'a", "rien"]
+    answers: ["Qui ne risque rien n'a rien"]
+    explanation: "A proverb has a fixed word order."
+---
+
+By the end of this lesson you'll be able to understand the most common French proverbs, recognize them when people half-quote or twist them, and translate them by an equivalent rather than word for word.
+
+## What you already know
+
+You know many French idioms from <LessonLink id="b2-idioms-everyday" text="the lesson on everyday idioms" />, such as *il pleut des cordes* and *appeler un chat un chat*, and the term *une expression imagée*. An idiom is a phrase you use inside a sentence; a proverb is a whole sentence that states a general truth. This lesson is about proverbs.
+
+## What a proverb is
+
+<VocabTable group="terms" />
+
+*Un proverbe* is a short, fixed sentence that gives advice or states a truth about life: *mieux vaut tard que jamais*. *Un dicton* is similar but often more local or practical, about the weather or the seasons. Both have a fixed form: you don't change their words.
+
+People introduce a proverb with *comme dit le proverbe* or *comme on dit*, or simply drop it into the conversation.
+
+<Example fr="Comme dit le proverbe, mieux vaut tard que jamais." en="As the saying goes, better late than never." />
+<Example fr="Mon grand-père connaît un dicton pour chaque saison." en="My grandfather knows a saying for every season." />
+
+## Effort and patience
+
+<VocabTable group="effort" />
+
+Many French proverbs encourage effort. *Qui ne risque rien n'a rien* (nothing ventured, nothing gained) pushes someone to try. *Petit à petit, l'oiseau fait son nid* praises slow, steady work. *C'est en forgeant qu'on devient forgeron* says that you learn by doing. *Vouloir, c'est pouvoir* says that will is enough; in speech, people also say *quand on veut, on peut*.
+
+<Example fr="Tu hésites à postuler ? Qui ne risque rien n'a rien !" en="You're hesitating to apply? Nothing ventured, nothing gained!" />
+<Example fr="Ton français progresse : petit à petit, l'oiseau fait son nid." en="Your French is improving: slow and steady wins the race." />
+<Example fr="Tu peux réussir : vouloir, c'est pouvoir." en="You can succeed: where there's a will, there's a way." />
+
+## Caution and judgement
+
+<VocabTable group="caution" />
+
+Other proverbs warn. *Il ne faut pas vendre la peau de l'ours avant de l'avoir tué* means don't count on a success too early. *L'habit ne fait pas le moine* warns against judging by appearances. *Il n'y a pas de fumée sans feu* suggests that a rumour has some basis, and it's often used to justify suspicion. *La nuit porte conseil* advises waiting before deciding. *Les absents ont toujours tort* observes that people who aren't there get the blame.
+
+<Example fr="On n'a pas encore signé le contrat : il ne faut pas vendre la peau de l'ours avant de l'avoir tué." en="We haven't signed the contract yet: don't count your chickens before they're hatched." />
+<Example fr="Ne décide pas ce soir : la nuit porte conseil." en="Don't decide tonight: sleep on it." />
+<Example fr="Tout le monde en parle, et il n'y a pas de fumée sans feu." en="Everyone is talking about it, and there's no smoke without fire." />
+<Example fr="Il n'était pas à la réunion, et comme on dit, les absents ont toujours tort." en="He wasn't at the meeting, and as they say, the absent are always in the wrong." />
+
+## Life and people
+
+<VocabTable group="life" />
+
+*Après la pluie, le beau temps* comforts someone after a difficulty. *Tout vient à point à qui sait attendre* praises patience. *Qui se ressemble s'assemble* notes that people of the same kind stay together, often with a hint of criticism.
+
+<Example fr="Courage, après la pluie, le beau temps !" en="Chin up, things will get better!" />
+<Example fr="Sois patient : tout vient à point à qui sait attendre." en="Be patient: good things come to those who wait." />
+<Example fr="Ils sont toujours ensemble : qui se ressemble s'assemble." en="They're always together: birds of a feather flock together." />
+
+## Half-quoting and twisting proverbs
+
+Because everyone knows them, French speakers often say only the first half of a proverb, and leave the listener to finish it: *bon, qui ne risque rien…*, *tu sais ce qu'on dit : petit à petit…*. Saying the whole proverb can even sound a little heavy in conversation.
+
+Writers and advertisers also twist proverbs for effect, changing one word: a sports article might say that a team *a vendu la peau de l'ours trop tôt*. Recognizing the original is the key to the joke.
+
+<Example fr="L'équipe a vendu la peau de l'ours trop tôt : elle a perdu dans les dernières minutes." en="The team counted its chickens too early: it lost in the last minutes." />
+
+## Translating proverbs
+
+Don't translate a proverb word for word by default. Look for the proverb that does the same job in the other language. Sometimes the two match closely (*mieux vaut tard que jamais*, better late than never); often they use different images (*il ne faut pas vendre la peau de l'ours*, don't count your chickens). If there's no equivalent, translate the meaning plainly.
+
+As a rule of thumb, use one proverb per conversation or text at most: a proverb gives weight to a point, but several in a row sound like a parody.
+
+## The whole list
+
+| French proverb | Meaning or equivalent |
+|---|---|
+| *qui ne risque rien n'a rien* | nothing ventured, nothing gained |
+| *petit à petit, l'oiseau fait son nid* | slow and steady |
+| *c'est en forgeant qu'on devient forgeron* | practice makes perfect |
+| *vouloir, c'est pouvoir* | where there's a will, there's a way |
+| *mieux vaut tard que jamais* | better late than never |
+| *il ne faut pas vendre la peau de l'ours…* | don't count your chickens |
+| *l'habit ne fait pas le moine* | don't judge by appearances |
+| *il n'y a pas de fumée sans feu* | no smoke without fire |
+| *la nuit porte conseil* | sleep on it |
+| *après la pluie, le beau temps* | things will get better |
+
+## En français
+
+Inès has been offered a job abroad. She talks to her grandmother.
+
+- *Mamie, on m'a proposé un poste à Montréal, mais j'ai peur.* (Grandma, I've been offered a job in Montreal, but I'm scared.)
+- *Peur de quoi ? Qui ne risque rien…* (Scared of what? Nothing ventured…)
+- *… n'a rien, je sais. Mais je ne parle pas encore bien anglais.* (… nothing gained, I know. But I don't speak English well yet.)
+- *C'est en forgeant qu'on devient forgeron. Tu apprendras sur place.* (Practice makes perfect. You'll learn there.)
+- *Et si ça ne marche pas ?* (And what if it doesn't work out?)
+- *Tu n'as pas encore commencé ! Il ne faut pas vendre la peau de l'ours…* (You haven't even started! Don't count your chickens…)
+- *Mamie, ce proverbe parle d'un succès, pas d'un échec.* (Grandma, that proverb is about success, not failure.)
+- *Tu as raison. Alors : après la pluie, le beau temps !* (You're right. Then: things will get better!)
+- *Tu as un proverbe pour tout.* (You have a proverb for everything.)
+- *À mon âge, on en a appris quelques-uns. Et ne décide pas ce soir.* (At my age, you've learned a few. And don't decide tonight.)
+- *La nuit porte conseil, c'est ça ?* (Sleep on it, is that it?)
+- *Exactement. Mieux vaut décider tard que mal.* (Exactly. Better to decide late than badly.)
+
+<Callout type="warning" title="Proverbs have a fixed form">
+  Learners often change a word in a proverb, which makes it sound wrong rather than creative. Keep the exact form: **l'habit ne fait pas le moine**, **les absents ont toujours tort**. Twist a proverb only when you know the original well and want a deliberate effect.
+</Callout>
+
+<Callout type="tip" title="Learn the first half">
+  For each proverb, learn the first half by heart and say the rest aloud only when you're sure. French speakers will finish it for you, and recognizing the first half in a conversation is what matters most.
+</Callout>
+
+## En résumé
+
+Un proverbe est une phrase courte et fixe qui donne un conseil ou dit une vérité sur la vie. On ne change pas ses mots. Certains proverbes encouragent l'effort : qui ne risque rien n'a rien, petit à petit, l'oiseau fait son nid, c'est en forgeant qu'on devient forgeron. D'autres conseillent d'être prudent : il ne faut pas vendre la peau de l'ours avant de l'avoir tué, l'habit ne fait pas le moine, la nuit porte conseil. Après la pluie, le beau temps fait du bien après une difficulté. À l'oral, on dit souvent seulement le début du proverbe, et l'autre personne comprend la suite. Pour traduire un proverbe, il faut chercher un proverbe qui a le même sens, et pas traduire mot à mot. Mieux vaut dire un seul proverbe à la fois.
+
+## What's next
+
+Next, <LessonLink id="c1-advanced-idioms" text="the lesson on advanced idioms" /> gives you the idioms of argument and work: *tenir la route*, *ne pas y aller par quatre chemins*, *noyer le poisson*.
+
+===== content/lessons/c1/advanced-idioms.mdx =====
+---
+id: "c1-advanced-idioms"
+title: "Advanced idioms"
+description: "Idioms for argument, negotiation and work, with register labels: tenir la route, ne pas y aller par quatre chemins, noyer le poisson, mettre de l'eau dans son vin, couper la poire en deux, jeter l'éponge, avoir carte blanche, payer les pots cassés and more."
+level: "C1"
+unit: "Living the language"
+order: 46
+type: "vocabulary"
+tags: ["vocabulary", "idioms", "work", "argument"]
+prerequisites: ["b2-idioms-everyday", "b2-idiomatic-y-en", "c1-proverbs-and-sayings"]
+related: ["c1-leading-a-meeting", "c1-formal-debate", "b2-registers"]
+vocab:
+  - { id: "c1-advanced-idioms-v001", group: "argue", fr: "tenir la route", pron: "tuh-neer lah ROOT", en: "to hold up, to be sound (an argument, a plan)", note: "Everyday; also in journalism." }
+  - { id: "c1-advanced-idioms-v002", group: "argue", fr: "ne pas y aller par quatre chemins", pron: "nuh pah-zee ah-lay par kah-truh shuh-MAN", en: "not to beat about the bush, to be direct", note: "Everyday." }
+  - { id: "c1-advanced-idioms-v003", group: "argue", fr: "tourner autour du pot", pron: "toor-nay oh-toor dew POH", en: "to beat about the bush", note: "Everyday." }
+  - { id: "c1-advanced-idioms-v004", group: "argue", fr: "noyer le poisson", pron: "nwah-yay luh pwah-SOHN", en: "to cloud the issue, to dodge the question", note: "Everyday; often critical." }
+  - { id: "c1-advanced-idioms-v005", group: "argue", fr: "enfoncer une porte ouverte", pron: "ahn-fohn-say ew-nuh port oo-VEHRT", en: "to state the obvious", note: "Everyday." }
+  - { id: "c1-advanced-idioms-v006", group: "deal", fr: "mettre de l'eau dans son vin", pron: "meh-truh duh LOH dahn sohn VAN", en: "to tone down one's demands, to compromise", note: "Everyday; also in journalism." }
+  - { id: "c1-advanced-idioms-v007", group: "deal", fr: "couper la poire en deux", pron: "koo-pay lah PWAHR ahn DUH", en: "to split the difference", note: "Everyday." }
+  - { id: "c1-advanced-idioms-v008", group: "deal", fr: "ménager la chèvre et le chou", pron: "may-nah-zhay lah SHEH-vruh ay luh SHOO", en: "to try to please both sides", note: "Everyday." }
+  - { id: "c1-advanced-idioms-v009", group: "deal", fr: "prendre le taureau par les cornes", pron: "prahn-druh luh toh-ROH par lay KORN", en: "to take the bull by the horns", note: "Everyday." }
+  - { id: "c1-advanced-idioms-v010", group: "deal", fr: "jeter l'éponge", pron: "zhuh-tay lay-POHNZH", en: "to throw in the towel, to give up", note: "Everyday." }
+  - { id: "c1-advanced-idioms-v011", group: "work", fr: "avoir carte blanche", pron: "ah-vwahr kart BLAHNSH", en: "to have a free hand" }
+  - { id: "c1-advanced-idioms-v012", group: "work", fr: "mettre la charrue avant les bœufs", pron: "meh-truh lah shah-REW ah-vahn lay BUH", en: "to put the cart before the horse" }
+  - { id: "c1-advanced-idioms-v013", group: "work", fr: "être dans le même bateau", pron: "eh-truh dahn luh mem bah-TOH", en: "to be in the same boat" }
+  - { id: "c1-advanced-idioms-v014", group: "work", fr: "faire d'une pierre deux coups", pron: "fehr dewn PYEHR duh KOO", en: "to kill two birds with one stone" }
+  - { id: "c1-advanced-idioms-v015", group: "work", fr: "mettre la main à la pâte", pron: "meh-truh lah MAN ah lah PAHT", en: "to lend a hand, to muck in", note: "Familiar." }
+  - { id: "c1-advanced-idioms-v016", group: "work", fr: "se serrer la ceinture", pron: "suh seh-ray lah san-TEWR", en: "to tighten one's belt" }
+  - { id: "c1-advanced-idioms-v017", group: "work", fr: "payer les pots cassés", pron: "peh-yay lay poh kah-SAY", en: "to pay for someone else's mistakes, to take the blame", note: "Familiar." }
+exercises:
+  - id: "c1-advanced-idioms-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Ton argument ne tient pas la route."
+    options: ["Your argument doesn't hold up.", "Your argument is too long.", "Your argument is about traffic."]
+    answers: ["Your argument doesn't hold up."]
+    explanation: "Tenir la route: to be solid, like a car that holds the road."
+  - id: "c1-advanced-idioms-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Le ministre a noyé le poisson."
+    options: ["The minister dodged the question.", "The minister gave a direct answer.", "The minister was in a boat."]
+    answers: ["The minister dodged the question."]
+    explanation: "Noyer le poisson: to bury a question under other topics so it's never answered."
+  - id: "c1-advanced-idioms-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Il n'y est pas allé par quatre chemins."
+    options: ["He said it directly.", "He took a long route.", "He hesitated a lot."]
+    answers: ["He said it directly."]
+    explanation: "Ne pas y aller par quatre chemins: to be direct, the opposite of tourner autour du pot."
+  - id: "c1-advanced-idioms-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez l'expression : Arrête de ___ : dis-moi franchement ce que tu penses."
+    options: ["tourner autour du pot", "couper la poire en deux", "faire d'une pierre deux coups"]
+    answers: ["tourner autour du pot"]
+    explanation: "Tourner autour du pot: to avoid getting to the point."
+  - id: "c1-advanced-idioms-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez l'expression : Vous demandez dix, nous proposons six. Coupons ___ : huit."
+    options: ["la poire en deux", "les pots cassés", "la route"]
+    answers: ["la poire en deux"]
+    explanation: "Couper la poire en deux: to meet halfway."
+  - id: "c1-advanced-idioms-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Après trois échecs, elle a fini par jeter l'___."
+    answers: ["éponge"]
+    explanation: "Jeter l'éponge: to give up."
+  - id: "c1-advanced-idioms-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Pour trouver un accord, chacun doit mettre de l'eau dans son ___."
+    answers: ["vin"]
+    explanation: "Mettre de l'eau dans son vin: to soften one's demands."
+  - id: "c1-advanced-idioms-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « enfoncer une porte ouverte » : Tu dis une chose que tout le monde sait déjà."
+    answers: ["Tu enfonces une porte ouverte"]
+    explanation: "Enfoncer une porte ouverte: to state the obvious."
+  - id: "c1-advanced-idioms-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « avoir carte blanche » : La directrice m'a laissé faire comme je veux."
+    answers: ["J'ai carte blanche", "J'ai eu carte blanche"]
+    explanation: "Avoir carte blanche: to have a free hand."
+  - id: "c1-advanced-idioms-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « faire d'une pierre deux coups », au passé composé : En allant à Lyon, j'ai vu le client et ma sœur."
+    answers: ["En allant à Lyon, j'ai fait d'une pierre deux coups", "J'ai fait d'une pierre deux coups en allant à Lyon"]
+    strictAccents: true
+    explanation: "Faire d'une pierre deux coups: to achieve two things at once."
+  - id: "c1-advanced-idioms-ex011"
+    type: "register-shift"
+    prompt: "Transformez en français courant, sans expression imagée, avec « payer pour les erreurs des autres » : Ce sont les salariés qui ont payé les pots cassés."
+    answers: ["Ce sont les salariés qui ont payé pour les erreurs des autres"]
+    explanation: "Payer les pots cassés: to pay for other people's mistakes."
+  - id: "c1-advanced-idioms-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Il a mis les bœufs avant la charrue."
+    answers: ["Il a mis la charrue avant les bœufs"]
+    strictAccents: true
+    explanation: "The idiom is fixed: mettre la charrue avant les bœufs."
+  - id: "c1-advanced-idioms-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Nous sommes dans un même bateau."
+    answers: ["Nous sommes dans le même bateau"]
+    explanation: "The fixed form is dans le même bateau."
+  - id: "c1-advanced-idioms-ex014"
+    type: "translate"
+    prompt: "Traduisez par l'expression française de même sens : Let's take the bull by the horns."
+    answers: ["Prenons le taureau par les cornes"]
+    explanation: "Here French and English share the image."
+  - id: "c1-advanced-idioms-ex015"
+    type: "translate"
+    prompt: "Traduisez par l'expression française de même sens : We'll have to tighten our belts."
+    answers: ["Il faudra se serrer la ceinture", "Nous allons devoir nous serrer la ceinture", "Il va falloir se serrer la ceinture"]
+    explanation: "Se serrer la ceinture: to spend less."
+  - id: "c1-advanced-idioms-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : He tries to please both sides."
+    words: ["Il", "essaie", "de", "ménager", "la", "chèvre", "et", "le", "chou"]
+    answers: ["Il essaie de ménager la chèvre et le chou"]
+    explanation: "Ménager la chèvre et le chou: to keep both sides happy."
+---
+
+By the end of this lesson you'll be able to understand and use idioms for arguing, negotiating and working together, and judge when each one fits the register.
+
+## What you already know
+
+You know everyday idioms such as *mettre les pieds dans le plat*, *avoir du pain sur la planche* and *appeler un chat un chat* from <LessonLink id="b2-idioms-everyday" text="the lesson on everyday idioms" />, and idioms with *y* and *en* (*s'en sortir*, *en rester là*) from <LessonLink id="b2-idiomatic-y-en" text="the lesson on idiomatic y and en" />. In <LessonLink id="c1-proverbs-and-sayings" text="the lesson on proverbs" />, you saw whole sentences with a fixed form. This lesson adds idioms you'll hear in meetings, debates and the news.
+
+## A note on register
+
+Idioms are typical of speech and of lively writing such as journalism, columns and speeches. Most of the idioms here are everyday French: fine in a conversation at work, in an email to a colleague and in a newspaper article, but out of place in a formal letter or an academic essay. Two are familiar (*mettre la main à la pâte*, *payer les pots cassés*). The notes in the tables give a label for each.
+
+## Arguing
+
+<VocabTable group="argue" />
+
+An argument that *tient la route* is solid. Someone who *n'y va pas par quatre chemins* says things directly; someone who *tourne autour du pot* avoids the point. *Noyer le poisson* is to hide an awkward question under other topics, and it's often used to criticize a politician or a manager. *Enfoncer une porte ouverte* is to state the obvious.
+
+<Example fr="Ton argument ne tient pas la route : les chiffres disent le contraire." en="Your argument doesn't hold up: the figures say the opposite." />
+<Example fr="La directrice n'y est pas allée par quatre chemins : le projet est annulé." en="The director didn't beat about the bush: the project is cancelled." />
+<Example fr="Au lieu de répondre, le ministre a noyé le poisson." en="Instead of answering, the minister dodged the question." />
+<Example fr="Dire qu'il faut écouter les clients, c'est enfoncer une porte ouverte." en="Saying that we must listen to customers is stating the obvious." />
+
+## Negotiating and conflict
+
+<VocabTable group="deal" />
+
+In a negotiation, each side may have to *mettre de l'eau dans son vin* (tone down its demands). When the two positions are far apart, someone suggests *couper la poire en deux*. A manager who *ménage la chèvre et le chou* tries not to upset anyone. *Prendre le taureau par les cornes* is to face a problem head on, and *jeter l'éponge* is to give up.
+
+<Example fr="Pour trouver un accord, chacun devra mettre de l'eau dans son vin." en="To reach an agreement, everyone will have to compromise." />
+<Example fr="Vous demandez dix, nous proposons six : coupons la poire en deux." en="You're asking for ten, we're offering six: let's split the difference." />
+<Example fr="Il essaie de ménager la chèvre et le chou, et il ne satisfait personne." en="He tries to please both sides, and he satisfies nobody." />
+<Example fr="Il est temps de prendre le taureau par les cornes." en="It's time to take the bull by the horns." />
+
+## Work and money
+
+<VocabTable group="work" />
+
+At work, you may *avoir carte blanche* (a free hand) for a project. Starting before the basics are in place is *mettre la charrue avant les bœufs*. Colleagues facing the same difficulty are *dans le même bateau*. Doing two things at once is *faire d'une pierre deux coups*, and joining in the work is *mettre la main à la pâte*. When money is short, everyone has to *se serrer la ceinture*, and those who weren't responsible may *payer les pots cassés*.
+
+<Example fr="On a carte blanche pour organiser la soirée." en="We have a free hand to organize the party. (spoken)" />
+<Example fr="Recruter avant d'avoir le budget, c'est mettre la charrue avant les bœufs." en="Hiring before having the budget is putting the cart before the horse." />
+<Example fr="Nous sommes tous dans le même bateau : il faudra se serrer la ceinture." en="We're all in the same boat: we'll have to tighten our belts." />
+<Example fr="Ce sont toujours les salariés qui paient les pots cassés." en="It's always the employees who pay for others' mistakes. (familiar)" />
+
+## Using idioms well
+
+An idiom works when it fits the situation and the listener knows it. As a rule of thumb, use one idiom per short exchange, and keep its fixed words: *dans le même bateau*, not *dans un même bateau*. Many idioms also have a negative form that's very common: *ça ne tient pas la route*.
+
+When translating, look for the English idiom that does the same job. Some share the image (*prendre le taureau par les cornes*); most don't (*noyer le poisson*, to dodge the question). If no idiom fits, translate the meaning.
+
+## The whole list
+
+| Idiom | Meaning |
+|---|---|
+| *tenir la route* | to be sound |
+| *ne pas y aller par quatre chemins* / *tourner autour du pot* | to be direct / to avoid the point |
+| *noyer le poisson* | to dodge the question |
+| *enfoncer une porte ouverte* | to state the obvious |
+| *mettre de l'eau dans son vin* | to compromise |
+| *couper la poire en deux* | to split the difference |
+| *ménager la chèvre et le chou* | to please both sides |
+| *prendre le taureau par les cornes* / *jeter l'éponge* | to face it / to give up |
+| *avoir carte blanche* | to have a free hand |
+| *mettre la charrue avant les bœufs* | to do things in the wrong order |
+| *être dans le même bateau* | to be in the same situation |
+| *faire d'une pierre deux coups* | to do two things at once |
+| *se serrer la ceinture* / *payer les pots cassés* | to spend less / to pay for others' mistakes |
+
+## En français
+
+Nadia and Julien prepare a meeting about their team's budget.
+
+- *Bon, je n'y vais pas par quatre chemins : notre budget baisse de vingt pour cent.* (Right, I won't beat about the bush: our budget is going down by twenty per cent.)
+- *Vingt pour cent ? On va devoir se serrer la ceinture.* (Twenty per cent? We'll have to tighten our belts. (spoken))
+- *Et la directrice a carte blanche pour choisir les projets.* (And the director has a free hand to choose the projects.)
+- *Alors ce sont nos projets qui vont payer les pots cassés.* (Then it's our projects that will pay for it. (familiar))
+- *Pas forcément. Si on propose un bon plan, ça peut tenir la route.* (Not necessarily. If we propose a good plan, it can hold up. (spoken))
+- *Et si on réunissait les deux projets en un seul ? On ferait d'une pierre deux coups.* (And what if we combined the two projects into one? We'd kill two birds with one stone. (spoken))
+- *Bonne idée. Mais attention à ne pas mettre la charrue avant les bœufs : d'abord les chiffres.* (Good idea. But careful not to put the cart before the horse: figures first.)
+- *Tu as raison. Et en réunion, pas question de noyer le poisson.* (You're right. And in the meeting, no dodging the question.)
+- *D'accord. Si la directrice demande trop, on coupera la poire en deux.* (Agreed. If the director asks for too much, we'll split the difference.)
+- *Et si elle refuse tout ?* (And if she refuses everything?)
+- *On ne jette pas l'éponge. Nous sommes tous dans le même bateau.* (We don't give up. We're all in the same boat. (spoken))
+- *Alors au travail : tout le monde met la main à la pâte !* (Then let's get to work: everyone mucks in! (familiar))
+
+<Callout type="warning" title="Dans le même bateau, not dans un même bateau">
+  Learners often change an article or a word in an idiom, which makes it sound wrong. Idioms have a fixed form: **nous sommes dans le même bateau**, **mettre la charrue avant les bœufs**, **couper la poire en deux**.
+</Callout>
+
+<Callout type="tip" title="Collect idioms by situation">
+  Note new idioms under the situation where you'd use them (a negotiation, a meeting, a disagreement) rather than in an alphabetical list. When the situation comes up, the idioms come with it.
+</Callout>
+
+## En résumé
+
+Les expressions imagées sont courantes à l'oral, au travail et dans la presse, mais on les évite dans une lettre officielle ou une dissertation. Pour parler d'un argument, on dit qu'il tient la route, ou qu'il ne la tient pas. Une personne directe n'y va pas par quatre chemins, et une personne qui évite le sujet tourne autour du pot ou noie le poisson. Dans une négociation, chacun met de l'eau dans son vin, et on peut couper la poire en deux. Ménager la chèvre et le chou, c'est essayer de plaire aux deux côtés. Au travail, on peut avoir carte blanche, faire d'une pierre deux coups ou mettre la main à la pâte. Quand l'argent manque, on se serre la ceinture. Ces expressions ont une forme fixe : il ne faut pas changer leurs mots.
+
+## What's next
+
+Next, <LessonLink id="c1-culture-regional-languages" text="the culture lesson on regional languages" /> looks at Breton, Occitan, Alsatian, Basque, Corsican and the Creoles.
+
+===== content/lessons/c1/culture-regional-languages.mdx =====
+---
+id: "c1-culture-regional-languages"
+title: "Regional languages"
+description: "A neutral overview of France's regional languages (Breton, Occitan, Alsatian, Basque, Corsican and the Creoles), where they come from, their legal status and how they're taught and passed on today, with no speaker figures."
+level: "C1"
+unit: "Living the language"
+order: 47
+type: "culture"
+tags: ["culture", "languages", "regions", "society"]
+prerequisites: ["b2-culture-francophone-africa", "c1-law-and-institutions"]
+related: ["b1-culture-quebec", "a2-culture-francophone-world", "c1-advanced-idioms"]
+vocab:
+  - { id: "c1-culture-regional-languages-v001", group: "status", fr: "une langue régionale", pron: "ewn lahng ray-zhyoh-NAHL", en: "a regional language" }
+  - { id: "c1-culture-regional-languages-v002", group: "status", fr: "un dialecte", pron: "uhn dyah-LEKT", en: "a dialect" }
+  - { id: "c1-culture-regional-languages-v003", group: "status", fr: "une charte", pron: "ewn SHART", en: "a charter" }
+  - { id: "c1-culture-regional-languages-v004", group: "status", fr: "ratifier", pron: "rah-tee-FYAY", en: "to ratify" }
+  - { id: "c1-culture-regional-languages-v005", group: "status", fr: "l'unité (f.)", pron: "lew-nee-TAY", en: "unity" }
+  - { id: "c1-culture-regional-languages-v006", group: "languages", fr: "le breton", pron: "luh bruh-TOHN", en: "Breton (a Celtic language)" }
+  - { id: "c1-culture-regional-languages-v007", group: "languages", fr: "l'occitan (m.)", pron: "lok-see-TAHN", en: "Occitan (a Romance language of the south)" }
+  - { id: "c1-culture-regional-languages-v008", group: "languages", fr: "l'alsacien (m.)", pron: "lal-zah-SYAN", en: "Alsatian (a Germanic dialect)" }
+  - { id: "c1-culture-regional-languages-v009", group: "languages", fr: "le basque", pron: "luh BASK", en: "Basque" }
+  - { id: "c1-culture-regional-languages-v010", group: "languages", fr: "le corse", pron: "luh KORSS", en: "Corsican" }
+  - { id: "c1-culture-regional-languages-v011", group: "languages", fr: "le créole", pron: "luh kray-OLL", en: "Creole" }
+  - { id: "c1-culture-regional-languages-v012", group: "languages", fr: "une langue romane / celtique / germanique", pron: "ewn lahng roh-MAHN / sel-TEEK / zhehr-mah-NEEK", en: "a Romance / Celtic / Germanic language" }
+  - { id: "c1-culture-regional-languages-v013", group: "regional", fr: "une chocolatine", pron: "ewn shoh-koh-lah-TEEN", en: "a pain au chocolat (regional, south-west)" }
+  - { id: "c1-culture-regional-languages-v014", group: "regional", fr: "le français régional", pron: "luh frahn-seh ray-zhyoh-NAHL", en: "regional French (the French of a region)" }
+  - { id: "c1-culture-regional-languages-v015", group: "today", fr: "l'enseignement (m.)", pron: "lahn-sen-yuh-MAHN", en: "teaching, education" }
+  - { id: "c1-culture-regional-languages-v016", group: "today", fr: "une école immersive", pron: "ew-nay-koll ee-mehr-SEEV", en: "an immersion school (lessons mainly in the regional language)" }
+  - { id: "c1-culture-regional-languages-v017", group: "today", fr: "un panneau bilingue", pron: "uhn pah-noh bee-LANG", en: "a bilingual sign" }
+  - { id: "c1-culture-regional-languages-v018", group: "today", fr: "la transmission", pron: "lah trahns-mee-SYOHN", en: "passing on (a language, from one generation to the next)" }
+  - { id: "c1-culture-regional-languages-v019", group: "glossary", fr: "une génération", pron: "ewn zhay-nay-rah-SYOHN", en: "a generation" }
+  - { id: "c1-culture-regional-languages-v020", group: "glossary", fr: "le sud", pron: "luh SEWD", en: "the south" }
+  - { id: "c1-culture-regional-languages-v021", group: "glossary", fr: "les départements d'outre-mer", pron: "lay day-par-tuh-mahn doo-truh-MEHR", en: "the overseas departments" }
+exercises:
+  - id: "c1-culture-regional-languages-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez la famille du breton."
+    options: ["une langue celtique", "une langue romane", "une langue germanique"]
+    answers: ["une langue celtique"]
+    explanation: "Breton belongs to the Celtic family, like Welsh and Cornish."
+  - id: "c1-culture-regional-languages-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez la langue régionale qui ne fait partie d'aucune grande famille de langues européennes."
+    options: ["le basque", "l'occitan", "le corse"]
+    answers: ["le basque"]
+    explanation: "Basque is not an Indo-European language; Occitan and Corsican are Romance languages."
+  - id: "c1-culture-regional-languages-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez ce que dit la Constitution depuis 2008 sur les langues régionales."
+    options: ["Elles appartiennent au patrimoine de la France.", "Elles sont des langues officielles.", "Elles sont interdites à l'école."]
+    answers: ["Elles appartiennent au patrimoine de la France."]
+    explanation: "Since 2008, the Constitution says that regional languages belong to France's heritage; French remains the language of the Republic."
+  - id: "c1-culture-regional-languages-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Dans une école ___, la majorité des cours ont lieu en breton."
+    options: ["immersive", "officielle", "germanique"]
+    answers: ["immersive"]
+    explanation: "Une école immersive teaches mainly in the regional language."
+  - id: "c1-culture-regional-languages-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe : La France a signé la Charte européenne des langues régionales, mais elle ne l'a pas ___."
+    options: ["ratifiée", "signée", "parlée"]
+    answers: ["ratifiée"]
+    explanation: "Signing is the first step; ratifying makes the charter binding. France has signed but not ratified it."
+  - id: "c1-culture-regional-languages-ex006"
+    type: "fill-in"
+    prompt: "Complétez : En Alsace, on parle aussi l'___, un dialecte germanique."
+    answers: ["alsacien"]
+    explanation: "L'alsacien: the Germanic dialect of Alsace."
+  - id: "c1-culture-regional-languages-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Aux Antilles et à La Réunion, on parle aussi des ___ à base française."
+    answers: ["créoles"]
+    explanation: "Les créoles: languages born from contact between French and other languages."
+  - id: "c1-culture-regional-languages-ex008"
+    type: "reformulation"
+    prompt: "Reformulez en commençant par « La transmission de la langue », avec « diminuer » : Les parents parlent de moins en moins la langue à leurs enfants."
+    answers: ["La transmission de la langue diminue", "La transmission de la langue aux enfants diminue", "La transmission de la langue des parents aux enfants diminue"]
+    explanation: "La transmission names the passing on of a language between generations."
+  - id: "c1-culture-regional-languages-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « il y a un panneau bilingue » : À l'entrée du village, le nom est écrit en français et en breton."
+    answers: ["À l'entrée du village, il y a un panneau bilingue", "Il y a un panneau bilingue à l'entrée du village"]
+    strictAccents: true
+    explanation: "Un panneau bilingue: a sign in two languages."
+  - id: "c1-culture-regional-languages-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Le basque est une langue romane."
+    answers: ["Le basque n'est pas une langue romane"]
+    explanation: "Occitan is a Romance language; Basque doesn't belong to any of the main European families."
+  - id: "c1-culture-regional-languages-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Le corse est une langue germanique."
+    answers: ["Le corse est une langue romane"]
+    explanation: "Corsican is a Romance language, close to the Italian of Tuscany."
+  - id: "c1-culture-regional-languages-ex012"
+    type: "translate"
+    prompt: "Traduisez (une langue régionale) : Breton is a regional language."
+    answers: ["Le breton est une langue régionale"]
+    explanation: "Language names are masculine and written without a capital in French."
+  - id: "c1-culture-regional-languages-ex013"
+    type: "translate"
+    prompt: "Traduisez (l'enseignement) : The teaching of regional languages exists in many schools."
+    answers: ["L'enseignement des langues régionales existe dans de nombreuses écoles", "L'enseignement des langues régionales existe dans beaucoup d'écoles"]
+    explanation: "L'enseignement de + subject."
+  - id: "c1-culture-regional-languages-ex014"
+    type: "translate"
+    prompt: "Traduisez (le patrimoine) : These languages are part of France's heritage."
+    answers: ["Ces langues font partie du patrimoine de la France", "Ces langues appartiennent au patrimoine de la France"]
+    explanation: "Faire partie de or appartenir à + le patrimoine."
+  - id: "c1-culture-regional-languages-ex015"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase correcte."
+    options: ["La langue de la République est le français.", "Le breton est la langue officielle de la Bretagne.", "Les langues régionales n'ont aucune place dans l'enseignement."]
+    answers: ["La langue de la République est le français."]
+    explanation: "The Constitution states that French is the language of the Republic; regional languages are taught but aren't official."
+  - id: "c1-culture-regional-languages-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Regional languages belong to France's heritage."
+    words: ["Les", "langues", "régionales", "appartiennent", "au", "patrimoine", "de", "la", "France"]
+    answers: ["Les langues régionales appartiennent au patrimoine de la France"]
+    explanation: "This is the wording of the Constitution since 2008."
+---
+
+By the end of this lesson you'll be able to describe France's main regional languages, their origins and status, and how they're taught and passed on today.
+
+## What you already know
+
+You know *bilingue*, *une langue officielle*, *une langue nationale* and *le plurilinguisme* from <LessonLink id="b2-culture-francophone-africa" text="the lesson on francophone Africa" />, and *le patrimoine* from <LessonLink id="b2-passive-voice" text="the lesson on the passive" />. In <LessonLink id="c1-law-and-institutions" text="the lesson on law and institutions" />, you saw the Constitution and the courts. This lesson looks at the languages spoken in France besides French.
+
+## One official language, many languages
+
+<VocabTable group="status" />
+
+France has one official language. Since 1992, the Constitution has said: *la langue de la République est le français*. But France is also home to many *langues régionales*, which were the everyday languages of much of the population for centuries. Since 2008, the Constitution has added that *les langues régionales appartiennent au patrimoine de la France*.
+
+The relationship between French and the regional languages is a long debate. For some, a single language guarantees *l'unité* of the Republic and equal access to public life; for others, recognizing regional languages protects a heritage that is disappearing. France signed the European *charte* on regional or minority languages in 1999, but has not *ratifié* it. This lesson presents the positions, not a verdict.
+
+<Example fr="Pour certains, une seule langue garantit l'unité de la République." en="For some, a single language guarantees the unity of the Republic." />
+
+<Example fr="La France a signé la charte, mais elle ne l'a pas ratifiée." en="France signed the charter, but it hasn't ratified it." />
+
+Linguists distinguish between a language and *un dialecte* (a regional variety of a language), but the line is often debated, and speakers themselves don't always agree.
+
+## The main regional languages
+
+<VocabTable group="languages" />
+
+Each language below gets a short portrait. The lesson gives no speaker figures: they're estimated in different ways, and they change.
+
+**Le breton.** Spoken in western Brittany, Breton is *une langue celtique*, related to Welsh and Cornish. It's often seen on road signs and in festival names.
+
+**L'occitan.** Occitan is *une langue romane* of the south of France, with several varieties (Provençal, Gascon, Languedocien…). It was a major literary language in the Middle Ages, the language of the troubadours.
+
+**L'alsacien.** In Alsace, *l'alsacien* is a Germanic dialect, close to the German spoken across the Rhine.
+
+**Le basque.** Basque is spoken on both sides of the Pyrenees, in France and Spain. It doesn't belong to any of the main European language families, and its origin is still debated.
+
+**Le corse.** Corsican is a Romance language, close to the Italian of Tuscany.
+
+**Les créoles.** In Guadeloupe, Martinique, Guyane and La Réunion, *les créoles* were born from contact between French and other languages. They're full languages, with their own grammar, not "broken French".
+
+France has other regional languages too, such as Catalan, Picard and Flemish in the north.
+
+<Example fr="Le basque ne fait partie d'aucune grande famille de langues européennes." en="Basque isn't part of any of the main European language families." />
+
+## Regional French
+
+Even where the regional languages are rarely spoken, they leave traces in the French of each region: an accent, a few words, a turn of phrase. Linguists call this *le français régional*.
+
+<VocabTable group="regional" />
+ In the south-west, for example, many people say *une chocolatine* where Paris says *un pain au chocolat*; the two words cause friendly arguments across France. In the south, the final *e* of words is often pronounced, as in Occitan.
+
+<Example fr="Dans le sud-ouest, on demande souvent une chocolatine." en="In the south-west, people often ask for a chocolatine. (regional)" />
+
+These differences are labelled as regional in dictionaries; they're not mistakes. As a learner, recognize them, and keep to standard French when you write, unless you're quoting someone.
+
+## Language and identity
+
+For many people, a regional language is less a daily tool than a link with family, a place and a history. Singing in Breton at a festival, putting a Basque name on a shop or learning a few words of Creole from a grandparent are ways of keeping that link. Debates about regional languages are therefore often debates about identity, and they can be sensitive: as elsewhere in this course, describe positions rather than judge them.
+
+## Teaching and passing on
+
+<VocabTable group="today" />
+
+Today, regional languages can be studied at school, from optional classes to bilingual streams. *Des écoles immersives*, run by associations, teach mainly in the regional language: Diwan schools for Breton, Calandretas for Occitan and Ikastolak for Basque. *Des panneaux bilingues* show town names in two languages in several regions.
+
+For most regional languages, the key question is *la transmission*: whether parents still speak the language to their children. Where family transmission has weakened, schools and associations try to take over.
+
+<Example fr="Dans les écoles immersives, la majorité des cours ont lieu en breton." en="In immersion schools, the majority of lessons are taught in Breton." />
+<Example fr="L'enseignement des langues régionales existe dans de nombreuses écoles." en="Regional languages are taught in many schools." />
+
+## A short article
+
+The article below is an original text written for this lesson.
+
+*Les langues de France*
+
+*La langue de la République est le français. Pourtant, quand on voyage en France, on entend parfois d'autres langues : le breton à l'ouest, l'occitan dans le sud, l'alsacien à l'est, le basque au pied des Pyrénées, le corse sur l'île de Beauté, et les créoles dans les départements d'outre-mer.*
+
+*Pendant longtemps, ces langues ont été les langues de la vie quotidienne. Il y a plus de cent ans, l'école de la République enseignait en français, et beaucoup de familles ont cessé de parler leur langue régionale à leurs enfants. Les spécialistes ne sont pas tous d'accord sur les raisons et le rythme de ce changement.*
+
+*Depuis plusieurs années, l'intérêt pour ces langues revient. Des écoles immersives se sont ouvertes, on voit des panneaux bilingues à l'entrée des villages, et des festivals célèbrent la musique et la littérature régionales. Depuis 2008, la Constitution reconnaît que les langues régionales appartiennent au patrimoine de la France.*
+
+*Le débat continue pourtant. Certains veulent donner plus de place à ces langues dans l'école et dans la vie publique. D'autres rappellent que le français reste la langue commune de tous les citoyens. Entre ces deux positions, la majorité des habitants vivent avec simplicité : ils parlent français tous les jours, et parfois, en famille ou dans une fête, une autre langue.*
+
+*La question principale reste celle de la transmission. Une langue vit tant qu'une génération la transmet à la suivante. C'est pourquoi beaucoup de parents choisissent aujourd'hui une école bilingue pour leurs enfants, même s'ils ne parlent pas eux-mêmes la langue.*
+
+<VocabTable group="glossary" />
+
+(The languages of France. The language of the Republic is French. Yet when you travel in France, you sometimes hear other languages: Breton in the west, Occitan in the south, Alsatian in the east, Basque at the foot of the Pyrenees, Corsican on the "Island of Beauty", and the Creoles in the overseas departments. For a long time, these languages were the languages of everyday life. More than a hundred years ago, the Republic's schools taught in French, and many families stopped speaking their regional language to their children. Specialists don't all agree on the reasons for this change and how fast it happened. For several years, interest in these languages has been returning. Immersion schools have opened, bilingual signs can be seen at the entrance to villages, and festivals celebrate regional music and literature. Since 2008, the Constitution has recognized that regional languages belong to France's heritage. The debate goes on, however. Some want to give these languages more room in schools and in public life. Others point out that French remains the common language of all citizens. Between these two positions, the majority of people live simply: they speak French every day and, sometimes, in the family or at a festival, another language. The main question remains passing the language on. A language lives as long as one generation passes it on to the next. That's why many parents today choose a bilingual school for their children, even if they don't speak the language themselves.)
+
+<Callout type="warning" title="Le breton, not le Breton">
+  Learners often write language names with a capital, as in English. In French, a language is written with a small letter: **le breton**, **l'occitan**, **le basque**. A capital is used for a person: *un Breton*, *une Basque*.
+</Callout>
+
+<Callout type="tip" title="Listen before you judge">
+  If you travel in Brittany, Alsace or the Basque Country, look for a local radio station or a festival in the regional language. Even without understanding, you'll hear how these languages sound, and you'll see why many people care about passing them on.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-culture-francophonie" text="the culture lesson on la Francophonie" /> looks at French beyond France: its institutions and the varieties of French spoken around the world.
+
+===== content/lessons/c1/culture-francophonie.mdx =====
+---
+id: "c1-culture-francophonie"
+title: "La Francophonie"
+description: "French beyond France: the OIF and the summits, French as an official and working language, how its status differs in Belgium, Switzerland, Canada, Africa and the overseas territories, with labelled regional words and no speaker figures."
+level: "C1"
+unit: "Living the language"
+order: 48
+type: "culture"
+tags: ["culture", "francophonie", "institutions", "regional French"]
+prerequisites: ["c1-culture-regional-languages", "b2-culture-francophone-africa", "b1-culture-quebec"]
+related: ["a2-culture-francophone-world", "a1-numbers-21-100", "c1-advanced-idioms"]
+vocab:
+  - { id: "c1-culture-francophonie-v001", group: "institution", fr: "l'OIF (l'Organisation internationale de la Francophonie)", pron: "loh-ee-EF", en: "the OIF (International Organization of La Francophonie)" }
+  - { id: "c1-culture-francophonie-v002", group: "institution", fr: "un sommet", pron: "uhn soh-MEH", en: "a summit (a meeting of heads of State)" }
+  - { id: "c1-culture-francophonie-v003", group: "institution", fr: "un pays membre", pron: "uhn pay-ee MAHN-bruh", en: "a member country" }
+  - { id: "c1-culture-francophonie-v004", group: "institution", fr: "une langue de travail", pron: "ewn lahng duh trah-VAH-y", en: "a working language" }
+  - { id: "c1-culture-francophonie-v005", group: "institution", fr: "la colonisation", pron: "lah koh-loh-nee-zah-SYOHN", en: "colonization" }
+  - { id: "c1-culture-francophonie-v006", group: "europe", fr: "le néerlandais", pron: "luh nay-ehr-lahn-DEH", en: "Dutch" }
+  - { id: "c1-culture-francophonie-v007", group: "europe", fr: "l'allemand (m.)", pron: "lahl-MAHN", en: "German (the language)" }
+  - { id: "c1-culture-francophonie-v008", group: "europe", fr: "le romanche", pron: "luh roh-MAHNSH", en: "Romansh (a language of Switzerland)" }
+  - { id: "c1-culture-francophonie-v009", group: "europe", fr: "huitante", pron: "wee-TAHNT", en: "eighty (in some Swiss cantons)", note: "France: quatre-vingts." }
+  - { id: "c1-culture-francophonie-v010", group: "europe", fr: "une votation", pron: "ewn voh-tah-SYOHN", en: "a popular vote, a referendum (Switzerland)" }
+  - { id: "c1-culture-francophonie-v011", group: "europe", fr: "un canton", pron: "uhn kahn-TOHN", en: "a canton (a Swiss region)" }
+  - { id: "c1-culture-francophonie-v012", group: "world", fr: "un territoire", pron: "uhn teh-ree-TWAHR", en: "a territory" }
+  - { id: "c1-culture-francophonie-v013", group: "world", fr: "la Guyane / Mayotte", pron: "lah gwee-YAHN / mah-YOT", en: "French Guiana / Mayotte" }
+  - { id: "c1-culture-francophonie-v014", group: "world", fr: "une variété", pron: "ewn vah-ryay-TAY", en: "a variety (of a language)" }
+  - { id: "c1-culture-francophonie-v015", group: "world", fr: "un régionalisme", pron: "uhn ray-zhyoh-nah-LEESM", en: "a regional word or expression" }
+  - { id: "c1-culture-francophonie-v016", group: "glossary", fr: "partagé (partager)", pron: "par-tah-ZHAY", en: "shared (to share)" }
+  - { id: "c1-culture-francophonie-v017", group: "glossary", fr: "les dictionnaires (m.)", pron: "lay deek-syoh-NEHR", en: "dictionaries" }
+exercises:
+  - id: "c1-culture-francophonie-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « la francophonie » écrit avec une minuscule."
+    options: ["all the people and countries that use French", "the international organization", "the French government"]
+    answers: ["all the people and countries that use French"]
+    explanation: "With a small f, la francophonie is the French-speaking world; with a capital, la Francophonie is the institution."
+  - id: "c1-culture-francophonie-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez ce que veut dire « septante » en Belgique et en Suisse."
+    options: ["soixante-dix", "soixante", "quatre-vingts"]
+    answers: ["soixante-dix"]
+    explanation: "Septante is seventy in Belgium and Switzerland; France says soixante-dix."
+  - id: "c1-culture-francophonie-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez les langues officielles de la Belgique."
+    options: ["le français, le néerlandais et l'allemand", "le français seulement", "le français et l'anglais"]
+    answers: ["le français, le néerlandais et l'allemand"]
+    explanation: "Belgium has three official languages: French, Dutch and German."
+  - id: "c1-culture-francophonie-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le pays où « une votation » est un mot courant."
+    options: ["la Suisse", "la Belgique", "le Sénégal"]
+    answers: ["la Suisse"]
+    explanation: "Swiss citizens often vote on specific questions: une votation."
+  - id: "c1-culture-francophonie-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Le français est une langue de ___ dans plusieurs organisations internationales."
+    options: ["travail", "sommet", "membre"]
+    answers: ["travail"]
+    explanation: "Une langue de travail: a language used in the daily work of an organization."
+  - id: "c1-culture-francophonie-ex006"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Tous les deux ans environ, les chefs d'État des pays membres se réunissent lors d'un ___."
+    options: ["sommet", "canton", "territoire"]
+    answers: ["sommet"]
+    explanation: "Le Sommet de la Francophonie brings together the heads of State and government."
+  - id: "c1-culture-francophonie-ex007"
+    type: "fill-in"
+    prompt: "Complétez : En Suisse, on parle allemand, français, italien et ___."
+    answers: ["romanche"]
+    explanation: "Switzerland has four national languages, including Romansh."
+  - id: "c1-culture-francophonie-ex008"
+    type: "fill-in"
+    prompt: "Complétez : Un mot qu'on dit dans une seule région est un ___."
+    answers: ["régionalisme"]
+    explanation: "Un régionalisme: a word or expression typical of one area."
+  - id: "c1-culture-francophonie-ex009"
+    type: "reformulation"
+    prompt: "Reformulez en français de France, avec « soixante-dix » : J'ai septante euros."
+    answers: ["J'ai soixante-dix euros"]
+    explanation: "Septante (Belgium, Switzerland) = soixante-dix (France)."
+  - id: "c1-culture-francophonie-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « un pays membre » : Ce pays fait partie de l'OIF."
+    answers: ["C'est un pays membre de l'OIF", "Ce pays est un pays membre de l'OIF"]
+    explanation: "Un pays membre de l'OIF: a country that belongs to the organization."
+  - id: "c1-culture-francophonie-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : En Suisse, on dit « huitante » dans tous les cantons."
+    answers: ["En Suisse, on dit « huitante » dans certains cantons"]
+    explanation: "Huitante is used in some Swiss cantons only; others say quatre-vingts."
+  - id: "c1-culture-francophonie-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Le Canada a une seule langue officielle, le français."
+    answers: ["Le Canada a deux langues officielles, le français et l'anglais"]
+    strictAccents: true
+    explanation: "Canada is officially bilingual at the federal level; French is the only official language of Québec."
+  - id: "c1-culture-francophonie-ex013"
+    type: "translate"
+    prompt: "Traduisez (une langue de travail) : French is a working language of the United Nations."
+    answers: ["Le français est une langue de travail des Nations unies"]
+    explanation: "Une langue de travail de + the organization."
+  - id: "c1-culture-francophonie-ex014"
+    type: "translate"
+    prompt: "Traduisez (une variété) : There are several varieties of French."
+    answers: ["Il existe plusieurs variétés de français", "Il y a plusieurs variétés de français"]
+    strictAccents: true
+    explanation: "Une variété: a form of a language spoken in one place."
+  - id: "c1-culture-francophonie-ex015"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase la plus neutre sur l'histoire du français en Afrique."
+    options: ["Le français est arrivé en Afrique avec la colonisation, puis beaucoup de pays l'ont gardé après leur indépendance.", "Le français est la seule vraie langue de l'Afrique.", "Le français n'a aucune place en Afrique aujourd'hui."]
+    answers: ["Le français est arrivé en Afrique avec la colonisation, puis beaucoup de pays l'ont gardé après leur indépendance."]
+    explanation: "A neutral sentence states the history and the present without judging."
+  - id: "c1-culture-francophonie-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : French is shared by many countries."
+    words: ["Le", "français", "est", "partagé", "par", "de", "nombreux", "pays"]
+    answers: ["Le français est partagé par de nombreux pays"]
+    explanation: "Être partagé par: the passive with par."
+---
+
+By the end of this lesson you'll be able to describe la Francophonie as an institution, explain how the status of French differs from one country to another, and recognize a few labelled regional words.
+
+## What you already know
+
+You know French in Québec (*un courriel*, *magasiner*, *la Charte de la langue française*) from <LessonLink id="b1-culture-quebec" text="the lesson on French in Québec" />, and French in Africa (*la francophonie*, *une langue officielle*, *le nouchi*, *s'enjailler*) from <LessonLink id="b2-culture-francophone-africa" text="the lesson on francophone Africa" />. You learned *septante* and *nonante* in <LessonLink id="a1-numbers-21-100" text="the lesson on numbers" />, and the regional languages of France in <LessonLink id="c1-culture-regional-languages" text="the last lesson" />. This lesson looks at the French-speaking world as a whole.
+
+## Francophonie and Francophonie
+
+<VocabTable group="institution" />
+
+With a small *f*, *la francophonie* is all the people and countries that use French. With a capital, *la Francophonie* is the set of institutions that bring together French-speaking countries. The main one is *l'OIF*, l'Organisation internationale de la Francophonie, based in Paris. Its origins go back to an agency created in 1970 at a conference in Niamey, in Niger.
+
+The OIF brings together *des pays membres* where French has very different roles: an official language, a language of school, a language of culture, or a language shared by part of the population. About every two years, the heads of State and government meet at *un sommet*. The OIF works on the French language, education, culture and cooperation between its members.
+
+<Example fr="Les chefs d'État des pays membres se réunissent lors d'un sommet." en="The heads of State of the member countries meet at a summit." />
+
+French is also *une langue de travail* in many international organizations, including the United Nations and the European Union, and one of the official languages of the Olympic movement.
+
+<Example fr="Le français est une langue de travail des Nations unies." en="French is a working language of the United Nations." />
+
+The spread of French outside Europe is linked to *la colonisation*. After independence, many countries kept French as an official or working language, alongside their national languages. Historians and the countries concerned discuss this history; this lesson states the facts and doesn't judge.
+
+## French in Europe
+
+<VocabTable group="europe" />
+
+**La Belgique.** Belgium has three official languages: French, *le néerlandais* (Dutch) and *l'allemand* (German). French is spoken mainly in Wallonia and in Brussels. Belgians say *septante* (70) and *nonante* (90).
+
+**La Suisse.** Switzerland has four national languages: German, French, Italian and *le romanche*. French is spoken in the west. Many Swiss French speakers say *septante* and *nonante*, and in some *cantons* also *huitante* (80). Swiss citizens often vote on specific questions in *une votation*.
+
+<Example fr="La semaine prochaine, les Suisses votent lors d'une votation sur les transports." en="Next week, the Swiss are voting in a referendum on transport." />
+
+**Le Luxembourg.** You met it at A2: French is one of the country's languages, alongside Luxembourgish and German.
+
+<Example fr="Dans certains cantons suisses, on dit huitante pour quatre-vingts." en="In some Swiss cantons, people say huitante for eighty. (regional)" />
+
+## French in the Americas and overseas
+
+<VocabTable group="world" />
+
+<Example fr="En Guyane et à Mayotte, le français est la langue officielle." en="In French Guiana and Mayotte, French is the official language." />
+<Example fr="La Nouvelle-Calédonie est un territoire très loin de Paris." en="New Caledonia is a territory very far from Paris." />
+
+**Le Canada.** Canada is officially bilingual at the federal level; Québec has French as its only official language, as you saw at B1. Acadians in the east also speak French.
+
+**Haïti.** French and Haitian Creole are both official languages.
+
+**Les outre-mer.** In Guadeloupe, Martinique, *la Guyane*, La Réunion and *Mayotte*, French is the official language, alongside Creoles and other local languages. Other *territoires*, such as New Caledonia and French Polynesia, have their own status.
+
+## Status at a glance
+
+The status of French differs from one country to another, and the words for it are precise.
+
+| Where | Status of French |
+|---|---|
+| France, Québec, the overseas departments | the only official language |
+| Belgium, Switzerland, Luxembourg, Canada (federal) | one of several official languages |
+| many African countries | an official language, or the language of school and administration, alongside national languages |
+| international organizations | an official or working language |
+
+As a rule of thumb, ask two questions about any country: is French official, and is it the language people speak at home? The two answers are often different. In many African countries, French is the language of school and administration, while most people speak a national language at home.
+
+## French in Africa today
+
+You saw at B2 that African French creates its own words: *une essencerie* (a petrol station) in Senegal, *s'enjailler* (to have fun) in Côte d'Ivoire. These words are labelled as regional, like *septante* or *magasiner*. Young speakers in cities such as Abidjan also mix French with local languages in new ways, and some of their words reach dictionaries.
+
+<Example fr="Au Sénégal, on peut dire une essencerie pour une station-service." en="In Senegal, you can say une essencerie for a petrol station. (regional)" />
+
+## Varieties and regionalisms
+
+French isn't one single language spoken the same way everywhere: it has *des variétés*. Each has its accent and its *régionalismes*, words used in one area. A careful speaker labels them: *(Belgique)*, *(Suisse)*, *(Québec)*. None is "better" French; in international writing, standard French is the common reference.
+
+<Example fr="Le mot courriel est un régionalisme du Québec qu'on dit aussi en France." en="The word courriel is a Québec regionalism that is also used in France." />
+
+## A short article
+
+The article below is an original text written for this lesson.
+
+*Le français, une langue en partage*
+
+*Le français n'est pas seulement la langue de la France. Il est partagé par de nombreux pays, sur tous les continents, et la majorité des personnes qui le parlent vivent aujourd'hui sur d'autres continents que l'Europe. Les mots voyagent aussi : courriel, venu du Québec, est entré dans le français de France.*
+
+*En Europe, il est une langue officielle en Belgique, en Suisse et au Luxembourg, où il vit à côté d'autres langues. On y compte parfois autrement : septante, nonante, et même huitante dans certains cantons suisses.*
+
+*En Amérique, le Québec a fait du français sa seule langue officielle, tandis que le Canada est bilingue. En Afrique, le français est arrivé avec la colonisation ; après leur indépendance, beaucoup de pays l'ont gardé comme langue officielle ou langue de l'école, à côté de leurs langues nationales. Dans les rues d'Abidjan, le français se mélange aux langues locales et crée des mots nouveaux, que les dictionnaires finissent parfois par accueillir.*
+
+*Pour faire vivre ce partage, les pays membres de l'OIF se réunissent tous les deux ans environ lors d'un sommet. Ils parlent de l'enseignement, de la culture et de la place du français dans le monde.*
+
+*Cette langue commune n'est pas pour autant une langue unique. Chaque pays a ses mots, ses accents et ses expressions. Un Belge, une Québécoise et un Ivoirien se comprennent, mais chacun reconnaît vite d'où vient l'autre. C'est sans doute la force de la francophonie : une langue partagée, et mille façons de la parler.*
+
+<VocabTable group="glossary" />
+
+(French, a shared language. French isn't only the language of France. It is shared by many countries, on every continent, and the majority of the people who speak it now live on continents other than Europe. Words travel too: courriel, which came from Québec, has entered the French of France. In Europe, it is an official language in Belgium, Switzerland and Luxembourg, where it lives alongside other languages. People there sometimes count differently: septante, nonante, and even huitante in some Swiss cantons. In America, Québec has made French its only official language, while Canada is bilingual. In Africa, French arrived with colonization; after independence, many countries kept it as an official language or a language of school, alongside their national languages. In the streets of Abidjan, French mixes with local languages and creates new words, which dictionaries sometimes end up accepting. To keep this sharing alive, the member countries of the OIF meet about every two years at a summit. They talk about education, culture and the place of French in the world. This common language isn't a single, uniform language, though. Each country has its words, its accents and its expressions. A Belgian man, a Québec woman and an Ivorian man understand each other, but each quickly recognizes where the other comes from. That is probably the strength of the French-speaking world: one shared language, and a thousand ways of speaking it.)
+
+<Callout type="warning" title="La Francophonie, la francophonie">
+  Learners often mix up the two spellings. With a capital, **la Francophonie** is the institution (the OIF and its summits); with a small letter, **la francophonie** is the French-speaking world itself.
+</Callout>
+
+<Callout type="tip" title="Label what you hear">
+  When you meet a word you don't find in a standard dictionary, check whether it's a regionalism, and note it with its label: *septante (Belgique, Suisse)*, *magasiner (Québec)*. You'll understand more speakers, and you'll know which words to keep for which audience.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-register-shifting" text="the lesson on shifting register" /> shows how to rewrite one message from slang to administrative French and back.
+
+===== content/lessons/c1/register-shifting.mdx =====
+---
+id: "c1-register-shifting"
+title: "Shifting register on demand"
+description: "Rewrite one message in four registers, from slang to administrative French and back: what changes in words, grammar, sentence length and formulas, how to shift up and down, and how to avoid mixing registers, with one original message in four versions."
+level: "C1"
+unit: "Living the language"
+order: 49
+type: "communication"
+tags: ["communication", "registers", "writing", "slang"]
+prerequisites: ["b2-registers", "b2-colloquial-french", "b2-culture-verlan-and-slang", "c1-formal-correspondence"]
+related: ["c1-diplomatic-language", "c1-advanced-idioms", "c1-irony-and-understatement"]
+vocab:
+  - { id: "c1-register-shifting-v001", group: "levels", fr: "le registre administratif", pron: "luh ruh-zhees-truh ad-mee-nees-trah-TEEF", en: "the administrative register (letters to institutions)" }
+  - { id: "c1-register-shifting-v002", group: "levels", fr: "monter / descendre d'un registre", pron: "mohn-TAY / day-sahn-druh duhn ruh-ZHEES-truh", en: "to move up / down a register" }
+  - { id: "c1-register-shifting-v003", group: "levels", fr: "un mélange des registres", pron: "uhn may-lahnzh day ruh-ZHEES-truh", en: "a mix of registers" }
+  - { id: "c1-register-shifting-v004", group: "slang", fr: "ça craint", pron: "sah KRAN", en: "that's bad, that's a pain (slang)" }
+  - { id: "c1-register-shifting-v005", group: "slang", fr: "galérer", pron: "gah-lay-RAY", en: "to struggle, to have a hard time (familiar)", note: "From c'est la galère." }
+  - { id: "c1-register-shifting-v006", group: "slang", fr: "se geler", pron: "suh zhuh-LAY", en: "to be freezing (familiar)", note: "On se gèle." }
+  - { id: "c1-register-shifting-v007", group: "slang", fr: "l'appart", pron: "lah-PAR", en: "the flat (familiar, short for l'appartement)" }
+  - { id: "c1-register-shifting-v008", group: "formal", fr: "le locataire / la locataire", pron: "luh loh-kah-TEHR", en: "the tenant" }
+  - { id: "c1-register-shifting-v009", group: "formal", fr: "le propriétaire / la propriétaire", pron: "luh proh-pree-ay-TEHR", en: "the owner, the landlord" }
+  - { id: "c1-register-shifting-v010", group: "formal", fr: "un technicien / une technicienne", pron: "uhn tek-nee-SYAN / ewn tek-nee-SYEN", en: "a technician" }
+  - { id: "c1-register-shifting-v011", group: "formal", fr: "intervenir", pron: "an-tehr-vuh-NEER", en: "to come and deal with something (a repair, a problem)", note: "Like venir: il est intervenu." }
+  - { id: "c1-register-shifting-v012", group: "formal", fr: "dans les meilleurs délais", pron: "dahn lay meh-yuhr day-LEH", en: "as soon as possible (formal)" }
+  - { id: "c1-register-shifting-v013", group: "formal", fr: "faire le nécessaire", pron: "fehr luh nay-seh-SEHR", en: "to do what is needed" }
+  - { id: "c1-register-shifting-v014", group: "formal", fr: "le logement", pron: "luh lozh-MAHN", en: "the accommodation, the flat" }
+  - { id: "c1-register-shifting-v015", group: "formal", fr: "persister", pron: "pehr-sees-TAY", en: "to continue, to persist" }
+  - { id: "c1-register-shifting-v016", group: "formal", fr: "la température", pron: "lah tahn-pay-rah-TEWR", en: "the temperature" }
+  - { id: "c1-register-shifting-v017", group: "glossary", fr: "un radiateur", pron: "uhn rah-dyah-TUHR", en: "a heater, a radiator" }
+  - { id: "c1-register-shifting-v018", group: "glossary", fr: "top", pron: "top", en: "great, the best (familiar)" }
+exercises:
+  - id: "c1-register-shifting-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre de la phrase : On se gèle, le chauffage est mort, ça craint."
+    options: ["familier", "courant", "soutenu"]
+    answers: ["familier"]
+    explanation: "Se geler, mort for a broken heater and ça craint are familiar and slang."
+  - id: "c1-register-shifting-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre de la phrase : Je vous saurais gré de bien vouloir faire intervenir un technicien dans les meilleurs délais."
+    options: ["soutenu", "courant", "familier"]
+    answers: ["soutenu"]
+    explanation: "Je vous saurais gré de, bien vouloir and dans les meilleurs délais belong to formal, administrative French."
+  - id: "c1-register-shifting-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui mélange les registres."
+    options: ["Madame, je vous saurais gré de bien vouloir réparer ce truc.", "Madame, je vous saurais gré de bien vouloir réparer le chauffage.", "Salut, tu peux réparer le truc ?"]
+    answers: ["Madame, je vous saurais gré de bien vouloir réparer ce truc."]
+    explanation: "Un truc is familiar; it clashes with je vous saurais gré de."
+  - id: "c1-register-shifting-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez l'expression du registre administratif : Merci de ___ pour que le chauffage soit réparé."
+    options: ["faire le nécessaire", "galérer", "vous geler"]
+    answers: ["faire le nécessaire"]
+    explanation: "Faire le nécessaire: to do what is needed, in formal requests."
+  - id: "c1-register-shifting-ex005"
+    type: "fill-in"
+    prompt: "Complétez au registre soutenu : Merci d'intervenir dans les meilleurs ___."
+    answers: ["délais"]
+    explanation: "Dans les meilleurs délais: as soon as possible, in formal French."
+  - id: "c1-register-shifting-ex006"
+    type: "register-shift"
+    prompt: "Transformez au registre courant, avec « froid » : On se gèle dans l'appart."
+    answers: ["Il fait froid dans l'appartement", "Il fait très froid dans l'appartement", "Nous avons froid dans l'appartement", "On a froid dans l'appartement"]
+    strictAccents: true
+    explanation: "Se geler becomes il fait froid, and l'appart becomes l'appartement."
+  - id: "c1-register-shifting-ex007"
+    type: "register-shift"
+    prompt: "Transformez au registre courant, avec « en panne » : Le chauffage est mort."
+    answers: ["Le chauffage est en panne"]
+    explanation: "Mort (familiar, for a machine) becomes en panne."
+  - id: "c1-register-shifting-ex008"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « je vous saurais gré de bien vouloir » : Vous pouvez envoyer quelqu'un ?"
+    answers: ["Je vous saurais gré de bien vouloir envoyer quelqu'un", "Je vous saurais gré de bien vouloir m'envoyer quelqu'un", "Je vous saurais gré de bien vouloir envoyer un technicien"]
+    explanation: "A direct question becomes a formal request in the conditionnel."
+  - id: "c1-register-shifting-ex009"
+    type: "register-shift"
+    prompt: "Transformez au registre familier, avec « on » et « galérer » : Nous avons beaucoup de difficultés depuis lundi."
+    answers: ["On galère depuis lundi", "On galère beaucoup depuis lundi", "On galère grave depuis lundi"]
+    explanation: "On for nous and galérer for avoir des difficultés."
+  - id: "c1-register-shifting-ex010"
+    type: "error-correction"
+    prompt: "Corrigez le mélange des registres (gardez le registre soutenu) : Je vous prie d'agréer mes salutations distinguées, et merci, c'est sympa."
+    answers: ["Je vous prie d'agréer mes salutations distinguées", "Je vous prie d'agréer mes salutations distinguées, et je vous remercie"]
+    explanation: "C'est sympa is familiar: it doesn't belong after a formal closing."
+  - id: "c1-register-shifting-ex011"
+    type: "error-correction"
+    prompt: "Corrigez le mélange des registres (gardez le registre familier) : Salut Karim, je vous saurais gré de m'apporter un pull."
+    answers: ["Salut Karim, tu peux m'apporter un pull ?", "Salut Karim, tu pourrais m'apporter un pull ?", "Salut Karim, est-ce que tu peux m'apporter un pull ?", "Salut Karim, tu m'apportes un pull ?"]
+    explanation: "Je vous saurais gré de is administrative; to a friend, tu peux or tu pourrais."
+  - id: "c1-register-shifting-ex012"
+    type: "translate"
+    prompt: "Traduisez au registre soutenu (le locataire, signaler) : The tenant reported the problem on Monday."
+    answers: ["Le locataire a signalé le problème lundi", "La locataire a signalé le problème lundi", "Lundi, le locataire a signalé le problème", "Lundi, la locataire a signalé le problème"]
+    strictAccents: true
+    explanation: "Signaler un problème: the neutral, formal verb."
+  - id: "c1-register-shifting-ex013"
+    type: "translate"
+    prompt: "Traduisez au registre familier (ça craint) : That's really bad."
+    answers: ["Ça craint vraiment", "Ça craint grave"]
+    explanation: "Ça craint is slang; grave as an intensifier is familiar too."
+  - id: "c1-register-shifting-ex014"
+    type: "reformulation"
+    prompt: "Reformulez avec « persister » : Le problème continue."
+    answers: ["Le problème persiste"]
+    explanation: "Persister: the formal verb for a problem that goes on."
+  - id: "c1-register-shifting-ex015"
+    type: "reformulation"
+    prompt: "Reformulez avec « intervenir » : Un technicien doit venir réparer le chauffage."
+    answers: ["Un technicien doit intervenir", "Un technicien doit intervenir pour réparer le chauffage", "Un technicien doit intervenir sur le chauffage"]
+    explanation: "Intervenir: to come and deal with a problem."
+  - id: "c1-register-shifting-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Please do what is needed as soon as possible."
+    words: ["Merci", "de", "faire", "le", "nécessaire", "dans", "les", "meilleurs", "délais"]
+    answers: ["Merci de faire le nécessaire dans les meilleurs délais"]
+    explanation: "Two formal formulas in one request."
+---
+
+By the end of this lesson you'll be able to rewrite one message in four registers, from slang to administrative French and back, and to avoid the mistake of mixing them.
+
+## What you already know
+
+You know the three registers *familier*, *courant* and *soutenu*, with pairs such as *bagnole*, *voiture*, *automobile*, from <LessonLink id="b2-registers" text="the lesson on registers" />. You know spoken forms (*t'es*, *y a*, *ouais*, *du coup*) from <LessonLink id="b2-colloquial-french" text="the lesson on spoken, everyday French" />, and slang (*le fric*, *relou*, *c'est la galère*, *kiffer*) from <LessonLink id="b2-culture-verlan-and-slang" text="the lesson on verlan and slang" />. In <LessonLink id="c1-formal-correspondence" text="the lesson on high-register correspondence" />, you wrote to institutions. This lesson asks you to move between all of them on purpose.
+
+## Four levels
+
+<VocabTable group="levels" />
+
+For this lesson, think of four levels:
+
+- **Slang and familiar French**: friends, family, text messages. *Ça craint, on se gèle.*
+- **Everyday standard French**: colleagues, neighbours, most emails. *Il fait froid, le chauffage est en panne.*
+- **Formal French**: a manager, a client, a public talk. *Le chauffage ne fonctionne plus depuis lundi.*
+- ***Le registre administratif***: letters to a landlord, a town hall, a company's services. *Je vous saurais gré de bien vouloir faire intervenir un technicien.*
+
+To *monter d'un registre* (move up) or *descendre d'un registre* (move down), you change several things at once: the words, the grammar, the length of the sentences and the formulas.
+
+<Example fr="Pour écrire au propriétaire, il faut monter d'un registre." en="To write to the landlord, you need to move up a register." />
+
+## What changes
+
+Each step up the scale changes four things.
+
+- **Words**: *le fric* → *l'argent*; *l'appart* → *l'appartement* → *le logement*; *le chauffage est mort* → *en panne* → *ne fonctionne plus*.
+- **Grammar**: dropped *ne* comes back, *on* becomes *nous*, *ça* becomes *cela*, intonation questions become inversion or formulas.
+- **Sentence length**: slang uses short, broken sentences; administrative French uses longer sentences, with participle clauses and connectors.
+- **Formulas**: *salut* and *bises* become *Madame, Monsieur* and a full closing formula.
+
+<VocabTable group="slang" />
+
+At the bottom of the scale, slang words carry emotion: *ça craint* (that's bad), *galérer* (to struggle), *se geler* (to be freezing). Short forms such as *l'appart* belong to the same level. They're natural with friends and wrong in any formal text.
+
+<Example fr="On galère depuis lundi, et on se gèle dans l'appart." en="We've been struggling since Monday, and we're freezing in the flat. (familiar)" />
+
+<VocabTable group="formal" />
+
+At the top, administrative French uses precise nouns and set formulas: *le locataire* and *le propriétaire*, *un technicien* who will *intervenir*, *dans les meilleurs délais*, *faire le nécessaire*.
+
+<Example fr="Je vous prie de bien vouloir faire le nécessaire dans les meilleurs délais." en="Please do what is necessary as soon as possible. (formal)" />
+
+## Shifting up and down
+
+Moving up, work in this order: replace the slang words, restore the grammar (*ne*, *nous*, *cela*), add the formulas, and only then lengthen the sentences. Moving down, do the reverse: cut the formulas, shorten the sentences, and choose everyday words before you add any slang.
+
+As a rule of thumb, don't overshoot. A message to a colleague written in administrative French sounds cold or ironic; a letter to a landlord with a slang word sounds careless. Choose the level for the reader, then keep it.
+
+## Who is reading?
+
+Before you write, ask three questions: who is the reader, what do you want from them, and will the message be kept? A text to a friend is read once and forgotten; a letter to a landlord may be read again months later, by someone else. As a rule of thumb, the more official the reader and the longer the message will be kept, the higher the register. With the same reader, the level can also change with the situation: you may write *salut* to a colleague in a chat, but *bonjour* in an email that your manager will also read.
+
+<Example fr="Je vous écris pour vous signaler un problème de chauffage." en="I'm writing to inform you of a heating problem. (formal)" />
+
+## Mixing registers
+
+<Example fr="Ce message est un mélange des registres : il commence par Madame et finit par bises." en="This message mixes registers: it starts with Madame and ends with bises." />
+
+The most common mistake at C1 isn't choosing the wrong register: it's mixing two in the same text. A formal letter with *un truc*, or a text to a friend with *je vous saurais gré de*, sounds strange or comic. Reread each message once, only for register, and replace every word that belongs to another level. Mixing on purpose is a source of humour, as you saw in <LessonLink id="c1-culture-satire-and-humour" text="the lesson on satire and humour" />, but only when the reader sees the joke.
+
+## One message, four registers
+
+The four messages below are original texts written for this lesson. They all say the same thing: the heating in a flat has broken down. The people are invented.
+
+*1. Texto à un ami*
+
+*Salut Karim ! Le chauffage est mort depuis lundi, on se gèle dans l'appart. Ça craint grave. Tu peux me passer un radiateur ce soir ? Je te le rends dès que c'est réparé. Merci, t'es top !*
+
+*2. Message à une voisine*
+
+*Bonjour Madame Garnier, le chauffage de notre immeuble est en panne depuis lundi. Il fait très froid chez nous, et les enfants dorment avec deux pulls. Est-ce que vous avez le même problème ? Si c'est le cas, on pourrait écrire ensemble au propriétaire : à deux, on sera peut-être plus vite entendus. Bonne soirée, Lucas, du troisième étage.*
+
+*3. Courriel à son responsable*
+
+*Bonjour Monsieur Dubois, je vous écris pour vous prévenir que j'arriverai vers dix heures demain matin. Le chauffage de mon logement ne fonctionne plus depuis lundi, et je dois passer à l'agence de mon propriétaire avant de venir au bureau. Je serai bien sûr présent à la réunion de onze heures. Bien cordialement, Lucas Martin.*
+
+*4. Lettre au propriétaire*
+
+*Monsieur,*
+
+*Locataire de l'appartement situé au troisième étage, je me permets de vous signaler que le chauffage ne fonctionne plus depuis lundi. La température du logement est désormais très basse, ce qui rend la vie difficile à toute la famille. Malgré deux appels à votre agence, le problème persiste. Je vous saurais gré de bien vouloir faire intervenir un technicien dans les meilleurs délais. Je reste à votre disposition pour toute information.*
+
+*Je vous prie d'agréer, Monsieur, l'expression de mes salutations distinguées.*
+
+*Lucas Martin*
+
+<VocabTable group="glossary" />
+
+(1. Text to a friend. Hi Karim! The heating's been dead since Monday, we're freezing in the flat. It's seriously bad. Can you lend me a heater tonight? I'll give it back as soon as it's fixed. Thanks, you're the best! (slang) 2. Message to a neighbour. Hello Madame Garnier, the heating in our building has been broken since Monday. It's very cold in our flat, and the children are sleeping in two jumpers. Do you have the same problem? If so, we could write to the landlord together: with two of us, we may be heard more quickly. Have a good evening, Lucas, from the third floor. 3. Email to his manager. Hello Mr Dubois, I'm writing to let you know that I'll arrive at about ten tomorrow morning. The heating in my flat hasn't worked since Monday, and I need to go to my landlord's agency before coming to the office. I'll of course be at the eleven o'clock meeting. Kind regards, Lucas Martin. 4. Letter to the landlord. Dear Sir, As the tenant of the third-floor flat, I am writing to inform you that the heating has not been working since Monday. The temperature in the flat is now very low, which makes life difficult for the whole family. Despite two calls to your agency, the problem persists. I would be grateful if you would arrange for a technician to come as soon as possible. I remain at your disposal for any further information. Yours faithfully, Lucas Martin.)
+
+## How the four versions differ
+
+- **Words**: *le chauffage est mort* (1), *en panne* (2), *ne fonctionne plus* (3, 4); *l'appart* (1), *chez nous* (2), *mon logement* (3), *le logement* (4).
+- **Grammar**: *t'es* and an intonation question in 1; *est-ce que* in 2; full sentences in 3; an apposition (*locataire de l'appartement…*) and *je vous saurais gré de* in 4.
+- **Formulas**: *salut* and *t'es top* (1); *bonjour Madame Garnier* and *bonne soirée* (2); *bonjour Monsieur Dubois* and *bien cordialement* (3); *Monsieur* and the full closing formula (4).
+- **Content**: each version gives only what its reader needs: a favour (1), a common problem and an offer to act together (2), the effect on work (3), the facts and a formal request (4).
+
+## En français
+
+Lucas asks his colleague Inès to check the register of his draft letter to the landlord.
+
+- *Inès, tu as cinq minutes ? J'aimerais ton avis sur ma lettre au propriétaire.* (Inès, have you got five minutes? I'd like your opinion on my letter to the landlord.)
+- *Bien sûr, montre-moi. Le début est parfait : « je me permets de vous signaler ».* (Of course, show me. The start is perfect: "je me permets de vous signaler".)
+- *Et la suite ? J'ai écrit « le chauffage est mort ». C'est trop familier ?* (And the rest? I wrote "le chauffage est mort". Is that too familiar?)
+- *Oui, dans une lettre, on écrit plutôt « le chauffage ne fonctionne plus ».* (Yes, in a letter you'd rather write "le chauffage ne fonctionne plus".)
+- *D'accord. Et à la fin, j'ai mis « merci d'avance, bonne journée ».* (OK. And at the end, I put "merci d'avance, bonne journée".)
+- *Ça, c'est un mélange des registres. Mets la formule complète : « Je vous prie d'agréer… ».* (That's a mix of registers. Put the full formula: "Je vous prie d'agréer…".)
+- *C'est long, mais tu as raison. Tu penses qu'il va répondre vite ?* (It's long, but you're right. Do you think he'll answer quickly?)
+- *Je ne sais pas. Mais il saura exactement ce que tu demandes.* (I don't know. But he'll know exactly what you're asking for.)
+- *À Karim, j'ai envoyé un texto : « on se gèle, ça craint ».* (To Karim, I sent a text: "on se gèle, ça craint".)
+- *Là, c'est parfait ! Avec un ami, une lettre administrative serait bizarre.* (That's perfect! With a friend, an administrative letter would be strange.)
+- *Donc il faut savoir monter et descendre d'un registre.* (So you need to know how to move up and down a register.)
+- *Exactement. Le même message, mais pas les mêmes mots.* (Exactly. The same message, but not the same words.)
+
+<Callout type="warning" title="Don't mix registers in one text">
+  The commonest C1 mistake is a familiar word in a formal message, or the reverse. In a letter to a landlord, write **le chauffage ne fonctionne plus**, not *le chauffage est mort*; to a friend, **tu peux…?**, not *je vous saurais gré de*.
+</Callout>
+
+<Callout type="tip" title="Write the same message four times">
+  Once a week, take one small event (a late train, a lost key) and write it four times: a text to a friend, a message to a neighbour, an email to a manager and a formal letter. It takes ten minutes, and it trains exactly the skill this lesson teaches.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-review-living" text="the review of this unit" /> brings proverbs, idioms, regional French and registers together in one message written three ways.
+
+===== content/lessons/c1/review-living.mdx =====
+---
+id: "c1-review-living"
+title: "Review: Living the language"
+description: "Bring Unit 7 together in one message written in three registers: a proverb, an idiom, regional words used by a Swiss writer, and the shifts from familiar to administrative French, with an original message about a neighbourhood supper."
+level: "C1"
+unit: "Living the language"
+order: 50
+type: "review"
+tags: ["review", "registers", "proverbs", "idioms", "francophonie"]
+prerequisites: ["c1-proverbs-and-sayings", "c1-advanced-idioms", "c1-culture-regional-languages", "c1-culture-francophonie", "c1-register-shifting", "a2-culture-francophone-world"]
+related: ["c1-review-rhetoric", "c1-formal-correspondence", "c1-irony-and-understatement"]
+vocab:
+  - { id: "c1-review-living-v001", group: "new", fr: "une variante", pron: "ewn vah-RYAHNT", en: "a variant (another form of the same word or phrase)" }
+  - { id: "c1-review-living-v002", group: "new", fr: "le parler", pron: "luh par-LAY", en: "the local speech, the way of speaking (of a place or group)" }
+  - { id: "c1-review-living-v003", group: "new", fr: "une expression régionale", pron: "ew-nek-spreh-syohn ray-zhyoh-NAL", en: "a regional expression (a word or phrase used in one region)" }
+exercises:
+  - id: "c1-review-living-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez le proverbe : Il pleut depuis trois jours, mais demain il fera beau."
+    options: ["Après la pluie, le beau temps.", "L'habit ne fait pas le moine.", "Qui se ressemble s'assemble."]
+    answers: ["Après la pluie, le beau temps."]
+    explanation: "Après la pluie, le beau temps: things will get better. Here it also fits the weather literally."
+  - id: "c1-review-living-ex002"
+    type: "fill-in"
+    prompt: "Complétez le proverbe : C'est en forgeant qu'on devient ___."
+    answers: ["forgeron"]
+    explanation: "C'est en forgeant qu'on devient forgeron: practice makes perfect."
+  - id: "c1-review-living-ex003"
+    type: "reformulation"
+    prompt: "Reformulez avec le proverbe qui commence par « mieux vaut » : Il vaut mieux arriver en retard que ne pas venir du tout."
+    answers: ["Mieux vaut tard que jamais"]
+    explanation: "Mieux vaut tard que jamais: better late than never."
+  - id: "c1-review-living-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez l'expression : Tout le monde doit aider à installer les tables : il faut ___."
+    options: ["mettre la main à la pâte", "jeter l'éponge", "noyer le poisson"]
+    answers: ["mettre la main à la pâte"]
+    explanation: "Mettre la main à la pâte: to lend a hand. Jeter l'éponge is to give up; noyer le poisson is to dodge the question."
+  - id: "c1-review-living-ex005"
+    type: "reformulation"
+    prompt: "Reformulez avec « jeter l'éponge », au passé composé : Après trois essais, il a tout arrêté."
+    answers: ["Après trois essais, il a jeté l'éponge", "Il a jeté l'éponge après trois essais"]
+    strictAccents: true
+    explanation: "Jeter l'éponge: to throw in the towel, to give up."
+  - id: "c1-review-living-ex006"
+    type: "translate"
+    prompt: "Traduisez avec « être dans le même bateau » : We're all in the same boat."
+    answers: ["Nous sommes tous dans le même bateau", "On est tous dans le même bateau"]
+    explanation: "Être dans le même bateau: to share the same difficult situation. On est is spoken; nous sommes is standard."
+  - id: "c1-review-living-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « huitante » en Suisse, dans les cantons où on dit ce mot."
+    options: ["quatre-vingts", "soixante-dix", "quatre-vingt-dix"]
+    answers: ["quatre-vingts"]
+    explanation: "Huitante is eighty in some Swiss cantons; septante is seventy and nonante ninety."
+  - id: "c1-review-living-ex008"
+    type: "multiple-choice"
+    prompt: "Indiquez le mot qu'on dit en Suisse pour le repas du soir."
+    options: ["le souper", "le petit-déjeuner", "le déjeuner"]
+    answers: ["le souper"]
+    explanation: "In Switzerland, as in Belgium and Québec, le souper is the evening meal."
+  - id: "c1-review-living-ex009"
+    type: "fill-in"
+    prompt: "Complétez : Dans le sud-ouest, « chocolatine » n'est pas une faute : c'est une expression ___."
+    answers: ["régionale"]
+    explanation: "Une expression régionale is used in one region; dictionaries label it, but it isn't a mistake."
+  - id: "c1-review-living-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : En Suisse, le souper est le repas de midi."
+    answers: ["En Suisse, le souper est le repas du soir", "En Suisse, le dîner est le repas de midi"]
+    explanation: "In Switzerland, le dîner is at midday and le souper in the evening."
+  - id: "c1-review-living-ex011"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : Le français est une ___ des Nations unies."
+    options: ["langue de travail", "langue régionale", "école immersive"]
+    answers: ["langue de travail"]
+    explanation: "French is one of the working languages of the United Nations."
+  - id: "c1-review-living-ex012"
+    type: "register-shift"
+    prompt: "Transformez au registre courant, avec « reporter » au passif : Le souper, c'est mort pour samedi, on le fait samedi prochain."
+    answers: ["Le souper est reporté au samedi suivant", "Le souper est reporté à samedi prochain", "Le souper est reporté au samedi prochain", "Le souper de samedi est reporté au samedi suivant"]
+    strictAccents: true
+    explanation: "C'est mort (familiar) becomes the neutral passive est reporté."
+  - id: "c1-review-living-ex013"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « je vous saurais gré de bien vouloir » : Vous pouvez nous prêter la place ?"
+    answers: ["Je vous saurais gré de bien vouloir nous prêter la place"]
+    explanation: "A direct question becomes the formal request je vous saurais gré de bien vouloir + infinitive."
+  - id: "c1-review-living-ex014"
+    type: "error-correction"
+    prompt: "Corrigez le mélange des registres (gardez le registre soutenu) : Je vous saurais gré de bien vouloir nous prêter la place, c'est super sympa."
+    answers: ["Je vous saurais gré de bien vouloir nous prêter la place"]
+    explanation: "C'est super sympa is familiar; it doesn't belong in a formal request."
+  - id: "c1-review-living-ex015"
+    type: "translate"
+    prompt: "Traduisez au registre familier, avec « on » et « se geler », au passé composé : We were freezing on the square."
+    answers: ["On s'est gelés sur la place", "On s'est gelé sur la place"]
+    strictAccents: true
+    explanation: "Se geler is familiar. With on meaning nous, the participle can agree in the plural or stay singular."
+  - id: "c1-review-living-ex016"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Huitante est une ___ régionale de quatre-vingts."
+    options: ["variante", "charte", "transmission"]
+    answers: ["variante"]
+    explanation: "Une variante: another form of the same word."
+  - id: "c1-review-living-ex017"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot : Le ___ d'une ville, c'est sa façon de parler : son accent, ses mots, ses expressions."
+    options: ["parler", "sommet", "panneau"]
+    answers: ["parler"]
+    explanation: "Le parler: the way people speak in a place."
+  - id: "c1-review-living-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : As the saying goes, every cloud has a silver lining."
+    words: ["Comme", "dit", "le", "proverbe", "après", "la", "pluie", "le", "beau", "temps"]
+    answers: ["Comme dit le proverbe, après la pluie, le beau temps"]
+    explanation: "Comme dit le proverbe introduces the saying."
+---
+
+By the end of this lesson you'll be able to write one message in three registers, with a proverb, an idiom and regional words used in the right places.
+
+## What you've learned
+
+This unit has been about French as people live it. Skim this list, and go back to anything that feels shaky.
+
+- **Proverbs**: you know *après la pluie, le beau temps*, *mieux vaut tard que jamais*, *l'habit ne fait pas le moine* and *comme dit le proverbe*, from <LessonLink id="c1-proverbs-and-sayings" text="the lesson on proverbs and sayings" />.
+- **Idioms**: you know *mettre la main à la pâte*, *jeter l'éponge*, *être dans le même bateau* and *couper la poire en deux*, from <LessonLink id="c1-advanced-idioms" text="the lesson on advanced idioms" />.
+- **Regional languages**: you know *une langue régionale*, *le breton*, *une école immersive*, *le français régional* and *une chocolatine*, from <LessonLink id="c1-culture-regional-languages" text="the lesson on regional languages" />.
+- **The French-speaking world**: you know *une langue de travail*, *huitante*, *une votation* and *un régionalisme*, from <LessonLink id="c1-culture-francophonie" text="the lesson on La Francophonie" />.
+- **Registers**: you know *monter d'un registre*, *le registre administratif*, *ça craint*, *dans les meilleurs délais* and *un mélange des registres*, from <LessonLink id="c1-register-shifting" text="the lesson on shifting register" />.
+
+You also know *le souper*, the evening meal in Belgium, Switzerland and Québec, from <LessonLink id="a2-culture-francophone-world" text="the lesson on the French-speaking world" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+These three words help you talk about how people speak. *Une variante* is another form of the same word or phrase: *huitante* and *quatre-vingts* are two variants of the same number. *Le parler* of a place or a group is the way people speak there, with its accent, its words and its turns of phrase. *Une expression régionale* is a word or phrase used in one region; you met the same idea as *un régionalisme* in the lesson on La Francophonie, and the two are close in meaning.
+
+<Example fr="Huitante est une variante de quatre-vingts qu'on entend dans certains cantons suisses." en="Huitante is a variant of quatre-vingts that you hear in some Swiss cantons. (regional)" />
+<Example fr="Le parler de cette ville a ses propres mots et son propre accent." en="The local speech of this town has its own words and its own accent." />
+<Example fr="Une expression régionale n'est pas une faute de français." en="A regional expression isn't a mistake in French." />
+
+## Three registers, one message
+
+A proverb, an idiom, a slang word and a formal formula are all correct French, but each one has its place. As a rule of thumb, write the three versions in this order:
+
+1. **Start in the middle**, with the everyday standard version. It holds all the facts: what, when, where, who.
+2. **Go down** for a friend: cut the formulas, shorten the sentences, add one or two familiar words, and keep only the facts your friend needs.
+3. **Go up** for an institution: replace every familiar word, use the precise nouns, add the request formula and the full closing formula, and check that every fact matches the standard version.
+
+If a fact changes in one version, change it in the other two.
+
+## Where proverbs and idioms fit
+
+A proverb or an idiom gives a message warmth and colour, but not every register welcomes it. As a rule of thumb:
+
+- **In a text to a friend**: idioms are natural, often in their most familiar form (*faut mettre la main à la pâte*, with the *il* dropped, as people say it).
+- **In a message to neighbours or colleagues**: one proverb, introduced by *comme dit le proverbe*, works well as a friendly conclusion.
+- **In an administrative letter**: leave them out. A letter to an institution states facts and makes a request; a proverb there sounds like a joke.
+
+Use one at a time: two proverbs in a short message sound like a lesson.
+
+## Regional words across registers
+
+Regional words don't belong to a register. For a writer from a Swiss canton where *huitante* is used, *huitante* and *le souper* are the normal words, in a text to a friend as much as in a letter to the town council. That's why, in the model below, they appear in all three versions.
+
+This differs from slang. *Ça craint* is familiar everywhere; *huitante* is standard in some Swiss cantons and not used in others. So the question to ask isn't "is this word formal?" but "will my reader know it?". As the lesson on regional languages advised, recognize these words, and, as a learner writing to a reader in France, keep to *quatre-vingts* and *le dîner*. When you quote a Swiss speaker or write for a Swiss reader, the regional words are the right choice.
+
+## A model message
+
+These messages are original texts written for this lesson. The town, the association and the people are invented. The writer, Léa, lives in a Swiss town where *huitante* is used.
+
+*1. Texto à une amie*
+
+*Salut Chloé ! Le souper du quartier, c'est mort pour samedi : il va pleuvoir toute la journée. On le fait samedi prochain, même heure. On est déjà huitante, t'imagines ? Du coup, faut que tout le monde mette la main à la pâte pour les tables. Tu viens nous aider ? Bises !*
+
+*2. Message aux voisins*
+
+*Chers voisins, à cause de la pluie annoncée pour samedi, le souper du quartier est reporté au samedi suivant, à la même heure, sur la place du Marché. Huitante personnes ont déjà répondu oui : merci à tous ! Nous cherchons encore quelques personnes pour installer les tables à partir de dix-sept heures. Si vous pouvez aider, répondez à ce message. Comme dit le proverbe, après la pluie, le beau temps. À samedi prochain ! Léa Favre, pour l'association de quartier.*
+
+*3. Lettre à la commune*
+
+*Madame, Monsieur,*
+
+*En raison des fortes pluies annoncées pour samedi, l'association de quartier que je représente a décidé de reporter son souper au samedi suivant. Je vous saurais gré de bien vouloir nous autoriser à installer notre souper sur la place du Marché ce jour-là, aux mêmes horaires, de dix-huit heures à vingt-trois heures. Huitante habitants ont déjà annoncé qu'ils seraient présents. Nous installerons les tables nous-mêmes à partir de dix-sept heures, et nous nous engageons à libérer et à nettoyer la place à la fin de la soirée. Je reste à votre disposition pour toute information.*
+
+*Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.*
+
+*Léa Favre, présidente de l'association de quartier*
+
+(1. Text to a friend. Hi Chloé! The neighbourhood supper's dead for Saturday: it's going to rain all day. We're doing it next Saturday, same time. There are already eighty of us, can you imagine? So everyone has to lend a hand with the tables. Are you coming to help us? Love! (familiar; huitante and souper are regional, Switzerland) 2. Message to the neighbours. Dear neighbours, because of the rain forecast for Saturday, the neighbourhood supper is postponed to the following Saturday, at the same time, on the Place du Marché. Eighty people have already said yes: thank you all! We're still looking for a few people to set up the tables from five o'clock. If you can help, reply to this message. As the saying goes, every cloud has a silver lining. See you next Saturday! Léa Favre, for the neighbourhood association. 3. Letter to the town council. Dear Sir or Madam, Owing to the heavy rain forecast for Saturday, the neighbourhood association that I represent has decided to postpone its supper to the following Saturday. I would be grateful if you would allow us to hold our supper on the Place du Marché on that day, at the same times, from six to eleven in the evening. Eighty residents have already said that they will attend. We will set up the tables ourselves from five o'clock, and we undertake to clear and clean the square at the end of the evening. I remain at your disposal for any information. Yours faithfully, Léa Favre, president of the neighbourhood association.)
+
+## How the message uses the unit
+
+- **Registers**: *c'est mort*, *t'imagines*, *du coup* and *faut que* with the *il* dropped (1); the neutral passive *est reporté* and *chers voisins* (2); *en raison de*, *je vous saurais gré de bien vouloir*, *nous nous engageons à* and the full closing formula (3).
+- **One proverb and one idiom**: *comme dit le proverbe, après la pluie, le beau temps* in the message to the neighbours, where it is both literal and figurative; *mettre la main à la pâte* in the text to a friend. The letter has neither.
+- **Two regional words**, labelled: *huitante* and *le souper* appear in all three versions, because they are Léa's normal words.
+- **The same facts**: the supper moves to the following Saturday, at the same time, on the same square, with eighty people already coming; the tables go up from five o'clock.
+
+## Your turn
+
+Choose one small event in your own life: a postponed party, a cancelled class, a change of address. Write it three times, in about sixty words each: a text to a friend, a message to neighbours or colleagues, and a letter to an institution. Use one proverb and one idiom, each in a version where it fits, and keep both out of the letter. If you know a regional word from a French-speaking country, use it in a version written for a reader from that country, and label it.
+
+## Check your work
+
+- Do the three versions give the same facts, with no detail changed between them?
+- Does each version keep one register from start to finish, with no familiar word in the letter and no formal formula in the text?
+- Is the proverb introduced naturally, and is it in the right version?
+- Does the letter open with *Madame, Monsieur* and end with a full closing formula?
+- Is every regional word labelled, and would your reader know it?
+
+<Callout type="warning" title="No proverb in an administrative letter">
+  Learners who have just learned a proverb often want to use it everywhere. In a letter to an institution, it sounds like a joke. Write **en raison des fortes pluies annoncées**, not *comme dit le proverbe, après la pluie, le beau temps*.
+</Callout>
+
+<Callout type="tip" title="Keep a list of local words">
+  When you watch a film or read a newspaper from Belgium, Switzerland, Québec or Africa, note each word you don't know from France in a separate list, with the country beside it. Over a few months, that list will help you understand speakers from many places, not only from Paris.
+</Callout>
+
+## What's next
+
+The next unit prepares you for the DALF C1. It starts with the lesson on euphemism and nuance in synonyms.
+

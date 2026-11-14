@@ -500,11 +500,11 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
 | 45 | c1-proverbs-and-sayings | Proverbs and sayings | Living the language | vocabulary | b2-idioms-everyday | Common proverbs and how they're used, often half-quoted. |
-| 46 | c1-advanced-idioms | Advanced idioms | Living the language | vocabulary | b2-idioms-everyday, b2-idiomatic-y-en | Idioms by theme: work, money, emotions, conflict. |
-| 47 | c1-culture-regional-languages | Regional languages | Living the language | culture | b2-culture-francophone-africa | Breton, Occitan, Alsatian, Basque, Corsican, Creoles; language policy in France. |
-| 48 | c1-culture-francophonie | La Francophonie | Living the language | culture | c1-culture-regional-languages | The OIF and language policy; French as an official and working language; how its status differs by country (geography is covered in a2-culture-francophone-world). |
-| 49 | c1-register-shifting | Shifting register on demand | Living the language | communication | b2-colloquial-french, c1-formal-correspondence | Rewriting the same message from slang to administrative French. |
-| 50 | c1-review-living | Review: Living the language | Living the language | review | c1-proverbs-and-sayings, c1-advanced-idioms, c1-culture-francophonie, c1-register-shifting | Rewrite one text in three registers, with proverbs and idioms. |
+| 46 | c1-advanced-idioms | Advanced idioms | Living the language | vocabulary | b2-idioms-everyday, b2-idiomatic-y-en, c1-proverbs-and-sayings | Idioms by theme: work, money, emotions, conflict. |
+| 47 | c1-culture-regional-languages | Regional languages | Living the language | culture | b2-culture-francophone-africa, c1-law-and-institutions | Breton, Occitan, Alsatian, Basque, Corsican, Creoles; language policy in France. |
+| 48 | c1-culture-francophonie | La Francophonie | Living the language | culture | c1-culture-regional-languages, b2-culture-francophone-africa, b1-culture-quebec | The OIF and language policy; French as an official and working language; how its status differs by country (geography is covered in a2-culture-francophone-world). |
+| 49 | c1-register-shifting | Shifting register on demand | Living the language | communication | b2-registers, b2-colloquial-french, b2-culture-verlan-and-slang, c1-formal-correspondence | Rewriting the same message from slang to administrative French. |
+| 50 | c1-review-living | Review: Living the language | Living the language | review | c1-proverbs-and-sayings, c1-advanced-idioms, c1-culture-regional-languages, c1-culture-francophonie, c1-register-shifting, a2-culture-francophone-world | Rewrite one text in three registers, with a proverb, an idiom and regional words. |
 
 ### Unit 8: Towards DALF C1
 

@@ -19,7 +19,7 @@ vocab:
   - { id: "c1-rhetorical-devices-v006", group: "repeat", fr: "la gradation", pron: "lah grah-dah-SYOHN", en: "climax, gradation (words in increasing strength)" }
   - { id: "c1-rhetorical-devices-v007", group: "repeat", fr: "le rythme", pron: "luh REET-muh", en: "rhythm" }
   - { id: "c1-rhetorical-devices-v008", group: "oppose", fr: "l'oxymore (m.)", pron: "lok-see-MOR", en: "oxymoron (two opposite words joined)" }
-  - { id: "c1-rhetorical-devices-v009", group: "oppose", fr: "une victoire amère", pron: "ewn veek-twahr ah-MEHR", en: "a bitter victory (an oxymoron)" }
+  - { id: "c1-rhetorical-devices-v009", group: "oppose", fr: "un silence assourdissant", pron: "uhn see-lahnss ah-soor-dee-SAHN", en: "a deafening silence (an oxymoron: assourdissant means deafening)" }
   - { id: "c1-rhetorical-devices-v010", group: "oppose", fr: "la question rhétorique", pron: "lah kes-tyohn ray-toh-REEK", en: "the rhetorical question" }
   - { id: "c1-rhetorical-devices-v011", group: "degree", fr: "la litote", pron: "lah lee-TOT", en: "litotes (saying less to mean more)" }
   - { id: "c1-rhetorical-devices-v012", group: "degree", fr: "l'hyperbole (f.)", pron: "lee-pehr-BOLL", en: "hyperbole (deliberate exaggeration)" }
@@ -49,10 +49,10 @@ exercises:
     explanation: "Mille fois is a deliberate exaggeration: hyperbole."
   - id: "c1-rhetorical-devices-ex004"
     type: "multiple-choice"
-    prompt: "Indiquez la figure de style : C'était une victoire amère."
+    prompt: "Indiquez la figure de style : Il y a eu un silence assourdissant."
     options: ["l'oxymore", "l'anaphore", "la question rhétorique"]
     answers: ["l'oxymore"]
-    explanation: "A victory should be sweet; amère joins two opposite ideas: oxymoron."
+    explanation: "Silence makes no noise, and assourdissant means deafening: two opposite words joined, an oxymoron."
   - id: "c1-rhetorical-devices-ex005"
     type: "multiple-choice"
     prompt: "Indiquez la figure de style : Il faut agir aujourd'hui, demain, toujours."
@@ -84,7 +84,7 @@ exercises:
   - id: "c1-rhetorical-devices-ex010"
     type: "reformulation"
     prompt: "Reformulez avec une litote, en commençant par « Ce n'est pas » : C'est une très bonne idée."
-    answers: ["Ce n'est pas une mauvaise idée", "Ce n'est pas une idée mauvaise"]
+    answers: ["Ce n'est pas une mauvaise idée"]
     explanation: "Deny the opposite to say more with less: ce n'est pas une mauvaise idée."
   - id: "c1-rhetorical-devices-ex011"
     type: "reformulation"
@@ -153,7 +153,7 @@ As a rule of thumb, three items are enough: a fourth repetition starts to sound 
 You know *l'antithèse* as the second part of a dialectical essay; as a figure of style, it places two opposite ideas side by side in one sentence. *L'oxymore* goes further and joins two opposite words directly. *La question rhétorique* asks something that needs no answer: the answer is obvious, and the question makes the point more strongly than a statement.
 
 <Example fr="Ils parlent beaucoup et agissent peu." en="They talk a lot and act little. (antithesis)" />
-<Example fr="C'était une victoire amère." en="It was a bitter victory. (oxymoron)" />
+<Example fr="Après sa question, il y a eu un silence assourdissant." en="After her question, there was a deafening silence. (oxymoron)" />
 <Example fr="Qui peut encore croire que rien ne va changer ?" en="Who can still believe that nothing will change? (rhetorical question)" />
 
 ## Saying more, saying less
@@ -165,7 +165,7 @@ You know *l'antithèse* as the second part of a dialectical essay; as a figure o
 <Example fr="Ce n'est pas une mauvaise idée." en="It's not a bad idea (it's a good one)." />
 <Example fr="Je vous l'ai dit mille fois !" en="I've told you a thousand times! (hyperbole)" />
 
-The litote is especially French: a speaker who says *ce n'était pas mal* often means it was very good. <LessonLink id="c1-irony-and-understatement" text="The lesson on irony and understatement" /> comes back to it.
+The litote is very common in French: a speaker who says *ce n'était pas mal* often means it was very good. <LessonLink id="c1-irony-and-understatement" text="The lesson on irony and understatement" /> comes back to it.
 
 ## Images
 
@@ -195,7 +195,7 @@ Avoid hyperbole in a formal argument: an exaggeration that a reader can check we
 | anaphore | repeats the start | *Nous voulons… Nous voulons…* |
 | gradation | increasing strength | *aujourd'hui, demain, toujours* |
 | antithèse | opposite ideas side by side | *parlent beaucoup, agissent peu* |
-| oxymore | opposite words joined | *une victoire amère* |
+| oxymore | opposite words joined | *un silence assourdissant* |
 | question rhétorique | a question with an obvious answer | *Qui peut encore croire… ?* |
 | litote | says less to mean more | *ce n'est pas mal* |
 | hyperbole | deliberate exaggeration | *mille fois* |
@@ -228,7 +228,7 @@ Hugo and Clara are preparing a short speech for their university debating club.
 
 ## En résumé
 
-Une figure de style donne plus de force à une idée. L'anaphore répète les mêmes mots au début de plusieurs phrases et crée un rythme : nous voulons une ville propre, nous voulons une ville sûre. La gradation présente des mots de plus en plus forts. L'antithèse place deux idées opposées côte à côte, et l'oxymore unit deux mots contraires, comme une victoire amère. La question rhétorique n'attend pas de réponse : qui peut encore croire que rien ne va changer ? La litote dit moins pour dire plus : ce n'est pas une mauvaise idée. L'hyperbole exagère pour frapper l'esprit. La comparaison et la métaphore créent des images. Dans une dissertation, il vaut mieux choisir peu de procédés, et toujours pour un effet précis, car l'auditoire remarque vite quand il y en a trop.
+Une figure de style donne plus de force à une idée. L'anaphore répète les mêmes mots au début de plusieurs phrases et crée un rythme : nous voulons une ville propre, nous voulons une ville sûre. La gradation présente des mots de plus en plus forts. L'antithèse place deux idées opposées côte à côte, et l'oxymore unit deux mots contraires, comme un silence assourdissant. La question rhétorique n'attend pas de réponse : qui peut encore croire que rien ne va changer ? La litote dit moins pour dire plus : ce n'est pas une mauvaise idée. L'hyperbole exagère pour frapper l'esprit. La comparaison et la métaphore créent des images. Dans un discours, il vaut mieux choisir peu de procédés, et toujours pour un effet précis, car l'auditoire remarque vite quand il y en a trop.
 
 ## What's next
 
@@ -505,7 +505,7 @@ vocab:
   - { id: "c1-formal-debate-v009", group: "concede", fr: "il n'en demeure pas moins que", pron: "eel nahn duh-muhr pah MWAN kuh", en: "the fact remains that (formal)", note: "Like il n'en reste pas moins que." }
   - { id: "c1-formal-debate-v010", group: "concede", fr: "je vous rejoins sur ce point", pron: "zhuh voo ruh-zhwan sewr suh PWAN", en: "I agree with you on that point" }
   - { id: "c1-formal-debate-v011", group: "concede", fr: "retourner l'argument", pron: "ruh-toor-nay lar-gew-MAHN", en: "to turn the argument round" }
-  - { id: "c1-formal-debate-v012", group: "topic", fr: "un musée", pron: "uhn mew-ZAY", en: "a museum" }
+  - { id: "c1-formal-debate-v012", group: "topic", fr: "un don", pron: "uhn DOHN", en: "a donation, a gift (of money)" }
   - { id: "c1-formal-debate-v013", group: "topic", fr: "un bien commun", pron: "uhn byan koh-MUHN", en: "a common good" }
   - { id: "c1-formal-debate-v014", group: "topic", fr: "le contribuable", pron: "luh kohn-tree-BEW-ah-bluh", en: "the taxpayer" }
   - { id: "c1-formal-debate-v015", group: "topic", fr: "la fréquentation", pron: "lah fray-kahn-tah-SYOHN", en: "the number of visitors, attendance" }
@@ -634,13 +634,13 @@ As a rule of thumb, the debate has three rounds:
 
 <VocabTable group="concede" />
 
-In a formal debate, a good concession makes you more convincing, not less: you show that you've heard the other side. The pattern has two steps. First, grant the point: *je vous l'accorde*, *je vous rejoins sur ce point*, or *certes*. Then turn: *il n'en demeure pas moins que* (more formal than *il n'en reste pas moins que*), *mais*, *cependant*.
+In a formal debate, a good concession makes you more convincing, not less: you show that you've heard the other side. The pattern has two steps. First, grant the point: *je vous l'accorde*, *je vous rejoins sur ce point*, or *certes*. Then turn: *il n'en demeure pas moins que* (a slightly more literary variant of *il n'en reste pas moins que*), *mais*, *cependant*.
 
 <Example fr="La gratuité a un coût, je vous l'accorde. Il n'en demeure pas moins qu'elle attire un nouveau public." en="Free entry has a cost, I grant you. The fact remains that it attracts a new public." />
 
 The strongest move is to *retourner l'argument*: you take the other side's point and show that it supports yours.
 
-<Example fr="Vous dites que les musées manquent d'argent. Justement : plus de visiteurs, c'est plus de dons et plus de soutien public." en="You say museums are short of money. Exactly: more visitors means more donations and more public support." />
+<Example fr="Vous dites que la gratuité coûte cher au contribuable. Justement : plus de visiteurs, c'est plus de dons, donc moins d'argent public à trouver." en="You say free entry costs the taxpayer a lot. Exactly: more visitors means more donations, so less public money to find." />
 
 Use *concéder* to describe the move: *l'équipe adverse a concédé un point important*.
 
@@ -648,7 +648,7 @@ Use *concéder* to describe the move: *l'équipe adverse a concédé un point im
 
 In the réplique, quote or summarize the other side's argument in one sentence, then answer it. As a rule of thumb, answer the strongest argument of the other side, not the weakest: the jury notices the difference.
 
-<Example fr="Vous affirmez que la gratuité profite surtout aux visiteurs déjà habitués. Or, la fréquentation des jeunes a nettement augmenté." en="You claim that free entry mainly benefits regular visitors. But attendance among young people has clearly increased." />
+<Example fr="Vous affirmez que la gratuité profite surtout aux visiteurs déjà habitués. Or, notre proposition vise d'abord ceux qui ne viennent jamais." en="You claim that free entry mainly benefits regular visitors. But our proposal is aimed first at those who never come." />
 
 *Or*, from the lesson on advanced connectors, introduces the fact that changes the reasoning.
 
@@ -682,22 +682,22 @@ The debate below is an original text written for this lesson. The speakers are i
 - **La modératrice :** *Merci. La parole est à l'équipe qui s'oppose à la motion.*
 - **Karim :** *La culture doit être accessible, je vous l'accorde. Il n'en demeure pas moins qu'un musée a un coût : l'entretien des bâtiments, la conservation des collections, le personnel. Si l'entrée est gratuite, qui paiera ? Le contribuable, y compris celui qui ne va jamais au musée.*
 - **La modératrice :** *Réplique de l'équipe qui défend la motion.*
-- **Léa :** *Vous dites que les musées manquent d'argent. Justement : plus de visiteurs, c'est plus de dons et plus de soutien public. Or, là où l'entrée est devenue gratuite pour les jeunes, leur fréquentation a nettement augmenté.*
-- **Karim :** *Je vous rejoins sur ce point : la gratuité pour les jeunes est une bonne mesure. Mais pour tous, elle profite surtout aux visiteurs qui venaient déjà. Une gratuité ciblée coûte moins et aide mieux.*
+- **Léa :** *Vous dites que la gratuité coûte cher au contribuable. Justement : plus de visiteurs, c'est plus de dons, donc moins d'argent public à trouver. Or, une entrée gratuite ferait sans doute venir ceux qui ne viennent jamais, à commencer par les jeunes.*
+- **Karim :** *Je vous rejoins sur ce point : la gratuité pour les jeunes est une bonne mesure. Mais pour tous, la fréquentation augmenterait surtout chez les visiteurs qui venaient déjà. Une gratuité ciblée coûte moins et aide mieux.*
 - **La modératrice :** *Il vous reste une minute chacun pour conclure.*
 - **Léa :** *Pour toutes ces raisons, nous vous invitons à voter pour la motion : un musée gratuit est un musée ouvert à tous.*
 - **Karim :** *Nous partageons le même but, mais pas le même moyen. Une gratuité ciblée protège les musées et aide ceux qui en ont besoin. Nous vous invitons donc à voter contre la motion.*
 
 <VocabTable group="glossary" />
 
-(Motion: "National museums should be free." The moderator: I give the floor to the team for the motion. You have three minutes. Léa: Thank you. A museum is a common good. The collections belong to everyone; why should people have to pay to see them? Free entry opens the doors to those who never go in: young people, families on low incomes, residents who have never been. The moderator: Thank you. The floor goes to the team against the motion. Karim: Culture must be accessible, I grant you. The fact remains that a museum has a cost: the upkeep of the buildings, the conservation of the collections, the staff. If entry is free, who will pay? The taxpayer, including the one who never goes to museums. The moderator: Rebuttal from the team for the motion. Léa: You say museums are short of money. Exactly: more visitors means more donations and more public support. And where entry has become free for young people, their attendance has clearly increased. Karim: I agree with you on that point: free entry for young people is a good measure. But for everyone, it mainly benefits visitors who already came. Targeted free entry costs less and helps better. The moderator: You each have one minute left to conclude. Léa: For all these reasons, we invite you to vote for the motion: a free museum is a museum open to all. Karim: We share the same goal, but not the same means. Targeted free entry protects museums and helps those who need it. We therefore invite you to vote against the motion.)
+(Motion: "National museums should be free." The moderator: I give the floor to the team for the motion. You have three minutes. Léa: Thank you. A museum is a common good. The collections belong to everyone; why should people have to pay to see them? Free entry opens the doors to those who never go in: young people, families on low incomes, residents who have never been. The moderator: Thank you. The floor goes to the team against the motion. Karim: Culture must be accessible, I grant you. The fact remains that a museum has a cost: the upkeep of the buildings, the conservation of the collections, the staff. If entry is free, who will pay? The taxpayer, including the one who never goes to museums. The moderator: Rebuttal from the team for the motion. Léa: You say free entry costs the taxpayer a lot. Exactly: more visitors means more donations, so less public money to find. And free entry would probably bring in those who never come, starting with young people. Karim: I agree with you on that point: free entry for young people is a good measure. But for everyone, attendance would mainly rise among visitors who already came. Targeted free entry costs less and helps better. The moderator: You each have one minute left to conclude. Léa: For all these reasons, we invite you to vote for the motion: a free museum is a museum open to all. Karim: We share the same goal, but not the same means. Targeted free entry protects museums and helps those who need it. We therefore invite you to vote against the motion.)
 
 ## How the debate works
 
 - **The format**: the moderator gives the floor, sets the time (*trois minutes*, *une minute*) and announces each round.
 - **The openings**: Léa uses a rhetorical question (*pourquoi faudrait-il payer… ?*) and a list of three groups; Karim lists three costs.
 - **The concessions**: Karim grants a point (*je vous l'accorde*, *je vous rejoins sur ce point*) and turns it (*il n'en demeure pas moins que*, *mais*).
-- **The réplique**: Léa turns Karim's argument round (*vous dites que… justement*) and adds a fact with *or*.
+- **The réplique**: Léa sums up Karim's argument accurately (*vous dites que la gratuité coûte cher au contribuable*), turns it round (*justement*), and adds a further point with *or*, as a hypothesis in the conditionnel (*ferait sans doute venir*).
 - **The conclusions**: each side repeats its strongest point and asks for the vote (*nous vous invitons à voter pour / contre la motion*), with no new argument.
 - **The outcome**: the debate moves from two opposed positions to a narrower disagreement: free entry for everyone, or only for some groups.
 
@@ -712,9 +712,9 @@ After the debate, Léa and her teammate Hugo talk about how it went.
 - *Et ma conclusion ? J'ai dépassé le temps imparti ?* (And my conclusion? Did I go over the allotted time?)
 - *De dix secondes. La modératrice t'a laissée finir.* (By ten seconds. The moderator let you finish.)
 - *La prochaine fois, je prépare une conclusion plus courte.* (Next time, I'll prepare a shorter conclusion.)
-- *Et réponds à son argument le plus fort, celui du contribuable.* (And answer his strongest argument, the one about the taxpayer.)
+- *Et réponds aussi à son dernier argument, la gratuité ciblée. Tu ne l'as pas fait.* (And answer his last argument too, targeted free entry. You didn't.)
 - *Tu as raison, je l'ai un peu évité.* (You're right, I avoided it a bit.)
-- *Pourtant, tu avais la réponse : les dons et le soutien public.* (And yet you had the answer: donations and public support.)
+- *Pourtant, tu avais une réponse : une gratuité pour tous est plus simple, et personne n'a besoin de montrer qui il est.* (And yet you had an answer: free entry for everyone is simpler, and nobody needs to show who they are.)
 - *Je vous l'accorde, Monsieur le Président !* (I grant you that, Mr President! (joking))
 - *Très drôle. On s'entraîne demain ?* (Very funny. Shall we practise tomorrow? (spoken))
 
@@ -754,7 +754,7 @@ vocab:
   - { id: "c1-public-speaking-v009", group: "signpost", fr: "avant de conclure", pron: "ah-vahn duh kohn-KLEWR", en: "before I conclude" }
   - { id: "c1-public-speaking-v010", group: "signpost", fr: "permettez-moi de conclure", pron: "pehr-meh-tay mwah duh kohn-KLEWR", en: "allow me to conclude" }
   - { id: "c1-public-speaking-v011", group: "deliver", fr: "marquer une pause", pron: "mar-kay ewn POHZ", en: "to pause (deliberately)" }
-  - { id: "c1-public-speaking-v012", group: "deliver", fr: "la voix", pron: "lah VWAH", en: "the voice" }
+  - { id: "c1-public-speaking-v012", group: "deliver", fr: "une diapositive", pron: "ewn dyah-poh-zee-TEEV", en: "a slide (in a presentation)" }
   - { id: "c1-public-speaking-v013", group: "deliver", fr: "le trac", pron: "luh TRAK", en: "stage fright, nerves" }
   - { id: "c1-public-speaking-v014", group: "deliver", fr: "le micro", pron: "luh mee-KROH", en: "the microphone" }
   - { id: "c1-public-speaking-v015", group: "deliver", fr: "la médiathèque", pron: "lah may-dyah-TEK", en: "the (multimedia) library" }
@@ -768,7 +768,7 @@ exercises:
     prompt: "Indiquez la meilleure accroche pour un discours sur la lecture."
     options: ["Combien d'entre vous ont lu un livre ce mois-ci ?", "Bonjour, je vais parler de la lecture.", "La lecture, c'est important, voilà."]
     answers: ["Combien d'entre vous ont lu un livre ce mois-ci ?"]
-    explanation: "A question to the audience is a classic hook: it interpellates them from the first sentence."
+    explanation: "A question to the audience is a classic hook: it speaks directly to them from the first sentence."
   - id: "c1-public-speaking-ex002"
     type: "multiple-choice"
     prompt: "Indiquez la phrase qui annonce une nouvelle partie du discours."
@@ -784,9 +784,9 @@ exercises:
   - id: "c1-public-speaking-ex004"
     type: "connector-choice"
     prompt: "Choisissez l'expression : ___, je voudrais remercier toutes les personnes qui ont rendu ce projet possible."
-    options: ["En premier lieu", "Avant de conclure", "J'en viens à"]
+    options: ["En premier lieu", "Permettez-moi de", "J'en viens à"]
     answers: ["En premier lieu"]
-    explanation: "En premier lieu opens the first point. Avant de conclure comes at the end, and j'en viens à needs a noun after it."
+    explanation: "En premier lieu opens the first point. Permettez-moi de and j'en viens à need a verb or a noun after them, so they can't stand alone before a comma."
   - id: "c1-public-speaking-ex005"
     type: "connector-choice"
     prompt: "Choisissez le verbe : Avant chaque idée importante, l'intervenante ___ une pause."
@@ -806,7 +806,7 @@ exercises:
   - id: "c1-public-speaking-ex008"
     type: "reformulation"
     prompt: "Reformulez avec « permettez-moi de conclure » : Pour finir, je vais dire une chose."
-    answers: ["Permettez-moi de conclure par une chose", "Permettez-moi de conclure sur une chose"]
+    answers: ["Permettez-moi de conclure par une chose", "Permettez-moi de conclure sur une chose", "Permettez-moi de conclure en disant une chose"]
     explanation: "Permettez-moi de conclure is the formal way to announce the end."
   - id: "c1-public-speaking-ex009"
     type: "register-shift"
@@ -840,7 +840,7 @@ exercises:
   - id: "c1-public-speaking-ex014"
     type: "translate"
     prompt: "Traduisez (interpeller) : The speaker addressed the audience directly."
-    answers: ["L'intervenant a interpellé l'auditoire", "L'intervenante a interpellé l'auditoire"]
+    answers: ["L'intervenant a interpellé l'auditoire", "L'intervenante a interpellé l'auditoire", "L'intervenant a interpellé le public", "L'intervenante a interpellé le public"]
     explanation: "Interpeller l'auditoire: to speak to the audience directly."
     strictAccents: true
   - id: "c1-public-speaking-ex015"
@@ -860,7 +860,7 @@ By the end of this lesson you'll be able to build a short speech or presentation
 
 ## What you already know
 
-You presented data with *un graphique* and *une courbe* in <LessonLink id="b2-presenting-data" text="the lesson on presenting data" />, and took the floor with *prendre la parole* in <LessonLink id="b2-meetings-and-calls" text="the lesson on meetings and professional calls" />. You know *prononcer un discours* and *je vous remercie de votre attention* from earlier lessons, and *l'anaphore*, *la gradation* and *la question rhétorique* from <LessonLink id="c1-rhetorical-devices" text="the lesson on rhetorical devices" />. This lesson puts them into the shape of a speech.
+You presented data with *un graphique* and *une courbe* in <LessonLink id="b2-presenting-data" text="the lesson on presenting data" />, and took the floor with *prendre la parole* in <LessonLink id="b2-meetings-and-calls" text="the lesson on meetings and professional calls" />. You know *prononcer un discours* from <LessonLink id="b2-reported-speech-past" text="the lesson on reported speech in the past" /> and *je vous remercie de votre attention* from <LessonLink id="b1-cover-letter" text="the lesson on the CV and cover letter" />, and *l'anaphore*, *la gradation* and *la question rhétorique* from <LessonLink id="c1-rhetorical-devices" text="the lesson on rhetorical devices" />. This lesson puts them into the shape of a speech.
 
 ## Addressing the audience
 
@@ -903,6 +903,8 @@ Almost every speaker has *le trac* (stage fright). A practical answer is to lear
 
 A presentation at work follows the same rules, with slides. Address the room with *chers collègues*, announce the plan, and signpost each slide. Don't read the slides aloud: the audience reads faster than you speak. One idea per slide, a short title, few words. Check *le micro* and the screen before you start.
 
+<Example fr="Ne lisez pas vos diapositives : le public les lit plus vite que vous." en="Don't read your slides out: the audience reads them faster than you." />
+
 <Example fr="Chers collègues, je commencerai par les chiffres de l'année, puis j'en viendrai aux projets." en="Dear colleagues, I'll begin with the year's figures, then I'll come to the projects." />
 <Example fr="Avant de commencer, vérifiez que le micro fonctionne." en="Before you start, check that the microphone works." />
 
@@ -924,13 +926,15 @@ The speech below is an original text written for this lesson. The town, the libr
 
 *Je commencerai par l'histoire de ce projet, puis j'en viendrai à ce que nous voulons en faire.*
 
+*Ce projet est né il y a cinq ans, quand notre vieille bibliothèque, déjà ouverte le dimanche, est devenue trop petite pour la ville. La nouvelle médiathèque la remplace aujourd'hui.*
+
 *En premier lieu, je voudrais remercier toutes les personnes qui ont rendu ce projet possible : les architectes, les ouvriers, les bibliothécaires, et les habitants qui ont donné leur avis pendant trois ans. Je pense aussi à mon équipe, qui travaille depuis des mois pour ouvrir à temps.*
 
 *Ce bâtiment a été pensé pour tous : il est calme, plein de lumière, et il accueillera aussi des concerts.*
 
 *J'en viens maintenant à notre projet. Nous voulons une médiathèque ouverte. Nous voulons une médiathèque vivante. Nous voulons une médiathèque pour tous : pour les enfants qui découvrent leurs premiers livres, pour les étudiants qui préparent leurs examens, pour les personnes âgées qui cherchent un lieu de rencontre. La lecture publique n'est pas un luxe : c'est un droit.*
 
-*Avant de conclure, un mot sur les horaires. La médiathèque sera ouverte six jours sur sept, et le dimanche après-midi dès le mois de septembre.*
+*Avant de conclure, un mot sur les horaires. La médiathèque sera ouverte du mardi au dimanche, le dimanche l'après-midi seulement, comme notre vieille bibliothèque.*
 
 *Permettez-moi de conclure par une question. Le mois prochain, combien d'entre vous auront lu un livre de plus ? J'espère que la réponse sera : tous.*
 
@@ -938,12 +942,13 @@ The speech below is an original text written for this lesson. The town, the libr
 
 <VocabTable group="glossary" />
 
-(Speech by the director at the opening of the Saint-Aubin library. Madam Mayor, ladies and gentlemen, dear friends, How many of you have read a book this month? Raise your hand… I can see a lot of hands, and that's good news, because tonight we are opening a place made for you. I'll begin with the history of this project, then I'll come to what we want to make of it. First of all, I would like to thank everyone who made this project possible: the architects, the builders, the librarians, and the residents who gave their views for three years. I'm also thinking of my team, who have been working for months to open on time. This building was designed for everyone: it is quiet, full of light, and it will also host concerts. I now come to our project. We want an open library. We want a lively library. We want a library for everyone: for children discovering their first books, for students preparing their exams, for older people looking for a meeting place. Public libraries aren't a luxury: they're a right. Before I conclude, a word about opening hours. The library will be open six days a week, and on Sunday afternoons from September. Allow me to conclude with a question. Next month, how many of you will have read one more book? I hope the answer will be: all of you. Thank you for your attention, and see you very soon at the library!)
+(Speech by the director at the opening of the Saint-Aubin library. Madam Mayor, ladies and gentlemen, dear friends, How many of you have read a book this month? Raise your hand… I can see a lot of hands, and that's good news, because tonight we are opening a place made for you. I'll begin with the history of this project, then I'll come to what we want to make of it. This project was born five years ago, when our old library, already open on Sundays, became too small for the town. The new library replaces it today. First of all, I would like to thank everyone who made this project possible: the architects, the builders, the librarians, and the residents who gave their views for three years. I'm also thinking of my team, who have been working for months to open on time. This building was designed for everyone: it is quiet, full of light, and it will also host concerts. I now come to our project. We want an open library. We want a lively library. We want a library for everyone: for children discovering their first books, for students preparing their exams, for older people looking for a meeting place. Public libraries aren't a luxury: they're a right. Before I conclude, a word about opening hours. The library will be open from Tuesday to Sunday, on Sunday in the afternoon only, like our old library. Allow me to conclude with a question. Next month, how many of you will have read one more book? I hope the answer will be: all of you. Thank you for your attention, and see you very soon at the library!)
 
 ## How the speech works
 
 - **Address**: *Madame la Maire* first, then *mesdames et messieurs, chers amis*.
-- **Hook**: a question that interpellates the audience, with a gesture (*levez la main*).
+- **Hook**: a question that speaks directly to the audience, with a gesture (*levez la main*).
+- **History**: two sentences on how the project began (*ce projet est né il y a cinq ans…*), as the plan announced.
 - **Plan**: announced in one sentence (*je commencerai par…, puis j'en viendrai à…*).
 - **Signposts**: *en premier lieu*, *j'en viens maintenant à*, *avant de conclure*, *permettez-moi de conclure*.
 - **Devices**: an anaphora (*nous voulons…*, three times), a list in three, and an antithesis (*n'est pas un luxe : c'est un droit*).
@@ -1005,7 +1010,7 @@ vocab:
   - { id: "c1-irony-and-understatement-v012", group: "less", fr: "il ne fait pas chaud", pron: "eel nuh feh pah SHOH", en: "it's cold (understatement)" }
   - { id: "c1-irony-and-understatement-v013", group: "less", fr: "je ne dis pas non", pron: "zhuh nuh dee pah NOHN", en: "yes please, I wouldn't say no" }
   - { id: "c1-irony-and-understatement-v014", group: "less", fr: "sincère", pron: "san-SEHR", en: "sincere" }
-  - { id: "c1-irony-and-understatement-v015", group: "signals", fr: "comme d'habitude", pron: "kom dah-bee-TEWD", en: "as usual" }
+  - { id: "c1-irony-and-understatement-v015", group: "less", fr: "désagréable", pron: "day-zah-gray-AH-bluh", en: "unpleasant" }
   - { id: "c1-irony-and-understatement-v016", group: "signals", fr: "les guillemets (m.)", pron: "lay geey-MEH", en: "quotation marks (« »)" }
   - { id: "c1-irony-and-understatement-v017", group: "signals", fr: "un émoji", pron: "uh-nay-moh-ZHEE", en: "an emoji" }
   - { id: "c1-irony-and-understatement-v018", group: "glossary", fr: "le blog", pron: "luh BLOG", en: "the blog" }
@@ -1054,7 +1059,7 @@ exercises:
   - id: "c1-irony-and-understatement-ex007"
     type: "register-shift"
     prompt: "Transformez en phrase neutre, sans ironie, avec « Le voyage » : Quel voyage agréable ! (après trois heures de retard)"
-    answers: ["Le voyage n'a pas été agréable"]
+    answers: ["Le voyage n'a pas été agréable", "Le voyage a été désagréable", "Le voyage était désagréable", "Le voyage n'était pas agréable"]
     strictAccents: true
     explanation: "Say literally what the irony means."
   - id: "c1-irony-and-understatement-ex008"
@@ -1121,7 +1126,9 @@ You know *la litote* and *l'hyperbole* from <LessonLink id="c1-rhetorical-device
 
 *L'ironie* says one thing and means another, usually the opposite, to criticize or to amuse. Its simplest form is *l'antiphrase*: praise that is really blame.
 
-<Example fr="Cette phrase est une antiphrase : elle dit le contraire de ce que pense la personne qui parle." en="This sentence is an antiphrasis: it says the opposite of what the speaker thinks." /> A sentence *au second degré* isn't meant literally; a listener who *prend au premier degré* misses the point, and may even be *vexé*.
+<Example fr="Cette phrase est une antiphrase : elle dit le contraire de ce que pense la personne qui parle." en="This sentence is an antiphrasis: it says the opposite of what the speaker thinks." />
+
+A sentence *au second degré* isn't meant literally; a listener who *prend au premier degré* misses the point, and may even be *vexé*.
 
 <Example fr="Quel voyage agréable !" en="What a pleasant journey! (ironic, after a three-hour delay)" />
 <Example fr="Bravo, quelle organisation !" en="Well done, what organization! (ironic, after a disaster)" />
@@ -1190,7 +1197,7 @@ This restaurant review is an original text written for this lesson, in the style
 
 *Ensuite, la carte. Le chef propose une « cuisine créative ». En effet, notre poisson était créatif : froid à l'extérieur, encore plus froid à l'intérieur. Le serveur, très pince-sans-rire, nous a expliqué que c'était voulu. Nous l'avons remercié, évidemment. Il est revenu trois fois pour nous demander si tout allait bien. Tout allait très bien, merci : nous attendions toujours le plat suivant.*
 
-*Le cadre, lui aussi, mérite quelques mots. La musique était si forte que nous avons pu suivre les conversations de toutes les tables voisines. Quel plaisir de partager la vie des autres !*
+*Le cadre, lui aussi, mérite quelques mots. La salle était froide, et nous avons gardé nos manteaux. La musique était si forte que nous avons pu suivre les conversations de toutes les tables voisines. Quel plaisir de partager la vie des autres !*
 
 *Le pain n'était pas fameux, mais il était au moins frais. Nous avons beaucoup ri, surtout en attendant le plat suivant.*
 
@@ -1202,7 +1209,7 @@ This restaurant review is an original text written for this lesson, in the style
 
 <VocabTable group="glossary" />
 
-(On our blog: Le Petit Gourmet, an unforgettable evening (ironic). On Saturday evening, we finally tried Le Petit Gourmet, the restaurant the whole neighbourhood is talking about. What an evening! (ironic) First, the welcome. We had booked for eight o'clock; we were seated at nine, which gave us plenty of time to admire the front door. A thoughtful touch, really. (ironic) Next, the menu. The chef offers "creative cooking". Indeed, our fish was creative: cold on the outside, even colder on the inside. (ironic) The waiter, very deadpan, explained that it was intentional. We thanked him, of course. (ironic) He came back three times to ask if everything was all right. Everything was fine, thank you: we were still waiting for the next course. (ironic) The setting, too, deserves a few words. The music was so loud that we could follow the conversations at all the neighbouring tables. What a pleasure to share other people's lives! (ironic) The bread wasn't great, but at least it was fresh. (sincere) We laughed a lot, especially while waiting for the next course. The dessert, on the other hand, was really good: a simple, warm apple tart. (sincere) So the chef can cook when he wants to. The bill? It's not warm in this restaurant, but the prices are scorching. Anyway, an unforgettable evening, which we recommend to everyone with a great deal of patience. (ironic) We'll go back… perhaps, once we've forgotten the fish. And if you like waiting, I wouldn't say no: book for us too.)
+(On our blog: Le Petit Gourmet, an unforgettable evening (ironic). On Saturday evening, we finally tried Le Petit Gourmet, the restaurant the whole neighbourhood is talking about. What an evening! (ironic) First, the welcome. We had booked for eight o'clock; we were seated at nine, which gave us plenty of time to admire the front door. A thoughtful touch, really. (ironic) Next, the menu. The chef offers "creative cooking". Indeed, our fish was creative: cold on the outside, even colder on the inside. (ironic) The waiter, very deadpan, explained that it was intentional. We thanked him, of course. (ironic) He came back three times to ask if everything was all right. Everything was fine, thank you: we were still waiting for the next course. (ironic) The setting, too, deserves a few words. The room was cold, and we kept our coats on. (sincere) The music was so loud that we could follow the conversations at all the neighbouring tables. What a pleasure to share other people's lives! (ironic) The bread wasn't great, but at least it was fresh. (sincere) We laughed a lot, especially while waiting for the next course. The dessert, on the other hand, was really good: a simple, warm apple tart. (sincere) So the chef can cook when he wants to. The bill? It's not warm in this restaurant (sincere: the room is cold), but the prices are scorching (a joke: they're very high). Anyway, an unforgettable evening, which we recommend to everyone with a great deal of patience. (ironic) We'll go back… perhaps, once we've forgotten the fish. And if you like waiting, I wouldn't say no: book for us too.)
 
 ## How the review works
 
@@ -1211,8 +1218,8 @@ This restaurant review is an original text written for this lesson, in the style
 - **Quotation marks**: *une « cuisine créative »*.
 - **A deadpan character**: *le serveur, très pince-sans-rire*.
 - **Set words**: *évidemment*.
-- **Understatement used sincerely**: *n'était pas fameux* for the bread, and *n'était pas mal du tout* for the one good dish.
-- **Understatement used ironically**: *il ne fait pas chaud* (the room is cold) and *je ne dis pas non* at the end.
+- **Understatement used sincerely**: *n'était pas fameux* for the bread, *n'était pas mal du tout* for the one good dish, and *il ne fait pas chaud* for the cold room, which sets up the joke on *brûlants*.
+- **Understatement used ironically**: *je ne dis pas non* at the end.
 
 ## En français
 
@@ -1307,10 +1314,10 @@ exercises:
     explanation: "Auto- means self: l'autodérision is self-mockery."
   - id: "c1-culture-satire-and-humour-ex005"
     type: "connector-choice"
-    prompt: "Choisissez le mot : Chaque fable se termine par une ___."
+    prompt: "Choisissez le mot : Une fable contient souvent une ___ : la leçon de l'histoire."
     options: ["morale", "contrepèterie", "caricature"]
     answers: ["morale"]
-    explanation: "La morale: the lesson at the end of a fable."
+    explanation: "La morale: the lesson of a fable, often at the end, sometimes at the start."
   - id: "c1-culture-satire-and-humour-ex006"
     type: "connector-choice"
     prompt: "Choisissez le mot : Ce jeu de mots est ___ : il n'existe qu'en français."
@@ -1329,15 +1336,15 @@ exercises:
     explanation: "Tourner en ridicule takes a direct object, before or after en ridicule."
   - id: "c1-culture-satire-and-humour-ex009"
     type: "reformulation"
-    prompt: "Reformulez avec « un sous-entendu » : Il ne le dit pas, mais tout le monde comprend."
-    answers: ["C'est un sous-entendu", "Il le dit par un sous-entendu"]
+    prompt: "Reformulez avec « comprendre le sous-entendu », au passé composé : Tout le monde a compris ce qu'il voulait dire sans le dire."
+    answers: ["Tout le monde a compris le sous-entendu"]
+    strictAccents: true
     explanation: "Un sous-entendu: something suggested without being said."
   - id: "c1-culture-satire-and-humour-ex010"
     type: "error-correction"
-    prompt: "Corrigez l'erreur : La morale de cette fable est à la fin du loup."
-    answers: ["La morale de cette fable est à la fin"]
-    strictAccents: true
-    explanation: "The moral comes at the end of the fable, not of the wolf."
+    prompt: "Corrigez l'erreur : Le moral de cette fable est célèbre."
+    answers: ["La morale de cette fable est célèbre"]
+    explanation: "The lesson of a fable is la morale (feminine). Le moral is your mood."
   - id: "c1-culture-satire-and-humour-ex011"
     type: "error-correction"
     prompt: "Corrigez l'erreur : Le Canard enchaîné est un quotidien satirique."
@@ -1385,7 +1392,7 @@ You know *la presse satirique*, *un dessin de presse* and *la caricature* from <
 
 France has a long tradition of *la satire*: humour that *tourne en ridicule* the powerful, the pretentious and the hypocritical. *Le rire* is seen as a way to criticize without giving a lecture.
 
-**Les fables.** Jean de La Fontaine (1621–1695) published his *Fables* from 1668. In short stories in verse, animals behave like people, and each fable ends with *une morale*. In *Le Loup et l'Agneau*, a wolf finds a pretext to eat a lamb; the moral is famous.
+**Les fables.** Jean de La Fontaine (1621–1695) published his *Fables* from 1668. In short stories in verse, animals behave like people, and most fables state *une morale*, often at the end, sometimes at the start. In *Le Loup et l'Agneau*, the moral comes first, in the opening line; then a wolf finds a pretext to eat a lamb.
 
 <Example fr="« La raison du plus fort est toujours la meilleure. » (La Fontaine)" en="\"The argument of the strongest is always the best.\" (our translation)" />
 
@@ -1446,11 +1453,13 @@ The article below is an original text written for this lesson.
 
 *Rire du pouvoir : une tradition française*
 
-*En France, on aime rire des puissants. Cette tradition est vieille. Il y a plus de trois cents ans, La Fontaine faisait parler des animaux : derrière le loup, le lion ou le renard, ses lecteurs reconnaissaient la cour et ses mœurs. On lit encore ses fables à l'école aujourd'hui. À la même époque, Molière tournait en ridicule l'hypocrisie et les médecins de son temps, et le roi lui-même assistait à ses comédies. Le public s'amusait, mais il réfléchissait aussi.*
+*En France, on aime rire des puissants. Cette tradition est vieille.*
 
-*Au siècle suivant, Voltaire choisit le conte philosophique. Sous une forme légère, il critique la guerre, le fanatisme et ceux qui pensent que tout va pour le mieux.*
+*Il y a plus de trois cents ans, La Fontaine faisait parler des animaux : derrière le loup, le lion ou le renard, ses lecteurs reconnaissaient la cour et ses mœurs. À la même époque, Molière tournait en ridicule l'hypocrisie et les médecins de son temps, et le roi lui-même assistait à ses comédies. Le public s'amusait, mais il réfléchissait aussi.*
 
-*Aujourd'hui, la tradition continue sous d'autres formes. La presse satirique commente l'actualité avec des dessins et des jeux de mots. Chaque semaine, les lecteurs retrouvent ainsi des personnages qu'ils connaissent bien, toujours un peu ridicules. À la radio et à la télévision, les humoristes imitent les responsables politiques et se moquent des petites habitudes de chacun. Sur scène, le stand-up a trouvé un jeune public, qui apprécie l'autodérision autant que la critique.*
+*Au siècle suivant, Voltaire a choisi le conte philosophique. Sous une forme légère, il a critiqué la guerre, le fanatisme et ceux qui pensent que tout va pour le mieux.*
+
+*Aujourd'hui, on lit encore les fables de La Fontaine à l'école, et la tradition continue sous d'autres formes. La presse satirique commente l'actualité avec des dessins et des jeux de mots. Chaque semaine, les lecteurs retrouvent ainsi des personnages qu'ils connaissent bien, toujours un peu ridicules. À la radio et à la télévision, les humoristes imitent les responsables politiques et se moquent des petites habitudes de chacun. Sur scène, le stand-up a trouvé un jeune public, qui apprécie l'autodérision autant que la critique.*
 
 *Ce rire a ses règles. Il vise plutôt les puissants que les faibles, et il suppose un public complice, qui comprend les sous-entendus. C'est pourquoi l'humour voyage mal : un calembour ou une contrepèterie reste souvent intraduisible, et une allusion à l'actualité peut tomber à plat dans un autre pays.*
 
@@ -1458,10 +1467,10 @@ The article below is an original text written for this lesson.
 
 <VocabTable group="glossary" />
 
-(Laughing at power: a French tradition. In France, people like to laugh at the powerful. This tradition is old. More than three hundred years ago, La Fontaine made animals speak: behind the wolf, the lion or the fox, his readers recognized the court and its customs. His fables are still read at school today. At the same time, Molière made fun of hypocrisy and the doctors of his time, and the king himself attended his comedies. The audience enjoyed itself, but it also thought. In the following century, Voltaire chose the philosophical tale. In a light form, he criticizes war, fanaticism and those who think that all is for the best. Today, the tradition continues in other forms. The satirical press comments on the news with cartoons and wordplay. Every week, readers find characters they know well, always a little ridiculous. On radio and television, comedians imitate politicians and make fun of everyone's little habits. On stage, stand-up has found a young audience, which enjoys self-mockery as much as criticism. This laughter has its rules. It targets the powerful rather than the weak, and it assumes an audience in on the joke, who understands the innuendo. That's why humour travels badly: a pun or a spoonerism often remains untranslatable, and a reference to the news can fall flat in another country. Laughing at power isn't always easy. But in France, people often think that the freedom to laugh is part of freedom of expression.)
+(Laughing at power: a French tradition. In France, people like to laugh at the powerful. This tradition is old. More than three hundred years ago, La Fontaine made animals speak: behind the wolf, the lion or the fox, his readers recognized the court and its customs. At the same time, Molière made fun of hypocrisy and the doctors of his time, and the king himself attended his comedies. The audience enjoyed itself, but it also thought. In the following century, Voltaire chose the philosophical tale. In a light form, he criticized war, fanaticism and those who think that all is for the best. Today, La Fontaine's fables are still read at school, and the tradition continues in other forms. The satirical press comments on the news with cartoons and wordplay. Every week, readers find characters they know well, always a little ridiculous. On radio and television, comedians imitate politicians and make fun of everyone's little habits. On stage, stand-up has found a young audience, which enjoys self-mockery as much as criticism. This laughter has its rules. It targets the powerful rather than the weak, and it assumes an audience in on the joke, who understands the innuendo. That's why humour travels badly: a pun or a spoonerism often remains untranslatable, and a reference to the news can fall flat in another country. Laughing at power isn't always easy. But in France, people often think that the freedom to laugh is part of freedom of expression.)
 
 <Callout type="warning" title="Une morale, not un moral">
-  Learners often confuse the two nouns. The lesson at the end of a fable is feminine: **la morale de la fable**. *Le moral* (masculine) is your mood: *avoir le moral*.
+  Learners often confuse the two nouns. The lesson of a fable is feminine: **la morale de la fable**. *Le moral* (masculine) is your mood: *avoir le moral*.
 </Callout>
 
 <Callout type="tip" title="Start with La Fontaine">
@@ -1630,11 +1639,11 @@ This speech is an original text written for this lesson. The town, the market an
 
 *Qui d'entre vous n'a jamais fait ses courses au marché du samedi ? Je vois que personne ne lève la main.*
 
-*Je commencerai par ce que le marché nous apporte, puis j'en viendrai aux critiques que nous avons entendues.*
+*Je commencerai par ce que le marché nous apporte, puis j'en viendrai aux critiques que nous avons entendues, et enfin à nos solutions.*
 
-*Ce marché existe depuis plus de cent ans, et il fait partie de l'histoire de notre ville. Le marché, c'est d'abord un lieu de rencontre. On y vient pour acheter, mais aussi pour parler et pour retrouver ses voisins. Une étude de la mairie elle-même montre que le samedi, le centre-ville accueille deux fois plus de visiteurs que les autres jours. Le samedi, la place est pleine de monde, et les commerçants du centre vendent plus ce jour-là.*
+*Ce marché existe depuis plus de cent ans, et il fait partie de l'histoire de notre ville. Le marché, c'est d'abord un lieu de rencontre. On y vient pour acheter, mais aussi pour parler et pour retrouver ses voisins. Une étude de la mairie elle-même montre que le jour du marché, le centre-ville accueille deux fois plus de visiteurs que les autres jours. La place est alors pleine de monde, et les commerçants du centre vendent plus.*
 
-*Que le marché pose des problèmes de circulation, je l'admets. Que certains habitants soient gênés par le bruit, je le comprends. Nous avons entendu ces critiques, et elles sont légitimes. Il n'en demeure pas moins que le déplacer loin du centre serait une erreur. Ce ne serait pas une petite perte : ce serait la fin d'une tradition.*
+*Que le marché pose des problèmes de circulation, je l'admets. Que certains habitants soient gênés par le bruit, je le comprends. Nous avons entendu ces critiques, et elles sont légitimes. Il n'en demeure pas moins que déplacer le marché loin du centre serait une erreur. Ce serait la fin d'une tradition.*
 
 *J'en viens maintenant à nos solutions. Nous proposons de commencer plus tard, à huit heures, et de libérer la place à treize heures. Nous proposons de nettoyer la place nous-mêmes. Nous proposons d'en parler tous ensemble, avant toute décision.*
 
@@ -1644,14 +1653,14 @@ This speech is an original text written for this lesson. The town, the market an
 
 <VocabTable group="glossary" />
 
-(Speech by Madame Leroy, on behalf of the market traders, at a public meeting. Ladies and gentlemen, dear friends, Which of you has never done their shopping at the Saturday market? I see that nobody raises a hand. I'll begin with what the market brings us, then I'll come to the criticisms we have heard. This market has existed for more than a hundred years, and it is part of our town's history. The market is first of all a meeting place. People come to buy, but also to talk and to see their neighbours. A study by the town hall itself shows that on Saturdays the town centre receives twice as many visitors as on other days. On Saturdays, the square is full of people, and the shops in the centre sell more that day. That the market causes traffic problems, I admit. That some residents are bothered by the noise, I understand. We have heard these criticisms, and they are legitimate. The fact remains that moving it away from the centre would be a mistake. It would be no small loss: it would be the end of a tradition. I now come to our solutions. We propose to start later, at eight, and to clear the square at one. We propose to clean the square ourselves. We propose to talk about it all together, before any decision. So allow me to conclude with a simple question: do we want a lively town centre, or an empty one? Thank you for your attention.)
+(Speech by Madame Leroy, on behalf of the market traders, at a public meeting. Ladies and gentlemen, dear friends, Which of you has never done their shopping at the Saturday market? I see that nobody raises a hand. I'll begin with what the market brings us, then I'll come to the criticisms we have heard, and finally to our solutions. This market has existed for more than a hundred years, and it is part of our town's history. The market is first of all a meeting place. People come to buy, but also to talk and to see their neighbours. A study by the town hall itself shows that on market day the town centre receives twice as many visitors as on other days. The square is then full of people, and the shops in the centre sell more. That the market causes traffic problems, I admit. That some residents are bothered by the noise, I understand. We have heard these criticisms, and they are legitimate. The fact remains that moving the market away from the centre would be a mistake. It would be the end of a tradition. I now come to our solutions. We propose to start later, at eight, and to clear the square at one. We propose to clean the square ourselves. We propose to talk about it all together, before any decision. So allow me to conclude with a simple question: do we want a lively town centre, or an empty one? Thank you for your attention.)
 
 ## How the speech uses the unit
 
-- **Speech structure**: address (*mesdames et messieurs, chers amis*), a hook, the plan with signposts (*je commencerai par…, puis j'en viendrai à…*, *j'en viens maintenant à*), *permettez-moi de conclure*, the thanks.
-- **Three devices**: a rhetorical question at the hook and at the end (*qui d'entre vous n'a jamais… ?*, *voulons-nous un centre-ville vivant, ou un centre-ville vide ?*), an anaphora for the proposal (*nous proposons…*, three times), and a litote (*ce ne serait pas une petite perte*).
+- **Speech structure**: address (*mesdames et messieurs, chers amis*), a hook, the plan announcing all three parts (*je commencerai par…, puis j'en viendrai à…, et enfin à…*), the signpost *j'en viens maintenant à*, *permettez-moi de conclure*, the thanks.
+- **Three devices, one at each key moment**: a rhetorical question at the hook (*qui d'entre vous n'a jamais… ?*), an anaphora for the proposal (*nous proposons…*, three times), and a closing rhetorical question (*voulons-nous un centre-ville vivant, ou un centre-ville vide ?*). Everything between them is plain.
 - **An argument from authority**: *une étude de la mairie elle-même montre que…*.
-- **One strategic concession**, before the proposal: two fronted *que* clauses with the subjunctive (*que le marché pose…, je l'admets*; *que certains habitants soient gênés…, je le comprends*), then the turn with *il n'en demeure pas moins que*.
+- **One strategic concession**, before the proposal: two fronted *que* clauses with the subjunctive (*que le marché pose…, je l'admets*; *que certains habitants soient gênés…, je le comprends*), then the turn with *il n'en demeure pas moins que*, stated plainly (*ce serait la fin d'une tradition*).
 
 ## Your turn
 
@@ -1662,7 +1671,7 @@ Write a short persuasive speech of eight to ten sentences for a cause you care a
 - Does the speech open with an address and a hook, and announce its plan?
 - Is the verb in the fronted *que* clause in the subjunctive, with a form that differs from the indicative where possible (*soient*, *ait*, *fasse*)?
 - Does the concession come before your proposal, and does it turn with *il n'en demeure pas moins que* or *mais*?
-- Did you use no more than three devices, each at a key moment?
+- Did you use exactly three devices, one at the hook, one at the proposal and one at the end, with plain sentences in between?
 - Does the end come back to the hook, and thank the audience?
 
 <Callout type="warning" title="Que le marché pose des problèmes, je l'admets: don't forget le">

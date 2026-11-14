@@ -161,3 +161,26 @@
   - Unit 4 comes before Unit 5 in course order, so it can't use Unit 5 words (*davantage*, *diplomatique*, *un malentendu*).
   - *orateur* and *captiver* were kept out of the earlier lessons so that they stay new in the review.
   - Syllabus prerequisites updated for all 7 lessons.
+
+## Unit 7
+
+- **Unit 4 fixes (Prompt 35, items 1–10):** none were already done; all ten applied. Vocab repeats replaced: *un musée* (A1) → *un don*, *la voix* (B2 *une voix*) → *une diapositive*; *comme d'habitude* dropped. Rules 21 and 22 added to CLAUDE.md; docs/review/c1-unit-4.txt regenerated.
+- **New lessons** (teaching / whole / résumé; vocab + glossary; exercises (production); dialogue lines; longer text):
+  - proverbs-and-sayings: 1,032 / 1,385 / 132; 18; 16 (7); 12 lines.
+  - advanced-idioms: 999 / 1,431 / 135; 17; 16 (8); 12 lines.
+  - culture-regional-languages: 922 / 1,441; 18 + 3; 16 (7); no dialogue; 258.
+  - culture-francophonie: 981 / 1,480; 15 + 2; 16 (6); no dialogue; 252.
+  - register-shifting: 998 / 1,834; 16 + 2; 16 (10); 12 lines; 250.
+  - review-living: 1,188 / 1,735; 3 new, no glossary; 18 (8); 255.
+- **Recap claims, false or partial:** *les fonds* (register-shifting) is taught nowhere, so it was cut from the word chain. The satire link was plain text and is now a LessonLink to c1-culture-satire-and-humour, which does teach humour from register contrast. *le souper* is credited to a2-culture-francophone-world, checked. Every other recap was checked with c1-find.
+- **Self-audit fixes:** in register-shifting, message 3 had a technician already booked while letter 4 asked for one, so message 3 now sends Lucas to the agency instead. "Never translate a proverb word for word" (contradicted by *mieux vaut tard que jamais*) and "never change its words" (contradicted by negative idioms) were softened. An Example that sat mid-paragraph in regional-languages was moved.
+- **Checks against baselines:**
+  - check:words 110 (unchanged); check:structures 0.
+  - audit: 73 / 4 / 6 informational; every C1 length, mix and longer-text row is 0.
+  - validate OK, no warnings; test:content OK; test:checker 29/29.
+  - test:b2-exercises: 847 checked, 0 failures; b2-links-ids: 99 lessons, 0 failures; check:c1-links: 40 lessons, 0 failures.
+  - build OK.
+- **Didn't fit:**
+  - Unit 6 isn't written, so Unit 7 uses only Units 1–5. When Unit 6 is written, it mustn't re-introduce Unit 7 vocab as new.
+  - review-living needs *le souper*, so it has a sixth prerequisite (a2-culture-francophone-world). Its What's next is a forward link to c1-euphemism-and-synonyms, now listed. No pending link pointed to Unit 7.
+  - register-shifting's longer text is exactly 250 words. Syllabus prerequisites for orders 46–50 and the overview (40 of 57) are updated.

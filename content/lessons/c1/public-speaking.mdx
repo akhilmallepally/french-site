@@ -21,7 +21,7 @@ vocab:
   - { id: "c1-public-speaking-v009", group: "signpost", fr: "avant de conclure", pron: "ah-vahn duh kohn-KLEWR", en: "before I conclude" }
   - { id: "c1-public-speaking-v010", group: "signpost", fr: "permettez-moi de conclure", pron: "pehr-meh-tay mwah duh kohn-KLEWR", en: "allow me to conclude" }
   - { id: "c1-public-speaking-v011", group: "deliver", fr: "marquer une pause", pron: "mar-kay ewn POHZ", en: "to pause (deliberately)" }
-  - { id: "c1-public-speaking-v012", group: "deliver", fr: "la voix", pron: "lah VWAH", en: "the voice" }
+  - { id: "c1-public-speaking-v012", group: "deliver", fr: "une diapositive", pron: "ewn dyah-poh-zee-TEEV", en: "a slide (in a presentation)" }
   - { id: "c1-public-speaking-v013", group: "deliver", fr: "le trac", pron: "luh TRAK", en: "stage fright, nerves" }
   - { id: "c1-public-speaking-v014", group: "deliver", fr: "le micro", pron: "luh mee-KROH", en: "the microphone" }
   - { id: "c1-public-speaking-v015", group: "deliver", fr: "la médiathèque", pron: "lah may-dyah-TEK", en: "the (multimedia) library" }
@@ -35,7 +35,7 @@ exercises:
     prompt: "Indiquez la meilleure accroche pour un discours sur la lecture."
     options: ["Combien d'entre vous ont lu un livre ce mois-ci ?", "Bonjour, je vais parler de la lecture.", "La lecture, c'est important, voilà."]
     answers: ["Combien d'entre vous ont lu un livre ce mois-ci ?"]
-    explanation: "A question to the audience is a classic hook: it interpellates them from the first sentence."
+    explanation: "A question to the audience is a classic hook: it speaks directly to them from the first sentence."
   - id: "c1-public-speaking-ex002"
     type: "multiple-choice"
     prompt: "Indiquez la phrase qui annonce une nouvelle partie du discours."
@@ -51,9 +51,9 @@ exercises:
   - id: "c1-public-speaking-ex004"
     type: "connector-choice"
     prompt: "Choisissez l'expression : ___, je voudrais remercier toutes les personnes qui ont rendu ce projet possible."
-    options: ["En premier lieu", "Avant de conclure", "J'en viens à"]
+    options: ["En premier lieu", "Permettez-moi de", "J'en viens à"]
     answers: ["En premier lieu"]
-    explanation: "En premier lieu opens the first point. Avant de conclure comes at the end, and j'en viens à needs a noun after it."
+    explanation: "En premier lieu opens the first point. Permettez-moi de and j'en viens à need a verb or a noun after them, so they can't stand alone before a comma."
   - id: "c1-public-speaking-ex005"
     type: "connector-choice"
     prompt: "Choisissez le verbe : Avant chaque idée importante, l'intervenante ___ une pause."
@@ -73,7 +73,7 @@ exercises:
   - id: "c1-public-speaking-ex008"
     type: "reformulation"
     prompt: "Reformulez avec « permettez-moi de conclure » : Pour finir, je vais dire une chose."
-    answers: ["Permettez-moi de conclure par une chose", "Permettez-moi de conclure sur une chose"]
+    answers: ["Permettez-moi de conclure par une chose", "Permettez-moi de conclure sur une chose", "Permettez-moi de conclure en disant une chose"]
     explanation: "Permettez-moi de conclure is the formal way to announce the end."
   - id: "c1-public-speaking-ex009"
     type: "register-shift"
@@ -107,7 +107,7 @@ exercises:
   - id: "c1-public-speaking-ex014"
     type: "translate"
     prompt: "Traduisez (interpeller) : The speaker addressed the audience directly."
-    answers: ["L'intervenant a interpellé l'auditoire", "L'intervenante a interpellé l'auditoire"]
+    answers: ["L'intervenant a interpellé l'auditoire", "L'intervenante a interpellé l'auditoire", "L'intervenant a interpellé le public", "L'intervenante a interpellé le public"]
     explanation: "Interpeller l'auditoire: to speak to the audience directly."
     strictAccents: true
   - id: "c1-public-speaking-ex015"
@@ -127,7 +127,7 @@ By the end of this lesson you'll be able to build a short speech or presentation
 
 ## What you already know
 
-You presented data with *un graphique* and *une courbe* in <LessonLink id="b2-presenting-data" text="the lesson on presenting data" />, and took the floor with *prendre la parole* in <LessonLink id="b2-meetings-and-calls" text="the lesson on meetings and professional calls" />. You know *prononcer un discours* and *je vous remercie de votre attention* from earlier lessons, and *l'anaphore*, *la gradation* and *la question rhétorique* from <LessonLink id="c1-rhetorical-devices" text="the lesson on rhetorical devices" />. This lesson puts them into the shape of a speech.
+You presented data with *un graphique* and *une courbe* in <LessonLink id="b2-presenting-data" text="the lesson on presenting data" />, and took the floor with *prendre la parole* in <LessonLink id="b2-meetings-and-calls" text="the lesson on meetings and professional calls" />. You know *prononcer un discours* from <LessonLink id="b2-reported-speech-past" text="the lesson on reported speech in the past" /> and *je vous remercie de votre attention* from <LessonLink id="b1-cover-letter" text="the lesson on the CV and cover letter" />, and *l'anaphore*, *la gradation* and *la question rhétorique* from <LessonLink id="c1-rhetorical-devices" text="the lesson on rhetorical devices" />. This lesson puts them into the shape of a speech.
 
 ## Addressing the audience
 
@@ -170,6 +170,8 @@ Almost every speaker has *le trac* (stage fright). A practical answer is to lear
 
 A presentation at work follows the same rules, with slides. Address the room with *chers collègues*, announce the plan, and signpost each slide. Don't read the slides aloud: the audience reads faster than you speak. One idea per slide, a short title, few words. Check *le micro* and the screen before you start.
 
+<Example fr="Ne lisez pas vos diapositives : le public les lit plus vite que vous." en="Don't read your slides out: the audience reads them faster than you." />
+
 <Example fr="Chers collègues, je commencerai par les chiffres de l'année, puis j'en viendrai aux projets." en="Dear colleagues, I'll begin with the year's figures, then I'll come to the projects." />
 <Example fr="Avant de commencer, vérifiez que le micro fonctionne." en="Before you start, check that the microphone works." />
 
@@ -191,13 +193,15 @@ The speech below is an original text written for this lesson. The town, the libr
 
 *Je commencerai par l'histoire de ce projet, puis j'en viendrai à ce que nous voulons en faire.*
 
+*Ce projet est né il y a cinq ans, quand notre vieille bibliothèque, déjà ouverte le dimanche, est devenue trop petite pour la ville. La nouvelle médiathèque la remplace aujourd'hui.*
+
 *En premier lieu, je voudrais remercier toutes les personnes qui ont rendu ce projet possible : les architectes, les ouvriers, les bibliothécaires, et les habitants qui ont donné leur avis pendant trois ans. Je pense aussi à mon équipe, qui travaille depuis des mois pour ouvrir à temps.*
 
 *Ce bâtiment a été pensé pour tous : il est calme, plein de lumière, et il accueillera aussi des concerts.*
 
 *J'en viens maintenant à notre projet. Nous voulons une médiathèque ouverte. Nous voulons une médiathèque vivante. Nous voulons une médiathèque pour tous : pour les enfants qui découvrent leurs premiers livres, pour les étudiants qui préparent leurs examens, pour les personnes âgées qui cherchent un lieu de rencontre. La lecture publique n'est pas un luxe : c'est un droit.*
 
-*Avant de conclure, un mot sur les horaires. La médiathèque sera ouverte six jours sur sept, et le dimanche après-midi dès le mois de septembre.*
+*Avant de conclure, un mot sur les horaires. La médiathèque sera ouverte du mardi au dimanche, le dimanche l'après-midi seulement, comme notre vieille bibliothèque.*
 
 *Permettez-moi de conclure par une question. Le mois prochain, combien d'entre vous auront lu un livre de plus ? J'espère que la réponse sera : tous.*
 
@@ -205,12 +209,13 @@ The speech below is an original text written for this lesson. The town, the libr
 
 <VocabTable group="glossary" />
 
-(Speech by the director at the opening of the Saint-Aubin library. Madam Mayor, ladies and gentlemen, dear friends, How many of you have read a book this month? Raise your hand… I can see a lot of hands, and that's good news, because tonight we are opening a place made for you. I'll begin with the history of this project, then I'll come to what we want to make of it. First of all, I would like to thank everyone who made this project possible: the architects, the builders, the librarians, and the residents who gave their views for three years. I'm also thinking of my team, who have been working for months to open on time. This building was designed for everyone: it is quiet, full of light, and it will also host concerts. I now come to our project. We want an open library. We want a lively library. We want a library for everyone: for children discovering their first books, for students preparing their exams, for older people looking for a meeting place. Public libraries aren't a luxury: they're a right. Before I conclude, a word about opening hours. The library will be open six days a week, and on Sunday afternoons from September. Allow me to conclude with a question. Next month, how many of you will have read one more book? I hope the answer will be: all of you. Thank you for your attention, and see you very soon at the library!)
+(Speech by the director at the opening of the Saint-Aubin library. Madam Mayor, ladies and gentlemen, dear friends, How many of you have read a book this month? Raise your hand… I can see a lot of hands, and that's good news, because tonight we are opening a place made for you. I'll begin with the history of this project, then I'll come to what we want to make of it. This project was born five years ago, when our old library, already open on Sundays, became too small for the town. The new library replaces it today. First of all, I would like to thank everyone who made this project possible: the architects, the builders, the librarians, and the residents who gave their views for three years. I'm also thinking of my team, who have been working for months to open on time. This building was designed for everyone: it is quiet, full of light, and it will also host concerts. I now come to our project. We want an open library. We want a lively library. We want a library for everyone: for children discovering their first books, for students preparing their exams, for older people looking for a meeting place. Public libraries aren't a luxury: they're a right. Before I conclude, a word about opening hours. The library will be open from Tuesday to Sunday, on Sunday in the afternoon only, like our old library. Allow me to conclude with a question. Next month, how many of you will have read one more book? I hope the answer will be: all of you. Thank you for your attention, and see you very soon at the library!)
 
 ## How the speech works
 
 - **Address**: *Madame la Maire* first, then *mesdames et messieurs, chers amis*.
-- **Hook**: a question that interpellates the audience, with a gesture (*levez la main*).
+- **Hook**: a question that speaks directly to the audience, with a gesture (*levez la main*).
+- **History**: two sentences on how the project began (*ce projet est né il y a cinq ans…*), as the plan announced.
 - **Plan**: announced in one sentence (*je commencerai par…, puis j'en viendrai à…*).
 - **Signposts**: *en premier lieu*, *j'en viens maintenant à*, *avant de conclure*, *permettez-moi de conclure*.
 - **Devices**: an anaphora (*nous voulons…*, three times), a list in three, and an antithesis (*n'est pas un luxe : c'est un droit*).
