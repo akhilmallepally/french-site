@@ -17,10 +17,10 @@ vocab:
   - { id: "c1-participle-clauses-v004", group: "fixed", fr: "vu + nom", pron: "VEW", en: "given, in view of", note: "Vu la situation. Invariable before the noun." }
   - { id: "c1-participle-clauses-v005", group: "fixed", fr: "excepté", pron: "ek-sep-TAY", en: "except", note: "Invariable before the noun: excepté les enfants." }
   - { id: "c1-participle-clauses-v006", group: "words", fr: "la séance", pron: "lah say-AHNSS", en: "the session, the sitting (of a meeting)" }
-  - { id: "c1-participle-clauses-v007", group: "words", fr: "ouvrir / lever la séance", pron: "oo-vreer / luh-vay lah say-AHNSS", en: "to open / to close the meeting (formal)" }
-  - { id: "c1-participle-clauses-v008", group: "words", fr: "le procès-verbal", pron: "luh proh-seh-vehr-BAHL", en: "the minutes (of a meeting)" }
-  - { id: "c1-participle-clauses-v009", group: "words", fr: "approuver", pron: "ah-proo-VAY", en: "to approve" }
-  - { id: "c1-participle-clauses-v010", group: "words", fr: "le contrat", pron: "luh kohn-TRAH", en: "the contract" }
+  - { id: "c1-participle-clauses-v007", group: "words", fr: "ouvrir la séance", pron: "oo-vreer lah say-AHNSS", en: "to open the meeting (formal)" }
+  - { id: "c1-participle-clauses-v008", group: "words", fr: "lever la séance", pron: "luh-vay lah say-AHNSS", en: "to close the meeting (formal)" }
+  - { id: "c1-participle-clauses-v009", group: "words", fr: "le procès-verbal", pron: "luh proh-seh-vehr-BAHL", en: "the minutes (of a meeting)" }
+  - { id: "c1-participle-clauses-v010", group: "words", fr: "approuver", pron: "ah-proo-VAY", en: "to approve" }
   - { id: "c1-participle-clauses-v011", group: "words", fr: "le participant / la participante", pron: "luh par-tee-see-PAHN / lah par-tee-see-PAHNT", en: "the participant" }
   - { id: "c1-participle-clauses-v012", group: "words", fr: "le calendrier", pron: "luh kah-lahn-DRYAY", en: "the schedule, the calendar" }
 exercises:
@@ -185,7 +185,7 @@ Absolute participle clauses belong to written French: reports, minutes, history 
 
 | Formal writing | Everyday French |
 |---|---|
-| *La réunion terminée, chacun est parti.* | *Quand la réunion a été finie, tout le monde est parti.* |
+| *La réunion terminée, chacun est parti.* | *Quand la réunion s'est terminée, tout le monde est parti.* |
 | *Le train ayant du retard, nous avons manqué la correspondance.* | *Comme le train avait du retard, on a raté la correspondance.* |
 | *Vu l'heure, nous allons nous arrêter.* | *Vu l'heure, on va s'arrêter.* |
 
@@ -222,7 +222,7 @@ Nadia is writing the minutes of this morning's meeting. Her colleague Julien rea
 - *Et la question du calendrier ?* (And the question of the schedule?)
 - *« Vu l'heure, elle a été reportée à la prochaine séance. »* ("Given the time, it was postponed to the next meeting.")
 - *Attention à la phrase suivante : « Ayant lu le rapport, la réunion a commencé. »* (Careful with the next sentence: "Having read the report, the meeting began.")
-- *Ah oui, ce n'est pas la réunion qui a lu le rapport ! « Les participants ayant lu le rapport, la réunion a commencé. »* (Oh yes, it wasn't the meeting that read the report! "As the participants had read the report, the meeting began.")
+- *Ah oui, ce n'est pas la réunion qui a lu le rapport ! « Les participants ayant lu le rapport, la discussion a été courte. »* (Oh yes, it wasn't the meeting that read the report! "As the participants had read the report, the discussion was short.")
 - *C'est juste. Et la fin ?* (That's right. And the end?)
 - *« Tous les points traités, le président a levé la séance. »* ("All the items dealt with, the president closed the meeting.")
 - *Parfait. Une fois le texte relu, envoie-le à toute l'équipe.* (Perfect. Once the text has been read over, send it to the whole team.)
@@ -267,8 +267,8 @@ vocab:
   - { id: "c1-formal-relatives-and-apposition-v008", group: "commas", fr: "une relative explicative", pron: "ewn ruh-lah-teev ek-splee-kah-TEEV", en: "a non-defining relative clause (between commas)" }
   - { id: "c1-formal-relatives-and-apposition-v009", group: "apposition", fr: "l'apposition (f.)", pron: "lah-poh-zee-SYOHN", en: "apposition (a noun or adjective placed next to another noun, between commas)" }
   - { id: "c1-formal-relatives-and-apposition-v010", group: "apposition", fr: "un adjectif détaché", pron: "uh-nad-zhek-teef day-tah-SHAY", en: "a detached adjective (set off by a comma)" }
-  - { id: "c1-formal-relatives-and-apposition-v011", group: "apposition", fr: "l'exil (m.)", pron: "leg-ZEEL", en: "exile" }
-  - { id: "c1-formal-relatives-and-apposition-v012", group: "apposition", fr: "la soirée", pron: "lah swah-RAY", en: "the evening, the party" }
+  - { id: "c1-formal-relatives-and-apposition-v011", group: "apposition", fr: "un opposant / une opposante", pron: "uh-noh-poh-ZAHN / ew-noh-poh-ZAHNT", en: "an opponent" }
+  - { id: "c1-formal-relatives-and-apposition-v012", group: "apposition", fr: "l'exil (m.)", pron: "leg-ZEEL", en: "exile" }
 exercises:
   - id: "c1-formal-relatives-and-apposition-ex001"
     type: "multiple-choice"
@@ -336,7 +336,7 @@ exercises:
   - id: "c1-formal-relatives-and-apposition-ex012"
     type: "reformulation"
     prompt: "Reformulez en commençant par l'adjectif : Elle était fatiguée, et elle est rentrée tôt."
-    answers: ["Fatiguée, elle est rentrée tôt"]
+    answers: ["Fatiguée, elle est rentrée tôt", "Elle est rentrée tôt, fatiguée"]
     explanation: "A detached adjective at the start refers to the subject of the main verb: fatiguée, elle…"
   - id: "c1-formal-relatives-and-apposition-ex013"
     type: "translate"
@@ -406,7 +406,7 @@ French distinguishes two kinds of relative clause, and the commas show which one
 <Example fr="Les étudiants qui avaient travaillé ont réussi." en="The students who had worked passed (only those)." />
 <Example fr="Les étudiants, qui avaient travaillé, ont réussi." en="The students, who had all worked, passed." />
 
-Check the meaning before you add commas: in the first sentence, some students didn't pass; in the second, all of them did.
+Check the meaning before you add commas: the first sentence is only about the students who had worked; the second is about all the students.
 
 ## Apposition and detached adjectives
 
@@ -445,8 +445,8 @@ Inès and Tom, two students, are writing a presentation about Victor Hugo.
 
 - *Tu as écrit l'introduction ?* (Have you written the introduction?)
 - *Oui : « Victor Hugo, dont on connaît surtout Les Misérables, a aussi écrit des poèmes. »* (Yes: "Victor Hugo, whose best-known work is Les Misérables, also wrote poems.")
-- *Bien. Mais j'ai mis : « dont on connaît surtout ses romans ».* (Good. But I put: "dont on connaît surtout ses romans".)
-- *Non, pas de « son » après « dont ». On dit « dont on connaît surtout les romans ».* (No, no "ses" after "dont". We say "dont on connaît surtout les romans".)
+- *Bien. Dans ma partie, j'ai écrit : « Hugo, dont on connaît surtout ses romans… ».* (Good. In my part, I wrote: "Hugo, dont on connaît surtout ses romans…".)
+- *Attention, pas de « ses » après « dont ». On dit « dont on connaît surtout les romans ».* (Careful, no "ses" after "dont". We say "dont on connaît surtout les romans".)
 - *D'accord. Ensuite, je parle de son exil.* (OK. Then I talk about his exile.)
 - *Écris : « Hugo, opposant au Second Empire, a passé près de vingt ans en exil. »* (Write: "Hugo, an opponent of the Second Empire, spent nearly twenty years in exile.")
 - *C'est une apposition ! Il faut des virgules ?* (That's an apposition! Do we need commas?)
@@ -554,7 +554,7 @@ exercises:
   - id: "c1-advanced-connectors-ex009"
     type: "reformulation"
     prompt: "Reformulez avec « à en croire » et le conditionnel : Le rapport dit que le projet coûte dix millions."
-    answers: ["À en croire le rapport, le projet coûterait dix millions"]
+    answers: ["À en croire le rapport, le projet coûterait dix millions", "Le projet coûterait dix millions, à en croire le rapport"]
     strictAccents: true
     explanation: "À en croire + source, then the conditionnel: the writer doesn't confirm the figure."
   - id: "c1-advanced-connectors-ex010"
@@ -740,10 +740,10 @@ vocab:
   - { id: "c1-concession-and-hypothesis-v004", group: "hypothesis", fr: "à supposer que", pron: "ah sew-poh-ZAY kuh", en: "supposing that, assuming that", note: "+ subjunctive." }
   - { id: "c1-concession-and-hypothesis-v005", group: "hypothesis", fr: "si tant est que", pron: "see tahn-teh KUH", en: "assuming that (which is doubtful)", note: "+ subjunctive." }
   - { id: "c1-concession-and-hypothesis-v006", group: "inverted", fr: "serait-il…", pron: "suh-reh-TEEL", en: "even if he were… (literary)", note: "Serait-il malade, il viendrait." }
-  - { id: "c1-concession-and-hypothesis-v007", group: "words", fr: "financer", pron: "fee-nahn-SAY", en: "to fund, to finance", note: "Nous finançons." }
-  - { id: "c1-concession-and-hypothesis-v008", group: "words", fr: "une subvention", pron: "ewn sewb-vahn-SYOHN", en: "a grant, a subsidy" }
-  - { id: "c1-concession-and-hypothesis-v009", group: "words", fr: "le festival", pron: "luh fes-tee-VAHL", en: "the festival" }
-  - { id: "c1-concession-and-hypothesis-v010", group: "words", fr: "un effort", pron: "uh-neh-FOR", en: "an effort", note: "Faire un effort." }
+  - { id: "c1-concession-and-hypothesis-v007", group: "inverted", fr: "une conjonction", pron: "ewn kohn-zhohnk-SYOHN", en: "a conjunction (que, si, quand…)" }
+  - { id: "c1-concession-and-hypothesis-v008", group: "words", fr: "financer", pron: "fee-nahn-SAY", en: "to fund, to finance", note: "Nous finançons." }
+  - { id: "c1-concession-and-hypothesis-v009", group: "words", fr: "une subvention", pron: "ewn sewb-vahn-SYOHN", en: "a grant, a subsidy" }
+  - { id: "c1-concession-and-hypothesis-v010", group: "words", fr: "le festival", pron: "luh fes-tee-VAHL", en: "the festival" }
   - { id: "c1-concession-and-hypothesis-v011", group: "words", fr: "optimiste", pron: "op-tee-MEEST", en: "optimistic" }
   - { id: "c1-concession-and-hypothesis-v012", group: "words", fr: "à l'intérieur", pron: "ah lan-tay-RYUHR", en: "inside, indoors" }
 exercises:
@@ -801,7 +801,7 @@ exercises:
   - id: "c1-concession-and-hypothesis-ex010"
     type: "reformulation"
     prompt: "Reformulez avec « à supposer que » : Si le budget est accepté, que ferons-nous ?"
-    answers: ["À supposer que le budget soit accepté, que ferons-nous ?"]
+    answers: ["À supposer que le budget soit accepté, que ferons-nous ?", "Que ferons-nous, à supposer que le budget soit accepté ?"]
     strictAccents: true
     explanation: "À supposer que + subjunctive: soit accepté."
   - id: "c1-concession-and-hypothesis-ex011"
@@ -869,7 +869,7 @@ Compare the moods: *quand bien même il pleuvrait* (conditionnel), *même s'il p
 <Example fr="Le film est bon, encore qu'il soit un peu long." en="The film is good, although it's a bit long. (formal)" />
 <Example fr="Le film est bon, encore qu'un peu long." en="The film is good, if a bit long. (formal)" />
 
-*Bien que* puts the concession first and the main point after it. *Encore que* does the opposite: the main point comes first, and the reservation follows as an afterthought.
+*Bien que* can come before or after the main clause: *bien qu'il soit long, le film est bon* or *le film est bon, bien qu'il soit long*. *Encore que* almost always comes after it: the main point first, then the reservation, as an afterthought.
 
 ## Three ways to set a condition
 
@@ -885,7 +885,7 @@ Three conjunctions set a condition, and all three take the subjunctive. They dif
 <Example fr="À supposer que le projet soit accepté, qui le financera ?" en="Assuming the project is accepted, who will fund it?" />
 <Example fr="Il réussira, si tant est qu'il fasse des efforts." en="He'll pass, assuming he makes an effort (which isn't certain)." />
 
-In each pair, the verb after the conjunction differs from the indicative: *qu'il fasse* (not *fait*), *soit* (not *est*). The main clause is in the futur or the present, as with *si* + present.
+In these examples, the subjunctive after the conjunction differs from the indicative: *qu'il fasse* (not *fait*), *soit* (not *est*). The main clause is in the futur or the present, as with *si* + present.
 
 Remember that *si* itself never takes the subjunctive or, when it means "if", the conditionnel: *si le projet est accepté*. Only these conjunctions with *que* take the subjunctive.
 
@@ -932,7 +932,7 @@ Malik and Clara run a small theatre association. They're planning a summer festi
 - *Le festival aura lieu en juillet, à supposer que la mairie nous donne une subvention.* (The festival will take place in July, assuming the town hall gives us a grant.)
 - *Et si elle refuse ?* (And if it refuses?)
 - *Quand bien même elle refuserait, nous trouverions l'argent ailleurs.* (Even if it refused, we would find the money elsewhere.)
-- *Tu es optimiste ! Il faudrait d'autres entreprises pour financer le projet.* (You're optimistic! We'd need other companies to fund the project.)
+- *Tu es optimiste ! Il faudrait des entreprises pour financer le projet.* (You're optimistic! We'd need companies to fund the project.)
 - *Pour peu qu'on contacte les bonnes entreprises, ce sera possible.* (As long as we contact the right companies, it'll be possible. (spoken))
 - *Si tant est qu'elles aient du budget cette année…* (Assuming they have any budget this year…)
 - *Certaines en ont, encore que ce soit plus difficile qu'avant.* (Some do, although it's harder than before.)
@@ -954,7 +954,7 @@ Malik and Clara run a small theatre association. They're planning a summer festi
 
 ## En résumé
 
-Pour faire une concession ou une hypothèse à l'écrit soutenu, on a plusieurs outils, chacun avec son mode. Quand bien même veut dire même si, pour un cas qu'on imagine, et il prend le conditionnel : quand bien même il pleuvrait, nous partirions. Encore que ajoute une réserve après l'idée principale, avec le subjonctif : le film est bon, encore qu'il soit un peu long. Pour peu que, à supposer que et si tant est que posent une condition et prennent le subjonctif. Pour peu que montre qu'une petite condition suffit, à supposer que fait une hypothèse pour la discussion, et si tant est que montre un doute. Au cas où prend le conditionnel. Enfin, la langue littéraire peut mettre le verbe avant le sujet, sans que ni si : serait-il malade, il viendrait. Fût-il malade a le même sens, avec l'imparfait du subjonctif.
+Pour faire une concession ou une hypothèse à l'écrit soutenu, on a plusieurs outils, chacun avec son mode. Quand bien même veut dire même si, pour un cas qu'on imagine, et il prend le conditionnel : quand bien même il pleuvrait, nous partirions. Encore que ajoute une réserve après l'idée principale, avec le subjonctif : le film est bon, encore qu'il soit un peu long. Pour peu que, à supposer que et si tant est que posent une condition et prennent le subjonctif. Pour peu que montre qu'une petite condition suffit, à supposer que fait une hypothèse pour la discussion, et si tant est que montre un doute. Au cas où prend le conditionnel. Enfin, la langue littéraire peut mettre le verbe avant le sujet, sans conjonction : serait-il malade, il viendrait. Fût-il malade a le même sens, avec l'imparfait du subjonctif.
 
 ## What's next
 
@@ -997,21 +997,21 @@ exercises:
   - id: "c1-abstract-nouns-ex001"
     type: "connector-choice"
     prompt: "Choisissez le mot : Les chercheurs doutent de la ___ de ces données."
-    options: ["fiabilité", "démarche", "portée"]
+    options: ["fiabilité", "démarche", "faisabilité"]
     answers: ["fiabilité"]
     explanation: "You doubt whether data can be trusted: la fiabilité."
   - id: "c1-abstract-nouns-ex002"
     type: "connector-choice"
     prompt: "Choisissez le mot : Personne n'avait prévu l'___ de la crise."
-    options: ["ampleur", "apport", "essor"]
+    options: ["ampleur", "apport", "accès"]
     answers: ["ampleur"]
-    explanation: "L'ampleur: the scale of the crisis. Apport is a contribution and essor a rise."
+    explanation: "L'ampleur: the scale of the crisis. Apport is a contribution and accès is access."
   - id: "c1-abstract-nouns-ex003"
     type: "connector-choice"
-    prompt: "Choisissez le mot : Quel est l'___ de ce débat ?"
-    options: ["enjeu", "ampleur", "démarche"]
-    answers: ["enjeu"]
-    explanation: "Quel est needs a masculine noun: l'enjeu (what is at stake). Ampleur and démarche are feminine."
+    prompt: "Choisissez le mot : La qualité de l'eau est ___ principal de ce débat."
+    options: ["l'enjeu", "l'essor", "le cadre"]
+    answers: ["l'enjeu"]
+    explanation: "L'enjeu: what is at stake in the debate. L'essor is a rise and le cadre a framework."
   - id: "c1-abstract-nouns-ex004"
     type: "multiple-choice"
     prompt: "Indiquez le sens de « la portée » dans la phrase : Personne ne mesure encore la portée de cette décision."
@@ -1231,8 +1231,8 @@ exercises:
   - id: "c1-synthesis-ex001"
     type: "multiple-choice"
     prompt: "Indiquez la phrase qui convient à une synthèse."
-    options: ["Le premier document présente l'ouverture le dimanche comme un succès.", "Heureusement, la bibliothèque ouvre enfin le dimanche.", "Je pense que les bibliothécaires ont raison."]
-    answers: ["Le premier document présente l'ouverture le dimanche comme un succès."]
+    options: ["Le premier document rapporte que, selon la maire, l'ouverture le dimanche est un succès.", "Heureusement, la bibliothèque ouvre enfin le dimanche.", "Je pense que les bibliothécaires ont raison."]
+    answers: ["Le premier document rapporte que, selon la maire, l'ouverture le dimanche est un succès."]
     explanation: "A synthesis reports what the documents say. Heureusement and je pense give the writer's opinion."
   - id: "c1-synthesis-ex002"
     type: "multiple-choice"
@@ -1266,7 +1266,7 @@ exercises:
   - id: "c1-synthesis-ex007"
     type: "reformulation"
     prompt: "Reformulez sans citation, avec « selon » : La maire dit : « C'est un grand succès. »"
-    answers: ["Selon la maire, c'est un grand succès"]
+    answers: ["Selon la maire, c'est un grand succès", "C'est un grand succès, selon la maire"]
     explanation: "A synthesis reformulates instead of quoting, and it says whose view it is: selon la maire."
   - id: "c1-synthesis-ex008"
     type: "reformulation"
@@ -1371,6 +1371,7 @@ A synthesis has its own set phrases. They're neutral, and they keep the reader o
 - **To conclude**: *au total…*, *en somme…*.
 
 <Example fr="Ces textes traitent du même sujet, mais ils divergent sur les solutions." en="These texts deal with the same subject, but they differ on the solutions." />
+<Example fr="Le titre d'une synthèse reste neutre : il donne le sujet, pas la conclusion." en="The title of a synthesis stays neutral: it names the subject, not the conclusion." />
 <Example fr="En somme, les documents se complètent plus qu'ils ne s'opposent." en="In short, the documents complement each other more than they contradict each other." />
 
 Two more habits help. First, give each document a short, neutral name the first time you mention it (*l'article*, *la tribune*), and keep it. Second, never write that a document "is right" or "is wrong": write what it says, and let the reader judge. If your teacher asks for a title, choose a neutral one that names the subject, not your conclusion.
@@ -1397,20 +1398,20 @@ These two short documents are original texts written for this lesson. The town a
 
 *Les deux documents portent sur l'ouverture des bibliothèques le dimanche. L'un est un article de presse locale, l'autre la tribune d'un syndicat.*
 
-*Les deux textes s'accordent d'abord sur un point : cette ouverture répond à une demande du public. Le premier document la présente comme un succès, en particulier pour les familles et des usagers qui travaillent en semaine.*
+*Les deux textes s'accordent d'abord sur un point : cette ouverture répond à une demande du public. Le premier document rapporte que, selon la maire, c'est un succès, en particulier pour les familles et les usagers qui travaillent en semaine.*
 
-*En revanche, ils divergent sur les conditions de travail. L'article évoque seulement la fatigue de certains bibliothécaires, tandis que la tribune demande que le travail du dimanche reste volontaire et soit mieux payé.*
+*En revanche, ils ne traitent pas de la même façon la question des conditions de travail. L'article évoque seulement les journées longues de certains bibliothécaires, tandis que la tribune demande que le travail du dimanche reste volontaire et soit mieux payé.*
 
 *Au total, les documents se complètent : l'un montre l'intérêt du public, l'autre les conditions qui permettraient de maintenir ce service.*
 
-(Both documents are about opening libraries on Sundays. One is a local newspaper article, the other a union opinion piece. The two texts first agree on one point: this opening meets public demand. The first document presents it as a success, especially with families and with users who work during the week. On the other hand, they differ on working conditions. The article only mentions the tiredness of some librarians, while the opinion piece asks that Sunday work remain voluntary and be better paid. All in all, the documents complement each other: one shows public interest, the other the conditions that would make it possible to keep this service going.)
+(Both documents are about opening libraries on Sundays. One is a local newspaper article, the other a union opinion piece. The two texts first agree on one point: this opening meets public demand. The first document reports that, according to the mayor, it's a success, especially for families and for users who work during the week. On the other hand, they treat the question of working conditions differently. The article only mentions the long days of some librarians, while the opinion piece asks that Sunday work remain voluntary and be better paid. All in all, the documents complement each other: one shows public interest, the other the conditions that would make it possible to keep this service going.)
 
 ## How the model works
 
 - **The introduction** names the subject and the two documents, with no opinion.
-- **The plan follows ideas**: first the point of agreement (the demand), then the divergence (working conditions). Each paragraph speaks of both documents.
-- **There's no quotation.** *C'est un grand succès* becomes *la présente comme un succès*.
-- **Every view has its source**: *le premier document*, *l'article*, *la tribune*.
+- **The plan follows ideas**: first the point of agreement (the demand), then a question the documents treat differently (working conditions). Each paragraph speaks of both documents.
+- **There's no quotation.** The mayor's words are reported with their source: *le premier document rapporte que, selon la maire, c'est un succès*.
+- **Every view has its source**: *le premier document*, *selon la maire*, *l'article*, *la tribune*.
 - **The connectors carry the comparison**: *d'abord*, *en revanche*, *tandis que*, *l'un… l'autre*.
 - **The conclusion** shows how the documents fit together, without taking sides.
 
@@ -1469,19 +1470,17 @@ vocab:
   - { id: "c1-dissertation-v009", group: "links", fr: "si… (concessive)", pron: "SEE", en: "while…, although…", note: "Si les écrans facilitent l'accès, il n'en reste pas moins que… No future or conditionnel after si." }
   - { id: "c1-dissertation-v010", group: "topic", fr: "l'attention (f.)", pron: "lah-tahn-SYOHN", en: "attention, concentration" }
   - { id: "c1-dissertation-v011", group: "topic", fr: "le support", pron: "luh sew-POR", en: "the medium (paper, screen)", note: "Not support in the sense of help." }
-  - { id: "c1-dissertation-v012", group: "topic", fr: "l'ordinateur (m.)", pron: "lor-dee-nah-TUHR", en: "the computer" }
-  - { id: "c1-dissertation-v013", group: "topic", fr: "la tablette", pron: "lah tah-BLET", en: "the tablet (computer)" }
-  - { id: "c1-dissertation-v014", group: "topic", fr: "accessible", pron: "ak-seh-SEE-bluh", en: "accessible, easy to reach" }
-  - { id: "c1-dissertation-v015", group: "topic", fr: "transformer", pron: "trahns-for-MAY", en: "to transform, to change deeply" }
-  - { id: "c1-dissertation-v016", group: "topic", fr: "l'accès (m.)", pron: "lak-SEH", en: "access", note: "L'accès aux textes." }
-  - { id: "c1-dissertation-v017", group: "topic", fr: "la manière", pron: "lah mah-NYEHR", en: "the way, the manner", note: "La manière dont nous lisons." }
-  - { id: "c1-dissertation-v018", group: "topic", fr: "rapide", pron: "rah-PEED", en: "fast, quick" }
-  - { id: "c1-dissertation-v019", group: "topic", fr: "le papier", pron: "luh pah-PYAY", en: "paper" }
-  - { id: "c1-dissertation-v020", group: "topic", fr: "quotidien / quotidienne", pron: "koh-tee-DYAN / koh-tee-DYEN", en: "daily, everyday" }
-  - { id: "c1-dissertation-v021", group: "glossary", fr: "échapper à", pron: "ay-shah-PAY ah", en: "to escape" }
-  - { id: "c1-dissertation-v022", group: "glossary", fr: "modifier", pron: "moh-dee-FYAY", en: "to change, to alter" }
-  - { id: "c1-dissertation-v023", group: "glossary", fr: "agrandir", pron: "ah-grahn-DEER", en: "to enlarge", note: "Like finir." }
-  - { id: "c1-dissertation-v024", group: "glossary", fr: "élargir", pron: "ay-lar-ZHEER", en: "to widen", note: "Like finir." }
+  - { id: "c1-dissertation-v012", group: "topic", fr: "accessible", pron: "ak-seh-SEE-bluh", en: "accessible, easy to reach" }
+  - { id: "c1-dissertation-v013", group: "topic", fr: "transformer", pron: "trahns-for-MAY", en: "to transform, to change deeply" }
+  - { id: "c1-dissertation-v014", group: "topic", fr: "l'accès (m.)", pron: "lak-SEH", en: "access", note: "L'accès aux textes." }
+  - { id: "c1-dissertation-v015", group: "topic", fr: "la manière", pron: "lah mah-NYEHR", en: "the way, the manner", note: "La manière dont nous lisons." }
+  - { id: "c1-dissertation-v016", group: "topic", fr: "rapide", pron: "rah-PEED", en: "fast, quick" }
+  - { id: "c1-dissertation-v017", group: "topic", fr: "le papier", pron: "luh pah-PYAY", en: "paper" }
+  - { id: "c1-dissertation-v018", group: "topic", fr: "quotidien / quotidienne", pron: "koh-tee-DYAN / koh-tee-DYEN", en: "daily, everyday" }
+  - { id: "c1-dissertation-v019", group: "glossary", fr: "échapper à", pron: "ay-shah-PAY ah", en: "to escape" }
+  - { id: "c1-dissertation-v020", group: "glossary", fr: "modifier", pron: "moh-dee-FYAY", en: "to change, to alter" }
+  - { id: "c1-dissertation-v021", group: "glossary", fr: "agrandir", pron: "ah-grahn-DEER", en: "to enlarge", note: "Like finir." }
+  - { id: "c1-dissertation-v022", group: "glossary", fr: "élargir", pron: "ay-lar-ZHEER", en: "to widen", note: "Like finir." }
 exercises:
   - id: "c1-dissertation-ex001"
     type: "multiple-choice"
@@ -1553,7 +1552,7 @@ exercises:
   - id: "c1-dissertation-ex013"
     type: "translate"
     prompt: "Traduisez avec « dans quelle mesure » : To what extent does reading on screen change our attention?"
-    answers: ["Dans quelle mesure la lecture sur écran change-t-elle notre attention ?"]
+    answers: ["Dans quelle mesure la lecture sur écran change-t-elle notre attention ?", "Dans quelle mesure la lecture sur écran modifie-t-elle notre attention ?", "Dans quelle mesure la lecture sur écran transforme-t-elle notre attention ?"]
     explanation: "Dans quelle mesure + noun subject + verb + pronoun: change-t-elle."
   - id: "c1-dissertation-ex014"
     type: "translate"
@@ -1572,6 +1571,11 @@ exercises:
     options: ["On peut se demander si l'école doit apprendre aux enfants à lire sur écran.", "Les écrans changent la lecture.", "Merci de m'avoir lu."]
     answers: ["On peut se demander si l'école doit apprendre aux enfants à lire sur écran."]
     explanation: "An ouverture widens the subject with a related question; it doesn't repeat the answer."
+  - id: "c1-dissertation-ex017"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : On peut se demander dans quelle mesure les écrans changent-ils notre façon de lire."
+    answers: ["On peut se demander dans quelle mesure les écrans changent notre façon de lire"]
+    explanation: "In an indirect question, after on peut se demander, there's no inversion: les écrans changent."
 ---
 
 By the end of this lesson you'll be able to write a C1 essay: an open problématique, a plan that suits the subject, clear transitions, nuanced arguments and an ouverture.
@@ -1589,7 +1593,7 @@ At B2, the subject often asked for a yes or no, and the problématique was an in
 <Example fr="Dans quelle mesure les écrans transforment-ils notre façon de lire ?" en="To what extent are screens changing the way we read?" />
 <Example fr="En quoi la lecture sur écran est-elle différente ?" en="In what way is reading on screen different?" />
 
-The question keeps the formal inversion of written French: with a noun subject, add a pronoun after the verb (*les écrans changent-ils*). A good problématique doesn't contain the answer: *pourquoi les écrans sont-ils dangereux ?* has already decided.
+In a direct question, keep the formal inversion of written French: with a noun subject, add a pronoun after the verb (*dans quelle mesure les écrans changent-ils… ?*). In an indirect question, after *on peut se demander*, there's no inversion and no question mark: *on peut se demander dans quelle mesure les écrans changent notre façon de lire*. A good problématique doesn't contain the answer: *pourquoi les écrans sont-ils dangereux ?* has already decided.
 
 ## Three kinds of plan
 
@@ -1638,29 +1642,29 @@ The conclusion answers the problématique in two or three sentences, with no new
 
 This is an original model essay written for this lesson. It uses a dialectical plan in three short parts.
 
-*Sujet : Dans quelle mesure les écrans changent-ils notre façon de lire ?*
+*Sujet : Les écrans changent-ils notre façon de lire ?*
 
 *Aujourd'hui, on lit partout : dans le métro, sur son téléphone, sur un ordinateur au travail. Les écrans font désormais partie de la vie quotidienne, et la lecture ne peut pas y échapper. On peut dès lors se demander dans quelle mesure les écrans transforment notre façon de lire. Nous verrons d'abord qu'ils rendent les textes plus accessibles, puis qu'ils peuvent modifier notre attention, avant de montrer que les deux formes de lecture peuvent se compléter.*
 
 *Dans un premier temps, force est de constater que les écrans ont rendu la lecture plus accessible. Un article, un roman ou une étude sont disponibles en quelques secondes, souvent sans frais. De même, les personnes qui voient mal peuvent agrandir le texte. Les bibliothèques en ligne permettent aussi de lire des textes rares. Les écrans permettent ainsi d'élargir le public des lecteurs.*
 
-*Si les écrans facilitent l'accès aux textes, il n'en reste pas moins qu'ils changent la manière dont nous lisons. Dans un deuxième temps, en effet, la lecture sur écran est souvent plus rapide. Le lecteur passe d'un texte à l'autre, et des messages l'interrompent. Selon toute vraisemblance, cette lecture rapide convient surtout aux textes courts, encore que certains lecteurs lisent longtemps sur une tablette. Quand bien même l'attention changerait, la lecture elle-même ne disparaîtrait pas.*
+*Si les écrans facilitent l'accès aux textes, il n'en reste pas moins qu'ils changent la manière dont nous lisons. Dans un deuxième temps, en effet, la lecture sur écran est souvent plus rapide. Le lecteur passe d'un texte à l'autre, et des messages l'interrompent. Selon toute vraisemblance, cette lecture rapide convient surtout aux textes courts, encore que certains lecteurs lisent longtemps sur une tablette.*
 
-*Dans un troisième temps, il convient de dépasser cette opposition. Le papier et l'écran ne s'excluent pas : on lit un article sur son téléphone et un roman sur papier. Pour un texte long et difficile, beaucoup de lecteurs préfèrent encore le papier ; pour une information rapide, l'écran suffit. Chaque support a ses usages, et un bon lecteur sait choisir le sien.*
+*Dans un troisième temps, il convient de dépasser cette opposition. Quand bien même l'attention changerait, la lecture elle-même ne disparaîtrait pas. Le papier et l'écran ne s'excluent pas : on lit un article sur son téléphone et un roman sur papier. Pour un texte long et difficile, beaucoup de lecteurs préfèrent encore le papier ; pour une information rapide, l'écran suffit. Chaque support a ses usages, et un bon lecteur sait choisir le sien.*
 
 *En guise de conclusion, les écrans transforment notre façon de lire, mais sans remplacer le livre : ils ajoutent une lecture plus rapide à une lecture plus lente. On peut se demander si l'école doit apprendre aux enfants à lire sur écran.*
 
 <VocabTable group="glossary" />
 
-(Subject: To what extent are screens changing the way we read? Today, we read everywhere: on the underground, on our phones, on a computer at work. Screens are now part of everyday life, and reading can't escape them. One may therefore ask to what extent screens are transforming the way we read. We will first see that they make texts more accessible, then that they can change our attention, before showing that the two forms of reading can complement each other. Firstly, it must be said that screens have made reading more accessible. An article, a novel or a study is available in a few seconds, often free of charge. Likewise, people with poor eyesight can enlarge the text. Online libraries also make it possible to read rare texts. Screens thus make it possible to widen the reading public. While screens make texts easier to reach, the fact remains that they change the way we read. Secondly, reading on screen is indeed often faster. The reader moves from one text to another, and messages interrupt them. In all likelihood, this fast reading suits short texts above all, although some readers read for a long time on a tablet. Even if attention were to change, reading itself wouldn't disappear. Thirdly, we should go beyond this opposition. Paper and screen don't exclude each other: we read an article on our phone and a novel on paper. For a long, difficult text, many readers still prefer paper; for quick information, the screen is enough. Each medium has its uses, and a good reader knows how to choose the right one. By way of conclusion, screens are transforming the way we read, but without replacing the book: they add a faster kind of reading to a slower one. One may ask whether schools should teach children to read on screen.)
+(Subject: Are screens changing the way we read? Today, we read everywhere: on the underground, on our phones, on a computer at work. Screens are now part of everyday life, and reading can't escape them. One may therefore ask to what extent screens are transforming the way we read. We will first see that they make texts more accessible, then that they can change our attention, before showing that the two forms of reading can complement each other. Firstly, it must be said that screens have made reading more accessible. An article, a novel or a study is available in a few seconds, often free of charge. Likewise, people with poor eyesight can enlarge the text. Online libraries also make it possible to read rare texts. Screens thus make it possible to widen the reading public. While screens make texts easier to reach, the fact remains that they change the way we read. Secondly, reading on screen is indeed often faster. The reader moves from one text to another, and messages interrupt them. In all likelihood, this fast reading suits short texts above all, although some readers read for a long time on a tablet. Thirdly, we should go beyond this opposition. Even if attention were to change, reading itself wouldn't disappear. Paper and screen don't exclude each other: we read an article on our phone and a novel on paper. For a long, difficult text, many readers still prefer paper; for quick information, the screen is enough. Each medium has its uses, and a good reader knows how to choose the right one. By way of conclusion, screens are transforming the way we read, but without replacing the book: they add a faster kind of reading to a slower one. One may ask whether schools should teach children to read on screen.)
 
 ## How the essay works
 
-- **The introduction** has an amorce (*on lit partout*), an open problématique (*dans quelle mesure*) and the plan in the futur simple (*nous verrons*).
+- **The introduction** turns the yes/no subject into an open problématique in an indirect question, with no inversion (*on peut dès lors se demander dans quelle mesure les écrans transforment notre façon de lire*). It starts with an amorce (*on lit partout*) and ends with the plan in the futur simple (*nous verrons*).
 - **The parts** follow a dialectical plan, announced with *dans un premier temps*, *dans un deuxième temps* and *dans un troisième temps*.
 - **The transition** between the first and second parts uses *si… il n'en reste pas moins que*.
-- **The arguments are nuanced** with *selon toute vraisemblance*, *encore que* and *quand bien même*.
-- **The third part** goes beyond the opposition instead of choosing a side.
+- **The arguments are nuanced** with *selon toute vraisemblance* and *encore que* (second part).
+- **The third part** goes beyond the opposition instead of choosing a side, and opens with a concession: *quand bien même l'attention changerait*.
 - **The conclusion** answers the problématique, then opens with a related question.
 
 ## En français
@@ -1681,7 +1685,7 @@ Julie and Lucas are preparing an essay for their university course.
 - *Parfait. On commence par l'introduction ?* (Perfect. Shall we start with the introduction? (spoken))
 
 <Callout type="warning" title="Dans quelle mesure les écrans changent-ils…, not les écrans changent…">
-  Learners often drop the inversion after *dans quelle mesure* or *en quoi*, as they would in speech. In a written problématique, keep it: **dans quelle mesure les écrans changent-ils notre façon de lire ?**
+  Learners often drop the inversion after *dans quelle mesure* or *en quoi* in a direct question, as they would in speech. In a written direct question, keep it: **dans quelle mesure les écrans changent-ils notre façon de lire ?** In an indirect question, don't invert: **on peut se demander dans quelle mesure les écrans changent notre façon de lire**.
 </Callout>
 
 <Callout type="tip" title="Write the transitions first">
@@ -1740,9 +1744,9 @@ exercises:
     explanation: "Quand bien même takes the conditionnel."
   - id: "c1-review-academic-ex005"
     type: "connector-choice"
-    prompt: "Choisissez le nom : Il faut mesurer l'___ de la demande."
-    options: ["ampleur", "démarche", "faisabilité"]
-    answers: ["ampleur"]
+    prompt: "Choisissez le nom : Il faut mesurer ___ de la demande."
+    options: ["l'ampleur", "la démarche", "la faisabilité"]
+    answers: ["l'ampleur"]
     explanation: "L'ampleur de la demande: how large it is."
   - id: "c1-review-academic-ex006"
     type: "multiple-choice"
@@ -1854,28 +1858,32 @@ The corpus below is invented: a newspaper article, a study and an opinion piece 
 
 *Synthèse (extrait)*
 
-*Les trois documents du corpus portent sur la semaine de quatre jours. Ils s'accordent sur un constat : la demande des salariés est forte. Le premier, un article de presse, souligne les bons effets sur la santé, car les salariés se disent moins fatigués ; les premiers essais terminés, beaucoup d'entreprises ont choisi de continuer. Le deuxième, une étude qui porte sur cent entreprises, met en évidence des résultats plus mitigés : selon toute vraisemblance, écrivent ses auteurs, l'efficacité de la mesure dépend du secteur. Le troisième document, la tribune d'un chef d'entreprise, émet en revanche des réserves sur sa faisabilité dans les petites entreprises. Au total, les documents se complètent : l'un montre l'intérêt de la mesure, les deux autres en précisent les limites.*
+*Les trois documents du corpus portent sur la semaine de quatre jours. Ils s'accordent d'abord sur un constat : la demande des salariés est forte.*
+
+*Sur les effets de la mesure, en revanche, les documents ne sont pas du même avis. L'article de presse souligne ses bons effets sur la santé, car les salariés se disent moins fatigués ; il rapporte aussi que, les premiers essais terminés, beaucoup d'entreprises ont choisi de continuer. L'étude, qui porte sur cent entreprises, met en évidence des résultats plus mitigés : selon toute vraisemblance, écrivent ses auteurs, l'efficacité de la mesure dépend du secteur. Quant à la tribune d'un chef d'entreprise, elle émet des réserves sur sa faisabilité dans les petites entreprises.*
+
+*Au total, les documents se complètent : l'un montre l'intérêt de la mesure, les deux autres en précisent les limites.*
 
 *Dissertation (introduction)*
 
 *Sujet : Faut-il généraliser la semaine de quatre jours ?*
 
-*Depuis quelques années, de nombreuses entreprises font l'essai de la semaine de quatre jours. Ce débat, dont les enjeux dépassent le monde du travail, porte autant sur la santé des salariés que sur l'économie. Certains y voient un progrès social, d'autres un risque pour l'économie. Quand bien même la mesure serait populaire, la généraliser poserait des questions difficiles. La question est donc à la fois sociale et économique. Dès lors, on peut se demander dans quelle mesure la semaine de quatre jours peut devenir la norme. Nous verrons d'abord qu'elle répond à de vraies attentes, puis que sa faisabilité dépend du secteur, avant de montrer qu'il faut la mettre en perspective avec d'autres façons d'organiser le travail.*
+*Depuis quelques années, de nombreuses entreprises font l'essai de la semaine de quatre jours, et un débat s'est ouvert. Ce débat, dont les enjeux dépassent le monde du travail, porte autant sur la santé des salariés que sur l'économie. Certains y voient un progrès social, d'autres un risque pour l'économie. Quand bien même la mesure serait populaire, la généraliser poserait des questions difficiles. On peut dès lors se demander dans quelle mesure la semaine de quatre jours peut devenir la norme. Nous verrons d'abord qu'elle répond à de vraies attentes, puis que sa faisabilité dépend du secteur, avant de montrer qu'il faut la mettre en perspective avec d'autres façons d'organiser le travail.*
 
 <VocabTable group="glossary" />
 
-(Synthesis, extract: The three documents in the corpus are about the four-day week. They agree on one finding: employees' demand is strong. The first, a press article, stresses the good effects on health, as employees say they feel less tired; with the first trials over, many companies chose to continue. The second, a study of a hundred companies, brings out more mixed results: in all likelihood, its authors write, the measure's effectiveness depends on the sector. The third document, an opinion piece by a business owner, on the other hand expresses reservations about its feasibility in small companies. All in all, the documents complement each other: one shows the interest of the measure, the other two set out its limits. Essay, introduction. Subject: Should the four-day week be made general? For some years, many companies have been trying out the four-day week. This debate, whose stakes go beyond the world of work, concerns employees' health as much as the economy. Some see it as social progress, others as a risk to the economy. Even if the measure were popular, making it general would raise difficult questions. The question is therefore both social and economic. Consequently, one may ask to what extent the four-day week can become the norm. We will first see that it meets real expectations, then that its feasibility depends on the sector, before showing that it must be put into perspective with other ways of organizing work.)
+(Synthesis, extract: The three documents in the corpus are about the four-day week. They first agree on one finding: employees' demand is strong. On the effects of the measure, on the other hand, the documents don't share the same view. The press article stresses its good effects on health, as employees say they feel less tired; it also reports that, with the first trials over, many companies chose to continue. The study, which covers a hundred companies, brings out more mixed results: in all likelihood, its authors write, the measure's effectiveness depends on the sector. As for the opinion piece by a business owner, it expresses reservations about its feasibility in small companies. All in all, the documents complement each other: one shows the interest of the measure, the other two set out its limits. Essay, introduction. Subject: Should the four-day week be made general? For some years, many companies have been trying out the four-day week, and a debate has opened. This debate, whose stakes go beyond the world of work, concerns employees' health as much as the economy. Some see it as social progress, others as a risk to the economy. Even if the measure were popular, making it general would raise difficult questions. One may therefore ask to what extent the four-day week can become the norm. We will first see that it meets real expectations, then that its feasibility depends on the sector, before showing that it must be put into perspective with other ways of organizing work.)
 
 ## How the texts use the unit
 
-- **Participle clause**: *les premiers essais terminés* (synthesis).
+- **Participle clause**: *les premiers essais terminés* (synthesis, paragraph 2).
 - **Formal relative**: *ce débat, dont les enjeux dépassent le monde du travail* (introduction).
-- **Connectors**: *en revanche* and *au total* (synthesis), *dès lors* (introduction).
+- **Connectors**: *d'abord*, *en revanche*, *quant à* and *au total* (synthesis), *dès lors* (introduction).
 - **Hedging**: *selon toute vraisemblance*, attributed to the study's authors (synthesis).
 - **Concession and hypothesis**: *quand bien même la mesure serait populaire* (introduction).
-- **Abstract nouns**: *le constat*, *la faisabilité*, *l'efficacité*, *les enjeux*.
-- **Synthesis method**: the documents are named neutrally (*le premier*, *le deuxième*, *le troisième document*), compared by idea, and never quoted.
-- **Essay method**: an amorce, an open problématique with *dans quelle mesure*, and a three-part plan in the futur simple, ending with *mettre en perspective*.
+- **Abstract nouns**: *le constat*, *l'efficacité*, *la faisabilité* (synthesis), *les enjeux* (introduction).
+- **Synthesis method**: three paragraphs organized by idea (the shared finding, the effects, the conclusion); in the second, each document's view keeps its source (*l'article de presse*, *l'étude*, *la tribune*); nothing is quoted.
+- **Essay method**: an amorce, an open problématique in an indirect question (*on peut dès lors se demander dans quelle mesure la semaine de quatre jours peut devenir la norme*, with no inversion), and a three-part plan in the futur simple, ending with *mettre en perspective*.
 
 ## Your turn
 
@@ -1890,14 +1898,14 @@ Start with an amorce, then turn the subject into an open problématique with *da
 ## Check your work
 
 - Does your problématique ask an open question, without the answer in it?
-- After *dans quelle mesure* or *en quoi*, did you keep the inversion (*le numérique rend-il…*)?
+- In a direct question after *dans quelle mesure* or *en quoi*, did you keep the inversion (*dans quelle mesure le numérique rend-il… ?*)? In an indirect one, after *on peut se demander*, did you keep the normal order (*on peut se demander dans quelle mesure le numérique rend…*)?
 - After *dont*, did you use *le*, *la* or *les*, not a possessive?
 - After *quand bien même*, is the verb in the conditionnel?
 - Is your plan announced in the futur simple, with one idea per part?
 - Did you avoid *par contre* and *je pense* in formal writing?
 
 <Callout type="warning" title="Dans quelle mesure la semaine… peut-elle, not peut la semaine">
-  After *dans quelle mesure* with a noun subject, learners often put the verb before the noun. Keep the noun first and add a pronoun after the verb: **dans quelle mesure la semaine de quatre jours peut-elle devenir la norme ?**
+  In a direct question after *dans quelle mesure* with a noun subject, learners often put the verb before the noun. Keep the noun first and add a pronoun after the verb: **dans quelle mesure la semaine de quatre jours peut-elle devenir la norme ?** In an indirect question, there's no inversion: **on peut se demander dans quelle mesure la semaine de quatre jours peut devenir la norme**.
 </Callout>
 
 <Callout type="tip" title="One sentence for the fil conducteur">

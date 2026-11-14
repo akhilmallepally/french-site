@@ -218,5 +218,7 @@ C1 inherits every B2 convention unless it's changed here. Plans are in docs/plan
   - Use French grammar terms as French grammar uses them (*le sujet* is the grammatical subject; *le thème* is the topic). Check any heuristic (size, gender, frequency) against every example given for it.
   - A model text obeys every limit and rule its own lesson states, and a section that describes the model ("How the text uses the unit") matches it exactly. Count before writing the claim.
   - For each typed key, search the lesson (and earlier lessons of the same unit) for other phrasings of the same meaning, and accept each one or pin the wording in the prompt.
+  - A model text follows the method its own lesson or unit teaches (by idea, every view with its source, the plan announced), not only its grammar.
+  - In choice exercises, every option fits the blank's form (article, elision, agreement), so that only meaning decides; and no distractor is a valid answer.
 
 @AGENTS.md

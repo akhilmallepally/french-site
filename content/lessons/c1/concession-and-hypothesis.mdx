@@ -16,10 +16,10 @@ vocab:
   - { id: "c1-concession-and-hypothesis-v004", group: "hypothesis", fr: "à supposer que", pron: "ah sew-poh-ZAY kuh", en: "supposing that, assuming that", note: "+ subjunctive." }
   - { id: "c1-concession-and-hypothesis-v005", group: "hypothesis", fr: "si tant est que", pron: "see tahn-teh KUH", en: "assuming that (which is doubtful)", note: "+ subjunctive." }
   - { id: "c1-concession-and-hypothesis-v006", group: "inverted", fr: "serait-il…", pron: "suh-reh-TEEL", en: "even if he were… (literary)", note: "Serait-il malade, il viendrait." }
-  - { id: "c1-concession-and-hypothesis-v007", group: "words", fr: "financer", pron: "fee-nahn-SAY", en: "to fund, to finance", note: "Nous finançons." }
-  - { id: "c1-concession-and-hypothesis-v008", group: "words", fr: "une subvention", pron: "ewn sewb-vahn-SYOHN", en: "a grant, a subsidy" }
-  - { id: "c1-concession-and-hypothesis-v009", group: "words", fr: "le festival", pron: "luh fes-tee-VAHL", en: "the festival" }
-  - { id: "c1-concession-and-hypothesis-v010", group: "words", fr: "un effort", pron: "uh-neh-FOR", en: "an effort", note: "Faire un effort." }
+  - { id: "c1-concession-and-hypothesis-v007", group: "inverted", fr: "une conjonction", pron: "ewn kohn-zhohnk-SYOHN", en: "a conjunction (que, si, quand…)" }
+  - { id: "c1-concession-and-hypothesis-v008", group: "words", fr: "financer", pron: "fee-nahn-SAY", en: "to fund, to finance", note: "Nous finançons." }
+  - { id: "c1-concession-and-hypothesis-v009", group: "words", fr: "une subvention", pron: "ewn sewb-vahn-SYOHN", en: "a grant, a subsidy" }
+  - { id: "c1-concession-and-hypothesis-v010", group: "words", fr: "le festival", pron: "luh fes-tee-VAHL", en: "the festival" }
   - { id: "c1-concession-and-hypothesis-v011", group: "words", fr: "optimiste", pron: "op-tee-MEEST", en: "optimistic" }
   - { id: "c1-concession-and-hypothesis-v012", group: "words", fr: "à l'intérieur", pron: "ah lan-tay-RYUHR", en: "inside, indoors" }
 exercises:
@@ -77,7 +77,7 @@ exercises:
   - id: "c1-concession-and-hypothesis-ex010"
     type: "reformulation"
     prompt: "Reformulez avec « à supposer que » : Si le budget est accepté, que ferons-nous ?"
-    answers: ["À supposer que le budget soit accepté, que ferons-nous ?"]
+    answers: ["À supposer que le budget soit accepté, que ferons-nous ?", "Que ferons-nous, à supposer que le budget soit accepté ?"]
     strictAccents: true
     explanation: "À supposer que + subjunctive: soit accepté."
   - id: "c1-concession-and-hypothesis-ex011"
@@ -145,7 +145,7 @@ Compare the moods: *quand bien même il pleuvrait* (conditionnel), *même s'il p
 <Example fr="Le film est bon, encore qu'il soit un peu long." en="The film is good, although it's a bit long. (formal)" />
 <Example fr="Le film est bon, encore qu'un peu long." en="The film is good, if a bit long. (formal)" />
 
-*Bien que* puts the concession first and the main point after it. *Encore que* does the opposite: the main point comes first, and the reservation follows as an afterthought.
+*Bien que* can come before or after the main clause: *bien qu'il soit long, le film est bon* or *le film est bon, bien qu'il soit long*. *Encore que* almost always comes after it: the main point first, then the reservation, as an afterthought.
 
 ## Three ways to set a condition
 
@@ -161,7 +161,7 @@ Three conjunctions set a condition, and all three take the subjunctive. They dif
 <Example fr="À supposer que le projet soit accepté, qui le financera ?" en="Assuming the project is accepted, who will fund it?" />
 <Example fr="Il réussira, si tant est qu'il fasse des efforts." en="He'll pass, assuming he makes an effort (which isn't certain)." />
 
-In each pair, the verb after the conjunction differs from the indicative: *qu'il fasse* (not *fait*), *soit* (not *est*). The main clause is in the futur or the present, as with *si* + present.
+In these examples, the subjunctive after the conjunction differs from the indicative: *qu'il fasse* (not *fait*), *soit* (not *est*). The main clause is in the futur or the present, as with *si* + present.
 
 Remember that *si* itself never takes the subjunctive or, when it means "if", the conditionnel: *si le projet est accepté*. Only these conjunctions with *que* take the subjunctive.
 
@@ -208,7 +208,7 @@ Malik and Clara run a small theatre association. They're planning a summer festi
 - *Le festival aura lieu en juillet, à supposer que la mairie nous donne une subvention.* (The festival will take place in July, assuming the town hall gives us a grant.)
 - *Et si elle refuse ?* (And if it refuses?)
 - *Quand bien même elle refuserait, nous trouverions l'argent ailleurs.* (Even if it refused, we would find the money elsewhere.)
-- *Tu es optimiste ! Il faudrait d'autres entreprises pour financer le projet.* (You're optimistic! We'd need other companies to fund the project.)
+- *Tu es optimiste ! Il faudrait des entreprises pour financer le projet.* (You're optimistic! We'd need companies to fund the project.)
 - *Pour peu qu'on contacte les bonnes entreprises, ce sera possible.* (As long as we contact the right companies, it'll be possible. (spoken))
 - *Si tant est qu'elles aient du budget cette année…* (Assuming they have any budget this year…)
 - *Certaines en ont, encore que ce soit plus difficile qu'avant.* (Some do, although it's harder than before.)
@@ -230,7 +230,7 @@ Malik and Clara run a small theatre association. They're planning a summer festi
 
 ## En résumé
 
-Pour faire une concession ou une hypothèse à l'écrit soutenu, on a plusieurs outils, chacun avec son mode. Quand bien même veut dire même si, pour un cas qu'on imagine, et il prend le conditionnel : quand bien même il pleuvrait, nous partirions. Encore que ajoute une réserve après l'idée principale, avec le subjonctif : le film est bon, encore qu'il soit un peu long. Pour peu que, à supposer que et si tant est que posent une condition et prennent le subjonctif. Pour peu que montre qu'une petite condition suffit, à supposer que fait une hypothèse pour la discussion, et si tant est que montre un doute. Au cas où prend le conditionnel. Enfin, la langue littéraire peut mettre le verbe avant le sujet, sans que ni si : serait-il malade, il viendrait. Fût-il malade a le même sens, avec l'imparfait du subjonctif.
+Pour faire une concession ou une hypothèse à l'écrit soutenu, on a plusieurs outils, chacun avec son mode. Quand bien même veut dire même si, pour un cas qu'on imagine, et il prend le conditionnel : quand bien même il pleuvrait, nous partirions. Encore que ajoute une réserve après l'idée principale, avec le subjonctif : le film est bon, encore qu'il soit un peu long. Pour peu que, à supposer que et si tant est que posent une condition et prennent le subjonctif. Pour peu que montre qu'une petite condition suffit, à supposer que fait une hypothèse pour la discussion, et si tant est que montre un doute. Au cas où prend le conditionnel. Enfin, la langue littéraire peut mettre le verbe avant le sujet, sans conjonction : serait-il malade, il viendrait. Fût-il malade a le même sens, avec l'imparfait du subjonctif.
 
 ## What's next
 

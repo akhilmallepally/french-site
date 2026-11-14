@@ -1732,3 +1732,51 @@ Every date, tradition and regional detail, for checking:
 
 - **Model synthesis and introduction** (invented corpus on the four-day week): confirm *émet en revanche des réserves sur sa faisabilité*, *selon toute vraisemblance, écrivent ses auteurs*, *Certains y voient un progrès social, d'autres un risque pour l'économie*.
 - **ex007:** the plan *1. Une mesure qui répond à de vraies attentes 2. Une faisabilité qui dépend du secteur 3. Une mesure à mettre en perspective* labelled dialectical. Confirm.
+
+### Prompt 33 changes to Unit 3
+
+- **c1-dissertation and c1-review-academic:** "In an indirect question, after *on peut se demander*, there's no inversion and no question mark" (*on peut se demander dans quelle mesure les écrans changent notre façon de lire*). Confirm; ex017 (c1-dissertation) tests it.
+- **c1-synthesis:** the model now says *le premier document rapporte que, selon la maire, c'est un succès* and *ils ne traitent pas de la même façon la question des conditions de travail*. Confirm it reads naturally.
+- **c1-concession-and-hypothesis:** "*Bien que* can come before or after the main clause… *Encore que* almost always comes after it." Confirm.
+- **c1-review-academic:** the model synthesis is now organized by idea (*Sur les effets de la mesure, en revanche, les documents ne sont pas du même avis…*). Confirm.
+
+### c1-law-and-institutions
+
+- **Hierarchy and procedure:** "*Les décrets*, adopted by the government, often to say how a law will be applied"; "the President of the Republic *promulgue* it, and it's published in *le Journal officiel*"; "It then *entre en vigueur*, sometimes on a date the text itself sets." Confirm each statement as a general description.
+- **Courts:** two orders; ordinary: *tribunal*, *cour d'appel*, *Cour de cassation*; administrative: *tribunal administratif*, administrative court of appeal, *Conseil d'État*; "*Le Conseil d'État* has two roles… highest administrative court, and it advises the government on its draft laws and decrees"; "*Le Conseil constitutionnel* is not an ordinary court." Confirm.
+- **Dialogue:** "*Contre un décret, c'est en général le Conseil d'État qui juge… on saisit le plus souvent tout de suite le Conseil d'État*". Confirm as a fair general statement (no legal advice is intended).
+- **Collocations:** *former un recours* (not *faire un recours*), *faire appel de*, *saisir une juridiction*, *être tenu de*. Confirm.
+- **ex005:** a conflict between a resident and the town hall goes first to *le tribunal administratif*. Confirm.
+
+### c1-finance-and-economics
+
+- **Mechanisms:** "when [rates] go up, borrowing costs more"; "*La banque centrale a relevé ses taux pour faire baisser l'inflation*"; "*Un placement sans risque rapporte en général moins*". Confirm as general statements (no figures are given).
+- **"The rates themselves *montent* or *baissent*, but the bank *relève* them: *monter* isn't used with an object here."** Confirm (ex012 accepts *a relevé* and *a augmenté*).
+- **Policy words:** *la relance* vs *la rigueur budgétaire*, "the choice of word can show a point of view". Confirm.
+- **False friends:** *la Bourse* / *une bourse* (grant), *les recettes* (revenue), *un placement* (not a work placement), *une obligation* (bond). Confirm.
+
+### c1-diplomatic-language
+
+- **Formulas:** *il ne nous sera malheureusement pas possible de*, *ne pas être en mesure de*, *en l'état*, *sauf erreur de ma part*, *nous ne manquerons pas de*, *prendre bonne note de*, *un geste commercial*. Confirm each as usual business French.
+- **"Understatement… *ce n'est pas tout à fait ce que nous attendions*… French readers decode it at once."** Confirm.
+- **The five steps of a refusal** (stated as a rule of thumb) and the email exchange (invented company). Confirm the reply reads naturally.
+
+### c1-formal-correspondence
+
+- **Closings (rule of thumb):** *salutations distinguées* to someone you don't know or an equal; *considération distinguée* to a superior; *l'assurance de ma haute considération* to a high authority. Confirm the ranking.
+- **"*J'ai l'honneur de*… sounds old-fashioned in business, but it's still usual in letters to institutions."** and **"*Suite à* is very common… but some careful writers prefer *à la suite de*."** Confirm.
+- **Layout (rule of thumb):** sender top left, recipient below on the right, then place and date, references, *objet*. Confirm.
+- **"Some writers shorten [the email closing] to *Je vous prie d'agréer, Madame, mes salutations distinguées*."** Confirm.
+- **The letters** (invented university): *la remise de mon mémoire*, *ma directrice de mémoire*, *la soutenance*, *un délai vous est accordé*. Confirm.
+
+### c1-leading-a-meeting
+
+- **Formulas:** *je déclare la séance ouverte*, *donner / passer la parole à*, *mettre aux voix*, *à main levée*, *acter*, *l'ordre du jour étant épuisé, je lève la séance*. Confirm.
+- **"*Un procès-verbal* is the full, official record; *un compte rendu* reports the discussion; *un relevé de décisions* lists mainly what was decided."** Confirm the distinction.
+- **The relevé** (invented association): *elle est adoptée par dix voix, deux membres s'étant abstenus*; *Madame Morel est chargée de demander trois devis*. Confirm.
+
+### c1-review-professional
+
+- **The plan of a decision letter** (positive decision first, then the refusal; stated as a rule of thumb). Confirm as advice.
+- **The model letter** (invented town hall): *le montant de cette subvention sera cependant limité à la moitié de la somme demandée*; *En vertu du règlement municipal, toute manifestation publique doit respecter un cahier des charges* (invented rule); *Pour le maire, l'adjointe chargée des associations*. Confirm the letter reads naturally.
+- **New words:** *donner suite à*, *un cahier des charges*, *un ordre de mission* ("authorizes a work trip"), *le montant*. Confirm.

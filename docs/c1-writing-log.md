@@ -109,3 +109,26 @@
 - **Recap claims, false or partial:** b2-participles-and-gerund already teaches the same-subject test, so it's a recap. *quoique* is in b2-relative-prepositions, not b2-concession-opposition. *bien que* is in b2-subjunctive-conjunctions. *l'amorce*, *une transition*, *une ouverture* and the dialectical plan are B2. *le constat* (b2-formal-report), *un enjeu* (b2-review-science), *y compris* and *en raison de* were already taught. *vivre* is taught only as *vivre ensemble*, so *a vécu* was replaced. *inquiet* and *surpris* repeated A2 vocab and were dropped.
 - **Checks against baselines:** check:words 110 (unchanged), check:structures 0, audit summary identical to the committed report (73 / 4 / 6 informational), validate and test:content OK, test:checker 29/29, test:b2-exercises 608 checked 0 failures, b2-links-ids 80 lessons 0 failures, check:c1-links 0 failures (2 links restored, 1 new: review-academic → c1-rhetorical-devices), build OK.
 - **Didn't fit:** the syllabus listed c1-subjunctive-nuances (lesson 27) as a prerequisite of lesson 21; I replaced it, and widened 5 other Unit 3 rows. The dissertation essay is 326 words: within the C1 limit, below the plan's 350 to 400. Bullets in "What you've learned" that start with a bold label followed by italic French count as dialogue lines; I reworded them. The synthesis model is nearly as long as its two short documents, so the length advice is now stated for longer documents.
+
+## Unit 5
+
+- **Unit 3 fixes:** none was already done; A1 to A10 all applied.
+  - The review-academic synthesis is rewritten by idea (finding, effects, au total), with its "How the texts use the unit" list matching.
+  - Direct vs indirect *dans quelle mesure* is added in the dissertation, the review and a new exercise, dissertation ex017.
+  - The dissertation's Sujet is now the yes/no question, and *quand bien même* moved to part 3. The synthesis model credits the mayor and no longer claims "divergent".
+  - Distractors and elision fixed; the formal-relatives dialogue rewritten; 5 more keys widened; the concession and participle polish done.
+  - Taught vocab dropped: *ordinateur*, *tablette*, *un effort*, *soirée* and *contrat*, with *ouvrir* and *lever la séance* split and *un opposant* added. CLAUDE.md gains rules 17 and 18; docs/review/c1-unit-3.txt regenerated.
+- **New lessons** (teaching / whole / résumé; vocab without glossary; exercises, with production; dialogue lines):
+  - law-and-institutions: 999 / 1,375 / 135; 25; 17 (7); 12 lines.
+  - finance-and-economics: 955 / 1,328 / 128; 20; 17 (9); 12 lines.
+  - diplomatic-language: 935 / 1,692; 18 + 2 glossary; 16 (9); 12 lines; emails 254 words.
+  - formal-correspondence: 1,004 / 1,779; 17 + 5 glossary; 16 (8); 12 lines; letters 257 words.
+  - leading-a-meeting: 962 / 1,764; 17 + 4 glossary; 16 (9); 14 lines; relevé 255 words.
+  - review-professional: 939 / 1,459; 4 new + 6 glossary; 16 (8); letter 259 words.
+- **Recap claims, false or partial:** *un justificatif*, *une pièce jointe*, *une réclamation*, *faire un geste*, *un emprunt*, *un prêt*, *rembourser*, *le pouvoir d'achat*, *accueillir* and *un devis* were already taught; *un devis* repeated B2 and was dropped from the glossary. *quoique* is in b2-relative-prepositions (verified). *établir* is taught only as *se rétablir*.
+- **Checks against baselines:** check:words 110 (unchanged), check:structures 0, audit summary identical to the committed report (73 / 4 / 6 informational), validate and test:content OK, test:checker 29/29, test:b2-exercises 691 checked 0 failures, b2-links-ids 86 lessons 0 failures, check:c1-links 0 failures (new forward link: review-professional → c1-philosophy-and-ideas), build OK.
+- **Didn't fit:**
+  - Unit 5 was written before Unit 4, so it can't credit Unit 4 vocab.
+  - Syllabus prerequisites changed for all 6 lessons; review-professional's c1-future-in-the-past was replaced with c1-diplomatic-language.
+  - *donner suite à* was kept out of the diplomatic lesson so that it stays new in the review.
+  - The law lesson gives no legal advice and the finance lesson no real figures; both say so in the text.

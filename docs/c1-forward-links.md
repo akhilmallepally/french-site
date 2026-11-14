@@ -14,3 +14,4 @@ Restored in Prompt 32: c1-imperfect-subjunctive → c1-concession-and-hypothesis
 |---|---|---|
 | c1-imperfect-subjunctive | "Next, the lesson on reading literary narrative puts…" (What's next) | c1-reading-literary-narrative |
 | c1-review-academic | "The next unit is about debate and rhetoric. It starts with the lesson on rhetorical devices." (What's next) | c1-rhetorical-devices |
+| c1-review-professional | "The next unit is about ideas and society. It starts with the lesson on philosophy and ideas." (What's next) | c1-philosophy-and-ideas |

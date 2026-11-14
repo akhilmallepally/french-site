@@ -1,0 +1,1477 @@
+===== content/lessons/c1/law-and-institutions.mdx =====
+---
+id: "c1-law-and-institutions"
+title: "Law and institutions"
+description: "The vocabulary of law and the French State: the Constitution, laws and decrees (promulguer, entrer en vigueur, abroger, en vertu de), the two orders of courts, the Conseil d'État and the Conseil constitutionnel, and the words of a case (un procès, faire appel, former un recours), without legal advice."
+level: "C1"
+unit: "Professional mastery"
+order: 33
+type: "vocabulary"
+tags: ["vocabulary", "law", "institutions", "formal register"]
+prerequisites: ["b2-politics-and-society", "b1-culture-french-republic"]
+related: ["c1-formal-correspondence", "c1-abstract-nouns", "b2-formal-report"]
+vocab:
+  - { id: "c1-law-and-institutions-v001", group: "texts", fr: "la Constitution", pron: "lah kohn-stee-tew-SYOHN", en: "the Constitution" }
+  - { id: "c1-law-and-institutions-v002", group: "texts", fr: "un décret", pron: "uhn day-KREH", en: "a decree (a text adopted by the government)" }
+  - { id: "c1-law-and-institutions-v003", group: "texts", fr: "promulguer", pron: "proh-mewl-GAY", en: "to promulgate, to sign into law" }
+  - { id: "c1-law-and-institutions-v004", group: "texts", fr: "le Journal officiel", pron: "luh zhoor-nahl oh-fee-SYEL", en: "the official journal (where laws and decrees are published)" }
+  - { id: "c1-law-and-institutions-v005", group: "texts", fr: "entrer en vigueur", pron: "ahn-tray ahn vee-GUHR", en: "to come into force" }
+  - { id: "c1-law-and-institutions-v006", group: "texts", fr: "abroger", pron: "ah-broh-ZHAY", en: "to repeal", note: "Nous abrogeons." }
+  - { id: "c1-law-and-institutions-v007", group: "texts", fr: "une disposition", pron: "ewn dees-poh-zee-SYOHN", en: "a provision (of a text)" }
+  - { id: "c1-law-and-institutions-v008", group: "texts", fr: "en vertu de", pron: "ahn vehr-TEW duh", en: "under, by virtue of" }
+  - { id: "c1-law-and-institutions-v009", group: "courts", fr: "la justice", pron: "lah zhew-STEESS", en: "justice; the courts" }
+  - { id: "c1-law-and-institutions-v010", group: "courts", fr: "une juridiction", pron: "ewn zhew-ree-deek-SYOHN", en: "a court (in general)" }
+  - { id: "c1-law-and-institutions-v011", group: "courts", fr: "un tribunal", pron: "uhn tree-bew-NAHL", en: "a court (of first instance)", note: "Des tribunaux." }
+  - { id: "c1-law-and-institutions-v012", group: "courts", fr: "une cour d'appel", pron: "ewn koor dah-PEL", en: "a court of appeal" }
+  - { id: "c1-law-and-institutions-v013", group: "courts", fr: "la Cour de cassation", pron: "lah koor duh kah-sah-SYOHN", en: "the highest court for civil and criminal cases" }
+  - { id: "c1-law-and-institutions-v014", group: "courts", fr: "le Conseil d'État", pron: "luh kohn-sey day-TAH", en: "the highest administrative court, which also advises the government" }
+  - { id: "c1-law-and-institutions-v015", group: "courts", fr: "le Conseil constitutionnel", pron: "luh kohn-sey kohn-stee-tew-syoh-NEL", en: "the body that checks that laws respect the Constitution" }
+  - { id: "c1-law-and-institutions-v016", group: "courts", fr: "saisir (une juridiction)", pron: "seh-ZEER", en: "to take a case to (a court)", note: "Saisir le tribunal." }
+  - { id: "c1-law-and-institutions-v017", group: "case", fr: "un juge / une juge", pron: "uhn ZHEWZH / ewn ZHEWZH", en: "a judge" }
+  - { id: "c1-law-and-institutions-v018", group: "case", fr: "un avocat / une avocate", pron: "uh-nah-voh-KAH / ew-nah-voh-KAT", en: "a lawyer" }
+  - { id: "c1-law-and-institutions-v019", group: "case", fr: "un procès", pron: "uhn proh-SEH", en: "a trial, a court case" }
+  - { id: "c1-law-and-institutions-v020", group: "case", fr: "un jugement", pron: "uhn zhewzh-MAHN", en: "a judgment, a ruling" }
+  - { id: "c1-law-and-institutions-v021", group: "case", fr: "faire appel (de)", pron: "fehr ah-PEL", en: "to appeal (against a ruling)" }
+  - { id: "c1-law-and-institutions-v022", group: "case", fr: "former un recours", pron: "for-may uhn ruh-KOOR", en: "to lodge an appeal, to take legal action (against a decision)" }
+  - { id: "c1-law-and-institutions-v023", group: "rights", fr: "un droit", pron: "uhn DRWAH", en: "a right; (le droit) law as a subject" }
+  - { id: "c1-law-and-institutions-v024", group: "rights", fr: "être tenu de", pron: "eh-truh tuh-NEW duh", en: "to be required to, to be obliged to", note: "Tenue, tenus, tenues." }
+  - { id: "c1-law-and-institutions-v025", group: "rights", fr: "juridique", pron: "zhew-ree-DEEK", en: "legal (relating to law)" }
+exercises:
+  - id: "c1-law-and-institutions-ex001"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe : La loi ___ en vigueur le 1er janvier."
+    options: ["entrera", "abrogera", "saisira"]
+    answers: ["entrera"]
+    explanation: "Entrer en vigueur: to come into force."
+  - id: "c1-law-and-institutions-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe : Le gouvernement a ___ ce décret, qui n'est donc plus en vigueur."
+    options: ["abrogé", "promulgué", "saisi"]
+    answers: ["abrogé"]
+    explanation: "Abroger: to repeal. A repealed text is no longer in force."
+  - id: "c1-law-and-institutions-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Il a perdu son procès, mais il va faire ___."
+    options: ["appel", "recours", "jugement"]
+    answers: ["appel"]
+    explanation: "Faire appel: to appeal. You form a recours (former un recours), you don't make one."
+  - id: "c1-law-and-institutions-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « en vertu de » dans la phrase : En vertu de cette loi, les entreprises sont tenues d'informer leurs clients."
+    options: ["under, by virtue of", "against", "in spite of"]
+    answers: ["under, by virtue of"]
+    explanation: "En vertu de + a text: the text is the basis of the rule."
+  - id: "c1-law-and-institutions-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez la juridiction qui juge d'abord un conflit entre un habitant et sa mairie."
+    options: ["le tribunal administratif", "la Cour de cassation", "le Conseil constitutionnel"]
+    answers: ["le tribunal administratif"]
+    explanation: "Conflicts with public bodies go first to the administrative courts: le tribunal administratif."
+  - id: "c1-law-and-institutions-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le rôle du Conseil constitutionnel."
+    options: ["Il vérifie que les lois respectent la Constitution.", "Il vote les lois.", "Il juge les procès entre voisins."]
+    answers: ["Il vérifie que les lois respectent la Constitution."]
+    explanation: "The Parliament votes the laws; the Conseil constitutionnel checks them against the Constitution."
+  - id: "c1-law-and-institutions-ex007"
+    type: "fill-in"
+    prompt: "Accordez le participe passé de « promulguer » : La loi a été ___ par le président de la République."
+    answers: ["promulguée"]
+    explanation: "La loi is feminine: promulguée."
+  - id: "c1-law-and-institutions-ex008"
+    type: "fill-in"
+    prompt: "Accordez « tenu » : Les entreprises sont ___ de respecter cette règle."
+    answers: ["tenues"]
+    explanation: "Les entreprises is feminine plural: tenues."
+  - id: "c1-law-and-institutions-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « entrer en vigueur » (en mars) : On devra respecter la nouvelle règle à partir de mars."
+    answers: ["La nouvelle règle entrera en vigueur en mars", "En mars, la nouvelle règle entrera en vigueur"]
+    explanation: "Entrer en vigueur says when everyone must start respecting a text."
+  - id: "c1-law-and-institutions-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « en vertu de » : Cette décision a été prise parce que l'article 3 le permet."
+    answers: ["Cette décision a été prise en vertu de l'article 3", "En vertu de l'article 3, cette décision a été prise"]
+    strictAccents: true
+    explanation: "En vertu de + the text that allows the decision."
+  - id: "c1-law-and-institutions-ex011"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « saisir » : L'association est allée devant le tribunal."
+    answers: ["L'association a saisi le tribunal"]
+    strictAccents: true
+    explanation: "Saisir une juridiction: to take a case to a court."
+  - id: "c1-law-and-institutions-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Le décret a été abrogé, il est donc toujours en vigueur."
+    answers: ["Le décret a été abrogé, il n'est donc plus en vigueur"]
+    strictAccents: true
+    explanation: "Abrogé means repealed: the decree is no longer in force."
+  - id: "c1-law-and-institutions-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Il a fait recours contre la décision."
+    answers: ["Il a formé un recours contre la décision"]
+    strictAccents: true
+    explanation: "The collocation is former un recours. Faire goes with appel: faire appel d'un jugement."
+  - id: "c1-law-and-institutions-ex014"
+    type: "translate"
+    prompt: "Traduisez avec « abroger » : Parliament repealed the law."
+    answers: ["Le Parlement a abrogé la loi"]
+    strictAccents: true
+    explanation: "Abroger une loi: to repeal a law."
+  - id: "c1-law-and-institutions-ex015"
+    type: "translate"
+    prompt: "Traduisez (un avocat, un procès) : She needs a lawyer for her trial."
+    answers: ["Elle a besoin d'un avocat pour son procès", "Elle a besoin d'une avocate pour son procès"]
+    strictAccents: true
+    explanation: "Avoir besoin de + un avocat or une avocate."
+  - id: "c1-law-and-institutions-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The law will come into force next year."
+    words: ["La", "loi", "entrera", "en", "vigueur", "l'année", "prochaine"]
+    answers: ["La loi entrera en vigueur l'année prochaine", "L'année prochaine, la loi entrera en vigueur"]
+    explanation: "Entrer en vigueur; the time phrase can open or close the sentence."
+  - id: "c1-law-and-institutions-ex017"
+    type: "multiple-choice"
+    prompt: "Indiquez le texte le plus élevé dans la hiérarchie des textes français."
+    options: ["la Constitution", "une loi", "un décret"]
+    answers: ["la Constitution"]
+    explanation: "Laws must respect the Constitution, and decrees must respect the laws."
+---
+
+By the end of this lesson you'll be able to read and use the vocabulary of French law and institutions: how a text becomes law, which courts judge what, and the words of a court case.
+
+## What you already know
+
+You know *une loi*, *l'État* and *un citoyen* from <LessonLink id="b1-culture-french-republic" text="the lesson on the French Republic" />, and *le Parlement*, *un projet de loi* and *adopter une loi* from <LessonLink id="b2-politics-and-society" text="the lesson on politics and institutions" />. You also know *porter plainte* from <LessonLink id="b1-making-a-complaint" text="the lesson on making a complaint" />. This lesson adds the words you need to read official texts and news about the courts.
+
+A note before you start: this lesson explains words, not anyone's rights. For a real legal question, ask a lawyer or an official advice service.
+
+## From a bill to a text in force
+
+<VocabTable group="texts" />
+
+French law rests on a hierarchy of texts. At the top is *la Constitution*. Below it are *les lois*, voted by the Parliament. Below the laws are *les décrets*, adopted by the government, often to say how a law will be applied. Each level must respect the one above it.
+
+When the Parliament has adopted a law, the President of the Republic *promulgue* it, and it's published in *le Journal officiel*. It then *entre en vigueur* (comes into force), sometimes on a date the text itself sets. A text can later be *abrogé* (repealed) by a new text.
+
+<Example fr="La loi a été promulguée puis publiée au Journal officiel." en="The law was promulgated and then published in the official journal." />
+<Example fr="Cette règle entrera en vigueur le 1er janvier." en="This rule will come into force on 1 January." />
+<Example fr="Le gouvernement a abrogé l'ancien décret." en="The government repealed the old decree." />
+
+*Une disposition* is one provision of a text, and *en vertu de* introduces the text that justifies a decision: *en vertu de cette disposition* (under this provision).
+
+<Example fr="En vertu de cette loi, les entreprises sont tenues d'informer leurs clients." en="Under this law, companies are required to inform their customers." />
+
+## Two orders of courts
+
+<VocabTable group="courts" />
+
+France has two separate orders of courts. *La justice* in the ordinary sense (disputes between people, companies, and criminal cases) starts in *un tribunal*, goes on appeal to *une cour d'appel*, and ends at *la Cour de cassation*. Disputes with public bodies (a town hall, a ministry, a public service) go to the administrative courts: *le tribunal administratif*, then the administrative court of appeal, and at the top *le Conseil d'État*.
+
+*Le Conseil d'État* has two roles: it's the highest administrative court, and it advises the government on its draft laws and decrees. *Le Conseil constitutionnel* is not an ordinary court: it checks that laws respect the Constitution.
+
+*Une juridiction* is the general word for any court. To take a case to a court is *saisir* it.
+
+<Example fr="Elle travaille dans la justice depuis dix ans." en="She has worked in the courts for ten years." />
+<Example fr="L'association a saisi le tribunal administratif." en="The association took the case to the administrative court." />
+<Example fr="Le Conseil constitutionnel vérifie que les lois respectent la Constitution." en="The Conseil constitutionnel checks that laws respect the Constitution." />
+
+## The words of a case
+
+<VocabTable group="case" />
+
+*Un procès* is a trial or a court case, where *un juge* or *une juge* decides and each side is helped by *un avocat* or *une avocate*. The decision is *un jugement*. A side that disagrees can *faire appel* (appeal). Against a decision of an administration, you *formez un recours*: the collocation is *former un recours*, not *faire un recours*.
+
+<Example fr="Elle a perdu son procès, mais elle a fait appel du jugement." en="She lost her case, but she appealed against the ruling." />
+<Example fr="Plusieurs habitants ont formé un recours contre ce projet." en="Several residents have taken legal action against this project." />
+
+## Rights and duties
+
+<VocabTable group="rights" />
+
+*Un droit* is a right, and *le droit* is law as a subject: *elle fait des études de droit*. *Être tenu de* + infinitive is the formal way to say that the law requires something; the participle agrees with the subject. *Juridique* means "relating to law", like a legal question or a legal text.
+
+<Example fr="Les propriétaires sont tenus de faire ces travaux." en="Owners are required to carry out this work." />
+<Example fr="C'est une question juridique difficile." en="It's a difficult legal question." />
+
+## Reading news about the law
+
+News reports use this vocabulary in set patterns, often in the passive. Here are a few to recognize.
+
+<Example fr="Le Conseil d'État a été saisi." en="The case has been taken to the Conseil d'État." />
+<Example fr="Le jugement a été confirmé en appel." en="The ruling was upheld on appeal." />
+<Example fr="Le texte entre en vigueur aujourd'hui, mais un recours a déjà été formé." en="The text comes into force today, but legal action has already been taken against it." />
+
+Keep two things apart when you read: the word for a court tells you which order it belongs to, and the verb tells you what happened (*saisir*, *juger*, *faire appel*, *abroger*). Many articles mix them in one sentence.
+
+## The whole list
+
+| Step or body | French |
+|---|---|
+| top of the hierarchy | *la Constitution* |
+| voted by the Parliament | *une loi* |
+| adopted by the government | *un décret* |
+| signed into law, published | *promulguer*, *le Journal officiel* |
+| come into force, repeal | *entrer en vigueur*, *abroger* |
+| ordinary courts | *un tribunal*, *une cour d'appel*, *la Cour de cassation* |
+| administrative courts | *le tribunal administratif*, …, *le Conseil d'État* |
+| constitutional check | *le Conseil constitutionnel* |
+| a case | *un procès*, *un juge*, *un avocat*, *un jugement*, *faire appel*, *former un recours* |
+
+## En français
+
+Sarah tells her friend Lucas, a law student, about something she read in the paper.
+
+- *Tu as lu le journal ? Un nouveau décret entre en vigueur lundi.* (Have you read the paper? A new decree comes into force on Monday.)
+- *Sur quoi ?* (About what?)
+- *Sur les horaires des magasins le dimanche. Une association veut former un recours.* (About shop opening hours on Sundays. An association wants to take legal action.)
+- *Contre un décret, c'est en général le Conseil d'État qui juge.* (Against a decree, it's generally the Conseil d'État that rules.)
+- *Pas le tribunal administratif ?* (Not the administrative court?)
+- *Non, pour un décret, on saisit le plus souvent tout de suite le Conseil d'État.* (No, for a decree, you usually go straight to the Conseil d'État. (spoken))
+- *Et si l'association gagne ?* (And if the association wins?)
+- *Le Conseil d'État peut annuler le décret. Mais le gouvernement peut aussi l'abroger lui-même.* (The Conseil d'État can cancel the decree. But the government can also repeal it itself.)
+- *Tu veux devenir avocat ?* (Do you want to become a lawyer?)
+- *Peut-être, ou juge. Mais attention, je ne donne pas de conseils juridiques !* (Maybe, or a judge. But careful, I don't give legal advice!)
+- *Rassure-toi, je n'ai pas de procès en cours.* (Don't worry, I don't have a court case going on.)
+- *Tant mieux. Un procès, ça peut durer longtemps.* (Just as well. A court case can last a long time. (spoken))
+
+<Callout type="warning" title="Former un recours, not faire un recours">
+  Learners often use *faire* with every legal noun. The collocations differ: **former un recours** (against a decision), **faire appel** (against a ruling), **porter plainte** (with the police or a court).
+</Callout>
+
+<Callout type="tip" title="Name the order of the court">
+  When you read about a case, decide first whether the court is ordinary (*tribunal*, *cour d'appel*, *Cour de cassation*) or administrative (*tribunal administratif*, *Conseil d'État*). It tells you who the other side is: a person or company, or a public body.
+</Callout>
+
+## En résumé
+
+Le droit français repose sur une hiérarchie de textes. La Constitution est au-dessus de tout, puis viennent les lois, votées par le Parlement, et les décrets, adoptés par le gouvernement. Le président de la République promulgue la loi, qui est publiée au Journal officiel, puis elle entre en vigueur. Un nouveau texte peut l'abroger. En France, il existe deux ordres de juridictions. Les tribunaux, les cours d'appel et la Cour de cassation jugent les conflits entre personnes ou entreprises. Le tribunal administratif et le Conseil d'État jugent les conflits avec une mairie, un ministère ou un service public. Le Conseil constitutionnel vérifie que les lois respectent la Constitution. Dans un procès, un juge décide et les avocats défendent chaque partie. Contre un jugement, on fait appel, et contre une décision publique, on forme un recours.
+
+## What's next
+
+Next, <LessonLink id="c1-finance-and-economics" text="the lesson on finance and economics" /> gives you the vocabulary of budgets, debt and markets.
+
+===== content/lessons/c1/finance-and-economics.mdx =====
+---
+id: "c1-finance-and-economics"
+title: "Finance and economics"
+description: "The vocabulary of public finance, economic policy and markets: le budget de l'État, les dépenses et les recettes, la fiscalité, le déficit, la dette publique, la relance and la rigueur, un taux d'intérêt, l'épargne, un placement, la Bourse and une obligation, with no real figures."
+level: "C1"
+unit: "Professional mastery"
+order: 34
+type: "vocabulary"
+tags: ["vocabulary", "economy", "finance", "news"]
+prerequisites: ["b2-economy-and-business", "b2-presenting-data"]
+related: ["b1-money-and-banking", "c1-law-and-institutions", "c1-abstract-nouns"]
+vocab:
+  - { id: "c1-finance-and-economics-v001", group: "public", fr: "le budget de l'État", pron: "luh bewd-zheh duh lay-TAH", en: "the State budget" }
+  - { id: "c1-finance-and-economics-v002", group: "public", fr: "les dépenses publiques (f.)", pron: "lay day-pahnss pew-BLEEK", en: "public spending" }
+  - { id: "c1-finance-and-economics-v003", group: "public", fr: "les recettes (f.)", pron: "lay ruh-SET", en: "revenue, income (of the State or a company)" }
+  - { id: "c1-finance-and-economics-v004", group: "public", fr: "un impôt", pron: "uh-nan-POH", en: "a tax" }
+  - { id: "c1-finance-and-economics-v005", group: "public", fr: "la fiscalité", pron: "lah fees-kah-lee-TAY", en: "taxation, the tax system" }
+  - { id: "c1-finance-and-economics-v006", group: "public", fr: "le déficit public", pron: "luh day-fee-SEET pew-BLEEK", en: "the public deficit" }
+  - { id: "c1-finance-and-economics-v007", group: "public", fr: "la dette publique", pron: "lah det pew-BLEEK", en: "the public debt" }
+  - { id: "c1-finance-and-economics-v008", group: "public", fr: "s'endetter", pron: "sahn-deh-TAY", en: "to get into debt, to borrow" }
+  - { id: "c1-finance-and-economics-v009", group: "policy", fr: "relancer l'économie / la relance", pron: "ruh-lahn-SAY lay-koh-noh-MEE / lah ruh-LAHNSS", en: "to boost the economy / a stimulus" }
+  - { id: "c1-finance-and-economics-v010", group: "policy", fr: "la rigueur budgétaire", pron: "lah ree-guhr bewd-zhay-TEHR", en: "budgetary restraint, austerity" }
+  - { id: "c1-finance-and-economics-v011", group: "policy", fr: "un ménage", pron: "uhn may-NAHZH", en: "a household" }
+  - { id: "c1-finance-and-economics-v012", group: "markets", fr: "un taux d'intérêt", pron: "uhn toh dan-tay-REH", en: "an interest rate" }
+  - { id: "c1-finance-and-economics-v013", group: "markets", fr: "la banque centrale", pron: "lah bahnk sahn-TRAHL", en: "the central bank" }
+  - { id: "c1-finance-and-economics-v014", group: "markets", fr: "relever / baisser ses taux", pron: "ruhl-VAY / beh-SAY say TOH", en: "to raise / to lower its rates" }
+  - { id: "c1-finance-and-economics-v015", group: "markets", fr: "l'épargne (f.) / épargner", pron: "lay-PARN-yuh / ay-par-NYAY", en: "savings / to save" }
+  - { id: "c1-finance-and-economics-v016", group: "markets", fr: "un placement", pron: "uhn plahss-MAHN", en: "an investment (of savings)" }
+  - { id: "c1-finance-and-economics-v017", group: "markets", fr: "rapporter", pron: "rah-por-TAY", en: "to bring in, to yield (money)" }
+  - { id: "c1-finance-and-economics-v018", group: "markets", fr: "la Bourse", pron: "lah BOORSS", en: "the stock exchange" }
+  - { id: "c1-finance-and-economics-v019", group: "markets", fr: "une obligation", pron: "ew-noh-blee-gah-SYOHN", en: "a bond (a loan to a State or a company)", note: "Also an obligation, a duty." }
+  - { id: "c1-finance-and-economics-v020", group: "markets", fr: "les marchés financiers", pron: "lay mar-shay fee-nahn-SYAY", en: "the financial markets" }
+exercises:
+  - id: "c1-finance-and-economics-ex001"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : L'État dépense plus qu'il ne gagne : son budget est en ___."
+    options: ["déficit", "épargne", "placement"]
+    answers: ["déficit"]
+    explanation: "Spending more than you earn: un budget en déficit."
+  - id: "c1-finance-and-economics-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Quand la banque centrale baisse ses taux d'___, emprunter coûte moins cher."
+    options: ["intérêt", "impôt", "épargne"]
+    answers: ["intérêt"]
+    explanation: "Les taux d'intérêt: the price of borrowing."
+  - id: "c1-finance-and-economics-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Ce ___ rapporte peu, mais il est sans risque."
+    options: ["placement", "déficit", "impôt"]
+    answers: ["placement"]
+    explanation: "Un placement rapporte: an investment brings in money."
+  - id: "c1-finance-and-economics-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Elle a acheté des obligations de l'État."
+    options: ["She bought government bonds.", "She took on duties for the State.", "She paid her taxes."]
+    answers: ["She bought government bonds."]
+    explanation: "In finance, une obligation is a bond: a loan to a State or a company."
+  - id: "c1-finance-and-economics-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « la rigueur budgétaire »."
+    options: ["cutting public spending", "spending more to boost the economy", "a strict tax inspector"]
+    answers: ["cutting public spending"]
+    explanation: "La rigueur budgétaire: controlling and reducing public spending. Spending more is la relance."
+  - id: "c1-finance-and-economics-ex006"
+    type: "fill-in"
+    prompt: "Conjuguez « s'endetter » au passé composé : L'entreprise ___ pour acheter des machines."
+    answers: ["s'est endettée"]
+    explanation: "A reflexive verb takes être; the participle agrees with l'entreprise: endettée."
+    strictAccents: true
+  - id: "c1-finance-and-economics-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec le nom de « dépenser » : Les ___ publiques ont augmenté."
+    answers: ["dépenses"]
+    explanation: "Dépenser → les dépenses."
+  - id: "c1-finance-and-economics-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « relancer » : Le gouvernement veut que l'économie reparte."
+    answers: ["Le gouvernement veut relancer l'économie"]
+    explanation: "Relancer l'économie: to get it going again."
+  - id: "c1-finance-and-economics-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « la dette publique » et « augmenter » : L'État doit de plus en plus d'argent."
+    answers: ["La dette publique augmente"]
+    explanation: "What the State owes is la dette publique."
+  - id: "c1-finance-and-economics-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « épargner » : Les ménages gardent une partie de leur argent pour plus tard."
+    answers: ["Les ménages épargnent"]
+    explanation: "Épargner: to keep money aside, to save."
+  - id: "c1-finance-and-economics-ex011"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « ne… guère » : Ce placement rapporte pas beaucoup."
+    answers: ["Ce placement ne rapporte guère"]
+    explanation: "Restore ne and use ne… guère (hardly) for a formal register."
+  - id: "c1-finance-and-economics-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : La banque centrale a monté ses taux."
+    answers: ["La banque centrale a relevé ses taux", "La banque centrale a augmenté ses taux"]
+    strictAccents: true
+    explanation: "Rates are relevés or augmentés; monter is intransitive here (les taux montent)."
+  - id: "c1-finance-and-economics-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Le dette publique augmente."
+    answers: ["La dette publique augmente"]
+    explanation: "Dette is feminine: la dette."
+  - id: "c1-finance-and-economics-ex014"
+    type: "translate"
+    prompt: "Traduisez avec « la fiscalité » et « réformer » : The government wants to reform taxation."
+    answers: ["Le gouvernement veut réformer la fiscalité"]
+    explanation: "La fiscalité: the tax system as a whole."
+  - id: "c1-finance-and-economics-ex015"
+    type: "translate"
+    prompt: "Traduisez (un taux d'intérêt, élevé) : Interest rates are high."
+    answers: ["Les taux d'intérêt sont élevés"]
+    explanation: "Élevé, not haut, for a rate or a price."
+  - id: "c1-finance-and-economics-ex016"
+    type: "translate"
+    prompt: "Traduisez (épargner, un ménage) : Households are saving more."
+    answers: ["Les ménages épargnent plus"]
+    explanation: "Un ménage: a household, in economics."
+  - id: "c1-finance-and-economics-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The State must reduce its deficit."
+    words: ["L'État", "doit", "réduire", "son", "déficit"]
+    answers: ["L'État doit réduire son déficit"]
+    explanation: "Réduire le déficit: a standard pairing in economic news."
+---
+
+By the end of this lesson you'll be able to follow economic news and discuss public finance, economic policy, savings and markets with precise vocabulary.
+
+## What you already know
+
+You know *la croissance*, *la récession*, *la conjoncture*, *le PIB*, *l'inflation* and *investir* from <LessonLink id="b2-economy-and-business" text="the lesson on the economy and business" />, and *un taux* and *pour cent* from <LessonLink id="b2-presenting-data" text="the lesson on presenting data" />. *Emprunter*, *un prêt* and *rembourser* come from <LessonLink id="b1-money-and-banking" text="the lesson on money and banking" />. This lesson moves from companies to the State and the markets.
+
+A note on figures: the examples here describe mechanisms, not the real state of any economy. For real figures, check an official source on the day you need them.
+
+## Public finance
+
+<VocabTable group="public" />
+
+*Le budget de l'État* sets what the State will spend, *les dépenses publiques*, and what it will receive, *les recettes*: mostly *les impôts*. *La fiscalité* is the tax system as a whole. When spending is higher than revenue, the budget shows *un déficit*. To cover it, the State borrows, and the total it owes is *la dette publique*. *S'endetter* is to get into debt, for a State, a company or a household.
+
+<Example fr="Cette année, les dépenses publiques ont été plus élevées que les recettes." en="This year, public spending was higher than revenue." />
+<Example fr="Pour financer son déficit, l'État s'endette." en="To fund its deficit, the State borrows." />
+<Example fr="Le gouvernement veut réformer la fiscalité des petites entreprises." en="The government wants to reform taxation for small businesses." />
+
+## Economic policy: relance or rigueur
+
+<VocabTable group="policy" />
+
+Economic debates often oppose two policies. *La relance* means spending more, or taxing less, to *relancer l'économie* (boost it). *La rigueur budgétaire* means controlling or cutting public spending to reduce the deficit. Each side has its arguments; the vocabulary itself is neutral, but the choice of word can show a point of view, so a careful writer names both.
+
+*Un ménage*, in economics, is a household: the people who share a home and a budget. Economists talk about *la consommation des ménages* and *l'épargne des ménages*.
+
+<Example fr="Le plan de relance doit aider les ménages et les entreprises." en="The stimulus plan is meant to help households and businesses." />
+<Example fr="Certains économistes défendent la rigueur budgétaire, d'autres la relance." en="Some economists support budgetary restraint, others a stimulus." />
+
+## Rates, savings and markets
+
+<VocabTable group="markets" />
+
+*Un taux d'intérêt* is the price of borrowing. *La banque centrale* can *relever* or *baisser ses taux*: when they go up, borrowing costs more; when they go down, it costs less. The rates themselves *montent* or *baissent*, but the bank *relève* them: *monter* isn't used with an object here.
+
+*L'épargne* is the money people put aside, and *épargner* is to save. That money can go into *un placement* (an investment), which *rapporte* (yields) more or less, with more or less risk. *La Bourse* is the stock exchange, where *les actions* you know from B2 are bought and sold. *Une obligation*, in finance, is a bond: a loan to a State or a company that pays interest. Elsewhere, it keeps its everyday meaning of a duty.
+
+<Example fr="La banque centrale a relevé ses taux pour faire baisser l'inflation." en="The central bank raised its rates to bring inflation down." />
+<Example fr="Les ménages épargnent plus quand l'avenir est incertain." en="Households save more when the future is uncertain." />
+<Example fr="Un placement sans risque rapporte en général moins." en="A risk-free investment usually yields less." />
+<Example fr="Les marchés financiers ont réagi à la décision." en="The financial markets reacted to the decision." />
+
+## Words that look familiar
+
+Several words in this field are false friends, or have a second meaning that changes everything.
+
+- **La Bourse**, with a capital, is the stock exchange; **une bourse** is a student grant.
+- **Les recettes** of the State are its revenue; in a kitchen, *une recette* is a recipe.
+- **Un placement** is an investment of savings, not a work placement, which is *un stage*.
+- **Une obligation** is a bond in finance and a duty elsewhere.
+
+<Example fr="Elle a obtenu une bourse pour ses études." en="She got a grant for her studies." />
+<Example fr="Les recettes de l'État ont augmenté grâce à la croissance." en="The State's revenue rose thanks to growth." />
+
+When a word seems odd in an economic article, check whether it has a financial meaning before you translate it.
+
+## Reading economic news
+
+Economic articles combine this vocabulary with the trend verbs you know from B2 (*augmenter*, *chuter*, *se stabiliser*) and with hedging. A careful reader notices who is speaking: a forecast is *une prévision*, not a fact, and journalists often use the conditionnel for it.
+
+<Example fr="Selon le ministère, le déficit devrait baisser l'an prochain." en="According to the ministry, the deficit should fall next year." />
+
+As with law, keep the words and the opinions apart. *La dette publique augmente* is a fact you can check; *la dette est trop élevée* is a judgement someone makes.
+
+## The whole list
+
+| Area | French |
+|---|---|
+| the State's accounts | *le budget de l'État*, *les dépenses*, *les recettes*, *un impôt*, *la fiscalité* |
+| imbalance | *le déficit public*, *la dette publique*, *s'endetter* |
+| policy | *la relance*, *relancer l'économie*, *la rigueur budgétaire* |
+| borrowing | *un taux d'intérêt*, *la banque centrale*, *relever / baisser ses taux* |
+| saving and investing | *l'épargne*, *épargner*, *un placement*, *rapporter* |
+| markets | *la Bourse*, *une obligation*, *les marchés financiers* |
+
+## En français
+
+Lucas is reading an economic article. He asks his sister Emma, who works in a bank, to explain it.
+
+- *Emma, ici ils disent que la banque centrale a relevé ses taux. Ça veut dire quoi ?* (Emma, here they say the central bank raised its rates. What does that mean? (spoken))
+- *Que les taux d'intérêt montent : emprunter coûte plus cher.* (That interest rates are going up: borrowing costs more.)
+- *Alors c'est le moment d'épargner, pas d'acheter un appartement ?* (So it's the time to save, not to buy a flat?)
+- *Pour beaucoup de ménages, oui. L'épargne rapporte un peu plus.* (For many households, yes. Savings bring in a bit more.)
+- *Et l'article parle aussi du déficit public.* (And the article also talks about the public deficit.)
+- *C'est quand l'État dépense plus que ses recettes.* (That's when the State spends more than its revenue.)
+- *Et pour le payer, il s'endette ?* (And to pay for it, it borrows?)
+- *Exactement. C'est comme ça que la dette publique augmente.* (Exactly. That's how the public debt grows.)
+- *Et une obligation, c'est quoi ? Un devoir ?* (And what's an obligation? A duty? (spoken))
+- *Pas ici. En finance, c'est un prêt à l'État ou à une entreprise.* (Not here. In finance, it's a loan to the State or a company.)
+- *Tu en as acheté, toi ?* (Have you bought any? (spoken))
+- *Je ne parle pas de mes placements, même à mon frère !* (I don't talk about my investments, even to my brother!)
+
+<Callout type="warning" title="Une obligation: a bond in finance">
+  Learners often read *une obligation* in an economic article as "an obligation". In finance, it's a bond: **acheter des obligations de l'État** means buying government bonds, not taking on duties.
+</Callout>
+
+<Callout type="tip" title="Fact or judgement?">
+  When you read an economic article, mark each sentence F (a fact you could check) or J (a judgement). *Le déficit a baissé* is F; *la rigueur est nécessaire* is J. It trains you to report economic debates neutrally, which the synthesis and the essay both require.
+</Callout>
+
+## En résumé
+
+Le budget de l'État fixe les dépenses publiques et les recettes, qui viennent surtout des impôts. La fiscalité est l'ensemble du système des impôts. Quand les dépenses sont plus élevées que les recettes, il y a un déficit public, et l'État s'endette. La dette publique est le total de ce que l'État doit. Pour aider l'économie, un gouvernement peut choisir la relance, c'est-à-dire dépenser plus, ou la rigueur budgétaire, c'est-à-dire réduire les dépenses. La banque centrale peut relever ou baisser ses taux d'intérêt. Les ménages épargnent et choisissent des placements, qui rapportent plus ou moins. À la Bourse, on achète des actions, et une obligation est un prêt à l'État ou à une entreprise. Il faut séparer les faits, comme une hausse de la dette, et les jugements.
+
+## What's next
+
+Next, <LessonLink id="c1-diplomatic-language" text="the lesson on diplomatic language" /> shows how to refuse, criticize and disagree without giving offence.
+
+===== content/lessons/c1/diplomatic-language.mdx =====
+---
+id: "c1-diplomatic-language"
+title: "Diplomatic language"
+description: "Refuse, criticize and disagree without giving offence: il ne nous sera malheureusement pas possible de, sauf erreur de ma part, nous ne manquerons pas de, prendre bonne note de, understatement, and the five steps of a diplomatic refusal, with an original email exchange."
+level: "C1"
+unit: "Professional mastery"
+order: 35
+type: "communication"
+tags: ["communication", "politeness", "professional", "register"]
+prerequisites: ["b2-negotiating", "b2-regret-and-reproach", "b2-persuasion-and-hedging"]
+related: ["b1-formal-email", "c1-literary-negation", "c1-formal-correspondence"]
+vocab:
+  - { id: "c1-diplomatic-language-v001", group: "refuse", fr: "diplomatique", pron: "dee-ploh-mah-TEEK", en: "diplomatic, tactful" }
+  - { id: "c1-diplomatic-language-v002", group: "refuse", fr: "il ne nous sera malheureusement pas possible de", pron: "eel nuh noo suh-rah mah-luh-ruhz-MAHN pah poh-SEE-bluh duh", en: "unfortunately, we will not be able to" }
+  - { id: "c1-diplomatic-language-v003", group: "refuse", fr: "ne pas être en mesure de", pron: "nuh pah-zeh-truh ahn muh-ZEWR duh", en: "not to be in a position to" }
+  - { id: "c1-diplomatic-language-v004", group: "refuse", fr: "à notre grand regret", pron: "ah noh-truh grahn ruh-GREH", en: "to our great regret, much to our regret" }
+  - { id: "c1-diplomatic-language-v005", group: "refuse", fr: "en l'état", pron: "ahn lay-TAH", en: "as things stand, in its current form" }
+  - { id: "c1-diplomatic-language-v006", group: "soften", fr: "sauf erreur de ma part", pron: "sohf eh-ruhr duh mah PAR", en: "unless I'm mistaken" }
+  - { id: "c1-diplomatic-language-v007", group: "soften", fr: "un malentendu", pron: "uhn mah-lahn-tahn-DEW", en: "a misunderstanding" }
+  - { id: "c1-diplomatic-language-v008", group: "soften", fr: "il serait préférable de", pron: "eel suh-reh pray-fay-RAH-bluh duh", en: "it would be better to" }
+  - { id: "c1-diplomatic-language-v009", group: "soften", fr: "la déception", pron: "lah day-sep-SYOHN", en: "disappointment" }
+  - { id: "c1-diplomatic-language-v010", group: "promise", fr: "nous ne manquerons pas de", pron: "noo nuh mahnk-rohn pah DUH", en: "we will be sure to", note: "+ infinitive." }
+  - { id: "c1-diplomatic-language-v011", group: "promise", fr: "prendre bonne note de", pron: "prahn-druh bonn NOT duh", en: "to take due note of" }
+  - { id: "c1-diplomatic-language-v012", group: "promise", fr: "dans la mesure du possible", pron: "dahn lah muh-zewr dew poh-SEE-bluh", en: "as far as possible" }
+  - { id: "c1-diplomatic-language-v013", group: "promise", fr: "un geste commercial", pron: "uhn zhest koh-mehr-SYAHL", en: "a goodwill gesture (a discount or credit)" }
+  - { id: "c1-diplomatic-language-v014", group: "promise", fr: "la facture", pron: "lah fak-TEWR", en: "the invoice, the bill" }
+  - { id: "c1-diplomatic-language-v015", group: "promise", fr: "une remise exceptionnelle", pron: "ewn ruh-meez ek-sep-syoh-NEL", en: "a special discount" }
+  - { id: "c1-diplomatic-language-v016", group: "promise", fr: "fidèle", pron: "fee-DEL", en: "loyal" }
+  - { id: "c1-diplomatic-language-v017", group: "glossary", fr: "le partenariat", pron: "luh par-tuh-nah-RYAH", en: "the partnership" }
+  - { id: "c1-diplomatic-language-v018", group: "glossary", fr: "la livraison gratuite", pron: "lah lee-vreh-zohn grah-TWEET", en: "free delivery" }
+  - { id: "c1-diplomatic-language-v019", group: "glossary", fr: "la compréhension", pron: "lah kohn-pray-ahn-SYOHN", en: "understanding" }
+  - { id: "c1-diplomatic-language-v020", group: "glossary", fr: "le transporteur", pron: "luh trahns-por-TUHR", en: "the carrier, the delivery company" }
+exercises:
+  - id: "c1-diplomatic-language-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez la réponse la plus diplomatique."
+    options: ["Il ne nous sera malheureusement pas possible d'accepter votre demande.", "Non, nous refusons votre demande.", "Votre demande n'est pas sérieuse."]
+    answers: ["Il ne nous sera malheureusement pas possible d'accepter votre demande."]
+    explanation: "An impersonal structure, malheureusement and the future soften the refusal."
+  - id: "c1-diplomatic-language-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « sauf erreur de ma part »."
+    options: ["unless I'm mistaken", "without any mistake", "it's my mistake"]
+    answers: ["unless I'm mistaken"]
+    explanation: "Sauf erreur de ma part softens a correction: the writer leaves room for being wrong."
+  - id: "c1-diplomatic-language-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Ce n'est pas tout à fait ce que nous attendions."
+    options: ["We're disappointed (said politely).", "It's exactly what we expected.", "We didn't expect anything."]
+    answers: ["We're disappointed (said politely)."]
+    explanation: "Understatement: saying less than you mean is a polite way to express disappointment."
+  - id: "c1-diplomatic-language-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Nous ne manquerons pas ___ vous tenir informé."
+    options: ["de", "à", "pour"]
+    answers: ["de"]
+    explanation: "Ne pas manquer de + infinitive: to be sure to."
+  - id: "c1-diplomatic-language-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez l'expression : ___, la facture a déjà été payée le 3 mars."
+    options: ["Sauf erreur de ma part", "À notre grand regret", "Dans la mesure du possible"]
+    answers: ["Sauf erreur de ma part"]
+    explanation: "Sauf erreur de ma part introduces a fact the writer believes but presents politely."
+  - id: "c1-diplomatic-language-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Nous ne sommes pas en ___ de vous répondre aujourd'hui."
+    answers: ["mesure"]
+    explanation: "Ne pas être en mesure de: not to be in a position to."
+  - id: "c1-diplomatic-language-ex007"
+    type: "register-shift"
+    prompt: "Transformez en refus diplomatique, avec « il ne nous sera malheureusement pas possible de » : On ne peut pas vous rembourser."
+    answers: ["Il ne nous sera malheureusement pas possible de vous rembourser"]
+    explanation: "The impersonal structure takes the refusal away from the person."
+  - id: "c1-diplomatic-language-ex008"
+    type: "register-shift"
+    prompt: "Transformez en remarque diplomatique, en commençant par « Sauf erreur de ma part, la facture » : Vous vous êtes trompé dans la facture."
+    answers: ["Sauf erreur de ma part, la facture comporte une erreur"]
+    explanation: "Make the invoice the subject, not the person, and soften with sauf erreur de ma part."
+  - id: "c1-diplomatic-language-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « nous ne manquerons pas de » : Nous vous informerons, c'est promis."
+    answers: ["Nous ne manquerons pas de vous informer"]
+    explanation: "Nous ne manquerons pas de + infinitive is a formal promise."
+  - id: "c1-diplomatic-language-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « nous regrettons de ne pouvoir » : Nous sommes désolés de ne pas pouvoir accepter."
+    answers: ["Nous regrettons de ne pouvoir accepter"]
+    explanation: "With pouvoir, formal French can drop pas: de ne pouvoir accepter."
+  - id: "c1-diplomatic-language-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « prendre bonne note de », au passé composé : Nous avons bien compris votre demande."
+    answers: ["Nous avons pris bonne note de votre demande"]
+    explanation: "Prendre bonne note de: to acknowledge formally."
+  - id: "c1-diplomatic-language-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Nous ne manquerons pas à vous rappeler."
+    answers: ["Nous ne manquerons pas de vous rappeler"]
+    explanation: "Ne pas manquer de + infinitive. Manquer à means to be missed by."
+  - id: "c1-diplomatic-language-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Il ne nous sera malheureusement pas possible à accepter votre offre."
+    answers: ["Il ne nous sera malheureusement pas possible d'accepter votre offre"]
+    explanation: "Il est possible de + infinitive: possible d'accepter."
+  - id: "c1-diplomatic-language-ex014"
+    type: "translate"
+    prompt: "Traduisez avec « à notre grand regret » : To our great regret, we cannot accept your offer."
+    answers: ["À notre grand regret, nous ne pouvons pas accepter votre offre", "À notre grand regret, nous ne pouvons accepter votre offre"]
+    strictAccents: true
+    explanation: "Both negations are correct; ne alone with pouvoir is more formal."
+  - id: "c1-diplomatic-language-ex015"
+    type: "translate"
+    prompt: "Traduisez avec « dans la mesure du possible » : We will answer quickly, as far as possible."
+    answers: ["Nous répondrons rapidement, dans la mesure du possible", "Dans la mesure du possible, nous répondrons rapidement"]
+    explanation: "Dans la mesure du possible limits a promise politely."
+  - id: "c1-diplomatic-language-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : There may be a misunderstanding."
+    words: ["Il", "y", "a", "peut-être", "un", "malentendu"]
+    answers: ["Il y a peut-être un malentendu"]
+    explanation: "Peut-être after the verb; un malentendu blames no one."
+---
+
+By the end of this lesson you'll be able to refuse a request, point out an error and disagree in a professional setting, keeping the relationship intact.
+
+## What you already know
+
+You know the polite conditionnel and *je vous serais reconnaissant de* from <LessonLink id="b1-formal-email" text="the lesson on writing a formal email" />, *nous serions prêts à* and *faire un geste* from <LessonLink id="b2-negotiating" text="the lesson on negotiating" />, and *présenter ses excuses* and *un contretemps* from <LessonLink id="b2-regret-and-reproach" text="the lesson on regret and reproach" />. You also know *ne* alone with *pouvoir* (*je ne saurais dire*, *de ne pouvoir*) from <LessonLink id="c1-literary-negation" text="the lesson on literary negation" />. Diplomatic French combines all of these.
+
+## What makes a sentence diplomatic
+
+Diplomatic language doesn't hide the message: the refusal or the criticism is still clear. What changes is who carries it. A blunt sentence puts the speaker against the other person (*je refuse*, *vous vous êtes trompé*). A diplomatic sentence moves the weight elsewhere: onto the situation, onto a rule, or onto "us".
+
+Four tools do most of the work:
+
+- **Impersonal structures**: *il ne nous sera pas possible de* instead of *je refuse*.
+- **The conditionnel and the future**: *il serait préférable de*, *nous ne manquerons pas de*.
+- **Softening adverbs and phrases**: *malheureusement*, *à notre grand regret*, *sauf erreur de ma part*.
+- **Understatement**: *ce n'est pas tout à fait ce que nous attendions* for "we're disappointed".
+
+## Saying no
+
+<VocabTable group="refuse" />
+
+*Il ne nous sera malheureusement pas possible de* + infinitive is the standard written refusal: it's impersonal, it uses the future, and *malheureusement* shows regret. *Ne pas être en mesure de* says that circumstances, not will, prevent you. *À notre grand regret* opens a refusal warmly, and *en l'état* limits it to the present situation, which leaves the door open.
+
+<Example fr="Il ne nous sera malheureusement pas possible de vous accorder ce délai." en="Unfortunately, we will not be able to grant you this extension." />
+<Example fr="En l'état, nous ne sommes pas en mesure de modifier le contrat." en="As things stand, we are not in a position to change the contract." />
+<Example fr="À notre grand regret, nous ne pouvons pas accepter votre offre." en="To our great regret, we cannot accept your offer." />
+
+## Pointing out an error or disagreeing
+
+<VocabTable group="soften" />
+
+To correct someone, make the thing the subject, not the person, and leave room for being wrong. *Sauf erreur de ma part* does that in three words. *Un malentendu* (a misunderstanding) blames nobody. *Il serait préférable de* turns a criticism into a suggestion. And *la déception*, named as a feeling about the result, is easier to hear than a reproach.
+
+<Example fr="Sauf erreur de ma part, la facture comporte une erreur." en="Unless I'm mistaken, the invoice contains an error." />
+<Example fr="Il y a peut-être un malentendu sur le jour de livraison." en="There may be a misunderstanding about the delivery day." />
+<Example fr="Il serait préférable de nous prévenir plus tôt." en="It would be better to let us know earlier." />
+
+**Understatement** says less than you mean. *Ce n'est pas tout à fait ce que nous attendions* (it's not quite what we expected) is a polite way to say you're disappointed. French readers decode it at once, so you don't need anything stronger.
+
+## Promising and keeping the door open
+
+<VocabTable group="promise" />
+
+A diplomatic refusal usually ends with something positive. *Nous ne manquerons pas de* + infinitive is a formal promise: "we will be sure to". *Prendre bonne note de* acknowledges a request without accepting it. *Dans la mesure du possible* limits a promise honestly. In business, *un geste commercial* (a discount, a credit) can make up for a refusal, especially for a *fidèle* customer.
+
+<Example fr="Nous avons pris bonne note de votre demande et ne manquerons pas de vous tenir informée." en="We have duly noted your request and will be sure to keep you informed." />
+
+## The five steps of a diplomatic refusal
+
+As a rule of thumb, a written refusal follows five steps.
+
+1. **Thank** the person for the request or the message.
+2. **Acknowledge** their point: *nous comprenons tout à fait votre déception*.
+3. **Refuse**, impersonally, and give a short reason, in the same sentence or a little later: *il ne nous sera malheureusement pas possible de…*.
+4. **Offer** something else, if you can: a geste commercial, another date, a partial solution.
+5. **Close** positively: *nous ne manquerons pas de…*, *dans la mesure du possible*.
+
+## An exchange of emails
+
+The two emails below are original texts written for this lesson. The company and the people are invented.
+
+*Objet : Commande de mars*
+
+*Madame,*
+
+*Nous sommes clients de votre société depuis dix ans. Notre dernière commande est arrivée avec deux semaines de retard, ce qui nous a causé de vraies difficultés. Ce n'est pas la première fois : en janvier, une livraison était déjà arrivée en retard. Nous vous demandons donc une remise exceptionnelle de vingt pour cent sur la facture, ainsi que la livraison gratuite pour nos prochaines commandes. Nous comptons sur votre compréhension.*
+
+*Cordialement,*
+
+*Paul Martin*
+
+*Objet : RE : Commande de mars*
+
+*Monsieur,*
+
+*Je vous remercie de votre message et je comprends tout à fait votre déception : un retard de deux semaines n'est pas ce que vous pouvez attendre d'un partenariat de dix ans.*
+
+*À notre grand regret, il ne nous sera malheureusement pas possible de vous accorder une remise de vingt pour cent, ni la livraison gratuite pour toutes vos commandes. En revanche, nous vous proposons un geste commercial de dix pour cent sur cette facture, ainsi que la livraison gratuite pour votre prochaine commande.*
+
+*Sauf erreur de ma part, ce retard venait d'un problème chez notre transporteur, que nous avons depuis changé. Nous avons aussi vérifié la livraison de janvier : elle était arrivée avec un jour de retard, et nous vous présentons nos excuses pour ces deux retards. Nous ne manquerons pas de vous prévenir, dans la mesure du possible, si un nouveau retard se présente. Je reste à votre disposition pour en parler par téléphone.*
+
+*Je vous prie d'agréer, Monsieur, mes salutations distinguées.*
+
+*Claire Dubois, service clients*
+
+<VocabTable group="glossary" />
+
+(Subject: March order. Dear Madam, We have been customers of your company for ten years. Our last order arrived two weeks late, which caused us real difficulties. It isn't the first time: in January, a delivery had already arrived late. We therefore ask you for a special discount of twenty per cent on the invoice, as well as free delivery for our next orders. We count on your understanding. Kind regards, Paul Martin. Subject: RE: March order. Dear Sir, Thank you for your message; I fully understand your disappointment: a two-week delay is not what you can expect from a ten-year partnership. To our great regret, we will unfortunately not be able to grant you a twenty per cent discount, nor free delivery for all your orders. On the other hand, we offer you a goodwill gesture of ten per cent on this invoice, as well as free delivery for your next order. Unless I'm mistaken, this delay came from a problem with our carrier, which we have since changed. We have also checked the January delivery: it arrived one day late, and we apologize for both delays. We will be sure to let you know, as far as possible, if there is another delay. I remain at your disposal to talk about it by phone. Yours faithfully, Claire Dubois, customer service.)
+
+## How the reply works
+
+- **Thanks and acknowledgement**: *je vous remercie*, *je comprends tout à fait votre déception*.
+- **The refusal**: *à notre grand regret, il ne nous sera malheureusement pas possible de*, with *ni* for the second item.
+- **The offer**: *en revanche, nous vous proposons un geste commercial*.
+- **The explanation**, softened: *sauf erreur de ma part*.
+- **An apology** for both delays, including the one in January that the client mentioned: *nous vous présentons nos excuses pour ces deux retards*.
+- **The positive close**: *nous ne manquerons pas de*, *dans la mesure du possible*, *je reste à votre disposition*.
+
+Notice that the reply repeats both requests before refusing them, so the client knows he was read carefully.
+
+## En français
+
+Madame Dubois calls Monsieur Martin after sending her reply.
+
+- *Monsieur Martin, vous avez reçu mon message ?* (Mr Martin, did you get my message?)
+- *Oui. Ce n'est pas tout à fait ce que nous attendions.* (Yes. It's not quite what we expected.)
+- *Je comprends tout à fait. Vingt pour cent, en l'état, ce n'est pas possible.* (I fully understand. Twenty per cent, as things stand, isn't possible.)
+- *Et pour la livraison gratuite ?* (And free delivery?)
+- *Pour la prochaine commande, oui. Pour toutes, nous ne sommes pas en mesure de le faire.* (For the next order, yes. For all of them, we're not in a position to do it.)
+- *Il y a peut-être un malentendu : nous pensions à six mois seulement.* (There may be a misunderstanding: we were only thinking of six months.)
+- *Ah, c'est différent. Je ne peux rien vous promettre, mais j'en parle à ma directrice.* (Ah, that's different. I can't promise anything, but I'll talk to my manager about it.)
+- *Merci. Il serait préférable de nous répondre avant la fin du mois.* (Thank you. It would be better to answer us before the end of the month.)
+- *Nous ne manquerons pas de le faire, dans la mesure du possible.* (We'll be sure to do so, as far as possible.)
+- *Très bien. Nous restons des clients fidèles, vous savez.* (Very good. We're still loyal customers, you know.)
+- *Et nous y tenons beaucoup. Je vous rappelle très vite.* (And that matters a lot to us. I'll call you back very soon.)
+- *Merci, Madame. Bonne journée.* (Thank you. Have a good day.)
+
+<Callout type="warning" title="Nous ne manquerons pas de, not nous ne manquerons pas à">
+  Learners often mix up the two constructions of *manquer*. The formal promise takes **de**: **nous ne manquerons pas de vous tenir informé**. With *à*, *manquer* means "to be missed by": *vous nous manquerez*.
+</Callout>
+
+<Callout type="tip" title="Read your refusal as the other person">
+  Before you send a refusal, read it once as if you were the person receiving it. Underline every sentence where "you" did something wrong, and rewrite it with the situation or the document as the subject. The message stays the same; the relationship survives.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-formal-correspondence" text="the lesson on high-register correspondence" /> shows how to write formal letters to institutions, with references and the full closing formulas.
+
+===== content/lessons/c1/formal-correspondence.mdx =====
+---
+id: "c1-formal-correspondence"
+title: "High-register correspondence"
+description: "Write formal letters to institutions: the layout and references, salutations with a title (Madame la Directrice), j'ai l'honneur de, par la présente, je vous saurais gré de bien vouloir, accuser réception de, and the full closing formulas, with an original letter and its reply."
+level: "C1"
+unit: "Professional mastery"
+order: 36
+type: "communication"
+tags: ["communication", "writing", "formal letters", "administration"]
+prerequisites: ["b1-formal-email", "b1-cover-letter", "b2-registers", "c1-diplomatic-language"]
+related: ["b2-formal-report", "c1-law-and-institutions", "c1-formal-relatives-and-apposition"]
+vocab:
+  - { id: "c1-formal-correspondence-v001", group: "layout", fr: "l'expéditeur / l'expéditrice", pron: "lek-spay-dee-TUHR / lek-spay-dee-TREESS", en: "the sender" }
+  - { id: "c1-formal-correspondence-v002", group: "layout", fr: "le destinataire", pron: "luh dess-tee-nah-TEHR", en: "the recipient, the addressee" }
+  - { id: "c1-formal-correspondence-v003", group: "layout", fr: "à l'attention de", pron: "ah lah-tahn-SYOHN duh", en: "for the attention of" }
+  - { id: "c1-formal-correspondence-v004", group: "layout", fr: "nos références / vos références", pron: "noh ray-fay-RAHNSS / voh ray-fay-RAHNSS", en: "our reference / your reference", note: "Abbreviated N/Réf. and V/Réf." }
+  - { id: "c1-formal-correspondence-v005", group: "layout", fr: "un courrier", pron: "uhn koo-RYAY", en: "a letter, mail (formal)" }
+  - { id: "c1-formal-correspondence-v006", group: "layout", fr: "Madame la Directrice, / Monsieur le Maire,", pron: "mah-dahm lah dee-rek-TREESS / muh-syuh luh MEHR", en: "Dear Director, / Dear Mayor, (salutation with a title)", note: "No name after the title." }
+  - { id: "c1-formal-correspondence-v007", group: "opening", fr: "j'ai l'honneur de", pron: "zhay loh-nuhr DUH", en: "I have the honour to (administrative French)", note: "+ infinitive: j'ai l'honneur de solliciter…" }
+  - { id: "c1-formal-correspondence-v008", group: "opening", fr: "par la présente", pron: "par lah pray-ZAHNT", en: "by this letter, hereby" }
+  - { id: "c1-formal-correspondence-v009", group: "opening", fr: "en réponse à", pron: "ahn ray-POHNSS ah", en: "in reply to" }
+  - { id: "c1-formal-correspondence-v010", group: "opening", fr: "solliciter", pron: "soh-lee-see-TAY", en: "to request, to apply for (formal)" }
+  - { id: "c1-formal-correspondence-v011", group: "request", fr: "je vous saurais gré de", pron: "zhuh voo soh-reh GRAY duh", en: "I would be grateful if you would", note: "+ infinitive, often bien vouloir." }
+  - { id: "c1-formal-correspondence-v012", group: "request", fr: "bien vouloir", pron: "byan voo-LWAHR", en: "to be so kind as to (in requests)", note: "Je vous prie de bien vouloir…" }
+  - { id: "c1-formal-correspondence-v013", group: "request", fr: "accuser réception de", pron: "ah-kew-zay ray-sep-SYOHN duh", en: "to acknowledge receipt of" }
+  - { id: "c1-formal-correspondence-v014", group: "closing", fr: "l'expression de ma considération distinguée", pron: "lek-spreh-syohn duh mah kohn-see-day-rah-syohn dees-tan-GAY", en: "my highest regards (respectful closing)" }
+  - { id: "c1-formal-correspondence-v015", group: "closing", fr: "l'assurance de ma haute considération", pron: "lah-sew-rahnss duh mah oht kohn-see-day-rah-SYOHN", en: "my highest consideration (to a high authority)" }
+  - { id: "c1-formal-correspondence-v016", group: "closing", fr: "un certificat médical", pron: "uhn sehr-tee-fee-kah may-dee-KAHL", en: "a medical certificate" }
+  - { id: "c1-formal-correspondence-v017", group: "glossary", fr: "le mémoire", pron: "luh may-MWAHR", en: "the dissertation (a long piece of written university work)" }
+  - { id: "c1-formal-correspondence-v018", group: "glossary", fr: "favorable", pron: "fah-voh-RAH-bluh", en: "favourable" }
+  - { id: "c1-formal-correspondence-v019", group: "glossary", fr: "avoir le plaisir de", pron: "ah-vwahr luh pleh-ZEER duh", en: "to be pleased to (formal)" }
+  - { id: "c1-formal-correspondence-v020", group: "glossary", fr: "au plus tard", pron: "oh plew TAR", en: "at the latest" }
+  - { id: "c1-formal-correspondence-v021", group: "glossary", fr: "la soutenance", pron: "lah soot-NAHNSS", en: "the viva, the oral defence (of a dissertation)" }
+  - { id: "c1-formal-correspondence-v022", group: "glossary", fr: "le secrétariat", pron: "luh suh-kray-tah-RYAH", en: "the (administrative) office" }
+exercises:
+  - id: "c1-formal-correspondence-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez la formule d'appel pour une lettre à la directrice d'une école."
+    options: ["Madame la Directrice,", "Chère Directrice,", "Bonjour Madame Dubois,"]
+    answers: ["Madame la Directrice,"]
+    explanation: "To a person with a title: Madame or Monsieur + le or la + the title, with no name."
+  - id: "c1-formal-correspondence-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez la formule finale la plus respectueuse."
+    options: ["Je vous prie d'agréer, Monsieur le Maire, l'assurance de ma haute considération.", "Cordialement.", "Bien à vous."]
+    answers: ["Je vous prie d'agréer, Monsieur le Maire, l'assurance de ma haute considération."]
+    explanation: "The full formula repeats the title and uses the most respectful ending."
+  - id: "c1-formal-correspondence-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Je vous saurais gré ___ bien vouloir me répondre."
+    options: ["de", "à", "pour"]
+    answers: ["de"]
+    explanation: "Savoir gré à quelqu'un de + infinitive: je vous saurais gré de…"
+  - id: "c1-formal-correspondence-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : En réponse ___ votre courrier du 5 mars, je vous informe que votre dossier est complet."
+    options: ["à", "de", "sur"]
+    answers: ["à"]
+    explanation: "En réponse à: in reply to."
+  - id: "c1-formal-correspondence-ex005"
+    type: "fill-in"
+    prompt: "Complétez : J'ai l'___ de solliciter un délai supplémentaire."
+    answers: ["honneur"]
+    explanation: "J'ai l'honneur de + infinitive, in administrative letters."
+  - id: "c1-formal-correspondence-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Nous accusons ___ de votre dossier."
+    answers: ["réception"]
+    explanation: "Accuser réception de: to acknowledge receipt of."
+  - id: "c1-formal-correspondence-ex007"
+    type: "reformulation"
+    prompt: "Reformulez avec « je vous saurais gré de bien vouloir » : Pouvez-vous m'envoyer le formulaire ?"
+    answers: ["Je vous saurais gré de bien vouloir m'envoyer le formulaire"]
+    explanation: "A question becomes a formal request in the conditionnel."
+  - id: "c1-formal-correspondence-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « par la présente » : Je vous écris pour vous informer de mon départ."
+    answers: ["Par la présente, je vous informe de mon départ"]
+    explanation: "Par la présente replaces je vous écris pour."
+  - id: "c1-formal-correspondence-ex009"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « à la suite de » : Suite à notre conversation, je vous envoie le document."
+    answers: ["À la suite de notre conversation, je vous envoie le document"]
+    strictAccents: true
+    explanation: "Suite à is common, but careful writers prefer à la suite de in a formal letter."
+  - id: "c1-formal-correspondence-ex010"
+    type: "register-shift"
+    prompt: "Transformez en formule finale complète, pour Madame la Directrice : Cordialement."
+    answers: ["Je vous prie d'agréer, Madame la Directrice, l'expression de mes salutations distinguées", "Veuillez agréer, Madame la Directrice, l'expression de mes salutations distinguées", "Je vous prie d'agréer, Madame la Directrice, l'expression de ma considération distinguée", "Veuillez agréer, Madame la Directrice, l'expression de ma considération distinguée"]
+    explanation: "The full formula: je vous prie d'agréer or veuillez agréer, the title between commas, then the expression."
+  - id: "c1-formal-correspondence-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Madame la Directrice Dubois,"
+    answers: ["Madame la Directrice,"]
+    explanation: "With a title, don't add the name."
+  - id: "c1-formal-correspondence-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Je vous saurais gré à bien vouloir me répondre."
+    answers: ["Je vous saurais gré de bien vouloir me répondre"]
+    explanation: "Je vous saurais gré de + infinitive."
+  - id: "c1-formal-correspondence-ex013"
+    type: "translate"
+    prompt: "Traduisez (accuser réception de) : We acknowledge receipt of your letter."
+    answers: ["Nous accusons réception de votre courrier", "Nous accusons réception de votre lettre"]
+    explanation: "Accuser réception de + the document."
+  - id: "c1-formal-correspondence-ex014"
+    type: "translate"
+    prompt: "Traduisez avec « veuillez trouver ci-joint » : Please find enclosed my application."
+    answers: ["Veuillez trouver ci-joint ma candidature"]
+    explanation: "Veuillez trouver ci-joint, from the lesson on the formal email."
+  - id: "c1-formal-correspondence-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : I have the honour of informing you of my decision."
+    words: ["J'ai", "l'honneur", "de", "vous", "informer", "de", "ma", "décision"]
+    answers: ["J'ai l'honneur de vous informer de ma décision"]
+    explanation: "J'ai l'honneur de + infinitive."
+  - id: "c1-formal-correspondence-ex016"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « V/Réf. » en haut d'une lettre."
+    options: ["your reference", "our reference", "the sender's address"]
+    answers: ["your reference"]
+    explanation: "V/Réf. is vos références; N/Réf. is nos références."
+---
+
+By the end of this lesson you'll be able to write a formal letter to an institution, from the layout to the closing formula, and to read the replies you get.
+
+## What you already know
+
+You know *l'objet*, *veuillez trouver ci-joint* and *je vous serais reconnaissant de* from <LessonLink id="b1-formal-email" text="the lesson on writing a formal email" />, and *Madame, Monsieur*, *je me permets de* and *je vous prie d'agréer… salutations distinguées* from <LessonLink id="b1-cover-letter" text="the lesson on the CV and cover letter" />. You know how to refuse diplomatically from <LessonLink id="c1-diplomatic-language" text="the lesson on diplomatic language" />. This lesson moves up one register: letters to a university, a town hall, a ministry or a court.
+
+## The layout
+
+<VocabTable group="layout" />
+
+A formal French letter follows a fixed layout. As a rule of thumb:
+
+- **Top left**: *l'expéditeur*, with name and address.
+- **Below, on the right**: *le destinataire*, sometimes with *à l'attention de* + a person or a department.
+- **Then**: the place and date (*Lyon, le 12 mars*), the references (*N/Réf.*, *V/Réf.*) if there are any, and *l'objet*.
+- **The salutation**: *Madame, Monsieur,* if you don't know the person; *Madame la Directrice,* or *Monsieur le Maire,* if they have a title. Never add the name after the title.
+
+<Example fr="L'adresse de l'expéditeur se trouve en haut, et celle du destinataire juste en dessous, à droite." en="The sender's address is at the top, and the recipient's just below it, on the right." />
+<Example fr="Merci de rappeler nos références dans votre réponse." en="Please quote our reference in your reply." />
+
+*Un courrier* is the formal word for a letter or for mail in general: *votre courrier du 5 mars*.
+
+<Example fr="En réponse à votre courrier du 5 mars, je vous adresse les documents demandés." en="In reply to your letter of 5 March, I am sending you the documents requested." />
+
+## Opening the letter
+
+<VocabTable group="opening" />
+
+The first sentence says why you write. *En réponse à* refers to a previous letter. *Par la présente* (by this letter) opens a formal statement. *J'ai l'honneur de* + infinitive is typical of administrative French, especially to a public authority: it sounds old-fashioned in business, but it's still usual in letters to institutions. *Solliciter* means to request formally.
+
+<Example fr="Par la présente, je vous informe de ma démission." en="I hereby inform you of my resignation." />
+<Example fr="J'ai l'honneur de solliciter un délai supplémentaire." en="I have the honour to request an extension." />
+
+*Suite à* is very common in emails and letters, but some careful writers prefer *à la suite de*, which you know from <LessonLink id="c1-formal-relatives-and-apposition" text="the lesson on formal relatives" />, or *en réponse à*.
+
+## Making a request
+
+<VocabTable group="request" />
+
+At C1, two formulas replace *pouvez-vous*. *Je vous saurais gré de* (I would be grateful if you would) uses the conditionnel of *savoir*, and it's usually followed by *bien vouloir* + infinitive. *Je vous prie de bien vouloir* is a polite instruction. *Veuillez* + infinitive, which you know, is firmer. When you receive a document, you *accusez réception de* it.
+
+<Example fr="Je vous saurais gré de bien vouloir m'envoyer votre réponse avant la fin du mois." en="I would be grateful if you would send me your reply before the end of the month." />
+<Example fr="Nous accusons réception de votre dossier et vous en remercions." en="We acknowledge receipt of your file and thank you for it." />
+
+## Closing the letter
+
+<VocabTable group="closing" />
+
+A formal French letter ends with a full sentence, not a word. The formula repeats the salutation between commas, then names the "expression" you send. As a rule of thumb, the choice depends on the person:
+
+- **To someone you don't know, or an equal**: *l'expression de mes salutations distinguées*.
+- **To a superior, or with more respect**: *l'expression de ma considération distinguée*.
+- **To a high authority** (a minister, a prefect): *l'assurance de ma haute considération*.
+
+<Example fr="Je vous prie d'agréer, Madame la Présidente, l'expression de ma considération distinguée." en="Yours faithfully (to the President, respectful)." />
+
+*Cordialement* and *bien à vous* end emails between colleagues; in a letter to an institution, they're too short.
+
+Before the formula, the last paragraph often lists the attachments, with *ci-joint* or *vous trouverez en pièce jointe*, and can mention *un certificat médical* or any other supporting document.
+
+## Letters and emails
+
+Many institutions now accept requests by email. The register doesn't change: the subject line works as *l'objet*, the salutation keeps the title, and the closing is still a full sentence, though some writers shorten it to *Je vous prie d'agréer, Madame, mes salutations distinguées*. Attach documents in PDF and name them in the message. What you lose is the layout at the top: give your full name, and any reference number, in the first lines instead.
+
+<Example fr="Vous trouverez ci-joint le certificat médical mentionné dans ma demande." en="Please find attached the medical certificate mentioned in my request." />
+
+Whatever the medium, reread for consistency: the same title in the salutation and the closing, the same person (*je* or *nous*) throughout, and one request per letter.
+
+## A letter and its reply
+
+The letter and the reply below are original texts written for this lesson. The people and the university are invented.
+
+*Objet : demande de délai pour la remise de mon mémoire*
+
+*Madame la Présidente,*
+
+*J'ai l'honneur de solliciter un délai supplémentaire pour la remise de mon mémoire de master, prévue le 30 mai. Pendant le mois d'avril, j'ai été malade et je n'ai pas pu travailler pendant trois semaines, comme l'indique le certificat médical ci-joint. Je vais mieux aujourd'hui et j'ai repris mon travail. Mon travail porte sur l'histoire des bibliothèques publiques en France, et il me reste deux parties à écrire. Je vous saurais gré de bien vouloir m'accorder un délai d'un mois. Ma directrice de mémoire, que j'ai informée de ma situation, est favorable à cette demande.*
+
+*Je me tiens à votre disposition pour tout autre document et vous remercie par avance de votre attention.*
+
+*Je vous prie d'agréer, Madame la Présidente, l'expression de ma considération distinguée.*
+
+*Inès Moreau*
+
+*V/Réf. : votre courrier du 15 mai*
+
+*Objet : votre demande de délai*
+
+*Madame,*
+
+*En réponse à votre courrier du 15 mai, j'accuse réception de votre demande et du certificat médical qui l'accompagnait. Votre dossier a été étudié le 18 mai. Compte tenu de votre situation, j'ai le plaisir de vous informer qu'un délai vous est accordé. Votre mémoire devra cependant être remis au plus tard le 20 juin, afin que la soutenance puisse avoir lieu avant l'été. Je vous saurais gré d'en informer votre directrice de mémoire. Pour toute question, vous pouvez contacter le secrétariat du master. J'espère que vous allez tout à fait bien aujourd'hui.*
+
+*Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées.*
+
+*La Présidente de l'université*
+
+<VocabTable group="glossary" />
+
+(Subject: request for an extension for the submission of my dissertation. Madam President, I have the honour to request an extension for the submission of my master's dissertation, due on 30 May. During April, I was ill and could not work for three weeks, as the attached medical certificate shows. I am better now and have gone back to work. My work is on the history of public libraries in France, and I still have two parts to write. I would be grateful if you would grant me a one-month extension. My supervisor, whom I have informed of my situation, supports this request. I remain at your disposal for any other document and thank you in advance for your attention. Yours faithfully, Inès Moreau. Your ref.: your letter of 15 May. Subject: your request for an extension. Madam, In reply to your letter of 15 May, I acknowledge receipt of your request and of the medical certificate that came with it. Your file was examined on 18 May. In view of your situation, I am pleased to inform you that an extension is granted. Your dissertation must, however, be submitted by 20 June at the latest, so that the viva can take place before the summer. I would be grateful if you would inform your supervisor. For any question, you can contact the master's office. I hope you are fully well again now. Yours faithfully, the President of the university.)
+
+## How the letters work
+
+- **The request** opens with *j'ai l'honneur de solliciter*, gives the reason and a supporting document (*le certificat médical ci-joint*), then asks with *je vous saurais gré de bien vouloir*.
+- **The salutation** uses the title, *Madame la Présidente*, and the closing repeats it.
+- **The reply** opens with *en réponse à votre courrier* and *j'accuse réception de*, grants the request partly (*un délai vous est accordé*, *au plus tard le 20 juin*) and ends with a request of its own.
+- **The closings differ**: the student writes to a superior (*ma considération distinguée*); the president replies with *mes salutations distinguées*.
+
+## En français
+
+Inès shows her draft to her father, who worked for years in a town hall.
+
+- *Papa, tu peux relire ma lettre à la présidente de l'université ?* (Dad, can you read over my letter to the university president?)
+- *Bien sûr. Tu commences par « Chère Madame » ? Non, écris « Madame la Présidente ».* (Of course. You start with "Chère Madame"? No, write "Madame la Présidente".)
+- *D'accord. Et pour demander le délai ?* (OK. And to ask for the extension?)
+- *« J'ai l'honneur de solliciter un délai supplémentaire. » C'est l'usage.* ("J'ai l'honneur de solliciter un délai supplémentaire." That's the custom.)
+- *Ça fait un peu ancien, non ?* (It sounds a bit old-fashioned, doesn't it? (spoken))
+- *Un peu, mais à l'université et à la mairie, on l'écrit encore.* (A little, but at the university and the town hall, people still write it. (spoken))
+- *Et j'ai mis « Pouvez-vous m'accorder un mois ? ».* (And I put "Can you give me a month?".)
+- *Plutôt : « Je vous saurais gré de bien vouloir m'accorder un délai d'un mois ».* (Rather: "I would be grateful if you would grant me a one-month extension".)
+- *Et à la fin, « Cordialement » ?* (And at the end, "Cordialement"?)
+- *Trop court. Écris la formule complète, avec « Madame la Présidente » entre deux virgules.* (Too short. Write the full formula, with "Madame la Présidente" between two commas.)
+- *Je mets le certificat médical en pièce jointe ?* (Shall I attach the medical certificate?)
+- *Oui, et dis-le dans la lettre : « comme l'indique le certificat ci-joint ».* (Yes, and say so in the letter: "as the attached certificate shows".)
+
+<Callout type="warning" title="Madame la Directrice, not Madame la Directrice Dubois">
+  Learners often add the name after the title, as in English. In French, the title replaces the name: **Madame la Directrice,** **Monsieur le Maire,** and the closing repeats it the same way.
+</Callout>
+
+<Callout type="tip" title="Keep a letter skeleton">
+  Write one model letter with every fixed part in place (layout, salutation with title, *j'ai l'honneur de*, *je vous saurais gré de*, the full closing) and keep it as a file. For each new letter, change only the content between the formulas.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-leading-a-meeting" text="the lesson on leading a meeting" /> shows how to chair a meeting, from the opening to the decisions and the minutes.
+
+===== content/lessons/c1/leading-a-meeting.mdx =====
+---
+id: "c1-leading-a-meeting"
+title: "Leading a meeting"
+description: "Chair a meeting in French: open the session, give the floor, manage time and disagreement, put a proposal to the vote, record the decisions and close, with an original relevé de décisions."
+level: "C1"
+unit: "Professional mastery"
+order: 37
+type: "communication"
+tags: ["communication", "meetings", "professional", "speaking"]
+prerequisites: ["b2-meetings-and-calls", "b2-debating", "c1-diplomatic-language", "c1-participle-clauses"]
+related: ["c1-formal-correspondence", "c1-precise-verbs", "c1-collocations"]
+vocab:
+  - { id: "c1-leading-a-meeting-v001", group: "open", fr: "le président / la présidente de séance", pron: "luh pray-zee-DAHN duh say-AHNSS", en: "the chair (of a meeting)" }
+  - { id: "c1-leading-a-meeting-v002", group: "open", fr: "je déclare la séance ouverte", pron: "zhuh day-klahr lah say-ahnss oo-VEHRT", en: "I declare the meeting open (formal)" }
+  - { id: "c1-leading-a-meeting-v003", group: "open", fr: "nous sommes réunis pour", pron: "noo som ray-ew-NEE poor", en: "we are here to, we have met to" }
+  - { id: "c1-leading-a-meeting-v004", group: "floor", fr: "donner la parole à", pron: "doh-nay lah pah-ROLL ah", en: "to give the floor to" }
+  - { id: "c1-leading-a-meeting-v005", group: "floor", fr: "un tour de table", pron: "uhn toor duh TAH-bluh", en: "a round (where everyone speaks in turn)" }
+  - { id: "c1-leading-a-meeting-v006", group: "floor", fr: "je me permets de vous interrompre", pron: "zhuh muh pehr-meh duh voo-zan-teh-ROHN-pruh", en: "may I interrupt you (polite)" }
+  - { id: "c1-leading-a-meeting-v007", group: "floor", fr: "nous y reviendrons", pron: "noo-zee ruh-vyan-DROHN", en: "we'll come back to that" }
+  - { id: "c1-leading-a-meeting-v008", group: "conflict", fr: "recadrer le débat", pron: "ruh-kah-dray luh day-BAH", en: "to bring the discussion back on track" }
+  - { id: "c1-leading-a-meeting-v009", group: "conflict", fr: "apaiser", pron: "ah-peh-ZAY", en: "to calm, to soothe" }
+  - { id: "c1-leading-a-meeting-v010", group: "conflict", fr: "les échanges (m.)", pron: "lay-zay-SHAHNZH", en: "the discussion, the exchanges" }
+  - { id: "c1-leading-a-meeting-v011", group: "decide", fr: "mettre aux voix", pron: "meh-troh VWAH", en: "to put to the vote" }
+  - { id: "c1-leading-a-meeting-v012", group: "decide", fr: "à main levée", pron: "ah man luh-VAY", en: "by a show of hands" }
+  - { id: "c1-leading-a-meeting-v013", group: "decide", fr: "s'abstenir", pron: "sab-stuh-NEER", en: "to abstain", note: "Like tenir: il s'est abstenu." }
+  - { id: "c1-leading-a-meeting-v014", group: "decide", fr: "acter", pron: "ak-TAY", en: "to record formally (a decision)" }
+  - { id: "c1-leading-a-meeting-v015", group: "close", fr: "faire la synthèse des échanges", pron: "fehr lah san-tez day-zay-SHAHNZH", en: "to sum up the discussion" }
+  - { id: "c1-leading-a-meeting-v016", group: "close", fr: "l'ordre du jour étant épuisé", pron: "lor-druh dew zhoor ay-tahn ay-pew-ZAY", en: "as the agenda has been covered (formal)" }
+  - { id: "c1-leading-a-meeting-v017", group: "close", fr: "un relevé de décisions", pron: "uhn ruhl-vay duh day-see-ZYOHN", en: "a record of decisions (short minutes)" }
+  - { id: "c1-leading-a-meeting-v018", group: "glossary", fr: "un membre", pron: "uhn MAHN-bruh", en: "a member" }
+  - { id: "c1-leading-a-meeting-v019", group: "glossary", fr: "chargé de (être chargé de)", pron: "shar-ZHAY duh", en: "to be in charge of, to be responsible for" }
+  - { id: "c1-leading-a-meeting-v020", group: "glossary", fr: "le parking à vélos", pron: "luh par-keeng ah vay-LOH", en: "the bike park" }
+  - { id: "c1-leading-a-meeting-v021", group: "glossary", fr: "l'aménagement (m.)", pron: "lah-may-nahzh-MAHN", en: "the fitting out, the arrangement (of a space)" }
+exercises:
+  - id: "c1-leading-a-meeting-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui ouvre une réunion."
+    options: ["Je déclare la séance ouverte.", "La séance est levée.", "Nous y reviendrons."]
+    answers: ["Je déclare la séance ouverte."]
+    explanation: "Je déclare la séance ouverte opens a formal meeting; la séance est levée closes it."
+  - id: "c1-leading-a-meeting-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Nous y reviendrons."
+    options: ["We'll come back to that point later.", "We'll come back next week.", "We'll go back to the office."]
+    answers: ["We'll come back to that point later."]
+    explanation: "Y stands for the point raised: the chair postpones it."
+  - id: "c1-leading-a-meeting-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe : Je ___ la parole à Madame Martin."
+    options: ["donne", "prends", "lève"]
+    answers: ["donne"]
+    explanation: "Donner la parole à quelqu'un: the chair gives the floor. You prendre la parole yourself."
+  - id: "c1-leading-a-meeting-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Nous allons mettre la proposition ___ voix."
+    options: ["aux", "à la", "en"]
+    answers: ["aux"]
+    explanation: "Mettre aux voix: to put to the vote."
+  - id: "c1-leading-a-meeting-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Nous allons voter à main ___."
+    answers: ["levée"]
+    explanation: "À main levée: by a show of hands. Main is feminine, so levée."
+  - id: "c1-leading-a-meeting-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Faisons un tour de ___ : chacun donne son avis."
+    answers: ["table"]
+    explanation: "Un tour de table: everyone speaks in turn."
+  - id: "c1-leading-a-meeting-ex007"
+    type: "reformulation"
+    prompt: "Reformulez avec « donner la parole à » : Madame Martin, c'est à vous de parler."
+    answers: ["Je donne la parole à Madame Martin", "Madame Martin, je vous donne la parole", "Je vous donne la parole, Madame Martin"]
+    strictAccents: true
+    explanation: "The chair gives the floor: je donne la parole à…, or je vous donne la parole."
+  - id: "c1-leading-a-meeting-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « acter », au passé composé : Nous avons noté de façon officielle cette décision."
+    answers: ["Nous avons acté cette décision"]
+    explanation: "Acter: to record formally."
+  - id: "c1-leading-a-meeting-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « nous y reviendrons » : Nous parlerons de ce point plus tard."
+    answers: ["Nous y reviendrons plus tard", "Nous y reviendrons"]
+    explanation: "Revenir à ce point: y reviendrons."
+  - id: "c1-leading-a-meeting-ex010"
+    type: "register-shift"
+    prompt: "Transformez en intervention diplomatique du président de séance, avec « je me permets de vous interrompre » : Arrêtez de parler, on n'a plus le temps."
+    answers: ["Je me permets de vous interrompre, nous n'avons plus le temps", "Je me permets de vous interrompre, car nous n'avons plus le temps"]
+    explanation: "A polite interruption, with nous instead of on in a formal meeting."
+  - id: "c1-leading-a-meeting-ex011"
+    type: "register-shift"
+    prompt: "Transformez en formule officielle de fin de séance : La réunion est finie."
+    answers: ["La séance est levée", "Je lève la séance"]
+    explanation: "Lever la séance: to close a formal meeting."
+  - id: "c1-leading-a-meeting-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Je passe la parole de Madame Martin."
+    answers: ["Je passe la parole à Madame Martin"]
+    explanation: "Passer la parole à quelqu'un."
+    strictAccents: true
+  - id: "c1-leading-a-meeting-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : La proposition a été adoptée à l'unanime."
+    answers: ["La proposition a été adoptée à l'unanimité"]
+    strictAccents: true
+    explanation: "À l'unanimité: unanimously."
+  - id: "c1-leading-a-meeting-ex014"
+    type: "translate"
+    prompt: "Traduisez (un relevé de décisions) : I will send you the record of decisions tomorrow."
+    answers: ["Je vous enverrai le relevé de décisions demain", "Je vais vous envoyer le relevé de décisions demain", "Je vous envoie le relevé de décisions demain"]
+    explanation: "Un relevé de décisions: short minutes that list only the decisions."
+  - id: "c1-leading-a-meeting-ex015"
+    type: "translate"
+    prompt: "Traduisez (s'abstenir) : Two participants abstained."
+    answers: ["Deux participants se sont abstenus", "Deux participantes se sont abstenues"]
+    explanation: "S'abstenir takes être in the passé composé, and the participle agrees."
+  - id: "c1-leading-a-meeting-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Let's get back to the agenda."
+    words: ["Revenons-en", "à", "l'ordre", "du", "jour"]
+    answers: ["Revenons-en à l'ordre du jour"]
+    explanation: "Revenons-en à: let's get back to."
+---
+
+By the end of this lesson you'll be able to chair a meeting in French: open it, give the floor, keep to time, calm a disagreement, put a proposal to the vote and record the decisions.
+
+## What you already know
+
+You know *l'ordre du jour*, *prendre la parole*, *passer la parole à*, *trancher*, *à l'unanimité* and *un compte rendu* from <LessonLink id="b2-meetings-and-calls" text="the lesson on meetings and professional calls" />, and *couper la parole à* and *revenons-en à* from <LessonLink id="b2-debating" text="the lesson on taking part in a debate" />. *La séance*, *lever la séance* and *le procès-verbal* come from <LessonLink id="c1-participle-clauses" text="the lesson on participle clauses" />. At B2 you took part in meetings; here you lead them.
+
+## The role of the chair
+
+*Le président* or *la présidente de séance* has three jobs: keep the meeting to its agenda and its time, make sure everyone can speak, and turn the discussion into decisions. Each job has its own formulas, and they're more formal than everyday conversation, even among colleagues who know each other well.
+
+## Opening
+
+<VocabTable group="open" />
+
+A formal meeting opens with a fixed sentence, then the purpose and the agenda.
+
+<Example fr="Il est dix-huit heures : je déclare la séance ouverte." en="It's six o'clock: I declare the meeting open." />
+<Example fr="Nous sommes réunis pour décider de l'aménagement du parking." en="We're here to decide how to fit out the car park." />
+
+In a less formal team meeting, *bon, on commence ?* does the same job in speech. Choose by the setting: a board or an association's general meeting needs the formula; a weekly team meeting doesn't.
+
+## Giving the floor and managing time
+
+<VocabTable group="floor" />
+
+The chair *donne la parole à* each speaker; speakers *prennent la parole*. *Un tour de table* gives everyone a turn, often at the start. To keep to time, interrupt politely and postpone: *je me permets de vous interrompre* and *nous y reviendrons* are the two most useful sentences of a chair.
+
+<Example fr="Je donne la parole à Madame Martin." en="I give the floor to Madame Martin." />
+<Example fr="Je me permets de vous interrompre : nous y reviendrons après le vote." en="May I interrupt you: we'll come back to that after the vote." />
+
+## Managing disagreement
+
+<VocabTable group="conflict" />
+
+When a discussion gets heated, the chair *apaise* (calms) and *recadre le débat* (brings it back to the point). The diplomatic tools from the last lessons work here too: acknowledge the point, name a possible misunderstanding, and return to the agenda.
+
+<Example fr="Je comprends tout à fait votre position. Il y a peut-être un malentendu." en="I fully understand your position. There may be a misunderstanding." />
+<Example fr="Revenons-en à l'ordre du jour : nous devons décider aujourd'hui." en="Let's get back to the agenda: we have to decide today." />
+
+<Example fr="La présidente a su apaiser les échanges." en="The chair managed to calm the discussion." />
+
+*Les échanges* is the neutral word for the discussion itself: *les échanges ont été vifs* (the discussion was heated).
+
+## Deciding
+
+<VocabTable group="decide" />
+
+When the discussion is over, the chair *met la proposition aux voix* (puts it to the vote). A vote *à main levée* (by a show of hands) is common in small meetings. Some participants may *s'abstenir*. The result is announced, and the chair *acte* the decision: records it formally.
+
+<Example fr="Je mets la proposition aux voix. Qui est pour ?" en="I'm putting the proposal to the vote. Who is in favour?" />
+<Example fr="La proposition est adoptée ; deux participants se sont abstenus." en="The proposal is adopted; two participants abstained." />
+<Example fr="Nous actons donc la création d'un parking à vélos." en="We therefore record the decision to create a bike park." />
+
+If the vote isn't needed, the chair can also *trancher*, as you saw at B2, or note that everyone agrees: *la décision est prise à l'unanimité*.
+
+## Closing and the written record
+
+<VocabTable group="close" />
+
+Before closing, the chair *fait la synthèse des échanges* in two or three sentences, then reads the decisions. Afterwards, someone writes it up. *Un procès-verbal* is the full, official record; *un compte rendu* reports the discussion; *un relevé de décisions* lists mainly what was decided, who will do it and by when, with very little about the discussion.
+
+<Example fr="Pour faire la synthèse des échanges : nous sommes d'accord sur le principe, mais pas sur le calendrier." en="To sum up the discussion: we agree on the principle, but not on the schedule." />
+<Example fr="L'ordre du jour étant épuisé, je lève la séance." en="As the agenda has been covered, I close the meeting." />
+
+## Chairing online
+
+Many meetings now take place by *visioconférence*, which you know from B2. The chair's job is the same, but the signals change. Ask participants to *couper leur micro* when they're not speaking, and to raise their hand in the tool rather than interrupt. Give the floor by name, because people can't see who you're looking at. Before a vote, say clearly how it will work.
+
+<Example fr="Pour voter, je vous propose de lever la main dans l'outil, et je compterai les voix." en="To vote, I suggest you raise your hand in the tool, and I'll count the votes." />
+
+Online, silence is harder to read than in a room. As a rule of thumb, after each important point, ask a direct question (*avez-vous des remarques ?*) and wait a few seconds before moving on.
+
+## A relevé de décisions
+
+This record is an original text written for this lesson. The association and the people are invented.
+
+*Association des habitants du quartier Saint-Jacques*
+
+*Relevé de décisions de la réunion du 12 mars*
+
+*Présents : douze membres du bureau. Présidente de séance : Madame Lefèvre.*
+
+*La séance est ouverte à dix-huit heures. Après un tour de table, les échanges portent sur trois points.*
+
+*Point 1 : l'aménagement de la cour de l'immeuble. Les membres s'accordent sur le principe d'un parking à vélos. La proposition de Monsieur Petit, qui prévoit vingt places, est mise aux voix à main levée : elle est adoptée par dix voix, deux membres s'étant abstenus. Le coût sera partagé entre l'association et le propriétaire de l'immeuble, sous réserve de l'accord de celui-ci. Madame Morel est chargée de demander trois devis avant le 15 avril.*
+
+*Point 2 : la fête du quartier. Monsieur Petit propose le 14 juin, et Madame Morel préfère un samedi plus tôt. Après des échanges assez vifs sur ce point, la présidente recadre le débat et propose un vote. La fête aura lieu le samedi 7 juin. Décision prise à l'unanimité.*
+
+*Point 3 : le bruit des travaux de la rue voisine. Plusieurs habitants se plaignent du bruit dès sept heures du matin. Madame Lefèvre écrira à la mairie pour demander combien de temps les travaux vont durer. La suite de ce point est reportée à la prochaine réunion, faute de temps. Nous y reviendrons en priorité.*
+
+*La présidente fait la synthèse des échanges, puis l'ordre du jour étant épuisé, lève la séance à vingt heures.*
+
+*Prochaine réunion : le 9 avril, à dix-huit heures. Ce relevé sera envoyé à tous les membres de l'association.*
+
+<VocabTable group="glossary" />
+
+(Saint-Jacques Residents' Association. Record of decisions of the meeting of 12 March. Present: twelve committee members. Chair: Madame Lefèvre. The meeting opens at 6 p.m. After a round, the discussion covers three points. Point 1: fitting out the building's courtyard. The members agree on the principle of a bike park. Monsieur Petit's proposal, which provides for twenty spaces, is put to a show-of-hands vote: it is adopted by ten votes, two members having abstained. The cost will be shared between the association and the owner of the building, subject to the owner's agreement. Madame Morel is to ask for three quotes before 15 April. Point 2: the neighbourhood party. Monsieur Petit proposes 14 June, and Madame Morel prefers an earlier Saturday. After a rather heated discussion on this point, the chair brings the debate back on track and proposes a vote. The party will take place on Saturday 7 June. Decision taken unanimously. Point 3: the noise from the works in the next street. Several residents complain about the noise from seven in the morning. Madame Lefèvre will write to the town hall to ask how long the works will last. The rest of this point is postponed to the next meeting, for lack of time. We will come back to it as a priority. The chair sums up the discussion, then, the agenda having been covered, closes the meeting at 8 p.m. Next meeting: 9 April, at 6 p.m. This record will be sent to all the members of the association.)
+
+## En français
+
+The meeting of 12 March, during point 2.
+
+- *Je donne la parole à Monsieur Petit.* (I give the floor to Monsieur Petit.)
+- *Merci. Pour la fête, je propose le 14 juin : il y a moins de monde en vacances.* (Thank you. For the party, I suggest 14 June: fewer people are on holiday.)
+- *Le 14 ? C'est le jour du marché ! Personne ne viendra.* (The 14th? That's market day! Nobody will come.)
+- *Ce n'est pas vrai, l'an dernier…* (That's not true, last year…)
+- *Je me permets de vous interrompre. Je comprends tout à fait vos deux positions.* (May I interrupt you. I fully understand both your positions.)
+- *Mais le marché, c'est important.* (But the market matters.)
+- *Il y a peut-être un malentendu : le marché finit à treize heures, et la fête commence le soir.* (There may be a misunderstanding: the market ends at 1 p.m., and the party starts in the evening.)
+- *Ah, je pensais que la fête commençait le matin.* (Ah, I thought the party started in the morning.)
+- *Revenons-en à l'ordre du jour : nous devons choisir un jour aujourd'hui. Je propose le 7 juin.* (Let's get back to the agenda: we have to choose a day today. I suggest 7 June.)
+- *Le 7, ça me va.* (The 7th suits me. (spoken))
+- *Moi aussi.* (Me too.)
+- *Je mets la proposition aux voix, à main levée. Qui est pour le 7 juin ?* (I'm putting the proposal to a show-of-hands vote. Who is in favour of 7 June?)
+- *Nous sommes tous pour.* (We're all in favour.)
+- *La décision est prise à l'unanimité. Nous l'actons.* (The decision is taken unanimously. We record it.)
+
+<Callout type="warning" title="Je donne la parole à…, not je prends la parole à…">
+  Learners often use *prendre la parole* for the chair. The chair **donne** or **passe la parole à** someone; a speaker **prend la parole**. *Je prends la parole à Madame Martin* means nothing.
+</Callout>
+
+<Callout type="tip" title="Prepare three sentences">
+  Before you chair a meeting, write three sentences on a card: one to open (*je déclare la séance ouverte*), one to interrupt (*je me permets de vous interrompre : nous y reviendrons*), and one to decide (*je mets la proposition aux voix*). Under pressure, these are the ones you'll need.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c1-review-professional" text="the review of this unit" /> brings law, finance, diplomacy, letters and meetings together in a formal letter announcing a decision.
+
+===== content/lessons/c1/review-professional.mdx =====
+---
+id: "c1-review-professional"
+title: "Review: Professional mastery"
+description: "Bring Unit 5 together in a formal letter announcing a decision: references and formulas, legal and budgetary vocabulary, a diplomatic refusal and a request, with an original letter from a town hall."
+level: "C1"
+unit: "Professional mastery"
+order: 38
+type: "review"
+tags: ["review", "professional", "formal letters", "diplomacy"]
+prerequisites: ["c1-law-and-institutions", "c1-finance-and-economics", "c1-diplomatic-language", "c1-formal-correspondence", "c1-leading-a-meeting"]
+related: ["c1-review-academic", "b2-formal-report", "c1-precise-verbs"]
+vocab:
+  - { id: "c1-review-professional-v001", group: "new", fr: "donner suite à", pron: "doh-nay SWEET ah", en: "to act on, to follow up (a request)" }
+  - { id: "c1-review-professional-v002", group: "new", fr: "un cahier des charges", pron: "uhn kah-yay day SHARZH", en: "a specification, a set of requirements" }
+  - { id: "c1-review-professional-v003", group: "new", fr: "un ordre de mission", pron: "uh-nor-druh duh mee-SYOHN", en: "a travel authorization (for a work trip)" }
+  - { id: "c1-review-professional-v004", group: "new", fr: "le montant", pron: "luh mohn-TAHN", en: "the amount (of money)" }
+  - { id: "c1-review-professional-v005", group: "glossary", fr: "la commune", pron: "lah koh-MEWN", en: "the municipality, the town (as a local authority)" }
+  - { id: "c1-review-professional-v006", group: "glossary", fr: "la salle des fêtes", pron: "lah sahl day FET", en: "the community hall" }
+  - { id: "c1-review-professional-v007", group: "glossary", fr: "le règlement", pron: "luh reh-gluh-MAHN", en: "the regulations, the rules" }
+  - { id: "c1-review-professional-v008", group: "glossary", fr: "versé / versée (verser)", pron: "vehr-SAY", en: "paid (to pay a sum)" }
+  - { id: "c1-review-professional-v009", group: "glossary", fr: "détaillé / détaillée", pron: "day-tah-YAY", en: "detailed" }
+  - { id: "c1-review-professional-v010", group: "glossary", fr: "l'adjoint / l'adjointe au maire", pron: "lad-ZHWAN / lad-ZHWANT oh MEHR", en: "the deputy mayor" }
+exercises:
+  - id: "c1-review-professional-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Le nouveau règlement entrera en vigueur le 1er juin."
+    options: ["The new rules will come into force on 1 June.", "The new rules will be repealed on 1 June.", "The new rules will be voted on 1 June."]
+    answers: ["The new rules will come into force on 1 June."]
+    explanation: "Entrer en vigueur: to come into force. Repealed is abrogé."
+  - id: "c1-review-professional-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Compte tenu de la baisse des ___, la commune réduit ses dépenses."
+    options: ["recettes", "déficits", "taux d'intérêt"]
+    answers: ["recettes"]
+    explanation: "When revenue falls, a town cuts its spending: la baisse des recettes."
+  - id: "c1-review-professional-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez la réponse la plus diplomatique."
+    options: ["Il ne nous sera malheureusement pas possible de mettre la salle à votre disposition.", "Nous refusons de vous prêter la salle.", "La salle n'est pas pour vous."]
+    answers: ["Il ne nous sera malheureusement pas possible de mettre la salle à votre disposition."]
+    explanation: "Impersonal, in the future, with malheureusement."
+  - id: "c1-review-professional-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : J'ai l'honneur ___ vous informer que votre demande a été acceptée."
+    options: ["de", "à", "pour"]
+    answers: ["de"]
+    explanation: "J'ai l'honneur de + infinitive."
+  - id: "c1-review-professional-ex005"
+    type: "fill-in"
+    prompt: "Accordez le participe de « s'abstenir » : Deux membres du conseil se sont ___."
+    answers: ["abstenus"]
+    explanation: "S'abstenir takes être; the participle agrees with deux membres."
+  - id: "c1-review-professional-ex006"
+    type: "fill-in"
+    prompt: "Complétez : L'entreprise doit respecter le cahier des ___."
+    answers: ["charges"]
+    explanation: "Un cahier des charges: the set of requirements."
+  - id: "c1-review-professional-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Avant votre voyage à Lyon, demandez votre ordre de ___ au service."
+    answers: ["mission"]
+    explanation: "Un ordre de mission authorizes a work trip."
+  - id: "c1-review-professional-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « donner suite à » : Le conseil a décidé d'accepter votre demande et d'agir."
+    answers: ["Le conseil a décidé de donner suite à votre demande"]
+    strictAccents: true
+    explanation: "Donner suite à une demande: to act on it."
+  - id: "c1-review-professional-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « il ne nous sera malheureusement pas possible de » : Nous ne pourrons pas vous prêter la salle."
+    answers: ["Il ne nous sera malheureusement pas possible de vous prêter la salle"]
+    explanation: "The impersonal refusal of the lesson on diplomatic language."
+  - id: "c1-review-professional-ex010"
+    type: "register-shift"
+    prompt: "Transformez en formule administrative, avec « j'ai l'honneur de » : Je vous écris pour vous dire que votre demande est acceptée."
+    answers: ["J'ai l'honneur de vous informer que votre demande est acceptée", "J'ai l'honneur de vous informer que votre demande a été acceptée"]
+    strictAccents: true
+    explanation: "J'ai l'honneur de vous informer que… opens an administrative letter."
+  - id: "c1-review-professional-ex011"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « compte tenu de la rigueur budgétaire » : Comme on a moins d'argent cette année, la subvention est réduite."
+    answers: ["Compte tenu de la rigueur budgétaire, la subvention est réduite", "La subvention est réduite compte tenu de la rigueur budgétaire"]
+    explanation: "Compte tenu de + noun replaces comme + clause."
+  - id: "c1-review-professional-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : En vertu à ce règlement, la salle est fermée."
+    answers: ["En vertu de ce règlement, la salle est fermée"]
+    explanation: "En vertu de + the text."
+  - id: "c1-review-professional-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Madame la Présidente Moreau,"
+    answers: ["Madame la Présidente,"]
+    explanation: "With a title, no name."
+  - id: "c1-review-professional-ex014"
+    type: "translate"
+    prompt: "Traduisez avec « donner suite à » : We will not be able to act on your request."
+    answers: ["Nous ne pourrons pas donner suite à votre demande", "Il ne nous sera pas possible de donner suite à votre demande"]
+    explanation: "Donner suite à une demande, in a refusal."
+    strictAccents: true
+  - id: "c1-review-professional-ex015"
+    type: "translate"
+    prompt: "Traduisez avec « un cahier des charges » et « ci-joint » : Please find the specifications attached."
+    answers: ["Veuillez trouver ci-joint le cahier des charges", "Vous trouverez ci-joint le cahier des charges"]
+    explanation: "Veuillez trouver ci-joint, or vous trouverez ci-joint."
+  - id: "c1-review-professional-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : We will be sure to answer you."
+    words: ["Nous", "ne", "manquerons", "pas", "de", "vous", "répondre"]
+    answers: ["Nous ne manquerons pas de vous répondre"]
+    explanation: "Nous ne manquerons pas de + infinitive: a formal promise."
+---
+
+By the end of this lesson you'll be able to write a formal letter that announces a decision, combining the legal, budgetary and diplomatic French of this unit.
+
+## What you've learned
+
+This unit has been about professional French at its most formal: the language of institutions, money, tact, letters and meetings. Skim this list, and go back to anything that feels shaky.
+
+- **Law and institutions**: you know *entrer en vigueur*, *abroger*, *en vertu de*, *former un recours* and the two orders of courts, from <LessonLink id="c1-law-and-institutions" text="the lesson on law and institutions" />.
+- **Finance and economics**: you know *les recettes*, *le déficit*, *la dette publique*, *la rigueur budgétaire* and *un placement*, from <LessonLink id="c1-finance-and-economics" text="the lesson on finance and economics" />.
+- **Diplomatic language**: you know *il ne nous sera malheureusement pas possible de*, *sauf erreur de ma part* and *nous ne manquerons pas de*, from <LessonLink id="c1-diplomatic-language" text="the lesson on diplomatic language" />.
+- **Formal correspondence**: you know the layout, *Madame la Présidente*, *j'ai l'honneur de*, *je vous saurais gré de bien vouloir* and the full closing formulas, from <LessonLink id="c1-formal-correspondence" text="the lesson on high-register correspondence" />.
+- **Meetings**: you know *donner la parole à*, *mettre aux voix*, *s'abstenir*, *acter* and *un relevé de décisions*, from <LessonLink id="c1-leading-a-meeting" text="the lesson on leading a meeting" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+These four words are frequent in professional letters. *Donner suite à* is to act on a request or an offer; it's often used in the negative, in a refusal. *Un cahier des charges* sets out the requirements a project or a supplier must meet. *Un ordre de mission* is the document that authorizes a work trip. *Le montant* is an amount of money.
+
+<Example fr="Nous avons le plaisir de donner suite à votre demande." en="We are pleased to act on your request." />
+<Example fr="Le cahier des charges précise les règles de sécurité." en="The specification sets out the safety rules." />
+<Example fr="Mon ordre de mission couvre le voyage et l'hôtel." en="My travel authorization covers the journey and the hotel." />
+<Example fr="Le montant de la subvention sera versé en juin." en="The amount of the grant will be paid in June." />
+
+## Announcing a decision: the plan
+
+A letter that announces a decision, especially a mixed one, follows a clear order. As a rule of thumb:
+
+1. **The fixed parts**: references, *à l'attention de*, place and date, *l'objet*, the salutation with a title.
+2. **The context**: *en réponse à votre courrier du…*, and who decided, when (*lors de sa séance du…*).
+3. **The positive decision first**, with its conditions: *le conseil a décidé de donner suite à…*, *compte tenu de…*.
+4. **The refusal**, diplomatic and justified: *en revanche, il ne nous sera malheureusement pas possible de…*, with the reason, and the rule if there is one (*en vertu de…*).
+5. **The request**: what the other side must do, and by when (*je vous saurais gré de bien vouloir… avant le…*).
+6. **An alternative or a promise**: *sauf erreur de ma part…*, *nous ne manquerons pas de…*.
+7. **The full closing formula**, repeating the title.
+
+Putting the positive decision first makes the refusal easier to accept, and putting the request after both decisions shows what happens next.
+
+## A model letter
+
+This letter is an original text written for this lesson. The town, the association and the people are invented.
+
+*Mairie de Saint-Aubin, service des associations*
+
+*N/Réf. : SA-114*
+
+*À l'attention de Madame Clara Moreau, présidente de l'association « Théâtre en ville »*
+
+*Saint-Aubin, le 18 avril*
+
+*Objet : votre demande de subvention et de salle*
+
+*Madame la Présidente,*
+
+*En réponse à votre courrier du 2 mars, j'ai l'honneur de vous informer que le conseil municipal a étudié votre demande lors de sa séance du 15 avril.*
+
+*Le conseil a décidé de donner suite à votre demande de subvention pour le festival d'été. Compte tenu de la rigueur budgétaire qu'impose cette année la baisse des recettes de la commune, le montant de cette subvention sera cependant limité à la moitié de la somme demandée.*
+
+*En revanche, il ne nous sera malheureusement pas possible de mettre la salle des fêtes à votre disposition en juillet : des travaux, prévus depuis l'an dernier, y auront lieu pendant tout l'été. Nous mesurons tout à fait la déception que cette décision peut causer.*
+
+*En vertu du règlement municipal, toute manifestation publique doit respecter un cahier des charges. Afin que la subvention puisse être versée, je vous saurais gré de bien vouloir nous adresser, avant le 31 mai, le budget détaillé du festival et le cahier des charges signé.*
+
+*Sauf erreur de ma part, votre association a déjà joué dans la cour de l'école l'an dernier. Ce lieu pourrait, sous réserve de l'accord de la directrice, accueillir certaines représentations. Nous ne manquerons pas de vous tenir informée de sa réponse.*
+
+*Je vous prie d'agréer, Madame la Présidente, l'expression de mes salutations distinguées.*
+
+*Pour le maire, l'adjointe chargée des associations*
+
+<VocabTable group="glossary" />
+
+(Saint-Aubin town hall, associations department. Our ref.: SA-114. For the attention of Madame Clara Moreau, president of the association "Théâtre en ville". Saint-Aubin, 18 April. Subject: your request for a grant and a hall. Madam President, In reply to your letter of 2 March, I have the honour to inform you that the town council examined your request at its meeting of 15 April. The council decided to act on your request for a grant for the summer festival. In view of the budgetary restraint imposed this year by the fall in the town's revenue, the amount of this grant will, however, be limited to half of the sum requested. On the other hand, we will unfortunately not be able to put the community hall at your disposal in July: works, planned since last year, will take place there all summer. We fully appreciate the disappointment this decision may cause. Under the town regulations, every public event must respect a set of requirements. So that the grant can be paid, I would be grateful if you would send us, before 31 May, the detailed budget of the festival and the signed set of requirements. Unless I'm mistaken, your association performed in the school yard last year. This place could, subject to the head teacher's agreement, host some performances. We will be sure to keep you informed of her reply. Yours faithfully, for the mayor, the deputy mayor for associations.)
+
+## How the letter uses the unit
+
+- **Formal correspondence**: the references (*N/Réf.*), *à l'attention de*, *l'objet*, *Madame la Présidente* in the salutation and the closing, *en réponse à votre courrier*, *j'ai l'honneur de vous informer*, *je vous saurais gré de bien vouloir*.
+- **Meetings**: the decision was taken *lors de sa séance du 15 avril*.
+- **Finance**: *la rigueur budgétaire*, *la baisse des recettes*, *le montant*, *le budget détaillé*.
+- **Law and rules**: *en vertu du règlement municipal*, *sous réserve de l'accord de la directrice*.
+- **Diplomacy**: the positive decision comes first; the refusal uses *en revanche*, *il ne nous sera malheureusement pas possible de*, a reason and *nous mesurons tout à fait la déception*; the close uses *sauf erreur de ma part* and *nous ne manquerons pas de*.
+- **New words**: *donner suite à*, *le montant*, *un cahier des charges*.
+
+## Your turn
+
+You work for a company. A colleague, Monsieur Lambert, has asked to travel to a trade fair in Lyon next month, with a hotel for three nights. Your manager agrees to the trip, but only for two nights, because of the travel budget. Write the letter (or formal email) that tells him, in eight to ten sentences.
+
+Follow the seven steps of the plan. Use *donner suite à* for the positive decision, *un ordre de mission* for the document he must sign, a diplomatic refusal for the third night, and a request with *je vous saurais gré de bien vouloir* and a date. Close with the full formula.
+
+## Check your work
+
+- Does the letter put the positive decision before the refusal?
+- Is the refusal impersonal (*il ne nous sera pas possible de*) and justified in one short sentence?
+- Is every request dated and polite (*je vous saurais gré de bien vouloir… avant le…*)?
+- Does the closing formula repeat the salutation exactly?
+- Did you avoid *cordialement* and the name after a title?
+
+<Callout type="warning" title="Donner suite à votre demande, not donner suite de votre demande">
+  Learners often use *de* after *suite*, as in *à la suite de*. The verb takes **à**: **nous ne pourrons pas donner suite à votre demande**, **le conseil a décidé de donner suite à votre offre**.
+</Callout>
+
+<Callout type="tip" title="Good news first, then the no">
+  When a letter must say yes to one thing and no to another, write the yes in the first paragraph after the context, and the no in the next one, opening with *en revanche*. Readers accept a refusal better when they've just read that part of their request was granted.
+</Callout>
+
+## What's next
+
+The next unit is about ideas and society. It starts with the lesson on philosophy and ideas.
+

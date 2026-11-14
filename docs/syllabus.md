@@ -477,12 +477,12 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 33 | c1-law-and-institutions | Law and institutions | Professional mastery | vocabulary | b2-politics-and-society | Courts, contracts, rights, legal register: le tribunal, la plainte, en vertu de. |
-| 34 | c1-finance-and-economics | Finance and economics | Professional mastery | vocabulary | b2-economy-and-business | Markets, investment, public finances, economic policy. |
-| 35 | c1-diplomatic-language | Diplomatic language | Professional mastery | communication | b2-persuasion-and-hedging, b2-conditionnel-passe | Tactful refusals, softened criticism, face-saving phrasing. |
-| 36 | c1-formal-correspondence | High-register correspondence | Professional mastery | communication | b1-formal-email, b2-registers | Formules de politesse, official letters, administrative French. |
-| 37 | c1-leading-a-meeting | Leading a meeting | Professional mastery | communication | b2-meetings-and-calls, c1-diplomatic-language | Chairing, managing disagreement, steering to a decision. |
-| 38 | c1-review-professional | Review: Professional mastery | Professional mastery | review | c1-law-and-institutions, c1-finance-and-economics, c1-future-in-the-past, c1-formal-correspondence, c1-leading-a-meeting | Write formal correspondence on a sensitive professional issue. |
+| 33 | c1-law-and-institutions | Law and institutions | Professional mastery | vocabulary | b2-politics-and-society, b1-culture-french-republic | Courts, contracts, rights, legal register: le tribunal, la plainte, en vertu de. |
+| 34 | c1-finance-and-economics | Finance and economics | Professional mastery | vocabulary | b2-economy-and-business, b2-presenting-data | Markets, investment, public finances, economic policy. |
+| 35 | c1-diplomatic-language | Diplomatic language | Professional mastery | communication | b2-negotiating, b2-regret-and-reproach, b2-persuasion-and-hedging | Tactful refusals, softened criticism, face-saving phrasing. |
+| 36 | c1-formal-correspondence | High-register correspondence | Professional mastery | communication | b1-formal-email, b1-cover-letter, b2-registers, c1-diplomatic-language | Formules de politesse, official letters, administrative French. |
+| 37 | c1-leading-a-meeting | Leading a meeting | Professional mastery | communication | b2-meetings-and-calls, b2-debating, c1-diplomatic-language, c1-participle-clauses | Chairing, managing disagreement, steering to a decision. |
+| 38 | c1-review-professional | Review: Professional mastery | Professional mastery | review | c1-law-and-institutions, c1-finance-and-economics, c1-diplomatic-language, c1-formal-correspondence, c1-leading-a-meeting | Write formal correspondence on a sensitive professional issue. |
 
 ### Unit 6: Ideas and society
 
