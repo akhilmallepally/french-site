@@ -4,7 +4,12 @@ A C1 lesson that links to a lesson that isn't written yet uses plain text instea
 
 Restored in Prompt 29: c1-passe-anterieur → c1-future-in-the-past and c1-stylistic-inversion → c1-ne-expletif (What's next links).
 
+Restored in Prompt 30: c1-future-in-the-past → c1-imperfect-subjunctive and c1-literary-negation → c1-dislocation-and-fronting (What's next links).
+
+Restored in Prompt 31: c1-tricky-prepositions → c1-precise-verbs (What's next link).
+
 | Lesson | Text | Target |
 |---|---|---|
-| c1-future-in-the-past | "The next lesson, on the imperfect and pluperfect subjunctive, shows…" (What's next) | c1-imperfect-subjunctive |
-| c1-literary-negation | "Next, the lesson on dislocation and fronting shows…" (What's next) | c1-dislocation-and-fronting |
+| c1-imperfect-subjunctive | "The lesson on concession and hypothesis comes back to it in Unit 3." (Two other uses) | c1-concession-and-hypothesis |
+| c1-imperfect-subjunctive | "Next, the lesson on reading literary narrative puts…" (What's next) | c1-reading-literary-narrative |
+| c1-review-style | "The next unit is about academic writing. It starts with the lesson on participle clauses." (What's next) | c1-participle-clauses |

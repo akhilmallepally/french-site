@@ -1,0 +1,1063 @@
+===== content/lessons/c1/imperfect-subjunctive.mdx =====
+---
+id: "c1-imperfect-subjunctive"
+title: "Imperfect and pluperfect subjunctive"
+description: "Recognize the imparfait and plus-que-parfait du subjonctif in classic texts (qu'il fût, qu'il eût, qu'il vînt, qu'il eût fini), tell them from the passé simple, read il eût préféré and fût-il, and give their modern equivalents."
+level: "C1"
+unit: "Literary French"
+order: 4
+type: "grammar"
+tags: ["grammar", "subjunctive", "literary French", "recognition"]
+prerequisites: ["c1-passe-simple", "b2-subjonctif-passe"]
+related: ["b2-reported-speech-past", "b2-registers", "c1-future-in-the-past"]
+vocab:
+  - { id: "c1-imperfect-subjunctive-v001", group: "forms", fr: "l'imparfait du subjonctif", pron: "lan-par-FEH dew sewb-zhohnk-TEEF", en: "the imperfect subjunctive (literary)" }
+  - { id: "c1-imperfect-subjunctive-v002", group: "forms", fr: "qu'il parlât / qu'ils parlassent", pron: "keel par-LAH / keel par-LASS", en: "that he spoke / that they spoke (literary)", note: "Modern: qu'il parle, qu'ils parlent." }
+  - { id: "c1-imperfect-subjunctive-v003", group: "forms", fr: "qu'il finît", pron: "keel fee-NEE", en: "that he finished (literary)", note: "Modern: qu'il finisse." }
+  - { id: "c1-imperfect-subjunctive-v004", group: "forms", fr: "qu'il fût", pron: "keel FEW", en: "that he was (literary)", note: "Être. Modern: qu'il soit." }
+  - { id: "c1-imperfect-subjunctive-v005", group: "forms", fr: "qu'il eût", pron: "kee-LEW", en: "that he had (literary)", note: "Avoir. Modern: qu'il ait." }
+  - { id: "c1-imperfect-subjunctive-v006", group: "forms", fr: "qu'il fît", pron: "keel FEE", en: "that he did, that he made (literary)", note: "Faire. Modern: qu'il fasse." }
+  - { id: "c1-imperfect-subjunctive-v007", group: "forms", fr: "qu'il vînt", pron: "keel VAN", en: "that he came (literary)", note: "Venir. Modern: qu'il vienne." }
+  - { id: "c1-imperfect-subjunctive-v008", group: "forms", fr: "il fallait que", pron: "eel fah-LEH kuh", en: "it was necessary that, (someone) had to", note: "The imparfait of il faut que, + subjunctive." }
+  - { id: "c1-imperfect-subjunctive-v009", group: "words", fr: "le registre littéraire", pron: "luh ruh-zhees-truh lee-tay-REHR", en: "the literary register" }
+  - { id: "c1-imperfect-subjunctive-v010", group: "words", fr: "l'accent circonflexe (m.)", pron: "lak-SAHN seer-kohn-FLEKS", en: "the circumflex accent" }
+  - { id: "c1-imperfect-subjunctive-v011", group: "words", fr: "le roi / la reine", pron: "luh RWAH / lah REN", en: "the king / the queen" }
+  - { id: "c1-imperfect-subjunctive-v012", group: "words", fr: "la porte du château", pron: "lah por-tuh dew shah-TOH", en: "the castle gate" }
+  - { id: "c1-imperfect-subjunctive-v013", group: "pluperfect", fr: "le plus-que-parfait du subjonctif", pron: "luh plews-kuh-par-FEH dew sewb-zhohnk-TEEF", en: "the pluperfect subjunctive (literary)" }
+  - { id: "c1-imperfect-subjunctive-v014", group: "pluperfect", fr: "qu'il eût fini / qu'il fût parti", pron: "kee-lew fee-NEE / keel few par-TEE", en: "that he had finished / that he had left (literary)", note: "Modern: qu'il ait fini, qu'il soit parti." }
+  - { id: "c1-imperfect-subjunctive-v015", group: "pluperfect", fr: "il eût préféré", pron: "ee-lew pray-fay-RAY", en: "he would have preferred (literary)", note: "= il aurait préféré." }
+  - { id: "c1-imperfect-subjunctive-v016", group: "pluperfect", fr: "on eût dit", pron: "oh-new DEE", en: "you would have thought, it looked like (literary)", note: "= on aurait dit." }
+  - { id: "c1-imperfect-subjunctive-v017", group: "pluperfect", fr: "fût-il", pron: "FEW-teel", en: "even if he were (literary)", note: "Fût-il malade = même s'il était malade." }
+exercises:
+  - id: "c1-imperfect-subjunctive-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps de « fût » dans la phrase : Bien qu'il fût malade, il partit."
+    options: ["l'imparfait du subjonctif", "le passé simple", "l'imparfait"]
+    answers: ["l'imparfait du subjonctif"]
+    explanation: "Bien que needs the subjunctive, and fût has a circumflex: it's the imparfait du subjonctif of être. Partit is the passé simple."
+  - id: "c1-imperfect-subjunctive-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps de « fut » dans la phrase : Il fut malade tout l'hiver."
+    options: ["le passé simple", "l'imparfait du subjonctif", "le présent"]
+    answers: ["le passé simple"]
+    explanation: "No que, no trigger and no circumflex: fut is the passé simple of être, an event in a story."
+  - id: "c1-imperfect-subjunctive-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps du verbe en gras dans chaque phrase : (1) Le roi voulait qu'il **vînt**. (2) Le roi **vint** le soir."
+    options: ["(1) imparfait du subjonctif, (2) passé simple", "(1) passé simple, (2) imparfait du subjonctif", "(1) et (2) passé simple"]
+    answers: ["(1) imparfait du subjonctif, (2) passé simple"]
+    explanation: "After voulait que, with a circumflex, vînt is the subjunctive. Vint, with no que and no accent, is the passé simple."
+  - id: "c1-imperfect-subjunctive-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez la forme moderne de « qu'il vînt » dans la phrase : Il fallait qu'il vînt avant la nuit."
+    options: ["qu'il vienne", "qu'il viendrait", "qu'il est venu"]
+    answers: ["qu'il vienne"]
+    explanation: "Modern French uses the present subjunctive, whatever the tense of the main verb: il fallait qu'il vienne."
+  - id: "c1-imperfect-subjunctive-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Il eût préféré se taire."
+    options: ["He would have preferred to keep quiet.", "He had preferred to keep quiet.", "He preferred to keep quiet."]
+    answers: ["He would have preferred to keep quiet."]
+    explanation: "Il eût préféré is a literary conditionnel passé: il aurait préféré."
+  - id: "c1-imperfect-subjunctive-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « Fût-il » dans la phrase : Fût-il malade, il viendrait."
+    options: ["Even if he were ill", "Because he was ill", "When he was ill"]
+    answers: ["Even if he were ill"]
+    explanation: "Fût-il at the start of a sentence, with inversion, is concessive: même s'il était malade."
+  - id: "c1-imperfect-subjunctive-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez la forme du subjonctif : Le roi ordonna qu'on ___ la porte du château."
+    options: ["fermât", "ferma", "fermera"]
+    answers: ["fermât"]
+    explanation: "Ordonner que takes the subjunctive; after a past main verb, a classic text uses the imparfait du subjonctif: qu'on fermât. Ferma is the passé simple, and fermera the futur."
+  - id: "c1-imperfect-subjunctive-ex008"
+    type: "fill-in"
+    prompt: "Conjuguez au subjonctif (être) : Il fallait que la porte du château ___ fermée avant la nuit."
+    answers: ["soit", "fût"]
+    explanation: "Modern French says soit. A classic text would write fût, with a circumflex; fut without it is the passé simple."
+    strictAccents: true
+  - id: "c1-imperfect-subjunctive-ex009"
+    type: "fill-in"
+    prompt: "Conjuguez au subjonctif (avoir fini) : Bien qu'il ___ son travail, il resta au bureau."
+    answers: ["ait fini", "eût fini"]
+    explanation: "Modern French uses the passé subjunctive, ait fini. A classic text would use the plus-que-parfait du subjonctif, eût fini."
+    strictAccents: true
+  - id: "c1-imperfect-subjunctive-ex010"
+    type: "reformulation"
+    prompt: "Reformulez en français moderne : Je voulais qu'il vînt."
+    answers: ["Je voulais qu'il vienne"]
+    explanation: "Vînt becomes the present subjunctive, vienne. The main verb stays in the imparfait."
+  - id: "c1-imperfect-subjunctive-ex011"
+    type: "reformulation"
+    prompt: "Reformulez en français moderne : Il eût préféré partir."
+    answers: ["Il aurait préféré partir"]
+    explanation: "Il eût préféré is the literary form of the conditionnel passé, il aurait préféré."
+    strictAccents: true
+  - id: "c1-imperfect-subjunctive-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec le subjonctif passé : Je regrettais qu'il fût parti."
+    answers: ["Je regrettais qu'il soit parti"]
+    explanation: "Fût parti is the plus-que-parfait du subjonctif; its modern equivalent is the passé subjunctive, soit parti."
+  - id: "c1-imperfect-subjunctive-ex013"
+    type: "register-shift"
+    prompt: "Transformez en français courant, en gardant « bien que » : Bien qu'elle fût fatiguée, elle travaillait encore."
+    answers: ["Bien qu'elle soit fatiguée, elle travaillait encore"]
+    explanation: "Fût becomes soit. Modern French keeps the present subjunctive after a main verb in the past."
+  - id: "c1-imperfect-subjunctive-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (un récit au passé simple, sans subjonctif) : Ce soir-là, il fût très heureux."
+    answers: ["Ce soir-là, il fut très heureux"]
+    explanation: "There's no que and no trigger, so this is the passé simple of être: fut, without a circumflex."
+    strictAccents: true
+  - id: "c1-imperfect-subjunctive-ex015"
+    type: "translate"
+    prompt: "Traduisez en français moderne, avec « il fallait que » (partir) : He had to leave before nightfall."
+    answers: ["Il fallait qu'il parte avant la nuit"]
+    explanation: "Il fallait que + present subjunctive in modern French: qu'il parte."
+  - id: "c1-imperfect-subjunctive-ex016"
+    type: "translate"
+    prompt: "Traduisez en français moderne (regretter, partir) : She was sorry that he had left."
+    answers: ["Elle regrettait qu'il soit parti", "Elle a regretté qu'il soit parti"]
+    strictAccents: true
+    explanation: "Regretter que + passé subjunctive for an earlier action: qu'il soit parti."
+  - id: "c1-imperfect-subjunctive-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Although he was ill, he left. (literary)"
+    words: ["Bien", "qu'il", "fût", "malade", "il", "partit"]
+    answers: ["Bien qu'il fût malade, il partit", "Il partit bien qu'il fût malade"]
+    explanation: "Bien que + imparfait du subjonctif (fût), then the passé simple (partit). The bien que clause can also come second."
+---
+
+By the end of this lesson you'll be able to recognize the two literary tenses of the subjunctive in classic texts, tell them from the passé simple, and say what each form means in modern French.
+
+## What you already know
+
+In <LessonLink id="b2-subjonctif-passe" text="the lesson on the past subjunctive" />, you learned that modern French needs only two subjunctives, the present and the passé, whatever the tense of the main verb, and that two other tenses belong to old literary texts. This lesson is about those two. You'll also use the passé simple forms from <LessonLink id="c1-passe-simple" text="the lesson on the passé simple" />, because the new forms are built on them.
+
+## Where you'll meet them
+
+<VocabTable group="forms" />
+
+*L'imparfait du subjonctif* and *le plus-que-parfait du subjonctif* belong to *le registre littéraire* (the literary register). You'll find them in novels and plays from before the twentieth century, in some very formal writing, and in a few fixed phrases. They aren't used in conversation.
+
+In practice, you'll mostly meet the third person singular: *qu'il fût*, *qu'il eût*, *qu'elle vînt*. The other persons, such as *qu'ils parlassent*, are rare even in classic texts, and today they can sound comic.
+
+These forms usually follow a main verb in the past. That's the classic rule of the *concordance des temps*, which you met for the indicative in <LessonLink id="b2-reported-speech-past" text="the lesson on reported speech in the past" />. In classic French, it also applied to the subjunctive.
+
+<VocabTable group="words" />
+
+<Example fr="Le roi voulait que la reine vînt avec lui." en="The king wanted the queen to come with him. (literary)" />
+<Example fr="Le roi voulait que la reine vienne avec lui." en="The king wanted the queen to come with him. (standard)" />
+
+## How the imparfait du subjonctif is formed
+
+Take the passé simple, *tu* form (*tu parlas*, *tu finis*, *tu fus*, *tu eus*, *tu fis*, *tu vins*), and add *-se*, *-ses*, *-sions*, *-siez* or *-sent*: *que je parlasse*, *qu'ils parlassent*. In the third person singular, the final *s* is replaced by *l'accent circonflexe* (the circumflex accent) on the vowel and a *-t*: *qu'il parlât*, *qu'il fût*, *qu'il vînt*.
+
+| Verb | Passé simple | Imparfait du subjonctif | Modern equivalent |
+|---|---|---|---|
+| parler | *il parla* | *qu'il parlât* | *qu'il parle* |
+| finir | *il finit* | *qu'il finît* | *qu'il finisse* |
+| être | *il fut* | *qu'il fût* | *qu'il soit* |
+| avoir | *il eut* | *qu'il eût* | *qu'il ait* |
+| faire | *il fit* | *qu'il fît* | *qu'il fasse* |
+| venir | *il vint* | *qu'il vînt* | *qu'il vienne* |
+
+In the plural, you'll sometimes see *qu'ils parlassent*, *qu'ils fussent* or *qu'ils eussent*. You don't need to learn the whole table: if you know the passé simple, you'll recognize the stem.
+
+<Example fr="Il fallait qu'il vînt avant la nuit." en="He had to come before nightfall. (literary)" />
+<Example fr="Le roi ordonna qu'on fermât la porte du château." en="The king ordered the castle gate to be shut. (literary)" />
+<Example fr="Elle attendait qu'il lui parlât." en="She was waiting for him to speak to her. (literary)" />
+
+## Subjunctive or passé simple?
+
+In the third person singular, the two tenses look almost the same. Two clues tell them apart. The subjunctive has a circumflex (and, in *-er* verbs, a final *-t*: *parla*, *parlât*), and it follows *que* after a trigger such as *il fallait*, *vouloir*, *bien que* or *avant que*. The passé simple tells an event, with no *que* in front.
+
+| Imparfait du subjonctif | Passé simple |
+|---|---|
+| *qu'il fût* | *il fut* |
+| *qu'il eût* | *il eut* |
+| *qu'il fît* | *il fit* |
+| *qu'il vînt* | *il vint* |
+| *qu'il parlât* | *il parla* |
+
+<Example fr="Bien qu'il fût malade, il partit." en="Although he was ill, he left. (literary)" />
+
+In this sentence, *fût* is the subjunctive after *bien que*, and *partit* is the passé simple of the story.
+
+## The plus-que-parfait du subjonctif
+
+<VocabTable group="pluperfect" />
+
+The *plus-que-parfait du subjonctif* is *avoir* or *être* in the imparfait du subjonctif (*eût*, *fût*), followed by the past participle. It shows an action finished before the past main verb. Its modern equivalent is the passé subjunctive.
+
+<Example fr="Bien qu'il eût fini son travail, il resta au bureau." en="Although he had finished his work, he stayed at the office. (literary)" />
+<Example fr="Je regrettais qu'elle fût partie si tôt." en="I was sorry she had left so early. (literary)" />
+
+In modern French: *bien qu'il ait fini*, *je regrettais qu'elle soit partie*.
+
+## Two other uses: il eût préféré and fût-il
+
+The same forms have two uses outside a *que* clause.
+
+The first is a literary conditionnel passé. *Il eût préféré* means exactly *il aurait préféré* (he would have preferred). The phrase *on eût dit* (you would have thought, it looked like) is still found in careful writing.
+
+<Example fr="Il eût préféré rester chez lui." en="He would have preferred to stay at home. (literary)" />
+<Example fr="On eût dit un enfant perdu." en="He looked like a lost child. (literary)" />
+
+The second is a concessive form at the start of a sentence, with inversion: *fût-il* means "even if he were". The lesson on concession and hypothesis comes back to it in Unit 3.
+
+<Example fr="Fût-il malade, il viendrait." en="Even if he were ill, he would come. (literary)" />
+
+In modern French: *même s'il était malade, il viendrait*.
+
+## The classic sequence and the modern one
+
+In classic French, the tense of the subjunctive followed the main verb:
+
+- After a main verb in the present or future: the present or passé subjunctive (*je veux qu'il vienne*).
+- After a main verb in the past, for the same time or later: the imparfait du subjonctif (*je voulais qu'il vînt*).
+- After a main verb in the past, for an earlier action: the plus-que-parfait du subjonctif (*je regrettais qu'il fût parti*).
+
+Modern French keeps only the first line, whatever the main verb: *je voulais qu'il vienne*, *je regrettais qu'il soit parti*. When you rewrite a classic sentence in modern French, change only the subjunctive and keep the main verb as it is.
+
+## In your own writing
+
+You need to read these forms, not to write them. In a very formal text, a third person singular form such as *qu'il fût* or *qu'il eût* is still possible, and some writers like it. As a rule of thumb, use it only where the rest of the text is just as formal, and never in an email or in speech. In every exercise of this course, the present or passé subjunctive is accepted wherever these forms are possible.
+
+## The whole list
+
+- Imparfait du subjonctif: the *tu* form of the passé simple + *-se*, *-ses*…, with a circumflex and *-t* for *il*: *qu'il parlât, finît, fût, eût, fît, vînt*. Modern: present subjunctive.
+- Plus-que-parfait du subjonctif: *eût* or *fût* + participle; *qu'il eût fini, qu'il fût parti*. Modern: passé subjunctive.
+- *Il eût préféré* = *il aurait préféré*; *on eût dit* = *on aurait dit*.
+- *Fût-il* + adjective: "even if he were".
+- Subjunctive or passé simple: look for *que* and the circumflex.
+
+## En français
+
+Inès has found an old family letter. She reads it with her grandfather.
+
+- *Papi, j'ai trouvé une vieille lettre de ta grand-mère dans une boîte.* (Grandpa, I found an old letter from your grandmother in a box.)
+- *Ah ! Elle l'a écrite en 1920, à sa sœur. Lis-moi le début.* (Ah! She wrote it in 1920, to her sister. Read me the beginning.)
+- *« Notre père voulait que Jean vînt avec nous. » Vînt ? C'est le passé simple ?* ("Notre père voulait que Jean vînt avec nous." Vînt? Is that the passé simple?)
+- *Non, regarde l'accent circonflexe et le « que » : c'est l'imparfait du subjonctif.* (No, look at the circumflex and the "que": it's the imperfect subjunctive.)
+- *Et aujourd'hui, on dirait quoi ?* (And what would we say today?)
+- *« Notre père voulait que Jean vienne avec nous. » Le sens ne change pas.* ("Notre père voulait que Jean vienne avec nous." The meaning doesn't change.)
+- *D'accord. Plus loin : « Bien qu'il fût malade, il partit le lendemain. »* (OK. Further on: "Bien qu'il fût malade, il partit le lendemain.")
+- *Là, tu as les deux temps : fût est un subjonctif, et partit, un passé simple.* (There you have both tenses: fût is a subjunctive, and partit a passé simple.)
+- *Et cette phrase : « Il eût préféré rester. »* (And this sentence: "Il eût préféré rester.")
+- *C'est un conditionnel passé littéraire. Aujourd'hui, on dit « il aurait préféré rester ».* (It's a literary conditionnel passé. Today, we say "il aurait préféré rester".)
+- *Ta grand-mère écrivait comme dans un roman !* (Your grandmother wrote like someone in a novel!)
+- *En 1920, beaucoup de gens écrivaient encore comme ça.* (In 1920, a lot of people still wrote like that.)
+- *Et toi, tu l'écris, l'imparfait du subjonctif ?* (And you, do you write the imperfect subjunctive? (spoken))
+- *Jamais ! Mais je sais encore le lire.* (Never! But I can still read it.)
+
+<Callout type="warning" title="Il fut malade, not il fût malade">
+  Learners who have just met the subjunctive often put a circumflex on the passé simple. In a story, with no *que* and no trigger, the verb is the passé simple and has no circumflex: **ce soir-là, il fut très heureux**. Keep *fût* for the subjunctive: **bien qu'il fût malade**.
+</Callout>
+
+<Callout type="tip" title="Read it twice">
+  When a classic text slows you down, read each hard sentence twice: once as it's written, and once in your head with the modern form (*fût* becomes *soit*, *eût fini* becomes *ait fini*). The second reading gives you the meaning, and the first trains your eye for the next text.
+</Callout>
+
+## En résumé
+
+L'imparfait du subjonctif et le plus-que-parfait du subjonctif sont deux temps du registre littéraire. On les trouve dans les vieux romans et dans l'écrit très soutenu, surtout après un verbe principal au passé. Pour trouver l'imparfait du subjonctif, on part du passé simple : il parla donne qu'il parlât, il fut donne qu'il fût, il vint donne qu'il vînt. Avec il ou elle, l'accent circonflexe et le que montrent que c'est un subjonctif, et pas un passé simple. Le plus-que-parfait du subjonctif se forme avec eût ou fût et le participe passé : qu'il eût fini, qu'il fût parti. Aujourd'hui, on dit qu'il parle, qu'il vienne, qu'il ait fini ou qu'il soit parti. Il eût préféré a le sens de il aurait préféré, et fût-il malade veut dire même s'il était malade. Il faut savoir lire ces formes, mais on n'a pas besoin de les écrire.
+
+## What's next
+
+Next, the lesson on reading literary narrative puts the passé simple, the passé antérieur and these subjunctive forms together in a longer story.
+
+===== content/lessons/c1/dislocation-and-fronting.mdx =====
+---
+id: "c1-dislocation-and-fronting"
+title: "Dislocation and fronting"
+description: "Put the topic first or last in speech (ce film, je l'ai adoré; je l'ai adoré, ce film) with the right pronoun, and front words in formal writing (rares sont ceux qui, reste à savoir si, telle est la raison), choosing the emphasis that fits the register."
+level: "C1"
+unit: "Style and emphasis"
+order: 12
+type: "grammar"
+tags: ["grammar", "emphasis", "word order", "registers"]
+prerequisites: ["b2-mise-en-relief", "b2-colloquial-french", "c1-stylistic-inversion"]
+related: ["c1-literary-negation", "c1-passe-simple", "b2-registers"]
+vocab:
+  - { id: "c1-dislocation-and-fronting-v001", group: "spoken", fr: "la dislocation", pron: "lah dees-loh-kah-SYOHN", en: "dislocation (moving a word to the start or end of the sentence and repeating it with a pronoun)" }
+  - { id: "c1-dislocation-and-fronting-v002", group: "spoken", fr: "le sujet de la phrase", pron: "luh sew-zheh duh lah FRAHZ", en: "the topic, what the sentence is about", note: "Also the grammatical subject." }
+  - { id: "c1-dislocation-and-fronting-v003", group: "written", fr: "rares sont ceux qui", pron: "rahr sohn suh KEE", en: "few people…, there are few who… (formal)", note: "Rares sont les pièces qui… The adjective agrees." }
+  - { id: "c1-dislocation-and-fronting-v004", group: "written", fr: "nombreux sont ceux qui", pron: "nohn-bruh sohn suh KEE", en: "many people… (formal)", note: "Nombreuses sont les femmes qui…" }
+  - { id: "c1-dislocation-and-fronting-v005", group: "written", fr: "reste à savoir si", pron: "rest ah sah-VWAHR see", en: "it remains to be seen whether (formal)", note: "Standard: il reste à savoir si." }
+  - { id: "c1-dislocation-and-fronting-v006", group: "written", fr: "reste la question de", pron: "rest lah kes-TYOHN duh", en: "there remains the question of (formal)", note: "Plural: restent deux questions." }
+  - { id: "c1-dislocation-and-fronting-v007", group: "written", fr: "tel est / telle est", pron: "teh-LEH / teh-LEH", en: "such is, that is (formal)", note: "Tel agrees with the noun after it: telle est la raison, tels sont les faits." }
+  - { id: "c1-dislocation-and-fronting-v008", group: "written", fr: "le sort", pron: "luh SOR", en: "fate, lot", note: "Tel fut son sort (literary, passé simple): such was his fate." }
+  - { id: "c1-dislocation-and-fronting-v009", group: "words", fr: "la pièce de théâtre", pron: "lah pyes duh tay-AH-truh", en: "the play" }
+  - { id: "c1-dislocation-and-fronting-v010", group: "words", fr: "le comédien / la comédienne", pron: "luh koh-may-DYAN / lah koh-may-DYEN", en: "the actor / the actress (on stage)", note: "Not a comedian: that's un humoriste." }
+  - { id: "c1-dislocation-and-fronting-v011", group: "words", fr: "le décor", pron: "luh day-KOR", en: "the set, the scenery" }
+  - { id: "c1-dislocation-and-fronting-v012", group: "words", fr: "la représentation", pron: "lah ruh-pray-zahn-tah-SYOHN", en: "the performance (of a play)" }
+  - { id: "c1-dislocation-and-fronting-v013", group: "words", fr: "bouleverser", pron: "bool-vehr-SAY", en: "to move deeply, to overwhelm; to upset" }
+  - { id: "c1-dislocation-and-fronting-v014", group: "words", fr: "la critique", pron: "lah kree-TEEK", en: "the review (of a show or book); criticism" }
+  - { id: "c1-dislocation-and-fronting-v015", group: "words", fr: "le metteur en scène", pron: "luh meh-tuhr ahn SEN", en: "the director (of a play)" }
+exercises:
+  - id: "c1-dislocation-and-fronting-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez où on entend surtout cette phrase : Ce film, je l'ai adoré."
+    options: ["à l'oral", "dans un rapport officiel"]
+    answers: ["à l'oral"]
+    explanation: "Dislocation is a feature of speech. A formal report would say j'ai adoré ce film, or c'est ce film que j'ai adoré."
+  - id: "c1-dislocation-and-fronting-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Ton frère, je ___ ai écrit hier."
+    options: ["lui", "l'", "en"]
+    answers: ["lui"]
+    explanation: "Écrire à quelqu'un: the person is taken up by lui."
+  - id: "c1-dislocation-and-fronting-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Du café, j'___ bois trois tasses par jour."
+    options: ["en", "le", "y"]
+    answers: ["en"]
+    explanation: "An amount (du café, trois tasses) is taken up by en."
+  - id: "c1-dislocation-and-fronting-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Ce projet, j'___ pense tous les jours."
+    options: ["y", "en", "le"]
+    answers: ["y"]
+    explanation: "Penser à quelque chose: the thing is taken up by y."
+  - id: "c1-dislocation-and-fronting-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Le chocolat, j'adore ça."
+    options: ["I love chocolate (in general).", "I love this particular chocolate.", "I don't like chocolate."]
+    answers: ["I love chocolate (in general)."]
+    explanation: "Ça takes up a noun used in a general sense. For one particular chocolate, you'd say ce chocolat, je l'adore."
+  - id: "c1-dislocation-and-fronting-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Rares sont ceux qui lisent ce roman jusqu'à la fin."
+    options: ["Few people read this novel to the end.", "Many people read this novel to the end.", "The people who read this novel to the end are strange."]
+    answers: ["Few people read this novel to the end."]
+    explanation: "Rares sont ceux qui: few people. Rare here means few in number, not strange."
+  - id: "c1-dislocation-and-fronting-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le temps de « fut » dans la phrase : Tel fut son sort."
+    options: ["le passé simple", "l'imparfait du subjonctif", "le présent"]
+    answers: ["le passé simple"]
+    explanation: "Fut, with no circumflex and no que, is the passé simple of être: such was his fate."
+  - id: "c1-dislocation-and-fronting-ex008"
+    type: "fill-in"
+    prompt: "Accordez « tel » : ___ est la raison de mon départ."
+    answers: ["Telle"]
+    explanation: "Tel agrees with the noun that follows: la raison is feminine singular, so telle."
+  - id: "c1-dislocation-and-fronting-ex009"
+    type: "fill-in"
+    prompt: "Accordez « tel » : ___ sont les faits."
+    answers: ["Tels"]
+    explanation: "Les faits is masculine plural, so tels."
+  - id: "c1-dislocation-and-fronting-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « rares sont ceux qui » : Peu de gens comprennent ce texte."
+    answers: ["Rares sont ceux qui comprennent ce texte"]
+    explanation: "Rares comes first, then sont, then ceux qui + verb in the plural."
+  - id: "c1-dislocation-and-fronting-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « reste à savoir si » : On ne sait pas encore si le projet réussira."
+    answers: ["Reste à savoir si le projet réussira", "Il reste à savoir si le projet réussira", "Reste à savoir si le projet va réussir", "Il reste à savoir si le projet va réussir"]
+    explanation: "Reste à savoir si opens the sentence; il reste à savoir si is the standard version."
+    strictAccents: true
+  - id: "c1-dislocation-and-fronting-ex012"
+    type: "register-shift"
+    prompt: "Transformez au registre courant écrit, sans dislocation : Ce film, je l'ai adoré."
+    answers: ["J'ai adoré ce film", "C'est ce film que j'ai adoré"]
+    explanation: "In writing, use the plain order, or c'est… que to keep the emphasis."
+  - id: "c1-dislocation-and-fronting-ex013"
+    type: "register-shift"
+    prompt: "Transformez à l'oral, avec une dislocation au début de la phrase : J'ai déjà vu cette pièce de théâtre."
+    answers: ["Cette pièce de théâtre, je l'ai déjà vue"]
+    explanation: "The topic goes first, then l' before the verb. L' stands for a feminine noun placed before avoir, so the participle agrees: vue."
+  - id: "c1-dislocation-and-fronting-ex014"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « telle est » : C'est la raison de notre choix."
+    answers: ["Telle est la raison de notre choix"]
+    explanation: "Telle est replaces c'est in formal writing; telle agrees with la raison."
+  - id: "c1-dislocation-and-fronting-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur en gardant la dislocation : Ce roman, je lui ai adoré."
+    answers: ["Ce roman, je l'ai adoré"]
+    explanation: "Adorer takes a direct object, so the topic is taken up by le (l'), not lui."
+  - id: "c1-dislocation-and-fronting-ex016"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Rares sont ceux qui le sait."
+    answers: ["Rares sont ceux qui le savent"]
+    explanation: "Ceux is plural, so the verb is too: ceux qui le savent."
+  - id: "c1-dislocation-and-fronting-ex017"
+    type: "translate"
+    prompt: "Traduisez au registre soutenu, avec « nombreux sont ceux qui » (aimer) : Many people love this play."
+    answers: ["Nombreux sont ceux qui aiment cette pièce", "Nombreux sont ceux qui aiment cette pièce de théâtre"]
+    explanation: "Nombreux comes first, then sont ceux qui + verb in the plural."
+  - id: "c1-dislocation-and-fronting-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre, avec le sujet de la phrase au début : I loved that film. (spoken)"
+    words: ["Ce", "film", "je", "l'ai", "adoré"]
+    answers: ["Ce film, je l'ai adoré"]
+    explanation: "Left dislocation: the topic first, then the pronoun l' before the verb."
+---
+
+By the end of this lesson you'll be able to put the topic first or last in spoken French with the right pronoun, front a word in formal writing, and choose the kind of emphasis that fits the register.
+
+## What you already know
+
+In <LessonLink id="b2-mise-en-relief" text="the lesson on emphasis" />, you learned *c'est… qui*, *c'est… que* and *ce qui…, c'est*, and you met spoken dislocation briefly: *moi, je préfère le train*, *le café, je l'adore*. In <LessonLink id="b2-colloquial-french" text="the lesson on spoken, everyday French" />, you saw that speakers announce the subject and then repeat it: *mon frère, il travaille à Lyon*. This lesson shows how dislocation works with every kind of pronoun, and what formal writing does instead.
+
+## Left dislocation: the topic first
+
+<VocabTable group="spoken" />
+
+In speech, French often puts *le sujet de la phrase* (the topic, what the sentence is about) at the start, and then takes it up with a pronoun inside the sentence. This is called *la dislocation*. The pronoun is the one the verb needs.
+
+| The verb takes… | Pronoun | Example |
+|---|---|---|
+| a direct object | *le, la, les* | *Ce film, je l'ai adoré.* |
+| *à* + a person | *lui, leur* | *Ton frère, je lui ai écrit.* |
+| *à* + a thing | *y* | *Ce projet, j'y pense souvent.* |
+| *de* + a thing, or an amount | *en* | *Du café, j'en bois trop.* |
+| a subject | *il, elle, ils, elles* | *Mon frère, il travaille à Lyon.* |
+
+<Example fr="Cette pièce de théâtre, je l'ai vue deux fois." en="I've seen that play twice. (spoken)" />
+<Example fr="Tes parents, tu leur as parlé ?" en="Have you spoken to your parents? (spoken)" />
+<Example fr="Des comédiens comme ça, il y en a peu." en="There aren't many actors like that. (spoken)" />
+
+The past participle agrees as usual when a direct object pronoun comes before it: *la pièce… je l'ai vue*. In the English translations, the topic goes back to its normal place, because English rarely needs a pronoun to repeat it.
+
+## Ça for a general idea
+
+When the topic is a noun in a general sense, especially with verbs of liking, speakers often take it up with *ça*, not with *le*. Treat this as a rule of thumb.
+
+<Example fr="Le chocolat, j'adore ça." en="I love chocolate. (spoken; chocolate in general)" />
+<Example fr="Ce chocolat, je l'adore." en="I love this chocolate. (spoken; one particular chocolate)" />
+
+## Right dislocation: the topic at the end
+
+The topic can also come at the end, after a pronoun that announces it. This is common when the topic is already clear from the situation, or as an afterthought.
+
+<Example fr="Je l'ai adoré, ce film." en="I loved that film. (spoken)" />
+<Example fr="Il est où, ton sac ?" en="Where's your bag? (spoken)" />
+<Example fr="Elle m'a bouleversé, cette représentation." en="That performance moved me deeply. (spoken; a man speaking)" />
+
+## Moi, je… and two topics at once
+
+A stressed pronoun (*moi*, *toi*, *lui*, *nous*…) at the start marks a contrast with other people: *moi, je reste*. You can combine it with a second topic, which gives a sentence with two dislocations.
+
+<Example fr="Moi, ce décor, je l'ai trouvé très beau." en="Personally, I found that set very beautiful. (spoken)" />
+
+Keep one or two topics at most; more than that is hard to follow, even in speech.
+
+## A spoken feature
+
+Dislocation is normal in conversation, at every level of speech, and you'll also find it in informal writing such as messages and chat. In a report, an essay or a formal letter, it sounds like speech. There, use the plain order, or *c'est… que*, or *quant à* for a new topic.
+
+<Example fr="J'ai beaucoup aimé la mise en scène." en="I liked the staging very much." />
+<Example fr="C'est la mise en scène que j'ai le plus aimée." en="It was the staging that I liked most." />
+
+## Fronting in formal writing
+
+<VocabTable group="written" />
+
+Formal writing has its own ways of putting a word first. They don't repeat anything with a pronoun: the word moves, and the subject often comes after the verb.
+
+**Rares sont ceux qui** and **nombreux sont ceux qui** put the adjective first, then *être*, then the subject. The adjective agrees with the noun: *rares sont les pièces*, *nombreuses sont les comédiennes*. They're more elegant than *peu de gens* or *beaucoup de gens*.
+
+<Example fr="Rares sont ceux qui ont vu la première représentation." en="Few people saw the first performance. (formal)" />
+<Example fr="Nombreuses sont les critiques qui saluent le metteur en scène." en="Many reviews praise the director. (formal)" />
+
+**Reste** at the start, without *il*, introduces what is still to be dealt with. *Reste à savoir si* means "it remains to be seen whether". With a plural noun, the verb is plural: *restent deux questions*. The standard versions are *il reste à savoir si* and *il reste la question de*.
+
+<Example fr="Reste à savoir si le public suivra." en="It remains to be seen whether the audience will follow. (formal)" />
+<Example fr="Reste la question du décor." en="There remains the question of the set. (formal)" />
+
+**Tel est**, **telle est**, **tels sont** and **telles sont** sum up what came before. *Tel* agrees with the noun that follows. In literary narrative, you'll also read it with the passé simple, for recognition: *tel fut son sort* (such was his fate).
+
+<Example fr="Telle est la raison de notre choix." en="That is the reason for our choice. (formal)" />
+<Example fr="Il ne revint jamais. Tel fut son sort." en="He never came back. Such was his fate. (literary)" />
+
+You already know *toujours est-il que* (the fact remains that) from <LessonLink id="c1-stylistic-inversion" text="the lesson on stylistic inversion" />. It works the same way: it puts the main point at the front of a formal sentence.
+
+## Choosing the emphasis
+
+| Speech | Standard writing | Formal writing |
+|---|---|---|
+| *Ce film, je l'ai adoré.* | *C'est ce film que j'ai adoré.* | *Rares sont les films qui m'ont autant touché.* |
+| *Des gens comme lui, il y en a peu.* | *Il y a peu de gens comme lui.* | *Rares sont ceux qui lui ressemblent.* |
+| *C'est ça, la raison.* | *Voilà la raison.* | *Telle est la raison.* |
+
+As a rule of thumb, match the emphasis to the register of the rest of your text. A fronted *rares sont ceux qui* in a text message sounds stiff, and a dislocation in a formal letter sounds careless.
+
+## Words for a show
+
+<VocabTable group="words" />
+
+*Le comédien* is an actor on stage, not a comedian. *La critique* is both a review and criticism in general. *Bouleverser* means to move someone deeply, and also to upset or turn something upside down.
+
+<Example fr="Les comédiens ont joué devant une salle pleine." en="The actors played to a full house." />
+<Example fr="La critique a été très dure avec le metteur en scène." en="The review was very harsh on the director." />
+
+## The whole list
+
+- Left dislocation: topic first, then a pronoun (*le, lui, y, en, il*…): *ce film, je l'ai adoré*.
+- *Ça* for a general idea: *le chocolat, j'adore ça*.
+- Right dislocation: pronoun first, topic at the end: *je l'ai adoré, ce film*.
+- *Moi, je…*: contrast with others.
+- All of these are spoken or informal.
+- Formal fronting: *rares* or *nombreux sont ceux qui*, *reste à savoir si*, *reste la question de*, *telle est la raison*.
+
+## En français
+
+Malik and Clara are leaving the theatre. Clara writes reviews for a local newspaper.
+
+- *Alors, la pièce, tu l'as aimée ?* (So, did you like the play? (spoken))
+- *Moi, je l'ai adorée. Les comédiens, ils étaient très bons.* (I loved it. The actors were very good. (spoken))
+- *Le décor, je l'ai trouvé un peu triste.* (I found the set a bit gloomy. (spoken))
+- *Tu trouves ? Moi, il m'a beaucoup plu, ce décor.* (Do you think so? I liked that set a lot. (spoken))
+- *Et la fin, tu en penses quoi ?* (And what do you think of the ending? (spoken))
+- *Elle m'a bouleversée. Je vais écrire une critique pour le journal.* (It moved me deeply. I'm going to write a review for the paper.)
+- *Tu vas écrire comme tu parles ?* (Are you going to write the way you speak?)
+- *Non ! Écoute : « Rares sont les pièces aussi émouvantes. »* (No! Listen: "Few plays are so moving.")
+- *C'est plus joli que « des pièces aussi émouvantes, il y en a peu ».* (That sounds nicer than "plays as moving as that, there aren't many". (spoken))
+- *Et à la fin : « Telle est la force de cette pièce : elle vous suit longtemps. »* (And at the end: "Such is the power of this play: it stays with you for a long time.")
+- *Et le décor ?* (And the set?)
+- *« Reste la question du décor, que tout le monde n'aimera pas. »* ("There remains the question of the set, which not everyone will like.")
+- *Ça, c'est pour moi !* (That one's for me! (spoken))
+- *Exactement. Ton avis, je l'ai noté.* (Exactly. I've noted your opinion. (spoken))
+
+<Callout type="warning" title="Ce roman, je l'ai adoré, not je lui ai adoré">
+  Learners often pick the pronoun by the person or thing, not by the verb. The pronoun is the one the verb needs: *adorer* takes a direct object, so **ce roman, je l'ai adoré**; *écrire à* takes *lui*, so **ton frère, je lui ai écrit**.
+</Callout>
+
+<Callout type="tip" title="Hunt for the comma">
+  When you reread a formal text you've written, look for a comma followed by a pronoun near the start of a sentence (*Ce point, il…*, *Le budget, nous l'…*). Each one is probably a dislocation from your speaking habits. Rewrite it in the plain order or with *c'est… que*.
+</Callout>
+
+## En résumé
+
+La dislocation est une façon de mettre un mot en relief à l'oral. On met le sujet de la phrase au début, puis on le reprend avec le pronom dont le verbe a besoin : ce film, je l'ai adoré ; ton frère, je lui ai écrit ; ce projet, j'y pense ; du café, j'en bois trop. Pour une idée générale, on dit souvent ça : le chocolat, j'adore ça. On peut aussi mettre le mot à la fin : je l'ai adoré, ce film. Moi, je… montre une différence avec les autres. À l'écrit soutenu, on évite la dislocation. On met plutôt un mot en tête sans pronom : rares sont ceux qui, nombreux sont ceux qui, reste à savoir si, reste la question de, telle est la raison. Tel s'accorde avec le nom qui suit. Il faut donc choisir la mise en relief selon le registre du texte.
+
+## What's next
+
+Next, <LessonLink id="c1-adverb-placement" text="the lesson on adverb placement" /> shows how moving one small word, such as *seulement* or *même*, can change what a sentence means.
+
+===== content/lessons/c1/adverb-placement.mdx =====
+---
+id: "c1-adverb-placement"
+title: "Adverb placement and nuance"
+description: "Move seulement, même and aussi to change what a sentence means, use sentence adverbs (visiblement, décidément, forcément), and place long adverbs in compound tenses, with placements given as tendencies."
+level: "C1"
+unit: "Style and emphasis"
+order: 13
+type: "grammar"
+tags: ["grammar", "adverbs", "word order", "nuance"]
+prerequisites: ["a2-adverbs-ment", "b1-ne-que-ni-ni", "c1-stylistic-inversion"]
+related: ["b2-registers", "c1-dislocation-and-fronting", "b1-conditionnel-present"]
+vocab:
+  - { id: "c1-adverb-placement-v001", group: "position", fr: "Seulement, …", pron: "suhl-MAHN", en: "the only thing is…, but… (at the start of a sentence)", note: "Le restaurant est bon. Seulement, il est cher." }
+  - { id: "c1-adverb-placement-v002", group: "position", fr: "même (= even)", pron: "MEM", en: "even", note: "Before the word it stresses: même Paul, il a même ri." }
+  - { id: "c1-adverb-placement-v003", group: "position", fr: "lui-même / elle-même / eux-mêmes", pron: "lwee-MEM / el-MEM / uh-MEM", en: "himself / herself / themselves (for emphasis)", note: "Même agrees in the plural: nous-mêmes, eux-mêmes." }
+  - { id: "c1-adverb-placement-v004", group: "position", fr: "le jour même", pron: "luh zhoor MEM", en: "that very day", note: "Le même jour: the same day." }
+  - { id: "c1-adverb-placement-v005", group: "position", fr: "la virgule", pron: "lah veer-GEWL", en: "the comma" }
+  - { id: "c1-adverb-placement-v006", group: "position", fr: "rire / il a ri", pron: "reer / ee-lah REE", en: "to laugh / he laughed" }
+  - { id: "c1-adverb-placement-v007", group: "sentence", fr: "un adverbe de phrase", pron: "uh-nad-vehr-buh duh FRAHZ", en: "a sentence adverb (one that comments on the whole sentence)" }
+  - { id: "c1-adverb-placement-v008", group: "sentence", fr: "visiblement", pron: "vee-zee-bluh-MAHN", en: "visibly, evidently (from what you can see)" }
+  - { id: "c1-adverb-placement-v009", group: "sentence", fr: "décidément", pron: "day-see-day-MAHN", en: "really, definitely (after the same thing has happened again)", note: "Décidément, tu es toujours en retard !" }
+  - { id: "c1-adverb-placement-v010", group: "sentence", fr: "forcément", pron: "for-say-MAHN", en: "necessarily, inevitably", note: "Pas forcément: not necessarily." }
+  - { id: "c1-adverb-placement-v011", group: "sentence", fr: "sérieusement", pron: "say-ryuhz-MAHN", en: "seriously" }
+  - { id: "c1-adverb-placement-v012", group: "long", fr: "complètement", pron: "kohn-plet-MAHN", en: "completely" }
+  - { id: "c1-adverb-placement-v013", group: "long", fr: "longuement", pron: "lohng-MAHN", en: "at length, for a long time" }
+  - { id: "c1-adverb-placement-v014", group: "long", fr: "attentivement", pron: "ah-tahn-teev-MAHN", en: "carefully, attentively" }
+  - { id: "c1-adverb-placement-v015", group: "long", fr: "soigneusement", pron: "swah-nyuhz-MAHN", en: "carefully, neatly" }
+  - { id: "c1-adverb-placement-v016", group: "long", fr: "relire", pron: "ruh-LEER", en: "to reread, to read over", note: "Like lire: j'ai relu." }
+  - { id: "c1-adverb-placement-v017", group: "long", fr: "l'examen (m.)", pron: "leg-zah-MAN", en: "the exam" }
+exercises:
+  - id: "c1-adverb-placement-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Même Paul a ri."
+    options: ["Even Paul laughed.", "Paul himself laughed.", "Paul laughed again."]
+    answers: ["Even Paul laughed."]
+    explanation: "Même before a noun means even: Paul, of all people, laughed."
+  - id: "c1-adverb-placement-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Paul lui-même a ri."
+    options: ["Paul himself laughed.", "Even Paul laughed.", "Paul laughed at himself."]
+    answers: ["Paul himself laughed."]
+    explanation: "Lui-même after the noun stresses the person: Paul himself, not someone else."
+  - id: "c1-adverb-placement-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « le jour même » dans la phrase : Il a reçu la lettre et il est parti le jour même."
+    options: ["that very day", "the next day", "every day"]
+    answers: ["that very day"]
+    explanation: "After the noun, même means very: le jour même, that very day."
+  - id: "c1-adverb-placement-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « Aussi » dans la phrase : Il pleuvait. Aussi sommes-nous restés à la maison."
+    options: ["therefore", "also", "as"]
+    answers: ["therefore"]
+    explanation: "At the start of a sentence, followed by inversion, aussi means therefore (formal)."
+  - id: "c1-adverb-placement-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « Seulement » dans la phrase : Le restaurant est excellent. Seulement, il est très cher."
+    options: ["the only thing is", "only the restaurant", "not only"]
+    answers: ["the only thing is"]
+    explanation: "Seulement at the start of a sentence, with a comma, introduces a drawback: the only thing is, but."
+  - id: "c1-adverb-placement-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « franchement » dans la phrase : Il nous a parlé franchement."
+    options: ["in a frank way (how he spoke)", "frankly, in my opinion (a comment on the whole sentence)"]
+    answers: ["in a frank way (how he spoke)"]
+    explanation: "After the verb, with no comma, franchement describes the manner. At the start, with a comma, it would comment on the sentence: franchement, il nous a menti."
+  - id: "c1-adverb-placement-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui veut dire « He spoke to Marie and to nobody else »."
+    options: ["Il a parlé seulement à Marie.", "Seulement, il a parlé à Marie.", "Il a même parlé à Marie."]
+    answers: ["Il a parlé seulement à Marie."]
+    explanation: "Right before à Marie, seulement restricts Marie. At the start, it means the only thing is; même means even."
+  - id: "c1-adverb-placement-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez l'adverbe : Tu es encore en retard ! ___, tu ne changeras jamais."
+    options: ["Décidément", "Heureusement", "Lentement"]
+    answers: ["Décidément"]
+    explanation: "Décidément comments on something that has happened once again."
+  - id: "c1-adverb-placement-ex009"
+    type: "connector-choice"
+    prompt: "Choisissez l'adverbe : Les livres chers sont meilleurs ? Pas ___."
+    options: ["forcément", "décidément", "lentement"]
+    answers: ["forcément"]
+    explanation: "Pas forcément: not necessarily."
+  - id: "c1-adverb-placement-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « Aussi » en tête de phrase et l'inversion : Il pleuvait, donc nous sommes restés à la maison."
+    answers: ["Il pleuvait. Aussi sommes-nous restés à la maison"]
+    explanation: "Aussi (therefore) opens the second sentence, and the subject pronoun goes after the auxiliary: sommes-nous restés."
+    strictAccents: true
+  - id: "c1-adverb-placement-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « complètement » : Il a oublié la réunion."
+    answers: ["Il a complètement oublié la réunion", "Il a oublié complètement la réunion", "Il a oublié la réunion complètement"]
+    explanation: "Before the participle is the most usual place for complètement; after the participle or at the end is also possible."
+    strictAccents: true
+  - id: "c1-adverb-placement-ex012"
+    type: "translate"
+    prompt: "Traduisez (même) : Even my brother understood."
+    answers: ["Même mon frère a compris"]
+    strictAccents: true
+    explanation: "Même goes right before the word it stresses: même mon frère."
+  - id: "c1-adverb-placement-ex013"
+    type: "translate"
+    prompt: "Traduisez avec « visiblement » : She was visibly tired."
+    answers: ["Elle était visiblement fatiguée", "Visiblement, elle était fatiguée", "Elle était fatiguée, visiblement"]
+    explanation: "A sentence adverb can go after the verb, at the start with a comma, or at the end with a comma."
+  - id: "c1-adverb-placement-ex014"
+    type: "translate"
+    prompt: "Traduisez avec « longuement » et « y » (réfléchir) : I thought about it at length."
+    answers: ["J'y ai longuement réfléchi", "J'y ai réfléchi longuement"]
+    explanation: "Longuement often goes between the auxiliary and the participle; after the participle is also correct."
+  - id: "c1-adverb-placement-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Ils ont tout fait eux-même."
+    answers: ["Ils ont tout fait eux-mêmes"]
+    explanation: "Même agrees with a plural pronoun: eux-mêmes."
+  - id: "c1-adverb-placement-ex016"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (le sens : not necessarily true) : Ce n'est forcément pas vrai."
+    answers: ["Ce n'est pas forcément vrai"]
+    explanation: "Pas forcément means not necessarily: pas comes first. Forcément pas would mean necessarily not."
+  - id: "c1-adverb-placement-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Even my sister came."
+    words: ["Même", "ma", "sœur", "est", "venue"]
+    answers: ["Même ma sœur est venue"]
+    explanation: "Même right before ma sœur: even my sister. Ma sœur est même venue would mean my sister even came, as an extra."
+---
+
+By the end of this lesson you'll be able to move *seulement*, *même* and *aussi* to change what a sentence means, use sentence adverbs to comment on what you say, and place long adverbs in compound tenses.
+
+## What you already know
+
+In <LessonLink id="a2-adverbs-ment" text="the lesson on adverbs" />, you placed short adverbs between the auxiliary and the participle (*j'ai bien mangé*) and most *-ment* adverbs after it, as a guide. You know *seulement* from <LessonLink id="b1-ne-que-ni-ni" text="the lesson on ne… que and ni… ni" />, and *aussi* with inversion (therefore) from <LessonLink id="b2-registers" text="the lesson on registers" />, which <LessonLink id="c1-stylistic-inversion" text="the lesson on stylistic inversion" /> came back to. This lesson is about how the position of an adverb can change its meaning.
+
+## Seulement: what it restricts
+
+<VocabTable group="position" />
+
+*Seulement* restricts the word it stands next to, usually the one right after it. Put it where the restriction belongs.
+
+<Example fr="Il travaille seulement le matin." en="He works only in the morning." />
+<Example fr="Il a parlé seulement à Marie." en="He spoke only to Marie (to nobody else)." />
+
+Between the auxiliary and the participle, *seulement* often restricts the action itself: *il a seulement lu le résumé* (he only read the summary, he didn't read the book). In speech, the voice shows what's restricted; in writing, put *seulement* right before the word you mean, or use *ne… que*.
+
+At the start of a sentence, followed by a comma, *seulement* changes meaning: it introduces a drawback, like "the only thing is" or "but".
+
+<Example fr="Le restaurant est très bon. Seulement, il est cher." en="The restaurant is very good. The only thing is, it's expensive." />
+
+## Même: even, or itself
+
+*Même* has two meanings, and its position tells them apart.
+
+- **Before a noun or a pronoun**, *même* means "even": *même Paul a ri* (even Paul laughed).
+- **After a stressed pronoun**, joined with a hyphen, it means "himself, herself": *lui-même*, *elle-même*. In the plural, *même* agrees: *nous-mêmes*, *eux-mêmes*.
+- **After a noun**, it means "very" or "itself": *le jour même* (that very day).
+
+<Example fr="Même les enfants ont compris." en="Even the children understood." />
+<Example fr="Le directeur lui-même est venu nous voir." en="The director himself came to see us." />
+<Example fr="Il a reçu la lettre et il est parti le jour même." en="He got the letter and left that very day." />
+
+Compare *le même jour* (the same day), where *même* is an adjective before the noun. After the verb, *même* means "even" and stresses the action: *il a même ri* (he even laughed). So *même Paul a ri* and *Paul a même ri* don't say the same thing: in the first, Paul is the surprise; in the second, the laughing is.
+
+## Aussi: also, or therefore
+
+Inside the sentence, *aussi* means "also": *nous sommes aussi restés à la maison* (we also stayed at home). At the start of a sentence, followed by inversion, it means "therefore" in formal writing.
+
+<Example fr="Il pleuvait. Aussi sommes-nous restés à la maison." en="It was raining. We therefore stayed at home. (formal)" />
+
+In everyday French, say *donc* or *alors* for "therefore", and keep *aussi* for "also".
+
+## Sentence adverbs
+
+<VocabTable group="sentence" />
+
+Some adverbs don't describe how something is done: they comment on the whole sentence. This is *un adverbe de phrase* (a sentence adverb). You know *heureusement* from <LessonLink id="a2-adverbs-ment" text="the lesson on adverbs" />, *franchement* from <LessonLink id="b1-expressing-opinions" text="the lesson on expressing opinions" />, and *apparemment* from <LessonLink id="b1-conditionnel-present" text="the lesson on the conditionnel présent" />.
+
+A sentence adverb often goes at the start with a comma, after the conjugated verb, or at the end after a comma. The meaning stays the same.
+
+<Example fr="Visiblement, elle était fatiguée." en="She was visibly tired." />
+<Example fr="Elle était visiblement fatiguée." en="She was visibly tired." />
+
+Some adverbs can be either kind, and the position helps you tell them apart. At the start with a comma, *franchement* and *sérieusement* comment on the sentence. After the verb, with no comma, they describe the manner.
+
+<Example fr="Franchement, ce film est trop long." en="Frankly, this film is too long." />
+<Example fr="Il nous a parlé franchement." en="He spoke to us frankly (in a frank way)." />
+<Example fr="Sérieusement, tu pars demain ?" en="Seriously, you're leaving tomorrow?" />
+<Example fr="Il fait son travail sérieusement." en="He does his work seriously." />
+
+The four sentence adverbs below have different shades:
+
+- **Visiblement** means "from what you can see": *il est visiblement content*.
+- **Apparemment** means "from what people say or how it looks": *apparemment, la réunion est annulée*.
+- **Décidément** reacts to something that has happened again: *décidément, tu es toujours en retard !*
+- **Forcément** means "necessarily", and *pas forcément* means "not necessarily". Put *pas* first: *ce n'est pas forcément vrai*.
+
+<Example fr="Un examen difficile n'est pas forcément un mauvais examen." en="A difficult exam isn't necessarily a bad exam." />
+
+## Long adverbs in compound tenses
+
+<VocabTable group="long" />
+
+At A2, you put most *-ment* adverbs after the participle. At this level, you'll see that many of them can also go between the auxiliary and the participle. Treat what follows as tendencies, not laws.
+
+- Adverbs of degree and completeness (*complètement*, *totalement*) and of time (*longuement*) usually go before the participle, and they can also follow it.
+- Sentence adverbs (*visiblement*, *probablement*, *heureusement*) usually go before the participle.
+- Adverbs of manner that say how the action was done (*attentivement*, *soigneusement*, *lentement*) more often go after it.
+
+<Example fr="Il a complètement oublié la réunion." en="He completely forgot the meeting." />
+<Example fr="J'y ai longuement réfléchi." en="I thought about it at length." />
+<Example fr="Elle a probablement raté son train." en="She's probably missed her train." />
+<Example fr="Relisez attentivement votre copie avant de la rendre." en="Reread your paper carefully before you hand it in." />
+
+With an infinitive, a short adverb usually comes before it: *il faut bien relire*. A long adverb of manner usually follows: *il faut relire soigneusement chaque phrase*.
+
+## The whole list
+
+- *Seulement* before the word it restricts; *Seulement,* at the start: "the only thing is".
+- *Même* + noun: even; noun + *même*: very; *lui-même*: himself; verb + *même*: even (the action).
+- *Aussi* inside the sentence: also; *Aussi* + inversion at the start: therefore (formal).
+- Sentence adverbs: at the start, after the verb, or at the end, with no change of meaning.
+- *Franchement*, *sérieusement*: at the start, a comment; after the verb, the manner.
+- Long adverbs in compound tenses: degree, time and sentence adverbs usually before the participle; manner more often after it.
+
+## En français
+
+Lucas and Emma, two students, have just come out of an exam.
+
+- *Alors, l'examen ? Tu as tout fini ?* (So, the exam? Did you finish everything?)
+- *Non, j'ai seulement fini la première partie.* (No, I only finished the first part.)
+- *Moi aussi ! Même Julie n'a pas eu le temps.* (Me too! Even Julie didn't have time.)
+- *Julie ? Elle finit toujours en avance, pourtant.* (Julie? She always finishes early, though.)
+- *Oui, mais aujourd'hui, elle était visiblement stressée.* (Yes, but today she was visibly stressed.)
+- *Apparemment, le professeur va donner plus de temps la prochaine fois.* (Apparently, the teacher is going to give more time next time.)
+- *Qui t'a dit ça ?* (Who told you that?)
+- *Julie elle-même. Elle lui a parlé juste après l'examen.* (Julie herself. She spoke to him right after the exam.)
+- *Décidément, elle pense à tout !* (She really does think of everything!)
+- *Et toi, tu as relu tes réponses ?* (And you, did you read over your answers?)
+- *J'ai seulement relu la fin, et pas très attentivement.* (I only read over the end, and not very carefully.)
+- *Ce n'est pas forcément grave. On verra bien !* (That's not necessarily a problem. We'll see!)
+- *Seulement, si mes notes sont mauvaises, mes parents vont être déçus.* (The only thing is, if my marks are bad, my parents will be disappointed.)
+- *Tu as longuement révisé. Ça va aller.* (You revised for a long time. It'll be fine.)
+
+<Callout type="warning" title="Pas forcément, not forcément pas">
+  Learners often put *forcément* where English puts "necessarily". For "not necessarily", *pas* comes first: **ce n'est pas forcément vrai**. *Ce n'est forcément pas vrai* says something else: that it's necessarily untrue.
+</Callout>
+
+<Callout type="tip" title="Move one word, read three sentences">
+  Take one short sentence of your own and move *même* or *seulement* into every possible slot: *même Paul a ri*, *Paul a même ri*, *Paul lui-même a ri*. Write the English meaning next to each. Doing this with your own sentences fixes the positions faster than any table.
+</Callout>
+
+## En résumé
+
+La place d'un adverbe peut changer le sens de la phrase. Seulement se met devant le mot qu'il limite : il a parlé seulement à Marie. Au début de la phrase, suivi d'une virgule, seulement présente un problème : le restaurant est bon, seulement, il est cher. Même devant un nom montre une surprise : même Paul a ri. Après un pronom, lui-même ou eux-mêmes insiste sur la personne, et le jour même veut dire ce jour-là, pas un autre. Aussi au milieu de la phrase ajoute une idée, mais au début, avec l'inversion, il veut dire donc : aussi sommes-nous restés à la maison. Un adverbe de phrase, comme visiblement, décidément ou forcément, donne l'avis de la personne qui parle sur toute la phrase. Au passé composé, complètement et longuement se mettent souvent avant le participe, et attentivement plutôt après. Ce sont des habitudes, pas des règles fixes.
+
+## What's next
+
+Next, <LessonLink id="c1-tricky-prepositions" text="the lesson on tricky prepositions" /> looks at small words that change a verb's meaning: *penser à* and *penser de*, *manquer à* and *manquer de*.
+
+===== content/lessons/c1/tricky-prepositions.mdx =====
+---
+id: "c1-tricky-prepositions"
+title: "Tricky prepositions"
+description: "Verbs whose meaning changes with the preposition (manquer à / manquer de, penser à / penser de, croire à / croire en, rêver de / rêver à, tenir à / tenir de), de or par after a passive, and prepositions with islands, overseas regions and cities with an article."
+level: "C1"
+unit: "Style and emphasis"
+order: 14
+type: "grammar"
+tags: ["grammar", "prepositions", "verbs", "places"]
+prerequisites: ["a2-verbs-with-a-and-de", "a2-prepositions-with-places", "b2-passive-voice", "b2-relative-prepositions"]
+related: ["b1-relative-dont", "a2-pronoun-y", "c1-adverb-placement"]
+vocab:
+  - { id: "c1-tricky-prepositions-v001", group: "verbs", fr: "manquer à quelqu'un", pron: "mahn-KAY ah kel-KUHN", en: "to be missed by someone", note: "Tu me manques: I miss you. The person or thing that's missed is the subject." }
+  - { id: "c1-tricky-prepositions-v002", group: "verbs", fr: "penser de", pron: "pahn-SAY duh", en: "to think of, to have an opinion of", note: "Que pensez-vous de ce film ? Qu'en pensez-vous ?" }
+  - { id: "c1-tricky-prepositions-v003", group: "verbs", fr: "croire à", pron: "krwahr AH", en: "to believe in (that something exists or is true)", note: "Croire aux fantômes, croire à une excuse." }
+  - { id: "c1-tricky-prepositions-v004", group: "verbs", fr: "croire en", pron: "krwahr AHN", en: "to believe in, to have faith in (a person, a value)", note: "Croire en quelqu'un, croire en Dieu." }
+  - { id: "c1-tricky-prepositions-v005", group: "verbs", fr: "rêver à", pron: "reh-VAY ah", en: "to muse on, to daydream about (literary)" }
+  - { id: "c1-tricky-prepositions-v006", group: "verbs", fr: "tenir de", pron: "tuh-NEER duh", en: "to take after (a relative)", note: "Elle tient de sa mère." }
+  - { id: "c1-tricky-prepositions-v007", group: "verbs", fr: "le fantôme", pron: "luh fahn-TOHM", en: "the ghost" }
+  - { id: "c1-tricky-prepositions-v008", group: "verbs", fr: "l'excuse (f.)", pron: "lek-SKEWZ", en: "the excuse" }
+  - { id: "c1-tricky-prepositions-v009", group: "passive", fr: "entouré par", pron: "ahn-too-RAY par", en: "surrounded by (an action)", note: "La maison a été entourée par la police." }
+  - { id: "c1-tricky-prepositions-v010", group: "passive", fr: "le policier / la policière", pron: "luh poh-lee-SYAY / lah poh-lee-SYEHR", en: "the police officer" }
+  - { id: "c1-tricky-prepositions-v011", group: "places", fr: "l'île (f.)", pron: "LEEL", en: "the island" }
+  - { id: "c1-tricky-prepositions-v012", group: "places", fr: "Cuba / Madagascar", pron: "kew-BAH / mah-dah-gahs-KAR", en: "Cuba / Madagascar", note: "à Cuba, à Madagascar" }
+  - { id: "c1-tricky-prepositions-v013", group: "places", fr: "la Corse", pron: "lah KORSS", en: "Corsica", note: "en Corse" }
+  - { id: "c1-tricky-prepositions-v014", group: "places", fr: "la Martinique", pron: "lah mar-tee-NEEK", en: "Martinique", note: "en Martinique or à la Martinique" }
+  - { id: "c1-tricky-prepositions-v015", group: "places", fr: "La Réunion", pron: "lah ray-ew-NYOHN", en: "Réunion (a French island in the Indian Ocean)", note: "à La Réunion" }
+  - { id: "c1-tricky-prepositions-v016", group: "places", fr: "les Antilles (f.)", pron: "lay-zahn-TEE-y", en: "the French Caribbean, the Antilles", note: "aux Antilles, des Antilles" }
+  - { id: "c1-tricky-prepositions-v017", group: "places", fr: "l'Iran (m.) / Israël (m.)", pron: "lee-RAHN / eez-rah-EL", en: "Iran / Israel", note: "Masculine, but they start with a vowel: en Iran, en Israël." }
+  - { id: "c1-tricky-prepositions-v018", group: "places", fr: "Le Havre / Le Caire", pron: "luh AH-vruh / luh KEHR", en: "Le Havre / Cairo", note: "au Havre, du Caire" }
+exercises:
+  - id: "c1-tricky-prepositions-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Paris manque beaucoup à Julie."
+    options: ["Julie really misses Paris.", "Paris really misses Julie.", "Paris doesn't have enough for Julie."]
+    answers: ["Julie really misses Paris."]
+    explanation: "With manquer à, what's missed is the subject: Paris is missed by Julie."
+  - id: "c1-tricky-prepositions-ex002"
+    type: "translate"
+    prompt: "Traduisez (manquer) : I miss my friends."
+    answers: ["Mes amis me manquent", "Mes amies me manquent"]
+    explanation: "The friends are the subject, and I'm the indirect object: mes amis me manquent."
+  - id: "c1-tricky-prepositions-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec la bonne préposition : Que pensez-vous ___ ce projet ?"
+    answers: ["de"]
+    explanation: "Penser de asks for an opinion: que pensez-vous de… ?"
+  - id: "c1-tricky-prepositions-ex004"
+    type: "fill-in"
+    prompt: "Complétez avec la bonne préposition : Je pense souvent ___ mes grands-parents."
+    answers: ["à"]
+    explanation: "Penser à: to have someone or something in mind."
+    strictAccents: true
+  - id: "c1-tricky-prepositions-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez la bonne préposition : Elle croit ___ ses enfants : elle sait qu'ils vont réussir."
+    options: ["en", "par", "sur"]
+    answers: ["en"]
+    explanation: "Croire en quelqu'un: to have faith in a person."
+  - id: "c1-tricky-prepositions-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Elle tient de sa mère."
+    options: ["She takes after her mother.", "She cares a lot about her mother.", "She is holding her mother's hand."]
+    answers: ["She takes after her mother."]
+    explanation: "Tenir de: to take after. Caring about someone is tenir à."
+  - id: "c1-tricky-prepositions-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez la préposition : Les montagnes étaient couvertes ___ neige."
+    options: ["de", "par", "en"]
+    answers: ["de"]
+    explanation: "A state, not an action: couvertes de neige. Par would need an article and an agent doing something."
+  - id: "c1-tricky-prepositions-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez la préposition : À six heures du matin, la maison a été entourée ___ la police."
+    options: ["par", "de", "en"]
+    answers: ["par"]
+    explanation: "An action at a given time, by an agent: entourée par la police."
+  - id: "c1-tricky-prepositions-ex009"
+    type: "fill-in"
+    prompt: "Complétez avec la bonne préposition (et l'article si besoin) : Elle est née ___ Havre."
+    answers: ["au"]
+    explanation: "Le Havre keeps its article, and à + le contracts: au Havre."
+  - id: "c1-tricky-prepositions-ex010"
+    type: "fill-in"
+    prompt: "Complétez avec la bonne préposition (et l'article si besoin) : Il travaille ___ Cuba depuis deux ans."
+    answers: ["à"]
+    explanation: "Many small islands take à with no article: à Cuba, à Madagascar."
+    strictAccents: true
+  - id: "c1-tricky-prepositions-ex011"
+    type: "fill-in"
+    prompt: "Complétez avec la bonne préposition (et l'article si besoin) : Ma sœur habite ___ Martinique."
+    answers: ["en", "à la"]
+    explanation: "Both are used: en Martinique is more usual today, and à la Martinique is also correct."
+    strictAccents: true
+  - id: "c1-tricky-prepositions-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Elle revient de les Antilles."
+    answers: ["Elle revient des Antilles"]
+    explanation: "De + les contracts: des Antilles."
+  - id: "c1-tricky-prepositions-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (lui = mon frère) : Je lui pense souvent."
+    answers: ["Je pense souvent à lui", "Je pense à lui souvent"]
+    explanation: "With penser à, a person is a stressed pronoun after à: je pense à lui, not je lui pense."
+    strictAccents: true
+  - id: "c1-tricky-prepositions-ex014"
+    type: "reformulation"
+    prompt: "Reformulez avec « manquer à », en commençant par « Paris » : Julie est triste loin de Paris."
+    answers: ["Paris manque à Julie", "Paris lui manque"]
+    explanation: "Paris is the subject, and Julie, who misses it, follows à: Paris manque à Julie, or Paris lui manque."
+    strictAccents: true
+  - id: "c1-tricky-prepositions-ex015"
+    type: "reformulation"
+    prompt: "Reformulez au passif : Tous les élèves aiment cette professeure."
+    answers: ["Cette professeure est aimée de tous les élèves", "Cette professeure est aimée par tous les élèves"]
+    explanation: "A feeling describes a state, so de is usual (aimée de); par is also correct."
+  - id: "c1-tricky-prepositions-ex016"
+    type: "translate"
+    prompt: "Traduisez (tenir de) : He takes after his father."
+    answers: ["Il tient de son père"]
+    explanation: "Tenir de + the relative he resembles."
+  - id: "c1-tricky-prepositions-ex017"
+    type: "translate"
+    prompt: "Traduisez (croire à) : I don't believe his excuse."
+    answers: ["Je ne crois pas à son excuse"]
+    strictAccents: true
+    explanation: "Croire à: to believe that something is true."
+  - id: "c1-tricky-prepositions-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : I miss my country."
+    words: ["Mon", "pays", "me", "manque"]
+    answers: ["Mon pays me manque"]
+    explanation: "The country is the subject of manquer, and me is the person who misses it."
+---
+
+By the end of this lesson you'll be able to use verbs whose meaning changes with the preposition, choose between *de* and *par* after a passive, and use the right preposition with islands, overseas regions and cities that have an article.
+
+## What you already know
+
+You learned that verbs take *à* or *de* before an infinitive in <LessonLink id="a2-verbs-with-a-and-de" text="the lesson on verbs with à and de" />, and the prepositions with cities and countries (*à Nantes*, *en Italie*, *au Japon*, *aux États-Unis*) in <LessonLink id="a2-prepositions-with-places" text="the lesson on prepositions with places" />. In <LessonLink id="b2-passive-voice" text="the lesson on the passive voice" />, you saw *par* for the agent of an action and *de* for a state or a feeling (*entouré de*, *respecté de*). This lesson adds the cases where the choice changes the meaning.
+
+## One verb, two meanings
+
+<VocabTable group="verbs" />
+
+**Manquer à** and **manquer de** are the classic trap. *Manquer de* means "to lack", which you know from <LessonLink id="b1-relative-dont" text="the lesson on dont" />: *il manque de temps* (he's short of time). *Manquer à* means "to be missed by", so the roles are the reverse of English. You know *tu me manques* (I miss you) from <LessonLink id="a2-writing-an-informal-email" text="the lesson on writing an informal email" />.
+
+<Example fr="Paris manque beaucoup à Julie." en="Julie misses Paris a lot." />
+<Example fr="Mes amis me manquent." en="I miss my friends." />
+<Example fr="Cette équipe manque d'expérience." en="This team lacks experience." />
+
+With no preposition, *manquer* + object means "to miss" in the sense of not catching: *il a manqué son train*.
+
+**Penser à** means to think about, to have in mind; you met it with *y* in <LessonLink id="a2-pronoun-y" text="the lesson on the pronoun y" />. **Penser de** asks for or gives an opinion, mostly in questions and with *en*, as in *qu'est-ce que tu en penses ?* With *penser à*, a person stays after *à* as a stressed pronoun: *je pense à lui*, not *je lui pense*.
+
+<Example fr="Je pense souvent à mes grands-parents." en="I often think about my grandparents." />
+<Example fr="Que pensez-vous de ce projet ?" en="What do you think of this project?" />
+
+**Croire à** and **croire en** both translate as "to believe in". As a rule of thumb, *croire à* is about whether something exists or is true, and *croire en* is about trust or faith in a person or a value. Usage overlaps with some nouns (*croire à l'avenir*, *croire en l'avenir*). *Croire quelqu'un*, with no preposition, means to believe what they say.
+
+<Example fr="Il croit aux fantômes." en="He believes in ghosts." />
+<Example fr="Je ne crois pas à son excuse." en="I don't believe his excuse." />
+<Example fr="Ma directrice croit en moi." en="My manager believes in me." />
+
+**Rêver de** is the everyday verb, for a wish or a night's dream: *je rêve de voyager*, *j'ai rêvé de toi*. **Rêver à** is literary: to muse on, to let your mind wander to something.
+
+<Example fr="Assis devant la mer, il rêvait à son enfance." en="Sitting by the sea, he was musing on his childhood. (literary)" />
+
+**Tenir à** means to care about, or to insist on, as you saw in <LessonLink id="b2-relative-prepositions" text="the lesson on relatives after prepositions" />. **Tenir de** means to take after a relative.
+
+<Example fr="Je tiens beaucoup à cette maison." en="This house means a lot to me." />
+<Example fr="Elle tient de sa mère : elle adore voyager." en="She takes after her mother: she loves travelling." />
+
+**Jouer à** and **jouer de** you've known since A1: *jouer au tennis* for games and sports, *jouer du piano* for instruments. Remember the contractions: *jouer aux cartes*, *jouer de la guitare*.
+
+## De or par after a passive
+
+<VocabTable group="passive" />
+
+The rule from B2 still holds: *par* for an agent that performs an action, *de* for a state, a position or a feeling. At this level, notice that some verbs take both, with a change of meaning.
+
+<Example fr="La maison est entourée d'un grand jardin." en="The house is surrounded by a large garden." />
+<Example fr="À six heures du matin, la maison a été entourée par la police." en="At six in the morning, the house was surrounded by the police." />
+<Example fr="Le film sera suivi d'un débat." en="The film will be followed by a debate." />
+<Example fr="Le suspect a été suivi par deux policiers." en="The suspect was followed by two police officers." />
+
+In each pair, the first sentence describes how things are or come in order, and the second tells what someone did. With verbs of feeling (*aimé*, *respecté*), *de* is the more elegant choice, and *par* is also correct.
+
+## Islands, overseas regions and cities with an article
+
+<VocabTable group="places" />
+
+You know the rule for countries: *en* before a feminine country or one that starts with a vowel, *au* before a masculine one, *aux* before a plural one. So masculine countries that start with a vowel take *en*: *en Iran*, *en Israël*.
+
+Islands follow other habits. Take these as rules of thumb, and learn each name with its preposition.
+
+- **Islands named without an article**, many of them small, often take *à*: *à Cuba*, *à Madagascar*, *à Malte*.
+- **Large islands with a feminine name**, such as some Mediterranean islands, take *en*: *en Corse*, *en Sicile*.
+- **Some islands keep their article**: *à La Réunion*.
+- **Plural groups of islands** take *aux*: *aux Antilles*.
+
+For Martinique and Guadeloupe, both *en Martinique* and *à la Martinique* are correct; *en* is the more usual today.
+
+<Example fr="Elle a passé un an à Madagascar." en="She spent a year in Madagascar." />
+<Example fr="Nous partons en Corse cet été." en="We're going to Corsica this summer." />
+<Example fr="Mon frère habite à La Réunion." en="My brother lives on Réunion." />
+
+Cities whose name has an article keep it, and *à* or *de* contracts with *le*: *au Havre*, *au Caire*, *du Havre*, *du Caire*. A feminine article doesn't contract: *à La Rochelle*.
+
+To say where someone comes from, use the same contractions with *de*: *du Mexique*, *des Antilles*, *d'Iran*, *de Corse*, *de La Réunion*.
+
+<Example fr="Il est rentré des Antilles la semaine dernière." en="He came back from the Antilles last week." />
+
+## The whole list
+
+- *Manquer à* (to be missed by), *manquer de* (to lack), *manquer* + object (to miss a train).
+- *Penser à* (to think about; *à lui*), *penser de* (an opinion; *en*).
+- *Croire à* (true, real), *croire en* (trust, faith), *croire quelqu'un* (believe what they say).
+- *Rêver de* (everyday), *rêver à* (literary).
+- *Tenir à* (to care about), *tenir de* (to take after).
+- Passive: *par* for an action, *de* for a state or a feeling.
+- Islands: *à Cuba*, *en Corse*, *à La Réunion*, *aux Antilles*; *en* or *à la Martinique*. Cities with *le*: *au Havre*, *du Caire*.
+
+## En français
+
+Sophie has just moved to Réunion for work. She's on a video call with her friend Karim, in Lyon.
+
+- *Alors, la vie à La Réunion ?* (So, how's life on Réunion?)
+- *C'est magnifique, mais Lyon me manque un peu.* (It's beautiful, but I miss Lyon a bit.)
+- *Et nous, on ne te manque pas ?* (And what about us, don't you miss us? (spoken))
+- *Bien sûr que si ! Je pense souvent à vous.* (Of course I do! I often think about you.)
+- *Et ton nouveau travail, qu'est-ce que tu en penses ?* (And your new job, what do you think of it?)
+- *Il me plaît. Ma directrice croit en moi, et ça aide.* (I like it. My manager believes in me, and that helps.)
+- *Tu vas voyager un peu ? Madagascar n'est pas loin.* (Are you going to travel a bit? Madagascar isn't far.)
+- *Oui, je rêve d'aller à Madagascar, et un jour à Cuba.* (Yes, I dream of going to Madagascar, and one day to Cuba.)
+- *Toujours l'envie de partir ! Tu tiens de ton père.* (Always wanting to go somewhere! You take after your father.)
+- *C'est vrai. Lui, il a habité en Martinique pendant dix ans.* (That's true. He lived in Martinique for ten years. (spoken))
+- *Et ta sœur, elle vit toujours aux Antilles ?* (And your sister, does she still live in the Antilles? (spoken))
+- *Non, elle est rentrée des Antilles l'année dernière. Elle vit au Havre maintenant.* (No, she came back from the Antilles last year. She lives in Le Havre now.)
+- *Au Havre ? Elle doit manquer de soleil !* (In Le Havre? She must be short of sun!)
+- *Un peu ! Mais elle joue du piano dans un groupe, et elle est heureuse.* (A bit! But she plays the piano in a band, and she's happy.)
+
+<Callout type="warning" title="Tu me manques means I miss you">
+  English speakers often build *manquer à* like "to miss" and swap the roles. The person or thing that's missed is the subject: to say "I miss you", write **tu me manques**, and for "Julie misses Paris", write **Paris manque à Julie**.
+</Callout>
+
+<Callout type="tip" title="Learn the place with its preposition">
+  When you meet a new island, region or city, note it with its preposition and its "from" form, as one unit: *à Cuba, de Cuba*; *en Corse, de Corse*; *au Havre, du Havre*. You'll never have to work out the rule again for that place.
+</Callout>
+
+## En résumé
+
+Certains verbes changent de sens avec la préposition. Manquer de veut dire ne pas avoir assez de quelque chose, mais manquer à veut dire que quelqu'un est triste sans une personne ou un lieu : Paris manque à Julie, tu me manques. Penser à, c'est avoir quelqu'un ou quelque chose en tête, et penser de donne un avis : que pensez-vous de ce projet ? Croire à porte sur ce qui est vrai, et croire en porte sur la confiance : il croit aux fantômes, elle croit en ses enfants. Rêver à est littéraire, et tenir de sa mère, c'est être comme sa mère. Après un passif, on met par pour une action et de pour un état. Avec les îles, on dit à Cuba, en Corse, à La Réunion et aux Antilles, et on dit en Martinique ou à la Martinique. Avec Le Havre ou Le Caire, on dit au Havre et du Caire.
+
+## What's next
+
+Next, the lesson on precise verbs shows how to replace *dire*, *faire* and *mettre* with the exact verb a careful writer would choose.
+

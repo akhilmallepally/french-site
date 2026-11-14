@@ -25,6 +25,10 @@ const PS_INFINITIVES: [RegExp, string[]][] = [
   [/(?:èrent|âmes|âtes|ai|as|a)$/, ["er"]],
   [/(?:irent|îmes|îtes|it|is)$/, ["ir", "re"]],
   [/(?:urent|ûmes|ûtes|ut|us)$/, ["oir", "re"]],
+  // Imparfait du subjonctif (c1-imperfect-subjunctive): fermât, fermassent; finît; parût.
+  [/(?:assions|assiez|assent|asses|asse|ât)$/, ["er"]],
+  [/(?:issions|issiez|issent|isses|isse|ît)$/, ["ir", "re"]],
+  [/(?:ussent|usses|usse|ût)$/, ["oir", "re"]],
 ];
 function psInfinitives(w: string): string[] {
   const out: string[] = [];
@@ -67,6 +71,7 @@ const IGNORE = new Set([
   // grammar terms and film titles
   "plus-que-parfait", "parfait", "souffle", "intouchables", "ch'tis",
   "montréal", "québec", "genève", "marseille", "rouen", "avignon", "cannes", "dupont", "martin", "dubois",
+  "saint", "aubin",
   "figaro", "libération", "ouest-france", "canard", "enchaîné", "afp", "télévisions", "ouest",
 ]);
 
@@ -116,6 +121,7 @@ function names(s: string): Set<string> {
 // More English words, used only for B2 and later, whose prompts and options mix in English sentences.
 // (Kept apart so that A1 to B1 results don't change.)
 const B2_ENGLISH = new Set(("afraid he'll won't nothing say another way purchasing power volunteers help homeless people before after leave rains rain if wait until although late going out we'll it's we're don't i'll i'd you're there's that's mixed strong opinion meaning sentence word despite age he's still working stand someone up everyone heard him nobody hear careful shy soon you've arrived glad came about yourself promise future reproach someone without moving polite left wing party voting twice hearing witness's managing well leaving early convincing isn't finished yet struggle find housing because rising flats building check life costs than treatment probably doubtfully may wonder whether screens pupils became emperor become wants suddenly however meh really convinced yes absolutely seriously ill sensitive sensual possibly eventually immediately finish what's whoever " +
+  "laughed himself again therefore also brother understood aroused keen mayor cycles too many weigh down " +
   "").trim().split(/\s+/));
 const isEnglishWord = (w: string, b2 = false) => ENGLISH.has(w) || (b2 && B2_ENGLISH.has(w));
 const isEnglish = (s: string, b2 = false) => {

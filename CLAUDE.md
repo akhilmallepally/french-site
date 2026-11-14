@@ -208,5 +208,13 @@ C1 inherits every B2 convention unless it's changed here. Plans are in docs/plan
   - Recap claims: run scripts/c1-find.ts before any "you know X from Y", and record the lesson id in the log.
   - En résumé opens with its own subject, never *Cette* or *Ces* pointing outside it. Every vocab entry, grammar terms included, appears in at least one complete French sentence.
   - The log gives teaching-text, whole-lesson and En résumé word counts for every lesson.
+  - Meaning claims ("the same", "the opposite") in dialogues and notes: translate both sentences and check the claim before writing it.
+  - Answer keys: every fill-in, reformulation and translate key includes the variants the lesson's own examples use (with or without an optional *ne*, *le* or *pas*, *on* or *nous*).
+  - Grammar terms in vocab appear in a complete French sentence, not only inside English.
+  - An exercise sentence that can mean two things gets context or a pinned cue.
+  - When describing a verb's meanings (*devoir*, *pouvoir*, *falloir*), write "the meanings that matter here" unless all meanings are listed.
+  - A form the lesson marks as formal-only or literary is never the only accepted answer, unless the instruction asks for that register.
+  - Every example given to illustrate a rule shows that rule, gloss included: read each example against the sentence before it.
+  - Use French grammar terms as French grammar uses them (*le sujet* is the grammatical subject; *le thème* is the topic). Check any heuristic (size, gender, frequency) against every example given for it.
 
 @AGENTS.md

@@ -1,0 +1,788 @@
+===== content/lessons/c1/precise-verbs.mdx =====
+---
+id: "c1-precise-verbs"
+title: "Precise verbs"
+description: "Replace faire, mettre, dire, avoir and il y a with the exact verb a careful writer would choose: effectuer, procéder à, aborder, disposer de, comporter, il existe, se dérouler, susciter and more."
+level: "C1"
+unit: "Style and emphasis"
+order: 15
+type: "vocabulary"
+tags: ["vocabulary", "verbs", "formal writing", "style"]
+prerequisites: ["b2-reporting-verbs", "b2-formal-report"]
+related: ["b2-nominalisation", "c1-tricky-prepositions", "b2-science-and-research"]
+vocab:
+  - { id: "c1-precise-verbs-v001", group: "faire", fr: "effectuer", pron: "ay-feh-ktew-AY", en: "to carry out, to make (a payment, a visit, works)" }
+  - { id: "c1-precise-verbs-v002", group: "faire", fr: "procéder à", pron: "proh-say-DAY ah", en: "to carry out, to proceed with (formal)", note: "Procéder à une vérification." }
+  - { id: "c1-precise-verbs-v003", group: "faire", fr: "accomplir", pron: "ah-kohn-PLEER", en: "to accomplish, to carry out (a task)", note: "Like finir." }
+  - { id: "c1-precise-verbs-v004", group: "faire", fr: "élaborer", pron: "ay-lah-boh-RAY", en: "to draw up, to develop (a plan, a project)" }
+  - { id: "c1-precise-verbs-v005", group: "faire", fr: "les travaux (m.)", pron: "lay trah-VOH", en: "(building) works" }
+  - { id: "c1-precise-verbs-v006", group: "faire", fr: "le paiement", pron: "luh peh-MAHN", en: "the payment" }
+  - { id: "c1-precise-verbs-v007", group: "faire", fr: "la vérification", pron: "lah vay-ree-fee-kah-SYOHN", en: "the check" }
+  - { id: "c1-precise-verbs-v008", group: "mettre", fr: "déposer", pron: "day-poh-ZAY", en: "to put down, to drop off, to submit (a file)", note: "Déposer un dossier, déposer quelqu'un à la gare." }
+  - { id: "c1-precise-verbs-v009", group: "mettre", fr: "instaurer", pron: "an-stoh-RAY", en: "to bring in, to establish (a rule, a system)" }
+  - { id: "c1-precise-verbs-v010", group: "dire", fr: "aborder", pron: "ah-bor-DAY", en: "to bring up, to deal with (a subject)" }
+  - { id: "c1-precise-verbs-v011", group: "dire", fr: "formuler", pron: "for-mew-LAY", en: "to put into words, to make (a request, a criticism)" }
+  - { id: "c1-precise-verbs-v012", group: "dire", fr: "lors de", pron: "LOR duh", en: "during, at the time of (formal)" }
+  - { id: "c1-precise-verbs-v013", group: "avoir", fr: "disposer de", pron: "dees-poh-ZAY duh", en: "to have (available)", note: "Nous disposons de deux salles." }
+  - { id: "c1-precise-verbs-v014", group: "avoir", fr: "posséder", pron: "poh-say-DAY", en: "to own, to possess", note: "Je possède, nous possédons." }
+  - { id: "c1-precise-verbs-v015", group: "avoir", fr: "comporter", pron: "kohn-por-TAY", en: "to include, to consist of", note: "Le rapport comporte trois parties." }
+  - { id: "c1-precise-verbs-v016", group: "avoir", fr: "ressentir", pron: "ruh-sahn-TEER", en: "to feel (an emotion)", note: "Like partir: je ressens." }
+  - { id: "c1-precise-verbs-v017", group: "ilya", fr: "il existe", pron: "ee-leg-ZEEST", en: "there is, there are (formal)", note: "Il existe plusieurs solutions." }
+  - { id: "c1-precise-verbs-v018", group: "ilya", fr: "se trouver", pron: "suh troo-VAY", en: "to be (located)", note: "La gare se trouve au centre." }
+  - { id: "c1-precise-verbs-v019", group: "ilya", fr: "figurer", pron: "fee-gew-RAY", en: "to appear, to be listed", note: "Son nom figure sur la liste." }
+  - { id: "c1-precise-verbs-v020", group: "ilya", fr: "régner", pron: "ray-NYAY", en: "to reign; (of a mood) to fill the place", note: "Un lourd silence régnait." }
+  - { id: "c1-precise-verbs-v021", group: "ilya", fr: "se dérouler", pron: "suh day-roo-LAY", en: "to take place, to go (an event)", note: "La réunion s'est bien déroulée." }
+  - { id: "c1-precise-verbs-v022", group: "cause", fr: "susciter", pron: "sew-see-TAY", en: "to arouse, to give rise to (a reaction)", note: "Susciter l'intérêt, des critiques." }
+  - { id: "c1-precise-verbs-v023", group: "cause", fr: "engendrer", pron: "ahn-zhahn-DRAY", en: "to generate, to cause" }
+  - { id: "c1-precise-verbs-v024", group: "cause", fr: "entraîner", pron: "ahn-treh-NAY", en: "to lead to, to bring about", note: "Also: to train (sport)." }
+exercises:
+  - id: "c1-precise-verbs-ex001"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe précis : Le client a ___ le paiement hier."
+    options: ["effectué", "disposé", "figuré"]
+    answers: ["effectué"]
+    explanation: "Effectuer un paiement: to make a payment."
+  - id: "c1-precise-verbs-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe précis : Le rapport ___ trois parties."
+    options: ["comporte", "effectue", "aborde"]
+    answers: ["comporte"]
+    explanation: "Comporter: to consist of, to include."
+  - id: "c1-precise-verbs-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe précis : Cette décision a ___ beaucoup de critiques."
+    options: ["suscité", "déposé", "comporté"]
+    answers: ["suscité"]
+    explanation: "Susciter des critiques: to give rise to criticism."
+  - id: "c1-precise-verbs-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe précis : La réunion s'est ___ dans la grande salle."
+    options: ["déroulée", "comportée", "disposée"]
+    answers: ["déroulée"]
+    explanation: "Se dérouler: to take place. Se comporter means to behave, and se disposer à means to get ready to."
+  - id: "c1-precise-verbs-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Nous disposons de deux heures."
+    options: ["We have two hours available.", "We are getting rid of two hours.", "We need two more hours."]
+    answers: ["We have two hours available."]
+    explanation: "Disposer de: to have at your disposal."
+  - id: "c1-precise-verbs-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec « figurer » au présent : Son nom ne ___ pas sur la liste."
+    answers: ["figure"]
+    explanation: "Figurer sur une liste: to appear on a list."
+  - id: "c1-precise-verbs-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec « procéder » au passé composé : La police ___ à une vérification."
+    answers: ["a procédé"]
+    explanation: "Procéder à + noun: a procédé à une vérification."
+    strictAccents: true
+  - id: "c1-precise-verbs-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec « effectuer » : Nous avons fait une visite du chantier."
+    answers: ["Nous avons effectué une visite du chantier"]
+    explanation: "Effectuer replaces faire with a visit, a payment or works."
+  - id: "c1-precise-verbs-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « il existe » : Il y a plusieurs solutions."
+    answers: ["Il existe plusieurs solutions"]
+    explanation: "Il existe is the written alternative to il y a."
+  - id: "c1-precise-verbs-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « comporter » : Dans ce dossier, il y a trois documents."
+    answers: ["Ce dossier comporte trois documents"]
+    explanation: "The container becomes the subject: ce dossier comporte."
+  - id: "c1-precise-verbs-ex011"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « aborder » et « nous » : On a parlé du budget."
+    answers: ["Nous avons abordé le budget", "Nous avons abordé la question du budget"]
+    explanation: "Aborder takes a direct object: aborder le budget, aborder la question du budget."
+  - id: "c1-precise-verbs-ex012"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « disposer de » et « nous » : On a un budget de cinq cents euros."
+    answers: ["Nous disposons d'un budget de cinq cents euros", "Nous disposons d'un budget de 500 euros"]
+    explanation: "Disposer de + the thing you have: nous disposons d'un budget."
+  - id: "c1-precise-verbs-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Nous disposons deux salles."
+    answers: ["Nous disposons de deux salles"]
+    explanation: "Disposer needs de in this meaning: disposer de."
+  - id: "c1-precise-verbs-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : La réunion a procédé dans la grande salle."
+    answers: ["La réunion s'est déroulée dans la grande salle", "La réunion a eu lieu dans la grande salle"]
+    strictAccents: true
+    explanation: "An event se déroule or a lieu. Procéder à means to carry out something."
+  - id: "c1-precise-verbs-ex015"
+    type: "translate"
+    prompt: "Traduisez avec « susciter » : This project has aroused a lot of interest."
+    answers: ["Ce projet a suscité beaucoup d'intérêt"]
+    strictAccents: true
+    explanation: "Susciter l'intérêt: to arouse interest."
+  - id: "c1-precise-verbs-ex016"
+    type: "translate"
+    prompt: "Traduisez avec « se trouver » : The station is in the town centre."
+    answers: ["La gare se trouve dans le centre-ville", "La gare se trouve au centre-ville"]
+    explanation: "Se trouver gives a location, more precisely than être."
+  - id: "c1-precise-verbs-ex017"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre de la phrase : Le paiement a été effectué."
+    options: ["soutenu", "familier"]
+    answers: ["soutenu"]
+    explanation: "Effectuer belongs to careful and administrative French. In familiar speech, you'd say j'ai payé."
+  - id: "c1-precise-verbs-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : A heavy silence filled the room."
+    words: ["Un", "lourd", "silence", "régnait", "dans", "la", "salle"]
+    answers: ["Un lourd silence régnait dans la salle", "Un silence lourd régnait dans la salle"]
+    explanation: "Régner replaces il y avait. Lourd can come before or after silence."
+---
+
+By the end of this lesson you'll be able to replace *faire*, *mettre*, *dire*, *avoir* and *il y a* with precise verbs, so that your formal writing says exactly what you mean.
+
+## What you already know
+
+You know precise reporting verbs such as *souligner* and *affirmer* from <LessonLink id="b2-reporting-verbs" text="the lesson on reporting verbs" />, and *mettre en œuvre* from <LessonLink id="b2-formal-report" text="the lesson on the formal report" />. You also know *mener une étude* from <LessonLink id="b2-science-and-research" text="the lesson on science and research" />. This lesson does the same work for the most common general verbs.
+
+## Why precise verbs matter
+
+In conversation, *faire*, *mettre*, *dire* and *avoir* do most of the work, and that's fine. In a report, an essay or a formal letter, a text full of them sounds vague and repetitive. A precise verb says more in fewer words: *effectuer un paiement* tells the reader exactly what kind of "doing" happened.
+
+These verbs aren't more correct than the general ones. They belong to written and careful French. Use them where a reader expects care, and keep *faire* and *avoir* for speech.
+
+## Instead of faire
+
+<VocabTable group="faire" />
+
+*Effectuer* is the all-purpose formal replacement for *faire* with an action: a payment, a visit, works, a journey. *Procéder à* is more official, and it takes *à* + a noun: a check, a vote, an analysis. *Accomplir* stresses that a task was completed. *Élaborer* is for a plan or a project that takes thought and time.
+
+<Example fr="Les travaux seront effectués en juin." en="The works will be carried out in June." />
+<Example fr="L'équipe a procédé à un vote." en="The team proceeded to a vote." />
+<Example fr="Elle a accompli son travail sans difficulté." en="She carried out her work without difficulty." />
+<Example fr="Nous avons élaboré un plan sur trois ans." en="We've drawn up a three-year plan." />
+
+## Instead of mettre
+
+<VocabTable group="mettre" />
+
+*Déposer* is to put something down or hand it in: a file, a parcel, a person at the station. *Instaurer* is to bring in a rule or a system, where speech would say *mettre en place*.
+
+<Example fr="Vous pouvez déposer votre dossier à l'accueil." en="You can hand in your file at reception." />
+<Example fr="La mairie a instauré une nouvelle règle pour les parkings." en="The town hall has brought in a new rule for car parks." />
+
+## Instead of dire
+
+<VocabTable group="dire" />
+
+For reporting what someone said, use the verbs from B2: *affirmer*, *souligner*, *préciser*. Two more help when you write about a meeting or a text. *Aborder* is to bring up or deal with a subject, and it takes a direct object. *Formuler* is to put something into words, often a request or a criticism.
+
+<Example fr="Lors de la réunion, nous avons abordé la question du budget." en="During the meeting, we dealt with the question of the budget." />
+<Example fr="Les habitants ont formulé plusieurs demandes." en="The residents made several requests." />
+
+## Instead of avoir
+
+<VocabTable group="avoir" />
+
+*Disposer de* means to have something available, ready to use; it always takes *de* in this meaning. *Posséder* is to own. *Comporter* is to consist of or include, and the container is the subject. *Ressentir* is to feel an emotion, where speech says *avoir peur* or *avoir de la peine*.
+
+<Example fr="L'entreprise dispose de trois sites en France." en="The company has three sites in France." />
+<Example fr="Sa famille possède une maison en Bretagne." en="Her family owns a house in Brittany." />
+<Example fr="Le formulaire comporte deux pages." en="The form consists of two pages." />
+<Example fr="Elle a ressenti une grande peur pendant la tempête." en="She felt very afraid during the storm." />
+
+## Instead of il y a
+
+<VocabTable group="ilya" />
+
+*Il y a* is the everyday way to say "there is", and the precise alternatives depend on what you mean.
+
+- **To say that something exists**: *il existe*, in writing.
+- **To give a location**: *se trouver*.
+- **To say that a name or a fact is on a list or in a document**: *figurer*.
+- **To describe a mood or a silence**: *régner*.
+- **To say that an event happens**: *se dérouler*, or *avoir lieu*, which you know from <LessonLink id="b2-nuancing-opinions" text="the lesson on nuancing your opinion" />.
+
+<Example fr="Il existe plusieurs solutions à ce problème." en="There are several solutions to this problem." />
+<Example fr="La gare se trouve près du centre." en="The station is near the centre." />
+<Example fr="Votre nom ne figure pas sur la liste." en="Your name isn't on the list." />
+<Example fr="Un lourd silence régnait dans la salle." en="A heavy silence filled the room." />
+<Example fr="La conférence s'est déroulée dans le calme." en="The conference went off calmly." />
+
+## Cause and effect
+
+<VocabTable group="cause" />
+
+Instead of *faire* or *créer* for a consequence, use a verb that shows what kind. *Susciter* is for a reaction: interest, criticism, worry. *Engendrer* and *entraîner* are for a consequence; both are common in reports. You already know *provoquer* from <LessonLink id="b1-cause-and-consequence" text="the lesson on cause and consequence" />.
+
+<Example fr="Cette décision a suscité de nombreuses critiques." en="This decision gave rise to a lot of criticism." />
+<Example fr="La hausse des prix entraîne des difficultés pour les familles." en="The rise in prices leads to difficulties for families." />
+
+## Don't overdo it
+
+One precise verb per sentence is usually enough. If every verb is rare and long, the text becomes heavy, and the reader notices the effort instead of the meaning. As a rule of thumb, replace a general verb when the precise one adds information, not just to sound formal.
+
+## The whole list
+
+| General | Precise (written) |
+|---|---|
+| *faire un paiement, une visite* | *effectuer* |
+| *faire une vérification* | *procéder à* |
+| *faire un plan* | *élaborer* |
+| *mettre en place une règle* | *instaurer* |
+| *mettre un dossier* | *déposer* |
+| *parler d'un sujet* | *aborder* |
+| *avoir (à sa disposition)* | *disposer de* |
+| *il y a trois parties dans* | *comporter* |
+| *il y a* | *il existe, se trouver, figurer, régner, se dérouler* |
+| *faire, créer (une réaction)* | *susciter, engendrer, entraîner* |
+
+## En français
+
+Thomas, an intern, has written his first report. His manager, Madame Dubois, goes through it with him.
+
+- *Thomas, j'ai lu votre rapport. Il est clair, mais les verbes sont trop simples.* (Thomas, I've read your report. It's clear, but the verbs are too plain.)
+- *Trop simples ? Qu'est-ce que je dois changer ?* (Too plain? What should I change?)
+- *Vous écrivez « on a fait des travaux ». Écrivez plutôt « nous avons effectué des travaux ».* (You write "on a fait des travaux". Write "nous avons effectué des travaux" instead.)
+- *D'accord. Et « il y a trois parties dans le rapport » ?* (OK. And "il y a trois parties dans le rapport"?)
+- *« Le rapport comporte trois parties. » C'est plus précis.* ("Le rapport comporte trois parties." It's more precise.)
+- *Et ici : « on a parlé du budget pendant la réunion » ?* (And here: "on a parlé du budget pendant la réunion"?)
+- *« Nous avons abordé le budget lors de la réunion. »* ("Nous avons abordé le budget lors de la réunion.")
+- *Et « le projet a eu beaucoup de succès » ?* (And "le projet a eu beaucoup de succès"?)
+- *Écrivez « le projet a suscité un grand intérêt ».* (Write "le projet a suscité un grand intérêt".)
+- *Mais à l'oral, je peux garder « faire » et « avoir » ?* (But when I speak, can I keep "faire" and "avoir"?)
+- *Bien sûr. Ces verbes précis sont surtout pour l'écrit.* (Of course. These precise verbs are mainly for writing.)
+- *Et si je mets un verbe précis dans chaque phrase ?* (And what if I put a precise verb in every sentence?)
+- *Alors le texte devient lourd. Gardez-les là où ils apportent quelque chose.* (Then the text becomes heavy. Keep them where they add something.)
+- *Merci. Je vous envoie la nouvelle version demain.* (Thank you. I'll send you the new version tomorrow.)
+
+<Callout type="warning" title="Disposer de, not disposer">
+  Learners often drop the *de* because "to have" takes a direct object. In the meaning "to have available", *disposer* needs **de**: **nous disposons de deux salles**, **l'entreprise dispose d'un budget important**.
+</Callout>
+
+<Callout type="tip" title="Circle the general verbs">
+  When you revise a formal text, circle every *faire*, *mettre*, *avoir* and *il y a*. Then replace about one in three, starting with the ones that hide the most information. You'll improve the text without making it heavy.
+</Callout>
+
+## En résumé
+
+Dans un texte écrit soigné, on peut remplacer les verbes généraux par des verbes précis. Au lieu de faire, on dit effectuer un paiement ou une visite, procéder à une vérification, accomplir un travail ou élaborer un plan. Au lieu de mettre, on dit déposer un dossier ou instaurer une règle. Pour parler d'un sujet, on l'aborde, et on formule une demande. Au lieu d'avoir, on dit disposer de, posséder, comporter ou ressentir. Au lieu d'il y a, on dit il existe, se trouver, figurer, régner ou se dérouler, selon le sens. Pour une conséquence, on dit susciter, engendrer ou entraîner. Ces verbes ne sont pas meilleurs que faire ou avoir : ils sont plus précis. Un seul verbe précis par phrase suffit souvent.
+
+## What's next
+
+Next, <LessonLink id="c1-collocations" text="the lesson on collocations" /> shows which verbs and adjectives naturally go with which nouns, such as *émettre une hypothèse* and *une vive inquiétude*.
+
+===== content/lessons/c1/collocations.mdx =====
+---
+id: "c1-collocations"
+title: "Collocations"
+description: "Use the words French naturally puts together: émettre une hypothèse, commettre une erreur, jouer un rôle clé, tenir compte de, relever un défi, une vive inquiétude, une large majorité, grièvement blessé."
+level: "C1"
+unit: "Style and emphasis"
+order: 16
+type: "vocabulary"
+tags: ["vocabulary", "collocations", "formal writing", "style"]
+prerequisites: ["c1-precise-verbs", "b2-science-and-research"]
+related: ["b1-making-a-complaint", "b1-review-hypotheses", "c1-review-style"]
+vocab:
+  - { id: "c1-collocations-v001", group: "term", fr: "une collocation", pron: "ewn koh-loh-kah-SYOHN", en: "a collocation (words that naturally go together)" }
+  - { id: "c1-collocations-v002", group: "verbs", fr: "émettre une hypothèse / il a émis", pron: "ay-meh-tr ewn ee-poh-TEZ / ee-lah ay-MEE", en: "to put forward a hypothesis", note: "Like mettre: il a émis." }
+  - { id: "c1-collocations-v003", group: "verbs", fr: "commettre une erreur", pron: "koh-meh-tr ewn eh-RUHR", en: "to make a mistake (formal)", note: "Like mettre: il a commis. Faire une erreur is also correct." }
+  - { id: "c1-collocations-v004", group: "verbs", fr: "jouer un rôle dans", pron: "zhoo-ay uhn ROHL dahn", en: "to play a part in" }
+  - { id: "c1-collocations-v005", group: "verbs", fr: "prendre en compte", pron: "prahn-drahn KOHNT", en: "to take into account" }
+  - { id: "c1-collocations-v006", group: "verbs", fr: "tenir compte de", pron: "tuh-neer KOHNT duh", en: "to take account of" }
+  - { id: "c1-collocations-v007", group: "verbs", fr: "accorder de l'importance à", pron: "ah-kor-day duh lan-por-TAHNSS ah", en: "to attach importance to" }
+  - { id: "c1-collocations-v008", group: "verbs", fr: "dresser un bilan", pron: "dreh-say uhn bee-LAHN", en: "to take stock, to draw up an assessment" }
+  - { id: "c1-collocations-v009", group: "verbs", fr: "relever un défi", pron: "ruhl-vay uhn day-FEE", en: "to rise to a challenge", note: "Je relève, nous relevons." }
+  - { id: "c1-collocations-v010", group: "verbs", fr: "lancer un projet", pron: "lahn-say uhn proh-ZHEH", en: "to launch a project" }
+  - { id: "c1-collocations-v011", group: "adjectives", fr: "une vive inquiétude", pron: "ewn veev an-kyay-TEWD", en: "deep concern, serious worry" }
+  - { id: "c1-collocations-v012", group: "adjectives", fr: "un vif intérêt", pron: "uhn vee-fan-tay-REH", en: "a keen interest" }
+  - { id: "c1-collocations-v013", group: "adjectives", fr: "un rôle clé", pron: "uhn rohl KLAY", en: "a key role" }
+  - { id: "c1-collocations-v014", group: "adjectives", fr: "une lourde responsabilité", pron: "ewn loor-duh rehs-pohn-sah-bee-lee-TAY", en: "a heavy responsibility" }
+  - { id: "c1-collocations-v015", group: "adjectives", fr: "une large majorité", pron: "ewn lar-zhuh mah-zhoh-ree-TAY", en: "a large majority" }
+  - { id: "c1-collocations-v016", group: "adjectives", fr: "un profond désaccord", pron: "uhn proh-fohn day-zah-KOR", en: "a deep disagreement" }
+  - { id: "c1-collocations-v017", group: "adverbs", fr: "grièvement blessé", pron: "gree-ev-MAHN bleh-SAY", en: "seriously injured", note: "Only with blessé. For illness: gravement malade." }
+  - { id: "c1-collocations-v018", group: "adverbs", fr: "parfaitement conscient de", pron: "par-fet-MAHN kohn-SYAHN duh", en: "fully aware of" }
+exercises:
+  - id: "c1-collocations-ex001"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe : Les chercheurs ont ___ une hypothèse."
+    options: ["émis", "commis", "joué"]
+    answers: ["émis"]
+    explanation: "Émettre une hypothèse: to put forward a hypothesis. You commit a mistake (commettre une erreur) and play a part (jouer un rôle)."
+  - id: "c1-collocations-ex002"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe : Il a ___ une grave erreur."
+    options: ["commis", "émis", "relevé"]
+    answers: ["commis"]
+    explanation: "Commettre une erreur, in careful French; faire une erreur is also correct."
+  - id: "c1-collocations-ex003"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Ce document joue un rôle ___ dans l'enquête."
+    options: ["clé", "lourd", "large"]
+    answers: ["clé"]
+    explanation: "Un rôle clé: a key role. Clé works like an adjective here."
+  - id: "c1-collocations-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : La nouvelle a suscité une ___ inquiétude."
+    options: ["vive", "lourde", "large"]
+    answers: ["vive"]
+    explanation: "Vif or vive intensifies feelings and interest: une vive inquiétude."
+  - id: "c1-collocations-ex005"
+    type: "connector-choice"
+    prompt: "Choisissez le mot : Le projet a été adopté à une ___ majorité."
+    options: ["large", "vive", "lourde"]
+    answers: ["large"]
+    explanation: "Une large majorité: a large majority."
+  - id: "c1-collocations-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec « tenir » au participe passé : Nous avons ___ compte de vos remarques."
+    answers: ["tenu"]
+    explanation: "Tenir compte de: nous avons tenu compte de…"
+  - id: "c1-collocations-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec « relever » au passé composé : L'équipe ___ le défi."
+    answers: ["a relevé"]
+    explanation: "Relever un défi: l'équipe a relevé le défi."
+    strictAccents: true
+  - id: "c1-collocations-ex008"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Deux personnes ont été grièvement blessées."
+    options: ["Two people were seriously injured.", "Two people were slightly injured.", "Two people were seriously ill."]
+    answers: ["Two people were seriously injured."]
+    explanation: "Grièvement goes only with blessé: seriously injured."
+  - id: "c1-collocations-ex009"
+    type: "multiple-choice"
+    prompt: "Choisissez la bonne réponse : to make a decision"
+    options: ["prendre une décision", "faire une décision", "donner une décision"]
+    answers: ["prendre une décision"]
+    explanation: "French takes a decision: prendre une décision."
+  - id: "c1-collocations-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « prendre en compte » : Nous avons tenu compte de vos remarques."
+    answers: ["Nous avons pris en compte vos remarques", "Nous avons pris vos remarques en compte"]
+    explanation: "Prendre en compte takes a direct object, before or after en compte."
+  - id: "c1-collocations-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « dresser » : Le directeur a fait le bilan de l'année."
+    answers: ["Le directeur a dressé le bilan de l'année"]
+    strictAccents: true
+    explanation: "Dresser un bilan is the written collocation; faire le bilan is the everyday one."
+  - id: "c1-collocations-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Il a commis une hypothèse."
+    answers: ["Il a émis une hypothèse", "Il a fait une hypothèse"]
+    strictAccents: true
+    explanation: "You put forward a hypothesis (émettre, or faire); commettre goes with an error or a crime."
+  - id: "c1-collocations-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Nous accordons beaucoup d'importance de la sécurité."
+    answers: ["Nous accordons beaucoup d'importance à la sécurité"]
+    explanation: "Accorder de l'importance à quelque chose."
+    strictAccents: true
+  - id: "c1-collocations-ex014"
+    type: "translate"
+    prompt: "Traduisez avec « relever » : They rose to the challenge."
+    answers: ["Ils ont relevé le défi", "Elles ont relevé le défi"]
+    explanation: "Relever un défi: to rise to a challenge."
+  - id: "c1-collocations-ex015"
+    type: "translate"
+    prompt: "Traduisez avec « susciter » et « vif » : This proposal aroused keen interest."
+    answers: ["Cette proposition a suscité un vif intérêt"]
+    strictAccents: true
+    explanation: "Un vif intérêt, with susciter from the lesson on precise verbs."
+  - id: "c1-collocations-ex016"
+    type: "translate"
+    prompt: "Traduisez avec « lourd » : It's a heavy responsibility."
+    answers: ["C'est une lourde responsabilité"]
+    explanation: "Lourd goes before responsabilité in this collocation."
+  - id: "c1-collocations-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The director made a serious mistake."
+    words: ["Le", "directeur", "a", "commis", "une", "grave", "erreur"]
+    answers: ["Le directeur a commis une grave erreur", "Le directeur a commis une erreur grave"]
+    explanation: "Commettre une erreur; grave can come before or after erreur."
+---
+
+By the end of this lesson you'll be able to use the verbs and adjectives that French naturally puts with common nouns, so that your writing sounds French and not translated.
+
+## What you already know
+
+You know several pairs already. *Une hypothèse*, *mener une étude* and *tirer une conclusion* come from <LessonLink id="b2-science-and-research" text="the lesson on science and research" />, and *prendre une décision* from <LessonLink id="b1-review-hypotheses" text="the review of hypotheses" />. You met *porter plainte* in <LessonLink id="b1-making-a-complaint" text="the lesson on making a complaint" />, and *susciter l'intérêt* in <LessonLink id="c1-precise-verbs" text="the lesson on precise verbs" />.
+
+## What a collocation is
+
+<VocabTable group="term" />
+
+*Une collocation* is a pair of words that naturally go together. Nothing in grammar explains it: you simply don't say *faire une décision* in French, even though English says "make a decision". Collocations are why a sentence can be correct and still sound foreign.
+
+<Example fr="Cette phrase est correcte, mais la collocation est mauvaise." en="This sentence is correct, but the collocation is wrong." />
+
+The safest strategy is to learn the noun with its verb or adjective, as one unit.
+
+## Verb and noun
+
+<VocabTable group="verbs" />
+
+Many English "make", "take" and "have" phrases have their own French verb.
+
+- **A hypothesis is put forward**: *émettre une hypothèse*. *Faire une hypothèse* is also heard.
+- **A mistake is committed**: *commettre une erreur* in careful French; *faire une erreur* is fine in everyday French.
+- **A part is played**: *jouer un rôle dans*.
+- **Something is taken into account**: *prendre en compte* (+ direct object) or *tenir compte de*.
+- **Importance is given**: *accorder de l'importance à*.
+- **Stock is taken**: *dresser un bilan*; *faire le bilan* is the everyday version.
+- **A challenge is met**: *relever un défi*.
+- **A project is launched**: *lancer un projet*.
+
+<Example fr="Les chercheurs ont émis une nouvelle hypothèse." en="The researchers put forward a new hypothesis." />
+<Example fr="Nous avons tenu compte de toutes vos remarques." en="We've taken account of all your comments." />
+<Example fr="La mairie accorde beaucoup d'importance à la sécurité." en="The town hall attaches great importance to safety." />
+<Example fr="À la fin de l'année, le directeur dresse un bilan." en="At the end of the year, the director takes stock." />
+<Example fr="L'association a lancé un projet pour les jeunes." en="The association has launched a project for young people." />
+
+Watch the constructions: *prendre en compte vos remarques* has no preposition, but *tenir compte de vos remarques* and *jouer un rôle dans le projet* do.
+
+## Adjective and noun
+
+<VocabTable group="adjectives" />
+
+French often intensifies a noun with a set adjective where English uses "big", "strong" or "deep". *Vif* and *vive* go with feelings and interest. *Lourd* goes with a responsibility or a consequence. *Large* goes with a majority. *Profond* goes with a disagreement or respect. *Clé*, after a noun, means "key".
+
+<Example fr="Les habitants ont exprimé une vive inquiétude." en="The residents expressed deep concern." />
+<Example fr="Elle porte une lourde responsabilité." en="She bears a heavy responsibility." />
+<Example fr="Il existe un profond désaccord entre les deux partis." en="There is a deep disagreement between the two parties." />
+
+Swapping the adjective changes the tone or sounds wrong: *une grande inquiétude* is fine but plainer, while *une lourde inquiétude* isn't a usual pairing. As a rule of thumb, when you're not sure of the adjective, use the plain one (*grand*, *important*) rather than guess.
+
+## Adverb and adjective
+
+<VocabTable group="adverbs" />
+
+A few adverbs go with only one or two adjectives. *Grièvement* goes only with *blessé*; for illness, say *gravement malade*. *Parfaitement* goes naturally with *conscient*.
+
+<Example fr="Mon voisin a été grièvement blessé." en="My neighbour was seriously injured." />
+<Example fr="Je suis parfaitement conscient du problème." en="I'm fully aware of the problem." />
+
+## Everyday and careful pairs
+
+Several nouns have two partners: an everyday verb and a more careful one. Both are correct, but they don't sit in the same texts. In a conversation or a quick email, the everyday pair is natural. In a report, an essay or a formal letter, the careful pair shows control of the language.
+
+| Everyday | Careful |
+|---|---|
+| *faire une erreur* | *commettre une erreur* |
+| *faire une hypothèse* | *émettre une hypothèse* |
+| *faire le bilan* | *dresser un bilan* |
+| *penser à une remarque* | *tenir compte d'une remarque* |
+
+<Example fr="Le rapport dresse un bilan de la première année." en="The report takes stock of the first year." />
+<Example fr="Pendant la réunion, j'ai fait le bilan avec mon équipe." en="During the meeting, I took stock with my team." />
+
+Don't mix the two levels in one sentence: a careful verb next to a familiar word sounds odd.
+
+## How to learn them
+
+Collocations are best learned from reading, not from rules. When you read a French article, note the pairs, not the single words: write *relever un défi*, not just *défi*. Group them by noun, so that each noun brings its verb and its adjective with it.
+
+## The whole list
+
+| English | French collocation |
+|---|---|
+| put forward a hypothesis | *émettre une hypothèse* |
+| make a mistake | *commettre une erreur* (*faire une erreur*) |
+| play a part in | *jouer un rôle dans* |
+| take into account | *prendre en compte*, *tenir compte de* |
+| attach importance to | *accorder de l'importance à* |
+| take stock | *dresser un bilan* (*faire le bilan*) |
+| rise to a challenge | *relever un défi* |
+| deep concern, keen interest | *une vive inquiétude*, *un vif intérêt* |
+| a heavy responsibility, a large majority | *une lourde responsabilité*, *une large majorité* |
+| seriously injured, fully aware | *grièvement blessé*, *parfaitement conscient* |
+
+## En français
+
+Léa, a journalist, has written an article about a project of the town hall. Her editor, Hugo, reads it with her.
+
+- *Léa, ton article est bon, mais certaines phrases sont trop proches de l'anglais.* (Léa, your article is good, but some sentences are too close to English.)
+- *Lesquelles ?* (Which ones?)
+- *Ici : « le maire a pris un rôle important ». On dit « il a joué un rôle clé ».* (Here: "le maire a pris un rôle important". We say "il a joué un rôle clé".)
+- *D'accord. Et « les habitants ont une grande inquiétude » ?* (OK. And "les habitants ont une grande inquiétude"?)
+- *C'est correct, mais « les habitants ont exprimé une vive inquiétude » est plus fort.* (That's correct, but "les habitants ont exprimé une vive inquiétude" is stronger.)
+- *Et « nous avons fait une erreur dans nos chiffres » ?* (And "nous avons fait une erreur dans nos chiffres"?)
+- *Ça va aussi. À l'écrit, « commettre une erreur » est plus soigné.* (That's fine too. In writing, "commettre une erreur" is more careful.)
+- *Le maire a dit : « Nous allons penser à vos remarques. »* (The mayor said: "Nous allons penser à vos remarques.")
+- *Écris plutôt « nous allons tenir compte de vos remarques ».* (Write "nous allons tenir compte de vos remarques" instead.)
+- *Il a aussi parlé d'un grand défi pour la ville.* (He also spoke of a big challenge for the town.)
+- *Alors termine avec une question : « La ville saura-t-elle relever ce défi ? »* (Then end with a question: "Will the town be able to rise to this challenge?")
+- *J'aime bien. Et pour le vote ?* (I like it. And for the vote?)
+- *« Le projet a été adopté à une large majorité. »* ("The project was passed by a large majority.")
+- *Merci. Je vais noter ces expressions.* (Thanks. I'll write these expressions down.)
+
+<Callout type="warning" title="Prendre une décision, not faire une décision">
+  English speakers often translate "make a decision" word for word. French takes a decision: **prendre une décision**. In the same way, French says **prendre rendez-vous** and **poser une question**, where English says "make" and "ask".
+</Callout>
+
+<Callout type="tip" title="One noun, two partners">
+  When you meet an important noun, find two words that often go with it: a verb and an adjective. For *défi*: *relever un défi*, *un grand défi*. Writing them together on one line fixes them much better than writing the noun alone.
+</Callout>
+
+## En résumé
+
+Une collocation est un groupe de mots qui vont souvent ensemble. La grammaire ne l'explique pas : il faut l'apprendre. Avec un nom, on choisit le bon verbe : on émet une hypothèse, on commet une erreur, on joue un rôle dans un projet, on prend en compte une remarque ou on en tient compte, on accorde de l'importance à quelque chose, on dresse un bilan, on relève un défi et on lance un projet. Certains adjectifs donnent plus de force au nom : une vive inquiétude, un vif intérêt, une lourde responsabilité, une large majorité, un profond désaccord, un rôle clé. Certains adverbes vont avec un seul adjectif : grièvement blessé, parfaitement conscient. Pour bien les apprendre, il vaut mieux noter le nom avec son verbe et son adjectif.
+
+## What's next
+
+Next, <LessonLink id="c1-review-style" text="the review of this unit" /> brings inversion, negation, emphasis and precise words together in a short editorial.
+
+===== content/lessons/c1/review-style.mdx =====
+---
+id: "c1-review-style"
+title: "Review: Style and emphasis"
+description: "Bring Unit 2 together by turning a plain text into polished written French: stylistic inversion, the ne explétif, literary negation, fronting, adverb placement, prepositions, precise verbs and collocations, used with restraint."
+level: "C1"
+unit: "Style and emphasis"
+order: 17
+type: "review"
+tags: ["review", "style", "formal writing", "editorial"]
+prerequisites: ["c1-stylistic-inversion", "c1-literary-negation", "c1-dislocation-and-fronting", "c1-adverb-placement", "c1-collocations"]
+related: ["c1-ne-expletif", "c1-tricky-prepositions", "c1-precise-verbs"]
+vocab:
+  - { id: "c1-review-style-v001", group: "new", fr: "la mise en valeur", pron: "lah mee-zahn vah-LUHR", en: "highlighting, showing something to advantage" }
+  - { id: "c1-review-style-v002", group: "new", fr: "un effet de style", pron: "uh-neh-feh duh STEEL", en: "a stylistic effect" }
+  - { id: "c1-review-style-v003", group: "new", fr: "la sobriété", pron: "lah soh-bree-ay-TAY", en: "restraint, sobriety (of style)" }
+  - { id: "c1-review-style-v004", group: "new", fr: "alourdir", pron: "ah-loor-DEER", en: "to weigh down, to make heavy (a text)", note: "Like finir." }
+  - { id: "c1-review-style-v005", group: "glossary", fr: "honnête", pron: "oh-NET", en: "honest, fair" }
+  - { id: "c1-review-style-v006", group: "glossary", fr: "agréable", pron: "ah-gray-AH-bluh", en: "pleasant" }
+  - { id: "c1-review-style-v007", group: "glossary", fr: "la patience (perdre patience)", pron: "lah pah-SYAHNSS (pehr-druh pah-SYAHNSS)", en: "patience (to lose patience)" }
+exercises:
+  - id: "c1-review-style-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la forme du registre soutenu : Sans doute ___ raison."
+    options: ["a-t-il", "il a-t-il", "a il"]
+    answers: ["a-t-il"]
+    explanation: "After sans doute at the start of a sentence, careful writing inverts the verb and the pronoun: sans doute a-t-il raison."
+  - id: "c1-review-style-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Je crains que la mairie ne change d'avis."
+    options: ["I'm afraid the town hall will change its mind.", "I'm afraid the town hall won't change its mind.", "I'm not afraid the town hall will change its mind."]
+    answers: ["I'm afraid the town hall will change its mind."]
+    explanation: "No pas: the ne is explétif and adds no negation."
+  - id: "c1-review-style-ex003"
+    type: "fill-in"
+    prompt: "Complétez au registre soutenu avec « nul » : ___ ne connaît le prix du projet."
+    answers: ["Nul"]
+    explanation: "Nul ne + verb, with no pas: nobody knows."
+  - id: "c1-review-style-ex004"
+    type: "connector-choice"
+    prompt: "Choisissez le mot du registre soutenu : ___ sont ceux qui prennent le bus."
+    options: ["Rares", "Peu", "Beaucoup"]
+    answers: ["Rares"]
+    explanation: "Rares sont ceux qui: the adjective comes first, then sont. Peu and beaucoup can't be used this way."
+  - id: "c1-review-style-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la phrase : Même le maire prend son vélo."
+    options: ["Even the mayor cycles.", "The mayor cycles too.", "The mayor cycles every day."]
+    answers: ["Even the mayor cycles."]
+    explanation: "Même before a noun means even."
+  - id: "c1-review-style-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec un pronom (= I don't miss cars) : Les voitures ne ___ manquent pas."
+    answers: ["me"]
+    explanation: "With manquer à, what's missed is the subject: les voitures ne me manquent pas."
+  - id: "c1-review-style-ex007"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe précis : Les travaux seront ___ en juin."
+    options: ["effectués", "disposés", "comportés"]
+    answers: ["effectués"]
+    explanation: "Effectuer des travaux: to carry out works."
+  - id: "c1-review-style-ex008"
+    type: "connector-choice"
+    prompt: "Choisissez le verbe : Les commerçants ont ___ une vive inquiétude."
+    options: ["exprimé", "commis", "relevé"]
+    answers: ["exprimé"]
+    explanation: "Exprimer une inquiétude. You commit a mistake and rise to a challenge."
+  - id: "c1-review-style-ex009"
+    type: "register-shift"
+    prompt: "Transformez au registre soutenu, avec « rares sont les habitants qui » : Peu d'habitants prennent le bus."
+    answers: ["Rares sont les habitants qui prennent le bus"]
+    explanation: "Rares sont les habitants qui + verb in the plural."
+  - id: "c1-review-style-ex010"
+    type: "register-shift"
+    prompt: "Transformez au registre courant écrit, sans dislocation : Le centre-ville, on ne le reconnaît plus."
+    answers: ["On ne reconnaît plus le centre-ville", "Nous ne reconnaissons plus le centre-ville"]
+    explanation: "Put the noun back in the object position and drop the pronoun le."
+  - id: "c1-review-style-ex011"
+    type: "reformulation"
+    prompt: "Reformulez la deuxième phrase avec « Aussi » en tête et l'inversion : Le projet coûte cher. La mairie doit donc le défendre."
+    answers: ["Aussi la mairie doit-elle le défendre", "Le projet coûte cher. Aussi la mairie doit-elle le défendre"]
+    explanation: "With a noun subject, keep the noun first and add a pronoun after the verb: la mairie doit-elle."
+  - id: "c1-review-style-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec « comporter » : Dans le plan, il y a trois étapes."
+    answers: ["Le plan comporte trois étapes"]
+    explanation: "The container becomes the subject of comporter."
+  - id: "c1-review-style-ex013"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (le sens : before it's too late) : Agissons avant qu'il ne soit pas trop tard."
+    answers: ["Agissons avant qu'il ne soit trop tard", "Agissons avant qu'il soit trop tard"]
+    explanation: "With pas, the sentence says the opposite. Keep the ne explétif or drop it, but drop pas."
+  - id: "c1-review-style-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Cette mesure a joué un rôle clé à la réussite du projet."
+    answers: ["Cette mesure a joué un rôle clé dans la réussite du projet"]
+    strictAccents: true
+    explanation: "Jouer un rôle dans quelque chose."
+  - id: "c1-review-style-ex015"
+    type: "translate"
+    prompt: "Traduisez au registre soutenu, avec « nullement » : We are in no way against this project."
+    answers: ["Nous ne sommes nullement contre ce projet"]
+    explanation: "Ne… nullement replaces ne… pas du tout in formal writing."
+  - id: "c1-review-style-ex016"
+    type: "translate"
+    prompt: "Traduisez avec « seulement » : The street is closed only on Sundays."
+    answers: ["La rue est fermée seulement le dimanche", "La rue est fermée le dimanche seulement"]
+    explanation: "Seulement goes next to the word it restricts: seulement le dimanche, or le dimanche seulement."
+  - id: "c1-review-style-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Such is the challenge that the town must rise to."
+    words: ["Tel", "est", "le", "défi", "que", "la", "ville", "doit", "relever"]
+    answers: ["Tel est le défi que la ville doit relever"]
+    explanation: "Tel est + noun opens the sentence; relever un défi is the collocation."
+  - id: "c1-review-style-ex018"
+    type: "translate"
+    prompt: "Traduisez avec « alourdir » : Too many effects weigh down a text."
+    answers: ["Trop d'effets alourdissent un texte", "Trop d'effets de style alourdissent un texte"]
+    explanation: "Alourdir is like finir: ils alourdissent."
+---
+
+By the end of this lesson you'll be able to take a plain text and make it polished written French, choosing a few effects from this unit and using them with restraint.
+
+## What you've learned
+
+This unit has been about style: how word order, negation, adverbs and word choice change the tone of a text. Skim this list, and go back to anything that feels shaky.
+
+- **Inversion.** After *sans doute*, *à peine* and *aussi* (therefore), careful writing puts the verb first: *sans doute a-t-il raison*, from <LessonLink id="c1-stylistic-inversion" text="the lesson on stylistic inversion" />.
+- **The ne explétif.** *Avant qu'il ne soit trop tard*, *plus vite que nous ne le pensions*, from <LessonLink id="c1-ne-expletif" text="the lesson on the ne explétif" />.
+- **Literary negation.** *Nul ne sait*, *je n'en doute nullement*, *il ne cesse de pleuvoir*, from <LessonLink id="c1-literary-negation" text="the lesson on literary negation" />.
+- **Emphasis.** Dislocation in speech (*ce film, je l'ai adoré*) and fronting in writing (*rares sont ceux qui*, *reste à savoir si*, *telle est la raison*), from <LessonLink id="c1-dislocation-and-fronting" text="the lesson on dislocation and fronting" />.
+- **Adverbs.** *Même le maire*, *seulement le dimanche*, *visiblement*, from <LessonLink id="c1-adverb-placement" text="the lesson on adverb placement" />.
+- **Prepositions.** *Paris manque à Julie*, *croire en*, *penser de*, from <LessonLink id="c1-tricky-prepositions" text="the lesson on tricky prepositions" />.
+- **Precise verbs.** *Effectuer*, *disposer de*, *comporter*, *se dérouler*, *susciter*, from <LessonLink id="c1-precise-verbs" text="the lesson on precise verbs" />.
+- **Collocations.** *Dresser un bilan*, *relever un défi*, *une vive inquiétude*, *un rôle clé*, from <LessonLink id="c1-collocations" text="the lesson on collocations" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+These four words help you talk about style itself. *La mise en valeur* is what emphasis does: it shows one idea to advantage. *Un effet de style* is any choice that gives a sentence a particular tone, such as an inversion or a fronted word. *La sobriété* is restraint, a style without too many effects; you know the adjective *sobre* from <LessonLink id="b2-describing-a-work-of-art" text="the lesson on describing a work of art" />. *Alourdir* is to make a text heavy.
+
+<Example fr="L'inversion permet la mise en valeur de l'idée principale." en="Inversion lets you highlight the main idea." />
+<Example fr="Chaque effet de style doit avoir une raison." en="Every stylistic effect needs a reason." />
+<Example fr="Un bon éditorial garde une certaine sobriété." en="A good editorial keeps a certain restraint." />
+<Example fr="Trop de verbes rares alourdissent le texte." en="Too many rare verbs weigh the text down." />
+
+## From plain to polished
+
+Polishing a text isn't about putting every effect of the unit into one paragraph. It's about choosing a few, in the right places. Work in this order.
+
+1. **Replace the vague verbs.** Circle *faire*, *mettre*, *avoir* and *il y a*, and change those that hide information: *effectuer des travaux*, *le plan comporte trois étapes*.
+2. **Fix the collocations.** Check each important noun with its verb and adjective: *dresser un bilan*, *une large majorité*.
+3. **Put one idea in focus.** Use fronting or inversion once or twice, for the points that matter most: *rares sont ceux qui…*, *aussi la mairie doit-elle…*.
+4. **Choose the register of the negations.** In a formal text, one *nul ne* or *ne… nullement* can replace a plain negation. Keep *ne… point* for literary imitation.
+5. **Check the small words.** Is *seulement* or *même* next to the word it modifies? Does *manquer à* have the right subject? Does *disposer* have its *de*?
+
+Then reread for *sobriété*. If two effects sit in the same sentence, remove one. As a rule of thumb, a paragraph of five sentences needs no more than two effects.
+
+## One sentence, three steps
+
+Here is how one plain sentence becomes formal, one step at a time. Each step changes a single thing.
+
+<Example fr="Il y a beaucoup de gens qui ont peur pour les commerces." en="There are a lot of people who are worried about the shops." />
+<Example fr="Nombreux sont ceux qui ont peur pour les commerces." en="Many people are worried about the shops. (formal)" />
+<Example fr="Nombreux sont ceux qui expriment une vive inquiétude pour les commerces." en="Many people are expressing deep concern about the shops. (formal)" />
+
+The first step replaces *il y a beaucoup de gens qui* with fronting. The second replaces *avoir peur* with a collocation. A third step, such as an inversion, would be too much for one sentence.
+
+The same method works for a sentence about a decision:
+
+<Example fr="La mairie n'a pas du tout pensé aux familles." en="The town hall didn't think about families at all." />
+<Example fr="La mairie n'a nullement tenu compte des familles." en="The town hall took no account of families whatsoever. (formal)" />
+
+Here, *nullement* replaces *pas du tout*, and *tenir compte de* replaces *penser à*. Two changes are enough.
+
+## Traps when you polish
+
+Three mistakes come back again and again when learners make a text more formal.
+
+- **Changing the meaning.** A *pas* added after a *ne explétif* turns the sentence into its opposite. A *seulement* moved to another place restricts another word. After each change, check that the sentence still says what you meant.
+- **Mixing registers.** A fronted *rares sont ceux qui* next to a dislocation or a familiar word sounds like two writers. Keep one register per paragraph.
+- **Forgetting the construction.** Precise verbs and collocations bring their own prepositions: *disposer de*, *tenir compte de*, *jouer un rôle dans*, *accorder de l'importance à*. Learn the preposition with the verb.
+
+## A model editorial
+
+This is an original editorial about an invented town, Saint-Aubin, written for this lesson.
+
+*Saint-Aubin, une ville sans voitures ?*
+
+*Depuis le 1er mars, les voitures ne peuvent plus entrer dans le centre de Saint-Aubin. La mesure, instaurée par la mairie après un long débat, a suscité une vive inquiétude chez les commerçants. Rares sont ceux qui étaient d'accord au début. « Le centre, on ne le reconnaît plus ! », nous a dit une commerçante.*
+
+*Il faut pourtant dresser un bilan honnête. Le premier mois s'est déroulé dans le calme, et les chiffres sont meilleurs que nous ne le pensions : la pollution a baissé, et les rues sont plus vivantes. Le samedi, les familles marchent dans les rues, et les enfants jouent sur la place. Même les commerçants le reconnaissent.*
+
+*Sans doute la mairie a-t-elle commis des erreurs. Elle n'a guère tenu compte des personnes âgées, pour qui le bus reste difficile. Elle doit maintenant les écouter. Nul ne pense pourtant que la situation d'avant était bonne.*
+
+*Reste la question des commerces. Le calme ne leur pose aucun problème. Ce sont les clients des villages voisins qui leur manquent : ils ne disposent pas d'un parking à l'entrée de la ville. Le samedi, ils faisaient leurs courses dans le centre ; aujourd'hui, ils vont ailleurs.*
+
+*Telle est la difficulté : une ville plus agréable ne doit pas devenir une ville fermée. La mairie doit agir avant que les commerçants ne perdent patience. Aussi lui demandons-nous d'élaborer un plan pour les parkings. Ce plan jouera un rôle clé dans l'avenir de Saint-Aubin. Reste à savoir si la ville saura relever ce défi.*
+
+<VocabTable group="glossary" />
+
+(Saint-Aubin, a town without cars? Since 1 March, cars can no longer enter the centre of Saint-Aubin. The measure, brought in by the town hall after a long debate, aroused deep concern among the shopkeepers. Few of them agreed at first. "You can't recognize the centre any more!", one shopkeeper told us (spoken). We must nevertheless take stock honestly. The first month went off calmly, and the figures are better than we thought: pollution has fallen, and the streets are livelier. On Saturdays, families walk in the streets, and children play in the square. Even the shopkeepers admit it. No doubt the town hall made mistakes. It hardly took account of older people, for whom the bus is still difficult. It must now listen to them. Yet nobody thinks the situation before was good. There remains the question of the shops. The quiet causes them no problem. What they miss are the customers from the neighbouring villages: they don't have a car park at the entrance to the town. On Saturdays, they used to do their shopping in the centre; today, they go elsewhere. Such is the difficulty: a more pleasant town mustn't become a closed town. The town hall must act before the shopkeepers lose patience. We therefore ask it to draw up a plan for car parks. This plan will play a key role in the future of Saint-Aubin. It remains to be seen whether the town will rise to this challenge.)
+
+## How the text uses the unit
+
+- **Precise verbs and collocations**: *instaurée*, *a suscité une vive inquiétude*, *dresser un bilan*, *s'est déroulé*, *ne disposent pas d'un parking*, *élaborer un plan*, *jouera un rôle clé*, *relever ce défi*.
+- **Fronting**: *rares sont ceux qui*, *reste la question des commerces*, *telle est la difficulté*, *reste à savoir si*.
+- **Inversion**: *sans doute la mairie a-t-elle commis*, *aussi lui demandons-nous*, and the incise *nous a dit une commerçante*.
+- **Negation**: *nul ne pense*, and *ne… guère* from B2.
+- **The ne explétif**: *meilleurs que nous ne le pensions*, *avant que les commerçants ne perdent patience*.
+- **Adverbs and prepositions**: *même les commerçants*, and *manquer à* with the clients as the subject.
+- **Dislocation** appears only once, inside a quotation, because it's spoken French.
+
+Notice what the text doesn't do. Each paragraph has one or two effects, and the plainest sentences (*la pollution a baissé*) carry the facts. That restraint is *la sobriété*.
+
+Notice also the order of the paragraphs: the facts first, then the assessment, then the problem, and finally the request to the town hall. Fronting and inversion appear where the argument turns (*sans doute*, *reste*, *telle est*, *aussi*), so the reader feels each step. An effect placed at a turning point helps the reader; the same effect in the middle of a list of facts only slows them down.
+
+## Your turn
+
+Here is a plain paragraph. Rewrite it as the second paragraph of an editorial, with three or four of the effects above.
+
+*Choisissez trois ou quatre effets de style pour la mise en valeur des idées principales, et gardez une certaine sobriété : trop d'effets alourdissent le texte.*
+
+(Choose three or four stylistic effects to highlight the main ideas, and keep a certain restraint: too many effects weigh the text down.)
+
+*Il y a eu beaucoup de discussions sur le nouveau parc. Beaucoup de gens étaient contre. Maintenant, on a fait un premier bilan, et les résultats sont meilleurs qu'on pensait. Mais il reste un problème : on n'a pas pensé aux familles. La mairie doit faire quelque chose vite.*
+
+(There's been a lot of discussion about the new park. Many people were against it. Now a first assessment has been made, and the results are better than people thought. But one problem remains: nobody thought about families. The town hall must do something quickly.)
+
+For example, you could use *susciter* for the discussions, *rares sont ceux qui* or *nombreux sont ceux qui*, *dresser un bilan*, *meilleurs que nous ne le pensions*, *reste la question de*, *tenir compte de* and *aussi* with inversion. Keep at least two plain sentences.
+
+## Check your work
+
+- Did you replace only the general verbs that hide information?
+- Is each collocation right (*dresser un bilan*, not *faire un bilan* in formal writing)?
+- After *rares sont ceux qui* or *nombreux sont ceux qui*, is the verb plural?
+- After *aussi* with inversion, did you keep a noun subject first and add a pronoun (*aussi la mairie doit-elle*)?
+- Is there a *pas* after the *ne explétif* by mistake?
+- Are there two plain sentences left, so that the effects stand out?
+
+<Callout type="warning" title="Aussi la mairie doit-elle, not aussi doit la mairie">
+  With a noun subject, learners often swap the noun and the verb after *aussi*. Keep the noun first and add a pronoun after the verb: **aussi la mairie doit-elle agir**. With a pronoun subject, simply invert: **aussi devons-nous agir**.
+</Callout>
+
+<Callout type="tip" title="Read it aloud as a listener">
+  When you've polished a text, read it aloud once, as if you were hearing it on the radio. Wherever you run out of breath or lose the thread, an effect is in the way: remove it or split the sentence. Good formal French still sounds natural when read aloud.
+</Callout>
+
+## What's next
+
+The next unit is about academic writing. It starts with the lesson on participle clauses.
+

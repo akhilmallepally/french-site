@@ -1,6 +1,6 @@
 # All lesson data
 
-229 written lessons, in course order.
+236 written lessons, in course order.
 
 ## a1-greetings
 
@@ -9082,7 +9082,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-future-in-the-past-ex004 | fill-in | Complétez avec « devoir » à l'imparfait : Le navire ___ partir à midi, mais il n'est parti que le soir. | — | ["devait"] | false | Devait + infinitive: what was planned, here not what happened.
 - c1-future-in-the-past-ex005 | connector-choice | Choisissez la bonne forme : Ce jour-là, ils ne savaient pas qu'ils ne ___ jamais leur village. | ["reverraient","revoient","reverrons"] | ["reverraient"] | false | A later event seen from ce jour-là: the conditionnel. Revoient is the present, and reverrons doesn't match ils.
 - c1-future-in-the-past-ex006 | multiple-choice | Indiquez le sens de « devait » dans la phrase : Il devait arriver à midi, mais il n'est jamais venu. | ["was supposed to","must have","would have"] | ["was supposed to"] | false | Devait + infinitive gives the plan; mais shows it didn't happen.
-- c1-future-in-the-past-ex007 | multiple-choice | Choisissez le sens de la phrase : Elle ne devait jamais revenir. | ["She was never to come back.","She will never come back.","She has never come back."] | ["She was never to come back."] | false | In a story, ne devait jamais + infinitive announces what fate had in store.
+- c1-future-in-the-past-ex007 | multiple-choice | Choisissez le sens de la deuxième phrase, dans un récit : Elle quitta le village ce jour-là. Elle ne devait jamais revenir. | ["She was never to come back.","She will never come back.","She has never come back."] | ["She was never to come back."] | false | She left the village that day. In a story told in the passé simple, ne devait jamais + infinitive announces what fate had in store: she was never to come back.
 - c1-future-in-the-past-ex008 | connector-choice | Choisissez la bonne forme : Il ___ embarquer quand sa mère surgit de la foule. | ["allait","irait","ira"] | ["allait"] | false | Allait + infinitive: he was about to board when something interrupted him.
 - c1-future-in-the-past-ex009 | multiple-choice | Choisissez le temps de la suite dans un récit au présent de narration : En 1850, il quitte son village ; il ne le ___ jamais. | ["reverra (le futur simple)","reverrait (le conditionnel présent)","avait revu (le plus-que-parfait)"] | ["reverra (le futur simple)"] | false | When the story is told in the present, a later event takes the futur simple.
 - c1-future-in-the-past-ex010 | reformulation | Reformulez avec « ne pas tarder à », au passé simple : Il se mit bientôt à pleuvoir. | — | ["Il ne tarda pas à pleuvoir"] | true | Ne pas tarder à + infinitive: it wasn't long before it rained.
@@ -9094,6 +9094,52 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-future-in-the-past-ex016 | translate | Traduisez au passé simple, comme dans un récit (ne pas tarder à, revenir) : The rider soon came back. | — | ["Le cavalier ne tarda pas à revenir","La cavalière ne tarda pas à revenir"] | true | Ne tarda pas à + infinitive, in the passé simple of the narrative.
 - c1-future-in-the-past-ex017 | translate | Traduisez avec le conditionnel passé (penser, avant le soir, franchir) : She thought that she would have crossed the border before evening. | — | ["Elle pensait qu'avant le soir, elle aurait franchi la frontière","Elle pensait qu'elle aurait franchi la frontière avant le soir"] | false | A future perfect seen from the past: the conditionnel passé, aurait franchi.
 - c1-future-in-the-past-ex018 | reorder | Remettez dans l'ordre : He was never to see his country again. | — | ["Il ne devait jamais revoir son pays"] | false | Ne devait jamais + infinitive: what fate had in store.
+
+## c1-imperfect-subjunctive
+
+### Vocab
+
+fr | pron | en | note
+
+- l'imparfait du subjonctif | lan-par-FEH dew sewb-zhohnk-TEEF | the imperfect subjunctive (literary) | —
+- qu'il parlât / qu'ils parlassent | keel par-LAH / keel par-LASS | that he spoke / that they spoke (literary) | Modern: qu'il parle, qu'ils parlent.
+- qu'il finît | keel fee-NEE | that he finished (literary) | Modern: qu'il finisse.
+- qu'il fût | keel FEW | that he was (literary) | Être. Modern: qu'il soit.
+- qu'il eût | kee-LEW | that he had (literary) | Avoir. Modern: qu'il ait.
+- qu'il fît | keel FEE | that he did, that he made (literary) | Faire. Modern: qu'il fasse.
+- qu'il vînt | keel VAN | that he came (literary) | Venir. Modern: qu'il vienne.
+- il fallait que | eel fah-LEH kuh | it was necessary that, (someone) had to | The imparfait of il faut que, + subjunctive.
+- le registre littéraire | luh ruh-zhees-truh lee-tay-REHR | the literary register | —
+- l'accent circonflexe (m.) | lak-SAHN seer-kohn-FLEKS | the circumflex accent | —
+- le roi / la reine | luh RWAH / lah REN | the king / the queen | —
+- la porte du château | lah por-tuh dew shah-TOH | the castle gate | —
+- le plus-que-parfait du subjonctif | luh plews-kuh-par-FEH dew sewb-zhohnk-TEEF | the pluperfect subjunctive (literary) | —
+- qu'il eût fini / qu'il fût parti | kee-lew fee-NEE / keel few par-TEE | that he had finished / that he had left (literary) | Modern: qu'il ait fini, qu'il soit parti.
+- il eût préféré | ee-lew pray-fay-RAY | he would have preferred (literary) | = il aurait préféré.
+- on eût dit | oh-new DEE | you would have thought, it looked like (literary) | = on aurait dit.
+- fût-il | FEW-teel | even if he were (literary) | Fût-il malade = même s'il était malade.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-imperfect-subjunctive-ex001 | multiple-choice | Indiquez le temps de « fût » dans la phrase : Bien qu'il fût malade, il partit. | ["l'imparfait du subjonctif","le passé simple","l'imparfait"] | ["l'imparfait du subjonctif"] | false | Bien que needs the subjunctive, and fût has a circumflex: it's the imparfait du subjonctif of être. Partit is the passé simple.
+- c1-imperfect-subjunctive-ex002 | multiple-choice | Indiquez le temps de « fut » dans la phrase : Il fut malade tout l'hiver. | ["le passé simple","l'imparfait du subjonctif","le présent"] | ["le passé simple"] | false | No que, no trigger and no circumflex: fut is the passé simple of être, an event in a story.
+- c1-imperfect-subjunctive-ex003 | multiple-choice | Indiquez le temps de « vînt » dans la phrase 1 et de « vint » dans la phrase 2 : (1) Le roi voulait qu'il vînt. (2) Le roi vint le soir. | ["(1) imparfait du subjonctif, (2) passé simple","(1) passé simple, (2) imparfait du subjonctif","(1) et (2) passé simple"] | ["(1) imparfait du subjonctif, (2) passé simple"] | false | After voulait que, with a circumflex, vînt is the subjunctive. Vint, with no que and no accent, is the passé simple.
+- c1-imperfect-subjunctive-ex004 | multiple-choice | Indiquez la forme moderne de « qu'il vînt » dans la phrase : Il fallait qu'il vînt avant la nuit. | ["qu'il vienne","qu'il viendrait","qu'il est venu"] | ["qu'il vienne"] | false | Modern French uses the present subjunctive, whatever the tense of the main verb: il fallait qu'il vienne.
+- c1-imperfect-subjunctive-ex005 | multiple-choice | Indiquez le sens de la phrase : Il eût préféré se taire. | ["He would have preferred to keep quiet.","He had preferred to keep quiet.","He preferred to keep quiet."] | ["He would have preferred to keep quiet."] | false | Il eût préféré is a literary conditionnel passé: il aurait préféré.
+- c1-imperfect-subjunctive-ex006 | multiple-choice | Indiquez le sens de « Fût-il » dans la phrase : Fût-il malade, il viendrait. | ["Even if he were ill","Because he was ill","When he was ill"] | ["Even if he were ill"] | false | Fût-il at the start of a sentence, with inversion, is concessive: même s'il était malade.
+- c1-imperfect-subjunctive-ex007 | connector-choice | Choisissez la forme du subjonctif : Le roi ordonna qu'on ___ la porte du château. | ["fermât","ferma","fermera"] | ["fermât"] | false | Ordonner que takes the subjunctive; after a past main verb, a classic text uses the imparfait du subjonctif: qu'on fermât. Ferma is the passé simple, and fermera the futur.
+- c1-imperfect-subjunctive-ex008 | fill-in | Conjuguez au subjonctif (être) : Il fallait que la porte du château ___ fermée avant la nuit. | — | ["soit","fût"] | true | Modern French says soit. A classic text would write fût, with a circumflex; fut without it is the passé simple.
+- c1-imperfect-subjunctive-ex009 | fill-in | Conjuguez au subjonctif (avoir fini) : Bien qu'il ___ son travail, il resta au bureau. | — | ["ait fini","eût fini"] | true | Modern French uses the passé subjunctive, ait fini. A classic text would use the plus-que-parfait du subjonctif, eût fini.
+- c1-imperfect-subjunctive-ex010 | reformulation | Reformulez en français moderne : Je voulais qu'il vînt. | — | ["Je voulais qu'il vienne"] | false | Vînt becomes the present subjunctive, vienne. The main verb stays in the imparfait.
+- c1-imperfect-subjunctive-ex011 | reformulation | Reformulez en français moderne : Il eût préféré partir. | — | ["Il aurait préféré partir"] | true | Il eût préféré is the literary form of the conditionnel passé, il aurait préféré.
+- c1-imperfect-subjunctive-ex012 | reformulation | Reformulez avec le subjonctif passé : Je regrettais qu'il fût parti. | — | ["Je regrettais qu'il soit parti"] | false | Fût parti is the plus-que-parfait du subjonctif; its modern equivalent is the passé subjunctive, soit parti.
+- c1-imperfect-subjunctive-ex013 | register-shift | Transformez en français courant, en gardant « bien que » : Bien qu'elle fût fatiguée, elle travaillait encore. | — | ["Bien qu'elle soit fatiguée, elle travaillait encore"] | false | Fût becomes soit. Modern French keeps the present subjunctive after a main verb in the past.
+- c1-imperfect-subjunctive-ex014 | error-correction | Corrigez l'erreur (un récit au passé simple, sans subjonctif) : Ce soir-là, il fût très heureux. | — | ["Ce soir-là, il fut très heureux"] | true | There's no que and no trigger, so this is the passé simple of être: fut, without a circumflex.
+- c1-imperfect-subjunctive-ex015 | translate | Traduisez en français moderne, avec « il fallait que » (partir) : He had to leave before nightfall. | — | ["Il fallait qu'il parte avant la nuit"] | false | Il fallait que + present subjunctive in modern French: qu'il parte.
+- c1-imperfect-subjunctive-ex016 | translate | Traduisez en français moderne (regretter, partir) : She was sorry that he had left. | — | ["Elle regrettait qu'il soit parti","Elle a regretté qu'il soit parti"] | true | Regretter que + passé subjunctive for an earlier action: qu'il soit parti.
+- c1-imperfect-subjunctive-ex017 | reorder | Remettez dans l'ordre : Although he was ill, he left. (literary) | — | ["Bien qu'il fût malade, il partit","Il partit bien qu'il fût malade"] | false | Bien que + imparfait du subjonctif (fût), then the passé simple (partit). The bien que clause can also come second.
 
 ## c1-stylistic-inversion
 
@@ -9166,7 +9212,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-ne-expletif-ex003 | multiple-choice | Indiquez le sens de « ne » dans la phrase : Partez avant qu'il ne soit trop tard. | ["ne explétif","négation"] | ["ne explétif"] | false | Avant que… ne, with no pas: the meaning is "before it's too late".
 - c1-ne-expletif-ex004 | multiple-choice | Indiquez le sens de « ne » dans la phrase : Je crains qu'elle ne puisse pas venir. | ["négation","ne explétif"] | ["négation"] | false | Ne… pas: the fear is that she can't come.
 - c1-ne-expletif-ex005 | fill-in | Conjuguez au subjonctif, avec le ne explétif (venir) : Il faut partir avant qu'il ___. | — | ["ne vienne"] | false | Avant que + subjunctive, with the ne explétif: avant qu'il ne vienne.
-- c1-ne-expletif-ex006 | fill-in | Complétez avec le ne explétif (penser, imparfait) : Le voyage a été plus long que je ___. | — | ["ne pensais"] | false | After a comparison, the ne explétif comes with the indicative: que je ne pensais.
+- c1-ne-expletif-ex006 | fill-in | Complétez avec le ne explétif (penser, imparfait) : Le voyage a été plus long que je ___. | — | ["ne pensais","ne le pensais"] | false | After a comparison, the ne explétif comes with the indicative: que je ne pensais, or que je ne le pensais.
 - c1-ne-expletif-ex007 | fill-in | Conjuguez au subjonctif, avec le ne explétif (partir) : Nous avons tout fait pour éviter qu'il ___. | — | ["ne parte"] | false | Éviter que + subjunctive, here with the ne explétif: qu'il ne parte.
 - c1-ne-expletif-ex008 | connector-choice | Choisissez le connecteur : Il a fermé la fenêtre, ___ le chat ne sorte. | ["de crainte que","parce que","pendant que"] | ["de crainte que"] | false | Sorte is a subjunctive, and the ne explétif follows a word of fear: de crainte que.
 - c1-ne-expletif-ex009 | connector-choice | Choisissez la bonne forme : Il est plus tard que je ne ___. | ["croyais","croie","croyais pas"] | ["croyais"] | false | A comparison takes the indicative and no pas: que je ne croyais.
@@ -9206,11 +9252,11 @@ fr | pron | en | note
 id | type | prompt | options | answers | strictAccents | explanation
 
 - c1-literary-negation-ex001 | multiple-choice | Indiquez le sens de la phrase : Je ne l'ai point vu. | ["I didn't see him at all.","I saw him at one point.","I only saw him."] | ["I didn't see him at all."] | false | Ne… point is a literary negative, like ne… pas but stronger.
-- c1-literary-negation-ex002 | multiple-choice | Indiquez le registre de la phrase : Il ne cesse de pleuvoir. | ["soutenu","familier","courant"] | ["soutenu"] | false | Ne alone with cesser belongs to formal and literary French. Everyday French says il n'arrête pas de pleuvoir.
+- c1-literary-negation-ex002 | multiple-choice | Indiquez le registre de la phrase : Il ne cesse de pleuvoir. | ["soutenu","familier","courant"] | ["soutenu"] | false | Ne alone with cesser belongs to formal and literary French. Standard French says il ne cesse pas de pleuvoir or il n'arrête pas de pleuvoir.
 - c1-literary-negation-ex003 | multiple-choice | Indiquez le sens de « nul ne » dans la phrase : Nul ne sait où il est parti. | ["nobody","nothing","never"] | ["nobody"] | false | Nul ne is the formal equivalent of personne ne.
 - c1-literary-negation-ex004 | fill-in | Complétez au registre soutenu avec « nul » : ___ ne peut entrer sans invitation. | — | ["Nul"] | false | Nul ne + verb, with no pas: nobody may come in.
 - c1-literary-negation-ex005 | fill-in | Complétez au registre soutenu, sans « pas » (oser, présent) : Je n'___ vous déranger. | — | ["ose"] | false | With oser, formal French can use ne alone: je n'ose vous déranger.
-- c1-literary-negation-ex006 | fill-in | Complétez au registre soutenu (cesser, présent) : Il ne ___ de se plaindre. | — | ["cesse"] | false | Ne cesser de + infinitive, with no pas: he keeps complaining.
+- c1-literary-negation-ex006 | fill-in | Complétez au registre soutenu, sans « pas » (cesser, présent) : Il ne ___ de se plaindre. | — | ["cesse"] | false | Ne cesser de + infinitive, with no pas: he keeps complaining.
 - c1-literary-negation-ex007 | connector-choice | Choisissez le mot : Il ne mange ___ ne dort depuis trois jours. | ["ni","pas","point"] | ["ni"] | false | Ne… ni ne joins two negative verbs: he neither eats nor sleeps.
 - c1-literary-negation-ex008 | connector-choice | Choisissez le mot : Il partit sans argent ___ amis. | ["ni","et pas","point"] | ["ni"] | false | After sans, formal French joins a second element with ni: sans argent ni amis.
 - c1-literary-negation-ex009 | register-shift | Transformez en français courant, avec « pas » : Je ne l'ai point vu. | — | ["Je ne l'ai pas vu"] | false | Point becomes pas, in the same place.
@@ -9223,3 +9269,279 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-literary-negation-ex016 | translate | Traduisez en français courant : Nobody knows. | — | ["Personne ne sait","Personne ne le sait"] | false | Everyday French: personne ne. The formal nul ne isn't needed here.
 - c1-literary-negation-ex017 | translate | Traduisez au registre soutenu, avec « oser » sans « pas » : I dare not answer. | — | ["Je n'ose répondre"] | false | Oser with ne alone: je n'ose répondre.
 - c1-literary-negation-ex018 | reorder | Remettez dans l'ordre : I don't doubt it at all. (formal) | — | ["Je n'en doute nullement"] | false | Ne… nullement, with en for the thing doubted.
+
+## c1-dislocation-and-fronting
+
+### Vocab
+
+fr | pron | en | note
+
+- la dislocation | lah dees-loh-kah-SYOHN | dislocation (moving a word to the start or end of the sentence and repeating it with a pronoun) | —
+- le thème (de la phrase) | luh TEM duh lah FRAHZ | the topic, what the sentence is about | Not le sujet, the grammatical subject: in ce film, je l'ai adoré, the subject is je.
+- rares sont ceux qui | rahr sohn suh KEE | few people…, there are few who… (formal) | Rares sont les pièces qui… The adjective agrees.
+- nombreux sont ceux qui | nohn-bruh sohn suh KEE | many people… (formal) | Nombreuses sont les femmes qui…
+- reste à savoir si | rest ah sah-VWAHR see | it remains to be seen whether (formal) | Standard: il reste à savoir si.
+- reste la question de | rest lah kes-TYOHN duh | there remains the question of (formal) | Plural: restent deux questions, or impersonal il reste deux questions.
+- tel est / telle est | teh-LEH / teh-LEH | such is, that is (formal) | Tel agrees with the noun after it: telle est la raison, tels sont les faits.
+- le sort | luh SOR | fate, lot | Tel fut son sort (literary, passé simple): such was his fate.
+- la pièce de théâtre | lah pyes duh tay-AH-truh | the play | —
+- le comédien / la comédienne | luh koh-may-DYAN / lah koh-may-DYEN | the actor / the actress (on stage) | Not a comedian: that's un humoriste.
+- le décor | luh day-KOR | the set, the scenery | —
+- la représentation | lah ruh-pray-zahn-tah-SYOHN | the performance (of a play) | —
+- bouleverser | bool-vehr-SAY | to move deeply, to overwhelm; to upset | —
+- la critique | lah kree-TEEK | the review (of a show or book); criticism | —
+- le metteur en scène | luh meh-tuhr ahn SEN | the director (of a play) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-dislocation-and-fronting-ex001 | multiple-choice | Indiquez où on entend surtout cette phrase : Ce film, je l'ai adoré. | ["à l'oral","dans un rapport officiel"] | ["à l'oral"] | false | Dislocation is a feature of speech. A formal report would say j'ai beaucoup apprécié ce film.
+- c1-dislocation-and-fronting-ex002 | connector-choice | Choisissez le mot : Ton frère, je ___ ai écrit hier. | ["lui","l'","en"] | ["lui"] | false | Écrire à quelqu'un: the person is taken up by lui.
+- c1-dislocation-and-fronting-ex003 | connector-choice | Choisissez le mot : Du café, j'___ bois trois tasses par jour. | ["en","le","y"] | ["en"] | false | An amount (du café, trois tasses) is taken up by en.
+- c1-dislocation-and-fronting-ex004 | connector-choice | Choisissez le mot : Ce projet, j'___ pense tous les jours. | ["y","en","le"] | ["y"] | false | Penser à quelque chose: the thing is taken up by y.
+- c1-dislocation-and-fronting-ex005 | multiple-choice | Indiquez le sens de la phrase : Le chocolat, j'adore ça. | ["I love chocolate (in general).","I love this particular chocolate.","I don't like chocolate."] | ["I love chocolate (in general)."] | false | Ça takes up a noun used in a general sense. For one particular chocolate, you'd say ce chocolat, je l'adore.
+- c1-dislocation-and-fronting-ex006 | multiple-choice | Indiquez le sens de la phrase : Rares sont ceux qui lisent ce roman jusqu'à la fin. | ["Few people read this novel to the end.","Many people read this novel to the end.","The people who read this novel to the end are strange."] | ["Few people read this novel to the end."] | false | Rares sont ceux qui: few people. Rare here means few in number, not strange.
+- c1-dislocation-and-fronting-ex007 | multiple-choice | Indiquez le temps de « fut » dans la phrase : Tel fut son sort. | ["le passé simple","l'imparfait du subjonctif","le présent"] | ["le passé simple"] | false | Fut, with no circumflex and no que, is the passé simple of être: such was his fate.
+- c1-dislocation-and-fronting-ex008 | fill-in | Accordez « tel » : ___ est la raison de mon départ. | — | ["Telle"] | false | Tel agrees with the noun that follows: la raison is feminine singular, so telle.
+- c1-dislocation-and-fronting-ex009 | fill-in | Accordez « tel » : ___ sont les faits. | — | ["Tels"] | false | Les faits is masculine plural, so tels.
+- c1-dislocation-and-fronting-ex010 | reformulation | Reformulez avec « rares sont ceux qui » : Peu de gens comprennent ce texte. | — | ["Rares sont ceux qui comprennent ce texte"] | false | Rares comes first, then sont, then ceux qui + verb in the plural.
+- c1-dislocation-and-fronting-ex011 | reformulation | Reformulez avec « reste à savoir si » : On ne sait pas encore si le projet réussira. | — | ["Reste à savoir si le projet réussira","Il reste à savoir si le projet réussira","Reste à savoir si le projet va réussir","Il reste à savoir si le projet va réussir"] | true | Reste à savoir si opens the sentence; il reste à savoir si is the standard version.
+- c1-dislocation-and-fronting-ex012 | register-shift | Transformez au registre courant écrit, sans dislocation : Ce film, je l'ai adoré. | — | ["J'ai adoré ce film","C'est ce film que j'ai adoré"] | false | In writing, use the plain order, or c'est… que to keep the emphasis.
+- c1-dislocation-and-fronting-ex013 | register-shift | Transformez à l'oral, avec une dislocation au début de la phrase : J'ai déjà vu cette pièce de théâtre. | — | ["Cette pièce de théâtre, je l'ai déjà vue"] | false | The topic goes first, then l' before the verb. L' stands for a feminine noun placed before avoir, so the participle agrees: vue.
+- c1-dislocation-and-fronting-ex014 | register-shift | Transformez au registre soutenu, avec « telle est » : C'est la raison de notre choix. | — | ["Telle est la raison de notre choix"] | false | Telle est replaces c'est in formal writing; telle agrees with la raison.
+- c1-dislocation-and-fronting-ex015 | error-correction | Corrigez l'erreur en gardant la dislocation : Ce roman, je lui ai adoré. | — | ["Ce roman, je l'ai adoré"] | false | Adorer takes a direct object, so the topic is taken up by le (l'), not lui.
+- c1-dislocation-and-fronting-ex016 | error-correction | Corrigez l'erreur : Rares sont ceux qui le sait. | — | ["Rares sont ceux qui le savent"] | false | Ceux is plural, so the verb is too: ceux qui le savent.
+- c1-dislocation-and-fronting-ex017 | translate | Traduisez au registre soutenu, avec « nombreux sont ceux qui » (aimer) : Many people love this play. | — | ["Nombreux sont ceux qui aiment cette pièce","Nombreux sont ceux qui aiment cette pièce de théâtre"] | false | Nombreux comes first, then sont ceux qui + verb in the plural.
+- c1-dislocation-and-fronting-ex018 | reorder | Remettez dans l'ordre, avec le thème au début : I loved that film. (spoken) | — | ["Ce film, je l'ai adoré"] | false | Left dislocation: the topic first, then the pronoun l' before the verb.
+
+## c1-adverb-placement
+
+### Vocab
+
+fr | pron | en | note
+
+- Seulement, … | suhl-MAHN | the only thing is…, but… (at the start of a sentence) | Le restaurant est bon. Seulement, il est cher.
+- même (= even) | MEM | even | Before the word it stresses: même Paul, il a même ri.
+- lui-même / elle-même / eux-mêmes | lwee-MEM / el-MEM / uh-MEM | himself / herself / themselves (for emphasis) | Même agrees in the plural: nous-mêmes, eux-mêmes.
+- le jour même | luh zhoor MEM | that very day | Le même jour: the same day.
+- la virgule | lah veer-GEWL | the comma | —
+- rire / il a ri | reer / ee-lah REE | to laugh / he laughed | —
+- un adverbe de phrase | uh-nad-vehr-buh duh FRAHZ | a sentence adverb (one that comments on the whole sentence) | —
+- visiblement | vee-zee-bluh-MAHN | visibly, evidently (from what you can see) | —
+- décidément | day-see-day-MAHN | really, definitely (after the same thing has happened again) | Décidément, tu es toujours en retard !
+- forcément | for-say-MAHN | necessarily, inevitably | Pas forcément: not necessarily.
+- sérieusement | say-ryuhz-MAHN | seriously | —
+- complètement | kohn-plet-MAHN | completely | —
+- longuement | lohng-MAHN | at length, for a long time | —
+- attentivement | ah-tahn-teev-MAHN | carefully, attentively | —
+- soigneusement | swah-nyuhz-MAHN | carefully, neatly | —
+- relire | ruh-LEER | to reread, to read over | Like lire: j'ai relu.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-adverb-placement-ex001 | multiple-choice | Indiquez le sens de la phrase : Même Paul a ri. | ["Even Paul laughed.","Paul himself laughed.","Paul laughed again."] | ["Even Paul laughed."] | false | Même before a noun means even: Paul, of all people, laughed.
+- c1-adverb-placement-ex002 | multiple-choice | Indiquez le sens de la phrase : Paul lui-même a ri. | ["Paul himself laughed.","Even Paul laughed.","Paul laughed at himself."] | ["Paul himself laughed."] | false | Lui-même after the noun stresses the person: Paul himself, not someone else.
+- c1-adverb-placement-ex003 | multiple-choice | Indiquez le sens de « le jour même » dans la phrase : Il a reçu la lettre et il est parti le jour même. | ["that very day","the next day","every day"] | ["that very day"] | false | After the noun, même means very: le jour même, that very day.
+- c1-adverb-placement-ex004 | multiple-choice | Indiquez le sens de « Aussi » dans la phrase : Il pleuvait. Aussi sommes-nous restés à la maison. | ["therefore","also","as"] | ["therefore"] | false | At the start of a sentence, followed by inversion, aussi means therefore (formal).
+- c1-adverb-placement-ex005 | multiple-choice | Indiquez le sens de « Seulement » dans la phrase : Le restaurant est excellent. Seulement, il est très cher. | ["the only thing is","only the restaurant","not only"] | ["the only thing is"] | false | Seulement at the start of a sentence, with a comma, introduces a drawback: the only thing is, but.
+- c1-adverb-placement-ex006 | multiple-choice | Indiquez le sens de « franchement » dans la phrase : Il nous a parlé franchement. | ["in a frank way (how he spoke)","frankly, in my opinion (a comment on the whole sentence)"] | ["in a frank way (how he spoke)"] | false | After the verb, with no comma, franchement describes the manner. At the start, with a comma, it would comment on the sentence: franchement, il nous a menti.
+- c1-adverb-placement-ex007 | multiple-choice | Indiquez la phrase qui veut dire « He spoke to Marie and to nobody else ». | ["Il a parlé seulement à Marie.","Seulement, il a parlé à Marie.","Il a même parlé à Marie."] | ["Il a parlé seulement à Marie."] | false | Right before à Marie, seulement restricts Marie. At the start, it means the only thing is; même means even.
+- c1-adverb-placement-ex008 | connector-choice | Choisissez l'adverbe : Tu es encore en retard ! ___, tu ne changeras jamais. | ["Décidément","Heureusement","Lentement"] | ["Décidément"] | false | Décidément comments on something that has happened once again.
+- c1-adverb-placement-ex009 | connector-choice | Choisissez l'adverbe : Les livres chers sont meilleurs ? Pas ___. | ["forcément","décidément","lentement"] | ["forcément"] | false | Pas forcément: not necessarily.
+- c1-adverb-placement-ex010 | reformulation | Reformulez la deuxième phrase avec « Aussi » en tête et l'inversion : Il pleuvait. Nous sommes donc restés à la maison. | — | ["Aussi sommes-nous restés à la maison","Il pleuvait. Aussi sommes-nous restés à la maison"] | true | Aussi (therefore) opens the second sentence, and the subject pronoun goes after the auxiliary: sommes-nous restés.
+- c1-adverb-placement-ex011 | reformulation | Reformulez avec « complètement » : Il a oublié la réunion. | — | ["Il a complètement oublié la réunion","Il a oublié complètement la réunion","Il a oublié la réunion complètement"] | true | Before the participle is the most usual place for complètement; after the participle or at the end is also possible.
+- c1-adverb-placement-ex012 | translate | Traduisez (même) : Even my brother understood. | — | ["Même mon frère a compris"] | true | Même goes right before the word it stresses: même mon frère.
+- c1-adverb-placement-ex013 | translate | Traduisez avec « visiblement » : She was visibly tired. | — | ["Elle était visiblement fatiguée","Visiblement, elle était fatiguée","Elle était fatiguée, visiblement"] | false | A sentence adverb can go after the verb, at the start with a comma, or at the end with a comma.
+- c1-adverb-placement-ex014 | translate | Traduisez avec « longuement » et « y » (réfléchir) : I thought about it at length. | — | ["J'y ai longuement réfléchi","J'y ai réfléchi longuement"] | false | Longuement often goes between the auxiliary and the participle; after the participle is also correct.
+- c1-adverb-placement-ex015 | error-correction | Corrigez l'erreur : Ils ont tout fait eux-même. | — | ["Ils ont tout fait eux-mêmes"] | false | Même agrees with a plural pronoun: eux-mêmes.
+- c1-adverb-placement-ex016 | error-correction | Corrigez l'erreur (le sens : not necessarily true) : Ce n'est forcément pas vrai. | — | ["Ce n'est pas forcément vrai"] | false | Pas forcément means not necessarily: pas comes first. Forcément pas would mean necessarily not.
+- c1-adverb-placement-ex017 | reorder | Remettez dans l'ordre : Even my sister came. | — | ["Même ma sœur est venue"] | false | Même right before ma sœur: even my sister. Ma sœur est même venue would mean my sister even came, as an extra.
+
+## c1-tricky-prepositions
+
+### Vocab
+
+fr | pron | en | note
+
+- manquer à quelqu'un | mahn-KAY ah kel-KUHN | to be missed by someone | Tu me manques: I miss you. The person or thing that's missed is the subject.
+- penser de | pahn-SAY duh | to think of, to have an opinion of | Que pensez-vous de ce film ? Qu'en pensez-vous ?
+- croire à | krwahr AH | to believe in (that something exists or is true) | Croire aux fantômes, croire à une excuse.
+- croire en | krwahr AHN | to believe in, to have faith in (a person, a value) | Croire en quelqu'un, croire en Dieu.
+- rêver à | reh-VAY ah | to muse on, to daydream about (literary) | —
+- tenir de | tuh-NEER duh | to take after (a relative) | Elle tient de sa mère.
+- le fantôme | luh fahn-TOHM | the ghost | —
+- l'excuse (f.) | lek-SKEWZ | the excuse | —
+- entouré par | ahn-too-RAY par | surrounded by (an action) | La maison a été entourée par la police.
+- le policier / la policière | luh poh-lee-SYAY / lah poh-lee-SYEHR | the police officer | —
+- l'île (f.) | LEEL | the island | —
+- Cuba / Madagascar | kew-BAH / mah-dah-gahs-KAR | Cuba / Madagascar | à Cuba, à Madagascar
+- la Corse | lah KORSS | Corsica | en Corse
+- la Martinique | lah mar-tee-NEEK | Martinique | en Martinique or à la Martinique
+- La Réunion | lah ray-ew-NYOHN | Réunion (a French island in the Indian Ocean) | à La Réunion
+- les Antilles (f.) | lay-zahn-TEE-y | the French Caribbean, the Antilles | aux Antilles, des Antilles
+- l'Iran (m.) / Israël (m.) | lee-RAHN / eez-rah-EL | Iran / Israel | Masculine, but they start with a vowel: en Iran, en Israël.
+- Le Havre / Le Caire | luh AH-vruh / luh KEHR | Le Havre / Cairo | au Havre, du Caire
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-tricky-prepositions-ex001 | multiple-choice | Indiquez le sens de la phrase : Paris manque beaucoup à Julie. | ["Julie really misses Paris.","Paris really misses Julie.","Paris doesn't have enough for Julie."] | ["Julie really misses Paris."] | false | With manquer à, what's missed is the subject: Paris is missed by Julie.
+- c1-tricky-prepositions-ex002 | translate | Traduisez (manquer) : I miss my friends. | — | ["Mes amis me manquent","Mes amies me manquent"] | false | The friends are the subject, and I'm the indirect object: mes amis me manquent.
+- c1-tricky-prepositions-ex003 | fill-in | Complétez avec la bonne préposition : Que pensez-vous ___ ce projet ? | — | ["de"] | false | Penser de asks for an opinion: que pensez-vous de… ?
+- c1-tricky-prepositions-ex004 | fill-in | Complétez avec la bonne préposition : Je pense souvent ___ mes grands-parents. | — | ["à"] | true | Penser à: to have someone or something in mind.
+- c1-tricky-prepositions-ex005 | connector-choice | Choisissez la bonne préposition : Elle croit ___ ses enfants : elle sait qu'ils vont réussir. | ["en","par","sur"] | ["en"] | false | Croire en quelqu'un: to have faith in a person.
+- c1-tricky-prepositions-ex006 | multiple-choice | Indiquez le sens de la phrase : Elle tient de sa mère. | ["She takes after her mother.","She cares a lot about her mother.","She is holding her mother's hand."] | ["She takes after her mother."] | false | Tenir de: to take after. Caring about someone is tenir à.
+- c1-tricky-prepositions-ex007 | connector-choice | Choisissez la préposition : Les montagnes étaient couvertes ___ neige. | ["de","par","en"] | ["de"] | false | A state, not an action: couvertes de neige. Par would need an article and an agent doing something.
+- c1-tricky-prepositions-ex008 | connector-choice | Choisissez la préposition : À six heures du matin, la maison a été entourée ___ la police. | ["par","de","en"] | ["par"] | false | An action at a given time, by an agent: entourée par la police.
+- c1-tricky-prepositions-ex009 | fill-in | Complétez avec la bonne préposition (et l'article si besoin) : Elle est née ___ Havre. | — | ["au"] | false | Le Havre keeps its article, and à + le contracts: au Havre.
+- c1-tricky-prepositions-ex010 | fill-in | Complétez avec la bonne préposition (et l'article si besoin) : Il travaille ___ Cuba depuis deux ans. | — | ["à"] | true | An island whose name has no article usually takes à, whatever its size: à Cuba, à Madagascar, à Malte.
+- c1-tricky-prepositions-ex011 | fill-in | Complétez avec la bonne préposition (et l'article si besoin) : Ma sœur habite ___ Martinique. | — | ["en","à la"] | true | Both are used: en Martinique is more usual today, and à la Martinique is also correct.
+- c1-tricky-prepositions-ex012 | error-correction | Corrigez l'erreur : Elle revient de les Antilles. | — | ["Elle revient des Antilles"] | false | De + les contracts: des Antilles.
+- c1-tricky-prepositions-ex013 | error-correction | Corrigez l'erreur (lui = mon frère) : Je lui pense souvent. | — | ["Je pense souvent à lui","Je pense à lui souvent"] | true | With penser à, a person is a stressed pronoun after à: je pense à lui, not je lui pense.
+- c1-tricky-prepositions-ex014 | reformulation | Reformulez avec « manquer à », en commençant par « Paris » : Julie est triste loin de Paris. | — | ["Paris manque à Julie","Paris lui manque"] | true | Paris is the subject, and Julie, who misses it, follows à: Paris manque à Julie, or Paris lui manque.
+- c1-tricky-prepositions-ex015 | reformulation | Reformulez au passif : Tous les élèves aiment cette professeure. | — | ["Cette professeure est aimée de tous les élèves","Cette professeure est aimée par tous les élèves"] | false | A feeling describes a state, so de is usual (aimée de); par is also correct.
+- c1-tricky-prepositions-ex016 | translate | Traduisez (tenir de) : He takes after his father. | — | ["Il tient de son père"] | false | Tenir de + the relative he resembles.
+- c1-tricky-prepositions-ex017 | translate | Traduisez (croire à) : I don't believe his excuse. | — | ["Je ne crois pas à son excuse"] | true | Croire à: to believe that something is true. Croire with no preposition is also correct here: je ne crois pas son excuse.
+- c1-tricky-prepositions-ex018 | reorder | Remettez dans l'ordre : I miss my country. | — | ["Mon pays me manque"] | false | The country is the subject of manquer, and me is the person who misses it.
+
+## c1-precise-verbs
+
+### Vocab
+
+fr | pron | en | note
+
+- effectuer | ay-feh-ktew-AY | to carry out, to make (a payment, a visit, works) | —
+- procéder à | proh-say-DAY ah | to carry out, to proceed with (formal) | Procéder à une vérification.
+- accomplir | ah-kohn-PLEER | to accomplish, to carry out (a task) | Like finir.
+- élaborer | ay-lah-boh-RAY | to draw up, to develop (a plan, a project) | —
+- les travaux (m.) | lay trah-VOH | (building) works | —
+- le paiement | luh peh-MAHN | the payment | —
+- la vérification | lah vay-ree-fee-kah-SYOHN | the check | —
+- déposer | day-poh-ZAY | to put down, to drop off, to submit (a file) | Déposer un dossier, déposer quelqu'un à la gare.
+- instaurer | an-stoh-RAY | to bring in, to establish (a rule, a system) | —
+- aborder | ah-bor-DAY | to bring up, to deal with (a subject) | —
+- formuler | for-mew-LAY | to put into words, to make (a request, a criticism) | —
+- lors de | LOR duh | during, at the time of (formal) | —
+- disposer de | dees-poh-ZAY duh | to have (available) | Nous disposons de deux salles.
+- posséder | poh-say-DAY | to own, to possess | Je possède, nous possédons.
+- comporter | kohn-por-TAY | to include, to consist of | Le rapport comporte trois parties.
+- ressentir | ruh-sahn-TEER | to feel (an emotion) | Like partir: je ressens.
+- il existe | ee-leg-ZEEST | there is, there are (formal) | Il existe plusieurs solutions.
+- se trouver | suh troo-VAY | to be (located) | La gare se trouve au centre.
+- figurer | fee-gew-RAY | to appear, to be listed | Son nom figure sur la liste.
+- régner | ray-NYAY | to reign; (of a mood) to fill the place | Un lourd silence régnait.
+- se dérouler | suh day-roo-LAY | to take place, to go (an event) | La réunion s'est bien déroulée.
+- susciter | sew-see-TAY | to arouse, to give rise to (a reaction) | Susciter l'intérêt, des critiques.
+- engendrer | ahn-zhahn-DRAY | to generate, to cause | —
+- entraîner | ahn-treh-NAY | to lead to, to bring about | Also: to train (sport).
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-precise-verbs-ex001 | connector-choice | Choisissez le verbe précis : Le client a ___ le paiement hier. | ["effectué","disposé","figuré"] | ["effectué"] | false | Effectuer un paiement: to make a payment.
+- c1-precise-verbs-ex002 | connector-choice | Choisissez le verbe précis : Le rapport ___ trois parties. | ["comporte","effectue","aborde"] | ["comporte"] | false | Comporter: to consist of, to include.
+- c1-precise-verbs-ex003 | connector-choice | Choisissez le verbe précis : Cette décision a ___ beaucoup de critiques. | ["suscité","déposé","comporté"] | ["suscité"] | false | Susciter des critiques: to give rise to criticism.
+- c1-precise-verbs-ex004 | connector-choice | Choisissez le verbe précis : La réunion s'est ___ dans la grande salle. | ["déroulée","comportée","disposée"] | ["déroulée"] | false | Se dérouler: to take place. Se comporter means to behave, and se disposer à means to get ready to.
+- c1-precise-verbs-ex005 | multiple-choice | Indiquez le sens de la phrase : Nous disposons de deux heures. | ["We have two hours available.","We are getting rid of two hours.","We need two more hours."] | ["We have two hours available."] | false | Disposer de: to have at your disposal.
+- c1-precise-verbs-ex006 | fill-in | Complétez avec « figurer » au présent : Son nom ne ___ pas sur la liste. | — | ["figure"] | false | Figurer sur une liste: to appear on a list.
+- c1-precise-verbs-ex007 | fill-in | Complétez avec « procéder » au passé composé : La police ___ à une vérification. | — | ["a procédé"] | true | Procéder à + noun: a procédé à une vérification.
+- c1-precise-verbs-ex008 | reformulation | Reformulez avec « effectuer » : Nous avons fait une visite du chantier. | — | ["Nous avons effectué une visite du chantier"] | false | Effectuer replaces faire with a visit, a payment or works.
+- c1-precise-verbs-ex009 | reformulation | Reformulez avec « il existe » : Il y a plusieurs solutions. | — | ["Il existe plusieurs solutions"] | false | Il existe is the written alternative to il y a.
+- c1-precise-verbs-ex010 | reformulation | Reformulez avec « comporter » : Dans ce dossier, il y a trois documents. | — | ["Ce dossier comporte trois documents"] | false | The container becomes the subject: ce dossier comporte.
+- c1-precise-verbs-ex011 | register-shift | Transformez au registre soutenu, avec « aborder » et « nous » : On a parlé du budget. | — | ["Nous avons abordé le budget","Nous avons abordé la question du budget"] | false | Aborder takes a direct object: aborder le budget, aborder la question du budget.
+- c1-precise-verbs-ex012 | register-shift | Transformez au registre soutenu, avec « disposer de » et « nous » : On a un budget de cinq cents euros. | — | ["Nous disposons d'un budget de cinq cents euros","Nous disposons d'un budget de 500 euros"] | false | Disposer de + the thing you have: nous disposons d'un budget.
+- c1-precise-verbs-ex013 | error-correction | Corrigez l'erreur : Nous disposons deux salles. | — | ["Nous disposons de deux salles"] | false | Disposer needs de in this meaning: disposer de.
+- c1-precise-verbs-ex014 | error-correction | Corrigez l'erreur : La réunion a procédé dans la grande salle. | — | ["La réunion s'est déroulée dans la grande salle","La réunion a eu lieu dans la grande salle"] | true | An event se déroule or a lieu. Procéder à means to carry out something.
+- c1-precise-verbs-ex015 | translate | Traduisez avec « susciter » : This project has aroused a lot of interest. | — | ["Ce projet a suscité beaucoup d'intérêt"] | true | Susciter l'intérêt: to arouse interest.
+- c1-precise-verbs-ex016 | translate | Traduisez avec « se trouver » : The station is in the town centre. | — | ["La gare se trouve dans le centre-ville","La gare se trouve au centre-ville"] | false | Se trouver gives a location, more precisely than être.
+- c1-precise-verbs-ex017 | multiple-choice | Indiquez le registre de la phrase : Le paiement a été effectué. | ["soutenu","familier"] | ["soutenu"] | false | Effectuer belongs to careful and administrative French. In familiar speech, you'd say j'ai payé.
+- c1-precise-verbs-ex018 | reorder | Remettez dans l'ordre : A heavy silence filled the room. | — | ["Un lourd silence régnait dans la salle","Un silence lourd régnait dans la salle"] | false | Régner replaces il y avait. Lourd can come before or after silence.
+
+## c1-collocations
+
+### Vocab
+
+fr | pron | en | note
+
+- une collocation | ewn koh-loh-kah-SYOHN | a collocation (words that naturally go together) | —
+- émettre une hypothèse / il a émis | ay-meh-tr ewn ee-poh-TEZ / ee-lah ay-MEE | to put forward a hypothesis | Like mettre: il a émis.
+- commettre une erreur | koh-meh-tr ewn eh-RUHR | to make a mistake (formal) | Like mettre: il a commis. Faire une erreur is also correct.
+- jouer un rôle dans | zhoo-ay uhn ROHL dahn | to play a part in | —
+- prendre en compte | prahn-drahn KOHNT | to take into account | —
+- tenir compte de | tuh-neer KOHNT duh | to take account of | —
+- accorder de l'importance à | ah-kor-day duh lan-por-TAHNSS ah | to attach importance to | —
+- dresser un bilan | dreh-say uhn bee-LAHN | to take stock, to draw up an assessment | —
+- relever un défi | ruhl-vay uhn day-FEE | to rise to a challenge | Je relève, nous relevons.
+- lancer un projet | lahn-say uhn proh-ZHEH | to launch a project | —
+- une vive inquiétude | ewn veev an-kyay-TEWD | deep concern, serious worry | —
+- un vif intérêt | uhn vee-fan-tay-REH | a keen interest | —
+- un rôle clé | uhn rohl KLAY | a key role | —
+- une lourde responsabilité | ewn loor-duh rehs-pohn-sah-bee-lee-TAY | a heavy responsibility | —
+- une large majorité | ewn lar-zhuh mah-zhoh-ree-TAY | a large majority | —
+- un profond désaccord | uhn proh-fohn day-zah-KOR | a deep disagreement | —
+- grièvement blessé | gree-ev-MAHN bleh-SAY | seriously injured | Only with blessé. For illness: gravement malade.
+- parfaitement conscient de | par-fet-MAHN kohn-SYAHN duh | fully aware of | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-collocations-ex001 | connector-choice | Choisissez le verbe : Les chercheurs ont ___ une hypothèse. | ["émis","commis","joué"] | ["émis"] | false | Émettre une hypothèse: to put forward a hypothesis. You commit a mistake (commettre une erreur) and play a part (jouer un rôle).
+- c1-collocations-ex002 | connector-choice | Choisissez le verbe : Il a ___ une grave erreur. | ["commis","émis","relevé"] | ["commis"] | false | Commettre une erreur, in careful French; faire une erreur is also correct.
+- c1-collocations-ex003 | connector-choice | Choisissez le mot : Ce document joue un rôle ___ dans l'enquête. | ["clé","lourd","large"] | ["clé"] | false | Un rôle clé: a key role. Clé works like an adjective here.
+- c1-collocations-ex004 | connector-choice | Choisissez le mot : La nouvelle a suscité une ___ inquiétude. | ["vive","lourde","large"] | ["vive"] | false | Vif or vive intensifies feelings and interest: une vive inquiétude.
+- c1-collocations-ex005 | connector-choice | Choisissez le mot : Le projet a été adopté à une ___ majorité. | ["large","vive","lourde"] | ["large"] | false | Une large majorité: a large majority.
+- c1-collocations-ex006 | fill-in | Complétez avec « tenir » au participe passé : Nous avons ___ compte de vos remarques. | — | ["tenu"] | false | Tenir compte de: nous avons tenu compte de…
+- c1-collocations-ex007 | fill-in | Complétez avec « relever » au passé composé : L'équipe ___ le défi. | — | ["a relevé"] | true | Relever un défi: l'équipe a relevé le défi.
+- c1-collocations-ex008 | multiple-choice | Indiquez le sens de la phrase : Deux personnes ont été grièvement blessées. | ["Two people were seriously injured.","Two people were slightly injured.","Two people were seriously ill."] | ["Two people were seriously injured."] | false | Grièvement goes only with blessé: seriously injured.
+- c1-collocations-ex009 | multiple-choice | Choisissez la bonne réponse : to make a decision | ["prendre une décision","faire une décision","donner une décision"] | ["prendre une décision"] | false | French takes a decision: prendre une décision.
+- c1-collocations-ex010 | reformulation | Reformulez avec « prendre en compte » : Nous avons tenu compte de vos remarques. | — | ["Nous avons pris en compte vos remarques","Nous avons pris vos remarques en compte"] | false | Prendre en compte takes a direct object, before or after en compte.
+- c1-collocations-ex011 | reformulation | Reformulez avec « dresser » : Le directeur a fait le bilan de l'année. | — | ["Le directeur a dressé le bilan de l'année"] | true | Dresser un bilan is the written collocation; faire le bilan is the everyday one.
+- c1-collocations-ex012 | error-correction | Corrigez l'erreur : Il a commis une hypothèse. | — | ["Il a émis une hypothèse","Il a fait une hypothèse"] | true | You put forward a hypothesis (émettre, or faire); commettre goes with an error or a crime.
+- c1-collocations-ex013 | error-correction | Corrigez l'erreur : Nous accordons beaucoup d'importance de la sécurité. | — | ["Nous accordons beaucoup d'importance à la sécurité"] | true | Accorder de l'importance à quelque chose.
+- c1-collocations-ex014 | translate | Traduisez avec « relever » : They rose to the challenge. | — | ["Ils ont relevé le défi","Elles ont relevé le défi"] | false | Relever un défi: to rise to a challenge.
+- c1-collocations-ex015 | translate | Traduisez avec « susciter » et « vif » : This proposal aroused keen interest. | — | ["Cette proposition a suscité un vif intérêt"] | true | Un vif intérêt, with susciter from the lesson on precise verbs.
+- c1-collocations-ex016 | translate | Traduisez avec « lourd » : It's a heavy responsibility. | — | ["C'est une lourde responsabilité"] | false | Lourd goes before responsabilité in this collocation.
+- c1-collocations-ex017 | reorder | Remettez dans l'ordre : The director made a serious mistake. | — | ["Le directeur a commis une grave erreur","Le directeur a commis une erreur grave"] | false | Commettre une erreur; grave can come before or after erreur.
+
+## c1-review-style
+
+### Vocab
+
+fr | pron | en | note
+
+- la mise en valeur | lah mee-zahn vah-LUHR | highlighting, showing something to advantage | —
+- un effet de style | uh-neh-feh duh STEEL | a stylistic effect | —
+- la sobriété | lah soh-bree-ay-TAY | restraint, sobriety (of style) | —
+- alourdir | ah-loor-DEER | to weigh down, to make heavy (a text) | Like finir.
+- honnête | oh-NET | honest, fair | —
+- agréable | ah-gray-AH-bluh | pleasant | —
+- la patience (perdre patience) | lah pah-SYAHNSS (pehr-druh pah-SYAHNSS) | patience (to lose patience) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c1-review-style-ex001 | multiple-choice | Choisissez la forme du registre soutenu : Sans doute ___ raison. | ["a-t-il","il a-t-il","a il"] | ["a-t-il"] | false | After sans doute at the start of a sentence, careful writing inverts the verb and the pronoun: sans doute a-t-il raison.
+- c1-review-style-ex002 | multiple-choice | Indiquez le sens de la phrase : Je crains que la mairie ne change d'avis. | ["I'm afraid the town hall will change its mind.","I'm afraid the town hall won't change its mind.","I'm not afraid the town hall will change its mind."] | ["I'm afraid the town hall will change its mind."] | false | No pas: the ne is explétif and adds no negation.
+- c1-review-style-ex003 | fill-in | Complétez au registre soutenu avec « nul » : ___ ne connaît le prix du projet. | — | ["Nul"] | false | Nul ne + verb, with no pas: nobody knows.
+- c1-review-style-ex004 | connector-choice | Choisissez le mot du registre soutenu : ___ sont ceux qui prennent le bus. | ["Rares","Peu","Beaucoup"] | ["Rares"] | false | Rares sont ceux qui: the adjective comes first, then sont. Peu and beaucoup can't be used this way.
+- c1-review-style-ex005 | multiple-choice | Indiquez le sens de la phrase : Même le maire prend son vélo. | ["Even the mayor cycles.","The mayor cycles too.","The mayor cycles every day."] | ["Even the mayor cycles."] | false | Même before a noun means even.
+- c1-review-style-ex006 | fill-in | Complétez avec un pronom (= I don't miss cars) : Les voitures ne ___ manquent pas. | — | ["me"] | false | With manquer à, what's missed is the subject: les voitures ne me manquent pas.
+- c1-review-style-ex007 | connector-choice | Choisissez le verbe précis : Les travaux seront ___ en juin. | ["effectués","disposés","comportés"] | ["effectués"] | false | Effectuer des travaux: to carry out works.
+- c1-review-style-ex008 | connector-choice | Choisissez le verbe : Les commerçants ont ___ une vive inquiétude. | ["exprimé","commis","relevé"] | ["exprimé"] | false | Exprimer une inquiétude. You commit a mistake and rise to a challenge.
+- c1-review-style-ex009 | register-shift | Transformez au registre soutenu, avec « rares sont les habitants qui » : Peu d'habitants prennent le bus. | — | ["Rares sont les habitants qui prennent le bus"] | false | Rares sont les habitants qui + verb in the plural.
+- c1-review-style-ex010 | register-shift | Transformez au registre courant écrit, sans dislocation : Le centre-ville, on ne le reconnaît plus. | — | ["On ne reconnaît plus le centre-ville","Nous ne reconnaissons plus le centre-ville"] | false | Put the noun back in the object position and drop the pronoun le.
+- c1-review-style-ex011 | reformulation | Reformulez la deuxième phrase avec « Aussi » en tête et l'inversion : Le projet coûte cher. La mairie doit donc le défendre. | — | ["Aussi la mairie doit-elle le défendre","Le projet coûte cher. Aussi la mairie doit-elle le défendre"] | false | With a noun subject, keep the noun first and add a pronoun after the verb: la mairie doit-elle.
+- c1-review-style-ex012 | reformulation | Reformulez avec « comporter » : Dans le plan, il y a trois étapes. | — | ["Le plan comporte trois étapes"] | false | The container becomes the subject of comporter.
+- c1-review-style-ex013 | error-correction | Corrigez l'erreur (le sens : before it's too late) : Agissons avant qu'il ne soit pas trop tard. | — | ["Agissons avant qu'il ne soit trop tard","Agissons avant qu'il soit trop tard"] | false | With pas, the sentence says the opposite. Keep the ne explétif or drop it, but drop pas.
+- c1-review-style-ex014 | error-correction | Corrigez l'erreur : Cette mesure a joué un rôle clé à la réussite du projet. | — | ["Cette mesure a joué un rôle clé dans la réussite du projet"] | true | Jouer un rôle dans quelque chose.
+- c1-review-style-ex015 | translate | Traduisez au registre soutenu, avec « nullement » : We are in no way against this project. | — | ["Nous ne sommes nullement contre ce projet"] | false | Ne… nullement replaces ne… pas du tout in formal writing.
+- c1-review-style-ex016 | translate | Traduisez avec « seulement » : The street is closed only on Sundays. | — | ["La rue est fermée seulement le dimanche","La rue est fermée le dimanche seulement"] | false | Seulement goes next to the word it restricts: seulement le dimanche, or le dimanche seulement.
+- c1-review-style-ex017 | reorder | Remettez dans l'ordre : Such is the challenge that the town must rise to. | — | ["Tel est le défi que la ville doit relever"] | false | Tel est + noun opens the sentence; relever un défi is the collocation.
+- c1-review-style-ex018 | translate | Traduisez avec « alourdir » : Too many effects weigh down a text. | — | ["Trop d'effets alourdissent un texte","Trop d'effets de style alourdissent un texte"] | false | Alourdir is like finir: ils alourdissent.

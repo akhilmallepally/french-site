@@ -1575,6 +1575,7 @@ Every date, tradition and regional detail, for checking:
 - **"In that frame [the présent de narration], what comes later is in the futur simple, not the conditionnel."** Confirm, and confirm ex009.
 - **"Elle n'y reviendrait que dix ans plus tard"** (conditionnel as the narrator's jump ahead, labelled literary). Confirm.
 - **ex013** accepts *partirait*, *allait partir* and *devait partir* after *Ce jour-là, il savait que…*. Confirm all three.
+- **Devoir (Prompt 30):** "It can also mean an obligation (il devait travailler le samedi, he had to work on Saturdays) or a probability (il devait être tard, it must have been late)." Confirm both glosses.
 
 ### c1-ne-expletif
 
@@ -1583,11 +1584,94 @@ Every date, tradition and regional detail, for checking:
 - **"Don't add it after bien que, pour que or après que."** Confirm.
 - **Il s'en faut de peu que: "You'll mostly meet it in the passé composé… with the subjunctive and usually the ne."** Confirm, and confirm that ex012 accepts the version without *ne*.
 - **"[Empêcher que and éviter que] take the subjunctive, and the ne is common but optional."** Confirm.
+- **Il s'en faut de peu que… ne:** *Il s'en est fallu de peu que nous ne soyons en retard* (we very nearly were late). Confirm the meaning, the subjunctive and that *ne* is usual but optional.
+- **Ne explétif after meilleur… que and autre… que:** "After a comparison of inequality, such as plus… que, moins… que, autre… que or meilleur… que, followed by a clause, careful French adds ne." Confirm *autre que* and *meilleur que* in particular (vocab note: "Also moins, autre, meilleur… que + ne + indicative").
+- **Dialogue (Prompt 30):** *« Je crains que le client ne vienne » … Mais « je crains qu'il ne vienne pas », c'est le contraire !* Confirm the claim.
+- **New examples (Prompt 30):** *Nous partirons demain, à moins que la tempête ne s'aggrave.* and *Tenez-lui la main : il faut éviter qu'il ne glisse.* Confirm they read naturally.
 
 ### c1-literary-negation
 
 - **"Ne… point… is literary and a little old-fashioned, and it often sounds stronger."** Confirm.
 - **"With an infinitive… The same holds for ne point and ne jamais. Nullement and aucunement… follow the infinitive"** (*Elle dit ne regretter nullement son choix*). Confirm.
-- **"With these verbs [oser, cesser], pas is still correct; leaving it out raises the register."** Confirm *ne cesser de* with *pas* (*il ne cesse pas de pleuvoir*) as standard.
+- **"With all four verbs [cesser, oser, pouvoir, savoir], ne alone (il ne cesse de pleuvoir, je n'ose le dire) is formal or literary. Ne… pas (il ne cesse pas de pleuvoir, je n'ose pas le dire) is standard French and fully correct."** Confirm both halves.
+- **"After sans, formal French joins a second element with ni: sans argent ni amis. Everyday French repeats sans: sans argent et sans amis."** and **"[Sans… ni] takes neither ne nor pas."** Confirm.
+- **nul(le) ne:** *Nul ne connaissait son malheur*, *nulle ne* (feminine subject). Confirm that the feminine *nulle ne* is used, and how rare it is.
+- **Ne… point as "stronger":** "It's literary and a little old-fashioned, and it often sounds stronger: 'not at all'." Confirm "stronger" (some grammars treat it only as a regional or archaic variant of *pas*).
 - **"In a formal letter or an essay, ne cesser de, nullement, nul ne and sans… ni are natural and well received. Ne… point belongs to literature."** Confirm.
 - **ex008:** *Il partit sans argent ni amis*: confirm that *ni* is the expected form here.
+
+### c1-imperfect-subjunctive
+
+- **Formation: "Take the passé simple, tu form… and add -se, -ses, -sions, -siez or -sent… In the third person singular, the final s is replaced by the circumflex accent on the vowel and a -t."** Confirm the rule and every form in the table (*parlât, finît, fût, eût, fît, vînt*; *parlassent, fussent, eussent*).
+- **The classic sequence:** "After a main verb in the past, for the same time or later: the imparfait du subjonctif… for an earlier action: the plus-que-parfait du subjonctif… Modern French keeps only the first line, whatever the main verb." Confirm.
+- **"Il eût préféré means exactly il aurait préféré"** and **on eût dit** (*On eût dit un enfant perdu*, "He looked like a lost child"). Confirm both.
+- **"Fût-il… means 'even if he were'"** (*Fût-il malade, il viendrait* = *même s'il était malade, il viendrait*). Confirm the concessive reading and the conditionnel in the main clause.
+- **"In practice, you'll mostly meet the third person singular… The other persons, such as qu'ils parlassent, are rare even in classic texts, and today they can sound comic."** Confirm.
+- **"They aren't used in conversation"** and **"In a very formal text, a third person singular form such as qu'il fût or qu'il eût is still possible, and some writers like it."** Confirm.
+- **ex013:** *Bien qu'elle fût fatiguée, elle travaillait encore* → only *Bien qu'elle soit fatiguée, elle travaillait encore* accepted. Confirm that modern French keeps *soit* here.
+- **ex009** accepts *ait fini* and *eût fini* in *Bien qu'il ___ son travail, il resta au bureau*. Confirm both.
+- **Examples:** *Le roi ordonna qu'on fermât la porte du château.*; *Elle attendait qu'il lui parlât.*; *Bien qu'il eût fini son travail, il resta au bureau.*; *Je regrettais qu'elle fût partie si tôt.* Confirm they read as natural classic French.
+- **Dialogue:** a family letter "written in 1920" uses *vînt*, *fût* and *il eût préféré*; *En 1920, beaucoup de gens écrivaient encore comme ça.* Confirm that this is plausible for a careful letter writer of that time.
+
+### c1-dislocation-and-fronting
+
+- **The pronoun table:** direct object → *le, la, les*; *à* + person → *lui, leur*; *à* + thing → *y*; *de* + thing or amount → *en* (*Du café, j'en bois trop*; *Des comédiens comme ça, il y en a peu*). Confirm each example.
+- **"When the topic is a noun in a general sense, especially with verbs of liking, speakers often take it up with ça, not with le"** (*Le chocolat, j'adore ça* vs *Ce chocolat, je l'adore*). Labelled a rule of thumb. Confirm.
+- **"Dislocation is normal in conversation, at every level of speech, and you'll also find it in informal writing… In a report, an essay or a formal letter, it sounds like speech."** Confirm.
+- **Fronting:** "*Reste* at the start, without *il*… With a plural noun, the verb is plural: *restent deux questions*. The standard versions are *il reste à savoir si* and *il reste la question de*." Confirm, and confirm ex011 accepts both *Reste à savoir si* and *Il reste à savoir si*.
+- **"Rares sont ceux qui and nombreux sont ceux qui put the adjective first… The adjective agrees with the noun"** (*nombreuses sont les comédiennes*, *Nombreuses sont les critiques qui saluent le metteur en scène*). Confirm, including *saluer* for "praise".
+- **Tel:** "*Tel* agrees with the noun that follows" (*telle est la raison*, *tels sont les faits*), and *Il ne revint jamais. Tel fut son sort.* Confirm.
+- **The register table:** *Rares sont les films qui m'ont autant touché.*; *Rares sont ceux qui lui ressemblent.*; *Voilà la raison.* Confirm.
+- **Dialogue:** *Reste la question du décor, que tout le monde n'aimera pas.* Confirm it reads naturally in a review.
+- **Vocab:** *le comédien* "an actor on stage, not a comedian"; *la critique* "both a review and criticism"; *bouleverser* "to move deeply… also to upset". Confirm.
+
+### c1-adverb-placement
+
+- **"Seulement restricts the word it stands next to, usually the one right after it… Between the auxiliary and the participle, seulement often restricts the action itself."** Confirm, and confirm that ex007 has one clearly right answer (*Il a parlé seulement à Marie*).
+- **"At the start of a sentence, followed by a comma, seulement… introduces a drawback."** Confirm.
+- **Même:** "*Même Paul a ri* and *Paul a même ri* don't say the same thing"; *le jour même* (that very day) vs *le même jour*; "In the plural, *même* agrees: *nous-mêmes, eux-mêmes*." Confirm.
+- **Long adverbs (stated as tendencies):** degree and completeness (*complètement*) and time (*longuement*) "usually go before the participle, and they can also follow it"; sentence adverbs "usually go before the participle"; manner adverbs (*attentivement, soigneusement, lentement*) "more often go after it". Confirm, and confirm ex011 accepts *Il a complètement oublié la réunion*, *Il a oublié complètement la réunion* and *Il a oublié la réunion complètement*.
+- **"With an infinitive, a short adverb usually comes before it: il faut bien relire. A long adverb of manner usually follows: il faut relire soigneusement chaque phrase."** Confirm.
+- **Sentence adverbs:** "*Visiblement* means 'from what you can see'… *Apparemment* means 'from what people say or how it looks'… *Décidément* reacts to something that has happened again." Confirm the shades.
+- **ex016:** "*Forcément pas* would mean necessarily not" (*Ce n'est forcément pas vrai*). Confirm that it's an error for "not necessarily".
+- **ex006:** *Il nous a parlé franchement* read only as manner. Confirm.
+
+### c1-tricky-prepositions
+
+- **Croire à / croire en:** "As a rule of thumb, *croire à* is about whether something exists or is true, and *croire en* is about trust or faith in a person or a value. Usage overlaps with some nouns (*croire à l'avenir*, *croire en l'avenir*)." Confirm, and confirm ex005 (*Elle croit en ses enfants*) and ex017 (*Je ne crois pas à son excuse*).
+- **"Rêver à is literary: to muse on"** (*Assis devant la mer, il rêvait à son enfance*). Confirm.
+- **Penser de:** "mostly in questions and with en"; **"With penser à, a person stays after à as a stressed pronoun: je pense à lui, not je lui pense."** Confirm, and confirm ex013 accepts *Je pense à lui souvent*.
+- **Passive pairs:** *entourée d'un grand jardin* / *entourée par la police*; *suivi d'un débat* / *suivi par deux policiers*; "With verbs of feeling (*aimé, respecté*), *de* is the more elegant choice, and *par* is also correct." Confirm, and confirm ex015 accepts *aimée de* and *aimée par*.
+- **Islands (stated as rules of thumb):** *à Cuba, à Madagascar, à Malte*; *en Corse, en Sicile*; *à La Réunion*; *aux Antilles*. Confirm each.
+- **Usage that varies:** "For Martinique and Guadeloupe, both *en Martinique* and *à la Martinique* are correct; *en* is the more usual today." ex011 accepts *en* and *à la*. Confirm, and confirm whether *à la Réunion* (lowercase article) or *en Réunion* should also be mentioned.
+- **"Masculine countries that start with a vowel take en: en Iran, en Israël."** and **"Cities whose name has an article keep it… au Havre, au Caire, du Havre, du Caire. A feminine article doesn't contract: à La Rochelle."** Confirm.
+- **"With no preposition, manquer + object means 'to miss' in the sense of not catching: il a manqué son train."** Confirm.
+
+### Prompt 31 changes to batch 3
+
+- **c1-dislocation-and-fronting:** *le thème* for the topic, against *le sujet* for the grammatical subject (*Dans « ce film, je l'ai adoré », le thème est ce film, et le sujet est je*). Confirm the terms. Also confirm *il reste deux questions* (impersonal, singular) next to *restent deux questions*.
+- **c1-adverb-placement:** "*Il a seulement lu le résumé* usually means he read the summary and not the book. Said with stress on *lu*, it can mean that he only read it and did nothing more with it." Confirm.
+- **c1-tricky-prepositions:** "An island whose name has no article usually takes *à*, whatever its size… A feminine name used with an article (*la Corse*, *la Sicile*) usually takes *en*… An exception: La Réunion keeps its article after *à*." Confirm, and confirm "With a thing and no preposition, *croire* means to believe it as it's told: *je ne crois pas son histoire*", and that ex017 may also be answered *je ne crois pas son excuse*.
+- **c1-imperfect-subjunctive:** "Classic authors used every person, but the plural forms (*que nous parlassions, qu'ils parlassent*) are long and unusual, and today they can sound comic." and "a main verb in the past or in the conditionnel took the imparfait or plus-que-parfait du subjonctif (*je voudrais qu'il vînt*)". Confirm.
+
+### c1-precise-verbs
+
+- **"Disposer de… always takes de in this meaning."** Confirm.
+- **Pairs:** *effectuer un paiement, une visite, des travaux*; *procéder à un vote*; *instaurer une règle* (for *mettre en place*); *aborder la question du budget*; *formuler des demandes*; *le formulaire comporte deux pages*; *un lourd silence régnait*; *la conférence s'est déroulée dans le calme*. Confirm each is natural.
+- **ex014** accepts *s'est déroulée* and *a eu lieu*; **ex016** accepts *dans le centre-ville* and *au centre-ville*; **ex018** accepts *un lourd silence* and *un silence lourd*. Confirm.
+- **ex017:** *Le paiement a été effectué* labelled *soutenu* rather than *familier*. Confirm the label (it may be closer to administrative *courant*).
+- **"Engendrer and entraîner are for a consequence… both are common in reports."** Confirm.
+
+### c1-collocations
+
+- **"Faire une hypothèse is also heard"** and **"faire une erreur is fine in everyday French"**: both accepted in ex012 and mentioned in the teaching. Confirm.
+- **"Grièvement goes only with blessé; for illness, say gravement malade."** Confirm.
+- **"Une grande inquiétude is fine but plainer, while une lourde inquiétude isn't a usual pairing."** Confirm.
+- **Pairs:** *vif/vive* with feelings and interest; *lourd* with a responsibility; *large* with a majority; *profond* with a disagreement or respect; *un rôle clé*; *accorder de l'importance à*; *dresser un bilan* vs *faire le bilan*. Confirm.
+- **ex017** accepts *une grave erreur* and *une erreur grave*. Confirm.
+
+### c1-review-style
+
+- **Model editorial** (invented town, Saint-Aubin): confirm it reads as a natural local-newspaper editorial, in particular *Sans doute la mairie a-t-elle commis des erreurs*, *Aussi lui demandons-nous d'élaborer un plan*, *Elle n'a guère tenu compte des personnes âgées*.
+- **"As a rule of thumb, a paragraph of five sentences needs no more than two effects."** Confirm as advice.
+- **ex011** accepts *Aussi la mairie doit-elle le défendre*. Confirm.
