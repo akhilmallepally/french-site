@@ -1,6 +1,6 @@
 # All lesson data
 
-299 written lessons, in course order.
+305 written lessons, in course order.
 
 ## a1-greetings
 
@@ -12144,14 +12144,14 @@ fr | pron | en | note
 
 id | type | prompt | options | answers | strictAccents | explanation
 
-- c2-implicit-meaning-ex001 | multiple-choice | Indiquez le présupposé de la phrase : Le maire a enfin reconnu son erreur. | ["Before, the mayor hadn't admitted his mistake.","The mayor will resign.","The mayor never makes mistakes."] | ["Before, the mayor hadn't admitted his mistake."] | false | Enfin presupposes a long wait: until now, he hadn't admitted it. The negation test keeps it: le maire n'a pas encore reconnu son erreur still says that he made one.
+- c2-implicit-meaning-ex001 | multiple-choice | Indiquez le présupposé de la phrase : Le maire a enfin reconnu son erreur. | ["Before, the mayor hadn't admitted his mistake.","The mayor will resign.","The mayor never makes mistakes."] | ["Before, the mayor hadn't admitted his mistake."] | false | Enfin presupposes a long wait: until now, he hadn't admitted it. The negation test confirms it: in le maire n'a toujours pas reconnu son erreur, it's still taken for granted that he hadn't admitted it before.
 - c2-implicit-meaning-ex002 | multiple-choice | Indiquez le présupposé de la phrase : Paul a arrêté de fumer. | ["Before, Paul was someone who smoked.","Paul has never smoked in his life.","Paul wants to start smoking again."] | ["Before, Paul was someone who smoked."] | false | Arrêter de presupposes that the action happened before. The negation (Paul n'a pas arrêté de fumer) keeps the presupposition.
 - c2-implicit-meaning-ex003 | multiple-choice | Indiquez le présupposé de la question : Pourquoi la mairie a-t-elle caché le coût du projet ? | ["The town hall hid the cost.","The project costs nothing.","The town hall has published the cost."] | ["The town hall hid the cost."] | false | A pourquoi question takes its content for granted: asking why someone hid something presupposes that they hid it.
 - c2-implicit-meaning-ex004 | multiple-choice | Choisissez le mot à connotation péjorative : Une ___ de touristes est arrivée sur la place. | ["horde","foule","file"] | ["horde"] | false | Une horde suggests a disorderly, threatening crowd. Foule (a crowd) and file (a queue) are neutral.
 - c2-implicit-meaning-ex005 | multiple-choice | Indiquez ce que montrent les guillemets dans la phrase : La mairie parle d'un parking « moderne ». | ["The writer distances themselves from the word.","The writer agrees with the word.","The word is in English."] | ["The writer distances themselves from the word."] | false | Quotation marks of distance report a word without taking it on: the writer suggests it isn't the right word.
 - c2-implicit-meaning-ex006 | multiple-choice | Choisissez la phrase la plus neutre. | ["Le maire affirme que le parc restera ouvert.","Le maire prétend que le parc restera ouvert.","Le maire ose dire que le parc restera ouvert."] | ["Le maire affirme que le parc restera ouvert."] | false | Affirmer reports a claim. Prétendre suggests that the claim is false, and oser dire that it's shocking.
 - c2-implicit-meaning-ex007 | fill-in | Rendez explicite le présupposé de « Le maire a enfin reconnu son erreur » : Avant, le maire ___ pas reconnu son erreur. | — | ["n'avait"] | false | Before the moment described, he hadn't admitted it: plus-que-parfait, n'avait pas reconnu.
-- c2-implicit-meaning-ex008 | fill-in | Complétez avec l'adverbe qui montre que l'auteur doute de l'information : Le projet a ___ été approuvé par tous les habitants. | — | ["prétendument"] | false | Prétendument (supposedly) reports a claim while showing doubt.
+- c2-implicit-meaning-ex008 | fill-in | Complétez avec l'adverbe de la leçon formé sur « prétendre » : Le projet a ___ été approuvé par tous les habitants. | — | ["prétendument"] | false | Prétendument (supposedly) reports a claim while showing doubt.
 - c2-implicit-meaning-ex009 | reformulation | Reformulez comme un fait confirmé, sans conditionnel de prudence : Le directeur aurait démissionné. | — | ["Le directeur a démissionné"] | true | Aurait démissionné reports unconfirmed news; the passé composé presents it as a fact.
 - c2-implicit-meaning-ex010 | reformulation | Reformulez de façon neutre en remplaçant « prétend » par « affirme » : La ministre prétend que la réforme est prête. | — | ["La ministre affirme que la réforme est prête"] | false | Affirmer reports the claim without suggesting it's false.
 - c2-implicit-meaning-ex011 | error-correction | Corrigez le résumé pour qu'il soit neutre, avec le verbe « dire » : Selon l'article, le maire avoue que le projet a pris du retard. | — | ["Selon l'article, le maire dit que le projet a pris du retard"] | true | Avouer suggests a confession of something blameworthy. A neutral summary reports with dire.
@@ -12224,11 +12224,10 @@ fr | pron | en | note
 - épique | ay-PEEK | epic (heroic deeds, larger than life) | —
 - pathétique | pah-tay-TEEK | pathetic, moving (meant to arouse pity) | Not 'pathetic' in the English sense of 'pitiful, useless'.
 - satirique | sah-tee-REEK | satirical (mocking to criticize) | —
-- l'amorce (f.) | lah-MORS | the opening (the first sentence of an introduction, which places the text) | —
+- le lyrisme | luh lee-REESM | lyricism | —
 - l'annonce du plan (f.) | lah-NOHNS dew PLAHN | the announced plan | —
 - un axe de lecture | uh-NAKS duh lek-TEWR | a line of analysis (one main part of a commentary) | —
 - une citation enchâssée | ewn see-tah-SYOHN ahn-shah-SAY | an embedded quotation (built into your own sentence) | —
-- l'ouverture | loo-vehr-TEWR | the opening onto another work or question (at the end of a conclusion) | —
 - un séjour | uhn say-ZHOOR | a place to stay; a stay | —
 - les luttes (f.) | lay LEWT | struggles | —
 - le scintillement | luh san-tee-yuh-MAHN | twinkling, sparkling | —
@@ -12266,7 +12265,7 @@ fr | pron | en | note
 
 id | type | prompt | options | answers | strictAccents | explanation
 
-- c2-commentaire-de-texte-ex001 | multiple-choice | Indiquez le registre littéraire principal du texte « Le Port ». | ["lyrique","comique","épique"] | ["lyrique"] | false | The text expresses a state of mind: the poet's pleasure as a weary observer. That's the lyrical register.
+- c2-commentaire-de-texte-ex001 | multiple-choice | Indiquez le registre littéraire principal du texte « Le Port ». | ["lyrique","comique","épique"] | ["lyrique"] | false | The text expresses a state of mind, the pleasure of a weary observer (celui qui n'a plus ni curiosité ni ambition). That's the lyrical register, though an indirect one: the text never says je.
 - c2-commentaire-de-texte-ex002 | multiple-choice | Indiquez le mot qui n'est pas un registre littéraire. | ["soutenu","tragique","pathétique"] | ["soutenu"] | false | Soutenu is a language register (familier, courant, soutenu). Tragique and pathétique are literary registers.
 - c2-commentaire-de-texte-ex003 | multiple-choice | Indiquez la partie de l'introduction : « Comment Baudelaire fait-il d'un paysage un spectacle qui console ? » | ["la problématique","l'amorce","l'annonce du plan"] | ["la problématique"] | false | The problématique is the question the whole commentary answers.
 - c2-commentaire-de-texte-ex004 | multiple-choice | Indiquez la figure dans « l'architecture mobile des nuages ». | ["un oxymore","une énumération","une question rhétorique"] | ["un oxymore"] | false | An architecture is fixed by definition; mobile joins the opposite idea to it.
@@ -12275,7 +12274,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-commentaire-de-texte-ex007 | fill-in | Complétez : Les mots qui se rapportent au même thème forment un ___ lexical. | — | ["champ"] | false | Le champ lexical: the words of a text linked to one theme.
 - c2-commentaire-de-texte-ex008 | fill-in | Complétez : Dans un commentaire, on organise le développement en deux ou trois ___ de lecture. | — | ["axes"] | false | Each main part of the development is un axe de lecture.
 - c2-commentaire-de-texte-ex009 | error-correction | Corrigez l'erreur : Baudelaire décrit les navires, qui il trouve harmonieux. | — | ["Baudelaire décrit les navires, qu'il trouve harmonieux"] | false | Les navires is the object of trouve, so the relative pronoun is que, elided before il.
-- c2-commentaire-de-texte-ex010 | error-correction | Corrigez le registre (le sens littéraire) : Le texte relève du registre soutenu, car le poète exprime ce qu'il ressent. | — | ["Le texte relève du registre lyrique, car le poète exprime ce qu'il ressent"] | false | A text that expresses the writer's feelings belongs to the lyrical register. Soutenu describes the language, not the emotion.
+- c2-commentaire-de-texte-ex010 | error-correction | Corrigez le registre (le sens littéraire) : Le texte relève du registre soutenu, car il exprime un état de l'âme. | — | ["Le texte relève du registre lyrique, car il exprime un état de l'âme"] | false | A text that expresses a state of mind belongs to the lyrical register. Soutenu describes the language, not the emotion.
 - c2-commentaire-de-texte-ex011 | reformulation | Reformulez en une phrase qui commence par « Avec » : Baudelaire écrit « l'architecture mobile des nuages ». Il unit ainsi la solidité et le mouvement. | — | ["Avec « l'architecture mobile des nuages », Baudelaire unit la solidité et le mouvement","Avec « l'architecture mobile des nuages », il unit la solidité et le mouvement"] | false | The quotation is now part of the analysis sentence, instead of standing on its own.
 - c2-commentaire-de-texte-ex012 | reformulation | Reformulez la question en problématique indirecte, avec « Nous nous demanderons comment » : Comment le poète fait-il du port un spectacle ? | — | ["Nous nous demanderons comment le poète fait du port un spectacle"] | false | In an indirect question, there's no inversion: comment le poète fait…
 - c2-commentaire-de-texte-ex013 | translate | Traduisez (un axe de lecture) : The commentary has two lines of analysis. | — | ["Le commentaire a deux axes de lecture","Le commentaire comporte deux axes de lecture"] | true | Un axe de lecture: one main part of the development.
@@ -12322,7 +12321,7 @@ fr | pron | en | note
 
 id | type | prompt | options | answers | strictAccents | explanation
 
-- c2-stylistic-analysis-ex001 | multiple-choice | Indiquez la figure dans la phrase : Le vent venait, violent, vers la ville. | ["une allitération","une assonance","un chiasme"] | ["une allitération"] | false | The consonant sound v comes back four times: that's an alliteration.
+- c2-stylistic-analysis-ex001 | multiple-choice | Indiquez la figure dans la phrase : Le vent venait, violent, vers la ville. | ["une allitération","une assonance","un chiasme"] | ["une allitération"] | false | The consonant sound v comes back five times (vent, venait, violent, vers, ville): that's an alliteration.
 - c2-stylistic-analysis-ex002 | multiple-choice | Indiquez la figure dans la phrase : Il lit, il rit, il écrit. | ["une assonance","une allitération","une hypotaxe"] | ["une assonance"] | false | The vowel sound i comes back in every word: that's an assonance. The three verbs also make a ternary rhythm.
 - c2-stylistic-analysis-ex003 | multiple-choice | Indiquez la figure dans la phrase : On part pour oublier, on oublie de partir. | ["un chiasme","une asyndète","une allitération"] | ["un chiasme"] | false | Partir and oublier come back in reverse order (A B, B A): that's a chiasmus.
 - c2-stylistic-analysis-ex004 | multiple-choice | Indiquez la construction de la phrase : Il pleut. La rue est vide. Personne ne sort. | ["la parataxe","l'hypotaxe","la période"] | ["la parataxe"] | false | Three short clauses side by side, with no linking word: parataxis. The reader has to supply the links.
@@ -12362,9 +12361,7 @@ fr | pron | en | note
 - un canal | uhn kah-NAHL | a canal | Plural: des canaux.
 - flottante (flottant) | floh-TAHNT | floating | —
 - amarrée (amarrer) | ah-mah-RAY | moored | —
-- debout | duh-BOO | standing | —
 - des coussins (m.) | day koo-SAN | cushions | —
-- un bibliothécaire / une bibliothécaire | uhn bee-blee-oh-tay-KEHR | a librarian | —
 
 ### Exercises
 
@@ -12426,3 +12423,296 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-review-reading-ex015 | translate | Traduisez (un parti pris) : The writer doesn't hide her bias. | — | ["L'autrice ne cache pas son parti pris","L'auteure ne cache pas son parti pris"] | false | Un parti pris: a deliberate stance or a bias.
 - c2-review-reading-ex016 | reorder | Remettez dans l'ordre : A critical reading looks for what the text doesn't say. | — | ["Une lecture critique cherche ce que le texte ne dit pas"] | false | Une lecture critique: what a text says, and what it suggests.
 - c2-review-reading-ex017 | writing-task | Rédigez une analyse de 100 à 150 mots du deuxième paragraphe de la tribune (« Qui prend la ligne 12 ? … »), avec la grille d'analyse : genre, implicite, argument, style. | — | — | false | —
+
+## c2-contraction-de-texte
+
+### Vocab
+
+fr | pron | en | note
+
+- une contraction de texte | ewn kohn-trak-SYOHN duh TEKST | a contraction (a text reduced to a given proportion, in the author's voice) | —
+- contracter un texte | kohn-trak-TAY uhn TEKST | to reduce a text (to a given length) | —
+- condenser | kohn-dahn-SAY | to condense | —
+- l'énonciation (f.) | lay-nohn-syah-SYOHN | enunciation (who speaks in a text, to whom, from where) | —
+- respecter le système d'énonciation | res-pek-TAY luh sees-TEM day-nohn-syah-SYOHN | to keep the text's voice (its je, nous, on, il faut) | —
+- le nombre de mots | luh nohn-bruh duh MOH | the word count | —
+- une marge de tolérance | ewn marzh duh toh-lay-RAHNS | a margin of tolerance | —
+- une convention | ewn kohn-vahn-SYOHN | a convention, an agreed rule | —
+- au quart / au tiers | oh KAR / oh TYEHR | to a quarter / to a third (of its length) | —
+- le squelette d'un texte | luh skuh-LET duh TEKST | the skeleton of a text (its thesis, steps and links) | —
+- un articulateur logique | uh-nar-tee-kew-lah-TUHR loh-ZHEEK | a logical link word (pourtant, donc, en effet) | —
+- supprimer les exemples | sew-pree-MAY lay-zeg-ZAHN-pluh | to cut the examples | —
+- un commentaire personnel | uhn koh-mahn-TEHR pehr-soh-NEL | a personal comment (forbidden in a contraction) | —
+- les partisans (m.) | lay par-tee-ZAHN | the supporters (of an idea) | —
+- l'équilibre entre vie professionnelle et vie personnelle (m.) | lay-kee-LEE-bruh ahn-truh vee proh-feh-syoh-NEL ay vee pehr-soh-NEL | work-life balance | —
+- d'affilée | dah-fee-LAY | in a row, without a break | —
+- en bloc | ahn BLOK | as a whole, wholesale | —
+- régulièrement | ray-gew-lyehr-MAHN | regularly | —
+- séduit (séduire) | say-DWEE | appeals to (to appeal to, to attract) | —
+- réellement | ray-el-MAHN | really, actually | —
+- inutiles (inutile) | ee-new-TEEL | useless | —
+- allonger | ah-lohn-ZHAY | to lengthen | —
+- une catégorie | ewn kah-tay-goh-REE | a category | —
+- améliorer | ah-may-lyoh-RAY | to improve | —
+- les contraintes (f.) | lay kohn-TRANT | constraints | —
+- honnêtement | oh-net-MAHN | honestly | —
+- une recette miracle | ewn ruh-set mee-RAH-kluh | a miracle cure | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-contraction-de-texte-ex001 | multiple-choice | Choisissez la phrase qui convient dans une contraction du texte source. | ["Elle ne convient pas aux métiers où le service est continu.","L'auteur dit qu'elle ne convient pas aux métiers où le service est continu.","À mon avis, elle ne convient pas aux métiers où le service est continu."] | ["Elle ne convient pas aux métiers où le service est continu."] | false | A contraction keeps the author's voice: no l'auteur dit, and no personal comment.
+- c2-contraction-de-texte-ex002 | multiple-choice | Choisissez la phrase qui garde la logique du texte source. | ["Elle a des avantages, mais elle ne convient pas à tous les métiers.","Elle a des avantages, donc elle convient à tous les métiers.","Elle ne convient à aucun métier, malgré ses avantages."] | ["Elle a des avantages, mais elle ne convient pas à tous les métiers."] | false | The text concedes the advantages, then sets a limit: mais keeps that logic. Donc and aucun change what the author says.
+- c2-contraction-de-texte-ex003 | multiple-choice | Indiquez ce qu'on supprime en premier dans une contraction. | ["the examples and repetitions","the words that show the logic, such as pourtant","the conclusion of the text"] | ["the examples and repetitions"] | false | Examples illustrate; the skeleton (thesis, steps, links, conclusion) must stay.
+- c2-contraction-de-texte-ex004 | multiple-choice | Indiquez la différence entre une contraction et une synthèse. | ["A contraction keeps the author's voice; a synthesis attributes every view to its source.","A contraction quotes the author; a synthesis never does.","A contraction gives your opinion; a synthesis doesn't."] | ["A contraction keeps the author's voice; a synthesis attributes every view to its source."] | false | In a synthesis you write selon la maire, le premier document rapporte que…; in a contraction you speak as the author.
+- c2-contraction-de-texte-ex005 | fill-in | Écrivez le nombre en chiffres : selon la convention de la leçon, « c'est-à-dire » compte ___ mots. | — | ["4"] | false | Hyphens and apostrophes separate words in this convention: c' + est + à + dire.
+- c2-contraction-de-texte-ex006 | fill-in | Écrivez le nombre en chiffres : selon la convention de la leçon, « aujourd'hui » compte ___ mot. | — | ["1"] | false | Aujourd'hui is the one exception: it counts as one word.
+- c2-contraction-de-texte-ex007 | fill-in | Complétez : Un texte de 400 mots contracté au quart doit compter environ ___ mots (en chiffres). | — | ["100"] | false | A quarter of 400 is 100. With a tolerance of about a tenth, 90 to 110 words.
+- c2-contraction-de-texte-ex008 | error-correction | Corrigez la phrase de contraction en supprimant le commentaire personnel : À mon avis, la semaine de quatre jours risque d'aggraver les inégalités. | — | ["La semaine de quatre jours risque d'aggraver les inégalités"] | false | A contraction gives no personal comment: à mon avis has to go.
+- c2-contraction-de-texte-ex009 | error-correction | Corrigez la phrase de contraction en gardant la voix de l'auteur : L'auteur dit qu'il faut adapter la mesure à chaque secteur. | — | ["Il faut adapter la mesure à chaque secteur"] | true | The source says il faut: the contraction speaks the same way, with no l'auteur dit.
+- c2-contraction-de-texte-ex010 | reformulation | Condensez avec le nom « la baisse » : Plusieurs entreprises constatent que les salariés sont moins fatigués et moins souvent absents. | — | ["Plusieurs entreprises constatent une baisse de la fatigue et des absences"] | false | Nominalisation (la baisse de…) turns a clause into a noun group and saves words.
+- c2-contraction-de-texte-ex011 | reformulation | Condensez en une phrase avec « ou », en gardant les deux conséquences : Réduire le nombre de jours oblige à embaucher. Cela coûte cher. Sinon, il faut allonger les journées. Cela fatigue. | — | ["Réduire le nombre de jours oblige à embaucher, ce qui coûte cher, ou à allonger les journées, ce qui fatigue"] | true | One sentence, with ou and two relative clauses with ce qui, keeps both consequences.
+- c2-contraction-de-texte-ex012 | translate | Traduisez (une contraction de texte, au quart) : Reduce this text to a quarter of its length. | — | ["Contractez ce texte au quart"] | false | Contracter un texte au quart: to reduce it to a quarter of its length.
+- c2-contraction-de-texte-ex013 | translate | Traduisez (une marge de tolérance) : There's a margin of tolerance of about ten per cent. | — | ["Il y a une marge de tolérance d'environ dix pour cent","La marge de tolérance est d'environ dix pour cent"] | true | Une marge de tolérance: how far you may be above or below the target.
+- c2-contraction-de-texte-ex014 | translate | Traduisez (respecter le système d'énonciation) : A contraction keeps the text's voice. | — | ["Une contraction respecte le système d'énonciation","Une contraction respecte le système d'énonciation du texte"] | false | Respecter le système d'énonciation: keep the je, nous, on or il faut of the source.
+- c2-contraction-de-texte-ex015 | reorder | Remettez dans l'ordre : A contraction keeps the order of the text. | — | ["Une contraction garde l'ordre du texte"] | false | The ideas come in the author's order.
+- c2-contraction-de-texte-ex016 | writing-task | Contractez le texte source au cinquième, soit environ 82 mots (de 74 à 90 mots), en gardant l'ordre et la voix de l'auteur. | — | — | false | —
+
+## c2-long-essay
+
+### Vocab
+
+fr | pron | en | note
+
+- une sous-partie | ewn soo-par-TEE | a sub-part (a section inside a main part) | —
+- une idée directrice | ew-nee-day dee-rek-TREES | a guiding idea (the idea a part defends) | —
+- l'équilibre des parties (m.) | lay-kee-LEE-bruh day par-TEE | the balance between the parts | —
+- un paragraphe argumentatif | uhn pah-rah-GRAHF ar-gew-mahn-tah-TEEF | an argumentative paragraph | —
+- une mini-conclusion | ewn mee-nee-kohn-klew-ZYOHN | a short conclusion at the end of a paragraph or part | —
+- reformuler une idée | ruh-for-mew-LAY ew-nee-DAY | to put an idea in your own words (instead of quoting it) | —
+- le remplissage | luh rahn-plee-SAHZH | padding (words that add nothing) | —
+- une généralité | ewn zhay-nay-rah-lee-TAY | a sweeping statement, a platitude | —
+- certes… mais | SEHRT … meh | admittedly… but (to concede, then answer) | —
+- la traduction automatique | lah trah-dewk-SYOHN oh-toh-mah-TEEK | machine translation | —
+- un logiciel de traduction | uhn loh-zhee-SYEL duh trah-dewk-SYOHN | a translation program | —
+- un sous-entendu culturel | uhn soo-zahn-tahn-DEW kewl-tew-REL | a cultural implication | —
+- la connaissance d'une langue | lah koh-neh-SAHNS dewn LAHNG | knowing a language, knowledge of a language | —
+- une plaisanterie | ewn pleh-zahn-TREE | a joke | —
+- le langage | luh lahn-GAHZH | language (the human ability to speak), a way of speaking | —
+- un client / une cliente étranger(ère) | uhn klee-YAHN ay-trahn-ZHAY | a foreign customer | —
+- correctement | koh-rek-tuh-MAHN | correctly | —
+- polie (poli) | poh-LEE | polite | —
+- sèche (sec) | SESH | curt, dry | —
+- obtient (obtenir) | ob-TYAN | gets (to get) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-long-essay-ex001 | multiple-choice | Choisissez la meilleure phrase de transition entre une partie sur les avantages et une partie sur les limites. | ["Si la traduction automatique facilite les échanges, elle ne remplace pas pour autant la connaissance d'une langue.","Maintenant, je vais parler des limites.","Il y a aussi des limites, et c'est très intéressant."] | ["Si la traduction automatique facilite les échanges, elle ne remplace pas pour autant la connaissance d'une langue."] | false | A good transition sums up the part that ends and announces the next idea in one sentence. The other two only announce, or add a comment.
+- c2-long-essay-ex002 | multiple-choice | Indiquez la phrase qui est du remplissage. | ["Depuis toujours, l'homme se pose des questions sur le langage.","Un logiciel traduit les mots, mais pas toujours les intentions.","Une plaisanterie traduite mot à mot perd souvent son sens."] | ["Depuis toujours, l'homme se pose des questions sur le langage."] | false | Depuis toujours, l'homme… is a sweeping statement that could open any essay: it adds nothing.
+- c2-long-essay-ex003 | multiple-choice | Indiquez ce qui termine un paragraphe argumentatif. | ["a mini-conclusion that links back to the guiding idea","a new argument","a long quotation"] | ["a mini-conclusion that links back to the guiding idea"] | false | Idea, argument, example, then a short conclusion that shows what the paragraph proved.
+- c2-long-essay-ex004 | multiple-choice | Indiquez la meilleure façon d'utiliser l'idée d'un auteur sans le citer. | ["reformuler l'idée et donner le nom de l'auteur","copier sa phrase sans guillemets","ne pas dire d'où vient l'idée"] | ["reformuler l'idée et donner le nom de l'auteur"] | false | You may use an author's idea in your own words, but you say whose idea it is.
+- c2-long-essay-ex005 | fill-in | Complétez : Chaque partie d'un essai défend une idée ___, annoncée dans sa première phrase. | — | ["directrice"] | false | Une idée directrice: the idea a part or a paragraph defends.
+- c2-long-essay-ex006 | fill-in | Complétez : Les mots qui n'apportent rien à l'argument sont du ___. | — | ["remplissage"] | false | Le remplissage: padding.
+- c2-long-essay-ex007 | error-correction | Corrigez en supprimant le remplissage (« Il est bien évident que, comme chacun le sait, ») : Il est bien évident que, comme chacun le sait, la traduction automatique progresse. | — | ["La traduction automatique progresse"] | false | Il est bien évident que and comme chacun le sait add nothing and sound like padding.
+- c2-long-essay-ex008 | error-correction | Corrigez la généralité en la remplaçant par l'idée précise (« certains logiciels ») : Les machines comprennent tout. | — | ["Certains logiciels comprennent beaucoup de choses","Certains logiciels comprennent beaucoup"] | false | A precise, limited claim is stronger than a sweeping statement.
+- c2-long-essay-ex009 | reformulation | Reformulez avec « certes… mais » : La traduction automatique est utile ; pourtant, elle ne comprend pas l'humour. | — | ["Certes, la traduction automatique est utile, mais elle ne comprend pas l'humour","La traduction automatique est certes utile, mais elle ne comprend pas l'humour"] | false | Certes concedes, mais answers: the usual move inside an argumentative paragraph.
+- c2-long-essay-ex010 | reformulation | Reformulez en mini-conclusion, en commençant par « Ainsi, » : On a vu que les logiciels ne traduisent pas les sous-entendus culturels. | — | ["Ainsi, les logiciels ne traduisent pas les sous-entendus culturels"] | false | A mini-conclusion states what the paragraph has shown, without on a vu que.
+- c2-long-essay-ex011 | translate | Traduisez (une sous-partie) : Each part has two or three sub-parts. | — | ["Chaque partie a deux ou trois sous-parties","Chaque partie comporte deux ou trois sous-parties"] | true | Une sous-partie: a section inside a main part.
+- c2-long-essay-ex012 | translate | Traduisez (la traduction automatique) : Machine translation does not replace the learning of a language. | — | ["La traduction automatique ne remplace pas l'apprentissage des langues","La traduction automatique ne remplace pas l'apprentissage d'une langue"] | false | L'apprentissage des langues: language learning.
+- c2-long-essay-ex013 | translate | Traduisez (un plan détaillé) : Write a detailed plan before you start. | — | ["Rédigez un plan détaillé avant de commencer","Rédige un plan détaillé avant de commencer","Faites un plan détaillé avant de commencer","Fais un plan détaillé avant de commencer"] | false | Avant de + infinitive: before you start.
+- c2-long-essay-ex014 | reorder | Remettez dans l'ordre : A paragraph starts with an idea. | — | ["Un paragraphe commence par une idée"] | false | Idea first, then the argument, the example and the mini-conclusion.
+- c2-long-essay-ex015 | multiple-choice | Indiquez le meilleur choix pour l'équilibre des parties dans un essai de trois parties. | ["three parts of about the same length","a very long first part and two short ones","one part much longer than the others"] | ["three parts of about the same length"] | false | Parts of similar length show that each idea is developed equally.
+- c2-long-essay-ex016 | writing-task | Rédigez la troisième partie de l'essai (120 à 200 mots), à partir du plan détaillé de la leçon : une idée directrice, deux paragraphes argumentatifs et une mini-conclusion. | — | — | false | —
+
+## c2-version
+
+### Vocab
+
+fr | pron | en | note
+
+- une version | ewn vehr-ZYOHN | a translation into your own language (here, from French into English) | —
+- un traducteur / une traductrice | uhn trah-dewk-TUHR / ewn trah-dewk-TREES | a translator | —
+- rendre le sens | RAHN-druh luh SAHNS | to render the meaning | —
+- fidèle au texte | fee-DEL oh TEKST | faithful to the text | —
+- la langue source / la langue cible | lah lahng SOORS / lah lahng SEEBL | the source language / the target language | —
+- naturel / naturelle | nah-tew-REL | natural (of a translation that doesn't sound translated) | —
+- ne pas pouvoir s'empêcher de | nuh pah poo-VWAHR sahn-peh-SHAY duh | can't help (doing) | —
+- pour de bon | poor duh BOHN | for good | —
+- une quarantaine de | ewn kah-rahn-TEN duh | about forty | Also: une quarantaine, a quarantine.
+- un faux sens | uhn foh SAHNS | a wrong meaning (a word translated with a sense it doesn't have in context) | —
+- un non-sens | uhn nohn-SAHNS | a meaningless rendering | —
+- une omission | ew-noh-mee-SYOHN | an omission (something left out) | —
+- une surtraduction | ewn sewr-trah-dewk-SYOHN | over-translation (adding what isn't in the text) | —
+- un calque | uhn KALK | a calque (a structure copied word for word from the other language) | —
+- une traduction littérale | ewn trah-dewk-SYOHN lee-tay-RAHL | a literal translation | —
+- ancienne (ancien) | ahn-SYEN | old, former (before a noun) | —
+- la grille | lah GREE-y | the gate, the railings | —
+- l'herbe (f.) | LEHRB | grass | —
+- l'auvent (m.) | loh-VAHN | the awning | —
+- mouillée (mouillé) | moo-YAY | wet | —
+- rouillées (rouillé) | roo-YAY | rusty | —
+- la patronne / le patron | lah pah-TRONN / luh pah-TROHN | the owner (of a café, a shop) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-version-ex001 | multiple-choice | Choisissez la meilleure traduction : Quand Marthe revint au village, il pleuvait des cordes. | ["When Marthe came back to the village, it was pouring.","When Marthe came back to the village, it was raining ropes.","When Marthe comes back to the village, it rains a lot."] | ["When Marthe came back to the village, it was pouring."] | false | Il pleuvait des cordes is an idiom: it was pouring. The passé simple revint becomes the simple past.
+- c2-version-ex002 | multiple-choice | Choisissez la meilleure traduction : On lui avait dit que tout avait changé. | ["She had been told that everything had changed.","One had said to her that all had changed.","On had told her that everything changed."] | ["She had been told that everything had changed."] | false | On often becomes a passive in English: she had been told. One had said is a calque.
+- c2-version-ex003 | multiple-choice | Choisissez la meilleure traduction : Enfant, elle y passait ses journées à regarder par la fenêtre. | ["As a child, she used to spend her days looking out of the window.","As a child, she has spent her days looking out of the window.","Child, she passed her days to look by the window."] | ["As a child, she used to spend her days looking out of the window."] | false | The imparfait of habit becomes used to (or would). Enfant becomes as a child, and à regarder becomes looking.
+- c2-version-ex004 | multiple-choice | Choisissez la meilleure traduction : « Tu es la petite Marthe, n'est-ce pas ? » | ["\"You're little Marthe, aren't you?\"","\"You are the small Marthe, is it not?\"","\"You are the little Marthe, isn't it?\""] | ["\"You're little Marthe, aren't you?\""] | false | Familiar tu and a spoken tag: English uses a contraction and the tag aren't you. N'est-ce pas isn't is it not.
+- c2-version-ex005 | multiple-choice | Indiquez le type d'erreur : traduire « éventuellement » par « eventually ». | ["un faux sens","une omission","une surtraduction"] | ["un faux sens"] | false | Éventuellement means possibly; eventually gives it a sense it doesn't have.
+- c2-version-ex006 | multiple-choice | Indiquez le type d'erreur : « Elle sourit » traduit par « She smiled warmly and happily ». | ["une surtraduction","une omission","un non-sens"] | ["une surtraduction"] | false | Warmly and happily aren't in the French: the translation adds what isn't there.
+- c2-version-ex007 | fill-in | Complétez : Une traduction qui copie mot à mot une structure de la langue source est un ___. | — | ["calque"] | false | Un calque copies the structure of the other language: it is with pleasure that I…
+- c2-version-ex008 | error-correction | Corrigez la traduction anglaise (le temps) : « Il est arrivé hier » → He has arrived yesterday. | — | ["He arrived yesterday"] | false | With a finished time (yesterday), English uses the simple past, not the present perfect.
+- c2-version-ex009 | error-correction | Corrigez la traduction anglaise (le faux ami) : « Elle reviendrait, éventuellement pour de bon » → She would come back, eventually for good. | — | ["She would come back, possibly for good","She would come back, perhaps for good","She would come back, maybe for good","She'd come back, possibly for good","She'd come back, perhaps for good"] | false | Éventuellement means possibly or perhaps, not eventually.
+- c2-version-ex010 | reformulation | Reformulez la traduction anglaise sans calque : « C'est avec plaisir que je vous écris » → It is with pleasure that I write to you. | — | ["I am pleased to write to you","I'm pleased to write to you","I am delighted to write to you","I'm delighted to write to you"] | false | C'est avec plaisir que is a French construction; natural English says I'm pleased to.
+- c2-version-ex011 | translate | Traduisez en anglais : Elle ne put s'empêcher de rire. | — | ["She couldn't help laughing","She could not help laughing","She couldn't help but laugh","She could not help but laugh"] | false | Ne pas pouvoir s'empêcher de: can't help doing. The passé simple put becomes the simple past could.
+- c2-version-ex012 | translate | Traduisez en anglais, avec un passif : On ferme la boulangerie le lundi. | — | ["The bakery is closed on Mondays","The bakery is shut on Mondays"] | false | On becomes a passive in English, and le lundi (every Monday) becomes on Mondays.
+- c2-version-ex013 | translate | Traduisez en anglais (faute de = for lack of) : L'école fermera faute d'élèves. | — | ["The school will close for lack of pupils","The school will close for lack of students"] | false | Faute de: for lack of. Pupils is British for schoolchildren; students is also used.
+- c2-version-ex014 | reorder | Remettez dans l'ordre la traduction de : Elle s'arrêta devant l'ancienne école. | — | ["She stopped in front of the old school"] | false | The passé simple s'arrêta becomes the simple past stopped; l'ancienne école here is the old school, not the ancient one.
+- c2-version-ex015 | multiple-choice | Choisissez la meilleure traduction : Actuellement, il ne restait qu'une quarantaine d'habitants. | ["By then, only about forty people were left.","Actually, only forty people were left.","Currently, there remained only a quarantine of inhabitants."] | ["By then, only about forty people were left."] | false | Actuellement means at present, here at that time in the story, not actually. Une quarantaine de means about forty.
+- c2-version-ex016 | writing-task | Traduisez en anglais le quatrième paragraphe du texte (« Un vieil homme sortit… »), puis comparez avec le modèle et nommez chaque différence (faux sens, omission, surtraduction, calque). | — | — | false | —
+
+## c2-theme
+
+### Vocab
+
+fr | pron | en | note
+
+- un thème | uhn TEM | a translation into a foreign language (here, from English into French) | —
+- une tournure idiomatique | ewn toor-newr ee-dyoh-mah-TEEK | an idiomatic turn of phrase | —
+- un équivalent | uh-nay-kee-vah-LAHN | an equivalent (a phrase that does the same job) | —
+- un dictionnaire bilingue / unilingue | uhn deek-syoh-NEHR bee-LANG / ew-nee-LANG | a bilingual / monolingual dictionary | —
+- un enchaînement de noms | uh-nahn-shen-MAHN duh NOHN | a noun stack (customer satisfaction survey) | —
+- doué pour / douée pour | doo-AY poor | good at, gifted for | —
+- un chassé-croisé | uhn shah-SAY krwah-ZAY | a cross-over (manner and movement swap places: swam across → traversé à la nage) | —
+- à la nage / en courant | ah lah NAHZH / ahn koo-RAHN | by swimming / running (the manner, after the verb of movement) | —
+- étoffer | ay-toh-FAY | to expand (to add the words French needs) | —
+- l'étoffement (m.) | lay-tof-MAHN | expansion (adding words French needs: a relative clause, a verb) | —
+- mener à | muh-NAY ah | to lead to (a road, a door) | —
+- une enquête de satisfaction | ew-nahn-KET duh sah-tees-fak-SYOHN | a customer satisfaction survey | —
+- un conseiller / une conseillère | uhn kohn-seh-YAY / ewn kohn-seh-YEHR | an adviser | —
+- un cabinet indépendant | uhn kah-bee-NEH an-day-pahn-DAHN | an independent firm (of consultants) | —
+- un guichet | uhn gee-SHEH | a desk, a counter (where the public is served) | —
+- la plupart des | lah plew-PAR day | most (of) | —
+- le manager (anglicisme) | luh mah-nah-JUHR | the manager (an anglicism) | —
+- dedans | duh-DAHN | inside, in it | —
+- plaignaient (se plaindre) | pleh-NYEH | complained (to complain) | —
+- obtiennent (obtenir) | ob-TYEN | get (to get) | —
+- plairont (plaire) | pleh-ROHN | will please (to please) | —
+- entraînés (entraîner) | ahn-treh-NAY | trained (of sport, here a calque) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-theme-ex001 | multiple-choice | Choisissez la meilleure traduction : He swam across the river. | ["Il a traversé la rivière à la nage.","Il a nagé à travers la rivière.","Il a nagé de l'autre côté la rivière."] | ["Il a traversé la rivière à la nage."] | false | A chassé-croisé: English puts the manner in the verb (swam) and the movement after it (across); French puts the movement in the verb (traverser) and the manner after it (à la nage).
+- c2-theme-ex002 | multiple-choice | Choisissez la meilleure traduction : French is spoken here. | ["Ici, on parle français.","Le français est parlé ici par les gens.","Français est parlé ici."] | ["Ici, on parle français."] | false | English often uses the passive; French prefers on, an active verb or a pronominal verb.
+- c2-theme-ex003 | multiple-choice | Choisissez la meilleure traduction : a customer satisfaction survey | ["une enquête de satisfaction","une client satisfaction enquête","une enquête client satisfaction"] | ["une enquête de satisfaction"] | false | French doesn't stack nouns: it links them with de, and often drops what's obvious (customer).
+- c2-theme-ex004 | multiple-choice | Choisissez la meilleure traduction : I like swimming. | ["J'aime nager.","J'aime nageant.","J'aime en nageant."] | ["J'aime nager."] | false | An English -ing form used as a noun usually becomes a French infinitive.
+- c2-theme-ex005 | multiple-choice | Indiquez le procédé utilisé pour traduire « the road to the station » par « la route qui mène à la gare ». | ["un étoffement","un chassé-croisé","une omission"] | ["un étoffement"] | false | French adds a relative clause (qui mène) where English only has a preposition: that's étoffement.
+- c2-theme-ex006 | fill-in | Conjuguez « mener » au présent, pour traduire « the road to the station » : la route qui ___ à la gare. | — | ["mène"] | false | Mener à: to lead to. Like lever, it takes a grave accent: il mène.
+- c2-theme-ex007 | fill-in | Complétez le chassé-croisé : She ran out of the house → Elle est sortie de la maison en ___. | — | ["courant"] | false | The movement goes into the verb (sortir); the manner (running) comes after it: en courant.
+- c2-theme-ex008 | error-correction | Corrigez le calque : Il a levé sa main. | — | ["Il a levé la main"] | true | With a part of the body, French uses the article, not a possessive: il a levé la main.
+- c2-theme-ex009 | error-correction | Corrigez le calque, avec « douée pour » : Elle est bonne à cuisiner. | — | ["Elle est douée pour la cuisine"] | false | Good at cooking isn't bonne à cuisiner (good for cooking, of food). Say douée pour la cuisine.
+- c2-theme-ex010 | error-correction | Corrigez le faux sens (firm = entreprise de conseil) : L'enquête a été menée par une ferme indépendante. | — | ["L'enquête a été menée par un cabinet indépendant"] | true | Une ferme is a farm. A firm of consultants is un cabinet.
+- c2-theme-ex011 | reformulation | Reformulez avec un chassé-croisé (traverser) : Il a nagé pour traverser la rivière. | — | ["Il a traversé la rivière à la nage"] | true | Traverser carries the movement, à la nage the manner.
+- c2-theme-ex012 | translate | Traduisez avec un chassé-croisé, au passé composé (traverser, la rivière) : He swam across the river. | — | ["Il a traversé la rivière à la nage"] | true | Swam across → a traversé… à la nage.
+- c2-theme-ex013 | translate | Traduisez avec « on », sans passif : French is spoken here. | — | ["Ici, on parle français","On parle français ici"] | true | On + active verb replaces the English passive.
+- c2-theme-ex014 | translate | Traduisez à la voix active (rédiger, au passé composé) : This report was written by the director. | — | ["Le directeur a rédigé ce rapport","La directrice a rédigé ce rapport"] | true | French often turns a passive with par into an active sentence. The director may be a man or a woman, so both are accepted.
+- c2-theme-ex015 | translate | Traduisez (une tournure idiomatique) : This sentence needs an idiomatic turn of phrase. | — | ["Cette phrase a besoin d'une tournure idiomatique","Cette phrase demande une tournure idiomatique"] | true | Une tournure idiomatique: a phrase that sounds natural in French.
+- c2-theme-ex016 | reorder | Remettez dans l'ordre : She ran out of the house. | — | ["Elle est sortie de la maison en courant"] | false | A chassé-croisé: the movement in the verb (sortie), the manner after it (en courant).
+- c2-theme-ex017 | writing-task | Traduisez en français : « The new advisers were trained by our most experienced staff. When a problem cannot be solved on the phone, a visit is arranged within a week. » Puis comparez avec le modèle. | — | — | false | —
+
+## c2-revising-your-style
+
+### Vocab
+
+fr | pron | en | note
+
+- une lourdeur | ewn loor-DUHR | a heavy, clumsy passage | —
+- alléger une phrase | ah-lay-ZHAY ewn FRAHZ | to lighten a sentence | —
+- une phrase bancale | ewn frahz bahn-KAHL | a shaky, badly built sentence | —
+- fluidifier | flew-ee-dee-FYAY | to make (a text) flow better | —
+- une cascade de relatives | ewn kas-KAD duh ruh-lah-TEEV | a chain of relative clauses (qui… qui… que…) | —
+- une suite de compléments du nom | ewn sweet duh kohn-play-MAHN dew NOHN | a chain of noun complements (de… de… de…) | —
+- un verbe passe-partout | uhn vehrb pas-par-TOO | a catch-all verb (faire, mettre, dire, avoir) | —
+- tenir une réunion | tuh-NEER ewn ray-ew-NYOHN | to hold a meeting | —
+- régler un problème | ray-GLAY uhn proh-BLEM | to settle a problem | —
+- la gestion des congés | lah zhes-TYOHN day kohn-ZHAY | the management of staff leave | —
+- une reprise pronominale | ewn ruh-PREEZ proh-noh-mee-NAHL | a pronoun used to avoid repeating a noun | —
+- une rupture de registre | ewn rewp-TEWR duh ruh-ZHEES-truh | a break in register | —
+- mécontent / mécontente | may-kohn-TAHN / may-kohn-TAHNT | dissatisfied, unhappy | —
+- présider (une réunion) | pray-zee-DAY | to chair (a meeting) | —
+- un client que l'on risque de perdre | uhn klee-YAHN kuh lohn REESK duh PEHR-druh | a customer you risk losing | —
+- appliqué (appliquer) | ah-plee-KAY | applied (to apply) | —
+- nonobstant | noh-nob-STAHN | notwithstanding (very formal) | —
+- susmentionnées (susmentionné) | sews-mahn-syoh-NAY | above-mentioned (administrative) | —
+- à l'accoutumée | ah lah-koo-tew-MAY | as usual (literary) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-revising-your-style-ex001 | multiple-choice | Indiquez le défaut principal : Il y a un client qui a appelé qui voulait parler au directeur. | ["une cascade de relatives","une rupture de registre","une suite de compléments du nom"] | ["une cascade de relatives"] | false | Il y a… qui… qui… makes two relative clauses in a row. Un client a appelé pour parler au directeur is lighter.
+- c2-revising-your-style-ex002 | multiple-choice | Choisissez la phrase qui contient une rupture de registre dans un rapport. | ["Le plan, il est bien, mais il est pas encore appliqué.","Le plan est solide, mais il n'est pas encore appliqué.","Ce plan est solide ; il reste à l'appliquer."] | ["Le plan, il est bien, mais il est pas encore appliqué."] | false | The dislocation (le plan, il…) and the dropped ne are spoken French; a report needs the written forms.
+- c2-revising-your-style-ex003 | multiple-choice | Choisissez le verbe précis qui remplace « faire » : Nous avons fait une réunion lundi. | ["tenu","mis","dit"] | ["tenu"] | false | Tenir une réunion is the precise collocation. Organiser une réunion would also be good, but it isn't among the options.
+- c2-revising-your-style-ex004 | multiple-choice | Choisissez la phrase la plus légère. | ["Le retard des livraisons inquiète les clients.","Le retard de la livraison des commandes des clients inquiète les clients.","Il y a un retard de livraison qui inquiète les clients qui attendent."] | ["Le retard des livraisons inquiète les clients."] | false | No chain of de, no il y a, no relative clause, and no repetition.
+- c2-revising-your-style-ex005 | fill-in | Complétez avec le verbe qui veut dire « rendre plus léger » : Il faut ___ cette phrase, elle est trop longue. | — | ["alléger"] | false | Alléger une phrase: to lighten it.
+- c2-revising-your-style-ex006 | reformulation | Allégez en supprimant « il y a… qui » : Il y a beaucoup de clients qui se plaignent. | — | ["Beaucoup de clients se plaignent","De nombreux clients se plaignent"] | false | The subject goes straight before the verb. Beaucoup de and de nombreux are both good; de nombreux is a little more formal.
+- c2-revising-your-style-ex007 | reformulation | Allégez en remplaçant la relative par un adjectif : C'est un problème qui est important. | — | ["C'est un problème important"] | false | Qui est + adjective is usually just the adjective.
+- c2-revising-your-style-ex008 | reformulation | Allégez la suite de compléments du nom, en gardant « le retard des livraisons » : Le retard de la livraison des commandes inquiète les responsables. | — | ["Le retard des livraisons inquiète les responsables"] | false | Livraisons already says what is delivered: de la livraison des commandes becomes des livraisons.
+- c2-revising-your-style-ex009 | error-correction | Corrigez la rupture de registre, dans un rapport : C'est pour ça que les clients se plaignent. | — | ["C'est pourquoi les clients se plaignent","C'est la raison pour laquelle les clients se plaignent"] | false | C'est pour ça que is spoken. Both written forms are good; c'est pourquoi is shorter.
+- c2-revising-your-style-ex010 | error-correction | Corrigez la répétition avec le pronom « les » : Nous avons reçu des remarques et nous étudions ces remarques. | — | ["Nous avons reçu des remarques et nous les étudions"] | false | Une reprise pronominale (les) avoids repeating the noun.
+- c2-revising-your-style-ex011 | translate | Traduisez (alléger) : This sentence needs to be lightened. | — | ["Il faut alléger cette phrase","Cette phrase doit être allégée"] | false | Alléger une phrase. Both the impersonal il faut and the passive are good here.
+- c2-revising-your-style-ex012 | translate | Traduisez (une rupture de registre) : This word is a break in register. | — | ["Ce mot est une rupture de registre","Ce mot crée une rupture de registre"] | false | Une rupture de registre: a word or a form that doesn't match the register of the text.
+- c2-revising-your-style-ex013 | translate | Traduisez avec un verbe précis (tenir, au passé composé) : We held a meeting on Monday. | — | ["Nous avons tenu une réunion lundi","On a tenu une réunion lundi"] | true | Tenir une réunion replaces the catch-all faire une réunion. On is spoken; nous suits a report.
+- c2-revising-your-style-ex014 | reorder | Remettez dans l'ordre : This plan is solid but not yet applied. | — | ["Ce plan est solide mais pas encore appliqué"] | false | A light sentence: one subject, one verb, and an ellipsis of est after mais.
+- c2-revising-your-style-ex015 | multiple-choice | Indiquez la meilleure façon d'éviter la répétition de « le plan » dans un texte soigné. | ["a pronoun or ce plan","repeat it in capital letters","use the familiar word le truc"] | ["a pronoun or ce plan"] | false | A pronoun (il, le) or a demonstrative (ce plan) avoids the repetition; le truc is familiar.
+- c2-revising-your-style-ex016 | writing-task | Allégez ce paragraphe (40 à 80 mots), puis comparez avec le modèle : « Il y a des employés qui ont dit qu'il y a des problèmes avec le logiciel qui est utilisé pour la gestion des congés des employés du service, et ces problèmes, il faut qu'on les règle vite, parce que les employés, ils sont mécontents. » | — | — | false | —
+
+## c2-review-writing
+
+### Vocab
+
+fr | pron | en | note
+
+- un premier jet | uhn pruh-myay ZHEH | a first draft | —
+- rédiger au propre | ray-dee-ZHAY oh PROH-pruh | to write out a clean copy | —
+- peaufiner | poh-fee-NAY | to polish, to put the finishing touches to | —
+- la mise en page | lah mee-zahn PAHZH | the layout | —
+- une révision | ewn ray-vee-ZYOHN | a revision (rereading and improving a text) | —
+- un jardin partagé | uhn zhar-DAN par-tah-ZHAY | a community garden | —
+- les légumes (m.) | lay lay-GEWM | vegetables | —
+- récupérer l'eau de pluie | ray-kew-pay-RAY loh duh PLWEE | to collect rainwater | —
+- nocturnes (nocturne) | nok-TEWRN | night-time, at night | —
+- un anniversaire | uh-nah-nee-vehr-SEHR | an anniversary; a birthday | —
+- positifs (positif) | poh-zee-TEEF | positive | —
+- pousser (faire pousser) | poo-SAY | to grow (to make grow) | —
+- cultivent (cultiver) | kewl-TEEV | grow, cultivate | —
+- s'inscrire auprès de | san-SKREER oh-PREH duh | to sign up with | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-review-writing-ex001 | multiple-choice | Choisissez la phrase qui convient dans une contraction de la version revue. | ["L'association cherche des bénévoles le samedi.","L'auteur dit que l'association cherche des bénévoles.","Heureusement, l'association cherche des bénévoles."] | ["L'association cherche des bénévoles le samedi."] | false | A contraction keeps the author's voice (no l'auteur dit) and adds no comment (no heureusement) (c2-contraction-de-texte).
+- c2-review-writing-ex002 | multiple-choice | Indiquez la phrase qui est du remplissage dans un article. | ["Depuis toujours, l'homme aime les jardins.","Une quarantaine de familles cultivent le jardin.","L'association cherche des bénévoles."] | ["Depuis toujours, l'homme aime les jardins."] | false | A sweeping statement that could open any text adds nothing (c2-long-essay).
+- c2-review-writing-ex003 | translate | Traduisez en anglais : Le jardin fête son premier anniversaire. | — | ["The garden is celebrating its first anniversary","The garden celebrates its first anniversary","The garden is celebrating its first birthday","The garden celebrates its first birthday"] | false | Fêter son premier anniversaire: to celebrate its first anniversary, or, more lightly, its first birthday (c2-version).
+- c2-review-writing-ex004 | translate | Traduisez avec un chassé-croisé, au passé composé (entrer) : The children ran into the garden. | — | ["Les enfants sont entrés dans le jardin en courant"] | true | The movement goes into the verb (entrer), the manner after it (en courant) (c2-theme).
+- c2-review-writing-ex005 | reformulation | Allégez en supprimant « il y a… qui » : Il y a une quarantaine de familles qui y viennent. | — | ["Une quarantaine de familles y viennent","Une quarantaine de familles y vient"] | false | The subject goes straight before the verb. After une quarantaine de + plural noun, the verb is usually plural, but the singular is also found (c2-revising-your-style).
+- c2-review-writing-ex006 | fill-in | Complétez : La première version d'un texte, écrite sans s'arrêter, est un premier ___. | — | ["jet"] | false | Un premier jet: a first draft.
+- c2-review-writing-ex007 | fill-in | Complétez avec le verbe qui veut dire « faire les derniers petits changements » : Avant de publier l'article, il faut le ___. | — | ["peaufiner"] | false | Peaufiner: to polish, to put the finishing touches to.
+- c2-review-writing-ex008 | multiple-choice | Indiquez le sens de « la mise en page ». | ["the layout of the text on the page","the first draft","the word count"] | ["the layout of the text on the page"] | false | La mise en page: how the text is arranged (titles, paragraphs, spacing). You know mettre en page from B2.
+- c2-review-writing-ex009 | error-correction | Corrigez la rupture de registre : Le jardin, il plaît beaucoup. | — | ["Le jardin plaît beaucoup"] | false | The dislocation (le jardin, il…) is spoken; written French keeps one subject.
+- c2-review-writing-ex010 | error-correction | Corrigez le verbe passe-partout, avec « tenir » : L'association a fait une réunion. | — | ["L'association a tenu une réunion"] | true | Tenir une réunion is the precise collocation.
+- c2-review-writing-ex011 | reformulation | Allégez en supprimant « il y a » : Il y a eu des vols de légumes la nuit. | — | ["Des légumes ont été volés la nuit","Des vols de légumes ont eu lieu la nuit"] | true | Both remove il y a: a passive with the vegetables as subject, or avoir lieu with the thefts as subject.
+- c2-review-writing-ex012 | translate | Traduisez (un premier jet) : This is only a first draft. | — | ["Ce n'est qu'un premier jet","C'est seulement un premier jet"] | false | Un premier jet: a first draft; ne… que for only.
+- c2-review-writing-ex013 | translate | Traduisez (rédiger au propre, au futur proche) : I'm going to write out the clean copy tonight. | — | ["Je vais rédiger au propre ce soir","Ce soir, je vais rédiger au propre"] | false | Rédiger au propre: to write out the final, clean version.
+- c2-review-writing-ex014 | reorder | Remettez dans l'ordre : First the notes, then the draft, then the revision. | — | ["D'abord les notes, puis le premier jet, puis la révision"] | false | The order of the stages: notes, first draft, revision.
+- c2-review-writing-ex015 | multiple-choice | Indiquez l'étape qui vient après la version revue, quand on demande un texte plus court. | ["the contraction","the notes","the first draft"] | ["the contraction"] | false | The contraction reduces the revised text to the proportion asked for.
+- c2-review-writing-ex016 | writing-task | À partir de ces notes, rédigez un court article de 60 à 100 mots, puis relisez-le : « Fête de quartier, samedi 14 juin ; place de la Gare ; repas partagé, musique, jeux pour les enfants ; chacun apporte un plat ; besoin de bénévoles pour installer les tables. » | — | — | false | —

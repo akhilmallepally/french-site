@@ -44,7 +44,7 @@ exercises:
     prompt: "Indiquez le présupposé de la phrase : Le maire a enfin reconnu son erreur."
     options: ["Before, the mayor hadn't admitted his mistake.", "The mayor will resign.", "The mayor never makes mistakes."]
     answers: ["Before, the mayor hadn't admitted his mistake."]
-    explanation: "Enfin presupposes a long wait: until now, he hadn't admitted it. The negation test keeps it: le maire n'a pas encore reconnu son erreur still says that he made one."
+    explanation: "Enfin presupposes a long wait: until now, he hadn't admitted it. The negation test confirms it: in le maire n'a toujours pas reconnu son erreur, it's still taken for granted that he hadn't admitted it before."
   - id: "c2-implicit-meaning-ex002"
     type: "multiple-choice"
     prompt: "Indiquez le présupposé de la phrase : Paul a arrêté de fumer."
@@ -82,7 +82,7 @@ exercises:
     explanation: "Before the moment described, he hadn't admitted it: plus-que-parfait, n'avait pas reconnu."
   - id: "c2-implicit-meaning-ex008"
     type: "fill-in"
-    prompt: "Complétez avec l'adverbe qui montre que l'auteur doute de l'information : Le projet a ___ été approuvé par tous les habitants."
+    prompt: "Complétez avec l'adverbe de la leçon formé sur « prétendre » : Le projet a ___ été approuvé par tous les habitants."
     answers: ["prétendument"]
     explanation: "Prétendument (supposedly) reports a claim while showing doubt."
   - id: "c2-implicit-meaning-ex009"
@@ -208,7 +208,7 @@ If an accusation is reported in the conditional and nothing confirms it, leave i
 
 <VocabTable group="text" />
 
-The opinion piece below is original, about an invented town. A neutral version follows: the same facts, with the judgments removed.
+The opinion piece below is original, about an invented town. A neutral version follows: exactly the same facts, with the judgments removed.
 
 *Le parc des Tilleuls va-t-il enfin disparaître ? La mairie, qui avait promis de protéger nos espaces verts, prétend aujourd'hui qu'un parking « moderne » est indispensable. On attend encore les études qui le prouvent. Pendant ce temps, les promoteurs se frottent les mains : le béton remplacera bientôt la pelouse où nos enfants jouent depuis trente ans. On nous explique que le quartier manque de places pour les voitures. Curieusement, personne n'a demandé aux familles qui vivent ici ce dont elles manquent, elles.*
 
@@ -218,11 +218,11 @@ The opinion piece below is original, about an invented town. A neutral version f
 
 (Is the Tilleuls park finally going to disappear? The town hall, which had promised to protect our green spaces, now claims that a "modern" car park is essential. We are still waiting for the studies that prove it. Meanwhile, the developers are rubbing their hands: concrete will soon replace the lawn where our children have played for thirty years. We're told that the neighbourhood lacks parking spaces. Curiously, nobody has asked the families who live here what they lack. Ten years ago, the same team swore that no tree would be cut down. We know what happened next: three trees came down last winter, "for safety reasons". A handful of councillors defend the project with suspicious enthusiasm. According to our information, the company chosen reportedly has links with one of them. The mayor, for his part, remains silent, which says a lot. The residents don't ask for much: to keep a few trees and a little calm. They have already signed a petition, organized two meetings and written to the town council. Will they be told once again that progress can't be questioned? Is it really too much to ask that they be listened to?)
 
-*La mairie propose de remplacer une partie du parc des Tilleuls par un parking. Elle affirme que ce parking est nécessaire pour le quartier, où les places pour les voitures sont peu nombreuses ; les études sur ce point n'ont pas encore été publiées. Plusieurs élus défendent le projet, et une entreprise a été choisie pour les travaux. Le maire ne s'est pas encore exprimé. Trois arbres du parc ont été coupés l'hiver dernier ; la mairie a expliqué que c'était pour des raisons de sécurité.*
+*La mairie propose de remplacer le parc des Tilleuls par un parking. Elle s'était engagée à protéger les espaces verts de la ville. Elle affirme aujourd'hui que ce parking est nécessaire, car le quartier manque de places pour les voitures ; les études sur ce point n'ont pas encore été publiées. Le parking remplacerait la pelouse, où des enfants jouent depuis trente ans. On n'a pas demandé leur avis aux familles du quartier.*
 
-*Des habitants demandent que les arbres et la pelouse soient gardés. Ils ont signé une pétition, organisé deux réunions publiques et écrit au conseil municipal. Le projet doit être présenté au conseil le mois prochain.*
+*Il y a dix ans, la même équipe municipale s'était engagée à ne couper aucun arbre du parc. Trois arbres sont tombés l'hiver dernier ; la mairie a expliqué que c'était pour des raisons de sécurité. Plusieurs élus défendent le projet, et une entreprise a été choisie pour les travaux. Le maire ne s'est pas encore exprimé. Des habitants demandent que des arbres et la pelouse soient gardés. Ils ont signé une pétition, organisé deux réunions et écrit au conseil municipal.*
 
-(The town hall is proposing to replace part of the Tilleuls park with a car park. It states that this car park is necessary for the neighbourhood, where there are few parking spaces; the studies on this point haven't been published yet. Several councillors support the project, and a company has been chosen for the work. The mayor hasn't commented yet. Three trees in the park were cut down last winter; the town hall explained that it was for safety reasons. Some residents are asking for the trees and the lawn to be kept. They have signed a petition, organized two public meetings and written to the town council. The project is to be presented to the council next month.)
+(The town hall is proposing to replace the Tilleuls park with a car park. It had committed itself to protecting the town's green spaces. It now states that this car park is necessary, because the neighbourhood lacks parking spaces; the studies on this point haven't been published yet. The car park would replace the lawn, where children have played for thirty years. The families in the neighbourhood haven't been asked their opinion. Ten years ago, the same municipal team committed itself to cutting down no tree in the park. Three trees came down last winter; the town hall explained that it was for safety reasons. Several councillors support the project, and a company has been chosen for the work. The mayor hasn't commented yet. Some residents are asking for trees and the lawn to be kept. They have signed a petition, organized two meetings and written to the town council.)
 
 <VocabTable group="glossary" />
 
@@ -232,7 +232,7 @@ The opinion piece below is original, about an invented town. A neutral version f
 - **Reporting verbs:** the verb *prétend* suggests the claim is false; the neutral version says *affirme*.
 - **Scare quotes:** the phrase *un parking « moderne »* keeps the town hall's word at a distance, and so do the quotation marks around *pour des raisons de sécurité*.
 - **Connotation:** the phrases *les promoteurs se frottent les mains* (rub their hands) and *un enthousiasme suspect* are pejorative; *une poignée d'élus* (a handful) makes the supporters seem few.
-- **The conditionnel de prudence:** the verb *aurait des liens* reports an accusation without confirming it. The neutral version leaves it out, because nothing confirms it.
+- **The conditionnel de prudence:** the verb *aurait des liens* reports an accusation without confirming it. The neutral version leaves it out, because it isn't a fact but an unconfirmed claim; every fact of the opinion piece is in the neutral version.
 - **Implied meanings:** the clause *ce qui en dit long* suggests the mayor has something to hide, and *curieusement* suggests that the families were left out on purpose.
 - **Rhetorical questions:** the last two questions imply their answers: the residents will be told that, and it isn't too much to ask.
 
@@ -497,7 +497,7 @@ Chloé and Malo are preparing an analysis of the Valbrune debate for their class
 - *Mais ce n'est pas un sophisme, si ?* (But that's not a fallacy, is it?)
 - *Non, c'est un argument solide. Il faut seulement se demander si l'exemple est représentatif.* (No, it's a sound argument. You just have to ask whether the example is representative.)
 - *Et la fête de famille ?* (And the family party?)
-- *C'est une analogie. Elle convainc, mais une fête dure une soirée, pas trois jours.* (It's an analogy. It's convincing, but a party lasts an evening, not three days.)
+- *C'est une analogie. Elle convainc, mais une fête dure une soirée, pas une semaine.* (It's an analogy. It's convincing, but a party lasts an evening, not a week.)
 - *M. Rivière, lui, critique Mme Lambert parce qu'elle n'habite pas près du parc.* (Mr Rivière criticizes Mrs Lambert because she doesn't live near the park.)
 - *C'est un argument ad hominem. Le modérateur a raison de revenir au sujet.* (That's an ad hominem argument. The moderator is right to come back to the subject.)
 - *Ensuite, il dit qu'un festival en entraînera trois.* (Then he says one festival will lead to three.)
@@ -543,50 +543,49 @@ vocab:
   - { id: "c2-commentaire-de-texte-v009", group: "registres", fr: "épique", pron: "ay-PEEK", en: "epic (heroic deeds, larger than life)" }
   - { id: "c2-commentaire-de-texte-v010", group: "registres", fr: "pathétique", pron: "pah-tay-TEEK", en: "pathetic, moving (meant to arouse pity)", note: "Not 'pathetic' in the English sense of 'pitiful, useless'." }
   - { id: "c2-commentaire-de-texte-v011", group: "registres", fr: "satirique", pron: "sah-tee-REEK", en: "satirical (mocking to criticize)" }
-  - { id: "c2-commentaire-de-texte-v012", group: "intro", fr: "l'amorce (f.)", pron: "lah-MORS", en: "the opening (the first sentence of an introduction, which places the text)" }
+  - { id: "c2-commentaire-de-texte-v012", group: "registres", fr: "le lyrisme", pron: "luh lee-REESM", en: "lyricism" }
   - { id: "c2-commentaire-de-texte-v013", group: "intro", fr: "l'annonce du plan (f.)", pron: "lah-NOHNS dew PLAHN", en: "the announced plan" }
   - { id: "c2-commentaire-de-texte-v014", group: "body", fr: "un axe de lecture", pron: "uh-NAKS duh lek-TEWR", en: "a line of analysis (one main part of a commentary)" }
   - { id: "c2-commentaire-de-texte-v015", group: "body", fr: "une citation enchâssée", pron: "ewn see-tah-SYOHN ahn-shah-SAY", en: "an embedded quotation (built into your own sentence)" }
-  - { id: "c2-commentaire-de-texte-v016", group: "body", fr: "l'ouverture", pron: "loo-vehr-TEWR", en: "the opening onto another work or question (at the end of a conclusion)" }
-  - { id: "c2-commentaire-de-texte-v017", group: "glossary", fr: "un séjour", pron: "uhn say-ZHOOR", en: "a place to stay; a stay" }
-  - { id: "c2-commentaire-de-texte-v018", group: "glossary", fr: "les luttes (f.)", pron: "lay LEWT", en: "struggles" }
-  - { id: "c2-commentaire-de-texte-v019", group: "glossary", fr: "le scintillement", pron: "luh san-tee-yuh-MAHN", en: "twinkling, sparkling" }
-  - { id: "c2-commentaire-de-texte-v020", group: "glossary", fr: "les phares (m.)", pron: "lay FAR", en: "lighthouses" }
-  - { id: "c2-commentaire-de-texte-v021", group: "glossary", fr: "lasser", pron: "lah-SAY", en: "to tire, to weary" }
-  - { id: "c2-commentaire-de-texte-v022", group: "glossary", fr: "élancées (élancé)", pron: "ay-lahn-SAY", en: "slender, tall and graceful" }
-  - { id: "c2-commentaire-de-texte-v023", group: "glossary", fr: "le gréement", pron: "luh gray-MAHN", en: "the rigging (of a ship)" }
-  - { id: "c2-commentaire-de-texte-v024", group: "glossary", fr: "la houle", pron: "lah OOL", en: "the swell (of the sea)" }
-  - { id: "c2-commentaire-de-texte-v025", group: "glossary", fr: "le rhythme", pron: "luh REETM", en: "rhythm (old spelling of le rythme)" }
-  - { id: "c2-commentaire-de-texte-v026", group: "glossary", fr: "le belvédère", pron: "luh bel-vay-DEHR", en: "a lookout, a viewpoint" }
-  - { id: "c2-commentaire-de-texte-v027", group: "glossary", fr: "accoudé (s'accouder)", pron: "ah-koo-DAY", en: "leaning on your elbows" }
-  - { id: "c2-commentaire-de-texte-v028", group: "glossary", fr: "le môle", pron: "luh MOHL", en: "the jetty, the breakwater" }
-  - { id: "c2-commentaire-de-texte-v029", group: "glossary", fr: "charmant", pron: "shar-MAHN", en: "charming, delightful" }
-  - { id: "c2-commentaire-de-texte-v030", group: "glossary", fr: "mobile", pron: "moh-BEEL", en: "moving, mobile" }
-  - { id: "c2-commentaire-de-texte-v031", group: "glossary", fr: "les colorations (f.)", pron: "lay koh-loh-rah-SYOHN", en: "colours, shades" }
-  - { id: "c2-commentaire-de-texte-v032", group: "glossary", fr: "un prisme", pron: "uhn PREESM", en: "a prism" }
-  - { id: "c2-commentaire-de-texte-v033", group: "glossary", fr: "merveilleusement", pron: "mehr-veh-yuhz-MAHN", en: "wonderfully" }
-  - { id: "c2-commentaire-de-texte-v034", group: "glossary", fr: "compliqué", pron: "kohn-plee-KAY", en: "complicated" }
-  - { id: "c2-commentaire-de-texte-v035", group: "glossary", fr: "les oscillations (f.)", pron: "lay-zoh-see-lah-SYOHN", en: "swaying movements, oscillations" }
-  - { id: "c2-commentaire-de-texte-v036", group: "glossary", fr: "harmonieuses (harmonieux)", pron: "ar-moh-NYUHZ", en: "harmonious" }
-  - { id: "c2-commentaire-de-texte-v037", group: "glossary", fr: "entretenir", pron: "ahn-truh-tuh-NEER", en: "to keep up, to keep alive" }
-  - { id: "c2-commentaire-de-texte-v038", group: "glossary", fr: "mystérieux", pron: "mees-tay-RYUH", en: "mysterious" }
-  - { id: "c2-commentaire-de-texte-v039", group: "glossary", fr: "aristocratique", pron: "ah-rees-toh-krah-TEEK", en: "aristocratic" }
-  - { id: "c2-commentaire-de-texte-v040", group: "glossary", fr: "la curiosité", pron: "lah kew-ryoh-zee-TAY", en: "curiosity" }
-  - { id: "c2-commentaire-de-texte-v041", group: "glossary", fr: "reviennent (revenir)", pron: "ruh-VYEN", en: "come back" }
-  - { id: "c2-commentaire-de-texte-v042", group: "glossary", fr: "un paysage", pron: "uhn peh-ee-ZAHZH", en: "a landscape" }
-  - { id: "c2-commentaire-de-texte-v043", group: "glossary", fr: "un spectacle", pron: "uhn spek-TAH-kluh", en: "a spectacle, a sight" }
-  - { id: "c2-commentaire-de-texte-v044", group: "glossary", fr: "console (consoler)", pron: "kohn-SOL", en: "comforts (to comfort)" }
-  - { id: "c2-commentaire-de-texte-v045", group: "glossary", fr: "énumère (énumérer)", pron: "ay-new-MEHR", en: "lists (to list)" }
-  - { id: "c2-commentaire-de-texte-v046", group: "glossary", fr: "immense", pron: "ee-MAHNS", en: "immense, vast" }
-  - { id: "c2-commentaire-de-texte-v047", group: "glossary", fr: "le désordre", pron: "luh day-ZOR-druh", en: "disorder" }
-  - { id: "c2-commentaire-de-texte-v048", group: "glossary", fr: "une fonction", pron: "ewn fohnk-SYOHN", en: "a function" }
+  - { id: "c2-commentaire-de-texte-v016", group: "glossary", fr: "un séjour", pron: "uhn say-ZHOOR", en: "a place to stay; a stay" }
+  - { id: "c2-commentaire-de-texte-v017", group: "glossary", fr: "les luttes (f.)", pron: "lay LEWT", en: "struggles" }
+  - { id: "c2-commentaire-de-texte-v018", group: "glossary", fr: "le scintillement", pron: "luh san-tee-yuh-MAHN", en: "twinkling, sparkling" }
+  - { id: "c2-commentaire-de-texte-v019", group: "glossary", fr: "les phares (m.)", pron: "lay FAR", en: "lighthouses" }
+  - { id: "c2-commentaire-de-texte-v020", group: "glossary", fr: "lasser", pron: "lah-SAY", en: "to tire, to weary" }
+  - { id: "c2-commentaire-de-texte-v021", group: "glossary", fr: "élancées (élancé)", pron: "ay-lahn-SAY", en: "slender, tall and graceful" }
+  - { id: "c2-commentaire-de-texte-v022", group: "glossary", fr: "le gréement", pron: "luh gray-MAHN", en: "the rigging (of a ship)" }
+  - { id: "c2-commentaire-de-texte-v023", group: "glossary", fr: "la houle", pron: "lah OOL", en: "the swell (of the sea)" }
+  - { id: "c2-commentaire-de-texte-v024", group: "glossary", fr: "le rhythme", pron: "luh REETM", en: "rhythm (old spelling of le rythme)" }
+  - { id: "c2-commentaire-de-texte-v025", group: "glossary", fr: "le belvédère", pron: "luh bel-vay-DEHR", en: "a lookout, a viewpoint" }
+  - { id: "c2-commentaire-de-texte-v026", group: "glossary", fr: "accoudé (s'accouder)", pron: "ah-koo-DAY", en: "leaning on your elbows" }
+  - { id: "c2-commentaire-de-texte-v027", group: "glossary", fr: "le môle", pron: "luh MOHL", en: "the jetty, the breakwater" }
+  - { id: "c2-commentaire-de-texte-v028", group: "glossary", fr: "charmant", pron: "shar-MAHN", en: "charming, delightful" }
+  - { id: "c2-commentaire-de-texte-v029", group: "glossary", fr: "mobile", pron: "moh-BEEL", en: "moving, mobile" }
+  - { id: "c2-commentaire-de-texte-v030", group: "glossary", fr: "les colorations (f.)", pron: "lay koh-loh-rah-SYOHN", en: "colours, shades" }
+  - { id: "c2-commentaire-de-texte-v031", group: "glossary", fr: "un prisme", pron: "uhn PREESM", en: "a prism" }
+  - { id: "c2-commentaire-de-texte-v032", group: "glossary", fr: "merveilleusement", pron: "mehr-veh-yuhz-MAHN", en: "wonderfully" }
+  - { id: "c2-commentaire-de-texte-v033", group: "glossary", fr: "compliqué", pron: "kohn-plee-KAY", en: "complicated" }
+  - { id: "c2-commentaire-de-texte-v034", group: "glossary", fr: "les oscillations (f.)", pron: "lay-zoh-see-lah-SYOHN", en: "swaying movements, oscillations" }
+  - { id: "c2-commentaire-de-texte-v035", group: "glossary", fr: "harmonieuses (harmonieux)", pron: "ar-moh-NYUHZ", en: "harmonious" }
+  - { id: "c2-commentaire-de-texte-v036", group: "glossary", fr: "entretenir", pron: "ahn-truh-tuh-NEER", en: "to keep up, to keep alive" }
+  - { id: "c2-commentaire-de-texte-v037", group: "glossary", fr: "mystérieux", pron: "mees-tay-RYUH", en: "mysterious" }
+  - { id: "c2-commentaire-de-texte-v038", group: "glossary", fr: "aristocratique", pron: "ah-rees-toh-krah-TEEK", en: "aristocratic" }
+  - { id: "c2-commentaire-de-texte-v039", group: "glossary", fr: "la curiosité", pron: "lah kew-ryoh-zee-TAY", en: "curiosity" }
+  - { id: "c2-commentaire-de-texte-v040", group: "glossary", fr: "reviennent (revenir)", pron: "ruh-VYEN", en: "come back" }
+  - { id: "c2-commentaire-de-texte-v041", group: "glossary", fr: "un paysage", pron: "uhn peh-ee-ZAHZH", en: "a landscape" }
+  - { id: "c2-commentaire-de-texte-v042", group: "glossary", fr: "un spectacle", pron: "uhn spek-TAH-kluh", en: "a spectacle, a sight" }
+  - { id: "c2-commentaire-de-texte-v043", group: "glossary", fr: "console (consoler)", pron: "kohn-SOL", en: "comforts (to comfort)" }
+  - { id: "c2-commentaire-de-texte-v044", group: "glossary", fr: "énumère (énumérer)", pron: "ay-new-MEHR", en: "lists (to list)" }
+  - { id: "c2-commentaire-de-texte-v045", group: "glossary", fr: "immense", pron: "ee-MAHNS", en: "immense, vast" }
+  - { id: "c2-commentaire-de-texte-v046", group: "glossary", fr: "le désordre", pron: "luh day-ZOR-druh", en: "disorder" }
+  - { id: "c2-commentaire-de-texte-v047", group: "glossary", fr: "une fonction", pron: "ewn fohnk-SYOHN", en: "a function" }
 exercises:
   - id: "c2-commentaire-de-texte-ex001"
     type: "multiple-choice"
     prompt: "Indiquez le registre littéraire principal du texte « Le Port »."
     options: ["lyrique", "comique", "épique"]
     answers: ["lyrique"]
-    explanation: "The text expresses a state of mind: the poet's pleasure as a weary observer. That's the lyrical register."
+    explanation: "The text expresses a state of mind, the pleasure of a weary observer (celui qui n'a plus ni curiosité ni ambition). That's the lyrical register, though an indirect one: the text never says je."
   - id: "c2-commentaire-de-texte-ex002"
     type: "multiple-choice"
     prompt: "Indiquez le mot qui n'est pas un registre littéraire."
@@ -634,9 +633,9 @@ exercises:
     explanation: "Les navires is the object of trouve, so the relative pronoun is que, elided before il."
   - id: "c2-commentaire-de-texte-ex010"
     type: "error-correction"
-    prompt: "Corrigez le registre (le sens littéraire) : Le texte relève du registre soutenu, car le poète exprime ce qu'il ressent."
-    answers: ["Le texte relève du registre lyrique, car le poète exprime ce qu'il ressent"]
-    explanation: "A text that expresses the writer's feelings belongs to the lyrical register. Soutenu describes the language, not the emotion."
+    prompt: "Corrigez le registre (le sens littéraire) : Le texte relève du registre soutenu, car il exprime un état de l'âme."
+    answers: ["Le texte relève du registre lyrique, car il exprime un état de l'âme"]
+    explanation: "A text that expresses a state of mind belongs to the lyrical register. Soutenu describes the language, not the emotion."
   - id: "c2-commentaire-de-texte-ex011"
     type: "reformulation"
     prompt: "Reformulez en une phrase qui commence par « Avec » : Baudelaire écrit « l'architecture mobile des nuages ». Il unit ainsi la solidité et le mouvement."
@@ -681,7 +680,7 @@ By the end of this lesson you'll be able to plan and write the opening of a Fren
 
 ## What you already know
 
-You know *le commentaire de texte* by name from <LessonLink id="c1-culture-literary-canon" text="the lesson on the literary canon" />: not a summary, but a close reading of how a passage produces its effect. You know *la problématique* and how to build a plan from <LessonLink id="c1-dissertation" text="the lesson on the dissertation" />, and the main figures (*l'oxymore*, *la gradation*, *l'anaphore*) from <LessonLink id="c1-rhetorical-devices" text="the lesson on rhetorical devices" />. This lesson gives you the method itself, as it's usually taught in French schools.
+You know *le commentaire de texte* by name from <LessonLink id="c1-culture-literary-canon" text="the lesson on the literary canon" />: not a summary, but a close reading of how a passage produces its effect. You know *la problématique* and how to build a plan from <LessonLink id="c1-dissertation" text="the lesson on the dissertation" />, and the main figures (*l'oxymore*, *la gradation*, *l'anaphore*) from <LessonLink id="c1-rhetorical-devices" text="the lesson on rhetorical devices" />. You also know *une amorce* (an opening sentence) and *une ouverture* (a final opening onto a wider question) from <LessonLink id="b2-argumentative-essay" text="the lesson on the argumentative essay" />: the commentary uses both. This lesson gives you the method itself, as it's usually taught in French schools.
 
 ## Commentary, summary, dissertation
 
@@ -764,13 +763,13 @@ The commentary below is original. It gives the introduction, the first axis in f
 
 *Le port est d'abord un spectacle pour les yeux. Le poète énumère ce qu'il voit : « l'ampleur du ciel, l'architecture mobile des nuages », puis la mer et les phares. Cette énumération donne l'impression d'un paysage immense et toujours changeant. Le champ lexical du mouvement est partout : les couleurs sont « changeantes », et la houle produit des « oscillations harmonieuses ».*
 
-*Pourtant, ce mouvement n'inquiète pas. L'oxymore « architecture mobile » unit la solidité et le changement, comme si le désordre du ciel avait un plan. Le port devient alors « un prisme merveilleusement propre à amuser les yeux sans jamais les lasser ». Ce spectacle a même une fonction morale : il sert « à entretenir dans l'âme le goût du rhythme et de la beauté ». Le registre est lyrique : le poète décrit moins un lieu qu'un état, celui d'une « âme fatiguée des luttes de la vie ».*
+*Pourtant, ce mouvement n'inquiète pas. L'oxymore « architecture mobile » unit la solidité et le changement, comme si le désordre du ciel avait un plan. Le port devient alors « un prisme merveilleusement propre à amuser les yeux sans jamais les lasser ». Ce spectacle a même une fonction morale : il sert « à entretenir dans l'âme le goût du rhythme et de la beauté ». Le registre est lyrique, mais d'un lyrisme indirect : le texte ne dit jamais « je », et il décrit moins un lieu qu'un état, celui d'une « âme fatiguée des luttes de la vie ».*
 
 *Dans un second temps, on montrerait que le texte fait aussi le portrait de celui qui regarde : un homme « couché dans le belvédère ou accoudé sur le môle », qui observe les mouvements « de ceux qui partent et de ceux qui reviennent », sans plus vouloir partir lui-même.*
 
 *En conclusion, Baudelaire fait du port un spectacle qui console, parce qu'il permet de regarder le mouvement sans y prendre part. On pourra rapprocher ce texte de « L'Invitation au voyage », où le poète rêve lui aussi de navires et de départ.*
 
-(In the nineteenth century, several writers look for a poetry that wouldn't need verse. Baudelaire gives a famous example of it with the Petits Poèmes en prose, published in 1869. In "Le Port", a very short prose poem, the poet describes a port as a place of rest for someone who is tired of life. We will ask how Baudelaire turns a simple landscape into a spectacle that comforts someone who no longer wants to act. We will see first that the port is presented as a harmonious spectacle, then that it offers the onlooker a particular pleasure: watching others live. The port is first a spectacle for the eyes. The poet lists what he sees: "the breadth of the sky, the moving architecture of the clouds", then the sea and the lighthouses. This enumeration gives the impression of an immense, ever-changing landscape. The lexical field of movement is everywhere: the colours are "changing", and the swell produces "harmonious oscillations". Yet this movement isn't worrying. The oxymoron "moving architecture" joins solidity and change, as if the disorder of the sky had a plan. The port then becomes "a prism wonderfully suited to entertain the eyes without ever tiring them". This spectacle even has a moral function: it serves "to keep alive in the soul a taste for rhythm and beauty". The register is lyrical: the poet describes a state rather than a place, that of "a soul weary of the struggles of life". In a second part, we would show that the text is also a portrait of the person watching: a man "lying in the lookout or leaning on the jetty", who observes the movements "of those who leave and of those who return", without wanting to leave himself any more. In conclusion, Baudelaire makes the port a spectacle that comforts, because it lets you watch movement without taking part in it. This text can be compared with "L'Invitation au voyage", in which the poet also dreams of ships and of departure.)
+(In the nineteenth century, several writers look for a poetry that wouldn't need verse. Baudelaire gives a famous example of it with the Petits Poèmes en prose, published in 1869. In "Le Port", a very short prose poem, the poet describes a port as a place of rest for someone who is tired of life. We will ask how Baudelaire turns a simple landscape into a spectacle that comforts someone who no longer wants to act. We will see first that the port is presented as a harmonious spectacle, then that it offers the onlooker a particular pleasure: watching others live. The port is first a spectacle for the eyes. The poet lists what he sees: "the breadth of the sky, the moving architecture of the clouds", then the sea and the lighthouses. This enumeration gives the impression of an immense, ever-changing landscape. The lexical field of movement is everywhere: the colours are "changing", and the swell produces "harmonious oscillations". Yet this movement isn't worrying. The oxymoron "moving architecture" joins solidity and change, as if the disorder of the sky had a plan. The port then becomes "a prism wonderfully suited to entertain the eyes without ever tiring them". This spectacle even has a moral function: it serves "to keep alive in the soul a taste for rhythm and beauty". The register is lyrical, but in an indirect way: the text never says "I", and it describes a state rather than a place, that of "a soul weary of the struggles of life". In a second part, we would show that the text is also a portrait of the person watching: a man "lying in the lookout or leaning on the jetty", who observes the movements "of those who leave and of those who return", without wanting to leave himself any more. In conclusion, Baudelaire makes the port a spectacle that comforts, because it lets you watch movement without taking part in it. This text can be compared with "L'Invitation au voyage", in which the poet also dreams of ships and of departure.)
 
 ## How the model works
 
@@ -844,7 +843,7 @@ exercises:
     prompt: "Indiquez la figure dans la phrase : Le vent venait, violent, vers la ville."
     options: ["une allitération", "une assonance", "un chiasme"]
     answers: ["une allitération"]
-    explanation: "The consonant sound v comes back four times: that's an alliteration."
+    explanation: "The consonant sound v comes back five times (vent, venait, violent, vers, ville): that's an alliteration."
   - id: "c2-stylistic-analysis-ex002"
     type: "multiple-choice"
     prompt: "Indiquez la figure dans la phrase : Il lit, il rit, il écrit."
@@ -925,7 +924,7 @@ exercises:
   - id: "c2-stylistic-analysis-ex016"
     type: "writing-task"
     prompt: "Rédigez deux versions d'une même scène (60 à 120 mots en tout) : d'abord une période, puis la même scène en phrases brèves. Utilisez au moins un rythme ternaire et une allitération."
-    model: "Quand le soir descend sur la gare, que les derniers voyageurs se pressent vers les quais et que les haut-parleurs répètent des noms de villes lointaines, l'horloge, immobile au-dessus de la foule, semble seule ne rien attendre. Le soir tombe. Les voyageurs courent. Un train siffle, s'arrête, repart. L'horloge, elle, attend."
+    model: "Quand le soir descend sur la gare, que les derniers voyageurs se pressent vers les quais et que les haut-parleurs répètent des noms de villes lointaines, l'horloge, immobile au-dessus de la foule, semble seule ne rien attendre. Le soir tombe. Les voyageurs courent vers les quais. Un train siffle, s'arrête, repart. L'horloge, elle, n'attend rien."
     checklist: ["Is the first version one long sentence, with a rising part and a falling part?", "Is the second version made of short sentences side by side?", "Is there a group of three, and do you hear a repeated consonant?", "Do the two versions describe the same scene, with the same facts?"]
     wordTarget: [60, 120]
 ---
@@ -987,9 +986,9 @@ What matters is the sound, not the spelling: *ville* and *venait* share the soun
 
 <VocabTable group="syntax" />
 
-Two ways of building a text are worth naming. *La parataxe* (parataxis) places clauses side by side, with no subordination: it's *la juxtaposition* (juxtaposition) of short, independent clauses. The reader has to supply the links of cause or time.
+Two ways of building a text are worth naming. *La parataxe* (parataxis) places clauses side by side, with no subordination: it's *la juxtaposition* (juxtaposition) of short, independent clauses. The reader has to supply the links of cause or time. *L'hypotaxe* (hypotaxis) links clauses by *la subordination* (subordination): *parce que*, *quand*, *bien que*. The links are explicit, and the reasoning is visible.
 
-<Example fr="La juxtaposition place des propositions côte à côte, sans mot de liaison." en="Juxtaposition places clauses side by side, with no linking word." /> *L'hypotaxe* (hypotaxis) links clauses by *la subordination* (subordination): *parce que*, *quand*, *bien que*. The links are explicit, and the reasoning is visible.
+<Example fr="La juxtaposition place des propositions côte à côte, sans mot de liaison." en="Juxtaposition places clauses side by side, with no linking word." />
 
 <Example fr="Il pleut. La rue est vide. Personne ne sort." en="It's raining. The street is empty. Nobody goes out. (parataxis)" />
 
@@ -1016,7 +1015,7 @@ The two passages below are original. They describe the same scene, a storm arriv
 
 *Lorsque le soir commença à tomber sur le petit port, et que le ciel, qui avait été d'un bleu si calme pendant tout l'après-midi, se couvrit lentement de nuages lourds venus de la mer, les pêcheurs, qui connaissaient ces signes depuis l'enfance, rentrèrent un à un leurs bateaux vers les quais. Seul un vieil homme, assis sur une caisse au bout de la jetée, regardait encore les vagues grossir, comme s'il attendait de l'orage une réponse que la mer ne lui avait jamais donnée, jusqu'au moment où les premières gouttes, larges et tièdes, vinrent frapper le bois autour de lui.*
 
-*Alors seulement il se leva, prit son vieux sac et, sans se presser, sous la pluie qui couvrait maintenant tout le port d'un bruit égal et doux, il remonta la rue étroite qui menait à sa maison, où une lampe, déjà, l'attendait derrière la fenêtre.*
+*Alors seulement il se leva, prit son vieux sac et, sans se presser, sous la pluie qui couvrait maintenant tout le port d'un bruit égal et doux, il remonta la rue étroite qui menait à sa maison, où une lampe, déjà, brillait derrière la fenêtre et où quelqu'un l'attendait.*
 
 *Le soir tombe. Le ciel change. Des nuages arrivent de la mer, lourds, noirs, rapides. Les pêcheurs les voient. Ils rentrent les bateaux, un à un, vite. Sur la jetée, un vieil homme reste assis. Il regarde les vagues. Elles grossissent. Il ne bouge pas. Une goutte tombe. Puis une autre. Puis toutes.*
 
@@ -1024,7 +1023,7 @@ The two passages below are original. They describe the same scene, a storm arriv
 
 *Les deux versions racontent les mêmes faits, mais elles ne produisent pas le même effet. La première, construite par l'hypotaxe, fait durer chaque moment : le lecteur attend avec le vieil homme, et la période semble aussi lente que lui. La seconde, faite de phrases brèves juxtaposées, rend le récit plus rapide et plus tendu ; l'arrivée de la pluie y devient presque un événement dramatique. Les deux textes se terminent pourtant sur le même calme : une lumière derrière une fenêtre, et quelqu'un qui attend.*
 
-(When evening began to fall on the little harbour, and the sky, which had been such a calm blue all afternoon, slowly clouded over with heavy clouds from the sea, the fishermen, who had known these signs since childhood, brought their boats back one by one towards the quays. Only an old man, sitting on a crate at the end of the jetty, was still watching the waves grow, as if he were waiting for an answer from the storm that the sea had never given him, until the first drops, large and warm, came to strike the wood around him. Only then did he get up, take his old bag and, without hurrying, under the rain that now covered the whole harbour with an even, gentle sound, walk up the narrow street that led to his house, where a lamp was already waiting for him behind the window. / Evening falls. The sky changes. Clouds come in from the sea, heavy, black, fast. The fishermen see them. They bring the boats in, one by one, quickly. On the jetty, an old man stays seated. He watches the waves. They grow. He doesn't move. A drop falls. Then another. Then all of them. The old man gets up. He takes his bag. He walks in the rain, slowly. The street climbs. A window shines. Someone is waiting for him. / The two versions tell the same facts, but they don't produce the same effect. The first, built by hypotaxis, makes each moment last: the reader waits with the old man, and the period seems as slow as he is. The second, made of short sentences side by side, makes the story faster and tenser; the arrival of the rain almost becomes a dramatic event. Yet both texts end on the same calm: a light behind a window, and someone waiting.)
+(When evening began to fall on the little harbour, and the sky, which had been such a calm blue all afternoon, slowly clouded over with heavy clouds from the sea, the fishermen, who had known these signs since childhood, brought their boats back one by one towards the quays. Only an old man, sitting on a crate at the end of the jetty, was still watching the waves grow, as if he were waiting for an answer from the storm that the sea had never given him, until the first drops, large and warm, came to strike the wood around him. Only then did he get up, take his old bag and, without hurrying, under the rain that now covered the whole harbour with an even, gentle sound, walk up the narrow street that led to his house, where a lamp was already shining behind the window and someone was waiting for him. / Evening falls. The sky changes. Clouds come in from the sea, heavy, black, fast. The fishermen see them. They bring the boats in, one by one, quickly. On the jetty, an old man stays seated. He watches the waves. They grow. He doesn't move. A drop falls. Then another. Then all of them. The old man gets up. He takes his bag. He walks in the rain, slowly. The street climbs. A window shines. Someone is waiting for him. / The two versions tell the same facts, but they don't produce the same effect. The first, built by hypotaxis, makes each moment last: the reader waits with the old man, and the period seems as slow as he is. The second, made of short sentences side by side, makes the story faster and tenser; the arrival of the rain almost becomes a dramatic event. Yet both texts end on the same calm: a light behind a window, and someone waiting.)
 
 <VocabTable group="glossary" />
 
@@ -1096,9 +1095,7 @@ vocab:
   - { id: "c2-reading-the-press-v015", group: "event", fr: "un canal", pron: "uhn kah-NAHL", en: "a canal", note: "Plural: des canaux." }
   - { id: "c2-reading-the-press-v016", group: "glossary", fr: "flottante (flottant)", pron: "floh-TAHNT", en: "floating" }
   - { id: "c2-reading-the-press-v017", group: "glossary", fr: "amarrée (amarrer)", pron: "ah-mah-RAY", en: "moored" }
-  - { id: "c2-reading-the-press-v018", group: "glossary", fr: "debout", pron: "duh-BOO", en: "standing" }
-  - { id: "c2-reading-the-press-v019", group: "glossary", fr: "des coussins (m.)", pron: "day koo-SAN", en: "cushions" }
-  - { id: "c2-reading-the-press-v020", group: "glossary", fr: "un bibliothécaire / une bibliothécaire", pron: "uhn bee-blee-oh-tay-KEHR", en: "a librarian" }
+  - { id: "c2-reading-the-press-v018", group: "glossary", fr: "des coussins (m.)", pron: "day koo-SAN", en: "cushions" }
 exercises:
   - id: "c2-reading-the-press-ex001"
     type: "multiple-choice"
@@ -1256,18 +1253,18 @@ The three texts below are original. The event, the town, the agency (Info-Régio
 
 *Valbrune (Info-Régions). Une bibliothèque installée sur une péniche a ouvert samedi sur le canal de Valbrune. Amarrée près de la gare, elle propose environ trois mille livres et sera ouverte du mardi au samedi. Le projet, voté par le conseil municipal il y a deux ans, a coûté moins que prévu, selon la mairie. Plusieurs centaines de visiteurs sont venus le premier jour. Une seconde péniche, consacrée aux enfants, pourrait ouvrir l'an prochain, a indiqué l'adjointe à la culture.*
 
-*Chronique. Je suis montée à bord samedi, comme tout le monde, ou presque. La péniche sent le bois neuf et le café ; les enfants courent entre les étagères, et une bibliothécaire, debout sur le pont, montre aux visiteurs comment emprunter un livre. On a beaucoup discuté de ce projet au conseil municipal, et certains le trouvaient trop coûteux. Ce matin-là, personne ne parlait d'argent. On parlait de livres, de l'eau, et du plaisir étrange de lire sur un bateau qui ne part jamais. Une vieille femme du quartier m'a dit qu'elle n'était pas entrée dans une bibliothèque depuis vingt ans. Elle est partie avec trois romans et la promesse de revenir mardi. Je ne sais pas si la péniche sauvera la lecture à Valbrune. Mais samedi, elle a au moins rendu quelques lecteurs heureux.*
+*Chronique « Au fil de la ville », par Lucie Garnier. Comme chaque lundi, je vous parle de notre ville, et cette semaine d'un bateau qui ne part jamais. Je me suis souvent demandé ce qui fait entrer les gens dans une bibliothèque. Les livres, bien sûr, mais pas seulement : il faut un lieu qui donne envie d'entrer. Une péniche sur le canal, avec son bois neuf et ses fenêtres sur l'eau, est peut-être ce genre de lieu. On a beaucoup discuté de ce projet au conseil municipal, et certains le trouvaient trop coûteux. Je comprends leurs raisons. Mais je crois qu'une ville se juge aussi à ce qu'elle offre presque pour rien : un banc, un jardin, un livre prêté. Si cette péniche donne le goût de la lecture à quelques habitants, elle aura valu son prix. Je reviendrai sur ce sujet dans un mois, quand l'enthousiasme du premier jour sera passé.*
 
 *Billet d'humeur. Une bibliothèque flottante, sur notre vieux canal ! On aura tout vu. Pendant que nos rues attendent toujours leurs nouveaux bancs, la ville offre aux lecteurs une péniche, des coussins et une vue sur le canal. Je ne suis pas contre les livres, bien sûr. On nous promet déjà une seconde péniche pour les enfants. Pourquoi pas une troisième pour les adultes qui attendent leur bus sous la pluie ? Mais la prochaine fois, on pourrait peut-être réparer la route avant de mettre les livres sur l'eau.*
 
-(Valbrune (Info-Régions). A library set up on a barge opened on Saturday on the Valbrune canal. Moored near the station, it offers about three thousand books and will be open from Tuesday to Saturday. The project, voted by the town council two years ago, cost less than planned, according to the town hall. Several hundred visitors came on the first day. A second barge, for children, could open next year, the deputy mayor for culture said. / Column. I went on board on Saturday, like everyone, or almost. The barge smells of new wood and coffee; children run between the shelves, and a librarian, standing on the deck, shows visitors how to borrow a book. There was a lot of discussion about this project at the town council, and some found it too expensive. That morning, nobody was talking about money. People were talking about books, about the water, and about the strange pleasure of reading on a boat that never leaves. An old woman from the neighbourhood told me she hadn't been into a library for twenty years. She left with three novels and the promise to come back on Tuesday. I don't know whether the barge will save reading in Valbrune. But on Saturday, it at least made a few readers happy. / Short opinion piece. A floating library, on our old canal! Now we've seen everything. While our streets are still waiting for their new benches, the town offers readers a barge, cushions and a view of the canal. I'm not against books, of course. We're already promised a second barge for children. Why not a third for the adults waiting for their bus in the rain? But next time, perhaps the road could be repaired before the books are put on the water.)
+(Valbrune (Info-Régions). A library set up on a barge opened on Saturday on the Valbrune canal. Moored near the station, it offers about three thousand books and will be open from Tuesday to Saturday. The project, voted by the town council two years ago, cost less than planned, according to the town hall. Several hundred visitors came on the first day. A second barge, for children, could open next year, the deputy mayor for culture said. / Column "Au fil de la ville", by Lucie Garnier. As every Monday, I'm talking to you about our town, and this week about a boat that never leaves. I've often wondered what makes people go into a library. Books, of course, but not only: you need a place that makes you want to go in. A barge on the canal, with its new wood and its windows on the water, may be that kind of place. There was a lot of discussion about this project at the town council, and some found it too expensive. I understand their reasons. But I believe that a town is also judged by what it offers for almost nothing: a bench, a garden, a lent book. If this barge gives a few residents a taste for reading, it will have been worth its price. I'll come back to this subject in a month, when the enthusiasm of the first day has passed. / Short opinion piece. A floating library, on our old canal! Now we've seen everything. While our streets are still waiting for their new benches, the town offers readers a barge, cushions and a view of the canal. I'm not against books, of course. We're already promised a second barge for children. Why not a third for the adults waiting for their bus in the rain? But next time, perhaps the road could be repaired before the books are put on the water.)
 
 <VocabTable group="glossary" />
 
 ## How the three texts differ
 
-- **The dépêche** opens with the place and the agency, follows the inverted pyramid, gives figures attributed to a source (*selon la mairie*, *a indiqué l'adjointe*), uses the conditionnel de prudence for what isn't decided (*pourrait ouvrir*), and has no adjective of judgment.
-- **The chronique** is in the first person (*je suis montée*), describes a scene with sensations, mentions the debate, and judges gently through what it chooses to describe: the children, the smell, the pleasure of reading.
+- **The dépêche** opens with the place and the agency, follows the inverted pyramid, gives figures attributed to a source (*selon la mairie*, *a indiqué l'adjointe*), uses *pourrait ouvrir* (the conditional of *pouvoir*, a possibility) for what isn't decided yet, and has no adjective of judgment.
+- **The chronique** has a column name and a regular slot (*« Au fil de la ville »*, *comme chaque lundi*), a reflective first-person voice (*je me suis souvent demandé*, *je crois*), and a judgment drawn from the writer's own view of what a town is for. It mentions the debate fairly (*je comprends leurs raisons*) and promises to come back to the subject.
 - **The billet d'humeur** reacts with irony (*on aura tout vu*), opposes the barge to the unrepaired road, and ends with a mocking suggestion. It gives a view, and it says so.
 
 The same facts appear in all three, but not with the same weight: the cost is a fact in the dépêche, a past debate in the chronique, and the whole point of the billet.
@@ -1281,7 +1278,7 @@ Inès and Hugo are journalism students. They're comparing the three texts for a 
 - *Elle dit quand même que le projet a coûté moins que prévu.* (It does say that the project cost less than planned.)
 - *Oui, mais elle dit que l'information vient de la mairie. Ce n'est pas l'avis de l'agence.* (Yes, but it says the information comes from the town hall. It isn't the agency's view.)
 - *La deuxième commence par « je ». C'est un billet ?* (The second starts with "je". Is it a billet?)
-- *Non, c'est une chronique : elle raconte une scène, avec beaucoup de choses vues.* (No, it's a column: it tells a scene, with a lot of things seen.)
+- *Non, c'est une chronique : elle a un nom, elle revient chaque lundi, et l'autrice réfléchit et donne son point de vue.* (No, it's a column: it has a name, it comes back every Monday, and the writer reflects and gives her view.)
 - *Et la troisième, avec « On aura tout vu » ?* (And the third, with "On aura tout vu"?)
 - *Ça, c'est un billet d'humeur : court, ironique, et très personnel.* (That's a short opinion piece: short, ironic, and very personal.)
 - *Si on voulait la position du journal, il faudrait lire quoi ?* (If we wanted the paper's position, what would we have to read?)
@@ -1527,5 +1524,5 @@ Write an analysis of 100 to 150 words of the second paragraph of the tribune (*Q
 
 ## What's next
 
-The next unit is about writing at length and translating. It starts with the lesson on the contraction de texte.
+The next unit is about writing at length and translating. It starts with <LessonLink id="c2-contraction-de-texte" text="the lesson on the contraction de texte" />.
 

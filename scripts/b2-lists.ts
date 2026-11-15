@@ -65,7 +65,8 @@ export const NEW_MEANINGS: Record<string, string> = {
   "une action": "B2 (b2-economy-and-business): a share in a company. Action (an act) is on the cognate list.",
   "un serveur": "B2 (b2-relative-lequel): a computer server. a2-jobs-and-workplace taught a waiter (un serveur / une serveuse).",
   "un chapeau": "B2 (b2-summarizing-an-article): the standfirst of an article. a1-shopping-for-clothes taught a hat (le chapeau).",
-  "l'ouverture": "C2 (c2-commentaire-de-texte): the opening onto another work at the end of a conclusion. b2-nominalisation taught the opening (of a place, an event).",
+  "une version": "C2 (c2-version): a translation into your own language, a school exercise. b1-demonstrative-pronouns taught a version (of a text, a product).",
+  "un thème": "C2 (c2-theme): a translation into a foreign language, a school exercise. b2-arts-and-literature taught a theme (of a work).",
   "un carrefour": "B2 (b2-review-what-might-have-been): a crossroads in life, figuratively. a1-asking-directions taught a road junction (le carrefour).",
 };
 

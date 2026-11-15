@@ -1,0 +1,1490 @@
+===== content/lessons/c2/contraction-de-texte.mdx =====
+---
+id: "c2-contraction-de-texte"
+title: "The contraction and the résumé to a word count"
+description: "Reduce a text to a given proportion in your own words: keep the author's order and voice (no l'auteur dit, no quotation, no personal comment), find the skeleton, compress, and count the words with one common convention, within a tolerance of about a tenth."
+level: "C2"
+unit: "Writing at length and translating"
+order: 25
+type: "communication"
+tags: ["writing", "contraction", "summary", "word count", "method"]
+prerequisites: ["b2-summarizing-an-article", "c1-synthesis", "c2-ellipsis-and-nominal-style"]
+related: ["b2-nominalisation", "c2-review-reading", "c2-long-essay"]
+vocab:
+  - { id: "c2-contraction-de-texte-v001", group: "terms", fr: "une contraction de texte", pron: "ewn kohn-trak-SYOHN duh TEKST", en: "a contraction (a text reduced to a given proportion, in the author's voice)" }
+  - { id: "c2-contraction-de-texte-v002", group: "terms", fr: "contracter un texte", pron: "kohn-trak-TAY uhn TEKST", en: "to reduce a text (to a given length)" }
+  - { id: "c2-contraction-de-texte-v003", group: "terms", fr: "condenser", pron: "kohn-dahn-SAY", en: "to condense" }
+  - { id: "c2-contraction-de-texte-v004", group: "terms", fr: "l'énonciation (f.)", pron: "lay-nohn-syah-SYOHN", en: "enunciation (who speaks in a text, to whom, from where)" }
+  - { id: "c2-contraction-de-texte-v005", group: "terms", fr: "respecter le système d'énonciation", pron: "res-pek-TAY luh sees-TEM day-nohn-syah-SYOHN", en: "to keep the text's voice (its je, nous, on, il faut)" }
+  - { id: "c2-contraction-de-texte-v006", group: "count", fr: "le nombre de mots", pron: "luh nohn-bruh duh MOH", en: "the word count" }
+  - { id: "c2-contraction-de-texte-v007", group: "count", fr: "une marge de tolérance", pron: "ewn marzh duh toh-lay-RAHNS", en: "a margin of tolerance" }
+  - { id: "c2-contraction-de-texte-v008", group: "count", fr: "une convention", pron: "ewn kohn-vahn-SYOHN", en: "a convention, an agreed rule" }
+  - { id: "c2-contraction-de-texte-v009", group: "count", fr: "au quart / au tiers", pron: "oh KAR / oh TYEHR", en: "to a quarter / to a third (of its length)" }
+  - { id: "c2-contraction-de-texte-v010", group: "method", fr: "le squelette d'un texte", pron: "luh skuh-LET duh TEKST", en: "the skeleton of a text (its thesis, steps and links)" }
+  - { id: "c2-contraction-de-texte-v011", group: "method", fr: "un articulateur logique", pron: "uh-nar-tee-kew-lah-TUHR loh-ZHEEK", en: "a logical link word (pourtant, donc, en effet)" }
+  - { id: "c2-contraction-de-texte-v012", group: "method", fr: "supprimer les exemples", pron: "sew-pree-MAY lay-zeg-ZAHN-pluh", en: "to cut the examples" }
+  - { id: "c2-contraction-de-texte-v013", group: "method", fr: "un commentaire personnel", pron: "uhn koh-mahn-TEHR pehr-soh-NEL", en: "a personal comment (forbidden in a contraction)" }
+  - { id: "c2-contraction-de-texte-v014", group: "source", fr: "les partisans (m.)", pron: "lay par-tee-ZAHN", en: "the supporters (of an idea)" }
+  - { id: "c2-contraction-de-texte-v015", group: "source", fr: "l'équilibre entre vie professionnelle et vie personnelle (m.)", pron: "lay-kee-LEE-bruh ahn-truh vee proh-feh-syoh-NEL ay vee pehr-soh-NEL", en: "work-life balance" }
+  - { id: "c2-contraction-de-texte-v016", group: "source", fr: "d'affilée", pron: "dah-fee-LAY", en: "in a row, without a break" }
+  - { id: "c2-contraction-de-texte-v017", group: "source", fr: "en bloc", pron: "ahn BLOK", en: "as a whole, wholesale" }
+  - { id: "c2-contraction-de-texte-v018", group: "glossary", fr: "régulièrement", pron: "ray-gew-lyehr-MAHN", en: "regularly" }
+  - { id: "c2-contraction-de-texte-v019", group: "glossary", fr: "séduit (séduire)", pron: "say-DWEE", en: "appeals to (to appeal to, to attract)" }
+  - { id: "c2-contraction-de-texte-v020", group: "glossary", fr: "réellement", pron: "ray-el-MAHN", en: "really, actually" }
+  - { id: "c2-contraction-de-texte-v021", group: "glossary", fr: "inutiles (inutile)", pron: "ee-new-TEEL", en: "useless" }
+  - { id: "c2-contraction-de-texte-v022", group: "glossary", fr: "allonger", pron: "ah-lohn-ZHAY", en: "to lengthen" }
+  - { id: "c2-contraction-de-texte-v023", group: "glossary", fr: "une catégorie", pron: "ewn kah-tay-goh-REE", en: "a category" }
+  - { id: "c2-contraction-de-texte-v024", group: "glossary", fr: "améliorer", pron: "ah-may-lyoh-RAY", en: "to improve" }
+  - { id: "c2-contraction-de-texte-v025", group: "glossary", fr: "les contraintes (f.)", pron: "lay kohn-TRANT", en: "constraints" }
+  - { id: "c2-contraction-de-texte-v026", group: "glossary", fr: "honnêtement", pron: "oh-net-MAHN", en: "honestly" }
+  - { id: "c2-contraction-de-texte-v027", group: "glossary", fr: "une recette miracle", pron: "ewn ruh-set mee-RAH-kluh", en: "a miracle cure" }
+exercises:
+  - id: "c2-contraction-de-texte-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase qui convient dans une contraction du texte source."
+    options: ["Elle ne convient pas aux métiers où le service est continu.", "L'auteur dit qu'elle ne convient pas aux métiers où le service est continu.", "À mon avis, elle ne convient pas aux métiers où le service est continu."]
+    answers: ["Elle ne convient pas aux métiers où le service est continu."]
+    explanation: "A contraction keeps the author's voice: no l'auteur dit, and no personal comment."
+  - id: "c2-contraction-de-texte-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase qui garde la logique du texte source."
+    options: ["Elle a des avantages, mais elle ne convient pas à tous les métiers.", "Elle a des avantages, donc elle convient à tous les métiers.", "Elle ne convient à aucun métier, malgré ses avantages."]
+    answers: ["Elle a des avantages, mais elle ne convient pas à tous les métiers."]
+    explanation: "The text concedes the advantages, then sets a limit: mais keeps that logic. Donc and aucun change what the author says."
+  - id: "c2-contraction-de-texte-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez ce qu'on supprime en premier dans une contraction."
+    options: ["the examples and repetitions", "the words that show the logic, such as pourtant", "the conclusion of the text"]
+    answers: ["the examples and repetitions"]
+    explanation: "Examples illustrate; the skeleton (thesis, steps, links, conclusion) must stay."
+  - id: "c2-contraction-de-texte-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez la différence entre une contraction et une synthèse."
+    options: ["A contraction keeps the author's voice; a synthesis attributes every view to its source.", "A contraction quotes the author; a synthesis never does.", "A contraction gives your opinion; a synthesis doesn't."]
+    answers: ["A contraction keeps the author's voice; a synthesis attributes every view to its source."]
+    explanation: "In a synthesis you write selon la maire, le premier document rapporte que…; in a contraction you speak as the author."
+  - id: "c2-contraction-de-texte-ex005"
+    type: "fill-in"
+    prompt: "Écrivez le nombre en chiffres : selon la convention de la leçon, « c'est-à-dire » compte ___ mots."
+    answers: ["4"]
+    explanation: "Hyphens and apostrophes separate words in this convention: c' + est + à + dire."
+  - id: "c2-contraction-de-texte-ex006"
+    type: "fill-in"
+    prompt: "Écrivez le nombre en chiffres : selon la convention de la leçon, « aujourd'hui » compte ___ mot."
+    answers: ["1"]
+    explanation: "Aujourd'hui is the one exception: it counts as one word."
+  - id: "c2-contraction-de-texte-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Un texte de 400 mots contracté au quart doit compter environ ___ mots (en chiffres)."
+    answers: ["100"]
+    explanation: "A quarter of 400 is 100. With a tolerance of about a tenth, 90 to 110 words."
+  - id: "c2-contraction-de-texte-ex008"
+    type: "error-correction"
+    prompt: "Corrigez la phrase de contraction en supprimant le commentaire personnel : À mon avis, la semaine de quatre jours risque d'aggraver les inégalités."
+    answers: ["La semaine de quatre jours risque d'aggraver les inégalités"]
+    explanation: "A contraction gives no personal comment: à mon avis has to go."
+  - id: "c2-contraction-de-texte-ex009"
+    type: "error-correction"
+    prompt: "Corrigez la phrase de contraction en gardant la voix de l'auteur : L'auteur dit qu'il faut adapter la mesure à chaque secteur."
+    answers: ["Il faut adapter la mesure à chaque secteur"]
+    explanation: "The source says il faut: the contraction speaks the same way, with no l'auteur dit."
+    strictAccents: true
+  - id: "c2-contraction-de-texte-ex010"
+    type: "reformulation"
+    prompt: "Condensez avec le nom « la baisse » : Plusieurs entreprises constatent que les salariés sont moins fatigués et moins souvent absents."
+    answers: ["Plusieurs entreprises constatent une baisse de la fatigue et des absences"]
+    explanation: "Nominalisation (la baisse de…) turns a clause into a noun group and saves words."
+  - id: "c2-contraction-de-texte-ex011"
+    type: "reformulation"
+    prompt: "Condensez en une phrase avec « ou », en gardant les deux conséquences : Réduire le nombre de jours oblige à embaucher. Cela coûte cher. Sinon, il faut allonger les journées. Cela fatigue."
+    answers: ["Réduire le nombre de jours oblige à embaucher, ce qui coûte cher, ou à allonger les journées, ce qui fatigue"]
+    explanation: "One sentence, with ou and two relative clauses with ce qui, keeps both consequences."
+    strictAccents: true
+  - id: "c2-contraction-de-texte-ex012"
+    type: "translate"
+    prompt: "Traduisez (une contraction de texte, au quart) : Reduce this text to a quarter of its length."
+    answers: ["Contractez ce texte au quart"]
+    explanation: "Contracter un texte au quart: to reduce it to a quarter of its length."
+  - id: "c2-contraction-de-texte-ex013"
+    type: "translate"
+    prompt: "Traduisez (une marge de tolérance) : There's a margin of tolerance of about ten per cent."
+    answers: ["Il y a une marge de tolérance d'environ dix pour cent", "La marge de tolérance est d'environ dix pour cent"]
+    explanation: "Une marge de tolérance: how far you may be above or below the target."
+    strictAccents: true
+  - id: "c2-contraction-de-texte-ex014"
+    type: "translate"
+    prompt: "Traduisez (respecter le système d'énonciation) : A contraction keeps the text's voice."
+    answers: ["Une contraction respecte le système d'énonciation", "Une contraction respecte le système d'énonciation du texte"]
+    explanation: "Respecter le système d'énonciation: keep the je, nous, on or il faut of the source."
+  - id: "c2-contraction-de-texte-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : A contraction keeps the order of the text."
+    words: ["Une", "contraction", "garde", "l'ordre", "du", "texte"]
+    answers: ["Une contraction garde l'ordre du texte"]
+    explanation: "The ideas come in the author's order."
+  - id: "c2-contraction-de-texte-ex016"
+    type: "writing-task"
+    prompt: "Contractez le texte source au cinquième, soit environ 82 mots (de 74 à 90 mots), en gardant l'ordre et la voix de l'auteur."
+    model: "La semaine de quatre jours revient souvent dans le débat, mais elle ne fonctionne qu'à certaines conditions. Elle réduit la fatigue et les absences et aide les familles. Pourtant, les métiers où le service est continu doivent embaucher ou allonger les journées, et une semaine mal organisée devient plus dense. Elle risque ainsi d'aggraver les inégalités entre salariés. Mieux vaut l'adapter à chaque secteur et mesurer ses effets : c'est un outil, pas une recette miracle."
+    checklist: ["Are the ideas in the author's order?", "Did you keep the author's voice (il faut, on), with no l'auteur dit?", "Is there no quotation and no personal comment?", "Are the logical links (pourtant, ainsi) still there?", "Is your count between 74 and 90 words, counted with the lesson's convention?"]
+    wordTarget: [74, 90]
+---
+
+By the end of this lesson you'll be able to reduce a French text to a given proportion of its length, in your own words, keeping its logic and its voice, and to count your words with one common convention.
+
+## What you already know
+
+In <LessonLink id="b2-summarizing-an-article" text="the lesson on summarizing an article" />, you summarized with neutral reporting verbs (*l'article explique que…*). In <LessonLink id="c1-synthesis" text="the lesson on the synthesis" />, you compared several documents and attributed every view to its source (*selon la maire…*). You also know how to compress with nominalisation and ellipsis, from <LessonLink id="c2-ellipsis-and-nominal-style" text="the lesson on ellipsis" />. The contraction asks for something different, and the difference is the heart of this lesson.
+
+## What a contraction is
+
+<VocabTable group="terms" />
+
+*Une contraction de texte* reduces a text to a given proportion of its length (a quarter, a third) in your own words. To *contracter un texte* is to *condenser* (condense) it without changing what it says or how it says it. The usual rules, as they're taught in French schools, are these:
+
+- **Keep the author's order.** The ideas come in the same order as in the text.
+- **Keep the author's voice.** This is *respecter le système d'énonciation* (keep the text's voice): if the text says *il faut*, *nous* or *on*, so does your contraction. *L'énonciation* (enunciation) is who speaks, to whom, and from where.
+- **Don't quote.** Reformulate everything in your own words.
+- **Add nothing.** No personal comment, no example of your own, no judgment.
+
+<Example fr="Une contraction parle comme l'auteur, mais avec moins de mots." en="A contraction speaks like the author, but with fewer words." />
+
+## A contraction is not a synthesis
+
+**This is the opposite of the synthesis.** In a synthesis, you report several documents, so every view is attributed: *le premier document rapporte que…*, *selon la maire…*. In a contraction, there's only one text, and you speak as its author: no *l'auteur dit*, no *selon l'auteur*, no *le texte explique*. If the author writes *il faut adapter la mesure*, your contraction writes *il faut adapter la mesure*, not *l'auteur pense qu'il faut…*.
+
+The difference also matters for a summary of an article at B2, which used reporting verbs. A contraction is stricter: it's a smaller version of the same text, in the same voice.
+
+<Example fr="Dans une contraction, on n'écrit pas « l'auteur pense que » : on reprend la voix du texte." en="In a contraction, you don't write 'l'auteur pense que': you take up the voice of the text." />
+
+## Counting words
+
+<VocabTable group="count" />
+
+A contraction is judged against *le nombre de mots* (the word count) it's asked for. There's no single French rule for counting: **conventions vary between institutions and teachers.** This course uses one common classroom convention, and the site's word counter follows it:
+
+- **A word is any group of letters between spaces, hyphens or apostrophes.** So *l'homme* counts 2, *qu'il* 2, *peut-être* 2, and *c'est-à-dire* 4.
+- **One exception:** *aujourd'hui* counts as 1.
+- **A number in figures** counts as 1: *2024*, *3,5*.
+- **Punctuation on its own** doesn't count.
+
+<Example fr="Selon cette convention, la phrase « Il faut, c'est-à-dire aujourd'hui, agir » compte huit mots." en="By this convention, the sentence 'Il faut, c'est-à-dire aujourd'hui, agir' counts eight words." />
+
+The proportion is usually given *au quart* or *au tiers* (to a quarter, to a third). *Une marge de tolérance* (a margin of tolerance) of about a tenth either way is a common rule of thumb: for a target of 100 words, between 90 and 110. If you're told another rule, follow it; and always count your final version, not your draft.
+
+<Example fr="Avant de rendre une contraction, on vérifie le nombre de mots de la version finale." en="Before handing in a contraction, you check the word count of the final version." />
+
+## The method
+
+<VocabTable group="method" />
+
+As a rule of thumb, work in four steps.
+
+1. **Find the skeleton.** Read the text twice and note *le squelette d'un texte* (its skeleton): the thesis, each step of the reasoning, and the conclusion. Mark *les articulateurs logiques* (the logical link words), because they carry the logic: *pourtant*, *donc*, *ainsi*.
+2. **Cut.** *Supprimer les exemples* (cut the examples), the repetitions and the details. Keep every step of the reasoning, even if it's short.
+3. **Compress what remains.** Turn clauses into nouns (*une baisse de la fatigue*), merge two sentences into one, use ellipsis. Keep the link words, or replace them with equivalents.
+4. **Rewrite and count.** Write a continuous text, not notes, then count. If you're over, compress again; don't cut a step.
+
+<Example fr="Le squelette d'un texte montre sa thèse, ses étapes et sa conclusion." en="The skeleton of a text shows its thesis, its steps and its conclusion." />
+
+<Example fr="Un articulateur logique comme « pourtant » porte la logique de la phrase." en="A logical link word such as 'pourtant' carries the logic of the sentence." />
+
+<Example fr="Pour gagner de la place, on peut supprimer les exemples, mais jamais une étape du raisonnement." en="To save space, you can cut the examples, but never a step of the reasoning." />
+
+Before you hand it in, check four things: that every step of the skeleton is there, in order; that each link word says the same thing as the author's (*pourtant* isn't *donc*); that no sentence starts with *l'auteur* or *selon le texte*; and that no word of yours judges what the author says. Reading your contraction aloud, without the source, is a good test: it should sound like a short version of the same text, by the same writer.
+
+The most frequent fault isn't length: it's *un commentaire personnel* (a personal comment), or a sentence that changes the logic (*donc* where the author wrote *pourtant*).
+
+## Source text: an opinion piece
+
+The article below is original, written for this lesson; its author is invented. It counts 409 words with the lesson's convention.
+
+*La semaine de quatre jours, une fausse bonne idée ? Depuis quelques années, la semaine de quatre jours revient régulièrement dans le débat public. Ses partisans y voient un progrès évident : en travaillant moins de jours, les salariés seraient plus reposés, plus motivés et, au bout du compte, plus efficaces. L'idée séduit, surtout chez les jeunes actifs, qui accordent une grande importance à l'équilibre entre vie professionnelle et vie personnelle. Pourtant, avant de l'adopter partout, il faut se demander à quelles conditions elle peut réellement fonctionner.*
+
+*Il faut d'abord reconnaître ses avantages. Plusieurs entreprises qui l'ont essayée constatent une baisse de la fatigue et des absences. Les salariés disent mieux organiser leur temps, et les réunions inutiles disparaissent souvent d'elles-mêmes. Pour certaines familles, un jour libre de plus permet de s'occuper des enfants ou des parents âgés sans prendre de congés.*
+
+*Cependant, la semaine de quatre jours ne convient pas à tous les métiers. Dans un hôpital, une école ou un commerce, le service doit être assuré cinq ou six jours sur sept. Réduire le nombre de jours oblige alors à embaucher, ce qui coûte cher, ou à allonger les journées, ce qui fatigue. Une infirmière qui travaille dix heures d'affilée n'est pas forcément plus reposée qu'avec des journées plus courtes.*
+
+*Il faut aussi penser à l'organisation du travail. Faire en quatre jours les tâches de cinq ne réduit pas la charge : cela peut au contraire l'augmenter. Sans réflexion sur les priorités, la semaine courte devient une semaine plus dense, et la fatigue que l'on voulait éviter revient d'une autre manière. Les entreprises qui réussissent cette réforme sont souvent celles qui ont d'abord supprimé les tâches inutiles.*
+
+*Le risque est donc de créer deux catégories de salariés : ceux qui, dans les bureaux, profiteront d'un long week-end, et ceux qui, sur le terrain, continueront à travailler comme avant. Une réforme pensée pour améliorer la vie au travail pourrait ainsi renforcer les inégalités qu'elle prétendait réduire.*
+
+*La solution n'est sans doute ni de généraliser la mesure ni de la refuser en bloc. Il vaut mieux laisser chaque secteur l'adapter à ses contraintes, et mesurer honnêtement ses effets avant d'aller plus loin. La semaine de quatre jours n'est pas une recette miracle ; c'est un outil, utile à condition de savoir pour qui et dans quel but on l'utilise.*
+
+(Is the four-day week a false good idea? For some years, the four-day week has regularly come back into public debate. Its supporters see it as obvious progress: by working fewer days, employees would be more rested, more motivated and, in the end, more efficient. The idea appeals, especially to young workers, who attach great importance to work-life balance. Yet before adopting it everywhere, we must ask under what conditions it can really work. First, its advantages must be recognized. Several companies that have tried it note a fall in tiredness and absences. Employees say they organize their time better, and useless meetings often disappear by themselves. For some families, one more free day makes it possible to look after children or elderly parents without taking leave. However, the four-day week doesn't suit every job. In a hospital, a school or a shop, the service must be provided five or six days a week. Reducing the number of days then means hiring, which is expensive, or lengthening the days, which is tiring. A nurse who works ten hours in a row isn't necessarily more rested than with shorter days. We must also think about how work is organized. Doing five days' tasks in four doesn't reduce the workload: it can, on the contrary, increase it. Without thinking about priorities, the short week becomes a denser week, and the tiredness people wanted to avoid comes back another way. The companies that succeed with this reform are often those that first cut useless tasks. The risk is therefore to create two categories of employees: those who, in offices, will enjoy a long weekend, and those who, in the field, will go on working as before. A reform designed to improve working life could thus reinforce the inequalities it claimed to reduce. The solution is probably neither to generalize the measure nor to reject it wholesale. It is better to let each sector adapt it to its constraints, and to measure its effects honestly before going further. The four-day week isn't a miracle cure; it's a tool, useful provided we know for whom and for what purpose we use it.)
+
+<VocabTable group="source" />
+
+<VocabTable group="glossary" />
+
+## Step 1: the skeleton
+
+*Thèse : la semaine de quatre jours ne fonctionne qu'à certaines conditions.*
+
+*1. Avantages : moins de fatigue et d'absences, un temps mieux organisé, une aide pour les familles.*
+
+*2. Limites : les métiers où le service est continu doivent embaucher, ce qui coûte cher, ou allonger les journées, ce qui fatigue.*
+
+*3. Organisation : sans réflexion sur les priorités, la semaine devient plus dense et la fatigue revient.*
+
+*4. Conséquence : deux catégories de salariés, et des inégalités renforcées.*
+
+*5. Conclusion : ni généraliser ni refuser ; adapter à chaque secteur et mesurer les effets ; un outil, pas une recette miracle.*
+
+(Thesis: the four-day week only works under certain conditions. 1. Advantages: less tiredness and fewer absences, better-organized time, help for families. 2. Limits: jobs with a continuous service must hire, which is expensive, or lengthen the days, which is tiring. 3. Organization: without thinking about priorities, the week gets denser and the tiredness comes back. 4. Consequence: two categories of employees, and reinforced inequalities. 5. Conclusion: neither generalize nor refuse; adapt to each sector and measure the effects; a tool, not a miracle cure.)
+
+## The model contraction, to a quarter
+
+The target is a quarter of 409 words, about 102 words, so between 92 and 112 with the tolerance. The model counts 110 words.
+
+*La semaine de quatre jours revient souvent dans le débat. Ses partisans pensent que des salariés plus reposés travailleraient mieux, mais il faut savoir à quelles conditions elle fonctionne. Elle réduit la fatigue, les absences et les réunions inutiles, et elle aide les familles. Pourtant, elle ne convient pas aux métiers qui exigent une présence quotidienne : il faut alors embaucher ou allonger des journées fatigantes. Mal organisée, elle rend la semaine plus dense. Elle risque ainsi d'opposer les salariés des bureaux à ceux du terrain et d'aggraver les inégalités. Mieux vaut l'adapter à chaque secteur et mesurer ses effets : c'est un outil, non une recette miracle.*
+
+(The four-day week often comes back into the debate. Its supporters think that more rested employees would work better, but we must know under what conditions it works. It reduces tiredness, absences and useless meetings, and it helps families. Yet it doesn't suit jobs that require a daily presence: they must then hire or lengthen tiring days. Badly organized, it makes the week denser. It thus risks setting office employees against those in the field and making inequalities worse. It's better to adapt it to each sector and measure its effects: it's a tool, not a miracle cure.)
+
+## The same text, to a third
+
+The target is a third of 409 words, about 136, so between 123 and 150. This version counts 141 words: it keeps more detail, but the same steps in the same order.
+
+*La semaine de quatre jours revient souvent dans le débat public. Ses partisans y voient un progrès : des salariés plus reposés seraient plus motivés et plus efficaces. Il faut pourtant savoir à quelles conditions elle fonctionne. Elle réduit la fatigue, les absences et les réunions inutiles, et libère un jour pour les familles. Mais elle ne convient pas aux métiers où le service est continu, comme l'hôpital ou le commerce : il faut alors embaucher, ce qui coûte cher, ou allonger des journées déjà fatigantes. Sans réflexion sur les priorités, la semaine devient aussi plus dense. Elle risque donc d'opposer les salariés des bureaux à ceux du terrain et de renforcer les inégalités. Mieux vaut ne ni la généraliser ni la refuser, mais l'adapter à chaque secteur et mesurer ses effets : c'est un outil, pas une recette miracle.*
+
+(The four-day week often comes back into public debate. Its supporters see it as progress: more rested employees would be more motivated and more efficient. Yet we must know under what conditions it works. It reduces tiredness, absences and useless meetings, and frees a day for families. But it doesn't suit jobs where the service is continuous, such as the hospital or the shop: they must then hire, which is expensive, or lengthen days that are already tiring. Without thinking about priorities, the week also gets denser. It therefore risks setting office employees against those in the field and reinforcing inequalities. It's better neither to generalize it nor to refuse it, but to adapt it to each sector and measure its effects: it's a tool, not a miracle cure.)
+
+## How the contractions work
+
+- **The order** follows the skeleton: the debate, the advantages, the limits, the organization, the risk, the conclusion.
+- **The voice** is the author's: *il faut savoir*, *mieux vaut*, with no *l'auteur* anywhere.
+- **The examples** are gone in the quarter (the nurse, the hospital); the third keeps one short one (*l'hôpital ou le commerce*).
+- **Compression** uses nouns (*la fatigue, les absences*), merged clauses and an ellipsis-like style (*mal organisée, elle…*).
+- **The link words** stay: *mais*, *pourtant*, *ainsi*, *donc*.
+- **No step is cut**, even the shortest one (the organization of work).
+
+<Callout type="warning" title="No l'auteur dit in a contraction">
+  Learners who have practised the synthesis often start a contraction with *l'auteur explique que…*. In a contraction, you speak in the author's voice. Write **il faut adapter la mesure à chaque secteur**, not *l'auteur dit qu'il faut adapter la mesure*.
+</Callout>
+
+<Callout type="tip" title="Count the skeleton first">
+  Before you write, count your skeleton notes and compare them with your target. If the notes alone are already close to the target, you'll have to compress hard, so plan short sentences from the start. If they're far below, you have room for a link word or a short example in each step.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-long-essay" text="the lesson on the long essay" /> goes the other way: from a plan to a full text of several pages.
+
+===== content/lessons/c2/long-essay.mdx =====
+---
+id: "c2-long-essay"
+title: "The long essay"
+description: "Write an essay of several pages: a detailed plan in three parts, sub-parts and argumentative paragraphs (idea, argument, example, mini-conclusion), transitions, balanced length, ideas cited without quotations, and no padding, with one part written in full."
+level: "C2"
+unit: "Writing at length and translating"
+order: 26
+type: "communication"
+tags: ["writing", "essay", "dissertation", "plan", "method"]
+prerequisites: ["c1-dissertation", "b2-argumentative-essay", "c2-contraction-de-texte"]
+related: ["c1-concession-and-hypothesis", "c1-review-ideas", "c2-revising-your-style"]
+vocab:
+  - { id: "c2-long-essay-v001", group: "structure", fr: "une sous-partie", pron: "ewn soo-par-TEE", en: "a sub-part (a section inside a main part)" }
+  - { id: "c2-long-essay-v002", group: "structure", fr: "une idée directrice", pron: "ew-nee-day dee-rek-TREES", en: "a guiding idea (the idea a part defends)" }
+  - { id: "c2-long-essay-v003", group: "structure", fr: "l'équilibre des parties (m.)", pron: "lay-kee-LEE-bruh day par-TEE", en: "the balance between the parts" }
+  - { id: "c2-long-essay-v004", group: "paragraph", fr: "un paragraphe argumentatif", pron: "uhn pah-rah-GRAHF ar-gew-mahn-tah-TEEF", en: "an argumentative paragraph" }
+  - { id: "c2-long-essay-v005", group: "paragraph", fr: "une mini-conclusion", pron: "ewn mee-nee-kohn-klew-ZYOHN", en: "a short conclusion at the end of a paragraph or part" }
+  - { id: "c2-long-essay-v006", group: "paragraph", fr: "reformuler une idée", pron: "ruh-for-mew-LAY ew-nee-DAY", en: "to put an idea in your own words (instead of quoting it)" }
+  - { id: "c2-long-essay-v007", group: "paragraph", fr: "le remplissage", pron: "luh rahn-plee-SAHZH", en: "padding (words that add nothing)" }
+  - { id: "c2-long-essay-v008", group: "paragraph", fr: "une généralité", pron: "ewn zhay-nay-rah-lee-TAY", en: "a sweeping statement, a platitude" }
+  - { id: "c2-long-essay-v009", group: "links", fr: "certes… mais", pron: "SEHRT … meh", en: "admittedly… but (to concede, then answer)" }
+  - { id: "c2-long-essay-v010", group: "topic", fr: "la traduction automatique", pron: "lah trah-dewk-SYOHN oh-toh-mah-TEEK", en: "machine translation" }
+  - { id: "c2-long-essay-v011", group: "topic", fr: "un logiciel de traduction", pron: "uhn loh-zhee-SYEL duh trah-dewk-SYOHN", en: "a translation program" }
+  - { id: "c2-long-essay-v012", group: "topic", fr: "un sous-entendu culturel", pron: "uhn soo-zahn-tahn-DEW kewl-tew-REL", en: "a cultural implication" }
+  - { id: "c2-long-essay-v013", group: "topic", fr: "la connaissance d'une langue", pron: "lah koh-neh-SAHNS dewn LAHNG", en: "knowing a language, knowledge of a language" }
+  - { id: "c2-long-essay-v014", group: "topic", fr: "une plaisanterie", pron: "ewn pleh-zahn-TREE", en: "a joke" }
+  - { id: "c2-long-essay-v015", group: "topic", fr: "le langage", pron: "luh lahn-GAHZH", en: "language (the human ability to speak), a way of speaking" }
+  - { id: "c2-long-essay-v016", group: "glossary", fr: "un client / une cliente étranger(ère)", pron: "uhn klee-YAHN ay-trahn-ZHAY", en: "a foreign customer" }
+  - { id: "c2-long-essay-v017", group: "glossary", fr: "correctement", pron: "koh-rek-tuh-MAHN", en: "correctly" }
+  - { id: "c2-long-essay-v018", group: "glossary", fr: "polie (poli)", pron: "poh-LEE", en: "polite" }
+  - { id: "c2-long-essay-v019", group: "glossary", fr: "sèche (sec)", pron: "SESH", en: "curt, dry" }
+  - { id: "c2-long-essay-v020", group: "glossary", fr: "obtient (obtenir)", pron: "ob-TYAN", en: "gets (to get)" }
+exercises:
+  - id: "c2-long-essay-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la meilleure phrase de transition entre une partie sur les avantages et une partie sur les limites."
+    options: ["Si la traduction automatique facilite les échanges, elle ne remplace pas pour autant la connaissance d'une langue.", "Maintenant, je vais parler des limites.", "Il y a aussi des limites, et c'est très intéressant."]
+    answers: ["Si la traduction automatique facilite les échanges, elle ne remplace pas pour autant la connaissance d'une langue."]
+    explanation: "A good transition sums up the part that ends and announces the next idea in one sentence. The other two only announce, or add a comment."
+  - id: "c2-long-essay-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui est du remplissage."
+    options: ["Depuis toujours, l'homme se pose des questions sur le langage.", "Un logiciel traduit les mots, mais pas toujours les intentions.", "Une plaisanterie traduite mot à mot perd souvent son sens."]
+    answers: ["Depuis toujours, l'homme se pose des questions sur le langage."]
+    explanation: "Depuis toujours, l'homme… is a sweeping statement that could open any essay: it adds nothing."
+  - id: "c2-long-essay-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez ce qui termine un paragraphe argumentatif."
+    options: ["a mini-conclusion that links back to the guiding idea", "a new argument", "a long quotation"]
+    answers: ["a mini-conclusion that links back to the guiding idea"]
+    explanation: "Idea, argument, example, then a short conclusion that shows what the paragraph proved."
+  - id: "c2-long-essay-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez la meilleure façon d'utiliser l'idée d'un auteur sans le citer."
+    options: ["reformuler l'idée et donner le nom de l'auteur", "copier sa phrase sans guillemets", "ne pas dire d'où vient l'idée"]
+    answers: ["reformuler l'idée et donner le nom de l'auteur"]
+    explanation: "You may use an author's idea in your own words, but you say whose idea it is."
+  - id: "c2-long-essay-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Chaque partie d'un essai défend une idée ___, annoncée dans sa première phrase."
+    answers: ["directrice"]
+    explanation: "Une idée directrice: the idea a part or a paragraph defends."
+  - id: "c2-long-essay-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Les mots qui n'apportent rien à l'argument sont du ___."
+    answers: ["remplissage"]
+    explanation: "Le remplissage: padding."
+  - id: "c2-long-essay-ex007"
+    type: "error-correction"
+    prompt: "Corrigez en supprimant le remplissage (« Il est bien évident que, comme chacun le sait, ») : Il est bien évident que, comme chacun le sait, la traduction automatique progresse."
+    answers: ["La traduction automatique progresse"]
+    explanation: "Il est bien évident que and comme chacun le sait add nothing and sound like padding."
+  - id: "c2-long-essay-ex008"
+    type: "error-correction"
+    prompt: "Corrigez la généralité en la remplaçant par l'idée précise (« certains logiciels ») : Les machines comprennent tout."
+    answers: ["Certains logiciels comprennent beaucoup de choses", "Certains logiciels comprennent beaucoup"]
+    explanation: "A precise, limited claim is stronger than a sweeping statement."
+  - id: "c2-long-essay-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « certes… mais » : La traduction automatique est utile ; pourtant, elle ne comprend pas l'humour."
+    answers: ["Certes, la traduction automatique est utile, mais elle ne comprend pas l'humour", "La traduction automatique est certes utile, mais elle ne comprend pas l'humour"]
+    explanation: "Certes concedes, mais answers: the usual move inside an argumentative paragraph."
+  - id: "c2-long-essay-ex010"
+    type: "reformulation"
+    prompt: "Reformulez en mini-conclusion, en commençant par « Ainsi, » : On a vu que les logiciels ne traduisent pas les sous-entendus culturels."
+    answers: ["Ainsi, les logiciels ne traduisent pas les sous-entendus culturels"]
+    explanation: "A mini-conclusion states what the paragraph has shown, without on a vu que."
+  - id: "c2-long-essay-ex011"
+    type: "translate"
+    prompt: "Traduisez (une sous-partie) : Each part has two or three sub-parts."
+    answers: ["Chaque partie a deux ou trois sous-parties", "Chaque partie comporte deux ou trois sous-parties"]
+    explanation: "Une sous-partie: a section inside a main part."
+    strictAccents: true
+  - id: "c2-long-essay-ex012"
+    type: "translate"
+    prompt: "Traduisez (la traduction automatique) : Machine translation does not replace the learning of a language."
+    answers: ["La traduction automatique ne remplace pas l'apprentissage des langues", "La traduction automatique ne remplace pas l'apprentissage d'une langue"]
+    explanation: "L'apprentissage des langues: language learning."
+  - id: "c2-long-essay-ex013"
+    type: "translate"
+    prompt: "Traduisez (un plan détaillé) : Write a detailed plan before you start."
+    answers: ["Rédigez un plan détaillé avant de commencer", "Rédige un plan détaillé avant de commencer", "Faites un plan détaillé avant de commencer", "Fais un plan détaillé avant de commencer"]
+    explanation: "Avant de + infinitive: before you start."
+  - id: "c2-long-essay-ex014"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : A paragraph starts with an idea."
+    words: ["Un", "paragraphe", "commence", "par", "une", "idée"]
+    answers: ["Un paragraphe commence par une idée"]
+    explanation: "Idea first, then the argument, the example and the mini-conclusion."
+  - id: "c2-long-essay-ex015"
+    type: "multiple-choice"
+    prompt: "Indiquez le meilleur choix pour l'équilibre des parties dans un essai de trois parties."
+    options: ["three parts of about the same length", "a very long first part and two short ones", "one part much longer than the others"]
+    answers: ["three parts of about the same length"]
+    explanation: "Parts of similar length show that each idea is developed equally."
+  - id: "c2-long-essay-ex016"
+    type: "writing-task"
+    prompt: "Rédigez la troisième partie de l'essai (120 à 200 mots), à partir du plan détaillé de la leçon : une idée directrice, deux paragraphes argumentatifs et une mini-conclusion."
+    model: "Faut-il alors renoncer à apprendre les langues ? Ce serait mal poser la question. La traduction automatique ne supprime pas l'apprentissage ; elle en change le sens. D'abord, elle libère du temps : un voyageur qui n'a besoin que de lire un menu peut laisser la machine faire, et réserver son effort à la langue qu'il veut vraiment connaître. Ensuite, elle rend l'apprentissage plus personnel. On n'apprend plus une langue seulement parce qu'on en a besoin pour travailler, mais pour lire un auteur, comprendre une culture ou parler avec des amis. Apprendre une langue devient ainsi un choix plutôt qu'une obligation. Les machines ne rendent donc pas les langues inutiles : elles laissent à chacun la liberté de choisir celles qui comptent pour lui."
+    checklist: ["Does the part start with its guiding idea?", "Does each paragraph go from an idea to an argument and an example?", "Is there a mini-conclusion that answers the question of the essay?", "Did you avoid padding and sweeping statements?", "Did you reformulate ideas instead of quoting them?"]
+    wordTarget: [120, 200]
+---
+
+By the end of this lesson you'll be able to plan an essay of several pages in detail, build each paragraph so that it argues, link the parts, and write one part in full without padding.
+
+## What you already know
+
+In <LessonLink id="b2-argumentative-essay" text="the lesson on the argumentative essay" />, you learned the introduction (*une amorce*, *la problématique*, *annoncer le plan*), *une transition* and *une ouverture*. In <LessonLink id="c1-dissertation" text="the lesson on the dissertation" />, you learned the three kinds of plan (dialectical, analytical, thematic) and *dépasser une opposition*. The same B2 lesson taught *étayer* (to support). You know *un plan détaillé* and *une phrase de transition* from <LessonLink id="c1-exam-written-tasks" text="the lesson on written tasks" />, as well as *une nuance* from <LessonLink id="b2-nuancing-opinions" text="the lesson on nuancing opinions" />. This lesson is about length: what changes when an essay has several pages instead of one.
+
+## From one page to several
+
+<VocabTable group="structure" />
+
+A long essay has the same introduction and conclusion as a short one, but its development is built on two levels. Each main part has *une idée directrice* (a guiding idea), and it's divided into two or three *sous-parties* (sub-parts), each made of one or two paragraphs.
+
+That's why a long essay starts with *un plan détaillé* (a detailed plan): parts, sub-parts, and for each sub-part the argument and the example you'll use. Writing without one is the main cause of repetition and of essays that run out of ideas halfway through.
+
+Watch *l'équilibre des parties* (the balance between the parts): three parts of about the same length show that each idea is developed equally. As a rule of thumb, decide the length of each part before you write, and check it at the end.
+
+<Example fr="Le plan détaillé indique, pour chaque sous-partie, l'argument et l'exemple choisis." en="The detailed plan gives, for each sub-part, the argument and the example chosen." />
+
+## The argumentative paragraph
+
+<VocabTable group="paragraph" />
+
+*Un paragraphe argumentatif* (an argumentative paragraph) follows four steps:
+
+1. **The idea**, in the first sentence: what the paragraph will show.
+2. **The argument**: why it's true.
+3. **The example**: a precise case that makes the argument concrete.
+4. **The mini-conclusion**: *une mini-conclusion* that says what the paragraph has shown and links it back to the guiding idea.
+
+<Example fr="Un paragraphe argumentatif va de l'idée à l'exemple, puis revient à l'idée." en="An argumentative paragraph goes from the idea to the example, then comes back to the idea." />
+
+**Ideas without quotations.** In an essay, you may use an author's or a thinker's idea, but you *reformuler une idée* (put the idea in your own words) and say whose it is: *comme le rappelle tel philosophe…*. A short quotation is possible, but a long one is a way of not writing.
+
+**No padding.** *Le remplissage* (padding) is everything that takes space without arguing: sweeping openings (*depuis toujours, l'homme…*), empty phrases (*il est bien évident que*, *comme chacun le sait*), and *une généralité* (a platitude) instead of a precise claim. Each sentence should do something: state, argue, illustrate or conclude.
+
+## Linking the parts
+
+<VocabTable group="links" />
+
+*Une phrase de transition* (a transition sentence) closes one part and opens the next. The best ones do both in a single sentence: they sum up what was shown, then announce the next idea, often with a concession.
+
+<Example fr="Si la traduction automatique facilite les échanges, elle ne remplace pas pour autant la connaissance d'une langue." en="While machine translation makes exchanges easier, it doesn't for all that replace knowing a language." />
+
+Inside a part, *certes… mais* (admittedly… but) concedes a point and then answers it: it's the most useful move of an argumentative paragraph. You know concession and hypothesis from <LessonLink id="c1-concession-and-hypothesis" text="the lesson on concession and hypothesis" />.
+
+## The introduction and the conclusion
+
+The introduction of a long essay has the same parts as at B2, but each one does more work. The amorce leads to the subject in two or three sentences; the problématique turns the subject into a real question, often with two possible answers (*la traduction automatique rend-elle l'apprentissage inutile, ou en change-t-elle seulement le sens ?*); and the announced plan gives the three parts in one sentence, not the sub-parts.
+
+The conclusion answers the problématique clearly, sums up the steps of the reasoning in a few sentences, and ends with an ouverture. It adds no new argument: if you find one while writing the conclusion, it belongs in the development.
+
+## Managing length
+
+A long essay is long because it develops, not because it repeats. As a rule of thumb:
+
+- **The introduction and the conclusion** together take about a fifth of the essay.
+- **Each part** has the same number of sub-parts, and each sub-part about the same length.
+- **Each paragraph** develops one idea only; if it develops two, split it.
+
+When you reread, look for the paragraph you could delete without losing anything: if you find one, that's padding, even if it's well written.
+
+## The model: a detailed plan and one part
+
+<VocabTable group="topic" />
+
+The essay subject is: *Dans quelle mesure la traduction automatique rend-elle inutile l'apprentissage des langues ?* The plan below is original and dialectical. Only the second part is written in full; the others are given as a detailed plan.
+
+*Problématique : la traduction automatique rend-elle l'apprentissage des langues inutile, ou en change-t-elle seulement le sens ?*
+
+*I. La traduction automatique facilite la communication. A. Elle permet de lire et d'écrire dans une langue qu'on ne connaît pas (exemple : un message à un client étranger). B. Elle est rapide et accessible à tous.*
+
+*II. Mais une langue n'est pas qu'un ensemble d'informations. A. Les nuances et les sous-entendus. B. Les liens entre les personnes.*
+
+*III. Elle ne rend pas l'apprentissage inutile, elle en change le sens. A. Elle libère du temps pour la langue qu'on choisit. B. Apprendre une langue devient un choix plutôt qu'une obligation.*
+
+*Deuxième partie. Si la traduction automatique facilite les échanges, elle ne remplace pas pour autant la connaissance d'une langue, car une langue n'est pas qu'un ensemble d'informations.*
+
+*Une langue est d'abord faite de nuances. Un logiciel de traduction rend correctement le sens des mots, mais il saisit mal le ton d'une phrase. Une plaisanterie traduite mot à mot perd souvent son effet, et une formule polie peut devenir sèche ou, au contraire, trop familière. Certes, les logiciels progressent rapidement, mais ils traduisent ce qui est dit, et beaucoup moins ce qui est sous-entendu. Ainsi, comprendre une langue, c'est aussi comprendre ce qu'elle ne dit pas.*
+
+*Une langue crée ensuite des liens entre les personnes. Parler à quelqu'un dans sa langue, même avec des fautes, montre qu'on a fait un effort vers lui. Un voyageur qui demande son chemin en français à Lyon n'obtient pas seulement une information : il obtient souvent un sourire et une conversation. Aucune machine ne peut faire cet effort à notre place. La connaissance d'une langue n'est donc pas seulement un outil : c'est une manière d'entrer en relation avec les autres.*
+
+*Ainsi, la traduction automatique transmet des informations, mais pas les nuances ni les liens qu'une langue permet. Faut-il pour autant conclure que les machines ne changent rien ? Ce n'est pas certain.*
+
+(Problem: does machine translation make language learning useless, or does it only change its meaning? I. Machine translation makes communication easier. A. It lets you read and write in a language you don't know (example: a message to a foreign customer). B. It's fast and available to everyone. II. But a language isn't just a set of information. A. Nuances and implications. B. The ties between people. III. It doesn't make learning useless; it changes its meaning. A. It frees time for the language you choose. B. Learning a language becomes a choice rather than an obligation. / Part two. While machine translation makes exchanges easier, it doesn't for all that replace knowing a language, because a language isn't just a set of information. A language is first of all made of nuances. A translation program renders the meaning of the words correctly, but it captures the tone of a sentence poorly. A joke translated word for word often loses its effect, and a polite phrase can become curt or, on the contrary, too familiar. Admittedly, programs are making rapid progress, but they translate what is said, and much less what is implied. So understanding a language also means understanding what it doesn't say. A language also creates ties between people. Speaking to someone in their language, even with mistakes, shows that you've made an effort towards them. A traveller who asks the way in French in Lyon doesn't only get information: they often get a smile and a conversation. No machine can make that effort for us. Knowing a language is therefore not only a tool: it's a way of relating to others. So machine translation passes on information, but not the nuances or the ties that a language makes possible. Should we conclude, then, that machines change nothing? That isn't certain.)
+
+<VocabTable group="glossary" />
+
+## How the model works
+
+- **The plan** has three parts, each with two sub-parts, and each sub-part has its example noted.
+- **The guiding idea** of part two is in its first sentence, which is also the transition from part one.
+- **Each paragraph** goes from the idea (*une langue est d'abord faite de nuances*) to the argument, the example (the joke, the traveller in Lyon) and a mini-conclusion (*ainsi…*, *…donc…*).
+- **Certes… mais** concedes the progress of the programs before answering.
+- **The final sentences** of the part sum it up and prepare part three with a question.
+- **No padding**: no *depuis toujours*, no *comme chacun le sait*.
+
+## En français
+
+Jules is writing his essay and shows his plan to Maëlle, his tutor. They use *tu*.
+
+- *Maëlle, j'ai fini mon introduction. Je peux commencer la première partie ?* (Maëlle, I've finished my introduction. Can I start the first part?)
+- *Tu as fait un plan détaillé ?* (Have you made a detailed plan?)
+- *J'ai mes trois parties, mais pas encore les sous-parties.* (I have my three parts, but not the sub-parts yet.)
+- *Alors commence par là : deux sous-parties par partie, avec un exemple pour chacune.* (Then start there: two sub-parts per part, with an example for each.)
+- *Ma première phrase, c'est « Depuis toujours, l'homme cherche à communiquer ». C'est bien ?* (My first sentence is "Depuis toujours, l'homme cherche à communiquer". Is it good?)
+- *C'est une généralité : elle pourrait ouvrir n'importe quel essai. Pars du sujet.* (It's a platitude: it could open any essay. Start from the subject.)
+- *Et pour passer de la première à la deuxième partie ?* (And to go from the first part to the second?)
+- *Une phrase de transition : tu résumes ce que tu as montré, puis tu annonces l'idée suivante.* (A transition sentence: you sum up what you've shown, then you announce the next idea.)
+- *J'ai aussi trouvé une longue citation d'un philosophe sur le langage.* (I've also found a long quotation from a philosopher about language.)
+- *Reformule son idée et dis qu'elle vient de lui. Une longue citation remplace ta propre pensée.* (Reformulate his idea and say it comes from him. A long quotation takes the place of your own thinking.)
+- *Et si une partie est beaucoup plus longue que les autres ?* (And if one part is much longer than the others?)
+- *Vérifie l'équilibre des parties : soit tu coupes, soit tu développes les autres.* (Check the balance between the parts: either you cut, or you develop the others.)
+
+<Callout type="warning" title="Depuis toujours, l'homme… is padding">
+  Many essays start with a sweeping sentence such as *depuis toujours, l'homme se pose des questions sur…*. It fits any subject, so it says nothing about this one. Start from the subject itself: **la traduction automatique progresse si vite qu'on peut se demander si apprendre une langue a encore un sens.**
+</Callout>
+
+<Callout type="tip" title="Write the mini-conclusions first">
+  When your detailed plan is ready, write only the last sentence of each paragraph, the mini-conclusion, before writing anything else. Read them in order: if they make a coherent argument on their own, your essay will too. If one doesn't follow, fix the plan before you write the paragraphs.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-version" text="the lesson on the version" /> turns to translation, from French into English.
+
+===== content/lessons/c2/version.mdx =====
+---
+id: "c2-version"
+title: "Translating into English"
+description: "Translate a French text into natural English: the method (read, analyse, draft, revise as English), the traps (tenses, on, idioms, false friends, register, sentence length), and the names of translation errors (faux sens, contresens, non-sens, omission, surtraduction, calque)."
+level: "C2"
+unit: "Writing at length and translating"
+order: 27
+type: "communication"
+tags: ["translation", "version", "English", "method"]
+prerequisites: ["c2-advanced-false-friends", "c1-register-shifting", "c2-long-essay"]
+related: ["b2-false-friends", "c1-exam-written-tasks", "c2-theme"]
+vocab:
+  - { id: "c2-version-v001", group: "terms", fr: "une version", pron: "ewn vehr-ZYOHN", en: "a translation into your own language (here, from French into English)" }
+  - { id: "c2-version-v002", group: "terms", fr: "un traducteur / une traductrice", pron: "uhn trah-dewk-TUHR / ewn trah-dewk-TREES", en: "a translator" }
+  - { id: "c2-version-v003", group: "terms", fr: "rendre le sens", pron: "RAHN-druh luh SAHNS", en: "to render the meaning" }
+  - { id: "c2-version-v004", group: "terms", fr: "fidèle au texte", pron: "fee-DEL oh TEKST", en: "faithful to the text" }
+  - { id: "c2-version-v005", group: "terms", fr: "la langue source / la langue cible", pron: "lah lahng SOORS / lah lahng SEEBL", en: "the source language / the target language" }
+  - { id: "c2-version-v006", group: "terms", fr: "naturel / naturelle", pron: "nah-tew-REL", en: "natural (of a translation that doesn't sound translated)" }
+  - { id: "c2-version-v007", group: "traps", fr: "ne pas pouvoir s'empêcher de", pron: "nuh pah poo-VWAHR sahn-peh-SHAY duh", en: "can't help (doing)" }
+  - { id: "c2-version-v008", group: "traps", fr: "pour de bon", pron: "poor duh BOHN", en: "for good" }
+  - { id: "c2-version-v009", group: "traps", fr: "une quarantaine de", pron: "ewn kah-rahn-TEN duh", en: "about forty", note: "Also: une quarantaine, a quarantine." }
+  - { id: "c2-version-v010", group: "errors", fr: "un faux sens", pron: "uhn foh SAHNS", en: "a wrong meaning (a word translated with a sense it doesn't have in context)" }
+  - { id: "c2-version-v011", group: "errors", fr: "un non-sens", pron: "uhn nohn-SAHNS", en: "a meaningless rendering" }
+  - { id: "c2-version-v012", group: "errors", fr: "une omission", pron: "ew-noh-mee-SYOHN", en: "an omission (something left out)" }
+  - { id: "c2-version-v013", group: "errors", fr: "une surtraduction", pron: "ewn sewr-trah-dewk-SYOHN", en: "over-translation (adding what isn't in the text)" }
+  - { id: "c2-version-v014", group: "errors", fr: "un calque", pron: "uhn KALK", en: "a calque (a structure copied word for word from the other language)" }
+  - { id: "c2-version-v015", group: "errors", fr: "une traduction littérale", pron: "ewn trah-dewk-SYOHN lee-tay-RAHL", en: "a literal translation" }
+  - { id: "c2-version-v016", group: "glossary", fr: "ancienne (ancien)", pron: "ahn-SYEN", en: "old, former (before a noun)" }
+  - { id: "c2-version-v017", group: "glossary", fr: "la grille", pron: "lah GREE-y", en: "the gate, the railings" }
+  - { id: "c2-version-v018", group: "glossary", fr: "l'herbe (f.)", pron: "LEHRB", en: "grass" }
+  - { id: "c2-version-v019", group: "glossary", fr: "l'auvent (m.)", pron: "loh-VAHN", en: "the awning" }
+  - { id: "c2-version-v020", group: "glossary", fr: "mouillée (mouillé)", pron: "moo-YAY", en: "wet" }
+  - { id: "c2-version-v021", group: "glossary", fr: "rouillées (rouillé)", pron: "roo-YAY", en: "rusty" }
+  - { id: "c2-version-v022", group: "glossary", fr: "la patronne / le patron", pron: "lah pah-TRONN / luh pah-TROHN", en: "the owner (of a café, a shop)" }
+exercises:
+  - id: "c2-version-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la meilleure traduction : Quand Marthe revint au village, il pleuvait des cordes."
+    options: ["When Marthe came back to the village, it was pouring.", "When Marthe came back to the village, it was raining ropes.", "When Marthe comes back to the village, it rains a lot."]
+    answers: ["When Marthe came back to the village, it was pouring."]
+    explanation: "Il pleuvait des cordes is an idiom: it was pouring. The passé simple revint becomes the simple past."
+  - id: "c2-version-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez la meilleure traduction : On lui avait dit que tout avait changé."
+    options: ["She had been told that everything had changed.", "One had said to her that all had changed.", "On had told her that everything changed."]
+    answers: ["She had been told that everything had changed."]
+    explanation: "On often becomes a passive in English: she had been told. One had said is a calque."
+  - id: "c2-version-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez la meilleure traduction : Enfant, elle y passait ses journées à regarder par la fenêtre."
+    options: ["As a child, she used to spend her days looking out of the window.", "As a child, she has spent her days looking out of the window.", "Child, she passed her days to look by the window."]
+    answers: ["As a child, she used to spend her days looking out of the window."]
+    explanation: "The imparfait of habit becomes used to (or would). Enfant becomes as a child, and à regarder becomes looking."
+  - id: "c2-version-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez la meilleure traduction : « Tu es la petite Marthe, n'est-ce pas ? »"
+    options: ["\"You're little Marthe, aren't you?\"", "\"You are the small Marthe, is it not?\"", "\"You are the little Marthe, isn't it?\""]
+    answers: ["\"You're little Marthe, aren't you?\""]
+    explanation: "Familiar tu and a spoken tag: English uses a contraction and the tag aren't you. N'est-ce pas isn't is it not."
+  - id: "c2-version-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le type d'erreur : traduire « éventuellement » par « eventually »."
+    options: ["un faux sens", "une omission", "une surtraduction"]
+    answers: ["un faux sens"]
+    explanation: "Éventuellement means possibly; eventually gives it a sense it doesn't have."
+  - id: "c2-version-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le type d'erreur : « Elle sourit » traduit par « She smiled warmly and happily »."
+    options: ["une surtraduction", "une omission", "un non-sens"]
+    answers: ["une surtraduction"]
+    explanation: "Warmly and happily aren't in the French: the translation adds what isn't there."
+  - id: "c2-version-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Une traduction qui copie mot à mot une structure de la langue source est un ___."
+    answers: ["calque"]
+    explanation: "Un calque copies the structure of the other language: it is with pleasure that I…"
+  - id: "c2-version-ex008"
+    type: "error-correction"
+    prompt: "Corrigez la traduction anglaise (le temps) : « Il est arrivé hier » → He has arrived yesterday."
+    answers: ["He arrived yesterday"]
+    explanation: "With a finished time (yesterday), English uses the simple past, not the present perfect."
+  - id: "c2-version-ex009"
+    type: "error-correction"
+    prompt: "Corrigez la traduction anglaise (le faux ami) : « Elle reviendrait, éventuellement pour de bon » → She would come back, eventually for good."
+    answers: ["She would come back, possibly for good", "She would come back, perhaps for good", "She would come back, maybe for good", "She'd come back, possibly for good", "She'd come back, perhaps for good"]
+    explanation: "Éventuellement means possibly or perhaps, not eventually."
+  - id: "c2-version-ex010"
+    type: "reformulation"
+    prompt: "Reformulez la traduction anglaise sans calque : « C'est avec plaisir que je vous écris » → It is with pleasure that I write to you."
+    answers: ["I am pleased to write to you", "I'm pleased to write to you", "I am delighted to write to you", "I'm delighted to write to you"]
+    explanation: "C'est avec plaisir que is a French construction; natural English says I'm pleased to."
+  - id: "c2-version-ex011"
+    type: "translate"
+    prompt: "Traduisez en anglais : Elle ne put s'empêcher de rire."
+    answers: ["She couldn't help laughing", "She could not help laughing", "She couldn't help but laugh", "She could not help but laugh"]
+    explanation: "Ne pas pouvoir s'empêcher de: can't help doing. The passé simple put becomes the simple past could."
+  - id: "c2-version-ex012"
+    type: "translate"
+    prompt: "Traduisez en anglais, avec un passif : On ferme la boulangerie le lundi."
+    answers: ["The bakery is closed on Mondays", "The bakery is shut on Mondays"]
+    explanation: "On becomes a passive in English, and le lundi (every Monday) becomes on Mondays."
+  - id: "c2-version-ex013"
+    type: "translate"
+    prompt: "Traduisez en anglais (faute de = for lack of) : L'école fermera faute d'élèves."
+    answers: ["The school will close for lack of pupils", "The school will close for lack of students"]
+    explanation: "Faute de: for lack of. Pupils is British for schoolchildren; students is also used."
+  - id: "c2-version-ex014"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre la traduction de : Elle s'arrêta devant l'ancienne école."
+    words: ["She", "stopped", "in", "front", "of", "the", "old", "school"]
+    answers: ["She stopped in front of the old school"]
+    explanation: "The passé simple s'arrêta becomes the simple past stopped; l'ancienne école here is the old school, not the ancient one."
+  - id: "c2-version-ex015"
+    type: "multiple-choice"
+    prompt: "Choisissez la meilleure traduction : Actuellement, il ne restait qu'une quarantaine d'habitants."
+    options: ["By then, only about forty people were left.", "Actually, only forty people were left.", "Currently, there remained only a quarantine of inhabitants."]
+    answers: ["By then, only about forty people were left."]
+    explanation: "Actuellement means at present, here at that time in the story, not actually. Une quarantaine de means about forty."
+  - id: "c2-version-ex016"
+    type: "writing-task"
+    prompt: "Traduisez en anglais le quatrième paragraphe du texte (« Un vieil homme sortit… »), puis comparez avec le modèle et nommez chaque différence (faux sens, omission, surtraduction, calque)."
+    model: "An old man came out of a house nearby. He looked at her for a long time, in silence, as if he were searching for a name, then he smiled. \"You're little Marthe, aren't you? Your mother talked about you all the time.\" She couldn't help laughing: nobody had called her \"little Marthe\" for years."
+    checklist: ["Did you translate the passé simple with the simple past?", "Does the dialogue sound like spoken English (contractions, a tag question)?", "Did you avoid calques such as is it not?", "Did you leave nothing out and add nothing?", "Does your translation read as natural English without the French?"]
+    wordTarget: [40, 80]
+---
+
+By the end of this lesson you'll be able to translate a French text into natural English, avoid the classic traps of tense, *on* and false friends, and name the kinds of translation error.
+
+## What you already know
+
+You know the false friends from <LessonLink id="b2-false-friends" text="the lesson on false friends" /> and <LessonLink id="c2-advanced-false-friends" text="the lesson on advanced false friends" />, and how to move between registers from <LessonLink id="c1-register-shifting" text="the lesson on register shifting" />. You know *un contresens* (a misreading that distorts or reverses the meaning) from <LessonLink id="c1-exam-written-tasks" text="the lesson on written tasks" />, and *le présent de narration* from <LessonLink id="c1-future-in-the-past" text="the lesson on the future in the past" />. *La version* puts them all to work, in the direction you know best: towards English.
+
+## What a version is
+
+<VocabTable group="terms" />
+
+In French schools, *une version* is a translation from a foreign language into your own; *un thème*, which you'll meet in the next lesson, goes the other way. For you, the version is French into English. The aim is to *rendre le sens* (render the meaning): to be *fidèle au texte* (faithful to the text) in what it says and how it says it, while writing English that a reader would never guess was translated. A good *traducteur* or *traductrice* is faithful to the meaning, not to the words. French moves from *la langue source* (the source language) to *la langue cible* (the target language), and the aim is a translation that sounds *naturel* (natural) in the target language.
+
+<Example fr="Le traducteur doit rendre le sens du texte, pas chaque mot." en="The translator must render the meaning of the text, not every word." />
+
+<Example fr="Une bonne version est fidèle au texte, mais elle se lit comme un texte écrit en anglais." en="A good translation is faithful to the text, but it reads like a text written in English." />
+
+<Example fr="Une traduction naturelle ne garde pas la structure de la langue source." en="A natural translation doesn't keep the structure of the source language." />
+
+## The method
+
+As a rule of thumb, work in four steps.
+
+1. **Read the whole text first.** Note its genre, its register, its tense system and who speaks. Don't translate the first sentence before you know how the last one ends.
+2. **Analyse the difficult places.** Mark idioms, false friends, long sentences and the forms English handles differently (*on*, the imparfait, the passé simple).
+3. **Draft.** Translate sentence by sentence, staying close to the meaning.
+4. **Revise as an English text.** Put the French aside and read your English alone. Wherever it sounds translated, rewrite it as an English writer would.
+
+## The traps
+
+<VocabTable group="traps" />
+
+**Tenses.** The passé simple and the passé composé of a story usually become the English simple past. The imparfait can be a simple past, a *was -ing* form, or *used to* / *would* for a habit. The historical present is often better in the past tense in English. And the present perfect has its own rules: *il est arrivé hier* is *he arrived yesterday*, never *he has arrived yesterday*.
+
+**On.** It can be *we*, *you*, *they*, *people*, or an English passive: *on lui avait dit* is *she had been told*. *One* is very formal, and usually wrong.
+
+**Idioms.** You know *il pleut des cordes* from <LessonLink id="b2-idioms-everyday" text="the lesson on everyday idioms" />: it's *it's pouring*; *ne pas pouvoir s'empêcher de* is *can't help doing*; *pour de bon* is *for good*. Translate the idea, never the image.
+
+<Example fr="Elle ne pouvait pas s'empêcher de sourire en lisant la lettre." en="She couldn't help smiling as she read the letter." />
+
+**False friends.** *Actuellement* is *currently* or, in a story, *at that time*; *éventuellement* is *possibly*; *une quarantaine de* is *about forty*.
+
+**Register and sentence length.** A familiar *tu* calls for contractions and spoken English. A long French sentence with several clauses can often be split in two in English.
+
+<Example fr="Il pleuvait des cordes, et on ne voyait personne dans la rue." en="It was pouring, and there was nobody to be seen in the street." />
+
+## Naming the errors
+
+<VocabTable group="errors" />
+
+Translators name their errors precisely, and the names help you check your own work.
+
+- **A wrong meaning in context**, *un faux sens*: a word translated with a sense it has elsewhere, but not here (*éventuellement* → *eventually*).
+- **A distorted or reversed meaning**, *un contresens*, which you know: the translation says something else, or the opposite.
+- **A meaningless rendering**, *un non-sens*: the English doesn't make sense at all.
+- **Something left out**, *une omission*.
+- **Something added**, *une surtraduction*: an adverb, an explanation, an effect that isn't in the French.
+- **A copied structure**, *un calque*: *it is with pleasure that I…* for *c'est avec plaisir que je…*. *Une traduction littérale* (a literal translation) is full of them.
+
+<Example fr="Une omission supprime une idée du texte, alors qu'une surtraduction en ajoute une." en="An omission removes an idea from the text, whereas over-translation adds one." />
+
+<Example fr="Une traduction littérale garde les mots, mais perd souvent le sens." en="A literal translation keeps the words, but often loses the meaning." />
+
+<Example fr="Traduire « il pleut des cordes » par « it's raining ropes » est un calque, et presque un non-sens." en="Translating 'il pleut des cordes' as 'it's raining ropes' is a calque, and almost a meaningless rendering." />
+
+## Faithful or free?
+
+Every translator chooses, sentence by sentence, between staying close to the French and moving away from it. As a rule of thumb, stay close to the meaning, the register and the order of the ideas, and move away from the words and the structures whenever English needs it. A version that keeps every French word is usually wrong somewhere; a version that adds explanations to be clearer is a surtraduction. The test is always the same: would an English reader understand exactly what a French reader understands, with the same tone?
+
+## How the answers are checked
+
+In this lesson, some keys are in English. The checker ignores capitals and punctuation, and treats straight and curly apostrophes alike, but it does see the difference between *couldn't* and *could not*. So the keys list both, and British and American variants where both are natural. Long translations are writing tasks: there are too many good versions of a paragraph to list them all.
+
+## The model: a short story and its translation
+
+The story below is original, written for this lesson. Its English translation is annotated after it.
+
+*Quand Marthe revint au village, après vingt ans d'absence, il pleuvait des cordes. On lui avait dit que tout avait changé, mais elle ne s'attendait pas à trouver la place du marché vide, les volets fermés et la boulangerie transformée en agence immobilière.*
+
+*Elle s'arrêta devant l'ancienne école. Enfant, elle y passait ses journées à regarder par la fenêtre, en rêvant de grandes villes et de voyages lointains. Aujourd'hui, la cour était couverte d'herbe, et quelqu'un avait accroché à la grille un panneau : « À vendre ».*
+
+*Sur la place, le café de son enfance existait encore. Les chaises étaient les mêmes, rouges et un peu rouillées, mais la patronne avait changé. Marthe commanda un café, qu'elle but au comptoir, en écoutant deux hommes parler de la pluie et du prix du pain. Personne, dans la petite salle, ne la reconnut, et elle ne chercha pas à se présenter.*
+
+*Un vieil homme sortit d'une maison voisine. Il la regarda longtemps, en silence, comme s'il cherchait un nom, puis il sourit. « Tu es la petite Marthe, n'est-ce pas ? Ta mère parlait de toi tout le temps. » Elle ne put s'empêcher de rire : personne ne l'avait appelée « la petite Marthe » depuis des années.*
+
+*Ils parlèrent longtemps, sous l'auvent de la boulangerie fermée. Il lui raconta l'histoire de chaque maison, et de chaque famille partie. Il lui apprit aussi que l'école fermerait définitivement à l'été, faute d'élèves, et que les jeunes partaient travailler en ville dès qu'ils le pouvaient. Actuellement, expliqua-t-il, il ne restait qu'une quarantaine d'habitants, presque tous âgés.*
+
+*Quand la pluie s'arrêta enfin, Marthe remercia le vieil homme et reprit la route. Dans la voiture, sur la route mouillée, elle pensa longtemps à la cour d'école, au panneau et au sourire du vieil homme. Elle savait qu'elle reviendrait un jour, éventuellement pour de bon.*
+
+(When Marthe came back to the village after twenty years away, it was pouring. She had been told that everything had changed, but she hadn't expected to find the market square empty, the shutters closed and the bakery turned into an estate agent's. She stopped in front of the old school. As a child, she used to spend her days there looking out of the window, dreaming of big cities and faraway journeys. Now the playground was overgrown with grass, and someone had hung a sign on the gate: "For sale". On the square, the café of her childhood was still there. The chairs were the same, red and a little rusty, but the owner had changed. Marthe ordered a coffee, which she drank at the counter, listening to two men talking about the rain and the price of bread. Nobody in the little room recognized her, and she didn't try to introduce herself. An old man came out of a house nearby. He looked at her for a long time, in silence, as if he were searching for a name, then he smiled. "You're little Marthe, aren't you? Your mother talked about you all the time." She couldn't help laughing: nobody had called her "little Marthe" for years. They talked for a long time under the awning of the closed bakery. He told her the story of every house, and of every family that had left. He also told her that the school would close for good in the summer, for lack of pupils, and that young people left to work in town as soon as they could. By then, he explained, only about forty people were left, nearly all of them elderly. When the rain finally stopped, Marthe thanked the old man and set off again. In the car, on the wet road, she thought for a long time about the school playground, the sign and the old man's smile. She knew she would come back one day, possibly for good.)
+
+<VocabTable group="glossary" />
+
+## How the translation works
+
+- **The tenses:** every passé simple (*revint*, *s'arrêta*, *sourit*) becomes a simple past; the imparfait of habit (*passait*) becomes *used to spend*; *aujourd'hui* in a past story becomes *now*.
+- **On:** the clause *on lui avait dit* becomes a passive, *she had been told*.
+- **The idioms:** the phrases *il pleuvait des cordes* → *it was pouring*; *ne put s'empêcher de rire* → *couldn't help laughing*; *pour de bon* → *for good*.
+- **The false friends:** the words *actuellement* → *by then*; *éventuellement* → *possibly*; *une quarantaine de* → *about forty*; *définitivement* → *for good*.
+- **The register:** the old man's *tu* and *n'est-ce pas* become a contraction and the tag *aren't you*.
+- **Cultural words:** the phrase *une agence immobilière* → *an estate agent's* (British; American English would say *a real estate agency*).
+- **Nothing added, nothing left out:** the phrase *presque tous âgés* is *nearly all of them elderly*, not a longer explanation.
+
+## En français
+
+Rose and Daniel are students in a translation class. They compare their versions of the story. They use *tu*.
+
+- *Daniel, pour « il pleuvait des cordes », tu as mis quoi ?* (Daniel, what did you put for "il pleuvait des cordes"?)
+- *« It was raining very hard. » C'est juste, non ?* ("It was raining very hard." That's right, isn't it?)
+- *Oui, mais « it was pouring » est plus courant. Le sens est le même.* (Yes, but "it was pouring" is more usual. The meaning is the same.)
+- *Et « on lui avait dit » ? J'ai écrit « one had told her ».* (And "on lui avait dit"? I wrote "one had told her".)
+- *C'est un calque. En anglais, on dit « she had been told ».* (That's a calque. In English, you say "she had been told".)
+- *D'accord. Pour « actuellement », j'ai traduit par « actually ».* (OK. For "actuellement", I translated "actually".)
+- *Attention, c'est un faux sens : ici, ça veut dire « à ce moment-là », donc « by then ».* (Careful, that's a wrong meaning: here it means "at that time", so "by then".)
+- *Et à la fin, « éventuellement pour de bon », j'ai mis « eventually for good ».* (And at the end, "éventuellement pour de bon", I put "eventually for good".)
+- *Encore un faux sens. « Éventuellement », c'est « possibly ».* (Another wrong meaning. "Éventuellement" is "possibly".)
+- *Le vieil homme dit « tu ». Je garde « you are » ou je mets « you're » ?* (The old man says "tu". Do I keep "you are" or put "you're"?)
+- *« You're », c'est une conversation familière. Et ajoute « aren't you » pour le « n'est-ce pas ».* ("You're": it's a familiar conversation. And add "aren't you" for the "n'est-ce pas".)
+- *Je relis ma version sans regarder le français, comme tu me l'as conseillé.* (I'll reread my version without looking at the French, as you advised me.)
+
+<Callout type="warning" title="Éventuellement is possibly, not eventually">
+  The most common faux sens in a version is *éventuellement* translated as *eventually*. In French, it means *possibly* or *if need be*: **she would come back, possibly for good**. For *eventually* (in the end), French says *finalement* or *à la fin*.
+</Callout>
+
+<Callout type="tip" title="Read your version aloud to an English ear">
+  When your draft is finished, read it aloud without the French, as if it were an English original. Every place where you stumble, or where a phrase sounds like no English writer would write it, is a calque or a literal translation. Rewrite those places first.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-theme" text="the lesson on the thème" /> goes the other way: from English into French.
+
+===== content/lessons/c2/theme.mdx =====
+---
+id: "c2-theme"
+title: "Translating into French"
+description: "Translate an English text into correct, idiomatic French: the method, the structures English uses and French avoids (the passive, noun stacks, -ing forms), the chassé-croisé (he swam across → il a traversé à la nage), étoffement, possessives with the body, and checking with a dictionary."
+level: "C2"
+unit: "Writing at length and translating"
+order: 28
+type: "communication"
+tags: ["translation", "thème", "French", "method", "idioms"]
+prerequisites: ["c2-version", "c1-precise-verbs", "c2-anglicisms-and-official-terms"]
+related: ["c1-collocations", "b2-alternatives-to-passive", "c2-revising-your-style"]
+vocab:
+  - { id: "c2-theme-v001", group: "terms", fr: "un thème", pron: "uhn TEM", en: "a translation into a foreign language (here, from English into French)" }
+  - { id: "c2-theme-v002", group: "terms", fr: "une tournure idiomatique", pron: "ewn toor-newr ee-dyoh-mah-TEEK", en: "an idiomatic turn of phrase" }
+  - { id: "c2-theme-v003", group: "terms", fr: "un équivalent", pron: "uh-nay-kee-vah-LAHN", en: "an equivalent (a phrase that does the same job)" }
+  - { id: "c2-theme-v004", group: "terms", fr: "un dictionnaire bilingue / unilingue", pron: "uhn deek-syoh-NEHR bee-LANG / ew-nee-LANG", en: "a bilingual / monolingual dictionary" }
+  - { id: "c2-theme-v005", group: "structures", fr: "un enchaînement de noms", pron: "uh-nahn-shen-MAHN duh NOHN", en: "a noun stack (customer satisfaction survey)" }
+  - { id: "c2-theme-v006", group: "structures", fr: "doué pour / douée pour", pron: "doo-AY poor", en: "good at, gifted for" }
+  - { id: "c2-theme-v007", group: "techniques", fr: "un chassé-croisé", pron: "uhn shah-SAY krwah-ZAY", en: "a cross-over (manner and movement swap places: swam across → traversé à la nage)" }
+  - { id: "c2-theme-v008", group: "techniques", fr: "à la nage / en courant", pron: "ah lah NAHZH / ahn koo-RAHN", en: "by swimming / running (the manner, after the verb of movement)" }
+  - { id: "c2-theme-v009", group: "techniques", fr: "étoffer", pron: "ay-toh-FAY", en: "to expand (to add the words French needs)" }
+  - { id: "c2-theme-v010", group: "techniques", fr: "l'étoffement (m.)", pron: "lay-tof-MAHN", en: "expansion (adding words French needs: a relative clause, a verb)" }
+  - { id: "c2-theme-v011", group: "techniques", fr: "mener à", pron: "muh-NAY ah", en: "to lead to (a road, a door)" }
+  - { id: "c2-theme-v012", group: "text", fr: "une enquête de satisfaction", pron: "ew-nahn-KET duh sah-tees-fak-SYOHN", en: "a customer satisfaction survey" }
+  - { id: "c2-theme-v013", group: "text", fr: "un conseiller / une conseillère", pron: "uhn kohn-seh-YAY / ewn kohn-seh-YEHR", en: "an adviser" }
+  - { id: "c2-theme-v014", group: "text", fr: "un cabinet indépendant", pron: "uhn kah-bee-NEH an-day-pahn-DAHN", en: "an independent firm (of consultants)" }
+  - { id: "c2-theme-v015", group: "text", fr: "un guichet", pron: "uhn gee-SHEH", en: "a desk, a counter (where the public is served)" }
+  - { id: "c2-theme-v016", group: "glossary", fr: "la plupart des", pron: "lah plew-PAR day", en: "most (of)" }
+  - { id: "c2-theme-v017", group: "glossary", fr: "le manager (anglicisme)", pron: "luh mah-nah-JUHR", en: "the manager (an anglicism)" }
+  - { id: "c2-theme-v018", group: "glossary", fr: "dedans", pron: "duh-DAHN", en: "inside, in it" }
+  - { id: "c2-theme-v019", group: "glossary", fr: "plaignaient (se plaindre)", pron: "pleh-NYEH", en: "complained (to complain)" }
+  - { id: "c2-theme-v020", group: "glossary", fr: "obtiennent (obtenir)", pron: "ob-TYEN", en: "get (to get)" }
+  - { id: "c2-theme-v021", group: "glossary", fr: "plairont (plaire)", pron: "pleh-ROHN", en: "will please (to please)" }
+  - { id: "c2-theme-v022", group: "glossary", fr: "entraînés (entraîner)", pron: "ahn-treh-NAY", en: "trained (of sport, here a calque)" }
+exercises:
+  - id: "c2-theme-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la meilleure traduction : He swam across the river."
+    options: ["Il a traversé la rivière à la nage.", "Il a nagé à travers la rivière.", "Il a nagé de l'autre côté la rivière."]
+    answers: ["Il a traversé la rivière à la nage."]
+    explanation: "A chassé-croisé: English puts the manner in the verb (swam) and the movement after it (across); French puts the movement in the verb (traverser) and the manner after it (à la nage)."
+  - id: "c2-theme-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez la meilleure traduction : French is spoken here."
+    options: ["Ici, on parle français.", "Le français est parlé ici par les gens.", "Français est parlé ici."]
+    answers: ["Ici, on parle français."]
+    explanation: "English often uses the passive; French prefers on, an active verb or a pronominal verb."
+  - id: "c2-theme-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez la meilleure traduction : a customer satisfaction survey"
+    options: ["une enquête de satisfaction", "une client satisfaction enquête", "une enquête client satisfaction"]
+    answers: ["une enquête de satisfaction"]
+    explanation: "French doesn't stack nouns: it links them with de, and often drops what's obvious (customer)."
+  - id: "c2-theme-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez la meilleure traduction : I like swimming."
+    options: ["J'aime nager.", "J'aime nageant.", "J'aime en nageant."]
+    answers: ["J'aime nager."]
+    explanation: "An English -ing form used as a noun usually becomes a French infinitive."
+  - id: "c2-theme-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le procédé utilisé pour traduire « the road to the station » par « la route qui mène à la gare »."
+    options: ["un étoffement", "un chassé-croisé", "une omission"]
+    answers: ["un étoffement"]
+    explanation: "French adds a relative clause (qui mène) where English only has a preposition: that's étoffement."
+  - id: "c2-theme-ex006"
+    type: "fill-in"
+    prompt: "Conjuguez « mener » au présent, pour traduire « the road to the station » : la route qui ___ à la gare."
+    answers: ["mène"]
+    explanation: "Mener à: to lead to. Like lever, it takes a grave accent: il mène."
+  - id: "c2-theme-ex007"
+    type: "fill-in"
+    prompt: "Complétez le chassé-croisé : She ran out of the house → Elle est sortie de la maison en ___."
+    answers: ["courant"]
+    explanation: "The movement goes into the verb (sortir); the manner (running) comes after it: en courant."
+  - id: "c2-theme-ex008"
+    type: "error-correction"
+    prompt: "Corrigez le calque : Il a levé sa main."
+    answers: ["Il a levé la main"]
+    explanation: "With a part of the body, French uses the article, not a possessive: il a levé la main."
+    strictAccents: true
+  - id: "c2-theme-ex009"
+    type: "error-correction"
+    prompt: "Corrigez le calque, avec « douée pour » : Elle est bonne à cuisiner."
+    answers: ["Elle est douée pour la cuisine"]
+    explanation: "Good at cooking isn't bonne à cuisiner (good for cooking, of food). Say douée pour la cuisine."
+  - id: "c2-theme-ex010"
+    type: "error-correction"
+    prompt: "Corrigez le faux sens (firm = entreprise de conseil) : L'enquête a été menée par une ferme indépendante."
+    answers: ["L'enquête a été menée par un cabinet indépendant"]
+    explanation: "Une ferme is a farm. A firm of consultants is un cabinet."
+    strictAccents: true
+  - id: "c2-theme-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec un chassé-croisé (traverser) : Il a nagé pour traverser la rivière."
+    answers: ["Il a traversé la rivière à la nage"]
+    explanation: "Traverser carries the movement, à la nage the manner."
+    strictAccents: true
+  - id: "c2-theme-ex012"
+    type: "translate"
+    prompt: "Traduisez avec un chassé-croisé, au passé composé (traverser, la rivière) : He swam across the river."
+    answers: ["Il a traversé la rivière à la nage"]
+    explanation: "Swam across → a traversé… à la nage."
+    strictAccents: true
+  - id: "c2-theme-ex013"
+    type: "translate"
+    prompt: "Traduisez avec « on », sans passif : French is spoken here."
+    answers: ["Ici, on parle français", "On parle français ici"]
+    explanation: "On + active verb replaces the English passive."
+    strictAccents: true
+  - id: "c2-theme-ex014"
+    type: "translate"
+    prompt: "Traduisez à la voix active (rédiger, au passé composé) : This report was written by the director."
+    answers: ["Le directeur a rédigé ce rapport", "La directrice a rédigé ce rapport"]
+    explanation: "French often turns a passive with par into an active sentence. The director may be a man or a woman, so both are accepted."
+    strictAccents: true
+  - id: "c2-theme-ex015"
+    type: "translate"
+    prompt: "Traduisez (une tournure idiomatique) : This sentence needs an idiomatic turn of phrase."
+    answers: ["Cette phrase a besoin d'une tournure idiomatique", "Cette phrase demande une tournure idiomatique"]
+    explanation: "Une tournure idiomatique: a phrase that sounds natural in French."
+    strictAccents: true
+  - id: "c2-theme-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : She ran out of the house."
+    words: ["Elle", "est", "sortie", "de", "la", "maison", "en", "courant"]
+    answers: ["Elle est sortie de la maison en courant"]
+    explanation: "A chassé-croisé: the movement in the verb (sortie), the manner after it (en courant)."
+  - id: "c2-theme-ex017"
+    type: "writing-task"
+    prompt: "Traduisez en français : « The new advisers were trained by our most experienced staff. When a problem cannot be solved on the phone, a visit is arranged within a week. » Puis comparez avec le modèle."
+    model: "Nos collaborateurs les plus expérimentés ont formé les nouveaux conseillers. Quand on ne peut pas résoudre un problème au téléphone, nous organisons une visite dans la semaine."
+    checklist: ["Did you turn the two passives into French structures (an active verb, on, nous)?", "Did you avoid calques such as dans une semaine for within a week?", "Did you choose precise verbs (former, résoudre, organiser)?", "Does your French read as if it had been written in French?"]
+    wordTarget: [20, 45]
+---
+
+By the end of this lesson you'll be able to translate an English text into correct and idiomatic French, recognize the English structures that French avoids, and use two classic techniques of translators, the chassé-croisé and étoffement.
+
+## What you already know
+
+In <LessonLink id="c2-version" text="the last lesson" />, you translated from French into English and learned the names of translation errors. You know precise verbs from <LessonLink id="c1-precise-verbs" text="the lesson on precise verbs" />, collocations from <LessonLink id="c1-collocations" text="the lesson on collocations" />, and the alternatives to the passive from <LessonLink id="b2-alternatives-to-passive" text="the lesson on alternatives to the passive" />. The anglicisms of <LessonLink id="c2-anglicisms-and-official-terms" text="the lesson on official terms" /> matter here too: in a thème, they're the first trap.
+
+## What a thème is
+
+<VocabTable group="terms" />
+
+*Un thème* is a translation into a foreign language: for you, English into French. It's harder than the version, because you write in the language you know less well, and every word you choose has to be correct, not just understandable. The aim is not a word-for-word copy, but *un équivalent* (an equivalent): a French sentence that does the same job, often with *une tournure idiomatique* (an idiomatic turn of phrase) that has no English counterpart.
+
+<Example fr="Une bonne traduction cherche un équivalent, pas une copie mot à mot." en="A good translation looks for an equivalent, not a word-for-word copy." />
+
+**The method** is the same as for the version: read the whole English text, analyse its register and its difficult places, draft, then revise the French without looking at the English. There's one more step: checking. For every word you're unsure of, look it up twice, in *un dictionnaire bilingue* (a bilingual dictionary) to find candidates, and then in *un dictionnaire unilingue* (a monolingual dictionary) to check what each candidate really means and how it's used.
+
+## Structures English uses and French avoids
+
+<VocabTable group="structures" />
+
+**The passive.** English uses it freely; French prefers *on*, an active verb or a pronominal verb. *French is spoken here* is *ici, on parle français*; *this report was written by the director* is often better as *le directeur a rédigé ce rapport*.
+
+**Noun stacks.** English piles nouns on top of each other: *a customer satisfaction survey*. French can't: it links nouns with *de* or a preposition, and often drops what's obvious. *Un enchaînement de noms* (a noun stack) becomes *une enquête de satisfaction*.
+
+<Example fr="Un enchaînement de noms est presque impossible en français." en="A noun stack is almost impossible in French." />
+
+**-ing forms.** An English *-ing* form has several French equivalents: an infinitive (*I like swimming*, *j'aime nager*), a gérondif (*by working*, *en travaillant*), a relative clause (*the man sitting there*, *l'homme qui est assis là*) or a noun.
+
+**Possessives with the body.** French uses the article with parts of the body when the owner is clear: *he raised his hand* is *il a levé la main*.
+
+**Good at.** *Good at cooking* is *doué pour la cuisine* or *il cuisine bien*, never *bon à cuisiner*, which would describe food.
+
+<Example fr="Elle est très douée pour les langues." en="She's very good at languages." />
+
+## The chassé-croisé
+
+<VocabTable group="techniques" />
+
+English verbs of movement often say *how* you move, and a particle says *where*: *he swam across*, *she ran out*, *they walked in*. French verbs say *where*, and a phrase after the verb says *how*. The two elements swap places: that's *un chassé-croisé* (a cross-over).
+
+<Example fr="Il a traversé la rivière à la nage." en="He swam across the river." />
+
+<Example fr="Elle est sortie de la maison en courant." en="She ran out of the house." />
+
+The movement goes into the verb (*traverser*, *sortir*, *entrer*, *monter*), and the manner comes after it, *à la nage*, *en courant*, *à pied*. Often, the manner can even be dropped, if it's obvious: *she walked in* is simply *elle est entrée*.
+
+## Étoffement
+
+*L'étoffement* (expansion) adds the words French needs where English manages with fewer. To *étoffer* a phrase is usually to turn a preposition into a verb or a relative clause: *the road to the station* is *la route qui mène à la gare*, with *mener à* (to lead to); *the man in the car* is *l'homme qui était dans la voiture*. French is often a little longer than English, and that's normal.
+
+<Example fr="L'étoffement ajoute souvent une relative ou un verbe." en="Expansion often adds a relative clause or a verb." />
+
+<Example fr="La porte qui mène au jardin est restée ouverte." en="The door to the garden was left open." />
+
+## The model: an English notice and two French versions
+
+<VocabTable group="text" />
+
+The notice below is original, from an invented company. It's followed by a literal French translation, full of calques, and a good one.
+
+Customer service has been improved. Last year, a customer satisfaction survey was carried out by an independent firm. Many customers said they were tired of waiting on the phone. Since then, three new advisers have been hired, and most calls are now answered within minutes. Customers can also be called back at a time of their choosing. "We were told that our service was too slow," says the manager, "so we decided to act." Next month, the company will open a help desk in the town centre, so that customers can walk in without an appointment. Calls received after six o'clock will be returned the next morning, and our advisers have been trained to deal with complaints quickly. If you are not satisfied, you can write to us at any time. Thank you for your patience during this period of change. We hope these changes will be appreciated by all our customers.
+
+*Version littérale. Le service client a été amélioré. L'année dernière, une enquête client satisfaction a été menée par une ferme indépendante. Beaucoup de clients ont dit qu'ils étaient fatigués d'attendre sur le téléphone. Depuis ce moment, trois nouveaux conseillers ont été engagés, et la plupart des appels sont maintenant répondus dans des minutes. Les clients peuvent aussi être rappelés à un temps de leur choix. « Nous avons été dits que notre service était trop lent », dit le manager, « donc nous avons décidé d'agir. » Le mois prochain, l'entreprise va ouvrir un bureau d'aide dans le centre de la ville, pour que les clients puissent marcher dedans sans rendez-vous. Les appels reçus après six heures seront retournés le matin suivant, et nos conseillers ont été entraînés à traiter avec les plaintes rapidement. Si vous n'êtes pas satisfaits, vous pouvez nous écrire à tout temps. Nous vous remercions pour votre patience durant cette période de changements. Nous espérons que ces changements seront appréciés par tous nos clients.*
+
+*Version corrigée. Notre service client s'est amélioré. L'an dernier, un cabinet indépendant a mené une enquête de satisfaction. De nombreux clients se plaignaient d'attendre trop longtemps au téléphone. Depuis, nous avons recruté trois nouveaux conseillers, et la plupart des appels obtiennent une réponse en quelques minutes. Les clients peuvent aussi demander à être rappelés au moment qui leur convient. « On nous a dit que notre service était trop lent, explique la responsable, alors nous avons décidé d'agir. » Le mois prochain, l'entreprise ouvrira un guichet dans le centre-ville, pour que les clients puissent venir sans rendez-vous. Le lendemain matin, un conseiller rappelle les clients qui ont appelé après dix-huit heures, et nos conseillers ont appris à traiter les réclamations rapidement. Si vous n'êtes pas satisfait, vous pouvez nous écrire à tout moment. Merci de votre patience pendant ces changements. Nous espérons que ces changements plairont à tous nos clients.*
+
+(The literal version copies the English word for word; the corrected version says the same thing in natural French: Our customer service has improved. Last year, an independent firm carried out a satisfaction survey. Many customers complained of waiting too long on the phone. Since then, we have recruited three new advisers, and most calls get an answer within a few minutes. Customers can also ask to be called back at a time that suits them. "We were told that our service was too slow," explains the manager, "so we decided to act." Next month, the company will open a desk in the town centre, so that customers can come in without an appointment. The next morning, an adviser calls back the customers who called after six in the evening, and our advisers have learned to deal with complaints quickly. If you are not satisfied, you can write to us at any time. Thank you for your patience during these changes. We hope that all our customers will like these changes.)
+
+<VocabTable group="glossary" />
+
+## How the two versions differ
+
+- **The passives** (*a été amélioré*, *a été menée par*, *ont été engagés*) become a pronominal verb (*s'est amélioré*), an active verb (*un cabinet a mené*) and *nous avons recruté*.
+- **The noun stack** *enquête client satisfaction* becomes *une enquête de satisfaction*.
+- **The faux sens** *une ferme* (a farm) becomes *un cabinet*; *le manager* becomes *la responsable*.
+- **The impossible passives** *sont répondus* and *nous avons été dits* become *obtiennent une réponse* and *on nous a dit*: French can't put *répondre* or *dire quelqu'un* in the passive.
+- **The calques** *fatigués d'attendre sur le téléphone*, *dans des minutes* and *à un temps de leur choix* become *se plaignaient d'attendre au téléphone*, *en quelques minutes* and *au moment qui leur convient*.
+- **More calques**: *retournés* (for returned calls) and *à tout temps* become *un conseiller rappelle* and *à tout moment*; *traiter avec les plaintes* becomes *traiter les réclamations*, with *six heures* made clear as *dix-huit heures*. The polite *vous* addresses one reader, so *satisfait* stays singular.
+- **The last passive**, *seront appréciés par*, becomes an active verb with the customers as its object: *plairont à tous nos clients*.
+- **The chassé-croisé**: *walk in* isn't *marcher dedans* but *venir*, the movement alone.
+- **The register**: the corrected version adds *notre* and *nous*, as a company would write about itself, and *explique* places the quotation in French style.
+
+## En français
+
+Agnès and Tom work in a translation agency. Tom has translated the notice. They use *tu*.
+
+- *Tom, j'ai relu ton thème. Le sens est juste, mais il y a encore des calques.* (Tom, I've reread your translation. The meaning is right, but there are still some calques.)
+- *Lesquels ? J'ai vérifié chaque mot dans le dictionnaire.* (Which ones? I checked every word in the dictionary.)
+- *« Une ferme indépendante » : en anglais, « a firm », c'est une entreprise, pas une ferme.* ("Une ferme indépendante": in English, "a firm" is a company, not a farm.)
+- *Ah oui. Il faut un dictionnaire unilingue pour vérifier.* (Oh yes. You need a monolingual dictionary to check.)
+- *Et « les appels sont répondus », ça ne marche pas : on ne répond pas un appel, on répond à un appel.* (And "les appels sont répondus" doesn't work: you don't answer a call directly in French, you reply to it.)
+- *Alors je mets « les appels obtiennent une réponse » ?* (So I put "les appels obtiennent une réponse"?)
+- *Oui. Et pour « walk in », oublie « marcher » : le client vient, c'est tout.* (Yes. And for "walk in", forget "marcher": the customer comes in, that's all.)
+- *C'est un chassé-croisé, non ? Le mouvement dans le verbe, et la manière, on peut la supprimer.* (That's a chassé-croisé, isn't it? The movement in the verb, and the manner can be dropped.)
+- *Exactement. Et tu as gardé beaucoup de passifs.* (Exactly. And you've kept a lot of passives.)
+- *Je les transforme avec « on » ou un verbe actif ?* (Shall I change them with "on" or an active verb?)
+- *Les deux sont possibles. Choisis ce qui sonne le plus naturel dans chaque phrase.* (Both are possible. Choose what sounds most natural in each sentence.)
+- *D'accord. Je relis le texte en français, sans regarder l'anglais.* (OK. I'll reread the text in French, without looking at the English.)
+
+<Callout type="warning" title="Il a levé la main, not il a levé sa main">
+  English speakers often keep the possessive with the body: *il a levé sa main*, *elle s'est cassé sa jambe*. When the owner is clear, French uses the article: **il a levé la main**, **elle s'est cassé la jambe**, **j'ai mal à la tête**.
+</Callout>
+
+<Callout type="tip" title="Look up every word twice">
+  For each word you're unsure of in a thème, look it up first in a bilingual dictionary, to find the French candidates, then each candidate in a monolingual French dictionary, to read its definition and its examples. The second look is the one that catches faux sens like *ferme* for *firm*.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-revising-your-style" text="the lesson on revising your writing" /> turns to your own French texts: how to make them lighter, clearer and more precise.
+
+===== content/lessons/c2/revising-your-style.mdx =====
+---
+id: "c2-revising-your-style"
+title: "Revising your own writing"
+description: "Edit your own French for heaviness and clarity: chains of relative clauses and of noun complements, il y a, repetitions and their remedies, register breaks, weak verbs (faire, mettre, dire) and their precise replacements, and the rhythm of the sentence."
+level: "C2"
+unit: "Writing at length and translating"
+order: 29
+type: "communication"
+tags: ["writing", "revision", "style", "register", "clarity"]
+prerequisites: ["c1-precise-verbs", "c1-register-shifting", "c2-stylistic-analysis"]
+related: ["c1-exam-written-tasks", "c2-long-essay", "c2-review-writing"]
+vocab:
+  - { id: "c2-revising-your-style-v001", group: "terms", fr: "une lourdeur", pron: "ewn loor-DUHR", en: "a heavy, clumsy passage" }
+  - { id: "c2-revising-your-style-v002", group: "terms", fr: "alléger une phrase", pron: "ah-lay-ZHAY ewn FRAHZ", en: "to lighten a sentence" }
+  - { id: "c2-revising-your-style-v003", group: "terms", fr: "une phrase bancale", pron: "ewn frahz bahn-KAHL", en: "a shaky, badly built sentence" }
+  - { id: "c2-revising-your-style-v004", group: "terms", fr: "fluidifier", pron: "flew-ee-dee-FYAY", en: "to make (a text) flow better" }
+  - { id: "c2-revising-your-style-v005", group: "heavy", fr: "une cascade de relatives", pron: "ewn kas-KAD duh ruh-lah-TEEV", en: "a chain of relative clauses (qui… qui… que…)" }
+  - { id: "c2-revising-your-style-v006", group: "heavy", fr: "une suite de compléments du nom", pron: "ewn sweet duh kohn-play-MAHN dew NOHN", en: "a chain of noun complements (de… de… de…)" }
+  - { id: "c2-revising-your-style-v007", group: "heavy", fr: "un verbe passe-partout", pron: "uhn vehrb pas-par-TOO", en: "a catch-all verb (faire, mettre, dire, avoir)" }
+  - { id: "c2-revising-your-style-v008", group: "heavy", fr: "tenir une réunion", pron: "tuh-NEER ewn ray-ew-NYOHN", en: "to hold a meeting" }
+  - { id: "c2-revising-your-style-v009", group: "heavy", fr: "régler un problème", pron: "ray-GLAY uhn proh-BLEM", en: "to settle a problem" }
+  - { id: "c2-revising-your-style-v010", group: "heavy", fr: "la gestion des congés", pron: "lah zhes-TYOHN day kohn-ZHAY", en: "the management of staff leave" }
+  - { id: "c2-revising-your-style-v011", group: "repeat", fr: "une reprise pronominale", pron: "ewn ruh-PREEZ proh-noh-mee-NAHL", en: "a pronoun used to avoid repeating a noun" }
+  - { id: "c2-revising-your-style-v012", group: "register", fr: "une rupture de registre", pron: "ewn rewp-TEWR duh ruh-ZHEES-truh", en: "a break in register" }
+  - { id: "c2-revising-your-style-v013", group: "register", fr: "mécontent / mécontente", pron: "may-kohn-TAHN / may-kohn-TAHNT", en: "dissatisfied, unhappy" }
+  - { id: "c2-revising-your-style-v014", group: "register", fr: "présider (une réunion)", pron: "pray-zee-DAY", en: "to chair (a meeting)" }
+  - { id: "c2-revising-your-style-v015", group: "register", fr: "un client que l'on risque de perdre", pron: "uhn klee-YAHN kuh lohn REESK duh PEHR-druh", en: "a customer you risk losing" }
+  - { id: "c2-revising-your-style-v016", group: "glossary", fr: "appliqué (appliquer)", pron: "ah-plee-KAY", en: "applied (to apply)" }
+  - { id: "c2-revising-your-style-v017", group: "glossary", fr: "nonobstant", pron: "noh-nob-STAHN", en: "notwithstanding (very formal)" }
+  - { id: "c2-revising-your-style-v018", group: "glossary", fr: "susmentionnées (susmentionné)", pron: "sews-mahn-syoh-NAY", en: "above-mentioned (administrative)" }
+  - { id: "c2-revising-your-style-v019", group: "glossary", fr: "à l'accoutumée", pron: "ah lah-koo-tew-MAY", en: "as usual (literary)" }
+exercises:
+  - id: "c2-revising-your-style-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le défaut principal : Il y a un client qui a appelé qui voulait parler au directeur."
+    options: ["une cascade de relatives", "une rupture de registre", "une suite de compléments du nom"]
+    answers: ["une cascade de relatives"]
+    explanation: "Il y a… qui… qui… makes two relative clauses in a row. Un client a appelé pour parler au directeur is lighter."
+  - id: "c2-revising-your-style-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase qui contient une rupture de registre dans un rapport."
+    options: ["Le plan, il est bien, mais il est pas encore appliqué.", "Le plan est solide, mais il n'est pas encore appliqué.", "Ce plan est solide ; il reste à l'appliquer."]
+    answers: ["Le plan, il est bien, mais il est pas encore appliqué."]
+    explanation: "The dislocation (le plan, il…) and the dropped ne are spoken French; a report needs the written forms."
+  - id: "c2-revising-your-style-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez le verbe précis qui remplace « faire » : Nous avons fait une réunion lundi."
+    options: ["tenu", "mis", "dit"]
+    answers: ["tenu"]
+    explanation: "Tenir une réunion is the precise collocation. Organiser une réunion would also be good, but it isn't among the options."
+  - id: "c2-revising-your-style-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase la plus légère."
+    options: ["Le retard des livraisons inquiète les clients.", "Le retard de la livraison des commandes des clients inquiète les clients.", "Il y a un retard de livraison qui inquiète les clients qui attendent."]
+    answers: ["Le retard des livraisons inquiète les clients."]
+    explanation: "No chain of de, no il y a, no relative clause, and no repetition."
+  - id: "c2-revising-your-style-ex005"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe qui veut dire « rendre plus léger » : Il faut ___ cette phrase, elle est trop longue."
+    answers: ["alléger"]
+    explanation: "Alléger une phrase: to lighten it."
+  - id: "c2-revising-your-style-ex006"
+    type: "reformulation"
+    prompt: "Allégez en supprimant « il y a… qui » : Il y a beaucoup de clients qui se plaignent."
+    answers: ["Beaucoup de clients se plaignent", "De nombreux clients se plaignent"]
+    explanation: "The subject goes straight before the verb. Beaucoup de and de nombreux are both good; de nombreux is a little more formal."
+  - id: "c2-revising-your-style-ex007"
+    type: "reformulation"
+    prompt: "Allégez en remplaçant la relative par un adjectif : C'est un problème qui est important."
+    answers: ["C'est un problème important"]
+    explanation: "Qui est + adjective is usually just the adjective."
+  - id: "c2-revising-your-style-ex008"
+    type: "reformulation"
+    prompt: "Allégez la suite de compléments du nom, en gardant « le retard des livraisons » : Le retard de la livraison des commandes inquiète les responsables."
+    answers: ["Le retard des livraisons inquiète les responsables"]
+    explanation: "Livraisons already says what is delivered: de la livraison des commandes becomes des livraisons."
+  - id: "c2-revising-your-style-ex009"
+    type: "error-correction"
+    prompt: "Corrigez la rupture de registre, dans un rapport : C'est pour ça que les clients se plaignent."
+    answers: ["C'est pourquoi les clients se plaignent", "C'est la raison pour laquelle les clients se plaignent"]
+    explanation: "C'est pour ça que is spoken. Both written forms are good; c'est pourquoi is shorter."
+  - id: "c2-revising-your-style-ex010"
+    type: "error-correction"
+    prompt: "Corrigez la répétition avec le pronom « les » : Nous avons reçu des remarques et nous étudions ces remarques."
+    answers: ["Nous avons reçu des remarques et nous les étudions"]
+    explanation: "Une reprise pronominale (les) avoids repeating the noun."
+  - id: "c2-revising-your-style-ex011"
+    type: "translate"
+    prompt: "Traduisez (alléger) : This sentence needs to be lightened."
+    answers: ["Il faut alléger cette phrase", "Cette phrase doit être allégée"]
+    explanation: "Alléger une phrase. Both the impersonal il faut and the passive are good here."
+  - id: "c2-revising-your-style-ex012"
+    type: "translate"
+    prompt: "Traduisez (une rupture de registre) : This word is a break in register."
+    answers: ["Ce mot est une rupture de registre", "Ce mot crée une rupture de registre"]
+    explanation: "Une rupture de registre: a word or a form that doesn't match the register of the text."
+  - id: "c2-revising-your-style-ex013"
+    type: "translate"
+    prompt: "Traduisez avec un verbe précis (tenir, au passé composé) : We held a meeting on Monday."
+    answers: ["Nous avons tenu une réunion lundi", "On a tenu une réunion lundi"]
+    explanation: "Tenir une réunion replaces the catch-all faire une réunion. On is spoken; nous suits a report."
+    strictAccents: true
+  - id: "c2-revising-your-style-ex014"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : This plan is solid but not yet applied."
+    words: ["Ce", "plan", "est", "solide", "mais", "pas", "encore", "appliqué"]
+    answers: ["Ce plan est solide mais pas encore appliqué"]
+    explanation: "A light sentence: one subject, one verb, and an ellipsis of est after mais."
+  - id: "c2-revising-your-style-ex015"
+    type: "multiple-choice"
+    prompt: "Indiquez la meilleure façon d'éviter la répétition de « le plan » dans un texte soigné."
+    options: ["a pronoun or ce plan", "repeat it in capital letters", "use the familiar word le truc"]
+    answers: ["a pronoun or ce plan"]
+    explanation: "A pronoun (il, le) or a demonstrative (ce plan) avoids the repetition; le truc is familiar."
+  - id: "c2-revising-your-style-ex016"
+    type: "writing-task"
+    prompt: "Allégez ce paragraphe (40 à 80 mots), puis comparez avec le modèle : « Il y a des employés qui ont dit qu'il y a des problèmes avec le logiciel qui est utilisé pour la gestion des congés des employés du service, et ces problèmes, il faut qu'on les règle vite, parce que les employés, ils sont mécontents. »"
+    model: "Plusieurs employés ont signalé des problèmes avec le logiciel de gestion des congés du service. Nous devons les régler rapidement, car ces dysfonctionnements suscitent un vif mécontentement."
+    checklist: ["Did you remove every il y a… qui?", "Did you shorten the chain of de (logiciel de gestion des congés)?", "Did you avoid repeating employés and problèmes?", "Did you remove the spoken forms (on, ils sont mécontents after a dislocation)?", "Did you replace the catch-all verbs with precise ones?"]
+    wordTarget: [20, 80]
+---
+
+By the end of this lesson you'll be able to reread your own French and make it lighter, clearer and more consistent: fewer heavy chains, fewer repetitions, no register breaks, and precise verbs.
+
+## What you already know
+
+You know how to replace a catch-all verb with a precise one (*effectuer*, *procéder à*, *aborder*) from <LessonLink id="c1-precise-verbs" text="the lesson on precise verbs" />, and how to move between registers from <LessonLink id="c1-register-shifting" text="the lesson on register shifting" />. You know *une grille de relecture* from <LessonLink id="c1-exam-written-tasks" text="the lesson on written tasks" />, and the tools of style (rhythm, parataxis, the short sentence) from <LessonLink id="c2-stylistic-analysis" text="the lesson on style" />. This lesson is about using them on your own texts, which is harder than on someone else's.
+
+## Why your own text is hard to revise
+
+<VocabTable group="terms" />
+
+When you reread your own text, you read what you meant to write, not what you wrote. That's why *une lourdeur* (a heavy, clumsy passage) or *une phrase bancale* (a shaky sentence) can survive several readings. Revising means reading as a stranger would: slowly, sentence by sentence, asking whether each one could be shorter or clearer. To *alléger une phrase* (lighten a sentence) and *fluidifier* (make flow) a text are the two aims.
+
+<Example fr="Une phrase bancale mélange deux constructions ; il faut la refaire pour fluidifier le texte." en="A shaky sentence mixes two constructions; you have to rebuild it to make the text flow." />
+
+<Example fr="Il faut alléger cette phrase : elle contient trois relatives et deux répétitions." en="This sentence needs lightening: it contains three relative clauses and two repetitions." />
+
+## Heavy constructions
+
+<VocabTable group="heavy" />
+
+Four constructions make French heavy, and each has a usual remedy.
+
+- **A chain of relative clauses**, *une cascade de relatives* (*un client qui a appelé qui voulait…*). Remove one: use an adjective, a participle, an infinitive or a new sentence.
+- **A chain of noun complements**, *une suite de compléments du nom* (*le retard de la livraison des commandes des clients*). Keep only what's needed: *le retard des livraisons*.
+- **Il y a… qui**. It delays the subject: *il y a beaucoup de clients qui se plaignent* is *beaucoup de clients se plaignent*.
+- **A catch-all verb**, *un verbe passe-partout*: *faire*, *mettre*, *dire*, *avoir*. Replace it with the precise one: *tenir une réunion* (hold a meeting), *régler un problème* (settle a problem), *formuler une remarque*.
+
+<Example fr="Une cascade de relatives rend la phrase lourde." en="A chain of relative clauses makes the sentence heavy." />
+
+<Example fr="Un verbe passe-partout comme « faire » n'est pas souvent le mot juste." en="A catch-all verb such as 'faire' is rarely the exact word." />
+
+<Example fr="La gestion des congés du service sera bientôt plus simple." en="The management of the department's leave will soon be simpler." />
+
+<Example fr="Nous avons tenu une réunion pour régler ce problème." en="We held a meeting to settle this problem." />
+
+A long sentence isn't heavy in itself. A period can be long and light; a short sentence can be heavy if it's built on *il y a… qui… que*. What matters is whether each word does a job.
+
+## Repetitions
+
+<VocabTable group="repeat" />
+
+A repetition, *une répétition*, which you know from C1, isn't always a fault: a key word can come back on purpose, and an anaphora is a figure. But an unwanted repetition makes a text sound careless. There are three remedies:
+
+- **A pronoun**, *une reprise pronominale*: *nous avons reçu des remarques et nous les étudions*.
+- **A demonstrative or a synonym**: *ce plan*, *cette mesure*, *ce dispositif*. You know synonyms and near-synonyms from C1.
+- **Restructuring**: merge two sentences so that the noun appears once.
+
+Be careful with synonyms: a synonym that's less precise than the repeated word is worse than the repetition.
+
+<Example fr="Une reprise pronominale évite de répéter le même nom." en="A pronoun used in place of a noun avoids repeating the same noun." />
+
+## Register breaks
+
+<VocabTable group="register" />
+
+*Une rupture de registre* (a break in register) is a word or a form from another register: *plein de*, *c'est pour ça que*, *il est pas*, a dislocation such as *le plan, il est bien*, or *on* for *nous* in a report. In a formal text, replace them with the written forms: *de nombreux*, *c'est pourquoi*, *il n'est pas*, *ce plan est solide*, *nous*.
+
+<Example fr="Les clients sont mécontents, c'est pourquoi la directrice va présider une nouvelle réunion." en="The customers are dissatisfied, which is why the director is going to chair a new meeting." />
+
+A register break can also go the other way: a very formal word (*nonobstant*, *icelui*) in an everyday email sounds odd. The aim is consistency, not formality.
+
+## The model: two heavy texts and their revisions
+
+The texts below are original. Each faulty version is followed by its revision: two heavy texts, and one email written in the wrong register.
+
+*Version lourde. Il y a un problème qui est important qu'il faut que nous réglions, c'est le problème du retard de la livraison des commandes des clients de la région. Il y a beaucoup de clients qui ont fait des remarques, et ces remarques, il faut les prendre en compte, car les clients sont mécontents, et des clients mécontents, c'est grave. On a fait une réunion, où on a dit plein de choses, et on a mis en place un plan. Le plan, il est bien, mais il est pas encore appliqué, et c'est pour ça que les clients continuent à se plaindre que les commandes arrivent en retard.*
+
+*Version allégée. Nous devons régler un problème important : le retard des livraisons dans la région. De nombreux clients s'en sont plaints, et leurs remarques méritent d'être prises en compte, car un client mécontent est un client que l'on risque de perdre. Lors d'une réunion, nous avons analysé la situation et adopté un plan. Ce plan est solide, mais il n'est pas encore appliqué : c'est pourquoi les clients continuent de constater des retards.*
+
+*Version lourde. Je vous écris pour vous dire que la réunion qui était prévue jeudi, qui devait avoir lieu dans la salle qui se trouve au deuxième étage, est reportée, parce que la directrice, qui devait la présider, ne peut pas venir, vu qu'elle est malade, et qu'elle ne pourra pas revenir avant la semaine prochaine.*
+
+*Version allégée. La réunion de jeudi, prévue dans la salle du deuxième étage, est reportée : la directrice, qui devait la présider, est malade jusqu'à la semaine prochaine.*
+
+*Version trop soutenue, dans un courriel à des collègues. Nonobstant les difficultés susmentionnées, je me permets de vous rappeler que la pause café aura lieu, comme à l'accoutumée, à dix heures.*
+
+*Version corrigée. Malgré ces difficultés, la pause café aura lieu comme d'habitude, à dix heures.*
+
+(Heavy version. There's a problem that is important that we must settle, it's the problem of the delay of the delivery of the orders of the customers of the region. There are many customers who have made remarks, and these remarks, we must take them into account, because the customers are unhappy, and unhappy customers, that's serious. We had a meeting, where we said loads of things, and we set up a plan. The plan, it's good, but it isn't applied yet, and that's why the customers keep complaining that the orders arrive late. / Lightened version. We must settle an important problem: delivery delays in the region. Many customers have complained about them, and their remarks deserve to be taken into account, because an unhappy customer is a customer you risk losing. At a meeting, we analysed the situation and adopted a plan. This plan is sound, but it hasn't been applied yet: that's why customers keep noticing delays. / Heavy version. I'm writing to tell you that the meeting that was planned for Thursday, which was to take place in the room that is on the second floor, is postponed, because the director, who was to chair it, can't come, since she is ill, and since she won't be able to come back before next week. / Lightened version. Thursday's meeting, planned in the second-floor room, is postponed: the director, who was to chair it, is ill until next week. / Too formal, in an email to colleagues. Notwithstanding the above-mentioned difficulties, I take the liberty of reminding you that the coffee break will take place, as is customary, at ten o'clock. / Corrected version. Despite these difficulties, the coffee break will take place as usual, at ten o'clock.)
+
+<VocabTable group="glossary" />
+
+## How the revisions work
+
+- **The cascades of relatives** (*un problème qui est important qu'il faut que…*; *la réunion qui était prévue…, qui devait…, dans la salle qui se trouve…*) become an adjective (*important*), a participle (*prévue*) and a noun complement (*du deuxième étage*). One relative clause is kept, because it's useful: *qui devait la présider*.
+- **The chain of de** (*du retard de la livraison des commandes des clients*) becomes *le retard des livraisons*.
+- **Il y a… qui** becomes a plain subject: *de nombreux clients*.
+- **The catch-all verbs** (*faire une réunion*, *dire plein de choses*, *mettre en place*) become *lors d'une réunion*, *analyser*, *adopter*.
+- **The repetitions** of *clients*, *remarques* and *plan* become a pronoun (*s'en sont plaints*), a possessive (*leurs remarques*) and a demonstrative (*ce plan*).
+- **The register breaks** (*plein de*, *on*, *le plan, il est*, *il est pas*, *c'est pour ça*) become the written forms. In the second text, *je vous écris pour vous dire que* is simply dropped: the message itself says it.
+- **The register break the other way**, in the third text: *nonobstant*, *susmentionnées* and *à l'accoutumée* belong to administrative or literary French, not to an email between colleagues. The revision keeps the same information in everyday written French: *malgré*, *ces*, *comme d'habitude*.
+
+Other choices would also be good: *beaucoup de clients* instead of *de nombreux clients*, or *c'est la raison pour laquelle* instead of *c'est pourquoi*. Revision has few single right answers; what counts is that each change makes the text lighter or clearer.
+
+## En français
+
+Lucas has written a report; Inès, his manager, reads it with him. They use *tu*.
+
+- *Lucas, ton rapport est complet, mais certaines phrases sont lourdes.* (Lucas, your report is complete, but some sentences are heavy.)
+- *Lesquelles ? Je l'ai relu deux fois.* (Which ones? I reread it twice.)
+- *La première : « Il y a un problème qui est important qu'il faut que nous réglions ».* (The first: "Il y a un problème qui est important qu'il faut que nous réglions".)
+- *Trois relatives… Je peux écrire « Nous devons régler un problème important » ?* (Three relative clauses… Can I write "Nous devons régler un problème important"?)
+- *Oui, c'est beaucoup plus léger. Et le « on » partout ?* (Yes, that's much lighter. And the "on" everywhere?)
+- *Dans un rapport, je mets « nous ». Et je supprime « plein de choses ».* (In a report, I'll put "nous". And I'll remove "plein de choses".)
+- *Remplace aussi « on a fait une réunion » par un verbe précis.* (Also replace "on a fait une réunion" with a precise verb.)
+- *« Nous avons tenu une réunion », ou « lors d'une réunion, nous avons… ».* ("Nous avons tenu une réunion", or "lors d'une réunion, nous avons…".)
+- *Les deux sont bien. Et « le plan, il est bien » ?* (Both are good. And "le plan, il est bien"?)
+- *C'est de l'oral. J'écris « ce plan est solide ».* (That's spoken French. I'll write "ce plan est solide".)
+- *Parfait. Dernière chose : tu répètes « clients » cinq fois dans le paragraphe.* (Perfect. One last thing: you repeat "clients" five times in the paragraph.)
+- *Je garde le premier, et je remplace les autres par un pronom ou je change la phrase.* (I'll keep the first one, and replace the others with a pronoun or change the sentence.)
+
+<Callout type="warning" title="C'est pourquoi, not c'est pour ça, in a report">
+  Learners who speak French well often let spoken connectors into their writing: *c'est pour ça que*, *du coup*, *en fait*. In a report or a letter, use the written forms: **c'est pourquoi**, **c'est la raison pour laquelle**, **par conséquent**. Keep *c'est pour ça que* for conversation.
+</Callout>
+
+<Callout type="tip" title="Search for il y a and qui">
+  Before you hand in a text, use your word processor's search to find every *il y a* and every *qui*, one after the other. For each one, ask whether the sentence would be lighter without it. You won't remove them all, but you'll find most of your heavy sentences in a few minutes.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-review-writing" text="the review of this unit" /> follows one text through every stage of the unit: notes, draft, revision and contraction.
+
+===== content/lessons/c2/review-writing.mdx =====
+---
+id: "c2-review-writing"
+title: "Review: Writing at length"
+description: "Review Unit 5 by following one invented text through four stages (notes, first draft, revised draft, contraction), with one exercise per lesson of the unit and a writing task."
+level: "C2"
+unit: "Writing at length and translating"
+order: 30
+type: "review"
+tags: ["review", "writing", "revision", "contraction", "translation"]
+prerequisites: ["c2-contraction-de-texte", "c2-long-essay", "c2-version", "c2-theme", "c2-revising-your-style"]
+related: ["c2-review-form", "c2-review-words"]
+vocab:
+  - { id: "c2-review-writing-v001", group: "new", fr: "un premier jet", pron: "uhn pruh-myay ZHEH", en: "a first draft" }
+  - { id: "c2-review-writing-v002", group: "new", fr: "rédiger au propre", pron: "ray-dee-ZHAY oh PROH-pruh", en: "to write out a clean copy" }
+  - { id: "c2-review-writing-v003", group: "new", fr: "peaufiner", pron: "poh-fee-NAY", en: "to polish, to put the finishing touches to" }
+  - { id: "c2-review-writing-v004", group: "new", fr: "la mise en page", pron: "lah mee-zahn PAHZH", en: "the layout" }
+  - { id: "c2-review-writing-v005", group: "new", fr: "une révision", pron: "ewn ray-vee-ZYOHN", en: "a revision (rereading and improving a text)" }
+  - { id: "c2-review-writing-v006", group: "glossary", fr: "un jardin partagé", pron: "uhn zhar-DAN par-tah-ZHAY", en: "a community garden" }
+  - { id: "c2-review-writing-v007", group: "glossary", fr: "les légumes (m.)", pron: "lay lay-GEWM", en: "vegetables" }
+  - { id: "c2-review-writing-v008", group: "glossary", fr: "récupérer l'eau de pluie", pron: "ray-kew-pay-RAY loh duh PLWEE", en: "to collect rainwater" }
+  - { id: "c2-review-writing-v009", group: "glossary", fr: "nocturnes (nocturne)", pron: "nok-TEWRN", en: "night-time, at night" }
+  - { id: "c2-review-writing-v010", group: "glossary", fr: "un anniversaire", pron: "uh-nah-nee-vehr-SEHR", en: "an anniversary; a birthday" }
+  - { id: "c2-review-writing-v011", group: "glossary", fr: "positifs (positif)", pron: "poh-zee-TEEF", en: "positive" }
+  - { id: "c2-review-writing-v012", group: "glossary", fr: "pousser (faire pousser)", pron: "poo-SAY", en: "to grow (to make grow)" }
+  - { id: "c2-review-writing-v013", group: "glossary", fr: "cultivent (cultiver)", pron: "kewl-TEEV", en: "grow, cultivate" }
+  - { id: "c2-review-writing-v014", group: "glossary", fr: "s'inscrire auprès de", pron: "san-SKREER oh-PREH duh", en: "to sign up with" }
+exercises:
+  - id: "c2-review-writing-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase qui convient dans une contraction de la version revue."
+    options: ["L'association cherche des bénévoles le samedi.", "L'auteur dit que l'association cherche des bénévoles.", "Heureusement, l'association cherche des bénévoles."]
+    answers: ["L'association cherche des bénévoles le samedi."]
+    explanation: "A contraction keeps the author's voice (no l'auteur dit) and adds no comment (no heureusement) (c2-contraction-de-texte)."
+  - id: "c2-review-writing-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez la phrase qui est du remplissage dans un article."
+    options: ["Depuis toujours, l'homme aime les jardins.", "Une quarantaine de familles cultivent le jardin.", "L'association cherche des bénévoles."]
+    answers: ["Depuis toujours, l'homme aime les jardins."]
+    explanation: "A sweeping statement that could open any text adds nothing (c2-long-essay)."
+  - id: "c2-review-writing-ex003"
+    type: "translate"
+    prompt: "Traduisez en anglais : Le jardin fête son premier anniversaire."
+    answers: ["The garden is celebrating its first anniversary", "The garden celebrates its first anniversary", "The garden is celebrating its first birthday", "The garden celebrates its first birthday"]
+    explanation: "Fêter son premier anniversaire: to celebrate its first anniversary, or, more lightly, its first birthday (c2-version)."
+  - id: "c2-review-writing-ex004"
+    type: "translate"
+    prompt: "Traduisez avec un chassé-croisé, au passé composé (entrer) : The children ran into the garden."
+    answers: ["Les enfants sont entrés dans le jardin en courant"]
+    explanation: "The movement goes into the verb (entrer), the manner after it (en courant) (c2-theme)."
+    strictAccents: true
+  - id: "c2-review-writing-ex005"
+    type: "reformulation"
+    prompt: "Allégez en supprimant « il y a… qui » : Il y a une quarantaine de familles qui y viennent."
+    answers: ["Une quarantaine de familles y viennent", "Une quarantaine de familles y vient"]
+    explanation: "The subject goes straight before the verb. After une quarantaine de + plural noun, the verb is usually plural, but the singular is also found (c2-revising-your-style)."
+  - id: "c2-review-writing-ex006"
+    type: "fill-in"
+    prompt: "Complétez : La première version d'un texte, écrite sans s'arrêter, est un premier ___."
+    answers: ["jet"]
+    explanation: "Un premier jet: a first draft."
+  - id: "c2-review-writing-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe qui veut dire « faire les derniers petits changements » : Avant de publier l'article, il faut le ___."
+    answers: ["peaufiner"]
+    explanation: "Peaufiner: to polish, to put the finishing touches to."
+  - id: "c2-review-writing-ex008"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « la mise en page »."
+    options: ["the layout of the text on the page", "the first draft", "the word count"]
+    answers: ["the layout of the text on the page"]
+    explanation: "La mise en page: how the text is arranged (titles, paragraphs, spacing). You know mettre en page from B2."
+  - id: "c2-review-writing-ex009"
+    type: "error-correction"
+    prompt: "Corrigez la rupture de registre : Le jardin, il plaît beaucoup."
+    answers: ["Le jardin plaît beaucoup"]
+    explanation: "The dislocation (le jardin, il…) is spoken; written French keeps one subject."
+  - id: "c2-review-writing-ex010"
+    type: "error-correction"
+    prompt: "Corrigez le verbe passe-partout, avec « tenir » : L'association a fait une réunion."
+    answers: ["L'association a tenu une réunion"]
+    explanation: "Tenir une réunion is the precise collocation."
+    strictAccents: true
+  - id: "c2-review-writing-ex011"
+    type: "reformulation"
+    prompt: "Allégez en supprimant « il y a » : Il y a eu des vols de légumes la nuit."
+    answers: ["Des légumes ont été volés la nuit", "Des vols de légumes ont eu lieu la nuit"]
+    explanation: "Both remove il y a: a passive with the vegetables as subject, or avoir lieu with the thefts as subject."
+    strictAccents: true
+  - id: "c2-review-writing-ex012"
+    type: "translate"
+    prompt: "Traduisez (un premier jet) : This is only a first draft."
+    answers: ["Ce n'est qu'un premier jet", "C'est seulement un premier jet"]
+    explanation: "Un premier jet: a first draft; ne… que for only."
+  - id: "c2-review-writing-ex013"
+    type: "translate"
+    prompt: "Traduisez (rédiger au propre, au futur proche) : I'm going to write out the clean copy tonight."
+    answers: ["Je vais rédiger au propre ce soir", "Ce soir, je vais rédiger au propre"]
+    explanation: "Rédiger au propre: to write out the final, clean version."
+  - id: "c2-review-writing-ex014"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : First the notes, then the draft, then the revision."
+    words: ["D'abord", "les", "notes", "puis", "le", "premier", "jet", "puis", "la", "révision"]
+    answers: ["D'abord les notes, puis le premier jet, puis la révision"]
+    explanation: "The order of the stages: notes, first draft, revision."
+  - id: "c2-review-writing-ex015"
+    type: "multiple-choice"
+    prompt: "Indiquez l'étape qui vient après la version revue, quand on demande un texte plus court."
+    options: ["the contraction", "the notes", "the first draft"]
+    answers: ["the contraction"]
+    explanation: "The contraction reduces the revised text to the proportion asked for."
+  - id: "c2-review-writing-ex016"
+    type: "writing-task"
+    prompt: "À partir de ces notes, rédigez un court article de 60 à 100 mots, puis relisez-le : « Fête de quartier, samedi 14 juin ; place de la Gare ; repas partagé, musique, jeux pour les enfants ; chacun apporte un plat ; besoin de bénévoles pour installer les tables. »"
+    model: "Le samedi 14 juin, la place de la Gare accueillera la fête du quartier. Au programme : un repas partagé, de la musique et des jeux pour les enfants. Le principe est simple : chacun apporte un plat, et tout le monde partage. Pour que la fête réussisse, l'association a besoin de bénévoles qui l'aideront à installer les tables dans la matinée. Ceux qui souhaitent participer peuvent s'inscrire auprès des organisateurs."
+    checklist: ["Did you turn the notes into full sentences, with no telegraphic style?", "Did you avoid il y a… qui and the catch-all verbs?", "Is there no spoken form (on, dislocation) in the article?", "Did you reread it once for the meaning and once for the spelling?", "Is your count between 60 and 100 words?"]
+    wordTarget: [60, 100]
+---
+
+By the end of this lesson you'll be able to take a text through every stage of the unit: from notes to a first draft, from the draft to a revised version, and from the revised version to a contraction.
+
+## What you've learned
+
+Skim this list, and go back to anything that feels shaky.
+
+- **The contraction**: you know how to reduce a text in the author's voice, with no *l'auteur dit*, and how to count words with one common convention, from <LessonLink id="c2-contraction-de-texte" text="the lesson on the contraction" />.
+- **The long essay**: you know *une idée directrice*, *un paragraphe argumentatif* and *le remplissage*, from <LessonLink id="c2-long-essay" text="the lesson on the long essay" />.
+- **The version**: you know *un faux sens*, *un calque* and the traps of tense and *on*, from <LessonLink id="c2-version" text="the lesson on the version" />.
+- **The thème**: you know *le chassé-croisé* and *l'étoffement*, from <LessonLink id="c2-theme" text="the lesson on the thème" />.
+- **Revision**: you know *une lourdeur*, *une cascade de relatives* and *une rupture de registre*, from <LessonLink id="c2-revising-your-style" text="the lesson on revising your writing" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+These five words name the stages of writing. *Une révision* (a revision) is the rereading that improves a text. *Un premier jet* (a first draft) is the text written straight out, without stopping to correct. *Peaufiner* (to polish) is the last work on details. *Rédiger au propre* is to write out the clean, final copy. *La mise en page* (the layout) is how the text sits on the page: title, paragraphs, spacing. You know *mettre en page* from B2.
+
+<Example fr="Le premier jet est souvent trop long : il faut ensuite le peaufiner." en="The first draft is often too long: you then have to polish it." />
+
+<Example fr="Une fois le texte relu, je le rédige au propre et je soigne la mise en page." en="Once the text has been reread, I write out the clean copy and take care over the layout." />
+
+## Four stages, one text
+
+Most long texts go through four stages. Each one has its own goal, and mixing them is the main cause of wasted time.
+
+1. **The notes.** Short, telegraphic, in the order of the plan. They're for you only, so their style doesn't matter; what matters is that every idea is there.
+2. **The first draft.** Write it straight out, from the notes, without correcting. It will be heavy, repetitive and full of spoken forms: that's normal.
+3. **The revised draft.** Now revise, with the tools of <LessonLink id="c2-revising-your-style" text="the lesson on revision" />: remove *il y a… qui*, the cascades of relatives, the repetitions, the catch-all verbs and the register breaks. Then *peaufiner* and *rédiger au propre*.
+4. **The contraction**, if a shorter version is needed: the skeleton of the revised text, in its own voice, counted with the convention of <LessonLink id="c2-contraction-de-texte" text="the lesson on the contraction" />.
+
+The stages of the version and the thème are the same: read and analyse (the notes), draft, revise as a text of the target language.
+
+## What changes between the stages
+
+From the notes to the first draft, you add sentences: verbs, links, articles. From the first draft to the revised draft, you mostly remove: words, repetitions, spoken forms. From the revised draft to the contraction, you remove again, but this time ideas of detail, keeping the skeleton.
+
+So the revised draft is often shorter than the first draft, and that's a good sign. A revision that makes the text longer usually adds padding.
+
+<Example fr="Une bonne révision rend souvent le texte plus court et plus clair." en="A good revision often makes the text shorter and clearer." />
+
+## Checking before you hand in
+
+Whatever the text, the last check is the same, and it takes only a few minutes. As a rule of thumb:
+
+- **Read it once for the meaning**, from beginning to end, as the reader will: does each paragraph follow from the one before?
+- **Read it once for the form**: agreements, accents, the tenses of Unit 1, the precise words of Unit 2.
+- **Count it** if there's a target, with the convention you've been given.
+- **Look at the layout**: a title if one is expected, paragraphs that match the ideas, nothing crowded.
+
+If you have time for only one of these, read for the meaning: a reader forgives a missing accent more easily than an unclear argument.
+
+## The model: one text, four stages
+
+The text below is original, for an invented association's newsletter. It's given at each stage.
+
+*Notes. Jardin partagé du quartier de la Gare : ouvert il y a un an ; une quarantaine de familles.*
+
+*Points positifs : des légumes, des liens entre voisins, les enfants découvrent la nature.*
+
+*Problèmes : manque d'eau en été ; quelques vols la nuit.*
+
+*Décisions de la réunion : récupérer l'eau de pluie ; fermer le jardin la nuit.*
+
+*Appel : des bénévoles le samedi matin, peut-être le dimanche.*
+
+*Premier jet. Il y a maintenant un an que le jardin partagé du quartier de la Gare a ouvert, et il y a une quarantaine de familles qui y viennent. Le jardin, il plaît beaucoup : on y fait pousser plein de légumes, les voisins se parlent et les enfants découvrent la nature. Mais il y a des problèmes qu'il faut régler. L'été, il y a un manque d'eau, et il y a eu des vols de légumes la nuit, ce qui est un problème. On a fait une réunion et on a décidé de récupérer l'eau de pluie et de fermer le jardin la nuit. Pour ça, on a besoin de bénévoles le samedi matin, et peut-être aussi le dimanche.*
+
+*Version revue. Le jardin partagé du quartier de la Gare fête son premier anniversaire. Une quarantaine de familles le cultivent aujourd'hui, et son succès dépasse les légumes : les voisins s'y rencontrent, et les enfants y découvrent la nature. Deux difficultés restent pourtant à régler : le manque d'eau en été et quelques vols nocturnes. Lors de sa dernière réunion, l'association a décidé de récupérer l'eau de pluie et de fermer le jardin la nuit. Elle cherche donc des bénévoles pour le samedi matin, et peut-être aussi pour le dimanche. Ceux qui souhaitent participer peuvent s'inscrire auprès de l'association, à la sortie du jardin.*
+
+*Contraction. Un an après son ouverture, le jardin partagé du quartier de la Gare réunit une quarantaine de familles et rapproche les voisins. Pour lutter contre le manque d'eau et les vols, l'association cherche des bénévoles le samedi.*
+
+<VocabTable group="glossary" />
+
+(Notes. Community garden in the Gare district: opened a year ago; about forty families. Good points: vegetables, ties between neighbours, children discover nature. Problems: lack of water in summer; a few thefts at night. Decisions of the meeting: collect rainwater; close the garden at night. Appeal: volunteers on Saturday mornings, perhaps on Sundays. / First draft. It's now a year since the community garden in the Gare district opened, and there are about forty families who come to it. The garden, people like it a lot: we grow loads of vegetables there, the neighbours talk to each other and the children discover nature. But there are problems that need settling. In summer, there's a lack of water, and there have been thefts of vegetables at night, which is a problem. We had a meeting and we decided to collect rainwater and close the garden at night. For that, we need volunteers on Saturday mornings, and perhaps also on Sundays. / Revised version. The community garden in the Gare district is celebrating its first anniversary. About forty families now grow vegetables there, and its success goes beyond vegetables: the neighbours meet there, and the children discover nature. Two difficulties still need to be settled, though: the lack of water in summer and a few night-time thefts. At its last meeting, the association decided to collect rainwater and close the garden at night. So it's looking for volunteers for Saturday mornings, and perhaps also for Sundays. Those who wish to take part can sign up with the association, at the garden's exit. / Contraction. A year after it opened, the community garden in the Gare district brings together about forty families and brings neighbours closer. To fight the lack of water and the thefts, the association is looking for volunteers on Saturdays.)
+
+## How the text changes
+
+- **From the notes to the first draft**, every line becomes a sentence; the five points come in the same order.
+- **The first draft** has every fault of the unit: *il y a… qui* (twice), a dislocation (*le jardin, il plaît*), *on*, *plein de*, a catch-all verb (*on a fait une réunion*), a repetition (*problème*), and *pour ça*.
+- **The revised draft** removes them all: a plain subject (*une quarantaine de familles le cultivent*), precise verbs (*fête*, *cultivent*, *lors de sa dernière réunion*), *l'association* instead of *on*, and *donc* instead of *pour ça*. It counts 107 words, against 123 for the first draft (labels left out).
+- **The contraction** reduces the revised draft (107 words) to about a third: 39 words, counted with the lesson's convention, within the tolerance (32 to 39). It keeps the order and the voice, and drops the details (the anniversary, the place to sign up).
+
+## Your turn
+
+Take the notes in the writing task, which are about a neighbourhood party, and go through the stages: write a first draft without stopping, revise it with the tools of the unit, then count your words. The task gives you a word target, a checklist and a model to compare with when you've finished.
+
+<Callout type="warning" title="Don't revise while you draft">
+  Learners who write carefully often correct every sentence as they write it, and never finish the first draft. Writing and revising are two different tasks: **write the whole first draft first**, even if it's heavy, then **revise it as a whole**. You'll see the repetitions and the heavy passages much better once the text is complete.
+</Callout>
+
+<Callout type="tip" title="Let the draft rest before you revise">
+  When you can, leave a few hours, or a night, between the first draft and the revision. You'll come back to the text almost as a stranger would, and the heavy sentences you didn't see while writing will stand out at once.
+</Callout>
+
+## What's next
+
+The next unit is about mediation and negotiation. It starts with the lesson on mediation.
+

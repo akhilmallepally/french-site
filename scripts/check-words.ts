@@ -52,7 +52,7 @@ iser ation ible able ité im ir il dé ifier isme iste logie cratie phobe cide a
 inlégal délégal nettoyation arrivement inréaliste changeage
 réunionocratie notificophobe déréunionner
 software franceterme
-valbrune rivière mme benali xixe
+valbrune rivière mme benali xixe garnier ii iii marthe
 `.trim().split(/\s+/));
 
 const ROOT = process.cwd();
@@ -204,8 +204,20 @@ function segments(l: Lesson): string[] {
       out.push(i >= 0 ? q.slice(i + 2) : q);
     }
   }
+  // C2 only (translation lessons): English quoted inside a French line, in « », is left out when
+  // it has no French accent and at least one known English word; reorder chips are left out when
+  // their answer is English.
+  let kept = out;
+  if (l.rank >= C2_RANK) {
+    const looksEnglish = (q: string) => !/[àâçéèêëîïôûùüÿœ]/i.test(q) && tokens(q).some((w) => isEnglishWord(w, true));
+    kept = out.map((s) => s.replace(/«\s*([^»]*?)\s*»/g, (m, q) => (looksEnglish(q) ? " " : m)));
+    for (const e of l.exercises ?? []) if (e.type === "reorder" && (e.answers ?? []).some((x) => isEnglish(x, true))) {
+      const chips = new Set(e.words ?? []);
+      kept = kept.filter((s) => !chips.has(s));
+    }
+  }
   // answers and options that are only an ending (such as "-aient") aren't words
-  return out.filter((s) => !isEnglish(s, b2) && !s.trim().startsWith("-"));
+  return kept.filter((s) => !isEnglish(s, b2) && !s.trim().startsWith("-"));
 }
 
 const filter = process.argv[2];

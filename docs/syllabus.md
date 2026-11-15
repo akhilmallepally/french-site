@@ -521,7 +521,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 ## C2 · Mastery (planned)
 
-Planned in docs/plans/c2/ (Prompt 40). Units 1, 2 and 4 are written (Prompts 42 to 44); the other rows are planned and may change.
+Planned in docs/plans/c2/ (Prompt 40). Units 1, 2, 4 and 5 are written (Prompts 42 to 45); the other rows are planned and may change.
 
 ### Unit 1: Precision in form
 
@@ -571,12 +571,12 @@ Planned in docs/plans/c2/ (Prompt 40). Units 1, 2 and 4 are written (Prompts 42 
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 25 | c2-contraction-de-texte | The contraction and the résumé to a word count | Writing at length and translating | communication | b2-summarizing-an-article, c1-synthesis, c2-ellipsis-and-nominal-style | Planned. Reducing a text to a proportion, keeping its logic and voice. |
-| 26 | c2-long-essay | The long essay | Writing at length and translating | communication | c1-dissertation, c1-concession-and-hypothesis, c1-review-ideas | Planned. A full essay: paragraphs, parts, transitions, no padding. |
-| 27 | c2-version | Translating into English | Writing at length and translating | communication | b2-false-friends, c2-advanced-false-friends, c1-register-shifting | Planned. Version: method and traps (tenses, on, register, idioms). |
-| 28 | c2-theme | Translating into French | Writing at length and translating | communication | c1-precise-verbs, c1-collocations, c2-anglicisms-and-official-terms | Planned. Thème: method, structures to avoid, idiomatic equivalents. |
-| 29 | c2-revising-your-style | Revising your own writing | Writing at length and translating | communication | c1-exam-written-tasks, c1-register-shifting, c2-stylistic-analysis | Planned. Heaviness, repetition, register breaks, weak verbs. |
-| 30 | c2-review-writing | Review: Writing at length | Writing at length and translating | review | c2-contraction-de-texte, c2-long-essay, c2-version, c2-theme, c2-revising-your-style | Planned. One text from notes to contraction. |
+| 25 | c2-contraction-de-texte | The contraction and the résumé to a word count | Writing at length and translating | communication | b2-summarizing-an-article, c1-synthesis, c2-ellipsis-and-nominal-style | The rules (order, voice, no quotation, no comment), contraction vs synthesis, one common counting convention, a tolerance of about a tenth, the method (skeleton, cut, compress, count). Source text: an original article (409 words); models to a quarter and a third. |
+| 26 | c2-long-essay | The long essay | Writing at length and translating | communication | c1-dissertation, b2-argumentative-essay, c2-contraction-de-texte | Parts, sub-parts and the guiding idea; the argumentative paragraph; ideas without quotations; padding; transitions; managing length. Model: a detailed plan and one part in full. |
+| 27 | c2-version | Translating into English | Writing at length and translating | communication | c2-advanced-false-friends, c1-register-shifting, c2-long-essay | The method; the traps (tenses, on, idioms, false friends, register, sentence length); faux sens, non-sens, omission, surtraduction, calque; English keys. Model: an original story and its annotated translation. |
+| 28 | c2-theme | Translating into French | Writing at length and translating | communication | c2-version, c1-precise-verbs, c2-anglicisms-and-official-terms | The method and two dictionaries; the passive, noun stacks, -ing forms, possessives with the body; the chassé-croisé and étoffement. Model: an English notice, a literal French version and a corrected one. |
+| 29 | c2-revising-your-style | Revising your own writing | Writing at length and translating | communication | c1-precise-verbs, c1-register-shifting, c2-stylistic-analysis | Cascades of relatives and of noun complements, il y a, catch-all verbs, repetitions and their remedies, register breaks in both directions. Model: two heavy texts and a too-formal email, each revised. |
+| 30 | c2-review-writing | Review: Writing at length | Writing at length and translating | review | c2-contraction-de-texte, c2-long-essay, c2-version, c2-theme, c2-revising-your-style | One invented text through four stages (notes, first draft, revised draft, contraction), one exercise per lesson and a writing task. |
 
 ### Unit 6: Mediation and negotiation
 

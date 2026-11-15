@@ -1,6 +1,13 @@
 # C2 Unit 5 plan: Writing at length and translating
 
-Status: plan only. Rules: the "C2 conventions" in CLAUDE.md. **Writing (decided in Prompt 41, option C):** its main products are long texts that typed keys can't grade, so keyed sub-steps teach the method and each lesson may add one ungraded `writing-task` (model and self-check list), outside the exercise counts.
+Status: **written in Prompt 45.** Rules: the "C2 conventions" in CLAUDE.md. **Writing (decided in Prompt 41, option C):** its main products are long texts that typed keys can't grade, so keyed sub-steps teach the method and each lesson may add one ungraded `writing-task` (model and self-check list), outside the exercise counts.
+
+Changes made while writing (also in docs/syllabus.md):
+- Lesson 25: the article is a "Source text" section (409 words), so the longer text is the skeleton and the two model contractions; the lesson has no dialogue. Counts use lib/word-count.ts (the Prompt 45 convention).
+- Lesson 26: *une transition*, *un plan détaillé*, *une phrase de transition* and *une nuance* are recapped (B2, C1), not entered.
+- Lesson 27: *un contresens* is recapped from c1-exam-written-tasks; *une version* is in NEW_MEANINGS; *il pleut des cordes* is recapped from b2-idioms-everyday.
+- Lesson 28: *un thème* is in NEW_MEANINGS.
+- Lesson 29: *une répétition* is recapped from C1; a third model (a register break the other way) was added.
 
 ## 25. c2-contraction-de-texte: The contraction and the résumé to a word count (communication · harder)
 

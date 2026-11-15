@@ -4,7 +4,7 @@ Status: **plan approved (Prompts 41 and 42); conventions in CLAUDE.md since Prom
 
 ## Open questions
 
-1. **Word-count convention** (stays open until Unit 5). lib/word-count.ts counts an elided word separately (*l'homme* = 2), keeps hyphenated compounds whole (*peut-être* = 1, *c'est-à-dire* = 2) and counts a number in figures as one word. docs/review-needed.md ("C2 plan") asks whether the common French convention counts hyphenated words separately (*c'est-à-dire* = 4); the code is unchanged until that's decided.
+None at present.
 
 ## Shape
 
@@ -75,6 +75,7 @@ All pass with zero C2 lessons, and no A1 to C1 result changed.
 - **Recognition only (Prompt 41):** Old French, the literary concordance of the subjunctive, and traditional vs 1990 spellings (keys accept both spellings).
 - **Source-text heading (Prompt 42):** accepted: a text to comment on or contract goes under `## Source text: …`, and the validator checks it.
 - **Full public-domain source texts (Prompt 44):** allowed for a commentary: one complete text by a safe-list author, at most 600 words, copied from Wikisource or Gallica, with our own translation (see CLAUDE.md). c2-commentaire-de-texte uses Baudelaire's « Le Port ».
+- **Word-count convention (Prompt 45):** the common classroom convention (hyphens and apostrophes separate words, *aujourd'hui* = 1, a number = 1), in lib/word-count.ts and CLAUDE.md; conventions vary, and lessons say so.
 - **No exam practice (Prompt 41):** C2 has no exam-practice lessons, and no lesson names an exam.
 - **One review per unit and a final review**, as at C1.
 - **No re-teaching:** each lesson starts from docs/c2-coverage.md and c2-find, and recaps in two or three sentences.

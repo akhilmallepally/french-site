@@ -2133,6 +2133,7 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-implicit-meaning
 
+- **Prompt 45:** the neutral version now states exactly the facts of the opinion piece and no others; ex008 names the adverb (formed on *prétendre*); the ex001 explanation uses the negation test with *n'a toujours pas reconnu*. Confirm.
 - **The negation test** ("put the sentence in the negative: what stays was presupposed") and the list of presupposition triggers (*enfin*, *encore*, *toujours*, *arrêter de*, *recommencer à*, *même*, a definite article, *pourquoi*). Confirm as stated.
 - **"*Avouer* presents what's said as a fault, like a confession"** and *reconnaître* "that it's a concession". Confirm the nuances.
 - **"*Un chantier* is neutral; *un bétonnage* … pejorative; *un aménagement* … sounds positive."** Confirm.
@@ -2163,6 +2164,7 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-reading-the-press
 
+- **Prompt 45:** the chronique was rewritten with the marks of a column (a column name, *comme chaque lundi*, a reflective voice and a judgment drawn from the writer's own view); *pourrait ouvrir* in the dépêche is described as the conditional of *pouvoir* (a possibility), not as the conditionnel de prudence. Confirm.
 - **"L'éditorial gives the position of the newspaper itself, usually signed by the editor or a senior journalist."** Confirm "usually".
 - **"In a newspaper, these genres are often mixed on the same page."** Confirm.
 - **The model** is invented: the town, the agency (Info-Régions), the paper (*L'Écho de Valbrune*). No real paper, journalist or political line is named.
@@ -2170,6 +2172,42 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 ### c2-review-reading
 
 - **The tribune** is invented (the city, line 12, the association Nuit et Ville and Claire Morin). Confirm the analysis matches the text exactly (presupposition, scare quotes, the conditional, the slippery slope, the false dilemma, the ternary ending).
+
+### c2-contraction-de-texte
+
+- **The counts** (lib/word-count.ts, Prompt 45 convention): source 409 words; skeleton 97; model contraction to a quarter 110 (target 102, so 92 to 112); the third 141 (target 136, so 123 to 150); writing-task model, to a fifth, 79 (target 82, so 74 to 90). Checked by script against the lesson file.
+- **"The usual rules, as they're taught in French schools"** (order, voice, no quotation, nothing added). Confirm the wording makes no exam claim.
+- **The example count:** « Il faut, c'est-à-dire aujourd'hui, agir » = 8 words with the convention. Confirm.
+- **The source article** is original (no real study, no figures).
+
+### c2-long-essay
+
+- **"The introduction and the conclusion together take about a fifth of the essay."** Presented as a rule of thumb. Confirm.
+- **The model** is a detailed plan and one part in full (330 French words in the text sections), not a whole essay. The claims about machine translation are general (no product, no figures).
+
+### c2-version
+
+- **English keys:** lib/check-answer.ts ignores capitals and punctuation and treats straight and curly apostrophes alike, but *couldn't* and *could not* are different strings, so keys list both forms, and British and American variants where both are natural (*pupils* / *students*). Confirm the English keys of ex008 to ex013.
+- **"*Une agence immobilière* → *an estate agent's* (British; American English would say *a real estate agency*)."** Confirm.
+- **"*Actuellement* … in a story, *at that time*" (rendered *by then*).** Confirm the rendering.
+- **The story** is original.
+
+### c2-theme
+
+- **"French can't put *répondre* or *dire quelqu'un* in the passive."** Confirm as worded (*les appels sont répondus*, *nous avons été dits* are wrong).
+- **"Often, the manner can even be dropped, if it's obvious: *she walked in* is simply *elle est entrée*."** Confirm.
+- **The literal version** contains deliberate errors (*une ferme* for a firm, *sont répondus*, *à un temps de leur choix*, *traiter avec les plaintes*); the corrected version is the model. Confirm each correction.
+- **The notice** and the company are invented.
+
+### c2-revising-your-style
+
+- **"A long sentence isn't heavy in itself."** and the remedies listed for each heavy construction. Confirm.
+- **ex005 (review-writing) and ex006 here:** *une quarantaine de familles y viennent / y vient*, both accepted. Confirm that the singular is acceptable.
+- **The three model texts** are invented.
+
+### c2-review-writing
+
+- **The four stages and the counts:** first draft 123 words (labels left out), revised draft 107, contraction 39 (to about a third: 32 to 39). Checked by script.
 
 ## C2 plan
 
@@ -2198,7 +2236,7 @@ Every item is **to verify** before the lesson that relies on it is written (docs
 ### Reading and writing (Units 4 and 5)
 
 - **Unit 4 method and terms:** verified (Prompt 44 review): the commentary method (introduction with amorce, presentation, problématique and announced plan; development by axes de lecture with short embedded quotations; conclusion with an ouverture), presented as the usual method in French schools, with no exam claim; the literary registres (lyrique, tragique, comique, épique, pathétique, satirique), distinguished from the language registers; the figures (allitération, assonance, chiasme, asyndète, parataxe / hypotaxe, la période, the ternary rhythm).
-- **c2-contraction-de-texte:** to verify the counting convention taught (how *c'est-à-dire*, elisions and numbers count) and that the lesson presents it as one convention among others.
+- **Unit 5 method and terms:** verified (Prompt 45 review): the contraction (keep the author's order and voice, no *l'auteur dit*, no quotation, no personal comment, reformulate, reduce to a given proportion; a tolerance of about a tenth either way as a common rule of thumb, never an exam's rule); the translation terms (*faux sens*, *contresens*, *non-sens*, *omission*, *surtraduction*); the thème techniques (*étoffement*, *chassé-croisé*). The counting convention is the one in lib/word-count.ts (chosen in Prompt 45; conventions vary), and the lesson says so.
 - **c2-reading-the-press:** verified (Prompt 44 review): dépêche (an agency wire), éditorial (the paper's position), chronique (a regular column by the same writer), billet d'humeur (a short, personal opinion piece), tribune (an outside contributor), reportage, enquête, interview, brève; le chapeau, l'accroche, la titraille; the inverted pyramid.
 
 ### The language and its literatures (Unit 7)
@@ -2212,5 +2250,5 @@ Every item is **to verify** before the lesson that relies on it is written (docs
 ### General
 
 - **Quotation safe list at C2:** to verify that anonymous medieval texts may be quoted, and which edition each original-spelling quotation is taken from (Old and Middle French are quoted in the original for recognition, with our own modern French and English translations).
-- **Word-count convention (lib/word-count.ts):** to verify how French word counts (for contractions and résumés) treat apostrophes and hyphens. Chosen: an elided word counts separately (*l'homme* = 2, *qu'il* = 2), with exceptions that keep their apostrophe (*aujourd'hui*, *quelqu'un* = 1); hyphenated compounds count as one (*peut-être* = 1, *vingt-deux* = 1, so *c'est-à-dire* = 2); a number in figures is one word (*1 000* = 1, *3,5* = 1); punctuation alone isn't a word. Also to check: whether the common French convention counts hyphenated words separately (*c'est-à-dire* = 4) rather than whole. lib/word-count.ts is unchanged until this is decided (before Unit 5).
+- **Word-count convention (lib/word-count.ts):** chosen (Prompt 45); conventions vary. A word is any group of letters between spaces, hyphens or apostrophes (*c'est-à-dire* = 4, *peut-être* = 2, *l'homme* = 2, *qu'il* = 2), except *aujourd'hui* = 1; a number in figures is one word; punctuation alone is 0. Lessons that teach counting say it's one common convention and that institutions vary.
 - **No exam practice at C2:** to verify that no lesson describes the DALF C2 (format, timing, scoring).
