@@ -1,0 +1,1531 @@
+===== content/lessons/c2/implicit-meaning.mdx =====
+---
+id: "c2-implicit-meaning"
+title: "Presuppositions and implied meaning"
+description: "Read what a text says without saying it: presuppositions and the negation test, implied meaning, connotation, and modalisation (adverbs, verbs that judge, the conditionnel de prudence, quotation marks of distance), with an opinion piece and its neutral version."
+level: "C2"
+unit: "Reading between the lines"
+order: 19
+type: "communication"
+tags: ["reading", "implicit meaning", "presupposition", "connotation", "press"]
+prerequisites: ["c1-irony-and-understatement", "c1-euphemism-and-synonyms", "b2-reporting-verbs"]
+related: ["c1-culture-satire-and-humour", "c1-advanced-connectors", "c2-argument-analysis"]
+vocab:
+  - { id: "c2-implicit-meaning-v001", group: "terms", fr: "explicite / implicite", pron: "eks-plee-SEET / an-plee-SEET", en: "explicit / implicit" }
+  - { id: "c2-implicit-meaning-v002", group: "terms", fr: "un présupposé", pron: "uhn pray-sew-poh-ZAY", en: "a presupposition (what a sentence takes for granted)" }
+  - { id: "c2-implicit-meaning-v003", group: "terms", fr: "présupposer", pron: "pray-sew-poh-ZAY", en: "to presuppose, to take for granted" }
+  - { id: "c2-implicit-meaning-v004", group: "terms", fr: "laisser entendre", pron: "leh-SAY ahn-TAHN-druh", en: "to imply, to hint", note: "Il laisse entendre que…: he implies that…" }
+  - { id: "c2-implicit-meaning-v005", group: "terms", fr: "reconnaître une erreur (reconnu)", pron: "ruh-koh-NEH-truh ew-neh-RUHR", en: "to admit a mistake" }
+  - { id: "c2-implicit-meaning-v006", group: "words", fr: "la connotation", pron: "lah koh-noh-tah-SYOHN", en: "connotation (what a word suggests beyond its meaning)" }
+  - { id: "c2-implicit-meaning-v007", group: "words", fr: "péjoratif / péjorative", pron: "pay-zhoh-rah-TEEF / pay-zhoh-rah-TEEV", en: "pejorative, negative" }
+  - { id: "c2-implicit-meaning-v008", group: "words", fr: "mélioratif / méliorative", pron: "may-lyoh-rah-TEEF / may-lyoh-rah-TEEV", en: "positive (of a word's connotation)" }
+  - { id: "c2-implicit-meaning-v009", group: "words", fr: "une horde", pron: "ewn ORD", en: "a horde (pejorative for a crowd)" }
+  - { id: "c2-implicit-meaning-v010", group: "modal", fr: "la modalisation", pron: "lah moh-dah-lee-zah-SYOHN", en: "modalisation (how a writer signals certainty, doubt or judgment)" }
+  - { id: "c2-implicit-meaning-v011", group: "modal", fr: "un modalisateur", pron: "uhn moh-dah-lee-zah-TUHR", en: "a modalizer (a word that shows the writer's attitude)" }
+  - { id: "c2-implicit-meaning-v012", group: "modal", fr: "le conditionnel de prudence", pron: "luh kohn-dee-syoh-NEL duh proo-DAHNS", en: "the conditional of caution (for unconfirmed information)", note: "Le ministre serait malade: the minister is reportedly ill." }
+  - { id: "c2-implicit-meaning-v013", group: "modal", fr: "prétendument", pron: "pray-tahn-dew-MAHN", en: "supposedly, allegedly" }
+  - { id: "c2-implicit-meaning-v014", group: "modal", fr: "des guillemets de distance (m.)", pron: "day gee-yuh-MEH duh dees-TAHNS", en: "scare quotes (quotation marks that keep a word at a distance)" }
+  - { id: "c2-implicit-meaning-v015", group: "modal", fr: "prendre ses distances avec", pron: "PRAHN-druh say dees-TAHNS ah-VEK", en: "to distance yourself from" }
+  - { id: "c2-implicit-meaning-v016", group: "text", fr: "un parc", pron: "uhn PARK", en: "a park" }
+  - { id: "c2-implicit-meaning-v017", group: "glossary", fr: "les espaces verts (m.)", pron: "lay-zes-pahs VEHR", en: "green spaces, parks" }
+  - { id: "c2-implicit-meaning-v018", group: "glossary", fr: "se frottent les mains (se frotter les mains)", pron: "suh FROT lay MAN", en: "rub their hands (with satisfaction)" }
+  - { id: "c2-implicit-meaning-v019", group: "glossary", fr: "une poignée de", pron: "ewn pwah-NYAY duh", en: "a handful of" }
+  - { id: "c2-implicit-meaning-v020", group: "glossary", fr: "l'enthousiasme (m.)", pron: "lahn-too-ZYAHSM", en: "enthusiasm" }
+  - { id: "c2-implicit-meaning-v021", group: "glossary", fr: "une pelouse", pron: "ewn puh-LOOZ", en: "a lawn" }
+  - { id: "c2-implicit-meaning-v022", group: "glossary", fr: "curieusement", pron: "kew-ryuhz-MAHN", en: "curiously, oddly" }
+  - { id: "c2-implicit-meaning-v023", group: "glossary", fr: "ne se discute pas (se discuter)", pron: "nuh suh dees-KEWT PAH", en: "can't be questioned" }
+  - { id: "c2-implicit-meaning-v024", group: "glossary", fr: "le béton", pron: "luh bay-TOHN", en: "concrete" }
+  - { id: "c2-implicit-meaning-v025", group: "glossary", fr: "un promoteur / une promotrice", pron: "uhn proh-moh-TUHR / ewn proh-moh-TREES", en: "a property developer" }
+  - { id: "c2-implicit-meaning-v026", group: "glossary", fr: "des arbres (m.)", pron: "day-ZAR-bruh", en: "trees" }
+  - { id: "c2-implicit-meaning-v027", group: "glossary", fr: "juré (jurer)", pron: "zhew-RAY", en: "sworn (to swear)" }
+exercises:
+  - id: "c2-implicit-meaning-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le présupposé de la phrase : Le maire a enfin reconnu son erreur."
+    options: ["Before, the mayor hadn't admitted his mistake.", "The mayor will resign.", "The mayor never makes mistakes."]
+    answers: ["Before, the mayor hadn't admitted his mistake."]
+    explanation: "Enfin presupposes a long wait: until now, he hadn't admitted it. The negation test keeps it: le maire n'a pas encore reconnu son erreur still says that he made one."
+  - id: "c2-implicit-meaning-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le présupposé de la phrase : Paul a arrêté de fumer."
+    options: ["Before, Paul was someone who smoked.", "Paul has never smoked in his life.", "Paul wants to start smoking again."]
+    answers: ["Before, Paul was someone who smoked."]
+    explanation: "Arrêter de presupposes that the action happened before. The negation (Paul n'a pas arrêté de fumer) keeps the presupposition."
+  - id: "c2-implicit-meaning-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le présupposé de la question : Pourquoi la mairie a-t-elle caché le coût du projet ?"
+    options: ["The town hall hid the cost.", "The project costs nothing.", "The town hall has published the cost."]
+    answers: ["The town hall hid the cost."]
+    explanation: "A pourquoi question takes its content for granted: asking why someone hid something presupposes that they hid it."
+  - id: "c2-implicit-meaning-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot à connotation péjorative : Une ___ de touristes est arrivée sur la place."
+    options: ["horde", "foule", "file"]
+    answers: ["horde"]
+    explanation: "Une horde suggests a disorderly, threatening crowd. Foule (a crowd) and file (a queue) are neutral."
+  - id: "c2-implicit-meaning-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez ce que montrent les guillemets dans la phrase : La mairie parle d'un parking « moderne »."
+    options: ["The writer distances themselves from the word.", "The writer agrees with the word.", "The word is in English."]
+    answers: ["The writer distances themselves from the word."]
+    explanation: "Quotation marks of distance report a word without taking it on: the writer suggests it isn't the right word."
+  - id: "c2-implicit-meaning-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase la plus neutre."
+    options: ["Le maire affirme que le parc restera ouvert.", "Le maire prétend que le parc restera ouvert.", "Le maire ose dire que le parc restera ouvert."]
+    answers: ["Le maire affirme que le parc restera ouvert."]
+    explanation: "Affirmer reports a claim. Prétendre suggests that the claim is false, and oser dire that it's shocking."
+  - id: "c2-implicit-meaning-ex007"
+    type: "fill-in"
+    prompt: "Rendez explicite le présupposé de « Le maire a enfin reconnu son erreur » : Avant, le maire ___ pas reconnu son erreur."
+    answers: ["n'avait"]
+    explanation: "Before the moment described, he hadn't admitted it: plus-que-parfait, n'avait pas reconnu."
+  - id: "c2-implicit-meaning-ex008"
+    type: "fill-in"
+    prompt: "Complétez avec l'adverbe qui montre que l'auteur doute de l'information : Le projet a ___ été approuvé par tous les habitants."
+    answers: ["prétendument"]
+    explanation: "Prétendument (supposedly) reports a claim while showing doubt."
+  - id: "c2-implicit-meaning-ex009"
+    type: "reformulation"
+    prompt: "Reformulez comme un fait confirmé, sans conditionnel de prudence : Le directeur aurait démissionné."
+    answers: ["Le directeur a démissionné"]
+    explanation: "Aurait démissionné reports unconfirmed news; the passé composé presents it as a fact."
+    strictAccents: true
+  - id: "c2-implicit-meaning-ex010"
+    type: "reformulation"
+    prompt: "Reformulez de façon neutre en remplaçant « prétend » par « affirme » : La ministre prétend que la réforme est prête."
+    answers: ["La ministre affirme que la réforme est prête"]
+    explanation: "Affirmer reports the claim without suggesting it's false."
+  - id: "c2-implicit-meaning-ex011"
+    type: "error-correction"
+    prompt: "Corrigez le résumé pour qu'il soit neutre, avec le verbe « dire » : Selon l'article, le maire avoue que le projet a pris du retard."
+    answers: ["Selon l'article, le maire dit que le projet a pris du retard"]
+    explanation: "Avouer suggests a confession of something blameworthy. A neutral summary reports with dire."
+    strictAccents: true
+  - id: "c2-implicit-meaning-ex012"
+    type: "error-correction"
+    prompt: "Corrigez le résumé pour qu'il soit neutre, sans le mot péjoratif (une foule) : L'article décrit une horde de visiteurs dans le parc."
+    answers: ["L'article décrit une foule de visiteurs dans le parc"]
+    explanation: "Une horde is pejorative; une foule is neutral."
+  - id: "c2-implicit-meaning-ex013"
+    type: "translate"
+    prompt: "Traduisez avec le conditionnel de prudence : The minister is reportedly ill."
+    answers: ["Le ministre serait malade", "La ministre serait malade"]
+    explanation: "The conditionnel de prudence reports unconfirmed information: serait malade."
+  - id: "c2-implicit-meaning-ex014"
+    type: "translate"
+    prompt: "Traduisez (à en croire, le parc) : If the mayor is to be believed, the park will stay open."
+    answers: ["À en croire le maire, le parc restera ouvert", "À en croire la maire, le parc restera ouvert"]
+    explanation: "À en croire + person: if that person is to be believed. It keeps a distance from the claim."
+    strictAccents: true
+  - id: "c2-implicit-meaning-ex015"
+    type: "translate"
+    prompt: "Traduisez (laisser entendre, au passé composé) : She implied that the project was too expensive."
+    answers: ["Elle a laissé entendre que le projet était trop cher", "Elle a laissé entendre que le projet coûtait trop cher"]
+    explanation: "Laisser entendre que: to imply that, without saying it directly."
+    strictAccents: true
+  - id: "c2-implicit-meaning-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The writer distances himself from this word."
+    words: ["L'auteur", "prend", "ses", "distances", "avec", "ce", "mot"]
+    answers: ["L'auteur prend ses distances avec ce mot"]
+    explanation: "Prendre ses distances avec: to distance yourself from."
+---
+
+By the end of this lesson you'll be able to read what a French text says without saying it: what it takes for granted, what it suggests, and how its words carry a judgment.
+
+## What you already know
+
+You know irony and *l'antiphrase* from <LessonLink id="c1-irony-and-understatement" text="the lesson on irony and understatement" />, and *un sous-entendu* (an insinuation) from <LessonLink id="c1-culture-satire-and-humour" text="the lesson on satire and humour" />. You know that a reporting verb can judge a claim (*prétendre* against *affirmer*) from <LessonLink id="b2-reporting-verbs" text="the lesson on reporting verbs" />, and *à en croire* from <LessonLink id="c1-advanced-connectors" text="the lesson on advanced connectors" />. This lesson turns those observations into a method for reading any text.
+
+## Explicit and implicit
+
+<VocabTable group="terms" />
+
+What a text says in so many words is *explicite* (explicit). What it lets you understand without stating it is *implicite* (implicit). The implicit comes in two forms, and the difference matters when you summarize or analyse a text.
+
+**A presupposition** (*un présupposé*) is what a sentence takes for granted. *Le maire a enfin reconnu son erreur* asserts that he admitted it, and *présuppose* (presupposes) two more things: that he made a mistake, and that he took a long time to admit it. The reader accepts these without noticing, because they aren't the point of the sentence.
+
+**An implied meaning** (*un sous-entendu*) is what the writer lets you conclude. *Le maire a reconnu son erreur, pour une fois* doesn't say that he usually refuses to admit mistakes; it *laisse entendre* (implies) it. Unlike a presupposition, an implied meaning can be denied: "I never said that."
+
+<Example fr="Il n'est pas toujours facile de reconnaître une erreur." en="It isn't always easy to admit a mistake." />
+
+<Example fr="Le projet a enfin été présenté au public." en="The project has finally been presented to the public. (presupposes a delay)" />
+
+## The negation test
+
+To tell a presupposition from what a sentence asserts, put the sentence in the negative. What disappears was asserted; what stays was presupposed.
+
+<Example fr="Paul a arrêté de fumer." en="Paul has stopped smoking." />
+
+<Example fr="Paul n'a pas arrêté de fumer." en="Paul hasn't stopped smoking." />
+
+In both sentences, Paul used to smoke: that's the presupposition. Only the stopping changes. The same test works for questions: *pourquoi la mairie a-t-elle caché le coût ?* still presupposes that the town hall hid it, whatever the answer.
+
+The words that most often carry a presupposition are worth knowing by heart: *enfin*, *encore*, *toujours*, *arrêter de*, *recommencer à*, *même*, a definite article (*le scandale du parc* presupposes that there is a scandal), and a question with *pourquoi*.
+
+## Connotation
+
+<VocabTable group="words" />
+
+*La connotation* (connotation) is what a word suggests beyond its meaning. Two words can name the same thing with opposite connotations: one *péjoratif* (pejorative), the other *mélioratif* (positive), with a neutral word in between.
+
+<Example fr="Une foule de visiteurs, une horde de visiteurs : le nombre est le même, mais pas le jugement." en="A crowd of visitors, a horde of visitors: the number is the same, but not the judgment." />
+
+A writer who calls a building project *un chantier* is neutral; *un bétonnage* (concreting over) is pejorative; *un aménagement* (a development) sounds positive. When you summarize, replace each connoted word with the neutral one, unless you're quoting.
+
+<Example fr="Le mot « aménagement » est mélioratif, alors que le mot « horde » est péjoratif." en="The word 'aménagement' is positive, whereas the word 'horde' is pejorative." />
+
+## Modalisation
+
+<VocabTable group="modal" />
+
+*La modalisation* (modalisation) is the way a writer shows how sure they are, or what they think, of what they report. Each word that does it is *un modalisateur* (a modalizer). Four kinds are common in the press.
+
+<Example fr="La modalisation passe souvent par un modalisateur, comme « sans doute » ou « apparemment »." en="Modalisation often works through a modalizer, such as 'sans doute' or 'apparemment'." />
+
+- **Adverbs and set phrases** show doubt or certainty: *sans doute*, *apparemment*, *prétendument* (supposedly), *à en croire*.
+- **Reporting verbs** judge the claim: *affirmer* is neutral, *prétendre* suggests it's false, *avouer* that it's a fault, *reconnaître* that it's a concession.
+- **Le conditionnel de prudence** (the conditional of caution) reports news that isn't confirmed: *le ministre serait malade* (the minister is reportedly ill).
+- **Des guillemets de distance** (scare quotes) report a word without taking it on: *la mairie parle d'une « modernisation »*. The writer *prend ses distances avec* (distances themselves from) the word.
+
+<Example fr="Des guillemets de distance montrent que l'auteur n'accepte pas ce mot." en="Scare quotes show that the writer doesn't accept this word." />
+
+<Example fr="Selon nos informations, la directrice aurait déjà choisi la personne qui la remplacera." en="According to our information, the director has reportedly already chosen the person who will replace her." />
+
+## Summarizing without the implicit
+
+A summary, a synthesis or a news item reports what a text says, not what it suggests. As a rule of thumb, go through the text in four passes before you write.
+
+- **First, list the facts** that both a supporter and an opponent would accept: who proposes what, who said what, what has happened.
+- **Then mark every modalizer**: the judging verbs, the adverbs of doubt, the conditionnel de prudence, the scare quotes. Each one is the writer's view, not a fact.
+- **Next, mark the connoted words** and find a neutral word for each.
+- **Finally, check the presuppositions**: an *enfin* or an *encore* that the facts don't support has no place in your version.
+
+If an accusation is reported in the conditional and nothing confirms it, leave it out of a neutral text. If you need to mention it, attribute it clearly: *selon le journal, l'entreprise aurait des liens avec un élu*.
+
+## The model: an opinion piece and its neutral version
+
+<VocabTable group="text" />
+
+The opinion piece below is original, about an invented town. A neutral version follows: the same facts, with the judgments removed.
+
+*Le parc des Tilleuls va-t-il enfin disparaître ? La mairie, qui avait promis de protéger nos espaces verts, prétend aujourd'hui qu'un parking « moderne » est indispensable. On attend encore les études qui le prouvent. Pendant ce temps, les promoteurs se frottent les mains : le béton remplacera bientôt la pelouse où nos enfants jouent depuis trente ans. On nous explique que le quartier manque de places pour les voitures. Curieusement, personne n'a demandé aux familles qui vivent ici ce dont elles manquent, elles.*
+
+*Il y a dix ans déjà, la même équipe avait juré qu'aucun arbre ne serait coupé. On connaît la suite : trois arbres sont tombés l'hiver dernier, « pour des raisons de sécurité ».*
+
+*Une poignée d'élus défend le projet avec un enthousiasme suspect. Selon nos informations, l'entreprise choisie aurait des liens avec l'un d'eux. Le maire, lui, reste silencieux, ce qui en dit long. Les habitants, eux, ne demandent pas grand-chose : garder quelques arbres et un peu de calme. Ils ont déjà signé une pétition, organisé deux réunions et écrit au conseil municipal. Leur dira-t-on encore une fois que le progrès ne se discute pas ? Est-ce vraiment trop demander qu'on les écoute ?*
+
+(Is the Tilleuls park finally going to disappear? The town hall, which had promised to protect our green spaces, now claims that a "modern" car park is essential. We are still waiting for the studies that prove it. Meanwhile, the developers are rubbing their hands: concrete will soon replace the lawn where our children have played for thirty years. We're told that the neighbourhood lacks parking spaces. Curiously, nobody has asked the families who live here what they lack. Ten years ago, the same team swore that no tree would be cut down. We know what happened next: three trees came down last winter, "for safety reasons". A handful of councillors defend the project with suspicious enthusiasm. According to our information, the company chosen reportedly has links with one of them. The mayor, for his part, remains silent, which says a lot. The residents don't ask for much: to keep a few trees and a little calm. They have already signed a petition, organized two meetings and written to the town council. Will they be told once again that progress can't be questioned? Is it really too much to ask that they be listened to?)
+
+*La mairie propose de remplacer une partie du parc des Tilleuls par un parking. Elle affirme que ce parking est nécessaire pour le quartier, où les places pour les voitures sont peu nombreuses ; les études sur ce point n'ont pas encore été publiées. Plusieurs élus défendent le projet, et une entreprise a été choisie pour les travaux. Le maire ne s'est pas encore exprimé. Trois arbres du parc ont été coupés l'hiver dernier ; la mairie a expliqué que c'était pour des raisons de sécurité.*
+
+*Des habitants demandent que les arbres et la pelouse soient gardés. Ils ont signé une pétition, organisé deux réunions publiques et écrit au conseil municipal. Le projet doit être présenté au conseil le mois prochain.*
+
+(The town hall is proposing to replace part of the Tilleuls park with a car park. It states that this car park is necessary for the neighbourhood, where there are few parking spaces; the studies on this point haven't been published yet. Several councillors support the project, and a company has been chosen for the work. The mayor hasn't commented yet. Three trees in the park were cut down last winter; the town hall explained that it was for safety reasons. Some residents are asking for the trees and the lawn to be kept. They have signed a petition, organized two public meetings and written to the town council. The project is to be presented to the council next month.)
+
+<VocabTable group="glossary" />
+
+## How the opinion piece works
+
+- **Presuppositions:** the question *va-t-il enfin disparaître ?* presupposes that the park is threatened and has been for a long time; *on attend encore les études* presupposes that they were expected.
+- **Reporting verbs:** the verb *prétend* suggests the claim is false; the neutral version says *affirme*.
+- **Scare quotes:** the phrase *un parking « moderne »* keeps the town hall's word at a distance, and so do the quotation marks around *pour des raisons de sécurité*.
+- **Connotation:** the phrases *les promoteurs se frottent les mains* (rub their hands) and *un enthousiasme suspect* are pejorative; *une poignée d'élus* (a handful) makes the supporters seem few.
+- **The conditionnel de prudence:** the verb *aurait des liens* reports an accusation without confirming it. The neutral version leaves it out, because nothing confirms it.
+- **Implied meanings:** the clause *ce qui en dit long* suggests the mayor has something to hide, and *curieusement* suggests that the families were left out on purpose.
+- **Rhetorical questions:** the last two questions imply their answers: the residents will be told that, and it isn't too much to ask.
+
+## En français
+
+Léna and Yanis work for the local paper. Yanis wrote the opinion piece; Léna is preparing the neutral news item. They use *tu*.
+
+- *Yanis, ton article commence par « va-t-il enfin disparaître ? ». Le « enfin », c'est voulu ?* (Yanis, your article starts with "is it finally going to disappear?". Is the "enfin" deliberate?)
+- *Oui. Il fait comprendre que la mairie y pense depuis longtemps.* (Yes. It makes it clear that the town hall has been thinking about it for a long time.)
+- *C'est un présupposé. Dans mon article, je ne peux pas le garder.* (That's a presupposition. In my article, I can't keep it.)
+- *D'accord. Et « prétend » ? La mairie a vraiment dit qu'il fallait un parking.* (OK. And "prétend"? The town hall really did say a car park was needed.)
+- *Justement : elle l'a dit. J'écris « affirme », qui ne juge pas.* (Exactly: it said it. I'm writing "affirme", which doesn't judge.)
+- *Et les guillemets autour de « moderne » ?* (And the quotation marks around "moderne"?)
+- *Je les supprime aussi. Dans une information neutre, on ne prend pas ses distances avec un mot.* (I'm removing them too. In neutral news, you don't distance yourself from a word.)
+- *Mais la phrase sur l'entreprise, au conditionnel, c'est de la prudence !* (But the sentence about the company, in the conditional, that's caution!)
+- *C'est grave, même au conditionnel. Tant qu'on n'a pas de preuve, je ne l'écris pas.* (It's serious, even in the conditional. As long as we have no proof, I'm not writing it.)
+- *Et « une poignée d'élus » ?* (And "a handful of councillors"?)
+- *Ça laisse entendre qu'ils sont peu nombreux. J'écris « plusieurs élus ».* (That implies there are few of them. I'm writing "several councillors".)
+- *Ton article va être beaucoup plus court que le mien.* (Your article is going to be much shorter than mine.)
+- *Oui : quand on supprime les jugements, il reste les faits.* (Yes: when you remove the judgments, the facts remain.)
+
+<Callout type="warning" title="Avouer isn't a neutral verb">
+  Learners summarizing a text often use *avouer* for any admission: *le maire avoue que le projet a pris du retard*. *Avouer* presents what's said as a fault, like a confession. To report neutrally, write **le maire dit que le projet a pris du retard** or **le maire indique que…**, and keep *avouer* for a real confession.
+</Callout>
+
+<Callout type="tip" title="Rewrite one paragraph neutrally">
+  To see the implicit in a text, take one paragraph and rewrite it with only neutral words: no *enfin*, no scare quotes, no judging verb, no conditionnel de prudence. Then compare the two versions line by line. Every difference you find is a choice the writer made, and those choices are what an analysis talks about.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-argument-analysis" text="the lesson on analysing an argument" /> looks at how a text tries to convince, and at the arguments that only seem to work.
+
+===== content/lessons/c2/argument-analysis.mdx =====
+---
+id: "c2-argument-analysis"
+title: "Analysing an argument"
+description: "Name the type of each argument (example, analogy, authority) and spot the fallacies (ad hominem, slippery slope, false dilemma, hasty generalization, appeal to the majority), find the implicit premise, and answer each move."
+level: "C2"
+unit: "Reading between the lines"
+order: 20
+type: "communication"
+tags: ["reading", "argument", "fallacies", "debate", "critical thinking"]
+prerequisites: ["c1-review-rhetoric", "c1-formal-debate", "c2-implicit-meaning"]
+related: ["b2-debating", "c1-advanced-connectors", "c2-review-reading"]
+vocab:
+  - { id: "c2-argument-analysis-v001", group: "terms", fr: "un sophisme", pron: "uhn soh-FEESM", en: "a fallacy (an argument that only seems valid)" }
+  - { id: "c2-argument-analysis-v002", group: "terms", fr: "une prémisse", pron: "ewn pray-MEES", en: "a premise" }
+  - { id: "c2-argument-analysis-v003", group: "terms", fr: "une prémisse implicite", pron: "ewn pray-MEES an-plee-SEET", en: "an implicit premise (an unstated assumption)" }
+  - { id: "c2-argument-analysis-v004", group: "terms", fr: "un contre-exemple", pron: "uhn kohn-treg-ZAHN-pluh", en: "a counterexample" }
+  - { id: "c2-argument-analysis-v005", group: "valid", fr: "l'argument par l'exemple (m.)", pron: "lar-gew-MAHN par leg-ZAHN-pluh", en: "the argument from example" }
+  - { id: "c2-argument-analysis-v006", group: "valid", fr: "l'argument par analogie (m.)", pron: "lar-gew-MAHN par ah-nah-loh-ZHEE", en: "the argument from analogy" }
+  - { id: "c2-argument-analysis-v007", group: "valid", fr: "représentatif / représentative", pron: "ruh-pray-zahn-tah-TEEF / ruh-pray-zahn-tah-TEEV", en: "representative (typical of a whole)" }
+  - { id: "c2-argument-analysis-v008", group: "valid", fr: "un argument solide", pron: "uh-nar-gew-MAHN soh-LEED", en: "a sound argument" }
+  - { id: "c2-argument-analysis-v009", group: "fallacies", fr: "l'argument ad hominem (m.)", pron: "lar-gew-MAHN ahd oh-mee-NEM", en: "the ad hominem argument (attacking the person)" }
+  - { id: "c2-argument-analysis-v010", group: "fallacies", fr: "la pente glissante", pron: "lah pahnt glee-SAHNT", en: "the slippery slope" }
+  - { id: "c2-argument-analysis-v011", group: "fallacies", fr: "le faux dilemme", pron: "luh foh dee-LEM", en: "the false dilemma" }
+  - { id: "c2-argument-analysis-v012", group: "fallacies", fr: "la généralisation hâtive", pron: "lah zhay-nay-rah-lee-zah-SYOHN ah-TEEV", en: "the hasty generalization" }
+  - { id: "c2-argument-analysis-v013", group: "fallacies", fr: "l'appel à la majorité (m.)", pron: "lah-PEL ah lah mah-zhoh-ree-TAY", en: "the appeal to the majority" }
+  - { id: "c2-argument-analysis-v014", group: "debate", fr: "fallacieux / fallacieuse", pron: "fah-lah-SYUH / fah-lah-SYUHZ", en: "fallacious, misleading" }
+  - { id: "c2-argument-analysis-v015", group: "debate", fr: "faire revivre", pron: "fehr ruh-VEE-vruh", en: "to bring back to life" }
+  - { id: "c2-argument-analysis-v016", group: "glossary", fr: "réveillé (réveiller)", pron: "ray-veh-YAY", en: "woken up (to wake up)" }
+  - { id: "c2-argument-analysis-v017", group: "glossary", fr: "des centaines de", pron: "day sahn-TEN duh", en: "hundreds of" }
+  - { id: "c2-argument-analysis-v018", group: "glossary", fr: "permanent / permanente", pron: "pehr-mah-NAHN / pehr-mah-NAHNT", en: "permanent" }
+exercises:
+  - id: "c2-argument-analysis-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le procédé : « Mme Lambert n'habite même pas près du parc : elle ne peut pas comprendre le problème. »"
+    options: ["un argument ad hominem", "un argument par analogie", "un faux dilemme"]
+    answers: ["un argument ad hominem"]
+    explanation: "The speaker attacks where Mme Lambert lives, not what she says about the festival."
+  - id: "c2-argument-analysis-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le procédé : « Si on accepte un festival cette année, il y en aura trois l'année prochaine, et le parc ne sera plus jamais calme. »"
+    options: ["une pente glissante", "une généralisation hâtive", "un appel à la majorité"]
+    answers: ["une pente glissante"]
+    explanation: "Each step is presented as certain to lead to the next, with no evidence for the links."
+  - id: "c2-argument-analysis-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le procédé : « Soit on protège notre calme, soit on vend le village aux touristes. »"
+    options: ["un faux dilemme", "une pente glissante", "un argument par l'exemple"]
+    answers: ["un faux dilemme"]
+    explanation: "Only two options are offered, as if no middle way existed."
+  - id: "c2-argument-analysis-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le procédé : « Mon voisin n'a pas dormi pendant un concert : les festivals empêchent tout le monde de dormir. »"
+    options: ["une généralisation hâtive", "un argument ad hominem", "un faux dilemme"]
+    answers: ["une généralisation hâtive"]
+    explanation: "One case is turned into a rule about every festival and everyone."
+  - id: "c2-argument-analysis-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le procédé : « Tout le monde veut ce festival, donc c'est une bonne idée. »"
+    options: ["un appel à la majorité", "un argument par analogie", "une pente glissante"]
+    answers: ["un appel à la majorité"]
+    explanation: "The number of people who want something doesn't prove that it's a good idea."
+  - id: "c2-argument-analysis-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez la meilleure réponse à un faux dilemme."
+    options: ["Il existe une troisième solution : un festival plus court.", "Vous n'habitez pas ici, vous ne pouvez pas comprendre.", "Tout le monde pense comme moi."]
+    answers: ["Il existe une troisième solution : un festival plus court."]
+    explanation: "A false dilemma is answered by showing a third option. The other two answers are themselves fallacies."
+  - id: "c2-argument-analysis-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec le nom du sophisme : Dire « tout le monde le pense, donc c'est vrai », c'est faire un appel à la ___."
+    answers: ["majorité"]
+    explanation: "L'appel à la majorité: what many people think is presented as proof."
+  - id: "c2-argument-analysis-ex008"
+    type: "fill-in"
+    prompt: "Complétez : Un cas qui montre qu'une règle générale est fausse est un ___-exemple."
+    answers: ["contre"]
+    explanation: "Un contre-exemple is a case that contradicts a general claim."
+  - id: "c2-argument-analysis-ex009"
+    type: "error-correction"
+    prompt: "Corrigez la généralisation hâtive en remplaçant « tous » par « certains » : Tous les festivals empêchent les habitants de dormir."
+    answers: ["Certains festivals empêchent les habitants de dormir"]
+    explanation: "Certains limits the claim to what one case can support."
+  - id: "c2-argument-analysis-ex010"
+    type: "error-correction"
+    prompt: "Corrigez le faux dilemme avec « on peut à la fois… et… » : Soit on protège notre calme, soit on accueille des visiteurs."
+    answers: ["On peut à la fois protéger notre calme et accueillir des visiteurs"]
+    explanation: "The two options aren't exclusive: on peut à la fois… et… shows it."
+    strictAccents: true
+  - id: "c2-argument-analysis-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « certes… mais » : Cet exemple est intéressant, pourtant il ne prouve rien."
+    answers: ["Certes, cet exemple est intéressant, mais il ne prouve rien", "Cet exemple est certes intéressant, mais il ne prouve rien"]
+    explanation: "Certes concedes the point; mais introduces the refutation."
+  - id: "c2-argument-analysis-ex012"
+    type: "reformulation"
+    prompt: "Rendez explicite la prémisse implicite, en commençant par « Cela suppose que » : Il est jeune, donc il ne comprend pas le problème."
+    answers: ["Cela suppose que les jeunes ne comprennent pas le problème"]
+    explanation: "The unstated premise is a general claim about young people, which the speaker would have to defend."
+  - id: "c2-argument-analysis-ex013"
+    type: "translate"
+    prompt: "Traduisez (un sophisme) : This argument is a fallacy."
+    answers: ["Cet argument est un sophisme"]
+    explanation: "Un sophisme: an argument that only seems valid."
+  - id: "c2-argument-analysis-ex014"
+    type: "translate"
+    prompt: "Traduisez (réfuter, au passé composé) : She refuted every objection."
+    answers: ["Elle a réfuté chaque objection", "Elle a réfuté toutes les objections"]
+    explanation: "Réfuter: to show that an objection or an argument is wrong."
+    strictAccents: true
+  - id: "c2-argument-analysis-ex015"
+    type: "translate"
+    prompt: "Traduisez (une pente glissante) : This reasoning is a slippery slope."
+    answers: ["Ce raisonnement est une pente glissante"]
+    explanation: "La pente glissante: each step is said to lead to a worse one."
+  - id: "c2-argument-analysis-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : One example is not enough to prove a general rule."
+    words: ["Un", "exemple", "ne", "prouve", "pas", "une", "règle", "générale"]
+    answers: ["Un exemple ne prouve pas une règle générale"]
+    explanation: "An example illustrates; it can't prove a general claim on its own."
+---
+
+By the end of this lesson you'll be able to name the type of each argument in a French text or debate, spot the arguments that only seem to work, and answer each one.
+
+## What you already know
+
+You know the argument from authority (*un argument d'autorité*) from <LessonLink id="c1-review-rhetoric" text="the review of rhetoric" />, and how to concede and reply in a debate (*je vous l'accorde*, *la réplique*) from <LessonLink id="c1-formal-debate" text="the lesson on formal debate" />. You know *réfuter* (to refute) from <LessonLink id="b2-debating" text="the lesson on debating" />, and presuppositions from <LessonLink id="c2-implicit-meaning" text="the last lesson" />. This lesson gives each move its name, so that you can analyse an argument rather than just answer it.
+
+## Premises and conclusions
+
+<VocabTable group="terms" />
+
+An argument starts from *une prémisse* (a premise) and draws a conclusion. Many arguments leave a premise unstated: that's *une prémisse implicite* (an implicit premise). *Il est jeune, donc il ne comprend pas* rests on an unstated claim, that young people don't understand. Making that premise explicit is often the best way to answer: once it's said aloud, it has to be defended.
+
+<Example fr="Cela suppose que les jeunes ne comprennent rien, et c'est justement ce qu'il faudrait prouver." en="That assumes that young people understand nothing, which is exactly what would have to be proved." />
+
+<Example fr="Un raisonnement fallacieux peut sembler solide quand on l'entend vite." en="A fallacious piece of reasoning can seem sound when you hear it quickly." />
+
+*Un sophisme* (a fallacy) is an argument that looks valid but isn't. Its conclusion may even be true; the problem is that the reasons given don't support it. You answer a fallacy with *une objection* (an objection), and often with *un contre-exemple* (a counterexample), a single case that contradicts a general claim.
+
+## Two valid moves and their limits
+
+<VocabTable group="valid" />
+
+**L'argument par l'exemple** (the argument from example) supports a claim with a concrete case: *à Saint-Ours, le festival a fait revivre les commerces*. It's legitimate, but one example illustrates rather than proves. The question to ask is whether the example is *représentatif* (representative).
+
+**L'argument par analogie** (the argument from analogy) compares the situation with another one that the listener already judges: *un festival, c'est comme une fête de famille*. It's persuasive, and it works as long as the two situations are alike in the way that matters. To answer it, show where the comparison stops: a family party lasts one evening, a festival several days.
+
+<Example fr="L'argument par analogie compare deux situations qui se ressemblent." en="The argument from analogy compares two situations that are alike." />
+
+You already know **l'argument d'autorité**: it relies on who says something rather than on why. It's valid when the authority is competent on that very question, and weak otherwise.
+
+<Example fr="Cet exemple est intéressant, mais un seul village ne suffit pas pour conclure." en="This example is interesting, but one village isn't enough to draw a conclusion." />
+
+## Five fallacies
+
+<VocabTable group="fallacies" />
+
+These five are the most common in debates and opinion pieces. Each has a typical answer.
+
+- **The ad hominem argument** (*l'argument ad hominem*) attacks the person instead of the idea: *elle n'habite même pas ici*. Answer by bringing the discussion back to the argument: *revenons à ce qu'elle a dit*.
+- **The slippery slope** (*la pente glissante*) claims that a first step will lead, step by step, to a disaster: *un festival cette année, trois l'an prochain, et le parc deviendra une salle de concert*. Answer by asking for the evidence of each link.
+- **The false dilemma** (*le faux dilemme*) offers only two options, as if no third existed: *soit on protège notre calme, soit on vend le village*. Answer with a third option.
+- **The hasty generalization** (*la généralisation hâtive*) turns one or two cases into a general rule. Answer with a counterexample, or by asking how many cases there are.
+- **The appeal to the majority** (*l'appel à la majorité*) presents what many people think as proof: *tout le monde veut ce festival*. Answer that a number of supporters isn't a reason.
+
+<Example fr="Il existe une troisième solution : un festival plus court, qui se termine à minuit." en="There's a third solution: a shorter festival that ends at midnight." />
+
+A fallacy isn't always deliberate. In a heated debate, careful speakers make them too. When you analyse a text, name the move and say why it doesn't support the conclusion; don't accuse the speaker of lying.
+
+## How to analyse an argument
+
+As a rule of thumb, analyse each argument in four steps.
+
+1. **Find the conclusion**: what does the speaker want the listener to accept?
+2. **Find the reason given**, and any premise left unstated.
+3. **Name the move**: an example, an analogy, an authority, or one of the five fallacies.
+4. **Judge its strength**: is the example representative, the analogy relevant, the authority competent? If the move is a fallacy, say what's missing.
+
+An analysis that only lists the names of the moves isn't enough. What matters is the last step: why this argument does or doesn't support this conclusion.
+
+## The model: a debate in a village
+
+<VocabTable group="debate" />
+
+The debate below is original. The village, the festival and the speakers are invented. It was held in the village hall of Valbrune, and the moderator, M. Faure, opens it.
+
+*M. Faure : Ce soir, une seule question : Valbrune doit-elle accueillir un festival de musique dans le parc, cet été ? Rappelons les faits : le comité des fêtes propose une semaine de concerts en juillet, et la mairie n'a pas encore donné son avis. Madame Lambert, vous êtes pour.*
+
+*Mme Lambert : Oui. À Saint-Ours, un village de la même taille, le festival a fait revivre les commerces en trois ans. Et un festival, c'est comme une fête de famille : un peu de bruit, mais beaucoup de liens entre les gens.*
+
+*M. Rivière : Je ne suis pas d'accord. D'abord, Mme Lambert n'habite même pas près du parc : elle ne peut pas comprendre le problème.*
+
+*M. Faure : Monsieur Rivière, revenons au festival, s'il vous plaît.*
+
+*M. Rivière : Très bien. Si on accepte un festival cette année, il y en aura trois l'année prochaine, et le parc deviendra une salle de concert permanente. Mon voisin a été réveillé à deux heures du matin par un concert, l'été dernier : les festivals empêchent tout le monde de dormir. Au fond, c'est simple : soit on protège notre calme, soit on vend le village aux touristes.*
+
+*Mme Lambert : Il existe une troisième solution : un festival de trois jours, qui se termine à minuit. Et un seul voisin ne fait pas une règle générale : à Saint-Ours, les habitants du centre ont eux-mêmes demandé un deuxième festival.*
+
+*M. Faure : Une habitante, Mme Benali, demande la parole.*
+
+*Mme Benali : J'ai lu en ligne des centaines de messages : tout le monde veut ce festival. La question est donc réglée.*
+
+*Mme Lambert : Je vous remercie, mais le nombre de messages ne prouve rien. Ce qui compte, ce sont les raisons, et les résultats de Saint-Ours sont publics : chacun peut les lire.*
+
+*M. Faure : Merci à tous. Les habitants voteront le mois prochain, à la mairie, après une réunion publique.*
+
+(Mr Faure: Tonight, one question only: should Valbrune host a music festival in the park this summer? Let's recall the facts: the festivals committee is proposing a week of concerts in July, and the town hall hasn't given its view yet. Mrs Lambert, you're in favour. Mrs Lambert: Yes. In Saint-Ours, a village of the same size, the festival brought the shops back to life within three years. And a festival is like a family party: a little noise, but a lot of ties between people. Mr Rivière: I don't agree. First, Mrs Lambert doesn't even live near the park: she can't understand the problem. Mr Faure: Mr Rivière, let's come back to the festival, please. Mr Rivière: Very well. If we accept a festival this year, there will be three next year, and the park will become a permanent concert hall. My neighbour was woken up at two in the morning by a concert last summer: festivals stop everyone sleeping. Basically, it's simple: either we protect our peace, or we sell the village to tourists. Mrs Lambert: There's a third solution: a three-day festival that ends at midnight. And one neighbour doesn't make a general rule: in Saint-Ours, the residents of the centre themselves asked for a second festival. Mr Faure: A resident, Mrs Benali, is asking to speak. Mrs Benali: I've read hundreds of messages online: everyone wants this festival. So the question is settled. Mrs Lambert: Thank you, but the number of messages proves nothing. What counts are the reasons, and the results from Saint-Ours are public: anyone can read them. Mr Faure: Thank you, everyone. The residents will vote next month, at the town hall, after a public meeting.)
+
+<VocabTable group="glossary" />
+
+## How the debate works
+
+- **An argument from example**, in Mme Lambert's first line: the case of Saint-Ours. It's legitimate, but is one village representative?
+- **An argument from analogy**, in the same line: the festival compared with a family party. It stops working when you remember that a festival lasts several days.
+- **An ad hominem argument**, in M. Rivière's first line: it attacks where Mme Lambert lives. The moderator answers it correctly, by coming back to the subject.
+- **A slippery slope**, in his second line: one festival, then three, then a permanent concert hall, with no evidence for the steps.
+- **A hasty generalization**, next: one neighbour woken up becomes "everyone".
+- **A false dilemma**, at the end of the same line: protect the peace or sell the village. Mme Lambert answers it with a third option, and the generalization with the obvious point that one case isn't a rule.
+- **An appeal to the majority**, from Mme Benali: hundreds of messages are presented as proof. Mme Lambert answers it the right way, by coming back to the reasons.
+
+## En français
+
+Chloé and Malo are preparing an analysis of the Valbrune debate for their class. They use *tu*.
+
+- *Malo, tu as compté combien de procédés dans le débat ?* (Malo, how many moves did you count in the debate?)
+- *Sept, avec la remarque de Mme Benali. Mme Lambert commence par un argument par l'exemple, avec Saint-Ours.* (Seven, with Mrs Benali's remark. Mrs Lambert starts with an argument from example, with Saint-Ours.)
+- *Mais ce n'est pas un sophisme, si ?* (But that's not a fallacy, is it?)
+- *Non, c'est un argument solide. Il faut seulement se demander si l'exemple est représentatif.* (No, it's a sound argument. You just have to ask whether the example is representative.)
+- *Et la fête de famille ?* (And the family party?)
+- *C'est une analogie. Elle convainc, mais une fête dure une soirée, pas trois jours.* (It's an analogy. It's convincing, but a party lasts an evening, not three days.)
+- *M. Rivière, lui, critique Mme Lambert parce qu'elle n'habite pas près du parc.* (Mr Rivière criticizes Mrs Lambert because she doesn't live near the park.)
+- *C'est un argument ad hominem. Le modérateur a raison de revenir au sujet.* (That's an ad hominem argument. The moderator is right to come back to the subject.)
+- *Ensuite, il dit qu'un festival en entraînera trois.* (Then he says one festival will lead to three.)
+- *Une pente glissante : il ne prouve aucune des étapes.* (A slippery slope: he doesn't prove any of the steps.)
+- *Et l'histoire du voisin ?* (And the story about the neighbour?)
+- *Une généralisation hâtive. Un seul cas, et il conclut pour tout le monde.* (A hasty generalization. A single case, and he draws a conclusion for everyone.)
+- *Il reste le « soit… soit ». C'est un faux dilemme ?* (There's still the "either… or". Is that a false dilemma?)
+- *Oui, et Mme Lambert y répond très bien, avec une troisième solution.* (Yes, and Mrs Lambert answers it very well, with a third solution.)
+
+<Callout type="warning" title="Analyse the argument, not the speaker">
+  When learners first meet fallacies, they often write *M. Rivière ment* or *M. Rivière est malhonnête*. That's itself an attack on the person. Describe the move and its weakness instead: **M. Rivière généralise à partir d'un seul cas**, **son raisonnement repose sur une prémisse implicite**.
+</Callout>
+
+<Callout type="tip" title="Say the hidden premise aloud">
+  For each argument that seems convincing but leaves you uneasy, complete the sentence *cela suppose que…* out loud. If the completed sentence is something the speaker would never dare to state (*cela suppose que les jeunes ne comprennent rien*), you've found the weak point of the argument.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-commentaire-de-texte" text="the lesson on the commentaire de texte" /> applies these reading tools to a literary text, with the French method of the close commentary.
+
+===== content/lessons/c2/commentaire-de-texte.mdx =====
+---
+id: "c2-commentaire-de-texte"
+title: "The commentaire de texte"
+description: "Plan and write the French close commentary of a short text: the first reading and the relevé, lexical fields and literary registres, an introduction (amorce, presentation, problématique, announced plan), a development by axes de lecture with embedded quotations, and a conclusion with an ouverture, on Baudelaire's prose poem « Le Port »."
+level: "C2"
+unit: "Reading between the lines"
+order: 21
+type: "communication"
+tags: ["reading", "literature", "commentary", "method", "Baudelaire"]
+prerequisites: ["c1-culture-literary-canon", "c1-dissertation", "c1-rhetorical-devices", "c2-argument-analysis"]
+related: ["c1-reading-literary-narrative", "c1-culture-french-poetry", "c2-stylistic-analysis"]
+vocab:
+  - { id: "c2-commentaire-de-texte-v001", group: "reading", fr: "un relevé", pron: "uhn ruh-luh-VAY", en: "a list of observations (taken from the text)" }
+  - { id: "c2-commentaire-de-texte-v002", group: "reading", fr: "le champ lexical", pron: "luh shahn lek-see-KAHL", en: "the lexical field (words linked to one theme)" }
+  - { id: "c2-commentaire-de-texte-v003", group: "reading", fr: "une énumération", pron: "ew-nay-new-may-rah-SYOHN", en: "an enumeration, a list" }
+  - { id: "c2-commentaire-de-texte-v004", group: "reading", fr: "un poème en prose", pron: "uhn poh-EM ahn PROHZ", en: "a prose poem" }
+  - { id: "c2-commentaire-de-texte-v005", group: "registres", fr: "un registre littéraire", pron: "uhn ruh-ZHEES-truh lee-tay-REHR", en: "a literary register (the emotion a text aims to produce)", note: "Not a language register (familier, courant, soutenu)." }
+  - { id: "c2-commentaire-de-texte-v006", group: "registres", fr: "lyrique", pron: "lee-REEK", en: "lyrical (expressing personal feelings)" }
+  - { id: "c2-commentaire-de-texte-v007", group: "registres", fr: "tragique", pron: "trah-ZHEEK", en: "tragic (a fate that can't be escaped)" }
+  - { id: "c2-commentaire-de-texte-v008", group: "registres", fr: "comique", pron: "koh-MEEK", en: "comic (meant to make you laugh)" }
+  - { id: "c2-commentaire-de-texte-v009", group: "registres", fr: "épique", pron: "ay-PEEK", en: "epic (heroic deeds, larger than life)" }
+  - { id: "c2-commentaire-de-texte-v010", group: "registres", fr: "pathétique", pron: "pah-tay-TEEK", en: "pathetic, moving (meant to arouse pity)", note: "Not 'pathetic' in the English sense of 'pitiful, useless'." }
+  - { id: "c2-commentaire-de-texte-v011", group: "registres", fr: "satirique", pron: "sah-tee-REEK", en: "satirical (mocking to criticize)" }
+  - { id: "c2-commentaire-de-texte-v012", group: "intro", fr: "l'amorce (f.)", pron: "lah-MORS", en: "the opening (the first sentence of an introduction, which places the text)" }
+  - { id: "c2-commentaire-de-texte-v013", group: "intro", fr: "l'annonce du plan (f.)", pron: "lah-NOHNS dew PLAHN", en: "the announced plan" }
+  - { id: "c2-commentaire-de-texte-v014", group: "body", fr: "un axe de lecture", pron: "uh-NAKS duh lek-TEWR", en: "a line of analysis (one main part of a commentary)" }
+  - { id: "c2-commentaire-de-texte-v015", group: "body", fr: "une citation enchâssée", pron: "ewn see-tah-SYOHN ahn-shah-SAY", en: "an embedded quotation (built into your own sentence)" }
+  - { id: "c2-commentaire-de-texte-v016", group: "body", fr: "l'ouverture", pron: "loo-vehr-TEWR", en: "the opening onto another work or question (at the end of a conclusion)" }
+  - { id: "c2-commentaire-de-texte-v017", group: "glossary", fr: "un séjour", pron: "uhn say-ZHOOR", en: "a place to stay; a stay" }
+  - { id: "c2-commentaire-de-texte-v018", group: "glossary", fr: "les luttes (f.)", pron: "lay LEWT", en: "struggles" }
+  - { id: "c2-commentaire-de-texte-v019", group: "glossary", fr: "le scintillement", pron: "luh san-tee-yuh-MAHN", en: "twinkling, sparkling" }
+  - { id: "c2-commentaire-de-texte-v020", group: "glossary", fr: "les phares (m.)", pron: "lay FAR", en: "lighthouses" }
+  - { id: "c2-commentaire-de-texte-v021", group: "glossary", fr: "lasser", pron: "lah-SAY", en: "to tire, to weary" }
+  - { id: "c2-commentaire-de-texte-v022", group: "glossary", fr: "élancées (élancé)", pron: "ay-lahn-SAY", en: "slender, tall and graceful" }
+  - { id: "c2-commentaire-de-texte-v023", group: "glossary", fr: "le gréement", pron: "luh gray-MAHN", en: "the rigging (of a ship)" }
+  - { id: "c2-commentaire-de-texte-v024", group: "glossary", fr: "la houle", pron: "lah OOL", en: "the swell (of the sea)" }
+  - { id: "c2-commentaire-de-texte-v025", group: "glossary", fr: "le rhythme", pron: "luh REETM", en: "rhythm (old spelling of le rythme)" }
+  - { id: "c2-commentaire-de-texte-v026", group: "glossary", fr: "le belvédère", pron: "luh bel-vay-DEHR", en: "a lookout, a viewpoint" }
+  - { id: "c2-commentaire-de-texte-v027", group: "glossary", fr: "accoudé (s'accouder)", pron: "ah-koo-DAY", en: "leaning on your elbows" }
+  - { id: "c2-commentaire-de-texte-v028", group: "glossary", fr: "le môle", pron: "luh MOHL", en: "the jetty, the breakwater" }
+  - { id: "c2-commentaire-de-texte-v029", group: "glossary", fr: "charmant", pron: "shar-MAHN", en: "charming, delightful" }
+  - { id: "c2-commentaire-de-texte-v030", group: "glossary", fr: "mobile", pron: "moh-BEEL", en: "moving, mobile" }
+  - { id: "c2-commentaire-de-texte-v031", group: "glossary", fr: "les colorations (f.)", pron: "lay koh-loh-rah-SYOHN", en: "colours, shades" }
+  - { id: "c2-commentaire-de-texte-v032", group: "glossary", fr: "un prisme", pron: "uhn PREESM", en: "a prism" }
+  - { id: "c2-commentaire-de-texte-v033", group: "glossary", fr: "merveilleusement", pron: "mehr-veh-yuhz-MAHN", en: "wonderfully" }
+  - { id: "c2-commentaire-de-texte-v034", group: "glossary", fr: "compliqué", pron: "kohn-plee-KAY", en: "complicated" }
+  - { id: "c2-commentaire-de-texte-v035", group: "glossary", fr: "les oscillations (f.)", pron: "lay-zoh-see-lah-SYOHN", en: "swaying movements, oscillations" }
+  - { id: "c2-commentaire-de-texte-v036", group: "glossary", fr: "harmonieuses (harmonieux)", pron: "ar-moh-NYUHZ", en: "harmonious" }
+  - { id: "c2-commentaire-de-texte-v037", group: "glossary", fr: "entretenir", pron: "ahn-truh-tuh-NEER", en: "to keep up, to keep alive" }
+  - { id: "c2-commentaire-de-texte-v038", group: "glossary", fr: "mystérieux", pron: "mees-tay-RYUH", en: "mysterious" }
+  - { id: "c2-commentaire-de-texte-v039", group: "glossary", fr: "aristocratique", pron: "ah-rees-toh-krah-TEEK", en: "aristocratic" }
+  - { id: "c2-commentaire-de-texte-v040", group: "glossary", fr: "la curiosité", pron: "lah kew-ryoh-zee-TAY", en: "curiosity" }
+  - { id: "c2-commentaire-de-texte-v041", group: "glossary", fr: "reviennent (revenir)", pron: "ruh-VYEN", en: "come back" }
+  - { id: "c2-commentaire-de-texte-v042", group: "glossary", fr: "un paysage", pron: "uhn peh-ee-ZAHZH", en: "a landscape" }
+  - { id: "c2-commentaire-de-texte-v043", group: "glossary", fr: "un spectacle", pron: "uhn spek-TAH-kluh", en: "a spectacle, a sight" }
+  - { id: "c2-commentaire-de-texte-v044", group: "glossary", fr: "console (consoler)", pron: "kohn-SOL", en: "comforts (to comfort)" }
+  - { id: "c2-commentaire-de-texte-v045", group: "glossary", fr: "énumère (énumérer)", pron: "ay-new-MEHR", en: "lists (to list)" }
+  - { id: "c2-commentaire-de-texte-v046", group: "glossary", fr: "immense", pron: "ee-MAHNS", en: "immense, vast" }
+  - { id: "c2-commentaire-de-texte-v047", group: "glossary", fr: "le désordre", pron: "luh day-ZOR-druh", en: "disorder" }
+  - { id: "c2-commentaire-de-texte-v048", group: "glossary", fr: "une fonction", pron: "ewn fohnk-SYOHN", en: "a function" }
+exercises:
+  - id: "c2-commentaire-de-texte-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre littéraire principal du texte « Le Port »."
+    options: ["lyrique", "comique", "épique"]
+    answers: ["lyrique"]
+    explanation: "The text expresses a state of mind: the poet's pleasure as a weary observer. That's the lyrical register."
+  - id: "c2-commentaire-de-texte-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le mot qui n'est pas un registre littéraire."
+    options: ["soutenu", "tragique", "pathétique"]
+    answers: ["soutenu"]
+    explanation: "Soutenu is a language register (familier, courant, soutenu). Tragique and pathétique are literary registers."
+  - id: "c2-commentaire-de-texte-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez la partie de l'introduction : « Comment Baudelaire fait-il d'un paysage un spectacle qui console ? »"
+    options: ["la problématique", "l'amorce", "l'annonce du plan"]
+    answers: ["la problématique"]
+    explanation: "The problématique is the question the whole commentary answers."
+  - id: "c2-commentaire-de-texte-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez la figure dans « l'architecture mobile des nuages »."
+    options: ["un oxymore", "une énumération", "une question rhétorique"]
+    answers: ["un oxymore"]
+    explanation: "An architecture is fixed by definition; mobile joins the opposite idea to it."
+  - id: "c2-commentaire-de-texte-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase qui enchâsse bien la citation."
+    options: ["Le port est « un séjour charmant » pour celui qui est fatigué.", "Le port est charmant. « Un port est un séjour charmant pour une âme fatiguée des luttes de la vie. »", "Baudelaire dit que : un séjour charmant."]
+    answers: ["Le port est « un séjour charmant » pour celui qui est fatigué."]
+    explanation: "An embedded quotation is short and part of your own sentence. The second option drops in a whole sentence; the third isn't grammatical."
+  - id: "c2-commentaire-de-texte-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez le rôle de l'ouverture."
+    options: ["It links the text to another work or question.", "It summarizes the whole commentary again.", "It announces the plan of the commentary."]
+    answers: ["It links the text to another work or question."]
+    explanation: "L'ouverture comes at the very end and widens the question."
+  - id: "c2-commentaire-de-texte-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Les mots qui se rapportent au même thème forment un ___ lexical."
+    answers: ["champ"]
+    explanation: "Le champ lexical: the words of a text linked to one theme."
+  - id: "c2-commentaire-de-texte-ex008"
+    type: "fill-in"
+    prompt: "Complétez : Dans un commentaire, on organise le développement en deux ou trois ___ de lecture."
+    answers: ["axes"]
+    explanation: "Each main part of the development is un axe de lecture."
+  - id: "c2-commentaire-de-texte-ex009"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Baudelaire décrit les navires, qui il trouve harmonieux."
+    answers: ["Baudelaire décrit les navires, qu'il trouve harmonieux"]
+    explanation: "Les navires is the object of trouve, so the relative pronoun is que, elided before il."
+  - id: "c2-commentaire-de-texte-ex010"
+    type: "error-correction"
+    prompt: "Corrigez le registre (le sens littéraire) : Le texte relève du registre soutenu, car le poète exprime ce qu'il ressent."
+    answers: ["Le texte relève du registre lyrique, car le poète exprime ce qu'il ressent"]
+    explanation: "A text that expresses the writer's feelings belongs to the lyrical register. Soutenu describes the language, not the emotion."
+  - id: "c2-commentaire-de-texte-ex011"
+    type: "reformulation"
+    prompt: "Reformulez en une phrase qui commence par « Avec » : Baudelaire écrit « l'architecture mobile des nuages ». Il unit ainsi la solidité et le mouvement."
+    answers: ["Avec « l'architecture mobile des nuages », Baudelaire unit la solidité et le mouvement", "Avec « l'architecture mobile des nuages », il unit la solidité et le mouvement"]
+    explanation: "The quotation is now part of the analysis sentence, instead of standing on its own."
+  - id: "c2-commentaire-de-texte-ex012"
+    type: "reformulation"
+    prompt: "Reformulez la question en problématique indirecte, avec « Nous nous demanderons comment » : Comment le poète fait-il du port un spectacle ?"
+    answers: ["Nous nous demanderons comment le poète fait du port un spectacle"]
+    explanation: "In an indirect question, there's no inversion: comment le poète fait…"
+  - id: "c2-commentaire-de-texte-ex013"
+    type: "translate"
+    prompt: "Traduisez (un axe de lecture) : The commentary has two lines of analysis."
+    answers: ["Le commentaire a deux axes de lecture", "Le commentaire comporte deux axes de lecture"]
+    explanation: "Un axe de lecture: one main part of the development."
+    strictAccents: true
+  - id: "c2-commentaire-de-texte-ex014"
+    type: "translate"
+    prompt: "Traduisez (une ouverture) : The conclusion ends with an opening onto another poem."
+    answers: ["La conclusion se termine par une ouverture sur un autre poème"]
+    explanation: "Une ouverture sur: an opening onto another work."
+  - id: "c2-commentaire-de-texte-ex015"
+    type: "translate"
+    prompt: "Traduisez (le champ lexical) : The lexical field of movement is everywhere."
+    answers: ["Le champ lexical du mouvement est partout"]
+    explanation: "Le champ lexical de + theme."
+  - id: "c2-commentaire-de-texte-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The introduction ends with the announced plan."
+    words: ["L'introduction", "se", "termine", "par", "l'annonce", "du", "plan"]
+    answers: ["L'introduction se termine par l'annonce du plan"]
+    explanation: "The four parts of an introduction: amorce, presentation, problématique, annonce du plan."
+  - id: "c2-commentaire-de-texte-ex017"
+    type: "writing-task"
+    prompt: "Rédigez une autre introduction pour le commentaire du « Port » (80 à 120 mots), avec ce plan : d'abord le spectacle de la mer, ensuite le portrait du spectateur. Gardez les quatre parties de l'introduction."
+    model: "Au XIXe siècle, plusieurs écrivains cherchent une poésie sans vers. Baudelaire en donne un exemple avec les Petits Poèmes en prose, publiés en 1869. Dans « Le Port », texte très bref, il ne raconte aucune histoire : il regarde un port et décrit ce qu'il y trouve. Mais derrière la description se dessine le portrait de celui qui regarde. Nous nous demanderons comment ce texte, en peignant la mer, peint aussi un certain rapport à la vie. Nous étudierons d'abord le spectacle de la mer et des navires, puis le portrait d'un spectateur qui ne veut plus agir."
+    checklist: ["Does the amorce place the text without telling the life of the author?", "Does the presentation give the title, the form and the subject?", "Is the problématique a real question about how the text works?", "Does the announced plan match your two axes, in order?", "Is each quotation, if any, shorter than fifteen words?"]
+    wordTarget: [80, 120]
+---
+
+By the end of this lesson you'll be able to plan and write the opening of a French *commentaire de texte*: read the text closely, choose your *axes de lecture*, and build the introduction, a developed axis and a conclusion.
+
+## What you already know
+
+You know *le commentaire de texte* by name from <LessonLink id="c1-culture-literary-canon" text="the lesson on the literary canon" />: not a summary, but a close reading of how a passage produces its effect. You know *la problématique* and how to build a plan from <LessonLink id="c1-dissertation" text="the lesson on the dissertation" />, and the main figures (*l'oxymore*, *la gradation*, *l'anaphore*) from <LessonLink id="c1-rhetorical-devices" text="the lesson on rhetorical devices" />. This lesson gives you the method itself, as it's usually taught in French schools.
+
+## Commentary, summary, dissertation
+
+A commentary is easy to confuse with two other exercises. **A summary** says what a text says, in fewer words. **A dissertation** answers a general question, with arguments and examples from many works. **A commentary** stays with one text and answers one question: how does this text produce its effect, and what does it mean? It explains, with evidence from the text, why the writer chose these words, this order and this rhythm.
+
+So a commentary never retells the text, and it never leaves the text to talk about the author's life or the period, except in one sentence at the start.
+
+## Before you write: reading and the relevé
+
+<VocabTable group="reading" />
+
+Read the text several times before you plan anything. On the first reading, note your impression in a few words: calm, violent, melancholy. Then make *un relevé* (a list of observations): every word, image, sound or construction that seems to matter, with its exact place in the text.
+
+Two things organize a relevé. *Le champ lexical* (the lexical field) groups the words linked to one theme: in a text about the sea, *la houle*, *les navires*, *les phares*. And the figures and constructions, such as *une énumération* (an enumeration), show how the theme is presented.
+
+<Example fr="Le champ lexical du mouvement traverse tout le texte : nuages, houle, oscillations, départs." en="The lexical field of movement runs through the whole text: clouds, swell, oscillations, departures." />
+
+## Literary registers are not language registers
+
+<VocabTable group="registres" />
+
+*Un registre littéraire* (a literary register) is the emotion or effect a text aims to produce in its reader. The main ones are *lyrique* (personal feelings), *tragique* (a fate that can't be escaped), *comique* (laughter), *épique* (heroic deeds), *pathétique* (pity) and *satirique* (mockery used to criticize).
+
+<Example fr="Un texte tragique montre un destin sans issue, un texte comique fait rire, et un texte épique raconte de grandes actions." en="A tragic text shows a fate with no way out, a comic text makes you laugh, and an epic text tells great deeds." />
+
+<Example fr="Un texte pathétique cherche à toucher le lecteur, alors qu'un texte satirique se moque pour critiquer." en="A pathetic (moving) text tries to touch the reader, whereas a satirical text mocks in order to criticize." />
+
+**Don't confuse them with the language registers** you know since B2: *familier*, *courant*, *soutenu*. Those describe the kind of French a text uses. A text can be written in *soutenu* French and be *comique*; a text in everyday French can be *tragique*. In a commentary, "le registre" almost always means the literary register.
+
+<Example fr="Ce poème est écrit dans une langue soutenue, mais son registre est lyrique." en="This poem is written in formal French, but its register is lyrical." />
+
+Note that *pathétique* is a false friend: it means "moving, arousing pity", not "pitiful" or "useless".
+
+## The introduction
+
+<VocabTable group="intro" />
+
+The usual introduction has four parts, in this order.
+
+1. **L'amorce** (the opening) places the text in one or two sentences: a period, a genre, a theme. It doesn't tell the author's life.
+2. **The presentation of the text** gives the author, the title, the work, the form and the subject in one sentence.
+3. **The problématique** asks the question your commentary answers. It's a question about how the text works, not a question of fact.
+4. **L'annonce du plan** (the announced plan) gives your axes, in order, in one sentence.
+
+An introduction is short: about a tenth of the whole commentary.
+
+<Example fr="L'amorce place le texte en une ou deux phrases, sans raconter la vie de l'auteur." en="The opening places the text in one or two sentences, without telling the writer's life." />
+
+## The development: axes and embedded quotations
+
+<VocabTable group="body" />
+
+The development is organized in two or three *axes de lecture* (lines of analysis), each one a main idea that answers part of the problématique. An axis isn't a part of the text ("the first lines, then the end"): it's an idea about the whole text, such as "a harmonious spectacle".
+
+Inside each axis, every claim follows the same movement: **a claim, a short quotation, an analysis of how the words work, and what that means.** The quotation is *une citation enchâssée* (an embedded quotation): a few words built into your own sentence, between guillemets, never a whole paragraph dropped in.
+
+<Example fr="Le poète évoque « l'ampleur du ciel », et ce seul nom ouvre l'espace du texte." en="The poet evokes 'the breadth of the sky', and this one noun opens up the space of the text." />
+
+Keep each quotation short: in this course, under fifteen words. If your sentence doesn't make grammatical sense with the quotation inside it, rewrite your sentence, never the quotation.
+
+## The conclusion and the ouverture
+
+The conclusion answers the problématique in a few sentences, without new analysis. It ends with *l'ouverture* (the opening): one sentence that links the text to another work, or to a wider question. The ouverture should be modest and precise: a comparison with another text you know, not a general statement about literature.
+
+## Source text: Baudelaire, « Le Port »
+
+The text below is complete and in the public domain. It's "Le Port", a prose poem from Charles Baudelaire's *Petits Poèmes en prose*, published in 1869, after the poet's death, in his *Œuvres complètes*. It is given exactly as in that edition, including its old spelling *rhythme*; the English translation is our own.
+
+*Un port est un séjour charmant pour une âme fatiguée des luttes de la vie. L’ampleur du ciel, l’architecture mobile des nuages, les colorations changeantes de la mer, le scintillement des phares, sont un prisme merveilleusement propre à amuser les yeux sans jamais les lasser. Les formes élancées des navires, au gréement compliqué, auxquels la houle imprime des oscillations harmonieuses, servent à entretenir dans l’âme le goût du rhythme et de la beauté. Et puis, surtout, il y a une sorte de plaisir mystérieux et aristocratique pour celui qui n’a plus ni curiosité ni ambition, à contempler, couché dans le belvédère ou accoudé sur le môle, tous ces mouvements de ceux qui partent et de ceux qui reviennent, de ceux qui ont encore la force de vouloir, le désir de voyager ou de s’enrichir.*
+
+<VocabTable group="glossary" />
+
+(A port is a delightful place for a soul weary of the struggles of life. The breadth of the sky, the moving architecture of the clouds, the changing colours of the sea, the twinkling of the lighthouses, are a prism wonderfully suited to entertain the eyes without ever tiring them. The slender shapes of the ships, with their complicated rigging, to which the swell gives harmonious oscillations, serve to keep alive in the soul a taste for rhythm and beauty. And then, above all, there is a kind of mysterious and aristocratic pleasure, for the one who no longer has either curiosity or ambition, in contemplating, lying in the lookout or leaning on the jetty, all these movements of those who leave and those who return, of those who still have the strength to want, the desire to travel or to grow rich.)
+
+## The model: an introduction and one axis
+
+The commentary below is original. It gives the introduction, the first axis in full, a short sketch of the second axis, and the conclusion.
+
+*Au XIXe siècle, plusieurs écrivains cherchent une poésie qui n'aurait pas besoin du vers. Baudelaire en donne un exemple célèbre avec les Petits Poèmes en prose, publiés en 1869. Dans « Le Port », un poème en prose très bref, le poète décrit un port comme un lieu de repos pour celui qui est fatigué de la vie. Nous nous demanderons comment Baudelaire fait d'un simple paysage un spectacle qui console celui qui ne veut plus agir. Nous verrons d'abord que le port est présenté comme un spectacle harmonieux, puis qu'il offre au spectateur un plaisir particulier : regarder les autres vivre.*
+
+*Le port est d'abord un spectacle pour les yeux. Le poète énumère ce qu'il voit : « l'ampleur du ciel, l'architecture mobile des nuages », puis la mer et les phares. Cette énumération donne l'impression d'un paysage immense et toujours changeant. Le champ lexical du mouvement est partout : les couleurs sont « changeantes », et la houle produit des « oscillations harmonieuses ».*
+
+*Pourtant, ce mouvement n'inquiète pas. L'oxymore « architecture mobile » unit la solidité et le changement, comme si le désordre du ciel avait un plan. Le port devient alors « un prisme merveilleusement propre à amuser les yeux sans jamais les lasser ». Ce spectacle a même une fonction morale : il sert « à entretenir dans l'âme le goût du rhythme et de la beauté ». Le registre est lyrique : le poète décrit moins un lieu qu'un état, celui d'une « âme fatiguée des luttes de la vie ».*
+
+*Dans un second temps, on montrerait que le texte fait aussi le portrait de celui qui regarde : un homme « couché dans le belvédère ou accoudé sur le môle », qui observe les mouvements « de ceux qui partent et de ceux qui reviennent », sans plus vouloir partir lui-même.*
+
+*En conclusion, Baudelaire fait du port un spectacle qui console, parce qu'il permet de regarder le mouvement sans y prendre part. On pourra rapprocher ce texte de « L'Invitation au voyage », où le poète rêve lui aussi de navires et de départ.*
+
+(In the nineteenth century, several writers look for a poetry that wouldn't need verse. Baudelaire gives a famous example of it with the Petits Poèmes en prose, published in 1869. In "Le Port", a very short prose poem, the poet describes a port as a place of rest for someone who is tired of life. We will ask how Baudelaire turns a simple landscape into a spectacle that comforts someone who no longer wants to act. We will see first that the port is presented as a harmonious spectacle, then that it offers the onlooker a particular pleasure: watching others live. The port is first a spectacle for the eyes. The poet lists what he sees: "the breadth of the sky, the moving architecture of the clouds", then the sea and the lighthouses. This enumeration gives the impression of an immense, ever-changing landscape. The lexical field of movement is everywhere: the colours are "changing", and the swell produces "harmonious oscillations". Yet this movement isn't worrying. The oxymoron "moving architecture" joins solidity and change, as if the disorder of the sky had a plan. The port then becomes "a prism wonderfully suited to entertain the eyes without ever tiring them". This spectacle even has a moral function: it serves "to keep alive in the soul a taste for rhythm and beauty". The register is lyrical: the poet describes a state rather than a place, that of "a soul weary of the struggles of life". In a second part, we would show that the text is also a portrait of the person watching: a man "lying in the lookout or leaning on the jetty", who observes the movements "of those who leave and of those who return", without wanting to leave himself any more. In conclusion, Baudelaire makes the port a spectacle that comforts, because it lets you watch movement without taking part in it. This text can be compared with "L'Invitation au voyage", in which the poet also dreams of ships and of departure.)
+
+## How the model works
+
+- **The amorce** places the text in its genre (poetry without verse) in two sentences, with no biography.
+- **The presentation** gives the title, the form (*un poème en prose*) and the subject in one sentence.
+- **The problématique** asks how the text works (*comment Baudelaire fait-il…*), in the indirect form *nous nous demanderons comment*.
+- **The announced plan** gives the two axes, in order.
+- **The developed axis** goes from the claim (*un spectacle pour les yeux*) to the evidence (the enumeration, the lexical field, the oxymoron) and to its meaning (a spectacle that soothes).
+- **Every quotation is embedded** and shorter than fifteen words.
+- **The conclusion** answers the problématique, and its ouverture names one other poem by the same author.
+
+## Your turn
+
+Write another introduction for a commentary of "Le Port", with a different plan: first the spectacle of the sea, then the portrait of the onlooker. Keep the four parts in order, and check each one against the list in the writing task. When you've finished, compare your text with the model.
+
+<Callout type="warning" title="Don't retell the text">
+  The most common mistake in a first commentary is to follow the text line by line and say again what it says: *Baudelaire dit que le port est un séjour charmant, puis il parle du ciel…* That's a summary, not a commentary. Start each paragraph with an idea, and use the text as evidence: **l'énumération donne l'impression d'un paysage immense**.
+</Callout>
+
+<Callout type="tip" title="Colour your relevé by theme">
+  When you make your relevé, use one colour per lexical field or per kind of effect: movement in blue, calm in green, the onlooker in red. When you look at the page, your axes appear on their own: each colour that runs through the whole text is a possible axe de lecture.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-stylistic-analysis" text="the lesson on style" /> looks more closely at rhythm, sound and syntax, the tools a commentary uses to explain how a sentence produces its effect.
+
+===== content/lessons/c2/stylistic-analysis.mdx =====
+---
+id: "c2-stylistic-analysis"
+title: "Style: rhythm, sound and syntax"
+description: "Describe how a sentence produces its effect: la période and the ternary rhythm, allitération and assonance, chiasme and asyndète, parataxe and hypotaxe, and the short sentence, with two original passages on the same scene."
+level: "C2"
+unit: "Reading between the lines"
+order: 22
+type: "communication"
+tags: ["reading", "style", "rhythm", "figures", "syntax", "literature"]
+prerequisites: ["c1-rhetorical-devices", "c1-culture-french-poetry", "c2-commentaire-de-texte"]
+related: ["c1-stylistic-inversion", "c1-dislocation-and-fronting", "c1-culture-literary-canon"]
+vocab:
+  - { id: "c2-stylistic-analysis-v001", group: "rhythm", fr: "la période", pron: "lah pay-RYOD", en: "a period (a long, balanced sentence that rises and falls)" }
+  - { id: "c2-stylistic-analysis-v002", group: "rhythm", fr: "ample", pron: "AHN-pluh", en: "long and flowing (of a sentence)" }
+  - { id: "c2-stylistic-analysis-v003", group: "rhythm", fr: "le rythme ternaire", pron: "luh reetm tehr-NEHR", en: "the ternary rhythm (a group of three)" }
+  - { id: "c2-stylistic-analysis-v004", group: "rhythm", fr: "une phrase brève", pron: "ewn frahz BREV", en: "a short sentence" }
+  - { id: "c2-stylistic-analysis-v005", group: "rhythm", fr: "saccadé / saccadée", pron: "sah-kah-DAY", en: "jerky, broken (of a rhythm)" }
+  - { id: "c2-stylistic-analysis-v006", group: "sound", fr: "l'allitération (f.)", pron: "lah-lee-tay-rah-SYOHN", en: "alliteration (a repeated consonant sound)" }
+  - { id: "c2-stylistic-analysis-v007", group: "sound", fr: "l'assonance (f.)", pron: "lah-soh-NAHNS", en: "assonance (a repeated vowel sound)" }
+  - { id: "c2-stylistic-analysis-v008", group: "sound", fr: "la musicalité", pron: "lah mew-zee-kah-lee-TAY", en: "musicality, the music of a sentence" }
+  - { id: "c2-stylistic-analysis-v009", group: "order", fr: "le chiasme", pron: "luh KYAHSM", en: "chiasmus (two elements repeated in reverse order: A B, B A)" }
+  - { id: "c2-stylistic-analysis-v010", group: "order", fr: "l'asyndète (f.)", pron: "lah-zan-DET", en: "asyndeton (leaving out the linking words, such as et)" }
+  - { id: "c2-stylistic-analysis-v011", group: "order", fr: "les mots de liaison (m.)", pron: "lay moh duh lyeh-ZOHN", en: "linking words (et, mais, donc…)" }
+  - { id: "c2-stylistic-analysis-v012", group: "syntax", fr: "la parataxe", pron: "lah pah-rah-TAKS", en: "parataxis (clauses side by side, with no subordination)" }
+  - { id: "c2-stylistic-analysis-v013", group: "syntax", fr: "l'hypotaxe (f.)", pron: "lee-poh-TAKS", en: "hypotaxis (clauses linked by subordination)" }
+  - { id: "c2-stylistic-analysis-v014", group: "syntax", fr: "la subordination", pron: "lah sew-bor-dee-nah-SYOHN", en: "subordination" }
+  - { id: "c2-stylistic-analysis-v015", group: "syntax", fr: "la juxtaposition", pron: "lah zhewks-tah-poh-zee-SYOHN", en: "juxtaposition (placing side by side)" }
+  - { id: "c2-stylistic-analysis-v016", group: "scene", fr: "un orage", pron: "uh-noh-RAHZH", en: "a storm" }
+  - { id: "c2-stylistic-analysis-v017", group: "scene", fr: "les quais (m.)", pron: "lay KEH", en: "the quays, the quayside" }
+  - { id: "c2-stylistic-analysis-v018", group: "scene", fr: "s'allumer", pron: "sah-lew-MAY", en: "to come on (of a light)" }
+  - { id: "c2-stylistic-analysis-v019", group: "glossary", fr: "un vieil homme", pron: "uhn vyeh-YOMM", en: "an old man" }
+  - { id: "c2-stylistic-analysis-v020", group: "glossary", fr: "tièdes (tiède)", pron: "TYED", en: "lukewarm, warm" }
+  - { id: "c2-stylistic-analysis-v021", group: "glossary", fr: "un pêcheur / une pêcheuse", pron: "uhn peh-SHUHR / ewn peh-SHUHZ", en: "a fisherman, a fisherwoman" }
+  - { id: "c2-stylistic-analysis-v022", group: "glossary", fr: "les vagues (f.)", pron: "lay VAHG", en: "the waves" }
+  - { id: "c2-stylistic-analysis-v023", group: "glossary", fr: "étroite (étroit)", pron: "ay-TRWAHT", en: "narrow" }
+  - { id: "c2-stylistic-analysis-v024", group: "glossary", fr: "brille (briller)", pron: "BREE-y", en: "shines (to shine)" }
+  - { id: "c2-stylistic-analysis-v025", group: "glossary", fr: "juxtaposées (juxtaposer)", pron: "zhewks-tah-poh-ZAY", en: "placed side by side" }
+  - { id: "c2-stylistic-analysis-v026", group: "glossary", fr: "tendu / tendue", pron: "tahn-DEW", en: "tense" }
+  - { id: "c2-stylistic-analysis-v027", group: "glossary", fr: "dramatique", pron: "drah-mah-TEEK", en: "dramatic" }
+exercises:
+  - id: "c2-stylistic-analysis-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez la figure dans la phrase : Le vent venait, violent, vers la ville."
+    options: ["une allitération", "une assonance", "un chiasme"]
+    answers: ["une allitération"]
+    explanation: "The consonant sound v comes back four times: that's an alliteration."
+  - id: "c2-stylistic-analysis-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez la figure dans la phrase : Il lit, il rit, il écrit."
+    options: ["une assonance", "une allitération", "une hypotaxe"]
+    answers: ["une assonance"]
+    explanation: "The vowel sound i comes back in every word: that's an assonance. The three verbs also make a ternary rhythm."
+  - id: "c2-stylistic-analysis-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez la figure dans la phrase : On part pour oublier, on oublie de partir."
+    options: ["un chiasme", "une asyndète", "une allitération"]
+    answers: ["un chiasme"]
+    explanation: "Partir and oublier come back in reverse order (A B, B A): that's a chiasmus."
+  - id: "c2-stylistic-analysis-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez la construction de la phrase : Il pleut. La rue est vide. Personne ne sort."
+    options: ["la parataxe", "l'hypotaxe", "la période"]
+    answers: ["la parataxe"]
+    explanation: "Three short clauses side by side, with no linking word: parataxis. The reader has to supply the links."
+  - id: "c2-stylistic-analysis-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le rythme de la phrase : Il était seul, sans argent, sans espoir."
+    options: ["un rythme ternaire", "un chiasme", "une période"]
+    answers: ["un rythme ternaire"]
+    explanation: "Three groups after était (seul, sans argent, sans espoir) make a ternary rhythm, here growing in strength."
+  - id: "c2-stylistic-analysis-ex006"
+    type: "multiple-choice"
+    prompt: "Indiquez l'effet le plus probable d'une phrase brève placée après une longue période."
+    options: ["It stops the reader and stresses what it says.", "It slows down the reading even more.", "It adds a new subordinate clause."]
+    answers: ["It stops the reader and stresses what it says."]
+    explanation: "After a long, flowing sentence, a short one breaks the movement and draws attention to itself."
+  - id: "c2-stylistic-analysis-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Quand on supprime les mots de liaison, comme « et », on fait une ___."
+    answers: ["asyndète"]
+    explanation: "L'asyndète: linking words left out, which gives speed or force."
+  - id: "c2-stylistic-analysis-ex008"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : L'assonance est la répétition d'une même consonne."
+    answers: ["L'assonance est la répétition d'une même voyelle"]
+    explanation: "Assonance repeats a vowel sound; alliteration repeats a consonant sound."
+  - id: "c2-stylistic-analysis-ex009"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : L'hypotaxe place les propositions côte à côte, sans subordination."
+    answers: ["La parataxe place les propositions côte à côte, sans subordination"]
+    explanation: "Clauses side by side, with no subordination, is parataxis. Hypotaxis links them by subordination."
+    strictAccents: true
+  - id: "c2-stylistic-analysis-ex010"
+    type: "reformulation"
+    prompt: "Reformulez en une seule phrase avec « parce que » (hypotaxe) : La rue est vide. Il pleut."
+    answers: ["La rue est vide parce qu'il pleut", "Parce qu'il pleut, la rue est vide"]
+    explanation: "Parce que makes the link explicit, which turns parataxis into hypotaxis."
+  - id: "c2-stylistic-analysis-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec une asyndète, en supprimant « et » : Elle ouvre la porte et elle sort."
+    answers: ["Elle ouvre la porte, elle sort", "Elle ouvre la porte, sort"]
+    explanation: "Without et, the two actions follow each other faster."
+  - id: "c2-stylistic-analysis-ex012"
+    type: "translate"
+    prompt: "Traduisez (une allitération) : This sentence contains an alliteration in s."
+    answers: ["Cette phrase contient une allitération en s"]
+    explanation: "Une allitération en s: a repeated s sound."
+  - id: "c2-stylistic-analysis-ex013"
+    type: "translate"
+    prompt: "Traduisez (le rythme, saccadé) : The rhythm of this text is jerky."
+    answers: ["Le rythme de ce texte est saccadé"]
+    explanation: "Saccadé: broken into short, jerky units."
+  - id: "c2-stylistic-analysis-ex014"
+    type: "translate"
+    prompt: "Traduisez (une période) : This sentence is a long period."
+    answers: ["Cette phrase est une longue période"]
+    explanation: "La période: a long, balanced sentence."
+  - id: "c2-stylistic-analysis-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The short sentence breaks the rhythm."
+    words: ["La", "phrase", "brève", "casse", "le", "rythme"]
+    answers: ["La phrase brève casse le rythme"]
+    explanation: "Une phrase brève after long ones breaks the rhythm and stresses what it says."
+  - id: "c2-stylistic-analysis-ex016"
+    type: "writing-task"
+    prompt: "Rédigez deux versions d'une même scène (60 à 120 mots en tout) : d'abord une période, puis la même scène en phrases brèves. Utilisez au moins un rythme ternaire et une allitération."
+    model: "Quand le soir descend sur la gare, que les derniers voyageurs se pressent vers les quais et que les haut-parleurs répètent des noms de villes lointaines, l'horloge, immobile au-dessus de la foule, semble seule ne rien attendre. Le soir tombe. Les voyageurs courent. Un train siffle, s'arrête, repart. L'horloge, elle, attend."
+    checklist: ["Is the first version one long sentence, with a rising part and a falling part?", "Is the second version made of short sentences side by side?", "Is there a group of three, and do you hear a repeated consonant?", "Do the two versions describe the same scene, with the same facts?"]
+    wordTarget: [60, 120]
+---
+
+By the end of this lesson you'll be able to describe how a French sentence produces its effect: its length and rhythm, its sounds, and the order and links of its parts.
+
+## What you already know
+
+You know *le rythme*, *l'anaphore* and *la gradation* from <LessonLink id="c1-rhetorical-devices" text="the lesson on rhetorical devices" />, and the alexandrine and its caesura from <LessonLink id="c1-culture-french-poetry" text="the lesson on French poetry" />. You've also met a famous chiasmus, Molière's line about eating and living, in <LessonLink id="c1-culture-literary-canon" text="the lesson on the literary canon" />. In <LessonLink id="c2-commentaire-de-texte" text="the last lesson" />, you saw that a commentary explains how words work. This lesson gives you the tools for that explanation at the level of the sentence.
+
+## Length and rhythm
+
+<VocabTable group="rhythm" />
+
+The first thing to notice in a sentence is its length. *La période* (a period) is a long, balanced sentence. It builds up through several clauses, often subordinate ones, then reaches its main clause and falls to its end. A period is *ample* (long and flowing): it slows the reader down and gives an impression of breadth, solemnity or calm.
+
+<Example fr="Une phrase ample donne souvent une impression de calme." en="A long, flowing sentence often gives an impression of calm." />
+
+<Example fr="Quand la nuit tombe sur le port, que les derniers bateaux rentrent et que les lumières s'allument une à une le long des quais, la ville, enfin, se tait." en="When night falls on the harbour, when the last boats come in and the lights come on one by one along the quays, the town, at last, falls silent." />
+
+The sentence rises through three clauses with *quand*, *que* and *que*, then falls on its short main clause, *la ville se tait*. Notice that the rising part is long and the falling part short: the effect is one of arrival and rest.
+
+*Le rythme ternaire* (the ternary rhythm) groups words or clauses by three. It sounds complete, often definitive, and if each group is longer than the one before, it also builds up.
+
+<Example fr="Il était seul, sans argent, sans espoir." en="He was alone, without money, without hope." />
+
+*Une phrase brève* (a short sentence) works by contrast. After a long period, it stops the reader and stresses what it says. A series of short sentences gives a rhythm that is *saccadé* (jerky): it suggests speed, tension or emotion.
+
+## Sound
+
+<VocabTable group="sound" />
+
+Two figures work on sound, and both are easy to confuse.
+
+- **The figure called allitération** (alliteration) repeats a consonant sound: *le vent venait, violent, vers la ville*.
+- **The figure called assonance** repeats a vowel sound: *il lit, il rit, il écrit*.
+
+What matters is the sound, not the spelling: *ville* and *venait* share the sound *v*, and *lit* and *écrit* share the sound *i*. In a commentary, don't just name the figure: say what the sound suggests. A repeated *v* or *f* can suggest wind; repeated soft vowels, calm. These links are a matter of interpretation, so present them with care (*semble suggérer*, *peut évoquer*). Together, sound and rhythm make *la musicalité* (the musicality) of a sentence.
+
+<Example fr="La musicalité d'une phrase vient de ses sons et de son rythme." en="The musicality of a sentence comes from its sounds and its rhythm." />
+
+<Example fr="Le vent venait, violent, vers la ville." en="The wind came, violent, towards the town. (alliteration in v)" />
+
+## Order: chiasmus and asyndeton
+
+<VocabTable group="order" />
+
+*Le chiasme* (chiasmus) repeats two elements in reverse order: A, B, then B, A. It sets two ideas against each other in a memorable form.
+
+<Example fr="Le chiasme reprend deux mots dans l'ordre contraire." en="Chiasmus takes up two words again in the opposite order." />
+
+<Example fr="On part pour oublier, on oublie de partir." en="We leave to forget, we forget to leave. (chiasmus: partir, oublier / oublier, partir)" />
+
+*L'asyndète* (asyndeton) leaves out the linking words, especially *et*. The actions follow each other faster, as if nothing could stop them.
+
+<Example fr="Elle ouvre la porte, regarde la rue, sort." en="She opens the door, looks at the street, goes out. (asyndeton)" />
+
+## Syntax: parataxis and hypotaxis
+
+<VocabTable group="syntax" />
+
+Two ways of building a text are worth naming. *La parataxe* (parataxis) places clauses side by side, with no subordination: it's *la juxtaposition* (juxtaposition) of short, independent clauses. The reader has to supply the links of cause or time.
+
+<Example fr="La juxtaposition place des propositions côte à côte, sans mot de liaison." en="Juxtaposition places clauses side by side, with no linking word." /> *L'hypotaxe* (hypotaxis) links clauses by *la subordination* (subordination): *parce que*, *quand*, *bien que*. The links are explicit, and the reasoning is visible.
+
+<Example fr="Il pleut. La rue est vide. Personne ne sort." en="It's raining. The street is empty. Nobody goes out. (parataxis)" />
+
+<Example fr="Comme il pleut depuis le matin, la rue est vide, parce que personne ne veut sortir." en="As it has been raining since morning, the street is empty, because nobody wants to go out. (hypotaxis)" />
+
+Neither is better. Parataxis gives speed and tension and leaves the reader to understand; hypotaxis gives order and explanation. Many writers alternate them, and the change from one to the other is itself an effect worth describing.
+
+## How to describe a style
+
+As a rule of thumb, describe a passage's style in four steps, and always link each observation to an effect.
+
+1. **Length**: are the sentences long or short, and does that change?
+2. **Rhythm**: groups of three, a rising and falling period, a short sentence that breaks the movement.
+3. **Sound**: a repeated consonant or vowel, read aloud.
+4. **Syntax and order**: parataxis or hypotaxis, a chiasmus, an asyndeton, an inversion.
+
+A list of figures isn't an analysis. The question is always: what does this choice do to the reader?
+
+## The model: one scene, two styles
+
+<VocabTable group="scene" />
+
+The two passages below are original. They describe the same scene, a storm arriving over a small harbour, with the same facts: the evening, the storm, the boats coming back, an old man on the jetty, the first drops and his walk home. The first is written in long periods, the second in short sentences, and a short comparison follows, in French.
+
+*Lorsque le soir commença à tomber sur le petit port, et que le ciel, qui avait été d'un bleu si calme pendant tout l'après-midi, se couvrit lentement de nuages lourds venus de la mer, les pêcheurs, qui connaissaient ces signes depuis l'enfance, rentrèrent un à un leurs bateaux vers les quais. Seul un vieil homme, assis sur une caisse au bout de la jetée, regardait encore les vagues grossir, comme s'il attendait de l'orage une réponse que la mer ne lui avait jamais donnée, jusqu'au moment où les premières gouttes, larges et tièdes, vinrent frapper le bois autour de lui.*
+
+*Alors seulement il se leva, prit son vieux sac et, sans se presser, sous la pluie qui couvrait maintenant tout le port d'un bruit égal et doux, il remonta la rue étroite qui menait à sa maison, où une lampe, déjà, l'attendait derrière la fenêtre.*
+
+*Le soir tombe. Le ciel change. Des nuages arrivent de la mer, lourds, noirs, rapides. Les pêcheurs les voient. Ils rentrent les bateaux, un à un, vite. Sur la jetée, un vieil homme reste assis. Il regarde les vagues. Elles grossissent. Il ne bouge pas. Une goutte tombe. Puis une autre. Puis toutes.*
+
+*Le vieil homme se lève. Il prend son sac. Il marche sous la pluie, lentement. La rue monte. Une fenêtre brille. Quelqu'un l'attend.*
+
+*Les deux versions racontent les mêmes faits, mais elles ne produisent pas le même effet. La première, construite par l'hypotaxe, fait durer chaque moment : le lecteur attend avec le vieil homme, et la période semble aussi lente que lui. La seconde, faite de phrases brèves juxtaposées, rend le récit plus rapide et plus tendu ; l'arrivée de la pluie y devient presque un événement dramatique. Les deux textes se terminent pourtant sur le même calme : une lumière derrière une fenêtre, et quelqu'un qui attend.*
+
+(When evening began to fall on the little harbour, and the sky, which had been such a calm blue all afternoon, slowly clouded over with heavy clouds from the sea, the fishermen, who had known these signs since childhood, brought their boats back one by one towards the quays. Only an old man, sitting on a crate at the end of the jetty, was still watching the waves grow, as if he were waiting for an answer from the storm that the sea had never given him, until the first drops, large and warm, came to strike the wood around him. Only then did he get up, take his old bag and, without hurrying, under the rain that now covered the whole harbour with an even, gentle sound, walk up the narrow street that led to his house, where a lamp was already waiting for him behind the window. / Evening falls. The sky changes. Clouds come in from the sea, heavy, black, fast. The fishermen see them. They bring the boats in, one by one, quickly. On the jetty, an old man stays seated. He watches the waves. They grow. He doesn't move. A drop falls. Then another. Then all of them. The old man gets up. He takes his bag. He walks in the rain, slowly. The street climbs. A window shines. Someone is waiting for him. / The two versions tell the same facts, but they don't produce the same effect. The first, built by hypotaxis, makes each moment last: the reader waits with the old man, and the period seems as slow as he is. The second, made of short sentences side by side, makes the story faster and tenser; the arrival of the rain almost becomes a dramatic event. Yet both texts end on the same calm: a light behind a window, and someone waiting.)
+
+<VocabTable group="glossary" />
+
+## How the two passages compare
+
+- **Length:** the first passage has three long periods; the second, eighteen short sentences.
+- **Syntax:** the first is built by hypotaxis (*lorsque*, *que*, *qui*, *comme si*, *jusqu'au moment où*); the second by parataxis, with no subordinate clause at all.
+- **Tense:** the first, a literary narrative, uses the passé simple and the imparfait; the second uses the present, which brings the scene closer. Each passage keeps one narrative tense.
+- **Rhythm:** the second has two ternary groups (*lourds, noirs, rapides*; *une goutte… une autre… toutes*), the last one growing; the first rises slowly to *vinrent frapper le bois*.
+- **Effect:** the first gives calm, memory and a kind of fate; the second gives tension and speed, with a short sentence, *Puis toutes*, that is almost a fall. Both end on the same image of calm.
+
+## En français
+
+Aurélie leads a writing workshop. Thomas has written the two passages above as an exercise. They use *tu*.
+
+- *Thomas, tes deux textes racontent bien la même scène ?* (Thomas, do your two texts really tell the same scene?)
+- *Oui : le soir, l'orage, les bateaux, le vieil homme, les premières gouttes et son retour chez lui.* (Yes: the evening, the storm, the boats, the old man, the first drops and his walk home.)
+- *La première version n'a que quelques très longues phrases.* (The first version has only a few very long sentences.)
+- *Trois périodes. Je voulais que le lecteur aille plus lentement, comme le vieil homme.* (Three periods. I wanted the reader to slow down, like the old man.)
+- *Et ça marche. La seconde, au contraire, est très saccadée.* (And it works. The second, on the contrary, is very jerky.)
+- *Ce sont des phrases brèves, sans subordination : de la parataxe.* (They're short sentences, with no subordination: parataxis.)
+- *Tu as mis un rythme ternaire avec « lourds, noirs, rapides ».* (You put a ternary rhythm with "lourds, noirs, rapides".)
+- *Oui, et un autre à la fin : une goutte, une autre, toutes.* (Yes, and another at the end: a drop, another, all of them.)
+- *Le moment de la pluie est fort : « Puis toutes » tombe comme la pluie.* (The moment of the rain is strong: "Puis toutes" falls like the rain.)
+- *Dans la première version, j'ai aussi cherché une allitération en v, mais je ne suis pas sûr de l'entendre.* (In the first version, I also tried for an alliteration in v, but I'm not sure I can hear it.)
+- *Lis-la à voix haute. Si tu ne l'entends pas, le lecteur ne l'entendra pas non plus.* (Read it aloud. If you can't hear it, the reader won't hear it either.)
+- *Alors je ne la mentionne pas dans mon analyse.* (Then I won't mention it in my analysis.)
+- *C'est la bonne règle : on décrit ce que le texte fait vraiment.* (That's the right rule: you describe what the text really does.)
+
+<Callout type="warning" title="Assonance is vowels, alliteration is consonants">
+  Learners often swap the two terms, or count letters instead of sounds. **L'assonance** repeats a vowel sound (*il lit, il rit*), **l'allitération** a consonant sound (*le vent venait, violent*). Read the sentence aloud before you name the figure, and count sounds, not letters.
+</Callout>
+
+<Callout type="tip" title="Read it aloud twice, at two speeds">
+  Before you analyse the style of a passage, read it aloud once slowly and once fast. The slow reading lets you hear sounds and groups of three; the fast one shows where the sentence speeds up, breaks or comes to rest. What you notice aloud is usually what the writer built.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-reading-the-press" text="the lesson on press genres" /> applies the same attention to style to newspaper writing, genre by genre.
+
+===== content/lessons/c2/reading-the-press.mdx =====
+---
+id: "c2-reading-the-press"
+title: "Press genres and styles"
+description: "Recognize French press genres by their style (dépêche, éditorial, chronique, billet d'humeur, tribune, reportage, enquête, interview, brève), the parts of an article (titraille, chapeau, accroche) and the inverted pyramid, and read each one for its signs of opinion."
+level: "C2"
+unit: "Reading between the lines"
+order: 23
+type: "culture"
+tags: ["culture", "press", "media", "genres", "reading"]
+prerequisites: ["b2-culture-french-press", "b2-summarizing-an-article", "c2-implicit-meaning"]
+related: ["b1-media-and-news", "c1-culture-satire-and-humour", "c2-review-reading"]
+vocab:
+  - { id: "c2-reading-the-press-v001", group: "facts", fr: "une dépêche", pron: "ewn day-PESH", en: "an agency wire, a news dispatch" }
+  - { id: "c2-reading-the-press-v002", group: "facts", fr: "une brève", pron: "ewn BREV", en: "a news brief (a few lines)" }
+  - { id: "c2-reading-the-press-v003", group: "facts", fr: "un envoyé spécial / une envoyée spéciale", pron: "uh-nahn-vwah-YAY spay-SYAL", en: "a special correspondent (sent to the scene)" }
+  - { id: "c2-reading-the-press-v004", group: "facts", fr: "la pyramide inversée", pron: "lah pee-rah-MEED an-vehr-SAY", en: "the inverted pyramid (the most important facts first)" }
+  - { id: "c2-reading-the-press-v005", group: "opinion", fr: "une chronique", pron: "ewn kroh-NEEK", en: "a column (a regular piece by the same writer)" }
+  - { id: "c2-reading-the-press-v006", group: "opinion", fr: "un chroniqueur / une chroniqueuse", pron: "uhn kroh-nee-KUHR / ewn kroh-nee-KUHZ", en: "a columnist" }
+  - { id: "c2-reading-the-press-v007", group: "opinion", fr: "un billet d'humeur", pron: "uhn bee-YEH dew-MUHR", en: "a short, personal opinion piece" }
+  - { id: "c2-reading-the-press-v008", group: "opinion", fr: "un contributeur extérieur / une contributrice extérieure", pron: "uhn kohn-tree-bew-TUHR eks-tay-RYUHR", en: "an outside contributor" }
+  - { id: "c2-reading-the-press-v009", group: "parts", fr: "la titraille", pron: "lah tee-TRAH-y", en: "the headings of an article (title, kicker, subtitle)" }
+  - { id: "c2-reading-the-press-v010", group: "parts", fr: "le surtitre", pron: "luh sewr-TEE-truh", en: "the kicker (the line above the title)" }
+  - { id: "c2-reading-the-press-v011", group: "parts", fr: "le sous-titre", pron: "luh soo-TEE-truh", en: "the subtitle" }
+  - { id: "c2-reading-the-press-v012", group: "parts", fr: "l'accroche d'un article (f.)", pron: "lah-KROSH duh-nar-TEE-kluh", en: "the lead (the first lines that catch the reader)" }
+  - { id: "c2-reading-the-press-v013", group: "parts", fr: "un intertitre", pron: "uh-nan-tehr-TEE-truh", en: "a crosshead (a heading inside the article)" }
+  - { id: "c2-reading-the-press-v014", group: "event", fr: "une péniche", pron: "ewn pay-NEESH", en: "a barge (a flat river boat)" }
+  - { id: "c2-reading-the-press-v015", group: "event", fr: "un canal", pron: "uhn kah-NAHL", en: "a canal", note: "Plural: des canaux." }
+  - { id: "c2-reading-the-press-v016", group: "glossary", fr: "flottante (flottant)", pron: "floh-TAHNT", en: "floating" }
+  - { id: "c2-reading-the-press-v017", group: "glossary", fr: "amarrée (amarrer)", pron: "ah-mah-RAY", en: "moored" }
+  - { id: "c2-reading-the-press-v018", group: "glossary", fr: "debout", pron: "duh-BOO", en: "standing" }
+  - { id: "c2-reading-the-press-v019", group: "glossary", fr: "des coussins (m.)", pron: "day koo-SAN", en: "cushions" }
+  - { id: "c2-reading-the-press-v020", group: "glossary", fr: "un bibliothécaire / une bibliothécaire", pron: "uhn bee-blee-oh-tay-KEHR", en: "a librarian" }
+exercises:
+  - id: "c2-reading-the-press-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le genre : « Valbrune (Info-Régions). Une bibliothèque installée sur une péniche a ouvert samedi sur le canal. »"
+    options: ["une dépêche", "un billet d'humeur", "une chronique"]
+    answers: ["une dépêche"]
+    explanation: "The place and the agency in brackets, the facts first, no opinion: that's the style of an agency wire."
+  - id: "c2-reading-the-press-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le genre : un texte signé par le rédacteur en chef, qui donne la position du journal sur un sujet."
+    options: ["un éditorial", "une tribune", "une brève"]
+    answers: ["un éditorial"]
+    explanation: "L'éditorial gives the paper's own position. A tribune is written by someone outside the paper."
+  - id: "c2-reading-the-press-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le genre : un texte d'opinion écrit par une personne extérieure au journal, par exemple une chercheuse."
+    options: ["une tribune", "un éditorial", "un reportage"]
+    answers: ["une tribune"]
+    explanation: "Une tribune is an opinion piece by an outside contributor."
+  - id: "c2-reading-the-press-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le genre : un texte écrit chaque semaine par la même journaliste, sur un ton personnel."
+    options: ["une chronique", "une dépêche", "une enquête"]
+    answers: ["une chronique"]
+    explanation: "Une chronique is a regular piece by the same writer, often personal in tone."
+  - id: "c2-reading-the-press-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez ce que la pyramide inversée place au début d'un article."
+    options: ["the facts that are most important", "the opinion of the writer", "the background and the history"]
+    answers: ["the facts that are most important"]
+    explanation: "The inverted pyramid starts with the essential facts (who, what, where, when), then gives details and background."
+  - id: "c2-reading-the-press-ex006"
+    type: "fill-in"
+    prompt: "Complétez : L'ensemble des titres d'un article, avec le surtitre et le sous-titre, s'appelle la ___."
+    answers: ["titraille"]
+    explanation: "La titraille: all the headings of an article."
+  - id: "c2-reading-the-press-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Un texte très court, de quelques lignes, qui donne une seule information, est une ___."
+    answers: ["brève"]
+    explanation: "Une brève: a news brief of a few lines."
+  - id: "c2-reading-the-press-ex008"
+    type: "register-shift"
+    prompt: "Transformez en style de dépêche, sans jugement (« a ouvert ») : Enfin ! La bibliothèque flottante, ce rêve un peu fou, a ouvert samedi."
+    answers: ["La bibliothèque flottante a ouvert samedi"]
+    explanation: "A dépêche keeps the fact and drops the exclamation, enfin and the judgment ce rêve un peu fou."
+    strictAccents: true
+  - id: "c2-reading-the-press-ex009"
+    type: "error-correction"
+    prompt: "Corrigez la dépêche : supprimez le mot qui donne une opinion (« magnifique ») : La magnifique péniche accueillera le public du mardi au samedi."
+    answers: ["La péniche accueillera le public du mardi au samedi"]
+    explanation: "A dépêche reports facts; an adjective of judgment belongs in a chronique or a billet."
+  - id: "c2-reading-the-press-ex010"
+    type: "reformulation"
+    prompt: "Reformulez en commençant par le fait principal (pyramide inversée) : Après deux ans de travaux et un long débat au conseil municipal, une bibliothèque flottante a ouvert samedi à Valbrune."
+    answers: ["Une bibliothèque flottante a ouvert samedi à Valbrune, après deux ans de travaux et un long débat au conseil municipal", "Samedi, une bibliothèque flottante a ouvert à Valbrune, après deux ans de travaux et un long débat au conseil municipal"]
+    explanation: "The inverted pyramid gives the main fact first, then the background."
+    strictAccents: true
+  - id: "c2-reading-the-press-ex011"
+    type: "translate"
+    prompt: "Traduisez (un billet d'humeur) : The journalist wrote a short opinion piece about the barge."
+    answers: ["La journaliste a écrit un billet d'humeur sur la péniche", "Le journaliste a écrit un billet d'humeur sur la péniche"]
+    explanation: "Un billet d'humeur: a short, personal opinion piece."
+    strictAccents: true
+  - id: "c2-reading-the-press-ex012"
+    type: "translate"
+    prompt: "Traduisez (une chronique) : Her column appears every Monday."
+    answers: ["Sa chronique paraît chaque lundi", "Sa chronique paraît tous les lundis"]
+    explanation: "Une chronique is a regular piece; paraître is the verb for a publication."
+  - id: "c2-reading-the-press-ex013"
+    type: "translate"
+    prompt: "Traduisez (une envoyée spéciale) : Our special correspondent was on the scene."
+    answers: ["Notre envoyée spéciale était sur place"]
+    explanation: "Un envoyé spécial, une envoyée spéciale: a journalist sent to the scene, typical of the reportage."
+  - id: "c2-reading-the-press-ex014"
+    type: "multiple-choice"
+    prompt: "Indiquez ce qui montre l'opinion dans un billet d'humeur."
+    options: ["the first person and judging words", "the agency name in brackets", "the answers of a person interviewed"]
+    answers: ["the first person and judging words"]
+    explanation: "A billet d'humeur is personal: je, judging adjectives, irony."
+  - id: "c2-reading-the-press-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : An agency wire gives the facts first."
+    words: ["Une", "dépêche", "donne", "d'abord", "les", "faits"]
+    answers: ["Une dépêche donne d'abord les faits"]
+    explanation: "Une dépêche follows the inverted pyramid: facts first."
+---
+
+By the end of this lesson you'll be able to recognize the main French press genres by their style, name the parts of an article, and say where and how each genre lets an opinion through.
+
+## What you already know
+
+You know the French press and its institutions (*une agence de presse*, *une rédaction*, *une ligne éditoriale*, *un éditorialiste*) from <LessonLink id="b2-culture-french-press" text="the lesson on the French press" />, and *un éditorial*, *un reportage*, *une enquête* and *une interview* from <LessonLink id="b1-media-and-news" text="the lesson on the media" />. You know *un chapeau* from <LessonLink id="b2-summarizing-an-article" text="the lesson on summarizing an article" />, *une tribune* from <LessonLink id="b2-review-nuance" text="the review of nuance" />, and the signs of implicit judgment from <LessonLink id="c2-implicit-meaning" text="the lesson on implicit meaning" />. This lesson puts them together: each genre has its own style, and its own way of giving, or hiding, an opinion.
+
+## Genres that report
+
+<VocabTable group="facts" />
+
+**La dépêche** (an agency wire) is written by a press agency and sent to newspapers, which publish it or use it. It starts with the place and the agency's name, gives the facts in the inverted pyramid, and avoids any opinion. Its sentences are short, its verbs factual (*a ouvert*, *a annoncé*).
+
+**La brève** (a news brief) gives a single piece of news in a few lines, often with no signature.
+
+**Le reportage** is written on the scene, often by *un envoyé spécial* or *une envoyée spéciale* (a special correspondent). It describes what the journalist sees and hears, so it uses the present, details and quotations from witnesses. Its opinion shows in what it chooses to describe.
+
+**L'enquête** (an investigation) takes time: it checks sources, compares documents and explains a situation. **L'interview** gives the questions of the journalist and the answers of the person interviewed; its opinion shows in the choice of the person and of the questions. In a newspaper, these genres are often mixed on the same page: a dépêche gives the news, a reportage tells the scene, and an interview gives one person's voice.
+
+<Example fr="La pyramide inversée place l'essentiel dans la première phrase : qui, quoi, où, quand." en="The inverted pyramid puts the essentials in the first sentence: who, what, where, when." />
+
+*La pyramide inversée* (the inverted pyramid) is the order of most news articles: the most important facts first, then the details, then the background. A reader who stops after the first paragraph still knows the essentials.
+
+## Genres that give an opinion
+
+<VocabTable group="opinion" />
+
+**L'éditorial** gives the position of the newspaper itself, usually signed by the editor or a senior journalist. You know *un éditorialiste* from B2.
+
+**La chronique** (a column) is a regular piece by the same writer, *un chroniqueur* or *une chroniqueuse* (a columnist), on a personal tone. It mixes facts, impressions and judgment, and its readers come back for its voice.
+
+**Le billet d'humeur** is a short, personal opinion piece, often ironic, written in the first person. It takes one fact and reacts to it.
+
+**La tribune** is an opinion piece by *un contributeur extérieur* (an outside contributor): a researcher, an association, a citizen. The paper publishes it without taking it on as its own position.
+
+<Example fr="Un contributeur extérieur signe la tribune, et le journal la publie." en="An outside contributor signs the tribune, and the paper publishes it." />
+
+<Example fr="Dans un billet d'humeur, le journaliste écrit « je » et ne cache pas ce qu'il pense." en="In a short opinion piece, the journalist writes 'I' and doesn't hide what he thinks." />
+
+## The parts of an article
+
+<VocabTable group="parts" />
+
+**La titraille** is the set of headings of an article: *le surtitre* (the kicker, above the title), the title itself and *le sous-titre* (the subtitle). **Le chapeau**, which you know, is the short paragraph in bold under the title that sums up the article. **L'accroche** of an article is its first lines, written to catch the reader: a striking fact, a scene, a quotation. Long articles are cut by *des intertitres* (crossheads).
+
+<Example fr="L'accroche d'un article doit donner envie de lire la suite." en="The lead of an article must make you want to read on." />
+
+<Example fr="Un intertitre coupe un long article en plusieurs parties." en="A crosshead cuts a long article into several parts." />
+
+<Example fr="Le surtitre annonce le lieu, le titre donne l'information, et le chapeau la résume." en="The kicker announces the place, the title gives the news, and the standfirst sums it up." />
+
+## Where opinion hides
+
+Even in genres that report, opinion can come through, and the tools are those of the lesson on implicit meaning:
+
+- **The choice of facts**: what the article mentions first, and what it leaves out.
+- **The choice of words**: a connoted adjective, a judging verb (*prétendre*, *avouer*).
+- **The quotations**: who is quoted, and who isn't.
+- **The headings**: a title written as a question, or with scare quotes, already suggests a view.
+
+Read the genre first: from a dépêche, you expect facts; from a billet, a view. Then check whether the text keeps to its genre.
+
+## The model: one event, three genres
+
+<VocabTable group="event" />
+
+The three texts below are original. The event, the town, the agency (Info-Régions) and the newspaper (*L'Écho de Valbrune*) are invented.
+
+*Valbrune (Info-Régions). Une bibliothèque installée sur une péniche a ouvert samedi sur le canal de Valbrune. Amarrée près de la gare, elle propose environ trois mille livres et sera ouverte du mardi au samedi. Le projet, voté par le conseil municipal il y a deux ans, a coûté moins que prévu, selon la mairie. Plusieurs centaines de visiteurs sont venus le premier jour. Une seconde péniche, consacrée aux enfants, pourrait ouvrir l'an prochain, a indiqué l'adjointe à la culture.*
+
+*Chronique. Je suis montée à bord samedi, comme tout le monde, ou presque. La péniche sent le bois neuf et le café ; les enfants courent entre les étagères, et une bibliothécaire, debout sur le pont, montre aux visiteurs comment emprunter un livre. On a beaucoup discuté de ce projet au conseil municipal, et certains le trouvaient trop coûteux. Ce matin-là, personne ne parlait d'argent. On parlait de livres, de l'eau, et du plaisir étrange de lire sur un bateau qui ne part jamais. Une vieille femme du quartier m'a dit qu'elle n'était pas entrée dans une bibliothèque depuis vingt ans. Elle est partie avec trois romans et la promesse de revenir mardi. Je ne sais pas si la péniche sauvera la lecture à Valbrune. Mais samedi, elle a au moins rendu quelques lecteurs heureux.*
+
+*Billet d'humeur. Une bibliothèque flottante, sur notre vieux canal ! On aura tout vu. Pendant que nos rues attendent toujours leurs nouveaux bancs, la ville offre aux lecteurs une péniche, des coussins et une vue sur le canal. Je ne suis pas contre les livres, bien sûr. On nous promet déjà une seconde péniche pour les enfants. Pourquoi pas une troisième pour les adultes qui attendent leur bus sous la pluie ? Mais la prochaine fois, on pourrait peut-être réparer la route avant de mettre les livres sur l'eau.*
+
+(Valbrune (Info-Régions). A library set up on a barge opened on Saturday on the Valbrune canal. Moored near the station, it offers about three thousand books and will be open from Tuesday to Saturday. The project, voted by the town council two years ago, cost less than planned, according to the town hall. Several hundred visitors came on the first day. A second barge, for children, could open next year, the deputy mayor for culture said. / Column. I went on board on Saturday, like everyone, or almost. The barge smells of new wood and coffee; children run between the shelves, and a librarian, standing on the deck, shows visitors how to borrow a book. There was a lot of discussion about this project at the town council, and some found it too expensive. That morning, nobody was talking about money. People were talking about books, about the water, and about the strange pleasure of reading on a boat that never leaves. An old woman from the neighbourhood told me she hadn't been into a library for twenty years. She left with three novels and the promise to come back on Tuesday. I don't know whether the barge will save reading in Valbrune. But on Saturday, it at least made a few readers happy. / Short opinion piece. A floating library, on our old canal! Now we've seen everything. While our streets are still waiting for their new benches, the town offers readers a barge, cushions and a view of the canal. I'm not against books, of course. We're already promised a second barge for children. Why not a third for the adults waiting for their bus in the rain? But next time, perhaps the road could be repaired before the books are put on the water.)
+
+<VocabTable group="glossary" />
+
+## How the three texts differ
+
+- **The dépêche** opens with the place and the agency, follows the inverted pyramid, gives figures attributed to a source (*selon la mairie*, *a indiqué l'adjointe*), uses the conditionnel de prudence for what isn't decided (*pourrait ouvrir*), and has no adjective of judgment.
+- **The chronique** is in the first person (*je suis montée*), describes a scene with sensations, mentions the debate, and judges gently through what it chooses to describe: the children, the smell, the pleasure of reading.
+- **The billet d'humeur** reacts with irony (*on aura tout vu*), opposes the barge to the unrepaired road, and ends with a mocking suggestion. It gives a view, and it says so.
+
+The same facts appear in all three, but not with the same weight: the cost is a fact in the dépêche, a past debate in the chronique, and the whole point of the billet.
+
+## En français
+
+Inès and Hugo are journalism students. They're comparing the three texts for a class. They use *tu*.
+
+- *Hugo, laquelle des trois est la dépêche ?* (Hugo, which of the three is the agency wire?)
+- *La première : le lieu et l'agence au début, et seulement des faits.* (The first: the place and the agency at the start, and only facts.)
+- *Elle dit quand même que le projet a coûté moins que prévu.* (It does say that the project cost less than planned.)
+- *Oui, mais elle dit que l'information vient de la mairie. Ce n'est pas l'avis de l'agence.* (Yes, but it says the information comes from the town hall. It isn't the agency's view.)
+- *La deuxième commence par « je ». C'est un billet ?* (The second starts with "je". Is it a billet?)
+- *Non, c'est une chronique : elle raconte une scène, avec beaucoup de choses vues.* (No, it's a column: it tells a scene, with a lot of things seen.)
+- *Et la troisième, avec « On aura tout vu » ?* (And the third, with "On aura tout vu"?)
+- *Ça, c'est un billet d'humeur : court, ironique, et très personnel.* (That's a short opinion piece: short, ironic, and very personal.)
+- *Si on voulait la position du journal, il faudrait lire quoi ?* (If we wanted the paper's position, what would we have to read?)
+- *L'éditorial. Et si un lecteur extérieur voulait répondre, il écrirait une tribune.* (The editorial. And if an outside reader wanted to respond, he'd write a tribune.)
+- *Pour notre exposé, je présente la dépêche et la chronique ?* (For our presentation, shall I present the wire and the column?)
+- *D'accord, et je prends le billet. C'est le plus amusant à analyser.* (OK, and I'll take the billet. It's the most fun to analyse.)
+
+<Callout type="warning" title="Une tribune isn't the paper's opinion">
+  Learners often quote a tribune as if it were the newspaper's view: *le journal pense que…* A tribune is written by an outside contributor, and the paper only publishes it. Attribute it to its author: **dans une tribune publiée par le journal, une chercheuse estime que…** Keep *le journal estime* for the éditorial.
+</Callout>
+
+<Callout type="tip" title="Read the signature and the heading first">
+  Before you read an article, look at three things: the heading of the section (*Opinions*, *Chronique*, *Actualité*), the signature (a journalist, an agency, an outside contributor) and the first line. Together, they tell you the genre, and so what to expect: facts, a voice, or a position.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-review-reading" text="the review of this unit" /> brings the whole unit together in the analysis of an opinion piece.
+
+===== content/lessons/c2/review-reading.mdx =====
+---
+id: "c2-review-reading"
+title: "Review: Reading between the lines"
+description: "Review Unit 4 by analysing an original opinion piece with one grid: its genre, what it implies, how its arguments work, and how its style serves them, then write a short analysis of your own."
+level: "C2"
+unit: "Reading between the lines"
+order: 24
+type: "review"
+tags: ["review", "reading", "analysis", "press", "argument"]
+prerequisites: ["c2-implicit-meaning", "c2-argument-analysis", "c2-commentaire-de-texte", "c2-stylistic-analysis", "c2-reading-the-press"]
+related: ["c1-synthesis", "c2-review-words"]
+vocab:
+  - { id: "c2-review-reading-v001", group: "new", fr: "une lecture critique", pron: "ewn lek-tewr kree-TEEK", en: "a critical reading" }
+  - { id: "c2-review-reading-v002", group: "new", fr: "décrypter", pron: "day-kreep-TAY", en: "to decode, to decipher (what a text really says)" }
+  - { id: "c2-review-reading-v003", group: "new", fr: "une grille d'analyse", pron: "ewn GREE-y dah-nah-LEEZ", en: "an analysis grid (a fixed list of questions)" }
+  - { id: "c2-review-reading-v004", group: "new", fr: "un parti pris", pron: "uhn par-tee PREE", en: "a bias, a deliberate stance" }
+  - { id: "c2-review-reading-v005", group: "glossary", fr: "la métropole", pron: "lah may-troh-POL", en: "the metropolitan authority (a group of towns around a city)" }
+  - { id: "c2-review-reading-v006", group: "glossary", fr: "dévoilé (dévoiler)", pron: "day-vwah-LAY", en: "unveiled (to unveil)" }
+  - { id: "c2-review-reading-v007", group: "glossary", fr: "s'offrir", pron: "soh-FREER", en: "to afford, to treat yourself to" }
+  - { id: "c2-review-reading-v008", group: "glossary", fr: "officiellement", pron: "oh-fee-syel-MAHN", en: "officially" }
+  - { id: "c2-review-reading-v009", group: "glossary", fr: "un confort", pron: "uhn kohn-FOR", en: "a comfort, a luxury" }
+  - { id: "c2-review-reading-v010", group: "glossary", fr: "semblable", pron: "sahn-BLAH-bluh", en: "similar" }
+  - { id: "c2-review-reading-v011", group: "glossary", fr: "simplement", pron: "san-pluh-MAHN", en: "simply" }
+  - { id: "c2-review-reading-v012", group: "glossary", fr: "un moyen", pron: "uhn mwah-YAN", en: "a means, a way" }
+exercises:
+  - id: "c2-review-reading-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le présupposé de la phrase : La métropole a enfin dévoilé son plan."
+    options: ["The plan existed before and had not been made public.", "The plan has been cancelled.", "The plan was written by the association."]
+    answers: ["The plan existed before and had not been made public."]
+    explanation: "Enfin dévoilé presupposes a plan that existed and was kept from the public (c2-implicit-meaning)."
+  - id: "c2-review-reading-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le procédé : « Aujourd'hui, on supprime un bus ; demain, ce seront les trains du dimanche, puis les bibliothèques le soir. »"
+    options: ["une pente glissante", "un argument par l'exemple", "un appel à la majorité"]
+    answers: ["une pente glissante"]
+    explanation: "One measure is said to lead to others, step by step, with no evidence for the links (c2-argument-analysis)."
+  - id: "c2-review-reading-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez la partie de l'introduction d'un commentaire qui pose la question à laquelle on répond."
+    options: ["la problématique", "l'amorce", "l'ouverture"]
+    answers: ["la problématique"]
+    explanation: "The problématique is the question the commentary answers; l'ouverture comes at the end of the conclusion (c2-commentaire-de-texte)."
+  - id: "c2-review-reading-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le rythme de la fin : « Un bus. Une ligne. Une nuit de travail qui se termine bien. »"
+    options: ["un rythme ternaire", "une période", "un chiasme"]
+    answers: ["un rythme ternaire"]
+    explanation: "Three short groups, the last one longer: a ternary rhythm that ends the text (c2-stylistic-analysis)."
+  - id: "c2-review-reading-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le genre du texte de Claire Morin."
+    options: ["une tribune", "une dépêche", "un éditorial"]
+    answers: ["une tribune"]
+    explanation: "It's an opinion piece signed by an outside contributor, the president of an association (c2-reading-the-press)."
+  - id: "c2-review-reading-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Lire un texte en cherchant ses intentions et ses procédés, c'est en faire une lecture ___."
+    answers: ["critique"]
+    explanation: "Une lecture critique: a reading that analyses what a text does, not only what it says."
+  - id: "c2-review-reading-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe qui veut dire « comprendre ce qui est caché » : Il faut savoir ___ les sous-entendus d'un texte."
+    answers: ["décrypter"]
+    explanation: "Décrypter: to decode what a text says without saying it."
+  - id: "c2-review-reading-ex008"
+    type: "error-correction"
+    prompt: "Corrigez le résumé pour qu'il soit neutre, avec « a annoncé » : Selon la tribune, la métropole a enfin dévoilé son plan."
+    answers: ["Selon la tribune, la métropole a annoncé son plan"]
+    explanation: "Enfin dévoilé carries the writer's presupposition; a neutral summary reports the fact."
+    strictAccents: true
+  - id: "c2-review-reading-ex009"
+    type: "error-correction"
+    prompt: "Corrigez le faux dilemme avec « on peut à la fois… et… » : Soit on équilibre le budget, soit on garde des transports pour tous."
+    answers: ["On peut à la fois équilibrer le budget et garder des transports pour tous"]
+    explanation: "The two aims aren't exclusive; the sentence shows a third way."
+    strictAccents: true
+  - id: "c2-review-reading-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur (le texte est une tribune de Claire Morin) : Le journal pense que la ligne 12 ne doit pas disparaître."
+    answers: ["Claire Morin pense que la ligne 12 ne doit pas disparaître", "Selon Claire Morin, la ligne 12 ne doit pas disparaître"]
+    explanation: "A tribune gives its author's view, not the paper's."
+  - id: "c2-review-reading-ex011"
+    type: "reformulation"
+    prompt: "Reformulez en une seule phrase avec « parce que » (hypotaxe) : Ce bus est indispensable. C'est le seul moyen de rentrer."
+    answers: ["Ce bus est indispensable parce que c'est le seul moyen de rentrer", "Parce que c'est le seul moyen de rentrer, ce bus est indispensable"]
+    explanation: "Parce que makes the link between the two clauses explicit."
+  - id: "c2-review-reading-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec le conditionnel de prudence : La suppression a fait chuter la fréquentation."
+    answers: ["La suppression aurait fait chuter la fréquentation"]
+    explanation: "Aurait fait chuter reports the claim without confirming it."
+  - id: "c2-review-reading-ex013"
+    type: "translate"
+    prompt: "Traduisez (une grille d'analyse) : Use an analysis grid for each text."
+    answers: ["Utilisez une grille d'analyse pour chaque texte", "Utilise une grille d'analyse pour chaque texte"]
+    explanation: "Une grille d'analyse: the same list of questions for every text."
+  - id: "c2-review-reading-ex014"
+    type: "translate"
+    prompt: "Traduisez (une lecture critique) : This text deserves a critical reading."
+    answers: ["Ce texte mérite une lecture critique"]
+    explanation: "Une lecture critique looks at how the text tries to convince."
+  - id: "c2-review-reading-ex015"
+    type: "translate"
+    prompt: "Traduisez (un parti pris) : The writer doesn't hide her bias."
+    answers: ["L'autrice ne cache pas son parti pris", "L'auteure ne cache pas son parti pris"]
+    explanation: "Un parti pris: a deliberate stance or a bias."
+  - id: "c2-review-reading-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : A critical reading looks for what the text doesn't say."
+    words: ["Une", "lecture", "critique", "cherche", "ce", "que", "le", "texte", "ne", "dit", "pas"]
+    answers: ["Une lecture critique cherche ce que le texte ne dit pas"]
+    explanation: "Une lecture critique: what a text says, and what it suggests."
+  - id: "c2-review-reading-ex017"
+    type: "writing-task"
+    prompt: "Rédigez une analyse de 100 à 150 mots du deuxième paragraphe de la tribune (« Qui prend la ligne 12 ? … »), avec la grille d'analyse : genre, implicite, argument, style."
+    model: "Ce paragraphe appartient à une tribune, et il en a le ton engagé. Il s'ouvre sur une question rhétorique, « Qui prend la ligne 12 ? », à laquelle l'autrice répond aussitôt. L'argument est un argument par l'exemple : des infirmières, des cuisiniers, des étudiants. Ces exemples sont concrets et touchent le lecteur, mais ils ne disent pas combien de personnes utilisent ce bus. L'implicite est clair : « ceux qui ne peuvent pas s'offrir un taxi » oppose ces usagers à ceux qui décident sans prendre le bus de nuit. Le style sert l'argument : l'énumération de trois métiers donne un rythme ternaire, et la dernière phrase, brève, oppose « un confort » et « le seul moyen de rentrer »."
+    checklist: ["Did you name the genre and its signs?", "Did you find at least one presupposition or implied meaning?", "Did you name the type of argument and judge its strength?", "Did you link each stylistic observation to an effect?", "Are your quotations short and embedded in your sentences?"]
+    wordTarget: [100, 150]
+---
+
+By the end of this lesson you'll be able to analyse an opinion piece with one grid, from its genre to its style, and to write a short, critical analysis of it.
+
+## What you've learned
+
+Skim this list, and go back to anything that feels shaky.
+
+- **Implicit meaning**: you know *un présupposé*, the negation test, *la connotation* and *le conditionnel de prudence*, from <LessonLink id="c2-implicit-meaning" text="the lesson on presuppositions and implied meaning" />.
+- **Arguments**: you know *l'argument par l'exemple*, *la pente glissante*, *le faux dilemme* and *une prémisse implicite*, from <LessonLink id="c2-argument-analysis" text="the lesson on analysing an argument" />.
+- **The commentary**: you know the four parts of an introduction, *un axe de lecture* and *une citation enchâssée*, from <LessonLink id="c2-commentaire-de-texte" text="the lesson on the commentaire de texte" />.
+- **Style**: you know *la période*, *le rythme ternaire*, *l'allitération* and *la parataxe*, from <LessonLink id="c2-stylistic-analysis" text="the lesson on style" />.
+- **The press**: you know *la dépêche*, *la chronique*, *le billet d'humeur* and *la tribune*, from <LessonLink id="c2-reading-the-press" text="the lesson on press genres" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+These four words describe the work of the whole unit. *Une lecture critique* (a critical reading) looks at what a text does, not only at what it says. To *décrypter* (decode) a text is to bring out what it suggests without saying. *Une grille d'analyse* (an analysis grid) is a fixed list of questions you put to every text. And *un parti pris* is a deliberate stance, or a bias: every opinion piece has one, and that's not a fault.
+
+<Example fr="Une lecture critique ne cherche pas à dire si l'auteur a raison, mais comment il essaie de convaincre." en="A critical reading doesn't try to say whether the writer is right, but how they try to convince." />
+
+<Example fr="Avec une grille d'analyse, on peut décrypter n'importe quelle tribune en quelques minutes." en="With an analysis grid, you can decode any opinion piece in a few minutes." />
+
+<Example fr="Un parti pris n'est pas un défaut dans une tribune : c'est sa raison d'être." en="A deliberate stance isn't a fault in an opinion piece: it's what it's for." />
+
+## One grid for every text
+
+The unit gives you four questions, one per kind of analysis. Put them to the text in this order, because each answer helps the next.
+
+1. **What genre is it?** Look at the signature, the heading and the first lines. A dépêche promises facts, a tribune a position.
+2. **What does it imply?** Look for presuppositions (*enfin*, *encore*), connoted words, judging verbs, scare quotes and the conditionnel de prudence.
+3. **How do its arguments work?** Name each move: an example, an analogy, an authority, or a fallacy. Then judge its strength.
+4. **How does the style serve the argument?** Look at the length of the sentences, the rhythm, the questions, the end.
+
+The grid is a tool for reading, not a plan for writing. When you write your analysis, you may follow it, or group your remarks by idea, as in a commentary.
+
+## A critical reading isn't a verdict
+
+The aim of the analysis is to show how a text works, not to agree or disagree with it. A good analysis of a tribune you dislike shows its strengths; a good analysis of one you like shows its weaknesses. Keep the vocabulary of description (*l'autrice s'appuie sur…*, *cet exemple illustre…*, *cette phrase repose sur une prémisse implicite*) and leave your own view for another exercise.
+
+## From the grid to a written analysis
+
+Your notes follow the grid; your written analysis can follow it too, in four short paragraphs, one per question. Each paragraph starts with a claim, gives one or two short quotations, and says what they do. A few formulas help you stay descriptive.
+
+- **To present the genre**, write *ce texte est une tribune*, *il s'agit d'un billet d'humeur*, or *le texte relève du genre de la chronique*.
+- **To point out the implicit**, write *cette formule présuppose que…*, *les guillemets mettent à distance…*, or *le texte laisse entendre que…*.
+- **To describe an argument**, write *l'autrice s'appuie sur un exemple*, *ce raisonnement repose sur une prémisse implicite*, or *cet argument prend la forme d'une pente glissante*.
+- **To link style and effect**, write *ce rythme ternaire donne de la force à…*, or *la question rhétorique invite le lecteur à…*.
+
+Keep the present tense throughout, as in a commentary, and refer to the writer by name or as *l'autrice* or *l'auteur*. One quotation per claim is usually enough.
+
+<Example fr="Cette formule présuppose que la métropole tardait à rendre son plan public." en="This phrase presupposes that the authority was slow to make its plan public." />
+
+## The model: an opinion piece
+
+The tribune below is original. The city, the bus line, the association and its president, Claire Morin, are invented.
+
+*Tribune. La ligne 12 ne doit pas disparaître. La métropole a enfin dévoilé son plan : supprimer le bus de nuit, la ligne 12, dès janvier. Officiellement, il s'agit de « faire des économies ». En réalité, on demande encore une fois aux mêmes de payer.*
+
+*Qui prend la ligne 12 ? Des infirmières, des cuisiniers, des étudiants qui travaillent tard. Ceux qui ne peuvent pas s'offrir un taxi. Pour eux, ce bus n'est pas un confort : c'est le seul moyen de rentrer.*
+
+*À Saint-Ours, la ville voisine, la suppression d'une ligne semblable aurait fait chuter la fréquentation des commerces du centre. Aujourd'hui, on supprime un bus ; demain, ce seront les trains du dimanche, puis les bibliothèques le soir. Où s'arrêtera-t-on ?*
+
+*La métropole nous dit qu'il faut choisir : soit un budget équilibré, soit des transports pour tous. C'est faux. D'autres villes ont réduit le nombre de leurs bus sans supprimer la nuit. Nous demandons simplement qu'on écoute ceux qui travaillent quand les autres dorment. Un bus. Une ligne. Une nuit de travail qui se termine bien.*
+
+*Claire Morin, présidente de l'association Nuit et Ville.*
+
+(Opinion. Line 12 must not disappear. The metropolitan authority has finally unveiled its plan: to cut the night bus, line 12, from January. Officially, it's about "saving money". In reality, the same people are being asked to pay, once again. Who takes line 12? Nurses, cooks, students who work late. Those who can't afford a taxi. For them, this bus isn't a comfort: it's the only way to get home. In Saint-Ours, the neighbouring town, cutting a similar line reportedly made footfall in the town-centre shops fall. Today, a bus is cut; tomorrow, it will be the Sunday trains, then the libraries in the evening. Where will it stop? The authority tells us we have to choose: either a balanced budget, or transport for everyone. That's wrong. Other cities have reduced the number of their buses without cutting the night service. We simply ask that people listen to those who work while others sleep. One bus. One line. A night's work that ends well. Claire Morin, president of the Nuit et Ville association.)
+
+## The model analysis
+
+*Ce texte est une tribune : il est signé par une personne extérieure au journal, la présidente d'une association, et il défend une position. Son titre, une phrase au présent avec « ne… pas », annonce déjà la thèse.*
+
+*L'implicite y joue un grand rôle. « Enfin dévoilé » présuppose que la métropole tardait à rendre son plan public, et les guillemets autour de « faire des économies » mettent l'argument officiel à distance. Le conditionnel « aurait fait chuter » présente l'exemple de Saint-Ours avec prudence.*
+
+*Les arguments sont de valeur inégale. L'exemple des infirmières et des cuisiniers est concret et touche le lecteur. En revanche, la phrase sur les trains et les bibliothèques est une pente glissante. L'autrice répond par ailleurs à un faux dilemme, celui de la métropole, avec un contre-exemple : d'autres villes ont réduit leurs bus sans supprimer la nuit.*
+
+*Le style, enfin, sert la thèse : la question rhétorique « Où s'arrêtera-t-on ? », puis la fin en trois phrases brèves, au rythme ternaire, laissent le lecteur sur une image simple et forte.*
+
+(This text is a tribune: it's signed by someone outside the paper, the president of an association, and it defends a position. Its title, a sentence in the present with "ne… pas", already announces the thesis. The implicit plays a large part. "Enfin dévoilé" presupposes that the authority was slow to make its plan public, and the quotation marks around "faire des économies" keep the official argument at a distance. The conditional "aurait fait chuter" presents the Saint-Ours example with caution. The arguments are of unequal value. The example of the nurses and cooks is concrete and touches the reader. On the other hand, the sentence about the trains and libraries is a slippery slope. The writer also answers a false dilemma, the authority's, with a counterexample: other cities have reduced their buses without cutting the night service. Finally, the style serves the thesis: the rhetorical question "Où s'arrêtera-t-on ?", then the ending in three short sentences, with a ternary rhythm, leave the reader with a simple, strong image.)
+
+<VocabTable group="glossary" />
+
+## How the analysis uses the grid
+
+- **The genre** comes first, with its signs: the signature, the position defended, the title.
+- **The implicit** is shown with three precise examples, each quoted briefly: a presupposition, scare quotes, the conditionnel de prudence.
+- **The arguments** are named and judged: one strong (the example), one weak (the slippery slope), and one fallacy that the writer answers well (the false dilemma).
+- **The style** is linked to an effect: the question and the ternary ending leave a strong image.
+- **No verdict**: the analysis never says whether the line should be kept.
+
+## Your turn
+
+Write an analysis of 100 to 150 words of the second paragraph of the tribune (*Qui prend la ligne 12 ?…*), with the four questions of the grid. Keep your quotations short and embedded, and describe without judging. The writing task gives you a word count, a checklist and a model to compare with when you've finished.
+
+<Callout type="warning" title="Analyse the text, don't answer it">
+  Learners who disagree with a tribune often write *l'autrice a tort, car les bus de nuit coûtent cher*. That's a reply, not an analysis. Describe how the text works: **l'autrice s'appuie sur un argument par l'exemple**, **sa conclusion repose sur une pente glissante**. Your own opinion belongs in a different exercise.
+</Callout>
+
+<Callout type="tip" title="Time your four questions">
+  When you practise, give yourself a fixed time for each question of the grid, for example three minutes each, and write your notes in four columns. The limit stops you from spending all your time on the style and forgetting the arguments, and after a few texts, the grid becomes a reflex.
+</Callout>
+
+## What's next
+
+The next unit is about writing at length and translating. It starts with the lesson on the contraction de texte.
+

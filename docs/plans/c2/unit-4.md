@@ -1,6 +1,12 @@
 # C2 Unit 4 plan: Reading between the lines
 
-Status: plan only. Rules: the "C2 conventions" in CLAUDE.md.
+Status: **written in Prompt 44.** Rules: the "C2 conventions" in CLAUDE.md.
+
+Changes made while writing (also in docs/syllabus.md):
+- Lesson 21: the owner decided (Prompt 44) to allow one full public-domain source text. The source text is Baudelaire's « Le Port », copied from Wikisource (see docs/sources/baudelaire-le-port.txt and review-needed); no pastiche is needed. Because it has a source text, the lesson has no dialogue. *Le commentaire de texte* and *la problématique* are recapped (C1, B2), not entered; *l'ouverture* is in NEW_MEANINGS. Two more registres are taught (*pathétique*, *satirique*).
+- Lesson 20: *réfuter* and *une objection* are recapped from B2. A seventh move (the appeal to the majority) is in the debate.
+- Lesson 22: Molière's chiasmus (C1) is only linked; the lesson has no verse.
+- Lesson 24: *un parti pris* added to the new words.
 
 C1 taught irony, understatement, rhetorical devices and free indirect speech. This unit turns them into reading tools: what a text says without saying it, how an argument works, and the French method for commenting on a text.
 
@@ -32,7 +38,7 @@ C1 taught irony, understatement, rhetorical devices and free indirect speech. Th
 - **Key vocab (new):** *un axe de lecture*, *un relevé*, *une citation enchâssée*, *une ouverture*, *le champ lexical*, *le registre* (literary sense: *lyrique, tragique, comique, épique*).
 - **Longer text:** a safe-list passage of under 15 words quoted, plus an original pastiche passage (labelled) as the text to comment, and a model commentary introduction and one developed axis.
 - **Exercises:** multiple-choice (which axis?), reorder (plan), fill-in, reformulation, a writing task (the introduction).
-- **Source text:** an original pastiche, labelled, pending the owner's decision on full public-domain source texts (not decided here). Never quote later authors (C1 rule).
+- **Source text:** decided in Prompt 44: one full public-domain text by a safe-list author (Baudelaire, « Le Port »). Never quote later authors (C1 rule).
 - **Risks:** The literary "registres" must not be confused with the language registers (familier, courant, soutenu): say so explicitly.
 
 ## 22. c2-stylistic-analysis: Style: rhythm, sound and syntax (communication · harder)

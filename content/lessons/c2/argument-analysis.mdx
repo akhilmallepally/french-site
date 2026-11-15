@@ -1,0 +1,251 @@
+---
+id: "c2-argument-analysis"
+title: "Analysing an argument"
+description: "Name the type of each argument (example, analogy, authority) and spot the fallacies (ad hominem, slippery slope, false dilemma, hasty generalization, appeal to the majority), find the implicit premise, and answer each move."
+level: "C2"
+unit: "Reading between the lines"
+order: 20
+type: "communication"
+tags: ["reading", "argument", "fallacies", "debate", "critical thinking"]
+prerequisites: ["c1-review-rhetoric", "c1-formal-debate", "c2-implicit-meaning"]
+related: ["b2-debating", "c1-advanced-connectors", "c2-review-reading"]
+vocab:
+  - { id: "c2-argument-analysis-v001", group: "terms", fr: "un sophisme", pron: "uhn soh-FEESM", en: "a fallacy (an argument that only seems valid)" }
+  - { id: "c2-argument-analysis-v002", group: "terms", fr: "une prémisse", pron: "ewn pray-MEES", en: "a premise" }
+  - { id: "c2-argument-analysis-v003", group: "terms", fr: "une prémisse implicite", pron: "ewn pray-MEES an-plee-SEET", en: "an implicit premise (an unstated assumption)" }
+  - { id: "c2-argument-analysis-v004", group: "terms", fr: "un contre-exemple", pron: "uhn kohn-treg-ZAHN-pluh", en: "a counterexample" }
+  - { id: "c2-argument-analysis-v005", group: "valid", fr: "l'argument par l'exemple (m.)", pron: "lar-gew-MAHN par leg-ZAHN-pluh", en: "the argument from example" }
+  - { id: "c2-argument-analysis-v006", group: "valid", fr: "l'argument par analogie (m.)", pron: "lar-gew-MAHN par ah-nah-loh-ZHEE", en: "the argument from analogy" }
+  - { id: "c2-argument-analysis-v007", group: "valid", fr: "représentatif / représentative", pron: "ruh-pray-zahn-tah-TEEF / ruh-pray-zahn-tah-TEEV", en: "representative (typical of a whole)" }
+  - { id: "c2-argument-analysis-v008", group: "valid", fr: "un argument solide", pron: "uh-nar-gew-MAHN soh-LEED", en: "a sound argument" }
+  - { id: "c2-argument-analysis-v009", group: "fallacies", fr: "l'argument ad hominem (m.)", pron: "lar-gew-MAHN ahd oh-mee-NEM", en: "the ad hominem argument (attacking the person)" }
+  - { id: "c2-argument-analysis-v010", group: "fallacies", fr: "la pente glissante", pron: "lah pahnt glee-SAHNT", en: "the slippery slope" }
+  - { id: "c2-argument-analysis-v011", group: "fallacies", fr: "le faux dilemme", pron: "luh foh dee-LEM", en: "the false dilemma" }
+  - { id: "c2-argument-analysis-v012", group: "fallacies", fr: "la généralisation hâtive", pron: "lah zhay-nay-rah-lee-zah-SYOHN ah-TEEV", en: "the hasty generalization" }
+  - { id: "c2-argument-analysis-v013", group: "fallacies", fr: "l'appel à la majorité (m.)", pron: "lah-PEL ah lah mah-zhoh-ree-TAY", en: "the appeal to the majority" }
+  - { id: "c2-argument-analysis-v014", group: "debate", fr: "fallacieux / fallacieuse", pron: "fah-lah-SYUH / fah-lah-SYUHZ", en: "fallacious, misleading" }
+  - { id: "c2-argument-analysis-v015", group: "debate", fr: "faire revivre", pron: "fehr ruh-VEE-vruh", en: "to bring back to life" }
+  - { id: "c2-argument-analysis-v016", group: "glossary", fr: "réveillé (réveiller)", pron: "ray-veh-YAY", en: "woken up (to wake up)" }
+  - { id: "c2-argument-analysis-v017", group: "glossary", fr: "des centaines de", pron: "day sahn-TEN duh", en: "hundreds of" }
+  - { id: "c2-argument-analysis-v018", group: "glossary", fr: "permanent / permanente", pron: "pehr-mah-NAHN / pehr-mah-NAHNT", en: "permanent" }
+exercises:
+  - id: "c2-argument-analysis-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le procédé : « Mme Lambert n'habite même pas près du parc : elle ne peut pas comprendre le problème. »"
+    options: ["un argument ad hominem", "un argument par analogie", "un faux dilemme"]
+    answers: ["un argument ad hominem"]
+    explanation: "The speaker attacks where Mme Lambert lives, not what she says about the festival."
+  - id: "c2-argument-analysis-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le procédé : « Si on accepte un festival cette année, il y en aura trois l'année prochaine, et le parc ne sera plus jamais calme. »"
+    options: ["une pente glissante", "une généralisation hâtive", "un appel à la majorité"]
+    answers: ["une pente glissante"]
+    explanation: "Each step is presented as certain to lead to the next, with no evidence for the links."
+  - id: "c2-argument-analysis-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le procédé : « Soit on protège notre calme, soit on vend le village aux touristes. »"
+    options: ["un faux dilemme", "une pente glissante", "un argument par l'exemple"]
+    answers: ["un faux dilemme"]
+    explanation: "Only two options are offered, as if no middle way existed."
+  - id: "c2-argument-analysis-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le procédé : « Mon voisin n'a pas dormi pendant un concert : les festivals empêchent tout le monde de dormir. »"
+    options: ["une généralisation hâtive", "un argument ad hominem", "un faux dilemme"]
+    answers: ["une généralisation hâtive"]
+    explanation: "One case is turned into a rule about every festival and everyone."
+  - id: "c2-argument-analysis-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le procédé : « Tout le monde veut ce festival, donc c'est une bonne idée. »"
+    options: ["un appel à la majorité", "un argument par analogie", "une pente glissante"]
+    answers: ["un appel à la majorité"]
+    explanation: "The number of people who want something doesn't prove that it's a good idea."
+  - id: "c2-argument-analysis-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez la meilleure réponse à un faux dilemme."
+    options: ["Il existe une troisième solution : un festival plus court.", "Vous n'habitez pas ici, vous ne pouvez pas comprendre.", "Tout le monde pense comme moi."]
+    answers: ["Il existe une troisième solution : un festival plus court."]
+    explanation: "A false dilemma is answered by showing a third option. The other two answers are themselves fallacies."
+  - id: "c2-argument-analysis-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec le nom du sophisme : Dire « tout le monde le pense, donc c'est vrai », c'est faire un appel à la ___."
+    answers: ["majorité"]
+    explanation: "L'appel à la majorité: what many people think is presented as proof."
+  - id: "c2-argument-analysis-ex008"
+    type: "fill-in"
+    prompt: "Complétez : Un cas qui montre qu'une règle générale est fausse est un ___-exemple."
+    answers: ["contre"]
+    explanation: "Un contre-exemple is a case that contradicts a general claim."
+  - id: "c2-argument-analysis-ex009"
+    type: "error-correction"
+    prompt: "Corrigez la généralisation hâtive en remplaçant « tous » par « certains » : Tous les festivals empêchent les habitants de dormir."
+    answers: ["Certains festivals empêchent les habitants de dormir"]
+    explanation: "Certains limits the claim to what one case can support."
+  - id: "c2-argument-analysis-ex010"
+    type: "error-correction"
+    prompt: "Corrigez le faux dilemme avec « on peut à la fois… et… » : Soit on protège notre calme, soit on accueille des visiteurs."
+    answers: ["On peut à la fois protéger notre calme et accueillir des visiteurs"]
+    explanation: "The two options aren't exclusive: on peut à la fois… et… shows it."
+    strictAccents: true
+  - id: "c2-argument-analysis-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « certes… mais » : Cet exemple est intéressant, pourtant il ne prouve rien."
+    answers: ["Certes, cet exemple est intéressant, mais il ne prouve rien", "Cet exemple est certes intéressant, mais il ne prouve rien"]
+    explanation: "Certes concedes the point; mais introduces the refutation."
+  - id: "c2-argument-analysis-ex012"
+    type: "reformulation"
+    prompt: "Rendez explicite la prémisse implicite, en commençant par « Cela suppose que » : Il est jeune, donc il ne comprend pas le problème."
+    answers: ["Cela suppose que les jeunes ne comprennent pas le problème"]
+    explanation: "The unstated premise is a general claim about young people, which the speaker would have to defend."
+  - id: "c2-argument-analysis-ex013"
+    type: "translate"
+    prompt: "Traduisez (un sophisme) : This argument is a fallacy."
+    answers: ["Cet argument est un sophisme"]
+    explanation: "Un sophisme: an argument that only seems valid."
+  - id: "c2-argument-analysis-ex014"
+    type: "translate"
+    prompt: "Traduisez (réfuter, au passé composé) : She refuted every objection."
+    answers: ["Elle a réfuté chaque objection", "Elle a réfuté toutes les objections"]
+    explanation: "Réfuter: to show that an objection or an argument is wrong."
+    strictAccents: true
+  - id: "c2-argument-analysis-ex015"
+    type: "translate"
+    prompt: "Traduisez (une pente glissante) : This reasoning is a slippery slope."
+    answers: ["Ce raisonnement est une pente glissante"]
+    explanation: "La pente glissante: each step is said to lead to a worse one."
+  - id: "c2-argument-analysis-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : One example is not enough to prove a general rule."
+    words: ["Un", "exemple", "ne", "prouve", "pas", "une", "règle", "générale"]
+    answers: ["Un exemple ne prouve pas une règle générale"]
+    explanation: "An example illustrates; it can't prove a general claim on its own."
+---
+
+By the end of this lesson you'll be able to name the type of each argument in a French text or debate, spot the arguments that only seem to work, and answer each one.
+
+## What you already know
+
+You know the argument from authority (*un argument d'autorité*) from <LessonLink id="c1-review-rhetoric" text="the review of rhetoric" />, and how to concede and reply in a debate (*je vous l'accorde*, *la réplique*) from <LessonLink id="c1-formal-debate" text="the lesson on formal debate" />. You know *réfuter* (to refute) from <LessonLink id="b2-debating" text="the lesson on debating" />, and presuppositions from <LessonLink id="c2-implicit-meaning" text="the last lesson" />. This lesson gives each move its name, so that you can analyse an argument rather than just answer it.
+
+## Premises and conclusions
+
+<VocabTable group="terms" />
+
+An argument starts from *une prémisse* (a premise) and draws a conclusion. Many arguments leave a premise unstated: that's *une prémisse implicite* (an implicit premise). *Il est jeune, donc il ne comprend pas* rests on an unstated claim, that young people don't understand. Making that premise explicit is often the best way to answer: once it's said aloud, it has to be defended.
+
+<Example fr="Cela suppose que les jeunes ne comprennent rien, et c'est justement ce qu'il faudrait prouver." en="That assumes that young people understand nothing, which is exactly what would have to be proved." />
+
+<Example fr="Un raisonnement fallacieux peut sembler solide quand on l'entend vite." en="A fallacious piece of reasoning can seem sound when you hear it quickly." />
+
+*Un sophisme* (a fallacy) is an argument that looks valid but isn't. Its conclusion may even be true; the problem is that the reasons given don't support it. You answer a fallacy with *une objection* (an objection), and often with *un contre-exemple* (a counterexample), a single case that contradicts a general claim.
+
+## Two valid moves and their limits
+
+<VocabTable group="valid" />
+
+**L'argument par l'exemple** (the argument from example) supports a claim with a concrete case: *à Saint-Ours, le festival a fait revivre les commerces*. It's legitimate, but one example illustrates rather than proves. The question to ask is whether the example is *représentatif* (representative).
+
+**L'argument par analogie** (the argument from analogy) compares the situation with another one that the listener already judges: *un festival, c'est comme une fête de famille*. It's persuasive, and it works as long as the two situations are alike in the way that matters. To answer it, show where the comparison stops: a family party lasts one evening, a festival several days.
+
+<Example fr="L'argument par analogie compare deux situations qui se ressemblent." en="The argument from analogy compares two situations that are alike." />
+
+You already know **l'argument d'autorité**: it relies on who says something rather than on why. It's valid when the authority is competent on that very question, and weak otherwise.
+
+<Example fr="Cet exemple est intéressant, mais un seul village ne suffit pas pour conclure." en="This example is interesting, but one village isn't enough to draw a conclusion." />
+
+## Five fallacies
+
+<VocabTable group="fallacies" />
+
+These five are the most common in debates and opinion pieces. Each has a typical answer.
+
+- **The ad hominem argument** (*l'argument ad hominem*) attacks the person instead of the idea: *elle n'habite même pas ici*. Answer by bringing the discussion back to the argument: *revenons à ce qu'elle a dit*.
+- **The slippery slope** (*la pente glissante*) claims that a first step will lead, step by step, to a disaster: *un festival cette année, trois l'an prochain, et le parc deviendra une salle de concert*. Answer by asking for the evidence of each link.
+- **The false dilemma** (*le faux dilemme*) offers only two options, as if no third existed: *soit on protège notre calme, soit on vend le village*. Answer with a third option.
+- **The hasty generalization** (*la généralisation hâtive*) turns one or two cases into a general rule. Answer with a counterexample, or by asking how many cases there are.
+- **The appeal to the majority** (*l'appel à la majorité*) presents what many people think as proof: *tout le monde veut ce festival*. Answer that a number of supporters isn't a reason.
+
+<Example fr="Il existe une troisième solution : un festival plus court, qui se termine à minuit." en="There's a third solution: a shorter festival that ends at midnight." />
+
+A fallacy isn't always deliberate. In a heated debate, careful speakers make them too. When you analyse a text, name the move and say why it doesn't support the conclusion; don't accuse the speaker of lying.
+
+## How to analyse an argument
+
+As a rule of thumb, analyse each argument in four steps.
+
+1. **Find the conclusion**: what does the speaker want the listener to accept?
+2. **Find the reason given**, and any premise left unstated.
+3. **Name the move**: an example, an analogy, an authority, or one of the five fallacies.
+4. **Judge its strength**: is the example representative, the analogy relevant, the authority competent? If the move is a fallacy, say what's missing.
+
+An analysis that only lists the names of the moves isn't enough. What matters is the last step: why this argument does or doesn't support this conclusion.
+
+## The model: a debate in a village
+
+<VocabTable group="debate" />
+
+The debate below is original. The village, the festival and the speakers are invented. It was held in the village hall of Valbrune, and the moderator, M. Faure, opens it.
+
+*M. Faure : Ce soir, une seule question : Valbrune doit-elle accueillir un festival de musique dans le parc, cet été ? Rappelons les faits : le comité des fêtes propose une semaine de concerts en juillet, et la mairie n'a pas encore donné son avis. Madame Lambert, vous êtes pour.*
+
+*Mme Lambert : Oui. À Saint-Ours, un village de la même taille, le festival a fait revivre les commerces en trois ans. Et un festival, c'est comme une fête de famille : un peu de bruit, mais beaucoup de liens entre les gens.*
+
+*M. Rivière : Je ne suis pas d'accord. D'abord, Mme Lambert n'habite même pas près du parc : elle ne peut pas comprendre le problème.*
+
+*M. Faure : Monsieur Rivière, revenons au festival, s'il vous plaît.*
+
+*M. Rivière : Très bien. Si on accepte un festival cette année, il y en aura trois l'année prochaine, et le parc deviendra une salle de concert permanente. Mon voisin a été réveillé à deux heures du matin par un concert, l'été dernier : les festivals empêchent tout le monde de dormir. Au fond, c'est simple : soit on protège notre calme, soit on vend le village aux touristes.*
+
+*Mme Lambert : Il existe une troisième solution : un festival de trois jours, qui se termine à minuit. Et un seul voisin ne fait pas une règle générale : à Saint-Ours, les habitants du centre ont eux-mêmes demandé un deuxième festival.*
+
+*M. Faure : Une habitante, Mme Benali, demande la parole.*
+
+*Mme Benali : J'ai lu en ligne des centaines de messages : tout le monde veut ce festival. La question est donc réglée.*
+
+*Mme Lambert : Je vous remercie, mais le nombre de messages ne prouve rien. Ce qui compte, ce sont les raisons, et les résultats de Saint-Ours sont publics : chacun peut les lire.*
+
+*M. Faure : Merci à tous. Les habitants voteront le mois prochain, à la mairie, après une réunion publique.*
+
+(Mr Faure: Tonight, one question only: should Valbrune host a music festival in the park this summer? Let's recall the facts: the festivals committee is proposing a week of concerts in July, and the town hall hasn't given its view yet. Mrs Lambert, you're in favour. Mrs Lambert: Yes. In Saint-Ours, a village of the same size, the festival brought the shops back to life within three years. And a festival is like a family party: a little noise, but a lot of ties between people. Mr Rivière: I don't agree. First, Mrs Lambert doesn't even live near the park: she can't understand the problem. Mr Faure: Mr Rivière, let's come back to the festival, please. Mr Rivière: Very well. If we accept a festival this year, there will be three next year, and the park will become a permanent concert hall. My neighbour was woken up at two in the morning by a concert last summer: festivals stop everyone sleeping. Basically, it's simple: either we protect our peace, or we sell the village to tourists. Mrs Lambert: There's a third solution: a three-day festival that ends at midnight. And one neighbour doesn't make a general rule: in Saint-Ours, the residents of the centre themselves asked for a second festival. Mr Faure: A resident, Mrs Benali, is asking to speak. Mrs Benali: I've read hundreds of messages online: everyone wants this festival. So the question is settled. Mrs Lambert: Thank you, but the number of messages proves nothing. What counts are the reasons, and the results from Saint-Ours are public: anyone can read them. Mr Faure: Thank you, everyone. The residents will vote next month, at the town hall, after a public meeting.)
+
+<VocabTable group="glossary" />
+
+## How the debate works
+
+- **An argument from example**, in Mme Lambert's first line: the case of Saint-Ours. It's legitimate, but is one village representative?
+- **An argument from analogy**, in the same line: the festival compared with a family party. It stops working when you remember that a festival lasts several days.
+- **An ad hominem argument**, in M. Rivière's first line: it attacks where Mme Lambert lives. The moderator answers it correctly, by coming back to the subject.
+- **A slippery slope**, in his second line: one festival, then three, then a permanent concert hall, with no evidence for the steps.
+- **A hasty generalization**, next: one neighbour woken up becomes "everyone".
+- **A false dilemma**, at the end of the same line: protect the peace or sell the village. Mme Lambert answers it with a third option, and the generalization with the obvious point that one case isn't a rule.
+- **An appeal to the majority**, from Mme Benali: hundreds of messages are presented as proof. Mme Lambert answers it the right way, by coming back to the reasons.
+
+## En français
+
+Chloé and Malo are preparing an analysis of the Valbrune debate for their class. They use *tu*.
+
+- *Malo, tu as compté combien de procédés dans le débat ?* (Malo, how many moves did you count in the debate?)
+- *Sept, avec la remarque de Mme Benali. Mme Lambert commence par un argument par l'exemple, avec Saint-Ours.* (Seven, with Mrs Benali's remark. Mrs Lambert starts with an argument from example, with Saint-Ours.)
+- *Mais ce n'est pas un sophisme, si ?* (But that's not a fallacy, is it?)
+- *Non, c'est un argument solide. Il faut seulement se demander si l'exemple est représentatif.* (No, it's a sound argument. You just have to ask whether the example is representative.)
+- *Et la fête de famille ?* (And the family party?)
+- *C'est une analogie. Elle convainc, mais une fête dure une soirée, pas trois jours.* (It's an analogy. It's convincing, but a party lasts an evening, not three days.)
+- *M. Rivière, lui, critique Mme Lambert parce qu'elle n'habite pas près du parc.* (Mr Rivière criticizes Mrs Lambert because she doesn't live near the park.)
+- *C'est un argument ad hominem. Le modérateur a raison de revenir au sujet.* (That's an ad hominem argument. The moderator is right to come back to the subject.)
+- *Ensuite, il dit qu'un festival en entraînera trois.* (Then he says one festival will lead to three.)
+- *Une pente glissante : il ne prouve aucune des étapes.* (A slippery slope: he doesn't prove any of the steps.)
+- *Et l'histoire du voisin ?* (And the story about the neighbour?)
+- *Une généralisation hâtive. Un seul cas, et il conclut pour tout le monde.* (A hasty generalization. A single case, and he draws a conclusion for everyone.)
+- *Il reste le « soit… soit ». C'est un faux dilemme ?* (There's still the "either… or". Is that a false dilemma?)
+- *Oui, et Mme Lambert y répond très bien, avec une troisième solution.* (Yes, and Mrs Lambert answers it very well, with a third solution.)
+
+<Callout type="warning" title="Analyse the argument, not the speaker">
+  When learners first meet fallacies, they often write *M. Rivière ment* or *M. Rivière est malhonnête*. That's itself an attack on the person. Describe the move and its weakness instead: **M. Rivière généralise à partir d'un seul cas**, **son raisonnement repose sur une prémisse implicite**.
+</Callout>
+
+<Callout type="tip" title="Say the hidden premise aloud">
+  For each argument that seems convincing but leaves you uneasy, complete the sentence *cela suppose que…* out loud. If the completed sentence is something the speaker would never dare to state (*cela suppose que les jeunes ne comprennent rien*), you've found the weak point of the argument.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-commentaire-de-texte" text="the lesson on the commentaire de texte" /> applies these reading tools to a literary text, with the French method of the close commentary.

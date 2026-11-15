@@ -7,3 +7,4 @@ Restored in Prompt 43: c2-review-form → c2-paronyms (What's next).
 | Lesson | Text | Target |
 |---|---|---|
 | c2-review-words | What's next: "the lesson on legal French" | c2-legal-french |
+| c2-review-reading | What's next: "the lesson on the contraction de texte" | c2-contraction-de-texte |

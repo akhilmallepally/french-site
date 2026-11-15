@@ -149,7 +149,7 @@ In <LessonLink id="b2-false-friends" text="the lesson on false friends" />, you 
 
 <VocabTable group="terms" />
 
-The term *un paronyme* (a paronym) is a word that looks or sounds almost like another, with a different meaning. Paronyms aren't a problem of translation but of precision: a native writer can *confondre* (confuse) *éminent* and *imminent* in a hurry, and a reader notices at once. The only reliable method is to attach each word to the things it usually goes with.
+A paronym, *un paronyme*, is a word that looks or sounds almost like another, with a different meaning. Paronyms aren't a problem of translation but of precision: a native writer can *confondre* (confuse) *éminent* and *imminent* in a hurry, and a reader notices at once. The only reliable method is to attach each word to the things it usually goes with.
 
 <Example fr="Même de bons journalistes confondent parfois éminent et imminent." en="Even good journalists sometimes confuse éminent and imminent." />
 
@@ -159,13 +159,13 @@ For each pair below, learn the two words together, each with one typical partner
 
 <VocabTable group="people" />
 
-The word *éminent* describes a person who stands out: *un éminent chercheur*, *une éminente juriste*. *Imminent* describes an event that is about to happen: *un départ imminent*, *une décision imminente*.
+Of the first pair, *éminent* describes a person who stands out: *un éminent chercheur*, *une éminente juriste*. *Imminent* describes an event that is about to happen: *un départ imminent*, *une décision imminente*.
 
 <Example fr="Une éminente spécialiste du climat présentera ses travaux demain." en="An eminent climate specialist will present her work tomorrow." />
 
 <Example fr="Selon le directeur, une décision est imminente." en="According to the director, a decision is imminent." />
 
-The term *un prodige* is a person with an exceptional gift, often a child, or something extraordinary: *un enfant prodige*. *Prodigue* is an adjective: someone who spends without counting, or who gives generously. *Être prodigue de promesses* is to make promises freely, often too freely.
+A person with an exceptional gift, often a child, is *un prodige*, and so is something extraordinary: *un enfant prodige*. *Prodigue* is an adjective: someone who spends without counting, or who gives generously. *Être prodigue de promesses* is to make promises freely, often too freely.
 
 <Example fr="À huit ans, cette musicienne était déjà un prodige." en="At eight, this musician was already a prodigy." />
 
@@ -175,25 +175,25 @@ The term *un prodige* is a person with an exceptional gift, often a child, or so
 
 <VocabTable group="events" />
 
-The term *une conjecture* is a guess, an idea that isn't proved: *ce ne sont que des conjectures*. *La conjoncture*, which you know, is the situation at a given moment, especially the economic one: *la conjoncture est difficile*.
+A guess is *une conjecture*: an idea that isn't proved: *ce ne sont que des conjectures*. *La conjoncture*, which you know, is the situation at a given moment, especially the economic one: *la conjoncture est difficile*.
 
 <Example fr="Sans preuves, la police en est réduite aux conjectures." en="Without evidence, the police can only guess." />
 
-The word *perpétrer* is used almost only with a crime or an attack: *perpétrer un vol*, *un attentat perpétré la nuit dernière*. *Perpétuer* means to keep something alive over time: *perpétuer une tradition*, *perpétuer un souvenir*.
+In practice, *perpétrer* is used almost only with a crime or an attack: *perpétrer un vol*, *un attentat perpétré la nuit dernière*. *Perpétuer* means to keep something alive over time: *perpétuer une tradition*, *perpétuer un souvenir*.
 
 <Example fr="La famille perpétue la même tradition depuis quatre générations." en="The family has kept up the same tradition for four generations." />
 
-The term *une collision* is a physical crash, between vehicles or objects. *Une collusion* is a secret agreement between people who should be independent, for example a company and the person who controls it.
+A physical crash is *une collision*, between vehicles or objects. *Une collusion* is a secret agreement between parties who should be independent, for example a company and the official who inspects it.
 
 <Example fr="La collision entre le bus et la voiture n'a fait aucun blessé." en="The collision between the bus and the car caused no injuries." />
 
-<Example fr="L'enquête doit dire s'il y a eu collusion entre l'entreprise et un élu." en="The investigation must say whether there was collusion between the company and an elected official." />
+<Example fr="L'enquête doit dire s'il y a eu collusion entre l'entreprise et l'agent chargé de la contrôler." en="The investigation must say whether there was collusion between the company and the official responsible for checking it." />
 
 ## Effraction or infraction?
 
 <VocabTable group="law" />
 
-The term *une effraction* is a break-in: the act of forcing a door, a lock or a window. It appears above all in *entrer par effraction* (to break in). *Une infraction* is any breach of a law or a rule, from a parking offence to a serious crime: *une infraction au code de la route* (a traffic offence).
+A break-in is *une effraction*: the act of forcing a door, a lock or a window. It appears above all in *entrer par effraction* (to break in). *Une infraction* is any breach of a law or a rule, from a parking offence to a serious crime: *une infraction au code de la route* (a traffic offence).
 
 <Example fr="Le cambrioleur est entré par effraction pendant la nuit." en="The burglar broke in during the night." />
 
@@ -205,15 +205,15 @@ A burglary can involve both words: *le cambrioleur a commis une infraction en en
 
 <VocabTable group="verbs" />
 
-The word *infecter* is what a germ does to a wound or a body, or a virus to a computer. *Infester* is what pests or bandits do to a place: *une cave infestée de rats*.
+What a germ does to a wound or a body, or a virus to a computer, is *infecter*. *Infester* is what pests or bandits do to a place: *une cave infestée de rats*.
 
 <Example fr="Le virus a infecté tous les ordinateurs du service." en="The virus infected all the computers in the department." />
 
-The word *recouvrer* means to get back something you had lost: *recouvrer la santé*, *recouvrer la liberté*, *recouvrer la vue*, and, in finance, *recouvrer une somme* (to recover a sum). *Recouvrir* means to cover entirely, and it's conjugated like *couvrir*: *la neige a recouvert la route*. The two are easy to confuse in the passé composé, because *il a recouvré* and *il a recouvert* look close.
+To get back something you had lost is *recouvrer*: *recouvrer la santé*, *recouvrer la liberté*, *recouvrer la vue*, and, in finance, *recouvrer une somme* (to recover a sum). *Recouvrir* means to cover entirely, and it's conjugated like *couvrir*: *la neige a recouvert la route*. The two are easy to confuse in the passé composé, because *il a recouvré* and *il a recouvert* look close.
 
 <Example fr="Après des mois à l'hôpital, elle a recouvré toutes ses forces." en="After months in hospital, she got all her strength back." />
 
-The term *une acception* is one of the senses of a word, as in a dictionary: *dans son acception juridique*. *Une acceptation* is the act of accepting: *l'acceptation d'une offre*.
+One of the senses of a word is *une acception*, as in a dictionary: *dans son acception juridique*. *Une acceptation* is the act of accepting: *l'acceptation d'une offre*.
 
 <Example fr="Dans cette acception, le mot « note » veut dire une facture." en="In this sense, the word 'note' means a bill." />
 
@@ -264,7 +264,7 @@ Lina, a trainee lawyer, asks Bastien, her supervisor, to check a report. They us
 
 ## En résumé
 
-Un paronyme est un mot qui ressemble à un autre mot, mais qui a un autre sens. Éminent décrit une personne remarquable, alors qu'imminent décrit un événement qui va arriver très bientôt. Un prodige est une personne qui a un don très rare, et prodigue décrit quelqu'un qui dépense ou qui donne sans compter. Une conjecture est une idée qui n'est pas prouvée, alors que la conjoncture est la situation, surtout économique, à un moment donné. On perpètre un crime, mais on perpétue une tradition. Une collision est un choc entre deux voitures, alors qu'une collusion est un accord secret. Une effraction est le fait de forcer une porte ou une fenêtre, et une infraction est le fait de ne pas respecter une loi ou une règle. Un virus infecte un ordinateur, mais des rats infestent une cave. Quand on a recouvré la santé ou la liberté, on l'a retrouvée, alors que la neige a recouvert la route. Enfin, une acception est un sens d'un mot, et une acceptation est le fait d'accepter.
+Un paronyme est un mot qui ressemble à un autre mot, mais qui a un autre sens. Éminent décrit une personne remarquable, alors qu'imminent décrit un événement qui va arriver très bientôt. Un prodige est une personne qui a un don très rare, et prodigue décrit quelqu'un qui dépense ou qui donne sans compter. Une conjecture est une idée qui n'est pas prouvée, alors que la conjoncture est la situation, surtout économique, à un moment donné. On perpètre un crime, mais on perpétue une tradition. Une collision est un choc entre deux voitures, alors qu'une collusion est un accord secret entre deux parties qui devraient être indépendantes. Une effraction est le fait de forcer une porte ou une fenêtre, et une infraction est le fait de ne pas respecter une loi ou une règle. Un virus infecte un ordinateur, mais des rats infestent une cave. Quand on a recouvré la santé ou la liberté, on l'a retrouvée, alors que la neige a recouvert la route. Enfin, une acception est un sens d'un mot, et une acceptation est le fait d'accepter.
 
 ## What's next
 
@@ -302,7 +302,7 @@ vocab:
   - { id: "c2-polysemy-v017", group: "titre", fr: "un titre de transport", pron: "uhn tee-truh duh trahns-POR", en: "a ticket (formal: any travel document)" }
   - { id: "c2-polysemy-v018", group: "verbs", fr: "relever une erreur", pron: "ruh-luh-VAY ew-neh-RUHR", en: "to point out a mistake, to note it" }
   - { id: "c2-polysemy-v019", group: "verbs", fr: "relever de", pron: "ruh-luh-VAY duh", en: "to fall under, to be a matter for", note: "Cette question relève du ministère." }
-  - { id: "c2-polysemy-v020", group: "verbs", fr: "soutenir (un projet, une personne)", pron: "soo-tuh-NEER", en: "to support, to back", note: "Not supporter, which means to put up with." }
+  - { id: "c2-polysemy-v020", group: "verbs", fr: "soutenir (un projet, une personne)", pron: "soo-tuh-NEER", en: "to support, to back", note: "Not supporter, which means to put up with (supporter une équipe, in sport, is accepted)." }
   - { id: "c2-polysemy-v021", group: "verbs", fr: "soutenir une thèse", pron: "soo-tuh-NEER ewn TEZ", en: "to defend a thesis (at a university)" }
   - { id: "c2-polysemy-v022", group: "verbs", fr: "se tenir (une réunion)", pron: "suh tuh-NEER", en: "to be held, to take place (formal)", note: "Futur: se tiendra." }
 exercises:
@@ -413,7 +413,7 @@ You've met several words with more than one sense already. You know *une pièce*
 
 <VocabTable group="terms" />
 
-The term *la polysémie* (polysemy) is the fact that one word has several related senses. *Un mot polysémique* (a polysemous word) isn't two words that happen to look alike, like the paronyms of <LessonLink id="c2-paronyms" text="the last lesson" />. It's one word whose meaning has spread: from a part of a house to a part of a machine, from a mark on paper to a bill.
+Polysemy, *la polysémie*, is the fact that one word has several related senses. *Un mot polysémique* (a polysemous word) isn't two words that happen to look alike, like the paronyms of <LessonLink id="c2-paronyms" text="the last lesson" />. It's one word whose meaning has spread: from a part of a house to a part of a machine, from a mark on paper to a bill.
 
 Each sense is an *acception*, as you saw in the last lesson. Dictionaries usually start with *le sens propre* (the literal sense) and then give *le sens figuré* (the figurative sense): *un coup* is first a blow, and then a quick action (*un coup d'œil*), an attempt (*du premier coup*) or some help (*un coup de main*).
 
@@ -421,7 +421,7 @@ Each sense is an *acception*, as you saw in the last lesson. Dictionaries usuall
 
 ## Let the context choose
 
-A polysemous word rarely leaves you in doubt, because its partners choose the sense. Three clues do most of the work.
+A polysemous word rarely leaves you in doubt, because its partners choose the sense.
 
 - **The words around it.** The phrase *payer la note* is a bill; *une bonne note* is a mark; *une note de musique* is a sound.
 - **The construction.** The verb in *relever une erreur* (with a direct object) means to point it out; *relever de* (with *de*) means to fall under.
@@ -430,8 +430,6 @@ A polysemous word rarely leaves you in doubt, because its partners choose the se
 When you read, check the partner before you choose the sense. When a sentence still allows two senses, rewrite it. *La note est trop élevée* could be about a mark or a bill; *la note de l'hôtel est trop élevée* leaves no doubt.
 
 <Example fr="La note de l'hôtel est plus élevée que prévu." en="The hotel bill is higher than expected." />
-
-When you write, give the reader a partner that makes the sense clear.
 
 ## Pièce and note
 
@@ -443,7 +441,7 @@ In administrative French, *une pièce* is a document, and *une pièce justificat
 
 <Example fr="Le garage attend une pièce détachée pour réparer la voiture." en="The garage is waiting for a spare part to repair the car." />
 
-At a hotel or in a restaurant, *la note* is the bill. In music, *une note* is a sound. The bill is the sense learners miss most often, because English uses "note" for neither.
+At a hotel or in a restaurant, *la note* is the bill. In music, *une note* is a sound. The bill is the sense learners miss most often, because English doesn't use "note" for a bill.
 
 <Example fr="Avant de partir, n'oubliez pas de payer la note." en="Before you leave, don't forget to pay the bill." />
 
@@ -451,7 +449,7 @@ At a hotel or in a restaurant, *la note* is the bill. In music, *une note* is a 
 
 <VocabTable group="coup" />
 
-The term *un coup* starts as a blow, and most of its other senses keep the idea of something quick or sudden. *Jeter un coup d'œil* is to have a quick look; *réussir du premier coup* is to succeed at the first attempt; *donner un coup de main* is to give someone a hand. You already know *ça vaut le coup* (it's worth it), from B1.
+Literally, *un coup* is a blow, and most of its other senses keep the idea of something quick or sudden. *Jeter un coup d'œil* is to have a quick look; *réussir du premier coup* is to succeed at the first attempt; *donner un coup de main* is to give someone a hand. You already know *ça vaut le coup* (it's worth it), from B1.
 
 <Example fr="Elle a trouvé la solution du premier coup." en="She found the solution at the first attempt." />
 
@@ -461,9 +459,9 @@ The phrase *un coup de main* is informal: in a formal letter, write *une aide*.
 
 <VocabTable group="matiere" />
 
-The term *la matière* is first what something is made of, and then a subject at school (*les mathématiques sont sa matière préférée*). *En matière de* introduces a field, in formal writing: *en matière de logement*, *en matière de santé*.
+First, *la matière* is what something is made of, and then a subject at school (*les mathématiques sont sa matière préférée*). *En matière de* introduces a field, in formal writing: *en matière de logement*, *en matière de santé*.
 
-The term *la valeur* is what something is worth (*la valeur d'une maison*). In the plural, *les valeurs* are also the principles a person or a group believes in. *Mettre en valeur* means to show something at its best.
+What something is worth is *la valeur* (*la valeur d'une maison*). In the plural, *les valeurs* are also the principles a person or a group believes in. *Mettre en valeur* means to show something at its best.
 
 <Example fr="En matière de logement, la loi a beaucoup changé." en="As regards housing, the law has changed a lot. (formal)" />
 
@@ -481,11 +479,11 @@ You know *le titre* of a book or an article. *À juste titre* means "rightly, wi
 
 <VocabTable group="verbs" />
 
-The word *relever* has many senses. With a direct object, *relever une erreur* is to notice it and point it out. With *de*, *relever de* means "to fall under, to be a matter for": *cette question relève du ministère*.
+As a verb, *relever* has many senses. With a direct object, *relever une erreur* is to notice it and point it out. With *de*, *relever de* means "to fall under, to be a matter for": *cette question relève du ministère*.
 
-The word *soutenir* means to support a person or a project. It's the verb English speakers need when they think of "to support": *supporter*, as you saw in <LessonLink id="b2-false-friends" text="the lesson on false friends" />, means to put up with. At a university, *soutenir une thèse* is to defend a thesis in front of a jury.
+To support a person or a project is *soutenir*. It's the verb English speakers need when they think of "to support": *supporter*, as you saw in <LessonLink id="b2-false-friends" text="the lesson on false friends" />, means to put up with. The one accepted exception is sport: *supporter une équipe* (to support a team). At a university, *soutenir une thèse* is to defend a thesis in front of a jury.
 
-The phrase *se tenir* is the formal verb for a meeting or an event that takes place: *la réunion va se tenir à Lyon*. The future works like *tenir*.
+In formal French, *se tenir* is the verb for a meeting or an event that takes place: *la réunion va se tenir à Lyon*. The future works like *tenir*.
 
 <Example fr="Plusieurs associations ont soutenu le projet de nouvelle bibliothèque." en="Several associations have supported the plan for a new library." />
 
@@ -520,7 +518,7 @@ Sam, an exchange student, is filling in a form for his university. His flatmate 
 - *Exactement, et en matière de vocabulaire, c'est la meilleure méthode.* (Exactly, and as regards vocabulary, it's the best method.)
 
 <Callout type="warning" title="Soutenir un projet, not supporter un projet">
-  English speakers often write *je supporte ce projet* for "I support this project". In French, *supporter* means to put up with, so the sentence sounds as if you're only tolerating it. Use *soutenir*: **je soutiens ce projet**, **plusieurs associations soutiennent la candidature**.
+  English speakers often write *je supporte ce projet* for "I support this project". In French, *supporter* means to put up with, so the sentence sounds as if you're only tolerating it. Use *soutenir*: **je soutiens ce projet**, **plusieurs associations soutiennent la candidature**. (In sport, *supporter une équipe* is accepted.)
 </Callout>
 
 <Callout type="tip" title="Give each word a sense map">
@@ -744,7 +742,7 @@ Some words are built from Greek or Latin roots that French shares with English. 
 
 Besides derivation, French makes new words by joining two words, as you saw with *un porte-monnaie* and *un gratte-ciel*. A more playful kind is *un mot-valise* (a blend), which joins the start of one word to the end of another: *le franglais* (*français* + *anglais*), *un courriel* (*courrier* + *électronique*).
 
-The term *un néologisme* (a neologism) is any new word. The press creates many of them, mostly with the tools you've just seen: a prefix (*déconnecter*), a suffix (*la numérisation*), or a mot-valise. Some last, and some disappear after a few months. As a rule of thumb, read new words freely, but use them in your own formal writing only when a dictionary has them.
+Any new word is *un néologisme* (a neologism). The press creates many of them, mostly with the tools you've just seen: a prefix (*déconnecter*), a suffix (*la numérisation*), or a mot-valise. Some last, and some disappear after a few months. As a rule of thumb, read new words freely, but use them in your own formal writing only when a dictionary has them.
 
 <Example fr="La numérisation des vieux journaux de la ville a pris trois ans." en="The digitization of the town's old newspapers took three years." />
 
@@ -822,7 +820,7 @@ prerequisites: ["b2-false-friends", "c2-paronyms", "c2-word-formation"]
 related: ["b2-meetings-and-calls", "b1-expressing-doubt-certainty", "c2-anglicisms-and-official-terms"]
 vocab:
   - { id: "c2-advanced-false-friends-v001", group: "people", fr: "versatile", pron: "vehr-sah-TEEL", en: "fickle, changeable", note: "Versatile (skilled at many things) is polyvalent." }
-  - { id: "c2-advanced-false-friends-v002", group: "people", fr: "avoir de la chance", pron: "ah-VWAHR duh lah SHAHNS", en: "to be lucky", note: "Une chance is luck; an opportunity is une occasion." }
+  - { id: "c2-advanced-false-friends-v002", group: "people", fr: "avoir de la chance", pron: "ah-VWAHR duh lah SHAHNS", en: "to be lucky", note: "Also a chance you're given: une deuxième chance. In careful writing, an opportunity is usually une occasion." }
   - { id: "c2-advanced-false-friends-v003", group: "people", fr: "formel / formelle", pron: "for-MEL", en: "categorical, explicit", note: "Un refus formel: a flat refusal. Formal (register) is soutenu or officiel." }
   - { id: "c2-advanced-false-friends-v004", group: "people", fr: "un refus", pron: "uhn ruh-FEW", en: "a refusal" }
   - { id: "c2-advanced-false-friends-v005", group: "people", fr: "conséquent / conséquente", pron: "kohn-say-KAHN / kohn-say-KAHNT", en: "consistent (in your actions); widely used for large, criticized", note: "Être conséquent avec soi-même: to be consistent." }
@@ -848,7 +846,7 @@ exercises:
     prompt: "Indiquez le sens de « chance » dans la phrase : Tu as de la chance d'habiter si près de la mer."
     options: ["the fact that things go well for you", "an opportunity to do something", "a risk you take"]
     answers: ["the fact that things go well for you"]
-    explanation: "Avoir de la chance: to be lucky. An opportunity is une occasion."
+    explanation: "Avoir de la chance: to be lucky. In careful writing, an opportunity is usually une occasion."
   - id: "c2-advanced-false-friends-ex003"
     type: "multiple-choice"
     prompt: "Indiquez le sens de « formel » dans la phrase : Le refus de la directrice est formel."
@@ -869,9 +867,9 @@ exercises:
     explanation: "L'audience of a programme is its ratings. The people who watch are le public."
   - id: "c2-advanced-false-friends-ex006"
     type: "fill-in"
-    prompt: "Complétez avec le nom qui convient, sans « opportunité » : C'est une belle ___ de travailler à l'étranger."
+    prompt: "Complétez l'expression : Ce poste à l'étranger, c'est l'___ ou jamais."
     answers: ["occasion"]
-    explanation: "Une occasion is the uncontested word for an opportunity."
+    explanation: "C'est l'occasion ou jamais (it's now or never) is a set phrase: only occasion fits."
   - id: "c2-advanced-false-friends-ex007"
     type: "fill-in"
     prompt: "Complétez avec le verbe qui veut dire « vérifier », au présent : Dans le train, une agente ___ les billets."
@@ -911,13 +909,13 @@ exercises:
   - id: "c2-advanced-false-friends-ex014"
     type: "translate"
     prompt: "Traduisez (registre soutenu, sans « opportunité ») : This is a unique opportunity."
-    answers: ["C'est une occasion unique"]
-    explanation: "In careful writing, an opportunity is une occasion."
+    answers: ["C'est une occasion unique", "C'est une chance unique"]
+    explanation: "In careful writing, an opportunity is usually une occasion; une chance unique (a chance you're given) is also correct."
   - id: "c2-advanced-false-friends-ex015"
     type: "translate"
     prompt: "Traduisez (belle, rencontrer) : The meeting is a great opportunity to meet clients."
-    answers: ["La réunion est une belle occasion de rencontrer des clients", "La réunion est une belle opportunité de rencontrer des clients"]
-    explanation: "Both are accepted here: occasion is uncontested, and opportunité in this sense is widely used, though the Académie française criticizes it."
+    answers: ["La réunion est une belle occasion de rencontrer des clients", "La réunion est une belle opportunité de rencontrer des clients", "La réunion est une belle chance de rencontrer des clients"]
+    explanation: "All three are accepted here: occasion is the usual word in careful writing, une chance is a chance you're given, and opportunité in this sense is widely used, though the Académie française criticizes it."
   - id: "c2-advanced-false-friends-ex016"
     type: "translate"
     prompt: "Traduisez (tu, avoir de la chance, au passé composé) : You were lucky."
@@ -952,27 +950,31 @@ So this lesson labels these uses rather than calling them wrong. **In careful wr
 
 <VocabTable group="people" />
 
-The word *versatile* means fickle, quick to change: *une opinion versatile*. For "versatile" in the English sense, you know *polyvalent*. *Avoir de la chance* means to be lucky; *une chance* is luck, or a probability (*il y a peu de chances qu'il vienne*). For an opportunity, say *une occasion*.
+In French, *versatile* means fickle, quick to change: *une opinion versatile*. For "versatile" in the English sense, you know *polyvalent*.
+
+With *chance*, the trap is partial. *Avoir de la chance* means to be lucky, and *une chance* can also be a probability (*il y a peu de chances qu'il vienne*). It can also be a chance you're given, as in English: *une deuxième chance*, *sa dernière chance*, *laisser passer sa chance*. For "an opportunity" in careful writing, though, the usual word is *une occasion*: *saisir l'occasion*, *c'est l'occasion ou jamais*.
+
+<Example fr="Il a laissé passer sa chance, mais on lui en donnera une deuxième." en="He let his chance slip, but he'll be given a second one." />
 
 <Example fr="L'opinion publique est versatile : elle change d'avis en quelques semaines." en="Public opinion is fickle: it changes its mind within a few weeks." />
 
-The word *formel* usually means categorical or explicit: *un refus formel* (a flat refusal), *une interdiction formelle*. For a formal register, say *soutenu*, and for a formal occasion, *officiel*.
+Next, *formel* usually means categorical or explicit: *un refus formel* (a flat refusal), *une interdiction formelle*. For a formal register, say *soutenu*, and for a formal occasion, *officiel*.
 
 <Example fr="Le ministère a opposé un refus formel à notre demande." en="The ministry flatly refused our request." />
 
-The word *conséquent* means consistent, in what you think and do: *être conséquent avec soi-même*. You know *par conséquent* (consequently). The use of *conséquent* for "large" (*un salaire conséquent*) is very common in speech and in the press, and the Académie française criticizes it. In careful writing, say *important*.
+As for *conséquent*, it means consistent, in what you think and do: *être conséquent avec soi-même*. You know *par conséquent* (consequently). The use of *conséquent* for "large" (*un salaire conséquent*) is very common in speech and in the press, and the Académie française criticizes it. In careful writing, say *important*.
 
 ## Work and organization
 
 <VocabTable group="work" />
 
-The term *une opportunité* is, first, the fact of being timely or appropriate: *on discute de l'opportunité de cette réforme* (whether this reform is a good idea now). Its use for "an opportunity" is widespread, especially in business, and criticized by the Académie française. *Une occasion* says the same thing with no debate.
+Strictly, *une opportunité* is the fact of being timely or appropriate: *on discute de l'opportunité de cette réforme* (whether this reform is a good idea now). Its use for "an opportunity" is widespread, especially in business, and criticized by the Académie française. *Une occasion* says the same thing with no debate.
 
 <Example fr="Le conseil s'interroge sur l'opportunité d'un nouveau budget." en="The council is wondering whether a new budget is appropriate now." />
 
-The word *contrôler* means first to check or inspect: *contrôler les billets*, *contrôler une facture*. It also means to control (*contrôler la situation*), so it's only a partial false friend. The trap is the other way round: English speakers who want "to check" often forget *contrôler*.
+First of all, *contrôler* means to check or inspect: *contrôler les billets*, *contrôler une facture*. It also means to control (*contrôler la situation*), so it's only a partial false friend. The trap is the other way round: English speakers who want "to check" often forget *contrôler*.
 
-The term *un agenda* is a diary or a planner. A meeting's agenda is *l'ordre du jour*, which you know from B2. *L'audience* is the size of an audience (*l'audience d'une émission*) or a court hearing; the people who watch are *le public*. And *un délai* is the time allowed, while a delay is *un retard*.
+In French, *un agenda* is a diary or a planner. A meeting's agenda is *l'ordre du jour*, which you know from B2. *L'audience* is the size of an audience (*l'audience d'une émission*) or a court hearing; the people who watch are *le public*. And *un délai* is the time allowed, while a delay is *un retard*.
 
 <Example fr="Notez la réunion dans votre agenda : l'ordre du jour suivra." en="Put the meeting in your diary: the agenda will follow." />
 
@@ -982,13 +984,13 @@ The term *un agenda* is a diary or a planner. A meeting's agenda is *l'ordre du 
 
 <VocabTable group="facts" />
 
-The word *ignorer* means not to know, especially in formal French: *j'ignore la réponse*. *Ignorer quelqu'un* (to ignore someone) is also used, so here too the trap is that English speakers forget the first sense.
+In formal French, *ignorer* means not to know: *j'ignore la réponse*. *Ignorer quelqu'un* (to ignore someone) is also used, so here too the trap is that English speakers forget the first sense.
 
-The term *une évidence* is an obvious fact: *c'est une évidence*. Proof is *une preuve*, and evidence in a trial is *des preuves*. *Définitivement* means for good: *il est parti définitivement*. You'll also hear it for "definitely", an anglicism criticized like *réaliser que*; in careful writing, say *sans aucun doute* or *certainement*.
+An obvious fact is *une évidence*: *c'est une évidence*. Proof is *une preuve*, and evidence in a trial is *des preuves*. *Définitivement* means for good: *il est parti définitivement*. You'll also hear it for "definitely", an anglicism criticized like *réaliser que*; in careful writing, say *sans aucun doute* or *certainement*.
 
 <Example fr="La police n'a trouvé aucune preuve, même si la réponse semblait une évidence." en="The police found no evidence, even though the answer seemed obvious." />
 
-The phrase *réaliser que* for "to realize that" is very common and criticized; you saw at B2 that careful speakers prefer *se rendre compte que*.
+Finally, *réaliser que* for "to realize that" is very common and criticized; you saw at B2 that careful speakers prefer *se rendre compte que*.
 
 ## The model: an email with false friends
 
@@ -1013,7 +1015,7 @@ The email below is original, between two invented companies. The first version h
 
 ## The whole list
 
-- Versatile = fickle (versatile in English = *polyvalent*); une chance = luck (an opportunity = *une occasion*).
+- Versatile = fickle (versatile in English = *polyvalent*); une chance = luck, a probability, or a chance you're given (an opportunity, in careful writing = *une occasion*).
 - Formel = categorical (formal register = *soutenu*, *officiel*).
 - Conséquent = consistent; "large" is widely used, criticized: write *important*.
 - Opportunité = timeliness; "opportunity" is widely used, criticized: write *occasion*.
@@ -1051,7 +1053,7 @@ Clémence, a sales manager, reads the email with Antoine, who wrote the first ve
 
 ## En résumé
 
-Un faux ami ressemble à un mot anglais, mais il a un autre sens. Versatile veut dire qui change souvent d'avis, et pas polyvalent. Avoir de la chance, c'est profiter d'un hasard favorable, alors qu'une occasion est un moment favorable. Formel veut dire clair et sans discussion possible, comme dans un refus formel. Conséquent veut dire qui agit selon ses idées, et son emploi pour important est très courant, mais critiqué. Une opportunité est d'abord le fait qu'une chose arrive au bon moment, et son emploi pour une occasion est lui aussi critiqué par l'Académie française. Contrôler veut dire d'abord vérifier, et ignorer veut dire ne pas savoir. Un agenda est un petit livre pour noter ses rendez-vous, et l'ordre du jour est la liste des points d'une réunion. Un délai est le temps qu'on a pour faire une chose, et un retard est le fait d'arriver tard. Une évidence est une chose claire pour tout le monde, alors qu'une preuve montre qu'une chose est vraie. Enfin, définitivement veut dire pour toujours.
+Un faux ami ressemble à un mot anglais, mais il a un autre sens. Versatile veut dire qui change souvent d'avis, et pas polyvalent. Avoir de la chance, c'est profiter d'un hasard favorable, et une chance est aussi ce qu'on vous donne pour réussir, comme une deuxième chance. Dans un texte soigné, on dit plutôt une occasion pour un moment favorable. Formel veut dire clair et sans discussion possible, comme dans un refus formel. Conséquent veut dire qui agit selon ses idées, et son emploi pour important est très courant, mais critiqué. Une opportunité est d'abord le fait qu'une chose arrive au bon moment, et son emploi pour une occasion est lui aussi critiqué par l'Académie française. Contrôler veut dire d'abord vérifier, et ignorer veut dire ne pas savoir. Un agenda est un petit livre pour noter ses rendez-vous, et l'ordre du jour est la liste des points d'une réunion. Un délai est le temps qu'on a pour faire une chose, et un retard est le fait d'arriver tard. Une évidence est une chose claire pour tout le monde, alors qu'une preuve montre qu'une chose est vraie. Enfin, définitivement veut dire pour toujours.
 
 ## What's next
 
@@ -1284,7 +1286,7 @@ Manon, from the Lyon office, and Félix, from Montreal, chat on the company's vi
 - *Chez nous, c'est la même chose pour certains mots. Mais « divulgâcher », tout le monde le comprend.* (It's the same for some words where I am. But "divulgâcher", everyone understands it.)
 - *Ici aussi, beaucoup de gens le connaissent, même si on dit encore « spoiler ».* (Here too, a lot of people know it, even if we still say "spoiler".)
 - *Notre directrice dit que les termes officiels protègent la langue.* (Our director says that official terms protect the language.)
-- *Et notre responsable dit que c'est l'usage qui décide. Les deux ont un peu raison.* (And our manager says it's usage that decides. They're both a bit right.)
+- *Et notre responsable dit que c'est l'usage qui décide. Chacun a ses arguments.* (And our manager says it's usage that decides. Each of them has their arguments.)
 - *Pour le rapport de la semaine, on choisit lesquels ?* (For the week's report, which ones do we choose?)
 - *Les termes officiels, puisque le rapport va aux clients.* (The official terms, since the report is going to clients.)
 - *D'accord. Et pour la pause café, on garde nos mots à nous !* (OK. And for the coffee break, we keep our own words!)
@@ -1474,7 +1476,7 @@ When two words are both possible, choose the more precise one, not the more impr
 
 ## Source text: a letter with ten imprecise words
 
-The letter below is original, from an invented residents' association, and it's an extract: the address, the place and the date are left out. It contains ten imprecise words, at least one from each lesson of the unit. Find them before you read the revised version.
+The letter below is original, from an invented residents' association, and it's an extract: the address, the place and the date are left out. It contains ten imprecise words: two paronyms, five false friends, a barbarism, a catch-all verb and an anglicism. The lesson on polysemy is there too, in two words that are used correctly. Find them before you read the revised version.
 
 *Madame la Maire, je vous écris au nom de l'association de quartier des Tilleuls, à la suite du cambriolage de notre local, la semaine dernière. Des cambrioleurs sont entrés par infraction pendant la nuit et ont emporté notre ordinateur et une partie de nos dossiers.*
 

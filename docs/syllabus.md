@@ -521,7 +521,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 ## C2 · Mastery (planned)
 
-Planned in docs/plans/c2/ (Prompt 40). Units 1 and 2 are written (Prompts 42 and 43); the other rows are planned and may change.
+Planned in docs/plans/c2/ (Prompt 40). Units 1, 2 and 4 are written (Prompts 42 to 44); the other rows are planned and may change.
 
 ### Unit 1: Precision in form
 
@@ -560,12 +560,12 @@ Planned in docs/plans/c2/ (Prompt 40). Units 1 and 2 are written (Prompts 42 and
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 19 | c2-implicit-meaning | Presuppositions and implied meaning | Reading between the lines | communication | c1-irony-and-understatement, c1-euphemism-and-synonyms, b2-reporting-verbs | Planned. Presuppositions, sous-entendus, connotation, modalisation. |
-| 20 | c2-argument-analysis | Analysing an argument | Reading between the lines | communication | c1-formal-debate, c1-advanced-connectors | Planned. Types of argument and common fallacies, and how to answer them. |
-| 21 | c2-commentaire-de-texte | The commentaire de texte | Reading between the lines | communication | c1-reading-literary-narrative, c1-rhetorical-devices, c1-dissertation | Planned. The method of the close commentary, on an original pastiche passage. |
-| 22 | c2-stylistic-analysis | Style: rhythm, sound and syntax | Reading between the lines | communication | c1-culture-french-poetry, c1-stylistic-inversion, c2-commentaire-de-texte | Planned. Periods, ternary rhythm, sound figures, parataxis and hypotaxis. |
-| 23 | c2-reading-the-press | Press genres and styles | Reading between the lines | culture | b2-culture-french-press, b2-summarizing-an-article, c2-implicit-meaning | Planned. Dépêche, éditorial, chronique, billet, tribune, reportage, brève. |
-| 24 | c2-review-reading | Review: Reading between the lines | Reading between the lines | review | c2-implicit-meaning, c2-argument-analysis, c2-commentaire-de-texte, c2-stylistic-analysis, c2-reading-the-press | Planned. A short op-ed analysed. |
+| 19 | c2-implicit-meaning | Presuppositions and implied meaning | Reading between the lines | communication | c1-irony-and-understatement, c1-euphemism-and-synonyms, b2-reporting-verbs | Presupposition and the negation test, implied meaning, connotation, modalisation (judging verbs, conditionnel de prudence, scare quotes); summarizing without the implicit. Model: an opinion piece and its neutral version. |
+| 20 | c2-argument-analysis | Analysing an argument | Reading between the lines | communication | c1-review-rhetoric, c1-formal-debate, c2-implicit-meaning | Premises and implicit premises; example, analogy, authority; ad hominem, slippery slope, false dilemma, hasty generalization, appeal to the majority; how to answer each. Model: an invented village debate. |
+| 21 | c2-commentaire-de-texte | The commentaire de texte | Reading between the lines | communication | c1-culture-literary-canon, c1-dissertation, c1-rhetorical-devices, c2-argument-analysis | The method: relevé, lexical fields, literary registres, introduction (amorce, presentation, problématique, plan), axes and embedded quotations, conclusion and ouverture. Source text: Baudelaire, Le Port (public domain). Model: an introduction and one axis. |
+| 22 | c2-stylistic-analysis | Style: rhythm, sound and syntax | Reading between the lines | communication | c1-rhetorical-devices, c1-culture-french-poetry, c2-commentaire-de-texte | La période, ternary rhythm, the short sentence; allitération, assonance; chiasme, asyndète; parataxe, hypotaxe. Model: one scene in two styles, with a comparison. |
+| 23 | c2-reading-the-press | Press genres and styles | Reading between the lines | culture | b2-culture-french-press, b2-summarizing-an-article, c2-implicit-meaning | Genres that report (dépêche, brève, reportage, enquête, interview) and that give an opinion (éditorial, chronique, billet d'humeur, tribune); titraille, chapeau, accroche; the inverted pyramid. Model: one invented event in three genres. |
+| 24 | c2-review-reading | Review: Reading between the lines | Reading between the lines | review | c2-implicit-meaning, c2-argument-analysis, c2-commentaire-de-texte, c2-stylistic-analysis, c2-reading-the-press | One analysis grid (genre, implicit, arguments, style); an invented tribune and a model analysis; one exercise per lesson and a writing task. |
 
 ### Unit 5: Writing at length and translating
 

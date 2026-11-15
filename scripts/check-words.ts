@@ -52,6 +52,7 @@ iser ation ible able ité im ir il dé ifier isme iste logie cratie phobe cide a
 inlégal délégal nettoyation arrivement inréaliste changeage
 réunionocratie notificophobe déréunionner
 software franceterme
+valbrune rivière mme benali xixe
 `.trim().split(/\s+/));
 
 const ROOT = process.cwd();

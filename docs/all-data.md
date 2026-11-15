@@ -1,6 +1,6 @@
 # All lesson data
 
-293 written lessons, in course order.
+299 written lessons, in course order.
 
 ## a1-greetings
 
@@ -11897,7 +11897,7 @@ fr | pron | en | note
 - un titre de transport | uhn tee-truh duh trahns-POR | a ticket (formal: any travel document) | —
 - relever une erreur | ruh-luh-VAY ew-neh-RUHR | to point out a mistake, to note it | —
 - relever de | ruh-luh-VAY duh | to fall under, to be a matter for | Cette question relève du ministère.
-- soutenir (un projet, une personne) | soo-tuh-NEER | to support, to back | Not supporter, which means to put up with.
+- soutenir (un projet, une personne) | soo-tuh-NEER | to support, to back | Not supporter, which means to put up with (supporter une équipe, in sport, is accepted).
 - soutenir une thèse | soo-tuh-NEER ewn TEZ | to defend a thesis (at a university) | —
 - se tenir (une réunion) | suh tuh-NEER | to be held, to take place (formal) | Futur: se tiendra.
 
@@ -11983,7 +11983,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 fr | pron | en | note
 
 - versatile | vehr-sah-TEEL | fickle, changeable | Versatile (skilled at many things) is polyvalent.
-- avoir de la chance | ah-VWAHR duh lah SHAHNS | to be lucky | Une chance is luck; an opportunity is une occasion.
+- avoir de la chance | ah-VWAHR duh lah SHAHNS | to be lucky | Also a chance you're given: une deuxième chance. In careful writing, an opportunity is usually une occasion.
 - formel / formelle | for-MEL | categorical, explicit | Un refus formel: a flat refusal. Formal (register) is soutenu or officiel.
 - un refus | uhn ruh-FEW | a refusal | —
 - conséquent / conséquente | kohn-say-KAHN / kohn-say-KAHNT | consistent (in your actions); widely used for large, criticized | Être conséquent avec soi-même: to be consistent.
@@ -12003,11 +12003,11 @@ fr | pron | en | note
 id | type | prompt | options | answers | strictAccents | explanation
 
 - c2-advanced-false-friends-ex001 | multiple-choice | Indiquez le sens de « versatile » dans la phrase : Le public de cette émission est très versatile. | ["fickle, quick to change its mind","skilled at many things","very large"] | ["fickle, quick to change its mind"] | false | Versatile in French means fickle. For 'versatile' in the English sense, say polyvalent.
-- c2-advanced-false-friends-ex002 | multiple-choice | Indiquez le sens de « chance » dans la phrase : Tu as de la chance d'habiter si près de la mer. | ["the fact that things go well for you","an opportunity to do something","a risk you take"] | ["the fact that things go well for you"] | false | Avoir de la chance: to be lucky. An opportunity is une occasion.
+- c2-advanced-false-friends-ex002 | multiple-choice | Indiquez le sens de « chance » dans la phrase : Tu as de la chance d'habiter si près de la mer. | ["the fact that things go well for you","an opportunity to do something","a risk you take"] | ["the fact that things go well for you"] | false | Avoir de la chance: to be lucky. In careful writing, an opportunity is usually une occasion.
 - c2-advanced-false-friends-ex003 | multiple-choice | Indiquez le sens de « formel » dans la phrase : Le refus de la directrice est formel. | ["categorical and final","polite and formal in tone","only for show"] | ["categorical and final"] | false | Formel usually means categorical or explicit. For a formal register, say soutenu or officiel.
 - c2-advanced-false-friends-ex004 | multiple-choice | Indiquez le sens de « une évidence » dans la phrase : Que le projet coûte trop cher, c'est une évidence. | ["an obvious fact","a piece of evidence","a proof given in court"] | ["an obvious fact"] | false | Une évidence is something obvious. Evidence, in the sense of proof, is une preuve.
 - c2-advanced-false-friends-ex005 | multiple-choice | Indiquez le sens de « l'audience » dans la phrase : L'audience de l'émission a doublé en un an. | ["the number of viewers","the people in the studio","the interview"] | ["the number of viewers"] | false | L'audience of a programme is its ratings. The people who watch are le public.
-- c2-advanced-false-friends-ex006 | fill-in | Complétez avec le nom qui convient, sans « opportunité » : C'est une belle ___ de travailler à l'étranger. | — | ["occasion"] | false | Une occasion is the uncontested word for an opportunity.
+- c2-advanced-false-friends-ex006 | fill-in | Complétez l'expression : Ce poste à l'étranger, c'est l'___ ou jamais. | — | ["occasion"] | false | C'est l'occasion ou jamais (it's now or never) is a set phrase: only occasion fits.
 - c2-advanced-false-friends-ex007 | fill-in | Complétez avec le verbe qui veut dire « vérifier », au présent : Dans le train, une agente ___ les billets. | — | ["contrôle"] | false | Contrôler les billets is to check tickets. This is the sense English speakers forget.
 - c2-advanced-false-friends-ex008 | fill-in | Complétez avec l'adverbe qui veut dire « pour toujours » : Ils ont quitté la ville ___. | — | ["définitivement"] | false | Définitivement means for good, permanently.
 - c2-advanced-false-friends-ex009 | error-correction | Corrigez le faux ami, pour un texte soigné (le sens : c'est sûr) : Ce film est définitivement le meilleur de l'année. | — | ["Ce film est sans aucun doute le meilleur de l'année","Ce film est certainement le meilleur de l'année"] | false | Définitivement means for good. For 'definitely', say sans aucun doute or certainement.
@@ -12015,8 +12015,8 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-advanced-false-friends-ex011 | error-correction | Corrigez le faux ami (le sens : des preuves) : La police n'a trouvé aucune évidence. | — | ["La police n'a trouvé aucune preuve"] | true | Une évidence is an obvious fact. Proof is une preuve.
 - c2-advanced-false-friends-ex012 | reformulation | Reformulez avec « ignorer » : Je ne sais pas pourquoi il est parti. | — | ["J'ignore pourquoi il est parti"] | false | Ignorer means not to know, especially in formal French.
 - c2-advanced-false-friends-ex013 | reformulation | Reformulez avec « se rendre compte », pour un texte soigné : J'ai réalisé que j'avais tort. | — | ["Je me suis rendu compte que j'avais tort"] | false | Réaliser que is widely used but criticized by the Académie française. Careful writing prefers se rendre compte que, and rendu never agrees.
-- c2-advanced-false-friends-ex014 | translate | Traduisez (registre soutenu, sans « opportunité ») : This is a unique opportunity. | — | ["C'est une occasion unique"] | false | In careful writing, an opportunity is une occasion.
-- c2-advanced-false-friends-ex015 | translate | Traduisez (belle, rencontrer) : The meeting is a great opportunity to meet clients. | — | ["La réunion est une belle occasion de rencontrer des clients","La réunion est une belle opportunité de rencontrer des clients"] | false | Both are accepted here: occasion is uncontested, and opportunité in this sense is widely used, though the Académie française criticizes it.
+- c2-advanced-false-friends-ex014 | translate | Traduisez (registre soutenu, sans « opportunité ») : This is a unique opportunity. | — | ["C'est une occasion unique","C'est une chance unique"] | false | In careful writing, an opportunity is usually une occasion; une chance unique (a chance you're given) is also correct.
+- c2-advanced-false-friends-ex015 | translate | Traduisez (belle, rencontrer) : The meeting is a great opportunity to meet clients. | — | ["La réunion est une belle occasion de rencontrer des clients","La réunion est une belle opportunité de rencontrer des clients","La réunion est une belle chance de rencontrer des clients"] | false | All three are accepted here: occasion is the usual word in careful writing, une chance is a chance you're given, and opportunité in this sense is widely used, though the Académie française criticizes it.
 - c2-advanced-false-friends-ex016 | translate | Traduisez (tu, avoir de la chance, au passé composé) : You were lucky. | — | ["Tu as eu de la chance"] | false | Avoir de la chance: to be lucky.
 - c2-advanced-false-friends-ex017 | translate | Traduisez (versatile) : Voters are fickle. | — | ["Les électeurs sont versatiles"] | false | Versatile means fickle, changeable.
 - c2-advanced-false-friends-ex018 | reorder | Remettez dans l'ordre : I don't know where she lives. | — | ["J'ignore où elle habite"] | false | Ignorer: not to know (formal).
@@ -12105,3 +12105,324 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-review-words-ex015 | translate | Traduisez (un barbarisme) : This word is a barbarism: it doesn't exist. | — | ["Ce mot est un barbarisme : il n'existe pas"] | false | Un barbarisme is a form that doesn't exist in the language.
 - c2-review-words-ex016 | reorder | Remettez dans l'ordre : An impropriety is a word used in the wrong sense. | — | ["Une impropriété est un mot employé dans un mauvais sens"] | false | Une impropriété: a real word used with a meaning it doesn't have.
 - c2-review-words-ex017 | writing-task | Rédigez un paragraphe de 80 à 120 mots pour une lettre formelle à un service public (une demande, une réclamation ou une proposition). Relisez-le ensuite avec la liste et remplacez chaque mot imprécis par le mot juste. | — | — | false | —
+
+## c2-implicit-meaning
+
+### Vocab
+
+fr | pron | en | note
+
+- explicite / implicite | eks-plee-SEET / an-plee-SEET | explicit / implicit | —
+- un présupposé | uhn pray-sew-poh-ZAY | a presupposition (what a sentence takes for granted) | —
+- présupposer | pray-sew-poh-ZAY | to presuppose, to take for granted | —
+- laisser entendre | leh-SAY ahn-TAHN-druh | to imply, to hint | Il laisse entendre que…: he implies that…
+- reconnaître une erreur (reconnu) | ruh-koh-NEH-truh ew-neh-RUHR | to admit a mistake | —
+- la connotation | lah koh-noh-tah-SYOHN | connotation (what a word suggests beyond its meaning) | —
+- péjoratif / péjorative | pay-zhoh-rah-TEEF / pay-zhoh-rah-TEEV | pejorative, negative | —
+- mélioratif / méliorative | may-lyoh-rah-TEEF / may-lyoh-rah-TEEV | positive (of a word's connotation) | —
+- une horde | ewn ORD | a horde (pejorative for a crowd) | —
+- la modalisation | lah moh-dah-lee-zah-SYOHN | modalisation (how a writer signals certainty, doubt or judgment) | —
+- un modalisateur | uhn moh-dah-lee-zah-TUHR | a modalizer (a word that shows the writer's attitude) | —
+- le conditionnel de prudence | luh kohn-dee-syoh-NEL duh proo-DAHNS | the conditional of caution (for unconfirmed information) | Le ministre serait malade: the minister is reportedly ill.
+- prétendument | pray-tahn-dew-MAHN | supposedly, allegedly | —
+- des guillemets de distance (m.) | day gee-yuh-MEH duh dees-TAHNS | scare quotes (quotation marks that keep a word at a distance) | —
+- prendre ses distances avec | PRAHN-druh say dees-TAHNS ah-VEK | to distance yourself from | —
+- un parc | uhn PARK | a park | —
+- les espaces verts (m.) | lay-zes-pahs VEHR | green spaces, parks | —
+- se frottent les mains (se frotter les mains) | suh FROT lay MAN | rub their hands (with satisfaction) | —
+- une poignée de | ewn pwah-NYAY duh | a handful of | —
+- l'enthousiasme (m.) | lahn-too-ZYAHSM | enthusiasm | —
+- une pelouse | ewn puh-LOOZ | a lawn | —
+- curieusement | kew-ryuhz-MAHN | curiously, oddly | —
+- ne se discute pas (se discuter) | nuh suh dees-KEWT PAH | can't be questioned | —
+- le béton | luh bay-TOHN | concrete | —
+- un promoteur / une promotrice | uhn proh-moh-TUHR / ewn proh-moh-TREES | a property developer | —
+- des arbres (m.) | day-ZAR-bruh | trees | —
+- juré (jurer) | zhew-RAY | sworn (to swear) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-implicit-meaning-ex001 | multiple-choice | Indiquez le présupposé de la phrase : Le maire a enfin reconnu son erreur. | ["Before, the mayor hadn't admitted his mistake.","The mayor will resign.","The mayor never makes mistakes."] | ["Before, the mayor hadn't admitted his mistake."] | false | Enfin presupposes a long wait: until now, he hadn't admitted it. The negation test keeps it: le maire n'a pas encore reconnu son erreur still says that he made one.
+- c2-implicit-meaning-ex002 | multiple-choice | Indiquez le présupposé de la phrase : Paul a arrêté de fumer. | ["Before, Paul was someone who smoked.","Paul has never smoked in his life.","Paul wants to start smoking again."] | ["Before, Paul was someone who smoked."] | false | Arrêter de presupposes that the action happened before. The negation (Paul n'a pas arrêté de fumer) keeps the presupposition.
+- c2-implicit-meaning-ex003 | multiple-choice | Indiquez le présupposé de la question : Pourquoi la mairie a-t-elle caché le coût du projet ? | ["The town hall hid the cost.","The project costs nothing.","The town hall has published the cost."] | ["The town hall hid the cost."] | false | A pourquoi question takes its content for granted: asking why someone hid something presupposes that they hid it.
+- c2-implicit-meaning-ex004 | multiple-choice | Choisissez le mot à connotation péjorative : Une ___ de touristes est arrivée sur la place. | ["horde","foule","file"] | ["horde"] | false | Une horde suggests a disorderly, threatening crowd. Foule (a crowd) and file (a queue) are neutral.
+- c2-implicit-meaning-ex005 | multiple-choice | Indiquez ce que montrent les guillemets dans la phrase : La mairie parle d'un parking « moderne ». | ["The writer distances themselves from the word.","The writer agrees with the word.","The word is in English."] | ["The writer distances themselves from the word."] | false | Quotation marks of distance report a word without taking it on: the writer suggests it isn't the right word.
+- c2-implicit-meaning-ex006 | multiple-choice | Choisissez la phrase la plus neutre. | ["Le maire affirme que le parc restera ouvert.","Le maire prétend que le parc restera ouvert.","Le maire ose dire que le parc restera ouvert."] | ["Le maire affirme que le parc restera ouvert."] | false | Affirmer reports a claim. Prétendre suggests that the claim is false, and oser dire that it's shocking.
+- c2-implicit-meaning-ex007 | fill-in | Rendez explicite le présupposé de « Le maire a enfin reconnu son erreur » : Avant, le maire ___ pas reconnu son erreur. | — | ["n'avait"] | false | Before the moment described, he hadn't admitted it: plus-que-parfait, n'avait pas reconnu.
+- c2-implicit-meaning-ex008 | fill-in | Complétez avec l'adverbe qui montre que l'auteur doute de l'information : Le projet a ___ été approuvé par tous les habitants. | — | ["prétendument"] | false | Prétendument (supposedly) reports a claim while showing doubt.
+- c2-implicit-meaning-ex009 | reformulation | Reformulez comme un fait confirmé, sans conditionnel de prudence : Le directeur aurait démissionné. | — | ["Le directeur a démissionné"] | true | Aurait démissionné reports unconfirmed news; the passé composé presents it as a fact.
+- c2-implicit-meaning-ex010 | reformulation | Reformulez de façon neutre en remplaçant « prétend » par « affirme » : La ministre prétend que la réforme est prête. | — | ["La ministre affirme que la réforme est prête"] | false | Affirmer reports the claim without suggesting it's false.
+- c2-implicit-meaning-ex011 | error-correction | Corrigez le résumé pour qu'il soit neutre, avec le verbe « dire » : Selon l'article, le maire avoue que le projet a pris du retard. | — | ["Selon l'article, le maire dit que le projet a pris du retard"] | true | Avouer suggests a confession of something blameworthy. A neutral summary reports with dire.
+- c2-implicit-meaning-ex012 | error-correction | Corrigez le résumé pour qu'il soit neutre, sans le mot péjoratif (une foule) : L'article décrit une horde de visiteurs dans le parc. | — | ["L'article décrit une foule de visiteurs dans le parc"] | false | Une horde is pejorative; une foule is neutral.
+- c2-implicit-meaning-ex013 | translate | Traduisez avec le conditionnel de prudence : The minister is reportedly ill. | — | ["Le ministre serait malade","La ministre serait malade"] | false | The conditionnel de prudence reports unconfirmed information: serait malade.
+- c2-implicit-meaning-ex014 | translate | Traduisez (à en croire, le parc) : If the mayor is to be believed, the park will stay open. | — | ["À en croire le maire, le parc restera ouvert","À en croire la maire, le parc restera ouvert"] | true | À en croire + person: if that person is to be believed. It keeps a distance from the claim.
+- c2-implicit-meaning-ex015 | translate | Traduisez (laisser entendre, au passé composé) : She implied that the project was too expensive. | — | ["Elle a laissé entendre que le projet était trop cher","Elle a laissé entendre que le projet coûtait trop cher"] | true | Laisser entendre que: to imply that, without saying it directly.
+- c2-implicit-meaning-ex016 | reorder | Remettez dans l'ordre : The writer distances himself from this word. | — | ["L'auteur prend ses distances avec ce mot"] | false | Prendre ses distances avec: to distance yourself from.
+
+## c2-argument-analysis
+
+### Vocab
+
+fr | pron | en | note
+
+- un sophisme | uhn soh-FEESM | a fallacy (an argument that only seems valid) | —
+- une prémisse | ewn pray-MEES | a premise | —
+- une prémisse implicite | ewn pray-MEES an-plee-SEET | an implicit premise (an unstated assumption) | —
+- un contre-exemple | uhn kohn-treg-ZAHN-pluh | a counterexample | —
+- l'argument par l'exemple (m.) | lar-gew-MAHN par leg-ZAHN-pluh | the argument from example | —
+- l'argument par analogie (m.) | lar-gew-MAHN par ah-nah-loh-ZHEE | the argument from analogy | —
+- représentatif / représentative | ruh-pray-zahn-tah-TEEF / ruh-pray-zahn-tah-TEEV | representative (typical of a whole) | —
+- un argument solide | uh-nar-gew-MAHN soh-LEED | a sound argument | —
+- l'argument ad hominem (m.) | lar-gew-MAHN ahd oh-mee-NEM | the ad hominem argument (attacking the person) | —
+- la pente glissante | lah pahnt glee-SAHNT | the slippery slope | —
+- le faux dilemme | luh foh dee-LEM | the false dilemma | —
+- la généralisation hâtive | lah zhay-nay-rah-lee-zah-SYOHN ah-TEEV | the hasty generalization | —
+- l'appel à la majorité (m.) | lah-PEL ah lah mah-zhoh-ree-TAY | the appeal to the majority | —
+- fallacieux / fallacieuse | fah-lah-SYUH / fah-lah-SYUHZ | fallacious, misleading | —
+- faire revivre | fehr ruh-VEE-vruh | to bring back to life | —
+- réveillé (réveiller) | ray-veh-YAY | woken up (to wake up) | —
+- des centaines de | day sahn-TEN duh | hundreds of | —
+- permanent / permanente | pehr-mah-NAHN / pehr-mah-NAHNT | permanent | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-argument-analysis-ex001 | multiple-choice | Indiquez le procédé : « Mme Lambert n'habite même pas près du parc : elle ne peut pas comprendre le problème. » | ["un argument ad hominem","un argument par analogie","un faux dilemme"] | ["un argument ad hominem"] | false | The speaker attacks where Mme Lambert lives, not what she says about the festival.
+- c2-argument-analysis-ex002 | multiple-choice | Indiquez le procédé : « Si on accepte un festival cette année, il y en aura trois l'année prochaine, et le parc ne sera plus jamais calme. » | ["une pente glissante","une généralisation hâtive","un appel à la majorité"] | ["une pente glissante"] | false | Each step is presented as certain to lead to the next, with no evidence for the links.
+- c2-argument-analysis-ex003 | multiple-choice | Indiquez le procédé : « Soit on protège notre calme, soit on vend le village aux touristes. » | ["un faux dilemme","une pente glissante","un argument par l'exemple"] | ["un faux dilemme"] | false | Only two options are offered, as if no middle way existed.
+- c2-argument-analysis-ex004 | multiple-choice | Indiquez le procédé : « Mon voisin n'a pas dormi pendant un concert : les festivals empêchent tout le monde de dormir. » | ["une généralisation hâtive","un argument ad hominem","un faux dilemme"] | ["une généralisation hâtive"] | false | One case is turned into a rule about every festival and everyone.
+- c2-argument-analysis-ex005 | multiple-choice | Indiquez le procédé : « Tout le monde veut ce festival, donc c'est une bonne idée. » | ["un appel à la majorité","un argument par analogie","une pente glissante"] | ["un appel à la majorité"] | false | The number of people who want something doesn't prove that it's a good idea.
+- c2-argument-analysis-ex006 | multiple-choice | Choisissez la meilleure réponse à un faux dilemme. | ["Il existe une troisième solution : un festival plus court.","Vous n'habitez pas ici, vous ne pouvez pas comprendre.","Tout le monde pense comme moi."] | ["Il existe une troisième solution : un festival plus court."] | false | A false dilemma is answered by showing a third option. The other two answers are themselves fallacies.
+- c2-argument-analysis-ex007 | fill-in | Complétez avec le nom du sophisme : Dire « tout le monde le pense, donc c'est vrai », c'est faire un appel à la ___. | — | ["majorité"] | false | L'appel à la majorité: what many people think is presented as proof.
+- c2-argument-analysis-ex008 | fill-in | Complétez : Un cas qui montre qu'une règle générale est fausse est un ___-exemple. | — | ["contre"] | false | Un contre-exemple is a case that contradicts a general claim.
+- c2-argument-analysis-ex009 | error-correction | Corrigez la généralisation hâtive en remplaçant « tous » par « certains » : Tous les festivals empêchent les habitants de dormir. | — | ["Certains festivals empêchent les habitants de dormir"] | false | Certains limits the claim to what one case can support.
+- c2-argument-analysis-ex010 | error-correction | Corrigez le faux dilemme avec « on peut à la fois… et… » : Soit on protège notre calme, soit on accueille des visiteurs. | — | ["On peut à la fois protéger notre calme et accueillir des visiteurs"] | true | The two options aren't exclusive: on peut à la fois… et… shows it.
+- c2-argument-analysis-ex011 | reformulation | Reformulez avec « certes… mais » : Cet exemple est intéressant, pourtant il ne prouve rien. | — | ["Certes, cet exemple est intéressant, mais il ne prouve rien","Cet exemple est certes intéressant, mais il ne prouve rien"] | false | Certes concedes the point; mais introduces the refutation.
+- c2-argument-analysis-ex012 | reformulation | Rendez explicite la prémisse implicite, en commençant par « Cela suppose que » : Il est jeune, donc il ne comprend pas le problème. | — | ["Cela suppose que les jeunes ne comprennent pas le problème"] | false | The unstated premise is a general claim about young people, which the speaker would have to defend.
+- c2-argument-analysis-ex013 | translate | Traduisez (un sophisme) : This argument is a fallacy. | — | ["Cet argument est un sophisme"] | false | Un sophisme: an argument that only seems valid.
+- c2-argument-analysis-ex014 | translate | Traduisez (réfuter, au passé composé) : She refuted every objection. | — | ["Elle a réfuté chaque objection","Elle a réfuté toutes les objections"] | true | Réfuter: to show that an objection or an argument is wrong.
+- c2-argument-analysis-ex015 | translate | Traduisez (une pente glissante) : This reasoning is a slippery slope. | — | ["Ce raisonnement est une pente glissante"] | false | La pente glissante: each step is said to lead to a worse one.
+- c2-argument-analysis-ex016 | reorder | Remettez dans l'ordre : One example is not enough to prove a general rule. | — | ["Un exemple ne prouve pas une règle générale"] | false | An example illustrates; it can't prove a general claim on its own.
+
+## c2-commentaire-de-texte
+
+### Vocab
+
+fr | pron | en | note
+
+- un relevé | uhn ruh-luh-VAY | a list of observations (taken from the text) | —
+- le champ lexical | luh shahn lek-see-KAHL | the lexical field (words linked to one theme) | —
+- une énumération | ew-nay-new-may-rah-SYOHN | an enumeration, a list | —
+- un poème en prose | uhn poh-EM ahn PROHZ | a prose poem | —
+- un registre littéraire | uhn ruh-ZHEES-truh lee-tay-REHR | a literary register (the emotion a text aims to produce) | Not a language register (familier, courant, soutenu).
+- lyrique | lee-REEK | lyrical (expressing personal feelings) | —
+- tragique | trah-ZHEEK | tragic (a fate that can't be escaped) | —
+- comique | koh-MEEK | comic (meant to make you laugh) | —
+- épique | ay-PEEK | epic (heroic deeds, larger than life) | —
+- pathétique | pah-tay-TEEK | pathetic, moving (meant to arouse pity) | Not 'pathetic' in the English sense of 'pitiful, useless'.
+- satirique | sah-tee-REEK | satirical (mocking to criticize) | —
+- l'amorce (f.) | lah-MORS | the opening (the first sentence of an introduction, which places the text) | —
+- l'annonce du plan (f.) | lah-NOHNS dew PLAHN | the announced plan | —
+- un axe de lecture | uh-NAKS duh lek-TEWR | a line of analysis (one main part of a commentary) | —
+- une citation enchâssée | ewn see-tah-SYOHN ahn-shah-SAY | an embedded quotation (built into your own sentence) | —
+- l'ouverture | loo-vehr-TEWR | the opening onto another work or question (at the end of a conclusion) | —
+- un séjour | uhn say-ZHOOR | a place to stay; a stay | —
+- les luttes (f.) | lay LEWT | struggles | —
+- le scintillement | luh san-tee-yuh-MAHN | twinkling, sparkling | —
+- les phares (m.) | lay FAR | lighthouses | —
+- lasser | lah-SAY | to tire, to weary | —
+- élancées (élancé) | ay-lahn-SAY | slender, tall and graceful | —
+- le gréement | luh gray-MAHN | the rigging (of a ship) | —
+- la houle | lah OOL | the swell (of the sea) | —
+- le rhythme | luh REETM | rhythm (old spelling of le rythme) | —
+- le belvédère | luh bel-vay-DEHR | a lookout, a viewpoint | —
+- accoudé (s'accouder) | ah-koo-DAY | leaning on your elbows | —
+- le môle | luh MOHL | the jetty, the breakwater | —
+- charmant | shar-MAHN | charming, delightful | —
+- mobile | moh-BEEL | moving, mobile | —
+- les colorations (f.) | lay koh-loh-rah-SYOHN | colours, shades | —
+- un prisme | uhn PREESM | a prism | —
+- merveilleusement | mehr-veh-yuhz-MAHN | wonderfully | —
+- compliqué | kohn-plee-KAY | complicated | —
+- les oscillations (f.) | lay-zoh-see-lah-SYOHN | swaying movements, oscillations | —
+- harmonieuses (harmonieux) | ar-moh-NYUHZ | harmonious | —
+- entretenir | ahn-truh-tuh-NEER | to keep up, to keep alive | —
+- mystérieux | mees-tay-RYUH | mysterious | —
+- aristocratique | ah-rees-toh-krah-TEEK | aristocratic | —
+- la curiosité | lah kew-ryoh-zee-TAY | curiosity | —
+- reviennent (revenir) | ruh-VYEN | come back | —
+- un paysage | uhn peh-ee-ZAHZH | a landscape | —
+- un spectacle | uhn spek-TAH-kluh | a spectacle, a sight | —
+- console (consoler) | kohn-SOL | comforts (to comfort) | —
+- énumère (énumérer) | ay-new-MEHR | lists (to list) | —
+- immense | ee-MAHNS | immense, vast | —
+- le désordre | luh day-ZOR-druh | disorder | —
+- une fonction | ewn fohnk-SYOHN | a function | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-commentaire-de-texte-ex001 | multiple-choice | Indiquez le registre littéraire principal du texte « Le Port ». | ["lyrique","comique","épique"] | ["lyrique"] | false | The text expresses a state of mind: the poet's pleasure as a weary observer. That's the lyrical register.
+- c2-commentaire-de-texte-ex002 | multiple-choice | Indiquez le mot qui n'est pas un registre littéraire. | ["soutenu","tragique","pathétique"] | ["soutenu"] | false | Soutenu is a language register (familier, courant, soutenu). Tragique and pathétique are literary registers.
+- c2-commentaire-de-texte-ex003 | multiple-choice | Indiquez la partie de l'introduction : « Comment Baudelaire fait-il d'un paysage un spectacle qui console ? » | ["la problématique","l'amorce","l'annonce du plan"] | ["la problématique"] | false | The problématique is the question the whole commentary answers.
+- c2-commentaire-de-texte-ex004 | multiple-choice | Indiquez la figure dans « l'architecture mobile des nuages ». | ["un oxymore","une énumération","une question rhétorique"] | ["un oxymore"] | false | An architecture is fixed by definition; mobile joins the opposite idea to it.
+- c2-commentaire-de-texte-ex005 | multiple-choice | Choisissez la phrase qui enchâsse bien la citation. | ["Le port est « un séjour charmant » pour celui qui est fatigué.","Le port est charmant. « Un port est un séjour charmant pour une âme fatiguée des luttes de la vie. »","Baudelaire dit que : un séjour charmant."] | ["Le port est « un séjour charmant » pour celui qui est fatigué."] | false | An embedded quotation is short and part of your own sentence. The second option drops in a whole sentence; the third isn't grammatical.
+- c2-commentaire-de-texte-ex006 | multiple-choice | Indiquez le rôle de l'ouverture. | ["It links the text to another work or question.","It summarizes the whole commentary again.","It announces the plan of the commentary."] | ["It links the text to another work or question."] | false | L'ouverture comes at the very end and widens the question.
+- c2-commentaire-de-texte-ex007 | fill-in | Complétez : Les mots qui se rapportent au même thème forment un ___ lexical. | — | ["champ"] | false | Le champ lexical: the words of a text linked to one theme.
+- c2-commentaire-de-texte-ex008 | fill-in | Complétez : Dans un commentaire, on organise le développement en deux ou trois ___ de lecture. | — | ["axes"] | false | Each main part of the development is un axe de lecture.
+- c2-commentaire-de-texte-ex009 | error-correction | Corrigez l'erreur : Baudelaire décrit les navires, qui il trouve harmonieux. | — | ["Baudelaire décrit les navires, qu'il trouve harmonieux"] | false | Les navires is the object of trouve, so the relative pronoun is que, elided before il.
+- c2-commentaire-de-texte-ex010 | error-correction | Corrigez le registre (le sens littéraire) : Le texte relève du registre soutenu, car le poète exprime ce qu'il ressent. | — | ["Le texte relève du registre lyrique, car le poète exprime ce qu'il ressent"] | false | A text that expresses the writer's feelings belongs to the lyrical register. Soutenu describes the language, not the emotion.
+- c2-commentaire-de-texte-ex011 | reformulation | Reformulez en une phrase qui commence par « Avec » : Baudelaire écrit « l'architecture mobile des nuages ». Il unit ainsi la solidité et le mouvement. | — | ["Avec « l'architecture mobile des nuages », Baudelaire unit la solidité et le mouvement","Avec « l'architecture mobile des nuages », il unit la solidité et le mouvement"] | false | The quotation is now part of the analysis sentence, instead of standing on its own.
+- c2-commentaire-de-texte-ex012 | reformulation | Reformulez la question en problématique indirecte, avec « Nous nous demanderons comment » : Comment le poète fait-il du port un spectacle ? | — | ["Nous nous demanderons comment le poète fait du port un spectacle"] | false | In an indirect question, there's no inversion: comment le poète fait…
+- c2-commentaire-de-texte-ex013 | translate | Traduisez (un axe de lecture) : The commentary has two lines of analysis. | — | ["Le commentaire a deux axes de lecture","Le commentaire comporte deux axes de lecture"] | true | Un axe de lecture: one main part of the development.
+- c2-commentaire-de-texte-ex014 | translate | Traduisez (une ouverture) : The conclusion ends with an opening onto another poem. | — | ["La conclusion se termine par une ouverture sur un autre poème"] | false | Une ouverture sur: an opening onto another work.
+- c2-commentaire-de-texte-ex015 | translate | Traduisez (le champ lexical) : The lexical field of movement is everywhere. | — | ["Le champ lexical du mouvement est partout"] | false | Le champ lexical de + theme.
+- c2-commentaire-de-texte-ex016 | reorder | Remettez dans l'ordre : The introduction ends with the announced plan. | — | ["L'introduction se termine par l'annonce du plan"] | false | The four parts of an introduction: amorce, presentation, problématique, annonce du plan.
+- c2-commentaire-de-texte-ex017 | writing-task | Rédigez une autre introduction pour le commentaire du « Port » (80 à 120 mots), avec ce plan : d'abord le spectacle de la mer, ensuite le portrait du spectateur. Gardez les quatre parties de l'introduction. | — | — | false | —
+
+## c2-stylistic-analysis
+
+### Vocab
+
+fr | pron | en | note
+
+- la période | lah pay-RYOD | a period (a long, balanced sentence that rises and falls) | —
+- ample | AHN-pluh | long and flowing (of a sentence) | —
+- le rythme ternaire | luh reetm tehr-NEHR | the ternary rhythm (a group of three) | —
+- une phrase brève | ewn frahz BREV | a short sentence | —
+- saccadé / saccadée | sah-kah-DAY | jerky, broken (of a rhythm) | —
+- l'allitération (f.) | lah-lee-tay-rah-SYOHN | alliteration (a repeated consonant sound) | —
+- l'assonance (f.) | lah-soh-NAHNS | assonance (a repeated vowel sound) | —
+- la musicalité | lah mew-zee-kah-lee-TAY | musicality, the music of a sentence | —
+- le chiasme | luh KYAHSM | chiasmus (two elements repeated in reverse order: A B, B A) | —
+- l'asyndète (f.) | lah-zan-DET | asyndeton (leaving out the linking words, such as et) | —
+- les mots de liaison (m.) | lay moh duh lyeh-ZOHN | linking words (et, mais, donc…) | —
+- la parataxe | lah pah-rah-TAKS | parataxis (clauses side by side, with no subordination) | —
+- l'hypotaxe (f.) | lee-poh-TAKS | hypotaxis (clauses linked by subordination) | —
+- la subordination | lah sew-bor-dee-nah-SYOHN | subordination | —
+- la juxtaposition | lah zhewks-tah-poh-zee-SYOHN | juxtaposition (placing side by side) | —
+- un orage | uh-noh-RAHZH | a storm | —
+- les quais (m.) | lay KEH | the quays, the quayside | —
+- s'allumer | sah-lew-MAY | to come on (of a light) | —
+- un vieil homme | uhn vyeh-YOMM | an old man | —
+- tièdes (tiède) | TYED | lukewarm, warm | —
+- un pêcheur / une pêcheuse | uhn peh-SHUHR / ewn peh-SHUHZ | a fisherman, a fisherwoman | —
+- les vagues (f.) | lay VAHG | the waves | —
+- étroite (étroit) | ay-TRWAHT | narrow | —
+- brille (briller) | BREE-y | shines (to shine) | —
+- juxtaposées (juxtaposer) | zhewks-tah-poh-ZAY | placed side by side | —
+- tendu / tendue | tahn-DEW | tense | —
+- dramatique | drah-mah-TEEK | dramatic | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-stylistic-analysis-ex001 | multiple-choice | Indiquez la figure dans la phrase : Le vent venait, violent, vers la ville. | ["une allitération","une assonance","un chiasme"] | ["une allitération"] | false | The consonant sound v comes back four times: that's an alliteration.
+- c2-stylistic-analysis-ex002 | multiple-choice | Indiquez la figure dans la phrase : Il lit, il rit, il écrit. | ["une assonance","une allitération","une hypotaxe"] | ["une assonance"] | false | The vowel sound i comes back in every word: that's an assonance. The three verbs also make a ternary rhythm.
+- c2-stylistic-analysis-ex003 | multiple-choice | Indiquez la figure dans la phrase : On part pour oublier, on oublie de partir. | ["un chiasme","une asyndète","une allitération"] | ["un chiasme"] | false | Partir and oublier come back in reverse order (A B, B A): that's a chiasmus.
+- c2-stylistic-analysis-ex004 | multiple-choice | Indiquez la construction de la phrase : Il pleut. La rue est vide. Personne ne sort. | ["la parataxe","l'hypotaxe","la période"] | ["la parataxe"] | false | Three short clauses side by side, with no linking word: parataxis. The reader has to supply the links.
+- c2-stylistic-analysis-ex005 | multiple-choice | Indiquez le rythme de la phrase : Il était seul, sans argent, sans espoir. | ["un rythme ternaire","un chiasme","une période"] | ["un rythme ternaire"] | false | Three groups after était (seul, sans argent, sans espoir) make a ternary rhythm, here growing in strength.
+- c2-stylistic-analysis-ex006 | multiple-choice | Indiquez l'effet le plus probable d'une phrase brève placée après une longue période. | ["It stops the reader and stresses what it says.","It slows down the reading even more.","It adds a new subordinate clause."] | ["It stops the reader and stresses what it says."] | false | After a long, flowing sentence, a short one breaks the movement and draws attention to itself.
+- c2-stylistic-analysis-ex007 | fill-in | Complétez : Quand on supprime les mots de liaison, comme « et », on fait une ___. | — | ["asyndète"] | false | L'asyndète: linking words left out, which gives speed or force.
+- c2-stylistic-analysis-ex008 | error-correction | Corrigez l'erreur : L'assonance est la répétition d'une même consonne. | — | ["L'assonance est la répétition d'une même voyelle"] | false | Assonance repeats a vowel sound; alliteration repeats a consonant sound.
+- c2-stylistic-analysis-ex009 | error-correction | Corrigez l'erreur : L'hypotaxe place les propositions côte à côte, sans subordination. | — | ["La parataxe place les propositions côte à côte, sans subordination"] | true | Clauses side by side, with no subordination, is parataxis. Hypotaxis links them by subordination.
+- c2-stylistic-analysis-ex010 | reformulation | Reformulez en une seule phrase avec « parce que » (hypotaxe) : La rue est vide. Il pleut. | — | ["La rue est vide parce qu'il pleut","Parce qu'il pleut, la rue est vide"] | false | Parce que makes the link explicit, which turns parataxis into hypotaxis.
+- c2-stylistic-analysis-ex011 | reformulation | Reformulez avec une asyndète, en supprimant « et » : Elle ouvre la porte et elle sort. | — | ["Elle ouvre la porte, elle sort","Elle ouvre la porte, sort"] | false | Without et, the two actions follow each other faster.
+- c2-stylistic-analysis-ex012 | translate | Traduisez (une allitération) : This sentence contains an alliteration in s. | — | ["Cette phrase contient une allitération en s"] | false | Une allitération en s: a repeated s sound.
+- c2-stylistic-analysis-ex013 | translate | Traduisez (le rythme, saccadé) : The rhythm of this text is jerky. | — | ["Le rythme de ce texte est saccadé"] | false | Saccadé: broken into short, jerky units.
+- c2-stylistic-analysis-ex014 | translate | Traduisez (une période) : This sentence is a long period. | — | ["Cette phrase est une longue période"] | false | La période: a long, balanced sentence.
+- c2-stylistic-analysis-ex015 | reorder | Remettez dans l'ordre : The short sentence breaks the rhythm. | — | ["La phrase brève casse le rythme"] | false | Une phrase brève after long ones breaks the rhythm and stresses what it says.
+- c2-stylistic-analysis-ex016 | writing-task | Rédigez deux versions d'une même scène (60 à 120 mots en tout) : d'abord une période, puis la même scène en phrases brèves. Utilisez au moins un rythme ternaire et une allitération. | — | — | false | —
+
+## c2-reading-the-press
+
+### Vocab
+
+fr | pron | en | note
+
+- une dépêche | ewn day-PESH | an agency wire, a news dispatch | —
+- une brève | ewn BREV | a news brief (a few lines) | —
+- un envoyé spécial / une envoyée spéciale | uh-nahn-vwah-YAY spay-SYAL | a special correspondent (sent to the scene) | —
+- la pyramide inversée | lah pee-rah-MEED an-vehr-SAY | the inverted pyramid (the most important facts first) | —
+- une chronique | ewn kroh-NEEK | a column (a regular piece by the same writer) | —
+- un chroniqueur / une chroniqueuse | uhn kroh-nee-KUHR / ewn kroh-nee-KUHZ | a columnist | —
+- un billet d'humeur | uhn bee-YEH dew-MUHR | a short, personal opinion piece | —
+- un contributeur extérieur / une contributrice extérieure | uhn kohn-tree-bew-TUHR eks-tay-RYUHR | an outside contributor | —
+- la titraille | lah tee-TRAH-y | the headings of an article (title, kicker, subtitle) | —
+- le surtitre | luh sewr-TEE-truh | the kicker (the line above the title) | —
+- le sous-titre | luh soo-TEE-truh | the subtitle | —
+- l'accroche d'un article (f.) | lah-KROSH duh-nar-TEE-kluh | the lead (the first lines that catch the reader) | —
+- un intertitre | uh-nan-tehr-TEE-truh | a crosshead (a heading inside the article) | —
+- une péniche | ewn pay-NEESH | a barge (a flat river boat) | —
+- un canal | uhn kah-NAHL | a canal | Plural: des canaux.
+- flottante (flottant) | floh-TAHNT | floating | —
+- amarrée (amarrer) | ah-mah-RAY | moored | —
+- debout | duh-BOO | standing | —
+- des coussins (m.) | day koo-SAN | cushions | —
+- un bibliothécaire / une bibliothécaire | uhn bee-blee-oh-tay-KEHR | a librarian | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-reading-the-press-ex001 | multiple-choice | Indiquez le genre : « Valbrune (Info-Régions). Une bibliothèque installée sur une péniche a ouvert samedi sur le canal. » | ["une dépêche","un billet d'humeur","une chronique"] | ["une dépêche"] | false | The place and the agency in brackets, the facts first, no opinion: that's the style of an agency wire.
+- c2-reading-the-press-ex002 | multiple-choice | Indiquez le genre : un texte signé par le rédacteur en chef, qui donne la position du journal sur un sujet. | ["un éditorial","une tribune","une brève"] | ["un éditorial"] | false | L'éditorial gives the paper's own position. A tribune is written by someone outside the paper.
+- c2-reading-the-press-ex003 | multiple-choice | Indiquez le genre : un texte d'opinion écrit par une personne extérieure au journal, par exemple une chercheuse. | ["une tribune","un éditorial","un reportage"] | ["une tribune"] | false | Une tribune is an opinion piece by an outside contributor.
+- c2-reading-the-press-ex004 | multiple-choice | Indiquez le genre : un texte écrit chaque semaine par la même journaliste, sur un ton personnel. | ["une chronique","une dépêche","une enquête"] | ["une chronique"] | false | Une chronique is a regular piece by the same writer, often personal in tone.
+- c2-reading-the-press-ex005 | multiple-choice | Indiquez ce que la pyramide inversée place au début d'un article. | ["the facts that are most important","the opinion of the writer","the background and the history"] | ["the facts that are most important"] | false | The inverted pyramid starts with the essential facts (who, what, where, when), then gives details and background.
+- c2-reading-the-press-ex006 | fill-in | Complétez : L'ensemble des titres d'un article, avec le surtitre et le sous-titre, s'appelle la ___. | — | ["titraille"] | false | La titraille: all the headings of an article.
+- c2-reading-the-press-ex007 | fill-in | Complétez : Un texte très court, de quelques lignes, qui donne une seule information, est une ___. | — | ["brève"] | false | Une brève: a news brief of a few lines.
+- c2-reading-the-press-ex008 | register-shift | Transformez en style de dépêche, sans jugement (« a ouvert ») : Enfin ! La bibliothèque flottante, ce rêve un peu fou, a ouvert samedi. | — | ["La bibliothèque flottante a ouvert samedi"] | true | A dépêche keeps the fact and drops the exclamation, enfin and the judgment ce rêve un peu fou.
+- c2-reading-the-press-ex009 | error-correction | Corrigez la dépêche : supprimez le mot qui donne une opinion (« magnifique ») : La magnifique péniche accueillera le public du mardi au samedi. | — | ["La péniche accueillera le public du mardi au samedi"] | false | A dépêche reports facts; an adjective of judgment belongs in a chronique or a billet.
+- c2-reading-the-press-ex010 | reformulation | Reformulez en commençant par le fait principal (pyramide inversée) : Après deux ans de travaux et un long débat au conseil municipal, une bibliothèque flottante a ouvert samedi à Valbrune. | — | ["Une bibliothèque flottante a ouvert samedi à Valbrune, après deux ans de travaux et un long débat au conseil municipal","Samedi, une bibliothèque flottante a ouvert à Valbrune, après deux ans de travaux et un long débat au conseil municipal"] | true | The inverted pyramid gives the main fact first, then the background.
+- c2-reading-the-press-ex011 | translate | Traduisez (un billet d'humeur) : The journalist wrote a short opinion piece about the barge. | — | ["La journaliste a écrit un billet d'humeur sur la péniche","Le journaliste a écrit un billet d'humeur sur la péniche"] | true | Un billet d'humeur: a short, personal opinion piece.
+- c2-reading-the-press-ex012 | translate | Traduisez (une chronique) : Her column appears every Monday. | — | ["Sa chronique paraît chaque lundi","Sa chronique paraît tous les lundis"] | false | Une chronique is a regular piece; paraître is the verb for a publication.
+- c2-reading-the-press-ex013 | translate | Traduisez (une envoyée spéciale) : Our special correspondent was on the scene. | — | ["Notre envoyée spéciale était sur place"] | false | Un envoyé spécial, une envoyée spéciale: a journalist sent to the scene, typical of the reportage.
+- c2-reading-the-press-ex014 | multiple-choice | Indiquez ce qui montre l'opinion dans un billet d'humeur. | ["the first person and judging words","the agency name in brackets","the answers of a person interviewed"] | ["the first person and judging words"] | false | A billet d'humeur is personal: je, judging adjectives, irony.
+- c2-reading-the-press-ex015 | reorder | Remettez dans l'ordre : An agency wire gives the facts first. | — | ["Une dépêche donne d'abord les faits"] | false | Une dépêche follows the inverted pyramid: facts first.
+
+## c2-review-reading
+
+### Vocab
+
+fr | pron | en | note
+
+- une lecture critique | ewn lek-tewr kree-TEEK | a critical reading | —
+- décrypter | day-kreep-TAY | to decode, to decipher (what a text really says) | —
+- une grille d'analyse | ewn GREE-y dah-nah-LEEZ | an analysis grid (a fixed list of questions) | —
+- un parti pris | uhn par-tee PREE | a bias, a deliberate stance | —
+- la métropole | lah may-troh-POL | the metropolitan authority (a group of towns around a city) | —
+- dévoilé (dévoiler) | day-vwah-LAY | unveiled (to unveil) | —
+- s'offrir | soh-FREER | to afford, to treat yourself to | —
+- officiellement | oh-fee-syel-MAHN | officially | —
+- un confort | uhn kohn-FOR | a comfort, a luxury | —
+- semblable | sahn-BLAH-bluh | similar | —
+- simplement | san-pluh-MAHN | simply | —
+- un moyen | uhn mwah-YAN | a means, a way | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-review-reading-ex001 | multiple-choice | Indiquez le présupposé de la phrase : La métropole a enfin dévoilé son plan. | ["The plan existed before and had not been made public.","The plan has been cancelled.","The plan was written by the association."] | ["The plan existed before and had not been made public."] | false | Enfin dévoilé presupposes a plan that existed and was kept from the public (c2-implicit-meaning).
+- c2-review-reading-ex002 | multiple-choice | Indiquez le procédé : « Aujourd'hui, on supprime un bus ; demain, ce seront les trains du dimanche, puis les bibliothèques le soir. » | ["une pente glissante","un argument par l'exemple","un appel à la majorité"] | ["une pente glissante"] | false | One measure is said to lead to others, step by step, with no evidence for the links (c2-argument-analysis).
+- c2-review-reading-ex003 | multiple-choice | Indiquez la partie de l'introduction d'un commentaire qui pose la question à laquelle on répond. | ["la problématique","l'amorce","l'ouverture"] | ["la problématique"] | false | The problématique is the question the commentary answers; l'ouverture comes at the end of the conclusion (c2-commentaire-de-texte).
+- c2-review-reading-ex004 | multiple-choice | Indiquez le rythme de la fin : « Un bus. Une ligne. Une nuit de travail qui se termine bien. » | ["un rythme ternaire","une période","un chiasme"] | ["un rythme ternaire"] | false | Three short groups, the last one longer: a ternary rhythm that ends the text (c2-stylistic-analysis).
+- c2-review-reading-ex005 | multiple-choice | Indiquez le genre du texte de Claire Morin. | ["une tribune","une dépêche","un éditorial"] | ["une tribune"] | false | It's an opinion piece signed by an outside contributor, the president of an association (c2-reading-the-press).
+- c2-review-reading-ex006 | fill-in | Complétez : Lire un texte en cherchant ses intentions et ses procédés, c'est en faire une lecture ___. | — | ["critique"] | false | Une lecture critique: a reading that analyses what a text does, not only what it says.
+- c2-review-reading-ex007 | fill-in | Complétez avec le verbe qui veut dire « comprendre ce qui est caché » : Il faut savoir ___ les sous-entendus d'un texte. | — | ["décrypter"] | false | Décrypter: to decode what a text says without saying it.
+- c2-review-reading-ex008 | error-correction | Corrigez le résumé pour qu'il soit neutre, avec « a annoncé » : Selon la tribune, la métropole a enfin dévoilé son plan. | — | ["Selon la tribune, la métropole a annoncé son plan"] | true | Enfin dévoilé carries the writer's presupposition; a neutral summary reports the fact.
+- c2-review-reading-ex009 | error-correction | Corrigez le faux dilemme avec « on peut à la fois… et… » : Soit on équilibre le budget, soit on garde des transports pour tous. | — | ["On peut à la fois équilibrer le budget et garder des transports pour tous"] | true | The two aims aren't exclusive; the sentence shows a third way.
+- c2-review-reading-ex010 | error-correction | Corrigez l'erreur (le texte est une tribune de Claire Morin) : Le journal pense que la ligne 12 ne doit pas disparaître. | — | ["Claire Morin pense que la ligne 12 ne doit pas disparaître","Selon Claire Morin, la ligne 12 ne doit pas disparaître"] | false | A tribune gives its author's view, not the paper's.
+- c2-review-reading-ex011 | reformulation | Reformulez en une seule phrase avec « parce que » (hypotaxe) : Ce bus est indispensable. C'est le seul moyen de rentrer. | — | ["Ce bus est indispensable parce que c'est le seul moyen de rentrer","Parce que c'est le seul moyen de rentrer, ce bus est indispensable"] | false | Parce que makes the link between the two clauses explicit.
+- c2-review-reading-ex012 | reformulation | Reformulez avec le conditionnel de prudence : La suppression a fait chuter la fréquentation. | — | ["La suppression aurait fait chuter la fréquentation"] | false | Aurait fait chuter reports the claim without confirming it.
+- c2-review-reading-ex013 | translate | Traduisez (une grille d'analyse) : Use an analysis grid for each text. | — | ["Utilisez une grille d'analyse pour chaque texte","Utilise une grille d'analyse pour chaque texte"] | false | Une grille d'analyse: the same list of questions for every text.
+- c2-review-reading-ex014 | translate | Traduisez (une lecture critique) : This text deserves a critical reading. | — | ["Ce texte mérite une lecture critique"] | false | Une lecture critique looks at how the text tries to convince.
+- c2-review-reading-ex015 | translate | Traduisez (un parti pris) : The writer doesn't hide her bias. | — | ["L'autrice ne cache pas son parti pris","L'auteure ne cache pas son parti pris"] | false | Un parti pris: a deliberate stance or a bias.
+- c2-review-reading-ex016 | reorder | Remettez dans l'ordre : A critical reading looks for what the text doesn't say. | — | ["Une lecture critique cherche ce que le texte ne dit pas"] | false | Une lecture critique: what a text says, and what it suggests.
+- c2-review-reading-ex017 | writing-task | Rédigez une analyse de 100 à 150 mots du deuxième paragraphe de la tribune (« Qui prend la ligne 12 ? … »), avec la grille d'analyse : genre, implicite, argument, style. | — | — | false | —

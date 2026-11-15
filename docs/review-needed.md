@@ -2093,6 +2093,7 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-polysemy
 
+- **"*Supporter une équipe* (sport) is accepted"** (Prompt 44), in the teaching text, the callout and the vocab note. Confirm.
 - **"*La note* … at a hotel or in a restaurant, is the bill."** and **"*Un coup de main* is informal: in a formal letter, write *une aide*."** Confirm the register label.
 - **"*À juste titre* … usually follows the verb or closes the sentence."** Confirm the position claim.
 - **"*Un titre de transport* is the formal word for a ticket or a pass, the one you see on signs in stations."** Confirm.
@@ -2109,6 +2110,7 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-advanced-false-friends
 
+- **Une chance (Prompt 44):** also "a chance you're given" (*une deuxième chance*, *sa dernière chance*, *laisser passer sa chance*); in careful writing, *une occasion* is the usual word for "an opportunity". Keys now accept *une chance unique* and *une belle chance de* where the sense allows; ex006 is *c'est l'occasion ou jamais*. Confirm.
 - **Recapped, not taught:** *sensible*, *supporter*, *réaliser* (to carry out), *éventuellement*, *achever* (b2-false-friends, b2-passive-voice), *actuellement* (b1-cover-letter), *délai* (b2-futur-anterieur). Taught: *versatile*, *chance*, *formel*, *conséquent*, *opportunité*, *contrôler*, *ignorer*, *évidence*, *définitivement*, *agenda*, *audience*, *retard*, *réaliser que* (labelled).
 - **"The use of *conséquent* for 'large' … is very common in speech and in the press, and the Académie française criticizes it."** Confirm.
 - **"*Définitivement* … You'll also hear it for 'definitely', an anglicism criticized like *réaliser que*."** Confirm.
@@ -2128,6 +2130,46 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 - **The ten imprecise words and the "suspicious but right" list** (*relève de*, *en matière de*, *la conjoncture actuelle*). Confirm each.
 - **"*Une faute de sens*" (plan) replaced by *un mot passe-partout*,** because Unit 5 teaches *un faux sens* and *un contresens*. Confirm the term *mot passe-partout*.
 - **The letter is labelled as an extract** (no address, place or date), as the C1 rule on model letters allows.
+
+### c2-implicit-meaning
+
+- **The negation test** ("put the sentence in the negative: what stays was presupposed") and the list of presupposition triggers (*enfin*, *encore*, *toujours*, *arrêter de*, *recommencer à*, *même*, a definite article, *pourquoi*). Confirm as stated.
+- **"*Avouer* presents what's said as a fault, like a confession"** and *reconnaître* "that it's a concession". Confirm the nuances.
+- **"*Un chantier* is neutral; *un bétonnage* … pejorative; *un aménagement* … sounds positive."** Confirm.
+- **The model opinion piece** is invented (the Tilleuls park, its councillors and the company). The accusation in the conditional is about invented people only.
+
+### c2-argument-analysis
+
+- **The names of the moves:** *l'argument par l'exemple*, *l'argument par analogie*, *l'argument ad hominem*, *la pente glissante*, *le faux dilemme*, *la généralisation hâtive*, *l'appel à la majorité*. Confirm these are the usual French terms.
+- **"A fallacy isn't always deliberate."** and the advice not to accuse the speaker of lying. Confirm.
+- **The debate** is invented (Valbrune, Saint-Ours, Mme Lambert, M. Rivière, Mme Benali, M. Faure); no real group or politician.
+
+### c2-commentaire-de-texte
+
+- **The source text (owner's decision, Prompt 44):** Charles Baudelaire, « Le Port » (XLI), *Petits Poèmes en prose*, in *Œuvres complètes de Charles Baudelaire*, IV, Paris, Michel Lévy frères, 1869, p. 120. Copied from Wikisource, not typed: https://fr.wikisource.org/wiki/Le_Port (validated transcription: https://fr.wikisource.org/wiki/Page:Baudelaire_-_Petits_po%C3%A8mes_en_prose_1868.djvu/128). A copy with these references is in docs/sources/baudelaire-le-port.txt. The lesson's text was checked word for word against it by script (Prompt 44); the old spelling *rhythme* is kept. Confirm against the page.
+- **Every quotation in the model commentary** was checked by script to appear word for word in the source and to be under 15 words. Confirm.
+- **"*Petits Poèmes en prose*, published in 1869, after the poet's death, in his *Œuvres complètes*."** Confirm.
+- **"Au XIXe siècle, plusieurs écrivains cherchent une poésie qui n'aurait pas besoin du vers."** Confirm as a fair general statement (no names given).
+- **The ouverture:** "« L'Invitation au voyage », où le poète rêve lui aussi de navires et de départ". Confirm (the verse poem in *Les Fleurs du mal*).
+- **"L'architecture mobile" as an oxymore** (ex004 and the model). Confirm it's a defensible reading.
+- **"An introduction is short: about a tenth of the whole commentary."** Confirm as a rule of thumb.
+
+### c2-stylistic-analysis
+
+- **The definitions** of *la période* ("builds up through several clauses … then reaches its main clause and falls"), *l'asyndète*, *la parataxe* / *l'hypotaxe*, *la juxtaposition*. Confirm.
+- **"A repeated *v* or *f* can suggest wind; repeated soft vowels, calm."** Presented as interpretation ("semble suggérer"). Confirm the caution is enough.
+- **The chiasmus *On part pour oublier, on oublie de partir*** is original. Molière's chiasmus is only mentioned, with a link to c1-culture-literary-canon, not quoted again.
+- **No verse** in the lesson, so scan-alexandrines isn't needed.
+
+### c2-reading-the-press
+
+- **"L'éditorial gives the position of the newspaper itself, usually signed by the editor or a senior journalist."** Confirm "usually".
+- **"In a newspaper, these genres are often mixed on the same page."** Confirm.
+- **The model** is invented: the town, the agency (Info-Régions), the paper (*L'Écho de Valbrune*). No real paper, journalist or political line is named.
+
+### c2-review-reading
+
+- **The tribune** is invented (the city, line 12, the association Nuit et Ville and Claire Morin). Confirm the analysis matches the text exactly (presupposition, scare quotes, the conditional, the slippery slope, the false dilemma, the ternary ending).
 
 ## C2 plan
 
@@ -2155,9 +2197,9 @@ Every item is **to verify** before the lesson that relies on it is written (docs
 
 ### Reading and writing (Units 4 and 5)
 
-- **c2-commentaire-de-texte:** to verify the description of the method (axes de lecture, citations enchâssées, ouverture) against current French school practice, without exam claims.
+- **Unit 4 method and terms:** verified (Prompt 44 review): the commentary method (introduction with amorce, presentation, problématique and announced plan; development by axes de lecture with short embedded quotations; conclusion with an ouverture), presented as the usual method in French schools, with no exam claim; the literary registres (lyrique, tragique, comique, épique, pathétique, satirique), distinguished from the language registers; the figures (allitération, assonance, chiasme, asyndète, parataxe / hypotaxe, la période, the ternary rhythm).
 - **c2-contraction-de-texte:** to verify the counting convention taught (how *c'est-à-dire*, elisions and numbers count) and that the lesson presents it as one convention among others.
-- **c2-reading-the-press:** to verify the genre definitions (dépêche, éditorial, chronique, billet, tribune, brève, chapeau, titraille).
+- **c2-reading-the-press:** verified (Prompt 44 review): dépêche (an agency wire), éditorial (the paper's position), chronique (a regular column by the same writer), billet d'humeur (a short, personal opinion piece), tribune (an outside contributor), reportage, enquête, interview, brève; le chapeau, l'accroche, la titraille; the inverted pyramid.
 
 ### The language and its literatures (Unit 7)
 

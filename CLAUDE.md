@@ -265,6 +265,7 @@ C2 inherits every C1 convention unless it's changed here. Plans are in docs/plan
 - **Translation exercises (version and thème).** Typed keys are sentence-level, with every valid variant listed; longer passages are writing tasks.
 - **Quotations.** The C1 safe list stays (authors who died before 1900, under 15 words, one quotation per source per lesson, our own translations). Anonymous medieval texts count as safe. Old and Middle French are quoted in the original for recognition, with our own modern French translation and our own English translation; the 15-word limit applies to the original.
 - **No exam practice.** No C2 lesson practises for an exam or names one.
+- **Full public-domain source texts (owner's decision, Prompt 44).** A commentary lesson may give one complete public-domain text by a safe-list author (died before 1900), at most 600 words, in a "Source text" section, with our own English translation. It's copied from Wikisource or Gallica, never typed from memory, checked word for word against that page, and its URL and edition go in docs/review-needed.md. Quotations inside the commentary stay under 15 words each, and the 15-word rule is unchanged everywhere else.
 - **Checklist.** The C1 checklist applies in full (42 rules in five groups), plus these C2 additions:
   - A modernized or rectified spelling is checked against a dictionary before it's accepted or rejected.
   - For a version or thème key, translate the accepted answer back and check that it keeps the meaning.
@@ -275,5 +276,7 @@ C2 inherits every C1 convention unless it's changed here. Plans are in docs/plan
   - "Both accepted" is checked sentence by sentence: each accepted variant must be correct in that exact sentence, not just somewhere in the rule.
   - A test given to tell two forms apart is tried on the lesson's own examples of both forms before it's taught.
   - The lesson's examples follow its own advice (punctuation, register, spelling choice).
+  - When a lesson says a word "only" or "never" means something, check a dictionary for its other senses first, and check every key against them.
+  - Claims about English (what an English word does or doesn't mean) are checked too.
 
 @AGENTS.md

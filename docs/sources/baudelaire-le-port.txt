@@ -1,0 +1,11 @@
+Source text for c2-commentaire-de-texte (copied from Wikisource, Prompt 44; not typed from memory).
+
+Author: Charles Baudelaire (1821-1867), safe list.
+Title: "Le Port" (XLI), Petits Poèmes en prose (Le Spleen de Paris).
+Edition: Œuvres complètes de Charles Baudelaire, IV. Petits Poèmes en prose, Les Paradis artificiels, Paris, Michel Lévy frères, 1869, p. 120.
+Wikisource page: https://fr.wikisource.org/wiki/Le_Port
+Transcription (validated, level 4): https://fr.wikisource.org/wiki/Page:Baudelaire_-_Petits_po%C3%A8mes_en_prose_1868.djvu/128
+Note: the edition spells "rhythme" (modern "rythme"); kept as printed. Apostrophes are typographic (’) as on the page.
+
+--- text ---
+Un port est un séjour charmant pour une âme fatiguée des luttes de la vie. L’ampleur du ciel, l’architecture mobile des nuages, les colorations changeantes de la mer, le scintillement des phares, sont un prisme merveilleusement propre à amuser les yeux sans jamais les lasser. Les formes élancées des navires, au gréement compliqué, auxquels la houle imprime des oscillations harmonieuses, servent à entretenir dans l’âme le goût du rhythme et de la beauté. Et puis, surtout, il y a une sorte de plaisir mystérieux et aristocratique pour celui qui n’a plus ni curiosité ni ambition, à contempler, couché dans le belvédère ou accoudé sur le môle, tous ces mouvements de ceux qui partent et de ceux qui reviennent, de ceux qui ont encore la force de vouloir, le désir de voyager ou de s’enrichir.
