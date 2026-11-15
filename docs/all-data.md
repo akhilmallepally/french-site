@@ -1,6 +1,6 @@
 # All lesson data
 
-287 written lessons, in course order.
+293 written lessons, in course order.
 
 ## a1-greetings
 
@@ -11590,7 +11590,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-agreement-with-infinitives-ex006 | fill-in | Accordez le participe (entendre) : La chanson que nous avons ___ chanter hier soir est très vieille. | — | ["entendu"] | false | The song is sung by someone else. Que isn't the subject of chanter, so entendu doesn't agree.
 - c2-agreement-with-infinitives-ex007 | fill-in | Accordez le participe (laisser), deux graphies admises : Mes filles, je les ai ___ partir seules. | — | ["laissées","laissé"] | false | Traditional spelling: the girls leave, so laissées agrees. The 1990 rectifications allow laissé, invariable like fait. Both are accepted.
 - c2-agreement-with-infinitives-ex008 | fill-in | Accordez le participe (faire) : Les invitées qu'il a ___ attendre étaient en colère. | — | ["fait"] | false | Fait never agrees before an infinitive.
-- c2-agreement-with-infinitives-ex009 | fill-in | Accordez le participe (manger), deux graphies admises : Des cerises, j'en ai ___ trois kilos cet été. | — | ["mangé","mangées"] | true | With en, the participle usually stays invariable (mangé). Agreement with the noun en stands for (mangées) is also found. Both are accepted here.
+- c2-agreement-with-infinitives-ex009 | fill-in | Accordez le participe (manger), deux graphies admises : Des cerises, j'en ai ___ cet été. | — | ["mangé","mangées"] | true | With en and nothing after the participle as its direct object, the participle usually stays invariable (mangé), and agreement with the noun en stands for (mangées) is also found. Both are accepted here.
 - c2-agreement-with-infinitives-ex010 | error-correction | Corrigez l'erreur d'accord : Les maisons que j'ai vues construire sont déjà vendues. | — | ["Les maisons que j'ai vu construire sont déjà vendues"] | false | The houses don't build: workers build them. Que isn't the subject of the infinitive, so vu doesn't agree.
 - c2-agreement-with-infinitives-ex011 | error-correction | Corrigez l'erreur d'accord : Ces chaises, je les ai faites réparer en une heure. | — | ["Ces chaises, je les ai fait réparer en une heure"] | false | Fait never agrees before an infinitive, even after a direct object pronoun.
 - c2-agreement-with-infinitives-ex012 | error-correction | Corrigez l'erreur d'accord : Les deux sœurs que j'ai entendu rire dans le jardin sont mes voisines. | — | ["Les deux sœurs que j'ai entendues rire dans le jardin sont mes voisines"] | false | The sisters laugh: they are the subject of rire, so entendues agrees with que (= les deux sœurs).
@@ -11713,6 +11713,7 @@ fr | pron | en | note
 - le comité des fêtes | luh koh-mee-TAY day FET | the (local) festivals committee | —
 - l'année précédente | lah-NAY pray-say-DAHNT | the year before (in a past report) | L'an dernier becomes l'année précédente.
 - une fête réussie | ewn fet ray-ew-SEE | a successful party, a successful festival | —
+- reçoive (recevoir) | ruh-SWAHV | receive (the subjunctive of recevoir, to receive) | Past participle reçu: quand le comité aura reçu les devis.
 
 ### Exercises
 
@@ -11770,7 +11771,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-ellipsis-and-nominal-style-ex004 | multiple-choice | Choisissez la forme qui convient à un titre de presse. | ["Le maire démissionne","Le maire a démissionné hier soir, ce qui a surpris tout le monde","Le maire, il a démissionné"] | ["Le maire démissionne"] | false | A headline uses the present for a recent event (le présent de l'actualité), with no time details and no comment.
 - c2-ellipsis-and-nominal-style-ex005 | fill-in | Complétez avec l'auxiliaire qui manque (les deux auxiliaires sont différents) : Elle est arrivée à huit heures et ___ mangé tout de suite. | — | ["a"] | true | You can leave out an auxiliary only if it's the same one. Arriver takes être and manger takes avoir, so a must be written.
 - c2-ellipsis-and-nominal-style-ex006 | fill-in | Mettez le verbe à la forme des notes (l'infinitif) : Tu enverras le devis avant vendredi. Notes : ___ le devis avant vendredi. | — | ["Envoyer"] | false | In notes and to-do lists, an action is written in the infinitive, with no subject.
-- c2-ellipsis-and-nominal-style-ex007 | reformulation | Reformulez avec une ellipse du verbe : Léa a choisi la mer, et Hugo a choisi la montagne. | — | ["Léa a choisi la mer ; Hugo, la montagne","Léa a choisi la mer, et Hugo, la montagne"] | true | Leave out the repeated verb (a choisi) in the second clause; a comma marks the gap.
+- c2-ellipsis-and-nominal-style-ex007 | reformulation | Reformulez avec une ellipse du verbe : Léa a choisi la mer, et Hugo a choisi la montagne. | — | ["Léa a choisi la mer ; Hugo, la montagne","Léa a choisi la mer, et Hugo, la montagne"] | true | Leave out the repeated verb (a choisi) in the second clause; a comma marks the gap. Without et, use a semicolon between the clauses; with et, a comma is enough. Both are accepted.
 - c2-ellipsis-and-nominal-style-ex008 | reformulation | Reformulez en phrase complète, au passé composé (augmenter) : Hausse des loyers à Lyon en mars. | — | ["Les loyers ont augmenté à Lyon en mars","À Lyon, les loyers ont augmenté en mars","En mars, les loyers ont augmenté à Lyon","Les loyers ont augmenté en mars à Lyon"] | true | The noun hausse becomes the verb augmenter, and les loyers becomes its subject.
 - c2-ellipsis-and-nominal-style-ex009 | reformulation | Reformulez en titre de presse, avec le nom « démission » : La ministre de la Culture a démissionné. | — | ["Démission de la ministre de la Culture"] | false | The verb becomes a noun, the subject becomes de + noun, and the article at the start disappears.
 - c2-ellipsis-and-nominal-style-ex010 | reformulation | Reformulez en écrivant le sujet et l'auxiliaire une seule fois : Il est parti à huit heures et il est revenu à midi. | — | ["Il est parti à huit heures et revenu à midi"] | true | Both verbs take être in the same form, so il est can be shared.
@@ -11804,7 +11805,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-review-form-ex003 | multiple-choice | Choisissez la bonne forme : ___ soit son âge, tout le monde est invité. | ["Quel que","Quelle que","Quelque"] | ["Quel que"] | false | Before soit, two words; quel agrees with son âge, masculine singular (c2-tout-quelque-meme).
 - c2-review-form-ex004 | fill-in | Écrivez le nombre en lettres (80) : ___ places attendent les lecteurs. | — | ["Quatre-vingts"] | false | Vingt is multiplied and ends the number, so it takes an s (c2-agreement-colours-compounds-numbers).
 - c2-review-form-ex005 | fill-in | Conjuguez (être) au temps qui convient : La mairie a promis que le jardin ___ ouvert dès l'été. | — | ["serait"] | false | A promise made in the past about a later event: conditionnel présent (c2-concordance-in-writing).
-- c2-review-form-ex006 | reformulation | Reformulez avec une ellipse du verbe : Les enfants écouteront des contes, et les adultes écouteront des poèmes. | — | ["Les enfants écouteront des contes ; les adultes, des poèmes","Les enfants écouteront des contes, et les adultes, des poèmes"] | false | Leave out the repeated verb (écouteront); a comma marks the gap (c2-ellipsis-and-nominal-style).
+- c2-review-form-ex006 | reformulation | Reformulez avec une ellipse du verbe : Les enfants écouteront des contes, et les adultes écouteront des poèmes. | — | ["Les enfants écouteront des contes ; les adultes, des poèmes","Les enfants écouteront des contes, et les adultes, des poèmes"] | false | Leave out the repeated verb (écouteront); a comma marks the gap. Use a semicolon between the clauses, or a comma before et; both are accepted (c2-ellipsis-and-nominal-style).
 - c2-review-form-ex007 | error-correction | Corrigez l'erreur (phrase du texte) : Ils se sont rendus compte assez vite que le nouveau bâtiment ne pourrait pas accueillir tous les livres. | — | ["Ils se sont rendu compte assez vite que le nouveau bâtiment ne pourrait pas accueillir tous les livres"] | false | Rendu never agrees in se rendre compte.
 - c2-review-form-ex008 | error-correction | Corrigez l'erreur (phrase du texte) : Quelques deux mille ouvrages devaient donc trouver une autre maison. | — | ["Quelque deux mille ouvrages devaient donc trouver une autre maison"] | false | Before a number, quelque means 'about' and doesn't change.
 - c2-review-form-ex009 | error-correction | Corrigez l'erreur de concordance (phrase du texte) : La directrice a expliqué qu'elle avait contacté plusieurs écoles et qu'elle leur donnera les livres pour enfants. | — | ["La directrice a expliqué qu'elle avait contacté plusieurs écoles et qu'elle leur donnerait les livres pour enfants"] | true | From a past anchor, a later action takes the conditionnel présent: donnerait.
@@ -11816,3 +11817,291 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-review-form-ex015 | translate | Traduisez (une coquille) : There's a typo in the second paragraph. | — | ["Il y a une coquille dans le deuxième paragraphe","Il y a une coquille dans le second paragraphe"] | true | Une coquille is a typo. Deuxième and second both mean 'second' here.
 - c2-review-form-ex016 | reorder | Remettez dans l'ordre : The proofreader corrected the proofs before publication. | — | ["La correctrice a corrigé les épreuves avant la publication"] | false | Corriger les épreuves: to correct the last version before a text is printed.
 - c2-review-form-ex017 | writing-task | Rédigez un paragraphe de 80 à 120 mots sur un changement dans votre ville ou dans votre travail, au passé composé. Faites ensuite une relecture avec la liste. | — | — | false | —
+
+## c2-paronyms
+
+### Vocab
+
+fr | pron | en | note
+
+- un paronyme | uhn pah-roh-NEEM | a paronym (a word that looks or sounds like another) | —
+- confondre | kohn-FOHN-druh | to confuse, to mix up | —
+- éminent / éminente | ay-mee-NAHN / ay-mee-NAHNT | eminent, distinguished | —
+- imminent / imminente | ee-mee-NAHN / ee-mee-NAHNT | imminent, about to happen | —
+- un prodige | uhn proh-DEEZH | a prodigy; a marvel | —
+- prodigue | proh-DEEG | extravagant, lavish (with money, with words) | Être prodigue de promesses: to be lavish with promises.
+- une conjecture | ewn kohn-zhek-TEWR | a conjecture, a guess | —
+- perpétrer (un crime) | pehr-pay-TRAY | to commit (a crime) | —
+- perpétuer (une tradition) | pehr-pay-TWAY | to perpetuate, to keep (a tradition) alive | —
+- une collision | ewn koh-lee-ZYOHN | a collision, a crash | —
+- un choc | uhn SHOK | a crash, an impact; a shock | —
+- une collusion | ewn koh-lew-ZYOHN | collusion, a secret agreement | —
+- une effraction | ew-neh-frak-SYOHN | a break-in, forced entry | Entrer par effraction: to break in.
+- une infraction | ew-nan-frak-SYOHN | an offence, a breach (of a rule) | Une infraction au code de la route.
+- le code de la route | luh kod duh lah ROOT | the highway code, traffic law | —
+- une arrestation | ew-nah-res-tah-SYOHN | an arrest | —
+- un cambrioleur / une cambrioleuse | uhn kahn-bree-oh-LUHR / ewn kahn-bree-oh-LUHZ | a burglar | —
+- infecter | an-fek-TAY | to infect | —
+- infester | an-fes-TAY | to infest (pests, bandits) | Infesté de rats: infested with rats.
+- recouvrer (la santé, la liberté) | ruh-koo-VRAY | to recover, to regain | —
+- recouvrir | ruh-koo-VREER | to cover (completely); to cover again | Like couvrir: recouvert.
+- une acception | ew-nak-sep-SYOHN | a sense, a meaning (of a word) | —
+- une acceptation | ew-nak-sep-tah-SYOHN | an acceptance | —
+- un rat | uhn RAH | a rat | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-paronyms-ex001 | multiple-choice | Choisissez le mot qui convient : Un ___ professeur de médecine a ouvert la conférence. | ["éminent","imminent"] | ["éminent"] | false | Éminent describes a distinguished person. Imminent describes an event about to happen.
+- c2-paronyms-ex002 | multiple-choice | Choisissez le mot qui convient : Le départ du train est ___ : montez vite. | ["imminent","éminent"] | ["imminent"] | false | A departure that is about to happen is imminent.
+- c2-paronyms-ex003 | multiple-choice | Choisissez le mot qui convient : Les cambrioleurs sont entrés par ___ dans l'appartement. | ["effraction","infraction"] | ["effraction"] | false | Entrer par effraction means to break in, by forcing a door or a window.
+- c2-paronyms-ex004 | multiple-choice | Choisissez le mot qui convient : Passer au feu rouge est une ___ au code de la route. | ["infraction","effraction"] | ["infraction"] | false | Une infraction is a breach of a rule or a law.
+- c2-paronyms-ex005 | multiple-choice | Choisissez le mot qui convient : Après trois mois à l'hôpital, il a enfin ___ la santé. | ["recouvré","recouvert"] | ["recouvré"] | false | Recouvrer la santé is to recover your health. Recouvert is the participle of recouvrir, to cover.
+- c2-paronyms-ex006 | multiple-choice | Choisissez le mot qui convient : Dans sa première ___, le mot « pièce » veut dire une partie d'une maison. | ["acception","acceptation"] | ["acception"] | false | Une acception is one of the senses of a word. Une acceptation is the act of accepting.
+- c2-paronyms-ex007 | fill-in | Complétez avec « perpétrer » ou « perpétuer », au participe passé : Le village a ___ une vieille tradition. | — | ["perpétué"] | true | You keep a tradition alive: perpétuer. Perpétrer is for a crime.
+- c2-paronyms-ex008 | fill-in | Complétez avec « infecter » ou « infester », au participe passé : La cave est ___ de rats. | — | ["infestée"] | false | Pests infest a place: infestée de rats. Infecter is for a germ or a wound.
+- c2-paronyms-ex009 | fill-in | Complétez avec « conjecture » ou « conjoncture » : Dans la ___ actuelle, l'entreprise n'embauche personne. | — | ["conjoncture"] | false | La conjoncture is the economic situation at a given time. Une conjecture is a guess.
+- c2-paronyms-ex010 | error-correction | Corrigez le paronyme : Les deux voitures sont entrées en collusion au carrefour. | — | ["Les deux voitures sont entrées en collision au carrefour"] | false | Cars that crash are in collision. Une collusion is a secret agreement between people.
+- c2-paronyms-ex011 | error-correction | Corrigez le paronyme : Le crime a été perpétué la nuit dernière. | — | ["Le crime a été perpétré la nuit dernière"] | true | A crime is committed: perpétré. Perpétuer means to keep something alive.
+- c2-paronyms-ex012 | error-correction | Corrigez le paronyme : Son acception du poste a surpris tout le monde. | — | ["Son acceptation du poste a surpris tout le monde"] | true | Accepting a job is une acceptation. Une acception is the sense of a word.
+- c2-paronyms-ex013 | reformulation | Reformulez avec « ne… que » et le nom « une conjecture » : Son explication est seulement une idée sans preuve. | — | ["Son explication n'est qu'une conjecture"] | false | Une conjecture is a guess, an idea that isn't proved; ne… que gives 'only'.
+- c2-paronyms-ex014 | reformulation | Reformulez avec l'adjectif « prodigue » : C'est un homme qui dépense sans compter. | — | ["C'est un homme prodigue"] | false | Prodigue describes someone who spends lavishly. Un prodige is a gifted person.
+- c2-paronyms-ex015 | translate | Traduisez (recouvrer) : She regained her freedom after ten years. | — | ["Elle a recouvré la liberté après dix ans","Elle a recouvré sa liberté après dix ans"] | true | Recouvrer la liberté: to regain your freedom.
+- c2-paronyms-ex016 | translate | Traduisez (un prodige) : This child is a prodigy. | — | ["Cet enfant est un prodige"] | false | Un prodige is a gifted person, a prodigy.
+- c2-paronyms-ex017 | translate | Traduisez (infecter) : The wound is infected. | — | ["La blessure est infectée"] | false | A germ infects a wound: la blessure est infectée.
+- c2-paronyms-ex018 | reorder | Remettez dans l'ordre : The burglars broke in through the window. | — | ["Les cambrioleurs sont entrés par effraction par la fenêtre"] | false | Entrer par effraction: to break in.
+
+## c2-polysemy
+
+### Vocab
+
+fr | pron | en | note
+
+- la polysémie | lah poh-lee-zay-MEE | polysemy (having several meanings) | —
+- un mot polysémique | uhn moh poh-lee-zay-MEEK | a word with several meanings | —
+- le sens propre / le sens figuré | luh sahns PROH-pruh / luh sahns fee-gew-RAY | the literal sense / the figurative sense | —
+- une pièce justificative | ewn pyes zhews-tee-fee-kah-TEEV | a supporting document (a proof, in a file) | —
+- une pièce détachée | ewn pyes day-tah-SHAY | a spare part | —
+- payer la note | peh-YAY lah NOTT | to pay the bill (at a hotel, a restaurant) | —
+- une note de musique | ewn nott duh mew-ZEEK | a musical note | —
+- un coup d'œil | uhn koo DUH-y | a glance | Jeter un coup d'œil à: to have a quick look at.
+- du premier coup | dew pruh-myay KOO | at the first attempt, first time | —
+- un coup de main | uhn koo duh MAN | a hand, some help (informal) | —
+- la matière | lah mah-TYEHR | a school subject; matter, material | —
+- en matière de | ahn mah-TYEHR duh | as regards, in matters of (formal) | —
+- la valeur | lah vah-LUHR | the value, the worth | —
+- les valeurs (f.) | lay vah-LUHR | values, principles | —
+- mettre en valeur | MET-ruh ahn vah-LUHR | to show off, to highlight | —
+- à juste titre | ah zhewst TEE-truh | rightly, with good reason | —
+- un titre de transport | uhn tee-truh duh trahns-POR | a ticket (formal: any travel document) | —
+- relever une erreur | ruh-luh-VAY ew-neh-RUHR | to point out a mistake, to note it | —
+- relever de | ruh-luh-VAY duh | to fall under, to be a matter for | Cette question relève du ministère.
+- soutenir (un projet, une personne) | soo-tuh-NEER | to support, to back | Not supporter, which means to put up with.
+- soutenir une thèse | soo-tuh-NEER ewn TEZ | to defend a thesis (at a university) | —
+- se tenir (une réunion) | suh tuh-NEER | to be held, to take place (formal) | Futur: se tiendra.
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-polysemy-ex001 | multiple-choice | Indiquez le sens de « pièce » dans la phrase : Joignez une pièce justificative à votre dossier. | ["a supporting document","a room","a coin"] | ["a supporting document"] | false | With justificative, une pièce is a document that proves what you say, such as a bill or a certificate.
+- c2-polysemy-ex002 | multiple-choice | Indiquez le sens de « note » dans la phrase : À la fin du repas, le serveur nous a apporté la note. | ["the bill","the mark","the musical note"] | ["the bill"] | false | In a restaurant or a hotel, la note is the bill.
+- c2-polysemy-ex003 | multiple-choice | Indiquez le sens de « relevé » dans la phrase : La correctrice a relevé trois erreurs dans le texte. | ["noticed and pointed out","lifted up again","took on as a challenge"] | ["noticed and pointed out"] | false | Relever une erreur is to notice it and point it out.
+- c2-polysemy-ex004 | multiple-choice | Indiquez le sens de « en matière de » dans la phrase : En matière de santé, les règles ont changé. | ["as regards","in the material of","in the school subject of"] | ["as regards"] | false | En matière de is a formal way to say 'as regards'.
+- c2-polysemy-ex005 | multiple-choice | Choisissez la phrase où « valeur » a le sens de « principe ». | ["Ce sont des valeurs que je partage.","La valeur de cette maison a doublé.","Ce tableau a peu de valeur."] | ["Ce sont des valeurs que je partage."] | false | In the plural, les valeurs are often principles you believe in. In the other two sentences, la valeur is what something is worth.
+- c2-polysemy-ex006 | fill-in | Complétez avec le mot qui convient : Tu peux jeter un ___ d'œil à mon texte ? | — | ["coup"] | false | Jeter un coup d'œil à: to have a quick look at.
+- c2-polysemy-ex007 | fill-in | Complétez avec le mot qui convient : Elle a critiqué ce projet, et à juste ___. | — | ["titre"] | false | À juste titre: rightly, with good reason.
+- c2-polysemy-ex008 | fill-in | Conjuguez « relever » au présent : Cette question ___ du ministère de la Santé. | — | ["relève"] | false | Relever de: to fall under. Like lever, the verb takes a grave accent: il relève.
+- c2-polysemy-ex009 | reformulation | Reformulez avec « du premier coup » : Il a eu son permis la première fois qu'il l'a passé. | — | ["Il a eu son permis du premier coup"] | true | Du premier coup: at the first attempt.
+- c2-polysemy-ex010 | reformulation | Reformulez avec « mettre en valeur », au présent : Cette lumière montre bien les couleurs du tableau. | — | ["Cette lumière met en valeur les couleurs du tableau","Cette lumière met bien en valeur les couleurs du tableau"] | false | Mettre en valeur: to show something at its best.
+- c2-polysemy-ex011 | reformulation | Reformulez avec « se tenir », au futur proche : La réunion va avoir lieu à Lyon. | — | ["La réunion va se tenir à Lyon"] | true | Se tenir is the formal verb for a meeting or a conference that takes place.
+- c2-polysemy-ex012 | translate | Traduisez (tu, un coup de main) : Can you give me a hand? | — | ["Tu peux me donner un coup de main ?","Peux-tu me donner un coup de main ?","Est-ce que tu peux me donner un coup de main ?"] | false | Donner un coup de main: to help, informally.
+- c2-polysemy-ex013 | translate | Traduisez (soutenir une thèse) : She defended her thesis in June. | — | ["Elle a soutenu sa thèse en juin"] | true | Soutenir une thèse: to defend a thesis in front of a jury.
+- c2-polysemy-ex014 | translate | Traduisez (un titre de transport) : Every traveller must have a ticket. | — | ["Chaque voyageur doit avoir un titre de transport","Tous les voyageurs doivent avoir un titre de transport"] | false | Un titre de transport is the formal word for any ticket or pass.
+- c2-polysemy-ex015 | error-correction | Corrigez l'expression (le sens : un document qui prouve) : Joignez une pièce détachée à votre demande. | — | ["Joignez une pièce justificative à votre demande"] | true | Une pièce détachée is a spare part. A document that proves something is une pièce justificative.
+- c2-polysemy-ex016 | error-correction | Corrigez l'expression (le sens : regarder rapidement) : J'ai jeté un coup de main au rapport. | — | ["J'ai jeté un coup d'œil au rapport"] | false | Jeter un coup d'œil: to have a quick look. Un coup de main is help.
+- c2-polysemy-ex017 | reorder | Remettez dans l'ordre : As regards health, the rules have changed. | — | ["En matière de santé, les règles ont changé"] | false | En matière de + noun opens the sentence: as regards.
+
+## c2-word-formation
+
+### Vocab
+
+fr | pron | en | note
+
+- un radical | uhn rah-dee-KAHL | a stem, a root (the base of a word) | —
+- un préfixe / un suffixe | uhn pray-FEEKS / uhn sew-FEEKS | a prefix / a suffix | —
+- la dérivation | lah day-ree-vah-SYOHN | derivation (making a word with a prefix or a suffix) | —
+- refaire | ruh-FEHR | to do again, to redo | —
+- surestimer / sous-estimer | sewr-es-tee-MAY / sooz-es-tee-MAY | to overestimate / to underestimate | —
+- irréaliste | ee-ray-ah-LEEST | unrealistic | In- becomes ir- before r, il- before l, im- before b, m, p.
+- illégal / illégale | ee-lay-GAHL | illegal | —
+- désobéir | day-zoh-bay-EER | to disobey | —
+- le nettoyage | luh neh-twah-YAHZH | cleaning | —
+- la simplicité | lah san-plee-see-TAY | simplicity | —
+- lisible / illisible | lee-ZEE-bluh / ee-lee-ZEE-bluh | legible, readable / illegible | —
+- faisable | fuh-ZAH-bluh | feasible, doable | —
+- lavable | lah-VAH-bluh | washable | —
+- moderniser | moh-dehr-nee-ZAY | to modernize | —
+- simplifier | san-plee-FYAY | to simplify | —
+- une racine savante | ewn rah-SEEN sah-VAHNT | a learned root (from Greek or Latin) | —
+- la sociologie | lah soh-syoh-loh-ZHEE | sociology | -logie: the study of.
+- claustrophobe | kloh-stroh-FOB | claustrophobic | -phobe: who fears.
+- un insecticide | uh-nan-sek-tee-SEED | an insecticide | -cide: that kills.
+- un néologisme | uhn nay-oh-loh-ZHEESM | a neologism, a new word | —
+- une notification | ewn noh-tee-fee-kah-SYOHN | a notification (on a phone) | —
+- un mot-valise | uhn moh-vah-LEEZ | a blend (a word made of two others) | Plural: des mots-valises.
+- le franglais | luh frahn-GLEH | Franglais (French full of English words) | Français + anglais.
+- la numérisation | lah new-may-ree-zah-SYOHN | digitization | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-word-formation-ex001 | multiple-choice | Indiquez le sens du mot « illisible » dans la phrase : Son écriture est illisible. | ["impossible to read","easy to read","read again"] | ["impossible to read"] | false | Il- (not) + lis- (the stem of lire) + -ible (that can be): that can't be read.
+- c2-word-formation-ex002 | multiple-choice | Indiquez le sens du préfixe dans le verbe « surestimer ». | ["too much, over","under, not enough","again, a second time"] | ["too much, over"] | false | Sur- means over or too much: surestimer is to overestimate. Sous- would mean under.
+- c2-word-formation-ex003 | multiple-choice | Indiquez le sens de « -cide » dans le mot « insecticide ». | ["that kills","that loves","that fears"] | ["that kills"] | false | -cide comes from a Latin root meaning 'to kill': un insecticide kills insects.
+- c2-word-formation-ex004 | multiple-choice | Choisissez le mot qui existe, avec le sens « contraire à la loi ». | ["illégal","inlégal","délégal"] | ["illégal"] | false | In- becomes il- before an l: illégal. The other two forms don't exist.
+- c2-word-formation-ex005 | multiple-choice | Indiquez de quels mots vient le mot-valise « franglais ». | ["français + anglais","France + Angleterre"] | ["français + anglais"] | false | A mot-valise joins the start of one word to the end of another: fran(çais) + (an)glais.
+- c2-word-formation-ex006 | fill-in | Complétez avec le nom formé sur « changer » : Le ___ d'horaire commence lundi. | — | ["changement"] | false | Changer gives le changement, with -ment. Not every verb takes the same suffix.
+- c2-word-formation-ex007 | fill-in | Complétez avec l'adjectif en -able formé sur « faire » : Ce projet est difficile, mais ___. | — | ["faisable"] | false | Faisable is built on the stem fais- (nous faisons): that can be done.
+- c2-word-formation-ex008 | fill-in | Complétez avec le verbe en -iser formé sur « moderne », au participe passé : La ville a ___ son réseau de bus. | — | ["modernisé"] | true | Moderne + -iser gives moderniser, to make modern.
+- c2-word-formation-ex009 | fill-in | Complétez avec le verbe formé sur « faire » et le préfixe re- : Ce travail est mal fait : il faut le ___. | — | ["refaire"] | false | Re- means again: refaire, to do again.
+- c2-word-formation-ex010 | error-correction | Corrigez le suffixe : La nettoyation de la salle a pris deux heures. | — | ["Le nettoyage de la salle a pris deux heures"] | true | The noun from nettoyer is le nettoyage, with -age (and masculine). Nettoyation doesn't exist.
+- c2-word-formation-ex011 | error-correction | Corrigez le suffixe : L'arrivement du train est prévu à midi. | — | ["L'arrivée du train est prévue à midi"] | true | The noun from arriver is l'arrivée, which is feminine, so prévue agrees with it.
+- c2-word-formation-ex012 | error-correction | Corrigez le préfixe : Ce plan est inréaliste. | — | ["Ce plan est irréaliste"] | false | Before an r, in- becomes ir-: irréaliste.
+- c2-word-formation-ex013 | reformulation | Reformulez avec un adjectif en -able : On ne peut pas laver ce pull. | — | ["Ce pull n'est pas lavable"] | false | Lavable means 'that can be washed'.
+- c2-word-formation-ex014 | reformulation | Reformulez avec le nom en -ité formé sur « simple » : Les élèves ont été surpris que la règle soit si simple. | — | ["Les élèves ont été surpris par la simplicité de la règle","La simplicité de la règle a surpris les élèves"] | true | Simple gives la simplicité, with -ité. The noun lets you drop the subordinate clause.
+- c2-word-formation-ex015 | translate | Traduisez (le préfixe sous-) : They underestimated the problem. | — | ["Ils ont sous-estimé le problème","Elles ont sous-estimé le problème"] | false | Sous- means under: sous-estimer, to underestimate.
+- c2-word-formation-ex016 | translate | Traduisez (simplifier) : We must simplify the form. | — | ["Nous devons simplifier le formulaire","Il faut simplifier le formulaire"] | false | Simple + -ifier gives simplifier.
+- c2-word-formation-ex017 | reorder | Remettez dans l'ordre : This handwriting is illegible. | — | ["Cette écriture est illisible"] | false | Il- + lis- + -ible: that can't be read.
+
+## c2-advanced-false-friends
+
+### Vocab
+
+fr | pron | en | note
+
+- versatile | vehr-sah-TEEL | fickle, changeable | Versatile (skilled at many things) is polyvalent.
+- avoir de la chance | ah-VWAHR duh lah SHAHNS | to be lucky | Une chance is luck; an opportunity is une occasion.
+- formel / formelle | for-MEL | categorical, explicit | Un refus formel: a flat refusal. Formal (register) is soutenu or officiel.
+- un refus | uhn ruh-FEW | a refusal | —
+- conséquent / conséquente | kohn-say-KAHN / kohn-say-KAHNT | consistent (in your actions); widely used for large, criticized | Être conséquent avec soi-même: to be consistent.
+- une opportunité | ew-noh-por-tew-nee-TAY | appropriateness, timeliness; widely used for an opportunity, criticized | —
+- contrôler | kohn-troh-LAY | to check, to inspect; also to control | —
+- un agenda | uh-nah-zhan-DAH | a diary, a planner | A meeting's agenda is l'ordre du jour.
+- l'audience (f.) | loh-DYAHNS | the ratings, the size of an audience; a court hearing | The people watching are le public.
+- un retard | uhn ruh-TAR | a delay | Un délai is the time allowed, a deadline.
+- ignorer | ee-nyoh-RAY | not to know, to be unaware of; also to ignore (someone) | —
+- une évidence | ew-nay-vee-DAHNS | an obvious fact | Evidence (proof) is une preuve, des preuves.
+- définitivement | day-fee-nee-teev-MAHN | for good, permanently | Definitely is sans aucun doute or certainement.
+- réaliser que | ray-ah-lee-ZAY kuh | to realize that (widely used, criticized) | Careful writing: se rendre compte que.
+- l'Académie française (f.) | lah-kah-day-MEE frahn-SEZ | the Académie française (the institution that publishes a dictionary and advice on usage) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-advanced-false-friends-ex001 | multiple-choice | Indiquez le sens de « versatile » dans la phrase : Le public de cette émission est très versatile. | ["fickle, quick to change its mind","skilled at many things","very large"] | ["fickle, quick to change its mind"] | false | Versatile in French means fickle. For 'versatile' in the English sense, say polyvalent.
+- c2-advanced-false-friends-ex002 | multiple-choice | Indiquez le sens de « chance » dans la phrase : Tu as de la chance d'habiter si près de la mer. | ["the fact that things go well for you","an opportunity to do something","a risk you take"] | ["the fact that things go well for you"] | false | Avoir de la chance: to be lucky. An opportunity is une occasion.
+- c2-advanced-false-friends-ex003 | multiple-choice | Indiquez le sens de « formel » dans la phrase : Le refus de la directrice est formel. | ["categorical and final","polite and formal in tone","only for show"] | ["categorical and final"] | false | Formel usually means categorical or explicit. For a formal register, say soutenu or officiel.
+- c2-advanced-false-friends-ex004 | multiple-choice | Indiquez le sens de « une évidence » dans la phrase : Que le projet coûte trop cher, c'est une évidence. | ["an obvious fact","a piece of evidence","a proof given in court"] | ["an obvious fact"] | false | Une évidence is something obvious. Evidence, in the sense of proof, is une preuve.
+- c2-advanced-false-friends-ex005 | multiple-choice | Indiquez le sens de « l'audience » dans la phrase : L'audience de l'émission a doublé en un an. | ["the number of viewers","the people in the studio","the interview"] | ["the number of viewers"] | false | L'audience of a programme is its ratings. The people who watch are le public.
+- c2-advanced-false-friends-ex006 | fill-in | Complétez avec le nom qui convient, sans « opportunité » : C'est une belle ___ de travailler à l'étranger. | — | ["occasion"] | false | Une occasion is the uncontested word for an opportunity.
+- c2-advanced-false-friends-ex007 | fill-in | Complétez avec le verbe qui veut dire « vérifier », au présent : Dans le train, une agente ___ les billets. | — | ["contrôle"] | false | Contrôler les billets is to check tickets. This is the sense English speakers forget.
+- c2-advanced-false-friends-ex008 | fill-in | Complétez avec l'adverbe qui veut dire « pour toujours » : Ils ont quitté la ville ___. | — | ["définitivement"] | false | Définitivement means for good, permanently.
+- c2-advanced-false-friends-ex009 | error-correction | Corrigez le faux ami, pour un texte soigné (le sens : c'est sûr) : Ce film est définitivement le meilleur de l'année. | — | ["Ce film est sans aucun doute le meilleur de l'année","Ce film est certainement le meilleur de l'année"] | false | Définitivement means for good. For 'definitely', say sans aucun doute or certainement.
+- c2-advanced-false-friends-ex010 | error-correction | Corrigez le faux ami (le sens : la liste des points d'une réunion) : L'agenda de la réunion est très chargé. | — | ["L'ordre du jour de la réunion est très chargé"] | false | Un agenda is a diary. The list of points for a meeting is l'ordre du jour.
+- c2-advanced-false-friends-ex011 | error-correction | Corrigez le faux ami (le sens : des preuves) : La police n'a trouvé aucune évidence. | — | ["La police n'a trouvé aucune preuve"] | true | Une évidence is an obvious fact. Proof is une preuve.
+- c2-advanced-false-friends-ex012 | reformulation | Reformulez avec « ignorer » : Je ne sais pas pourquoi il est parti. | — | ["J'ignore pourquoi il est parti"] | false | Ignorer means not to know, especially in formal French.
+- c2-advanced-false-friends-ex013 | reformulation | Reformulez avec « se rendre compte », pour un texte soigné : J'ai réalisé que j'avais tort. | — | ["Je me suis rendu compte que j'avais tort"] | false | Réaliser que is widely used but criticized by the Académie française. Careful writing prefers se rendre compte que, and rendu never agrees.
+- c2-advanced-false-friends-ex014 | translate | Traduisez (registre soutenu, sans « opportunité ») : This is a unique opportunity. | — | ["C'est une occasion unique"] | false | In careful writing, an opportunity is une occasion.
+- c2-advanced-false-friends-ex015 | translate | Traduisez (belle, rencontrer) : The meeting is a great opportunity to meet clients. | — | ["La réunion est une belle occasion de rencontrer des clients","La réunion est une belle opportunité de rencontrer des clients"] | false | Both are accepted here: occasion is uncontested, and opportunité in this sense is widely used, though the Académie française criticizes it.
+- c2-advanced-false-friends-ex016 | translate | Traduisez (tu, avoir de la chance, au passé composé) : You were lucky. | — | ["Tu as eu de la chance"] | false | Avoir de la chance: to be lucky.
+- c2-advanced-false-friends-ex017 | translate | Traduisez (versatile) : Voters are fickle. | — | ["Les électeurs sont versatiles"] | false | Versatile means fickle, changeable.
+- c2-advanced-false-friends-ex018 | reorder | Remettez dans l'ordre : I don't know where she lives. | — | ["J'ignore où elle habite"] | false | Ignorer: not to know (formal).
+
+## c2-anglicisms-and-official-terms
+
+### Vocab
+
+fr | pron | en | note
+
+- un anglicisme | uh-nahn-glee-SEESM | an anglicism (an English word or use in French) | —
+- un équivalent officiel | uh-nay-kee-vah-LAHN oh-fee-SYEL | an official equivalent | —
+- recommander un terme | ruh-koh-mahn-DAY uhn TEHRM | to recommend a term | —
+- l'emploi d'un mot (m.) | lahn-PLWAH duhn MOH | the use of a word | Here l'emploi means use, not a job.
+- le marketing | luh mar-keh-TEENG | marketing (anglicism) | —
+- un hashtag | uhn ASH-tag | a hashtag (anglicism) | —
+- une newsletter | ewn nyooz-LEH-tuhr | a newsletter (anglicism) | —
+- spoiler | spoy-LAY | to spoil (a story's ending) (anglicism, familiar) | —
+- un mot-dièse | uhn moh-DYEZ | a hashtag (official term in France) | —
+- la mercatique | lah mehr-kah-TEEK | marketing (official term in France) | —
+- le covoiturage | luh koh-vwah-tew-RAHZH | car-sharing, carpooling (the usual word) | —
+- une lettre d'information | ewn leh-truh dan-for-mah-SYOHN | a newsletter (in France) | —
+- divulgâcher | dee-vewl-gah-SHAY | to spoil (a story's ending) (Québec) | Divulguer + gâcher.
+- la baladodiffusion / un balado | lah bah-lah-doh-dee-few-ZYOHN / uhn bah-lah-DOH | podcasting / a podcast (Québec) | —
+- une infolettre | ew-nan-foh-LET-ruh | a newsletter (Québec usage) | —
+- l'Office québécois de la langue française (m.) | loh-FEES kay-bay-KWAH duh lah lahng frahn-SEZ | the Québec office of the French language (the OQLF) | —
+- une commission de terminologie | ewn koh-mee-SYOHN duh tehr-mee-noh-loh-ZHEE | a terminology commission | —
+- la loi Toubon | lah lwah too-BOHN | the Toubon law (the law of 4 August 1994 on the use of French) | —
+- un puriste / une puriste | uhn pew-REEST | a purist | —
+- l'usage (m.) | lew-ZAHZH | usage (how people really speak and write) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-anglicisms-and-official-terms-ex001 | multiple-choice | Choisissez l'équivalent officiel de « hashtag » en France. | ["un mot-dièse","un mot-clé","un dièse-mot"] | ["un mot-dièse"] | false | Mot-dièse is the official term. Un mot-clé is a keyword, a different thing.
+- c2-anglicisms-and-official-terms-ex002 | multiple-choice | Choisissez le verbe recommandé au Québec à la place de l'anglicisme « spoiler ». | ["divulgâcher","gâter","spoiler"] | ["divulgâcher"] | false | Divulgâcher, a blend of divulguer and gâcher, is recommended by the Office québécois de la langue française.
+- c2-anglicisms-and-official-terms-ex003 | multiple-choice | Choisissez l'équivalent officiel de « marketing » en France. | ["la mercatique","la marque","le marché"] | ["la mercatique"] | false | La mercatique is the official term. La marque is a brand, and le marché the market.
+- c2-anglicisms-and-official-terms-ex004 | multiple-choice | Indiquez d'où vient le terme « baladodiffusion ». | ["du Québec","de Belgique","de Suisse"] | ["du Québec"] | false | Baladodiffusion and balado are Québec terms, recommended by the Office québécois de la langue française.
+- c2-anglicisms-and-official-terms-ex005 | multiple-choice | Indiquez le statut du mot « logiciel ». | ["a French word in use for decades","a recent official proposal","a Québec term"] | ["a French word in use for decades"] | false | Logiciel is a long-established French word: nobody debates it today.
+- c2-anglicisms-and-official-terms-ex006 | fill-in | Complétez avec le terme officiel pour « e-mail » : Envoyez-nous un ___ avant vendredi. | — | ["courriel"] | false | Courriel is the official term in France and the usual one in Québec.
+- c2-anglicisms-and-official-terms-ex007 | fill-in | Complétez avec le mot français de tous les jours : Pour aller au travail, je fais du ___ avec deux collègues. | — | ["covoiturage"] | false | Faire du covoiturage: to share a car for a trip.
+- c2-anglicisms-and-official-terms-ex008 | register-shift | Transformez en français officiel, avec « mot-dièse » et « courriel » : Partagez ce hashtag et envoyez-nous un mail. | — | ["Partagez ce mot-dièse et envoyez-nous un courriel"] | false | Hashtag becomes mot-dièse, and mail becomes courriel.
+- c2-anglicisms-and-official-terms-ex009 | register-shift | Transformez en français officiel, avec « mercatique » : Elle travaille dans le marketing. | — | ["Elle travaille dans la mercatique"] | false | La mercatique is feminine: dans la mercatique.
+- c2-anglicisms-and-official-terms-ex010 | error-correction | Corrigez l'anglicisme, dans un rapport (le mot « logiciel ») : Le software de l'entreprise est trop ancien. | — | ["Le logiciel de l'entreprise est trop ancien"] | false | Software has had a French word for decades: le logiciel.
+- c2-anglicisms-and-official-terms-ex011 | error-correction | Corrigez l'anglicisme, dans une lettre en France : Merci de nous envoyer votre newsletter. | — | ["Merci de nous envoyer votre lettre d'information"] | false | In France, a newsletter is une lettre d'information. In Québec, you'll see une infolettre.
+- c2-anglicisms-and-official-terms-ex012 | reformulation | Reformulez au passif : La commission recommande le terme « mot-dièse ». | — | ["Le terme « mot-dièse » est recommandé par la commission"] | false | Recommander un terme, in the passive: le terme est recommandé par…
+- c2-anglicisms-and-official-terms-ex013 | translate | Traduisez (un équivalent officiel) : This word has an official equivalent. | — | ["Ce mot a un équivalent officiel"] | true | Un équivalent officiel: an official equivalent.
+- c2-anglicisms-and-official-terms-ex014 | translate | Traduisez (un anglicisme) : 'Week-end' is an anglicism. | — | ["« Week-end » est un anglicisme"] | false | Un anglicisme: an English word or use in French.
+- c2-anglicisms-and-official-terms-ex015 | translate | Traduisez avec « divulgâcher » (au Québec) : Don't spoil the end of the film! | — | ["Ne divulgâche pas la fin du film !","Ne divulgâchez pas la fin du film !"] | false | Divulgâcher, in the imperative: ne divulgâche pas (tu) or ne divulgâchez pas (vous).
+- c2-anglicisms-and-official-terms-ex016 | reorder | Remettez dans l'ordre : The law of 4 August 1994 concerns the use of French. | — | ["La loi du 4 août 1994 concerne l'emploi de la langue française"] | false | L'emploi d'une langue: the use of a language.
+
+## c2-review-words
+
+### Vocab
+
+fr | pron | en | note
+
+- le mot juste | luh moh ZHEWST | the exact word, the right word | —
+- une impropriété | ew-nan-proh-pree-ay-TAY | a word used in a sense it doesn't have | —
+- un barbarisme | uhn bar-bah-REESM | a barbarism (a form that doesn't exist) | —
+- un mot passe-partout | uhn moh pas-par-TOO | a catch-all word (faire, chose, mettre) | —
+- imprécis / imprécise | an-pray-SEE / an-pray-SEEZ | imprecise, vague | —
+- un cambriolage | uhn kahn-bree-oh-LAHZH | a burglary | —
+- emporté (emporter) | ahn-por-TAY | taken away (to take away) | —
+- les coordonnées (f.) | lay koh-or-doh-NAY | contact details | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-review-words-ex001 | multiple-choice | Choisissez le mot qui convient : Les cambrioleurs sont entrés par ___ dans le local. | ["effraction","infraction"] | ["effraction"] | false | Entrer par effraction: to break in. Une infraction is a breach of a rule (c2-paronyms).
+- c2-review-words-ex002 | multiple-choice | Indiquez le sens de « relève » dans la phrase : Cette question relève de la mairie. | ["is a matter for, falls under","raises, lifts up again","points out, notices"] | ["is a matter for, falls under"] | false | Relever de: to fall under, to be a matter for (c2-polysemy).
+- c2-review-words-ex003 | fill-in | Complétez avec le nom en -age formé sur « nettoyer » : Le ___ de la salle commencera samedi. | — | ["nettoyage"] | false | Nettoyer gives le nettoyage; la nettoyation is a barbarism (c2-word-formation).
+- c2-review-words-ex004 | fill-in | Complétez avec le nom qui convient, sans « évidence » : Nous avons une ___ claire du vol. | — | ["preuve"] | false | Une preuve is proof; une évidence is an obvious fact (c2-advanced-false-friends).
+- c2-review-words-ex005 | multiple-choice | Choisissez le terme qui convient dans une lettre à la mairie : Vous trouverez nos coordonnées dans le ___ joint. | ["courriel","mail"] | ["courriel"] | false | In an official letter, courriel is the expected term; mail is fine between colleagues (c2-anglicisms-and-official-terms).
+- c2-review-words-ex006 | error-correction | Corrigez le mot imprécis (phrase du texte) : Des cambrioleurs sont entrés par infraction pendant la nuit. | — | ["Des cambrioleurs sont entrés par effraction pendant la nuit"] | false | An impropriété: infraction is a breach of a rule. Forcing a door is une effraction.
+- c2-review-words-ex007 | error-correction | Corrigez le mot imprécis (phrase du texte) : La police a mené une enquête, mais elle n'a trouvé aucune évidence. | — | ["La police a mené une enquête, mais elle n'a trouvé aucune preuve"] | true | Une évidence is an obvious fact; proof is une preuve.
+- c2-review-words-ex008 | error-correction | Corrigez le paronyme (phrase du texte) : Selon un imminent spécialiste de la sécurité, la porte était trop vieille. | — | ["Selon un éminent spécialiste de la sécurité, la porte était trop vieille"] | false | A distinguished person is éminent; imminent is for an event about to happen.
+- c2-review-words-ex009 | error-correction | Corrigez le faux ami, dans une lettre (phrase du texte) : Cet événement est définitivement le plus grave depuis la création de l'association. | — | ["Cet événement est sans aucun doute le plus grave depuis la création de l'association","Cet événement est certainement le plus grave depuis la création de l'association"] | false | Définitivement means for good. For 'definitely', write sans aucun doute or certainement.
+- c2-review-words-ex010 | error-correction | Corrigez le faux ami (phrase du texte) : Notre local doit rester un lieu versatile et sûr. | — | ["Notre local doit rester un lieu polyvalent et sûr"] | true | Versatile means fickle. A place used for many things is polyvalent.
+- c2-review-words-ex011 | error-correction | Corrigez le faux ami (phrase du texte) : Plusieurs familles ont supporté l'idée de remplacer les portes. | — | ["Plusieurs familles ont soutenu l'idée de remplacer les portes"] | false | Supporter means to put up with. To back an idea is soutenir.
+- c2-review-words-ex012 | error-correction | Corrigez le barbarisme (phrase du texte) : La nettoyation du local commencera dès la fin des travaux. | — | ["Le nettoyage du local commencera dès la fin des travaux"] | true | La nettoyation doesn't exist: the noun is le nettoyage, which is masculine.
+- c2-review-words-ex013 | reformulation | Reformulez avec le mot juste à la place du mot passe-partout « fait » (mener) : La police a fait une enquête. | — | ["La police a mené une enquête"] | true | Mener une enquête is the precise collocation; faire is a catch-all verb.
+- c2-review-words-ex014 | translate | Traduisez (le mot juste) : She always finds the right word. | — | ["Elle trouve toujours le mot juste"] | false | Le mot juste: the exact word.
+- c2-review-words-ex015 | translate | Traduisez (un barbarisme) : This word is a barbarism: it doesn't exist. | — | ["Ce mot est un barbarisme : il n'existe pas"] | false | Un barbarisme is a form that doesn't exist in the language.
+- c2-review-words-ex016 | reorder | Remettez dans l'ordre : An impropriety is a word used in the wrong sense. | — | ["Une impropriété est un mot employé dans un mauvais sens"] | false | Une impropriété: a real word used with a meaning it doesn't have.
+- c2-review-words-ex017 | writing-task | Rédigez un paragraphe de 80 à 120 mots pour une lettre formelle à un service public (une demande, une réclamation ou une proposition). Relisez-le ensuite avec la liste et remplacez chaque mot imprécis par le mot juste. | — | — | false | —

@@ -1,0 +1,1551 @@
+===== content/lessons/c2/paronyms.mdx =====
+---
+id: "c2-paronyms"
+title: "Paronyms"
+description: "Tell apart words that look or sound alike: éminent / imminent, conjecture / conjoncture, perpétrer / perpétuer, infecter / infester, prodige / prodigue, effraction / infraction, collision / collusion, recouvrer / recouvrir, acception / acceptation."
+level: "C2"
+unit: "Words with precision"
+order: 8
+type: "vocabulary"
+tags: ["vocabulary", "paronyms", "precision", "written French"]
+prerequisites: ["b2-false-friends", "b2-economy-and-business", "c1-precise-verbs"]
+related: ["c2-review-form", "c2-polysemy"]
+vocab:
+  - { id: "c2-paronyms-v001", group: "terms", fr: "un paronyme", pron: "uhn pah-roh-NEEM", en: "a paronym (a word that looks or sounds like another)" }
+  - { id: "c2-paronyms-v002", group: "terms", fr: "confondre", pron: "kohn-FOHN-druh", en: "to confuse, to mix up" }
+  - { id: "c2-paronyms-v003", group: "people", fr: "éminent / éminente", pron: "ay-mee-NAHN / ay-mee-NAHNT", en: "eminent, distinguished" }
+  - { id: "c2-paronyms-v004", group: "people", fr: "imminent / imminente", pron: "ee-mee-NAHN / ee-mee-NAHNT", en: "imminent, about to happen" }
+  - { id: "c2-paronyms-v005", group: "people", fr: "un prodige", pron: "uhn proh-DEEZH", en: "a prodigy; a marvel" }
+  - { id: "c2-paronyms-v006", group: "people", fr: "prodigue", pron: "proh-DEEG", en: "extravagant, lavish (with money, with words)", note: "Être prodigue de promesses: to be lavish with promises." }
+  - { id: "c2-paronyms-v007", group: "events", fr: "une conjecture", pron: "ewn kohn-zhek-TEWR", en: "a conjecture, a guess" }
+  - { id: "c2-paronyms-v008", group: "events", fr: "perpétrer (un crime)", pron: "pehr-pay-TRAY", en: "to commit (a crime)" }
+  - { id: "c2-paronyms-v009", group: "events", fr: "perpétuer (une tradition)", pron: "pehr-pay-TWAY", en: "to perpetuate, to keep (a tradition) alive" }
+  - { id: "c2-paronyms-v010", group: "events", fr: "une collision", pron: "ewn koh-lee-ZYOHN", en: "a collision, a crash" }
+  - { id: "c2-paronyms-v011", group: "events", fr: "un choc", pron: "uhn SHOK", en: "a crash, an impact; a shock" }
+  - { id: "c2-paronyms-v012", group: "events", fr: "une collusion", pron: "ewn koh-lew-ZYOHN", en: "collusion, a secret agreement" }
+  - { id: "c2-paronyms-v013", group: "law", fr: "une effraction", pron: "ew-neh-frak-SYOHN", en: "a break-in, forced entry", note: "Entrer par effraction: to break in." }
+  - { id: "c2-paronyms-v014", group: "law", fr: "une infraction", pron: "ew-nan-frak-SYOHN", en: "an offence, a breach (of a rule)", note: "Une infraction au code de la route." }
+  - { id: "c2-paronyms-v015", group: "law", fr: "le code de la route", pron: "luh kod duh lah ROOT", en: "the highway code, traffic law" }
+  - { id: "c2-paronyms-v016", group: "law", fr: "une arrestation", pron: "ew-nah-res-tah-SYOHN", en: "an arrest" }
+  - { id: "c2-paronyms-v017", group: "law", fr: "un cambrioleur / une cambrioleuse", pron: "uhn kahn-bree-oh-LUHR / ewn kahn-bree-oh-LUHZ", en: "a burglar" }
+  - { id: "c2-paronyms-v018", group: "verbs", fr: "infecter", pron: "an-fek-TAY", en: "to infect" }
+  - { id: "c2-paronyms-v019", group: "verbs", fr: "infester", pron: "an-fes-TAY", en: "to infest (pests, bandits)", note: "Infesté de rats: infested with rats." }
+  - { id: "c2-paronyms-v020", group: "verbs", fr: "recouvrer (la santé, la liberté)", pron: "ruh-koo-VRAY", en: "to recover, to regain" }
+  - { id: "c2-paronyms-v021", group: "verbs", fr: "recouvrir", pron: "ruh-koo-VREER", en: "to cover (completely); to cover again", note: "Like couvrir: recouvert." }
+  - { id: "c2-paronyms-v022", group: "verbs", fr: "une acception", pron: "ew-nak-sep-SYOHN", en: "a sense, a meaning (of a word)" }
+  - { id: "c2-paronyms-v023", group: "verbs", fr: "une acceptation", pron: "ew-nak-sep-tah-SYOHN", en: "an acceptance" }
+  - { id: "c2-paronyms-v024", group: "verbs", fr: "un rat", pron: "uhn RAH", en: "a rat" }
+exercises:
+  - id: "c2-paronyms-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot qui convient : Un ___ professeur de médecine a ouvert la conférence."
+    options: ["éminent", "imminent"]
+    answers: ["éminent"]
+    explanation: "Éminent describes a distinguished person. Imminent describes an event about to happen."
+  - id: "c2-paronyms-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot qui convient : Le départ du train est ___ : montez vite."
+    options: ["imminent", "éminent"]
+    answers: ["imminent"]
+    explanation: "A departure that is about to happen is imminent."
+  - id: "c2-paronyms-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot qui convient : Les cambrioleurs sont entrés par ___ dans l'appartement."
+    options: ["effraction", "infraction"]
+    answers: ["effraction"]
+    explanation: "Entrer par effraction means to break in, by forcing a door or a window."
+  - id: "c2-paronyms-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot qui convient : Passer au feu rouge est une ___ au code de la route."
+    options: ["infraction", "effraction"]
+    answers: ["infraction"]
+    explanation: "Une infraction is a breach of a rule or a law."
+  - id: "c2-paronyms-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot qui convient : Après trois mois à l'hôpital, il a enfin ___ la santé."
+    options: ["recouvré", "recouvert"]
+    answers: ["recouvré"]
+    explanation: "Recouvrer la santé is to recover your health. Recouvert is the participle of recouvrir, to cover."
+  - id: "c2-paronyms-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot qui convient : Dans sa première ___, le mot « pièce » veut dire une partie d'une maison."
+    options: ["acception", "acceptation"]
+    answers: ["acception"]
+    explanation: "Une acception is one of the senses of a word. Une acceptation is the act of accepting."
+  - id: "c2-paronyms-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec « perpétrer » ou « perpétuer », au participe passé : Le village a ___ une vieille tradition."
+    answers: ["perpétué"]
+    explanation: "You keep a tradition alive: perpétuer. Perpétrer is for a crime."
+    strictAccents: true
+  - id: "c2-paronyms-ex008"
+    type: "fill-in"
+    prompt: "Complétez avec « infecter » ou « infester », au participe passé : La cave est ___ de rats."
+    answers: ["infestée"]
+    explanation: "Pests infest a place: infestée de rats. Infecter is for a germ or a wound."
+  - id: "c2-paronyms-ex009"
+    type: "fill-in"
+    prompt: "Complétez avec « conjecture » ou « conjoncture » : Dans la ___ actuelle, l'entreprise n'embauche personne."
+    answers: ["conjoncture"]
+    explanation: "La conjoncture is the economic situation at a given time. Une conjecture is a guess."
+  - id: "c2-paronyms-ex010"
+    type: "error-correction"
+    prompt: "Corrigez le paronyme : Les deux voitures sont entrées en collusion au carrefour."
+    answers: ["Les deux voitures sont entrées en collision au carrefour"]
+    explanation: "Cars that crash are in collision. Une collusion is a secret agreement between people."
+  - id: "c2-paronyms-ex011"
+    type: "error-correction"
+    prompt: "Corrigez le paronyme : Le crime a été perpétué la nuit dernière."
+    answers: ["Le crime a été perpétré la nuit dernière"]
+    explanation: "A crime is committed: perpétré. Perpétuer means to keep something alive."
+    strictAccents: true
+  - id: "c2-paronyms-ex012"
+    type: "error-correction"
+    prompt: "Corrigez le paronyme : Son acception du poste a surpris tout le monde."
+    answers: ["Son acceptation du poste a surpris tout le monde"]
+    explanation: "Accepting a job is une acceptation. Une acception is the sense of a word."
+    strictAccents: true
+  - id: "c2-paronyms-ex013"
+    type: "reformulation"
+    prompt: "Reformulez avec « ne… que » et le nom « une conjecture » : Son explication est seulement une idée sans preuve."
+    answers: ["Son explication n'est qu'une conjecture"]
+    explanation: "Une conjecture is a guess, an idea that isn't proved; ne… que gives 'only'."
+  - id: "c2-paronyms-ex014"
+    type: "reformulation"
+    prompt: "Reformulez avec l'adjectif « prodigue » : C'est un homme qui dépense sans compter."
+    answers: ["C'est un homme prodigue"]
+    explanation: "Prodigue describes someone who spends lavishly. Un prodige is a gifted person."
+  - id: "c2-paronyms-ex015"
+    type: "translate"
+    prompt: "Traduisez (recouvrer) : She regained her freedom after ten years."
+    answers: ["Elle a recouvré la liberté après dix ans", "Elle a recouvré sa liberté après dix ans"]
+    explanation: "Recouvrer la liberté: to regain your freedom."
+    strictAccents: true
+  - id: "c2-paronyms-ex016"
+    type: "translate"
+    prompt: "Traduisez (un prodige) : This child is a prodigy."
+    answers: ["Cet enfant est un prodige"]
+    explanation: "Un prodige is a gifted person, a prodigy."
+  - id: "c2-paronyms-ex017"
+    type: "translate"
+    prompt: "Traduisez (infecter) : The wound is infected."
+    answers: ["La blessure est infectée"]
+    explanation: "A germ infects a wound: la blessure est infectée."
+  - id: "c2-paronyms-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The burglars broke in through the window."
+    words: ["Les", "cambrioleurs", "sont", "entrés", "par", "effraction", "par", "la", "fenêtre"]
+    answers: ["Les cambrioleurs sont entrés par effraction par la fenêtre"]
+    explanation: "Entrer par effraction: to break in."
+---
+
+By the end of this lesson you'll be able to tell apart nine pairs of French words that look or sound alike, and to choose the right one in a formal text.
+
+## What you already know
+
+In <LessonLink id="b2-false-friends" text="the lesson on false friends" />, you learned French words that look like English words but mean something else. In <LessonLink id="c1-precise-verbs" text="the lesson on precise verbs" />, you replaced general verbs with exact ones. You also know *la conjoncture* (the economic situation) from <LessonLink id="b2-economy-and-business" text="the lesson on the economy and business" />. This lesson deals with a different trap: two French words that look alike and are confused by French writers too.
+
+## What a paronym is
+
+<VocabTable group="terms" />
+
+The term *un paronyme* (a paronym) is a word that looks or sounds almost like another, with a different meaning. Paronyms aren't a problem of translation but of precision: a native writer can *confondre* (confuse) *éminent* and *imminent* in a hurry, and a reader notices at once. The only reliable method is to attach each word to the things it usually goes with.
+
+<Example fr="Même de bons journalistes confondent parfois éminent et imminent." en="Even good journalists sometimes confuse éminent and imminent." />
+
+For each pair below, learn the two words together, each with one typical partner.
+
+## Éminent or imminent? Prodige or prodigue?
+
+<VocabTable group="people" />
+
+The word *éminent* describes a person who stands out: *un éminent chercheur*, *une éminente juriste*. *Imminent* describes an event that is about to happen: *un départ imminent*, *une décision imminente*.
+
+<Example fr="Une éminente spécialiste du climat présentera ses travaux demain." en="An eminent climate specialist will present her work tomorrow." />
+
+<Example fr="Selon le directeur, une décision est imminente." en="According to the director, a decision is imminent." />
+
+The term *un prodige* is a person with an exceptional gift, often a child, or something extraordinary: *un enfant prodige*. *Prodigue* is an adjective: someone who spends without counting, or who gives generously. *Être prodigue de promesses* is to make promises freely, often too freely.
+
+<Example fr="À huit ans, cette musicienne était déjà un prodige." en="At eight, this musician was already a prodigy." />
+
+<Example fr="Le candidat a été prodigue de promesses pendant toute la campagne." en="The candidate was lavish with promises throughout the campaign." />
+
+## Conjecture, perpétrer and collusion
+
+<VocabTable group="events" />
+
+The term *une conjecture* is a guess, an idea that isn't proved: *ce ne sont que des conjectures*. *La conjoncture*, which you know, is the situation at a given moment, especially the economic one: *la conjoncture est difficile*.
+
+<Example fr="Sans preuves, la police en est réduite aux conjectures." en="Without evidence, the police can only guess." />
+
+The word *perpétrer* is used almost only with a crime or an attack: *perpétrer un vol*, *un attentat perpétré la nuit dernière*. *Perpétuer* means to keep something alive over time: *perpétuer une tradition*, *perpétuer un souvenir*.
+
+<Example fr="La famille perpétue la même tradition depuis quatre générations." en="The family has kept up the same tradition for four generations." />
+
+The term *une collision* is a physical crash, between vehicles or objects. *Une collusion* is a secret agreement between people who should be independent, for example a company and the person who controls it.
+
+<Example fr="La collision entre le bus et la voiture n'a fait aucun blessé." en="The collision between the bus and the car caused no injuries." />
+
+<Example fr="L'enquête doit dire s'il y a eu collusion entre l'entreprise et un élu." en="The investigation must say whether there was collusion between the company and an elected official." />
+
+## Effraction or infraction?
+
+<VocabTable group="law" />
+
+The term *une effraction* is a break-in: the act of forcing a door, a lock or a window. It appears above all in *entrer par effraction* (to break in). *Une infraction* is any breach of a law or a rule, from a parking offence to a serious crime: *une infraction au code de la route* (a traffic offence).
+
+<Example fr="Le cambrioleur est entré par effraction pendant la nuit." en="The burglar broke in during the night." />
+
+<Example fr="Rouler trop vite en ville est une infraction." en="Driving too fast in town is an offence." />
+
+A burglary can involve both words: *le cambrioleur a commis une infraction en entrant par effraction* (the burglar committed an offence by breaking in).
+
+## Infecter, recouvrer and acception
+
+<VocabTable group="verbs" />
+
+The word *infecter* is what a germ does to a wound or a body, or a virus to a computer. *Infester* is what pests or bandits do to a place: *une cave infestée de rats*.
+
+<Example fr="Le virus a infecté tous les ordinateurs du service." en="The virus infected all the computers in the department." />
+
+The word *recouvrer* means to get back something you had lost: *recouvrer la santé*, *recouvrer la liberté*, *recouvrer la vue*, and, in finance, *recouvrer une somme* (to recover a sum). *Recouvrir* means to cover entirely, and it's conjugated like *couvrir*: *la neige a recouvert la route*. The two are easy to confuse in the passé composé, because *il a recouvré* and *il a recouvert* look close.
+
+<Example fr="Après des mois à l'hôpital, elle a recouvré toutes ses forces." en="After months in hospital, she got all her strength back." />
+
+The term *une acception* is one of the senses of a word, as in a dictionary: *dans son acception juridique*. *Une acceptation* is the act of accepting: *l'acceptation d'une offre*.
+
+<Example fr="Dans cette acception, le mot « note » veut dire une facture." en="In this sense, the word 'note' means a bill." />
+
+## The model: an article with five paronyms wrong
+
+The article below is original, about an invented town. It uses ten paronyms. Five are correct, and five are wrong, as a hurried writer might get them. Find the five before you read the corrections.
+
+*Dans la nuit de samedi, des cambrioleurs sont entrés par infraction dans la mairie de Valbrune. Selon un éminent spécialiste de la sécurité, le vol a été perpétué en moins de dix minutes. La police écarte pour l'instant toute collusion entre les cambrioleurs et le personnel, mais une arrestation semble éminente.*
+
+*Dans la conjecture actuelle, la mairie ne peut pas payer de nouvelles portes. Le maire, qui a recouvert son calme, a déclaré que la ville perpétuerait la tradition de la fête de mai et que les caves de la mairie, infestées de rats, seraient enfin nettoyées. L'opposition, elle, reproche au maire d'être prodigue de promesses.*
+
+(Corrected version, in translation: On Saturday night, burglars broke into the town hall of Valbrune. According to an eminent security specialist, the theft was committed in under ten minutes. For now, the police rule out any collusion between the burglars and the staff, but an arrest seems imminent. In the current economic situation, the town hall can't pay for new doors. The mayor, who has regained his composure, said that the town would keep up the tradition of the May festival and that the town hall cellars, infested with rats, would finally be cleaned. The opposition, for its part, accuses the mayor of being lavish with promises.)
+
+## The five corrections
+
+- In the first sentence, *par infraction* should be **par effraction**: the burglars forced their way in.
+- In the second, *le vol a été perpétué* should be **perpétré**: a theft is committed, not kept alive.
+- At the end of the first paragraph, *une arrestation semble éminente* should be **imminente**: the arrest is about to happen.
+- At the start of the second paragraph, *dans la conjecture actuelle* should be **conjoncture**: the economic situation, not a guess.
+- In the next sentence, *qui a recouvert son calme* should be **recouvré**: the mayor got his calm back.
+
+The five correct uses are *un éminent spécialiste*, *toute collusion*, *perpétuerait la tradition*, *infestées de rats* and *prodigue de promesses*.
+
+## En français
+
+Lina, a trainee lawyer, asks Bastien, her supervisor, to check a report. They use *tu*.
+
+- *Bastien, j'ai écrit « une infraction au code de la route ». C'est le bon mot ?* (Bastien, I wrote "une infraction au code de la route". Is that the right word?)
+- *Oui. Une infraction, c'est le fait de ne pas respecter une règle.* (Yes. An infraction is not respecting a rule.)
+- *Et pour le client qui a forcé la porte de son voisin ?* (And for the client who forced his neighbour's door?)
+- *Là, c'est une effraction. Il est entré par effraction.* (That's a break-in. He broke in.)
+- *Le voisin demande à recouvrer la somme qu'il a payée pour la porte.* (The neighbour is asking to recover the sum he paid for the door.)
+- *Oui, recouvrer, en -er. Pas recouvrir, en -ir, qui veut dire couvrir.* (Yes, recouvrer, ending in -er. Not recouvrir, ending in -ir, which means to cover.)
+- *J'ai aussi une phrase sur l'acception du mot « voisin » dans la loi.* (I also have a sentence on the sense of the word "voisin" in the law.)
+- *C'est juste : une acception, c'est un sens. Une acceptation, c'est le fait d'accepter.* (That's right: an acception is a sense. An acceptance is the act of accepting.)
+- *Et l'autre avocat parle d'une collision entre les deux voisins.* (And the other lawyer talks about a collision between the two neighbours.)
+- *Il veut sans doute dire une collusion, un accord secret. Une collision, c'est un choc.* (He probably means a collusion, a secret agreement. A collision is a crash.)
+- *Dernière chose : une décision est éminente, ou imminente ?* (Last thing: is a decision éminente, or imminente?)
+- *Imminente. Éminent, c'est pour une personne remarquable.* (Imminente. Éminent is for a remarkable person.)
+
+<Callout type="warning" title="Perpétrer un crime, not perpétuer un crime">
+  Writers who know *perpétuel* often write *le crime a été perpétué*. That means the crime was kept alive over time. For a crime or an attack, the verb is *perpétrer*: **le crime a été perpétré la nuit dernière**, **un vol perpétré en plein jour**. Keep *perpétuer* for what lasts: **perpétuer une tradition**.
+</Callout>
+
+<Callout type="tip" title="Find the word inside the word">
+  Many paronyms carry a shorter word you already know. *Recouvrir* contains *couvrir*, *acceptation* contains *accepter*, *perpétuer* goes with *perpétuel*, and *collision* goes with the idea of a shock. Before you write the longer word, say the short one in your head: if it fits the meaning, you have the right member of the pair.
+</Callout>
+
+## En résumé
+
+Un paronyme est un mot qui ressemble à un autre mot, mais qui a un autre sens. Éminent décrit une personne remarquable, alors qu'imminent décrit un événement qui va arriver très bientôt. Un prodige est une personne qui a un don très rare, et prodigue décrit quelqu'un qui dépense ou qui donne sans compter. Une conjecture est une idée qui n'est pas prouvée, alors que la conjoncture est la situation, surtout économique, à un moment donné. On perpètre un crime, mais on perpétue une tradition. Une collision est un choc entre deux voitures, alors qu'une collusion est un accord secret. Une effraction est le fait de forcer une porte ou une fenêtre, et une infraction est le fait de ne pas respecter une loi ou une règle. Un virus infecte un ordinateur, mais des rats infestent une cave. Quand on a recouvré la santé ou la liberté, on l'a retrouvée, alors que la neige a recouvert la route. Enfin, une acception est un sens d'un mot, et une acceptation est le fait d'accepter.
+
+## What's next
+
+Next, <LessonLink id="c2-polysemy" text="the lesson on polysemy" /> looks at the opposite problem: one word with several meanings.
+
+===== content/lessons/c2/polysemy.mdx =====
+---
+id: "c2-polysemy"
+title: "One word, several meanings"
+description: "Recognize and use the main senses of common polysemous words (pièce, note, coup, matière, valeur, titre, relever, soutenir, se tenir), tell the literal sense from the figurative one, and let the context choose."
+level: "C2"
+unit: "Words with precision"
+order: 9
+type: "vocabulary"
+tags: ["vocabulary", "polysemy", "precision", "set phrases"]
+prerequisites: ["c1-abstract-nouns", "c1-collocations", "c2-paronyms"]
+related: ["b2-false-friends", "c1-tricky-prepositions", "c2-word-formation"]
+vocab:
+  - { id: "c2-polysemy-v001", group: "terms", fr: "la polysémie", pron: "lah poh-lee-zay-MEE", en: "polysemy (having several meanings)" }
+  - { id: "c2-polysemy-v002", group: "terms", fr: "un mot polysémique", pron: "uhn moh poh-lee-zay-MEEK", en: "a word with several meanings" }
+  - { id: "c2-polysemy-v003", group: "terms", fr: "le sens propre / le sens figuré", pron: "luh sahns PROH-pruh / luh sahns fee-gew-RAY", en: "the literal sense / the figurative sense" }
+  - { id: "c2-polysemy-v004", group: "piece", fr: "une pièce justificative", pron: "ewn pyes zhews-tee-fee-kah-TEEV", en: "a supporting document (a proof, in a file)" }
+  - { id: "c2-polysemy-v005", group: "piece", fr: "une pièce détachée", pron: "ewn pyes day-tah-SHAY", en: "a spare part" }
+  - { id: "c2-polysemy-v006", group: "piece", fr: "payer la note", pron: "peh-YAY lah NOTT", en: "to pay the bill (at a hotel, a restaurant)" }
+  - { id: "c2-polysemy-v007", group: "piece", fr: "une note de musique", pron: "ewn nott duh mew-ZEEK", en: "a musical note" }
+  - { id: "c2-polysemy-v008", group: "coup", fr: "un coup d'œil", pron: "uhn koo DUH-y", en: "a glance", note: "Jeter un coup d'œil à: to have a quick look at." }
+  - { id: "c2-polysemy-v009", group: "coup", fr: "du premier coup", pron: "dew pruh-myay KOO", en: "at the first attempt, first time" }
+  - { id: "c2-polysemy-v010", group: "coup", fr: "un coup de main", pron: "uhn koo duh MAN", en: "a hand, some help (informal)" }
+  - { id: "c2-polysemy-v011", group: "matiere", fr: "la matière", pron: "lah mah-TYEHR", en: "a school subject; matter, material" }
+  - { id: "c2-polysemy-v012", group: "matiere", fr: "en matière de", pron: "ahn mah-TYEHR duh", en: "as regards, in matters of (formal)" }
+  - { id: "c2-polysemy-v013", group: "matiere", fr: "la valeur", pron: "lah vah-LUHR", en: "the value, the worth" }
+  - { id: "c2-polysemy-v014", group: "matiere", fr: "les valeurs (f.)", pron: "lay vah-LUHR", en: "values, principles" }
+  - { id: "c2-polysemy-v015", group: "matiere", fr: "mettre en valeur", pron: "MET-ruh ahn vah-LUHR", en: "to show off, to highlight" }
+  - { id: "c2-polysemy-v016", group: "titre", fr: "à juste titre", pron: "ah zhewst TEE-truh", en: "rightly, with good reason" }
+  - { id: "c2-polysemy-v017", group: "titre", fr: "un titre de transport", pron: "uhn tee-truh duh trahns-POR", en: "a ticket (formal: any travel document)" }
+  - { id: "c2-polysemy-v018", group: "verbs", fr: "relever une erreur", pron: "ruh-luh-VAY ew-neh-RUHR", en: "to point out a mistake, to note it" }
+  - { id: "c2-polysemy-v019", group: "verbs", fr: "relever de", pron: "ruh-luh-VAY duh", en: "to fall under, to be a matter for", note: "Cette question relève du ministère." }
+  - { id: "c2-polysemy-v020", group: "verbs", fr: "soutenir (un projet, une personne)", pron: "soo-tuh-NEER", en: "to support, to back", note: "Not supporter, which means to put up with." }
+  - { id: "c2-polysemy-v021", group: "verbs", fr: "soutenir une thèse", pron: "soo-tuh-NEER ewn TEZ", en: "to defend a thesis (at a university)" }
+  - { id: "c2-polysemy-v022", group: "verbs", fr: "se tenir (une réunion)", pron: "suh tuh-NEER", en: "to be held, to take place (formal)", note: "Futur: se tiendra." }
+exercises:
+  - id: "c2-polysemy-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « pièce » dans la phrase : Joignez une pièce justificative à votre dossier."
+    options: ["a supporting document", "a room", "a coin"]
+    answers: ["a supporting document"]
+    explanation: "With justificative, une pièce is a document that proves what you say, such as a bill or a certificate."
+  - id: "c2-polysemy-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « note » dans la phrase : À la fin du repas, le serveur nous a apporté la note."
+    options: ["the bill", "the mark", "the musical note"]
+    answers: ["the bill"]
+    explanation: "In a restaurant or a hotel, la note is the bill."
+  - id: "c2-polysemy-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « relevé » dans la phrase : La correctrice a relevé trois erreurs dans le texte."
+    options: ["noticed and pointed out", "lifted up again", "took on as a challenge"]
+    answers: ["noticed and pointed out"]
+    explanation: "Relever une erreur is to notice it and point it out."
+  - id: "c2-polysemy-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « en matière de » dans la phrase : En matière de santé, les règles ont changé."
+    options: ["as regards", "in the material of", "in the school subject of"]
+    answers: ["as regards"]
+    explanation: "En matière de is a formal way to say 'as regards'."
+  - id: "c2-polysemy-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase où « valeur » a le sens de « principe »."
+    options: ["Ce sont des valeurs que je partage.", "La valeur de cette maison a doublé.", "Ce tableau a peu de valeur."]
+    answers: ["Ce sont des valeurs que je partage."]
+    explanation: "In the plural, les valeurs are often principles you believe in. In the other two sentences, la valeur is what something is worth."
+  - id: "c2-polysemy-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec le mot qui convient : Tu peux jeter un ___ d'œil à mon texte ?"
+    answers: ["coup"]
+    explanation: "Jeter un coup d'œil à: to have a quick look at."
+  - id: "c2-polysemy-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec le mot qui convient : Elle a critiqué ce projet, et à juste ___."
+    answers: ["titre"]
+    explanation: "À juste titre: rightly, with good reason."
+  - id: "c2-polysemy-ex008"
+    type: "fill-in"
+    prompt: "Conjuguez « relever » au présent : Cette question ___ du ministère de la Santé."
+    answers: ["relève"]
+    explanation: "Relever de: to fall under. Like lever, the verb takes a grave accent: il relève."
+  - id: "c2-polysemy-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « du premier coup » : Il a eu son permis la première fois qu'il l'a passé."
+    answers: ["Il a eu son permis du premier coup"]
+    explanation: "Du premier coup: at the first attempt."
+    strictAccents: true
+  - id: "c2-polysemy-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « mettre en valeur », au présent : Cette lumière montre bien les couleurs du tableau."
+    answers: ["Cette lumière met en valeur les couleurs du tableau", "Cette lumière met bien en valeur les couleurs du tableau"]
+    explanation: "Mettre en valeur: to show something at its best."
+  - id: "c2-polysemy-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « se tenir », au futur proche : La réunion va avoir lieu à Lyon."
+    answers: ["La réunion va se tenir à Lyon"]
+    explanation: "Se tenir is the formal verb for a meeting or a conference that takes place."
+    strictAccents: true
+  - id: "c2-polysemy-ex012"
+    type: "translate"
+    prompt: "Traduisez (tu, un coup de main) : Can you give me a hand?"
+    answers: ["Tu peux me donner un coup de main ?", "Peux-tu me donner un coup de main ?", "Est-ce que tu peux me donner un coup de main ?"]
+    explanation: "Donner un coup de main: to help, informally."
+  - id: "c2-polysemy-ex013"
+    type: "translate"
+    prompt: "Traduisez (soutenir une thèse) : She defended her thesis in June."
+    answers: ["Elle a soutenu sa thèse en juin"]
+    explanation: "Soutenir une thèse: to defend a thesis in front of a jury."
+    strictAccents: true
+  - id: "c2-polysemy-ex014"
+    type: "translate"
+    prompt: "Traduisez (un titre de transport) : Every traveller must have a ticket."
+    answers: ["Chaque voyageur doit avoir un titre de transport", "Tous les voyageurs doivent avoir un titre de transport"]
+    explanation: "Un titre de transport is the formal word for any ticket or pass."
+  - id: "c2-polysemy-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'expression (le sens : un document qui prouve) : Joignez une pièce détachée à votre demande."
+    answers: ["Joignez une pièce justificative à votre demande"]
+    explanation: "Une pièce détachée is a spare part. A document that proves something is une pièce justificative."
+    strictAccents: true
+  - id: "c2-polysemy-ex016"
+    type: "error-correction"
+    prompt: "Corrigez l'expression (le sens : regarder rapidement) : J'ai jeté un coup de main au rapport."
+    answers: ["J'ai jeté un coup d'œil au rapport"]
+    explanation: "Jeter un coup d'œil: to have a quick look. Un coup de main is help."
+  - id: "c2-polysemy-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : As regards health, the rules have changed."
+    words: ["En", "matière", "de", "santé", "les", "règles", "ont", "changé"]
+    answers: ["En matière de santé, les règles ont changé"]
+    explanation: "En matière de + noun opens the sentence: as regards."
+---
+
+By the end of this lesson you'll be able to recognize the main senses of nine common words with several meanings, and to let the context tell you which one is meant.
+
+## What you already know
+
+You've met several words with more than one sense already. You know *une pièce* as a room, from <LessonLink id="a2-home-and-chores" text="the lesson on the home" />, as a coin, from <LessonLink id="b1-ne-que-ni-ni" text="the lesson on ne… que and ni… ni" />, and as a play (*la pièce de théâtre*), from <LessonLink id="c1-dislocation-and-fronting" text="the lesson on dislocation" />. You know *une note* as a mark, from <LessonLink id="a2-culture-french-school-system" text="the lesson on the school system" />. You know *le cadre* and *la portée* from <LessonLink id="c1-abstract-nouns" text="the lesson on abstract nouns" />, and *relever un défi* and *tenir compte de* from <LessonLink id="c1-collocations" text="the lesson on collocations" />. This lesson adds the senses a C2 reader meets in formal French.
+
+## What polysemy is
+
+<VocabTable group="terms" />
+
+The term *la polysémie* (polysemy) is the fact that one word has several related senses. *Un mot polysémique* (a polysemous word) isn't two words that happen to look alike, like the paronyms of <LessonLink id="c2-paronyms" text="the last lesson" />. It's one word whose meaning has spread: from a part of a house to a part of a machine, from a mark on paper to a bill.
+
+Each sense is an *acception*, as you saw in the last lesson. Dictionaries usually start with *le sens propre* (the literal sense) and then give *le sens figuré* (the figurative sense): *un coup* is first a blow, and then a quick action (*un coup d'œil*), an attempt (*du premier coup*) or some help (*un coup de main*).
+
+<Example fr="Au sens propre, un coup fait mal ; au sens figuré, un coup de main fait du bien." en="In the literal sense, a blow hurts; in the figurative sense, a hand (some help) does you good." />
+
+## Let the context choose
+
+A polysemous word rarely leaves you in doubt, because its partners choose the sense. Three clues do most of the work.
+
+- **The words around it.** The phrase *payer la note* is a bill; *une bonne note* is a mark; *une note de musique* is a sound.
+- **The construction.** The verb in *relever une erreur* (with a direct object) means to point it out; *relever de* (with *de*) means to fall under.
+- **The situation.** In a form, *une pièce* is a document; in a flat, it's a room; in a garage, it's a part.
+
+When you read, check the partner before you choose the sense. When a sentence still allows two senses, rewrite it. *La note est trop élevée* could be about a mark or a bill; *la note de l'hôtel est trop élevée* leaves no doubt.
+
+<Example fr="La note de l'hôtel est plus élevée que prévu." en="The hotel bill is higher than expected." />
+
+When you write, give the reader a partner that makes the sense clear.
+
+## Pièce and note
+
+<VocabTable group="piece" />
+
+In administrative French, *une pièce* is a document, and *une pièce justificative* is one that proves what you say: a bill, a certificate, a payslip. In a garage or a workshop, *une pièce détachée* is a spare part.
+
+<Example fr="Votre demande n'est pas complète : il manque une pièce justificative." en="Your application is incomplete: a supporting document is missing." />
+
+<Example fr="Le garage attend une pièce détachée pour réparer la voiture." en="The garage is waiting for a spare part to repair the car." />
+
+At a hotel or in a restaurant, *la note* is the bill. In music, *une note* is a sound. The bill is the sense learners miss most often, because English uses "note" for neither.
+
+<Example fr="Avant de partir, n'oubliez pas de payer la note." en="Before you leave, don't forget to pay the bill." />
+
+## Coup
+
+<VocabTable group="coup" />
+
+The term *un coup* starts as a blow, and most of its other senses keep the idea of something quick or sudden. *Jeter un coup d'œil* is to have a quick look; *réussir du premier coup* is to succeed at the first attempt; *donner un coup de main* is to give someone a hand. You already know *ça vaut le coup* (it's worth it), from B1.
+
+<Example fr="Elle a trouvé la solution du premier coup." en="She found the solution at the first attempt." />
+
+The phrase *un coup de main* is informal: in a formal letter, write *une aide*.
+
+## Matière and valeur
+
+<VocabTable group="matiere" />
+
+The term *la matière* is first what something is made of, and then a subject at school (*les mathématiques sont sa matière préférée*). *En matière de* introduces a field, in formal writing: *en matière de logement*, *en matière de santé*.
+
+The term *la valeur* is what something is worth (*la valeur d'une maison*). In the plural, *les valeurs* are also the principles a person or a group believes in. *Mettre en valeur* means to show something at its best.
+
+<Example fr="En matière de logement, la loi a beaucoup changé." en="As regards housing, the law has changed a lot. (formal)" />
+
+<Example fr="Cette entreprise met en valeur le travail de ses employés." en="This company showcases its employees' work." />
+
+## Titre
+
+<VocabTable group="titre" />
+
+You know *le titre* of a book or an article. *À juste titre* means "rightly, with good reason", and it usually follows the verb or closes the sentence. *Un titre de transport* is the formal word for a ticket or a pass, the one you see on signs in stations.
+
+<Example fr="Les habitants se plaignent, à juste titre, du bruit." en="The residents complain, rightly, about the noise." />
+
+## Relever, soutenir and se tenir
+
+<VocabTable group="verbs" />
+
+The word *relever* has many senses. With a direct object, *relever une erreur* is to notice it and point it out. With *de*, *relever de* means "to fall under, to be a matter for": *cette question relève du ministère*.
+
+The word *soutenir* means to support a person or a project. It's the verb English speakers need when they think of "to support": *supporter*, as you saw in <LessonLink id="b2-false-friends" text="the lesson on false friends" />, means to put up with. At a university, *soutenir une thèse* is to defend a thesis in front of a jury.
+
+The phrase *se tenir* is the formal verb for a meeting or an event that takes place: *la réunion va se tenir à Lyon*. The future works like *tenir*.
+
+<Example fr="Plusieurs associations ont soutenu le projet de nouvelle bibliothèque." en="Several associations have supported the plan for a new library." />
+
+<Example fr="La conférence va se tenir en mars, à la mairie." en="The conference is going to be held in March, at the town hall. (formal)" />
+
+## The whole list
+
+- The noun *une pièce*: a room, a coin, a play; *une pièce justificative* (a document), *une pièce détachée* (a spare part).
+- The noun *la note*: a mark; *payer la note* (the bill); *une note de musique*.
+- The noun *un coup*: a blow; *un coup d'œil*, *du premier coup*, *un coup de main* (informal).
+- The nouns *la matière* (a subject, a material); *en matière de* (formal). *La valeur*, *les valeurs*, *mettre en valeur*.
+- The phrases *à juste titre* (rightly); *un titre de transport* (a ticket, formal).
+- The verbs *relever une erreur* (to point out), *relever de* (to fall under); *soutenir* (to support), *soutenir une thèse*; *se tenir* (to take place, formal).
+
+## En français
+
+Sam, an exchange student, is filling in a form for his university. His flatmate Chloé helps him. They use *tu*.
+
+- *Chloé, la secrétaire veut une pièce de plus pour mon dossier. Je ne comprends pas : j'ai déjà une chambre !* (Chloé, the secretary wants one more pièce for my file. I don't understand: I already have a room!)
+- *Ici, une pièce, c'est un document : une pièce justificative, comme une facture.* (Here, a pièce is a document: a supporting document, like a bill.)
+- *Ah ! Elle a aussi relevé une erreur dans ma demande. Elle l'a corrigée ?* (Oh! She also relevé a mistake in my application. Did she correct it?)
+- *Non, relever une erreur, c'est la remarquer et la signaler. C'est à toi de la corriger.* (No, relever a mistake is to notice it and point it out. It's up to you to correct it.)
+- *D'accord. Elle m'a dit aussi que ma demande relevait du service des étudiants étrangers.* (OK. She also told me that my application relevait du international students' office.)
+- *Ça veut dire que c'est ce service qui doit s'en occuper.* (That means it's that office that has to deal with it.)
+- *Et hier, au restaurant, le serveur m'a apporté la note. J'ai pensé qu'il me donnait une note pour le repas !* (And yesterday, at the restaurant, the waiter brought me the note. I thought he was giving me a mark for the meal!)
+- *Presque : la note, c'est ce que tu dois payer.* (Almost: the note is what you have to pay.)
+- *Je comprends mieux. Tu peux me donner un coup de main pour le formulaire ?* (That's clearer. Can you give me a hand with the form?)
+- *Bien sûr. Je jette un coup d'œil à tes papiers ce soir.* (Of course. I'll have a quick look at your papers this evening.)
+- *Un coup d'œil, un coup de main… Personne ne va me frapper, j'espère ?* (A coup d'œil, a coup de main… Nobody's going to hit me, I hope?)
+- *Mais non ! Au sens figuré, un coup, c'est souvent quelque chose de rapide.* (Of course not! In the figurative sense, a coup is often something quick.)
+- *Avec la polysémie, je dois regarder chaque mot avec ses voisins.* (With polysemy, I have to look at each word with its neighbours.)
+- *Exactement, et en matière de vocabulaire, c'est la meilleure méthode.* (Exactly, and as regards vocabulary, it's the best method.)
+
+<Callout type="warning" title="Soutenir un projet, not supporter un projet">
+  English speakers often write *je supporte ce projet* for "I support this project". In French, *supporter* means to put up with, so the sentence sounds as if you're only tolerating it. Use *soutenir*: **je soutiens ce projet**, **plusieurs associations soutiennent la candidature**.
+</Callout>
+
+<Callout type="tip" title="Give each word a sense map">
+  For each polysemous word you meet, keep one page with the word in the middle and one branch per sense, each with a short sentence: *une pièce* → room, coin, play, document, part. When you meet a new sense, add a branch rather than a new page. After a few weeks, you see how the senses connect, and new ones are easier to guess.
+</Callout>
+
+## En résumé
+
+La polysémie est le fait qu'un seul mot a plusieurs sens. Un mot polysémique a souvent un sens propre et un ou plusieurs sens figurés. Le contexte choisit le sens : les mots qui l'entourent, la construction et la situation. Dans un dossier, une pièce justificative est un document qui prouve ce qu'on dit, et dans un garage, une pièce détachée est une partie d'une machine. Au restaurant, on paie la note, mais en musique, on joue une note de musique. Un coup d'œil est un regard rapide, du premier coup veut dire dès le premier essai, et un coup de main est une aide familière. En matière de santé veut dire quand il s'agit de santé. Les valeurs sont aussi des principes, et mettre en valeur veut dire montrer sous son meilleur jour. À juste titre veut dire avec raison. On relève une erreur, une question relève d'un service, on soutient un projet ou une thèse, et une réunion se tient quelque part.
+
+## What's next
+
+Next, <LessonLink id="c2-word-formation" text="the lesson on word formation" /> shows how French builds new words from prefixes, suffixes and roots.
+
+===== content/lessons/c2/word-formation.mdx =====
+---
+id: "c2-word-formation"
+title: "How words are built"
+description: "Understand and form French words with prefixes (dé-, in-, re-, pré-, sur-, sous-, contre-, anti-, auto-), suffixes (-age, -ment, -tion, -ité, -isme, -iste, -able, -iser, -ifier), learned roots (-logie, -cratie, -phobe, -cide), compounds and mots-valises, and read neologisms."
+level: "C2"
+unit: "Words with precision"
+order: 10
+type: "vocabulary"
+tags: ["vocabulary", "word formation", "prefixes", "suffixes", "neologisms"]
+prerequisites: ["b2-nominalisation", "c1-abstract-nouns", "c2-polysemy"]
+related: ["c2-agreement-colours-compounds-numbers", "c2-anglicisms-and-official-terms"]
+vocab:
+  - { id: "c2-word-formation-v001", group: "terms", fr: "un radical", pron: "uhn rah-dee-KAHL", en: "a stem, a root (the base of a word)" }
+  - { id: "c2-word-formation-v002", group: "terms", fr: "un préfixe / un suffixe", pron: "uhn pray-FEEKS / uhn sew-FEEKS", en: "a prefix / a suffix" }
+  - { id: "c2-word-formation-v003", group: "terms", fr: "la dérivation", pron: "lah day-ree-vah-SYOHN", en: "derivation (making a word with a prefix or a suffix)" }
+  - { id: "c2-word-formation-v004", group: "prefixes", fr: "refaire", pron: "ruh-FEHR", en: "to do again, to redo" }
+  - { id: "c2-word-formation-v005", group: "prefixes", fr: "surestimer / sous-estimer", pron: "sewr-es-tee-MAY / sooz-es-tee-MAY", en: "to overestimate / to underestimate" }
+  - { id: "c2-word-formation-v006", group: "prefixes", fr: "irréaliste", pron: "ee-ray-ah-LEEST", en: "unrealistic", note: "In- becomes ir- before r, il- before l, im- before b, m, p." }
+  - { id: "c2-word-formation-v007", group: "prefixes", fr: "illégal / illégale", pron: "ee-lay-GAHL", en: "illegal" }
+  - { id: "c2-word-formation-v008", group: "prefixes", fr: "désobéir", pron: "day-zoh-bay-EER", en: "to disobey" }
+  - { id: "c2-word-formation-v009", group: "suffixes", fr: "le nettoyage", pron: "luh neh-twah-YAHZH", en: "cleaning" }
+  - { id: "c2-word-formation-v010", group: "suffixes", fr: "la simplicité", pron: "lah san-plee-see-TAY", en: "simplicity" }
+  - { id: "c2-word-formation-v011", group: "suffixes", fr: "lisible / illisible", pron: "lee-ZEE-bluh / ee-lee-ZEE-bluh", en: "legible, readable / illegible" }
+  - { id: "c2-word-formation-v012", group: "suffixes", fr: "faisable", pron: "fuh-ZAH-bluh", en: "feasible, doable" }
+  - { id: "c2-word-formation-v013", group: "suffixes", fr: "lavable", pron: "lah-VAH-bluh", en: "washable" }
+  - { id: "c2-word-formation-v014", group: "suffixes", fr: "moderniser", pron: "moh-dehr-nee-ZAY", en: "to modernize" }
+  - { id: "c2-word-formation-v015", group: "suffixes", fr: "simplifier", pron: "san-plee-FYAY", en: "to simplify" }
+  - { id: "c2-word-formation-v016", group: "roots", fr: "une racine savante", pron: "ewn rah-SEEN sah-VAHNT", en: "a learned root (from Greek or Latin)" }
+  - { id: "c2-word-formation-v017", group: "roots", fr: "la sociologie", pron: "lah soh-syoh-loh-ZHEE", en: "sociology", note: "-logie: the study of." }
+  - { id: "c2-word-formation-v018", group: "roots", fr: "claustrophobe", pron: "kloh-stroh-FOB", en: "claustrophobic", note: "-phobe: who fears." }
+  - { id: "c2-word-formation-v019", group: "roots", fr: "un insecticide", pron: "uh-nan-sek-tee-SEED", en: "an insecticide", note: "-cide: that kills." }
+  - { id: "c2-word-formation-v020", group: "new", fr: "un néologisme", pron: "uhn nay-oh-loh-ZHEESM", en: "a neologism, a new word" }
+  - { id: "c2-word-formation-v021", group: "new", fr: "une notification", pron: "ewn noh-tee-fee-kah-SYOHN", en: "a notification (on a phone)" }
+  - { id: "c2-word-formation-v022", group: "new", fr: "un mot-valise", pron: "uhn moh-vah-LEEZ", en: "a blend (a word made of two others)", note: "Plural: des mots-valises." }
+  - { id: "c2-word-formation-v023", group: "new", fr: "le franglais", pron: "luh frahn-GLEH", en: "Franglais (French full of English words)", note: "Français + anglais." }
+  - { id: "c2-word-formation-v024", group: "new", fr: "la numérisation", pron: "lah new-may-ree-zah-SYOHN", en: "digitization" }
+exercises:
+  - id: "c2-word-formation-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens du mot « illisible » dans la phrase : Son écriture est illisible."
+    options: ["impossible to read", "easy to read", "read again"]
+    answers: ["impossible to read"]
+    explanation: "Il- (not) + lis- (the stem of lire) + -ible (that can be): that can't be read."
+  - id: "c2-word-formation-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens du préfixe dans le verbe « surestimer »."
+    options: ["too much, over", "under, not enough", "again, a second time"]
+    answers: ["too much, over"]
+    explanation: "Sur- means over or too much: surestimer is to overestimate. Sous- would mean under."
+  - id: "c2-word-formation-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « -cide » dans le mot « insecticide »."
+    options: ["that kills", "that loves", "that fears"]
+    answers: ["that kills"]
+    explanation: "-cide comes from a Latin root meaning 'to kill': un insecticide kills insects."
+  - id: "c2-word-formation-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot qui existe, avec le sens « contraire à la loi »."
+    options: ["illégal", "inlégal", "délégal"]
+    answers: ["illégal"]
+    explanation: "In- becomes il- before an l: illégal. The other two forms don't exist."
+  - id: "c2-word-formation-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez de quels mots vient le mot-valise « franglais »."
+    options: ["français + anglais", "France + Angleterre"]
+    answers: ["français + anglais"]
+    explanation: "A mot-valise joins the start of one word to the end of another: fran(çais) + (an)glais."
+  - id: "c2-word-formation-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec le nom formé sur « changer » : Le ___ d'horaire commence lundi."
+    answers: ["changement"]
+    explanation: "Changer gives le changement, with -ment. Not every verb takes the same suffix."
+  - id: "c2-word-formation-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec l'adjectif en -able formé sur « faire » : Ce projet est difficile, mais ___."
+    answers: ["faisable"]
+    explanation: "Faisable is built on the stem fais- (nous faisons): that can be done."
+  - id: "c2-word-formation-ex008"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe en -iser formé sur « moderne », au participe passé : La ville a ___ son réseau de bus."
+    answers: ["modernisé"]
+    explanation: "Moderne + -iser gives moderniser, to make modern."
+    strictAccents: true
+  - id: "c2-word-formation-ex009"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe formé sur « faire » et le préfixe re- : Ce travail est mal fait : il faut le ___."
+    answers: ["refaire"]
+    explanation: "Re- means again: refaire, to do again."
+  - id: "c2-word-formation-ex010"
+    type: "error-correction"
+    prompt: "Corrigez le suffixe : La nettoyation de la salle a pris deux heures."
+    answers: ["Le nettoyage de la salle a pris deux heures"]
+    explanation: "The noun from nettoyer is le nettoyage, with -age (and masculine). Nettoyation doesn't exist."
+    strictAccents: true
+  - id: "c2-word-formation-ex011"
+    type: "error-correction"
+    prompt: "Corrigez le suffixe : L'arrivement du train est prévu à midi."
+    answers: ["L'arrivée du train est prévue à midi"]
+    explanation: "The noun from arriver is l'arrivée, which is feminine, so prévue agrees with it."
+    strictAccents: true
+  - id: "c2-word-formation-ex012"
+    type: "error-correction"
+    prompt: "Corrigez le préfixe : Ce plan est inréaliste."
+    answers: ["Ce plan est irréaliste"]
+    explanation: "Before an r, in- becomes ir-: irréaliste."
+  - id: "c2-word-formation-ex013"
+    type: "reformulation"
+    prompt: "Reformulez avec un adjectif en -able : On ne peut pas laver ce pull."
+    answers: ["Ce pull n'est pas lavable"]
+    explanation: "Lavable means 'that can be washed'."
+  - id: "c2-word-formation-ex014"
+    type: "reformulation"
+    prompt: "Reformulez avec le nom en -ité formé sur « simple » : Les élèves ont été surpris que la règle soit si simple."
+    answers: ["Les élèves ont été surpris par la simplicité de la règle", "La simplicité de la règle a surpris les élèves"]
+    explanation: "Simple gives la simplicité, with -ité. The noun lets you drop the subordinate clause."
+    strictAccents: true
+  - id: "c2-word-formation-ex015"
+    type: "translate"
+    prompt: "Traduisez (le préfixe sous-) : They underestimated the problem."
+    answers: ["Ils ont sous-estimé le problème", "Elles ont sous-estimé le problème"]
+    explanation: "Sous- means under: sous-estimer, to underestimate."
+  - id: "c2-word-formation-ex016"
+    type: "translate"
+    prompt: "Traduisez (simplifier) : We must simplify the form."
+    answers: ["Nous devons simplifier le formulaire", "Il faut simplifier le formulaire"]
+    explanation: "Simple + -ifier gives simplifier."
+  - id: "c2-word-formation-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : This handwriting is illegible."
+    words: ["Cette", "écriture", "est", "illisible"]
+    answers: ["Cette écriture est illisible"]
+    explanation: "Il- + lis- + -ible: that can't be read."
+---
+
+By the end of this lesson you'll be able to take a French word apart into its stem, prefix and suffix, guess the meaning of a word you've never seen, and avoid forms that look regular but don't exist.
+
+## What you already know
+
+In <LessonLink id="b2-nominalisation" text="the lesson on nominalisation" />, you turned verbs into nouns with suffixes such as *-tion* and *-ment* (*l'arrivée*, *la fermeture*). In <LessonLink id="c1-abstract-nouns" text="the lesson on abstract nouns" />, you learned nouns such as *le changement* and *l'efficacité*. This lesson gives you the whole system, so that you can read new words and build the ones that exist.
+
+## The parts of a word
+
+<VocabTable group="terms" />
+
+Most French words that aren't very short are built from parts. *Un radical* (a stem) carries the main meaning. *Un préfixe* (a prefix) comes before it and changes its meaning; *un suffixe* (a suffix) comes after it and usually changes its class, from verb to noun or from adjective to verb. Building a word this way is *la dérivation* (derivation).
+
+<Example fr="Dans le mot « illisible », le radical est lis-, le préfixe il- et le suffixe -ible." en="In the word 'illisible', the stem is lis-, the prefix il- and the suffix -ible." />
+
+The stem isn't always the infinitive. *Lisible* comes from *lis-* (*nous lisons*), and *faisable* from *fais-* (*nous faisons*). When you build a word, start from the *nous* form of the present if the infinitive doesn't work.
+
+## Prefixes
+
+<VocabTable group="prefixes" />
+
+A prefix keeps the class of the word: a verb stays a verb, an adjective stays an adjective. These are the ones you'll meet most.
+
+- **The prefixes dé- and dés- reverse an action**, as in *faire* / *défaire*, *obéir* / *désobéir*.
+- **The prefix in- means "not"**, and it changes before some letters: *il-* before *l* (*illégal*), *ir-* before *r* (*irréaliste*), *im-* before *b*, *m* or *p* (*impossible*).
+- **The prefix re- (usually ré- before a vowel) means "again"**: *refaire*, *réécrire*.
+- **The prefix pré- means "before"**: *prévoir*, *la préhistoire*.
+- **The prefixes sur- and sous- mean "over" and "under"**: *surestimer*, *sous-estimer*.
+- **The prefixes contre-, anti- and auto- mean "against", "against" and "self"**: *un contre-argument*, *un antivirus*, *un autoportrait*.
+
+<Example fr="Le ministre a sous-estimé le coût du projet." en="The minister underestimated the cost of the project." />
+
+<Example fr="Cet élève a désobéi au règlement de l'école." en="This pupil disobeyed the school rules." />
+
+## Suffixes
+
+<VocabTable group="suffixes" />
+
+A suffix usually changes the class of the word. The main ones work like this.
+
+- **For nouns from verbs**, the suffixes are *-age* (*nettoyer*, *le nettoyage*), *-ment* (*changer*, *le changement*) and *-tion* (*créer*, *la création*).
+- **For nouns from adjectives**, the suffix is often *-ité* (*simple*, *la simplicité*; *rapide*, *la rapidité*).
+- **For movements and the people in them**, the suffixes are *-isme* and *-iste* (*le journalisme*, *un journaliste*).
+- **For "that can be done"**, the suffixes are *-able* and *-ible* (*lavable*, *faisable*, *lisible*).
+- **For verbs from adjectives or nouns**, the suffixes are *-iser* and *-ifier* (*moderne*, *moderniser*; *simple*, *simplifier*).
+
+<Example fr="Le nettoyage des rues commence à six heures." en="Street cleaning starts at six." />
+
+<Example fr="La mairie veut simplifier les démarches en ligne." en="The town hall wants to simplify the online procedures." />
+
+**The suffix isn't predictable.** *Nettoyer* gives *le nettoyage*, but *changer* gives *le changement*, *arriver* gives *l'arrivée*, and *créer* gives *la création*. A word that looks regular may not exist: *la nettoyation* and *l'arrivement* aren't French. Before you use a word you've built, check it in a dictionary.
+
+## Learned roots
+
+<VocabTable group="roots" />
+
+Some words are built from Greek or Latin roots that French shares with English. Four of them are worth knowing, because they appear in new words too.
+
+- **The root -logie means "the study of"**: *la sociologie*, *la biologie*.
+- **The root -cratie means "power"**: *la démocratie*, *la bureaucratie*.
+- **The root -phobe means "who fears"**: *claustrophobe* (afraid of closed spaces).
+- **The root -cide means "that kills"**: *un insecticide*.
+
+<Example fr="La sociologie étudie la vie des groupes et des sociétés." en="Sociology studies the life of groups and societies." />
+
+<Example fr="Cet insecticide est interdit dans les jardins publics." en="This insecticide is banned in public gardens." />
+
+<Example fr="Mon frère est claustrophobe : il ne prend jamais l'ascenseur." en="My brother is claustrophobic: he never takes the lift." />
+
+## Compounds, mots-valises and new words
+
+<VocabTable group="new" />
+
+Besides derivation, French makes new words by joining two words, as you saw with *un porte-monnaie* and *un gratte-ciel*. A more playful kind is *un mot-valise* (a blend), which joins the start of one word to the end of another: *le franglais* (*français* + *anglais*), *un courriel* (*courrier* + *électronique*).
+
+The term *un néologisme* (a neologism) is any new word. The press creates many of them, mostly with the tools you've just seen: a prefix (*déconnecter*), a suffix (*la numérisation*), or a mot-valise. Some last, and some disappear after a few months. As a rule of thumb, read new words freely, but use them in your own formal writing only when a dictionary has them.
+
+<Example fr="La numérisation des vieux journaux de la ville a pris trois ans." en="The digitization of the town's old newspapers took three years." />
+
+## The model: a column with three invented words
+
+The column below is original. Its three new words are **invented for this lesson**: you won't find them in a dictionary, and you shouldn't use them as real words.
+
+*Notre langue manque de mots pour décrire la vie de bureau. Je propose donc trois néologismes. Le premier, la réunionocratie, veut dire une entreprise où les réunions ont pris le pouvoir : on n'y décide plus rien sans en organiser une autre.*
+
+*Le deuxième, un notificophobe, est un employé qui a peur de ses notifications et qui coupe son téléphone dès neuf heures. Le troisième est un verbe : déréunionner, c'est annuler une réunion qui ne sert à rien, et c'est le verbe le plus agréable de la semaine.*
+
+(Our language lacks words to describe office life. So I'm proposing three neologisms. The first, la réunionocratie, means a company where meetings have taken power: nothing is decided there any more without organizing another one. The second, un notificophobe, is an employee who is afraid of their notifications and switches off their phone from nine o'clock. The third is a verb: déréunionner is to cancel a meeting that serves no purpose, and it's the most pleasant verb of the week.)
+
+## How the column builds its words
+
+- **The invented word réunionocratie** is *réunion* + the root *-cratie* (power), like *démocratie*.
+- **The invented word notificophobe** is *notification* + the root *-phobe* (who fears), like *claustrophobe*.
+- **The invented verb déréunionner** is the prefix *dé-* (reversing an action) + *réunion* + the verb ending *-er*, like *défaire*.
+
+Each one is clear because each part keeps its usual meaning. That's what makes a neologism work, and what lets you read one you've never seen.
+
+## The whole list
+
+- A word = a stem, with or without a prefix and a suffix.
+- Prefixes keep the class: *dé-*, *in-* (*il-*, *ir-*, *im-*), *re-*, *pré-*, *sur-*, *sous-*, *contre-*, *anti-*, *auto-*.
+- Suffixes change the class: *-age*, *-ment*, *-tion* (nouns from verbs), *-ité* (nouns from adjectives), *-isme*, *-iste*, *-able*, *-ible*, *-iser*, *-ifier*.
+- The suffix isn't predictable: check every word you build.
+- Learned roots: *-logie*, *-cratie*, *-phobe*, *-cide*.
+- Compounds and mots-valises (*le franglais*, *un courriel*); neologisms in the press.
+
+## En français
+
+Nora is translating a report and asks her colleague Théo about some words. They use *tu*.
+
+- *Théo, j'ai trouvé « numérisation » dans le rapport. C'est un vrai mot ?* (Théo, I found "numérisation" in the report. Is it a real word?)
+- *Oui : numérique, plus -iser, plus -ation. C'est le fait de tout passer en numérique.* (Yes: numérique, plus -iser, plus -ation. It's putting everything into digital form.)
+- *Et « irréaliste », avec deux r ?* (And "irréaliste", with two r's?)
+- *Oui. In- devient ir- devant un r : in- et réaliste donnent irréaliste.* (Yes. In- becomes ir- before an r: in- and réaliste give irréaliste.)
+- *J'ai voulu écrire « le changeage des horaires ». Mon logiciel le souligne en rouge.* (I wanted to write "le changeage des horaires". My software underlines it in red.)
+- *Il a raison : on dit le changement. Le suffixe -age ne marche pas avec tous les verbes.* (It's right: we say le changement. The suffix -age doesn't work with every verb.)
+- *Comment je peux savoir quel suffixe choisir ?* (How can I know which suffix to choose?)
+- *Tu ne peux pas le deviner : il faut vérifier dans un dictionnaire.* (You can't guess it: you have to check in a dictionary.)
+- *Et ce mot, « réunionite », c'est sérieux ?* (And this word, "réunionite", is it serious?)
+- *C'est familier et ironique : une maladie des réunions trop nombreuses.* (It's familiar and ironic: an illness of too many meetings.)
+- *Alors je ne le mets pas dans mon texte.* (Then I won't put it in my text.)
+- *Mets plutôt « un trop grand nombre de réunions ». Le rapport est formel.* (Put "un trop grand nombre de réunions" instead. The report is formal.)
+
+<Callout type="warning" title="Check the suffix before you use the word">
+  Learners who know the pattern often build words that don't exist: *la nettoyation*, *l'arrivement*, *le changeage*. The suffix depends on the word, and you can't predict it. Check, then write: **le nettoyage**, **l'arrivée**, **le changement**.
+</Callout>
+
+<Callout type="tip" title="Read long words from the middle">
+  When you meet a long unknown word, find the stem first, in the middle, then read the prefix and the suffix around it. *Inutilisable* is *utilis-* (use), *in-* (not) and *-able* (that can be): that can't be used. With practice, most long words in a formal text stop being unknown words.
+</Callout>
+
+## En résumé
+
+Un mot est souvent formé d'un radical, d'un préfixe et d'un suffixe. La dérivation est la formation d'un mot avec un préfixe ou un suffixe. Le préfixe ne change pas la classe du mot : dé- inverse une action, in- veut dire non et devient il-, ir- ou im- devant certaines lettres, re- veut dire de nouveau, sur- et sous- veulent dire trop et pas assez. Le suffixe change souvent la classe : nettoyer donne le nettoyage, changer donne le changement, simple donne la simplicité et simplifier, et moderne donne moderniser. Les adjectifs en -able et en -ible, comme lavable ou lisible, veulent dire qu'on peut faire l'action. On ne peut pas deviner le suffixe : il faut vérifier chaque mot dans un dictionnaire. Les racines savantes, comme -logie, -cratie, -phobe et -cide aident à comprendre des mots nouveaux. Un mot-valise, comme le franglais, réunit deux mots. Enfin, un néologisme est un mot nouveau, et la presse en crée souvent.
+
+## What's next
+
+Next, <LessonLink id="c2-advanced-false-friends" text="the lesson on advanced false friends" /> goes back to English, and to the French words that still look like it.
+
+===== content/lessons/c2/advanced-false-friends.mdx =====
+---
+id: "c2-advanced-false-friends"
+title: "Advanced false friends"
+description: "Avoid the false friends left after B2, in formal and professional writing: versatile, chance, formel, conséquent, opportunité, contrôler, ignorer, évidence, définitivement, agenda, audience, with réaliser que and opportunité labelled as widely used but criticized."
+level: "C2"
+unit: "Words with precision"
+order: 11
+type: "vocabulary"
+tags: ["vocabulary", "false friends", "anglicisms", "register", "professional French"]
+prerequisites: ["b2-false-friends", "c2-paronyms", "c2-word-formation"]
+related: ["b2-meetings-and-calls", "b1-expressing-doubt-certainty", "c2-anglicisms-and-official-terms"]
+vocab:
+  - { id: "c2-advanced-false-friends-v001", group: "people", fr: "versatile", pron: "vehr-sah-TEEL", en: "fickle, changeable", note: "Versatile (skilled at many things) is polyvalent." }
+  - { id: "c2-advanced-false-friends-v002", group: "people", fr: "avoir de la chance", pron: "ah-VWAHR duh lah SHAHNS", en: "to be lucky", note: "Une chance is luck; an opportunity is une occasion." }
+  - { id: "c2-advanced-false-friends-v003", group: "people", fr: "formel / formelle", pron: "for-MEL", en: "categorical, explicit", note: "Un refus formel: a flat refusal. Formal (register) is soutenu or officiel." }
+  - { id: "c2-advanced-false-friends-v004", group: "people", fr: "un refus", pron: "uhn ruh-FEW", en: "a refusal" }
+  - { id: "c2-advanced-false-friends-v005", group: "people", fr: "conséquent / conséquente", pron: "kohn-say-KAHN / kohn-say-KAHNT", en: "consistent (in your actions); widely used for large, criticized", note: "Être conséquent avec soi-même: to be consistent." }
+  - { id: "c2-advanced-false-friends-v006", group: "work", fr: "une opportunité", pron: "ew-noh-por-tew-nee-TAY", en: "appropriateness, timeliness; widely used for an opportunity, criticized" }
+  - { id: "c2-advanced-false-friends-v007", group: "work", fr: "contrôler", pron: "kohn-troh-LAY", en: "to check, to inspect; also to control" }
+  - { id: "c2-advanced-false-friends-v008", group: "work", fr: "un agenda", pron: "uh-nah-zhan-DAH", en: "a diary, a planner", note: "A meeting's agenda is l'ordre du jour." }
+  - { id: "c2-advanced-false-friends-v009", group: "work", fr: "l'audience (f.)", pron: "loh-DYAHNS", en: "the ratings, the size of an audience; a court hearing", note: "The people watching are le public." }
+  - { id: "c2-advanced-false-friends-v010", group: "work", fr: "un retard", pron: "uhn ruh-TAR", en: "a delay", note: "Un délai is the time allowed, a deadline." }
+  - { id: "c2-advanced-false-friends-v011", group: "facts", fr: "ignorer", pron: "ee-nyoh-RAY", en: "not to know, to be unaware of; also to ignore (someone)" }
+  - { id: "c2-advanced-false-friends-v012", group: "facts", fr: "une évidence", pron: "ew-nay-vee-DAHNS", en: "an obvious fact", note: "Evidence (proof) is une preuve, des preuves." }
+  - { id: "c2-advanced-false-friends-v013", group: "facts", fr: "définitivement", pron: "day-fee-nee-teev-MAHN", en: "for good, permanently", note: "Definitely is sans aucun doute or certainement." }
+  - { id: "c2-advanced-false-friends-v014", group: "facts", fr: "réaliser que", pron: "ray-ah-lee-ZAY kuh", en: "to realize that (widely used, criticized)", note: "Careful writing: se rendre compte que." }
+  - { id: "c2-advanced-false-friends-v015", group: "facts", fr: "l'Académie française (f.)", pron: "lah-kah-day-MEE frahn-SEZ", en: "the Académie française (the institution that publishes a dictionary and advice on usage)" }
+exercises:
+  - id: "c2-advanced-false-friends-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « versatile » dans la phrase : Le public de cette émission est très versatile."
+    options: ["fickle, quick to change its mind", "skilled at many things", "very large"]
+    answers: ["fickle, quick to change its mind"]
+    explanation: "Versatile in French means fickle. For 'versatile' in the English sense, say polyvalent."
+  - id: "c2-advanced-false-friends-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « chance » dans la phrase : Tu as de la chance d'habiter si près de la mer."
+    options: ["the fact that things go well for you", "an opportunity to do something", "a risk you take"]
+    answers: ["the fact that things go well for you"]
+    explanation: "Avoir de la chance: to be lucky. An opportunity is une occasion."
+  - id: "c2-advanced-false-friends-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « formel » dans la phrase : Le refus de la directrice est formel."
+    options: ["categorical and final", "polite and formal in tone", "only for show"]
+    answers: ["categorical and final"]
+    explanation: "Formel usually means categorical or explicit. For a formal register, say soutenu or officiel."
+  - id: "c2-advanced-false-friends-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « une évidence » dans la phrase : Que le projet coûte trop cher, c'est une évidence."
+    options: ["an obvious fact", "a piece of evidence", "a proof given in court"]
+    answers: ["an obvious fact"]
+    explanation: "Une évidence is something obvious. Evidence, in the sense of proof, is une preuve."
+  - id: "c2-advanced-false-friends-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « l'audience » dans la phrase : L'audience de l'émission a doublé en un an."
+    options: ["the number of viewers", "the people in the studio", "the interview"]
+    answers: ["the number of viewers"]
+    explanation: "L'audience of a programme is its ratings. The people who watch are le public."
+  - id: "c2-advanced-false-friends-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec le nom qui convient, sans « opportunité » : C'est une belle ___ de travailler à l'étranger."
+    answers: ["occasion"]
+    explanation: "Une occasion is the uncontested word for an opportunity."
+  - id: "c2-advanced-false-friends-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe qui veut dire « vérifier », au présent : Dans le train, une agente ___ les billets."
+    answers: ["contrôle"]
+    explanation: "Contrôler les billets is to check tickets. This is the sense English speakers forget."
+  - id: "c2-advanced-false-friends-ex008"
+    type: "fill-in"
+    prompt: "Complétez avec l'adverbe qui veut dire « pour toujours » : Ils ont quitté la ville ___."
+    answers: ["définitivement"]
+    explanation: "Définitivement means for good, permanently."
+  - id: "c2-advanced-false-friends-ex009"
+    type: "error-correction"
+    prompt: "Corrigez le faux ami, pour un texte soigné (le sens : c'est sûr) : Ce film est définitivement le meilleur de l'année."
+    answers: ["Ce film est sans aucun doute le meilleur de l'année", "Ce film est certainement le meilleur de l'année"]
+    explanation: "Définitivement means for good. For 'definitely', say sans aucun doute or certainement."
+  - id: "c2-advanced-false-friends-ex010"
+    type: "error-correction"
+    prompt: "Corrigez le faux ami (le sens : la liste des points d'une réunion) : L'agenda de la réunion est très chargé."
+    answers: ["L'ordre du jour de la réunion est très chargé"]
+    explanation: "Un agenda is a diary. The list of points for a meeting is l'ordre du jour."
+  - id: "c2-advanced-false-friends-ex011"
+    type: "error-correction"
+    prompt: "Corrigez le faux ami (le sens : des preuves) : La police n'a trouvé aucune évidence."
+    answers: ["La police n'a trouvé aucune preuve"]
+    explanation: "Une évidence is an obvious fact. Proof is une preuve."
+    strictAccents: true
+  - id: "c2-advanced-false-friends-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec « ignorer » : Je ne sais pas pourquoi il est parti."
+    answers: ["J'ignore pourquoi il est parti"]
+    explanation: "Ignorer means not to know, especially in formal French."
+  - id: "c2-advanced-false-friends-ex013"
+    type: "reformulation"
+    prompt: "Reformulez avec « se rendre compte », pour un texte soigné : J'ai réalisé que j'avais tort."
+    answers: ["Je me suis rendu compte que j'avais tort"]
+    explanation: "Réaliser que is widely used but criticized by the Académie française. Careful writing prefers se rendre compte que, and rendu never agrees."
+  - id: "c2-advanced-false-friends-ex014"
+    type: "translate"
+    prompt: "Traduisez (registre soutenu, sans « opportunité ») : This is a unique opportunity."
+    answers: ["C'est une occasion unique"]
+    explanation: "In careful writing, an opportunity is une occasion."
+  - id: "c2-advanced-false-friends-ex015"
+    type: "translate"
+    prompt: "Traduisez (belle, rencontrer) : The meeting is a great opportunity to meet clients."
+    answers: ["La réunion est une belle occasion de rencontrer des clients", "La réunion est une belle opportunité de rencontrer des clients"]
+    explanation: "Both are accepted here: occasion is uncontested, and opportunité in this sense is widely used, though the Académie française criticizes it."
+  - id: "c2-advanced-false-friends-ex016"
+    type: "translate"
+    prompt: "Traduisez (tu, avoir de la chance, au passé composé) : You were lucky."
+    answers: ["Tu as eu de la chance"]
+    explanation: "Avoir de la chance: to be lucky."
+  - id: "c2-advanced-false-friends-ex017"
+    type: "translate"
+    prompt: "Traduisez (versatile) : Voters are fickle."
+    answers: ["Les électeurs sont versatiles"]
+    explanation: "Versatile means fickle, changeable."
+  - id: "c2-advanced-false-friends-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : I don't know where she lives."
+    words: ["J'ignore", "où", "elle", "habite"]
+    answers: ["J'ignore où elle habite"]
+    explanation: "Ignorer: not to know (formal)."
+---
+
+By the end of this lesson you'll be able to avoid the false friends that remain after B2, choose the uncontested word in formal writing, and recognize the anglicized uses that many French speakers accept and some criticize.
+
+## What you already know
+
+<LessonLink id="b2-false-friends" text="The lesson on false friends" /> taught *sensible* (sensitive), *supporter* (to put up with), *réaliser* (to carry out), *éventuellement* (possibly) and *achever* (to complete), and listed others you met earlier, such as *actuellement* (currently). You also know *respecter un délai* (to meet a deadline) from <LessonLink id="b2-futur-anterieur" text="the lesson on the futur antérieur" />. Those are recapped here, not taught again. This lesson covers the ones left: words that matter most in professional and formal French.
+
+## Labelling, not correcting
+
+Some false friends are simply mistakes: *une évidence* never means "proof". Others are uses that came from English and are now very common: *réaliser que* for "to realize that", or *une opportunité* for "an opportunity". *L'Académie française* (the Académie française, which publishes a dictionary and advice on usage) criticizes them, but many speakers and writers use them.
+
+So this lesson labels these uses rather than calling them wrong. **In careful writing**, choose the uncontested word: *se rendre compte que*, *une occasion*. **In this course**, an exercise that asks for careful writing accepts only the uncontested word; an exercise with no register cue accepts both, and says so in its feedback.
+
+## People and attitudes
+
+<VocabTable group="people" />
+
+The word *versatile* means fickle, quick to change: *une opinion versatile*. For "versatile" in the English sense, you know *polyvalent*. *Avoir de la chance* means to be lucky; *une chance* is luck, or a probability (*il y a peu de chances qu'il vienne*). For an opportunity, say *une occasion*.
+
+<Example fr="L'opinion publique est versatile : elle change d'avis en quelques semaines." en="Public opinion is fickle: it changes its mind within a few weeks." />
+
+The word *formel* usually means categorical or explicit: *un refus formel* (a flat refusal), *une interdiction formelle*. For a formal register, say *soutenu*, and for a formal occasion, *officiel*.
+
+<Example fr="Le ministère a opposé un refus formel à notre demande." en="The ministry flatly refused our request." />
+
+The word *conséquent* means consistent, in what you think and do: *être conséquent avec soi-même*. You know *par conséquent* (consequently). The use of *conséquent* for "large" (*un salaire conséquent*) is very common in speech and in the press, and the Académie française criticizes it. In careful writing, say *important*.
+
+## Work and organization
+
+<VocabTable group="work" />
+
+The term *une opportunité* is, first, the fact of being timely or appropriate: *on discute de l'opportunité de cette réforme* (whether this reform is a good idea now). Its use for "an opportunity" is widespread, especially in business, and criticized by the Académie française. *Une occasion* says the same thing with no debate.
+
+<Example fr="Le conseil s'interroge sur l'opportunité d'un nouveau budget." en="The council is wondering whether a new budget is appropriate now." />
+
+The word *contrôler* means first to check or inspect: *contrôler les billets*, *contrôler une facture*. It also means to control (*contrôler la situation*), so it's only a partial false friend. The trap is the other way round: English speakers who want "to check" often forget *contrôler*.
+
+The term *un agenda* is a diary or a planner. A meeting's agenda is *l'ordre du jour*, which you know from B2. *L'audience* is the size of an audience (*l'audience d'une émission*) or a court hearing; the people who watch are *le public*. And *un délai* is the time allowed, while a delay is *un retard*.
+
+<Example fr="Notez la réunion dans votre agenda : l'ordre du jour suivra." en="Put the meeting in your diary: the agenda will follow." />
+
+<Example fr="Le train a vingt minutes de retard." en="The train is twenty minutes late." />
+
+## Facts and certainty
+
+<VocabTable group="facts" />
+
+The word *ignorer* means not to know, especially in formal French: *j'ignore la réponse*. *Ignorer quelqu'un* (to ignore someone) is also used, so here too the trap is that English speakers forget the first sense.
+
+The term *une évidence* is an obvious fact: *c'est une évidence*. Proof is *une preuve*, and evidence in a trial is *des preuves*. *Définitivement* means for good: *il est parti définitivement*. You'll also hear it for "definitely", an anglicism criticized like *réaliser que*; in careful writing, say *sans aucun doute* or *certainement*.
+
+<Example fr="La police n'a trouvé aucune preuve, même si la réponse semblait une évidence." en="The police found no evidence, even though the answer seemed obvious." />
+
+The phrase *réaliser que* for "to realize that" is very common and criticized; you saw at B2 that careful speakers prefer *se rendre compte que*.
+
+## The model: an email with false friends
+
+The email below is original, between two invented companies. The first version has eight false friends, as a writer thinking in English might use them. The corrected version follows.
+
+*Madame, j'ai réalisé ce matin que votre commande avait un délai de trois jours. C'est définitivement de notre faute, et nous voulons saisir cette opportunité pour vous présenter nos excuses. Notre fournisseur est assez versatile, mais nous avons maintenant une évidence claire du problème. Je l'ai mis à l'agenda de notre réunion de lundi, et je vous propose une réduction conséquente.*
+
+*Madame, je me suis rendu compte ce matin que votre commande avait trois jours de retard. C'est sans aucun doute de notre faute, et nous voulons saisir cette occasion pour vous présenter nos excuses. Notre fournisseur n'est pas toujours fiable, mais nous avons maintenant une preuve claire du problème. Je l'ai mis à l'ordre du jour de notre réunion de lundi, et je vous propose une réduction importante.*
+
+(Corrected version, in translation: Madam, I realized this morning that your order was three days late. It is definitely our fault, and we want to take this opportunity to apologize. Our supplier isn't always reliable, but we now have clear proof of the problem. I've put it on the agenda of our meeting on Monday, and I'm offering you a substantial discount.)
+
+## How the email was corrected
+
+- The verb *réaliser que* became **se rendre compte que**, the uncontested choice in a letter.
+- The phrase *avait un délai de trois jours* became **avait trois jours de retard**: a delay is *un retard*.
+- The adverb *définitivement* became **sans aucun doute**.
+- The noun *opportunité* became **occasion**, in a letter of apology.
+- The adjective *versatile* became **pas toujours fiable**: the writer meant unreliable, not fickle.
+- The noun *évidence* became **preuve**.
+- The noun *agenda* became **ordre du jour**.
+- The adjective *conséquente* became **importante**, the uncontested word for "large".
+
+## The whole list
+
+- Versatile = fickle (versatile in English = *polyvalent*); une chance = luck (an opportunity = *une occasion*).
+- Formel = categorical (formal register = *soutenu*, *officiel*).
+- Conséquent = consistent; "large" is widely used, criticized: write *important*.
+- Opportunité = timeliness; "opportunity" is widely used, criticized: write *occasion*.
+- Contrôler = to check (and to control); ignorer = not to know (and to ignore).
+- Un agenda = a diary (*l'ordre du jour* for a meeting); l'audience = ratings, a hearing (*le public* for people); un délai = time allowed (*un retard* for a delay).
+- Une évidence = an obvious fact (*une preuve* for proof); définitivement = for good (*sans aucun doute* for definitely).
+- Réaliser que is widely used, criticized: write *se rendre compte que* in careful French.
+
+## En français
+
+Clémence, a sales manager, reads the email with Antoine, who wrote the first version. They use *tu*.
+
+- *Antoine, ton message au client est très correct, mais il y a quelques faux amis.* (Antoine, your message to the client is very proper, but there are a few false friends.)
+- *Lesquels ? J'ai fait attention à l'orthographe.* (Which ones? I was careful with the spelling.)
+- *« Un délai de trois jours » : tu veux dire que la commande est en retard ?* ("A délai of three days": do you mean the order is late?)
+- *Oui, trois jours de retard. Un délai, ce n'est pas la même chose ?* (Yes, three days late. Isn't a délai the same thing?)
+- *Non, un délai, c'est le temps qu'on a pour faire quelque chose.* (No, a délai is the time you have to do something.)
+- *D'accord. Et « définitivement de notre faute » ?* (OK. And "définitivement de notre faute"?)
+- *Définitivement veut dire pour toujours. Écris « sans aucun doute ».* (Définitivement means for good. Write "sans aucun doute".)
+- *Et « opportunité » ? Tout le monde le dit au bureau.* (And "opportunité"? Everyone says it at the office.)
+- *C'est vrai, mais l'Académie le critique. Dans une lettre d'excuses, « occasion » est plus sûr.* (That's true, but the Académie criticizes it. In a letter of apology, "occasion" is safer.)
+- *J'ai aussi écrit que notre fournisseur était versatile.* (I also wrote that our supplier was versatile.)
+- *Tu voulais dire qu'il change d'avis, ou qu'on ne peut pas compter sur lui ?* (Did you mean that he changes his mind, or that we can't rely on him?)
+- *Qu'on ne peut pas compter sur lui.* (That we can't rely on him.)
+- *Alors écris « pas toujours fiable ». Versatile parle de ses opinions.* (Then write "pas toujours fiable". Versatile is about his opinions.)
+- *Merci. Je relis tout le message avant de l'envoyer.* (Thanks. I'll reread the whole message before I send it.)
+
+<Callout type="warning" title="Une preuve, not une évidence">
+  English speakers writing about a case or a report often say *il n'y a aucune évidence* for "there's no evidence". In French, *une évidence* is something obvious, so the sentence says that nothing is obvious. For proof, say **il n'y a aucune preuve**, and for evidence in a trial, **des preuves**.
+</Callout>
+
+<Callout type="tip" title="Translate your draft back into English">
+  For a formal message, read your French draft once as if you were an English reader who knows no French: translate each long word literally. Where the literal English sounds right (*définitivement*, "definitely"), stop and check, because that's exactly where a false friend hides. Where it sounds odd, the French is usually fine.
+</Callout>
+
+## En résumé
+
+Un faux ami ressemble à un mot anglais, mais il a un autre sens. Versatile veut dire qui change souvent d'avis, et pas polyvalent. Avoir de la chance, c'est profiter d'un hasard favorable, alors qu'une occasion est un moment favorable. Formel veut dire clair et sans discussion possible, comme dans un refus formel. Conséquent veut dire qui agit selon ses idées, et son emploi pour important est très courant, mais critiqué. Une opportunité est d'abord le fait qu'une chose arrive au bon moment, et son emploi pour une occasion est lui aussi critiqué par l'Académie française. Contrôler veut dire d'abord vérifier, et ignorer veut dire ne pas savoir. Un agenda est un petit livre pour noter ses rendez-vous, et l'ordre du jour est la liste des points d'une réunion. Un délai est le temps qu'on a pour faire une chose, et un retard est le fait d'arriver tard. Une évidence est une chose claire pour tout le monde, alors qu'une preuve montre qu'une chose est vraie. Enfin, définitivement veut dire pour toujours.
+
+## What's next
+
+Next, <LessonLink id="c2-anglicisms-and-official-terms" text="the lesson on anglicisms and official terms" /> looks at English words used in French, and at the French words recommended in their place.
+
+===== content/lessons/c2/anglicisms-and-official-terms.mdx =====
+---
+id: "c2-anglicisms-and-official-terms"
+title: "Anglicisms and their official replacements"
+description: "Know the common anglicisms and the French terms recommended in their place (courriel, mot-dièse, mercatique, divulgâcher, baladodiffusion), how official terms are published in France and Québec, the law of 4 August 1994, and the debate between purism and usage."
+level: "C2"
+unit: "Words with precision"
+order: 12
+type: "vocabulary"
+tags: ["vocabulary", "anglicisms", "official terms", "Québec", "language policy"]
+prerequisites: ["b1-culture-quebec", "c1-law-and-institutions", "c2-word-formation"]
+related: ["c1-culture-francophonie", "c2-advanced-false-friends", "c2-review-words"]
+vocab:
+  - { id: "c2-anglicisms-and-official-terms-v001", group: "terms", fr: "un anglicisme", pron: "uh-nahn-glee-SEESM", en: "an anglicism (an English word or use in French)" }
+  - { id: "c2-anglicisms-and-official-terms-v002", group: "terms", fr: "un équivalent officiel", pron: "uh-nay-kee-vah-LAHN oh-fee-SYEL", en: "an official equivalent" }
+  - { id: "c2-anglicisms-and-official-terms-v003", group: "terms", fr: "recommander un terme", pron: "ruh-koh-mahn-DAY uhn TEHRM", en: "to recommend a term" }
+  - { id: "c2-anglicisms-and-official-terms-v004", group: "terms", fr: "l'emploi d'un mot (m.)", pron: "lahn-PLWAH duhn MOH", en: "the use of a word", note: "Here l'emploi means use, not a job." }
+  - { id: "c2-anglicisms-and-official-terms-v005", group: "anglicisms", fr: "le marketing", pron: "luh mar-keh-TEENG", en: "marketing (anglicism)" }
+  - { id: "c2-anglicisms-and-official-terms-v006", group: "anglicisms", fr: "un hashtag", pron: "uhn ASH-tag", en: "a hashtag (anglicism)" }
+  - { id: "c2-anglicisms-and-official-terms-v007", group: "anglicisms", fr: "une newsletter", pron: "ewn nyooz-LEH-tuhr", en: "a newsletter (anglicism)" }
+  - { id: "c2-anglicisms-and-official-terms-v008", group: "anglicisms", fr: "spoiler", pron: "spoy-LAY", en: "to spoil (a story's ending) (anglicism, familiar)" }
+  - { id: "c2-anglicisms-and-official-terms-v009", group: "words", fr: "un mot-dièse", pron: "uhn moh-DYEZ", en: "a hashtag (official term in France)" }
+  - { id: "c2-anglicisms-and-official-terms-v010", group: "words", fr: "la mercatique", pron: "lah mehr-kah-TEEK", en: "marketing (official term in France)" }
+  - { id: "c2-anglicisms-and-official-terms-v011", group: "words", fr: "le covoiturage", pron: "luh koh-vwah-tew-RAHZH", en: "car-sharing, carpooling (the usual word)" }
+  - { id: "c2-anglicisms-and-official-terms-v012", group: "words", fr: "une lettre d'information", pron: "ewn leh-truh dan-for-mah-SYOHN", en: "a newsletter (in France)" }
+  - { id: "c2-anglicisms-and-official-terms-v013", group: "quebec", fr: "divulgâcher", pron: "dee-vewl-gah-SHAY", en: "to spoil (a story's ending) (Québec)", note: "Divulguer + gâcher." }
+  - { id: "c2-anglicisms-and-official-terms-v014", group: "quebec", fr: "la baladodiffusion / un balado", pron: "lah bah-lah-doh-dee-few-ZYOHN / uhn bah-lah-DOH", en: "podcasting / a podcast (Québec)" }
+  - { id: "c2-anglicisms-and-official-terms-v015", group: "quebec", fr: "une infolettre", pron: "ew-nan-foh-LET-ruh", en: "a newsletter (Québec usage)" }
+  - { id: "c2-anglicisms-and-official-terms-v016", group: "quebec", fr: "l'Office québécois de la langue française (m.)", pron: "loh-FEES kay-bay-KWAH duh lah lahng frahn-SEZ", en: "the Québec office of the French language (the OQLF)" }
+  - { id: "c2-anglicisms-and-official-terms-v017", group: "policy", fr: "une commission de terminologie", pron: "ewn koh-mee-SYOHN duh tehr-mee-noh-loh-ZHEE", en: "a terminology commission" }
+  - { id: "c2-anglicisms-and-official-terms-v018", group: "policy", fr: "la loi Toubon", pron: "lah lwah too-BOHN", en: "the Toubon law (the law of 4 August 1994 on the use of French)" }
+  - { id: "c2-anglicisms-and-official-terms-v019", group: "policy", fr: "un puriste / une puriste", pron: "uhn pew-REEST", en: "a purist" }
+  - { id: "c2-anglicisms-and-official-terms-v020", group: "policy", fr: "l'usage (m.)", pron: "lew-ZAHZH", en: "usage (how people really speak and write)" }
+exercises:
+  - id: "c2-anglicisms-and-official-terms-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez l'équivalent officiel de « hashtag » en France."
+    options: ["un mot-dièse", "un mot-clé", "un dièse-mot"]
+    answers: ["un mot-dièse"]
+    explanation: "Mot-dièse is the official term. Un mot-clé is a keyword, a different thing."
+  - id: "c2-anglicisms-and-official-terms-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez le verbe recommandé au Québec à la place de l'anglicisme « spoiler »."
+    options: ["divulgâcher", "gâter", "spoiler"]
+    answers: ["divulgâcher"]
+    explanation: "Divulgâcher, a blend of divulguer and gâcher, is recommended by the Office québécois de la langue française."
+  - id: "c2-anglicisms-and-official-terms-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez l'équivalent officiel de « marketing » en France."
+    options: ["la mercatique", "la marque", "le marché"]
+    answers: ["la mercatique"]
+    explanation: "La mercatique is the official term. La marque is a brand, and le marché the market."
+  - id: "c2-anglicisms-and-official-terms-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez d'où vient le terme « baladodiffusion »."
+    options: ["du Québec", "de Belgique", "de Suisse"]
+    answers: ["du Québec"]
+    explanation: "Baladodiffusion and balado are Québec terms, recommended by the Office québécois de la langue française."
+  - id: "c2-anglicisms-and-official-terms-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le statut du mot « logiciel »."
+    options: ["a French word in use for decades", "a recent official proposal", "a Québec term"]
+    answers: ["a French word in use for decades"]
+    explanation: "Logiciel is a long-established French word: nobody debates it today."
+  - id: "c2-anglicisms-and-official-terms-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec le terme officiel pour « e-mail » : Envoyez-nous un ___ avant vendredi."
+    answers: ["courriel"]
+    explanation: "Courriel is the official term in France and the usual one in Québec."
+  - id: "c2-anglicisms-and-official-terms-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec le mot français de tous les jours : Pour aller au travail, je fais du ___ avec deux collègues."
+    answers: ["covoiturage"]
+    explanation: "Faire du covoiturage: to share a car for a trip."
+  - id: "c2-anglicisms-and-official-terms-ex008"
+    type: "register-shift"
+    prompt: "Transformez en français officiel, avec « mot-dièse » et « courriel » : Partagez ce hashtag et envoyez-nous un mail."
+    answers: ["Partagez ce mot-dièse et envoyez-nous un courriel"]
+    explanation: "Hashtag becomes mot-dièse, and mail becomes courriel."
+  - id: "c2-anglicisms-and-official-terms-ex009"
+    type: "register-shift"
+    prompt: "Transformez en français officiel, avec « mercatique » : Elle travaille dans le marketing."
+    answers: ["Elle travaille dans la mercatique"]
+    explanation: "La mercatique is feminine: dans la mercatique."
+  - id: "c2-anglicisms-and-official-terms-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'anglicisme, dans un rapport (le mot « logiciel ») : Le software de l'entreprise est trop ancien."
+    answers: ["Le logiciel de l'entreprise est trop ancien"]
+    explanation: "Software has had a French word for decades: le logiciel."
+  - id: "c2-anglicisms-and-official-terms-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'anglicisme, dans une lettre en France : Merci de nous envoyer votre newsletter."
+    answers: ["Merci de nous envoyer votre lettre d'information"]
+    explanation: "In France, a newsletter is une lettre d'information. In Québec, you'll see une infolettre."
+  - id: "c2-anglicisms-and-official-terms-ex012"
+    type: "reformulation"
+    prompt: "Reformulez au passif : La commission recommande le terme « mot-dièse »."
+    answers: ["Le terme « mot-dièse » est recommandé par la commission"]
+    explanation: "Recommander un terme, in the passive: le terme est recommandé par…"
+  - id: "c2-anglicisms-and-official-terms-ex013"
+    type: "translate"
+    prompt: "Traduisez (un équivalent officiel) : This word has an official equivalent."
+    answers: ["Ce mot a un équivalent officiel"]
+    explanation: "Un équivalent officiel: an official equivalent."
+    strictAccents: true
+  - id: "c2-anglicisms-and-official-terms-ex014"
+    type: "translate"
+    prompt: "Traduisez (un anglicisme) : 'Week-end' is an anglicism."
+    answers: ["« Week-end » est un anglicisme"]
+    explanation: "Un anglicisme: an English word or use in French."
+  - id: "c2-anglicisms-and-official-terms-ex015"
+    type: "translate"
+    prompt: "Traduisez avec « divulgâcher » (au Québec) : Don't spoil the end of the film!"
+    answers: ["Ne divulgâche pas la fin du film !", "Ne divulgâchez pas la fin du film !"]
+    explanation: "Divulgâcher, in the imperative: ne divulgâche pas (tu) or ne divulgâchez pas (vous)."
+  - id: "c2-anglicisms-and-official-terms-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The law of 4 August 1994 concerns the use of French."
+    words: ["La", "loi", "du", "4", "août", "1994", "concerne", "l'emploi", "de", "la", "langue", "française"]
+    answers: ["La loi du 4 août 1994 concerne l'emploi de la langue française"]
+    explanation: "L'emploi d'une langue: the use of a language."
+---
+
+By the end of this lesson you'll be able to recognize common anglicisms, give the French terms recommended in their place, say how those terms are published, and describe the debate around them without taking sides.
+
+## What you already know
+
+You know *un courriel* from <LessonLink id="b1-culture-quebec" text="the lesson on Québec" />, and *le Journal officiel* from <LessonLink id="c1-law-and-institutions" text="the lesson on law and institutions" />. You also know two words that replaced English ones long ago and that nobody debates today: *un ordinateur* and *un logiciel*. And you know several anglicisms that are simply part of French now, such as *le week-end* and *un podcast*. This lesson is about the terms in between: recent, recommended, and used by some speakers more than others.
+
+## What an anglicism is
+
+<VocabTable group="terms" />
+
+<VocabTable group="anglicisms" />
+
+*Un anglicisme* (an anglicism) is an English word, phrase or meaning used in French: *un mail*, *le marketing*, *un hashtag*, *une newsletter*, *spoiler*, or *réaliser que* in the sense of "to realize", which you saw in <LessonLink id="c2-advanced-false-friends" text="the last lesson" />. For many of them, an official body has proposed *un équivalent officiel* (an official equivalent). To *recommander un terme* (recommend a term) is to propose it for official and professional use, not to ban the English word.
+
+What matters at C2 is *l'emploi d'un mot* (the use of a word): who says it, in what situation, and in which country. The same text may need *courriel* in a letter to an administration and *mail* in a message to a colleague.
+
+<Example fr="L'emploi du mot « mail » est courant au bureau, mais une lettre officielle dira « courriel »." en="Using the word 'mail' is common at the office, but an official letter will say 'courriel'." />
+
+## Some official terms in France
+
+<VocabTable group="words" />
+
+Four terms show the range of what happens to a recommendation.
+
+- **The term courriel**, for an e-mail, is official in France and very common in Québec. In France, many people still say *un mail* in everyday speech.
+- **The term mot-dièse**, for a hashtag, was recommended in 2013. You'll see it in official texts; in everyday speech, many people keep *hashtag*.
+- **The term mercatique**, for marketing, is official, and you'll meet it in some textbooks and official texts. In business, *le marketing* remains very common.
+- **The word covoiturage** isn't a debated replacement: it's simply the usual French word for car-sharing.
+
+<Example fr="Partagez notre message avec le mot-dièse de la semaine." en="Share our message with this week's hashtag." />
+
+For a newsletter, French in France usually says *une lettre d'information*.
+
+## Terms from Québec
+
+<VocabTable group="quebec" />
+
+In Québec, *l'Office québécois de la langue française* (the OQLF) recommends French terms, and several of them are now known across the French-speaking world. *Divulgâcher*, a blend of *divulguer* (to reveal) and *gâcher* (to spoil), means to spoil the end of a story. *La baladodiffusion* is podcasting, and *un balado* a podcast. *Une infolettre* is the usual word for a newsletter in Québec.
+
+<Example fr="Ne me divulgâche pas la fin de la série, je n'ai pas fini !" en="Don't spoil the end of the series for me, I haven't finished! (Québec)" />
+
+Label these terms as Québec usage when you use them. In France, they're understood by many readers, but they're not the everyday words.
+
+## How a term becomes official
+
+<VocabTable group="policy" />
+
+In France, *une commission de terminologie* (a terminology commission) studies the English words that appear in a field and proposes French equivalents. The terms it adopts are published in *le Journal officiel* and listed on a public site, FranceTerme. In Québec, the OQLF publishes its recommendations in its own dictionary.
+
+*La loi Toubon*, the law of 4 August 1994 on the use of French, requires French in some areas of public life in France, such as information for consumers and the workplace. It doesn't tell people which words to use in conversation.
+
+<Example fr="La loi Toubon a été adoptée en 1994." en="The Toubon law was adopted in 1994." />
+
+## Purism and usage
+
+The debate about anglicisms is old, and the two sides can be summed up fairly.
+
+- **Some people, often called puristes,** see official terms as a way to keep French able to name new things in its own words, and they prefer them wherever possible.
+- **Others, including many linguists,** point out that borrowing is a normal part of a language's life, and that *l'usage* (usage: how people really speak and write) decides in the end which words stay.
+
+This course doesn't take sides. An official term isn't "the correct word" in speech; it's the expected word in official and professional writing, especially in France and in Québec. Your choice depends on the reader.
+
+<Example fr="Une puriste dira « mercatique », mais ses collègues disent souvent « marketing »." en="A purist will say 'mercatique', but her colleagues often say 'marketing'." />
+
+## The model: a language week
+
+The article below is original, about an invented company. Each term appears with its label.
+
+*Cette semaine, l'entreprise Lumiva organise sa première semaine de la langue française. L'idée vient de l'équipe de la mercatique, que tout le monde, ici, appelle encore « le marketing ». Chaque matin, un courriel propose un mot du jour : lundi, c'était « mot-dièse », pour remplacer « hashtag » dans nos messages officiels.*
+
+*Les collègues de Montréal ont ajouté leurs propres termes. Ils ont expliqué que, chez eux, on dit « une infolettre » et « un balado », et ils ont demandé aux équipes de Lyon de ne pas divulgâcher la fin de la série que tout le bureau regarde.*
+
+*Personne n'est obligé de changer sa façon de parler. Mais, pour les documents envoyés aux clients et aux ministères, l'entreprise recommande les termes officiels. Comme le dit une collègue, « dans un courriel au ministère, je n'écris pas mail ; entre collègues, si ».*
+
+(This week, the company Lumiva is holding its first French language week. The idea comes from the marketing team, which everyone here still calls "le marketing". Every morning, an e-mail suggests a word of the day: on Monday, it was "mot-dièse", to replace "hashtag" in our official messages. Our colleagues in Montreal added their own terms. They explained that, where they are, people say "une infolettre" and "un balado", and they asked the Lyon teams not to spoil the end of the series the whole office is watching. Nobody has to change the way they speak. But for documents sent to clients and to ministries, the company recommends the official terms. As one colleague puts it, "in an e-mail to the ministry, I don't write 'mail'; between colleagues, I do.")
+
+## How the article labels its terms
+
+- **The official term** *mercatique* comes with the word people use (*le marketing*).
+- **The Québec terms** *infolettre*, *balado* and *divulgâcher* are given to the colleagues in Montreal.
+- **The register** decides the choice: official terms for clients and ministries, the everyday word between colleagues.
+
+## The whole list
+
+- An anglicism is an English word or use in French; an official equivalent is recommended, not imposed in speech.
+- In France: *courriel*, *mot-dièse* (2013), *mercatique*, *une lettre d'information*; *covoiturage* is simply the usual word.
+- In Québec (the OQLF): *divulgâcher*, *la baladodiffusion*, *un balado*, *une infolettre*.
+- Long-established words that replaced English ones: *un ordinateur*, *un logiciel*.
+- Official terms in France are proposed by a terminology commission, published in the Journal officiel and listed on FranceTerme.
+- The law of 4 August 1994 requires French in some areas of public life; it doesn't regulate conversation.
+- Purists and usage: present both, and choose by the reader.
+
+## En français
+
+Manon, from the Lyon office, and Félix, from Montreal, chat on the company's video call during the language week. They use *tu*.
+
+- *Félix, chez vous, on dit vraiment « courriel » tous les jours ?* (Félix, do people where you are really say "courriel" every day?)
+- *Oui, c'est le mot normal au Québec. Et vous, en France ?* (Yes, it's the normal word in Québec. And you, in France?)
+- *Au bureau, on dit souvent « mail ». « Courriel », je l'écris surtout aux clients.* (At the office, we often say "mail". "Courriel", I mostly write to clients.)
+- *Et « mot-dièse », tu l'utilises ?* (And "mot-dièse", do you use it?)
+- *Dans les documents officiels, oui. Avec mes amis, je dis « hashtag ».* (In official documents, yes. With my friends, I say "hashtag".)
+- *Chez nous, c'est la même chose pour certains mots. Mais « divulgâcher », tout le monde le comprend.* (It's the same for some words where I am. But "divulgâcher", everyone understands it.)
+- *Ici aussi, beaucoup de gens le connaissent, même si on dit encore « spoiler ».* (Here too, a lot of people know it, even if we still say "spoiler".)
+- *Notre directrice dit que les termes officiels protègent la langue.* (Our director says that official terms protect the language.)
+- *Et notre responsable dit que c'est l'usage qui décide. Les deux ont un peu raison.* (And our manager says it's usage that decides. They're both a bit right.)
+- *Pour le rapport de la semaine, on choisit lesquels ?* (For the week's report, which ones do we choose?)
+- *Les termes officiels, puisque le rapport va aux clients.* (The official terms, since the report is going to clients.)
+- *D'accord. Et pour la pause café, on garde nos mots à nous !* (OK. And for the coffee break, we keep our own words!)
+
+<Callout type="warning" title="Logiciel isn't a recommendation to debate">
+  Learners who discover official terms sometimes treat every French word for a computer thing as a recent proposal, and write *le software* in a report to sound current. *Un logiciel* and *un ordinateur* have been the normal French words for decades. Write **le logiciel de l'entreprise**, **un nouvel ordinateur**, with no label.
+</Callout>
+
+<Callout type="tip" title="Ask who will read it">
+  Before you choose between an anglicism and an official term, name the reader: an administration, a client, a colleague, a friend. Official and professional readers expect the official term; a colleague or a friend expects the word everyone uses. If the reader is in Québec, check the OQLF's term, which may differ from the one used in France.
+</Callout>
+
+## En résumé
+
+Un anglicisme est un mot ou un emploi anglais en français, comme un mail ou le marketing. Pour beaucoup d'anglicismes, on propose un équivalent officiel. Recommander un terme, c'est le proposer pour les textes officiels et les documents de travail, et pas interdire le mot anglais. En France, une commission de terminologie propose les termes, qui sont publiés au Journal officiel et réunis sur FranceTerme. Courriel, mot-dièse et mercatique sont des termes officiels, et on dit une lettre d'information pour une newsletter. Le covoiturage, lui, est le mot de tous les jours. Au Québec, l'Office québécois de la langue française recommande divulgâcher, la baladodiffusion et une infolettre. Un ordinateur et un logiciel sont des mots français employés depuis longtemps. La loi Toubon, la loi du 4 août 1994, demande le français dans certaines parties de la vie publique. Les puristes préfèrent les termes officiels, d'autres pensent que l'usage décide. Le bon choix dépend du lecteur.
+
+## What's next
+
+Next, <LessonLink id="c2-review-words" text="the review of this unit" /> brings the whole unit together in a text where ten imprecise words are replaced.
+
+===== content/lessons/c2/review-words.mdx =====
+---
+id: "c2-review-words"
+title: "Review: Words with precision"
+description: "Review Unit 2 by revising a formal letter: find ten imprecise words (paronyms, false friends, a barbarism, a catch-all verb, anglicisms), replace each with le mot juste, and revise a paragraph of your own."
+level: "C2"
+unit: "Words with precision"
+order: 13
+type: "review"
+tags: ["review", "vocabulary", "precision", "formal letter", "revision"]
+prerequisites: ["c2-paronyms", "c2-polysemy", "c2-word-formation", "c2-advanced-false-friends", "c2-anglicisms-and-official-terms"]
+related: ["c1-precise-verbs", "c1-formal-correspondence", "c2-review-form"]
+vocab:
+  - { id: "c2-review-words-v001", group: "new", fr: "le mot juste", pron: "luh moh ZHEWST", en: "the exact word, the right word" }
+  - { id: "c2-review-words-v002", group: "new", fr: "une impropriété", pron: "ew-nan-proh-pree-ay-TAY", en: "a word used in a sense it doesn't have" }
+  - { id: "c2-review-words-v003", group: "new", fr: "un barbarisme", pron: "uhn bar-bah-REESM", en: "a barbarism (a form that doesn't exist)" }
+  - { id: "c2-review-words-v004", group: "new", fr: "un mot passe-partout", pron: "uhn moh pas-par-TOO", en: "a catch-all word (faire, chose, mettre)" }
+  - { id: "c2-review-words-v005", group: "new", fr: "imprécis / imprécise", pron: "an-pray-SEE / an-pray-SEEZ", en: "imprecise, vague" }
+  - { id: "c2-review-words-v006", group: "glossary", fr: "un cambriolage", pron: "uhn kahn-bree-oh-LAHZH", en: "a burglary" }
+  - { id: "c2-review-words-v007", group: "glossary", fr: "emporté (emporter)", pron: "ahn-por-TAY", en: "taken away (to take away)" }
+  - { id: "c2-review-words-v008", group: "glossary", fr: "les coordonnées (f.)", pron: "lay koh-or-doh-NAY", en: "contact details" }
+exercises:
+  - id: "c2-review-words-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot qui convient : Les cambrioleurs sont entrés par ___ dans le local."
+    options: ["effraction", "infraction"]
+    answers: ["effraction"]
+    explanation: "Entrer par effraction: to break in. Une infraction is a breach of a rule (c2-paronyms)."
+  - id: "c2-review-words-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « relève » dans la phrase : Cette question relève de la mairie."
+    options: ["is a matter for, falls under", "raises, lifts up again", "points out, notices"]
+    answers: ["is a matter for, falls under"]
+    explanation: "Relever de: to fall under, to be a matter for (c2-polysemy)."
+  - id: "c2-review-words-ex003"
+    type: "fill-in"
+    prompt: "Complétez avec le nom en -age formé sur « nettoyer » : Le ___ de la salle commencera samedi."
+    answers: ["nettoyage"]
+    explanation: "Nettoyer gives le nettoyage; la nettoyation is a barbarism (c2-word-formation)."
+  - id: "c2-review-words-ex004"
+    type: "fill-in"
+    prompt: "Complétez avec le nom qui convient, sans « évidence » : Nous avons une ___ claire du vol."
+    answers: ["preuve"]
+    explanation: "Une preuve is proof; une évidence is an obvious fact (c2-advanced-false-friends)."
+  - id: "c2-review-words-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez le terme qui convient dans une lettre à la mairie : Vous trouverez nos coordonnées dans le ___ joint."
+    options: ["courriel", "mail"]
+    answers: ["courriel"]
+    explanation: "In an official letter, courriel is the expected term; mail is fine between colleagues (c2-anglicisms-and-official-terms)."
+  - id: "c2-review-words-ex006"
+    type: "error-correction"
+    prompt: "Corrigez le mot imprécis (phrase du texte) : Des cambrioleurs sont entrés par infraction pendant la nuit."
+    answers: ["Des cambrioleurs sont entrés par effraction pendant la nuit"]
+    explanation: "An impropriété: infraction is a breach of a rule. Forcing a door is une effraction."
+  - id: "c2-review-words-ex007"
+    type: "error-correction"
+    prompt: "Corrigez le mot imprécis (phrase du texte) : La police a mené une enquête, mais elle n'a trouvé aucune évidence."
+    answers: ["La police a mené une enquête, mais elle n'a trouvé aucune preuve"]
+    explanation: "Une évidence is an obvious fact; proof is une preuve."
+    strictAccents: true
+  - id: "c2-review-words-ex008"
+    type: "error-correction"
+    prompt: "Corrigez le paronyme (phrase du texte) : Selon un imminent spécialiste de la sécurité, la porte était trop vieille."
+    answers: ["Selon un éminent spécialiste de la sécurité, la porte était trop vieille"]
+    explanation: "A distinguished person is éminent; imminent is for an event about to happen."
+  - id: "c2-review-words-ex009"
+    type: "error-correction"
+    prompt: "Corrigez le faux ami, dans une lettre (phrase du texte) : Cet événement est définitivement le plus grave depuis la création de l'association."
+    answers: ["Cet événement est sans aucun doute le plus grave depuis la création de l'association", "Cet événement est certainement le plus grave depuis la création de l'association"]
+    explanation: "Définitivement means for good. For 'definitely', write sans aucun doute or certainement."
+  - id: "c2-review-words-ex010"
+    type: "error-correction"
+    prompt: "Corrigez le faux ami (phrase du texte) : Notre local doit rester un lieu versatile et sûr."
+    answers: ["Notre local doit rester un lieu polyvalent et sûr"]
+    explanation: "Versatile means fickle. A place used for many things is polyvalent."
+    strictAccents: true
+  - id: "c2-review-words-ex011"
+    type: "error-correction"
+    prompt: "Corrigez le faux ami (phrase du texte) : Plusieurs familles ont supporté l'idée de remplacer les portes."
+    answers: ["Plusieurs familles ont soutenu l'idée de remplacer les portes"]
+    explanation: "Supporter means to put up with. To back an idea is soutenir."
+  - id: "c2-review-words-ex012"
+    type: "error-correction"
+    prompt: "Corrigez le barbarisme (phrase du texte) : La nettoyation du local commencera dès la fin des travaux."
+    answers: ["Le nettoyage du local commencera dès la fin des travaux"]
+    explanation: "La nettoyation doesn't exist: the noun is le nettoyage, which is masculine."
+    strictAccents: true
+  - id: "c2-review-words-ex013"
+    type: "reformulation"
+    prompt: "Reformulez avec le mot juste à la place du mot passe-partout « fait » (mener) : La police a fait une enquête."
+    answers: ["La police a mené une enquête"]
+    explanation: "Mener une enquête is the precise collocation; faire is a catch-all verb."
+    strictAccents: true
+  - id: "c2-review-words-ex014"
+    type: "translate"
+    prompt: "Traduisez (le mot juste) : She always finds the right word."
+    answers: ["Elle trouve toujours le mot juste"]
+    explanation: "Le mot juste: the exact word."
+  - id: "c2-review-words-ex015"
+    type: "translate"
+    prompt: "Traduisez (un barbarisme) : This word is a barbarism: it doesn't exist."
+    answers: ["Ce mot est un barbarisme : il n'existe pas"]
+    explanation: "Un barbarisme is a form that doesn't exist in the language."
+  - id: "c2-review-words-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : An impropriety is a word used in the wrong sense."
+    words: ["Une", "impropriété", "est", "un", "mot", "employé", "dans", "un", "mauvais", "sens"]
+    answers: ["Une impropriété est un mot employé dans un mauvais sens"]
+    explanation: "Une impropriété: a real word used with a meaning it doesn't have."
+  - id: "c2-review-words-ex017"
+    type: "writing-task"
+    prompt: "Rédigez un paragraphe de 80 à 120 mots pour une lettre formelle à un service public (une demande, une réclamation ou une proposition). Relisez-le ensuite avec la liste et remplacez chaque mot imprécis par le mot juste."
+    model: "Madame, Monsieur, je vous écris au sujet de la salle de sport de notre quartier, fermée depuis le mois de mars. Les habitants se sont rendu compte que les travaux n'avaient pas commencé, et plusieurs associations ont soutenu une demande de réouverture. Nous n'avons aucune preuve d'un retard volontaire, mais aucune date n'a été annoncée. Nous aimerions donc saisir cette occasion pour vous proposer une réunion avec les familles. En matière de sport pour les jeunes, cette salle est sans aucun doute le lieu le plus utile du quartier. Vous trouverez nos coordonnées dans le courriel joint."
+    checklist: ["Paronyms: is every look-alike word the right member of its pair?", "Polysemous words: does the context make each sense clear?", "Built words: does every derived word exist in a dictionary?", "False friends: did you check every word that looks like English?", "Anglicisms: does each term suit an official reader?", "Catch-all words: did you replace faire, chose and mettre where a precise word exists?"]
+    wordTarget: [80, 120]
+---
+
+By the end of this lesson you'll be able to revise a formal text word by word, name the kind of error behind each imprecise word, and choose *le mot juste*.
+
+## What you've learned
+
+Skim this list, and go back to anything that feels shaky.
+
+- **Paronyms**: you know *éminent / imminent*, *effraction / infraction* and *recouvrer / recouvrir*, from <LessonLink id="c2-paronyms" text="the lesson on paronyms" />.
+- **Polysemy**: you know *une pièce justificative*, *relever de* and *en matière de*, from <LessonLink id="c2-polysemy" text="the lesson on polysemy" />.
+- **Word formation**: you know the main prefixes and suffixes, and that *la nettoyation* doesn't exist, from <LessonLink id="c2-word-formation" text="the lesson on word formation" />.
+- **False friends**: you know *versatile*, *une évidence*, *définitivement* and the debated *opportunité*, from <LessonLink id="c2-advanced-false-friends" text="the lesson on advanced false friends" />.
+- **Anglicisms**: you know *courriel*, *mot-dièse* and the Québec terms, and how to choose by reader, from <LessonLink id="c2-anglicisms-and-official-terms" text="the lesson on anglicisms and official terms" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+These five words name what goes wrong when a word is *imprécis* (imprecise). *Le mot juste* is the exact word for what you mean. *Une impropriété* is a real word used in a sense it doesn't have: *une infraction* for a break-in. *Un barbarisme* is a form that doesn't exist at all: *la nettoyation*. *Un mot passe-partout* is a catch-all word such as *faire*, *chose* or *mettre*, which is never wrong but rarely exact.
+
+<Example fr="Une bonne relecture cherche le mot juste, pas seulement les fautes d'orthographe." en="A good proofreading looks for the exact word, not just spelling mistakes." />
+
+<Example fr="Écrire « versatile » pour « polyvalent » est une impropriété." en="Writing 'versatile' for 'polyvalent' is an impropriety (a word used in the wrong sense)." />
+
+<Example fr="« Nettoyation » est un barbarisme, alors que « faire » est un mot passe-partout." en="'Nettoyation' is a barbarism, whereas 'faire' is a catch-all word." />
+
+<Example fr="Un mot imprécis oblige le lecteur à deviner ce que vous voulez dire." en="An imprecise word forces the reader to guess what you mean." />
+
+## Five kinds of imprecision
+
+Each lesson of the unit gives one way a word can miss its target. Naming the kind of error tells you where to look for the right word.
+
+1. **A paronym** is the neighbour of the word you wanted: *imminent* for *éminent*. Look at the pair, and check the partner word.
+2. **An impropriété from a false friend** takes the English sense: *une évidence* for proof. Translate the French back literally, and check.
+3. **A barbarism** is a regular-looking word that doesn't exist: *la nettoyation*. Check every word you've built in a dictionary.
+4. **A register error** puts an anglicism where an official reader expects the French term: *un mail* in a letter to the town hall. Name the reader first.
+5. **A catch-all word** is vague rather than wrong: *faire une enquête*. Look for the verb the noun usually goes with: *mener une enquête*.
+
+A polysemous word is a special case. It's never the wrong word, but it can leave the reader unsure: give it a partner that makes its sense clear.
+
+## How to choose the right word
+
+Finding an error is half the work; the other half is choosing what replaces it. As a rule of thumb, work through four questions.
+
+- **What do I mean, in other words?** Say the idea in a plain sentence first: "the burglars forced the door". The plain sentence often contains the right word, or points to it.
+- **Which word usually goes with it?** Many choices are settled by the partner word: *mener une enquête*, *saisir une occasion*, *soutenir une idée*. You met many such pairs in <LessonLink id="c1-collocations" text="the lesson on collocations" />, and they're the fastest way to the exact word.
+- **Who is reading?** An official reader expects the official term and no criticized use; a colleague doesn't mind *un mail*.
+- **Does the word exist, in this sense?** For any word you've built or any word that looks like English, a dictionary has the last word.
+
+When two words are both possible, choose the more precise one, not the more impressive one. A formal letter isn't better for being long: *mener une enquête* is exact, while *procéder à la réalisation d'une enquête* only adds words.
+
+## Source text: a letter with ten imprecise words
+
+The letter below is original, from an invented residents' association, and it's an extract: the address, the place and the date are left out. It contains ten imprecise words, at least one from each lesson of the unit. Find them before you read the revised version.
+
+*Madame la Maire, je vous écris au nom de l'association de quartier des Tilleuls, à la suite du cambriolage de notre local, la semaine dernière. Des cambrioleurs sont entrés par infraction pendant la nuit et ont emporté notre ordinateur et une partie de nos dossiers.*
+
+*Ce local appartient à la ville, et nous l'occupons depuis plus de dix ans grâce à un accord avec la mairie. Il accueille chaque semaine des cours de français pour adultes, une aide aux devoirs et les réunions de plusieurs associations du quartier.*
+
+*La police a fait une enquête, mais elle n'a trouvé aucune évidence. Selon un imminent spécialiste de la sécurité, venu sur place, la porte arrière était trop vieille pour résister.*
+
+*Cet événement est définitivement le plus grave depuis la création de l'association. Il nous a fait comprendre que notre local, qui sert à la fois de bureau, de salle de réunion et de lieu d'accueil pour les enfants, doit rester un lieu versatile et sûr.*
+
+*Nous souhaitons donc saisir cette opportunité pour vous présenter un projet. Plusieurs familles ont supporté l'idée de remplacer les portes et les fenêtres du rez-de-chaussée. La nettoyation du local, que nous ferons nous-mêmes, commencera dès la fin des travaux.*
+
+*Nous avons demandé trois devis à des entreprises de la région, et le moins cher nous paraît raisonnable. Nous pouvons en payer une partie grâce aux dons des habitants, mais pas tout. Nous savons que la mairie doit faire des choix, et que la conjoncture actuelle est difficile pour toutes les communes. Nous espérons pourtant que ce projet, modeste et utile, pourra être étudié lors du prochain conseil municipal. Les enfants qui viennent le mercredi nous demandent déjà quand ils pourront revenir.*
+
+*En matière de sécurité, la question relève, selon nous, de la mairie. Vous trouverez nos coordonnées dans le mail qui accompagne cette lettre, et nous restons à votre disposition pour en parler lors d'une réunion.*
+
+*Veuillez agréer, Madame la Maire, l'expression de nos salutations distinguées.*
+
+<VocabTable group="glossary" />
+
+(Translation of the revised letter. Madam Mayor, I am writing on behalf of the Tilleuls residents' association, following the burglary of our premises last week. Burglars broke in during the night and took our computer and some of our files. These premises belong to the town, and we have used them for more than ten years under an agreement with the town hall. Every week they host French classes for adults, homework help and the meetings of several local associations. The police carried out an investigation, but found no evidence. According to an eminent security specialist who came to see it, the back door was too old to hold. This event is without doubt the most serious since the association was founded. It has made us understand that our premises, which serve at the same time as an office, a meeting room and a place to welcome children, must remain a versatile and safe place. We would therefore like to take this opportunity to present a project to you. Several families have supported the idea of replacing the doors and windows on the ground floor. The cleaning of the premises, which we will do ourselves, will start as soon as the work is finished. We have asked three local firms for quotes, and the cheapest seems reasonable to us. We can pay part of it thanks to residents' donations, but not all. We know that the town hall has to make choices, and that the current economic situation is difficult for every town. We hope, however, that this modest and useful project can be considered at the next council meeting. The children who come on Wednesdays are already asking when they'll be able to come back. As regards security, the question is, in our view, a matter for the town hall. You will find our contact details in the e-mail that comes with this letter, and we remain at your disposal to discuss it at a meeting. Yours faithfully.)
+
+## The revised letter
+
+*Madame la Maire, je vous écris au nom de l'association de quartier des Tilleuls, à la suite du cambriolage de notre local, la semaine dernière. Des cambrioleurs sont entrés par effraction pendant la nuit et ont emporté notre ordinateur et une partie de nos dossiers.*
+
+*Ce local appartient à la ville, et nous l'occupons depuis plus de dix ans grâce à un accord avec la mairie. Il accueille chaque semaine des cours de français pour adultes, une aide aux devoirs et les réunions de plusieurs associations du quartier.*
+
+*La police a mené une enquête, mais elle n'a trouvé aucune preuve. Selon un éminent spécialiste de la sécurité, venu sur place, la porte arrière était trop vieille pour résister.*
+
+*Cet événement est sans aucun doute le plus grave depuis la création de l'association. Il nous a fait comprendre que notre local, qui sert à la fois de bureau, de salle de réunion et de lieu d'accueil pour les enfants, doit rester un lieu polyvalent et sûr.*
+
+*Nous souhaitons donc saisir cette occasion pour vous présenter un projet. Plusieurs familles ont soutenu l'idée de remplacer les portes et les fenêtres du rez-de-chaussée. Le nettoyage du local, que nous ferons nous-mêmes, commencera dès la fin des travaux.*
+
+*Nous avons demandé trois devis à des entreprises de la région, et le moins cher nous paraît raisonnable. Nous pouvons en payer une partie grâce aux dons des habitants, mais pas tout. Nous savons que la mairie doit faire des choix, et que la conjoncture actuelle est difficile pour toutes les communes. Nous espérons pourtant que ce projet, modeste et utile, pourra être étudié lors du prochain conseil municipal. Les enfants qui viennent le mercredi nous demandent déjà quand ils pourront revenir.*
+
+*En matière de sécurité, la question relève, selon nous, de la mairie. Vous trouverez nos coordonnées dans le courriel qui accompagne cette lettre, et nous restons à votre disposition pour en parler lors d'une réunion.*
+
+*Veuillez agréer, Madame la Maire, l'expression de nos salutations distinguées.*
+
+(The translation is given above, with the source text.)
+
+## Before and after
+
+| Before | After | Kind of error |
+|---|---|---|
+| *par infraction* | *par effraction* | paronym (an impropriété) |
+| *a fait une enquête* | *a mené une enquête* | catch-all verb |
+| *aucune évidence* | *aucune preuve* | false friend |
+| *un imminent spécialiste* | *un éminent spécialiste* | paronym |
+| *définitivement* | *sans aucun doute* | false friend |
+| *un lieu versatile* | *un lieu polyvalent* | false friend |
+| *cette opportunité* | *cette occasion* | criticized use, in a formal letter |
+| *ont supporté l'idée* | *ont soutenu l'idée* | false friend |
+| *la nettoyation* | *le nettoyage* | barbarism |
+| *le mail* | *le courriel* | anglicism, for an official reader |
+
+Three words in the letter look suspicious but are right. *La question relève de la mairie* uses *relever de* in its sense "to be a matter for". *En matière de sécurité* is the formal "as regards", which suits a letter to the town hall. And *la conjoncture actuelle* is the right member of its pair: the economic situation, not a guess.
+
+## Your turn
+
+Write a paragraph of 80 to 120 words for a formal letter to an administration: a request, a complaint or a proposal. Then revise it word by word, as in the table above: for each word that might be imprecise, name the kind of error, then choose *le mot juste*. The writing task in the exercises gives you a word count, a checklist and a model to compare with when you've finished.
+
+<Callout type="warning" title="A real word isn't always the right word">
+  After the unit on form, learners often trust any word the spellchecker accepts. *Une infraction*, *une évidence* and *versatile* are all real French words, so no tool will flag them. Check meaning as well as spelling: **entrer par effraction**, **aucune preuve**, **un lieu polyvalent**.
+</Callout>
+
+<Callout type="tip" title="Keep a list of your own imprecise words">
+  Each time a teacher, a colleague or a dictionary corrects one of your words, add it to a short personal list, with the right word next to it. Before you send a formal text, search it for every word on the list. Most writers repeat the same few imprecisions, so a list of ten words catches a surprising number of them.
+</Callout>
+
+## What's next
+
+The next unit is about specialized French. It starts with the lesson on legal French.
+

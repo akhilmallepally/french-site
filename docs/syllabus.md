@@ -521,7 +521,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 ## C2 · Mastery (planned)
 
-Planned in docs/plans/c2/ (Prompt 40). Unit 1 is written (Prompt 42); the other rows are planned and may change.
+Planned in docs/plans/c2/ (Prompt 40). Units 1 and 2 are written (Prompts 42 and 43); the other rows are planned and may change.
 
 ### Unit 1: Precision in form
 
@@ -539,12 +539,12 @@ Planned in docs/plans/c2/ (Prompt 40). Unit 1 is written (Prompt 42); the other 
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 8 | c2-paronyms | Paronyms | Words with precision | vocabulary | b2-false-friends, c1-precise-verbs | Planned. Éminent / imminent, conjecture / conjoncture and other confusable pairs. |
-| 9 | c2-polysemy | One word, several meanings | Words with precision | vocabulary | c1-abstract-nouns | Planned. Main senses of pièce, note, coup, matière, valeur, titre, relever, soutenir. |
-| 10 | c2-word-formation | How words are built | Words with precision | vocabulary | b2-nominalisation, c1-abstract-nouns | Planned. Prefixes, suffixes, learned roots, compounds, mots-valises, neologisms. |
-| 11 | c2-advanced-false-friends | Advanced false friends | Words with precision | vocabulary | b2-false-friends, c2-paronyms | Planned. The false friends left after B2, with register labels for debated uses. |
-| 12 | c2-anglicisms-and-official-terms | Anglicisms and their official replacements | Words with precision | vocabulary | c1-culture-francophonie, c2-word-formation | Planned. Common anglicisms, official French terms, how terms are recommended, the purism debate. |
-| 13 | c2-review-words | Review: Words with precision | Words with precision | review | c2-paronyms, c2-polysemy, c2-word-formation, c2-advanced-false-friends, c2-anglicisms-and-official-terms | Planned. Replacing imprecise words in a text. |
+| 8 | c2-paronyms | Paronyms | Words with precision | vocabulary | b2-false-friends, b2-economy-and-business, c1-precise-verbs | Nine pairs: éminent / imminent, conjecture / conjoncture (recap), perpétrer / perpétuer, infecter / infester, prodige / prodigue, effraction / infraction, collision / collusion, recouvrer / recouvrir, acception / acceptation. Model: an article with five wrong. |
+| 9 | c2-polysemy | One word, several meanings | Words with precision | vocabulary | c1-abstract-nouns, c1-collocations, c2-paronyms | Senses of pièce, note, coup, matière, valeur, titre, relever, soutenir, se tenir; literal and figurative sense; context chooses. Model: a dialogue of misunderstandings. |
+| 10 | c2-word-formation | How words are built | Words with precision | vocabulary | b2-nominalisation, c1-abstract-nouns, c2-polysemy | Prefixes, suffixes (not predictable), learned roots (-logie, -cratie, -phobe, -cide), compounds, mots-valises, neologisms. Model: a column with three labelled invented words. |
+| 11 | c2-advanced-false-friends | Advanced false friends | Words with precision | vocabulary | b2-false-friends, c2-paronyms, c2-word-formation | The false friends left after B2 (versatile, chance, formel, conséquent, opportunité, contrôler, ignorer, évidence, définitivement, agenda, audience, retard); réaliser que and opportunité labelled as widely used, criticized. Model: an email, then corrected. |
+| 12 | c2-anglicisms-and-official-terms | Anglicisms and their official replacements | Words with precision | vocabulary | b1-culture-quebec, c1-law-and-institutions, c2-word-formation | Anglicisms and official terms (courriel, mot-dièse, mercatique), Québec terms (divulgâcher, baladodiffusion, infolettre), how terms are published, the law of 4 August 1994, purism and usage. Model: an invented company's language week. |
+| 13 | c2-review-words | Review: Words with precision | Words with precision | review | c2-paronyms, c2-polysemy, c2-word-formation, c2-advanced-false-friends, c2-anglicisms-and-official-terms | Revising a formal letter: ten imprecise words (source text), the revised letter, a before / after table, one exercise per lesson, seven corrections from the text and a writing task. |
 
 ### Unit 3: Specialized French
 

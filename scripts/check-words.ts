@@ -41,6 +41,19 @@ mit mirent tut turent put purent sut surent crut crurent lut lurent vécut vécu
 courut coururent voulut voulurent aperçut aperçurent prit prirent dit dirent écrivit écrivirent fit firent vint vinrent revint devint
 partèrent mangea mangeâmes commença commençâmes fallut dut durent plut fallu`.split(/\s+/));
 
+// C2 only (so A1 to C1 results can't change). Word-building lessons quote affixes on their own
+// (-iser, -ité, il-), and some C2 exercises and models use non-words on purpose: deliberate errors
+// in error-correction prompts and distractors, neologisms labelled as invented in the lesson, and a
+// few names (FranceTerme) that the name filter misses.
+// Every word here is listed with the lesson that uses it; none may appear in an accepted answer.
+const C2_RANK = ["a1", "a2", "b1", "b2", "c1", "c2"].indexOf("c2");
+const C2_ALLOWED = new Set(`
+iser ation ible able ité im ir il dé ifier isme iste logie cratie phobe cide age ment tion
+inlégal délégal nettoyation arrivement inréaliste changeage
+réunionocratie notificophobe déréunionner
+software franceterme
+`.trim().split(/\s+/));
+
 const ROOT = process.cwd();
 const LESSONS_DIR = path.join(ROOT, "content", "lessons");
 const LEVELS = ["a1", "a2", "b1", "b2", "c1", "c2"];
@@ -212,6 +225,7 @@ for (const l of lessons) {
       if (IGNORE.has(w) || isEnglishWord(w, l.rank >= B2_RANK) || skip.has(w) || fixedWords.has(w) || w.length < 2) continue;
       if (l.rank >= B2_RANK && (COGNATES.has(w) || INSTRUCTION_WORDS.has(w))) continue;
       if (roots(w).some((r) => knownRoots.has(r))) continue;
+      if (l.rank >= C2_RANK && C2_ALLOWED.has(w)) continue;
       if (l.rank >= C1_RANK && (C1_FORMS.has(w) || psInfinitives(w).some((inf) => roots(inf).some((r) => knownRoots.has(r))))) continue;
       if (!missing.has(w)) missing.set(w, s.length > 70 ? s.slice(0, 70) + "…" : s);
     }

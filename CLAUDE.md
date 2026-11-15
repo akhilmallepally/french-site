@@ -272,5 +272,8 @@ C2 inherits every C1 convention unless it's changed here. Plans are in docs/plan
   - A mechanical constraint (a lipogram, a word target, a metre) is checked by a script, not by eye: wrapup:c2 for lipograms (tag `lipogram`, a section heading with "lipogram", the line "Missing letter: *e*."), lib/word-count.ts for word targets, check:alexandrines for verse.
   - A contraction keeps the author's voice and order, with no *l'auteur dit*; a synthesis or a summary attributes every view to its source. Each lesson states which of the two it teaches.
   - An established word (*logiciel*, *ordinateur*) is not taught as a new replacement or as an open debate.
+  - "Both accepted" is checked sentence by sentence: each accepted variant must be correct in that exact sentence, not just somewhere in the rule.
+  - A test given to tell two forms apart is tried on the lesson's own examples of both forms before it's taught.
+  - The lesson's examples follow its own advice (punctuation, register, spelling choice).
 
 @AGENTS.md

@@ -2043,9 +2043,9 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-agreement-with-infinitives
 
-- **"At A2, you learned that *en* causes no agreement. That's the rule of thumb … Agreement with the noun that *en* stands for is also found, and some grammars accept it (*j'en ai mangées*)."** Confirm; keys accept both (ex009).
+- **"At A2, you learned that *en* causes no agreement. That's the rule of thumb … Agreement with the noun that *en* stands for is also found, and some grammars accept it (*j'en ai mangées*)."** Confirm; keys accept both only when nothing follows the participle as its direct object (ex009, *des cerises, j'en ai ___ cet été*), and only *mangé* in *j'en ai mangé trois kilos* (Prompt 43).
 - **"With *devoir*, *pouvoir* and *vouloir* + infinitive, a preceding object is the object of the infinitive, not of the modal verb. So *dû*, *pu* and *voulu* don't agree."**, *elle a fait tous les efforts qu'elle a pu*, and *les sommes qu'il a dues*. Confirm.
-- **"The same applies to *se laisser*: *elle s'est laissée convaincre* and *elle s'est laissé convaincre* are both correct."** Confirm under the 1990 rectifications.
+- ***Se laisser* (Prompt 43):** *elle s'est laissée tomber* / *elle s'est laissé tomber* both accepted (she falls); *elle s'est laissé convaincre* only (she doesn't convince). Confirm.
 - **The *par* check:** "If you can add *par* + someone after the infinitive …, the object undergoes the action, and the participle doesn't agree." Confirm as a reliable check.
 
 ### c2-tout-quelque-meme
@@ -2053,7 +2053,7 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 - **"Meaning 'completely different', *tout* doesn't change in careful writing: *une tout autre question*."** (ex005, the self-check). Confirm, and whether *une toute autre* should be labelled as frequent rather than wrong.
 - **"In the singular, *quelque* + noun means 'some' in a few set uses: *quelque chose*, *quelque part*, and the formal *quelque temps*."** Confirm.
 - **"After a plural noun, the two can be hard to tell apart in writing. To say 'even', put *même* before the noun."** Confirm the advice.
-- **The test for *tout autre*:** "if you can add *différente* after the noun, you need the adverb." Confirm it isn't misleading.
+- **The test for *tout autre* (Prompt 43):** the article test: *une tout autre* + noun (completely different, invariable) vs *toute autre* + noun with no article (any other, agrees). Checked against every example in the lesson. Confirm.
 
 ### c2-agreement-colours-compounds-numbers
 
@@ -2072,9 +2072,9 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-ellipsis-and-nominal-style
 
-- **"The verb can be left out even when its form would change: in *je prends le thé, toi, le café*, the missing verb is *prends* for *toi* as well."** Confirm.
+- **"The verb can be left out even when its form would change: in *je prends le thé ; mes parents, le café*, the missing verb is *prennent*."** (Prompt 43). Confirm.
 - **"You can also write the auxiliary once, but only if it's the same auxiliary in the same form."** Confirm as stated.
-- **"In careful writing, use a semicolon between the two clauses when each has its own comma."** Confirm the punctuation advice.
+- **"Between the two clauses, careful writing uses a semicolon … With *et*, a comma before *et* is enough."** (Prompt 43). Confirm; keys accept both, and the checker ignores the difference between a comma and a semicolon.
 - **The vocab note "*ambiguë* (1990: *ambigüe*)".** Confirm the 1990 spelling.
 - **Headline features** (the news present, the colon, the participle, *selon*). Confirm the description; no exam or style-guide claim is made.
 
@@ -2082,6 +2082,52 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 - **The ten errors and the "looks like an error but isn't" list** (*ils se sont succédé*, *les étagères que la directrice a laissé choisir aux enfants*, *tout heureux*, *une fête aura lieu*). Confirm each.
 - **The proofreading order** ("as a rule of thumb"). No claim beyond advice.
+
+### c2-paronyms
+
+- **"*Perpétrer* is used almost only with a crime or an attack."** Confirm the "almost only".
+- **"*Recouvrer* … in finance, *recouvrer une somme* (to recover a sum)."** Confirm the collocation.
+- **"*Être prodigue de promesses* is to make promises freely, often too freely."** Confirm the nuance.
+- **"*Une collusion* is a secret agreement between people who should be independent."** Confirm the definition.
+- **The tip:** "*collision* goes with the idea of a shock". Confirm it isn't misleading.
+
+### c2-polysemy
+
+- **"*La note* … at a hotel or in a restaurant, is the bill."** and **"*Un coup de main* is informal: in a formal letter, write *une aide*."** Confirm the register label.
+- **"*À juste titre* … usually follows the verb or closes the sentence."** Confirm the position claim.
+- **"*Un titre de transport* is the formal word for a ticket or a pass, the one you see on signs in stations."** Confirm.
+- **"*Se tenir* is the formal verb for a meeting or an event that takes place."** Confirm.
+- **NEW_MEANINGS:** no entry repeats an earlier French form exactly (each new sense is entered as its own phrase: *une pièce justificative*, *payer la note*, *un coup d'œil*), so NEW_MEANINGS is unchanged. Confirm this is the intended reading of the rule.
+
+### c2-word-formation
+
+- **Every formed word in a key is a real dictionary word:** *changement*, *faisable*, *modernisé*, *refaire*, *nettoyage*, *arrivée*, *irréaliste*, *lavable*, *simplicité*, *sous-estimé*, *simplifier*, *illisible*. Confirm each.
+- **The deliberate non-words** (*la nettoyation*, *l'arrivement*, *inréaliste*, *inlégal*, *délégal*, *le changeage*) appear only in prompts and distractors, never in a key. The invented words *réunionocratie*, *notificophobe*, *déréunionner* are labelled as invented. Confirm none of them is in fact a dictionary word.
+- **"*In-* … *im-* before *b*, *m* or *p*"** and **"*re-* (usually *ré-* before a vowel)"**. Confirm as rules of thumb.
+- **"*-cide* comes from a Latin root meaning 'to kill'."** Confirm.
+- **The dialogue:** *réunionite* as "familiar and ironic". Confirm it's in a dictionary with that label.
+
+### c2-advanced-false-friends
+
+- **Recapped, not taught:** *sensible*, *supporter*, *réaliser* (to carry out), *éventuellement*, *achever* (b2-false-friends, b2-passive-voice), *actuellement* (b1-cover-letter), *délai* (b2-futur-anterieur). Taught: *versatile*, *chance*, *formel*, *conséquent*, *opportunité*, *contrôler*, *ignorer*, *évidence*, *définitivement*, *agenda*, *audience*, *retard*, *réaliser que* (labelled).
+- **"The use of *conséquent* for 'large' … is very common in speech and in the press, and the Académie française criticizes it."** Confirm.
+- **"*Définitivement* … You'll also hear it for 'definitely', an anglicism criticized like *réaliser que*."** Confirm.
+- **"*Contrôler* … also means to control (*contrôler la situation*), so it's only a partial false friend."** and the same for *ignorer quelqu'un*. Confirm both are accepted uses.
+- **"*L'audience* is the size of an audience … or a court hearing."** Confirm.
+
+### c2-anglicisms-and-official-terms
+
+- **"In France, a terminology commission studies the English words … The terms it adopts are published in the Journal officiel and listed on a public site, FranceTerme. In Québec, the OQLF publishes its recommendations in its own dictionary."** Confirm the description (the commission's exact name isn't given).
+- **"*La loi Toubon*, the law of 4 August 1994 on the use of French, requires French in some areas of public life in France, such as information for consumers and the workplace. It doesn't tell people which words to use in conversation."** Confirm the two examples.
+- **Usage claims:** "In France, many people still say *un mail* in everyday speech"; "in business, *le marketing* remains very common"; "in everyday speech, many people keep *hashtag*"; *courriel* "very common in Québec". No figures are given. Confirm.
+- **"*Une infolettre* is the usual word for a newsletter in Québec"** and "French in France usually says *une lettre d'information*". Confirm.
+- **The purism paragraph:** "Others, including many linguists, point out that borrowing is a normal part of a language's life". Confirm it's a fair, neutral summary.
+
+### c2-review-words
+
+- **The ten imprecise words and the "suspicious but right" list** (*relève de*, *en matière de*, *la conjoncture actuelle*). Confirm each.
+- **"*Une faute de sens*" (plan) replaced by *un mot passe-partout*,** because Unit 5 teaches *un faux sens* and *un contresens*. Confirm the term *mot passe-partout*.
+- **The letter is labelled as an extract** (no address, place or date), as the C1 rule on model letters allows.
 
 ## C2 plan
 
@@ -2097,12 +2143,13 @@ Every item is **to verify** before the lesson that relies on it is written (docs
 
 ### Lexis and specialized French (Units 2 and 3)
 
-- **c2-paronyms:** to verify each pair's meanings: *éminent / imminent*, *conjecture / conjoncture*, *perpétrer / perpétuer*, *infecter / infester*, *prodige / prodigue*, *effraction / infraction*, *collision / collusion*, *recouvrer / recouvrir*, *acception / acceptation*.
-- **c2-advanced-false-friends:** to verify the status of *réaliser que* and *opportunité* (accepted, criticized, or both) before labelling them.
-- **c2-anglicisms-and-official-terms:** to verify: the official French terms and their dates of publication (*courriel*, *mot-dièse*, *infolettre*, *mercatique*); the role of the Commission d'enrichissement de la langue française and FranceTerme; *divulgâcher* and *baladodiffusion* as Québec terms (Office québécois de la langue française); the 1994 law on the use of French (Loi Toubon), adopted in August 1994, stated without figures.
-  - *écrasement* (for *crash*): to verify whether it's an official French term (FranceTerme) or Québec usage only; dropped from the lesson if neither can be confirmed.
-  - *covoiturage*: to verify that it's the usual word in France (not presented as a replacement still under debate).
-  - *logiciel* and *ordinateur*: to verify the dates of coinage (*ordinateur* proposed in 1955 for IBM France; *logiciel* in the late 1960s, official in the early 1980s?) before giving any date; otherwise present them only as long-established coinages.
+- **c2-paronyms:** verified (Prompt 43 review): the nine pairs (*éminent / imminent*, *conjecture / conjoncture*, *perpétrer / perpétuer*, *infecter / infester*, *prodige / prodigue*, *effraction / infraction*, *collision / collusion*, *recouvrer / recouvrir*, *acception / acceptation*).
+- **c2-advanced-false-friends:** verified (Prompt 43 review): *réaliser que* and *opportunité* (= *occasion*) are labelled as widely used in this sense and criticized by the Académie française, never as simply wrong; keys accept them only where the lesson says (no register cue: both; "registre soutenu" or "texte soigné": the uncontested word only).
+- **c2-anglicisms-and-official-terms:**
+  - verified (Prompt 43 review): *courriel* and *mot-dièse* as official terms (*mot-dièse* 2013, the only date given); the Loi Toubon as the law of 4 August 1994, with no figures; *divulgâcher* and *baladodiffusion* as Québec terms recommended by the Office québécois de la langue française.
+  - not confirmed, so hedged: *infolettre* is presented as Québec usage only; *écrasement* is dropped; *mercatique* is given with no date.
+  - *logiciel* and *ordinateur*: presented only as long-established words, with no date (verified approach, Prompt 43).
+  - *covoiturage*: to verify that it's the usual word in France (the lesson says so).
 - **c2-legal-french:** to verify whether the Cour de cassation has abandoned the "attendu que" style of judgments, and since when, before mentioning it.
 - **c2-medical-french, c2-scientific-french, c2-administrative-french:** all texts invented; to verify that no term or procedure is presented as current French law or medical advice.
 

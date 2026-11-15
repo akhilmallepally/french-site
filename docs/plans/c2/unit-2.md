@@ -1,6 +1,13 @@
 # C2 Unit 2 plan: Words with precision
 
-Status: plan only. Rules: the "C2 conventions" in CLAUDE.md.
+Status: **written in Prompt 43.** Rules: the "C2 conventions" in CLAUDE.md.
+
+Changes made while writing (also in docs/syllabus.md):
+- Lesson 8: *la conjoncture* is recapped from b2-economy-and-business, not a new entry (the audit forbids repeating a B2 entry), so that pair has one new entry; the other eight pairs have two.
+- Lesson 9: *une acception* is recapped from lesson 8, not re-entered. Each new sense is its own phrase (*une pièce justificative*, *payer la note*), so NEW_MEANINGS needed no new entry.
+- Lesson 11: recapped from B1 and B2 rather than taught: *sensible*, *supporter*, *réaliser* (to carry out), *éventuellement*, *achever*, *actuellement*, *délai*. Added: *ignorer*, *évidence*, *définitivement*, *agenda*, *audience*, *retard*.
+- Lesson 12: *écrasement* dropped; *infolettre* given as Québec usage; *mercatique* with no date.
+- Lesson 13: *une faute de sens* replaced by *un mot passe-partout* (Unit 5 teaches *faux sens* and *contresens*); *imprécis* added. The letter with errors is a "Source text" section, so the lesson has no dialogue.
 
 C1 taught near-synonyms by register and strength (c1-euphemism-and-synonyms), precise verbs (c1-precise-verbs) and collocations (c1-collocations). This unit adds the word problems that remain at C2: words that look alike, words with many meanings, how words are built, and the pull of English.
 

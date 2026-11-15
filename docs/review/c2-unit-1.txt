@@ -165,7 +165,7 @@ A *réciproque* (reciprocal) verb means that people do something to each other. 
 
 <Example fr="Ils se sont plu dès le premier soir." en="They liked each other from the very first evening." />
 
-*Se plaire* also means "to enjoy being somewhere", and its participle stays the same there too: *elles se sont plu à Lyon* (they enjoyed living in Lyon).
+The phrase *se plaire* also means "to enjoy being somewhere", and its participle stays the same there too: *elles se sont plu à Lyon* (they enjoyed living in Lyon).
 
 A preceding COD still counts. *Ils se sont écrit* doesn't agree, but in *les lettres qu'ils se sont écrites*, *que* stands for *les lettres*, a direct object before the verb.
 
@@ -173,7 +173,7 @@ A preceding COD still counts. *Ils se sont écrit* doesn't agree, but in *les le
 
 <VocabTable group="essential" />
 
-*Un verbe essentiellement pronominal* (a verb that only exists with *se*) has no form without the pronoun: you can't *évanouir* someone. There's no object to test, so the participle agrees with the subject. *S'évanouir* (to faint), *se méfier de* (to be wary of), *s'enfuir* and *se souvenir de* all work this way.
+The term *un verbe essentiellement pronominal* (a verb that only exists with *se*) has no form without the pronoun: you can't *évanouir* someone. There's no object to test, so the participle agrees with the subject. *S'évanouir* (to faint), *se méfier de* (to be wary of), *s'enfuir* and *se souvenir de* all work this way.
 
 <Example fr="Les témoins se sont méfiés de cette version des faits." en="The witnesses were wary of that version of events." />
 
@@ -232,7 +232,7 @@ Most of these agreements are silent: *lavé* and *lavée* sound the same. You he
 - If *se* is the COI, there's no agreement with it; agree only with a COD placed before the verb.
 - Indirect *se*: *se parler*, *se dire*, *s'écrire*, *se répondre*, *se téléphoner*, *se sourire*, *se mentir*, *se nuire*, *se succéder*, *se ressembler*, *se plaire* (*plu* in every meaning).
 - Verbs that only exist with *se*, verbs whose meaning changes with *se*, and pronominal verbs with a passive meaning agree with the subject. Exception: *s'arroger*, which follows the COD rule.
-- *Rendu* (*se rendre compte*) and *fait* + infinitive never agree; *permis* in *se permettre de* doesn't either.
+- The forms *rendu* (*se rendre compte*) and *fait* + infinitive never agree; *permis* in *se permettre de* doesn't either.
 
 ## En français
 
@@ -246,9 +246,9 @@ Clara, a journalist, rereads the news item with Hugo, the editor. They use *tu*.
 - *On parle à quelqu'un : se est indirect, donc pas d'accord.* (You speak to someone: se is indirect, so no agreement.)
 - *Et pour « s'est évanouie », je n'ai pas de COD à chercher.* (And for "s'est évanouie", I have no direct object to look for.)
 - *Exactement. S'évanouir n'existe qu'avec se : on accorde avec le sujet.* (Exactly. S'évanouir only exists with se: you make it agree with the subject.)
-- *Il me reste « les provisions qu'elles s'étaient partagées ».* (I still have "les provisions qu'elles s'étaient partagées".)
+- *Il me reste la citation : « les provisions que nous nous étions partagées ».* (I still have the quotation: "les provisions que nous nous étions partagées".)
 - *Que remplace les provisions, et il est avant le verbe : partagées est juste.* (Que stands for les provisions, and it comes before the verb: partagées is right.)
-- *Dans la citation, la randonneuse dit « nous nous sommes méfiées ». Je garde le e ?* (In the quotation, the hiker says "nous nous sommes méfiées". Do I keep the e?)
+- *Et plus loin, elle dit « nous nous sommes méfiées ». Je garde le e ?* (And further on, she says "nous nous sommes méfiées". Do I keep the e?)
 - *Oui, elles sont deux femmes, et se méfier s'accorde avec le sujet.* (Yes, they're two women, and se méfier agrees with the subject.)
 - *Merci. Je n'aurais jamais pensé qu'un fait divers demandait autant de grammaire !* (Thanks. I'd never have thought a news story needed so much grammar!)
 - *Les lecteurs ne voient pas les accords justes, mais ils voient tout de suite les faux.* (Readers don't notice correct agreements, but they notice the wrong ones straight away.)
@@ -346,9 +346,9 @@ exercises:
     explanation: "Fait never agrees before an infinitive."
   - id: "c2-agreement-with-infinitives-ex009"
     type: "fill-in"
-    prompt: "Accordez le participe (manger), deux graphies admises : Des cerises, j'en ai ___ trois kilos cet été."
+    prompt: "Accordez le participe (manger), deux graphies admises : Des cerises, j'en ai ___ cet été."
     answers: ["mangé", "mangées"]
-    explanation: "With en, the participle usually stays invariable (mangé). Agreement with the noun en stands for (mangées) is also found. Both are accepted here."
+    explanation: "With en and nothing after the participle as its direct object, the participle usually stays invariable (mangé), and agreement with the noun en stands for (mangées) is also found. Both are accepted here."
     strictAccents: true
   - id: "c2-agreement-with-infinitives-ex010"
     type: "error-correction"
@@ -410,7 +410,7 @@ In <LessonLink id="b2-faire-causatif" text="the lesson on faire + infinitive" />
 
 <VocabTable group="perception" />
 
-*Un verbe de perception* (a verb of perception) such as *voir*, *entendre*, *regarder*, *écouter* or *sentir* can be followed directly by an infinitive: *voir quelqu'un partir* means "to see someone leave". The noun can go before or after the infinitive.
+The term *un verbe de perception* (a verb of perception) such as *voir*, *entendre*, *regarder*, *écouter* or *sentir* can be followed directly by an infinitive: *voir quelqu'un partir* means "to see someone leave". The noun can go before or after the infinitive.
 
 <Example fr="J'ai entendu les voisins rire toute la soirée." en="I heard the neighbours laughing all evening." />
 
@@ -441,7 +441,7 @@ The same test works with *voir*, *regarder*, *écouter* and *sentir*.
 
 ## Fait: never
 
-*Fait* before an infinitive never agrees, whatever the object does. That's the rule you know from B2, and it's the same in traditional and in 1990 spelling.
+The word *fait* before an infinitive never agrees, whatever the object does. That's the rule you know from B2, and it's the same in traditional and in 1990 spelling.
 
 <Example fr="Les artistes qu'elle a fait venir étaient tous italiens." en="The performers she brought in were all Italian." />
 
@@ -449,12 +449,12 @@ The same test works with *voir*, *regarder*, *écouter* and *sentir*.
 
 <VocabTable group="spelling" />
 
-*Laissé* has two correct spellings before an infinitive.
+The word *laissé* has two correct spellings before an infinitive.
 
 - **In *l'orthographe traditionnelle* (traditional spelling)**, it follows the test for verbs of perception: *je les ai laissés partir* (they leave, so agree), but *la maison qu'il a laissé vendre* (the house doesn't sell anything, so no agreement).
 - **The 1990 spelling rectifications**, recommended rather than compulsory, make *laissé* invariable before an infinitive, like *fait*: *je les ai laissé partir*.
 
-So, in this course, *les deux graphies sont admises* (both spellings are accepted) wherever traditional spelling would make *laissé* agree. Where traditional spelling keeps it invariable, there's only one answer. The same applies to *se laisser*: *elle s'est laissée convaincre* and *elle s'est laissé convaincre* are both correct.
+So, in this course, *les deux graphies sont admises* (both spellings are accepted) wherever traditional spelling would make *laissé* agree. Where traditional spelling keeps it invariable, there's only one answer. The same applies to *se laisser*. In *elle s'est laissée tomber*, she is the one who falls, so traditional spelling agrees, and *elle s'est laissé tomber* (1990) is correct too. In *elle s'est laissé convaincre*, she doesn't convince anyone: someone convinces her. Traditional spelling keeps *laissé* invariable there, so there's only one answer.
 
 <Example fr="Ses enfants, elle les a laissés choisir leur métier." en="Her children: she let them choose their careers. (traditional spelling)" />
 
@@ -474,7 +474,7 @@ Here, *qu'elle a pu* means *qu'elle a pu faire*. The object belongs to the missi
 
 ## The participle after en
 
-At A2, you learned that *en* causes no agreement. That's the rule of thumb, and you should keep it in your own writing: *des cerises, j'en ai mangé*. In careful writing, usage varies. Agreement with the noun that *en* stands for is also found, and some grammars accept it (*j'en ai mangées*). So in this course, a typed answer with *en* accepts both, and the invariable form is the safe choice when you write.
+At A2, you learned that *en* causes no agreement. That's the rule of thumb, and you should keep it in your own writing: *des cerises, j'en ai mangé*. In careful writing, usage varies. Agreement with the noun that *en* stands for is also found, and some grammars accept it (*j'en ai mangées*). So in this course, when *en* is the only object and nothing follows the participle as its direct object, a typed answer accepts both: *des cerises, j'en ai mangé* or *mangées*. When a direct object follows the participle (*j'en ai mangé trois kilos*), only the invariable form is correct, because a participle never agrees with an object placed after it. The invariable form is always the safe choice when you write.
 
 <Example fr="Des concerts comme celui-là, j'en ai entendu beaucoup." en="I've heard a lot of concerts like that one." />
 
@@ -503,27 +503,27 @@ At A2, you learned that *en* causes no agreement. That's the rule of thumb, and 
 
 - Verb of perception + infinitive: the participle agrees with a preceding COD only if the COD does the action of the infinitive (*les musiciennes que j'ai entendues jouer*, but *les airs que j'ai entendu jouer*).
 - Checks: a relative clause with *qui*, or *par* + someone after the infinitive.
-- *Fait* + infinitive: never agrees.
-- *Laissé* + infinitive: traditional spelling follows the test; the 1990 rectifications make it invariable. Both are accepted.
-- *Dû*, *pu* and *voulu* + infinitive (written or understood): no agreement, because the object belongs to the infinitive.
-- *En*: usually invariable; agreement is also found. Both are accepted in keys, and the invariable form is the safe choice.
+- The form *fait* + infinitive: never agrees.
+- The form *laissé* + infinitive: traditional spelling follows the test; the 1990 rectifications make it invariable. Both are accepted where traditional spelling agrees (*elle s'est laissée tomber* / *laissé tomber*); only *laissé* where it doesn't (*elle s'est laissé convaincre*).
+- The forms *dû*, *pu* and *voulu* + infinitive (written or understood): no agreement, because the object belongs to the infinitive.
+- The form *en*: usually invariable; agreement is also found. Both are accepted in keys when nothing follows the participle as its direct object (*j'en ai mangé*), and only the invariable form when something does (*j'en ai mangé trois kilos*).
 
 ## En français
 
-Malik and Inès sing in the same choir. They're writing the choir's newsletter together, and they use *tu*.
+Malik and Inès sing in the same choir. They're checking Malik's first draft of the concert review above, and they use *tu*.
 
-- *Inès, j'ai écrit : « Les chanteuses que nous avons entendues chanter étaient très bonnes. » C'est juste ?* (Inès, I wrote: "Les chanteuses que nous avons entendues chanter étaient très bonnes." Is that right?)
-- *Oui. Ce sont les chanteuses qui chantent, donc tu accordes.* (Yes. The singers are the ones singing, so you make it agree.)
-- *Et la phrase suivante : « Les airs que nous avons entendus chanter ».* (And the next sentence: "Les airs que nous avons entendus chanter".)
-- *Là, non. Les airs ne chantent pas, on les chante. Il faut écrire entendu.* (No, not there. The tunes don't sing; people sing them. You need to write entendu.)
-- *Je n'y avais pas pensé. Et avec faire ? J'ai mis « les artistes que nous avons faites venir ».* (I hadn't thought of that. And with faire? I put "les artistes que nous avons faites venir".)
-- *Fait ne s'accorde jamais devant un infinitif. Écris « que nous avons fait venir ».* (Fait never agrees before an infinitive. Write "que nous avons fait venir".)
+- *Inès, j'ai écrit : « Les musiciennes que nous avons entendues jouer ont entre quinze et vingt ans. » C'est juste ?* (Inès, I wrote: "Les musiciennes que nous avons entendues jouer ont entre quinze et vingt ans." Is that right?)
+- *Oui. Ce sont les musiciennes qui jouent, donc tu accordes.* (Yes. The musicians are the ones playing, so you make it agree.)
+- *Et ensuite : « les airs que nous avons entendus jouer ».* (And then: "les airs que nous avons entendus jouer".)
+- *Là, non. Les airs ne jouent pas, on les joue. Il faut écrire entendu.* (No, not there. The tunes don't play; people play them. You need to write entendu.)
+- *Je n'y avais pas pensé. Et avec faire ? J'ai mis « les artistes qu'elle a faits venir ».* (I hadn't thought of that. And with faire? I put "les artistes qu'elle a faits venir".)
+- *Fait ne s'accorde jamais devant un infinitif. Écris « qu'elle a fait venir ».* (Fait never agrees before an infinitive. Write "qu'elle a fait venir".)
 - *D'accord. Dernière question : « le public ne les a pas laissés partir ».* (OK. Last question: "le public ne les a pas laissés partir".)
 - *C'est juste. Avec les rectifications de 1990, « laissé » sans accord est juste aussi.* (That's right. With the 1990 rectifications, "laissé" with no agreement is right too.)
 - *Alors je choisis laquelle ?* (So which one do I choose?)
 - *Choisis une graphie et garde-la dans tout le texte.* (Choose one spelling and keep it through the whole text.)
-- *Je garde l'accord, comme dans le reste de la lettre.* (I'll keep the agreement, like in the rest of the newsletter.)
-- *Parfait. Et relis la phrase sur les cerises : « j'en ai mangé » suffit.* (Perfect. And reread the sentence about the cherries: "j'en ai mangé" is enough.)
+- *Je garde l'accord, comme dans le reste de l'article.* (I'll keep the agreement, like in the rest of the review.)
+- *Parfait. Et dans la dernière phrase, « je n'en ai pas entendu beaucoup », garde entendu sans accord.* (Perfect. And in the last sentence, "je n'en ai pas entendu beaucoup", keep entendu with no agreement.)
 
 <Callout type="warning" title="The songs don't sing">
   The usual mistake is to make the participle agree with every preceding object: *les chansons que j'ai entendues chanter* is wrong, because the songs don't sing. Agree only when the object does the action of the infinitive: **les chansons que j'ai entendu chanter**, but **les chanteuses que j'ai entendues chanter**.
@@ -535,7 +535,7 @@ Malik and Inès sing in the same choir. They're writing the choir's newsletter t
 
 ## En résumé
 
-Devant un infinitif, le participe passé d'un verbe de perception, comme voir, entendre, regarder, écouter ou sentir, s'accorde avec le COD placé avant lui seulement si ce COD fait l'action de l'infinitif. On écrit donc les musiciennes que j'ai entendues jouer, parce que les musiciennes jouent, mais les airs que j'ai entendu jouer, parce que les airs ne jouent pas : on les joue. Pour le vérifier, on peut essayer une relative avec qui, ou ajouter par et une personne après l'infinitif. Le participe fait ne s'accorde jamais devant un infinitif. Pour laissé, l'orthographe traditionnelle suit la même règle que les verbes de perception, mais les rectifications orthographiques de 1990, qui sont recommandées et pas obligatoires, le rendent invariable. Pour laissé, les deux graphies sont donc admises dans ce cours. Les participes dû, pu et voulu ne s'accordent pas quand l'objet appartient à l'infinitif. Avec en, le participe reste en général invariable, mais l'accord se trouve aussi. Dans un même texte, il vaut mieux garder une seule graphie.
+Devant un infinitif, le participe passé d'un verbe de perception, comme voir, entendre, regarder, écouter ou sentir, s'accorde avec le COD placé avant lui seulement si ce COD fait l'action de l'infinitif. On écrit donc les musiciennes que j'ai entendues jouer, parce que les musiciennes jouent, mais les airs que j'ai entendu jouer, parce que les airs ne jouent pas : on les joue. Pour le vérifier, on peut essayer une relative avec qui, ou ajouter par et une personne après l'infinitif. Le participe fait ne s'accorde jamais devant un infinitif. Pour laissé, l'orthographe traditionnelle suit la même règle que les verbes de perception, mais les rectifications orthographiques de 1990, qui sont recommandées et pas obligatoires, le rendent invariable. Pour laissé, les deux graphies sont donc admises dans ce cours quand l'orthographe traditionnelle fait l'accord, comme dans elle s'est laissée tomber. Dans elle s'est laissé convaincre, laissé reste invariable. Les participes dû, pu et voulu ne s'accordent pas quand l'objet appartient à l'infinitif. Avec en, le participe reste en général invariable, mais l'accord se trouve aussi quand aucun COD ne suit le participe. Dans un même texte, il vaut mieux garder une seule graphie.
 
 ## What's next
 
@@ -693,7 +693,7 @@ Before a vowel, the spelling can change the meaning. *Elles sont tout heureuses*
 
 <VocabTable group="autre" />
 
-*Tout autre* has two meanings, and the spelling shows which one you mean.
+The phrase *tout autre* has two meanings, and the spelling shows which one you mean.
 
 - **Meaning "any other"**, *tout* is a determiner and agrees with the noun: *toute autre réponse sera refusée*.
 - **Meaning "completely different"**, *tout* is an adverb that modifies *autre*, so it doesn't change: *c'est une tout autre histoire*.
@@ -702,13 +702,13 @@ Before a vowel, the spelling can change the meaning. *Elles sont tout heureuses*
 
 <Example fr="Après dix ans, elle a choisi une tout autre carrière." en="After ten years, she chose a completely different career." />
 
-A quick test: if you can add *différente* after the noun, you need the adverb. *Une histoire tout à fait différente* works, so *une tout autre histoire*.
+**The test: look for an article.** With *un* or *une* before it (*une tout autre histoire*, *une tout autre carrière*), *tout* means "completely" and stays invariable. With no article (*toute autre réponse*, *toute autre demande*), it means "any other" and agrees with the noun.
 
 ## Quelque: three uses
 
 <VocabTable group="quelque" />
 
-*Quelque* in one word has three uses, and only one of them agrees.
+The word *quelque* in one word has three uses, and only one of them agrees.
 
 1. **Before a plural noun, meaning "a few, some"**, it's a determiner and agrees: *quelques amis*.
 2. **Before a number, meaning "about"**, it's an adverb and doesn't change: *quelque deux cents personnes*. This is formal; *environ* is the everyday word.
@@ -728,7 +728,7 @@ The concessive uses are formal. In everyday French, *bien que*, from <LessonLink
 
 <VocabTable group="quel" />
 
-*Quel que*, in two words, is followed by *être* in the subjunctive, or by a pronoun and *être*. *Quel* is an adjective here, and it agrees with the subject of *être*.
+The phrase *quel que*, in two words, is followed by *être* in the subjunctive, or by a pronoun and *être*. *Quel* is an adjective here, and it agrees with the subject of *être*.
 
 <Example fr="Quelle que soit votre décision, nous la respecterons." en="Whatever your decision is, we'll respect it." />
 
@@ -740,7 +740,7 @@ The concessive uses are formal. In everyday French, *bien que*, from <LessonLink
 
 <VocabTable group="meme" />
 
-*Même* agrees when it's an adjective or a pronoun, and doesn't when it's an adverb.
+The word *même* agrees when it's an adjective or a pronoun, and doesn't when it's an adverb.
 
 - **Adjective or pronoun, meaning "same" or "itself"**, it agrees: *les mêmes erreurs*, *ce sont toujours les mêmes*, *eux-mêmes*.
 - **Adverb, meaning "even"**, it doesn't change: *même les enfants ont compris*.
@@ -776,11 +776,11 @@ The first draft of this editorial had five mistakes. Each one is a real temptati
 ## The whole list
 
 - Adverb *tout*: invariable, except before a feminine adjective starting with a consonant or an aspirated h (*toute contente*, *toute honteuse*); *tout étonnée*, *tout heureuses*.
-- *Toute autre* + noun: "any other" (agrees). *Une tout autre* + noun: "completely different" (invariable).
-- *Quelques* + plural noun: "a few" (agrees); *quelque temps*, *quelque part*, *quelque chose* (singular). *Quelque* + number: "about" (invariable, formal).
-- *Quelque* + adjective + *que* + subjunctive: invariable. *Quelques* + noun + *que*: agrees. Both formal.
-- *Quel que* + *être*: two words, *quel* agrees with the subject (*quelle que soit*, *quels que soient*).
-- *Même*: agrees as "same" or "itself" (*les mêmes*, *eux-mêmes*); invariable as "even".
+- The form *toute autre* + noun, with no article: "any other" (agrees). *Une tout autre* + noun, after an article: "completely different" (invariable).
+- The form *quelques* + plural noun: "a few" (agrees); *quelque temps*, *quelque part*, *quelque chose* (singular). *Quelque* + number: "about" (invariable, formal).
+- The form *quelque* + adjective + *que* + subjunctive: invariable. *Quelques* + noun + *que*: agrees. Both formal.
+- The form *quel que* + *être*: two words, *quel* agrees with the subject (*quelle que soit*, *quels que soient*).
+- The form *même*: agrees as "same" or "itself" (*les mêmes*, *eux-mêmes*); invariable as "even".
 
 ## En français
 
@@ -811,7 +811,7 @@ Yasmine and Paul work at a local newspaper. Paul is checking Yasmine's editorial
 
 ## En résumé
 
-Comme adverbe, tout veut dire très ou complètement, et il ne change pas. Il s'accorde seulement devant un adjectif féminin qui commence par une consonne ou par un h aspiré : on écrit toute contente et toute honteuse, mais tout étonnée et tout heureuses. Toute autre réponse veut dire n'importe quelle autre réponse, et tout s'accorde. Dans une tout autre histoire, tout veut dire complètement, et il reste invariable. Quelques, devant un nom, veut dire un petit nombre de, et s'accorde. Devant un nombre, quelque veut dire environ et ne change pas. Dans la langue soutenue, quelque et que avec le subjonctif expriment la concession : quelque riches qu'ils soient. Devant être, on écrit quel que en deux mots, et quel s'accorde avec le sujet : quelle que soit la raison. Enfin, même s'accorde quand c'est un adjectif, comme dans les mêmes erreurs, ou quand il suit un pronom, comme dans eux-mêmes. Comme adverbe, dans même les enfants, il ne change pas.
+Comme adverbe, tout veut dire très ou complètement, et il ne change pas. Il s'accorde seulement devant un adjectif féminin qui commence par une consonne ou par un h aspiré : on écrit toute contente et toute honteuse, mais tout étonnée et tout heureuses. Sans article, toute autre réponse veut dire n'importe quelle autre réponse, et tout s'accorde. Après un article, dans une tout autre histoire, tout veut dire complètement, et il reste invariable. Quelques, devant un nom, veut dire un petit nombre de, et s'accorde. Devant un nombre, quelque veut dire environ et ne change pas. Dans la langue soutenue, quelque et que avec le subjonctif expriment la concession : quelque riches qu'ils soient. Devant être, on écrit quel que en deux mots, et quel s'accorde avec le sujet : quelle que soit la raison. Enfin, même s'accorde quand c'est un adjectif, comme dans les mêmes erreurs, ou quand il suit un pronom, comme dans eux-mêmes. Comme adverbe, dans même les enfants, il ne change pas.
 
 ## What's next
 
@@ -962,7 +962,7 @@ In <LessonLink id="a1-shopping-for-clothes" text="the lesson on shopping for clo
 
 <VocabTable group="colours" />
 
-*Un adjectif de couleur* (a colour adjective) that is a real adjective agrees as usual: *des robes vertes*, *des yeux bleus*. A colour word that is really a noun (a fruit, a flower, a stone) doesn't change: *des rideaux cerise*, *des coussins crème*, *des chaussures marron*.
+The term *un adjectif de couleur* (a colour adjective) that is a real adjective agrees as usual: *des robes vertes*, *des yeux bleus*. A colour word that is really a noun (a fruit, a flower, a stone) doesn't change: *des rideaux cerise*, *des coussins crème*, *des chaussures marron*.
 
 Six of these words have become ordinary adjectives and agree: *rose*, *mauve*, *fauve*, *écarlate*, *pourpre* and *incarnat*.
 
@@ -982,7 +982,7 @@ Compare *des yeux bleus* (each eye is blue) with *des yeux bleu-vert* (each eye 
 
 <VocabTable group="compounds" />
 
-*Un nom composé* (a compound noun) is written with *un trait d'union* (a hyphen), and its plural depends on what each part is.
+The term *un nom composé* (a compound noun) is written with *un trait d'union* (a hyphen), and its plural depends on what each part is.
 
 - **Noun + adjective, or adjective + noun**: both parts agree: *des grands-parents*, *des coffres-forts*.
 - **Noun + de + noun**: only the first noun agrees: *des chefs-d'œuvre*.
@@ -1004,7 +1004,7 @@ The A2 rule works in every case if you remember what counts as a number.
 - **Million and milliard are nouns**, so *vingt* and *cent* before them do end the number: *quatre-vingts millions*, *deux cents milliards*. *Million* and *milliard* take an *s* in the plural and *de* before a noun.
 - **A number used as an ordinal** (for a page, a room or a year) doesn't take an *s*: *la page quatre-vingt*, *l'an deux cent*.
 
-<Example fr="Le pays compte soixante-sept millions d'habitants et deux cent mille entreprises." en="The country has sixty-seven million inhabitants and two hundred thousand businesses." />
+<Example fr="Ce pays imaginaire compte cinquante millions d'habitants et deux cent mille entreprises." en="This imaginary country has fifty million inhabitants and two hundred thousand businesses." />
 
 ## Hyphens in numbers
 
@@ -1022,7 +1022,7 @@ In typed answers, the course doesn't check hyphens: *vingt et un* and *vingt-et-
 
 *Inventaire du magasin, au trente et un décembre. Article numéro quatre-vingt : deux cents rideaux crème. Article numéro deux cent un : quatre-vingts nappes rouge foncé. Article numéro trois cent vingt et un : deux cent mille boutons orange. Article numéro mille : quatre-vingt-deux porte-monnaie roses.*
 
-*Le tableau montre deux jeunes filles aux yeux bleu clair, assises devant des rideaux pourpres. Leurs robes sont cerise et les murs, gris clair. Des fleurs mauves tombent d'un vase, et derrière elles, des gratte-ciel gris montent dans un ciel orange.*
+*Le tableau montre deux jeunes filles aux yeux bleu clair, assises devant des rideaux pourpres. Leurs robes sont cerise, et les murs, gris clair. Des fleurs mauves tombent d'un vase, et derrière elles, des gratte-ciel gris montent dans un ciel orange.*
 
 (Shop inventory, as of the thirty-first of December. Item number eighty: two hundred cream curtains. Item number two hundred and one: eighty dark red tablecloths. Item number three hundred and twenty-one: two hundred thousand orange buttons. Item number one thousand: eighty-two pink purses. The painting shows two girls with light blue eyes, sitting in front of crimson curtains. Their dresses are cherry-red and the walls light grey. Mauve flowers fall from a vase, and behind them, grey skyscrapers rise into an orange sky.)
 
@@ -1041,13 +1041,13 @@ In typed answers, the course doesn't check hyphens: *vingt et un* and *vingt-et-
 - Colours from nouns are invariable (*cerise*, *crème*, *orange*, *marron*), except *rose*, *mauve*, *fauve*, *écarlate*, *pourpre*, *incarnat*.
 - Compound colours are invariable: *bleu clair*, *vert foncé*, *bleu marine*, *bleu-vert*.
 - Compound nouns: noun + adjective, both agree; noun + *de* + noun, the first; verb + noun, the verb never, the noun by meaning (traditional) or whenever the compound is plural (1990).
-- *Vingt* and *cent* take *s* when multiplied and ending the number; *million* and *milliard* don't count as numbers, *mille* does.
+- The words *vingt* and *cent* take *s* when multiplied and ending the number; *million* and *milliard* don't count as numbers, *mille* does.
 - No *s* for an ordinal use: *la page quatre-vingt*.
 - Hyphens: traditional under a hundred without *et*; 1990 everywhere.
 
 ## En français
 
-Léo is checking an invoice with Sarah, who runs a fabric shop. They use *tu*.
+Léo is checking the shop's inventory with Sarah, who runs a fabric shop. They use *tu*.
 
 - *Sarah, je relis l'inventaire. Tu écris « deux cents » ou « deux cent » mille boutons ?* (Sarah, I'm rereading the inventory. Do you write "deux cents" or "deux cent" mille boutons?)
 - *Deux cent, sans s. Mille est un nombre, donc cent ne termine pas le nombre.* (Deux cent, without an s. Mille is a number, so cent doesn't end the number.)
@@ -1103,6 +1103,7 @@ vocab:
   - { id: "c2-concordance-in-writing-v010", group: "minutes", fr: "le comité des fêtes", pron: "luh koh-mee-TAY day FET", en: "the (local) festivals committee" }
   - { id: "c2-concordance-in-writing-v011", group: "minutes", fr: "l'année précédente", pron: "lah-NAY pray-say-DAHNT", en: "the year before (in a past report)", note: "L'an dernier becomes l'année précédente." }
   - { id: "c2-concordance-in-writing-v012", group: "minutes", fr: "une fête réussie", pron: "ewn fet ray-ew-SEE", en: "a successful party, a successful festival" }
+  - { id: "c2-concordance-in-writing-v013", group: "minutes", fr: "reçoive (recevoir)", pron: "ruh-SWAHV", en: "receive (the subjunctive of recevoir, to receive)", note: "Past participle reçu: quand le comité aura reçu les devis." }
 exercises:
   - id: "c2-concordance-in-writing-ex001"
     type: "multiple-choice"
@@ -1266,7 +1267,7 @@ A classic text follows the literary concordance from <LessonLink id="c1-imperfec
 
 <VocabTable group="clauses" />
 
-*Avant que* takes the subjunctive, because the action hasn't happened yet: *ils sont partis avant qu'elle arrive*. *Après que* describes something that has happened, and careful written French puts it in the indicative, with the tense that shows anteriority: *après qu'il est parti*, *après qu'il était parti*.
+The phrase *avant que* takes the subjunctive, because the action hasn't happened yet: *ils sont partis avant qu'elle arrive*. *Après que* describes something that has happened, and careful written French puts it in the indicative, with the tense that shows anteriority: *après qu'il est parti*, *après qu'il était parti*.
 
 In speech and in much everyday writing, you'll often see *après qu'il soit parti*, by analogy with *avant que*. It's very common, but many readers and editors don't accept it, so keep the indicative in formal writing.
 
@@ -1311,7 +1312,7 @@ In speech and in much everyday writing, you'll often see *après qu'il soit part
 - One anchor and one narrative tense per paragraph; time words shift with the anchor.
 - General truths and facts you accept may stay in the present; the imparfait is never wrong in a past report.
 - Modern subjunctive: present or passé, whatever the anchor. The literary concordance is for recognition.
-- *Avant que* + subjunctive; *après que* + indicative in careful writing.
+- The form *avant que* + subjunctive; *après que* + indicative in careful writing.
 
 ## En français
 
@@ -1330,7 +1331,7 @@ Agathe is secretary of the festivals committee. She's reading her minutes to Bru
 - *Il me reste la dernière phrase : « une fête réussie demande des bénévoles ».* (I still have the last sentence: "une fête réussie demande des bénévoles".)
 - *Garde le présent : c'est une vérité générale, et tout le monde est d'accord.* (Keep the present: it's a general truth, and everyone agrees.)
 - *Merci. Je fais les changements et je te l'envoie avant midi.* (Thanks. I'll make the changes and send it to you before noon.)
-- *Parfait, je le lirai avant que la présidente l'ait.* (Perfect, I'll read it before the president has it.)
+- *Parfait, je le lirai avant que la présidente le reçoive.* (Perfect, I'll read it before the president gets it.)
 
 <Callout type="warning" title="Le lendemain, not demain, in a past report">
   When you rewrite a text in the past, it's easy to shift the verbs and forget the time words: *il a dit qu'il viendrait demain* only works if "tomorrow" is tomorrow for the reader. In a past report, shift the time word with the verb: **il a dit qu'il viendrait le lendemain**, **elle a rappelé que le budget de l'année précédente avait été dépassé**.
@@ -1417,7 +1418,7 @@ exercises:
     type: "reformulation"
     prompt: "Reformulez avec une ellipse du verbe : Léa a choisi la mer, et Hugo a choisi la montagne."
     answers: ["Léa a choisi la mer ; Hugo, la montagne", "Léa a choisi la mer, et Hugo, la montagne"]
-    explanation: "Leave out the repeated verb (a choisi) in the second clause; a comma marks the gap."
+    explanation: "Leave out the repeated verb (a choisi) in the second clause; a comma marks the gap. Without et, use a semicolon between the clauses; with et, a comma is enough. Both are accepted."
     strictAccents: true
   - id: "c2-ellipsis-and-nominal-style-ex008"
     type: "reformulation"
@@ -1487,13 +1488,13 @@ In <LessonLink id="b2-nominalisation" text="the lesson on nominalisation" />, yo
 
 <VocabTable group="ellipsis" />
 
-*L'ellipse* (ellipsis) leaves out words that the reader can supply from the context. The most useful kind leaves out a verb repeated in a second clause. The result is *une proposition elliptique* (an elliptical clause), and a comma shows where *le verbe sous-entendu* (the understood verb) would be.
+The word *l'ellipse* (ellipsis) leaves out words that the reader can supply from the context. The most useful kind leaves out a verb repeated in a second clause. The result is *une proposition elliptique* (an elliptical clause), and a comma shows where *le verbe sous-entendu* (the understood verb) would be.
 
 <Example fr="Paul a choisi le train ; Marie, l'avion." en="Paul chose the train; Marie, the plane." />
 
-<Example fr="Le premier candidat parle trois langues, le second, deux." en="The first candidate speaks three languages, the second, two." />
+<Example fr="Le premier candidat parle trois langues ; le second, deux." en="The first candidate speaks three languages; the second, two." />
 
-The verb can be left out even when its form would change: in *je prends le thé, toi, le café*, the missing verb is *prends* for *toi* as well. The comma is the sign of the gap. In careful writing, use a semicolon between the two clauses when each has its own comma.
+The verb can be left out even when its form would change: in *je prends le thé ; mes parents, le café*, the missing verb is *prennent*, not *prends*. The comma is the sign of the gap. Between the two clauses, careful writing uses a semicolon, as in these examples, because the second clause already has its own comma. With *et*, a comma before *et* is enough: *Léa a choisi la mer, et Hugo, la montagne*.
 
 ## Sharing a subject or an auxiliary
 
@@ -1517,7 +1518,7 @@ To remove the doubt, write the verb: *plus que le président ne les estime* (mor
 
 <VocabTable group="headlines" />
 
-*Un titre de presse* (a newspaper headline) has its own grammar. You know the nominal headline from B2 (*Fermeture de la gare dimanche*). Four more features matter.
+The term *un titre de presse* (a newspaper headline) has its own grammar. You know the nominal headline from B2 (*Fermeture de la gare dimanche*). Four more features matter.
 
 - **The present for the past.** A recent event is told in *le présent de l'actualité* (the news present): *le maire démissionne* for a resignation that happened last night.
 - **The colon.** It separates the topic from the news: *Villebrune : un entrepôt détruit par le feu*. The part before the colon is often a place or a subject.
@@ -1530,7 +1531,7 @@ To remove the doubt, write the verb: *plus que le président ne les estime* (mor
 
 <VocabTable group="notes" />
 
-*Le style télégraphique* (telegraphic style) drops articles, auxiliaries and most verbs. It belongs in *une prise de notes* (a set of notes), on a slide, in a list or in a text message to a colleague. It doesn't belong in an essay, a letter or a report.
+The term *le style télégraphique* (telegraphic style) drops articles, auxiliaries and most verbs. It belongs in *une prise de notes* (a set of notes), on a slide, in a list or in a text message to a colleague. It doesn't belong in an essay, a letter or a report.
 
 - **Actions in the infinitive:** for example *envoyer le devis avant vendredi*, *appeler le maire*.
 - **Facts as nouns or participles:** for example *réunion reportée au 12 mai*, *budget voté*.
@@ -1579,7 +1580,7 @@ Reading compressed French often means rebuilding it. Put back the article, turn 
 
 ## The whole list
 
-- Verb ellipsis: a comma replaces a verb repeated in a second clause (*Paul a choisi le train ; Marie, l'avion*).
+- Verb ellipsis: a comma replaces a verb repeated in a second clause, with a semicolon between the clauses (*Paul a choisi le train ; Marie, l'avion*), or a comma before *et* (*Léa a choisi la mer, et Hugo, la montagne*).
 - A shared subject or auxiliary is written once only if it's the same auxiliary in the same form.
 - An ellipsis that can be read two ways, as in comparisons, needs the verb written out.
 - Headlines: the noun, the present for a recent past, the colon, the participle, quotation marks and *selon*.
@@ -1591,7 +1592,7 @@ Reading compressed French often means rebuilding it. Put back the article, turn 
 Romane is preparing slides on the fire for a training session. She asks Karim, a colleague, to check them. They use *tu*.
 
 - *Karim, tu peux regarder ma diapositive sur l'incendie ?* (Karim, can you look at my slide on the fire?)
-- *Oui. Ta première puce dit « on a évacué les immeubles », la deuxième « arrivée des pompiers ».* (Yes. Your first bullet says "on a évacué les immeubles", the second "arrivée des pompiers".)
+- *Oui. Ta première puce dit « on a évacué les immeubles » ; la deuxième, « arrivée des pompiers ».* (Yes. Your first bullet says "on a évacué les immeubles"; the second, "arrivée des pompiers".)
 - *Et alors ?* (So what?)
 - *Les puces ne sont pas construites de la même façon. Écris « évacuation des immeubles ».* (The bullets aren't built the same way. Write "évacuation des immeubles".)
 - *D'accord, que des noms. Et le titre, « l'incendie de mardi soir », ça va ?* (OK, only nouns. And the title, "l'incendie de mardi soir", is that all right?)
@@ -1670,7 +1671,7 @@ exercises:
     type: "reformulation"
     prompt: "Reformulez avec une ellipse du verbe : Les enfants écouteront des contes, et les adultes écouteront des poèmes."
     answers: ["Les enfants écouteront des contes ; les adultes, des poèmes", "Les enfants écouteront des contes, et les adultes, des poèmes"]
-    explanation: "Leave out the repeated verb (écouteront); a comma marks the gap (c2-ellipsis-and-nominal-style)."
+    explanation: "Leave out the repeated verb (écouteront); a comma marks the gap. Use a semicolon between the clauses, or a comma before et; both are accepted (c2-ellipsis-and-nominal-style)."
   - id: "c2-review-form-ex007"
     type: "error-correction"
     prompt: "Corrigez l'erreur (phrase du texte) : Ils se sont rendus compte assez vite que le nouveau bâtiment ne pourrait pas accueillir tous les livres."
@@ -1840,5 +1841,5 @@ Write a paragraph of 80 to 120 words about a change in your town or at work, in 
 
 ## What's next
 
-The next unit is about words with precision. It starts with the lesson on paronyms, words that look or sound alike.
+The next unit is about words with precision. It starts with <LessonLink id="c2-paronyms" text="the lesson on paronyms" />, words that look or sound alike.
 
