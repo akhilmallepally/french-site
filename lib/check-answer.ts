@@ -1,7 +1,14 @@
 // Compares a learner's answer to the accepted answers. Pure functions, no React.
 // Also imported by scripts under plain Node, so keep it free of path aliases.
 
+import { UNGRADED_TYPES, type ExerciseType } from "./types.ts";
+
 export type AnswerStatus = "correct" | "correct-accents" | "incorrect";
+
+/** Writing tasks (C2) are never graded: callers skip them before checkAnswer, and they never count in a score. */
+export function isGradedType(type: ExerciseType): boolean {
+  return !UNGRADED_TYPES.includes(type);
+}
 
 export type AnswerResult = {
   status: AnswerStatus;

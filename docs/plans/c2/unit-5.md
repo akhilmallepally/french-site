@@ -1,12 +1,12 @@
 # C2 Unit 5 plan: Writing at length and translating
 
-Status: plan only. Rules: the draft "C2 conventions" in docs/plans/c2/overview.md. **This unit depends on the writing-task decision** (overview, open question 3): its main products are long texts that typed keys can't grade.
+Status: plan only. Rules: the "C2 conventions" in CLAUDE.md. **Writing (decided in Prompt 41, option C):** its main products are long texts that typed keys can't grade, so keyed sub-steps teach the method and each lesson may add one ungraded `writing-task` (model and self-check list), outside the exercise counts.
 
 ## 25. c2-contraction-de-texte: The contraction and the résumé to a word count (communication · harder)
 
 - **Goal:** reduce a text to a given proportion, keeping its logic and its enunciation, in your own words.
 - **Recaps:** summarizing an article (b2-summarizing-an-article); the synthesis (c1-synthesis); nominalisation and ellipsis (b2-nominalisation, c2-ellipsis-and-nominal-style).
-- **New:** the rules of the exercise (keep the order and the author's voice, no quotation, no personal comment, reformulate), counting words the French way (*c'est-à-dire* and elisions), the margin of tolerance as a rule of thumb, how to compress (nominalise, merge, drop examples).
+- **New:** the rules of the exercise (keep the order and the author's voice, no quotation, no personal comment, reformulate). A contraction speaks in the author's voice, with no *l'auteur dit* or *selon l'auteur*: the opposite of the synthesis, which attributes every view to its source. The lesson says so explicitly, with a LessonLink to c1-synthesis. Then: counting words the French way (*c'est-à-dire* and elisions), the margin of tolerance as a rule of thumb, how to compress (nominalise, merge, drop examples).
 - **Key vocab (new):** *une contraction*, *le nombre de mots*, *une marge de tolérance*, *condenser*, *l'énonciation*, *respecter le système d'énonciation*.
 - **Longer text:** an original 450-word article and a model contraction to about a quarter, with the word count shown.
 - **Exercises:** multiple-choice (which sentence keeps the logic?), reorder (the skeleton), reformulation (compress a sentence), error-correction (a personal comment slipped in), a writing task with a word target.

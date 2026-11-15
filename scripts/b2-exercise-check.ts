@@ -1,14 +1,15 @@
 // Dev script over untyped frontmatter data.
 /* eslint-disable @typescript-eslint/no-explicit-any */
-// Self-test for the B2 and C1 exercise types: every accepted answer must pass lib/check-answer.ts,
+// Self-test for the B2, C1 and C2 exercise types: every accepted answer must pass lib/check-answer.ts,
 // and the text the learner starts from (the wrong or original sentence) must not.
+// C2 writing tasks are ungraded (no answers): they are skipped.
 // Run with: npm run test:b2-exercises
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { checkAnswer, checkChoice, sameWords } from "../lib/check-answer.ts";
 
-const dirs = ["b2", "c1"].map((lv) => path.join(process.cwd(), "content", "lessons", lv)).filter((d) => fs.existsSync(d));
+const dirs = ["b2", "c1", "c2"].map((lv) => path.join(process.cwd(), "content", "lessons", lv)).filter((d) => fs.existsSync(d));
 const TYPED = new Set(["reformulation", "register-shift", "error-correction"]);
 const failures: string[] = [];
 let checked = 0;

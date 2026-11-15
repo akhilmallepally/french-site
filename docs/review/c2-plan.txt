@@ -1,0 +1,623 @@
+C2 PLAN FOR REVIEW (Prompts 41 and 42): overview, unit plans 1 to 8, and the "C2 plan" items from docs/review-needed.md. The C2 conventions are in CLAUDE.md since Prompt 42.
+
+=== docs/plans/c2/overview.md ===
+
+# C2 plan: overview
+
+Status: **plan approved (Prompts 41 and 42); conventions in CLAUDE.md since Prompt 42.** Unit 1 written in Prompt 42. The writing-task type and the C2 checks are built (Prompt 41).
+
+## Open questions
+
+1. **Word-count convention** (stays open until Unit 5). lib/word-count.ts counts an elided word separately (*l'homme* = 2), keeps hyphenated compounds whole (*peut-être* = 1, *c'est-à-dire* = 2) and counts a number in figures as one word. docs/review-needed.md ("C2 plan") asks whether the common French convention counts hyphenated words separately (*c'est-à-dire* = 4); the code is unchanged until that's decided.
+2. **Full public-domain source texts** for c2-commentaire-de-texte: the owner's decision (until then, the source text is an original pastiche).
+
+## Shape
+
+46 lessons in 8 units. Types: grammar 6, vocabulary 10, communication 15, culture 6, review 9.
+
+| Unit | Title | Lessons | Count | Plan file |
+|---|---|---|---|---|
+| 1 | Precision in form | 1 to 7 | 7 | unit-1.md |
+| 2 | Words with precision | 8 to 13 | 6 | unit-2.md |
+| 3 | Specialized French | 14 to 18 | 5 | unit-3.md |
+| 4 | Reading between the lines | 19 to 24 | 6 | unit-4.md |
+| 5 | Writing at length and translating | 25 to 30 | 6 | unit-5.md |
+| 6 | Mediation and negotiation | 31 to 35 | 5 | unit-6.md |
+| 7 | The language and its literatures | 36 to 41 | 6 | unit-7.md |
+| 8 | Range and mastery | 42 to 46 | 5 | unit-8.md |
+
+C2 is about precision, nuance and range, not new basic grammar. Each lesson recaps what earlier levels taught (docs/c2-coverage.md, scripts/c2-find.ts) and teaches only the C2 layer.
+
+## What was chosen, dropped or kept for recognition
+
+- **Grammar (Unit 1):** pronominal-verb agreement, participles before an infinitive (*fait*, *laissé*, verbs of perception, *en*), *tout / quelque / même*, colour and compound agreement with numbers, the full concordance, ellipsis and the nominal style.
+  - **Dropped as already taught:** the subjunctive in relative clauses and after superlatives (b2-subjunctive-relative-clauses covers *le meilleur film que j'aie vu*). It's recapped where useful, not re-taught.
+  - **Recognition only:** the literary concordance with the imperfect subjunctive.
+- **Lexis (Unit 2):** paronyms, polysemy, word formation, advanced false friends, anglicisms and official terms. Specialized registers have their own unit (3): legal, medical, scientific, administrative.
+- **Reading and writing (Units 4 and 5):** implicit meaning, argument analysis, the commentaire de texte, style analysis, press genres; the contraction, the long essay, version, thème, revising your style.
+- **Speaking skills in writing (Unit 6):** mediation, negotiation, a structured oral argument, interviews, all through written scripts and exchanges.
+- **Culture (Unit 7):** the history of French, literature before the classics, literature since 1900 (paraphrase only), francophone literatures, wordplay.
+  - **Recognition only:** Old French.
+  - **Dropped:** a separate theatre lesson (the canon and the commentary cover it) and a separate press-history lesson (press genres covers what a reader needs).
+- **Range (Unit 8):** pastiche, idioms at C2, deliberate register breaks, the unit review and the final review.
+
+## C2 conventions
+
+Moved to CLAUDE.md ("C2 conventions") in Prompt 42, with three more checklist additions (mechanical constraints checked by script; contraction vs synthesis; established words).
+
+## Writing order
+
+1. **Unit 1, then Unit 2.** The grammar and lexis that every later unit uses, with clear rules: a safe start for the extended checks.
+2. **Unit 4, then Unit 5.** Reading before writing: the commentary and the style analysis feed the essay, the version and the revision lessons. Unit 5 uses the writing-task type (decided in Prompt 41).
+3. **Unit 3 and Unit 6.** Specialized registers and mediation draw on Units 1, 2, 4 and 5; their facts are general.
+4. **Unit 7.** The highest factual risk (dates, attributions, quotations, colonial history): write it after the checklist has been used on six units.
+5. **Unit 8 last,** because its reviews draw on everything.
+
+Each unit follows the C1 cycle: write the unit, run every check, fix, generate docs/review/c2-unit-N.txt, then fix after review before the next unit.
+
+## Checks extended to C2 (Prompt 41)
+
+All pass with zero C2 lessons, and no A1 to C1 result changed.
+
+- **validate:content** (lib/lessons.ts): the `writing-task` type, C2 only, with `prompt`, `model`, a 3-to-6-item `checklist`, an optional `wordTarget` [min, max] and no `answers`; at most one per lesson. Covered by fixtures in scripts/fixtures/planned-ids/lessons/c2/ and test:content.
+- **test:b2-exercises:** reads C2 lessons too; writing tasks are skipped.
+- **scripts/b2-links-ids.ts:** reads C2 lessons and C2 syllabus rows.
+- **audit:content:** C2 rows with the CLAUDE.md lengths, the source-text rule, and the writing-task rule.
+- **validate:content, source texts (Prompt 42):** a `## Source text: …` section is allowed at C2 only, at most one per lesson, and must have French text lines and an English translation (fixtures c2/bad-source-text.mdx and a1/source-text-too-early.mdx).
+- **wrapup:c2, lipograms (Prompt 42):** a lesson tagged `lipogram` names its missing letter and no French line of the lipogram section may contain it.
+- **check:structures:** in C2 lessons, no typed answer may contain the imparfait or plus-que-parfait du subjonctif or a passé simple in the first or second person plural.
+- **check:words:** the C2 instruction verbs (Commentez, Contractez, Analysez).
+- **check:c2-links** (scripts/c2-links.ts) with docs/c2-forward-links.md.
+- **wrapup:c2** (scripts/c2-wrapup.ts, judgement calls in scripts/c2-wrapup-judgements.md), writing docs/c2-wrapup.md.
+- **test:checker** now also runs lib/word-count.test.ts and a test that writing tasks are never graded.
+- **scripts/c2-find.ts and scripts/c2-lists.ts** for every recap claim; **scripts/scan-alexandrines.ts** for any verse.
+
+## Decisions taken
+
+- **Size and units (Prompt 41):** 46 lessons in 8 units, as planned; Unit 6 (mediation and negotiation) stays.
+- **Writing (Prompt 41): option C.** Keyed sub-steps teach the method (choose the problématique, order the plan, pick the transition). On top, at most one `writing-task` per lesson: ungraded, with a model and a self-check list, outside the exercise and production counts. Built in Prompt 41: lib/types.ts, the validator (lib/lessons.ts), components/writing-task.tsx, lib/word-count.ts, lib/writing-draft.ts and the progress store.
+- **Translations (Prompt 41):** every longer text keeps a full English translation. Translations of text sections count outside the length limits (see "Lengths").
+- **Recognition only (Prompt 41):** Old French, the literary concordance of the subjunctive, and traditional vs 1990 spellings (keys accept both spellings).
+- **Source-text heading (Prompt 42):** accepted: a text to comment on or contract goes under `## Source text: …`, and the validator checks it.
+- **No exam practice (Prompt 41):** C2 has no exam-practice lessons, and no lesson names an exam.
+- **One review per unit and a final review**, as at C1.
+- **No re-teaching:** each lesson starts from docs/c2-coverage.md and c2-find, and recaps in two or three sentences.
+- **Facts first:** every date, law, attribution and claim the plan relies on is in docs/review-needed.md under "C2 plan", marked "to verify", before the unit is written.
+
+=== docs/plans/c2/unit-1.md ===
+
+# C2 Unit 1 plan: Precision in form
+
+Status: **written in Prompt 42.** Rules: the "C2 conventions" in CLAUDE.md. Key vocab lists headline items only; "(recap)" items are taught earlier and aren't new entries.
+
+Changes made while writing (also in docs/syllabus.md):
+- Lesson 2 defines *invariable* (first needed there) and adds *dû*, *pu*, *voulu* + infinitive; lesson 4 recaps it.
+- Lesson 3 adds b2-subjunctive-conjunctions as a prerequisite (*bien que*); *un adverbe invariable* isn't a separate entry.
+- Lesson 4's prerequisites are a1-shopping-for-clothes (*marron*, *orange*) and a2-numbers-years-ordinals (the A2 rule for *vingt*, *cent*, *mille*, *million*), not a1-numbers-21-100.
+- Lesson 5 adds b2-reporting-verbs (*la veille*, *le lendemain*).
+- Lesson 6's prerequisites are b2-nominalisation, c1-leading-a-meeting and c2-concordance-in-writing; b2-formal-report is related.
+- Lesson 7's text with ten errors is a "Source text" section, so the corrected text (about 350 words) is the longer text; the lesson has no dialogue.
+
+This unit refines points a C2 writer gets wrong under pressure. It re-teaches nothing: each lesson recaps the earlier rule in two or three sentences with a LessonLink, then teaches only the edge cases.
+
+## 1. c2-agreement-pronominal-verbs: Past participles of pronominal verbs (grammar · harder)
+
+- **Goal:** agree the past participle of any pronominal verb correctly in writing.
+- **Recaps:** agreement with *être* and with a preceding direct object (a2-reflexive-passe-compose, a2-pronouns-in-passe-compose); the passive and agreement (b2-passive-voice).
+- **New:** the real test: is the reflexive pronoun the direct object? *Elles se sont lavées* / *elles se sont lavé les mains* / *les mains qu'elles se sont lavées*; reciprocal verbs with an indirect pronoun (*ils se sont parlé, téléphoné, succédé, plu, souri, nui*); essentially pronominal verbs agree with the subject (*elles se sont souvenues, évanouies*), with one exception: *s'arroger*, whose participle agrees with a preceding COD, not the subject (*ils se sont arrogé des droits* / *les droits qu'ils se sont arrogés*); *se rendre compte* (invariable *rendu*); *se faire* + infinitive (invariable, recap of b2-faire-causatif).
+- **Key vocab (new):** *un verbe pronominal*, *un verbe essentiellement pronominal*, *réciproque*, *le complément d'objet direct (COD)*, *s'évanouir*, *se succéder*, *se nuire*, *s'arroger*. Recaps: *le participe passé* (a2), *s'apercevoir que* (b1-plus-que-parfait).
+- **Model:** a short news item in the passé composé with eight pronominal verbs, each agreement explained in "How the text works".
+- **Exercises (16):** fill-in (agreement endings), error-correction, multiple-choice (who is the COD?), reformulation (move the COD before the verb), translate, reorder.
+- **Risks:** many speakers don't hear these agreements; never present a common spoken form as "wrong" without saying it's a written-French rule. The 1990 rectifications don't change these rules (to verify).
+
+## 2. c2-agreement-with-infinitives: Participles followed by an infinitive (grammar · harder)
+
+- **Goal:** agree (or not) a past participle followed by an infinitive.
+- **Recaps:** *faire* + infinitive and *je l'ai fait réparer* (b2-faire-causatif); verbs of perception + infinitive (check with c2-find).
+- **New:** the test "does the preceding object do the action of the infinitive?" (*les musiciens que j'ai entendus jouer* / *les airs que j'ai entendu jouer*); *fait* + infinitive always invariable; *laissé* + infinitive: traditional rule and the 1990 rectification (invariable allowed), both accepted in keys; participle + *en* (*des pommes, j'en ai mangé*), with the variation explained as a rule of thumb.
+- **Key vocab (new):** *les rectifications orthographiques*, *un verbe de perception*, *le sujet de l'infinitif*. Recaps: *faire réparer* (b2).
+- **Model:** a review of a concert, with each participle + infinitive annotated.
+- **Exercises:** multiple-choice (agree or not), fill-in, error-correction, translate, reorder.
+- **Risks:** the *en* rule varies between grammars: state it as a rule of thumb and accept both forms where usage varies. Every claim about the 1990 rectifications goes to review-needed.
+
+## 3. c2-tout-quelque-meme: Tout, quelque, même (grammar · harder)
+
+- **Goal:** spell and agree *tout*, *quelque* and *même* in every function.
+- **Recaps:** *tout* as determiner, pronoun and adverb, and set phrases (b2-tout); *même* and its position (c1-adverb-placement).
+- **New:** adverbial *tout* before a feminine adjective starting with a consonant or an aspirated h (*toute contente*, *toutes honteuses*, but *tout étonnée*); *tout autre* (determiner or adverb); *quelque(s)* (some), *quelque* + number (about, invariable), *quelque… que* + subjunctive (concession), *quel que* + être (*quelle que soit la raison*); *même* adverb (invariable) vs adjective (*eux-mêmes*, *les mêmes*).
+- **Key vocab (new):** *quel que soit*, *quelque… que*, *tout autre*, *un adverbe invariable*. Recaps: *tout de même*, *quiconque* (b2-tout).
+- **Model:** an editorial paragraph where every form appears once, with a self-correction section.
+- **Exercises:** fill-in (forms), multiple-choice, error-correction, reformulation (*bien que* → *quelque… que*), translate, reorder.
+- **Risks:** *quel que* vs *quelque*: give the test (is it followed by *être* or a pronoun + *être*?). Concession with *quelque… que* is formal: label it.
+
+## 4. c2-agreement-colours-compounds-numbers: Colours, compound nouns and numbers (grammar · easier)
+
+- **Goal:** spell the plurals and agreements that even native writers check.
+- **Recaps:** adjective agreement (a1-adjective-agreement); numbers (a1-numbers-21-100).
+- **New:** colour adjectives from nouns (invariable: *des robes marron, orange*, with the listed exceptions *rose, mauve, fauve, écarlate…*) and compound colours (*des yeux bleu clair*); plurals of compound nouns (*des grands-parents, des porte-monnaie / porte-monnaies* after 1990); *vingt* and *cent* (*quatre-vingts*, *quatre-vingt-deux*, *deux cents*, *deux cent un*, and no *s* on *cent* before *mille*: *deux cent mille*); *mille* invariable; *million* and *milliard* are nouns, so they take an *s* and don't block the *s* of *vingt* or *cent* (*quatre-vingts millions*, *deux cents millions*); the 1990 hyphenation of all compound numbers (*vingt-et-un*), accepted.
+- **Key vocab (new):** *un nom composé*, *un adjectif de couleur*, *invariable*, *un trait d'union*.
+- **Model:** an invoice-like inventory and a description of a painting, both original. The inventory writes every number in words (quantities and catalogue numbers), with no real prices.
+- **Exercises:** fill-in, multiple-choice, error-correction, translate, reorder.
+- **Risks:** recognition of both traditional and 1990 spellings: every key accepts both where both are correct (check whether lib/check-answer.ts normalizes hyphens before writing the keys).
+
+## 5. c2-concordance-in-writing: The full sequence of tenses (grammar · harder)
+
+- **Goal:** keep tenses coherent across a long written text, in reported speech, subordinate clauses and the subjunctive.
+- **Recaps:** reported speech in the past and the concordance (b2-reported-speech-past); the imperfect subjunctive and its modern replacements (c1-imperfect-subjunctive); the future in the past (c1-future-in-the-past).
+- **New:** the full table for the indicative (present, past and future anchors); the subjunctive in modern and literary usage (recognition of the literary concordance only); when to keep the present for a general truth (*il m'a dit que la Terre est ronde*); keeping one time anchor per paragraph.
+- **Key vocab (new):** *la concordance des temps* (recap: c1-imperfect-subjunctive), *une vérité générale*, *le repère temporel*, *l'antériorité*, *la postériorité*, *la simultanéité*.
+- **Model:** a report of a meeting rewritten from the present to the past, sentence by sentence.
+- **Exercises:** transform (present → past report), error-correction, multiple-choice, translate, reorder.
+- **Risks:** the literary subjunctive concordance stays recognition-only; no typed key may require it (C1 rule).
+
+## 6. c2-ellipsis-and-nominal-style: Ellipsis and the nominal style (grammar · harder)
+
+- **Goal:** write and read compressed French: headlines, notes, minutes, slides, and coordinated clauses with ellipsis.
+- **Recaps:** nominalisation (b2-nominalisation); the formal report (b2-formal-report); minutes (c1-leading-a-meeting).
+- **New:** verb ellipsis in coordination (*Paul a choisi le train ; Marie, l'avion*); headline grammar (no article, no verb, the colon, the present for the past); note-taking style; when ellipsis is ambiguous; turning a nominal text back into full sentences (and the reverse).
+- **Key vocab (new):** *l'ellipse*, *une proposition elliptique*, *le style télégraphique*, *une prise de notes*, *une puce* (bullet point).
+- **Model:** a news article and the same news as five headlines and a slide.
+- **Exercises:** reformulation (both directions), error-correction (an ambiguous ellipsis), multiple-choice, translate, reorder.
+- **Risks:** *style télégraphique* is fine in notes, not in an essay: label where each fits.
+
+## 7. c2-review-form: Review: Precision in form (review · easier)
+
+- **New words (3 to 8):** *la relecture* (recap? check c1-exam-written-tasks *une grille de relecture*), *une coquille* (a typo), *un correcteur / une correctrice* (a proofreader), *corriger les épreuves*.
+- **Model:** an original 350-word text with ten deliberate errors to find, then the corrected text.
+- **Exercises:** one per lesson, plus error-correction across the text and a writing task (proofread your own paragraph with a list).
+
+=== docs/plans/c2/unit-2.md ===
+
+# C2 Unit 2 plan: Words with precision
+
+Status: plan only. Rules: the "C2 conventions" in CLAUDE.md.
+
+C1 taught near-synonyms by register and strength (c1-euphemism-and-synonyms), precise verbs (c1-precise-verbs) and collocations (c1-collocations). This unit adds the word problems that remain at C2: words that look alike, words with many meanings, how words are built, and the pull of English.
+
+## 8. c2-paronyms: Paronyms (vocabulary · harder)
+
+- **Goal:** tell apart words that look or sound alike and are often confused.
+- **Recaps:** false friends (b2-false-friends); precise verbs (c1-precise-verbs).
+- **New:** pairs by family: *éminent / imminent*, *conjecture / conjoncture*, *perpétrer / perpétuer*, *infecter / infester*, *prodige / prodigue*, *effraction / infraction*, *collision / collusion*, *recouvrer / recouvrir*, *acception / acceptation*. (*amener / apporter* dropped: c2-find shows *apporter* in a2-polite-requests but *amener* in no lesson, so it isn't a paronym recap; it can be taught later as a vocabulary point if needed.)
+- **Key vocab (new):** *un paronyme* and the pairs above, as two entries per pair (one concept per entry).
+- **Model:** a short article with ten paronyms, half used correctly.
+- **Exercises:** multiple-choice (pair in context), error-correction, fill-in, translate, reorder.
+- **Risks:** distractors are always grammatical here: each sentence must make only one member of the pair possible (C1 rule on distractors).
+
+## 9. c2-polysemy: One word, several meanings (vocabulary · harder)
+
+- **Goal:** recognize and use the main senses of common polysemous words.
+- **Recaps:** *le cadre* and *la portée* (c1-abstract-nouns); NEW_MEANINGS entries from B2 (*un bilan*, *le marché*).
+- **New:** *la pièce* (room, coin, play, part, document), *la note* (mark, bill, musical note, memo), *le coup*, *la matière*, *la valeur*, *le titre*, *relever* (to note, to raise, to come under), *soutenir* (to support, to defend a thesis), *tenir* in its main constructions.
+- **Key vocab (new):** *la polysémie*, *un sens propre / un sens figuré*, *une acception*; each new sense as its own entry, listed in NEW_MEANINGS with the reason.
+- **Model:** a dialogue where misunderstandings come from polysemy, then resolved.
+- **Exercises:** multiple-choice (which sense?), fill-in, reformulation, translate, reorder.
+- **Risks:** NEW_MEANINGS must be updated for each repeated French form; the audit will flag the rest.
+
+## 10. c2-word-formation: How words are built (vocabulary · easier)
+
+- **Goal:** understand and form words with prefixes, suffixes and composition; read neologisms.
+- **Recaps:** nominalisation suffixes (b2-nominalisation); abstract nouns (c1-abstract-nouns).
+- **New:** prefixes (*dé-, in-/im-/il-/ir-, re-, pré-, sur-, sous-, contre-, anti-, auto-*); suffixes (*-age, -ment, -tion, -ité, -isme, -iste, -able, -iser, -ifier*); learned roots (*-logie, -cratie, -phobe, -cide*); compounding and *mots-valises*; how the press creates words.
+- **Key vocab (new):** *un préfixe*, *un suffixe*, *un radical*, *un néologisme*, *un mot-valise*, *la dérivation*.
+- **Model:** a short column inventing (and explaining) three neologisms, labelled as invented.
+- **Exercises:** fill-in (build the word), multiple-choice (meaning from parts), error-correction (wrong suffix), translate, reorder.
+- **Risks:** not every regular-looking derivation exists: each formed word in a key must be a real dictionary word (check against a dictionary, list in review-needed).
+
+## 11. c2-advanced-false-friends: Advanced false friends (vocabulary · harder)
+
+- **Goal:** avoid the false friends that remain after B2, especially in formal and professional writing.
+- **Recaps:** the B2 list (b2-false-friends): check which of these are already taught before writing.
+- **New (subject to c2-find):** *achever*, *versatile*, *sensible*, *chance*, *délai*, *formel*, *conséquent*, *opportunité*, *contrôler*, *réaliser* (to carry out vs to realize, and the debated anglicized use), *supporter*, *éventuellement*, *actuellement*: only those not yet taught.
+- **Key vocab (new):** each false friend with its real meaning and the French for the English word.
+- **Model:** a business email full of false friends, then corrected.
+- **Exercises:** error-correction, translate (EN → FR), multiple-choice, reformulation, reorder.
+- **Risks:** some uses are anglicisms now common in French (*réaliser que*, *opportunité*): label the register and the debate rather than marking them wrong (C1 rule: label before you correct).
+
+## 12. c2-anglicisms-and-official-terms: Anglicisms and their official replacements (vocabulary · easier)
+
+- **Goal:** know the common anglicisms, their official French replacements, and which ones people actually use.
+- **Recaps:** *courriel* (c1-culture-francophonie, b1-culture-quebec).
+- **New:** *mot-dièse* (hashtag), *infolettre*, *divulgâcher*, *mercatique* (marketing), *covoiturage*, *baladodiffusion* (Québec) / *podcast*; *écrasement* vs *crash* only if review-needed confirms it as an official French term (if it's Québec usage only, label it so; if it can't be confirmed, drop it); *logiciel* and *ordinateur* as long-established coinages that replaced the English words decades ago (recap: b2-relative-lequel, a1-indefinite-articles), not as new vocab or an open debate; how official terms are published (the French terminology commission and FranceTerme; Québec's Office québécois de la langue française); the Loi Toubon in one neutral paragraph.
+- **Key vocab (new):** *un anglicisme*, *un équivalent officiel*, *recommander un terme*, *le Journal officiel* (recap: c1-law-and-institutions).
+- **Model:** an original article on an invented company's "language week", using both forms with labels.
+- **Exercises:** multiple-choice (official term), register-shift, error-correction, translate, reorder.
+- **Risks:** every date and institution goes to review-needed; present the debate (purism vs usage) neutrally, attributed; don't claim an official term is "the correct one" in speech.
+
+## 13. c2-review-words: Review: Words with precision (review · easier)
+
+- **New words (3 to 8):** *le mot juste*, *une impropriété*, *un barbarisme*, *une faute de sens*.
+- **Model:** an original 350-word text where the writer replaces ten imprecise words, with a "before / after" table.
+- **Exercises:** one per lesson, plus error-correction and a writing task.
+
+=== docs/plans/c2/unit-3.md ===
+
+# C2 Unit 3 plan: Specialized French
+
+Status: plan only. Rules: the "C2 conventions" in CLAUDE.md.
+
+Four registers that C2 users read and sometimes write. The lessons teach reading first: how these texts are built, their fixed phrases, and how to restate them in plain French. Facts about institutions and procedures are general and neutral, with no figures and no legal advice.
+
+## 14. c2-legal-french: Legal French (vocabulary · harder)
+
+- **Goal:** read a contract, a set of terms and conditions and a court decision summary, and restate them plainly.
+- **Recaps:** courts, *former un recours*, *en vertu de*, *abroger* (c1-law-and-institutions); formal letters (c1-formal-correspondence).
+- **New:** contract vocabulary (*une clause*, *les parties*, *résilier*, *une échéance*, *à titre gracieux*, *sous peine de*, *nonobstant*, *ledit / ladite*); the structure of a judgment and of its summary; the future and the present of obligation in legal texts (*le locataire s'engage à*, *est tenu de* (recap)).
+- **Key vocab (new):** about 18 items above, each used in an original contract extract.
+- **Model:** an original lease clause and a plain-French version for a tenant.
+- **Exercises:** register-shift (legal → plain), multiple-choice, fill-in, translate, reorder, a writing task (explain a clause to a friend).
+- **Risks:** no legal advice and no statement of current law beyond the C1 facts; any procedure described is generic. Whether French courts still use the "attendu que" style is a fact to verify before mentioning it.
+
+## 15. c2-medical-french: Medical French (vocabulary · harder)
+
+- **Goal:** read a patient leaflet, a consultation summary and a health article.
+- **Recaps:** the health system (b2-health-system); science and research (b2-science-and-research).
+- **New:** *une posologie*, *une contre-indication*, *les effets indésirables*, *un antécédent*, *un diagnostic*, *un pronostic*, *bénin / bénigne* and *malin / maligne* (irregular feminines, taught explicitly; keys use the right feminine, never *bénine* or *maline* in this sense), *chronique / aigu*, learned roots (*-ite*, *-algie*, *-ectomie*), the impersonal style of leaflets.
+- **Model:** an original medicine leaflet (an invented medicine) and its plain-language version.
+- **Exercises:** multiple-choice, fill-in, register-shift, translate, reorder.
+- **Risks:** no medical advice; the medicine and doses are invented and labelled; no figures that look like real dosages (use "the dose your doctor prescribes").
+
+## 16. c2-scientific-french: Scientific French (vocabulary · harder)
+
+- **Goal:** read an abstract and a popular-science article; hedge claims the way French science writing does.
+- **Recaps:** hedging (b2-nuancing-opinions, b2-persuasion-and-hedging); *selon toute vraisemblance* (c1-advanced-connectors).
+- **New:** *une hypothèse*, *un protocole*, *un échantillon*, *un biais* (recap: c1-technology-ethics), *corréler / une corrélation* vs *causer*, *il ressort de… que*, *les résultats suggèrent*, *à l'inverse*, the passive and *on* in method sections.
+- **Model:** an original abstract and its popular-science version.
+- **Exercises:** multiple-choice (corrélation or causalité?), reformulation, translate, error-correction (overclaiming), reorder.
+- **Risks:** invented studies, labelled as invented; no real findings or figures.
+
+## 17. c2-administrative-french: Reading administrative French (vocabulary · easier)
+
+- **Goal:** understand official letters and forms, and answer them correctly.
+- **Recaps:** formal correspondence and its layout (c1-formal-correspondence, b1-formal-email); the institutions (c1-culture-laicite-and-institutions).
+- **New:** *une pièce justificative*, *un justificatif de domicile*, *un avis d'imposition* (named, not explained in figures), *dans un délai de* (no figures in the lesson), *à compter de*, *sous réserve de* (recap), *il vous appartient de*, *le cas échéant*, abbreviations (*cf.*, *NB*, *P.J.*, *réf.*).
+- **Model:** an original letter from an invented administration, and a reply with the full layout (C1 rule).
+- **Exercises:** multiple-choice, fill-in, register-shift, translate, reorder, a writing task (reply to the letter).
+- **Risks:** no real procedure or deadline; the administration is invented.
+
+## 18. c2-review-specialized: Review: Specialized French (review · easier)
+
+- **New words (3 to 8):** *un jargon*, *vulgariser*, *la vulgarisation*, *un lexique spécialisé*.
+- **Model:** one invented situation (a tenant with a health problem who must answer an official letter) told in three registers: legal, medical and plain.
+- **Exercises:** one per lesson, plus register-shift and a writing task (vulgarize a paragraph).
+
+=== docs/plans/c2/unit-4.md ===
+
+# C2 Unit 4 plan: Reading between the lines
+
+Status: plan only. Rules: the "C2 conventions" in CLAUDE.md.
+
+C1 taught irony, understatement, rhetorical devices and free indirect speech. This unit turns them into reading tools: what a text says without saying it, how an argument works, and the French method for commenting on a text.
+
+## 19. c2-implicit-meaning: Presuppositions and implied meaning (communication · harder)
+
+- **Goal:** identify what a text presupposes, implies and suggests through word choice.
+- **Recaps:** irony and understatement (c1-irony-and-understatement); euphemism (c1-euphemism-and-synonyms); reporting verbs that judge a claim (b2-reporting-verbs).
+- **New:** *le présupposé* (*il a enfin compris*), *le sous-entendu* (recap: c1-culture-satire-and-humour), connotation, modalisation (adverbs, the conditionnel, verbs of opinion), quotation marks of distance.
+- **Key vocab (new):** *un présupposé*, *la connotation*, *la modalisation*, *un modalisateur*, *prendre ses distances avec*.
+- **Longer text:** an original opinion piece full of implicit judgments; a second version written neutrally.
+- **Exercises:** multiple-choice (what is presupposed?), reformulation (make explicit), error-correction (a neutral summary that isn't), translate, reorder.
+- **Risks:** analysis answers are interpretive: keep typed keys to clear-cut cases, and use multiple-choice for the rest.
+
+## 20. c2-argument-analysis: Analysing an argument (communication · harder)
+
+- **Goal:** name the type of each argument and spot fallacies.
+- **Recaps:** argument from authority, concession and rebuttal (c1-review-rhetoric, c1-formal-debate); connectors of logic (c1-advanced-connectors).
+- **New:** *l'argument par l'exemple, par l'analogie, ad hominem, la pente glissante, le faux dilemme, la généralisation hâtive, l'appel à la majorité*; implicit premises; how to answer each.
+- **Key vocab (new):** the names above, *un sophisme*, *une prémisse*, *réfuter*.
+- **Longer text:** an original debate transcript (invented speakers) with six named moves.
+- **Exercises:** multiple-choice (name the move), error-correction (a fallacy), reformulation, translate, reorder.
+- **Risks:** examples must not target real groups or living politicians (C1 sensitive-topic rules).
+
+## 21. c2-commentaire-de-texte: The commentaire de texte (communication · harder)
+
+- **Goal:** plan and write the French close commentary of a short passage.
+- **Recaps:** reading literary narrative, point of view, free indirect speech (c1-reading-literary-narrative); rhetorical devices (c1-rhetorical-devices); the dissertation's plan and problématique (c1-dissertation); the commentaire named in c1-culture-literary-canon.
+- **New:** the method (first impressions, *le relevé*, *les axes de lecture*, the problématique, the plan by axes, short embedded quotations, the conclusion and *l'ouverture*); the difference from a summary and from a dissertation.
+- **Key vocab (new):** *un axe de lecture*, *un relevé*, *une citation enchâssée*, *une ouverture*, *le champ lexical*, *le registre* (literary sense: *lyrique, tragique, comique, épique*).
+- **Longer text:** a safe-list passage of under 15 words quoted, plus an original pastiche passage (labelled) as the text to comment, and a model commentary introduction and one developed axis.
+- **Exercises:** multiple-choice (which axis?), reorder (plan), fill-in, reformulation, a writing task (the introduction).
+- **Source text:** an original pastiche, labelled, pending the owner's decision on full public-domain source texts (not decided here). Never quote later authors (C1 rule).
+- **Risks:** The literary "registres" must not be confused with the language registers (familier, courant, soutenu): say so explicitly.
+
+## 22. c2-stylistic-analysis: Style: rhythm, sound and syntax (communication · harder)
+
+- **Goal:** describe how a sentence produces its effect: length, rhythm, sound, word order.
+- **Recaps:** the alexandrine, the caesura and the mute e (c1-culture-french-poetry); stylistic inversion and fronting (c1-stylistic-inversion, c1-dislocation-and-fronting); figures (c1-rhetorical-devices).
+- **New:** *la période* (the long balanced sentence), the ternary rhythm, *l'allitération*, *l'assonance*, *le chiasme*, *l'asyndète*, *la parataxe / l'hypotaxe*, the effect of the short sentence.
+- **Key vocab (new):** the terms above.
+- **Longer text:** two original passages on the same scene, one in long periods and one in short sentences, with a comparison.
+- **Exercises:** multiple-choice (identify), reorder, reformulation (change the rhythm), translate, a writing task.
+- **Risks:** figures already taught in C1 are recapped, not re-listed; any verse goes through scripts/scan-alexandrines.ts.
+
+## 23. c2-reading-the-press: Press genres and styles (culture · easier)
+
+- **Goal:** recognize press genres by their style and read each one critically.
+- **Recaps:** the French press and its titles (b2-culture-french-press); the satirical press (c1-culture-satire-and-humour); summarizing an article (b2-summarizing-an-article).
+- **New:** *la dépêche*, *l'éditorial*, *la chronique*, *le billet d'humeur*, *la tribune* (recap), *le reportage*, *l'enquête*, *l'interview*, *la brève*; the inverted pyramid; *le chapeau*, *l'accroche* (recap), *la titraille*; how each signals opinion.
+- **Key vocab (new):** the genres and parts above.
+- **Longer text:** one invented event covered in three original genres (dépêche, chronique, billet).
+- **Exercises:** multiple-choice (genre), register-shift, reformulation, translate, reorder.
+- **Risks:** no named living journalists; no copying or close paraphrase of real articles (B2 rule); no claims about a real paper's political line beyond widely documented facts, each in review-needed.
+
+## 24. c2-review-reading: Review: Reading between the lines (review · easier)
+
+- **New words (3 to 8):** *une lecture critique*, *décrypter*, *une grille d'analyse*.
+- **Model:** an original short op-ed with a model analysis: genre, implied meaning, arguments, style.
+- **Exercises:** one per lesson, plus a writing task (a short analysis).
+
+=== docs/plans/c2/unit-5.md ===
+
+# C2 Unit 5 plan: Writing at length and translating
+
+Status: plan only. Rules: the "C2 conventions" in CLAUDE.md. **Writing (decided in Prompt 41, option C):** its main products are long texts that typed keys can't grade, so keyed sub-steps teach the method and each lesson may add one ungraded `writing-task` (model and self-check list), outside the exercise counts.
+
+## 25. c2-contraction-de-texte: The contraction and the résumé to a word count (communication · harder)
+
+- **Goal:** reduce a text to a given proportion, keeping its logic and its enunciation, in your own words.
+- **Recaps:** summarizing an article (b2-summarizing-an-article); the synthesis (c1-synthesis); nominalisation and ellipsis (b2-nominalisation, c2-ellipsis-and-nominal-style).
+- **New:** the rules of the exercise (keep the order and the author's voice, no quotation, no personal comment, reformulate). A contraction speaks in the author's voice, with no *l'auteur dit* or *selon l'auteur*: the opposite of the synthesis, which attributes every view to its source. The lesson says so explicitly, with a LessonLink to c1-synthesis. Then: counting words the French way (*c'est-à-dire* and elisions), the margin of tolerance as a rule of thumb, how to compress (nominalise, merge, drop examples).
+- **Key vocab (new):** *une contraction*, *le nombre de mots*, *une marge de tolérance*, *condenser*, *l'énonciation*, *respecter le système d'énonciation*.
+- **Longer text:** an original 450-word article and a model contraction to about a quarter, with the word count shown.
+- **Exercises:** multiple-choice (which sentence keeps the logic?), reorder (the skeleton), reformulation (compress a sentence), error-correction (a personal comment slipped in), a writing task with a word target.
+- **Risks:** the counting rules differ between institutions: teach one convention and say so; no claim about any exam's counting rules.
+
+## 26. c2-long-essay: The long essay (communication · harder)
+
+- **Goal:** write a full essay of several pages: introduction, three-part development, transitions and conclusion.
+- **Recaps:** the dissertation, its plans and transitions (c1-dissertation); concession and hypothesis (c1-concession-and-hypothesis); the essay introduction (c1-review-ideas).
+- **New:** building a paragraph (idea, argument, example, mini-conclusion), managing length across parts, citing ideas without quotations, avoiding padding, the final rereading in three passes (recap of the C1 tip, not repeated as a tip).
+- **Key vocab (new):** *un paragraphe argumentatif*, *une sous-partie*, *le remplissage*, *une transition* (recap), *une idée directrice*.
+- **Longer text:** an original full essay plan and one fully written part (about 400 words).
+- **Exercises:** reorder (paragraph steps), multiple-choice (the best transition), error-correction (padding), reformulation, a writing task (one part).
+- **Risks:** the model's length must stay within the C2 longer-text limit: write one part in full and the rest as a detailed plan.
+
+## 27. c2-version: Translating into English (communication · harder)
+
+- **Goal:** translate a French text into natural English, keeping meaning, register and tone.
+- **Recaps:** false friends (b2-false-friends, c2-advanced-false-friends); register labels (c1-register-shifting).
+- **New:** the method (read, analyse, draft, revise as an English text); traps: tense equivalence (passé composé, imparfait, passé simple), *on*, the historical present, idioms, register, sentence length.
+- **Key vocab (new):** *une version*, *un calque*, *un faux sens*, *un contresens* (recap: c1-exam-written-tasks), *un non-sens*, *une omission*, *une surtraduction*.
+- **Longer text:** an original French passage (about 300 words) with an annotated English translation.
+- **Exercises:** multiple-choice (best English rendering), error-correction (in the English), translate (short sentences only), reorder, a writing task (translate a paragraph, then compare with the model).
+- **Risks:** English answers can't be keyed fairly beyond short sentences: long translation is a writing task. Keep the English checker behaviour in mind (lib/check-answer.ts normalizes French accents; English keys need their own variants).
+
+## 28. c2-theme: Translating into French (communication · harder)
+
+- **Goal:** translate an English text into correct, idiomatic French.
+- **Recaps:** the whole course; especially precise verbs (c1-precise-verbs), collocations (c1-collocations), anglicisms (c2-anglicisms-and-official-terms).
+- **New:** the method; structures English uses and French avoids (the passive, noun stacks, *-ing* forms); choosing tense and register; checking with a dictionary.
+- **Key vocab (new):** *un thème*, *un équivalent*, *une tournure idiomatique*, *étoffer*, *un chassé-croisé* (translation technique).
+- **Longer text:** an original English passage, a literal (bad) French version and a good one, side by side.
+- **Exercises:** translate (sentence level, with every taught variant listed), error-correction (a calque), multiple-choice, reorder, a writing task (a paragraph).
+- **Risks:** sentence-level keys need many variants: list every valid answer built from taught material or pin the cue (C1 rule).
+
+## 29. c2-revising-your-style: Revising your own writing (communication · easier)
+
+- **Goal:** edit a text for repetition, heaviness, register breaks and rhythm.
+- **Recaps:** the checklist for rereading (c1-exam-written-tasks); register shifting (c1-register-shifting); the stylistic tools of Unit 4.
+- **New:** *les lourdeurs* (stacked relatives, noun chains), *les répétitions* and their remedies, *les ruptures de registre*, the *que* and *qui* chain, *il y a* overuse, weak verbs (*faire, mettre, dire*) and their precise replacements (recap: c1-precise-verbs).
+- **Key vocab (new):** *une lourdeur*, *alléger une phrase*, *une rupture de registre*, *une phrase bancale*, *fluidifier*.
+- **Longer text:** an original heavy paragraph and its revised version, with each change explained.
+- **Exercises:** reformulation (lighten a sentence), error-correction, multiple-choice, reorder, a writing task.
+- **Risks:** many revisions are matters of taste: keys accept every taught variant, and the explanation says when another choice is also good.
+
+## 30. c2-review-writing: Review: Writing at length (review · easier)
+
+- **New words (3 to 8):** *rédiger au propre*, *un premier jet*, *peaufiner*, *la mise en page*.
+- **Model:** one invented text taken through four stages: notes, first draft, revised draft, contraction.
+- **Exercises:** one per lesson, plus a writing task.
+
+=== docs/plans/c2/unit-6.md ===
+
+# C2 Unit 6 plan: Mediation and negotiation
+
+Status: plan only. Rules: the "C2 conventions" in CLAUDE.md.
+
+Speaking skills practised in writing: the site is text-only, so each lesson works through scripts, transcripts and written exchanges. C1 already taught debate, speeches, diplomacy, meetings and the short exposé; this unit adds what C2 asks for: mediating between people and texts, negotiating towards an agreement, and building a structured oral argument.
+
+## 31. c2-mediation: Explaining a text to someone else (communication · harder)
+
+- **Goal:** relay the content of a document to a person who hasn't read it, adapted to their needs and register.
+- **Recaps:** synthesis and attribution (c1-synthesis); register shifting (c1-register-shifting); reformulating a question (c1-exam-oral-presentation).
+- **New:** selecting for the listener, simplifying without distorting, signalling what the source says vs what you add (*le texte dit que… ; à mon avis…*), handling a question you can't answer from the document.
+- **Key vocab (new):** *servir d'intermédiaire*, *relayer une information*, *en substance*, *si je résume*, *le texte ne précise pas*.
+- **Longer text:** an original notice from an invented town hall and a model message explaining it to an elderly neighbour (written dialogue).
+- **Exercises:** multiple-choice (faithful or not?), register-shift, reformulation, translate, reorder, a writing task.
+- **Risks:** the mediator's summary must match the source exactly (C1 rule on summaries).
+
+## 32. c2-negotiation: Negotiating in writing (communication · harder)
+
+- **Goal:** lead a negotiation by email to an agreement: opening position, concessions, conditions, closing.
+- **Recaps:** negotiating vocabulary (b2-negotiating); diplomatic language (c1-diplomatic-language); hypothesis (*pour peu que*, *à supposer que*: c1-concession-and-hypothesis).
+- **New:** anchoring, conditional offers (*nous pourrions… à condition que…*), trading concessions, saying no without closing the door, summarizing an agreement in writing (*sous réserve de* recap), the final confirmation.
+- **Key vocab (new):** *une contre-proposition*, *une marge de négociation*, *un terrain d'entente*, *trouver un compromis*, *acter*.
+- **Longer text:** an original four-email exchange between two invented companies.
+- **Exercises:** multiple-choice (the best next move), register-shift, error-correction, translate, reorder, a writing task (the closing email).
+- **Risks:** every fact in later emails matches the earlier ones (C1 rule on facts across texts); no real companies.
+
+## 33. c2-structured-oral-argument: A structured oral argument (communication · harder)
+
+- **Goal:** prepare and write out a spoken argument of a few minutes: a clear thesis, signposted reasons, a rebuttal, a memorable close.
+- **Recaps:** public speaking (c1-public-speaking); formal debate (c1-formal-debate); spoken markers (c1-spoken-discourse-markers).
+- **New:** the oral plan (announce, develop, recap), spoken signposting vs written connectors, anticipating the objection, the strength of repetition in speech, timing by the number of points (no figures for timing).
+- **Key vocab (new):** *un fil rouge*, *une objection*, *prévenir une objection*, *marteler*, *en un mot*.
+- **Longer text:** an original speech transcript, with margin notes on its structure.
+- **Exercises:** reorder (the argument), multiple-choice, reformulation (written → spoken), translate, a writing task.
+- **Risks:** don't repeat C1's six-step speech plan: recap it and add only the C2 skills.
+
+## 34. c2-interviews-and-questioning: Asking precise questions (communication · easier)
+
+- **Goal:** prepare and conduct an interview in writing: open, closed and follow-up questions, reformulation, politely pressing for an answer.
+- **Recaps:** questions and inversion (a1-yes-no-questions, b2-reported-questions-orders, c1-stylistic-inversion).
+- **New:** *relancer*, *recadrer* (recap: c1-leading-a-meeting), *une question ouverte / fermée*, *une question piège*, *revenir à la charge*, *si je peux me permettre*.
+- **Longer text:** an original interview transcript (an invented craftsperson) with the interviewer's notes.
+- **Exercises:** multiple-choice (which question type?), reformulation, error-correction (a leading question), translate, reorder.
+- **Risks:** the interviewee is invented; no real people.
+
+## 35. c2-review-mediation: Review: Mediation and negotiation (review · easier)
+
+- **New words (3 to 8):** *un médiateur / une médiatrice*, *une médiation*, *désamorcer un conflit*.
+- **Model:** an invented neighbourhood dispute resolved through mediation, as a written exchange.
+- **Exercises:** one per lesson, plus a writing task.
+
+=== docs/plans/c2/unit-7.md ===
+
+# C2 Unit 7 plan: The language and its literatures
+
+Status: plan only. Rules: the "C2 conventions" in CLAUDE.md. **Highest factual risk:** every date, attribution and quotation goes to docs/review-needed.md ("C2 plan", to verify) before writing, and the C1 quotation safe list applies (authors who died before 1900, under 15 words, our own translations; later authors paraphrased).
+
+C1 covered the canon from classicism to the twentieth century (c1-culture-literary-canon), poetry (c1-culture-french-poetry), satire (c1-culture-satire-and-humour), the Enlightenment, regional languages and La Francophonie. This unit adds what's missing: the history of the language, the literature before the seventeenth century, francophone literatures, and play with language.
+
+## 36. c2-culture-history-of-french: A short history of French (culture · harder)
+
+- **Goal:** know the main stages of the history of French and the texts that mark them.
+- **Recaps:** regional languages and language policy (c1-culture-regional-languages); La Francophonie (c1-culture-francophonie); anglicisms and official terms (c2-anglicisms-and-official-terms).
+- **New (all to verify):** from Latin to Romance; the Strasbourg Oaths (842) as the oldest text usually counted as French; the ordinance of Villers-Cotterêts (1539) and French in official acts; the Académie française (1635) and its dictionary; the Revolution and the debates about regional languages; compulsory schooling in the late nineteenth century (recap of C1); the 1990 spelling rectifications; the 1994 law on the use of French.
+- **Key vocab (new):** *le latin vulgaire*, *l'ancien français*, *le moyen français*, *une ordonnance*, *l'Académie française*, *un dictionnaire de l'Académie*, *la langue d'oïl / la langue d'oc*.
+- **Longer text:** an original article on the history of French, with one short line of the Strasbourg Oaths quoted in the original for recognition (anonymous, ninth century), under 15 words, with our own modern French translation and our own English translation.
+- **Exercises:** multiple-choice (dates and events), fill-in, error-correction (chronology), translate, reorder.
+- **Risks:** the history of language policy touches regional identities: neutral wording, positions attributed, no verdict (C1 rules). Use "adopted", "published" or "in force" for every law (rule from Prompt 38).
+
+## 37. c2-culture-medieval-and-renaissance: Literature before the classics (culture · harder)
+
+- **Goal:** know the main works and authors from the Middle Ages to the Renaissance, and read short extracts in the original spelling (recognition only), with our own modern French and English translations.
+- **Recaps:** the canon from the seventeenth century on (c1-culture-literary-canon); Montaigne (c1-philosophy-and-ideas).
+- **New (all to verify):** *La Chanson de Roland* (anonymous, around 1100), Chrétien de Troyes, *le Roman de Renart*, Villon, Rabelais, the Pléiade (Du Bellay, Ronsard), Louise Labé with the authorship debate presented neutrally and attributed (a 2006 study argued that her works were written by a group of Lyon poets; other scholars reject this), or, if that can't be verified, another Renaissance poet in her place; Old and Middle French spelling and how to read it (**recognition only**).
+- **Key vocab (new):** *une chanson de geste*, *le roman courtois*, *un fabliau*, *la Pléiade*, *l'humanisme*.
+- **Quotations:** safe-list authors only (all died before 1900), under 15 words, one per source per lesson. Quote the original spelling for recognition, with our own modern French translation and our own English translation.
+- **Longer text:** an original article, plus a short extract (under 15 words) from Ronsard or Du Bellay in its original spelling, with our own modern French and English translations.
+- **Exercises:** multiple-choice, fill-in, error-correction, translate, reorder.
+- **Risks:** the original text must be quoted word for word from a reliable edition; the modern French version is our own translation and is labelled as such; medieval dates are approximate: say "around".
+
+## 38. c2-culture-twentieth-century-and-today: Literature since 1900 (culture · harder)
+
+- **Goal:** place the main movements and authors since 1900, by paraphrase only.
+- **Recaps:** the twentieth-century section of c1-culture-literary-canon (Proust, Sartre, Camus, Beauvoir, Duras, Ernaux): recap, don't repeat.
+- **New:** surrealism (recap of the B2 term), the Oulipo and constrained writing, the Nouveau Roman, autofiction, the major prizes (*le prix Goncourt*), the rentrée littéraire.
+- **Key vocab (new):** *l'Oulipo*, *une contrainte d'écriture*, *le Nouveau Roman*, *l'autofiction*, *la rentrée littéraire*, *un prix littéraire*.
+- **Quotations:** none (no author on the safe list); paraphrase and original pastiches labelled as such.
+- **Longer text:** an original article about the rentrée littéraire, with an original lipogram (a text without one letter), labelled as written for the lesson. The lipogram is checked by script, not by eye: the lesson is tagged `lipogram`, the section heading contains "lipogram", an English line says "Missing letter: *e*.", and scripts/c2-wrapup.ts fails any French line of that section that contains the letter (accented forms and *œ* included).
+- **Exercises:** multiple-choice, fill-in, error-correction, translate, reorder.
+- **Risks:** living authors are named with works only, never quoted; labels are given as "often linked with" (rule from Prompt 37).
+
+## 39. c2-culture-francophone-literatures: Francophone literatures (culture · harder)
+
+- **Goal:** know the main francophone literatures outside France and their themes.
+- **Recaps:** La Francophonie (c1-culture-francophonie); francophone Africa (b2-culture-francophone-africa); Québec (b1-culture-quebec).
+- **New (all to verify):** *la négritude* (Senghor, Césaire, Damas); Maghrebi literature in French; Caribbean literature (*l'antillanité*, *la créolité*); Québec literature; Belgian and Swiss authors.
+- **Key vocab (new):** *la négritude*, *la créolité*, *une littérature francophone*, *écrire en français*, *l'exil* (recap: c1-formal-relatives-and-apposition).
+- **Quotations:** none for twentieth-century authors; paraphrase only.
+- **Longer text:** an original article on writing in French from many places.
+- **Exercises:** multiple-choice, fill-in, error-correction, translate, reorder.
+- **Risks:** colonial history: neutral facts and dates, debates attributed, no verdict (C1 sensitive-topic rules); every sentence in review-needed.
+
+## 40. c2-culture-wordplay: Humour and wordplay (culture · easier)
+
+- **Goal:** understand and create French wordplay: puns, spoonerisms, double meanings, press headlines.
+- **Recaps:** *le calembour* and *la contrepèterie* (c1-culture-satire-and-humour); proverbs and their twists (c1-proverbs-and-sayings); polysemy and paronyms (Unit 2).
+- **New:** headline puns, *le jeu de mots* on idioms, *l'homophonie*, *le mot d'esprit*, the comic tradition of wordplay (named performers paraphrased, not quoted), why wordplay resists translation.
+- **Key vocab (new):** *un jeu de mots*, *l'homophonie*, *un mot d'esprit*, *faire un bon mot*, *tomber à plat*.
+- **Longer text:** an original column made of invented headline puns, each explained.
+- **Exercises:** multiple-choice (find the double meaning), fill-in, reformulation, translate, reorder, a writing task (write a headline pun).
+- **Risks:** no cheeky contrepèteries beyond mild ones; no wordplay on real living people or groups.
+
+## 41. c2-review-literatures: Review: The language and its literatures (review · easier)
+
+- **New words (3 to 8):** *un siècle littéraire*, *une époque*, *une filiation*, *se réclamer de*.
+- **Model:** an original short essay on how French has changed and stayed the same, using safe-list quotations only.
+- **Exercises:** one per lesson, plus a writing task.
+
+=== docs/plans/c2/unit-8.md ===
+
+# C2 Unit 8 plan: Range and mastery
+
+Status: plan only. Rules: the "C2 conventions" in CLAUDE.md. Write this unit last: its lessons and reviews draw on everything.
+
+## 42. c2-pastiche: Writing in a style (communication · harder)
+
+- **Goal:** imitate a style consciously: a safe-list author's, a press genre's, an administrative register's.
+- **Recaps:** pastiche (c1-review-literary: *pasticher*); stylistic analysis (c2-stylistic-analysis); press genres (c2-reading-the-press).
+- **New:** identifying the markers of a style (vocabulary, syntax, rhythm, tense), exaggerating them for parody vs reproducing them for pastiche, the ethics of pastiche (label it).
+- **Key vocab (new):** *une parodie*, *à la manière de*, *un tic d'écriture*, *imiter* (recap: c1-culture-satire-and-humour).
+- **Longer text:** one invented event told *à la manière de* a fable (La Fontaine, safe list), a dépêche and an administrative notice, each labelled as an original pastiche.
+- **Exercises:** multiple-choice (which style?), register-shift, reformulation, reorder, a writing task.
+- **Risks:** pastiches of later authors only "in the style of" and labelled as invented (C1 rule); no copied lines. Any verse in the pastiche (the fable) goes through scripts/scan-alexandrines.ts, or the fable is written as prose.
+
+## 43. c2-idiomatic-precision: Idioms at C2 (vocabulary · harder)
+
+- **Goal:** choose between near-idioms, use idioms at the right strength, and recognize twisted idioms in the press.
+- **Recaps:** everyday idioms (b2-idioms-everyday), advanced idioms (c1-advanced-idioms), proverbs (c1-proverbs-and-sayings), collocations (c1-collocations).
+- **New:** pairs that learners confuse (chosen with c2-find and a dictionary while writing), idioms with a literary or old-fashioned flavour, idioms in negative form, twisted idioms in headlines (recap of Unit 7), idioms that don't translate.
+- **Key vocab (new):** about 20 idioms not taught before (checked with c2-find), each labelled by register.
+- **Model:** a dialogue between two editors arguing over idioms in a headline.
+- **Exercises:** multiple-choice, error-correction (a broken idiom), fill-in, translate, reorder.
+- **Risks:** every idiom's meaning and register checked in a dictionary; no repeat of C1 idioms as new entries.
+
+## 44. c2-register-mastery: Moving between registers within one text (communication · harder)
+
+- **Goal:** use a register change on purpose inside one text: for irony, emphasis, quotation or characterization.
+- **Recaps:** register shifting between texts (c1-register-shifting); irony (c1-irony-and-understatement); free indirect speech (c1-reading-literary-narrative).
+- **New:** the deliberate break (a familiar word in a formal text for effect), quoting someone's register, the signals that tell a reader the break is intended (quotation marks, italics, *pour reprendre l'expression de*), and when a break is just a mistake.
+- **Key vocab (new):** *un effet de rupture*, *entre guillemets*, *pour reprendre l'expression de*, *détonner*.
+- **Longer text:** an original column that uses three deliberate register breaks, explained.
+- **Exercises:** multiple-choice (intended or mistake?), register-shift, error-correction, translate, reorder, a writing task.
+- **Risks:** the line between "deliberate effect" and "mixing registers" (a C1 warning) must be drawn clearly.
+
+## 45. c2-review-range: Review: Range and mastery (review · easier)
+
+- **New words (3 to 8):** *la palette*, *l'aisance* (recap? check: b-level entry), *la justesse*, *nuancer* (recap).
+- **Model:** an original text showing range: one paragraph each in three registers and two styles.
+- **Exercises:** one per lesson, plus a writing task.
+
+## 46. c2-review-final: C2 final review (review · harder)
+
+- **Goal:** a can-do checklist for the whole level, one model sentence per unit (with LessonLinks), and a final piece of writing: *Mon rapport à la langue française*.
+- **New words (3 to 8):** *la maîtrise*, *un locuteur natif / une locutrice native*, *un perfectionnement*.
+- **Exercises:** sample all eight units (18 at most), with a writing task.
+- **Risks:** the model uses only taught material; check each structure against the unit that teaches it (rule from Prompt 38).
+
+=== docs/review-needed.md: C2 plan ===
+
+## C2 plan
+
+Every item is **to verify** before the lesson that relies on it is written (docs/plans/c2/).
+
+### Grammar and spelling (Unit 1)
+
+- **c2-agreement-pronominal-verbs:** verified (Prompt 42 review): *elles se sont lavé les mains*, *les mains qu'elles se sont lavées*, the reciprocal list with an indirect *se* (*ils se sont parlé / téléphoné / succédé / plu / souri / nui*), *elles se sont souvenues / évanouies*, *s'arroger* (*ils se sont arrogé des droits*, *les droits qu'ils se sont arrogés*), *ils se sont rendu compte* (invariable), *elle s'est fait voler* (invariable).
+- **c2-agreement-with-infinitives:** verified (Prompt 42 review): *les musiciens que j'ai entendus jouer* / *les airs que j'ai entendu jouer*; *fait* + infinitive always invariable; *laissé* + infinitive: traditional agreement, and invariable as a 1990 option, both accepted. Still to verify: the participle with *en* ("usually invariable; agreement is also found"), see "C2 lessons" below.
+- **c2-tout-quelque-meme:** verified (Prompt 42 review): *toute contente*, *toutes honteuses*, *tout étonnée*; *quelque* + number = about (invariable); *quelque… que* + subjunctive; *quelle que soit la raison*; *même* adverb vs adjective.
+- **c2-agreement-colours-compounds-numbers:** verified (Prompt 42 review): the colour nouns that agree (*rose, mauve, fauve, écarlate, pourpre, incarnat*); *des yeux bleu clair*; *quatre-vingts / quatre-vingt-deux*, *deux cents / deux cent un*, *deux cent mille*, *mille* invariable, *million* and *milliard* as nouns (*quatre-vingts millions*); the 1990 hyphenation of all compound numbers. Still to verify: compound-noun plurals in traditional and 1990 spelling, see "C2 lessons" below.
+- **The 1990 rectifications:** the lessons say only "the 1990 spelling rectifications, recommended rather than compulsory", with no claim about schools or institutions (Prompt 42). The earlier note about school programmes is dropped.
+
+### Lexis and specialized French (Units 2 and 3)
+
+- **c2-paronyms:** to verify each pair's meanings: *éminent / imminent*, *conjecture / conjoncture*, *perpétrer / perpétuer*, *infecter / infester*, *prodige / prodigue*, *effraction / infraction*, *collision / collusion*, *recouvrer / recouvrir*, *acception / acceptation*.
+- **c2-advanced-false-friends:** to verify the status of *réaliser que* and *opportunité* (accepted, criticized, or both) before labelling them.
+- **c2-anglicisms-and-official-terms:** to verify: the official French terms and their dates of publication (*courriel*, *mot-dièse*, *infolettre*, *mercatique*); the role of the Commission d'enrichissement de la langue française and FranceTerme; *divulgâcher* and *baladodiffusion* as Québec terms (Office québécois de la langue française); the 1994 law on the use of French (Loi Toubon), adopted in August 1994, stated without figures.
+  - *écrasement* (for *crash*): to verify whether it's an official French term (FranceTerme) or Québec usage only; dropped from the lesson if neither can be confirmed.
+  - *covoiturage*: to verify that it's the usual word in France (not presented as a replacement still under debate).
+  - *logiciel* and *ordinateur*: to verify the dates of coinage (*ordinateur* proposed in 1955 for IBM France; *logiciel* in the late 1960s, official in the early 1980s?) before giving any date; otherwise present them only as long-established coinages.
+- **c2-legal-french:** to verify whether the Cour de cassation has abandoned the "attendu que" style of judgments, and since when, before mentioning it.
+- **c2-medical-french, c2-scientific-french, c2-administrative-french:** all texts invented; to verify that no term or procedure is presented as current French law or medical advice.
+
+### Reading and writing (Units 4 and 5)
+
+- **c2-commentaire-de-texte:** to verify the description of the method (axes de lecture, citations enchâssées, ouverture) against current French school practice, without exam claims.
+- **c2-contraction-de-texte:** to verify the counting convention taught (how *c'est-à-dire*, elisions and numbers count) and that the lesson presents it as one convention among others.
+- **c2-reading-the-press:** to verify the genre definitions (dépêche, éditorial, chronique, billet, tribune, brève, chapeau, titraille).
+
+### The language and its literatures (Unit 7)
+
+- **c2-culture-history-of-french:** to verify: the Strasbourg Oaths (842) as the oldest text usually counted as French, and the line to quote; the ordinance of Villers-Cotterêts (1539) and what it required; the Académie française (founded 1635) and the first edition of its dictionary (1694); the Revolution's language debates (the abbé Grégoire's report, 1794); the 1990 rectifications; the 1994 law.
+- **c2-culture-medieval-and-renaissance:** to verify: *La Chanson de Roland* (around 1100, anonymous); Chrétien de Troyes (twelfth century); *le Roman de Renart*; Villon (born 1431, date of death unknown); Rabelais (died 1553); Du Bellay (*Défense et illustration de la langue française*, 1549); Ronsard (1524–1585); Louise Labé (*Œuvres*, 1555) and the authorship debate: to verify that Mireille Huchon's *Louise Labé, une créature de papier* (2006) argued for a collective authorship by Lyon poets, and that other scholars reject it; present it as a debate, attributed, with no verdict, or replace Labé with another poet; any quotation, word for word in the original spelling, with the edition it comes from.
+- **c2-culture-twentieth-century-and-today:** to verify: the Oulipo (founded 1960; Queneau, Le Lionnais); Perec's *La Disparition* (1969) as a lipogram; the Nouveau Roman; autofiction (the term and its first use); the prix Goncourt; the rentrée littéraire.
+- **c2-culture-francophone-literatures:** to verify, and treat as sensitive: *la négritude* (Senghor, Césaire, Damas, 1930s); Césaire's *Cahier d'un retour au pays natal* (1939); Senghor at the Académie française (1983); Maghrebi authors to name; *la créolité* (*Éloge de la créolité*, 1989); Québec authors to name; Belgian and Swiss authors to name.
+- **c2-culture-wordplay:** to verify that any named performer or author is paraphrased, not quoted, and that every example pun is original.
+
+### General
+
+- **Quotation safe list at C2:** to verify that anonymous medieval texts may be quoted, and which edition each original-spelling quotation is taken from (Old and Middle French are quoted in the original for recognition, with our own modern French and English translations).
+- **Word-count convention (lib/word-count.ts):** to verify how French word counts (for contractions and résumés) treat apostrophes and hyphens. Chosen: an elided word counts separately (*l'homme* = 2, *qu'il* = 2), with exceptions that keep their apostrophe (*aujourd'hui*, *quelqu'un* = 1); hyphenated compounds count as one (*peut-être* = 1, *vingt-deux* = 1, so *c'est-à-dire* = 2); a number in figures is one word (*1 000* = 1, *3,5* = 1); punctuation alone isn't a word. Also to check: whether the common French convention counts hyphenated words separately (*c'est-à-dire* = 4) rather than whole. lib/word-count.ts is unchanged until this is decided (before Unit 5).
+- **No exam practice at C2:** to verify that no lesson describes the DALF C2 (format, timing, scoring).

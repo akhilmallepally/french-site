@@ -21,6 +21,8 @@ type Exercise = {
   answers?: string[];
   explanation?: string;
   strictAccents?: boolean;
+  model?: string; // writing-task (C2)
+  checklist?: string[]; // writing-task (C2)
 };
 type AuditLesson = {
   id: string;
@@ -151,17 +153,26 @@ function audit(lessons: AuditLesson[]) {
     pendingRank.length = 0;
   };
 
+  // C2: the lesson body without the English translations of text sections (the "(…)" lines).
+  const withoutTextTranslations = (body: string) =>
+    splitSections(body).map((sec) => (sec.kind === "text" ? sec.body.split("\n").filter((x) => !/^\(.*\)\s*$/.test(x.trim())).join("\n") : sec.body) + "\n" + (sec.kind === "text" ? sec.callouts.join("\n") : "")).join("\n");
+
   // B2 checks: lengths, En résumé, the exercise and vocab mix, repeats from earlier levels,
   // the passé simple, and spoken features in answers.
-  // Used for B2 and C1 lessons; C1 has its own limits (CLAUDE.md, "C1 conventions").
-  function auditB2(l: AuditLesson, whole: number) {
+  // Used for B2, C1 and C2 lessons; C1 and C2 have their own limits (CLAUDE.md, "C1 conventions";
+  // docs/plans/c2/overview.md, draft "C2 conventions"). At C2 the whole lesson leaves out the English
+  // translations of text sections, and a "Source text…" section (a text to comment on or contract)
+  // is counted on its own.
+  function auditB2(l: AuditLesson, wholeWithTranslations: number) {
     const type = l.type ?? "";
     const teach = renderedWords(teachingText(l.body));
-    const c1 = l.id.startsWith("c1-");
-    const LV = c1 ? "C1" : "B2";
-    const maxTeach = c1 ? (type === "grammar" ? 1300 : 1200) : type === "grammar" ? 1200 : 1100;
-    const minTeach = c1 ? 900 : 800;
-    const maxWhole = c1 ? 2100 : 1800;
+    const c2 = l.id.startsWith("c2-");
+    const c1 = l.id.startsWith("c1-") || c2; // C2 inherits every C1 rule unless changed below
+    const LV = c2 ? "C2" : c1 ? "C1" : "B2";
+    const maxTeach = c2 ? (type === "grammar" ? 1400 : 1300) : c1 ? (type === "grammar" ? 1300 : 1200) : type === "grammar" ? 1200 : 1100;
+    const minTeach = c2 ? 1000 : c1 ? 900 : 800;
+    const maxWhole = c2 ? 2600 : c1 ? 2100 : 1800;
+    const whole = c2 ? renderedWords(withoutTextTranslations(l.body)) : wholeWithTranslations;
     if (teach < minTeach || teach > maxTeach) P.b2Length.push(`${l.id}: teaching text ${teach} words (${LV}: ${minTeach} to ${maxTeach})`);
     if (whole > maxWhole) P.b2Length.push(`${l.id}: whole lesson ${whole} words (${LV} cap: ${maxWhole})`);
 
@@ -173,7 +184,7 @@ function audit(lessons: AuditLesson[]) {
     if (resumeAt >= 0) {
       const words = resumeWords(l.body);
       const unit = unitNumber.get(l.id) ?? 0;
-      const [lo, hi] = c1 ? [120, 180] : unit >= 5 ? [100, 150] : [60, 100];
+      const [lo, hi] = c2 ? [150, 200] : c1 ? [120, 180] : unit >= 5 ? [100, 150] : [60, 100];
       if (words < lo || words > hi) P.b2Resume.push(`${l.id}: En résumé ${words} words (unit ${unit || "?"}: ${lo} to ${hi})`);
       const after = sections.slice(resumeAt + 1).map((s) => s.heading);
       if (after.some((h) => h !== "What's next")) P.b2Resume.push(`${l.id}: En résumé should be the last section before What's next`);
@@ -185,11 +196,17 @@ function audit(lessons: AuditLesson[]) {
     if (vocab.length < vlo || vocab.length > vhi) {
       P.b2Mix.push(`${l.id}: ${vocab.length} vocab entries, glossary excluded (B2${isReview ? " review" : ""}: ${vlo} to ${vhi})`);
     }
-    const exs = l.exercises ?? [];
+    // Writing tasks (C2) are ungraded: they don't count as exercises or production tasks.
+    const exs = (l.exercises ?? []).filter((e) => e.type !== "writing-task");
+    const writingTasks = (l.exercises ?? []).filter((e) => e.type === "writing-task");
+    if (writingTasks.length > 1) P.b2Mix.push(`${l.id}: ${writingTasks.length} writing tasks (at most 1)`);
+    for (const w of writingTasks) {
+      if (!w.model || !Array.isArray(w.checklist) || w.checklist.length < 3 || w.checklist.length > 6) P.b2Mix.push(`${l.id} / ${w.id}: writing task needs a model and a checklist of 3 to 6 items`);
+    }
     const count = (pred: (e: Exercise) => boolean) => exs.filter(pred).length;
     const production = count((e) => PRODUCTION.has(e.type));
     const issues: string[] = [];
-    const [elo, ehi, pmin] = c1 ? [15, 18, 4] : [14, 16, 3];
+    const [elo, ehi, pmin] = c2 ? [15, 18, 5] : c1 ? [15, 18, 4] : [14, 16, 3];
     if (exs.length < elo || exs.length > ehi) issues.push(`${exs.length} exercises (${elo} to ${ehi})`);
     if (production < pmin) issues.push(`${production} production tasks (at least ${pmin})`);
     if (!count((e) => e.type === "reorder")) issues.push("no reorder");
@@ -206,9 +223,16 @@ function audit(lessons: AuditLesson[]) {
     }
     // The longer text: French words in the longer-text sections (italic lines; translations and notes left out).
     if (type === "communication" || type === "culture" || (c1 && type === "review")) {
-      const words = countWords(sections.filter((s) => s.kind === "text").flatMap((s) => italicLines(s.body)).join(" "));
-      const [tlo, thi] = c1 ? [250, 400] : [150, 250];
+      const isSource = (h: string) => c2 && /^Source text\b/i.test(h);
+      const words = countWords(sections.filter((s) => s.kind === "text" && !isSource(s.heading)).flatMap((s) => italicLines(s.body)).join(" "));
+      const [tlo, thi] = c2 ? [300, 500] : c1 ? [250, 400] : [150, 250];
       if (words && (words < tlo || words > thi)) P.b2Text.push(`${l.id}: longer text ${words} French words (${LV}: ${tlo} to ${thi})`);
+      const source = sections.filter((s) => isSource(s.heading));
+      if (source.length) {
+        const sw = countWords(source.flatMap((s) => italicLines(s.body)).join(" "));
+        if (sw > 600) P.b2Text.push(`${l.id}: source text ${sw} French words (C2: at most 600)`);
+        if (sections.some((s) => s.kind === "dialogue")) P.b2Mix.push(`${l.id}: a lesson with a source text has no dialogue (C2)`);
+      }
     }
 
     for (const v of l.vocab ?? []) {
@@ -286,7 +310,7 @@ function audit(lessons: AuditLesson[]) {
       ...sections.filter((s) => s.kind !== "teaching").flatMap((s) => (s.kind === "resume" ? [s.body] : italicLines(s.body))),
       ...exs.flatMap((e) => [e.prompt ?? "", ...(e.answers ?? []), ...(e.options ?? [])]),
     ];
-    if (!c1 && l.order < PASSE_SIMPLE_FROM) {
+    if (!c1 && l.order < PASSE_SIMPLE_FROM) { // c1 is also true at C2
       const forms = [...new Set(french.flatMap(passeSimpleForms))];
       if (forms.length) P.b2PasseSimple.push(`${l.id}: passé simple before lesson ${PASSE_SIMPLE_FROM} (${forms.join(", ")})`);
     }
@@ -311,7 +335,7 @@ function audit(lessons: AuditLesson[]) {
     }
     pendingRank.push(l);
     const whole = renderedWords(l.body);
-    if (l.id.startsWith("b2-") || l.id.startsWith("c1-")) {
+    if (l.id.startsWith("b2-") || l.id.startsWith("c1-") || l.id.startsWith("c2-")) {
       auditB2(l, whole);
     } else if (l.id.startsWith("b1-")) {
       // B1: teaching text excludes dialogues and longer texts (see CLAUDE.md, B1 conventions).

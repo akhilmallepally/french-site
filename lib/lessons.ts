@@ -27,7 +27,7 @@ export const LEVEL_INFO: Record<Level, { name: string; summary: string; comingLa
   B1: { name: "Intermediate", summary: "Give opinions, tell stories, and cope with most situations while travelling." },
   B2: { name: "Upper intermediate", summary: "Argue a point, follow the news, and speak with nuance and fluency." },
   C1: { name: "Advanced", summary: "Write and speak with precision, style, and control of register." },
-  C2: { name: "Mastery", summary: "Near-native command of the language in any context.", comingLater: true },
+  C2: { name: "Mastery", summary: "Near-native command of the language in any context." },
 };
 
 export const CONTENT_DIR = path.join(process.cwd(), "content", "lessons");
@@ -218,10 +218,15 @@ function parseExercises(value: unknown, errors: string[], level: unknown): Exerc
     errors.push(`"exercises" must be a list`);
     return [];
   }
+  const isC2 = level === "C2";
+  if (Array.isArray(value) && value.filter((x) => (x as Record<string, unknown> | null)?.type === "writing-task").length > 1) {
+    errors.push(`"exercises" may contain at most one writing-task`);
+  }
   return value.flatMap((item, i): Exercise[] => {
     const e = (item ?? {}) as Record<string, unknown>;
     const where = `exercises[${i}]${isText(e.id) ? ` (${e.id})` : ""}`;
     const before = errors.length;
+    if (e.type === "writing-task") return parseWritingTask(e, where, isC2, errors, before);
     for (const k of ["id", "prompt", "explanation"]) if (!isText(e[k])) errors.push(`${where}: "${k}" is missing or empty`);
     if (!EXERCISE_TYPES.includes(e.type as ExerciseType)) {
       errors.push(`${where}: "type" must be one of ${EXERCISE_TYPES.join(", ")} (got ${JSON.stringify(e.type)})`);
@@ -258,6 +263,24 @@ function parseExercises(value: unknown, errors: string[], level: unknown): Exerc
     }
     return errors.length > before ? [] : [e as unknown as Exercise];
   });
+}
+
+/** C2 writing task: prompt, model, a 3-to-6-item checklist, an optional [min, max] word target; no answers. */
+function parseWritingTask(e: Record<string, unknown>, where: string, isC2: boolean, errors: string[], before: number): Exercise[] {
+  if (!isC2) errors.push(`${where}: "writing-task" exercises are only allowed at C2`);
+  for (const k of ["id", "prompt", "model"]) if (!isText(e[k])) errors.push(`${where}: "${k}" is missing or empty`);
+  if (!isStringArray(e.checklist) || e.checklist.length < 3 || e.checklist.length > 6 || e.checklist.some((c) => !c.trim())) {
+    errors.push(`${where}: writing-task needs a "checklist" of 3 to 6 non-empty items`);
+  }
+  if (e.wordTarget !== undefined) {
+    const t = e.wordTarget;
+    const ok = Array.isArray(t) && t.length === 2 && t.every((n) => Number.isInteger(n) && n > 0) && (t[0] as number) < (t[1] as number);
+    if (!ok) errors.push(`${where}: "wordTarget" must be [min, max], two positive whole numbers with min < max`);
+  }
+  for (const k of ["answers", "options", "words", "strictAccents"]) {
+    if (e[k] !== undefined) errors.push(`${where}: "${k}" is not allowed on a writing-task (it isn't graded)`);
+  }
+  return errors.length > before ? [] : [e as unknown as Exercise];
 }
 
 /** Course order: by level, then by order within the level. */

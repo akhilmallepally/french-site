@@ -15,11 +15,17 @@ export const EXERCISE_TYPES = [
   "multiple-choice", "fill-in", "translate", "reorder",
   // B2 and later (see "B2 conventions" in CLAUDE.md)
   "reformulation", "register-shift", "connector-choice", "error-correction",
+  // C2 only (see "Exercise types" in CLAUDE.md): ungraded long writing
+  "writing-task",
 ] as const;
 export type ExerciseType = (typeof EXERCISE_TYPES)[number];
 
 /** Types only allowed from B2 on. */
 export const B2_EXERCISE_TYPES: readonly ExerciseType[] = ["reformulation", "register-shift", "connector-choice", "error-correction"];
+/** Types only allowed at C2. */
+export const C2_EXERCISE_TYPES: readonly ExerciseType[] = ["writing-task"];
+/** Types that are never graded: no answers, no score, outside the lesson's practice run. */
+export const UNGRADED_TYPES: readonly ExerciseType[] = ["writing-task"];
 /** Types where the learner picks from `options`. */
 export const OPTION_TYPES: readonly ExerciseType[] = ["multiple-choice", "connector-choice"];
 /** Types where the learner types a whole answer in a text box (fill-in has its own gap input). */
@@ -61,6 +67,29 @@ export type ConnectorChoiceExercise = ExerciseBase & {
 /** B2: retype the sentence with its mistake corrected; typed. */
 export type ErrorCorrectionExercise = ExerciseBase & { type: "error-correction" };
 
-export type Exercise =
+/** Every graded exercise: compared with `answers` and counted in the lesson score. */
+export type GradedExercise =
   | MultipleChoiceExercise | FillInExercise | TranslateExercise | ReorderExercise
   | ReformulationExercise | RegisterShiftExercise | ConnectorChoiceExercise | ErrorCorrectionExercise;
+
+/**
+ * C2: an ungraded long-writing task. The learner writes in a text box, sees a live word
+ * count, can show the model at any time, ticks a self-check list and marks the task done.
+ * Nothing is scored. Privacy: the text stays in the learner's browser as a draft
+ * (localStorage, one key per exercise); it is never sent to a server, saved in progress
+ * or logged. Progress records only "done" and the ticked checklist items.
+ */
+export type WritingTaskExercise = {
+  id: string;
+  type: "writing-task";
+  prompt: string;
+  model: string; // a model answer, shown on request
+  checklist: string[]; // 3 to 6 self-check questions
+  wordTarget?: [number, number]; // optional [min, max] words, counted with lib/word-count.ts
+};
+
+export type Exercise = GradedExercise | WritingTaskExercise;
+
+export function isGraded(exercise: Exercise): exercise is GradedExercise {
+  return !UNGRADED_TYPES.includes(exercise.type);
+}

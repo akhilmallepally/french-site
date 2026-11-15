@@ -9,6 +9,8 @@ export const INSTRUCTION_VERBS = [
   "Conjuguez", "Accordez", "Mettez au…", "Répondez", "Rédigez", "Traduisez", "Trouvez",
   // C1 only (model-answer tasks): see CLAUDE.md, "C1 conventions".
   "Résumez", "Justifiez",
+  // C2 only (commentary, contraction and analysis): see the draft "C2 conventions" in docs/plans/c2/overview.md.
+  "Commentez", "Contractez", "Analysez",
 ];
 export const INSTRUCTION_NOUNS = [
   "la phrase", "le mot", "le verbe", "la forme", "le sens", "la bonne réponse", "le connecteur", "l'erreur",

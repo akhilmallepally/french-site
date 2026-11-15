@@ -197,6 +197,25 @@ export function validateContent(lessonsDir: string, syllabusFile: string): Valid
     if (hidden.length) warnings.push(`${file}: vocab not shown in any <VocabTable />: ${hidden.map((v) => v.id).join(", ")}`);
   }
 
+  // 11. "Source text" sections (a text to comment on or contract): C2 only, at most one per lesson,
+  //     with French text lines (*…*) and an English translation line ((…)).
+  for (const l of lessons) {
+    const file = fileOf.get(l);
+    const sections = bodyOf.get(l)!.split(/^(?=## )/m).filter((s) => /^## Source text\b/i.test(s));
+    if (!sections.length) continue;
+    if (l.level !== "C2") {
+      errors.push(`${file}: "Source text" sections are only allowed at C2`);
+      continue;
+    }
+    if (sections.length > 1) errors.push(`${file}: at most one "Source text" section per lesson (found ${sections.length})`);
+    for (const s of sections) {
+      const heading = s.split(/\r?\n/)[0].replace(/^## /, "").trim();
+      const lines = s.split(/\r?\n/).slice(1).map((x) => x.trim());
+      if (!lines.some((x) => /^\*[^*].*\*$/.test(x))) errors.push(`${file}: "${heading}" has no French text lines (*…*)`);
+      if (!lines.some((x) => /^\(.+\)$/.test(x))) errors.push(`${file}: "${heading}" has no English translation line ((…))`);
+    }
+  }
+
   return { lessonCount: lessons.length, errors, warnings };
 }
 

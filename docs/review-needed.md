@@ -2029,23 +2029,80 @@ Every date, tradition and regional detail, for checking:
 - **c1-diplomatic-language:** "formal French does the same with *pouvoir* and *savoir* (*nous regrettons de ne pouvoir accepter*, *je ne saurais dire*)". Confirm.
 - **c1-philosophy-and-ideas:** Pascal's *Pensées* dated 1670 in the quotation's attribution (first edition, after his death). Confirm. Montaigne's *Que sais-je ?* is given without a year (the *Essais* appeared from 1580 to 1588).
 
+## C2 lessons
+
+Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
+
+### c2-agreement-pronominal-verbs
+
+- **"Se plaire … also means 'to enjoy being somewhere', and its participle stays the same there too: *elles se sont plu à Lyon*."** and the whole list's "*se plaire* (*plu* in every meaning)". Confirm.
+- **"The same goes for a verb whose meaning changes with se, such as *s'apercevoir de* … or *se moquer de*: *elles se sont aperçues de l'erreur*. And when a pronominal verb has a passive meaning, it agrees with its subject: *ces robes se sont vendues en une heure*."** Confirm.
+- **"*S'évanouir*, *se méfier de*, *s'enfuir* and *se souvenir de* all work this way"** (verbs that only exist with *se*). Confirm the classification of *se souvenir*.
+- **"In speech you'll often hear *elle s'est permise de répondre*. That's the spoken form."** Confirm that this is a common spoken form, labelled rather than called wrong (rule 20).
+- **"Se mettre à: *mettre quelqu'un*, so *se* is the COD: *elle s'est mise à rire*."** Confirm the explanation.
+
+### c2-agreement-with-infinitives
+
+- **"At A2, you learned that *en* causes no agreement. That's the rule of thumb … Agreement with the noun that *en* stands for is also found, and some grammars accept it (*j'en ai mangées*)."** Confirm; keys accept both (ex009).
+- **"With *devoir*, *pouvoir* and *vouloir* + infinitive, a preceding object is the object of the infinitive, not of the modal verb. So *dû*, *pu* and *voulu* don't agree."**, *elle a fait tous les efforts qu'elle a pu*, and *les sommes qu'il a dues*. Confirm.
+- **"The same applies to *se laisser*: *elle s'est laissée convaincre* and *elle s'est laissé convaincre* are both correct."** Confirm under the 1990 rectifications.
+- **The *par* check:** "If you can add *par* + someone after the infinitive …, the object undergoes the action, and the participle doesn't agree." Confirm as a reliable check.
+
+### c2-tout-quelque-meme
+
+- **"Meaning 'completely different', *tout* doesn't change in careful writing: *une tout autre question*."** (ex005, the self-check). Confirm, and whether *une toute autre* should be labelled as frequent rather than wrong.
+- **"In the singular, *quelque* + noun means 'some' in a few set uses: *quelque chose*, *quelque part*, and the formal *quelque temps*."** Confirm.
+- **"After a plural noun, the two can be hard to tell apart in writing. To say 'even', put *même* before the noun."** Confirm the advice.
+- **The test for *tout autre*:** "if you can add *différente* after the noun, you need the adverb." Confirm it isn't misleading.
+
+### c2-agreement-colours-compounds-numbers
+
+- **Compound-noun plurals:** "Noun + adjective, or adjective + noun: both parts agree (*des grands-parents*, *des coffres-forts*). Noun + de + noun: only the first noun agrees (*des chefs-d'œuvre*). Verb + noun: … in traditional spelling, the noun takes an *s* only if the meaning needs one (*des tire-bouchons*, *des porte-monnaie*, *des gratte-ciel*)." Confirm each example.
+- **The 1990 rule:** "a compound of a verb and a noun takes an *s* on its last part only when the compound itself is plural. So *des porte-monnaies* and *des gratte-ciels* are correct too." Confirm.
+- **"If each object has both colours, they don't change: *des drapeaux bleu et blanc* … If some objects are one colour and some the other, they agree: *des fleurs bleues et blanches*."** Confirm.
+- **"*Et* appears only in 21, 31, 41, 51, 61 and 71 (*soixante et onze*)."** and the ordinal use (*la page quatre-vingt*, *l'an deux cent*). Confirm.
+- **The tip:** "For a verb + noun compound, the 1990 plural (an *s* on the last part) is always correct." Confirm.
+
+### c2-concordance-in-writing
+
+- **"*Après que* … careful written French puts it in the indicative … In speech and in much everyday writing, you'll often see *après qu'il soit parti* … many readers and editors don't accept it."** Confirm the labelling (rule 20).
+- **"The imparfait is never wrong in a past report (*le guide a expliqué que la Seine traversait Paris*)."** Confirm the claim as worded.
+- **The table** (present, past and future anchors) and "From a present or future anchor, the futur antérieur does the same job: *il dit qu'il aura fini à midi*." Confirm.
+- **ex016:** *Ils sont partis avant qu'elle (n')arrive / (ne) soit arrivée*: confirm all four keys.
+
+### c2-ellipsis-and-nominal-style
+
+- **"The verb can be left out even when its form would change: in *je prends le thé, toi, le café*, the missing verb is *prends* for *toi* as well."** Confirm.
+- **"You can also write the auxiliary once, but only if it's the same auxiliary in the same form."** Confirm as stated.
+- **"In careful writing, use a semicolon between the two clauses when each has its own comma."** Confirm the punctuation advice.
+- **The vocab note "*ambiguë* (1990: *ambigüe*)".** Confirm the 1990 spelling.
+- **Headline features** (the news present, the colon, the participle, *selon*). Confirm the description; no exam or style-guide claim is made.
+
+### c2-review-form
+
+- **The ten errors and the "looks like an error but isn't" list** (*ils se sont succédé*, *les étagères que la directrice a laissé choisir aux enfants*, *tout heureux*, *une fête aura lieu*). Confirm each.
+- **The proofreading order** ("as a rule of thumb"). No claim beyond advice.
+
 ## C2 plan
 
 Every item is **to verify** before the lesson that relies on it is written (docs/plans/c2/).
 
 ### Grammar and spelling (Unit 1)
 
-- **c2-agreement-pronominal-verbs:** to verify: *elles se sont lavé les mains*, *les mains qu'elles se sont lavées*, *ils se sont parlé / téléphoné / succédé / plu / souri / nui*, *elles se sont souvenues / évanouies*, *ils se sont rendu compte* (invariable), *elle s'est fait voler* (invariable); and that the 1990 rectifications don't change these rules.
-- **c2-agreement-with-infinitives:** to verify: *les musiciens que j'ai entendus jouer* / *les airs que j'ai entendu jouer*; *fait* + infinitive always invariable; *laissé* + infinitive may stay invariable since the 1990 rectifications; the agreement with *en* (*des pommes, j'en ai mangé*) and how much usage varies.
-- **c2-tout-quelque-meme:** to verify: *toute contente*, *toutes honteuses*, *tout étonnée*; *quelque* + number = about (invariable); *quelque… que* + subjunctive; *quelle que soit la raison*; *même* adverb vs adjective.
-- **c2-agreement-colours-compounds-numbers:** to verify: the list of colour nouns that agree (*rose, mauve, fauve, écarlate, pourpre, incarnat*); *des yeux bleu clair*; *quatre-vingts / quatre-vingt-deux*, *deux cents / deux cent un*, *mille* invariable; compound-noun plurals in traditional and 1990 spelling (*des porte-monnaie / porte-monnaies*); the 1990 hyphenation of all compound numbers.
-- **The 1990 rectifications:** to verify: published by the Conseil supérieur de la langue française in 1990 (Journal officiel, December 1990), recommended rather than compulsory, and which institutions use them (school programmes since 2008? to verify).
+- **c2-agreement-pronominal-verbs:** verified (Prompt 42 review): *elles se sont lavé les mains*, *les mains qu'elles se sont lavées*, the reciprocal list with an indirect *se* (*ils se sont parlé / téléphoné / succédé / plu / souri / nui*), *elles se sont souvenues / évanouies*, *s'arroger* (*ils se sont arrogé des droits*, *les droits qu'ils se sont arrogés*), *ils se sont rendu compte* (invariable), *elle s'est fait voler* (invariable).
+- **c2-agreement-with-infinitives:** verified (Prompt 42 review): *les musiciens que j'ai entendus jouer* / *les airs que j'ai entendu jouer*; *fait* + infinitive always invariable; *laissé* + infinitive: traditional agreement, and invariable as a 1990 option, both accepted. Still to verify: the participle with *en* ("usually invariable; agreement is also found"), see "C2 lessons" below.
+- **c2-tout-quelque-meme:** verified (Prompt 42 review): *toute contente*, *toutes honteuses*, *tout étonnée*; *quelque* + number = about (invariable); *quelque… que* + subjunctive; *quelle que soit la raison*; *même* adverb vs adjective.
+- **c2-agreement-colours-compounds-numbers:** verified (Prompt 42 review): the colour nouns that agree (*rose, mauve, fauve, écarlate, pourpre, incarnat*); *des yeux bleu clair*; *quatre-vingts / quatre-vingt-deux*, *deux cents / deux cent un*, *deux cent mille*, *mille* invariable, *million* and *milliard* as nouns (*quatre-vingts millions*); the 1990 hyphenation of all compound numbers. Still to verify: compound-noun plurals in traditional and 1990 spelling, see "C2 lessons" below.
+- **The 1990 rectifications:** the lessons say only "the 1990 spelling rectifications, recommended rather than compulsory", with no claim about schools or institutions (Prompt 42). The earlier note about school programmes is dropped.
 
 ### Lexis and specialized French (Units 2 and 3)
 
 - **c2-paronyms:** to verify each pair's meanings: *éminent / imminent*, *conjecture / conjoncture*, *perpétrer / perpétuer*, *infecter / infester*, *prodige / prodigue*, *effraction / infraction*, *collision / collusion*, *recouvrer / recouvrir*, *acception / acceptation*.
 - **c2-advanced-false-friends:** to verify the status of *réaliser que* and *opportunité* (accepted, criticized, or both) before labelling them.
 - **c2-anglicisms-and-official-terms:** to verify: the official French terms and their dates of publication (*courriel*, *mot-dièse*, *infolettre*, *mercatique*); the role of the Commission d'enrichissement de la langue française and FranceTerme; *divulgâcher* and *baladodiffusion* as Québec terms (Office québécois de la langue française); the 1994 law on the use of French (Loi Toubon), adopted in August 1994, stated without figures.
+  - *écrasement* (for *crash*): to verify whether it's an official French term (FranceTerme) or Québec usage only; dropped from the lesson if neither can be confirmed.
+  - *covoiturage*: to verify that it's the usual word in France (not presented as a replacement still under debate).
+  - *logiciel* and *ordinateur*: to verify the dates of coinage (*ordinateur* proposed in 1955 for IBM France; *logiciel* in the late 1960s, official in the early 1980s?) before giving any date; otherwise present them only as long-established coinages.
 - **c2-legal-french:** to verify whether the Cour de cassation has abandoned the "attendu que" style of judgments, and since when, before mentioning it.
 - **c2-medical-french, c2-scientific-french, c2-administrative-french:** all texts invented; to verify that no term or procedure is presented as current French law or medical advice.
 
@@ -2058,12 +2115,13 @@ Every item is **to verify** before the lesson that relies on it is written (docs
 ### The language and its literatures (Unit 7)
 
 - **c2-culture-history-of-french:** to verify: the Strasbourg Oaths (842) as the oldest text usually counted as French, and the line to quote; the ordinance of Villers-Cotterêts (1539) and what it required; the Académie française (founded 1635) and the first edition of its dictionary (1694); the Revolution's language debates (the abbé Grégoire's report, 1794); the 1990 rectifications; the 1994 law.
-- **c2-culture-medieval-and-renaissance:** to verify: *La Chanson de Roland* (around 1100, anonymous); Chrétien de Troyes (twelfth century); *le Roman de Renart*; Villon (born 1431, date of death unknown); Rabelais (died 1553); Du Bellay (*Défense et illustration de la langue française*, 1549); Ronsard (1524–1585); Louise Labé; any quotation, word for word in modernized spelling.
+- **c2-culture-medieval-and-renaissance:** to verify: *La Chanson de Roland* (around 1100, anonymous); Chrétien de Troyes (twelfth century); *le Roman de Renart*; Villon (born 1431, date of death unknown); Rabelais (died 1553); Du Bellay (*Défense et illustration de la langue française*, 1549); Ronsard (1524–1585); Louise Labé (*Œuvres*, 1555) and the authorship debate: to verify that Mireille Huchon's *Louise Labé, une créature de papier* (2006) argued for a collective authorship by Lyon poets, and that other scholars reject it; present it as a debate, attributed, with no verdict, or replace Labé with another poet; any quotation, word for word in the original spelling, with the edition it comes from.
 - **c2-culture-twentieth-century-and-today:** to verify: the Oulipo (founded 1960; Queneau, Le Lionnais); Perec's *La Disparition* (1969) as a lipogram; the Nouveau Roman; autofiction (the term and its first use); the prix Goncourt; the rentrée littéraire.
 - **c2-culture-francophone-literatures:** to verify, and treat as sensitive: *la négritude* (Senghor, Césaire, Damas, 1930s); Césaire's *Cahier d'un retour au pays natal* (1939); Senghor at the Académie française (1983); Maghrebi authors to name; *la créolité* (*Éloge de la créolité*, 1989); Québec authors to name; Belgian and Swiss authors to name.
 - **c2-culture-wordplay:** to verify that any named performer or author is paraphrased, not quoted, and that every example pun is original.
 
 ### General
 
-- **Quotation safe list at C2:** to verify that anonymous medieval texts may be quoted, and that modernized spelling is acceptable as "word for word".
+- **Quotation safe list at C2:** to verify that anonymous medieval texts may be quoted, and which edition each original-spelling quotation is taken from (Old and Middle French are quoted in the original for recognition, with our own modern French and English translations).
+- **Word-count convention (lib/word-count.ts):** to verify how French word counts (for contractions and résumés) treat apostrophes and hyphens. Chosen: an elided word counts separately (*l'homme* = 2, *qu'il* = 2), with exceptions that keep their apostrophe (*aujourd'hui*, *quelqu'un* = 1); hyphenated compounds count as one (*peut-être* = 1, *vingt-deux* = 1, so *c'est-à-dire* = 2); a number in figures is one word (*1 000* = 1, *3,5* = 1); punctuation alone isn't a word. Also to check: whether the common French convention counts hyphenated words separately (*c'est-à-dire* = 4) rather than whole. lib/word-count.ts is unchanged until this is decided (before Unit 5).
 - **No exam practice at C2:** to verify that no lesson describes the DALF C2 (format, timing, scoring).

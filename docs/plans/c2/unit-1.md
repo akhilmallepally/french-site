@@ -1,6 +1,14 @@
 # C2 Unit 1 plan: Precision in form
 
-Status: plan only. Rules: the draft "C2 conventions" in docs/plans/c2/overview.md. Key vocab lists headline items only; "(recap)" items are taught earlier and aren't new entries.
+Status: **written in Prompt 42.** Rules: the "C2 conventions" in CLAUDE.md. Key vocab lists headline items only; "(recap)" items are taught earlier and aren't new entries.
+
+Changes made while writing (also in docs/syllabus.md):
+- Lesson 2 defines *invariable* (first needed there) and adds *dû*, *pu*, *voulu* + infinitive; lesson 4 recaps it.
+- Lesson 3 adds b2-subjunctive-conjunctions as a prerequisite (*bien que*); *un adverbe invariable* isn't a separate entry.
+- Lesson 4's prerequisites are a1-shopping-for-clothes (*marron*, *orange*) and a2-numbers-years-ordinals (the A2 rule for *vingt*, *cent*, *mille*, *million*), not a1-numbers-21-100.
+- Lesson 5 adds b2-reporting-verbs (*la veille*, *le lendemain*).
+- Lesson 6's prerequisites are b2-nominalisation, c1-leading-a-meeting and c2-concordance-in-writing; b2-formal-report is related.
+- Lesson 7's text with ten errors is a "Source text" section, so the corrected text (about 350 words) is the longer text; the lesson has no dialogue.
 
 This unit refines points a C2 writer gets wrong under pressure. It re-teaches nothing: each lesson recaps the earlier rule in two or three sentences with a LessonLink, then teaches only the edge cases.
 
@@ -8,8 +16,8 @@ This unit refines points a C2 writer gets wrong under pressure. It re-teaches no
 
 - **Goal:** agree the past participle of any pronominal verb correctly in writing.
 - **Recaps:** agreement with *être* and with a preceding direct object (a2-reflexive-passe-compose, a2-pronouns-in-passe-compose); the passive and agreement (b2-passive-voice).
-- **New:** the real test: is the reflexive pronoun the direct object? *Elles se sont lavées* / *elles se sont lavé les mains* / *les mains qu'elles se sont lavées*; reciprocal verbs with an indirect pronoun (*ils se sont parlé, téléphoné, succédé, plu, souri, nui*); essentially pronominal verbs agree with the subject (*elles se sont souvenues, évanouies*); *se rendre compte* (invariable *rendu*); *se faire* + infinitive (invariable, recap of b2-faire-causatif).
-- **Key vocab (new):** *un verbe pronominal*, *un verbe essentiellement pronominal*, *réciproque*, *le complément d'objet direct (COD)*, *s'évanouir*, *se succéder*, *se nuire*. Recaps: *le participe passé* (a2), *s'apercevoir que* (b1-plus-que-parfait).
+- **New:** the real test: is the reflexive pronoun the direct object? *Elles se sont lavées* / *elles se sont lavé les mains* / *les mains qu'elles se sont lavées*; reciprocal verbs with an indirect pronoun (*ils se sont parlé, téléphoné, succédé, plu, souri, nui*); essentially pronominal verbs agree with the subject (*elles se sont souvenues, évanouies*), with one exception: *s'arroger*, whose participle agrees with a preceding COD, not the subject (*ils se sont arrogé des droits* / *les droits qu'ils se sont arrogés*); *se rendre compte* (invariable *rendu*); *se faire* + infinitive (invariable, recap of b2-faire-causatif).
+- **Key vocab (new):** *un verbe pronominal*, *un verbe essentiellement pronominal*, *réciproque*, *le complément d'objet direct (COD)*, *s'évanouir*, *se succéder*, *se nuire*, *s'arroger*. Recaps: *le participe passé* (a2), *s'apercevoir que* (b1-plus-que-parfait).
 - **Model:** a short news item in the passé composé with eight pronominal verbs, each agreement explained in "How the text works".
 - **Exercises (16):** fill-in (agreement endings), error-correction, multiple-choice (who is the COD?), reformulation (move the COD before the verb), translate, reorder.
 - **Risks:** many speakers don't hear these agreements; never present a common spoken form as "wrong" without saying it's a written-French rule. The 1990 rectifications don't change these rules (to verify).
@@ -38,9 +46,9 @@ This unit refines points a C2 writer gets wrong under pressure. It re-teaches no
 
 - **Goal:** spell the plurals and agreements that even native writers check.
 - **Recaps:** adjective agreement (a1-adjective-agreement); numbers (a1-numbers-21-100).
-- **New:** colour adjectives from nouns (invariable: *des robes marron, orange*, with the listed exceptions *rose, mauve, fauve, écarlate…*) and compound colours (*des yeux bleu clair*); plurals of compound nouns (*des grands-parents, des porte-monnaie / porte-monnaies* after 1990); *vingt* and *cent* (*quatre-vingts*, *quatre-vingt-deux*, *deux cents*, *deux cent un*); *mille* invariable; the 1990 hyphenation of all compound numbers (*vingt-et-un*), accepted.
+- **New:** colour adjectives from nouns (invariable: *des robes marron, orange*, with the listed exceptions *rose, mauve, fauve, écarlate…*) and compound colours (*des yeux bleu clair*); plurals of compound nouns (*des grands-parents, des porte-monnaie / porte-monnaies* after 1990); *vingt* and *cent* (*quatre-vingts*, *quatre-vingt-deux*, *deux cents*, *deux cent un*, and no *s* on *cent* before *mille*: *deux cent mille*); *mille* invariable; *million* and *milliard* are nouns, so they take an *s* and don't block the *s* of *vingt* or *cent* (*quatre-vingts millions*, *deux cents millions*); the 1990 hyphenation of all compound numbers (*vingt-et-un*), accepted.
 - **Key vocab (new):** *un nom composé*, *un adjectif de couleur*, *invariable*, *un trait d'union*.
-- **Model:** an invoice-like inventory and a description of a painting, both original.
+- **Model:** an invoice-like inventory and a description of a painting, both original. The inventory writes every number in words (quantities and catalogue numbers), with no real prices.
 - **Exercises:** fill-in, multiple-choice, error-correction, translate, reorder.
 - **Risks:** recognition of both traditional and 1990 spellings: every key accepts both where both are correct (check whether lib/check-answer.ts normalizes hyphens before writing the keys).
 

@@ -521,19 +521,19 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 ## C2 · Mastery (planned)
 
-Planned in docs/plans/c2/ (Prompt 40); no lesson file exists yet. Every row is planned and may change after the plan's review.
+Planned in docs/plans/c2/ (Prompt 40). Unit 1 is written (Prompt 42); the other rows are planned and may change.
 
 ### Unit 1: Precision in form
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 1 | c2-agreement-pronominal-verbs | Past participles of pronominal verbs | Precision in form | grammar | a2-reflexive-passe-compose, a2-pronouns-in-passe-compose, b2-faire-causatif | Planned. The COD test; reciprocal verbs with an indirect pronoun; essentially pronominal verbs; se rendre compte. |
-| 2 | c2-agreement-with-infinitives | Participles followed by an infinitive | Precision in form | grammar | b2-faire-causatif, c2-agreement-pronominal-verbs | Planned. Verbs of perception, fait and laissé + infinitive (with the 1990 option), the participle with en. |
-| 3 | c2-tout-quelque-meme | Tout, quelque, même | Precision in form | grammar | b2-tout, c1-adverb-placement | Planned. Adverbial tout before feminine adjectives, quelque(s), quelque… que, quel que soit, même adverb or adjective. |
-| 4 | c2-agreement-colours-compounds-numbers | Colours, compound nouns and numbers | Precision in form | grammar | a1-adjective-agreement, a1-numbers-21-100 | Planned. Colour adjectives, compound-noun plurals, vingt, cent and mille, traditional and 1990 spellings. |
-| 5 | c2-concordance-in-writing | The full sequence of tenses | Precision in form | grammar | b2-reported-speech-past, c1-imperfect-subjunctive, c1-future-in-the-past | Planned. Time anchors in long texts, general truths, the literary subjunctive concordance (recognition). |
-| 6 | c2-ellipsis-and-nominal-style | Ellipsis and the nominal style | Precision in form | grammar | b2-nominalisation, b2-formal-report, c1-leading-a-meeting | Planned. Verb ellipsis, headline grammar, notes and slides, and back to full sentences. |
-| 7 | c2-review-form | Review: Precision in form | Precision in form | review | c2-agreement-pronominal-verbs, c2-agreement-with-infinitives, c2-tout-quelque-meme, c2-agreement-colours-compounds-numbers, c2-concordance-in-writing, c2-ellipsis-and-nominal-style | Planned. Proofreading a text with ten errors. |
+| 1 | c2-agreement-pronominal-verbs | Past participles of pronominal verbs | Precision in form | grammar | a2-reflexive-passe-compose, a2-pronouns-in-passe-compose, b2-faire-causatif | The COD test (is se the direct object?); reciprocal verbs with an indirect se (se parler, se succéder, se plaire); essentially pronominal verbs and the s'arroger exception; se rendre compte, se permettre de, se mettre à. Model: a news item. |
+| 2 | c2-agreement-with-infinitives | Participles followed by an infinitive | Precision in form | grammar | b2-faire-causatif, c2-agreement-pronominal-verbs | Verbs of perception + infinitive and the test "does the object do the action?"; fait (never); laissé (traditional and 1990, both accepted); dû, pu, voulu; the participle after en (usually invariable, both accepted). Model: a concert review. |
+| 3 | c2-tout-quelque-meme | Tout, quelque, même | Precision in form | grammar | b2-tout, c1-adverb-placement, b2-subjunctive-conjunctions | Adverbial tout before a consonant, an aspirated h or a vowel; tout autre; quelque(s), quelque + number, quelque… que (formal); quel que soit; même adjective or adverb. Model: an editorial and its corrections. |
+| 4 | c2-agreement-colours-compounds-numbers | Colours, compound nouns and numbers | Precision in form | grammar | a1-shopping-for-clothes, a2-numbers-years-ordinals, c2-agreement-with-infinitives | Colours from nouns and the six that agree; compound colours; compound-noun plurals (traditional and 1990); vingt, cent, mille, million, milliard, cent before mille, ordinal use; 1990 hyphens. Model: an inventory in words and a painting. |
+| 5 | c2-concordance-in-writing | The full sequence of tenses | Precision in form | grammar | b2-reported-speech-past, b2-reporting-verbs, c1-imperfect-subjunctive, c1-future-in-the-past | Three relations against a present, past or future anchor; one anchor per paragraph; general truths; modern and literary subjunctive (recognition); avant que, après que + indicative. Model: minutes in the present and in the past. |
+| 6 | c2-ellipsis-and-nominal-style | Ellipsis and the nominal style | Precision in form | grammar | b2-nominalisation, c1-leading-a-meeting, c2-concordance-in-writing | Verb ellipsis in coordination; shared subject and auxiliary; ambiguous ellipsis; headline grammar (news present, colon, participle, selon); notes and parallel bullets; back to full sentences. Model: an article, five headlines and a slide. |
+| 7 | c2-review-form | Review: Precision in form | Precision in form | review | c2-agreement-pronominal-verbs, c2-agreement-with-infinitives, c2-tout-quelque-meme, c2-agreement-colours-compounds-numbers, c2-concordance-in-writing, c2-ellipsis-and-nominal-style | Proofreading: a 350-word report with ten errors (source text), the corrected text, one exercise per lesson, eight corrections from the text and a writing task. |
 
 ### Unit 2: Words with precision
 

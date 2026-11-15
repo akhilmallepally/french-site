@@ -154,3 +154,11 @@ describe("sameWords", () => {
     assert.equal(sameWords(words, "Nous sommes très en retard"), false);
   });
 });
+
+test("writing tasks are never graded; every other type is", async () => {
+  const { isGradedType } = await import("./check-answer.ts");
+  assert.equal(isGradedType("writing-task"), false);
+  for (const t of ["multiple-choice", "fill-in", "translate", "reorder", "reformulation", "register-shift", "connector-choice", "error-correction"] as const) {
+    assert.equal(isGradedType(t), true);
+  }
+});

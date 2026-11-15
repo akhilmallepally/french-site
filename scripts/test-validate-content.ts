@@ -24,6 +24,18 @@ assert.deepEqual([...errors].sort(), [
   'b2/bad-connector.mdx: exercises[0] (b2-bad-connector-ex001): connector-choice needs "options" with at least 2 choices',
   'b2/bad-connector.mdx: exercises[0] (b2-bad-connector-ex001): connector-choice prompts must mark the gap with ___',
   'b2/bad-connector.mdx: exercises[1] (b2-bad-connector-ex002): "options" is only allowed on multiple-choice and connector-choice exercises',
+  // C2 writing tasks: c2-writing-task.mdx is valid; the type is rejected below C2 and checked field by field.
+  'a1/writing-task-too-early.mdx: exercises[0] (a1-writing-task-too-early-ex001): "writing-task" exercises are only allowed at C2',
+  'c2/bad-writing-task.mdx: "exercises" may contain at most one writing-task',
+  'c2/bad-writing-task.mdx: exercises[0] (c2-bad-writing-task-ex001): "model" is missing or empty',
+  'c2/bad-writing-task.mdx: exercises[0] (c2-bad-writing-task-ex001): writing-task needs a "checklist" of 3 to 6 non-empty items',
+  'c2/bad-writing-task.mdx: exercises[0] (c2-bad-writing-task-ex001): "wordTarget" must be [min, max], two positive whole numbers with min < max',
+  `c2/bad-writing-task.mdx: exercises[0] (c2-bad-writing-task-ex001): "answers" is not allowed on a writing-task (it isn't graded)`,
+  // C2 "Source text" sections: C2 only, at most one, with French lines and a translation.
+  'a1/source-text-too-early.mdx: "Source text" sections are only allowed at C2',
+  'c2/bad-source-text.mdx: at most one "Source text" section per lesson (found 2)',
+  'c2/bad-source-text.mdx: "Source text: first" has no English translation line ((…))',
+  'c2/bad-source-text.mdx: "Source text: second" has no French text lines (*…*)',
 ].sort());
 assert.deepEqual(warnings, []);
 
@@ -41,4 +53,4 @@ assert.deepEqual(checkSyllabusOrder(path.join(process.cwd(), "scripts", "fixture
 ]);
 assert.deepEqual(checkSyllabusOrder(path.join(process.cwd(), "docs", "syllabus.md"), ["b2"]), []);
 
-console.log("Validator tests passed: planned ids allowed in related/LessonLink, rejected in prerequisites; B2 exercise types checked; B2 syllabus order consistent.");
+console.log("Validator tests passed: planned ids allowed in related/LessonLink, rejected in prerequisites; B2 exercise types checked; C2 writing tasks and source-text sections checked; B2 syllabus order consistent.");

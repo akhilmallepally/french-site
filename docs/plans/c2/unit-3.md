@@ -1,6 +1,6 @@
 # C2 Unit 3 plan: Specialized French
 
-Status: plan only. Rules: the draft "C2 conventions" in docs/plans/c2/overview.md.
+Status: plan only. Rules: the "C2 conventions" in CLAUDE.md.
 
 Four registers that C2 users read and sometimes write. The lessons teach reading first: how these texts are built, their fixed phrases, and how to restate them in plain French. Facts about institutions and procedures are general and neutral, with no figures and no legal advice.
 
@@ -18,7 +18,7 @@ Four registers that C2 users read and sometimes write. The lessons teach reading
 
 - **Goal:** read a patient leaflet, a consultation summary and a health article.
 - **Recaps:** the health system (b2-health-system); science and research (b2-science-and-research).
-- **New:** *une posologie*, *une contre-indication*, *les effets indésirables*, *un antécédent*, *un diagnostic*, *un pronostic*, *bénin / malin*, *chronique / aigu*, learned roots (*-ite*, *-algie*, *-ectomie*), the impersonal style of leaflets.
+- **New:** *une posologie*, *une contre-indication*, *les effets indésirables*, *un antécédent*, *un diagnostic*, *un pronostic*, *bénin / bénigne* and *malin / maligne* (irregular feminines, taught explicitly; keys use the right feminine, never *bénine* or *maline* in this sense), *chronique / aigu*, learned roots (*-ite*, *-algie*, *-ectomie*), the impersonal style of leaflets.
 - **Model:** an original medicine leaflet (an invented medicine) and its plain-language version.
 - **Exercises:** multiple-choice, fill-in, register-shift, translate, reorder.
 - **Risks:** no medical advice; the medicine and doses are invented and labelled; no figures that look like real dosages (use "the dose your doctor prescribes").

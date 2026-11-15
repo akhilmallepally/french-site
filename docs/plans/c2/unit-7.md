@@ -1,6 +1,6 @@
 # C2 Unit 7 plan: The language and its literatures
 
-Status: plan only. Rules: the draft "C2 conventions" in docs/plans/c2/overview.md. **Highest factual risk:** every date, attribution and quotation goes to docs/review-needed.md ("C2 plan", to verify) before writing, and the C1 quotation safe list applies (authors who died before 1900, under 15 words, our own translations; later authors paraphrased).
+Status: plan only. Rules: the "C2 conventions" in CLAUDE.md. **Highest factual risk:** every date, attribution and quotation goes to docs/review-needed.md ("C2 plan", to verify) before writing, and the C1 quotation safe list applies (authors who died before 1900, under 15 words, our own translations; later authors paraphrased).
 
 C1 covered the canon from classicism to the twentieth century (c1-culture-literary-canon), poetry (c1-culture-french-poetry), satire (c1-culture-satire-and-humour), the Enlightenment, regional languages and La Francophonie. This unit adds what's missing: the history of the language, the literature before the seventeenth century, francophone literatures, and play with language.
 
@@ -10,20 +10,20 @@ C1 covered the canon from classicism to the twentieth century (c1-culture-litera
 - **Recaps:** regional languages and language policy (c1-culture-regional-languages); La Francophonie (c1-culture-francophonie); anglicisms and official terms (c2-anglicisms-and-official-terms).
 - **New (all to verify):** from Latin to Romance; the Strasbourg Oaths (842) as the oldest text usually counted as French; the ordinance of Villers-Cotterêts (1539) and French in official acts; the Académie française (1635) and its dictionary; the Revolution and the debates about regional languages; compulsory schooling in the late nineteenth century (recap of C1); the 1990 spelling rectifications; the 1994 law on the use of French.
 - **Key vocab (new):** *le latin vulgaire*, *l'ancien français*, *le moyen français*, *une ordonnance*, *l'Académie française*, *un dictionnaire de l'Académie*, *la langue d'oïl / la langue d'oc*.
-- **Longer text:** an original article on the history of French, with one short line of the Strasbourg Oaths quoted (anonymous, ninth century) and its modern French and English.
+- **Longer text:** an original article on the history of French, with one short line of the Strasbourg Oaths quoted in the original for recognition (anonymous, ninth century), under 15 words, with our own modern French translation and our own English translation.
 - **Exercises:** multiple-choice (dates and events), fill-in, error-correction (chronology), translate, reorder.
 - **Risks:** the history of language policy touches regional identities: neutral wording, positions attributed, no verdict (C1 rules). Use "adopted", "published" or "in force" for every law (rule from Prompt 38).
 
 ## 37. c2-culture-medieval-and-renaissance: Literature before the classics (culture · harder)
 
-- **Goal:** know the main works and authors from the Middle Ages to the Renaissance, and read short modernized extracts.
+- **Goal:** know the main works and authors from the Middle Ages to the Renaissance, and read short extracts in the original spelling (recognition only), with our own modern French and English translations.
 - **Recaps:** the canon from the seventeenth century on (c1-culture-literary-canon); Montaigne (c1-philosophy-and-ideas).
-- **New (all to verify):** *La Chanson de Roland* (anonymous, around 1100), Chrétien de Troyes, *le Roman de Renart*, Villon, Rabelais, the Pléiade (Du Bellay, Ronsard), Louise Labé; Old French spelling and how to read it (**recognition only**).
+- **New (all to verify):** *La Chanson de Roland* (anonymous, around 1100), Chrétien de Troyes, *le Roman de Renart*, Villon, Rabelais, the Pléiade (Du Bellay, Ronsard), Louise Labé with the authorship debate presented neutrally and attributed (a 2006 study argued that her works were written by a group of Lyon poets; other scholars reject this), or, if that can't be verified, another Renaissance poet in her place; Old and Middle French spelling and how to read it (**recognition only**).
 - **Key vocab (new):** *une chanson de geste*, *le roman courtois*, *un fabliau*, *la Pléiade*, *l'humanisme*.
-- **Quotations:** safe-list authors only (all died before 1900), under 15 words, in modernized spelling with our own translations.
-- **Longer text:** an original article, plus a short modernized extract (under 15 words) from Ronsard or Du Bellay.
+- **Quotations:** safe-list authors only (all died before 1900), under 15 words, one per source per lesson. Quote the original spelling for recognition, with our own modern French translation and our own English translation.
+- **Longer text:** an original article, plus a short extract (under 15 words) from Ronsard or Du Bellay in its original spelling, with our own modern French and English translations.
 - **Exercises:** multiple-choice, fill-in, error-correction, translate, reorder.
-- **Risks:** modernized quotations must still be word for word (modern spelling only); medieval dates are approximate: say "around".
+- **Risks:** the original text must be quoted word for word from a reliable edition; the modern French version is our own translation and is labelled as such; medieval dates are approximate: say "around".
 
 ## 38. c2-culture-twentieth-century-and-today: Literature since 1900 (culture · harder)
 
@@ -32,7 +32,7 @@ C1 covered the canon from classicism to the twentieth century (c1-culture-litera
 - **New:** surrealism (recap of the B2 term), the Oulipo and constrained writing, the Nouveau Roman, autofiction, the major prizes (*le prix Goncourt*), the rentrée littéraire.
 - **Key vocab (new):** *l'Oulipo*, *une contrainte d'écriture*, *le Nouveau Roman*, *l'autofiction*, *la rentrée littéraire*, *un prix littéraire*.
 - **Quotations:** none (no author on the safe list); paraphrase and original pastiches labelled as such.
-- **Longer text:** an original article about the rentrée littéraire, with an original lipogram (a text without one letter), labelled as written for the lesson.
+- **Longer text:** an original article about the rentrée littéraire, with an original lipogram (a text without one letter), labelled as written for the lesson. The lipogram is checked by script, not by eye: the lesson is tagged `lipogram`, the section heading contains "lipogram", an English line says "Missing letter: *e*.", and scripts/c2-wrapup.ts fails any French line of that section that contains the letter (accented forms and *œ* included).
 - **Exercises:** multiple-choice, fill-in, error-correction, translate, reorder.
 - **Risks:** living authors are named with works only, never quoted; labels are given as "often linked with" (rule from Prompt 37).
 

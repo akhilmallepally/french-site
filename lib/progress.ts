@@ -16,9 +16,21 @@ export type LessonProgress = {
   lastCompletedAt: string; // ISO timestamp of the last full run
 };
 
+/**
+ * A C2 writing task: only that it was marked done and which self-check items were ticked.
+ * Never the learner's text: that stays as a local draft (lib/writing-draft.ts) and is never
+ * stored here, so no future store (Supabase included) ever receives it.
+ */
+export type WritingTaskProgress = {
+  done: boolean;
+  checked: number[]; // indices of the ticked checklist items
+  doneAt: string; // ISO timestamp
+};
+
 export type ProgressData = {
   exercises: Record<string, ExerciseProgress>; // by exercise id
   lessons: Record<string, LessonProgress>; // by lesson id
+  writingTasks?: Record<string, WritingTaskProgress>; // by exercise id (optional: older saves lack it)
 };
 
 export interface ProgressStore {
@@ -27,6 +39,9 @@ export interface ProgressStore {
   recordAttempt(exerciseId: string, result: AnswerStatus): Promise<void>;
   /** Records a finished full run of a lesson, keeping the best score. Returns the updated progress. */
   recordRun(lessonId: string, score: number, total: number): Promise<LessonProgress>;
+  /** Records a writing task as done, with the ticked checklist items. Takes no text, by design. */
+  recordWritingTask(exerciseId: string, checked: number[]): Promise<WritingTaskProgress>;
+  getWritingTask(exerciseId: string): Promise<WritingTaskProgress | null>;
   getAll(): Promise<ProgressData>;
   reset(): Promise<void>;
 }
@@ -87,6 +102,22 @@ class LocalProgressStore implements ProgressStore {
     data.lessons[lessonId] = updated;
     write(data);
     return updated;
+  }
+
+  async recordWritingTask(exerciseId: string, checked: number[]) {
+    const data = read();
+    const entry: WritingTaskProgress = {
+      done: true,
+      checked: [...new Set(checked)].filter((i) => Number.isInteger(i) && i >= 0).sort((a, b) => a - b),
+      doneAt: new Date().toISOString(),
+    };
+    data.writingTasks = { ...(data.writingTasks ?? {}), [exerciseId]: entry };
+    write(data);
+    return entry;
+  }
+
+  async getWritingTask(exerciseId: string) {
+    return read().writingTasks?.[exerciseId] ?? null;
   }
 
   async getAll() {

@@ -1,6 +1,6 @@
 # All lesson data
 
-280 written lessons, in course order.
+287 written lessons, in course order.
 
 ## a1-greetings
 
@@ -11501,3 +11501,318 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c1-review-final-ex016 | translate | Traduisez (si je comprends bien) : If I understand correctly, you're asking me for an example. | — | ["Si je comprends bien, vous me demandez un exemple"] | false | Unit 8: reformulate the question before you answer.
 - c1-review-final-ex017 | error-correction | Corrigez le mélange des registres (gardez le registre soutenu) : Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées. Bonne journée ! | — | ["Je vous prie d'agréer, Madame, l'expression de mes salutations distinguées"] | false | Units 5 and 7: nothing comes after the closing formula of a formal letter.
 - c1-review-final-ex018 | reorder | Remettez dans l'ordre : My greatest progress is in speaking. | — | ["Mon plus grand progrès est à l'oral"] | false | Le progrès: progress.
+
+## c2-agreement-pronominal-verbs
+
+### Vocab
+
+fr | pron | en | note
+
+- un verbe pronominal | uhn vehrb proh-noh-mee-NAHL | a pronominal verb (a verb used with se) | —
+- le pronom réfléchi | luh proh-NOHN ray-flay-SHEE | the reflexive pronoun (me, te, se, nous, vous) | —
+- le complément d'objet direct (COD) | luh kohn-play-MAHN dob-ZHEH dee-REKT | the direct object | —
+- le complément d'objet indirect (COI) | luh kohn-play-MAHN dob-ZHEH an-dee-REKT | the indirect object (after à) | —
+- l'accord du participe (m.) | lah-KOR dew par-tee-SEEP | the agreement of the participle | —
+- accorder (un participe) | ah-kor-DAY | to make (a participle) agree | —
+- réciproque | ray-see-PROK | reciprocal (done to each other) | —
+- se sourire | suh soo-REER | to smile at each other | Sourire à quelqu'un: no agreement.
+- se mentir | suh mahn-TEER | to lie to each other | Mentir à quelqu'un: no agreement.
+- se nuire | suh NWEER | to harm each other, to harm yourself | Nuire à quelqu'un: no agreement (nui).
+- se succéder | suh sewk-say-DAY | to follow one another, to take turns | Succéder à quelqu'un: no agreement.
+- se plaire | suh PLEHR | to like each other; to enjoy being somewhere | Participle plu, never agrees.
+- se ressembler | suh ruh-sahn-BLAY | to look alike | Ressembler à quelqu'un: no agreement.
+- un verbe essentiellement pronominal | uhn vehrb es-sahn-syel-MAHN proh-noh-mee-NAHL | a verb that only exists with se | —
+- s'évanouir | say-vah-NWEER | to faint | —
+- se méfier de | suh may-FYAY duh | to be wary of, to distrust | —
+- s'arroger un droit | sah-roh-ZHAY uhn DRWAH | to claim a right for yourself (without having it) | The exception: agrees with a preceding COD.
+- se permettre de | suh pehr-MET-ruh duh | to take the liberty of | Permettre à quelqu'un: elle s'est permis de.
+- une randonneuse / un randonneur | ewn rahn-doh-NUHZ / uhn rahn-doh-NUHR | a hiker (woman / man) | —
+- la tombée de la nuit | lah tohn-BAY duh lah NWEE | nightfall | —
+- la cheville | lah shuh-VEE-y | the ankle | —
+- les provisions (f.) | lay proh-vee-ZYOHN | food supplies | —
+- repérer | ruh-pay-RAY | to spot, to locate | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-agreement-pronominal-verbs-ex001 | multiple-choice | Indiquez si « se » est le COD ou le COI dans la phrase : Elles se sont lavé les mains. | ["le COI","le COD"] | ["le COI"] | false | The direct object is les mains, after the verb. Se means 'to themselves', so it's indirect, and lavé doesn't agree.
+- c2-agreement-pronominal-verbs-ex002 | multiple-choice | Indiquez si « se » est le COD ou le COI dans la phrase : Ils se sont vus hier. | ["le COD","le COI"] | ["le COD"] | false | You see someone (voir quelqu'un), so se is the direct object. It comes before the verb, and vus agrees with it.
+- c2-agreement-pronominal-verbs-ex003 | multiple-choice | Choisissez la bonne forme : Les deux candidates se sont ___ pendant tout le débat. | ["souri","souries","sourie"] | ["souri"] | false | Sourire à quelqu'un: se is indirect, so the participle never agrees.
+- c2-agreement-pronominal-verbs-ex004 | multiple-choice | Choisissez la phrase correcte en français écrit. | ["Elle s'est mise à rire.","Elle s'est mis à rire.","Elle s'est mises à rire."] | ["Elle s'est mise à rire."] | false | Mettre quelqu'un: se is the direct object of se mettre à, so mise agrees with it, and with elle. You can hear the agreement.
+- c2-agreement-pronominal-verbs-ex005 | fill-in | Accordez le participe (s'évanouir) : Quand elle a appris la nouvelle, la directrice s'est ___. | — | ["évanouie"] | false | S'évanouir only exists with se, so the participle agrees with the subject: évanouie.
+- c2-agreement-pronominal-verbs-ex006 | fill-in | Accordez le participe (se succéder) : Trois directrices se sont ___ en dix ans. | — | ["succédé"] | true | Succéder à quelqu'un: se is indirect, so succédé doesn't agree.
+- c2-agreement-pronominal-verbs-ex007 | fill-in | Accordez le participe (s'arroger) : Les droits qu'ils se sont ___ n'existent dans aucun contrat. | — | ["arrogés"] | false | S'arroger is the exception among verbs that only exist with se: it agrees with a preceding direct object. Here que stands for les droits, so arrogés.
+- c2-agreement-pronominal-verbs-ex008 | fill-in | Accordez le participe (se méfier) : Mes deux sœurs se sont toujours ___ des promesses faciles. | — | ["méfiées"] | false | Se méfier only exists with se, so the participle agrees with the subject, mes deux sœurs: méfiées.
+- c2-agreement-pronominal-verbs-ex009 | error-correction | Corrigez l'erreur d'accord (français écrit) : Elle s'est rendue compte de son erreur. | — | ["Elle s'est rendu compte de son erreur"] | false | In se rendre compte, compte is the direct object and se is indirect, so rendu never agrees.
+- c2-agreement-pronominal-verbs-ex010 | error-correction | Corrigez l'erreur d'accord : Les lettres qu'ils se sont écrit sont encore chez leur fille. | — | ["Les lettres qu'ils se sont écrites sont encore chez leur fille"] | false | Ils se sont écrit alone doesn't agree (écrire à quelqu'un). Here que stands for les lettres, a direct object before the verb, so écrites agrees with it.
+- c2-agreement-pronominal-verbs-ex011 | error-correction | Corrigez l'erreur d'accord : Ces deux femmes se sont menties pendant des années. | — | ["Ces deux femmes se sont menti pendant des années"] | false | Mentir à quelqu'un: se is indirect, so menti doesn't agree.
+- c2-agreement-pronominal-verbs-ex012 | reformulation | Reformulez en commençant par « Voici les questions » : Elles se sont posé ces questions. | — | ["Voici les questions qu'elles se sont posées"] | false | Que stands for les questions, a direct object now placed before the verb, so posées agrees with it.
+- c2-agreement-pronominal-verbs-ex013 | reformulation | Reformulez en remplaçant « les mains » par le pronom « les » : Elle s'est lavé les mains. | — | ["Elle se les est lavées"] | false | Les (= les mains) is a direct object before the verb, so lavées agrees with it: feminine plural.
+- c2-agreement-pronominal-verbs-ex014 | translate | Traduisez (se téléphoner, au passé composé) : They phoned each other every evening. | — | ["Ils se sont téléphoné tous les soirs","Elles se sont téléphoné tous les soirs","Ils se sont téléphoné chaque soir","Elles se sont téléphoné chaque soir"] | false | Téléphoner à quelqu'un: se is indirect, so téléphoné doesn't agree, whoever 'they' are.
+- c2-agreement-pronominal-verbs-ex015 | translate | Traduisez (s'évanouir, au passé composé) : She fainted in the metro. | — | ["Elle s'est évanouie dans le métro"] | false | S'évanouir only exists with se, so évanouie agrees with elle.
+- c2-agreement-pronominal-verbs-ex016 | translate | Traduisez (se rendre compte de, au passé composé) : They (two women) realized their mistake. | — | ["Elles se sont rendu compte de leur erreur"] | false | Rendu never agrees in se rendre compte, even with a feminine plural subject.
+- c2-agreement-pronominal-verbs-ex017 | reorder | Remettez dans l'ordre : The ministers took turns at the microphone. | — | ["Les ministres se sont succédé au micro"] | false | Se succéder: se is indirect (succéder à), so succédé doesn't agree.
+
+## c2-agreement-with-infinitives
+
+### Vocab
+
+fr | pron | en | note
+
+- un verbe de perception | uhn vehrb duh pehr-sep-SYOHN | a verb of perception (see, hear, watch, feel) | —
+- voir / entendre + infinitif | VWAHR / ahn-TAHN-druh | to see / hear (someone) do something | J'ai vu les enfants partir, j'ai vu partir les enfants.
+- le sujet de l'infinitif | luh sew-ZHEH duh lan-fee-nee-TEEF | the subject of the infinitive (who does its action) | —
+- rire | reer | to laugh | —
+- construire | kohns-TRWEER | to build | —
+- les rectifications orthographiques (f.) | lay rek-tee-fee-kah-SYOHN or-toh-grah-FEEK | the (1990) spelling rectifications | —
+- l'orthographe traditionnelle (f.) | lor-toh-GRAHF trah-dee-syoh-NEL | traditional spelling | —
+- recommandé / obligatoire | ruh-koh-mahn-DAY / oh-blee-gah-TWAHR | recommended / compulsory | —
+- les deux graphies sont admises | lay duh grah-FEE sohn tad-MEEZ | both spellings are accepted | —
+- invariable | an-vah-RYAH-bluh | invariable (never changes its form) | —
+- un orchestre | uh-nor-KES-truh | an orchestra | —
+- une musicienne / un musicien | ewn mew-zee-SYEN / uhn mew-zee-SYAN | a musician (woman / man) | —
+- un air | uh-NEHR | a tune, an aria | —
+- une violoniste | ewn vyoh-loh-NEEST | a violinist | —
+- la cheffe d'orchestre | lah shef dor-KES-truh | the conductor (a woman) | Also la chef d'orchestre.
+- le chœur | luh KUHR | the choir | —
+- rappeler (des artistes) | rah-PLAY | to call (performers) back on stage | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-agreement-with-infinitives-ex001 | multiple-choice | Choisissez la bonne forme : Les chanteuses que j'ai ___ chanter étaient très bonnes. | ["entendues","entendu","entendue"] | ["entendues"] | false | The singers do the singing, so the participle agrees with que (= les chanteuses): entendues.
+- c2-agreement-with-infinitives-ex002 | multiple-choice | Choisissez la bonne forme : Les chansons que j'ai ___ chanter étaient vieilles. | ["entendu","entendues","entendue"] | ["entendu"] | false | The songs don't sing: someone sings them. Que isn't the subject of the infinitive, so entendu doesn't agree.
+- c2-agreement-with-infinitives-ex003 | multiple-choice | Indiquez le sujet de l'infinitif « jouer » dans la phrase : La violoniste que j'ai vue jouer venait de Lyon. | ["la violoniste","je","Lyon"] | ["la violoniste"] | false | The violinist plays. She is the subject of the infinitive, so vue agrees with que (= la violoniste).
+- c2-agreement-with-infinitives-ex004 | multiple-choice | Choisissez la phrase correcte en français écrit. | ["Ces lampes, je les ai fait réparer.","Ces lampes, je les ai faites réparer.","Ces lampes, je les ai faits réparer."] | ["Ces lampes, je les ai fait réparer."] | false | Fait never agrees before an infinitive, in traditional and in 1990 spelling.
+- c2-agreement-with-infinitives-ex005 | fill-in | Accordez le participe (voir) : Les enfants que j'ai ___ grandir sont aujourd'hui des adultes. | — | ["vus"] | false | The children grow up: they are the subject of the infinitive, so vus agrees with que (= les enfants).
+- c2-agreement-with-infinitives-ex006 | fill-in | Accordez le participe (entendre) : La chanson que nous avons ___ chanter hier soir est très vieille. | — | ["entendu"] | false | The song is sung by someone else. Que isn't the subject of chanter, so entendu doesn't agree.
+- c2-agreement-with-infinitives-ex007 | fill-in | Accordez le participe (laisser), deux graphies admises : Mes filles, je les ai ___ partir seules. | — | ["laissées","laissé"] | false | Traditional spelling: the girls leave, so laissées agrees. The 1990 rectifications allow laissé, invariable like fait. Both are accepted.
+- c2-agreement-with-infinitives-ex008 | fill-in | Accordez le participe (faire) : Les invitées qu'il a ___ attendre étaient en colère. | — | ["fait"] | false | Fait never agrees before an infinitive.
+- c2-agreement-with-infinitives-ex009 | fill-in | Accordez le participe (manger), deux graphies admises : Des cerises, j'en ai ___ trois kilos cet été. | — | ["mangé","mangées"] | true | With en, the participle usually stays invariable (mangé). Agreement with the noun en stands for (mangées) is also found. Both are accepted here.
+- c2-agreement-with-infinitives-ex010 | error-correction | Corrigez l'erreur d'accord : Les maisons que j'ai vues construire sont déjà vendues. | — | ["Les maisons que j'ai vu construire sont déjà vendues"] | false | The houses don't build: workers build them. Que isn't the subject of the infinitive, so vu doesn't agree.
+- c2-agreement-with-infinitives-ex011 | error-correction | Corrigez l'erreur d'accord : Ces chaises, je les ai faites réparer en une heure. | — | ["Ces chaises, je les ai fait réparer en une heure"] | false | Fait never agrees before an infinitive, even after a direct object pronoun.
+- c2-agreement-with-infinitives-ex012 | error-correction | Corrigez l'erreur d'accord : Les deux sœurs que j'ai entendu rire dans le jardin sont mes voisines. | — | ["Les deux sœurs que j'ai entendues rire dans le jardin sont mes voisines"] | false | The sisters laugh: they are the subject of rire, so entendues agrees with que (= les deux sœurs).
+- c2-agreement-with-infinitives-ex013 | reformulation | Reformulez en commençant par « Voici les musiciennes » : J'ai entendu ces musiciennes jouer. | — | ["Voici les musiciennes que j'ai entendues jouer"] | false | Que (= les musiciennes) now comes before the verb, and the musicians play, so entendues agrees.
+- c2-agreement-with-infinitives-ex014 | reformulation | Reformulez avec le pronom « la » : J'ai vu ma sœur partir. | — | ["Je l'ai vue partir"] | false | La (= ma sœur) comes before the verb, and she is the one leaving, so vue agrees.
+- c2-agreement-with-infinitives-ex015 | translate | Traduisez (entendre + infinitif, au passé composé) : I heard the children laugh. | — | ["J'ai entendu les enfants rire","J'ai entendu rire les enfants"] | false | The noun can go before or after the infinitive. The object comes after the verb, so entendu doesn't agree.
+- c2-agreement-with-infinitives-ex016 | translate | Traduisez (faire + infinitif, au passé composé) : She had the walls painted. | — | ["Elle a fait peindre les murs"] | true | Faire + infinitive, with the noun after the infinitive: elle a fait peindre les murs.
+- c2-agreement-with-infinitives-ex017 | translate | Traduisez avec « laisser » au passé composé (« them » = two girls) : We let them leave. | — | ["Nous les avons laissées partir","Nous les avons laissé partir","On les a laissées partir","On les a laissé partir"] | true | Traditional spelling agrees laissées (the girls leave); the 1990 rectifications allow laissé. Both are accepted, with nous or, in speech, on.
+- c2-agreement-with-infinitives-ex018 | reorder | Remettez dans l'ordre : The singers I heard singing were magnificent. | — | ["Les chanteuses que j'ai entendues chanter étaient magnifiques"] | false | The singers sing, so entendues agrees with que (= les chanteuses).
+
+## c2-tout-quelque-meme
+
+### Vocab
+
+fr | pron | en | note
+
+- le h aspiré | luh ahsh ahs-pee-RAY | the aspirated h (no elision, no liaison) | La honte, le héros: no l', no liaison.
+- honteux / honteuse | ohn-TUH / ohn-TUHZ | ashamed | Aspirated h: toute honteuse.
+- tout (adverbe) | too | completely, very (an adverb before an adjective) | —
+- toute autre (+ nom) | too-TOH-truh | any other | Determiner: agrees with the noun. Toute autre réponse.
+- un(e) tout autre (+ nom) | uhn too-TOH-truh | a completely different | Adverb: invariable. Une tout autre histoire.
+- quelque (+ nombre) | KEL-kuh | about, some (before a number; formal) | Invariable: quelque deux cents personnes.
+- quelque + adjectif + que | KEL-kuh … kuh | however (+ adjective) (formal) | + subjunctive. Quelque riches qu'ils soient.
+- quelques + nom + que | KEL-kuh … kuh | whatever (+ noun) (formal) | + subjunctive. Quelques efforts que vous fassiez.
+- quel que soit / quelle que soit | kel kuh SWAH | whatever (+ noun) | Quel agrees with the subject of être: quelles que soient vos raisons.
+- quel qu'il soit | kel keel SWAH | whatever it is, whoever he is | —
+- les mêmes | lay MEM | the same ones | Adjective or pronoun: agrees.
+- même (adverbe) | MEM | even (an adverb: invariable) | —
+- le tracé | luh trah-SAY | the route (of a line, a road) | —
+- un tramway | uhn trahm-WEH | a tram | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-tout-quelque-meme-ex001 | multiple-choice | Choisissez la bonne forme : Elle est ___ honteuse d'avoir oublié son rendez-vous. | ["toute","tout","tous"] | ["toute"] | false | Honteuse starts with an aspirated h, which works like a consonant: the adverb tout agrees before it.
+- c2-tout-quelque-meme-ex002 | multiple-choice | Choisissez la bonne forme (le sens : très étonnées) : Elles sont ___ étonnées de la nouvelle. | ["tout","toute","tous"] | ["tout"] | false | Before a feminine adjective starting with a vowel, the adverb tout doesn't change. Toutes étonnées would mean 'all astonished'.
+- c2-tout-quelque-meme-ex003 | multiple-choice | Choisissez la bonne forme : ___ soit la raison, nous partirons demain. | ["Quelle que","Quelque","Quel que"] | ["Quelle que"] | false | Before soit, write two words, quel que, and agree quel with the subject: la raison, so quelle que.
+- c2-tout-quelque-meme-ex004 | multiple-choice | Indiquez le sens de « quelque » dans la phrase : Quelque trois cents personnes sont venues. | ["environ","plusieurs","aucun"] | ["environ"] | false | Before a number, quelque means 'about' and doesn't change. It's formal; environ is the everyday word.
+- c2-tout-quelque-meme-ex005 | multiple-choice | Choisissez la phrase correcte en français écrit soigné (le sens : une question très différente). | ["C'est une tout autre question.","C'est une tous autre question.","C'est un tout autres question."] | ["C'est une tout autre question."] | false | Meaning 'completely different', tout is an adverb before autre and doesn't change: une tout autre question.
+- c2-tout-quelque-meme-ex006 | fill-in | Complétez avec « quel que » accordé : ___ soient vos raisons, la décision est prise. | — | ["Quelles que"] | false | Quel agrees with the subject of soient: vos raisons, feminine plural, so quelles que.
+- c2-tout-quelque-meme-ex007 | fill-in | Complétez avec « tout » accordé (le sens : très) : Les deux sœurs étaient ___ contentes de se revoir. | — | ["toutes"] | false | Before a feminine adjective starting with a consonant, the adverb tout agrees: toutes contentes.
+- c2-tout-quelque-meme-ex008 | fill-in | Complétez avec « même » accordé : Les élèves eux-___ ont choisi le sujet. | — | ["mêmes"] | false | After a stressed pronoun, même is an adjective and agrees: eux-mêmes.
+- c2-tout-quelque-meme-ex009 | fill-in | Complétez avec « quelque » accordé (le sens : un petit nombre de) : Il a dit ___ mots et il est parti. | — | ["quelques"] | false | Meaning 'a few', quelque is a determiner and agrees with its noun: quelques mots.
+- c2-tout-quelque-meme-ex010 | error-correction | Corrigez l'erreur (français écrit) : Quelque soit le résultat, nous continuerons. | — | ["Quel que soit le résultat, nous continuerons"] | false | Before soit, write quel que in two words, agreeing with the subject: le résultat, so quel que.
+- c2-tout-quelque-meme-ex011 | error-correction | Corrigez l'erreur d'accord (le sens : très heureuses) : Elles sont toutes heureuses de leur victoire. | — | ["Elles sont tout heureuses de leur victoire"] | false | Heureuses starts with a mute h, so the adverb tout doesn't change. Toutes heureuses means 'all happy'.
+- c2-tout-quelque-meme-ex012 | error-correction | Corrigez l'erreur d'accord : Quelques deux cents spectateurs ont quitté la salle. | — | ["Quelque deux cents spectateurs ont quitté la salle"] | false | Before a number, quelque means 'about' and is invariable.
+- c2-tout-quelque-meme-ex013 | reformulation | Reformulez avec « quelque… que » (registre soutenu) : Bien qu'ils soient riches, ils ne sont pas heureux. | — | ["Quelque riches qu'ils soient, ils ne sont pas heureux","Ils ne sont pas heureux, quelque riches qu'ils soient"] | false | Quelque + adjective + que + subjunctive. Before an adjective, quelque is an adverb and doesn't change.
+- c2-tout-quelque-meme-ex014 | reformulation | Reformulez avec « quel que soit » : La saison n'a pas d'importance, nous partirons. | — | ["Quelle que soit la saison, nous partirons","Nous partirons, quelle que soit la saison"] | false | Quel agrees with la saison, so quelle que soit. The phrase can open or close the sentence.
+- c2-tout-quelque-meme-ex015 | translate | Traduisez (tout autre) : Any other answer will be refused. | — | ["Toute autre réponse sera refusée"] | false | Meaning 'any other', tout is a determiner and agrees with réponse: toute autre réponse.
+- c2-tout-quelque-meme-ex016 | translate | Traduisez (même, les professeurs, comprendre, au passé composé) : Even the teachers didn't understand it. | — | ["Même les professeurs ne l'ont pas compris","Même les professeurs n'ont pas compris"] | false | Même before the noun means 'even'. It's an adverb here, so it doesn't change.
+- c2-tout-quelque-meme-ex017 | translate | Traduisez (quel que soit, ils) : Whatever their age, they can take part. | — | ["Quel que soit leur âge, ils peuvent participer","Ils peuvent participer, quel que soit leur âge"] | false | Quel agrees with leur âge, masculine singular: quel que soit.
+- c2-tout-quelque-meme-ex018 | reorder | Remettez dans l'ordre : It's a completely different story. | — | ["C'est une tout autre histoire"] | false | Meaning 'completely different', tout is an adverb before autre and stays invariable.
+
+## c2-agreement-colours-compounds-numbers
+
+### Vocab
+
+fr | pron | en | note
+
+- un adjectif de couleur | uh-nahd-zhek-TEEF duh koo-LUHR | a colour adjective | —
+- cerise | suh-REEZ | cherry-red | A noun used as a colour: invariable.
+- mauve | mohv | mauve | One of the six that agree.
+- écarlate | ay-kar-LAT | scarlet | One of the six that agree.
+- pourpre | POOR-pruh | crimson, purple | One of the six that agree.
+- fauve | fohv | tawny | One of the six that agree.
+- incarnat | an-kar-NAH | rosy red (literary) | One of the six that agree.
+- bleu clair / vert foncé | bluh KLEHR / vehr fohn-SAY | light blue / dark green | Compound colours: invariable.
+- bleu marine | bluh mah-REEN | navy blue | Invariable.
+- un nom composé | uhn nohn kohn-poh-ZAY | a compound noun | —
+- un trait d'union | uhn treh dew-NYOHN | a hyphen | —
+- un porte-monnaie | uhn port-moh-NEH | a purse | Plural: des porte-monnaie (traditional), des porte-monnaies (1990).
+- un gratte-ciel | uhn grat-SYEL | a skyscraper | Plural: des gratte-ciel (traditional), des gratte-ciels (1990).
+- un tire-bouchon | uhn teer-boo-SHOHN | a corkscrew | Plural: des tire-bouchons.
+- un milliard | uhn mee-LYAR | a billion | A noun, like un million: deux milliards.
+- la page quatre-vingt | lah pahzh kah-truh-VAN | page eighty | A number used as an ordinal: no s.
+- un inventaire | uh-nan-vahn-TEHR | an inventory, a stocktake | —
+- un rideau / des rideaux | uhn ree-DOH / day ree-DOH | a curtain / curtains | —
+- un bouton | uhn boo-TOHN | a button | —
+- une nappe | ewn NAP | a tablecloth | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-agreement-colours-compounds-numbers-ex001 | multiple-choice | Choisissez la bonne forme : Elle a les yeux ___. | ["bleu clair","bleus clairs","bleus clair"] | ["bleu clair"] | false | A compound colour (a colour + clair, foncé…) is invariable as a whole: des yeux bleu clair.
+- c2-agreement-colours-compounds-numbers-ex002 | multiple-choice | Choisissez la bonne forme : Des fleurs ___ décoraient la table. | ["mauves","mauve","mauvé"] | ["mauves"] | false | Mauve comes from a noun (a flower), but it's one of the six colours that agree: des fleurs mauves.
+- c2-agreement-colours-compounds-numbers-ex003 | multiple-choice | Choisissez la graphie correcte en orthographe traditionnelle : 81 | ["quatre-vingt-un","quatre-vingts-un","quatre-vingt et un"] | ["quatre-vingt-un"] | false | Eighty-one has no et (unlike vingt et un), and vingt loses its s because another number follows.
+- c2-agreement-colours-compounds-numbers-ex004 | multiple-choice | Choisissez la graphie des rectifications de 1990 : 321 | ["trois-cent-vingt-et-un","trois-cents-vingt-et-un","trois cents vingt et un"] | ["trois-cent-vingt-et-un"] | false | The 1990 rectifications join every part of a compound number with hyphens. Cent still loses its s, because another number follows.
+- c2-agreement-colours-compounds-numbers-ex005 | multiple-choice | Choisissez la bonne forme : Le pays compte quatre-___ millions d'habitants. | ["vingts","vingt"] | ["vingts"] | false | Million is a noun, not a number, so vingt ends the number and keeps its s: quatre-vingts millions.
+- c2-agreement-colours-compounds-numbers-ex006 | fill-in | Écrivez le nombre en lettres (200 000) : La ville compte ___ habitants. | — | ["deux cent mille"] | false | Mille is a number, so cent doesn't end the number and has no s: deux cent mille. Mille never changes.
+- c2-agreement-colours-compounds-numbers-ex007 | fill-in | Écrivez le nombre en lettres (80) : Ouvrez votre livre à la page ___. | — | ["quatre-vingt"] | false | Here the number means 'eightieth', so vingt takes no s: la page quatre-vingt.
+- c2-agreement-colours-compounds-numbers-ex008 | fill-in | Accordez l'adjectif de couleur (rose) : Le jardin est plein de fleurs ___. | — | ["roses"] | false | Rose is one of the six colour words from nouns that agree.
+- c2-agreement-colours-compounds-numbers-ex009 | fill-in | Mettez au pluriel, deux graphies admises : un porte-monnaie, des ___ | — | ["porte-monnaie","porte-monnaies"] | false | Traditional spelling keeps porte-monnaie (it holds money, which has no plural). The 1990 rectifications add an s to the second part when the compound is plural: porte-monnaies.
+- c2-agreement-colours-compounds-numbers-ex010 | fill-in | Mettez au pluriel : un chef-d'œuvre, des ___ | — | ["chefs-d'œuvre"] | false | Noun + de + noun: only the first noun takes the plural, chefs-d'œuvre.
+- c2-agreement-colours-compounds-numbers-ex011 | error-correction | Corrigez l'erreur d'accord : Elle a acheté des rideaux oranges. | — | ["Elle a acheté des rideaux orange"] | true | Orange comes from a noun (the fruit) and isn't one of the six that agree: des rideaux orange.
+- c2-agreement-colours-compounds-numbers-ex012 | error-correction | Corrigez l'erreur d'accord : Ils ont les yeux verts foncés. | — | ["Ils ont les yeux vert foncé"] | false | A compound colour is invariable: vert foncé.
+- c2-agreement-colours-compounds-numbers-ex013 | error-correction | Corrigez l'erreur : La salle peut accueillir deux cents cinquante personnes. | — | ["La salle peut accueillir deux cent cinquante personnes"] | false | Cent takes an s only when it ends the number. Here cinquante follows, so deux cent cinquante.
+- c2-agreement-colours-compounds-numbers-ex014 | reformulation | Reformulez avec un adjectif de couleur composé, sans « d'un » : Il porte des chaussettes d'un vert foncé. | — | ["Il porte des chaussettes vert foncé"] | false | Vert foncé after the noun is a compound colour, so it's invariable: des chaussettes vert foncé.
+- c2-agreement-colours-compounds-numbers-ex015 | translate | Traduisez en écrivant le nombre en lettres : The country has eighty million inhabitants. | — | ["Le pays compte quatre-vingts millions d'habitants","Le pays a quatre-vingts millions d'habitants"] | true | Quatre-vingts keeps its s before millions, because million is a noun. Million takes de before the next noun.
+- c2-agreement-colours-compounds-numbers-ex016 | translate | Traduisez : She has light green eyes. | — | ["Elle a les yeux vert clair","Ses yeux sont vert clair"] | true | Vert clair is a compound colour, so neither word agrees.
+- c2-agreement-colours-compounds-numbers-ex017 | translate | Traduisez (cerise) : I like these cherry-red curtains. | — | ["J'aime ces rideaux cerise","J'aime bien ces rideaux cerise"] | false | Cerise is a noun used as a colour, so it doesn't agree.
+- c2-agreement-colours-compounds-numbers-ex018 | reorder | Remettez dans l'ordre : She bought two hundred navy blue boxes. | — | ["Elle a acheté deux cents boîtes bleu marine"] | false | Deux cents ends the number, so cent takes an s. Bleu marine is a compound colour and doesn't agree.
+
+## c2-concordance-in-writing
+
+### Vocab
+
+fr | pron | en | note
+
+- le repère temporel | luh ruh-PEHR tahn-poh-REL | the time anchor (the moment a tense is measured from) | —
+- l'antériorité (f.) | lahn-tay-ryoh-ree-TAY | anteriority (happening before) | —
+- la simultanéité | lah see-mewl-tah-nay-ee-TAY | simultaneity (happening at the same time) | —
+- la postériorité | lah pos-tay-ryoh-ree-TAY | posteriority (happening after) | —
+- la proposition principale / subordonnée | lah proh-poh-zee-SYOHN pran-see-PAHL / sew-bor-doh-NAY | the main / subordinate clause | —
+- une vérité générale | ewn vay-ree-TAY zhay-nay-RAHL | a general truth | —
+- toujours vrai au moment où l'on écrit | too-ZHOOR vreh oh moh-MAHN oo loh-nay-KREE | still true at the time of writing | —
+- après que + indicatif | ah-PREH kuh | after (+ indicative in careful writing) | Après qu'il est parti, après qu'il était parti.
+- le trésorier / la trésorière | luh tray-zoh-RYAY / lah tray-zoh-RYEHR | the treasurer | —
+- le comité des fêtes | luh koh-mee-TAY day FET | the (local) festivals committee | —
+- l'année précédente | lah-NAY pray-say-DAHNT | the year before (in a past report) | L'an dernier becomes l'année précédente.
+- une fête réussie | ewn fet ray-ew-SEE | a successful party, a successful festival | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-concordance-in-writing-ex001 | multiple-choice | Choisissez le temps qui convient : Elle a dit qu'elle ___ le lendemain. | ["viendrait","viendra","vienne"] | ["viendrait"] | false | Le lendemain shows that the anchor is in the past, so the later action takes the conditionnel présent (the future in the past).
+- c2-concordance-in-writing-ex002 | multiple-choice | Choisissez le temps qui convient : Quand je l'ai revu, il ___ déjà son livre. | ["avait fini","finira","finisse"] | ["avait fini"] | false | Finishing came before the past anchor (je l'ai revu), so the plus-que-parfait: il avait fini.
+- c2-concordance-in-writing-ex003 | multiple-choice | Indiquez la relation de temps dans la phrase : Il a annoncé qu'il partirait. | ["la postériorité","l'antériorité","la simultanéité"] | ["la postériorité"] | false | Leaving comes after the announcement: the conditionnel présent shows posteriority from a past anchor.
+- c2-concordance-in-writing-ex004 | multiple-choice | Choisissez la forme moderne : Il exigeait que nous ___ à l'heure. | ["soyons","sommes","serions"] | ["soyons"] | false | Exiger que takes the subjunctive, and modern French keeps the present subjunctive after a main verb in the past. Sommes and serions aren't subjunctives. (A classic text would write fussions.)
+- c2-concordance-in-writing-ex005 | fill-in | Conjuguez (venir) au temps qui convient : Il m'a promis qu'il ___ me voir dès son retour. | — | ["viendrait"] | false | A promise made in the past about a later action: conditionnel présent.
+- c2-concordance-in-writing-ex006 | fill-in | Conjuguez (finir) au temps qui convient : Elle pensait qu'à midi, elle ___ son rapport. | — | ["aurait fini"] | false | A future action that will be complete by a later moment, seen from the past: conditionnel passé (the futur antérieur in the past).
+- c2-concordance-in-writing-ex007 | fill-in | Conjuguez (partir) au temps qui convient : Quand nous sommes arrivés, le train ___ depuis dix minutes. | — | ["était parti"] | false | The train left before the past anchor (nous sommes arrivés): plus-que-parfait.
+- c2-concordance-in-writing-ex008 | fill-in | Conjuguez (être) au subjonctif, en français moderne : Il fallait que tout ___ prêt avant midi. | — | ["soit"] | false | Il fallait que + present subjunctive in modern French, whatever the tense of the main verb.
+- c2-concordance-in-writing-ex009 | reformulation | Transformez au discours indirect, au passé composé (Elle a dit que…) : Elle dit : « J'ai perdu mes clés et je rentrerai à pied. » | — | ["Elle a dit qu'elle avait perdu ses clés et qu'elle rentrerait à pied","Elle a dit qu'elle avait perdu ses clés et rentrerait à pied"] | true | Passé composé becomes plus-que-parfait (avait perdu), and futur becomes conditionnel présent (rentrerait).
+- c2-concordance-in-writing-ex010 | reformulation | Transformez au passé composé, en gardant la vérité générale au présent : Le guide explique que la Seine traverse Paris. | — | ["Le guide a expliqué que la Seine traverse Paris"] | true | A general truth can stay in the present after a past main verb. The imparfait (traversait) would also be correct, but the instruction asks for the present.
+- c2-concordance-in-writing-ex011 | reformulation | Transformez au passé composé : La directrice annonce que le projet a été accepté et qu'il commencera en mai. | — | ["La directrice a annoncé que le projet avait été accepté et qu'il commencerait en mai","La directrice a annoncé que le projet avait été accepté et commencerait en mai"] | true | From a past anchor, the earlier action takes the plus-que-parfait (avait été accepté) and the later one the conditionnel présent (commencerait).
+- c2-concordance-in-writing-ex012 | error-correction | Corrigez l'erreur de concordance : Il m'a assuré qu'il m'appellera la veille. | — | ["Il m'a assuré qu'il m'appellerait la veille"] | true | La veille places the call in a past frame, so the future in the past: appellerait.
+- c2-concordance-in-writing-ex013 | error-correction | Corrigez l'erreur de concordance : Elle croyait que son frère est déjà parti. | — | ["Elle croyait que son frère était déjà parti"] | false | Leaving came before the past belief: plus-que-parfait.
+- c2-concordance-in-writing-ex014 | error-correction | Corrigez l'erreur de repère temporel : Ce jour-là, le ministre a déclaré qu'il signerait l'accord demain. | — | ["Ce jour-là, le ministre a déclaré qu'il signerait l'accord le lendemain"] | true | The anchor is ce jour-là, in the past, so demain becomes le lendemain.
+- c2-concordance-in-writing-ex015 | translate | Traduisez (revenir) : She said she would come back the next day. | — | ["Elle a dit qu'elle reviendrait le lendemain","Elle a dit qu'elle reviendrait le jour suivant"] | true | Said in the past about a later day: conditionnel présent, and le lendemain for 'the next day'.
+- c2-concordance-in-writing-ex016 | translate | Traduisez (avant que, ils = des hommes) : They left before she arrived. | — | ["Ils sont partis avant qu'elle arrive","Ils sont partis avant qu'elle n'arrive","Ils sont partis avant qu'elle soit arrivée","Ils sont partis avant qu'elle ne soit arrivée"] | false | Avant que takes the subjunctive, present or passé, after a past main verb; the ne is optional and formal.
+- c2-concordance-in-writing-ex017 | translate | Traduisez : He told me that he had already read the book. | — | ["Il m'a dit qu'il avait déjà lu le livre"] | true | Reading came before the past anchor (il m'a dit): plus-que-parfait.
+- c2-concordance-in-writing-ex018 | reorder | Remettez dans l'ordre : She announced that she would resign the next day. | — | ["Elle a annoncé qu'elle démissionnerait le lendemain"] | false | A later action seen from a past anchor: conditionnel présent, with le lendemain.
+
+## c2-ellipsis-and-nominal-style
+
+### Vocab
+
+fr | pron | en | note
+
+- l'ellipse (f.) | lay-LEEPS | ellipsis (leaving out words the reader can supply) | —
+- une proposition elliptique | ewn proh-poh-zee-SYOHN ay-leep-TEEK | an elliptical clause (with a word left out) | —
+- le verbe sous-entendu | luh vehrb soo-zahn-tahn-DEW | the understood verb (not written but meant) | —
+- l'auxiliaire (m.) | lohk-see-LYEHR | the auxiliary (avoir or être in a compound tense) | —
+- ambigu / ambiguë | ahn-bee-GEW | ambiguous | Feminine ambiguë (1990: ambigüe).
+- un titre de presse | uhn TEE-truh duh PRES | a newspaper headline | —
+- le présent de l'actualité | luh pray-ZAHN duh lak-tew-ah-lee-TAY | the news present (the present used for a recent past event) | —
+- le style télégraphique | luh steel tay-lay-grah-FEEK | telegraphic style (no articles, few verbs) | —
+- une prise de notes | ewn preez duh NOTT | note-taking; a set of notes | —
+- une puce | ewn PEWS | a bullet point | —
+- une structure parallèle | ewn strewk-TEWR pah-rah-LEL | a parallel structure (every item built the same way) | —
+- un entrepôt | uh-nahn-truh-POH | a warehouse | —
+- les pompiers (m.) | lay pohn-PYAY | the fire brigade, firefighters | —
+- évacuer / l'évacuation (f.) | ay-vah-KWAY / lay-vah-kwah-SYOHN | to evacuate / evacuation | —
+- légèrement (blessé) | lay-zhehr-MAHN | slightly (injured) | —
+- un blessé léger | uhn bleh-SAY lay-ZHAY | a slightly injured person | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-ellipsis-and-nominal-style-ex001 | multiple-choice | Choisissez la phrase avec une ellipse correcte du verbe : Paul a pris le train, et Marie a pris l'avion. | ["Paul a pris le train ; Marie, l'avion.","Paul a pris le train ; Marie a, l'avion.","Paul a pris le train ; Marie pris l'avion."] | ["Paul a pris le train ; Marie, l'avion."] | false | The whole verb (a pris) is left out, and a comma marks the gap.
+- c2-ellipsis-and-nominal-style-ex002 | multiple-choice | Indiquez le sens de la phrase : Jean aime Marie plus que Paul. | ["It can mean two things.","It only means that Paul loves Marie less.","It only means that Jean loves Paul less."] | ["It can mean two things."] | false | The ellipsis is ambiguous: more than Paul loves Marie, or more than Jean loves Paul. Write the verb to choose: plus que Paul ne l'aime, or plus qu'il n'aime Paul.
+- c2-ellipsis-and-nominal-style-ex003 | multiple-choice | Indiquez où le style télégraphique convient. | ["dans une prise de notes","dans une dissertation","dans une lettre de motivation"] | ["dans une prise de notes"] | false | Telegraphic style belongs in notes, slides and headlines. An essay or a cover letter needs full sentences.
+- c2-ellipsis-and-nominal-style-ex004 | multiple-choice | Choisissez la forme qui convient à un titre de presse. | ["Le maire démissionne","Le maire a démissionné hier soir, ce qui a surpris tout le monde","Le maire, il a démissionné"] | ["Le maire démissionne"] | false | A headline uses the present for a recent event (le présent de l'actualité), with no time details and no comment.
+- c2-ellipsis-and-nominal-style-ex005 | fill-in | Complétez avec l'auxiliaire qui manque (les deux auxiliaires sont différents) : Elle est arrivée à huit heures et ___ mangé tout de suite. | — | ["a"] | true | You can leave out an auxiliary only if it's the same one. Arriver takes être and manger takes avoir, so a must be written.
+- c2-ellipsis-and-nominal-style-ex006 | fill-in | Mettez le verbe à la forme des notes (l'infinitif) : Tu enverras le devis avant vendredi. Notes : ___ le devis avant vendredi. | — | ["Envoyer"] | false | In notes and to-do lists, an action is written in the infinitive, with no subject.
+- c2-ellipsis-and-nominal-style-ex007 | reformulation | Reformulez avec une ellipse du verbe : Léa a choisi la mer, et Hugo a choisi la montagne. | — | ["Léa a choisi la mer ; Hugo, la montagne","Léa a choisi la mer, et Hugo, la montagne"] | true | Leave out the repeated verb (a choisi) in the second clause; a comma marks the gap.
+- c2-ellipsis-and-nominal-style-ex008 | reformulation | Reformulez en phrase complète, au passé composé (augmenter) : Hausse des loyers à Lyon en mars. | — | ["Les loyers ont augmenté à Lyon en mars","À Lyon, les loyers ont augmenté en mars","En mars, les loyers ont augmenté à Lyon","Les loyers ont augmenté en mars à Lyon"] | true | The noun hausse becomes the verb augmenter, and les loyers becomes its subject.
+- c2-ellipsis-and-nominal-style-ex009 | reformulation | Reformulez en titre de presse, avec le nom « démission » : La ministre de la Culture a démissionné. | — | ["Démission de la ministre de la Culture"] | false | The verb becomes a noun, the subject becomes de + noun, and the article at the start disappears.
+- c2-ellipsis-and-nominal-style-ex010 | reformulation | Reformulez en écrivant le sujet et l'auxiliaire une seule fois : Il est parti à huit heures et il est revenu à midi. | — | ["Il est parti à huit heures et revenu à midi"] | true | Both verbs take être in the same form, so il est can be shared.
+- c2-ellipsis-and-nominal-style-ex011 | error-correction | Corrigez l'ellipse : Elle est arrivée à midi et pris un café. | — | ["Elle est arrivée à midi et a pris un café"] | true | Arriver takes être and prendre takes avoir: the second auxiliary can't be left out.
+- c2-ellipsis-and-nominal-style-ex012 | error-correction | Corrigez la dernière puce pour qu'elle commence par un nom, comme les deux autres, et donnez seulement cette puce : Vote du budget. Choix du lieu. On invite les bénévoles. | — | ["Invitation des bénévoles"] | false | Bullets keep a parallel structure: three nouns (vote, choix, invitation). Inviter becomes invitation.
+- c2-ellipsis-and-nominal-style-ex013 | register-shift | Transformez la note en phrase complète (registre courant) : Réunion reportée au 12 mai. | — | ["La réunion est reportée au 12 mai","La réunion a été reportée au 12 mai"] | true | Add the article and the auxiliary: la réunion est reportée, or a été reportée.
+- c2-ellipsis-and-nominal-style-ex014 | translate | Traduisez avec une ellipse du verbe : I'll take the train; my sister, the bus. | — | ["Je prendrai le train ; ma sœur, le bus","Je vais prendre le train ; ma sœur, le bus","Je prends le train ; ma sœur, le bus"] | false | The verb isn't repeated after ma sœur; a comma marks the gap.
+- c2-ellipsis-and-nominal-style-ex015 | translate | Traduisez en titre nominal (le nom « hausse ») : Bread prices are rising in Paris. | — | ["Hausse du prix du pain à Paris","Hausse des prix du pain à Paris"] | true | A nominal headline: the noun, de + what rises, then the place. No article at the start.
+- c2-ellipsis-and-nominal-style-ex016 | translate | Traduisez en style de notes (l'infinitif) : Call the mayor before Friday. | — | ["Appeler le maire avant vendredi","Appeler maire avant vendredi"] | false | Notes use the infinitive for actions. The article may be dropped in very short notes.
+- c2-ellipsis-and-nominal-style-ex017 | reorder | Remettez dans l'ordre : Paul chose the train; Marie, the plane. | — | ["Paul a choisi le train ; Marie, l'avion"] | false | The verb a choisi isn't repeated after Marie: the comma marks the gap.
+
+## c2-review-form
+
+### Vocab
+
+fr | pron | en | note
+
+- la relecture | lah ruh-lek-TEWR | proofreading, rereading (a text to correct it) | —
+- une coquille | ewn koh-KEE-y | a typo, a printing error | —
+- un correcteur / une correctrice | uhn koh-rek-TUHR / ewn koh-rek-TREES | a proofreader | —
+- corriger les épreuves | koh-ree-ZHAY lay-zay-PRUHV | to correct the proofs (the last version before printing) | —
+- une fiche | ewn FEESH | a card, a record (in a catalogue) | —
+- un catalogue | uhn kah-tah-LOG | a catalogue | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-review-form-ex001 | fill-in | Accordez le participe (se rendre compte) : Les lectrices se sont ___ compte du changement. | — | ["rendu"] | false | In se rendre compte, compte is the direct object, so rendu never agrees (c2-agreement-pronominal-verbs).
+- c2-review-form-ex002 | multiple-choice | Choisissez la bonne forme : Les livres que nous avons ___ partir étaient très vieux. | ["vus","vu","vues"] | ["vus"] | false | The books are the ones leaving: que (= les livres) is the subject of partir, so vus agrees (c2-agreement-with-infinitives).
+- c2-review-form-ex003 | multiple-choice | Choisissez la bonne forme : ___ soit son âge, tout le monde est invité. | ["Quel que","Quelle que","Quelque"] | ["Quel que"] | false | Before soit, two words; quel agrees with son âge, masculine singular (c2-tout-quelque-meme).
+- c2-review-form-ex004 | fill-in | Écrivez le nombre en lettres (80) : ___ places attendent les lecteurs. | — | ["Quatre-vingts"] | false | Vingt is multiplied and ends the number, so it takes an s (c2-agreement-colours-compounds-numbers).
+- c2-review-form-ex005 | fill-in | Conjuguez (être) au temps qui convient : La mairie a promis que le jardin ___ ouvert dès l'été. | — | ["serait"] | false | A promise made in the past about a later event: conditionnel présent (c2-concordance-in-writing).
+- c2-review-form-ex006 | reformulation | Reformulez avec une ellipse du verbe : Les enfants écouteront des contes, et les adultes écouteront des poèmes. | — | ["Les enfants écouteront des contes ; les adultes, des poèmes","Les enfants écouteront des contes, et les adultes, des poèmes"] | false | Leave out the repeated verb (écouteront); a comma marks the gap (c2-ellipsis-and-nominal-style).
+- c2-review-form-ex007 | error-correction | Corrigez l'erreur (phrase du texte) : Ils se sont rendus compte assez vite que le nouveau bâtiment ne pourrait pas accueillir tous les livres. | — | ["Ils se sont rendu compte assez vite que le nouveau bâtiment ne pourrait pas accueillir tous les livres"] | false | Rendu never agrees in se rendre compte.
+- c2-review-form-ex008 | error-correction | Corrigez l'erreur (phrase du texte) : Quelques deux mille ouvrages devaient donc trouver une autre maison. | — | ["Quelque deux mille ouvrages devaient donc trouver une autre maison"] | false | Before a number, quelque means 'about' and doesn't change.
+- c2-review-form-ex009 | error-correction | Corrigez l'erreur de concordance (phrase du texte) : La directrice a expliqué qu'elle avait contacté plusieurs écoles et qu'elle leur donnera les livres pour enfants. | — | ["La directrice a expliqué qu'elle avait contacté plusieurs écoles et qu'elle leur donnerait les livres pour enfants"] | true | From a past anchor, a later action takes the conditionnel présent: donnerait.
+- c2-review-form-ex010 | error-correction | Corrigez l'erreur (phrase du texte) : Les écoles se sont parlées, puis se sont partagé les livres. | — | ["Les écoles se sont parlé, puis se sont partagé les livres"] | true | Parler à quelqu'un: se is indirect, so parlé doesn't agree. Partagé doesn't agree either: its direct object, les livres, comes after it.
+- c2-review-form-ex011 | error-correction | Corrigez l'erreur d'accord (le sens : très tristes) : Quelques lectrices fidèles étaient tout tristes de les voir partir. | — | ["Quelques lectrices fidèles étaient toutes tristes de les voir partir"] | false | Before a feminine adjective starting with a consonant, the adverb tout agrees: toutes tristes.
+- c2-review-form-ex012 | error-correction | Corrigez l'ellipse (phrase du texte) : Les bénévoles sont arrivés à huit heures et rangé les livres qui restaient. | — | ["Les bénévoles sont arrivés à huit heures et ont rangé les livres qui restaient"] | true | Arriver takes être and ranger takes avoir: both auxiliaries must be written.
+- c2-review-form-ex013 | error-correction | Corrigez l'erreur d'accord (phrase du texte) : Ses murs sont gris clair et ses fauteuils oranges. | — | ["Ses murs sont gris clair et ses fauteuils orange"] | false | Orange is a noun used as a colour, so it doesn't change.
+- c2-review-form-ex014 | error-correction | Corrigez l'erreur (phrase du texte) : Quelque soit l'avis de chacun, les bénévoles eux-mêmes reconnaissent que la médiathèque avait besoin d'un lieu moderne. | — | ["Quel que soit l'avis de chacun, les bénévoles eux-mêmes reconnaissent que la médiathèque avait besoin d'un lieu moderne"] | false | Before soit, quel que in two words, agreeing with l'avis: quel que soit.
+- c2-review-form-ex015 | translate | Traduisez (une coquille) : There's a typo in the second paragraph. | — | ["Il y a une coquille dans le deuxième paragraphe","Il y a une coquille dans le second paragraphe"] | true | Une coquille is a typo. Deuxième and second both mean 'second' here.
+- c2-review-form-ex016 | reorder | Remettez dans l'ordre : The proofreader corrected the proofs before publication. | — | ["La correctrice a corrigé les épreuves avant la publication"] | false | Corriger les épreuves: to correct the last version before a text is printed.
+- c2-review-form-ex017 | writing-task | Rédigez un paragraphe de 80 à 120 mots sur un changement dans votre ville ou dans votre travail, au passé composé. Faites ensuite une relecture avec la liste. | — | — | false | —

@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useLayoutEffect, useRef, useState, type FormEvent, type MouseEvent } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState, type FormEvent, type MouseEvent } from "react";
 import { checkAnswer, checkChoice, type AnswerResult, type AnswerStatus } from "@/lib/check-answer";
 import { isCompleted, progressStore, type LessonProgress } from "@/lib/progress";
-import { TYPED_TYPES, type Exercise } from "@/lib/types";
+import { isGraded, TYPED_TYPES, type Exercise, type GradedExercise, type WritingTaskExercise } from "@/lib/types";
+import { WritingTask } from "./writing-task";
 
 const FRENCH_CHARACTERS = ["é", "è", "ê", "ë", "à", "â", "ç", "î", "ï", "ô", "œ", "ù", "û", "ü"];
 
@@ -13,7 +14,7 @@ const secondaryButton = `min-h-11 rounded-full border border-border bg-card px-5
 
 type Chip = { key: number; word: string };
 /** One exercise with its display order fixed for this run. */
-type Item = { exercise: Exercise; options: string[]; chips: Chip[] };
+type Item = { exercise: GradedExercise; options: string[]; chips: Chip[] };
 type Run = {
   id: number; // changes on every new run, to reset the question state
   mode: "full" | "retry";
@@ -43,7 +44,7 @@ function shuffledChips(words: string[]): Chip[] {
 }
 
 // Shuffles use Math.random, so runs are only ever created after mount, never during render.
-function createRun(exercises: Exercise[], id: number, mode: Run["mode"]): Run {
+function createRun(exercises: GradedExercise[], id: number, mode: Run["mode"]): Run {
   return {
     id,
     mode,
@@ -60,7 +61,10 @@ function createRun(exercises: Exercise[], id: number, mode: Run["mode"]): Run {
 
 const scoreOf = (run: Run) => run.items.filter((i) => run.results[i.exercise.id] !== "incorrect").length;
 
-export function ExercisePlayer({ lessonId, exercises }: { lessonId: string; exercises: Exercise[] }) {
+export function ExercisePlayer({ lessonId, exercises: allExercises }: { lessonId: string; exercises: Exercise[] }) {
+  // Writing tasks (C2) are never graded: they stay out of the run and the score, and render on their own.
+  const exercises = useMemo(() => allExercises.filter(isGraded), [allExercises]);
+  const writingTasks = useMemo(() => allExercises.filter((e): e is WritingTaskExercise => !isGraded(e)), [allExercises]);
   const [run, setRun] = useState<Run | null>(null);
   const [best, setBest] = useState<LessonProgress | null>(null);
 
@@ -77,7 +81,7 @@ export function ExercisePlayer({ lessonId, exercises }: { lessonId: string; exer
     };
   }, [lessonId, exercises]);
 
-  if (exercises.length === 0) return null;
+  if (exercises.length === 0 && writingTasks.length === 0) return null;
 
   function handleAnswered(exerciseId: string, status: AnswerStatus) {
     progressStore.recordAttempt(exerciseId, status);
@@ -109,6 +113,7 @@ export function ExercisePlayer({ lessonId, exercises }: { lessonId: string; exer
         )}
       </div>
 
+      {exercises.length > 0 && (
       <div className="mt-5 rounded-2xl border border-border bg-card p-5 sm:p-7">
         {!run ? (
           <p className="py-10 text-center text-muted">Loading practice…</p>
@@ -133,6 +138,10 @@ export function ExercisePlayer({ lessonId, exercises }: { lessonId: string; exer
           />
         )}
       </div>
+      )}
+      {writingTasks.map((task) => (
+        <WritingTask key={task.id} exercise={task} />
+      ))}
     </section>
   );
 }

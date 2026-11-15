@@ -27,12 +27,12 @@ for (const line of fs.readFileSync(path.join(ROOT, "docs", "syllabus.md"), "utf8
   if (lv) level = lv[1];
   const u = line.match(/^### Unit \d+:\s*(.+)$/);
   if (u) title = u[1].trim();
-  const m = line.match(/^\|\s*\d+\s*\|\s*((?:b2|c1)-[^\s|]+)\s*\|/);
+  const m = line.match(/^\|\s*\d+\s*\|\s*((?:b2|c1|c2)-[^\s|]+)\s*\|/);
   if (m) unitOf.set(m[1], title);
 }
 
 const failures: string[] = [];
-const files = ["b2", "c1"].map((lv) => path.join(ROOT, "content", "lessons", lv)).filter((d) => fs.existsSync(d)).flatMap((d) => fs.readdirSync(d).filter((x) => x.endsWith(".mdx")).map((x) => path.join(d, x)));
+const files = ["b2", "c1", "c2"].map((lv) => path.join(ROOT, "content", "lessons", lv)).filter((d) => fs.existsSync(d)).flatMap((d) => fs.readdirSync(d).filter((x) => x.endsWith(".mdx")).map((x) => path.join(d, x)));
 for (const f of files) {
   const { data, content } = matter(fs.readFileSync(f, "utf8"));
   for (const m of content.matchAll(/<LessonLink\b[^>]*id="([^"]+)"/g)) {
@@ -49,6 +49,6 @@ for (const f of files) {
   if (!expected) failures.push(`${data.id}: not in the syllabus`);
   else if (expected !== data.unit) failures.push(`${data.id}: unit "${data.unit}" but syllabus says "${expected}"`);
 }
-console.log(`b2-links-ids: ${files.length} B2 and C1 lessons checked, ${failures.length} failure(s).`);
+console.log(`b2-links-ids: ${files.length} B2, C1 and C2 lessons checked, ${failures.length} failure(s).`);
 for (const f of failures) console.log(`  ${f}`);
 if (failures.length) process.exit(1);

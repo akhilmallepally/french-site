@@ -1,6 +1,6 @@
 # C2 Unit 6 plan: Mediation and negotiation
 
-Status: plan only. Rules: the draft "C2 conventions" in docs/plans/c2/overview.md.
+Status: plan only. Rules: the "C2 conventions" in CLAUDE.md.
 
 Speaking skills practised in writing: the site is text-only, so each lesson works through scripts, transcripts and written exchanges. C1 already taught debate, speeches, diplomacy, meetings and the short exposé; this unit adds what C2 asks for: mediating between people and texts, negotiating towards an agreement, and building a structured oral argument.
 

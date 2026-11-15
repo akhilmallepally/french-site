@@ -83,6 +83,21 @@ Delete the user in **Authentication**, then **Users** (or through the Admin API)
 
 `supabase/rollback/rollback_all.sql` drops everything the migrations create, in dependency order. **It deletes every profile and all learner progress, with no undo.** It leaves `auth.users` alone.
 
+## C2 writing tasks (planned, no migration yet)
+
+C2 lessons may contain one ungraded `writing-task` exercise. The learner's text is a local draft only (lib/writing-draft.ts, localStorage) and must never reach Supabase. `ProgressStore.recordWritingTask(exerciseId, checked)` takes no text, so a Supabase store can't receive it. When the store is written, add a table with no text column:
+
+| Column | Type | Notes |
+|---|---|---|
+| user_id | uuid | references the profile; RLS own-rows-only, like the other tables |
+| exercise_id | text | the writing task's permanent id |
+| lesson_id | text | for queries by lesson (the store will need it passed in, as for `recordAttempt`) |
+| done | boolean | always true once recorded |
+| checked | smallint[] | indices of the ticked checklist items |
+| done_at | timestamptz | when it was marked done |
+
+Writing tasks never count in lesson_scores or exercise_results.
+
 ## 8. Not done yet
 
 - **The progress store.** `lib/progress.ts` still uses localStorage only. A `SupabaseProgressStore` behind the same interface comes next. Note: `recordAttempt(exerciseId, result)` doesn't receive the lesson id, which `exercise_results.lesson_id` needs; the store will need it passed in (ExercisePlayer has it).

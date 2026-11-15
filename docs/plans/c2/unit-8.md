@@ -1,6 +1,6 @@
 # C2 Unit 8 plan: Range and mastery
 
-Status: plan only. Rules: the draft "C2 conventions" in docs/plans/c2/overview.md. Write this unit last: its lessons and reviews draw on everything.
+Status: plan only. Rules: the "C2 conventions" in CLAUDE.md. Write this unit last: its lessons and reviews draw on everything.
 
 ## 42. c2-pastiche: Writing in a style (communication · harder)
 
@@ -10,7 +10,7 @@ Status: plan only. Rules: the draft "C2 conventions" in docs/plans/c2/overview.m
 - **Key vocab (new):** *une parodie*, *à la manière de*, *un tic d'écriture*, *imiter* (recap: c1-culture-satire-and-humour).
 - **Longer text:** one invented event told *à la manière de* a fable (La Fontaine, safe list), a dépêche and an administrative notice, each labelled as an original pastiche.
 - **Exercises:** multiple-choice (which style?), register-shift, reformulation, reorder, a writing task.
-- **Risks:** pastiches of later authors only "in the style of" and labelled as invented (C1 rule); no copied lines.
+- **Risks:** pastiches of later authors only "in the style of" and labelled as invented (C1 rule); no copied lines. Any verse in the pastiche (the fable) goes through scripts/scan-alexandrines.ts, or the fable is written as prose.
 
 ## 43. c2-idiomatic-precision: Idioms at C2 (vocabulary · harder)
 

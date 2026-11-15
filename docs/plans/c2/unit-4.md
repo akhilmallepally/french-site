@@ -1,6 +1,6 @@
 # C2 Unit 4 plan: Reading between the lines
 
-Status: plan only. Rules: the draft "C2 conventions" in docs/plans/c2/overview.md.
+Status: plan only. Rules: the "C2 conventions" in CLAUDE.md.
 
 C1 taught irony, understatement, rhetorical devices and free indirect speech. This unit turns them into reading tools: what a text says without saying it, how an argument works, and the French method for commenting on a text.
 
@@ -32,7 +32,8 @@ C1 taught irony, understatement, rhetorical devices and free indirect speech. Th
 - **Key vocab (new):** *un axe de lecture*, *un relevé*, *une citation enchâssée*, *une ouverture*, *le champ lexical*, *le registre* (literary sense: *lyrique, tragique, comique, épique*).
 - **Longer text:** a safe-list passage of under 15 words quoted, plus an original pastiche passage (labelled) as the text to comment, and a model commentary introduction and one developed axis.
 - **Exercises:** multiple-choice (which axis?), reorder (plan), fill-in, reformulation, a writing task (the introduction).
-- **Risks:** the passage to comment is an original pastiche unless a full safe-list text under 15 words is enough; never quote later authors (C1 rule). The literary "registres" must not be confused with the language registers (familier, courant, soutenu): say so explicitly.
+- **Source text:** an original pastiche, labelled, pending the owner's decision on full public-domain source texts (not decided here). Never quote later authors (C1 rule).
+- **Risks:** The literary "registres" must not be confused with the language registers (familier, courant, soutenu): say so explicitly.
 
 ## 22. c2-stylistic-analysis: Style: rhythm, sound and syntax (communication · harder)
 

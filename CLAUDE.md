@@ -1,5 +1,5 @@
 # Parlons: French learning site
-- Goal: text-only French site for English speakers, A1 to C1 (C2 later). Lessons, vocab and exercises exist for A1 and A2 and B1 to C1 are being written. Later phases: Supabase auth, progress storage, spaced repetition, streaks, progress dashboard.
+- Goal: text-only French site for English speakers, A1 to C2. Lessons, vocab and exercises exist for A1 to C1, and C2 is being written. Later phases: Supabase auth, progress storage, spaced repetition, streaks, progress dashboard.
 - Stack: Next.js (App Router, TypeScript, Tailwind v4, no src/ directory). Lessons are MDX files in content/lessons/, parsed with gray-matter and rendered with next-mdx-remote/rsc plus remark-gfm. Later: Supabase (auth + Postgres), deployed on Vercel.
 - All file reading lives in lib/lessons.ts so we can swap to a DB/CMS later without touching pages.
 - Exercise and vocab items must have stable IDs that never change once published.
@@ -47,6 +47,7 @@
 
 ### Exercises
 - Exercise types in use: multiple-choice, fill-in, translate, reorder.
+- C2 only: `writing-task`, an ungraded long-writing exercise (fields `prompt`, `model`, `checklist` of 3 to 6 items, optional `wordTarget` [min, max]; at most one per lesson). It has no `answers`, never counts in the score, and lib/check-answer.ts skips it. **Privacy:** the learner's text is saved as a draft in localStorage for that exercise only (lib/writing-draft.ts). It is never sent to a server or a server action, never stored in progress, and never logged. Progress records only "done" and the ticked checklist items. Word counts use lib/word-count.ts.
 - Exercise answers: list only genuinely different phrasings. Do NOT list accent-less spelling variants, or variants that differ only in capitals, final punctuation or apostrophe style. The answer checker (lib/check-answer.ts) normalizes accents, capitals, punctuation and apostrophes when comparing, and tells the learner when an answer was right except for a missing accent (it doesn't silently accept it, because accents can change meaning: ou/où, a/à, sur/sûr).
 - Set strictAccents: true when an accepted answer contains a word whose unaccented spelling is a different word or verb form a learner could plausibly confuse (a/à, ou/où, parle/parlé, mange/mangé, aime/aimé, passe/passé). la/là, du/dû, des/dès and sur/sûr may stay false.
 - Don't write fill-in or translate exercises whose answer depends on capital letters. Use multiple-choice for those.
@@ -238,5 +239,38 @@ C1 inherits every B2 convention unless it's changed here. Plans are in docs/plan
     - Before finishing a unit, run check:words, check:structures, audit:content, test:b2-exercises (extended to C1), scripts/b2-links-ids.ts (extended to C1) and check:c1-links.
     - Forward links: a LessonLink or `related` entry to a lesson that isn't written yet is plain text, listed in docs/c1-forward-links.md (lesson, text, target), and restored when the target is written. `npm run check:c1-links` fails on a link to a missing lesson.
     - The log gives teaching-text, whole-lesson and En résumé word counts for every lesson.
+
+## C2 conventions
+C2 inherits every C1 convention unless it's changed here. Plans are in docs/plans/c2/; the coverage map of what A1 to C1 already teach is docs/c2-coverage.md (scripts/c2-lists.ts); use scripts/c2-find.ts before every "you know X from Y".
+- **Teaching language.** Rules and nuance stay in English. Every French example, dialogue line and longer text keeps a full English translation.
+- **How words are counted** (audit:content and wrapup:c2, as at C1 with one change):
+  - Teaching text: everything rendered except vocab tables (glossary tables included), the "En français" dialogue, text sections (sections where most lines are French text lines, with their English translations) and the En résumé. Callouts count wherever they are.
+  - Longer text: the French lines (italic spans) of text sections only; translations and glossaries don't count.
+  - Source text: a text given to be commented on or contracted goes in its own section, headed `## Source text: …`. Its French lines are counted on their own, not as the longer text. validate:content allows it at C2 only, at most one per lesson, with French text lines and an English translation.
+  - Whole lesson: everything rendered except vocab tables and, new at C2, the English translations of text sections. Dialogue lines keep their inline translations and count.
+  - Glossary entries don't count in the vocab limits.
+- **Lengths.**
+  - Teaching text: 1,000 to 1,300 words (1,400 for grammar). Whole lesson: under 2,600.
+  - Longer texts (communication, culture and review lessons): 300 to 500 French words, with a glossary.
+  - Source text: at most 600 French words; a lesson with a source text has no dialogue.
+  - Vocab: 15 to 30 entries (12 to 30 in grammar lessons), not counting glossary entries. Review lessons keep 3 to 8 new words.
+  - Exercises: 15 to 18, with at least 5 production tasks, 1 reorder and 1 reformulation. At most 1 writing task, which counts neither as an exercise nor as production.
+  - Dialogues: 12 to 16 lines, where the lesson has one.
+  - En résumé (grammar and vocabulary lessons): 150 to 200 words.
+  - The arithmetic: 1,300 teaching + 600 source text + 500 model text = 2,400, under 2,600.
+- **Exercise types.** The C1 types, plus `writing-task` (see "Exercises" above). Writing is taught by keyed sub-steps (choose the problématique, order the plan, pick the transition), with at most one ungraded writing task on top.
+- **Instructions.** The C1 list, plus **Commentez**, **Contractez** and **Analysez** (in INSTRUCTION_VERBS).
+- **Recognition only:** Old and Middle French, the literary concordance with the imperfect subjunctive, and the difference between traditional and 1990 spellings. No typed answer requires the imparfait or plus-que-parfait du subjonctif or a passé simple in the first or second person plural (check:structures).
+- **Spelling.** Refer to "the 1990 spelling rectifications, recommended rather than compulsory", with no claim about which schools or institutions use them. Where both spellings are correct, keys accept both, and the teaching text shows both once.
+- **Translation exercises (version and thème).** Typed keys are sentence-level, with every valid variant listed; longer passages are writing tasks.
+- **Quotations.** The C1 safe list stays (authors who died before 1900, under 15 words, one quotation per source per lesson, our own translations). Anonymous medieval texts count as safe. Old and Middle French are quoted in the original for recognition, with our own modern French translation and our own English translation; the 15-word limit applies to the original.
+- **No exam practice.** No C2 lesson practises for an exam or names one.
+- **Checklist.** The C1 checklist applies in full (42 rules in five groups), plus these C2 additions:
+  - A modernized or rectified spelling is checked against a dictionary before it's accepted or rejected.
+  - For a version or thème key, translate the accepted answer back and check that it keeps the meaning.
+  - Specialized texts (legal, medical, scientific, administrative) are invented and labelled; they give no advice and no real figures.
+  - A mechanical constraint (a lipogram, a word target, a metre) is checked by a script, not by eye: wrapup:c2 for lipograms (tag `lipogram`, a section heading with "lipogram", the line "Missing letter: *e*."), lib/word-count.ts for word targets, check:alexandrines for verse.
+  - A contraction keeps the author's voice and order, with no *l'auteur dit*; a synthesis or a summary attributes every view to its source. Each lesson states which of the two it teaches.
+  - An established word (*logiciel*, *ordinateur*) is not taught as a new replacement or as an open debate.
 
 @AGENTS.md

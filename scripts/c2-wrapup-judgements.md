@@ -1,0 +1,1 @@
+- None yet: no C2 lesson is written. Add the judgement calls here after the first run on written lessons.

@@ -241,6 +241,15 @@ function lineOf(l: Lesson, seg: string, match: string): number {
   return i + 1;
 }
 
+// C2: answers the learner types (fill-in included) must not require literary forms.
+const C2_TYPED = new Set(["fill-in", "translate", "reformulation", "register-shift", "error-correction"]);
+const NOT_LETTER = "(?<![a-zàâçéèêëîïôûùüÿœ])";
+const C2_LITERARY_RULES: { name: string; find: (s: string) => string[] }[] = [
+  RULES.find((r) => r.name === "imparfait du subjonctif")!,
+  { name: "plus-que-parfait du subjonctif", find: all(new RegExp(`${NOT_LETTER}qu(?:'|e\\s+)(?:il|elle|on|ils|elles|je|tu|nous|vous)\\s+(?:eût|fût|eussent|fussent|eusse|fusse)\\s+[a-zàâçéèêëîïôûùüÿœ]+(?:é|ée|és|ées|i|ie|is|u|ue|us|t|te|ts|tes)(?![a-zàâçéèêëîïôûùüÿœ])`, "gi")) },
+  { name: "passé simple (1st or 2nd person plural)", find: all(new RegExp(`${NOT_LETTER}(?:nous|vous)\\s+(?:ne\\s+|n')?(?:[a-zàâçéèêëîïôûùüÿœ]+(?:âmes|âtes|îmes|îtes|ûmes|ûtes|înmes|întes))(?![a-zàâçéèêëîïôûùüÿœ])`, "gi")) },
+];
+
 const filter = process.argv[2];
 const lessons = readLessons();
 // Where each teaching lesson sits: its file if it's written, otherwise its planned order.
@@ -292,6 +301,21 @@ for (const l of lessons) {
     }
   }
   if (glossed.length && l.rank >= rankOf("b2")) report.push(`${l.id}  [glossed in longer texts: ${glossForms.size} of ${GLOSS_CAP}] ${glossed.join("; ")}`);
+  // C2 (draft conventions, docs/plans/c2/overview.md): literary forms are recognition only. No typed
+  // answer may require the imparfait or plus-que-parfait du subjonctif (the literary concordance) or a
+  // passé simple in the first or second person plural.
+  if (l.rank >= rankOf("c2")) {
+    for (const e of l.exercises ?? []) {
+      if (!C2_TYPED.has(e.type)) continue;
+      for (const a of e.answers ?? []) {
+        const hits = [...C2_LITERARY_RULES.flatMap((r) => r.find(a).map((h) => `${r.name}: "${h}"`))];
+        for (const h of hits) {
+          report.push(`${l.id} / ${e.id}  [C2 recognition only] ${h} in an answer the learner types`);
+          total++;
+        }
+      }
+    }
+  }
 }
 console.log(report.join("\n"));
 console.log(`\n${total} structure hit(s)${filter ? ` in ${filter}` : " in B1 and later"}.`);

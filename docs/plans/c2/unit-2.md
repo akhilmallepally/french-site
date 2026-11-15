@@ -1,6 +1,6 @@
 # C2 Unit 2 plan: Words with precision
 
-Status: plan only. Rules: the draft "C2 conventions" in docs/plans/c2/overview.md.
+Status: plan only. Rules: the "C2 conventions" in CLAUDE.md.
 
 C1 taught near-synonyms by register and strength (c1-euphemism-and-synonyms), precise verbs (c1-precise-verbs) and collocations (c1-collocations). This unit adds the word problems that remain at C2: words that look alike, words with many meanings, how words are built, and the pull of English.
 
@@ -8,7 +8,7 @@ C1 taught near-synonyms by register and strength (c1-euphemism-and-synonyms), pr
 
 - **Goal:** tell apart words that look or sound alike and are often confused.
 - **Recaps:** false friends (b2-false-friends); precise verbs (c1-precise-verbs).
-- **New:** pairs by family: *éminent / imminent*, *conjecture / conjoncture*, *perpétrer / perpétuer*, *infecter / infester*, *prodige / prodigue*, *effraction / infraction*, *collision / collusion*, *recouvrer / recouvrir*, *acception / acceptation*, *amener / apporter* (recap if taught: check with c2-find).
+- **New:** pairs by family: *éminent / imminent*, *conjecture / conjoncture*, *perpétrer / perpétuer*, *infecter / infester*, *prodige / prodigue*, *effraction / infraction*, *collision / collusion*, *recouvrer / recouvrir*, *acception / acceptation*. (*amener / apporter* dropped: c2-find shows *apporter* in a2-polite-requests but *amener* in no lesson, so it isn't a paronym recap; it can be taught later as a vocabulary point if needed.)
 - **Key vocab (new):** *un paronyme* and the pairs above, as two entries per pair (one concept per entry).
 - **Model:** a short article with ten paronyms, half used correctly.
 - **Exercises:** multiple-choice (pair in context), error-correction, fill-in, translate, reorder.
@@ -48,7 +48,7 @@ C1 taught near-synonyms by register and strength (c1-euphemism-and-synonyms), pr
 
 - **Goal:** know the common anglicisms, their official French replacements, and which ones people actually use.
 - **Recaps:** *courriel* (c1-culture-francophonie, b1-culture-quebec).
-- **New:** *mot-dièse* (hashtag), *infolettre*, *divulgâcher*, *écrasement* vs *crash*, *mercatique* (marketing), *covoiturage*, *baladodiffusion* (Québec) / *podcast*, *logiciel*, *ordinateur*; how official terms are published (the French terminology commission and FranceTerme; Québec's Office québécois de la langue française); the Loi Toubon in one neutral paragraph.
+- **New:** *mot-dièse* (hashtag), *infolettre*, *divulgâcher*, *mercatique* (marketing), *covoiturage*, *baladodiffusion* (Québec) / *podcast*; *écrasement* vs *crash* only if review-needed confirms it as an official French term (if it's Québec usage only, label it so; if it can't be confirmed, drop it); *logiciel* and *ordinateur* as long-established coinages that replaced the English words decades ago (recap: b2-relative-lequel, a1-indefinite-articles), not as new vocab or an open debate; how official terms are published (the French terminology commission and FranceTerme; Québec's Office québécois de la langue française); the Loi Toubon in one neutral paragraph.
 - **Key vocab (new):** *un anglicisme*, *un équivalent officiel*, *recommander un terme*, *le Journal officiel* (recap: c1-law-and-institutions).
 - **Model:** an original article on an invented company's "language week", using both forms with labels.
 - **Exercises:** multiple-choice (official term), register-shift, error-correction, translate, reorder.
