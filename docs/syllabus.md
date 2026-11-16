@@ -521,7 +521,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 ## C2 · Mastery (planned)
 
-Planned in docs/plans/c2/ (Prompt 40). Units 1 to 5 are written (Prompts 42 to 46); the other rows are planned and may change.
+Planned in docs/plans/c2/ (Prompt 40). Units 1 to 6 are written (Prompts 42 to 47); the other rows are planned and may change.
 
 ### Unit 1: Precision in form
 
@@ -582,11 +582,11 @@ Planned in docs/plans/c2/ (Prompt 40). Units 1 to 5 are written (Prompts 42 to 4
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 31 | c2-mediation | Explaining a text to someone else | Mediation and negotiation | communication | c1-synthesis, c1-register-shifting, c1-exam-oral-presentation | Planned. Relaying a document to a reader who hasn't read it, adapted and faithful. |
-| 32 | c2-negotiation | Negotiating in writing | Mediation and negotiation | communication | b2-negotiating, c1-diplomatic-language, c1-concession-and-hypothesis | Planned. An email negotiation from opening position to written agreement. |
-| 33 | c2-structured-oral-argument | A structured oral argument | Mediation and negotiation | communication | c1-public-speaking, c1-formal-debate, c1-spoken-discourse-markers | Planned. A spoken argument written out: thesis, signposts, rebuttal, close. |
-| 34 | c2-interviews-and-questioning | Asking precise questions | Mediation and negotiation | communication | b2-reported-questions-orders, c1-stylistic-inversion, c1-leading-a-meeting | Planned. Open, closed and follow-up questions; pressing politely. |
-| 35 | c2-review-mediation | Review: Mediation and negotiation | Mediation and negotiation | review | c2-mediation, c2-negotiation, c2-structured-oral-argument, c2-interviews-and-questioning | Planned. A neighbourhood dispute resolved through mediation. |
+| 31 | c2-mediation | Explaining a text to someone else | Mediation and negotiation | communication | c1-synthesis, c1-register-shifting, c1-exam-oral-presentation, c2-implicit-meaning | Relaying a document: the listener first, every fact and condition kept, what the text says vs what you add (en substance, le texte dit que, pour ma part), le texte ne précise pas. Model: an invented town hall notice and a neighbour's written relay. |
+| 32 | c2-negotiation | Negotiating in writing | Mediation and negotiation | communication | b2-negotiating, c1-diplomatic-language, c1-concession-and-hypothesis, c2-mediation | Opening position, conditional offers, trading concessions, refusing en l'état, une solution de repli, the written summary; the registers of faire une concession, consentir un effort, couper la poire en deux, lâcher du lest. Model: four invented emails between a publisher and a printer. |
+| 33 | c2-structured-oral-argument | A structured oral argument | Mediation and negotiation | communication | c1-public-speaking, c1-formal-debate, c1-dislocation-and-fronting, c2-negotiation | One thesis and un fil rouge; announce, develop, recap; spoken signposts; spoken forms labelled; prévenir une objection; marteler and en un mot. Model: an invented speech at a neighbourhood council, with notes. |
+| 34 | c2-interviews-and-questioning | Asking precise questions | Mediation and negotiation | communication | b2-reported-questions-orders, c1-stylistic-inversion, c1-leading-a-meeting, c2-structured-oral-argument | Open, closed and leading questions; relancer and si je vous suis bien; revenir à la charge, je me permets d'insister, pour revenir à; the registers of a question. Model: an invented interview with a cabinetmaker, and the interviewer's notes. |
+| 35 | c2-review-mediation | Review: Mediation and negotiation | Mediation and negotiation | review | c2-mediation, c2-negotiation, c2-structured-oral-argument, c2-interviews-and-questioning | New words: un médiateur / une médiatrice, une médiation, désamorcer un conflit, un différend. One invented dispute between neighbours through a mediation, a negotiation and a written summary with the same facts; a neutral relay as the writing task. |
 
 ### Unit 7: The language and its literatures
 

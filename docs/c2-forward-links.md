@@ -8,6 +8,8 @@ Restored in Prompt 45: c2-review-reading → c2-contraction-de-texte (What's nex
 
 Restored in Prompt 46: c2-review-words → c2-legal-french (What's next).
 
+Restored in Prompt 47: c2-review-writing → c2-mediation (What's next).
+
 | Lesson | Text | Target |
 |---|---|---|
-| c2-review-writing | What's next: "the lesson on mediation" | c2-mediation |
+| c2-review-mediation | What's next: "the lesson on a short history of French" | c2-culture-history-of-french |

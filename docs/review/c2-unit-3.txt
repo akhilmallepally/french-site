@@ -208,7 +208,7 @@ Legal French is precise because it leaves nothing out. A plain version must be j
 
 - **Keep every obligation**: who must do what.
 - **Keep every condition and every penalty**: *sous réserve de* becomes *à condition de*; *sous peine de* becomes *sinon*.
-- **Keep every exception**: *nonobstant* becomes *par ailleurs* or *cependant*, followed by the exception.
+- **Keep every exception**: *nonobstant* becomes *cependant* or *en revanche*, which keep the contrast, followed by the exception.
 - **Add nothing**: no advice, no opinion about whether the clause is fair.
 
 ## The model: a lease clause and its plain version
@@ -219,9 +219,9 @@ The extract below is from an invented lease. A plain version, written for the te
 
 *Article 8 – Résiliation. Le présent bail peut être résilié par le locataire à tout moment, sous réserve d'un préavis adressé au bailleur par lettre recommandée. Nonobstant ce qui précède, la mise à disposition du garage est consentie à titre gracieux et peut prendre fin à chaque échéance annuelle du bail.*
 
-*Version simple. Article 7. Vous devez garder le logement et ses équipements en bon état. Si quelque chose est abîmé, vous devez prévenir le propriétaire tout de suite ; sinon, vous devrez payer seul les conséquences. De son côté, le propriétaire doit faire et payer lui-même les réparations qui ne font pas partie de l'entretien normal. Article 8. Vous pouvez mettre fin au bail quand vous voulez, à condition de prévenir le propriétaire à l'avance par lettre recommandée. Par ailleurs, le garage vous est prêté gratuitement, et ce prêt peut s'arrêter chaque année, à la date anniversaire du bail.*
+*Version simple. Article 7. Vous devez garder le logement et ses équipements en bon état. Si quelque chose est abîmé, vous devez prévenir le propriétaire tout de suite ; sinon, vous devrez payer seul les conséquences. De son côté, le propriétaire doit faire et payer lui-même les réparations qui ne font pas partie de l'entretien normal. Article 8. Vous pouvez mettre fin au bail quand vous voulez, à condition de prévenir le propriétaire à l'avance par lettre recommandée. Cependant, le garage vous est prêté gratuitement, et ce prêt peut s'arrêter chaque année, à la date anniversaire du bail.*
 
-(Article 7 – Maintenance and repairs. The tenant undertakes to keep the accommodation and its equipment in good condition. He is required to report without delay to the landlord any damage that occurs in the accommodation, on pain of having to bear the consequences alone. The said landlord, for his part, undertakes to carry out at his own expense the repairs that don't fall under routine maintenance. Article 8 – Termination. This lease may be terminated by the tenant at any time, subject to notice sent to the landlord by registered letter. Notwithstanding the above, the use of the garage is granted free of charge and may end at each annual due date of the lease. / Plain version. Article 7. You must keep the accommodation and its equipment in good condition. If something is damaged, you must tell the landlord straight away; otherwise, you'll have to pay for the consequences alone. For his part, the landlord must carry out and pay for himself the repairs that aren't part of normal maintenance. Article 8. You can end the lease whenever you like, provided you tell the landlord in advance by registered letter. Also, the garage is lent to you free of charge, and this loan can stop every year, on the anniversary of the lease.)
+(Article 7 – Maintenance and repairs. The tenant undertakes to keep the accommodation and its equipment in good condition. He is required to report without delay to the landlord any damage that occurs in the accommodation, on pain of having to bear the consequences alone. The said landlord, for his part, undertakes to carry out at his own expense the repairs that don't fall under routine maintenance. Article 8 – Termination. This lease may be terminated by the tenant at any time, subject to notice sent to the landlord by registered letter. Notwithstanding the above, the use of the garage is granted free of charge and may end at each annual due date of the lease. / Plain version. Article 7. You must keep the accommodation and its equipment in good condition. If something is damaged, you must tell the landlord straight away; otherwise, you'll have to pay for the consequences alone. For his part, the landlord must carry out and pay for himself the repairs that aren't part of normal maintenance. Article 8. You can end the lease whenever you like, provided you tell the landlord in advance by registered letter. However, the garage is lent to you free of charge, and this loan can stop every year, on the anniversary of the lease.)
 
 ## The model: a letter to a tenant
 
@@ -249,7 +249,7 @@ The letter below is invented, from the landlord to the tenant, after the tenant 
 
 - **Obligations**: *s'engage à*, *est tenu de*, and *peut être résilié* for a right.
 - **Conditions and penalties**: *sous réserve d'un préavis* becomes *à condition de prévenir*; *sous peine de* becomes *sinon*.
-- **The exception**: *nonobstant ce qui précède* becomes *par ailleurs*, and the exception (the garage) is kept, with its limit (*chaque échéance annuelle*, the anniversary).
+- **The exception**: *nonobstant ce qui précède* becomes *cependant*, which keeps the contrast, and the exception (the garage) is kept, with its limit (*chaque échéance annuelle*, the anniversary).
 - **Pointing back**: *ledit bailleur* becomes *le propriétaire*, since a plain text has only one landlord to mention.
 - **Nothing added**: the plain version doesn't say whether the clause is fair or what the tenant should do.
 - **The letter** has the sender, the recipient, the place and date, *objet*, the salutation and the closing formula, and it applies article 7 in a formal register (*conformément à*, *dans les meilleurs délais*).
@@ -347,7 +347,7 @@ exercises:
     prompt: "Choisissez le féminin de « aigu » en orthographe traditionnelle."
     options: ["aiguë", "aigue", "aigus"]
     answers: ["aiguë"]
-    explanation: "The traditional spelling is aiguë; the 1990 spelling rectifications write aigüe, and both are correct. Without the trema, aigue would rhyme with figue. Aigus is the masculine plural."
+    explanation: "The traditional spelling is aiguë; the 1990 spelling rectifications write aigüe, and both are correct. The trema shows that the u is pronounced; without it, the u would be silent, as in aigue-marine. Aigus is the masculine plural."
   - id: "c2-medical-french-ex004"
     type: "multiple-choice"
     prompt: "Indiquez le sens de « une tumeur maligne »."
@@ -498,7 +498,7 @@ Four adjectives describe an illness. Two of them have irregular feminines:
 
 <VocabTable group="roots" />
 
-Many medical words are built from Greek roots, like *la sociologie*. Three endings are worth knowing, because they let you understand words you've never seen:
+Many medical words are built from Greek roots, like *la cardiologie* (the study of the heart). Three endings are worth knowing, because they let you understand words you've never seen:
 
 - **-ite means inflammation**: *une otite* (of the ear), *une gastrite* (of the stomach), *une appendicite*.
 - **-algie means pain**: *une gastralgie* (stomach pain).
@@ -825,7 +825,7 @@ The abstract below is from an invented study. A version for the general public f
 
 ## En français
 
-Léo, a journalist, checks his popular version with Claire Morel, one of the researchers. They use *vous*.
+Léo, a journalist, checks his popular version with Margaux Delorme, one of the researchers. They use *vous*.
 
 - *Bonjour. J'ai lu votre résumé, et j'aimerais écrire un article grand public. Je peux mettre comme titre « La lumière du jour rend plus attentif » ?* (Hello. I've read your abstract, and I'd like to write an article for the general public. Can I use the title "Daylight makes you more attentive"?)
 - *Je préférerais une question. Nous avons trouvé une corrélation, pas un lien de causalité.* (I'd prefer a question. We found a correlation, not a causal link.)
@@ -1018,7 +1018,7 @@ A file is *complet* when nothing is missing, and *incomplet* otherwise.
 
 ## The voice of an administration
 
-An administration writes as an institution, not as a person. It speaks of itself as *nous* (*nous accusons réception*), and signs with the name of a department rather than a person's name. The person who uses a public service is *un usager* or *une usagère*, and the letter addresses them as *vous*. Decisions are often given without a verb, in the nominal style (*après examen*), or in the passive (*votre demande sera traitée*), so that no individual official appears as the one who decides. Read these forms as the institution speaking, not as coldness towards you.
+An administration writes as an institution, not as a person. It speaks of itself as *nous* (*nous accusons réception*), and often signs with the name of a department rather than a person's name. The person who uses a public service is *un usager* or *une usagère*, and the letter addresses them as *vous*. Decisions are often given without a verb, in the nominal style (*après examen*), or in the passive (*votre demande sera traitée*), so that no individual official appears as the one who decides. Read these forms as the institution speaking, not as coldness towards you.
 
 <Example fr="Le service est ouvert à tous les usagers de la ville." en="The service is open to all the town's users." />
 
@@ -1340,43 +1340,43 @@ Every lesson of the unit ended with the same rules of thumb, applied to its own 
 
 The three texts below tell one invented situation. Every fact appears in all three.
 
-- **The letter**: on 10 April, the town hall of Valbrune asked Inès Ferrand for two supporting documents for her application for aid, within a month.
+- **The letter**: on 3 February, the Valbrune housing agency asked Sylvie Andrieu for three supporting documents for her application for renovation aid, within a month.
 - **The illness**: after receiving it, she had acute appendicitis and an appendectomy.
 - **The consequence**: her doctor prescribed rest, so she can't gather the documents in time.
 - **The rule**: the aid's rules allow the deadline to be extended if a medical certificate is presented.
 - **The request**: she asks for an extension, and sends a medical certificate stating that her health requires the rest.
 
-The town hall, the aid, its rules and the medical facts are all invented. The texts give no medical or legal advice.
+The person, the agency, the aid, its rules and the medical facts are all invented. Sylvie Andrieu's situation is her own: it has nothing to do with Inès Ferrand's letter in the lesson on administrative French. The texts give no medical or legal advice.
 
 ## The model: the legal register
 
 The first text is written in the style of a formal legal request.
 
-*Par courrier du 10 avril, la mairie de Valbrune a demandé à Mme Inès Ferrand, dans le cadre de sa demande d'aide, de lui faire parvenir deux pièces justificatives dans un délai d'un mois à compter de la date dudit courrier. Postérieurement à sa réception, l'intéressée a présenté une appendicite aiguë ayant nécessité une appendicectomie. Le repos prescrit par son médecin la met dans l'impossibilité de réunir lesdites pièces dans le délai imparti.*
+*Par courrier du 3 février, l'agence de l'habitat de Valbrune a demandé à Mme Sylvie Andrieu, dans le cadre de sa demande d'aide à la rénovation, de lui faire parvenir trois pièces justificatives dans un délai d'un mois à compter de la date dudit courrier. Postérieurement à sa réception, l'intéressée a présenté une appendicite aiguë ayant nécessité une appendicectomie. Le repos prescrit par son médecin la met dans l'impossibilité de réunir lesdites pièces dans le délai imparti.*
 
 *L'article 4 du règlement de l'aide dispose que ce délai peut être prolongé sur présentation d'un certificat médical. En conséquence, l'intéressée sollicite la prolongation du délai et joint à la présente un certificat médical. Ledit certificat atteste que l'état de santé de l'intéressée justifie le repos prescrit.*
 
-(By letter of 10 April, the town hall of Valbrune asked Mrs Inès Ferrand, as part of her application for aid, to send it two supporting documents within a month from the date of the said letter. After receiving it, the person concerned had acute appendicitis requiring an appendectomy. The rest prescribed by her doctor makes it impossible for her to gather the said documents within the time allowed. Article 4 of the aid's rules provides that this deadline may be extended on presentation of a medical certificate. Consequently, the person concerned requests an extension of the deadline and encloses a medical certificate herewith. The said certificate states that the state of health of the person concerned justifies the prescribed rest.)
+(By letter of 3 February, the Valbrune housing agency asked Mrs Sylvie Andrieu, as part of her application for renovation aid, to send it three supporting documents within a month from the date of the said letter. After receiving it, the person concerned had acute appendicitis requiring an appendectomy. The rest prescribed by her doctor makes it impossible for her to gather the said documents within the time allowed. Article 4 of the aid's rules provides that this deadline may be extended on presentation of a medical certificate. Consequently, the person concerned requests an extension of the deadline and encloses a medical certificate herewith. The said certificate states that the state of health of the person concerned justifies the prescribed rest.)
 
 ## The model: the medical register
 
 The second text is a consultation note, in the nominal style of medical French.
 
-*Compte rendu de consultation (document inventé). Patiente : Mme Inès Ferrand. Motif : demande de certificat médical. Contexte : courrier de la mairie du 10 avril, concernant sa demande d'aide, demandant deux pièces justificatives dans un délai d'un mois.*
+*Compte rendu de consultation (document inventé). Patiente : Mme Sylvie Andrieu. Motif : demande de certificat médical. Contexte : courrier de l'agence de l'habitat du 3 février, concernant sa demande d'aide à la rénovation, demandant trois pièces justificatives dans un délai d'un mois.*
 
 *Antécédents récents : appendicite aiguë, survenue après la réception de ce courrier, traitée par appendicectomie. Repos prescrit ; patiente dans l'impossibilité de se déplacer pour réunir les pièces dans le délai. Le règlement de l'aide prévoyant une prolongation du délai sur certificat médical, certificat remis ce jour à la patiente pour sa demande de prolongation. Le certificat atteste que l'état de santé de la patiente justifie le repos prescrit.*
 
-(Consultation summary (invented document). Patient: Mrs Inès Ferrand. Reason: request for a medical certificate. Context: a letter from the town hall dated 10 April, about her application for aid, asking for two supporting documents within a month. Recent history: acute appendicitis, which occurred after receipt of this letter, treated by appendectomy. Rest prescribed; patient unable to go out to gather the documents within the deadline. As the aid's rules provide for an extension of the deadline on a medical certificate, certificate handed to the patient today for her request for an extension. The certificate states that the patient's state of health justifies the prescribed rest.)
+(Consultation summary (invented document). Patient: Mrs Sylvie Andrieu. Reason: request for a medical certificate. Context: a letter from the housing agency dated 3 February, about her application for renovation aid, asking for three supporting documents within a month. Recent history: acute appendicitis, which occurred after receipt of this letter, treated by appendectomy. Rest prescribed; patient unable to go out to gather the documents within the deadline. As the aid's rules provide for an extension of the deadline on a medical certificate, certificate handed to the patient today for her request for an extension. The certificate states that the patient's state of health justifies the prescribed rest.)
 
 ## The model: the plain register
 
-The third text is a message from Inès to her friend Hugo. They use *tu*.
+The third text is a message from Sylvie to her friend Mathis. They use *tu*.
 
-*Tu te souviens du courrier de la mairie du 10 avril, pour ma demande d'aide ? Ils me demandaient deux documents, et j'avais un mois pour les envoyer. Juste après l'avoir reçu, j'ai eu une appendicite aiguë, et on m'a fait une appendicectomie, c'est-à-dire qu'on m'a retiré l'appendice.*
+*Tu te souviens du courrier de l'agence de l'habitat du 3 février, pour ma demande d'aide à la rénovation ? Ils me demandaient trois documents, et j'avais un mois pour les envoyer. Juste après l'avoir reçu, j'ai eu une appendicite aiguë, et on m'a fait une appendicectomie, c'est-à-dire qu'on m'a retiré l'appendice.*
 
-*Mon médecin m'a dit de me reposer, donc je ne peux pas sortir chercher les documents à temps. Heureusement, le règlement de l'aide dit qu'on peut avoir plus de temps si on présente un certificat médical. Mon médecin m'en a donné un, qui explique que mon état de santé m'oblige à me reposer, et je l'envoie à la mairie pour demander plus de temps.*
+*Mon médecin m'a dit de me reposer, donc je ne peux pas sortir chercher les documents à temps. Heureusement, le règlement de l'aide dit qu'on peut avoir plus de temps si on présente un certificat médical. Mon médecin m'en a donné un, qui explique que mon état de santé m'oblige à me reposer, et je l'envoie à l'agence pour demander plus de temps.*
 
-(Do you remember the town hall's letter of 10 April, for my application for aid? They were asking me for two documents, and I had a month to send them. Just after I got it, I had acute appendicitis, and I had an appendectomy, which means they removed my appendix. My doctor told me to rest, so I can't go out and get the documents in time. Luckily, the aid's rules say you can get more time if you present a medical certificate. My doctor gave me one, which explains that my state of health means I have to rest, and I'm sending it to the town hall to ask for more time.)
+(Do you remember the housing agency's letter of 3 February, for my application for renovation aid? They were asking me for three documents, and I had a month to send them. Just after I got it, I had acute appendicitis, and I had an appendectomy, which means they removed my appendix. My doctor told me to rest, so I can't go out and get the documents in time. Luckily, the aid's rules say you can get more time if you present a medical certificate. My doctor gave me one, which explains that my state of health means I have to rest, and I'm sending it to the agency to ask for more time.)
 
 <VocabTable group="glossary" />
 
@@ -1384,11 +1384,11 @@ The third text is a message from Inès to her friend Hugo. They use *tu*.
 
 | Fact | Legal | Medical | Plain |
 |---|---|---|---|
-| The letter | *par courrier du 10 avril… dans un délai d'un mois à compter de la date dudit courrier* | *Contexte : courrier de la mairie du 10 avril… dans un délai d'un mois* | *le courrier de la mairie du 10 avril… j'avais un mois* |
+| The letter | *par courrier du 3 février… trois pièces justificatives dans un délai d'un mois à compter de la date dudit courrier* | *Contexte : courrier de l'agence de l'habitat du 3 février… trois pièces justificatives dans un délai d'un mois* | *le courrier de l'agence de l'habitat du 3 février… trois documents, et j'avais un mois* |
 | The illness | *postérieurement à sa réception… une appendicite aiguë ayant nécessité une appendicectomie* | *appendicite aiguë, survenue après la réception de ce courrier, traitée par appendicectomie* | *juste après l'avoir reçu, j'ai eu une appendicite aiguë… on m'a retiré l'appendice* |
 | The consequence | *le repos prescrit… la met dans l'impossibilité de réunir lesdites pièces* | *Repos prescrit ; patiente dans l'impossibilité de se déplacer* | *mon médecin m'a dit de me reposer, donc je ne peux pas sortir* |
 | The rule | *l'article 4 du règlement… dispose que ce délai peut être prolongé* | *le règlement de l'aide prévoyant une prolongation* | *le règlement de l'aide dit qu'on peut avoir plus de temps* |
-| The request | *sollicite la prolongation du délai et joint… un certificat médical. Ledit certificat atteste que…* | *certificat remis ce jour… Le certificat atteste que…* | *mon médecin m'en a donné un, qui explique que… je l'envoie à la mairie* |
+| The request | *sollicite la prolongation du délai et joint… un certificat médical. Ledit certificat atteste que…* | *certificat remis ce jour… Le certificat atteste que…* | *mon médecin m'en a donné un, qui explique que… je l'envoie à l'agence* |
 
 Each register keeps the condition of the rule: *sur présentation d'un certificat médical*, *sur certificat médical*, *si on présente un certificat médical*. The plain version also explains the one term it keeps, *une appendicectomie*, with *c'est-à-dire*. Only the legal register names the article of the rules; the other two refer to the rules without a number, which leaves out a detail but adds nothing.
 

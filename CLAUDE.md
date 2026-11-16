@@ -280,5 +280,6 @@ C2 inherits every C1 convention unless it's changed here. Plans are in docs/plan
   - Claims about English (what an English word does or doesn't mean) are checked too.
   - A rewritten version (neutral, revised, translated, contracted) adds no fact that isn't in the original, unless the lesson says so.
   - Grammar labels in dialogues and explanations (relative, completive, COD…) are checked like any other claim.
+  - A person or situation reused across lessons of a level keeps consistent facts (dates, documents, outcomes); check every reused name with c2-find (and a search of the C2 lessons) before writing.
 
 @AGENTS.md

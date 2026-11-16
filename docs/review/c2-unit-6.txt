@@ -1,0 +1,1290 @@
+===== content/lessons/c2/mediation.mdx =====
+---
+id: "c2-mediation"
+title: "Explaining a Text to Someone Else"
+description: "Relay a document to someone who hasn't read it: put first what concerns them, simplify without distorting, keep every fact and condition, show what the text says and what you add (en substance, le texte dit que, à mon avis), and say when the text doesn't answer (le texte ne précise pas)."
+level: "C2"
+unit: "Mediation and negotiation"
+order: 31
+type: "communication"
+tags: ["communication", "mediation", "register", "summary", "relaying information"]
+prerequisites: ["c1-synthesis", "c1-register-shifting", "c1-exam-oral-presentation", "c2-implicit-meaning"]
+related: ["c2-administrative-french", "c2-contraction-de-texte", "c2-review-mediation"]
+vocab:
+  - { id: "c2-mediation-v001", group: "role", fr: "servir d'intermédiaire", pron: "sehr-VEER dan-tehr-may-DYEHR", en: "to act as a go-between" }
+  - { id: "c2-mediation-v002", group: "role", fr: "relayer une information", pron: "ruh-leh-YAY ew-nan-for-mah-SYOHN", en: "to pass on a piece of information" }
+  - { id: "c2-mediation-v003", group: "role", fr: "fidèle à", pron: "fee-DEL ah", en: "faithful to (a text, what was said)" }
+  - { id: "c2-mediation-v004", group: "role", fr: "l'essentiel (m.)", pron: "leh-sahn-SYEL", en: "the main points, what matters most" }
+  - { id: "c2-mediation-v005", group: "role", fr: "directement", pron: "dee-rek-tuh-MAHN", en: "directly" }
+  - { id: "c2-mediation-v006", group: "role", fr: "concerner", pron: "kohn-sehr-NAY", en: "to concern, to affect" }
+  - { id: "c2-mediation-v007", group: "signals", fr: "en substance", pron: "ahn sewp-STAHNSS", en: "in substance, essentially" }
+  - { id: "c2-mediation-v008", group: "signals", fr: "si je résume", pron: "see zhuh ray-ZEWM", en: "to sum up, if I sum up" }
+  - { id: "c2-mediation-v009", group: "signals", fr: "le texte dit que", pron: "luh tekst DEE kuh", en: "the text says that" }
+  - { id: "c2-mediation-v010", group: "signals", fr: "selon l'avis", pron: "suh-LOHN lah-VEE", en: "according to the notice" }
+  - { id: "c2-mediation-v011", group: "signals", fr: "pour ma part", pron: "poor mah PAR", en: "for my part, as for me" }
+  - { id: "c2-mediation-v012", group: "unknown", fr: "le texte ne précise pas", pron: "luh tekst nuh pray-SEEZ PAH", en: "the text doesn't say (exactly)" }
+  - { id: "c2-mediation-v013", group: "unknown", fr: "se renseigner", pron: "suh rahn-seh-NYAY", en: "to find out, to make enquiries" }
+  - { id: "c2-mediation-v014", group: "unknown", fr: "au hasard", pron: "oh ah-ZAR", en: "at random, by guessing" }
+  - { id: "c2-mediation-v015", group: "notice", fr: "un avis aux habitants", pron: "uh-nah-VEE oh-zah-bee-TAHN", en: "a notice to residents" }
+  - { id: "c2-mediation-v016", group: "notice", fr: "une canalisation", pron: "ewn kah-nah-lee-zah-SYOHN", en: "a pipe (for water)" }
+  - { id: "c2-mediation-v017", group: "notice", fr: "couper l'eau", pron: "koo-PAY LOH", en: "to cut off the water" }
+  - { id: "c2-mediation-v018", group: "notice", fr: "le stationnement", pron: "luh stah-syonn-MAHN", en: "parking" }
+  - { id: "c2-mediation-v019", group: "notice", fr: "sous réserve de disponibilité", pron: "soo ray-ZEHRV duh dees-poh-nee-bee-lee-TAY", en: "subject to availability" }
+  - { id: "c2-mediation-v020", group: "notice", fr: "une personne à mobilité réduite", pron: "ewn pehr-SONN ah moh-bee-lee-TAY ray-DWEET", en: "a person with reduced mobility" }
+  - { id: "c2-mediation-v021", group: "notice", fr: "se déplacer difficilement", pron: "suh day-plah-SAY dee-fee-seel-MAHN", en: "to have difficulty getting about" }
+  - { id: "c2-mediation-v022", group: "glossary", fr: "le remplacement", pron: "luh rahn-plass-MAHN", en: "replacement" }
+  - { id: "c2-mediation-v023", group: "glossary", fr: "garés (garer)", pron: "gah-RAY", en: "parked (to park)" }
+  - { id: "c2-mediation-v024", group: "glossary", fr: "un véhicule", pron: "uhn vay-ee-KEWL", en: "a vehicle" }
+  - { id: "c2-mediation-v025", group: "glossary", fr: "devront (devoir)", pron: "duh-VROHN", en: "will have to" }
+  - { id: "c2-mediation-v026", group: "glossary", fr: "le coin (de la rue)", pron: "luh KWAN", en: "the corner (of the street)" }
+  - { id: "c2-mediation-v027", group: "glossary", fr: "une poubelle", pron: "ewn poo-BEL", en: "a bin" }
+  - { id: "c2-mediation-v028", group: "glossary", fr: "déposées (déposer)", pron: "day-poh-ZAY", en: "put out, left (to put down)" }
+  - { id: "c2-mediation-v029", group: "glossary", fr: "l'accueil (m.)", pron: "lah-KUH-y", en: "the reception desk" }
+  - { id: "c2-mediation-v030", group: "glossary", fr: "une boîte aux lettres", pron: "ewn bwaht oh LET-ruh", en: "a letterbox" }
+exercises:
+  - id: "c2-mediation-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez le relais fidèle de la phrase : « Les personnes à mobilité réduite peuvent bénéficier, sous réserve de disponibilité, d'une livraison de bouteilles d'eau. »"
+    options: ["Si vous vous déplacez difficilement, on peut vous livrer de l'eau, s'il en reste.", "Si vous vous déplacez difficilement, on vous livrera de l'eau.", "Tout le monde peut se faire livrer de l'eau."]
+    answers: ["Si vous vous déplacez difficilement, on peut vous livrer de l'eau, s'il en reste."]
+    explanation: "Only the first keeps both the group concerned and the condition (sous réserve de disponibilité: if there are any left)."
+  - id: "c2-mediation-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez le relais fidèle de la phrase : « L'eau sera coupée de 8 h à 12 h, du lundi au vendredi. »"
+    options: ["Il n'y aura pas d'eau le matin, du lundi au vendredi.", "Il n'y aura pas d'eau du lundi au vendredi.", "Il n'y aura pas d'eau le matin, tous les jours."]
+    answers: ["Il n'y aura pas d'eau le matin, du lundi au vendredi."]
+    explanation: "The second drops the hours, and the third adds the weekend."
+  - id: "c2-mediation-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez ce que Bertrand ajoute à l'avis : « Le texte dit que la livraison est possible s'il en reste ; à mon avis, il vaut mieux vous inscrire tôt. »"
+    options: ["à mon avis, il vaut mieux vous inscrire tôt", "la livraison est possible", "s'il en reste"]
+    answers: ["à mon avis, il vaut mieux vous inscrire tôt"]
+    explanation: "Le texte dit que introduces the notice; à mon avis introduces his own advice, clearly separated."
+  - id: "c2-mediation-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez la meilleure réponse quand l'avis ne dit rien : votre voisine demande si la livraison est gratuite."
+    options: ["Le texte ne précise pas ; je vais me renseigner.", "Oui, c'est sûrement gratuit.", "Non, ce n'est pas gratuit."]
+    answers: ["Le texte ne précise pas ; je vais me renseigner."]
+    explanation: "The notice says nothing about the price, so any yes or no would be a guess."
+  - id: "c2-mediation-ex005"
+    type: "fill-in"
+    prompt: "Conjuguez « préciser » au présent : Je ne connais pas la réponse, car le texte ne le ___ pas."
+    answers: ["précise"]
+    explanation: "Le texte ne précise pas: the text doesn't say exactly."
+  - id: "c2-mediation-ex006"
+    type: "fill-in"
+    prompt: "Complétez : En ___, l'avis dit que l'eau sera coupée le matin."
+    answers: ["substance"]
+    explanation: "En substance: in substance, essentially."
+  - id: "c2-mediation-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe à l'infinitif : Mon rôle est de ___ l'information à ma voisine."
+    answers: ["relayer"]
+    explanation: "Relayer une information: to pass it on."
+  - id: "c2-mediation-ex008"
+    type: "register-shift"
+    prompt: "Transformez en français courant, en gardant la condition avec « s'il en reste » : La livraison est possible sous réserve de disponibilité."
+    answers: ["La livraison est possible s'il en reste"]
+    explanation: "Sous réserve de disponibilité becomes s'il en reste: the condition stays."
+  - id: "c2-mediation-ex009"
+    type: "register-shift"
+    prompt: "Transformez en français courant, avec « on ne pourra pas se garer » : Le stationnement sera interdit dans la rue."
+    answers: ["On ne pourra pas se garer dans la rue"]
+    explanation: "Here on means people in general. Le stationnement sera interdit becomes on ne pourra pas se garer."
+  - id: "c2-mediation-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « le texte dit que », pour montrer que l'information vient de l'avis : Les poubelles devront être déposées au coin de la rue."
+    answers: ["Le texte dit que les poubelles devront être déposées au coin de la rue"]
+    explanation: "Le texte dit que shows that the information comes from the notice, not from you."
+  - id: "c2-mediation-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « en substance », placé en tête : L'avis dit, pour l'essentiel, que l'eau sera coupée le matin."
+    answers: ["En substance, l'avis dit que l'eau sera coupée le matin"]
+    explanation: "En substance replaces pour l'essentiel, at the start of the sentence."
+  - id: "c2-mediation-ex012"
+    type: "error-correction"
+    prompt: "Corrigez le relais, qui oublie une condition, en ajoutant « à condition de vous inscrire avant le 2 mai » : Avis : « Une livraison est possible ; il faut s'inscrire avant le 2 mai. » Relais : Vous pouvez vous faire livrer de l'eau."
+    strictAccents: true
+    answers: ["Vous pouvez vous faire livrer de l'eau à condition de vous inscrire avant le 2 mai"]
+    explanation: "A relay keeps every condition of the original: here, signing up before 2 May."
+  - id: "c2-mediation-ex013"
+    type: "error-correction"
+    prompt: "Corrigez le relais, qui ajoute un jugement, en commençant par « La mairie a prévu » : La mairie a eu la bonne idée de prévoir une livraison d'eau."
+    strictAccents: true
+    answers: ["La mairie a prévu une livraison d'eau"]
+    explanation: "A eu la bonne idée is the mediator's judgment, not the notice's content."
+  - id: "c2-mediation-ex014"
+    type: "translate"
+    prompt: "Traduisez (servir d'intermédiaire, au passé composé, la voisine) : I acted as a go-between for my neighbour and the town hall."
+    answers: ["J'ai servi d'intermédiaire entre ma voisine et la mairie"]
+    explanation: "Servir d'intermédiaire entre A et B: to act as a go-between for A and B."
+  - id: "c2-mediation-ex015"
+    type: "translate"
+    prompt: "Traduisez (le texte ne précise pas) : The text doesn't say whether delivery is free."
+    answers: ["Le texte ne précise pas si la livraison est gratuite"]
+    explanation: "Ne pas préciser si: not to say exactly whether."
+  - id: "c2-mediation-ex016"
+    type: "translate"
+    prompt: "Traduisez (en substance, l'avis) : In substance, the notice says that the water will be cut off."
+    answers: ["En substance, l'avis dit que l'eau sera coupée"]
+    explanation: "En substance: the main point, without every detail."
+  - id: "c2-mediation-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : I'll find out at the town hall."
+    words: ["Je", "vais", "me", "renseigner", "à", "la", "mairie"]
+    answers: ["Je vais me renseigner à la mairie"]
+    explanation: "Se renseigner: to find out. In the futur proche, the reflexive pronoun comes before the infinitive."
+  - id: "c2-mediation-ex018"
+    type: "writing-task"
+    prompt: "Rédigez un message de 50 à 90 mots pour expliquer à un voisin âgé cette partie de l'avis, en français courant, sans oublier aucune condition : « Les personnes à mobilité réduite peuvent bénéficier, sous réserve de disponibilité, d'une livraison de bouteilles d'eau à domicile. Il leur appartient de s'inscrire auprès de l'accueil de la mairie avant le jeudi 2 mai. »"
+    model: "Bonjour Monsieur, je vous résume une partie de l'avis de la mairie. Le texte dit que les personnes qui se déplacent difficilement peuvent se faire livrer des bouteilles d'eau chez elles, mais seulement s'il en reste. Pour cela, il faut s'inscrire à l'accueil de la mairie avant le jeudi 2 mai. Pour ma part, je peux vous accompagner à la mairie si vous le souhaitez."
+    checklist: ["Did you say who the delivery is for?", "Did you keep the condition (only if there are any left)?", "Did you keep the sign-up, the place and the date?", "Did you separate your own offer or opinion from what the notice says?", "Did you use everyday French, with vous?"]
+    wordTarget: [50, 90]
+---
+
+By the end of this lesson you'll be able to relay a document to someone who hasn't read it: put first what concerns them, keep every fact and condition in plain words, show what the text says and what you add, and say honestly when the text doesn't answer their question.
+
+## What you already know
+
+You know how to compare documents and attribute each view to its source from <LessonLink id="c1-synthesis" text="the lesson on synthesis" />, and how to *descendre d'un registre* (move down a register) from <LessonLink id="c1-register-shifting" text="the lesson on register shifting" />. You know *si je comprends bien* and ways to gain time from <LessonLink id="c1-exam-oral-presentation" text="the lesson on the oral presentation" />. You know *la connotation* and *péjoratif* from <LessonLink id="c2-implicit-meaning" text="the lesson on implicit meaning" />, where a neutral version removes every judging word.
+
+**The notice, the town hall's procedure and the people in this lesson are invented.** Mediation is taught here as a communication skill: relaying, explaining, reconciling views. It isn't a legal process, and the lesson gives no legal advice.
+
+## What mediation is
+
+To mediate a text is to *servir d'intermédiaire* (act as a go-between) between a document and a person who hasn't read it. You *relayez une information* (pass on a piece of information): a notice to a neighbour, an email to a colleague, a letter to a relative who reads French less easily than you.
+
+A good relay does three things at once. It is *fidèle au texte* (faithful to the text): every fact and every condition is still there. It is adapted to the listener: their needs come first, in their register. And it is honest about its limits: what you add is marked as yours, and what the text doesn't say isn't invented.
+
+<VocabTable group="role" />
+
+<Example fr="Quand ma voisine reçoit un courrier officiel, je sers d'intermédiaire." en="When my neighbour receives an official letter, I act as a go-between." />
+
+<Example fr="Un bon relais reste fidèle au texte, même quand il le simplifie." en="A good relay stays faithful to the text, even when it simplifies it." />
+
+## Selecting for the listener
+
+Start with *l'essentiel* (what matters most) for this listener. Ask yourself which facts *concernent* (concern) them directly, and put those first. A notice about building works speaks to everyone in the street; a neighbour without a car cares first about the water, not the parking.
+
+Selecting means choosing the order, not dropping facts. The facts that matter less can be grouped in one sentence at the end, but they stay: *le reste vous concerne moins, mais je vous le donne aussi*. If you leave something out because you've judged it useless, the listener can't judge for themselves.
+
+<Example fr="Je vous donne d'abord l'essentiel : ce qui vous concerne directement." en="I'll give you the main points first: what concerns you directly." />
+
+## Simplifying without distorting
+
+Simplifying changes the words, never the content. Three things are easy to lose:
+
+- **Conditions**: *sous réserve de disponibilité* (subject to availability) becomes *s'il en reste*, not nothing.
+- **Limits in time and place**: *de 8 h à 12 h, du lundi au vendredi* stays exact. "Every morning" would add the weekend.
+- **Who is concerned**: *les personnes à mobilité réduite* (people with reduced mobility) becomes *les personnes qui se déplacent difficilement*, not "everyone".
+
+As you move down a register, check every sentence of your version against the original, as you did with the plain versions in Unit 3.
+
+## What the text says and what you add
+
+The listener must always know who is speaking: the text, or you.
+
+<VocabTable group="signals" />
+
+- **For the text**: *le texte dit que*, *selon l'avis* (according to the notice), *en substance* (in substance) for the main point, *si je résume* (to sum up) for a short recap.
+- **For yourself**: *à mon avis*, *pour ma part* (for my part), *moi, je vous propose…*
+
+As a rule of thumb, relay the whole text first, then add your own opinion or offer, clearly labelled. A judging word slipped into the relay (*la mairie a eu la bonne idée de…*) mixes the two, just like the connotations you learned to spot in Unit 4.
+
+<Example fr="Selon l'avis, l'eau sera coupée le matin ; pour ma part, je peux vous apporter de l'eau." en="According to the notice, the water will be cut off in the morning; for my part, I can bring you some water." />
+
+<Example fr="Si je résume, il faut s'inscrire avant le jeudi 2 mai." en="To sum up, you have to sign up before Thursday 2 May." />
+
+## When the text doesn't answer
+
+<VocabTable group="unknown" />
+
+The listener will ask questions the document doesn't answer. Don't answer *au hasard* (by guessing): a confident guess is the most dangerous kind of distortion. Say *le texte ne précise pas* (the text doesn't say), then offer to *vous renseigner* (find out).
+
+<Example fr="Le texte ne précise pas si la livraison est gratuite ; je vais me renseigner." en="The text doesn't say whether the delivery is free; I'll find out." />
+
+## The vocabulary of a notice
+
+<VocabTable group="notice" />
+
+A notice from a town hall, *un avis aux habitants* (a notice to residents), uses a few fixed phrases. During works on *les canalisations* (the pipes), the town may *couper l'eau* (cut off the water) and forbid *le stationnement* (parking). A service may be offered *sous réserve de disponibilité*, to people who *s'inscrivent auprès de* (sign up with) an office.
+
+<Example fr="Pour bénéficier de la livraison, il faut s'inscrire auprès de l'accueil de la mairie." en="To receive the delivery, you have to sign up at the town hall's reception desk." />
+
+## The model: a notice and its relay
+
+The notice below is invented. Bertrand Fabre, a young neighbour, relays it in a message to Mme Rochette, who was away when it arrived. They use *vous*.
+
+*Mairie de Valbrune (avis inventé pour la leçon). Avis aux habitants de la rue des Tilleuls : travaux de remplacement des canalisations d'eau. Des travaux auront lieu du lundi 6 au vendredi 17 mai. Pendant cette période, l'eau sera coupée de 8 h à 12 h, du lundi au vendredi.*
+
+*Le stationnement sera interdit des deux côtés de la rue ; les véhicules devront être garés sur le parking de la place du Marché. Les poubelles devront être déposées au coin de la rue des Tilleuls et de l'avenue de la Gare.*
+
+*Les personnes à mobilité réduite peuvent bénéficier, sous réserve de disponibilité, d'une livraison de bouteilles d'eau à domicile. Il leur appartient de s'inscrire auprès de l'accueil de la mairie avant le jeudi 2 mai. La mairie vous remercie de votre compréhension.*
+
+*Message de Bertrand. Bonjour Madame Rochette, la mairie a mis un avis dans les boîtes aux lettres pendant que vous étiez chez votre fille. Je vous en donne l'essentiel. D'abord, ce qui vous concerne directement : en substance, l'eau sera coupée le matin, de 8 h à 12 h, du lundi au vendredi, pendant deux semaines, du lundi 6 au vendredi 17 mai.*
+
+*Le texte dit aussi que les personnes qui se déplacent difficilement peuvent se faire livrer des bouteilles d'eau à domicile, mais seulement s'il en reste, et à condition de s'inscrire à l'accueil de la mairie avant le jeudi 2 mai.*
+
+*Le reste vous concerne moins, mais je vous le donne aussi : pendant les travaux, on ne pourra pas se garer dans la rue, des deux côtés ; les voitures devront aller sur le parking de la place du Marché. Et les poubelles devront être déposées au coin de la rue des Tilleuls et de l'avenue de la Gare.*
+
+*Pour ma part, si vous le souhaitez, je peux aller avec vous à la mairie pour l'inscription. Bertrand, votre voisin du deuxième étage.*
+
+(Valbrune town hall (a notice invented for the lesson). Notice to the residents of rue des Tilleuls: works to replace the water pipes. Works will take place from Monday 6 to Friday 17 May. During this period, the water will be cut off from 8 am to 12 noon, Monday to Friday. Parking will be forbidden on both sides of the street; vehicles must be parked in the car park on place du Marché. Bins must be put out at the corner of rue des Tilleuls and avenue de la Gare. People with reduced mobility may receive, subject to availability, a delivery of bottled water at home. It is up to them to sign up at the town hall's reception desk before Thursday 2 May. The town hall thanks you for your understanding. / Bertrand's message. Hello Mrs Rochette, the town hall put a notice in the letterboxes while you were at your daughter's. I'll give you the main points. First, what concerns you directly: in substance, the water will be cut off in the morning, from 8 am to 12 noon, Monday to Friday, for two weeks, from Monday 6 to Friday 17 May. The text also says that people who have difficulty getting about can have bottled water delivered at home, but only if there are any left, and provided they sign up at the town hall's reception desk before Thursday 2 May. The rest concerns you less, but I'll give it to you too: during the works, you won't be able to park in the street, on either side; cars will have to go to the car park on place du Marché. And bins must be put out at the corner of rue des Tilleuls and avenue de la Gare. For my part, if you like, I can go with you to the town hall to sign up. Bertrand, your neighbour on the second floor.)
+
+<VocabTable group="glossary" />
+
+## How the relay works
+
+- **The order**: the water first, then the delivery that concerns Mme Rochette, then the parking and the bins, grouped under *le reste vous concerne moins*. Nothing is dropped except the closing thanks, which carries no information.
+- **Every fact and condition**: the dates, the hours, *du lundi au vendredi*, both sides of the street, the car park, the corner for the bins; *s'il en reste* for *sous réserve de disponibilité*, and the sign-up with its place and date.
+- **The register**: *personnes à mobilité réduite* becomes *personnes qui se déplacent difficilement*; *le stationnement sera interdit* becomes *on ne pourra pas se garer*. The message keeps *vous*, as between neighbours.
+- **Attribution**: *en substance* and *le texte dit aussi que* for the notice; *pour ma part* for Bertrand's offer, which comes last and is the only thing he adds.
+- **No judgment**: the message doesn't say whether the works, the dates or the delivery are a good idea.
+
+## En français
+
+Mme Rochette has read the message, and asks Bertrand a few questions on the landing. They use *vous*.
+
+- *Merci pour votre message, Bertrand. Donc l'eau sera coupée tous les matins ?* (Thank you for your message, Bertrand. So the water will be cut off every morning?)
+- *Du lundi au vendredi seulement, de 8 h à 12 h, du lundi 6 au vendredi 17 mai.* (Monday to Friday only, from 8 am to 12 noon, from Monday 6 to Friday 17 May.)
+- *Et ces bouteilles d'eau, la livraison est gratuite ?* (And these water bottles, is the delivery free?)
+- *Le texte ne précise pas. Je préfère ne pas vous répondre au hasard : je poserai la question à l'accueil.* (The text doesn't say. I'd rather not guess: I'll ask at the reception desk.)
+- *Et si je m'inscris, je suis sûre d'avoir des bouteilles ?* (And if I sign up, am I sure to get bottles?)
+- *Non : l'avis dit « sous réserve de disponibilité », c'est-à-dire seulement s'il en reste. À mon avis, il vaut mieux vous inscrire tôt ; la date limite est le jeudi 2 mai.* (No: the notice says "subject to availability", that is, only if there are any left. In my opinion, you'd better sign up early; the deadline is Thursday 2 May.)
+- *Et le stationnement, ça me concerne ?* (And the parking, does that concern me?)
+- *Pas directement, puisque vous n'avez pas de voiture. Mais vos visiteurs devront se garer sur le parking de la place du Marché.* (Not directly, since you don't have a car. But your visitors will have to park in the car park on place du Marché.)
+- *Et mes poubelles, où est-ce que je les mets ?* (And my bins, where do I put them?)
+- *Au coin de la rue des Tilleuls et de l'avenue de la Gare, pendant les travaux.* (At the corner of rue des Tilleuls and avenue de la Gare, during the works.)
+- *Vous pourriez venir avec moi à la mairie pour l'inscription ?* (Could you come with me to the town hall to sign up?)
+- *Avec plaisir, comme je vous l'ai proposé dans mon message. Nous pourrions y aller lundi matin.* (With pleasure, as I offered in my message. We could go on Monday morning.)
+
+<Callout type="warning" title="Don't turn a condition into a promise">
+  When they simplify a notice, learners often drop the condition and keep the offer: *on vous livrera de l'eau*. The notice only says it's possible, if there are bottles left and if you sign up. Keep both: **on peut vous livrer de l'eau s'il en reste, à condition de vous inscrire avant le 2 mai**.
+</Callout>
+
+<Callout type="tip" title="Read your relay as the author of the text">
+  When your relay is written, reread it as if you were the person who wrote the original. Would they agree that it says what they said, no more and no less? Then reread it as the listener: is what concerns them at the top, in words they use?
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-negotiation" text="the lesson on negotiating in writing" /> moves from relaying a text to reaching an agreement by email.
+
+===== content/lessons/c2/negotiation.mdx =====
+---
+id: "c2-negotiation"
+title: "Negotiating in Writing"
+description: "Lead a negotiation by email to an agreement: an opening position, conditional offers, trading concessions, saying no without closing the door, a fallback option, and a written summary of the agreement that matches every offer; with the registers of faire une concession, un compromis, couper la poire en deux and lâcher du lest."
+level: "C2"
+unit: "Mediation and negotiation"
+order: 32
+type: "communication"
+tags: ["communication", "negotiation", "email", "register", "agreement"]
+prerequisites: ["b2-negotiating", "c1-diplomatic-language", "c1-concession-and-hypothesis", "c2-mediation"]
+related: ["c1-leading-a-meeting", "c1-advanced-idioms", "c2-review-mediation"]
+vocab:
+  - { id: "c2-negotiation-v001", group: "moves", fr: "une position de départ", pron: "ewn poh-zee-SYOHN duh day-PAR", en: "an opening position" }
+  - { id: "c2-negotiation-v002", group: "moves", fr: "une offre conditionnelle", pron: "ew-NOFF-ruh kohn-dee-syoh-NEL", en: "a conditional offer" }
+  - { id: "c2-negotiation-v003", group: "moves", fr: "faire une concession", pron: "fehr ewn kohn-seh-SYOHN", en: "to make a concession" }
+  - { id: "c2-negotiation-v004", group: "moves", fr: "un point de blocage", pron: "uhn pwan duh bloh-KAHZH", en: "a sticking point" }
+  - { id: "c2-negotiation-v005", group: "moves", fr: "renoncer à", pron: "ruh-nohn-SAY ah", en: "to give up" }
+  - { id: "c2-negotiation-v006", group: "moves", fr: "laisser la porte ouverte", pron: "leh-SAY lah port oo-VEHRT", en: "to leave the door open" }
+  - { id: "c2-negotiation-v007", group: "moves", fr: "une solution de repli", pron: "ewn soh-lew-SYOHN duh ruh-PLEE", en: "a fallback option" }
+  - { id: "c2-negotiation-v008", group: "registers", fr: "consentir un effort", pron: "kohn-sahn-TEER uh-neh-FOR", en: "to make an effort (on a price, formal)" }
+  - { id: "c2-negotiation-v009", group: "registers", fr: "lâcher du lest", pron: "lah-SHAY dew LEST", en: "to give some ground (familiar)" }
+  - { id: "c2-negotiation-v010", group: "registers", fr: "un plan B", pron: "uhn plahn BAY", en: "a plan B (familiar)" }
+  - { id: "c2-negotiation-v011", group: "closing", fr: "récapituler", pron: "ray-kah-pee-tew-LAY", en: "to sum up (the terms)" }
+  - { id: "c2-negotiation-v012", group: "closing", fr: "par retour de courriel", pron: "par ruh-TOOR duh koo-RYEL", en: "by return email" }
+  - { id: "c2-negotiation-v013", group: "closing", fr: "je reste à votre disposition", pron: "zhuh rest ah VOH-truh dees-poh-zee-SYOHN", en: "I remain at your disposal" }
+  - { id: "c2-negotiation-v014", group: "closing", fr: "un montant", pron: "uhn mohn-TAHN", en: "an amount (of money)" }
+  - { id: "c2-negotiation-v015", group: "order", fr: "un exemplaire", pron: "uh-neg-zahn-PLEHR", en: "a copy (of a book)" }
+  - { id: "c2-negotiation-v016", group: "order", fr: "en deux fois", pron: "ahn duh FWAH", en: "in two instalments, in two goes" }
+  - { id: "c2-negotiation-v017", group: "order", fr: "les fichiers définitifs (m.)", pron: "lay fee-SHYAY day-fee-nee-TEEF", en: "the final files" }
+  - { id: "c2-negotiation-v018", group: "order", fr: "décaler (une date)", pron: "day-kah-LAY", en: "to move, to postpone (a date)" }
+  - { id: "c2-negotiation-v019", group: "glossary", fr: "faire imprimer", pron: "fehr an-pree-MAY", en: "to have (something) printed" }
+  - { id: "c2-negotiation-v020", group: "glossary", fr: "un sentier de randonnée", pron: "uhn sahn-TYAY duh rahn-doh-NAY", en: "a hiking trail" }
+  - { id: "c2-negotiation-v021", group: "glossary", fr: "la fabrication", pron: "lah fah-bree-kah-SYOHN", en: "production (of a book)" }
+  - { id: "c2-negotiation-v022", group: "glossary", fr: "une imprimerie", pron: "ew-nan-pree-MREE", en: "a printing firm" }
+  - { id: "c2-negotiation-v023", group: "glossary", fr: "valables (valable)", pron: "vah-LAH-bluh", en: "valid" }
+exercises:
+  - id: "c2-negotiation-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez la meilleure réponse à l'imprimeur, qui ne peut pas livrer 2 000 exemplaires le 15 mars pour 5 600 euros, si la date du 15 mars est un point de blocage pour vous."
+    options: ["Proposer une solution de repli : une livraison en deux fois.", "Ne pas répondre et chercher une autre imprimerie.", "Renoncer à la date du 15 mars."]
+    answers: ["Proposer une solution de repli : une livraison en deux fois."]
+    explanation: "If the date can't move, trade something else: a delivery in two goes keeps the date for part of the order."
+  - id: "c2-negotiation-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre de « lâcher du lest » dans un courriel à un client."
+    options: ["familier", "soutenu", "juridique"]
+    answers: ["familier"]
+    explanation: "Lâcher du lest is familiar. In a professional email, write faire une concession or, more formally, consentir un effort."
+  - id: "c2-negotiation-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « une solution de repli »."
+    options: ["a fallback option", "a final refusal", "a first offer"]
+    answers: ["a fallback option"]
+    explanation: "Une solution de repli: what you propose if the first solution isn't possible."
+  - id: "c2-negotiation-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez la phrase qui dit non en laissant la porte ouverte."
+    options: ["En l'état, nous ne pouvons pas accepter, mais nous pourrions étudier une autre date.", "C'est non, et notre décision est définitive.", "Votre offre ne nous intéresse pas."]
+    answers: ["En l'état, nous ne pouvons pas accepter, mais nous pourrions étudier une autre date."]
+    explanation: "En l'état limits the refusal to the present offer, and the conditional opens another option."
+  - id: "c2-negotiation-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Chaque partie a fait une ___ : Hortense sur le prix, l'imprimeur sur la date."
+    answers: ["concession"]
+    explanation: "Faire une concession: to give up part of what you asked for."
+  - id: "c2-negotiation-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe à l'infinitif : Avant de conclure, l'imprimeur va ___ les conditions de l'accord."
+    answers: ["récapituler"]
+    explanation: "Récapituler: to sum up the terms, point by point."
+  - id: "c2-negotiation-ex007"
+    type: "register-shift"
+    prompt: "Transformez en registre courant, avec « trouver un compromis » : On pourrait couper la poire en deux."
+    answers: ["On pourrait trouver un compromis", "Nous pourrions trouver un compromis"]
+    explanation: "Couper la poire en deux is familiar; trouver un compromis is the everyday phrase."
+  - id: "c2-negotiation-ex008"
+    type: "register-shift"
+    prompt: "Transformez en registre soutenu, avec « nous ne sommes pas en mesure de » : On ne peut pas baisser le prix."
+    answers: ["Nous ne sommes pas en mesure de baisser le prix"]
+    explanation: "Ne pas être en mesure de: the formal way of saying ne pas pouvoir."
+  - id: "c2-negotiation-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « à condition que » : Nous accepterons 5 600 euros si la livraison a lieu le 22 mars."
+    strictAccents: true
+    answers: ["Nous accepterons 5 600 euros à condition que la livraison ait lieu le 22 mars", "À condition que la livraison ait lieu le 22 mars, nous accepterons 5 600 euros"]
+    explanation: "À condition que takes the subjunctive: ait lieu."
+  - id: "c2-negotiation-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec « pour peu que » : Nous accepterions ce prix si la livraison se faisait en deux fois."
+    answers: ["Nous accepterions ce prix pour peu que la livraison se fasse en deux fois", "Pour peu que la livraison se fasse en deux fois, nous accepterions ce prix"]
+    explanation: "Pour peu que (provided that) takes the subjunctive: se fasse."
+  - id: "c2-negotiation-ex011"
+    type: "error-correction"
+    prompt: "Corrigez le résumé de l'accord, qui oublie la condition de l'accord, en ajoutant « sous réserve de recevoir vos fichiers avant le 1er mars » : Nous livrerons votre commande en deux fois."
+    answers: ["Nous livrerons votre commande en deux fois, sous réserve de recevoir vos fichiers avant le 1er mars"]
+    explanation: "A written summary keeps every condition agreed: here, the files before 1 March."
+  - id: "c2-negotiation-ex012"
+    type: "error-correction"
+    prompt: "Corrigez l'expression familière, pour un courriel à un client, avec « faire une concession » : Nous pourrions lâcher du lest sur le prix."
+    answers: ["Nous pourrions faire une concession sur le prix"]
+    explanation: "Lâcher du lest isn't wrong, but it's familiar; faire une concession suits a professional email."
+  - id: "c2-negotiation-ex013"
+    type: "translate"
+    prompt: "Traduisez (une solution de repli, deux livraisons) : Here is our fallback option: two deliveries."
+    answers: ["Voici notre solution de repli : deux livraisons"]
+    explanation: "Une solution de repli: a fallback option."
+  - id: "c2-negotiation-ex014"
+    type: "translate"
+    prompt: "Traduisez (trouver un terrain d'entente, nous) : We hope to find common ground."
+    answers: ["Nous espérons trouver un terrain d'entente"]
+    explanation: "Trouver un terrain d'entente: to find common ground."
+  - id: "c2-negotiation-ex015"
+    type: "translate"
+    prompt: "Traduisez (acter, au futur proche, nous) : We are going to formally record the agreement."
+    answers: ["Nous allons acter l'accord"]
+    explanation: "Acter: to record formally, as in minutes or a written agreement."
+  - id: "c2-negotiation-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : We could make a concession on the price."
+    words: ["Nous", "pourrions", "faire", "une", "concession", "sur", "le", "prix"]
+    answers: ["Nous pourrions faire une concession sur le prix"]
+    explanation: "The conditional pourrions makes the offer without promising it."
+  - id: "c2-negotiation-ex017"
+    type: "writing-task"
+    prompt: "Rédigez le courriel final de Hortense Aubry (50 à 90 mots), qui confirme l'accord récapitulé par l'imprimeur, sans rien y changer."
+    model: "Monsieur, je vous remercie de votre courriel. Je vous confirme notre accord : 2 000 exemplaires de notre guide, pour un montant de 5 600 euros, livrés en deux fois, 1 000 exemplaires le 15 mars et 1 000 le 22 mars, sous réserve que vous receviez nos fichiers définitifs au plus tard le 1er mars. Bien cordialement, Hortense Aubry"
+    checklist: ["Did you confirm the number of copies and the amount?", "Did you keep both delivery dates and the split?", "Did you keep the condition about the files?", "Did you add no new demand?", "Is your register consistent with the earlier emails?"]
+    wordTarget: [50, 90]
+---
+
+By the end of this lesson you'll be able to lead a negotiation by email: state an opening position, make conditional offers, trade concessions, say no without closing the door, propose a fallback, and sum up the agreement in writing so that it matches every offer made.
+
+## What you already know
+
+You know *une contre-proposition*, *une marge de manœuvre*, *faire un geste* and *trouver un terrain d'entente* from <LessonLink id="b2-negotiating" text="the lesson on negotiating" />. You know *ne pas être en mesure de*, *en l'état* and *à notre grand regret* from <LessonLink id="c1-diplomatic-language" text="the lesson on diplomatic language" />, and *pour peu que* and *à supposer que* from <LessonLink id="c1-concession-and-hypothesis" text="the lesson on concession and hypothesis" />. You know *acter* from <LessonLink id="c1-leading-a-meeting" text="the lesson on leading a meeting" />, *un compromis* from <LessonLink id="b1-subjunctive-vs-infinitive" text="the lesson on the subjunctive and the infinitive" />, and *couper la poire en deux* from <LessonLink id="c1-advanced-idioms" text="the lesson on advanced idioms" />.
+
+**The two companies, the people, the order and the figures in this lesson are invented.**
+
+## The shape of a written negotiation
+
+<VocabTable group="moves" />
+
+A negotiation by email usually goes through four moves, though not always in four emails:
+
+- **The opening position** (*la position de départ*): what you want, stated clearly, with the reason that makes it important. The first figure often sets the frame for the rest; as a rule of thumb, give a reason for your figure rather than a figure alone.
+- **The conditional offer** (*l'offre conditionnelle*): *nous pourrions… à condition que…*. Each offer is tied to something in return.
+- **The trade**: each side *fait une concession* (makes a concession) on one point to keep another. A *point de blocage* (sticking point) is the thing one side can't give up; the other points move around it.
+- **The written agreement**: one email that sums up every term, and a confirmation from the other side.
+
+<Example fr="Notre position de départ est simple : la livraison doit avoir lieu avant le salon." en="Our opening position is simple: delivery must take place before the fair." />
+
+<Example fr="La date du 15 mars est notre seul point de blocage ; sur le reste, nous pouvons faire une concession." en="The date of 15 March is our only sticking point; on the rest, we can make a concession." />
+
+## Offering under conditions
+
+An offer in a negotiation is rarely a promise. The conditional softens it, and a condition ties it to a return:
+
+- **Nous pourrions… à condition que + subjunctive**: *nous pourrions descendre à 5 600 euros, à condition que la livraison ait lieu le 22 mars*.
+- **Pour peu que + subjunctive** (provided that): *nous accepterions ce prix, pour peu que la livraison se fasse en deux fois*.
+- **En échange de + noun**: *une remise en échange d'une commande plus importante*.
+
+The verbs stay in the conditional until the agreement; once both sides accept, the summary moves to the future (*nous livrerons*).
+
+<Example fr="Une offre conditionnelle lie ce que l'on donne à ce que l'on reçoit en échange." en="A conditional offer links what you give to what you get in return." />
+
+## Saying no without closing the door
+
+A refusal that ends the conversation ends the negotiation too. To *laisser la porte ouverte* (leave the door open), limit the refusal and offer something else:
+
+- **Limit it**: *en l'état* (as things stand), *pour cette date*, *à ce prix*.
+- **Explain it** in one short reason: *car il faudrait faire passer votre commande avant d'autres*.
+- **Open another way**: *en revanche, nous pourrions…*
+
+When the first solution is impossible, propose *une solution de repli* (a fallback option). You may also *renoncer à* (give up) one point in exchange for another, or *décaler* (move) a date that isn't essential.
+
+<Example fr="En l'état, nous ne pouvons pas accepter ; en revanche, nous pourrions décaler une partie de la livraison." en="As things stand, we can't accept; on the other hand, we could move part of the delivery." />
+
+## Concessions and their registers
+
+<VocabTable group="registers" />
+
+The same move has several names, and the register matters in an email:
+
+- **Formal**: *consentir un effort* (make an effort on a price), *trouver un terrain d'entente*.
+- **Everyday**: *faire une concession*, *trouver un compromis*, *une solution de repli*.
+- **Familiar**: *couper la poire en deux* (split the difference), *lâcher du lest* (give some ground), *un plan B*.
+
+The familiar forms aren't wrong; they belong in a conversation with a colleague, not in an email to a client. In the dialogue below, the two colleagues use them; in the emails, the writers don't.
+
+<Example fr="Nous serions prêts à consentir un effort sur le prix." en="We would be prepared to make an effort on the price." />
+
+## Summing up the agreement
+
+<VocabTable group="closing" />
+
+The last email *récapitule* (sums up) the agreement. As a rule of thumb, it lists every term that was agreed (quantity, *montant*, dates, conditions) in the words of the earlier emails, adds nothing new, and asks for a confirmation *par retour de courriel* (by return email). Any condition that appeared earlier, such as *sous réserve de recevoir vos fichiers*, must appear again.
+
+A summary that changes a figure or forgets a condition reopens the negotiation, or creates a misunderstanding that appears only at delivery.
+
+<Example fr="Je vous remercie de me confirmer ces conditions par retour de courriel ; je reste à votre disposition pour toute question." en="Please confirm these terms by return email; I remain at your disposal for any question." />
+
+## The vocabulary of the order
+
+<VocabTable group="order" />
+
+The order in the model concerns *exemplaires* (copies) of a book, delivered *en deux fois* (in two goes), once the printer has *les fichiers définitifs* (the final files).
+
+<Example fr="Nous recevrons les 1 000 premiers exemplaires avant le salon, et les autres une semaine plus tard." en="We'll receive the first 1,000 copies before the fair, and the others a week later." />
+
+## The model: four emails
+
+The emails below are invented. Hortense Aubry works for a publisher, the Éditions du Pré-Vert; Gaspard Leclerc works for a printer, the Imprimerie Gauthier.
+
+*Courriel 1, Hortense Aubry. Objet : impression de notre guide des sentiers. Monsieur, nous souhaitons faire imprimer 2 000 exemplaires de notre nouveau guide des sentiers de randonnée, livrés au plus tard le 15 mars, date de notre présence au salon du livre de Valbrune. Notre budget pour cette commande est de 5 000 euros. Pourriez-vous nous faire une offre ? Bien cordialement, Hortense Aubry, responsable de la fabrication, Éditions du Pré-Vert.*
+
+*Courriel 2, Gaspard Leclerc. Madame, je vous remercie de votre demande. Pour 2 000 exemplaires livrés le 15 mars, notre prix est de 6 000 euros : à notre grand regret, nous ne sommes pas en mesure de descendre à 5 000 euros pour cette date, car il faudrait faire passer votre commande avant d'autres. En revanche, nous pourrions faire un geste : 5 600 euros, à condition que la livraison ait lieu le 22 mars. Dans les deux cas, nos prix sont valables sous réserve de recevoir vos fichiers définitifs au plus tard le 1er mars. Je reste à votre disposition pour en discuter. Cordialement, Gaspard Leclerc, Imprimerie Gauthier.*
+
+*Courriel 3, Hortense Aubry. Monsieur, merci pour votre offre. Nous ne pouvons pas renoncer à la date du 15 mars, puisque le guide doit être présenté au salon. Nous pourrions en revanche faire une concession sur le prix : nous accepterions vos 5 600 euros, pour peu que la livraison se fasse en deux fois, 1 000 exemplaires le 15 mars, pour le salon, et les 1 000 autres le 22 mars. C'est la solution de repli que nous vous proposons. Vous recevrez bien sûr nos fichiers définitifs avant le 1er mars. Bien cordialement, Hortense Aubry.*
+
+*Courriel 4, Gaspard Leclerc. Madame, nous acceptons votre proposition. Je récapitule donc l'accord : 2 000 exemplaires de votre guide, pour un montant de 5 600 euros, livrés en deux fois, 1 000 exemplaires le 15 mars et 1 000 le 22 mars, sous réserve de recevoir vos fichiers définitifs au plus tard le 1er mars. Je vous remercie de me confirmer ces conditions par retour de courriel, afin que nous puissions acter la commande. Cordialement, Gaspard Leclerc.*
+
+(Email 1, Hortense Aubry. Subject: printing our trail guide. Dear Sir, we would like to have 2,000 copies of our new guide to hiking trails printed, delivered by 15 March at the latest, the date we will be at the Valbrune book fair. Our budget for this order is 5,000 euros. Could you make us an offer? Kind regards, Hortense Aubry, production manager, Éditions du Pré-Vert. / Email 2, Gaspard Leclerc. Dear Madam, thank you for your request. For 2,000 copies delivered on 15 March, our price is 6,000 euros: to our great regret, we are not able to go down to 5,000 euros for that date, because we would have to put your order ahead of others. On the other hand, we could make a gesture: 5,600 euros, provided that delivery takes place on 22 March. In both cases, our prices are valid subject to receiving your final files by 1 March at the latest. I remain at your disposal to discuss it. Regards, Gaspard Leclerc, Imprimerie Gauthier. / Email 3, Hortense Aubry. Dear Sir, thank you for your offer. We can't give up the date of 15 March, since the guide must be presented at the fair. We could, however, make a concession on the price: we would accept your 5,600 euros, provided that delivery is made in two goes, 1,000 copies on 15 March, for the fair, and the other 1,000 on 22 March. That is the fallback option we propose. You will of course receive our final files before 1 March. Kind regards, Hortense Aubry. / Email 4, Gaspard Leclerc. Dear Madam, we accept your proposal. I will therefore sum up the agreement: 2,000 copies of your guide, for an amount of 5,600 euros, delivered in two goes, 1,000 copies on 15 March and 1,000 on 22 March, subject to receiving your final files by 1 March at the latest. Please confirm these terms by return email, so that we can formally record the order. Regards, Gaspard Leclerc.)
+
+<VocabTable group="glossary" />
+
+## How the emails work
+
+- **The opening position**: 2,000 copies, by 15 March, for 5,000 euros, with the reason (the book fair).
+- **The conditional offer**: 6,000 euros for 15 March, or 5,600 *à condition que la livraison ait lieu le 22 mars*; a refusal limited to *cette date*, with one reason; the condition on the files, *sous réserve de*.
+- **The trade**: the publisher makes a concession on the price (5,600 instead of 5,000) and keeps its sticking point, the date, for half the order. The printer keeps its price and gives part of the earlier date.
+- **The fallback** is named: *c'est la solution de repli que nous vous proposons*.
+- **The summary** repeats every term of email 3 and the condition of email 2, adds nothing, and asks for a confirmation. The figures stay the same from email to email: 2,000 copies, 5,600 euros, 1,000 on 15 March and 1,000 on 22 March, files by 1 March.
+- **The register**: *à notre grand regret*, *ne pas être en mesure de*, *faire un geste*, the conditional throughout, and no familiar word.
+
+## En français
+
+After email 2, Hortense prepares her answer with her colleague Yann. They use *tu*, and their register is familiar.
+
+- *Leclerc ne descend pas à 5 000 euros pour le 15 mars. Il propose 6 000, ou 5 600 pour le 22 mars.* (Leclerc won't go down to 5,000 euros for 15 March. He's offering 6,000, or 5,600 for 22 March.)
+- *Le 22, c'est trop tard pour le salon. Tu ne peux pas décaler ?* (The 22nd is too late for the fair. Can't you move it?)
+- *Non, la date du 15, c'est notre point de blocage. Mais sur le prix, je peux lâcher du lest.* (No, the 15th is our sticking point. But on the price, I can give some ground.)
+- *Alors pourquoi ne pas couper la poire en deux, autour de 5 300 ?* (So why not split the difference, around 5,300?)
+- *Il a été clair : à 5 600, c'est pour le 22 mars. Je préfère lui proposer un plan B.* (He was clear: 5,600 is for 22 March. I'd rather offer him a plan B.)
+- *Lequel ?* (Which one?)
+- *On accepte ses 5 600 euros, mais avec une livraison en deux fois : 1 000 exemplaires le 15 mars, et les 1 000 autres le 22.* (We accept his 5,600 euros, but with delivery in two goes: 1,000 copies on 15 March, and the other 1,000 on the 22nd.)
+- *Pour le salon, 1 000 exemplaires, c'est bien assez.* (For the fair, 1,000 copies is quite enough.)
+- *C'est ce que je pense. Et dans le courriel, j'écrirai « solution de repli », pas « plan B ».* (That's what I think. And in the email, I'll write "solution de repli", not "plan B".)
+- *Et les fichiers ? Il les veut avant le 1er mars.* (And the files? He wants them before 1 March.)
+- *Je le lui confirme : il les aura avant le 1er mars.* (I'll confirm it to him: he'll have them before 1 March.)
+- *Parfait. S'il accepte, il faudra qu'il récapitule tout par écrit.* (Perfect. If he accepts, he'll have to sum everything up in writing.)
+
+<Callout type="warning" title="The summary repeats the offers, it doesn't improve them">
+  In a final email, learners sometimes round a figure or drop a condition to sound more positive: *nous livrerons 2 000 exemplaires le 15 mars pour 5 600 euros*. That isn't what was agreed. Repeat every term in the words of the earlier emails: **1 000 exemplaires le 15 mars et 1 000 le 22 mars, pour un montant de 5 600 euros, sous réserve de recevoir vos fichiers avant le 1er mars**.
+</Callout>
+
+<Callout type="tip" title="Keep a table of offers">
+  During an email negotiation, keep a small table with one column per email and one row per term (quantity, price, dates, conditions). Fill it in as each email arrives. When you write the summary, copy the last column: you can't forget a condition that's in front of you.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-structured-oral-argument" text="the lesson on a structured oral argument" /> moves from writing to speaking, with an argument written out to be spoken.
+
+===== content/lessons/c2/structured-oral-argument.mdx =====
+---
+id: "c2-structured-oral-argument"
+title: "A Structured Oral Argument"
+description: "Prepare and write out a spoken argument: one thesis, a fil rouge, an oral plan (announce, develop, recap), spoken signposts instead of written connectors, an objection anticipated (vous me direz peut-être que…), repetition that hammers the point home, and a close in one phrase (en un mot)."
+level: "C2"
+unit: "Mediation and negotiation"
+order: 33
+type: "communication"
+tags: ["communication", "speaking", "argument", "speech", "register"]
+prerequisites: ["c1-public-speaking", "c1-formal-debate", "c1-dislocation-and-fronting", "c2-negotiation"]
+related: ["c1-spoken-discourse-markers", "c1-rhetorical-devices", "c2-review-mediation"]
+vocab:
+  - { id: "c2-structured-oral-argument-v001", group: "plan", fr: "une thèse", pron: "ewn TEZ", en: "a thesis, the position you defend" }
+  - { id: "c2-structured-oral-argument-v002", group: "plan", fr: "un fil rouge", pron: "uhn feel ROOZH", en: "a common thread (running through a speech)" }
+  - { id: "c2-structured-oral-argument-v003", group: "plan", fr: "un repère", pron: "uhn ruh-PEHR", en: "a marker, a signpost (for the listener)" }
+  - { id: "c2-structured-oral-argument-v004", group: "plan", fr: "à l'oral / à l'écrit", pron: "ah loh-RAHL / ah lay-KREE", en: "in speech / in writing" }
+  - { id: "c2-structured-oral-argument-v005", group: "plan", fr: "je vais vous donner trois raisons", pron: "zhuh veh voo doh-NAY trwah reh-ZOHN", en: "I'm going to give you three reasons" }
+  - { id: "c2-structured-oral-argument-v006", group: "plan", fr: "première raison, deuxième raison", pron: "pruh-MYEHR reh-ZOHN… duh-ZYEM reh-ZOHN", en: "first reason… second reason… (spoken signposts)" }
+  - { id: "c2-structured-oral-argument-v007", group: "objection", fr: "prévenir une objection", pron: "pray-vuh-NEER ew-nob-zhek-SYOHN", en: "to anticipate an objection" }
+  - { id: "c2-structured-oral-argument-v008", group: "objection", fr: "vous me direz peut-être que", pron: "voo muh dee-RAY puh-TET kuh", en: "you may tell me that" }
+  - { id: "c2-structured-oral-argument-v009", group: "objection", fr: "l'objection est juste", pron: "lob-zhek-SYOHN eh ZHEWST", en: "the objection is fair" }
+  - { id: "c2-structured-oral-argument-v010", group: "objection", fr: "prendre au sérieux", pron: "prahn-droh say-RYUH", en: "to take seriously" }
+  - { id: "c2-structured-oral-argument-v011", group: "close", fr: "marteler", pron: "mar-tuh-LAY", en: "to hammer home (an idea, by repeating it)" }
+  - { id: "c2-structured-oral-argument-v012", group: "close", fr: "je le répète", pron: "zhuh luh ray-PET", en: "I repeat, let me say it again" }
+  - { id: "c2-structured-oral-argument-v013", group: "close", fr: "en un mot", pron: "ah-nuhn MOH", en: "in a word" }
+  - { id: "c2-structured-oral-argument-v014", group: "close", fr: "une formule", pron: "ewn for-MEWL", en: "a memorable phrase (in a speech)" }
+  - { id: "c2-structured-oral-argument-v015", group: "close", fr: "retenir", pron: "ruh-tuh-NEER", en: "to remember, to keep in mind (what is heard)" }
+  - { id: "c2-structured-oral-argument-v016", group: "glossary", fr: "un conseil de quartier", pron: "uhn kohn-SEH-y duh kar-TYAY", en: "a neighbourhood council" }
+  - { id: "c2-structured-oral-argument-v017", group: "glossary", fr: "un moteur", pron: "uhn moh-TUHR", en: "an engine" }
+  - { id: "c2-structured-oral-argument-v018", group: "glossary", fr: "pressés (pressé)", pron: "preh-SAY", en: "in a hurry" }
+  - { id: "c2-structured-oral-argument-v019", group: "glossary", fr: "se croise (se croiser)", pron: "suh KRWAHZ", en: "meet in passing (to meet in passing)" }
+  - { id: "c2-structured-oral-argument-v020", group: "glossary", fr: "s'énerver", pron: "say-nehr-VAY", en: "to get worked up, to lose one's temper" }
+  - { id: "c2-structured-oral-argument-v021", group: "glossary", fr: "dehors", pron: "duh-OR", en: "outside" }
+  - { id: "c2-structured-oral-argument-v022", group: "glossary", fr: "l'air (m.)", pron: "LEHR", en: "the air" }
+  - { id: "c2-structured-oral-argument-v023", group: "glossary", fr: "subissons (subir)", pron: "sew-bee-SOHN", en: "put up with (to undergo, to put up with)" }
+exercises:
+  - id: "c2-structured-oral-argument-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le rôle de la phrase « Vous me direz peut-être : et les parents qui viennent en voiture ? » dans le discours."
+    options: ["prévenir une objection", "annoncer le plan", "conclure le discours"]
+    answers: ["prévenir une objection"]
+    explanation: "The speaker states the objection herself, before anyone raises it, and then answers it."
+  - id: "c2-structured-oral-argument-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez ce que fait la phrase « Alors je le répète : la sécurité, l'air, la vie du quartier. »"
+    options: ["elle martèle les trois raisons", "elle fait une concession", "elle pose une question piège"]
+    answers: ["elle martèle les trois raisons"]
+    explanation: "Repeating the three reasons in a few words hammers them home before the close."
+  - id: "c2-structured-oral-argument-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre de la phrase « La sécurité des enfants, tout le monde en parle. »"
+    options: ["oral (une dislocation)", "écrit soutenu", "juridique"]
+    answers: ["oral (une dislocation)"]
+    explanation: "The topic comes first and is picked up by en: a dislocation, usual in speech. In writing: tout le monde parle de la sécurité des enfants."
+  - id: "c2-structured-oral-argument-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le fil rouge du discours de Solène Gauthier."
+    options: ["les enfants", "le prix du parking", "les travaux dans la rue"]
+    answers: ["les enfants"]
+    explanation: "Each reason comes back to the children, and the close names them again: quand les enfants sont là."
+  - id: "c2-structured-oral-argument-ex005"
+    type: "fill-in"
+    prompt: "Complétez : En un ___ : fermons la rue aux voitures quand les enfants sont là."
+    answers: ["mot"]
+    explanation: "En un mot announces the shortest form of the thesis, at the very end."
+  - id: "c2-structured-oral-argument-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe à l'infinitif : Pour que le public retienne une idée, il faut la ___, c'est-à-dire la répéter avec force."
+    answers: ["marteler"]
+    explanation: "Marteler une idée: to hammer it home."
+  - id: "c2-structured-oral-argument-ex007"
+    type: "reformulation"
+    prompt: "Reformulez pour l'oral, avec une dislocation qui commence par « La sécurité des enfants » : Tout le monde parle de la sécurité des enfants."
+    strictAccents: true
+    answers: ["La sécurité des enfants, tout le monde en parle"]
+    explanation: "Spoken French often puts the topic first and picks it up with a pronoun (en)."
+  - id: "c2-structured-oral-argument-ex008"
+    type: "reformulation"
+    prompt: "Reformulez pour l'écrit, sans dislocation, en commençant par « Tout le monde » : La sécurité des enfants, tout le monde en parle."
+    strictAccents: true
+    answers: ["Tout le monde parle de la sécurité des enfants"]
+    explanation: "Written French usually keeps the order subject, verb, complement."
+  - id: "c2-structured-oral-argument-ex009"
+    type: "register-shift"
+    prompt: "Transformez en annonce orale, avec « je vais vous donner » : Trois raisons seront développées."
+    answers: ["Je vais vous donner trois raisons"]
+    explanation: "At the oral, the speaker addresses the audience directly and announces the number of points."
+  - id: "c2-structured-oral-argument-ex010"
+    type: "register-shift"
+    prompt: "Transformez en phrase orale qui prévient l'objection, avec « Vous me direz peut-être que » : On peut objecter que le parking est loin."
+    answers: ["Vous me direz peut-être que le parking est loin"]
+    explanation: "Vous me direz peut-être que gives the objection to the audience, so that you can answer it."
+  - id: "c2-structured-oral-argument-ex011"
+    type: "error-correction"
+    prompt: "Corrigez la conclusion, qui ajoute une raison que le discours n'a pas donnée (gardez « Je le répète : ») : Je le répète : la sécurité, l'air, la vie du quartier et le prix du parking."
+    answers: ["Je le répète : la sécurité, l'air, la vie du quartier"]
+    explanation: "A conclusion repeats the reasons given; a new one at the end has no support."
+  - id: "c2-structured-oral-argument-ex012"
+    type: "translate"
+    prompt: "Traduisez (en un mot, à l'impératif, nous) : In a word: let's close the street to cars."
+    answers: ["En un mot : fermons la rue aux voitures"]
+    explanation: "En un mot, then the thesis as an imperative with nous."
+  - id: "c2-structured-oral-argument-ex013"
+    type: "translate"
+    prompt: "Traduisez (un bon orateur, prévenir) : « A good speaker anticipates objections. »"
+    answers: ["Un bon orateur prévient les objections"]
+    explanation: "Prévenir une objection: to anticipate it, here in the present (il prévient)."
+  - id: "c2-structured-oral-argument-ex014"
+    type: "translate"
+    prompt: "Traduisez (le fil rouge) : The children are the common thread of the speech."
+    answers: ["Les enfants sont le fil rouge du discours"]
+    explanation: "Un fil rouge: the idea that runs through the whole speech."
+  - id: "c2-structured-oral-argument-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre les étapes de l'argument oral."
+    words: ["J'annonce ma thèse.", "Je donne trois raisons.", "Je préviens l'objection.", "Je martèle et je conclus."]
+    answers: ["J'annonce ma thèse. Je donne trois raisons. Je préviens l'objection. Je martèle et je conclus."]
+    explanation: "The order of the model: thesis and plan, the reasons, the objection answered, then the recap and the formula."
+  - id: "c2-structured-oral-argument-ex016"
+    type: "writing-task"
+    prompt: "Rédigez la conclusion orale (40 à 80 mots) d'un discours qui défend une idée de votre choix : rappelez vos raisons, martelez votre thèse et terminez par « En un mot »."
+    model: "Mesdames et messieurs, j'arrive à la fin. Je le répète : nos bibliothèques sont ouvertes trop peu de soirs, alors que c'est le soir que les étudiants et les salariés sont libres. Deux raisons, donc : le temps des lecteurs et l'égalité entre eux. Une bibliothèque fermée, c'est un livre qu'on ne lit pas. En un mot : ouvrons nos bibliothèques le soir. Je vous remercie."
+    checklist: ["Did you announce the end?", "Did you repeat your reasons in a few words?", "Did you add no new reason?", "Did you end with En un mot and your thesis in one sentence?", "Did you keep spoken features (dislocation, on) labelled or limited to the register you chose?"]
+    wordTarget: [40, 80]
+---
+
+By the end of this lesson you'll be able to prepare a spoken argument and write it out: one thesis and a common thread, a plan the listener can follow by ear, an objection answered before anyone raises it, and a close that hammers the point home.
+
+## What you already know
+
+You know how to address an audience, announce a plan and signpost each move (*je commencerai par…*, *j'en viens à…*, *avant de conclure*) from <LessonLink id="c1-public-speaking" text="the lesson on public speaking" />. You know how to concede and reply (*je vous l'accorde*, *il n'en demeure pas moins que*) from <LessonLink id="c1-formal-debate" text="the lesson on formal debate" />, *une objection* from <LessonLink id="b2-debating" text="the lesson on debating" />, and *la dislocation* from <LessonLink id="c1-dislocation-and-fronting" text="the lesson on dislocation and fronting" />. This lesson adds what a longer argument needs.
+
+**The speech, the council and the people in this lesson are invented.** The speech is a written script of spoken French in a formal setting: it uses some forms of speech, and each one is labelled.
+
+## Speaking is not reading aloud
+
+A listener can't reread. Everything the reader of an essay does with their eyes, the listener does with their memory. Three consequences follow.
+
+- **One thesis**, stated early and in one sentence: *ce soir, je voudrais vous convaincre d'une seule chose*. A written essay can build towards its thesis; a speech states it first.
+- **A small number of points**, announced with their number. Instead of timing a speech in minutes, plan it by points: as a rule of thumb, three reasons and one objection make a short argument that a listener can follow.
+- **Repetition is a tool**, not a fault. What would be a heavy repetition in writing helps the listener at the oral.
+
+<VocabTable group="plan" />
+
+## The oral plan: announce, develop, recap
+
+A spoken argument has a plan in three moves: say what you'll say, say it, then say what you said.
+
+- **Announce**: *je vais vous donner trois raisons* (I'm going to give you three reasons).
+- **Develop**, with spoken signposts: *première raison…*, *deuxième raison…*. They're shorter than written connectors such as *en premier lieu* or *par ailleurs*, and each one gives the listener *un repère* (a marker).
+- **Recap**, in a few words: *la sécurité, l'air, la vie du quartier*.
+
+Behind the plan runs *un fil rouge* (a common thread): one idea or image that comes back in each part, so that the whole argument holds together. In the model, it's the children.
+
+<Example fr="Je vais vous donner trois raisons, et elles concernent toutes les enfants." en="I'm going to give you three reasons, and they all concern the children." />
+
+<Example fr="Première raison, deuxième raison : à l'oral, ces repères suffisent à guider le public." en="First reason, second reason: in speech, these markers are enough to guide the audience." />
+
+<Example fr="À l'écrit, on dirait « en premier lieu » ; à l'oral, « première raison » suffit." en="In writing, you'd say 'en premier lieu'; in speech, 'première raison' is enough." />
+
+## Spoken forms in a formal setting
+
+A speech is spoken French, even when the setting is formal. Some forms of speech are normal there, as long as you use them on purpose:
+
+- **Dislocation** (spoken): *la sécurité des enfants, tout le monde en parle*. The topic comes first, and a pronoun picks it up. The written equivalent is *tout le monde parle de la sécurité des enfants*. Neither is wrong; they belong to different registers.
+- **Short sentences without a verb** (spoken): *une seule chose*; *trois raisons, une seule proposition*.
+- **On for nous** (familiar, in conversation): in a formal speech, prefer *nous*, or *l'on* in a general statement (*où l'on se croise*).
+
+In the exercises, a key accepts the register the instruction asks for, and only that one.
+
+## Anticipating the objection
+
+<VocabTable group="objection" />
+
+In a debate, the other side raises objections. In a speech, nobody interrupts, so you *prévenez l'objection* (anticipate it): you state it yourself, then answer it.
+
+- **Give it to the audience**: *vous me direz peut-être que…* (you may tell me that…).
+- **Grant what is fair**: *l'objection est juste, et je la prends au sérieux* (the objection is fair, and I take it seriously).
+- **Answer with a fact or a limit**: *mais la rue ne serait fermée qu'au moment de l'entrée et de la sortie*.
+
+Choose the strongest one, not an easy one: an audience notices when a speaker answers only the objection nobody made.
+
+<Example fr="Vous me direz peut-être que le parking est loin ; l'objection est juste, et je la prends au sérieux." en="You may tell me that the car park is far away; the objection is fair, and I take it seriously." />
+
+## The close: hammering it home
+
+<VocabTable group="close" />
+
+The end of a speech is what the audience *retient* (remembers). Two moves make it stick:
+
+- **Marteler** (hammer home): repeat the reasons in a few words, *je le répète : la sécurité, l'air, la vie du quartier*.
+- **Une formule** (a memorable phrase): the thesis in its shortest form, after *en un mot* (in a word): *fermons la rue de l'École aux voitures quand les enfants sont là*.
+
+The close adds no new reason. A new idea at the end has no time to be supported, and it pushes the thesis out of the listener's memory.
+
+<Example fr="En un mot : ce que je vous demande, c'est une rue pour les enfants." en="In a word: what I'm asking you for is a street for the children." />
+
+## The model: a speech at a neighbourhood council
+
+The speech below is invented. Solène Gauthier, a parent, speaks at the neighbourhood council of Valbrune. It's a written script of spoken French in a formal setting.
+
+*Mesdames et messieurs les membres du conseil de quartier, bonsoir. Ce soir, je voudrais vous convaincre d'une seule chose : la rue de l'École doit être fermée aux voitures au moment de l'entrée et de la sortie des classes. Une seule chose, et je vais vous donner trois raisons. Toutes les trois concernent nos enfants.*
+
+*Première raison : la sécurité. La sécurité des enfants, tout le monde en parle. Mais regardez la rue le matin, devant l'école : des voitures arrêtées partout, des enfants qui passent entre elles, des parents pressés. Ce n'est la faute de personne. C'est la rue qui n'est pas faite pour ce moment-là. Chaque matin, un parent me dit : « Un jour, il arrivera quelque chose. » Je ne veux pas attendre ce jour-là.*
+
+*Deuxième raison : l'air. Devant l'école, les moteurs tournent pendant que les parents attendent. Fermer la rue à ces heures-là, c'est donner aux enfants un air plus propre, juste au moment où ils sont dehors. Ce sont eux qui respirent ce que nous laissons dans la rue.*
+
+*Troisième raison : la vie du quartier. Une rue sans voitures, même pour un moment, c'est une rue où les parents se parlent, où les enfants marchent, où l'on se croise au lieu de s'énerver. Ce moment de la journée, aujourd'hui, nous le subissons ; demain, nous pourrions le partager.*
+
+*Vous me direz peut-être : et les parents qui viennent en voiture, ceux qui travaillent loin ? L'objection est juste, et je la prends au sérieux. Mais la rue ne serait fermée qu'au moment de l'entrée et de la sortie des classes, et le parking de la place du Marché est à deux minutes à pied.*
+
+*Alors je le répète : la sécurité, l'air, la vie du quartier. Trois raisons, une seule proposition. En un mot : fermons la rue de l'École aux voitures quand les enfants sont là. Je vous remercie.*
+
+(Ladies and gentlemen of the neighbourhood council, good evening. Tonight, I'd like to convince you of one thing only: rue de l'École should be closed to cars when classes start and finish. One thing only, and I'm going to give you three reasons. All three concern our children. First reason: safety. The children's safety, everyone talks about it. But look at the street in the morning, outside the school: cars stopped everywhere, children walking between them, parents in a hurry. It's nobody's fault. It's the street that isn't made for that moment. Every morning, a parent tells me: "One day, something will happen." I don't want to wait for that day. Second reason: the air. Outside the school, engines run while the parents wait. Closing the street at those times means giving the children cleaner air, just when they're outside. They're the ones who breathe what we leave in the street. Third reason: the life of the neighbourhood. A street without cars, even for a moment, is a street where parents talk to each other, where children walk, where people meet instead of getting worked up. That moment of the day, today, we put up with it; tomorrow, we could share it. You may tell me: what about the parents who come by car, those who work far away? The objection is fair, and I take it seriously. But the street would only be closed when classes start and finish, and the car park on place du Marché is two minutes' walk away. So I repeat: safety, the air, the life of the neighbourhood. Three reasons, one proposal. In a word: let's close rue de l'École to cars when the children are there. Thank you.)
+
+<VocabTable group="glossary" />
+
+## Notes on the structure
+
+- **The thesis** comes in the second sentence, in one sentence, after *une seule chose*. The plan follows at once: *je vais vous donner trois raisons*.
+- **The fil rouge**: *toutes les trois concernent nos enfants*; each reason comes back to them, and so does the last sentence.
+- **The signposts** are spoken: *première raison*, *deuxième raison*, *troisième raison*, each followed by one word that the recap repeats.
+- **The spoken forms**, labelled: a dislocation (*la sécurité des enfants, tout le monde en parle*), sentences without a verb (*une seule chose*; *trois raisons, une seule proposition*), and *l'on* rather than *on*.
+- **The objection** is the strongest one (parents who need their car), given to the audience, granted, then answered with a limit and a fact.
+- **The close**: *je le répète*, the three reasons in three words, then *en un mot* and the formula. No new reason appears.
+
+## En français
+
+The day before the council, Solène rehearses with her friend Armand. They use *tu*, in everyday spoken French.
+
+- *Je commence par ma thèse, tout de suite : fermer la rue de l'École au moment de l'entrée et de la sortie.* (I start with my thesis, straight away: closing rue de l'École when classes start and finish.)
+- *Et tu annonces combien de raisons ?* (And how many reasons do you announce?)
+- *Trois : la sécurité, l'air et la vie du quartier.* (Three: safety, the air and the life of the neighbourhood.)
+- *Pourquoi pas cinq ? Tu en as d'autres.* (Why not five? You have others.)
+- *Parce qu'à l'oral, on ne retient pas cinq raisons. Trois, et un fil rouge : les enfants.* (Because in speech, people don't remember five reasons. Three, and a common thread: the children.)
+- *Et les parents qui viennent en voiture ? Ils vont te le dire.* (What about the parents who come by car? They'll tell you.)
+- *Je le dis avant eux : « Vous me direz peut-être… » Puis je réponds : la rue ne serait fermée qu'à ces moments-là.* (I say it before they do: "You may tell me…" Then I answer: the street would only be closed at those times.)
+- *Et tu parles du parking ?* (And do you mention the car park?)
+- *Oui : celui de la place du Marché est à deux minutes à pied.* (Yes: the one on place du Marché is two minutes' walk away.)
+- *Et pour finir ?* (And to finish?)
+- *Je répète les trois raisons, puis « En un mot : fermons la rue de l'École aux voitures quand les enfants sont là. »* (I repeat the three reasons, then "In a word: let's close rue de l'École to cars when the children are there.")
+- *Pas de nouvelle idée à la fin, alors.* (No new idea at the end, then.)
+
+<Callout type="warning" title="A dislocation isn't a mistake, it's a register">
+  Learners who have been corrected in their essays sometimes think *la sécurité des enfants, tout le monde en parle* is wrong. It's spoken French, and it suits a speech. In an essay, write **tout le monde parle de la sécurité des enfants**. Choose by register, and don't mix the two in the same text.
+</Callout>
+
+<Callout type="tip" title="Rehearse with the plan on one card">
+  Write the thesis, the three signposts, the objection and the formula on one small card, a few words each, and rehearse from the card, not from the script. If you can give the speech from the card, the plan is clear enough for a listener to follow it.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-interviews-and-questioning" text="the lesson on asking precise questions" /> turns to the other side of speech: preparing and conducting an interview.
+
+===== content/lessons/c2/interviews-and-questioning.mdx =====
+---
+id: "c2-interviews-and-questioning"
+title: "Asking Precise Questions"
+description: "Prepare and conduct an interview: open and closed questions, follow-up questions (relancer), checking by reformulation (si je vous suis bien), avoiding leading questions, bringing an interview back on track (recadrer) and pressing politely for an answer (revenir à la charge), in formal and spoken registers."
+level: "C2"
+unit: "Mediation and negotiation"
+order: 34
+type: "communication"
+tags: ["communication", "questions", "interview", "register", "speaking"]
+prerequisites: ["b2-reported-questions-orders", "c1-stylistic-inversion", "c1-leading-a-meeting", "c2-structured-oral-argument"]
+related: ["a1-yes-no-questions", "b2-debating", "c2-review-mediation"]
+vocab:
+  - { id: "c2-interviews-and-questioning-v001", group: "types", fr: "une question ouverte", pron: "ewn kess-TYOHN oo-VEHRT", en: "an open question" }
+  - { id: "c2-interviews-and-questioning-v002", group: "types", fr: "une question fermée", pron: "ewn kess-TYOHN fehr-MAY", en: "a closed question (answered by yes, no or a fact)" }
+  - { id: "c2-interviews-and-questioning-v003", group: "types", fr: "une question orientée", pron: "ewn kess-TYOHN oh-ryahn-TAY", en: "a leading question" }
+  - { id: "c2-interviews-and-questioning-v004", group: "types", fr: "orienter la réponse", pron: "oh-ryahn-TAY lah ray-POHNSS", en: "to steer the answer" }
+  - { id: "c2-interviews-and-questioning-v005", group: "follow", fr: "relancer (son interlocuteur)", pron: "ruh-lahn-SAY", en: "to follow up, to prompt (the person you're speaking to)" }
+  - { id: "c2-interviews-and-questioning-v006", group: "follow", fr: "une question de relance", pron: "ewn kess-TYOHN duh ruh-LAHNSS", en: "a follow-up question" }
+  - { id: "c2-interviews-and-questioning-v007", group: "follow", fr: "si je vous suis bien", pron: "see zhuh voo swee BYAN", en: "if I follow you correctly" }
+  - { id: "c2-interviews-and-questioning-v008", group: "follow", fr: "vous voulez dire que", pron: "voo voo-LAY deer kuh", en: "you mean that" }
+  - { id: "c2-interviews-and-questioning-v009", group: "follow", fr: "pourriez-vous préciser", pron: "poo-RYAY voo pray-see-ZAY", en: "could you be more specific" }
+  - { id: "c2-interviews-and-questioning-v010", group: "follow", fr: "une reformulation", pron: "ewn ruh-for-mew-lah-SYOHN", en: "a rewording, a reformulation" }
+  - { id: "c2-interviews-and-questioning-v011", group: "press", fr: "revenir à la charge", pron: "ruh-vuh-NEER ah lah SHARZH", en: "to press the point again" }
+  - { id: "c2-interviews-and-questioning-v012", group: "press", fr: "je me permets d'insister", pron: "zhuh muh pehr-MEH dan-sees-TAY", en: "allow me to insist" }
+  - { id: "c2-interviews-and-questioning-v013", group: "press", fr: "pour revenir à", pron: "poor ruh-vuh-NEER ah", en: "to come back to" }
+  - { id: "c2-interviews-and-questioning-v014", group: "press", fr: "éluder une question", pron: "ay-lew-DAY ewn kess-TYOHN", en: "to sidestep a question" }
+  - { id: "c2-interviews-and-questioning-v015", group: "press", fr: "concrètement", pron: "kohn-kret-MAHN", en: "in concrete terms" }
+  - { id: "c2-interviews-and-questioning-v016", group: "craft", fr: "un métier", pron: "uhn may-TYAY", en: "a trade, a craft, a job" }
+  - { id: "c2-interviews-and-questioning-v017", group: "craft", fr: "un ébéniste / une ébéniste", pron: "uh-nay-bay-NEEST / ew-nay-bay-NEEST", en: "a cabinetmaker" }
+  - { id: "c2-interviews-and-questioning-v018", group: "craft", fr: "un apprenti / une apprentie", pron: "uh-nah-prahn-TEE", en: "an apprentice" }
+  - { id: "c2-interviews-and-questioning-v019", group: "craft", fr: "former (un apprenti)", pron: "for-MAY", en: "to train (an apprentice)" }
+  - { id: "c2-interviews-and-questioning-v020", group: "glossary", fr: "la comptabilité", pron: "lah kohn-tah-bee-lee-TAY", en: "accountancy" }
+  - { id: "c2-interviews-and-questioning-v021", group: "glossary", fr: "le bois", pron: "luh BWAH", en: "wood" }
+  - { id: "c2-interviews-and-questioning-v022", group: "glossary", fr: "un meuble", pron: "uhn MUH-bluh", en: "a piece of furniture" }
+  - { id: "c2-interviews-and-questioning-v023", group: "glossary", fr: "le caractère", pron: "luh kah-rak-TEHR", en: "character, temperament" }
+  - { id: "c2-interviews-and-questioning-v024", group: "glossary", fr: "se décourage (se décourager)", pron: "suh day-koo-RAHZH", en: "loses heart (to lose heart)" }
+  - { id: "c2-interviews-and-questioning-v025", group: "glossary", fr: "recommencer", pron: "ruh-koh-mahn-SAY", en: "to start again" }
+exercises:
+  - id: "c2-interviews-and-questioning-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le type de la question : « Vous formez des apprentis aujourd'hui ? »"
+    options: ["une question fermée", "une question ouverte", "une question orientée"]
+    answers: ["une question fermée"]
+    explanation: "It's answered by yes or no (or a number): a closed question."
+  - id: "c2-interviews-and-questioning-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le type de la question : « Comment êtes-vous devenue ébéniste ? »"
+    options: ["une question ouverte", "une question fermée", "une question de relance"]
+    answers: ["une question ouverte"]
+    explanation: "Comment invites a whole story: an open question. It's the first question, so it isn't a follow-up."
+  - id: "c2-interviews-and-questioning-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez la question qui n'oriente pas la réponse."
+    options: ["Comment voyez-vous l'avenir du métier ?", "Le métier va disparaître, n'est-ce pas ?", "Vous êtes d'accord que le métier va disparaître ?"]
+    answers: ["Comment voyez-vous l'avenir du métier ?"]
+    explanation: "The other two suggest the answer (the trade will disappear) and only ask for agreement."
+  - id: "c2-interviews-and-questioning-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez ce que fait le journaliste quand il dit : « Pour revenir à votre métier… »"
+    options: ["il recadre l'entretien", "il conclut l'entretien", "il pose une question piège"]
+    answers: ["il recadre l'entretien"]
+    explanation: "Pour revenir à brings the interview back to its subject after a digression."
+  - id: "c2-interviews-and-questioning-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Elle a éludé la question ; le journaliste revient à la ___."
+    answers: ["charge"]
+    explanation: "Revenir à la charge: to press the point again."
+  - id: "c2-interviews-and-questioning-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec l'adjectif : Une question à laquelle on répond par oui ou par non est une question ___."
+    answers: ["fermée"]
+    explanation: "Une question fermée: yes, no, or a fact."
+  - id: "c2-interviews-and-questioning-ex007"
+    type: "reformulation"
+    prompt: "Transformez la question fermée en question ouverte, en commençant par « Qu'est-ce qui vous plaît » : Vous aimez votre métier ?"
+    answers: ["Qu'est-ce qui vous plaît dans votre métier ?"]
+    explanation: "The open question asks what, not whether: it can't be answered by yes or no."
+  - id: "c2-interviews-and-questioning-ex008"
+    type: "reformulation"
+    prompt: "Reformulez avec l'inversion du sujet, au présent : Est-ce que vous pouvez préciser ?"
+    answers: ["Pouvez-vous préciser ?"]
+    explanation: "Inversion with a hyphen: pouvez-vous. Pourriez-vous would be more polite, but the instruction asks for the present."
+  - id: "c2-interviews-and-questioning-ex009"
+    type: "error-correction"
+    prompt: "Corrigez la question orientée, en commençant par « Comment voyez-vous » : Le métier va disparaître, n'est-ce pas ?"
+    answers: ["Comment voyez-vous l'avenir du métier ?"]
+    explanation: "The neutral question asks for the interviewee's view instead of proposing an answer."
+  - id: "c2-interviews-and-questioning-ex010"
+    type: "register-shift"
+    prompt: "Transformez en question soutenue, avec l'inversion du sujet : Vous avez commencé quand ? (français parlé, familier)"
+    answers: ["Quand avez-vous commencé ?"]
+    explanation: "In formal French, the question word comes first and the subject is inverted."
+  - id: "c2-interviews-and-questioning-ex011"
+    type: "register-shift"
+    prompt: "Transformez en question de français parlé familier, sans inversion, avec « comment » à la fin : Comment êtes-vous devenue ébéniste ?"
+    answers: ["Vous êtes devenue ébéniste comment ?"]
+    explanation: "In familiar speech, the question word can come at the end, with no inversion. It isn't wrong: it belongs to another register."
+  - id: "c2-interviews-and-questioning-ex012"
+    type: "translate"
+    prompt: "Traduisez (une question ouverte, à l'impératif, vous) : Ask an open question first."
+    answers: ["Posez d'abord une question ouverte", "Posez une question ouverte d'abord"]
+    explanation: "Poser une question; d'abord can come after the verb or at the end."
+  - id: "c2-interviews-and-questioning-ex013"
+    type: "translate"
+    prompt: "Traduisez (si je vous suis bien) : If I follow you correctly, the trade is changing."
+    answers: ["Si je vous suis bien, le métier change", "Si je vous suis bien, le métier est en train de changer"]
+    explanation: "Si je vous suis bien checks that you've understood before you go on."
+  - id: "c2-interviews-and-questioning-ex014"
+    type: "translate"
+    prompt: "Traduisez (revenir à la charge, au passé composé) : The journalist pressed the point again."
+    strictAccents: true
+    answers: ["Le journaliste est revenu à la charge"]
+    explanation: "Revenir takes être in the passé composé: il est revenu."
+  - id: "c2-interviews-and-questioning-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : « Could you give me a concrete example? »"
+    words: ["Pourriez-vous", "me", "donner", "un", "exemple", "concret"]
+    answers: ["Pourriez-vous me donner un exemple concret"]
+    explanation: "Asking for un exemple concret is a polite way to press for a precise answer."
+  - id: "c2-interviews-and-questioning-ex016"
+    type: "writing-task"
+    prompt: "Rédigez cinq questions (50 à 90 mots en tout) pour un entretien avec une personne qui travaille de ses mains : une question ouverte, une question fermée, une relance, une reformulation et une question pour revenir à la charge."
+    model: "Comment avez-vous choisi votre métier ? Vous travaillez seul dans votre atelier ? Vous parlez d'un « moment décisif » : que s'est-il passé exactement ? Si je vous suis bien, vous voulez dire que la formation a plus compté que le talent ? Je me permets d'insister : pourriez-vous me donner un exemple concret de ce que vous avez appris pendant votre formation ?"
+    checklist: ["Is the first question open (comment, pourquoi, qu'est-ce que)?", "Can the closed question be answered by yes, no or a fact?", "Does the follow-up pick up a word from an imagined answer?", "Does the reformulation start with si je vous suis bien or vous voulez dire que?", "Is none of your questions a leading question?"]
+    wordTarget: [50, 90]
+---
+
+By the end of this lesson you'll be able to prepare an interview and conduct it: choose between open and closed questions, follow up on an answer, check that you've understood, avoid leading questions, and press politely when an answer slips away.
+
+## What you already know
+
+You know *une question piège*, *interroger* and *esquiver* from <LessonLink id="b2-reported-questions-orders" text="the lesson on reported questions and orders" />, and the inverted question (*pourriez-vous…?*) from <LessonLink id="c1-stylistic-inversion" text="the lesson on stylistic inversion" />. You know *recadrer le débat* from <LessonLink id="c1-leading-a-meeting" text="the lesson on leading a meeting" />, and *si je peux me permettre* from <LessonLink id="b2-debating" text="the lesson on debating" />. *Un entretien* in the sense of a media interview comes from <LessonLink id="b2-reported-speech-past" text="the lesson on reported speech in the past" />.
+
+**The interview, the cabinetmaker and the journalist in this lesson are invented.** The transcript is a written script of spoken French in a formal setting.
+
+## Open and closed questions
+
+<VocabTable group="types" />
+
+*Une question ouverte* (an open question) asks for a story, a view or an explanation: *comment…?*, *pourquoi…?*, *qu'est-ce qui…?*. *Une question fermée* (a closed question) is answered by yes, no or a fact: *vous travaillez seul ?*, *depuis quand ?*.
+
+Both are useful. As a rule of thumb, open an interview with an open question, which lets the person settle in and talk, and use closed questions to check a fact. An interview made only of closed questions gets short answers and tells you what you already knew.
+
+*Une question orientée* (a leading question) *oriente la réponse* (steers the answer): *le métier va disparaître, n'est-ce pas ?*. It tells the person what you expect. Ask instead for their view: *comment voyez-vous l'avenir du métier ?*
+
+<Example fr="Comment êtes-vous devenue ébéniste ?" en="How did you become a cabinetmaker?" />
+
+<Example fr="Vous formez des apprentis aujourd'hui ?" en="Do you train apprentices today?" />
+
+## Following up
+
+<VocabTable group="follow" />
+
+The best questions are often not on your list: they come from the answer you've just heard. To *relancer* (follow up), pick up a word the person used and ask for more. That's *une question de relance* (a follow-up question): *vous dites « par hasard » : que s'est-il passé exactement ?*
+
+Before you move on, check that you've understood. Reformulate in your own words, and let the person correct you:
+
+- **Si je vous suis bien** (if I follow you correctly), *le métier change, mais il ne disparaît pas ?*
+- **Vous voulez dire que…?** (you mean that…?)
+- **Pourriez-vous préciser ?** (could you be more specific?)
+
+A reformulation is a question, not a conclusion: it ends with a question mark, and the interviewee has the last word.
+
+<Example fr="Une question de relance reprend un mot de la réponse qu'on vient d'entendre." en="A follow-up question picks up a word from the answer you've just heard." />
+
+<Example fr="Vous dites que vous êtes arrivée dans ce métier par hasard : pourriez-vous préciser ?" en="You say you came into this trade by chance: could you be more specific?" />
+
+## Pressing politely
+
+<VocabTable group="press" />
+
+Sometimes the person *élude la question* (sidesteps the question), often without meaning to, with a general answer. You can *revenir à la charge* (press the point again) without being rude:
+
+- **Acknowledge, then insist**: *je me permets d'insister* (allow me to insist), *si je peux me permettre*.
+- **Narrow the question**: ask for *un exemple concret*, a moment, a name.
+- **Bring the interview back**: *pour revenir à votre métier…* (to come back to your trade…). That's *recadrer*, as in a meeting.
+
+Press once or twice, not more. If the answer still doesn't come, note it and move on: the silence is information too.
+
+<Example fr="Je me permets d'insister : à quoi voyez-vous, concrètement, qu'un apprenti sera bon ?" en="Allow me to insist: how can you tell, in concrete terms, that an apprentice will be good?" />
+
+## Registers of a question
+
+The same question has several forms, and each belongs to a register:
+
+- **Formal** (inversion): *quand avez-vous commencé ?*
+- **Everyday** (*est-ce que*): *quand est-ce que vous avez commencé ?*
+- **Familiar, spoken** (intonation, question word at the end): *vous avez commencé quand ?*
+
+None of them is wrong. In a written interview for a magazine, the journalist's questions are usually formal or everyday; the familiar form belongs in a conversation. In the exercises, the key accepts the register the instruction asks for, and only that one.
+
+## The vocabulary of the trade
+
+<VocabTable group="craft" />
+
+The interviewee practises *un métier* (a trade): she's *une ébéniste* (a cabinetmaker), and she *forme* (trains) *des apprentis* (apprentices).
+
+<Example fr="Annick Brunel forme deux apprentis dans son atelier." en="Annick Brunel trains two apprentices in her workshop." />
+
+## The model: an interview transcript
+
+The interview below is invented. Clément Vidal, a journalist for a local magazine, interviews Annick Brunel, a cabinetmaker. It's a written script of spoken French in a formal setting; they use *vous*.
+
+*Clément Vidal : Annick Brunel, merci de me recevoir dans votre atelier. Comment êtes-vous devenue ébéniste ?*
+
+*Annick Brunel : Un peu par hasard, pour être honnête. Je faisais des études de comptabilité, et je n'étais pas très heureuse.*
+
+*Clément Vidal : Vous dites « par hasard » : que s'est-il passé exactement ?*
+
+*Annick Brunel : Un été, j'ai aidé un voisin à réparer une vieille table. J'ai aimé le bois, le silence, le geste. À la rentrée, j'ai changé de formation.*
+
+*Clément Vidal : Vous formez des apprentis aujourd'hui ?*
+
+*Annick Brunel : Oui, deux.*
+
+*Clément Vidal : Depuis quand avez-vous votre propre atelier ?*
+
+*Annick Brunel : Depuis douze ans. Avant, j'ai travaillé pour un autre ébéniste, pendant plusieurs années.*
+
+*Clément Vidal : À quoi ressemble une journée ici ?*
+
+*Annick Brunel : Le matin, je dessine et je prépare le bois. L'après-midi, nous travaillons ensemble, mes deux apprentis et moi, sur les commandes. Le soir, je réponds aux clients. Aucune journée ne ressemble à une autre, et c'est ce que j'aime dans ce métier.*
+
+*Clément Vidal : Qu'est-ce qu'un bon apprenti, selon vous ?*
+
+*Annick Brunel : Vous savez, c'est surtout une question de caractère.*
+
+*Clément Vidal : Je me permets d'insister : à quoi voyez-vous, concrètement, qu'un apprenti sera bon ?*
+
+*Annick Brunel : À la façon dont il réagit à son premier meuble raté. S'il se décourage, c'est difficile. S'il veut comprendre son erreur et recommencer, c'est bon signe.*
+
+*Clément Vidal : Comment voyez-vous l'avenir du métier ?*
+
+*Annick Brunel : Il change. Les clients veulent faire réparer leurs meubles plutôt que d'en acheter de nouveaux. Et puis, avec les travaux dans le quartier, la circulation est devenue impossible…*
+
+*Clément Vidal : Pour revenir à votre métier : si je vous suis bien, il change, mais il ne disparaît pas ?*
+
+*Annick Brunel : C'est exactement ça. On répare plus qu'avant, et on a besoin de gens formés pour le faire. C'est une bonne nouvelle pour les jeunes qui veulent apprendre.*
+
+*Clément Vidal : Annick Brunel, merci.*
+
+(Clément Vidal: Annick Brunel, thank you for welcoming me to your workshop. How did you become a cabinetmaker? / Annick Brunel: Somewhat by chance, to be honest. I was studying accountancy, and I wasn't very happy. / Clément Vidal: You say "by chance": what happened exactly? / Annick Brunel: One summer, I helped a neighbour repair an old table. I loved the wood, the silence, the gestures. When term started again, I changed courses. / Clément Vidal: Do you train apprentices today? / Annick Brunel: Yes, two. / Clément Vidal: How long have you had your own workshop? / Annick Brunel: For twelve years. Before that, I worked for another cabinetmaker, for several years. / Clément Vidal: What is a day here like? / Annick Brunel: In the morning, I draw and prepare the wood. In the afternoon, we work together, my two apprentices and I, on the orders. In the evening, I answer customers. No day is like another, and that's what I love about this trade. / Clément Vidal: What makes a good apprentice, in your view? / Annick Brunel: You know, it's mainly a question of character. / Clément Vidal: Allow me to insist: how can you tell, in concrete terms, that an apprentice will be good? / Annick Brunel: By the way they react to their first failed piece of furniture. If they lose heart, it's difficult. If they want to understand their mistake and start again, it's a good sign. / Clément Vidal: How do you see the future of the trade? / Annick Brunel: It's changing. Customers want to have their furniture repaired rather than buy new pieces. And then, with the works in the neighbourhood, the traffic has become impossible… / Clément Vidal: To come back to your trade: if I follow you correctly, it's changing, but it isn't disappearing? / Annick Brunel: That's exactly it. People repair more than before, and we need trained people to do it. That's good news for young people who want to learn. / Clément Vidal: Annick Brunel, thank you.)
+
+<VocabTable group="glossary" />
+
+## The interviewer's notes
+
+Clément Vidal's notes, written after the interview, show what each question was for.
+
+- **The opening** is an open question (*comment êtes-vous devenue ébéniste ?*), so that she can tell her story in her own words.
+- **The follow-up** picks up her own words, *par hasard*, and asks for the facts behind them. It gets the best story of the interview: the old table.
+- **The closed questions** (*vous formez des apprentis ?*, *depuis quand…?*) check facts, and get them: two apprentices, twelve years.
+- **A second open question** (*à quoi ressemble une journée ici ?*) gets a description in her own words, and the reason she loves her trade.
+- **The general answer** (*une question de caractère*) sidesteps the question. *Je me permets d'insister* and *concrètement* press once, politely, and get a precise answer: the first failed piece.
+- **The neutral question** about the future: he had first written *le métier va disparaître, n'est-ce pas ?*, a leading question, and replaced it.
+- **The digression** about traffic is cut short by *pour revenir à votre métier*, followed by a reformulation (*si je vous suis bien*). She confirms it, and adds her own conclusion.
+- **The register**: inversion in his questions (*comment êtes-vous devenue…?*), *vous* throughout; *on* in her last answer (for people in general, then for those in the trade) is spoken French, normal in a transcript.
+
+<Callout type="warning" title="A reformulation isn't a leading question">
+  Learners sometimes turn a reformulation into a statement that puts words in the person's mouth: *donc le métier va disparaître*. A reformulation repeats what the person said, as a question, and lets them correct it: **si je vous suis bien, le métier change, mais il ne disparaît pas ?**
+</Callout>
+
+<Callout type="tip" title="Listen for the word to pick up">
+  While the person answers, listen for one word that surprises you or stays vague (*par hasard*, *de caractère*, *compliqué*). Write it down, and make your next question out of it. A follow-up built on their own word shows you've listened, and it usually gets the most precise answer of the interview.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-review-mediation" text="the review of mediation and negotiation" /> brings the unit together around one invented dispute between neighbours.
+
+===== content/lessons/c2/review-mediation.mdx =====
+---
+id: "c2-review-mediation"
+title: "Review: Mediation and Negotiation"
+description: "Review Unit 6 with one invented dispute between neighbours, followed through a mediation, a negotiation and a written summary with the same facts throughout; then write a neutral relay of one side's view."
+level: "C2"
+unit: "Mediation and negotiation"
+order: 35
+type: "review"
+tags: ["review", "mediation", "negotiation", "neutrality", "summary"]
+prerequisites: ["c2-mediation", "c2-negotiation", "c2-structured-oral-argument", "c2-interviews-and-questioning"]
+related: ["c2-implicit-meaning", "c1-leading-a-meeting", "c2-review-specialized"]
+vocab:
+  - { id: "c2-review-mediation-v001", group: "new", fr: "un médiateur / une médiatrice", pron: "uhn may-dyah-TUHR / ewn may-dyah-TREESS", en: "a mediator" }
+  - { id: "c2-review-mediation-v002", group: "new", fr: "une médiation", pron: "ewn may-dyah-SYOHN", en: "a mediation" }
+  - { id: "c2-review-mediation-v003", group: "new", fr: "désamorcer un conflit", pron: "day-zah-mor-SAY uhn kohn-FLEE", en: "to defuse a conflict" }
+  - { id: "c2-review-mediation-v004", group: "new", fr: "un différend", pron: "uhn dee-fay-RAHN", en: "a disagreement, a dispute" }
+  - { id: "c2-review-mediation-v005", group: "glossary", fr: "de nuit", pron: "duh NWEE", en: "at night (of work: on night shifts)" }
+  - { id: "c2-review-mediation-v006", group: "glossary", fr: "un garage", pron: "uhn gah-RAHZH", en: "a garage" }
+  - { id: "c2-review-mediation-v007", group: "glossary", fr: "insupportables (insupportable)", pron: "an-sew-por-TAH-bluh", en: "unbearable" }
+  - { id: "c2-review-mediation-v008", group: "glossary", fr: "garde (garder des enfants)", pron: "GARD", en: "look after (to look after children)" }
+  - { id: "c2-review-mediation-v009", group: "glossary", fr: "un jour libre", pron: "uhn zhoor LEE-bruh", en: "a day off" }
+exercises:
+  - id: "c2-review-mediation-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez le relais neutre et fidèle de la phrase de Mireille : « Ses outils sont insupportables, je voudrais qu'il n'y ait pas de bruit avant midi. »"
+    options: ["Mireille est gênée par le bruit des outils, et elle demande qu'il n'y ait pas de bruit avant midi.", "Mireille trouve Lionel insupportable.", "Mireille est gênée par le bruit des outils."]
+    answers: ["Mireille est gênée par le bruit des outils, et elle demande qu'il n'y ait pas de bruit avant midi."]
+    explanation: "The first keeps her need and her request, without the judging word. The second judges Lionel; the third drops the request (c2-mediation)."
+  - id: "c2-review-mediation-ex002"
+    type: "error-correction"
+    prompt: "Corrigez le relais, qui juge Mireille, en commençant par « Mireille dit que le bruit » : Mireille se plaint encore du bruit."
+    answers: ["Mireille dit que le bruit la gêne"]
+    explanation: "Se plaint encore judges her; a mediator attributes the view and states the need."
+  - id: "c2-review-mediation-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez l'expression qui convient au compte rendu écrit de la médiation."
+    options: ["un compromis", "couper la poire en deux", "lâcher du lest"]
+    answers: ["un compromis"]
+    explanation: "The other two are familiar; a written summary uses the everyday or formal term (c2-negotiation)."
+  - id: "c2-review-mediation-ex004"
+    type: "reformulation"
+    prompt: "Reformulez avec « à condition que » : Mireille accepte onze heures si Lionel fait ses travaux bruyants porte fermée."
+    strictAccents: true
+    answers: ["Mireille accepte onze heures à condition que Lionel fasse ses travaux bruyants porte fermée", "À condition que Lionel fasse ses travaux bruyants porte fermée, Mireille accepte onze heures"]
+    explanation: "À condition que takes the subjunctive: fasse."
+  - id: "c2-review-mediation-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez ce que fait Lionel dans la phrase : « Je comprends qu'elle dorme le matin, mais midi, c'est trop tard. »"
+    options: ["il reconnaît ce qui est juste, puis il répond", "il martèle sa thèse", "il pose une question fermée"]
+    answers: ["il reconnaît ce qui est juste, puis il répond"]
+    explanation: "Like a speaker who says l'objection est juste before answering it, he grants Mireille's point, then gives his reason (c2-structured-oral-argument)."
+  - id: "c2-review-mediation-ex006"
+    type: "register-shift"
+    prompt: "Transformez en registre courant, pour le compte rendu, avec « trouver un compromis » : Ils ont coupé la poire en deux."
+    answers: ["Ils ont trouvé un compromis"]
+    explanation: "Couper la poire en deux is familiar; a written summary says trouver un compromis (c2-negotiation)."
+  - id: "c2-review-mediation-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le type de la question de Josiane à Lionel : « Qu'est-ce qui serait possible pour vous, le samedi ? »"
+    options: ["une question ouverte", "une question fermée", "une question orientée"]
+    answers: ["une question ouverte"]
+    explanation: "It invites Lionel's own proposal, without suggesting one (c2-interviews-and-questioning)."
+  - id: "c2-review-mediation-ex008"
+    type: "error-correction"
+    prompt: "Corrigez la question orientée, en commençant par « Comment voyez-vous » : Vous faites trop de bruit, n'est-ce pas ?"
+    answers: ["Comment voyez-vous la question du bruit ?"]
+    explanation: "A mediator asks for each person's view; n'est-ce pas proposes the answer."
+  - id: "c2-review-mediation-ex009"
+    type: "fill-in"
+    prompt: "Accordez « médiateur » : Josiane a servi de ___ entre ses deux voisins."
+    answers: ["médiatrice"]
+    explanation: "Un médiateur, une médiatrice: the person who helps two sides reach an agreement."
+  - id: "c2-review-mediation-ex010"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « désamorcer un conflit »."
+    options: ["to defuse a conflict", "to start a conflict", "to win a conflict"]
+    answers: ["to defuse a conflict"]
+    explanation: "Désamorcer: to stop something from going off, here a conflict."
+  - id: "c2-review-mediation-ex011"
+    type: "translate"
+    prompt: "Traduisez (un différend, à propos de) : The two neighbours have a dispute about noise."
+    strictAccents: true
+    answers: ["Les deux voisins ont un différend à propos du bruit"]
+    explanation: "Un différend: a disagreement between two people, often about a practical matter."
+  - id: "c2-review-mediation-ex012"
+    type: "translate"
+    prompt: "Traduisez (désamorcer, au passé composé) : She defused the conflict."
+    strictAccents: true
+    answers: ["Elle a désamorcé le conflit"]
+    explanation: "Désamorcer un conflit: to defuse it."
+  - id: "c2-review-mediation-ex013"
+    type: "translate"
+    prompt: "Traduisez (faire le point, dans un mois, nous) : We'll review the situation in a month."
+    answers: ["Nous ferons le point dans un mois"]
+    explanation: "Faire le point: to take stock, to review how things stand."
+  - id: "c2-review-mediation-ex014"
+    type: "error-correction"
+    prompt: "Corrigez le compte rendu, qui ne suit pas l'accord, en gardant le reste de la phrase : Pas d'outils bruyants le samedi avant midi."
+    answers: ["Pas d'outils bruyants le samedi avant onze heures"]
+    explanation: "Midi was Mireille's first request; the agreement is onze heures. A summary records what was agreed, not what was asked."
+  - id: "c2-review-mediation-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : « The mediator passes on each point of view without judging it. »"
+    words: ["La", "médiatrice", "transmet", "chaque", "point", "de", "vue", "sans", "le", "juger"]
+    answers: ["La médiatrice transmet chaque point de vue sans le juger"]
+    explanation: "The rule of the whole unit: attribute each view, and add no judgment."
+  - id: "c2-review-mediation-ex016"
+    type: "writing-task"
+    prompt: "Rédigez le message neutre (40 à 80 mots) que Josiane envoie à Lionel pour lui relayer le point de vue de Mireille, sans aucun mot qui juge, et sans rien ajouter."
+    model: "Bonjour Lionel, je vous relaie ce que Mireille m'a dit. Elle travaille de nuit le vendredi, et elle dort le samedi matin. Depuis un mois, le bruit de vos outils, dès huit heures, la réveille. Elle vous demande qu'il n'y ait pas de bruit le samedi avant midi. Je vous propose d'en parler tous les trois. Josiane"
+    checklist: ["Did you keep every fact (her nights, the time, since when)?", "Did you keep her request (no noise before noon)?", "Did you attribute everything to Mireille (elle m'a dit, elle demande)?", "Did you leave out every judging word (insupportable)?", "Is your only addition clearly yours (a proposal to talk)?"]
+    wordTarget: [40, 80]
+---
+
+By the end of this lesson you'll be able to follow one disagreement from the first messages to a written agreement: relay each side neutrally, negotiate a compromise, and write a summary that matches every fact.
+
+## What you've learned
+
+Skim this list, and go back to anything that feels shaky.
+
+- **Mediation**: you know *servir d'intermédiaire*, *en substance*, *si je résume* and *le texte ne précise pas*, and that a relay keeps every fact and condition, from <LessonLink id="c2-mediation" text="the lesson on explaining a text to someone else" />.
+- **Negotiation**: you know *faire une concession*, *une solution de repli*, *récapituler* and the registers of *couper la poire en deux* and *lâcher du lest*, from <LessonLink id="c2-negotiation" text="the lesson on negotiating in writing" />.
+- **The oral argument**: you know *un fil rouge*, *prévenir une objection*, *marteler* and *en un mot*, from <LessonLink id="c2-structured-oral-argument" text="the lesson on a structured oral argument" />.
+- **Questions**: you know *une question ouverte*, *une question fermée*, *une question orientée*, *relancer* and *revenir à la charge*, from <LessonLink id="c2-interviews-and-questioning" text="the lesson on asking precise questions" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+These words name the role the unit has been preparing you for. *Un médiateur* or *une médiatrice* (a mediator) helps two people who have *un différend* (a disagreement) to find an agreement themselves. The process is *une médiation*. Its first aim is often to *désamorcer un conflit* (defuse a conflict) before it grows. You know *un conflit* from <LessonLink id="b1-relationships" text="the lesson on relationships" />. *Un différend* is usually narrower: a disagreement about a precise point, which a conversation can still settle.
+
+In this lesson, the mediator is a neighbour, and the mediation is a communication skill: listening, relaying, asking, summing up. It isn't a legal process, and the lesson describes no official procedure.
+
+<Example fr="Une bonne médiatrice ne décide pas à la place des voisins : elle les aide à trouver un accord." en="A good mediator doesn't decide for the neighbours: she helps them find an agreement." />
+
+<Example fr="Le premier message de Josiane a suffi à désamorcer le conflit." en="Josiane's first message was enough to defuse the conflict." />
+
+## Staying neutral
+
+A mediator relays two views, and both sides must recognize their own. As a rule of thumb, a neutral relay:
+
+- **Attributes every view**: *Mireille dit que…*, *selon Lionel…*, *si je résume ce que chacun m'a dit…*
+- **Keeps every fact and every request**: the times, the reasons, what each person asks for.
+- **Turns judgments into needs**: *ses outils sont insupportables* becomes *elle est gênée par le bruit des outils*; *elle exagère* is left out, because it's a judgment of the other person, not a fact. This is the same tool as the neutral version in the lesson on implicit meaning, applied to people instead of a press article.
+- **Asks open questions**: *qu'est-ce qui serait possible pour vous ?*, never *vous faites trop de bruit, n'est-ce pas ?*
+- **Adds nothing**, except a proposal clearly marked as the mediator's own: *je vous propose de…*
+
+The summary at the end follows the rule of the negotiation lesson: it records what was agreed, in the words of the agreement, and every condition.
+
+## The situation
+
+The three texts below follow one invented disagreement. Every fact appears in each text where it belongs.
+
+- **The noise**: for a month, Lionel Lefort has been repairing bicycles in his garage on Saturday mornings, with noisy tools, from eight o'clock.
+- **Mireille's need**: Mireille Delmas, his neighbour, works nights on Fridays and sleeps on Saturday mornings. She asks for no noise before noon.
+- **Lionel's need**: Saturday is his only day off, and he looks after his children in the afternoon. He offers ten o'clock.
+- **The agreement**: no noisy tools on Saturdays before eleven o'clock, and the noisy work done with the garage door closed.
+- **The follow-up**: they will review the situation in a month.
+
+The neighbours, the mediator and the dispute are invented.
+
+## The model: the mediation
+
+First, each neighbour writes to Josiane Perret, who lives in the same street. She answers both of them. They use *vous*.
+
+*Message de Mireille à Josiane. Josiane, je ne sais plus quoi faire. Je travaille de nuit le vendredi, et le samedi matin, je dors. Depuis un mois, Lionel répare des vélos dans son garage dès huit heures, et ses outils sont insupportables. Je voudrais qu'il n'y ait pas de bruit avant midi.*
+
+*Message de Lionel à Josiane. Josiane, je répare des vélos le samedi parce que c'est mon seul jour libre. Mireille exagère un peu. Je comprends qu'elle dorme le matin, mais midi, c'est trop tard : l'après-midi, je garde mes enfants.*
+
+*Message de Josiane aux deux voisins. Bonjour à tous les deux. Je vous propose de servir de médiatrice. Si je résume ce que chacun m'a dit : Mireille travaille de nuit le vendredi et dort le samedi matin ; depuis un mois, elle est gênée par le bruit des outils que Lionel utilise dans son garage dès huit heures, et elle demande qu'il n'y ait pas de bruit avant midi. Lionel répare des vélos le samedi parce que c'est son seul jour libre ; il dit comprendre que Mireille dorme le matin, mais midi lui semble trop tard, car il garde ses enfants l'après-midi. Lionel, qu'est-ce qui serait possible pour vous, le samedi ?*
+
+(Message from Mireille to Josiane. Josiane, I don't know what to do any more. I work nights on Fridays, and on Saturday mornings, I sleep. For a month, Lionel has been repairing bicycles in his garage from eight o'clock, and his tools are unbearable. I would like there to be no noise before noon. / Message from Lionel to Josiane. Josiane, I repair bicycles on Saturdays because it's my only day off. Mireille is exaggerating a bit. I understand that she sleeps in the morning, but noon is too late: in the afternoon, I look after my children. / Message from Josiane to both neighbours. Hello to you both. I suggest that I act as mediator. To sum up what each of you told me: Mireille works nights on Fridays and sleeps on Saturday mornings; for a month, she has been bothered by the noise of the tools that Lionel uses in his garage from eight o'clock, and she asks for no noise before noon. Lionel repairs bicycles on Saturdays because it's his only day off; he says he understands that Mireille sleeps in the morning, but noon seems too late to him, because he looks after his children in the afternoon. Lionel, what would be possible for you on Saturdays?)
+
+## The model: the negotiation
+
+The neighbours then negotiate through Josiane's messages.
+
+*Message de Lionel. Je peux commencer plus tard : pas d'outils bruyants avant dix heures.*
+
+*Message de Mireille. Dix heures, c'est encore tôt pour moi. Je pourrais accepter onze heures, à condition que Lionel fasse ses travaux bruyants porte fermée.*
+
+*Message de Josiane. Je récapitule la proposition de Mireille : pas d'outils bruyants le samedi avant onze heures, et la porte du garage fermée pendant les travaux bruyants. Lionel, est-ce que cela vous convient ?*
+
+*Message de Lionel. Onze heures, c'est d'accord, et je fermerai la porte. Je propose que nous fassions le point dans un mois.*
+
+*Message de Mireille. D'accord pour faire le point dans un mois. Merci à vous deux.*
+
+(Message from Lionel. I can start later: no noisy tools before ten o'clock. / Message from Mireille. Ten o'clock is still early for me. I could accept eleven o'clock, provided that Lionel does his noisy work with the door closed. / Message from Josiane. I'll sum up Mireille's proposal: no noisy tools on Saturdays before eleven o'clock, and the garage door closed during the noisy work. Lionel, does that suit you? / Message from Lionel. Eleven o'clock is fine, and I'll close the door. I suggest we review the situation in a month. / Message from Mireille. Agreed to review it in a month. Thank you both.)
+
+## The model: the written summary
+
+Josiane sends both neighbours a short summary of the mediation.
+
+*Compte rendu de la médiation entre Mireille Delmas et Lionel Lefort, rédigé par Josiane Perret. Le différend portait sur le bruit des outils de Lionel Lefort, qui répare des vélos dans son garage le samedi matin dès huit heures, depuis un mois. Mireille Delmas, qui travaille de nuit le vendredi et dort le samedi matin, demandait qu'il n'y ait pas de bruit avant midi. Lionel Lefort, dont le samedi est le seul jour libre et qui garde ses enfants l'après-midi, proposait dix heures. Les deux voisins ont trouvé un compromis : pas d'outils bruyants le samedi avant onze heures, et les travaux bruyants se feront porte du garage fermée. Ils feront le point dans un mois.*
+
+(Summary of the mediation between Mireille Delmas and Lionel Lefort, written by Josiane Perret. The disagreement concerned the noise of the tools of Lionel Lefort, who repairs bicycles in his garage on Saturday mornings from eight o'clock, for the past month. Mireille Delmas, who works nights on Fridays and sleeps on Saturday mornings, asked for no noise before noon. Lionel Lefort, whose only day off is Saturday and who looks after his children in the afternoon, offered ten o'clock. The two neighbours found a compromise: no noisy tools on Saturdays before eleven o'clock, and the noisy work will be done with the garage door closed. They will review the situation in a month.)
+
+<VocabTable group="glossary" />
+
+## The same facts throughout
+
+| Fact | Mediation | Negotiation | Summary |
+|---|---|---|---|
+| The noise | *depuis un mois… dès huit heures* | — | *le samedi matin dès huit heures, depuis un mois* |
+| Mireille's need | *travaille de nuit le vendredi… pas de bruit avant midi* | *dix heures, c'est encore tôt* | *demandait qu'il n'y ait pas de bruit avant midi* |
+| Lionel's need | *son seul jour libre… il garde ses enfants l'après-midi* | *pas d'outils bruyants avant dix heures* | *proposait dix heures* |
+| The agreement | — | *onze heures… à condition que… porte fermée* | *pas d'outils bruyants le samedi avant onze heures… porte du garage fermée* |
+| The follow-up | — | *faire le point dans un mois* | *ils feront le point dans un mois* |
+
+Two things from the first messages don't reach Josiane's relay or the summary: *insupportables* and *Mireille exagère un peu*. They are judgments of the other person, not facts or requests, and leaving them out is what keeps the relay neutral. Mireille's *je ne sais plus quoi faire* is a feeling, and the relay replaces it with her need. Every fact and every request is still there.
+
+## Your turn
+
+The writing task in the exercises asks you to write the message that Josiane could send to Lionel alone, to relay Mireille's view before the mediation starts. Keep every fact and her request, attribute each one to her, and leave out every judging word. Your only addition should be a proposal, clearly yours. Then compare your message with the model: list the facts in each, one per line, and check that none of Mireille's facts or requests is missing, and that no judging word has slipped in.
+
+<Callout type="warning" title="A summary records the agreement, not the first request">
+  When they write the final summary, learners sometimes copy a figure from the start of the exchange: *pas de bruit avant midi*. That was Mireille's request; the agreement is **pas d'outils bruyants le samedi avant onze heures**. Write the summary from the last messages, then check each figure against them.
+</Callout>
+
+<Callout type="tip" title="Ask each side to check your relay">
+  Before you send a relay to the other person, send it back to the person whose view it is, with a short question: *est-ce bien ce que vous vouliez dire ?* A view they've approved is hard to dispute, and it often makes them more ready to listen to the other side.
+</Callout>
+
+## What's next
+
+The next unit is about the French language and its literatures. It starts with the lesson on a short history of French.

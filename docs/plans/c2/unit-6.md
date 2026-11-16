@@ -1,6 +1,13 @@
 # C2 Unit 6 plan: Mediation and negotiation
 
-Status: plan only. Rules: the "C2 conventions" in CLAUDE.md.
+Status: **written in Prompt 47.** Rules: the "C2 conventions" in CLAUDE.md.
+
+Changes made while writing (also in docs/syllabus.md):
+- Lesson 31: the relay keeps every fact ("select the order, not the facts"), so that it follows the rewritten-version rule; the mediator's own words come last, labelled. *S'inscrire auprès de* is known from c2-review-writing. Prerequisites: c2-implicit-meaning (neutral versions).
+- Lesson 32: *une contre-proposition*, *une marge de manœuvre*, *trouver un terrain d'entente* (b2-negotiating), *acter* (c1-leading-a-meeting), *un compromis* (b1) and *couper la poire en deux* (c1-advanced-idioms) are recapped; new are *faire une concession*, *une solution de repli*, *consentir un effort*, *lâcher du lest*, *un plan B*, *récapituler*. The plan's *une marge de négociation* was dropped (the course has *une marge de manœuvre*).
+- Lesson 33: *une objection* is recapped from b2-debating; the dislocation from c1-dislocation-and-fronting.
+- Lesson 34: *une question piège* (B2), *recadrer le débat* (C1) and *si je peux me permettre* (B2) are recapped; the transcript is the longer text, so the lesson has no separate dialogue.
+- Lesson 35: a fourth new word, *un différend*; the dispute is noise from a garage workshop on Saturday mornings.
 
 Speaking skills practised in writing: the site is text-only, so each lesson works through scripts, transcripts and written exchanges. C1 already taught debate, speeches, diplomacy, meetings and the short exposé; this unit adds what C2 asks for: mediating between people and texts, negotiating towards an agreement, and building a structured oral argument.
 

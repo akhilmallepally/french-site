@@ -1,6 +1,6 @@
 # All lesson data
 
-310 written lessons, in course order.
+315 written lessons, in course order.
 
 ## a1-greetings
 
@@ -12208,7 +12208,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 
 - c2-medical-french-ex001 | multiple-choice | Indiquez le sens de « la posologie » sur une notice. | ["how much to take, and how often","the list of side effects","the price of the medicine"] | ["how much to take, and how often"] | false | La posologie is the dosage. In the invented leaflet, it says only: follow the dose your doctor prescribed.
 - c2-medical-french-ex002 | multiple-choice | Indiquez le sens de « une contre-indication ». | ["a case in which the medicine must not be taken","an instruction to take the medicine","a word for an argument"] | ["a case in which the medicine must not be taken"] | false | Une contre-indication: a situation (an allergy, an illness) in which a medicine must not be used.
-- c2-medical-french-ex003 | multiple-choice | Choisissez le féminin de « aigu » en orthographe traditionnelle. | ["aiguë","aigue","aigus"] | ["aiguë"] | false | The traditional spelling is aiguë; the 1990 spelling rectifications write aigüe, and both are correct. Without the trema, aigue would rhyme with figue. Aigus is the masculine plural.
+- c2-medical-french-ex003 | multiple-choice | Choisissez le féminin de « aigu » en orthographe traditionnelle. | ["aiguë","aigue","aigus"] | ["aiguë"] | false | The traditional spelling is aiguë; the 1990 spelling rectifications write aigüe, and both are correct. The trema shows that the u is pronounced; without it, the u would be silent, as in aigue-marine. Aigus is the masculine plural.
 - c2-medical-french-ex004 | multiple-choice | Indiquez le sens de « une tumeur maligne ». | ["a cancerous tumour","a harmless tumour","a tumour that has been removed"] | ["a cancerous tumour"] | false | Malin, maligne in medicine: malignant. A harmless tumour is une tumeur bénigne.
 - c2-medical-french-ex005 | multiple-choice | Indiquez le sens de « une gastralgie ». | ["une douleur de l'estomac","une inflammation de l'estomac","une maladie chronique du foie"] | ["une douleur de l'estomac"] | false | -algie means pain. Inflammation of the stomach is une gastrite (-ite).
 - c2-medical-french-ex006 | fill-in | Accordez l'adjectif « bénin » : Heureusement, la tumeur est ___. | — | ["bénigne"] | false | Bénin has an irregular feminine: bénigne.
@@ -12991,3 +12991,256 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-review-writing-ex014 | reorder | Remettez dans l'ordre : First the notes, then the draft, then the revision. | — | ["D'abord les notes, puis le premier jet, puis la révision"] | false | The order of the stages: notes, first draft, revision.
 - c2-review-writing-ex015 | multiple-choice | Indiquez l'étape qui vient après la version revue, quand on demande un texte plus court. | ["the contraction","the notes","the first draft"] | ["the contraction"] | false | The contraction reduces the revised text to the proportion asked for.
 - c2-review-writing-ex016 | writing-task | À partir de ces notes, rédigez un court article de 50 à 90 mots, puis relisez-le : « Fête de quartier, samedi 14 juin ; place de la Gare ; repas partagé, musique, jeux pour les enfants ; chacun apporte un plat ; besoin de bénévoles pour installer les tables. » | — | — | false | —
+
+## c2-mediation
+
+### Vocab
+
+fr | pron | en | note
+
+- servir d'intermédiaire | sehr-VEER dan-tehr-may-DYEHR | to act as a go-between | —
+- relayer une information | ruh-leh-YAY ew-nan-for-mah-SYOHN | to pass on a piece of information | —
+- fidèle à | fee-DEL ah | faithful to (a text, what was said) | —
+- l'essentiel (m.) | leh-sahn-SYEL | the main points, what matters most | —
+- directement | dee-rek-tuh-MAHN | directly | —
+- concerner | kohn-sehr-NAY | to concern, to affect | —
+- en substance | ahn sewp-STAHNSS | in substance, essentially | —
+- si je résume | see zhuh ray-ZEWM | to sum up, if I sum up | —
+- le texte dit que | luh tekst DEE kuh | the text says that | —
+- selon l'avis | suh-LOHN lah-VEE | according to the notice | —
+- pour ma part | poor mah PAR | for my part, as for me | —
+- le texte ne précise pas | luh tekst nuh pray-SEEZ PAH | the text doesn't say (exactly) | —
+- se renseigner | suh rahn-seh-NYAY | to find out, to make enquiries | —
+- au hasard | oh ah-ZAR | at random, by guessing | —
+- un avis aux habitants | uh-nah-VEE oh-zah-bee-TAHN | a notice to residents | —
+- une canalisation | ewn kah-nah-lee-zah-SYOHN | a pipe (for water) | —
+- couper l'eau | koo-PAY LOH | to cut off the water | —
+- le stationnement | luh stah-syonn-MAHN | parking | —
+- sous réserve de disponibilité | soo ray-ZEHRV duh dees-poh-nee-bee-lee-TAY | subject to availability | —
+- une personne à mobilité réduite | ewn pehr-SONN ah moh-bee-lee-TAY ray-DWEET | a person with reduced mobility | —
+- se déplacer difficilement | suh day-plah-SAY dee-fee-seel-MAHN | to have difficulty getting about | —
+- le remplacement | luh rahn-plass-MAHN | replacement | —
+- garés (garer) | gah-RAY | parked (to park) | —
+- un véhicule | uhn vay-ee-KEWL | a vehicle | —
+- devront (devoir) | duh-VROHN | will have to | —
+- le coin (de la rue) | luh KWAN | the corner (of the street) | —
+- une poubelle | ewn poo-BEL | a bin | —
+- déposées (déposer) | day-poh-ZAY | put out, left (to put down) | —
+- l'accueil (m.) | lah-KUH-y | the reception desk | —
+- une boîte aux lettres | ewn bwaht oh LET-ruh | a letterbox | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-mediation-ex001 | multiple-choice | Choisissez le relais fidèle de la phrase : « Les personnes à mobilité réduite peuvent bénéficier, sous réserve de disponibilité, d'une livraison de bouteilles d'eau. » | ["Si vous vous déplacez difficilement, on peut vous livrer de l'eau, s'il en reste.","Si vous vous déplacez difficilement, on vous livrera de l'eau.","Tout le monde peut se faire livrer de l'eau."] | ["Si vous vous déplacez difficilement, on peut vous livrer de l'eau, s'il en reste."] | false | Only the first keeps both the group concerned and the condition (sous réserve de disponibilité: if there are any left).
+- c2-mediation-ex002 | multiple-choice | Choisissez le relais fidèle de la phrase : « L'eau sera coupée de 8 h à 12 h, du lundi au vendredi. » | ["Il n'y aura pas d'eau le matin, du lundi au vendredi.","Il n'y aura pas d'eau du lundi au vendredi.","Il n'y aura pas d'eau le matin, tous les jours."] | ["Il n'y aura pas d'eau le matin, du lundi au vendredi."] | false | The second drops the hours, and the third adds the weekend.
+- c2-mediation-ex003 | multiple-choice | Indiquez ce que Bertrand ajoute à l'avis : « Le texte dit que la livraison est possible s'il en reste ; à mon avis, il vaut mieux vous inscrire tôt. » | ["à mon avis, il vaut mieux vous inscrire tôt","la livraison est possible","s'il en reste"] | ["à mon avis, il vaut mieux vous inscrire tôt"] | false | Le texte dit que introduces the notice; à mon avis introduces his own advice, clearly separated.
+- c2-mediation-ex004 | multiple-choice | Choisissez la meilleure réponse quand l'avis ne dit rien : votre voisine demande si la livraison est gratuite. | ["Le texte ne précise pas ; je vais me renseigner.","Oui, c'est sûrement gratuit.","Non, ce n'est pas gratuit."] | ["Le texte ne précise pas ; je vais me renseigner."] | false | The notice says nothing about the price, so any yes or no would be a guess.
+- c2-mediation-ex005 | fill-in | Conjuguez « préciser » au présent : Je ne connais pas la réponse, car le texte ne le ___ pas. | — | ["précise"] | false | Le texte ne précise pas: the text doesn't say exactly.
+- c2-mediation-ex006 | fill-in | Complétez : En ___, l'avis dit que l'eau sera coupée le matin. | — | ["substance"] | false | En substance: in substance, essentially.
+- c2-mediation-ex007 | fill-in | Complétez avec le verbe à l'infinitif : Mon rôle est de ___ l'information à ma voisine. | — | ["relayer"] | false | Relayer une information: to pass it on.
+- c2-mediation-ex008 | register-shift | Transformez en français courant, en gardant la condition avec « s'il en reste » : La livraison est possible sous réserve de disponibilité. | — | ["La livraison est possible s'il en reste"] | false | Sous réserve de disponibilité becomes s'il en reste: the condition stays.
+- c2-mediation-ex009 | register-shift | Transformez en français courant, avec « on ne pourra pas se garer » : Le stationnement sera interdit dans la rue. | — | ["On ne pourra pas se garer dans la rue"] | false | Here on means people in general. Le stationnement sera interdit becomes on ne pourra pas se garer.
+- c2-mediation-ex010 | reformulation | Reformulez avec « le texte dit que », pour montrer que l'information vient de l'avis : Les poubelles devront être déposées au coin de la rue. | — | ["Le texte dit que les poubelles devront être déposées au coin de la rue"] | false | Le texte dit que shows that the information comes from the notice, not from you.
+- c2-mediation-ex011 | reformulation | Reformulez avec « en substance », placé en tête : L'avis dit, pour l'essentiel, que l'eau sera coupée le matin. | — | ["En substance, l'avis dit que l'eau sera coupée le matin"] | false | En substance replaces pour l'essentiel, at the start of the sentence.
+- c2-mediation-ex012 | error-correction | Corrigez le relais, qui oublie une condition, en ajoutant « à condition de vous inscrire avant le 2 mai » : Avis : « Une livraison est possible ; il faut s'inscrire avant le 2 mai. » Relais : Vous pouvez vous faire livrer de l'eau. | — | ["Vous pouvez vous faire livrer de l'eau à condition de vous inscrire avant le 2 mai"] | true | A relay keeps every condition of the original: here, signing up before 2 May.
+- c2-mediation-ex013 | error-correction | Corrigez le relais, qui ajoute un jugement, en commençant par « La mairie a prévu » : La mairie a eu la bonne idée de prévoir une livraison d'eau. | — | ["La mairie a prévu une livraison d'eau"] | true | A eu la bonne idée is the mediator's judgment, not the notice's content.
+- c2-mediation-ex014 | translate | Traduisez (servir d'intermédiaire, au passé composé, la voisine) : I acted as a go-between for my neighbour and the town hall. | — | ["J'ai servi d'intermédiaire entre ma voisine et la mairie"] | false | Servir d'intermédiaire entre A et B: to act as a go-between for A and B.
+- c2-mediation-ex015 | translate | Traduisez (le texte ne précise pas) : The text doesn't say whether delivery is free. | — | ["Le texte ne précise pas si la livraison est gratuite"] | false | Ne pas préciser si: not to say exactly whether.
+- c2-mediation-ex016 | translate | Traduisez (en substance, l'avis) : In substance, the notice says that the water will be cut off. | — | ["En substance, l'avis dit que l'eau sera coupée"] | false | En substance: the main point, without every detail.
+- c2-mediation-ex017 | reorder | Remettez dans l'ordre : I'll find out at the town hall. | — | ["Je vais me renseigner à la mairie"] | false | Se renseigner: to find out. In the futur proche, the reflexive pronoun comes before the infinitive.
+- c2-mediation-ex018 | writing-task | Rédigez un message de 50 à 90 mots pour expliquer à un voisin âgé cette partie de l'avis, en français courant, sans oublier aucune condition : « Les personnes à mobilité réduite peuvent bénéficier, sous réserve de disponibilité, d'une livraison de bouteilles d'eau à domicile. Il leur appartient de s'inscrire auprès de l'accueil de la mairie avant le jeudi 2 mai. » | — | — | false | —
+
+## c2-negotiation
+
+### Vocab
+
+fr | pron | en | note
+
+- une position de départ | ewn poh-zee-SYOHN duh day-PAR | an opening position | —
+- une offre conditionnelle | ew-NOFF-ruh kohn-dee-syoh-NEL | a conditional offer | —
+- faire une concession | fehr ewn kohn-seh-SYOHN | to make a concession | —
+- un point de blocage | uhn pwan duh bloh-KAHZH | a sticking point | —
+- renoncer à | ruh-nohn-SAY ah | to give up | —
+- laisser la porte ouverte | leh-SAY lah port oo-VEHRT | to leave the door open | —
+- une solution de repli | ewn soh-lew-SYOHN duh ruh-PLEE | a fallback option | —
+- consentir un effort | kohn-sahn-TEER uh-neh-FOR | to make an effort (on a price, formal) | —
+- lâcher du lest | lah-SHAY dew LEST | to give some ground (familiar) | —
+- un plan B | uhn plahn BAY | a plan B (familiar) | —
+- récapituler | ray-kah-pee-tew-LAY | to sum up (the terms) | —
+- par retour de courriel | par ruh-TOOR duh koo-RYEL | by return email | —
+- je reste à votre disposition | zhuh rest ah VOH-truh dees-poh-zee-SYOHN | I remain at your disposal | —
+- un montant | uhn mohn-TAHN | an amount (of money) | —
+- un exemplaire | uh-neg-zahn-PLEHR | a copy (of a book) | —
+- en deux fois | ahn duh FWAH | in two instalments, in two goes | —
+- les fichiers définitifs (m.) | lay fee-SHYAY day-fee-nee-TEEF | the final files | —
+- décaler (une date) | day-kah-LAY | to move, to postpone (a date) | —
+- faire imprimer | fehr an-pree-MAY | to have (something) printed | —
+- un sentier de randonnée | uhn sahn-TYAY duh rahn-doh-NAY | a hiking trail | —
+- la fabrication | lah fah-bree-kah-SYOHN | production (of a book) | —
+- une imprimerie | ew-nan-pree-MREE | a printing firm | —
+- valables (valable) | vah-LAH-bluh | valid | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-negotiation-ex001 | multiple-choice | Choisissez la meilleure réponse à l'imprimeur, qui ne peut pas livrer 2 000 exemplaires le 15 mars pour 5 600 euros, si la date du 15 mars est un point de blocage pour vous. | ["Proposer une solution de repli : une livraison en deux fois.","Ne pas répondre et chercher une autre imprimerie.","Renoncer à la date du 15 mars."] | ["Proposer une solution de repli : une livraison en deux fois."] | false | If the date can't move, trade something else: a delivery in two goes keeps the date for part of the order.
+- c2-negotiation-ex002 | multiple-choice | Indiquez le registre de « lâcher du lest » dans un courriel à un client. | ["familier","soutenu","juridique"] | ["familier"] | false | Lâcher du lest is familiar. In a professional email, write faire une concession or, more formally, consentir un effort.
+- c2-negotiation-ex003 | multiple-choice | Indiquez le sens de « une solution de repli ». | ["a fallback option","a final refusal","a first offer"] | ["a fallback option"] | false | Une solution de repli: what you propose if the first solution isn't possible.
+- c2-negotiation-ex004 | multiple-choice | Choisissez la phrase qui dit non en laissant la porte ouverte. | ["En l'état, nous ne pouvons pas accepter, mais nous pourrions étudier une autre date.","C'est non, et notre décision est définitive.","Votre offre ne nous intéresse pas."] | ["En l'état, nous ne pouvons pas accepter, mais nous pourrions étudier une autre date."] | false | En l'état limits the refusal to the present offer, and the conditional opens another option.
+- c2-negotiation-ex005 | fill-in | Complétez : Chaque partie a fait une ___ : Hortense sur le prix, l'imprimeur sur la date. | — | ["concession"] | false | Faire une concession: to give up part of what you asked for.
+- c2-negotiation-ex006 | fill-in | Complétez avec le verbe à l'infinitif : Avant de conclure, l'imprimeur va ___ les conditions de l'accord. | — | ["récapituler"] | false | Récapituler: to sum up the terms, point by point.
+- c2-negotiation-ex007 | register-shift | Transformez en registre courant, avec « trouver un compromis » : On pourrait couper la poire en deux. | — | ["On pourrait trouver un compromis","Nous pourrions trouver un compromis"] | false | Couper la poire en deux is familiar; trouver un compromis is the everyday phrase.
+- c2-negotiation-ex008 | register-shift | Transformez en registre soutenu, avec « nous ne sommes pas en mesure de » : On ne peut pas baisser le prix. | — | ["Nous ne sommes pas en mesure de baisser le prix"] | false | Ne pas être en mesure de: the formal way of saying ne pas pouvoir.
+- c2-negotiation-ex009 | reformulation | Reformulez avec « à condition que » : Nous accepterons 5 600 euros si la livraison a lieu le 22 mars. | — | ["Nous accepterons 5 600 euros à condition que la livraison ait lieu le 22 mars","À condition que la livraison ait lieu le 22 mars, nous accepterons 5 600 euros"] | true | À condition que takes the subjunctive: ait lieu.
+- c2-negotiation-ex010 | reformulation | Reformulez avec « pour peu que » : Nous accepterions ce prix si la livraison se faisait en deux fois. | — | ["Nous accepterions ce prix pour peu que la livraison se fasse en deux fois","Pour peu que la livraison se fasse en deux fois, nous accepterions ce prix"] | false | Pour peu que (provided that) takes the subjunctive: se fasse.
+- c2-negotiation-ex011 | error-correction | Corrigez le résumé de l'accord, qui oublie la condition de l'accord, en ajoutant « sous réserve de recevoir vos fichiers avant le 1er mars » : Nous livrerons votre commande en deux fois. | — | ["Nous livrerons votre commande en deux fois, sous réserve de recevoir vos fichiers avant le 1er mars"] | false | A written summary keeps every condition agreed: here, the files before 1 March.
+- c2-negotiation-ex012 | error-correction | Corrigez l'expression familière, pour un courriel à un client, avec « faire une concession » : Nous pourrions lâcher du lest sur le prix. | — | ["Nous pourrions faire une concession sur le prix"] | false | Lâcher du lest isn't wrong, but it's familiar; faire une concession suits a professional email.
+- c2-negotiation-ex013 | translate | Traduisez (une solution de repli, deux livraisons) : Here is our fallback option: two deliveries. | — | ["Voici notre solution de repli : deux livraisons"] | false | Une solution de repli: a fallback option.
+- c2-negotiation-ex014 | translate | Traduisez (trouver un terrain d'entente, nous) : We hope to find common ground. | — | ["Nous espérons trouver un terrain d'entente"] | false | Trouver un terrain d'entente: to find common ground.
+- c2-negotiation-ex015 | translate | Traduisez (acter, au futur proche, nous) : We are going to formally record the agreement. | — | ["Nous allons acter l'accord"] | false | Acter: to record formally, as in minutes or a written agreement.
+- c2-negotiation-ex016 | reorder | Remettez dans l'ordre : We could make a concession on the price. | — | ["Nous pourrions faire une concession sur le prix"] | false | The conditional pourrions makes the offer without promising it.
+- c2-negotiation-ex017 | writing-task | Rédigez le courriel final de Hortense Aubry (50 à 90 mots), qui confirme l'accord récapitulé par l'imprimeur, sans rien y changer. | — | — | false | —
+
+## c2-structured-oral-argument
+
+### Vocab
+
+fr | pron | en | note
+
+- une thèse | ewn TEZ | a thesis, the position you defend | —
+- un fil rouge | uhn feel ROOZH | a common thread (running through a speech) | —
+- un repère | uhn ruh-PEHR | a marker, a signpost (for the listener) | —
+- à l'oral / à l'écrit | ah loh-RAHL / ah lay-KREE | in speech / in writing | —
+- je vais vous donner trois raisons | zhuh veh voo doh-NAY trwah reh-ZOHN | I'm going to give you three reasons | —
+- première raison, deuxième raison | pruh-MYEHR reh-ZOHN… duh-ZYEM reh-ZOHN | first reason… second reason… (spoken signposts) | —
+- prévenir une objection | pray-vuh-NEER ew-nob-zhek-SYOHN | to anticipate an objection | —
+- vous me direz peut-être que | voo muh dee-RAY puh-TET kuh | you may tell me that | —
+- l'objection est juste | lob-zhek-SYOHN eh ZHEWST | the objection is fair | —
+- prendre au sérieux | prahn-droh say-RYUH | to take seriously | —
+- marteler | mar-tuh-LAY | to hammer home (an idea, by repeating it) | —
+- je le répète | zhuh luh ray-PET | I repeat, let me say it again | —
+- en un mot | ah-nuhn MOH | in a word | —
+- une formule | ewn for-MEWL | a memorable phrase (in a speech) | —
+- retenir | ruh-tuh-NEER | to remember, to keep in mind (what is heard) | —
+- un conseil de quartier | uhn kohn-SEH-y duh kar-TYAY | a neighbourhood council | —
+- un moteur | uhn moh-TUHR | an engine | —
+- pressés (pressé) | preh-SAY | in a hurry | —
+- se croise (se croiser) | suh KRWAHZ | meet in passing (to meet in passing) | —
+- s'énerver | say-nehr-VAY | to get worked up, to lose one's temper | —
+- dehors | duh-OR | outside | —
+- l'air (m.) | LEHR | the air | —
+- subissons (subir) | sew-bee-SOHN | put up with (to undergo, to put up with) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-structured-oral-argument-ex001 | multiple-choice | Indiquez le rôle de la phrase « Vous me direz peut-être : et les parents qui viennent en voiture ? » dans le discours. | ["prévenir une objection","annoncer le plan","conclure le discours"] | ["prévenir une objection"] | false | The speaker states the objection herself, before anyone raises it, and then answers it.
+- c2-structured-oral-argument-ex002 | multiple-choice | Indiquez ce que fait la phrase « Alors je le répète : la sécurité, l'air, la vie du quartier. » | ["elle martèle les trois raisons","elle fait une concession","elle pose une question piège"] | ["elle martèle les trois raisons"] | false | Repeating the three reasons in a few words hammers them home before the close.
+- c2-structured-oral-argument-ex003 | multiple-choice | Indiquez le registre de la phrase « La sécurité des enfants, tout le monde en parle. » | ["oral (une dislocation)","écrit soutenu","juridique"] | ["oral (une dislocation)"] | false | The topic comes first and is picked up by en: a dislocation, usual in speech. In writing: tout le monde parle de la sécurité des enfants.
+- c2-structured-oral-argument-ex004 | multiple-choice | Indiquez le fil rouge du discours de Solène Gauthier. | ["les enfants","le prix du parking","les travaux dans la rue"] | ["les enfants"] | false | Each reason comes back to the children, and the close names them again: quand les enfants sont là.
+- c2-structured-oral-argument-ex005 | fill-in | Complétez : En un ___ : fermons la rue aux voitures quand les enfants sont là. | — | ["mot"] | false | En un mot announces the shortest form of the thesis, at the very end.
+- c2-structured-oral-argument-ex006 | fill-in | Complétez avec le verbe à l'infinitif : Pour que le public retienne une idée, il faut la ___, c'est-à-dire la répéter avec force. | — | ["marteler"] | false | Marteler une idée: to hammer it home.
+- c2-structured-oral-argument-ex007 | reformulation | Reformulez pour l'oral, avec une dislocation qui commence par « La sécurité des enfants » : Tout le monde parle de la sécurité des enfants. | — | ["La sécurité des enfants, tout le monde en parle"] | true | Spoken French often puts the topic first and picks it up with a pronoun (en).
+- c2-structured-oral-argument-ex008 | reformulation | Reformulez pour l'écrit, sans dislocation, en commençant par « Tout le monde » : La sécurité des enfants, tout le monde en parle. | — | ["Tout le monde parle de la sécurité des enfants"] | true | Written French usually keeps the order subject, verb, complement.
+- c2-structured-oral-argument-ex009 | register-shift | Transformez en annonce orale, avec « je vais vous donner » : Trois raisons seront développées. | — | ["Je vais vous donner trois raisons"] | false | At the oral, the speaker addresses the audience directly and announces the number of points.
+- c2-structured-oral-argument-ex010 | register-shift | Transformez en phrase orale qui prévient l'objection, avec « Vous me direz peut-être que » : On peut objecter que le parking est loin. | — | ["Vous me direz peut-être que le parking est loin"] | false | Vous me direz peut-être que gives the objection to the audience, so that you can answer it.
+- c2-structured-oral-argument-ex011 | error-correction | Corrigez la conclusion, qui ajoute une raison que le discours n'a pas donnée (gardez « Je le répète : ») : Je le répète : la sécurité, l'air, la vie du quartier et le prix du parking. | — | ["Je le répète : la sécurité, l'air, la vie du quartier"] | false | A conclusion repeats the reasons given; a new one at the end has no support.
+- c2-structured-oral-argument-ex012 | translate | Traduisez (en un mot, à l'impératif, nous) : In a word: let's close the street to cars. | — | ["En un mot : fermons la rue aux voitures"] | false | En un mot, then the thesis as an imperative with nous.
+- c2-structured-oral-argument-ex013 | translate | Traduisez (un bon orateur, prévenir) : « A good speaker anticipates objections. » | — | ["Un bon orateur prévient les objections"] | false | Prévenir une objection: to anticipate it, here in the present (il prévient).
+- c2-structured-oral-argument-ex014 | translate | Traduisez (le fil rouge) : The children are the common thread of the speech. | — | ["Les enfants sont le fil rouge du discours"] | false | Un fil rouge: the idea that runs through the whole speech.
+- c2-structured-oral-argument-ex015 | reorder | Remettez dans l'ordre les étapes de l'argument oral. | — | ["J'annonce ma thèse. Je donne trois raisons. Je préviens l'objection. Je martèle et je conclus."] | false | The order of the model: thesis and plan, the reasons, the objection answered, then the recap and the formula.
+- c2-structured-oral-argument-ex016 | writing-task | Rédigez la conclusion orale (40 à 80 mots) d'un discours qui défend une idée de votre choix : rappelez vos raisons, martelez votre thèse et terminez par « En un mot ». | — | — | false | —
+
+## c2-interviews-and-questioning
+
+### Vocab
+
+fr | pron | en | note
+
+- une question ouverte | ewn kess-TYOHN oo-VEHRT | an open question | —
+- une question fermée | ewn kess-TYOHN fehr-MAY | a closed question (answered by yes, no or a fact) | —
+- une question orientée | ewn kess-TYOHN oh-ryahn-TAY | a leading question | —
+- orienter la réponse | oh-ryahn-TAY lah ray-POHNSS | to steer the answer | —
+- relancer (son interlocuteur) | ruh-lahn-SAY | to follow up, to prompt (the person you're speaking to) | —
+- une question de relance | ewn kess-TYOHN duh ruh-LAHNSS | a follow-up question | —
+- si je vous suis bien | see zhuh voo swee BYAN | if I follow you correctly | —
+- vous voulez dire que | voo voo-LAY deer kuh | you mean that | —
+- pourriez-vous préciser | poo-RYAY voo pray-see-ZAY | could you be more specific | —
+- une reformulation | ewn ruh-for-mew-lah-SYOHN | a rewording, a reformulation | —
+- revenir à la charge | ruh-vuh-NEER ah lah SHARZH | to press the point again | —
+- je me permets d'insister | zhuh muh pehr-MEH dan-sees-TAY | allow me to insist | —
+- pour revenir à | poor ruh-vuh-NEER ah | to come back to | —
+- éluder une question | ay-lew-DAY ewn kess-TYOHN | to sidestep a question | —
+- concrètement | kohn-kret-MAHN | in concrete terms | —
+- un métier | uhn may-TYAY | a trade, a craft, a job | —
+- un ébéniste / une ébéniste | uh-nay-bay-NEEST / ew-nay-bay-NEEST | a cabinetmaker | —
+- un apprenti / une apprentie | uh-nah-prahn-TEE | an apprentice | —
+- former (un apprenti) | for-MAY | to train (an apprentice) | —
+- la comptabilité | lah kohn-tah-bee-lee-TAY | accountancy | —
+- le bois | luh BWAH | wood | —
+- un meuble | uhn MUH-bluh | a piece of furniture | —
+- le caractère | luh kah-rak-TEHR | character, temperament | —
+- se décourage (se décourager) | suh day-koo-RAHZH | loses heart (to lose heart) | —
+- recommencer | ruh-koh-mahn-SAY | to start again | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-interviews-and-questioning-ex001 | multiple-choice | Indiquez le type de la question : « Vous formez des apprentis aujourd'hui ? » | ["une question fermée","une question ouverte","une question orientée"] | ["une question fermée"] | false | It's answered by yes or no (or a number): a closed question.
+- c2-interviews-and-questioning-ex002 | multiple-choice | Indiquez le type de la question : « Comment êtes-vous devenue ébéniste ? » | ["une question ouverte","une question fermée","une question de relance"] | ["une question ouverte"] | false | Comment invites a whole story: an open question. It's the first question, so it isn't a follow-up.
+- c2-interviews-and-questioning-ex003 | multiple-choice | Choisissez la question qui n'oriente pas la réponse. | ["Comment voyez-vous l'avenir du métier ?","Le métier va disparaître, n'est-ce pas ?","Vous êtes d'accord que le métier va disparaître ?"] | ["Comment voyez-vous l'avenir du métier ?"] | false | The other two suggest the answer (the trade will disappear) and only ask for agreement.
+- c2-interviews-and-questioning-ex004 | multiple-choice | Indiquez ce que fait le journaliste quand il dit : « Pour revenir à votre métier… » | ["il recadre l'entretien","il conclut l'entretien","il pose une question piège"] | ["il recadre l'entretien"] | false | Pour revenir à brings the interview back to its subject after a digression.
+- c2-interviews-and-questioning-ex005 | fill-in | Complétez : Elle a éludé la question ; le journaliste revient à la ___. | — | ["charge"] | false | Revenir à la charge: to press the point again.
+- c2-interviews-and-questioning-ex006 | fill-in | Complétez avec l'adjectif : Une question à laquelle on répond par oui ou par non est une question ___. | — | ["fermée"] | false | Une question fermée: yes, no, or a fact.
+- c2-interviews-and-questioning-ex007 | reformulation | Transformez la question fermée en question ouverte, en commençant par « Qu'est-ce qui vous plaît » : Vous aimez votre métier ? | — | ["Qu'est-ce qui vous plaît dans votre métier ?"] | false | The open question asks what, not whether: it can't be answered by yes or no.
+- c2-interviews-and-questioning-ex008 | reformulation | Reformulez avec l'inversion du sujet, au présent : Est-ce que vous pouvez préciser ? | — | ["Pouvez-vous préciser ?"] | false | Inversion with a hyphen: pouvez-vous. Pourriez-vous would be more polite, but the instruction asks for the present.
+- c2-interviews-and-questioning-ex009 | error-correction | Corrigez la question orientée, en commençant par « Comment voyez-vous » : Le métier va disparaître, n'est-ce pas ? | — | ["Comment voyez-vous l'avenir du métier ?"] | false | The neutral question asks for the interviewee's view instead of proposing an answer.
+- c2-interviews-and-questioning-ex010 | register-shift | Transformez en question soutenue, avec l'inversion du sujet : Vous avez commencé quand ? (français parlé, familier) | — | ["Quand avez-vous commencé ?"] | false | In formal French, the question word comes first and the subject is inverted.
+- c2-interviews-and-questioning-ex011 | register-shift | Transformez en question de français parlé familier, sans inversion, avec « comment » à la fin : Comment êtes-vous devenue ébéniste ? | — | ["Vous êtes devenue ébéniste comment ?"] | false | In familiar speech, the question word can come at the end, with no inversion. It isn't wrong: it belongs to another register.
+- c2-interviews-and-questioning-ex012 | translate | Traduisez (une question ouverte, à l'impératif, vous) : Ask an open question first. | — | ["Posez d'abord une question ouverte","Posez une question ouverte d'abord"] | false | Poser une question; d'abord can come after the verb or at the end.
+- c2-interviews-and-questioning-ex013 | translate | Traduisez (si je vous suis bien) : If I follow you correctly, the trade is changing. | — | ["Si je vous suis bien, le métier change","Si je vous suis bien, le métier est en train de changer"] | false | Si je vous suis bien checks that you've understood before you go on.
+- c2-interviews-and-questioning-ex014 | translate | Traduisez (revenir à la charge, au passé composé) : The journalist pressed the point again. | — | ["Le journaliste est revenu à la charge"] | true | Revenir takes être in the passé composé: il est revenu.
+- c2-interviews-and-questioning-ex015 | reorder | Remettez dans l'ordre : « Could you give me a concrete example? » | — | ["Pourriez-vous me donner un exemple concret"] | false | Asking for un exemple concret is a polite way to press for a precise answer.
+- c2-interviews-and-questioning-ex016 | writing-task | Rédigez cinq questions (50 à 90 mots en tout) pour un entretien avec une personne qui travaille de ses mains : une question ouverte, une question fermée, une relance, une reformulation et une question pour revenir à la charge. | — | — | false | —
+
+## c2-review-mediation
+
+### Vocab
+
+fr | pron | en | note
+
+- un médiateur / une médiatrice | uhn may-dyah-TUHR / ewn may-dyah-TREESS | a mediator | —
+- une médiation | ewn may-dyah-SYOHN | a mediation | —
+- désamorcer un conflit | day-zah-mor-SAY uhn kohn-FLEE | to defuse a conflict | —
+- un différend | uhn dee-fay-RAHN | a disagreement, a dispute | —
+- de nuit | duh NWEE | at night (of work: on night shifts) | —
+- un garage | uhn gah-RAHZH | a garage | —
+- insupportables (insupportable) | an-sew-por-TAH-bluh | unbearable | —
+- garde (garder des enfants) | GARD | look after (to look after children) | —
+- un jour libre | uhn zhoor LEE-bruh | a day off | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-review-mediation-ex001 | multiple-choice | Choisissez le relais neutre et fidèle de la phrase de Mireille : « Ses outils sont insupportables, je voudrais qu'il n'y ait pas de bruit avant midi. » | ["Mireille est gênée par le bruit des outils, et elle demande qu'il n'y ait pas de bruit avant midi.","Mireille trouve Lionel insupportable.","Mireille est gênée par le bruit des outils."] | ["Mireille est gênée par le bruit des outils, et elle demande qu'il n'y ait pas de bruit avant midi."] | false | The first keeps her need and her request, without the judging word. The second judges Lionel; the third drops the request (c2-mediation).
+- c2-review-mediation-ex002 | error-correction | Corrigez le relais, qui juge Mireille, en commençant par « Mireille dit que le bruit » : Mireille se plaint encore du bruit. | — | ["Mireille dit que le bruit la gêne"] | false | Se plaint encore judges her; a mediator attributes the view and states the need.
+- c2-review-mediation-ex003 | multiple-choice | Choisissez l'expression qui convient au compte rendu écrit de la médiation. | ["un compromis","couper la poire en deux","lâcher du lest"] | ["un compromis"] | false | The other two are familiar; a written summary uses the everyday or formal term (c2-negotiation).
+- c2-review-mediation-ex004 | reformulation | Reformulez avec « à condition que » : Mireille accepte onze heures si Lionel fait ses travaux bruyants porte fermée. | — | ["Mireille accepte onze heures à condition que Lionel fasse ses travaux bruyants porte fermée","À condition que Lionel fasse ses travaux bruyants porte fermée, Mireille accepte onze heures"] | true | À condition que takes the subjunctive: fasse.
+- c2-review-mediation-ex005 | multiple-choice | Indiquez ce que fait Lionel dans la phrase : « Je comprends qu'elle dorme le matin, mais midi, c'est trop tard. » | ["il reconnaît ce qui est juste, puis il répond","il martèle sa thèse","il pose une question fermée"] | ["il reconnaît ce qui est juste, puis il répond"] | false | Like a speaker who says l'objection est juste before answering it, he grants Mireille's point, then gives his reason (c2-structured-oral-argument).
+- c2-review-mediation-ex006 | register-shift | Transformez en registre courant, pour le compte rendu, avec « trouver un compromis » : Ils ont coupé la poire en deux. | — | ["Ils ont trouvé un compromis"] | false | Couper la poire en deux is familiar; a written summary says trouver un compromis (c2-negotiation).
+- c2-review-mediation-ex007 | multiple-choice | Indiquez le type de la question de Josiane à Lionel : « Qu'est-ce qui serait possible pour vous, le samedi ? » | ["une question ouverte","une question fermée","une question orientée"] | ["une question ouverte"] | false | It invites Lionel's own proposal, without suggesting one (c2-interviews-and-questioning).
+- c2-review-mediation-ex008 | error-correction | Corrigez la question orientée, en commençant par « Comment voyez-vous » : Vous faites trop de bruit, n'est-ce pas ? | — | ["Comment voyez-vous la question du bruit ?"] | false | A mediator asks for each person's view; n'est-ce pas proposes the answer.
+- c2-review-mediation-ex009 | fill-in | Accordez « médiateur » : Josiane a servi de ___ entre ses deux voisins. | — | ["médiatrice"] | false | Un médiateur, une médiatrice: the person who helps two sides reach an agreement.
+- c2-review-mediation-ex010 | multiple-choice | Indiquez le sens de « désamorcer un conflit ». | ["to defuse a conflict","to start a conflict","to win a conflict"] | ["to defuse a conflict"] | false | Désamorcer: to stop something from going off, here a conflict.
+- c2-review-mediation-ex011 | translate | Traduisez (un différend, à propos de) : The two neighbours have a dispute about noise. | — | ["Les deux voisins ont un différend à propos du bruit"] | true | Un différend: a disagreement between two people, often about a practical matter.
+- c2-review-mediation-ex012 | translate | Traduisez (désamorcer, au passé composé) : She defused the conflict. | — | ["Elle a désamorcé le conflit"] | true | Désamorcer un conflit: to defuse it.
+- c2-review-mediation-ex013 | translate | Traduisez (faire le point, dans un mois, nous) : We'll review the situation in a month. | — | ["Nous ferons le point dans un mois"] | false | Faire le point: to take stock, to review how things stand.
+- c2-review-mediation-ex014 | error-correction | Corrigez le compte rendu, qui ne suit pas l'accord, en gardant le reste de la phrase : Pas d'outils bruyants le samedi avant midi. | — | ["Pas d'outils bruyants le samedi avant onze heures"] | false | Midi was Mireille's first request; the agreement is onze heures. A summary records what was agreed, not what was asked.
+- c2-review-mediation-ex015 | reorder | Remettez dans l'ordre : « The mediator passes on each point of view without judging it. » | — | ["La médiatrice transmet chaque point de vue sans le juger"] | false | The rule of the whole unit: attribute each view, and add no judgment.
+- c2-review-mediation-ex016 | writing-task | Rédigez le message neutre (40 à 80 mots) que Josiane envoie à Lionel pour lui relayer le point de vue de Mireille, sans aucun mot qui juge, et sans rien ajouter. | — | — | false | —

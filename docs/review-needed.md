@@ -2213,6 +2213,7 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-legal-french
 
+- **Prompt 47:** *nonobstant ce qui précède* becomes *cependant* in the plain version (it keeps the contrast); the rule says *cependant* or *en revanche*. Confirm.
 - **"In a contract, the present (and the future) often state an obligation"** (*le locataire paie le loyer le premier de chaque mois*; *le bailleur effectuera les réparations*). Confirm.
 - **"Ledit / ladite … Plural: lesdits, lesdites; with à and de: audit, dudit."** Confirm the forms.
 - **"In many contracts, ending it requires *un préavis* (notice), sometimes sent by *une lettre recommandée*."** Kept general, with no rule of law. Confirm.
@@ -2223,6 +2224,7 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-medical-french
 
+- **Prompt 47:** the ex003 explanation now says that the trema shows the *u* is pronounced (without it, the *u* would be silent, as in *aigue-marine*); the Greek example of a learned root is *la cardiologie*. Confirm.
 - **"*Effets indésirables* is the official term, the one leaflets use. In conversation, people say *effets secondaires*."** Verified (Prompt 46 review).
 - **"*Malin* has another meaning in everyday French: clever, or cunning (*un enfant malin*). In that sense too, the written feminine is *maligne*."** Confirm (*maline* is heard in familiar speech; the lesson doesn't mention it).
 - **"Aigu (acute: sudden, often short) becomes aiguë, or aigüe in the 1990 spelling rectifications."** Verified (Prompt 46 review); the typed keys avoid the feminine, and ex003 (multiple choice) asks for the traditional spelling.
@@ -2243,13 +2245,45 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 - **The abbreviations and their places:** *Réf.* under the addresses (*Vos réf.* in a reply), *cf.* in the body, *N.B.* after the body, *P.J.* after the signature; *NB* and *PJ* also written without full stops; *cf.* "usually read as *confer* or simply *voir*". Verified terms (Prompt 46 review); confirm the places and the reading.
 - **"Inès writes *Madame, Monsieur* because the letter is signed by a department, not by a named person."** Confirm.
-- **"An administration … signs with the name of a department rather than a person's name."** Presented for this letter; confirm the general wording ("writes as an institution").
+- **"An administration … often signs with the name of a department rather than a person's name."** Presented for this letter; confirm the general wording ("writes as an institution").
 - **The administration, its aid, its procedure and its deadline (a month)** are invented; *un avis d'imposition* is named, not explained.
 
 ### c2-review-specialized
 
 - **"*Vulgariser* has a rare literary sense, to make something vulgar, but for knowledge it means to make it accessible."** and **"English speakers often avoid *vulgariser* … and use *populariser* in its place. … *Populariser* means to make something popular."** Confirm.
-- **The three texts** tell the same five facts (the letter of 10 April, the appendicitis and appendectomy after it, the rest prescribed, the rule allowing an extension on a medical certificate, the request with the certificate, which states that her health justifies the rest). Only the legal register names article 4. The situation is invented, with no legal or medical advice.
+- **The three texts** tell the same five facts about an invented person, Sylvie Andrieu (Prompt 47: her own situation, not Inès Ferrand's): the letter of 3 February from an invented housing agency asking for three documents, the appendicitis and appendectomy after it, the rest prescribed, the rule allowing an extension on a medical certificate, the request with the certificate, which states that her health justifies the rest). Only the legal register names article 4. The situation is invented, with no legal or medical advice.
+
+### c2-mediation
+
+- **"Selecting means choosing the order, not dropping facts."** and **"As a rule of thumb, relay the whole text first, then add your own opinion or offer, clearly labelled."** Presented as rules of thumb for this lesson's kind of relay. Confirm.
+- **The relay** keeps every fact and condition of the notice (dates, hours, *du lundi au vendredi*, both sides of the street, the car park, the bins, the delivery *s'il en reste*, the sign-up and its date); only the closing thanks is left out. *Pendant deux semaines* is derived from the dates (Monday 6 to Friday 17 May). Confirm.
+- **The dates** (Monday 6, Thursday 2, Friday 17 May) are consistent with one calendar; no year is given.
+- **The notice, the town hall's procedure and the people** (Bertrand Fabre, Mme Rochette) are invented; no legal advice.
+
+### c2-negotiation
+
+- **"The first figure often sets the frame for the rest; as a rule of thumb, give a reason for your figure rather than a figure alone."** Confirm the wording (anchoring, with no claim from research).
+- **The registers:** *consentir un effort* (formal), *faire une concession*, *trouver un compromis*, *une solution de repli* (everyday), *couper la poire en deux*, *lâcher du lest*, *un plan B* (familiar). Confirm.
+- **The figures** (2,000 copies, 6,000 / 5,600 / 5,000 euros, 15 and 22 March, files by 1 March) are invented and consistent across the four emails, the dialogue, the summary and the writing task.
+- **The companies and people** (Éditions du Pré-Vert, Imprimerie Gauthier, Hortense Aubry, Gaspard Leclerc, Yann) are invented.
+
+### c2-structured-oral-argument
+
+- **"As a rule of thumb, three reasons and one objection make a short argument that a listener can follow."** Timing is given by points, not minutes. Confirm.
+- **The spoken forms and their labels:** dislocation (spoken), sentences without a verb (spoken), *on* for *nous* (familiar, in conversation), *l'on* in a general statement. Confirm.
+- **The speech, the council and the people** (Solène Gauthier, Armand) are invented. The car park on place du Marché is the one in c2-mediation (same invented town).
+
+### c2-interviews-and-questioning
+
+- **The registers of a question:** inversion (formal), *est-ce que* (everyday), intonation with the question word at the end (familiar, spoken). Confirm.
+- **"A reformulation is a question, not a conclusion."** Confirm as advice for interviews.
+- **The interview and the people** (Clément Vidal, Annick Brunel) are invented.
+
+### c2-review-mediation
+
+- **"*Un différend* is usually narrower: a disagreement about a precise point, which a conversation can still settle."** Confirm.
+- **The neutral relay** leaves out *insupportables*, *Mireille exagère un peu* and *je ne sais plus quoi faire* (judgments and a feeling) and keeps every fact and request. Confirm that this matches the unit's rule ("adds nothing, attributes each view").
+- **The dispute, the neighbours and the mediator** (Mireille Delmas, Lionel Lefort, Josiane Perret) are invented; the mediation is informal, between neighbours, with no official body or procedure.
 
 ## C2 plan
 
