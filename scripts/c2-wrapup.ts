@@ -272,7 +272,8 @@ for (const l of target.filter((x) => x.tags.includes("lipogram"))) {
   for (const sec of secs) {
     const letter = sec.body.match(/^Missing letter: \*([a-z])\*/im)?.[1]?.toLowerCase();
     if (!letter) { lipoRows.push(`${l.id}: "${sec.heading}" doesn't list its missing letter ("Missing letter: *e*.")`); continue; }
-    const lines = italicLines(sec.body);
+    // The "Missing letter: *e*." line names the letter in italics; it isn't part of the constrained text.
+    const lines = italicLines(sec.body.replace(/^Missing letter:.*$/gim, ""));
     if (!lines.length) lipoRows.push(`${l.id}: "${sec.heading}" has no French lines`);
     for (const line of lines) if (bare(line).includes(letter)) lipoRows.push(`${l.id}: "${sec.heading}" uses the letter ${letter}: ${line.slice(0, 80)}`);
   }

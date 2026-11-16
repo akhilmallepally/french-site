@@ -1,0 +1,1407 @@
+===== content/lessons/c2/culture-history-of-french.mdx =====
+---
+id: "c2-culture-history-of-french"
+title: "A Short History of French"
+description: "The main stages of the history of French and the texts that mark them: from the Latin spoken in Gaul to the Strasbourg Oaths (842), the langue d'oïl and the langue d'oc, the usual periods, the ordinance of Villers-Cotterêts (1539), the Académie française (1635, first dictionary 1694), the abbé Grégoire's report (1794), the Jules Ferry school laws (1881–1882), and the recaps of 1992 and 1994."
+level: "C2"
+unit: "The language and its literatures"
+order: 36
+type: "culture"
+tags: ["culture", "history of French", "language policy", "Old French", "recognition"]
+prerequisites: ["c1-culture-regional-languages", "c1-culture-francophonie", "c2-anglicisms-and-official-terms"]
+related: ["c2-advanced-false-friends", "c2-agreement-colours-compounds-numbers", "c2-culture-medieval-and-renaissance", "c2-review-literatures"]
+vocab:
+  - { id: "c2-culture-history-of-french-v001", group: "origins", fr: "le latin", pron: "luh lah-TAN", en: "Latin" }
+  - { id: "c2-culture-history-of-french-v002", group: "origins", fr: "le latin vulgaire", pron: "luh lah-TAN vewl-GEHR", en: "Vulgar Latin (the Latin people spoke)" }
+  - { id: "c2-culture-history-of-french-v003", group: "origins", fr: "un serment", pron: "uhn sehr-MAHN", en: "an oath" }
+  - { id: "c2-culture-history-of-french-v004", group: "origins", fr: "un manuscrit", pron: "uhn mah-new-SKREE", en: "a manuscript" }
+  - { id: "c2-culture-history-of-french-v005", group: "origins", fr: "conserver", pron: "kohn-sehr-VAY", en: "to preserve, to keep" }
+  - { id: "c2-culture-history-of-french-v006", group: "origins", fr: "la langue d'oïl / la langue d'oc", pron: "lah lahng doh-EEL / lah lahng DOK", en: "the languages of the north / of the south (named after their word for yes)" }
+  - { id: "c2-culture-history-of-french-v007", group: "periods", fr: "un siècle", pron: "uhn SYEK-luh", en: "a century" }
+  - { id: "c2-culture-history-of-french-v008", group: "periods", fr: "une période", pron: "ewn pay-RYOD", en: "a period" }
+  - { id: "c2-culture-history-of-french-v009", group: "periods", fr: "l'ancien français (m.)", pron: "lahn-SYAN frahn-SEH", en: "Old French" }
+  - { id: "c2-culture-history-of-french-v010", group: "periods", fr: "le moyen français", pron: "luh mwah-YAN frahn-SEH", en: "Middle French" }
+  - { id: "c2-culture-history-of-french-v011", group: "periods", fr: "le français classique", pron: "luh frahn-SEH klah-SEEK", en: "classical French" }
+  - { id: "c2-culture-history-of-french-v012", group: "periods", fr: "le français moderne", pron: "luh frahn-SEH moh-DEHRN", en: "modern French" }
+  - { id: "c2-culture-history-of-french-v013", group: "policy", fr: "une ordonnance", pron: "ew-nor-doh-NAHNSS", en: "an ordinance (a royal or government text with the force of law)" }
+  - { id: "c2-culture-history-of-french-v014", group: "policy", fr: "un acte administratif", pron: "uh-nakt ahd-mee-nee-strah-TEEF", en: "an administrative act (an official document)" }
+  - { id: "c2-culture-history-of-french-v015", group: "policy", fr: "la langue maternelle (maternel, maternelle)", pron: "lah lahng mah-tehr-NEL", en: "the mother tongue" }
+  - { id: "c2-culture-history-of-french-v016", group: "policy", fr: "délivrer (un acte)", pron: "day-lee-VRAY", en: "to issue, to deliver (an official document)" }
+  - { id: "c2-culture-history-of-french-v017", group: "policy", fr: "un historien / une historienne", pron: "uh-nee-stoh-RYAN / ew-nee-stoh-RYEN", en: "a historian" }
+  - { id: "c2-culture-history-of-french-v018", group: "policy", fr: "un patois", pron: "uhn pah-TWAH", en: "a local dialect (often used as a dismissive word)" }
+  - { id: "c2-culture-history-of-french-v019", group: "policy", fr: "le dictionnaire de l'Académie", pron: "luh deek-syoh-NEHR duh lah-kah-day-MEE", en: "the Académie française's dictionary" }
+  - { id: "c2-culture-history-of-french-v020", group: "policy", fr: "imposer", pron: "an-poh-ZAY", en: "to impose" }
+  - { id: "c2-culture-history-of-french-v021", group: "glossary", fr: "le peuple", pron: "luh PUH-pluh", en: "the people" }
+  - { id: "c2-culture-history-of-french-v022", group: "glossary", fr: "le salut", pron: "luh sah-LEW", en: "salvation" }
+  - { id: "c2-culture-history-of-french-v023", group: "glossary", fr: "chrétien / chrétienne", pron: "kray-TYAN / kray-TYEN", en: "Christian" }
+  - { id: "c2-culture-history-of-french-v024", group: "glossary", fr: "la Gaule", pron: "lah GOHL", en: "Gaul" }
+  - { id: "c2-culture-history-of-french-v025", group: "glossary", fr: "le nord", pron: "luh NOR", en: "the north" }
+  - { id: "c2-culture-history-of-french-v026", group: "glossary", fr: "exact / exacte", pron: "eg-ZAKT", en: "exact" }
+  - { id: "c2-culture-history-of-french-v027", group: "glossary", fr: "un abbé", pron: "uh-nah-BAY", en: "an abbé (a title for a priest)" }
+  - { id: "c2-culture-history-of-french-v028", group: "glossary", fr: "peu à peu", pron: "puh ah PUH", en: "little by little" }
+  - { id: "c2-culture-history-of-french-v029", group: "glossary", fr: "petits-fils (un petit-fils)", pron: "uhn puh-tee-FEESS", en: "a grandson" }
+exercises:
+  - id: "c2-culture-history-of-french-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez le texte souvent présenté comme le plus ancien texte conservé dans une forme ancienne du français."
+    options: ["les Serments de Strasbourg", "l'ordonnance de Villers-Cotterêts", "le premier dictionnaire de l'Académie"]
+    answers: ["les Serments de Strasbourg"]
+    explanation: "The Strasbourg Oaths (842) are often described as the oldest surviving text in an early form of French. The ordinance dates from 1539, the dictionary from 1694."
+  - id: "c2-culture-history-of-french-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez d'où viennent les noms « langue d'oïl » et « langue d'oc »."
+    options: ["du mot qui voulait dire « oui »", "du nom de deux rois", "du nom de deux villes"]
+    answers: ["du mot qui voulait dire « oui »"]
+    explanation: "Oïl in the north (which became oui) and oc in the south: each group is named after its word for yes."
+  - id: "c2-culture-history-of-french-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez la période du moyen français."
+    options: ["environ du XIVe au XVIe siècle", "environ du IXe au XIVe siècle", "les XVIIe et XVIIIe siècles"]
+    answers: ["environ du XIVe au XVIe siècle"]
+    explanation: "The usual periods: Old French (roughly 9th to 14th century), Middle French (14th to 16th), classical French (17th and 18th), then modern French."
+  - id: "c2-culture-history-of-french-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens, en français moderne, de « Pro Deo amur » dans les Serments de Strasbourg."
+    options: ["Pour l'amour de Dieu", "Pour le peuple chrétien", "Pour notre salut commun"]
+    answers: ["Pour l'amour de Dieu"]
+    explanation: "Pro Deo amur: for the love of God. The other two options translate the words that follow (pro christian poblo, nostro commun salvament). This text is for recognition only."
+  - id: "c2-culture-history-of-french-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez l'année où l'Académie française a été fondée."
+    options: ["1635", "1539", "1694"]
+    answers: ["1635"]
+    explanation: "The Académie française was founded in 1635; its first dictionary appeared in 1694. 1539 is the ordinance of Villers-Cotterêts."
+  - id: "c2-culture-history-of-french-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Le français vient du latin parlé en Gaule, qu'on appelle le latin ___."
+    answers: ["vulgaire"]
+    explanation: "Le latin vulgaire: the Latin people spoke, as opposed to the written Latin of authors."
+  - id: "c2-culture-history-of-french-ex007"
+    type: "fill-in"
+    prompt: "Complétez : L'ordonnance de Villers-Cotterêts est souvent résumée ainsi : les actes de justice doivent être rédigés en français, et non plus en ___."
+    answers: ["latin"]
+    explanation: "It's usually summed up as requiring French instead of Latin in legal and administrative acts."
+  - id: "c2-culture-history-of-french-ex008"
+    type: "fill-in"
+    prompt: "Complétez avec le nom : Le premier ___ de l'Académie française a paru en 1694."
+    answers: ["dictionnaire"]
+    explanation: "Founded in 1635, the Académie published its first dictionary in 1694."
+  - id: "c2-culture-history-of-french-ex009"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de date, en changeant seulement l'année : L'Académie française a été fondée en 1539."
+    strictAccents: true
+    answers: ["L'Académie française a été fondée en 1635"]
+    explanation: "1539 is the ordinance of Villers-Cotterêts; the Académie dates from 1635."
+  - id: "c2-culture-history-of-french-ex010"
+    type: "error-correction"
+    prompt: "Corrigez le siècle, qui est faux (écrivez-le en chiffres romains) : Le français classique est la langue du XVe siècle."
+    answers: ["Le français classique est la langue du XVIIe siècle"]
+    explanation: "Classical French is the French of the 17th and 18th centuries. The 15th century belongs to Middle French."
+  - id: "c2-culture-history-of-french-ex011"
+    type: "reformulation"
+    prompt: "Reformulez au passif, au passé composé, en commençant par « Le premier dictionnaire » : L'Académie a publié son premier dictionnaire en 1694."
+    strictAccents: true
+    answers: ["Le premier dictionnaire de l'Académie a été publié en 1694"]
+    explanation: "The passive puts the dictionary first; the agent (l'Académie) moves into the complement de l'Académie."
+  - id: "c2-culture-history-of-french-ex012"
+    type: "register-shift"
+    prompt: "Transformez en phrase neutre, sans jugement, en commençant par « On appelait parfois les langues régionales » : Les langues régionales n'étaient que de simples patois."
+    answers: ["On appelait parfois les langues régionales des patois"]
+    explanation: "Patois is often used as a dismissive word. A neutral sentence reports the word as a word, not as a verdict."
+  - id: "c2-culture-history-of-french-ex013"
+    type: "translate"
+    prompt: "Traduisez (l'ancien français, les siècles en chiffres romains) : Old French was spoken from roughly the ninth to the fourteenth century."
+    strictAccents: true
+    answers: ["L'ancien français a été parlé environ du IXe au XIVe siècle", "L'ancien français était parlé environ du IXe au XIVe siècle", "On a parlé l'ancien français environ du IXe au XIVe siècle"]
+    explanation: "Centuries are written in Roman numerals with an e: IXe, XIVe. The passé composé and the imparfait are both possible here."
+  - id: "c2-culture-history-of-french-ex014"
+    type: "translate"
+    prompt: "Traduisez (la langue maternelle) : French is not everyone's mother tongue."
+    answers: ["Le français n'est pas la langue maternelle de tout le monde"]
+    explanation: "La langue maternelle: the language a person learns first."
+  - id: "c2-culture-history-of-french-ex015"
+    type: "translate"
+    prompt: "Traduisez (fonder, au passif, au passé composé) : The Académie française was founded in 1635."
+    strictAccents: true
+    answers: ["L'Académie française a été fondée en 1635"]
+    explanation: "Fondée agrees with l'Académie, which is feminine."
+  - id: "c2-culture-history-of-french-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre les périodes du français, de la plus ancienne à la plus récente."
+    words: ["l'ancien français,", "le moyen français,", "le français classique,", "le français moderne"]
+    answers: ["l'ancien français, le moyen français, le français classique, le français moderne"]
+    explanation: "Roughly: 9th to 14th century, 14th to 16th, 17th and 18th, then modern French."
+---
+
+By the end of this lesson you'll know the main stages of the history of French, from the Latin spoken in Gaul to the laws of today, and the texts and dates that mark them.
+
+## What you already know
+
+You know *une langue romane*, *une langue régionale* and the 1992 sentence of the Constitution, *la langue de la République est le français*, from <LessonLink id="c1-culture-regional-languages" text="the lesson on regional languages" />. You know French as a world language from <LessonLink id="c1-culture-francophonie" text="the lesson on La Francophonie" />, and *la loi Toubon* (1994) and *une commission de terminologie* from <LessonLink id="c2-anglicisms-and-official-terms" text="the lesson on anglicisms and official terms" />. You know *l'Académie française* from <LessonLink id="c2-advanced-false-friends" text="the lesson on advanced false friends" />.
+
+**Dates in the history of a language are approximate.** The periods below are the usual ones, and the lesson says "roughly" or "around" where historians do.
+
+## From Latin to French
+
+<VocabTable group="origins" />
+
+**Le latin vulgaire.** French comes from the Latin spoken in Gaul, usually called *le latin vulgaire* (Vulgar Latin): the everyday Latin of the people, not the Latin of written works. Over several centuries, this spoken Latin changed so much that it became a different language. Spanish, Italian and the other Romance languages come from the same source.
+
+**Les Serments de Strasbourg (842).** In 842, two grandsons of Charlemagne swore *des serments* (oaths) of alliance at Strasbourg, each in the language of the other's army. The text that has come down to us, in *un manuscrit* (a manuscript), is often described as the oldest surviving text in an early form of French. Its first words are quoted in the model text below, for recognition only.
+
+**La langue d'oïl et la langue d'oc.** In the Middle Ages, the dialects of the north and those of the south were grouped by their word for "yes": *oïl* in the north, which became *oui*, and *oc* in the south. The French of today grew from the *langue d'oïl*; the *langue d'oc* is the source of Occitan, which you know as a regional language.
+
+<Example fr="Le français vient du latin vulgaire, le latin que parlait le peuple." en="French comes from Vulgar Latin, the Latin the people spoke." />
+
+## The periods of French
+
+<VocabTable group="periods" />
+
+Historians usually divide the history of French into four *périodes* (periods). The limits are approximate, and each *siècle* (century) is written in Roman numerals:
+
+- **Old French**, *l'ancien français*: roughly from the IXe to the XIVe siècle.
+- **Middle French**, *le moyen français*: from the XIVe to the XVIe siècle.
+- **Classical French**, *le français classique*: the XVIIe and XVIIIe siècles.
+- **Modern French**, *le français moderne*: after that, up to today.
+
+<Example fr="Le moyen français se situe environ entre le XIVe et le XVIe siècle." en="Middle French sits roughly between the 14th and the 16th century." />
+
+## The state and the language
+
+<VocabTable group="policy" />
+
+**L'ordonnance de Villers-Cotterêts (1539).** In 1539, King François Ier issued *une ordonnance* (an ordinance) at Villers-Cotterêts. It's usually summed up as requiring French instead of Latin in legal and administrative acts. Its wording says these acts must be delivered *en langage maternel françois*. Historians have debated whether that phrase meant French alone, or also the other languages spoken in the kingdom.
+
+<Example fr="« prononcés, enregistrés et délivrés aux parties en langage maternel françois et non autrement » (ordonnance de Villers-Cotterêts, article CXI)" en="&quot;pronounced, registered and delivered to the parties in the French mother tongue and not otherwise&quot; (our translation)" />
+
+**L'Académie française (1635).** The Académie française was founded in 1635. Its first dictionary, *le dictionnaire de l'Académie*, appeared in 1694. You know from the lesson on false friends that it still gives advice on usage today.
+
+**Le rapport de l'abbé Grégoire (1794).** During the Revolution, the abbé Grégoire presented a report on the *patois*, the word then used for the regional languages and dialects, and on spreading the use of French. The word *patois* is often dismissive, so a neutral text reports it as the word of the time.
+
+**Les lois Jules Ferry (1881–1882).** The school laws of 1881–1882, named after the minister Jules Ferry, organized primary school across the country. As the lesson on regional languages says, the school of the Republic taught in French, and many children learned it there rather than at home, alongside their *langue maternelle* (mother tongue).
+
+**1992 et 1994.** Since 1992, Article 2 of the Constitution has said that French is the language of the Republic. The Loi Toubon (1994) organizes the use of French in public life. You know both from earlier lessons, and the 1990 spelling rectifications from Unit 1.
+
+<Example fr="Une loi peut imposer l'emploi d'une langue dans les actes administratifs." en="A law can impose the use of a language in administrative acts." />
+
+## Writing about language history neutrally
+
+The history of a language is also the history of the people who spoke other languages. As a rule of thumb, when you write about it:
+
+- **Give the date and its kind**: issued, founded, published, adopted.
+- **Attribute an interpretation** to historians, and present a debate as a debate.
+- **Report a word of the time** (*patois*) as a word, without taking it over as a verdict.
+
+## The model: an article on the history of French
+
+The article below is original, written for the lesson. It quotes the first words of the Strasbourg Oaths in the original, for recognition only, with our own modern French and English translations.
+
+*Douze siècles de français. Le français n'est pas né d'un jour. Il vient du latin vulgaire, le latin que parlait le peuple de Gaule, qui s'est transformé peu à peu pendant plusieurs siècles. En 842, deux petits-fils de Charlemagne prononcent à Strasbourg des serments que le manuscrit nous a conservés. On les présente souvent comme le plus ancien texte dans une forme ancienne du français. Ils commencent ainsi : « Pro Deo amur et pro christian poblo et nostro commun salvament ».*
+
+*Au Moyen Âge, on parle au nord la langue d'oïl et au sud la langue d'oc, deux groupes nommés d'après leur mot pour dire « oui ». Chacun de ces deux groupes réunit lui-même de nombreux dialectes, qui changent d'une région à l'autre. C'est l'époque de l'ancien français, puis du moyen français, à partir du XIVe siècle. En 1539, l'ordonnance de Villers-Cotterêts demande que les actes de justice soient rédigés en français : on la résume souvent ainsi, même si le sens exact de ses mots est discuté par les historiens.*
+
+*Le XVIIe siècle est celui du français classique. L'Académie française est fondée en 1635, et son premier dictionnaire paraît en 1694. Pendant la Révolution, en 1794, l'abbé Grégoire présente un rapport sur les patois, mot qu'on employait alors pour les langues régionales. Un siècle plus tard, les lois Jules Ferry, en 1881 et 1882, organisent l'école primaire dans tout le pays, et c'est en français qu'on y enseigne.*
+
+*Aujourd'hui, la Constitution dit, depuis 1992, que la langue de la République est le français, et la loi Toubon de 1994 en organise l'emploi dans la vie publique. Mais une langue ne se résume pas à ses lois : elle continue de changer chaque jour, dans la bouche de ceux qui la parlent.*
+
+*Les premiers mots des Serments, en français moderne (notre traduction) : « Pour l'amour de Dieu et pour le peuple chrétien et notre salut commun ».*
+
+(Twelve centuries of French. French wasn't born in a day. It comes from Vulgar Latin, the Latin spoken by the people of Gaul, which changed little by little over several centuries. In 842, two grandsons of Charlemagne swear oaths at Strasbourg that the manuscript has preserved for us. They are often presented as the oldest text in an early form of French. They begin: "Pro Deo amur et pro christian poblo et nostro commun salvament". In the Middle Ages, people speak the langue d'oïl in the north and the langue d'oc in the south, two groups named after their word for "yes". Each of these two groups itself brings together many dialects, which change from one region to another. This is the time of Old French, then of Middle French, from the 14th century. In 1539, the ordinance of Villers-Cotterêts requires legal acts to be written in French: that's how it's often summed up, even though historians debate the exact meaning of its words. The 17th century is that of classical French. The Académie française is founded in 1635, and its first dictionary appears in 1694. During the Revolution, in 1794, the abbé Grégoire presents a report on the patois, the word then used for the regional languages. A century later, the Jules Ferry laws, in 1881 and 1882, organize primary school across the country, and it is in French that it teaches. Today, the Constitution has said since 1992 that the language of the Republic is French, and the 1994 Loi Toubon organizes its use in public life. But a language can't be summed up by its laws: it keeps changing every day, in the mouths of those who speak it. / The first words of the Oaths, in modern French (our translation): "For the love of God and for the Christian people and our common salvation".)
+
+<VocabTable group="glossary" />
+
+## How the article works
+
+- **One narrative tense per paragraph**: the historical present (*prononcent*, *demande*, *est fondée*, *présente*, *organisent*) tells the past events; the present of today (*dit*, *continue*) tells the present.
+- **The dates and their kind**: *fondée en 1635*, *paraît en 1694*, *présente un rapport* in 1794; the 1539 ordinance is summed up, and the debate about its words is attributed to historians.
+- **The quotation**: the first words of the Oaths, for recognition, with our own modern French translation at the end.
+- **The word of the time**: *patois, mot qu'on employait alors*, reported, not adopted.
+- **No verdict**: the article doesn't say whether these policies were good or bad for the regional languages.
+
+<Callout type="warning" title="Old French isn't modern French with old spelling">
+  Learners sometimes read the Strasbourg Oaths as modern French badly spelt, and try to say them aloud word by word. *Pro Deo amur* isn't a spelling of *pour l'amour de Dieu*: it's an earlier state of the language, with other words and another order. Read it with a translation: **« Pro Deo amur » veut dire « pour l'amour de Dieu »**.
+</Callout>
+
+<Callout type="tip" title="Hang the history on five dates">
+  To remember the stages, learn five dates and one fact each: 842, the Oaths; 1539, Villers-Cotterêts; 1635, the Académie; 1794, Grégoire's report; 1881–1882, the Ferry laws. Every other fact in this lesson fits before, between or after them.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-culture-medieval-and-renaissance" text="the lesson on literature before the classics" /> reads the works of the Middle Ages and the Renaissance.
+
+===== content/lessons/c2/culture-medieval-and-renaissance.mdx =====
+---
+id: "c2-culture-medieval-and-renaissance"
+title: "Literature Before the Classics"
+description: "The main works and authors from the Middle Ages to the Renaissance: La Chanson de Roland, Chrétien de Troyes, Le Roman de la Rose, Villon, Rabelais, Du Bellay and the Pléiade, Ronsard and Louise Labé; and how to read Old and Middle French spelling, for recognition only."
+level: "C2"
+unit: "The language and its literatures"
+order: 37
+type: "culture"
+tags: ["culture", "literature", "Middle Ages", "Renaissance", "recognition"]
+prerequisites: ["c2-culture-history-of-french", "c1-culture-literary-canon", "c1-culture-french-poetry"]
+related: ["c1-philosophy-and-ideas", "c2-culture-twentieth-century-and-today", "c2-review-literatures"]
+vocab:
+  - { id: "c2-culture-medieval-and-renaissance-v001", group: "middle", fr: "le Moyen Âge", pron: "luh mwah-yen-NAHZH", en: "the Middle Ages" }
+  - { id: "c2-culture-medieval-and-renaissance-v002", group: "middle", fr: "une chanson de geste", pron: "ewn shahn-SOHN duh ZHEST", en: "a chanson de geste (an epic poem about heroic deeds)" }
+  - { id: "c2-culture-medieval-and-renaissance-v003", group: "middle", fr: "un chevalier", pron: "uhn shuh-vah-LYAY", en: "a knight" }
+  - { id: "c2-culture-medieval-and-renaissance-v004", group: "middle", fr: "le roman courtois", pron: "luh roh-MAHN koor-TWAH", en: "the courtly romance" }
+  - { id: "c2-culture-medieval-and-renaissance-v005", group: "middle", fr: "un poème allégorique", pron: "uhn poh-EM ah-lay-goh-REEK", en: "an allegorical poem" }
+  - { id: "c2-culture-medieval-and-renaissance-v006", group: "middle", fr: "anonyme", pron: "ah-noh-NEEM", en: "anonymous" }
+  - { id: "c2-culture-medieval-and-renaissance-v007", group: "renaissance", fr: "la Renaissance", pron: "lah ruh-neh-SAHNSS", en: "the Renaissance" }
+  - { id: "c2-culture-medieval-and-renaissance-v008", group: "renaissance", fr: "l'humanisme (m.)", pron: "lew-mah-NEESM", en: "humanism" }
+  - { id: "c2-culture-medieval-and-renaissance-v009", group: "renaissance", fr: "un géant", pron: "uhn zhay-AHN", en: "a giant" }
+  - { id: "c2-culture-medieval-and-renaissance-v010", group: "renaissance", fr: "la Pléiade", pron: "lah play-YAD", en: "the Pléiade (a group of Renaissance poets)" }
+  - { id: "c2-culture-medieval-and-renaissance-v011", group: "renaissance", fr: "défendre une langue", pron: "day-FAHN-druh ewn LAHNG", en: "to defend a language" }
+  - { id: "c2-culture-medieval-and-renaissance-v012", group: "renaissance", fr: "une ode", pron: "ew-NOD", en: "an ode" }
+  - { id: "c2-culture-medieval-and-renaissance-v013", group: "renaissance", fr: "la paternité (d'une œuvre)", pron: "lah pah-tehr-nee-TAY", en: "authorship (of a work)" }
+  - { id: "c2-culture-medieval-and-renaissance-v014", group: "renaissance", fr: "une création collective", pron: "ewn kray-ah-SYOHN koh-lek-TEEV", en: "a collective creation" }
+  - { id: "c2-culture-medieval-and-renaissance-v015", group: "reading", fr: "l'orthographe d'origine (f.)", pron: "lor-toh-GRAHF doh-ree-ZHEEN", en: "the original spelling" }
+  - { id: "c2-culture-medieval-and-renaissance-v016", group: "reading", fr: "une traduction en français moderne", pron: "ewn trah-dewk-SYOHN ahn frahn-SEH moh-DEHRN", en: "a translation into modern French" }
+  - { id: "c2-culture-medieval-and-renaissance-v017", group: "glossary", fr: "une aventure", pron: "ew-nah-vahn-TEWR", en: "an adventure" }
+  - { id: "c2-culture-medieval-and-renaissance-v018", group: "glossary", fr: "mêle (mêler)", pron: "MEL", en: "mixes (to mix)" }
+  - { id: "c2-culture-medieval-and-renaissance-v019", group: "glossary", fr: "redécouvre (redécouvrir)", pron: "ruh-day-KOO-vruh", en: "rediscovers (to rediscover)" }
+  - { id: "c2-culture-medieval-and-renaissance-v020", group: "glossary", fr: "le savoir", pron: "luh sah-VWAHR", en: "knowledge" }
+  - { id: "c2-culture-medieval-and-renaissance-v021", group: "glossary", fr: "se fane (se faner)", pron: "suh FAHN", en: "fades, wilts (to fade)" }
+  - { id: "c2-culture-medieval-and-renaissance-v022", group: "glossary", fr: "l'illustration (f.)", pron: "lee-lew-strah-SYOHN", en: "here: making illustrious, glorifying (in Du Bellay's title)" }
+  - { id: "c2-culture-medieval-and-renaissance-v023", group: "glossary", fr: "mignonne", pron: "mee-NYONN", en: "my sweet, darling (a term of affection)" }
+  - { id: "c2-culture-medieval-and-renaissance-v024", group: "glossary", fr: "rejettent (rejeter)", pron: "ruh-ZHET", en: "reject (to reject)" }
+  - { id: "c2-culture-medieval-and-renaissance-v025", group: "glossary", fr: "meurt (mourir)", pron: "MUHR", en: "dies (to die)" }
+exercises:
+  - id: "c2-culture-medieval-and-renaissance-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez le genre de La Chanson de Roland."
+    options: ["une chanson de geste", "un roman courtois", "une ode"]
+    answers: ["une chanson de geste"]
+    explanation: "La Chanson de Roland is a chanson de geste, an epic poem about heroic deeds."
+  - id: "c2-culture-medieval-and-renaissance-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez combien d'auteurs a eu Le Roman de la Rose."
+    options: ["deux : Guillaume de Lorris, puis Jean de Meun", "un seul : Chrétien de Troyes", "aucun : il est anonyme"]
+    answers: ["deux : Guillaume de Lorris, puis Jean de Meun"]
+    explanation: "The 13th-century Roman de la Rose was begun by Guillaume de Lorris and continued by Jean de Meun."
+  - id: "c2-culture-medieval-and-renaissance-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez ce qu'on sait de la vie de François Villon après 1463."
+    options: ["rien", "qu'il est devenu professeur", "qu'il est mort en 1553"]
+    answers: ["rien"]
+    explanation: "Villon was born in 1431, and nothing is known of him after 1463. 1553 is the year of Rabelais's death."
+  - id: "c2-culture-medieval-and-renaissance-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens, en français moderne, de « Halt sunt li pui » (La Chanson de Roland)."
+    options: ["Hauts sont les monts", "Il fait chaud dans les puits", "Les monts sont loin"]
+    answers: ["Hauts sont les monts"]
+    explanation: "Halt sunt li pui: high are the hills (pui, the hills or mountains). The valleys come next: e li val tenebrus. For recognition only."
+  - id: "c2-culture-medieval-and-renaissance-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le mot moderne pour « avoit » chez Ronsard."
+    options: ["avait", "avoue", "voit"]
+    answers: ["avait"]
+    explanation: "Renaissance spelling wrote -oit where modern French writes -ait: avoit, avait. For recognition only."
+  - id: "c2-culture-medieval-and-renaissance-ex006"
+    type: "multiple-choice"
+    prompt: "Choisissez la présentation neutre du débat sur Louise Labé."
+    options: ["En 2006, un chercheur a soutenu que ses Œuvres étaient une création collective ; d'autres rejettent cette thèse.", "On sait aujourd'hui que Louise Labé n'a rien écrit.", "Le débat sur Louise Labé n'a aucun intérêt."]
+    answers: ["En 2006, un chercheur a soutenu que ses Œuvres étaient une création collective ; d'autres rejettent cette thèse."]
+    explanation: "The neutral version attributes the argument and the reply, and gives no verdict."
+  - id: "c2-culture-medieval-and-renaissance-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec le nom du mouvement : À la Renaissance, l'___ redécouvre les textes de l'Antiquité."
+    answers: ["humanisme"]
+    explanation: "L'humanisme: the Renaissance movement that returned to the texts of Antiquity."
+  - id: "c2-culture-medieval-and-renaissance-ex008"
+    type: "fill-in"
+    prompt: "Complétez : Du Bellay, Ronsard et leurs amis poètes forment un groupe appelé la ___."
+    answers: ["Pléiade"]
+    explanation: "La Pléiade: the group of poets around Ronsard and Du Bellay."
+  - id: "c2-culture-medieval-and-renaissance-ex009"
+    type: "fill-in"
+    prompt: "Complétez : Chrétien de Troyes a écrit, à la fin du XIIe siècle, des romans ___."
+    answers: ["courtois"]
+    explanation: "Le roman courtois: the courtly romance, with its knights and their adventures."
+  - id: "c2-culture-medieval-and-renaissance-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de date, en changeant seulement l'année : Rabelais publie Pantagruel en 1549."
+    answers: ["Rabelais publie Pantagruel en 1532"]
+    explanation: "Pantagruel dates from 1532 and Gargantua from 1534. 1549 is Du Bellay's Défense et illustration de la langue française."
+  - id: "c2-culture-medieval-and-renaissance-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur, en remplaçant seulement le nom de l'auteur : Ronsard publie la Défense et illustration de la langue française en 1549."
+    answers: ["Du Bellay publie la Défense et illustration de la langue française en 1549"]
+    explanation: "The Défense (1549) is by Du Bellay. Ronsard (1524–1585) is the other great poet of the Pléiade."
+  - id: "c2-culture-medieval-and-renaissance-ex012"
+    type: "reformulation"
+    prompt: "Reformulez au passif, au présent, en commençant par « La Chanson de Roland » : Un auteur anonyme écrit La Chanson de Roland vers 1100."
+    answers: ["La Chanson de Roland est écrite vers 1100 par un auteur anonyme", "La Chanson de Roland est écrite par un auteur anonyme vers 1100"]
+    explanation: "The passive puts the work first; par introduces the author, here anonymous."
+  - id: "c2-culture-medieval-and-renaissance-ex013"
+    type: "translate"
+    prompt: "Traduisez (anonyme) : The Chanson de Roland is an anonymous poem."
+    answers: ["La Chanson de Roland est un poème anonyme"]
+    explanation: "Anonyme: its author's name hasn't come down to us."
+  - id: "c2-culture-medieval-and-renaissance-ex014"
+    type: "translate"
+    prompt: "Traduisez (une traduction en français moderne) : Read the extract with a translation into modern French."
+    answers: ["Lisez l'extrait avec une traduction en français moderne"]
+    explanation: "Une traduction en français moderne: the help you need for Old and Middle French."
+  - id: "c2-culture-medieval-and-renaissance-ex015"
+    type: "translate"
+    prompt: "Traduisez (défendre, la langue française) : Du Bellay wanted to defend the French language."
+    answers: ["Du Bellay voulait défendre la langue française"]
+    explanation: "Défendre une langue: to argue for its value and its use."
+  - id: "c2-culture-medieval-and-renaissance-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre ces œuvres, de la plus ancienne à la plus récente."
+    words: ["La Chanson de Roland,", "Le Roman de la Rose,", "Pantagruel,", "la Défense et illustration de la langue française"]
+    answers: ["La Chanson de Roland, Le Roman de la Rose, Pantagruel, la Défense et illustration de la langue française"]
+    explanation: "Around 1100, the 13th century, 1532, 1549."
+---
+
+By the end of this lesson you'll know the main works and authors of French literature from the Middle Ages to the Renaissance, and you'll be able to recognize a short extract in Old or Middle French with a translation beside it.
+
+## What you already know
+
+You know the canon from the seventeenth century on, *le classicisme* and *un courant littéraire*, from <LessonLink id="c1-culture-literary-canon" text="the lesson on the literary canon" />, and *le sonnet* and *l'alexandrin* from <LessonLink id="c1-culture-french-poetry" text="the lesson on French poetry" />. You know *un vers* (a line of verse) from <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />. You know Montaigne and his *Essais* from <LessonLink id="c1-philosophy-and-ideas" text="the lesson on philosophy and ideas" />. You know *l'ancien français*, *le moyen français* and *un manuscrit* from <LessonLink id="c2-culture-history-of-french" text="the lesson on the history of French" />.
+
+**The extracts in this lesson are for recognition only.** Each one is quoted in its original spelling, from a public edition, with our own modern French translation and our own English translation. No exercise asks you to write Old or Middle French.
+
+## The Middle Ages
+
+<VocabTable group="middle" />
+
+**La Chanson de Roland.** *La Chanson de Roland*, dated to around 1100, is *une chanson de geste* (an epic poem about heroic deeds). Its oldest manuscript dates from the late 11th or early 12th century. The poem is *anonyme* (anonymous): its author's name hasn't come down to us. It tells the story of Roland, *un chevalier* (a knight) of Charlemagne's army.
+
+<Example fr="« Halt sunt li pui e li val tenebrus » (La Chanson de Roland, vers 814)" en="Our modern French translation: « Hauts sont les monts, et sombres les vallées ». Our English translation: &quot;High are the hills, and dark the valleys.&quot;" />
+
+**Chrétien de Troyes.** Writing in the late 12th century, Chrétien de Troyes is a major author of *le roman courtois* (the courtly romance): long stories of knights, their adventures and their love.
+
+**Le Roman de la Rose.** *Le Roman de la Rose*, from the 13th century, is often described as *un poème allégorique* (an allegorical poem). It has two authors: Guillaume de Lorris began it, and Jean de Meun continued it.
+
+**François Villon.** François Villon was born in 1431. Nothing is known of him after 1463. His poems are read today for their mix of humour, regret and the thought of death.
+
+<Example fr="Le Roman de la Rose est souvent présenté comme un poème allégorique." en="The Roman de la Rose is often presented as an allegorical poem." />
+
+<Example fr="On ne sait rien de Villon après 1463." en="Nothing is known of Villon after 1463." />
+
+## The Renaissance
+
+<VocabTable group="renaissance" />
+
+**L'humanisme.** In the 16th century, *la Renaissance* brought a movement called *l'humanisme* (humanism): scholars and writers went back to the texts of Antiquity, in Greek and Latin, and put their trust in education and knowledge.
+
+**François Rabelais.** Rabelais published *Pantagruel* in 1532 and *Gargantua* in 1534, the comic stories of two *géants* (giants), full of learning, play with words and humour. He died in 1553.
+
+**Du Bellay et la Pléiade.** In 1549, Joachim Du Bellay published the *Défense et illustration de la langue française*, which set out to *défendre la langue française* (defend the French language) as a language worthy of great poetry. He belonged to *la Pléiade*, a group of poets.
+
+**Pierre de Ronsard.** Ronsard (1524–1585) is one of the best-known poets of the Pléiade. One of his *odes* (odes) is quoted in the model text below.
+
+**Louise Labé.** Louise Labé's *Œuvres* were published in 1555. In 2006, a scholar argued that the work was *une création collective* (a collective creation) by a group of poets, which opened a debate on *la paternité de l'œuvre* (its authorship). Other scholars reject this argument. The debate is still open, and this lesson gives no verdict.
+
+<Example fr="Rabelais a publié Pantagruel en 1532, puis Gargantua en 1534." en="Rabelais published Pantagruel in 1532, then Gargantua in 1534." />
+
+<Example fr="La paternité des Œuvres de Louise Labé est discutée depuis 2006." en="The authorship of Louise Labé's Œuvres has been debated since 2006." />
+
+## Reading old spelling
+
+<VocabTable group="reading" />
+
+An extract in *l'orthographe d'origine* (the original spelling) looks strange, but a few habits help:
+
+- **Read it aloud slowly**, with *une traduction en français moderne* (a translation into modern French) beside it.
+- **Look for familiar endings**: Renaissance spelling writes *-oit* where modern French writes *-ait* (*avoit*, *avait*), and often adds an *s* that's no longer written (*desclose*, *ceste*).
+- **Expect other words in Old French**: *pui* (hills) and *tenebrus* (dark) aren't modern words in old spelling, but words the language later changed or lost.
+
+These habits are for reading only. Writing, in this course, is always in modern French.
+
+<Example fr="Une citation garde l'orthographe d'origine du texte qu'on copie." en="A quotation keeps the original spelling of the text you copy." />
+
+Here they are applied to the two lines of Ronsard quoted in the model text:
+
+- **Mignonne** is a term of affection, addressed to the woman the poem speaks to.
+- **Avoit** is *avait*: the *-oit* spelling of the imperfect.
+- **Desclose** is *déclose* (opened): where modern spelling would write *é*, the edition writes *es*.
+- **The sentence goes on**: what the rose had opened comes in the next line of the poem, which isn't quoted here. That's why our translation ends with three dots.
+
+## The model: an article on the literature before the classics
+
+The article below is original, written for the lesson. It quotes the first two lines of an ode by Ronsard in the spelling of a public edition, for recognition only, with our own modern French and English translations.
+
+*Avant les classiques. On croit parfois que la littérature française commence au XVIIe siècle. Elle est pourtant bien plus ancienne. Ces siècles, qu'on appelle le Moyen Âge puis la Renaissance, ont laissé des œuvres que l'on lit encore. Vers 1100, La Chanson de Roland raconte la mort d'un chevalier de Charlemagne : c'est une chanson de geste, et son auteur est anonyme. À la fin du XIIe siècle, Chrétien de Troyes écrit des romans courtois, où les chevaliers vivent de grandes aventures et où l'amour tient une grande place.*
+
+*Au XIIIe siècle, Le Roman de la Rose est un poème à deux auteurs : Guillaume de Lorris le commence, Jean de Meun le continue. Au XVe siècle, François Villon, né en 1431, mêle dans ses poèmes le rire et la pensée de la mort ; on ne sait rien de lui après 1463.*
+
+*Au XVIe siècle, l'humanisme redécouvre les textes de l'Antiquité. Rabelais publie Pantagruel en 1532 et Gargantua en 1534, deux histoires de géants pleines de savoir et de jeux de mots. Il meurt en 1553. En 1549, Du Bellay publie la Défense et illustration de la langue française : il veut montrer que le français peut porter une grande poésie. Avec Ronsard, il appartient au groupe de la Pléiade.*
+
+*Ronsard écrit une ode célèbre sur la rose qui se fane en un jour, image de la jeunesse qui passe. Elle commence ainsi : « Mignonne, allons voir si la rose / Qui ce matin avoit desclose ». En 1555 paraissent les Œuvres de Louise Labé ; en 2006, un chercheur a soutenu qu'elles étaient une création collective, et d'autres rejettent cette thèse.*
+
+*Ces textes demandent un effort au lecteur d'aujourd'hui. Mais avec une traduction à côté, on y entend déjà la langue qui deviendra la nôtre.*
+
+*Les deux vers de Ronsard, en français moderne (notre traduction) : « Mignonne, allons voir si la rose qui, ce matin, avait ouvert… »*
+
+(Before the classics. People sometimes think French literature begins in the 17th century. Yet it is much older. These centuries, which we call the Middle Ages and then the Renaissance, have left works that are still read. Around 1100, La Chanson de Roland tells of the death of a knight of Charlemagne: it is a chanson de geste, and its author is anonymous. At the end of the 12th century, Chrétien de Troyes writes courtly romances, in which knights live great adventures and love has a large place. In the 13th century, Le Roman de la Rose is a poem with two authors: Guillaume de Lorris begins it, Jean de Meun continues it. In the 15th century, François Villon, born in 1431, mixes laughter and the thought of death in his poems; nothing is known of him after 1463. In the 16th century, humanism rediscovers the texts of Antiquity. Rabelais publishes Pantagruel in 1532 and Gargantua in 1534, two stories of giants full of learning and wordplay. He dies in 1553. In 1549, Du Bellay publishes the Défense et illustration de la langue française: he wants to show that French can carry great poetry. With Ronsard, he belongs to the group of the Pléiade. Ronsard writes a famous ode on the rose that fades in a day, an image of passing youth. It begins: "Mignonne, allons voir si la rose / Qui ce matin avoit desclose". In 1555, Louise Labé's Œuvres appear; in 2006, a scholar argued that they were a collective creation, and others reject this argument. These texts ask an effort of today's reader. But with a translation alongside, you can already hear in them the language that will become ours. / Ronsard's two lines, in modern French (our translation): "My sweet, let's go and see whether the rose that, this morning, had opened…")
+
+<VocabTable group="glossary" />
+
+## How the article works
+
+- **The order**: from around 1100 to 1555, century by century, with one or two names per period.
+- **One tense per paragraph**: the historical present tells each century (*raconte*, *écrit*, *publie*); the last paragraph speaks of today.
+- **The debate about Louise Labé** is attributed (*un chercheur a soutenu*, *d'autres rejettent*), with no verdict.
+- **The quotation**: two lines of Ronsard, under 15 words, in the spelling of the edition, with our own translation at the end. The article makes no claim about their metre.
+
+<Callout type="warning" title="Don't modernize a quotation">
+  When they quote Ronsard, learners often correct the spelling as they copy: *qui ce matin avait déclose*. A quotation keeps the spelling of its edition: **« Qui ce matin avoit desclose »**. Put the modern version beside it, labelled as a translation, never in its place.
+</Callout>
+
+<Callout type="tip" title="Learn one line per author">
+  For each author of this lesson, learn one short line or one title, and the date that goes with it: *Halt sunt li pui* for Roland, *Pantagruel* (1532) for Rabelais, the *Défense* (1549) for Du Bellay, *Mignonne, allons voir si la rose* for Ronsard. A name with a line attached is far easier to remember than a list of names.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-culture-twentieth-century-and-today" text="the lesson on literature since 1900" /> jumps over the classical centuries you already know, to the movements of the last hundred years.
+
+===== content/lessons/c2/culture-twentieth-century-and-today.mdx =====
+---
+id: "c2-culture-twentieth-century-and-today"
+title: "Literature Since 1900"
+description: "Place the main movements and authors since 1900, by paraphrase only: Proust's À la recherche du temps perdu (1913–1927), Breton's first surrealist manifesto (1924), the Nouveau Roman, the Oulipo (1960) and Perec's La Disparition (1969), autofiction (1977), the prix Goncourt (1903), the rentrée littéraire and French-language Nobel prizes; with an original lipogram."
+level: "C2"
+unit: "The language and its literatures"
+order: 38
+type: "culture"
+tags: ["culture", "literature", "twentieth century", "lipogram", "constrained writing"]
+prerequisites: ["c1-culture-literary-canon", "b2-arts-and-literature", "c2-culture-medieval-and-renaissance"]
+related: ["c2-culture-francophone-literatures", "c2-culture-wordplay", "c2-review-literatures"]
+vocab:
+  - { id: "c2-culture-twentieth-century-and-today-v001", group: "movements", fr: "un mouvement littéraire", pron: "uhn moov-MAHN lee-tay-RAIR", en: "a literary movement" }
+  - { id: "c2-culture-twentieth-century-and-today-v002", group: "movements", fr: "un manifeste", pron: "uhn mah-nee-FEST", en: "a manifesto" }
+  - { id: "c2-culture-twentieth-century-and-today-v003", group: "movements", fr: "le Nouveau Roman", pron: "luh noo-voh roh-MAHN", en: "the Nouveau Roman (the 'new novel' of the 1950s)" }
+  - { id: "c2-culture-twentieth-century-and-today-v004", group: "movements", fr: "l'autofiction (f.)", pron: "loh-toh-feek-SYOHN", en: "autofiction (writing that mixes the author's life and fiction)" }
+  - { id: "c2-culture-twentieth-century-and-today-v005", group: "movements", fr: "forger un mot", pron: "for-ZHAY uhn MOH", en: "to coin a word" }
+  - { id: "c2-culture-twentieth-century-and-today-v006", group: "movements", fr: "une étiquette", pron: "ew-nay-tee-KET", en: "a label (put on a writer or a work)" }
+  - { id: "c2-culture-twentieth-century-and-today-v007", group: "constraint", fr: "l'Oulipo (m.)", pron: "loo-lee-POH", en: "the Oulipo (a group of writers who use constraints)" }
+  - { id: "c2-culture-twentieth-century-and-today-v008", group: "constraint", fr: "une contrainte d'écriture", pron: "ewn kohn-TRANT day-kree-TEWR", en: "a writing constraint" }
+  - { id: "c2-culture-twentieth-century-and-today-v009", group: "constraint", fr: "un lipogramme", pron: "uhn lee-poh-GRAHM", en: "a lipogram (a text that never uses one letter)" }
+  - { id: "c2-culture-twentieth-century-and-today-v010", group: "books", fr: "la rentrée littéraire", pron: "lah rahn-TRAY lee-tay-RAIR", en: "the literary season (the many novels published at the end of summer)" }
+  - { id: "c2-culture-twentieth-century-and-today-v011", group: "books", fr: "un éditeur / une éditrice", pron: "uh-nay-dee-TUHR / ew-nay-dee-TREESS", en: "a publisher" }
+  - { id: "c2-culture-twentieth-century-and-today-v012", group: "books", fr: "un libraire / une libraire", pron: "uhn lee-BREHR", en: "a bookseller" }
+  - { id: "c2-culture-twentieth-century-and-today-v013", group: "books", fr: "un prix littéraire", pron: "uhn pree lee-tay-RAIR", en: "a literary prize" }
+  - { id: "c2-culture-twentieth-century-and-today-v014", group: "books", fr: "décerner un prix", pron: "day-sehr-NAY uhn PREE", en: "to award a prize" }
+  - { id: "c2-culture-twentieth-century-and-today-v015", group: "books", fr: "le prix Nobel de littérature", pron: "luh pree noh-BEL duh lee-tay-rah-TEWR", en: "the Nobel Prize in Literature" }
+  - { id: "c2-culture-twentieth-century-and-today-v016", group: "books", fr: "refuser un prix", pron: "ruh-few-ZAY uhn PREE", en: "to decline a prize" }
+  - { id: "c2-culture-twentieth-century-and-today-v017", group: "glossary", fr: "un héritier / une héritière", pron: "uh-nay-ree-TYAY / ew-nay-ree-TYEHR", en: "an heir" }
+  - { id: "c2-culture-twentieth-century-and-today-v018", group: "glossary", fr: "se méfiait (se méfier de)", pron: "suh may-FYEH", en: "distrusted (to distrust)" }
+  - { id: "c2-culture-twentieth-century-and-today-v019", group: "glossary", fr: "un polar", pron: "uhn poh-LAR", en: "a crime novel (familiar)" }
+  - { id: "c2-culture-twentieth-century-and-today-v020", group: "glossary", fr: "la fiction", pron: "lah feek-SYOHN", en: "fiction" }
+  - { id: "c2-culture-twentieth-century-and-today-v021", group: "glossary", fr: "un joueur / une joueuse", pron: "uhn zhoo-UHR / ewn zhoo-UHZ", en: "a player" }
+  - { id: "c2-culture-twentieth-century-and-today-v022", group: "glossary", fr: "un album", pron: "uh-nahl-BOMM", en: "a picture book, an album" }
+  - { id: "c2-culture-twentieth-century-and-today-v023", group: "glossary", fr: "un individu", pron: "uh-nan-dee-vee-DEW", en: "an individual, a stranger" }
+  - { id: "c2-culture-twentieth-century-and-today-v024", group: "glossary", fr: "sans faillir", pron: "sahn fah-YEER", en: "without fail" }
+  - { id: "c2-culture-twentieth-century-and-today-v025", group: "glossary", fr: "souriant / souriante", pron: "soo-RYAHN / soo-RYAHNT", en: "smiling" }
+  - { id: "c2-culture-twentieth-century-and-today-v026", group: "glossary", fr: "polit (polir)", pron: "poh-LEE", en: "polishes (to polish)" }
+exercises:
+  - id: "c2-culture-twentieth-century-and-today-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez l'année du premier manifeste du surréalisme d'André Breton."
+    options: ["1924", "1903", "1960"]
+    answers: ["1924"]
+    explanation: "Breton's first surrealist manifesto dates from 1924. The prix Goncourt was first awarded in 1903, and the Oulipo was founded in 1960."
+  - id: "c2-culture-twentieth-century-and-today-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez la contrainte de La Disparition de Georges Perec."
+    options: ["un roman entier sans la lettre e", "un roman écrit en une seule phrase", "un roman sans personnage"]
+    answers: ["un roman entier sans la lettre e"]
+    explanation: "La Disparition (1969) is a whole novel without the letter e: a lipogram."
+  - id: "c2-culture-twentieth-century-and-today-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez l'écrivain qui a refusé le prix Nobel de littérature en 1964."
+    options: ["Jean-Paul Sartre", "Albert Camus", "Claude Simon"]
+    answers: ["Jean-Paul Sartre"]
+    explanation: "Sartre was awarded the Nobel Prize in 1964 and declined it. Camus received it in 1957, Claude Simon in 1985."
+  - id: "c2-culture-twentieth-century-and-today-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez la présentation prudente d'un écrivain du Nouveau Roman."
+    options: ["Nathalie Sarraute est souvent associée au Nouveau Roman.", "Nathalie Sarraute a inventé tout le roman moderne.", "Nathalie Sarraute n'a rien à voir avec le Nouveau Roman."]
+    answers: ["Nathalie Sarraute est souvent associée au Nouveau Roman."]
+    explanation: "A label is given as 'often linked with', since writers don't always accept the labels put on them."
+  - id: "c2-culture-twentieth-century-and-today-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez qui a forgé le mot « autofiction », en 1977."
+    options: ["Serge Doubrovsky", "Raymond Queneau", "André Breton"]
+    answers: ["Serge Doubrovsky"]
+    explanation: "Serge Doubrovsky coined the word in 1977. Queneau co-founded the Oulipo; Breton wrote the surrealist manifesto."
+  - id: "c2-culture-twentieth-century-and-today-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Un texte qui n'emploie jamais une lettre est un ___."
+    answers: ["lipogramme"]
+    explanation: "Un lipogramme: the constraint of La Disparition, and of the model text in this lesson."
+  - id: "c2-culture-twentieth-century-and-today-ex007"
+    type: "fill-in"
+    prompt: "Complétez : À la fin de l'été, les éditeurs publient beaucoup de romans : c'est la ___ littéraire."
+    answers: ["rentrée"]
+    explanation: "La rentrée littéraire: the literary season at the end of summer."
+  - id: "c2-culture-twentieth-century-and-today-ex008"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe au participe passé : Le prix Goncourt a été ___ pour la première fois en 1903."
+    strictAccents: true
+    answers: ["décerné"]
+    explanation: "Décerner un prix: to award it. Here in the passive, agreeing with le prix (masculine)."
+  - id: "c2-culture-twentieth-century-and-today-ex009"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de date, en changeant seulement l'année : L'Oulipo a été fondé en 1924 par Raymond Queneau et François Le Lionnais."
+    strictAccents: true
+    answers: ["L'Oulipo a été fondé en 1960 par Raymond Queneau et François Le Lionnais"]
+    explanation: "The Oulipo dates from 1960; 1924 is Breton's first surrealist manifesto."
+  - id: "c2-culture-twentieth-century-and-today-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'étiquette, trop affirmée, en commençant par « Camus est souvent associé à » : Camus appartient à l'existentialisme."
+    strictAccents: true
+    answers: ["Camus est souvent associé à l'existentialisme"]
+    explanation: "As the lesson on the canon says, Camus is often linked with existentialism, though he rejected the label."
+  - id: "c2-culture-twentieth-century-and-today-ex011"
+    type: "reformulation"
+    prompt: "Reformulez au passif, au passé composé, en commençant par « Le mot « autofiction » » : Serge Doubrovsky a forgé le mot « autofiction » en 1977."
+    strictAccents: true
+    answers: ["Le mot « autofiction » a été forgé par Serge Doubrovsky en 1977", "Le mot « autofiction » a été forgé en 1977 par Serge Doubrovsky"]
+    explanation: "The passive puts the word first; par introduces the person who coined it."
+  - id: "c2-culture-twentieth-century-and-today-ex012"
+    type: "translate"
+    prompt: "Traduisez (une contrainte d'écriture) : « The Oulipo writes under constraint. »"
+    answers: ["L'Oulipo écrit sous contrainte"]
+    explanation: "Écrire sous contrainte: to write with a rule chosen in advance."
+  - id: "c2-culture-twentieth-century-and-today-ex013"
+    type: "translate"
+    prompt: "Traduisez (le roman de Proust, publier, au passif) : Proust's novel was published from 1913 to 1927."
+    strictAccents: true
+    answers: ["Le roman de Proust a été publié de 1913 à 1927"]
+    explanation: "Publié agrees with le roman (masculine). À la recherche du temps perdu appeared in several volumes over those years."
+  - id: "c2-culture-twentieth-century-and-today-ex014"
+    type: "translate"
+    prompt: "Traduisez (un prix littéraire, décerner) : The prize is awarded every year."
+    answers: ["Le prix est décerné chaque année", "Le prix est décerné tous les ans"]
+    explanation: "Décerner un prix; chaque année and tous les ans both mean every year."
+  - id: "c2-culture-twentieth-century-and-today-ex015"
+    type: "translate"
+    prompt: "Traduisez (refuser, au passé composé) : « Sartre declined the Nobel Prize. »"
+    strictAccents: true
+    answers: ["Sartre a refusé le prix Nobel"]
+    explanation: "Refuser un prix: to decline it."
+  - id: "c2-culture-twentieth-century-and-today-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre ces événements, du plus ancien au plus récent."
+    words: ["le premier prix Goncourt,", "le manifeste du surréalisme,", "la naissance de l'Oulipo,", "La Disparition"]
+    answers: ["le premier prix Goncourt, le manifeste du surréalisme, la naissance de l'Oulipo, La Disparition"]
+    explanation: "1903, 1924, 1960, 1969."
+---
+
+By the end of this lesson you'll be able to place the main movements and authors of French literature since 1900, talk about the literary season and its prizes, and recognize a constrained text such as a lipogram.
+
+## What you already know
+
+You know Proust, Sartre, Camus, Beauvoir, Duras and Annie Ernaux, and *l'existentialisme*, from <LessonLink id="c1-culture-literary-canon" text="the lesson on the literary canon" />. That lesson presents Camus as often linked with existentialism, though he rejected the label, and this lesson keeps that description. You know *le surréalisme* from <LessonLink id="b2-arts-and-literature" text="the lesson on arts and literature" />, and *remettre en question* (to question) from <LessonLink id="c1-philosophy-and-ideas" text="the lesson on philosophy and ideas" />. *Une lettre* is a letter of the alphabet here, as in <LessonLink id="a1-alphabet-and-accents" text="the lesson on the alphabet" />.
+
+**No author of this lesson is quoted.** All of them died after 1900, or are alive, so their ideas are paraphrased. Living authors are named with their works only. Labels are given as "often linked with", because writers don't always accept the movement they're put in.
+
+## Movements of the twentieth century
+
+<VocabTable group="movements" />
+
+**Marcel Proust.** *À la recherche du temps perdu*, Proust's long novel of memory, was published from 1913 to 1927.
+
+**Le surréalisme.** In 1924, André Breton published the first *manifeste* (manifesto) of surrealism. The movement is often described as wanting to free the imagination from reason and habit, through dreams and chance.
+
+**Le Nouveau Roman.** In the 1950s, *le Nouveau Roman* (the "new novel") is a name given to writers who *remettaient en question* (questioned) the traditional novel, with its plot and its characters. Alain Robbe-Grillet and Nathalie Sarraute are often linked with it.
+
+**L'autofiction.** In 1977, Serge Doubrovsky *a forgé le mot* (coined the word) *autofiction*, for books that mix the author's own life and fiction. The term has since been used for many other writers.
+
+<Example fr="Un mouvement littéraire réunit des écrivains autour de quelques idées communes." en="A literary movement brings writers together around a few shared ideas." />
+
+<Example fr="Nathalie Sarraute est souvent associée au Nouveau Roman." en="Nathalie Sarraute is often linked with the Nouveau Roman." />
+
+<Example fr="Ces romanciers ont remis en question l'intrigue et le personnage." en="These novelists questioned plot and character." />
+
+## Writing under constraint
+
+<VocabTable group="constraint" />
+
+**L'Oulipo.** The Oulipo was founded in 1960 by Raymond Queneau and François Le Lionnais. Its members write with *une contrainte d'écriture* (a writing constraint): a rule chosen in advance, which, for its members, can be a way of finding new ideas.
+
+**La Disparition.** The best-known example is Georges Perec's *La Disparition* (1969), a whole novel without *la lettre e* (the letter e). A text that never uses one letter is called *un lipogramme* (a lipogram). In French, *e* is a very frequent letter, so a lipogram in *e* forbids *le*, *de*, *et*, *est* and most feminine endings.
+
+<Example fr="Un lipogramme en e interdit les mots « le », « de » et « est »." en="A lipogram in e forbids the words 'le', 'de' and 'est'." />
+
+## The literary season and its prizes
+
+<VocabTable group="books" />
+
+**La rentrée littéraire.** At the end of the summer, French *éditeurs* (publishers) bring out a large number of novels in a few weeks. This is *la rentrée littéraire*. *Les libraires* (booksellers) choose which books to put forward, and the press publishes its lists.
+
+**Le prix Goncourt.** In the autumn come *les prix littéraires* (literary prizes). The prix Goncourt, one of the best known, was first awarded in 1903.
+
+**Le prix Nobel de littérature.** Several writers in French have received the Nobel Prize in Literature: Camus in 1957, Sartre in 1964 (he declined it), Claude Simon in 1985, J. M. G. Le Clézio in 2008, Patrick Modiano in 2014 and Annie Ernaux in 2022.
+
+<Example fr="Le prix Goncourt est décerné à l'automne, pendant la rentrée littéraire." en="The prix Goncourt is awarded in the autumn, during the literary season." />
+
+<Example fr="Sartre a refusé le prix Nobel de littérature en 1964." en="Sartre declined the Nobel Prize in Literature in 1964." />
+
+## Talking about living authors
+
+As a rule of thumb, when you write about a living author:
+
+- **Name the work and the date**, not the private life.
+- **Paraphrase** the ideas in your own words; don't quote.
+- **Attribute a label** (*souvent associé à*, *selon la critique*) instead of stating it as a fact.
+
+<Example fr="Une étiquette ne dit pas tout d'un écrivain : beaucoup d'auteurs refusent celle qu'on leur donne." en="A label doesn't say everything about a writer: many authors reject the one they're given." />
+
+## Paraphrasing instead of quoting
+
+Since none of these authors can be quoted, you'll often need to report an idea in your own words. Three habits keep a paraphrase honest:
+
+- **Name the source** at the start: *selon Breton…*, *pour les membres de l'Oulipo…*, *d'après Doubrovsky…*
+- **Keep the strength of the idea**: if the writers say a constraint *can* help, don't write that it always does.
+- **Use your own sentence**, not the author's with a few words changed; a close copy is still a quotation.
+
+<Example fr="Pour les membres de l'Oulipo, une contrainte peut aider à trouver des idées." en="For the members of the Oulipo, a constraint can help you find ideas." />
+
+## The model: an article on the literary season
+
+The article below is original, written for the lesson.
+
+*La rentrée littéraire. Chaque année, à la fin de l'été, les éditeurs publient un grand nombre de romans : c'est la rentrée littéraire. Les libraires font leurs choix, les journaux publient leurs listes, et les lecteurs se demandent par où commencer. Pour beaucoup d'entre eux, c'est un grand moment de l'année. À l'automne viennent les prix littéraires, dont le prix Goncourt, décerné pour la première fois en 1903.*
+
+*Cette saison réunit des écrivains de toutes les générations, et des héritages très différents. Certains pensent à Proust et à son long roman de la mémoire, publié de 1913 à 1927. D'autres rappellent le Nouveau Roman des années 1950, qui se méfiait de l'intrigue et du personnage. D'autres encore viennent de l'autofiction, un mot forgé par Serge Doubrovsky en 1977 pour des livres qui mêlent la vie de l'auteur et la fiction. La critique classe ces livres en courants, mais les auteurs n'acceptent pas toujours ces étiquettes.*
+
+*Et puis il y a les joueurs : les héritiers de l'Oulipo, fondé en 1960 par Raymond Queneau et François Le Lionnais, qui écrivent sous contrainte. Le modèle reste La Disparition de Georges Perec, en 1969, un roman entier sans la lettre e. Pour montrer à quoi ressemble ce jeu, voici, ci-dessous, un court texte écrit pour cette leçon sur le même principe.*
+
+(The literary season. Every year, at the end of summer, publishers bring out a large number of novels: this is the rentrée littéraire. Booksellers make their choices, the papers publish their lists, and readers wonder where to begin. For many of them, it's a high point of the year. In the autumn come the literary prizes, among them the prix Goncourt, first awarded in 1903. This season brings together writers of every generation, and very different legacies. Some think of Proust and his long novel of memory, published from 1913 to 1927. Others recall the Nouveau Roman of the 1950s, which distrusted plot and character. Others again come from autofiction, a word coined by Serge Doubrovsky in 1977 for books that mix the author's life and fiction. Critics sort these books into movements, but authors don't always accept these labels. And then there are the players: the heirs of the Oulipo, founded in 1960 by Raymond Queneau and François Le Lionnais, who write under constraint. The model is still Georges Perec's La Disparition, in 1969, a whole novel without the letter e. To show what this game looks like, here is a short text written for this lesson on the same principle.)
+
+## The model: a lipogram
+
+The text below is an original lipogram, written for the lesson, about a young reader at a book fair. It's told in the passé simple, the tense of literary narrative.
+
+Missing letter: *e*.
+
+*Un soir d'août, à Paris, un garçon courut au salon du roman. Il lut durant six mois, il finit Proust, il prit un pari : un roman par jour, sans faillir.*
+
+*Mais là, quoi choisir ? Romans, polars, albums : il paya, il paya, il paya. Pourtant, au fond du stand, un individu souriant lui offrit un roman où manquait un son si commun qu'il fallut un mois au garçon pour y voir clair.*
+
+*Il lut tout, ravi, jusqu'au bout.*
+
+*Aujourd'hui, à son tour, il polit un roman court, sans un a. Il a du travail.*
+
+(One August evening, in Paris, a boy ran to the novel fair. He had read for six months, he had finished Proust, he had made a bet: a novel a day, without fail. But there, what to choose? Novels, crime novels, picture books: he paid, he paid, he paid. Yet, at the back of the stand, a smiling stranger offered him a novel in which a sound so common was missing that it took the boy a month to see it clearly. He read it all, delighted, to the end. Today, in his turn, he is polishing a short novel, without a single a. He has work to do.)
+
+<VocabTable group="glossary" />
+
+## How the texts work
+
+- **The article** gives each fact its date and its kind (*publié*, *décerné pour la première fois*, *fondé*, *forgé*) and labels nothing by force: the Nouveau Roman is described by what it distrusted, not by a verdict.
+- **The lipogram** never uses *e*, *é*, *è*, *ê* or *œ*. The constraint shapes the style: no *le*, *de* or *et*, so the text uses *un*, *du*, *au* and lists without a connector (*il paya, il paya, il paya*). It was checked by script, not by eye.
+- **One tense per paragraph**: the passé simple tells the story (*courut*, *lut*, *paya*, *offrit*); the last paragraph is in the present, for today.
+- **The joke at the end**: the boy now writes his own lipogram, in *a*. The *a* is just mentioned there, as a letter.
+
+<Callout type="warning" title="Don't call a living author a member of a movement">
+  When they write about recent literature, learners often turn a critic's label into a fact: *Nathalie Sarraute est une romancière du Nouveau Roman, point final*. Writers often discuss or reject the labels put on them. Attribute the label: **Nathalie Sarraute est souvent associée au Nouveau Roman**.
+</Callout>
+
+<Callout type="tip" title="Try a constraint for ten minutes">
+  Take any short paragraph you've written in French and rewrite it without one letter: *e* if you're brave, *u* or *a* to start with. You'll have to look for synonyms and new constructions, and you'll find words you didn't know you knew. That's the Oulipo's idea of a constraint.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-culture-francophone-literatures" text="the lesson on francophone literatures" /> looks at literature written in French outside France.
+
+===== content/lessons/c2/culture-francophone-literatures.mdx =====
+---
+id: "c2-culture-francophone-literatures"
+title: "Francophone Literatures"
+description: "Literatures written in French outside France, described by what their writers argued: Négritude (Césaire, Senghor, Damas; L'Étudiant noir, 1935; the Cahier d'un retour au pays natal, 1939), Glissant and antillanité, the Éloge de la créolité (1989) and Texaco (1992), Senghor and Assia Djebar at the Académie française, and the literatures of Québec, Belgium and Switzerland."
+level: "C2"
+unit: "The language and its literatures"
+order: 39
+type: "culture"
+tags: ["culture", "literature", "Francophonie", "Négritude", "Caribbean"]
+prerequisites: ["c1-culture-francophonie", "b2-culture-francophone-africa", "c2-culture-twentieth-century-and-today"]
+related: ["b1-culture-quebec", "c1-culture-regional-languages", "c2-review-literatures"]
+vocab:
+  - { id: "c2-culture-francophone-literatures-v001", group: "general", fr: "une littérature francophone", pron: "ewn lee-tay-rah-TEWR frahn-koh-FONN", en: "a literature written in French (outside France, in this lesson)" }
+  - { id: "c2-culture-francophone-literatures-v002", group: "general", fr: "écrire en français", pron: "ay-KREER ahn frahn-SEH", en: "to write in French" }
+  - { id: "c2-culture-francophone-literatures-v003", group: "general", fr: "une identité", pron: "ew-nee-dahn-tee-TAY", en: "an identity" }
+  - { id: "c2-culture-francophone-literatures-v004", group: "general", fr: "revendiquer", pron: "ruh-vahn-dee-KAY", en: "to claim, to assert (an identity, a right)" }
+  - { id: "c2-culture-francophone-literatures-v005", group: "general", fr: "un écrivain francophone", pron: "uh-nay-kree-VAN frahn-koh-FONN", en: "a French-language writer" }
+  - { id: "c2-culture-francophone-literatures-v006", group: "general", fr: "la langue d'écriture", pron: "lah lahng day-kree-TEWR", en: "the language a writer writes in" }
+  - { id: "c2-culture-francophone-literatures-v007", group: "negritude", fr: "un mouvement fondateur", pron: "uhn moov-MAHN fohn-dah-TUHR", en: "a founding movement" }
+  - { id: "c2-culture-francophone-literatures-v008", group: "negritude", fr: "une revue littéraire", pron: "ewn ruh-VEW lee-tay-RAIR", en: "a literary journal" }
+  - { id: "c2-culture-francophone-literatures-v009", group: "negritude", fr: "un long poème", pron: "uhn lohn poh-EM", en: "a long poem" }
+  - { id: "c2-culture-francophone-literatures-v010", group: "negritude", fr: "être élu à l'Académie française", pron: "ET-ruh ay-LEW ah lah-kah-day-MEE frahn-SEZ", en: "to be elected to the Académie française" }
+  - { id: "c2-culture-francophone-literatures-v011", group: "caribbean", fr: "l'antillanité (f.)", pron: "lahn-tee-yah-nee-TAY", en: "antillanité (an identity rooted in the Caribbean)" }
+  - { id: "c2-culture-francophone-literatures-v012", group: "caribbean", fr: "la créolité", pron: "lah kray-oh-lee-TAY", en: "créolité (an identity defined as a mixture of cultures)" }
+  - { id: "c2-culture-francophone-literatures-v013", group: "caribbean", fr: "un éloge", pron: "uh-nay-LOZH", en: "an essay in praise of, a eulogy" }
+  - { id: "c2-culture-francophone-literatures-v014", group: "caribbean", fr: "puiser dans", pron: "pwee-ZAY dahn", en: "to draw on" }
+  - { id: "c2-culture-francophone-literatures-v015", group: "caribbean", fr: "la diversité", pron: "lah dee-vehr-see-TAY", en: "diversity" }
+  - { id: "c2-culture-francophone-literatures-v016", group: "caribbean", fr: "la Guadeloupe", pron: "lah gwah-duh-LOOP", en: "Guadeloupe" }
+  - { id: "c2-culture-francophone-literatures-v017", group: "glossary", fr: "un étudiant / une étudiante", pron: "uh-nay-tew-DYAHN / ew-nay-tew-DYAHNT", en: "a student" }
+  - { id: "c2-culture-francophone-literatures-v018", group: "glossary", fr: "une racine", pron: "ewn rah-SEEN", en: "a root" }
+  - { id: "c2-culture-francophone-literatures-v019", group: "glossary", fr: "natal / natale (le pays natal)", pron: "nah-TAHL", en: "native (one's native land)" }
+  - { id: "c2-culture-francophone-literatures-v020", group: "glossary", fr: "algérien / algérienne", pron: "ahl-zhay-RYAN / ahl-zhay-RYEN", en: "Algerian" }
+exercises:
+  - id: "c2-culture-francophone-literatures-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez les trois écrivains liés à la négritude."
+    options: ["Aimé Césaire, Léopold Sédar Senghor et Léon-Gontran Damas", "Raymond Queneau, Georges Perec et François Le Lionnais", "Jean Bernabé, Patrick Chamoiseau et Raphaël Confiant"]
+    answers: ["Aimé Césaire, Léopold Sédar Senghor et Léon-Gontran Damas"]
+    explanation: "The other two groups are the Oulipo and the authors of the Éloge de la créolité."
+  - id: "c2-culture-francophone-literatures-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez l'année de la revue L'Étudiant noir."
+    options: ["1935", "1939", "1989"]
+    answers: ["1935"]
+    explanation: "L'Étudiant noir dates from 1935; Césaire's Cahier d'un retour au pays natal from 1939; the Éloge de la créolité from 1989."
+  - id: "c2-culture-francophone-literatures-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez la présentation neutre de la négritude."
+    options: ["Ses écrivains ont revendiqué la valeur des cultures noires et africaines.", "La négritude a eu raison contre tout le monde.", "La négritude n'a plus aucun intérêt aujourd'hui."]
+    answers: ["Ses écrivains ont revendiqué la valeur des cultures noires et africaines."]
+    explanation: "The neutral version says what the writers argued, with no verdict on them or on their critics."
+  - id: "c2-culture-francophone-literatures-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le livre de Patrick Chamoiseau qui a reçu le prix Goncourt en 1992."
+    options: ["Texaco", "Cahier d'un retour au pays natal", "La Disparition"]
+    answers: ["Texaco"]
+    explanation: "Texaco received the prix Goncourt in 1992. The Cahier is by Césaire, and La Disparition by Perec."
+  - id: "c2-culture-francophone-literatures-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez l'idée associée à Édouard Glissant."
+    options: ["l'antillanité", "la créolité", "le Nouveau Roman"]
+    answers: ["l'antillanité"]
+    explanation: "Glissant is linked with antillanité; créolité is the idea of the Éloge de la créolité (1989)."
+  - id: "c2-culture-francophone-literatures-ex006"
+    type: "fill-in"
+    prompt: "Complétez : En 1983, Léopold Sédar Senghor a été ___ à l'Académie française."
+    strictAccents: true
+    answers: ["élu"]
+    explanation: "Être élu à l'Académie française: to be elected to it. Assia Djebar was elected in 2005."
+  - id: "c2-culture-francophone-literatures-ex007"
+    type: "fill-in"
+    prompt: "Complétez : L'Éloge de la ___ a été publié en 1989 par Jean Bernabé, Patrick Chamoiseau et Raphaël Confiant."
+    answers: ["créolité"]
+    explanation: "La créolité: an identity its authors described as a mixture of cultures."
+  - id: "c2-culture-francophone-literatures-ex008"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe à l'infinitif : Ces écrivains veulent ___ leur identité, c'est-à-dire l'affirmer avec force."
+    answers: ["revendiquer"]
+    explanation: "Revendiquer une identité: to claim it, to assert it."
+  - id: "c2-culture-francophone-literatures-ex009"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de date, en changeant seulement l'année : Césaire publie le Cahier d'un retour au pays natal en 1935."
+    answers: ["Césaire publie le Cahier d'un retour au pays natal en 1939"]
+    explanation: "The Cahier dates from 1939. 1935 is the journal L'Étudiant noir."
+  - id: "c2-culture-francophone-literatures-ex010"
+    type: "error-correction"
+    prompt: "Corrigez le jugement, en commençant par « Selon ses auteurs, » : L'Éloge de la créolité a prouvé que l'identité antillaise est un mélange."
+    answers: ["Selon ses auteurs, l'identité antillaise est un mélange"]
+    explanation: "An essay argues; it doesn't prove. The neutral version attributes the idea to its authors."
+  - id: "c2-culture-francophone-literatures-ex011"
+    type: "reformulation"
+    prompt: "Reformulez au passif, au passé composé, en commençant par « Le prix Goncourt » : En 1992, le jury a décerné le prix Goncourt à Texaco."
+    strictAccents: true
+    answers: ["Le prix Goncourt a été décerné à Texaco en 1992", "Le prix Goncourt a été décerné en 1992 à Texaco"]
+    explanation: "The passive leaves out the jury, which the sentence doesn't need."
+  - id: "c2-culture-francophone-literatures-ex012"
+    type: "translate"
+    prompt: "Traduisez (écrire en français) : « Many writers outside France write in French. »"
+    answers: ["Beaucoup d'écrivains écrivent en français hors de France", "Hors de France, beaucoup d'écrivains écrivent en français", "De nombreux écrivains écrivent en français hors de France"]
+    explanation: "Écrire en français; hors de France: outside France."
+  - id: "c2-culture-francophone-literatures-ex013"
+    type: "translate"
+    prompt: "Traduisez (puiser dans, le créole) : These novels draw on Creole."
+    answers: ["Ces romans puisent dans le créole"]
+    explanation: "Puiser dans: to draw on (a source, a language)."
+  - id: "c2-culture-francophone-literatures-ex014"
+    type: "translate"
+    prompt: "Traduisez (être élue, au passé composé) : Assia Djebar was elected to the Académie française in 2005."
+    strictAccents: true
+    answers: ["Assia Djebar a été élue à l'Académie française en 2005"]
+    explanation: "Élue agrees with Assia Djebar (feminine)."
+  - id: "c2-culture-francophone-literatures-ex015"
+    type: "translate"
+    prompt: "Traduisez (une identité) : Each writer has their own identity."
+    strictAccents: true
+    answers: ["Chaque écrivain a sa propre identité"]
+    explanation: "Chaque + singular; sa propre identité: their own identity."
+  - id: "c2-culture-francophone-literatures-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre ces événements, du plus ancien au plus récent."
+    words: ["L'Étudiant noir,", "le Cahier d'un retour au pays natal,", "l'Éloge de la créolité,", "le prix Goncourt de Texaco"]
+    answers: ["L'Étudiant noir, le Cahier d'un retour au pays natal, l'Éloge de la créolité, le prix Goncourt de Texaco"]
+    explanation: "1935, 1939, 1989, 1992."
+---
+
+By the end of this lesson you'll know the main literatures written in French outside France, the movements their writers founded, and how to describe them by what those writers argued, without a verdict.
+
+## What you already know
+
+You know *la négritude* as a literary movement from <LessonLink id="b2-culture-francophone-africa" text="the lesson on francophone Africa" />. You know *la colonisation* and La Francophonie from <LessonLink id="c1-culture-francophonie" text="the lesson on La Francophonie" />, which says that the spread of French outside Europe is linked to colonization and that historians and the countries concerned discuss this history. You know *le créole* from <LessonLink id="c1-culture-regional-languages" text="the lesson on regional languages" />, and *l'exil* from <LessonLink id="c1-formal-relatives-and-apposition" text="the lesson on formal relatives and apposition" />.
+
+**How this lesson describes movements.** Each movement is described by what its writers argued, with dates and names, and with no verdict on them or on their critics. Living authors are named with their works only, and no author of the lesson is quoted.
+
+## Writing in French from many places
+
+<VocabTable group="general" />
+
+*Une littérature francophone* is, in this lesson, a literature written in French outside France: in Africa, the Caribbean, the Maghreb, Québec, Belgium, Switzerland and elsewhere. *Un écrivain francophone* may have French as a first language or as one language among several. Many of these writers have reflected on what it means to *écrire en français* (write in French), and on *une identité* (an identity) shaped by more than one culture. Some *revendiquent* (claim) that identity in their work.
+
+For such writers, French is *la langue d'écriture* (the language they write in), which isn't always the language of their childhood or of their home. Some have described writing in French as a choice, others as an inheritance of history, and many as both. A summary should report which view a given writer took, not choose one for all of them.
+
+<Example fr="Une littérature francophone s'écrit en français, hors de France dans cette leçon." en="A francophone literature is written in French, outside France in this lesson." />
+
+<Example fr="Beaucoup d'écrivains francophones écrivent en français tout en parlant d'autres langues." en="Many French-language writers write in French while speaking other languages." />
+
+<Example fr="Pour certains écrivains, la langue d'écriture n'est pas la langue de l'enfance." en="For some writers, the language they write in isn't the language of their childhood." />
+
+## La négritude
+
+<VocabTable group="negritude" />
+
+**La négritude.** Négritude is *un mouvement fondateur* (a founding movement) of the 1930s, linked with three poets: Aimé Césaire, Léopold Sédar Senghor and Léon-Gontran Damas. Its writers argued for the value of black and African cultures, and claimed an identity of their own.
+
+**L'Étudiant noir (1935).** The three writers are associated with *une revue littéraire* (a literary journal), *L'Étudiant noir*, in 1935.
+
+**Le Cahier d'un retour au pays natal (1939).** In 1939, Aimé Césaire published the *Cahier d'un retour au pays natal*, *un long poème* (a long poem) often presented as a central work of the movement.
+
+**L'Académie française.** Senghor *a été élu à l'Académie française* (was elected to the Académie française) in 1983. The Algerian writer Assia Djebar was elected in 2005.
+
+<Example fr="La négritude est souvent présentée comme un mouvement fondateur." en="Négritude is often presented as a founding movement." />
+
+<Example fr="L'Étudiant noir est une revue littéraire de 1935." en="L'Étudiant noir is a literary journal from 1935." />
+
+<Example fr="Senghor a été élu à l'Académie française en 1983, et Assia Djebar en 2005." en="Senghor was elected to the Académie française in 1983, and Assia Djebar in 2005." />
+
+## Caribbean literatures
+
+<VocabTable group="caribbean" />
+
+**L'antillanité.** Édouard Glissant is linked with *l'antillanité*: the idea of an identity rooted in the Caribbean itself, in its history, its places and its many origins.
+
+**La créolité.** In 1989, Jean Bernabé, Patrick Chamoiseau and Raphaël Confiant published the *Éloge de la créolité*, *un éloge* (an essay in praise) of *la créolité*. Its authors described Caribbean identity as a mixture of cultures, and called for a literature that *puise dans* (draws on) Creole and *la diversité* (the diversity) of the islands, such as Martinique and *la Guadeloupe*.
+
+**Texaco (1992).** Patrick Chamoiseau received the prix Goncourt in 1992 for his novel *Texaco*.
+
+Critics have discussed how these three ideas relate to each other: some see continuity from one to the next, others stress their differences. This lesson presents each one by its own writers' terms.
+
+<Example fr="La Martinique et la Guadeloupe sont des îles des Antilles." en="Martinique and Guadeloupe are islands of the Caribbean." />
+
+<Example fr="Selon les auteurs de l'Éloge de la créolité, l'identité antillaise est un mélange." en="According to the authors of the Éloge de la créolité, Caribbean identity is a mixture." />
+
+## Exile and return
+
+You know *l'exil* (exile). Many francophone works deal with exile and with the return to a native place, as the title of Césaire's *Cahier d'un retour au pays natal* (notebook of a return to the native land) already shows. As a rule of thumb, when you meet these themes, look at where the book was written and where it's set: the distance between the two is often part of its subject.
+
+<Example fr="Le titre du livre de Césaire parle déjà de retour au pays natal." en="The title of Césaire's book already speaks of a return to the native land." />
+
+## Other literatures in French
+
+French-language literatures also have their own histories in Québec, in Belgium and in Switzerland, and in the Maghreb, where many writers have written in French alongside other languages. Each has its own authors, prizes and debates, which this lesson only mentions: a study of any one of them would need a lesson of its own.
+
+## Describing a movement neutrally
+
+As a rule of thumb, when you write about a literary movement linked to colonial history:
+
+- **Say what its writers argued**: *ses écrivains ont revendiqué…*, *selon ses auteurs…*
+- **Give dates and works**, not judgments: *publié en 1939*, *élu en 1983*.
+- **Present a debate as a debate**: *certains critiques… d'autres…*
+
+## The model: an article on writing in French
+
+The article below is original, written for the lesson.
+
+*Écrire en français, d'ici et d'ailleurs. On parle souvent de la littérature française comme si elle s'écrivait seulement en France. Pourtant, des écrivains écrivent en français sur plusieurs continents, et beaucoup d'entre eux parlent aussi d'autres langues.*
+
+*Dans les années 1930, trois jeunes écrivains, Aimé Césaire, Léopold Sédar Senghor et Léon-Gontran Damas, se retrouvent autour de la revue L'Étudiant noir, en 1935. Ils fondent ce qu'on appelle la négritude : un mouvement qui veut affirmer la valeur des cultures noires et africaines. En 1939, Césaire publie le Cahier d'un retour au pays natal, un long poème souvent présenté comme une œuvre centrale du mouvement. Bien plus tard, en 1983, Senghor est élu à l'Académie française.*
+
+*Aux Antilles, d'autres écrivains cherchent une identité propre à leurs îles. Édouard Glissant parle d'antillanité. En 1989, Jean Bernabé, Patrick Chamoiseau et Raphaël Confiant publient l'Éloge de la créolité : selon eux, l'identité antillaise est un mélange de cultures, et la littérature doit puiser dans le créole. En 1992, Chamoiseau reçoit le prix Goncourt pour son roman Texaco. Ces trois mots, négritude, antillanité et créolité, ne disent pas la même chose, et les critiques en discutent encore.*
+
+*D'autres voix viennent du Maghreb, de Belgique, de Suisse ou du Québec. En 2005, l'écrivaine algérienne Assia Djebar est élue à l'Académie française. Toutes ces œuvres posent la même question, chacune à sa manière : que veut dire écrire en français quand on a plusieurs racines ? Beaucoup de ces livres parlent aussi d'exil et de retour, comme le titre du livre de Césaire. Pour certains auteurs, écrire, c'est revenir, par les mots, dans un pays qu'on a quitté.*
+
+*Les critiques ne répondent pas tous de la même façon, et les écrivains non plus. Mais une chose est sûre : la langue française appartient aujourd'hui à beaucoup de lecteurs, et à beaucoup d'auteurs, bien au-delà de la France.*
+
+(Writing in French, from here and elsewhere. People often speak of French literature as if it were written only in France. Yet writers write in French on several continents, and many of them speak other languages too. In the 1930s, three young writers, Aimé Césaire, Léopold Sédar Senghor and Léon-Gontran Damas, come together around the journal L'Étudiant noir, in 1935. They found what is called Négritude: a movement that seeks to affirm the value of black and African cultures. In 1939, Césaire publishes the Cahier d'un retour au pays natal, a long poem often presented as a central work of the movement. Much later, in 1983, Senghor is elected to the Académie française. In the Caribbean, other writers look for an identity of their islands' own. Édouard Glissant speaks of antillanité. In 1989, Jean Bernabé, Patrick Chamoiseau and Raphaël Confiant publish the Éloge de la créolité: according to them, Caribbean identity is a mixture of cultures, and literature should draw on Creole. In 1992, Chamoiseau receives the prix Goncourt for his novel Texaco. These three words, Négritude, antillanité and créolité, don't say the same thing, and critics still discuss them. Other voices come from the Maghreb, Belgium, Switzerland or Québec. In 2005, the Algerian writer Assia Djebar is elected to the Académie française. All these works ask the same question, each in its own way: what does it mean to write in French when you have several roots? Many of these books also speak of exile and return, like the title of Césaire's book. For some authors, writing is a way of going back, through words, to a country they have left. Critics don't all answer in the same way, and neither do the writers. But one thing is certain: the French language today belongs to many readers, and to many authors, far beyond France.)
+
+<VocabTable group="glossary" />
+
+## How the article works
+
+- **Every movement** is described by what its writers wanted or said: *un mouvement qui veut affirmer…*, *selon eux…*
+- **Every date** is a publication, a prize or an election: 1935, 1939, 1983, 1989, 1992, 2005.
+- **The historical present** tells the past in the four middle paragraphs; the last paragraph speaks of today.
+- **The ending** asks a question instead of giving an answer, and says that critics and writers answer it differently.
+- **No verdict** on any writer, movement or critic, and no quotation.
+
+<Callout type="warning" title="An essay argues, it doesn't prove">
+  When they summarize a movement, learners often turn its writers' arguments into facts: *l'Éloge de la créolité a prouvé que l'identité antillaise est un mélange*. A manifesto or an essay defends a position. Attribute it: **selon ses auteurs, l'identité antillaise est un mélange**.
+</Callout>
+
+<Callout type="tip" title="Read a writer's own definition first">
+  Before you use a word like *négritude*, *antillanité* or *créolité*, find how its own writers defined it, in a good edition or a reference work, and note that definition beside the word. Your summary will then rest on their terms, not on a critic's shortcut.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-culture-wordplay" text="the lesson on humour and wordplay" /> turns from serious literature to the pleasure of playing with French.
+
+===== content/lessons/c2/culture-wordplay.mdx =====
+---
+id: "c2-culture-wordplay"
+title: "Humour and Wordplay"
+description: "Understand and create French wordplay: homophones (verre, vert; sang, cent, sans; mer, maire), idioms read in their literal sense (du pain sur la planche, se jeter à l'eau, faire un tabac), headline puns, the mot d'esprit, and why wordplay resists translation; with a column of invented headlines, each explained."
+level: "C2"
+unit: "The language and its literatures"
+order: 40
+type: "culture"
+tags: ["culture", "humour", "wordplay", "homophones", "press"]
+prerequisites: ["c1-culture-satire-and-humour", "c2-polysemy", "c2-reading-the-press"]
+related: ["c1-proverbs-and-sayings", "b2-idioms-everyday", "c2-version", "c2-review-literatures"]
+vocab:
+  - { id: "c2-culture-wordplay-v001", group: "sound", fr: "l'homophonie (f.)", pron: "loh-moh-foh-NEE", en: "homophony (words that sound the same)" }
+  - { id: "c2-culture-wordplay-v002", group: "sound", fr: "un homophone", pron: "uh-noh-moh-FONN", en: "a homophone" }
+  - { id: "c2-culture-wordplay-v003", group: "sound", fr: "se prononcer de la même façon", pron: "suh proh-nohn-SAY duh lah mem fah-SOHN", en: "to be pronounced the same way" }
+  - { id: "c2-culture-wordplay-v004", group: "sound", fr: "le sang", pron: "luh SAHN", en: "blood" }
+  - { id: "c2-culture-wordplay-v005", group: "sound", fr: "un donneur / une donneuse", pron: "uhn doh-NUHR / ewn doh-NUHZ", en: "a donor" }
+  - { id: "c2-culture-wordplay-v006", group: "idioms", fr: "un double sens", pron: "uhn doo-bluh SAHNSS", en: "a double meaning" }
+  - { id: "c2-culture-wordplay-v007", group: "idioms", fr: "détourner une expression", pron: "day-toor-NAY ew-nek-spreh-SYOHN", en: "to twist a set phrase" }
+  - { id: "c2-culture-wordplay-v008", group: "idioms", fr: "se jeter à l'eau", pron: "suh zhuh-TAY ah LOH", en: "to take the plunge (literally: to jump into the water)" }
+  - { id: "c2-culture-wordplay-v009", group: "idioms", fr: "faire un tabac", pron: "fehr uhn tah-BAH", en: "to be a big hit (familiar; un tabac is also tobacco)" }
+  - { id: "c2-culture-wordplay-v010", group: "idioms", fr: "le tabac", pron: "luh tah-BAH", en: "tobacco" }
+  - { id: "c2-culture-wordplay-v011", group: "wit", fr: "un mot d'esprit", pron: "uhn moh dess-PREE", en: "a witty remark" }
+  - { id: "c2-culture-wordplay-v012", group: "wit", fr: "faire un bon mot", pron: "fehr uhn bohn MOH", en: "to make a witty remark" }
+  - { id: "c2-culture-wordplay-v013", group: "wit", fr: "tomber à plat", pron: "tohn-BAY ah PLAH", en: "to fall flat" }
+  - { id: "c2-culture-wordplay-v014", group: "wit", fr: "la compensation", pron: "lah kohn-pahn-sah-SYOHN", en: "compensation (in translation: recreating a lost effect elsewhere)" }
+  - { id: "c2-culture-wordplay-v015", group: "wit", fr: "le titre de une", pron: "luh TEE-truh duh EWN", en: "the front-page headline" }
+  - { id: "c2-culture-wordplay-v016", group: "glossary", fr: "un salon", pron: "uhn sah-LOHN", en: "a fair, a trade show" }
+  - { id: "c2-culture-wordplay-v017", group: "glossary", fr: "un viticulteur / une viticultrice", pron: "uhn vee-tee-kewl-TUHR / ewn vee-tee-kewl-TREESS", en: "a wine grower" }
+  - { id: "c2-culture-wordplay-v018", group: "glossary", fr: "bio", pron: "BYOH", en: "organic (familiar, short for biologique)" }
+  - { id: "c2-culture-wordplay-v019", group: "glossary", fr: "la cigarette", pron: "lah see-gah-RET", en: "the cigarette" }
+  - { id: "c2-culture-wordplay-v020", group: "glossary", fr: "faire son beurre", pron: "fehr sohn BUHR", en: "to make a lot of money (familiar; literally, to make one's butter)" }
+  - { id: "c2-culture-wordplay-v021", group: "glossary", fr: "une rubrique", pron: "ewn rew-BREEK", en: "a regular column, a section (of a paper)" }
+  - { id: "c2-culture-wordplay-v022", group: "glossary", fr: "réel / réelle", pron: "ray-EL", en: "real" }
+  - { id: "c2-culture-wordplay-v023", group: "glossary", fr: "combat (combattre)", pron: "kohn-BAH", en: "fights (to fight against)" }
+exercises:
+  - id: "c2-culture-wordplay-ex001"
+    type: "multiple-choice"
+    prompt: "Trouvez le double sens du titre « Salon du vin : un verre plus vert »."
+    options: ["verre (un verre de vin) et vert (plus écologique) se prononcent de la même façon", "verre et vert ont le même sens", "vert veut dire ici « pas mûr »"]
+    answers: ["verre (un verre de vin) et vert (plus écologique) se prononcent de la même façon"]
+    explanation: "Verre and vert are homophones: the headline speaks of a glass of wine and of a greener fair at the same time."
+  - id: "c2-culture-wordplay-ex002"
+    type: "multiple-choice"
+    prompt: "Trouvez le double sens du titre « Un film contre la cigarette fait un tabac »."
+    options: ["faire un tabac (avoir un grand succès) et le tabac (des cigarettes)", "un tabac est ici un magasin", "le film parle de la culture du tabac"]
+    answers: ["faire un tabac (avoir un grand succès) et le tabac (des cigarettes)"]
+    explanation: "The idiom faire un tabac means to be a hit; read literally, it brings back the tobacco the film is against."
+  - id: "c2-culture-wordplay-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez les trois homophones du titre « Don du sang : cent donneurs, sans attendre »."
+    options: ["sang, cent et sans", "don, donneurs et attendre", "sang, donneurs et attendre"]
+    answers: ["sang, cent et sans"]
+    explanation: "Sang (blood), cent (a hundred) and sans (without) are pronounced the same way."
+  - id: "c2-culture-wordplay-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez ce que veut dire « tomber à plat » pour une plaisanterie."
+    options: ["ne faire rire personne", "faire beaucoup rire", "être trop longue"]
+    answers: ["ne faire rire personne"]
+    explanation: "Une plaisanterie qui tombe à plat: a joke that falls flat."
+  - id: "c2-culture-wordplay-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Des mots qui se prononcent de la même façon, comme « mer » et « maire », sont des ___."
+    answers: ["homophones"]
+    explanation: "Des homophones: words with the same sound and different meanings (and here, different spellings)."
+  - id: "c2-culture-wordplay-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec l'adjectif : Un titre qui a deux sens est un titre à ___ sens."
+    answers: ["double"]
+    explanation: "Un titre à double sens: a headline with a double meaning."
+  - id: "c2-culture-wordplay-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Pour traduire un jeu de mots, le traducteur crée parfois un autre effet ailleurs dans le texte : c'est la ___."
+    answers: ["compensation"]
+    explanation: "La compensation: recreating, elsewhere, an effect that couldn't be kept in its place."
+  - id: "c2-culture-wordplay-ex008"
+    type: "reformulation"
+    prompt: "Reformulez sans jeu de mots, au sens figuré seulement, avec « prendre un risque » : Le maire se jette à l'eau."
+    answers: ["Le maire prend un risque"]
+    explanation: "Se jeter à l'eau, in its figurative sense: to take the plunge, to dare. The literal water is what makes the pun at a sea festival."
+  - id: "c2-culture-wordplay-ex009"
+    type: "reformulation"
+    prompt: "Reformulez sans l'expression figée, en commençant par « Les boulangers ont » : Les boulangers ont du pain sur la planche."
+    answers: ["Les boulangers ont beaucoup de travail"]
+    explanation: "Avoir du pain sur la planche: to have a lot of work. With bakers, the literal bread makes the pun."
+  - id: "c2-culture-wordplay-ex010"
+    type: "register-shift"
+    prompt: "Transformez en registre courant, sans l'expression familière, avec « a beaucoup de succès » : Ce film fait un tabac."
+    strictAccents: true
+    answers: ["Ce film a beaucoup de succès"]
+    explanation: "Faire un tabac is familiar; avoir beaucoup de succès is the everyday phrase."
+  - id: "c2-culture-wordplay-ex011"
+    type: "error-correction"
+    prompt: "Corrigez l'explication, qui se trompe sur le son : « Dans « un verre plus vert », verre et vert n'ont pas le même son. »"
+    answers: ["Dans « un verre plus vert », verre et vert ont le même son"]
+    explanation: "Verre and vert are pronounced the same way; only their spelling and meaning differ."
+  - id: "c2-culture-wordplay-ex012"
+    type: "translate"
+    prompt: "Traduisez (un jeu de mots, intraduisible) : This pun is untranslatable."
+    answers: ["Ce jeu de mots est intraduisible", "Ce calembour est intraduisible"]
+    explanation: "Intraduisible: impossible to translate as it is. Calembour and jeu de mots are both correct here."
+  - id: "c2-culture-wordplay-ex013"
+    type: "translate"
+    prompt: "Traduisez (la plaisanterie, tomber à plat, au passé composé) : « The joke fell flat. »"
+    strictAccents: true
+    answers: ["La plaisanterie est tombée à plat"]
+    explanation: "Tomber takes être, and tombée agrees with la plaisanterie (feminine)."
+  - id: "c2-culture-wordplay-ex014"
+    type: "translate"
+    prompt: "Traduisez (un homophone) : Sang and cent are homophones."
+    answers: ["Sang et cent sont des homophones"]
+    explanation: "Des homophones: same sound, different meaning."
+  - id: "c2-culture-wordplay-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : This headline plays on two meanings."
+    words: ["Ce", "titre", "joue", "sur", "deux", "sens"]
+    answers: ["Ce titre joue sur deux sens"]
+    explanation: "Jouer sur deux sens: to play on two meanings."
+  - id: "c2-culture-wordplay-ex016"
+    type: "error-correction"
+    prompt: "Corrigez l'explication, qui oublie le sens propre, en ajoutant « et du vrai pain » à la fin : « Du pain sur la planche » veut dire ici beaucoup de travail."
+    answers: ["« Du pain sur la planche » veut dire ici beaucoup de travail et du vrai pain"]
+    explanation: "Explaining a pun means giving both meanings: the figurative one (a lot of work) and the literal one (real bread, for bakers)."
+  - id: "c2-culture-wordplay-ex017"
+    type: "writing-task"
+    prompt: "Rédigez un titre de presse à jeu de mots, sur un sujet inventé, puis expliquez-le en 30 à 60 mots : le son ou l'expression, les deux sens, et le contexte qui les réunit."
+    model: "Titre : « Marathon de Valbrune : la mairie court après ses coureurs ». Explication : courir après quelqu'un veut dire le chercher, le poursuivre. Ici, l'expression a deux sens : la mairie cherche des coureurs, car il en manque, et le marathon est une course. Le contexte sportif réunit le sens propre et le sens figuré."
+    checklist: ["Is the subject invented, with no real person in it?", "Does your headline have two meanings that both make sense in the context?", "Did you name the sound or the set phrase behind the pun?", "Did you give both meanings?", "Is your explanation between 30 and 60 words?"]
+    wordTarget: [30, 60]
+---
+
+By the end of this lesson you'll be able to spot French wordplay, explain it accurately (the sound or the set phrase, the two meanings, and the context that joins them), see why it resists translation, and write a headline pun of your own.
+
+## What you already know
+
+You know *un jeu de mots*, *un calembour* (a pun), *une contrepèterie* (a spoonerism) and *intraduisible* (untranslatable) from <LessonLink id="c1-culture-satire-and-humour" text="the lesson on satire and humour" />. You know *le sens propre / le sens figuré* from <LessonLink id="c2-polysemy" text="the lesson on polysemy" />, *avoir du pain sur la planche* from <LessonLink id="b2-idioms-everyday" text="the lesson on everyday idioms" />, and *la titraille* from <LessonLink id="c2-reading-the-press" text="the lesson on reading the press" />.
+
+**Every headline in this lesson is invented**, and none is about a real person or group. The lesson keeps to puns and set phrases. Many well-known *contrepèteries* hide a cheeky second meaning, so this lesson leaves them aside.
+
+## Same sound, different words
+
+<VocabTable group="sound" />
+
+*L'homophonie* (homophony) is the raw material of the French pun. Many French words *se prononcent de la même façon* (are pronounced the same way) but have different meanings, often with different spellings. *Un homophone* is one of these words:
+
+- **Verre, vert, ver, vers**: a glass, green, a worm, towards.
+- **Sang, cent, sans**: blood, a hundred, without.
+- **Mer, mère, maire**: the sea, a mother, a mayor.
+
+A pun built on homophones works best aloud, or in a headline that the reader "hears" as they read. In writing, the different spellings make the second meaning visible.
+
+<Example fr="« Sang », « cent » et « sans » se prononcent de la même façon." en="Sang, cent and sans are pronounced the same way." />
+
+<Example fr="Pendant la journée du don du sang, chaque donneur reçoit un café." en="During the blood donation day, each donor gets a coffee." />
+
+## Set phrases read literally
+
+<VocabTable group="idioms" />
+
+The second great source of wordplay is the set phrase read in its *sens propre* (literal sense). To *détourner une expression* (twist a set phrase), a writer uses it where its literal meaning also fits. The result is *un double sens* (a double meaning):
+
+- **Avoir du pain sur la planche** (to have a lot of work) becomes a pun about bakers.
+- **Se jeter à l'eau** (to take the plunge) becomes a pun about a sea festival.
+- **Faire un tabac** (to be a big hit, familiar) becomes a pun about a film against *le tabac* (tobacco).
+
+Both meanings must make sense in the context. If only the figurative one fits, there's no pun; if only the literal one fits, the reader sees a strange sentence.
+
+<Example fr="Ce titre a un double sens : il parle du travail des boulangers et de leur pain." en="This headline has a double meaning: it speaks of the bakers' work and of their bread." />
+
+<Example fr="Un bon titre de presse détourne une expression que tout le monde connaît." en="A good headline twists a set phrase that everyone knows." />
+
+## Wit
+
+<VocabTable group="wit" />
+
+*Un mot d'esprit* (a witty remark) is a short, clever reply or comment, often with a play on words. To *faire un bon mot* is to make one. French comic tradition has long valued it, from conversation to the stage, where performers built whole routines on double meanings. A joke that nobody laughs at *tombe à plat* (falls flat). In a headline or a column, the pun often comes at the end, as *la chute* (the punchline), a word you know from <LessonLink id="c1-reading-literary-narrative" text="the lesson on reading literary narrative" />.
+
+As a rule of thumb, a pun works when the reader finds the second meaning quickly. If it needs a long explanation, it usually falls flat.
+
+<Example fr="Un mot d'esprit fait rire parce qu'il est court et rapide." en="A witty remark makes people laugh because it is short and quick." />
+
+<Example fr="Pendant le dîner, elle a fait un bon mot qui a fait rire toute la table." en="During dinner, she made a witty remark that made the whole table laugh." />
+
+<Example fr="La plaisanterie est tombée à plat : personne n'a compris le double sens." en="The joke fell flat: nobody understood the double meaning." />
+
+## Why wordplay resists translation
+
+A pun lives in one language's sounds and set phrases. *Verre* and *vert* sound alike in French; *glass* and *green* don't in English. So a translator has three options:
+
+- **Explain it** in a note, which keeps the meaning but loses the laugh.
+- **Choose one meaning**, which keeps the sentence natural but loses the play.
+- **Use *la compensation*** (compensation): create another pun, in the target language, at the same place or elsewhere in the text.
+
+You know from the lesson on version that a translation keeps the meaning before the effect. With wordplay, the effect is part of the meaning, which is why translators often choose compensation.
+
+<Example fr="Le traducteur a choisi la compensation : il a créé un autre jeu de mots en anglais." en="The translator chose compensation: he created another pun in English." />
+
+## How to explain a pun
+
+To explain a pun accurately, give three things:
+
+- **The source**: the sound shared by two words (*verre / vert*), or the set phrase (*faire un tabac*).
+- **The two meanings**, both of them: the literal one and the figurative one, or the two homophones.
+- **The context** that makes both meanings fit at once: a wine fair, a blood donation day, a film against smoking.
+
+## The model: a column of invented headlines
+
+The column below is original, written for the lesson. Every headline is invented; none is about a real person, place in the news, or group.
+
+*Les titres de la semaine. Chaque lundi, notre rubrique choisit les meilleurs jeux de mots de la presse. Cette semaine, tous les titres sont inventés, mais ils suivent les mêmes règles que les vrais.*
+
+*Premier titre : « Salon du vin : un verre plus vert ». Au salon, les viticulteurs bio étaient nombreux. Le titre joue sur deux homophones : on boit un verre, et le salon devient plus vert, plus écologique. Les deux sens vont ensemble, et c'est ce qui fait rire.*
+
+*Deuxième titre : « Don du sang : cent donneurs, sans attendre ». Trois mots, sang, cent et sans, se prononcent de la même façon. À l'oral, la phrase semble répéter le même son ; à l'écrit, l'orthographe montre les trois sens.*
+
+*Troisième titre : « Fête de la mer : le maire se jette à l'eau ». Ici, deux jeux se croisent. Le maire et la mer sont des homophones, et se jeter à l'eau veut dire prendre un risque. Pendant une fête de la mer, l'expression retrouve aussi son sens propre.*
+
+*Quatrième titre : « Boulangeries : du pain sur la planche pour Noël ». Avoir du pain sur la planche, c'est avoir beaucoup de travail. Pour des boulangers, le pain est bien réel, et l'expression a donc deux sens à la fois.*
+
+*Cinquième titre : « Marché de Noël : les commerçants font leur beurre ». Faire son beurre, en français familier, c'est gagner beaucoup d'argent. Sur un marché où l'on vend du beurre, des gâteaux et du fromage, l'expression retrouve son sens propre.*
+
+*Dernier titre, notre titre de une : « Un film contre la cigarette fait un tabac ». Faire un tabac, c'est avoir un grand succès. Mais le mot tabac rappelle aussi ce que le film combat. C'est la chute parfaite : un succès contre le tabac, qui fait un tabac.*
+
+*Un bon jeu de mots se comprend vite. S'il faut l'expliquer trop longtemps, il tombe à plat : c'est pour cela que notre rubrique ne garde que les plus courts. Rendez-vous lundi prochain.*
+
+(The headlines of the week. Every Monday, our column picks the best puns in the press. This week, all the headlines are invented, but they follow the same rules as real ones. First headline: "Wine fair: a greener glass" (verre and vert sound the same). At the fair, there were many organic wine growers. The headline plays on two homophones: you drink a glass, and the fair becomes greener, more ecological. The two meanings go together, and that's what makes it funny. Second headline: "Blood donation: a hundred donors, without waiting" (sang, cent and sans sound the same). Three words, sang, cent and sans, are pronounced the same way. Aloud, the sentence seems to repeat the same sound; in writing, the spelling shows the three meanings. Third headline: "Sea festival: the mayor takes the plunge" (maire and mer sound the same). Here, two puns cross. Le maire and la mer are homophones, and se jeter à l'eau means to take a risk. During a sea festival, the phrase also gets back its literal sense. Fourth headline: "Bakeries: plenty of work for Christmas" (literally, bread on the board). To have bread on the board is to have a lot of work. For bakers, the bread is very real, so the phrase has two meanings at once. Fifth headline: "Christmas market: the stallholders make a killing" (literally, make their butter). Faire son beurre, in familiar French, means to earn a lot of money. At a market where butter, cakes and cheese are sold, the phrase gets back its literal sense. Last headline, our front-page headline: "A film against cigarettes is a smash hit" (faire un tabac, with tabac also meaning tobacco). Faire un tabac means to be a great success. But the word tabac also recalls what the film is fighting. It's the perfect punchline: a success against tobacco, which is a smash hit. A good pun is understood quickly. If it takes too long to explain, it falls flat: that's why our column keeps only the shortest. See you next Monday.)
+
+<VocabTable group="glossary" />
+
+## How the column works
+
+- **Each headline** is followed by its explanation: the source (a sound or a set phrase), the two meanings, and the context.
+- **Two kinds of pun**: homophones (*verre / vert*; *sang / cent / sans*; *maire / mer*) and set phrases read literally (*se jeter à l'eau*, *du pain sur la planche*, *faire son beurre*, *faire un tabac*). The third headline uses both.
+- **The punchline** comes last, in the front-page headline, with a final twist (*un succès contre le tabac, qui fait un tabac*).
+- **The translation** in brackets shows the problem of the lesson: the English keeps the meaning, but the puns have to be explained.
+
+<Callout type="warning" title="Give both meanings, not just the figurative one">
+  When they explain a pun, learners often give only the meaning of the set phrase: *« du pain sur la planche » veut dire beaucoup de travail*. That explains the phrase, not the pun. Add the literal meaning that the context brings back: **ici, l'expression veut dire beaucoup de travail, et, pour des boulangers, du vrai pain**.
+</Callout>
+
+<Callout type="tip" title="Read headlines aloud">
+  When you read a French paper, read the headlines aloud, slowly. Many puns in the press are built on sound, and the eye, which sees two different spellings, misses what the ear hears at once. If a headline sounds odd aloud, look for the second word hiding in the sound.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-review-literatures" text="the review of the language and its literatures" /> brings the unit together in one short text.
+
+===== content/lessons/c2/review-literatures.mdx =====
+---
+id: "c2-review-literatures"
+title: "Review: The Language and Its Literatures"
+description: "Review Unit 7 with an original essay on how French has changed and stayed the same, from the Strasbourg Oaths to the literatures written in French today, quoting one safe-list author; then write a short paragraph on a filiation between two works."
+level: "C2"
+unit: "The language and its literatures"
+order: 41
+type: "review"
+tags: ["review", "culture", "literature", "history of French", "essay"]
+prerequisites: ["c2-culture-history-of-french", "c2-culture-medieval-and-renaissance", "c2-culture-twentieth-century-and-today", "c2-culture-francophone-literatures", "c2-culture-wordplay"]
+related: ["c1-culture-literary-canon", "c2-long-essay", "c2-review-mediation"]
+vocab:
+  - { id: "c2-review-literatures-v001", group: "new", fr: "un siècle littéraire", pron: "uhn SYEK-luh lee-tay-RAIR", en: "a literary century (a century seen through its literature)" }
+  - { id: "c2-review-literatures-v002", group: "new", fr: "une filiation", pron: "ewn fee-lyah-SYOHN", en: "a line of descent, a filiation (between works or writers)" }
+  - { id: "c2-review-literatures-v003", group: "new", fr: "se réclamer de", pron: "suh ray-klah-MAY duh", en: "to claim to follow, to invoke (a model)" }
+  - { id: "c2-review-literatures-v004", group: "new", fr: "la continuité", pron: "lah kohn-tee-nwee-TAY", en: "continuity" }
+  - { id: "c2-review-literatures-v005", group: "new", fr: "une rupture", pron: "ewn rewp-TEWR", en: "a break (with a tradition)" }
+  - { id: "c2-review-literatures-v006", group: "new", fr: "la clarté", pron: "lah klar-TAY", en: "clarity" }
+  - { id: "c2-review-literatures-v007", group: "glossary", fr: "obscure (obscur)", pron: "op-SKEWR", en: "obscure, unclear" }
+  - { id: "c2-review-literatures-v008", group: "glossary", fr: "un fil", pron: "uhn FEEL", en: "a thread" }
+  - { id: "c2-review-literatures-v009", group: "glossary", fr: "l'universalité (f.)", pron: "lew-nee-vehr-sah-lee-TAY", en: "universality" }
+exercises:
+  - id: "c2-review-literatures-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez le texte souvent présenté comme le plus ancien texte conservé dans une forme ancienne du français."
+    options: ["les Serments de Strasbourg (842)", "La Chanson de Roland (vers 1100)", "la Défense et illustration de la langue française (1549)"]
+    answers: ["les Serments de Strasbourg (842)"]
+    explanation: "The Strasbourg Oaths are often described as the oldest surviving text in an early form of French (c2-culture-history-of-french)."
+  - id: "c2-review-literatures-ex002"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur de date, en changeant seulement l'année : Le premier dictionnaire de l'Académie française paraît en 1635."
+    answers: ["Le premier dictionnaire de l'Académie française paraît en 1694"]
+    explanation: "The Académie was founded in 1635; its first dictionary appeared in 1694 (c2-culture-history-of-french)."
+  - id: "c2-review-literatures-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez les deux auteurs du Roman de la Rose."
+    options: ["Guillaume de Lorris et Jean de Meun", "Ronsard et Du Bellay", "Rabelais et Villon"]
+    answers: ["Guillaume de Lorris et Jean de Meun"]
+    explanation: "Guillaume de Lorris began it, and Jean de Meun continued it (c2-culture-medieval-and-renaissance)."
+  - id: "c2-review-literatures-ex004"
+    type: "translate"
+    prompt: "Traduisez (la Défense, publier, au passé composé) : « Du Bellay published the Defence in 1549. »"
+    strictAccents: true
+    answers: ["Du Bellay a publié la Défense en 1549"]
+    explanation: "The full title is Défense et illustration de la langue française (c2-culture-medieval-and-renaissance)."
+  - id: "c2-review-literatures-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez le roman qui n'emploie jamais la lettre e."
+    options: ["La Disparition", "Texaco", "Pantagruel"]
+    answers: ["La Disparition"]
+    explanation: "Perec's La Disparition (1969) is a lipogram in e (c2-culture-twentieth-century-and-today)."
+  - id: "c2-review-literatures-ex006"
+    type: "error-correction"
+    prompt: "Corrigez l'étiquette, trop affirmée, en commençant par « Alain Robbe-Grillet est souvent associé » : Alain Robbe-Grillet est le Nouveau Roman."
+    answers: ["Alain Robbe-Grillet est souvent associé au Nouveau Roman"]
+    explanation: "A label is given as 'often linked with' (c2-culture-twentieth-century-and-today)."
+  - id: "c2-review-literatures-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez la présentation neutre de l'Éloge de la créolité."
+    options: ["Selon ses auteurs, l'identité antillaise est un mélange de cultures.", "L'Éloge de la créolité a prouvé que tout le monde est créole.", "L'Éloge de la créolité n'a rien apporté."]
+    answers: ["Selon ses auteurs, l'identité antillaise est un mélange de cultures."]
+    explanation: "The neutral version attributes the idea to its authors, with no verdict (c2-culture-francophone-literatures)."
+  - id: "c2-review-literatures-ex008"
+    type: "reformulation"
+    prompt: "Reformulez au passif, au passé composé, en commençant par « Senghor » : L'Académie française a élu Senghor en 1983."
+    strictAccents: true
+    answers: ["Senghor a été élu à l'Académie française en 1983"]
+    explanation: "Être élu à l'Académie: the usual phrase, with à (c2-culture-francophone-literatures)."
+  - id: "c2-review-literatures-ex009"
+    type: "multiple-choice"
+    prompt: "Trouvez le double sens du titre « Fête de la mer : le maire se jette à l'eau »."
+    options: ["maire et mer se prononcent de la même façon, et se jeter à l'eau veut dire prendre un risque", "le maire ne sait pas nager", "la fête a lieu dans une piscine"]
+    answers: ["maire et mer se prononcent de la même façon, et se jeter à l'eau veut dire prendre un risque"]
+    explanation: "Two puns at once: the homophones maire / mer, and the set phrase read literally at a sea festival (c2-culture-wordplay)."
+  - id: "c2-review-literatures-ex010"
+    type: "register-shift"
+    prompt: "Transformez en registre courant, sans l'expression familière, avec « a eu beaucoup de succès » : Ce roman a fait un tabac."
+    strictAccents: true
+    answers: ["Ce roman a eu beaucoup de succès"]
+    explanation: "Faire un tabac is familiar (c2-culture-wordplay)."
+  - id: "c2-review-literatures-ex011"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe à l'infinitif : Beaucoup d'auteurs aiment ___ de Proust, c'est-à-dire le présenter comme leur modèle."
+    answers: ["se réclamer"]
+    explanation: "Se réclamer de: to claim to follow a model."
+  - id: "c2-review-literatures-ex012"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « une filiation » entre deux œuvres."
+    options: ["un lien de parenté entre elles, l'une venant de l'autre", "une traduction de l'une dans l'autre", "un procès entre leurs auteurs"]
+    answers: ["un lien de parenté entre elles, l'une venant de l'autre"]
+    explanation: "Une filiation: a line of descent, a relationship in which one work comes from another."
+  - id: "c2-review-literatures-ex013"
+    type: "translate"
+    prompt: "Traduisez (la continuité, une rupture) : This movement is both a continuity and a break."
+    strictAccents: true
+    answers: ["Ce mouvement est à la fois une continuité et une rupture"]
+    explanation: "À la fois: both, at the same time."
+  - id: "c2-review-literatures-ex014"
+    type: "translate"
+    prompt: "Traduisez (la clarté) : Clarity depends on the writer."
+    answers: ["La clarté dépend de l'écrivain", "La clarté dépend de celui qui écrit"]
+    explanation: "Dépendre de: to depend on."
+  - id: "c2-review-literatures-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre ces étapes, de la plus ancienne à la plus récente."
+    words: ["les Serments de Strasbourg,", "l'ordonnance de Villers-Cotterêts,", "la naissance de l'Académie française,", "l'Éloge de la créolité"]
+    answers: ["les Serments de Strasbourg, l'ordonnance de Villers-Cotterêts, la naissance de l'Académie française, l'Éloge de la créolité"]
+    explanation: "842, 1539, 1635, 1989."
+  - id: "c2-review-literatures-ex016"
+    type: "writing-task"
+    prompt: "Rédigez un paragraphe de 50 à 90 mots sur une filiation entre deux œuvres ou deux mouvements de cette unité : dites ce qui continue et ce qui change, et donnez la source de chaque idée."
+    model: "Entre Du Bellay et les écrivains de la créolité, on peut voir une filiation. En 1549, Du Bellay veut défendre le français comme langue de grande poésie. En 1989, les auteurs de l'Éloge de la créolité demandent une littérature qui puise dans le créole. Ce qui continue, c'est la volonté de défendre une langue ; ce qui change, c'est la langue défendue. Cette filiation est une lecture : ni Du Bellay ni ces auteurs ne la présentent ainsi."
+    checklist: ["Did you name two works or movements, with their dates?", "Did you say what continues and what changes?", "Did you attribute each idea to its authors?", "Did you present the filiation as your reading, not as a fact?", "Is your paragraph between 50 and 90 words?"]
+    wordTarget: [50, 90]
+---
+
+By the end of this lesson you'll be able to place the stages of French and of its literatures on one line, describe a filiation between works without turning it into a fact, and write a short paragraph that attributes every idea to its source.
+
+## What you've learned
+
+Skim this list, and go back to anything that feels shaky.
+
+- **The history of French**: you know the Strasbourg Oaths (842), *la langue d'oïl* and *la langue d'oc*, the four periods, Villers-Cotterêts (1539) and the Académie française (1635, first dictionary 1694), from <LessonLink id="c2-culture-history-of-french" text="the lesson on a short history of French" />.
+- **Before the classics**: you know *une chanson de geste*, *le roman courtois*, *l'humanisme* and *la Pléiade*, and how to read old spelling for recognition, from <LessonLink id="c2-culture-medieval-and-renaissance" text="the lesson on literature before the classics" />.
+- **Since 1900**: you know *le Nouveau Roman*, *l'Oulipo*, *un lipogramme*, *l'autofiction* and *la rentrée littéraire*, from <LessonLink id="c2-culture-twentieth-century-and-today" text="the lesson on literature since 1900" />.
+- **Francophone literatures**: you know *l'antillanité*, *la créolité* and *revendiquer une identité*, from <LessonLink id="c2-culture-francophone-literatures" text="the lesson on francophone literatures" />.
+- **Wordplay**: you know *l'homophonie*, *un double sens*, *détourner une expression* and *tomber à plat*, from <LessonLink id="c2-culture-wordplay" text="the lesson on humour and wordplay" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+These words help you write about a literature over time. *Un siècle littéraire* (a literary century) is a century seen through its writers: *le XVIe siècle littéraire*. *Une filiation* (a line of descent) links a work to the works it comes from. A writer who *se réclame de* (claims to follow) a model says so openly. Between two works, you can look for *la continuité* (continuity) or *une rupture* (a break). And *la clarté* (clarity) is a quality French writers have long claimed for their language.
+
+<Example fr="Beaucoup de romanciers se réclament de Proust, mais tous ne lisent pas son œuvre de la même façon." en="Many novelists claim Proust as a model, but they don't all read his work the same way." />
+
+<Example fr="Le XVIe siècle littéraire est celui de l'humanisme et de la Pléiade." en="The 16th century, in literature, is that of humanism and the Pléiade." />
+
+<Example fr="On peut voir une filiation entre Du Bellay et les auteurs de la créolité." en="One can see a line of descent between Du Bellay and the authors of créolité." />
+
+<Example fr="Le Nouveau Roman se présente comme une rupture avec le roman traditionnel." en="The Nouveau Roman presents itself as a break with the traditional novel." />
+
+## How the unit fits together
+
+The five lessons of the unit look like five subjects, but they tell one story. The history of the language explains why the Chanson de Roland needs a translation and Ronsard only a few notes. The Renaissance poets who wanted to defend French belong to the same history as the Académie française, founded less than a century later. The writers of the twentieth century, who questioned the novel or wrote under constraint, played with a language that the laws of 1992 and 1994 also protect. And the francophone writers have shown that this language no longer belongs to one country.
+
+When you write about any part of the unit, place it on that line: what came before it, what it changed, and what came after.
+
+## Quoting and paraphrasing across the unit
+
+Every quotation in the unit follows the same rules. The Strasbourg Oaths, the ordinance of Villers-Cotterêts, the Chanson de Roland, Ronsard and Rivarol are all on the safe list: their texts are anonymous, or their authors died before 1900. Each quotation is under 15 words, copied from a public edition, in its own spelling, with our own translation. Every author of the twentieth century and of today is paraphrased, never quoted.
+
+## Writing about a filiation
+
+A filiation is a reading: it's what you see when you put two works side by side. It's a fact only when the writers themselves claim it. As a rule of thumb:
+
+- **Say who sees the link**: the writer (*il se réclame de…*), critics (*on rapproche souvent…*), or you (*on peut voir une filiation*).
+- **Say what continues and what changes**: *ce qui continue, c'est…; ce qui change, c'est…*
+- **Keep the dates and the attributions** from the lessons: each movement in its own writers' terms, labels as "often linked with".
+- **Quote only safe-list authors**, under 15 words, from a public edition, and paraphrase everyone else.
+
+## The model: an essay on French, changing and lasting
+
+The essay below is original, written for the lesson. It quotes one author on the safe list, Rivarol, from a public edition of his *De l'universalité de la langue française*, with our own translation.
+
+*Une langue qui change et qui dure. Entre les Serments de Strasbourg, en 842, et les romans de la dernière rentrée littéraire, le français a tant changé qu'un lecteur d'aujourd'hui ne comprend plus ses premiers textes sans traduction. Les mots ont changé, la prononciation aussi, et même l'ordre des mots dans la phrase. Pourtant, quelque chose dure : un fil qui va d'un siècle littéraire à l'autre.*
+
+*Ce fil, c'est d'abord une volonté de défendre la langue. En 1539, l'ordonnance de Villers-Cotterêts demande le français dans les actes de justice. En 1549, Du Bellay veut montrer que le français peut porter une grande poésie. En 1635, l'Académie française est fondée. Plus tard, Rivarol écrit cette phrase célèbre : « ce qui n'est pas clair n'est pas français ». On peut discuter cette idée : la clarté dépend de celui qui écrit, et une phrase obscure reste possible dans toutes les langues.*
+
+*Ce fil, c'est aussi le jeu. Rabelais aimait déjà les jeux de mots, et l'Oulipo, fondé en 1960, en a fait une méthode : Perec écrit en 1969 un roman entier sans la lettre e. La presse d'aujourd'hui, avec ses titres à double sens, appartient à la même famille. Le jeu de mots n'est pas un luxe : il montre qu'une langue est bien vivante.*
+
+*Enfin, la langue n'appartient plus à un seul pays. Des écrivains de la négritude, dans les années 1930, aux auteurs de l'Éloge de la créolité, en 1989, beaucoup ont écrit en français tout en revendiquant d'autres racines. Est-ce une rupture ou une continuité ? Sans doute les deux : chacun fait du français une langue à lui, comme Du Bellay voulait en faire une langue de grande poésie.*
+
+*La phrase de Rivarol, en français moderne : elle n'a pas besoin de traduction. En anglais (notre traduction) : « what is not clear is not French ».*
+
+(A language that changes and lasts. Between the Strasbourg Oaths, in 842, and the novels of the latest literary season, French has changed so much that a reader today can no longer understand its first texts without a translation. The words have changed, so has the pronunciation, and even the order of words in the sentence. And yet something lasts: a thread that runs from one literary century to the next. This thread is, first, a wish to defend the language. In 1539, the ordinance of Villers-Cotterêts requires French in legal acts. In 1549, Du Bellay wants to show that French can carry great poetry. In 1635, the Académie française is founded. Later, Rivarol writes this famous sentence: "what is not clear is not French". This idea can be discussed: clarity depends on the person who writes, and an obscure sentence remains possible in every language. This thread is also play. Rabelais already loved puns, and the Oulipo, founded in 1960, turned play into a method: in 1969, Perec writes a whole novel without the letter e. Today's press, with its double-meaning headlines, belongs to the same family. Wordplay isn't a luxury: it shows that a language is truly alive. Finally, the language no longer belongs to a single country. From the writers of Négritude, in the 1930s, to the authors of the Éloge de la créolité, in 1989, many have written in French while claiming other roots. Is it a break or a continuity? Probably both: each one makes French a language of their own, as Du Bellay wanted to make it a language of great poetry. / Rivarol's sentence, in modern French: it needs no translation. In English (our translation): "what is not clear is not French".)
+
+<VocabTable group="glossary" />
+
+## How the essay works
+
+- **One thesis**: French changes and lasts, announced in the first paragraph, with *un fil* (a thread) as its image.
+- **Three threads**, one per paragraph: defending the language, play, and a language that belongs to many places.
+- **The dates** come from the lessons of the unit, with no new one. Rivarol's sentence is placed with *plus tard*, without a date.
+- **The quotation**: one sentence by Rivarol (an author on the safe list), under 15 words, copied from a public edition; the essay discusses it instead of taking it as a fact.
+- **The filiations** are readings, presented with *on peut*, *sans doute* and a question; no writer is made to say what they didn't say.
+
+## Your turn
+
+The writing task asks you for one paragraph on a filiation between two works or movements of the unit. Follow the model of the essay: give the dates, say what continues and what changes, attribute each idea to its authors, and say clearly that the filiation is your reading. The writing-task model links Du Bellay and the authors of the *Éloge de la créolité*, and says that neither presents the link that way.
+
+<Callout type="warning" title="A filiation you see isn't one the writers claimed">
+  When they write about literary history, learners often turn their own comparison into a fact: *les auteurs de la créolité continuent Du Bellay*. Unless the writers say so, the link is yours. Present it as a reading: **on peut voir une filiation entre Du Bellay et les auteurs de la créolité**.
+</Callout>
+
+<Callout type="tip" title="Draw the unit as one timeline">
+  On one sheet, draw a line from 842 to today, and place on it every date of the unit: one for the language, one for each work or movement. Then, for each pair of neighbours on the line, write one word: *continuité* or *rupture*. The words you hesitate over are the best subjects for an essay.
+</Callout>
+
+## What's next
+
+The next unit is the last one of the course. It starts with the lesson on writing in a style.

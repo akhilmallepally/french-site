@@ -46,7 +46,8 @@ partèrent mangea mangeâmes commença commençâmes fallut dut durent plut fall
 // in error-correction prompts and distractors, neologisms labelled as invented in the lesson, and a
 // few names (FranceTerme) that the name filter misses.
 // Every word here is listed with the lesson that uses it; none may appear in an accepted answer,
-// except the invented names of people (the name filter misses them at the start of a sentence).
+// except the invented names of people (the name filter misses them at the start of a sentence)
+// and centuries in Roman numerals. Quoted Old and Middle French (recognition only) is listed too.
 const C2_RANK = ["a1", "a2", "b1", "b2", "c1", "c2"].indexOf("c2");
 const C2_ALLOWED = new Set(`
 iser ation ible able ité im ir il dé ifier isme iste logie cratie phobe cide age ment tion
@@ -55,7 +56,9 @@ réunionocratie notificophobe déréunionner
 software franceterme
 valbrune rivière mme benali xixe garnier ii iii marthe
 ite algie ectomie calmivane
-bertrand hortense annick mireille lionel
+bertrand hortense annick mireille lionel guillaume rabelais léon gontran édouard perec robbe alain
+ixe xe xie xiie xiiie xive xve xvie xviie xviiie xxe xxie cxi
+christian poblo nostro salvament halt sunt li pui val tenebrus avoit desclose ceste
 `.trim().split(/\s+/));
 
 const ROOT = process.cwd();

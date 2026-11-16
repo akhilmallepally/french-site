@@ -1,6 +1,17 @@
 # C2 Unit 7 plan: The language and its literatures
 
-Status: plan only. Rules: the "C2 conventions" in CLAUDE.md. **Highest factual risk:** every date, attribution and quotation goes to docs/review-needed.md ("C2 plan", to verify) before writing, and the C1 quotation safe list applies (authors who died before 1900, under 15 words, our own translations; later authors paraphrased).
+Status: **written in Prompt 48.**
+
+Changes made while writing (also in docs/syllabus.md):
+- The lesson ids stay as planned (c2-culture-twentieth-century-and-today, c2-culture-wordplay, c2-review-literatures).
+- Lesson 36: the Villers-Cotterêts quotation (article CXI) is added beside the Oaths; *une ordonnance* is in NEW_MEANINGS.
+- Lesson 37: *le Roman de Renart* and *un fabliau* were left out (not in the verified list); Roland (line 814) and Ronsard are quoted from Wikisource; Louise Labé is kept, with the debate attributed and no scholar named.
+- Lesson 38: the lipogram is its own section; scripts/c2-wrapup.ts now leaves the "Missing letter" line out of the check (it names the letter in italics).
+- Lesson 39: no Québec, Belgian, Swiss or Maghrebi authors are named (not in the verified list); those literatures are mentioned only.
+- Lesson 40: no new contrepèterie; *un salon* (a fair) is in NEW_MEANINGS.
+- Lesson 41: the quotation is Rivarol, not Boileau (C1 already quotes Boileau's line).
+
+Rules: the "C2 conventions" in CLAUDE.md. **Highest factual risk:** every date, attribution and quotation goes to docs/review-needed.md ("C2 plan", to verify) before writing, and the C1 quotation safe list applies (authors who died before 1900, under 15 words, our own translations; later authors paraphrased).
 
 C1 covered the canon from classicism to the twentieth century (c1-culture-literary-canon), poetry (c1-culture-french-poetry), satire (c1-culture-satire-and-humour), the Enlightenment, regional languages and La Francophonie. This unit adds what's missing: the history of the language, the literature before the seventeenth century, francophone literatures, and play with language.
 

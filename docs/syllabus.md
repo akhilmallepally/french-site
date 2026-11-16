@@ -521,7 +521,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 ## C2 · Mastery (planned)
 
-Planned in docs/plans/c2/ (Prompt 40). Units 1 to 6 are written (Prompts 42 to 47); the other rows are planned and may change.
+Planned in docs/plans/c2/ (Prompt 40). Units 1 to 7 are written (Prompts 42 to 48); the other rows are planned and may change.
 
 ### Unit 1: Precision in form
 
@@ -592,12 +592,12 @@ Planned in docs/plans/c2/ (Prompt 40). Units 1 to 6 are written (Prompts 42 to 4
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 36 | c2-culture-history-of-french | A short history of French | The language and its literatures | culture | c1-culture-regional-languages, c1-culture-francophonie, c2-anglicisms-and-official-terms | Planned. From Latin to today: key texts, institutions and laws (all facts to verify). |
-| 37 | c2-culture-medieval-and-renaissance | Literature before the classics | The language and its literatures | culture | c1-culture-literary-canon, c2-culture-history-of-french | Planned. Middle Ages to the Renaissance; Old French for recognition; safe-list quotations only. |
-| 38 | c2-culture-twentieth-century-and-today | Literature since 1900 | The language and its literatures | culture | c1-culture-literary-canon | Planned. Movements and prizes since 1900, by paraphrase; an original lipogram. |
-| 39 | c2-culture-francophone-literatures | Francophone literatures | The language and its literatures | culture | c1-culture-francophonie, b2-culture-francophone-africa, b1-culture-quebec | Planned. Négritude, Maghrebi, Caribbean, Québec, Belgian and Swiss literatures, neutrally. |
-| 40 | c2-culture-wordplay | Humour and wordplay | The language and its literatures | culture | c1-culture-satire-and-humour, c1-proverbs-and-sayings, c2-polysemy | Planned. Headline puns, homophony, mots d'esprit, why wordplay resists translation. |
-| 41 | c2-review-literatures | Review: The language and its literatures | The language and its literatures | review | c2-culture-history-of-french, c2-culture-medieval-and-renaissance, c2-culture-twentieth-century-and-today, c2-culture-francophone-literatures, c2-culture-wordplay | Planned. A short essay on how French has changed. |
+| 36 | c2-culture-history-of-french | A short history of French | The language and its literatures | culture | c1-culture-regional-languages, c1-culture-francophonie, c2-anglicisms-and-official-terms | From Vulgar Latin to French; the Strasbourg Oaths (842); oïl and oc; the four periods; Villers-Cotterêts (1539); the Académie (1635, 1694); Grégoire (1794); the Ferry laws (1881–1882); recaps of 1992 and 1994. Model: an original article quoting the Oaths for recognition. |
+| 37 | c2-culture-medieval-and-renaissance | Literature before the classics | The language and its literatures | culture | c2-culture-history-of-french, c1-culture-literary-canon, c1-culture-french-poetry | La Chanson de Roland, Chrétien de Troyes, Le Roman de la Rose, Villon, Rabelais, Du Bellay and the Pléiade, Ronsard, Louise Labé (the 2006 debate, attributed); reading old spelling for recognition. Quotations: Roland (line 814) and Ronsard, from Wikisource. |
+| 38 | c2-culture-twentieth-century-and-today | Literature since 1900 | The language and its literatures | culture | c1-culture-literary-canon, b2-arts-and-literature, c2-culture-medieval-and-renaissance | Proust, surrealism (1924), the Nouveau Roman, autofiction (1977), the Oulipo (1960) and La Disparition (1969), the rentrée littéraire, the prix Goncourt (1903), French-language Nobel prizes; paraphrase only. Model: an article and an original lipogram in e. |
+| 39 | c2-culture-francophone-literatures | Francophone literatures | The language and its literatures | culture | c1-culture-francophonie, b2-culture-francophone-africa, c2-culture-twentieth-century-and-today | Négritude (L'Étudiant noir 1935, the Cahier 1939), Senghor (1983) and Assia Djebar (2005) at the Académie, antillanité, the Éloge de la créolité (1989), Texaco (1992); other literatures in French mentioned; movements described by what their writers argued. |
+| 40 | c2-culture-wordplay | Humour and wordplay | The language and its literatures | culture | c1-culture-satire-and-humour, c2-polysemy, c2-reading-the-press | Homophones, set phrases read literally, headline puns, the mot d'esprit, tomber à plat, why wordplay resists translation (la compensation), how to explain a pun. Model: a column of invented headlines, each explained. |
+| 41 | c2-review-literatures | Review: The language and its literatures | The language and its literatures | review | c2-culture-history-of-french, c2-culture-medieval-and-renaissance, c2-culture-twentieth-century-and-today, c2-culture-francophone-literatures, c2-culture-wordplay | New words: un siècle littéraire, une filiation, se réclamer de, la continuité, une rupture, la clarté. Model: an original essay on how French changes and lasts, quoting Rivarol; one exercise per lesson and a writing task on a filiation. |
 
 ### Unit 8: Range and mastery
 

@@ -2255,6 +2255,7 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-mediation
 
+- **Prompt 48:** ex002's keyed option keeps the hours (*de 8 h à 12 h, du lundi au vendredi*); ex006, ex011 and ex016 now say *pendant les travaux*, and the signals example keeps the hours and days, so no relay drops a limit in time or place.
 - **"Selecting means choosing the order, not dropping facts."** and **"As a rule of thumb, relay the whole text first, then add your own opinion or offer, clearly labelled."** Presented as rules of thumb for this lesson's kind of relay. Confirm.
 - **The relay** keeps every fact and condition of the notice (dates, hours, *du lundi au vendredi*, both sides of the street, the car park, the bins, the delivery *s'il en reste*, the sign-up and its date); only the closing thanks is left out. *Pendant deux semaines* is derived from the dates (Monday 6 to Friday 17 May). Confirm.
 - **The dates** (Monday 6, Thursday 2, Friday 17 May) are consistent with one calendar; no year is given.
@@ -2262,6 +2263,7 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-negotiation
 
+- **Prompt 48:** the files' deadline is *au plus tard le 1er mars* everywhere (email 3, ex011, the callout, the dialogue, the writing task), as in emails 2 and 4.
 - **"The first figure often sets the frame for the rest; as a rule of thumb, give a reason for your figure rather than a figure alone."** Confirm the wording (anchoring, with no claim from research).
 - **The registers:** *consentir un effort* (formal), *faire une concession*, *trouver un compromis*, *une solution de repli* (everyday), *couper la poire en deux*, *lâcher du lest*, *un plan B* (familiar). Confirm.
 - **The figures** (2,000 copies, 6,000 / 5,600 / 5,000 euros, 15 and 22 March, files by 1 March) are invented and consistent across the four emails, the dialogue, the summary and the writing task.
@@ -2275,15 +2277,53 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-interviews-and-questioning
 
+- **Prompt 48:** *Depuis combien de temps avez-vous votre propre atelier ?* (a duration, *depuis douze ans*); the teaching gives *depuis combien de temps ?* as the closed question, with a duration.
 - **The registers of a question:** inversion (formal), *est-ce que* (everyday), intonation with the question word at the end (familiar, spoken). Confirm.
 - **"A reformulation is a question, not a conclusion."** Confirm as advice for interviews.
 - **The interview and the people** (Clément Vidal, Annick Brunel) are invented.
 
 ### c2-review-mediation
 
+- **Prompt 48:** the writing-task model says *la gêne* (61 words), since Mireille never says the noise wakes her.
 - **"*Un différend* is usually narrower: a disagreement about a precise point, which a conversation can still settle."** Confirm.
 - **The neutral relay** leaves out *insupportables*, *Mireille exagère un peu* and *je ne sais plus quoi faire* (judgments and a feeling) and keeps every fact and request. Confirm that this matches the unit's rule ("adds nothing, attributes each view").
 - **The dispute, the neighbours and the mediator** (Mireille Delmas, Lionel Lefort, Josiane Perret) are invented; the mediation is informal, between neighbours, with no official body or procedure.
+
+### c2-culture-history-of-french
+
+- **Quotations (copied from fr.wikisource.org, Prompt 48):**
+  - Strasbourg Oaths, Romance text of Louis's oath, transcription with abbreviations resolved: « Pro Deo amur et pro christian poblo et nostro commun salvament » (10 words). https://fr.wikisource.org/wiki/Serments_de_Strasbourg_(Nithard) (Nithard, *Historiarum libri*, III, 5; Ms BN lat. 9768, fol. 13; text transcluded from Page:Sacramenta Argentariae (pars brevis).png). Our modern French: « Pour l'amour de Dieu et pour le peuple chrétien et notre salut commun ».
+  - Ordonnance de Villers-Cotterêts, article CXI: « prononcés, enregistrés et délivrés aux parties en langage maternel françois et non autrement » (13 words). https://fr.wikisource.org/wiki/Ordonnance_du_roi_François_Ier,_donnée_à_Villers-Cotterêts,_au_mois_d’Août_1539/Ordonnance_du_Roi (edition: Boucher d'Argis, *Ordonnance du mois d'aoust 1539*, 1786).
+- **To verify (not in the Prompt 48 list), hedged in the lesson:** "In 842, two grandsons of Charlemagne swore oaths of alliance at Strasbourg, each in the language of the other's army"; "Spanish, Italian and the other Romance languages come from the same source"; "The French of today grew from the langue d'oïl; the langue d'oc is the source of Occitan"; "King François Ier issued an ordinance at Villers-Cotterêts" (the Wikisource title says "donnée à Villers-Cotterêts, au mois d'Août 1539"); "Historians have debated whether that phrase meant French alone, or also the other languages spoken in the kingdom"; the abbé Grégoire's report "on the patois … and on spreading the use of French"; "The school laws of 1881–1882, named after the minister Jules Ferry, organized primary school across the country"; "The Loi Toubon (1994) organizes the use of French in public life"; "Chacun de ces deux groupes réunit lui-même de nombreux dialectes".
+- **Recaps:** 1992 (Article 2) from c1-culture-regional-languages; the Loi Toubon from c2-anglicisms-and-official-terms; *l'Académie française* from c2-advanced-false-friends. *Une ordonnance* is in NEW_MEANINGS (a prescription at A2).
+
+### c2-culture-medieval-and-renaissance
+
+- **Quotations (copied from fr.wikisource.org, Prompt 48):**
+  - *La Chanson de Roland*, line 814 (laisse LXVI): « Halt sunt li pui e li val tenebrus » (8 words). https://fr.wikisource.org/wiki/La_Chanson_de_Roland/Joseph_Bédier/La_Chanson_de_Roland/Bilingue/051-100 (Bédier's edition of the Oxford text; the Old French text is anonymous; Bédier's translation is not used). Our modern French: « Hauts sont les monts, et sombres les vallées ».
+  - Ronsard, ode « Mignonne, allons voir si la rose », lines 1–2: « Mignonne, allons voir si la rose / Qui ce matin avoit desclose » (10 words). https://fr.wikisource.org/wiki/Les_Odes_(Ronsard)/«_Mignonne,_allons_voir_si_la_rose_» (edition: *Œuvres complètes*, ed. Hugues Vaganay, Garnier, 1923, vol. 3, p. 75–76; the 1587 Buon edition on Wikisource has the same words with long s). No metre claim is made.
+- **To verify, hedged:** Roland "tells the story of Roland, a knight of Charlemagne's army" / "la mort d'un chevalier de Charlemagne"; Chrétien de Troyes as "a major author of le roman courtois", stories "of knights, their adventures and their love"; *Le Roman de la Rose* "often described as an allegorical poem"; Villon's poems "for their mix of humour, regret and the thought of death"; humanism ("went back to the texts of Antiquity"); Rabelais's books as "comic stories of two giants, full of learning, play with words and humour"; Du Bellay's *Défense* "set out to defend the French language as a language worthy of great poetry"; Ronsard "one of the best-known poets of the Pléiade"; the reading tips (*-oit* for *-ait*; *es* where modern spelling writes *é*).
+- **Louise Labé:** written as given in Prompt 48 (a scholar argued in 2006 that the work was a collective creation; others reject this), with no name and no verdict.
+
+### c2-culture-twentieth-century-and-today
+
+- **The lipogram** (no *e*, *é*, *è*, *ê*, *ë* or *œ*) is checked by wrapup:c2 and passes. It's original, in the passé simple, with a last paragraph in the present.
+- **To verify, hedged:** surrealism "often described as wanting to free the imagination from reason and habit, through dreams and chance"; the Nouveau Roman as writers who "questioned the traditional novel, with its plot and its characters"; the Oulipo's constraint "for its members, can be a way of finding new ideas"; "In French, e is a very frequent letter"; the rentrée littéraire ("a large number of novels in a few weeks"; booksellers and the press); the prix Goncourt "one of the best known"; the Nobel list (Camus 1957, Sartre 1964 declined, Claude Simon 1985, J. M. G. Le Clézio 2008, Patrick Modiano 2014, Annie Ernaux 2022) is as given in Prompt 48.
+
+### c2-culture-francophone-literatures
+
+- **Sensitive (colonial history):** every sentence describes what writers argued. To verify: "Its writers argued for the value of black and African cultures, and claimed an identity of their own"; the *Cahier* "often presented as a central work of the movement"; "The Algerian writer Assia Djebar"; Glissant's antillanité as "an identity rooted in the Caribbean itself, in its history, its places and its many origins"; the *Éloge*'s authors "described Caribbean identity as a mixture of cultures, and called for a literature that draws on Creole"; "Critics have discussed how these three ideas relate to each other"; "Some have described writing in French as a choice, others as an inheritance of history, and many as both"; the Maghreb "where many writers have written in French alongside other languages".
+- Living authors (Bernabé, Chamoiseau, Confiant) are named with works only; no one is quoted.
+
+### c2-culture-wordplay
+
+- **Every headline is invented** and explained: *verre / vert*; *sang / cent / sans*; *maire / mer* with *se jeter à l'eau*; *du pain sur la planche*; *faire son beurre* (familiar); *faire un tabac* (familiar). Confirm each explanation and that *faire son beurre* is labelled familiar.
+- **To verify:** "Many well-known contrepèteries hide a cheeky second meaning" (the lesson gives none); "French comic tradition has long valued it [the mot d'esprit] … where performers built whole routines on double meanings" (no performer named); *la compensation* as a translation technique. *Un salon* (a fair) is in NEW_MEANINGS.
+
+### c2-review-literatures
+
+- **Quotation (copied from fr.wikisource.org, Prompt 48):** Rivarol, *De l'universalité de la langue française*: « ce qui n'est pas clair n'est pas français » (7 words). https://fr.wikisource.org/wiki/De_l’Universalité_de_la_langue_française (the discourse that won the Berlin Academy prize; Rivarol died in 1801, so he is on the safe list). The lesson gives no date for it. The essay discusses the claim rather than adopting it.
+- **To verify:** "the Académie française, founded less than a century later" (1549 to 1635); the filiation Du Bellay / créolité is presented as a reading, not a claim of the writers.
 
 ## C2 plan
 
@@ -2320,11 +2360,11 @@ Every item is **to verify** before the lesson that relies on it is written (docs
 
 ### The language and its literatures (Unit 7)
 
-- **c2-culture-history-of-french:** to verify: the Strasbourg Oaths (842) as the oldest text usually counted as French, and the line to quote; the ordinance of Villers-Cotterêts (1539) and what it required; the Académie française (founded 1635) and the first edition of its dictionary (1694); the Revolution's language debates (the abbé Grégoire's report, 1794); the 1990 rectifications; the 1994 law.
-- **c2-culture-medieval-and-renaissance:** to verify: *La Chanson de Roland* (around 1100, anonymous); Chrétien de Troyes (twelfth century); *le Roman de Renart*; Villon (born 1431, date of death unknown); Rabelais (died 1553); Du Bellay (*Défense et illustration de la langue française*, 1549); Ronsard (1524–1585); Louise Labé (*Œuvres*, 1555) and the authorship debate: to verify that Mireille Huchon's *Louise Labé, une créature de papier* (2006) argued for a collective authorship by Lyon poets, and that other scholars reject it; present it as a debate, attributed, with no verdict, or replace Labé with another poet; any quotation, word for word in the original spelling, with the edition it comes from.
-- **c2-culture-twentieth-century-and-today:** to verify: the Oulipo (founded 1960; Queneau, Le Lionnais); Perec's *La Disparition* (1969) as a lipogram; the Nouveau Roman; autofiction (the term and its first use); the prix Goncourt; the rentrée littéraire.
-- **c2-culture-francophone-literatures:** to verify, and treat as sensitive: *la négritude* (Senghor, Césaire, Damas, 1930s); Césaire's *Cahier d'un retour au pays natal* (1939); Senghor at the Académie française (1983); Maghrebi authors to name; *la créolité* (*Éloge de la créolité*, 1989); Québec authors to name; Belgian and Swiss authors to name.
-- **c2-culture-wordplay:** to verify that any named performer or author is paraphrased, not quoted, and that every example pun is original.
+- **Verified (Prompt 48 review), written as given:** the Strasbourg Oaths (842), often described as the oldest surviving text in an early form of French; *langue d'oïl* and *langue d'oc*, named after their word for "yes"; the periods (Old French roughly 9th to 14th century, Middle French 14th to 16th, classical French 17th and 18th, modern French); the ordinance of Villers-Cotterêts (1539), usually summed up as requiring French instead of Latin in legal and administrative acts, with its wording *en langage maternel françois* debated (one neutral sentence); the Académie française (founded 1635, first dictionary 1694); the abbé Grégoire's report on the patois (1794); the Jules Ferry school laws (1881–1882); Article 2 of the Constitution (1992) and the Loi Toubon (1994) as recaps.
+- **Verified (Prompt 48 review):** *La Chanson de Roland* (around 1100; oldest manuscript late 11th or early 12th century); Chrétien de Troyes (late 12th century); *Le Roman de la Rose* (13th century; Guillaume de Lorris, then Jean de Meun); Villon (born 1431, nothing known after 1463); Rabelais (*Pantagruel* 1532, *Gargantua* 1534, died 1553); Du Bellay's *Défense et illustration de la langue française* (1549) and the Pléiade; Ronsard (1524–1585); Louise Labé (*Œuvres*, 1555), with the 2006 authorship debate presented neutrally and attributed.
+- **Verified (Prompt 48 review):** Proust, *À la recherche du temps perdu* (1913–1927); Breton's first surrealist manifesto (1924); the Nouveau Roman (1950s: Robbe-Grillet, Sarraute); the Oulipo (founded 1960 by Queneau and Le Lionnais); Perec, *La Disparition* (1969, without the letter e); autofiction (Doubrovsky, 1977); the prix Goncourt (first awarded 1903); the French-language Nobel prizes (Camus 1957, Sartre 1964 declined, Claude Simon 1985, Le Clézio 2008, Modiano 2014, Ernaux 2022). Camus stays as C1 described him.
+- **Verified (Prompt 48 review):** Négritude (1930s; Césaire, Senghor, Damas; *L'Étudiant noir*, 1935); Césaire, *Cahier d'un retour au pays natal* (1939); Senghor elected to the Académie française (1983); Assia Djebar elected (2005); *Éloge de la créolité* (1989; Bernabé, Chamoiseau, Confiant); Chamoiseau's prix Goncourt for *Texaco* (1992); Glissant and antillanité.
+- **Everything else** in the Unit 7 lessons is listed above under "C2 lessons", lesson by lesson, as "to verify" and hedged in the text.
 
 ### General
 

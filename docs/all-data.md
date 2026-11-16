@@ -1,6 +1,6 @@
 # All lesson data
 
-315 written lessons, in course order.
+321 written lessons, in course order.
 
 ## a1-greetings
 
@@ -13034,21 +13034,21 @@ fr | pron | en | note
 id | type | prompt | options | answers | strictAccents | explanation
 
 - c2-mediation-ex001 | multiple-choice | Choisissez le relais fidèle de la phrase : « Les personnes à mobilité réduite peuvent bénéficier, sous réserve de disponibilité, d'une livraison de bouteilles d'eau. » | ["Si vous vous déplacez difficilement, on peut vous livrer de l'eau, s'il en reste.","Si vous vous déplacez difficilement, on vous livrera de l'eau.","Tout le monde peut se faire livrer de l'eau."] | ["Si vous vous déplacez difficilement, on peut vous livrer de l'eau, s'il en reste."] | false | Only the first keeps both the group concerned and the condition (sous réserve de disponibilité: if there are any left).
-- c2-mediation-ex002 | multiple-choice | Choisissez le relais fidèle de la phrase : « L'eau sera coupée de 8 h à 12 h, du lundi au vendredi. » | ["Il n'y aura pas d'eau le matin, du lundi au vendredi.","Il n'y aura pas d'eau du lundi au vendredi.","Il n'y aura pas d'eau le matin, tous les jours."] | ["Il n'y aura pas d'eau le matin, du lundi au vendredi."] | false | The second drops the hours, and the third adds the weekend.
+- c2-mediation-ex002 | multiple-choice | Choisissez le relais fidèle de la phrase : « L'eau sera coupée de 8 h à 12 h, du lundi au vendredi. » | ["Il n'y aura pas d'eau de 8 h à 12 h, du lundi au vendredi.","Il n'y aura pas d'eau du lundi au vendredi.","Il n'y aura pas d'eau de 8 h à 12 h, tous les jours."] | ["Il n'y aura pas d'eau de 8 h à 12 h, du lundi au vendredi."] | false | Only the first keeps both limits. The second drops the hours, and the third adds the weekend.
 - c2-mediation-ex003 | multiple-choice | Indiquez ce que Bertrand ajoute à l'avis : « Le texte dit que la livraison est possible s'il en reste ; à mon avis, il vaut mieux vous inscrire tôt. » | ["à mon avis, il vaut mieux vous inscrire tôt","la livraison est possible","s'il en reste"] | ["à mon avis, il vaut mieux vous inscrire tôt"] | false | Le texte dit que introduces the notice; à mon avis introduces his own advice, clearly separated.
 - c2-mediation-ex004 | multiple-choice | Choisissez la meilleure réponse quand l'avis ne dit rien : votre voisine demande si la livraison est gratuite. | ["Le texte ne précise pas ; je vais me renseigner.","Oui, c'est sûrement gratuit.","Non, ce n'est pas gratuit."] | ["Le texte ne précise pas ; je vais me renseigner."] | false | The notice says nothing about the price, so any yes or no would be a guess.
 - c2-mediation-ex005 | fill-in | Conjuguez « préciser » au présent : Je ne connais pas la réponse, car le texte ne le ___ pas. | — | ["précise"] | false | Le texte ne précise pas: the text doesn't say exactly.
-- c2-mediation-ex006 | fill-in | Complétez : En ___, l'avis dit que l'eau sera coupée le matin. | — | ["substance"] | false | En substance: in substance, essentially.
+- c2-mediation-ex006 | fill-in | Complétez : En ___, l'avis dit que l'eau sera coupée pendant les travaux. | — | ["substance"] | false | En substance: in substance, essentially.
 - c2-mediation-ex007 | fill-in | Complétez avec le verbe à l'infinitif : Mon rôle est de ___ l'information à ma voisine. | — | ["relayer"] | false | Relayer une information: to pass it on.
 - c2-mediation-ex008 | register-shift | Transformez en français courant, en gardant la condition avec « s'il en reste » : La livraison est possible sous réserve de disponibilité. | — | ["La livraison est possible s'il en reste"] | false | Sous réserve de disponibilité becomes s'il en reste: the condition stays.
 - c2-mediation-ex009 | register-shift | Transformez en français courant, avec « on ne pourra pas se garer » : Le stationnement sera interdit dans la rue. | — | ["On ne pourra pas se garer dans la rue"] | false | Here on means people in general. Le stationnement sera interdit becomes on ne pourra pas se garer.
 - c2-mediation-ex010 | reformulation | Reformulez avec « le texte dit que », pour montrer que l'information vient de l'avis : Les poubelles devront être déposées au coin de la rue. | — | ["Le texte dit que les poubelles devront être déposées au coin de la rue"] | false | Le texte dit que shows that the information comes from the notice, not from you.
-- c2-mediation-ex011 | reformulation | Reformulez avec « en substance », placé en tête : L'avis dit, pour l'essentiel, que l'eau sera coupée le matin. | — | ["En substance, l'avis dit que l'eau sera coupée le matin"] | false | En substance replaces pour l'essentiel, at the start of the sentence.
+- c2-mediation-ex011 | reformulation | Reformulez avec « en substance », placé en tête : L'avis dit, pour l'essentiel, que l'eau sera coupée pendant les travaux. | — | ["En substance, l'avis dit que l'eau sera coupée pendant les travaux"] | false | En substance replaces pour l'essentiel, at the start of the sentence.
 - c2-mediation-ex012 | error-correction | Corrigez le relais, qui oublie une condition, en ajoutant « à condition de vous inscrire avant le 2 mai » : Avis : « Une livraison est possible ; il faut s'inscrire avant le 2 mai. » Relais : Vous pouvez vous faire livrer de l'eau. | — | ["Vous pouvez vous faire livrer de l'eau à condition de vous inscrire avant le 2 mai"] | true | A relay keeps every condition of the original: here, signing up before 2 May.
 - c2-mediation-ex013 | error-correction | Corrigez le relais, qui ajoute un jugement, en commençant par « La mairie a prévu » : La mairie a eu la bonne idée de prévoir une livraison d'eau. | — | ["La mairie a prévu une livraison d'eau"] | true | A eu la bonne idée is the mediator's judgment, not the notice's content.
 - c2-mediation-ex014 | translate | Traduisez (servir d'intermédiaire, au passé composé, la voisine) : I acted as a go-between for my neighbour and the town hall. | — | ["J'ai servi d'intermédiaire entre ma voisine et la mairie"] | false | Servir d'intermédiaire entre A et B: to act as a go-between for A and B.
 - c2-mediation-ex015 | translate | Traduisez (le texte ne précise pas) : The text doesn't say whether delivery is free. | — | ["Le texte ne précise pas si la livraison est gratuite"] | false | Ne pas préciser si: not to say exactly whether.
-- c2-mediation-ex016 | translate | Traduisez (en substance, l'avis) : In substance, the notice says that the water will be cut off. | — | ["En substance, l'avis dit que l'eau sera coupée"] | false | En substance: the main point, without every detail.
+- c2-mediation-ex016 | translate | Traduisez (en substance, l'avis) : In substance, the notice says that the water will be cut off during the works. | — | ["En substance, l'avis dit que l'eau sera coupée pendant les travaux"] | false | En substance: the main point, without every detail.
 - c2-mediation-ex017 | reorder | Remettez dans l'ordre : I'll find out at the town hall. | — | ["Je vais me renseigner à la mairie"] | false | Se renseigner: to find out. In the futur proche, the reflexive pronoun comes before the infinitive.
 - c2-mediation-ex018 | writing-task | Rédigez un message de 50 à 90 mots pour expliquer à un voisin âgé cette partie de l'avis, en français courant, sans oublier aucune condition : « Les personnes à mobilité réduite peuvent bénéficier, sous réserve de disponibilité, d'une livraison de bouteilles d'eau à domicile. Il leur appartient de s'inscrire auprès de l'accueil de la mairie avant le jeudi 2 mai. » | — | — | false | —
 
@@ -13096,7 +13096,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-negotiation-ex008 | register-shift | Transformez en registre soutenu, avec « nous ne sommes pas en mesure de » : On ne peut pas baisser le prix. | — | ["Nous ne sommes pas en mesure de baisser le prix"] | false | Ne pas être en mesure de: the formal way of saying ne pas pouvoir.
 - c2-negotiation-ex009 | reformulation | Reformulez avec « à condition que » : Nous accepterons 5 600 euros si la livraison a lieu le 22 mars. | — | ["Nous accepterons 5 600 euros à condition que la livraison ait lieu le 22 mars","À condition que la livraison ait lieu le 22 mars, nous accepterons 5 600 euros"] | true | À condition que takes the subjunctive: ait lieu.
 - c2-negotiation-ex010 | reformulation | Reformulez avec « pour peu que » : Nous accepterions ce prix si la livraison se faisait en deux fois. | — | ["Nous accepterions ce prix pour peu que la livraison se fasse en deux fois","Pour peu que la livraison se fasse en deux fois, nous accepterions ce prix"] | false | Pour peu que (provided that) takes the subjunctive: se fasse.
-- c2-negotiation-ex011 | error-correction | Corrigez le résumé de l'accord, qui oublie la condition de l'accord, en ajoutant « sous réserve de recevoir vos fichiers avant le 1er mars » : Nous livrerons votre commande en deux fois. | — | ["Nous livrerons votre commande en deux fois, sous réserve de recevoir vos fichiers avant le 1er mars"] | false | A written summary keeps every condition agreed: here, the files before 1 March.
+- c2-negotiation-ex011 | error-correction | Corrigez le résumé de l'accord, qui oublie la condition de l'accord, en ajoutant « sous réserve de recevoir vos fichiers définitifs au plus tard le 1er mars » : Nous livrerons votre commande en deux fois. | — | ["Nous livrerons votre commande en deux fois, sous réserve de recevoir vos fichiers définitifs au plus tard le 1er mars"] | false | A written summary keeps every condition agreed: here, the files before 1 March.
 - c2-negotiation-ex012 | error-correction | Corrigez l'expression familière, pour un courriel à un client, avec « faire une concession » : Nous pourrions lâcher du lest sur le prix. | — | ["Nous pourrions faire une concession sur le prix"] | false | Lâcher du lest isn't wrong, but it's familiar; faire une concession suits a professional email.
 - c2-negotiation-ex013 | translate | Traduisez (une solution de repli, deux livraisons) : Here is our fallback option: two deliveries. | — | ["Voici notre solution de repli : deux livraisons"] | false | Une solution de repli: a fallback option.
 - c2-negotiation-ex014 | translate | Traduisez (trouver un terrain d'entente, nous) : We hope to find common ground. | — | ["Nous espérons trouver un terrain d'entente"] | false | Trouver un terrain d'entente: to find common ground.
@@ -13244,3 +13244,304 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-review-mediation-ex014 | error-correction | Corrigez le compte rendu, qui ne suit pas l'accord, en gardant le reste de la phrase : Pas d'outils bruyants le samedi avant midi. | — | ["Pas d'outils bruyants le samedi avant onze heures"] | false | Midi was Mireille's first request; the agreement is onze heures. A summary records what was agreed, not what was asked.
 - c2-review-mediation-ex015 | reorder | Remettez dans l'ordre : « The mediator passes on each point of view without judging it. » | — | ["La médiatrice transmet chaque point de vue sans le juger"] | false | The rule of the whole unit: attribute each view, and add no judgment.
 - c2-review-mediation-ex016 | writing-task | Rédigez le message neutre (40 à 80 mots) que Josiane envoie à Lionel pour lui relayer le point de vue de Mireille, sans aucun mot qui juge, et sans rien ajouter. | — | — | false | —
+
+## c2-culture-history-of-french
+
+### Vocab
+
+fr | pron | en | note
+
+- le latin | luh lah-TAN | Latin | —
+- le latin vulgaire | luh lah-TAN vewl-GEHR | Vulgar Latin (the Latin people spoke) | —
+- un serment | uhn sehr-MAHN | an oath | —
+- un manuscrit | uhn mah-new-SKREE | a manuscript | —
+- conserver | kohn-sehr-VAY | to preserve, to keep | —
+- la langue d'oïl / la langue d'oc | lah lahng doh-EEL / lah lahng DOK | the languages of the north / of the south (named after their word for yes) | —
+- un siècle | uhn SYEK-luh | a century | —
+- une période | ewn pay-RYOD | a period | —
+- l'ancien français (m.) | lahn-SYAN frahn-SEH | Old French | —
+- le moyen français | luh mwah-YAN frahn-SEH | Middle French | —
+- le français classique | luh frahn-SEH klah-SEEK | classical French | —
+- le français moderne | luh frahn-SEH moh-DEHRN | modern French | —
+- une ordonnance | ew-nor-doh-NAHNSS | an ordinance (a royal or government text with the force of law) | —
+- un acte administratif | uh-nakt ahd-mee-nee-strah-TEEF | an administrative act (an official document) | —
+- la langue maternelle (maternel, maternelle) | lah lahng mah-tehr-NEL | the mother tongue | —
+- délivrer (un acte) | day-lee-VRAY | to issue, to deliver (an official document) | —
+- un historien / une historienne | uh-nee-stoh-RYAN / ew-nee-stoh-RYEN | a historian | —
+- un patois | uhn pah-TWAH | a local dialect (often used as a dismissive word) | —
+- le dictionnaire de l'Académie | luh deek-syoh-NEHR duh lah-kah-day-MEE | the Académie française's dictionary | —
+- imposer | an-poh-ZAY | to impose | —
+- le peuple | luh PUH-pluh | the people | —
+- le salut | luh sah-LEW | salvation | —
+- chrétien / chrétienne | kray-TYAN / kray-TYEN | Christian | —
+- la Gaule | lah GOHL | Gaul | —
+- le nord | luh NOR | the north | —
+- exact / exacte | eg-ZAKT | exact | —
+- un abbé | uh-nah-BAY | an abbé (a title for a priest) | —
+- peu à peu | puh ah PUH | little by little | —
+- petits-fils (un petit-fils) | uhn puh-tee-FEESS | a grandson | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-culture-history-of-french-ex001 | multiple-choice | Choisissez le texte souvent présenté comme le plus ancien texte conservé dans une forme ancienne du français. | ["les Serments de Strasbourg","l'ordonnance de Villers-Cotterêts","le premier dictionnaire de l'Académie"] | ["les Serments de Strasbourg"] | false | The Strasbourg Oaths (842) are often described as the oldest surviving text in an early form of French. The ordinance dates from 1539, the dictionary from 1694.
+- c2-culture-history-of-french-ex002 | multiple-choice | Indiquez d'où viennent les noms « langue d'oïl » et « langue d'oc ». | ["du mot qui voulait dire « oui »","du nom de deux rois","du nom de deux villes"] | ["du mot qui voulait dire « oui »"] | false | Oïl in the north (which became oui) and oc in the south: each group is named after its word for yes.
+- c2-culture-history-of-french-ex003 | multiple-choice | Indiquez la période du moyen français. | ["environ du XIVe au XVIe siècle","environ du IXe au XIVe siècle","les XVIIe et XVIIIe siècles"] | ["environ du XIVe au XVIe siècle"] | false | The usual periods: Old French (roughly 9th to 14th century), Middle French (14th to 16th), classical French (17th and 18th), then modern French.
+- c2-culture-history-of-french-ex004 | multiple-choice | Indiquez le sens, en français moderne, de « Pro Deo amur » dans les Serments de Strasbourg. | ["Pour l'amour de Dieu","Pour le peuple chrétien","Pour notre salut commun"] | ["Pour l'amour de Dieu"] | false | Pro Deo amur: for the love of God. The other two options translate the words that follow (pro christian poblo, nostro commun salvament). This text is for recognition only.
+- c2-culture-history-of-french-ex005 | multiple-choice | Choisissez l'année où l'Académie française a été fondée. | ["1635","1539","1694"] | ["1635"] | false | The Académie française was founded in 1635; its first dictionary appeared in 1694. 1539 is the ordinance of Villers-Cotterêts.
+- c2-culture-history-of-french-ex006 | fill-in | Complétez : Le français vient du latin parlé en Gaule, qu'on appelle le latin ___. | — | ["vulgaire"] | false | Le latin vulgaire: the Latin people spoke, as opposed to the written Latin of authors.
+- c2-culture-history-of-french-ex007 | fill-in | Complétez : L'ordonnance de Villers-Cotterêts est souvent résumée ainsi : les actes de justice doivent être rédigés en français, et non plus en ___. | — | ["latin"] | false | It's usually summed up as requiring French instead of Latin in legal and administrative acts.
+- c2-culture-history-of-french-ex008 | fill-in | Complétez avec le nom : Le premier ___ de l'Académie française a paru en 1694. | — | ["dictionnaire"] | false | Founded in 1635, the Académie published its first dictionary in 1694.
+- c2-culture-history-of-french-ex009 | error-correction | Corrigez l'erreur de date, en changeant seulement l'année : L'Académie française a été fondée en 1539. | — | ["L'Académie française a été fondée en 1635"] | true | 1539 is the ordinance of Villers-Cotterêts; the Académie dates from 1635.
+- c2-culture-history-of-french-ex010 | error-correction | Corrigez le siècle, qui est faux (écrivez-le en chiffres romains) : Le français classique est la langue du XVe siècle. | — | ["Le français classique est la langue du XVIIe siècle"] | false | Classical French is the French of the 17th and 18th centuries. The 15th century belongs to Middle French.
+- c2-culture-history-of-french-ex011 | reformulation | Reformulez au passif, au passé composé, en commençant par « Le premier dictionnaire » : L'Académie a publié son premier dictionnaire en 1694. | — | ["Le premier dictionnaire de l'Académie a été publié en 1694"] | true | The passive puts the dictionary first; the agent (l'Académie) moves into the complement de l'Académie.
+- c2-culture-history-of-french-ex012 | register-shift | Transformez en phrase neutre, sans jugement, en commençant par « On appelait parfois les langues régionales » : Les langues régionales n'étaient que de simples patois. | — | ["On appelait parfois les langues régionales des patois"] | false | Patois is often used as a dismissive word. A neutral sentence reports the word as a word, not as a verdict.
+- c2-culture-history-of-french-ex013 | translate | Traduisez (l'ancien français, les siècles en chiffres romains) : Old French was spoken from roughly the ninth to the fourteenth century. | — | ["L'ancien français a été parlé environ du IXe au XIVe siècle","L'ancien français était parlé environ du IXe au XIVe siècle","On a parlé l'ancien français environ du IXe au XIVe siècle"] | true | Centuries are written in Roman numerals with an e: IXe, XIVe. The passé composé and the imparfait are both possible here.
+- c2-culture-history-of-french-ex014 | translate | Traduisez (la langue maternelle) : French is not everyone's mother tongue. | — | ["Le français n'est pas la langue maternelle de tout le monde"] | false | La langue maternelle: the language a person learns first.
+- c2-culture-history-of-french-ex015 | translate | Traduisez (fonder, au passif, au passé composé) : The Académie française was founded in 1635. | — | ["L'Académie française a été fondée en 1635"] | true | Fondée agrees with l'Académie, which is feminine.
+- c2-culture-history-of-french-ex016 | reorder | Remettez dans l'ordre les périodes du français, de la plus ancienne à la plus récente. | — | ["l'ancien français, le moyen français, le français classique, le français moderne"] | false | Roughly: 9th to 14th century, 14th to 16th, 17th and 18th, then modern French.
+
+## c2-culture-medieval-and-renaissance
+
+### Vocab
+
+fr | pron | en | note
+
+- le Moyen Âge | luh mwah-yen-NAHZH | the Middle Ages | —
+- une chanson de geste | ewn shahn-SOHN duh ZHEST | a chanson de geste (an epic poem about heroic deeds) | —
+- un chevalier | uhn shuh-vah-LYAY | a knight | —
+- le roman courtois | luh roh-MAHN koor-TWAH | the courtly romance | —
+- un poème allégorique | uhn poh-EM ah-lay-goh-REEK | an allegorical poem | —
+- anonyme | ah-noh-NEEM | anonymous | —
+- la Renaissance | lah ruh-neh-SAHNSS | the Renaissance | —
+- l'humanisme (m.) | lew-mah-NEESM | humanism | —
+- un géant | uhn zhay-AHN | a giant | —
+- la Pléiade | lah play-YAD | the Pléiade (a group of Renaissance poets) | —
+- défendre une langue | day-FAHN-druh ewn LAHNG | to defend a language | —
+- une ode | ew-NOD | an ode | —
+- la paternité (d'une œuvre) | lah pah-tehr-nee-TAY | authorship (of a work) | —
+- une création collective | ewn kray-ah-SYOHN koh-lek-TEEV | a collective creation | —
+- l'orthographe d'origine (f.) | lor-toh-GRAHF doh-ree-ZHEEN | the original spelling | —
+- une traduction en français moderne | ewn trah-dewk-SYOHN ahn frahn-SEH moh-DEHRN | a translation into modern French | —
+- une aventure | ew-nah-vahn-TEWR | an adventure | —
+- mêle (mêler) | MEL | mixes (to mix) | —
+- redécouvre (redécouvrir) | ruh-day-KOO-vruh | rediscovers (to rediscover) | —
+- le savoir | luh sah-VWAHR | knowledge | —
+- se fane (se faner) | suh FAHN | fades, wilts (to fade) | —
+- l'illustration (f.) | lee-lew-strah-SYOHN | here: making illustrious, glorifying (in Du Bellay's title) | —
+- mignonne | mee-NYONN | my sweet, darling (a term of affection) | —
+- rejettent (rejeter) | ruh-ZHET | reject (to reject) | —
+- meurt (mourir) | MUHR | dies (to die) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-culture-medieval-and-renaissance-ex001 | multiple-choice | Choisissez le genre de La Chanson de Roland. | ["une chanson de geste","un roman courtois","une ode"] | ["une chanson de geste"] | false | La Chanson de Roland is a chanson de geste, an epic poem about heroic deeds.
+- c2-culture-medieval-and-renaissance-ex002 | multiple-choice | Indiquez combien d'auteurs a eu Le Roman de la Rose. | ["deux : Guillaume de Lorris, puis Jean de Meun","un seul : Chrétien de Troyes","aucun : il est anonyme"] | ["deux : Guillaume de Lorris, puis Jean de Meun"] | false | The 13th-century Roman de la Rose was begun by Guillaume de Lorris and continued by Jean de Meun.
+- c2-culture-medieval-and-renaissance-ex003 | multiple-choice | Choisissez ce qu'on sait de la vie de François Villon après 1463. | ["rien","qu'il est devenu professeur","qu'il est mort en 1553"] | ["rien"] | false | Villon was born in 1431, and nothing is known of him after 1463. 1553 is the year of Rabelais's death.
+- c2-culture-medieval-and-renaissance-ex004 | multiple-choice | Indiquez le sens, en français moderne, de « Halt sunt li pui » (La Chanson de Roland). | ["Hauts sont les monts","Il fait chaud dans les puits","Les monts sont loin"] | ["Hauts sont les monts"] | false | Halt sunt li pui: high are the hills (pui, the hills or mountains). The valleys come next: e li val tenebrus. For recognition only.
+- c2-culture-medieval-and-renaissance-ex005 | multiple-choice | Indiquez le mot moderne pour « avoit » chez Ronsard. | ["avait","avoue","voit"] | ["avait"] | false | Renaissance spelling wrote -oit where modern French writes -ait: avoit, avait. For recognition only.
+- c2-culture-medieval-and-renaissance-ex006 | multiple-choice | Choisissez la présentation neutre du débat sur Louise Labé. | ["En 2006, un chercheur a soutenu que ses Œuvres étaient une création collective ; d'autres rejettent cette thèse.","On sait aujourd'hui que Louise Labé n'a rien écrit.","Le débat sur Louise Labé n'a aucun intérêt."] | ["En 2006, un chercheur a soutenu que ses Œuvres étaient une création collective ; d'autres rejettent cette thèse."] | false | The neutral version attributes the argument and the reply, and gives no verdict.
+- c2-culture-medieval-and-renaissance-ex007 | fill-in | Complétez avec le nom du mouvement : À la Renaissance, l'___ redécouvre les textes de l'Antiquité. | — | ["humanisme"] | false | L'humanisme: the Renaissance movement that returned to the texts of Antiquity.
+- c2-culture-medieval-and-renaissance-ex008 | fill-in | Complétez : Du Bellay, Ronsard et leurs amis poètes forment un groupe appelé la ___. | — | ["Pléiade"] | false | La Pléiade: the group of poets around Ronsard and Du Bellay.
+- c2-culture-medieval-and-renaissance-ex009 | fill-in | Complétez : Chrétien de Troyes a écrit, à la fin du XIIe siècle, des romans ___. | — | ["courtois"] | false | Le roman courtois: the courtly romance, with its knights and their adventures.
+- c2-culture-medieval-and-renaissance-ex010 | error-correction | Corrigez l'erreur de date, en changeant seulement l'année : Rabelais publie Pantagruel en 1549. | — | ["Rabelais publie Pantagruel en 1532"] | false | Pantagruel dates from 1532 and Gargantua from 1534. 1549 is Du Bellay's Défense et illustration de la langue française.
+- c2-culture-medieval-and-renaissance-ex011 | error-correction | Corrigez l'erreur, en remplaçant seulement le nom de l'auteur : Ronsard publie la Défense et illustration de la langue française en 1549. | — | ["Du Bellay publie la Défense et illustration de la langue française en 1549"] | false | The Défense (1549) is by Du Bellay. Ronsard (1524–1585) is the other great poet of the Pléiade.
+- c2-culture-medieval-and-renaissance-ex012 | reformulation | Reformulez au passif, au présent, en commençant par « La Chanson de Roland » : Un auteur anonyme écrit La Chanson de Roland vers 1100. | — | ["La Chanson de Roland est écrite vers 1100 par un auteur anonyme"] | false | The passive puts the work first; par introduces the author, here anonymous.
+- c2-culture-medieval-and-renaissance-ex013 | translate | Traduisez (anonyme) : The Chanson de Roland is an anonymous poem. | — | ["La Chanson de Roland est un poème anonyme"] | false | Anonyme: its author's name hasn't come down to us.
+- c2-culture-medieval-and-renaissance-ex014 | translate | Traduisez (une traduction en français moderne) : Read the extract with a translation into modern French. | — | ["Lisez l'extrait avec une traduction en français moderne"] | false | Une traduction en français moderne: the help you need for Old and Middle French.
+- c2-culture-medieval-and-renaissance-ex015 | translate | Traduisez (défendre, la langue française) : Du Bellay wanted to defend the French language. | — | ["Du Bellay voulait défendre la langue française"] | false | Défendre une langue: to argue for its value and its use.
+- c2-culture-medieval-and-renaissance-ex016 | reorder | Remettez dans l'ordre ces œuvres, de la plus ancienne à la plus récente. | — | ["La Chanson de Roland, Le Roman de la Rose, Pantagruel, la Défense et illustration de la langue française"] | false | Around 1100, the 13th century, 1532, 1549.
+
+## c2-culture-twentieth-century-and-today
+
+### Vocab
+
+fr | pron | en | note
+
+- un mouvement littéraire | uhn moov-MAHN lee-tay-RAIR | a literary movement | —
+- un manifeste | uhn mah-nee-FEST | a manifesto | —
+- le Nouveau Roman | luh noo-voh roh-MAHN | the Nouveau Roman (the 'new novel' of the 1950s) | —
+- l'autofiction (f.) | loh-toh-feek-SYOHN | autofiction (writing that mixes the author's life and fiction) | —
+- forger un mot | for-ZHAY uhn MOH | to coin a word | —
+- une étiquette | ew-nay-tee-KET | a label (put on a writer or a work) | —
+- l'Oulipo (m.) | loo-lee-POH | the Oulipo (a group of writers who use constraints) | —
+- une contrainte d'écriture | ewn kohn-TRANT day-kree-TEWR | a writing constraint | —
+- un lipogramme | uhn lee-poh-GRAHM | a lipogram (a text that never uses one letter) | —
+- la rentrée littéraire | lah rahn-TRAY lee-tay-RAIR | the literary season (the many novels published at the end of summer) | —
+- un éditeur / une éditrice | uh-nay-dee-TUHR / ew-nay-dee-TREESS | a publisher | —
+- un libraire / une libraire | uhn lee-BREHR | a bookseller | —
+- un prix littéraire | uhn pree lee-tay-RAIR | a literary prize | —
+- décerner un prix | day-sehr-NAY uhn PREE | to award a prize | —
+- le prix Nobel de littérature | luh pree noh-BEL duh lee-tay-rah-TEWR | the Nobel Prize in Literature | —
+- refuser un prix | ruh-few-ZAY uhn PREE | to decline a prize | —
+- un héritier / une héritière | uh-nay-ree-TYAY / ew-nay-ree-TYEHR | an heir | —
+- se méfiait (se méfier de) | suh may-FYEH | distrusted (to distrust) | —
+- un polar | uhn poh-LAR | a crime novel (familiar) | —
+- la fiction | lah feek-SYOHN | fiction | —
+- un joueur / une joueuse | uhn zhoo-UHR / ewn zhoo-UHZ | a player | —
+- un album | uh-nahl-BOMM | a picture book, an album | —
+- un individu | uh-nan-dee-vee-DEW | an individual, a stranger | —
+- sans faillir | sahn fah-YEER | without fail | —
+- souriant / souriante | soo-RYAHN / soo-RYAHNT | smiling | —
+- polit (polir) | poh-LEE | polishes (to polish) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-culture-twentieth-century-and-today-ex001 | multiple-choice | Choisissez l'année du premier manifeste du surréalisme d'André Breton. | ["1924","1903","1960"] | ["1924"] | false | Breton's first surrealist manifesto dates from 1924. The prix Goncourt was first awarded in 1903, and the Oulipo was founded in 1960.
+- c2-culture-twentieth-century-and-today-ex002 | multiple-choice | Indiquez la contrainte de La Disparition de Georges Perec. | ["un roman entier sans la lettre e","un roman écrit en une seule phrase","un roman sans personnage"] | ["un roman entier sans la lettre e"] | false | La Disparition (1969) is a whole novel without the letter e: a lipogram.
+- c2-culture-twentieth-century-and-today-ex003 | multiple-choice | Choisissez l'écrivain qui a refusé le prix Nobel de littérature en 1964. | ["Jean-Paul Sartre","Albert Camus","Claude Simon"] | ["Jean-Paul Sartre"] | false | Sartre was awarded the Nobel Prize in 1964 and declined it. Camus received it in 1957, Claude Simon in 1985.
+- c2-culture-twentieth-century-and-today-ex004 | multiple-choice | Choisissez la présentation prudente d'un écrivain du Nouveau Roman. | ["Nathalie Sarraute est souvent associée au Nouveau Roman.","Nathalie Sarraute a inventé tout le roman moderne.","Nathalie Sarraute n'a rien à voir avec le Nouveau Roman."] | ["Nathalie Sarraute est souvent associée au Nouveau Roman."] | false | A label is given as 'often linked with', since writers don't always accept the labels put on them.
+- c2-culture-twentieth-century-and-today-ex005 | multiple-choice | Indiquez qui a forgé le mot « autofiction », en 1977. | ["Serge Doubrovsky","Raymond Queneau","André Breton"] | ["Serge Doubrovsky"] | false | Serge Doubrovsky coined the word in 1977. Queneau co-founded the Oulipo; Breton wrote the surrealist manifesto.
+- c2-culture-twentieth-century-and-today-ex006 | fill-in | Complétez : Un texte qui n'emploie jamais une lettre est un ___. | — | ["lipogramme"] | false | Un lipogramme: the constraint of La Disparition, and of the model text in this lesson.
+- c2-culture-twentieth-century-and-today-ex007 | fill-in | Complétez : À la fin de l'été, les éditeurs publient beaucoup de romans : c'est la ___ littéraire. | — | ["rentrée"] | false | La rentrée littéraire: the literary season at the end of summer.
+- c2-culture-twentieth-century-and-today-ex008 | fill-in | Complétez avec le verbe au participe passé : Le prix Goncourt a été ___ pour la première fois en 1903. | — | ["décerné"] | true | Décerner un prix: to award it. Here in the passive, agreeing with le prix (masculine).
+- c2-culture-twentieth-century-and-today-ex009 | error-correction | Corrigez l'erreur de date, en changeant seulement l'année : L'Oulipo a été fondé en 1924 par Raymond Queneau et François Le Lionnais. | — | ["L'Oulipo a été fondé en 1960 par Raymond Queneau et François Le Lionnais"] | true | The Oulipo dates from 1960; 1924 is Breton's first surrealist manifesto.
+- c2-culture-twentieth-century-and-today-ex010 | error-correction | Corrigez l'étiquette, trop affirmée, en commençant par « Camus est souvent associé à » : Camus appartient à l'existentialisme. | — | ["Camus est souvent associé à l'existentialisme"] | true | As the lesson on the canon says, Camus is often linked with existentialism, though he rejected the label.
+- c2-culture-twentieth-century-and-today-ex011 | reformulation | Reformulez au passif, au passé composé, en commençant par « Le mot « autofiction » » : Serge Doubrovsky a forgé le mot « autofiction » en 1977. | — | ["Le mot « autofiction » a été forgé par Serge Doubrovsky en 1977","Le mot « autofiction » a été forgé en 1977 par Serge Doubrovsky"] | true | The passive puts the word first; par introduces the person who coined it.
+- c2-culture-twentieth-century-and-today-ex012 | translate | Traduisez (une contrainte d'écriture) : « The Oulipo writes under constraint. » | — | ["L'Oulipo écrit sous contrainte"] | false | Écrire sous contrainte: to write with a rule chosen in advance.
+- c2-culture-twentieth-century-and-today-ex013 | translate | Traduisez (le roman de Proust, publier, au passif) : Proust's novel was published from 1913 to 1927. | — | ["Le roman de Proust a été publié de 1913 à 1927"] | true | Publié agrees with le roman (masculine). À la recherche du temps perdu appeared in several volumes over those years.
+- c2-culture-twentieth-century-and-today-ex014 | translate | Traduisez (un prix littéraire, décerner) : The prize is awarded every year. | — | ["Le prix est décerné chaque année","Le prix est décerné tous les ans"] | false | Décerner un prix; chaque année and tous les ans both mean every year.
+- c2-culture-twentieth-century-and-today-ex015 | translate | Traduisez (refuser, au passé composé) : « Sartre declined the Nobel Prize. » | — | ["Sartre a refusé le prix Nobel"] | true | Refuser un prix: to decline it.
+- c2-culture-twentieth-century-and-today-ex016 | reorder | Remettez dans l'ordre ces événements, du plus ancien au plus récent. | — | ["le premier prix Goncourt, le manifeste du surréalisme, la naissance de l'Oulipo, La Disparition"] | false | 1903, 1924, 1960, 1969.
+
+## c2-culture-francophone-literatures
+
+### Vocab
+
+fr | pron | en | note
+
+- une littérature francophone | ewn lee-tay-rah-TEWR frahn-koh-FONN | a literature written in French (outside France, in this lesson) | —
+- écrire en français | ay-KREER ahn frahn-SEH | to write in French | —
+- une identité | ew-nee-dahn-tee-TAY | an identity | —
+- revendiquer | ruh-vahn-dee-KAY | to claim, to assert (an identity, a right) | —
+- un écrivain francophone | uh-nay-kree-VAN frahn-koh-FONN | a French-language writer | —
+- la langue d'écriture | lah lahng day-kree-TEWR | the language a writer writes in | —
+- un mouvement fondateur | uhn moov-MAHN fohn-dah-TUHR | a founding movement | —
+- une revue littéraire | ewn ruh-VEW lee-tay-RAIR | a literary journal | —
+- un long poème | uhn lohn poh-EM | a long poem | —
+- être élu à l'Académie française | ET-ruh ay-LEW ah lah-kah-day-MEE frahn-SEZ | to be elected to the Académie française | —
+- l'antillanité (f.) | lahn-tee-yah-nee-TAY | antillanité (an identity rooted in the Caribbean) | —
+- la créolité | lah kray-oh-lee-TAY | créolité (an identity defined as a mixture of cultures) | —
+- un éloge | uh-nay-LOZH | an essay in praise of, a eulogy | —
+- puiser dans | pwee-ZAY dahn | to draw on | —
+- la diversité | lah dee-vehr-see-TAY | diversity | —
+- la Guadeloupe | lah gwah-duh-LOOP | Guadeloupe | —
+- un étudiant / une étudiante | uh-nay-tew-DYAHN / ew-nay-tew-DYAHNT | a student | —
+- une racine | ewn rah-SEEN | a root | —
+- natal / natale (le pays natal) | nah-TAHL | native (one's native land) | —
+- algérien / algérienne | ahl-zhay-RYAN / ahl-zhay-RYEN | Algerian | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-culture-francophone-literatures-ex001 | multiple-choice | Choisissez les trois écrivains liés à la négritude. | ["Aimé Césaire, Léopold Sédar Senghor et Léon-Gontran Damas","Raymond Queneau, Georges Perec et François Le Lionnais","Jean Bernabé, Patrick Chamoiseau et Raphaël Confiant"] | ["Aimé Césaire, Léopold Sédar Senghor et Léon-Gontran Damas"] | false | The other two groups are the Oulipo and the authors of the Éloge de la créolité.
+- c2-culture-francophone-literatures-ex002 | multiple-choice | Choisissez l'année de la revue L'Étudiant noir. | ["1935","1939","1989"] | ["1935"] | false | L'Étudiant noir dates from 1935; Césaire's Cahier d'un retour au pays natal from 1939; the Éloge de la créolité from 1989.
+- c2-culture-francophone-literatures-ex003 | multiple-choice | Choisissez la présentation neutre de la négritude. | ["Ses écrivains ont revendiqué la valeur des cultures noires et africaines.","La négritude a eu raison contre tout le monde.","La négritude n'a plus aucun intérêt aujourd'hui."] | ["Ses écrivains ont revendiqué la valeur des cultures noires et africaines."] | false | The neutral version says what the writers argued, with no verdict on them or on their critics.
+- c2-culture-francophone-literatures-ex004 | multiple-choice | Indiquez le livre de Patrick Chamoiseau qui a reçu le prix Goncourt en 1992. | ["Texaco","Cahier d'un retour au pays natal","La Disparition"] | ["Texaco"] | false | Texaco received the prix Goncourt in 1992. The Cahier is by Césaire, and La Disparition by Perec.
+- c2-culture-francophone-literatures-ex005 | multiple-choice | Indiquez l'idée associée à Édouard Glissant. | ["l'antillanité","la créolité","le Nouveau Roman"] | ["l'antillanité"] | false | Glissant is linked with antillanité; créolité is the idea of the Éloge de la créolité (1989).
+- c2-culture-francophone-literatures-ex006 | fill-in | Complétez : En 1983, Léopold Sédar Senghor a été ___ à l'Académie française. | — | ["élu"] | true | Être élu à l'Académie française: to be elected to it. Assia Djebar was elected in 2005.
+- c2-culture-francophone-literatures-ex007 | fill-in | Complétez : L'Éloge de la ___ a été publié en 1989 par Jean Bernabé, Patrick Chamoiseau et Raphaël Confiant. | — | ["créolité"] | false | La créolité: an identity its authors described as a mixture of cultures.
+- c2-culture-francophone-literatures-ex008 | fill-in | Complétez avec le verbe à l'infinitif : Ces écrivains veulent ___ leur identité, c'est-à-dire l'affirmer avec force. | — | ["revendiquer"] | false | Revendiquer une identité: to claim it, to assert it.
+- c2-culture-francophone-literatures-ex009 | error-correction | Corrigez l'erreur de date, en changeant seulement l'année : Césaire publie le Cahier d'un retour au pays natal en 1935. | — | ["Césaire publie le Cahier d'un retour au pays natal en 1939"] | false | The Cahier dates from 1939. 1935 is the journal L'Étudiant noir.
+- c2-culture-francophone-literatures-ex010 | error-correction | Corrigez le jugement, en commençant par « Selon ses auteurs, » : L'Éloge de la créolité a prouvé que l'identité antillaise est un mélange. | — | ["Selon ses auteurs, l'identité antillaise est un mélange"] | false | An essay argues; it doesn't prove. The neutral version attributes the idea to its authors.
+- c2-culture-francophone-literatures-ex011 | reformulation | Reformulez au passif, au passé composé, en commençant par « Le prix Goncourt » : En 1992, le jury a décerné le prix Goncourt à Texaco. | — | ["Le prix Goncourt a été décerné à Texaco en 1992","Le prix Goncourt a été décerné en 1992 à Texaco"] | true | The passive leaves out the jury, which the sentence doesn't need.
+- c2-culture-francophone-literatures-ex012 | translate | Traduisez (écrire en français) : « Many writers outside France write in French. » | — | ["Beaucoup d'écrivains écrivent en français hors de France","Hors de France, beaucoup d'écrivains écrivent en français","De nombreux écrivains écrivent en français hors de France"] | false | Écrire en français; hors de France: outside France.
+- c2-culture-francophone-literatures-ex013 | translate | Traduisez (puiser dans, le créole) : These novels draw on Creole. | — | ["Ces romans puisent dans le créole"] | false | Puiser dans: to draw on (a source, a language).
+- c2-culture-francophone-literatures-ex014 | translate | Traduisez (être élue, au passé composé) : Assia Djebar was elected to the Académie française in 2005. | — | ["Assia Djebar a été élue à l'Académie française en 2005"] | true | Élue agrees with Assia Djebar (feminine).
+- c2-culture-francophone-literatures-ex015 | translate | Traduisez (une identité) : Each writer has their own identity. | — | ["Chaque écrivain a sa propre identité"] | true | Chaque + singular; sa propre identité: their own identity.
+- c2-culture-francophone-literatures-ex016 | reorder | Remettez dans l'ordre ces événements, du plus ancien au plus récent. | — | ["L'Étudiant noir, le Cahier d'un retour au pays natal, l'Éloge de la créolité, le prix Goncourt de Texaco"] | false | 1935, 1939, 1989, 1992.
+
+## c2-culture-wordplay
+
+### Vocab
+
+fr | pron | en | note
+
+- l'homophonie (f.) | loh-moh-foh-NEE | homophony (words that sound the same) | —
+- un homophone | uh-noh-moh-FONN | a homophone | —
+- se prononcer de la même façon | suh proh-nohn-SAY duh lah mem fah-SOHN | to be pronounced the same way | —
+- le sang | luh SAHN | blood | —
+- un donneur / une donneuse | uhn doh-NUHR / ewn doh-NUHZ | a donor | —
+- un double sens | uhn doo-bluh SAHNSS | a double meaning | —
+- détourner une expression | day-toor-NAY ew-nek-spreh-SYOHN | to twist a set phrase | —
+- se jeter à l'eau | suh zhuh-TAY ah LOH | to take the plunge (literally: to jump into the water) | —
+- faire un tabac | fehr uhn tah-BAH | to be a big hit (familiar; un tabac is also tobacco) | —
+- le tabac | luh tah-BAH | tobacco | —
+- un mot d'esprit | uhn moh dess-PREE | a witty remark | —
+- faire un bon mot | fehr uhn bohn MOH | to make a witty remark | —
+- tomber à plat | tohn-BAY ah PLAH | to fall flat | —
+- la compensation | lah kohn-pahn-sah-SYOHN | compensation (in translation: recreating a lost effect elsewhere) | —
+- le titre de une | luh TEE-truh duh EWN | the front-page headline | —
+- un salon | uhn sah-LOHN | a fair, a trade show | —
+- un viticulteur / une viticultrice | uhn vee-tee-kewl-TUHR / ewn vee-tee-kewl-TREESS | a wine grower | —
+- bio | BYOH | organic (familiar, short for biologique) | —
+- la cigarette | lah see-gah-RET | the cigarette | —
+- faire son beurre | fehr sohn BUHR | to make a lot of money (familiar; literally, to make one's butter) | —
+- une rubrique | ewn rew-BREEK | a regular column, a section (of a paper) | —
+- réel / réelle | ray-EL | real | —
+- combat (combattre) | kohn-BAH | fights (to fight against) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-culture-wordplay-ex001 | multiple-choice | Trouvez le double sens du titre « Salon du vin : un verre plus vert ». | ["verre (un verre de vin) et vert (plus écologique) se prononcent de la même façon","verre et vert ont le même sens","vert veut dire ici « pas mûr »"] | ["verre (un verre de vin) et vert (plus écologique) se prononcent de la même façon"] | false | Verre and vert are homophones: the headline speaks of a glass of wine and of a greener fair at the same time.
+- c2-culture-wordplay-ex002 | multiple-choice | Trouvez le double sens du titre « Un film contre la cigarette fait un tabac ». | ["faire un tabac (avoir un grand succès) et le tabac (des cigarettes)","un tabac est ici un magasin","le film parle de la culture du tabac"] | ["faire un tabac (avoir un grand succès) et le tabac (des cigarettes)"] | false | The idiom faire un tabac means to be a hit; read literally, it brings back the tobacco the film is against.
+- c2-culture-wordplay-ex003 | multiple-choice | Indiquez les trois homophones du titre « Don du sang : cent donneurs, sans attendre ». | ["sang, cent et sans","don, donneurs et attendre","sang, donneurs et attendre"] | ["sang, cent et sans"] | false | Sang (blood), cent (a hundred) and sans (without) are pronounced the same way.
+- c2-culture-wordplay-ex004 | multiple-choice | Choisissez ce que veut dire « tomber à plat » pour une plaisanterie. | ["ne faire rire personne","faire beaucoup rire","être trop longue"] | ["ne faire rire personne"] | false | Une plaisanterie qui tombe à plat: a joke that falls flat.
+- c2-culture-wordplay-ex005 | fill-in | Complétez : Des mots qui se prononcent de la même façon, comme « mer » et « maire », sont des ___. | — | ["homophones"] | false | Des homophones: words with the same sound and different meanings (and here, different spellings).
+- c2-culture-wordplay-ex006 | fill-in | Complétez avec l'adjectif : Un titre qui a deux sens est un titre à ___ sens. | — | ["double"] | false | Un titre à double sens: a headline with a double meaning.
+- c2-culture-wordplay-ex007 | fill-in | Complétez : Pour traduire un jeu de mots, le traducteur crée parfois un autre effet ailleurs dans le texte : c'est la ___. | — | ["compensation"] | false | La compensation: recreating, elsewhere, an effect that couldn't be kept in its place.
+- c2-culture-wordplay-ex008 | reformulation | Reformulez sans jeu de mots, au sens figuré seulement, avec « prendre un risque » : Le maire se jette à l'eau. | — | ["Le maire prend un risque"] | false | Se jeter à l'eau, in its figurative sense: to take the plunge, to dare. The literal water is what makes the pun at a sea festival.
+- c2-culture-wordplay-ex009 | reformulation | Reformulez sans l'expression figée, en commençant par « Les boulangers ont » : Les boulangers ont du pain sur la planche. | — | ["Les boulangers ont beaucoup de travail"] | false | Avoir du pain sur la planche: to have a lot of work. With bakers, the literal bread makes the pun.
+- c2-culture-wordplay-ex010 | register-shift | Transformez en registre courant, sans l'expression familière, avec « a beaucoup de succès » : Ce film fait un tabac. | — | ["Ce film a beaucoup de succès"] | true | Faire un tabac is familiar; avoir beaucoup de succès is the everyday phrase.
+- c2-culture-wordplay-ex011 | error-correction | Corrigez l'explication, qui se trompe sur le son : « Dans « un verre plus vert », verre et vert n'ont pas le même son. » | — | ["Dans « un verre plus vert », verre et vert ont le même son"] | false | Verre and vert are pronounced the same way; only their spelling and meaning differ.
+- c2-culture-wordplay-ex012 | translate | Traduisez (un jeu de mots, intraduisible) : This pun is untranslatable. | — | ["Ce jeu de mots est intraduisible","Ce calembour est intraduisible"] | false | Intraduisible: impossible to translate as it is. Calembour and jeu de mots are both correct here.
+- c2-culture-wordplay-ex013 | translate | Traduisez (la plaisanterie, tomber à plat, au passé composé) : « The joke fell flat. » | — | ["La plaisanterie est tombée à plat"] | true | Tomber takes être, and tombée agrees with la plaisanterie (feminine).
+- c2-culture-wordplay-ex014 | translate | Traduisez (un homophone) : Sang and cent are homophones. | — | ["Sang et cent sont des homophones"] | false | Des homophones: same sound, different meaning.
+- c2-culture-wordplay-ex015 | reorder | Remettez dans l'ordre : This headline plays on two meanings. | — | ["Ce titre joue sur deux sens"] | false | Jouer sur deux sens: to play on two meanings.
+- c2-culture-wordplay-ex016 | error-correction | Corrigez l'explication, qui oublie le sens propre, en ajoutant « et du vrai pain » à la fin : « Du pain sur la planche » veut dire ici beaucoup de travail. | — | ["« Du pain sur la planche » veut dire ici beaucoup de travail et du vrai pain"] | false | Explaining a pun means giving both meanings: the figurative one (a lot of work) and the literal one (real bread, for bakers).
+- c2-culture-wordplay-ex017 | writing-task | Rédigez un titre de presse à jeu de mots, sur un sujet inventé, puis expliquez-le en 30 à 60 mots : le son ou l'expression, les deux sens, et le contexte qui les réunit. | — | — | false | —
+
+## c2-review-literatures
+
+### Vocab
+
+fr | pron | en | note
+
+- un siècle littéraire | uhn SYEK-luh lee-tay-RAIR | a literary century (a century seen through its literature) | —
+- une filiation | ewn fee-lyah-SYOHN | a line of descent, a filiation (between works or writers) | —
+- se réclamer de | suh ray-klah-MAY duh | to claim to follow, to invoke (a model) | —
+- la continuité | lah kohn-tee-nwee-TAY | continuity | —
+- une rupture | ewn rewp-TEWR | a break (with a tradition) | —
+- la clarté | lah klar-TAY | clarity | —
+- obscure (obscur) | op-SKEWR | obscure, unclear | —
+- un fil | uhn FEEL | a thread | —
+- l'universalité (f.) | lew-nee-vehr-sah-lee-TAY | universality | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-review-literatures-ex001 | multiple-choice | Choisissez le texte souvent présenté comme le plus ancien texte conservé dans une forme ancienne du français. | ["les Serments de Strasbourg (842)","La Chanson de Roland (vers 1100)","la Défense et illustration de la langue française (1549)"] | ["les Serments de Strasbourg (842)"] | false | The Strasbourg Oaths are often described as the oldest surviving text in an early form of French (c2-culture-history-of-french).
+- c2-review-literatures-ex002 | error-correction | Corrigez l'erreur de date, en changeant seulement l'année : Le premier dictionnaire de l'Académie française paraît en 1635. | — | ["Le premier dictionnaire de l'Académie française paraît en 1694"] | false | The Académie was founded in 1635; its first dictionary appeared in 1694 (c2-culture-history-of-french).
+- c2-review-literatures-ex003 | multiple-choice | Indiquez les deux auteurs du Roman de la Rose. | ["Guillaume de Lorris et Jean de Meun","Ronsard et Du Bellay","Rabelais et Villon"] | ["Guillaume de Lorris et Jean de Meun"] | false | Guillaume de Lorris began it, and Jean de Meun continued it (c2-culture-medieval-and-renaissance).
+- c2-review-literatures-ex004 | translate | Traduisez (la Défense, publier, au passé composé) : « Du Bellay published the Defence in 1549. » | — | ["Du Bellay a publié la Défense en 1549"] | true | The full title is Défense et illustration de la langue française (c2-culture-medieval-and-renaissance).
+- c2-review-literatures-ex005 | multiple-choice | Choisissez le roman qui n'emploie jamais la lettre e. | ["La Disparition","Texaco","Pantagruel"] | ["La Disparition"] | false | Perec's La Disparition (1969) is a lipogram in e (c2-culture-twentieth-century-and-today).
+- c2-review-literatures-ex006 | error-correction | Corrigez l'étiquette, trop affirmée, en commençant par « Alain Robbe-Grillet est souvent associé » : Alain Robbe-Grillet est le Nouveau Roman. | — | ["Alain Robbe-Grillet est souvent associé au Nouveau Roman"] | false | A label is given as 'often linked with' (c2-culture-twentieth-century-and-today).
+- c2-review-literatures-ex007 | multiple-choice | Choisissez la présentation neutre de l'Éloge de la créolité. | ["Selon ses auteurs, l'identité antillaise est un mélange de cultures.","L'Éloge de la créolité a prouvé que tout le monde est créole.","L'Éloge de la créolité n'a rien apporté."] | ["Selon ses auteurs, l'identité antillaise est un mélange de cultures."] | false | The neutral version attributes the idea to its authors, with no verdict (c2-culture-francophone-literatures).
+- c2-review-literatures-ex008 | reformulation | Reformulez au passif, au passé composé, en commençant par « Senghor » : L'Académie française a élu Senghor en 1983. | — | ["Senghor a été élu à l'Académie française en 1983"] | true | Être élu à l'Académie: the usual phrase, with à (c2-culture-francophone-literatures).
+- c2-review-literatures-ex009 | multiple-choice | Trouvez le double sens du titre « Fête de la mer : le maire se jette à l'eau ». | ["maire et mer se prononcent de la même façon, et se jeter à l'eau veut dire prendre un risque","le maire ne sait pas nager","la fête a lieu dans une piscine"] | ["maire et mer se prononcent de la même façon, et se jeter à l'eau veut dire prendre un risque"] | false | Two puns at once: the homophones maire / mer, and the set phrase read literally at a sea festival (c2-culture-wordplay).
+- c2-review-literatures-ex010 | register-shift | Transformez en registre courant, sans l'expression familière, avec « a eu beaucoup de succès » : Ce roman a fait un tabac. | — | ["Ce roman a eu beaucoup de succès"] | true | Faire un tabac is familiar (c2-culture-wordplay).
+- c2-review-literatures-ex011 | fill-in | Complétez avec le verbe à l'infinitif : Beaucoup d'auteurs aiment ___ de Proust, c'est-à-dire le présenter comme leur modèle. | — | ["se réclamer"] | false | Se réclamer de: to claim to follow a model.
+- c2-review-literatures-ex012 | multiple-choice | Indiquez le sens de « une filiation » entre deux œuvres. | ["un lien de parenté entre elles, l'une venant de l'autre","une traduction de l'une dans l'autre","un procès entre leurs auteurs"] | ["un lien de parenté entre elles, l'une venant de l'autre"] | false | Une filiation: a line of descent, a relationship in which one work comes from another.
+- c2-review-literatures-ex013 | translate | Traduisez (la continuité, une rupture) : This movement is both a continuity and a break. | — | ["Ce mouvement est à la fois une continuité et une rupture"] | true | À la fois: both, at the same time.
+- c2-review-literatures-ex014 | translate | Traduisez (la clarté) : Clarity depends on the writer. | — | ["La clarté dépend de l'écrivain","La clarté dépend de celui qui écrit"] | false | Dépendre de: to depend on.
+- c2-review-literatures-ex015 | reorder | Remettez dans l'ordre ces étapes, de la plus ancienne à la plus récente. | — | ["les Serments de Strasbourg, l'ordonnance de Villers-Cotterêts, la naissance de l'Académie française, l'Éloge de la créolité"] | false | 842, 1539, 1635, 1989.
+- c2-review-literatures-ex016 | writing-task | Rédigez un paragraphe de 50 à 90 mots sur une filiation entre deux œuvres ou deux mouvements de cette unité : dites ce qui continue et ce qui change, et donnez la source de chaque idée. | — | — | false | —

@@ -51,9 +51,9 @@ exercises:
   - id: "c2-mediation-ex002"
     type: "multiple-choice"
     prompt: "Choisissez le relais fidèle de la phrase : « L'eau sera coupée de 8 h à 12 h, du lundi au vendredi. »"
-    options: ["Il n'y aura pas d'eau le matin, du lundi au vendredi.", "Il n'y aura pas d'eau du lundi au vendredi.", "Il n'y aura pas d'eau le matin, tous les jours."]
-    answers: ["Il n'y aura pas d'eau le matin, du lundi au vendredi."]
-    explanation: "The second drops the hours, and the third adds the weekend."
+    options: ["Il n'y aura pas d'eau de 8 h à 12 h, du lundi au vendredi.", "Il n'y aura pas d'eau du lundi au vendredi.", "Il n'y aura pas d'eau de 8 h à 12 h, tous les jours."]
+    answers: ["Il n'y aura pas d'eau de 8 h à 12 h, du lundi au vendredi."]
+    explanation: "Only the first keeps both limits. The second drops the hours, and the third adds the weekend."
   - id: "c2-mediation-ex003"
     type: "multiple-choice"
     prompt: "Indiquez ce que Bertrand ajoute à l'avis : « Le texte dit que la livraison est possible s'il en reste ; à mon avis, il vaut mieux vous inscrire tôt. »"
@@ -73,7 +73,7 @@ exercises:
     explanation: "Le texte ne précise pas: the text doesn't say exactly."
   - id: "c2-mediation-ex006"
     type: "fill-in"
-    prompt: "Complétez : En ___, l'avis dit que l'eau sera coupée le matin."
+    prompt: "Complétez : En ___, l'avis dit que l'eau sera coupée pendant les travaux."
     answers: ["substance"]
     explanation: "En substance: in substance, essentially."
   - id: "c2-mediation-ex007"
@@ -98,8 +98,8 @@ exercises:
     explanation: "Le texte dit que shows that the information comes from the notice, not from you."
   - id: "c2-mediation-ex011"
     type: "reformulation"
-    prompt: "Reformulez avec « en substance », placé en tête : L'avis dit, pour l'essentiel, que l'eau sera coupée le matin."
-    answers: ["En substance, l'avis dit que l'eau sera coupée le matin"]
+    prompt: "Reformulez avec « en substance », placé en tête : L'avis dit, pour l'essentiel, que l'eau sera coupée pendant les travaux."
+    answers: ["En substance, l'avis dit que l'eau sera coupée pendant les travaux"]
     explanation: "En substance replaces pour l'essentiel, at the start of the sentence."
   - id: "c2-mediation-ex012"
     type: "error-correction"
@@ -125,8 +125,8 @@ exercises:
     explanation: "Ne pas préciser si: not to say exactly whether."
   - id: "c2-mediation-ex016"
     type: "translate"
-    prompt: "Traduisez (en substance, l'avis) : In substance, the notice says that the water will be cut off."
-    answers: ["En substance, l'avis dit que l'eau sera coupée"]
+    prompt: "Traduisez (en substance, l'avis) : In substance, the notice says that the water will be cut off during the works."
+    answers: ["En substance, l'avis dit que l'eau sera coupée pendant les travaux"]
     explanation: "En substance: the main point, without every detail."
   - id: "c2-mediation-ex017"
     type: "reorder"
@@ -191,7 +191,7 @@ The listener must always know who is speaking: the text, or you.
 
 As a rule of thumb, relay the whole text first, then add your own opinion or offer, clearly labelled. A judging word slipped into the relay (*la mairie a eu la bonne idée de…*) mixes the two, just like the connotations you learned to spot in Unit 4.
 
-<Example fr="Selon l'avis, l'eau sera coupée le matin ; pour ma part, je peux vous apporter de l'eau." en="According to the notice, the water will be cut off in the morning; for my part, I can bring you some water." />
+<Example fr="Selon l'avis, l'eau sera coupée de 8 h à 12 h, du lundi au vendredi ; pour ma part, je peux vous apporter de l'eau." en="According to the notice, the water will be cut off from 8 am to 12 noon, Monday to Friday; for my part, I can bring you some water." />
 
 <Example fr="Si je résume, il faut s'inscrire avant le jeudi 2 mai." en="To sum up, you have to sign up before Thursday 2 May." />
 
@@ -364,8 +364,8 @@ exercises:
     explanation: "Pour peu que (provided that) takes the subjunctive: se fasse."
   - id: "c2-negotiation-ex011"
     type: "error-correction"
-    prompt: "Corrigez le résumé de l'accord, qui oublie la condition de l'accord, en ajoutant « sous réserve de recevoir vos fichiers avant le 1er mars » : Nous livrerons votre commande en deux fois."
-    answers: ["Nous livrerons votre commande en deux fois, sous réserve de recevoir vos fichiers avant le 1er mars"]
+    prompt: "Corrigez le résumé de l'accord, qui oublie la condition de l'accord, en ajoutant « sous réserve de recevoir vos fichiers définitifs au plus tard le 1er mars » : Nous livrerons votre commande en deux fois."
+    answers: ["Nous livrerons votre commande en deux fois, sous réserve de recevoir vos fichiers définitifs au plus tard le 1er mars"]
     explanation: "A written summary keeps every condition agreed: here, the files before 1 March."
   - id: "c2-negotiation-ex012"
     type: "error-correction"
@@ -488,11 +488,11 @@ The emails below are invented. Hortense Aubry works for a publisher, the Éditio
 
 *Courriel 2, Gaspard Leclerc. Madame, je vous remercie de votre demande. Pour 2 000 exemplaires livrés le 15 mars, notre prix est de 6 000 euros : à notre grand regret, nous ne sommes pas en mesure de descendre à 5 000 euros pour cette date, car il faudrait faire passer votre commande avant d'autres. En revanche, nous pourrions faire un geste : 5 600 euros, à condition que la livraison ait lieu le 22 mars. Dans les deux cas, nos prix sont valables sous réserve de recevoir vos fichiers définitifs au plus tard le 1er mars. Je reste à votre disposition pour en discuter. Cordialement, Gaspard Leclerc, Imprimerie Gauthier.*
 
-*Courriel 3, Hortense Aubry. Monsieur, merci pour votre offre. Nous ne pouvons pas renoncer à la date du 15 mars, puisque le guide doit être présenté au salon. Nous pourrions en revanche faire une concession sur le prix : nous accepterions vos 5 600 euros, pour peu que la livraison se fasse en deux fois, 1 000 exemplaires le 15 mars, pour le salon, et les 1 000 autres le 22 mars. C'est la solution de repli que nous vous proposons. Vous recevrez bien sûr nos fichiers définitifs avant le 1er mars. Bien cordialement, Hortense Aubry.*
+*Courriel 3, Hortense Aubry. Monsieur, merci pour votre offre. Nous ne pouvons pas renoncer à la date du 15 mars, puisque le guide doit être présenté au salon. Nous pourrions en revanche faire une concession sur le prix : nous accepterions vos 5 600 euros, pour peu que la livraison se fasse en deux fois, 1 000 exemplaires le 15 mars, pour le salon, et les 1 000 autres le 22 mars. C'est la solution de repli que nous vous proposons. Vous recevrez bien sûr nos fichiers définitifs au plus tard le 1er mars. Bien cordialement, Hortense Aubry.*
 
 *Courriel 4, Gaspard Leclerc. Madame, nous acceptons votre proposition. Je récapitule donc l'accord : 2 000 exemplaires de votre guide, pour un montant de 5 600 euros, livrés en deux fois, 1 000 exemplaires le 15 mars et 1 000 le 22 mars, sous réserve de recevoir vos fichiers définitifs au plus tard le 1er mars. Je vous remercie de me confirmer ces conditions par retour de courriel, afin que nous puissions acter la commande. Cordialement, Gaspard Leclerc.*
 
-(Email 1, Hortense Aubry. Subject: printing our trail guide. Dear Sir, we would like to have 2,000 copies of our new guide to hiking trails printed, delivered by 15 March at the latest, the date we will be at the Valbrune book fair. Our budget for this order is 5,000 euros. Could you make us an offer? Kind regards, Hortense Aubry, production manager, Éditions du Pré-Vert. / Email 2, Gaspard Leclerc. Dear Madam, thank you for your request. For 2,000 copies delivered on 15 March, our price is 6,000 euros: to our great regret, we are not able to go down to 5,000 euros for that date, because we would have to put your order ahead of others. On the other hand, we could make a gesture: 5,600 euros, provided that delivery takes place on 22 March. In both cases, our prices are valid subject to receiving your final files by 1 March at the latest. I remain at your disposal to discuss it. Regards, Gaspard Leclerc, Imprimerie Gauthier. / Email 3, Hortense Aubry. Dear Sir, thank you for your offer. We can't give up the date of 15 March, since the guide must be presented at the fair. We could, however, make a concession on the price: we would accept your 5,600 euros, provided that delivery is made in two goes, 1,000 copies on 15 March, for the fair, and the other 1,000 on 22 March. That is the fallback option we propose. You will of course receive our final files before 1 March. Kind regards, Hortense Aubry. / Email 4, Gaspard Leclerc. Dear Madam, we accept your proposal. I will therefore sum up the agreement: 2,000 copies of your guide, for an amount of 5,600 euros, delivered in two goes, 1,000 copies on 15 March and 1,000 on 22 March, subject to receiving your final files by 1 March at the latest. Please confirm these terms by return email, so that we can formally record the order. Regards, Gaspard Leclerc.)
+(Email 1, Hortense Aubry. Subject: printing our trail guide. Dear Sir, we would like to have 2,000 copies of our new guide to hiking trails printed, delivered by 15 March at the latest, the date we will be at the Valbrune book fair. Our budget for this order is 5,000 euros. Could you make us an offer? Kind regards, Hortense Aubry, production manager, Éditions du Pré-Vert. / Email 2, Gaspard Leclerc. Dear Madam, thank you for your request. For 2,000 copies delivered on 15 March, our price is 6,000 euros: to our great regret, we are not able to go down to 5,000 euros for that date, because we would have to put your order ahead of others. On the other hand, we could make a gesture: 5,600 euros, provided that delivery takes place on 22 March. In both cases, our prices are valid subject to receiving your final files by 1 March at the latest. I remain at your disposal to discuss it. Regards, Gaspard Leclerc, Imprimerie Gauthier. / Email 3, Hortense Aubry. Dear Sir, thank you for your offer. We can't give up the date of 15 March, since the guide must be presented at the fair. We could, however, make a concession on the price: we would accept your 5,600 euros, provided that delivery is made in two goes, 1,000 copies on 15 March, for the fair, and the other 1,000 on 22 March. That is the fallback option we propose. You will of course receive our final files by 1 March at the latest. Kind regards, Hortense Aubry. / Email 4, Gaspard Leclerc. Dear Madam, we accept your proposal. I will therefore sum up the agreement: 2,000 copies of your guide, for an amount of 5,600 euros, delivered in two goes, 1,000 copies on 15 March and 1,000 on 22 March, subject to receiving your final files by 1 March at the latest. Please confirm these terms by return email, so that we can formally record the order. Regards, Gaspard Leclerc.)
 
 <VocabTable group="glossary" />
 
@@ -518,12 +518,12 @@ After email 2, Hortense prepares her answer with her colleague Yann. They use *t
 - *On accepte ses 5 600 euros, mais avec une livraison en deux fois : 1 000 exemplaires le 15 mars, et les 1 000 autres le 22.* (We accept his 5,600 euros, but with delivery in two goes: 1,000 copies on 15 March, and the other 1,000 on the 22nd.)
 - *Pour le salon, 1 000 exemplaires, c'est bien assez.* (For the fair, 1,000 copies is quite enough.)
 - *C'est ce que je pense. Et dans le courriel, j'écrirai « solution de repli », pas « plan B ».* (That's what I think. And in the email, I'll write "solution de repli", not "plan B".)
-- *Et les fichiers ? Il les veut avant le 1er mars.* (And the files? He wants them before 1 March.)
-- *Je le lui confirme : il les aura avant le 1er mars.* (I'll confirm it to him: he'll have them before 1 March.)
+- *Et les fichiers ? Il les veut au plus tard le 1er mars.* (And the files? He wants them by 1 March at the latest.)
+- *Je le lui confirme : il les aura au plus tard le 1er mars.* (I'll confirm it to him: he'll have them by 1 March at the latest.)
 - *Parfait. S'il accepte, il faudra qu'il récapitule tout par écrit.* (Perfect. If he accepts, he'll have to sum everything up in writing.)
 
 <Callout type="warning" title="The summary repeats the offers, it doesn't improve them">
-  In a final email, learners sometimes round a figure or drop a condition to sound more positive: *nous livrerons 2 000 exemplaires le 15 mars pour 5 600 euros*. That isn't what was agreed. Repeat every term in the words of the earlier emails: **1 000 exemplaires le 15 mars et 1 000 le 22 mars, pour un montant de 5 600 euros, sous réserve de recevoir vos fichiers avant le 1er mars**.
+  In a final email, learners sometimes round a figure or drop a condition to sound more positive: *nous livrerons 2 000 exemplaires le 15 mars pour 5 600 euros*. That isn't what was agreed. Repeat every term in the words of the earlier emails: **1 000 exemplaires le 15 mars et 1 000 le 22 mars, pour un montant de 5 600 euros, sous réserve de recevoir vos fichiers définitifs au plus tard le 1er mars**.
 </Callout>
 
 <Callout type="tip" title="Keep a table of offers">
@@ -930,7 +930,7 @@ You know *une question piège*, *interroger* and *esquiver* from <LessonLink id=
 
 <VocabTable group="types" />
 
-*Une question ouverte* (an open question) asks for a story, a view or an explanation: *comment…?*, *pourquoi…?*, *qu'est-ce qui…?*. *Une question fermée* (a closed question) is answered by yes, no or a fact: *vous travaillez seul ?*, *depuis quand ?*.
+*Une question ouverte* (an open question) asks for a story, a view or an explanation: *comment…?*, *pourquoi…?*, *qu'est-ce qui…?*. *Une question fermée* (a closed question) is answered by yes, no or a fact: *vous travaillez seul ?*, *depuis combien de temps ?* (a duration: *depuis douze ans*).
 
 Both are useful. As a rule of thumb, open an interview with an open question, which lets the person settle in and talk, and use closed questions to check a fact. An interview made only of closed questions gets short answers and tells you what you already knew.
 
@@ -1006,7 +1006,7 @@ The interview below is invented. Clément Vidal, a journalist for a local magazi
 
 *Annick Brunel : Oui, deux.*
 
-*Clément Vidal : Depuis quand avez-vous votre propre atelier ?*
+*Clément Vidal : Depuis combien de temps avez-vous votre propre atelier ?*
 
 *Annick Brunel : Depuis douze ans. Avant, j'ai travaillé pour un autre ébéniste, pendant plusieurs années.*
 
@@ -1042,7 +1042,7 @@ Clément Vidal's notes, written after the interview, show what each question was
 
 - **The opening** is an open question (*comment êtes-vous devenue ébéniste ?*), so that she can tell her story in her own words.
 - **The follow-up** picks up her own words, *par hasard*, and asks for the facts behind them. It gets the best story of the interview: the old table.
-- **The closed questions** (*vous formez des apprentis ?*, *depuis quand…?*) check facts, and get them: two apprentices, twelve years.
+- **The closed questions** (*vous formez des apprentis ?*, *depuis combien de temps…?*) check facts, and get them: two apprentices, twelve years.
 - **A second open question** (*à quoi ressemble une journée ici ?*) gets a description in her own words, and the reason she loves her trade.
 - **The general answer** (*une question de caractère*) sidesteps the question. *Je me permets d'insister* and *concrètement* press once, politely, and get a precise answer: the first failed piece.
 - **The neutral question** about the future: he had first written *le métier va disparaître, n'est-ce pas ?*, a leading question, and replaced it.
@@ -1171,7 +1171,7 @@ exercises:
   - id: "c2-review-mediation-ex016"
     type: "writing-task"
     prompt: "Rédigez le message neutre (40 à 80 mots) que Josiane envoie à Lionel pour lui relayer le point de vue de Mireille, sans aucun mot qui juge, et sans rien ajouter."
-    model: "Bonjour Lionel, je vous relaie ce que Mireille m'a dit. Elle travaille de nuit le vendredi, et elle dort le samedi matin. Depuis un mois, le bruit de vos outils, dès huit heures, la réveille. Elle vous demande qu'il n'y ait pas de bruit le samedi avant midi. Je vous propose d'en parler tous les trois. Josiane"
+    model: "Bonjour Lionel, je vous relaie ce que Mireille m'a dit. Elle travaille de nuit le vendredi, et elle dort le samedi matin. Depuis un mois, le bruit de vos outils, dès huit heures, la gêne. Elle vous demande qu'il n'y ait pas de bruit le samedi avant midi. Je vous propose d'en parler tous les trois. Josiane"
     checklist: ["Did you keep every fact (her nights, the time, since when)?", "Did you keep her request (no noise before noon)?", "Did you attribute everything to Mireille (elle m'a dit, elle demande)?", "Did you leave out every judging word (insupportable)?", "Is your only addition clearly yours (a proposal to talk)?"]
     wordTarget: [40, 80]
 ---
@@ -1287,4 +1287,4 @@ The writing task in the exercises asks you to write the message that Josiane cou
 
 ## What's next
 
-The next unit is about the French language and its literatures. It starts with the lesson on a short history of French.
+The next unit is about the French language and its literatures. It starts with <LessonLink id="c2-culture-history-of-french" text="the lesson on a short history of French" />.

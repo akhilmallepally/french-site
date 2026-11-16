@@ -54,6 +54,8 @@ excellent excellente présentation action actions ambiance changement opposition
 export const NEW_MEANINGS: Record<string, string> = {
   "quand même": "C1 (c1-spoken-discourse-markers, as quand même !): indignation or insistence at the end of a sentence. b2-concession-opposition taught all the same.",
   "un bilan": "B2 (b2-conditionnel-passe): a toll, in the news. b1-review-final taught a stock-take.",
+  "un salon": "C2 (c2-culture-wordplay): a fair, a trade show. c1-culture-enlightenment taught a literary salon.",
+  "une ordonnance": "C2 (c2-culture-history-of-french): a royal or government ordinance. a2-at-the-doctor taught a prescription.",
   "un entretien": "B2 (b2-reported-speech-past): a media interview. b1-cover-letter taught a job interview.",
   "le marché": "B2 (b2-economy-and-business): the market, in economics. a1-places-in-town taught a street market.",
   "près de": "B2 (b2-presenting-data): nearly, with figures. a1-prepositions-of-place taught near.",

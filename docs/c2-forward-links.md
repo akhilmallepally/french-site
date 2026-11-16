@@ -10,6 +10,8 @@ Restored in Prompt 46: c2-review-words → c2-legal-french (What's next).
 
 Restored in Prompt 47: c2-review-writing → c2-mediation (What's next).
 
+Restored in Prompt 48: c2-review-mediation → c2-culture-history-of-french (What's next).
+
 | Lesson | Text | Target |
 |---|---|---|
-| c2-review-mediation | What's next: "the lesson on a short history of French" | c2-culture-history-of-french |
+| c2-review-literatures | What's next: "the lesson on writing in a style" | c2-pastiche |
