@@ -1,6 +1,13 @@
 # C2 Unit 3 plan: Specialized French
 
-Status: plan only. Rules: the "C2 conventions" in CLAUDE.md.
+Status: **written in Prompt 46.** Rules: the "C2 conventions" in CLAUDE.md.
+
+Changes made while writing (also in docs/syllabus.md):
+- Lesson 14: *nonobstant* is a new entry here (lesson 14 comes before c2-revising-your-style, lesson 29, which now recaps it); *s'engager à*, *être tenu de*, *sous réserve de*, *une échéance*, *le locataire* are recapped. The Cour de cassation's direct style is given as "since 2019" only. Prerequisites: c1-register-shifting replaces a later lesson.
+- Lesson 15: *une maladie chronique*, *un traitement*, *une ordonnance* and *une racine savante* are recapped; a consultation summary was added as a second model. The feminine *aiguë* / *aigüe* is tested by multiple choice only.
+- Lesson 16: *une hypothèse*, *un échantillon*, *un biais*, *il ressort que*, *tenir compte de* are recapped; *la vulgarisation* is left to lesson 18, and the popular version is called *grand public*.
+- Lesson 17: *une pièce justificative* is recapped from c2-polysemy, *un justificatif* from B1; the deadline (a month) belongs to the invented administration.
+- Lesson 18: the situation is an extension requested from the town hall of lesson 17 after an appendectomy; the tenancy was dropped because it played no part in the facts.
 
 Four registers that C2 users read and sometimes write. The lessons teach reading first: how these texts are built, their fixed phrases, and how to restate them in plain French. Facts about institutions and procedures are general and neutral, with no figures and no legal advice.
 

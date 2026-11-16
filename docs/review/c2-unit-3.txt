@@ -1,0 +1,1409 @@
+===== content/lessons/c2/legal-french.mdx =====
+---
+id: "c2-legal-french"
+title: "Legal French"
+description: "Read a contract and a court decision summary, and restate them plainly: clauses and parties, obligations (s'engager à, être tenu de, the present and future of obligation), conditions and exceptions (sous réserve de, sous peine de, à défaut de, nonobstant, ledit), ending a contract (résilier, le préavis, l'échéance, à titre gracieux)."
+level: "C2"
+unit: "Specialized French"
+order: 14
+type: "vocabulary"
+tags: ["vocabulary", "legal French", "contract", "register", "formal letter"]
+prerequisites: ["c1-law-and-institutions", "c1-formal-correspondence", "c1-register-shifting"]
+related: ["c2-revising-your-style", "c2-administrative-french", "c2-review-specialized"]
+vocab:
+  - { id: "c2-legal-french-v001", group: "contract", fr: "un bail", pron: "uhn BAH-y", en: "a lease", note: "Plural: des baux." }
+  - { id: "c2-legal-french-v002", group: "contract", fr: "une clause", pron: "ewn KLOHZ", en: "a clause" }
+  - { id: "c2-legal-french-v003", group: "contract", fr: "les parties (f.)", pron: "lay par-TEE", en: "the parties (to a contract)" }
+  - { id: "c2-legal-french-v004", group: "contract", fr: "le bailleur / la bailleresse", pron: "luh bah-YUHR / lah bah-YRESS", en: "the landlord, the lessor" }
+  - { id: "c2-legal-french-v005", group: "contract", fr: "le présent contrat", pron: "luh pray-ZAHN kohn-TRAH", en: "this contract (legal style)" }
+  - { id: "c2-legal-french-v006", group: "contract", fr: "les conditions générales (f.)", pron: "lay kohn-dee-SYOHN zhay-nay-RAHL", en: "the terms and conditions" }
+  - { id: "c2-legal-french-v007", group: "conditions", fr: "sous peine de", pron: "soo PEN duh", en: "on pain of, or else (a penalty)" }
+  - { id: "c2-legal-french-v008", group: "conditions", fr: "à défaut de", pron: "ah day-FOH duh", en: "failing, in the absence of" }
+  - { id: "c2-legal-french-v009", group: "conditions", fr: "nonobstant", pron: "noh-nob-STAHN", en: "notwithstanding (very formal)", note: "Nonobstant ce qui précède: notwithstanding the above." }
+  - { id: "c2-legal-french-v010", group: "conditions", fr: "une exception", pron: "ew-nek-sep-SYOHN", en: "an exception" }
+  - { id: "c2-legal-french-v011", group: "conditions", fr: "ledit / ladite", pron: "luh-DEE / lah-DEET", en: "the said (the one just mentioned)", note: "Plural: lesdits, lesdites; with à and de: audit, dudit." }
+  - { id: "c2-legal-french-v012", group: "conditions", fr: "à ses frais", pron: "ah say FREH", en: "at his or her own expense" }
+  - { id: "c2-legal-french-v013", group: "ending", fr: "résilier (un contrat)", pron: "ray-zee-LYAY", en: "to terminate (a contract)" }
+  - { id: "c2-legal-french-v014", group: "ending", fr: "la résiliation", pron: "lah ray-zee-lyah-SYOHN", en: "termination (of a contract)" }
+  - { id: "c2-legal-french-v015", group: "ending", fr: "un préavis", pron: "uhn pray-ah-VEE", en: "notice (given before ending a contract)" }
+  - { id: "c2-legal-french-v016", group: "ending", fr: "à titre gracieux", pron: "ah TEE-truh grah-SYUH", en: "free of charge (formal)" }
+  - { id: "c2-legal-french-v017", group: "ending", fr: "gratuitement", pron: "grah-twee-tuh-MAHN", en: "free of charge (everyday)" }
+  - { id: "c2-legal-french-v018", group: "ending", fr: "une lettre recommandée", pron: "ewn LET-ruh ruh-koh-mahn-DAY", en: "a registered letter" }
+  - { id: "c2-legal-french-v019", group: "courts", fr: "un arrêt", pron: "uh-nah-REH", en: "a judgment (of a higher court)" }
+  - { id: "c2-legal-french-v020", group: "courts", fr: "attendu que", pron: "ah-tahn-DEW kuh", en: "whereas (the old opening of each reason in a judgment)" }
+  - { id: "c2-legal-french-v021", group: "courts", fr: "le style direct", pron: "luh steel dee-REKT", en: "the direct style (plain sentences in a judgment)" }
+  - { id: "c2-legal-french-v022", group: "glossary", fr: "entretenir (un logement)", pron: "ahn-truh-tuh-NEER", en: "to maintain, to look after (a home)" }
+  - { id: "c2-legal-french-v023", group: "glossary", fr: "un équipement", pron: "uh-nay-keep-MAHN", en: "a piece of equipment, a fitting" }
+  - { id: "c2-legal-french-v024", group: "glossary", fr: "un dommage", pron: "uhn doh-MAHZH", en: "damage" }
+  - { id: "c2-legal-french-v025", group: "glossary", fr: "survenu (survenir)", pron: "sewr-vuh-NEW", en: "occurred (to occur)" }
+  - { id: "c2-legal-french-v026", group: "glossary", fr: "la mise à disposition", pron: "lah meez ah dees-poh-zee-SYOHN", en: "making available (for use)" }
+  - { id: "c2-legal-french-v027", group: "glossary", fr: "consentie (consentir)", pron: "kohn-sahn-TEE", en: "granted (to grant, to consent)" }
+  - { id: "c2-legal-french-v028", group: "glossary", fr: "abîmé (abîmer)", pron: "ah-bee-MAY", en: "damaged (to damage)" }
+  - { id: "c2-legal-french-v029", group: "glossary", fr: "la date anniversaire", pron: "lah daht ah-nee-vehr-SEHR", en: "the anniversary date" }
+  - { id: "c2-legal-french-v030", group: "glossary", fr: "un dégât des eaux", pron: "uhn day-GAH day-ZOH", en: "water damage" }
+  - { id: "c2-legal-french-v031", group: "glossary", fr: "conformément à", pron: "kohn-for-may-MAHN ah", en: "in accordance with" }
+exercises:
+  - id: "c2-legal-french-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « sous peine de » dans la phrase : Le locataire doit prévenir le bailleur, sous peine de payer seul les réparations."
+    options: ["or else he will have to", "thanks to", "at the request of"]
+    answers: ["or else he will have to"]
+    explanation: "Sous peine de introduces what happens if the obligation isn't met: a penalty."
+  - id: "c2-legal-french-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « à titre gracieux » dans la phrase : Le garage est mis à disposition à titre gracieux."
+    options: ["free of charge", "as a favour that must be returned", "for a limited time"]
+    answers: ["free of charge"]
+    explanation: "À titre gracieux is the formal way of saying gratuitement."
+  - id: "c2-legal-french-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « ledit bailleur » dans un contrat."
+    options: ["le bailleur dont on vient de parler", "n'importe quel bailleur", "le locataire"]
+    answers: ["le bailleur dont on vient de parler"]
+    explanation: "Ledit, ladite: the one just mentioned. Legal French uses it to avoid any doubt about who is meant."
+  - id: "c2-legal-french-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens du présent dans la phrase : Le locataire paie le loyer le premier de chaque mois."
+    options: ["an obligation", "a habit described", "a wish"]
+    answers: ["an obligation"]
+    explanation: "In a contract, the present (and the future) often state an obligation: the tenant must pay."
+  - id: "c2-legal-french-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le style des arrêts de la Cour de cassation depuis 2019."
+    options: ["a direct style, in separate sentences", "a single sentence of attendus", "a style in English"]
+    answers: ["a direct style, in separate sentences"]
+    explanation: "Since 2019, the Cour de cassation has written its decisions in a direct style instead of the single sentence built on attendu que."
+  - id: "c2-legal-french-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Pour mettre fin à un contrat, on le ___ (verbe à l'infinitif)."
+    answers: ["résilier"]
+    explanation: "Résilier un contrat: to terminate it. The noun is la résiliation."
+  - id: "c2-legal-french-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Avant de résilier le bail, le locataire doit envoyer un ___ au bailleur."
+    answers: ["préavis"]
+    explanation: "Un préavis: the notice given before a contract ends."
+  - id: "c2-legal-french-ex008"
+    type: "register-shift"
+    prompt: "Transformez en français courant (« prêté » et « gratuitement ») : Le garage est mis à disposition à titre gracieux."
+    answers: ["Le garage est prêté gratuitement", "Le garage vous est prêté gratuitement"]
+    explanation: "À titre gracieux becomes gratuitement, and mis à disposition becomes prêté."
+  - id: "c2-legal-french-ex009"
+    type: "register-shift"
+    prompt: "Transformez en français courant, en commençant par « Vous pouvez mettre fin au bail quand vous voulez » et en gardant la condition avec « à condition de » : Le bail peut être résilié à tout moment, sous réserve d'un préavis."
+    strictAccents: true
+    answers: ["Vous pouvez mettre fin au bail quand vous voulez, à condition de prévenir à l'avance", "Vous pouvez mettre fin au bail quand vous voulez, à condition de prévenir le propriétaire à l'avance", "Vous pouvez mettre fin au bail quand vous voulez, à condition de prévenir le bailleur à l'avance", "Vous pouvez mettre fin au bail quand vous voulez, à condition de donner un préavis", "Vous pouvez mettre fin au bail quand vous voulez, à condition d'envoyer un préavis"]
+    explanation: "The plain version keeps the condition: sous réserve d'un préavis becomes à condition de prévenir à l'avance."
+  - id: "c2-legal-french-ex010"
+    type: "register-shift"
+    prompt: "Transformez en français juridique, avec « est tenu de » : Le locataire doit signaler tout dommage."
+    answers: ["Le locataire est tenu de signaler tout dommage"]
+    explanation: "Être tenu de is the legal way of saying devoir."
+  - id: "c2-legal-french-ex011"
+    type: "error-correction"
+    prompt: "Corrigez la version simplifiée, qui oublie une condition (ajoutez-la avec « à condition de prévenir ») : Article : « Le bail peut être résilié à tout moment, sous réserve d'un préavis. » Version : Vous pouvez quitter le logement quand vous voulez."
+    strictAccents: true
+    answers: ["Vous pouvez quitter le logement quand vous voulez, à condition de prévenir le propriétaire à l'avance", "Vous pouvez quitter le logement quand vous voulez, à condition de prévenir à l'avance", "Vous pouvez quitter le logement quand vous voulez, à condition de prévenir le bailleur à l'avance"]
+    explanation: "A plain version keeps every condition of the original: the notice can't disappear."
+  - id: "c2-legal-french-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec « à défaut de » + nom : Si le locataire ne paie pas, le bail sera résilié."
+    strictAccents: true
+    answers: ["À défaut de paiement, le bail sera résilié", "Le bail sera résilié à défaut de paiement"]
+    explanation: "À défaut de + noun: failing, in the absence of."
+  - id: "c2-legal-french-ex013"
+    type: "translate"
+    prompt: "Traduisez (résilier, le présent contrat) : Either party may terminate this contract."
+    strictAccents: true
+    answers: ["Chacune des parties peut résilier le présent contrat", "Chaque partie peut résilier le présent contrat", "L'une ou l'autre des parties peut résilier le présent contrat"]
+    explanation: "Les parties, le présent contrat, résilier: three markers of contract style."
+  - id: "c2-legal-french-ex014"
+    type: "translate"
+    prompt: "Traduisez (une lettre recommandée) : « Notice must be sent by registered letter. »"
+    answers: ["Le préavis doit être envoyé par lettre recommandée", "Le préavis doit être adressé par lettre recommandée", "Un préavis doit être envoyé par lettre recommandée", "Un préavis doit être adressé par lettre recommandée"]
+    explanation: "Par lettre recommandée: by registered letter."
+  - id: "c2-legal-french-ex015"
+    type: "translate"
+    prompt: "Traduisez (le bailleur, à ses frais) : The landlord will carry out the repairs at his own expense."
+    strictAccents: true
+    answers: ["Le bailleur effectuera les réparations à ses frais", "Le bailleur fera les réparations à ses frais"]
+    explanation: "À ses frais: at his or her own expense. Effectuer is the precise verb; faire is also correct."
+  - id: "c2-legal-french-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : The tenant undertakes to look after the accommodation."
+    words: ["Le", "locataire", "s'engage", "à", "entretenir", "le", "logement"]
+    answers: ["Le locataire s'engage à entretenir le logement"]
+    explanation: "S'engager à + infinitive: the usual way a contract states an obligation."
+  - id: "c2-legal-french-ex017"
+    type: "writing-task"
+    prompt: "Expliquez à un ami, en français courant (50 à 90 mots), ce que dit l'article 8 du bail, sans oublier aucune condition."
+    model: "L'article 8 dit deux choses. D'abord, tu peux mettre fin au bail quand tu veux, mais tu dois prévenir le propriétaire à l'avance, par lettre recommandée. Ensuite, pour le garage, c'est différent : le propriétaire te le prête gratuitement, et ce prêt peut s'arrêter chaque année, à la date anniversaire du bail."
+    checklist: ["Did you keep the right to leave at any time?", "Did you keep the condition (notice, by registered letter)?", "Did you say that the garage is free and that this can end each year?", "Did you use everyday French (tu, no legal terms)?", "Did you add nothing that the article doesn't say?"]
+    wordTarget: [50, 90]
+---
+
+By the end of this lesson you'll be able to read a French contract and a court decision summary, recognize how they state obligations and conditions, and restate a clause in plain French without losing anything.
+
+## What you already know
+
+You know the courts, *en vertu de*, *abroger*, *former un recours* and *être tenu de* from <LessonLink id="c1-law-and-institutions" text="the lesson on law and institutions" />, and the layout of a formal letter from <LessonLink id="c1-formal-correspondence" text="the lesson on formal correspondence" />. You know *s'engager à* from <LessonLink id="b2-reported-speech-past" text="the lesson on reported speech in the past" />, *sous réserve de* from <LessonLink id="c1-advanced-connectors" text="the lesson on advanced connectors" />, *le locataire* and *le propriétaire* from <LessonLink id="c1-register-shifting" text="the lesson on register shifting" />, and *une échéance* from <LessonLink id="b2-futur-anterieur" text="the lesson on the futur antérieur" />.
+**All the legal texts in this lesson are invented** for the lesson: the lease, its clauses, the letter and the people. They show how legal French is built; they don't describe the law, and they aren't legal advice.
+
+## How a contract is built
+
+<VocabTable group="contract" />
+
+A French contract, such as *un bail* (a lease), is divided into articles, and each article contains one or more *clauses*. It names *les parties* (the parties): here *le bailleur* (the landlord) and *le locataire* (the tenant). It refers to itself as *le présent contrat* or *le présent bail* (this contract, this lease). A shop or a website calls its contract *les conditions générales* (the terms and conditions).
+
+<Example fr="Le présent bail est conclu entre le bailleur et le locataire nommés ci-dessous." en="This lease is made between the landlord and the tenant named below." />
+
+<Example fr="Avant de payer, lisez les conditions générales du site." en="Before you pay, read the website's terms and conditions." />
+
+## Stating an obligation
+
+A contract states what each party must do. You know two verbs for it: *s'engager à* (to undertake to) and *être tenu de* (to be required to). Legal French also uses two tenses with the force of an obligation:
+
+- **The present**: *le locataire paie le loyer le premier de chaque mois* doesn't describe a habit; it states a duty.
+- **The future**: *le bailleur effectuera les réparations* means he must carry them out.
+
+<Example fr="Le locataire est tenu de signaler sans délai tout dommage survenu dans le logement." en="The tenant is required to report without delay any damage that occurs in the accommodation." />
+
+## Conditions, penalties and exceptions
+
+<VocabTable group="conditions" />
+
+The most important words in a clause are often the small ones.
+
+- **Sous réserve de** sets a condition: *sous réserve d'un préavis* (provided notice is given).
+- **Sous peine de** sets a penalty if the obligation isn't met: *sous peine de payer seul les réparations*.
+- **À défaut de** says what happens when something is missing: *à défaut de paiement* (failing payment).
+- **Nonobstant** (notwithstanding) introduces an exception: *nonobstant ce qui précède* (notwithstanding the above).
+- **Ledit / ladite** (the said) points back to what was just named, so that no other person or thing can be meant.
+
+Each party may also act *à ses frais* (at its own expense). When you read a clause, find these words first: they tell you when the obligation applies, and what happens if it isn't met.
+
+<Example fr="Les réparations sont effectuées par le bailleur à ses frais, à défaut d'accord contraire." en="The repairs are carried out by the landlord at his own expense, failing any agreement to the contrary." />
+
+## Ending a contract
+
+<VocabTable group="ending" />
+
+To *résilier un contrat* is to terminate it; the noun is *la résiliation*. In many contracts, ending it requires *un préavis* (notice), sometimes sent by *une lettre recommandée* (a registered letter), as in the lease below. *L'échéance*, which you know as a deadline, is in a contract the date when a payment is due or a period ends. Something given *à titre gracieux* is given free of charge.
+
+<Example fr="La mise à disposition du garage est consentie à titre gracieux." en="The use of the garage is granted free of charge." />
+
+## Court decisions
+
+<VocabTable group="courts" />
+
+A higher court such as the Cour de cassation gives *un arrêt* (a judgment). For a long time, the Cour de cassation's judgments were written as one very long sentence in which each reason began with *attendu que* (whereas). Since 2019, the Cour de cassation has written its decisions in *le style direct* (the direct style), in separate sentences.
+
+A summary of a decision usually gives three things, in this order: the facts, the legal question, and the court's answer. You'll still meet *attendu que* in older decisions and in texts that quote them.
+
+<Example fr="L'arrêt rappelle d'abord les faits, puis la question posée, et enfin la réponse donnée par la Cour." en="The judgment first recalls the facts, then the question raised, and finally the answer given by the Court." />
+
+## Restating a clause plainly
+
+Legal French is precise because it leaves nothing out. A plain version must be just as complete: it changes the words, never the content. As a rule of thumb:
+
+- **Keep every obligation**: who must do what.
+- **Keep every condition and every penalty**: *sous réserve de* becomes *à condition de*; *sous peine de* becomes *sinon*.
+- **Keep every exception**: *nonobstant* becomes *par ailleurs* or *cependant*, followed by the exception.
+- **Add nothing**: no advice, no opinion about whether the clause is fair.
+
+## The model: a lease clause and its plain version
+
+The extract below is from an invented lease. A plain version, written for the tenant, follows it.
+
+*Article 7 – Entretien et réparations. Le locataire s'engage à entretenir le logement et ses équipements en bon état. Il est tenu de signaler sans délai au bailleur tout dommage survenu dans le logement, sous peine de devoir en supporter seul les conséquences. Ledit bailleur s'engage, quant à lui, à effectuer à ses frais les réparations qui ne relèvent pas de l'entretien courant.*
+
+*Article 8 – Résiliation. Le présent bail peut être résilié par le locataire à tout moment, sous réserve d'un préavis adressé au bailleur par lettre recommandée. Nonobstant ce qui précède, la mise à disposition du garage est consentie à titre gracieux et peut prendre fin à chaque échéance annuelle du bail.*
+
+*Version simple. Article 7. Vous devez garder le logement et ses équipements en bon état. Si quelque chose est abîmé, vous devez prévenir le propriétaire tout de suite ; sinon, vous devrez payer seul les conséquences. De son côté, le propriétaire doit faire et payer lui-même les réparations qui ne font pas partie de l'entretien normal. Article 8. Vous pouvez mettre fin au bail quand vous voulez, à condition de prévenir le propriétaire à l'avance par lettre recommandée. Par ailleurs, le garage vous est prêté gratuitement, et ce prêt peut s'arrêter chaque année, à la date anniversaire du bail.*
+
+(Article 7 – Maintenance and repairs. The tenant undertakes to keep the accommodation and its equipment in good condition. He is required to report without delay to the landlord any damage that occurs in the accommodation, on pain of having to bear the consequences alone. The said landlord, for his part, undertakes to carry out at his own expense the repairs that don't fall under routine maintenance. Article 8 – Termination. This lease may be terminated by the tenant at any time, subject to notice sent to the landlord by registered letter. Notwithstanding the above, the use of the garage is granted free of charge and may end at each annual due date of the lease. / Plain version. Article 7. You must keep the accommodation and its equipment in good condition. If something is damaged, you must tell the landlord straight away; otherwise, you'll have to pay for the consequences alone. For his part, the landlord must carry out and pay for himself the repairs that aren't part of normal maintenance. Article 8. You can end the lease whenever you like, provided you tell the landlord in advance by registered letter. Also, the garage is lent to you free of charge, and this loan can stop every year, on the anniversary of the lease.)
+
+## The model: a letter to a tenant
+
+The letter below is invented, from the landlord to the tenant, after the tenant reported water damage. It has the full layout of a formal letter.
+
+*Julien Arnaud, 4 rue des Lilas, Valbrune*
+
+*Madame Inès Ferrand, 12 avenue de la Gare, Valbrune*
+
+*Valbrune, le 3 mars*
+
+*Objet : dégât des eaux dans la salle de bains*
+
+*Madame, en réponse à votre courriel du 1er mars, je vous confirme que le dégât des eaux survenu dans la salle de bains ne relève pas de l'entretien courant. Conformément à l'article 7 du bail, je ferai donc effectuer les réparations à mes frais dans les meilleurs délais. Je vous remercie de m'avoir prévenu sans délai, comme le prévoit ledit article.*
+
+*Veuillez agréer, Madame, mes salutations distinguées.*
+
+*Julien Arnaud*
+
+(Julien Arnaud, 4 rue des Lilas, Valbrune. Mrs Inès Ferrand, 12 avenue de la Gare, Valbrune. Valbrune, 3 March. Subject: water damage in the bathroom. Madam, in reply to your email of 1 March, I confirm that the water damage that occurred in the bathroom doesn't fall under routine maintenance. In accordance with article 7 of the lease, I will therefore have the repairs carried out at my own expense as soon as possible. Thank you for informing me without delay, as the said article requires. Yours faithfully, Julien Arnaud.)
+
+<VocabTable group="glossary" />
+
+## How the texts work
+
+- **Obligations**: *s'engage à*, *est tenu de*, and *peut être résilié* for a right.
+- **Conditions and penalties**: *sous réserve d'un préavis* becomes *à condition de prévenir*; *sous peine de* becomes *sinon*.
+- **The exception**: *nonobstant ce qui précède* becomes *par ailleurs*, and the exception (the garage) is kept, with its limit (*chaque échéance annuelle*, the anniversary).
+- **Pointing back**: *ledit bailleur* becomes *le propriétaire*, since a plain text has only one landlord to mention.
+- **Nothing added**: the plain version doesn't say whether the clause is fair or what the tenant should do.
+- **The letter** has the sender, the recipient, the place and date, *objet*, the salutation and the closing formula, and it applies article 7 in a formal register (*conformément à*, *dans les meilleurs délais*).
+
+## En français
+
+Inès Ferrand reads her lease with her friend Hugo, who is a law student. They use *tu*.
+
+- *Hugo, tu peux m'expliquer l'article 7 de mon bail ? « Sous peine de devoir en supporter seul les conséquences »…* (Hugo, can you explain article 7 of my lease to me? "Sous peine de devoir en supporter seul les conséquences"…)
+- *Ça veut dire que si tu ne préviens pas le propriétaire quand quelque chose est abîmé, tu paies seule.* (It means that if you don't tell the landlord when something is damaged, you pay on your own.)
+- *Et « ledit bailleur », c'est qui ?* (And "ledit bailleur", who's that?)
+- *Le bailleur dont on vient de parler : ton propriétaire. Ledit veut dire « celui-là ».* (The landlord just mentioned: your landlord. Ledit means "that one".)
+- *D'accord. Pour le dégât des eaux, c'est lui qui paie ?* (OK. For the water damage, is he the one who pays?)
+- *Oui, s'il ne s'agit pas d'entretien courant : il s'engage à faire ces réparations à ses frais.* (Yes, if it isn't routine maintenance: he undertakes to do those repairs at his own expense.)
+- *Il m'a répondu par lettre, et il dit justement « conformément à l'article 7 ».* (He replied by letter, and he does say "conformément à l'article 7".)
+- *Tu vois, il respecte la clause. Et l'article 8 ?* (You see, he's respecting the clause. And article 8?)
+- *« Nonobstant ce qui précède, la mise à disposition du garage est consentie à titre gracieux. »* ("Notwithstanding the above, the use of the garage is granted free of charge.")
+- *À titre gracieux, c'est gratuitement. Mais ce prêt peut prendre fin à chaque échéance annuelle.* (À titre gracieux means free of charge. But this loan can end at each annual due date.)
+- *Et si je veux partir ?* (And if I want to leave?)
+- *Tu peux résilier le bail quand tu veux, sous réserve d'un préavis par lettre recommandée.* (You can terminate the lease whenever you like, subject to notice by registered letter.)
+
+<Callout type="warning" title="Keep every condition in a plain version">
+  When they simplify a legal text, learners often drop the small words: *vous pouvez partir quand vous voulez* forgets *sous réserve d'un préavis*. A plain version that loses a condition changes the meaning. Keep it in everyday words: **vous pouvez partir quand vous voulez, à condition de prévenir le propriétaire à l'avance**.
+</Callout>
+
+<Callout type="tip" title="Underline the small words first">
+  Before you read a clause for its meaning, underline every *sous réserve de*, *sous peine de*, *à défaut de*, *nonobstant* and *sauf*. These few words decide when the obligation applies and what happens if it isn't met. Once they're marked, the rest of the sentence is usually easy to follow.
+</Callout>
+
+## En résumé
+
+Un contrat, comme un bail, se divise en articles et en clauses, et il nomme les parties, par exemple le bailleur et le locataire. Il parle de lui-même en disant le présent contrat. Pour dire ce que chaque partie doit faire, il emploie s'engager à, être tenu de, et souvent le présent ou le futur, qui expriment alors une obligation. Les petits mots sont essentiels : sous réserve de pose une condition, sous peine de dit ce qui arrive si on ne fait pas ce qu'on doit faire, à défaut de dit ce qui se passe quand une chose manque, et nonobstant annonce une exception. Ledit montre qu'on parle de la personne ou de la chose qu'on vient de nommer. Pour mettre fin à un contrat, on le résilie, souvent après un préavis envoyé par lettre recommandée, et ce qui est donné à titre gracieux est gratuit. Depuis 2019, la Cour de cassation rédige ses arrêts dans un style direct. Enfin, une version simple d'une clause garde toutes les obligations et toutes les conditions.
+
+## What's next
+
+Next, <LessonLink id="c2-medical-french" text="the lesson on medical French" /> turns to another specialized register: the patient leaflet and the consultation summary.
+
+===== content/lessons/c2/medical-french.mdx =====
+---
+id: "c2-medical-french"
+title: "Medical French"
+description: "Read a patient leaflet and a consultation summary, and restate them plainly: la notice, la posologie, les contre-indications, les effets indésirables; un antécédent, un diagnostic and diagnostiquer, un pronostic; bénin / bénigne, malin / maligne, aigu / aiguë; the learned endings -ite, -algie and -ectomie."
+level: "C2"
+unit: "Specialized French"
+order: 15
+type: "vocabulary"
+tags: ["vocabulary", "medical French", "health", "register", "word formation"]
+prerequisites: ["b2-health-system", "c2-word-formation", "c2-ellipsis-and-nominal-style", "c2-legal-french"]
+related: ["a2-at-the-doctor", "b2-science-and-research", "c2-scientific-french", "c2-review-specialized"]
+vocab:
+  - { id: "c2-medical-french-v001", group: "leaflet", fr: "la notice", pron: "lah noh-TEESS", en: "the patient leaflet (in a medicine box)" }
+  - { id: "c2-medical-french-v002", group: "leaflet", fr: "la posologie", pron: "lah poh-zoh-loh-ZHEE", en: "the dosage (how much to take, and how often)" }
+  - { id: "c2-medical-french-v003", group: "leaflet", fr: "une contre-indication", pron: "ewn kohn-truh-an-dee-kah-SYOHN", en: "a contraindication (a case in which a medicine must not be used)" }
+  - { id: "c2-medical-french-v004", group: "leaflet", fr: "une allergie / allergique (à)", pron: "ew-nah-lehr-ZHEE / ah-lehr-ZHEEK", en: "an allergy / allergic (to)" }
+  - { id: "c2-medical-french-v005", group: "leaflet", fr: "les effets indésirables / les effets secondaires (m.)", pron: "lay-zay-FEH an-day-zee-RAH-bluh / lay-zay-FEH suh-gohn-DEHR", en: "side effects", note: "Effets indésirables is the official term in leaflets; effets secondaires is the common one." }
+  - { id: "c2-medical-french-v006", group: "leaflet", fr: "la dose prescrite", pron: "lah dohz preh-SKREET", en: "the prescribed dose", note: "Prescrire: to prescribe." }
+  - { id: "c2-medical-french-v007", group: "leaflet", fr: "impersonnel / impersonnelle", pron: "an-pehr-soh-NEL", en: "impersonal" }
+  - { id: "c2-medical-french-v008", group: "leaflet", fr: "un pharmacien / une pharmacienne", pron: "uhn far-mah-SYAN / ewn far-mah-SYEN", en: "a pharmacist" }
+  - { id: "c2-medical-french-v009", group: "consultation", fr: "une consultation", pron: "ewn kohn-sewl-tah-SYOHN", en: "a medical appointment, a consultation" }
+  - { id: "c2-medical-french-v010", group: "consultation", fr: "un patient / une patiente", pron: "uhn pah-SYAHN / ewn pah-SYAHNT", en: "a patient" }
+  - { id: "c2-medical-french-v011", group: "consultation", fr: "un symptôme", pron: "uhn sanp-TOHM", en: "a symptom" }
+  - { id: "c2-medical-french-v012", group: "consultation", fr: "un antécédent", pron: "uh-nahn-tay-say-DAHN", en: "a past health problem (in a medical history)", note: "Les antécédents: the medical history." }
+  - { id: "c2-medical-french-v013", group: "consultation", fr: "un diagnostic", pron: "uhn dyahg-noss-TEEK", en: "a diagnosis (noun)", note: "Poser un diagnostic: to make a diagnosis." }
+  - { id: "c2-medical-french-v014", group: "consultation", fr: "diagnostiquer", pron: "dyahg-noss-tee-KAY", en: "to diagnose (verb)" }
+  - { id: "c2-medical-french-v015", group: "consultation", fr: "un pronostic", pron: "uhn proh-noss-TEEK", en: "a prognosis (how an illness is expected to develop)" }
+  - { id: "c2-medical-french-v016", group: "adjectives", fr: "bénin / bénigne", pron: "bay-NAN / bay-NEE-nyuh", en: "benign, harmless" }
+  - { id: "c2-medical-french-v017", group: "adjectives", fr: "malin / maligne", pron: "mah-LAN / mah-LEE-nyuh", en: "malignant (medical); clever, cunning (everyday)" }
+  - { id: "c2-medical-french-v018", group: "adjectives", fr: "aigu / aiguë", pron: "ay-GEW", en: "acute (sudden, often short)", note: "Feminine aiguë; in the 1990 spelling rectifications, aigüe. Both are correct." }
+  - { id: "c2-medical-french-v019", group: "adjectives", fr: "brusquement", pron: "brewss-kuh-MAHN", en: "suddenly" }
+  - { id: "c2-medical-french-v020", group: "adjectives", fr: "une tumeur", pron: "ewn tew-MUHR", en: "a tumour" }
+  - { id: "c2-medical-french-v021", group: "roots", fr: "une douleur", pron: "ewn doo-LUHR", en: "a pain" }
+  - { id: "c2-medical-french-v022", group: "roots", fr: "une inflammation", pron: "ew-nan-flah-mah-SYOHN", en: "an inflammation" }
+  - { id: "c2-medical-french-v023", group: "roots", fr: "une otite", pron: "ew-noh-TEET", en: "an ear infection, otitis", note: "-ite: inflammation." }
+  - { id: "c2-medical-french-v024", group: "roots", fr: "une gastrite", pron: "ewn gah-STREET", en: "gastritis (inflammation of the stomach)" }
+  - { id: "c2-medical-french-v025", group: "roots", fr: "une gastralgie", pron: "ewn gah-strahl-ZHEE", en: "stomach pain", note: "-algie: pain." }
+  - { id: "c2-medical-french-v026", group: "roots", fr: "une appendicite", pron: "ew-nah-pan-dee-SEET", en: "appendicitis" }
+  - { id: "c2-medical-french-v027", group: "roots", fr: "une appendicectomie", pron: "ew-nah-pan-dee-sek-toh-MEE", en: "an appendectomy (removal of the appendix)", note: "-ectomie: surgical removal." }
+  - { id: "c2-medical-french-v028", group: "glossary", fr: "consulte (consulter)", pron: "kohn-SEWLT", en: "comes in, sees a doctor (to consult)" }
+  - { id: "c2-medical-french-v029", group: "glossary", fr: "douloureuse (douloureux)", pron: "doo-loo-RUHZ", en: "painful" }
+exercises:
+  - id: "c2-medical-french-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « la posologie » sur une notice."
+    options: ["how much to take, and how often", "the list of side effects", "the price of the medicine"]
+    answers: ["how much to take, and how often"]
+    explanation: "La posologie is the dosage. In the invented leaflet, it says only: follow the dose your doctor prescribed."
+  - id: "c2-medical-french-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « une contre-indication »."
+    options: ["a case in which the medicine must not be taken", "an instruction to take the medicine", "a word for an argument"]
+    answers: ["a case in which the medicine must not be taken"]
+    explanation: "Une contre-indication: a situation (an allergy, an illness) in which a medicine must not be used."
+  - id: "c2-medical-french-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez le féminin de « aigu » en orthographe traditionnelle."
+    options: ["aiguë", "aigue", "aigus"]
+    answers: ["aiguë"]
+    explanation: "The traditional spelling is aiguë; the 1990 spelling rectifications write aigüe, and both are correct. Without the trema, aigue would rhyme with figue. Aigus is the masculine plural."
+  - id: "c2-medical-french-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « une tumeur maligne »."
+    options: ["a cancerous tumour", "a harmless tumour", "a tumour that has been removed"]
+    answers: ["a cancerous tumour"]
+    explanation: "Malin, maligne in medicine: malignant. A harmless tumour is une tumeur bénigne."
+  - id: "c2-medical-french-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « une gastralgie »."
+    options: ["une douleur de l'estomac", "une inflammation de l'estomac", "une maladie chronique du foie"]
+    answers: ["une douleur de l'estomac"]
+    explanation: "-algie means pain. Inflammation of the stomach is une gastrite (-ite)."
+  - id: "c2-medical-french-ex006"
+    type: "fill-in"
+    prompt: "Accordez l'adjectif « bénin » : Heureusement, la tumeur est ___."
+    answers: ["bénigne"]
+    explanation: "Bénin has an irregular feminine: bénigne."
+  - id: "c2-medical-french-ex007"
+    type: "fill-in"
+    prompt: "Accordez l'adjectif « malin » au sens médical : Les examens ont montré une tumeur ___."
+    answers: ["maligne"]
+    explanation: "Malin, maligne: the medical feminine is maligne."
+  - id: "c2-medical-french-ex008"
+    type: "fill-in"
+    prompt: "Complétez avec le nom formé sur « diagnostiquer » : Le médecin a posé son ___ après l'examen."
+    answers: ["diagnostic"]
+    explanation: "The noun is un diagnostic, with a c. Poser un diagnostic: to make a diagnosis."
+  - id: "c2-medical-french-ex009"
+    type: "fill-in"
+    prompt: "Conjuguez « diagnostiquer » au passé composé : Le médecin a ___ une otite."
+    strictAccents: true
+    answers: ["diagnostiqué"]
+    explanation: "The verb is diagnostiquer, and its past participle is diagnostiqué."
+  - id: "c2-medical-french-ex010"
+    type: "register-shift"
+    prompt: "Transformez en français courant, en remplaçant seulement « effets indésirables » : Ce médicament peut provoquer des effets indésirables."
+    answers: ["Ce médicament peut provoquer des effets secondaires"]
+    explanation: "Effets indésirables is the leaflet's term; effets secondaires is the everyday one."
+  - id: "c2-medical-french-ex011"
+    type: "register-shift"
+    prompt: "Transformez en consigne de notice, à l'infinitif : Ne dépassez pas la dose prescrite."
+    answers: ["Ne pas dépasser la dose prescrite"]
+    explanation: "Leaflets often give instructions in the infinitive, with ne pas together before the verb."
+  - id: "c2-medical-french-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec « en cas de » + nom, en gardant « ne prenez pas » : Si vous avez une maladie du foie, ne prenez pas ce médicament."
+    answers: ["En cas de maladie du foie, ne prenez pas ce médicament", "Ne prenez pas ce médicament en cas de maladie du foie"]
+    explanation: "En cas de + noun, with no article: the usual way a leaflet states a condition."
+  - id: "c2-medical-french-ex013"
+    type: "translate"
+    prompt: "Traduisez, avec « pas d'antécédents » : The patient (a man) has no medical history."
+    strictAccents: true
+    answers: ["Le patient n'a pas d'antécédents", "Le patient n'a pas d'antécédents médicaux"]
+    explanation: "Les antécédents: the past health problems in a medical history."
+  - id: "c2-medical-french-ex014"
+    type: "translate"
+    prompt: "Traduisez (le pronostic) : The prognosis is good."
+    answers: ["Le pronostic est bon"]
+    explanation: "Le pronostic: how an illness is expected to develop. Don't confuse it with le diagnostic, which names the illness."
+  - id: "c2-medical-french-ex015"
+    type: "translate"
+    prompt: "Traduisez (la notice, à l'impératif, vous) : Read the leaflet before taking this medicine."
+    answers: ["Lisez la notice avant de prendre ce médicament"]
+    explanation: "Avant de + infinitive; la notice is the leaflet in the box."
+  - id: "c2-medical-french-ex016"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur, sans changer le verbe : Le médecin a fait un diagnostique."
+    strictAccents: true
+    answers: ["Le médecin a fait un diagnostic"]
+    explanation: "The noun is un diagnostic. Diagnostiquer is the verb."
+  - id: "c2-medical-french-ex017"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur d'accord : Heureusement, la tumeur était bénine."
+    answers: ["Heureusement, la tumeur était bénigne"]
+    explanation: "The feminine of bénin is bénigne, never bénine."
+  - id: "c2-medical-french-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : Do not take this medicine if you have an allergy."
+    words: ["Ne", "pas", "prendre", "ce", "médicament", "en", "cas", "d'allergie"]
+    answers: ["Ne pas prendre ce médicament en cas d'allergie"]
+    explanation: "A leaflet instruction: the infinitive with ne pas before it, then en cas de + noun."
+---
+
+By the end of this lesson you'll be able to read a patient leaflet and a consultation summary, recognize their terms and their style, and restate them in plain French without losing a condition.
+
+## What you already know
+
+You know the health system, *un généraliste*, *un spécialiste* and *une maladie chronique* from <LessonLink id="b2-health-system" text="the lesson on the health system" />, and *un traitement* from <LessonLink id="b2-science-and-research" text="the lesson on science and research" />. You know *une ordonnance*, *un médicament* and *un comprimé* from <LessonLink id="a2-at-the-doctor" text="the lesson at the doctor's" />. You know *une racine savante* (a learned root) from <LessonLink id="c2-word-formation" text="the lesson on word formation" />, where *-logie* means "the study of". The nominal style of reports comes from <LessonLink id="c2-ellipsis-and-nominal-style" text="the lesson on ellipsis and nominal style" />.
+
+**All the medical texts in this lesson are invented.** The medicine, Calmivane, doesn't exist, and the patient is imaginary. The texts show how medical French is built; they give no medical advice and no doses.
+
+## The patient leaflet
+
+<VocabTable group="leaflet" />
+
+Every medicine box contains *la notice* (the patient leaflet). It's divided into fixed headings, usually in this order: what the medicine is used for, *les contre-indications* (the cases in which it must not be taken), *la posologie* (how much to take and how often), and *les effets indésirables* (side effects).
+
+*Effets indésirables* is the official term, the one leaflets use. In conversation, people say *effets secondaires*. Both mean the same thing; only the register differs.
+
+<Example fr="Lisez attentivement la notice avant de prendre ce médicament." en="Read the leaflet carefully before taking this medicine." />
+
+<Example fr="Une allergie à l'un des composants est une contre-indication." en="An allergy to one of the ingredients is a contraindication." />
+
+## The impersonal style of leaflets
+
+A leaflet speaks to every patient at once, so its style is impersonal. Three forms do most of the work:
+
+- **The infinitive as an instruction**: *ne pas dépasser la dose prescrite* (do not exceed the prescribed dose). As in any infinitive, *ne pas* comes together before the verb.
+- **The passive or *il est recommandé de***: *ce médicament ne doit pas être utilisé chez l'enfant*.
+- **En cas de + noun, with no article**: *en cas de doute* (if in doubt), *en cas d'allergie*.
+
+Leaflets also use the imperative with *vous* when they address the reader directly: *demandez conseil à votre médecin ou à votre pharmacien*.
+
+<Example fr="En cas de doute, demandez conseil à votre pharmacien." en="If in doubt, ask your pharmacist for advice." />
+
+## The consultation
+
+<VocabTable group="consultation" />
+
+After *une consultation* (a medical appointment), the doctor may write a short summary. It names the patient's *antécédents* (past health problems), the *symptômes*, the *diagnostic* (the illness identified) and the *pronostic* (how it's expected to develop).
+
+The noun and the verb are spelt differently. The noun is **un diagnostic**, with a *c*; the verb is **diagnostiquer**, with *-qu-*. The same goes for *un pronostic*, whose verb, *pronostiquer*, is rarer.
+
+A summary is often written in the nominal style you know: no verb where a noun will do (*diagnostic : otite aiguë*, *pronostic favorable*).
+
+<Example fr="Le médecin a diagnostiqué une otite et prescrit un traitement." en="The doctor diagnosed an ear infection and prescribed a treatment." />
+
+<Example fr="La patiente n'a pas d'antécédents, et le pronostic est bon." en="The patient has no medical history, and the prognosis is good." />
+
+## Bénin, malin, chronique, aigu
+
+<VocabTable group="adjectives" />
+
+Four adjectives describe an illness. Two of them have irregular feminines:
+
+- **Bénin** (harmless) becomes **bénigne**: *une tumeur bénigne*.
+- **Malin** (malignant) becomes **maligne**: *une tumeur maligne*.
+- **Chronique** (lasting a long time) doesn't change: *une maladie chronique*.
+- **Aigu** (acute: sudden, often short) becomes **aiguë**, or **aigüe** in the 1990 spelling rectifications, which are recommended rather than compulsory. Both spellings are correct.
+
+*Malin* has another meaning in everyday French: clever, or cunning (*un enfant malin*). In that sense too, the written feminine is *maligne*.
+
+<Example fr="L'examen a montré que la tumeur était bénigne." en="The examination showed that the tumour was benign." />
+
+<Example fr="Une douleur aiguë apparaît brusquement ; une douleur chronique dure longtemps." en="An acute pain comes on suddenly; a chronic pain lasts a long time." />
+
+## Learned endings
+
+<VocabTable group="roots" />
+
+Many medical words are built from Greek roots, like *la sociologie*. Three endings are worth knowing, because they let you understand words you've never seen:
+
+- **-ite means inflammation**: *une otite* (of the ear), *une gastrite* (of the stomach), *une appendicite*.
+- **-algie means pain**: *une gastralgie* (stomach pain).
+- **-ectomie means surgical removal**: *une appendicectomie* (removal of the appendix).
+
+The ending is added to a root that names the organ: *gastr-* is the stomach, in *une gastrite* and *une gastralgie*. You saw the same *-ite* used ironically in *la réunionite* (meetingitis).
+
+<Example fr="Une otite est une inflammation de l'oreille, souvent accompagnée de douleur." en="An ear infection is an inflammation of the ear, often with pain." />
+
+<Example fr="Après une appendicite, on peut avoir besoin d'une appendicectomie." en="After appendicitis, you may need an appendectomy." />
+
+## Restating medical French plainly
+
+A plain version of a medical text uses everyday words, but it keeps its content. As a rule of thumb:
+
+- **Replace each term by a description**: *une gastralgie aiguë* becomes *une douleur d'estomac qui arrive d'un coup*.
+- **Keep every contre-indication and every condition**: if the leaflet says *en cas de maladie du foie*, the plain version says so.
+- **Keep the reference to the doctor**: *la dose prescrite* stays *la dose que votre médecin vous a prescrite*. Never replace it with a figure.
+- **Add nothing**: no advice, no reassurance the text doesn't give.
+
+## The model: a leaflet and its plain version
+
+The leaflet below is invented, for an invented medicine. A plain version follows it.
+
+*Notice : information du patient. Calmivane, comprimé (médicament inventé pour la leçon). Dans quel cas Calmivane est-il utilisé ? Calmivane est indiqué chez l'adulte dans le traitement des gastralgies aiguës.*
+
+*Contre-indications. Ne prenez jamais Calmivane si vous êtes allergique à l'un de ses composants, ou en cas de maladie chronique du foie. Informez votre médecin de vos antécédents avant de commencer le traitement.*
+
+*Posologie. Respectez toujours la dose prescrite par votre médecin. Ne pas dépasser la dose prescrite. En cas de doute, demandez conseil à votre médecin ou à votre pharmacien.*
+
+*Effets indésirables. Comme d'autres médicaments, Calmivane peut provoquer des effets indésirables, qui n'apparaissent pas chez tous les patients. Si vous en remarquez un, parlez-en à votre médecin ou à votre pharmacien.*
+
+*Version simple. Calmivane sert à soigner, chez les adultes, les douleurs d'estomac qui arrivent d'un coup. Ne le prenez pas si vous êtes allergique à ce qu'il contient, ou si vous avez une maladie du foie qui dure. Avant de commencer, dites à votre médecin quels problèmes de santé vous avez eus. Prenez exactement la dose que votre médecin vous a prescrite, pas plus. Si vous n'êtes pas sûr, demandez à votre médecin ou à votre pharmacien. Ce médicament peut avoir des effets secondaires, mais pas chez tout le monde : si vous en remarquez un, parlez-en à votre médecin ou à votre pharmacien.*
+
+(Leaflet: information for the patient. Calmivane, tablet (a medicine invented for the lesson). What is Calmivane used for? Calmivane is indicated in adults for the treatment of acute stomach pain. Contraindications. Never take Calmivane if you are allergic to any of its ingredients, or if you have a chronic liver disease. Tell your doctor about your medical history before starting the treatment. Dosage. Always follow the dose prescribed by your doctor. Do not exceed the prescribed dose. If in doubt, ask your doctor or your pharmacist for advice. Side effects. Like other medicines, Calmivane can cause side effects, which don't occur in all patients. If you notice one, talk to your doctor or your pharmacist about it. / Plain version. Calmivane is used to treat, in adults, stomach pains that come on suddenly. Don't take it if you're allergic to what's in it, or if you have a liver disease that lasts. Before you start, tell your doctor what health problems you've had. Take exactly the dose your doctor prescribed for you, no more. If you're not sure, ask your doctor or your pharmacist. This medicine can have side effects, but not in everyone: if you notice one, talk to your doctor or your pharmacist about it.)
+
+## The model: a consultation summary
+
+The summary below is invented, for an imaginary patient. Its plain version follows.
+
+*Compte rendu de consultation (document inventé). Patiente adulte, sans antécédents particuliers. Consulte pour une douleur de l'oreille droite, avec fièvre. Examen : oreille rouge et douloureuse. Diagnostic : otite aiguë. Pronostic favorable. Traitement prescrit ; nouvelle consultation si les symptômes persistent.*
+
+*En clair : la patiente n'a pas eu de problème de santé important avant. Elle est venue parce qu'elle avait mal à l'oreille droite, et de la fièvre. Le médecin a vu que son oreille était rouge et lui faisait mal. Le médecin a diagnostiqué une otite aiguë, c'est-à-dire une inflammation de l'oreille apparue brusquement, et pense qu'elle va bien guérir. Le médecin lui a prescrit un traitement ; elle doit revenir si elle a encore mal ou de la fièvre.*
+
+(Consultation summary (invented document). Adult female patient, no notable medical history. Came in for pain in the right ear, with a temperature. Examination: ear red and painful. Diagnosis: acute ear infection. Favourable prognosis. Treatment prescribed; new appointment if the symptoms persist. / In plain words: the patient hasn't had any serious health problem before. She came because her right ear hurt, and she had a temperature. The doctor saw that her ear was red and hurt her. The doctor diagnosed an acute ear infection, that is, an inflammation of the ear that came on suddenly, and thinks she'll recover well. The doctor prescribed her a treatment; she must come back if she's still in pain or has a temperature.)
+
+<VocabTable group="glossary" />
+
+## How the texts work
+
+- **The leaflet's headings** come in the usual order: use, *contre-indications*, *posologie*, *effets indésirables*.
+- **The impersonal forms**: *ne pas dépasser* (infinitive), *est indiqué* (passive), *en cas de maladie chronique du foie*, *en cas de doute*.
+- **No figure**: the *posologie* sends the patient to *la dose prescrite*, and the plain version keeps it (*la dose que votre médecin vous a prescrite*).
+- **Every condition kept**: the allergy, the liver disease and the medical history are all in the plain version. *Chronique* becomes *qui dure*, and *aiguës* becomes *qui arrivent d'un coup*.
+- **The summary's nominal style** (*Diagnostic : otite aiguë*) becomes full sentences with *a diagnostiqué*. *Pronostic favorable* becomes *pense qu'elle va bien guérir*, and *si les symptômes persistent* names the symptoms.
+
+## En français
+
+Paul takes the invented medicine Calmivane, and asks Mme Roche, a pharmacist, about its leaflet. They use *vous*.
+
+- *Bonjour, mon médecin m'a prescrit Calmivane. Je peux vous poser des questions sur la notice ?* (Hello, my doctor has prescribed Calmivane for me. Can I ask you some questions about the leaflet?)
+- *Bien sûr. Qu'est-ce qui vous pose problème ?* (Of course. What's the difficulty?)
+- *Il y a une partie « contre-indications ». Qu'est-ce que ça veut dire exactement ?* (There's a section headed "contre-indications". What does that mean exactly?)
+- *Ce sont les cas où il ne faut pas prendre le médicament, par exemple une allergie à l'un de ses composants.* (They're the cases in which you mustn't take the medicine, for example an allergy to one of its ingredients.)
+- *Et « effets indésirables », ce sont les effets secondaires ?* (And "effets indésirables", are they side effects?)
+- *Oui, c'est le terme officiel. Ils sont possibles, mais ils n'apparaissent pas chez tous les patients.* (Yes, it's the official term. They're possible, but they don't occur in all patients.)
+- *Je ne trouve pas de dose sur la notice. C'est normal ?* (I can't find a dose in the leaflet. Is that normal?)
+- *La notice vous demande de respecter la dose prescrite par votre médecin : elle est sur votre ordonnance.* (The leaflet asks you to follow the dose prescribed by your doctor: it's on your prescription.)
+- *Mon médecin a parlé de gastralgie. C'est la même chose qu'une gastrite ?* (My doctor talked about gastralgie. Is it the same thing as gastritis?)
+- *Non : -algie veut dire douleur, et -ite veut dire inflammation. Une gastralgie est une douleur d'estomac ; une gastrite, une inflammation de l'estomac.* (No: -algie means pain, and -ite means inflammation. A gastralgie is a stomach pain; gastritis, an inflammation of the stomach.)
+- *Et « aiguë », ça veut dire que c'est grave ?* (And "aiguë", does that mean it's serious?)
+- *Aiguë veut dire que la douleur est apparue brusquement ; c'est le contraire de chronique. Pour savoir si c'est grave, demandez à votre médecin.* (Aiguë means the pain came on suddenly; it's the opposite of chronic. To know whether it's serious, ask your doctor.)
+- *D'accord. Et je dois parler de mes antécédents à mon médecin ?* (OK. And do I have to tell my doctor about my medical history?)
+- *C'est ce que demande la notice : « Informez votre médecin de vos antécédents avant de commencer le traitement. »* (That's what the leaflet asks: "Tell your doctor about your medical history before starting the treatment.")
+
+<Callout type="warning" title="Diagnostic, not diagnostique">
+  English has *diagnosis* and *to diagnose*, and learners often give the French noun the verb's spelling: *le médecin a fait un diagnostique*. The noun ends in *-ic*: **le médecin a fait un diagnostic**. The verb is **diagnostiquer**: *le médecin a diagnostiqué une otite*.
+</Callout>
+
+<Callout type="tip" title="Keep a three-column list">
+  When you meet a medical term, write it in a three-column list: the term, its everyday equivalent, and a short sentence that uses it (*une gastralgie*, *une douleur d'estomac*, *Calmivane soigne les gastralgies aiguës*). The middle column is the one you'll need when you explain a text to someone else.
+</Callout>
+
+## En résumé
+
+La notice d'un médicament se divise en parties qui suivent souvent le même ordre : à quoi sert le médicament, les contre-indications, la posologie et les effets indésirables. Les effets indésirables sont le terme officiel ; dans la conversation, on dit les effets secondaires. Le style de la notice est impersonnel : elle emploie l'infinitif pour donner une consigne, comme ne pas dépasser la dose prescrite, le passif, et en cas de suivi d'un nom sans article. Après une consultation, le médecin note les antécédents du patient, ses symptômes, le diagnostic et le pronostic. Le nom diagnostic s'écrit avec un c, et le verbe diagnostiquer avec qu. Au féminin, bénin devient bénigne, malin devient maligne, et aigu devient aiguë, ou aigüe selon l'orthographe de 1990. Une douleur chronique dure longtemps, alors qu'une douleur aiguë apparaît brusquement. Enfin, trois finales savantes aident à comprendre les mots nouveaux : -ite pour une inflammation, -algie pour une douleur et -ectomie quand on retire un organe ou une partie d'un organe.
+
+## What's next
+
+Next, <LessonLink id="c2-scientific-french" text="the lesson on scientific French" /> reads an invented research abstract and its popular-science version, and shows how French science writing hedges its claims.
+
+===== content/lessons/c2/scientific-french.mdx =====
+---
+id: "c2-scientific-french"
+title: "Scientific French"
+description: "Read a research abstract and its version for the general public: how an article is built, the voice of a method section (nous, on, the passive), une corrélation vs un lien de causalité, and how French science writing hedges its claims (les résultats suggèrent, il ressort de… que, laisser penser, à ce stade)."
+level: "C2"
+unit: "Specialized French"
+order: 16
+type: "vocabulary"
+tags: ["vocabulary", "scientific French", "research", "hedging", "register"]
+prerequisites: ["b2-science-and-research", "b2-certainty-and-probability", "c1-technology-ethics", "c2-medical-french"]
+related: ["b2-summarizing-an-article", "b2-nuancing-opinions", "c1-advanced-connectors", "c2-review-specialized"]
+vocab:
+  - { id: "c2-scientific-french-v001", group: "study", fr: "un article scientifique", pron: "uh-nar-TEE-kluh see-ahn-tee-FEEK", en: "a research paper" }
+  - { id: "c2-scientific-french-v002", group: "study", fr: "un protocole", pron: "uhn proh-toh-KOL", en: "a protocol, a study design" }
+  - { id: "c2-scientific-french-v003", group: "study", fr: "une étude d'observation", pron: "ew-nay-TEWD dop-sehr-vah-SYOHN", en: "an observational study" }
+  - { id: "c2-scientific-french-v004", group: "study", fr: "un groupe témoin", pron: "uhn groop tay-MWAN", en: "a control group", note: "Un témoin is also a witness; here it means the group used for comparison." }
+  - { id: "c2-scientific-french-v005", group: "study", fr: "tirer au sort", pron: "tee-RAY oh SOR", en: "to draw by lot, to assign at random" }
+  - { id: "c2-scientific-french-v006", group: "study", fr: "significatif / significative", pron: "see-nyee-fee-kah-TEEF / see-nyee-fee-kah-TEEV", en: "significant (in statistics: unlikely to be due to chance)" }
+  - { id: "c2-scientific-french-v007", group: "voice", fr: "le nous d'auteur", pron: "luh noo doh-TUHR", en: "the authors' we (nous used by the writers of a paper)" }
+  - { id: "c2-scientific-french-v008", group: "link", fr: "une corrélation", pron: "ewn koh-ray-lah-SYOHN", en: "a correlation (two things that vary together)" }
+  - { id: "c2-scientific-french-v009", group: "link", fr: "être corrélé à / avec", pron: "ET-ruh koh-ray-LAY ah / ah-VEK", en: "to be correlated with" }
+  - { id: "c2-scientific-french-v010", group: "link", fr: "un lien de causalité", pron: "uhn lyan duh koh-zah-lee-TAY", en: "a causal link (one thing produces the other)" }
+  - { id: "c2-scientific-french-v011", group: "link", fr: "causer", pron: "koh-ZAY", en: "to cause" }
+  - { id: "c2-scientific-french-v012", group: "link", fr: "être associé à", pron: "ET-ruh ah-soh-SYAY ah", en: "to be associated with" }
+  - { id: "c2-scientific-french-v013", group: "link", fr: "un facteur", pron: "uhn fak-TUHR", en: "a factor" }
+  - { id: "c2-scientific-french-v014", group: "link", fr: "améliorer", pron: "ah-may-lyoh-RAY", en: "to improve" }
+  - { id: "c2-scientific-french-v015", group: "hedging", fr: "les résultats suggèrent que", pron: "lay ray-zewl-TAH sewg-ZHEHR kuh", en: "the results suggest that" }
+  - { id: "c2-scientific-french-v016", group: "hedging", fr: "laisser penser que", pron: "leh-SAY pahn-SAY kuh", en: "to suggest, to lead one to think that" }
+  - { id: "c2-scientific-french-v017", group: "hedging", fr: "à ce stade", pron: "ah suh STAHD", en: "at this stage" }
+  - { id: "c2-scientific-french-v018", group: "hedging", fr: "toutefois", pron: "toot-FWAH", en: "however (formal)" }
+  - { id: "c2-scientific-french-v019", group: "hedging", fr: "à l'inverse", pron: "ah lan-VEHRS", en: "conversely" }
+  - { id: "c2-scientific-french-v020", group: "hedging", fr: "établir", pron: "ay-tah-BLEER", en: "to establish (a fact, a link)" }
+  - { id: "c2-scientific-french-v021", group: "popular", fr: "grand public", pron: "grahn pew-BLEEK", en: "for the general public", note: "Invariable: un article grand public, des revues grand public." }
+  - { id: "c2-scientific-french-v022", group: "glossary", fr: "influence (influencer)", pron: "an-flew-AHNSS", en: "influences" }
+  - { id: "c2-scientific-french-v023", group: "glossary", fr: "un poste de travail", pron: "uhn post duh trah-VAH-y", en: "a workstation, a desk" }
+  - { id: "c2-scientific-french-v024", group: "glossary", fr: "éclairé (éclairer)", pron: "ay-kleh-RAY", en: "lit (to light)" }
+  - { id: "c2-scientific-french-v025", group: "glossary", fr: "expérimental / expérimentale", pron: "eks-pay-ree-mahn-TAHL", en: "experimental" }
+  - { id: "c2-scientific-french-v026", group: "glossary", fr: "se concentrer", pron: "suh kohn-sahn-TRAY", en: "to concentrate" }
+exercises:
+  - id: "c2-scientific-french-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez ce que cette étude d'observation permet d'établir : on observe que les élèves qui dorment plus ont, en moyenne, de meilleures notes."
+    options: ["une corrélation", "un lien de causalité"]
+    answers: ["une corrélation"]
+    explanation: "The study only observes that sleep and marks vary together. Another factor (the family, the timetable) could explain both, so it can't establish that sleep causes better marks."
+  - id: "c2-scientific-french-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez ce que cette expérience permet d'établir, selon toute vraisemblance : on tire au sort des participants ; la moitié reçoit un traitement, l'autre moitié forme le groupe témoin. Le premier groupe guérit plus vite."
+    options: ["un lien de causalité", "seulement une corrélation"]
+    answers: ["un lien de causalité"]
+    explanation: "The groups were drawn by lot and compared with a control group, so the only systematic difference between them is the treatment. That's what such an experiment is designed to show."
+  - id: "c2-scientific-french-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez le verbe qui convient à une simple corrélation : Les résultats ___ un lien entre la lumière et l'attention."
+    options: ["suggèrent", "prouvent", "démontrent"]
+    answers: ["suggèrent"]
+    explanation: "A correlation suggests a link; it doesn't prove or demonstrate one."
+  - id: "c2-scientific-french-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « un groupe témoin » dans un article scientifique."
+    options: ["the group used for comparison", "a group of people who saw something happen", "the team of researchers"]
+    answers: ["the group used for comparison"]
+    explanation: "Un groupe témoin is a control group. Un témoin alone is also a witness, but not here."
+  - id: "c2-scientific-french-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez qui parle quand un article scientifique dit « nous » : Nous avons mesuré la lumière à chaque poste de travail."
+    options: ["les auteurs de l'étude", "les participants", "les lecteurs"]
+    answers: ["les auteurs de l'étude"]
+    explanation: "Le nous d'auteur: the writers of the paper speak of themselves as nous."
+  - id: "c2-scientific-french-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec le nom : Les deux choses varient ensemble : il existe une ___ entre eux."
+    answers: ["corrélation"]
+    explanation: "Une corrélation: two things that vary together, without saying which one causes the other."
+  - id: "c2-scientific-french-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Le groupe ___ ne reçoit pas le traitement ; il sert à comparer."
+    answers: ["témoin"]
+    explanation: "Le groupe témoin: the control group."
+  - id: "c2-scientific-french-ex008"
+    type: "fill-in"
+    prompt: "Conjuguez « ressortir » au présent : Il ___ de nos données que la lumière est corrélée à l'attention."
+    answers: ["ressort"]
+    explanation: "Il ressort de… que: it emerges from… that. The impersonal il takes the third person singular."
+  - id: "c2-scientific-french-ex009"
+    type: "error-correction"
+    prompt: "Corrigez la phrase, qui affirme plus que l'étude (une simple corrélation), en remplaçant seulement « améliore » par « est corrélée à » : La lumière naturelle améliore l'attention."
+    strictAccents: true
+    answers: ["La lumière naturelle est corrélée à l'attention"]
+    explanation: "An observational study shows a correlation. Améliore claims a cause that the study can't establish."
+  - id: "c2-scientific-french-ex010"
+    type: "error-correction"
+    prompt: "Corrigez la phrase, qui affirme trop, en remplaçant le verbe par « suggérer » : Ces résultats prouvent un lien entre le sommeil et les notes."
+    answers: ["Ces résultats suggèrent un lien entre le sommeil et les notes"]
+    explanation: "Les résultats suggèrent: the usual hedge when a study shows a link without proving it."
+  - id: "c2-scientific-french-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « il ressort de nos données que » : Nos données montrent que les salariés les mieux éclairés réussissent mieux les tests."
+    answers: ["Il ressort de nos données que les salariés les mieux éclairés réussissent mieux les tests"]
+    explanation: "Il ressort de… que is more cautious than montrer: it presents the result as what the data bring out."
+  - id: "c2-scientific-french-ex012"
+    type: "reformulation"
+    prompt: "Reformulez à la voix passive, au passé composé : On a tiré au sort les participants."
+    strictAccents: true
+    answers: ["Les participants ont été tirés au sort"]
+    explanation: "The method section often uses the passive: the participants come first, and the researchers aren't named."
+  - id: "c2-scientific-french-ex013"
+    type: "register-shift"
+    prompt: "Transformez en français courant, avec « ne prouvent pas que » et « améliore » : Ces résultats ne permettent pas d'établir un lien de causalité entre la lumière et l'attention."
+    answers: ["Ces résultats ne prouvent pas que la lumière améliore l'attention", "Les résultats ne prouvent pas que la lumière améliore l'attention"]
+    explanation: "The plain version keeps the limit: the results don't prove a cause."
+  - id: "c2-scientific-french-ex014"
+    type: "translate"
+    prompt: "Traduisez (une corrélation, un lien de causalité) : The study shows a correlation, not a causal link."
+    answers: ["L'étude montre une corrélation, pas un lien de causalité", "L'étude montre une corrélation, et non un lien de causalité", "L'étude montre une corrélation et non un lien de causalité"]
+    explanation: "Pas or et non: both mark the contrast; et non is more formal."
+  - id: "c2-scientific-french-ex015"
+    type: "translate"
+    prompt: "Traduisez (l'échantillon, trop petit) : The sample is too small to generalize."
+    answers: ["L'échantillon est trop petit pour généraliser"]
+    explanation: "Un échantillon: a sample. Trop + adjective + pour + infinitive."
+  - id: "c2-scientific-french-ex016"
+    type: "translate"
+    prompt: "Traduisez (le nous d'auteur, au passé composé, un poste de travail) : We measured the light at each workstation."
+    strictAccents: true
+    answers: ["Nous avons mesuré la lumière à chaque poste de travail"]
+    explanation: "The authors write nous; mesurer à + place."
+  - id: "c2-scientific-french-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : These results suggest a link between light and attention."
+    words: ["Ces", "résultats", "suggèrent", "un", "lien", "entre", "la", "lumière", "et", "l'attention"]
+    answers: ["Ces résultats suggèrent un lien entre la lumière et l'attention"]
+    explanation: "Suggérer + noun: a cautious way to present a result."
+---
+
+By the end of this lesson you'll be able to read a research abstract in French, tell a correlation from a cause, recognize how scientists hedge their claims, and check that a version for the general public says no more than the study.
+
+## What you already know
+
+You know *une hypothèse*, *un échantillon*, *mener une étude*, *démontrer*, *prouver* and *tirer une conclusion* from <LessonLink id="b2-science-and-research" text="the lesson on science and research" />. You know *un biais* from <LessonLink id="c1-technology-ethics" text="the lesson on technology and ethics" />. You know *il semblerait que* and *il est possible que* from <LessonLink id="b2-certainty-and-probability" text="the lesson on certainty and probability" />, *il ressort que* from <LessonLink id="b2-summarizing-an-article" text="the lesson on summarizing an article" />, and *selon toute vraisemblance* from <LessonLink id="c1-advanced-connectors" text="the lesson on advanced connectors" />. You know *tenir compte de* (to take into account) from <LessonLink id="c1-collocations" text="the lesson on collocations" />.
+
+**The study in this lesson is invented.** Its subject, its method and its results are imaginary, and it gives no figures. It shows how scientific French is built, not what research has found.
+
+## How a research article is built
+
+<VocabTable group="study" />
+
+*Un article scientifique* (a research paper) opens with a short abstract, called *le résumé*, in four parts: the context, the method, the results and the discussion. The method describes *le protocole* (the study design).
+
+There are two main kinds of design. In *une étude d'observation*, researchers measure what already exists. In an experiment, they *tirent au sort* (draw by lot) the participants, change one thing for some of them, and compare with *un groupe témoin* (a control group). A result is *significatif* when it's unlikely to be due to chance. Researchers also *tiennent compte d'autres facteurs* (take other factors into account), such as age.
+
+<Example fr="Les participants ont été tirés au sort, puis comparés à un groupe témoin." en="The participants were drawn by lot, then compared with a control group." />
+
+<Example fr="Le résultat reste significatif lorsque l'on tient compte de l'âge." en="The result remains significant when age is taken into account." />
+
+## The voice of a method section
+
+<VocabTable group="voice" />
+
+French articles often use *nous* for the authors: *nous avons mesuré*, *nous avons comparé*. This is *le nous d'auteur*. Two other forms keep the researchers in the background:
+
+- **On**, for an action anyone could repeat: *on a mesuré la lumière à chaque poste*.
+- **The passive**, which puts the thing studied first: *les participants ont été tirés au sort*.
+
+<Example fr="Nous avons mesuré la lumière naturelle à chaque poste de travail." en="We measured the natural light at each workstation." />
+
+## Correlation or cause
+
+<VocabTable group="link" />
+
+This is the distinction that matters most in a scientific text.
+
+- **Une corrélation** means that two things vary together: when one increases, the other tends to increase (or decrease). The two are *corrélés* or *associés*.
+- **Un lien de causalité** means that one thing produces the other: it *cause* it, or *provoque* it.
+
+A correlation doesn't say which thing causes the other, or whether a third factor explains both. As a rule of thumb, *une étude d'observation* can show a correlation; to *établir* (establish) a causal link, researchers usually need an experiment, with participants drawn by lot and a control group.
+
+<Example fr="Le sommeil est corrélé aux notes, mais l'étude ne permet pas d'établir un lien de causalité." en="Sleep is correlated with marks, but the study doesn't make it possible to establish a causal link." />
+
+## Hedging a claim
+
+<VocabTable group="hedging" />
+
+Scientific French measures the strength of every claim. The verbs form a scale:
+
+- **Strong**: *démontrer*, *prouver*, *établir*, for what an experiment has shown.
+- **Cautious**: *les résultats suggèrent que*, *laisser penser que*, *il semblerait que*, for a correlation or a first result.
+- **Limits**: *à ce stade* (at this stage), *toutefois* (however), *il est possible que* + subjunctive, for what the study can't say.
+
+You know *il ressort que*; in articles, it often names its source with *de*: *il ressort de nos données que*. *À l'inverse* (conversely) introduces the opposite case.
+
+<Example fr="À ce stade, ces résultats laissent penser que la lumière joue un rôle ; toutefois, d'autres facteurs sont possibles." en="At this stage, these results suggest that light plays a role; however, other factors are possible." />
+
+<Example fr="Les postes bien éclairés sont associés à de meilleurs résultats ; à l'inverse, les postes sombres sont associés à des résultats plus faibles." en="Well-lit workstations are associated with better results; conversely, dark workstations are associated with weaker results." />
+
+## From abstract to popular article
+
+<VocabTable group="popular" />
+
+An article *grand public* (for the general public) explains a study in everyday words. As a rule of thumb, a good popular version:
+
+- **Keeps the strength of the claim**: *est corrélé à* doesn't become *améliore*.
+- **Keeps the limits**: if the abstract says the study can't establish a cause, the popular version says so too.
+- **Attributes the result** to the researchers (*selon les chercheurs*, *préviennent les chercheurs*).
+- **Replaces the terms** with descriptions (*un groupe témoin* becomes *un groupe qui ne change rien*), and adds no figure or advice.
+
+## The model: an abstract and its popular version
+
+The abstract below is from an invented study. A version for the general public follows it.
+
+*Résumé (étude inventée pour la leçon). Lumière naturelle et attention au travail : une étude d'observation. Contexte. Plusieurs travaux suggèrent que l'environnement de travail influence l'attention. Nous avons voulu savoir si l'accès à la lumière naturelle était associé à de meilleurs résultats aux tests d'attention.*
+
+*Méthode. Des salariés de plusieurs entreprises ont passé des tests d'attention à différents moments de la journée. Pour chaque participant, on a mesuré la lumière naturelle reçue à son poste de travail.*
+
+*Résultats. Il ressort de nos données que l'accès à la lumière naturelle est corrélé à de meilleurs résultats aux tests d'attention. Cette corrélation reste significative lorsque l'on tient compte de l'âge et du type de poste.*
+
+*Discussion. Ces résultats suggèrent un lien entre la lumière et l'attention, mais ils ne permettent pas d'établir un lien de causalité : il est possible que les postes les mieux éclairés soient aussi les plus calmes. Un protocole expérimental, avec un groupe témoin, serait nécessaire pour conclure.*
+
+*Version grand public. Travailler près d'une fenêtre aide-t-il à se concentrer ? Une équipe de chercheurs a fait passer des tests d'attention à des salariés, et a mesuré la lumière du jour que chacun recevait à son poste. Résultat : ceux qui reçoivent le plus de lumière naturelle réussissent en général mieux les tests. Mais attention, préviennent les chercheurs : cela ne prouve pas que la lumière améliore l'attention. Les bureaux les plus lumineux sont peut-être aussi les plus calmes. Pour le savoir, il faudrait une expérience, avec un groupe qui change de bureau et un groupe qui ne change rien.*
+
+(Abstract (a study invented for the lesson). Natural light and attention at work: an observational study. Context. Several studies suggest that the working environment influences attention. We wanted to know whether access to natural light was associated with better results in attention tests. Method. Employees from several companies took attention tests at different times of day. For each participant, the natural light received at their workstation was measured. Results. It emerges from our data that access to natural light is correlated with better results in attention tests. This correlation remains significant when age and type of job are taken into account. Discussion. These results suggest a link between light and attention, but they don't make it possible to establish a causal link: it's possible that the best-lit workstations are also the quietest. An experimental protocol, with a control group, would be needed to reach a conclusion. / Popular version. Does working near a window help you concentrate? A team of researchers gave attention tests to employees, and measured the daylight each one received at their desk. The result: those who get the most natural light generally do better in the tests. But be careful, the researchers warn: this doesn't prove that light improves attention. The brightest offices may also be the quietest. To find out, you'd need an experiment, with one group that changes offices and one group that changes nothing.)
+
+<VocabTable group="glossary" />
+
+## How the texts work
+
+- **The four parts**: *contexte*, *méthode*, *résultats*, *discussion*.
+- **The voices**: *nous avons voulu savoir* (the authors), *on a mesuré* (the method), *ont passé* (the participants as subject).
+- **The hedges**: *plusieurs travaux suggèrent*, *il ressort de nos données que*, *ces résultats suggèrent un lien*, *il est possible que… soient*.
+- **Correlation, not cause**: the abstract says *est corrélé à* and *ne permettent pas d'établir un lien de causalité*. The popular version keeps both: *réussissent en général mieux* and *cela ne prouve pas que la lumière améliore l'attention*.
+- **Nothing added**: the popular version opens with a question, not a claim; it gives no figure, no advice, and attributes the warning to the researchers. It leaves out the detail about age and type of job, but it adds nothing the abstract doesn't say.
+
+## En français
+
+Léo, a journalist, checks his popular version with Claire Morel, one of the researchers. They use *vous*.
+
+- *Bonjour. J'ai lu votre résumé, et j'aimerais écrire un article grand public. Je peux mettre comme titre « La lumière du jour rend plus attentif » ?* (Hello. I've read your abstract, and I'd like to write an article for the general public. Can I use the title "Daylight makes you more attentive"?)
+- *Je préférerais une question. Nous avons trouvé une corrélation, pas un lien de causalité.* (I'd prefer a question. We found a correlation, not a causal link.)
+- *Quelle est la différence, pour un lecteur ?* (What's the difference, for a reader?)
+- *Une corrélation veut dire que les deux choses varient ensemble. Elle ne dit pas laquelle cause l'autre.* (A correlation means that the two things vary together. It doesn't say which one causes the other.)
+- *Mais vous écrivez que la corrélation reste significative.* (But you write that the correlation remains significant.)
+- *Oui, même en tenant compte de l'âge et du type de poste. Mais il est possible que les postes les mieux éclairés soient aussi les plus calmes.* (Yes, even taking age and type of job into account. But it's possible that the best-lit workstations are also the quietest.)
+- *Donc le calme pourrait expliquer le résultat ?* (So quiet could explain the result?)
+- *C'est une hypothèse. Pour conclure, il faudrait un protocole expérimental, avec un groupe témoin.* (That's a hypothesis. To reach a conclusion, we'd need an experimental protocol, with a control group.)
+- *Un groupe témoin, c'est quoi, exactement ?* (What exactly is a control group?)
+- *Un groupe de participants pour qui on ne change rien. On compare ensuite les deux groupes.* (A group of participants for whom nothing is changed. Then you compare the two groups.)
+- *Et le « nous » de votre résumé, c'est toute l'équipe ?* (And the "nous" in your abstract, is that the whole team?)
+- *Oui. Dans les articles scientifiques, les auteurs parlent souvent d'eux-mêmes avec « nous ».* (Yes. In research papers, the authors often refer to themselves as "nous".)
+- *Alors mon titre sera : « Travailler près d'une fenêtre aide-t-il à se concentrer ? »* (Then my title will be: "Does working near a window help you concentrate?")
+- *Parfait. Et précisez que nos résultats suggèrent un lien, sans le prouver.* (Perfect. And make it clear that our results suggest a link, without proving it.)
+
+<Callout type="warning" title="Don't turn a correlation into a cause">
+  When they summarize a study, learners often replace *est corrélé à* with a verb of cause: *la lumière améliore l'attention*. If the study is observational, that claims more than it found. Keep the link without the cause: **la lumière naturelle est corrélée à l'attention**, or **les résultats suggèrent un lien entre la lumière et l'attention**.
+</Callout>
+
+<Callout type="tip" title="Read the discussion before the results">
+  In an abstract, read the discussion first. It's where the authors say what their results can and can't show, with words like *toutefois*, *à ce stade* and *ne permettent pas d'établir*. Once you know the limits, you'll read the results at their real strength.
+</Callout>
+
+## En résumé
+
+Un article scientifique commence par un résumé en quatre parties : le contexte, la méthode, les résultats et la discussion. La méthode décrit le protocole. Dans une étude d'observation, les chercheurs mesurent ce qui existe ; dans une expérience, ils tirent au sort les participants et les comparent à un groupe témoin. Pour parler d'eux-mêmes, les auteurs emploient souvent nous ; ils utilisent aussi on et le passif. Une corrélation veut dire que deux choses varient ensemble ; un lien de causalité veut dire que l'une cause l'autre. En général, une étude d'observation montre une corrélation, et il faut une expérience pour établir un lien de causalité. Les chercheurs mesurent la force de ce qu'ils affirment : ils écrivent que les résultats suggèrent un lien, ou laissent penser que, et ils indiquent les limites avec toutefois ou à ce stade. Enfin, une version grand public reste aussi prudente que le résumé et n'ajoute rien à ce qu'il dit.
+
+## What's next
+
+Next, <LessonLink id="c2-administrative-french" text="the lesson on administrative French" /> turns to the letters and forms of an administration, and to the reply they expect.
+
+===== content/lessons/c2/administrative-french.mdx =====
+---
+id: "c2-administrative-french"
+title: "Reading Administrative French"
+description: "Understand an official letter and answer it correctly: les pièces justificatives, un justificatif de domicile, un avis d'imposition, un formulaire; dans un délai de, à compter de, il vous appartient de, faire parvenir, bénéficier de; the abbreviations réf., cf., N.B. and P.J.; and a reply with the full layout."
+level: "C2"
+unit: "Specialized French"
+order: 17
+type: "vocabulary"
+tags: ["vocabulary", "administrative French", "formal letter", "register", "abbreviations"]
+prerequisites: ["c1-formal-correspondence", "b1-formal-email", "c2-legal-french"]
+related: ["b1-review-home-money-problems", "c1-culture-laicite-and-institutions", "c2-review-specialized"]
+vocab:
+  - { id: "c2-administrative-french-v001", group: "documents", fr: "une administration", pron: "ew-nahd-mee-nee-strah-SYOHN", en: "an administration, a public body" }
+  - { id: "c2-administrative-french-v002", group: "documents", fr: "un justificatif de domicile", pron: "uhn zhews-tee-fee-kah-TEEF duh doh-mee-SEEL", en: "proof of address" }
+  - { id: "c2-administrative-french-v003", group: "documents", fr: "un avis d'imposition", pron: "uh-nah-VEE dan-poh-zee-SYOHN", en: "a tax assessment notice" }
+  - { id: "c2-administrative-french-v004", group: "documents", fr: "un formulaire", pron: "uhn for-mew-LEHR", en: "a form" }
+  - { id: "c2-administrative-french-v005", group: "documents", fr: "remplir (un formulaire)", pron: "rahn-PLEER", en: "to fill in (a form)" }
+  - { id: "c2-administrative-french-v006", group: "documents", fr: "une attestation", pron: "ew-nah-tes-tah-SYOHN", en: "a certificate, a written statement" }
+  - { id: "c2-administrative-french-v007", group: "documents", fr: "complet / complète, incomplet / incomplète", pron: "kohn-PLEH / kohn-PLET, an-kohn-PLEH / an-kohn-PLET", en: "complete, incomplete (a file)" }
+  - { id: "c2-administrative-french-v008", group: "documents", fr: "un usager / une usagère", pron: "uh-new-zah-ZHAY / ew-new-zah-ZHEHR", en: "a user (of a public service)" }
+  - { id: "c2-administrative-french-v009", group: "phrases", fr: "dans un délai de", pron: "dahn-zuhn day-LEH duh", en: "within (a period)" }
+  - { id: "c2-administrative-french-v010", group: "phrases", fr: "à compter de", pron: "ah kohn-TAY duh", en: "from, as of (a date)" }
+  - { id: "c2-administrative-french-v011", group: "phrases", fr: "il vous appartient de", pron: "eel voo-zah-par-TYAN duh", en: "it is up to you to (formal)" }
+  - { id: "c2-administrative-french-v012", group: "phrases", fr: "faire parvenir", pron: "fehr par-vuh-NEER", en: "to send, to forward (formal)" }
+  - { id: "c2-administrative-french-v013", group: "phrases", fr: "bénéficier de", pron: "bay-nay-fee-SYAY duh", en: "to receive, to be entitled to (an aid, a service)" }
+  - { id: "c2-administrative-french-v014", group: "phrases", fr: "après examen", pron: "ah-preh-zeg-zah-MAN", en: "after examination (of a file)" }
+  - { id: "c2-administrative-french-v015", group: "phrases", fr: "à tarif réduit", pron: "ah tah-REEF ray-DWEE", en: "at a reduced rate" }
+  - { id: "c2-administrative-french-v016", group: "abbreviations", fr: "une abréviation", pron: "ew-nah-bray-vyah-SYOHN", en: "an abbreviation" }
+  - { id: "c2-administrative-french-v017", group: "abbreviations", fr: "réf. (référence)", pron: "ray-fay-RAHNSS", en: "ref. (reference)", note: "Vos réf.: your reference, in a reply." }
+  - { id: "c2-administrative-french-v018", group: "abbreviations", fr: "cf.", pron: "kohn-FEHR", en: "see, compare (refers to another passage or document)", note: "Usually read as confer or simply voir." }
+  - { id: "c2-administrative-french-v019", group: "abbreviations", fr: "N.B.", pron: "en BAY", en: "NB, note well", note: "Also written NB." }
+  - { id: "c2-administrative-french-v020", group: "abbreviations", fr: "P.J. (pièce jointe)", pron: "pay ZHEE", en: "enclosure(s), attachment(s)", note: "Also written PJ; plural: pièces jointes." }
+  - { id: "c2-administrative-french-v021", group: "glossary", fr: "municipal / municipale (municipales)", pron: "mew-nee-see-PAHL", en: "municipal, of the town" }
+  - { id: "c2-administrative-french-v022", group: "glossary", fr: "la réception", pron: "lah ray-sep-SYOHN", en: "receipt (of a letter, of documents)" }
+  - { id: "c2-administrative-french-v023", group: "glossary", fr: "traitée (traiter)", pron: "treh-TAY", en: "processed (to process)" }
+exercises:
+  - id: "c2-administrative-french-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « il vous appartient de » dans la phrase : Il vous appartient de nous faire parvenir ces pièces."
+    options: ["it's up to you to", "it belongs to you to keep", "you are allowed to"]
+    answers: ["it's up to you to"]
+    explanation: "Il vous appartient de: it's your responsibility to. Nothing here belongs to anyone."
+  - id: "c2-administrative-french-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « P.J. » en bas d'une lettre."
+    options: ["les documents joints à la lettre", "le nom de la personne qui signe", "la date de la lettre"]
+    answers: ["les documents joints à la lettre"]
+    explanation: "P.J. (pièce jointe, pièces jointes) lists the enclosures, after the signature."
+  - id: "c2-administrative-french-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « cf. » dans la phrase : Votre dossier est incomplet (cf. formulaire ci-joint)."
+    options: ["voir, se reporter à", "attention, c'est important", "fin de la lettre"]
+    answers: ["voir, se reporter à"]
+    explanation: "Cf. sends the reader to another document or passage: here, the enclosed form."
+  - id: "c2-administrative-french-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « le cas échéant » dans la phrase : Le cas échéant, vous pourrez bénéficier de la carte à compter du mois suivant."
+    options: ["if that is the case", "at the latest", "in any case"]
+    answers: ["if that is the case"]
+    explanation: "Le cas échéant: if the situation arises, if applicable. Here: if the file is complete."
+  - id: "c2-administrative-french-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez l'abréviation qui convient : ___ : une copie de chaque document suffit."
+    options: ["N.B.", "P.J.", "Réf."]
+    answers: ["N.B."]
+    explanation: "N.B. adds a note the reader mustn't miss. P.J. lists enclosures, and Réf. gives a reference."
+  - id: "c2-administrative-french-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Vous devez nous répondre dans un ___ d'un mois."
+    answers: ["délai"]
+    explanation: "Dans un délai de + a period: within that period."
+  - id: "c2-administrative-french-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Le délai court à ___ de la date du présent courrier."
+    answers: ["compter"]
+    explanation: "À compter de: from, starting on (a date)."
+  - id: "c2-administrative-french-ex008"
+    type: "fill-in"
+    prompt: "Complétez : Pour prouver votre adresse, envoyez un justificatif de ___."
+    answers: ["domicile"]
+    explanation: "Un justificatif de domicile: proof of address."
+  - id: "c2-administrative-french-ex009"
+    type: "register-shift"
+    prompt: "Transformez en français courant, avec « c'est à vous de » et « envoyer » : Il vous appartient de nous faire parvenir ces documents."
+    strictAccents: true
+    answers: ["C'est à vous de nous envoyer ces documents"]
+    explanation: "Il vous appartient de becomes c'est à vous de, and faire parvenir becomes envoyer."
+  - id: "c2-administrative-french-ex010"
+    type: "register-shift"
+    prompt: "Transformez en français administratif, avec « il vous appartient de » et « faire parvenir » : C'est à vous de nous envoyer le formulaire."
+    answers: ["Il vous appartient de nous faire parvenir le formulaire"]
+    explanation: "The administrative register: il vous appartient de + faire parvenir."
+  - id: "c2-administrative-french-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « sous réserve de » + nom : Votre demande sera traitée si nous recevons les pièces."
+    answers: ["Votre demande sera traitée sous réserve de la réception des pièces", "Votre demande sera traitée sous réserve de réception des pièces"]
+    explanation: "Sous réserve de + noun states the condition: here, receiving the documents."
+  - id: "c2-administrative-french-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec « à compter de » : Vous pourrez bénéficier de la carte à partir du mois suivant."
+    strictAccents: true
+    answers: ["Vous pourrez bénéficier de la carte à compter du mois suivant"]
+    explanation: "À compter de is the administrative equivalent of à partir de, for a date."
+  - id: "c2-administrative-french-ex013"
+    type: "translate"
+    prompt: "Traduisez (une pièce justificative) : Your file is incomplete: two supporting documents are missing."
+    answers: ["Votre dossier est incomplet : il manque deux pièces justificatives", "Votre dossier est incomplet : il y manque deux pièces justificatives", "Votre dossier est incomplet : deux pièces justificatives manquent"]
+    explanation: "Il manque + noun: the usual way to say something is missing."
+  - id: "c2-administrative-french-ex014"
+    type: "translate"
+    prompt: "Traduisez (remplir, ci-joint, à l'impératif, vous) : Fill in the enclosed form."
+    answers: ["Remplissez le formulaire ci-joint"]
+    explanation: "Remplir un formulaire: to fill in a form. Ci-joint after the noun: enclosed."
+  - id: "c2-administrative-french-ex015"
+    type: "error-correction"
+    prompt: "Corrigez l'abréviation, qui ne convient pas pour la liste des documents joints, en bas de la lettre (écrivez l'abréviation avec des points) : Réf. : justificatif de domicile ; avis d'imposition"
+    answers: ["P.J. : justificatif de domicile ; avis d'imposition"]
+    explanation: "P.J. (or PJ) lists the enclosures; Réf. gives the file's reference, at the top."
+  - id: "c2-administrative-french-ex016"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur d'accord : Veuillez trouver ci-joint les pièces justificatives demandés."
+    answers: ["Veuillez trouver ci-joint les pièces justificatives demandées"]
+    explanation: "Demandées agrees with les pièces justificatives, feminine plural."
+  - id: "c2-administrative-french-ex017"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : It is up to you to send us these documents."
+    words: ["Il", "vous", "appartient", "de", "nous", "faire", "parvenir", "ces", "documents"]
+    answers: ["Il vous appartient de nous faire parvenir ces documents"]
+    explanation: "Il vous appartient de + infinitive; the pronoun nous comes before faire parvenir."
+  - id: "c2-administrative-french-ex018"
+    type: "writing-task"
+    prompt: "Rédigez le corps d'une réponse à la lettre de la mairie (50 à 90 mots), avec la formule d'appel et la formule finale : vous envoyez le justificatif de domicile, mais votre avis d'imposition n'est pas encore arrivé ; vous l'enverrez dès que possible."
+    model: "Madame, Monsieur, en réponse à votre courrier du 10 avril, je vous prie de trouver ci-joint mon justificatif de domicile. Je n'ai pas encore reçu mon dernier avis d'imposition ; je vous le ferai parvenir dès que possible. Je vous serais reconnaissante de bien vouloir garder mon dossier ouvert jusqu'à son arrivée. Veuillez agréer, Madame, Monsieur, mes salutations distinguées."
+    checklist: ["Did you mention the letter you're answering (its date)?", "Did you say what you enclose, and what's missing?", "Did you say when you'll send the missing document?", "Did you keep a formal register from the salutation to the closing?", "Did you avoid adding facts the situation doesn't give?"]
+    wordTarget: [50, 90]
+---
+
+By the end of this lesson you'll be able to understand a letter from an administration, find every document, deadline and condition it contains, and answer it with the right layout and the right register.
+
+## What you already know
+
+You know the layout of a formal letter (*l'expéditeur*, *le destinataire*, *nos références / vos références*, *en réponse à*, *accuser réception de*) from <LessonLink id="c1-formal-correspondence" text="the lesson on formal correspondence" />. You know *l'objet* and *vous trouverez ci-joint* from <LessonLink id="b1-formal-email" text="the lesson on formal emails" />, and *un justificatif*, *joindre* and *un numéro de dossier* from <LessonLink id="b1-review-home-money-problems" text="the review on home and money problems" />. You know *le cas échéant* from <LessonLink id="b2-participles-and-gerund" text="the lesson on participles and the gerund" />, and *sous réserve de* from <LessonLink id="c1-advanced-connectors" text="the lesson on advanced connectors" />. You know *une pièce justificative* (a supporting document) from <LessonLink id="c2-polysemy" text="the lesson on polysemy" />.
+
+**The administration in this lesson is invented**, and so are its procedure, its deadline and its letters. They show how administrative French is built; they don't describe a real procedure.
+
+## The documents an administration asks for
+
+<VocabTable group="documents" />
+
+Most requests to an administration need *des pièces justificatives* (supporting documents). The two you'll meet most often are *un justificatif de domicile* (proof of address) and *un avis d'imposition* (a tax assessment notice), which this lesson names but doesn't explain. You may also have to *remplir un formulaire* (fill in a form) or provide *une attestation* (a written statement, a certificate).
+
+A file is *complet* when nothing is missing, and *incomplet* otherwise.
+
+<Example fr="Votre dossier est incomplet : il manque un justificatif de domicile." en="Your file is incomplete: proof of address is missing." />
+
+<Example fr="Remplissez le formulaire et envoyez une attestation de votre employeur." en="Fill in the form and send a certificate from your employer." />
+
+## The voice of an administration
+
+An administration writes as an institution, not as a person. It speaks of itself as *nous* (*nous accusons réception*), and signs with the name of a department rather than a person's name. The person who uses a public service is *un usager* or *une usagère*, and the letter addresses them as *vous*. Decisions are often given without a verb, in the nominal style (*après examen*), or in the passive (*votre demande sera traitée*), so that no individual official appears as the one who decides. Read these forms as the institution speaking, not as coldness towards you.
+
+<Example fr="Le service est ouvert à tous les usagers de la ville." en="The service is open to all the town's users." />
+
+## The phrases of an official letter
+
+<VocabTable group="phrases" />
+
+Administrative letters use a small set of fixed phrases. Each one has an everyday equivalent:
+
+- **Dans un délai de** + a period means "within": *dans un délai d'un mois*.
+- **À compter de** + a date means "from": *à compter de la date du présent courrier*. In a letter, it often tells you when a deadline starts.
+- **Il vous appartient de** + infinitive means "it's up to you to": *c'est à vous de*.
+- **Faire parvenir** means "to send": *envoyer*.
+- **Bénéficier de** means "to receive" an aid or a service: *vous pourrez bénéficier de la carte*.
+- **Après examen** (after examination) opens the decision: *après examen, votre dossier est incomplet*.
+
+You also know two phrases that state conditions: *sous réserve de* (provided that) and *le cas échéant* (if that is the case).
+
+<Example fr="Il vous appartient de nous faire parvenir ces documents dans un délai d'un mois." en="It's up to you to send us these documents within a month." />
+
+<Example fr="Le cas échéant, vous pourrez bénéficier de la carte à tarif réduit à compter du mois suivant." en="If that is the case, you'll be able to receive the reduced-rate card from the following month." />
+
+## Abbreviations
+
+<VocabTable group="abbreviations" />
+
+French letters use four abbreviations, each in its own place:
+
+- **Réf.** goes at the top, under the addresses: *Réf. : dossier 2417*. In a reply, write *Vos réf.* and copy the reference.
+- **Cf.** appears in the body, to send the reader to another document: *(cf. formulaire ci-joint)*.
+- **N.B.** comes after the body, for a note the reader mustn't miss.
+- **P.J.** comes at the very end, after the signature, and lists the enclosures.
+
+*N.B.* and *P.J.* are also written without full stops: *NB*, *PJ*.
+
+<Example fr="N.B. : une copie de chaque document suffit." en="NB: a copy of each document is enough." />
+
+## Answering an administration
+
+A reply to an administration is a formal letter, with the full layout you know. As a rule of thumb, before you write it:
+
+- **List what the letter asks for**: every document, every deadline, every condition (*sous réserve de*, *le cas échéant*).
+- **Answer each request** in the body, in the same order.
+- **Copy the reference** (*Vos réf.*) and the date of the letter (*en réponse à votre courrier du…*).
+- **List the enclosures** after *P.J.*, using the letter's own words.
+- **Keep the register**: formal from the salutation to the closing, with no familiar word.
+
+## The model: a letter from an administration
+
+The letter below is from an invented administration, to Inès Ferrand, who has applied for a reduced-rate transport card.
+
+*Mairie de Valbrune, service des aides municipales (administration inventée pour la leçon)*
+
+*Mme Inès Ferrand, 12 avenue de la Gare, Valbrune*
+
+*Valbrune, le 10 avril*
+
+*Réf. : dossier 2417*
+
+*Objet : votre demande de carte de transport à tarif réduit*
+
+*Madame, nous accusons réception de votre demande de carte de transport à tarif réduit. Après examen, votre dossier est incomplet : il y manque deux pièces justificatives, un justificatif de domicile et votre dernier avis d'imposition (cf. formulaire ci-joint). Il vous appartient de nous les faire parvenir dans un délai d'un mois à compter de la date du présent courrier. Votre demande sera traitée sous réserve de la réception de ces pièces. Le cas échéant, vous pourrez bénéficier de la carte à compter du mois suivant.*
+
+*N.B. : une copie de chaque document suffit.*
+
+*Veuillez agréer, Madame, nos salutations distinguées.*
+
+*Le service des aides municipales*
+
+*P.J. : formulaire de demande*
+
+(Valbrune town hall, municipal aid department (an administration invented for the lesson). Mrs Inès Ferrand, 12 avenue de la Gare, Valbrune. Valbrune, 10 April. Ref.: file 2417. Subject: your application for a reduced-rate transport card. Madam, we acknowledge receipt of your application for a reduced-rate transport card. After examination, your file is incomplete: two supporting documents are missing from it, proof of address and your latest tax assessment notice (see enclosed form). It is up to you to send them to us within a month from the date of this letter. Your application will be processed provided these documents are received. If that is the case, you'll be able to receive the card from the following month. NB: a copy of each document is enough. Yours faithfully, the municipal aid department. Enc.: application form.)
+
+## The model: the reply
+
+Inès answers with the full layout: sender, recipient, place and date, reference, *objet*, salutation, body, closing, signature and enclosures.
+
+*Inès Ferrand, 12 avenue de la Gare, Valbrune*
+
+*Mairie de Valbrune, service des aides municipales*
+
+*Valbrune, le 15 avril*
+
+*Vos réf. : dossier 2417*
+
+*Objet : pièces justificatives pour ma demande de carte à tarif réduit*
+
+*Madame, Monsieur, en réponse à votre courrier du 10 avril, je vous prie de trouver ci-joint les deux pièces justificatives demandées : un justificatif de domicile et mon dernier avis d'imposition. Je vous serais reconnaissante de bien vouloir m'informer de votre décision.*
+
+*Veuillez agréer, Madame, Monsieur, mes salutations distinguées.*
+
+*Inès Ferrand*
+
+*P.J. : justificatif de domicile ; avis d'imposition*
+
+(Inès Ferrand, 12 avenue de la Gare, Valbrune. Valbrune town hall, municipal aid department. Valbrune, 15 April. Your ref.: file 2417. Subject: supporting documents for my application for a reduced-rate card. Dear Sir or Madam, in reply to your letter of 10 April, please find enclosed the two supporting documents requested: proof of address and my latest tax assessment notice. I would be grateful if you could inform me of your decision. Yours faithfully, Inès Ferrand. Enc.: proof of address; tax assessment notice.)
+
+<VocabTable group="glossary" />
+
+## How the letters work
+
+- **The layout**: both letters give the sender, the recipient, the place and date, the reference, the *objet*, the salutation, the body and the closing. The letter from the administration is signed by a department, and Inès signs with her name.
+- **The abbreviations in their places**: *Réf.* and *Vos réf.* at the top, *cf.* in the body, *N.B.* after the body, *P.J.* at the end.
+- **The requests and the answer**: the administration asks for two documents; Inès sends both, names them in the body and lists them after *P.J.*
+- **The deadline and the conditions**: *dans un délai d'un mois à compter de la date du présent courrier*; *sous réserve de la réception de ces pièces*; *le cas échéant*.
+- **The register**: *nous accusons réception*, *il vous appartient de*, *faire parvenir* in the administration's letter; *je vous prie de trouver ci-joint*, *je vous serais reconnaissante de bien vouloir* in the reply. Inès writes *Madame, Monsieur* because the letter is signed by a department, not by a named person.
+
+## En français
+
+Inès goes to the town hall with the letter, and asks an agent at the counter about it. They use *vous*.
+
+- *Bonjour, j'ai reçu ce courrier. On me dit que mon dossier est incomplet.* (Hello, I've received this letter. It says my file is incomplete.)
+- *Je regarde. Oui, il manque deux pièces justificatives : un justificatif de domicile et votre dernier avis d'imposition.* (Let me look. Yes, two supporting documents are missing: proof of address and your latest tax assessment notice.)
+- *Qu'est-ce qui compte comme justificatif de domicile ?* (What counts as proof of address?)
+- *La liste des documents acceptés est dans le formulaire joint : c'est pour ça que le courrier écrit « cf. formulaire ci-joint ».* (The list of accepted documents is in the enclosed form: that's why the letter says "cf. formulaire ci-joint".)
+- *Et « il vous appartient de », ça veut dire quoi ?* (And what does "il vous appartient de" mean?)
+- *Que c'est à vous de le faire : c'est vous qui devez nous envoyer les documents.* (That it's up to you: you're the one who has to send us the documents.)
+- *J'ai combien de temps ?* (How long do I have?)
+- *Un mois à compter de la date du courrier, donc à partir du 10 avril.* (A month from the date of the letter, so from 10 April.)
+- *Une copie suffit, ou il faut les originaux ?* (Is a copy enough, or do you need the originals?)
+- *Une copie suffit : c'est le N.B. en bas de la lettre.* (A copy is enough: that's the NB at the bottom of the letter.)
+- *Et si j'envoie tout à temps, j'aurai la carte ?* (And if I send everything in time, will I get the card?)
+- *Votre demande sera traitée sous réserve de la réception des pièces. Je ne peux pas vous en dire plus avant l'examen du dossier.* (Your application will be processed provided the documents are received. I can't tell you more before the file is examined.)
+- *D'accord. Je réponds par courrier ?* (OK. Do I reply by post?)
+- *Oui, et notez la référence du dossier, avec « Vos réf. », en haut de votre lettre.* (Yes, and write the file reference, with "Vos réf.", at the top of your letter.)
+
+<Callout type="warning" title="Il vous appartient de doesn't mean it belongs to you">
+  *Appartenir à* means to belong to, so learners often read *il vous appartient de nous faire parvenir ces pièces* as something that belongs to them. In an official letter, it means it's your responsibility: **c'est à vous de nous envoyer ces pièces**.
+</Callout>
+
+<Callout type="tip" title="Turn the letter into a checklist">
+  Before you answer an official letter, copy every request into a short list: each document, each deadline, each *sous réserve de* or *le cas échéant*. Write your reply from that list, and tick each item as you answer it. Then copy your list of documents after *P.J.*
+</Callout>
+
+## En résumé
+
+Une administration demande souvent des pièces justificatives, comme un justificatif de domicile ou un avis d'imposition, et parfois un formulaire à remplir ou une attestation. Un dossier est complet quand il ne manque rien, et incomplet dans le cas contraire. Les lettres administratives emploient des formules fixes : dans un délai de veut dire avant la fin d'une période, à compter de indique à partir de quelle date, il vous appartient de veut dire que c'est à vous de le faire, et faire parvenir veut dire envoyer. Sous réserve de et le cas échéant posent des conditions. Chaque abréviation a sa place : Réf. en haut de la lettre, cf. dans le texte pour indiquer un autre document, N.B. après le texte, et P.J. tout à la fin, pour les documents joints. Pour répondre, on reprend la référence et la date du courrier, on répond à chaque demande dans l'ordre, et on garde un registre soutenu jusqu'à la formule finale.
+
+## What's next
+
+Next, <LessonLink id="c2-review-specialized" text="the review of specialized French" /> brings the unit together: one situation told in legal, medical and plain French.
+
+===== content/lessons/c2/review-specialized.mdx =====
+---
+id: "c2-review-specialized"
+title: "Review: Specialized French"
+description: "Review Unit 3 with one invented situation told three times, in legal, medical and plain French, with the same facts in each; then vulgarize a medical paragraph for a friend."
+level: "C2"
+unit: "Specialized French"
+order: 18
+type: "review"
+tags: ["review", "specialized French", "register", "vulgarization", "legal French", "medical French"]
+prerequisites: ["c2-legal-french", "c2-medical-french", "c2-scientific-french", "c2-administrative-french"]
+related: ["c1-register-shifting", "c2-review-words", "c2-implicit-meaning"]
+vocab:
+  - { id: "c2-review-specialized-v001", group: "new", fr: "un jargon", pron: "uhn zhar-GOHN", en: "jargon (a specialized language outsiders find hard to follow)" }
+  - { id: "c2-review-specialized-v002", group: "new", fr: "un lexique spécialisé", pron: "uhn lek-SEEK spay-syah-lee-ZAY", en: "a specialized vocabulary" }
+  - { id: "c2-review-specialized-v003", group: "new", fr: "vulgariser", pron: "vewl-gah-ree-ZAY", en: "to explain (a specialized subject) to non-specialists", note: "In this sense, the word is neutral. Its rare literary sense, to make vulgar, isn't the one here." }
+  - { id: "c2-review-specialized-v004", group: "new", fr: "la vulgarisation", pron: "lah vewl-gah-ree-zah-SYOHN", en: "popularization, explaining specialized knowledge to the general public" }
+  - { id: "c2-review-specialized-v005", group: "glossary", fr: "un règlement", pron: "uhn reh-gluh-MAHN", en: "a set of rules, regulations" }
+  - { id: "c2-review-specialized-v006", group: "glossary", fr: "postérieurement à", pron: "poss-tay-ryuhr-MAHN ah", en: "after (formal)" }
+  - { id: "c2-review-specialized-v007", group: "glossary", fr: "l'intéressée (l'intéressé)", pron: "lan-tay-reh-SAY", en: "the person concerned (formal)" }
+  - { id: "c2-review-specialized-v008", group: "glossary", fr: "nécessité (nécessiter)", pron: "nay-seh-see-TAY", en: "required (to require)" }
+  - { id: "c2-review-specialized-v009", group: "glossary", fr: "l'impossibilité (f.)", pron: "lan-poh-see-bee-lee-TAY", en: "impossibility; être dans l'impossibilité de: to be unable to" }
+  - { id: "c2-review-specialized-v010", group: "glossary", fr: "réunir", pron: "ray-ew-NEER", en: "to gather, to collect" }
+  - { id: "c2-review-specialized-v011", group: "glossary", fr: "dispose (disposer que)", pron: "dees-POHZ", en: "provides (of a law or rule: to provide that)" }
+  - { id: "c2-review-specialized-v012", group: "glossary", fr: "prolongé (prolonger)", pron: "proh-lohn-ZHAY", en: "extended (to extend)" }
+  - { id: "c2-review-specialized-v013", group: "glossary", fr: "la prolongation", pron: "lah proh-lohn-gah-SYOHN", en: "extension (of a deadline)" }
+  - { id: "c2-review-specialized-v014", group: "glossary", fr: "en conséquence", pron: "ahn kohn-say-KAHNSS", en: "consequently (formal)" }
+  - { id: "c2-review-specialized-v015", group: "glossary", fr: "un motif", pron: "uhn moh-TEEF", en: "a reason (for an appointment, a request)" }
+  - { id: "c2-review-specialized-v016", group: "glossary", fr: "remis (remettre)", pron: "ruh-MEE", en: "handed (to hand over)" }
+  - { id: "c2-review-specialized-v017", group: "glossary", fr: "dudit, lesdites (ledit)", pron: "dew-DEE, lay-DEET", en: "of the said, the said (feminine plural)" }
+  - { id: "c2-review-specialized-v018", group: "glossary", fr: "prévoyant (prévoir)", pron: "pray-vwah-YAHN", en: "providing for (to provide for)" }
+  - { id: "c2-review-specialized-v019", group: "glossary", fr: "atteste (attester)", pron: "ah-TEST", en: "states, certifies (to certify)" }
+  - { id: "c2-review-specialized-v020", group: "glossary", fr: "l'appendice (m.)", pron: "lah-pan-DEESS", en: "the appendix" }
+exercises:
+  - id: "c2-review-specialized-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « lesdites pièces » dans la phrase : Le repos la met dans l'impossibilité de réunir lesdites pièces."
+    options: ["les pièces dont on vient de parler", "toutes les pièces du dossier", "d'autres pièces"]
+    answers: ["les pièces dont on vient de parler"]
+    explanation: "Ledit, ladite, lesdits, lesdites point back to what was just named (c2-legal-french)."
+  - id: "c2-review-specialized-ex002"
+    type: "register-shift"
+    prompt: "Transformez en français courant, avec « doit » : L'intéressée est tenue de réunir les pièces."
+    answers: ["Elle doit réunir les pièces", "L'intéressée doit réunir les pièces"]
+    explanation: "Être tenu de is the legal way of saying devoir."
+  - id: "c2-review-specialized-ex003"
+    type: "error-correction"
+    prompt: "Corrigez l'erreur : Le médecin a diagnostic une appendicite."
+    strictAccents: true
+    answers: ["Le médecin a diagnostiqué une appendicite"]
+    explanation: "Diagnostic is the noun; the verb is diagnostiquer, so the past participle is diagnostiqué (c2-medical-french)."
+  - id: "c2-review-specialized-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de la finale « -ectomie » dans « une appendicectomie »."
+    options: ["retirer un organe ou une partie d'un organe", "une inflammation", "une douleur"]
+    answers: ["retirer un organe ou une partie d'un organe"]
+    explanation: "-ectomie: removal; -ite: inflammation; -algie: pain."
+  - id: "c2-review-specialized-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez ce que cette enquête d'observation permet d'établir : on observe que les habitants qui vivent près d'un parc consultent moins souvent leur médecin."
+    options: ["une corrélation", "un lien de causalité"]
+    answers: ["une corrélation"]
+    explanation: "An observational survey shows that the two things vary together. Another factor could explain both (c2-scientific-french)."
+  - id: "c2-review-specialized-ex006"
+    type: "error-correction"
+    prompt: "Corrigez la phrase, qui affirme trop, en remplaçant le verbe par « suggérer » : Ces résultats prouvent que les parcs protègent la santé."
+    answers: ["Ces résultats suggèrent que les parcs protègent la santé"]
+    explanation: "An observational result suggests; it doesn't prove."
+  - id: "c2-review-specialized-ex007"
+    type: "multiple-choice"
+    prompt: "Choisissez l'abréviation qui convient, tout à la fin de la lettre : ___ : certificat médical"
+    options: ["P.J.", "Réf.", "Cf."]
+    answers: ["P.J."]
+    explanation: "P.J. lists the enclosures, after the signature (c2-administrative-french)."
+  - id: "c2-review-specialized-ex008"
+    type: "register-shift"
+    prompt: "Transformez en français administratif, avec « il vous appartient de » et « faire parvenir » : C'est à vous de nous envoyer le certificat."
+    answers: ["Il vous appartient de nous faire parvenir le certificat"]
+    explanation: "Il vous appartient de: it's up to you to; faire parvenir: to send (formal)."
+  - id: "c2-review-specialized-ex009"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe : Faire de la vulgarisation, c'est ___ un texte spécialisé pour le grand public."
+    answers: ["vulgariser"]
+    explanation: "Vulgariser: to explain a specialized subject to non-specialists. The noun is la vulgarisation."
+  - id: "c2-review-specialized-ex010"
+    type: "multiple-choice"
+    prompt: "Indiquez le sens de « un jargon » dans la phrase : Ce règlement est écrit dans un jargon que seuls les spécialistes du droit comprennent."
+    options: ["a specialized language that outsiders find hard to follow", "a regional accent", "a spelling mistake"]
+    answers: ["a specialized language that outsiders find hard to follow"]
+    explanation: "Un jargon: a specialized language, often said with a critical tone. Un lexique spécialisé is the neutral term."
+  - id: "c2-review-specialized-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « à compter de » : Vous avez un mois à partir de la date du courrier."
+    strictAccents: true
+    answers: ["Vous avez un mois à compter de la date du courrier"]
+    explanation: "À compter de is the administrative equivalent of à partir de."
+  - id: "c2-review-specialized-ex012"
+    type: "translate"
+    prompt: "Traduisez (prolonger, au passif, sous réserve de) : The deadline may be extended, provided a medical certificate is presented."
+    answers: ["Le délai peut être prolongé, sous réserve de la présentation d'un certificat médical", "Le délai peut être prolongé, sous réserve de présentation d'un certificat médical"]
+    explanation: "Sous réserve de + noun states the condition; the passive peut être prolongé leaves out who extends it."
+  - id: "c2-review-specialized-ex013"
+    type: "translate"
+    prompt: "Traduisez (le pronostic) : The prognosis is favourable."
+    answers: ["Le pronostic est favorable"]
+    explanation: "Le pronostic: how an illness is expected to develop; favorable has no u in French."
+  - id: "c2-review-specialized-ex014"
+    type: "register-shift"
+    prompt: "Transformez la note médicale en phrase complète, avec « Le médecin lui a prescrit » : Repos prescrit."
+    strictAccents: true
+    answers: ["Le médecin lui a prescrit du repos"]
+    explanation: "A medical note uses the nominal style; the plain version restores the subject and the verb."
+  - id: "c2-review-specialized-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : A plain version keeps every condition."
+    words: ["Une", "version", "simple", "garde", "toutes", "les", "conditions"]
+    answers: ["Une version simple garde toutes les conditions"]
+    explanation: "The rule of the whole unit: a plain version changes the words, not the content."
+  - id: "c2-review-specialized-ex016"
+    type: "error-correction"
+    prompt: "Corrigez la version simple, qui oublie la condition, en ajoutant « si elle présente un certificat médical » : Règlement : « Ce délai peut être prolongé sur présentation d'un certificat médical. » Version : On peut lui donner plus de temps."
+    answers: ["On peut lui donner plus de temps si elle présente un certificat médical", "Si elle présente un certificat médical, on peut lui donner plus de temps"]
+    explanation: "Without the condition, the plain version says that more time is always possible, which the rule doesn't say."
+  - id: "c2-review-specialized-ex017"
+    type: "writing-task"
+    prompt: "Vulgarisez ce compte rendu pour un ami, sans lexique spécialisé (40 à 80 mots) : « Patient adulte, sans antécédents. Consulte pour une gastralgie aiguë. Examen normal. Diagnostic : gastrite. Pronostic favorable. Traitement prescrit ; nouvelle consultation si les symptômes persistent. »"
+    model: "Le patient est un adulte qui n'avait jamais eu de problème de santé important. Il est venu parce qu'il avait mal à l'estomac, une douleur arrivée d'un coup. Le médecin l'a examiné sans rien trouver d'anormal, puis a diagnostiqué une gastrite, c'est-à-dire une inflammation de l'estomac. Il devrait bien guérir. Le médecin lui a prescrit un traitement, et il doit revenir s'il a encore mal."
+    checklist: ["Did you replace every term (antécédents, gastralgie, aiguë, diagnostic, pronostic)?", "Did you keep every fact, including the condition for coming back?", "Did you write full sentences instead of the nominal style?", "Did you add no advice and no fact that isn't in the summary?", "Is your count between 40 and 80 words?"]
+    wordTarget: [40, 80]
+---
+
+By the end of this lesson you'll be able to tell the same facts in legal, medical and plain French, check that no fact or condition is lost between them, and vulgarize a short specialized text.
+
+## What you've learned
+
+Skim this list, and go back to anything that feels shaky.
+
+- **Legal French**: you know *sous peine de*, *à défaut de*, *nonobstant*, *ledit*, *résilier* and *un préavis*, and that a plain version keeps every obligation and condition, from <LessonLink id="c2-legal-french" text="the lesson on legal French" />.
+- **Medical French**: you know *la posologie*, *une contre-indication*, *un diagnostic* and *diagnostiquer*, *bénigne* and *maligne*, and the endings *-ite*, *-algie* and *-ectomie*, from <LessonLink id="c2-medical-french" text="the lesson on medical French" />.
+- **Scientific French**: you know *une corrélation* and *un lien de causalité*, *les résultats suggèrent que* and *le nous d'auteur*, from <LessonLink id="c2-scientific-french" text="the lesson on scientific French" />.
+- **Administrative French**: you know *il vous appartient de*, *faire parvenir*, *à compter de* and the abbreviations *réf.*, *cf.*, *N.B.* and *P.J.*, from <LessonLink id="c2-administrative-french" text="the lesson on administrative French" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+These four words name what the unit has been doing. *Un lexique spécialisé* is the vocabulary of a field: law, medicine, science or administration. When that vocabulary shuts out the reader, people call it *un jargon*, often with a critical tone. To *vulgariser* a text is to explain it to non-specialists, and the activity is *la vulgarisation*.
+
+The trap is the verb. *Vulgariser* has a rare literary sense, to make something vulgar, but for knowledge it means to make it accessible. In that sense, it's a neutral, even positive word, used for science writers, museums and doctors who explain things well.
+
+<Example fr="Chaque métier a son lexique spécialisé, que les autres prennent parfois pour un jargon." en="Every profession has its specialized vocabulary, which others sometimes take for jargon." />
+
+<Example fr="La vulgarisation demande de bien connaître un sujet, pas de le rendre trop simple." en="Popularization requires knowing a subject well, not making it too simple." />
+
+<Example fr="Ce médecin sait vulgariser : ses patients comprennent toujours leur traitement." en="This doctor knows how to explain things simply: the patients always understand their treatment." />
+
+## Four registers, one method
+
+The four lessons of the unit studied four kinds of specialized text. They differ in their words, but they share a method.
+
+- **Who speaks**: a contract speaks of *les parties* and *ledit bailleur*; a leaflet speaks to every patient at once; an article says *nous* for its authors; an administration says *nous* for an institution.
+- **The voice**: each register keeps people in the background, with the passive (*peut être résilié*, *sera traitée*), the infinitive (*ne pas dépasser*) or the nominal style (*diagnostic : otite aiguë*, *après examen*).
+- **The small words**: *sous réserve de*, *sous peine de*, *à défaut de*, *en cas de*, *le cas échéant*, *à compter de*. They carry the conditions and the deadlines, so they're the first thing to look for.
+- **The strength of a claim**: a judgment decides, a leaflet instructs, an article suggests. A plain version keeps that strength: it doesn't turn *est corrélé à* into a cause, or *peut* into *doit*.
+
+## How to vulgarize
+
+Every lesson of the unit ended with the same rules of thumb, applied to its own texts. Put together, they make one checklist:
+
+- **Replace each term by a description**, or by its everyday equivalent: *une gastralgie* becomes *une douleur d'estomac*; *il vous appartient de* becomes *c'est à vous de*.
+- **Keep every fact, every condition and every limit**: the notice, the contre-indication, the *ne permettent pas d'établir*.
+- **Turn notes into sentences**: the nominal style of a medical note or an administrative decision becomes full sentences with a subject and a verb.
+- **Add nothing**: no advice, no reassurance, no opinion, no figure.
+- **Choose one reader**, and the register that suits them: *tu* for a friend, *vous* for a patient or a client.
+
+## The situation
+
+The three texts below tell one invented situation. Every fact appears in all three.
+
+- **The letter**: on 10 April, the town hall of Valbrune asked Inès Ferrand for two supporting documents for her application for aid, within a month.
+- **The illness**: after receiving it, she had acute appendicitis and an appendectomy.
+- **The consequence**: her doctor prescribed rest, so she can't gather the documents in time.
+- **The rule**: the aid's rules allow the deadline to be extended if a medical certificate is presented.
+- **The request**: she asks for an extension, and sends a medical certificate stating that her health requires the rest.
+
+The town hall, the aid, its rules and the medical facts are all invented. The texts give no medical or legal advice.
+
+## The model: the legal register
+
+The first text is written in the style of a formal legal request.
+
+*Par courrier du 10 avril, la mairie de Valbrune a demandé à Mme Inès Ferrand, dans le cadre de sa demande d'aide, de lui faire parvenir deux pièces justificatives dans un délai d'un mois à compter de la date dudit courrier. Postérieurement à sa réception, l'intéressée a présenté une appendicite aiguë ayant nécessité une appendicectomie. Le repos prescrit par son médecin la met dans l'impossibilité de réunir lesdites pièces dans le délai imparti.*
+
+*L'article 4 du règlement de l'aide dispose que ce délai peut être prolongé sur présentation d'un certificat médical. En conséquence, l'intéressée sollicite la prolongation du délai et joint à la présente un certificat médical. Ledit certificat atteste que l'état de santé de l'intéressée justifie le repos prescrit.*
+
+(By letter of 10 April, the town hall of Valbrune asked Mrs Inès Ferrand, as part of her application for aid, to send it two supporting documents within a month from the date of the said letter. After receiving it, the person concerned had acute appendicitis requiring an appendectomy. The rest prescribed by her doctor makes it impossible for her to gather the said documents within the time allowed. Article 4 of the aid's rules provides that this deadline may be extended on presentation of a medical certificate. Consequently, the person concerned requests an extension of the deadline and encloses a medical certificate herewith. The said certificate states that the state of health of the person concerned justifies the prescribed rest.)
+
+## The model: the medical register
+
+The second text is a consultation note, in the nominal style of medical French.
+
+*Compte rendu de consultation (document inventé). Patiente : Mme Inès Ferrand. Motif : demande de certificat médical. Contexte : courrier de la mairie du 10 avril, concernant sa demande d'aide, demandant deux pièces justificatives dans un délai d'un mois.*
+
+*Antécédents récents : appendicite aiguë, survenue après la réception de ce courrier, traitée par appendicectomie. Repos prescrit ; patiente dans l'impossibilité de se déplacer pour réunir les pièces dans le délai. Le règlement de l'aide prévoyant une prolongation du délai sur certificat médical, certificat remis ce jour à la patiente pour sa demande de prolongation. Le certificat atteste que l'état de santé de la patiente justifie le repos prescrit.*
+
+(Consultation summary (invented document). Patient: Mrs Inès Ferrand. Reason: request for a medical certificate. Context: a letter from the town hall dated 10 April, about her application for aid, asking for two supporting documents within a month. Recent history: acute appendicitis, which occurred after receipt of this letter, treated by appendectomy. Rest prescribed; patient unable to go out to gather the documents within the deadline. As the aid's rules provide for an extension of the deadline on a medical certificate, certificate handed to the patient today for her request for an extension. The certificate states that the patient's state of health justifies the prescribed rest.)
+
+## The model: the plain register
+
+The third text is a message from Inès to her friend Hugo. They use *tu*.
+
+*Tu te souviens du courrier de la mairie du 10 avril, pour ma demande d'aide ? Ils me demandaient deux documents, et j'avais un mois pour les envoyer. Juste après l'avoir reçu, j'ai eu une appendicite aiguë, et on m'a fait une appendicectomie, c'est-à-dire qu'on m'a retiré l'appendice.*
+
+*Mon médecin m'a dit de me reposer, donc je ne peux pas sortir chercher les documents à temps. Heureusement, le règlement de l'aide dit qu'on peut avoir plus de temps si on présente un certificat médical. Mon médecin m'en a donné un, qui explique que mon état de santé m'oblige à me reposer, et je l'envoie à la mairie pour demander plus de temps.*
+
+(Do you remember the town hall's letter of 10 April, for my application for aid? They were asking me for two documents, and I had a month to send them. Just after I got it, I had acute appendicitis, and I had an appendectomy, which means they removed my appendix. My doctor told me to rest, so I can't go out and get the documents in time. Luckily, the aid's rules say you can get more time if you present a medical certificate. My doctor gave me one, which explains that my state of health means I have to rest, and I'm sending it to the town hall to ask for more time.)
+
+<VocabTable group="glossary" />
+
+## The same facts in three registers
+
+| Fact | Legal | Medical | Plain |
+|---|---|---|---|
+| The letter | *par courrier du 10 avril… dans un délai d'un mois à compter de la date dudit courrier* | *Contexte : courrier de la mairie du 10 avril… dans un délai d'un mois* | *le courrier de la mairie du 10 avril… j'avais un mois* |
+| The illness | *postérieurement à sa réception… une appendicite aiguë ayant nécessité une appendicectomie* | *appendicite aiguë, survenue après la réception de ce courrier, traitée par appendicectomie* | *juste après l'avoir reçu, j'ai eu une appendicite aiguë… on m'a retiré l'appendice* |
+| The consequence | *le repos prescrit… la met dans l'impossibilité de réunir lesdites pièces* | *Repos prescrit ; patiente dans l'impossibilité de se déplacer* | *mon médecin m'a dit de me reposer, donc je ne peux pas sortir* |
+| The rule | *l'article 4 du règlement… dispose que ce délai peut être prolongé* | *le règlement de l'aide prévoyant une prolongation* | *le règlement de l'aide dit qu'on peut avoir plus de temps* |
+| The request | *sollicite la prolongation du délai et joint… un certificat médical. Ledit certificat atteste que…* | *certificat remis ce jour… Le certificat atteste que…* | *mon médecin m'en a donné un, qui explique que… je l'envoie à la mairie* |
+
+Each register keeps the condition of the rule: *sur présentation d'un certificat médical*, *sur certificat médical*, *si on présente un certificat médical*. The plain version also explains the one term it keeps, *une appendicectomie*, with *c'est-à-dire*. Only the legal register names the article of the rules; the other two refer to the rules without a number, which leaves out a detail but adds nothing.
+
+## Your turn
+
+The writing task in the exercises gives you a short consultation summary in medical French. Vulgarize it for a friend: replace every term, keep every fact and the condition for coming back, write full sentences, and add nothing. Then check your text against the five-line checklist from "How to vulgarize".
+
+<Callout type="warning" title="Vulgariser is the usual word for knowledge">
+  English speakers often avoid *vulgariser* because it looks like *vulgar*, and use *populariser* in its place. For specialized knowledge explained to the public, the usual word is **vulgariser**: **ce médecin sait vulgariser**. *Populariser* means to make something popular, which is another idea.
+</Callout>
+
+<Callout type="tip" title="Check a plain version fact by fact">
+  When you've rewritten a specialized text, make a small table like the one above: one row per fact, one column per version. An empty cell shows a lost fact at once, and a cell with more than the original shows something you've added.
+</Callout>
+
+## What's next
+
+The next unit is about reading between the lines. It starts with <LessonLink id="c2-implicit-meaning" text="the lesson on implicit meaning" />.

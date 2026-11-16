@@ -2175,7 +2175,7 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-contraction-de-texte
 
-- **The counts** (lib/word-count.ts, Prompt 45 convention): source 409 words; skeleton 97; model contraction to a quarter 110 (target 102, so 92 to 112); the third 141 (target 136, so 123 to 150); writing-task model, to a fifth, 79 (target 82, so 74 to 90). Checked by script against the lesson file.
+- **The counts** (lib/word-count.ts, Prompt 45 convention): source 409 words; skeleton 97; model contraction to a quarter 110 (target 102, so 92 to 112); the third 143 (target 136, so 123 to 150); writing-task model, to a fifth, 79 (target 82, so 74 to 90). Checked by script against the lesson file.
 - **"The usual rules, as they're taught in French schools"** (order, voice, no quotation, nothing added). Confirm the wording makes no exam claim.
 - **The example count:** « Il faut, c'est-à-dire aujourd'hui, agir » = 8 words with the convention. Confirm.
 - **The source article** is original (no real study, no figures).
@@ -2189,7 +2189,7 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 - **English keys:** lib/check-answer.ts ignores capitals and punctuation and treats straight and curly apostrophes alike, but *couldn't* and *could not* are different strings, so keys list both forms, and British and American variants where both are natural (*pupils* / *students*). Confirm the English keys of ex008 to ex013.
 - **"*Une agence immobilière* → *an estate agent's* (British; American English would say *a real estate agency*)."** Confirm.
-- **"*Actuellement* … in a story, *at that time*" (rendered *by then*).** Confirm the rendering.
+- **"*Actuellement* is *at present*, *currently*; in reported speech in a past story, it's the speaker's *now*"** (Prompt 46: ex015 and the model now render it *now*). Confirm.
 - **The story** is original.
 
 ### c2-theme
@@ -2204,10 +2204,52 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 - **"A long sentence isn't heavy in itself."** and the remedies listed for each heavy construction. Confirm.
 - **ex005 (review-writing) and ex006 here:** *une quarantaine de familles y viennent / y vient*, both accepted. Confirm that the singular is acceptable.
 - **The three model texts** are invented.
+- **Prompt 46:** the dialogue says *deux relatives, et une complétive en plus*, and the notes name them; the writing task is 20 to 50 words (model 26). *Nonobstant* is now taught in c2-legal-french (lesson 14), so its glossary entry here was removed (id v017 left unused, so the other ids don't change).
 
 ### c2-review-writing
 
-- **The four stages and the counts:** first draft 123 words (labels left out), revised draft 107, contraction 39 (to about a third: 32 to 39). Checked by script.
+- **The four stages and the counts:** first draft 137 words (labels left out), revised draft 107, contraction 39 (to about a third: 32 to 39). Checked by script.
+- **Prompt 46:** the notes and the first draft say how to sign up (*auprès de l'association, à la sortie du jardin*), so the writing-task model (59 words, 50 to 90) adds no fact; ex013 accepts *rédiger* and *mettre mon texte au propre*.
+
+### c2-legal-french
+
+- **"In a contract, the present (and the future) often state an obligation"** (*le locataire paie le loyer le premier de chaque mois*; *le bailleur effectuera les réparations*). Confirm.
+- **"Ledit / ladite … Plural: lesdits, lesdites; with à and de: audit, dudit."** Confirm the forms.
+- **"In many contracts, ending it requires *un préavis* (notice), sometimes sent by *une lettre recommandée*."** Kept general, with no rule of law. Confirm.
+- **"For a long time, the Cour de cassation's judgments were written as one very long sentence in which each reason began with *attendu que*. Since 2019, the Cour de cassation has written its decisions in *le style direct*, in separate sentences."** Verified fact (Prompt 46 review): "since 2019" and no more. Confirm the wording.
+- **"A summary of a decision usually gives three things, in this order: the facts, the legal question, and the court's answer."** Confirm as a description, not a rule.
+- **The plain version** keeps every obligation and condition of articles 7 and 8 (the upkeep, the report without delay *sous peine de*, the landlord's repairs at his expense, termination at any time *sous réserve d'un préavis* by registered letter, the garage free of charge and ending at each annual due date). The dialogue and the writing task say the loan of the garage "can end", not who ends it, as in the clause.
+- **The lease, the letter and the people** are invented; no legal advice is given.
+
+### c2-medical-french
+
+- **"*Effets indésirables* is the official term, the one leaflets use. In conversation, people say *effets secondaires*."** Verified (Prompt 46 review).
+- **"*Malin* has another meaning in everyday French: clever, or cunning (*un enfant malin*). In that sense too, the written feminine is *maligne*."** Confirm (*maline* is heard in familiar speech; the lesson doesn't mention it).
+- **"Aigu (acute: sudden, often short) becomes aiguë, or aigüe in the 1990 spelling rectifications."** Verified (Prompt 46 review); the typed keys avoid the feminine, and ex003 (multiple choice) asks for the traditional spelling.
+- **"The same goes for *un pronostic*, whose verb, *pronostiquer*, is rarer."** Confirm.
+- **The roots:** *-ite* (inflammation), *-algie* (pain), *-ectomie* (surgical removal), with *gastr-* (stomach) in *une gastrite*, *une gastralgie*; *une appendicectomie*. Confirm the spelling *appendicectomie* (also *appendectomie*).
+- **"Une otite est une inflammation de l'oreille, souvent accompagnée de douleur."** and **"Après une appendicite, on peut avoir besoin d'une appendicectomie."** General statements, no advice. Confirm.
+- **The dialogue line** *Aiguë veut dire que la douleur est apparue brusquement ; c'est le contraire de chronique.* Confirm.
+- **The leaflet** is for an invented medicine (Calmivane), with no dose figures ("la dose prescrite par votre médecin"); the consultation summary is invented.
+
+### c2-scientific-french
+
+- **"French articles often use *nous* for the authors."** Verified (Prompt 46 review).
+- **"As a rule of thumb, *une étude d'observation* can show a correlation; to *établir* a causal link, researchers usually need an experiment, with participants drawn by lot and a control group."** Confirm the wording (ex001 and ex002 each have one defensible answer on that basis).
+- **"A result is *significatif* when it's unlikely to be due to chance."** Confirm the simplification.
+- **The study** is invented, with no real findings and no figures; the popular version says no more than the abstract (it leaves out the age and job-type control, and adds nothing).
+
+### c2-administrative-french
+
+- **The abbreviations and their places:** *Réf.* under the addresses (*Vos réf.* in a reply), *cf.* in the body, *N.B.* after the body, *P.J.* after the signature; *NB* and *PJ* also written without full stops; *cf.* "usually read as *confer* or simply *voir*". Verified terms (Prompt 46 review); confirm the places and the reading.
+- **"Inès writes *Madame, Monsieur* because the letter is signed by a department, not by a named person."** Confirm.
+- **"An administration … signs with the name of a department rather than a person's name."** Presented for this letter; confirm the general wording ("writes as an institution").
+- **The administration, its aid, its procedure and its deadline (a month)** are invented; *un avis d'imposition* is named, not explained.
+
+### c2-review-specialized
+
+- **"*Vulgariser* has a rare literary sense, to make something vulgar, but for knowledge it means to make it accessible."** and **"English speakers often avoid *vulgariser* … and use *populariser* in its place. … *Populariser* means to make something popular."** Confirm.
+- **The three texts** tell the same five facts (the letter of 10 April, the appendicitis and appendectomy after it, the rest prescribed, the rule allowing an extension on a medical certificate, the request with the certificate, which states that her health justifies the rest). Only the legal register names article 4. The situation is invented, with no legal or medical advice.
 
 ## C2 plan
 
@@ -2230,8 +2272,11 @@ Every item is **to verify** before the lesson that relies on it is written (docs
   - not confirmed, so hedged: *infolettre* is presented as Québec usage only; *écrasement* is dropped; *mercatique* is given with no date.
   - *logiciel* and *ordinateur*: presented only as long-established words, with no date (verified approach, Prompt 43).
   - *covoiturage*: to verify that it's the usual word in France (the lesson says so).
-- **c2-legal-french:** to verify whether the Cour de cassation has abandoned the "attendu que" style of judgments, and since when, before mentioning it.
-- **c2-medical-french, c2-scientific-french, c2-administrative-french:** all texts invented; to verify that no term or procedure is presented as current French law or medical advice.
+- **c2-legal-french:** verified (Prompt 46 review): the Cour de cassation replaced the single-sentence *attendu que* style with a direct style in 2019 (the lesson says "since 2019" and no more); the contract terms (*une clause*, *les parties*, *le bailleur / le locataire*, *résilier*, *une échéance*, *à titre gracieux*, *sous peine de*, *nonobstant*, *ledit / ladite*, *s'engager à*, *être tenu de*).
+- **c2-medical-french:** verified (Prompt 46 review): *la notice*, *la posologie*, *une contre-indication*; *les effets indésirables* (official in leaflets; *effets secondaires* is common); *un antécédent*, *un diagnostic* (noun) / *diagnostiquer* (verb), *un pronostic*; *bénin / bénigne*, *malin / maligne*, *chronique*, *aigu / aiguë* (1990: *aigüe*, both accepted); *-ite*, *-algie*, *-ectomie*.
+- **c2-scientific-french:** verified (Prompt 46 review): *une hypothèse*, *un protocole*, *un échantillon*, *un biais*, *une corrélation* vs *un lien de causalité*, *il ressort de… que*, *les résultats suggèrent*; French articles often use *nous* for the authors.
+- **c2-administrative-french:** verified (Prompt 46 review): *une pièce justificative*, *un justificatif de domicile*, *un avis d'imposition*, *dans un délai de*, *à compter de*, *sous réserve de*, *il vous appartient de*, *le cas échéant*, *cf.*, *N.B.*, *P.J.* (*pièce jointe*), *réf.*
+- **Unit 3 texts:** all invented and labelled (a lease, a medicine with no dose figures, a study with no findings or figures, an administration with no real procedure or deadline); no legal or medical advice (Prompt 46).
 
 ### Reading and writing (Units 4 and 5)
 

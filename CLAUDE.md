@@ -278,5 +278,7 @@ C2 inherits every C1 convention unless it's changed here. Plans are in docs/plan
   - The lesson's examples follow its own advice (punctuation, register, spelling choice).
   - When a lesson says a word "only" or "never" means something, check a dictionary for its other senses first, and check every key against them.
   - Claims about English (what an English word does or doesn't mean) are checked too.
+  - A rewritten version (neutral, revised, translated, contracted) adds no fact that isn't in the original, unless the lesson says so.
+  - Grammar labels in dialogues and explanations (relative, completive, COD…) are checked like any other claim.
 
 @AGENTS.md

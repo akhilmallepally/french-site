@@ -1,6 +1,6 @@
 # All lesson data
 
-305 written lessons, in course order.
+310 written lessons, in course order.
 
 ## a1-greetings
 
@@ -12106,6 +12106,282 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-review-words-ex016 | reorder | Remettez dans l'ordre : An impropriety is a word used in the wrong sense. | — | ["Une impropriété est un mot employé dans un mauvais sens"] | false | Une impropriété: a real word used with a meaning it doesn't have.
 - c2-review-words-ex017 | writing-task | Rédigez un paragraphe de 80 à 120 mots pour une lettre formelle à un service public (une demande, une réclamation ou une proposition). Relisez-le ensuite avec la liste et remplacez chaque mot imprécis par le mot juste. | — | — | false | —
 
+## c2-legal-french
+
+### Vocab
+
+fr | pron | en | note
+
+- un bail | uhn BAH-y | a lease | Plural: des baux.
+- une clause | ewn KLOHZ | a clause | —
+- les parties (f.) | lay par-TEE | the parties (to a contract) | —
+- le bailleur / la bailleresse | luh bah-YUHR / lah bah-YRESS | the landlord, the lessor | —
+- le présent contrat | luh pray-ZAHN kohn-TRAH | this contract (legal style) | —
+- les conditions générales (f.) | lay kohn-dee-SYOHN zhay-nay-RAHL | the terms and conditions | —
+- sous peine de | soo PEN duh | on pain of, or else (a penalty) | —
+- à défaut de | ah day-FOH duh | failing, in the absence of | —
+- nonobstant | noh-nob-STAHN | notwithstanding (very formal) | Nonobstant ce qui précède: notwithstanding the above.
+- une exception | ew-nek-sep-SYOHN | an exception | —
+- ledit / ladite | luh-DEE / lah-DEET | the said (the one just mentioned) | Plural: lesdits, lesdites; with à and de: audit, dudit.
+- à ses frais | ah say FREH | at his or her own expense | —
+- résilier (un contrat) | ray-zee-LYAY | to terminate (a contract) | —
+- la résiliation | lah ray-zee-lyah-SYOHN | termination (of a contract) | —
+- un préavis | uhn pray-ah-VEE | notice (given before ending a contract) | —
+- à titre gracieux | ah TEE-truh grah-SYUH | free of charge (formal) | —
+- gratuitement | grah-twee-tuh-MAHN | free of charge (everyday) | —
+- une lettre recommandée | ewn LET-ruh ruh-koh-mahn-DAY | a registered letter | —
+- un arrêt | uh-nah-REH | a judgment (of a higher court) | —
+- attendu que | ah-tahn-DEW kuh | whereas (the old opening of each reason in a judgment) | —
+- le style direct | luh steel dee-REKT | the direct style (plain sentences in a judgment) | —
+- entretenir (un logement) | ahn-truh-tuh-NEER | to maintain, to look after (a home) | —
+- un équipement | uh-nay-keep-MAHN | a piece of equipment, a fitting | —
+- un dommage | uhn doh-MAHZH | damage | —
+- survenu (survenir) | sewr-vuh-NEW | occurred (to occur) | —
+- la mise à disposition | lah meez ah dees-poh-zee-SYOHN | making available (for use) | —
+- consentie (consentir) | kohn-sahn-TEE | granted (to grant, to consent) | —
+- abîmé (abîmer) | ah-bee-MAY | damaged (to damage) | —
+- la date anniversaire | lah daht ah-nee-vehr-SEHR | the anniversary date | —
+- un dégât des eaux | uhn day-GAH day-ZOH | water damage | —
+- conformément à | kohn-for-may-MAHN ah | in accordance with | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-legal-french-ex001 | multiple-choice | Indiquez le sens de « sous peine de » dans la phrase : Le locataire doit prévenir le bailleur, sous peine de payer seul les réparations. | ["or else he will have to","thanks to","at the request of"] | ["or else he will have to"] | false | Sous peine de introduces what happens if the obligation isn't met: a penalty.
+- c2-legal-french-ex002 | multiple-choice | Indiquez le sens de « à titre gracieux » dans la phrase : Le garage est mis à disposition à titre gracieux. | ["free of charge","as a favour that must be returned","for a limited time"] | ["free of charge"] | false | À titre gracieux is the formal way of saying gratuitement.
+- c2-legal-french-ex003 | multiple-choice | Indiquez le sens de « ledit bailleur » dans un contrat. | ["le bailleur dont on vient de parler","n'importe quel bailleur","le locataire"] | ["le bailleur dont on vient de parler"] | false | Ledit, ladite: the one just mentioned. Legal French uses it to avoid any doubt about who is meant.
+- c2-legal-french-ex004 | multiple-choice | Indiquez le sens du présent dans la phrase : Le locataire paie le loyer le premier de chaque mois. | ["an obligation","a habit described","a wish"] | ["an obligation"] | false | In a contract, the present (and the future) often state an obligation: the tenant must pay.
+- c2-legal-french-ex005 | multiple-choice | Indiquez le style des arrêts de la Cour de cassation depuis 2019. | ["a direct style, in separate sentences","a single sentence of attendus","a style in English"] | ["a direct style, in separate sentences"] | false | Since 2019, the Cour de cassation has written its decisions in a direct style instead of the single sentence built on attendu que.
+- c2-legal-french-ex006 | fill-in | Complétez : Pour mettre fin à un contrat, on le ___ (verbe à l'infinitif). | — | ["résilier"] | false | Résilier un contrat: to terminate it. The noun is la résiliation.
+- c2-legal-french-ex007 | fill-in | Complétez : Avant de résilier le bail, le locataire doit envoyer un ___ au bailleur. | — | ["préavis"] | false | Un préavis: the notice given before a contract ends.
+- c2-legal-french-ex008 | register-shift | Transformez en français courant (« prêté » et « gratuitement ») : Le garage est mis à disposition à titre gracieux. | — | ["Le garage est prêté gratuitement","Le garage vous est prêté gratuitement"] | false | À titre gracieux becomes gratuitement, and mis à disposition becomes prêté.
+- c2-legal-french-ex009 | register-shift | Transformez en français courant, en commençant par « Vous pouvez mettre fin au bail quand vous voulez » et en gardant la condition avec « à condition de » : Le bail peut être résilié à tout moment, sous réserve d'un préavis. | — | ["Vous pouvez mettre fin au bail quand vous voulez, à condition de prévenir à l'avance","Vous pouvez mettre fin au bail quand vous voulez, à condition de prévenir le propriétaire à l'avance","Vous pouvez mettre fin au bail quand vous voulez, à condition de prévenir le bailleur à l'avance","Vous pouvez mettre fin au bail quand vous voulez, à condition de donner un préavis","Vous pouvez mettre fin au bail quand vous voulez, à condition d'envoyer un préavis"] | true | The plain version keeps the condition: sous réserve d'un préavis becomes à condition de prévenir à l'avance.
+- c2-legal-french-ex010 | register-shift | Transformez en français juridique, avec « est tenu de » : Le locataire doit signaler tout dommage. | — | ["Le locataire est tenu de signaler tout dommage"] | false | Être tenu de is the legal way of saying devoir.
+- c2-legal-french-ex011 | error-correction | Corrigez la version simplifiée, qui oublie une condition (ajoutez-la avec « à condition de prévenir ») : Article : « Le bail peut être résilié à tout moment, sous réserve d'un préavis. » Version : Vous pouvez quitter le logement quand vous voulez. | — | ["Vous pouvez quitter le logement quand vous voulez, à condition de prévenir le propriétaire à l'avance","Vous pouvez quitter le logement quand vous voulez, à condition de prévenir à l'avance","Vous pouvez quitter le logement quand vous voulez, à condition de prévenir le bailleur à l'avance"] | true | A plain version keeps every condition of the original: the notice can't disappear.
+- c2-legal-french-ex012 | reformulation | Reformulez avec « à défaut de » + nom : Si le locataire ne paie pas, le bail sera résilié. | — | ["À défaut de paiement, le bail sera résilié","Le bail sera résilié à défaut de paiement"] | true | À défaut de + noun: failing, in the absence of.
+- c2-legal-french-ex013 | translate | Traduisez (résilier, le présent contrat) : Either party may terminate this contract. | — | ["Chacune des parties peut résilier le présent contrat","Chaque partie peut résilier le présent contrat","L'une ou l'autre des parties peut résilier le présent contrat"] | true | Les parties, le présent contrat, résilier: three markers of contract style.
+- c2-legal-french-ex014 | translate | Traduisez (une lettre recommandée) : « Notice must be sent by registered letter. » | — | ["Le préavis doit être envoyé par lettre recommandée","Le préavis doit être adressé par lettre recommandée","Un préavis doit être envoyé par lettre recommandée","Un préavis doit être adressé par lettre recommandée"] | false | Par lettre recommandée: by registered letter.
+- c2-legal-french-ex015 | translate | Traduisez (le bailleur, à ses frais) : The landlord will carry out the repairs at his own expense. | — | ["Le bailleur effectuera les réparations à ses frais","Le bailleur fera les réparations à ses frais"] | true | À ses frais: at his or her own expense. Effectuer is the precise verb; faire is also correct.
+- c2-legal-french-ex016 | reorder | Remettez dans l'ordre : The tenant undertakes to look after the accommodation. | — | ["Le locataire s'engage à entretenir le logement"] | false | S'engager à + infinitive: the usual way a contract states an obligation.
+- c2-legal-french-ex017 | writing-task | Expliquez à un ami, en français courant (50 à 90 mots), ce que dit l'article 8 du bail, sans oublier aucune condition. | — | — | false | —
+
+## c2-medical-french
+
+### Vocab
+
+fr | pron | en | note
+
+- la notice | lah noh-TEESS | the patient leaflet (in a medicine box) | —
+- la posologie | lah poh-zoh-loh-ZHEE | the dosage (how much to take, and how often) | —
+- une contre-indication | ewn kohn-truh-an-dee-kah-SYOHN | a contraindication (a case in which a medicine must not be used) | —
+- une allergie / allergique (à) | ew-nah-lehr-ZHEE / ah-lehr-ZHEEK | an allergy / allergic (to) | —
+- les effets indésirables / les effets secondaires (m.) | lay-zay-FEH an-day-zee-RAH-bluh / lay-zay-FEH suh-gohn-DEHR | side effects | Effets indésirables is the official term in leaflets; effets secondaires is the common one.
+- la dose prescrite | lah dohz preh-SKREET | the prescribed dose | Prescrire: to prescribe.
+- impersonnel / impersonnelle | an-pehr-soh-NEL | impersonal | —
+- un pharmacien / une pharmacienne | uhn far-mah-SYAN / ewn far-mah-SYEN | a pharmacist | —
+- une consultation | ewn kohn-sewl-tah-SYOHN | a medical appointment, a consultation | —
+- un patient / une patiente | uhn pah-SYAHN / ewn pah-SYAHNT | a patient | —
+- un symptôme | uhn sanp-TOHM | a symptom | —
+- un antécédent | uh-nahn-tay-say-DAHN | a past health problem (in a medical history) | Les antécédents: the medical history.
+- un diagnostic | uhn dyahg-noss-TEEK | a diagnosis (noun) | Poser un diagnostic: to make a diagnosis.
+- diagnostiquer | dyahg-noss-tee-KAY | to diagnose (verb) | —
+- un pronostic | uhn proh-noss-TEEK | a prognosis (how an illness is expected to develop) | —
+- bénin / bénigne | bay-NAN / bay-NEE-nyuh | benign, harmless | —
+- malin / maligne | mah-LAN / mah-LEE-nyuh | malignant (medical); clever, cunning (everyday) | —
+- aigu / aiguë | ay-GEW | acute (sudden, often short) | Feminine aiguë; in the 1990 spelling rectifications, aigüe. Both are correct.
+- brusquement | brewss-kuh-MAHN | suddenly | —
+- une tumeur | ewn tew-MUHR | a tumour | —
+- une douleur | ewn doo-LUHR | a pain | —
+- une inflammation | ew-nan-flah-mah-SYOHN | an inflammation | —
+- une otite | ew-noh-TEET | an ear infection, otitis | -ite: inflammation.
+- une gastrite | ewn gah-STREET | gastritis (inflammation of the stomach) | —
+- une gastralgie | ewn gah-strahl-ZHEE | stomach pain | -algie: pain.
+- une appendicite | ew-nah-pan-dee-SEET | appendicitis | —
+- une appendicectomie | ew-nah-pan-dee-sek-toh-MEE | an appendectomy (removal of the appendix) | -ectomie: surgical removal.
+- consulte (consulter) | kohn-SEWLT | comes in, sees a doctor (to consult) | —
+- douloureuse (douloureux) | doo-loo-RUHZ | painful | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-medical-french-ex001 | multiple-choice | Indiquez le sens de « la posologie » sur une notice. | ["how much to take, and how often","the list of side effects","the price of the medicine"] | ["how much to take, and how often"] | false | La posologie is the dosage. In the invented leaflet, it says only: follow the dose your doctor prescribed.
+- c2-medical-french-ex002 | multiple-choice | Indiquez le sens de « une contre-indication ». | ["a case in which the medicine must not be taken","an instruction to take the medicine","a word for an argument"] | ["a case in which the medicine must not be taken"] | false | Une contre-indication: a situation (an allergy, an illness) in which a medicine must not be used.
+- c2-medical-french-ex003 | multiple-choice | Choisissez le féminin de « aigu » en orthographe traditionnelle. | ["aiguë","aigue","aigus"] | ["aiguë"] | false | The traditional spelling is aiguë; the 1990 spelling rectifications write aigüe, and both are correct. Without the trema, aigue would rhyme with figue. Aigus is the masculine plural.
+- c2-medical-french-ex004 | multiple-choice | Indiquez le sens de « une tumeur maligne ». | ["a cancerous tumour","a harmless tumour","a tumour that has been removed"] | ["a cancerous tumour"] | false | Malin, maligne in medicine: malignant. A harmless tumour is une tumeur bénigne.
+- c2-medical-french-ex005 | multiple-choice | Indiquez le sens de « une gastralgie ». | ["une douleur de l'estomac","une inflammation de l'estomac","une maladie chronique du foie"] | ["une douleur de l'estomac"] | false | -algie means pain. Inflammation of the stomach is une gastrite (-ite).
+- c2-medical-french-ex006 | fill-in | Accordez l'adjectif « bénin » : Heureusement, la tumeur est ___. | — | ["bénigne"] | false | Bénin has an irregular feminine: bénigne.
+- c2-medical-french-ex007 | fill-in | Accordez l'adjectif « malin » au sens médical : Les examens ont montré une tumeur ___. | — | ["maligne"] | false | Malin, maligne: the medical feminine is maligne.
+- c2-medical-french-ex008 | fill-in | Complétez avec le nom formé sur « diagnostiquer » : Le médecin a posé son ___ après l'examen. | — | ["diagnostic"] | false | The noun is un diagnostic, with a c. Poser un diagnostic: to make a diagnosis.
+- c2-medical-french-ex009 | fill-in | Conjuguez « diagnostiquer » au passé composé : Le médecin a ___ une otite. | — | ["diagnostiqué"] | true | The verb is diagnostiquer, and its past participle is diagnostiqué.
+- c2-medical-french-ex010 | register-shift | Transformez en français courant, en remplaçant seulement « effets indésirables » : Ce médicament peut provoquer des effets indésirables. | — | ["Ce médicament peut provoquer des effets secondaires"] | false | Effets indésirables is the leaflet's term; effets secondaires is the everyday one.
+- c2-medical-french-ex011 | register-shift | Transformez en consigne de notice, à l'infinitif : Ne dépassez pas la dose prescrite. | — | ["Ne pas dépasser la dose prescrite"] | false | Leaflets often give instructions in the infinitive, with ne pas together before the verb.
+- c2-medical-french-ex012 | reformulation | Reformulez avec « en cas de » + nom, en gardant « ne prenez pas » : Si vous avez une maladie du foie, ne prenez pas ce médicament. | — | ["En cas de maladie du foie, ne prenez pas ce médicament","Ne prenez pas ce médicament en cas de maladie du foie"] | false | En cas de + noun, with no article: the usual way a leaflet states a condition.
+- c2-medical-french-ex013 | translate | Traduisez, avec « pas d'antécédents » : The patient (a man) has no medical history. | — | ["Le patient n'a pas d'antécédents","Le patient n'a pas d'antécédents médicaux"] | true | Les antécédents: the past health problems in a medical history.
+- c2-medical-french-ex014 | translate | Traduisez (le pronostic) : The prognosis is good. | — | ["Le pronostic est bon"] | false | Le pronostic: how an illness is expected to develop. Don't confuse it with le diagnostic, which names the illness.
+- c2-medical-french-ex015 | translate | Traduisez (la notice, à l'impératif, vous) : Read the leaflet before taking this medicine. | — | ["Lisez la notice avant de prendre ce médicament"] | false | Avant de + infinitive; la notice is the leaflet in the box.
+- c2-medical-french-ex016 | error-correction | Corrigez l'erreur, sans changer le verbe : Le médecin a fait un diagnostique. | — | ["Le médecin a fait un diagnostic"] | true | The noun is un diagnostic. Diagnostiquer is the verb.
+- c2-medical-french-ex017 | error-correction | Corrigez l'erreur d'accord : Heureusement, la tumeur était bénine. | — | ["Heureusement, la tumeur était bénigne"] | false | The feminine of bénin is bénigne, never bénine.
+- c2-medical-french-ex018 | reorder | Remettez dans l'ordre : Do not take this medicine if you have an allergy. | — | ["Ne pas prendre ce médicament en cas d'allergie"] | false | A leaflet instruction: the infinitive with ne pas before it, then en cas de + noun.
+
+## c2-scientific-french
+
+### Vocab
+
+fr | pron | en | note
+
+- un article scientifique | uh-nar-TEE-kluh see-ahn-tee-FEEK | a research paper | —
+- un protocole | uhn proh-toh-KOL | a protocol, a study design | —
+- une étude d'observation | ew-nay-TEWD dop-sehr-vah-SYOHN | an observational study | —
+- un groupe témoin | uhn groop tay-MWAN | a control group | Un témoin is also a witness; here it means the group used for comparison.
+- tirer au sort | tee-RAY oh SOR | to draw by lot, to assign at random | —
+- significatif / significative | see-nyee-fee-kah-TEEF / see-nyee-fee-kah-TEEV | significant (in statistics: unlikely to be due to chance) | —
+- le nous d'auteur | luh noo doh-TUHR | the authors' we (nous used by the writers of a paper) | —
+- une corrélation | ewn koh-ray-lah-SYOHN | a correlation (two things that vary together) | —
+- être corrélé à / avec | ET-ruh koh-ray-LAY ah / ah-VEK | to be correlated with | —
+- un lien de causalité | uhn lyan duh koh-zah-lee-TAY | a causal link (one thing produces the other) | —
+- causer | koh-ZAY | to cause | —
+- être associé à | ET-ruh ah-soh-SYAY ah | to be associated with | —
+- un facteur | uhn fak-TUHR | a factor | —
+- améliorer | ah-may-lyoh-RAY | to improve | —
+- les résultats suggèrent que | lay ray-zewl-TAH sewg-ZHEHR kuh | the results suggest that | —
+- laisser penser que | leh-SAY pahn-SAY kuh | to suggest, to lead one to think that | —
+- à ce stade | ah suh STAHD | at this stage | —
+- toutefois | toot-FWAH | however (formal) | —
+- à l'inverse | ah lan-VEHRS | conversely | —
+- établir | ay-tah-BLEER | to establish (a fact, a link) | —
+- grand public | grahn pew-BLEEK | for the general public | Invariable: un article grand public, des revues grand public.
+- influence (influencer) | an-flew-AHNSS | influences | —
+- un poste de travail | uhn post duh trah-VAH-y | a workstation, a desk | —
+- éclairé (éclairer) | ay-kleh-RAY | lit (to light) | —
+- expérimental / expérimentale | eks-pay-ree-mahn-TAHL | experimental | —
+- se concentrer | suh kohn-sahn-TRAY | to concentrate | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-scientific-french-ex001 | multiple-choice | Choisissez ce que cette étude d'observation permet d'établir : on observe que les élèves qui dorment plus ont, en moyenne, de meilleures notes. | ["une corrélation","un lien de causalité"] | ["une corrélation"] | false | The study only observes that sleep and marks vary together. Another factor (the family, the timetable) could explain both, so it can't establish that sleep causes better marks.
+- c2-scientific-french-ex002 | multiple-choice | Choisissez ce que cette expérience permet d'établir, selon toute vraisemblance : on tire au sort des participants ; la moitié reçoit un traitement, l'autre moitié forme le groupe témoin. Le premier groupe guérit plus vite. | ["un lien de causalité","seulement une corrélation"] | ["un lien de causalité"] | false | The groups were drawn by lot and compared with a control group, so the only systematic difference between them is the treatment. That's what such an experiment is designed to show.
+- c2-scientific-french-ex003 | multiple-choice | Choisissez le verbe qui convient à une simple corrélation : Les résultats ___ un lien entre la lumière et l'attention. | ["suggèrent","prouvent","démontrent"] | ["suggèrent"] | false | A correlation suggests a link; it doesn't prove or demonstrate one.
+- c2-scientific-french-ex004 | multiple-choice | Indiquez le sens de « un groupe témoin » dans un article scientifique. | ["the group used for comparison","a group of people who saw something happen","the team of researchers"] | ["the group used for comparison"] | false | Un groupe témoin is a control group. Un témoin alone is also a witness, but not here.
+- c2-scientific-french-ex005 | multiple-choice | Indiquez qui parle quand un article scientifique dit « nous » : Nous avons mesuré la lumière à chaque poste de travail. | ["les auteurs de l'étude","les participants","les lecteurs"] | ["les auteurs de l'étude"] | false | Le nous d'auteur: the writers of the paper speak of themselves as nous.
+- c2-scientific-french-ex006 | fill-in | Complétez avec le nom : Les deux choses varient ensemble : il existe une ___ entre eux. | — | ["corrélation"] | false | Une corrélation: two things that vary together, without saying which one causes the other.
+- c2-scientific-french-ex007 | fill-in | Complétez : Le groupe ___ ne reçoit pas le traitement ; il sert à comparer. | — | ["témoin"] | false | Le groupe témoin: the control group.
+- c2-scientific-french-ex008 | fill-in | Conjuguez « ressortir » au présent : Il ___ de nos données que la lumière est corrélée à l'attention. | — | ["ressort"] | false | Il ressort de… que: it emerges from… that. The impersonal il takes the third person singular.
+- c2-scientific-french-ex009 | error-correction | Corrigez la phrase, qui affirme plus que l'étude (une simple corrélation), en remplaçant seulement « améliore » par « est corrélée à » : La lumière naturelle améliore l'attention. | — | ["La lumière naturelle est corrélée à l'attention"] | true | An observational study shows a correlation. Améliore claims a cause that the study can't establish.
+- c2-scientific-french-ex010 | error-correction | Corrigez la phrase, qui affirme trop, en remplaçant le verbe par « suggérer » : Ces résultats prouvent un lien entre le sommeil et les notes. | — | ["Ces résultats suggèrent un lien entre le sommeil et les notes"] | false | Les résultats suggèrent: the usual hedge when a study shows a link without proving it.
+- c2-scientific-french-ex011 | reformulation | Reformulez avec « il ressort de nos données que » : Nos données montrent que les salariés les mieux éclairés réussissent mieux les tests. | — | ["Il ressort de nos données que les salariés les mieux éclairés réussissent mieux les tests"] | false | Il ressort de… que is more cautious than montrer: it presents the result as what the data bring out.
+- c2-scientific-french-ex012 | reformulation | Reformulez à la voix passive, au passé composé : On a tiré au sort les participants. | — | ["Les participants ont été tirés au sort"] | true | The method section often uses the passive: the participants come first, and the researchers aren't named.
+- c2-scientific-french-ex013 | register-shift | Transformez en français courant, avec « ne prouvent pas que » et « améliore » : Ces résultats ne permettent pas d'établir un lien de causalité entre la lumière et l'attention. | — | ["Ces résultats ne prouvent pas que la lumière améliore l'attention","Les résultats ne prouvent pas que la lumière améliore l'attention"] | false | The plain version keeps the limit: the results don't prove a cause.
+- c2-scientific-french-ex014 | translate | Traduisez (une corrélation, un lien de causalité) : The study shows a correlation, not a causal link. | — | ["L'étude montre une corrélation, pas un lien de causalité","L'étude montre une corrélation, et non un lien de causalité","L'étude montre une corrélation et non un lien de causalité"] | false | Pas or et non: both mark the contrast; et non is more formal.
+- c2-scientific-french-ex015 | translate | Traduisez (l'échantillon, trop petit) : The sample is too small to generalize. | — | ["L'échantillon est trop petit pour généraliser"] | false | Un échantillon: a sample. Trop + adjective + pour + infinitive.
+- c2-scientific-french-ex016 | translate | Traduisez (le nous d'auteur, au passé composé, un poste de travail) : We measured the light at each workstation. | — | ["Nous avons mesuré la lumière à chaque poste de travail"] | true | The authors write nous; mesurer à + place.
+- c2-scientific-french-ex017 | reorder | Remettez dans l'ordre : These results suggest a link between light and attention. | — | ["Ces résultats suggèrent un lien entre la lumière et l'attention"] | false | Suggérer + noun: a cautious way to present a result.
+
+## c2-administrative-french
+
+### Vocab
+
+fr | pron | en | note
+
+- une administration | ew-nahd-mee-nee-strah-SYOHN | an administration, a public body | —
+- un justificatif de domicile | uhn zhews-tee-fee-kah-TEEF duh doh-mee-SEEL | proof of address | —
+- un avis d'imposition | uh-nah-VEE dan-poh-zee-SYOHN | a tax assessment notice | —
+- un formulaire | uhn for-mew-LEHR | a form | —
+- remplir (un formulaire) | rahn-PLEER | to fill in (a form) | —
+- une attestation | ew-nah-tes-tah-SYOHN | a certificate, a written statement | —
+- complet / complète, incomplet / incomplète | kohn-PLEH / kohn-PLET, an-kohn-PLEH / an-kohn-PLET | complete, incomplete (a file) | —
+- un usager / une usagère | uh-new-zah-ZHAY / ew-new-zah-ZHEHR | a user (of a public service) | —
+- dans un délai de | dahn-zuhn day-LEH duh | within (a period) | —
+- à compter de | ah kohn-TAY duh | from, as of (a date) | —
+- il vous appartient de | eel voo-zah-par-TYAN duh | it is up to you to (formal) | —
+- faire parvenir | fehr par-vuh-NEER | to send, to forward (formal) | —
+- bénéficier de | bay-nay-fee-SYAY duh | to receive, to be entitled to (an aid, a service) | —
+- après examen | ah-preh-zeg-zah-MAN | after examination (of a file) | —
+- à tarif réduit | ah tah-REEF ray-DWEE | at a reduced rate | —
+- une abréviation | ew-nah-bray-vyah-SYOHN | an abbreviation | —
+- réf. (référence) | ray-fay-RAHNSS | ref. (reference) | Vos réf.: your reference, in a reply.
+- cf. | kohn-FEHR | see, compare (refers to another passage or document) | Usually read as confer or simply voir.
+- N.B. | en BAY | NB, note well | Also written NB.
+- P.J. (pièce jointe) | pay ZHEE | enclosure(s), attachment(s) | Also written PJ; plural: pièces jointes.
+- municipal / municipale (municipales) | mew-nee-see-PAHL | municipal, of the town | —
+- la réception | lah ray-sep-SYOHN | receipt (of a letter, of documents) | —
+- traitée (traiter) | treh-TAY | processed (to process) | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-administrative-french-ex001 | multiple-choice | Indiquez le sens de « il vous appartient de » dans la phrase : Il vous appartient de nous faire parvenir ces pièces. | ["it's up to you to","it belongs to you to keep","you are allowed to"] | ["it's up to you to"] | false | Il vous appartient de: it's your responsibility to. Nothing here belongs to anyone.
+- c2-administrative-french-ex002 | multiple-choice | Indiquez le sens de « P.J. » en bas d'une lettre. | ["les documents joints à la lettre","le nom de la personne qui signe","la date de la lettre"] | ["les documents joints à la lettre"] | false | P.J. (pièce jointe, pièces jointes) lists the enclosures, after the signature.
+- c2-administrative-french-ex003 | multiple-choice | Indiquez le sens de « cf. » dans la phrase : Votre dossier est incomplet (cf. formulaire ci-joint). | ["voir, se reporter à","attention, c'est important","fin de la lettre"] | ["voir, se reporter à"] | false | Cf. sends the reader to another document or passage: here, the enclosed form.
+- c2-administrative-french-ex004 | multiple-choice | Indiquez le sens de « le cas échéant » dans la phrase : Le cas échéant, vous pourrez bénéficier de la carte à compter du mois suivant. | ["if that is the case","at the latest","in any case"] | ["if that is the case"] | false | Le cas échéant: if the situation arises, if applicable. Here: if the file is complete.
+- c2-administrative-french-ex005 | multiple-choice | Choisissez l'abréviation qui convient : ___ : une copie de chaque document suffit. | ["N.B.","P.J.","Réf."] | ["N.B."] | false | N.B. adds a note the reader mustn't miss. P.J. lists enclosures, and Réf. gives a reference.
+- c2-administrative-french-ex006 | fill-in | Complétez : Vous devez nous répondre dans un ___ d'un mois. | — | ["délai"] | false | Dans un délai de + a period: within that period.
+- c2-administrative-french-ex007 | fill-in | Complétez : Le délai court à ___ de la date du présent courrier. | — | ["compter"] | false | À compter de: from, starting on (a date).
+- c2-administrative-french-ex008 | fill-in | Complétez : Pour prouver votre adresse, envoyez un justificatif de ___. | — | ["domicile"] | false | Un justificatif de domicile: proof of address.
+- c2-administrative-french-ex009 | register-shift | Transformez en français courant, avec « c'est à vous de » et « envoyer » : Il vous appartient de nous faire parvenir ces documents. | — | ["C'est à vous de nous envoyer ces documents"] | true | Il vous appartient de becomes c'est à vous de, and faire parvenir becomes envoyer.
+- c2-administrative-french-ex010 | register-shift | Transformez en français administratif, avec « il vous appartient de » et « faire parvenir » : C'est à vous de nous envoyer le formulaire. | — | ["Il vous appartient de nous faire parvenir le formulaire"] | false | The administrative register: il vous appartient de + faire parvenir.
+- c2-administrative-french-ex011 | reformulation | Reformulez avec « sous réserve de » + nom : Votre demande sera traitée si nous recevons les pièces. | — | ["Votre demande sera traitée sous réserve de la réception des pièces","Votre demande sera traitée sous réserve de réception des pièces"] | false | Sous réserve de + noun states the condition: here, receiving the documents.
+- c2-administrative-french-ex012 | reformulation | Reformulez avec « à compter de » : Vous pourrez bénéficier de la carte à partir du mois suivant. | — | ["Vous pourrez bénéficier de la carte à compter du mois suivant"] | true | À compter de is the administrative equivalent of à partir de, for a date.
+- c2-administrative-french-ex013 | translate | Traduisez (une pièce justificative) : Your file is incomplete: two supporting documents are missing. | — | ["Votre dossier est incomplet : il manque deux pièces justificatives","Votre dossier est incomplet : il y manque deux pièces justificatives","Votre dossier est incomplet : deux pièces justificatives manquent"] | false | Il manque + noun: the usual way to say something is missing.
+- c2-administrative-french-ex014 | translate | Traduisez (remplir, ci-joint, à l'impératif, vous) : Fill in the enclosed form. | — | ["Remplissez le formulaire ci-joint"] | false | Remplir un formulaire: to fill in a form. Ci-joint after the noun: enclosed.
+- c2-administrative-french-ex015 | error-correction | Corrigez l'abréviation, qui ne convient pas pour la liste des documents joints, en bas de la lettre (écrivez l'abréviation avec des points) : Réf. : justificatif de domicile ; avis d'imposition | — | ["P.J. : justificatif de domicile ; avis d'imposition"] | false | P.J. (or PJ) lists the enclosures; Réf. gives the file's reference, at the top.
+- c2-administrative-french-ex016 | error-correction | Corrigez l'erreur d'accord : Veuillez trouver ci-joint les pièces justificatives demandés. | — | ["Veuillez trouver ci-joint les pièces justificatives demandées"] | false | Demandées agrees with les pièces justificatives, feminine plural.
+- c2-administrative-french-ex017 | reorder | Remettez dans l'ordre : It is up to you to send us these documents. | — | ["Il vous appartient de nous faire parvenir ces documents"] | false | Il vous appartient de + infinitive; the pronoun nous comes before faire parvenir.
+- c2-administrative-french-ex018 | writing-task | Rédigez le corps d'une réponse à la lettre de la mairie (50 à 90 mots), avec la formule d'appel et la formule finale : vous envoyez le justificatif de domicile, mais votre avis d'imposition n'est pas encore arrivé ; vous l'enverrez dès que possible. | — | — | false | —
+
+## c2-review-specialized
+
+### Vocab
+
+fr | pron | en | note
+
+- un jargon | uhn zhar-GOHN | jargon (a specialized language outsiders find hard to follow) | —
+- un lexique spécialisé | uhn lek-SEEK spay-syah-lee-ZAY | a specialized vocabulary | —
+- vulgariser | vewl-gah-ree-ZAY | to explain (a specialized subject) to non-specialists | In this sense, the word is neutral. Its rare literary sense, to make vulgar, isn't the one here.
+- la vulgarisation | lah vewl-gah-ree-zah-SYOHN | popularization, explaining specialized knowledge to the general public | —
+- un règlement | uhn reh-gluh-MAHN | a set of rules, regulations | —
+- postérieurement à | poss-tay-ryuhr-MAHN ah | after (formal) | —
+- l'intéressée (l'intéressé) | lan-tay-reh-SAY | the person concerned (formal) | —
+- nécessité (nécessiter) | nay-seh-see-TAY | required (to require) | —
+- l'impossibilité (f.) | lan-poh-see-bee-lee-TAY | impossibility; être dans l'impossibilité de: to be unable to | —
+- réunir | ray-ew-NEER | to gather, to collect | —
+- dispose (disposer que) | dees-POHZ | provides (of a law or rule: to provide that) | —
+- prolongé (prolonger) | proh-lohn-ZHAY | extended (to extend) | —
+- la prolongation | lah proh-lohn-gah-SYOHN | extension (of a deadline) | —
+- en conséquence | ahn kohn-say-KAHNSS | consequently (formal) | —
+- un motif | uhn moh-TEEF | a reason (for an appointment, a request) | —
+- remis (remettre) | ruh-MEE | handed (to hand over) | —
+- dudit, lesdites (ledit) | dew-DEE, lay-DEET | of the said, the said (feminine plural) | —
+- prévoyant (prévoir) | pray-vwah-YAHN | providing for (to provide for) | —
+- atteste (attester) | ah-TEST | states, certifies (to certify) | —
+- l'appendice (m.) | lah-pan-DEESS | the appendix | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-review-specialized-ex001 | multiple-choice | Indiquez le sens de « lesdites pièces » dans la phrase : Le repos la met dans l'impossibilité de réunir lesdites pièces. | ["les pièces dont on vient de parler","toutes les pièces du dossier","d'autres pièces"] | ["les pièces dont on vient de parler"] | false | Ledit, ladite, lesdits, lesdites point back to what was just named (c2-legal-french).
+- c2-review-specialized-ex002 | register-shift | Transformez en français courant, avec « doit » : L'intéressée est tenue de réunir les pièces. | — | ["Elle doit réunir les pièces","L'intéressée doit réunir les pièces"] | false | Être tenu de is the legal way of saying devoir.
+- c2-review-specialized-ex003 | error-correction | Corrigez l'erreur : Le médecin a diagnostic une appendicite. | — | ["Le médecin a diagnostiqué une appendicite"] | true | Diagnostic is the noun; the verb is diagnostiquer, so the past participle is diagnostiqué (c2-medical-french).
+- c2-review-specialized-ex004 | multiple-choice | Indiquez le sens de la finale « -ectomie » dans « une appendicectomie ». | ["retirer un organe ou une partie d'un organe","une inflammation","une douleur"] | ["retirer un organe ou une partie d'un organe"] | false | -ectomie: removal; -ite: inflammation; -algie: pain.
+- c2-review-specialized-ex005 | multiple-choice | Choisissez ce que cette enquête d'observation permet d'établir : on observe que les habitants qui vivent près d'un parc consultent moins souvent leur médecin. | ["une corrélation","un lien de causalité"] | ["une corrélation"] | false | An observational survey shows that the two things vary together. Another factor could explain both (c2-scientific-french).
+- c2-review-specialized-ex006 | error-correction | Corrigez la phrase, qui affirme trop, en remplaçant le verbe par « suggérer » : Ces résultats prouvent que les parcs protègent la santé. | — | ["Ces résultats suggèrent que les parcs protègent la santé"] | false | An observational result suggests; it doesn't prove.
+- c2-review-specialized-ex007 | multiple-choice | Choisissez l'abréviation qui convient, tout à la fin de la lettre : ___ : certificat médical | ["P.J.","Réf.","Cf."] | ["P.J."] | false | P.J. lists the enclosures, after the signature (c2-administrative-french).
+- c2-review-specialized-ex008 | register-shift | Transformez en français administratif, avec « il vous appartient de » et « faire parvenir » : C'est à vous de nous envoyer le certificat. | — | ["Il vous appartient de nous faire parvenir le certificat"] | false | Il vous appartient de: it's up to you to; faire parvenir: to send (formal).
+- c2-review-specialized-ex009 | fill-in | Complétez avec le verbe : Faire de la vulgarisation, c'est ___ un texte spécialisé pour le grand public. | — | ["vulgariser"] | false | Vulgariser: to explain a specialized subject to non-specialists. The noun is la vulgarisation.
+- c2-review-specialized-ex010 | multiple-choice | Indiquez le sens de « un jargon » dans la phrase : Ce règlement est écrit dans un jargon que seuls les spécialistes du droit comprennent. | ["a specialized language that outsiders find hard to follow","a regional accent","a spelling mistake"] | ["a specialized language that outsiders find hard to follow"] | false | Un jargon: a specialized language, often said with a critical tone. Un lexique spécialisé is the neutral term.
+- c2-review-specialized-ex011 | reformulation | Reformulez avec « à compter de » : Vous avez un mois à partir de la date du courrier. | — | ["Vous avez un mois à compter de la date du courrier"] | true | À compter de is the administrative equivalent of à partir de.
+- c2-review-specialized-ex012 | translate | Traduisez (prolonger, au passif, sous réserve de) : The deadline may be extended, provided a medical certificate is presented. | — | ["Le délai peut être prolongé, sous réserve de la présentation d'un certificat médical","Le délai peut être prolongé, sous réserve de présentation d'un certificat médical"] | false | Sous réserve de + noun states the condition; the passive peut être prolongé leaves out who extends it.
+- c2-review-specialized-ex013 | translate | Traduisez (le pronostic) : The prognosis is favourable. | — | ["Le pronostic est favorable"] | false | Le pronostic: how an illness is expected to develop; favorable has no u in French.
+- c2-review-specialized-ex014 | register-shift | Transformez la note médicale en phrase complète, avec « Le médecin lui a prescrit » : Repos prescrit. | — | ["Le médecin lui a prescrit du repos"] | true | A medical note uses the nominal style; the plain version restores the subject and the verb.
+- c2-review-specialized-ex015 | reorder | Remettez dans l'ordre : A plain version keeps every condition. | — | ["Une version simple garde toutes les conditions"] | false | The rule of the whole unit: a plain version changes the words, not the content.
+- c2-review-specialized-ex016 | error-correction | Corrigez la version simple, qui oublie la condition, en ajoutant « si elle présente un certificat médical » : Règlement : « Ce délai peut être prolongé sur présentation d'un certificat médical. » Version : On peut lui donner plus de temps. | — | ["On peut lui donner plus de temps si elle présente un certificat médical","Si elle présente un certificat médical, on peut lui donner plus de temps"] | false | Without the condition, the plain version says that more time is always possible, which the rule doesn't say.
+- c2-review-specialized-ex017 | writing-task | Vulgarisez ce compte rendu pour un ami, sans lexique spécialisé (40 à 80 mots) : « Patient adulte, sans antécédents. Consulte pour une gastralgie aiguë. Examen normal. Diagnostic : gastrite. Pronostic favorable. Traitement prescrit ; nouvelle consultation si les symptômes persistent. » | — | — | false | —
+
 ## c2-implicit-meaning
 
 ### Vocab
@@ -12453,7 +12729,6 @@ fr | pron | en | note
 - inutiles (inutile) | ee-new-TEEL | useless | —
 - allonger | ah-lohn-ZHAY | to lengthen | —
 - une catégorie | ewn kah-tay-goh-REE | a category | —
-- améliorer | ah-may-lyoh-RAY | to improve | —
 - les contraintes (f.) | lay kohn-TRANT | constraints | —
 - honnêtement | oh-net-MAHN | honestly | —
 - une recette miracle | ewn ruh-set mee-RAH-kluh | a miracle cure | —
@@ -12562,7 +12837,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 
 - c2-version-ex001 | multiple-choice | Choisissez la meilleure traduction : Quand Marthe revint au village, il pleuvait des cordes. | ["When Marthe came back to the village, it was pouring.","When Marthe came back to the village, it was raining ropes.","When Marthe comes back to the village, it rains a lot."] | ["When Marthe came back to the village, it was pouring."] | false | Il pleuvait des cordes is an idiom: it was pouring. The passé simple revint becomes the simple past.
 - c2-version-ex002 | multiple-choice | Choisissez la meilleure traduction : On lui avait dit que tout avait changé. | ["She had been told that everything had changed.","One had said to her that all had changed.","On had told her that everything changed."] | ["She had been told that everything had changed."] | false | On often becomes a passive in English: she had been told. One had said is a calque.
-- c2-version-ex003 | multiple-choice | Choisissez la meilleure traduction : Enfant, elle y passait ses journées à regarder par la fenêtre. | ["As a child, she used to spend her days looking out of the window.","As a child, she has spent her days looking out of the window.","Child, she passed her days to look by the window."] | ["As a child, she used to spend her days looking out of the window."] | false | The imparfait of habit becomes used to (or would). Enfant becomes as a child, and à regarder becomes looking.
+- c2-version-ex003 | multiple-choice | Choisissez la meilleure traduction : Enfant, elle y passait ses journées à regarder par la fenêtre. | ["As a child, she used to spend her days there looking out of the window.","As a child, she has spent her days there looking out of the window.","Child, she passed there her days to look by the window."] | ["As a child, she used to spend her days there looking out of the window."] | false | The imparfait of habit becomes used to (or would); y becomes there; enfant becomes as a child, and à regarder becomes looking.
 - c2-version-ex004 | multiple-choice | Choisissez la meilleure traduction : « Tu es la petite Marthe, n'est-ce pas ? » | ["\"You're little Marthe, aren't you?\"","\"You are the small Marthe, is it not?\"","\"You are the little Marthe, isn't it?\""] | ["\"You're little Marthe, aren't you?\""] | false | Familiar tu and a spoken tag: English uses a contraction and the tag aren't you. N'est-ce pas isn't is it not.
 - c2-version-ex005 | multiple-choice | Indiquez le type d'erreur : traduire « éventuellement » par « eventually ». | ["un faux sens","une omission","une surtraduction"] | ["un faux sens"] | false | Éventuellement means possibly; eventually gives it a sense it doesn't have.
 - c2-version-ex006 | multiple-choice | Indiquez le type d'erreur : « Elle sourit » traduit par « She smiled warmly and happily ». | ["une surtraduction","une omission","un non-sens"] | ["une surtraduction"] | false | Warmly and happily aren't in the French: the translation adds what isn't there.
@@ -12574,7 +12849,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-version-ex012 | translate | Traduisez en anglais, avec un passif : On ferme la boulangerie le lundi. | — | ["The bakery is closed on Mondays","The bakery is shut on Mondays"] | false | On becomes a passive in English, and le lundi (every Monday) becomes on Mondays.
 - c2-version-ex013 | translate | Traduisez en anglais (faute de = for lack of) : L'école fermera faute d'élèves. | — | ["The school will close for lack of pupils","The school will close for lack of students"] | false | Faute de: for lack of. Pupils is British for schoolchildren; students is also used.
 - c2-version-ex014 | reorder | Remettez dans l'ordre la traduction de : Elle s'arrêta devant l'ancienne école. | — | ["She stopped in front of the old school"] | false | The passé simple s'arrêta becomes the simple past stopped; l'ancienne école here is the old school, not the ancient one.
-- c2-version-ex015 | multiple-choice | Choisissez la meilleure traduction : Actuellement, il ne restait qu'une quarantaine d'habitants. | ["By then, only about forty people were left.","Actually, only forty people were left.","Currently, there remained only a quarantine of inhabitants."] | ["By then, only about forty people were left."] | false | Actuellement means at present, here at that time in the story, not actually. Une quarantaine de means about forty.
+- c2-version-ex015 | multiple-choice | Choisissez la meilleure traduction : Actuellement, il ne restait qu'une quarantaine d'habitants. | ["Now, only about forty people were left.","Actually, only forty people were left.","Currently, there remained only a quarantine of inhabitants."] | ["Now, only about forty people were left."] | false | Actuellement means at present, not actually. In reported speech in a past story, it's the speaker's now. Une quarantaine de means about forty.
 - c2-version-ex016 | writing-task | Traduisez en anglais le quatrième paragraphe du texte (« Un vieil homme sortit… »), puis comparez avec le modèle et nommez chaque différence (faux sens, omission, surtraduction, calque). | — | — | false | —
 
 ## c2-theme
@@ -12650,7 +12925,6 @@ fr | pron | en | note
 - présider (une réunion) | pray-zee-DAY | to chair (a meeting) | —
 - un client que l'on risque de perdre | uhn klee-YAHN kuh lohn REESK duh PEHR-druh | a customer you risk losing | —
 - appliqué (appliquer) | ah-plee-KAY | applied (to apply) | —
-- nonobstant | noh-nob-STAHN | notwithstanding (very formal) | —
 - susmentionnées (susmentionné) | sews-mahn-syoh-NAY | above-mentioned (administrative) | —
 - à l'accoutumée | ah lah-koo-tew-MAY | as usual (literary) | —
 
@@ -12673,7 +12947,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-revising-your-style-ex013 | translate | Traduisez avec un verbe précis (tenir, au passé composé) : We held a meeting on Monday. | — | ["Nous avons tenu une réunion lundi","On a tenu une réunion lundi"] | true | Tenir une réunion replaces the catch-all faire une réunion. On is spoken; nous suits a report.
 - c2-revising-your-style-ex014 | reorder | Remettez dans l'ordre : This plan is solid but not yet applied. | — | ["Ce plan est solide mais pas encore appliqué"] | false | A light sentence: one subject, one verb, and an ellipsis of est after mais.
 - c2-revising-your-style-ex015 | multiple-choice | Indiquez la meilleure façon d'éviter la répétition de « le plan » dans un texte soigné. | ["a pronoun or ce plan","repeat it in capital letters","use the familiar word le truc"] | ["a pronoun or ce plan"] | false | A pronoun (il, le) or a demonstrative (ce plan) avoids the repetition; le truc is familiar.
-- c2-revising-your-style-ex016 | writing-task | Allégez ce paragraphe (40 à 80 mots), puis comparez avec le modèle : « Il y a des employés qui ont dit qu'il y a des problèmes avec le logiciel qui est utilisé pour la gestion des congés des employés du service, et ces problèmes, il faut qu'on les règle vite, parce que les employés, ils sont mécontents. » | — | — | false | —
+- c2-revising-your-style-ex016 | writing-task | Allégez ce paragraphe en 20 à 50 mots, puis comparez avec le modèle : « Il y a des employés qui ont dit qu'il y a des problèmes avec le logiciel qui est utilisé pour la gestion des congés des employés du service, et ces problèmes, il faut qu'on les règle vite, parce que les employés, ils sont mécontents. » | — | — | false | —
 
 ## c2-review-writing
 
@@ -12682,7 +12956,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 fr | pron | en | note
 
 - un premier jet | uhn pruh-myay ZHEH | a first draft | —
-- rédiger au propre | ray-dee-ZHAY oh PROH-pruh | to write out a clean copy | —
+- rédiger au propre | ray-dee-ZHAY oh PROH-pruh | to write out a clean copy | The usual phrase: mettre un texte au propre.
 - peaufiner | poh-fee-NAY | to polish, to put the finishing touches to | —
 - la mise en page | lah mee-zahn PAHZH | the layout | —
 - une révision | ewn ray-vee-ZYOHN | a revision (rereading and improving a text) | —
@@ -12695,6 +12969,7 @@ fr | pron | en | note
 - pousser (faire pousser) | poo-SAY | to grow (to make grow) | —
 - cultivent (cultiver) | kewl-TEEV | grow, cultivate | —
 - s'inscrire auprès de | san-SKREER oh-PREH duh | to sign up with | —
+- une inscription | ew-nan-skreep-SYOHN | signing up, a registration | —
 
 ### Exercises
 
@@ -12712,7 +12987,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-review-writing-ex010 | error-correction | Corrigez le verbe passe-partout, avec « tenir » : L'association a fait une réunion. | — | ["L'association a tenu une réunion"] | true | Tenir une réunion is the precise collocation.
 - c2-review-writing-ex011 | reformulation | Allégez en supprimant « il y a » : Il y a eu des vols de légumes la nuit. | — | ["Des légumes ont été volés la nuit","Des vols de légumes ont eu lieu la nuit"] | true | Both remove il y a: a passive with the vegetables as subject, or avoir lieu with the thefts as subject.
 - c2-review-writing-ex012 | translate | Traduisez (un premier jet) : This is only a first draft. | — | ["Ce n'est qu'un premier jet","C'est seulement un premier jet"] | false | Un premier jet: a first draft; ne… que for only.
-- c2-review-writing-ex013 | translate | Traduisez (rédiger au propre, au futur proche) : I'm going to write out the clean copy tonight. | — | ["Je vais rédiger au propre ce soir","Ce soir, je vais rédiger au propre"] | false | Rédiger au propre: to write out the final, clean version.
+- c2-review-writing-ex013 | translate | Traduisez (rédiger au propre, ou mettre au propre, au futur proche) : I'm going to write out a clean copy of my text tonight. | — | ["Je vais rédiger mon texte au propre ce soir","Ce soir, je vais rédiger mon texte au propre","Je vais mettre mon texte au propre ce soir","Ce soir, je vais mettre mon texte au propre"] | false | Rédiger un texte au propre: to write out its final, clean version. Mettre un texte au propre is the usual phrase; both are accepted.
 - c2-review-writing-ex014 | reorder | Remettez dans l'ordre : First the notes, then the draft, then the revision. | — | ["D'abord les notes, puis le premier jet, puis la révision"] | false | The order of the stages: notes, first draft, revision.
 - c2-review-writing-ex015 | multiple-choice | Indiquez l'étape qui vient après la version revue, quand on demande un texte plus court. | ["the contraction","the notes","the first draft"] | ["the contraction"] | false | The contraction reduces the revised text to the proportion asked for.
-- c2-review-writing-ex016 | writing-task | À partir de ces notes, rédigez un court article de 60 à 100 mots, puis relisez-le : « Fête de quartier, samedi 14 juin ; place de la Gare ; repas partagé, musique, jeux pour les enfants ; chacun apporte un plat ; besoin de bénévoles pour installer les tables. » | — | — | false | —
+- c2-review-writing-ex016 | writing-task | À partir de ces notes, rédigez un court article de 50 à 90 mots, puis relisez-le : « Fête de quartier, samedi 14 juin ; place de la Gare ; repas partagé, musique, jeux pour les enfants ; chacun apporte un plat ; besoin de bénévoles pour installer les tables. » | — | — | false | —

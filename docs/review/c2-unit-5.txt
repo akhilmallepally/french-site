@@ -34,7 +34,6 @@ vocab:
   - { id: "c2-contraction-de-texte-v021", group: "glossary", fr: "inutiles (inutile)", pron: "ee-new-TEEL", en: "useless" }
   - { id: "c2-contraction-de-texte-v022", group: "glossary", fr: "allonger", pron: "ah-lohn-ZHAY", en: "to lengthen" }
   - { id: "c2-contraction-de-texte-v023", group: "glossary", fr: "une catégorie", pron: "ewn kah-tay-goh-REE", en: "a category" }
-  - { id: "c2-contraction-de-texte-v024", group: "glossary", fr: "améliorer", pron: "ah-may-lyoh-RAY", en: "to improve" }
   - { id: "c2-contraction-de-texte-v025", group: "glossary", fr: "les contraintes (f.)", pron: "lay kohn-TRANT", en: "constraints" }
   - { id: "c2-contraction-de-texte-v026", group: "glossary", fr: "honnêtement", pron: "oh-net-MAHN", en: "honestly" }
   - { id: "c2-contraction-de-texte-v027", group: "glossary", fr: "une recette miracle", pron: "ewn ruh-set mee-RAH-kluh", en: "a miracle cure" }
@@ -243,11 +242,11 @@ The target is a quarter of 409 words, about 102 words, so between 92 and 112 wit
 
 ## The same text, to a third
 
-The target is a third of 409 words, about 136, so between 123 and 150. This version counts 141 words: it keeps more detail, but the same steps in the same order.
+The target is a third of 409 words, about 136, so between 123 and 150. This version counts 143 words: it keeps more detail, but the same steps in the same order.
 
-*La semaine de quatre jours revient souvent dans le débat public. Ses partisans y voient un progrès : des salariés plus reposés seraient plus motivés et plus efficaces. Il faut pourtant savoir à quelles conditions elle fonctionne. Elle réduit la fatigue, les absences et les réunions inutiles, et libère un jour pour les familles. Mais elle ne convient pas aux métiers où le service est continu, comme l'hôpital ou le commerce : il faut alors embaucher, ce qui coûte cher, ou allonger des journées déjà fatigantes. Sans réflexion sur les priorités, la semaine devient aussi plus dense. Elle risque donc d'opposer les salariés des bureaux à ceux du terrain et de renforcer les inégalités. Mieux vaut ne ni la généraliser ni la refuser, mais l'adapter à chaque secteur et mesurer ses effets : c'est un outil, pas une recette miracle.*
+*La semaine de quatre jours revient souvent dans le débat public. Ses partisans y voient un progrès : des salariés plus reposés seraient plus motivés et plus efficaces. Il faut pourtant savoir à quelles conditions elle fonctionne. Elle réduit la fatigue, les absences et les réunions inutiles, et libère un jour pour les familles. Mais elle ne convient pas aux métiers où le service est continu, comme l'hôpital ou le commerce : il faut alors embaucher, ce qui coûte cher, ou allonger des journées déjà fatigantes. Sans réflexion sur les priorités, la semaine devient aussi plus dense. Elle risque donc d'opposer les salariés des bureaux à ceux du terrain et de renforcer les inégalités. Mieux vaut ne pas la généraliser ni la refuser en bloc, mais l'adapter à chaque secteur et mesurer ses effets : c'est un outil, pas une recette miracle.*
 
-(The four-day week often comes back into public debate. Its supporters see it as progress: more rested employees would be more motivated and more efficient. Yet we must know under what conditions it works. It reduces tiredness, absences and useless meetings, and frees a day for families. But it doesn't suit jobs where the service is continuous, such as the hospital or the shop: they must then hire, which is expensive, or lengthen days that are already tiring. Without thinking about priorities, the week also gets denser. It therefore risks setting office employees against those in the field and reinforcing inequalities. It's better neither to generalize it nor to refuse it, but to adapt it to each sector and measure its effects: it's a tool, not a miracle cure.)
+(The four-day week often comes back into public debate. Its supporters see it as progress: more rested employees would be more motivated and more efficient. Yet we must know under what conditions it works. It reduces tiredness, absences and useless meetings, and frees a day for families. But it doesn't suit jobs where the service is continuous, such as the hospital or the shop: they must then hire, which is expensive, or lengthen days that are already tiring. Without thinking about priorities, the week also gets denser. It therefore risks setting office employees against those in the field and reinforcing inequalities. It's better not to generalize it or reject it wholesale, but to adapt it to each sector and measure its effects: it's a tool, not a miracle cure.)
 
 ## How the contractions work
 
@@ -570,9 +569,9 @@ exercises:
   - id: "c2-version-ex003"
     type: "multiple-choice"
     prompt: "Choisissez la meilleure traduction : Enfant, elle y passait ses journées à regarder par la fenêtre."
-    options: ["As a child, she used to spend her days looking out of the window.", "As a child, she has spent her days looking out of the window.", "Child, she passed her days to look by the window."]
-    answers: ["As a child, she used to spend her days looking out of the window."]
-    explanation: "The imparfait of habit becomes used to (or would). Enfant becomes as a child, and à regarder becomes looking."
+    options: ["As a child, she used to spend her days there looking out of the window.", "As a child, she has spent her days there looking out of the window.", "Child, she passed there her days to look by the window."]
+    answers: ["As a child, she used to spend her days there looking out of the window."]
+    explanation: "The imparfait of habit becomes used to (or would); y becomes there; enfant becomes as a child, and à regarder becomes looking."
   - id: "c2-version-ex004"
     type: "multiple-choice"
     prompt: "Choisissez la meilleure traduction : « Tu es la petite Marthe, n'est-ce pas ? »"
@@ -635,9 +634,9 @@ exercises:
   - id: "c2-version-ex015"
     type: "multiple-choice"
     prompt: "Choisissez la meilleure traduction : Actuellement, il ne restait qu'une quarantaine d'habitants."
-    options: ["By then, only about forty people were left.", "Actually, only forty people were left.", "Currently, there remained only a quarantine of inhabitants."]
-    answers: ["By then, only about forty people were left."]
-    explanation: "Actuellement means at present, here at that time in the story, not actually. Une quarantaine de means about forty."
+    options: ["Now, only about forty people were left.", "Actually, only forty people were left.", "Currently, there remained only a quarantine of inhabitants."]
+    answers: ["Now, only about forty people were left."]
+    explanation: "Actuellement means at present, not actually. In reported speech in a past story, it's the speaker's now. Une quarantaine de means about forty."
   - id: "c2-version-ex016"
     type: "writing-task"
     prompt: "Traduisez en anglais le quatrième paragraphe du texte (« Un vieil homme sortit… »), puis comparez avec le modèle et nommez chaque différence (faux sens, omission, surtraduction, calque)."
@@ -685,7 +684,7 @@ As a rule of thumb, work in four steps.
 
 <Example fr="Elle ne pouvait pas s'empêcher de sourire en lisant la lettre." en="She couldn't help smiling as she read the letter." />
 
-**False friends.** *Actuellement* is *currently* or, in a story, *at that time*; *éventuellement* is *possibly*; *une quarantaine de* is *about forty*.
+**False friends.** *Actuellement* is *at present*, *currently*; in reported speech in a past story, it's the speaker's *now*; *éventuellement* is *possibly*; *une quarantaine de* is *about forty*.
 
 **Register and sentence length.** A familiar *tu* calls for contractions and spoken English. A long French sentence with several clauses can often be split in two in English.
 
@@ -734,7 +733,7 @@ The story below is original, written for this lesson. Its English translation is
 
 *Quand la pluie s'arrêta enfin, Marthe remercia le vieil homme et reprit la route. Dans la voiture, sur la route mouillée, elle pensa longtemps à la cour d'école, au panneau et au sourire du vieil homme. Elle savait qu'elle reviendrait un jour, éventuellement pour de bon.*
 
-(When Marthe came back to the village after twenty years away, it was pouring. She had been told that everything had changed, but she hadn't expected to find the market square empty, the shutters closed and the bakery turned into an estate agent's. She stopped in front of the old school. As a child, she used to spend her days there looking out of the window, dreaming of big cities and faraway journeys. Now the playground was overgrown with grass, and someone had hung a sign on the gate: "For sale". On the square, the café of her childhood was still there. The chairs were the same, red and a little rusty, but the owner had changed. Marthe ordered a coffee, which she drank at the counter, listening to two men talking about the rain and the price of bread. Nobody in the little room recognized her, and she didn't try to introduce herself. An old man came out of a house nearby. He looked at her for a long time, in silence, as if he were searching for a name, then he smiled. "You're little Marthe, aren't you? Your mother talked about you all the time." She couldn't help laughing: nobody had called her "little Marthe" for years. They talked for a long time under the awning of the closed bakery. He told her the story of every house, and of every family that had left. He also told her that the school would close for good in the summer, for lack of pupils, and that young people left to work in town as soon as they could. By then, he explained, only about forty people were left, nearly all of them elderly. When the rain finally stopped, Marthe thanked the old man and set off again. In the car, on the wet road, she thought for a long time about the school playground, the sign and the old man's smile. She knew she would come back one day, possibly for good.)
+(When Marthe came back to the village after twenty years away, it was pouring. She had been told that everything had changed, but she hadn't expected to find the market square empty, the shutters closed and the bakery turned into an estate agent's. She stopped in front of the old school. As a child, she used to spend her days there looking out of the window, dreaming of big cities and faraway journeys. Now the playground was overgrown with grass, and someone had hung a sign on the gate: "For sale". On the square, the café of her childhood was still there. The chairs were the same, red and a little rusty, but the owner had changed. Marthe ordered a coffee, which she drank at the counter, listening to two men talking about the rain and the price of bread. Nobody in the little room recognized her, and she didn't try to introduce herself. An old man came out of a house nearby. He looked at her for a long time, in silence, as if he were searching for a name, then he smiled. "You're little Marthe, aren't you? Your mother talked about you all the time." She couldn't help laughing: nobody had called her "little Marthe" for years. They talked for a long time under the awning of the closed bakery. He told her the story of every house, and of every family that had left. He also told her that the school would close for good in the summer, for lack of pupils, and that young people left to work in town as soon as they could. Now, he explained, only about forty people were left, nearly all of them elderly. When the rain finally stopped, Marthe thanked the old man and set off again. In the car, on the wet road, she thought for a long time about the school playground, the sign and the old man's smile. She knew she would come back one day, possibly for good.)
 
 <VocabTable group="glossary" />
 
@@ -743,7 +742,7 @@ The story below is original, written for this lesson. Its English translation is
 - **The tenses:** every passé simple (*revint*, *s'arrêta*, *sourit*) becomes a simple past; the imparfait of habit (*passait*) becomes *used to spend*; *aujourd'hui* in a past story becomes *now*.
 - **On:** the clause *on lui avait dit* becomes a passive, *she had been told*.
 - **The idioms:** the phrases *il pleuvait des cordes* → *it was pouring*; *ne put s'empêcher de rire* → *couldn't help laughing*; *pour de bon* → *for good*.
-- **The false friends:** the words *actuellement* → *by then*; *éventuellement* → *possibly*; *une quarantaine de* → *about forty*; *définitivement* → *for good*.
+- **The false friends:** the words *actuellement* → *now* (the old man's present, in reported speech); *éventuellement* → *possibly*; *une quarantaine de* → *about forty*; *définitivement* → *for good*.
 - **The register:** the old man's *tu* and *n'est-ce pas* become a contraction and the tag *aren't you*.
 - **Cultural words:** the phrase *une agence immobilière* → *an estate agent's* (British; American English would say *a real estate agency*).
 - **Nothing added, nothing left out:** the phrase *presque tous âgés* is *nearly all of them elderly*, not a longer explanation.
@@ -758,7 +757,7 @@ Rose and Daniel are students in a translation class. They compare their versions
 - *Et « on lui avait dit » ? J'ai écrit « one had told her ».* (And "on lui avait dit"? I wrote "one had told her".)
 - *C'est un calque. En anglais, on dit « she had been told ».* (That's a calque. In English, you say "she had been told".)
 - *D'accord. Pour « actuellement », j'ai traduit par « actually ».* (OK. For "actuellement", I translated "actually".)
-- *Attention, c'est un faux sens : ici, ça veut dire « à ce moment-là », donc « by then ».* (Careful, that's a wrong meaning: here it means "at that time", so "by then".)
+- *Attention, c'est un faux sens : ici, ça veut dire « en ce moment », donc « now, he explained ».* (Careful, that's a wrong meaning: here it means "at present", so "now, he explained".)
 - *Et à la fin, « éventuellement pour de bon », j'ai mis « eventually for good ».* (And at the end, "éventuellement pour de bon", I put "eventually for good".)
 - *Encore un faux sens. « Éventuellement », c'est « possibly ».* (Another wrong meaning. "Éventuellement" is "possibly".)
 - *Le vieil homme dit « tu ». Je garde « you are » ou je mets « you're » ?* (The old man says "tu". Do I keep "you are" or put "you're"?)
@@ -988,7 +987,8 @@ Customer service has been improved. Last year, a customer satisfaction survey wa
 
 - **The passives** (*a été amélioré*, *a été menée par*, *ont été engagés*) become a pronominal verb (*s'est amélioré*), an active verb (*un cabinet a mené*) and *nous avons recruté*.
 - **The noun stack** *enquête client satisfaction* becomes *une enquête de satisfaction*.
-- **The faux sens** *une ferme* (a farm) becomes *un cabinet*; *le manager* becomes *la responsable*.
+- **The faux sens** *une ferme* (a farm) becomes *un cabinet*.
+- **The anglicism** *le manager* becomes *la responsable*, the usual French word in a company's notice.
 - **The impossible passives** *sont répondus* and *nous avons été dits* become *obtiennent une réponse* and *on nous a dit*: French can't put *répondre* or *dire quelqu'un* in the passive.
 - **The calques** *fatigués d'attendre sur le téléphone*, *dans des minutes* and *à un temps de leur choix* become *se plaignaient d'attendre au téléphone*, *en quelques minutes* and *au moment qui leur convient*.
 - **More calques**: *retournés* (for returned calls) and *à tout temps* become *un conseiller rappelle* and *à tout moment*; *traiter avec les plaintes* becomes *traiter les réclamations*, with *six heures* made clear as *dix-huit heures*. The polite *vous* addresses one reader, so *satisfait* stays singular.
@@ -1054,7 +1054,6 @@ vocab:
   - { id: "c2-revising-your-style-v014", group: "register", fr: "présider (une réunion)", pron: "pray-zee-DAY", en: "to chair (a meeting)" }
   - { id: "c2-revising-your-style-v015", group: "register", fr: "un client que l'on risque de perdre", pron: "uhn klee-YAHN kuh lohn REESK duh PEHR-druh", en: "a customer you risk losing" }
   - { id: "c2-revising-your-style-v016", group: "glossary", fr: "appliqué (appliquer)", pron: "ah-plee-KAY", en: "applied (to apply)" }
-  - { id: "c2-revising-your-style-v017", group: "glossary", fr: "nonobstant", pron: "noh-nob-STAHN", en: "notwithstanding (very formal)" }
   - { id: "c2-revising-your-style-v018", group: "glossary", fr: "susmentionnées (susmentionné)", pron: "sews-mahn-syoh-NAY", en: "above-mentioned (administrative)" }
   - { id: "c2-revising-your-style-v019", group: "glossary", fr: "à l'accoutumée", pron: "ah lah-koo-tew-MAY", en: "as usual (literary)" }
 exercises:
@@ -1142,10 +1141,10 @@ exercises:
     explanation: "A pronoun (il, le) or a demonstrative (ce plan) avoids the repetition; le truc is familiar."
   - id: "c2-revising-your-style-ex016"
     type: "writing-task"
-    prompt: "Allégez ce paragraphe (40 à 80 mots), puis comparez avec le modèle : « Il y a des employés qui ont dit qu'il y a des problèmes avec le logiciel qui est utilisé pour la gestion des congés des employés du service, et ces problèmes, il faut qu'on les règle vite, parce que les employés, ils sont mécontents. »"
-    model: "Plusieurs employés ont signalé des problèmes avec le logiciel de gestion des congés du service. Nous devons les régler rapidement, car ces dysfonctionnements suscitent un vif mécontentement."
+    prompt: "Allégez ce paragraphe en 20 à 50 mots, puis comparez avec le modèle : « Il y a des employés qui ont dit qu'il y a des problèmes avec le logiciel qui est utilisé pour la gestion des congés des employés du service, et ces problèmes, il faut qu'on les règle vite, parce que les employés, ils sont mécontents. »"
+    model: "Plusieurs employés ont signalé des problèmes avec le logiciel de gestion des congés du service. Nous devons les régler rapidement, car ces dysfonctionnements suscitent du mécontentement."
     checklist: ["Did you remove every il y a… qui?", "Did you shorten the chain of de (logiciel de gestion des congés)?", "Did you avoid repeating employés and problèmes?", "Did you remove the spoken forms (on, ils sont mécontents after a dislocation)?", "Did you replace the catch-all verbs with precise ones?"]
-    wordTarget: [20, 80]
+    wordTarget: [20, 50]
 ---
 
 By the end of this lesson you'll be able to reread your own French and make it lighter, clearer and more consistent: fewer heavy chains, fewer repetitions, no register breaks, and precise verbs.
@@ -1207,7 +1206,7 @@ Be careful with synonyms: a synonym that's less precise than the repeated word i
 
 <Example fr="Les clients sont mécontents, c'est pourquoi la directrice va présider une nouvelle réunion." en="The customers are dissatisfied, which is why the director is going to chair a new meeting." />
 
-A register break can also go the other way: a very formal word (*nonobstant*, *icelui*) in an everyday email sounds odd. The aim is consistency, not formality.
+A register break can also go the other way: a very formal word (*nonobstant*, *icelui*) in an everyday email sounds odd. You know *nonobstant* from <LessonLink id="c2-legal-french" text="the lesson on legal French" />. The aim is consistency, not formality.
 
 ## The model: two heavy texts and their revisions
 
@@ -1231,7 +1230,7 @@ The texts below are original. Each faulty version is followed by its revision: t
 
 ## How the revisions work
 
-- **The cascades of relatives** (*un problème qui est important qu'il faut que…*; *la réunion qui était prévue…, qui devait…, dans la salle qui se trouve…*) become an adjective (*important*), a participle (*prévue*) and a noun complement (*du deuxième étage*). One relative clause is kept, because it's useful: *qui devait la présider*.
+- **The cascades of relatives** (*un problème qui est important qu'il faut que…*: two relative clauses, *qui est important* and *qu'il faut…*, then a completive, *que nous réglions*; *la réunion qui était prévue…, qui devait…, dans la salle qui se trouve…*) become an adjective (*important*), a participle (*prévue*) and a noun complement (*du deuxième étage*). One relative clause is kept, because it's useful: *qui devait la présider*.
 - **The chain of de** (*du retard de la livraison des commandes des clients*) becomes *le retard des livraisons*.
 - **Il y a… qui** becomes a plain subject: *de nombreux clients*.
 - **The catch-all verbs** (*faire une réunion*, *dire plein de choses*, *mettre en place*) become *lors d'une réunion*, *analyser*, *adopter*.
@@ -1248,7 +1247,7 @@ Lucas has written a report; Inès, his manager, reads it with him. They use *tu*
 - *Lucas, ton rapport est complet, mais certaines phrases sont lourdes.* (Lucas, your report is complete, but some sentences are heavy.)
 - *Lesquelles ? Je l'ai relu deux fois.* (Which ones? I reread it twice.)
 - *La première : « Il y a un problème qui est important qu'il faut que nous réglions ».* (The first: "Il y a un problème qui est important qu'il faut que nous réglions".)
-- *Trois relatives… Je peux écrire « Nous devons régler un problème important » ?* (Three relative clauses… Can I write "Nous devons régler un problème important"?)
+- *Deux relatives, et une complétive en plus… Je peux écrire « Nous devons régler un problème important » ?* (Two relative clauses, and a completive clause on top… Can I write "Nous devons régler un problème important"?)
 - *Oui, c'est beaucoup plus léger. Et le « on » partout ?* (Yes, that's much lighter. And the "on" everywhere?)
 - *Dans un rapport, je mets « nous ». Et je supprime « plein de choses ».* (In a report, I'll put "nous". And I'll remove "plein de choses".)
 - *Remplace aussi « on a fait une réunion » par un verbe précis.* (Also replace "on a fait une réunion" with a precise verb.)
@@ -1284,7 +1283,7 @@ prerequisites: ["c2-contraction-de-texte", "c2-long-essay", "c2-version", "c2-th
 related: ["c2-review-form", "c2-review-words"]
 vocab:
   - { id: "c2-review-writing-v001", group: "new", fr: "un premier jet", pron: "uhn pruh-myay ZHEH", en: "a first draft" }
-  - { id: "c2-review-writing-v002", group: "new", fr: "rédiger au propre", pron: "ray-dee-ZHAY oh PROH-pruh", en: "to write out a clean copy" }
+  - { id: "c2-review-writing-v002", group: "new", fr: "rédiger au propre", pron: "ray-dee-ZHAY oh PROH-pruh", en: "to write out a clean copy", note: "The usual phrase: mettre un texte au propre." }
   - { id: "c2-review-writing-v003", group: "new", fr: "peaufiner", pron: "poh-fee-NAY", en: "to polish, to put the finishing touches to" }
   - { id: "c2-review-writing-v004", group: "new", fr: "la mise en page", pron: "lah mee-zahn PAHZH", en: "the layout" }
   - { id: "c2-review-writing-v005", group: "new", fr: "une révision", pron: "ewn ray-vee-ZYOHN", en: "a revision (rereading and improving a text)" }
@@ -1297,6 +1296,7 @@ vocab:
   - { id: "c2-review-writing-v012", group: "glossary", fr: "pousser (faire pousser)", pron: "poo-SAY", en: "to grow (to make grow)" }
   - { id: "c2-review-writing-v013", group: "glossary", fr: "cultivent (cultiver)", pron: "kewl-TEEV", en: "grow, cultivate" }
   - { id: "c2-review-writing-v014", group: "glossary", fr: "s'inscrire auprès de", pron: "san-SKREER oh-PREH duh", en: "to sign up with" }
+  - { id: "c2-review-writing-v015", group: "glossary", fr: "une inscription", pron: "ew-nan-skreep-SYOHN", en: "signing up, a registration" }
 exercises:
   - id: "c2-review-writing-ex001"
     type: "multiple-choice"
@@ -1366,9 +1366,9 @@ exercises:
     explanation: "Un premier jet: a first draft; ne… que for only."
   - id: "c2-review-writing-ex013"
     type: "translate"
-    prompt: "Traduisez (rédiger au propre, au futur proche) : I'm going to write out the clean copy tonight."
-    answers: ["Je vais rédiger au propre ce soir", "Ce soir, je vais rédiger au propre"]
-    explanation: "Rédiger au propre: to write out the final, clean version."
+    prompt: "Traduisez (rédiger au propre, ou mettre au propre, au futur proche) : I'm going to write out a clean copy of my text tonight."
+    answers: ["Je vais rédiger mon texte au propre ce soir", "Ce soir, je vais rédiger mon texte au propre", "Je vais mettre mon texte au propre ce soir", "Ce soir, je vais mettre mon texte au propre"]
+    explanation: "Rédiger un texte au propre: to write out its final, clean version. Mettre un texte au propre is the usual phrase; both are accepted."
   - id: "c2-review-writing-ex014"
     type: "reorder"
     prompt: "Remettez dans l'ordre : First the notes, then the draft, then the revision."
@@ -1383,10 +1383,10 @@ exercises:
     explanation: "The contraction reduces the revised text to the proportion asked for."
   - id: "c2-review-writing-ex016"
     type: "writing-task"
-    prompt: "À partir de ces notes, rédigez un court article de 60 à 100 mots, puis relisez-le : « Fête de quartier, samedi 14 juin ; place de la Gare ; repas partagé, musique, jeux pour les enfants ; chacun apporte un plat ; besoin de bénévoles pour installer les tables. »"
-    model: "Le samedi 14 juin, la place de la Gare accueillera la fête du quartier. Au programme : un repas partagé, de la musique et des jeux pour les enfants. Le principe est simple : chacun apporte un plat, et tout le monde partage. Pour que la fête réussisse, l'association a besoin de bénévoles qui l'aideront à installer les tables dans la matinée. Ceux qui souhaitent participer peuvent s'inscrire auprès des organisateurs."
-    checklist: ["Did you turn the notes into full sentences, with no telegraphic style?", "Did you avoid il y a… qui and the catch-all verbs?", "Is there no spoken form (on, dislocation) in the article?", "Did you reread it once for the meaning and once for the spelling?", "Is your count between 60 and 100 words?"]
-    wordTarget: [60, 100]
+    prompt: "À partir de ces notes, rédigez un court article de 50 à 90 mots, puis relisez-le : « Fête de quartier, samedi 14 juin ; place de la Gare ; repas partagé, musique, jeux pour les enfants ; chacun apporte un plat ; besoin de bénévoles pour installer les tables. »"
+    model: "Le samedi 14 juin, la place de la Gare accueillera la fête du quartier. Au programme : un repas partagé, de la musique et des jeux pour les enfants. Le principe est simple : chacun apporte un plat, et tout le monde partage. Pour que la fête réussisse, l'association a besoin de bénévoles qui l'aideront à installer les tables."
+    checklist: ["Did you turn the notes into full sentences, with no telegraphic style?", "Did you avoid il y a… qui and the catch-all verbs?", "Is there no spoken form (on, dislocation) in the article?", "Did you reread it once for the meaning and once for the spelling?", "Is your count between 50 and 90 words?"]
+    wordTarget: [50, 90]
 ---
 
 By the end of this lesson you'll be able to take a text through every stage of the unit: from notes to a first draft, from the draft to a revised version, and from the revised version to a contraction.
@@ -1405,7 +1405,7 @@ Skim this list, and go back to anything that feels shaky.
 
 <VocabTable group="new" />
 
-These five words name the stages of writing. *Une révision* (a revision) is the rereading that improves a text. *Un premier jet* (a first draft) is the text written straight out, without stopping to correct. *Peaufiner* (to polish) is the last work on details. *Rédiger au propre* is to write out the clean, final copy. *La mise en page* (the layout) is how the text sits on the page: title, paragraphs, spacing. You know *mettre en page* from B2.
+These five words name the stages of writing. *Une révision* (a revision) is the rereading that improves a text. *Un premier jet* (a first draft) is the text written straight out, without stopping to correct. *Peaufiner* (to polish) is the last work on details. *Rédiger au propre* is to write out the clean, final copy; the usual phrase is *mettre au propre* (*mettre un texte au propre*). *La mise en page* (the layout) is how the text sits on the page: title, paragraphs, spacing. You know *mettre en page* from B2.
 
 <Example fr="Le premier jet est souvent trop long : il faut ensuite le peaufiner." en="The first draft is often too long: you then have to polish it." />
 
@@ -1453,9 +1453,9 @@ The text below is original, for an invented association's newsletter. It's given
 
 *Décisions de la réunion : récupérer l'eau de pluie ; fermer le jardin la nuit.*
 
-*Appel : des bénévoles le samedi matin, peut-être le dimanche.*
+*Appel : des bénévoles le samedi matin, peut-être le dimanche ; inscription auprès de l'association, à la sortie du jardin.*
 
-*Premier jet. Il y a maintenant un an que le jardin partagé du quartier de la Gare a ouvert, et il y a une quarantaine de familles qui y viennent. Le jardin, il plaît beaucoup : on y fait pousser plein de légumes, les voisins se parlent et les enfants découvrent la nature. Mais il y a des problèmes qu'il faut régler. L'été, il y a un manque d'eau, et il y a eu des vols de légumes la nuit, ce qui est un problème. On a fait une réunion et on a décidé de récupérer l'eau de pluie et de fermer le jardin la nuit. Pour ça, on a besoin de bénévoles le samedi matin, et peut-être aussi le dimanche.*
+*Premier jet. Il y a maintenant un an que le jardin partagé du quartier de la Gare a ouvert, et il y a une quarantaine de familles qui y viennent. Le jardin, il plaît beaucoup : on y fait pousser plein de légumes, les voisins se parlent et les enfants découvrent la nature. Mais il y a des problèmes qu'il faut régler. L'été, il y a un manque d'eau, et il y a eu des vols de légumes la nuit, ce qui est un problème. On a fait une réunion et on a décidé de récupérer l'eau de pluie et de fermer le jardin la nuit. Pour ça, on a besoin de bénévoles le samedi matin, et peut-être aussi le dimanche. Pour s'inscrire, il faut aller voir l'association, à la sortie du jardin.*
 
 *Version revue. Le jardin partagé du quartier de la Gare fête son premier anniversaire. Une quarantaine de familles le cultivent aujourd'hui, et son succès dépasse les légumes : les voisins s'y rencontrent, et les enfants y découvrent la nature. Deux difficultés restent pourtant à régler : le manque d'eau en été et quelques vols nocturnes. Lors de sa dernière réunion, l'association a décidé de récupérer l'eau de pluie et de fermer le jardin la nuit. Elle cherche donc des bénévoles pour le samedi matin, et peut-être aussi pour le dimanche. Ceux qui souhaitent participer peuvent s'inscrire auprès de l'association, à la sortie du jardin.*
 
@@ -1463,13 +1463,13 @@ The text below is original, for an invented association's newsletter. It's given
 
 <VocabTable group="glossary" />
 
-(Notes. Community garden in the Gare district: opened a year ago; about forty families. Good points: vegetables, ties between neighbours, children discover nature. Problems: lack of water in summer; a few thefts at night. Decisions of the meeting: collect rainwater; close the garden at night. Appeal: volunteers on Saturday mornings, perhaps on Sundays. / First draft. It's now a year since the community garden in the Gare district opened, and there are about forty families who come to it. The garden, people like it a lot: we grow loads of vegetables there, the neighbours talk to each other and the children discover nature. But there are problems that need settling. In summer, there's a lack of water, and there have been thefts of vegetables at night, which is a problem. We had a meeting and we decided to collect rainwater and close the garden at night. For that, we need volunteers on Saturday mornings, and perhaps also on Sundays. / Revised version. The community garden in the Gare district is celebrating its first anniversary. About forty families now grow vegetables there, and its success goes beyond vegetables: the neighbours meet there, and the children discover nature. Two difficulties still need to be settled, though: the lack of water in summer and a few night-time thefts. At its last meeting, the association decided to collect rainwater and close the garden at night. So it's looking for volunteers for Saturday mornings, and perhaps also for Sundays. Those who wish to take part can sign up with the association, at the garden's exit. / Contraction. A year after it opened, the community garden in the Gare district brings together about forty families and brings neighbours closer. To fight the lack of water and the thefts, the association is looking for volunteers on Saturdays.)
+(Notes. Community garden in the Gare district: opened a year ago; about forty families. Good points: vegetables, ties between neighbours, children discover nature. Problems: lack of water in summer; a few thefts at night. Decisions of the meeting: collect rainwater; close the garden at night. Appeal: volunteers on Saturday mornings, perhaps on Sundays; sign up with the association, at the garden's exit. / First draft. It's now a year since the community garden in the Gare district opened, and there are about forty families who come to it. The garden, people like it a lot: we grow loads of vegetables there, the neighbours talk to each other and the children discover nature. But there are problems that need settling. In summer, there's a lack of water, and there have been thefts of vegetables at night, which is a problem. We had a meeting and we decided to collect rainwater and close the garden at night. For that, we need volunteers on Saturday mornings, and perhaps also on Sundays. To sign up, you have to go and see the association, at the garden's exit. / Revised version. The community garden in the Gare district is celebrating its first anniversary. About forty families now grow vegetables there, and its success goes beyond vegetables: the neighbours meet there, and the children discover nature. Two difficulties still need to be settled, though: the lack of water in summer and a few night-time thefts. At its last meeting, the association decided to collect rainwater and close the garden at night. So it's looking for volunteers for Saturday mornings, and perhaps also for Sundays. Those who wish to take part can sign up with the association, at the garden's exit. / Contraction. A year after it opened, the community garden in the Gare district brings together about forty families and brings neighbours closer. To fight the lack of water and the thefts, the association is looking for volunteers on Saturdays.)
 
 ## How the text changes
 
 - **From the notes to the first draft**, every line becomes a sentence; the five points come in the same order.
 - **The first draft** has every fault of the unit: *il y a… qui* (twice), a dislocation (*le jardin, il plaît*), *on*, *plein de*, a catch-all verb (*on a fait une réunion*), a repetition (*problème*), and *pour ça*.
-- **The revised draft** removes them all: a plain subject (*une quarantaine de familles le cultivent*), precise verbs (*fête*, *cultivent*, *lors de sa dernière réunion*), *l'association* instead of *on*, and *donc* instead of *pour ça*. It counts 107 words, against 123 for the first draft (labels left out).
+- **The revised draft** removes them all: a plain subject (*une quarantaine de familles le cultivent*), precise verbs (*fête*, *cultivent*, *lors de sa dernière réunion*), *l'association* instead of *on*, and *donc* instead of *pour ça*. It counts 107 words, against 137 for the first draft (labels left out).
 - **The contraction** reduces the revised draft (107 words) to about a third: 39 words, counted with the lesson's convention, within the tolerance (32 to 39). It keeps the order and the voice, and drops the details (the anniversary, the place to sign up).
 
 ## Your turn
@@ -1487,4 +1487,3 @@ Take the notes in the writing task, which are about a neighbourhood party, and g
 ## What's next
 
 The next unit is about mediation and negotiation. It starts with the lesson on mediation.
-

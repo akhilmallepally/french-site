@@ -521,7 +521,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 ## C2 · Mastery (planned)
 
-Planned in docs/plans/c2/ (Prompt 40). Units 1, 2, 4 and 5 are written (Prompts 42 to 45); the other rows are planned and may change.
+Planned in docs/plans/c2/ (Prompt 40). Units 1 to 5 are written (Prompts 42 to 46); the other rows are planned and may change.
 
 ### Unit 1: Precision in form
 
@@ -550,11 +550,11 @@ Planned in docs/plans/c2/ (Prompt 40). Units 1, 2, 4 and 5 are written (Prompts 
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 14 | c2-legal-french | Legal French | Specialized French | vocabulary | c1-law-and-institutions, c1-formal-correspondence | Planned. Reading contracts and decision summaries; restating clauses plainly. |
-| 15 | c2-medical-french | Medical French | Specialized French | vocabulary | b2-health-system, b2-science-and-research | Planned. Patient leaflets and consultation summaries (invented medicines). |
-| 16 | c2-scientific-french | Scientific French | Specialized French | vocabulary | b2-science-and-research, b2-persuasion-and-hedging | Planned. Abstracts, popular science, hedging, correlation and causation. |
-| 17 | c2-administrative-french | Reading administrative French | Specialized French | vocabulary | c1-formal-correspondence, c1-culture-laicite-and-institutions | Planned. Official letters and forms, and replying with the full layout. |
-| 18 | c2-review-specialized | Review: Specialized French | Specialized French | review | c2-legal-french, c2-medical-french, c2-scientific-french, c2-administrative-french | Planned. One situation in three registers; vulgarisation. |
+| 14 | c2-legal-french | Legal French | Specialized French | vocabulary | c1-law-and-institutions, c1-formal-correspondence, c1-register-shifting | Contract structure (un bail, une clause, les parties, le présent contrat); obligations (s'engager à, être tenu de, the present and future of obligation); conditions (sous réserve de, sous peine de, à défaut de, nonobstant, ledit); ending a contract (résilier, un préavis, à titre gracieux); court decisions (un arrêt, the direct style since 2019). Model: an invented lease extract, a plain version that keeps every obligation and condition, and a landlord's letter with the full layout. |
+| 15 | c2-medical-french | Medical French | Specialized French | vocabulary | b2-health-system, c2-word-formation, c2-ellipsis-and-nominal-style, c2-legal-french | The leaflet (la notice, la posologie, les contre-indications, les effets indésirables) and its impersonal style; the consultation (un antécédent, un diagnostic / diagnostiquer, un pronostic); bénin / bénigne, malin / maligne, aigu / aiguë (aigüe); -ite, -algie, -ectomie. Model: an invented medicine's leaflet (no doses) and an invented consultation summary, each with a plain version. |
+| 16 | c2-scientific-french | Scientific French | Specialized French | vocabulary | b2-science-and-research, b2-certainty-and-probability, c1-technology-ethics, c2-medical-french | The parts of an abstract; observation vs experiment (un protocole, un groupe témoin, tirer au sort); the voices (le nous d'auteur, on, the passive); une corrélation vs un lien de causalité; hedging (les résultats suggèrent que, laisser penser que, à ce stade, toutefois); the version grand public. Model: an invented abstract and its popular version. |
+| 17 | c2-administrative-french | Reading administrative French | Specialized French | vocabulary | c1-formal-correspondence, b1-formal-email, c2-legal-french | Documents (un justificatif de domicile, un avis d'imposition, un formulaire, une attestation); the voice of an administration; fixed phrases (dans un délai de, à compter de, il vous appartient de, faire parvenir, bénéficier de); réf., cf., N.B., P.J. Model: an invented town hall's letter and the reply, both with the full layout. |
+| 18 | c2-review-specialized | Review: Specialized French | Specialized French | review | c2-legal-french, c2-medical-french, c2-scientific-french, c2-administrative-french | New words: un jargon, un lexique spécialisé, vulgariser, la vulgarisation. One invented situation (an extension requested after an appendectomy) in legal, medical and plain French, with the same facts; one exercise per lesson and a writing task (vulgarize a consultation summary). |
 
 ### Unit 4: Reading between the lines
 
