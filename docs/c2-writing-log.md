@@ -139,3 +139,41 @@
 - **Other changes:** forward link review-literatures → c2-pastiche restored; no forward links remain. All 46 C2 lessons exist, and the syllabus and the overview show C2 as written (46 of 46). CLAUDE.md's first line still says C2 "is being written" (not edited).
 - **Not sure about:** the register labels marked "to verify" (*faire florès*, *avoir maille à partir*, *battre la campagne*, *à brûle-pourpoint*, *il n'y a pas de quoi fouetter un chat*); the descriptions of Proust's and Queneau's books; *détonner / détoner*; "a pastiche that names its model is never plagiarism".
 - **Checks:** validate 326; test:content OK; test:checker 36/36; test:b2-exercises 1,303, 0; b2-links-ids 162, 0; audit 77/4/6, spacing, strictAccents and length rows 0; check:words 110; check:structures 0; check:c1-links 0; check:c2-links 46 lessons, 0; check:alexandrines OK; wrapup:c2 0 mechanical failures, 0 claim flags, 0 lipogram rows; build OK. Bundles: docs/review/c2-unit-8.txt (new), c2-unit-7.txt (regenerated).
+
+## C2 wrap-up
+
+- **Unit 8 fixes:**
+  - **c2-idiomatic-precision:** the section is now "Idioms and English", with four cases. *Avoir plus d'une corde à son arc* has a British twin; *couper l'herbe sous le pied* has a near twin (*to cut the ground from under someone's feet*); *mettre la puce à l'oreille* is a false twin (*a flea in one's ear* is a rebuke); *tirer son épingle du jeu* has no twin. ex014 is fixed, and *battre la campagne* is glossed "to ramble, to let one's mind wander" in the vocab, the teaching and the résumé.
+  - **c2-register-mastery:** the effect is now *l'insistance*, with a note that *l'emphase* usually means pomposity (no other C2 lesson uses *l'emphase*).
+  - **c2-review-final:** the Unit 4 example says *« prétendre » laisse entendre que l'auteur en doute*, and c2-implicit-meaning now says the same. *Par la petite porte* is translated "in a modest way".
+  - **c2-pastiche:** pastiche and parody are defined by writing new sentences, and plagiarism by taking another's text; labelling is presented as good practice (ex001, ex002, the teaching, review-range and review-final). The parody ends *ni crier, ni penser trop fort*.
+  - **review-range:** "au soleil" is removed from the writing-task model.
+- **Wrap-up (docs/c2-wrapup.md, 46 lessons):**
+  - 0 mechanical failures;
+  - 7 quotations with their sources (scripts/c2-quotations.json, each checked word for word against its lesson, 0 flagged);
+  - 318 dates listed;
+  - 9 recurring names, one flagged (*Hugo*, an editor in Unit 1 and a law student in Unit 3);
+  - 256 recap claims, all confirmed;
+  - 20 claims about English, checked by hand;
+  - lipogram 0 rows.
+- **New reviewer files:** docs/c2-reviewer-brief.md and docs/c2-review-items.md, with 183 items (16 marked "possibly resolved"). By unit: 1: 31 · 2: 31 · 3: 24 · 4: 24 · 5: 20 · 6: 21 · 7: 16 · 8: 14 · whole level: 2.
+- **Other changes:** all eight bundles regenerated. The overview, the syllabus and CLAUDE.md say C2 is written (46 of 46) and awaiting native-speaker review, and the C2 section of CLAUDE.md is marked final, with no rule changes. scripts/c2-wrapup.ts gained the quotation and English-claims sections, plus the C2 names list.
+- **Final baselines:** validate 326; test:content OK; test:checker 36/36; test:b2-exercises 1,303, 0; b2-links-ids 162, 0; audit 77/4/6, other rows 0; check:words 110; check:structures 0; check:c1-links 57, 0; check:c2-links 46, 0; check:alexandrines OK; wrapup:c2 0; build OK.
+- **Judgement calls for the owner:**
+  - rename the law student *Hugo* in c2-legal-french, or accept two Hugos;
+  - accept *Paul*, *Léo*, *Chloé* and *Inès* as different people in different lessons;
+  - keep the deliberately over-long quotation in a c2-commentaire-de-texte distractor;
+  - accept the four C2 NEW_MEANINGS entries (*une version*, *un thème*, *une ordonnance*, *un salon*), which make the audit row 77;
+  - accept the size of the check:words C2 allowance.
+
+## C2 closed
+
+- **Rename:** the two journalism students in c2-reading-the-press, formerly Inès and Hugo, are now Elsa and Gabin. I changed the dialogue intro and the one line that names Gabin; no exercise names them. Neither name is used anywhere else in A1 to C2 (checked with c2-find and a search of the lessons).
+- **Pair check:** scripts/c2-wrapup.ts now flags two first names that appear together in more than one lesson with different facts. On the files before the rename, it flags Inès and Hugo (c2-legal-french and c2-reading-the-press). After the rename, no pair is flagged. One pair is accepted, with its reason in the script: Marie and Paul, the same example sentence recapped in c2-review-form.
+- **Decisions recorded** (docs/c2-wrapup.md "Judgement calls", and here):
+  - the Hugo editor in Unit 1 stays;
+  - Paul, Léo, Chloé and Inès are accepted as different people;
+  - the 15-word « Le Port » distractor is kept as a deliberate wrong option;
+  - the four NEW_MEANINGS entries and the check:words C2 allowance are accepted.
+- **Bundles:** docs/review/c2-unit-4.txt is regenerated, along with the other seven, which are unchanged.
+- **Baselines (same as Prompt 50):** validate 326; test:content OK; test:checker 36/36; test:b2-exercises 1,303, 0; b2-links-ids 162, 0; audit 77/4/6, other rows 0; check:words 110; check:structures 0; check:c1-links 57, 0; check:c2-links 46, 0; check:alexandrines OK; wrapup:c2 0 mechanical failures (now including name pairs); build OK.

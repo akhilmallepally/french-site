@@ -2329,6 +2329,7 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-pastiche
 
+- **Prompt 50, verified (Prompt 50 review):** the difference from plagiarism is defined by the text (new sentences in a style vs another's text presented as one's own), not by the label; labelling is presented as good practice.
 - **Quotation (copied from fr.wikisource.org, Prompt 49):** La Fontaine, « Le Lièvre et la Tortue » (Fables, livre VI, fable X), line 1: « Rien ne sert de courir ; il faut partir à point » (9 words). https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(éd._1874)/Le_Lièvre_et_la_Tortue (edition: Bernardin-Béchet, 1874). The moral is the first line of the fable, as the lesson says (checked against the text).
 - **Definitions:** pastiche (imitating a style, and saying so), parody (imitating in order to mock, by exaggeration), plagiarism (copying another's text and presenting it as one's own, without saying so). Confirm the wording "A pastiche or a parody that names its model is never plagiarism, however close it comes" (the lesson also says a copied line must be quoted with its source).
 - **Named works, paraphrased (Prompt 49):** Proust, *Pastiches et mélanges* (1919), "included pastiches of other writers"; Queneau, *Exercices de style* (1947), "told one tiny incident again and again, each time in a different style". To verify, as worded.
@@ -2336,12 +2337,14 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-idiomatic-precision
 
+- **Prompt 50, verified (Prompt 50 review):** *avoir plus d'une corde à son arc* has a British twin (*to have more than one string to one's bow*); *mettre la puce à l'oreille* is a false twin of *a flea in one's ear* (a sharp rebuke); *couper l'herbe sous le pied* is close to *to cut the ground from under someone's feet*; *battre la campagne* is glossed "to ramble, to let one's mind wander".
 - **Meanings and registers checked against fr.wiktionary.org (Prompt 49):** *tenir à cœur*, *prendre à cœur*, *faire long feu* (to fail; Wiktionary also gives "not to last", so the lesson recommends the negative form for that sense and doesn't call the other use wrong), *ne pas faire long feu*, *de but en blanc*, *à brûle-pourpoint*, *tomber des nues*, *il n'y a pas de quoi fouetter un chat*, *prendre la mouche* (familier), *monter sur ses grands chevaux*, *jeter de l'huile sur le feu*, *couper l'herbe sous le pied* (familier), *avoir maille à partir avec*, *faire florès*, *battre la campagne* (figurative: to wander off the subject), *sur-le-champ*, *ne pas être sorti de l'auberge* (familier), *ne pas avoir froid aux yeux* (familier), *mettre la puce à l'oreille*, *tirer son épingle du jeu*, *avoir plus d'une corde à son arc*, *être aux anges*.
 - **To verify (labels the dictionary doesn't give):** "formal" for *faire long feu*, *avoir maille à partir avec*, *faire florès* and *battre la campagne*; "a little more literary" for *à brûle-pourpoint*; "familiar" for *il n'y a pas de quoi fouetter un chat*; "almost always negative" for *ne pas avoir froid aux yeux*.
 - **No repeat:** each idiom was checked with c2-find and the C2 lessons; *mettre de l'eau dans son vin* (C1) is recapped, not re-entered.
 
 ### c2-register-mastery
 
+- **Prompt 50, verified (Prompt 50 review):** the effect is called *l'insistance*; *l'emphase* usually means pomposity (a false friend), as the vocab note says. No other C2 lesson uses *l'emphase*.
 - **"Détonner: to clash. Not to be confused with détoner (to explode), which has one n."** Confirm.
 - **The three breaks and their effects** (humour: *galéré*, signalled; emphasis: a resident's *« Ça craint »*, quoted; irony: a solemn register for two benches). Confirm that each label fits.
 - **The column** is invented (no town named; the place du Marché and the two benches are reused in c2-review-range with the same facts).
@@ -2352,6 +2355,7 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-review-final
 
+- **Prompt 50, verified (Prompt 50 review):** the Unit 4 example says *« prétendre » laisse entendre que l'auteur en doute*, and c2-implicit-meaning now says the same (*suggests the writer doubts it*); *par la petite porte* is translated "in a modest way".
 - **Coverage of the 18 exercises:** Unit 1: ex001, ex002; Unit 2: ex003, ex004; Unit 3: ex005, ex006; Unit 4: ex007, ex008; Unit 5: ex009, ex010; Unit 6: ex011, ex012; Unit 7: ex013, ex014; Unit 8: ex015, ex016, ex017, ex018. Each explanation names its unit and source lesson.
 - **"A native speaker doesn't necessarily master every register, and an advanced learner may write with more care."** Confirm the wording.
 - **The closing text** is invented, labelled, by no real person, and names no exam.

@@ -521,7 +521,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 ## C2 · Mastery (planned)
 
-Planned in docs/plans/c2/ (Prompt 40). All 46 C2 lessons are written (46 of 46, Prompts 42 to 49).
+Planned in docs/plans/c2/ (Prompt 40). All 46 C2 lessons are written (46 of 46, Prompts 42 to 49), with the C2 wrap-up in Prompt 50; awaiting native-speaker review (docs/c2-reviewer-brief.md).
 
 ### Unit 1: Precision in form
 

@@ -2,8 +2,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 // C2 wrap-up audit: cross-level checks on all C2 lessons, written to docs/c2-wrapup.md.
 // Run with: npm run wrapup:c2 (node --experimental-strip-types scripts/c2-wrapup.ts)
-// Adapted from scripts/c1-wrapup.ts, with the draft C2 limits (docs/plans/c2/overview.md). With no
-// C2 lesson written yet, every section is empty and mechanical failures are 0.
+// Adapted from scripts/c1-wrapup.ts, with the C2 limits in CLAUDE.md. Final run: Prompt 50, on all 46 lessons.
 // It never fails; read the report. The "Mechanical failures" count at the end should be 0.
 import fs from "node:fs";
 import path from "node:path";
@@ -185,6 +184,34 @@ for (const l of target) {
   for (const [a, n] of perAuthor) if (n > 1 && !/^Constitution/.test(a)) quoteFlags.push(`${l.id}: ${n} quotations from ${a}`);
 }
 
+// 4b. Every quotation in C2, with its source (scripts/c2-quotations.json, kept by hand). Mechanical:
+// the quoted words must appear in the lesson exactly (apostrophes and line breaks aside), and stay under 15 words.
+const qWords = (t: string) => t.replace(/[’']/g, " ").replace(/-/g, " ").split(/\s+/).filter((w) => /[\p{L}\p{N}]/u.test(w)).length;
+const flat = (t: string) => t.replace(/[’]/g, "'").replace(/\s*\/\s*/g, " / ").replace(/\s+/g, " ");
+const allQuoteRows: string[] = [];
+const quoteSources = JSON.parse(fs.readFileSync(path.join(ROOT, "scripts", "c2-quotations.json"), "utf8")) as { lesson: string; author: string; work: string; words: string; url: string; sourceText?: boolean }[];
+for (const q of quoteSources) {
+  const l = byId.get(q.lesson);
+  const n = qWords(q.words);
+  allQuoteRows.push(`${q.lesson}: ${q.author}, ${q.work} | ${q.sourceText ? "source text, opening words: " : ""}${n} words | « ${q.words} » | ${q.url}`);
+  if (!l) { quoteFlags.push(`${q.lesson}: lesson not found for the quotation « ${q.words} »`); continue; }
+  if (!flat(l.body).includes(flat(q.words))) quoteFlags.push(`${q.lesson}: the quotation « ${q.words} » isn't in the lesson word for word`);
+  if (n >= 15 && !q.sourceText) quoteFlags.push(`${q.lesson}: quotation of ${n} words (limit: under 15): « ${q.words} »`);
+}
+
+// 4c. Claims about English, in the teaching text (checked by hand against an English dictionary).
+const englishRows: string[] = [];
+const EN_CLAIM = /(no (word-for-word |direct |exact )?(English )?(equivalent|twin)|English (uses|says|has|doesn't|does not|keeps|puts|would say)|in English[,:]? |British (English|twin)|American English|an English idiom|the English \*)/i;
+for (const l of target) {
+  for (const sec of splitSections(l.body).filter((s) => s.kind !== "text" && s.kind !== "dialogue")) {
+    for (const line of plain(sec.body).split("\n")) {
+      const m = line.match(EN_CLAIM);
+      if (m) englishRows.push(`${l.id}: ${sentenceAround(line, m.index ?? 0)}`);
+    }
+  }
+  for (const e of l.exercises) if (e.explanation && EN_CLAIM.test(e.explanation)) englishRows.push(`${l.id} (${e.id}): ${e.explanation}`);
+}
+
 // 5. Dates.
 const dateRows: string[] = [];
 for (const l of target) {
@@ -200,7 +227,9 @@ for (const l of target) {
 }
 
 // 6. Recurring invented places and people.
-const NAMES = ["Saint-Aubin", "Saint-Rémy", "Saint-Jacques", "Montval", "Montvert", "Madame Morel", "Madame Garnier", "Madame Leroy", "Monsieur Dubois", "Monsieur Bernard", "Monsieur Petit", "Lucas Martin", "Léa Favre", "Claire Morand", "Claire Durand", "Adèle Morin", "Marthe", "Inès", "Karim", "Léa", "Julien", "Nadia", "Malik", "Clara", "Chloé", "Hugo", "Samira", "Paul"];
+const NAMES = ["Saint-Aubin", "Saint-Rémy", "Saint-Jacques", "Montval", "Montvert", "Madame Morel", "Madame Garnier", "Madame Leroy", "Monsieur Dubois", "Monsieur Bernard", "Monsieur Petit", "Lucas Martin", "Léa Favre", "Claire Morand", "Claire Durand", "Adèle Morin", "Marthe", "Inès", "Karim", "Léa", "Julien", "Nadia", "Malik", "Clara", "Chloé", "Hugo", "Samira", "Paul",
+  // C2 names and places (Prompts 42 to 49).
+  "Valbrune", "place du Marché", "rue des Tilleuls", "avenue de la Gare", "Ferrand", "Yasmine", "Lucas", "Claire Morin", "Benali", "Garnier", "Julien Arnaud", "Calmivane", "Léo", "Margaux Delorme", "Sylvie Andrieu", "Mathis", "Bertrand", "Rochette", "Hortense", "Gaspard Leclerc", "Yann", "Solène", "Armand", "Clément Vidal", "Annick Brunel", "Mireille", "Lionel", "Josiane", "Ophélie", "Thierry", "Lou"];
 const placeRows: string[] = [];
 for (const name of NAMES) {
   const hits: string[] = [];
@@ -210,6 +239,34 @@ for (const name of NAMES) {
     if (lines.length) hits.push(`${l.id}: ${lines.slice(0, 2).map((x) => x.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 160)).join(" / ")}`);
   }
   if (hits.length > 1) placeRows.push(`**${name}** (${hits.length} lessons): ${hits.join(" | ")}`);
+}
+
+// 6b. Pairs of first names (Prompt 51). Two first names that appear together in more than one C2
+// lesson read as the same two people, so their facts must agree. Mechanical: a pair found in two
+// lessons is flagged when the first line naming both differs between them (a different role,
+// relationship or setting), unless the pair is accepted below with the reason.
+const FIRST = new Set(["Inès", "Hugo", "Paul", "Léo", "Chloé", "Malik", "Clara", "Yasmine", "Lucas", "Karim", "Léa", "Julien", "Nadia", "Samira", "Marthe", "Mathis", "Bertrand", "Hortense", "Yann", "Solène", "Armand", "Mireille", "Lionel", "Josiane", "Ophélie", "Thierry", "Lou", "Sam", "Malo", "Sarah", "Elsa", "Gabin", "Margaux", "Claire", "Clément", "Annick", "Gaspard", "Sylvie", "Marie"]);
+// The list holds every invented first name used in C2 (Prompts 42 to 51); add new ones here.
+const ACCEPTED_PAIRS = new Map<string, string>([
+  ["Marie & Paul", "the same example sentence (Paul a choisi le train ; Marie, l'avion), recapped in c2-review-form"],
+]);
+const pairRows: string[] = [];
+const pairLines = new Map<string, { id: string; line: string }[]>();
+for (const l of target) {
+  const lines = plain(l.body).split("\n").filter((x) => !/^\(/.test(x.trim()));
+  const present = [...FIRST].filter((n) => lines.some((x) => new RegExp(`(?<![\\p{L}-])${n}(?![\\p{L}-])`, "u").test(x))).sort();
+  for (let i = 0; i < present.length; i++) for (let j = i + 1; j < present.length; j++) {
+    const [a, b] = [present[i], present[j]];
+    const both = lines.find((x) => [a, b].every((n) => new RegExp(`(?<![\\p{L}-])${n}(?![\\p{L}-])`, "u").test(x)));
+    if (!both) continue;
+    const k = `${a} & ${b}`;
+    if (!pairLines.has(k)) pairLines.set(k, []);
+    pairLines.get(k)!.push({ id: l.id, line: both.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 160) });
+  }
+}
+for (const [k, hits] of pairLines) {
+  if (hits.length < 2 || ACCEPTED_PAIRS.has(k)) continue;
+  if (new Set(hits.map((h) => h.line)).size > 1) pairRows.push(`**${k}** appear together in ${hits.length} lessons with different facts: ${hits.map((h) => `${h.id}: ${h.line}`).join(" | ")}`);
 }
 
 // 7. Per unit, against the C2 limits in CLAUDE.md. The whole lesson leaves out the English translations of
@@ -291,8 +348,11 @@ section("Lipograms (a French line uses the missing letter)", lipoRows, true);
 sections.push(["## Per unit", "", ...statRows, ""]);
 sections.push(["## Per lesson", "", ...lessonRows, ""]);
 section("Forward signposts outside What's next (judgement call)", forwardSignposts);
-section("Quotations (author | work | date | words | text)", quoteRows);
+section("Quotations as Examples (author | work | date | words | text)", quoteRows);
+section("Every quotation in C2, with its source (scripts/c2-quotations.json)", allQuoteRows);
+section("Claims about English (check against an English dictionary)", englishRows);
 section("Dates (check by hand)", dateRows);
+section("First-name pairs in more than one lesson with different facts (the same two people must agree)", pairRows, true);
 section("Recurring invented places and people (check for contradictions)", placeRows);
 section("All claims checked (for reference)", claimRows);
 
@@ -301,7 +361,7 @@ const header = [
   `Generated by \`node --experimental-strip-types scripts/c2-wrapup.ts\`. ${target.length} C2 lessons checked against ${earlier.length} A1 to C1 lessons.`, "",
   "## Judgement calls for the editor", "",
   ...fs.readFileSync(path.join(ROOT, "scripts", "c2-wrapup-judgements.md"), "utf8").trim().split(/\r?\n/), "",
-  `**Mechanical failures: ${mechanical}** (links, vocab repeats, repeated sentences, callout titles, quotations, limits, lipograms). Claim flags: ${claimFlags.length}.`, "",
+  `**Mechanical failures: ${mechanical}** (links, vocab repeats, repeated sentences, callout titles, quotations, limits, lipograms, name pairs). Claim flags: ${claimFlags.length}.`, "",
 ];
 fs.writeFileSync(path.join(ROOT, "docs", "c2-wrapup.md"), [...header, ...sections.flat()].join("\n"));
-console.log(`c2-wrapup: ${linkRows.length} link rows, ${claimFlags.length} claim flags (of ${claimRows.length}), ${vocabRows.length} vocab repeats, ${sentRows.length} repeated sentences, ${titleRows.length} repeated callout titles, ${quoteRows.length} quotations (${quoteFlags.length} flagged), ${dateRows.length} dates, ${placeRows.length} recurring names, ${limitRows.length} limit rows, ${lipoRows.length} lipogram rows. Mechanical failures: ${mechanical}.`);
+console.log(`c2-wrapup: ${linkRows.length} link rows, ${claimFlags.length} claim flags (of ${claimRows.length}, ${claimRows.filter((r) => r.endsWith("NOT FOUND")).length} not found), ${vocabRows.length} vocab repeats, ${sentRows.length} repeated sentences, ${titleRows.length} repeated callout titles, ${allQuoteRows.length} quotations (${quoteFlags.length} flagged), ${englishRows.length} English claims, ${dateRows.length} dates, ${placeRows.length} recurring names, ${pairRows.length} name pairs flagged, ${limitRows.length} limit rows, ${lipoRows.length} lipogram rows. Mechanical failures: ${mechanical}.`);

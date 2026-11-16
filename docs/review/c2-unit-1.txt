@@ -1842,4 +1842,3 @@ Write a paragraph of 80 to 120 words about a change in your town or at work, in 
 ## What's next
 
 The next unit is about words with precision. It starts with <LessonLink id="c2-paronyms" text="the lesson on paronyms" />, words that look or sound alike.
-

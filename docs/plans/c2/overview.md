@@ -1,6 +1,6 @@
 # C2 plan: overview
 
-Status: **C2 written: 46 of 46 lessons (Units 1 to 8, Prompts 42 to 49).** Plan approved in Prompts 41 and 42; conventions in CLAUDE.md since Prompt 42. The writing-task type and the C2 checks are built (Prompt 41).
+Status: **C2 written: 46 of 46 lessons (Units 1 to 8, Prompts 42 to 49); wrap-up done in Prompt 50 (docs/c2-wrapup.md); awaiting native-speaker review (docs/c2-reviewer-brief.md, docs/c2-review-items.md).** Plan approved in Prompts 41 and 42; conventions in CLAUDE.md since Prompt 42. The writing-task type and the C2 checks are built (Prompt 41).
 
 ## Open questions
 

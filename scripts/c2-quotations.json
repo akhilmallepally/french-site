@@ -1,0 +1,52 @@
+[
+  {
+    "lesson": "c2-culture-history-of-french",
+    "author": "Anonymous (Strasbourg Oaths, 842)",
+    "work": "Romance text of Louis's oath (Nithard, Historiarum libri, III, 5)",
+    "words": "Pro Deo amur et pro christian poblo et nostro commun salvament",
+    "url": "https://fr.wikisource.org/wiki/Serments_de_Strasbourg_(Nithard)"
+  },
+  {
+    "lesson": "c2-culture-history-of-french",
+    "author": "Ordonnance de Villers-Cotterêts (1539)",
+    "work": "article CXI, Boucher d'Argis edition (1786)",
+    "words": "prononcés, enregistrés et délivrés aux parties en langage maternel françois et non autrement",
+    "url": "https://fr.wikisource.org/wiki/Ordonnance_du_roi_François_Ier,_donnée_à_Villers-Cotterêts,_au_mois_d’Août_1539/Ordonnance_du_Roi"
+  },
+  {
+    "lesson": "c2-commentaire-de-texte",
+    "author": "Baudelaire",
+    "work": "« Le Port », Petits Poèmes en prose (Michel Lévy, 1869): the full source text; the commentary's embedded quotations come from it and stay under 15 words",
+    "words": "Un port est un séjour charmant pour une âme fatiguée des luttes de la vie",
+    "url": "https://fr.wikisource.org/wiki/Le_Port",
+    "sourceText": true
+  },
+  {
+    "lesson": "c2-culture-medieval-and-renaissance",
+    "author": "Anonymous (La Chanson de Roland)",
+    "work": "line 814, laisse LXVI (Oxford text, Bédier edition)",
+    "words": "Halt sunt li pui e li val tenebrus",
+    "url": "https://fr.wikisource.org/wiki/La_Chanson_de_Roland/Joseph_Bédier/La_Chanson_de_Roland/Bilingue/051-100"
+  },
+  {
+    "lesson": "c2-culture-medieval-and-renaissance",
+    "author": "Ronsard",
+    "work": "ode « Mignonne, allons voir si la rose », lines 1–2 (Garnier, 1923)",
+    "words": "Mignonne, allons voir si la rose / Qui ce matin avoit desclose",
+    "url": "https://fr.wikisource.org/wiki/Les_Odes_(Ronsard)/«_Mignonne,_allons_voir_si_la_rose_»"
+  },
+  {
+    "lesson": "c2-review-literatures",
+    "author": "Rivarol",
+    "work": "De l'universalité de la langue française (Discours sur l'universalité de la langue française, 1784)",
+    "words": "ce qui n'est pas clair n'est pas français",
+    "url": "https://fr.wikisource.org/wiki/De_l’Universalité_de_la_langue_française"
+  },
+  {
+    "lesson": "c2-pastiche",
+    "author": "La Fontaine",
+    "work": "Fables, « Le Lièvre et la Tortue », line 1 (Bernardin-Béchet, 1874)",
+    "words": "Rien ne sert de courir ; il faut partir à point",
+    "url": "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(éd._1874)/Le_Lièvre_et_la_Tortue"
+  }
+]

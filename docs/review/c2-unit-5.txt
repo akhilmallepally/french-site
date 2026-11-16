@@ -1486,4 +1486,4 @@ Take the notes in the writing task, which are about a neighbourhood party, and g
 
 ## What's next
 
-The next unit is about mediation and negotiation. It starts with the lesson on mediation.
+The next unit is about mediation and negotiation. It starts with <LessonLink id="c2-mediation" text="the lesson on mediation" />.

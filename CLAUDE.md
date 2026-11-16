@@ -1,5 +1,5 @@
 # Parlons: French learning site
-- Goal: text-only French site for English speakers, A1 to C2. Lessons, vocab and exercises exist for A1 to C1, and C2 is being written. Later phases: Supabase auth, progress storage, spaced repetition, streaks, progress dashboard.
+- Goal: text-only French site for English speakers, A1 to C2. Lessons, vocab and exercises exist for A1 to C2; C2 is written (46 lessons) and awaits native-speaker review. Later phases: Supabase auth, progress storage, spaced repetition, streaks, progress dashboard.
 - Stack: Next.js (App Router, TypeScript, Tailwind v4, no src/ directory). Lessons are MDX files in content/lessons/, parsed with gray-matter and rendered with next-mdx-remote/rsc plus remark-gfm. Later: Supabase (auth + Postgres), deployed on Vercel.
 - All file reading lives in lib/lessons.ts so we can swap to a DB/CMS later without touching pages.
 - Exercise and vocab items must have stable IDs that never change once published.
@@ -241,6 +241,8 @@ C1 inherits every B2 convention unless it's changed here. Plans are in docs/plan
     - The log gives teaching-text, whole-lesson and En résumé word counts for every lesson.
 
 ## C2 conventions
+**Final (Prompt 50):** all 46 C2 lessons follow these rules; no rule changes after the wrap-up.
+
 C2 inherits every C1 convention unless it's changed here. Plans are in docs/plans/c2/; the coverage map of what A1 to C1 already teach is docs/c2-coverage.md (scripts/c2-lists.ts); use scripts/c2-find.ts before every "you know X from Y".
 - **Teaching language.** Rules and nuance stay in English. Every French example, dialogue line and longer text keeps a full English translation.
 - **How words are counted** (audit:content and wrapup:c2, as at C1 with one change):

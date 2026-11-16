@@ -185,7 +185,7 @@ A writer who calls a building project *un chantier* is neutral; *un bétonnage* 
 <Example fr="La modalisation passe souvent par un modalisateur, comme « sans doute » ou « apparemment »." en="Modalisation often works through a modalizer, such as 'sans doute' or 'apparemment'." />
 
 - **Adverbs and set phrases** show doubt or certainty: *sans doute*, *apparemment*, *prétendument* (supposedly), *à en croire*.
-- **Reporting verbs** judge the claim: *affirmer* is neutral, *prétendre* suggests it's false, *avouer* that it's a fault, *reconnaître* that it's a concession.
+- **Reporting verbs** judge the claim: *affirmer* is neutral, *prétendre* suggests the writer doubts it, *avouer* that it's a fault, *reconnaître* that it's a concession.
 - **Le conditionnel de prudence** (the conditional of caution) reports news that isn't confirmed: *le ministre serait malade* (the minister is reportedly ill).
 - **Des guillemets de distance** (scare quotes) report a word without taking it on: *la mairie parle d'une « modernisation »*. The writer *prend ses distances avec* (distances themselves from) the word.
 
@@ -229,7 +229,7 @@ The opinion piece below is original, about an invented town. A neutral version f
 ## How the opinion piece works
 
 - **Presuppositions:** the question *va-t-il enfin disparaître ?* presupposes that the park is threatened and has been for a long time; *on attend encore les études* presupposes that they were expected.
-- **Reporting verbs:** the verb *prétend* suggests the claim is false; the neutral version says *affirme*.
+- **Reporting verbs:** the verb *prétend* suggests the writer doubts the claim; the neutral version says *affirme*.
 - **Scare quotes:** the phrase *un parking « moderne »* keeps the town hall's word at a distance, and so do the quotation marks around *pour des raisons de sécurité*.
 - **Connotation:** the phrases *les promoteurs se frottent les mains* (rub their hands) and *un enthousiasme suspect* are pejorative; *une poignée d'élus* (a handful) makes the supporters seem few.
 - **The conditionnel de prudence:** the verb *aurait des liens* reports an accusation without confirming it. The neutral version leaves it out, because it isn't a fact but an unconfirmed claim; every fact of the opinion piece is in the neutral version.
@@ -1271,9 +1271,9 @@ The same facts appear in all three, but not with the same weight: the cost is a 
 
 ## En français
 
-Inès and Hugo are journalism students. They're comparing the three texts for a class. They use *tu*.
+Elsa and Gabin are journalism students. They're comparing the three texts for a class. They use *tu*.
 
-- *Hugo, laquelle des trois est la dépêche ?* (Hugo, which of the three is the agency wire?)
+- *Gabin, laquelle des trois est la dépêche ?* (Gabin, which of the three is the agency wire?)
 - *La première : le lieu et l'agence au début, et seulement des faits.* (The first: the place and the agency at the start, and only facts.)
 - *Elle dit quand même que le projet a coûté moins que prévu.* (It does say that the project cost less than planned.)
 - *Oui, mais elle dit que l'information vient de la mairie. Ce n'est pas l'avis de l'agence.* (Yes, but it says the information comes from the town hall. It isn't the agency's view.)
@@ -1525,4 +1525,3 @@ Write an analysis of 100 to 150 words of the second paragraph of the tribune (*Q
 ## What's next
 
 The next unit is about writing at length and translating. It starts with <LessonLink id="c2-contraction-de-texte" text="the lesson on the contraction de texte" />.
-
