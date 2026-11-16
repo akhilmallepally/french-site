@@ -1,6 +1,16 @@
 # C2 Unit 8 plan: Range and mastery
 
-Status: plan only. Rules: the "C2 conventions" in CLAUDE.md. Write this unit last: its lessons and reviews draw on everything.
+Status: **written in Prompt 49.**
+
+Changes made while writing (also in docs/syllabus.md):
+- The ids stay as in the syllabus (c2-idiomatic-precision, c2-register-mastery), not the shorter names used in the prompt.
+- Lesson 42: the fable pastiche is in prose (no metre claim); a short parody of the notice was added; La Fontaine is quoted from Wikisource; *imiter* and *citer* are recapped.
+- Lesson 43: 22 idioms, each checked on fr.wiktionary.org; *faire long feu* keeps both dictionary senses, with the negative form recommended for "not to last".
+- Lesson 44: *une rupture de registre* is recapped from c2-revising-your-style.
+- Lesson 45: *l'aisance* and *nuancer* are recapped; the new words are *la palette*, *la justesse*, *varier*, *trouver le ton juste*.
+- Lesson 46: a fourth new word, *un apprenant / une apprenante*; 18 exercises, two or more per unit.
+
+Rules: the "C2 conventions" in CLAUDE.md. Write this unit last: its lessons and reviews draw on everything.
 
 ## 42. c2-pastiche: Writing in a style (communication · harder)
 

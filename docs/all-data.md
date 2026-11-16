@@ -1,6 +1,6 @@
 # All lesson data
 
-321 written lessons, in course order.
+326 written lessons, in course order.
 
 ## a1-greetings
 
@@ -13349,7 +13349,7 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-culture-medieval-and-renaissance-ex009 | fill-in | Complétez : Chrétien de Troyes a écrit, à la fin du XIIe siècle, des romans ___. | — | ["courtois"] | false | Le roman courtois: the courtly romance, with its knights and their adventures.
 - c2-culture-medieval-and-renaissance-ex010 | error-correction | Corrigez l'erreur de date, en changeant seulement l'année : Rabelais publie Pantagruel en 1549. | — | ["Rabelais publie Pantagruel en 1532"] | false | Pantagruel dates from 1532 and Gargantua from 1534. 1549 is Du Bellay's Défense et illustration de la langue française.
 - c2-culture-medieval-and-renaissance-ex011 | error-correction | Corrigez l'erreur, en remplaçant seulement le nom de l'auteur : Ronsard publie la Défense et illustration de la langue française en 1549. | — | ["Du Bellay publie la Défense et illustration de la langue française en 1549"] | false | The Défense (1549) is by Du Bellay. Ronsard (1524–1585) is the other great poet of the Pléiade.
-- c2-culture-medieval-and-renaissance-ex012 | reformulation | Reformulez au passif, au présent, en commençant par « La Chanson de Roland » : Un auteur anonyme écrit La Chanson de Roland vers 1100. | — | ["La Chanson de Roland est écrite vers 1100 par un auteur anonyme"] | false | The passive puts the work first; par introduces the author, here anonymous.
+- c2-culture-medieval-and-renaissance-ex012 | reformulation | Reformulez au passif, au présent, en commençant par « La Chanson de Roland » : Un auteur anonyme écrit La Chanson de Roland vers 1100. | — | ["La Chanson de Roland est écrite vers 1100 par un auteur anonyme","La Chanson de Roland est écrite par un auteur anonyme vers 1100"] | false | The passive puts the work first; par introduces the author, here anonymous.
 - c2-culture-medieval-and-renaissance-ex013 | translate | Traduisez (anonyme) : The Chanson de Roland is an anonymous poem. | — | ["La Chanson de Roland est un poème anonyme"] | false | Anonyme: its author's name hasn't come down to us.
 - c2-culture-medieval-and-renaissance-ex014 | translate | Traduisez (une traduction en français moderne) : Read the extract with a translation into modern French. | — | ["Lisez l'extrait avec une traduction en français moderne"] | false | Une traduction en français moderne: the help you need for Old and Middle French.
 - c2-culture-medieval-and-renaissance-ex015 | translate | Traduisez (défendre, la langue française) : Du Bellay wanted to defend the French language. | — | ["Du Bellay voulait défendre la langue française"] | false | Défendre une langue: to argue for its value and its use.
@@ -13545,3 +13545,244 @@ id | type | prompt | options | answers | strictAccents | explanation
 - c2-review-literatures-ex014 | translate | Traduisez (la clarté) : Clarity depends on the writer. | — | ["La clarté dépend de l'écrivain","La clarté dépend de celui qui écrit"] | false | Dépendre de: to depend on.
 - c2-review-literatures-ex015 | reorder | Remettez dans l'ordre ces étapes, de la plus ancienne à la plus récente. | — | ["les Serments de Strasbourg, l'ordonnance de Villers-Cotterêts, la naissance de l'Académie française, l'Éloge de la créolité"] | false | 842, 1539, 1635, 1989.
 - c2-review-literatures-ex016 | writing-task | Rédigez un paragraphe de 50 à 90 mots sur une filiation entre deux œuvres ou deux mouvements de cette unité : dites ce qui continue et ce qui change, et donnez la source de chaque idée. | — | — | false | —
+
+## c2-pastiche
+
+### Vocab
+
+fr | pron | en | note
+
+- un pastiche | uhn pah-STEESH | a pastiche (a text written in another's style) | —
+- à la manière de | ah lah mah-NYEHR duh | in the manner of, in the style of | —
+- une parodie | ewn pah-roh-DEE | a parody | —
+- parodier | pah-roh-DYAY | to parody | —
+- le plagiat | luh plah-ZHYAH | plagiarism | —
+- plagier | plah-ZHYAY | to plagiarize | —
+- rendre hommage à | RAHN-druh oh-MAHZH ah | to pay tribute to | —
+- un exercice de style | uh-neg-zehr-SEESS duh STEEL | a stylistic exercise | —
+- une imitation | ew-nee-mee-tah-SYOHN | an imitation | —
+- une marque de style | ewn mark duh STEEL | a stylistic marker | —
+- un tic d'écriture | uhn teek day-kree-TEWR | a writing habit, a mannerism | —
+- forcer le trait | for-SAY luh TREH | to exaggerate, to overdo it | —
+- la concision | lah kohn-see-ZYOHN | concision, brevity | —
+- un trait de style | uhn treh duh STEEL | a feature of style | —
+- citer ses sources | see-TAY say SOORSS | to name one's sources | —
+- un toit | uhn TWAH | a roof | —
+- effrayé / effrayée | eh-freh-YAY | frightened | —
+- survint (survenir) | sewr-VAN | came along (to arrive unexpectedly; passé simple) | —
+- une assiette | ew-nah-SYET | a plate, a dish | —
+- aucun blessé n'est à déplorer | oh-KUHN bleh-SAY neh-tah day-ploh-RAY | no one was injured (press formula) | —
+- il est porté à la connaissance de | ee-leh por-TAY ah lah koh-neh-SAHNSS duh | notice is hereby given to (administrative formula) | —
+- a regagné (regagner) | ah ruh-gah-NYAY | got back to (to get back to) | —
+- bloqué / bloquée | bloh-KAY | stuck | —
+- redescendu (redescendre) | ruh-deh-sahn-DEW | come back down (to come back down) | —
+- un incident | uh-nan-see-DAHN | an incident | —
+- la nourriture | lah noo-ree-TEWR | food | —
+- un établissement (scolaire) | uh-nay-tah-bleess-MAHN | a school (as an institution) | —
+- une dame | ewn DAHM | a lady | —
+- se rassembler | suh rah-sahn-BLAY | to gather | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-pastiche-ex001 | multiple-choice | Choisissez ce qu'est un pastiche. | ["imiter le style d'un auteur, en le disant","imiter un auteur pour se moquer de lui","copier le texte d'un autre sans le dire"] | ["imiter le style d'un auteur, en le disant"] | false | A pastiche imitates a style and says so. Imitating to mock is parody; copying without saying so is plagiarism.
+- c2-pastiche-ex002 | multiple-choice | Choisissez le mot pour le fait de copier le texte d'un autre et de le présenter comme le sien. | ["le plagiat","la parodie","le pastiche"] | ["le plagiat"] | false | Le plagiat: copying without saying so. Pastiche and parody both declare what they imitate.
+- c2-pastiche-ex003 | multiple-choice | Indiquez le style de la phrase : « Un chat est resté bloqué, mardi, sur le toit de l'école, a-t-on appris auprès de la mairie. » | ["une dépêche","une fable","un avis administratif"] | ["une dépêche"] | false | The facts first, the day, and the source in an inverted incise (a-t-on appris auprès de): the marks of an agency wire.
+- c2-pastiche-ex004 | multiple-choice | Indiquez le style de la phrase : « Il est porté à la connaissance des familles qu'un chat s'est trouvé bloqué sur le toit. » | ["un avis administratif","une fable","une dépêche"] | ["un avis administratif"] | false | An impersonal formula (il est porté à la connaissance de) and no named author: an official notice.
+- c2-pastiche-ex005 | multiple-choice | Indiquez où se trouve la morale dans « Le Lièvre et la Tortue » de La Fontaine. | ["au premier vers","au dernier vers seulement","nulle part"] | ["au premier vers"] | false | The fable opens with its moral: « Rien ne sert de courir ; il faut partir à point ».
+- c2-pastiche-ex006 | fill-in | Complétez : Écrire « à la ___ de » La Fontaine, c'est imiter son style. | — | ["manière"] | false | À la manière de: in the style of. It's the label that makes a pastiche honest.
+- c2-pastiche-ex007 | fill-in | Complétez avec le verbe à l'infinitif : Une parodie exagère les marques d'un style : elle aime ___ le trait. | — | ["forcer"] | false | Forcer le trait: to exaggerate. Parody does it on purpose; pastiche usually doesn't.
+- c2-pastiche-ex008 | register-shift | Transformez la formule administrative en français courant, en commençant par « Nous informons les familles que » : Il est porté à la connaissance des familles qu'un chat s'est trouvé bloqué sur le toit. | — | ["Nous informons les familles qu'un chat s'est trouvé bloqué sur le toit","Nous informons les familles qu'un chat est resté bloqué sur le toit"] | false | Il est porté à la connaissance de is the impersonal formula; nous informons is the everyday version. Both versions of the verb keep the fact.
+- c2-pastiche-ex009 | register-shift | Transformez en style de dépêche, avec « a-t-on appris auprès de la mairie » à la fin : La mairie dit que le chat est redescendu seul. | — | ["Le chat est redescendu seul, a-t-on appris auprès de la mairie"] | true | A wire states the fact first and gives the source at the end, in an inverted incise.
+- c2-pastiche-ex010 | reformulation | Reformulez avec le conditionnel de prudence (« serait »), comme dans une dépêche : Selon des témoins, l'animal est descendu grâce à une assiette de lait. | — | ["Selon des témoins, l'animal serait descendu grâce à une assiette de lait"] | true | The conditionnel de prudence reports a fact that the paper hasn't checked itself.
+- c2-pastiche-ex011 | reformulation | Reformulez au passé simple, comme dans une fable, en gardant « Survint » en tête : Une vieille dame arrive alors. | — | ["Survint alors une vieille dame","Survint une vieille dame"] | false | Survint, with the subject after the verb, is a classic opening of a new event in a literary narrative.
+- c2-pastiche-ex012 | error-correction | Corrigez la présentation, qui fait passer un pastiche pour une œuvre originale, en commençant par « Ce texte est écrit à la manière de » : Ce texte est une fable de La Fontaine. | — | ["Ce texte est écrit à la manière de La Fontaine"] | true | A pastiche says what it imitates. Presenting it as the original would be dishonest.
+- c2-pastiche-ex013 | translate | Traduisez (à la manière de, écrire, au présent) : I write in the style of La Fontaine. | — | ["J'écris à la manière de La Fontaine"] | true | À la manière de + the author's name.
+- c2-pastiche-ex014 | translate | Traduisez (citer ses sources, il faut) : You must name your sources. | — | ["Il faut citer ses sources"] | false | Citer ses sources: what separates honest borrowing from plagiarism.
+- c2-pastiche-ex015 | translate | Traduisez (rendre hommage à, une parodie) : A parody can also pay tribute to an author. | — | ["Une parodie peut aussi rendre hommage à un auteur"] | true | Rendre hommage à: to pay tribute to. Mockery and tribute can go together in a parody.
+- c2-pastiche-ex016 | reorder | Remettez dans l'ordre : « A pastiche imitates a style without copying it. » | — | ["Un pastiche imite un style sans le copier"] | false | Imitating the markers of a style isn't copying its sentences.
+- c2-pastiche-ex017 | writing-task | Rédigez le même événement (le chat sur le toit de l'école) en 50 à 90 mots, dans un quatrième style de votre choix (une lettre d'un enfant à sa grand-mère, un message de parent d'élève…), en gardant tous les faits et en signalant le style imité. | — | — | false | —
+
+## c2-idiomatic-precision
+
+### Vocab
+
+fr | pron | en | note
+
+- tenir à cœur à quelqu'un | tuh-NEER ah KUHR ah kel-KUHN | to matter a great deal to someone | —
+- prendre à cœur | PRAHN-druh ah KUHR | to take seriously, to care deeply about | —
+- faire long feu | fehr lohn FUH | to fail, to come to nothing (formal) | —
+- ne pas faire long feu | nuh pah fehr lohn FUH | not to last long | —
+- de but en blanc | duh bew-tahn BLAHN | abruptly, without any lead-in | —
+- à brûle-pourpoint | ah brewl-poor-PWAN | abruptly, without preparation (a little more literary) | —
+- jeter de l'huile sur le feu | zhuh-TAY duh LWEEL sewr luh FUH | to make a conflict worse | —
+- tomber des nues | tohn-BAY day NEW | to be utterly astonished | —
+- être aux anges | ET-ruh oh-ZAHNZH | to be overjoyed | —
+- il n'y a pas de quoi fouetter un chat | eel nyah pah duh kwah fweh-TAY uhn SHAH | it's no big deal (familiar) | —
+- prendre la mouche | PRAHN-druh lah MOOSH | to take offence over nothing (familiar) | —
+- monter sur ses grands chevaux | mohn-TAY sewr say grahn shuh-VOH | to react with angry pride, to get indignant | —
+- avoir maille à partir avec | ah-VWAHR MAH-y ah par-TEER ah-VEK | to be in dispute with (formal, a little old-fashioned) | —
+- faire florès | fehr floh-RESS | to be very successful, to be in fashion (formal) | —
+- battre la campagne | BAT-ruh lah kahn-PAH-nyuh | to wander off the subject (formal) | —
+- sur-le-champ | sewr-luh-SHAHN | immediately, on the spot | —
+- ne pas être sorti de l'auberge | nuh pah-zet-ruh sor-TEE duh loh-BEHRZH | to be far from the end of one's troubles (familiar) | —
+- ne pas avoir froid aux yeux | nuh pah-zah-VWAHR frwah oh-ZYUH | to be fearless, to be bold (familiar) | —
+- la forme négative | lah form nay-gah-TEEV | the negative form | —
+- mettre la puce à l'oreille | MET-ruh lah PEWSS ah loh-RAY | to make someone suspicious | —
+- couper l'herbe sous le pied à quelqu'un | koo-PAY LEHRB soo luh PYAY ah kel-KUHN | to get in ahead of someone, to pre-empt them (familiar) | —
+- tirer son épingle du jeu | tee-RAY soh-nay-PAN-gluh dew ZHUH | to get out of a bad situation without loss | —
+- avoir plus d'une corde à son arc | ah-VWAHR plew DEWN kord ah soh-NARK | to have more than one resource or skill | —
+- une expression figée | ew-nek-spreh-SYOHN fee-ZHAY | a set phrase | —
+- échouer | ay-shoo-AY | to fail | —
+- un organisateur / une organisatrice | uh-nor-gah-nee-zah-TUHR / ew-nor-gah-nee-zah-TREESS | an organizer | —
+- un talent | uhn tah-LAHN | a talent | —
+- déformé / déformée | day-for-MAY | distorted, twisted out of shape | —
+- immédiatement | ee-may-dyat-MAHN | immediately | —
+- un détail | uhn day-TAH-y | a detail | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-idiomatic-precision-ex001 | multiple-choice | Choisissez le sens de la phrase : Le nouveau festival n'a pas fait long feu. | ["il n'a pas duré longtemps","il a eu un grand succès","il a été très bruyant"] | ["il n'a pas duré longtemps"] | false | Ne pas faire long feu: not to last long. Without the negation, faire long feu means to fail, in a formal register.
+- c2-idiomatic-precision-ex002 | multiple-choice | Choisissez l'expression la plus forte pour une très grande surprise. | ["tomber des nues","être un peu surpris","s'étonner"] | ["tomber des nues"] | false | Tomber des nues: to be utterly astonished. The other two are weaker.
+- c2-idiomatic-precision-ex003 | multiple-choice | Indiquez le registre de « prendre la mouche ». | ["familier","soutenu","juridique"] | ["familier"] | false | Prendre la mouche is familiar. In a formal text, write se vexer or s'irriter.
+- c2-idiomatic-precision-ex004 | multiple-choice | Choisissez l'expression qui veut dire « brusquement, sans entrée en matière ». | ["à brûle-pourpoint","avoir maille à partir","être aux anges"] | ["à brûle-pourpoint"] | false | À brûle-pourpoint: abruptly, without preparation. Avoir maille à partir is to be in dispute; être aux anges is to be overjoyed.
+- c2-idiomatic-precision-ex005 | multiple-choice | Choisissez l'expression de sens contraire à « mettre de l'eau dans son vin ». | ["jeter de l'huile sur le feu","tirer son épingle du jeu","être aux anges"] | ["jeter de l'huile sur le feu"] | false | Mettre de l'eau dans son vin calms things down; jeter de l'huile sur le feu makes them worse.
+- c2-idiomatic-precision-ex006 | fill-in | Complétez avec le verbe au présent : Ce projet me ___ à cœur. | — | ["tient"] | false | Tenir à cœur à quelqu'un: the project is the subject, and the person is the indirect object (me).
+- c2-idiomatic-precision-ex007 | fill-in | Complétez : Il a beaucoup de talents : il a plus d'une ___ à son arc. | — | ["corde"] | false | Avoir plus d'une corde à son arc: to have more than one resource.
+- c2-idiomatic-precision-ex008 | fill-in | Complétez : Elle n'a pas froid aux ___ : elle a dit non au directeur devant tout le monde. | — | ["yeux"] | false | Ne pas avoir froid aux yeux: to be bold. The idiom is almost always negative.
+- c2-idiomatic-precision-ex009 | error-correction | Corrigez l'expression, mal construite, en commençant par « Ce projet » : Je tiens ce projet à cœur. | — | ["Ce projet me tient à cœur"] | true | In tenir à cœur, the thing that matters is the subject, and the person is the indirect object: ce projet me tient à cœur.
+- c2-idiomatic-precision-ex010 | error-correction | Corrigez l'expression, déformée, en commençant par « Il n'y a pas » : Il ne faut pas fouetter le chat pour si peu. | — | ["Il n'y a pas de quoi fouetter un chat"] | true | The set phrase is il n'y a pas de quoi fouetter un chat: it's no big deal. A set phrase doesn't change its words.
+- c2-idiomatic-precision-ex011 | register-shift | Transformez en registre courant, avec « ne sommes pas au bout de nos difficultés » : Nous ne sommes pas sortis de l'auberge. | — | ["Nous ne sommes pas au bout de nos difficultés"] | false | Ne pas être sorti de l'auberge is familiar; the everyday version says the same thing without the image.
+- c2-idiomatic-precision-ex012 | reformulation | Reformulez avec « sur-le-champ » : Elle a répondu immédiatement. | — | ["Elle a répondu sur-le-champ"] | true | Sur-le-champ: immediately, on the spot.
+- c2-idiomatic-precision-ex013 | translate | Traduisez (tomber des nues, au passé composé) : « I was utterly astonished. » (a man speaking) | — | ["Je suis tombé des nues"] | false | Tomber takes être; a man speaking, so tombé.
+- c2-idiomatic-precision-ex014 | translate | Traduisez (mettre la puce à l'oreille, au passé composé) : « This detail made me suspicious. » | — | ["Ce détail m'a mis la puce à l'oreille"] | true | Mettre la puce à l'oreille à quelqu'un: to make them suspicious. The idiom has no word-for-word English equivalent.
+- c2-idiomatic-precision-ex015 | translate | Traduisez (tirer son épingle du jeu, au passé composé) : « He got out of the situation without loss. » | — | ["Il a tiré son épingle du jeu"] | true | Tirer son épingle du jeu: to get out of a bad situation without losing anything.
+- c2-idiomatic-precision-ex016 | reorder | Remettez dans l'ordre : « Their competitor got in ahead of them. » | — | ["Leur concurrent leur a coupé l'herbe sous le pied"] | false | Couper l'herbe sous le pied à quelqu'un: the person comes as an indirect object (leur), before the auxiliary.
+
+## c2-register-mastery
+
+### Vocab
+
+fr | pron | en | note
+
+- un effet de rupture | uh-neh-FEH duh rewp-TEWR | an effect created by a sudden break (in register or tone) | —
+- détonner | day-toh-NAY | to clash, to stand out (of a word in a text) | —
+- un décalage | uhn day-kah-LAHZH | a gap, a mismatch | —
+- à dessein | ah deh-SAN | on purpose, deliberately (formal) | —
+- voulu / voulue | voo-LEW | intended, deliberate | —
+- volontairement / involontaire | voh-lohn-tehr-MAHN / an-voh-lohn-TEHR | deliberately / unintentional | —
+- un effet comique | uh-neh-FEH koh-MEEK | a comic effect | —
+- mettre en relief | MET-ruh ahn ruh-LYEF | to highlight, to make stand out | —
+- solennel / solennelle | soh-lah-NEL | solemn | —
+- la solennité | lah soh-lah-nee-TAY | solemnity | —
+- entre guillemets | AHN-truh gee-yuh-MEH | in quotation marks, so to speak | —
+- pour reprendre l'expression de | poor ruh-PRAHN-druh lek-spreh-SYOHN duh | to use the words of | —
+- pour parler comme | poor par-LAY KOMM | to put it the way … would | —
+- en italique | ah-nee-tah-LEEK | in italics | —
+- comme on dit | komm ohn DEE | as they say | —
+- l'emphase (f.) | lahn-FAHZ | emphasis | —
+- un conseil municipal | uhn kohn-SEH-y mew-nee-see-PAHL | a town council | —
+- un élu / une élue | uh-nay-LEW / ew-nay-LEW | an elected representative | —
+- un banc | uhn BAHN | a bench | —
+- un neveu | uhn nuh-VUH | a nephew | —
+- susceptible de | sew-sep-TEE-bluh duh | likely to (formal) | —
+- examiner (examiné) | eg-zah-mee-NAY | to examine | —
+- un riverain / une riveraine | uhn ree-vuh-RAN / ewn ree-vuh-REN | a local resident | —
+- craignent (craindre) | KREH-nyuh | fear (to fear) | —
+- l'installation (f.) | lan-stah-lah-SYOHN | installation, putting in | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-register-mastery-ex001 | multiple-choice | Indiquez si la rupture de registre est voulue ou si c'est une erreur : « La séance a duré quatre heures. Autant dire, pour parler comme mon neveu, qu'on a « galéré ». » | ["voulue, et signalée","une erreur","on ne peut pas savoir"] | ["voulue, et signalée"] | false | Pour parler comme mon neveu and the quotation marks show that the familiar word is chosen and attributed.
+- c2-register-mastery-ex002 | multiple-choice | Indiquez si la rupture de registre est voulue ou si c'est une erreur, dans une lettre à une administration : « Je vous prie de bien vouloir examiner ma demande, c'est super important pour moi. » | ["une erreur","voulue, pour faire rire","voulue, par ironie"] | ["une erreur"] | false | Nothing signals the break, and nothing in a letter to an administration calls for a joke: super is a slip, as in the lesson on revising your style.
+- c2-register-mastery-ex003 | multiple-choice | Indiquez l'effet de la phrase : « On nous annonce donc, avec la solennité qui convient aux grands moments de l'histoire, l'installation de deux bancs. » | ["l'ironie","l'emphase","un effet comique sans moquerie"] | ["l'ironie"] | false | A solemn register for a small event says the opposite of what it seems to say: the writer finds the announcement overblown.
+- c2-register-mastery-ex004 | multiple-choice | Indiquez le signal qui montre qu'un mot familier est cité, et non employé par l'auteur. | ["les guillemets","un point final","une majuscule"] | ["les guillemets"] | false | Quotation marks (or italics) show that the word belongs to someone else, or that the writer holds it at a distance.
+- c2-register-mastery-ex005 | fill-in | Complétez : Dans un texte soutenu, un mot familier sans guillemets ___ : il ne s'accorde pas avec le reste. | — | ["détonne"] | false | Détonner: to clash. Not to be confused with détoner (to explode), which has one n.
+- c2-register-mastery-ex006 | fill-in | Complétez : Le mot est écrit entre ___ : l'auteur montre qu'il cite quelqu'un. | — | ["guillemets"] | false | Entre guillemets: in quotation marks.
+- c2-register-mastery-ex007 | register-shift | Transformez en registre soutenu, pour un rapport, avec « essentiel » : C'est super important. | — | ["C'est essentiel","Cela est essentiel"] | false | Super important is familiar. In a report, essentiel says it without any effect of rupture.
+- c2-register-mastery-ex008 | register-shift | Transformez la phrase en citation signalée, avec « pour reprendre l'expression d'une habitante » placé en tête : Ça craint. | — | ["Pour reprendre l'expression d'une habitante, « ça craint »","Pour reprendre l'expression d'une habitante, ça craint"] | false | The signal attributes the familiar words, so they can appear in a formal text. The quotation marks are usual, but the checker doesn't count them.
+- c2-register-mastery-ex009 | reformulation | Reformulez avec « à dessein » : L'auteur a mis ce mot familier là volontairement. | — | ["L'auteur a mis ce mot familier là à dessein","L'auteur a mis ce mot familier à dessein"] | true | À dessein: on purpose, in a formal register.
+- c2-register-mastery-ex010 | error-correction | Corrigez la rupture de registre involontaire, en remplaçant seulement « bosser » : Nous vous remercions de bosser sur ce dossier. | — | ["Nous vous remercions de travailler sur ce dossier"] | false | Bosser is familiar; in a formal message with no signal, it's a slip, not an effect.
+- c2-register-mastery-ex011 | translate | Traduisez (un effet de rupture, voulu) : « This break is deliberate. » | — | ["Cet effet de rupture est voulu","Cette rupture est voulue"] | false | Voulu agrees with its noun: un effet voulu, une rupture voulue.
+- c2-register-mastery-ex012 | translate | Traduisez (entre guillemets, mettre au passé composé) : « She put the word in quotation marks. » | — | ["Elle a mis le mot entre guillemets"] | true | Mettre un mot entre guillemets.
+- c2-register-mastery-ex013 | translate | Traduisez (mettre en relief) : « The familiar word highlights the idea. » | — | ["Le mot familier met l'idée en relief","Le mot familier met en relief l'idée"] | false | Mettre en relief: to make something stand out.
+- c2-register-mastery-ex014 | error-correction | Corrigez l'explication, qui se trompe sur l'effet, en remplaçant seulement « une erreur » par « de l'ironie » : Employer un registre solennel pour annoncer deux bancs, c'est une erreur. | — | ["Employer un registre solennel pour annoncer deux bancs, c'est de l'ironie"] | false | The gap between the solemn tone and the small event is deliberate: irony.
+- c2-register-mastery-ex015 | reorder | Remettez dans l'ordre : « The writer quotes the word in italics. » | — | ["L'auteur cite le mot en italique"] | false | En italique: one of the signals of a deliberate break, along with quotation marks.
+- c2-register-mastery-ex016 | writing-task | Rédigez un court paragraphe soutenu (50 à 90 mots) sur un événement inventé, avec une seule rupture de registre voulue et signalée. Indiquez ensuite, en une phrase, son effet (humour, emphase ou ironie). | — | — | false | —
+
+## c2-review-range
+
+### Vocab
+
+fr | pron | en | note
+
+- la palette | lah pah-LET | the range (of registers or styles a writer can use) | —
+- la justesse | lah zhew-STESS | accuracy, rightness (of a word or a tone) | —
+- varier | vah-RYAY | to vary | —
+- trouver le ton juste | troo-VAY luh tohn ZHEWST | to find the right tone | —
+- la municipalité | lah mew-nee-see-pah-lee-TAY | the town authorities | —
+- accoucha de (accoucher de) | ah-koo-SHAH duh | gave birth to, produced (here, ironic) | —
+- satisfaction | sah-tees-fak-SYOHN | satisfaction | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-review-range-ex001 | multiple-choice | Choisissez le mot pour l'imitation d'un style qui veut s'en moquer. | ["la parodie","le pastiche","le plagiat"] | ["la parodie"] | false | A parody imitates to mock; a pastiche imitates and says so; plagiarism copies without saying so (c2-pastiche).
+- c2-review-range-ex002 | register-shift | Transformez en style de dépêche, avec « a-t-on appris auprès de la mairie » à la fin : La mairie dit que deux bancs ont été installés. | — | ["Deux bancs ont été installés, a-t-on appris auprès de la mairie"] | true | The fact first, the source at the end in an inverted incise (c2-pastiche).
+- c2-review-range-ex003 | multiple-choice | Choisissez le sens de : « Le projet n'a pas fait long feu. » | ["il n'a pas duré longtemps","il a eu un grand succès","il a coûté très cher"] | ["il n'a pas duré longtemps"] | false | Ne pas faire long feu: not to last long (c2-idiomatic-precision).
+- c2-review-range-ex004 | error-correction | Corrigez l'expression, mal construite, en commençant par « Cette place » : Les habitants tiennent cette place à cœur. | — | ["Cette place tient à cœur aux habitants"] | true | In tenir à cœur, the thing that matters is the subject, and the people are the indirect object (c2-idiomatic-precision).
+- c2-review-range-ex005 | multiple-choice | Indiquez l'effet de la phrase : « C'est avec une émotion profonde que la municipalité annonce l'installation de deux bancs. » | ["l'ironie, si le texte veut se moquer de la solennité","une erreur de grammaire","un mot familier signalé"] | ["l'ironie, si le texte veut se moquer de la solennité"] | false | A solemn register for a small event can be ironic: it depends on the context (c2-register-mastery).
+- c2-review-range-ex006 | register-shift | Transformez la phrase en citation signalée, avec « pour reprendre l'expression d'un passant » en tête : C'est top. | — | ["Pour reprendre l'expression d'un passant, « c'est top »"] | false | The signal attributes the familiar words, so they can appear in an everyday or formal text (c2-register-mastery).
+- c2-review-range-ex007 | fill-in | Complétez : Un écrivain qui sait varier les registres a une large ___. | — | ["palette"] | false | La palette: the range of registers and styles a writer can use.
+- c2-review-range-ex008 | fill-in | Complétez : Pour chaque lecteur, il faut trouver le ton ___. | — | ["juste"] | false | Trouver le ton juste: to find the right tone. The noun is la justesse.
+- c2-review-range-ex009 | multiple-choice | Indiquez le registre de la phrase : « Ils ont enfin mis les bancs, on a bien galéré pour ça. » | ["familier","courant","soutenu"] | ["familier"] | false | Galérer and on for nous mark the familiar register.
+- c2-review-range-ex010 | register-shift | Transformez en registre courant, au passif, en commençant par « Deux bancs ont enfin été installés » : Ils ont enfin mis les deux bancs sur la place. | — | ["Deux bancs ont enfin été installés sur la place"] | true | The passive leaves out the vague ils, and installer replaces the everyday mettre.
+- c2-review-range-ex011 | reformulation | Reformulez en registre soutenu, avec « C'est avec satisfaction que » en tête : La mairie est contente d'annoncer l'installation des bancs. | — | ["C'est avec satisfaction que la mairie annonce l'installation des bancs"] | false | C'est avec… que: a formal opening that puts the feeling first.
+- c2-review-range-ex012 | translate | Traduisez (la justesse) : « The accuracy of a word matters more than its rarity. » | — | ["La justesse d'un mot compte plus que sa rareté"] | false | La justesse: the quality of the right word, the one that fits exactly.
+- c2-review-range-ex013 | translate | Traduisez (varier, il faut) : « You have to vary the registers. » | — | ["Il faut varier les registres"] | false | Varier les registres: to use more than one.
+- c2-review-range-ex014 | translate | Traduisez (à la manière de) : « This text is written in the manner of a fable. » | — | ["Ce texte est écrit à la manière d'une fable"] | true | À la manière de: the label of an honest pastiche (c2-pastiche).
+- c2-review-range-ex015 | reorder | Remettez dans l'ordre : « A good writer finds the right tone for each reader. » | — | ["Un bon écrivain trouve le ton juste pour chaque lecteur"] | false | Trouver le ton juste: the skill of the whole unit.
+- c2-review-range-ex016 | writing-task | Rédigez la nouvelle des deux bancs (40 à 80 mots) dans un registre ou un style que la leçon n'a pas utilisé (une lettre au journal, une carte postale, un message d'un enfant…), en gardant tous les faits et en indiquant le registre ou le style choisi. | — | — | false | —
+
+## c2-review-final
+
+### Vocab
+
+fr | pron | en | note
+
+- la maîtrise | lah meh-TREEZ | mastery, command (of a language) | —
+- un locuteur natif / une locutrice native | uhn loh-kew-TUHR nah-TEEF / ewn loh-kew-TREESS nah-TEEV | a native speaker | —
+- un perfectionnement | uhn pehr-fek-syonn-MAHN | further improvement, refinement | —
+- un apprenant / une apprenante | uh-nah-pruh-NAHN / ew-nah-pruh-NAHNT | a learner | —
+- un accent | uh-nak-SAHN | an accent (in speech) | —
+- une compagne | ewn kohn-PAH-nyuh | a companion | —
+
+### Exercises
+
+id | type | prompt | options | answers | strictAccents | explanation
+
+- c2-review-final-ex001 | fill-in | Accordez le participe passé de « laver » : Elles se sont ___ les cheveux avant le concert. | — | ["lavé"] | true | Les cheveux comes after the verb and se is an indirect object, so lavé doesn't agree (Unit 1, c2-agreement-pronominal-verbs).
+- c2-review-final-ex002 | multiple-choice | Choisissez la forme correcte : Elles sont ___ contentes de leur voyage. | ["toutes","tout","toute"] | ["toutes"] | false | Tout as an adverb agrees before a feminine adjective that starts with a consonant: toutes contentes (Unit 1, c2-tout-quelque-meme).
+- c2-review-final-ex003 | multiple-choice | Choisissez le mot juste : Le départ du train est ___ : il part dans deux minutes. | ["imminent","éminent"] | ["imminent"] | false | Imminent: about to happen. Éminent means distinguished (Unit 2, c2-paronyms).
+- c2-review-final-ex004 | error-correction | Corrigez le faux ami, en remplaçant seulement « versatile » par « polyvalent » : Nous cherchons un collaborateur versatile. | — | ["Nous cherchons un collaborateur polyvalent"] | false | Versatile means changeable in French; polyvalent means able to do many things (Unit 2, c2-advanced-false-friends).
+- c2-review-final-ex005 | register-shift | Transformez en français courant, en remplaçant seulement « à titre gracieux » par « gratuitement » : La salle est mise à disposition à titre gracieux. | — | ["La salle est mise à disposition gratuitement"] | true | À titre gracieux is the legal and formal way of saying gratuitement (Unit 3, c2-legal-french).
+- c2-review-final-ex006 | fill-in | Complétez : Cette étude d'observation montre une ___, pas un lien de causalité. | — | ["corrélation"] | false | An observational study shows a correlation; establishing a cause usually needs an experiment (Unit 3, c2-scientific-french).
+- c2-review-final-ex007 | multiple-choice | Indiquez le présupposé de la phrase : Le directeur a enfin reconnu son erreur. | ["Le directeur a fait une erreur.","Le directeur n'a jamais fait d'erreur.","Le directeur va partir."] | ["Le directeur a fait une erreur."] | false | Reconnaître son erreur presupposes that there was an error, and the negation keeps it: il n'a pas reconnu son erreur (Unit 4, c2-implicit-meaning).
+- c2-review-final-ex008 | multiple-choice | Choisissez le genre de presse : un texte court et personnel, où l'auteur donne son humeur sur un sujet. | ["un billet d'humeur","une dépêche","une brève"] | ["un billet d'humeur"] | false | Un billet d'humeur is a short, personal opinion piece; a dépêche and a brève report facts (Unit 4, c2-reading-the-press).
+- c2-review-final-ex009 | multiple-choice | Choisissez la règle d'une contraction de texte. | ["garder l'ordre et la voix de l'auteur, sans « l'auteur dit »","donner son avis sur les idées de l'auteur","copier les meilleures phrases du texte"] | ["garder l'ordre et la voix de l'auteur, sans « l'auteur dit »"] | false | A contraction keeps the author's order and voice, adds no comment and copies no sentence (Unit 5, c2-contraction-de-texte).
+- c2-review-final-ex010 | error-correction | Corrigez le verbe passe-partout, en remplaçant seulement « faire » par « tenir » : Nous allons faire une réunion jeudi. | — | ["Nous allons tenir une réunion jeudi"] | false | Tenir une réunion is the precise collocation; faire is a catch-all verb (Unit 5, c2-revising-your-style).
+- c2-review-final-ex011 | reformulation | Reformulez avec « à condition que » : Nous signerons si vous livrez avant le 15 mars. | — | ["Nous signerons à condition que vous livriez avant le 15 mars","À condition que vous livriez avant le 15 mars, nous signerons"] | true | À condition que takes the subjunctive: livriez (Unit 6, c2-negotiation).
+- c2-review-final-ex012 | multiple-choice | Indiquez le type de la question : « Depuis combien de temps travaillez-vous ici ? » | ["une question fermée","une question ouverte","une question orientée"] | ["une question fermée"] | false | It's answered by a fact, a duration: a closed question (Unit 6, c2-interviews-and-questioning).
+- c2-review-final-ex013 | multiple-choice | Choisissez l'année du premier dictionnaire de l'Académie française. | ["1694","1635","1539"] | ["1694"] | false | The Académie was founded in 1635, and its first dictionary appeared in 1694; 1539 is Villers-Cotterêts (Unit 7, c2-culture-history-of-french).
+- c2-review-final-ex014 | multiple-choice | Indiquez les homophones du titre : « Fête de la mer : le maire se jette à l'eau ». | ["mer et maire","fête et mer","jette et eau"] | ["mer et maire"] | false | Mer and maire sound the same; se jeter à l'eau adds a second pun (Unit 7, c2-culture-wordplay).
+- c2-review-final-ex015 | translate | Traduisez (ne pas faire long feu, au passé composé) : « The project didn't last long. » | — | ["Le projet n'a pas fait long feu"] | true | Ne pas faire long feu: not to last long; keep the negation (Unit 8, c2-idiomatic-precision).
+- c2-review-final-ex016 | multiple-choice | Choisissez le mot pour le fait de copier un texte sans le dire. | ["le plagiat","le pastiche","la parodie"] | ["le plagiat"] | false | Plagiarism hides its source; pastiche and parody declare what they imitate (Unit 8, c2-pastiche).
+- c2-review-final-ex017 | register-shift | Transformez la phrase en citation signalée, avec « pour reprendre l'expression de mon voisin » en tête : Ça craint. | — | ["Pour reprendre l'expression de mon voisin, « ça craint »"] | false | Attributing the familiar words makes the break deliberate (Unit 8, c2-register-mastery).
+- c2-review-final-ex018 | reorder | Remettez dans l'ordre : « Mastery of a language is never finished. » | — | ["La maîtrise d'une langue n'est jamais finie"] | false | La maîtrise: mastery, the word of this final review.
+- c2-review-final-ex019 | writing-task | Rédigez votre texte « Mon rapport à la langue française » (120 à 200 mots) : votre premier contact avec le français, ce qui vous a résisté, ce que vous aimez aujourd'hui, et ce que vous voulez encore perfectionner. Choisissez un registre et gardez-le. | — | — | false | —

@@ -2293,12 +2293,13 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 - **Quotations (copied from fr.wikisource.org, Prompt 48):**
   - Strasbourg Oaths, Romance text of Louis's oath, transcription with abbreviations resolved: « Pro Deo amur et pro christian poblo et nostro commun salvament » (10 words). https://fr.wikisource.org/wiki/Serments_de_Strasbourg_(Nithard) (Nithard, *Historiarum libri*, III, 5; Ms BN lat. 9768, fol. 13; text transcluded from Page:Sacramenta Argentariae (pars brevis).png). Our modern French: « Pour l'amour de Dieu et pour le peuple chrétien et notre salut commun ».
-  - Ordonnance de Villers-Cotterêts, article CXI: « prononcés, enregistrés et délivrés aux parties en langage maternel françois et non autrement » (13 words). https://fr.wikisource.org/wiki/Ordonnance_du_roi_François_Ier,_donnée_à_Villers-Cotterêts,_au_mois_d’Août_1539/Ordonnance_du_Roi (edition: Boucher d'Argis, *Ordonnance du mois d'aoust 1539*, 1786).
+  - Ordonnance de Villers-Cotterêts, article CXI: « prononcés, enregistrés et délivrés aux parties en langage maternel françois et non autrement » (13 words). https://fr.wikisource.org/wiki/Ordonnance_du_roi_François_Ier,_donnée_à_Villers-Cotterêts,_au_mois_d’Août_1539/Ordonnance_du_Roi (edition: Boucher d'Argis, *Ordonnance du mois d'aoust 1539*, 1786). Checked again word for word in Prompt 49: this edition prints *prononcés, enregistrés et délivrés*; some other editions print *prononcez, enregistrez et délivrez*. The lesson keeps the 1786 spelling.
 - **To verify (not in the Prompt 48 list), hedged in the lesson:** "In 842, two grandsons of Charlemagne swore oaths of alliance at Strasbourg, each in the language of the other's army"; "Spanish, Italian and the other Romance languages come from the same source"; "The French of today grew from the langue d'oïl; the langue d'oc is the source of Occitan"; "King François Ier issued an ordinance at Villers-Cotterêts" (the Wikisource title says "donnée à Villers-Cotterêts, au mois d'Août 1539"); "Historians have debated whether that phrase meant French alone, or also the other languages spoken in the kingdom"; the abbé Grégoire's report "on the patois … and on spreading the use of French"; "The school laws of 1881–1882, named after the minister Jules Ferry, organized primary school across the country"; "The Loi Toubon (1994) organizes the use of French in public life"; "Chacun de ces deux groupes réunit lui-même de nombreux dialectes".
 - **Recaps:** 1992 (Article 2) from c1-culture-regional-languages; the Loi Toubon from c2-anglicisms-and-official-terms; *l'Académie française* from c2-advanced-false-friends. *Une ordonnance* is in NEW_MEANINGS (a prescription at A2).
 
 ### c2-culture-medieval-and-renaissance
 
+- **Prompt 49:** "Its oldest surviving manuscript, kept at Oxford, dates from the 12th century" replaces the Prompt 48 wording; the poem stays "dated to around 1100".
 - **Quotations (copied from fr.wikisource.org, Prompt 48):**
   - *La Chanson de Roland*, line 814 (laisse LXVI): « Halt sunt li pui e li val tenebrus » (8 words). https://fr.wikisource.org/wiki/La_Chanson_de_Roland/Joseph_Bédier/La_Chanson_de_Roland/Bilingue/051-100 (Bédier's edition of the Oxford text; the Old French text is anonymous; Bédier's translation is not used). Our modern French: « Hauts sont les monts, et sombres les vallées ».
   - Ronsard, ode « Mignonne, allons voir si la rose », lines 1–2: « Mignonne, allons voir si la rose / Qui ce matin avoit desclose » (10 words). https://fr.wikisource.org/wiki/Les_Odes_(Ronsard)/«_Mignonne,_allons_voir_si_la_rose_» (edition: *Œuvres complètes*, ed. Hugues Vaganay, Garnier, 1923, vol. 3, p. 75–76; the 1587 Buon edition on Wikisource has the same words with long s). No metre claim is made.
@@ -2307,6 +2308,7 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-culture-twentieth-century-and-today
 
+- **Prompt 49:** the lipogram's translation now follows the French sequence (*He read for six months, finished Proust, made a bet…*).
 - **The lipogram** (no *e*, *é*, *è*, *ê*, *ë* or *œ*) is checked by wrapup:c2 and passes. It's original, in the passé simple, with a last paragraph in the present.
 - **To verify, hedged:** surrealism "often described as wanting to free the imagination from reason and habit, through dreams and chance"; the Nouveau Roman as writers who "questioned the traditional novel, with its plot and its characters"; the Oulipo's constraint "for its members, can be a way of finding new ideas"; "In French, e is a very frequent letter"; the rentrée littéraire ("a large number of novels in a few weeks"; booksellers and the press); the prix Goncourt "one of the best known"; the Nobel list (Camus 1957, Sartre 1964 declined, Claude Simon 1985, J. M. G. Le Clézio 2008, Patrick Modiano 2014, Annie Ernaux 2022) is as given in Prompt 48.
 
@@ -2322,8 +2324,37 @@ Written in Prompt 42 (Unit 1). Grammar claims first, then facts.
 
 ### c2-review-literatures
 
-- **Quotation (copied from fr.wikisource.org, Prompt 48):** Rivarol, *De l'universalité de la langue française*: « ce qui n'est pas clair n'est pas français » (7 words). https://fr.wikisource.org/wiki/De_l’Universalité_de_la_langue_française (the discourse that won the Berlin Academy prize; Rivarol died in 1801, so he is on the safe list). The lesson gives no date for it. The essay discusses the claim rather than adopting it.
+- **Quotation (copied from fr.wikisource.org, Prompt 48):** Rivarol, *De l'universalité de la langue française*: « ce qui n'est pas clair n'est pas français » (7 words). https://fr.wikisource.org/wiki/De_l’Universalité_de_la_langue_française (the discourse that won the Berlin Academy prize in 1784, most often called the *Discours sur l'universalité de la langue française*; Rivarol died in 1801, so he is on the safe list). Prompt 49: the lesson gives both titles and 1784 in the introduction; the essay keeps *plus tard*. The essay discusses the claim rather than adopting it.
 - **To verify:** "the Académie française, founded less than a century later" (1549 to 1635); the filiation Du Bellay / créolité is presented as a reading, not a claim of the writers.
+
+### c2-pastiche
+
+- **Quotation (copied from fr.wikisource.org, Prompt 49):** La Fontaine, « Le Lièvre et la Tortue » (Fables, livre VI, fable X), line 1: « Rien ne sert de courir ; il faut partir à point » (9 words). https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(éd._1874)/Le_Lièvre_et_la_Tortue (edition: Bernardin-Béchet, 1874). The moral is the first line of the fable, as the lesson says (checked against the text).
+- **Definitions:** pastiche (imitating a style, and saying so), parody (imitating in order to mock, by exaggeration), plagiarism (copying another's text and presenting it as one's own, without saying so). Confirm the wording "A pastiche or a parody that names its model is never plagiarism, however close it comes" (the lesson also says a copied line must be quoted with its source).
+- **Named works, paraphrased (Prompt 49):** Proust, *Pastiches et mélanges* (1919), "included pastiches of other writers"; Queneau, *Exercices de style* (1947), "told one tiny incident again and again, each time in a different style". To verify, as worded.
+- **The fable pastiche is in prose**, so there is no metre claim and scan-alexandrines isn't needed. The three pastiches and the parody are original and labelled; the event (14 May, a Tuesday, consistent with the c2-mediation calendar) is invented.
+
+### c2-idiomatic-precision
+
+- **Meanings and registers checked against fr.wiktionary.org (Prompt 49):** *tenir à cœur*, *prendre à cœur*, *faire long feu* (to fail; Wiktionary also gives "not to last", so the lesson recommends the negative form for that sense and doesn't call the other use wrong), *ne pas faire long feu*, *de but en blanc*, *à brûle-pourpoint*, *tomber des nues*, *il n'y a pas de quoi fouetter un chat*, *prendre la mouche* (familier), *monter sur ses grands chevaux*, *jeter de l'huile sur le feu*, *couper l'herbe sous le pied* (familier), *avoir maille à partir avec*, *faire florès*, *battre la campagne* (figurative: to wander off the subject), *sur-le-champ*, *ne pas être sorti de l'auberge* (familier), *ne pas avoir froid aux yeux* (familier), *mettre la puce à l'oreille*, *tirer son épingle du jeu*, *avoir plus d'une corde à son arc*, *être aux anges*.
+- **To verify (labels the dictionary doesn't give):** "formal" for *faire long feu*, *avoir maille à partir avec*, *faire florès* and *battre la campagne*; "a little more literary" for *à brûle-pourpoint*; "familiar" for *il n'y a pas de quoi fouetter un chat*; "almost always negative" for *ne pas avoir froid aux yeux*.
+- **No repeat:** each idiom was checked with c2-find and the C2 lessons; *mettre de l'eau dans son vin* (C1) is recapped, not re-entered.
+
+### c2-register-mastery
+
+- **"Détonner: to clash. Not to be confused with détoner (to explode), which has one n."** Confirm.
+- **The three breaks and their effects** (humour: *galéré*, signalled; emphasis: a resident's *« Ça craint »*, quoted; irony: a solemn register for two benches). Confirm that each label fits.
+- **The column** is invented (no town named; the place du Marché and the two benches are reused in c2-review-range with the same facts).
+
+### c2-review-range
+
+- **The five versions** (familiar, everyday, formal, fable, dépêche) keep the same three facts: two benches installed this Monday on place du Marché, the council's decision after a four-hour meeting, the rest of the plan still to be examined. The added sentences are comments, not facts (listed in "How the five texts work"). *L'aisance* is recapped from b2-review-final.
+
+### c2-review-final
+
+- **Coverage of the 18 exercises:** Unit 1: ex001, ex002; Unit 2: ex003, ex004; Unit 3: ex005, ex006; Unit 4: ex007, ex008; Unit 5: ex009, ex010; Unit 6: ex011, ex012; Unit 7: ex013, ex014; Unit 8: ex015, ex016, ex017, ex018. Each explanation names its unit and source lesson.
+- **"A native speaker doesn't necessarily master every register, and an advanced learner may write with more care."** Confirm the wording.
+- **The closing text** is invented, labelled, by no real person, and names no exam.
 
 ## C2 plan
 
@@ -2361,10 +2392,14 @@ Every item is **to verify** before the lesson that relies on it is written (docs
 ### The language and its literatures (Unit 7)
 
 - **Verified (Prompt 48 review), written as given:** the Strasbourg Oaths (842), often described as the oldest surviving text in an early form of French; *langue d'oïl* and *langue d'oc*, named after their word for "yes"; the periods (Old French roughly 9th to 14th century, Middle French 14th to 16th, classical French 17th and 18th, modern French); the ordinance of Villers-Cotterêts (1539), usually summed up as requiring French instead of Latin in legal and administrative acts, with its wording *en langage maternel françois* debated (one neutral sentence); the Académie française (founded 1635, first dictionary 1694); the abbé Grégoire's report on the patois (1794); the Jules Ferry school laws (1881–1882); Article 2 of the Constitution (1992) and the Loi Toubon (1994) as recaps.
-- **Verified (Prompt 48 review):** *La Chanson de Roland* (around 1100; oldest manuscript late 11th or early 12th century); Chrétien de Troyes (late 12th century); *Le Roman de la Rose* (13th century; Guillaume de Lorris, then Jean de Meun); Villon (born 1431, nothing known after 1463); Rabelais (*Pantagruel* 1532, *Gargantua* 1534, died 1553); Du Bellay's *Défense et illustration de la langue française* (1549) and the Pléiade; Ronsard (1524–1585); Louise Labé (*Œuvres*, 1555), with the 2006 authorship debate presented neutrally and attributed.
+- **Verified (Prompt 48 review), corrected in Prompt 49:** *La Chanson de Roland* (around 1100; its oldest surviving manuscript, kept at Oxford, dates from the 12th century); Chrétien de Troyes (late 12th century); *Le Roman de la Rose* (13th century; Guillaume de Lorris, then Jean de Meun); Villon (born 1431, nothing known after 1463); Rabelais (*Pantagruel* 1532, *Gargantua* 1534, died 1553); Du Bellay's *Défense et illustration de la langue française* (1549) and the Pléiade; Ronsard (1524–1585); Louise Labé (*Œuvres*, 1555), with the 2006 authorship debate presented neutrally and attributed.
 - **Verified (Prompt 48 review):** Proust, *À la recherche du temps perdu* (1913–1927); Breton's first surrealist manifesto (1924); the Nouveau Roman (1950s: Robbe-Grillet, Sarraute); the Oulipo (founded 1960 by Queneau and Le Lionnais); Perec, *La Disparition* (1969, without the letter e); autofiction (Doubrovsky, 1977); the prix Goncourt (first awarded 1903); the French-language Nobel prizes (Camus 1957, Sartre 1964 declined, Claude Simon 1985, Le Clézio 2008, Modiano 2014, Ernaux 2022). Camus stays as C1 described him.
 - **Verified (Prompt 48 review):** Négritude (1930s; Césaire, Senghor, Damas; *L'Étudiant noir*, 1935); Césaire, *Cahier d'un retour au pays natal* (1939); Senghor elected to the Académie française (1983); Assia Djebar elected (2005); *Éloge de la créolité* (1989; Bernabé, Chamoiseau, Confiant); Chamoiseau's prix Goncourt for *Texaco* (1992); Glissant and antillanité.
 - **Everything else** in the Unit 7 lessons is listed above under "C2 lessons", lesson by lesson, as "to verify" and hedged in the text.
+
+### Range and mastery (Unit 8)
+
+- **Verified (Prompt 49 review):** La Fontaine (died 1695) is on the safe list; Proust's *Pastiches et mélanges* (1919) and Queneau's *Exercices de style* (1947) may be named and paraphrased, never quoted. Everything else is listed under "C2 lessons" as "to verify".
 
 ### General
 

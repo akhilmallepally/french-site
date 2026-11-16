@@ -370,7 +370,7 @@ You know the canon from the seventeenth century on, *le classicisme* and *un cou
 
 <VocabTable group="middle" />
 
-**La Chanson de Roland.** *La Chanson de Roland*, dated to around 1100, is *une chanson de geste* (an epic poem about heroic deeds). Its oldest manuscript dates from the late 11th or early 12th century. The poem is *anonyme* (anonymous): its author's name hasn't come down to us. It tells the story of Roland, *un chevalier* (a knight) of Charlemagne's army.
+**La Chanson de Roland.** *La Chanson de Roland*, dated to around 1100, is *une chanson de geste* (an epic poem about heroic deeds). Its oldest surviving manuscript, kept at Oxford, dates from the 12th century. The poem is *anonyme* (anonymous): its author's name hasn't come down to us. It tells the story of Roland, *un chevalier* (a knight) of Charlemagne's army.
 
 <Example fr="« Halt sunt li pui e li val tenebrus » (La Chanson de Roland, vers 814)" en="Our modern French translation: « Hauts sont les monts, et sombres les vallées ». Our English translation: &quot;High are the hills, and dark the valleys.&quot;" />
 
@@ -692,7 +692,7 @@ Missing letter: *e*.
 
 *Aujourd'hui, à son tour, il polit un roman court, sans un a. Il a du travail.*
 
-(One August evening, in Paris, a boy ran to the novel fair. He had read for six months, he had finished Proust, he had made a bet: a novel a day, without fail. But there, what to choose? Novels, crime novels, picture books: he paid, he paid, he paid. Yet, at the back of the stand, a smiling stranger offered him a novel in which a sound so common was missing that it took the boy a month to see it clearly. He read it all, delighted, to the end. Today, in his turn, he is polishing a short novel, without a single a. He has work to do.)
+(One August evening, in Paris, a boy ran to the novel fair. He read for six months, finished Proust, made a bet: a novel a day, without fail. But there, what to choose? Novels, crime novels, picture books: he paid, he paid, he paid. Yet, at the back of the stand, a smiling stranger offered him a novel in which a sound so common was missing that it took the boy a month to see it clearly. He read it all, delighted, to the end. Today, in his turn, he is polishing a short novel, without a single a. He has work to do.)
 
 <VocabTable group="glossary" />
 
@@ -1366,7 +1366,7 @@ A filiation is a reading: it's what you see when you put two works side by side.
 
 ## The model: an essay on French, changing and lasting
 
-The essay below is original, written for the lesson. It quotes one author on the safe list, Rivarol, from a public edition of his *De l'universalité de la langue française*, with our own translation.
+The essay below is original, written for the lesson. It quotes one author on the safe list, Rivarol, from a public edition of his *De l'universalité de la langue française*, the prize-winning discourse of 1784 most often called the *Discours sur l'universalité de la langue française*, with our own translation.
 
 *Une langue qui change et qui dure. Entre les Serments de Strasbourg, en 842, et les romans de la dernière rentrée littéraire, le français a tant changé qu'un lecteur d'aujourd'hui ne comprend plus ses premiers textes sans traduction. Les mots ont changé, la prononciation aussi, et même l'ordre des mots dans la phrase. Pourtant, quelque chose dure : un fil qui va d'un siècle littéraire à l'autre.*
 
@@ -1386,7 +1386,7 @@ The essay below is original, written for the lesson. It quotes one author on the
 
 - **One thesis**: French changes and lasts, announced in the first paragraph, with *un fil* (a thread) as its image.
 - **Three threads**, one per paragraph: defending the language, play, and a language that belongs to many places.
-- **The dates** come from the lessons of the unit, with no new one. Rivarol's sentence is placed with *plus tard*, without a date.
+- **The dates** in the essay come from the lessons of the unit, with no new one. Rivarol's sentence is placed with *plus tard*; the date of his discourse (1784) is given only in the introduction above.
 - **The quotation**: one sentence by Rivarol (an author on the safe list), under 15 words, copied from a public edition; the essay discusses it instead of taking it as a fact.
 - **The filiations** are readings, presented with *on peut*, *sans doute* and a question; no writer is made to say what they didn't say.
 
@@ -1404,4 +1404,4 @@ The writing task asks you for one paragraph on a filiation between two works or 
 
 ## What's next
 
-The next unit is the last one of the course. It starts with the lesson on writing in a style.
+The next unit is the last one of the course. It starts with <LessonLink id="c2-pastiche" text="the lesson on writing in a style" />.

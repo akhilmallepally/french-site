@@ -521,7 +521,7 @@ A1 runs over target on purpose: six review lessons and two culture lessons sit o
 
 ## C2 · Mastery (planned)
 
-Planned in docs/plans/c2/ (Prompt 40). Units 1 to 7 are written (Prompts 42 to 48); the other rows are planned and may change.
+Planned in docs/plans/c2/ (Prompt 40). All 46 C2 lessons are written (46 of 46, Prompts 42 to 49).
 
 ### Unit 1: Precision in form
 
@@ -603,8 +603,8 @@ Planned in docs/plans/c2/ (Prompt 40). Units 1 to 7 are written (Prompts 42 to 4
 
 | # | id | title | unit | type | prerequisites | scope |
 |---|---|---|---|---|---|---|
-| 42 | c2-pastiche | Writing in a style | Range and mastery | communication | c1-review-literary, c2-stylistic-analysis, c2-reading-the-press | Planned. Pastiche and parody of a fable, a dépêche and a notice, labelled. |
-| 43 | c2-idiomatic-precision | Idioms at C2 | Range and mastery | vocabulary | c1-advanced-idioms, c1-proverbs-and-sayings, c1-collocations | Planned. Near-idioms, register and strength, twisted idioms in the press. |
-| 44 | c2-register-mastery | Moving between registers within one text | Range and mastery | communication | c1-register-shifting, c1-irony-and-understatement, c1-reading-literary-narrative | Planned. Deliberate register breaks and how readers recognize them. |
-| 45 | c2-review-range | Review: Range and mastery | Range and mastery | review | c2-pastiche, c2-idiomatic-precision, c2-register-mastery | Planned. One text in three registers and two styles. |
-| 46 | c2-review-final | C2 final review | Range and mastery | review | c2-review-form, c2-review-words, c2-review-specialized, c2-review-reading, c2-review-writing, c2-review-mediation, c2-review-literatures, c2-review-range | Planned. Whole-level recap; can-do checklist; Mon rapport à la langue française. |
+| 42 | c2-pastiche | Writing in a style | Range and mastery | communication | c1-review-literary, c2-stylistic-analysis, c2-reading-the-press, c2-administrative-french | Pastiche, parody and plagiarism; the markers of a style; tics d'écriture and forcer le trait; imitating honestly; Proust's Pastiches et mélanges and Queneau's Exercices de style named. Model: one invented event as a prose fable à la manière de La Fontaine, a dépêche, an administrative notice and a parody. |
+| 43 | c2-idiomatic-precision | Idioms at C2 | Range and mastery | vocabulary | c1-advanced-idioms, b2-idioms-everyday, c2-culture-wordplay, c2-pastiche | Twenty-two idioms checked in a dictionary, each with its register: confusable pairs, strength, literary and negative idioms, idioms that don't translate. Model: two editors arguing over a headline. |
+| 44 | c2-register-mastery | Moving between registers within one text | Range and mastery | communication | c1-register-shifting, c1-irony-and-understatement, c2-revising-your-style, c2-idiomatic-precision | The deliberate break (humour, emphasis, irony), its signals (entre guillemets, pour reprendre l'expression de, italics), and when a break is a slip. Model: an original column with three breaks, explained. |
+| 45 | c2-review-range | Review: Range and mastery | Range and mastery | review | c2-pastiche, c2-idiomatic-precision, c2-register-mastery | New words: la palette, la justesse, varier, trouver le ton juste. One invented event (two benches) in three registers and two styles, with the same facts; one exercise per lesson and a writing task. |
+| 46 | c2-review-final | C2 final review | Range and mastery | review | c2-review-form, c2-review-words, c2-review-specialized, c2-review-reading, c2-review-writing, c2-review-mediation, c2-review-literatures, c2-review-range | One model sentence and one can-do statement per unit; 18 exercises from all eight units; new words la maîtrise, un locuteur natif, un perfectionnement, un apprenant; an invented closing text and the writing task Mon rapport à la langue française. |

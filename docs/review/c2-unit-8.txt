@@ -1,0 +1,1178 @@
+===== content/lessons/c2/pastiche.mdx =====
+---
+id: "c2-pastiche"
+title: "Writing in a Style"
+description: "Imitate a style on purpose: find the markers of a style (vocabulary, syntax, rhythm, tense), reproduce them for a pastiche or exaggerate them for a parody, and tell both from plagiarism; one invented event told à la manière de La Fontaine, as a dépêche and as an administrative notice."
+level: "C2"
+unit: "Range and mastery"
+order: 42
+type: "communication"
+tags: ["communication", "style", "pastiche", "parody", "writing"]
+prerequisites: ["c1-review-literary", "c2-stylistic-analysis", "c2-reading-the-press", "c2-administrative-french"]
+related: ["c1-culture-satire-and-humour", "c2-culture-twentieth-century-and-today", "c2-review-range"]
+vocab:
+  - { id: "c2-pastiche-v001", group: "kinds", fr: "un pastiche", pron: "uhn pah-STEESH", en: "a pastiche (a text written in another's style)" }
+  - { id: "c2-pastiche-v002", group: "kinds", fr: "à la manière de", pron: "ah lah mah-NYEHR duh", en: "in the manner of, in the style of" }
+  - { id: "c2-pastiche-v003", group: "kinds", fr: "une parodie", pron: "ewn pah-roh-DEE", en: "a parody" }
+  - { id: "c2-pastiche-v004", group: "kinds", fr: "parodier", pron: "pah-roh-DYAY", en: "to parody" }
+  - { id: "c2-pastiche-v005", group: "kinds", fr: "le plagiat", pron: "luh plah-ZHYAH", en: "plagiarism" }
+  - { id: "c2-pastiche-v006", group: "kinds", fr: "plagier", pron: "plah-ZHYAY", en: "to plagiarize" }
+  - { id: "c2-pastiche-v007", group: "kinds", fr: "rendre hommage à", pron: "RAHN-druh oh-MAHZH ah", en: "to pay tribute to" }
+  - { id: "c2-pastiche-v008", group: "kinds", fr: "un exercice de style", pron: "uh-neg-zehr-SEESS duh STEEL", en: "a stylistic exercise" }
+  - { id: "c2-pastiche-v009", group: "kinds", fr: "une imitation", pron: "ew-nee-mee-tah-SYOHN", en: "an imitation" }
+  - { id: "c2-pastiche-v010", group: "markers", fr: "une marque de style", pron: "ewn mark duh STEEL", en: "a stylistic marker" }
+  - { id: "c2-pastiche-v011", group: "markers", fr: "un tic d'écriture", pron: "uhn teek day-kree-TEWR", en: "a writing habit, a mannerism" }
+  - { id: "c2-pastiche-v012", group: "markers", fr: "forcer le trait", pron: "for-SAY luh TREH", en: "to exaggerate, to overdo it" }
+  - { id: "c2-pastiche-v013", group: "markers", fr: "la concision", pron: "lah kohn-see-ZYOHN", en: "concision, brevity" }
+  - { id: "c2-pastiche-v014", group: "markers", fr: "un trait de style", pron: "uhn treh duh STEEL", en: "a feature of style" }
+  - { id: "c2-pastiche-v015", group: "ethics", fr: "citer ses sources", pron: "see-TAY say SOORSS", en: "to name one's sources" }
+  - { id: "c2-pastiche-v016", group: "glossary", fr: "un toit", pron: "uhn TWAH", en: "a roof" }
+  - { id: "c2-pastiche-v017", group: "glossary", fr: "effrayé / effrayée", pron: "eh-freh-YAY", en: "frightened" }
+  - { id: "c2-pastiche-v018", group: "glossary", fr: "survint (survenir)", pron: "sewr-VAN", en: "came along (to arrive unexpectedly; passé simple)" }
+  - { id: "c2-pastiche-v019", group: "glossary", fr: "une assiette", pron: "ew-nah-SYET", en: "a plate, a dish" }
+  - { id: "c2-pastiche-v020", group: "glossary", fr: "aucun blessé n'est à déplorer", pron: "oh-KUHN bleh-SAY neh-tah day-ploh-RAY", en: "no one was injured (press formula)" }
+  - { id: "c2-pastiche-v021", group: "glossary", fr: "il est porté à la connaissance de", pron: "ee-leh por-TAY ah lah koh-neh-SAHNSS duh", en: "notice is hereby given to (administrative formula)" }
+  - { id: "c2-pastiche-v022", group: "glossary", fr: "a regagné (regagner)", pron: "ah ruh-gah-NYAY", en: "got back to (to get back to)" }
+  - { id: "c2-pastiche-v023", group: "glossary", fr: "bloqué / bloquée", pron: "bloh-KAY", en: "stuck" }
+  - { id: "c2-pastiche-v024", group: "glossary", fr: "redescendu (redescendre)", pron: "ruh-deh-sahn-DEW", en: "come back down (to come back down)" }
+  - { id: "c2-pastiche-v025", group: "glossary", fr: "un incident", pron: "uh-nan-see-DAHN", en: "an incident" }
+  - { id: "c2-pastiche-v026", group: "glossary", fr: "la nourriture", pron: "lah noo-ree-TEWR", en: "food" }
+  - { id: "c2-pastiche-v027", group: "glossary", fr: "un établissement (scolaire)", pron: "uh-nay-tah-bleess-MAHN", en: "a school (as an institution)" }
+  - { id: "c2-pastiche-v028", group: "glossary", fr: "une dame", pron: "ewn DAHM", en: "a lady" }
+  - { id: "c2-pastiche-v029", group: "glossary", fr: "se rassembler", pron: "suh rah-sahn-BLAY", en: "to gather" }
+exercises:
+  - id: "c2-pastiche-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez ce qu'est un pastiche."
+    options: ["imiter le style d'un auteur, en le disant", "imiter un auteur pour se moquer de lui", "copier le texte d'un autre sans le dire"]
+    answers: ["imiter le style d'un auteur, en le disant"]
+    explanation: "A pastiche imitates a style and says so. Imitating to mock is parody; copying without saying so is plagiarism."
+  - id: "c2-pastiche-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot pour le fait de copier le texte d'un autre et de le présenter comme le sien."
+    options: ["le plagiat", "la parodie", "le pastiche"]
+    answers: ["le plagiat"]
+    explanation: "Le plagiat: copying without saying so. Pastiche and parody both declare what they imitate."
+  - id: "c2-pastiche-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le style de la phrase : « Un chat est resté bloqué, mardi, sur le toit de l'école, a-t-on appris auprès de la mairie. »"
+    options: ["une dépêche", "une fable", "un avis administratif"]
+    answers: ["une dépêche"]
+    explanation: "The facts first, the day, and the source in an inverted incise (a-t-on appris auprès de): the marks of an agency wire."
+  - id: "c2-pastiche-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le style de la phrase : « Il est porté à la connaissance des familles qu'un chat s'est trouvé bloqué sur le toit. »"
+    options: ["un avis administratif", "une fable", "une dépêche"]
+    answers: ["un avis administratif"]
+    explanation: "An impersonal formula (il est porté à la connaissance de) and no named author: an official notice."
+  - id: "c2-pastiche-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez où se trouve la morale dans « Le Lièvre et la Tortue » de La Fontaine."
+    options: ["au premier vers", "au dernier vers seulement", "nulle part"]
+    answers: ["au premier vers"]
+    explanation: "The fable opens with its moral: « Rien ne sert de courir ; il faut partir à point »."
+  - id: "c2-pastiche-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Écrire « à la ___ de » La Fontaine, c'est imiter son style."
+    answers: ["manière"]
+    explanation: "À la manière de: in the style of. It's the label that makes a pastiche honest."
+  - id: "c2-pastiche-ex007"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe à l'infinitif : Une parodie exagère les marques d'un style : elle aime ___ le trait."
+    answers: ["forcer"]
+    explanation: "Forcer le trait: to exaggerate. Parody does it on purpose; pastiche usually doesn't."
+  - id: "c2-pastiche-ex008"
+    type: "register-shift"
+    prompt: "Transformez la formule administrative en français courant, en commençant par « Nous informons les familles que » : Il est porté à la connaissance des familles qu'un chat s'est trouvé bloqué sur le toit."
+    answers: ["Nous informons les familles qu'un chat s'est trouvé bloqué sur le toit", "Nous informons les familles qu'un chat est resté bloqué sur le toit"]
+    explanation: "Il est porté à la connaissance de is the impersonal formula; nous informons is the everyday version. Both versions of the verb keep the fact."
+  - id: "c2-pastiche-ex009"
+    type: "register-shift"
+    prompt: "Transformez en style de dépêche, avec « a-t-on appris auprès de la mairie » à la fin : La mairie dit que le chat est redescendu seul."
+    strictAccents: true
+    answers: ["Le chat est redescendu seul, a-t-on appris auprès de la mairie"]
+    explanation: "A wire states the fact first and gives the source at the end, in an inverted incise."
+  - id: "c2-pastiche-ex010"
+    type: "reformulation"
+    prompt: "Reformulez avec le conditionnel de prudence (« serait »), comme dans une dépêche : Selon des témoins, l'animal est descendu grâce à une assiette de lait."
+    strictAccents: true
+    answers: ["Selon des témoins, l'animal serait descendu grâce à une assiette de lait"]
+    explanation: "The conditionnel de prudence reports a fact that the paper hasn't checked itself."
+  - id: "c2-pastiche-ex011"
+    type: "reformulation"
+    prompt: "Reformulez au passé simple, comme dans une fable, en gardant « Survint » en tête : Une vieille dame arrive alors."
+    answers: ["Survint alors une vieille dame", "Survint une vieille dame"]
+    explanation: "Survint, with the subject after the verb, is a classic opening of a new event in a literary narrative."
+  - id: "c2-pastiche-ex012"
+    type: "error-correction"
+    prompt: "Corrigez la présentation, qui fait passer un pastiche pour une œuvre originale, en commençant par « Ce texte est écrit à la manière de » : Ce texte est une fable de La Fontaine."
+    strictAccents: true
+    answers: ["Ce texte est écrit à la manière de La Fontaine"]
+    explanation: "A pastiche says what it imitates. Presenting it as the original would be dishonest."
+  - id: "c2-pastiche-ex013"
+    type: "translate"
+    prompt: "Traduisez (à la manière de, écrire, au présent) : I write in the style of La Fontaine."
+    strictAccents: true
+    answers: ["J'écris à la manière de La Fontaine"]
+    explanation: "À la manière de + the author's name."
+  - id: "c2-pastiche-ex014"
+    type: "translate"
+    prompt: "Traduisez (citer ses sources, il faut) : You must name your sources."
+    answers: ["Il faut citer ses sources"]
+    explanation: "Citer ses sources: what separates honest borrowing from plagiarism."
+  - id: "c2-pastiche-ex015"
+    type: "translate"
+    prompt: "Traduisez (rendre hommage à, une parodie) : A parody can also pay tribute to an author."
+    strictAccents: true
+    answers: ["Une parodie peut aussi rendre hommage à un auteur"]
+    explanation: "Rendre hommage à: to pay tribute to. Mockery and tribute can go together in a parody."
+  - id: "c2-pastiche-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : « A pastiche imitates a style without copying it. »"
+    words: ["Un", "pastiche", "imite", "un", "style", "sans", "le", "copier"]
+    answers: ["Un pastiche imite un style sans le copier"]
+    explanation: "Imitating the markers of a style isn't copying its sentences."
+  - id: "c2-pastiche-ex017"
+    type: "writing-task"
+    prompt: "Rédigez le même événement (le chat sur le toit de l'école) en 50 à 90 mots, dans un quatrième style de votre choix (une lettre d'un enfant à sa grand-mère, un message de parent d'élève…), en gardant tous les faits et en signalant le style imité."
+    model: "À la manière d'une lettre d'enfant. Chère Mamie, mardi, il s'est passé un truc incroyable à l'école ! Un chat était sur le toit et il ne pouvait plus descendre. Tout le monde criait, même le maire. Le chat avait peur et il montait encore plus haut. Après, une vieille dame a mis une assiette de lait par terre et elle s'est assise sans rien dire. Et le chat est descendu ! Gros bisous, Lou."
+    checklist: ["Did you name the style you imitate?", "Did you keep every fact (the roof, the noise, the plate of milk, the cat coming down)?", "Did you reproduce two or three markers of that style?", "Did you add no fact?", "Is your text between 50 and 90 words?"]
+    wordTarget: [50, 90]
+---
+
+By the end of this lesson you'll be able to find the markers of a style, reproduce them in a pastiche or exaggerate them in a parody, label your imitation honestly, and tell both apart from plagiarism.
+
+## What you already know
+
+You know *pasticher* (to write in the style of) and *le style* from <LessonLink id="c1-review-literary" text="the review of literary French" />, and *imiter* and *la morale d'une fable* from <LessonLink id="c1-culture-satire-and-humour" text="the lesson on satire and humour" />. You know *citer* (to quote) from <LessonLink id="b2-reporting-verbs" text="the lesson on reporting verbs" />, and *signaler* from <LessonLink id="b1-review-media" text="the review of the media" />. You know *un procédé* from <LessonLink id="c1-rhetorical-devices" text="the lesson on rhetorical devices" />, the rhythm and syntax of style from <LessonLink id="c2-stylistic-analysis" text="the lesson on stylistic analysis" />, the dépêche from <LessonLink id="c2-reading-the-press" text="the lesson on reading the press" />, and the formulas of an official notice from <LessonLink id="c2-administrative-french" text="the lesson on administrative French" />.
+
+**The event, the town and the three texts in this lesson are invented.** The three versions are original pastiches written for the lesson, and each one is labelled.
+
+## Pastiche, parody, plagiarism
+
+<VocabTable group="kinds" />
+
+Three words are often confused. Their real test is what the writer does with the model, and whether they say so.
+
+- **Un pastiche** imitates a style: its words, its syntax, its rhythm. It's written *à la manière de* (in the style of) an author or a genre, and says so. It can be a game or a way to *rendre hommage à* (pay tribute to) a writer.
+- **Une parodie** imitates in order to mock: it *parodie* (parodies) its model by exaggerating its features until they become funny.
+- **Le plagiat** (plagiarism) is something else: it copies another's text and presents it as one's own, without saying so. To *plagier* is dishonest, whether the copy is long or short.
+
+A pastiche or a parody that names its model is never plagiarism, however close it comes.
+
+Two famous books show how far the game can go. In *Pastiches et mélanges* (1919), Proust included pastiches of other writers. In *Exercices de style* (1947), Queneau told one tiny incident again and again, each time in a different style: *un exercice de style* (a stylistic exercise) taken to its limit. This lesson describes both books without quoting them.
+
+<Example fr="Un pastiche imite le style d'un auteur ; une parodie s'en moque ; le plagiat copie sans le dire." en="A pastiche imitates an author's style; a parody mocks it; plagiarism copies without saying so." />
+
+## Finding the markers of a style
+
+<VocabTable group="markers" />
+
+To imitate a style, first list its *marques de style* (stylistic markers): what makes a text recognizable before you know who wrote it. Look at four things:
+
+- **Vocabulary**: the words a style likes (*il appartient à*, *a-t-on appris*).
+- **Syntax**: long or short sentences, impersonal turns, inversions.
+- **Rhythm**: the length of the paragraphs, *la concision* (brevity), repetitions.
+- **Tense and voice**: the passé simple of a tale, the passé composé and the conditionnel de prudence of a wire, the passive of a notice.
+
+Each style also has its *tics d'écriture* (habits, mannerisms): a formula that comes back, a way of opening or closing. A pastiche reproduces them with a light hand. A parody *force le trait* (exaggerates them) until the reader laughs.
+
+<Example fr="La dépêche aime la concision : une phrase, un fait." en="The wire likes brevity: one sentence, one fact." />
+
+<Example fr="Chaque genre a ses tics d'écriture : la dépêche commence par le fait, l'avis par une formule impersonnelle." en="Each genre has its mannerisms: the wire begins with the fact, the notice with an impersonal formula." />
+
+<Example fr="Cette parodie force le trait : chaque phrase de l'avis commence par « Il est rappelé que »." en="This parody overdoes it: every sentence of the notice begins with 'Il est rappelé que'." />
+
+## The fable à la manière de La Fontaine
+
+La Fontaine, who died in 1695, is on the safe list, so his fables can be quoted. His *Le Lièvre et la Tortue* opens with its moral, before the story:
+
+<Example fr="« Rien ne sert de courir ; il faut partir à point » (La Fontaine, Fables, « Le Lièvre et la Tortue »)" en="&quot;There's no point running; you have to set off at the right time.&quot; (our translation)" />
+
+A prose pastiche of a fable keeps a few of his *traits de style* (features of style): animals that act like people, written with a capital letter (*le Chat*); a short story with a sudden turn; a moment of dialogue; the passé simple for the events; and a moral in one line, here at the end. The pastiche in this lesson is in prose, so it makes no claim about verse or metre.
+
+## The dépêche and the notice
+
+The other two pastiches imitate genres rather than an author. The dépêche gives the fact first, then the place and the day, and *cite* (quotes) its source in an inverted incise (*a-t-on appris auprès de la mairie*); it uses the conditionnel de prudence for what it hasn't checked, and ends with a formula such as *aucun blessé n'est à déplorer*. The notice speaks impersonally (*il est porté à la connaissance de*), uses the passive, and ends with a reminder of everyone's duties.
+
+## Imitating honestly
+
+<VocabTable group="ethics" />
+
+A pastiche is honest when it *signale* (points out) what it imitates. As a rule of thumb:
+
+- **Label it**: *à la manière de…*, *pastiche écrit pour…*
+- **Don't copy sentences**: imitate the markers, write your own sentences. A copied line must be quoted, in quotation marks, with its source.
+- ***Citez vos sources*** (name your sources) whenever you borrow a fact or a phrase.
+- **Keep the facts** when you tell the same event in several styles: only the style changes.
+
+<Example fr="Une imitation honnête signale son modèle et cite ses sources." en="An honest imitation points out its model and names its sources." />
+
+## The model: one event, three styles
+
+The texts below tell the same invented event, an afternoon at the primary school of Valbrune. The first three are original pastiches, written for the lesson; the fourth is a short parody of the third.
+
+*À la manière d'une fable de La Fontaine (en prose). Un Chat, monté sur le toit de l'école, ne savait plus descendre. Tout l'après-midi, les Enfants criaient, les Parents criaient, et le Maire criait plus fort que tous. « Descends ! » lui criait-on. « Pourquoi descendre, pensa le Chat, puisque tout le monde crie en bas ? » Et, effrayé par tant de bruit, il montait toujours plus haut. Survint une vieille Dame, qui ne dit rien. Elle posa une assiette de lait au pied du mur, et s'assit. Le Chat la regarda longtemps, puis il descendit. Rien ne sert de crier ; il faut savoir se taire.*
+
+*À la manière d'une dépêche. VALBRUNE, 14 mai (agence inventée). Un chat est resté bloqué, mardi après-midi, sur le toit de l'école primaire de Valbrune, a-t-on appris auprès de la mairie. Selon des témoins, de nombreux parents et le maire se trouvaient devant le bâtiment. L'animal serait redescendu en fin d'après-midi, après qu'une habitante a déposé une assiette de lait au pied du mur. L'incident a duré tout l'après-midi, selon les mêmes témoins. Aucun blessé n'est à déplorer.*
+
+*À la manière d'un avis administratif. Mairie de Valbrune. Avis aux parents d'élèves. Objet : incident du mardi 14 mai. Il est porté à la connaissance des familles qu'un chat s'est trouvé bloqué sur le toit de l'école primaire au cours de l'après-midi du mardi 14 mai. L'animal a regagné le sol en fin d'après-midi, après qu'une habitante a déposé de la nourriture au pied du bâtiment. Il est rappelé qu'il appartient à chacun de ne pas se rassembler devant l'établissement en cas d'incident. Les services de la mairie remercient les familles de leur compréhension.*
+
+*À la manière d'une parodie de l'avis. Il est porté à la connaissance des familles qu'il est rappelé qu'un chat s'est trouvé, au cours de l'après-midi, en situation de présence non autorisée sur le toit de l'établissement. Il est rappelé, en outre, qu'il est rappelé qu'il appartient à chacun de ne pas se rassembler, ni de crier, ni de penser trop fort.*
+
+(In the manner of a fable by La Fontaine (in prose). A Cat, who had climbed onto the school roof, no longer knew how to get down. All afternoon, the Children shouted, the Parents shouted, and the Mayor shouted louder than all of them. "Come down!" they shouted at him. "Why come down," thought the Cat, "when everyone is shouting down there?" And, frightened by so much noise, he kept climbing higher. Along came an old Lady, who said nothing. She put a plate of milk at the foot of the wall, and sat down. The Cat looked at her for a long time, then came down. There's no point shouting; you have to know how to keep quiet. / In the manner of a wire. VALBRUNE, 14 May (invented agency). A cat was stuck on Tuesday afternoon on the roof of the Valbrune primary school, the town hall said. According to witnesses, many parents and the mayor were in front of the building. The animal reportedly came back down late in the afternoon, after a local woman put a plate of milk at the foot of the wall. The incident lasted all afternoon, according to the same witnesses. No one was injured. / In the manner of an administrative notice. Valbrune town hall. Notice to parents. Subject: incident of Tuesday 14 May. Families are hereby informed that a cat was stuck on the roof of the primary school during the afternoon of Tuesday 14 May. The animal got back to the ground late in the afternoon, after a local woman put food at the foot of the building. Everyone is reminded that they must not gather in front of the school in case of an incident. The town hall's services thank families for their understanding. / In the manner of a parody of the notice. Families are hereby informed that it is recalled that a cat found itself, during the afternoon, in a situation of unauthorized presence on the roof of the school. It is recalled, moreover, that it is recalled that everyone must not gather, nor shout, nor think too loudly.)
+
+<VocabTable group="glossary" />
+
+## How the pastiches work
+
+- **The same facts** in all three: a cat stuck on the school roof, in the afternoon, a crowd with the mayor, a woman who puts down food (a plate of milk), the cat coming down. The fable leaves out the date and the notice says *de la nourriture* rather than *du lait*, but none adds a fact.
+- **The fable**: capitals for the characters, a moment of direct speech (*« Descends ! »*, then the Cat's thought), the passé simple for the events (*survint*, *posa*, *descendit*), a repetition (*criaient… criaient… criait*), a sudden turn and a moral that echoes La Fontaine's line without copying it.
+- **The dépêche**: the fact and the place first, the source in an inverted incise, *selon des témoins*, the conditionnel de prudence (*serait redescendu*) and the closing formula.
+- **The notice**: *objet*, an impersonal opening, the passive (*s'est trouvé bloqué*), no named person, and a reminder of duties (*il appartient à chacun de*).
+- **The parody** forces the trait of the notice: *il est rappelé que* doubled, a heavy noun phrase (*en situation de présence non autorisée*), and a final list that turns absurd (*ni de penser trop fort*). It adds no fact; it only makes the style laugh at itself.
+- **The labels**: each text says what it imitates, so none of them could pass for the original.
+
+<Callout type="warning" title="A pastiche isn't a copy">
+  When they write a pastiche, learners sometimes reuse whole lines of the model with one word changed: *Rien ne sert de courir ; il faut partir à point* becomes *Rien ne sert de courir ; il faut partir tôt*. That's a near copy, not an imitation. Write your own sentence with the same markers, **Rien ne sert de crier ; il faut savoir se taire**, and quote the original only in quotation marks, with its source.
+</Callout>
+
+<Callout type="tip" title="Write one fact in three styles">
+  Take one ordinary event from your week and write it three times, in three short paragraphs: as a tale, as a news wire and as an official notice. Then underline, in each one, the two markers that make it recognizable.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-idiomatic-precision" text="the lesson on idioms at C2" /> works on precision at the level of the set phrase.
+
+===== content/lessons/c2/idiomatic-precision.mdx =====
+---
+id: "c2-idiomatic-precision"
+title: "Idioms at C2"
+description: "Choose between near-idioms (tenir à cœur / prendre à cœur, faire long feu / ne pas faire long feu, de but en blanc / à brûle-pourpoint), use an idiom at the right strength and register, recognize literary and negative idioms, and handle idioms that don't translate."
+level: "C2"
+unit: "Range and mastery"
+order: 43
+type: "vocabulary"
+tags: ["vocabulary", "idioms", "register", "precision", "translation"]
+prerequisites: ["c1-advanced-idioms", "b2-idioms-everyday", "c2-culture-wordplay", "c2-pastiche"]
+related: ["c1-proverbs-and-sayings", "c1-collocations", "c2-review-range"]
+vocab:
+  - { id: "c2-idiomatic-precision-v001", group: "pairs", fr: "tenir à cœur à quelqu'un", pron: "tuh-NEER ah KUHR ah kel-KUHN", en: "to matter a great deal to someone" }
+  - { id: "c2-idiomatic-precision-v002", group: "pairs", fr: "prendre à cœur", pron: "PRAHN-druh ah KUHR", en: "to take seriously, to care deeply about" }
+  - { id: "c2-idiomatic-precision-v003", group: "pairs", fr: "faire long feu", pron: "fehr lohn FUH", en: "to fail, to come to nothing (formal)" }
+  - { id: "c2-idiomatic-precision-v004", group: "pairs", fr: "ne pas faire long feu", pron: "nuh pah fehr lohn FUH", en: "not to last long" }
+  - { id: "c2-idiomatic-precision-v005", group: "pairs", fr: "de but en blanc", pron: "duh bew-tahn BLAHN", en: "abruptly, without any lead-in" }
+  - { id: "c2-idiomatic-precision-v006", group: "pairs", fr: "à brûle-pourpoint", pron: "ah brewl-poor-PWAN", en: "abruptly, without preparation (a little more literary)" }
+  - { id: "c2-idiomatic-precision-v007", group: "pairs", fr: "jeter de l'huile sur le feu", pron: "zhuh-TAY duh LWEEL sewr luh FUH", en: "to make a conflict worse" }
+  - { id: "c2-idiomatic-precision-v008", group: "strength", fr: "tomber des nues", pron: "tohn-BAY day NEW", en: "to be utterly astonished" }
+  - { id: "c2-idiomatic-precision-v009", group: "strength", fr: "être aux anges", pron: "ET-ruh oh-ZAHNZH", en: "to be overjoyed" }
+  - { id: "c2-idiomatic-precision-v010", group: "strength", fr: "il n'y a pas de quoi fouetter un chat", pron: "eel nyah pah duh kwah fweh-TAY uhn SHAH", en: "it's no big deal (familiar)" }
+  - { id: "c2-idiomatic-precision-v011", group: "strength", fr: "prendre la mouche", pron: "PRAHN-druh lah MOOSH", en: "to take offence over nothing (familiar)" }
+  - { id: "c2-idiomatic-precision-v012", group: "strength", fr: "monter sur ses grands chevaux", pron: "mohn-TAY sewr say grahn shuh-VOH", en: "to react with angry pride, to get indignant" }
+  - { id: "c2-idiomatic-precision-v013", group: "literary", fr: "avoir maille à partir avec", pron: "ah-VWAHR MAH-y ah par-TEER ah-VEK", en: "to be in dispute with (formal, a little old-fashioned)" }
+  - { id: "c2-idiomatic-precision-v014", group: "literary", fr: "faire florès", pron: "fehr floh-RESS", en: "to be very successful, to be in fashion (formal)" }
+  - { id: "c2-idiomatic-precision-v015", group: "literary", fr: "battre la campagne", pron: "BAT-ruh lah kahn-PAH-nyuh", en: "to wander off the subject (formal)" }
+  - { id: "c2-idiomatic-precision-v016", group: "literary", fr: "sur-le-champ", pron: "sewr-luh-SHAHN", en: "immediately, on the spot" }
+  - { id: "c2-idiomatic-precision-v017", group: "negative", fr: "ne pas être sorti de l'auberge", pron: "nuh pah-zet-ruh sor-TEE duh loh-BEHRZH", en: "to be far from the end of one's troubles (familiar)" }
+  - { id: "c2-idiomatic-precision-v018", group: "negative", fr: "ne pas avoir froid aux yeux", pron: "nuh pah-zah-VWAHR frwah oh-ZYUH", en: "to be fearless, to be bold (familiar)" }
+  - { id: "c2-idiomatic-precision-v019", group: "negative", fr: "la forme négative", pron: "lah form nay-gah-TEEV", en: "the negative form" }
+  - { id: "c2-idiomatic-precision-v020", group: "untranslatable", fr: "mettre la puce à l'oreille", pron: "MET-ruh lah PEWSS ah loh-RAY", en: "to make someone suspicious" }
+  - { id: "c2-idiomatic-precision-v021", group: "untranslatable", fr: "couper l'herbe sous le pied à quelqu'un", pron: "koo-PAY LEHRB soo luh PYAY ah kel-KUHN", en: "to get in ahead of someone, to pre-empt them (familiar)" }
+  - { id: "c2-idiomatic-precision-v022", group: "untranslatable", fr: "tirer son épingle du jeu", pron: "tee-RAY soh-nay-PAN-gluh dew ZHUH", en: "to get out of a bad situation without loss" }
+  - { id: "c2-idiomatic-precision-v023", group: "untranslatable", fr: "avoir plus d'une corde à son arc", pron: "ah-VWAHR plew DEWN kord ah soh-NARK", en: "to have more than one resource or skill" }
+  - { id: "c2-idiomatic-precision-v024", group: "untranslatable", fr: "une expression figée", pron: "ew-nek-spreh-SYOHN fee-ZHAY", en: "a set phrase" }
+  - { id: "c2-idiomatic-precision-v025", group: "other", fr: "échouer", pron: "ay-shoo-AY", en: "to fail" }
+  - { id: "c2-idiomatic-precision-v026", group: "other", fr: "un organisateur / une organisatrice", pron: "uh-nor-gah-nee-zah-TUHR / ew-nor-gah-nee-zah-TREESS", en: "an organizer" }
+  - { id: "c2-idiomatic-precision-v027", group: "other", fr: "un talent", pron: "uhn tah-LAHN", en: "a talent" }
+  - { id: "c2-idiomatic-precision-v028", group: "other", fr: "déformé / déformée", pron: "day-for-MAY", en: "distorted, twisted out of shape" }
+  - { id: "c2-idiomatic-precision-v029", group: "other", fr: "immédiatement", pron: "ee-may-dyat-MAHN", en: "immediately" }
+  - { id: "c2-idiomatic-precision-v030", group: "other", fr: "un détail", pron: "uhn day-TAH-y", en: "a detail" }
+exercises:
+  - id: "c2-idiomatic-precision-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez le sens de la phrase : Le nouveau festival n'a pas fait long feu."
+    options: ["il n'a pas duré longtemps", "il a eu un grand succès", "il a été très bruyant"]
+    answers: ["il n'a pas duré longtemps"]
+    explanation: "Ne pas faire long feu: not to last long. Without the negation, faire long feu means to fail, in a formal register."
+  - id: "c2-idiomatic-precision-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez l'expression la plus forte pour une très grande surprise."
+    options: ["tomber des nues", "être un peu surpris", "s'étonner"]
+    answers: ["tomber des nues"]
+    explanation: "Tomber des nues: to be utterly astonished. The other two are weaker."
+  - id: "c2-idiomatic-precision-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre de « prendre la mouche »."
+    options: ["familier", "soutenu", "juridique"]
+    answers: ["familier"]
+    explanation: "Prendre la mouche is familiar. In a formal text, write se vexer or s'irriter."
+  - id: "c2-idiomatic-precision-ex004"
+    type: "multiple-choice"
+    prompt: "Choisissez l'expression qui veut dire « brusquement, sans entrée en matière »."
+    options: ["à brûle-pourpoint", "avoir maille à partir", "être aux anges"]
+    answers: ["à brûle-pourpoint"]
+    explanation: "À brûle-pourpoint: abruptly, without preparation. Avoir maille à partir is to be in dispute; être aux anges is to be overjoyed."
+  - id: "c2-idiomatic-precision-ex005"
+    type: "multiple-choice"
+    prompt: "Choisissez l'expression de sens contraire à « mettre de l'eau dans son vin »."
+    options: ["jeter de l'huile sur le feu", "tirer son épingle du jeu", "être aux anges"]
+    answers: ["jeter de l'huile sur le feu"]
+    explanation: "Mettre de l'eau dans son vin calms things down; jeter de l'huile sur le feu makes them worse."
+  - id: "c2-idiomatic-precision-ex006"
+    type: "fill-in"
+    prompt: "Complétez avec le verbe au présent : Ce projet me ___ à cœur."
+    answers: ["tient"]
+    explanation: "Tenir à cœur à quelqu'un: the project is the subject, and the person is the indirect object (me)."
+  - id: "c2-idiomatic-precision-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Il a beaucoup de talents : il a plus d'une ___ à son arc."
+    answers: ["corde"]
+    explanation: "Avoir plus d'une corde à son arc: to have more than one resource."
+  - id: "c2-idiomatic-precision-ex008"
+    type: "fill-in"
+    prompt: "Complétez : Elle n'a pas froid aux ___ : elle a dit non au directeur devant tout le monde."
+    answers: ["yeux"]
+    explanation: "Ne pas avoir froid aux yeux: to be bold. The idiom is almost always negative."
+  - id: "c2-idiomatic-precision-ex009"
+    type: "error-correction"
+    prompt: "Corrigez l'expression, mal construite, en commençant par « Ce projet » : Je tiens ce projet à cœur."
+    strictAccents: true
+    answers: ["Ce projet me tient à cœur"]
+    explanation: "In tenir à cœur, the thing that matters is the subject, and the person is the indirect object: ce projet me tient à cœur."
+  - id: "c2-idiomatic-precision-ex010"
+    type: "error-correction"
+    prompt: "Corrigez l'expression, déformée, en commençant par « Il n'y a pas » : Il ne faut pas fouetter le chat pour si peu."
+    strictAccents: true
+    answers: ["Il n'y a pas de quoi fouetter un chat"]
+    explanation: "The set phrase is il n'y a pas de quoi fouetter un chat: it's no big deal. A set phrase doesn't change its words."
+  - id: "c2-idiomatic-precision-ex011"
+    type: "register-shift"
+    prompt: "Transformez en registre courant, avec « ne sommes pas au bout de nos difficultés » : Nous ne sommes pas sortis de l'auberge."
+    answers: ["Nous ne sommes pas au bout de nos difficultés"]
+    explanation: "Ne pas être sorti de l'auberge is familiar; the everyday version says the same thing without the image."
+  - id: "c2-idiomatic-precision-ex012"
+    type: "reformulation"
+    prompt: "Reformulez avec « sur-le-champ » : Elle a répondu immédiatement."
+    strictAccents: true
+    answers: ["Elle a répondu sur-le-champ"]
+    explanation: "Sur-le-champ: immediately, on the spot."
+  - id: "c2-idiomatic-precision-ex013"
+    type: "translate"
+    prompt: "Traduisez (tomber des nues, au passé composé) : « I was utterly astonished. » (a man speaking)"
+    answers: ["Je suis tombé des nues"]
+    explanation: "Tomber takes être; a man speaking, so tombé."
+  - id: "c2-idiomatic-precision-ex014"
+    type: "translate"
+    prompt: "Traduisez (mettre la puce à l'oreille, au passé composé) : « This detail made me suspicious. »"
+    strictAccents: true
+    answers: ["Ce détail m'a mis la puce à l'oreille"]
+    explanation: "Mettre la puce à l'oreille à quelqu'un: to make them suspicious. The idiom has no word-for-word English equivalent."
+  - id: "c2-idiomatic-precision-ex015"
+    type: "translate"
+    prompt: "Traduisez (tirer son épingle du jeu, au passé composé) : « He got out of the situation without loss. »"
+    strictAccents: true
+    answers: ["Il a tiré son épingle du jeu"]
+    explanation: "Tirer son épingle du jeu: to get out of a bad situation without losing anything."
+  - id: "c2-idiomatic-precision-ex016"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : « Their competitor got in ahead of them. »"
+    words: ["Leur", "concurrent", "leur", "a", "coupé", "l'herbe", "sous", "le", "pied"]
+    answers: ["Leur concurrent leur a coupé l'herbe sous le pied"]
+    explanation: "Couper l'herbe sous le pied à quelqu'un: the person comes as an indirect object (leur), before the auxiliary."
+---
+
+By the end of this lesson you'll be able to choose between idioms that look alike, use an idiom at the right strength and in the right register, recognize literary and negative idioms, and deal with idioms that don't translate.
+
+## What you already know
+
+You know everyday idioms such as *avoir du pain sur la planche* from <LessonLink id="b2-idioms-everyday" text="the lesson on everyday idioms" />, and *mettre de l'eau dans son vin* and *ne pas y aller par quatre chemins* from <LessonLink id="c1-advanced-idioms" text="the lesson on advanced idioms" />. You know *détourner une expression* from <LessonLink id="c2-culture-wordplay" text="the lesson on humour and wordplay" />. This lesson adds idioms that weren't taught before, chosen for the precision they demand.
+
+**The register labels** follow the usual dictionary categories: familiar, everyday (unmarked) and formal. Where dictionaries differ, the label is marked "to verify" in docs/review-needed.md.
+
+## Pairs that are easy to confuse
+
+<VocabTable group="pairs" />
+
+*Une expression figée* (a set phrase) doesn't change its words, but some set phrases look so alike that learners swap them.
+
+- **Tenir à cœur / prendre à cœur.** With *tenir à cœur*, the thing that matters is the subject: *ce projet me tient à cœur* (this project matters to me). With *prendre à cœur*, the person is the subject: *elle prend son travail à cœur* (she takes her work seriously).
+- **Faire long feu / ne pas faire long feu.** In its traditional sense, *faire long feu* means to fail, to come to nothing; it's formal and rare. The everyday form is negative: *ne pas faire long feu* (not to last long). Dictionaries also record *faire long feu* in the sense "not to last", so in your own writing, use the negative form for that meaning, which no reader can misread.
+- **De but en blanc / à brûle-pourpoint.** Both mean abruptly, without any lead-in: *il m'a demandé de but en blanc si j'étais d'accord*. *À brûle-pourpoint* sounds a little more literary.
+- **Jeter de l'huile sur le feu** (to make a conflict worse) is the opposite of *mettre de l'eau dans son vin*, which you know.
+
+<Example fr="Ce projet me tient à cœur, et toute l'équipe le prend à cœur." en="This project matters a great deal to me, and the whole team takes it seriously." />
+
+<Example fr="Au lieu de mettre de l'eau dans son vin, il a jeté de l'huile sur le feu." en="Instead of toning down his demands, he made the conflict worse." />
+
+<Example fr="La nouvelle émission n'a pas fait long feu : elle s'est arrêtée au bout d'un mois." en="The new programme didn't last long: it stopped after a month." />
+
+## The strength of an idiom
+
+<VocabTable group="strength" />
+
+An idiom has a strength, and choosing the right one is part of precision.
+
+- **Surprise**: *s'étonner* is mild; *tomber des nues* (to be utterly astonished) is the strongest.
+- **Joy**: *être content* is neutral; *être aux anges* (to be overjoyed) is strong.
+- **Minimizing**: *il n'y a pas de quoi fouetter un chat* (familiar) says that something is no big deal.
+- **Anger**: *prendre la mouche* (familiar) is to take offence over nothing; *monter sur ses grands chevaux* is to react with angry pride, often to defend one's dignity.
+
+As a rule of thumb, a strong idiom used for a small event sounds ironic. *Il est tombé des nues* about a late bus suggests the speaker finds his surprise excessive.
+
+<Example fr="Quand elle a appris la nouvelle, elle est tombée des nues." en="When she heard the news, she was utterly astonished." />
+
+<Example fr="Quand on a critiqué son travail, il est monté sur ses grands chevaux." en="When his work was criticized, he reacted with angry pride." />
+
+<Example fr="Il a pris la mouche pour une simple remarque, alors qu'il n'y avait pas de quoi fouetter un chat." en="He took offence at a simple remark, when it was no big deal." />
+
+## Literary and old-fashioned idioms
+
+<VocabTable group="literary" />
+
+Some idioms belong to written, formal or slightly old-fashioned French. You'll meet them in novels and essays, and in the press when a writer wants a literary tone.
+
+- **Avoir maille à partir avec** (to be in dispute with): *il a eu maille à partir avec ses voisins*.
+- **Faire florès** (to be very successful): *ce mot a fait florès dans les journaux*.
+- **Battre la campagne** (to wander off the subject): *l'orateur bat la campagne*.
+- **Sur-le-champ** (immediately) is more common, and fits any careful text.
+
+<Example fr="Le maire a eu maille à partir avec plusieurs associations." en="The mayor has been in dispute with several associations." />
+
+<Example fr="Cette formule a fait florès, puis tout le monde l'a oubliée." en="This phrase was very successful, then everyone forgot it." />
+
+## Idioms in the negative
+
+<VocabTable group="negative" />
+
+Some idioms are almost always used in the negative, and the positive form sounds odd:
+
+- **Ne pas être sorti de l'auberge** (familiar): to be far from the end of one's troubles.
+- **Ne pas avoir froid aux yeux** (familiar): to be fearless.
+- **Ne pas faire long feu**, as above.
+
+Keep the negation when you use them; *il a froid aux yeux* isn't the expected form.
+
+<Example fr="Avec ce nouveau retard, nous ne sommes pas sortis de l'auberge." en="With this new delay, we're far from the end of our troubles." />
+
+## Idioms that don't translate
+
+<VocabTable group="untranslatable" />
+
+Many idioms have no word-for-word equivalent. Translated literally, *mettre la puce à l'oreille* (to make someone suspicious) speaks of a flea in an ear, which means nothing in English. The same goes for *couper l'herbe sous le pied* (to get in ahead of someone), *tirer son épingle du jeu* (to get out of a bad situation without loss) and *avoir plus d'une corde à son arc* (to have more than one resource).
+
+To translate them, translate the meaning in plain words, as in this lesson's glosses. When you translate into French, don't look for an idiom at all costs: a plain sentence is better than an idiom at the wrong strength or in the wrong register.
+
+<Example fr="Ce silence m'a mis la puce à l'oreille." en="This silence made me suspicious." />
+
+<Example fr="Avec plus d'une corde à son arc, elle a tiré son épingle du jeu." en="With more than one resource to fall back on, she got out of the situation without loss." />
+
+## En français
+
+Ophélie and Thierry, two editors at a local magazine, argue over a headline. They use *tu*. A few everyday words appear here and in the exercises:
+
+<VocabTable group="other" />
+
+- *Pour le festival, j'ai écrit : « Le festival fait long feu ».* (For the festival, I wrote: "Le festival fait long feu".)
+- *Tu veux dire qu'il n'a pas duré ? Alors écris « Le festival n'a pas fait long feu ».* (You mean it didn't last? Then write "Le festival n'a pas fait long feu".)
+- *Les deux ne veulent pas dire la même chose ?* (Don't the two mean the same thing?)
+- *Non. Sans la négation, beaucoup de lecteurs vont comprendre qu'il a échoué.* (No. Without the negation, many readers are going to understand that it failed.)
+- *Il a duré deux soirs, et il a eu du public. Il n'a pas échoué.* (It lasted two evenings, and it had an audience. It didn't fail.)
+- *Donc la forme négative. Et le sous-titre ?* (So the negative form. And the subtitle?)
+- *« Les organisateurs tombent des nues ».* ("The organizers are utterly astonished".)
+- *C'est trop fort. Ils sont surpris, pas plus.* (That's too strong. They're surprised, nothing more.)
+- *Alors : « Les organisateurs s'étonnent ».* (Then: "Les organisateurs s'étonnent".)
+- *Mieux. Et ne mets pas « il n'y a pas de quoi fouetter un chat » dans l'article : c'est trop familier pour la rubrique culture.* (Better. And don't put "il n'y a pas de quoi fouetter un chat" in the article: it's too familiar for the culture section.)
+- *D'accord, mais j'ai le droit à une image ?* (All right, but am I allowed one image?)
+- *Une seule : « La mairie a coupé l'herbe sous le pied des organisateurs ». C'est familier, mais c'est exactement ce qui s'est passé.* (Just one: "The town hall got in ahead of the organizers". It's familiar, but it's exactly what happened.)
+
+<Callout type="warning" title="Keep the negation in a negative idiom">
+  Learners often drop the negation of an idiom that lives in the negative, or add one to an idiom that doesn't: *le festival a fait long feu* for a festival that simply didn't last. For that meaning, write **le festival n'a pas fait long feu**.
+</Callout>
+
+<Callout type="tip" title="Note an idiom with its strength and register">
+  When you note a new idiom, write three things beside it: its plain meaning, its register (familiar, everyday, formal) and its strength on a small scale from 1 to 3. When you need it later, you'll know at once whether it fits the text and the situation.
+</Callout>
+
+## En résumé
+
+Une expression figée ne change pas ses mots, mais certaines expressions se ressemblent beaucoup. Avec tenir à cœur, la chose qui compte est le sujet : ce projet me tient à cœur. Avec prendre à cœur, la personne est le sujet : elle prend son travail à cœur. Ne pas faire long feu veut dire ne pas durer longtemps ; sans la négation, faire long feu veut dire, dans son sens traditionnel, échouer. De but en blanc et à brûle-pourpoint veulent dire brusquement. Une expression a aussi une force : tomber des nues est plus fort que s'étonner, et être aux anges plus fort qu'être content. Prendre la mouche et il n'y a pas de quoi fouetter un chat sont familiers. Avoir maille à partir avec, faire florès et battre la campagne appartiennent à un registre soutenu. Ne pas avoir froid aux yeux et ne pas être sorti de l'auberge s'emploient à la forme négative. Enfin, beaucoup d'expressions, comme mettre la puce à l'oreille, ne se traduisent pas mot à mot : on en traduit le sens.
+
+## What's next
+
+Next, <LessonLink id="c2-register-mastery" text="the lesson on moving between registers within one text" /> turns from the set phrase to the whole text, and to register changes made on purpose.
+
+===== content/lessons/c2/register-mastery.mdx =====
+---
+id: "c2-register-mastery"
+title: "Moving Between Registers Within One Text"
+description: "Use a register change on purpose inside one text, for humour, emphasis or irony: the deliberate break, quoting someone's register, the signals that show the break is intended (entre guillemets, pour reprendre l'expression de, italics), and how to tell a chosen effect from a mistake."
+level: "C2"
+unit: "Range and mastery"
+order: 44
+type: "communication"
+tags: ["communication", "register", "style", "irony", "column"]
+prerequisites: ["c1-register-shifting", "c1-irony-and-understatement", "c2-revising-your-style", "c2-idiomatic-precision"]
+related: ["b2-registers", "c1-reading-literary-narrative", "c2-review-range"]
+vocab:
+  - { id: "c2-register-mastery-v001", group: "break", fr: "un effet de rupture", pron: "uh-neh-FEH duh rewp-TEWR", en: "an effect created by a sudden break (in register or tone)" }
+  - { id: "c2-register-mastery-v002", group: "break", fr: "détonner", pron: "day-toh-NAY", en: "to clash, to stand out (of a word in a text)" }
+  - { id: "c2-register-mastery-v003", group: "break", fr: "un décalage", pron: "uhn day-kah-LAHZH", en: "a gap, a mismatch" }
+  - { id: "c2-register-mastery-v004", group: "break", fr: "à dessein", pron: "ah deh-SAN", en: "on purpose, deliberately (formal)" }
+  - { id: "c2-register-mastery-v005", group: "break", fr: "voulu / voulue", pron: "voo-LEW", en: "intended, deliberate" }
+  - { id: "c2-register-mastery-v006", group: "break", fr: "volontairement / involontaire", pron: "voh-lohn-tehr-MAHN / an-voh-lohn-TEHR", en: "deliberately / unintentional" }
+  - { id: "c2-register-mastery-v007", group: "effects", fr: "un effet comique", pron: "uh-neh-FEH koh-MEEK", en: "a comic effect" }
+  - { id: "c2-register-mastery-v008", group: "effects", fr: "mettre en relief", pron: "MET-ruh ahn ruh-LYEF", en: "to highlight, to make stand out" }
+  - { id: "c2-register-mastery-v009", group: "effects", fr: "solennel / solennelle", pron: "soh-lah-NEL", en: "solemn" }
+  - { id: "c2-register-mastery-v010", group: "effects", fr: "la solennité", pron: "lah soh-lah-nee-TAY", en: "solemnity" }
+  - { id: "c2-register-mastery-v011", group: "signals", fr: "entre guillemets", pron: "AHN-truh gee-yuh-MEH", en: "in quotation marks, so to speak" }
+  - { id: "c2-register-mastery-v012", group: "signals", fr: "pour reprendre l'expression de", pron: "poor ruh-PRAHN-druh lek-spreh-SYOHN duh", en: "to use the words of" }
+  - { id: "c2-register-mastery-v013", group: "signals", fr: "pour parler comme", pron: "poor par-LAY KOMM", en: "to put it the way … would" }
+  - { id: "c2-register-mastery-v014", group: "signals", fr: "en italique", pron: "ah-nee-tah-LEEK", en: "in italics" }
+  - { id: "c2-register-mastery-v015", group: "signals", fr: "comme on dit", pron: "komm ohn DEE", en: "as they say" }
+  - { id: "c2-register-mastery-v016", group: "signals", fr: "l'emphase (f.)", pron: "lahn-FAHZ", en: "emphasis" }
+  - { id: "c2-register-mastery-v017", group: "glossary", fr: "un conseil municipal", pron: "uhn kohn-SEH-y mew-nee-see-PAHL", en: "a town council" }
+  - { id: "c2-register-mastery-v018", group: "glossary", fr: "un élu / une élue", pron: "uh-nay-LEW / ew-nay-LEW", en: "an elected representative" }
+  - { id: "c2-register-mastery-v019", group: "glossary", fr: "un banc", pron: "uhn BAHN", en: "a bench" }
+  - { id: "c2-register-mastery-v020", group: "glossary", fr: "un neveu", pron: "uhn nuh-VUH", en: "a nephew" }
+  - { id: "c2-register-mastery-v021", group: "glossary", fr: "susceptible de", pron: "sew-sep-TEE-bluh duh", en: "likely to (formal)" }
+  - { id: "c2-register-mastery-v022", group: "glossary", fr: "examiner (examiné)", pron: "eg-zah-mee-NAY", en: "to examine" }
+  - { id: "c2-register-mastery-v023", group: "glossary", fr: "un riverain / une riveraine", pron: "uhn ree-vuh-RAN / ewn ree-vuh-REN", en: "a local resident" }
+  - { id: "c2-register-mastery-v024", group: "glossary", fr: "craignent (craindre)", pron: "KREH-nyuh", en: "fear (to fear)" }
+  - { id: "c2-register-mastery-v025", group: "glossary", fr: "l'installation (f.)", pron: "lan-stah-lah-SYOHN", en: "installation, putting in" }
+exercises:
+  - id: "c2-register-mastery-ex001"
+    type: "multiple-choice"
+    prompt: "Indiquez si la rupture de registre est voulue ou si c'est une erreur : « La séance a duré quatre heures. Autant dire, pour parler comme mon neveu, qu'on a « galéré ». »"
+    options: ["voulue, et signalée", "une erreur", "on ne peut pas savoir"]
+    answers: ["voulue, et signalée"]
+    explanation: "Pour parler comme mon neveu and the quotation marks show that the familiar word is chosen and attributed."
+  - id: "c2-register-mastery-ex002"
+    type: "multiple-choice"
+    prompt: "Indiquez si la rupture de registre est voulue ou si c'est une erreur, dans une lettre à une administration : « Je vous prie de bien vouloir examiner ma demande, c'est super important pour moi. »"
+    options: ["une erreur", "voulue, pour faire rire", "voulue, par ironie"]
+    answers: ["une erreur"]
+    explanation: "Nothing signals the break, and nothing in a letter to an administration calls for a joke: super is a slip, as in the lesson on revising your style."
+  - id: "c2-register-mastery-ex003"
+    type: "multiple-choice"
+    prompt: "Indiquez l'effet de la phrase : « On nous annonce donc, avec la solennité qui convient aux grands moments de l'histoire, l'installation de deux bancs. »"
+    options: ["l'ironie", "l'emphase", "un effet comique sans moquerie"]
+    answers: ["l'ironie"]
+    explanation: "A solemn register for a small event says the opposite of what it seems to say: the writer finds the announcement overblown."
+  - id: "c2-register-mastery-ex004"
+    type: "multiple-choice"
+    prompt: "Indiquez le signal qui montre qu'un mot familier est cité, et non employé par l'auteur."
+    options: ["les guillemets", "un point final", "une majuscule"]
+    answers: ["les guillemets"]
+    explanation: "Quotation marks (or italics) show that the word belongs to someone else, or that the writer holds it at a distance."
+  - id: "c2-register-mastery-ex005"
+    type: "fill-in"
+    prompt: "Complétez : Dans un texte soutenu, un mot familier sans guillemets ___ : il ne s'accorde pas avec le reste."
+    answers: ["détonne"]
+    explanation: "Détonner: to clash. Not to be confused with détoner (to explode), which has one n."
+  - id: "c2-register-mastery-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Le mot est écrit entre ___ : l'auteur montre qu'il cite quelqu'un."
+    answers: ["guillemets"]
+    explanation: "Entre guillemets: in quotation marks."
+  - id: "c2-register-mastery-ex007"
+    type: "register-shift"
+    prompt: "Transformez en registre soutenu, pour un rapport, avec « essentiel » : C'est super important."
+    answers: ["C'est essentiel", "Cela est essentiel"]
+    explanation: "Super important is familiar. In a report, essentiel says it without any effect of rupture."
+  - id: "c2-register-mastery-ex008"
+    type: "register-shift"
+    prompt: "Transformez la phrase en citation signalée, avec « pour reprendre l'expression d'une habitante » placé en tête : Ça craint."
+    answers: ["Pour reprendre l'expression d'une habitante, « ça craint »", "Pour reprendre l'expression d'une habitante, ça craint"]
+    explanation: "The signal attributes the familiar words, so they can appear in a formal text. The quotation marks are usual, but the checker doesn't count them."
+  - id: "c2-register-mastery-ex009"
+    type: "reformulation"
+    prompt: "Reformulez avec « à dessein » : L'auteur a mis ce mot familier là volontairement."
+    strictAccents: true
+    answers: ["L'auteur a mis ce mot familier là à dessein", "L'auteur a mis ce mot familier à dessein"]
+    explanation: "À dessein: on purpose, in a formal register."
+  - id: "c2-register-mastery-ex010"
+    type: "error-correction"
+    prompt: "Corrigez la rupture de registre involontaire, en remplaçant seulement « bosser » : Nous vous remercions de bosser sur ce dossier."
+    answers: ["Nous vous remercions de travailler sur ce dossier"]
+    explanation: "Bosser is familiar; in a formal message with no signal, it's a slip, not an effect."
+  - id: "c2-register-mastery-ex011"
+    type: "translate"
+    prompt: "Traduisez (un effet de rupture, voulu) : « This break is deliberate. »"
+    answers: ["Cet effet de rupture est voulu", "Cette rupture est voulue"]
+    explanation: "Voulu agrees with its noun: un effet voulu, une rupture voulue."
+  - id: "c2-register-mastery-ex012"
+    type: "translate"
+    prompt: "Traduisez (entre guillemets, mettre au passé composé) : « She put the word in quotation marks. »"
+    strictAccents: true
+    answers: ["Elle a mis le mot entre guillemets"]
+    explanation: "Mettre un mot entre guillemets."
+  - id: "c2-register-mastery-ex013"
+    type: "translate"
+    prompt: "Traduisez (mettre en relief) : « The familiar word highlights the idea. »"
+    answers: ["Le mot familier met l'idée en relief", "Le mot familier met en relief l'idée"]
+    explanation: "Mettre en relief: to make something stand out."
+  - id: "c2-register-mastery-ex014"
+    type: "error-correction"
+    prompt: "Corrigez l'explication, qui se trompe sur l'effet, en remplaçant seulement « une erreur » par « de l'ironie » : Employer un registre solennel pour annoncer deux bancs, c'est une erreur."
+    answers: ["Employer un registre solennel pour annoncer deux bancs, c'est de l'ironie"]
+    explanation: "The gap between the solemn tone and the small event is deliberate: irony."
+  - id: "c2-register-mastery-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : « The writer quotes the word in italics. »"
+    words: ["L'auteur", "cite", "le", "mot", "en", "italique"]
+    answers: ["L'auteur cite le mot en italique"]
+    explanation: "En italique: one of the signals of a deliberate break, along with quotation marks."
+  - id: "c2-register-mastery-ex016"
+    type: "writing-task"
+    prompt: "Rédigez un court paragraphe soutenu (50 à 90 mots) sur un événement inventé, avec une seule rupture de registre voulue et signalée. Indiquez ensuite, en une phrase, son effet (humour, emphase ou ironie)."
+    model: "La bibliothèque municipale a rouvert ses portes lundi, après six mois de travaux. Les lecteurs ont découvert des salles plus claires, des places assises plus nombreuses et un fonds entièrement classé. Un enfant, interrogé à la sortie, a résumé l'événement à sa manière : « c'est top ». On ne saurait mieux dire. Effet : l'emphase, par une citation familière signalée, qui résume tout le paragraphe en deux mots."
+    checklist: ["Is the paragraph in a formal register, except for one break?", "Is the break signalled (quotation marks, italics, pour reprendre l'expression de…)?", "Did you name its effect?", "Does the break serve the effect, rather than look like a slip?", "Is your text between 50 and 90 words?"]
+    wordTarget: [50, 90]
+---
+
+By the end of this lesson you'll be able to break the register of a text on purpose, for humour, emphasis or irony, signal the break so that the reader knows it's intended, and tell a chosen effect from a slip.
+
+## What you already know
+
+You know how to move a whole text up or down a register (*monter* or *descendre d'un registre*) from <LessonLink id="c1-register-shifting" text="the lesson on register shifting" />, and *l'ironie*, *au second degré* and *les guillemets* from <LessonLink id="c1-irony-and-understatement" text="the lesson on irony and understatement" />. You know *une rupture de registre* as a fault to revise from <LessonLink id="c2-revising-your-style" text="the lesson on revising your style" />. This lesson shows the other side: the same break, made on purpose.
+
+**The column, the town council and the people in this lesson are invented.**
+
+## The deliberate break
+
+<VocabTable group="break" />
+
+A word from another register *détonne* (clashes) with the text around it. That clash creates *un décalage* (a gap), and a gap can be a fault or an effect. When a writer creates it *à dessein* (on purpose), the result is *un effet de rupture*: the reader stops for a moment on the word, and the word means more than it would elsewhere.
+
+The real test is not the word itself, but whether the break is *voulu* (intended) and whether the reader can see that it is. A familiar word in a formal text is a slip when nothing signals it and nothing in the text calls for it. It's an effect when the context or a signal shows that the writer chose it.
+
+<Example fr="Dans ce rapport soutenu, le mot « galérer » détonne : l'auteur l'a mis à dessein." en="In this formal report, the word 'galérer' clashes: the writer put it there on purpose." />
+
+<Example fr="Le décalage entre le ton solennel et le sujet produit un effet de rupture." en="The gap between the solemn tone and the subject produces an effect of rupture." />
+
+## Three effects
+
+<VocabTable group="effects" />
+
+As a rule of thumb, a deliberate break serves one of three effects.
+
+- **Humour**: a familiar word in a formal text produces *un effet comique* (a comic effect), especially when it's attributed to someone: *pour parler comme mon neveu, on a « galéré »*.
+- **Emphasis** (*l'emphase*): a short familiar quotation *met en relief* (highlights) an idea that a long formal sentence would dilute: *une habitante l'a dit plus simplement : « ça craint »*.
+- **Irony**: the break can also go upwards. A *solennel* (solemn) register for a small event says the opposite of what it seems to say: *avec la solennité qui convient aux grands moments de l'histoire, l'installation de deux bancs*.
+
+The same word can serve different effects in different texts. Name the effect you want before you write the break, and check that the rest of the paragraph supports it.
+
+<Example fr="Le ton solennel, pour une si petite nouvelle, crée un effet comique et ironique à la fois." en="The solemn tone, for such small news, creates an effect that is comic and ironic at once." />
+
+## Signalling the break
+
+<VocabTable group="signals" />
+
+A reader recognizes an intended break by its signals:
+
+- **Typography**: the word is *entre guillemets* (in quotation marks) or *en italique* (in italics).
+- **An attribution**: *pour reprendre l'expression de…* (to use the words of…), *pour parler comme…* (to put it the way … would), *comme on dit* (as they say).
+- **The context**: an obviously solemn sentence about a trivial subject signals irony without any punctuation.
+
+Quoting someone's register is the safest break: the familiar words belong to the person quoted, and your own text keeps its register. In free indirect speech, which you met at C1, a novel slips into a character's register in the same way.
+
+<Example fr="Pour reprendre l'expression d'une habitante, le projet « craint »." en="To use the words of one resident, the project is 'bad news' (familiar, quoted)." />
+
+<Example fr="Le mot est en italique : c'est, comme on dit, un mot à la mode." en="The word is in italics: it is, as they say, a fashionable word." />
+
+## When a break is a mistake
+
+The break is a mistake when:
+
+- **Nothing signals it**, and the word looks like the writer's own choice in the wrong register: *nous vous remercions de bosser sur ce dossier*.
+- **Nothing in the text calls for it**: no humour, no emphasis, no irony, only a word that came too fast.
+- **The reader can't take it as a joke**: an official letter, a complaint, a report for a client.
+
+As you saw in the lesson on revising your style, the remedy for an involuntary break is to replace the word. The remedy for an intended one that readers might misread is to add a signal.
+
+## The model: a column with three breaks
+
+The column below is original, written for the lesson. Its three deliberate breaks are explained after it.
+
+*Chronique du lundi. Le conseil municipal s'est réuni jeudi pour examiner le projet d'aménagement de la place du Marché. Le rapport présenté aux élus, long de quatre-vingts pages, conclut que le projet est « susceptible de générer des difficultés de circulation ». La séance a duré quatre heures. Autant dire, pour parler comme mon neveu, qu'on a « galéré ».*
+
+*Le rapport étudie tour à tour la circulation, le stationnement, le bruit et le coût des travaux. Il propose de réduire le nombre de places de parking, de rendre la place aux piétons et d'y planter des arbres. Certains élus ont défendu ces propositions ; d'autres ont demandé une nouvelle étude avant toute décision. Le débat, toujours courtois, a surtout porté sur la date des travaux.*
+
+*Les habitants présents dans la salle n'ont pas tous suivi les quatre-vingts pages. Une habitante l'a dit plus simplement que le rapport, et en deux mots : « Ça craint. » On ne saurait mieux résumer l'inquiétude des riverains, qui craignent de ne plus pouvoir se garer près de chez eux.*
+
+*Il faut pourtant reconnaître au conseil une qualité : la patience. Chacun a pu parler, chaque question a reçu une réponse, et personne n'a quitté la salle avant la fin. Peu de réunions publiques peuvent en dire autant. On peut trouver la séance longue ; on ne peut pas lui reprocher son sérieux.*
+
+*Au terme de ces quatre heures, une décision a tout de même été prise, après un long silence et sans aucune opposition. On nous annonce donc, avec la solennité qui convient aux grands moments de l'histoire, l'installation de deux bancs. Le reste du projet sera examiné lors d'une prochaine séance, dont la date n'est pas encore fixée.*
+
+*Deux bancs, donc. C'est peu, mais c'est un début : on pourra au moins s'asseoir pour attendre la suite. Les riverains, eux, attendront la prochaine séance. Nous aussi, avec intérêt.*
+
+(Monday column. The town council met on Thursday to examine the plan for redeveloping place du Marché. The report presented to the councillors, eighty pages long, concludes that the plan is "likely to generate traffic difficulties". The meeting lasted four hours. You might as well say, to put it the way my nephew would, that we "had a hard time of it" (familiar, quoted). The report examines in turn traffic, parking, noise and the cost of the works. It proposes to reduce the number of parking spaces, to give the square back to pedestrians and to plant trees there. Some councillors defended these proposals; others asked for a new study before any decision. The debate, always courteous, was mainly about the date of the works. The residents in the room didn't all follow the eighty pages. One resident put it more simply than the report, in two words: "That's bad news." (familiar, quoted). The local residents' worry, that they won't be able to park near their homes any more, couldn't be better summed up. Yet one quality must be granted to the council: patience. Everyone was able to speak, every question got an answer, and nobody left the room before the end. Few public meetings can say as much. You can find the meeting long; you can't fault it for lack of seriousness. At the end of these four hours, a decision was taken all the same, after a long silence and without any opposition. So we are told, with the solemnity befitting the great moments of history, of the installation of two benches. The rest of the plan will be examined at a later meeting, whose date hasn't yet been set. Two benches, then. It's not much, but it's a start: at least we'll be able to sit down while we wait for what comes next. The residents will wait for the next meeting. So will we, with interest.)
+
+<VocabTable group="glossary" />
+
+## How the column works
+
+- **The base register** is formal: *examiner le projet d'aménagement*, *au terme de*, *on ne saurait mieux résumer*.
+- **First break, humour**: *galéré*, a familiar verb, signalled twice, by *pour parler comme mon neveu* and by quotation marks. The writer lends the word to someone else and smiles at the long meeting.
+- **Second break, emphasis**: *« Ça craint »*, a resident's two familiar words, quoted, against the report's formal phrase in quotation marks too. The short quotation highlights the residents' worry better than the eighty pages.
+- **Third break, irony**: the break goes upwards. *Avec la solennité qui convient aux grands moments de l'histoire* is far too solemn for two benches; the context alone signals the irony.
+- **The ending** returns to a plain, everyday register (*c'est peu, mais c'est un début*) to close with a smile.
+
+<Callout type="warning" title="Signal the break, or it reads as a slip">
+  Learners who discover deliberate breaks sometimes drop a familiar word into a formal text and expect the reader to see the joke: *le projet craint*. Without a signal, it reads as a slip. Attribute it or mark it: **le projet, pour reprendre l'expression d'une habitante, « craint »**.
+</Callout>
+
+<Callout type="tip" title="Allow yourself one break per text">
+  In a formal text of your own, allow yourself one deliberate break, not more, and decide its effect before you write it. Then read the paragraph aloud: if the break makes you smile or stop where you wanted, keep it; if it just sounds careless, remove it.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-review-range" text="the review of range and mastery" /> brings the unit together in one text written in several registers and styles.
+
+===== content/lessons/c2/review-range.mdx =====
+---
+id: "c2-review-range"
+title: "Review: Range and Mastery"
+description: "Review Unit 8 with one invented event told in three registers (familiar, everyday, formal) and two styles (a fable in prose and a dépêche), with the same facts in each; then rewrite a short message in a register of your choice."
+level: "C2"
+unit: "Range and mastery"
+order: 45
+type: "review"
+tags: ["review", "register", "style", "range", "idioms"]
+prerequisites: ["c2-pastiche", "c2-idiomatic-precision", "c2-register-mastery"]
+related: ["c1-register-shifting", "c2-review-specialized", "c2-review-final"]
+vocab:
+  - { id: "c2-review-range-v001", group: "new", fr: "la palette", pron: "lah pah-LET", en: "the range (of registers or styles a writer can use)" }
+  - { id: "c2-review-range-v002", group: "new", fr: "la justesse", pron: "lah zhew-STESS", en: "accuracy, rightness (of a word or a tone)" }
+  - { id: "c2-review-range-v003", group: "new", fr: "varier", pron: "vah-RYAY", en: "to vary" }
+  - { id: "c2-review-range-v004", group: "new", fr: "trouver le ton juste", pron: "troo-VAY luh tohn ZHEWST", en: "to find the right tone" }
+  - { id: "c2-review-range-v005", group: "glossary", fr: "la municipalité", pron: "lah mew-nee-see-pah-lee-TAY", en: "the town authorities" }
+  - { id: "c2-review-range-v006", group: "glossary", fr: "accoucha de (accoucher de)", pron: "ah-koo-SHAH duh", en: "gave birth to, produced (here, ironic)" }
+  - { id: "c2-review-range-v007", group: "glossary", fr: "satisfaction", pron: "sah-tees-fak-SYOHN", en: "satisfaction" }
+exercises:
+  - id: "c2-review-range-ex001"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot pour l'imitation d'un style qui veut s'en moquer."
+    options: ["la parodie", "le pastiche", "le plagiat"]
+    answers: ["la parodie"]
+    explanation: "A parody imitates to mock; a pastiche imitates and says so; plagiarism copies without saying so (c2-pastiche)."
+  - id: "c2-review-range-ex002"
+    type: "register-shift"
+    prompt: "Transformez en style de dépêche, avec « a-t-on appris auprès de la mairie » à la fin : La mairie dit que deux bancs ont été installés."
+    strictAccents: true
+    answers: ["Deux bancs ont été installés, a-t-on appris auprès de la mairie"]
+    explanation: "The fact first, the source at the end in an inverted incise (c2-pastiche)."
+  - id: "c2-review-range-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez le sens de : « Le projet n'a pas fait long feu. »"
+    options: ["il n'a pas duré longtemps", "il a eu un grand succès", "il a coûté très cher"]
+    answers: ["il n'a pas duré longtemps"]
+    explanation: "Ne pas faire long feu: not to last long (c2-idiomatic-precision)."
+  - id: "c2-review-range-ex004"
+    type: "error-correction"
+    prompt: "Corrigez l'expression, mal construite, en commençant par « Cette place » : Les habitants tiennent cette place à cœur."
+    strictAccents: true
+    answers: ["Cette place tient à cœur aux habitants"]
+    explanation: "In tenir à cœur, the thing that matters is the subject, and the people are the indirect object (c2-idiomatic-precision)."
+  - id: "c2-review-range-ex005"
+    type: "multiple-choice"
+    prompt: "Indiquez l'effet de la phrase : « C'est avec une émotion profonde que la municipalité annonce l'installation de deux bancs. »"
+    options: ["l'ironie, si le texte veut se moquer de la solennité", "une erreur de grammaire", "un mot familier signalé"]
+    answers: ["l'ironie, si le texte veut se moquer de la solennité"]
+    explanation: "A solemn register for a small event can be ironic: it depends on the context (c2-register-mastery)."
+  - id: "c2-review-range-ex006"
+    type: "register-shift"
+    prompt: "Transformez la phrase en citation signalée, avec « pour reprendre l'expression d'un passant » en tête : C'est top."
+    answers: ["Pour reprendre l'expression d'un passant, « c'est top »"]
+    explanation: "The signal attributes the familiar words, so they can appear in an everyday or formal text (c2-register-mastery)."
+  - id: "c2-review-range-ex007"
+    type: "fill-in"
+    prompt: "Complétez : Un écrivain qui sait varier les registres a une large ___."
+    answers: ["palette"]
+    explanation: "La palette: the range of registers and styles a writer can use."
+  - id: "c2-review-range-ex008"
+    type: "fill-in"
+    prompt: "Complétez : Pour chaque lecteur, il faut trouver le ton ___."
+    answers: ["juste"]
+    explanation: "Trouver le ton juste: to find the right tone. The noun is la justesse."
+  - id: "c2-review-range-ex009"
+    type: "multiple-choice"
+    prompt: "Indiquez le registre de la phrase : « Ils ont enfin mis les bancs, on a bien galéré pour ça. »"
+    options: ["familier", "courant", "soutenu"]
+    answers: ["familier"]
+    explanation: "Galérer and on for nous mark the familiar register."
+  - id: "c2-review-range-ex010"
+    type: "register-shift"
+    prompt: "Transformez en registre courant, au passif, en commençant par « Deux bancs ont enfin été installés » : Ils ont enfin mis les deux bancs sur la place."
+    strictAccents: true
+    answers: ["Deux bancs ont enfin été installés sur la place"]
+    explanation: "The passive leaves out the vague ils, and installer replaces the everyday mettre."
+  - id: "c2-review-range-ex011"
+    type: "reformulation"
+    prompt: "Reformulez en registre soutenu, avec « C'est avec satisfaction que » en tête : La mairie est contente d'annoncer l'installation des bancs."
+    answers: ["C'est avec satisfaction que la mairie annonce l'installation des bancs"]
+    explanation: "C'est avec… que: a formal opening that puts the feeling first."
+  - id: "c2-review-range-ex012"
+    type: "translate"
+    prompt: "Traduisez (la justesse) : « The accuracy of a word matters more than its rarity. »"
+    answers: ["La justesse d'un mot compte plus que sa rareté"]
+    explanation: "La justesse: the quality of the right word, the one that fits exactly."
+  - id: "c2-review-range-ex013"
+    type: "translate"
+    prompt: "Traduisez (varier, il faut) : « You have to vary the registers. »"
+    answers: ["Il faut varier les registres"]
+    explanation: "Varier les registres: to use more than one."
+  - id: "c2-review-range-ex014"
+    type: "translate"
+    prompt: "Traduisez (à la manière de) : « This text is written in the manner of a fable. »"
+    strictAccents: true
+    answers: ["Ce texte est écrit à la manière d'une fable"]
+    explanation: "À la manière de: the label of an honest pastiche (c2-pastiche)."
+  - id: "c2-review-range-ex015"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : « A good writer finds the right tone for each reader. »"
+    words: ["Un", "bon", "écrivain", "trouve", "le", "ton", "juste", "pour", "chaque", "lecteur"]
+    answers: ["Un bon écrivain trouve le ton juste pour chaque lecteur"]
+    explanation: "Trouver le ton juste: the skill of the whole unit."
+  - id: "c2-review-range-ex016"
+    type: "writing-task"
+    prompt: "Rédigez la nouvelle des deux bancs (40 à 80 mots) dans un registre ou un style que la leçon n'a pas utilisé (une lettre au journal, une carte postale, un message d'un enfant…), en gardant tous les faits et en indiquant le registre ou le style choisi."
+    model: "Style : une carte postale, registre courant. Chère amie, grande nouvelle à la place du Marché : ce lundi, la mairie a enfin installé les deux bancs décidés par le conseil municipal, après une séance de quatre heures ! Le reste du projet attend encore une autre séance. En attendant, on peut s'asseoir au soleil. Je t'embrasse."
+    checklist: ["Did you name the register or style you chose?", "Did you keep every fact (two benches, this Monday, place du Marché, the council's decision, the rest still to come)?", "Did you keep one register throughout, or signal any break?", "Did you add no fact?", "Is your text between 40 and 80 words?"]
+    wordTarget: [40, 80]
+---
+
+By the end of this lesson you'll be able to tell one event in several registers and styles with the same facts, choose the register a reader needs, and find the tone that fits each one.
+
+## What you've learned
+
+Skim this list, and go back to anything that feels shaky.
+
+- **Pastiche and parody**: you know *un pastiche*, *une parodie*, *le plagiat*, *à la manière de*, *une marque de style* and *forcer le trait*, from <LessonLink id="c2-pastiche" text="the lesson on writing in a style" />.
+- **Idioms**: you know *tenir à cœur*, *ne pas faire long feu*, *tomber des nues*, *avoir maille à partir avec* and *mettre la puce à l'oreille*, with their registers and their strength, from <LessonLink id="c2-idiomatic-precision" text="the lesson on idioms at C2" />.
+- **Register breaks**: you know *un effet de rupture*, *détonner*, *entre guillemets* and *pour reprendre l'expression de*, and when a break is an effect or a slip, from <LessonLink id="c2-register-mastery" text="the lesson on moving between registers within one text" />.
+
+## A few new words
+
+<VocabTable group="new" />
+
+These words name what the unit has been training: range. *La palette* of a writer is the set of registers and styles they can use, and a wide palette lets them *varier* (vary) their writing for each reader. *La justesse* is the quality of the right word or the right tone: not the rarest word, but the one that fits exactly. To *trouver le ton juste* (find the right tone) is the aim of every text in this unit. You know *l'aisance* (ease) from <LessonLink id="b2-review-final" text="the final B2 review" />: range is what makes it possible at C2.
+
+<Example fr="Une large palette permet de varier les registres selon le lecteur." en="A wide range lets you vary the registers according to the reader." />
+
+<Example fr="La justesse d'un mot compte plus que sa rareté." en="The accuracy of a word matters more than its rarity." />
+
+<Example fr="Pour un message à un ami ou une lettre officielle, il faut trouver le ton juste." en="For a message to a friend or an official letter, you have to find the right tone." />
+
+## One event, five ways
+
+The texts below tell one invented event: the two benches decided by the town council, in the column of the lesson on register breaks, have been installed on place du Marché. The same facts appear in each:
+
+- **The event**: this Monday, two benches were installed on place du Marché.
+- **The decision**: the town council had decided it, after a four-hour meeting.
+- **What's still to come**: the rest of the project will be examined at another meeting.
+
+Each text keeps these three facts and changes only its register or its style. The familiar text is labelled as such; the fable and the dépêche are original pastiches, written for the lesson.
+
+## Range across the level
+
+Range isn't only a matter of this unit. Each unit of C2 added to the palette: Unit 1 the fine points of form, Unit 2 the exact word, Unit 3 the registers of law, medicine, science and administration, Unit 4 the reading of what a text implies, Unit 5 the long forms of writing, Unit 6 the voices of mediation and negotiation, and Unit 7 the history and the literatures of the language. This unit asks you to choose among all of them, for one reader at a time.
+
+A wide palette doesn't mean using every register in one text. It means knowing which one the situation calls for, and being able to write it without effort.
+
+## Checking a text for its register
+
+When a text is written, check it in three passes:
+
+- **The words**: is there a word from another register, and is it signalled if it's meant?
+- **The sentences**: do their length and structure suit the register (short and direct for a message, complete and connected for an official text)?
+- **The facts**: if the text is a new version of another one, does it keep every fact and add none?
+
+## Choosing the register
+
+As a rule of thumb, choose by the reader and the situation, then keep the choice for the whole text:
+
+- **Familiar**, for a friend, in a message: short sentences, *on* for *nous*, familiar words such as *galérer*.
+- **Everyday**, for the general public: complete sentences, the passive where the agent doesn't matter, no image that needs explaining.
+- **Formal**, for an official text: impersonal turns (*c'est avec… que*), nouns rather than verbs, no familiar word unless it's quoted and signalled.
+
+A style adds its own markers on top of a register: the capitals and the moral of a fable, the inverted incise and the closing formula of a dépêche.
+
+## The model: one event in three registers and two styles
+
+*Registre familier (message à une amie). Tu sais quoi ? Ils ont enfin mis les deux bancs sur la place du Marché, ce lundi. Quatre heures de réunion au conseil municipal pour ça, on a bien galéré ! Et pour le reste du projet, il faudra encore une autre réunion. Bon, en attendant, on pourra au moins s'asseoir ! Tu viendras les essayer avec moi ?*
+
+*Registre courant (site d'information locale). Deux bancs ont été installés ce lundi sur la place du Marché. Le conseil municipal en avait décidé ainsi, au terme d'une séance de quatre heures. Le reste du projet d'aménagement de la place sera examiné lors d'une prochaine séance. Les habitants peuvent dès maintenant profiter des bancs.*
+
+*Registre soutenu (communiqué de la mairie). C'est avec satisfaction que la municipalité annonce l'installation, ce lundi, de deux bancs sur la place du Marché, conformément à la décision du conseil municipal prise au terme d'une séance de quatre heures. Les autres parties du projet feront l'objet d'un examen lors d'une prochaine séance. La municipalité invite les habitants à profiter de ces nouveaux équipements.*
+
+*À la manière d'une fable (en prose). Le Conseil, ayant parlé quatre heures, accoucha de deux Bancs. On les posa ce lundi sur la place du Marché. Les Passants, qui n'en demandaient pas tant, s'y assirent, et attendirent la suite, qui devait venir à une autre séance. Qui parle longtemps n'agit pas toujours beaucoup ; mais un banc, même petit, vaut mieux qu'un long discours.*
+
+*À la manière d'une dépêche. VALBRUNE, lundi (agence inventée). Deux bancs ont été installés lundi sur la place du Marché, a-t-on appris auprès de la mairie. Le conseil municipal en avait décidé ainsi après une séance de quatre heures. Le reste du projet doit être examiné, selon la même source, lors d'une prochaine séance, dont la date n'a pas été précisée.*
+
+(Familiar register (a message to a friend). Guess what? They've finally put the two benches on place du Marché, this Monday. Four hours of council meeting for that, we really had a hard time of it! And for the rest of the project, there'll have to be yet another meeting. Well, in the meantime, at least we'll be able to sit down! Will you come and try them with me? / Everyday register (a local news site). Two benches were installed this Monday on place du Marché. The town council had decided so, at the end of a four-hour meeting. The rest of the plan for redeveloping the square will be examined at a later meeting. Residents can already make use of the benches. / Formal register (a town hall press release). It is with satisfaction that the town authorities announce the installation, this Monday, of two benches on place du Marché, in accordance with the town council's decision taken at the end of a four-hour meeting. The other aspects of the plan will be examined at a later meeting. The town authorities invite residents to make use of this new equipment. / In the manner of a fable (in prose). The Council, having spoken for four hours, gave birth to two Benches. They were set down this Monday on place du Marché. The Passers-by, who hadn't asked for so much, sat on them, and waited for what came next, which was to come at another meeting. Those who talk for long don't always do much; but a bench, even a small one, is worth more than a long speech. / In the manner of a wire. VALBRUNE, Monday (invented agency). Two benches were installed on Monday on place du Marché, the town hall said. The town council had decided so after a four-hour meeting. The rest of the plan is to be examined, according to the same source, at a later meeting, whose date has not been specified.)
+
+<VocabTable group="glossary" />
+
+## How the five texts work
+
+- **The same three facts** in each: the two benches installed this Monday on place du Marché, the council's decision after four hours, and the rest of the plan still to be examined.
+- **The familiar message**: *tu sais quoi ?*, *ils ont mis*, *on a bien galéré*, an exclamation.
+- **The everyday text**: the passive (*ont été installés*), *au terme de*, no image.
+- **The formal release**: *c'est avec satisfaction que*, nouns (*l'installation*, *un examen*), *conformément à*, *faire l'objet de*.
+- **The fable**: capitals, the passé simple (*accoucha*, *posa*, *s'assirent*), a moral that plays on a well-known contrast between talking and acting.
+- **The dépêche**: the fact first, *a-t-on appris auprès de*, and a final detail on what isn't known.
+
+The dépêche's last detail (*dont la date n'a pas été précisée*), the familiar *on a bien galéré* and the closing question, and the release's invitation to residents add comments, not facts: none of the five texts adds an event.
+
+<Callout type="warning" title="A register is a choice for the whole text">
+  When they write in a register they don't use often, learners slip back halfway through: *C'est avec satisfaction que la municipalité annonce l'installation des bancs, et franchement, c'est top.* Choose the register at the start and keep it: **C'est avec satisfaction que la municipalité annonce l'installation de deux bancs.** If you want a break, signal it.
+</Callout>
+
+<Callout type="tip" title="Write the facts first, then the registers">
+  Before you write a text in several registers or styles, list its facts in three or four short lines, in neutral French. Then write each version from that list, not from the previous version. You'll change the words without losing or adding a fact.
+</Callout>
+
+## What's next
+
+Next, <LessonLink id="c2-review-final" text="the C2 final review" /> brings together the whole level.
+
+===== content/lessons/c2/review-final.mdx =====
+---
+id: "c2-review-final"
+title: "C2 Final Review"
+description: "Review the whole of C2: one model sentence and one can-do statement per unit, eighteen exercises drawn from all eight units, an invented closing text, Mon rapport à la langue française, and a final piece of writing of your own."
+level: "C2"
+unit: "Range and mastery"
+order: 46
+type: "review"
+tags: ["review", "final review", "C2", "can-do", "writing"]
+prerequisites: ["c2-review-form", "c2-review-words", "c2-review-specialized", "c2-review-reading", "c2-review-writing", "c2-review-mediation", "c2-review-literatures", "c2-review-range"]
+related: ["c1-review-final", "b2-review-final", "c2-pastiche"]
+vocab:
+  - { id: "c2-review-final-v001", group: "new", fr: "la maîtrise", pron: "lah meh-TREEZ", en: "mastery, command (of a language)" }
+  - { id: "c2-review-final-v002", group: "new", fr: "un locuteur natif / une locutrice native", pron: "uhn loh-kew-TUHR nah-TEEF / ewn loh-kew-TREESS nah-TEEV", en: "a native speaker" }
+  - { id: "c2-review-final-v003", group: "new", fr: "un perfectionnement", pron: "uhn pehr-fek-syonn-MAHN", en: "further improvement, refinement" }
+  - { id: "c2-review-final-v004", group: "new", fr: "un apprenant / une apprenante", pron: "uh-nah-pruh-NAHN / ew-nah-pruh-NAHNT", en: "a learner" }
+  - { id: "c2-review-final-v005", group: "glossary", fr: "un accent", pron: "uh-nak-SAHN", en: "an accent (in speech)" }
+  - { id: "c2-review-final-v006", group: "glossary", fr: "une compagne", pron: "ewn kohn-PAH-nyuh", en: "a companion" }
+exercises:
+  - id: "c2-review-final-ex001"
+    type: "fill-in"
+    prompt: "Accordez le participe passé de « laver » : Elles se sont ___ les cheveux avant le concert."
+    strictAccents: true
+    answers: ["lavé"]
+    explanation: "Les cheveux comes after the verb and se is an indirect object, so lavé doesn't agree (Unit 1, c2-agreement-pronominal-verbs)."
+  - id: "c2-review-final-ex002"
+    type: "multiple-choice"
+    prompt: "Choisissez la forme correcte : Elles sont ___ contentes de leur voyage."
+    options: ["toutes", "tout", "toute"]
+    answers: ["toutes"]
+    explanation: "Tout as an adverb agrees before a feminine adjective that starts with a consonant: toutes contentes (Unit 1, c2-tout-quelque-meme)."
+  - id: "c2-review-final-ex003"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot juste : Le départ du train est ___ : il part dans deux minutes."
+    options: ["imminent", "éminent"]
+    answers: ["imminent"]
+    explanation: "Imminent: about to happen. Éminent means distinguished (Unit 2, c2-paronyms)."
+  - id: "c2-review-final-ex004"
+    type: "error-correction"
+    prompt: "Corrigez le faux ami, en remplaçant seulement « versatile » par « polyvalent » : Nous cherchons un collaborateur versatile."
+    answers: ["Nous cherchons un collaborateur polyvalent"]
+    explanation: "Versatile means changeable in French; polyvalent means able to do many things (Unit 2, c2-advanced-false-friends)."
+  - id: "c2-review-final-ex005"
+    type: "register-shift"
+    prompt: "Transformez en français courant, en remplaçant seulement « à titre gracieux » par « gratuitement » : La salle est mise à disposition à titre gracieux."
+    strictAccents: true
+    answers: ["La salle est mise à disposition gratuitement"]
+    explanation: "À titre gracieux is the legal and formal way of saying gratuitement (Unit 3, c2-legal-french)."
+  - id: "c2-review-final-ex006"
+    type: "fill-in"
+    prompt: "Complétez : Cette étude d'observation montre une ___, pas un lien de causalité."
+    answers: ["corrélation"]
+    explanation: "An observational study shows a correlation; establishing a cause usually needs an experiment (Unit 3, c2-scientific-french)."
+  - id: "c2-review-final-ex007"
+    type: "multiple-choice"
+    prompt: "Indiquez le présupposé de la phrase : Le directeur a enfin reconnu son erreur."
+    options: ["Le directeur a fait une erreur.", "Le directeur n'a jamais fait d'erreur.", "Le directeur va partir."]
+    answers: ["Le directeur a fait une erreur."]
+    explanation: "Reconnaître son erreur presupposes that there was an error, and the negation keeps it: il n'a pas reconnu son erreur (Unit 4, c2-implicit-meaning)."
+  - id: "c2-review-final-ex008"
+    type: "multiple-choice"
+    prompt: "Choisissez le genre de presse : un texte court et personnel, où l'auteur donne son humeur sur un sujet."
+    options: ["un billet d'humeur", "une dépêche", "une brève"]
+    answers: ["un billet d'humeur"]
+    explanation: "Un billet d'humeur is a short, personal opinion piece; a dépêche and a brève report facts (Unit 4, c2-reading-the-press)."
+  - id: "c2-review-final-ex009"
+    type: "multiple-choice"
+    prompt: "Choisissez la règle d'une contraction de texte."
+    options: ["garder l'ordre et la voix de l'auteur, sans « l'auteur dit »", "donner son avis sur les idées de l'auteur", "copier les meilleures phrases du texte"]
+    answers: ["garder l'ordre et la voix de l'auteur, sans « l'auteur dit »"]
+    explanation: "A contraction keeps the author's order and voice, adds no comment and copies no sentence (Unit 5, c2-contraction-de-texte)."
+  - id: "c2-review-final-ex010"
+    type: "error-correction"
+    prompt: "Corrigez le verbe passe-partout, en remplaçant seulement « faire » par « tenir » : Nous allons faire une réunion jeudi."
+    answers: ["Nous allons tenir une réunion jeudi"]
+    explanation: "Tenir une réunion is the precise collocation; faire is a catch-all verb (Unit 5, c2-revising-your-style)."
+  - id: "c2-review-final-ex011"
+    type: "reformulation"
+    prompt: "Reformulez avec « à condition que » : Nous signerons si vous livrez avant le 15 mars."
+    strictAccents: true
+    answers: ["Nous signerons à condition que vous livriez avant le 15 mars", "À condition que vous livriez avant le 15 mars, nous signerons"]
+    explanation: "À condition que takes the subjunctive: livriez (Unit 6, c2-negotiation)."
+  - id: "c2-review-final-ex012"
+    type: "multiple-choice"
+    prompt: "Indiquez le type de la question : « Depuis combien de temps travaillez-vous ici ? »"
+    options: ["une question fermée", "une question ouverte", "une question orientée"]
+    answers: ["une question fermée"]
+    explanation: "It's answered by a fact, a duration: a closed question (Unit 6, c2-interviews-and-questioning)."
+  - id: "c2-review-final-ex013"
+    type: "multiple-choice"
+    prompt: "Choisissez l'année du premier dictionnaire de l'Académie française."
+    options: ["1694", "1635", "1539"]
+    answers: ["1694"]
+    explanation: "The Académie was founded in 1635, and its first dictionary appeared in 1694; 1539 is Villers-Cotterêts (Unit 7, c2-culture-history-of-french)."
+  - id: "c2-review-final-ex014"
+    type: "multiple-choice"
+    prompt: "Indiquez les homophones du titre : « Fête de la mer : le maire se jette à l'eau »."
+    options: ["mer et maire", "fête et mer", "jette et eau"]
+    answers: ["mer et maire"]
+    explanation: "Mer and maire sound the same; se jeter à l'eau adds a second pun (Unit 7, c2-culture-wordplay)."
+  - id: "c2-review-final-ex015"
+    type: "translate"
+    prompt: "Traduisez (ne pas faire long feu, au passé composé) : « The project didn't last long. »"
+    strictAccents: true
+    answers: ["Le projet n'a pas fait long feu"]
+    explanation: "Ne pas faire long feu: not to last long; keep the negation (Unit 8, c2-idiomatic-precision)."
+  - id: "c2-review-final-ex016"
+    type: "multiple-choice"
+    prompt: "Choisissez le mot pour le fait de copier un texte sans le dire."
+    options: ["le plagiat", "le pastiche", "la parodie"]
+    answers: ["le plagiat"]
+    explanation: "Plagiarism hides its source; pastiche and parody declare what they imitate (Unit 8, c2-pastiche)."
+  - id: "c2-review-final-ex017"
+    type: "register-shift"
+    prompt: "Transformez la phrase en citation signalée, avec « pour reprendre l'expression de mon voisin » en tête : Ça craint."
+    answers: ["Pour reprendre l'expression de mon voisin, « ça craint »"]
+    explanation: "Attributing the familiar words makes the break deliberate (Unit 8, c2-register-mastery)."
+  - id: "c2-review-final-ex018"
+    type: "reorder"
+    prompt: "Remettez dans l'ordre : « Mastery of a language is never finished. »"
+    words: ["La", "maîtrise", "d'une", "langue", "n'est", "jamais", "finie"]
+    answers: ["La maîtrise d'une langue n'est jamais finie"]
+    explanation: "La maîtrise: mastery, the word of this final review."
+  - id: "c2-review-final-ex019"
+    type: "writing-task"
+    prompt: "Rédigez votre texte « Mon rapport à la langue française » (120 à 200 mots) : votre premier contact avec le français, ce qui vous a résisté, ce que vous aimez aujourd'hui, et ce que vous voulez encore perfectionner. Choisissez un registre et gardez-le."
+    model: "J'ai découvert le français par une chanson, sans en comprendre un mot. Ce qui m'a d'abord résisté, ce n'est pas la grammaire, mais l'oreille : je n'entendais pas où finissaient les mots. Plus tard, ce sont les registres qui m'ont posé problème. J'écrivais des lettres trop familières et des messages trop soutenus, sans m'en rendre compte. Aujourd'hui, j'aime surtout ce qui fait la justesse d'une phrase : le mot exact, le ton qui convient, le jeu de mots qu'on comprend tout de suite. Je ne parle pas comme un locuteur natif, et ce n'est plus mon but. Ce que je veux encore perfectionner, c'est mon aisance à l'oral, quand il faut répondre vite sans perdre la nuance. La maîtrise d'une langue n'est jamais finie, mais c'est peut-être ce qui la rend si belle."
+    checklist: ["Did you tell your first contact with French?", "Did you name what resisted you, with an example?", "Did you say what you enjoy today?", "Did you say what you still want to improve?", "Did you keep one register throughout?", "Is your text between 120 and 200 words?"]
+    wordTarget: [120, 200]
+---
+
+By the end of this lesson you'll have reviewed the whole of C2 in one place: what each unit taught, what you can now do, and eighteen exercises drawn from all eight units, before a last piece of writing of your own.
+
+## What you've learned
+
+Each unit of C2 ends with a review. Skim the list, read the model sentence, and go back to any unit that feels shaky.
+
+- **Unit 1, form**: agreement of the past participle with pronominal verbs and infinitives, *tout*, *quelque* and *même*, colours and numbers, the concordance of tenses in writing, ellipsis and the nominal style, from <LessonLink id="c2-review-form" text="the review of form" />.
+
+<Example fr="Les musiciennes que j'ai entendues jouer avaient toutes moins de vingt ans." en="The musicians I heard playing were all under twenty." />
+
+- **Unit 2, words**: paronyms, polysemy, word formation, false friends and official terms, from <LessonLink id="c2-review-words" text="the review of words with precision" />.
+
+<Example fr="Un départ imminent n'a rien d'un départ éminent." en="An imminent departure has nothing of a distinguished one about it." />
+
+- **Unit 3, specialized French**: legal, medical, scientific and administrative French, and how to restate them plainly, from <LessonLink id="c2-review-specialized" text="the review of specialized French" />.
+
+<Example fr="Une version simple garde toutes les conditions du texte d'origine." en="A plain version keeps every condition of the original." />
+
+- **Unit 4, reading**: presuppositions, connotation, argument analysis, the commentary, style and the press, from <LessonLink id="c2-review-reading" text="the review of reading" />.
+
+<Example fr="Le verbe « prétendre » laisse entendre que ce qu'on dit est faux." en="The verb 'prétendre' implies that what is said is false." />
+
+- **Unit 5, writing**: the contraction, the long essay, version and thème, and revising your style, from <LessonLink id="c2-review-writing" text="the review of writing" />.
+
+<Example fr="Une contraction garde l'ordre et la voix de l'auteur." en="A contraction keeps the author's order and voice." />
+
+- **Unit 6, mediation and negotiation**: relaying a text, negotiating in writing, a structured oral argument and precise questions, from <LessonLink id="c2-review-mediation" text="the review of mediation and negotiation" />.
+
+<Example fr="La médiatrice transmet chaque point de vue sans le juger." en="The mediator passes on each point of view without judging it." />
+
+- **Unit 7, the language and its literatures**: the history of French, literature from the Middle Ages to today, francophone literatures and wordplay, from <LessonLink id="c2-review-literatures" text="the review of the language and its literatures" />.
+
+<Example fr="Le premier dictionnaire de l'Académie française a paru en 1694." en="The Académie française's first dictionary appeared in 1694." />
+
+- **Unit 8, range and mastery**: pastiche and parody, idioms at the right strength, and deliberate register breaks, from <LessonLink id="c2-review-range" text="the review of range and mastery" />.
+
+<Example fr="Un pastiche imite un style et le dit ; le plagiat copie sans le dire." en="A pastiche imitates a style and says so; plagiarism copies without saying so." />
+
+## A few new words
+
+<VocabTable group="new" />
+
+These four words name where you are now. *La maîtrise* (mastery) of a language is the ability to use it with precision, range and ease. It isn't the same as speaking like *un locuteur natif* (a native speaker): a native speaker doesn't necessarily master every register, and an advanced *apprenant* (learner) may write with more care. And mastery isn't an end: every level, C2 included, leaves room for *un perfectionnement* (further refinement).
+
+<Example fr="La maîtrise d'une langue ne veut pas dire parler comme un locuteur natif." en="Mastering a language doesn't mean speaking like a native speaker." />
+
+<Example fr="Même à ce niveau, chaque apprenant peut viser un perfectionnement." en="Even at this level, every learner can aim for further refinement." />
+
+## What you can now do
+
+At the end of C2, you can do each of the following, with the unit that taught it in mind:
+
+- **Write with exact form**, including the agreements and concordances that careful writers check twice.
+- **Choose the exact word**, and avoid a paronym, a false friend or an anglicism a reader would notice.
+- **Read and restate** legal, medical, scientific and administrative texts without losing a condition.
+- **Read between the lines**: presuppositions, connotations and fallacies, in the press and in literature.
+- **Write long texts** (a contraction, an essay, a translation) and revise them sentence by sentence.
+- **Mediate and negotiate**: relay a text faithfully, reach an agreement, argue aloud and ask precise questions.
+- **Place French in its history**, from the Strasbourg Oaths to the literatures written in French today.
+- **Move between registers and styles** on purpose, and imitate a style honestly.
+
+## How to keep improving
+
+C2 isn't a finishing line. As a rule of thumb, three habits keep a high level alive:
+
+- **Read widely**, in genres you don't usually read: a legal text one week, a poem the next.
+- **Write regularly**, and revise with the checklists of Unit 5.
+- **Notice**: keep a list of the words, idioms and turns of phrase that surprise you, with their register.
+
+## The model: Mon rapport à la langue française
+
+The text below is invented, written for the lesson: a learner who has reached C2 looks back. It isn't by a real person.
+
+*Mon rapport à la langue française (texte inventé). Le français est entré dans ma vie par la petite porte : une chanson entendue à la radio, dont je ne comprenais pas un mot. J'ai voulu savoir ce qu'elle disait, et je n'ai plus arrêté. J'avais un dictionnaire, beaucoup de patience, et aucune idée du chemin qui m'attendait.*
+
+*Les premières années, la langue m'a résisté de toutes les façons possibles. Je confondais les registres, j'accordais mal les participes, et je traduisais mot à mot des expressions qui ne se traduisent pas. Je croyais aussi les mots qui ressemblent à l'anglais, sans penser aux faux amis. Un jour, j'ai écrit à une administration une lettre que je croyais polie ; elle était surtout trop familière. J'ai appris, ce jour-là, que la politesse française a ses formules.*
+
+*Puis la langue est devenue une compagne. J'ai lu La Fontaine, dont la morale vient parfois en premier, et j'ai découvert que l'humour français aime jouer sur les sons. J'ai écrit des contractions, des essais, et même un petit pastiche, signalé comme tel. J'ai aussi appris à servir d'intermédiaire, pour expliquer à une voisine un avis de la mairie sans rien oublier.*
+
+*Aujourd'hui, je ne parle pas comme un locuteur natif, et ce n'est plus mon but. Mon accent reste le mien. Ce que je cherche, c'est la justesse : le mot exact, le ton qui convient, la nuance qui change tout. Je relis mes textes en me demandant, comme on me l'a appris, si chaque phrase dit ce que je veux dire, et rien de plus. Je sais aussi changer de registre quand je le veux, et le signaler.*
+
+*La maîtrise d'une langue n'est jamais finie. Un perfectionnement m'attend encore, à l'oral surtout. Mais j'ai gardé de mes débuts ce qui compte le plus : la curiosité, et le plaisir d'entendre une phrase française qui sonne juste.*
+
+(My relationship with the French language (an invented text). French came into my life by the back door: a song heard on the radio, of which I didn't understand a word. I wanted to know what it said, and I never stopped. I had a dictionary, a lot of patience, and no idea of the road that lay ahead of me. In the first years, the language resisted me in every possible way. I mixed up registers, made participles agree wrongly, and translated word for word expressions that don't translate. I also trusted words that look like English, without thinking of false friends. One day, I wrote a letter to an administration that I thought was polite; above all, it was too familiar. I learned that day that French politeness has its formulas. Then the language became a companion. I read La Fontaine, whose moral sometimes comes first, and I discovered that French humour likes to play on sounds. I wrote contractions, essays, and even a short pastiche, labelled as such. I also learned to act as a go-between, to explain a notice from the town hall to a neighbour without leaving anything out. Today, I don't speak like a native speaker, and that's no longer my aim. My accent remains my own. What I'm looking for is accuracy: the exact word, the right tone, the nuance that changes everything. I reread my texts asking myself, as I was taught, whether each sentence says what I mean, and nothing more. I also know how to change register when I want to, and to signal it. Mastering a language is never finished. Further refinement still awaits me, in speaking above all. But I've kept from my beginnings what matters most: curiosity, and the pleasure of hearing a French sentence that rings true.)
+
+<VocabTable group="glossary" />
+
+## How the closing text works
+
+- **One register throughout**: everyday written French, in the first person, with no familiar word and no deliberate break.
+- **What it draws on**: the registers and the formulas of an official letter, mediation (relaying a notice without leaving anything out), idioms that don't translate, La Fontaine's moral placed first, wordplay on sounds, the contraction, the essay and a labelled pastiche.
+- **A plan in five steps**: a first contact, the resistance, the companionship, today, and what remains to do. The writing task follows the same plan.
+- **No exam, no level claim**: the text speaks of a relationship with a language, not of a test.
+
+<Callout type="warning" title="Mastery isn't a native-speaker imitation">
+  At the end of a long course, learners sometimes judge themselves only against native speakers: *je ne parlerai jamais comme un Français, donc je n'ai pas réussi*. Mastery is precision, range and ease in your own voice. Say it as the closing text does: **je ne parle pas comme un locuteur natif, et ce n'est plus mon but**.
+</Callout>
+
+<Callout type="tip" title="Reread one review a month">
+  Once you've finished the course, choose one unit review a month and reread it, then do its exercises again without looking at the lesson. The items you get wrong show you where your perfectionnement should go next.
+</Callout>
+
+## What's next
+
+This is the last lesson of C2, and the course is complete at C2. To keep your level, go back to the unit reviews: <LessonLink id="c2-review-form" text="form" />, <LessonLink id="c2-review-words" text="words" />, <LessonLink id="c2-review-specialized" text="specialized French" />, <LessonLink id="c2-review-reading" text="reading" />, <LessonLink id="c2-review-writing" text="writing" />, <LessonLink id="c2-review-mediation" text="mediation and negotiation" />, <LessonLink id="c2-review-literatures" text="the language and its literatures" /> and <LessonLink id="c2-review-range" text="range and mastery" />.
