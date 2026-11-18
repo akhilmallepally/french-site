@@ -1,11 +1,12 @@
 // The lesson article, vocab tables and exercises. Server component. It loads the body only with a
-// LessonAccess, so for a gated level it runs only after the server-side sign-in check.
+// LessonAccess, so for a gated level it runs only after the server-side sign-in and entitlement check.
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import { ExercisePlayer } from "@/components/exercise-player";
 import { mdxComponents, VocabTable } from "@/components/mdx";
 import { SignInPanel } from "@/components/sign-in-panel";
-import { grantLessonAccess } from "@/lib/auth";
+import { PaywallPanel } from "@/components/paywall-panel";
+import { checkLessonAccess } from "@/lib/auth";
 import { loadLessonFull, type LessonAccess, type LessonMeta } from "@/lib/lessons";
 
 /** Renders the full lesson. Requires proof of access (lib/auth.ts). */
@@ -30,14 +31,30 @@ export function LessonBody({ access }: { access: LessonAccess }) {
 }
 
 /**
- * A gated lesson. Runs at request time inside <Suspense>: it checks the user with getUser() on the
- * server and loads the body only in the signed-in branch. Signed out, it renders the sign-in panel
- * and nothing from the lesson.
+ * A gated lesson. Runs at request time inside <Suspense>:
+ * - Signed out: renders SignInPanel
+ * - Signed in unpaid: renders PaywallPanel with live founder count and checkout
+ * - Paid: loads and renders the full lesson body and exercises
  */
 export async function GatedLessonBody({ meta }: { meta: LessonMeta }) {
-  const access = await grantLessonAccess(meta);
-  if (!access) return <SignInPanel next={meta.href} />;
-  return <LessonBody access={access} />;
+  const result = await checkLessonAccess(meta);
+
+  if (result.status === "signed-out") {
+    return <SignInPanel next={meta.href} />;
+  }
+
+  if (result.status === "unpaid") {
+    return (
+      <PaywallPanel
+        spotsLeft={result.spotsLeft}
+        priceCents={result.priceCents}
+        currency={result.currency}
+        next={meta.href}
+      />
+    );
+  }
+
+  return <LessonBody access={result.access} />;
 }
 
 /** Shown while the gated body streams in. No lesson content. */

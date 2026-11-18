@@ -229,6 +229,18 @@ for (const l of free.filter((_, i) => i % step === 0).slice(0, 8)) {
   record("free lesson returns full content", r.status === 200 && missing.length === 0 && !r.text.includes(PANEL_TEXT), `${l.path} status ${r.status}, missing: ${missing.join(" | ")}`);
 }
 
+// Public pages: /pricing, /terms, and /refund must return 200 and leak zero gated lesson markers/answers.
+for (const pagePath of ["/pricing", "/terms", "/refund"]) {
+  const r = await get(BASE_URL + pagePath);
+  record("public page returns 200", r.status === 200, `${pagePath} status ${r.status}`);
+  const leaked = [];
+  for (const l of gated) {
+    if (l.marker && r.text.includes(l.marker)) leaked.push(`${l.path} marker`);
+    if (l.answer && r.text.includes(l.answer)) leaked.push(`${l.path} answer`);
+  }
+  record("no gated lesson content in public page", leaked.length === 0, `${pagePath} leaked: ${leaked.join(" | ")}`);
+}
+
 // Auth callback: hostile next values must stay on this origin.
 for (const next of ["//evil.com", "https://evil.com", "/\\evil.com"]) {
   const r = await get(`${BASE_URL}/auth/callback?code=x&next=${encodeURIComponent(next)}`);

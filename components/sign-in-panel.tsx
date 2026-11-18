@@ -8,11 +8,11 @@ export function SignInPanel({ next }: { next: string }) {
     <section className="mt-8 rounded-2xl border border-border bg-card px-6 py-10 text-center sm:px-10">
       <p className="text-xs font-semibold uppercase tracking-widest text-accent">Google sign-in required</p>
       <h2 className="mt-3 font-serif text-2xl font-semibold sm:text-3xl">
-        Sign in with Google to read this lesson. It&apos;s free.
+        Sign in with Google to read this lesson
       </h2>
       <p className="mx-auto mt-3 max-w-md text-muted">
-        A1 and A2 are open to everyone. From B1 on, lessons and exercises are free once you sign in, and you&apos;ll come
-        straight back here.
+        A1 and A2 are completely free. Signing in with Google lets you unlock B1–C1 with a one-time payment ($8 founding
+        price, all future lessons included), and you&apos;ll come straight back here.
       </p>
       <Link
         href={href}

@@ -144,6 +144,22 @@ begin
   perform rls_test.expect_affected(who || ' inserts own saved_vocab', format('insert into public.saved_vocab (user_id, vocab_id, lesson_id) values (%L, %L, %L)', me, 'rls-test-lesson-v001', 'rls-test-lesson'), 1);
   perform rls_test.expect_rows(who || ' reads own saved_vocab', format('select 1 from public.saved_vocab where user_id = %L', me), 1);
   perform rls_test.expect_error(who || ' updates own saved_vocab', format('update public.saved_vocab set saved_at = now() where user_id = %L', me));
+
+  -- purchases (read own, no insert, update, or delete for authenticated)
+  perform rls_test.expect_rows(who || ' reads own purchase', format('select 1 from public.purchases where user_id = %L', me), 1);
+  perform rls_test.expect_rows(who || ' sees only own purchase (unfiltered select)', 'select 1 from public.purchases', 1);
+  perform rls_test.expect_error(who || ' inserts own purchase', format('insert into public.purchases (user_id, product, status, provider, provider_order_id, amount) values (%L, %L, %L, %L, %L, 800)', me, 'lessons', 'active', 'dodo', 'ord_fake_' || me));
+  perform rls_test.expect_error(who || ' updates own purchase', format('update public.purchases set status = %L where user_id = %L', 'refunded', me));
+  perform rls_test.expect_error(who || ' deletes own purchase', format('delete from public.purchases where user_id = %L', me));
+
+  -- pricing_settings (read active, no insert, update, or delete)
+  perform rls_test.expect_rows(who || ' reads pricing_settings', 'select 1 from public.pricing_settings where product = ''lessons'' and founder_price_cents = 800 and standard_price_cents = 1200', 1);
+  perform rls_test.expect_error(who || ' inserts pricing_settings', 'insert into public.pricing_settings (product, founder_price_cents, standard_price_cents, founder_cap) values (''pro'', 1500, 2000, 50)');
+  perform rls_test.expect_error(who || ' updates pricing_settings', 'update public.pricing_settings set founder_price_cents = 100 where product = ''lessons''');
+  perform rls_test.expect_error(who || ' deletes pricing_settings', 'delete from public.pricing_settings where product = ''lessons''');
+
+  -- get_founder_spots_left() (100 founder_cap - 2 seeded purchases = 98)
+  perform rls_test.expect_rows(who || ' calls get_founder_spots_left()', 'select 1 where public.get_founder_spots_left(''lessons'') = 98', 1);
 end;
 $$;
 
@@ -184,6 +200,13 @@ begin
   perform rls_test.expect_error(who || ' updates other saved_vocab', format('update public.saved_vocab set saved_at = now() where user_id = %L', other));
   perform rls_test.expect_affected(who || ' deletes other saved_vocab', format('delete from public.saved_vocab where user_id = %L', other), 0);
   perform rls_test.expect_error(who || ' inserts saved_vocab for the other id', format('insert into public.saved_vocab (user_id, vocab_id, lesson_id) values (%L, %L, %L)', other, 'rls-test-other-v001', 'rls-test-other'));
+
+  -- purchases
+  perform rls_test.expect_rows(who || ' reads other purchases', format('select 1 from public.purchases where user_id = %L', other), 0);
+  perform rls_test.expect_rows(who || ' unfiltered purchases shows own rows only', format('select 1 from public.purchases where user_id <> %L', me), 0);
+  perform rls_test.expect_error(who || ' updates other purchases', format('update public.purchases set status = %L where user_id = %L', 'refunded', other));
+  perform rls_test.expect_error(who || ' deletes other purchases', format('delete from public.purchases where user_id = %L', other));
+  perform rls_test.expect_error(who || ' inserts purchases for the other id', format('insert into public.purchases (user_id, product, status, provider, provider_order_id, amount) values (%L, %L, %L, %L, %L, 800)', other, 'lessons', 'active', 'dodo', 'ord_hack_' || me));
 end;
 $$;
 
@@ -221,6 +244,21 @@ begin
   perform rls_test.expect_error('anon insert lesson_scores', $q$insert into public.lesson_scores (user_id, lesson_id, score, total) values ('11111111-1111-4111-8111-111111111111', 'x', 1, 5)$q$);
   perform rls_test.expect_error('anon insert saved_vocab', $q$insert into public.saved_vocab (user_id, vocab_id, lesson_id) values ('11111111-1111-4111-8111-111111111111', 'x-v001', 'x')$q$);
   perform rls_test.expect_error('anon calls touch_last_active()', 'select public.touch_last_active()');
+
+  -- purchases: anon has no access
+  perform rls_test.expect_nothing('anon select purchases', 'select 1 from public.purchases');
+  perform rls_test.expect_error('anon insert purchases', $q$insert into public.purchases (user_id, product, status, provider, provider_order_id, amount) values ('11111111-1111-4111-8111-111111111111', 'lessons', 'active', 'dodo', 'ord_anon', 800)$q$);
+  perform rls_test.expect_error('anon update purchases', 'update public.purchases set status = ''refunded''');
+  perform rls_test.expect_error('anon delete purchases', 'delete from public.purchases');
+
+  -- pricing_settings: anon can read active rows, cannot write
+  perform rls_test.expect_rows('anon select pricing_settings', 'select 1 from public.pricing_settings where product = ''lessons'' and founder_price_cents = 800 and standard_price_cents = 1200', 1);
+  perform rls_test.expect_error('anon insert pricing_settings', 'insert into public.pricing_settings (product, founder_price_cents, standard_price_cents, founder_cap) values (''pro'', 1500, 2000, 50)');
+  perform rls_test.expect_error('anon update pricing_settings', 'update public.pricing_settings set founder_price_cents = 100 where product = ''lessons''');
+  perform rls_test.expect_error('anon delete pricing_settings', 'delete from public.pricing_settings where product = ''lessons''');
+
+  -- get_founder_spots_left(): anon can call and receives the calculated count (98)
+  perform rls_test.expect_rows('anon calls get_founder_spots_left()', 'select 1 where public.get_founder_spots_left(''lessons'') = 98', 1);
 end;
 $$;
 
@@ -235,7 +273,7 @@ declare
   forced boolean;
 begin
   -- Every table has RLS enabled and forced.
-  foreach t in array array['profiles', 'lesson_progress', 'exercise_results', 'lesson_scores', 'saved_vocab'] loop
+  foreach t in array array['profiles', 'lesson_progress', 'exercise_results', 'lesson_scores', 'saved_vocab', 'purchases', 'pricing_settings'] loop
     select c.relrowsecurity, c.relforcerowsecurity into rls, forced
       from pg_catalog.pg_class c join pg_catalog.pg_namespace n on n.oid = c.relnamespace
      where n.nspname = 'public' and c.relname = t;
@@ -245,16 +283,27 @@ begin
     raise notice 'PASS: public.% has RLS enabled and forced', t;
   end loop;
 
-  -- No policy is open to anon or public, and none is "using (true)".
+  -- No policy is open to anon or public, and none is "using (true)" on user-scoped tables.
   if exists (
     select 1 from pg_catalog.pg_policies
      where schemaname = 'public'
-       and tablename in ('profiles', 'lesson_progress', 'exercise_results', 'lesson_scores', 'saved_vocab')
+       and tablename in ('profiles', 'lesson_progress', 'exercise_results', 'lesson_scores', 'saved_vocab', 'purchases')
        and (roles <> '{authenticated}'::name[] or qual = 'true' or with_check = 'true')
   ) then
     raise exception 'FAIL: a policy is not limited to authenticated, or uses true';
   end if;
-  raise notice 'PASS: every policy is "to authenticated" and none uses true';
+  raise notice 'PASS: every policy on user-scoped tables is "to authenticated" and none uses true';
+
+  -- pricing_settings: readable by authenticated and anon, but must not use "true".
+  if exists (
+    select 1 from pg_catalog.pg_policies
+     where schemaname = 'public'
+       and tablename = 'pricing_settings'
+       and (qual = 'true' or with_check = 'true')
+  ) then
+    raise exception 'FAIL: pricing_settings policy uses true';
+  end if;
+  raise notice 'PASS: pricing_settings policy does not use true';
 
   -- The sign-up trigger writes under forced RLS, so its owner must bypass RLS (Supabase's
   -- postgres role does). If this fails, sign-ups would fail too.
@@ -290,6 +339,12 @@ begin
   raise notice 'PASS: the sign-up trigger created both profiles from raw_user_meta_data';
 end;
 $$;
+
+-- Seed initial test purchases for user A and user B (simulating the webhook service role).
+insert into public.purchases (user_id, product, status, provider, provider_order_id, amount, currency)
+values
+  ('11111111-1111-4111-8111-111111111111', 'lessons', 'active', 'dodo', 'ord_test_a_001', 800, 'usd'),
+  ('22222222-2222-4222-8222-222222222222', 'lessons', 'active', 'dodo', 'ord_test_b_001', 800, 'usd');
 
 -- ===================================================================== user A: own rows
 select set_config('request.jwt.claims', '{"sub":"11111111-1111-4111-8111-111111111111","role":"authenticated"}', true);
@@ -336,8 +391,9 @@ begin
     if (select count(*) from public.lesson_progress where user_id = u and best_score = 4) <> 1
        or (select count(*) from public.exercise_results where user_id = u and attempts = 2) <> 1
        or (select count(*) from public.lesson_scores where user_id = u and score = 3) <> 1
-       or (select count(*) from public.saved_vocab where user_id = u) <> 1 then
-      raise exception 'FAIL: progress rows of % were changed by the other user', u;
+       or (select count(*) from public.saved_vocab where user_id = u) <> 1
+       or (select count(*) from public.purchases where user_id = u and status = 'active') <> 1 then
+      raise exception 'FAIL: progress or purchase rows of % were changed by the other user', u;
     end if;
   end loop;
   raise notice 'PASS: neither user changed the other''s rows';
@@ -390,13 +446,20 @@ begin
      or exists (select 1 from public.lesson_progress where user_id = a)
      or exists (select 1 from public.exercise_results where user_id = a)
      or exists (select 1 from public.lesson_scores where user_id = a)
-     or exists (select 1 from public.saved_vocab where user_id = a) then
+     or exists (select 1 from public.saved_vocab where user_id = a)
+     or exists (select 1 from public.purchases where user_id = a) then
     raise exception 'FAIL: deleting user A left rows behind';
   end if;
   if not exists (select 1 from public.profiles where id = '22222222-2222-4222-8222-222222222222') then
     raise exception 'FAIL: deleting user A removed B''s profile';
   end if;
-  raise notice 'PASS: deleting user A cascaded to the profile and every progress table, and left B alone';
+  if not exists (select 1 from public.purchases where user_id = '22222222-2222-4222-8222-222222222222') then
+    raise exception 'FAIL: deleting user A removed B''s purchase';
+  end if;
+  if public.get_founder_spots_left('lessons') <> 99 then
+    raise exception 'FAIL: get_founder_spots_left() did not reflect cascaded deletion (got %, expected 99)', public.get_founder_spots_left('lessons');
+  end if;
+  raise notice 'PASS: deleting user A cascaded to the profile, progress, and purchases, and left B alone';
   raise notice 'PASS: ALL RLS CHECKS PASSED';
 end;
 $$;

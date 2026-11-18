@@ -13,7 +13,14 @@ import { spawn, spawnSync } from "node:child_process";
 const PORT = process.env.PORT || "3100";
 const BASE = `http://localhost:${PORT}`;
 const PANEL = "Sign in with Google to read this lesson";
-const env = { ...process.env, NEXT_PUBLIC_SUPABASE_URL: "", NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: "" };
+const env = {
+  ...process.env,
+  NEXT_PUBLIC_SUPABASE_URL: "",
+  NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: "",
+  SUPABASE_SERVICE_ROLE_KEY: "",
+  PAYMENTS_API_KEY: "",
+  PAYMENTS_WEBHOOK_SECRET: "",
+};
 const isWin = process.platform === "win32";
 
 let failed = 0;
@@ -82,6 +89,21 @@ try {
 
   const cb = await get("/auth/callback?code=bad&next=//evil.example");
   ok(cb.status === 307 && cb.location?.startsWith(`${BASE}/sign-in?error=auth`), `callback -> ${cb.status} ${cb.location}`);
+
+  const pricing = await get("/pricing");
+  ok(pricing.status === 200, `/pricing -> ${pricing.status}`);
+  ok(pricing.text.includes("Lifetime Access"), "/pricing renders cleanly when unconfigured");
+
+  const webhookRes = await fetch(`${BASE}/api/webhooks/payments`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ test: true }),
+  });
+  const webhookText = await webhookRes.text();
+  ok(
+    webhookRes.status === 500 && webhookText.includes("unconfigured"),
+    `/api/webhooks/payments -> ${webhookRes.status} fails closed when unconfigured`
+  );
 
   await new Promise((r) => setTimeout(r, 500));
   ok(log.includes("[supabase] NEXT_PUBLIC_SUPABASE_URL or NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY is missing"), "server logged the missing-config warning");

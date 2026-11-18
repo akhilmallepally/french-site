@@ -1,10 +1,15 @@
 -- rollback_all.sql
 -- WARNING: THIS DELETES USER DATA. It drops every table, policy, trigger and function created by
--- supabase/migrations/0001 to 0004, including all profiles and all learner progress. It does not
--- touch auth.users: accounts stay, but lose their profile and progress. There is no undo.
--- Export anything you need first.
+-- supabase/migrations/0001 to 0005, including all profiles, learner progress, purchases, and pricing.
+-- It does not touch auth.users: accounts stay, but lose their profile, progress, and entitlements.
+-- There is no undo. Export anything you need first.
 
 begin;
+
+-- Payments (0005)
+drop function if exists public.get_founder_spots_left(text);
+drop table if exists public.purchases;
+drop table if exists public.pricing_settings;
 
 drop function if exists public.touch_last_active();
 

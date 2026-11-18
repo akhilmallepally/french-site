@@ -6,8 +6,14 @@ import { unstable_rethrow } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { warnSupabaseEnvMissing } from "@/lib/supabase/env";
 import { isFreeLevel, type LessonAccess, type LessonMeta } from "@/lib/lessons";
+import { getActivePricing, hasActiveEntitlement } from "@/lib/purchases";
 
 export type CurrentUser = { id: string; email: string | null };
+
+export type LessonAccessResult =
+  | { status: "granted"; access: LessonAccess }
+  | { status: "signed-out" }
+  | { status: "unpaid"; spotsLeft: number; priceCents: number; currency: string };
 
 /**
  * The signed-in user, or null. Reads cookies, so call it only inside a <Suspense> boundary.
@@ -37,9 +43,40 @@ export function grantFreeAccess(meta: LessonMeta): LessonAccess {
   return { grant: "lesson-access", lessonId: meta.id };
 }
 
-/** Access to any lesson: free levels always, other levels only for a signed-in user. */
-export async function grantLessonAccess(meta: LessonMeta): Promise<LessonAccess | null> {
-  if (isFreeLevel(meta.level)) return grantFreeAccess(meta);
+/**
+ * Comprehensive access check for any lesson:
+ * - Free levels (A1, A2) are always granted and read no request data.
+ * - Gated levels check the user session:
+ *   * If signed out -> status: "signed-out"
+ *   * If signed in and entitled -> status: "granted" with LessonAccess proof
+ *   * If signed in but unpaid -> status: "unpaid" with live pricing & founder spots
+ */
+export async function checkLessonAccess(meta: LessonMeta): Promise<LessonAccessResult> {
+  if (isFreeLevel(meta.level)) {
+    return { status: "granted", access: grantFreeAccess(meta) };
+  }
+
   const user = await getCurrentUser();
-  return user ? { grant: "lesson-access", lessonId: meta.id } : null;
+  if (!user) {
+    return { status: "signed-out" };
+  }
+
+  const isEntitled = await hasActiveEntitlement(user.id, "lessons");
+  if (isEntitled) {
+    return { status: "granted", access: { grant: "lesson-access", lessonId: meta.id } };
+  }
+
+  const pricing = await getActivePricing("lessons");
+  return {
+    status: "unpaid",
+    spotsLeft: pricing.spotsLeft,
+    priceCents: pricing.priceCents,
+    currency: pricing.currency,
+  };
+}
+
+/** Access helper returning LessonAccess if granted, or null if gated. Kept for backwards compatibility. */
+export async function grantLessonAccess(meta: LessonMeta): Promise<LessonAccess | null> {
+  const result = await checkLessonAccess(meta);
+  return result.status === "granted" ? result.access : null;
 }

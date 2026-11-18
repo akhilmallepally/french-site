@@ -1,0 +1,331 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { Suspense } from "react";
+import { getCurrentUser } from "@/lib/auth";
+import { getActivePricing, hasActiveEntitlement } from "@/lib/purchases";
+import { CheckoutButton } from "@/components/checkout-button";
+
+export const metadata: Metadata = {
+  title: "Pricing",
+  description: "One-time payment for lifetime access to French Properly. A1 and A2 are free forever.",
+};
+
+export default function PricingPage() {
+  return (
+    <main className="mx-auto max-w-5xl px-6 py-16">
+      <header className="mx-auto max-w-2xl text-center">
+        <p className="text-xs font-semibold uppercase tracking-widest text-accent">Transparent Pricing</p>
+        <h1 className="mt-3 font-serif text-4xl font-semibold tracking-tight sm:text-5xl">
+          Learn French properly, at your own pace.
+        </h1>
+        <p className="mt-4 text-lg text-muted">
+          A1 and A2 are free for everyone, forever. Unlock intermediate to mastery levels (B1 to C2) with a single
+          one-time payment.
+        </p>
+      </header>
+
+      {/* Pricing comparison cards */}
+      <div className="mt-12 grid gap-8 md:grid-cols-2">
+        {/* Free Plan */}
+        <section className="flex flex-col justify-between rounded-2xl border border-border bg-card p-8">
+          <div>
+            <div className="flex items-center justify-between">
+              <h2 className="font-serif text-2xl font-semibold">Introductory</h2>
+              <span className="rounded-full border border-border bg-background px-3 py-1 text-xs font-medium text-muted">
+                Free Forever
+              </span>
+            </div>
+            <p className="mt-2 text-sm text-muted">
+              Master French fundamentals from greetings to routine conversation.
+            </p>
+            <div className="mt-6 flex items-baseline gap-1">
+              <span className="font-serif text-4xl font-semibold">$0</span>
+              <span className="text-sm text-muted">no account needed</span>
+            </div>
+
+            <ul className="mt-8 space-y-3 text-sm text-muted">
+              <li className="flex items-center gap-3">
+                <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
+                  <path
+                    fillRule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                Complete A1 & A2 levels (80+ lessons)
+              </li>
+              <li className="flex items-center gap-3">
+                <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
+                  <path
+                    fillRule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                Every vocab table and pronunciation guide
+              </li>
+              <li className="flex items-center gap-3">
+                <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
+                  <path
+                    fillRule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                Interactive exercises with instant feedback
+              </li>
+              <li className="flex items-center gap-3">
+                <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
+                  <path
+                    fillRule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                Prerendered and fast, no sign-in required
+              </li>
+            </ul>
+          </div>
+
+          <div className="mt-8">
+            <Link
+              href="/lessons/a1"
+              className="inline-flex min-h-11 w-full items-center justify-center rounded-full border border-border bg-background px-6 py-2.5 font-medium transition hover:border-accent/40"
+            >
+              Start Free Lessons
+            </Link>
+          </div>
+        </section>
+
+        {/* Lifetime Plan */}
+        <Suspense fallback={<LifetimePlanSkeleton />}>
+          <LifetimePlanCard />
+        </Suspense>
+      </div>
+
+      {/* Trust & FAQ section */}
+      <section className="mt-16 rounded-2xl border border-border bg-card p-8 sm:p-10">
+        <h2 className="font-serif text-2xl font-semibold tracking-tight">Frequently Asked Questions</h2>
+        <div className="mt-6 grid gap-6 sm:grid-cols-2">
+          <div>
+            <h3 className="font-semibold text-foreground">Is it really a one-time payment?</h3>
+            <p className="mt-1 text-sm text-muted">
+              Yes. There are no recurring charges, no subscriptions, and no hidden fees. Pay once and access is yours
+              for life.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground">What is your refund policy?</h3>
+            <p className="mt-1 text-sm text-muted">
+              We offer a 7-day full money-back guarantee. If you&apos;re not satisfied for any reason within 7 days of
+              purchase, request a refund and we will return your payment in full. Read our{" "}
+              <Link href="/refund" className="underline underline-offset-2 hover:text-accent">
+                Refund Policy
+              </Link>
+              .
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground">Why are A1 and A2 free?</h3>
+            <p className="mt-1 text-sm text-muted">
+              We believe anyone should be able to try learning French without entering payment information or creating
+              an account. You can complete all 80+ introductory lessons completely free.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground">Who handles payment processing?</h3>
+            <p className="mt-1 text-sm text-muted">
+              Payments are securely processed through our Merchant of Record, handling all international taxes,
+              currency conversions, and receipts. We never see or store your payment card details.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+function LifetimePlanSkeleton() {
+  return (
+    <section className="relative flex flex-col justify-between rounded-2xl border-2 border-accent bg-card p-8 shadow-sm">
+      <div className="absolute -top-3.5 right-6 rounded-full bg-accent px-3 py-0.5 text-xs font-semibold uppercase tracking-wider text-white">
+        Founding Offer
+      </div>
+
+      <div>
+        <div className="flex items-center justify-between">
+          <h2 className="font-serif text-2xl font-semibold">Lifetime Access</h2>
+          <span className="rounded-full border border-accent/20 bg-accent/10 px-3 py-1 text-xs font-semibold text-accent">
+            One-Time Payment
+          </span>
+        </div>
+        <p className="mt-2 text-sm text-muted">
+          Everything from intermediate conversation to literary mastery.
+        </p>
+        <div className="mt-6 flex items-baseline gap-2">
+          <span className="font-serif text-4xl font-semibold">$8</span>
+          <span className="text-sm text-muted">one-time · lifetime access</span>
+          <span className="text-xs text-muted line-through">$12</span>
+        </div>
+
+        <ul className="mt-8 space-y-3 text-sm text-muted">
+          <li className="flex items-center gap-3">
+            <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
+              <path
+                fillRule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            Full access to B1, B2, C1, and C2 levels (240+ lessons)
+          </li>
+          <li className="flex items-center gap-3">
+            <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
+              <path
+                fillRule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            All future lessons, levels, and exercises included forever
+          </li>
+          <li className="flex items-center gap-3">
+            <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
+              <path
+                fillRule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            One-time payment. Never a recurring subscription
+          </li>
+          <li className="flex items-center gap-3">
+            <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
+              <path
+                fillRule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            7-day full refund guarantee — no questions asked
+          </li>
+        </ul>
+      </div>
+
+      <div className="mt-8">
+        <div className="h-11 w-full animate-pulse rounded-full bg-border/60" />
+      </div>
+    </section>
+  );
+}
+
+async function LifetimePlanCard() {
+  const user = await getCurrentUser();
+  const pricing = await getActivePricing("lessons");
+  const isEntitled = user ? await hasActiveEntitlement(user.id, "lessons") : false;
+
+  const isFounder = pricing.spotsLeft > 0;
+  const founderPrice = `$${pricing.founderPriceCents / 100}`;
+  const standardPrice = `$${pricing.standardPriceCents / 100}`;
+
+  return (
+    <section className="relative flex flex-col justify-between rounded-2xl border-2 border-accent bg-card p-8 shadow-sm">
+      {isFounder && (
+        <div className="absolute -top-3.5 right-6 rounded-full bg-accent px-3 py-0.5 text-xs font-semibold uppercase tracking-wider text-white">
+          Founding Offer · {pricing.spotsLeft} Spots Left
+        </div>
+      )}
+
+      <div>
+        <div className="flex items-center justify-between">
+          <h2 className="font-serif text-2xl font-semibold">Lifetime Access</h2>
+          <span className="rounded-full border border-accent/20 bg-accent/10 px-3 py-1 text-xs font-semibold text-accent">
+            One-Time Payment
+          </span>
+        </div>
+        <p className="mt-2 text-sm text-muted">
+          Everything from intermediate conversation to literary mastery.
+        </p>
+        <div className="mt-6 flex items-baseline gap-2">
+          <span className="font-serif text-4xl font-semibold">
+            {isFounder ? founderPrice : standardPrice}
+          </span>
+          <span className="text-sm text-muted">one-time · lifetime access</span>
+          {isFounder && (
+            <span className="text-xs text-muted line-through">{standardPrice}</span>
+          )}
+        </div>
+
+        <ul className="mt-8 space-y-3 text-sm text-muted">
+          <li className="flex items-center gap-3">
+            <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
+              <path
+                fillRule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            Full access to B1, B2, C1, and C2 levels (240+ lessons)
+          </li>
+          <li className="flex items-center gap-3">
+            <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
+              <path
+                fillRule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            All future lessons, levels, and exercises included forever
+          </li>
+          <li className="flex items-center gap-3">
+            <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
+              <path
+                fillRule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            One-time payment. Never a recurring subscription
+          </li>
+          <li className="flex items-center gap-3">
+            <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
+              <path
+                fillRule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            7-day full refund guarantee — no questions asked
+          </li>
+        </ul>
+      </div>
+
+      <div className="mt-8">
+        {isEntitled ? (
+          <div className="rounded-xl border border-accent/20 bg-accent/5 p-4 text-center">
+            <p className="text-sm font-medium text-accent">You have lifetime access!</p>
+            <Link
+              href="/lessons/b1"
+              className="mt-3 inline-flex min-h-10 w-full items-center justify-center rounded-full bg-accent px-6 py-2 text-sm font-medium text-white transition hover:opacity-90"
+            >
+              Continue Learning
+            </Link>
+          </div>
+        ) : user ? (
+          <CheckoutButton
+            product="lessons"
+            className="inline-flex min-h-11 w-full items-center justify-center rounded-full bg-accent px-6 py-2.5 font-medium text-white transition hover:opacity-90"
+            label={isFounder ? `Get Founder Access for ${founderPrice}` : `Get Lifetime Access for ${standardPrice}`}
+          />
+        ) : (
+          <Link
+            href="/sign-in?next=/pricing"
+            className="inline-flex min-h-11 w-full items-center justify-center rounded-full bg-accent px-6 py-2.5 font-medium text-white transition hover:opacity-90"
+          >
+            Sign in with Google to unlock
+          </Link>
+        )}
+      </div>
+    </section>
+  );
+}
