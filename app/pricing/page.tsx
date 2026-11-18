@@ -207,7 +207,7 @@ function LifetimePlanSkeleton() {
                 clipRule="evenodd"
               />
             </svg>
-            Try all A1 & A2 lessons free • One-time payment, lifetime access
+            Try all A1 & A2 lessons free before unlocking
           </li>
         </ul>
       </div>
@@ -295,7 +295,7 @@ async function LifetimePlanCard() {
                 clipRule="evenodd"
               />
             </svg>
-            Try all A1 & A2 lessons free • One-time payment, lifetime access
+            Try all A1 & A2 lessons free before unlocking
           </li>
         </ul>
       </div>

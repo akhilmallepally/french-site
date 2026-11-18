@@ -1,11 +1,14 @@
 import { createServerClient } from '@supabase/ssr'
 import { cookies } from 'next/headers'
+import { connection } from 'next/server'
 import { getSupabaseEnv } from './env'
 
 /** The server client, or null when Supabase isn't configured. */
 export async function createClient() {
   const env = getSupabaseEnv()
   if (!env) return null
+
+  await connection()
 
   const cookieStore = await cookies()
 
