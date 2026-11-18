@@ -19,7 +19,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { level, slug } = await params;
   const meta = getLessonMeta(level, slug);
   if (!meta) return {};
-  return { title: `${meta.title} (${meta.level})`, description: meta.description };
+  const canonicalUrl = `/lessons/${levelToSlug(meta.level)}/${meta.slug}`;
+  const title = `${meta.title} (${meta.level})`;
+  const description = `${meta.level} French lesson: ${meta.description}`;
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonicalUrl,
+      type: "article",
+    },
+  };
 }
 
 export default async function LessonPage({ params }: Props) {
@@ -28,6 +43,22 @@ export default async function LessonPage({ params }: Props) {
   const meta = getLessonMeta(level, slug);
   if (!meta) notFound();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    name: `${meta.title} (${meta.level})`,
+    description: `${meta.level} French lesson: ${meta.description}`,
+    educationalLevel: meta.level,
+    inLanguage: "fr",
+    provider: {
+      "@type": "Organization",
+      name: "French Properly",
+      url: "https://frenchproperly.com",
+    },
+    url: `https://frenchproperly.com/lessons/${levelToSlug(meta.level)}/${meta.slug}`,
+    isAccessibleForFree: isFreeLevel(meta.level),
+  };
+
   const links = getLessonConnections(meta.id)!;
   const nearestFirst = [...links.prerequisites].sort((a, b) => compareLessons(b, a));
   const nearPrereqs = nearestFirst.slice(0, MAX_PREREQS_SHOWN);
@@ -35,6 +66,10 @@ export default async function LessonPage({ params }: Props) {
 
   return (
     <main className="mx-auto max-w-3xl px-6 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <nav className="text-sm text-muted">
         <Link href="/lessons" className="transition-colors hover:text-accent">
           Lessons

@@ -1,0 +1,39 @@
+# French Properly
+
+> French Properly (https://frenchproperly.com) is a modern, structured French learning platform offering a comprehensive written curriculum organized across CEFR levels A1 through C2.
+
+## Overview
+
+French Properly provides clear, grammar-first explanations, vocabulary tables, culture notes, and interactive practice exercises designed to take learners from total beginner to complete mastery.
+
+## Curriculum & Levels
+
+- **A1: Beginner** — Foundational greetings, pronunciation, articles, present tense verbs, and everyday essentials. (100% Free)
+- **A2: Elementary** — Past tense (*passé composé*, *imparfait*), routine communication, directions, and familiar settings. (100% Free)
+- **B1: Intermediate** — Expressing opinions, storytelling, subjunctive mood, and independent conversational navigation.
+- **B2: Upper Intermediate** — Argumentation, formal registers, media comprehension, and nuanced discourse.
+- **C1: Advanced** — Stylistic precision, complex syntax, idioms, and advanced professional and literary registers.
+- **C2: Mastery** — Near-native idiomatic command, subtle subtext, rhetoric, and cultural mastery.
+
+## Free vs. Lifetime Access
+
+- **80+ Free Lessons:** All A1 and A2 written lessons (over 100 comprehensive lessons with vocabulary and interactive exercises) are completely free to read and practice without creating an account or paying.
+- **B1–C2 Lifetime Access:** Access to the intermediate and advanced levels (B1 through C2) requires a simple one-time payment.
+  - **Founding Member Price:** $8 one-time payment for the first 100 learners.
+  - **Standard Price:** $12 one-time payment thereafter.
+  - **Included:** All current B1–C2 written lessons plus all future written lessons and curriculum updates included. No recurring subscriptions or monthly fees.
+
+## Key Links
+
+- [Home](https://frenchproperly.com): Platform overview and introductory curriculum.
+- [Lessons Directory](https://frenchproperly.com/lessons): Complete curriculum catalog and lesson index.
+- [Pricing](https://frenchproperly.com/pricing): Lifetime access pricing, founding member offer, and details.
+- [Level A1 Beginner](https://frenchproperly.com/lessons/a1): Free A1 lessons directory.
+- [Level A2 Elementary](https://frenchproperly.com/lessons/a2): Free A2 lessons directory.
+- [Level B1 Intermediate](https://frenchproperly.com/lessons/b1): Level B1 lessons directory.
+- [Level B2 Upper Intermediate](https://frenchproperly.com/lessons/b2): Level B2 lessons directory.
+- [Level C1 Advanced](https://frenchproperly.com/lessons/c1): Level C1 lessons directory.
+- [Level C2 Mastery](https://frenchproperly.com/lessons/c2): Level C2 lessons directory.
+- [Terms of Service](https://frenchproperly.com/terms): Terms and conditions.
+- [Privacy Policy](https://frenchproperly.com/privacy): Privacy policy and data handling.
+- [Refund Policy](https://frenchproperly.com/refund): Policy details for digital curriculum access.

@@ -8,8 +8,22 @@ const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 const fraunces = Fraunces({ variable: "--font-fraunces", subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://frenchproperly.com"),
   title: { default: "French Properly: Learn French", template: "%s · French Properly" },
   description: "Clear, structured French lessons from A1 to C2.",
+  openGraph: {
+    siteName: "French Properly",
+    locale: "en_US",
+    type: "website",
+    title: "French Properly: Learn French",
+    description: "Clear, structured French lessons from A1 to C2.",
+    url: "https://frenchproperly.com",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "French Properly: Learn French",
+    description: "Clear, structured French lessons from A1 to C2.",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -45,6 +59,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               </Link>
               <Link href="/terms" className="transition-colors hover:text-accent">
                 Terms
+              </Link>
+              <Link href="/privacy" className="transition-colors hover:text-accent">
+                Privacy
               </Link>
               <Link href="/refund" className="transition-colors hover:text-accent">
                 Refund Policy
