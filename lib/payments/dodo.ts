@@ -173,14 +173,14 @@ export class DodoPaymentProvider implements PaymentProvider {
       };
     }
 
-    if (eventType === "payment.refunded") {
+    if (eventType === "payment.refunded" || eventType === "refund.succeeded") {
       const orderId = String(data.payment_id ?? data.id ?? "");
       const metadata = data.metadata ?? {};
       const userId = metadata.user_id ? String(metadata.user_id) : undefined;
       const product = metadata.product ? (metadata.product as ProductKey) : undefined;
 
       if (!orderId) {
-        return { type: "ignored", provider: "dodo", reason: "payment.refunded missing payment_id" };
+        return { type: "ignored", provider: "dodo", reason: `${eventType} missing payment_id` };
       }
 
       return {

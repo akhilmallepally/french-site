@@ -117,8 +117,8 @@ export default function PricingPage() {
           <div>
             <h3 className="font-semibold text-foreground">What is your refund policy?</h3>
             <p className="mt-1 text-sm text-muted">
-              We offer a 7-day full money-back guarantee. If you&apos;re not satisfied for any reason within 7 days of
-              purchase, request a refund and we will return your payment in full. Read our{" "}
+              Because all introductory lessons across A1 and A2 are free to try without payment, all sales for B1–C2
+              lifetime access are final once unlocked, except for duplicate charges or where required by law. Read our{" "}
               <Link href="/refund" className="underline underline-offset-2 hover:text-accent">
                 Refund Policy
               </Link>
@@ -207,7 +207,7 @@ function LifetimePlanSkeleton() {
                 clipRule="evenodd"
               />
             </svg>
-            7-day full refund guarantee — no questions asked
+            Try all A1 & A2 lessons free • One-time payment, lifetime access
           </li>
         </ul>
       </div>
@@ -295,7 +295,7 @@ async function LifetimePlanCard() {
                 clipRule="evenodd"
               />
             </svg>
-            7-day full refund guarantee — no questions asked
+            Try all A1 & A2 lessons free • One-time payment, lifetime access
           </li>
         </ul>
       </div>

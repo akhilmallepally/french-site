@@ -73,14 +73,19 @@ export default function TermsPage() {
         </section>
 
         <section className="mt-8">
-          <h2>6. Refunds</h2>
+          <h2>6. Refunds & Cancellations</h2>
           <p>
-            We offer a full 7-day money-back guarantee on all lifetime purchases. For instructions and details on how to
-            request a refund, please see our{" "}
+            Because all introductory lessons across A1 and A2 (100+ lessons) are free to try without payment or an
+            account, all sales for B1–C2 lifetime access are final once unlocked, except in cases of duplicate billing
+            errors or where mandatory statutory consumer protection laws apply.
+          </p>
+          <p className="mt-2">
+            In the event that a refund or chargeback is processed, access to paid lesson levels is automatically and
+            immediately revoked. Please review our full{" "}
             <Link href="/refund" className="underline underline-offset-2 hover:text-accent">
               Refund Policy
-            </Link>
-            .
+            </Link>{" "}
+            for complete details.
           </p>
         </section>
 

@@ -37,7 +37,7 @@ export function PaywallPanel({ spotsLeft }: PaywallPanelProps) {
       </div>
 
       <p className="mt-4 text-xs text-muted">
-        7-day full refund. No questions asked. ·{" "}
+        Try all A1 & A2 lessons free • One-time payment, lifetime access ·{" "}
         <Link href="/pricing" className="underline underline-offset-2 hover:text-accent">
           Pricing details
         </Link>{" "}

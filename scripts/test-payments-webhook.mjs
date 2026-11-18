@@ -193,6 +193,19 @@ assert(
   "Dodo parses payment.refunded into order_refunded"
 );
 
+const dodoRefundSucceededBody = JSON.stringify({
+  type: "refund.succeeded",
+  data: {
+    payment_id: "pay_dodo_123",
+    metadata: { user_id: userId, product: "lessons" },
+  },
+});
+const parsedRefundSucceeded = await dodo.parseWebhookEvent(dodoRefundSucceededBody);
+assert(
+  parsedRefundSucceeded.type === "order_refunded" && parsedRefundSucceeded.orderId === "pay_dodo_123",
+  "Dodo parses refund.succeeded into order_refunded"
+);
+
 const dodoDisputeBody = JSON.stringify({
   type: "dispute.opened",
   data: {
