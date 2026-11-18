@@ -43,7 +43,7 @@ async function CheckoutSuccessContent() {
           <h1 className="mt-5 font-serif text-3xl font-semibold tracking-tight">You&apos;re in!</h1>
           <p className="mx-auto mt-3 max-w-md text-muted leading-relaxed">
             Thank you for purchasing lifetime access to French Properly. You now have full access to B1 to C2 and all
-            future lessons.
+            future written lessons and curriculum updates included.
           </p>
           <div className="mt-8 flex justify-center">
             <Link

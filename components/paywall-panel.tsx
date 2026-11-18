@@ -20,10 +20,10 @@ export function PaywallPanel({ spotsLeft }: PaywallPanelProps) {
         Continue your learning from B1 to Mastery
       </h2>
       <p className="mx-auto mt-4 max-w-xl text-muted leading-relaxed">
-        You&apos;ve finished the free levels. Bravo ! We hope A1 and A2 were useful. B1 to C1 is a one-time
-        payment, with all future lessons included.{" "}
+        You&apos;ve finished the free levels. Bravo! We hope A1 and A2 were useful. B1 to C2 is a one-time
+        payment, with all future written lessons and curriculum updates included.{" "}
         {isFounder ? (
-          <span>Founding price: $8 for the first 100 learners ({spotsLeft} left).</span>
+          <span>Founding price: $8 for the first 100 learners.</span>
         ) : (
           <span>Standard price: $12 for lifetime access.</span>
         )}

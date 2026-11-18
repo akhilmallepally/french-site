@@ -187,7 +187,7 @@ function LifetimePlanSkeleton() {
                 clipRule="evenodd"
               />
             </svg>
-            All future lessons, levels, and exercises included forever
+            All future written lessons and curriculum updates included
           </li>
           <li className="flex items-center gap-3">
             <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
@@ -232,7 +232,7 @@ async function LifetimePlanCard() {
     <section className="relative flex flex-col justify-between rounded-2xl border-2 border-accent bg-card p-8 shadow-sm">
       {isFounder && (
         <div className="absolute -top-3.5 right-6 rounded-full bg-accent px-3 py-0.5 text-xs font-semibold uppercase tracking-wider text-white">
-          Founding Offer · {pricing.spotsLeft} Spots Left
+          Founding Offer
         </div>
       )}
 
@@ -275,7 +275,7 @@ async function LifetimePlanCard() {
                 clipRule="evenodd"
               />
             </svg>
-            All future lessons, levels, and exercises included forever
+            All future written lessons and curriculum updates included
           </li>
           <li className="flex items-center gap-3">
             <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">

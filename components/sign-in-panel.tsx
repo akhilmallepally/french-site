@@ -11,8 +11,8 @@ export function SignInPanel({ next }: { next: string }) {
         Sign in with Google to read this lesson
       </h2>
       <p className="mx-auto mt-3 max-w-md text-muted">
-        A1 and A2 are completely free. Signing in with Google lets you unlock B1–C1 with a one-time payment ($8 founding
-        price, all future lessons included), and you&apos;ll come straight back here.
+        A1 and A2 are completely free. Signing in with Google lets you unlock B1–C2 with a one-time payment ($8 founding
+        price, all future written lessons and curriculum updates included), and you&apos;ll come straight back here.
       </p>
       <Link
         href={href}

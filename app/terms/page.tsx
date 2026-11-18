@@ -39,9 +39,10 @@ export default function TermsPage() {
         <section className="mt-8">
           <h2>3. Lifetime Access</h2>
           <p>
-            &quot;Lifetime access&quot; grants you access to paid lesson levels (B1, B2, C1, C2, and any future lesson
-            levels added to the main curriculum) for as long as the French Properly service is operated commercially.
-            There are no recurring fees or ongoing subscription dues.
+            &quot;Lifetime access&quot; grants you access to the written B1–C2 lesson library and all future written
+            lessons and curriculum updates included for as long as the French Properly service is operated commercially.
+            It covers the core written curriculum and future written additions, excluding separate optional add-ons or
+            future product tiers. There are no recurring fees or ongoing subscription dues.
           </p>
         </section>
 
