@@ -1,6 +1,7 @@
 -- supabase/tests/rls.sql
--- Proves the RLS rules (0003, 0005) and the progress write path (0006) on every table and every
--- operation. Run it in the Supabase SQL editor (or psql) AFTER migrations 0001 to 0006. It runs in
+-- Proves the RLS rules (0003, 0005), the progress write path (0006) and the service-role grants
+-- (0007) on every table and every operation. Run it in the Supabase SQL editor (or psql) AFTER
+-- migrations 0001 to 0007. It runs in
 -- one transaction that ends in ROLLBACK, so it leaves nothing behind: no users, no rows, no test
 -- schema.
 --
@@ -14,6 +15,38 @@ begin;
 
 -- ===================================================================== helpers (rolled back)
 create schema rls_test;
+
+-- The real values before anything is seeded (as postgres), so the checks don't depend on real
+-- purchases or prices: founder spots left and the 'lessons' pricing row. A missing pricing row
+-- gives nulls and is_active false.
+create table rls_test.baseline as
+select public.get_founder_spots_left('lessons') as spots_left,
+       ps.founder_price_cents,
+       ps.standard_price_cents,
+       coalesce(ps.is_active, false) as is_active
+  from (select 1) as one
+  left join public.pricing_settings as ps on ps.product = 'lessons';
+
+-- Founder spots expected after `taken` more active purchases at or below the founder price.
+create function rls_test.spots_expected(taken int) returns int language sql stable as $$
+  select greatest(0, b.spots_left - taken) from rls_test.baseline as b;
+$$;
+
+-- The 'lessons' pricing row as it was, read the way a user or anon reads it (1 row if active).
+create function rls_test.pricing_query() returns text language sql stable as $$
+  select format('select 1 from public.pricing_settings where product = %L and founder_price_cents = %s and standard_price_cents = %s',
+                'lessons', coalesce(b.founder_price_cents::text, 'null'), coalesce(b.standard_price_cents::text, 'null'))
+    from rls_test.baseline as b;
+$$;
+
+create function rls_test.pricing_rows() returns int language sql stable as $$
+  select case when b.is_active then 1 else 0 end from rls_test.baseline as b;
+$$;
+
+-- A purchase amount that counts as a founder purchase, and one that doesn't.
+create function rls_test.founder_amount() returns int language sql stable as $$
+  select coalesce(b.founder_price_cents, 800) from rls_test.baseline as b;
+$$;
 
 -- Runs stmt and expects it to fail with SQLSTATE state (42501 = permission denied or an RLS
 -- WITH CHECK violation; 23514 = check constraint).
@@ -240,13 +273,17 @@ begin
   perform rls_test.expect_error(who || ' deletes own purchase', format('delete from public.purchases where user_id = %L', me));
 
   -- pricing_settings (read active, no insert, update, or delete)
-  perform rls_test.expect_rows(who || ' reads pricing_settings', 'select 1 from public.pricing_settings where product = ''lessons'' and founder_price_cents = 800 and standard_price_cents = 1200', 1);
+  perform rls_test.expect_rows(who || ' reads pricing_settings (as before the test)', rls_test.pricing_query(), rls_test.pricing_rows());
   perform rls_test.expect_error(who || ' inserts pricing_settings', 'insert into public.pricing_settings (product, founder_price_cents, standard_price_cents, founder_cap) values (''pro'', 1500, 2000, 50)');
   perform rls_test.expect_error(who || ' updates pricing_settings', 'update public.pricing_settings set founder_price_cents = 100 where product = ''lessons''');
   perform rls_test.expect_error(who || ' deletes pricing_settings', 'delete from public.pricing_settings where product = ''lessons''');
 
-  -- get_founder_spots_left() (100 founder_cap - 2 seeded purchases = 98)
-  perform rls_test.expect_rows(who || ' calls get_founder_spots_left()', 'select 1 where public.get_founder_spots_left(''lessons'') = 98', 1);
+  -- get_founder_spots_left(): the real value before the test, minus the 2 seeded purchases
+  perform rls_test.expect_rows(who || ' calls get_founder_spots_left()', 'select 1 where public.get_founder_spots_left(''lessons'') = rls_test.spots_expected(2)', 1);
+
+  -- 0007: the webhook's objects are out of reach.
+  perform rls_test.expect_error(who || ' reads unmatched_payment_events', 'select 1 from public.unmatched_payment_events');
+  perform rls_test.expect_error(who || ' calls find_user_id_by_email()', 'select public.find_user_id_by_email(''rls-test-b@example.invalid'')');
 end;
 $$;
 
@@ -366,6 +403,9 @@ begin
   perform rls_test.expect_error('anon insert saved_vocab', $q$insert into public.saved_vocab (user_id, vocab_id, lesson_id) values ('11111111-1111-4111-8111-111111111111', 'x-v001', 'x')$q$);
   perform rls_test.expect_error('anon calls touch_last_active()', 'select public.touch_last_active()');
   perform rls_test.expect_error('anon calls apply_progress()', $q$select public.apply_progress('[]'::jsonb)$q$);
+  perform rls_test.expect_error('anon reads unmatched_payment_events', 'select 1 from public.unmatched_payment_events');
+  perform rls_test.expect_error('anon inserts unmatched_payment_events', $q$insert into public.unmatched_payment_events (provider, provider_order_id, event_type, reason) values ('dodo', 'x', 'order_paid', 'no_matching_user')$q$);
+  perform rls_test.expect_error('anon calls find_user_id_by_email()', $q$select public.find_user_id_by_email('rls-test-a@example.invalid')$q$);
 
   -- purchases: anon has no access
   perform rls_test.expect_nothing('anon select purchases', 'select 1 from public.purchases');
@@ -374,18 +414,54 @@ begin
   perform rls_test.expect_error('anon delete purchases', 'delete from public.purchases');
 
   -- pricing_settings: anon can read active rows, cannot write
-  perform rls_test.expect_rows('anon select pricing_settings', 'select 1 from public.pricing_settings where product = ''lessons'' and founder_price_cents = 800 and standard_price_cents = 1200', 1);
+  perform rls_test.expect_rows('anon select pricing_settings (as before the test)', rls_test.pricing_query(), rls_test.pricing_rows());
   perform rls_test.expect_error('anon insert pricing_settings', 'insert into public.pricing_settings (product, founder_price_cents, standard_price_cents, founder_cap) values (''pro'', 1500, 2000, 50)');
   perform rls_test.expect_error('anon update pricing_settings', 'update public.pricing_settings set founder_price_cents = 100 where product = ''lessons''');
   perform rls_test.expect_error('anon delete pricing_settings', 'delete from public.pricing_settings where product = ''lessons''');
 
-  -- get_founder_spots_left(): anon can call and receives the calculated count (98)
-  perform rls_test.expect_rows('anon calls get_founder_spots_left()', 'select 1 where public.get_founder_spots_left(''lessons'') = 98', 1);
+  -- get_founder_spots_left(): anon can call it; the real value minus the 2 seeded purchases
+  perform rls_test.expect_rows('anon calls get_founder_spots_left()', 'select 1 where public.get_founder_spots_left(''lessons'') = rls_test.spots_expected(2)', 1);
 end;
 $$;
 
-grant usage on schema rls_test to authenticated, anon;
-grant execute on all functions in schema rls_test to authenticated, anon;
+-- As service_role (the payment webhook's client): exactly select, insert and update on purchases,
+-- select and insert on unmatched_payment_events, and find_user_id_by_email(); nothing else.
+create function rls_test.service_role_checks() returns void language plpgsql security invoker as $$
+declare
+  b text := '22222222-2222-4222-8222-222222222222';
+begin
+  -- purchases (amount above the real founder price, so get_founder_spots_left() is unaffected)
+  perform rls_test.expect_affected('service_role inserts a purchase', format('insert into public.purchases (user_id, product, status, provider, provider_order_id, amount) values (%L, %L, %L, %L, %L, %s)', b, 'lessons', 'active', 'dodo', 'ord_test_srv_001', rls_test.founder_amount() + 1), 1);
+  perform rls_test.expect_rows('service_role reads the purchase by provider_order_id', 'select 1 from public.purchases where provider_order_id = ''ord_test_srv_001''', 1);
+  perform rls_test.expect_error('service_role inserts the same provider_order_id again', format('insert into public.purchases (user_id, product, status, provider, provider_order_id, amount) values (%L, %L, %L, %L, %L, %s)', b, 'lessons', 'active', 'dodo', 'ord_test_srv_001', rls_test.founder_amount() + 1), '23505');
+  perform rls_test.expect_affected('service_role marks the purchase refunded', 'update public.purchases set status = ''refunded'', refunded_at = now() where provider_order_id = ''ord_test_srv_001''', 1);
+  perform rls_test.expect_error('service_role deletes a purchase', 'delete from public.purchases where provider_order_id = ''ord_test_srv_001''');
+
+  -- unmatched_payment_events
+  perform rls_test.expect_affected('service_role records an unmatched event', 'insert into public.unmatched_payment_events (provider, provider_order_id, event_type, event_id, reason) values (''dodo'', ''pay_test_unmatched'', ''order_paid'', ''msg_test_1'', ''no_matching_user'')', 1);
+  perform rls_test.expect_error('service_role records the same event again', 'insert into public.unmatched_payment_events (provider, provider_order_id, event_type, event_id, reason) values (''dodo'', ''pay_test_unmatched'', ''order_paid'', ''msg_test_2'', ''no_matching_user'')', '23505');
+  perform rls_test.expect_rows('service_role reads unmatched events', 'select 1 from public.unmatched_payment_events where provider_order_id = ''pay_test_unmatched''', 1);
+  perform rls_test.expect_error('service_role updates an unmatched event', 'update public.unmatched_payment_events set resolved_at = now()');
+  perform rls_test.expect_error('service_role deletes an unmatched event', 'delete from public.unmatched_payment_events');
+
+  -- find_user_id_by_email(): case and surrounding spaces ignored; unknown email gives null
+  perform rls_test.expect_rows('service_role finds user B by email in another case', format('select 1 where public.find_user_id_by_email(%L) = %L::uuid', '  RLS-Test-B@Example.INVALID ', b), 1);
+  perform rls_test.expect_rows('service_role gets null for an unknown email', 'select 1 where public.find_user_id_by_email(''nobody@example.invalid'') is null', 1);
+
+  -- nothing else
+  perform rls_test.expect_error('service_role reads profiles', 'select 1 from public.profiles');
+  perform rls_test.expect_error('service_role reads lesson_progress', 'select 1 from public.lesson_progress');
+  perform rls_test.expect_error('service_role reads exercise_results', 'select 1 from public.exercise_results');
+  perform rls_test.expect_error('service_role reads writing_task_progress', 'select 1 from public.writing_task_progress');
+  perform rls_test.expect_error('service_role updates pricing_settings', 'update public.pricing_settings set founder_cap = 0');
+  perform rls_test.expect_error('service_role calls apply_progress()', 'select public.apply_progress(''[]''::jsonb)');
+  perform rls_test.expect_error('service_role calls get_founder_spots_left()', 'select public.get_founder_spots_left(''lessons'')');
+end;
+$$;
+
+grant usage on schema rls_test to authenticated, anon, service_role;
+grant execute on all functions in schema rls_test to authenticated, anon, service_role;
+grant select on rls_test.baseline to authenticated, anon, service_role;
 
 -- ===================================================================== setup (as postgres)
 do $$
@@ -397,7 +473,7 @@ declare
   text_cols text[];
 begin
   -- Every table has RLS enabled and forced.
-  foreach t in array array['profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab', 'purchases', 'pricing_settings'] loop
+  foreach t in array array['profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab', 'purchases', 'pricing_settings', 'unmatched_payment_events'] loop
     select c.relrowsecurity, c.relforcerowsecurity into rls, forced
       from pg_catalog.pg_class c join pg_catalog.pg_namespace n on n.oid = c.relnamespace
      where n.nspname = 'public' and c.relname = t;
@@ -496,6 +572,141 @@ begin
     raise exception 'FAIL: apply_progress() execute is not authenticated-only';
   end if;
   raise notice 'PASS: apply_progress() is security definer, search_path empty, authenticated-only';
+
+  -- 0007: exact table privileges in public for service_role, authenticated and anon.
+  -- Expected: service_role only what the payment webhook uses; authenticated and anon as in
+  -- 0003, 0005 and 0006; nobody but service_role on unmatched_payment_events.
+  declare
+    rel record;
+    role_name text;
+    priv text;
+    has_it boolean;
+    expected text[];
+  begin
+    for rel in
+      select c.relname from pg_catalog.pg_class c join pg_catalog.pg_namespace n on n.oid = c.relnamespace
+       where n.nspname = 'public' and c.relkind = 'r'
+    loop
+      foreach role_name in array array['service_role', 'authenticated', 'anon'] loop
+        -- service_role is checked on every public table (0007 revokes it from all of them);
+        -- authenticated and anon only on the tables these migrations manage.
+        continue when role_name <> 'service_role' and rel.relname not in (
+          'profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab',
+          'purchases', 'pricing_settings', 'unmatched_payment_events');
+        expected := case role_name || ':' || rel.relname
+          when 'service_role:purchases' then array['SELECT', 'INSERT', 'UPDATE']
+          when 'service_role:unmatched_payment_events' then array['SELECT', 'INSERT']
+          when 'authenticated:profiles' then array['SELECT']  -- plus column-level UPDATE, checked below
+          when 'authenticated:lesson_progress' then array['SELECT', 'DELETE']
+          when 'authenticated:exercise_results' then array['SELECT', 'DELETE']
+          when 'authenticated:writing_task_progress' then array['SELECT', 'DELETE']
+          when 'authenticated:saved_vocab' then array['SELECT', 'INSERT', 'DELETE']
+          when 'authenticated:purchases' then array['SELECT']
+          when 'authenticated:pricing_settings' then array['SELECT']
+          when 'anon:pricing_settings' then array['SELECT']
+          else array[]::text[]
+        end;
+        foreach priv in array array['SELECT', 'INSERT', 'UPDATE', 'DELETE', 'TRUNCATE', 'REFERENCES', 'TRIGGER'] loop
+          has_it := has_table_privilege(role_name, 'public.' || pg_catalog.quote_ident(rel.relname), priv);
+          if has_it <> (priv = any (expected)) then
+            raise exception 'FAIL: % on public.%: % is %, expected %', role_name, rel.relname, priv, has_it, not has_it;
+          end if;
+        end loop;
+      end loop;
+    end loop;
+  end;
+  if not has_column_privilege('authenticated', 'public.profiles', 'display_name', 'UPDATE')
+     or has_column_privilege('authenticated', 'public.profiles', 'id', 'UPDATE') then
+    raise exception 'FAIL: authenticated column privileges on profiles changed';
+  end if;
+  raise notice 'PASS: service_role, authenticated and anon have exactly the expected table privileges';
+
+  -- 0007: functions in public that service_role can execute, checked against an explicit list.
+  --   Allowed by name: find_user_id_by_email(text), the only function the service-role client
+  --     calls (lib/payments/webhook.ts).
+  --   Kept by rule (reported, not failed):
+  --     * trigger and event-trigger functions: Postgres refuses to call them directly, and firing
+  --       a trigger doesn't check EXECUTE;
+  --     * functions that belong to an extension: their grants are the extension's, and revoking
+  --       them can break it.
+  --   Anything else fails, naming the function and why service_role can run it (PUBLIC, a direct
+  --   grant, or membership of another role).
+  declare
+    f record;
+    allowed regprocedure[] := array['public.find_user_id_by_email(text)'::regprocedure];
+    service_oid oid := (select r.oid from pg_catalog.pg_roles r where r.rolname = 'service_role');
+    unexpected text[] := '{}';
+    kept text[] := '{}';
+    why text;
+  begin
+    for f in
+      select p.oid, p.oid::regprocedure::text as name, p.prorettype, p.proacl,
+             exists (select 1 from pg_catalog.pg_depend d
+                      where d.classid = 'pg_catalog.pg_proc'::regclass and d.objid = p.oid and d.deptype = 'e') as from_extension
+        from pg_catalog.pg_proc p join pg_catalog.pg_namespace n on n.oid = p.pronamespace
+       where n.nspname = 'public' and p.prokind = 'f'
+         and has_function_privilege('service_role', p.oid, 'EXECUTE')
+       order by 2
+    loop
+      continue when f.oid = any (allowed::oid[]);
+      why := case
+        when f.proacl is null then 'PUBLIC (default ACL)'
+        when exists (select 1 from pg_catalog.aclexplode(f.proacl) a where a.grantee = 0 and a.privilege_type = 'EXECUTE') then 'PUBLIC grant'
+        when exists (select 1 from pg_catalog.aclexplode(f.proacl) a where a.grantee = service_oid and a.privilege_type = 'EXECUTE') then 'direct grant to service_role'
+        else 'membership of another role'
+      end;
+      if f.prorettype in ('pg_catalog.trigger'::regtype, 'pg_catalog.event_trigger'::regtype) then
+        kept := kept || (f.name || ' [trigger function; ' || why || ']');
+      elsif f.from_extension then
+        kept := kept || (f.name || ' [extension function; ' || why || ']');
+      else
+        unexpected := unexpected || (f.name || ' [' || why || ']');
+      end if;
+    end loop;
+
+    if cardinality(kept) > 0 then
+      raise notice 'NOTE: service_role can execute these public functions, kept by rule: %', array_to_string(kept, '; ');
+    end if;
+    if cardinality(unexpected) > 0 then
+      raise exception 'FAIL: service_role can execute public functions outside the allowed list: %', array_to_string(unexpected, '; ');
+    end if;
+  end;
+  if not has_function_privilege('service_role', 'public.find_user_id_by_email(text)', 'EXECUTE')
+     or has_function_privilege('authenticated', 'public.find_user_id_by_email(text)', 'EXECUTE')
+     or has_function_privilege('anon', 'public.find_user_id_by_email(text)', 'EXECUTE') then
+    raise exception 'FAIL: find_user_id_by_email() execute is not service_role-only';
+  end if;
+  -- PUBLIC explicitly: no grant to grantee 0, and an explicit ACL (a null ACL means PUBLIC may execute).
+  if exists (
+    select 1 from pg_catalog.pg_proc p, pg_catalog.aclexplode(p.proacl) a
+     where p.oid = 'public.find_user_id_by_email(text)'::regprocedure and a.grantee = 0
+  ) or (select p.proacl is null from pg_catalog.pg_proc p where p.oid = 'public.find_user_id_by_email(text)'::regprocedure) then
+    raise exception 'FAIL: PUBLIC can execute find_user_id_by_email()';
+  end if;
+  -- Only the owner and service_role hold execute on it.
+  if exists (
+    select 1 from pg_catalog.pg_proc p, pg_catalog.aclexplode(p.proacl) a
+     where p.oid = 'public.find_user_id_by_email(text)'::regprocedure
+       and a.privilege_type = 'EXECUTE'
+       and a.grantee <> p.proowner
+       and a.grantee <> (select r.oid from pg_catalog.pg_roles r where r.rolname = 'service_role')
+  ) then
+    raise exception 'FAIL: a role other than its owner and service_role holds execute on find_user_id_by_email()';
+  end if;
+  if not has_function_privilege('authenticated', 'public.touch_last_active()', 'EXECUTE')
+     or has_function_privilege('anon', 'public.touch_last_active()', 'EXECUTE')
+     or not has_function_privilege('anon', 'public.get_founder_spots_left(text)', 'EXECUTE')
+     or not has_function_privilege('authenticated', 'public.get_founder_spots_left(text)', 'EXECUTE') then
+    raise exception 'FAIL: anon or authenticated function privileges changed';
+  end if;
+  if not exists (
+    select 1 from pg_catalog.pg_proc p join pg_catalog.pg_roles r on r.oid = p.proowner
+     where p.oid = 'public.find_user_id_by_email(text)'::regprocedure
+       and p.prosecdef and 'search_path=""' = any (p.proconfig)
+  ) then
+    raise exception 'FAIL: find_user_id_by_email() is not security definer with search_path ''''';
+  end if;
+  raise notice 'PASS: function privileges: service_role only find_user_id_by_email() (plus trigger and extension functions); anon and authenticated unchanged';
 end;
 $$;
 
@@ -524,11 +735,12 @@ begin
 end;
 $$;
 
--- Seed initial test purchases for user A and user B (simulating the webhook service role).
+-- Seed initial test purchases for user A and user B (simulating the webhook service role), at the
+-- real founder price, so each one takes a founder spot.
 insert into public.purchases (user_id, product, status, provider, provider_order_id, amount, currency)
 values
-  ('11111111-1111-4111-8111-111111111111', 'lessons', 'active', 'dodo', 'ord_test_a_001', 800, 'usd'),
-  ('22222222-2222-4222-8222-222222222222', 'lessons', 'active', 'dodo', 'ord_test_b_001', 800, 'usd');
+  ('11111111-1111-4111-8111-111111111111', 'lessons', 'active', 'dodo', 'ord_test_a_001', rls_test.founder_amount(), 'usd'),
+  ('22222222-2222-4222-8222-222222222222', 'lessons', 'active', 'dodo', 'ord_test_b_001', rls_test.founder_amount(), 'usd');
 
 -- Seed user C at every cap (as postgres, which bypasses RLS and grants).
 insert into public.exercise_results (user_id, lesson_id, exercise_id, correct, attempts, correct_count, last_result, last_attempt_at)
@@ -619,6 +831,12 @@ set local role anon;
 select rls_test.anon_nothing();
 reset role;
 
+-- ===================================================================== service_role (payment webhook)
+select set_config('request.jwt.claims', '{"role":"service_role"}', true);
+set local role service_role;
+select rls_test.service_role_checks();
+reset role;
+
 -- ===================================================================== each user deletes own rows
 select set_config('request.jwt.claims', '{"sub":"11111111-1111-4111-8111-111111111111","role":"authenticated"}', true);
 set local role authenticated;
@@ -672,8 +890,9 @@ begin
   if not exists (select 1 from public.purchases where user_id = '22222222-2222-4222-8222-222222222222') then
     raise exception 'FAIL: deleting user A removed B''s purchase';
   end if;
-  if public.get_founder_spots_left('lessons') <> 99 then
-    raise exception 'FAIL: get_founder_spots_left() did not reflect cascaded deletion (got %, expected 99)', public.get_founder_spots_left('lessons');
+  if public.get_founder_spots_left('lessons') <> rls_test.spots_expected(1) then
+    raise exception 'FAIL: get_founder_spots_left() did not reflect cascaded deletion (got %, expected %)',
+      public.get_founder_spots_left('lessons'), rls_test.spots_expected(1);
   end if;
   raise notice 'PASS: deleting users A and C cascaded to the profile, progress, writing tasks and purchases, and left B alone';
   raise notice 'PASS: ALL RLS CHECKS PASSED';

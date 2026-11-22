@@ -37,6 +37,12 @@ In the SQL Editor, for each file below, paste the whole file, click **Run**, and
 4. `supabase/migrations/0004_activity.sql`: the `touch_last_active()` function.
 5. `supabase/migrations/0005_payments.sql`: `purchases`, `pricing_settings`, `get_founder_spots_left()`, and their RLS policies.
 6. `supabase/migrations/0006_progress_sync.sql`: `writing_task_progress`, `exercise_results.last_attempt_at`, drops `lesson_scores` (only if empty) and the `(user_id, lesson_id)` index, revokes direct insert and update on the progress tables, and adds `apply_progress()`, the only write path for progress.
+7. `supabase/migrations/0007_service_role_grants.sql`: what the payment webhook's service-role client needs, and nothing else.
+   - It adds `unmatched_payment_events` and `find_user_id_by_email()`.
+   - It revokes everything from service_role in `public`, then grants select, insert and update on `purchases`, select and insert on `unmatched_payment_events`, and execute on `find_user_id_by_email()`.
+   - Run it after 0005; it doesn't need 0006.
+   - Why it exists: 0003 and 0005 never grant anything to service_role, so it had only what the project's default privileges gave it, which was nothing on `purchases`. The webhook failed with 42501 until the grant was added by hand.
+   - Recovery steps are in docs/payments-recovery.md.
 
 Each file is safe to run again (`create table if not exists`, `create or replace function`, `drop ... if exists` before each trigger and policy). Running them again doesn't change data. One exception: if you change a column in a file after the table exists, `create table if not exists` won't apply it. Write a new numbered migration for that.
 
@@ -51,7 +57,7 @@ Run 0003 straight after 0002. Run 0005 after 0001 (which provides `set_updated_a
 
 ## 2. Run the RLS test
 
-1. In the SQL Editor, open a new query, paste the whole of `supabase/tests/rls.sql`, and click **Run**. It needs 0001 to 0006.
+1. In the SQL Editor, open a new query, paste the whole of `supabase/tests/rls.sql`, and click **Run**. It needs 0001 to 0007.
 2. It runs in one transaction that ends in `rollback`, so it leaves nothing behind: no test users, no rows, no test schema. It seeds about 6,800 rows for one test user to check the caps; they're rolled back too.
 
 **Expected output:**
@@ -86,7 +92,38 @@ Each check also raises a notice such as `PASS: user B inserts lesson_progress fo
   - New rows are refused with `cap_reached`, and existing rows still update.
   - `import-exercise` keeps the larger counts and the newer result; `import-lesson` keeps the best, the earliest completion and the latest run. Both are idempotent.
 - **As `anon`:** progress tables and `purchases` are refused or return 0 rows; every insert, update and delete is refused; `touch_last_active()` and `apply_progress()` are refused; `pricing_settings` can be read; `get_founder_spots_left()` can be called.
+- **Exact privileges (0007).**
+  - The test checks every table privilege in `public`: service_role on every table, authenticated and anon on the tables these migrations manage. Each must match exactly what's granted.
+  - service_role can execute only `find_user_id_by_email()`, which is security definer with an empty search_path. anon and authenticated can't execute it, and their other function rights are unchanged.
+- **As `service_role`:**
+  - It inserts, reads and updates a purchase; a duplicate payment id is refused (23505), and so is a delete.
+  - It records and reads an unmatched event; a duplicate is refused (23505), and so are updates and deletes.
+  - It finds a user by email in another case, with spaces around it, and gets null for an unknown email.
+  - It can't read profiles or progress, update pricing, or call `apply_progress()` or `get_founder_spots_left()`.
+  - Users and anon can't read `unmatched_payment_events` or call `find_user_id_by_email()`.
 - **Deleting a user** in `auth.users` removes their profile, every progress row (writing tasks included), and their `purchases`, and leaves the other user alone.
+
+**If the service_role function check fails**, the error names each function and why service_role can run it. To see the full list on its own:
+
+```sql
+select p.oid::regprocedure as function,
+       pg_get_function_result(p.oid) as returns,
+       case when p.proacl is null then 'PUBLIC (default ACL)'
+            when exists (select 1 from aclexplode(p.proacl) a where a.grantee = 0 and a.privilege_type = 'EXECUTE') then 'PUBLIC grant'
+            when exists (select 1 from aclexplode(p.proacl) a join pg_roles r on r.oid = a.grantee
+                          where r.rolname = 'service_role' and a.privilege_type = 'EXECUTE') then 'direct grant'
+            else 'membership of another role' end as why,
+       e.extname as extension
+  from pg_proc p
+  join pg_namespace n on n.oid = p.pronamespace
+  left join pg_depend d on d.classid = 'pg_proc'::regclass and d.objid = p.oid and d.deptype = 'e'
+  left join pg_extension e on e.oid = d.refobjid
+ where n.nspname = 'public' and p.prokind = 'f'
+   and has_function_privilege('service_role', p.oid, 'EXECUTE')
+ order by 1;
+```
+
+Trigger and event-trigger functions, and functions that belong to an extension, are allowed by the test. Anything else needs a decision: what calls it, and whether to revoke PUBLIC. A PUBLIC grant also lets anon and authenticated call it.
 
 ## 3. Check "RLS enabled" in the dashboard
 
@@ -122,6 +159,7 @@ The progress tables mirror `lib/progress.ts`, so a later `SupabaseProgressStore`
 | `saved_vocab` | user and vocab entry | `vocab_id`, `lesson_id`, `saved_at` | Words saved for review (for spaced repetition later). Not used by the app yet. |
 | `purchases` | purchase | `id`, `user_id`, `product`, `status`, `provider`, `provider_order_id`, `amount`, `currency`, `created_at`, `updated_at`, `refunded_at` | Lifetime entitlements and payment order history. Written strictly by server webhooks via service role key. |
 | `pricing_settings` | product | `product`, `currency`, `founder_price_cents`, `standard_price_cents`, `founder_cap`, `is_active`, `created_at`, `updated_at` | Editable pricing plans and founder caps without redeploying (seeded with $8 founder, $12 standard, cap 100). |
+| `unmatched_payment_events` | provider, order and reason | `id`, `provider`, `provider_order_id`, `event_type`, `event_id`, `reason`, `product`, `amount`, `currency`, `received_at`, `resolved_at` | Payment, refund or dispute events the webhook couldn't apply (no matching user, bad data, refund before payment). One row per (provider, order, reason), so a resend adds nothing. No email, name or user id. RLS forced with no policy; only service_role (insert, select) and the owner reach it. Set `resolved_at` once handled (docs/payments-recovery.md). |
 
 `lesson_scores` (append-only run history) was dropped by 0006: the plan keeps no history, to stay within the free plan's storage.
 
@@ -132,6 +170,11 @@ The progress tables mirror `lib/progress.ts`, so a later `SupabaseProgressStore`
 - `saved_vocab`: select, insert, delete (no update: a word is saved or unsaved).
 - `purchases`: select only. No insert, update, or delete (writes happen only via the webhook using the service role).
 - `pricing_settings`: select only (`anon` also has select). No insert, update, or delete.
+- `unmatched_payment_events`: nothing.
+
+`service_role` (0007; the payment webhook only) has select, insert and update on `purchases`, select and insert on `unmatched_payment_events`, execute on `find_user_id_by_email()`, and nothing else in `public`. It bypasses RLS, as on every Supabase project.
+
+**`find_user_id_by_email(p_email)`** returns the id of the one auth user whose email matches, ignoring case and surrounding spaces. It returns null when no user matches, or when more than one does. It is `security definer` with `set search_path = ''`, and only service_role can execute it.
 
 Every policy on user-scoped tables compares `(select auth.uid())` with `user_id` (`id` for profiles), in USING and, where there is one, WITH CHECK. A user can neither see another user's rows nor write or move a row to another id. RLS is also forced, so the table owner is subject to it; roles with BYPASSRLS (Supabase's `postgres` and service role) are not.
 
@@ -183,9 +226,10 @@ select c.relname, pg_size_pretty(pg_total_relation_size(c.oid)) as total
 
 ## 9. Undo
 
+- `supabase/rollback/0007_service_role_grants.sql`: drops `unmatched_payment_events` (export unresolved rows first) and `find_user_id_by_email()`, and revokes service_role's privileges on `purchases`. **After it, the webhook fails with 42501 again**, unless the project's default privileges grant them.
 - `supabase/rollback/0006_progress_sync.sql`: drops `apply_progress()`, `writing_task_progress` (deleting writing-task records) and `exercise_results.last_attempt_at`; restores the index and the direct insert and update grants; recreates an empty `lesson_scores`. `lesson_progress` and `exercise_results` rows are kept.
 - `supabase/rollback/0005_payments.sql`: drops `get_founder_spots_left()`, `purchases`, and `pricing_settings`.
-- `supabase/rollback/rollback_all.sql`: drops everything the migrations create (0001 to 0006), in dependency order. **It deletes every profile, all learner progress, and all purchases, with no undo.** It leaves `auth.users` alone. Never use it to undo only the progress sync.
+- `supabase/rollback/rollback_all.sql`: drops everything the migrations create (0001 to 0007), in dependency order. **It deletes every profile, all learner progress, and all purchases, with no undo.** It leaves `auth.users` alone. Never use it to undo only the progress sync.
 
 ## 10. Not done yet
 

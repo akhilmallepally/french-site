@@ -113,18 +113,15 @@ export class LemonSqueezyPaymentProvider implements PaymentProvider {
 
     if (eventName === "order_created") {
       const orderId = String(data.id ?? "");
-      const userId = String(customData.user_id ?? "");
-      const product = (customData.product ?? "lessons") as ProductKey;
+      const userId = customData.user_id ? String(customData.user_id) : undefined;
+      const customerEmail = attributes.user_email ? String(attributes.user_email) : undefined;
+      const product = String(customData.product ?? "lessons");
       const amountCents = Number(attributes.total ?? 0);
       const currency = String(attributes.currency ?? "usd").toLowerCase();
       const metadataSignature = customData.metadata_signature ? String(customData.metadata_signature) : undefined;
 
-      if (!orderId || !userId) {
-        return {
-          type: "ignored",
-          provider: "lemonsqueezy",
-          reason: "order_created missing id or user_id in custom_data",
-        };
+      if (!orderId) {
+        return { type: "ignored", provider: "lemonsqueezy", reason: "order_created missing id" };
       }
 
       return {
@@ -132,6 +129,7 @@ export class LemonSqueezyPaymentProvider implements PaymentProvider {
         provider: "lemonsqueezy",
         orderId,
         userId,
+        customerEmail,
         product,
         amountCents,
         currency,

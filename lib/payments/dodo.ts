@@ -147,18 +147,17 @@ export class DodoPaymentProvider implements PaymentProvider {
     if (eventType === "payment.succeeded") {
       const orderId = String(data.payment_id ?? data.id ?? "");
       const metadata = data.metadata ?? {};
-      const userId = String(metadata.user_id ?? "");
-      const product = (metadata.product ?? "lessons") as ProductKey;
+      const userId = metadata.user_id ? String(metadata.user_id) : undefined;
+      const customerEmail = data.customer?.email ?? data.billing?.email;
+      const product = String(metadata.product ?? "lessons");
       const amountCents = Number(data.total_amount ?? data.amount ?? 0);
       const currency = String(data.currency ?? "usd").toLowerCase();
       const metadataSignature = metadata.metadata_signature ? String(metadata.metadata_signature) : undefined;
 
-      if (!orderId || !userId) {
-        return {
-          type: "ignored",
-          provider: "dodo",
-          reason: "payment.succeeded missing payment_id or user_id in metadata",
-        };
+      // Without a payment id there is nothing to key the purchase on. A missing user id is fine:
+      // the processor falls back to the buyer's email, then records the event as unmatched.
+      if (!orderId) {
+        return { type: "ignored", provider: "dodo", reason: "payment.succeeded missing payment_id" };
       }
 
       return {
@@ -166,6 +165,7 @@ export class DodoPaymentProvider implements PaymentProvider {
         provider: "dodo",
         orderId,
         userId,
+        customerEmail: customerEmail ? String(customerEmail) : undefined,
         product,
         amountCents,
         currency,

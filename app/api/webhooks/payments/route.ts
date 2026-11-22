@@ -38,16 +38,22 @@ export async function POST(request: Request) {
     );
   }
 
-  // 5. Process the event with idempotency and monotonic state transitions
+  // 5. Process the event. It returns normally (HTTP 200) when the event was applied, was a resend,
+  // or was recorded in unmatched_payment_events; it throws only for errors worth retrying.
+  // The Standard Webhooks message id (Dodo) is kept with any unmatched event so it can be found.
+  const eventId = request.headers.get("webhook-id");
   try {
-    const result = await processWebhookEvent(event);
-    return NextResponse.json({ received: true, outcome: result.outcome }, { status: 200 });
+    const result = await processWebhookEvent(event, undefined, { eventId });
+    return NextResponse.json(
+      { received: true, outcome: result.outcome, ...(result.reason ? { reason: result.reason } : {}) },
+      { status: 200 }
+    );
   } catch (error) {
     console.error(
-      "[payments:route] Transient error processing webhook:",
+      "[payments:route] Retryable error processing webhook:",
       error instanceof Error ? error.message : error
     );
-    // Return 500 so provider retries automatically
+    // Return 500 so the provider retries automatically
     return new Response("Internal Server Error", { status: 500 });
   }
 }

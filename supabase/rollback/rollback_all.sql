@@ -1,11 +1,15 @@
 -- rollback_all.sql
 -- WARNING: THIS DELETES USER DATA. It drops every table, policy, trigger and function created by
--- supabase/migrations/0001 to 0006, including all profiles, learner progress, writing-task records,
--- purchases, and pricing. To undo only the progress sync, use rollback/0006_progress_sync.sql instead.
+-- supabase/migrations/0001 to 0007, including all profiles, learner progress, writing-task records,
+-- purchases, unmatched payment events, and pricing. To undo only the progress sync, use rollback/0006_progress_sync.sql instead.
 -- It does not touch auth.users: accounts stay, but lose their profile, progress, and entitlements.
 -- There is no undo. Export anything you need first.
 
 begin;
+
+-- Service-role grants and unmatched payment events (0007)
+drop function if exists public.find_user_id_by_email(text);
+drop table if exists public.unmatched_payment_events;
 
 -- Payments (0005)
 drop function if exists public.get_founder_spots_left(text);
