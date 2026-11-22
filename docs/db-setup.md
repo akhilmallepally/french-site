@@ -1,27 +1,58 @@
 # Database setup: tables and RLS
 
-This sets up the Supabase tables for profiles and learner progress, protected by row level security (RLS). The SQL is in `supabase/`. Nothing in the app reads or writes these tables yet: see "Not done yet" at the end.
+This sets up the Supabase tables for profiles, learner progress and payments, protected by row level security (RLS). The SQL is in `supabase/`. The app reads and writes `purchases` and `pricing_settings` (payments). It doesn't use the progress tables yet: see "Not done yet" at the end and docs/plans/progress.md.
 
-**None of this SQL has been run yet.** It was written without connecting to any database. Run it yourself, in order, and run the RLS test before relying on it.
+**0006 has not been run anywhere yet.** It was written without connecting to any database (no local Postgres or Supabase CLI was available). Run it yourself, in the order below, and run the RLS test before relying on it.
+
+## 0. Check what has already run (step 0)
+
+In the Supabase dashboard, open **SQL Editor**, then **New query**, and run each query on its own:
+
+```sql
+-- Which tables exist in public?
+select table_name from information_schema.tables
+ where table_schema = 'public' order by 1;
+
+-- Is lesson_scores empty? (0006 drops it only if it is.)
+select count(*) from public.lesson_scores;
+
+-- RLS enabled and forced on every table?
+select c.relname, c.relrowsecurity as rls_enabled, c.relforcerowsecurity as rls_forced
+  from pg_class c join pg_namespace n on n.oid = c.relnamespace
+ where n.nspname = 'public' and c.relkind = 'r' order by 1;
+
+-- Is 0006 already in? (true = yes)
+select to_regprocedure('public.apply_progress(jsonb)') is not null as has_0006;
+```
+
+Expected before 0006: `exercise_results`, `lesson_progress`, `lesson_scores`, `pricing_settings`, `profiles`, `purchases` and `saved_vocab`; `lesson_scores` count 0; `true` and `true` for every table. If a table is missing, run the migrations it belongs to (section 1) first.
 
 ## 1. Run the migrations
 
-In the Supabase dashboard, open **SQL Editor**, then **New query**. For each file below, paste the whole file, click **Run**, and check that it says "Success" before moving on.
+In the SQL Editor, for each file below, paste the whole file, click **Run**, and check that it says "Success" before moving on.
 
 1. `supabase/migrations/0001_profiles.sql`: the `profiles` table, the sign-up trigger, the shared `updated_at` trigger, and a profile for every user who already signed in.
 2. `supabase/migrations/0002_progress.sql`: `lesson_progress`, `exercise_results`, `lesson_scores` and `saved_vocab`.
 3. `supabase/migrations/0003_rls.sql`: RLS on, privileges and policies for profile and progress tables.
 4. `supabase/migrations/0004_activity.sql`: the `touch_last_active()` function.
 5. `supabase/migrations/0005_payments.sql`: `purchases`, `pricing_settings`, `get_founder_spots_left()`, and their RLS policies.
+6. `supabase/migrations/0006_progress_sync.sql`: `writing_task_progress`, `exercise_results.last_attempt_at`, drops `lesson_scores` (only if empty) and the `(user_id, lesson_id)` index, revokes direct insert and update on the progress tables, and adds `apply_progress()`, the only write path for progress.
 
 Each file is safe to run again (`create table if not exists`, `create or replace function`, `drop ... if exists` before each trigger and policy). Running them again doesn't change data. One exception: if you change a column in a file after the table exists, `create table if not exists` won't apply it. Write a new numbered migration for that.
 
 Run 0003 straight after 0002. Run 0005 after 0001 (which provides `set_updated_at()`). Until migrations run, new tables have Supabase's default grants and no RLS.
 
+**0006 runs in one transaction.** It stops with an error, changing nothing, if:
+
+- 0001 to 0003 haven't run, or
+- `lesson_scores` has any rows ("0006: public.lesson_scores is not empty (N rows)…"). Nothing writes to it, so this shouldn't happen. If it does, export the rows and tell me before going further.
+
+**Order for 0006:** run 0006, then `supabase/tests/rls.sql` (section 2), then the Security Advisor (section 4).
+
 ## 2. Run the RLS test
 
-1. In the SQL Editor, open a new query, paste the whole of `supabase/tests/rls.sql`, and click **Run**.
-2. It runs in one transaction that ends in `rollback`, so it leaves nothing behind: no test users, no rows, no test schema.
+1. In the SQL Editor, open a new query, paste the whole of `supabase/tests/rls.sql`, and click **Run**. It needs 0001 to 0006.
+2. It runs in one transaction that ends in `rollback`, so it leaves nothing behind: no test users, no rows, no test schema. It seeds about 6,800 rows for one test user to check the caps; they're rolled back too.
 
 **Expected output:**
 
@@ -32,22 +63,40 @@ Each check also raises a notice such as `PASS: user B inserts lesson_progress fo
 
 **What it covers:**
 
-- Every table has RLS enabled and forced; every policy on user-scoped tables is `to authenticated`; none uses `true`.
-- The owner of the sign-up trigger function bypasses RLS (needed because RLS is forced; Supabase's `postgres` role does).
-- Two fake users are created in `auth.users`, and the trigger creates both profiles from `raw_user_meta_data`.
-- As each user: insert, read, update and delete their own rows in every progress table; read own `purchases`; the check constraints; no changing `id`, `created_at` or `user_id`; no insert, update, or delete on `purchases`; no insert or delete on `profiles`; no update on `lesson_scores` or `saved_vocab`; read active `pricing_settings`; no insert, update, or delete on `pricing_settings`; `touch_last_active()` stamps only their own profile; `get_founder_spots_left()` returns remaining spots.
-- As each user, against the other user's id: read (0 rows), update (0 rows or refused), delete (0 rows or refused) and insert (refused) in every user table. Afterwards, both users' rows are checked unchanged.
-- As `anon`: `purchases` and all progress tables are refused or return 0 rows; every insert, update and delete is refused; `touch_last_active()` is refused; `pricing_settings` can be read; `get_founder_spots_left()` can be called.
-- Deleting a user in `auth.users` removes their profile, every progress row, and their `purchases`, and leaves the other user alone.
+- **Structure.**
+  - Every table has RLS enabled and forced; every policy on user-scoped tables is `to authenticated`, and none uses `true`.
+  - The owners of the sign-up trigger function and of `apply_progress()` bypass RLS.
+  - `apply_progress()` is security definer with an empty search_path; PUBLIC and anon can't execute it, and authenticated can.
+  - `lesson_scores` and `exercise_results_user_lesson_idx` are gone.
+  - `writing_task_progress` has exactly its seven columns, and no text-like column but the two ids.
+  - Authenticated can select and delete the three progress tables, but not insert or update them.
+- **Two fake users** in `auth.users`; the trigger creates both profiles from `raw_user_meta_data`.
+- **As each user, own rows:**
+  - Direct inserts into the progress tables are refused, and so are direct updates.
+  - Bad entries are rejected with their codes and write nothing: score above total, total 0 or 1,001, a bad lesson id, an exercise from another lesson, a bad result, 25 hours ahead, a malformed time, an unknown kind, a tick index of 10, counts that disagree with the result.
+  - Runs: best by ratio, the earliest completion, the latest run; a resent run and a worse import change nothing.
+  - Attempts: a resent attempt and an older attempt aren't counted; a newer one is. A time 23 hours ahead is stored exactly as sent.
+  - Writing tasks: ticks are deduplicated and sorted, an older record is ignored, and a newer one wins whole.
+  - `saved_vocab`, `purchases`, `pricing_settings`, `touch_last_active()` and `get_founder_spots_left()` as before.
+- **As each user, against the other user's id:**
+  - Read gives 0 rows, update is refused, delete touches 0 rows, and insert is refused, in every user table.
+  - An `apply_progress()` entry naming the other user is written for the caller only.
+  - Afterwards, both users' rows are checked unchanged.
+- **A third user at every cap** (6,000 exercises, 600 lessons, 200 writing tasks):
+  - New rows are refused with `cap_reached`, and existing rows still update.
+  - `import-exercise` keeps the larger counts and the newer result; `import-lesson` keeps the best, the earliest completion and the latest run. Both are idempotent.
+- **As `anon`:** progress tables and `purchases` are refused or return 0 rows; every insert, update and delete is refused; `touch_last_active()` and `apply_progress()` are refused; `pricing_settings` can be read; `get_founder_spots_left()` can be called.
+- **Deleting a user** in `auth.users` removes their profile, every progress row (writing tasks included), and their `purchases`, and leaves the other user alone.
 
 ## 3. Check "RLS enabled" in the dashboard
 
 1. Open **Table Editor** and pick the `public` schema.
-2. Open each of `profiles`, `lesson_progress`, `exercise_results`, `lesson_scores`, `saved_vocab`, `purchases` and `pricing_settings`. None should show the "RLS disabled" or "Unrestricted" warning.
+2. Open each of `profiles`, `lesson_progress`, `exercise_results`, `writing_task_progress`, `saved_vocab`, `purchases` and `pricing_settings`. None should show the "RLS disabled" or "Unrestricted" warning.
 3. Open **Authentication**, then **Policies**. Each table lists its policies:
    - `profiles`: read and update for `authenticated`.
-   - `lesson_progress` and `exercise_results`: read, insert, update and delete for `authenticated`.
-   - `lesson_scores` and `saved_vocab`: read, insert and delete for `authenticated`.
+   - `lesson_progress` and `exercise_results`: read, insert, update and delete for `authenticated`. The insert and update policies stay, but there's no insert or update grant since 0006, so they're unused.
+   - `writing_task_progress`: read and delete for `authenticated`.
+   - `saved_vocab`: read, insert and delete for `authenticated`.
    - `purchases`: read for `authenticated`.
    - `pricing_settings`: read for `authenticated` and `anon`.
 
@@ -56,7 +105,8 @@ Each check also raises a notice such as `PASS: user B inserts lesson_progress fo
 After the migrations, open **Advisors**, then **Security Advisor**, and click **Refresh** (or "Rerun linter").
 
 - There should be no error for these tables (no "RLS disabled in public", no "Policy exists RLS disabled").
-- The four functions (`set_updated_at`, `handle_new_user`, `touch_last_active`, `get_founder_spots_left`) set `search_path = ''`, so "Function search path mutable" shouldn't appear for them.
+- The five functions (`set_updated_at`, `handle_new_user`, `touch_last_active`, `get_founder_spots_left`, `apply_progress`) set `search_path = ''`, so "Function search path mutable" shouldn't appear for them.
+- `apply_progress` is `security definer` and callable by signed-in users. The advisor may list it as a security definer function exposed through the API; that's intended. It takes the user only from `auth.uid()` and checks every entry.
 - Fix or note anything it reports about these objects before building on them. Warnings about Auth settings (for example leaked password protection) aren't from these migrations.
 
 ## 5. What the tables store and why
@@ -66,22 +116,26 @@ The progress tables mirror `lib/progress.ts`, so a later `SupabaseProgressStore`
 | Table | One row per | Columns | Why |
 |---|---|---|---|
 | `profiles` | user | `id`, `display_name`, `avatar_url`, `created_at`, `updated_at`, `last_active_at` | Name and picture from Google, and "last active" for streaks later. Created by the sign-up trigger. |
-| `lesson_progress` | user and lesson | `lesson_id`, `status` (`in_progress` or `completed`), `best_score`, `best_total`, `last_run_at`, `completed_at`, `updated_at` | `LessonProgress` in lib/progress.ts: `bestScore`, `bestTotal` and `lastCompletedAt` (= `last_run_at`). `status` and `completed_at` record when `isCompleted()` first became true. |
-| `exercise_results` | user and exercise | `lesson_id`, `exercise_id`, `correct`, `attempts`, `correct_count`, `last_result`, `updated_at` | `ExerciseProgress`: `attempts`, `correct` (a count, = `correct_count`), `lastResult` (`correct`, `correct-accents` or `incorrect`) and `lastAttemptedAt` (= `updated_at`). `correct` is true when the last answer was accepted. `lesson_id` lets a lesson's results be read in one query. |
-| `lesson_scores` | finished full run | `id`, `lesson_id`, `score`, `total`, `created_at` | Every `recordRun`, append-only, so history isn't lost when only the best is kept. |
+| `lesson_progress` | user and lesson | `lesson_id`, `status` (`in_progress` or `completed`), `best_score`, `best_total`, `last_run_at`, `completed_at`, `updated_at` | `LessonProgress` in lib/progress.ts: `bestScore`, `bestTotal` and `lastCompletedAt` (= `last_run_at`). `status` and `completed_at` record when the best run first reached the pass mark (score / total ≥ 0.8). |
+| `exercise_results` | user and exercise | `lesson_id`, `exercise_id`, `correct`, `attempts`, `correct_count`, `last_result`, `last_attempt_at`, `updated_at` | `ExerciseProgress`: `attempts`, `correct` (a count, = `correct_count`), `lastResult` (`correct`, `correct-accents` or `incorrect`) and `lastAttemptedAt` (= `last_attempt_at`, the client's time of the latest counted attempt). `correct` is true when the last answer was accepted. |
+| `writing_task_progress` | user and C2 writing task | `exercise_id`, `lesson_id`, `done`, `checked`, `done_at`, `updated_at` | "Done" and the ticked checklist indices (0 to 9). **No text column, by design**: the learner's text stays in the browser (lib/writing-draft.ts). A row exists only once the task is marked done; the app has no way to un-mark it. |
 | `saved_vocab` | user and vocab entry | `vocab_id`, `lesson_id`, `saved_at` | Words saved for review (for spaced repetition later). Not used by the app yet. |
 | `purchases` | purchase | `id`, `user_id`, `product`, `status`, `provider`, `provider_order_id`, `amount`, `currency`, `created_at`, `updated_at`, `refunded_at` | Lifetime entitlements and payment order history. Written strictly by server webhooks via service role key. |
 | `pricing_settings` | product | `product`, `currency`, `founder_price_cents`, `standard_price_cents`, `founder_cap`, `is_active`, `created_at`, `updated_at` | Editable pricing plans and founder caps without redeploying (seeded with $8 founder, $12 standard, cap 100). |
 
+`lesson_scores` (append-only run history) was dropped by 0006: the plan keeps no history, to stay within the free plan's storage.
+
 **Privileges.** `anon` and `public` have none by default. `authenticated` has:
 
 - `profiles`: select, and update of `display_name`, `avatar_url` and `last_active_at` only. No insert (the trigger creates the row) and no delete (deleting the user cascades).
-- `lesson_progress`, `exercise_results`: select, insert, update, delete.
-- `lesson_scores`, `saved_vocab`: select, insert, delete (no update: runs are append-only, and a word is saved or unsaved).
+- `lesson_progress`, `exercise_results`, `writing_task_progress`: select and delete only. Writes go through `apply_progress()`.
+- `saved_vocab`: select, insert, delete (no update: a word is saved or unsaved).
 - `purchases`: select only. No insert, update, or delete (writes happen only via the webhook using the service role).
 - `pricing_settings`: select only (`anon` also has select). No insert, update, or delete.
 
-Every policy on user-scoped tables compares `(select auth.uid())` with `user_id` (`id` for profiles) in both USING and WITH CHECK, so a user can neither see another user's rows nor write or move a row to another id. RLS is also forced, so the table owner is subject to it; roles with BYPASSRLS (Supabase's `postgres` and service role) are not.
+Every policy on user-scoped tables compares `(select auth.uid())` with `user_id` (`id` for profiles), in USING and, where there is one, WITH CHECK. A user can neither see another user's rows nor write or move a row to another id. RLS is also forced, so the table owner is subject to it; roles with BYPASSRLS (Supabase's `postgres` and service role) are not.
+
+**`apply_progress(p_items jsonb)`** applies up to 200 entries for the caller, in order, and returns `{"applied": [keys], "rejected": [{"key", "code"}]}`. The entry shapes, checks, caps and merge rules are documented at the top of the function in 0006 and in docs/plans/progress.md, section 7. It is `security definer` with `set search_path = ''`. It takes the user only from `auth.uid()` and filters every statement on it. Only `authenticated` can execute it (execute is revoked from PUBLIC, `anon` and `service_role`).
 
 **`touch_last_active()`** sets the caller's `last_active_at` to now. It is security invoker, so it runs with the caller's rights and RLS. Only `authenticated` can execute it. The app doesn't call it yet.
 
@@ -91,29 +145,51 @@ Every policy on user-scoped tables compares `(select auth.uid())` with `user_id`
 
 Delete the user in **Authentication**, then **Users** (or through the Admin API). Every user table references `auth.users(id)` with `on delete cascade`, so Postgres deletes the user's profile, every progress row, and all `purchases` in the same statement. The RLS test checks this. Nothing else holds user data.
 
-## 7. Undo
+## 7. Orphan ids and size
 
+Ids are permanent, but if a lesson or exercise is ever removed, its rows stay and the app ignores them. To list progress rows whose ids are no longer in the content, export the current ids first (`npm run audit:content` lists every lesson and exercise id in docs/all-data.md), then compare:
+
+```sql
+-- Lesson and exercise ids with stored progress, and how many users each has.
+select 'lesson' as kind, lesson_id as id, count(*) as users from public.lesson_progress group by lesson_id
+union all
+select 'exercise', exercise_id, count(*) from public.exercise_results group by exercise_id
+union all
+select 'writing', exercise_id, count(*) from public.writing_task_progress group by exercise_id
+order by kind, id;
+```
+
+Paste the current ids into a `values` list to find the orphans directly, for example `select lesson_id from public.lesson_progress except select * from (values ('a1-etre-present'), …) as v(id);`. Deleting orphans is the owner's call; nothing deletes them automatically.
+
+Database size (free plan: 500 MB): the project's **Usage** page shows "Database Size"; in SQL:
+
+```sql
+select pg_size_pretty(pg_database_size(current_database()));
+select c.relname, pg_size_pretty(pg_total_relation_size(c.oid)) as total
+  from pg_class c join pg_namespace n on n.oid = c.relnamespace
+ where n.nspname = 'public' and c.relkind = 'r'
+ order by pg_total_relation_size(c.oid) desc;
+```
+
+## 8. Manual checklist (after the store ships, rollout step 7)
+
+1. Two Google accounts in two browsers: each sees only its own progress on `/lessons` and `/progress`.
+2. DevTools → Network → Offline: answer three questions and finish a run, then go back online. The rows appear in **Table Editor** (`exercise_results`, `lesson_progress`) with the times of the answers, not of the sync.
+3. A preview deployment with a wrong Supabase URL: answers still save locally and the app doesn't crash.
+4. Sign out and in again: nothing is lost, and nothing is counted twice.
+5. With signed-out progress in a browser, sign in with account A: it's imported. Sign out, sign in with account B on the same browser: B gets no import and sees only its own progress.
+6. A C2 writing task marked done: `writing_task_progress` holds only the ticked indices and the time, never the text.
+7. Security Advisor: nothing new.
+
+## 9. Undo
+
+- `supabase/rollback/0006_progress_sync.sql`: drops `apply_progress()`, `writing_task_progress` (deleting writing-task records) and `exercise_results.last_attempt_at`; restores the index and the direct insert and update grants; recreates an empty `lesson_scores`. `lesson_progress` and `exercise_results` rows are kept.
 - `supabase/rollback/0005_payments.sql`: drops `get_founder_spots_left()`, `purchases`, and `pricing_settings`.
-- `supabase/rollback/rollback_all.sql`: drops everything the migrations create (0001 to 0005), in dependency order. **It deletes every profile, all learner progress, and all purchases, with no undo.** It leaves `auth.users` alone.
+- `supabase/rollback/rollback_all.sql`: drops everything the migrations create (0001 to 0006), in dependency order. **It deletes every profile, all learner progress, and all purchases, with no undo.** It leaves `auth.users` alone. Never use it to undo only the progress sync.
 
-## C2 writing tasks (planned, no migration yet)
+## 10. Not done yet
 
-C2 lessons may contain one ungraded `writing-task` exercise. The learner's text is a local draft only (lib/writing-draft.ts, localStorage) and must never reach Supabase. `ProgressStore.recordWritingTask(exerciseId, checked)` takes no text, so a Supabase store can't receive it. When the store is written, add a table with no text column:
-
-| Column | Type | Notes |
-|---|---|---|
-| user_id | uuid | references the profile; RLS own-rows-only, like the other tables |
-| exercise_id | text | the writing task's permanent id |
-| lesson_id | text | for queries by lesson (the store will need it passed in, as for `recordAttempt`) |
-| done | boolean | always true once recorded |
-| checked | smallint[] | indices of the ticked checklist items |
-| done_at | timestamptz | when it was marked done |
-
-Writing tasks never count in lesson_scores or exercise_results.
-
-## 8. Not done yet
-
-- **The progress store.** `lib/progress.ts` still uses localStorage only. A `SupabaseProgressStore` behind the same interface comes next. Note: `recordAttempt(exerciseId, result)` doesn't receive the lesson id, which `exercise_results.lesson_id` needs; the store will need it passed in (ExercisePlayer has it).
+- **The progress store.** `lib/progress.ts` still uses localStorage only. A `SupabaseProgressStore` behind the same interface comes next (docs/plans/progress.md, rollout steps 2 to 4). `recordAttempt(exerciseId, result)` doesn't receive the lesson id; the store derives it from the exercise id prefix (`<lesson-id>-ex…`), which validate:content will enforce.
 - **Server actions** for writes, which re-read the user on the server and never trust a client-sent id.
 - **A progress dashboard** page.
 - **Importing localStorage progress** on first sign-in.

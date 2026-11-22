@@ -1,6 +1,7 @@
 -- rollback_all.sql
 -- WARNING: THIS DELETES USER DATA. It drops every table, policy, trigger and function created by
--- supabase/migrations/0001 to 0005, including all profiles, learner progress, purchases, and pricing.
+-- supabase/migrations/0001 to 0006, including all profiles, learner progress, writing-task records,
+-- purchases, and pricing. To undo only the progress sync, use rollback/0006_progress_sync.sql instead.
 -- It does not touch auth.users: accounts stay, but lose their profile, progress, and entitlements.
 -- There is no undo. Export anything you need first.
 
@@ -13,7 +14,12 @@ drop table if exists public.pricing_settings;
 
 drop function if exists public.touch_last_active();
 
--- Progress tables first (policies and triggers are dropped with their tables).
+-- Progress sync (0006)
+drop function if exists public.apply_progress(jsonb);
+drop table if exists public.writing_task_progress;
+
+-- Progress tables first (policies and triggers are dropped with their tables). lesson_scores is
+-- gone after 0006; "if exists" covers a database where 0006 never ran.
 drop table if exists public.saved_vocab;
 drop table if exists public.lesson_scores;
 drop table if exists public.exercise_results;
