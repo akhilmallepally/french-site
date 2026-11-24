@@ -19,8 +19,9 @@ export default function PrivacyPage() {
           <h2>1. Overview</h2>
           <p>
             At <strong>French Properly</strong> (<em>frenchproperly.com</em>), we believe language learning should be
-            focused, distraction-free, and respectful of your privacy. We do not sell your personal data, and we do not
-            use third-party tracking scripts or advertising cookies.
+            focused, distraction-free, and respectful of your privacy. We do not sell your personal data. We use Vercel
+            Web Analytics only to count page views. It is served from our own domain and uses no cookies, no cross-site
+            tracking and no advertising.
           </p>
         </section>
 
@@ -42,6 +43,14 @@ export default function PrivacyPage() {
               device in your browser.
             </li>
           </ul>
+          <p>
+            <strong>Page views:</strong> We use Vercel Web Analytics to count page views. It doesn&apos;t use cookies.
+            For each page view it records the page address, the referring page, filtered query parameters, an
+            approximate location (country, region and city), your browser, operating system and device type, and the
+            time. Visitors are told apart only by a hash of the request, which is discarded after 24 hours, and nothing
+            is collected that tracks you across other websites. See{" "}
+            <a href="https://vercel.com/docs/analytics/privacy-policy">Vercel&apos;s Web Analytics privacy documentation</a>.
+          </p>
         </section>
 
         <section className="mt-8">
@@ -59,10 +68,16 @@ export default function PrivacyPage() {
           <p>We work with trusted infrastructure partners to operate French Properly:</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>
-              <strong>Supabase:</strong> For secure database management and user authentication.
+              <strong>Vercel:</strong> Hosts the website and provides Web Analytics (page view counts).{" "}
+              <a href="https://vercel.com/legal/privacy-policy">Vercel&apos;s privacy policy</a>.
             </li>
             <li>
-              <strong>Merchant of Record:</strong> For handling secure payment processing, invoicing, and tax compliance.
+              <strong>Supabase:</strong> Handles sign-in, your account and your purchase record (database and
+              authentication). <a href="https://supabase.com/privacy">Supabase&apos;s privacy policy</a>.
+            </li>
+            <li>
+              <strong>Dodo Payments:</strong> Our Merchant of Record, handling payment processing, invoicing and tax
+              compliance. <a href="https://dodopayments.com/privacy-policy">Dodo Payments&apos; privacy policy</a>.
             </li>
           </ul>
         </section>

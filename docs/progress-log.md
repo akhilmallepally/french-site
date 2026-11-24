@@ -112,3 +112,32 @@
 - **Release notes (16.4.4, 16.4.5):** a Turbopack PPR-resume bootstrap now gets the CSP nonce (no CSP here), a Turbopack chunking optimization was reverted, a dev-only CSS reload was fixed, internal JWT handling now uses fast-jwt, and 16.4.5 contains only the security fixes. Nothing touches proxy.ts, server actions, MDX or routing, so no code changed.
 - **Checks:** all pass. validate:content, test:content, test:checker (36/36), test:safe-next (7/7), test:webhook (70/70), test:no-supabase-env (16 PASS), test:gating, and build twice, with no security reminder or SecurityFatalError either time.
 - **npm audit:** 0 high and 0 critical. next is no longer listed, and 9 moderate items remain in dev or tooling packages (typescript-eslint and minimatch, @tailwindcss/typography's postcss-selector-parser), which I didn't change.
+
+## Pricing discount display (Prompt 56b)
+
+- **Prices (app/pricing/page.tsx, LifetimePlanCard only):** the founder price stays the largest (text-4xl). The standard price is struck through right after it, in `<s>`, at text-2xl in the muted grey (#6b7280 on white, 4.8:1, passes AA). A "Save N%" badge (accent on white, 4.9:1) follows, and the row wraps on mobile.
+- **Values:** N is round((1 − founder ÷ standard) × 100), so 33 for $8 and $12. A new line, "Founder price for the first {founder_cap} learners, then {standard}.", uses founder_cap and standard_price_cents from pricing_settings. There's no spots-left count.
+- **When it shows:** today the page treats the offer as live when get_founder_spots_left() is above 0 (`isFounder`). The new `showDiscount` also requires the founder price to be lower than the standard price, by at least 1%. Otherwise only one price shows, with no strikethrough, badge or founder line. The "Founding Offer" ribbon and the buy-button label still follow `isFounder`, unchanged.
+- **Screen readers:** a visually hidden "Regular price $12, now $8." is read in place of the two visible numbers, which are aria-hidden.
+- **Unchanged:** copy, buttons, the access state and the free card. The loading skeleton still shows the old small, hard-coded "$8 / $12" until the card streams in.
+- **Checks:** validate:content, test:content, test:checker (36/36), test:gating and build all pass. The served /pricing shows "Save 33%" and the founder line with 100 and $12.
+
+## Web Analytics (Prompt 56c)
+
+- **Added:** @vercel/analytics 2.0.1 (exact, no dependencies), with `<Analytics />` from @vercel/analytics/next placed once at the end of `<body>` in app/layout.tsx. It records page views only, with no custom events. The component wraps itself in Suspense, and the build's route table is identical to the one before analytics (all 355 pages, same ○/◐/ƒ modes).
+- **Local dev sends nothing:** in development the component loads Vercel's script.debug.js, which only logs "[view] …" to the console and has no fetch or sendBeacon. Under local `next start`, /_vercel/insights/script.js returns 404, so nothing loads. Neither script sets cookies.
+- **Privacy page:** one new "Page views" paragraph in section 2 lists what's collected (page address, referrer, filtered query parameters, approximate location, browser, OS, device type, time), says there are no cookies and that the visitor hash is discarded after 24 hours, and links to vercel.com/docs/analytics/privacy-policy. Nothing else changed.
+- **Checks:** validate:content, test:content, test:checker (36/36), test:no-supabase-env (16 PASS), test:gating and build all pass.
+
+## Pricing fallback (Prompt 56d)
+
+- **Before:** a failed pricing_settings read showed the $8 founder offer, and checkout charged that hard-coded $8 whatever the spots. A failed get_founder_spots_left() gave 0 spots, so the card and checkout both used the standard price.
+- **Now:** getActivePricing() also returns `available`, false when it falls back, and logs only an error code. The card then hides the price and the founder offer, and shows a disabled "Get Lifetime Access" button with "Pricing is temporarily unavailable. Please try again in a minute." Checkout logic is unchanged.
+- **Skeleton:** neutral pulse blocks sized like the discount layout (price, struck price, badge, founder line), with no prices and no "Founding Offer" ribbon, marked aria-busy. The served page and a no-config build both show the expected states.
+- **Checks:** build and test:gating pass, and test:no-supabase-env passes (16 PASS). Earlier gating runs (Prompts 55 to 56c) hit a stale server for their HTTP checks; rerun on a fresh server, they pass.
+
+## Privacy page update (Prompt 56e)
+
+- **Section 1:** "we do not use third-party tracking scripts" is replaced by a line saying we use Vercel Web Analytics only to count page views, served from our own domain, with no cookies, no cross-site tracking and no advertising.
+- **Section 4:** now lists Vercel (hosting and Web Analytics), Supabase (sign-in, account and purchase record) and Dodo Payments (Merchant of Record), each with a link to its privacy policy. It no longer says Supabase stores progress, which still stays in the browser. "Last updated: November 2026" was already current.
+- **Checks:** build passes, with the same route table as before.

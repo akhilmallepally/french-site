@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Fraunces, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import AuthButton from "@/components/auth-button";
 import "./globals.css";
 
@@ -69,6 +70,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </div>
           </div>
         </footer>
+        {/* Vercel Web Analytics: page views only, no custom events. See the privacy page. */}
+        <Analytics />
       </body>
     </html>
   );

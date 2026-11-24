@@ -11,7 +11,23 @@ export type ActivePricing = {
   founderPriceCents: number;
   standardPriceCents: number;
   founderCap: number;
+  /**
+   * False when the prices are the hard-coded fallback (no Supabase config, the pricing_settings
+   * read failed, or no active row). The pricing card then hides the price; checkout still uses
+   * the fallback values below.
+   */
+  available: boolean;
 };
+
+/** Only the error code (a Postgres/PostgREST code, or the error's name) is ever logged. */
+function errorCode(error: unknown): string {
+  if (error && typeof error === "object") {
+    const { code, name } = error as { code?: unknown; name?: unknown };
+    if (typeof code === "string" && code) return code;
+    if (typeof name === "string" && name) return name;
+  }
+  return "unknown";
+}
 
 /**
  * Checks whether a user has an active entitlement for the specified product.
@@ -52,10 +68,14 @@ export async function getFounderSpotsLeft(product: ProductKey = "lessons"): Prom
     if (!supabase) return 0;
 
     const { data, error } = await supabase.rpc("get_founder_spots_left", { p_product: product });
-    if (error || typeof data !== "number") return 0;
+    if (error) {
+      console.warn("[purchases] getFounderSpotsLeft failed, code:", errorCode(error));
+      return 0;
+    }
+    if (typeof data !== "number") return 0;
     return data;
   } catch (error) {
-    console.warn("[purchases] getFounderSpotsLeft error:", error instanceof Error ? error.message : error);
+    console.warn("[purchases] getFounderSpotsLeft failed, code:", errorCode(error));
     return 0;
   }
 }
@@ -74,6 +94,7 @@ export async function getActivePricing(product: ProductKey = "lessons"): Promise
     founderPriceCents: 800,
     standardPriceCents: 1200,
     founderCap: 100,
+    available: false,
   };
 
   try {
@@ -87,7 +108,14 @@ export async function getActivePricing(product: ProductKey = "lessons"): Promise
       .eq("is_active", true)
       .maybeSingle();
 
-    if (error || !data) return fallback;
+    if (error) {
+      console.warn("[purchases] getActivePricing failed, code:", errorCode(error));
+      return fallback;
+    }
+    if (!data) {
+      console.warn("[purchases] getActivePricing failed, code: no_active_row");
+      return fallback;
+    }
 
     const spotsLeft = await getFounderSpotsLeft(product);
     const isFounder = spotsLeft > 0;
@@ -102,9 +130,10 @@ export async function getActivePricing(product: ProductKey = "lessons"): Promise
       founderPriceCents: data.founder_price_cents,
       standardPriceCents: data.standard_price_cents,
       founderCap: data.founder_cap,
+      available: true,
     };
   } catch (error) {
-    console.warn("[purchases] getActivePricing error:", error instanceof Error ? error.message : error);
+    console.warn("[purchases] getActivePricing failed, code:", errorCode(error));
     return fallback;
   }
 }
