@@ -227,6 +227,10 @@ async function LifetimePlanCard() {
   const isFounder = pricing.spotsLeft > 0;
   const founderPrice = `$${pricing.founderPriceCents / 100}`;
   const standardPrice = `$${pricing.standardPriceCents / 100}`;
+  // The discount (strikethrough, badge, founder line) shows only while founder spots remain and the
+  // founder price is actually lower. The ribbon and the buy button keep using isFounder as before.
+  const showDiscount = isFounder && pricing.founderPriceCents < pricing.standardPriceCents;
+  const savePercent = Math.round((1 - pricing.founderPriceCents / pricing.standardPriceCents) * 100);
 
   return (
     <section className="relative flex flex-col justify-between rounded-2xl border-2 border-accent bg-card p-8 shadow-sm">
@@ -246,15 +250,33 @@ async function LifetimePlanCard() {
         <p className="mt-2 text-sm text-muted">
           Everything from intermediate conversation to literary mastery.
         </p>
-        <div className="mt-6 flex items-baseline gap-2">
-          <span className="font-serif text-4xl font-semibold">
-            {isFounder ? founderPrice : standardPrice}
-          </span>
-          <span className="text-sm text-muted">one-time · lifetime access</span>
-          {isFounder && (
-            <span className="text-xs text-muted line-through">{standardPrice}</span>
-          )}
-        </div>
+        {showDiscount ? (
+          <>
+            <div className="mt-6 flex flex-wrap items-baseline gap-x-3 gap-y-2">
+              <span className="sr-only">
+                Regular price {standardPrice}, now {founderPrice}.
+              </span>
+              <span aria-hidden="true" className="flex items-baseline gap-3">
+                <span className="font-serif text-4xl font-semibold">{founderPrice}</span>
+                <s className="font-serif text-2xl text-muted">{standardPrice}</s>
+              </span>
+              <span className="self-center rounded-full border border-accent bg-card px-2.5 py-0.5 text-xs font-semibold text-accent">
+                Save {savePercent}%
+              </span>
+              <span className="text-sm text-muted">one-time · lifetime access</span>
+            </div>
+            <p className="mt-2 text-sm text-muted">
+              Founder price for the first {pricing.founderCap} learners, then {standardPrice}.
+            </p>
+          </>
+        ) : (
+          <div className="mt-6 flex items-baseline gap-2">
+            <span className="font-serif text-4xl font-semibold">
+              {isFounder ? founderPrice : standardPrice}
+            </span>
+            <span className="text-sm text-muted">one-time · lifetime access</span>
+          </div>
+        )}
 
         <ul className="mt-8 space-y-3 text-sm text-muted">
           <li className="flex items-center gap-3">

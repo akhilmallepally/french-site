@@ -96,3 +96,19 @@
 - **Other "Start learning" links (unchanged):** "Start learning B1" on /checkout/success (app/checkout/success/page.tsx) and in the payment-confirmed state of components/checkout-poller.tsx both go to /lessons/b1. The header and footer have none. Their links are Lessons and Pricing in the header, and Pricing, Terms, Privacy and Refund Policy in the footer.
 - **Pricing page:** unchanged. "Start Free Lessons" still goes to /lessons/a1 with no sign-in, and all copy stays the same. A signed-in user with access already sees "You have lifetime access!" and a "Continue Learning" button (→ /lessons/b1) instead of the buy button. That card streams inside Suspense behind a neutral skeleton, so there's no flash of the wrong state.
 - **Checks:** validate:content, test:content, test:checker (36/36), test:no-supabase-env, test:gating (all passed) and build pass. Next.js stopped some builds once with a security-upgrade reminder (SecurityFatalError), and the same build passed on a rerun.
+
+## Next.js security upgrade (Prompt 56)
+
+- **Advisory:** the build warning (Next.js's upgrade reminder) names no advisory. npm audit lists seven moderate ones for next ≤16.4.4, all first patched in 16.4.5:
+  - GHSA-mfr8-8qww-v76h: 'use cache' via unstable_cache
+  - GHSA-vc7v-qv4w-wrv8: nested 'use cache' with root params
+  - GHSA-rhh4-g77r-r9qj: 'use cache' with binary arguments
+  - GHSA-vvgp-ww4w-46vf: cacheComponents without Partial Prefetching
+  - GHSA-7qx7-33qx-rqx2: SVG via the self-hosted image optimizer
+  - GHSA-f3mh-rxg3-f5g2: cookies set with NextResponse on Edge routes
+  - GHSA-pc58-hwjq-p385: route handlers forwarding fetched responses
+- **Exposed? No:** there's no 'use cache', unstable_cache or root params, Partial Prefetching is on, next/image isn't used, and there are no Edge routes. The two route handlers return their own Response or redirect.
+- **Upgrade:** next and eslint-config-next went from 16.4.3 to 16.4.5, exact versions. The lockfile changes only next, @next/env, @next/eslint-plugin-next, the @next/swc-* binaries and eslint-config-next. React stays at 19.3.0, and nothing else changed.
+- **Release notes (16.4.4, 16.4.5):** a Turbopack PPR-resume bootstrap now gets the CSP nonce (no CSP here), a Turbopack chunking optimization was reverted, a dev-only CSS reload was fixed, internal JWT handling now uses fast-jwt, and 16.4.5 contains only the security fixes. Nothing touches proxy.ts, server actions, MDX or routing, so no code changed.
+- **Checks:** all pass. validate:content, test:content, test:checker (36/36), test:safe-next (7/7), test:webhook (70/70), test:no-supabase-env (16 PASS), test:gating, and build twice, with no security reminder or SecurityFatalError either time.
+- **npm audit:** 0 high and 0 critical. next is no longer listed, and 9 moderate items remain in dev or tooling packages (typescript-eslint and minimatch, @tailwindcss/typography's postcss-selector-parser), which I didn't change.
