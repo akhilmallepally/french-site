@@ -40,7 +40,9 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong>Learning Progress:</strong> Your exercise submissions and lesson progress are stored locally on your
-              device in your browser.
+              device in your browser. When you&apos;re signed in, your progress may also be saved to your account so it
+              follows you across devices (see Supabase below). The text you write in writing tasks never leaves your
+              browser.
             </li>
           </ul>
           <p>
@@ -73,7 +75,9 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong>Supabase:</strong> Handles sign-in, your account and your purchase record (database and
-              authentication). <a href="https://supabase.com/privacy">Supabase&apos;s privacy policy</a>.
+              authentication). For signed-in learners it also stores learning progress: scores, completion and
+              attempt times, and whether a writing task is done, never the writing text.{" "}
+              <a href="https://supabase.com/privacy">Supabase&apos;s privacy policy</a>.
             </li>
             <li>
               <strong>Dodo Payments:</strong> Our Merchant of Record, handling payment processing, invoicing and tax

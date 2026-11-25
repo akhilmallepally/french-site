@@ -10,6 +10,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import { callProgressAction, PROGRESS_CALLS, refusedSignedOut } from "./progress-action-http.mjs";
 
 const BASE_URL = (process.env.BASE_URL || "http://localhost:3000").replace(/\/$/, "");
 const ROOT = process.cwd();
@@ -250,6 +251,12 @@ for (const next of ["//evil.com", "https://evil.com", "/\\evil.com"]) {
     ok = target.origin === new URL(BASE_URL).origin;
   }
   record("callback redirect stays same-origin", ok, `next=${next} -> ${r.status} ${r.location}`);
+}
+
+// Progress actions: a signed-out caller (no session cookie) is refused and gets no progress data.
+for (const [name, args] of PROGRESS_CALLS) {
+  const r = await callProgressAction(BASE_URL, name, args);
+  record("progress action refuses a signed-out caller", refusedSignedOut(r), `${name} -> ${r.status} ${r.text.slice(-80)}`);
 }
 
 console.log(`\nGating test against ${BASE_URL}: ${gated.length} gated lessons, ${free.length} free lessons.\n`);

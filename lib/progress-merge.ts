@@ -10,7 +10,7 @@
 //
 // Times are never clamped: a time is accepted as sent or rejected (more than 24 hours ahead).
 import type { AnswerStatus } from "./check-answer.ts";
-import type { ExerciseProgress, LessonProgress, ProgressData, WritingTaskProgress } from "./progress.ts";
+import type { ExerciseProgress, LessonProgress, ProgressData, WritingTaskProgress } from "./progress-core.ts";
 
 // ---------- Validation shared with apply_progress ----------
 
@@ -136,6 +136,20 @@ export function mergeExercises(a: ExerciseProgress, b: ExerciseProgress): Exerci
   const t = compareTimes(a.lastAttemptedAt, b.lastAttemptedAt);
   const newer = t > 0 ? a : t < 0 ? b : RESULT_RANK[a.lastResult] >= RESULT_RANK[b.lastResult] ? a : b;
   return exercise({ attempts: Math.max(a.attempts, b.attempts), correct: Math.max(a.correct, b.correct) }, newer);
+}
+
+/**
+ * apply_progress for attempt: counted only when strictly newer than the stored answer, so a resent
+ * or older entry is a no-op; then the counts are added and the result and time replaced.
+ */
+export function applyAttempt(
+  stored: ExerciseProgress | undefined,
+  entry: { result: AnswerStatus; attemptedAt: string; addAttempts: number; addCorrect: number },
+): ExerciseProgress {
+  const fresh = { attempts: entry.addAttempts, correct: entry.addCorrect, lastResult: entry.result, lastAttemptedAt: entry.attemptedAt };
+  if (!stored) return fresh;
+  if (compareTimes(entry.attemptedAt, stored.lastAttemptedAt) <= 0) return { ...stored };
+  return { ...fresh, attempts: stored.attempts + entry.addAttempts, correct: stored.correct + entry.addCorrect };
 }
 
 // ---------- Writing tasks ----------

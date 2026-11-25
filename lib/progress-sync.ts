@@ -2,7 +2,7 @@
 // Supabase (docs/plans/progress.md, section 7). app/actions/progress.ts wires it to Supabase.
 // Pure apart from the injected `db`: no file reads, no lib/lessons.ts.
 import type { AnswerStatus } from "./check-answer.ts";
-import type { ExerciseProgress, LessonProgress, ProgressData, WritingTaskProgress } from "./progress.ts";
+import type { ExerciseProgress, LessonProgress, ProgressData, WritingTaskProgress } from "./progress-core.ts";
 import { validateSyncPayload, type PayloadCode, type ProgressIndexData, type Rejection, type SyncItem } from "./progress-validate.ts";
 
 // ---------- Rows as the database returns them ----------

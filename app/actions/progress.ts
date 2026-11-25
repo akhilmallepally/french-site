@@ -1,5 +1,6 @@
 "use server";
-// Progress server actions (docs/plans/progress.md, section 7). Not called by the UI yet (step 4).
+// Progress server actions (docs/plans/progress.md, section 7), called by the synced store
+// (lib/progress-store.ts) when NEXT_PUBLIC_PROGRESS_SYNC is "on".
 // - Signed in only: the user id comes from the session (getCurrentUser, which verifies the token
 //   with the auth server), never from the payload. Without Supabase config there is no user, so
 //   every action answers { status: "signed-out" } and touches nothing.
@@ -10,63 +11,22 @@
 import { getCurrentUser } from "@/lib/current-user";
 import { createClient } from "@/lib/supabase/server";
 import progressIndex from "@/lib/generated/progress-index.json";
-import type { ProgressData } from "@/lib/progress";
+import type { ProgressData } from "@/lib/progress-core";
+import { deleteAllRows, progressDb, readAllRows } from "@/lib/progress-db";
 import type { ProgressIndexData } from "@/lib/progress-validate";
-import { rowsToProgress, runSync, type ExerciseRow, type LessonRow, type ProgressDb, type Rows, type SyncReply, type WritingRow } from "@/lib/progress-sync";
+import { rowsToProgress, runSync, type SyncReply } from "@/lib/progress-sync";
 
 const INDEX = progressIndex as ProgressIndexData;
-const PAGE = 1000; // PostgREST returns at most 1,000 rows per request by default
 
 type Client = NonNullable<Awaited<ReturnType<typeof createClient>>>;
-
-const LESSON_COLUMNS = "lesson_id, best_score, best_total, last_run_at, completed_at";
-const EXERCISE_COLUMNS = "exercise_id, attempts, correct_count, last_result, last_attempt_at";
-const WRITING_COLUMNS = "exercise_id, done, checked, done_at";
 
 function logCode(where: string, error: unknown): void {
   const code = (error as { code?: unknown } | null)?.code;
   console.warn(`[progress] ${where} failed, code:`, typeof code === "string" && code ? code : "unknown");
 }
 
-/** Every row of one table for this user, a page at a time, in primary-key order. */
-async function readAll<T>(supabase: Client, table: string, columns: string, order: string, userId: string): Promise<T[]> {
-  const out: T[] = [];
-  for (let from = 0; ; from += PAGE) {
-    const { data, error } = await supabase.from(table).select(columns).eq("user_id", userId).order(order).range(from, from + PAGE - 1);
-    if (error) throw error;
-    out.push(...((data ?? []) as T[]));
-    if (!data || data.length < PAGE) return out;
-  }
-}
-
-/** This user's rows for the given ids (at most 200 per table, one request each). */
-async function readSome<T>(supabase: Client, table: string, columns: string, idColumn: string, ids: string[], userId: string): Promise<T[]> {
-  if (!ids.length) return [];
-  const { data, error } = await supabase.from(table).select(columns).eq("user_id", userId).in(idColumn, ids);
-  if (error) throw error;
-  return (data ?? []) as T[];
-}
-
-function progressDb(supabase: Client, userId: string): ProgressDb {
-  return {
-    async apply(items) {
-      const { data, error } = await supabase.rpc("apply_progress", { p_items: items });
-      if (error) throw error;
-      return data;
-    },
-    async read(keys): Promise<Rows> {
-      const [lessons, exercises, writing] = await Promise.all([
-        readSome<LessonRow>(supabase, "lesson_progress", LESSON_COLUMNS, "lesson_id", keys.lessons, userId),
-        readSome<ExerciseRow>(supabase, "exercise_results", EXERCISE_COLUMNS, "exercise_id", keys.exercises, userId),
-        readSome<WritingRow>(supabase, "writing_task_progress", WRITING_COLUMNS, "exercise_id", keys.writing, userId),
-      ]);
-      return { lessons, exercises, writing };
-    },
-  };
-}
-
 /** The session user and their client, or a status to return as is. */
-async function session(expectedUserId: unknown): Promise<{ userId: string; supabase: Client } | { status: "signed-out" | "wrong-user" | "unavailable" }> {
+async function session(expectedUserId: unknown): Promise<{ userId: string; supabase: Client } | { status: "signed-out" | "wrong-user" }> {
   const user = await getCurrentUser();
   if (!user) return { status: "signed-out" };
   if (typeof expectedUserId !== "string" || expectedUserId !== user.id) return { status: "wrong-user" };
@@ -82,12 +42,7 @@ export async function getProgressAction(expectedUserId: string): Promise<GetProg
   const s = await session(expectedUserId);
   if ("status" in s) return s;
   try {
-    const [lessons, exercises, writing] = await Promise.all([
-      readAll<LessonRow>(s.supabase, "lesson_progress", LESSON_COLUMNS, "lesson_id", s.userId),
-      readAll<ExerciseRow>(s.supabase, "exercise_results", EXERCISE_COLUMNS, "exercise_id", s.userId),
-      readAll<WritingRow>(s.supabase, "writing_task_progress", WRITING_COLUMNS, "exercise_id", s.userId),
-    ]);
-    return { status: "ok", data: rowsToProgress({ lessons, exercises, writing }) };
+    return { status: "ok", data: rowsToProgress(await readAllRows(s.supabase, s.userId)) };
   } catch (error) {
     logCode("getProgress", error);
     return { status: "unavailable" };
@@ -97,7 +52,7 @@ export async function getProgressAction(expectedUserId: string): Promise<GetProg
 /**
  * Applies up to 200 entries. Returns { status: "ok", applied, rejected, rows }, where rows are the
  * server's stored records for every record the valid entries name, read back in the same request
- * (step 4: the cache replaces those records with these; the server wins on ties).
+ * (the store's cache replaces those records with these; the server wins on ties).
  */
 export async function syncProgressAction(input: unknown): Promise<SyncReply> {
   const expected = typeof input === "object" && input !== null ? (input as { expectedUserId?: unknown }).expectedUserId : undefined;
@@ -119,10 +74,7 @@ export async function resetProgressAction(input: { expectedUserId: string; confi
   const s = await session(input.expectedUserId);
   if ("status" in s) return s;
   try {
-    for (const table of ["exercise_results", "lesson_progress", "writing_task_progress"]) {
-      const { error } = await s.supabase.from(table).delete().eq("user_id", s.userId);
-      if (error) throw error;
-    }
+    await deleteAllRows(s.supabase, s.userId);
     return { status: "ok" };
   } catch (error) {
     logCode("reset", error);

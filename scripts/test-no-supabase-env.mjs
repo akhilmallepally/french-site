@@ -9,6 +9,7 @@
 // It overwrites .next with a no-config build. Run `npm run build` afterwards before npm start or
 // test:gating.
 import { spawn, spawnSync } from "node:child_process";
+import { callProgressAction, PROGRESS_CALLS, refusedSignedOut } from "./progress-action-http.mjs";
 
 const PORT = process.env.PORT || "3100";
 const BASE = `http://localhost:${PORT}`;
@@ -104,6 +105,12 @@ try {
     webhookRes.status === 500 && webhookText.includes("unconfigured"),
     `/api/webhooks/payments -> ${webhookRes.status} fails closed when unconfigured`
   );
+
+  // Progress actions with no Supabase config: each answers { status: "signed-out" } and does nothing.
+  for (const [name, args] of PROGRESS_CALLS) {
+    const r = await callProgressAction(BASE, name, args);
+    ok(refusedSignedOut(r), `${name} refuses cleanly when unconfigured (${r.status})`);
+  }
 
   await new Promise((r) => setTimeout(r, 500));
   ok(log.includes("[supabase] NEXT_PUBLIC_SUPABASE_URL or NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY is missing"), "server logged the missing-config warning");

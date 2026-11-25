@@ -188,6 +188,15 @@ Exact behaviour:
 6. **Sign-out:** the facade switches to the local store. That user's cache is deleted; their outbox is kept if it isn't empty and flushes the next time the same user signs in on this browser. Nothing is ever lost because the network or Supabase is down.
 7. `reset()`: deletes the user's cache and outbox and calls `resetProgressAction`. No UI calls it yet.
 
+**As built in step 4 (Prompt 60).** The code is in lib/progress-store.ts (store and facade), lib/progress-outbox.ts (pure outbox), lib/progress-core.ts (types, local store, shared update rules) and lib/progress-wiring.ts (the Supabase session and actions, loaded only when sync is on). Where it differs from, or adds to, the text above:
+
+- Pending runs are kept as one merged lesson record and sent as an `import-lesson` entry, so a passing run followed by a failing one keeps the earlier completion date.
+- The first read on a page waits up to 3 s for the shared server snapshot, then falls back to the cache.
+- Rejected entries are kept in `parlons-progress-rejected-v1:<userId>` (the newest 500, with their code, ids, counts and times, never text). They're laid back over every snapshot so the learner's record stays visible, and never sent again.
+- While backing off, a new write doesn't bring the next send forward.
+- On sign-out, or when another account signs in, every other account's cache is removed, not only the previous user's. Outboxes stay.
+- Next.js 16 reports a stale action as 409 "Server Action unavailable.", which counts as "action not found".
+
 Known limit (by design): when two devices answer the same exercise, an attempt made offline on one device and synced after a newer attempt from the other device is ignored, both its count and its result. The newer result is the right one to keep; only the attempt count is low, and nothing displays it.
 
 `LocalProgressStore` gets one addition: an optional `completedAt` on `LessonProgress`, set the first time a run reaches the pass mark, so later imports know the real first completion date.

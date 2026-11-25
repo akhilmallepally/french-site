@@ -96,6 +96,7 @@ describe("progress actions read no files", () => {
       "app/actions/progress.ts",
       "lib/current-user.ts",
       "lib/generated/progress-index.json",
+      "lib/progress-db.ts",
       "lib/progress-merge.ts",
       "lib/progress-sync.ts",
       "lib/progress-validate.ts",
