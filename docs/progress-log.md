@@ -356,3 +356,29 @@
 - **Rollout:** 6 steps: migration, content ids and validation, scheduler and local store, sync, pages, and the wrap-up with e2e and prod smoke.
 - **Open questions:** 6, in the plan's section 9.
 - **Checks:** validate:content and build pass (nothing else changed).
+
+## Daily review step 1: decisions and migration 0008 (Prompt 69)
+
+- **Decisions** (docs/plans/review.md section 9, which replaces the open questions):
+  - Automatic cards from practised lessons only. Glossary entries excluded. No gender for the 190 `l'` entries.
+  - 10 new cards a day, at most 60 reviews a day, 20-card sessions plus "Do another 20".
+  - French → English, self-graded, with "Not yet" back to box 1 and intervals of 1, 3, 7, 16 and 35 days.
+  - The /review empty state links to /practice.
+- **Card id for repeats:** entries become one card only when both the French and the English match after normalising (NFC, lower case, curly apostrophes made straight, `. , ; : ! ? … " « » ( ) [ ]` made spaces, spaces collapsed, accents, hyphens and apostrophes kept). The card id is the vocab id of the earliest matching entry in course order at first publication, frozen in a committed card map (step 2). 38 entries merge, so 4,855 eligible entries make 4,817 cards.
+- **0008_review_cards.sql** (one transaction, safe to re-run):
+  - Table `review_cards (user_id, card_id, lesson_id, box 0–5, due_at, last_reviewed_at, review_count, lapse_count, created_at)`, with primary key `(user_id, card_id)`. Checks: the card-id format, lesson_id equal to the card id's prefix, box 0 if and only if never reviewed, and lapses ≤ reviews.
+  - RLS is forced, with read-own and delete-own policies. Everything is revoked from public, anon, authenticated and service_role, then select and delete are granted to authenticated.
+  - `apply_review(jsonb)`: security definer, empty search_path, the user only from `auth.uid()`, execute for authenticated only, at most 200 entries per call.
+    - It checks ids, box, counts, and times: lastReviewedAt at most 24 h ahead, never clamped; dueAt within 24 h for box 0 and 400 days otherwise.
+    - The cap is 6,000 cards per user, checked on insert.
+    - Merge: the later last_reviewed_at wins whole; a tie, or an unreviewed entry against a stored card, keeps the stored state; the counts take the max.
+    - It returns applied keys and rejected codes (bad_item, bad_id, bad_box, bad_count, bad_time, future_time, cap_reached, invalid).
+- **Rollback:** supabase/rollback/0008_review_cards.sql, and rollback_all.sql now covers 0001 to 0008.
+- **rls.sql** now needs 0001 to 0008. It checks:
+  - apply_review's properties and that review_cards is in the exact privilege list (authenticated: SELECT and DELETE; anon and service_role: nothing);
+  - direct insert and update refused for each user; the bad-entry codes; box 0, the first review, a resend, an older state, a tie, an unreviewed entry, a newer review, and 23 h ahead stored as sent;
+  - the cross-user read, delete and insert refused, and an entry naming the other user written for the caller only;
+  - user C at 6,000 cards (a new card refused, an existing one updated); anon and service_role refused on the table and the function;
+  - own-row delete, and the cascade on account deletion. It ends in ROLLBACK.
+- **docs/db-setup.md:** the 0008 step and order, the owner's SQL-editor steps (run 0008, then rls.sql, then the Security Advisor), a review_cards size query, and the undo.
+- **Checks:** validate:content and build pass (no app or content change). The SQL hasn't been run here, since there's no local Postgres.

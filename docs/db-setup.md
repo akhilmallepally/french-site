@@ -2,6 +2,8 @@
 
 This sets up the Supabase tables for profiles, learner progress and payments, protected by row level security (RLS). The SQL is in `supabase/`. The app reads and writes `purchases` and `pricing_settings` (payments). It doesn't use the progress tables yet: see "Not done yet" at the end and docs/plans/progress.md.
 
+**0008 (daily review) has not been run anywhere yet:** run it with the steps in "Daily review (0008)" under section 1.
+
 **0006 has not been run anywhere yet.** It was written without connecting to any database (no local Postgres or Supabase CLI was available). Run it yourself, in the order below, and run the RLS test before relying on it.
 
 ## 0. Check what has already run (step 0)
@@ -23,6 +25,9 @@ select c.relname, c.relrowsecurity as rls_enabled, c.relforcerowsecurity as rls_
 
 -- Is 0006 already in? (true = yes)
 select to_regprocedure('public.apply_progress(jsonb)') is not null as has_0006;
+
+-- Is 0008 already in? (true = yes)
+select to_regprocedure('public.apply_review(jsonb)') is not null as has_0008;
 ```
 
 Expected before 0006: `exercise_results`, `lesson_progress`, `lesson_scores`, `pricing_settings`, `profiles`, `purchases` and `saved_vocab`; `lesson_scores` count 0; `true` and `true` for every table. If a table is missing, run the migrations it belongs to (section 1) first.
@@ -43,6 +48,18 @@ In the SQL Editor, for each file below, paste the whole file, click **Run**, and
    - Run it after 0005; it doesn't need 0006.
    - Why it exists: 0003 and 0005 never grant anything to service_role, so it had only what the project's default privileges gave it, which was nothing on `purchases`. The webhook failed with 42501 until the grant was added by hand.
    - Recovery steps are in docs/payments-recovery.md.
+8. `supabase/migrations/0008_review_cards.sql`: the daily review (docs/plans/review.md).
+   - It adds `review_cards` (one Leitner card state per user and card: box, due time, last review, review and lapse counts, no card text) with RLS forced and read-own and delete-own policies.
+   - It adds `apply_review()`, the only write path. It's security definer, takes the user only from `auth.uid()`, can be executed by authenticated only, and caps each user at 6,000 cards.
+   - Direct insert and update are revoked from anon, authenticated and service_role.
+   - Run it after 0001 to 0007.
+
+**Daily review (0008), your steps in the Supabase SQL editor:**
+
+1. Paste the whole of `supabase/migrations/0008_review_cards.sql`, click **Run**, and check it says "Success". It runs in one transaction and changes nothing if it stops.
+2. Paste the whole of `supabase/tests/rls.sql` (it now needs 0001 to 0008), click **Run**, and check that the last notice is "PASS: ALL RLS CHECKS PASSED". It ends in ROLLBACK and leaves nothing behind.
+3. Open **Advisors**, then **Security Advisor**, click **Refresh**, and check nothing new appears for `review_cards` or `apply_review` (section 4).
+4. Optional: run the size query in section 7 to see `review_cards` (empty until the review store ships).
 
 Each file is safe to run again (`create table if not exists`, `create or replace function`, `drop ... if exists` before each trigger and policy). Running them again doesn't change data. One exception: if you change a column in a file after the table exists, `create table if not exists` won't apply it. Write a new numbered migration for that.
 
@@ -57,7 +74,7 @@ Run 0003 straight after 0002. Run 0005 after 0001 (which provides `set_updated_a
 
 ## 2. Run the RLS test
 
-1. In the SQL Editor, open a new query, paste the whole of `supabase/tests/rls.sql`, and click **Run**. It needs 0001 to 0007.
+1. In the SQL Editor, open a new query, paste the whole of `supabase/tests/rls.sql`, and click **Run**. It needs 0001 to 0008 (it stops at once with "run migration 0008 first" if `review_cards` is missing).
 2. It runs in one transaction that ends in `rollback`, so it leaves nothing behind: no test users, no rows, no test schema. It seeds about 6,800 rows for one test user to check the caps; they're rolled back too.
 
 **Expected output:**
@@ -142,8 +159,8 @@ Trigger and event-trigger functions, and functions that belong to an extension, 
 After the migrations, open **Advisors**, then **Security Advisor**, and click **Refresh** (or "Rerun linter").
 
 - There should be no error for these tables (no "RLS disabled in public", no "Policy exists RLS disabled").
-- The five functions (`set_updated_at`, `handle_new_user`, `touch_last_active`, `get_founder_spots_left`, `apply_progress`) set `search_path = ''`, so "Function search path mutable" shouldn't appear for them.
-- `apply_progress` is `security definer` and callable by signed-in users. The advisor may list it as a security definer function exposed through the API; that's intended. It takes the user only from `auth.uid()` and checks every entry.
+- The six functions (`set_updated_at`, `handle_new_user`, `touch_last_active`, `get_founder_spots_left`, `apply_progress`, `apply_review`) set `search_path = ''`, so "Function search path mutable" shouldn't appear for them.
+- `apply_progress` and `apply_review` are `security definer` and callable by signed-in users. The advisor may list it as a security definer function exposed through the API; that's intended. It takes the user only from `auth.uid()` and checks every entry.
 - Fix or note anything it reports about these objects before building on them. Warnings about Auth settings (for example leaked password protection) aren't from these migrations.
 
 ## 5. What the tables store and why
@@ -214,6 +231,17 @@ select c.relname, pg_size_pretty(pg_total_relation_size(c.oid)) as total
  order by pg_total_relation_size(c.oid) desc;
 ```
 
+The daily-review cards (0008): rows, users, size with indexes, and the average per user with cards:
+
+```sql
+select count(*) as card_rows,
+       count(distinct user_id) as users_with_cards,
+       pg_size_pretty(pg_total_relation_size('public.review_cards')) as total_with_indexes,
+       pg_size_pretty(pg_indexes_size('public.review_cards')) as indexes_only,
+       pg_size_pretty(pg_total_relation_size('public.review_cards') / nullif(count(distinct user_id), 0)) as average_per_user
+  from public.review_cards;
+```
+
 ## 8. Manual checklist (after the store ships, rollout step 7)
 
 1. Two Google accounts in two browsers: each sees only its own progress on `/lessons` and `/progress`.
@@ -226,10 +254,11 @@ select c.relname, pg_size_pretty(pg_total_relation_size(c.oid)) as total
 
 ## 9. Undo
 
+- `supabase/rollback/0008_review_cards.sql`: drops `apply_review()` and `review_cards`, **deleting every learner's daily-review card states**. Nothing else is touched.
 - `supabase/rollback/0007_service_role_grants.sql`: drops `unmatched_payment_events` (export unresolved rows first) and `find_user_id_by_email()`, and revokes service_role's privileges on `purchases`. **After it, the webhook fails with 42501 again**, unless the project's default privileges grant them.
 - `supabase/rollback/0006_progress_sync.sql`: drops `apply_progress()`, `writing_task_progress` (deleting writing-task records) and `exercise_results.last_attempt_at`; restores the index and the direct insert and update grants; recreates an empty `lesson_scores`. `lesson_progress` and `exercise_results` rows are kept.
 - `supabase/rollback/0005_payments.sql`: drops `get_founder_spots_left()`, `purchases`, and `pricing_settings`.
-- `supabase/rollback/rollback_all.sql`: drops everything the migrations create (0001 to 0007), in dependency order. **It deletes every profile, all learner progress, and all purchases, with no undo.** It leaves `auth.users` alone. Never use it to undo only the progress sync.
+- `supabase/rollback/rollback_all.sql`: drops everything the migrations create (0001 to 0008), in dependency order. **It deletes every profile, all learner progress, all review cards, and all purchases, with no undo.** It leaves `auth.users` alone. Never use it to undo only the progress sync.
 
 ## 10. Not done yet
 

@@ -1,6 +1,6 @@
 # Daily review: plan
 
-Status: plan only (Prompt 68), awaiting the owner's decisions on the open questions (section 9). No code, migration or content has changed.
+Status: decisions recorded (Prompt 69, section 9). Rollout step 1, migration 0008, is written (supabase/migrations/0008_review_cards.sql) but not yet run in Supabase. No app code or content has changed.
 
 Goal: a `/review` page with a short daily session of spaced-repetition vocabulary cards, which turns the home "Daily review" card into a link. v1 stays simple.
 
@@ -27,7 +27,7 @@ Goal: a `/review` page with a short daily session of spaced-repetition vocabular
 **Recommendation: automatic, from lessons the learner has practised.**
 - A lesson's non-glossary vocab joins the learner's deck once they've answered at least one of its exercises or finished a run. Opening a lesson isn't enough, because learners skim.
 - New cards are introduced in course order (lesson order, then vocab order), at most 10 a day (section 3).
-- A repeated French entry (81) becomes one card, keyed by its first id in course order; the later ids point to it.
+- Repeated words follow decision 3 (section 9): 4,855 eligible entries make 4,817 cards.
 - Alternatives:
   - *Manual* (a "save" button on vocab rows, into saved_vocab): more control, but a new UI on every vocab table, and learners rarely curate. Better as a v2 addition ("star a word to see it sooner").
   - *Both*: the most flexible, and twice the work in v1.
@@ -70,7 +70,11 @@ Goal: a `/review` page with a short daily session of spaced-repetition vocabular
 
 **Recommendation: a new table, `review_cards`, written only through an `apply_review()` security-definer function, reusing the progress sync design.** That means the same outbox, facade, `NEXT_PUBLIC_PROGRESS_SYNC` flag and import rules (docs/plans/progress.md, sections 6 to 8).
 
-- **Table:** `review_cards (user_id uuid, vocab_id text, box smallint 1–5, due_on date, last_reviewed_at timestamptz, reviews smallint, lapses smallint, updated_at timestamptz)`.
+- **Table (as built in 0008):** `review_cards (user_id uuid, card_id text, lesson_id text, box smallint 0–5 (0 = added, not yet reviewed), due_at timestamptz, last_reviewed_at timestamptz (null only in box 0), review_count int, lapse_count int, created_at timestamptz)`.
+  - The primary key is `(user_id, card_id)`.
+  - A check keeps `lesson_id` equal to the card id's prefix.
+  - The cap is 6,000 cards per user (4,817 cards today, plus about a 25% margin).
+  - The text below was written before 0008; where they differ, 0008 wins.
   - Primary key `(user_id, vocab_id)`.
   - There's no lesson_id: it's the prefix of the vocab id, which validate:content already guarantees.
   - RLS: read own and delete own only, with no insert or update grant.
@@ -103,6 +107,7 @@ Goal: a `/review` page with a short daily session of spaced-repetition vocabular
 
 ## 6. Pages and UI
 
+- **/review empty state:** "Practise a lesson to add its words to your review.", with a link to /practice (decision 7).
 - **/review:**
   - A static shell, with client-side state from the review store, read at once from local data. The server's copy updates it in place, as on /progress.
   - **Header:** "N cards due today", or "All done for today, come back tomorrow" with the next due date.
@@ -139,11 +144,17 @@ Goal: a `/review` page with a short daily session of spaced-repetition vocabular
    - The preview checklist and size SQL get `review_cards`.
    - docs/project-state.md is updated.
 
-## 9. Open questions
+## 9. Decisions (owner, Prompt 69)
 
-1. **Card source:** automatic from practised lessons only, with no manual saving in v1?
-2. **Glossary words:** leave out the 373 B2 to C2 glossary entries (reading aids)?
-3. **Repeated words:** merge the 81 repeated French entries into one card each?
-4. **Gender of `l'` words:** accept that 190 entries don't show gender in v1, or add a gender `note` to them first (a content pass)?
-5. **Limits:** 10 new a day, 60 reviews a day at most, 20 cards a session: OK?
-6. **Direction:** French → English only in v1?
+1. **Source:** v1 cards are automatic only, from the vocab of lessons the learner has practised (at least one answered exercise or a finished run). Manual saving (saved_vocab) comes later.
+2. **Glossary:** the 373 glossary reading aids (`group: "glossary"`) are excluded.
+3. **Repeated words:** entries become one card only when both the French and the English match after normalising. Otherwise they stay separate cards. 38 entries merge today, giving 4,817 cards.
+   - **Normalising:** Unicode NFC, lower case, curly apostrophes become `'`, the characters `. , ; : ! ? … " « » ( ) [ ]` become spaces, runs of spaces become one, and both ends are trimmed. Accents, hyphens and apostrophes are kept, because they change meaning.
+   - **Card id:** the vocab id of the earliest matching entry in course order when the card is first published. It's recorded in a committed card map (rollout step 2) and never changes after that.
+     - A later matching entry joins the existing card.
+     - If an edit makes entries stop matching, the existing card keeps its id, and the entry that split off becomes its own card under its own vocab id.
+     - A card id is always a real vocab id, so its lesson is the id's prefix, which 0008 checks.
+4. **Gender:** none for the 190 `l'` entries in v1. Gender notes are a later content task, with native review.
+5. **Limits:** 10 new cards a day, at most 60 reviews a day, 20 cards per session, and a "Do another 20" button while more cards are due.
+6. **Format:** French → English only, self-graded ("I knew it" / "Not yet"). "Not yet" sends the card back to box 1. The Leitner intervals are 1, 3, 7, 16 and 35 days.
+7. **Empty state on /review:** "Practise a lesson to add its words to your review.", with a link to /practice.

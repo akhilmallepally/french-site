@@ -1,7 +1,7 @@
 -- supabase/tests/rls.sql
--- Proves the RLS rules (0003, 0005), the progress write path (0006) and the service-role grants
--- (0007) on every table and every operation. Run it in the Supabase SQL editor (or psql) AFTER
--- migrations 0001 to 0007. It runs in
+-- Proves the RLS rules (0003, 0005), the progress write path (0006), the service-role grants
+-- (0007) and the daily-review write path (0008) on every table and every operation. Run it in the
+-- Supabase SQL editor (or psql) AFTER migrations 0001 to 0008. It runs in
 -- one transaction that ends in ROLLBACK, so it leaves nothing behind: no users, no rows, no test
 -- schema.
 --
@@ -459,6 +459,99 @@ begin
 end;
 $$;
 
+-- ---------- daily review (0008) ----------
+-- Calls apply_review(items) as the current user and expects n_applied applied entries and exactly
+-- these rejection codes, in order.
+create function rls_test.expect_review(label text, items jsonb, n_applied int, codes text[] default '{}')
+returns void language plpgsql security invoker as $$
+declare
+  res jsonb := public.apply_review(items);
+  got_codes text[];
+begin
+  select coalesce(array_agg(t.r ->> 'code' order by t.o), '{}')
+    into got_codes
+    from jsonb_array_elements(res -> 'rejected') with ordinality as t (r, o);
+  if jsonb_array_length(res -> 'applied') <> n_applied or got_codes <> codes then
+    raise exception 'FAIL: % returned %, expected % applied and rejected %', label, res, n_applied, codes;
+  end if;
+  raise notice 'PASS: % -> % applied, rejected %', label, n_applied, codes;
+end;
+$$;
+
+-- A card state entry (the shape apply_review documents). reviewed null means a new card (box 0).
+create function rls_test.card(k text, card text, lesson text, box int, due interval, reviewed interval, reviews int default 0, lapses int default 0)
+returns jsonb language sql stable as $$
+  select jsonb_build_object('key', k, 'cardId', card, 'lessonId', lesson, 'box', box, 'dueAt', rls_test.ts(due),
+    'lastReviewedAt', case when reviewed is null then null else to_jsonb(rls_test.ts(reviewed)) end,
+    'reviews', reviews, 'lapses', lapses);
+$$;
+
+-- As the signed-in user: the write path, the merge rules and own reads. Leaves 2 cards.
+create function rls_test.review_own() returns void language plpgsql security invoker as $$
+declare
+  me uuid := rls_test.me();
+  who text := case when me = '11111111-1111-4111-8111-111111111111'::uuid then 'user A' else 'user B' end;
+  l text := 'rls-test-lesson';
+  c1 text := 'rls-test-lesson-v001';
+  c2 text := 'rls-test-lesson-v002';
+begin
+  perform rls_test.expect_error(who || ' inserts review_cards directly', format('insert into public.review_cards (user_id, card_id, lesson_id, box, due_at) values (%L, %L, %L, 0, now())', me, c1, l));
+  perform rls_test.expect_review(who || ' bad review entries', jsonb_build_array(
+    rls_test.card('x1', 'other-lesson-v001', l, 1, '1 day', '-1 hour', 1),
+    rls_test.card('x2', c1, l, 6, '1 day', '-1 hour', 1),
+    rls_test.card('x3', c1, l, 1, '1 day', '-1 hour', 1, 2),
+    rls_test.card('x4', c1, l, 0, '1 hour', null, 1),
+    rls_test.card('x5', c1, l, 1, '1 day', null, 1),
+    rls_test.card('x6', c1, l, 1, '1 day', '25 hours', 1),
+    rls_test.card('x7', c1, l, 1, '500 days', '-1 hour', 1),
+    '"not an object"'::jsonb), 0,
+    array['bad_id', 'bad_box', 'bad_count', 'bad_count', 'bad_time', 'future_time', 'future_time', 'bad_item']);
+  perform rls_test.expect_rows(who || ' rejected review entries wrote nothing', format('select 1 from public.review_cards where user_id = %L', me), 0);
+  perform rls_test.expect_review(who || ' adds a new card (box 0)', jsonb_build_array(rls_test.card('n1', c1, l, 0, '0 hours', null)), 1);
+  perform rls_test.expect_rows(who || ' reads the new card', format('select 1 from public.review_cards where user_id = %L and card_id = %L and box = 0 and last_reviewed_at is null and review_count = 0', me, c1), 1);
+  perform rls_test.expect_review(who || ' first review (box 1)', jsonb_build_array(rls_test.card('r1', c1, l, 1, '1 day', '-1 hour', 1)), 1);
+  perform rls_test.expect_review(who || ' resends the same review', jsonb_build_array(rls_test.card('r1', c1, l, 1, '1 day', '-1 hour', 1)), 1);
+  perform rls_test.expect_rows(who || ' resend changed nothing', format('select 1 from public.review_cards where user_id = %L and card_id = %L and box = 1 and review_count = 1 and last_reviewed_at = now() - interval %L', me, c1, '1 hour'), 1);
+  perform rls_test.expect_review(who || ' an older state arrives late, with more reviews', jsonb_build_array(rls_test.card('r0', c1, l, 3, '7 days', '-2 hours', 5, 1)), 1);
+  perform rls_test.expect_rows(who || ' keeps the later state, counts take the max', format('select 1 from public.review_cards where user_id = %L and card_id = %L and box = 1 and last_reviewed_at = now() - interval %L and review_count = 5 and lapse_count = 1', me, c1, '1 hour'), 1);
+  perform rls_test.expect_review(who || ' a tie on last_reviewed_at', jsonb_build_array(rls_test.card('t1', c1, l, 4, '16 days', '-1 hour', 5, 1)), 1);
+  perform rls_test.expect_rows(who || ' a tie keeps the stored state', format('select 1 from public.review_cards where user_id = %L and card_id = %L and box = 1', me, c1), 1);
+  perform rls_test.expect_review(who || ' an unreviewed entry against a reviewed card', jsonb_build_array(rls_test.card('n2', c1, l, 0, '0 hours', null)), 1);
+  perform rls_test.expect_rows(who || ' the reviewed card is kept', format('select 1 from public.review_cards where user_id = %L and card_id = %L and box = 1', me, c1), 1);
+  perform rls_test.expect_review(who || ' a newer review (box 2)', jsonb_build_array(rls_test.card('r2', c1, l, 2, '3 days', '-30 minutes', 6, 1)), 1);
+  perform rls_test.expect_rows(who || ' the newer review wins', format('select 1 from public.review_cards where user_id = %L and card_id = %L and box = 2 and review_count = 6 and due_at = now() + interval %L', me, c1, '3 days'), 1);
+  perform rls_test.expect_review(who || ' a review 23 hours ahead', jsonb_build_array(rls_test.card('f1', c2, l, 1, '2 days', '23 hours', 1)), 1);
+  perform rls_test.expect_rows(who || ' time stored as sent, not clamped', format('select 1 from public.review_cards where user_id = %L and card_id = %L and last_reviewed_at = now() + interval %L', me, c2, '23 hours'), 1);
+  perform rls_test.expect_error(who || ' updates own review_cards directly', format('update public.review_cards set box = 5 where user_id = %L', me));
+  perform rls_test.expect_rows(who || ' sees only own cards (unfiltered select)', 'select 1 from public.review_cards', 2);
+end;
+$$;
+
+-- As the signed-in user, against the other user's cards.
+create function rls_test.review_other() returns void language plpgsql security invoker as $$
+declare
+  me uuid := rls_test.me();
+  other uuid := rls_test.other();
+  who text := case when me = '11111111-1111-4111-8111-111111111111'::uuid then 'user A' else 'user B' end;
+begin
+  perform rls_test.expect_rows(who || ' reads the other user''s cards', format('select 1 from public.review_cards where user_id = %L', other), 0);
+  perform rls_test.expect_affected(who || ' deletes the other user''s cards', format('delete from public.review_cards where user_id = %L', other), 0);
+  perform rls_test.expect_error(who || ' inserts a card for the other user', format('insert into public.review_cards (user_id, card_id, lesson_id, box, due_at) values (%L, %L, %L, 0, now())', other, 'rls-test-other-v001', 'rls-test-other'));
+  -- An entry naming the other user is written for the caller only (the id comes from auth.uid()).
+  perform rls_test.expect_review(who || ' names the other user in an entry', jsonb_build_array(
+    rls_test.card('o1', 'rls-test-only-mine-v001', 'rls-test-only-mine', 0, '0 hours', null) || jsonb_build_object('userId', other)), 1);
+end;
+$$;
+
+-- User C, at the cap (6,000 cards seeded below): a new card is refused, an existing one updates.
+create function rls_test.review_cap() returns void language plpgsql security invoker as $$
+begin
+  perform rls_test.expect_review('user C adds a card at the cap', jsonb_build_array(rls_test.card('c1', 'cap-lesson-v9999', 'cap-lesson', 0, '0 hours', null)), 0, array['cap_reached']);
+  perform rls_test.expect_review('user C reviews an existing card at the cap', jsonb_build_array(rls_test.card('c2', 'cap-lesson-v1', 'cap-lesson', 1, '1 day', '-1 hour', 1)), 1);
+  perform rls_test.expect_rows('user C still has 6,000 cards, the reviewed one updated', 'select 1 from public.review_cards where card_id = ''cap-lesson-v1'' and box = 1', 1);
+end;
+$$;
+
 grant usage on schema rls_test to authenticated, anon, service_role;
 grant execute on all functions in schema rls_test to authenticated, anon, service_role;
 grant select on rls_test.baseline to authenticated, anon, service_role;
@@ -473,7 +566,10 @@ declare
   text_cols text[];
 begin
   -- Every table has RLS enabled and forced.
-  foreach t in array array['profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab', 'purchases', 'pricing_settings', 'unmatched_payment_events'] loop
+  if pg_catalog.to_regclass('public.review_cards') is null then
+    raise exception 'FAIL: public.review_cards is missing: run migration 0008 first';
+  end if;
+  foreach t in array array['profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab', 'purchases', 'pricing_settings', 'unmatched_payment_events', 'review_cards'] loop
     select c.relrowsecurity, c.relforcerowsecurity into rls, forced
       from pg_catalog.pg_class c join pg_catalog.pg_namespace n on n.oid = c.relnamespace
      where n.nspname = 'public' and c.relname = t;
@@ -573,6 +669,28 @@ begin
   end if;
   raise notice 'PASS: apply_progress() is security definer, search_path empty, authenticated-only';
 
+  -- 0008: apply_review() has the same properties.
+  if not exists (
+    select 1 from pg_catalog.pg_proc p join pg_catalog.pg_roles r on r.oid = p.proowner
+     where p.oid = 'public.apply_review(jsonb)'::regprocedure
+       and p.prosecdef and 'search_path=""' = any (p.proconfig)
+       and (r.rolbypassrls or r.rolsuper)
+  ) then
+    raise exception 'FAIL: apply_review() is not security definer with search_path '''' and an RLS-bypassing owner';
+  end if;
+  if exists (
+    select 1 from pg_catalog.pg_proc p, pg_catalog.aclexplode(p.proacl) a
+     where p.oid = 'public.apply_review(jsonb)'::regprocedure and a.grantee = 0
+  ) or (select p.proacl is null from pg_catalog.pg_proc p where p.oid = 'public.apply_review(jsonb)'::regprocedure) then
+    raise exception 'FAIL: PUBLIC can execute apply_review()';
+  end if;
+  if has_function_privilege('anon', 'public.apply_review(jsonb)', 'EXECUTE')
+     or has_function_privilege('service_role', 'public.apply_review(jsonb)', 'EXECUTE')
+     or not has_function_privilege('authenticated', 'public.apply_review(jsonb)', 'EXECUTE') then
+    raise exception 'FAIL: apply_review() execute is not authenticated-only';
+  end if;
+  raise notice 'PASS: apply_review() is security definer, search_path empty, authenticated-only';
+
   -- 0007: exact table privileges in public for service_role, authenticated and anon.
   -- Expected: service_role only what the payment webhook uses; authenticated and anon as in
   -- 0003, 0005 and 0006; nobody but service_role on unmatched_payment_events.
@@ -592,7 +710,7 @@ begin
         -- authenticated and anon only on the tables these migrations manage.
         continue when role_name <> 'service_role' and rel.relname not in (
           'profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab',
-          'purchases', 'pricing_settings', 'unmatched_payment_events');
+          'purchases', 'pricing_settings', 'unmatched_payment_events', 'review_cards');
         expected := case role_name || ':' || rel.relname
           when 'service_role:purchases' then array['SELECT', 'INSERT', 'UPDATE']
           when 'service_role:unmatched_payment_events' then array['SELECT', 'INSERT']
@@ -601,6 +719,7 @@ begin
           when 'authenticated:exercise_results' then array['SELECT', 'DELETE']
           when 'authenticated:writing_task_progress' then array['SELECT', 'DELETE']
           when 'authenticated:saved_vocab' then array['SELECT', 'INSERT', 'DELETE']
+          when 'authenticated:review_cards' then array['SELECT', 'DELETE']
           when 'authenticated:purchases' then array['SELECT']
           when 'authenticated:pricing_settings' then array['SELECT']
           when 'anon:pricing_settings' then array['SELECT']
@@ -742,7 +861,10 @@ values
   ('11111111-1111-4111-8111-111111111111', 'lessons', 'active', 'dodo', 'ord_test_a_001', rls_test.founder_amount(), 'usd'),
   ('22222222-2222-4222-8222-222222222222', 'lessons', 'active', 'dodo', 'ord_test_b_001', rls_test.founder_amount(), 'usd');
 
--- Seed user C at every cap (as postgres, which bypasses RLS and grants).
+-- Seed user C at every cap (as postgres, which bypasses RLS and grants), review cards included.
+insert into public.review_cards (user_id, card_id, lesson_id, box, due_at, last_reviewed_at, review_count)
+select '33333333-3333-4333-8333-333333333333', 'cap-lesson-v' || g, 'cap-lesson', 1, now() + interval '1 day', now() - interval '1 day', 1
+  from generate_series(1, 6000) as g;
 insert into public.exercise_results (user_id, lesson_id, exercise_id, correct, attempts, correct_count, last_result, last_attempt_at)
 select '33333333-3333-4333-8333-333333333333', 'cap-lesson', 'cap-lesson-ex' || g, false, 1, 0, 'incorrect', now() - interval '1 day'
   from generate_series(1, 6000) as g;
@@ -837,6 +959,69 @@ set local role service_role;
 select rls_test.service_role_checks();
 reset role;
 
+-- ===================================================================== daily review (0008)
+select set_config('request.jwt.claims', '{"sub":"11111111-1111-4111-8111-111111111111","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.review_own();
+reset role;
+select set_config('request.jwt.claims', '{"sub":"22222222-2222-4222-8222-222222222222","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.review_own();
+select rls_test.review_other();
+reset role;
+select set_config('request.jwt.claims', '{"sub":"11111111-1111-4111-8111-111111111111","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.review_other();
+reset role;
+
+do $$
+begin
+  if (select count(*) from public.review_cards where card_id = 'rls-test-only-mine-v001') <> 2
+     or exists (select 1 from public.review_cards where card_id = 'rls-test-only-mine-v001'
+                 and user_id not in ('11111111-1111-4111-8111-111111111111', '22222222-2222-4222-8222-222222222222')) then
+    raise exception 'FAIL: apply_review() wrote a card for someone other than the caller';
+  end if;
+  if (select count(*) from public.review_cards where user_id = '11111111-1111-4111-8111-111111111111') <> 3
+     or (select count(*) from public.review_cards where user_id = '22222222-2222-4222-8222-222222222222') <> 3 then
+    raise exception 'FAIL: one user''s review checks changed the other''s cards';
+  end if;
+  raise notice 'PASS: each user''s cards were written only for that user, and neither touched the other''s';
+end;
+$$;
+
+select set_config('request.jwt.claims', '{"sub":"33333333-3333-4333-8333-333333333333","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.review_cap();
+reset role;
+
+select set_config('request.jwt.claims', '{"role":"anon"}', true);
+set local role anon;
+select rls_test.expect_nothing('anon reads review_cards', 'select 1 from public.review_cards');
+select rls_test.expect_error('anon inserts review_cards', 'insert into public.review_cards (user_id, card_id, lesson_id, box, due_at) values (''11111111-1111-4111-8111-111111111111'', ''x-v001'', ''x'', 0, now())');
+select rls_test.expect_error('anon calls apply_review()', 'select public.apply_review(''[]''::jsonb)');
+reset role;
+
+select set_config('request.jwt.claims', '{"role":"service_role"}', true);
+set local role service_role;
+select rls_test.expect_error('service_role reads review_cards', 'select 1 from public.review_cards');
+select rls_test.expect_error('service_role inserts review_cards', 'insert into public.review_cards (user_id, card_id, lesson_id, box, due_at) values (''11111111-1111-4111-8111-111111111111'', ''x-v001'', ''x'', 0, now())');
+select rls_test.expect_error('service_role calls apply_review()', 'select public.apply_review(''[]''::jsonb)');
+reset role;
+
+-- A deletes own cards; B's stay.
+select set_config('request.jwt.claims', '{"sub":"11111111-1111-4111-8111-111111111111","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.expect_affected('user A deletes own review cards', 'delete from public.review_cards', 3);
+reset role;
+do $$
+begin
+  if (select count(*) from public.review_cards where user_id = '22222222-2222-4222-8222-222222222222') <> 3 then
+    raise exception 'FAIL: A''s delete removed B''s review cards';
+  end if;
+  raise notice 'PASS: A''s review-card delete left B''s cards in place';
+end;
+$$;
+
 -- ===================================================================== each user deletes own rows
 select set_config('request.jwt.claims', '{"sub":"11111111-1111-4111-8111-111111111111","role":"authenticated"}', true);
 set local role authenticated;
@@ -880,6 +1065,7 @@ begin
        or exists (select 1 from public.exercise_results where user_id = u)
        or exists (select 1 from public.writing_task_progress where user_id = u)
        or exists (select 1 from public.saved_vocab where user_id = u)
+       or exists (select 1 from public.review_cards where user_id = u)
        or exists (select 1 from public.purchases where user_id = u) then
       raise exception 'FAIL: deleting user % left rows behind', u;
     end if;
@@ -894,7 +1080,7 @@ begin
     raise exception 'FAIL: get_founder_spots_left() did not reflect cascaded deletion (got %, expected %)',
       public.get_founder_spots_left('lessons'), rls_test.spots_expected(1);
   end if;
-  raise notice 'PASS: deleting users A and C cascaded to the profile, progress, writing tasks and purchases, and left B alone';
+  raise notice 'PASS: deleting users A and C cascaded to the profile, progress, writing tasks, review cards and purchases, and left B alone';
   raise notice 'PASS: ALL RLS CHECKS PASSED';
 end;
 $$;
