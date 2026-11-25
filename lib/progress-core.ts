@@ -60,7 +60,14 @@ export interface ProgressStore {
   importNotice(): Promise<ImportNotice | null>;
   /** Records that the import notice was shown, so it never appears again. */
   markImportNoticeShown(): Promise<void>;
+  /**
+   * Where progress is kept right now: "account" (signed in, synced), "browser-signed-out" (sync is
+   * on but nobody is signed in: signing in would save it) or "browser-only" (sync off or no Supabase).
+   */
+  mode(): Promise<ProgressMode>;
 }
+
+export type ProgressMode = "account" | "browser-signed-out" | "browser-only";
 
 export type ImportNotice = { text: string };
 
@@ -193,5 +200,9 @@ export class LocalProgressStore implements ProgressStore {
   }
 
   async markImportNoticeShown() {}
+
+  async mode(): Promise<ProgressMode> {
+    return "browser-only";
+  }
 }
 

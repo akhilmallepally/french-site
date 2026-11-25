@@ -230,8 +230,8 @@ for (const l of free.filter((_, i) => i % step === 0).slice(0, 8)) {
   record("free lesson returns full content", r.status === 200 && missing.length === 0 && !r.text.includes(PANEL_TEXT), `${l.path} status ${r.status}, missing: ${missing.join(" | ")}`);
 }
 
-// Public pages: /pricing, /terms, and /refund must return 200 and leak zero gated lesson markers/answers.
-for (const pagePath of ["/pricing", "/terms", "/refund"]) {
+// Public pages: /pricing, /terms, /refund and /progress must return 200 and leak zero gated lesson markers/answers.
+for (const pagePath of ["/pricing", "/terms", "/refund", "/progress"]) {
   const r = await get(BASE_URL + pagePath);
   record("public page returns 200", r.status === 200, `${pagePath} status ${r.status}`);
   const leaked = [];
@@ -251,6 +251,12 @@ for (const next of ["//evil.com", "https://evil.com", "/\\evil.com"]) {
     ok = target.origin === new URL(BASE_URL).origin;
   }
   record("callback redirect stays same-origin", ok, `next=${next} -> ${r.status} ${r.location}`);
+}
+
+// /progress: personal, so never indexed.
+{
+  const r = await get(BASE_URL + "/progress");
+  record("/progress is noindex", r.status === 200 && /<meta name="robots" content="noindex/.test(r.text), `status ${r.status}`);
 }
 
 // Progress actions: a signed-out caller (no session cookie) is refused and gets no progress data.

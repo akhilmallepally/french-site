@@ -17,6 +17,7 @@ import {
   nextWriting,
   type ImportNotice,
   type LessonProgress,
+  type ProgressMode,
   type ProgressData,
   type ProgressStore,
   type WritingTaskProgress,
@@ -87,6 +88,8 @@ export const IMPORTED_MARKER_KEY = "parlons-progress-imported-v1";
 export const IMPORT_NOTICE = "We added the progress saved in this browser to your account.";
 export const IMPORT_NOTICE_PARTIAL = "We added the progress saved in this browser to your account. A few items couldn't be added.";
 const CACHE_PREFIX = "parlons-progress-v1:u:";
+/** The account the facade picked last, so reads can answer before the session is known again. */
+export const LAST_USER_KEY = "parlons-progress-last-user-v1";
 const OUTBOX_LOCK = "parlons-progress-outbox";
 const FLUSH_LOCK = "parlons-progress-flush";
 
@@ -104,6 +107,17 @@ type KeptRejection = { key: string; code: string; at: string; entry?: OutboxEntr
 
 const isObj = (v: unknown): v is Record<string, unknown> => typeof v === "object" && v !== null && !Array.isArray(v);
 const emptyData = (): ProgressData => ({ exercises: {}, lessons: {}, writingTasks: {} });
+
+/** A user's cached synced progress, or null when there's none (or it names another user). */
+export function readCachedProgress(storage: StorageLike, userId: string): ProgressData | null {
+  try {
+    const c = JSON.parse(storage.getItem(cacheKey(userId)) ?? "null");
+    if (isObj(c) && c.userId === userId && isProgressData(c.data)) return { writingTasks: {}, ...c.data };
+  } catch {
+    // Corrupted: treated as empty; the next server snapshot fills it.
+  }
+  return null;
+}
 
 /**
  * The page was built before a deploy, so its action ids are gone. Next.js 16 answers 409 and the
@@ -148,13 +162,7 @@ export class SupabaseProgressStore implements ProgressStore {
   // ----- storage (writes only inside withOutboxLock) -----
 
   private readCache(): ProgressData {
-    try {
-      const c = JSON.parse(this.env.storage.getItem(cacheKey(this.userId)) ?? "null");
-      if (isObj(c) && c.userId === this.userId && isProgressData(c.data)) return { writingTasks: {}, ...c.data };
-    } catch {
-      // Corrupted: start from empty; the next server snapshot fills it.
-    }
-    return emptyData();
+    return readCachedProgress(this.env.storage, this.userId) ?? emptyData();
   }
 
   private writeCache(data: ProgressData): void {
@@ -529,6 +537,10 @@ export class SupabaseProgressStore implements ProgressStore {
     return { text: state.rejected ? IMPORT_NOTICE_PARTIAL : IMPORT_NOTICE };
   }
 
+  async mode(): Promise<ProgressMode> {
+    return "account";
+  }
+
   async markImportNoticeShown(): Promise<void> {
     await this.withOutboxLock(() => {
       const state = this.readImport();
@@ -606,19 +618,51 @@ export class SyncFacade implements ProgressStore {
     return this.remote ?? this.local;
   }
 
+  private initDone = false;
+
+  private envNow(): FacadeEnv {
+    return (this.env ??= this.makeEnv());
+  }
+
+  /** The user picked last on this browser (null if none, or if storage is blocked). */
+  private hintedUser(): string | null {
+    try {
+      return this.envNow().storage.getItem(LAST_USER_KEY);
+    } catch {
+      return null;
+    }
+  }
+
+  /**
+   * Reads before the session is known (the wiring chunk is loading, or getSession is refreshing a
+   * token): the hinted user's cache, or this browser's signed-out progress. Never the network.
+   * Once the facade has picked the store it notifies, and readers read again.
+   */
+  private earlyData(): ProgressData | null {
+    if (this.initDone) return null;
+    void this.ensureInit();
+    const hint = this.hintedUser();
+    if (!hint) return null; // answer from the local store
+    return readCachedProgress(this.envNow().storage, hint) ?? emptyData();
+  }
+
   private ensureInit(): Promise<void> {
     this.init ??= (async () => {
       try {
-        this.env = this.makeEnv();
+        this.envNow();
         this.wiring = await this.loadWiring();
-        await this.select(await this.wiring.auth.getUserId());
+        // Listen first, then read the session, so a sign-in that lands meanwhile isn't missed
+        // (selections run one at a time, in order).
         this.wiring.auth.onChange((userId) => void this.select(userId));
-        this.env.on("online", () => this.remote?.onOnline());
-        this.env.on("visible", () => this.remote?.onVisible());
+        await this.select(await this.wiring.auth.getUserId());
+        this.env!.on("online", () => this.remote?.onOnline());
+        this.env!.on("visible", () => this.remote?.onVisible());
       } catch {
         // Couldn't load the client or read the session: stay on the local store.
         this.remote = null;
       }
+      this.initDone = true;
+      this.notify();
     })();
     return this.init;
   }
@@ -642,6 +686,12 @@ export class SyncFacade implements ProgressStore {
     // A shared browser: no other account's synced copy stays readable here. Outboxes stay (unsent
     // work, sent only when that same account signs in again), but they're never shown.
     this.sweepCaches(userId);
+    try {
+      if (userId) this.env.storage.setItem(LAST_USER_KEY, userId);
+      else this.env.storage.removeItem(LAST_USER_KEY);
+    } catch {
+      // Storage blocked: early reads just use the local store.
+    }
     if (userId) {
       const store = new SupabaseProgressStore(userId, this.wiring.actions, this.env, () => void this.recheck());
       this.remote = store;
@@ -706,12 +756,23 @@ export class SyncFacade implements ProgressStore {
     return (await this.store()).markImportNoticeShown();
   }
 
+  async mode(): Promise<ProgressMode> {
+    if (!this.initDone) {
+      void this.ensureInit();
+      return this.hintedUser() ? "account" : "browser-signed-out";
+    }
+    return this.remote ? "account" : "browser-signed-out";
+  }
+
   private async store(): Promise<ProgressStore> {
     await this.ensureInit();
     return this.remote ?? this.local;
   }
 
   async getLessonProgress(lessonId: string) {
+    const early = this.earlyData();
+    if (early) return early.lessons[lessonId] ?? null;
+    if (!this.initDone) return this.local.getLessonProgress(lessonId);
     return (await this.store()).getLessonProgress(lessonId);
   }
   async recordAttempt(exerciseId: string, result: AnswerStatus) {
@@ -724,9 +785,15 @@ export class SyncFacade implements ProgressStore {
     return (await this.store()).recordWritingTask(exerciseId, checked);
   }
   async getWritingTask(exerciseId: string) {
+    const early = this.earlyData();
+    if (early) return early.writingTasks?.[exerciseId] ?? null;
+    if (!this.initDone) return this.local.getWritingTask(exerciseId);
     return (await this.store()).getWritingTask(exerciseId);
   }
   async getAll() {
+    const early = this.earlyData();
+    if (early) return early;
+    if (!this.initDone) return this.local.getAll();
     return (await this.store()).getAll();
   }
   async reset() {

@@ -314,7 +314,7 @@ A double click on "Mark as done" or "Check" is already harmless: each produces o
   - The caps refuse new rows and still update existing ones (seeded user C).
   - `writing_task_progress` has exactly the expected columns, with no text column but the ids.
   - Cross-user reads return 0 rows, and deleting a user cascades.
-- **Manual checklist** (in docs/db-setup.md): two Google accounts in two browsers; answer offline (DevTools → offline), go back online, check the rows; a preview deployment with a wrong Supabase URL still saves locally; sign out and in again; import with existing local progress; Security Advisor shows nothing new.
+- **Manual checklist** (in docs/db-setup.md): two Google accounts in two browsers; answer offline (DevTools → offline), go back online, check the rows; a preview deployment with a wrong Supabase URL still saves locally; sign out and in again; import with existing local progress; on a preview deployment with the network slowed in Chrome, exercises appear at once; Security Advisor shows nothing new.
 - **validate:content** gains two checks: exercise ids start with `<lesson-id>-ex`, and a warning at 80% of the database caps.
 - **Staying green:** `test:no-supabase-env` and `test:gating` must keep passing (no config means the local store). Server code is marked `server-only` and kept out of client imports. After every step: validate:content, test:content, test:checker, test:progress, build.
 
@@ -329,7 +329,7 @@ Each step is one prompt, ending with the checks and a commit point (the owner co
 4. **The store:** `SupabaseProgressStore`, outbox, facade, shared read cache, behind `NEXT_PUBLIC_PROGRESS_SYNC=on`; privacy page text. *Commit.*
 5. **Import on sign-in** and the one-time notice. *Commit.*
 6. **Dashboard** `/progress`, `lib/progress-summary.ts`, header link. *Commit.*
-7. **Wrap-up:** run the manual checklist on a preview deployment, measure the database size, update docs/project-state.md. *Commit.*
+7. **Wrap-up:** run the manual checklist on a preview deployment (including: on a preview deployment with the network slowed in Chrome, exercises appear at once), measure the database size, update docs/project-state.md. *Commit.*
 
 **Vercel:** `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` (already set); new `NEXT_PUBLIC_PROGRESS_SYNC=on` (Preview first, then Production; it's inlined at build, so changing it needs a redeploy). `SUPABASE_SERVICE_ROLE_KEY` is unchanged and not used by progress. **Supabase:** run 0006 in the SQL Editor, then the RLS test and the Security Advisor.
 

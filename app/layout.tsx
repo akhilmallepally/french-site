@@ -3,7 +3,6 @@ import Link from "next/link";
 import { Fraunces, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import AuthButton from "@/components/auth-button";
-import { ProgressImportNotice } from "@/components/progress-import-notice";
 import "./globals.css";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
@@ -38,9 +37,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               French Properly<span className="text-accent">.</span>
             </Link>
 
-            <div className="flex items-center gap-3 sm:gap-6">
+            <div className="flex flex-wrap items-center justify-end gap-x-3 gap-y-1 sm:gap-x-6">
               <Link href="/pricing" className="text-sm font-medium text-muted transition-colors hover:text-accent">
                 Lessons
+              </Link>
+              <Link href="/progress" className="text-sm font-medium text-muted transition-colors hover:text-accent">
+                Progress
               </Link>
               <Link href="/pricing" className="text-sm font-medium text-muted transition-colors hover:text-accent">
                 Pricing
@@ -71,7 +73,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </div>
           </div>
         </footer>
-        <ProgressImportNotice />
         {/* Vercel Web Analytics: page views only, no custom events. See the privacy page. */}
         <Analytics />
       </body>

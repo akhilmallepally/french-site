@@ -25,17 +25,23 @@ function useProgress(): ProgressData | null {
   return data;
 }
 
-/** Completed badge and best score for one lesson row. Renders nothing until attempted. */
+/**
+ * Completed badge and best score for one lesson row. Its slot is always there, as tall as a badge
+ * and as wide as the widest one ("✓ Completed · 16 / 16"), so a badge appearing later (local data
+ * after mount, or the server's copy) shifts nothing, on narrow screens too.
+ */
 export function LessonStatus({ lessonId }: { lessonId: string }) {
   const lesson = useProgress()?.lessons[lessonId];
-  if (!lesson) return null;
-  const score = `${lesson.bestScore} / ${lesson.bestTotal}`;
-  return isCompleted(lesson) ? (
-    <span className="rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-medium text-emerald-800">
-      ✓ Completed · {score}
+  const score = lesson ? `${lesson.bestScore} / ${lesson.bestTotal}` : "";
+  return (
+    <span className="inline-flex h-5 min-w-[10.5rem] items-center">
+      {lesson &&
+        (isCompleted(lesson) ? (
+          <span className="rounded-full bg-emerald-50 px-2.5 py-0.5 text-xs font-medium text-emerald-800">✓ Completed · {score}</span>
+        ) : (
+          <span className="rounded-full bg-background px-2.5 py-0.5 text-xs font-medium text-muted">Best {score}</span>
+        ))}
     </span>
-  ) : (
-    <span className="rounded-full bg-background px-2.5 py-0.5 text-xs font-medium text-muted">Best {score}</span>
   );
 }
 

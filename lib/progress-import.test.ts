@@ -218,13 +218,91 @@ describe("the notice", () => {
     assert.equal(await new LocalProgressStore().importNotice(), null);
   });
 
-  test("the notice component: role=status, a Dismiss button, Esc closes it, fixed so nothing shifts", () => {
-    const src = fs.readFileSync(path.join(process.cwd(), "components", "progress-import-notice.tsx"), "utf8");
+  test("the notice is on /progress only: role=status, a Dismiss button, Esc closes it, marked shown once", () => {
+    const src = fs.readFileSync(path.join(process.cwd(), "components", "progress-dashboard.tsx"), "utf8");
     assert.match(src, /role="status"/);
-    assert.match(src, /<button\s+type="button"/);
+    assert.match(src, /onClick=\{\(\) => setNoticeOpen\(false\)\}/);
     assert.match(src, /e\.key === "Escape"/);
-    assert.match(src, /className="pointer-events-none fixed /);
     assert.match(src, /markImportNoticeShown\(\)/);
+    const layout = fs.readFileSync(path.join(process.cwd(), "app", "layout.tsx"), "utf8");
+    assert.doesNotMatch(layout, /ImportNotice/, "no notice on other pages");
+    assert.equal(fs.existsSync(path.join(process.cwd(), "components", "progress-import-notice.tsx")), false);
+  });
+});
+
+describe("re-import after a session ends", () => {
+  test("the session expires, the learner practises signed out, signs back in: the new practice is imported; another account gets nothing", async () => {
+    const w = world();
+    anonymous(w, sample());
+    const day1 = facadeWorld(A, w);
+    await day1.facade.getAll();
+    await w.clock.advance(1000);
+    const firstImport = w.server.calls.flatMap((c) => c.items).length;
+
+    // Next page load: the session has expired, so the browser is signed out.
+    const day2 = facadeWorld(null, w);
+    w.server.sessionUser = null;
+    await day2.facade.getAll();
+    await settle();
+    await day2.facade.recordAttempt("a1-greetings-ex002", "correct"); // signed-out practice
+    await day2.facade.recordRun("a1-greetings", 9, 10);
+    assert.ok(new LocalProgressStore() && JSON.parse(w.storage.getItem(STORAGE_KEY)!).lessons["a1-greetings"], "saved in the signed-out store");
+
+    // Another account signs in on this browser first: it gets nothing.
+    await day2.switchTo(B);
+    await w.clock.advance(1000);
+    assert.deepEqual(w.server.rows(B).exercises, []);
+    assert.deepEqual(w.server.rows(B).lessons, []);
+    await day2.switchTo(null);
+
+    // The claiming account signs back in: only the new practice goes up.
+    await day2.switchTo(A);
+    await w.clock.advance(1000);
+    const newItems = w.server.calls.filter((c) => c.expectedUserId === A).flatMap((c) => c.items).slice(firstImport);
+    assert.deepEqual(newItems.map((i) => i.key).sort(), ["ie:a1-greetings-ex002", "il:a1-greetings"]);
+    assert.equal(w.server.rows(A).lessons.find((l) => l.lesson_id === "a1-greetings")!.best_score, 9);
+    assert.equal(w.storage.getItem(IMPORT_OWNER_KEY), A);
+  });
+
+  test("a page load while already signed in also picks up signed-out practice made in between", async () => {
+    const w = world();
+    anonymous(w, sample());
+    const first = facadeWorld(A, w);
+    await first.facade.getAll();
+    await w.clock.advance(1000);
+    // Practice saved signed out in another way (e.g. a tab that never signed in), then a reload while signed in.
+    const data = JSON.parse(w.storage.getItem(STORAGE_KEY)!);
+    data.exercises["a1-greetings-ex003"] = { attempts: 1, correct: 1, lastResult: "correct", lastAttemptedAt: new Date(w.clock.now).toISOString() };
+    w.storage.setItem(STORAGE_KEY, JSON.stringify(data));
+    const reload = facadeWorld(A, w);
+    await reload.facade.getAll();
+    await w.clock.advance(1000);
+    assert.ok(w.server.rows(A).exercises.some((e) => e.exercise_id === "a1-greetings-ex003"));
+  });
+});
+
+describe("reads before the facade is ready", () => {
+  test("while the wiring chunk is still loading, reads answer from the last user's cache or the signed-out store", async () => {
+    const w = world();
+    anonymous(w, sample());
+    const signedIn = facadeWorld(A, w);
+    await signedIn.facade.getAll();
+    await w.clock.advance(1000);
+    // A new page whose wiring never finishes loading:
+    const { SyncFacade } = await import("./progress-store.ts");
+    const stuck = new SyncFacade(() => new Promise(() => {}), () => w.env, new LocalProgressStore());
+    const all = await stuck.getAll();
+    assert.ok(all.lessons["a2-review-work"], "the hinted account's cached progress, at once");
+    assert.equal(await stuck.mode(), "account");
+    w.storage.removeItem("parlons-progress-last-user-v1");
+    const stuck2 = new SyncFacade(() => new Promise(() => {}), () => w.env, new LocalProgressStore());
+    assert.deepEqual(Object.keys((await stuck2.getAll()).lessons), ["a2-review-work"], "no hint: the signed-out store");
+    assert.equal(await stuck2.mode(), "browser-signed-out");
+  });
+
+  test("the lesson-list badge slot is always rendered at full size", () => {
+    const src = fs.readFileSync(path.join(process.cwd(), "components", "progress-status.tsx"), "utf8");
+    assert.match(src, /<span className="inline-flex h-5 min-w-\[10\.5rem\] items-center">\s*\{lesson &&/);
   });
 });
 
