@@ -22,6 +22,9 @@ register(
       if (specifier === "next/server") {
         return nextResolve("next/server.js", context);
       }
+      if (specifier === "next/cache") {
+        return nextResolve("next/cache.js", context);
+      }
       if (specifier.startsWith("@/")) {
         const target = new URL(specifier.slice(2), ROOT).href;
         return nextResolve(/\\.(ts|js|mjs)$/.test(target) ? target : target + ".ts", context);

@@ -307,3 +307,33 @@
   - test:progress-e2e: from /progress, "Getting started" opens /practice at the unit (open, in view, focused), and its review lands on the exercises (in view, focused).
   - The e2e and smoke specs now find unit names whether they're links or text.
 - **Checks:** all pass. validate:content, test:content, test:checker (36), test:progress (140), test:progress-e2e (then npm run build), tsc, build (new ◐ /practice), test:no-supabase-env (22 PASS), test:gating on a fresh server, test:webhook (70), test:checkout (10), test:safe-next (7).
+
+## Pricing: lifetime price as fast as the free card; duplicate-charge access fix; /practice wording (Prompt 67)
+
+- **Measured cause:**
+  - The free card is prerendered. The lifetime card waited, in a Suspense, on four Supabase calls in a row: getUser, then pricing_settings, then get_founder_spots_left, then the entitlement check.
+  - Vercel runs the functions in **iad1** (Washington; `x-vercel-id: hkg1::iad1::…`). The Supabase database is in **ap-northeast-2** (Seoul; its address is in AWS's ap-northeast-2 ranges). Every call crossed the Pacific.
+  - From here, each call took about 150 ms warm and 150–420 ms cold. Before the change, the lifetime card arrived at 3.4 s cold and 1.2–1.9 s warm on production, and 765 ms cold and 317 ms warm on local `next start`.
+- **Caching:**
+  - New lib/shared-pricing.ts. `getSharedPricing` is a `use cache` function, cached for all visitors with `cacheLife({ stale: 60, revalidate: 60, expire: 300 })` and tagged `pricing`. It reads pricing_settings and the founder spots in parallel with a cookie-free anon client (lib/pricing-source.ts).
+  - It's filled while the page prerenders, so the price, the struck price, "Save 33%", the founder line and the ribbon are in the static shell with the free card. /pricing now builds as ◐ with a 1 m revalidate and 5 m expire.
+  - On a failure the function returns `{ ok: false }` with `cacheLife` expire 0, which Next.js leaves out of the prerender and its default handler never stores. So a failure is never cached and the "temporarily unavailable" state is computed per request. (A throw from `use cache` during prerender fails the build, as the no-config test showed, so it never throws.)
+- **Invalidation:** the payments webhook route calls `revalidateTag("pricing", { expire: 0 })` after a `granted`, `revoked`, `revoked_out_of_order` or `disputed` outcome.
+- **Per-visitor slots:** on /pricing only the button streams: a sign-in link, the buy button, or "You have lifetime access". Its slot is reserved at `min-h-[6.75rem]`.
+  - `getCurrentUser` answers null at once when no `sb-…-auth-token` cookie exists, so signed-out visitors make no auth or entitlement call.
+  - The user and the shared price are read in parallel.
+  - The lesson gate uses the shared price too (entitlement and price in parallel). The gated body itself still waits on the access check, which decides what to show.
+  - The /practice locks stream on their own, with the list in the first pass.
+  - Checkout still reads the live price and refuses with price-changed; a test confirms a cached old price can't be charged.
+- **After:**
+  - Local `next start`: the lifetime price arrives in the same chunk as the free card, at 7–16 ms warm and 155 ms on the first request after start. The signed-out slot follows at 21–35 ms.
+  - Production: not measured, since it isn't deployed. With the price in the prerendered shell, it should arrive with the free card (about 0.12 s warm).
+  - Further gain for signed-in visitors: set the Vercel function region to icn1 (Seoul), next to Supabase, under Project → Settings → Functions.
+- **Entitlement:** lib/entitlement.ts `hasActivePurchase` uses `.eq("status", "active").limit(1)`, so at least one active purchase means access. Refunded and disputed stay excluded, and errors fail closed. lib/purchases.ts `hasActiveEntitlement` uses it. Tests cover one active, two active, active plus refunded, all refunded, disputed, another user's purchase, and an error.
+- **/practice:** the four units with no review (A1 Getting around, A2 Everyday interactions, B1 Food, culture and wrap-up, B2 Registers and debate) now say "Covered by the <Level> level review", a same-page link to `#<level>-level-review` that opens, scrolls to and focuses that review.
+- **Tests:**
+  - lib/pricing-cache.test.ts, in test:checkout (23 with the existing ones): a stale cached price is refused; the loader reads in parallel and throws on each failure; which outcomes invalidate; the route wires the invalidation; the entitlement cases.
+  - test:gating: the price is in the first pass before any streamed part, the signed-out slot is the sign-in link, the /practice list comes first, and the paid lesson's sign-in panel shows the shared price.
+  - test:no-supabase-env: /practice shows the new wording.
+  - test:webhook: its module hook now resolves `next/cache`.
+- **Checks:** all pass. validate:content, test:content, test:checker (36), test:progress (140), tsc, build, test:no-supabase-env (22 PASS), test:gating on a fresh server, test:webhook (70), test:checkout (23), test:safe-next (7). test:progress-e2e and test:prod-smoke were not run, as asked.

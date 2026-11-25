@@ -19,7 +19,7 @@
     "check:c2-links": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/c2-links.ts",
     "wrapup:c2": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/c2-wrapup.ts",
     "check:alexandrines": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/scan-alexandrines.ts --file content/lessons/c1/culture-french-poetry.mdx --section \"An original poem\"",
-    "test:checkout": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test lib/pricing-offer.test.ts",
+    "test:checkout": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test lib/pricing-offer.test.ts lib/pricing-cache.test.ts",
     "build:progress-index": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/build-progress-index.ts",
     "test:progress": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test lib/progress-merge.test.ts lib/progress.test.ts lib/progress-validate.test.ts lib/progress-sync.test.ts lib/progress-store.test.ts lib/progress-import.test.ts lib/progress-summary.test.ts lib/progress-session.test.ts lib/progress-local.test.ts lib/practice.test.ts scripts/progress-index.test.ts scripts/progress-keys.test.ts",
     "check:progress-db": "node --env-file-if-exists=.env.local --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check-progress-db.ts",

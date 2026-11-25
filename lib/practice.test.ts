@@ -48,9 +48,11 @@ describe("/practice index", () => {
     }
   });
 
-  test("units with no unit review are listed as such", () => {
+  test("units with no unit review point to their level review", () => {
     const without = levels.flatMap((l) => l.units.filter((u) => !u.review).map((u) => `${l.level} ${u.name}`));
     assert.deepEqual(without, ["A1 Getting around", "A2 Everyday interactions", "B1 Food, culture and wrap-up", "B2 Registers and debate"]);
+    // Each is "Covered by the <Level> level review", which links to that level's review.
+    for (const l of levels) if (l.units.some((u) => !u.review)) assert.ok(l.levelReview, `${l.level} has a level review to point to`);
   });
 
   test("every level and unit has a unique, stable anchor", () => {

@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 import { getCurrentUser } from "@/lib/auth";
-import { getActivePricing, hasActiveEntitlement } from "@/lib/purchases";
+import { hasActiveEntitlement } from "@/lib/purchases";
+import { getSharedOffer } from "@/lib/shared-pricing";
 import { CheckoutButton } from "@/components/checkout-button";
 import { PriceRow, PricingUnavailable } from "@/components/price-offer";
-import { formatPrice, getPriceOffer } from "@/lib/pricing-offer";
+import { formatPrice } from "@/lib/pricing-offer";
 
 export const metadata: Metadata = {
   title: "Pricing",
@@ -100,9 +101,7 @@ export default function PricingPage() {
         </section>
 
         {/* Lifetime Plan */}
-        <Suspense fallback={<LifetimePlanSkeleton />}>
-          <LifetimePlanCard />
-        </Suspense>
+        <LifetimePlanCard />
       </div>
 
       {/* Trust & FAQ section */}
@@ -147,104 +146,91 @@ export default function PricingPage() {
   );
 }
 
-function LifetimePlanSkeleton() {
+/** The price's place while it loads (only when the shared price wasn't in the prerender). Same size as the price. */
+function PricePlaceholder() {
   return (
-    <section
-      aria-busy="true"
-      className="relative flex flex-col justify-between rounded-2xl border-2 border-accent bg-card p-8 shadow-sm"
-    >
-      <div>
-        <div className="flex items-center justify-between">
-          <h2 className="font-serif text-2xl font-semibold">Lifetime Access</h2>
-          <span className="rounded-full border border-accent/20 bg-accent/10 px-3 py-1 text-xs font-semibold text-accent">
-            One-Time Payment
-          </span>
-        </div>
-        <p className="mt-2 text-sm text-muted">
-          Everything from intermediate conversation to literary mastery.
-        </p>
-        {/* Neutral placeholders sized like the discount layout: no prices or offer until the card loads. */}
-        <div aria-hidden="true">
-          <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-2">
-            <span className="flex items-center gap-3">
-              <span className="block h-10 w-14 animate-pulse rounded-md bg-border/60" />
-              <span className="block h-7 w-11 animate-pulse rounded-md bg-border/60" />
-            </span>
-            <span className="block h-5.5 w-20 animate-pulse rounded-full bg-border/60" />
-            <span className="text-sm text-muted">one-time · lifetime access</span>
-          </div>
-          <div className="mt-2 h-5 w-64 max-w-full animate-pulse rounded-md bg-border/60" />
-        </div>
-
-        <ul className="mt-8 space-y-3 text-sm text-muted">
-          <li className="flex items-center gap-3">
-            <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
-              <path
-                fillRule="evenodd"
-                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                clipRule="evenodd"
-              />
-            </svg>
-            Full access to B1, B2, C1, and C2 levels (240+ lessons)
-          </li>
-          <li className="flex items-center gap-3">
-            <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
-              <path
-                fillRule="evenodd"
-                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                clipRule="evenodd"
-              />
-            </svg>
-            All future written lessons and curriculum updates included
-          </li>
-          <li className="flex items-center gap-3">
-            <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
-              <path
-                fillRule="evenodd"
-                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                clipRule="evenodd"
-              />
-            </svg>
-            One-time payment. Never a recurring subscription
-          </li>
-          <li className="flex items-center gap-3">
-            <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
-              <path
-                fillRule="evenodd"
-                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                clipRule="evenodd"
-              />
-            </svg>
-            Try all A1 & A2 lessons free before unlocking
-          </li>
-        </ul>
+    <div aria-hidden="true">
+      <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-2">
+        <span className="flex items-center gap-3">
+          <span className="block h-10 w-14 animate-pulse rounded-md bg-border/60" />
+          <span className="block h-7 w-11 animate-pulse rounded-md bg-border/60" />
+        </span>
+        <span className="block h-5.5 w-20 animate-pulse rounded-full bg-border/60" />
+        <span className="text-sm text-muted">one-time · lifetime access</span>
       </div>
-
-      <div className="mt-8">
-        <div className="h-11 w-full animate-pulse rounded-full bg-border/60" />
-      </div>
-    </section>
+      <div className="mt-2 h-5 w-64 max-w-full animate-pulse rounded-md bg-border/60" />
+    </div>
   );
 }
 
-async function LifetimePlanCard() {
-  const user = await getCurrentUser();
-  const pricing = await getActivePricing("lessons");
-  const isEntitled = user ? await hasActiveEntitlement(user.id, "lessons") : false;
+/** The visitor's button while it loads. */
+function ActionPlaceholder() {
+  return <div aria-hidden="true" className="h-11 w-full animate-pulse rounded-full bg-border/60" />;
+}
 
-  // Same offer logic as the lesson paywall and createCheckoutAction (lib/pricing-offer.ts). If the
-  // pricing_settings read fails, the offer is "unavailable": no price, and buying is disabled (checkout
-  // refuses too). If only get_founder_spots_left() fails, spotsLeft is 0, so the standard price shows.
-  const offer = getPriceOffer(pricing);
-  const isFounder = offer.state === "founder";
-
+/** The price everyone sees, from the shared cache (lib/shared-pricing.ts): in the static shell when warm. */
+async function LifetimePrice() {
+  const offer = await getSharedOffer("lessons");
   return (
-    <section className="relative flex flex-col justify-between rounded-2xl border-2 border-accent bg-card p-8 shadow-sm">
-      {isFounder && (
+    <>
+      {offer.state === "founder" && (
         <div className="absolute -top-3.5 right-6 rounded-full bg-accent px-3 py-0.5 text-xs font-semibold uppercase tracking-wider text-white">
           Founding Offer
         </div>
       )}
+      {offer.state !== "unavailable" && <PriceRow offer={offer} />}
+    </>
+  );
+}
+
+/**
+ * The per-visitor part: a sign-in link, the buy button, or "You have lifetime access". Signed-out
+ * visitors make no auth or entitlement call (getCurrentUser answers from the missing cookie), and
+ * the user and the shared price are read at the same time.
+ */
+async function LifetimeAction() {
+  const [user, offer] = await Promise.all([getCurrentUser(), getSharedOffer("lessons")]);
+  const isEntitled = user ? await hasActiveEntitlement(user.id, "lessons") : false;
+  const isFounder = offer.state === "founder";
+  return isEntitled ? (
+    <div className="rounded-xl border border-accent/20 bg-accent/5 p-4 text-center">
+      <p className="text-sm font-medium text-accent">You have lifetime access!</p>
+      <Link
+        href="/lessons/b1"
+        className="mt-3 inline-flex min-h-10 w-full items-center justify-center rounded-full bg-accent px-6 py-2 text-sm font-medium text-white transition hover:opacity-90"
+      >
+        Continue Learning
+      </Link>
+    </div>
+  ) : offer.state === "unavailable" ? (
+    <PricingUnavailable id="pricing-unavailable" />
+  ) : user ? (
+    <CheckoutButton
+      product="lessons"
+      className="inline-flex min-h-11 w-full items-center justify-center rounded-full bg-accent px-6 py-2.5 font-medium text-white transition hover:opacity-90"
+      label={`${isFounder ? "Get Founder Access" : "Get Lifetime Access"} for ${formatPrice(offer.chargeCents)}`}
+      expectedPriceCents={offer.chargeCents}
+    />
+  ) : (
+    <Link
+      href="/sign-in?next=/pricing"
+      className="inline-flex min-h-11 w-full items-center justify-center rounded-full bg-accent px-6 py-2.5 font-medium text-white transition hover:opacity-90"
+    >
+      Sign in with Google to unlock
+    </Link>
+  );
+}
+
+/**
+ * The lifetime card. Its frame is static. The price (with the ribbon) comes from the shared cache, so
+ * it's in the prerendered page with the free card; only the visitor's button streams, in a slot whose
+ * height is reserved. If pricing can't be read, the price is left out and the button is disabled
+ * (checkout refuses too), and that state is never cached.
+ */
+function LifetimePlanCard() {
+
+  return (
+    <section className="relative flex flex-col justify-between rounded-2xl border-2 border-accent bg-card p-8 shadow-sm">
 
       <div>
         <div className="flex items-center justify-between">
@@ -256,7 +242,9 @@ async function LifetimePlanCard() {
         <p className="mt-2 text-sm text-muted">
           Everything from intermediate conversation to literary mastery.
         </p>
-        {offer.state !== "unavailable" && <PriceRow offer={offer} />}
+        <Suspense fallback={<PricePlaceholder />}>
+          <LifetimePrice />
+        </Suspense>
 
         <ul className="mt-8 space-y-3 text-sm text-muted">
           <li className="flex items-center gap-3">
@@ -302,34 +290,11 @@ async function LifetimePlanCard() {
         </ul>
       </div>
 
-      <div className="mt-8">
-        {isEntitled ? (
-          <div className="rounded-xl border border-accent/20 bg-accent/5 p-4 text-center">
-            <p className="text-sm font-medium text-accent">You have lifetime access!</p>
-            <Link
-              href="/lessons/b1"
-              className="mt-3 inline-flex min-h-10 w-full items-center justify-center rounded-full bg-accent px-6 py-2 text-sm font-medium text-white transition hover:opacity-90"
-            >
-              Continue Learning
-            </Link>
-          </div>
-        ) : offer.state === "unavailable" ? (
-          <PricingUnavailable id="pricing-unavailable" />
-        ) : user ? (
-          <CheckoutButton
-            product="lessons"
-            className="inline-flex min-h-11 w-full items-center justify-center rounded-full bg-accent px-6 py-2.5 font-medium text-white transition hover:opacity-90"
-            label={`${isFounder ? "Get Founder Access" : "Get Lifetime Access"} for ${formatPrice(offer.chargeCents)}`}
-            expectedPriceCents={offer.chargeCents}
-          />
-        ) : (
-          <Link
-            href="/sign-in?next=/pricing"
-            className="inline-flex min-h-11 w-full items-center justify-center rounded-full bg-accent px-6 py-2.5 font-medium text-white transition hover:opacity-90"
-          >
-            Sign in with Google to unlock
-          </Link>
-        )}
+      {/* Tall enough for "You have lifetime access", so whichever answer streams in, nothing moves. */}
+      <div className="mt-8 flex min-h-[6.75rem] flex-col justify-end">
+        <Suspense fallback={<ActionPlaceholder />}>
+          <LifetimeAction />
+        </Suspense>
       </div>
     </section>
   );

@@ -1,6 +1,7 @@
 import "server-only";
 import { createClient } from "@/lib/supabase/server";
 import type { ProductKey } from "@/lib/payments/types";
+import { hasActivePurchase, type EntitlementClient } from "@/lib/entitlement";
 
 export type ActivePricing = {
   product: ProductKey;
@@ -39,19 +40,10 @@ export async function hasActiveEntitlement(
   try {
     const supabase = await createClient();
     if (!supabase) return false;
-
-    const { data, error } = await supabase
-      .from("purchases")
-      .select("id")
-      .eq("user_id", userId)
-      .eq("product", product)
-      .eq("status", "active")
-      .maybeSingle();
-
-    if (error || !data) return false;
-    return true;
+    // At least one active purchase (refunded and disputed don't count); see lib/entitlement.ts.
+    return await hasActivePurchase(supabase as unknown as EntitlementClient, userId, product);
   } catch (error) {
-    console.warn("[purchases] hasActiveEntitlement error:", error instanceof Error ? error.message : error);
+    console.warn("[purchases] hasActiveEntitlement failed, code:", errorCode(error));
     return false;
   }
 }

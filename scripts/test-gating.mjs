@@ -270,6 +270,26 @@ for (const pagePath of ["/", "/lessons", "/lessons/a1", free[0]?.path, gated[0]?
   record("/practice is indexable", r.status === 200 && !/<meta name="robots" content="noindex/.test(r.text), `status ${r.status}`);
 }
 
+// The shared (cached) price is part of the prerendered shell; only per-visitor slots stream.
+// React streams a delayed part as <div hidden id="S:n">, so whatever comes before the first one was
+// in the first pass with the rest of the page.
+{
+  const firstStreamed = (text) => {
+    const i = text.indexOf('<div hidden id="S:');
+    return i < 0 ? text.length : i;
+  };
+  const r = await get(BASE_URL + "/pricing");
+  const priceAt = r.text.search(/one-time · lifetime access<\/span><\/div><p class="mt-2 text-sm text-muted">Founder price|<span class="font-serif text-4xl font-semibold">\$/);
+  record("/pricing: the lifetime price is in the first pass, with the free card", r.status === 200 && priceAt >= 0 && priceAt < firstStreamed(r.text), `status ${r.status}, price at ${priceAt}, first streamed part at ${firstStreamed(r.text)}`);
+  record("/pricing: the signed-out visitor's slot is the sign-in link", r.text.includes("Sign in with Google to unlock"), `status ${r.status}`);
+  const p = await get(BASE_URL + "/practice");
+  const listAt = p.text.indexOf('id="a1-getting-started"');
+  record("/practice: the list is in the first pass; only the paid-level locks stream", listAt >= 0 && listAt < firstStreamed(p.text), `list at ${listAt}, first streamed part at ${firstStreamed(p.text)}`);
+  const lesson = gated[0];
+  const panel = await get(BASE_URL + lesson.path);
+  record("paid lesson, signed out: the sign-in panel shows the shared price", panel.status === 200 && /one-time payment \((<!-- -->)?\$\d+/.test(panel.text), `${lesson.path} status ${panel.status}`);
+}
+
 // /progress: personal, so never indexed.
 {
   const r = await get(BASE_URL + "/progress");

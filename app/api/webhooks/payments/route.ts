@@ -1,7 +1,9 @@
 import { NextResponse } from "next/server";
 import { getPaymentsConfig, getSupabaseAdminConfig } from "@/lib/payments/config";
 import { getPaymentProvider } from "@/lib/payments/provider";
+import { revalidateTag } from "next/cache";
 import { processWebhookEvent } from "@/lib/payments/webhook";
+import { PRICING_TAG, pricingChangingOutcome } from "@/lib/pricing-source";
 
 export async function POST(request: Request) {
   // Fail closed if payment secrets or Supabase admin credentials are not configured
@@ -44,6 +46,9 @@ export async function POST(request: Request) {
   const eventId = request.headers.get("webhook-id");
   try {
     const result = await processWebhookEvent(event, undefined, { eventId });
+    // A purchase was recorded, refunded or disputed: the founder spots (and so the price shown) may
+    // have changed. Expire the shared price now, so the next visitor reads it fresh.
+    if (pricingChangingOutcome(result.outcome)) revalidateTag(PRICING_TAG, { expire: 0 });
     return NextResponse.json(
       { received: true, outcome: result.outcome, ...(result.reason ? { reason: result.reason } : {}) },
       { status: 200 }

@@ -54,7 +54,18 @@ export function PracticeLevels({ levels, levelNames, locks }: { levels: Practice
                   <h3 id={`${u.anchor}-heading`} className="text-sm font-semibold text-muted">
                     {u.name}
                   </h3>
-                  {u.review ? <ReviewRow lesson={u.review} data={data} /> : <p className="mt-1 text-sm text-muted">No review for this unit yet</p>}
+                  {u.review ? (
+                    <ReviewRow lesson={u.review} data={data} />
+                  ) : l.levelReview ? (
+                    <p className="mt-1 text-sm text-muted">
+                      {/* A same-page link: the hash change opens, scrolls to and focuses the level review. */}
+                      <a href={`#${l.anchor}-level-review`} className="font-medium underline-offset-2 hover:text-accent hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">
+                        Covered by the {l.level} level review
+                      </a>
+                    </p>
+                  ) : (
+                    <p className="mt-1 text-sm text-muted">No review for this unit yet</p>
+                  )}
                 </section>
               ))}
               {l.levelReview && (

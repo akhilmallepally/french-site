@@ -4,8 +4,9 @@ import "server-only";
 // getSession(), client auth state or proxy.ts as the check.
 import { getCurrentUser } from "@/lib/current-user";
 import { isFreeLevel, type LessonAccess, type LessonMeta } from "@/lib/lessons";
-import { getActivePricing, hasActiveEntitlement } from "@/lib/purchases";
-import { getPriceOffer, type PriceOffer } from "@/lib/pricing-offer";
+import { hasActiveEntitlement } from "@/lib/purchases";
+import type { PriceOffer } from "@/lib/pricing-offer";
+import { getSharedOffer } from "@/lib/shared-pricing";
 
 export { getCurrentUser, type CurrentUser } from "@/lib/current-user";
 
@@ -36,15 +37,17 @@ export async function checkLessonAccess(meta: LessonMeta): Promise<LessonAccessR
 
   const user = await getCurrentUser();
   if (!user) {
-    return { status: "signed-out", offer: getPriceOffer(await getActivePricing("lessons")) };
+    // The price comes from the shared cache: a signed-out visitor makes no auth or database call.
+    return { status: "signed-out", offer: await getSharedOffer("lessons") };
   }
 
-  const isEntitled = await hasActiveEntitlement(user.id, "lessons");
+  // Access and the (shared, cached) price at the same time.
+  const [isEntitled, offer] = await Promise.all([hasActiveEntitlement(user.id, "lessons"), getSharedOffer("lessons")]);
   if (isEntitled) {
     return { status: "granted", access: { grant: "lesson-access", lessonId: meta.id } };
   }
 
-  return { status: "unpaid", offer: getPriceOffer(await getActivePricing("lessons")) };
+  return { status: "unpaid", offer };
 }
 
 /** Access helper returning LessonAccess if granted, or null if gated. Kept for backwards compatibility. */
