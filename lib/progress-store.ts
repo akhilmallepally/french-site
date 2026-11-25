@@ -39,6 +39,7 @@ import {
   type Outbox,
   type OutboxEntry,
 } from "./progress-outbox.ts";
+import { mergeProgress } from "./progress-merge.ts";
 import type { Rejection, SyncItem } from "./progress-validate.ts";
 import { storedSessionUserId } from "./supabase-session-cookie.ts";
 
@@ -78,6 +79,13 @@ export type StoreEnv = {
 export const cacheKey = (userId: string) => `parlons-progress-v1:u:${userId}`;
 export const outboxKey = (userId: string) => `parlons-progress-outbox-v1:${userId}`;
 export const rejectedKey = (userId: string) => `parlons-progress-rejected-v1:${userId}`;
+/**
+ * Practice saved by the browser-only store while this account was signed in (sync off, a build
+ * without the flag, or the facade's fallback). It belongs to that account, not to this browser's
+ * signed-out progress: shown only to that account's valid session, and imported into it by the
+ * synced store (whatever the import claim says) the next time it's selected.
+ */
+export const localKey = (userId: string) => `parlons-progress-v1:local:${userId}`;
 /** The import's progress and its notice, per user. */
 export const importKey = (userId: string) => `parlons-progress-import-v1:${userId}`;
 /** The account that owns this browser's signed-out progress (section 8). Set once, never changed. */
@@ -99,6 +107,8 @@ export const RETRY_FIRST_MS = 30_000;
 export const RETRY_MAX_MS = 5 * 60_000;
 export const SNAPSHOT_EVERY_MS = 5 * 60_000; // re-read the server on visibility after this long
 const MAX_REJECTIONS_KEPT = 500;
+/** A server action that hasn't answered in this time counts as a network failure (and is retried). */
+export const ACTION_TIMEOUT_MS = 25_000;
 
 /** The import's state: keys still to confirm, how many were applied and rejected, and the notice. */
 type ImportState = { userId: string; keys: string[]; applied: number; rejected: number; notice: "none" | "due" | "shown" };
@@ -219,6 +229,23 @@ export class SupabaseProgressStore implements ProgressStore {
     return this.env.locks.request(OUTBOX_LOCK, {}, () => fn());
   }
 
+  /** Rejects after ACTION_TIMEOUT_MS, so a call that never answers can't hold the flush lock forever. */
+  private timed<T>(promise: Promise<T>): Promise<T> {
+    return new Promise<T>((resolve, reject) => {
+      const timer = this.env.setTimer(() => reject(new Error("progress action timed out")), ACTION_TIMEOUT_MS);
+      promise.then(
+        (v) => {
+          this.env.clearTimer(timer);
+          resolve(v);
+        },
+        (e) => {
+          this.env.clearTimer(timer);
+          reject(e);
+        },
+      );
+    });
+  }
+
   /** A time strictly after every earlier time for this key, so the server counts the new entry. */
   private timeAfter(...floors: (string | undefined)[]): string {
     let ms = this.env.now();
@@ -276,7 +303,7 @@ export class SupabaseProgressStore implements ProgressStore {
     if (this.snapshot && !force) return this.snapshot;
     this.snapshot = (async () => {
       try {
-        const reply = await this.actions.get(this.userId);
+        const reply = await this.timed(this.actions.get(this.userId));
         if (isObj(reply) && reply.status === "ok" && isProgressData(reply.data)) {
           const data = reply.data;
           await this.withOutboxLock(() => this.writeCache(overlay(this.withKept({ writingTasks: {}, ...data }), this.readOutbox())));
@@ -423,7 +450,7 @@ export class SupabaseProgressStore implements ProgressStore {
   private async send(items: SyncItem[]): Promise<SendResult> {
     let reply: unknown;
     try {
-      reply = await this.actions.sync({ expectedUserId: this.userId, items });
+      reply = await this.timed(this.actions.sync({ expectedUserId: this.userId, items }));
     } catch (error) {
       if (isActionNotFound(error)) this.pause("server action not found (the site was updated)");
       else this.retryLater(); // network error or timeout: everything stays, in flight first
@@ -537,6 +564,36 @@ export class SupabaseProgressStore implements ProgressStore {
     return queued;
   }
 
+  /**
+   * This account's own local practice (localKey: saved while signed in but not synced) goes into its
+   * outbox, whatever the import claim says, because it was made under this account's session. The
+   * key is removed once queued: the outbox holds it until the server confirms it.
+   */
+  async importLocal(): Promise<number> {
+    const queued = await this.withOutboxLock(() => {
+      const storage = this.env.storage;
+      let local: unknown;
+      try {
+        local = JSON.parse(storage.getItem(localKey(this.userId)) ?? "null");
+      } catch {
+        return 0;
+      }
+      if (!isObj(local) || local.userId !== this.userId || !isProgressData(local.data)) return 0;
+      const { outbox, keys } = queueImport(this.readOutbox(), local.data, Number.NEGATIVE_INFINITY);
+      if (keys.length) {
+        this.writeOutbox(outbox);
+        this.writeCache(overlay(this.readCache(), outbox, keys));
+      }
+      this.safe(() => storage.removeItem(localKey(this.userId)));
+      return keys.length;
+    });
+    if (queued) {
+      this.notify();
+      this.scheduleFlush(0);
+    }
+    return queued;
+  }
+
   async importNotice(): Promise<ImportNotice | null> {
     const state = this.readImport();
     if (state.notice !== "due") return null;
@@ -625,7 +682,7 @@ export class SyncFacade implements ProgressStore {
   constructor(loadWiring: () => Promise<Wiring>, makeEnv: () => FacadeEnv, local?: ProgressStore) {
     this.loadWiring = loadWiring;
     this.makeEnv = makeEnv;
-    this.local = local ?? new LocalProgressStore();
+    this.local = local ?? new BrowserLocalStore(() => this.envNow().storedSessionUser(), () => this.envNow().storage);
   }
 
   /** The store answering now (for tests). */
@@ -729,6 +786,7 @@ export class SyncFacade implements ProgressStore {
       this.remote = store;
       this.unsubscribeRemote = store.subscribe(() => this.notify());
       // On every selection: a sign-in event, or a page load while already signed in.
+      await store.importLocal();
       await store.importAnonymous();
       store.start();
     }
@@ -856,6 +914,106 @@ export class SyncFacade implements ProgressStore {
   }
 }
 
+const browserSessionUser = (): string | null =>
+  typeof document === "undefined" ? null : storedSessionUserId(document.cookie, process.env.NEXT_PUBLIC_SUPABASE_URL, Date.now());
+const browserStorage = (): StorageLike | null => (typeof window === "undefined" ? null : window.localStorage);
+
+/**
+ * The browser-only store, session-aware (no network: the session is read from the auth cookie).
+ * - Signed out: exactly LocalProgressStore (this browser's signed-out progress).
+ * - Signed in (a valid session for account U): writes go to U's own local key, not to the shared
+ *   signed-out store, so a later visitor never sees them and they can be synced into U's account.
+ *   Reads show the signed-out progress together with U's local practice and U's synced copy and
+ *   unsent changes, so practice never disappears when the sync flag changes or sync can't run.
+ */
+export class BrowserLocalStore extends LocalProgressStore {
+  private readonly sessionUser: () => string | null;
+  private readonly storage: () => StorageLike | null;
+
+  constructor(sessionUser: () => string | null, storage: () => StorageLike | null) {
+    super();
+    this.sessionUser = sessionUser;
+    this.storage = storage;
+  }
+
+  private user(): { id: string; storage: StorageLike } | null {
+    try {
+      const id = this.sessionUser();
+      const storage = this.storage();
+      return id && storage ? { id, storage } : null;
+    } catch {
+      return null;
+    }
+  }
+
+  private readLocal(u: { id: string; storage: StorageLike }): ProgressData {
+    try {
+      const saved = JSON.parse(u.storage.getItem(localKey(u.id)) ?? "null");
+      if (isObj(saved) && saved.userId === u.id && isProgressData(saved.data)) return { writingTasks: {}, ...saved.data };
+    } catch {
+      // Corrupted: start from empty.
+    }
+    return emptyData();
+  }
+
+  private writeLocal(u: { id: string; storage: StorageLike }, data: ProgressData): void {
+    try {
+      u.storage.setItem(localKey(u.id), JSON.stringify({ userId: u.id, data }));
+    } catch {
+      // Storage blocked or full: as in the local store, the change just isn't saved.
+    }
+  }
+
+  /** What U sees: U's synced copy with U's unsent changes, and U's local practice. */
+  private accountView(u: { id: string; storage: StorageLike }): ProgressData {
+    const synced = overlay(readCachedProgress(u.storage, u.id) ?? emptyData(), parseOutbox(u.storage.getItem(outboxKey(u.id)), u.id));
+    return mergeProgress(synced, this.readLocal(u));
+  }
+
+  async getAll(): Promise<ProgressData> {
+    const anonymous = await super.getAll();
+    const u = this.user();
+    return u ? mergeProgress({ writingTasks: {}, ...anonymous }, this.accountView(u)) : anonymous;
+  }
+
+  async getLessonProgress(lessonId: string) {
+    return (await this.getAll()).lessons[lessonId] ?? null;
+  }
+
+  async getWritingTask(exerciseId: string) {
+    return (await this.getAll()).writingTasks?.[exerciseId] ?? null;
+  }
+
+  async recordAttempt(exerciseId: string, result: AnswerStatus): Promise<void> {
+    const u = this.user();
+    if (!u) return super.recordAttempt(exerciseId, result);
+    const data = this.readLocal(u);
+    data.exercises[exerciseId] = nextAttempt(data.exercises[exerciseId], result, new Date().toISOString());
+    this.writeLocal(u, data);
+  }
+
+  async recordRun(lessonId: string, score: number, total: number): Promise<LessonProgress> {
+    const u = this.user();
+    if (!u) return super.recordRun(lessonId, score, total);
+    const seen = (await this.getAll()).lessons[lessonId]; // the best the learner sees, so it never goes down
+    const updated = nextRun(seen, score, total, new Date().toISOString());
+    const data = this.readLocal(u);
+    data.lessons[lessonId] = updated;
+    this.writeLocal(u, data);
+    return updated;
+  }
+
+  async recordWritingTask(exerciseId: string, checked: number[]): Promise<WritingTaskProgress> {
+    const u = this.user();
+    if (!u) return super.recordWritingTask(exerciseId, checked);
+    const entry = nextWriting(checked, new Date().toISOString());
+    const data = this.readLocal(u);
+    data.writingTasks = { ...(data.writingTasks ?? {}), [exerciseId]: entry };
+    this.writeLocal(u, data);
+    return entry;
+  }
+}
+
 /** The browser's storage, locks, timers and events. Called only on first use, never during SSR. */
 export function browserEnv(): FacadeEnv {
   return {
@@ -884,6 +1042,10 @@ export function createProgressStore(options: {
   loadWiring: () => Promise<Wiring>;
   makeEnv?: () => FacadeEnv;
 }): ProgressStore {
-  if (options.flag !== "on" || !options.supabaseConfigured) return new LocalProgressStore();
+  if (options.flag !== "on" || !options.supabaseConfigured) {
+    // In the browser: practice stays visible to the account that made it, and goes to it later.
+    // Elsewhere (SSR, tests) there's no session to read, so this is the plain local store.
+    return new BrowserLocalStore(browserSessionUser, browserStorage);
+  }
   return new SyncFacade(options.loadWiring, options.makeEnv ?? browserEnv);
 }

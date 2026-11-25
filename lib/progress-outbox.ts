@@ -7,7 +7,7 @@
 // Each outbox belongs to one user and says so; an outbox read under another user id is ignored.
 import type { AnswerStatus } from "./check-answer.ts";
 import type { ExerciseProgress, LessonProgress, ProgressData, WritingTaskProgress } from "./progress-core.ts";
-import { applyAttempt, applyExerciseImport, applyLesson, applyWriting, lessonFromImport, lessonFromRun } from "./progress-merge.ts";
+import { applyAttempt, applyExerciseImport, applyLesson, applyWriting, lessonFromImport, lessonFromRun, mergeExercises, mergeLessons, mergeWriting } from "./progress-merge.ts";
 import type { Rejection, SyncItem } from "./progress-validate.ts";
 
 export type AttemptEntry = { kind: "attempt"; seq: number; lessonId: string; exerciseId: string; result: AnswerStatus; attemptedAt: string; addAttempts: number; addCorrect: number };
@@ -212,7 +212,17 @@ export function queueImport(outbox: Outbox, anonymous: ProgressData, sinceMs: nu
   let newestMs = sinceMs;
   const put = (key: string, entry: OutboxEntry, ms: number) => {
     const slot = (out.slots[key] ??= {});
-    slot.pending = { ...entry, seq: slot.pending?.seq ?? ++out.seq } as OutboxEntry;
+    // Two sources can queue the same key (this browser's signed-out progress and an account's own
+    // local practice): merge with a pending import of the same kind instead of replacing it.
+    const prev = slot.pending;
+    let merged: OutboxEntry = entry;
+    if (prev?.kind === "import-exercise" && entry.kind === "import-exercise") merged = { ...entry, record: mergeExercises(prev.record, entry.record) };
+    else if (prev?.kind === "import-lesson" && entry.kind === "import-lesson") merged = { ...entry, record: mergeLessons(prev.record, entry.record) };
+    else if (prev?.kind === "writing" && entry.kind === "writing") {
+      const w = mergeWriting({ done: true, checked: prev.checked, doneAt: prev.doneAt }, { done: true, checked: entry.checked, doneAt: entry.doneAt });
+      merged = { ...entry, checked: w.checked, doneAt: w.doneAt };
+    }
+    slot.pending = { ...merged, seq: prev?.seq ?? ++out.seq } as OutboxEntry;
     keys.push(key);
     newestMs = Math.max(newestMs, ms);
   };
@@ -222,7 +232,9 @@ export function queueImport(outbox: Outbox, anonymous: ProgressData, sinceMs: nu
     put(importExerciseKey(id), { kind: "import-exercise", seq: 0, lessonId: lessonIdOf(id), exerciseId: id, record: { ...x } }, ms);
   }
   for (const [id, l] of Object.entries(anonymous.lessons ?? {})) {
-    const ms = Math.max(timeOf(l?.lastCompletedAt), timeOf(l?.completedAt));
+    // The newest of its times. A lesson never passed has no completedAt: ignore it (NaN would make
+    // Math.max NaN and the lesson would be skipped, which dropped every unpassed lesson before).
+    const ms = Math.max(...[timeOf(l?.lastCompletedAt), timeOf(l?.completedAt)].filter(Number.isFinite));
     if (!(ms > sinceMs) || !Number.isInteger(l.bestScore) || !Number.isInteger(l.bestTotal) || typeof l.lastCompletedAt !== "string") continue;
     put(importLessonKey(id), { kind: "import-lesson", seq: 0, lessonId: id, record: lessonFromImport(l) }, ms);
   }

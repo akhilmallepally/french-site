@@ -336,6 +336,11 @@ Each step is one prompt, ending with the checks and a commit point (the owner co
 **Rollback:**
 
 - App: set `NEXT_PUBLIC_PROGRESS_SYNC` to anything but `on` and redeploy, or revert the step's commit. Everyone falls back to the local store; outboxes stay in browsers and flush when sync is back on.
+  - **As built in Prompt 64.** The browser-only store reads the session from the auth cookie, with no network.
+    - While an account U has a valid session, its writes go to U's own key, `parlons-progress-v1:local:<U>`, not to the shared signed-out store.
+    - Its reads show the signed-out progress together with U's local practice, U's synced copy and U's unsent outbox. So practice never disappears when the flag changes, or when sync can't start (the facade's fallback is the same store).
+    - When sync is on and U is selected, U's local practice is imported into U's account whatever the import claim says, because it was made under U's session.
+    - A signed-out visitor sees only signed-out progress.
 - Database: `supabase/rollback/0006_progress_sync.sql` restores the grants and the index, drops `apply_progress` and `writing_task_progress` (deleting writing-task records only), and recreates an empty `lesson_scores`. Never run `rollback_all.sql` for this: it deletes purchases too.
 
 ## 13. Step 7 manual checklist (Vercel preview, sync on)
@@ -344,6 +349,7 @@ You run this; tell me any step whose result differs.
 
 ### 13.1 Before you start
 
+0. **Required before the flag goes on anywhere: `npm run test:progress-e2e` passes** (real Chromium against `next start`, as the test account from `.env.local`; see docs/progress-log.md, Prompt 64). It leaves a flag-on build in `.next`, so run `npm run build` afterwards.
 1. **Supabase:** migration 0006 has been run in the project the preview uses, and `supabase/tests/rls.sql` passes there (docs/db-setup.md).
 2. **Vercel → Settings → Environment Variables, Preview environment only:**
    - `NEXT_PUBLIC_SUPABASE_URL`

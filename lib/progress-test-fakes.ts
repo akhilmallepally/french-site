@@ -6,7 +6,7 @@ import path from "node:path";
 import { LocalProgressStore, type ProgressData } from "./progress-core.ts";
 import { applyAttempt, applyExerciseImport, applyLesson, applyWriting, lessonFromImport } from "./progress-merge.ts";
 import { parseOutbox, type Outbox } from "./progress-outbox.ts";
-import { outboxKey, SupabaseProgressStore, SyncFacade, type FacadeEnv, type LocksLike, type StorageLike, type SyncActions, type Wiring } from "./progress-store.ts";
+import { BrowserLocalStore, outboxKey, SupabaseProgressStore, SyncFacade, type FacadeEnv, type LocksLike, type StorageLike, type SyncActions, type Wiring } from "./progress-store.ts";
 import { rowsToProgress, runSync, type ProgressDb, type Rows } from "./progress-sync.ts";
 import type { ProgressIndexData, SyncItem } from "./progress-validate.ts";
 
@@ -231,7 +231,8 @@ export function facadeWorld(initialUser: string | null, existing?: World) {
     auth: { getUserId: async () => user, verifyUserId: () => verify(), onChange: (cb) => (listener = cb) },
     actions: w.server.actionsFor(w.clock),
   };
-  const local = new LocalProgressStore();
+  // As in the app: the session-aware browser store is the fallback.
+  const local = new BrowserLocalStore(() => w.cookieUser, () => w.storage);
   const facade = new SyncFacade(async () => (loads++, wiring), () => w.env, local);
   return {
     w,

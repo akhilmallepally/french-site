@@ -231,3 +231,40 @@
 - **Checklist and SQL:** docs/plans/progress.md section 13 has the numbered preview checklist (16 steps with expected results, including how to simulate session expiry), the Preview environment variables and Supabase redirect URLs (13.1), clean-up (13.3) and the table-size SQL (13.4). Step 7 in the rollout now points to it.
 - **docs/project-state.md:** progress is done, pending the preview checklist; the flag stays off in Production until it passes; the storage estimates; next comes Smart practice, Daily review, the home cards and the sign-in prompt.
 - **Checks:** all pass. validate:content, test:content, test:checker (36), test:progress (124), test:checkout (10), test:safe-next (7), test:webhook (70), tsc, test:no-supabase-env (21 PASS), build, and test:gating on a fresh server.
+
+## Fix: practice lost across the sync flag, never sent; unit names (Prompt 64)
+
+- **Reproduced in Chromium** (Playwright, `next start`, the test account's real @supabase/ssr cookies).
+  - With the committed code, a steady flag-on browser works: the facade picked the synced store; Local Storage held the cache, the claim and the last-user hint; the sync action answered `ok` with rows; Supabase got the rows; the score survived a refresh.
+  - Production's own actions, called directly as the test account, also worked. The cookie reader handled the real cookies (single, `.0`/`.1` chunks, `base64-`, URL-encoded).
+  - The symptoms appeared only across a change of store:
+    - Practising on a flag-on build, then refreshing on a flag-off build: the score was gone.
+    - Practising signed in on a flag-off build, in a browser whose import claim belonged to another account, then switching the flag on: the score was gone and Supabase had 0 rows.
+- **Root causes:**
+  1. Signed-in practice saved by the browser-only store went into the shared signed-out store. That happens on a build without the flag, or on a tab loaded before the flag-on deploy was live. It was then imported only into the browser's claim owner, so for any other account it was never sent and never shown.
+  2. With the flag off, the local store ignored the account's synced copy and outbox, so practice saved while the flag was on disappeared after a refresh.
+  3. Found while fixing: queueImport computed `Math.max(lastCompletedAt, completedAt)`, which is NaN for a lesson never passed, so every unpassed lesson was skipped in every import (signed-out imports included).
+- **Fixes:**
+  - The new `BrowserLocalStore` is the flag-off store and the facade's fallback. It reads the session from the auth cookie, with no network. With a valid session for U, writes go to `parlons-progress-v1:local:<U>`, and reads show the signed-out progress plus U's local practice, synced copy and unsent outbox.
+  - The synced store imports U's local key into U on selection, whatever the claim (`importLocal`).
+  - Queued imports now merge instead of replacing.
+  - The NaN is fixed.
+  - Action calls time out after 25 s, so a call that never answers can't hold the flush lock.
+- **Data from while the flag was on:** it stays in the browser (the account's cache and outbox) and on the server. With the flag off it still shows to that account's valid session and to nobody else. When the flag is back on, the outbox flushes and the account's local practice is imported. This follows the plan's rollback note (section 12), which now says so.
+- **Blank unit names:** not reproduced. The data and render are complete for all six levels on production (signed out, flag off) and locally (signed in, flag on, direct load and client navigation), checked in Chromium.
+  - The new unit test (every unit of every level named) and the e2e test (unit names on /progress, signed in) both pass. If it happens again, a screenshot and the browser's extensions (a translator, for example) would help.
+- **Real-browser test:** `npm run test:progress-e2e` needs `PROGRESS_TEST_EMAIL` and `PROGRESS_TEST_PASSWORD` in .env.local, plus a password sign-in on that account.
+  - It builds with the flag on, starts `next start` on port 3200, signs in, does a full run, refreshes (score kept), checks /progress (the lesson and all unit names), checks the Supabase row, signs out (hidden) and back in (back).
+  - It leaves a flag-on build in `.next`, so run `npm run build` afterwards.
+  - It's required in the plan's section 13 before the flag goes on in Production.
+  - It adds the dev dependency @playwright/test 1.65.1 (Chromium only), with playwright.config.ts and e2e/progress.spec.ts. Playwright's output folders are git-ignored.
+- **Tests:** lib/progress-local.test.ts (10): signed-in local writes, flag on to off, flag off to on whatever the claim, the facade fallback, the action timeout, unpassed lessons imported, merged imports, the cookie reader against cookies written by @supabase/ssr itself (single and chunked), and unit names.
+- **Checks:** all pass. validate:content, test:content, test:checker (36), test:progress (134), test:progress-e2e (1, real Chromium and Supabase), test:checkout (10), test:safe-next (7), test:webhook (70), tsc, test:no-supabase-env (21 PASS), build, and test:gating on a fresh server.
+- **Cleanup:** these runs left test rows for the test account. In the Supabase SQL editor, with the test email in all three lines:
+
+  ```sql
+  -- Test account only. If the email matches no user, nothing is deleted.
+  delete from public.exercise_results      where user_id = (select id from auth.users where email = 'progress-test@example.com');
+  delete from public.lesson_progress       where user_id = (select id from auth.users where email = 'progress-test@example.com');
+  delete from public.writing_task_progress where user_id = (select id from auth.users where email = 'progress-test@example.com');
+  ```
