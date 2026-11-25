@@ -1,218 +1,12 @@
-// The synced store, the outbox and the facade, with fakes for storage, Web Locks, timers and the
-// server. The fake server runs the real runSync and validator against an in-memory database that
-// follows apply_progress's rules (the apply* functions). Run: npm run test:progress
+// The synced store, the outbox and the facade, with the fakes in lib/progress-test-fakes.ts.
+// Run: npm run test:progress
 import assert from "node:assert/strict";
-import fs from "node:fs";
-import path from "node:path";
 import { beforeEach, describe, test } from "node:test";
 import { LocalProgressStore, STORAGE_KEY, type ProgressData } from "./progress-core.ts";
-import { applyAttempt, applyLesson, applyWriting, lessonFromImport } from "./progress-merge.ts";
-import { BATCH_MAX_ITEMS, parseOutbox, toWire, type Outbox } from "./progress-outbox.ts";
-import {
-  cacheKey,
-  createProgressStore,
-  isActionNotFound,
-  outboxKey,
-  rejectedKey,
-  RETRY_FIRST_MS,
-  SupabaseProgressStore,
-  SyncFacade,
-  type FacadeEnv,
-  type LocksLike,
-  type StorageLike,
-  type SyncActions,
-  type Wiring,
-} from "./progress-store.ts";
-import { rowsToProgress, runSync, type ProgressDb, type Rows } from "./progress-sync.ts";
-import { MAX_PAYLOAD_BYTES, type ProgressIndexData, type SyncItem } from "./progress-validate.ts";
-
-const INDEX: ProgressIndexData = JSON.parse(fs.readFileSync(path.join(process.cwd(), "lib", "generated", "progress-index.json"), "utf8"));
-const ALL_EXERCISES = Object.values(INDEX.lessons).flatMap((l) => l.exercises);
-const A = "aaaaaaaa-0000-4000-8000-00000000000a";
-const B = "bbbbbbbb-0000-4000-8000-00000000000b";
-
-// ---------- Fakes ----------
-
-class FakeStorage implements StorageLike {
-  map = new Map<string, string>();
-  onSet: (key: string) => void = () => {};
-  getItem(k: string) {
-    return this.map.has(k) ? this.map.get(k)! : null;
-  }
-  setItem(k: string, v: string) {
-    this.onSet(k);
-    this.map.set(k, String(v));
-  }
-  removeItem(k: string) {
-    this.onSet(k);
-    this.map.delete(k);
-  }
-  key(i: number) {
-    return [...this.map.keys()][i] ?? null;
-  }
-  get length() {
-    return this.map.size;
-  }
-}
-
-/** Exclusive locks by name; ifAvailable gets null while the lock is held, like navigator.locks. */
-class FakeLocks implements LocksLike {
-  held = new Map<string, Promise<void>>();
-  async request<T>(name: string, options: { ifAvailable?: boolean }, cb: (lock: unknown) => Promise<T> | T): Promise<T> {
-    if (options.ifAvailable && this.held.has(name)) return cb(null);
-    while (this.held.has(name)) await this.held.get(name);
-    let release!: () => void;
-    this.held.set(name, new Promise<void>((r) => (release = r)));
-    try {
-      return await cb({ name });
-    } finally {
-      this.held.delete(name);
-      release();
-    }
-  }
-}
-
-class Clock {
-  now = Date.UTC(2026, 10, 25, 12, 0, 0);
-  timers: { at: number; fn: () => void; id: number }[] = [];
-  private nextId = 1;
-  setTimer = (fn: () => void, ms: number) => {
-    const id = this.nextId++;
-    this.timers.push({ at: this.now + ms, fn, id });
-    return id;
-  };
-  clearTimer = (id: unknown) => {
-    this.timers = this.timers.filter((t) => t.id !== id);
-  };
-  /** Moves time on, firing due timers, and lets the async work they start finish. */
-  async advance(ms: number) {
-    const end = this.now + ms;
-    for (;;) {
-      const due = this.timers.filter((t) => t.at <= end).sort((a, b) => a.at - b.at)[0];
-      if (!due) break;
-      this.timers = this.timers.filter((t) => t !== due);
-      this.now = Math.max(this.now, due.at);
-      due.fn();
-      await settle();
-    }
-    this.now = end;
-    await settle();
-  }
-  pending(): number[] {
-    return this.timers.map((t) => t.at - this.now).sort((a, b) => a - b);
-  }
-}
-
-async function settle() {
-  for (let i = 0; i < 20; i++) await new Promise((r) => setImmediate(r));
-}
-
-type Behaviour = "ok" | "network" | "not-found" | "unavailable" | "malformed" | "invalid" | "block";
-
-/** The server: one in-memory database per user, the real runSync in front of it. */
-class FakeServer {
-  db = new Map<string, Rows>();
-  sessionUser: string | null = A;
-  behaviour: Behaviour = "ok";
-  rejectKeys = new Map<string, string>(); // key → code, as apply_progress would reject it
-  calls: { expectedUserId: string; items: SyncItem[] }[] = [];
-  gets = 0;
-  private blocked: (() => void)[] = [];
-
-  rows(user: string): Rows {
-    if (!this.db.has(user)) this.db.set(user, { lessons: [], exercises: [], writing: [] });
-    return this.db.get(user)!;
-  }
-
-  private dbFor(user: string, clock: Clock): ProgressDb {
-    const rows = this.rows(user);
-    return {
-      apply: async (items) => {
-        const applied: string[] = [];
-        const rejected: { key: string; code: string }[] = [];
-        const data = rowsToProgress(rows);
-        for (const i of items) {
-          if (this.rejectKeys.has(i.key)) {
-            rejected.push({ key: i.key, code: this.rejectKeys.get(i.key)! });
-            continue;
-          }
-          if (i.kind === "attempt") data.exercises[i.exerciseId] = applyAttempt(data.exercises[i.exerciseId], i);
-          else if (i.kind === "import-lesson" || i.kind === "run") {
-            const rec = i.kind === "run" ? { bestScore: i.score, bestTotal: i.total, lastCompletedAt: i.runAt } : { bestScore: i.bestScore, bestTotal: i.bestTotal, lastCompletedAt: i.lastRunAt, ...(i.completedAt ? { completedAt: i.completedAt } : {}) };
-            data.lessons[i.lessonId] = applyLesson(data.lessons[i.lessonId], lessonFromImport(rec));
-          } else if (i.kind === "writing") data.writingTasks![i.exerciseId] = applyWriting(data.writingTasks![i.exerciseId], { done: true, checked: i.checked, doneAt: i.doneAt });
-          applied.push(i.key);
-        }
-        this.db.set(user, toRows(data));
-        void clock;
-        return { applied, rejected };
-      },
-      read: async (keys) => {
-        const r = this.rows(user);
-        return {
-          lessons: r.lessons.filter((x) => keys.lessons.includes(x.lesson_id)),
-          exercises: r.exercises.filter((x) => keys.exercises.includes(x.exercise_id)),
-          writing: r.writing.filter((x) => keys.writing.includes(x.exercise_id)),
-        };
-      },
-    };
-  }
-
-  actionsFor(clock: Clock): SyncActions {
-    return {
-      sync: async (input) => {
-        this.calls.push(JSON.parse(JSON.stringify(input)));
-        if (this.behaviour === "block") await new Promise<void>((r) => this.blocked.push(r));
-        if (this.behaviour === "network") throw new TypeError("fetch failed");
-        if (this.behaviour === "not-found") throw new Error("Server Action unavailable."); // what the Next.js 16 client throws on a 409
-        if (this.behaviour === "unavailable") return { status: "unavailable" };
-        if (this.behaviour === "malformed") return "<html>";
-        if (this.behaviour === "invalid") return { status: "invalid", code: "unexpected_field" };
-        if (!this.sessionUser) return { status: "signed-out" };
-        return runSync(input, { userId: this.sessionUser, index: INDEX, nowMs: clock.now, db: this.dbFor(this.sessionUser, clock) });
-      },
-      get: async (expectedUserId) => {
-        this.gets++;
-        if (this.sessionUser !== expectedUserId) return { status: "wrong-user" };
-        return { status: "ok", data: rowsToProgress(this.rows(expectedUserId)) };
-      },
-      reset: async () => ({ status: "ok" }),
-    };
-  }
-
-  release() {
-    this.behaviour = "ok";
-    for (const r of this.blocked.splice(0)) r();
-  }
-
-  sentKeys(): string[] {
-    return this.calls.flatMap((c) => c.items.map((i) => i.key));
-  }
-}
-
-function toRows(d: ProgressData): Rows {
-  return {
-    lessons: Object.entries(d.lessons).map(([id, l]) => ({ lesson_id: id, best_score: l.bestScore, best_total: l.bestTotal, last_run_at: l.lastCompletedAt, completed_at: l.completedAt ?? null })),
-    exercises: Object.entries(d.exercises).map(([id, e]) => ({ exercise_id: id, attempts: e.attempts, correct_count: e.correct, last_result: e.lastResult, last_attempt_at: e.lastAttemptedAt })),
-    writing: Object.entries(d.writingTasks ?? {}).map(([id, w]) => ({ exercise_id: id, done: true, checked: w.checked, done_at: w.doneAt })),
-  };
-}
-
-type World = { storage: FakeStorage; locks: FakeLocks | null; clock: Clock; server: FakeServer; warnings: string[]; env: FacadeEnv };
-
-function world(opts: { locks?: boolean } = {}): World {
-  const storage = new FakeStorage();
-  const locks = opts.locks === false ? null : new FakeLocks();
-  const clock = new Clock();
-  const server = new FakeServer();
-  const warnings: string[] = [];
-  const env: FacadeEnv = { storage, locks, now: () => clock.now, setTimer: clock.setTimer, clearTimer: clock.clearTimer, warn: (m) => warnings.push(m), on: () => {} };
-  return { storage, locks, clock, server, warnings, env };
-}
-
-const storeFor = (w: World, user = A, onWrongUser?: () => void) => new SupabaseProgressStore(user, w.server.actionsFor(w.clock), w.env, onWrongUser);
-const outboxOf = (w: World, user = A): Outbox => parseOutbox(w.storage.getItem(outboxKey(user)), user);
-const ex = (n: number) => ALL_EXERCISES[n];
+import { BATCH_MAX_ITEMS, toWire, type Outbox } from "./progress-outbox.ts";
+import { cacheKey, createProgressStore, isActionNotFound, outboxKey, rejectedKey, RETRY_FIRST_MS, SupabaseProgressStore, type Wiring } from "./progress-store.ts";
+import { MAX_PAYLOAD_BYTES } from "./progress-validate.ts";
+import { A, B, ex, facadeWorld, FakeStorage, outboxOf, settle, storeFor, world } from "./progress-test-fakes.ts";
 
 // ---------- Tests ----------
 
@@ -309,7 +103,9 @@ describe("the server wins", () => {
     w.server.rows(A).lessons.push({ lesson_id: "a1-greetings", best_score: 10, best_total: 10, last_run_at: "2026-11-25T13:00:00.000Z", completed_at: "2026-11-01T09:00:00.000Z" });
     const store = storeFor(w);
     await store.recordRun("a1-greetings", 6, 10);
-    assert.equal((await store.getLessonProgress("a1-greetings"))?.bestScore, 10, "the page-load snapshot already brought the server's row");
+    assert.equal((await store.getLessonProgress("a1-greetings"))?.bestScore, 6, "the first read answers from the cache at once");
+    await settle();
+    assert.equal((await store.getLessonProgress("a1-greetings"))?.bestScore, 10, "then the page's server snapshot brings the server's row");
     await store.flush();
     const cached = await store.getLessonProgress("a1-greetings");
     assert.deepEqual(cached, { bestScore: 10, bestTotal: 10, lastCompletedAt: "2026-11-25T13:00:00.000Z", completedAt: "2026-11-01T09:00:00.000Z" });
@@ -431,33 +227,6 @@ describe("tabs", () => {
     for (const e of w.server.rows(A).exercises) assert.equal(e.attempts, 1, "a repeated send is a no-op on the server");
   });
 });
-
-// ---------- Facade ----------
-
-function facadeWorld(initialUser: string | null) {
-  const w = world();
-  w.server.sessionUser = initialUser;
-  let user = initialUser;
-  let listener: (u: string | null) => void = () => {};
-  let loads = 0;
-  const wiring: Wiring = {
-    auth: { getUserId: async () => user, onChange: (cb) => (listener = cb) },
-    actions: w.server.actionsFor(w.clock),
-  };
-  const local = new LocalProgressStore();
-  const facade = new SyncFacade(async () => (loads++, wiring), () => w.env, local);
-  return {
-    w,
-    facade,
-    loads: () => loads,
-    switchTo: async (u: string | null) => {
-      user = u;
-      w.server.sessionUser = u;
-      listener(u);
-      await settle();
-    },
-  };
-}
 
 // The local store uses the global localStorage: point it at a fake per test.
 let globalStorage: FakeStorage;

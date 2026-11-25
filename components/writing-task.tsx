@@ -22,18 +22,28 @@ export function WritingTask({ exercise }: { exercise: WritingTaskExercise }) {
   const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Restore the local draft and the saved checklist after mount (localStorage isn't available during render).
+  // The draft is local and never waits for anything.
+  useEffect(() => {
+    setText(loadDraft(exercise.id));
+    setLoaded(true);
+  }, [exercise.id]);
+
+  // The saved ticks and "done" fill in when read, and again when the stored copy changes, unless the
+  // learner has already started changing the ticks on this page.
+  const touched = useRef(false);
   useEffect(() => {
     let active = true;
-    progressStore.getWritingTask(exercise.id).then((progress) => {
-      if (!active) return;
-      setText(loadDraft(exercise.id));
-      setLoaded(true);
-      if (!progress) return;
-      setChecked(progress.checked);
-      if (progress.done) setDoneAt(progress.doneAt);
-    });
+    const load = () =>
+      progressStore.getWritingTask(exercise.id).then((progress) => {
+        if (!active || !progress) return;
+        if (!touched.current) setChecked(progress.checked);
+        if (progress.done) setDoneAt(progress.doneAt);
+      });
+    void load();
+    const unsubscribe = progressStore.subscribe(() => void load());
     return () => {
       active = false;
+      unsubscribe();
     };
   }, [exercise.id]);
 
@@ -53,6 +63,7 @@ export function WritingTask({ exercise }: { exercise: WritingTaskExercise }) {
   const inRange = exercise.wordTarget ? words >= min && words <= max : true;
 
   function toggle(index: number) {
+    touched.current = true;
     setChecked((current) => (current.includes(index) ? current.filter((i) => i !== index) : [...current, index].sort((a, b) => a - b)));
   }
 

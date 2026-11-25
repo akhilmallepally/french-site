@@ -50,7 +50,19 @@ export interface ProgressStore {
   getWritingTask(exerciseId: string): Promise<WritingTaskProgress | null>;
   getAll(): Promise<ProgressData>;
   reset(): Promise<void>;
+  /**
+   * Calls `listener` whenever stored progress changes underneath the caller (the server's copy
+   * arrived, an import landed, another account signed in). Reads never wait for the network:
+   * they answer from what's stored now, and this tells the caller to read again.
+   */
+  subscribe(listener: () => void): () => void;
+  /** The one-time import notice, if it's due (synced store only). */
+  importNotice(): Promise<ImportNotice | null>;
+  /** Records that the import notice was shown, so it never appears again. */
+  markImportNoticeShown(): Promise<void>;
 }
+
+export type ImportNotice = { text: string };
 
 const COMPLETED_AT = 0.8;
 
@@ -170,5 +182,16 @@ export class LocalProgressStore implements ProgressStore {
       // Storage blocked: nothing to clear.
     }
   }
+
+  // Nothing changes underneath a local reader, and there's never an import notice.
+  subscribe() {
+    return () => {};
+  }
+
+  async importNotice() {
+    return null;
+  }
+
+  async markImportNoticeShown() {}
 }
 

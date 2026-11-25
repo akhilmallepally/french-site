@@ -11,9 +11,11 @@
 import type { AnswerStatus } from "./check-answer.ts";
 import {
   LocalProgressStore,
+  STORAGE_KEY,
   nextAttempt,
   nextRun,
   nextWriting,
+  type ImportNotice,
   type LessonProgress,
   type ProgressData,
   type ProgressStore,
@@ -27,6 +29,7 @@ import {
   overlay,
   parseOutbox,
   queueAttempt,
+  queueImport,
   queueRun,
   queueWriting,
   settle,
@@ -73,6 +76,16 @@ export type StoreEnv = {
 export const cacheKey = (userId: string) => `parlons-progress-v1:u:${userId}`;
 export const outboxKey = (userId: string) => `parlons-progress-outbox-v1:${userId}`;
 export const rejectedKey = (userId: string) => `parlons-progress-rejected-v1:${userId}`;
+/** The import's progress and its notice, per user. */
+export const importKey = (userId: string) => `parlons-progress-import-v1:${userId}`;
+/** The account that owns this browser's signed-out progress (section 8). Set once, never changed. */
+export const IMPORT_OWNER_KEY = "parlons-progress-import-owner-v1";
+/** The newest signed-out record time already imported (section 8). */
+export const IMPORTED_MARKER_KEY = "parlons-progress-imported-v1";
+
+// The plan's wording (section 8, decision 7); the second adds one plain sentence when some items were refused.
+export const IMPORT_NOTICE = "We added the progress saved in this browser to your account.";
+export const IMPORT_NOTICE_PARTIAL = "We added the progress saved in this browser to your account. A few items couldn't be added.";
 const CACHE_PREFIX = "parlons-progress-v1:u:";
 const OUTBOX_LOCK = "parlons-progress-outbox";
 const FLUSH_LOCK = "parlons-progress-flush";
@@ -81,8 +94,10 @@ export const DEBOUNCE_MS = 1000;
 export const RETRY_FIRST_MS = 30_000;
 export const RETRY_MAX_MS = 5 * 60_000;
 export const SNAPSHOT_EVERY_MS = 5 * 60_000; // re-read the server on visibility after this long
-export const FIRST_READ_WAIT_MS = 3000; // the first read of a page waits this long at most for the server
 const MAX_REJECTIONS_KEPT = 500;
+
+/** The import's state: keys still to confirm, how many were applied and rejected, and the notice. */
+type ImportState = { userId: string; keys: string[]; applied: number; rejected: number; notice: "none" | "due" | "shown" };
 
 /** A rejected entry: never sent again, but kept (ids, counts and times only) so the learner's record stays visible. */
 type KeptRejection = { key: string; code: string; at: string; entry?: OutboxEntry };
@@ -116,6 +131,7 @@ export class SupabaseProgressStore implements ProgressStore {
   private flushTimer: unknown = null;
   private snapshot: Promise<void> | null = null;
   private snapshotAt = 0;
+  private readonly listeners = new Set<() => void>();
 
   readonly userId: string;
   private readonly actions: SyncActions;
@@ -208,11 +224,28 @@ export class SupabaseProgressStore implements ProgressStore {
 
   // ----- reads -----
 
-  /** The first read of a page waits (briefly) for the server snapshot, shared by every caller. */
-  private async readable(): Promise<ProgressData> {
-    const first = this.ensureSnapshot();
-    await Promise.race([first, new Promise<void>((r) => this.env.setTimer(r, FIRST_READ_WAIT_MS))]);
+  /**
+   * Reads never wait for the network: they answer from the cache at once and start the page's one
+   * shared server read in the background; subscribers hear when its copy lands.
+   */
+  private readable(): ProgressData {
+    void this.ensureSnapshot();
     return this.readCache();
+  }
+
+  subscribe(listener: () => void): () => void {
+    this.listeners.add(listener);
+    return () => this.listeners.delete(listener);
+  }
+
+  private notify(): void {
+    for (const l of [...this.listeners]) {
+      try {
+        l();
+      } catch {
+        // A listener's error never stops the store.
+      }
+    }
   }
 
   async getAll(): Promise<ProgressData> {
@@ -220,11 +253,11 @@ export class SupabaseProgressStore implements ProgressStore {
   }
 
   async getLessonProgress(lessonId: string): Promise<LessonProgress | null> {
-    return (await this.readable()).lessons[lessonId] ?? null;
+    return this.readable().lessons[lessonId] ?? null;
   }
 
   async getWritingTask(exerciseId: string): Promise<WritingTaskProgress | null> {
-    return (await this.readable()).writingTasks?.[exerciseId] ?? null;
+    return this.readable().writingTasks?.[exerciseId] ?? null;
   }
 
   /** The server's snapshot replaces the cache, with the outbox re-applied on top. */
@@ -237,6 +270,7 @@ export class SupabaseProgressStore implements ProgressStore {
           const data = reply.data;
           await this.withOutboxLock(() => this.writeCache(overlay(this.withKept({ writingTasks: {}, ...data }), this.readOutbox())));
           this.snapshotAt = this.env.now();
+          this.notify();
         } else if (isObj(reply) && reply.status === "wrong-user") {
           this.stop();
           this.onWrongUser();
@@ -397,6 +431,7 @@ export class SupabaseProgressStore implements ProgressStore {
         const outbox = settle(before, applied as string[], rejected as Rejection[]);
         this.writeOutbox(outbox);
         this.recordRejections(rejected as Rejection[], before);
+        this.trackImport(applied as string[], rejected as Rejection[]);
         // The server's rows replace the cache's records (the server wins), then the outbox goes on top.
         const cache = this.readCache();
         Object.assign(cache.exercises, rows.exercises);
@@ -404,6 +439,7 @@ export class SupabaseProgressStore implements ProgressStore {
         cache.writingTasks = { ...(cache.writingTasks ?? {}), ...(rows.writingTasks ?? {}) };
         this.writeCache(overlay(cache, outbox, keysOfRows(rows)));
       });
+      this.notify();
       return "ok";
     }
     if (reply.status === "wrong-user") {
@@ -417,6 +453,87 @@ export class SupabaseProgressStore implements ProgressStore {
     }
     this.retryLater(); // "unavailable", "signed-out" (an expired session) or anything else
     return "stop";
+  }
+
+  // ----- importing signed-out progress (section 8) -----
+
+  private readImport(): ImportState {
+    try {
+      const saved = JSON.parse(this.env.storage.getItem(importKey(this.userId)) ?? "null");
+      if (isObj(saved) && saved.userId === this.userId && Array.isArray(saved.keys)) return saved as ImportState;
+    } catch {
+      // Corrupted: start again (the import itself is idempotent).
+    }
+    return { userId: this.userId, keys: [], applied: 0, rejected: 0, notice: "none" };
+  }
+
+  private writeImport(state: ImportState): void {
+    this.safe(() => this.env.storage.setItem(importKey(this.userId), JSON.stringify(state)));
+  }
+
+  /** Counts the import's entries as the server confirms them; the notice is due once all are in. */
+  private trackImport(applied: string[], rejected: Rejection[]): void {
+    const state = this.readImport();
+    if (!state.keys.length) return;
+    const waiting = new Set(state.keys);
+    for (const k of applied) if (waiting.delete(k)) state.applied++;
+    for (const r of rejected) if (waiting.delete(r.key)) state.rejected++;
+    state.keys = [...waiting];
+    if (!state.keys.length && state.applied > 0 && state.notice === "none") state.notice = "due";
+    this.writeImport(state);
+  }
+
+  /**
+   * Puts this browser's signed-out progress into this account's outbox, if this account owns it:
+   * the first account to sign in here claims it, once, and later accounts never get it. Only records
+   * newer than the marker go in, and the entries and the marker are written together under the lock,
+   * so a closed tab or a failed send resumes from the outbox and nothing is queued twice. The
+   * signed-out data itself stays where it is. Returns how many entries were queued.
+   */
+  async importAnonymous(): Promise<number> {
+    const queued = await this.withOutboxLock(() => {
+      const storage = this.env.storage;
+      const owner = storage.getItem(IMPORT_OWNER_KEY);
+      if (owner === null) this.safe(() => storage.setItem(IMPORT_OWNER_KEY, this.userId));
+      else if (owner !== this.userId) return 0;
+      let anonymous: unknown;
+      try {
+        anonymous = JSON.parse(storage.getItem(STORAGE_KEY) ?? "null");
+      } catch {
+        return 0;
+      }
+      if (!isProgressData(anonymous)) return 0;
+      const marker = Date.parse(storage.getItem(IMPORTED_MARKER_KEY) ?? "");
+      const since = Number.isFinite(marker) ? marker : Number.NEGATIVE_INFINITY;
+      const { outbox, keys, newestMs } = queueImport(this.readOutbox(), anonymous, since);
+      if (!keys.length) return 0;
+      this.writeOutbox(outbox);
+      this.safe(() => storage.setItem(IMPORTED_MARKER_KEY, new Date(newestMs).toISOString()));
+      const state = this.readImport();
+      state.keys = [...new Set([...state.keys, ...keys])];
+      this.writeImport(state);
+      // Badges update at once: the imported records go over the cache like any pending entry.
+      this.writeCache(overlay(this.readCache(), outbox, keys));
+      return keys.length;
+    });
+    if (queued) {
+      this.notify();
+      this.scheduleFlush(0);
+    }
+    return queued;
+  }
+
+  async importNotice(): Promise<ImportNotice | null> {
+    const state = this.readImport();
+    if (state.notice !== "due") return null;
+    return { text: state.rejected ? IMPORT_NOTICE_PARTIAL : IMPORT_NOTICE };
+  }
+
+  async markImportNoticeShown(): Promise<void> {
+    await this.withOutboxLock(() => {
+      const state = this.readImport();
+      if (state.notice === "due") this.writeImport({ ...state, notice: "shown" });
+    });
   }
 
   // ----- lifecycle -----
@@ -471,6 +588,8 @@ export class SyncFacade implements ProgressStore {
   private init: Promise<void> | null = null;
   private wiring: Wiring | null = null;
   private env: FacadeEnv | null = null;
+  private readonly listeners = new Set<() => void>();
+  private unsubscribeRemote: () => void = () => {};
 
   private readonly loadWiring: () => Promise<Wiring>;
   private readonly makeEnv: () => FacadeEnv;
@@ -504,20 +623,34 @@ export class SyncFacade implements ProgressStore {
     return this.init;
   }
 
-  /** Switches to `userId`'s store (null: the local store), cleaning up the previous account. */
-  async select(userId: string | null): Promise<void> {
+  private selecting: Promise<void> = Promise.resolve();
+
+  /** Switches to `userId`'s store (null: the local store). Selections run one at a time, in order. */
+  select(userId: string | null): Promise<void> {
+    this.selecting = this.selecting.then(() => this.selectNow(userId)).catch(() => {});
+    return this.selecting;
+  }
+
+  private async selectNow(userId: string | null): Promise<void> {
     if (!this.env || !this.wiring) return;
     if (this.remote?.userId === userId) return;
     const previous = this.remote;
     this.remote = null;
+    this.unsubscribeRemote();
+    this.unsubscribeRemote = () => {};
     if (previous) await previous.signOut();
     // A shared browser: no other account's synced copy stays readable here. Outboxes stay (unsent
     // work, sent only when that same account signs in again), but they're never shown.
     this.sweepCaches(userId);
     if (userId) {
-      this.remote = new SupabaseProgressStore(userId, this.wiring.actions, this.env, () => void this.recheck());
-      this.remote.start();
+      const store = new SupabaseProgressStore(userId, this.wiring.actions, this.env, () => void this.recheck());
+      this.remote = store;
+      this.unsubscribeRemote = store.subscribe(() => this.notify());
+      // On every selection: a sign-in event, or a page load while already signed in.
+      await store.importAnonymous();
+      store.start();
     }
+    this.notify(); // another store answers now: readers should read again
   }
 
   private sweepCaches(keepUserId: string | null): void {
@@ -548,6 +681,29 @@ export class SyncFacade implements ProgressStore {
     } catch {
       // Keep the stopped store.
     }
+  }
+
+  subscribe(listener: () => void): () => void {
+    this.listeners.add(listener);
+    return () => this.listeners.delete(listener);
+  }
+
+  private notify(): void {
+    for (const l of [...this.listeners]) {
+      try {
+        l();
+      } catch {
+        // A listener's error never stops the store.
+      }
+    }
+  }
+
+  async importNotice() {
+    return (await this.store()).importNotice();
+  }
+
+  async markImportNoticeShown() {
+    return (await this.store()).markImportNoticeShown();
   }
 
   private async store(): Promise<ProgressStore> {

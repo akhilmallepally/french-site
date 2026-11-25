@@ -188,3 +188,21 @@
   delete from public.writing_task_progress where user_id = (select id from auth.users where email = 'progress-test@example.com');
   ```
 - **Checks:** all pass. validate:content, test:content, test:checker (36), test:progress (89, covering the outbox, locks, batching, server wins, rejections, retries, action not found, tabs, accounts, sign-out and flag-off parity with no fetch), test:checkout (10), test:safe-next (7), test:webhook (70), tsc, test:no-supabase-env (19 PASS, including all three actions refusing cleanly), build (route table unchanged), and test:gating on a fresh server (all three actions refuse a signed-out caller).
+
+## Progress step 5: import on sign-in, the notice, the first-load fix (Prompt 61)
+
+- **First load:** with sync on, four things waited for the server read (up to 3 s):
+  - SupabaseProgressStore's reads, which held getAll, getLessonProgress and getWritingTask.
+  - ExercisePlayer, which created the exercise run only after getLessonProgress resolved, so the exercises didn't render until then.
+  - WritingTask, which restored the local draft only after getWritingTask.
+  - The lesson-list and level-card badges, through getAll.
+
+  Now reads answer from the cache at once, and a new `subscribe()` on every store tells readers when the server's copy, an import or an account switch lands. The player starts its run in its own effect, the draft loads at once, and the badges and best score refresh on change. The player's best-score line always reserves its height, and the level cards already did. The lesson-list badge still sits inline after the title, so on narrow screens it can push the description down when it first appears, as it does today with local data.
+- **Import (plan section 8):**
+  - The first account that signs in on a browser, or is already signed in on the first page load with sync on, is recorded in `parlons-progress-import-owner-v1`. It's set once and never changed, and only that account ever imports.
+  - Records newer than the marker `parlons-progress-imported-v1` go into the outbox as import-exercise, import-lesson and writing entries, under their own keys (ie:, il:, iw:). They're written together with the marker under the outbox lock, then sent by the usual batches (200 entries and 120 KiB at most).
+  - The server merges by the existing rules. A closed tab or failed send resumes from the outbox, nothing is queued twice, and writing text is never read or sent.
+  - Rejected entries are logged and kept, and the rest still import.
+- **Signed-out data after import:** left in place, as the plan says (decision 6). A later signed-out visitor sees only that browser's signed-out progress, never the account's (the account's synced copy is deleted at sign-out). Later signed-out work goes only to the owner, and only what's new.
+- **Notice:** "We added the progress saved in this browser to your account." (the plan's wording). It's shown once, only after at least one import entry is confirmed, and never for an empty import or with sync off. If some entries were refused, it adds "A few items couldn't be added." It's a fixed line at the bottom of the page (components/progress-import-notice.tsx in the root layout, since there's no dashboard yet), with role="status", a Dismiss button and Esc, so it shifts nothing.
+- **Tests and checks:** the fakes moved to lib/progress-test-fakes.ts, and the new lib/progress-import.test.ts covers claiming, first load signed in, two tabs, merge rules, no text, batches, partial rejection, resuming, re-import, sign-out, the notice and the non-blocking first load. All pass: validate:content, test:content, test:checker (36), test:progress (105), test:checkout (10), test:safe-next (7), test:webhook (70), tsc, test:no-supabase-env (19 PASS), build (route table unchanged), and test:gating on a fresh server.

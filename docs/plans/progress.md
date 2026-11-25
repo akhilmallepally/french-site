@@ -191,7 +191,7 @@ Exact behaviour:
 **As built in step 4 (Prompt 60).** The code is in lib/progress-store.ts (store and facade), lib/progress-outbox.ts (pure outbox), lib/progress-core.ts (types, local store, shared update rules) and lib/progress-wiring.ts (the Supabase session and actions, loaded only when sync is on). Where it differs from, or adds to, the text above:
 
 - Pending runs are kept as one merged lesson record and sent as an `import-lesson` entry, so a passing run followed by a failing one keeps the earlier completion date.
-- The first read on a page waits up to 3 s for the shared server snapshot, then falls back to the cache.
+- ~~The first read on a page waits up to 3 s for the shared server snapshot.~~ Replaced in step 5: reads never wait. They answer from the cache at once, and `subscribe()` tells readers when the server's copy lands.
 - Rejected entries are kept in `parlons-progress-rejected-v1:<userId>` (the newest 500, with their code, ids, counts and times, never text). They're laid back over every snapshot so the learner's record stays visible, and never sent again.
 - While backing off, a new write doesn't bring the next send forward.
 - On sign-out, or when another account signs in, every other account's cache is removed, not only the previous user's. Outboxes stay.
@@ -253,6 +253,12 @@ A double click on "Mark as done" or "Check" is already harmless: each produces o
   - **Exercises:** max of attempts and of correct counts; the newer answer's result and time. Why: nothing shows these counts yet, and max is safe to repeat; a sum would double-count after a retry.
   - **Writing tasks:** the later "done" wins, with its ticks. Why: the ticks describe the text checked last; a union would mix two drafts.
   - Ids no longer in the content are dropped by the server and not retried.
+- **As built in step 5 (Prompt 61):**
+  - The import runs every time the facade selects an account: on a sign-in event, and on a page load while already signed in. The owner key is set on the first such selection.
+  - Import entries use their own outbox keys (`ie:`, `il:`, `iw:`), so a live answer never folds into a pending import entry.
+  - The entries and the marker are written together under the outbox lock, so the import resumes from the outbox after a closed tab or a failed send.
+  - Confirmation is tracked in `parlons-progress-import-v1:<userId>`.
+  - The dashboard doesn't exist yet, so the notice is a small fixed line at the bottom of every page (components/progress-import-notice.tsx, in the root layout). It's shown once, and only after at least one import entry is confirmed. When some entries were refused, it adds one plain sentence: "A few items couldn't be added."
 - **Anonymous data is left in place** (decision 6), so it isn't lost if the import fails, and a signed-out visitor on that device still sees it.
 - **What the user sees:** nothing blocking and no choice to make, because the merge loses nothing. Lesson badges update as soon as the entries are applied locally. Once the import entries are confirmed, the dashboard shows one line, once: "We added the progress saved in this browser to your account." (decision 7). An account that isn't the import owner never sees it.
 

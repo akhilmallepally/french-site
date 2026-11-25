@@ -6,15 +6,18 @@
 // - pending: written since. New answers for the key are folded into it.
 // Each outbox belongs to one user and says so; an outbox read under another user id is ignored.
 import type { AnswerStatus } from "./check-answer.ts";
-import type { LessonProgress, ProgressData } from "./progress-core.ts";
-import { applyAttempt, applyLesson, applyWriting, lessonFromRun } from "./progress-merge.ts";
+import type { ExerciseProgress, LessonProgress, ProgressData, WritingTaskProgress } from "./progress-core.ts";
+import { applyAttempt, applyExerciseImport, applyLesson, applyWriting, lessonFromImport, lessonFromRun } from "./progress-merge.ts";
 import type { Rejection, SyncItem } from "./progress-validate.ts";
 
 export type AttemptEntry = { kind: "attempt"; seq: number; lessonId: string; exerciseId: string; result: AnswerStatus; attemptedAt: string; addAttempts: number; addCorrect: number };
 /** Every run since the last send, merged by the server's rule and sent as one import-lesson entry. */
 export type LessonEntry = { kind: "lesson"; seq: number; lessonId: string; record: LessonProgress };
 export type WritingEntry = { kind: "writing"; seq: number; lessonId: string; exerciseId: string; checked: number[]; doneAt: string };
-export type OutboxEntry = AttemptEntry | LessonEntry | WritingEntry;
+/** Signed-out progress imported at sign-in (section 8). Its own keys (ie:, il:, iw:), so live answers never fold into it. */
+export type ImportExerciseEntry = { kind: "import-exercise"; seq: number; lessonId: string; exerciseId: string; record: ExerciseProgress };
+export type ImportLessonEntry = { kind: "import-lesson"; seq: number; lessonId: string; record: LessonProgress };
+export type OutboxEntry = AttemptEntry | LessonEntry | WritingEntry | ImportExerciseEntry | ImportLessonEntry;
 
 export type Slot = { inFlight?: OutboxEntry; pending?: OutboxEntry };
 export type Outbox = { v: 1; userId: string; seq: number; slots: Record<string, Slot> };
@@ -33,6 +36,9 @@ export function lessonIdOf(exerciseId: string): string {
 export const attemptKey = (exerciseId: string) => `e:${exerciseId}`;
 export const lessonKey = (lessonId: string) => `l:${lessonId}`;
 export const writingKey = (exerciseId: string) => `w:${exerciseId}`;
+export const importExerciseKey = (exerciseId: string) => `ie:${exerciseId}`;
+export const importLessonKey = (lessonId: string) => `il:${lessonId}`;
+export const importWritingKey = (exerciseId: string) => `iw:${exerciseId}`;
 
 const clone = (o: Outbox): Outbox => JSON.parse(JSON.stringify(o));
 const later = (a: string, b: string) => (Date.parse(a) >= Date.parse(b) ? a : b);
@@ -45,7 +51,10 @@ export function lastTimeFor(outbox: Outbox, key: string): string | undefined {
 }
 
 export function entryTime(e: OutboxEntry): string {
-  return e.kind === "attempt" ? e.attemptedAt : e.kind === "writing" ? e.doneAt : e.record.lastCompletedAt;
+  if (e.kind === "attempt") return e.attemptedAt;
+  if (e.kind === "writing") return e.doneAt;
+  if (e.kind === "import-exercise") return e.record.lastAttemptedAt;
+  return e.record.lastCompletedAt;
 }
 
 // ---------- Writes (into the pending entry, never the in-flight one) ----------
@@ -91,6 +100,10 @@ export function toWire(key: string, e: OutboxEntry): SyncItem {
     return { key, kind: "attempt", lessonId: e.lessonId, exerciseId: e.exerciseId, result: e.result, attemptedAt: e.attemptedAt, addAttempts: e.addAttempts, addCorrect: e.addCorrect };
   }
   if (e.kind === "writing") return { key, kind: "writing", lessonId: e.lessonId, exerciseId: e.exerciseId, checked: [...e.checked], doneAt: e.doneAt };
+  if (e.kind === "import-exercise") {
+    const x = e.record;
+    return { key, kind: "import-exercise", lessonId: e.lessonId, exerciseId: e.exerciseId, lastResult: x.lastResult, lastAttemptedAt: x.lastAttemptedAt, attempts: x.attempts, correct: x.correct };
+  }
   const r = e.record;
   return {
     key,
@@ -154,7 +167,8 @@ export const hasWork = (o: Outbox) => Object.values(o.slots).some((s) => s.inFli
 /** Applies one outbox entry to a snapshot by apply_progress's own rules (a resent attempt is a no-op). */
 function applyEntry(data: ProgressData, e: OutboxEntry): void {
   if (e.kind === "attempt") data.exercises[e.exerciseId] = applyAttempt(data.exercises[e.exerciseId], e);
-  else if (e.kind === "lesson") data.lessons[e.lessonId] = applyLesson(data.lessons[e.lessonId], e.record);
+  else if (e.kind === "import-exercise") data.exercises[e.exerciseId] = applyExerciseImport(data.exercises[e.exerciseId], e.record);
+  else if (e.kind === "lesson" || e.kind === "import-lesson") data.lessons[e.lessonId] = applyLesson(data.lessons[e.lessonId], e.record);
   else {
     data.writingTasks ??= {};
     data.writingTasks[e.exerciseId] = applyWriting(data.writingTasks[e.exerciseId], { done: true, checked: e.checked, doneAt: e.doneAt });
@@ -176,10 +190,49 @@ export function overlay(data: ProgressData, outbox: Outbox, keys?: Iterable<stri
 /** The outbox keys of the records in `rows`. */
 export function keysOfRows(rows: ProgressData): string[] {
   return [
-    ...Object.keys(rows.exercises).map(attemptKey),
-    ...Object.keys(rows.lessons).map(lessonKey),
-    ...Object.keys(rows.writingTasks ?? {}).map(writingKey),
+    ...Object.keys(rows.exercises).flatMap((id) => [attemptKey(id), importExerciseKey(id)]),
+    ...Object.keys(rows.lessons).flatMap((id) => [lessonKey(id), importLessonKey(id)]),
+    ...Object.keys(rows.writingTasks ?? {}).flatMap((id) => [writingKey(id), importWritingKey(id)]),
   ];
+}
+
+// ---------- Importing signed-out progress (section 8) ----------
+
+const timeOf = (t: unknown) => (typeof t === "string" ? Date.parse(t) : Number.NaN);
+
+/**
+ * Queues every signed-out record newer than `sinceMs` as an import entry (pending, in course of
+ * the usual flush). Exercises become import-exercise, lessons import-lesson (completion: completedAt,
+ * else the last run if the best passes), writing tasks writing entries with their ticks only, never
+ * text. Malformed records are skipped. Returns the keys queued and the newest time imported.
+ */
+export function queueImport(outbox: Outbox, anonymous: ProgressData, sinceMs: number): { outbox: Outbox; keys: string[]; newestMs: number } {
+  const out = clone(outbox);
+  const keys: string[] = [];
+  let newestMs = sinceMs;
+  const put = (key: string, entry: OutboxEntry, ms: number) => {
+    const slot = (out.slots[key] ??= {});
+    slot.pending = { ...entry, seq: slot.pending?.seq ?? ++out.seq } as OutboxEntry;
+    keys.push(key);
+    newestMs = Math.max(newestMs, ms);
+  };
+  for (const [id, x] of Object.entries(anonymous.exercises ?? {})) {
+    const ms = timeOf(x?.lastAttemptedAt);
+    if (!(ms > sinceMs) || !Number.isInteger(x.attempts) || !Number.isInteger(x.correct) || typeof x.lastResult !== "string") continue;
+    put(importExerciseKey(id), { kind: "import-exercise", seq: 0, lessonId: lessonIdOf(id), exerciseId: id, record: { ...x } }, ms);
+  }
+  for (const [id, l] of Object.entries(anonymous.lessons ?? {})) {
+    const ms = Math.max(timeOf(l?.lastCompletedAt), timeOf(l?.completedAt));
+    if (!(ms > sinceMs) || !Number.isInteger(l.bestScore) || !Number.isInteger(l.bestTotal) || typeof l.lastCompletedAt !== "string") continue;
+    put(importLessonKey(id), { kind: "import-lesson", seq: 0, lessonId: id, record: lessonFromImport(l) }, ms);
+  }
+  for (const [id, w] of Object.entries(anonymous.writingTasks ?? {}) as [string, WritingTaskProgress][]) {
+    const ms = timeOf(w?.doneAt);
+    if (!(ms > sinceMs) || !w.done || !Array.isArray(w.checked)) continue;
+    // Ticks and the time only. The draft text is in its own key (lib/writing-draft.ts) and never read here.
+    put(importWritingKey(id), { kind: "writing", seq: 0, lessonId: lessonIdOf(id), exerciseId: id, checked: w.checked.filter((i) => Number.isInteger(i)), doneAt: w.doneAt }, ms);
+  }
+  return { outbox: out, keys, newestMs };
 }
 
 // ---------- Reading back from storage ----------
@@ -191,6 +244,8 @@ function validEntry(e: unknown): e is OutboxEntry {
   if (e.kind === "attempt") return typeof e.exerciseId === "string" && typeof e.attemptedAt === "string" && typeof e.addAttempts === "number" && typeof e.addCorrect === "number";
   if (e.kind === "lesson") return isObj(e.record) && typeof e.record.bestScore === "number" && typeof e.record.lastCompletedAt === "string";
   if (e.kind === "writing") return typeof e.exerciseId === "string" && Array.isArray(e.checked) && typeof e.doneAt === "string";
+  if (e.kind === "import-exercise") return typeof e.exerciseId === "string" && isObj(e.record) && typeof e.record.lastAttemptedAt === "string";
+  if (e.kind === "import-lesson") return isObj(e.record) && typeof e.record.bestScore === "number" && typeof e.record.lastCompletedAt === "string";
   return false;
 }
 

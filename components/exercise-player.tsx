@@ -68,18 +68,27 @@ export function ExercisePlayer({ lessonId, exercises: allExercises }: { lessonId
   const [run, setRun] = useState<Run | null>(null);
   const [best, setBest] = useState<LessonProgress | null>(null);
 
+  // The exercises never wait for progress: the run starts at once (after mount, because shuffling
+  // uses Math.random). Keep a run in progress when a preserved route becomes visible again.
+  useEffect(() => {
+    setRun((current) => current ?? createRun(exercises, 1, "full"));
+  }, [exercises]);
+
+  // The best score fills in when it's read, and again whenever the stored copy changes (the
+  // server's copy arriving, an import, another account signing in).
   useEffect(() => {
     let active = true;
-    progressStore.getLessonProgress(lessonId).then((progress) => {
-      if (!active) return;
-      setBest(progress);
-      // Keep a run in progress when a preserved route becomes visible again.
-      setRun((current) => current ?? createRun(exercises, 1, "full"));
-    });
+    const load = () =>
+      progressStore.getLessonProgress(lessonId).then((progress) => {
+        if (active) setBest(progress);
+      });
+    void load();
+    const unsubscribe = progressStore.subscribe(() => void load());
     return () => {
       active = false;
+      unsubscribe();
     };
-  }, [lessonId, exercises]);
+  }, [lessonId]);
 
   if (exercises.length === 0 && writingTasks.length === 0) return null;
 
@@ -105,12 +114,15 @@ export function ExercisePlayer({ lessonId, exercises: allExercises }: { lessonId
         <h2 id="practice-heading" className="font-serif text-3xl font-semibold tracking-tight">
           Practice
         </h2>
-        {best && (
-          <p className="text-sm font-medium text-muted">
-            {isCompleted(best) && <span className="text-emerald-800">✓ Completed · </span>}
-            Best score {best.bestScore} / {best.bestTotal}
-          </p>
-        )}
+        {/* Always rendered with its height reserved, so a best score arriving later shifts nothing. */}
+        <p className="min-h-5 basis-full text-sm font-medium text-muted sm:basis-auto">
+          {best && (
+            <>
+              {isCompleted(best) && <span className="text-emerald-800">✓ Completed · </span>}
+              Best score {best.bestScore} / {best.bestTotal}
+            </>
+          )}
+        </p>
       </div>
 
       {exercises.length > 0 && (

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Fraunces, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import AuthButton from "@/components/auth-button";
+import { ProgressImportNotice } from "@/components/progress-import-notice";
 import "./globals.css";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
@@ -70,6 +71,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </div>
           </div>
         </footer>
+        <ProgressImportNotice />
         {/* Vercel Web Analytics: page views only, no custom events. See the privacy page. */}
         <Analytics />
       </body>

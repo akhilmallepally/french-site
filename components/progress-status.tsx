@@ -3,16 +3,23 @@
 import { useEffect, useState } from "react";
 import { isCompleted, progressStore, type ProgressData } from "@/lib/progress";
 
-/** Loads progress after mount, and again whenever a preserved route becomes visible. */
+/**
+ * Loads progress after mount, and again whenever the stored copy changes (the server's copy
+ * arriving, an import, another account signing in). Never waits for the network.
+ */
 function useProgress(): ProgressData | null {
   const [data, setData] = useState<ProgressData | null>(null);
   useEffect(() => {
     let active = true;
-    progressStore.getAll().then((all) => {
-      if (active) setData(all);
-    });
+    const load = () =>
+      progressStore.getAll().then((all) => {
+        if (active) setData(all);
+      });
+    void load();
+    const unsubscribe = progressStore.subscribe(() => void load());
     return () => {
       active = false;
+      unsubscribe();
     };
   }, []);
   return data;
