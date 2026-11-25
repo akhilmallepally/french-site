@@ -85,17 +85,32 @@ audit:content also has B2 rows: lengths, En résumé, the exercise mix, A1 to B1
   - Proven by `npm run test:gating` (124 gated lessons, 0 leaks in HTML, RSC, prefetch, segments, `.next/static` and the prerendered files) and `npm run test:safe-next`.
   - Manual steps (private repo, Supabase and Google URLs, Vercel env vars) and the known limits are in docs/auth-setup.md.
   - Merged to master (PR #1).
-- **Database (branch `db`, uncommitted; auth prompt 3):**
-  - Written, not yet run: `supabase/migrations/0001` to `0004` (profiles with a sign-up trigger; lesson_progress, exercise_results, lesson_scores, saved_vocab mirroring lib/progress.ts; RLS enabled and forced, own-rows-only policies, no anon access; `touch_last_active()`), `supabase/tests/rls.sql` (every table and operation, two users and anon, ends in rollback) and `supabase/rollback/rollback_all.sql` (deletes user data).
-  - How to run them, the expected test output, the dashboard checks and what each table stores: docs/db-setup.md.
-  - Fail-safe: with the Supabase variables missing, proxy.ts skips the refresh and warns once, `getCurrentUser()` returns null on missing config or any error (fail closed), and the header shows "Sign in". Proven by `npm run test:no-supabase-env` (it leaves a no-config build in `.next`; rebuild afterwards).
-  - Next: run the SQL and the RLS test in Supabase, then the SupabaseProgressStore, server actions, the dashboard and the localStorage import.
+- **Progress sync (updated 25 November 2026; docs/plans/progress.md, docs/progress-log.md):**
+  - **Done, pending the owner's preview checklist** (plan section 13). Steps 1 to 6 are built:
+    - migration 0006 and `apply_progress`
+    - the content index and merge rules
+    - the server actions and validation
+    - the synced store with its outbox, facade and Web Locks
+    - the import of signed-out progress at sign-in, with a one-time notice
+    - the `/progress` dashboard and the header link
+
+    `npm run test:progress` (124 tests), test:gating and test:no-supabase-env cover it. `npm run check:progress-db` checks the real database with a test account.
+  - **The flag:** `NEXT_PUBLIC_PROGRESS_SYNC=on` turns sync on. It's off in Production (unset) and is turned on only after the checklist passes on a preview. Off, signed out, or with no Supabase config, progress stays in the browser exactly as before.
+  - **Privacy:** no writing text ever leaves the browser. On sign-out or an expired or invalid session, the account's synced copy is deleted from the browser, and its unsent changes stay for that account only. Before the session is known, an account's copy shows only if the browser holds an unexpired session for that same account.
+  - **Storage estimates** (plan section 4; measure with the SQL in 13.4):
+    - per row: about 270 B per answered exercise, 250 B per lesson and 310 B per writing task
+    - per learner: about 70 KB for 20 lessons, 1.35 MB for everything
+    - users in 400 MB: about 5,700 at 20 lessons each, or 290 at everything
+  - **Database:** 0001 to 0007 are written. 0006 must be run in Supabase before the preview test (docs/db-setup.md).
+  - **Fail-safe:** with the Supabase variables missing, proxy.ts skips the refresh and warns once, `getCurrentUser()` returns null (fail closed), and the header shows "Sign in". Proven by `npm run test:no-supabase-env`, which leaves a no-config build in `.next`, so rebuild afterwards.
+  - **Next:** the preview checklist, then the flag in Production. After that: Smart practice and Daily review (spaced repetition on the stored results), the home page cards for them, and a gentle sign-in prompt for signed-out learners with progress.
 - **Levels written:** A1 (49 lessons), A2 (56), B1 (59), B2 (59) and C1 (57).
 - **C1:** written, wrapped up, awaiting native review. Eight units, 57 lessons (8, 9, 8, 7, 6, 6, 6, 7), written unit by unit in Prompts 28 to 38 and wrapped up in Prompt 39. Conventions and the grouped C1 checklist in CLAUDE.md; plans in docs/plans/c1/; coverage map docs/c1-coverage.md; history in docs/c1-writing-log.md. Wrap-up: `node --experimental-strip-types scripts/c1-wrapup.ts` writes docs/c1-wrapup.md (judgement calls at the top, from scripts/c1-wrapup-judgements.md; mechanical failures 0). Native review: docs/c1-reviewer-brief.md and docs/c1-review-items.md (309 items, 22 possibly resolved), lessons in docs/review/c1-unit-1.txt to c1-unit-8.txt. Verse: scripts/scan-alexandrines.ts (`npm run check:alexandrines`).
 - **B2 units:** 1 Nuance and society (lessons 1 to 8), 2 What might have been (9 to 15), 3 News and reporting (16 to 25), 4 Precision with pronouns (26 to 31), 5 Work and the economy (32 to 40), 6 Science and health (41 to 45), 7 Culture and the arts (46 to 52), 8 Registers and debate (53 to 59). Plans in docs/plans/b2/, history in docs/b2-writing-log.md.
 - **Baselines:** check:words 110 (the A1/A2 backlog; B1, B2 and C1 at 0), check:structures 0, test:checker 29 tests, test:b2-exercises (B2 and C1) 0 failures, b2-links-ids 0 failures, check:c1-links 0 failures, check:alexandrines 8/8, c1-wrapup 0 mechanical failures. The audit's informational rows: 73 shared vocab texts, 4 exercises with more than five answers, 6 lessons without a reorder (all A1/A2).
 - **Last commit:** check `git log`; the B2 review fixes and the wrap-up (Prompts 21 to 25) are not committed.
 - **C2:** planned in Prompt 40 (docs/plans/c2/overview.md, 46 lessons in 8 units; open questions at the top, including the writing-task question); coverage in docs/c2-coverage.md (scripts/c2-lists.ts, scripts/c2-find.ts); log in docs/c2-writing-log.md. Not yet approved.
+- **Next steps for the site (progress):** (a) the progress preview checklist (docs/plans/progress.md, section 13), then the flag in Production; (b) Smart practice; (c) Daily review; (d) the home page cards; (e) the sign-in prompt.
 - **Next steps, in order:** (1) the C1 native-speaker review (docs/c1-reviewer-brief.md); (2) the B2 native-speaker review; (3) the B1 review, including the 13 unread B1 grammar lessons; (4) phone and learner tests; (5) C2 planning.
 
 ## 7. How work is split

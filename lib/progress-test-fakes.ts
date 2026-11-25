@@ -199,7 +199,8 @@ export function toRows(d: ProgressData): Rows {
   };
 }
 
-export type World = { storage: FakeStorage; locks: FakeLocks | null; clock: Clock; server: FakeServer; warnings: string[]; env: FacadeEnv };
+/** `cookieUser`: whose unexpired session the browser's Supabase cookie holds (null: none, or expired). */
+export type World = { storage: FakeStorage; locks: FakeLocks | null; clock: Clock; server: FakeServer; warnings: string[]; env: FacadeEnv; cookieUser: string | null };
 
 export function world(opts: { locks?: boolean } = {}): World {
   const storage = new FakeStorage();
@@ -207,8 +208,9 @@ export function world(opts: { locks?: boolean } = {}): World {
   const clock = new Clock();
   const server = new FakeServer();
   const warnings: string[] = [];
-  const env: FacadeEnv = { storage, locks, now: () => clock.now, setTimer: clock.setTimer, clearTimer: clock.clearTimer, warn: (m) => warnings.push(m), on: () => {} };
-  return { storage, locks, clock, server, warnings, env };
+  const w = { storage, locks, clock, server, warnings, cookieUser: null as string | null } as World;
+  w.env = { storage, locks, now: () => clock.now, setTimer: clock.setTimer, clearTimer: clock.clearTimer, warn: (m) => warnings.push(m), on: () => {}, storedSessionUser: () => w.cookieUser };
+  return w;
 }
 
 export const storeFor = (w: World, user = A, onWrongUser?: () => void) => new SupabaseProgressStore(user, w.server.actionsFor(w.clock), w.env, onWrongUser);
@@ -219,11 +221,14 @@ export const ex = (n: number) => ALL_EXERCISES[n];
 export function facadeWorld(initialUser: string | null, existing?: World) {
   const w = existing ?? world();
   w.server.sessionUser = initialUser;
+  w.cookieUser = initialUser;
+  /** What the auth server says (getUser). Defaults to the browser's session. */
+  let verify: () => Promise<string | null> = async () => user;
   let user = initialUser;
   let listener: (u: string | null) => void = () => {};
   let loads = 0;
   const wiring: Wiring = {
-    auth: { getUserId: async () => user, onChange: (cb) => (listener = cb) },
+    auth: { getUserId: async () => user, verifyUserId: () => verify(), onChange: (cb) => (listener = cb) },
     actions: w.server.actionsFor(w.clock),
   };
   const local = new LocalProgressStore();
@@ -232,8 +237,12 @@ export function facadeWorld(initialUser: string | null, existing?: World) {
     w,
     facade,
     loads: () => loads,
+    setVerify: (fn: () => Promise<string | null>) => {
+      verify = fn;
+    },
     switchTo: async (u: string | null) => {
       user = u;
+      w.cookieUser = u;
       w.server.sessionUser = u;
       listener(u);
       await settle();

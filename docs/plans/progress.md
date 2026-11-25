@@ -314,7 +314,7 @@ A double click on "Mark as done" or "Check" is already harmless: each produces o
   - The caps refuse new rows and still update existing ones (seeded user C).
   - `writing_task_progress` has exactly the expected columns, with no text column but the ids.
   - Cross-user reads return 0 rows, and deleting a user cascades.
-- **Manual checklist** (in docs/db-setup.md): two Google accounts in two browsers; answer offline (DevTools → offline), go back online, check the rows; a preview deployment with a wrong Supabase URL still saves locally; sign out and in again; import with existing local progress; on a preview deployment with the network slowed in Chrome, exercises appear at once; Security Advisor shows nothing new.
+- **Manual checklist:** section 13, with numbered steps for a Vercel preview with sync on, and the database-size SQL.
 - **validate:content** gains two checks: exercise ids start with `<lesson-id>-ex`, and a warning at 80% of the database caps.
 - **Staying green:** `test:no-supabase-env` and `test:gating` must keep passing (no config means the local store). Server code is marked `server-only` and kept out of client imports. After every step: validate:content, test:content, test:checker, test:progress, build.
 
@@ -329,7 +329,7 @@ Each step is one prompt, ending with the checks and a commit point (the owner co
 4. **The store:** `SupabaseProgressStore`, outbox, facade, shared read cache, behind `NEXT_PUBLIC_PROGRESS_SYNC=on`; privacy page text. *Commit.*
 5. **Import on sign-in** and the one-time notice. *Commit.*
 6. **Dashboard** `/progress`, `lib/progress-summary.ts`, header link. *Commit.*
-7. **Wrap-up:** run the manual checklist on a preview deployment (including: on a preview deployment with the network slowed in Chrome, exercises appear at once), measure the database size, update docs/project-state.md. *Commit.*
+7. **Wrap-up:** run the manual checklist (section 13) on a preview deployment, measure the database size (13.4), update docs/project-state.md. *Commit.* Turn the flag on in Production only after the checklist passes.
 
 **Vercel:** `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` (already set); new `NEXT_PUBLIC_PROGRESS_SYNC=on` (Preview first, then Production; it's inlined at build, so changing it needs a redeploy). `SUPABASE_SERVICE_ROLE_KEY` is unchanged and not used by progress. **Supabase:** run 0006 in the SQL Editor, then the RLS test and the Security Advisor.
 
@@ -337,3 +337,107 @@ Each step is one prompt, ending with the checks and a commit point (the owner co
 
 - App: set `NEXT_PUBLIC_PROGRESS_SYNC` to anything but `on` and redeploy, or revert the step's commit. Everyone falls back to the local store; outboxes stay in browsers and flush when sync is back on.
 - Database: `supabase/rollback/0006_progress_sync.sql` restores the grants and the index, drops `apply_progress` and `writing_task_progress` (deleting writing-task records only), and recreates an empty `lesson_scores`. Never run `rollback_all.sql` for this: it deletes purchases too.
+
+## 13. Step 7 manual checklist (Vercel preview, sync on)
+
+You run this; tell me any step whose result differs.
+
+### 13.1 Before you start
+
+1. **Supabase:** migration 0006 has been run in the project the preview uses, and `supabase/tests/rls.sql` passes there (docs/db-setup.md).
+2. **Vercel → Settings → Environment Variables, Preview environment only:**
+   - `NEXT_PUBLIC_SUPABASE_URL`
+   - `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` (the same values as Production, if the preview uses the same project)
+   - `NEXT_PUBLIC_PROGRESS_SYNC` = `on`
+
+   Leave Production without the flag. `NEXT_PUBLIC_` values are inlined at build, so redeploy the preview after changing them.
+   - Not needed for progress: `SUPABASE_SERVICE_ROLE_KEY` (payment webhook only) and the `PAYMENTS_*` variables.
+   - `NEXT_PUBLIC_SITE_URL` is used only for checkout's return URL, so don't test payments on the preview unless you set it to the preview's URL.
+3. **Supabase → Authentication → URL Configuration:**
+   - Keep the Site URL as the production URL.
+   - Under Redirect URLs, add `https://*-<team-or-account-slug>.vercel.app/**`, with your Vercel team or account slug. Supabase's docs give this pattern for previews: `*` doesn't cross `.` or `/`, and `**` matches anything.
+   - The sign-in button sends `redirectTo` = `<the page's origin>/auth/callback?next=…`, so the preview's own origin must match that pattern.
+   - Google needs no change: it redirects to Supabase's own callback.
+4. Two Google accounts, **A** and **B**, neither with a purchase. Two browsers or devices. Chrome with DevTools.
+
+### 13.2 Steps and expected results
+
+1. **Empty state.** In a fresh Chrome profile (no site data), open `/progress`.
+   *Expected:* a quiet placeholder, then "Nothing practised yet" with a link to the free A1 lessons, and the line "Your progress is saved in this browser only. Sign in to keep it across devices." with a Sign in button. No error.
+2. **Signed-out practice.** Same profile: do the exercises of one A1 lesson to the end (a full run), then open `/progress`.
+   *Expected:* Continue shows that lesson; A1 shows 1 completed (if you scored at least 80%); the sign-in line is still there. Under DevTools → Application → Local Storage, `parlons-progress-v1` holds the answers.
+3. **Sign in, import and the notice.** Sign in as A from the header, then open `/progress`.
+   *Expected:* "We added the progress saved in this browser to your account." shows once at the top, with a Dismiss button (Esc also closes it). Reload: it's gone for good. The step 2 lesson still shows. In the SQL editor, A's rows exist in `lesson_progress` and `exercise_results`. Local Storage has `parlons-progress-import-owner-v1` = A's user id.
+4. **A second device.** On the second browser or device, sign in as A and open `/progress`.
+   *Expected:* the same progress as step 3 appears within a few seconds, with no notice (that device had no signed-out progress).
+5. **Practice on the second device.** Finish another lesson there, then reload `/progress` on the first browser.
+   *Expected:* the new lesson shows on the first browser too.
+6. **A second account on the same browser.** On the first browser, sign out, then sign in as B and open `/progress`.
+   *Expected:* B sees none of A's progress and no notice. B has no rows in the tables. `parlons-progress-import-owner-v1` still holds A's id.
+7. **Sign-out on a shared browser.** Sign B out and open `/progress`.
+   *Expected:* only the signed-out progress from step 2 shows, not the lesson from step 5. Local Storage has no key starting with `parlons-progress-v1:u:`.
+8. **Session expiry.**
+   1. Sign in as A and answer one exercise. Then, in DevTools → Application → Cookies, delete every cookie named `sb-<project-ref>-auth-token` (and `.0`, `.1`, …), and reload.
+      *Expected:* the header shows Sign in, `/progress` shows only signed-out progress, and Local Storage no longer has `parlons-progress-v1:u:<A's id>` (an unsent `parlons-progress-outbox-v1:<A's id>` may stay).
+   2. Answer one exercise while signed out, then sign in as A again.
+      *Expected:* that answer is imported into A (check `exercise_results`), and B would never receive it.
+   3. Optional, server-side: while A is signed in, run in the SQL editor `delete from auth.sessions where user_id = (select id from auth.users where email = '<A email>');`, then answer an exercise.
+      *Expected:* within about a minute, A's synced copy leaves Local Storage and the page shows signed-out progress. This depends on the auth server rejecting the revoked session; tell me if it doesn't happen.
+9. **Slow network.** Signed in as A, DevTools → Network → throttle to "Slow 4G" (or "3G"), then open a lesson.
+   *Expected:* the lesson and its exercises appear at once; the best score fills in or updates in place when the server's copy arrives, and nothing jumps.
+10. **Offline, then online.** DevTools → Network → Offline. Answer three exercises.
+    *Expected:* the answers are accepted at once, and `parlons-progress-outbox-v1:<A's id>` appears in Local Storage. Go back online: within a few seconds the outbox key disappears, and `exercise_results` shows the three answers (attempts counted once).
+11. **Two tabs.** Open the same lesson in two tabs as A and answer different exercises in each.
+    *Expected:* both answers reach `exercise_results`, and no attempt is counted twice.
+12. **A paid lesson for a free user.** As B (no purchase), open `/progress`, then a B1 lesson from the B1 level page.
+    *Expected:* the B1 lesson shows the paywall panel and no lesson content. Signed out, it shows the sign-in panel. `/progress` itself shows only titles.
+13. **Mobile layout.** DevTools device toolbar at 375 px, and on a real phone.
+    *Expected:* the header shows Lessons, Progress, Pricing and Sign in without overflow (it may wrap onto two lines). `/progress` reads well, levels open and close, and lesson-list badges appear without moving anything.
+14. **Keyboard.** On `/progress`, Tab through the page.
+    *Expected:* every link and the level rows are reachable, a level opens with Enter or Space, the focus outline is visible, and Dismiss and Esc close the notice.
+15. **A wrong Supabase URL** (optional). On a throwaway preview with a wrong `NEXT_PUBLIC_SUPABASE_URL`, practise one exercise.
+    *Expected:* it's saved locally with no error, and the header shows Sign in.
+16. **Security Advisor** (Supabase dashboard).
+    *Expected:* nothing new compared with before 0006.
+
+### 13.3 Clean up
+
+Delete the test accounts' rows with the SQL in docs/progress-log.md ("Progress step 4"), once for each test email.
+
+### 13.4 Database size (SQL editor)
+
+```sql
+-- Each progress table: rows, users with rows, and its size with indexes (and TOAST).
+select 'exercise_results' as table_name, count(*) as row_count, count(distinct user_id) as users,
+       pg_size_pretty(pg_total_relation_size('public.exercise_results')) as total_with_indexes,
+       pg_size_pretty(pg_indexes_size('public.exercise_results')) as indexes_only
+  from public.exercise_results
+union all
+select 'lesson_progress', count(*), count(distinct user_id),
+       pg_size_pretty(pg_total_relation_size('public.lesson_progress')),
+       pg_size_pretty(pg_indexes_size('public.lesson_progress'))
+  from public.lesson_progress
+union all
+select 'writing_task_progress', count(*), count(distinct user_id),
+       pg_size_pretty(pg_total_relation_size('public.writing_task_progress')),
+       pg_size_pretty(pg_indexes_size('public.writing_task_progress'))
+  from public.writing_task_progress;
+
+-- Average size per user with any progress (all three tables together). With only a few users the
+-- tables' fixed minimum size (a few pages each) dominates, so read this once there are real users.
+with users as (
+  select user_id from public.exercise_results
+  union select user_id from public.lesson_progress
+  union select user_id from public.writing_task_progress
+)
+select count(*) as users_with_progress,
+       pg_size_pretty((pg_total_relation_size('public.exercise_results')
+                     + pg_total_relation_size('public.lesson_progress')
+                     + pg_total_relation_size('public.writing_task_progress')) / nullif(count(*), 0)) as average_per_user
+  from users;
+
+-- The whole database, against the free plan's 500 MB.
+select pg_size_pretty(pg_database_size(current_database())) as database_size;
+```
+
+Compare with section 4's estimates: about 70 KB for a learner who has done 20 lessons, and about 1.35 MB for one who has done everything.

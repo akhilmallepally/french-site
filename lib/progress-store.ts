@@ -40,6 +40,7 @@ import {
   type OutboxEntry,
 } from "./progress-outbox.ts";
 import type { Rejection, SyncItem } from "./progress-validate.ts";
+import { storedSessionUserId } from "./supabase-session-cookie.ts";
 
 // ---------- Injected environment ----------
 
@@ -151,12 +152,14 @@ export class SupabaseProgressStore implements ProgressStore {
   private readonly actions: SyncActions;
   private readonly env: StoreEnv;
   private readonly onWrongUser: () => void;
+  private readonly onSignedOut: () => void;
 
-  constructor(userId: string, actions: SyncActions, env: StoreEnv, onWrongUser: () => void = () => {}) {
+  constructor(userId: string, actions: SyncActions, env: StoreEnv, onWrongUser: () => void = () => {}, onSignedOut: () => void = () => {}) {
     this.userId = userId;
     this.actions = actions;
     this.env = env;
     this.onWrongUser = onWrongUser;
+    this.onSignedOut = onSignedOut;
   }
 
   // ----- storage (writes only inside withOutboxLock) -----
@@ -282,6 +285,8 @@ export class SupabaseProgressStore implements ProgressStore {
         } else if (isObj(reply) && reply.status === "wrong-user") {
           this.stop();
           this.onWrongUser();
+        } else if (isObj(reply) && reply.status === "signed-out") {
+          this.onSignedOut(); // the server has no session for us: maybe it expired
         }
       } catch {
         // Offline or Supabase down: the cache stays as it is.
@@ -459,7 +464,8 @@ export class SupabaseProgressStore implements ProgressStore {
       this.pause(`invalid payload (${String(reply.code)})`);
       return "stop";
     }
-    this.retryLater(); // "unavailable", "signed-out" (an expired session) or anything else
+    if (reply.status === "signed-out") this.onSignedOut(); // maybe the session expired: the facade checks
+    this.retryLater(); // "unavailable", "signed-out" or anything else: everything stays, sent later
     return "stop";
   }
 
@@ -584,11 +590,21 @@ export class SupabaseProgressStore implements ProgressStore {
 // ---------- The facade ----------
 
 export type Wiring = {
-  auth: { getUserId(): Promise<string | null>; onChange(callback: (userId: string | null) => void): void };
+  auth: {
+    /** The browser's session (no network unless a token needs refreshing). */
+    getUserId(): Promise<string | null>;
+    /** The user the auth server confirms (network). null: no valid session. Throws when it can't tell. */
+    verifyUserId(): Promise<string | null>;
+    onChange(callback: (userId: string | null) => void): void;
+  };
   actions: SyncActions;
 };
 
-export type FacadeEnv = StoreEnv & { on(event: "online" | "visible", callback: () => void): void };
+export type FacadeEnv = StoreEnv & {
+  on(event: "online" | "visible", callback: () => void): void;
+  /** The user of a stored, unexpired Supabase session, read synchronously (no client, no network). */
+  storedSessionUser(): string | null;
+};
 
 /**
  * Picks the store: the synced store for the signed-in user, the local store otherwise. Created
@@ -641,9 +657,25 @@ export class SyncFacade implements ProgressStore {
   private earlyData(): ProgressData | null {
     if (this.initDone) return null;
     void this.ensureInit();
-    const hint = this.hintedUser();
+    const hint = this.trustedHint();
     if (!hint) return null; // answer from the local store
     return readCachedProgress(this.envNow().storage, hint) ?? emptyData();
+  }
+
+  /**
+   * The last user, but only while the browser still holds an unexpired session for that same user.
+   * Otherwise (expired, signed out elsewhere, another visitor) nobody: signed-out progress shows.
+   */
+  private trustedHint(): string | null {
+    const hint = this.hintedUser();
+    if (!hint) return null;
+    let stored: string | null = null;
+    try {
+      stored = this.envNow().storedSessionUser();
+    } catch {
+      stored = null;
+    }
+    return stored === hint ? hint : null;
   }
 
   private ensureInit(): Promise<void> {
@@ -693,7 +725,7 @@ export class SyncFacade implements ProgressStore {
       // Storage blocked: early reads just use the local store.
     }
     if (userId) {
-      const store = new SupabaseProgressStore(userId, this.wiring.actions, this.env, () => void this.recheck());
+      const store = new SupabaseProgressStore(userId, this.wiring.actions, this.env, () => void this.recheck(), () => void this.verifySession());
       this.remote = store;
       this.unsubscribeRemote = store.subscribe(() => this.notify());
       // On every selection: a sign-in event, or a page load while already signed in.
@@ -715,6 +747,29 @@ export class SyncFacade implements ProgressStore {
     } catch {
       // Storage blocked: nothing was cached either.
     }
+  }
+
+  private verifying: Promise<void> | null = null;
+
+  /**
+   * The server answered "signed-out" for the current account. Ask the auth server: if the session
+   * is really gone (expired or invalid), do exactly what a sign-out does (this account's synced copy
+   * is deleted; its unsent outbox stays for that account only). If it can't tell (offline), keep
+   * everything; the store retries later.
+   */
+  private verifySession(): Promise<void> {
+    this.verifying ??= (async () => {
+      try {
+        if (!this.wiring || !this.remote) return;
+        const confirmed = await this.wiring.auth.verifyUserId();
+        if (confirmed !== this.remote?.userId) await this.select(confirmed);
+      } catch {
+        // Couldn't reach the auth server: nothing changes.
+      } finally {
+        this.verifying = null;
+      }
+    })();
+    return this.verifying;
   }
 
   /** The server says another user is signed in: read the browser session again and follow it. */
@@ -759,7 +814,7 @@ export class SyncFacade implements ProgressStore {
   async mode(): Promise<ProgressMode> {
     if (!this.initDone) {
       void this.ensureInit();
-      return this.hintedUser() ? "account" : "browser-signed-out";
+      return this.trustedHint() ? "account" : "browser-signed-out";
     }
     return this.remote ? "account" : "browser-signed-out";
   }
@@ -814,6 +869,8 @@ export function browserEnv(): FacadeEnv {
       if (event === "online") window.addEventListener("online", callback);
       else document.addEventListener("visibilitychange", () => document.visibilityState === "visible" && callback());
     },
+    // Written out in full so Next.js inlines it.
+    storedSessionUser: () => storedSessionUserId(document.cookie, process.env.NEXT_PUBLIC_SUPABASE_URL, Date.now()),
   };
 }
 

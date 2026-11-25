@@ -253,6 +253,12 @@ for (const next of ["//evil.com", "https://evil.com", "/\\evil.com"]) {
   record("callback redirect stays same-origin", ok, `next=${next} -> ${r.status} ${r.location}`);
 }
 
+// The header's Progress link is on every kind of page (one header markup for every screen size).
+for (const pagePath of ["/", "/lessons", "/lessons/a1", free[0]?.path, gated[0]?.path, "/pricing", "/progress", "/privacy"].filter(Boolean)) {
+  const r = await get(BASE_URL + pagePath);
+  record("header has the Progress link", r.status === 200 && /<a[^>]*href="\/progress"[^>]*>Progress<\/a>/.test(r.text), `${pagePath} status ${r.status}`);
+}
+
 // /progress: personal, so never indexed.
 {
   const r = await get(BASE_URL + "/progress");
