@@ -149,3 +149,10 @@
 - **Paywall and sign-in panel:** the paywall uses the shared PriceRow (founder price, struck standard price, badge, founder line, or the standard price alone) and the same disabled button and message. The sign-in panel shows the live price or none. No hard-coded prices are left: public/llms.txt now reads "A founding price for early learners, then the standard price; see https://frenchproperly.com/pricing".
 - **Test:** new `npm run test:checkout` (lib/pricing-offer.test.ts, 10/10). A pricing read failure calls the provider zero times, founder and standard states charge 800 and 1200, live prices are passed through, and a mismatched page price is refused.
 - **Checks:** run on a fresh server after stopping orphans, all pass. test:gating, test:webhook (70/70), test:no-supabase-env (16 PASS), tsc and build, with an unchanged route table.
+
+## Home and header links to /pricing (Prompt 57)
+
+- **Changed:** the "Clear lessons" card (app/page.tsx) and the header "Lessons" link (app/layout.tsx) now go to /pricing. The label, component and styles are unchanged. The header has no active-link style, so nothing else needed changing.
+- **Left as they are:** /lessons links in the level-page and lesson-page breadcrumbs (app/lessons/[level]/page.tsx, app/lessons/[level]/[slug]/page.tsx) and the "browse lessons" link in components/checkout-poller.tsx. Also unchanged: the /lessons/a1 links ("Try a free lesson", "Start Free Lessons"), the /lessons/b1 links after purchase (checkout success, checkout poller, the already-entitled redirect, "Continue Learning"), level and lesson links built in lib/lessons.ts, sitemap.ts and public/llms.txt.
+- **Sitemap, llms.txt, metadata:** none describes the header link. llms.txt's "Lessons Directory" entry points at /lessons itself, which still works, so nothing changed.
+- **Checks:** validate:content, test:safe-next (7/7), build (route table unchanged) and test:gating pass, on a fresh server after stopping orphans. /lessons, /lessons/a1 and a free A1 lesson return 200.

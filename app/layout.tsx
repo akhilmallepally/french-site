@@ -38,7 +38,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </Link>
 
             <div className="flex items-center gap-3 sm:gap-6">
-              <Link href="/lessons" className="text-sm font-medium text-muted transition-colors hover:text-accent">
+              <Link href="/pricing" className="text-sm font-medium text-muted transition-colors hover:text-accent">
                 Lessons
               </Link>
               <Link href="/pricing" className="text-sm font-medium text-muted transition-colors hover:text-accent">

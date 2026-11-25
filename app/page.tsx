@@ -2,7 +2,7 @@ import Link from "next/link";
 
 // Only "Clear lessons" is a link; the other two cards describe features and aren't clickable.
 const features: { title: string; body: string; href?: string }[] = [
-  { title: "Clear lessons", body: "Short, focused lessons with vocab tables and real examples. No fluff.", href: "/lessons" },
+  { title: "Clear lessons", body: "Short, focused lessons with vocab tables and real examples. No fluff.", href: "/pricing" },
   { title: "Smart practice", body: "Exercises that target exactly what you just learned." },
   { title: "Daily review", body: "Spaced repetition brings words back right before you forget them." },
 ];
