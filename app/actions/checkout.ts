@@ -1,6 +1,6 @@
 "use server";
 
-import { getCurrentUser } from "@/lib/auth";
+import { getCurrentUser } from "@/lib/current-user";
 import { getPaymentProvider } from "@/lib/payments/provider";
 import { signMetadata } from "@/lib/payments/config";
 import type { ProductKey } from "@/lib/payments/types";

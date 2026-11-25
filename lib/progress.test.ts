@@ -72,6 +72,19 @@ describe("local store: legacy data", () => {
   });
 });
 
+describe("local store: lesson keys", () => {
+  test("lessons that share a slug keep separate records, keyed by lesson id", async () => {
+    await progressStore.recordRun("a2-review-work", 12, 12);
+    await progressStore.recordRun("b1-review-work", 3, 14);
+    await progressStore.recordRun("b2-review-work", 16, 16);
+    const { lessons } = await progressStore.getAll();
+    assert.deepEqual(Object.keys(lessons).sort(), ["a2-review-work", "b1-review-work", "b2-review-work"]);
+    assert.equal(lessons["a2-review-work"].bestScore, 12);
+    assert.equal(lessons["b1-review-work"].bestScore, 3);
+    assert.equal("review-work" in lessons, false, "nothing is stored under the slug");
+  });
+});
+
 describe("local store: completedAt", () => {
   test("set by the first passing run and never moved later", async () => {
     const first = await progressStore.recordRun("b1-x", 4, 5);
