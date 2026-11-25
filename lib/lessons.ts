@@ -8,7 +8,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { sameWords } from "./check-answer.ts";
-import { B2_EXERCISE_TYPES, EXERCISE_TYPES, OPTION_TYPES, type Exercise, type ExerciseType, type VocabItem } from "./types.ts";
+import { B2_EXERCISE_TYPES, EXERCISE_TYPES, OPTION_TYPES, UNGRADED_TYPES, type Exercise, type ExerciseType, type VocabItem } from "./types.ts";
 
 export { EXERCISE_TYPES };
 export type { Exercise, ExerciseType, VocabItem };
@@ -393,9 +393,54 @@ export function computeConnections(
 
 // ---------- Site API (what pages use) ----------
 
-// The index keeps metadata only. Bodies, vocab and exercises are read from disk again by
-// loadLessonFull, so nothing but metadata is held for the shell.
-type ContentIndex = { lessons: LessonMeta[]; fileById: Map<string, { folder: string; slug: string }>; planned: PlannedLesson[] };
+// ---------- Progress index (docs/plans/progress.md, step 2) ----------
+
+/**
+ * Every lesson's level, unit and exercise ids, for validating progress writes (server, step 3) and
+ * for the dashboard later. Keyed by lesson id, which is permanent (slugs can change, and 8 repeat
+ * across levels). Lessons are in course order and exercises in file order, so the same content
+ * always gives the same index. Ids only: no prompts, answers or other lesson content.
+ */
+export type ProgressIndex = {
+  totals: { lessons: number; exercises: number; writingTasks: number };
+  lessons: Record<string, { slug: string; level: Level; unit: string; exercises: string[]; writingTask?: string }>;
+};
+
+/** The committed copy of the index (regenerate with npm run build:progress-index). Not imported by any page. */
+export const PROGRESS_INDEX_FILE = path.join(process.cwd(), "lib", "generated", "progress-index.json");
+
+export function buildProgressIndex(lessons: Lesson[]): ProgressIndex {
+  const index: ProgressIndex = { totals: { lessons: 0, exercises: 0, writingTasks: 0 }, lessons: {} };
+  for (const { meta, exercises } of [...lessons].sort((a, b) => compareLessons(a.meta, b.meta))) {
+    const graded = exercises.filter((e) => !UNGRADED_TYPES.includes(e.type)).map((e) => e.id);
+    const writing = exercises.find((e) => e.type === "writing-task")?.id;
+    index.lessons[meta.id] = {
+      slug: meta.slug,
+      level: meta.level,
+      unit: meta.unit,
+      exercises: graded,
+      ...(writing ? { writingTask: writing } : {}),
+    };
+    index.totals.lessons += 1;
+    index.totals.exercises += graded.length;
+    if (writing) index.totals.writingTasks += 1;
+  }
+  return index;
+}
+
+/** Byte-for-byte stable: two-space JSON, LF line ends, one trailing newline. */
+export function serializeProgressIndex(index: ProgressIndex): string {
+  return JSON.stringify(index, null, 2) + "\n";
+}
+
+// The index keeps metadata only (plus exercise ids, for progress). Bodies, vocab and exercises are
+// read from disk again by loadLessonFull, so no lesson content is held for the shell.
+type ContentIndex = {
+  lessons: LessonMeta[];
+  fileById: Map<string, { folder: string; slug: string }>;
+  planned: PlannedLesson[];
+  progress: ProgressIndex;
+};
 
 let cached: ContentIndex | null = null;
 
@@ -414,6 +459,7 @@ function load(): ContentIndex {
     lessons: lessons.map((l) => l.meta),
     fileById: new Map(lessons.map((l) => [l.meta.id, { folder: levelToSlug(l.meta.level), slug: l.meta.slug }])),
     planned: readSyllabus(),
+    progress: buildProgressIndex(lessons),
   };
   // Cache in production builds only, so edits show up immediately in dev.
   if (process.env.NODE_ENV === "production") cached = index;
@@ -422,6 +468,11 @@ function load(): ContentIndex {
 
 export function getAllLessons(): LessonMeta[] {
   return load().lessons;
+}
+
+/** Built from the content in load(), so it can't be stale. Server use only (it reads the disk). */
+export function getProgressIndex(): ProgressIndex {
+  return load().progress;
 }
 
 export function getLessonById(id: string): LessonMeta | null {

@@ -1,0 +1,35 @@
+{
+  "totals": {
+    "lessons": 3,
+    "exercises": 4,
+    "writingTasks": 1
+  },
+  "lessons": {
+    "a1-first": {
+      "slug": "first",
+      "level": "A1",
+      "unit": "Unit one",
+      "exercises": [
+        "a1-first-ex001",
+        "a1-first-ex002"
+      ]
+    },
+    "a1-second": {
+      "slug": "second",
+      "level": "A1",
+      "unit": "Unit two",
+      "exercises": [
+        "a1-second-ex001"
+      ]
+    },
+    "c2-writing": {
+      "slug": "writing",
+      "level": "C2",
+      "unit": "Unit",
+      "exercises": [
+        "c2-writing-ex001"
+      ],
+      "writingTask": "c2-writing-ex002"
+    }
+  }
+}

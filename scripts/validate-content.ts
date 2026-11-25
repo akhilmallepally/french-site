@@ -15,6 +15,7 @@ import {
   levelIndex,
   levelToSlug,
   parseLesson,
+  PROGRESS_INDEX_FILE,
   readLessonSources,
   readSyllabus,
   SLUG_PATTERN,
@@ -22,12 +23,28 @@ import {
   type Lesson,
   type LessonMeta,
 } from "../lib/lessons.ts";
+import { progressIndexProblem } from "./build-progress-index.ts";
 
 export const SYLLABUS_FILE = path.join(process.cwd(), "docs", "syllabus.md");
 
-export type ValidationResult = { lessonCount: number; errors: string[]; warnings: string[] };
+export type ContentTotals = { lessons: number; exercises: number; writingTasks: number };
+export type ValidationResult = { lessonCount: number; totals: ContentTotals; errors: string[]; warnings: string[] };
+export type ValidationOptions = {
+  /** Fail unless the committed progress index (lib/generated/progress-index.json) matches the lessons. */
+  progressIndexFile?: string;
+  /** Fail unless the content has exactly these totals (the real site; fixtures leave it out). */
+  expectedTotals?: ContentTotals;
+};
 
-export function validateContent(lessonsDir: string, syllabusFile: string): ValidationResult {
+/** The site's content today (docs/plans/progress.md, section 2). Change it here when lessons are added. */
+export const EXPECTED_TOTALS: ContentTotals = { lessons: 326, exercises: 4620, writingTasks: 25 };
+
+// Database limits from supabase/migrations/0006_progress_sync.sql (apply_progress).
+const MAX_LESSON_ID = 120;
+const MAX_EXERCISE_ID = 160;
+const DB_CAPS: ContentTotals = { lessons: 600, exercises: 6000, writingTasks: 200 };
+
+export function validateContent(lessonsDir: string, syllabusFile: string, options: ValidationOptions = {}): ValidationResult {
   const errors: string[] = [];
   const warnings: string[] = [];
   const planned = new Set(readSyllabus(syllabusFile).map((p) => p.id));
@@ -64,6 +81,11 @@ export function validateContent(lessonsDir: string, syllabusFile: string): Valid
     const existing = byId.get(l.id);
     if (existing) errors.push(`${fileOf.get(l)}: duplicate id "${l.id}" (also used by ${fileOf.get(existing)})`);
     else byId.set(l.id, l);
+  }
+
+  // 3b. Lesson id length: apply_progress (0006) accepts 1 to 120 characters.
+  for (const l of lessons) {
+    if (l.id.length > MAX_LESSON_ID) errors.push(`${fileOf.get(l)}: lesson id "${l.id}" is longer than ${MAX_LESSON_ID} characters (the database limit)`);
   }
 
   // 4. Duplicate order numbers within a level.
@@ -170,8 +192,14 @@ export function validateContent(lessonsDir: string, syllabusFile: string): Valid
     for (const { id, kind, suffix } of items) {
       if (!SLUG_PATTERN.test(id) || !suffix.test(id)) {
         errors.push(`${file}: ${kind} id "${id}" should look like "${l.id}${kind === "vocab" ? "-v001" : "-ex001"}"`);
+      } else if (kind === "exercise" && !id.startsWith(`${l.id}-ex`)) {
+        // Progress derives the lesson from this prefix, and apply_progress (0006) rejects any other id.
+        errors.push(`${file}: exercise id "${id}" must be "${l.id}-ex" plus digits (progress uses the prefix)`);
       } else if (!id.startsWith(`${l.id}-`)) {
         warnings.push(`${file}: ${kind} id "${id}" doesn't start with this lesson's id "${l.id}"`);
+      }
+      if (kind === "exercise" && id.length > MAX_EXERCISE_ID) {
+        errors.push(`${file}: exercise id "${id}" is longer than ${MAX_EXERCISE_ID} characters (the database limit)`);
       }
       const owner = itemOwners.get(id);
       if (owner) errors.push(`${file}: ${kind} id "${id}" is already used in ${owner}`);
@@ -216,7 +244,35 @@ export function validateContent(lessonsDir: string, syllabusFile: string): Valid
     }
   }
 
-  return { lessonCount: lessons.length, errors, warnings };
+  // 12. Progress (docs/plans/progress.md, step 2): totals, the database caps, the committed index.
+  const totals: ContentTotals = { lessons: lessons.length, exercises: 0, writingTasks: 0 };
+  for (const l of lessons) {
+    for (const e of fullOf.get(l)!.exercises) {
+      if (e.type === "writing-task") totals.writingTasks += 1;
+      else totals.exercises += 1;
+    }
+  }
+  for (const k of ["lessons", "exercises", "writingTasks"] as const) {
+    if (totals[k] >= DB_CAPS[k] * 0.8) {
+      warnings.push(`${totals[k]} ${k} is at least 80% of the per-user database cap of ${DB_CAPS[k]} (0006 apply_progress)`);
+    }
+  }
+  if (options.expectedTotals) {
+    const want = options.expectedTotals;
+    if (totals.lessons !== want.lessons || totals.exercises !== want.exercises || totals.writingTasks !== want.writingTasks) {
+      errors.push(
+        `totals changed: ${totals.lessons} lessons, ${totals.exercises} graded exercises, ${totals.writingTasks} writing tasks ` +
+          `(expected ${want.lessons}, ${want.exercises}, ${want.writingTasks}). If the change is intended, update EXPECTED_TOTALS ` +
+          `in scripts/validate-content.ts and run npm run build:progress-index.`,
+      );
+    }
+  }
+  if (options.progressIndexFile) {
+    const problem = progressIndexProblem(lessonsDir, options.progressIndexFile);
+    if (problem) errors.push(problem);
+  }
+
+  return { lessonCount: lessons.length, totals, errors, warnings };
 }
 
 // Checks the planned order in a syllabus for the given levels (e.g. ["b2"]): orders run 1..N with
@@ -260,13 +316,20 @@ export function checkSyllabusOrder(syllabusFile: string, levels: string[]): stri
 }
 
 // CLI (skipped when another script imports this file).
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const lessonsDir = path.resolve(process.argv[2] ?? CONTENT_DIR);
   const syllabusFile = path.resolve(process.argv[3] ?? SYLLABUS_FILE);
-  const { lessonCount, errors, warnings } = validateContent(lessonsDir, syllabusFile);
+  // The real content is held to its totals and its committed progress index; other folders aren't.
+  const isSiteContent = lessonsDir === path.resolve(CONTENT_DIR);
+  const { lessonCount, totals, errors, warnings } = validateContent(
+    lessonsDir,
+    syllabusFile,
+    isSiteContent ? { progressIndexFile: PROGRESS_INDEX_FILE, expectedTotals: EXPECTED_TOTALS } : {},
+  );
 
   const rel = path.relative(process.cwd(), lessonsDir) || ".";
   for (const w of warnings) console.warn(`  warning  ${w}`);
+  console.log(`Totals: ${totals.lessons} lessons, ${totals.exercises} graded exercises, ${totals.writingTasks} writing tasks.`);
   if (errors.length) {
     for (const e of errors) console.error(`  error    ${e}`);
     console.error(`\nContent check failed: ${errors.length} error(s) in ${rel}`);

@@ -14,6 +14,11 @@ export type LessonProgress = {
   bestScore: number;
   bestTotal: number;
   lastCompletedAt: string; // ISO timestamp of the last full run
+  /**
+   * When the lesson was first completed (a run reached the pass mark). Only ever moves earlier.
+   * Optional: records saved before it existed don't have it, and it is never invented on load.
+   */
+  completedAt?: string;
 };
 
 /**
@@ -50,6 +55,19 @@ const COMPLETED_AT = 0.8;
 
 export function isCompleted(lesson: LessonProgress | null | undefined): boolean {
   return !!lesson && lesson.bestTotal > 0 && lesson.bestScore / lesson.bestTotal >= COMPLETED_AT;
+}
+
+/**
+ * The first-completion time after a run at `now`. Kept once set: runs only happen later, so it
+ * never moves later. A record saved before completedAt existed whose best already passed keeps its
+ * last run time, about to be overwritten, as the completion date: the lesson was already complete
+ * then. That's the same date the import rule uses for old records (docs/plans/progress.md,
+ * section 8), and it's never a made-up time. Otherwise it's this run's time if this run passes.
+ */
+function firstCompletion(previous: LessonProgress | undefined, score: number, total: number, now: string): string | undefined {
+  if (previous?.completedAt) return previous.completedAt;
+  if (previous && isCompleted(previous)) return previous.lastCompletedAt;
+  return isCompleted({ bestScore: score, bestTotal: total, lastCompletedAt: now }) ? now : undefined;
 }
 
 const STORAGE_KEY = "parlons-progress-v1";
@@ -94,11 +112,14 @@ class LocalProgressStore implements ProgressStore {
     const data = read();
     const previous = data.lessons[lessonId];
     const beatsBest = !previous || score / total > previous.bestScore / previous.bestTotal;
+    const now = new Date().toISOString();
     const updated: LessonProgress = {
       bestScore: beatsBest ? score : previous.bestScore,
       bestTotal: beatsBest ? total : previous.bestTotal,
-      lastCompletedAt: new Date().toISOString(),
+      lastCompletedAt: now,
     };
+    const completedAt = firstCompletion(previous, score, total, now);
+    if (completedAt) updated.completedAt = completedAt;
     data.lessons[lessonId] = updated;
     write(data);
     return updated;
