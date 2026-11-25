@@ -268,3 +268,16 @@
   delete from public.lesson_progress       where user_id = (select id from auth.users where email = 'progress-test@example.com');
   delete from public.writing_task_progress where user_id = (select id from auth.users where email = 'progress-test@example.com');
   ```
+
+## Production smoke test of progress sync (Prompt 65)
+
+- **New:** e2e/production-smoke.spec.ts, playwright.prod.config.ts (Chromium against https://frenchproperly.com, no local server) and `npm run test:prod-smoke` (credentials from .env.local). The local e2e config now ignores the smoke spec. No app code changed.
+- **What the test does:** signs in as the test account, deletes its own rows first (own-row delete policy, never the service role), then runs the seven steps. It logs console errors, failed requests and every server-action response.
+- **Result (26 November 2026): FAIL at step 4.**
+  - 1 PASS: signed in, answered the set, "Best score 3 / 11" (a partial score).
+  - 2 PASS: the score survived a refresh.
+  - 3 PASS: /progress lists the lesson under "Started, not finished", and every level shows its unit names (A1 6, A2 8, B1 9, B2 8, C1 8, C2 8).
+  - 4 FAIL: no exercise rows for the lesson after 30 s. No server action was called at all: the run's network log has no `Next-Action` request (only two aborted prefetches).
+  - 5 to 7: not run (the test stops at the first failure).
+- **Cause, seen in the deployed JavaScript:** the progress module was compiled with the flag set to `"no"` (`flag:"no"`), so `progressStore` is the browser-only store and nothing is synced. The bundle has the Prompt 64 code (`parlons-progress-v1:local:`), so it's the latest code but built without the flag on. Steps 2 and 3 passed because that store now keeps the signed-in learner's practice under the account. Production Vercel's `NEXT_PUBLIC_PROGRESS_SYNC` must be exactly `on` when the build runs (it's inlined at build), so redeploy after setting it, without reusing the previous build.
+- **Cleanup:** nothing to remove on the server. The pre-run own-row delete cleared earlier test rows, and this run wrote none. The browser data lived in throwaway contexts.
