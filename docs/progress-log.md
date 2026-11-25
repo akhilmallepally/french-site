@@ -337,3 +337,22 @@
   - test:no-supabase-env: /practice shows the new wording.
   - test:webhook: its module hook now resolves `next/cache`.
 - **Checks:** all pass. validate:content, test:content, test:checker (36), test:progress (140), tsc, build, test:no-supabase-env (22 PASS), test:gating on a fresh server, test:webhook (70), test:checkout (23), test:safe-next (7). test:progress-e2e and test:prod-smoke were not run, as asked.
+
+## Daily review plan (Prompt 68), plan only
+
+- **New:** docs/plans/review.md. No code, migration or content changed.
+- **Audit:**
+  - saved_vocab is unused by any code or UI. It has user_id, vocab_id, lesson_id and saved_at, with primary key (user_id, vocab_id), and RLS that allows reading, inserting and deleting your own rows, with no update.
+  - Vocab lives in lesson frontmatter (`{ id, fr, pron, en, group?, note? }`), rendered by `<VocabTable>`. Gender comes from the article in `fr`, except 190 `l'` entries. 756 entries hold variants.
+  - 5,228 items (A1 805, A2 663, B1 868, B2 1,028, C1 902, C2 962). Without the 373 glossary entries, 4,855 are card candidates, 81 of them repeats of an earlier French entry.
+  - The ids are already explicit (`<lesson-id>-v001`), unique and validated. Only a "never removed or renamed" check is missing.
+- **Recommendations:**
+  1. Cards come automatically from lessons the learner has practised.
+  2. French → English, self-graded, with gender shown and not tested.
+  3. Leitner, 5 boxes (1, 3, 7, 16, 35 days), 10 new cards a day, at most 60 reviews a day, 20-card sessions.
+  4. A1 and A2 for everyone; paid levels with access only, with card text sent only after an access check; signed-out cards stay in the browser.
+  5. A new `review_cards` table plus `apply_review()` (later review wins whole, a 6,000-card cap), reusing the progress outbox, facade, flag and import rules. saved_vocab is kept for a v2 manual source.
+- **Size:** about 230 B per card, about 69 KB for a typical learner and about 1.1 MB for one with every card. 1,000 typical users come to about 152 MB in total (cards, progress, and the 13 MB used now) of 500 MB.
+- **Rollout:** 6 steps: migration, content ids and validation, scheduler and local store, sync, pages, and the wrap-up with e2e and prod smoke.
+- **Open questions:** 6, in the plan's section 9.
+- **Checks:** validate:content and build pass (nothing else changed).
