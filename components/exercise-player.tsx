@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useLayoutEffect, useMemo, useRef, useState, type FormEvent, type MouseEvent } from "react";
+import { watchHashTarget } from "@/lib/hash-target";
 import { checkAnswer, checkChoice, type AnswerResult, type AnswerStatus } from "@/lib/check-answer";
 import { isCompleted, progressStore, type LessonProgress } from "@/lib/progress";
 import { isGraded, TYPED_TYPES, type Exercise, type GradedExercise, type WritingTaskExercise } from "@/lib/types";
@@ -74,6 +75,10 @@ export function ExercisePlayer({ lessonId, exercises: allExercises }: { lessonId
     setRun((current) => current ?? createRun(exercises, 1, "full"));
   }, [exercises]);
 
+  // A link to #practice (or #writing-task) lands here: on a full load, after a client-side
+  // navigation and on a same-page hash change. Focus goes to the "Practice" heading.
+  useEffect(() => watchHashTarget(["practice", "writing-task"], (id) => (id === "practice" ? "practice-heading" : undefined)), []);
+
   // The best score fills in when it's read, and again whenever the stored copy changes (the
   // server's copy arriving, an import, another account signing in).
   useEffect(() => {
@@ -109,7 +114,7 @@ export function ExercisePlayer({ lessonId, exercises: allExercises }: { lessonId
   }
 
   return (
-    <section id="practice" aria-labelledby="practice-heading" className="mt-16 border-t border-border pt-10">
+    <section id="practice" aria-labelledby="practice-heading" className="mt-16 scroll-mt-6 border-t border-border pt-10">
       <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
         <h2 id="practice-heading" className="font-serif text-3xl font-semibold tracking-tight">
           Practice

@@ -281,3 +281,29 @@
   - 5 to 7: not run (the test stops at the first failure).
 - **Cause, seen in the deployed JavaScript:** the progress module was compiled with the flag set to `"no"` (`flag:"no"`), so `progressStore` is the browser-only store and nothing is synced. The bundle has the Prompt 64 code (`parlons-progress-v1:local:`), so it's the latest code but built without the flag on. Steps 2 and 3 passed because that store now keeps the signed-in learner's practice under the account. Production Vercel's `NEXT_PUBLIC_PROGRESS_SYNC` must be exactly `on` when the build runs (it's inlined at build), so redeploy after setting it, without reusing the previous build.
 - **Cleanup:** nothing to remove on the server. The pre-run own-row delete cleared earlier test rows, and this run wrote none. The browser data lived in throwaway contexts.
+
+## /practice hub of review lessons, home Practice card, clickable units on /progress (Prompt 66)
+
+- **/practice** (app/practice/page.tsx, components/practice-levels.tsx, lib/practice.ts): an index of the 49 existing review lessons, with no new exercises.
+  - Review lessons are found by the content's own `type: review`. A level's review is the review lesson that is the level's last lesson in course order; it goes at the end of the level as "<level> level review". Every other review lesson is its unit's review.
+  - It's grouped by level, then unit, in /lessons order. Each entry shows the title, the exercise count and the learner's best (or "Not started"), and links to `<lesson>#practice`.
+  - Units with no unit review show "No review for this unit yet": A1 Getting around, A2 Everyday interactions, B1 Food, culture and wrap-up, and B2 Registers and debate (each ends with its level review instead).
+  - Levels are collapsible `<details>`. Paid levels show a "Lifetime access" lock for learners without access; it's a small Suspense slot with an access check, the same size either way, so the page is a partial prerender. Scores come from progressStore after mount, into fixed-width slots.
+  - It uses the slim list; the content index is in no client chunk. JS: 29.8 KB raw (9.2 KB gzip) for the page's own chunks, 312 KB (84.5 KB) with layout and framework entries.
+  - It's indexable, in the sitemap, and has one line in llms.txt.
+- **Anchors:**
+  - Levels are `#a1` … `#c2`, units `#<level>-<unit slug>` (for example `#a1-getting-started`), and level reviews `#<level>-level-review`.
+  - Lessons have `#practice` (the exercise section, which already existed) and `#writing-task` (C2).
+  - lib/hash-target.ts opens any closed `<details>`, scrolls the target to the top (`scroll-mt-6`; the header isn't sticky) and moves focus (the unit heading, or the "Practice" heading). It runs on a full load, after client-side navigation, and on a same-page hash change, with short retries for streamed content.
+  - Checked at 1280 px and 375 px: the target sits 24 px from the top with focus on its heading.
+  - A paid lesson's `#practice` shows the usual sign-in or paywall panel, with no exercises.
+- **Home:** the "Smart practice" card is now "Practice" ("Every unit review in one place, with your best score."), and the whole card links to /practice, like "Clear lessons". "Daily review" is unchanged.
+- **/progress:** unit names and level codes link to their /practice sections. Continue, "Started, not finished" and review links go to `#practice`; writing tasks go to `#writing-task`. A "Practice" link sits at the top. Scores are unchanged.
+- **Header:** unchanged. At 375 px the three links and "Sign in" already wrap onto a second line (nav 88 px tall), so a fourth link wouldn't fit comfortably on mobile without a menu.
+- **Tests:**
+  - lib/practice.test.ts (6): all 49 review lessons listed once and nothing else, level reviews last, every unit named and present in order, unique anchors, exercise counts and links.
+  - test:gating: /practice 200 with no paid content, every review linking to its own page, the lock shown signed out, indexable.
+  - test:no-supabase-env: /practice 200.
+  - test:progress-e2e: from /progress, "Getting started" opens /practice at the unit (open, in view, focused), and its review lands on the exercises (in view, focused).
+  - The e2e and smoke specs now find unit names whether they're links or text.
+- **Checks:** all pass. validate:content, test:content, test:checker (36), test:progress (140), test:progress-e2e (then npm run build), tsc, build (new ◐ /practice), test:no-supabase-env (22 PASS), test:gating on a fresh server, test:webhook (70), test:checkout (10), test:safe-next (7).

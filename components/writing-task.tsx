@@ -75,7 +75,7 @@ export function WritingTask({ exercise }: { exercise: WritingTaskExercise }) {
   const ids = { prompt: `${uid}-prompt`, count: `${uid}-count`, text: `${uid}-text`, model: `${uid}-model`, list: `${uid}-list` };
 
   return (
-    <section aria-labelledby={`${uid}-heading`} className="mt-10 rounded-2xl border border-border bg-card p-5 sm:p-7">
+    <section id="writing-task" aria-labelledby={`${uid}-heading`} className="mt-10 scroll-mt-6 rounded-2xl border border-border bg-card p-5 sm:p-7">
       <h3 id={`${uid}-heading`} className="font-serif text-2xl font-semibold">
         Writing task
       </h3>

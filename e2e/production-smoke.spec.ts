@@ -107,7 +107,7 @@ test("progress sync on the live site", async ({ browser, baseURL }) => {
       await expect(started.getByRole("link", { name: LESSON_TITLE })).toBeVisible({ timeout: 15_000 });
       for (const d of await page.locator("details").all()) await d.locator("summary").click();
       const units = await page.$$eval("details", (ds) =>
-        ds.map((d) => ({ level: d.querySelector("summary span")?.textContent?.trim().slice(0, 2) ?? "", names: [...d.querySelectorAll(":scope > ul > li > span:first-child")].map((s) => s.textContent ?? "") })),
+        ds.map((d) => ({ level: d.querySelector("summary span")?.textContent?.trim().slice(0, 2) ?? "", names: [...d.querySelectorAll(":scope > ul > li > :first-child")].map((s) => s.textContent ?? "") })),
       );
       expect(units.map((u) => u.level)).toEqual(["A1", "A2", "B1", "B2", "C1", "C2"]);
       for (const u of units) {

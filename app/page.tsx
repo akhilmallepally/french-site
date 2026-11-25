@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-// Only "Clear lessons" is a link; the other two cards describe features and aren't clickable.
+// "Clear lessons" and "Practice" are links; "Daily review" describes a feature and isn't clickable.
 const features: { title: string; body: string; href?: string }[] = [
   { title: "Clear lessons", body: "Short, focused lessons with vocab tables and real examples. No fluff.", href: "/pricing" },
-  { title: "Smart practice", body: "Exercises that target exactly what you just learned." },
+  { title: "Practice", body: "Every unit review in one place, with your best score.", href: "/practice" },
   { title: "Daily review", body: "Spaced repetition brings words back right before you forget them." },
 ];
 

@@ -76,13 +76,27 @@ test.describe.serial("progress sync, signed in as the test account", () => {
     await expect(page.getByRole("link", { name: /The alphabet and accents/ }).first()).toBeVisible();
     for (const d of await page.locator("details").all()) await d.locator("summary").click();
     const units = await page.$$eval("details", (ds) =>
-      ds.map((d) => ({ level: d.querySelector("summary span")?.textContent?.trim().slice(0, 2) ?? "", names: [...d.querySelectorAll(":scope > ul > li > span:first-child")].map((s) => s.textContent ?? "") })),
+      ds.map((d) => ({ level: d.querySelector("summary span")?.textContent?.trim().slice(0, 2) ?? "", names: [...d.querySelectorAll(":scope > ul > li > :first-child")].map((s) => s.textContent ?? "") })),
     );
     expect(units.map((u) => u.level)).toEqual(["A1", "A2", "B1", "B2", "C1", "C2"]);
     for (const u of units) {
       expect(u.names.length, `${u.level} units`).toBeGreaterThan(0);
       for (const n of u.names) expect(n.trim(), `a unit name in ${u.level}`).not.toBe("");
     }
+
+    // A unit name on /progress opens /practice at that unit (client-side navigation)...
+    await page.getByRole("link", { name: "Getting started", exact: true }).click();
+    await expect(page).toHaveURL(/\/practice#a1-getting-started$/);
+    const unit = page.locator("#a1-getting-started");
+    await expect(page.locator("#a1")).toHaveAttribute("open", "");
+    await expect(unit.getByRole("link")).toBeVisible();
+    await expect(unit).toBeInViewport();
+    await expect.poll(() => page.evaluate(() => document.activeElement?.id)).toBe("a1-getting-started-heading");
+    // ...and its review lands on that lesson's exercises.
+    await unit.getByRole("link").click();
+    await expect(page).toHaveURL(/\/lessons\/a1\/review-getting-started#practice$/);
+    await expect(page.locator("#practice")).toBeInViewport();
+    await expect.poll(() => page.evaluate(() => document.activeElement?.id)).toBe("practice-heading");
 
     // The row is in Supabase (sent within a few seconds of the last answer).
     await expect

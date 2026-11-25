@@ -26,6 +26,7 @@ French Properly provides clear, grammar-first explanations, vocabulary tables, c
 
 - [Home](https://frenchproperly.com): Platform overview and introductory curriculum.
 - [Lessons Directory](https://frenchproperly.com/lessons): Complete curriculum catalog and lesson index.
+- [Practice](https://frenchproperly.com/practice): Every unit review and level review in one place, grouped by level and unit, with links to each review's exercises.
 - [Pricing](https://frenchproperly.com/pricing): Lifetime access pricing, founding member offer, and details.
 - [Level A1 Beginner](https://frenchproperly.com/lessons/a1): Free A1 lessons directory.
 - [Level A2 Elementary](https://frenchproperly.com/lessons/a2): Free A2 lessons directory.

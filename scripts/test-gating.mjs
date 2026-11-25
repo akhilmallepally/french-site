@@ -87,7 +87,7 @@ function readLessons() {
     for (const file of fs.readdirSync(dir).filter((f) => f.endsWith(".mdx"))) {
       const { data, content } = matter(fs.readFileSync(path.join(dir, file), "utf8"));
       const slug = file.replace(/\.mdx$/, "");
-      out.push({ folder, slug, path: `/lessons/${folder}/${slug}`, marker: markerFrom(content), answer: answerFrom(data.exercises) });
+      out.push({ folder, slug, type: data.type, path: `/lessons/${folder}/${slug}`, marker: markerFrom(content), answer: answerFrom(data.exercises) });
     }
   }
   return out;
@@ -231,7 +231,7 @@ for (const l of free.filter((_, i) => i % step === 0).slice(0, 8)) {
 }
 
 // Public pages: /pricing, /terms, /refund and /progress must return 200 and leak zero gated lesson markers/answers.
-for (const pagePath of ["/pricing", "/terms", "/refund", "/progress"]) {
+for (const pagePath of ["/pricing", "/terms", "/refund", "/progress", "/practice"]) {
   const r = await get(BASE_URL + pagePath);
   record("public page returns 200", r.status === 200, `${pagePath} status ${r.status}`);
   const leaked = [];
@@ -257,6 +257,17 @@ for (const next of ["//evil.com", "https://evil.com", "/\\evil.com"]) {
 for (const pagePath of ["/", "/lessons", "/lessons/a1", free[0]?.path, gated[0]?.path, "/pricing", "/progress", "/privacy"].filter(Boolean)) {
   const r = await get(BASE_URL + pagePath);
   record("header has the Progress link", r.status === 200 && /<a[^>]*href="\/progress"[^>]*>Progress<\/a>/.test(r.text), `${pagePath} status ${r.status}`);
+}
+
+// /practice: every review lesson listed, linking to its own page (#practice); paid ones lead to the
+// usual sign-in or paywall there, and a signed-out visitor sees the lock on paid levels.
+{
+  const r = await get(BASE_URL + "/practice");
+  const reviews = [...gated, ...free].filter((l) => l.type === "review");
+  const missing = reviews.filter((l) => !r.text.includes(`href="${l.path}#practice"`)).map((l) => l.path);
+  record("/practice links every review lesson to its own page", r.status === 200 && reviews.length > 0 && missing.length === 0, `status ${r.status}, missing: ${missing.join(", ")}`);
+  record("/practice shows the lock on paid levels when signed out", (r.text.match(/Lifetime access/g) ?? []).length >= 4, `status ${r.status}`);
+  record("/practice is indexable", r.status === 200 && !/<meta name="robots" content="noindex/.test(r.text), `status ${r.status}`);
 }
 
 // /progress: personal, so never indexed.

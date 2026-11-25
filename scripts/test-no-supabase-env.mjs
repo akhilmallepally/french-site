@@ -110,6 +110,9 @@ try {
   ok(progress.status === 200 && progress.text.includes("Your progress"), `/progress -> ${progress.status} renders with no Supabase config`);
   ok(/<meta name="robots" content="noindex/.test(progress.text), "/progress is noindex");
 
+  const practice = await get("/practice");
+  ok(practice.status === 200 && practice.text.includes("No review for this unit yet"), `/practice -> ${practice.status} renders with no Supabase config`);
+
   // Progress actions with no Supabase config: each answers { status: "signed-out" } and does nothing.
   for (const [name, args] of PROGRESS_CALLS) {
     const r = await callProgressAction(BASE, name, args);

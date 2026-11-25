@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { progressStore, type ProgressData, type ProgressMode } from "@/lib/progress";
 import { summarize, type CatalogueLesson, type Summary } from "@/lib/progress-summary";
+import { levelAnchor, practiceHref, unitAnchor, writingTaskHref } from "@/lib/practice";
 
 type Loaded = { data: ProgressData; mode: ProgressMode; notice: string | null };
 
@@ -75,6 +76,12 @@ export function ProgressDashboard({ catalogue, levelNames }: { catalogue: Catalo
         </div>
       )}
 
+      <p className="mb-8 text-sm">
+        <Link href="/practice" className={`text-accent underline-offset-2 hover:underline ${linkClass}`}>
+          Practice: every unit review in one place →
+        </Link>
+      </p>
+
       {summary.empty ? <EmptyState /> : <Sections summary={summary} levelNames={levelNames} />}
     </div>
   );
@@ -100,7 +107,7 @@ function EmptyState() {
 }
 
 const sectionHeading = "font-serif text-2xl font-semibold tracking-tight";
-const linkClass = "font-medium hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
+const linkClass = "font-medium underline-offset-2 hover:text-accent hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
 
 function Sections({ summary, levelNames }: { summary: Summary; levelNames: Record<string, string> }) {
   const c = summary.continueWith;
@@ -111,7 +118,7 @@ function Sections({ summary, levelNames }: { summary: Summary; levelNames: Recor
           <h2 id="continue-heading" className={sectionHeading}>
             Continue
           </h2>
-          <Link href={c.lesson.href} className="mt-4 block rounded-2xl border border-border bg-card p-5 transition hover:border-accent/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">
+          <Link href={practiceHref(c.lesson.href)} className="mt-4 block rounded-2xl border border-border bg-card p-5 transition hover:border-accent/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">
             <span className="block font-serif text-xl font-semibold">{c.lesson.title}</span>
             <span className="mt-1 block text-sm text-muted">
               {c.lesson.level} · {c.lesson.unit} · last practised {formatDate(c.at)}
@@ -130,7 +137,10 @@ function Sections({ summary, levelNames }: { summary: Summary; levelNames: Recor
               <details className="group rounded-2xl border border-border bg-card">
                 <summary className="flex cursor-pointer list-none flex-wrap items-center justify-between gap-x-4 gap-y-2 rounded-2xl px-5 py-4 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">
                   <span className="font-semibold">
-                    {l.level} <span className="font-normal text-muted">· {levelNames[l.level]}</span>
+                    <Link href={`/practice#${levelAnchor(l.level)}`} className={linkClass}>
+                      {l.level}
+                    </Link>{" "}
+                    <span className="font-normal text-muted">· {levelNames[l.level]}</span>
                   </span>
                   <span className="flex items-center gap-3 text-sm text-muted">
                     <span className="h-2 w-28 overflow-hidden rounded-full bg-border" aria-hidden="true">
@@ -142,7 +152,9 @@ function Sections({ summary, levelNames }: { summary: Summary; levelNames: Recor
                 <ul className="border-t border-border px-5 py-3 text-sm">
                   {l.units.map((u) => (
                     <li key={u.name} className="flex justify-between gap-4 py-1">
-                      <span>{u.name}</span>
+                      <Link href={`/practice#${unitAnchor(l.level, u.name)}`} className={linkClass}>
+                        {u.name}
+                      </Link>
                       <span className="shrink-0 text-muted tabular-nums">
                         {u.completed} / {u.total}
                       </span>
@@ -163,7 +175,7 @@ function Sections({ summary, levelNames }: { summary: Summary; levelNames: Recor
           <ul className="mt-4 divide-y divide-border rounded-2xl border border-border bg-card">
             {summary.started.map((s) => (
               <li key={s.lesson.id} className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 px-5 py-3">
-                <Link href={s.lesson.href} className={linkClass}>
+                <Link href={practiceHref(s.lesson.href)} className={linkClass}>
                   {s.lesson.title}
                 </Link>
                 <span className="text-sm text-muted">
@@ -183,7 +195,7 @@ function Sections({ summary, levelNames }: { summary: Summary; levelNames: Recor
           <ul className="mt-4 divide-y divide-border rounded-2xl border border-border bg-card">
             {summary.review.map((r) => (
               <li key={r.lesson.id} className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 px-5 py-3">
-                <Link href={r.lesson.href} className={linkClass}>
+                <Link href={practiceHref(r.lesson.href)} className={linkClass}>
                   {r.lesson.title}
                 </Link>
                 <span className="text-sm text-muted">{r.reason === "unfinished" ? "Not finished yet" : "The rest of the unit is done"}</span>
@@ -207,7 +219,7 @@ function Sections({ summary, levelNames }: { summary: Summary; levelNames: Recor
                 .filter((t) => t.done)
                 .map((t) => (
                   <li key={t.lesson.id} className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 px-5 py-3">
-                    <Link href={t.lesson.href} className={linkClass}>
+                    <Link href={writingTaskHref(t.lesson.href)} className={linkClass}>
                       {t.lesson.title}
                     </Link>
                     <span className="text-sm text-muted">Done {t.doneAt ? formatDate(t.doneAt) : ""}</span>
