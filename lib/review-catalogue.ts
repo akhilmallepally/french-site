@@ -198,6 +198,34 @@ export function checkCards(cards: ReviewCard[]): string[] {
   return problems;
 }
 
+// ---------- The id index (no card text; safe for client code) ----------
+
+/**
+ * Per lesson, in course order: its level, the cards it owns (the part after "<lessonId>-", e.g.
+ * "v001") and, under `joins`, other lessons' cards that one of its entries merged into. Practising
+ * a lesson adds both to the deck. A card's level is its own lesson's level.
+ */
+export type ReviewIdIndex = { lessons: Record<string, { level: Level; cards: string[]; joins?: string[] }> };
+
+export function buildIdIndex(lessons: Lesson[], cards: ReviewCard[]): ReviewIdIndex {
+  const own = new Map<string, string[]>();
+  const joins = new Map<string, string[]>();
+  for (const c of cards) {
+    own.set(c.lessonId, [...(own.get(c.lessonId) ?? []), c.id.slice(c.lessonId.length + 1)]);
+    for (const v of c.vocabIds) {
+      const lessonId = v.replace(/-v\d+$/, "");
+      if (lessonId !== c.lessonId && !(joins.get(lessonId) ?? []).includes(c.id)) joins.set(lessonId, [...(joins.get(lessonId) ?? []), c.id]);
+    }
+  }
+  const index: ReviewIdIndex = { lessons: {} };
+  for (const { meta } of [...lessons].sort((a, b) => compareLessons(a.meta, b.meta))) {
+    const o = own.get(meta.id) ?? [];
+    const j = joins.get(meta.id);
+    if (o.length || j) index.lessons[meta.id] = { level: meta.level, cards: o, ...(j ? { joins: j } : {}) };
+  }
+  return index;
+}
+
 // ---------- Committed file text (byte-identical across runs) ----------
 
 /** One card per line, LF line ends, one trailing newline. */
@@ -211,5 +239,11 @@ export function serializeCards(access: "free" | "paid", cards: ReviewCard[]): st
 /** One lesson per line, in course order. */
 export function serializePublished(p: PublishedIds): string {
   const rows = Object.entries(p.lessons).map(([id, l]) => `    ${JSON.stringify(id)}: ${JSON.stringify(l)}`);
+  return `{\n  "lessons": {${rows.length ? `\n${rows.join(",\n")}\n  ` : ""}}\n}\n`;
+}
+
+/** One lesson per line, in course order. */
+export function serializeIdIndex(index: ReviewIdIndex): string {
+  const rows = Object.entries(index.lessons).map(([id, l]) => `    ${JSON.stringify(id)}: ${JSON.stringify(l)}`);
   return `{\n  "lessons": {${rows.length ? `\n${rows.join(",\n")}\n  ` : ""}}\n}\n`;
 }

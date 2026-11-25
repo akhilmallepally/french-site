@@ -32,9 +32,9 @@ const card = (cards: ReviewCard[], id: string) => cards.find((c) => c.id === id)
 function builtCopy(edit?: (dir: string) => void): { dir: string; files: ReviewFiles } {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), "review-cards-"));
   fs.cpSync(lessonsDir, path.join(dir, "lessons"), { recursive: true });
-  const files = { free: path.join(dir, "free.json"), paid: path.join(dir, "paid.json"), published: path.join(dir, "published.json") };
+  const files = { free: path.join(dir, "free.json"), paid: path.join(dir, "paid.json"), published: path.join(dir, "published.json"), ids: path.join(dir, "ids.json") };
   const build = buildReviewFiles(readLessons(path.join(dir, "lessons")), files.published);
-  for (const k of ["free", "paid", "published"] as const) fs.writeFileSync(files[k], build.texts[k]);
+  for (const k of ["free", "paid", "published", "ids"] as const) fs.writeFileSync(files[k], build.texts[k]);
   edit?.(path.join(dir, "lessons"));
   return { dir: path.join(dir, "lessons"), files };
 }
@@ -203,7 +203,7 @@ describe("paid card text stays on the server", () => {
       const rel = path.join(dir, e.name);
       if (e.isDirectory()) {
         if (rel !== path.join("lib", "generated")) out.push(...sources(rel));
-      } else if (/\.(tsx?|jsx?|mjs|cjs|json)$/.test(e.name)) out.push(rel);
+      } else if (/\.(tsx?|jsx?|mjs|cjs|json)$/.test(e.name) && !/\.test\.tsx?$/.test(e.name)) out.push(rel);
     }
     return out;
   }

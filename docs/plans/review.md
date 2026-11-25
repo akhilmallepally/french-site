@@ -1,6 +1,6 @@
 # Daily review: plan
 
-Status: decisions recorded (Prompt 69, section 9). Rollout step 1, migration 0008, is written (supabase/migrations/0008_review_cards.sql). Step 2 is done (Prompt 70): the card catalogue in lib/generated/review-cards-free.json (A1, A2) and review-cards-paid.json (B1 to C2, server-only through lib/review-cards-server.ts), the published ids in lib/generated/review-published-ids.json, built by `npm run build:review-cards` and checked by validate:content and `npm run test:review`. No pages or store yet.
+Status: decisions recorded (Prompt 69, section 9). Rollout step 1, migration 0008, is written (supabase/migrations/0008_review_cards.sql). Step 2 is done (Prompt 70): the card catalogue in lib/generated/review-cards-free.json (A1, A2) and review-cards-paid.json (B1 to C2, server-only through lib/review-cards-server.ts), the published ids in lib/generated/review-published-ids.json, built by `npm run build:review-cards` and checked by validate:content and `npm run test:review`. Step 3 is done (Prompt 71): the scheduler and the local store (section 10), and the rules for later steps (section 11). No UI or sync yet.
 
 Goal: a `/review` page with a short daily session of spaced-repetition vocabulary cards, which turns the home "Daily review" card into a link. v1 stays simple.
 
@@ -159,3 +159,46 @@ Goal: a `/review` page with a short daily session of spaced-repetition vocabular
 5. **Limits:** 10 new cards a day, at most 60 reviews a day, 20 cards per session, and a "Do another 20" button while more cards are due.
 6. **Format:** French → English only, self-graded ("I knew it" / "Not yet"). "Not yet" sends the card back to box 1. The Leitner intervals are 1, 3, 7, 16 and 35 days.
 7. **Empty state on /review:** "Practise a lesson to add its words to your review.", with a link to /practice.
+
+## 10. As built in step 3 (Prompt 71)
+
+- **lib/review-scheduler.ts** (pure) and **lib/review-store.ts** (localStorage), tested in `npm run test:review`.
+- **Choices where the plan was silent:**
+  - A new card (box 0) goes to box 1 on its first answer, whether it's "I knew it" or "Not yet", so it comes back tomorrow either way. A first "Not yet" isn't counted as a lapse, because the card was never known. Later "Not yet" answers send it to box 1 and count a lapse.
+  - A "Not yet" card comes back once at the end of the same session (section 3). That repeat is practice only: it doesn't change the schedule or count towards the limits, and a second "Not yet" doesn't requeue it again.
+- **Days:**
+  - Days are the device time zone's calendar days. A card is due when its due time falls on or before the end of today.
+  - The next due time is the start of the local day `interval` days after today, by calendar (not +24 h). This holds across daylight-saving changes, including zones where midnight is skipped.
+  - The limits (10 new, 60 reviews) count distinct cards answered per local day, kept in the store's daily log. Cards from earlier batches that haven't been answered yet count too.
+  - Moving to another time zone moves the day boundaries. A due time set in Paris can fall on the previous day in New York, so a card may come up a day early.
+- **Device clock:**
+  - Review times are the device's now, never more than 24 hours ahead of it.
+  - If the clock went backwards since the last answer, the review time is 1 ms after the stored one, so the new answer still wins the merge.
+  - A clock running more than 24 hours fast gives times that 0008 rejects (future_time) when sync arrives in step 4. A clock up to 24 hours fast is accepted and can win over a correct device's answers for that long. A slow clock makes reviews look older, so they can lose to another device's answer, and makes due cards come up early.
+- **Daily log:** it's local per device and per key, not synced, so two devices can each allow the daily limits. That's acceptable for v1.
+- **Deck:**
+  - Practising a lesson (an answered exercise or a finished run) adds its cards, plus the cards its entries joined in other lessons.
+  - The adding uses lib/generated/review-card-ids.json (ids and levels by lesson, no text, 52 KB), built with the catalogue.
+  - Paid cards join only with access, and never appear in a session without access, even when their state exists.
+- **Merging, compared with 0008:**
+  - `applyReview` is apply_review's rule.
+  - `mergeReview` is the same except on an exact tie of lastReviewedAt: the higher box wins, then the later due time. 0008 keeps the stored row there.
+  - Neither validates. apply_review's id, box, count and time checks (and their codes) stay on the server, and the store drops invalid entries when loading.
+  - Times are compared in milliseconds, which is what the client sends. Postgres keeps microseconds, so equal times compare equal on both sides.
+  - lesson_id and created_at aren't part of the client state: the lesson is the card id's prefix.
+- **Local store:**
+  - The signed-out key is `parlons-review-v1`; a signed-in learner's is `parlons-review-v1:local:<userId>`, with the owner inside the value.
+  - Reads merge the signed-out cards with the account's own, as progress does.
+  - Saved as `[box, dueMs, lastMs, reviews, lapses]` per card, grouped by lesson, with no card text.
+
+## 11. Rules for later steps (Prompt 71)
+
+- **Card text is never bundled whole.**
+  - /review fetches the text of only the cards in the current session.
+  - Free cards come from a per-lesson or per-session source. Paid cards come from a server action after the access check.
+  - Neither review-cards-free.json nor review-cards-paid.json is imported by client code. Only lib/review-cards-server.ts reads them.
+- **The no-leak guarantee is the import-graph test** (scripts/review-imports.test.ts).
+  - It walks every "use client" module in app/, components/ and lib/, and everything they import (static, re-export, dynamic, require; type-only imports are skipped, and the walk stops at "use server" actions).
+  - It fails if either card file or lib/review-cards-server.ts is reachable.
+  - The text scan of the build output (scripts/review-bundle.test.ts) stays as a backup. It also covers what an import graph can't see, such as a server component passing card text as props to a client component.
+- A server action that returns card text checks the session and the entitlement before it returns any paid card's text, and accepts at most one session's worth of ids per call (20), so no single call returns the catalogue.

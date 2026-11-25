@@ -6,8 +6,8 @@
 // server logs the missing-config warning and no errors.
 //
 // Run: npm run test:no-supabase-env   (PowerShell is fine; the script sets the variables itself)
-// It overwrites .next with a no-config build. Run `npm run build` afterwards before npm start or
-// test:gating.
+// It builds into .next with no config, then rebuilds a normal build (with .env.local) when it
+// finishes, so npm start and test:gating work straight after it.
 import { spawn, spawnSync } from "node:child_process";
 import { callProgressAction, PROGRESS_CALLS, refusedSignedOut } from "./progress-action-http.mjs";
 
@@ -129,5 +129,13 @@ try {
 }
 
 console.log(failed ? `\n${failed} check(s) failed.` : "\nAll no-config checks passed.");
-console.log("Note: .next now holds a no-config build. Run `npm run build` before npm start or test:gating.");
+
+// Put a normal build back in .next (the real environment, so .env.local applies again).
+console.log("\nRebuilding the normal build…");
+const rebuild = spawnSync("npm", ["run", "build"], { env: process.env, stdio: ["ignore", "ignore", "inherit"], shell: isWin });
+if (rebuild.status !== 0) {
+  console.error("FAIL: the normal rebuild failed. Run npm run build before npm start or test:gating.");
+  process.exit(1);
+}
+console.log(".next holds the normal build again.");
 process.exit(failed ? 1 : 0);

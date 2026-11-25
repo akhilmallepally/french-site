@@ -421,3 +421,45 @@
 - **Checks:** all pass.
   - validate:content, test:content, test:checker (36), test:review (15), test:progress (140), tsc and build (357/357).
   - test:no-supabase-env, test:gating (on a fresh build and server), test:webhook (70), test:checkout (23) and test:safe-next (7).
+
+## Daily review step 3: scheduler and local store (Prompt 71)
+
+- **lib/review-scheduler.ts** (pure):
+  - **Leitner:** boxes with intervals of 1, 3, 7, 16 and 35 days. "I knew it" moves the card up one box (box 5 stays at 5). "Not yet" sends it to box 1 and counts a lapse.
+  - **Choices where the plan was silent:**
+    - A new card (box 0) goes to box 1 on either first answer.
+    - A new card's first "Not yet" isn't a lapse.
+    - A "Not yet" card comes back once at the end of the session (plan section 3). The repeat doesn't change its schedule or count towards the limits.
+  - **Days:** the device time zone's calendar days (Intl, `calendarFor`).
+    - Due means dueAt falls on or before the end of today.
+    - The next due time is the start of the local day `interval` days on, by calendar, so it holds across daylight-saving changes and in zones where midnight is skipped.
+  - **Limits:** 10 new and 60 reviews per local day, counted as distinct cards in a daily log. Cards from an earlier batch that haven't been answered yet count too.
+  - **Sessions:** `buildSession` gives up to 20 cards: due cards first (oldest due first, then course order), then new cards in course order. Calling it again with the earlier batches excluded is "Do another 20".
+  - **Deck:** `deckAdditions` adds the cards of practised lessons (an answered exercise or a finished run), including the cards their entries joined in other lessons.
+    - Paid cards are added only with access, and `cardAllowed` keeps them out of every session without access, even when their state exists.
+    - The data is the new lib/generated/review-card-ids.json (ids and levels by lesson, no text, 52 KB), built by build:review-cards and checked by validate:content as the fourth review file.
+  - **Merge:** `applyReview` is apply_review's rule. `mergeReview` (commutative, associative and idempotent) differs only on an exact tie of lastReviewedAt: the higher box wins, then the later dueAt. Neither validates (the server's checks stay in 0008), times are compared in milliseconds, and lesson_id and created_at aren't client state.
+  - **Clock:**
+    - Review times are never more than 24 hours ahead of the device's clock.
+    - If the clock went backwards since the last answer, the review time is 1 ms after the stored one, so the answer still wins.
+    - A clock more than 24 hours fast will be rejected by 0008 (future_time) in step 4. Up to 24 hours fast is accepted and can win over correct answers for that long.
+    - A slow clock makes due cards come up early and can lose a merge.
+- **lib/review-store.ts:** a `ReviewStore` interface and `LocalReviewStore`.
+  - Signed out, cards go under `parlons-review-v1`. Signed in (a valid session from the cookie, no network), they go under `parlons-review-v1:local:<userId>`, with the owner inside the value. Reads merge in the signed-out cards, as progress does.
+  - The store keeps ids, boxes, times and counts only, packed as `[box, dueMs, lastMs, reviews, lapses]` per card, grouped by lesson. No card text.
+  - Legacy, empty, wrong-owner and broken values load as empty, and bad entries are dropped one by one. Blocked or full storage doesn't throw.
+- **Sizes in localStorage:**
+  - Every card, at worst: 232,115 characters (227 KiB).
+  - Progress for everything practised: about 646 KiB.
+  - About 873 KiB together, or about 1.5 MB if a signed-in learner also has the synced progress cache. That's well inside the usual 5 MB.
+- **Import-graph test** (scripts/review-imports.test.ts):
+  - It walks every "use client" module in app/, components/ and lib/ and everything they import (static, re-export, dynamic and require; type-only imports skipped; the walk stops at "use server" actions).
+  - It fails if review-cards-paid.json, review-cards-free.json or lib/review-cards-server.ts is reachable. A planted-graph self-test passes.
+  - Result: 8 client entries, 27 client modules, none of the three reached.
+  - The step 2 text-search test now skips test files.
+- **docs/plans/review.md:** the status line, section 10 (as built in step 3) and section 11 (the rules for later steps: only the session's card text is fetched; the import graph is the guarantee and the build text scan is the backup; the text action checks access and takes at most 20 ids).
+- **test:no-supabase-env** now rebuilds a normal build when it finishes, so test:gating runs straight after it.
+- **test:review:** 38 tests in 5 files: scheduler, store, catalogue, import graph and bundle scan.
+- **Checks:** all pass.
+  - validate:content, test:content, test:checker (36), test:review (38), test:progress (140), tsc and build (357/357).
+  - test:no-supabase-env (it ends with the normal rebuild), test:gating (on a fresh server, straight after it), test:webhook (70), test:checkout (23) and test:safe-next (7).
