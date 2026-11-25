@@ -1,6 +1,6 @@
 # Daily review: plan
 
-Status: decisions recorded (Prompt 69, section 9). Rollout step 1, migration 0008, is written (supabase/migrations/0008_review_cards.sql) but not yet run in Supabase. No app code or content has changed.
+Status: decisions recorded (Prompt 69, section 9). Rollout step 1, migration 0008, is written (supabase/migrations/0008_review_cards.sql). Step 2 is done (Prompt 70): the card catalogue in lib/generated/review-cards-free.json (A1, A2) and review-cards-paid.json (B1 to C2, server-only through lib/review-cards-server.ts), the published ids in lib/generated/review-published-ids.json, built by `npm run build:review-cards` and checked by validate:content and `npm run test:review`. No pages or store yet.
 
 Goal: a `/review` page with a short daily session of spaced-repetition vocabulary cards, which turns the home "Daily review" card into a link. v1 stays simple.
 
@@ -135,6 +135,7 @@ Goal: a `/review` page with a short daily session of spaced-repetition vocabular
 
 1. **Migration 0008:** `review_cards`, `apply_review()`, RLS and grants, rollback, rls.sql extended (own rows only, caps, idempotency, the 24-hour rule), db-setup.md. The owner runs it.
 2. **Content ids and validation:** vocab-ids.json, the stability and eligibility checks, a server-only vocab index for card text, the per-level free card JSON, and tests.
+   - As built (Prompt 70): the ids file is review-published-ids.json (vocab ids and card ids by lesson), the free cards are one file for A1 and A2 rather than one per level, and the paid cards are review-cards-paid.json, imported only by lib/review-cards-server.ts.
 3. **Scheduler and local store:** pure Leitner (lib/review-scheduler.ts) with tests (box moves, due dates in the local date, daily limits, ordering), and the local review store behind an interface like `ProgressStore`, with legacy-safe storage.
 4. **Sync:** the review entries in the outbox, the `syncReviewAction` and `getReviewAction` server actions (access-checked card text), the facade reuse, the import and local-attribution rules, tests, and check-progress-db extended.
 5. **Pages:** /review (session, summary, keyboard, mobile, no layout shift), the home card link, the due line on /progress, gating checks (paid card text never sent without access), and HTTP checks.

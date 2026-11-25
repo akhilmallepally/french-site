@@ -24,24 +24,34 @@ import {
   type LessonMeta,
 } from "../lib/lessons.ts";
 import { progressIndexProblem } from "./build-progress-index.ts";
+import { buildReviewFiles, REVIEW_FILES, REVIEW_REGENERATE_COMMAND, staleReviewFiles, type ReviewFiles } from "./build-review-cards.ts";
+import { checkCards, type ReviewTotals } from "../lib/review-catalogue.ts";
 
 export const SYLLABUS_FILE = path.join(process.cwd(), "docs", "syllabus.md");
 
 export type ContentTotals = { lessons: number; exercises: number; writingTasks: number };
-export type ValidationResult = { lessonCount: number; totals: ContentTotals; errors: string[]; warnings: string[] };
+export type ValidationResult = { lessonCount: number; totals: ContentTotals; reviewTotals: ReviewTotals; errors: string[]; warnings: string[] };
 export type ValidationOptions = {
   /** Fail unless the committed progress index (lib/generated/progress-index.json) matches the lessons. */
   progressIndexFile?: string;
   /** Fail unless the content has exactly these totals (the real site; fixtures leave it out). */
   expectedTotals?: ContentTotals;
+  /** Fail unless the committed review cards and published ids (lib/generated/review-*.json) match the lessons. */
+  reviewFiles?: ReviewFiles;
+  /** Fail unless the review catalogue has exactly these totals. */
+  expectedReviewTotals?: ReviewTotals;
 };
 
 /** The site's content today (docs/plans/progress.md, section 2). Change it here when lessons are added. */
 export const EXPECTED_TOTALS: ContentTotals = { lessons: 326, exercises: 4620, writingTasks: 25 };
 
+/** The review catalogue today (docs/plans/review.md, decision 3). Change it here when vocab is added. */
+export const EXPECTED_REVIEW_TOTALS: ReviewTotals = { vocab: 5228, eligible: 4855, cards: 4817 };
+
 // Database limits from supabase/migrations/0006_progress_sync.sql (apply_progress).
 const MAX_LESSON_ID = 120;
-const MAX_EXERCISE_ID = 160;
+// Exercise ids (0006) and vocab ids, which become card ids (0008), share the 160-character limit.
+const MAX_ITEM_ID = 160;
 const DB_CAPS: ContentTotals = { lessons: 600, exercises: 6000, writingTasks: 200 };
 
 export function validateContent(lessonsDir: string, syllabusFile: string, options: ValidationOptions = {}): ValidationResult {
@@ -198,8 +208,8 @@ export function validateContent(lessonsDir: string, syllabusFile: string, option
       } else if (!id.startsWith(`${l.id}-`)) {
         warnings.push(`${file}: ${kind} id "${id}" doesn't start with this lesson's id "${l.id}"`);
       }
-      if (kind === "exercise" && id.length > MAX_EXERCISE_ID) {
-        errors.push(`${file}: exercise id "${id}" is longer than ${MAX_EXERCISE_ID} characters (the database limit)`);
+      if (id.length > MAX_ITEM_ID) {
+        errors.push(`${file}: ${kind} id "${id}" is longer than ${MAX_ITEM_ID} characters (the database limit)`);
       }
       const owner = itemOwners.get(id);
       if (owner) errors.push(`${file}: ${kind} id "${id}" is already used in ${owner}`);
@@ -272,7 +282,32 @@ export function validateContent(lessonsDir: string, syllabusFile: string, option
     if (problem) errors.push(problem);
   }
 
-  return { lessonCount: lessons.length, totals, errors, warnings };
+  // 13. Review cards (docs/plans/review.md, step 2): 0008's id rules, the required text, the
+  //     committed catalogue, the published ids and the totals.
+  const review = buildReviewFiles([...fullOf.values()], options.reviewFiles?.published ?? "");
+  const { totals: reviewTotals } = review.catalogue;
+  for (const p of checkCards([...review.catalogue.free, ...review.catalogue.paid])) errors.push(`review cards: ${p}`);
+  if (options.reviewFiles) {
+    for (const c of review.changes) {
+      errors.push(`review ids: ${c}. Published ids are permanent: restore it (see lib/generated/review-published-ids.json).`);
+    }
+    const stale = staleReviewFiles(review, options.reviewFiles);
+    if (stale.length && !review.changes.length) {
+      errors.push(`review cards: ${stale.join(", ")} out of date with the lessons. Run: ${REVIEW_REGENERATE_COMMAND}`);
+    }
+  }
+  if (options.expectedReviewTotals) {
+    const want = options.expectedReviewTotals;
+    if (reviewTotals.vocab !== want.vocab || reviewTotals.eligible !== want.eligible || reviewTotals.cards !== want.cards) {
+      errors.push(
+        `review totals changed: ${reviewTotals.vocab} vocab items, ${reviewTotals.eligible} eligible, ${reviewTotals.cards} cards ` +
+          `(expected ${want.vocab}, ${want.eligible}, ${want.cards}). If the change is intended, update EXPECTED_REVIEW_TOTALS ` +
+          `in scripts/validate-content.ts and run ${REVIEW_REGENERATE_COMMAND}.`,
+      );
+    }
+  }
+
+  return { lessonCount: lessons.length, totals, reviewTotals, errors, warnings };
 }
 
 // Checks the planned order in a syllabus for the given levels (e.g. ["b2"]): orders run 1..N with
@@ -321,15 +356,18 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   const syllabusFile = path.resolve(process.argv[3] ?? SYLLABUS_FILE);
   // The real content is held to its totals and its committed progress index; other folders aren't.
   const isSiteContent = lessonsDir === path.resolve(CONTENT_DIR);
-  const { lessonCount, totals, errors, warnings } = validateContent(
+  const { lessonCount, totals, reviewTotals, errors, warnings } = validateContent(
     lessonsDir,
     syllabusFile,
-    isSiteContent ? { progressIndexFile: PROGRESS_INDEX_FILE, expectedTotals: EXPECTED_TOTALS } : {},
+    isSiteContent
+      ? { progressIndexFile: PROGRESS_INDEX_FILE, expectedTotals: EXPECTED_TOTALS, reviewFiles: REVIEW_FILES, expectedReviewTotals: EXPECTED_REVIEW_TOTALS }
+      : {},
   );
 
   const rel = path.relative(process.cwd(), lessonsDir) || ".";
   for (const w of warnings) console.warn(`  warning  ${w}`);
   console.log(`Totals: ${totals.lessons} lessons, ${totals.exercises} graded exercises, ${totals.writingTasks} writing tasks.`);
+  console.log(`Review: ${reviewTotals.vocab} vocab items, ${reviewTotals.eligible} eligible, ${reviewTotals.cards} cards.`);
   if (errors.length) {
     for (const e of errors) console.error(`  error    ${e}`);
     console.error(`\nContent check failed: ${errors.length} error(s) in ${rel}`);

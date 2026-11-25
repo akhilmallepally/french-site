@@ -382,3 +382,42 @@
   - own-row delete, and the cascade on account deletion. It ends in ROLLBACK.
 - **docs/db-setup.md:** the 0008 step and order, the owner's SQL-editor steps (run 0008, then rls.sql, then the Security Advisor), a review_cards size query, and the undo.
 - **Checks:** validate:content and build pass (no app or content change). The SQL hasn't been run here, since there's no local Postgres.
+
+## Daily review step 2: card catalogue, id stability and content checks (Prompt 70)
+
+- **Catalogue:** `npm run build:review-cards` (scripts/build-review-cards.ts, plain Node, works in PowerShell) builds the cards with lib/review-catalogue.ts.
+  - Glossary entries are excluded. Entries merge only when the French and the English both match after the plan's normalising.
+  - The card id is a card id already published among the matching entries, otherwise the earliest entry's vocab id in course order.
+  - Each card has: id, lessonId, level, fr, en, the optional pron, group and note, and vocabIds.
+  - Totals: 5,228 vocab items, 4,855 eligible, 4,817 cards. Two runs give byte-identical files.
+- **Files** (lib/generated/):
+  - review-cards-free.json: A1 and A2, 1,430 cards, 310 KiB. It may be bundled later.
+  - review-cards-paid.json: B1 to C2, 3,387 cards, 791 KiB. It's imported only by lib/review-cards-server.ts, which starts with `import "server-only"`. Nothing calls it yet.
+  - review-published-ids.json: every vocab id and card id, by lesson, in course order.
+- **Id stability:**
+  - A published card id stays put when an earlier or a later lesson adds a matching entry; the new entry joins the card.
+  - If an edit makes two published cards match, both are kept.
+  - An entry that stops matching becomes its own card, and the old card keeps its id.
+  - The build script stops and writes nothing if a published id disappeared or moved.
+- **validate:content (check 13):** it fails on any of these, printing what changed or the command to run:
+  - card ids that aren't unique, or break 0008's format or lesson-prefix rule;
+  - fr or en missing, or an empty string;
+  - more cards than 0008's cap;
+  - stale files (it prints `npm run build:review-cards`);
+  - a published vocab id or card id that's gone, has moved lesson, or is no longer a card;
+  - changed totals: to change them deliberately, update EXPECTED_REVIEW_TOTALS in scripts/validate-content.ts and rebuild.
+  - The 160-character id limit now covers vocab ids too, and the check prints a "Review:" totals line.
+- **test:review** (scripts/review-cards.test.ts, scripts/review-bundle.test.ts, fixture scripts/fixtures/review-cards), 15 tests:
+  - determinism; glossary exclusion; the merge rule (same French, different English stays separate; case, punctuation and curly apostrophes match);
+  - stable ids for an earlier or later matching entry; published-id protection (removed, made glossary, moved); stale files; totals; the free/paid split;
+  - only lib/review-cards-server.ts imports the paid file, and nothing review-related is in public/;
+  - the client-bundle walk.
+- **Client-bundle test:** it walks .next/static and public/ for paid card text: string literals in JS (JSON inside a literal and \u escapes included), and whole words elsewhere. Text that's also a free card's is skipped.
+  - A card counts as leaked when its French (2 or more words) or its English (3 or more words) appears, or both its sides appear. Single words such as "online", "or" and "large" matched code and CSS, and "an account" matched llms.txt, so they don't count alone.
+  - Coverage: 3,155 paid cards detectable from one side, 225 only as a pair, 7 not at all (both sides are free text or the same single word).
+  - A planted-leak self-test passes. Result: no paid card text found.
+- **0008:** after the owner's fix at line 196, I checked the rollbacks and rls.sql for a CASE inside an IF or ELSIF condition. There are none: every other CASE is in an assignment, a declaration or a SELECT.
+- **docs/plans/review.md:** status updated, with a note under step 2 on the names as built (one free file for A1 and A2, not one per level).
+- **Checks:** all pass.
+  - validate:content, test:content, test:checker (36), test:review (15), test:progress (140), tsc and build (357/357).
+  - test:no-supabase-env, test:gating (on a fresh build and server), test:webhook (70), test:checkout (23) and test:safe-next (7).
