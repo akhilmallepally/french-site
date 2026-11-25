@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useTransition } from "react";
+import { useRouter } from "next/navigation";
 import { createCheckoutAction } from "@/app/actions/checkout";
 import type { ProductKey } from "@/lib/payments/types";
 
@@ -8,13 +9,17 @@ interface CheckoutButtonProps {
   product?: ProductKey;
   className?: string;
   label?: string;
+  /** The price shown next to the button. The server refuses if it no longer matches. */
+  expectedPriceCents?: number;
 }
 
 export function CheckoutButton({
   product = "lessons",
   className,
   label = "Get Lifetime Access",
+  expectedPriceCents,
 }: CheckoutButtonProps) {
+  const router = useRouter();
   const [isPending, startTransition] = useTransition();
   const [error, setError] = useState<string | null>(null);
 
@@ -22,9 +27,16 @@ export function CheckoutButton({
     setError(null);
     startTransition(async () => {
       try {
-        const result = await createCheckoutAction(product);
+        const result = await createCheckoutAction(product, expectedPriceCents);
         if (result.error) {
           setError(result.error);
+          // Pricing changed or became unavailable: re-render the server parts of the page in place so
+          // the current price (or the disabled state) shows without a manual reload. The message stays
+          // because router.refresh() keeps this component's state.
+          if (result.status) {
+            router.refresh();
+            return;
+          }
           if (result.redirectUrl) {
             window.location.href = result.redirectUrl;
           }

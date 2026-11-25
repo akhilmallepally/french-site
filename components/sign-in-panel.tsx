@@ -1,9 +1,17 @@
 import Link from "next/link";
 import { safeNext } from "@/lib/safe-next";
+import { formatPrice, type PriceOffer } from "@/lib/pricing-offer";
 
 /** Shown instead of a gated lesson to signed-out visitors. Contains nothing from the lesson. */
-export function SignInPanel({ next }: { next: string }) {
+export function SignInPanel({ next, offer }: { next: string; offer?: PriceOffer }) {
   const href = `/sign-in?next=${encodeURIComponent(safeNext(next))}`;
+  // The live price, from the same source as the pricing card; none when pricing is unavailable.
+  const price =
+    !offer || offer.state === "unavailable"
+      ? ""
+      : offer.state === "founder"
+        ? `${formatPrice(offer.chargeCents)} founding price, `
+        : `${formatPrice(offer.chargeCents)}, `;
   return (
     <section className="mt-8 rounded-2xl border border-border bg-card px-6 py-10 text-center sm:px-10">
       <p className="text-xs font-semibold uppercase tracking-widest text-accent">Google sign-in required</p>
@@ -11,8 +19,8 @@ export function SignInPanel({ next }: { next: string }) {
         Sign in with Google to read this lesson
       </h2>
       <p className="mx-auto mt-3 max-w-md text-muted">
-        A1 and A2 are completely free. Signing in with Google lets you unlock B1–C2 with a one-time payment ($8 founding
-        price, all future written lessons and curriculum updates included), and you&apos;ll come straight back here.
+        A1 and A2 are completely free. Signing in with Google lets you unlock B1–C2 with a one-time payment ({price}all future
+        written lessons and curriculum updates included), and you&apos;ll come straight back here.
       </p>
       <Link
         href={href}

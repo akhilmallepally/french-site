@@ -4,17 +4,15 @@ import type { ProductKey } from "@/lib/payments/types";
 
 export type ActivePricing = {
   product: ProductKey;
-  priceCents: number;
   currency: string;
   spotsLeft: number;
-  isFounder: boolean;
   founderPriceCents: number;
   standardPriceCents: number;
   founderCap: number;
   /**
    * False when the prices are the hard-coded fallback (no Supabase config, the pricing_settings
-   * read failed, or no active row). The pricing card then hides the price; checkout still uses
-   * the fallback values below.
+   * read failed, or no active row). Nothing is shown or charged then: getPriceOffer() turns it into
+   * the "unavailable" state and checkout refuses (lib/pricing-offer.ts).
    */
   available: boolean;
 };
@@ -81,19 +79,19 @@ export async function getFounderSpotsLeft(product: ProductKey = "lessons"): Prom
 }
 
 /**
- * Reads active pricing settings and founder spots to determine the live price.
+ * Reads active pricing settings and founder spots. The price shown and charged is derived from this
+ * by getPriceOffer() in lib/pricing-offer.ts, never here.
  * Editable directly from the Supabase dashboard without redeployment.
  */
 export async function getActivePricing(product: ProductKey = "lessons"): Promise<ActivePricing> {
   const fallback: ActivePricing = {
     product,
-    priceCents: 800,
     currency: "usd",
-    spotsLeft: 100,
-    isFounder: true,
-    founderPriceCents: 800,
-    standardPriceCents: 1200,
-    founderCap: 100,
+    // Not prices: with available false nothing is shown or charged.
+    spotsLeft: 0,
+    founderPriceCents: 0,
+    standardPriceCents: 0,
+    founderCap: 0,
     available: false,
   };
 
@@ -118,15 +116,11 @@ export async function getActivePricing(product: ProductKey = "lessons"): Promise
     }
 
     const spotsLeft = await getFounderSpotsLeft(product);
-    const isFounder = spotsLeft > 0;
-    const priceCents = isFounder ? data.founder_price_cents : data.standard_price_cents;
 
     return {
       product,
-      priceCents,
       currency: data.currency.toLowerCase(),
       spotsLeft,
-      isFounder,
       founderPriceCents: data.founder_price_cents,
       standardPriceCents: data.standard_price_cents,
       founderCap: data.founder_cap,

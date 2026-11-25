@@ -4,6 +4,8 @@ import { Suspense } from "react";
 import { getCurrentUser } from "@/lib/auth";
 import { getActivePricing, hasActiveEntitlement } from "@/lib/purchases";
 import { CheckoutButton } from "@/components/checkout-button";
+import { PriceRow, PricingUnavailable } from "@/components/price-offer";
+import { formatPrice, getPriceOffer } from "@/lib/pricing-offer";
 
 export const metadata: Metadata = {
   title: "Pricing",
@@ -230,18 +232,11 @@ async function LifetimePlanCard() {
   const pricing = await getActivePricing("lessons");
   const isEntitled = user ? await hasActiveEntitlement(user.id, "lessons") : false;
 
-  // If the pricing_settings read fails, getActivePricing returns hard-coded fallback prices and
-  // checkout would charge those, which may not be the real price. So the card hides the price and
-  // disables buying. If only get_founder_spots_left() fails, spotsLeft is 0, so the card and checkout
-  // both use the standard price and the founder offer isn't shown.
-  const priceKnown = pricing.available;
-  const isFounder = priceKnown && pricing.spotsLeft > 0;
-  const founderPrice = `$${pricing.founderPriceCents / 100}`;
-  const standardPrice = `$${pricing.standardPriceCents / 100}`;
-  // The discount (strikethrough, badge, founder line) shows only while founder spots remain and the
-  // founder price is actually lower. The ribbon and the buy button keep using isFounder as before.
-  const savePercent = Math.round((1 - pricing.founderPriceCents / pricing.standardPriceCents) * 100);
-  const showDiscount = isFounder && pricing.founderPriceCents < pricing.standardPriceCents && savePercent >= 1;
+  // Same offer logic as the lesson paywall and createCheckoutAction (lib/pricing-offer.ts). If the
+  // pricing_settings read fails, the offer is "unavailable": no price, and buying is disabled (checkout
+  // refuses too). If only get_founder_spots_left() fails, spotsLeft is 0, so the standard price shows.
+  const offer = getPriceOffer(pricing);
+  const isFounder = offer.state === "founder";
 
   return (
     <section className="relative flex flex-col justify-between rounded-2xl border-2 border-accent bg-card p-8 shadow-sm">
@@ -261,33 +256,7 @@ async function LifetimePlanCard() {
         <p className="mt-2 text-sm text-muted">
           Everything from intermediate conversation to literary mastery.
         </p>
-        {!priceKnown ? null : showDiscount ? (
-          <>
-            <div className="mt-6 flex flex-wrap items-baseline gap-x-3 gap-y-2">
-              <span className="sr-only">
-                Regular price {standardPrice}, now {founderPrice}.
-              </span>
-              <span aria-hidden="true" className="flex items-baseline gap-3">
-                <span className="font-serif text-4xl font-semibold">{founderPrice}</span>
-                <s className="font-serif text-2xl text-muted">{standardPrice}</s>
-              </span>
-              <span className="self-center rounded-full border border-accent bg-card px-2.5 py-0.5 text-xs font-semibold text-accent">
-                Save {savePercent}%
-              </span>
-              <span className="text-sm text-muted">one-time · lifetime access</span>
-            </div>
-            <p className="mt-2 text-sm text-muted">
-              Founder price for the first {pricing.founderCap} learners, then {standardPrice}.
-            </p>
-          </>
-        ) : (
-          <div className="mt-6 flex items-baseline gap-2">
-            <span className="font-serif text-4xl font-semibold">
-              {isFounder ? founderPrice : standardPrice}
-            </span>
-            <span className="text-sm text-muted">one-time · lifetime access</span>
-          </div>
-        )}
+        {offer.state !== "unavailable" && <PriceRow offer={offer} />}
 
         <ul className="mt-8 space-y-3 text-sm text-muted">
           <li className="flex items-center gap-3">
@@ -344,25 +313,14 @@ async function LifetimePlanCard() {
               Continue Learning
             </Link>
           </div>
-        ) : !priceKnown ? (
-          <div>
-            <button
-              type="button"
-              disabled
-              aria-describedby="pricing-unavailable"
-              className="inline-flex min-h-11 w-full cursor-not-allowed items-center justify-center rounded-full bg-accent px-6 py-2.5 font-medium text-white opacity-60"
-            >
-              Get Lifetime Access
-            </button>
-            <p id="pricing-unavailable" className="mt-3 text-center text-sm text-muted">
-              Pricing is temporarily unavailable. Please try again in a minute.
-            </p>
-          </div>
+        ) : offer.state === "unavailable" ? (
+          <PricingUnavailable id="pricing-unavailable" />
         ) : user ? (
           <CheckoutButton
             product="lessons"
             className="inline-flex min-h-11 w-full items-center justify-center rounded-full bg-accent px-6 py-2.5 font-medium text-white transition hover:opacity-90"
-            label={isFounder ? `Get Founder Access for ${founderPrice}` : `Get Lifetime Access for ${standardPrice}`}
+            label={`${isFounder ? "Get Founder Access" : "Get Lifetime Access"} for ${formatPrice(offer.chargeCents)}`}
+            expectedPriceCents={offer.chargeCents}
           />
         ) : (
           <Link

@@ -5,19 +5,25 @@ import { getPaymentProvider } from "@/lib/payments/provider";
 import { signMetadata } from "@/lib/payments/config";
 import type { ProductKey } from "@/lib/payments/types";
 import { getActivePricing, hasActiveEntitlement } from "@/lib/purchases";
+import { runCheckout } from "@/lib/pricing-offer";
 
 export type CreateCheckoutResult = {
   checkoutUrl?: string;
   redirectUrl?: string;
   error?: string;
+  /** Set when no checkout was created because of pricing; `error` holds the message to show. */
+  status?: "pricing-unavailable" | "price-changed";
 };
 
 /**
  * Server Action to create a payment checkout session.
- * Re-reads the user session, verifies entitlement, and computes the price strictly on the server.
+ * Re-reads the user session, verifies entitlement, and computes the price strictly on the server
+ * with runCheckout (lib/pricing-offer.ts), the same logic the pricing card and paywall display.
+ * `expectedPriceCents` is the price the page showed; it is only compared, never charged.
  */
 export async function createCheckoutAction(
-  product: ProductKey = "lessons"
+  product: ProductKey = "lessons",
+  expectedPriceCents?: number
 ): Promise<CreateCheckoutResult> {
   const user = await getCurrentUser();
   if (!user) {
@@ -39,20 +45,25 @@ export async function createCheckoutAction(
 
   try {
     const provider = getPaymentProvider();
-    const { checkoutUrl } = await provider.createCheckout({
-      userId: user.id,
-      userEmail: user.email ?? "",
-      product,
-      priceCents: pricing.priceCents,
-      currency: pricing.currency,
-      redirectUrl: returnUrl,
-      metadata: {
-        user_id: user.id,
+    const outcome = await runCheckout(pricing, expectedPriceCents, (priceCents, currency) =>
+      provider.createCheckout({
+        userId: user.id,
+        userEmail: user.email ?? "",
         product,
-      },
-    });
+        priceCents,
+        currency,
+        redirectUrl: returnUrl,
+        metadata: {
+          user_id: user.id,
+          product,
+        },
+      })
+    );
 
-    return { checkoutUrl };
+    if (!outcome.ok) {
+      return { status: outcome.status, error: outcome.message };
+    }
+    return { checkoutUrl: outcome.result.checkoutUrl };
   } catch (error) {
     console.error("[actions:checkout] Error creating checkout:", error instanceof Error ? error.message : error);
     return { error: "Unable to start checkout. Please try again later." };

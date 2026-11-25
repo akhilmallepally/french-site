@@ -40,17 +40,12 @@ export async function GatedLessonBody({ meta }: { meta: LessonMeta }) {
   const result = await checkLessonAccess(meta);
 
   if (result.status === "signed-out") {
-    return <SignInPanel next={meta.href} />;
+    return <SignInPanel next={meta.href} offer={result.offer} />;
   }
 
   if (result.status === "unpaid") {
     return (
-      <PaywallPanel
-        spotsLeft={result.spotsLeft}
-        priceCents={result.priceCents}
-        currency={result.currency}
-        next={meta.href}
-      />
+      <PaywallPanel offer={result.offer} next={meta.href} />
     );
   }
 

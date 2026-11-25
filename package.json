@@ -19,6 +19,7 @@
     "check:c2-links": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/c2-links.ts",
     "wrapup:c2": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/c2-wrapup.ts",
     "check:alexandrines": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/scan-alexandrines.ts --file content/lessons/c1/culture-french-poetry.mdx --section \"An original poem\"",
+    "test:checkout": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test lib/pricing-offer.test.ts",
     "test:safe-next": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test lib/safe-next.test.ts",
     "test:webhook": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-payments-webhook.mjs",
     "test:gating": "node scripts/test-gating.mjs",

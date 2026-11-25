@@ -1,15 +1,16 @@
 import Link from "next/link";
 import { CheckoutButton } from "@/components/checkout-button";
+import { PriceRow, PricingUnavailable } from "@/components/price-offer";
+import { formatPrice, type PriceOffer } from "@/lib/pricing-offer";
 
 interface PaywallPanelProps {
-  spotsLeft: number;
-  priceCents: number;
-  currency: string;
+  /** From getPriceOffer(getActivePricing()), the same source as the pricing card and checkout. */
+  offer: PriceOffer;
   next?: string;
 }
 
-export function PaywallPanel({ spotsLeft }: PaywallPanelProps) {
-  const isFounder = spotsLeft > 0;
+export function PaywallPanel({ offer }: PaywallPanelProps) {
+  const isFounder = offer.state === "founder";
 
   return (
     <section className="mt-8 rounded-2xl border border-border bg-card px-6 py-10 text-center sm:px-10">
@@ -21,19 +22,21 @@ export function PaywallPanel({ spotsLeft }: PaywallPanelProps) {
       </h2>
       <p className="mx-auto mt-4 max-w-xl text-muted leading-relaxed">
         You&apos;ve finished the free levels. Bravo! We hope A1 and A2 were useful. B1 to C2 is a one-time
-        payment, with all future written lessons and curriculum updates included.{" "}
-        {isFounder ? (
-          <span>Founding price: $8 for the first 100 learners.</span>
-        ) : (
-          <span>Standard price: $12 for lifetime access.</span>
-        )}
+        payment, with all future written lessons and curriculum updates included.
       </p>
 
+      {offer.state !== "unavailable" && <PriceRow offer={offer} centered />}
+
       <div className="mt-6 flex justify-center">
-        <CheckoutButton
-          product="lessons"
-          label={isFounder ? "Get founder access for $8" : "Get lifetime access for $12"}
-        />
+        {offer.state === "unavailable" ? (
+          <PricingUnavailable id="paywall-pricing-unavailable" className="px-8" />
+        ) : (
+          <CheckoutButton
+            product="lessons"
+            label={`${isFounder ? "Get founder access" : "Get lifetime access"} for ${formatPrice(offer.chargeCents)}`}
+            expectedPriceCents={offer.chargeCents}
+          />
+        )}
       </div>
 
       <p className="mt-4 text-xs text-muted">

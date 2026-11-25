@@ -7,13 +7,14 @@ import { createClient } from "@/lib/supabase/server";
 import { warnSupabaseEnvMissing } from "@/lib/supabase/env";
 import { isFreeLevel, type LessonAccess, type LessonMeta } from "@/lib/lessons";
 import { getActivePricing, hasActiveEntitlement } from "@/lib/purchases";
+import { getPriceOffer, type PriceOffer } from "@/lib/pricing-offer";
 
 export type CurrentUser = { id: string; email: string | null };
 
 export type LessonAccessResult =
   | { status: "granted"; access: LessonAccess }
-  | { status: "signed-out" }
-  | { status: "unpaid"; spotsLeft: number; priceCents: number; currency: string };
+  | { status: "signed-out"; offer: PriceOffer }
+  | { status: "unpaid"; offer: PriceOffer };
 
 /**
  * The signed-in user, or null. Reads cookies, so call it only inside a <Suspense> boundary.
@@ -58,7 +59,7 @@ export async function checkLessonAccess(meta: LessonMeta): Promise<LessonAccessR
 
   const user = await getCurrentUser();
   if (!user) {
-    return { status: "signed-out" };
+    return { status: "signed-out", offer: getPriceOffer(await getActivePricing("lessons")) };
   }
 
   const isEntitled = await hasActiveEntitlement(user.id, "lessons");
@@ -66,13 +67,7 @@ export async function checkLessonAccess(meta: LessonMeta): Promise<LessonAccessR
     return { status: "granted", access: { grant: "lesson-access", lessonId: meta.id } };
   }
 
-  const pricing = await getActivePricing("lessons");
-  return {
-    status: "unpaid",
-    spotsLeft: pricing.spotsLeft,
-    priceCents: pricing.priceCents,
-    currency: pricing.currency,
-  };
+  return { status: "unpaid", offer: getPriceOffer(await getActivePricing("lessons")) };
 }
 
 /** Access helper returning LessonAccess if granted, or null if gated. Kept for backwards compatibility. */
