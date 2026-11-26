@@ -44,6 +44,12 @@ export default function TermsPage() {
             It covers the core written curriculum and future written additions, excluding separate optional add-ons or
             future product tiers. There are no recurring fees or ongoing subscription dues.
           </p>
+          <p>
+            Lifetime access is sold during the founding offer only. The founding offer ends on 31 December 2026 at
+            23:59 Bangkok time (16:59 UTC), or earlier once all founder places are taken, whichever comes first. The
+            deadline is the same for everyone and is not extended for individual learners. Everyone who has bought
+            lifetime access keeps it under these terms after the founding offer ends.
+          </p>
         </section>
 
         <section className="mt-8">

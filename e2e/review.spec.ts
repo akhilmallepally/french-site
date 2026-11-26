@@ -1,8 +1,10 @@
 // The daily review in a real browser, against the real Supabase project, as the TEST account
 // (PROGRESS_TEST_EMAIL / PROGRESS_TEST_PASSWORD in .env.local), with NEXT_PUBLIC_PROGRESS_SYNC and
 // NEXT_PUBLIC_REVIEW_SYNC on. Run: npm run test:progress-e2e
+// The daily review is part of lifetime access (Prompt 76): the test account needs access, granted
+// with the SQL in docs/db-setup.md ("Test accounts"), which never uses a founder spot.
 // It deletes the account's review cards and progress rows at the start and the end, with the
-// account's own delete policies.
+// account's own delete policies (never its purchase).
 import fs from "node:fs";
 import path from "node:path";
 import { expect, test, type Page } from "@playwright/test";
@@ -10,11 +12,12 @@ import { doFullRun, signIn, type testClient } from "./helpers.ts";
 
 const LESSON = "/lessons/a1/alphabet-and-accents";
 const TABLES = ["review_cards", "exercise_results", "lesson_progress", "writing_task_progress"];
+const LOCKED = "Daily review is part of lifetime access: a few minutes a day to keep the words you've learned.";
 
 type Card = { id: string; lessonId: string; fr: string; en: string };
 const cards = (f: string): Card[] => JSON.parse(fs.readFileSync(path.join(process.cwd(), "lib", "generated", f), "utf8")).cards;
 const PAID = cards("review-cards-paid.json").find((c) => c.fr.length > 12 && c.en.length > 12)!;
-const FREE = cards("review-cards-free.json")[0];
+const FREE = cards("review-cards-free.json").find((c) => c.fr.length > 6 && c.en.length > 6)!;
 
 const fr = (page: Page) => page.getByTestId("review-fr");
 const progress = (page: Page) => page.getByTestId("review-progress");
@@ -34,15 +37,19 @@ async function cleanUp(db: ReturnType<typeof testClient>["client"], userId: stri
 }
 
 test.describe.serial("daily review", () => {
-  test("practise, review, refresh to resume, finish, rows in Supabase, sign out hides the cards", async ({ browser }) => {
+  test("a paid learner: practise, review, refresh to resume, offline and Retry, finish, rows in Supabase, sign out", async ({ browser }) => {
     const context = await browser.newContext();
     const page = await context.newPage();
     const { client: db, userId } = await signIn(context);
+    const { data: purchases } = await db.from("purchases").select("status").eq("user_id", userId).eq("status", "active");
+    expect(purchases?.length ?? 0, "the test account needs access: run the SQL in docs/db-setup.md (Test accounts)").toBeGreaterThan(0);
     await cleanUp(db, userId);
     try {
-      // Home links to /review.
+      // Home links to /review, labelled as part of lifetime access.
       await page.goto("/");
-      await expect(page.getByRole("link", { name: /Daily review/ })).toHaveAttribute("href", "/review");
+      const card = page.getByRole("link", { name: /Daily review/ });
+      await expect(card).toHaveAttribute("href", "/review");
+      await expect(card).toContainText("Lifetime access");
 
       // Practise a free lesson, then open /review: 10 new cards (the daily limit).
       await page.goto(LESSON);
@@ -60,6 +67,15 @@ test.describe.serial("daily review", () => {
       await expect(page.getByTestId("review-counts")).toHaveText("0 due today · 6 new cards left today");
       expect(answered).not.toContain(await fr(page).textContent());
 
+      // Offline: the server actions fail; a calm message and Retry; the four answers are kept.
+      await page.route("**/*", (route) => (route.request().method() === "POST" ? route.abort("internetdisconnected") : route.continue()));
+      await page.reload();
+      await expect(page.getByText("Couldn't load your cards. Check your connection and try again.")).toBeVisible({ timeout: 15_000 });
+      await page.unroute("**/*");
+      await page.getByRole("button", { name: "Retry" }).click();
+      await expect(progress(page)).toHaveText("1 / 6", { timeout: 15_000 });
+      await expect(page.getByTestId("review-counts")).toHaveText("0 due today · 6 new cards left today");
+
       // Finish: the summary, and nothing more today.
       for (let i = 0; i < 6; i++) await answer(page, "2");
       await expect(page.getByTestId("review-summary")).toHaveText("6 cards reviewed, 6 known.");
@@ -71,16 +87,18 @@ test.describe.serial("daily review", () => {
         .poll(async () => (await db.from("review_cards").select("card_id", { count: "exact", head: true }).eq("user_id", userId).gte("box", 1)).count ?? 0, { timeout: 20_000 })
         .toBe(10);
 
-      // /progress has the Daily review line.
+      // /progress has the Daily review line (paid learners only).
       await page.goto("/progress");
-      await expect(page.getByTestId("review-due-line")).toContainText("No cards due today");
+      await expect(page.getByTestId("review-due-line")).toContainText("No cards due today", { timeout: 15_000 });
 
-      // Sign out from the header: the account's cards are hidden.
+      // Sign out from the header: the account's cards are hidden, and /review explains it's part of lifetime access.
       await page.getByRole("button", { name: "Sign out" }).click();
       await page.waitForTimeout(1000);
       await page.goto("/review");
-      await expect(page.getByText("Practise a lesson to add its words to your review.")).toBeVisible({ timeout: 15_000 });
-      await expect(page.getByText("Sign in to keep your review across devices.")).toBeVisible();
+      await expect(page.getByText(LOCKED)).toBeVisible({ timeout: 15_000 });
+      await expect(fr(page)).toHaveCount(0);
+      await page.goto("/progress");
+      await expect(page.getByTestId("review-due-line")).toHaveCount(0);
     } finally {
       await cleanUp(db, userId);
       const { count } = await db.from("review_cards").select("card_id", { count: "exact", head: true }).eq("user_id", userId);
@@ -89,75 +107,34 @@ test.describe.serial("daily review", () => {
     }
   });
 
-  test("a learner without access: a paid card never appears and its text is never returned", async ({ browser }) => {
-    // Signed out has no access whatever the test account has, so this path is always a learner without access.
+  test("a free learner: the explanation, no deck, and no card text (cards in the browser stay hidden)", async ({ browser }) => {
     const context = await browser.newContext();
     const page = await context.newPage();
     const bodies: string[] = [];
     page.on("response", async (r) => {
       if (r.request().method() === "POST") bodies.push(await r.text().catch(() => ""));
     });
-    await page.goto("/review");
+    // Cards already in this browser (from before Prompt 76, say): they stay, but never show.
+    await page.goto("/");
     const past = Date.now() - 2 * 86400_000;
-    const [paidSuffix, freeSuffix] = [PAID.id.slice(PAID.lessonId.length + 1), FREE.id.slice(FREE.lessonId.length + 1)];
-    await page.evaluate(
-      ({ key, value }) => localStorage.setItem(key, value),
-      {
-        key: "parlons-review-v1",
-        value: JSON.stringify({ v: 1, lessons: { [PAID.lessonId]: { [paidSuffix]: [2, past, past - 3 * 86400_000, 2, 0] }, [FREE.lessonId]: { [freeSuffix]: [2, past, past - 3 * 86400_000, 2, 0] } } }),
-      },
-    );
-    await page.reload();
-    await expect(progress(page)).toHaveText("1 / 1", { timeout: 15_000 });
-    await expect(fr(page)).toHaveText(FREE.fr);
-    await expect(page.getByTestId("review-counts")).toHaveText("1 due today · 0 new cards left today");
-    // At 375 px: no sideways scroll, and the card keeps its size when the answer is shown.
-    await page.setViewportSize({ width: 375, height: 740 });
-    const card = page.getByRole("region", { name: "Review card" });
-    const front = (await card.boundingBox())!;
-    expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(375);
-    await page.keyboard.press("Space");
-    await expect(page.getByTestId("review-en")).toBeVisible();
-    const back = (await card.boundingBox())!;
-    expect([back.y, back.height]).toEqual([front.y, front.height]);
-    await page.keyboard.press("2");
-    await expect(page.getByTestId("review-summary")).toHaveText("1 card reviewed, 1 known.");
-    const html = await page.content();
-    expect(html).not.toContain(PAID.fr);
-    expect(html).not.toContain(PAID.en);
-    expect(bodies.length).toBeGreaterThan(0);
-    for (const b of bodies) {
-      expect(b).not.toContain(PAID.fr);
-      expect(b).not.toContain(PAID.en);
-    }
-    await context.close();
-  });
-
-  test("offline: a calm message and Retry; answers given before are kept", async ({ browser }) => {
-    const context = await browser.newContext();
-    const page = await context.newPage();
-    await page.goto("/review");
-    const past = Date.now() - 2 * 86400_000;
-    const free = cards("review-cards-free.json").slice(0, 2);
     const lessons: Record<string, Record<string, number[]>> = {};
-    for (const c of free) (lessons[c.lessonId] ??= {})[c.id.slice(c.lessonId.length + 1)] = [2, past, past - 3 * 86400_000, 2, 0];
-    await page.evaluate((value) => localStorage.setItem("parlons-review-v1", value), JSON.stringify({ v: 1, lessons }));
-    await page.reload();
-    await expect(progress(page)).toHaveText("1 / 2", { timeout: 15_000 });
-    const first = await answer(page, "2");
+    for (const c of [FREE, PAID]) (lessons[c.lessonId] ??= {})[c.id.slice(c.lessonId.length + 1)] = [2, past, past - 3 * 86400_000, 2, 0];
+    const saved = JSON.stringify({ v: 1, lessons });
+    await page.evaluate((value) => localStorage.setItem("parlons-review-v1", value), saved);
+    await page.goto(LESSON);
+    await doFullRun(page); // practised: a deck would be built for a learner with access
 
-    // The connection drops (server action calls fail); a reload can't fetch the card text.
-    await page.route("**/*", (route) => (route.request().method() === "POST" ? route.abort("internetdisconnected") : route.continue()));
-    await page.reload();
-    await expect(page.getByText("Couldn't load your cards. Check your connection and try again.")).toBeVisible({ timeout: 15_000 });
-    const saved = await page.evaluate(() => localStorage.getItem("parlons-review-v1"));
-    expect(JSON.parse(saved!).today.reviewIds.length, "the answer before going offline is kept").toBe(1);
-
-    // Back online: Retry shows the card not yet answered.
-    await page.unroute("**/*");
-    await page.getByRole("button", { name: "Retry" }).click();
-    await expect(progress(page)).toHaveText("1 / 1", { timeout: 15_000 });
-    expect(await fr(page).textContent()).not.toBe(first);
+    await page.goto("/review");
+    await expect(page.getByText(LOCKED)).toBeVisible({ timeout: 15_000 });
+    await expect(page.getByRole("link", { name: "See pricing", exact: true })).toHaveAttribute("href", "/pricing");
+    await expect(fr(page)).toHaveCount(0);
+    await page.waitForTimeout(1500);
+    const html = await page.content();
+    for (const t of [FREE.fr, FREE.en, PAID.fr, PAID.en]) {
+      expect(html).not.toContain(t);
+      for (const b of bodies) expect(b).not.toContain(t);
+    }
+    expect(await page.evaluate(() => localStorage.getItem("parlons-review-v1")), "no deck built; the cards in the browser are untouched").toBe(saved);
     await context.close();
   });
 });

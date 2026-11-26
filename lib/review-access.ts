@@ -1,9 +1,12 @@
-// The last access answer the card-text action gave this browser's signed-in learner, so /review and
-// /progress can count paid cards before the server answers again. Display only: the server checks
-// access on every text read and every write. Signed out is always "no access" and isn't stored.
+// The last access answer the server gave this browser's signed-in learner (the review actions, or
+// the reminder banner's access check), so /progress and the founding-offer banner can decide what to
+// show before the server answers again. Display only: the server checks access on every read, every
+// write and every checkout. Signed out is always "no access" and isn't stored.
 import { storedSessionUserId } from "./supabase-session-cookie.ts";
 
-const KEY = "parlons-review-access-v1";
+/** Also read by the banner's pre-paint script (components/founder-banner-slot.tsx). */
+export const ACCESS_KEY = "parlons-access-v1";
+const KEY = ACCESS_KEY;
 
 /** The browser's signed-in user (an unexpired session in the cookie), or null. No network. */
 export function sessionUser(): string | null {

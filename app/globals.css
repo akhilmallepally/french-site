@@ -25,3 +25,8 @@ body {
   background: var(--background);
   color: var(--foreground);
 }
+
+/* The founding-offer banner, hidden before first paint when dismissed or for a learner with access (lib/founder-banner.ts). */
+html[data-founder-banner="hidden"] [data-founder-banner-slot] {
+  display: none;
+}

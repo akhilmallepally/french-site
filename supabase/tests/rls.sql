@@ -1,7 +1,7 @@
 -- supabase/tests/rls.sql
 -- Proves the RLS rules (0003, 0005), the progress write path (0006), the service-role grants
--- (0007) and the daily-review write path (0008) on every table and every operation. Run it in the
--- Supabase SQL editor (or psql) AFTER migrations 0001 to 0008. It runs in
+-- (0007), the daily-review write path (0008) and the founder deadline (0009) on every table and every
+-- operation. Run it in the Supabase SQL editor (or psql) AFTER migrations 0001 to 0009. It runs in
 -- one transaction that ends in ROLLBACK, so it leaves nothing behind: no users, no rows, no test
 -- schema.
 --
@@ -415,6 +415,8 @@ begin
 
   -- pricing_settings: anon can read active rows, cannot write
   perform rls_test.expect_rows('anon select pricing_settings (as before the test)', rls_test.pricing_query(), rls_test.pricing_rows());
+  perform rls_test.expect_rows('anon reads the founder deadline (0009)', 'select 1 from public.pricing_settings where product = ''lessons'' and founder_ends_at is not null', rls_test.pricing_rows());
+  perform rls_test.expect_error('anon updates the founder deadline', 'update public.pricing_settings set founder_ends_at = now() + interval ''1 year'' where product = ''lessons''');
   perform rls_test.expect_error('anon insert pricing_settings', 'insert into public.pricing_settings (product, founder_price_cents, standard_price_cents, founder_cap) values (''pro'', 1500, 2000, 50)');
   perform rls_test.expect_error('anon update pricing_settings', 'update public.pricing_settings set founder_price_cents = 100 where product = ''lessons''');
   perform rls_test.expect_error('anon delete pricing_settings', 'delete from public.pricing_settings where product = ''lessons''');
@@ -568,6 +570,10 @@ begin
   -- Every table has RLS enabled and forced.
   if pg_catalog.to_regclass('public.review_cards') is null then
     raise exception 'FAIL: public.review_cards is missing: run migration 0008 first';
+  end if;
+  if not exists (select 1 from information_schema.columns
+                  where table_schema = 'public' and table_name = 'pricing_settings' and column_name = 'founder_ends_at') then
+    raise exception 'FAIL: pricing_settings.founder_ends_at is missing: run migration 0009 first';
   end if;
   foreach t in array array['profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab', 'purchases', 'pricing_settings', 'unmatched_payment_events', 'review_cards'] loop
     select c.relrowsecurity, c.relforcerowsecurity into rls, forced
@@ -826,6 +832,62 @@ begin
     raise exception 'FAIL: find_user_id_by_email() is not security definer with search_path ''''';
   end if;
   raise notice 'PASS: function privileges: service_role only find_user_id_by_email() (plus trigger and extension functions); anon and authenticated unchanged';
+end;
+$$;
+
+-- ===================================================================== founder deadline (0009, as postgres)
+do $$
+begin
+  -- The deadline: one moment for everyone, not null.
+  if (select founder_ends_at from public.pricing_settings where product = 'lessons') is distinct from '2026-12-31T16:59:00Z'::timestamptz then
+    raise exception 'FAIL: the lessons founder_ends_at is not 2026-12-31T16:59:00Z';
+  end if;
+  if exists (select 1 from information_schema.columns
+              where table_schema = 'public' and table_name = 'pricing_settings' and column_name = 'founder_ends_at' and is_nullable = 'YES') then
+    raise exception 'FAIL: founder_ends_at is nullable';
+  end if;
+  raise notice 'PASS: founder_ends_at is set to 2026-12-31T16:59:00Z and not null';
+
+  -- The guard: security invoker, empty search_path, executable by nobody but its owner.
+  if not exists (
+    select 1 from pg_catalog.pg_proc p
+     where p.oid = 'public.guard_founder_deadline()'::regprocedure
+       and not p.prosecdef and 'search_path=""' = any (p.proconfig)
+  ) then
+    raise exception 'FAIL: guard_founder_deadline() is not security invoker with search_path ''''';
+  end if;
+  if has_function_privilege('anon', 'public.guard_founder_deadline()', 'EXECUTE')
+     or has_function_privilege('authenticated', 'public.guard_founder_deadline()', 'EXECUTE')
+     or has_function_privilege('service_role', 'public.guard_founder_deadline()', 'EXECUTE') then
+    raise exception 'FAIL: guard_founder_deadline() is executable by anon, authenticated or service_role';
+  end if;
+  raise notice 'PASS: guard_founder_deadline() is security invoker, search_path empty, not executable by app roles';
+end;
+$$;
+
+-- A change without the migration setting is refused; with it, it goes through (rolled back at the end).
+select rls_test.expect_error('postgres changes founder_ends_at without the migration setting',
+  'update public.pricing_settings set founder_ends_at = founder_ends_at + interval ''1 day'' where product = ''lessons''', '23514');
+do $$
+begin
+  if (select pg_catalog.current_setting('app.allow_founder_deadline_change', true)) = 'on' then
+    raise exception 'FAIL: app.allow_founder_deadline_change is already on in this session';
+  end if;
+  begin
+    perform pg_catalog.set_config('app.allow_founder_deadline_change', 'on', true);
+    update public.pricing_settings set founder_ends_at = founder_ends_at + interval '1 day' where product = 'lessons';
+    if (select founder_ends_at from public.pricing_settings where product = 'lessons') <> '2027-01-01T16:59:00Z'::timestamptz then
+      raise exception 'FAIL: the deliberate change did not apply';
+    end if;
+    raise exception 'undo' using errcode = 'P0001';
+  exception when sqlstate 'P0001' then
+    if sqlerrm <> 'undo' then raise; end if;
+  end;
+  perform pg_catalog.set_config('app.allow_founder_deadline_change', '', true);
+  if (select founder_ends_at from public.pricing_settings where product = 'lessons') <> '2026-12-31T16:59:00Z'::timestamptz then
+    raise exception 'FAIL: the deliberate change was not undone';
+  end if;
+  raise notice 'PASS: founder_ends_at changes only with app.allow_founder_deadline_change (a migration)';
 end;
 $$;
 

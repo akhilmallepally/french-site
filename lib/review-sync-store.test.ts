@@ -97,13 +97,19 @@ describe("synced review store: local first and the outbox", () => {
     assert.ok(!JSON.stringify(w.storage.map.get(reviewRejectedKey(A))).match(/"(fr|en)"/), "ids, boxes, times and counts only");
   });
 
-  test("a paid card without access is rejected (no_access) and the free ones go ahead", async () => {
+  test("without access every card is rejected (no_access), free ones too; with access both go through", async () => {
     const w = reviewWorld();
+    w.server.access.delete(A);
     const s = reviewStoreFor(w);
     await s.addCards([C1, PAID_IDS[0]], w.clock.now);
     await w.clock.advance(1000);
-    assert.deepEqual([...w.server.of(A).keys()], [C1]);
-    assert.match(w.storage.getItem(reviewRejectedKey(A))!, /no_access/);
+    assert.equal(w.server.of(A).size, 0);
+    assert.equal((w.storage.getItem(reviewRejectedKey(A))!.match(/no_access/g) ?? []).length, 2);
+    w.server.access.add(A);
+    const paid = reviewStoreFor(w, A);
+    await paid.addCards([C2, PAID_IDS[1]], w.clock.now);
+    await w.clock.advance(1000);
+    assert.deepEqual([...w.server.of(A).keys()].sort(), [C2, PAID_IDS[1]].sort());
   });
 
   for (const behaviour of ["network", "unavailable"] as const) {

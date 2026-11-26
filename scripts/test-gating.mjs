@@ -301,6 +301,25 @@ for (const pagePath of ["/", "/lessons", "/lessons/a1", free[0]?.path, gated[0]?
   record("paid lesson, signed out: the sign-in panel shows the shared price", panel.status === 200 && /one-time payment \((<!-- -->)?\$\d+/.test(panel.text), `${lesson.path} status ${panel.status}`);
 }
 
+// The founding offer (Prompt 76): the countdown on /pricing, the reminder banner on other pages.
+{
+  const live = Date.now() < Date.parse("2026-12-31T16:59:00Z");
+  const pricing = await get(BASE_URL + "/pricing");
+  const home = await get(BASE_URL + "/");
+  const lesson = await get(BASE_URL + "/lessons/a1/greetings");
+  if (live) {
+    record("/pricing: the countdown and the static sentence for screen readers", /Founding offer ends in /.test(pricing.text) && pricing.text.replace(/<!-- -->/g, "").includes("The founding offer ends on 31 December 2026 at 23:59 Bangkok time."), `status ${pricing.status}`);
+    record("/pricing: the ending date, rendered in Bangkok time", pricing.text.includes("Ends 31 Dec, 23:59 Bangkok time"), "");
+    for (const [name, r] of [["/", home], ["/lessons/a1/greetings", lesson]]) {
+      record("the banner is in prerendered pages while the offer is live", /role="region" aria-label="Founding offer"/.test(r.text) && /Founding offer: (<!-- -->)?\$\d+(<!-- -->)? for lifetime access, ends in /.test(r.text) && r.text.includes("data-founder-banner"), `${name} status ${r.status}`);
+    }
+    record("no banner on /pricing itself", !/aria-label="Founding offer"/.test(pricing.text), "");
+    record("the banner's Dismiss is a real button", /<button type="button"[^>]*>Dismiss<\/button>/.test(home.text), "");
+  } else {
+    record("after the deadline: the ended state, and no banner", pricing.text.includes("New plan coming soon") && !/aria-label="Founding offer"/.test(home.text), "");
+  }
+}
+
 // /progress: personal, so never indexed.
 {
   const r = await get(BASE_URL + "/progress");
@@ -326,13 +345,12 @@ for (const [name, args] of REVIEW_CALLS) {
 // The card-text read is the exception: free text for anyone, paid text never without access.
 {
   const id = cardTextActionId();
-  if (!id) record("card text: free text for anyone, paid text never without access", false, "getCardTextAction isn't in the manifest");
+  if (!id) record("card text: never returned without access", false, "getCardTextAction isn't in the manifest");
   else {
+    // The daily review is part of lifetime access (Prompt 76): no card text without it, free cards included.
     const r = await callReviewAction(BASE_URL, id, [[SAMPLE_FREE_CARD.id, SAMPLE_PAID_CARD.id]], "/review");
-    const hasFree = r.text.includes(JSON.stringify(SAMPLE_FREE_CARD.fr).slice(1, -1));
-    const leaks = r.text.includes(SAMPLE_PAID_CARD.fr) || r.text.includes(SAMPLE_PAID_CARD.en) || r.text.includes(SAMPLE_PAID_CARD.id);
-    record("card text: a signed-out caller gets free text", r.status === 200 && hasFree, `status ${r.status}`);
-    record("card text: paid text is never returned without access", r.status === 200 && !leaks && /"access":false/.test(r.text), `${r.text.slice(-120)}`);
+    const leaks = [SAMPLE_FREE_CARD.fr, SAMPLE_FREE_CARD.en, SAMPLE_PAID_CARD.fr, SAMPLE_PAID_CARD.en].filter((t) => r.text.includes(JSON.stringify(t).slice(1, -1)));
+    record("card text: a signed-out caller gets no card text, free or paid", r.status === 200 && leaks.length === 0 && /"cards":\{\}/.test(r.text) && /"access":false/.test(r.text), `${r.text.slice(-120)}`);
     const many = await callReviewAction(BASE_URL, id, [Array.from({ length: 41 }, (_, i) => `a1-greetings-v${String(i + 1).padStart(3, "0")}`)], "/review");
     record("card text: more than 40 ids is refused", /"code":"too_many_ids"/.test(many.text), many.text.slice(-80));
   }
@@ -343,6 +361,7 @@ for (const [name, args] of REVIEW_CALLS) {
   const r = await get(BASE_URL + "/review");
   record("/review is noindex", r.status === 200 && /<meta name="robots" content="noindex/.test(r.text), `status ${r.status}`);
   record("/review holds no card text", !r.text.includes(SAMPLE_FREE_CARD.en) && !r.text.includes(SAMPLE_PAID_CARD.fr), "");
+  record("/review, signed out: the lifetime-access explanation and a link to /pricing", r.text.includes("Daily review is part of lifetime access: a few minutes a day to keep the words you've learned.") && /href="\/pricing"/.test(r.text), "");
   const sitemap = await get(BASE_URL + "/sitemap.xml");
   record("/review isn't in the sitemap", sitemap.status === 200 && !sitemap.text.includes("/review<"), "");
 }

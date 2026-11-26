@@ -141,8 +141,8 @@ try {
   ok(!!textId, "getCardTextAction is in the build");
   if (textId) {
     const r = await callReviewAction(BASE, textId, [[SAMPLE_FREE_CARD.id, SAMPLE_PAID_CARD.id]], "/review");
-    ok(r.status === 200 && r.text.includes(JSON.stringify(SAMPLE_FREE_CARD.fr).slice(1, -1)), "card text: free cards work with no Supabase config");
-    ok(!r.text.includes(SAMPLE_PAID_CARD.fr) && !r.text.includes(SAMPLE_PAID_CARD.en), "card text: no paid text with no Supabase config");
+    ok(r.status === 200 && /"cards":\{\}/.test(r.text), `card text: nothing without Supabase config (no session, so no access) (${r.status})`);
+    ok(![SAMPLE_FREE_CARD.fr, SAMPLE_PAID_CARD.fr, SAMPLE_PAID_CARD.en].some((t) => r.text.includes(t)), "card text: no free or paid text with no Supabase config");
   }
   const review = await get("/review");
   ok(review.status === 200 && review.text.includes("Daily review"), `/review -> ${review.status} renders with no Supabase config`);

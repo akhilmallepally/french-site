@@ -12,13 +12,16 @@ import "server-only";
 //   "unavailable".
 // - Checkout never uses this: it reads the live price (getActivePricing), and refuses with
 //   price-changed if the page's (cached) price is out of date.
+// - The cache holds the numbers, the spots and the deadline, plus when they were read (readAtMs),
+//   never the "is the founding offer live" answer: that is worked out by getPriceOffer for the time
+//   of the request (or, in a prerendered page, of the read, and again in the browser on its clock).
 import { cacheLife, cacheTag } from "next/cache";
 import { createClient } from "@supabase/supabase-js";
 import { getSupabaseEnv } from "@/lib/supabase/env";
 import { getPriceOffer, type PriceOffer, type PricingInput } from "@/lib/pricing-offer";
 import { loadPricing, PRICING_TAG, PricingReadError, type PricingClient } from "@/lib/pricing-source";
 
-type SharedPricing = { ok: true; pricing: PricingInput } | { ok: false; code: string };
+export type SharedPricing = { ok: true; pricing: PricingInput; readAtMs: number } | { ok: false; code: string };
 
 /** Cached for all visitors when it succeeds; a failure is never stored (expire 0). */
 export async function getSharedPricing(product = "lessons"): Promise<SharedPricing> {
@@ -30,7 +33,7 @@ export async function getSharedPricing(product = "lessons"): Promise<SharedPrici
     const client = createClient(env.url, env.key, { auth: { persistSession: false, autoRefreshToken: false } }) as unknown as PricingClient;
     const pricing = await loadPricing(client, product);
     cacheLife({ stale: 60, revalidate: 60, expire: 300 });
-    return { ok: true, pricing };
+    return { ok: true, pricing, readAtMs: Date.now() };
   } catch (error) {
     cacheLife({ stale: 0, revalidate: 0, expire: 0 }); // never cached, never part of a prerender
     const code = error instanceof PricingReadError ? error.code : "unknown";
@@ -39,8 +42,13 @@ export async function getSharedPricing(product = "lessons"): Promise<SharedPrici
   }
 }
 
-/** The offer to show: the shared price, or "unavailable" (never cached) when it can't be read. */
-export async function getSharedOffer(product = "lessons"): Promise<PriceOffer> {
+/**
+ * The offer at `nowMs` from the shared price, or "unavailable" (never cached) when it can't be read.
+ * Request-time callers pass Date.now() (after connection()); a prerendered part passes "read", the
+ * time the shared price was read, and lets the browser re-check on its own clock.
+ */
+export async function getSharedOffer(product: string, nowMs: number | "read"): Promise<PriceOffer> {
   const shared = await getSharedPricing(product);
-  return shared.ok ? getPriceOffer(shared.pricing) : { state: "unavailable" };
+  if (!shared.ok) return { state: "unavailable" };
+  return getPriceOffer(shared.pricing, nowMs === "read" ? shared.readAtMs : nowMs);
 }

@@ -45,6 +45,7 @@ export async function createCheckoutAction(
 
   try {
     const provider = getPaymentProvider();
+    // The time of this request: an offer that ended after the page was opened is refused here.
     const outcome = await runCheckout(pricing, expectedPriceCents, (priceCents, currency) =>
       provider.createCheckout({
         userId: user.id,
@@ -57,7 +58,8 @@ export async function createCheckoutAction(
           user_id: user.id,
           product,
         },
-      })
+      }),
+      Date.now(),
     );
 
     if (!outcome.ok) {

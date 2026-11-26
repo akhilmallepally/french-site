@@ -6,8 +6,9 @@
 //   Without Supabase config there is no user, so every action answers { status: "signed-out" }.
 // - Card ids are checked against lib/generated/review-card-ids.json, imported as a module (ids and
 //   levels only, no card text; nothing here reads files or imports lib/lessons.ts).
-// - Paid-level cards need access (an active purchase), checked at most once per call: writes are
-//   rejected per entry (no_access), and reads leave them out.
+// - Every card needs access (an active purchase; the daily review is part of lifetime access),
+//   checked at most once per call: without it, writes are rejected per entry (no_access) and reads
+//   return no cards. Stored rows are kept, so a learner who pays later gets them back.
 // - Writes go only through apply_review (0008) with the user's own session client. Logs carry error
 //   codes only, never inputs.
 import { getCurrentUser } from "@/lib/current-user";

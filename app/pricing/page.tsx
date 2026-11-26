@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { connection } from "next/server";
 import { Suspense } from "react";
 import { getCurrentUser } from "@/lib/auth";
 import { hasActiveEntitlement } from "@/lib/purchases";
-import { getSharedOffer } from "@/lib/shared-pricing";
-import { CheckoutButton } from "@/components/checkout-button";
-import { PriceRow, PricingUnavailable } from "@/components/price-offer";
-import { formatPrice } from "@/lib/pricing-offer";
+import { getSharedOffer, getSharedPricing } from "@/lib/shared-pricing";
+import { FounderBuy, FounderPrice } from "@/components/founder-offer";
+import { PricingUnavailable } from "@/components/price-offer";
+import { getPriceOffer } from "@/lib/pricing-offer";
 
 export const metadata: Metadata = {
   title: "Pricing",
@@ -111,8 +112,9 @@ export default function PricingPage() {
           <div>
             <h3 className="font-semibold text-foreground">Is it really a one-time payment?</h3>
             <p className="mt-1 text-sm text-muted">
-              Yes. There are no recurring charges, no subscriptions, and no hidden fees. Pay once and access is yours
-              for life.
+              Yes, for the founding offer. Pay once before it ends on 31 December 2026 (23:59 Bangkok time), or
+              while founder spots remain, and access is yours for life, with no recurring charges. Everyone who
+              already has lifetime access keeps it.
             </p>
           </div>
           <div>
@@ -155,10 +157,10 @@ function PricePlaceholder() {
           <span className="block h-10 w-14 animate-pulse rounded-md bg-border/60" />
           <span className="block h-7 w-11 animate-pulse rounded-md bg-border/60" />
         </span>
-        <span className="block h-5.5 w-20 animate-pulse rounded-full bg-border/60" />
         <span className="text-sm text-muted">one-time · lifetime access</span>
       </div>
       <div className="mt-2 h-5 w-64 max-w-full animate-pulse rounded-md bg-border/60" />
+      <div className="mt-3 h-10 w-56 max-w-full animate-pulse rounded-md bg-border/60" />
     </div>
   );
 }
@@ -168,19 +170,17 @@ function ActionPlaceholder() {
   return <div aria-hidden="true" className="h-11 w-full animate-pulse rounded-full bg-border/60" />;
 }
 
-/** The price everyone sees, from the shared cache (lib/shared-pricing.ts): in the static shell when warm. */
+/**
+ * The price everyone sees, from the shared cache (lib/shared-pricing.ts): in the static shell when
+ * warm. It's decided for the time the price was read; the browser checks again on its own clock and
+ * counts down, switching to the ended state at the deadline.
+ */
 async function LifetimePrice() {
-  const offer = await getSharedOffer("lessons");
-  return (
-    <>
-      {offer.state === "founder" && (
-        <div className="absolute -top-3.5 right-6 rounded-full bg-accent px-3 py-0.5 text-xs font-semibold uppercase tracking-wider text-white">
-          Founding Offer
-        </div>
-      )}
-      {offer.state !== "unavailable" && <PriceRow offer={offer} />}
-    </>
-  );
+  const shared = await getSharedPricing("lessons");
+  if (!shared.ok) return null;
+  const offer = getPriceOffer(shared.pricing, shared.readAtMs);
+  if (offer.state === "unavailable") return null;
+  return <FounderPrice offer={offer} nowMs={shared.readAtMs} ribbon />;
 }
 
 /**
@@ -189,9 +189,11 @@ async function LifetimePrice() {
  * the user and the shared price are read at the same time.
  */
 async function LifetimeAction() {
-  const [user, offer] = await Promise.all([getCurrentUser(), getSharedOffer("lessons")]);
+  const user = await getCurrentUser();
+  await connection(); // the offer below is decided for this request's time
+  const nowMs = Date.now();
+  const offer = await getSharedOffer("lessons", nowMs);
   const isEntitled = user ? await hasActiveEntitlement(user.id, "lessons") : false;
-  const isFounder = offer.state === "founder";
   return isEntitled ? (
     <div className="rounded-xl border border-accent/20 bg-accent/5 p-4 text-center">
       <p className="text-sm font-medium text-accent">You have lifetime access!</p>
@@ -204,20 +206,8 @@ async function LifetimeAction() {
     </div>
   ) : offer.state === "unavailable" ? (
     <PricingUnavailable id="pricing-unavailable" />
-  ) : user ? (
-    <CheckoutButton
-      product="lessons"
-      className="inline-flex min-h-11 w-full items-center justify-center rounded-full bg-accent px-6 py-2.5 font-medium text-white transition hover:opacity-90"
-      label={`${isFounder ? "Get Founder Access" : "Get Lifetime Access"} for ${formatPrice(offer.chargeCents)}`}
-      expectedPriceCents={offer.chargeCents}
-    />
   ) : (
-    <Link
-      href="/sign-in?next=/pricing"
-      className="inline-flex min-h-11 w-full items-center justify-center rounded-full bg-accent px-6 py-2.5 font-medium text-white transition hover:opacity-90"
-    >
-      Sign in with Google to unlock
-    </Link>
+    <FounderBuy offer={offer} nowMs={nowMs} signedIn={!!user} />
   );
 }
 
@@ -275,7 +265,7 @@ function LifetimePlanCard() {
                 clipRule="evenodd"
               />
             </svg>
-            One-time payment. Never a recurring subscription
+            One-time payment during the founding offer
           </li>
           <li className="flex items-center gap-3">
             <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">

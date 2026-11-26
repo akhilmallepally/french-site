@@ -32,7 +32,7 @@ describe("review sync: validation", () => {
     assert.deepEqual(r.rejected, []);
     assert.deepEqual(Object.keys(r).sort(), ["applied", "rejected", "rows", "status"], "the contract: status, applied, rejected, rows");
     assert.deepEqual(r.rows, { [F1]: reviewed(), [F2]: fresh });
-    assert.equal(server.accessChecks, 0, "free cards only: access is never checked");
+    assert.equal(server.accessChecks, 1, "access is checked once per call, free-level cards included");
   });
 
   test("payload problems reject the whole call, and nothing is written", async () => {
@@ -90,32 +90,41 @@ describe("review sync: validation", () => {
     assert.equal(ahead.status === "ok" && ahead.rows[F1].lastReviewedAt, iso(23 * H));
   });
 
-  test("paid cards without access: rejected per entry as no_access, access checked once per call", async () => {
+  test("without access every card is rejected per entry as no_access, free-level ones too; checked once per call", async () => {
     const server = new ReviewFakeServer();
-    const r = await sync(server, [item(P1, reviewed()), item(PAID_IDS[1], fresh), item(F1, reviewed())]);
+    server.access.delete(A);
+    server.of(A).set(F2, reviewed()); // a row from before (a refund, say)
+    const r = await sync(server, [item(P1, reviewed()), item(PAID_IDS[1], fresh), item(F1, reviewed()), { ...item(F2, reviewed()), box: 9 }]);
     assert.equal(r.status, "ok");
     if (r.status !== "ok") return;
-    assert.deepEqual(r.rejected, [{ key: `r:${P1}`, code: "no_access" }, { key: `r:${PAID_IDS[1]}`, code: "no_access" }]);
-    assert.deepEqual(r.applied, [`r:${F1}`]);
-    assert.deepEqual(Object.keys(r.rows), [F1], "no paid row comes back");
+    assert.deepEqual(r.rejected, [
+      { key: `r:${F2}`, code: "bad_box" },
+      { key: `r:${P1}`, code: "no_access" },
+      { key: `r:${PAID_IDS[1]}`, code: "no_access" },
+      { key: `r:${F1}`, code: "no_access" },
+    ]);
+    assert.deepEqual([r.applied, r.rows], [[], {}]);
     assert.equal(server.accessChecks, 1);
+    assert.deepEqual([...server.of(A).keys()], [F2], "the stored row is untouched");
+    // After a purchase, the same entries go through.
     server.access.add(A);
-    const paid = await sync(server, [item(P1, reviewed())]);
-    assert.ok(paid.status === "ok" && paid.applied.length === 1 && paid.rows[P1]);
+    const paid = await sync(server, [item(P1, reviewed()), item(F1, reviewed())]);
+    assert.ok(paid.status === "ok" && paid.applied.length === 2 && paid.rows[P1] && paid.rows[F1]);
     assert.equal(server.accessChecks, 2);
   });
 
-  test("reads leave paid cards out without access (after a refund, say), and unknown rows always", async () => {
+  test("reads return nothing without access (after a refund, say); the rows stay for later; unknown rows never", async () => {
     const server = new ReviewFakeServer();
-    server.access.add(A);
     await sync(server, [item(P1, reviewed()), item(F1, reviewed())]);
     server.of(A).set("zz-removed-lesson-v001", reviewed());
     const withAccess = await runReviewGet(ctx(server));
     assert.deepEqual(withAccess.status === "ok" && Object.keys(withAccess.cards).sort(), [F1, P1].sort());
     server.access.delete(A);
-    const refunded = await runReviewGet(ctx(server));
-    assert.deepEqual(refunded.status === "ok" && Object.keys(refunded.cards), [F1], "the paid row stays in the database, unread");
-    assert.ok(server.of(A).has(P1));
+    assert.deepEqual(await runReviewGet(ctx(server)), { status: "ok", cards: {} });
+    assert.deepEqual([...server.of(A).keys()].sort(), [F1, P1, "zz-removed-lesson-v001"].sort(), "the rows stay in the database, unread");
+    server.access.add(A);
+    const back = await runReviewGet(ctx(server));
+    assert.deepEqual(back.status === "ok" && Object.keys(back.cards).sort(), [F1, P1].sort(), "they come back after a purchase");
   });
 
   test("the user is the session's: another user's payload is refused, and entries can't name a user", async () => {

@@ -1,7 +1,8 @@
 "use server";
 // The card text for /review (docs/plans/review.md, section 11): only the cards asked for, at most 40
-// per call. Free cards (A1, A2) for anyone, also without Supabase config; paid cards only for a
-// signed-in learner with access (an active purchase), checked once per call, otherwise left out.
+// per call, and only for a signed-in learner with access (an active purchase), checked once per
+// call. The daily review is part of lifetime access, so without access (or without Supabase config)
+// nothing comes back, free-level cards included.
 // Its own module, so app/actions/review.ts stays free of card text. The only input is the list of
 // ids: the user and the access check come from the session alone.
 import { getCurrentUser } from "@/lib/current-user";

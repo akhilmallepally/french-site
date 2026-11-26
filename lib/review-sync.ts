@@ -7,7 +7,8 @@
 //   unique, and no field but the eight below (so card text, or anything else, is refused). Any
 //   problem rejects the whole call and nothing is written.
 // - Each entry: the card id in the id index and in the right lesson, the box, the counts, the times
-//   (never more than 24 h ahead, dueAt within 0008's limits), and access for a paid-level card.
+//   (never more than 24 h ahead, dueAt within 0008's limits), and access: the daily review is
+//   part of lifetime access (Prompt 76), so every card, free-level ones included, needs it.
 //   A bad entry is rejected with a code; the others go ahead.
 import { isFreeLevel } from "./free-levels.ts";
 import { checkSyncTime } from "./progress-validate.ts";
@@ -98,8 +99,9 @@ function byteLength(value: unknown): number | null {
 }
 
 /**
- * Validates `{ expectedUserId, items }`. `hasAccess` is called at most once, and only when a valid
- * entry names a paid-level card; without access those entries are rejected as no_access.
+ * Validates `{ expectedUserId, items }`. `hasAccess` is called at most once, and only when some
+ * entry is otherwise valid; without access every such entry is rejected as no_access (free-level
+ * cards too: the daily review is for learners with access). Stored rows are never touched.
  */
 export async function validateReviewPayload(input: unknown, index: ReviewIdIndex, nowMs: number, hasAccess: () => Promise<boolean>): Promise<ReviewPayloadResult> {
   if (!isObj(input)) return { ok: false, code: "bad_payload" };
@@ -130,19 +132,11 @@ export async function validateReviewPayload(input: unknown, index: ReviewIdIndex
     else rejected.push({ key: e.key as string, code: code! });
   }
 
-  let access: boolean | null = null;
-  const valid: ReviewItem[] = [];
-  for (const item of checked) {
-    if (!lookup.get(item.cardId)!.free) {
-      access ??= await hasAccess();
-      if (!access) {
-        rejected.push({ key: item.key, code: "no_access" });
-        continue;
-      }
-    }
-    valid.push(item);
+  if (checked.length && !(await hasAccess())) {
+    for (const item of checked) rejected.push({ key: item.key, code: "no_access" });
+    return { ok: true, expectedUserId, valid: [], rejected };
   }
-  return { ok: true, expectedUserId, valid, rejected };
+  return { ok: true, expectedUserId, valid: checked, rejected };
 }
 
 // ---------- Rows and replies ----------
@@ -176,11 +170,10 @@ const isoMs = (value: string) => {
 };
 
 /** Rows as client card states, keys sorted, times as millisecond ISO. Rows the id index doesn't know are left out. */
-export function rowsToCards(rows: ReviewRow[], lookup: Lookup, hasAccess: boolean): Record<string, CardState> {
+export function rowsToCards(rows: ReviewRow[], lookup: Lookup): Record<string, CardState> {
   const out: Record<string, CardState> = {};
   for (const r of [...rows].sort((a, b) => (a.card_id < b.card_id ? -1 : 1))) {
-    const known = lookup.get(r.card_id);
-    if (!known || (!known.free && !hasAccess)) continue;
+    if (!lookup.get(r.card_id)) continue;
     out[r.card_id] = {
       box: r.box,
       dueAt: isoMs(r.due_at),
@@ -224,17 +217,16 @@ export async function runReviewSync(input: unknown, ctx: ReviewContext): Promise
   const sent = new Set(checked.valid.map((i) => i.key));
   const reply = readApplyReply(await ctx.db.apply(checked.valid), sent);
   if (!reply) return { status: "unavailable" };
-  const lookup = cardLookup(ctx.index);
-  // Every card read back was just accepted, so access is already settled for the paid ones.
-  const anyPaid = checked.valid.some((i) => !lookup.get(i.cardId)!.free);
-  const rows = rowsToCards(await ctx.db.read([...new Set(checked.valid.map((i) => i.cardId))].sort()), lookup, anyPaid ? await hasAccess() : false);
+  // Valid entries exist only with access, so the rows read back are the learner's to see.
+  const rows = rowsToCards(await ctx.db.read([...new Set(checked.valid.map((i) => i.cardId))].sort()), cardLookup(ctx.index));
   return { status: "ok", applied: reply.applied, rejected: [...checked.rejected, ...reply.rejected], rows };
 }
 
-/** getReviewAction after the session check: all the user's cards, without paid ones unless they have access. */
+/**
+ * getReviewAction after the session check: all the user's cards with access, nothing without
+ * (the rows aren't even read, and stay in the database for when the learner has access again).
+ */
 export async function runReviewGet(ctx: Omit<ReviewContext, "nowMs">): Promise<ReviewGetReply> {
-  const rows = await ctx.db.readAll();
-  const lookup = cardLookup(ctx.index);
-  const anyPaid = rows.some((r) => lookup.get(r.card_id)?.free === false);
-  return { status: "ok", cards: rowsToCards(rows, lookup, anyPaid ? await once(ctx.hasAccess)() : false) };
+  if (!(await once(ctx.hasAccess)())) return { status: "ok", cards: {} };
+  return { status: "ok", cards: rowsToCards(await ctx.db.readAll(), cardLookup(ctx.index)) };
 }

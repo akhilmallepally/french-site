@@ -60,12 +60,19 @@ function walk(d: string): string[] {
 /** Leaks in every file under `dirs`: "file: card id fields". */
 export function findLeaks(dirs: string[], needles: Needle[]): string[] {
   const leaks: string[] = [];
+  // Whole-word patterns for non-code files, compiled once (not per file).
+  const words = new Map<string, RegExp>();
+  const wordRe = (s: string) => {
+    let re = words.get(s);
+    if (!re) words.set(s, (re = new RegExp(`(?<![\\p{L}\\p{N}])${escapeRe(s)}(?![\\p{L}\\p{N}])`, "u")));
+    return re;
+  };
   for (const file of dirs.flatMap(walk)) {
     if (/\.(png|jpe?g|gif|webp|avif|ico|woff2?|ttf|otf|map)$/i.test(file)) continue;
     const text = fs.readFileSync(file, "utf8");
     const literals = /\.(js|mjs|cjs)$/.test(file) ? stringLiterals(text) : null;
-    const has = (s: string | null) =>
-      s !== null && (literals ? literals.has(s) : new RegExp(`(?<![\\p{L}\\p{N}])${escapeRe(s)}(?![\\p{L}\\p{N}])`, "u").test(text));
+    // A plain substring test first: most needles aren't in the file at all.
+    const has = (s: string | null) => s !== null && (literals ? literals.has(s) : text.includes(s) && wordRe(s).test(text));
     for (const n of needles) {
       const fr = has(n.fr);
       const en = has(n.en);

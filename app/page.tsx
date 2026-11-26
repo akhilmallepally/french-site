@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 // Every card links somewhere; the unlinked style below stays for a card without a page.
-const features: { title: string; body: string; href?: string }[] = [
+const features: { title: string; body: string; href?: string; label?: string }[] = [
   { title: "Clear lessons", body: "Short, focused lessons with vocab tables and real examples. No fluff.", href: "/pricing" },
   { title: "Practice", body: "Every unit review in one place, with your best score.", href: "/practice" },
-  { title: "Daily review", body: "A few minutes a day to keep the words you've learned.", href: "/review" },
+  { title: "Daily review", body: "A few minutes a day to keep the words you've learned.", href: "/review", label: "Lifetime access" },
 ];
 
 const focusRing = "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
@@ -51,6 +51,11 @@ export default function Home() {
                 </span>
               </h2>
               <p className="mt-2 text-sm leading-relaxed text-muted">{f.body}</p>
+              {f.label && (
+                <span className="mt-3 inline-block rounded-full border border-accent/20 bg-accent/10 px-2.5 py-0.5 text-xs font-semibold text-accent">
+                  {f.label}
+                </span>
+              )}
             </Link>
           ) : (
             <div key={f.title} className="rounded-2xl border border-border bg-card p-6">

@@ -2,6 +2,8 @@
 
 This sets up the Supabase tables for profiles, learner progress and payments, protected by row level security (RLS). The SQL is in `supabase/`. The app reads and writes `purchases` and `pricing_settings` (payments). It doesn't use the progress tables yet: see "Not done yet" at the end and docs/plans/progress.md.
 
+**0009 (the founding offer's deadline) must run before the Pricing v2 code is deployed:** the app reads `pricing_settings.founder_ends_at`, and without it pricing shows as unavailable and checkout refuses. Steps: "Founder deadline (0009)" under section 1.
+
 **0008 (daily review) has not been run anywhere yet:** run it with the steps in "Daily review (0008)" under section 1.
 
 **0006 has not been run anywhere yet.** It was written without connecting to any database (no local Postgres or Supabase CLI was available). Run it yourself, in the order below, and run the RLS test before relying on it.
@@ -28,6 +30,9 @@ select to_regprocedure('public.apply_progress(jsonb)') is not null as has_0006;
 
 -- Is 0008 already in? (true = yes)
 select to_regprocedure('public.apply_review(jsonb)') is not null as has_0008;
+
+-- Is 0009 already in? (true = yes)
+select exists (select 1 from information_schema.columns where table_schema = 'public' and table_name = 'pricing_settings' and column_name = 'founder_ends_at') as has_0009;
 ```
 
 Expected before 0006: `exercise_results`, `lesson_progress`, `lesson_scores`, `pricing_settings`, `profiles`, `purchases` and `saved_vocab`; `lesson_scores` count 0; `true` and `true` for every table. If a table is missing, run the migrations it belongs to (section 1) first.
@@ -64,6 +69,49 @@ In the SQL Editor, for each file below, paste the whole file, click **Run**, and
    - It signs in as the test account in .env.local (PROGRESS_TEST_EMAIL and PROGRESS_TEST_PASSWORD) and runs the review actions' real path against your database: read-back, rejections, idempotency, the access rule, and the 6,000-card cap.
    - It deletes the account's review cards at the end with the account's own delete policy.
    - It stops if the account already has review cards; add `-- --reuse` to run anyway, or `-- --skip-cap` to leave out the cap check (about 30 calls).
+
+9. `supabase/migrations/0009_founder_deadline.sql`: the founding offer's deadline (Pricing v2, step 1).
+   - It adds `pricing_settings.founder_ends_at` (not null) and sets it to `2026-12-31T16:59:00Z` (23:59 on 31 December 2026 in Bangkok) for every row.
+   - The founder price is live only while spots remain and `now()` is before it. The app works that out on every request and at checkout.
+   - A trigger (`guard_founder_deadline`) refuses any later change to `founder_ends_at` unless the transaction first runs `select set_config('app.allow_founder_deadline_change', 'on', true);`. A dashboard edit fails; a new migration does that on purpose.
+   - Run it after 0005.
+
+**Founder deadline (0009), your steps in the Supabase SQL editor:**
+
+1. Paste the whole of `supabase/migrations/0009_founder_deadline.sql`, click **Run**, and check it says "Success". It runs in one transaction and changes nothing if it stops.
+2. Paste the whole of `supabase/tests/rls.sql` (it now needs 0001 to 0009), click **Run**, and check that the last notice is "PASS: ALL RLS CHECKS PASSED". It ends in ROLLBACK and leaves nothing behind.
+3. Open **Advisors**, then **Security Advisor**, click **Refresh**, and check nothing new appears for `guard_founder_deadline`.
+4. Then deploy the Pricing v2 code. Before 0009, the deployed code shows pricing as unavailable.
+5. Undo: `supabase/rollback/0009_founder_deadline.sql` (it drops the column and the guard; the app then shows pricing as unavailable until 0009 runs again).
+
+**Test accounts (lifetime access without a founder spot):** the daily review is for learners with access, so the e2e and production smoke tests need the test account (PROGRESS_TEST_EMAIL in .env.local) to have access.
+- A founder spot is an active `lessons` purchase whose amount is at most the founder price (`get_founder_spots_left`). This grant's amount is one cent above it, so it never takes a spot, as in `supabase/tests/rls.sql`.
+- It's a manual record, not revenue. Its `provider_order_id` starts with `manual-test-access-`, so it's easy to find and leave out of reports.
+- Run it in the SQL editor of the project the tests use, replacing the email:
+
+```sql
+-- Grant the test account lifetime access without using a founder spot. Safe to run twice.
+insert into public.purchases (user_id, product, status, provider, provider_order_id, amount, currency)
+select u.id, 'lessons', 'active', 'dodo', 'manual-test-access-' || u.id::text, ps.founder_price_cents + 1, ps.currency
+  from auth.users as u
+  join public.pricing_settings as ps on ps.product = 'lessons'
+ where lower(u.email) = lower('TEST-ACCOUNT-EMAIL')
+on conflict (provider_order_id) do nothing;
+
+-- Check: one row here, status active, amount one cent above the founder price; and the founder spots
+-- are the same as before. No row means the email didn't match an account (compare with PROGRESS_TEST_EMAIL).
+select p.status, p.amount, p.provider_order_id
+  from public.purchases as p join auth.users as u on u.id = p.user_id
+ where lower(u.email) = lower('TEST-ACCOUNT-EMAIL');
+select public.get_founder_spots_left('lessons') as founder_spots_left;
+```
+
+To take the access away again:
+
+```sql
+delete from public.purchases where provider_order_id like 'manual-test-access-%'
+   and user_id = (select id from auth.users where lower(email) = lower('TEST-ACCOUNT-EMAIL'));
+```
 
 Each file is safe to run again (`create table if not exists`, `create or replace function`, `drop ... if exists` before each trigger and policy). Running them again doesn't change data. One exception: if you change a column in a file after the table exists, `create table if not exists` won't apply it. Write a new numbered migration for that.
 

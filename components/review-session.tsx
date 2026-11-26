@@ -8,7 +8,7 @@ import { getCardTextAction } from "@/app/actions/review-text";
 import cardIndex from "@/lib/generated/review-card-ids.json";
 import { progressStore } from "@/lib/progress";
 import { reviewStore } from "@/lib/review";
-import { rememberAccess, rememberedAccess, sessionUser } from "@/lib/review-access";
+import { rememberAccess, sessionUser } from "@/lib/review-access";
 import type { ReviewIdIndex } from "@/lib/review-catalogue";
 import { buildSession, calendarFor, currentCard, deckAdditions, deckIndex, practisedLessons, type Grade } from "@/lib/review-scheduler";
 import {
@@ -28,9 +28,6 @@ import {
 import type { CardText } from "@/lib/review-text";
 
 const INDEX = deckIndex(cardIndex as ReviewIdIndex);
-// Written out in full so Next.js inlines them.
-const SYNC_ON =
-  process.env.NEXT_PUBLIC_REVIEW_SYNC === "on" && Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY);
 const ERROR_TEXT = "Couldn't load your cards. Check your connection and try again.";
 
 const focusRing = "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
@@ -54,7 +51,6 @@ export function ReviewSession() {
   const [view, setView] = useState<View>({ kind: "loading" });
   const [counts, setCounts] = useState<TodayCounts | null>(null);
   const [nextDue, setNextDue] = useState<string | null>(null);
-  const [signInLine, setSignInLine] = useState(false);
   const texts = useRef(new Map<string, CardText>());
   const drawnThisVisit = useRef<string[]>([]);
   const access = useRef(false);
@@ -81,7 +77,10 @@ export function ReviewSession() {
       try {
         const now = Date.now();
         const user = sessionUser();
-        access.current = rememberedAccess(user);
+        // The page renders this only after the server confirmed access (app/review/page.tsx); the
+        // text action checks it again on every call.
+        access.current = true;
+        rememberAccess(user, true);
         let { practised, data } = await refreshCounts();
         const free = deckAdditions(INDEX, data.cards, practised, false);
         if (free.length) {
@@ -133,7 +132,6 @@ export function ReviewSession() {
   );
 
   useEffect(() => {
-    setSignInLine(SYNC_ON && !sessionUser());
     void loadBatch("start");
     const unsubscribe = reviewStore.subscribe(() => void refreshCounts());
     return unsubscribe;
@@ -231,14 +229,6 @@ export function ReviewSession() {
         )}
       </div>
 
-      {signInLine && (
-        <p className="mt-6 text-sm text-muted">
-          Sign in to keep your review across devices.{" "}
-          <Link href="/sign-in?next=/review" className={`font-medium text-accent underline-offset-2 hover:underline ${focusRing}`}>
-            Sign in
-          </Link>
-        </p>
-      )}
     </div>
   );
 }

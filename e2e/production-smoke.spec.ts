@@ -1,6 +1,7 @@
 // Production smoke test of progress sync, then the daily review, against the live site
 // (npm run test:prod-smoke). The review part runs after the progress part (serial) and needs
-// NEXT_PUBLIC_REVIEW_SYNC=on in the live build.
+// NEXT_PUBLIC_REVIEW_SYNC=on in the live build, and (Prompt 76) the test account needs lifetime access:
+// grant it with the SQL in docs/db-setup.md ("Test accounts"), which never uses a founder spot.
 // Signs in as the TEST account (PROGRESS_TEST_EMAIL / PROGRESS_TEST_PASSWORD in .env.local) with
 // the real @supabase/ssr cookies, since the site itself offers Google sign-in only. Reads and deletes
 // only that account's own rows, through its own session and the RLS policies (never the service role).
@@ -51,6 +52,11 @@ async function signIn(context: BrowserContext, baseURL: string) {
 
 /** Answers the whole set: "x" in typed answers, the first choice, the words in the given order. Mostly wrong on purpose. */
 async function doFullRun(page: Page) {
+  // Clicks before hydration are lost: wait until React has hydrated the practice section.
+  await page.waitForFunction(() => {
+    const el = document.querySelector("#practice form button, #practice form input");
+    return !!el && Object.keys(el).some((k) => k.startsWith("__reactProps"));
+  }, undefined, { timeout: 20_000 });
   for (let step = 0; step < 40; step++) {
     if (await page.getByText("Practice finished").count()) return;
     const input = page.locator('input[aria-label="Your answer"]');
@@ -174,6 +180,7 @@ test("progress sync on the live site", async ({ browser, baseURL }) => {
 const REVIEW_LESSON = "/lessons/a1/greetings";
 const REVIEW_CARDS = 8;
 const REVIEW_TABLES = ["review_cards", ...TABLES] as const;
+const REVIEW_LOCKED = "Daily review is part of lifetime access: a few minutes a day to keep the words you've learned.";
 const REVIEW_FLAG_OFF = "Review sync is not on in production; set it to exactly on and redeploy without the build cache.";
 
 /** test.step, printing one line per step: PASS or FAIL. */
@@ -221,6 +228,9 @@ test("daily review on the live site", async ({ browser, baseURL }) => {
 
   try {
     await step("R0. review sync is on in the live build: signed in, /review gets an \"ok\" reply from the review get action", async () => {
+      // The daily review is for learners with access (Prompt 76): without it /review never loads the store.
+      const { data: active } = await db.from("purchases").select("status").eq("user_id", userId).eq("status", "active");
+      if (!active?.length) throw new Error("The test account has no lifetime access in production: run the \"Test accounts\" SQL in docs/db-setup.md first.");
       const reply = page.waitForResponse(isReviewGetOk, { timeout: 10_000 }).catch(() => null);
       await page.goto("/review");
       const got = await reply;
@@ -269,12 +279,29 @@ test("daily review on the live site", async ({ browser, baseURL }) => {
       await second.close();
     });
 
-    await step("R4. sign out on device 1: /review no longer shows the account's cards", async () => {
+    await step("R4. sign out on device 1: /review no longer shows the account's cards, and explains it's part of lifetime access", async () => {
       await page.getByRole("button", { name: "Sign out" }).click();
       await page.waitForTimeout(1500);
       await page.goto("/review");
-      await expect(page.getByText("Practise a lesson to add its words to your review.")).toBeVisible({ timeout: 15_000 });
-      await expect(page.getByText("Sign in to keep your review across devices.")).toBeVisible();
+      await expect(page.getByText(REVIEW_LOCKED)).toBeVisible({ timeout: 15_000 });
+      await expect(page.getByTestId("review-fr")).toHaveCount(0);
+    });
+
+    await step("R4b. a free learner (a fresh browser, signed out): the explanation, and no card text in any reply", async () => {
+      const free = await browser.newContext();
+      const p = await free.newPage();
+      const bodies: string[] = [];
+      p.on("response", async (r) => {
+        if (r.request().method() === "POST") bodies.push(await r.text().catch(() => ""));
+      });
+      await p.goto(REVIEW_LESSON);
+      await doFullRun(p);
+      await p.goto("/review");
+      await expect(p.getByText(REVIEW_LOCKED)).toBeVisible({ timeout: 15_000 });
+      await p.waitForTimeout(1500);
+      expect(await p.getByTestId("review-fr").count()).toBe(0);
+      expect(bodies.some((b) => /"cards":\{"/.test(b)), "no card text or card state came back").toBe(false);
+      await free.close();
     });
 
     await step("R5. clean up the account's review and progress rows with its own session", async () => {

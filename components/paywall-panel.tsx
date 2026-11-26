@@ -1,15 +1,17 @@
 import Link from "next/link";
-import { CheckoutButton } from "@/components/checkout-button";
-import { PriceRow, PricingUnavailable } from "@/components/price-offer";
-import { formatPrice, type PriceOffer } from "@/lib/pricing-offer";
+import { FounderBuy, FounderPrice } from "@/components/founder-offer";
+import { PricingUnavailable } from "@/components/price-offer";
+import type { PriceOffer } from "@/lib/pricing-offer";
 
 interface PaywallPanelProps {
-  /** From getPriceOffer(getActivePricing()), the same source as the pricing card and checkout. */
+  /** From getSharedOffer for this request's time: the same rules as the pricing card and checkout. */
   offer: PriceOffer;
+  /** The request's time: the countdown starts from it, then follows the browser's clock. */
+  nowMs: number;
   next?: string;
 }
 
-export function PaywallPanel({ offer }: PaywallPanelProps) {
+export function PaywallPanel({ offer, nowMs }: PaywallPanelProps) {
   const isFounder = offer.state === "founder";
 
   return (
@@ -21,20 +23,22 @@ export function PaywallPanel({ offer }: PaywallPanelProps) {
         Continue your learning from B1 to Mastery
       </h2>
       <p className="mx-auto mt-4 max-w-xl text-muted leading-relaxed">
-        You&apos;ve finished the free levels. Bravo! We hope A1 and A2 were useful. B1 to C2 is a one-time
-        payment, with all future written lessons and curriculum updates included.
+        You&apos;ve finished the free levels. Bravo! We hope A1 and A2 were useful. During the founding offer,
+        B1 to C2 is a one-time payment, with all future written lessons and curriculum updates included.
       </p>
 
-      {offer.state !== "unavailable" && <PriceRow offer={offer} centered />}
+      {offer.state !== "unavailable" && <FounderPrice offer={offer} nowMs={nowMs} centered />}
 
       <div className="mt-6 flex justify-center">
         {offer.state === "unavailable" ? (
           <PricingUnavailable id="paywall-pricing-unavailable" className="px-8" />
         ) : (
-          <CheckoutButton
-            product="lessons"
-            label={`${isFounder ? "Get founder access" : "Get lifetime access"} for ${formatPrice(offer.chargeCents)}`}
-            expectedPriceCents={offer.chargeCents}
+          <FounderBuy
+            offer={offer}
+            nowMs={nowMs}
+            signedIn
+            labelPrefix="Get founder access"
+            className="inline-flex min-h-11 items-center justify-center rounded-full bg-accent px-8 py-2.5 font-medium text-white transition hover:opacity-90 disabled:cursor-not-allowed focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           />
         )}
       </div>

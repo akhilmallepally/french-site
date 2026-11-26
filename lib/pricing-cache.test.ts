@@ -5,17 +5,19 @@ import { hasActivePurchase, type EntitlementClient } from "./entitlement.ts";
 import { getPriceOffer, runCheckout, type PricingInput } from "./pricing-offer.ts";
 import { loadPricing, PricingReadError, pricingChangingOutcome, type PricingClient } from "./pricing-source.ts";
 
-const live = (spotsLeft: number): PricingInput => ({ available: true, spotsLeft, founderPriceCents: 800, standardPriceCents: 1200, founderCap: 100, currency: "usd" });
+const ENDS = "2026-12-31T16:59:00.000Z";
+const NOW = Date.parse("2026-12-01T00:00:00Z");
+const live = (spotsLeft: number): PricingInput => ({ available: true, spotsLeft, founderPriceCents: 800, standardPriceCents: 1200, founderCap: 100, currency: "usd", founderEndsAt: ENDS });
 
 describe("a cached price can never be charged", () => {
   test("the page shows the cached founder price, the last spot has gone: checkout refuses, nothing is charged", async () => {
-    const cached = getPriceOffer(live(1)); // what the cached page shows
+    const cached = getPriceOffer(live(1), NOW); // what the cached page shows
     assert.equal(cached.state === "founder" && cached.chargeCents, 800);
     const charged: number[] = [];
-    const outcome = await runCheckout(live(0), cached.state === "unavailable" ? undefined : cached.chargeCents, async (cents) => {
+    const outcome = await runCheckout(live(0), cached.state === "founder" ? cached.chargeCents : undefined, async (cents) => {
       charged.push(cents);
       return {};
-    });
+    }, NOW);
     assert.equal(outcome.ok, false);
     if (!outcome.ok) assert.equal(outcome.status, "price-changed");
     assert.deepEqual(charged, []);
@@ -23,8 +25,15 @@ describe("a cached price can never be charged", () => {
 
   test("the page's price is only compared: the amount charged is always the live one", async () => {
     const charged: number[] = [];
-    await runCheckout(live(0), 1200, async (cents) => (charged.push(cents), {}));
-    assert.deepEqual(charged, [1200]);
+    await runCheckout({ ...live(5), founderPriceCents: 900 }, 900, async (cents) => (charged.push(cents), {}), NOW);
+    assert.deepEqual(charged, [900]);
+  });
+
+  test("the cache holds the numbers and the deadline, never the 'is live' answer", () => {
+    // The same cached pricing is live a minute before the deadline and ended a minute after.
+    const cached = live(5);
+    assert.equal(getPriceOffer(cached, Date.parse(ENDS) - 60_000).state, "founder");
+    assert.equal(getPriceOffer(cached, Date.parse(ENDS) + 60_000).state, "ended");
   });
 });
 
@@ -43,12 +52,12 @@ function fakeClient(settings: { data: unknown; error: unknown }, spots: { data: 
   } as unknown as PricingClient;
   return { client, maxInFlight: () => maxInFlight };
 }
-const row = { founder_price_cents: 800, standard_price_cents: 1200, founder_cap: 100, currency: "USD" };
+const row = { founder_price_cents: 800, standard_price_cents: 1200, founder_cap: 100, currency: "USD", founder_ends_at: "2026-12-31T16:59:00+00:00" };
 
 describe("loadPricing (what the shared cache stores)", () => {
   test("reads the settings and the founder spots in parallel", async () => {
     const f = fakeClient({ data: row, error: null }, { data: 37, error: null });
-    assert.deepEqual(await loadPricing(f.client), { available: true, spotsLeft: 37, founderPriceCents: 800, standardPriceCents: 1200, founderCap: 100, currency: "usd" });
+    assert.deepEqual(await loadPricing(f.client), { available: true, spotsLeft: 37, founderPriceCents: 800, standardPriceCents: 1200, founderCap: 100, currency: "usd", founderEndsAt: ENDS });
     assert.equal(f.maxInFlight(), 2, "both calls at once");
   });
 
@@ -58,6 +67,8 @@ describe("loadPricing (what the shared cache stores)", () => {
       ["no active row", fakeClient({ data: null, error: null }, { data: 3, error: null })],
       ["spots error", fakeClient({ data: row, error: { code: "42501" } }, { data: null, error: null })],
       ["spots not a number", fakeClient({ data: row, error: null }, { data: "3", error: null })],
+      ["no deadline (before 0009)", fakeClient({ data: { ...row, founder_ends_at: null }, error: null }, { data: 3, error: null })],
+      ["a bad deadline", fakeClient({ data: { ...row, founder_ends_at: "soon" }, error: null }, { data: 3, error: null })],
     ];
     for (const [name, f] of cases) await assert.rejects(loadPricing(f.client), PricingReadError, name);
   });

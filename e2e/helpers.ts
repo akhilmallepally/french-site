@@ -26,6 +26,11 @@ export async function signIn(context: BrowserContext) {
 
 /** Answers every exercise of the run (whatever the answer) until "Practice finished". */
 export async function doFullRun(page: Page) {
+  // Clicks before hydration are lost: wait until React has hydrated the practice section.
+  await page.waitForFunction(() => {
+    const el = document.querySelector("#practice form button, #practice form input");
+    return !!el && Object.keys(el).some((k) => k.startsWith("__reactProps"));
+  }, undefined, { timeout: 20_000 });
   for (let step = 0; step < 40; step++) {
     if (await page.getByText("Practice finished").count()) return;
     const input = page.locator('input[aria-label="Your answer"]');

@@ -565,3 +565,59 @@
 - **Progress:** unchanged. The progress part never read the bundle's text; it checks behaviour (the rows on the server, the second device).
 - **No app code changed.** test:prod-smoke wasn't run here.
 - **Checks:** tsc passes, and `npx playwright test --list --config playwright.prod.config.ts` lists both tests ("progress sync on the live site", "daily review on the live site").
+
+## Pricing v2, step 1: founding deadline, countdown, banner, paid-only daily review; the subscription plan (Prompt 76)
+
+**Part A: built.**
+- **Migration 0009** (supabase/migrations/0009_founder_deadline.sql, with its rollback; rollback_all now covers 0001 to 0009):
+  - It adds `pricing_settings.founder_ends_at` (not null), set to 2026-12-31T16:59:00Z.
+  - A trigger, `guard_founder_deadline`, refuses any change unless the transaction sets `app.allow_founder_deadline_change` (only a migration does).
+  - rls.sql needs 0009. It checks the value, the not-null, the guard's properties, a refused change, a deliberate change (undone), and that anon reads the column but can't change it.
+  - The owner fixed 0009 before running it: `pg_catalog.coalesce` isn't valid, because COALESCE, GREATEST, LEAST and NULLIF are SQL syntax, not functions. The owner then ran 0009 and rls.sql (all passed) and the test-account grant.
+  - **SQL checks:** every migration, rollback, rls.sql and the db-setup.md SQL parse with the real Postgres parser (libpg_query in the scratchpad, not a project dependency), and a planted CASE-in-IF bug is caught. The new `npm run check:sql` (no dependencies) flags schema-qualified COALESCE, GREATEST, LEAST or NULLIF; 24 SQL sources are clean.
+- **The deadline, enforced on the server:**
+  - lib/pricing-offer.ts has three states: `founder` (spots > 0 AND now < founder_ends_at), `ended` (`deadline` or `sold-out`) and `unavailable`. The old "standard lifetime price" state is gone.
+  - Every decision takes an explicit time. The 60-second shared cache holds the numbers, the spots, the deadline and when it was read (`readAtMs`), never the "is it live" answer.
+  - **Checkout** (`runCheckout(…, Date.now())`) refuses $8 after the deadline, or once the spots are gone, with `price-changed` and "The founding offer has ended. A new plan is coming soon.", even from a page opened before. Tested with an injected clock (1 ms before and after, after the deadline whatever the spots, and the spots running out first).
+  - **Pages:** lesson access and the pricing button slot use the request's time (after `connection()`). The prerendered price uses `readAtMs`, and the browser re-checks on its own clock.
+  - A missing or bad deadline fails closed: pricing shows as unavailable (seen at build before 0009: code 42703).
+  - The struck-through "$12 regular price" and "Save 33%" are removed: there's no lifetime price after the offer to compare with.
+- **Countdown** (components/founder-offer.tsx; the clock hook is components/use-founder-clock.ts):
+  - "Founding offer ends in 12 days 4 hours" (hours and minutes in the last 24 hours), plus "Ends 31 Dec, 23:59 Bangkok time". The server renders it in Bangkok time, then the browser switches to the visitor's zone and city ("17:59 Paris time").
+  - The spots line reads "Founder price for the first 100 learners."
+  - It updates each minute and exactly at the deadline, with no hydration mismatch (the first browser render uses the server's time).
+  - Screen readers get one static sentence ("The founding offer ends on 31 December 2026 at 23:59 Bangkok time."); the ticking text is aria-hidden, with no live region.
+  - At zero on an open page it switches to "The founding offer has ended. New plan coming soon." with a disabled button, and the page no longer offers $8.
+  - The FAQ, the card's bullet, the paywall and the sign-in panel ("$8 founding price until 31 December 2026") are updated. llms.txt states the 31 December 2026 end, with no price numbers.
+- **Reminder banner** (components/founder-banner.tsx, founder-banner-slot.tsx, lib/founder-banner.ts):
+  - A slim region at the top of every page: "Founding offer: $8 for lifetime access, ends in 12 days. See pricing →" with a Dismiss button.
+  - It shows only while the offer is live, never on /pricing or /checkout, and never for learners with access.
+  - It's rendered on the server from the cached price only, so pages stay prerendered. They now revalidate each minute with the price.
+  - An inline pre-paint script hides it before first paint when it's dismissed (3 days) or for a learner remembered to have access (with a session cookie), so nothing shifts. It's back in the last 48 hours even if dismissed.
+  - The access check (`getAccessAction`, new app/actions/access.ts) runs in the background, only with a session cookie, so signed-out visitors make no call. The answer is remembered in `parlons-access-v1`, shared with the review and /progress.
+  - Fixed during the browser test: the banner's clock ticks once a minute, so a fresh dismissal was "ahead" of it and ignored by the wrong-clock guard. Dismissals up to a day ahead now count.
+- **Daily review for paid learners only:**
+  - `syncReviewAction`, `getReviewAction` and `getCardTextAction` require access for every card, free-level ones included. Writes are rejected per entry as `no_access`, and reads and text return nothing (`cards: {}`). Stored rows are untouched and come back after a purchase.
+  - /review checks access at request time in a streamed slot. Without access it shows "Daily review is part of lifetime access: a few minutes a day to keep the words you've learned.", the price with its countdown, "See pricing", and (signed out) "Already have access? Sign in". No deck is built and no text is fetched; cards in the browser stay, hidden.
+  - The session's "Sign in to keep your review" line is removed.
+  - The home card keeps its /review link, with a "Lifetime access" label.
+  - The /progress line shows only for learners with access (the remembered answer, so it never appears late).
+- **Test account:** docs/db-setup.md has the "Test accounts" SQL. It's a purchase one cent above the founder price, so it never takes a founder spot (as in rls.sql), with `provider_order_id` 'manual-test-access-…', plus a check query and the undo. Emails are compared case-insensitively. Verified: the test account's own session reads one active purchase (801), and the founder spots stay at 99.
+- **e2e and the smoke test:**
+  - review.spec.ts runs as a paid learner (it stops at once without access) and adds an offline-and-Retry step mid-session. A free-learner test checks the explanation, no card text in the page or any reply, and the browser's cards untouched.
+  - The new pricing.spec.ts uses Playwright's fake clock: the open-page switch at the deadline, the visitor's zone, the static screen-reader sentence, and the banner (shown, not on /pricing, Dismiss by keyboard, 3 days, the last 48 hours), all with no hydration errors.
+  - e2e/helpers.ts `doFullRun` (and the smoke test's copy) now waits for hydration before the first click. A click before hydration was lost, which timed out the progress spec.
+  - test:prod-smoke: R0 first checks the test account has access; R4 expects the explanation; the new R4b checks a free learner in a fresh browser.
+- **Pages:** the terms ("3. Lifetime Access") and refund pages state the deadline (31 December 2026, 23:59 Bangkok time, or earlier once the founder places are taken; the same for everyone; existing lifetime access kept). No subscription wording yet.
+
+**Part B: plan only** (docs/plans/subscription.md):
+- Dodo's subscription product, checkout, customer portal, events and payloads (with source URLs).
+- The events we need and what each does.
+- The data: a `subscriptions` table, and entitlement = lifetime OR active within the period plus a 7-day grace.
+- The rules, the UI, the pages, and 6 rollout steps finishing by 20 December 2026.
+- 5 open questions.
+- **The subscription must ship before the founding offer ends.** At the deadline, or as soon as the spots run out, nothing can be bought until it exists.
+
+**Checks:** all pass.
+- validate:content, test:content, test:checker (36), test:review (90), test:progress (140), test:progress-e2e (6 of 6, then `npm run build`), tsc and build (358/358).
+- test:no-supabase-env, test:gating (on a fresh server: the countdown, the banner, the review lock and no card text without access), test:webhook (73, including a payment confirmed after the deadline still being granted), test:checkout (31), test:safe-next (7) and check:sql.

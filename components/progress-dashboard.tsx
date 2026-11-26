@@ -16,10 +16,16 @@ type Loaded = { data: ProgressData; mode: ProgressMode; notice: string | null; r
 
 const REVIEW_INDEX = deckIndex(cardIndex as ReviewIdIndex);
 
-/** "N cards due today", "No cards due today", or null before any lesson is practised. */
+/**
+ * "N cards due today", "No cards due today", or null before any lesson is practised, and always null
+ * for learners without access: the daily review is part of lifetime access (Prompt 76). Access comes
+ * from the answer the server gave this browser last (the banner's check runs on every page for a
+ * signed-in visitor), so the line never appears late and moves the page.
+ */
 function reviewLine(data: ProgressData, review: ReviewData): string | null {
+  if (!rememberedAccess(sessionUser())) return null;
   const practised = practisedLessons(data);
-  const counts = todayCounts({ index: REVIEW_INDEX, cards: review.cards, practised, hasAccess: rememberedAccess(sessionUser()), nowMs: Date.now(), cal: calendarFor(), log: review.today });
+  const counts = todayCounts({ index: REVIEW_INDEX, cards: review.cards, practised, hasAccess: true, nowMs: Date.now(), cal: calendarFor(), log: review.today });
   return dueLine(counts, practised);
 }
 

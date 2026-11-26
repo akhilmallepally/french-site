@@ -7,13 +7,14 @@ import { isFreeLevel, type LessonAccess, type LessonMeta } from "@/lib/lessons";
 import { hasActiveEntitlement } from "@/lib/purchases";
 import type { PriceOffer } from "@/lib/pricing-offer";
 import { getSharedOffer } from "@/lib/shared-pricing";
+import { connection } from "next/server";
 
 export { getCurrentUser, type CurrentUser } from "@/lib/current-user";
 
 export type LessonAccessResult =
   | { status: "granted"; access: LessonAccess }
-  | { status: "signed-out"; offer: PriceOffer }
-  | { status: "unpaid"; offer: PriceOffer };
+  | { status: "signed-out"; offer: PriceOffer; nowMs: number }
+  | { status: "unpaid"; offer: PriceOffer; nowMs: number };
 
 
 /** Access to an A1 or A2 lesson. Reads no request data, so free lessons stay prerendered. */
@@ -29,6 +30,7 @@ export function grantFreeAccess(meta: LessonMeta): LessonAccess {
  *   * If signed out -> status: "signed-out"
  *   * If signed in and entitled -> status: "granted" with LessonAccess proof
  *   * If signed in but unpaid -> status: "unpaid" with live pricing & founder spots
+ * The offer is worked out for the time of this request (nowMs), never taken from the price cache.
  */
 export async function checkLessonAccess(meta: LessonMeta): Promise<LessonAccessResult> {
   if (isFreeLevel(meta.level)) {
@@ -36,18 +38,20 @@ export async function checkLessonAccess(meta: LessonMeta): Promise<LessonAccessR
   }
 
   const user = await getCurrentUser();
+  await connection(); // request time, so the clock below is this request's (also with no Supabase config)
+  const nowMs = Date.now();
   if (!user) {
     // The price comes from the shared cache: a signed-out visitor makes no auth or database call.
-    return { status: "signed-out", offer: await getSharedOffer("lessons") };
+    return { status: "signed-out", offer: await getSharedOffer("lessons", nowMs), nowMs };
   }
 
   // Access and the (shared, cached) price at the same time.
-  const [isEntitled, offer] = await Promise.all([hasActiveEntitlement(user.id, "lessons"), getSharedOffer("lessons")]);
+  const [isEntitled, offer] = await Promise.all([hasActiveEntitlement(user.id, "lessons"), getSharedOffer("lessons", nowMs)]);
   if (isEntitled) {
     return { status: "granted", access: { grant: "lesson-access", lessonId: meta.id } };
   }
 
-  return { status: "unpaid", offer };
+  return { status: "unpaid", offer, nowMs };
 }
 
 /** Access helper returning LessonAccess if granted, or null if gated. Kept for backwards compatibility. */

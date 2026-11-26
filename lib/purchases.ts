@@ -10,6 +10,8 @@ export type ActivePricing = {
   founderPriceCents: number;
   standardPriceCents: number;
   founderCap: number;
+  /** When the founding offer ends (pricing_settings.founder_ends_at, migration 0009). "" when unavailable. */
+  founderEndsAt: string;
   /**
    * False when the prices are the hard-coded fallback (no Supabase config, the pricing_settings
    * read failed, or no active row). Nothing is shown or charged then: getPriceOffer() turns it into
@@ -84,6 +86,7 @@ export async function getActivePricing(product: ProductKey = "lessons"): Promise
     founderPriceCents: 0,
     standardPriceCents: 0,
     founderCap: 0,
+    founderEndsAt: "",
     available: false,
   };
 
@@ -93,7 +96,7 @@ export async function getActivePricing(product: ProductKey = "lessons"): Promise
 
     const { data, error } = await supabase
       .from("pricing_settings")
-      .select("founder_price_cents, standard_price_cents, founder_cap, currency, is_active")
+      .select("founder_price_cents, standard_price_cents, founder_cap, currency, is_active, founder_ends_at")
       .eq("product", product)
       .eq("is_active", true)
       .maybeSingle();
@@ -107,6 +110,11 @@ export async function getActivePricing(product: ProductKey = "lessons"): Promise
       return fallback;
     }
 
+    if (typeof data.founder_ends_at !== "string" || !Number.isFinite(Date.parse(data.founder_ends_at))) {
+      console.warn("[purchases] getActivePricing failed, code: no_founder_deadline");
+      return fallback;
+    }
+
     const spotsLeft = await getFounderSpotsLeft(product);
 
     return {
@@ -116,6 +124,7 @@ export async function getActivePricing(product: ProductKey = "lessons"): Promise
       founderPriceCents: data.founder_price_cents,
       standardPriceCents: data.standard_price_cents,
       founderCap: data.founder_cap,
+      founderEndsAt: new Date(data.founder_ends_at).toISOString(),
       available: true,
     };
   } catch (error) {

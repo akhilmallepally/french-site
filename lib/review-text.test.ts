@@ -32,34 +32,26 @@ function deps(access: boolean | "throws") {
 }
 
 describe("card text", () => {
-  test("free cards for anyone, with only the text fields; no access check", async () => {
-    const d = deps(false);
-    const r = await runCardText([FREE[0].id, FREE[1].id], d.deps);
+  test("with access: the text fields only, free and paid cards alike, access checked once per call", async () => {
+    const d = deps(true);
+    const r = await runCardText([FREE[0].id, PAID[0].id, FREE[1].id], d.deps);
     assert.equal(r.status, "ok");
     if (r.status !== "ok") return;
-    assert.deepEqual(Object.keys(r.cards), [FREE[0].id, FREE[1].id]);
+    assert.deepEqual(Object.keys(r.cards), [FREE[0].id, PAID[0].id, FREE[1].id]);
     for (const c of Object.values(r.cards)) assert.deepEqual(Object.keys(c).filter((k) => !["fr", "en", "pron", "group", "note"].includes(k)), [], "no vocab ids or levels");
     assert.equal(r.cards[FREE[0].id].fr, FREE[0].fr);
-    assert.equal(r.access, null);
-    assert.equal(d.calls.n, 0);
+    assert.equal(r.access, true);
+    assert.equal(d.calls.n, 1);
   });
 
-  test("paid cards only with access, checked once per call; without access (or if the check fails) they're left out", async () => {
+  test("without access (or if the check fails) nothing comes back, free-level cards included", async () => {
     const ids = [PAID[0].id, PAID[1].id, FREE[0].id];
     const without = deps(false);
     const r = await runCardText(ids, without.deps);
-    assert.ok(r.status === "ok");
-    if (r.status !== "ok") return;
-    assert.deepEqual(Object.keys(r.cards), [FREE[0].id]);
-    assert.equal(r.access, false);
+    assert.deepEqual(r, { status: "ok", cards: {}, access: false });
     assert.equal(without.calls.n, 1);
-    assert.ok(!JSON.stringify(r).includes(PAID[0].fr) && !JSON.stringify(r).includes(PAID[0].en), "no paid text anywhere in the reply");
-    const failing = await runCardText(ids, deps("throws").deps);
-    assert.ok(failing.status === "ok" && Object.keys(failing.cards).length === 1 && failing.access === false, "fails closed");
-    const withAccess = deps(true);
-    const ok = await runCardText(ids, withAccess.deps);
-    assert.ok(ok.status === "ok" && Object.keys(ok.cards).length === 3 && ok.access === true);
-    assert.equal(withAccess.calls.n, 1);
+    assert.ok(!JSON.stringify(r).includes(FREE[0].fr) && !JSON.stringify(r).includes(PAID[0].en), "no card text anywhere in the reply");
+    assert.deepEqual(await runCardText(ids, deps("throws").deps), { status: "ok", cards: {}, access: false }, "fails closed");
   });
 
   test("at most 40 ids; bad input is refused; unknown ids are left out", async () => {
@@ -75,10 +67,10 @@ describe("card text", () => {
     assert.deepEqual(await runCardText([], d), { status: "ok", cards: {}, access: null });
   });
 
-  test("with no Supabase config (no session, so no access), free cards still come back", async () => {
+  test("with no Supabase config (no session, so no access), nothing comes back", async () => {
     // What the action's access check gives without config: getCurrentUser() is null, so false.
     const r = await runCardText([FREE[0].id, PAID[0].id], { lookup, hasAccess: async () => false });
-    assert.ok(r.status === "ok" && Object.keys(r.cards).join() === FREE[0].id);
+    assert.deepEqual(r, { status: "ok", cards: {}, access: false });
   });
 });
 

@@ -11,6 +11,8 @@
 
 import { register } from "node:module";
 import crypto from "node:crypto";
+import fs from "node:fs";
+import path from "node:path";
 
 // Hook into module loader to handle 'server-only' and resolve relative .ts imports in Node
 const ROOT = new URL("../", import.meta.url).href;
@@ -573,6 +575,26 @@ assert(
   assert(stale.status === 401, "the route refuses a stale timestamp with 401");
   delete process.env.NEXT_PUBLIC_SUPABASE_URL;
   delete process.env.SUPABASE_SERVICE_ROLE_KEY;
+}
+
+console.log("\n--- 5b. The founding offer's deadline (Prompt 76) ---");
+// The deadline is enforced when a checkout is created (createCheckoutAction refuses $8 after it).
+// A payment the provider confirms later, for a checkout created before the deadline, was charged:
+// the webhook must still grant it (refusing would take money without access). It reads no clock,
+// deadline or offer at all.
+{
+  const db = createMockSupabase({ users });
+  const realNow = Date.now;
+  Date.now = () => Date.parse("2027-01-01T00:30:00Z"); // after 2026-12-31T16:59:00Z
+  try {
+    const late = await processWebhookEvent(paidEvent({ orderId: "pay_after_deadline", customerEmail: "learner@example.com" }), db, { eventId: "msg_late" });
+    assert(late.outcome === "granted", "a payment confirmed after the deadline (checkout created before) still grants access");
+    assert(db.purchasesFor("pay_after_deadline")[0]?.status === "active", "the late payment's purchase row is active");
+  } finally {
+    Date.now = realNow;
+  }
+  const src = fs.readFileSync(path.join(process.cwd(), "lib", "payments", "webhook.ts"), "utf8");
+  assert(!/founder_ends_at|founderEndsAt|getPriceOffer|Date\.now\(\)/.test(src), "the webhook processor reads no deadline, offer or clock");
 }
 
 console.log("\n--- 6. Testing Fail-Closed Config Helpers ---");

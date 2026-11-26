@@ -23,6 +23,11 @@ export default function RefundPolicyPage() {
             are <strong>final and non-refundable</strong> once unlocked.
           </p>
           <p>
+            Lifetime access is sold during the founding offer only, which ends on 31 December 2026 at 23:59 Bangkok
+            time, or earlier once all founder places are taken. A purchase made during the founding offer follows this
+            policy after the offer ends, too.
+          </p>
+          <p>
             We encourage all learners to explore the extensive free curriculum to ensure our pedagogical style meets
             their needs prior to completing a purchase.
           </p>

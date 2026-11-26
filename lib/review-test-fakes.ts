@@ -3,7 +3,7 @@
 // progress fakes (storage, Web Locks, clock). Used by lib/review-sync*.test.ts (not a test file).
 import fs from "node:fs";
 import path from "node:path";
-import { A, Clock, FakeLocks, FakeStorage, settle } from "./progress-test-fakes.ts";
+import { A, B, Clock, FakeLocks, FakeStorage, settle } from "./progress-test-fakes.ts";
 import type { FacadeEnv } from "./progress-store.ts";
 import type { ReviewIdIndex } from "./review-catalogue.ts";
 import { parseReviewOutbox, reviewOutboxKey, type ReviewItem, type ReviewOutbox } from "./review-outbox.ts";
@@ -28,7 +28,8 @@ const fromItem = (i: ReviewItem): CardState => ({ box: i.box, dueAt: i.dueAt, la
 
 export class ReviewFakeServer {
   cards = new Map<string, Map<string, CardState>>();
-  access = new Set<string>();
+  /** Who has access (an active purchase). The daily review needs it for every card (Prompt 76). */
+  access = new Set<string>([A, B]);
   accessChecks = 0;
   sessionUser: string | null = A;
   behaviour: Behaviour = "ok";
