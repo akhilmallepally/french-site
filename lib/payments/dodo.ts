@@ -105,6 +105,26 @@ export class DodoPaymentProvider implements PaymentProvider {
     return parseProductPrice(await response.json().catch(() => null));
   }
 
+  /**
+   * A customer-portal session (POST /customers/{id}/customer-portal/session), with no email sent and
+   * the learner brought back to returnUrl. Resolves to its `link` (valid for 24 hours).
+   */
+  async createPortalSession(customerId: string, returnUrl: string): Promise<string> {
+    const config = getPaymentsConfig();
+    if (!config?.apiKey) throw new Error("Dodo Payments API key is not configured");
+    const query = new URLSearchParams({ send_email: "false", return_url: returnUrl });
+    const response = await fetch(`${this.getBaseUrl(config.apiKey)}/customers/${encodeURIComponent(customerId)}/customer-portal/session?${query}`, {
+      method: "POST",
+      headers: { Authorization: `Bearer ${config.apiKey}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ send_email: false, return_url: returnUrl }),
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!response.ok) throw new Error(`Dodo Payments portal session failed (${response.status})`);
+    const data = (await response.json().catch(() => null)) as { link?: unknown } | null;
+    if (typeof data?.link !== "string") throw new Error("Dodo Payments portal response had no link");
+    return data.link;
+  }
+
   async verifyWebhookSignature(rawBody: string, headers: Headers): Promise<boolean> {
     const secret = process.env.PAYMENTS_WEBHOOK_SECRET;
     if (!secret) return false;

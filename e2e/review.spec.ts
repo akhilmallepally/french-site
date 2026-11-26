@@ -49,7 +49,7 @@ test.describe.serial("daily review", () => {
       await page.goto("/");
       const card = page.getByRole("link", { name: /Daily review/ });
       await expect(card).toHaveAttribute("href", "/review");
-      await expect(card).toContainText("Lifetime access");
+      await expect(card).toContainText("Included with paid access");
 
       // Practise a free lesson, then open /review: 10 new cards (the daily limit).
       await page.goto(LESSON);

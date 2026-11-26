@@ -226,12 +226,12 @@ describe("what a subscriber is told (an injected clock)", () => {
   });
 
   test("past_due: a payment problem, linking to /progress for now", () => {
-    assert.deepEqual(line([sub("past_due", false, "2027-02-27T12:00:00.000Z")]), { text: "Payment problem: update your card", href: "/progress", tone: "warn" });
+    assert.deepEqual(line([sub("past_due", false, "2027-02-27T12:00:00.000Z")]), { text: "Payment problem: update your card", href: "/progress#your-access", tone: "warn" });
   });
 
   test("two subscriptions: the renewing one is described; ended rows are ignored", () => {
     assert.deepEqual(line([sub("refunded"), sub("cancelled", true, "2027-06-01T00:00:00.000Z"), sub("active", false, "2027-09-01T00:00:00.000Z")]), { text: "Your access renews on 1 September 2027", tone: "ok" });
-    assert.deepEqual(line([sub("on_hold"), sub("expired"), sub("past_due", false, "2027-02-25T00:00:00.000Z")]), { text: "Payment problem: update your card", href: "/progress", tone: "warn" });
+    assert.deepEqual(line([sub("on_hold"), sub("expired"), sub("past_due", false, "2027-02-25T00:00:00.000Z")]), { text: "Payment problem: update your card", href: "/progress#your-access", tone: "warn" });
   });
 
   test("when the rows can't be read, neutral wording (access itself was confirmed)", () => {

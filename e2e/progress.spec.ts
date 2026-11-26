@@ -36,6 +36,9 @@ test.describe.serial("progress sync, signed in as the test account", () => {
     // /progress shows it, and every unit of every level has a name.
     await page.goto("/progress");
     await expect(page.getByRole("heading", { name: "Continue" })).toBeVisible();
+    // The test account has lifetime access: "Your access" says so, with no Manage subscription button.
+    await expect(page.getByTestId("access-box")).toContainText("Lifetime access");
+    await expect(page.getByRole("button", { name: "Manage subscription" })).toHaveCount(0);
     await expect(page.getByRole("link", { name: /The alphabet and accents/ }).first()).toBeVisible();
     for (const d of await page.locator("details").all()) await d.locator("summary").click();
     const units = await page.$$eval("details", (ds) =>

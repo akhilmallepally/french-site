@@ -1,6 +1,6 @@
 # Subscription plan (Pricing v2, Part B)
 
-Status: step 1 (0010) has run in Supabase. Step 2 (the subscription webhooks, with 0011) is built (Prompt 78). Step 3 (entitlement over time) is built and the payload capture is removed (Prompt 79). Step 4 (the switch and subscription checkout) is built (Prompt 80); 0012 waits for the owner to run it. Steps 5 and 6 are next. The owner's decisions are in section 8.
+Status: step 1 (0010) has run in Supabase. Step 2 (the subscription webhooks, with 0011) is built (Prompt 78). Step 3 (entitlement over time) is built and the payload capture is removed (Prompt 79). Step 4 (the switch and subscription checkout) is built (Prompt 80); 0012 waits for the owner to run it. Step 5 (Manage subscription and the pages) is built (Prompt 81). Step 6 is next. The owner's decisions are in section 8.
 
 Decisions already made (owner, Prompt 76):
 - The founding offer ($8 once, lifetime access) ends at 2026-12-31T16:59:00Z (23:59 in Bangkok), or earlier when the 100 founder spots are gone.
@@ -203,6 +203,30 @@ A new table, `subscriptions` (migration 0010), rather than more columns on `purc
        - The success page names the subscription, and the poller counts a new subscription row as access.
      - **Left for step 5:** the home page's "Lifetime access" label on Daily review, the pricing page's metadata description and its refund FAQ, and the terms, refund and privacy pages.
 5. **Manage subscription and pages:** the /progress box, the portal action, and the terms, refund and privacy updates.
+   - **As built (Prompt 81):**
+     - **"Your access" box** at the top of /progress (components/access-box.tsx, wording in `accessBox`, lib/access-wording.ts). It's a server slot, so /progress is now a partial prerender (◐); the rest is unchanged.
+       - Lifetime: "Lifetime access", with no button.
+       - A subscriber sees one of:
+         - "Yearly access: renews on <date>";
+         - "Yearly access: ends on <date>" (cancelled at the period end);
+         - "Payment problem: update your card by <period end + 7 days>".
+
+         Each comes with **Manage subscription**.
+       - No access: nothing. Unknown: "Couldn't check your access" with Retry.
+       - The step 4 "Payment problem" links now point to /progress#your-access.
+     - **Manage subscription** (app/actions/subscription.ts, lib/portal.ts):
+       - The action takes no input. The customer id comes from the learner's own subscription rows (`readOwnSubscriptions`, the session's client under RLS): the one that gives access now, else the latest with an id.
+       - It calls Dodo's `POST /customers/{id}/customer-portal/session` with `send_email` false and `return_url` /progress (sent as query parameters and in the body; checked against a real test delivery in step 6), then the button goes to the https link.
+       - It's rate-limited to 5 sessions per learner per 10 minutes, at least 3 s apart (in memory, per server instance).
+       - Any failure gives "Couldn't open subscription settings. Please try again."
+     - **Pages:**
+       - Home: the Daily review card says "Included with paid access".
+       - Pricing: the description and the first FAQ cover both phases, and the refund FAQ matches the policy.
+       - llms.txt: both plans, the yearly plan from 1 January 2027, and no price numbers.
+       - Terms: a new section 4, "Yearly Subscription"; the later sections are renumbered.
+       - Refund policy: a "Yearly Subscription Payments" section, plus a refund ending a subscription at once.
+       - Privacy: the subscription data stored, and Dodo's emails and portal.
+       - "Last updated: 27 November 2026" on all three.
 6. **Test-mode end to end, then production:**
    - test:progress-e2e buys a subscription in Dodo's test mode (4242 card), sees access, cancels at period end, and runs a failed renewal with the 0341 card via a near `next_billing_date`.
    - The production smoke plan: a real $12 purchase by the owner on a test account, the portal, then a refund through the dashboard. It's run by the owner, not by Claude.

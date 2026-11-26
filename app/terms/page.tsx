@@ -11,7 +11,7 @@ export default function TermsPage() {
     <main className="mx-auto max-w-3xl px-6 py-16">
       <header className="border-b border-border pb-8">
         <h1 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Terms of Service</h1>
-        <p className="mt-2 text-sm text-muted">Last updated: November 2026</p>
+        <p className="mt-2 text-sm text-muted">Last updated: 27 November 2026</p>
       </header>
 
       <div className="prose prose-lg mt-8 text-foreground prose-headings:font-serif prose-headings:font-semibold prose-headings:text-foreground prose-p:text-muted prose-li:text-muted prose-a:text-accent">
@@ -19,7 +19,7 @@ export default function TermsPage() {
           <h2>1. Overview</h2>
           <p>
             Welcome to <strong>French Properly</strong> (<em>frenchproperly.com</em>). By using our website, accessing
-            our lessons, or purchasing lifetime access, you agree to these Terms of Service. If you disagree with any
+            our lessons, or buying lifetime access or a yearly subscription, you agree to these Terms of Service. If you disagree with any
             part of these terms, please do not use our service.
           </p>
         </section>
@@ -53,7 +53,33 @@ export default function TermsPage() {
         </section>
 
         <section className="mt-8">
-          <h2>4. Payments and Merchant of Record</h2>
+          <h2>4. Yearly Subscription</h2>
+          <p>
+            After the founding offer ends, B1–C2 is sold as a yearly subscription. It costs $12 a year, plus tax where
+            applicable, and gives access to the written B1–C2 lesson library, future written lessons and curriculum
+            updates, and the daily review for as long as it&apos;s active.
+          </p>
+          <p>
+            The subscription renews automatically every year, at the end of each paid year, until you cancel it.
+          </p>
+          <p>
+            You can cancel at any time with <strong>Manage subscription</strong> on your Progress page, or with the
+            link in the emails our Merchant of Record sends you. Cancelling stops the next renewal: your access
+            continues until the end of the year you&apos;ve already paid for, and then ends.
+          </p>
+          <p>
+            If a renewal payment fails, you have 7 days to update your card, and your access continues during those
+            days. If the payment still hasn&apos;t gone through after 7 days, your access pauses until the payment is
+            made.
+          </p>
+          <p>
+            A change to the subscription price applies only to new subscriptions. Existing lifetime access isn&apos;t
+            affected by the subscription: everyone who bought lifetime access keeps it under section 3.
+          </p>
+        </section>
+
+        <section className="mt-8">
+          <h2>5. Payments and Merchant of Record</h2>
           <p>
             Payments are processed via an authorized Merchant of Record (such as Dodo Payments or Lemon Squeezy).
             The Merchant of Record handles transaction processing, invoicing, and applicable local sales tax, VAT, or
@@ -66,7 +92,7 @@ export default function TermsPage() {
         </section>
 
         <section className="mt-8">
-          <h2>5. Fair Use & Account Integrity</h2>
+          <h2>6. Fair Use & Account Integrity</h2>
           <p>You agree not to:</p>
           <ul className="list-disc pl-6 space-y-1">
             <li>Share your account credentials with other individuals.</li>
@@ -80,11 +106,15 @@ export default function TermsPage() {
         </section>
 
         <section className="mt-8">
-          <h2>6. Refunds & Cancellations</h2>
+          <h2>7. Refunds & Cancellations</h2>
           <p>
             Because all introductory lessons across A1 and A2 (100+ lessons) are free to try without payment or an
-            account, all sales for B1–C2 lifetime access are final once unlocked, except in cases of duplicate billing
-            errors or where mandatory statutory consumer protection laws apply.
+            account, all sales for B1–C2 lifetime access and all yearly subscription payments are final once unlocked,
+            except in cases of duplicate billing errors or where mandatory statutory consumer protection laws apply.
+          </p>
+          <p className="mt-2">
+            Cancelling a subscription isn&apos;t a refund: it stops future renewals, and access runs to the end of the
+            paid year (see section 4).
           </p>
           <p className="mt-2">
             In the event that a refund or chargeback is processed, access to paid lesson levels is automatically and
@@ -97,7 +127,7 @@ export default function TermsPage() {
         </section>
 
         <section className="mt-8">
-          <h2>7. Contact</h2>
+          <h2>8. Contact</h2>
           <p>
             If you have questions about these Terms of Service, please contact us at support@frenchproperly.com.
           </p>

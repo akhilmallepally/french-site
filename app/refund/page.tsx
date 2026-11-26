@@ -11,7 +11,7 @@ export default function RefundPolicyPage() {
     <main className="mx-auto max-w-3xl px-6 py-16">
       <header className="border-b border-border pb-8">
         <h1 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Refund Policy</h1>
-        <p className="mt-2 text-sm text-muted">Last updated: November 2026</p>
+        <p className="mt-2 text-sm text-muted">Last updated: 27 November 2026</p>
       </header>
 
       <div className="prose prose-lg mt-8 text-foreground prose-headings:font-serif prose-headings:font-semibold prose-headings:text-foreground prose-p:text-muted prose-li:text-muted prose-a:text-accent">
@@ -30,6 +30,18 @@ export default function RefundPolicyPage() {
           <p>
             We encourage all learners to explore the extensive free curriculum to ensure our pedagogical style meets
             their needs prior to completing a purchase.
+          </p>
+        </section>
+
+        <section className="mt-8">
+          <h2>Yearly Subscription Payments</h2>
+          <p>
+            Yearly subscription payments, the first one and each renewal, are <strong>final and non-refundable</strong>{" "}
+            once access is unlocked, with the same exceptions as below.
+          </p>
+          <p>
+            Cancelling a subscription isn&apos;t a refund. It stops the next renewal, and your access continues until
+            the end of the year you&apos;ve already paid for.
           </p>
         </section>
 
@@ -55,6 +67,10 @@ export default function RefundPolicyPage() {
             If a refund, dispute, or chargeback is processed for any reason, our Merchant of Record automatically notifies
             our system via webhook. Access to all paid levels (B1, B2, C1, and C2) is immediately and permanently
             revoked upon refund.
+          </p>
+          <p>
+            For a yearly subscription, a refunded payment ends that subscription&apos;s access at once, even if part of
+            the paid year is left.
           </p>
           <p>
             Introductory levels (A1 and A2) remain completely free and accessible at all times.

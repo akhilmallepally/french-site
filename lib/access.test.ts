@@ -65,8 +65,8 @@ describe("every access check goes through hasActiveEntitlement()", () => {
   test("the call sites are exactly the known list", () => {
     assert.deepEqual(using(/\bhasActiveEntitlement\(/).filter((f) => f !== "lib/purchases.ts"), CALL_SITES);
     // The wording (lifetime, renews, ends, payment problem) comes from getAccessDetails, which asks
-    // hasActiveEntitlement first: the pricing slot, checkout's refusal, and the success page.
-    assert.deepEqual(using(/\bgetAccessDetails\(/).filter((f) => f !== "lib/purchases.ts"), ["app/actions/checkout.ts", "app/checkout/success/page.tsx", "app/pricing/page.tsx"]);
+    // hasActiveEntitlement first: the pricing slot, checkout's refusal, the success page and the /progress box.
+    assert.deepEqual(using(/\bgetAccessDetails\(/).filter((f) => f !== "lib/purchases.ts"), ["app/actions/checkout.ts", "app/checkout/success/page.tsx", "app/pricing/page.tsx", "components/access-box.tsx"]);
     assert.match(fs.readFileSync(path.join(root, "lib", "purchases.ts"), "utf8"), /getAccessDetails = cache\(async \(userId: string, product: ProductKey = "lessons"\): Promise<AccessDetails> => \{\s*const state = await hasActiveEntitlement\(userId, product\);\s*if \(state !== "yes"\)/);
   });
 
@@ -109,7 +109,7 @@ describe("every access check goes through hasActiveEntitlement()", () => {
   });
 
   test("signed-out visitors make no access call: every call site has the session's user first", () => {
-    for (const f of [...CALL_SITES, "app/checkout/success/page.tsx"]) {
+    for (const f of [...CALL_SITES, "app/checkout/success/page.tsx", "components/access-box.tsx"]) {
       const src = fs.readFileSync(path.join(root, f), "utf8");
       assert.match(src, /getCurrentUser\(\)/, `${f} reads the session`);
       for (const m of src.matchAll(/(?:hasActiveEntitlement|getAccessDetails)\(([^,)]+)/g)) assert.match(m[1], /^(user\.id|userId)$/, `${f}: ${m[0]}`);

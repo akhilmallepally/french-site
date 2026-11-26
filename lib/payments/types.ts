@@ -98,6 +98,8 @@ export interface PaymentProvider {
   createCheckout(params: CheckoutParams): Promise<{ checkoutUrl: string }>;
   /** The product's price, read before a yearly checkout. Providers without it can't sell the yearly plan. */
   getProductPrice?(productId: string): Promise<ProductPrice | null>;
+  /** A customer-portal session for that customer (Manage subscription); resolves to its link. */
+  createPortalSession?(customerId: string, returnUrl: string): Promise<string>;
   verifyWebhookSignature(rawBody: string, headers: Headers): Promise<boolean>;
   parseWebhookEvent(rawBody: string): Promise<WebhookEventResult>;
 }

@@ -5,6 +5,7 @@ import type { ProductKey } from "@/lib/payments/types";
 import { getYearlyProductId } from "@/lib/payments/config";
 import { checkAccess, type AccessClient, type AccessState } from "@/lib/entitlement";
 import { describeAccess, type AccessDetails, type SubscriptionRow } from "@/lib/access-wording";
+import type { PortalRow } from "@/lib/portal";
 import type { PricingInput } from "@/lib/pricing-offer";
 import { loadPricing, PricingReadError, type PricingClient } from "@/lib/pricing-source";
 
@@ -84,6 +85,24 @@ export const getAccessDetails = cache(async (userId: string, product: ProductKey
     return describeAccess(state, null, null, Date.now());
   }
 });
+
+type OwnSubscriptionsRead = { from(table: "subscriptions"): { select(c: string): { eq(c: "product", v: string): Rows<PortalRow> } } };
+
+/**
+ * The learner's own subscription rows with the provider's customer id, for Manage subscription
+ * (app/actions/subscription.ts). Read with the session's client: RLS returns the caller's rows only,
+ * so the customer id can never be someone else's. Throws on any failure.
+ */
+export async function readOwnSubscriptions(product: ProductKey = "lessons"): Promise<PortalRow[]> {
+  const supabase = await createClient();
+  if (!supabase) throw new Error("not_configured");
+  const { data, error } = await (supabase as unknown as OwnSubscriptionsRead)
+    .from("subscriptions")
+    .select("provider_customer_id, status, current_period_end, cancel_at_period_end")
+    .eq("product", product);
+  if (error || !Array.isArray(data)) throw Object.assign(new Error("subscriptions_read_failed"), { code: errorCode(error) });
+  return data;
+}
 
 /**
  * The live pricing for checkout (never the shared cache): the same read as the shared price

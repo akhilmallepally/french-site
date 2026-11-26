@@ -13,7 +13,8 @@ import { accessLine } from "@/lib/access-wording";
 
 export const metadata: Metadata = {
   title: "Pricing",
-  description: "One-time payment for lifetime access to French Properly. A1 and A2 are free forever.",
+  description:
+    "A1 and A2 are free forever. B1–C2: a one-time payment for lifetime access during the founding offer (until 31 December 2026), then yearly access.",
 };
 
 export default function PricingPage() {
@@ -114,41 +115,22 @@ export default function PricingPage() {
       <section className="mt-16 rounded-2xl border border-border bg-card p-8 sm:p-10">
         <h2 className="font-serif text-2xl font-semibold tracking-tight">Frequently Asked Questions</h2>
         <div className="mt-6 grid gap-6 sm:grid-cols-2">
-          <SharedSwitch
-            founder={
-              <div>
-                <h3 className="font-semibold text-foreground">Is it really a one-time payment?</h3>
-                <p className="mt-1 text-sm text-muted">
-                  Yes, for the founding offer. Pay once before it ends on 31 December 2026 (23:59 Bangkok time), or
-                  while founder spots remain, and access is yours for life, with no recurring charges. Everyone who
-                  already has lifetime access keeps it.
-                </p>
-              </div>
-            }
-            yearly={
-              <div>
-                <h3 className="font-semibold text-foreground">How does yearly access work?</h3>
-                <p className="mt-1 text-sm text-muted">
-                  It renews automatically each year until you cancel. Cancel any time: your access runs to the end of the
-                  paid year. Everyone who already has lifetime access keeps it.
-                </p>
-              </div>
-            }
-            soon={
-              <div>
-                <h3 className="font-semibold text-foreground">Can I still buy lifetime access?</h3>
-                <p className="mt-1 text-sm text-muted">
-                  The founding offer has ended, and a new plan is coming soon. Everyone who already has lifetime access
-                  keeps it.
-                </p>
-              </div>
-            }
-          />
+          <div>
+            <h3 className="font-semibold text-foreground">Is it a one-time payment or a subscription?</h3>
+            <p className="mt-1 text-sm text-muted">
+              Until 31 December 2026 (23:59 Bangkok time), or until the founder places are taken if that comes first, B1–C2
+              is a one-time payment for lifetime access, with no recurring charges. After that, new learners get yearly
+              access: a subscription that renews automatically each year until you cancel. Cancel any time, and your
+              access runs to the end of the year you&apos;ve paid for. Everyone who already has lifetime access keeps it.
+            </p>
+          </div>
           <div>
             <h3 className="font-semibold text-foreground">What is your refund policy?</h3>
             <p className="mt-1 text-sm text-muted">
-              Because all introductory lessons across A1 and A2 are free to try without payment, all sales for B1–C2
-              lifetime access are final once unlocked, except for duplicate charges or where required by law. Read our{" "}
+              Because all introductory lessons across A1 and A2 are free to try without payment, lifetime purchases and
+              yearly subscription payments for B1–C2 are final once unlocked, except for duplicate charges or where
+              required by law. A refund ends access at once. Cancelling a subscription isn&apos;t a refund: it stops the
+              next renewal, and access runs to the end of the paid year. Read our{" "}
               <Link href="/refund" className="underline underline-offset-2 hover:text-accent">
                 Refund Policy
               </Link>

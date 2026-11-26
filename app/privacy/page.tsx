@@ -11,7 +11,7 @@ export default function PrivacyPage() {
     <main className="mx-auto max-w-3xl px-6 py-16">
       <header className="border-b border-border pb-8">
         <h1 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl">Privacy Policy</h1>
-        <p className="mt-2 text-sm text-muted">Last updated: November 2026</p>
+        <p className="mt-2 text-sm text-muted">Last updated: 27 November 2026</p>
       </header>
 
       <div className="prose prose-lg mt-8 text-foreground prose-headings:font-serif prose-headings:font-semibold prose-headings:text-foreground prose-p:text-muted prose-li:text-muted prose-a:text-accent">
@@ -36,7 +36,9 @@ export default function PrivacyPage() {
             <li>
               <strong>Purchase & Billing Information:</strong> When you purchase lifetime access, transactions are
               processed by our Merchant of Record (such as Dodo Payments). The Merchant of Record provides us with a
-              customer identifier, order reference, and entitlement status. We never see or store your payment card details.
+              customer identifier, order reference, and entitlement status. For a yearly subscription we also store its
+              status (for example active, cancelled or payment overdue), when the current paid period ends, and Dodo
+              Payments&apos; customer and subscription identifiers. We never see or store your payment card details.
             </li>
             <li>
               <strong>Learning Progress:</strong> Your exercise submissions and lesson progress are stored locally on your
@@ -75,7 +77,7 @@ export default function PrivacyPage() {
               <a href="https://vercel.com/legal/privacy-policy">Vercel&apos;s privacy policy</a>.
             </li>
             <li>
-              <strong>Supabase:</strong> Handles sign-in, your account and your purchase record (database and
+              <strong>Supabase:</strong> Handles sign-in, your account and your purchase and subscription records (database and
               authentication). For signed-in learners it also stores learning progress: scores, completion and
               attempt times, whether a writing task is done (never the writing text), and the daily review&apos;s
               card states (which word, how well you know it, when it&apos;s next due, and review counts).{" "}
@@ -83,7 +85,9 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong>Dodo Payments:</strong> Our Merchant of Record, handling payment processing, invoicing and tax
-              compliance. <a href="https://dodopayments.com/privacy-policy">Dodo Payments&apos; privacy policy</a>.
+              compliance. Dodo Payments sends the receipts and, for a yearly subscription, the renewal reminders and
+              other subscription emails, and runs the page where you manage or cancel your subscription.{" "}
+              <a href="https://dodopayments.com/privacy-policy">Dodo Payments&apos; privacy policy</a>.
             </li>
           </ul>
         </section>

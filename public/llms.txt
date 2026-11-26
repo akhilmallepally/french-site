@@ -15,20 +15,20 @@ French Properly provides clear, grammar-first explanations, vocabulary tables, c
 - **C1: Advanced** — Stylistic precision, complex syntax, idioms, and advanced professional and literary registers.
 - **C2: Mastery** — Near-native idiomatic command, subtle subtext, rhetoric, and cultural mastery.
 
-## Free vs. Lifetime Access
+## Free and Paid Access
 
 - **80+ Free Lessons:** All A1 and A2 written lessons (over 100 comprehensive lessons with vocabulary and interactive exercises) are completely free to read and practice without creating an account or paying.
-- **B1–C2 Lifetime Access:** Access to the intermediate and advanced levels (B1 through C2) requires a simple one-time payment.
-  - **Price:** A founding price for early learners, for a limited number of places; see https://frenchproperly.com/pricing
-  - **Founding offer:** Lifetime access is sold during the founding offer only, which ends on 31 December 2026 (or earlier, once the founder places are taken). Everyone who already has lifetime access keeps it.
-  - **Included:** All current B1–C2 written lessons plus all future written lessons and curriculum updates, and the daily review (spaced repetition of the words from practised lessons). No recurring subscriptions or monthly fees.
+- **B1–C2 Paid Access:** Access to the intermediate and advanced levels (B1 through C2) is paid. Prices are on https://frenchproperly.com/pricing
+  - **Founding offer (lifetime access):** a one-time payment, sold until 31 December 2026 (or earlier, once the founder places are taken). Everyone who already has lifetime access keeps it.
+  - **Yearly plan (from 1 January 2027):** after the founding offer, new learners get yearly access: a subscription that renews automatically each year until cancelled. Cancelling keeps access to the end of the paid year.
+  - **Included in both:** All current B1–C2 written lessons plus all future written lessons and curriculum updates, and the daily review (spaced repetition of the words from practised lessons).
 
 ## Key Links
 
 - [Home](https://frenchproperly.com): Platform overview and introductory curriculum.
 - [Lessons Directory](https://frenchproperly.com/lessons): Complete curriculum catalog and lesson index.
 - [Practice](https://frenchproperly.com/practice): Every unit review and level review in one place, grouped by level and unit, with links to each review's exercises.
-- [Pricing](https://frenchproperly.com/pricing): Lifetime access pricing, founding member offer, and details.
+- [Pricing](https://frenchproperly.com/pricing): The founding offer (lifetime access), the yearly plan, and details.
 - [Level A1 Beginner](https://frenchproperly.com/lessons/a1): Free A1 lessons directory.
 - [Level A2 Elementary](https://frenchproperly.com/lessons/a2): Free A2 lessons directory.
 - [Level B1 Intermediate](https://frenchproperly.com/lessons/b1): Level B1 lessons directory.

@@ -779,3 +779,51 @@
 - validate:content, test:content, test:checker (36), test:review (91), test:progress (140), test:progress-e2e (7 of 7, then `npm run build`), tsc and build.
 - test:no-supabase-env, test:gating (on a fresh server), test:webhook (128), test:checkout (59), test:safe-next (7).
 - check:sql and test:sql (12 migrations twice, rls.sql 410, access-over-time.sql 48, the app-side time test 8).
+
+## Subscription step 5 (Manage subscription and the pages), step 4 leftovers (Prompt 81)
+
+**Tax (owner's decision):** the $8 lifetime price keeps no tax note; the $12 yearly price keeps "plus tax where applicable". No change was needed.
+
+**"Your access" box** (components/access-box.tsx, `accessBox` in lib/access-wording.ts), at the top of /progress in its own Suspense slot. /progress is now ◐; the dashboard is unchanged.
+- Lifetime: "Lifetime access", with no button.
+- Subscription: "Yearly access: renews on <date>", "Yearly access: ends on <date>" (cancelled at the period end), or "Payment problem: update your card by <grace end>" (past_due; period end + 7 days), each with Manage subscription.
+- No access: nothing. Unknown: "Couldn't check your access" with Retry.
+- The step 4 "Payment problem" links now go to /progress#your-access.
+
+**Manage subscription** (app/actions/subscription.ts, lib/portal.ts, `createPortalSession` in lib/payments/dodo.ts, `readOwnSubscriptions` in lib/purchases.ts):
+- The action takes no input. The customer id comes from the learner's own subscription rows (session client, RLS).
+- The portal session uses `send_email` false and `return_url` /progress. The link must be https.
+- It's rate-limited to 5 per learner per 10 minutes, at least 3 s apart, in memory per instance.
+- Any failure gives "Couldn't open subscription settings. Please try again."
+- Logs carry error codes only.
+
+**Pages:**
+- Home: "Included with paid access".
+- Pricing: the description and FAQ cover both phases; the refund FAQ matches the policy.
+- llms.txt: both plans, the yearly plan from 1 January 2027, and no price numbers.
+- Terms: section 4 "Yearly Subscription" (the later sections renumbered) and the cancellation note in section 7.
+- Refund: "Yearly Subscription Payments", and a refund ending a subscription at once.
+- Privacy: the subscription status, period end, and Dodo's customer and subscription ids; Dodo's receipts, renewal emails and portal.
+- "Last updated: 27 November 2026" on all three.
+
+**For a lawyer's eye:**
+- Terms section 4: "A change to the subscription price applies only to new subscriptions."
+- Terms section 4: the 7-day grace and "your access pauses until the payment is made".
+- Refund policy: "Yearly subscription payments, the first one and each renewal, are final and non-refundable once access is unlocked" (consumer withdrawal rights for digital content and subscriptions differ by country).
+- Refund policy: "a refunded payment ends that subscription's access at once, even if part of the paid year is left".
+- Terms and privacy: that the Merchant of Record's emails carry a cancel link and send renewal reminders. These are Dodo's behaviour; confirm in step 6.
+- Auto-renewal disclosure rules (some places require specific consent or reminder wording).
+
+**Tests:**
+- lib/manage-subscription.test.ts (new, test:checkout): the box for lifetime, active, cancelled at the period end, past_due, none, unknown and unreadable rows; the portal action (own customer id only, which customer, no subscription or no id, read, provider and link errors, signed out, the rate limit); the page texts.
+- lib/access.test.ts: `getAccessDetails` callers now include the box.
+- test:webhook 5e: the Dodo portal request (path, encoded id, key, `send_email`, `return_url`) and its failures.
+- e2e/progress.spec.ts: the test account (lifetime) sees "Lifetime access" and no Manage subscription button.
+- e2e/review.spec.ts: the home label's new text.
+
+**SQL or steps for the owner:** none.
+
+**Checks:** all pass.
+- validate:content, test:content, test:checker (36), test:review (91), test:progress (140), test:progress-e2e (7 of 7, then `npm run build`), tsc and build.
+- test:no-supabase-env, test:gating (on a fresh server), test:webhook (132), test:checkout (79), test:safe-next (7).
+- check:sql and test:sql (unchanged: 12 migrations, rls.sql 410, access-over-time.sql 48, 8).

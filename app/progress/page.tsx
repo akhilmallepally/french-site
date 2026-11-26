@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
+import { AccessBox } from "@/components/access-box";
 import { ProgressDashboard } from "@/components/progress-dashboard";
 import { getAllLessons, getProgressIndex, isFreeLevel, LEVEL_INFO, LEVELS } from "@/lib/lessons";
 import type { CatalogueLesson } from "@/lib/progress-summary";
@@ -13,7 +15,8 @@ export const metadata: Metadata = {
 /**
  * Prerendered for everyone: the server part is the public lesson catalogue (metadata only, as on
  * the level pages); the learner's progress is read in the browser by ProgressDashboard, so the page
- * reads no cookies. The catalogue is a slim list, not the content index.
+ * reads no cookies. The catalogue is a slim list, not the content index. Only the "Your access" box
+ * (components/access-box.tsx, Prompt 81) reads the session, in its own Suspense slot.
  */
 export default function ProgressPage() {
   const index = getProgressIndex();
@@ -26,6 +29,9 @@ export default function ProgressPage() {
   return (
     <main className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
       <h1 className="font-serif text-4xl font-semibold tracking-tight">Your progress</h1>
+      <Suspense fallback={null}>
+        <AccessBox />
+      </Suspense>
       <ProgressDashboard catalogue={catalogue} levelNames={levelNames} />
     </main>
   );

@@ -877,6 +877,42 @@ console.log("\n--- 5d. Subscription checkout (Prompt 80) ---");
   assert(/if \(access === "yes"\) \{[\s\S]*?alreadyHasAccessMessage\(details\)/.test(action), "createCheckoutAction: refuses a learner who already has access (lifetime or a subscription)");
 }
 
+console.log("\n--- 5e. Manage subscription: the customer portal (Prompt 81) ---");
+{
+  const realFetch = globalThis.fetch;
+  const sent = [];
+  let reply = { status: 200, body: { link: "https://customer.dodopayments.com/portal/abc" } };
+  globalThis.fetch = async (url, init) => {
+    sent.push({ url: String(url), method: init?.method ?? "GET", auth: init?.headers?.Authorization, body: init?.body ? JSON.parse(init.body) : null });
+    return new Response(JSON.stringify(reply.body), { status: reply.status, headers: { "content-type": "application/json" } });
+  };
+  process.env.PAYMENTS_API_KEY = "dodo_test_key";
+  process.env.PAYMENTS_WEBHOOK_SECRET = testSecret;
+  try {
+    const dodo = new DodoPaymentProvider();
+    const link = await dodo.createPortalSession("cus_own 1", "https://site.example/progress");
+    const u = new URL(sent[0].url);
+    assert(link === "https://customer.dodopayments.com/portal/abc", "portal: resolves to the session's link");
+    assert(
+      sent[0].method === "POST" && u.origin + u.pathname === "https://test.dodopayments.com/customers/cus_own%201/customer-portal/session" && sent[0].auth === "Bearer dodo_test_key",
+      "portal: POST /customers/{id}/customer-portal/session, the id encoded, with the API key"
+    );
+    assert(u.searchParams.get("send_email") === "false" && u.searchParams.get("return_url") === "https://site.example/progress" && sent[0].body.send_email === false && sent[0].body.return_url === "https://site.example/progress", "portal: send_email false and return_url /progress");
+    let failed = 0;
+    for (const r of [{ status: 404, body: { message: "Customer not found" } }, { status: 200, body: {} }, { status: 200, body: { link: 42 } }]) {
+      reply = r;
+      try {
+        await dodo.createPortalSession("cus_x", "https://site.example/progress");
+      } catch {
+        failed++;
+      }
+    }
+    assert(failed === 3, "portal: an error status or a reply without a link throws (the action shows its one message)");
+  } finally {
+    globalThis.fetch = realFetch;
+  }
+}
+
 const savedKey = process.env.PAYMENTS_API_KEY;
 const savedSecret = process.env.PAYMENTS_WEBHOOK_SECRET;
 

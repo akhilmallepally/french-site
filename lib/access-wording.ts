@@ -17,7 +17,10 @@ export type AccessDetails =
   /** Access is confirmed, but which kind couldn't be read: neutral wording. */
   | { state: "yes"; kind: "unknown" };
 
-const GRACE_MS = 7 * 86_400_000; // the grace in has_access() (0010)
+export const GRACE_MS = 7 * 86_400_000; // the grace in has_access() (0010)
+
+/** Where "Payment problem" links go: the "Your access" box on /progress, with Manage subscription. */
+export const ACCESS_BOX_HREF = "/progress#your-access";
 
 /**
  * The details to show. `lifetime` and `subs` are null when their read failed. A lifetime purchase
@@ -58,8 +61,8 @@ export function accessLine(d: Extract<AccessDetails, { state: "yes" }>): AccessL
   if (d.kind === "unknown") return { text: "You have full access.", tone: "ok" };
   if (d.status === "renewing") return { text: `Your access renews on ${accessDate(d.periodEnd)}`, tone: "ok" };
   if (d.status === "ending") return { text: `Your access ends on ${accessDate(d.periodEnd)}`, tone: "ok" };
-  // The portal link comes in rollout step 5; /progress for now.
-  return { text: "Payment problem: update your card", href: "/progress", tone: "warn" };
+  // To the "Your access" box on /progress, whose Manage subscription button opens the portal.
+  return { text: "Payment problem: update your card", href: ACCESS_BOX_HREF, tone: "warn" };
 }
 
 /** Checkout's refusal for a learner who already has access. */
@@ -67,4 +70,29 @@ export function alreadyHasAccessMessage(d: Extract<AccessDetails, { state: "yes"
   if (d.kind === "lifetime") return "You already have lifetime access to these lessons.";
   const line = accessLine(d).text;
   return d.kind === "unknown" ? "You already have access to these lessons." : `You already have access to these lessons. ${line}.`;
+}
+
+/**
+ * The "Your access" box at the top of /progress (Prompt 81). Nothing for a learner without access;
+ * "Couldn't check your access" (with Retry) when the check failed; "Lifetime access" with no button;
+ * a subscriber's renewal or end date, or the payment problem with the grace's last day, with a
+ * Manage subscription button.
+ */
+export type AccessBox =
+  | { kind: "none" }
+  | { kind: "unknown" }
+  | { kind: "lifetime"; title: string }
+  | { kind: "subscription"; title: string; warn: boolean }
+  /** Access is confirmed but its kind couldn't be read: no button (there may be no subscription). */
+  | { kind: "access"; title: string };
+
+export function accessBox(d: AccessDetails): AccessBox {
+  if (d.state === "no") return { kind: "none" };
+  if (d.state === "unknown") return { kind: "unknown" };
+  if (d.kind === "lifetime") return { kind: "lifetime", title: "Lifetime access" };
+  if (d.kind === "unknown") return { kind: "access", title: "You have full access" };
+  if (d.status === "renewing") return { kind: "subscription", title: `Yearly access: renews on ${accessDate(d.periodEnd)}`, warn: false };
+  if (d.status === "ending") return { kind: "subscription", title: `Yearly access: ends on ${accessDate(d.periodEnd)}`, warn: false };
+  const graceEnd = new Date(Date.parse(d.periodEnd) + GRACE_MS).toISOString();
+  return { kind: "subscription", title: `Payment problem: update your card by ${accessDate(graceEnd)}`, warn: true };
 }
