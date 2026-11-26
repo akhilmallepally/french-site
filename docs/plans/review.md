@@ -1,6 +1,6 @@
 # Daily review: plan
 
-Status: decisions recorded (Prompt 69, section 9). Rollout step 1, migration 0008, is written (supabase/migrations/0008_review_cards.sql). Step 2 is done (Prompt 70): the card catalogue in lib/generated/review-cards-free.json (A1, A2) and review-cards-paid.json (B1 to C2, server-only through lib/review-cards-server.ts), the published ids in lib/generated/review-published-ids.json, built by `npm run build:review-cards` and checked by validate:content and `npm run test:review`. Step 3 is done (Prompt 71): the scheduler and the local store (section 10), and the rules for later steps (section 11). No UI or sync yet.
+Status: decisions recorded (Prompt 69, section 9). Rollout step 1, migration 0008, is written (supabase/migrations/0008_review_cards.sql). Step 2 is done (Prompt 70): the card catalogue in lib/generated/review-cards-free.json (A1, A2) and review-cards-paid.json (B1 to C2, server-only through lib/review-cards-server.ts), the published ids in lib/generated/review-published-ids.json, built by `npm run build:review-cards` and checked by validate:content and `npm run test:review`. Step 3 is done (Prompt 71): the scheduler and the local store (section 10), and the rules for later steps (section 11). Step 4 is done (Prompt 72): the server actions, the synced store behind NEXT_PUBLIC_REVIEW_SYNC, the import, and check:review-db (section 12). No UI yet.
 
 Goal: a `/review` page with a short daily session of spaced-repetition vocabulary cards, which turns the home "Daily review" card into a link. v1 stays simple.
 
@@ -202,3 +202,19 @@ Goal: a `/review` page with a short daily session of spaced-repetition vocabular
   - It fails if either card file or lib/review-cards-server.ts is reachable.
   - The text scan of the build output (scripts/review-bundle.test.ts) stays as a backup. It also covers what an import graph can't see, such as a server component passing card text as props to a client component.
 - A server action that returns card text checks the session and the entitlement before it returns any paid card's text, and accepts at most one session's worth of ids per call (20), so no single call returns the catalogue.
+
+## 12. As built in step 4 (Prompt 72)
+
+- **Daily limits (fix):** the limits count only cards answered that local day. Drawing a card into a session doesn't count. The day's log keeps the drawn cards (`drawn`), and `buildSession` offers the drawn, unanswered ones first, in their order, then due cards, then new ones.
+- **Server actions (app/actions/review.ts):** `getReviewAction`, `syncReviewAction` and `resetReviewAction`.
+  - The user comes from the session, and without Supabase config every action answers `signed-out`.
+  - Validation (lib/review-sync.ts) uses lib/generated/review-card-ids.json, imported as a module. The import-graph test proves the action loads no `fs`, no lib/lessons.ts and no card text.
+  - **Payload, rejected whole:** not `{ expectedUserId, items }`; 0 or more than 200 entries; more than 128 KiB; a key that isn't `r:…` (3 to 200 characters); a duplicate key; any field but key, cardId, lessonId, box, dueAt, lastReviewedAt, reviews and lapses (so card text is refused).
+  - **Per entry:** `bad_item`, `bad_id`, `unknown_id`, `wrong_lesson`, `bad_box`, `bad_count`, `bad_time`, `future_time` (lastReviewedAt more than 24 h ahead; dueAt more than 24 h ahead for box 0, or more than 400 days, as in 0008) and `no_access`. apply_review's own codes (`cap_reached`, `invalid`) pass through.
+  - **Paid cards:** access (an active purchase) is checked at most once per call, and only when a valid entry or a stored row is a paid card. Without access, writes are rejected per entry as `no_access`, and reads leave paid cards out. The rows stay in the database, unread.
+  - **Reply:** `{ status: "ok", applied, rejected, rows }`, with rows read back in the same request and times as millisecond ISO strings. The other replies are `{ status: "invalid", code }`, `signed-out`, `wrong-user` and `unavailable`.
+- **Synced store (lib/review-sync-store.ts):** `SupabaseReviewStore` and `ReviewSyncFacade`, built like the progress ones, behind `NEXT_PUBLIC_REVIEW_SYNC=on` (off by default, separate from progress), exported from lib/review.ts. No page uses it yet.
+  - Keys: `parlons-review-v1:u:<id>` (cache), `parlons-review-outbox-v1:<id>`, `parlons-review-rejected-v1:<id>`, `parlons-review-last-user-v1` and `parlons-review-imported-v1`.
+  - **Import:** this browser's signed-out cards go to the owner of the progress import claim (`parlons-progress-import-owner-v1`; the same key, claimed by the first account if no one has). An account's own local cards always go to that account.
+  - **Flag off:** the browser-only store also shows the signed-in account's synced cache and unsent outbox.
+- **check:review-db:** the real database with the test account from .env.local. See docs/db-setup.md.

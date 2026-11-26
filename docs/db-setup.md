@@ -60,6 +60,10 @@ In the SQL Editor, for each file below, paste the whole file, click **Run**, and
 2. Paste the whole of `supabase/tests/rls.sql` (it now needs 0001 to 0008), click **Run**, and check that the last notice is "PASS: ALL RLS CHECKS PASSED". It ends in ROLLBACK and leaves nothing behind.
 3. Open **Advisors**, then **Security Advisor**, click **Refresh**, and check nothing new appears for `review_cards` or `apply_review` (section 4).
 4. Optional: run the size query in section 7 to see `review_cards` (empty until the review store ships).
+5. Optional, from PowerShell in the project folder: `npm run check:review-db`.
+   - It signs in as the test account in .env.local (PROGRESS_TEST_EMAIL and PROGRESS_TEST_PASSWORD) and runs the review actions' real path against your database: read-back, rejections, idempotency, the access rule, and the 6,000-card cap.
+   - It deletes the account's review cards at the end with the account's own delete policy.
+   - It stops if the account already has review cards; add `-- --reuse` to run anyway, or `-- --skip-cap` to leave out the cap check (about 30 calls).
 
 Each file is safe to run again (`create table if not exists`, `create or replace function`, `drop ... if exists` before each trigger and policy). Running them again doesn't change data. One exception: if you change a column in a file after the table exists, `create table if not exists` won't apply it. Write a new numbered migration for that.
 

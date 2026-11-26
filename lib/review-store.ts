@@ -1,21 +1,28 @@
-// The local daily-review store (docs/plans/review.md, rollout step 3). It keeps card state only:
-// ids, boxes, times and counts, never card text. Sync comes in step 4, behind the same interface.
+// The local daily-review store (docs/plans/review.md, rollout steps 3 and 4). It keeps card state
+// only: ids, boxes, times and counts, never card text. The synced store (lib/review-sync-store.ts)
+// implements the same interface; this one is used signed out, with the sync flag off, and until
+// the facade has picked a store.
 //
 // Keys, following the progress store (lib/progress-store.ts, BrowserLocalStore):
 // - Signed out: REVIEW_KEY, this browser's signed-out cards.
 // - Signed in (a valid session read from the auth cookie, no network): reviewLocalKey(userId).
 //   Writes go there, never to the signed-out key. Reads show the signed-out cards merged with the
-//   account's own, as progress does, so nothing disappears when the learner signs in.
+//   account's own, as progress does, so nothing disappears when the learner signs in. They also
+//   show that account's synced copy and unsent outbox (left by the synced store), so cards answered
+//   while the flag was on still show when it's off. The synced store imports the account's local
+//   key when it next runs.
 //
 // Saved shape, version 1 (compact, because a learner can have every card):
 //   { "v": 1, "userId"?: string, "lessons": { "<lessonId>": { "<suffix>": [box, dueMs, lastMs|0, reviews, lapses] } },
-//     "today"?: { "day", "newIds", "reviewIds" } }
+//     "today"?: { "day", "newIds", "reviewIds", "drawn"? } }
 // A card id is "<lessonId>-<suffix>". Anything unreadable is dropped, entry by entry.
 import type { StorageLike } from "./progress-store.ts";
+import { overlayCards, parseReviewCache, parseReviewOutbox, reviewCacheKey, reviewOutboxKey } from "./review-outbox.ts";
 import { storedSessionUserId } from "./supabase-session-cookie.ts";
 import {
   answer,
   logAnswer,
+  logDrawn,
   logFor,
   MAX_BOX,
   mergeCards,
@@ -38,6 +45,10 @@ export interface ReviewStore {
   addCards(cardIds: string[], nowMs: number): Promise<void>;
   /** Records one answer and returns the card's new state, or null for a card not in the deck. */
   recordAnswer(cardId: string, grade: Grade, nowMs: number, cal: Calendar): Promise<CardState | null>;
+  /** Notes the cards put into a session today, so a reopened /review offers the unanswered ones first. */
+  recordDrawn(cardIds: string[], nowMs: number, cal: Calendar): Promise<void>;
+  /** Called when what getAll returns may have changed (a server copy arrived, another store took over). */
+  subscribe(listener: () => void): () => void;
 }
 
 type Packed = [number, number, number, number, number];
@@ -80,7 +91,10 @@ export function parseReviewData(text: string | null, userId: string | null): Rev
     }
   }
   const t = saved.today;
-  const today = isObj(t) && typeof t.day === "string" && /^\d{4}-\d{2}-\d{2}$/.test(t.day) ? { day: t.day, newIds: ids(t.newIds), reviewIds: ids(t.reviewIds) } : undefined;
+  const today: DailyLog | undefined =
+    isObj(t) && typeof t.day === "string" && /^\d{4}-\d{2}-\d{2}$/.test(t.day)
+      ? { day: t.day, newIds: ids(t.newIds), reviewIds: ids(t.reviewIds), ...(t.drawn !== undefined ? { drawn: ids(t.drawn) } : {}) }
+      : undefined;
   return today ? { cards, today } : { cards };
 }
 
@@ -95,11 +109,13 @@ export function serializeReviewData(data: ReviewData, userId: string | null): st
   return JSON.stringify({ v: 1, ...(userId ? { userId } : {}), lessons, ...(data.today ? { today: data.today } : {}) });
 }
 
-/** Both days' logs combined when they're for the same day; otherwise the later day's. */
-function mergeLogs(a: DailyLog | undefined, b: DailyLog | undefined): DailyLog | undefined {
+/** Both logs combined when they're for the same day; otherwise the later day's. */
+export function mergeLogs(a: DailyLog | undefined, b: DailyLog | undefined): DailyLog | undefined {
   if (!a || !b) return a ?? b;
   if (a.day !== b.day) return a.day > b.day ? a : b;
-  return { day: a.day, newIds: [...new Set([...a.newIds, ...b.newIds])], reviewIds: [...new Set([...a.reviewIds, ...b.reviewIds])] };
+  const u = (x: string[] = [], y: string[] = []) => [...new Set([...x, ...y])];
+  const drawn = a.drawn || b.drawn ? { drawn: u(a.drawn, b.drawn) } : {};
+  return { day: a.day, newIds: u(a.newIds, b.newIds), reviewIds: u(a.reviewIds, b.reviewIds), ...drawn };
 }
 
 export class LocalReviewStore implements ReviewStore {
@@ -144,14 +160,26 @@ export class LocalReviewStore implements ReviewStore {
     return w ? this.read(w.storage, w.key, w.userId) : { cards: {} };
   }
 
+  /** The account's synced copy with its unsent outbox on top (empty if there's none). */
+  private synced(storage: StorageLike, userId: string): ReviewData {
+    try {
+      const cache = parseReviewCache(storage.getItem(reviewCacheKey(userId)), userId);
+      const cards = overlayCards(cache?.cards ?? {}, parseReviewOutbox(storage.getItem(reviewOutboxKey(userId)), userId));
+      return cache?.today ? { cards, today: cache.today } : { cards };
+    } catch {
+      return { cards: {} };
+    }
+  }
+
   async getAll(): Promise<ReviewData> {
     const w = this.where();
     if (!w) return { cards: {} };
     const mine = this.read(w.storage, w.key, w.userId);
     if (!w.userId) return mine;
     const signedOut = this.read(w.storage, REVIEW_KEY, null);
-    const today = mergeLogs(signedOut.today, mine.today);
-    return { cards: mergeCards(signedOut.cards, mine.cards), ...(today ? { today } : {}) };
+    const synced = this.synced(w.storage, w.userId);
+    const today = mergeLogs(mergeLogs(signedOut.today, synced.today), mine.today);
+    return { cards: mergeCards(mergeCards(signedOut.cards, synced.cards), mine.cards), ...(today ? { today } : {}) };
   }
 
   async addCards(cardIds: string[], nowMs: number): Promise<void> {
@@ -181,9 +209,22 @@ export class LocalReviewStore implements ReviewStore {
     this.write(w, data);
     return after;
   }
+
+  async recordDrawn(cardIds: string[], nowMs: number, cal: Calendar): Promise<void> {
+    const w = this.where();
+    if (!w || !cardIds.length) return;
+    const seen = await this.getAll();
+    const data = this.own();
+    data.today = logDrawn(logFor(seen.today, cal.dayOf(nowMs)), cal.dayOf(nowMs), cardIds);
+    this.write(w, data);
+  }
+
+  subscribe(): () => void {
+    return () => {};
+  }
 }
 
-/** The store the app will use: localStorage and the session from the auth cookie (no network). */
+/** The browser-only store: localStorage and the session from the auth cookie (no network). */
 export function createLocalReviewStore(): ReviewStore {
   return new LocalReviewStore(
     () => (typeof document === "undefined" ? null : storedSessionUserId(document.cookie, process.env.NEXT_PUBLIC_SUPABASE_URL, Date.now())),

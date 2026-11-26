@@ -2,7 +2,7 @@
 // I/O, no clock of its own. Pass in the time (ms) and a Calendar for the learner's time zone.
 //
 // Runs under plain Node (type stripping) too, so: relative .ts imports, no parameter properties.
-import { isFreeLevel } from "./lessons.ts";
+import { isFreeLevel } from "./free-levels.ts";
 import type { ProgressData } from "./progress-core.ts";
 import type { ReviewIdIndex } from "./review-catalogue.ts";
 
@@ -103,8 +103,12 @@ export function answer(state: CardState, grade: Grade, nowMs: number, cal: Calen
 
 // ---------- Daily limits (per local day) ----------
 
-/** The cards answered on `day`: new ones (box 0 before the answer) and reviews, each counted once. */
-export type DailyLog = { day: string; newIds: string[]; reviewIds: string[] };
+/**
+ * The cards answered on `day`: new ones (box 0 before the answer) and reviews, each counted once.
+ * Only these count towards the limits. `drawn` lists the cards put into today's sessions, so a
+ * reopened /review offers the ones not answered yet first; drawing a card doesn't count.
+ */
+export type DailyLog = { day: string; newIds: string[]; reviewIds: string[]; drawn?: string[] };
 
 export function logFor(log: DailyLog | undefined, today: string): DailyLog {
   return log && log.day === today ? log : { day: today, newIds: [], reviewIds: [] };
@@ -115,6 +119,14 @@ export function logAnswer(log: DailyLog | undefined, today: string, cardId: stri
   const list = wasNew ? l.newIds : l.reviewIds;
   if (list.includes(cardId) || l.newIds.includes(cardId)) return l;
   return wasNew ? { ...l, newIds: [...l.newIds, cardId] } : { ...l, reviewIds: [...l.reviewIds, cardId] };
+}
+
+/** Adds a session's cards to today's drawn list (in order, each once). */
+export function logDrawn(log: DailyLog | undefined, today: string, cardIds: string[]): DailyLog {
+  const l = logFor(log, today);
+  const drawn = [...(l.drawn ?? [])];
+  for (const id of cardIds) if (!drawn.includes(id)) drawn.push(id);
+  return { ...l, drawn };
 }
 
 // ---------- The id index and access ----------
@@ -183,15 +195,17 @@ export type SessionInput = {
   nowMs: number;
   cal: Calendar;
   log: DailyLog | undefined;
-  /** Cards already in this visit's earlier batches ("Do another 20"); unanswered ones still count against the limits. */
+  /** Cards already in this visit's earlier batches ("Do another 20"): left out. They don't count against the limits. */
   exclude?: Iterable<string>;
   size?: number;
 };
 
 /**
- * Up to 20 cards: due cards first (oldest due first, then course order), then new cards in course
- * order, within today's limits (60 reviews, 10 new). Cards without access never appear, even if
- * their state exists. An empty list means nothing more today.
+ * Up to 20 cards, within today's limits (60 reviews, 10 new), which count only cards answered
+ * today. First the cards drawn earlier today and not answered yet (a reopened /review), in the
+ * order they were drawn; then due cards (oldest due first, then course order); then new cards in
+ * course order. Cards without access never appear, even if their state exists. An empty list
+ * means nothing more today.
  */
 export function buildSession(input: SessionInput): string[] {
   const { index, cards, hasAccess, nowMs, cal } = input;
@@ -199,28 +213,35 @@ export function buildSession(input: SessionInput): string[] {
   const today = cal.dayOf(nowMs);
   const log = logFor(input.log, today);
   const exclude = new Set(input.exclude ?? []);
-  const answered = new Set([...log.newIds, ...log.reviewIds]);
-  let pendingNew = 0;
-  let pendingReviews = 0;
-  for (const id of exclude) {
-    if (answered.has(id) || !cards[id]) continue;
-    if (cards[id].box === 0) pendingNew += 1;
-    else pendingReviews += 1;
-  }
-  const reviewRoom = Math.max(0, REVIEWS_PER_DAY - log.reviewIds.length - pendingReviews);
-  const newRoom = Math.max(0, NEW_PER_DAY - log.newIds.length - pendingNew);
-  const usable = (id: string) => !exclude.has(id) && cardAllowed(index, id, hasAccess);
+  let reviewRoom = Math.max(0, REVIEWS_PER_DAY - log.reviewIds.length);
+  let newRoom = Math.max(0, NEW_PER_DAY - log.newIds.length);
+  const usable = (id: string) => !!cards[id] && !exclude.has(id) && cardAllowed(index, id, hasAccess);
   const byRank = (a: string, b: string) => (index.rank.get(a) ?? Infinity) - (index.rank.get(b) ?? Infinity);
-
   const due = Object.keys(cards)
     .filter((id) => usable(id) && isDue(cards[id], today, cal))
-    .sort((a, b) => Date.parse(cards[a].dueAt) - Date.parse(cards[b].dueAt) || byRank(a, b))
-    .slice(0, Math.min(reviewRoom, size));
+    .sort((a, b) => Date.parse(cards[a].dueAt) - Date.parse(cards[b].dueAt) || byRank(a, b));
   const fresh = Object.keys(cards)
     .filter((id) => usable(id) && cards[id].box === 0)
-    .sort(byRank)
-    .slice(0, Math.min(newRoom, size - due.length));
-  return [...due, ...fresh];
+    .sort(byRank);
+
+  const out: string[] = [];
+  const taken = new Set<string>();
+  const take = (id: string) => {
+    if (out.length >= size || taken.has(id) || !usable(id)) return;
+    if (cards[id].box === 0) {
+      if (newRoom <= 0) return;
+      newRoom -= 1;
+    } else {
+      if (reviewRoom <= 0 || !isDue(cards[id], today, cal)) return;
+      reviewRoom -= 1;
+    }
+    taken.add(id);
+    out.push(id);
+  };
+  for (const id of log.drawn ?? []) take(id); // answered ones are no longer new or due
+  for (const id of due) take(id);
+  for (const id of fresh) take(id);
+  return out;
 }
 
 /**

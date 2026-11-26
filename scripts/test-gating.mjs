@@ -10,7 +10,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import { callProgressAction, PROGRESS_CALLS, refusedSignedOut } from "./progress-action-http.mjs";
+import { callProgressAction, callReviewAction, PROGRESS_CALLS, refusedSignedOut, REVIEW_CALLS, reviewActionId, reviewRefusedSignedOut } from "./progress-action-http.mjs";
 
 const BASE_URL = (process.env.BASE_URL || "http://localhost:3000").replace(/\/$/, "");
 const ROOT = process.cwd();
@@ -300,6 +300,18 @@ for (const pagePath of ["/", "/lessons", "/lessons/a1", free[0]?.path, gated[0]?
 for (const [name, args] of PROGRESS_CALLS) {
   const r = await callProgressAction(BASE_URL, name, args);
   record("progress action refuses a signed-out caller", refusedSignedOut(r), `${name} -> ${r.status} ${r.text.slice(-80)}`);
+}
+
+// Review actions: no page loads them yet (step 5), so they aren't in the build at all; once one
+// does, a signed-out caller must be refused with no card data.
+for (const [name, args] of REVIEW_CALLS) {
+  const id = reviewActionId(name);
+  if (!id) {
+    record("review action isn't reachable yet, or refuses a signed-out caller", true);
+    continue;
+  }
+  const r = await callReviewAction(BASE_URL, id, args);
+  record("review action isn't reachable yet, or refuses a signed-out caller", reviewRefusedSignedOut(r), `${name} -> ${r.status} ${r.text.slice(-80)}`);
 }
 
 console.log(`\nGating test against ${BASE_URL}: ${gated.length} gated lessons, ${free.length} free lessons.\n`);

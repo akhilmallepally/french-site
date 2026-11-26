@@ -20,6 +20,8 @@ import {
   INTERVAL_DAYS,
   isDue,
   logAnswer,
+  logDrawn,
+  logFor,
   MAX_AHEAD_MS,
   mergeCards,
   mergeReview,
@@ -163,16 +165,34 @@ describe("sessions and daily limits", () => {
     assert.deepEqual([log!.reviewIds.length, log!.newIds.length], [40, 10]);
   });
 
-  test("60 reviews a day at most, counted per local day; unanswered cards from an earlier batch count too", () => {
+  test("60 reviews a day at most, counting only cards answered that local day", () => {
     const cards: Record<string, CardState> = {};
     for (const lesson of ["a1-x", "a2-y", "b1-z"]) for (let i = 1; i <= 20; i++) cards[id(lesson, i)] = card(3, dueDay(i), "2026-10-01T00:00:00.000Z");
     const log: DailyLog = { day: today, newIds: [], reviewIds: Array.from({ length: 50 }, (_, i) => `done-${i}`) };
-    assert.equal(buildSession({ index: IDX, cards, hasAccess: true, nowMs: now, cal: PARIS, log }).length, 10, "50 done today: 10 more");
+    assert.equal(buildSession({ index: IDX, cards, hasAccess: true, nowMs: now, cal: PARIS, log }).length, 10, "50 answered today: 10 more");
     const yesterday = { ...log, day: addDays(today, -1) };
     assert.equal(buildSession({ index: IDX, cards, hasAccess: true, nowMs: now, cal: PARIS, log: yesterday }).length, 20, "yesterday's count doesn't apply");
     const first = buildSession({ index: IDX, cards, hasAccess: true, nowMs: now, cal: PARIS, log: undefined, size: 50 });
     assert.equal(first.length, 50);
-    assert.equal(buildSession({ index: IDX, cards, hasAccess: true, nowMs: now, cal: PARIS, log: undefined, exclude: first }).length, 10, "50 pending: 10 more");
+    const next = buildSession({ index: IDX, cards, hasAccess: true, nowMs: now, cal: PARIS, log: undefined, exclude: first });
+    assert.equal(next.length, 10, "the 50 drawn but unanswered don't count: the other 10 cards come next");
+  });
+
+  test("drawn but unanswered cards don't count, and a reopened /review offers them first", () => {
+    const cards = deck(0, 20); // 20 new paid-level cards, with access
+    const s1 = buildSession({ index: IDX, cards, hasAccess: true, nowMs: now, cal: PARIS, log: undefined });
+    assert.equal(s1.length, 10, "10 new a day");
+    // Two answered, then the page is closed; a new card was added earlier in course order meanwhile.
+    let log = logDrawn(undefined, today, s1);
+    for (const c of s1.slice(0, 2)) {
+      log = logAnswer(log, today, c, true);
+      cards[c] = answer(cards[c], "knew", now, PARIS);
+    }
+    cards[id("a1-x", 1)] = card(0, iso(now), null);
+    const reopened = buildSession({ index: IDX, cards, hasAccess: true, nowMs: now, cal: PARIS, log });
+    assert.deepEqual(reopened, s1.slice(2), "the 8 unanswered first, in their order, filling today's 8 remaining new cards");
+    assert.deepEqual(log.drawn, s1);
+    assert.equal(logFor(log, addDays(today, 1)).drawn, undefined, "a new day starts a new list");
   });
 
   test("without access, paid cards never appear, even when their state exists", () => {

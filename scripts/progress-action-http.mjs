@@ -31,3 +31,30 @@ export const PROGRESS_CALLS = [
 
 /** True when the reply is exactly { status: "signed-out" } and carries no progress data. */
 export const refusedSignedOut = (r) => r.status === 200 && /"status":"signed-out"/.test(r.text) && !/"(rows|data|applied)"/.test(r.text);
+
+// ---------- Review actions (app/actions/review.ts, docs/plans/review.md step 4) ----------
+
+/** The review action's id, or null while no page loads the review wiring (it isn't in the manifest then). */
+export function reviewActionId(name) {
+  const manifest = JSON.parse(fs.readFileSync(MANIFEST, "utf8"));
+  const found = Object.entries(manifest.node ?? {}).find(([, v]) => v.exportedName === name && v.filename === "app/actions/review.ts");
+  return found ? found[0] : null;
+}
+
+export async function callReviewAction(base, id, args, pagePath = "/lessons/a1/greetings") {
+  const res = await fetch(base + pagePath, {
+    method: "POST",
+    headers: { "Next-Action": id, "Content-Type": "text/plain;charset=UTF-8", Accept: "text/x-component", Origin: base },
+    body: JSON.stringify(args),
+  });
+  return { status: res.status, text: await res.text() };
+}
+
+export const REVIEW_CALLS = [
+  ["syncReviewAction", [{ expectedUserId: "11111111-1111-4111-8111-111111111111", items: [{ key: "r:a1-greetings-v001", cardId: "a1-greetings-v001", lessonId: "a1-greetings", box: 0, dueAt: new Date().toISOString(), lastReviewedAt: null, reviews: 0, lapses: 0 }] }]],
+  ["getReviewAction", ["11111111-1111-4111-8111-111111111111"]],
+  ["resetReviewAction", [{ expectedUserId: "11111111-1111-4111-8111-111111111111", confirm: "reset" }]],
+];
+
+/** True when the reply is exactly { status: "signed-out" } and carries no review data. */
+export const reviewRefusedSignedOut = (r) => r.status === 200 && /"status":"signed-out"/.test(r.text) && !/"(rows|cards|applied)"/.test(r.text);

@@ -44,14 +44,8 @@ export function levelIndex(level: Level): number {
   return LEVELS.indexOf(level);
 }
 
-/**
- * Free levels are readable without signing in. Everything else, including any level added
- * later, needs a Google sign-in (default deny). Accepts "A1" or the URL slug "a1".
- */
-const FREE_LEVELS: readonly string[] = ["a1", "a2"];
-export function isFreeLevel(level: Level | string): boolean {
-  return FREE_LEVELS.includes(String(level).toLowerCase());
-}
+// Free levels (A1, A2) live in lib/free-levels.ts, so code that can't read the disk can share them.
+export { isFreeLevel } from "./free-levels.ts";
 
 // ---------- Data shapes ----------
 

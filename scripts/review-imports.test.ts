@@ -61,10 +61,20 @@ function walkDir(d: string): string[] {
 export type ClientGraph = { entries: string[]; reached: Map<string, string> };
 
 /** Every module reachable from client code, with the client entry it was reached from. */
-export function clientGraph(base: string, dirs = ["app", "components", "lib"]): ClientGraph {
+export function clientGraph(base: string, dirs = ["app", "components", "lib"], extraEntries: string[] = []): ClientGraph {
   const files = dirs.flatMap((d) => walkDir(path.join(base, d)));
-  const entries = files.filter((f) => directive(fs.readFileSync(f, "utf8")) === "client");
+  const entries = [...files.filter((f) => directive(fs.readFileSync(f, "utf8")) === "client"), ...extraEntries.map((e) => path.join(base, e))];
+  return walkGraph(base, entries, true);
+}
+
+/**
+ * Every module reachable from `entries`. With `stopAtServer`, a "use server" module other than an
+ * entry is a leaf (the client only gets a reference to it). Bare specifiers (packages, node:fs) are
+ * kept in `packages` by the file that imports them.
+ */
+export function walkGraph(base: string, entries: string[], stopAtServer: boolean): ClientGraph & { packages: Map<string, string[]> } {
   const reached = new Map<string, string>();
+  const packages = new Map<string, string[]>();
   const stack = entries.map((e) => [e, e] as const);
   while (stack.length) {
     const [file, entry] = stack.pop()!;
@@ -72,13 +82,14 @@ export function clientGraph(base: string, dirs = ["app", "components", "lib"]): 
     reached.set(file, entry);
     if (!SOURCE.test(file)) continue; // JSON: a leaf
     const text = fs.readFileSync(file, "utf8");
-    if (file !== entry && directive(text) === "server") continue; // a server action reference
+    if (stopAtServer && file !== entry && directive(text) === "server") continue; // a server action reference
     for (const spec of importsOf(text)) {
       const next = resolve(file, spec, base);
       if (next && !reached.has(next)) stack.push([next, entry]);
+      else if (!next && !spec.startsWith(".") && !spec.startsWith("@/")) packages.set(file, [...(packages.get(file) ?? []), spec]);
     }
   }
-  return { entries, reached };
+  return { entries, reached, packages };
 }
 
 const rel = (base: string, f: string) => path.relative(base, f).split(path.sep).join("/");
@@ -108,6 +119,25 @@ describe("client import graph", () => {
     assert.deepEqual(graph.entries.map((f) => rel(dir, f)).sort(), ["components/leaky.tsx", "components/safe.tsx"]);
     assert.deepEqual(forbiddenReached(dir, graph), ["lib/generated/review-cards-free.json (reached from components/leaky.tsx)"],
       "a dynamic import through a re-export is found; a type-only import, a server action and a server component aren't");
+  });
+
+  test("the review server actions validate against the id index only: no fs, no lib/lessons.ts, no card text", () => {
+    const graph = walkGraph(root, [path.join(root, "app", "actions", "review.ts")], false);
+    const files = [...graph.reached.keys()].map((f) => rel(root, f));
+    assert.ok(files.includes("lib/generated/review-card-ids.json"), "the id index is imported as a module");
+    for (const banned of [...FORBIDDEN, "lib/lessons.ts", "lib/generated/review-published-ids.json"]) assert.ok(!files.includes(banned), `${banned} is reachable`);
+    const fsUsers = [...graph.packages].filter(([, specs]) => specs.some((x) => x === "fs" || x === "node:fs" || x.startsWith("node:fs/"))).map(([f]) => rel(root, f));
+    assert.deepEqual(fsUsers, [], "no module the action loads reads files");
+    console.log(`  review action graph: ${files.length} modules, packages: ${[...new Set([...graph.packages.values()].flat())].sort().join(", ")}`);
+  });
+
+  test("the review store (lib/review.ts) as client code reaches no card text and no lib/lessons.ts", () => {
+    const graph = clientGraph(root, ["app", "components", "lib"], ["lib/review.ts"]);
+    const files = [...graph.reached.keys()].map((f) => rel(root, f));
+    assert.ok(files.includes("lib/review-sync-store.ts") && files.includes("lib/review-wiring.ts") && files.includes("app/actions/review.ts"));
+    assert.ok(!files.includes("lib/generated/review-card-ids.json"), "the action's imports stay on the server");
+    assert.ok(!files.includes("lib/lessons.ts"), "no client module pulls in the disk reader");
+    assert.deepEqual(forbiddenReached(root, graph), []);
   });
 
   test("no client code reaches the review card text or its server module", () => {

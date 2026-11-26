@@ -9,7 +9,7 @@
 // It builds into .next with no config, then rebuilds a normal build (with .env.local) when it
 // finishes, so npm start and test:gating work straight after it.
 import { spawn, spawnSync } from "node:child_process";
-import { callProgressAction, PROGRESS_CALLS, refusedSignedOut } from "./progress-action-http.mjs";
+import { callProgressAction, callReviewAction, PROGRESS_CALLS, refusedSignedOut, REVIEW_CALLS, reviewActionId, reviewRefusedSignedOut } from "./progress-action-http.mjs";
 
 const PORT = process.env.PORT || "3100";
 const BASE = `http://localhost:${PORT}`;
@@ -117,6 +117,13 @@ try {
   for (const [name, args] of PROGRESS_CALLS) {
     const r = await callProgressAction(BASE, name, args);
     ok(refusedSignedOut(r), `${name} refuses cleanly when unconfigured (${r.status})`);
+  }
+  // Review actions, once a page loads them (step 5): signed-out with no Supabase config.
+  for (const [name, args] of REVIEW_CALLS) {
+    const id = reviewActionId(name);
+    if (!id) continue;
+    const r = await callReviewAction(BASE, id, args);
+    ok(reviewRefusedSignedOut(r), `${name} refuses cleanly when unconfigured (${r.status})`);
   }
 
   await new Promise((r) => setTimeout(r, 500));

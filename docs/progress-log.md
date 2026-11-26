@@ -463,3 +463,40 @@
 - **Checks:** all pass.
   - validate:content, test:content, test:checker (36), test:review (38), test:progress (140), tsc and build (357/357).
   - test:no-supabase-env (it ends with the normal rebuild), test:gating (on a fresh server, straight after it), test:webhook (70), test:checkout (23) and test:safe-next (7).
+
+## Daily review step 4: server actions, sync, import, and the daily-limit fix (Prompt 72)
+
+- **A. Daily limits:** the limits (10 new, 60 reviews) count only cards answered that local day.
+  - Cards drawn into a session and not answered don't count.
+  - The day's log keeps the drawn cards (`drawn`, written by the new `recordDrawn`), and `buildSession` offers the drawn, unanswered ones first, in their order, then due cards, then new ones.
+  - The old test that counted pending cards was replaced, and a test for a reopened /review was added.
+- **B. Server actions** (app/actions/review.ts: `getReviewAction`, `syncReviewAction`, `resetReviewAction`; the core is in lib/review-sync.ts and the queries in lib/review-db.ts):
+  - The user comes from the session; without Supabase config the actions answer `signed-out`.
+  - Validation uses lib/generated/review-card-ids.json, imported as a module.
+  - **Payload, rejected whole:** bad shape, 0 or more than 200 entries, more than 128 KiB, a key that isn't `r:…`, a duplicate key, or any field outside the eight allowed (so card text or a user id is refused).
+  - **Per entry:** `bad_item`, `bad_id`, `unknown_id`, `wrong_lesson`, `bad_box`, `bad_count`, `bad_time` (at most millisecond precision), `future_time` (lastReviewedAt more than 24 h ahead; dueAt as in 0008) and `no_access`.
+  - **Paid cards:** access is checked at most once per call, and only when a paid card is involved. Writes without access are rejected per entry (`no_access`); reads leave paid cards out, and unknown stored ids too.
+  - **Reply:** `{ status, applied, rejected, rows }`, with rows read back in the same request and millisecond ISO times.
+  - `isFreeLevel` moved to the new lib/free-levels.ts (lib/lessons.ts re-exports it), so neither the action nor the client store imports lib/lessons.ts.
+- **C. Synced store** (lib/review-sync-store.ts, `SupabaseReviewStore` and `ReviewSyncFacade`; the pure outbox and keys are in lib/review-outbox.ts):
+  - The flag is `NEXT_PUBLIC_REVIEW_SYNC=on`, separate from progress and off by default, exported from lib/review.ts. lib/review-wiring.ts reuses the progress auth wiring.
+  - **Reused from progress:** `browserEnv`, the timings (1 s debounce, 30 s to 5 min backoff, 25 s timeout), `isActionNotFound` (the 409 pause) and the import-claim key.
+  - **Outbox:** one key per card (`r:<cardId>`), holding whole states, so resends and imports merge with `mergeReview`. One in-flight and one pending entry, Web Locks for the outbox and the flush, batches of at most 200 entries and 120 KiB. The server's rows win, with pending entries on top.
+  - **Rejections:** logged, kept for display and never resent. A malformed reply or an invalid payload pauses sending.
+  - **Accounts:** per-user cache, outbox and rejection keys. Early reads trust the last account only while the cookie holds its unexpired session. Other accounts' caches are swept on every switch. A `signed-out` reply is checked with the auth server and handled as a sign-out (the cache goes, the unsent outbox stays for that account). A `wrong-user` reply stops sending.
+  - **Flag off:** `LocalReviewStore`, now also showing the signed-in account's synced cache and unsent outbox.
+  - **Import:** signed-out cards go to the owner of the progress import claim (`parlons-progress-import-owner-v1`, the same key, set by the first account if it's unset; never a second claim). They're queued with the `parlons-review-imported-v1` marker under the lock, so an interrupted import resumes and nothing is queued twice. An account's own local key always goes to that account and is then removed.
+  - The first load never waits: reads answer from the trusted cache or the local store while the wiring loads.
+- **D. check:review-db** (scripts/check-review-db.ts): the test account from .env.local, through runReviewSync and runReviewGet with the real access check and lib/review-db.ts.
+  - It checks read-back, an unknown id, a 25 h future time (validator and apply_review), card text refused whole, another user, a paid card without access (forced off if the account has access), idempotency, an older state, the whole-user read, and the 6,000 cap (filled with made-up ids through apply_review; an update still works at the cap).
+  - It deletes the account's cards at the end with its own delete policy. Not run here.
+- **HTTP:** test:gating and test:no-supabase-env check the review actions refuse a signed-out caller. That check passes trivially for now: no page loads the actions yet, so they aren't in the build's manifest. It becomes real in step 5.
+- **test:review** (77 tests):
+  - review-sync: validation, `no_access`, the contract, `cap_reached`, a malformed database reply.
+  - review-sync-store: local first, the frozen in-flight entry, batching, the server winning, rejections, `no_access`, backoff, the 25 s timeout, the 409, malformed and invalid pauses, two tabs.
+  - Facade and flag: the first load, accounts, sign-out, session expiry, wrong-user, the import claim and its reuse, resuming, local-key import, the flag both ways, no wiring or fetch with the flag off, signed-out parity, lib/review.ts off by default.
+  - The import-graph test also proves the review action loads no `fs`, no lib/lessons.ts and no card text, and that lib/review.ts as client code reaches neither card text nor lib/lessons.ts.
+- **Docs:** docs/plans/review.md (status line and section 12) and docs/db-setup.md (how to run check:review-db).
+- **Checks:** all pass.
+  - validate:content, test:content, test:checker (36), test:review (77), test:progress (140), tsc and build (357/357).
+  - test:no-supabase-env (ending with the normal rebuild), test:gating (on a fresh server), test:webhook (70), test:checkout (23) and test:safe-next (7).
