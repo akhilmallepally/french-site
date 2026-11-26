@@ -41,10 +41,48 @@ export type WebhookEventResult =
       product?: ProductKey;
     }
   | {
+      /** A dispute decided in our favour: access comes back (dispute.won). */
+      type: "order_dispute_won";
+      provider: ProviderName;
+      orderId: string;
+    }
+  | {
+      /** A yearly subscription changed (docs/plans/subscription.md, section 2). */
+      type: "subscription";
+      provider: ProviderName;
+      kind: SubscriptionEventKind;
+      subscriptionId: string;
+      customerId?: string;
+      /** The provider's product id; it must be the yearly product (PAYMENTS_YEARLY_PRODUCT_ID). */
+      productId?: string;
+      /** From the checkout metadata (signed), as for one-time purchases. */
+      userId?: string;
+      product?: string;
+      metadataSignature?: string;
+      /** For the fallback match, compared without regard to case. Never logged or stored. */
+      customerEmail?: string;
+      nextBillingDate?: string;
+      cancelAtNextBillingDate: boolean;
+      cancelledAt?: string;
+      /** The provider's event time (the envelope's timestamp): an older event never undoes a newer one. */
+      eventAt: string;
+    }
+  | {
+      /** A charge of a subscription (payment.succeeded with a subscription_id). */
+      type: "subscription_paid";
+      provider: ProviderName;
+      paymentId: string;
+      subscriptionId: string;
+      amountCents: number;
+      currency: string;
+    }
+  | {
       type: "ignored";
       provider: ProviderName;
       reason: string;
     };
+
+export type SubscriptionEventKind = "active" | "renewed" | "updated" | "past_due" | "on_hold" | "cancelled" | "expired";
 
 export interface PaymentProvider {
   readonly name: ProviderName;

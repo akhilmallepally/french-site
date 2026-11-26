@@ -1,6 +1,6 @@
 # Subscription plan (Pricing v2, Part B)
 
-Status: step 1 (migration 0010) is written (Prompt 77) and waits for the owner to run it. Steps 2 to 6 are next. The owner's decisions on the open questions are in section 8.
+Status: step 1 (0010) has run in Supabase. Step 2 (the subscription webhooks, with 0011) is built (Prompt 78); 0011 waits for the owner to run it. Steps 3 to 6 are next. The owner's decisions are in section 8.
 
 Decisions already made (owner, Prompt 76):
 - The founding offer ($8 once, lifetime access) ends at 2026-12-31T16:59:00Z (23:59 in Bangkok), or earlier when the 100 founder spots are gone.
@@ -148,6 +148,21 @@ A new table, `subscriptions` (migration 0010), rather than more columns on `purc
      - Also supabase/rollback/0010_subscriptions.sql, rollback_all (0001 to 0010), and rls.sql (402 checks in all, user D's states over time included).
      - The whole chain (0001 to 0010, each run twice, then rls.sql) passes in real Postgres (PGlite) with Supabase's auth schema and roles stood in. Running it found that 0005's seed failed on a re-run after 0009; the seed now inserts only when the row is missing.
 2. **Dodo setup and webhooks:**
+   - **As built (Prompt 78):**
+     - **Dodo setup (owner, test mode):** product `pdt_0NsnLuCUBOY030rpuYJ9l` ($12/year). Grace period 7 days, then On Hold. Immediate cancellation off, multiple subscriptions off, retries on with a 7-day window, customer emails set.
+     - **Shapes confirmed** from Dodo's "Send example" payloads for all 13 events. They're committed with emails replaced in scripts/fixtures/dodo-webhook-examples.json; dodopayments.txt itself is git-ignored.
+       - Refunds and disputes carry only `payment_id`, so they're matched through `subscription_payments`.
+       - A dispute's `amount` is a string and a refund's a number (neither is used).
+       - The example `subscription.renewed` has no `payment_id`, and `past_due` adds `past_due_ends_at`. Payments have no `charge_type`, so "new" or "renewal" comes from the payments already recorded.
+       - They're generic samples (monthly, empty metadata). Real yearly ones with our signed metadata come in step 6.
+     - **Migration 0011:** `subscriptions.last_event_at` (an older event never undoes a newer one), and `unmatched_payment_events` accepts `subscription_event` and `subscription_payment` and the reason `subscription_unknown`.
+     - **Parser** (lib/payments/dodo.ts): the 7 subscription events, `payment.succeeded` with a `subscription_id` (a subscription charge; without one it stays the lifetime flow), `dispute.won`, `dispute.lost` (access stays ended) and `payment.failed` (logged only). The 5 unused subscription events are ignored.
+     - **Processor** (lib/payments/webhook.ts):
+       - Upserts keyed on the subscription id, with the product checked against `PAYMENTS_YEARLY_PRODUCT_ID` and the buyer from the signed metadata, else the email.
+       - A refunded or disputed subscription is never undone by its own events.
+       - Payments are recorded once, "new" then "renewal". A payment before its subscription is retried (HTTP 500).
+       - Refunds and disputes of subscription charges end access at once; `dispute.won` restores a subscription or a lifetime purchase; a refund that arrived first is honoured.
+     - **Tests:** test:webhook covers each example event, idempotency, out-of-order events and the refund and dispute paths.
    - Owner, in test mode: create the $12/year product (20-year period, no trial), set the grace period (7 days), switch on retries, switch off immediate cancellation.
    - Code: parse and handle the events in section 2. test:webhook covers each event and its payload (checked against the dashboard's "Send example" and a real test-mode delivery), idempotency, out-of-order events and the refund path.
 3. **Entitlement over time:** every access check uses the new entitlement. Tests with an injected clock: active, renewed, past_due inside and after the grace, cancelled at period end before and after, refunded, disputed and won, lifetime plus subscription, and duplicate subscriptions.
@@ -187,7 +202,10 @@ A new table, `subscriptions` (migration 0010), rather than more columns on `purc
    - Then make a second subscription with card 4000 0000 0000 0341 and move its `next_billing_date` close (PATCH /subscriptions/{id}, a time ending in Z), to get a failed renewal, `past_due` and `on_hold`.
    - Refund one test payment from the dashboard.
 6. **Read the payloads:**
-   - With the flag on and a test key, the route logs each **verified** payload as one line starting `[payments:capture]` (lib/payments/capture.ts), after the signature check and never with a live key.
+   - With the flag on and a test key, the route logs the **shape** of each **verified** payload as one line starting `[payments:capture]` (lib/payments/capture.ts), after the signature check and never with a live key.
+   - **What's logged (Prompt 78):** the event type, the ids (with their values), status-like values, and every other field's name and type. Emails, names, phone numbers, addresses, card holder, tax ids and free text appear only as `[masked]`.
+   - Only server configuration turns it on (the flag AND a `dodo_test_` key); nothing in a payload can.
+   - **It's temporary:** the capture is removed once the payloads are confirmed, in rollout step 3 at the latest.
    - In Vercel: the Preview deployment → **Logs** → filter "payments:capture". Copy the lines into a file for step 2. Test-mode payloads hold only test customers' details.
 7. Switch `PAYMENTS_CAPTURE_PAYLOADS` off again (unset it) when done.
 

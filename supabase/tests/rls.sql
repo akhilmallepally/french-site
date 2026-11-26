@@ -1,8 +1,8 @@
 -- supabase/tests/rls.sql
 -- Proves the RLS rules (0003, 0005), the progress write path (0006), the service-role grants
 -- (0007), the daily-review write path (0008), the founder deadline (0009) and the subscriptions with
--- their entitlement (0010) on every table and every operation. Run it in the Supabase SQL editor (or
--- psql) AFTER migrations 0001 to 0010. It runs in
+-- their entitlement (0010) and the subscription webhooks' additions (0011) on every table and every
+-- operation. Run it in the Supabase SQL editor (or psql) AFTER migrations 0001 to 0011. It runs in
 -- one transaction that ends in ROLLBACK, so it leaves nothing behind: no users, no rows, no test
 -- schema.
 --
@@ -610,6 +610,10 @@ begin
   end if;
   if pg_catalog.to_regclass('public.subscriptions') is null or pg_catalog.to_regprocedure('public.has_access(text, timestamp with time zone)') is null then
     raise exception 'FAIL: public.subscriptions or has_access() is missing: run migration 0010 first';
+  end if;
+  if not exists (select 1 from information_schema.columns
+                  where table_schema = 'public' and table_name = 'subscriptions' and column_name = 'last_event_at') then
+    raise exception 'FAIL: subscriptions.last_event_at is missing: run migration 0011 first';
   end if;
   foreach t in array array['profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab', 'purchases', 'pricing_settings', 'unmatched_payment_events', 'review_cards', 'subscriptions', 'subscription_payments'] loop
     select c.relrowsecurity, c.relforcerowsecurity into rls, forced
@@ -1269,6 +1273,11 @@ select rls_test.expect_affected('service_role marks the payment refunded', 'upda
 select rls_test.expect_error('service_role deletes a subscription', 'delete from public.subscriptions where provider_subscription_id = ''sub_test_srv_1''');
 select rls_test.expect_error('service_role deletes a subscription payment', 'delete from public.subscription_payments where provider_payment_id = ''pay_test_srv_1''');
 select rls_test.expect_error('service_role calls has_access()', 'select public.has_access(''lessons'', now())');
+-- 0011: the webhook records its last event time, and unmatched subscription events.
+select rls_test.expect_affected('service_role stamps last_event_at', 'update public.subscriptions set last_event_at = now() where provider_subscription_id = ''sub_test_srv_1''', 1);
+select rls_test.expect_affected('service_role records an unmatched subscription event', 'insert into public.unmatched_payment_events (provider, provider_order_id, event_type, event_id, reason) values (''dodo'', ''sub_test_unmatched'', ''subscription_event'', ''msg_sub_1'', ''no_matching_user'')', 1);
+select rls_test.expect_affected('service_role records a payment for an unknown subscription', 'insert into public.unmatched_payment_events (provider, provider_order_id, event_type, event_id, reason) values (''dodo'', ''pay_test_unknown_sub'', ''subscription_payment'', ''msg_sub_2'', ''subscription_unknown'')', 1);
+select rls_test.expect_error('an unknown unmatched event type is refused', 'insert into public.unmatched_payment_events (provider, provider_order_id, event_type, reason) values (''dodo'', ''x'', ''something_else'', ''no_matching_user'')', '23514');
 reset role;
 
 -- ===================================================================== account deletion cascades

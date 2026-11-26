@@ -44,6 +44,15 @@ export function getPaymentsConfig(): PaymentsConfig | null {
 }
 
 /**
+ * The provider's id of the yearly subscription product (Dodo: pdt_…), from PAYMENTS_YEARLY_PRODUCT_ID.
+ * Subscription events for any other product are recorded as unmatched, never applied.
+ */
+export function getYearlyProductId(): string | null {
+  const id = process.env.PAYMENTS_YEARLY_PRODUCT_ID;
+  return id && id.trim() ? id.trim() : null;
+}
+
+/**
  * Returns configuration for the server-only Supabase service-role client.
  * Returns null when missing without throwing at import time.
  */

@@ -10,7 +10,7 @@ import type { PricingInput } from "./pricing-offer.ts";
 export const PRICING_TAG = "pricing";
 
 /** Webhook outcomes that change the founder spots or who has access, so the shared price must refresh. */
-const PRICE_CHANGING_OUTCOMES = new Set(["granted", "revoked", "revoked_out_of_order", "disputed"]);
+const PRICE_CHANGING_OUTCOMES = new Set(["granted", "revoked", "revoked_out_of_order", "disputed", "restored"]);
 
 export function pricingChangingOutcome(outcome: string): boolean {
   return PRICE_CHANGING_OUTCOMES.has(outcome);

@@ -231,8 +231,11 @@ describe("the notice", () => {
 });
 
 describe("re-import after a session ends", () => {
-  test("the session expires, the learner practises signed out, signs back in: the new practice is imported; another account gets nothing", async () => {
+  test("the session expires, the learner practises signed out, signs back in: the new practice is imported; another account gets nothing", async (t) => {
     const w = world();
+    // The signed-out store stamps practice with the real Date: pin it to the fake clock, or the fake
+    // server refuses that practice as future_time once the real date passes the clock's fixed start.
+    t.mock.timers.enable({ apis: ["Date"], now: w.clock.now });
     anonymous(w, sample());
     const day1 = facadeWorld(A, w);
     await day1.facade.getAll();

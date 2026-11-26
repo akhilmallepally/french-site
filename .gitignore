@@ -43,3 +43,7 @@ next-env.d.ts
 # Playwright (npm run test:progress-e2e)
 /test-results/
 /playwright-report/
+
+# Dodo "Send example" webhook payloads (local reference only, Prompt 78)
+dodopayments.txt
+dodo-payloads.txt

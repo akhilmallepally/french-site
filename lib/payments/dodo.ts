@@ -1,6 +1,22 @@
 import crypto from "node:crypto";
 import { getPaymentsConfig, signMetadata } from "./config";
-import type { CheckoutParams, PaymentProvider, ProductKey, WebhookEventResult } from "./types";
+import type { CheckoutParams, PaymentProvider, ProductKey, SubscriptionEventKind, WebhookEventResult } from "./types";
+
+/** The subscription events we act on (docs/plans/subscription.md, section 2). */
+const SUBSCRIPTION_KINDS: Record<string, SubscriptionEventKind> = {
+  "subscription.active": "active",
+  "subscription.renewed": "renewed",
+  "subscription.updated": "updated",
+  "subscription.past_due": "past_due",
+  "subscription.on_hold": "on_hold",
+  "subscription.cancelled": "cancelled",
+  "subscription.expired": "expired",
+};
+/** Subscription events we receive but don't use: one plan, no pausing, and creation failures change nothing. */
+const SUBSCRIPTION_IGNORED = new Set(["subscription.failed", "subscription.paused", "subscription.unpaused", "subscription.plan_changed", "subscription.update_payment_method"]);
+
+const text = (v: unknown): string | undefined => (typeof v === "string" && v.trim() ? v : undefined);
+const isoOrUndefined = (v: unknown): string | undefined => (typeof v === "string" && Number.isFinite(Date.parse(v)) ? new Date(v).toISOString() : undefined);
 
 export class DodoPaymentProvider implements PaymentProvider {
   readonly name = "dodo" as const;
@@ -143,6 +159,50 @@ export class DodoPaymentProvider implements PaymentProvider {
 
     const eventType = body.type;
     const data = body.data ?? {};
+    // The envelope's time (Standard Webhooks "timestamp"): used to ignore an older event arriving late.
+    const eventAt = isoOrUndefined(body.timestamp) ?? new Date().toISOString();
+
+    if (typeof eventType === "string" && SUBSCRIPTION_KINDS[eventType]) {
+      const subscriptionId = text(data.subscription_id);
+      if (!subscriptionId) return { type: "ignored", provider: "dodo", reason: `${eventType} missing subscription_id` };
+      const metadata = data.metadata ?? {};
+      return {
+        type: "subscription",
+        provider: "dodo",
+        kind: SUBSCRIPTION_KINDS[eventType],
+        subscriptionId,
+        customerId: text(data.customer?.customer_id),
+        productId: text(data.product_id),
+        userId: metadata.user_id ? String(metadata.user_id) : undefined,
+        product: metadata.product ? String(metadata.product) : undefined,
+        metadataSignature: metadata.metadata_signature ? String(metadata.metadata_signature) : undefined,
+        customerEmail: text(data.customer?.email),
+        nextBillingDate: isoOrUndefined(data.next_billing_date),
+        cancelAtNextBillingDate: data.cancel_at_next_billing_date === true,
+        cancelledAt: isoOrUndefined(data.cancelled_at),
+        eventAt,
+      };
+    }
+    if (typeof eventType === "string" && SUBSCRIPTION_IGNORED.has(eventType)) {
+      return { type: "ignored", provider: "dodo", reason: `${eventType}: not used (one yearly plan, no pausing)` };
+    }
+    if (eventType === "payment.failed") {
+      return { type: "ignored", provider: "dodo", reason: "payment.failed: logged only (the subscription events change access)" };
+    }
+
+    // A charge of a subscription: recorded against it, never treated as a lifetime purchase.
+    if (eventType === "payment.succeeded" && text(data.subscription_id)) {
+      const paymentId = String(data.payment_id ?? "");
+      if (!paymentId) return { type: "ignored", provider: "dodo", reason: "payment.succeeded missing payment_id" };
+      return {
+        type: "subscription_paid",
+        provider: "dodo",
+        paymentId,
+        subscriptionId: String(data.subscription_id),
+        amountCents: Number(data.total_amount ?? data.amount ?? 0),
+        currency: String(data.currency ?? "usd").toLowerCase(),
+      };
+    }
 
     if (eventType === "payment.succeeded") {
       const orderId = String(data.payment_id ?? data.id ?? "");
@@ -190,6 +250,16 @@ export class DodoPaymentProvider implements PaymentProvider {
         userId,
         product,
       };
+    }
+
+    if (eventType === "dispute.won") {
+      const orderId = String(data.payment_id ?? "");
+      if (!orderId) return { type: "ignored", provider: "dodo", reason: "dispute.won missing payment_id" };
+      return { type: "order_dispute_won", provider: "dodo", orderId };
+    }
+    if (eventType === "dispute.lost") {
+      // Access already ended when the dispute opened; it stays ended.
+      return { type: "ignored", provider: "dodo", reason: "dispute.lost: access stays ended" };
     }
 
     if (eventType === "dispute.opened") {

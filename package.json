@@ -30,7 +30,8 @@
     "test:prod-smoke": "node --env-file-if-exists=.env.local node_modules/@playwright/test/cli.js test --config playwright.prod.config.ts",
     "test:safe-next": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test lib/safe-next.test.ts",
     "test:webhook": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/test-payments-webhook.mjs",
-    "check:sql": "node scripts/check-sql.mjs",
+    "check:sql": "node scripts/check-sql.mjs && node scripts/test-sql.mjs",
+    "test:sql": "node scripts/test-sql.mjs",
     "test:gating": "node scripts/test-gating.mjs",
     "test:no-supabase-env": "node scripts/test-no-supabase-env.mjs"
   },
@@ -46,6 +47,7 @@
     "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "0.6.0",
     "@playwright/test": "1.65.1",
     "@tailwindcss/turbopack": "^4",
     "@tailwindcss/typography": "^0.5.20",

@@ -1,12 +1,14 @@
 -- rollback_all.sql
 -- WARNING: THIS DELETES USER DATA. It drops every table, policy, trigger and function created by
--- supabase/migrations/0001 to 0010, including all profiles, learner progress, writing-task records,
+-- supabase/migrations/0001 to 0011, including all profiles, learner progress, writing-task records,
 -- daily-review cards, subscriptions and their payments, purchases, unmatched payment events, and pricing. To undo only the progress
 -- sync, use rollback/0006_progress_sync.sql; to undo only the daily review, rollback/0008_review_cards.sql.
 -- It does not touch auth.users: accounts stay, but lose their profile, progress, and entitlements.
 -- There is no undo. Export anything you need first.
 
 begin;
+
+-- Subscription webhooks (0011): its column and checks go with the tables below.
 
 -- Subscriptions (0010)
 drop function if exists public.has_access(text, timestamptz);

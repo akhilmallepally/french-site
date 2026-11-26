@@ -1,12 +1,13 @@
 import "server-only";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
-import { getSupabaseAdminConfig, verifyMetadataSignature } from "./config";
+import { getSupabaseAdminConfig, getYearlyProductId, verifyMetadataSignature } from "./config";
 import type { ProductKey, ProviderName, WebhookEventResult } from "./types";
 
 /**
  * Returns a dedicated server-only Supabase client with the service role key. It has exactly the
- * privileges granted in supabase/migrations/0007_service_role_grants.sql: select, insert and
- * update on purchases, select and insert on unmatched_payment_events, and find_user_id_by_email().
+ * privileges granted in supabase/migrations/0007_service_role_grants.sql (select, insert and
+ * update on purchases, select and insert on unmatched_payment_events, find_user_id_by_email()) and
+ * 0010 (select, insert and update on subscriptions and subscription_payments).
  */
 export function getAdminClient(): SupabaseClient {
   const config = getSupabaseAdminConfig();
@@ -36,7 +37,8 @@ export type UnmatchedReason =
   | "invalid_data"
   | "refund_unknown_order"
   | "dispute_unknown_order"
-  | "paid_after_refund_or_dispute";
+  | "paid_after_refund_or_dispute"
+  | "subscription_unknown";
 
 export type ProcessWebhookOutcome = {
   outcome:
@@ -48,7 +50,11 @@ export type ProcessWebhookOutcome = {
     | "idempotent_concurrent"
     | "already_refunded"
     | "unmatched_recorded"
-    | "ignored";
+    | "ignored"
+    | "restored"
+    | "subscription_saved"
+    | "subscription_stale"
+    | "subscription_payment_recorded";
   existingStatus?: string;
   matchedBy?: "metadata" | "email";
   reason?: UnmatchedReason;
@@ -101,9 +107,19 @@ async function findPurchase(supabase: SupabaseClient, orderId: string) {
  * Records an event that can't be applied, once per (provider, order, reason), and returns 200.
  * Only a retryable failure to record it throws (HTTP 500), so the event is never lost silently.
  */
+/** unmatched_payment_events.event_type for each event (0011 added the subscription ones). */
+const UNMATCHED_TYPE: Record<string, string> = {
+  order_paid: "order_paid",
+  order_refunded: "order_refunded",
+  order_disputed: "order_disputed",
+  order_dispute_won: "order_disputed",
+  subscription: "subscription_event",
+  subscription_paid: "subscription_payment",
+};
+
 async function recordUnmatched(
   supabase: SupabaseClient,
-  event: { type: "order_paid" | "order_refunded" | "order_disputed"; provider: ProviderName; orderId: string },
+  event: { type: string; provider: ProviderName; orderId: string },
   reason: UnmatchedReason,
   context: WebhookContext,
   details: { product?: string; amountCents?: number; currency?: string } = {}
@@ -111,7 +127,7 @@ async function recordUnmatched(
   const { error } = await supabase.from(UNMATCHED_TABLE).insert({
     provider: event.provider,
     provider_order_id: event.orderId.slice(0, 200),
-    event_type: event.type,
+    event_type: UNMATCHED_TYPE[event.type] ?? event.type,
     event_id: context.eventId ? String(context.eventId).slice(0, 200) : null,
     reason,
     product: details.product ? String(details.product).slice(0, 40) : null,
@@ -240,6 +256,10 @@ async function handleRefunded(
   event: Extract<WebhookEventResult, { type: "order_refunded" }>,
   context: WebhookContext
 ): Promise<ProcessWebhookOutcome> {
+  // A subscription charge: the refund ends the subscription's access at once (rules, section 4).
+  const subPayment = await findSubscriptionPayment(supabase, event.orderId);
+  if (subPayment) return setSubscriptionPaymentStatus(supabase, subPayment, "refunded", event.orderId, context);
+
   // Two passes at most: if the out-of-order insert collides with a payment row that was just
   // written, the second pass refunds that row.
   for (let pass = 0; pass < 2; pass++) {
@@ -287,6 +307,9 @@ async function handleDisputed(
   event: Extract<WebhookEventResult, { type: "order_disputed" }>,
   context: WebhookContext
 ): Promise<ProcessWebhookOutcome> {
+  const subPayment = await findSubscriptionPayment(supabase, event.orderId);
+  if (subPayment) return setSubscriptionPaymentStatus(supabase, subPayment, "disputed", event.orderId, context);
+
   const existing = await findPurchase(supabase, event.orderId);
   if (!existing) return recordUnmatched(supabase, event, "dispute_unknown_order", context);
   if (existing.status === "refunded") return { outcome: "already_refunded" };
@@ -299,6 +322,245 @@ async function handleDisputed(
   }
   console.info(`[payments:webhook] Marked order ${event.orderId} as disputed (access suspended).`);
   return { outcome: "disputed" };
+}
+
+// ---------- Subscriptions (docs/plans/subscription.md, rollout step 2) ----------
+
+type SubscriptionRow = {
+  id: number;
+  user_id: string;
+  status: string;
+  current_period_end: string;
+  cancel_at_period_end: boolean;
+  cancelled_at: string | null;
+  last_event_at: string | null;
+};
+type SubscriptionPaymentRow = { id: number; subscription_id: number; status: string };
+
+/** Statuses only a refund or a dispute sets; the subscription's own events never undo them. */
+const ENDED_BY_US = new Set(["refunded", "disputed"]);
+
+async function findSubscription(supabase: SupabaseClient, subscriptionId: string): Promise<SubscriptionRow | null> {
+  const { data, error } = await supabase
+    .from("subscriptions")
+    .select("id, user_id, status, current_period_end, cancel_at_period_end, cancelled_at, last_event_at")
+    .eq("provider_subscription_id", subscriptionId)
+    .maybeSingle();
+  if (error) fail(`select subscription ${subscriptionId}`, error);
+  return data as SubscriptionRow | null;
+}
+
+async function findSubscriptionPayment(supabase: SupabaseClient, paymentId: string): Promise<SubscriptionPaymentRow | null> {
+  const { data, error } = await supabase
+    .from("subscription_payments")
+    .select("id, subscription_id, status")
+    .eq("provider_payment_id", paymentId)
+    .maybeSingle();
+  if (error) fail(`select subscription payment ${paymentId}`, error);
+  return data as SubscriptionPaymentRow | null;
+}
+
+/** A refund or dispute of a subscription charge (or a won dispute): the payment and its subscription. */
+async function setSubscriptionPaymentStatus(
+  supabase: SupabaseClient,
+  payment: SubscriptionPaymentRow,
+  to: "refunded" | "disputed" | "succeeded",
+  paymentId: string,
+  context: WebhookContext
+): Promise<ProcessWebhookOutcome> {
+  if (payment.status === "refunded") return { outcome: "already_refunded" };
+  if (payment.status === to) return { outcome: "idempotent_no_op", existingStatus: to };
+  if (to === "succeeded" && payment.status !== "disputed") return { outcome: "idempotent_no_op", existingStatus: payment.status };
+  const now = new Date().toISOString();
+  const { error } = await supabase
+    .from("subscription_payments")
+    .update(to === "refunded" ? { status: "refunded", refunded_at: now } : { status: to })
+    .eq("id", payment.id);
+  if (error) {
+    if (isRetryable(error)) fail(`${to} subscription payment ${paymentId}`, error);
+    return recordUnmatched(supabase, { type: "subscription_paid", provider: "dodo", orderId: paymentId }, "invalid_data", context);
+  }
+  // The subscription: refunded and disputed end access at once; a won dispute gives it back.
+  const subStatus = to === "succeeded" ? "active" : to;
+  const { error: subError } = await supabase
+    .from("subscriptions")
+    .update(to === "succeeded" ? { status: subStatus, cancelled_at: null } : { status: subStatus })
+    .eq("id", payment.subscription_id);
+  if (subError) fail(`${to} subscription ${payment.subscription_id}`, subError);
+  console.info(`[payments:webhook] Subscription payment ${paymentId} ${to}: subscription ${subStatus}.`);
+  return { outcome: to === "refunded" ? "revoked" : to === "disputed" ? "disputed" : "restored" };
+}
+
+/**
+ * A subscription event. Upserts the row keyed on the provider's subscription id:
+ * - active and renewed: status active, the period end from next_billing_date (a recovery from on_hold
+ *   too); updated: the cancel-at-period-end flag and the next billing date; past_due, on_hold,
+ *   cancelled and expired: that status (cancelled keeps "at the period end" when it was set before).
+ * - A refunded or disputed subscription stays so: only a refund or dispute event changes that.
+ * - An event older than the last one applied (last_event_at) is ignored, so a late delivery never
+ *   undoes a newer state. Equal times apply (each event sets a whole state; resends change nothing).
+ * - A new row needs the buyer (signed metadata, else the email, as for purchases), the yearly
+ *   product (PAYMENTS_YEARLY_PRODUCT_ID) and a valid next billing date; otherwise it's recorded as
+ *   unmatched (HTTP 200).
+ */
+async function handleSubscription(
+  supabase: SupabaseClient,
+  event: Extract<WebhookEventResult, { type: "subscription" }>,
+  context: WebhookContext
+): Promise<ProcessWebhookOutcome> {
+  const unmatchedEvent = { type: "subscription", provider: event.provider, orderId: event.subscriptionId };
+  const yearly = getYearlyProductId();
+  if (!yearly || event.productId !== yearly) {
+    return recordUnmatched(supabase, unmatchedEvent, "unknown_product", context, { product: event.productId });
+  }
+  const product = event.product ?? "lessons";
+  if (!isProductKey(product)) return recordUnmatched(supabase, unmatchedEvent, "unknown_product", context, { product });
+
+  const existing = await findSubscription(supabase, event.subscriptionId);
+  if (existing?.last_event_at && Date.parse(existing.last_event_at) > Date.parse(event.eventAt)) {
+    console.info(`[payments:webhook] Older ${event.kind} event for subscription ${event.subscriptionId}: ignored (a newer one was applied).`);
+    return { outcome: "subscription_stale" };
+  }
+
+  // The state this event describes.
+  const periodEnd = event.nextBillingDate ?? existing?.current_period_end;
+  const keepEnded = !!existing && ENDED_BY_US.has(existing.status);
+  const next: Record<string, unknown> = { last_event_at: event.eventAt };
+  if (event.customerId) next.provider_customer_id = event.customerId.slice(0, 200);
+  if (periodEnd && (event.kind === "active" || event.kind === "renewed" || event.kind === "updated")) next.current_period_end = periodEnd;
+  if (event.kind !== "cancelled") next.cancel_at_period_end = event.cancelAtNextBillingDate;
+  if (!keepEnded) {
+    if (event.kind === "active" || event.kind === "renewed") Object.assign(next, { status: "active", cancelled_at: null });
+    else if (event.kind === "past_due" || event.kind === "on_hold" || event.kind === "expired") next.status = event.kind;
+    else if (event.kind === "cancelled") {
+      Object.assign(next, {
+        status: "cancelled",
+        cancelled_at: event.cancelledAt ?? event.eventAt,
+        cancel_at_period_end: (existing?.cancel_at_period_end ?? false) || event.cancelAtNextBillingDate,
+      });
+    }
+  }
+
+  if (existing) {
+    const { error } = await supabase.from("subscriptions").update(next).eq("id", existing.id);
+    if (error) {
+      if (isRetryable(error)) fail(`update subscription ${event.subscriptionId}`, error);
+      return recordUnmatched(supabase, unmatchedEvent, "invalid_data", context);
+    }
+    console.info(`[payments:webhook] Subscription ${event.subscriptionId}: ${event.kind} applied.`);
+    return { outcome: "subscription_saved" };
+  }
+
+  // A new subscription: the period end and the buyer.
+  if (!periodEnd) return recordUnmatched(supabase, unmatchedEvent, "invalid_data", context);
+  const signatureOk =
+    !event.metadataSignature || (!!event.userId && verifyMetadataSignature(event.userId, product, event.metadataSignature));
+  let userId: string | null = signatureOk && isUuid(event.userId) ? event.userId : null;
+  if (!userId) userId = await findUserIdByEmail(supabase, event.customerEmail);
+  if (!userId) return recordUnmatched(supabase, unmatchedEvent, signatureOk ? "no_matching_user" : "invalid_metadata_signature", context);
+
+  const status = (next.status as string | undefined) ?? "active";
+  const row = {
+    user_id: userId,
+    product,
+    provider: event.provider,
+    provider_subscription_id: event.subscriptionId,
+    provider_customer_id: event.customerId ?? null,
+    status,
+    current_period_end: periodEnd,
+    cancel_at_period_end: (next.cancel_at_period_end as boolean | undefined) ?? false,
+    cancelled_at: status === "cancelled" ? (next.cancelled_at as string) : null,
+    last_event_at: event.eventAt,
+  };
+  const { error } = await supabase.from("subscriptions").insert(row);
+  if (!error) {
+    console.info(`[payments:webhook] Subscription ${event.subscriptionId} recorded (${status}).`);
+    return { outcome: "subscription_saved" };
+  }
+  if (error.code === "23505") return handleSubscription(supabase, event, context); // a resend raced us: apply as an update
+  if (error.code === "23503") return recordUnmatched(supabase, unmatchedEvent, "no_matching_user", context);
+  if (isRetryable(error)) fail(`insert subscription ${event.subscriptionId}`, error);
+  return recordUnmatched(supabase, unmatchedEvent, "invalid_data", context);
+}
+
+/**
+ * A charge of a subscription: recorded once (keyed on the payment id) against its subscription, as
+ * "new" for the first and "renewal" after. If the subscription isn't known yet (the payment arrived
+ * before subscription.active), it throws, so the provider retries later. A refund or dispute that
+ * arrived first is honoured: the payment is stored refunded or disputed, and so is the subscription.
+ */
+async function handleSubscriptionPaid(
+  supabase: SupabaseClient,
+  event: Extract<WebhookEventResult, { type: "subscription_paid" }>,
+  context: WebhookContext
+): Promise<ProcessWebhookOutcome> {
+  const unmatchedEvent = { type: "subscription_paid", provider: event.provider, orderId: event.paymentId };
+  const existing = await findSubscriptionPayment(supabase, event.paymentId);
+  if (existing) return { outcome: "idempotent_no_op", existingStatus: existing.status };
+  if (!Number.isSafeInteger(event.amountCents) || event.amountCents < 0) return recordUnmatched(supabase, unmatchedEvent, "invalid_amount", context);
+  if (!CURRENCY_RE.test(event.currency)) return recordUnmatched(supabase, unmatchedEvent, "invalid_currency", context);
+
+  const subscription = await findSubscription(supabase, event.subscriptionId);
+  if (!subscription) {
+    // Retry later (HTTP 500): subscription.active is usually a moment behind.
+    console.warn(`[payments:webhook] Payment ${event.paymentId} for subscription ${event.subscriptionId}, not known yet: retry.`);
+    throw new RetryableError(`subscription ${event.subscriptionId} not known yet`, null);
+  }
+
+  const { data: earlier, error: earlierError } = await supabase
+    .from(UNMATCHED_TABLE)
+    .select("reason")
+    .eq("provider", event.provider)
+    .eq("provider_order_id", event.paymentId)
+    .in("reason", ["refund_unknown_order", "dispute_unknown_order"]);
+  if (earlierError) fail(`select earlier refunds ${event.paymentId}`, earlierError);
+  const endedFirst = (earlier ?? []) as { reason: string }[];
+  const status = endedFirst.some((r) => r.reason === "refund_unknown_order") ? "refunded" : endedFirst.length ? "disputed" : "succeeded";
+
+  const { data: others, error: othersError } = await supabase.from("subscription_payments").select("id").eq("subscription_id", subscription.id);
+  if (othersError) fail(`select payments of subscription ${subscription.id}`, othersError);
+  const { error } = await supabase.from("subscription_payments").insert({
+    subscription_id: subscription.id,
+    user_id: subscription.user_id,
+    provider_payment_id: event.paymentId,
+    charge_type: others && others.length ? "renewal" : "new",
+    status,
+    amount: event.amountCents,
+    currency: event.currency,
+    refunded_at: status === "refunded" ? new Date().toISOString() : null,
+  });
+  if (error) {
+    if (error.code === "23505") return { outcome: "idempotent_concurrent" };
+    if (isRetryable(error)) fail(`insert subscription payment ${event.paymentId}`, error);
+    return recordUnmatched(supabase, unmatchedEvent, "invalid_data", context);
+  }
+  if (status !== "succeeded") {
+    const { error: subError } = await supabase.from("subscriptions").update({ status }).eq("id", subscription.id);
+    if (subError) fail(`${status} subscription ${subscription.id}`, subError);
+    console.info(`[payments:webhook] Payment ${event.paymentId} arrived after its ${status === "refunded" ? "refund" : "dispute"}: subscription ${status}.`);
+    return { outcome: "revoked_out_of_order" };
+  }
+  console.info(`[payments:webhook] Payment ${event.paymentId} recorded for subscription ${event.subscriptionId}.`);
+  return { outcome: "subscription_payment_recorded" };
+}
+
+/** A won dispute: a subscription payment back to succeeded (and its subscription active), or a lifetime purchase back to active. */
+async function handleDisputeWon(
+  supabase: SupabaseClient,
+  event: Extract<WebhookEventResult, { type: "order_dispute_won" }>,
+  context: WebhookContext
+): Promise<ProcessWebhookOutcome> {
+  const subPayment = await findSubscriptionPayment(supabase, event.orderId);
+  if (subPayment) return setSubscriptionPaymentStatus(supabase, subPayment, "succeeded", event.orderId, context);
+  const existing = await findPurchase(supabase, event.orderId);
+  if (!existing || existing.status !== "disputed") return { outcome: "idempotent_no_op", existingStatus: existing?.status };
+  const { error } = await supabase.from("purchases").update({ status: "active" }).eq("id", existing.id);
+  if (error) {
+    if (isRetryable(error)) fail(`restore order ${event.orderId}`, error);
+    return recordUnmatched(supabase, event, "invalid_data", context);
+  }
+  console.info(`[payments:webhook] Restored access for order ${event.orderId} (dispute won).`);
+  return { outcome: "restored" };
 }
 
 /**
@@ -329,5 +591,8 @@ export async function processWebhookEvent(
   if (event.type === "order_paid") return handlePaid(supabase, event, context);
   if (event.type === "order_refunded") return handleRefunded(supabase, event, context);
   if (event.type === "order_disputed") return handleDisputed(supabase, event, context);
+  if (event.type === "order_dispute_won") return handleDisputeWon(supabase, event, context);
+  if (event.type === "subscription") return handleSubscription(supabase, event, context);
+  if (event.type === "subscription_paid") return handleSubscriptionPaid(supabase, event, context);
   return { outcome: "ignored" };
 }

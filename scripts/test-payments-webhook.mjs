@@ -313,7 +313,9 @@ const PRODUCTS = ["lessons", "pro", "max"];
 // must exist, product check), unmatched_payment_events (unique provider + order + reason), and
 // find_user_id_by_email() (case-insensitive, trimmed). failOn makes one operation return an error.
 function createMockSupabase({ users = {}, failOn = {} } = {}) {
-  const tables = { purchases: [], unmatched_payment_events: [] };
+  const tables = { purchases: [], unmatched_payment_events: [], subscriptions: [], subscription_payments: [] };
+  const SUB_STATUSES = ["active", "past_due", "on_hold", "cancelled", "expired", "refunded", "disputed"];
+  const EVENT_TYPES = ["order_paid", "order_refunded", "order_disputed", "subscription_event", "subscription_payment"];
   const userIds = new Set(Object.values(users));
   let nextId = 1;
 
@@ -359,8 +361,19 @@ function createMockSupabase({ users = {}, failOn = {} } = {}) {
             if (rows.some((r) => r.provider_order_id === record.provider_order_id)) return { error: { code: "23505", message: "duplicate key" } };
             if (!userIds.has(record.user_id)) return { error: { code: "23503", message: "foreign key" } };
             if (!PRODUCTS.includes(record.product)) return { error: { code: "23514", message: "check" } };
+          } else if (table === "subscriptions") {
+            if (rows.some((r) => r.provider_subscription_id === record.provider_subscription_id)) return { error: { code: "23505", message: "duplicate key" } };
+            if (!userIds.has(record.user_id)) return { error: { code: "23503", message: "foreign key" } };
+            if (!PRODUCTS.includes(record.product) || !SUB_STATUSES.includes(record.status)) return { error: { code: "23514", message: "check" } };
+            if (record.status === "cancelled" && !record.cancelled_at) return { error: { code: "23514", message: "cancelled check" } };
+          } else if (table === "subscription_payments") {
+            if (rows.some((r) => r.provider_payment_id === record.provider_payment_id)) return { error: { code: "23505", message: "duplicate key" } };
+            if (!tables.subscriptions.some((x) => x.id === record.subscription_id)) return { error: { code: "23503", message: "foreign key" } };
+            if (!["new", "renewal"].includes(record.charge_type) || !["succeeded", "refunded", "disputed"].includes(record.status)) return { error: { code: "23514", message: "check" } };
           } else if (rows.some((r) => r.provider === record.provider && r.provider_order_id === record.provider_order_id && r.reason === record.reason)) {
             return { error: { code: "23505", message: "duplicate key" } };
+          } else if (!EVENT_TYPES.includes(record.event_type)) {
+            return { error: { code: "23514", message: "event_type check" } };
           }
           rows.push({ id: nextId++, ...record });
           return { error: null };
@@ -388,6 +401,13 @@ function createMockSupabase({ users = {}, failOn = {} } = {}) {
     },
     unmatchedFor(orderId) {
       return tables.unmatched_payment_events.filter((r) => r.provider_order_id === orderId);
+    },
+    subscriptionFor(subscriptionId) {
+      return tables.subscriptions.filter((r) => r.provider_subscription_id === subscriptionId);
+    },
+    paymentsFor(subscriptionId) {
+      const sub = tables.subscriptions.find((r) => r.provider_subscription_id === subscriptionId);
+      return sub ? tables.subscription_payments.filter((r) => r.subscription_id === sub.id) : [];
     },
   };
 }
@@ -582,8 +602,15 @@ assert(
   assert(captureEnabled({ PAYMENTS_CAPTURE_PAYLOADS: "true" }, "dodo_test_abc") === false, "capture: the flag must be exactly 'on'");
   assert(captureEnabled({}, "dodo_test_abc") === false, "capture: off by default");
   const lines = [];
-  capturePayload("x".repeat(25_000), (l) => lines.push(l));
-  assert(lines.length === 1 && lines[0].length < 20_100 && lines[0].includes("trimmed"), "capture: one line, trimmed to 20 KB");
+  const examples = JSON.parse(fs.readFileSync(path.join(process.cwd(), "scripts", "fixtures", "dodo-webhook-examples.json"), "utf8")).events;
+  for (const e of Object.values(examples)) capturePayload(JSON.stringify(e), (l) => lines.push(l));
+  const all = lines.join("\n");
+  assert(lines.length === 13 && lines.every((l) => l.startsWith("[payments:capture] ")), "capture: one line per payload");
+  assert(all.includes('type = "subscription.renewed"') && all.includes('data.subscription_id = "sub_7EeHq2ewQuadropD2ra"') && all.includes("data.next_billing_date: string") && all.includes("data.amount: string"), "capture: the event type, ids and field names with types (the shape)");
+  const personal = ["learner@example.com", "Test user", "John Doe", "Jane Doe", "New York", "11th Main", "08002", "+15555550100", "+447700900123", "DE999999999", "Example GmbH", "Switching to a competitor", "too_expensive", "0119", "fraudulent"];
+  assert(personal.every((p) => !all.includes(p)), `capture: no email, name, phone, address, tax id or free text (found: ${personal.filter((p) => all.includes(p)).join(", ") || "none"})`);
+  assert(all.includes("data.customer.email: [masked]") && all.includes("data.billing.street: [masked]"), "capture: personal fields appear only as [masked]");
+  assert(captureEnabled({ PAYMENTS_CAPTURE_PAYLOADS: undefined }, "dodo_test_abc") === false && !String(captureEnabled).includes("rawBody"), "capture: turned on by server configuration only, never by the payload");
 
   const realInfo = console.info;
   const captured = [];
@@ -627,6 +654,169 @@ console.log("\n--- 5b. The founding offer's deadline (Prompt 76) ---");
   }
   const src = fs.readFileSync(path.join(process.cwd(), "lib", "payments", "webhook.ts"), "utf8");
   assert(!/founder_ends_at|founderEndsAt|getPriceOffer|Date\.now\(\)/.test(src), "the webhook processor reads no deadline, offer or clock");
+}
+
+console.log("\n--- 5c. Subscriptions: Dodo's payload shapes and every event (docs/plans/subscription.md, step 2) ---");
+{
+  const YEARLY = "pdt_0NsnLuCUBOY030rpuYJ9l"; // the test-mode yearly product
+  process.env.PAYMENTS_YEARLY_PRODUCT_ID = YEARLY;
+  const examples = JSON.parse(fs.readFileSync(path.join(process.cwd(), "scripts", "fixtures", "dodo-webhook-examples.json"), "utf8")).events;
+  const parser = new DodoPaymentProvider();
+  const at = (minutes) => new Date(Date.UTC(2026, 11, 1, 12, minutes)).toISOString();
+  /** Dodo's example for `type`, made ours: the yearly product, a time, and optional data overrides. */
+  const example = (type, { minutes = 0, data = {}, signed } = {}) => {
+    const e = JSON.parse(JSON.stringify(examples[type]));
+    if (e.data.payload_type === "Subscription") e.data.product_id = YEARLY;
+    if (signed) e.data.metadata = { user_id: signed, product: "lessons", metadata_signature: signMetadata(signed, "lessons", testSecret) };
+    Object.assign(e.data, data);
+    e.timestamp = at(minutes);
+    return e;
+  };
+  const deliver = async (db, e) => processWebhookEvent(await parser.parseWebhookEvent(JSON.stringify(e)), db, { eventId: `msg_${e.type}_${e.timestamp}` });
+  const SUB = examples["subscription.active"].data.subscription_id;
+
+  // Every example parses to the event we act on (the shapes confirmed from Dodo's test mode).
+  const kinds = {};
+  for (const [type, e] of Object.entries(examples)) {
+    const parsed = await parser.parseWebhookEvent(JSON.stringify(e));
+    kinds[type] = parsed.type === "subscription" ? `subscription:${parsed.kind}` : parsed.type;
+  }
+  assert(JSON.stringify(kinds) === JSON.stringify({
+    "dispute.lost": "ignored", "dispute.opened": "order_disputed", "dispute.won": "order_dispute_won",
+    "payment.failed": "ignored", "payment.succeeded": "order_paid", "refund.succeeded": "order_refunded",
+    "subscription.active": "subscription:active", "subscription.cancelled": "subscription:cancelled", "subscription.expired": "subscription:expired",
+    "subscription.on_hold": "subscription:on_hold", "subscription.past_due": "subscription:past_due", "subscription.renewed": "subscription:renewed",
+    "subscription.updated": "subscription:updated",
+  }), `each of Dodo's 13 example events maps to its handler (${JSON.stringify(kinds)})`);
+  const active = await parser.parseWebhookEvent(JSON.stringify(examples["subscription.active"]));
+  assert(active.subscriptionId === SUB && active.customerId === "cus_8VbC6JDZzPEqfBPUdpj0K" && active.nextBillingDate === "2025-08-23T12:01:14.672Z" && active.cancelAtNextBillingDate === false && active.customerEmail === "learner@example.com", "a subscription's id, customer, next billing date and cancel flag are read from Dodo's shape");
+  const cancelled = await parser.parseWebhookEvent(JSON.stringify(examples["subscription.cancelled"]));
+  assert(cancelled.cancelledAt === "2025-08-04T05:48:25.139Z", "subscription.cancelled carries cancelled_at");
+  const subPaid = await parser.parseWebhookEvent(JSON.stringify(example("payment.succeeded", { data: { subscription_id: SUB } })));
+  assert(subPaid.type === "subscription_paid" && subPaid.paymentId === "pay_2IjeQm4hqU6RA4Z4kwDee" && subPaid.amountCents === 400 && subPaid.currency === "usd", "payment.succeeded with a subscription_id is a subscription charge (amount a number, currency lower case)");
+  for (const t of ["subscription.failed", "subscription.paused", "subscription.unpaused", "subscription.plan_changed", "subscription.update_payment_method"]) {
+    const r = await parser.parseWebhookEvent(JSON.stringify({ type: t, timestamp: at(0), data: { subscription_id: SUB } }));
+    assert(r.type === "ignored", `${t} is ignored (one yearly plan, no pausing)`);
+  }
+
+  // subscription.active: a new row, matched by email (the example's metadata is empty); a resend changes nothing.
+  const db = createMockSupabase({ users });
+  let r = await deliver(db, example("subscription.active", { minutes: 0 }));
+  let row = db.subscriptionFor(SUB)[0];
+  assert(r.outcome === "subscription_saved" && row?.user_id === userId && row.status === "active" && row.current_period_end === "2025-08-23T12:01:14.672Z" && row.provider_customer_id === "cus_8VbC6JDZzPEqfBPUdpj0K", "subscription.active creates the subscription (email match), period end = next_billing_date");
+  r = await deliver(db, example("subscription.active", { minutes: 0 }));
+  assert(r.outcome === "subscription_saved" && db.subscriptionFor(SUB).length === 1, "a resent subscription.active keeps one row");
+
+  // Signed metadata wins over the email.
+  const db2 = createMockSupabase({ users });
+  r = await deliver(db2, example("subscription.active", { signed: otherUserId }));
+  assert(db2.subscriptionFor(SUB)[0]?.user_id === otherUserId, "the signed metadata user id is used before the email");
+  const bad = example("subscription.active");
+  bad.data.metadata = { user_id: otherUserId, product: "lessons", metadata_signature: "f".repeat(64) };
+  const db2b = createMockSupabase({ users });
+  await deliver(db2b, bad);
+  assert(db2b.subscriptionFor(SUB)[0]?.user_id === userId, "a bad metadata signature falls back to the email");
+
+  // Another product, or nobody to match: recorded, never applied.
+  const db3 = createMockSupabase({ users });
+  r = await deliver(db3, { ...example("subscription.active"), data: { ...example("subscription.active").data, product_id: "pdt_something_else" } });
+  assert(r.outcome === "unmatched_recorded" && r.reason === "unknown_product" && db3.unmatchedFor(SUB)[0]?.event_type === "subscription_event" && db3.subscriptionFor(SUB).length === 0, "a subscription for another product is recorded as unmatched");
+  r = await deliver(createMockSupabase({ users: {} }), example("subscription.active"));
+  assert(r.outcome === "unmatched_recorded" && r.reason === "no_matching_user", "a subscription nobody matches is recorded as unmatched");
+  delete process.env.PAYMENTS_YEARLY_PRODUCT_ID;
+  r = await deliver(createMockSupabase({ users }), example("subscription.active"));
+  assert(r.reason === "unknown_product", "without PAYMENTS_YEARLY_PRODUCT_ID nothing is applied");
+  process.env.PAYMENTS_YEARLY_PRODUCT_ID = YEARLY;
+
+  // Payments: the first is "new", the next "renewal"; a resend is a no-op; before the subscription, retry.
+  const pay = (id, minutes) => example("payment.succeeded", { minutes, data: { subscription_id: SUB, payment_id: id, total_amount: 1200 } });
+  let threw = false;
+  try {
+    await deliver(createMockSupabase({ users }), pay("pay_early", 0));
+  } catch {
+    threw = true;
+  }
+  assert(threw, "a payment for a subscription not seen yet throws, so Dodo retries it (HTTP 500)");
+  r = await deliver(db, pay("pay_y1", 1));
+  r = await deliver(db, pay("pay_y1", 1));
+  assert(r.outcome === "idempotent_no_op" && db.paymentsFor(SUB).length === 1, "a resent subscription payment is a no-op");
+  await deliver(db, pay("pay_y2", 2));
+  assert(JSON.stringify(db.paymentsFor(SUB).map((p) => [p.charge_type, p.status, p.amount])) === JSON.stringify([["new", "succeeded", 1200], ["renewal", "succeeded", 1200]]), "the first charge is 'new', the next 'renewal'");
+
+  // renewed moves the period end; an older event arriving late is ignored.
+  r = await deliver(db, example("subscription.renewed", { minutes: 10, data: { next_billing_date: "2027-12-01T12:00:00Z" } }));
+  assert(db.subscriptionFor(SUB)[0].current_period_end === "2027-12-01T12:00:00.000Z" && db.subscriptionFor(SUB)[0].status === "active", "subscription.renewed moves the period end a year on");
+  r = await deliver(db, example("subscription.on_hold", { minutes: 5 }));
+  assert(r.outcome === "subscription_stale" && db.subscriptionFor(SUB)[0].status === "active", "an older on_hold arriving after a newer renewal is ignored (out of order)");
+
+  // A failed renewal: past_due (grace), then on_hold, then a recovery back to active.
+  await deliver(db, example("subscription.past_due", { minutes: 20 }));
+  assert(db.subscriptionFor(SUB)[0].status === "past_due" && db.subscriptionFor(SUB)[0].current_period_end === "2027-12-01T12:00:00.000Z", "past_due keeps the period end (the 7-day grace counts from it)");
+  await deliver(db, example("subscription.on_hold", { minutes: 30 }));
+  assert(db.subscriptionFor(SUB)[0].status === "on_hold", "on_hold: access ends");
+  await deliver(db, example("subscription.active", { minutes: 40, data: { next_billing_date: "2027-12-01T12:00:00Z" } }));
+  assert(db.subscriptionFor(SUB)[0].status === "active", "subscription.active after on_hold restores it (recovery)");
+
+  // Cancel at the period end (portal), then cancelled: access to the period end.
+  await deliver(db, example("subscription.updated", { minutes: 50, data: { cancel_at_next_billing_date: true, next_billing_date: "2027-12-01T12:00:00Z" } }));
+  row = db.subscriptionFor(SUB)[0];
+  assert(row.cancel_at_period_end === true && row.status === "active", "subscription.updated sets cancel at the period end, status unchanged");
+  await deliver(db, example("subscription.cancelled", { minutes: 60 }));
+  row = db.subscriptionFor(SUB)[0];
+  assert(row.status === "cancelled" && row.cancel_at_period_end === true && row.cancelled_at === "2025-08-04T05:48:25.139Z", "subscription.cancelled keeps 'at the period end' (access to the end of the paid year)");
+  await deliver(db, example("subscription.expired", { minutes: 70 }));
+  assert(db.subscriptionFor(SUB)[0].status === "expired", "subscription.expired: access ends");
+
+  // A cancellation with no "at the period end" before it (for example by the merchant): at once.
+  const db4 = createMockSupabase({ users });
+  await deliver(db4, example("subscription.active", { minutes: 0 }));
+  await deliver(db4, example("subscription.cancelled", { minutes: 1 }));
+  assert(db4.subscriptionFor(SUB)[0].cancel_at_period_end === false && db4.subscriptionFor(SUB)[0].status === "cancelled", "a cancellation not set for the period end ends access at once");
+
+  // Refunds and disputes carry only payment_id: found through subscription_payments.
+  const db5 = createMockSupabase({ users });
+  await deliver(db5, example("subscription.active", { minutes: 0, data: { next_billing_date: "2027-12-01T12:00:00Z" } }));
+  await deliver(db5, pay("pay_r1", 1));
+  r = await deliver(db5, example("refund.succeeded", { data: { payment_id: "pay_r1" } }));
+  assert(r.outcome === "revoked" && db5.paymentsFor(SUB)[0].status === "refunded" && db5.subscriptionFor(SUB)[0].status === "refunded", "a refund of a subscription charge ends the subscription's access at once");
+  r = await deliver(db5, example("refund.succeeded", { data: { payment_id: "pay_r1" } }));
+  assert(r.outcome === "already_refunded", "a resent refund is a no-op");
+  await deliver(db5, example("subscription.active", { minutes: 90 }));
+  assert(db5.subscriptionFor(SUB)[0].status === "refunded", "a later subscription event never undoes a refund");
+  assert(db5.purchasesFor("pay_r1").length === 0, "a subscription refund never touches lifetime purchases");
+
+  const db6 = createMockSupabase({ users });
+  await deliver(db6, example("subscription.active", { minutes: 0, data: { next_billing_date: "2027-12-01T12:00:00Z" } }));
+  await deliver(db6, pay("pay_d1", 1));
+  r = await deliver(db6, example("dispute.opened", { data: { payment_id: "pay_d1" } }));
+  assert(r.outcome === "disputed" && db6.subscriptionFor(SUB)[0].status === "disputed", "a dispute of a subscription charge suspends access");
+  r = await deliver(db6, example("dispute.lost", { data: { payment_id: "pay_d1" } }));
+  assert(r.outcome === "ignored" && db6.subscriptionFor(SUB)[0].status === "disputed", "dispute.lost keeps it ended");
+  r = await deliver(db6, example("dispute.won", { data: { payment_id: "pay_d1" } }));
+  assert(r.outcome === "restored" && db6.paymentsFor(SUB)[0].status === "succeeded" && db6.subscriptionFor(SUB)[0].status === "active", "dispute.won gives access back");
+
+  // A refund that arrives before its payment: recorded, and the payment then ends access.
+  const db7 = createMockSupabase({ users });
+  await deliver(db7, example("subscription.active", { minutes: 0, data: { next_billing_date: "2027-12-01T12:00:00Z" } }));
+  r = await deliver(db7, example("refund.succeeded", { data: { payment_id: "pay_late" } }));
+  assert(r.outcome === "unmatched_recorded" && r.reason === "refund_unknown_order", "a refund before its payment is recorded as unmatched");
+  r = await deliver(db7, pay("pay_late", 2));
+  assert(r.outcome === "revoked_out_of_order" && db7.paymentsFor(SUB)[0].status === "refunded" && db7.subscriptionFor(SUB)[0].status === "refunded", "the payment that follows is stored refunded, and the subscription ends");
+
+  // A lifetime purchase's dispute won: access back, and the founder spots refresh.
+  const db8 = createMockSupabase({ users });
+  await processWebhookEvent(paidEvent({ orderId: "pay_life", userId }), db8);
+  await deliver(db8, example("dispute.opened", { data: { payment_id: "pay_life" } }));
+  assert(db8.purchasesFor("pay_life")[0].status === "disputed", "a lifetime purchase's dispute suspends it (as before)");
+  r = await deliver(db8, example("dispute.won", { data: { payment_id: "pay_life" } }));
+  assert(r.outcome === "restored" && db8.purchasesFor("pay_life")[0].status === "active", "dispute.won restores a lifetime purchase");
+  const { pricingChangingOutcome } = await import("../lib/pricing-source.ts");
+  assert(pricingChangingOutcome("restored") && !pricingChangingOutcome("subscription_saved") && !pricingChangingOutcome("subscription_payment_recorded"), "a restored lifetime purchase refreshes the founder spots; subscription events don't");
+
+  // The one-time flow is unchanged: payment.succeeded without a subscription_id is a lifetime purchase.
+  const lifetime = await parser.parseWebhookEvent(JSON.stringify(examples["payment.succeeded"]));
+  assert(lifetime.type === "order_paid" && lifetime.orderId === "pay_2IjeQm4hqU6RA4Z4kwDee", "payment.succeeded with subscription_id null stays the lifetime flow");
+  delete process.env.PAYMENTS_YEARLY_PRODUCT_ID;
 }
 
 console.log("\n--- 6. Testing Fail-Closed Config Helpers ---");

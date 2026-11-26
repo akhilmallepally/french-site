@@ -58,8 +58,11 @@ describe("flag off, signed in: practice belongs to the account", () => {
     assert.equal((await browserLocal(f.w.storage, () => null).getAll()).lessons["a1-alphabet-and-accents"], undefined, "not to a signed-out visitor");
   });
 
-  test("flag back on: the account's local practice is sent to it whatever the import claim, and to nobody else", async () => {
+  test("flag back on: the account's local practice is sent to it whatever the import claim, and to nobody else", async (t) => {
     const w = world();
+    // The signed-out store stamps practice with the real Date: pin it to the fake clock, or the fake
+    // server refuses that practice as future_time once the real date passes the clock's fixed start.
+    t.mock.timers.enable({ apis: ["Date"], now: w.clock.now });
     (globalThis as { localStorage?: unknown }).localStorage = w.storage;
     w.storage.setItem(IMPORT_OWNER_KEY, B); // this browser's signed-out progress belongs to B
     const off = browserLocal(w.storage, () => A);

@@ -667,3 +667,32 @@
 **Checks:** all pass.
 - validate:content, test:content, test:checker (36), test:review (90), test:progress (140), test:progress-e2e (7 of 7, then `npm run build`), tsc and build (359/359).
 - test:no-supabase-env, test:gating (on a fresh server), test:webhook (81), test:checkout (31), test:safe-next (7) and check:sql (26 sources).
+
+## Subscription step 2 (webhooks, migration 0011), test:sql, shape-only payload logging (Prompt 78)
+
+**test:sql** (new; PGlite 0.6.0, a dev dependency the owner asked for): Postgres in WebAssembly with Supabase stand-ins (roles, auth.users, auth.uid()). It applies 0001 to 0011 in order, twice, runs supabase/tests/rls.sql (406 PASS checks, nothing left in auth.users), then rollback_all.sql, checks no table is left, and applies every migration again. It fails on any error, and check:sql now runs it.
+
+**Payload logging** (lib/payments/capture.ts): only server configuration turns it on (`PAYMENTS_CAPTURE_PAYLOADS=on` AND a `dodo_test_` key), after the signature check; nothing in a payload can. It logs only the shape: the event type, ids, status-like values, and every other field's name and type. Emails, names, phones, addresses, card holder, tax ids and free text are `[masked]`. Tested (5.11). The plan says it's removed once the payloads are confirmed, in step 3 at the latest.
+
+**Step 2** (docs/plans/subscription.md, "As built"):
+- Payload shapes confirmed from Dodo's 13 "Send example" payloads (dodopayments.txt, git-ignored; committed with emails replaced as scripts/fixtures/dodo-webhook-examples.json).
+- 0011: `subscriptions.last_event_at`, and the unmatched-event checks accept subscription events. It has a rollback, and rls.sql has 0011 checks.
+- lib/payments/dodo.ts: the 7 subscription events, subscription charges (payment.succeeded with a subscription_id), dispute.won and dispute.lost; payment.failed is logged only.
+- lib/payments/webhook.ts:
+  - subscriptions are upserted (product checked against `PAYMENTS_YEARLY_PRODUCT_ID`, user from the signed metadata, else the email);
+  - older events never undo newer ones, and refunded or disputed are sticky;
+  - payments are recorded once, new then renewal, and retried if the subscription isn't known yet;
+  - refunds and disputes of a subscription charge are matched through subscription_payments;
+  - dispute.won restores access; a refund that arrived first is honoured.
+- lib/payments/types.ts and config.ts; pricing-source.ts treats "restored" as price-changing.
+- The five decisions are unchanged.
+- The owner's Dodo test product (pdt_0NsnLuCUBOY030rpuYJ9l) and its settings are recorded in the plan.
+- docs/db-setup.md: the 0011 steps and a has_0011 check.
+
+**Test fix:** lib/progress-import.test.ts and lib/progress-local.test.ts: two tests failed because the date passed the fake clock's fixed start (25 November 2026). The signed-out store stamps practice with the real Date, so the fake server refused it as future_time. Those two tests now pin Date to the fake clock (node:test mock timers). The app code is unchanged.
+
+**SQL for the owner:** 0011, then rls.sql, then the Security Advisor.
+
+**Checks:** all pass.
+- validate:content, test:content, test:checker (36), test:review (90), test:progress (140), test:progress-e2e (7 of 7, then `npm run build`), tsc and build.
+- test:no-supabase-env, test:gating (on a fresh server), test:webhook (126), test:checkout (31), test:safe-next (7), check:sql and test:sql.
