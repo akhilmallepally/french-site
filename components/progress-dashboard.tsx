@@ -5,8 +5,23 @@ import { useEffect, useState } from "react";
 import { progressStore, type ProgressData, type ProgressMode } from "@/lib/progress";
 import { summarize, type CatalogueLesson, type Summary } from "@/lib/progress-summary";
 import { levelAnchor, practiceHref, unitAnchor, writingTaskHref } from "@/lib/practice";
+import cardIndex from "@/lib/generated/review-card-ids.json";
+import { reviewStore, type ReviewData } from "@/lib/review";
+import { rememberedAccess, sessionUser } from "@/lib/review-access";
+import type { ReviewIdIndex } from "@/lib/review-catalogue";
+import { calendarFor, deckIndex, practisedLessons } from "@/lib/review-scheduler";
+import { dueLine, todayCounts } from "@/lib/review-session";
 
-type Loaded = { data: ProgressData; mode: ProgressMode; notice: string | null };
+type Loaded = { data: ProgressData; mode: ProgressMode; notice: string | null; review: ReviewData };
+
+const REVIEW_INDEX = deckIndex(cardIndex as ReviewIdIndex);
+
+/** "N cards due today", "No cards due today", or null before any lesson is practised. */
+function reviewLine(data: ProgressData, review: ReviewData): string | null {
+  const practised = practisedLessons(data);
+  const counts = todayCounts({ index: REVIEW_INDEX, cards: review.cards, practised, hasAccess: rememberedAccess(sessionUser()), nowMs: Date.now(), cal: calendarFor(), log: review.today });
+  return dueLine(counts, practised);
+}
 
 const formatDate = (iso: string) => new Date(iso).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
 
@@ -23,9 +38,9 @@ export function ProgressDashboard({ catalogue, levelNames }: { catalogue: Catalo
   useEffect(() => {
     let active = true;
     const load = () =>
-      Promise.all([progressStore.getAll(), progressStore.mode(), progressStore.importNotice()]).then(([data, mode, notice]) => {
+      Promise.all([progressStore.getAll(), progressStore.mode(), progressStore.importNotice(), reviewStore.getAll()]).then(([data, mode, notice, review]) => {
         if (!active) return;
-        setLoaded({ data, mode, notice: notice?.text ?? null });
+        setLoaded({ data, mode, notice: notice?.text ?? null, review });
         if (notice) {
           setNoticeOpen(true);
           void progressStore.markImportNoticeShown(); // once: it won't appear on the next visit
@@ -33,9 +48,11 @@ export function ProgressDashboard({ catalogue, levelNames }: { catalogue: Catalo
       });
     void load();
     const unsubscribe = progressStore.subscribe(() => void load());
+    const unsubscribeReview = reviewStore.subscribe(() => void load());
     return () => {
       active = false;
       unsubscribe();
+      unsubscribeReview();
     };
   }, []);
 
@@ -48,9 +65,18 @@ export function ProgressDashboard({ catalogue, levelNames }: { catalogue: Catalo
 
   if (!loaded) return <Placeholder />;
   const summary = summarize(catalogue, loaded.data);
+  const due = reviewLine(loaded.data, loaded.review);
 
   return (
     <div className="mt-6">
+      {due && (
+        <p className="mb-6 text-sm" data-testid="review-due-line">
+          <span className="font-medium">Daily review:</span>{" "}
+          <Link href="/review" className={`text-accent underline-offset-2 hover:underline ${linkClass}`}>
+            {due} →
+          </Link>
+        </p>
+      )}
       {noticeOpen && loaded.notice && (
         <div role="status" className="mb-6 flex items-start justify-between gap-4 rounded-2xl border border-emerald-200 bg-emerald-50 px-5 py-3 text-sm text-emerald-900">
           <p>{loaded.notice}</p>

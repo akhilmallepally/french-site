@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-// "Clear lessons" and "Practice" are links; "Daily review" describes a feature and isn't clickable.
+// Every card links somewhere; the unlinked style below stays for a card without a page.
 const features: { title: string; body: string; href?: string }[] = [
   { title: "Clear lessons", body: "Short, focused lessons with vocab tables and real examples. No fluff.", href: "/pricing" },
   { title: "Practice", body: "Every unit review in one place, with your best score.", href: "/practice" },
-  { title: "Daily review", body: "Spaced repetition brings words back right before you forget them." },
+  { title: "Daily review", body: "A few minutes a day to keep the words you've learned.", href: "/review" },
 ];
 
 const focusRing = "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";

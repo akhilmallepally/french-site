@@ -9,7 +9,18 @@
 // It builds into .next with no config, then rebuilds a normal build (with .env.local) when it
 // finishes, so npm start and test:gating work straight after it.
 import { spawn, spawnSync } from "node:child_process";
-import { callProgressAction, callReviewAction, PROGRESS_CALLS, refusedSignedOut, REVIEW_CALLS, reviewActionId, reviewRefusedSignedOut } from "./progress-action-http.mjs";
+import {
+  callProgressAction,
+  callReviewAction,
+  cardTextActionId,
+  PROGRESS_CALLS,
+  refusedSignedOut,
+  REVIEW_CALLS,
+  reviewActionId,
+  reviewRefusedSignedOut,
+  SAMPLE_FREE_CARD,
+  SAMPLE_PAID_CARD,
+} from "./progress-action-http.mjs";
 
 const PORT = process.env.PORT || "3100";
 const BASE = `http://localhost:${PORT}`;
@@ -118,13 +129,23 @@ try {
     const r = await callProgressAction(BASE, name, args);
     ok(refusedSignedOut(r), `${name} refuses cleanly when unconfigured (${r.status})`);
   }
-  // Review actions, once a page loads them (step 5): signed-out with no Supabase config.
+  // Review actions: signed-out with no Supabase config; the card text still works for free cards.
   for (const [name, args] of REVIEW_CALLS) {
     const id = reviewActionId(name);
+    ok(!!id, `${name} is in the build`);
     if (!id) continue;
-    const r = await callReviewAction(BASE, id, args);
+    const r = await callReviewAction(BASE, id, args, "/review");
     ok(reviewRefusedSignedOut(r), `${name} refuses cleanly when unconfigured (${r.status})`);
   }
+  const textId = cardTextActionId();
+  ok(!!textId, "getCardTextAction is in the build");
+  if (textId) {
+    const r = await callReviewAction(BASE, textId, [[SAMPLE_FREE_CARD.id, SAMPLE_PAID_CARD.id]], "/review");
+    ok(r.status === 200 && r.text.includes(JSON.stringify(SAMPLE_FREE_CARD.fr).slice(1, -1)), "card text: free cards work with no Supabase config");
+    ok(!r.text.includes(SAMPLE_PAID_CARD.fr) && !r.text.includes(SAMPLE_PAID_CARD.en), "card text: no paid text with no Supabase config");
+  }
+  const review = await get("/review");
+  ok(review.status === 200 && review.text.includes("Daily review"), `/review -> ${review.status} renders with no Supabase config`);
 
   await new Promise((r) => setTimeout(r, 500));
   ok(log.includes("[supabase] NEXT_PUBLIC_SUPABASE_URL or NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY is missing"), "server logged the missing-config warning");

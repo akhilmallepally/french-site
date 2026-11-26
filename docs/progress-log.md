@@ -500,3 +500,40 @@
 - **Checks:** all pass.
   - validate:content, test:content, test:checker (36), test:review (77), test:progress (140), tsc and build (357/357).
   - test:no-supabase-env (ending with the normal rebuild), test:gating (on a fresh server), test:webhook (70), test:checkout (23) and test:safe-next (7).
+
+## Daily review step 5: /review, card text, home card, the /progress line, real-browser test (Prompt 73)
+
+- **0. Verification:** the "access forced off" path in check:review-db can't be reached by a request.
+  - Both review actions build the access check only from the session (`accessFor(s.supabase, s.userId)`), and the text action only from `getCurrentUser`.
+  - No action argument, header, query or request-time environment read changes it. A payload field such as `hasAccess` rejects the call (`unexpected_field`).
+  - The forced-off function exists only in the script, as its own injected dependency. Nothing was removed. lib/review-text.test.ts pins the action sources and the payload refusal.
+- **1. Card text:** `getCardTextAction` (app/actions/review-text.ts; the core is lib/review-text.ts).
+  - It takes up to 40 unique card ids and returns `{ status: "ok", cards: { id: { fr, en, pron?, group?, note? } }, access }`.
+  - Free cards come back for anyone, also with no Supabase config. Paid cards come back only after one access check per call, which fails closed; otherwise they're left out.
+  - It's the only reader of lib/review-cards-server.ts, so app/actions/review.ts stays free of card text.
+  - /review fetches a batch's text in one call before its first card, and again for "Do another 20". The text is kept in memory only.
+- **2. /review** (app/review/page.tsx, static, noindex, not in the sitemap; components/review-session.tsx; the pure logic is in lib/review-session.ts):
+  - The header shows "N due today · M new cards left today". The card has the French, the pronunciation and the group; "Show answer" reveals the English and the note in a space that's always kept.
+  - Space or Enter shows the answer, then 1 (Not yet) or 2 (I knew it). The buttons are 56 px tall. "7 / 20" is shown, with a polite live region, and the card is focused after each step.
+  - A "Not yet" card is repeated once at the end. The summary shows reviewed, known and the next due day, then "Do another 20" or "All done for today" with a link to /practice. The empty state uses the plan's text.
+  - Offline or a failed fetch shows "Couldn't load your cards. Check your connection and try again." with Retry. Answers are already saved locally.
+  - Signed out with sync on, a sign-in line appears below the card.
+  - **Paid cards:** the batch is built as if the learner had access, and the text reply's `access` decides. Without access the batch is rebuilt from stored free cards, so no paid card is shown or its text returned.
+  - The access answer is remembered per user in `parlons-review-access-v1`, for counts only.
+- **3. Home:** the "Daily review" card links to /review ("A few minutes a day to keep the words you've learned."); the old text promised more.
+- **4. /progress:** a "Daily review:" line at the top, linking to /review ("N cards due today", "No cards due today", or nothing before any lesson is practised). It's read in the same pass as progress, so nothing shifts.
+- **Privacy page:** it now says the daily review keeps card states (word, box, due time, counts) locally and, signed in, in Supabase.
+- **5. HTTP checks are now real:**
+  - test:gating: sync, get and reset refuse a signed-out caller. Card text gives a signed-out caller free text, never paid text (`access:false`), and refuses 41 ids. /review is noindex, holds no card text, and isn't in the sitemap.
+  - test:no-supabase-env: the review actions are in the build and refuse; free card text works and paid text doesn't come back; /review renders.
+- **6. Real-browser test:** e2e/review.spec.ts, with the shared sign-in and run helpers moved to e2e/helpers.ts. test:progress-e2e builds with both flags on.
+  - Signed in: practise A1 "alphabet and accents"; /review shows "1 / 10" and "0 due today · 10 new cards left today". Answer four (one "Not yet", so "5 / 11"), refresh: "1 / 6", the counts right, and none of the answered cards.
+  - Finish: "6 cards reviewed, 6 known.", "All done for today", "Next cards due tomorrow." Ten rows have box ≥ 1 in Supabase. /progress says "No cards due today". After signing out, /review shows the empty state and the sign-in line.
+  - Cleanup deletes review_cards and the progress rows with the account's own delete policies, and checks 0 are left.
+  - **Without access** (signed out, whatever the account has): a seeded paid card never appears ("1 / 1", the free card only), and its text is in neither the page nor any action reply. At 375 px there's no sideways scroll and the card keeps its size and position when the answer is shown.
+  - **Offline** (action calls fail): the message and Retry appear, the earlier answer is kept, and after Retry the remaining card shows.
+- **JS** (gzip, beyond the home page's): /review 23 KiB, mostly the 52 KB id index. /progress grows by the same index and the review store (24 KiB beyond home now).
+- **test:review** (90 tests): it adds lib/review-text.test.ts (free, paid with and without access, the check failing, 40 ids, bad input, no config, the access verification) and lib/review-session.test.ts (counts, the /progress line, the empty and done states, the provisional batch, reveal and grade with the repeat, the keys, the summary, the next due day). The import-graph test now also proves the text action reads the card files on the server only.
+- **Checks:** all pass.
+  - validate:content, test:content, test:checker (36), test:review (90, on the flag-on and the normal build), test:progress (140), test:progress-e2e (4 of 4, then `npm run build`), tsc and build (358/358).
+  - test:no-supabase-env, test:gating (on a fresh server), test:webhook (70), test:checkout (23) and test:safe-next (7).

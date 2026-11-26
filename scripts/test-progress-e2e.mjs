@@ -1,7 +1,8 @@
-// npm run test:progress-e2e: builds the app with NEXT_PUBLIC_PROGRESS_SYNC=on, then runs the
-// Playwright test in e2e/ (Chromium) against `next start`, signed in as the TEST account from
-// .env.local (PROGRESS_TEST_EMAIL, PROGRESS_TEST_PASSWORD). It writes that account's rows in the
-// real Supabase project; delete them with the SQL in docs/progress-log.md (Prompt 64).
+// npm run test:progress-e2e: builds the app with NEXT_PUBLIC_PROGRESS_SYNC=on and
+// NEXT_PUBLIC_REVIEW_SYNC=on, then runs the Playwright tests in e2e/ (Chromium: progress.spec.ts and
+// review.spec.ts) against `next start`, signed in as the TEST account from .env.local
+// (PROGRESS_TEST_EMAIL, PROGRESS_TEST_PASSWORD). It writes that account's rows in the real Supabase
+// project; review.spec.ts deletes the account's review and progress rows at the end.
 //
 // It leaves a flag-on build in .next: run `npm run build` afterwards before deploying or testing
 // anything else.
@@ -15,8 +16,8 @@ for (const name of ["NEXT_PUBLIC_SUPABASE_URL", "NEXT_PUBLIC_SUPABASE_PUBLISHABL
   }
 }
 
-const env = { ...process.env, NEXT_PUBLIC_PROGRESS_SYNC: "on" };
-console.log("Building with NEXT_PUBLIC_PROGRESS_SYNC=on…");
+const env = { ...process.env, NEXT_PUBLIC_PROGRESS_SYNC: "on", NEXT_PUBLIC_REVIEW_SYNC: "on" };
+console.log("Building with NEXT_PUBLIC_PROGRESS_SYNC=on and NEXT_PUBLIC_REVIEW_SYNC=on…");
 const build = spawnSync("npm", ["run", "build"], { env, stdio: "inherit", shell: isWin });
 if (build.status !== 0) {
   console.error("FAIL: the flag-on build failed");
@@ -24,5 +25,5 @@ if (build.status !== 0) {
 }
 
 const run = spawnSync("npx", ["playwright", "test"], { env, stdio: "inherit", shell: isWin });
-console.log("\nNote: .next now holds a build with the sync flag on. Run `npm run build` before anything else.");
+console.log("\nNote: .next now holds a build with the sync flags on. Run `npm run build` before anything else.");
 process.exit(run.status ?? 1);

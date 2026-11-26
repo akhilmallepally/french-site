@@ -131,11 +131,22 @@ describe("client import graph", () => {
     console.log(`  review action graph: ${files.length} modules, packages: ${[...new Set([...graph.packages.values()].flat())].sort().join(", ")}`);
   });
 
+  test("the card-text action reads the card files on the server only: no fs, no lib/lessons.ts", () => {
+    const graph = walkGraph(root, [path.join(root, "app", "actions", "review-text.ts")], false);
+    const files = [...graph.reached.keys()].map((f) => rel(root, f));
+    assert.ok(files.includes("lib/review-cards-server.ts") && files.includes("lib/generated/review-cards-paid.json"));
+    assert.ok(!files.includes("lib/lessons.ts"));
+    assert.ok([...graph.packages.values()].flat().includes("server-only"), "the card module is server-only");
+    const fsUsers = [...graph.packages].filter(([, specs]) => specs.some((x) => x === "fs" || x === "node:fs")).map(([f]) => rel(root, f));
+    assert.deepEqual(fsUsers, []);
+  });
+
   test("the review store (lib/review.ts) as client code reaches no card text and no lib/lessons.ts", () => {
     const graph = clientGraph(root, ["app", "components", "lib"], ["lib/review.ts"]);
     const files = [...graph.reached.keys()].map((f) => rel(root, f));
     assert.ok(files.includes("lib/review-sync-store.ts") && files.includes("lib/review-wiring.ts") && files.includes("app/actions/review.ts"));
-    assert.ok(!files.includes("lib/generated/review-card-ids.json"), "the action's imports stay on the server");
+    // The id index (ids and levels, no text) is client code on purpose: /review and /progress build the deck with it.
+    assert.ok(files.includes("components/review-session.tsx") && files.includes("app/actions/review-text.ts"), "the text action is a reference, not its code");
     assert.ok(!files.includes("lib/lessons.ts"), "no client module pulls in the disk reader");
     assert.deepEqual(forbiddenReached(root, graph), []);
   });

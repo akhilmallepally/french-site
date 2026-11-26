@@ -10,7 +10,18 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import { callProgressAction, callReviewAction, PROGRESS_CALLS, refusedSignedOut, REVIEW_CALLS, reviewActionId, reviewRefusedSignedOut } from "./progress-action-http.mjs";
+import {
+  callProgressAction,
+  callReviewAction,
+  cardTextActionId,
+  PROGRESS_CALLS,
+  refusedSignedOut,
+  REVIEW_CALLS,
+  reviewActionId,
+  reviewRefusedSignedOut,
+  SAMPLE_FREE_CARD,
+  SAMPLE_PAID_CARD,
+} from "./progress-action-http.mjs";
 
 const BASE_URL = (process.env.BASE_URL || "http://localhost:3000").replace(/\/$/, "");
 const ROOT = process.cwd();
@@ -302,16 +313,38 @@ for (const [name, args] of PROGRESS_CALLS) {
   record("progress action refuses a signed-out caller", refusedSignedOut(r), `${name} -> ${r.status} ${r.text.slice(-80)}`);
 }
 
-// Review actions: no page loads them yet (step 5), so they aren't in the build at all; once one
-// does, a signed-out caller must be refused with no card data.
+// Review actions (/review loads them): every one refuses a signed-out caller with no card data.
 for (const [name, args] of REVIEW_CALLS) {
   const id = reviewActionId(name);
   if (!id) {
-    record("review action isn't reachable yet, or refuses a signed-out caller", true);
+    record("review action refuses a signed-out caller", false, `${name} isn't in the build's manifest`);
     continue;
   }
-  const r = await callReviewAction(BASE_URL, id, args);
-  record("review action isn't reachable yet, or refuses a signed-out caller", reviewRefusedSignedOut(r), `${name} -> ${r.status} ${r.text.slice(-80)}`);
+  const r = await callReviewAction(BASE_URL, id, args, "/review");
+  record("review action refuses a signed-out caller", reviewRefusedSignedOut(r), `${name} -> ${r.status} ${r.text.slice(-80)}`);
+}
+// The card-text read is the exception: free text for anyone, paid text never without access.
+{
+  const id = cardTextActionId();
+  if (!id) record("card text: free text for anyone, paid text never without access", false, "getCardTextAction isn't in the manifest");
+  else {
+    const r = await callReviewAction(BASE_URL, id, [[SAMPLE_FREE_CARD.id, SAMPLE_PAID_CARD.id]], "/review");
+    const hasFree = r.text.includes(JSON.stringify(SAMPLE_FREE_CARD.fr).slice(1, -1));
+    const leaks = r.text.includes(SAMPLE_PAID_CARD.fr) || r.text.includes(SAMPLE_PAID_CARD.en) || r.text.includes(SAMPLE_PAID_CARD.id);
+    record("card text: a signed-out caller gets free text", r.status === 200 && hasFree, `status ${r.status}`);
+    record("card text: paid text is never returned without access", r.status === 200 && !leaks && /"access":false/.test(r.text), `${r.text.slice(-120)}`);
+    const many = await callReviewAction(BASE_URL, id, [Array.from({ length: 41 }, (_, i) => `a1-greetings-v${String(i + 1).padStart(3, "0")}`)], "/review");
+    record("card text: more than 40 ids is refused", /"code":"too_many_ids"/.test(many.text), many.text.slice(-80));
+  }
+}
+
+// /review: prerendered, noindex, not in the sitemap, and no card text in the page itself.
+{
+  const r = await get(BASE_URL + "/review");
+  record("/review is noindex", r.status === 200 && /<meta name="robots" content="noindex/.test(r.text), `status ${r.status}`);
+  record("/review holds no card text", !r.text.includes(SAMPLE_FREE_CARD.en) && !r.text.includes(SAMPLE_PAID_CARD.fr), "");
+  const sitemap = await get(BASE_URL + "/sitemap.xml");
+  record("/review isn't in the sitemap", sitemap.status === 200 && !sitemap.text.includes("/review<"), "");
 }
 
 console.log(`\nGating test against ${BASE_URL}: ${gated.length} gated lessons, ${free.length} free lessons.\n`);

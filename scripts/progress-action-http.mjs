@@ -34,12 +34,19 @@ export const refusedSignedOut = (r) => r.status === 200 && /"status":"signed-out
 
 // ---------- Review actions (app/actions/review.ts, docs/plans/review.md step 4) ----------
 
-/** The review action's id, or null while no page loads the review wiring (it isn't in the manifest then). */
-export function reviewActionId(name) {
+/** A review action's id from the build's manifest, or null if no page loads it. */
+export function reviewActionId(name, file = "app/actions/review.ts") {
   const manifest = JSON.parse(fs.readFileSync(MANIFEST, "utf8"));
-  const found = Object.entries(manifest.node ?? {}).find(([, v]) => v.exportedName === name && v.filename === "app/actions/review.ts");
+  const found = Object.entries(manifest.node ?? {}).find(([, v]) => v.exportedName === name && v.filename === file);
   return found ? found[0] : null;
 }
+
+/** The card-text action (app/actions/review-text.ts), and a free and a paid card to ask for. */
+export const cardTextActionId = () => reviewActionId("getCardTextAction", "app/actions/review-text.ts");
+const cardsOf = (f) => JSON.parse(fs.readFileSync(path.join(process.cwd(), "lib", "generated", f), "utf8")).cards;
+export const SAMPLE_FREE_CARD = cardsOf("review-cards-free.json")[0];
+// A paid card whose French and English are long enough to be unmistakable in a reply.
+export const SAMPLE_PAID_CARD = cardsOf("review-cards-paid.json").find((c) => c.fr.length > 12 && c.en.length > 12);
 
 export async function callReviewAction(base, id, args, pagePath = "/lessons/a1/greetings") {
   const res = await fetch(base + pagePath, {

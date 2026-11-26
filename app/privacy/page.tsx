@@ -42,7 +42,8 @@ export default function PrivacyPage() {
               <strong>Learning Progress:</strong> Your exercise submissions and lesson progress are stored locally on your
               device in your browser. When you&apos;re signed in, your progress may also be saved to your account so it
               follows you across devices (see Supabase below). The text you write in writing tasks never leaves your
-              browser.
+              browser. The daily review works the same way: for each word in your review it keeps how well you know
+              it, when it&apos;s next due and how many times you&apos;ve reviewed it, never the word lists themselves.
             </li>
           </ul>
           <p>
@@ -76,7 +77,8 @@ export default function PrivacyPage() {
             <li>
               <strong>Supabase:</strong> Handles sign-in, your account and your purchase record (database and
               authentication). For signed-in learners it also stores learning progress: scores, completion and
-              attempt times, and whether a writing task is done, never the writing text.{" "}
+              attempt times, whether a writing task is done (never the writing text), and the daily review&apos;s
+              card states (which word, how well you know it, when it&apos;s next due, and review counts).{" "}
               <a href="https://supabase.com/privacy">Supabase&apos;s privacy policy</a>.
             </li>
             <li>

@@ -3,7 +3,7 @@ import "server-only";
 // that may import lib/generated/review-cards-paid.json: B1 to C2 card text must never reach client
 // JavaScript or a public file (scripts/review-bundle.test.ts checks the build output, and
 // scripts/review-cards.test.ts checks that nothing else imports the paid file). The access check
-// belongs to the caller (the review server actions, rollout step 4); nothing calls this yet.
+// belongs to the caller: app/actions/review-text.ts, the only user, checks it for paid cards.
 import freeCards from "@/lib/generated/review-cards-free.json";
 import paidCards from "@/lib/generated/review-cards-paid.json";
 import type { ReviewCard } from "@/lib/review-catalogue";

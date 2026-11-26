@@ -1,6 +1,6 @@
 # Daily review: plan
 
-Status: decisions recorded (Prompt 69, section 9). Rollout step 1, migration 0008, is written (supabase/migrations/0008_review_cards.sql). Step 2 is done (Prompt 70): the card catalogue in lib/generated/review-cards-free.json (A1, A2) and review-cards-paid.json (B1 to C2, server-only through lib/review-cards-server.ts), the published ids in lib/generated/review-published-ids.json, built by `npm run build:review-cards` and checked by validate:content and `npm run test:review`. Step 3 is done (Prompt 71): the scheduler and the local store (section 10), and the rules for later steps (section 11). Step 4 is done (Prompt 72): the server actions, the synced store behind NEXT_PUBLIC_REVIEW_SYNC, the import, and check:review-db (section 12). No UI yet.
+Status: decisions recorded (Prompt 69, section 9). Rollout step 1, migration 0008, is written (supabase/migrations/0008_review_cards.sql). Step 2 is done (Prompt 70): the card catalogue in lib/generated/review-cards-free.json (A1, A2) and review-cards-paid.json (B1 to C2, server-only through lib/review-cards-server.ts), the published ids in lib/generated/review-published-ids.json, built by `npm run build:review-cards` and checked by validate:content and `npm run test:review`. Step 3 is done (Prompt 71): the scheduler and the local store (section 10), and the rules for later steps (section 11). Step 4 is done (Prompt 72): the server actions, the synced store behind NEXT_PUBLIC_REVIEW_SYNC, the import, and check:review-db (section 12). Step 5 is done (Prompt 73): /review, the card-text action, the home card, the /progress line and the real-browser test (section 13).
 
 Goal: a `/review` page with a short daily session of spaced-repetition vocabulary cards, which turns the home "Daily review" card into a link. v1 stays simple.
 
@@ -218,3 +218,25 @@ Goal: a `/review` page with a short daily session of spaced-repetition vocabular
   - **Import:** this browser's signed-out cards go to the owner of the progress import claim (`parlons-progress-import-owner-v1`; the same key, claimed by the first account if no one has). An account's own local cards always go to that account.
   - **Flag off:** the browser-only store also shows the signed-in account's synced cache and unsent outbox.
 - **check:review-db:** the real database with the test account from .env.local. See docs/db-setup.md.
+
+## 13. As built in step 5 (Prompt 73)
+
+- **The access check can't be steered by a request.**
+  - The review actions build it only from the session's own client and user (`accessFor(s.supabase, s.userId)`), and the text action only from `getCurrentUser`.
+  - No argument, header, query or environment read at request time changes it. A payload field such as `hasAccess` rejects the call (`unexpected_field`).
+  - The "access forced off" path is the check:review-db script's own injected function. lib/review-text.test.ts pins all of this.
+- **Card text** (`getCardTextAction` in app/actions/review-text.ts; the core is lib/review-text.ts):
+  - It takes a list of card ids (at most 40, no duplicates) and returns `{ status: "ok", cards: { id: { fr, en, pron?, group?, note? } }, access }`.
+  - Free cards come back for anyone, without Supabase config too. Paid cards come back only after the access check (once per call, failing closed); otherwise they're left out. `access` is null when no paid card was asked for. Unknown ids are left out.
+  - It's the only reader of lib/review-cards-server.ts. The catalogues are never bundled.
+- **/review** (app/review/page.tsx, a static shell; components/review-session.tsx; the logic is in lib/review-session.ts):
+  - **On load:** state comes from the stores at once. Free cards from practised lessons are added to the deck.
+  - **Text:** the batch is built as if the learner had access, with paid additions not stored. One call fetches its text; its `access` answer decides whether the paid additions are stored. Without access, the batch is rebuilt from stored free cards only, so a paid card is never shown.
+  - **Memory:** the text is kept in memory only. The access answer is remembered per user in `parlons-review-access-v1`, for counts only.
+  - **The page:** the header shows due and new-left counts. The card has the French, the pronunciation and the group, with the English and note in a space that's always kept, so the card size doesn't change. Space or Enter shows the answer; 1 is "Not yet", 2 is "I knew it". The buttons are 56 px tall. A polite live region reads "Card n of m".
+  - **The end:** a summary (reviewed, known, next due day), then "Do another 20" or "All done for today" with a link to /practice. The empty state is the decision 7 text. A failed text fetch shows "Couldn't load your cards. Check your connection and try again." with Retry; answers are already saved locally.
+  - **Signed out with sync on:** a sign-in line below the card.
+  - It's noindex and not in the sitemap.
+- **Home:** the "Daily review" card links to /review ("A few minutes a day to keep the words you've learned.").
+- **/progress:** a "Daily review:" line at the top ("N cards due today", "No cards due today", or nothing before any lesson is practised), read in the same pass as the progress. No header link.
+- **Privacy page:** it now says the daily review keeps card states (word, box, due time, counts) locally and, signed in, in Supabase.
