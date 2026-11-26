@@ -5,7 +5,7 @@
 // the real @supabase/ssr cookies, since the site itself offers Google sign-in only. Reads and deletes
 // only that account's own rows, through its own session and the RLS policies (never the service role).
 // Changes no app code. On a failure it stops and prints what it saw, and the cleanup SQL.
-import { expect, test, type APIRequestContext, type BrowserContext, type Page } from "@playwright/test";
+import { expect, test, type BrowserContext, type Page, type Response } from "@playwright/test";
 import { createServerClient } from "@supabase/ssr";
 
 const LESSON = "/lessons/a1/alphabet-and-accents";
@@ -188,31 +188,20 @@ async function step(name: string, body: () => Promise<void>) {
 }
 
 /**
- * The value the live build inlined for NEXT_PUBLIC_REVIEW_SYNC, read from /review's JavaScript:
- * the createReviewStore call is the only one whose loadWiring loads createReviewWiring. An unset
- * variable stays a property read (…env.NEXT_PUBLIC_REVIEW_SYNC); a set one is a string literal.
+ * True for a review server action's "ok" reply carrying cards (getReviewAction). With the flag off
+ * the review store makes no network calls at all, so such a reply proves review sync is on in the
+ * live build, whatever the minifier did to the inlined flag.
  */
-async function liveReviewFlag(request: APIRequestContext, base: string): Promise<string> {
-  const html = await (await request.get(new URL("/review", base).toString())).text();
-  const scripts = [...new Set([...html.matchAll(/\/_next\/static\/chunks\/[^"'\s]+?\.js/g)].map((m) => m[0]))];
-  for (const src of scripts) {
-    const js = await (await request.get(new URL(src, base).toString())).text();
-    const m = /flag:([^,]+),supabaseConfigured:[^,]+,loadWiring:\(\)=>[^;]{0,120}?createReviewWiring/.exec(js);
-    if (m) return m[1];
-  }
-  return "(not found in /review's JavaScript)";
+async function isReviewGetOk(r: Response): Promise<boolean> {
+  if (!r.request().headers()["next-action"] || r.request().method() !== "POST") return false;
+  const body = await r.text().catch(() => "");
+  return /"status":"ok","cards":\{/.test(body);
 }
 
-test("daily review on the live site", async ({ browser, baseURL, request }) => {
+test("daily review on the live site", async ({ browser, baseURL }) => {
   const problems: Problems = [];
   let failed = true;
   const base = baseURL!;
-
-  await step('R0. the live build has NEXT_PUBLIC_REVIEW_SYNC exactly "on"', async () => {
-    const flag = await liveReviewFlag(request, base);
-    console.log(`  R0: the review flag in the live build is ${flag}`);
-    expect(flag, REVIEW_FLAG_OFF).toBe('"on"');
-  });
 
   const first = await browser.newContext();
   const page = await first.newPage();
@@ -231,6 +220,14 @@ test("daily review on the live site", async ({ browser, baseURL, request }) => {
   };
 
   try {
+    await step("R0. review sync is on in the live build: signed in, /review gets an \"ok\" reply from the review get action", async () => {
+      const reply = page.waitForResponse(isReviewGetOk, { timeout: 10_000 }).catch(() => null);
+      await page.goto("/review");
+      const got = await reply;
+      if (!got) throw new Error(REVIEW_FLAG_OFF);
+      console.log(`  R0: getReviewAction answered "ok" (${got.request().url().replace(/^https?:\/\/[^/]+/, "")})`);
+    });
+
     for (const t of REVIEW_TABLES) await db.from(t).delete().eq("user_id", userId);
 
     await step("R1. practise a free lesson, open /review, answer 3 cards, refresh: the session resumes", async () => {

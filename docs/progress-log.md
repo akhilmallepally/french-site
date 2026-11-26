@@ -555,3 +555,13 @@
 - **Content follow-up, recorded, not done:** the new docs/review-content-todo.md lists gender notes for the `l'` words: 190 vocab entries, 189 cards (A1 36, A2 16, B1 19, B2 23, C1 60, C2 35), 141 of them with no note. It covers what to add, the rules (text only, rebuild the catalogue), and native review of every gender.
 - **No app code changed.**
 - **Checks:** validate:content, test:review (90), tsc and build (358/358) pass.
+
+## Fix the review flag check in test:prod-smoke (Prompt 75)
+
+- **Cause:** R0 looked for the inlined NEXT_PUBLIC_REVIEW_SYNC value in /review's JavaScript. Production's bundle didn't match the pattern, which only had to hold for the two local builds it was checked on, so R0 failed although review sync was on: the same run showed `getReviewAction` answering `{"status":"ok","cards":{}}` on both devices.
+- **New R0 (behavioural):** signed in as the test account, it opens /review and waits up to 10 s for a server action reply (a POST with a `Next-Action` header) whose body has `"status":"ok","cards":{`. That's `getReviewAction`, which the review store calls only when sync is on; with the flag off it makes no network calls.
+  - If no such reply arrives, R0 fails with the same message: "Review sync is not on in production; set it to exactly on and redeploy without the build cache."
+  - It runs before anything is written. The bundle-reading helper (`liveReviewFlag`) is removed.
+- **Progress:** unchanged. The progress part never read the bundle's text; it checks behaviour (the rows on the server, the second device).
+- **No app code changed.** test:prod-smoke wasn't run here.
+- **Checks:** tsc passes, and `npx playwright test --list --config playwright.prod.config.ts` lists both tests ("progress sync on the live site", "daily review on the live site").
