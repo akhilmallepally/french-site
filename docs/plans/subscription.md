@@ -1,6 +1,6 @@
 # Subscription plan (Pricing v2, Part B)
 
-Status: plan only (Prompt 76). No code yet.
+Status: step 1 (migration 0010) is written (Prompt 77) and waits for the owner to run it. Steps 2 to 6 are next. The owner's decisions on the open questions are in section 8.
 
 Decisions already made (owner, Prompt 76):
 - The founding offer ($8 once, lifetime access) ends at 2026-12-31T16:59:00Z (23:59 in Bangkok), or earlier when the 100 founder spots are gone.
@@ -140,6 +140,13 @@ A new table, `subscriptions` (migration 0010), rather than more columns on `purc
 ## 7. Rollout (one prompt each, finishing by 20 December 2026, well before the deadline)
 
 1. **Migration 0010:** `subscriptions` and `subscription_payments` with RLS, exact grants, the entitlement function, the rollback and rls.sql. The owner runs it.
+   - **As built (Prompt 77):** supabase/migrations/0010_subscriptions.sql.
+     - `subscriptions` columns: provider ids (unique), status, `current_period_end`, `cancel_at_period_end`, `cancelled_at` (required when cancelled).
+     - `subscription_payments` columns: `provider_payment_id` (unique), `charge_type` new or renewal, status, amount, `refunded_at`.
+     - RLS forced: learners read their own rows; service_role (the webhook) has select, insert and update, no delete; anon has nothing.
+     - `has_access(p_product, p_now)`: security invoker, empty search_path, authenticated only. It's true for an active lifetime purchase, an active or past_due subscription until `current_period_end` + 7 days, or a cancelled-at-period-end one until `current_period_end`. `p_now` lets tests move the clock.
+     - Also supabase/rollback/0010_subscriptions.sql, rollback_all (0001 to 0010), and rls.sql (402 checks in all, user D's states over time included).
+     - The whole chain (0001 to 0010, each run twice, then rls.sql) passes in real Postgres (PGlite) with Supabase's auth schema and roles stood in. Running it found that 0005's seed failed on a re-run after 0009; the seed now inserts only when the row is missing.
 2. **Dodo setup and webhooks:**
    - Owner, in test mode: create the $12/year product (20-year period, no trial), set the grace period (7 days), switch on retries, switch off immediate cancellation.
    - Code: parse and handle the events in section 2. test:webhook covers each event and its payload (checked against the dashboard's "Send example" and a real test-mode delivery), idempotency, out-of-order events and the refund path.
@@ -150,7 +157,41 @@ A new table, `subscriptions` (migration 0010), rather than more columns on `purc
    - test:progress-e2e buys a subscription in Dodo's test mode (4242 card), sees access, cancels at period end, and runs a failed renewal with the 0341 card via a near `next_billing_date`.
    - The production smoke plan: a real $12 purchase by the owner on a test account, the portal, then a refund through the dashboard. It's run by the owner, not by Claude.
 
-## 8. Open questions for the owner
+## 8. Decisions (owner, Prompt 77)
+
+1. **Webhook payloads:** confirm them from Dodo's test mode before step 2 is written (steps below).
+2. **Grace period** for a failed renewal: 7 days.
+3. **Cancellation** always runs to the end of the paid year; no "cancel now" (it fits the no-refund policy). Switch off "Allow Immediate Cancellation" in the portal settings.
+4. **Price display:** $12 per year, shown the way $8 is shown today. If Dodo adds tax at checkout, add "plus tax where applicable" next to it.
+5. **Ship by 20 December 2026**, whatever the spots do.
+
+### Confirming the payloads in Dodo's test mode (owner's steps)
+
+1. In the Dodo dashboard, switch to **Test mode** (the toggle at the top).
+2. **Products → Create product:**
+   - Name "French Properly, yearly", type **Subscription**, price **$12.00**.
+   - **Repeat payment every 1 Year**, **Subscription period 20 Years**, trial **0** days.
+   - Save, and copy the product id (`pdt_…`).
+3. **Settings → Subscriptions:** switch on **Subscription Grace Period**, **7** days, with "on hold" after it. **Settings → Customer portal:** switch off **Allow Immediate Cancellation**, and keep "Cancel at next billing date" on.
+4. **Developers → Webhooks → Add endpoint** (in test mode). Point it at a deployment of this site that has these environment variables:
+   - `PAYMENTS_API_KEY`: a **test** key (`dodo_test_…`)
+   - `PAYMENTS_WEBHOOK_SECRET`: the endpoint's signing secret (`whsec_…`)
+   - `PAYMENTS_CAPTURE_PAYLOADS=on`
+   - Use a Vercel Preview with its own test keys, never Production. If Vercel's Deployment Protection is on for Previews, add a protection bypass for automation, or the webhook can't reach the route.
+   - The URL is `https://<preview>/api/webhooks/payments`.
+   - Subscribe it to every `subscription.*`, `payment.*`, `refund.*` and `dispute.*` event.
+5. **Send events:**
+   - Use **Send example** on the endpoint for each event type.
+   - Then do a real test purchase of the yearly product with card 4242 4242 4242 4242 (06/32, CVV 123).
+   - Cancel it in the customer portal (cancel at the next billing date).
+   - Then make a second subscription with card 4000 0000 0000 0341 and move its `next_billing_date` close (PATCH /subscriptions/{id}, a time ending in Z), to get a failed renewal, `past_due` and `on_hold`.
+   - Refund one test payment from the dashboard.
+6. **Read the payloads:**
+   - With the flag on and a test key, the route logs each **verified** payload as one line starting `[payments:capture]` (lib/payments/capture.ts), after the signature check and never with a live key.
+   - In Vercel: the Preview deployment → **Logs** → filter "payments:capture". Copy the lines into a file for step 2. Test-mode payloads hold only test customers' details.
+7. Switch `PAYMENTS_CAPTURE_PAYLOADS` off again (unset it) when done.
+
+## 9. The open questions (answered in section 8)
 
 1. **Webhook payloads:** the subscription and payment webhook schemas didn't render in Dodo's docs. In step 2 we confirm them with "Send example" and a test-mode delivery. Is the dashboard available for that?
 2. **Grace period:** 7 days, as recommended? (Dodo allows 1 to 30, default 3.)

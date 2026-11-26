@@ -621,3 +621,49 @@
 **Checks:** all pass.
 - validate:content, test:content, test:checker (36), test:review (90), test:progress (140), test:progress-e2e (6 of 6, then `npm run build`), tsc and build (358/358).
 - test:no-supabase-env, test:gating (on a fresh server: the countdown, the banner, the review lock and no card text without access), test:webhook (73, including a payment confirmed after the deadline still being granted), test:checkout (31), test:safe-next (7) and check:sql.
+
+## Subscription step 1 (migration 0010), static pages again, the yearly comparison line (Prompt 77)
+
+**Follow-up 1: pages static again.**
+- **Cause:** in Prompt 76 the banner was a server component in the root layout that read the shared price (a 60 s cache), so every page took that cache's life and revalidated each minute on the server (ISR, not a client refresh).
+- **Route table:**
+  - Before Prompt 76 (built from the commit before it in a temporary worktree, now removed): only `/pricing` had "1m 5m"; `/`, `/lessons`, `/lessons/a1`, `/lessons/a1/greetings`, `/progress`, `/privacy`, `/refund`, `/terms` and `/review` were plain ○.
+  - After Prompt 76: every page had "1m 5m".
+  - Now: the same as before Prompt 76 (only `/pricing` 1m 5m), plus `/api/founder-offer` (ƒ). `/review` stays ◐ for its access gate from Prompt 76.
+- **The fix:** the banner reads no data on the server.
+  - It renders from fixed facts in lib/founder-constants.ts (the deadline, $8, $12) with no clock ("…until 31 December 2026").
+  - An inline pre-paint script in the layout hides it at once after the deadline, when dismissed (3 days, except the last 48 hours), when the offer was found sold out within the last hour, or for a learner remembered to have access.
+  - In the browser it adds the countdown and fetches the new `/api/founder-offer` (ƒ, decided per request, `s-maxage=60`, no cookies) in the background. "ended" hides it and is remembered; different prices correct the text.
+  - components/founder-banner-slot.tsx is removed.
+- **Tests:**
+  - test:gating checks every prerendered route has no revalidate except `/pricing`, and every lesson route is static.
+  - It also checks that `/api/founder-offer` is cacheable and agrees with the constants (so a price change in the database fails it).
+  - pricing.spec.ts adds a test where the offer ended early: hidden, and hidden before paint on the next page.
+
+**Follow-up 2:** "From 1 January: $12 per year." under the founder price on the pricing card and paywall (PriceRow, from `standard_price_cents`) and in the banner, shown only while the founder offer is live. The pricing placeholder got a matching line.
+
+**Step 1 of docs/plans/subscription.md** (supabase/migrations/0010_subscriptions.sql):
+- `subscriptions`: provider ids (unique), status (active, past_due, on_hold, cancelled, expired, refunded, disputed), `current_period_end`, `cancel_at_period_end`, `cancelled_at` (required when cancelled).
+- `subscription_payments`: `provider_payment_id` (unique), `charge_type` new or renewal, status, amount, `refunded_at`.
+- Both have RLS forced. Learners read their own rows. service_role (the webhook, which bypasses RLS) has select, insert and update, with no delete; anon has nothing.
+- `has_access(p_product, p_now)`: security invoker, empty search_path, authenticated only. It's true for an active lifetime purchase, an active or past_due subscription until `current_period_end` + 7 days, or one cancelled at the period end until `current_period_end`.
+- Also: the rollback, rollback_all (0001 to 0010), db-setup.md (steps and the has_0010 check), and the plan's status and decisions.
+- **rls.sql** adds user D, with one subscription changed between groups and `has_access` called as D at injected times:
+  - active and past_due inside and outside the 7-day grace; on_hold; cancelled at the period end before and after it; cancelled at once; refunded, disputed and expired;
+  - a refunded plus an active duplicate; another product; user B's lifetime access years later;
+  - D's own reads and refused writes; B and anon reading nothing; service_role's insert, renew, unique id, payment and refund, with delete refused; the `cancelled_at` check; the cascade on account deletion.
+- **Real Postgres run:** with Supabase's auth schema and roles stood in, 0001 to 0010, each run twice, then rls.sql (402 PASS notices, nothing left behind) pass in PGlite (real Postgres, WebAssembly, in the scratchpad, not a project dependency).
+  - It found a real bug: since 0009 made `founder_ends_at` not null, re-running 0005 failed, because its `insert … on conflict do nothing` builds the row first. 0005's seed now inserts only when the row is missing.
+  - Everything also passes check:sql and the libpg_query parse.
+
+**Decisions recorded** (docs/plans/subscription.md, section 8):
+- Payloads confirmed from Dodo's test mode, with the owner's dashboard steps.
+- A 7-day grace; cancel at period end only; $12 shown like $8, with "plus tax where applicable" if Dodo adds tax; ship by 20 December.
+- Payload capture: lib/payments/capture.ts. After the signature check, the webhook route logs the verified body as `[payments:capture] …` (one line, 20 KB at most), only when `PAYMENTS_CAPTURE_PAYLOADS=on` AND the key is `dodo_test_…`.
+- test:webhook (81) covers the flag, a live key, a bad signature, trimming, and a verified test payload.
+
+**SQL for the owner:** 0010, then rls.sql, then the Security Advisor (docs/db-setup.md). Not needed for the app yet: nothing reads 0010 before step 3.
+
+**Checks:** all pass.
+- validate:content, test:content, test:checker (36), test:review (90), test:progress (140), test:progress-e2e (7 of 7, then `npm run build`), tsc and build (359/359).
+- test:no-supabase-env, test:gating (on a fresh server), test:webhook (81), test:checkout (31), test:safe-next (7) and check:sql (26 sources).

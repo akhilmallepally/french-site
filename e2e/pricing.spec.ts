@@ -21,11 +21,13 @@ test.describe("founding offer", () => {
     await page.goto("/pricing");
     await expect(page.getByTestId("founder-time-left").first()).toHaveText("1 minute");
     await expect(page.getByRole("link", { name: "Sign in with Google to unlock" })).toBeVisible();
+    await expect(page.getByTestId("yearly-comparison").first()).toHaveText("From 1 January: $12 per year.");
     await page.clock.fastForward(120_000); // past the deadline
     await expect(page.getByTestId("founder-ended").first()).toContainText("The founding offer has ended.");
     await expect(page.getByText("New plan coming soon").first()).toBeVisible();
     await expect(page.getByRole("button", { name: "New plan coming soon" })).toBeDisabled();
     await expect(page.getByRole("link", { name: "Sign in with Google to unlock" })).toHaveCount(0);
+    await expect(page.getByTestId("yearly-comparison")).toHaveCount(0, { timeout: 1000 });
     expect(await page.locator("main").innerText(), "the page no longer offers $8").not.toMatch(/\$8\b/);
     expect(errors, "no hydration errors").toEqual([]);
   });
@@ -50,7 +52,7 @@ test.describe("founding offer", () => {
     await page.clock.install({ time: start });
     await page.goto("/");
     const banner = page.getByRole("region", { name: "Founding offer" });
-    await expect(banner).toContainText("Founding offer: $8 for lifetime access, ends in 10 days.");
+    await expect(banner).toContainText("Founding offer: $8 for lifetime access, ends in 10 days. From 1 January: $12 per year.");
     await expect(banner.getByRole("link", { name: "See pricing →" })).toHaveAttribute("href", "/pricing");
     await page.goto("/pricing");
     await expect(page.getByRole("region", { name: "Founding offer" })).toHaveCount(0);
@@ -72,6 +74,26 @@ test.describe("founding offer", () => {
     await page.clock.setFixedTime(ENDS - 47 * 3_600_000);
     await page.reload();
     await expect(page.getByRole("region", { name: "Founding offer" })).toContainText("ends in 47 hours.");
+    expect(errors).toEqual([]);
+  });
+
+  test("the banner hides when the offer has ended early (sold out), and stays hidden before paint on the next page", async ({ page }) => {
+    const errors = watchErrors(page);
+    await page.route("**/api/founder-offer", (route) => route.fulfill({ json: { state: "ended", founderEndsAt: "2026-12-31T16:59:00.000Z" } }));
+    await page.goto("/lessons/a1");
+    await expect(page.getByRole("region", { name: "Founding offer" })).toHaveCount(0);
+    const painted: boolean[] = [];
+    await page.exposeFunction("reportBanner", (shown: boolean) => painted.push(shown));
+    await page.addInitScript(() => {
+      document.addEventListener("DOMContentLoaded", () => {
+        const el = document.querySelector("[data-founder-banner-slot]");
+        // @ts-expect-error exposed by the test
+        window.reportBanner(!!el && getComputedStyle(el).display !== "none");
+      });
+    });
+    await page.goto("/lessons/a2");
+    await expect.poll(() => painted.length).toBe(1);
+    expect(painted[0], "hidden before paint (no flash)").toBe(false);
     expect(errors).toEqual([]);
   });
 });

@@ -100,7 +100,7 @@ describe("getPriceOffer", () => {
   test("live only while spots remain AND before the deadline", () => {
     const offer = getPriceOffer(live(1), BEFORE);
     assert.equal(offer.state, "founder");
-    if (offer.state === "founder") assert.deepEqual([offer.chargeCents, offer.founderCap, offer.founderEndsAt], [800, 100, ENDS]);
+    if (offer.state === "founder") assert.deepEqual([offer.chargeCents, offer.founderCap, offer.founderEndsAt, offer.yearlyCents], [800, 100, ENDS, 1200]);
     assert.deepEqual(getPriceOffer(live(1), ENDS_MS), { state: "ended", reason: "deadline", founderEndsAt: ENDS });
     assert.deepEqual(getPriceOffer(live(0), BEFORE), { state: "ended", reason: "sold-out", founderEndsAt: ENDS });
     assert.deepEqual(getPriceOffer(live(0), AFTER), { state: "ended", reason: "deadline", founderEndsAt: ENDS }, "after the deadline, whatever the spots");

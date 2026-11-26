@@ -33,6 +33,9 @@ select to_regprocedure('public.apply_review(jsonb)') is not null as has_0008;
 
 -- Is 0009 already in? (true = yes)
 select exists (select 1 from information_schema.columns where table_schema = 'public' and table_name = 'pricing_settings' and column_name = 'founder_ends_at') as has_0009;
+
+-- Is 0010 already in? (true = yes)
+select to_regclass('public.subscriptions') is not null as has_0010;
 ```
 
 Expected before 0006: `exercise_results`, `lesson_progress`, `lesson_scores`, `pricing_settings`, `profiles`, `purchases` and `saved_vocab`; `lesson_scores` count 0; `true` and `true` for every table. If a table is missing, run the migrations it belongs to (section 1) first.
@@ -75,6 +78,20 @@ In the SQL Editor, for each file below, paste the whole file, click **Run**, and
    - The founder price is live only while spots remain and `now()` is before it. The app works that out on every request and at checkout.
    - A trigger (`guard_founder_deadline`) refuses any later change to `founder_ends_at` unless the transaction first runs `select set_config('app.allow_founder_deadline_change', 'on', true);`. A dashboard edit fails; a new migration does that on purpose.
    - Run it after 0005.
+
+10. `supabase/migrations/0010_subscriptions.sql`: the yearly subscription's data (docs/plans/subscription.md, step 1). Nothing in the app uses it until step 3.
+    - It adds `subscriptions` and `subscription_payments`, with RLS forced. Learners read their own rows; the webhook (service_role) has select, insert and update, no delete.
+    - It adds `has_access(product, at)`, the entitlement: a lifetime purchase, an active or past_due subscription until its period end plus 7 days, or one cancelled at the period end until that end.
+    - Run it after 0001 to 0009.
+
+**Subscriptions (0010), your steps in the Supabase SQL editor:**
+
+1. Paste the whole of `supabase/migrations/0010_subscriptions.sql`, click **Run**, and check it says "Success". It runs in one transaction.
+2. Paste the whole of `supabase/tests/rls.sql` (it now needs 0001 to 0010), click **Run**, and check that the last notice is "PASS: ALL RLS CHECKS PASSED". It ends in ROLLBACK and leaves nothing behind.
+3. Open **Advisors**, then **Security Advisor**, click **Refresh**, and check nothing new appears for `subscriptions`, `subscription_payments` or `has_access`.
+4. Undo: `supabase/rollback/0010_subscriptions.sql` (it deletes every subscription record; nothing uses them before step 3).
+
+Both files were run end to end in real Postgres (PGlite) before you got them, with 0001 to 0010 each run twice, then rls.sql (402 checks).
 
 **Founder deadline (0009), your steps in the Supabase SQL editor:**
 

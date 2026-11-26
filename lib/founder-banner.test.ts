@@ -4,7 +4,7 @@
 import assert from "node:assert/strict";
 import vm from "node:vm";
 import { describe, test } from "node:test";
-import { BANNER_DISMISSED_KEY, bannerPathAllowed, bannerText, bannerVisible, DISMISS_MS, dismissalHides, LAST_HOURS_MS, prePaintScript, type BannerInput } from "./founder-banner.ts";
+import { BANNER_DISMISSED_KEY, BANNER_ENDED_KEY, bannerPathAllowed, bannerText, bannerVisible, DISMISS_MS, dismissalHides, ENDED_MEMORY_MS, LAST_HOURS_MS, prePaintScript, type BannerInput } from "./founder-banner.ts";
 
 const ENDS = "2026-12-31T16:59:00.000Z";
 const ENDS_MS = Date.parse(ENDS);
@@ -16,7 +16,11 @@ describe("founding-offer banner", () => {
     for (const p of ["/", "/lessons/a1", "/lessons/b1/some-lesson", "/progress", "/review", "/terms", "/practice", "/pricingx"]) {
       assert.equal(bannerVisible({ ...base, pathname: p }), true, p);
     }
-    assert.equal(bannerText(800, ENDS, NOW), "Founding offer: $8 for lifetime access, ends in 12 days.");
+    assert.equal(bannerText(800, 1200, ENDS, NOW), "Founding offer: $8 for lifetime access, ends in 12 days. From 1 January: $12 per year.");
+    // The static page (no clock): the date instead of the countdown, and only the static rules.
+    assert.equal(bannerText(800, 1200, ENDS, null), "Founding offer: $8 for lifetime access until 31 December 2026. From 1 January: $12 per year.");
+    assert.equal(bannerVisible({ ...base, nowMs: null, dismissedAtMs: NOW }), true, "before mounting, the pre-paint script decides the time rules");
+    assert.equal(bannerVisible({ ...base, nowMs: null, pathname: "/pricing" }), false);
   });
 
   test("hidden on /pricing and in checkout, for learners with access, when not on sale, and at the deadline", () => {
@@ -24,7 +28,7 @@ describe("founding-offer banner", () => {
     assert.equal(bannerVisible({ ...base, hasAccess: true }), false);
     assert.equal(bannerVisible({ ...base, founderOnSale: false }), false, "sold out (or pricing unreadable)");
     assert.equal(bannerVisible({ ...base, nowMs: ENDS_MS }), false);
-    assert.equal(bannerText(800, ENDS, ENDS_MS), null);
+    assert.equal(bannerText(800, 1200, ENDS, ENDS_MS), null);
   });
 
   test("a dismissal lasts 3 days, then it comes back", () => {
@@ -39,7 +43,7 @@ describe("founding-offer banner", () => {
     const lastDays = ENDS_MS - LAST_HOURS_MS;
     assert.equal(bannerVisible({ ...base, nowMs: lastDays - 1, dismissedAtMs: lastDays - 1000 }), false);
     assert.equal(bannerVisible({ ...base, nowMs: lastDays, dismissedAtMs: lastDays - 1000 }), true);
-    assert.equal(bannerText(800, ENDS, ENDS_MS - 30 * 3600_000), "Founding offer: $8 for lifetime access, ends in 30 hours.");
+    assert.equal(bannerText(800, 1200, ENDS, ENDS_MS - 30 * 3600_000), "Founding offer: $8 for lifetime access, ends in 30 hours. From 1 January: $12 per year.");
   });
 
   test("the pre-paint script hides it exactly when the rules do (dismissed, or remembered access with a session cookie)", () => {
@@ -64,5 +68,8 @@ describe("founding-offer banner", () => {
     assert.equal(run({ "parlons-access-v1": access }, "sb-abc-auth-token.0=base64-x; other=1", NOW), true);
     assert.equal(run({ "parlons-access-v1": access }, "", NOW), false, "signed out: the remembered access doesn't count");
     assert.equal(run({ "parlons-access-v1": "not json" }, "sb-abc-auth-token=x", NOW), false, "broken storage never throws");
+    assert.equal(run({}, "", ENDS_MS), true, "after the deadline (a static page served late): hidden before paint");
+    assert.equal(run({ [BANNER_ENDED_KEY]: String(NOW - 60_000) }, "", NOW), true, "recently found sold out");
+    assert.equal(run({ [BANNER_ENDED_KEY]: String(NOW - ENDED_MEMORY_MS - 1) }, "", NOW), false, "an old 'sold out' is checked again");
   });
 });

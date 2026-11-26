@@ -1,72 +1,97 @@
 "use client";
 // The founding-offer reminder banner, at the top of every page while the offer is live (rules in
-// lib/founder-banner.ts). The server renders it into the static page; a pre-paint script hides it
-// at once when it's dismissed or the learner is remembered to have access. After mounting:
-// - dismissal and the clock come from the browser (it disappears at the deadline);
+// lib/founder-banner.ts). Pages stay static: the banner reads no data on the server. It's rendered
+// from fixed facts (lib/founder-constants.ts: the deadline, the prices) with no clock, and the
+// layout's pre-paint script hides it before paint when it shouldn't show. After mounting:
+// - the browser's clock adds "ends in 12 days" and hides it at the deadline;
+// - /api/founder-offer (cached 60 s) is fetched in the background: sold out (or prices that differ)
+//   hides it or corrects the text, and "ended" is remembered for the pre-paint script;
 // - signed in (a session cookie), the access check runs in the background (never for signed-out
 //   visitors), and the answer is remembered for the next page.
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { getAccessAction } from "@/app/actions/access";
-import { useFounderClock } from "@/components/use-founder-clock";
-import { BANNER_DISMISSED_KEY, bannerText, bannerVisible } from "@/lib/founder-banner";
+import { BANNER_DISMISSED_KEY, BANNER_ENDED_KEY, bannerText, bannerVisible } from "@/lib/founder-banner";
+import { FOUNDER_ENDS_AT, FOUNDER_PRICE_CENTS, YEARLY_PRICE_CENTS } from "@/lib/founder-constants";
 import { rememberAccess, rememberedAccess, sessionUser } from "@/lib/review-access";
 
-function readDismissed(): number | null {
+function readNumber(key: string): number | null {
   try {
-    const v = parseInt(window.localStorage.getItem(BANNER_DISMISSED_KEY) ?? "", 10);
+    const v = parseInt(window.localStorage.getItem(key) ?? "", 10);
     return Number.isFinite(v) ? v : null;
   } catch {
     return null;
   }
 }
 
-export function FounderBanner({ founderCents, founderEndsAt, readAtMs }: { founderCents: number; founderEndsAt: string; readAtMs: number }) {
+function write(key: string, value: string | null): void {
+  try {
+    if (value === null) window.localStorage.removeItem(key);
+    else window.localStorage.setItem(key, value);
+  } catch {
+    // Storage blocked: this page only.
+  }
+}
+
+type Offer = { onSale: boolean; founderCents: number; yearlyCents: number; founderEndsAt: string };
+
+export function FounderBanner() {
   const pathname = usePathname();
-  const now = useFounderClock(founderEndsAt, readAtMs);
-  // Before mounting: as the server rendered it (the pre-paint script may already hide it).
-  const [mounted, setMounted] = useState(false);
+  // Before mounting there's no clock: the static text and the pre-paint script's decision.
+  const [now, setNow] = useState<number | null>(null);
   const [dismissedAt, setDismissedAt] = useState<number | null>(null);
   const [hasAccess, setHasAccess] = useState(false);
+  const [offer, setOffer] = useState<Offer>({ onSale: true, founderCents: FOUNDER_PRICE_CENTS, yearlyCents: YEARLY_PRICE_CENTS, founderEndsAt: FOUNDER_ENDS_AT });
+
+  // The clock: now, then each minute.
+  useEffect(() => {
+    setNow(Date.now());
+    const id = setInterval(() => setNow(Date.now()), 60_000);
+    return () => clearInterval(id);
+  }, []);
 
   useEffect(() => {
-    setMounted(true);
-    setDismissedAt(readDismissed());
-    const user = sessionUser();
-    if (!user) return; // signed out: no access call
-    setHasAccess(rememberedAccess(user));
+    setDismissedAt(readNumber(BANNER_DISMISSED_KEY));
     let active = true;
-    getAccessAction()
-      .then((r) => {
-        if (!active || !r.signedIn) return;
-        rememberAccess(r.userId, r.access);
-        setHasAccess(r.access);
+    // Whether it's still on sale (sold out, or pricing changed): cached for everyone, never blocking.
+    fetch("/api/founder-offer")
+      .then((r) => (r.ok ? r.json() : null))
+      .then((r: { state?: string; founderCents?: number; yearlyCents?: number; founderEndsAt?: string } | null) => {
+        if (!active || !r) return;
+        if (r.state === "founder" && typeof r.founderCents === "number" && typeof r.yearlyCents === "number" && typeof r.founderEndsAt === "string") {
+          write(BANNER_ENDED_KEY, null);
+          setOffer({ onSale: true, founderCents: r.founderCents, yearlyCents: r.yearlyCents, founderEndsAt: r.founderEndsAt });
+        } else if (r.state === "ended") {
+          write(BANNER_ENDED_KEY, String(Date.now()));
+          setOffer((o) => ({ ...o, onSale: false }));
+        }
+        // "unavailable": keep the fixed facts (the deadline still applies).
       })
       .catch(() => {});
+    const user = sessionUser();
+    if (user) {
+      setHasAccess(rememberedAccess(user));
+      getAccessAction()
+        .then((r) => {
+          if (!active || !r.signedIn) return;
+          rememberAccess(r.userId, r.access);
+          setHasAccess(r.access);
+        })
+        .catch(() => {});
+    }
     return () => {
       active = false;
     };
   }, []);
 
-  const visible = bannerVisible({
-    pathname,
-    founderOnSale: true,
-    founderEndsAt,
-    nowMs: now,
-    dismissedAtMs: mounted ? dismissedAt : null,
-    hasAccess: mounted && hasAccess,
-  });
-  const text = bannerText(founderCents, founderEndsAt, now);
+  const visible = bannerVisible({ pathname, founderOnSale: offer.onSale, founderEndsAt: offer.founderEndsAt, nowMs: now, dismissedAtMs: dismissedAt, hasAccess });
+  const text = bannerText(offer.founderCents, offer.yearlyCents, offer.founderEndsAt, now);
   if (!visible || !text) return null;
 
   const dismiss = () => {
     const t = Date.now();
-    try {
-      window.localStorage.setItem(BANNER_DISMISSED_KEY, String(t));
-    } catch {
-      // Storage blocked: it's hidden for this page only.
-    }
+    write(BANNER_DISMISSED_KEY, String(t));
     setDismissedAt(t);
   };
 

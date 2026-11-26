@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Fraunces, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
-import { Suspense } from "react";
 import AuthButton from "@/components/auth-button";
-import { FounderBannerSlot } from "@/components/founder-banner-slot";
+import { FounderBanner } from "@/components/founder-banner";
+import { prePaintScript } from "@/lib/founder-banner";
+import { FOUNDER_ENDS_AT } from "@/lib/founder-constants";
+import { ACCESS_KEY } from "@/lib/review-access";
 import "./globals.css";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
@@ -34,10 +36,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     // suppressHydrationWarning: the banner's pre-paint script may set data-founder-banner on <html>.
     <html lang="en" className={`${inter.variable} ${fraunces.variable} h-full antialiased`} suppressHydrationWarning>
       <body className="flex min-h-full flex-col font-sans">
-        {/* The founding-offer reminder: from the shared price only, so pages stay prerendered. */}
-        <Suspense fallback={null}>
-          <FounderBannerSlot />
-        </Suspense>
+        {/* The founding-offer reminder. No data on the server, so pages stay static: fixed facts, a
+            pre-paint script that hides it at once when it shouldn't show, and checks in the browser. */}
+        <script dangerouslySetInnerHTML={{ __html: prePaintScript(FOUNDER_ENDS_AT, ACCESS_KEY) }} />
+        <FounderBanner />
         <header className="border-b border-border">
           <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 sm:px-6 py-4">
             <Link href="/" className="font-serif text-xl sm:text-2xl font-semibold tracking-tight">

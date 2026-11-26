@@ -1,13 +1,18 @@
-// The founding-offer reminder banner's rules (Pricing v2, Prompt 76). Pure, so they can be tested
-// (lib/founder-banner.test.ts) and shared by the server slot, the pre-paint script and the client.
-import { beforeDeadline, formatPrice, timeLeftShort } from "./pricing-offer.ts";
+// The founding-offer reminder banner's rules (Pricing v2; static pages since Prompt 77). Pure, so they
+// can be tested (lib/founder-banner.test.ts) and shared by the layout's pre-paint script and the
+// client component.
+import { deadlineDate, formatPrice, timeLeftShort } from "./pricing-offer.ts";
 
 /** When this browser last dismissed the banner (ms since 1970, as text). */
 export const BANNER_DISMISSED_KEY = "parlons-founder-banner-dismissed-v1";
+/** When this browser last learned the offer had ended (sold out): ms as text. */
+export const BANNER_ENDED_KEY = "parlons-founder-offer-ended-v1";
 /** A dismissal lasts 3 days. */
 export const DISMISS_MS = 3 * 24 * 3_600_000;
 /** In the last 48 hours the banner comes back, even if dismissed. */
 export const LAST_HOURS_MS = 48 * 3_600_000;
+/** A remembered "ended" (sold out) hides the banner before paint for an hour; the browser checks again anyway. */
+export const ENDED_MEMORY_MS = 3_600_000;
 
 /** Pages where the banner never shows: the pricing page itself, and checkout. */
 export function bannerPathAllowed(pathname: string): boolean {
@@ -30,44 +35,48 @@ export function dismissalHides(dismissedAtMs: number | null, nowMs: number, foun
 
 export type BannerInput = {
   pathname: string;
-  /** A founder offer was on sale when the shared price was read (spots > 0, before the deadline). */
+  /** Not known to have ended: true until /api/founder-offer says otherwise (sold out, or the price can't be read). */
   founderOnSale: boolean;
   founderEndsAt: string;
-  nowMs: number;
+  /** The browser's time, or null before the page has mounted (then only the static rules apply). */
+  nowMs: number | null;
   dismissedAtMs: number | null;
   /** The signed-in learner has access (known from the server, or remembered for this user). */
   hasAccess: boolean;
 };
 
 export function bannerVisible(b: BannerInput): boolean {
-  return (
-    b.founderOnSale &&
-    beforeDeadline(b.founderEndsAt, b.nowMs) &&
-    bannerPathAllowed(b.pathname) &&
-    !b.hasAccess &&
-    !dismissalHides(b.dismissedAtMs, b.nowMs, b.founderEndsAt)
-  );
-}
-
-/** "Founding offer: $8 for lifetime access, ends in 12 days." (null once it has ended). */
-export function bannerText(founderCents: number, founderEndsAt: string, nowMs: number): string | null {
-  const left = timeLeftShort(founderEndsAt, nowMs);
-  return left ? `Founding offer: ${formatPrice(founderCents)} for lifetime access, ends in ${left}.` : null;
+  if (!b.founderOnSale || !bannerPathAllowed(b.pathname) || b.hasAccess) return false;
+  if (b.nowMs === null) return true; // the static page: the pre-paint script applies the time rules
+  return b.nowMs < Date.parse(b.founderEndsAt) && !dismissalHides(b.dismissedAtMs, b.nowMs, b.founderEndsAt);
 }
 
 /**
- * Runs in the page before the banner is painted (an inline script just before it), so a dismissed
- * banner, or one for a learner remembered to have access, never shows and then disappears. It sets
- * data-founder-banner="hidden" on <html>; CSS hides the slot. The client component then agrees.
- * `accessKey` is the remembered-access key ({ userId, access }); it applies only while a session
- * cookie exists (the client checks the user properly afterwards).
+ * "Founding offer: $8 for lifetime access, ends in 12 days. From 1 January: $12 per year." Before the
+ * page has mounted (no clock in a static page) it says "until 31 December 2026" instead. Null once ended.
+ */
+export function bannerText(founderCents: number, yearlyCents: number, founderEndsAt: string, nowMs: number | null): string | null {
+  const after = `From 1 January: ${formatPrice(yearlyCents)} per year.`;
+  if (nowMs === null) return `Founding offer: ${formatPrice(founderCents)} for lifetime access until ${deadlineDate(founderEndsAt)}. ${after}`;
+  const left = timeLeftShort(founderEndsAt, nowMs);
+  return left ? `Founding offer: ${formatPrice(founderCents)} for lifetime access, ends in ${left}. ${after}` : null;
+}
+
+/**
+ * Runs in the page before the banner is painted (an inline script in the layout), so a banner that
+ * shouldn't show never flashes: after the deadline, when dismissed (3 days, except in the last 48
+ * hours), when the offer was recently found sold out, or for a learner remembered to have access
+ * (with a session cookie). It sets data-founder-banner="hidden" on <html>; CSS hides the slot, and the
+ * client component then agrees. `accessKey` is the remembered-access key ({ userId, access }).
  */
 export function prePaintScript(founderEndsAt: string, accessKey: string): string {
   const ends = JSON.stringify(founderEndsAt);
   return (
-    `(function(){try{var n=Date.now(),e=Date.parse(${ends}),h=false;` +
+    `(function(){try{var n=Date.now(),e=Date.parse(${ends}),h=n>=e;` +
     `var t=parseInt(localStorage.getItem(${JSON.stringify(BANNER_DISMISSED_KEY)})||"",10);` +
     `if(t&&t<=n+${DISMISS_AHEAD_MS}&&n-t<${DISMISS_MS}&&e-n>${LAST_HOURS_MS})h=true;` +
+    `var s=parseInt(localStorage.getItem(${JSON.stringify(BANNER_ENDED_KEY)})||"",10);` +
+    `if(s&&n-s<${ENDED_MEMORY_MS}&&s<=n+${DISMISS_AHEAD_MS})h=true;` +
     `var a=JSON.parse(localStorage.getItem(${JSON.stringify(accessKey)})||"null");` +
     `if(a&&a.access===true&&/(^|;\\s*)sb-[^=;]+-auth-token(\\.0)?=/.test(document.cookie))h=true;` +
     `if(h)document.documentElement.setAttribute("data-founder-banner","hidden");}catch(x){}})();`

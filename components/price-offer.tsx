@@ -4,8 +4,9 @@ type FounderOffer = Extract<PriceOffer, { state: "founder" }>;
 
 /**
  * The founder price block used by the pricing card and the lesson paywall: the price, "one-time ·
- * lifetime access", and the spots line. No struck-through "regular" price: after the founding offer
- * there is no lifetime price to compare with (new buyers get a yearly plan).
+ * lifetime access", the spots line, and the honest comparison with what comes after ("From 1
+ * January: $12 per year."). It's only rendered while the founder offer is live. No struck-through
+ * "regular" price: after the founding offer there is no lifetime price to compare with.
  */
 export function PriceRow({ offer, centered = false }: { offer: FounderOffer; centered?: boolean }) {
   const justify = centered ? "justify-center" : "";
@@ -16,6 +17,9 @@ export function PriceRow({ offer, centered = false }: { offer: FounderOffer; cen
         <span className="text-sm text-muted">one-time · lifetime access</span>
       </div>
       <p className="mt-2 text-sm text-muted">Founder price for the first {offer.founderCap} learners.</p>
+      <p className="mt-1 text-sm text-muted" data-testid="yearly-comparison">
+        From 1 January: {formatPrice(offer.yearlyCents)} per year.
+      </p>
     </>
   );
 }

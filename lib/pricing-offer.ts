@@ -40,6 +40,8 @@ export type PriceOffer =
       founderCap: number;
       spotsLeft: number;
       founderEndsAt: string;
+      /** The yearly price new buyers get after the founding offer (pricing_settings.standard_price_cents), for the honest comparison line. */
+      yearlyCents: number;
     }
   | {
       /** The founding offer is over: the deadline passed, or the spots ran out first. Nothing to buy yet. */
@@ -67,6 +69,7 @@ export function getPriceOffer(pricing: PricingInput, nowMs: number): PriceOffer 
     founderCap: pricing.founderCap,
     spotsLeft: pricing.spotsLeft,
     founderEndsAt: pricing.founderEndsAt,
+    yearlyCents: pricing.standardPriceCents,
   };
 }
 

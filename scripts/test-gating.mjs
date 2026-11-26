@@ -301,22 +301,40 @@ for (const pagePath of ["/", "/lessons", "/lessons/a1", free[0]?.path, gated[0]?
   record("paid lesson, signed out: the sign-in panel shows the shared price", panel.status === 200 && /one-time payment \((<!-- -->)?\$\d+/.test(panel.text), `${lesson.path} status ${panel.status}`);
 }
 
-// The founding offer (Prompt 76): the countdown on /pricing, the reminder banner on other pages.
+// The founding offer: the countdown on /pricing, the reminder banner on other pages, and (Prompt 77)
+// pages static again: the banner reads no data on the server.
 {
-  const live = Date.now() < Date.parse("2026-12-31T16:59:00Z");
+  const FOUNDER_ENDS_AT = "2026-12-31T16:59:00.000Z"; // lib/founder-constants.ts
+  const live = Date.now() < Date.parse(FOUNDER_ENDS_AT);
   const pricing = await get(BASE_URL + "/pricing");
   const home = await get(BASE_URL + "/");
   const lesson = await get(BASE_URL + "/lessons/a1/greetings");
+  const banner = "Founding offer: $8 for lifetime access until 31 December 2026. From 1 January: $12 per year.";
+  const plain = (t) => t.replace(/<!-- -->/g, "");
+
+  // Every prerendered route is static, with no revalidate, except /pricing (its price, 60 s, as before Prompt 76).
+  const manifest = JSON.parse(fs.readFileSync(path.join(NEXT_DIR, "prerender-manifest.json"), "utf8"));
+  const revalidating = Object.entries(manifest.routes).filter(([r, v]) => v.initialRevalidateSeconds !== false && r !== "/pricing").map(([r]) => r);
+  record("pages are static again: no prerendered route revalidates except /pricing", revalidating.length === 0, revalidating.slice(0, 8).join(", "));
+  const lessonRoutes = Object.keys(manifest.routes).filter((r) => r.startsWith("/lessons/"));
+  record("every prerendered lesson route is static (no revalidate)", lessonRoutes.length > 200 && lessonRoutes.every((r) => manifest.routes[r].initialRevalidateSeconds === false), `${lessonRoutes.length} lesson routes`);
+
+  // The banner's data: a small cached route the browser fetches, agreeing with the facts in the page.
+  const apiRes = await fetch(BASE_URL + "/api/founder-offer");
+  const api = await apiRes.json().catch(() => null);
+  record("/api/founder-offer is cacheable for 60 s and sets no cookie", apiRes.status === 200 && /s-maxage=60/.test(apiRes.headers.get("cache-control") ?? "") && !apiRes.headers.get("set-cookie"), `${apiRes.status} ${apiRes.headers.get("cache-control")}`);
   if (live) {
-    record("/pricing: the countdown and the static sentence for screen readers", /Founding offer ends in /.test(pricing.text) && pricing.text.replace(/<!-- -->/g, "").includes("The founding offer ends on 31 December 2026 at 23:59 Bangkok time."), `status ${pricing.status}`);
+    record("/api/founder-offer agrees with the facts in the page (lib/founder-constants.ts)", api?.state === "founder" && api.founderCents === 800 && api.yearlyCents === 1200 && api.founderEndsAt === FOUNDER_ENDS_AT, JSON.stringify(api));
+    record("/pricing: the countdown and the static sentence for screen readers", /Founding offer ends in /.test(pricing.text) && plain(pricing.text).includes("The founding offer ends on 31 December 2026 at 23:59 Bangkok time."), `status ${pricing.status}`);
     record("/pricing: the ending date, rendered in Bangkok time", pricing.text.includes("Ends 31 Dec, 23:59 Bangkok time"), "");
+    record("/pricing: the honest comparison under the founder price", plain(pricing.text).includes("From 1 January: $12 per year."), "");
     for (const [name, r] of [["/", home], ["/lessons/a1/greetings", lesson]]) {
-      record("the banner is in prerendered pages while the offer is live", /role="region" aria-label="Founding offer"/.test(r.text) && /Founding offer: (<!-- -->)?\$\d+(<!-- -->)? for lifetime access, ends in /.test(r.text) && r.text.includes("data-founder-banner"), `${name} status ${r.status}`);
+      record("the banner is in static pages, with its comparison line and the pre-paint script", /role="region" aria-label="Founding offer"/.test(r.text) && plain(r.text).includes(banner) && r.text.includes("data-founder-banner"), `${name} status ${r.status}`);
     }
     record("no banner on /pricing itself", !/aria-label="Founding offer"/.test(pricing.text), "");
     record("the banner's Dismiss is a real button", /<button type="button"[^>]*>Dismiss<\/button>/.test(home.text), "");
   } else {
-    record("after the deadline: the ended state, and no banner", pricing.text.includes("New plan coming soon") && !/aria-label="Founding offer"/.test(home.text), "");
+    record("after the deadline: the ended state, and the API says ended", pricing.text.includes("New plan coming soon") && api?.state === "ended", "");
   }
 }
 

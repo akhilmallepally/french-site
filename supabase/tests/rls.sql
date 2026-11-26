@@ -1,7 +1,8 @@
 -- supabase/tests/rls.sql
 -- Proves the RLS rules (0003, 0005), the progress write path (0006), the service-role grants
--- (0007), the daily-review write path (0008) and the founder deadline (0009) on every table and every
--- operation. Run it in the Supabase SQL editor (or psql) AFTER migrations 0001 to 0009. It runs in
+-- (0007), the daily-review write path (0008), the founder deadline (0009) and the subscriptions with
+-- their entitlement (0010) on every table and every operation. Run it in the Supabase SQL editor (or
+-- psql) AFTER migrations 0001 to 0010. It runs in
 -- one transaction that ends in ROLLBACK, so it leaves nothing behind: no users, no rows, no test
 -- schema.
 --
@@ -9,7 +10,8 @@
 -- with "FAIL: ...". If it reaches the end you'll see "PASS: ALL RLS CHECKS PASSED".
 --
 -- User A = 11111111-1111-4111-8111-111111111111, user B = 22222222-2222-4222-8222-222222222222,
--- user C = 33333333-3333-4333-8333-333333333333 (caps and import, no purchase).
+-- user C = 33333333-3333-4333-8333-333333333333 (caps and import, no purchase),
+-- user D = 44444444-4444-4444-8444-444444444444 (a yearly subscription, no lifetime purchase).
 
 begin;
 
@@ -554,6 +556,37 @@ begin
 end;
 $$;
 
+-- ---------- subscriptions (0010) ----------
+-- has_access() for the current user at now() + offset, expected true or false.
+create function rls_test.expect_access(label text, offset_by interval, expected boolean, product text default 'lessons')
+returns void language plpgsql security invoker as $$
+declare
+  got boolean := public.has_access(product, now() + offset_by);
+begin
+  if got is distinct from expected then
+    raise exception 'FAIL: % has_access was %, expected %', label, got, expected;
+  end if;
+  raise notice 'PASS: % -> has_access %', label, got;
+end;
+$$;
+
+-- As user D (one subscription row, set up as postgres): own reads, and no writes of any kind.
+create function rls_test.subscriptions_own() returns void language plpgsql security invoker as $$
+declare
+  me text := rls_test.me()::text;
+begin
+  perform rls_test.expect_rows('user D reads own subscription', format('select 1 from public.subscriptions where user_id = %L', me), 1);
+  perform rls_test.expect_rows('user D reads own subscription payment', format('select 1 from public.subscription_payments where user_id = %L', me), 1);
+  perform rls_test.expect_rows('user D sees only own subscriptions (unfiltered select)', 'select 1 from public.subscriptions', 1);
+  perform rls_test.expect_rows('user D sees only own subscription payments (unfiltered select)', 'select 1 from public.subscription_payments', 1);
+  perform rls_test.expect_error('user D inserts a subscription', format('insert into public.subscriptions (user_id, product, provider, provider_subscription_id, status, current_period_end) values (%L, %L, %L, %L, %L, now() + interval %L)', me, 'lessons', 'dodo', 'sub_forged', 'active', '1 year'));
+  perform rls_test.expect_error('user D extends own subscription', format('update public.subscriptions set current_period_end = now() + interval %L where user_id = %L', '10 years', me));
+  perform rls_test.expect_error('user D deletes own subscription', format('delete from public.subscriptions where user_id = %L', me));
+  perform rls_test.expect_error('user D inserts a subscription payment', format('insert into public.subscription_payments (subscription_id, user_id, provider_payment_id, charge_type, status, amount) values (1, %L, %L, %L, %L, 0)', me, 'pay_forged', 'new', 'succeeded'));
+  perform rls_test.expect_error('user D updates own subscription payment', format('update public.subscription_payments set status = %L where user_id = %L', 'refunded', me));
+end;
+$$;
+
 grant usage on schema rls_test to authenticated, anon, service_role;
 grant execute on all functions in schema rls_test to authenticated, anon, service_role;
 grant select on rls_test.baseline to authenticated, anon, service_role;
@@ -575,7 +608,10 @@ begin
                   where table_schema = 'public' and table_name = 'pricing_settings' and column_name = 'founder_ends_at') then
     raise exception 'FAIL: pricing_settings.founder_ends_at is missing: run migration 0009 first';
   end if;
-  foreach t in array array['profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab', 'purchases', 'pricing_settings', 'unmatched_payment_events', 'review_cards'] loop
+  if pg_catalog.to_regclass('public.subscriptions') is null or pg_catalog.to_regprocedure('public.has_access(text, timestamp with time zone)') is null then
+    raise exception 'FAIL: public.subscriptions or has_access() is missing: run migration 0010 first';
+  end if;
+  foreach t in array array['profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab', 'purchases', 'pricing_settings', 'unmatched_payment_events', 'review_cards', 'subscriptions', 'subscription_payments'] loop
     select c.relrowsecurity, c.relforcerowsecurity into rls, forced
       from pg_catalog.pg_class c join pg_catalog.pg_namespace n on n.oid = c.relnamespace
      where n.nspname = 'public' and c.relname = t;
@@ -589,7 +625,7 @@ begin
   if exists (
     select 1 from pg_catalog.pg_policies
      where schemaname = 'public'
-       and tablename in ('profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab', 'purchases')
+       and tablename in ('profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab', 'purchases', 'subscriptions', 'subscription_payments')
        and (roles <> '{authenticated}'::name[] or qual = 'true' or with_check = 'true')
   ) then
     raise exception 'FAIL: a policy is not limited to authenticated, or uses true';
@@ -697,6 +733,28 @@ begin
   end if;
   raise notice 'PASS: apply_review() is security definer, search_path empty, authenticated-only';
 
+  -- 0010: has_access() is security invoker (it reads only the caller's rows, by RLS), with an empty
+  -- search_path, executable by authenticated only (not PUBLIC, anon or service_role).
+  if not exists (
+    select 1 from pg_catalog.pg_proc p
+     where p.oid = 'public.has_access(text, timestamp with time zone)'::regprocedure
+       and not p.prosecdef and 'search_path=""' = any (p.proconfig)
+  ) then
+    raise exception 'FAIL: has_access() is not security invoker with search_path ''''';
+  end if;
+  if exists (
+    select 1 from pg_catalog.pg_proc p, pg_catalog.aclexplode(p.proacl) a
+     where p.oid = 'public.has_access(text, timestamp with time zone)'::regprocedure and a.grantee = 0
+  ) or (select p.proacl is null from pg_catalog.pg_proc p where p.oid = 'public.has_access(text, timestamp with time zone)'::regprocedure) then
+    raise exception 'FAIL: PUBLIC can execute has_access()';
+  end if;
+  if has_function_privilege('anon', 'public.has_access(text, timestamp with time zone)', 'EXECUTE')
+     or has_function_privilege('service_role', 'public.has_access(text, timestamp with time zone)', 'EXECUTE')
+     or not has_function_privilege('authenticated', 'public.has_access(text, timestamp with time zone)', 'EXECUTE') then
+    raise exception 'FAIL: has_access() execute is not authenticated-only';
+  end if;
+  raise notice 'PASS: has_access() is security invoker, search_path empty, authenticated-only';
+
   -- 0007: exact table privileges in public for service_role, authenticated and anon.
   -- Expected: service_role only what the payment webhook uses; authenticated and anon as in
   -- 0003, 0005 and 0006; nobody but service_role on unmatched_payment_events.
@@ -716,10 +774,14 @@ begin
         -- authenticated and anon only on the tables these migrations manage.
         continue when role_name <> 'service_role' and rel.relname not in (
           'profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab',
-          'purchases', 'pricing_settings', 'unmatched_payment_events', 'review_cards');
+          'purchases', 'pricing_settings', 'unmatched_payment_events', 'review_cards', 'subscriptions', 'subscription_payments');
         expected := case role_name || ':' || rel.relname
           when 'service_role:purchases' then array['SELECT', 'INSERT', 'UPDATE']
           when 'service_role:unmatched_payment_events' then array['SELECT', 'INSERT']
+          when 'service_role:subscriptions' then array['SELECT', 'INSERT', 'UPDATE']
+          when 'service_role:subscription_payments' then array['SELECT', 'INSERT', 'UPDATE']
+          when 'authenticated:subscriptions' then array['SELECT']
+          when 'authenticated:subscription_payments' then array['SELECT']
           when 'authenticated:profiles' then array['SELECT']  -- plus column-level UPDATE, checked below
           when 'authenticated:lesson_progress' then array['SELECT', 'DELETE']
           when 'authenticated:exercise_results' then array['SELECT', 'DELETE']
@@ -898,7 +960,9 @@ values
   ('22222222-2222-4222-8222-222222222222', 'rls-test-b@example.invalid', 'authenticated', 'authenticated',
    '{"full_name": "Test User B"}'),
   ('33333333-3333-4333-8333-333333333333', 'rls-test-c@example.invalid', 'authenticated', 'authenticated',
-   '{"full_name": "Test User C"}');
+   '{"full_name": "Test User C"}'),
+  ('44444444-4444-4444-8444-444444444444', 'rls-test-d@example.invalid', 'authenticated', 'authenticated',
+   '{"full_name": "Test User D"}');
 
 do $$
 begin
@@ -1104,6 +1168,109 @@ set local role authenticated;
 select rls_test.delete_own();
 reset role;
 
+-- ===================================================================== subscriptions (0010)
+-- User D: one yearly subscription, its first payment. Seeded as postgres (as the webhook would).
+insert into public.subscriptions (user_id, product, provider, provider_subscription_id, provider_customer_id, status, current_period_end)
+values ('44444444-4444-4444-8444-444444444444', 'lessons', 'dodo', 'sub_test_d_1', 'cus_test_d', 'active', now() + interval '30 days');
+insert into public.subscription_payments (subscription_id, user_id, provider_payment_id, charge_type, status, amount)
+select s.id, s.user_id, 'pay_test_d_1', 'new', 'succeeded', 1200 from public.subscriptions as s where s.provider_subscription_id = 'sub_test_d_1';
+
+-- The table's own rule: a cancelled subscription says when.
+select rls_test.expect_error('a cancelled subscription without cancelled_at',
+  'update public.subscriptions set status = ''cancelled'' where provider_subscription_id = ''sub_test_d_1''', '23514');
+
+select set_config('request.jwt.claims', '{"sub":"44444444-4444-4444-8444-444444444444","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.subscriptions_own();
+-- Active: access until the period end plus the 7-day grace.
+select rls_test.expect_access('active, now', '0 seconds', true);
+select rls_test.expect_access('active, 6 days after the period end (in the grace)', '36 days', true);
+select rls_test.expect_access('active, 8 days after the period end (past the grace)', '38 days', false);
+select rls_test.expect_access('another product', '0 seconds', false, 'pro');
+reset role;
+
+-- Past due (a failed renewal): the same grace.
+update public.subscriptions set status = 'past_due' where provider_subscription_id = 'sub_test_d_1';
+select set_config('request.jwt.claims', '{"sub":"44444444-4444-4444-8444-444444444444","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.expect_access('past_due, now', '0 seconds', true);
+select rls_test.expect_access('past_due, 6 days after the period end', '36 days', true);
+select rls_test.expect_access('past_due, 8 days after the period end', '38 days', false);
+reset role;
+
+-- On hold (the grace ran out): no access, even inside the period.
+update public.subscriptions set status = 'on_hold' where provider_subscription_id = 'sub_test_d_1';
+select set_config('request.jwt.claims', '{"sub":"44444444-4444-4444-8444-444444444444","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.expect_access('on_hold, now', '0 seconds', false);
+reset role;
+
+-- Cancelled at the period end: access to the end of the paid year, no grace after it.
+update public.subscriptions set status = 'cancelled', cancelled_at = now(), cancel_at_period_end = true where provider_subscription_id = 'sub_test_d_1';
+select set_config('request.jwt.claims', '{"sub":"44444444-4444-4444-8444-444444444444","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.expect_access('cancelled at the period end, now', '0 seconds', true);
+select rls_test.expect_access('cancelled at the period end, a day before it', '29 days', true);
+select rls_test.expect_access('cancelled at the period end, a day after it (no grace)', '31 days', false);
+reset role;
+
+-- Cancelled at once, refunded, disputed, expired: no access.
+update public.subscriptions set cancel_at_period_end = false where provider_subscription_id = 'sub_test_d_1';
+select set_config('request.jwt.claims', '{"sub":"44444444-4444-4444-8444-444444444444","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.expect_access('cancelled at once', '0 seconds', false);
+reset role;
+do $$
+declare
+  st text;
+begin
+  foreach st in array array['refunded', 'disputed', 'expired'] loop
+    update public.subscriptions set status = st, cancelled_at = null where provider_subscription_id = 'sub_test_d_1';
+    perform pg_catalog.set_config('request.jwt.claims', '{"sub":"44444444-4444-4444-8444-444444444444","role":"authenticated"}', true);
+    if public.has_access('lessons', now()) then
+      raise exception 'FAIL: a % subscription gives access', st;
+    end if;
+    raise notice 'PASS: % -> has_access false', st;
+  end loop;
+end;
+$$;
+
+-- A duplicate (a second subscription, as after a double charge): any one entitling row is enough.
+insert into public.subscriptions (user_id, product, provider, provider_subscription_id, status, current_period_end)
+values ('44444444-4444-4444-8444-444444444444', 'lessons', 'dodo', 'sub_test_d_2', 'active', now() + interval '365 days');
+select set_config('request.jwt.claims', '{"sub":"44444444-4444-4444-8444-444444444444","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.expect_access('a refunded subscription plus an active one', '0 seconds', true);
+reset role;
+
+-- Lifetime purchases still count, and nobody sees anyone else's access.
+select set_config('request.jwt.claims', '{"sub":"22222222-2222-4222-8222-222222222222","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.expect_access('user B (a lifetime purchase)', '0 seconds', true);
+select rls_test.expect_access('user B, years later', '3650 days', true);
+select rls_test.expect_rows('user B reads D''s subscriptions', 'select 1 from public.subscriptions', 0);
+select rls_test.expect_rows('user B reads D''s subscription payments', 'select 1 from public.subscription_payments', 0);
+reset role;
+
+-- anon: nothing; service_role (the webhook): select, insert, update, never delete.
+select set_config('request.jwt.claims', '{"role":"anon"}', true);
+set local role anon;
+select rls_test.expect_nothing('anon reads subscriptions', 'select 1 from public.subscriptions');
+select rls_test.expect_nothing('anon reads subscription_payments', 'select 1 from public.subscription_payments');
+select rls_test.expect_error('anon calls has_access()', 'select public.has_access(''lessons'', now())');
+reset role;
+select set_config('request.jwt.claims', '{"role":"service_role"}', true);
+set local role service_role;
+select rls_test.expect_affected('service_role inserts a subscription', 'insert into public.subscriptions (user_id, product, provider, provider_subscription_id, status, current_period_end) values (''44444444-4444-4444-8444-444444444444'', ''lessons'', ''dodo'', ''sub_test_srv_1'', ''active'', now() + interval ''1 year'')', 1);
+select rls_test.expect_affected('service_role renews it', 'update public.subscriptions set current_period_end = current_period_end + interval ''1 year'' where provider_subscription_id = ''sub_test_srv_1''', 1);
+select rls_test.expect_error('service_role inserts the same subscription id again', 'insert into public.subscriptions (user_id, product, provider, provider_subscription_id, status, current_period_end) values (''44444444-4444-4444-8444-444444444444'', ''lessons'', ''dodo'', ''sub_test_srv_1'', ''active'', now())', '23505');
+select rls_test.expect_affected('service_role records a payment', 'insert into public.subscription_payments (subscription_id, user_id, provider_payment_id, charge_type, status, amount) select id, user_id, ''pay_test_srv_1'', ''renewal'', ''succeeded'', 1200 from public.subscriptions where provider_subscription_id = ''sub_test_srv_1''', 1);
+select rls_test.expect_affected('service_role marks the payment refunded', 'update public.subscription_payments set status = ''refunded'', refunded_at = now() where provider_payment_id = ''pay_test_srv_1''', 1);
+select rls_test.expect_error('service_role deletes a subscription', 'delete from public.subscriptions where provider_subscription_id = ''sub_test_srv_1''');
+select rls_test.expect_error('service_role deletes a subscription payment', 'delete from public.subscription_payments where provider_payment_id = ''pay_test_srv_1''');
+select rls_test.expect_error('service_role calls has_access()', 'select public.has_access(''lessons'', now())');
+reset role;
+
 -- ===================================================================== account deletion cascades
 -- A writes progress again, then the account is deleted (as Supabase does from the dashboard).
 select set_config('request.jwt.claims', '{"sub":"11111111-1111-4111-8111-111111111111","role":"authenticated"}', true);
@@ -1115,19 +1282,21 @@ select rls_test.expect_apply('user A writes progress again', jsonb_build_array(
 insert into public.saved_vocab (user_id, vocab_id, lesson_id) values ('11111111-1111-4111-8111-111111111111', 'rls-test-lesson-v001', 'rls-test-lesson');
 reset role;
 
-delete from auth.users where id in ('11111111-1111-4111-8111-111111111111', '33333333-3333-4333-8333-333333333333');
+delete from auth.users where id in ('11111111-1111-4111-8111-111111111111', '33333333-3333-4333-8333-333333333333', '44444444-4444-4444-8444-444444444444');
 
 do $$
 declare
   u uuid;
 begin
-  foreach u in array array['11111111-1111-4111-8111-111111111111', '33333333-3333-4333-8333-333333333333']::uuid[] loop
+  foreach u in array array['11111111-1111-4111-8111-111111111111', '33333333-3333-4333-8333-333333333333', '44444444-4444-4444-8444-444444444444']::uuid[] loop
     if exists (select 1 from public.profiles where id = u)
        or exists (select 1 from public.lesson_progress where user_id = u)
        or exists (select 1 from public.exercise_results where user_id = u)
        or exists (select 1 from public.writing_task_progress where user_id = u)
        or exists (select 1 from public.saved_vocab where user_id = u)
        or exists (select 1 from public.review_cards where user_id = u)
+       or exists (select 1 from public.subscriptions where user_id = u)
+       or exists (select 1 from public.subscription_payments where user_id = u)
        or exists (select 1 from public.purchases where user_id = u) then
       raise exception 'FAIL: deleting user % left rows behind', u;
     end if;
@@ -1142,7 +1311,7 @@ begin
     raise exception 'FAIL: get_founder_spots_left() did not reflect cascaded deletion (got %, expected %)',
       public.get_founder_spots_left('lessons'), rls_test.spots_expected(1);
   end if;
-  raise notice 'PASS: deleting users A and C cascaded to the profile, progress, writing tasks, review cards and purchases, and left B alone';
+  raise notice 'PASS: deleting users A, C and D cascaded to the profile, progress, writing tasks, review cards, subscriptions and purchases, and left B alone';
   raise notice 'PASS: ALL RLS CHECKS PASSED';
 end;
 $$;

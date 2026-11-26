@@ -160,6 +160,7 @@ function PricePlaceholder() {
         <span className="text-sm text-muted">one-time · lifetime access</span>
       </div>
       <div className="mt-2 h-5 w-64 max-w-full animate-pulse rounded-md bg-border/60" />
+      <div className="mt-1 h-5 w-48 max-w-full animate-pulse rounded-md bg-border/60" />
       <div className="mt-3 h-10 w-56 max-w-full animate-pulse rounded-md bg-border/60" />
     </div>
   );

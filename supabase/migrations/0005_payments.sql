@@ -57,11 +57,13 @@ create trigger pricing_settings_set_updated_at
   for each row execute function public.set_updated_at();
 
 -- Seed initial configuration: $8 (800 cents) founder price for first 100 buyers, then $12 (1200 cents).
+-- Only when the row is missing (not "on conflict do nothing"): once 0009 makes founder_ends_at not
+-- null, a re-run's insert would fail that check before the conflict is even looked at.
 insert into public.pricing_settings (
   product, currency, founder_price_cents, standard_price_cents, founder_cap, is_active
-) values (
-  'lessons', 'usd', 800, 1200, 100, true
-) on conflict (product) do nothing;
+)
+select 'lessons', 'usd', 800, 1200, 100, true
+ where not exists (select 1 from public.pricing_settings where product = 'lessons');
 
 -- ---------- 3. Founder spots counter function ----------
 -- Security definer: allows anon and authenticated users to check how many founder spots remain
