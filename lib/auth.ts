@@ -14,7 +14,9 @@ export { getCurrentUser, type CurrentUser } from "@/lib/current-user";
 export type LessonAccessResult =
   | { status: "granted"; access: LessonAccess }
   | { status: "signed-out"; offer: PriceOffer; nowMs: number }
-  | { status: "unpaid"; offer: PriceOffer; nowMs: number };
+  | { status: "unpaid"; offer: PriceOffer; nowMs: number }
+  /** The access check failed: neither the paywall nor the lesson (Prompt 80). */
+  | { status: "unknown" };
 
 
 /** Access to an A1 or A2 lesson. Reads no request data, so free lessons stay prerendered. */
@@ -30,6 +32,7 @@ export function grantFreeAccess(meta: LessonMeta): LessonAccess {
  *   * If signed out -> status: "signed-out"
  *   * If signed in and entitled -> status: "granted" with LessonAccess proof
  *   * If signed in but unpaid -> status: "unpaid" with live pricing & founder spots
+ *   * If the access check failed -> status: "unknown" (never the paywall, never the lesson)
  * The offer is worked out for the time of this request (nowMs), never taken from the price cache.
  */
 export async function checkLessonAccess(meta: LessonMeta): Promise<LessonAccessResult> {
@@ -46,10 +49,11 @@ export async function checkLessonAccess(meta: LessonMeta): Promise<LessonAccessR
   }
 
   // Access and the (shared, cached) price at the same time.
-  const [isEntitled, offer] = await Promise.all([hasActiveEntitlement(user.id, "lessons"), getSharedOffer("lessons", nowMs)]);
-  if (isEntitled) {
+  const [access, offer] = await Promise.all([hasActiveEntitlement(user.id, "lessons"), getSharedOffer("lessons", nowMs)]);
+  if (access === "yes") {
     return { status: "granted", access: { grant: "lesson-access", lessonId: meta.id } };
   }
+  if (access === "unknown") return { status: "unknown" };
 
   return { status: "unpaid", offer, nowMs };
 }

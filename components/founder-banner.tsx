@@ -12,7 +12,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { getAccessAction } from "@/app/actions/access";
-import { BANNER_DISMISSED_KEY, BANNER_ENDED_KEY, bannerText, bannerVisible } from "@/lib/founder-banner";
+import { accessHidesBanner, BANNER_DISMISSED_KEY, BANNER_ENDED_KEY, bannerText, bannerVisible } from "@/lib/founder-banner";
 import { FOUNDER_ENDS_AT, FOUNDER_PRICE_CENTS, YEARLY_PRICE_CENTS } from "@/lib/founder-constants";
 import { rememberAccess, rememberedAccess, sessionUser } from "@/lib/review-access";
 
@@ -75,8 +75,9 @@ export function FounderBanner() {
       getAccessAction()
         .then((r) => {
           if (!active || !r.signedIn) return;
-          rememberAccess(r.userId, r.access);
-          setHasAccess(r.access);
+          // Unknown (the check failed): hidden, as for a learner with access, and not remembered.
+          if (r.access !== "unknown") rememberAccess(r.userId, r.access);
+          setHasAccess(accessHidesBanner(r.access));
         })
         .catch(() => {});
     }

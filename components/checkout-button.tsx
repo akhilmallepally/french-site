@@ -4,6 +4,7 @@ import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { createCheckoutAction } from "@/app/actions/checkout";
 import type { ProductKey } from "@/lib/payments/types";
+import type { CheckoutPlan } from "@/lib/pricing-offer";
 
 interface CheckoutButtonProps {
   product?: ProductKey;
@@ -11,6 +12,8 @@ interface CheckoutButtonProps {
   label?: string;
   /** The price shown next to the button. The server refuses if it no longer matches. */
   expectedPriceCents?: number;
+  /** The plan the page offered ("founder" or "yearly"). The server decides what's for sale anyway. */
+  plan?: CheckoutPlan;
 }
 
 export function CheckoutButton({
@@ -18,6 +21,7 @@ export function CheckoutButton({
   className,
   label = "Get Lifetime Access",
   expectedPriceCents,
+  plan = "founder",
 }: CheckoutButtonProps) {
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
@@ -27,13 +31,13 @@ export function CheckoutButton({
     setError(null);
     startTransition(async () => {
       try {
-        const result = await createCheckoutAction(product, expectedPriceCents);
+        const result = await createCheckoutAction(product, expectedPriceCents, plan);
         if (result.error) {
           setError(result.error);
           // Pricing changed or became unavailable: re-render the server parts of the page in place so
           // the current price (or the disabled state) shows without a manual reload. The message stays
           // because router.refresh() keeps this component's state.
-          if (result.status) {
+          if (result.status && result.status !== "access-unknown") {
             router.refresh();
             return;
           }

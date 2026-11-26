@@ -198,9 +198,12 @@ function readApplyReply(reply: unknown, sent: Set<string>): { applied: string[];
 export type ReviewContext = { userId: string; index: ReviewIdIndex; nowMs: number; db: ReviewDb; hasAccess: () => Promise<boolean> };
 
 /** A cached access check, so one call asks the database at most once. */
+// A failed check is not "no access" (Prompt 80): it throws through, and the action answers
+// "unavailable", so no entry is rejected as no_access (which drops it from the outbox for good) and
+// no read comes back empty. The store retries later.
 function once(fn: () => Promise<boolean>): () => Promise<boolean> {
   let p: Promise<boolean> | null = null;
-  return () => (p ??= fn().catch(() => false));
+  return () => (p ??= fn());
 }
 
 /**

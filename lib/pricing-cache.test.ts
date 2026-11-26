@@ -6,7 +6,7 @@ import { loadPricing, PricingReadError, pricingChangingOutcome, type PricingClie
 
 const ENDS = "2026-12-31T16:59:00.000Z";
 const NOW = Date.parse("2026-12-01T00:00:00Z");
-const live = (spotsLeft: number): PricingInput => ({ available: true, spotsLeft, founderPriceCents: 800, standardPriceCents: 1200, founderCap: 100, currency: "usd", founderEndsAt: ENDS });
+const live = (spotsLeft: number): PricingInput => ({ available: true, spotsLeft, founderPriceCents: 800, standardPriceCents: 1200, founderCap: 100, currency: "usd", founderEndsAt: ENDS, subscriptionPriceCents: 1200, yearlyProductConfigured: false });
 
 describe("a cached price can never be charged", () => {
   test("the page shows the cached founder price, the last spot has gone: checkout refuses, nothing is charged", async () => {
@@ -56,8 +56,19 @@ const row = { founder_price_cents: 800, standard_price_cents: 1200, founder_cap:
 describe("loadPricing (what the shared cache stores)", () => {
   test("reads the settings and the founder spots in parallel", async () => {
     const f = fakeClient({ data: row, error: null }, { data: 37, error: null });
-    assert.deepEqual(await loadPricing(f.client), { available: true, spotsLeft: 37, founderPriceCents: 800, standardPriceCents: 1200, founderCap: 100, currency: "usd", founderEndsAt: ENDS });
+    // Before 0012 (no subscription_price_cents): the yearly price is null, so the yearly plan stays "coming soon".
+    assert.deepEqual(await loadPricing(f.client), { available: true, spotsLeft: 37, founderPriceCents: 800, standardPriceCents: 1200, founderCap: 100, currency: "usd", founderEndsAt: ENDS, subscriptionPriceCents: null, yearlyProductConfigured: false });
     assert.equal(f.maxInFlight(), 2, "both calls at once");
+  });
+
+  test("the yearly price (0012) and the configured product are passed through; a bad price is null", async () => {
+    const withPrice = fakeClient({ data: { ...row, subscription_price_cents: 1200 }, error: null }, { data: 37, error: null });
+    const got = await loadPricing(withPrice.client, "lessons", true);
+    assert.deepEqual([got.subscriptionPriceCents, got.yearlyProductConfigured], [1200, true]);
+    for (const bad of [0, -5, 12.5, "1200", null]) {
+      const f = fakeClient({ data: { ...row, subscription_price_cents: bad }, error: null }, { data: 37, error: null });
+      assert.equal((await loadPricing(f.client, "lessons", true)).subscriptionPriceCents, null, String(bad));
+    }
   });
 
   test("never returns a failure to cache: every failure throws", async () => {

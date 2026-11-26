@@ -9,7 +9,16 @@ export type CheckoutParams = {
   currency: string;
   redirectUrl: string;
   metadata?: Record<string, string>;
+  /**
+   * "founder" (the default): the one-time lifetime product at priceCents. "yearly": the subscription
+   * product (PAYMENTS_YEARLY_PRODUCT_ID), whose price is the product's own (checked against
+   * priceCents before the checkout is created, lib/pricing-offer.ts).
+   */
+  plan?: "founder" | "yearly";
 };
+
+/** A product's price as the provider has it (Dodo: GET /products/{id}), or null when unreadable. */
+export type ProductPrice = { priceCents: number; currency: string; interval: string | null; intervalCount: number | null };
 
 export type WebhookEventResult =
   | {
@@ -87,6 +96,8 @@ export type SubscriptionEventKind = "active" | "renewed" | "updated" | "past_due
 export interface PaymentProvider {
   readonly name: ProviderName;
   createCheckout(params: CheckoutParams): Promise<{ checkoutUrl: string }>;
+  /** The product's price, read before a yearly checkout. Providers without it can't sell the yearly plan. */
+  getProductPrice?(productId: string): Promise<ProductPrice | null>;
   verifyWebhookSignature(rawBody: string, headers: Headers): Promise<boolean>;
   parseWebhookEvent(rawBody: string): Promise<WebhookEventResult>;
 }

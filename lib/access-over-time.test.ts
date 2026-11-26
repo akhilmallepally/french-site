@@ -80,7 +80,7 @@ describe("access over time, as the app sees it", () => {
   /** What each part of the review shows the learner right now. */
   async function review() {
     const client = sessionClient(db, L);
-    const hasAccess = () => checkAccess(client, "lessons");
+    const hasAccess = async () => (await checkAccess(client, "lessons")) === "yes";
     const got = await runReviewGet({ userId: L, index: CARD_INDEX, db: server.db(L), hasAccess });
     const text = await runCardText([F1, P1], { lookup, hasAccess });
     const sync = await runReviewSync({ expectedUserId: L, items: [toItem(P2, reviewed(1))] }, { userId: L, index: CARD_INDEX, nowMs: clock.now, db: server.db(L), hasAccess });
@@ -174,8 +174,8 @@ describe("access over time, as the app sees it", () => {
 
   test("lifetime access never lapses, and nobody else's rows count", async () => {
     clock.now = T + 3650 * DAY;
-    assert.equal(await checkAccess(sessionClient(db, LIFETIME), "lessons"), true);
-    assert.equal(await checkAccess(sessionClient(db, NOBODY), "lessons"), false);
+    assert.equal(await checkAccess(sessionClient(db, LIFETIME), "lessons"), "yes");
+    assert.equal(await checkAccess(sessionClient(db, NOBODY), "lessons"), "no");
   });
 
   test("one has_access() call per check, and the app never sends a time", async () => {

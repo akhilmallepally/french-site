@@ -15,17 +15,35 @@ function watchErrors(page: Page): string[] {
 }
 
 test.describe("founding offer", () => {
-  test("an open /pricing page switches to the ended state at the deadline, without a reload", async ({ page }) => {
+  // Prompt 80: the page switches to the yearly plan when it can be sold (PAYMENTS_YEARLY_PRODUCT_ID in
+  // the build and subscription_price_cents in the database, migration 0012), else to "coming soon".
+  // The page says which (data-switches-to); both are checked the same way, on an open page.
+  test("an open /pricing page switches at the deadline (yearly access, or coming soon), without a reload", async ({ page }) => {
     const errors = watchErrors(page);
     await page.clock.install({ time: ENDS - 90_000 }); // 1.5 minutes before the deadline
     await page.goto("/pricing");
     await expect(page.getByTestId("founder-time-left").first()).toHaveText("1 minute");
     await expect(page.getByRole("link", { name: "Sign in with Google to unlock" })).toBeVisible();
     await expect(page.getByTestId("yearly-comparison").first()).toHaveText("From 1 January: $12 per year.");
+    await expect(page.getByRole("heading", { name: "Lifetime Access" })).toBeVisible();
+    const switchesTo = await page.getByTestId("founder-countdown").first().getAttribute("data-switches-to");
+    expect(["yearly", "soon"]).toContain(switchesTo);
+    test.info().annotations.push({ type: "switches to", description: String(switchesTo) });
     await page.clock.fastForward(120_000); // past the deadline
-    await expect(page.getByTestId("founder-ended").first()).toContainText("The founding offer has ended.");
-    await expect(page.getByText("New plan coming soon").first()).toBeVisible();
-    await expect(page.getByRole("button", { name: "New plan coming soon" })).toBeDisabled();
+    if (switchesTo === "yearly") {
+      await expect(page.getByTestId("yearly-price").first()).toHaveText("$12");
+      await expect(page.getByTestId("yearly-offer").first()).toContainText("a year · plus tax where applicable");
+      await expect(page.getByTestId("yearly-offer").first()).toContainText("Renews yearly until you cancel. Cancel any time; access runs to the end of the paid year.");
+      await expect(page.getByRole("heading", { name: "Yearly Access" })).toBeVisible();
+      await expect(page.getByRole("link", { name: "Sign in with Google to subscribe" })).toBeVisible();
+      await expect(page.getByTestId("auto-renew")).toHaveText("Renews automatically at $12 a year until you cancel.");
+      await expect(page.getByTestId("founder-ended")).toHaveCount(0);
+    } else {
+      await expect(page.getByTestId("founder-ended").first()).toContainText("The founding offer has ended.");
+      await expect(page.getByText("New plan coming soon").first()).toBeVisible();
+      await expect(page.getByRole("button", { name: "New plan coming soon" })).toBeDisabled();
+    }
+    await expect(page.getByTestId("founder-countdown")).toHaveCount(0);
     await expect(page.getByRole("link", { name: "Sign in with Google to unlock" })).toHaveCount(0);
     await expect(page.getByTestId("yearly-comparison")).toHaveCount(0, { timeout: 1000 });
     expect(await page.locator("main").innerText(), "the page no longer offers $8").not.toMatch(/\$8\b/);

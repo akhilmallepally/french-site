@@ -18,6 +18,7 @@ import "server-only";
 import { cacheLife, cacheTag } from "next/cache";
 import { createClient } from "@supabase/supabase-js";
 import { getSupabaseEnv } from "@/lib/supabase/env";
+import { getYearlyProductId } from "@/lib/payments/config";
 import { getPriceOffer, type PriceOffer, type PricingInput } from "@/lib/pricing-offer";
 import { loadPricing, PRICING_TAG, PricingReadError, type PricingClient } from "@/lib/pricing-source";
 
@@ -31,7 +32,7 @@ export async function getSharedPricing(product = "lessons"): Promise<SharedPrici
   try {
     if (!env) throw new PricingReadError("not_configured");
     const client = createClient(env.url, env.key, { auth: { persistSession: false, autoRefreshToken: false } }) as unknown as PricingClient;
-    const pricing = await loadPricing(client, product);
+    const pricing = await loadPricing(client, product, getYearlyProductId() !== null);
     cacheLife({ stale: 60, revalidate: 60, expire: 300 });
     return { ok: true, pricing, readAtMs: Date.now() };
   } catch (error) {

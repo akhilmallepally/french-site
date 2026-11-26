@@ -22,7 +22,11 @@ type QueryResult<T> = PromiseLike<{ data: T | null; error: { code?: string; mess
 export type PricingClient = {
   from(table: "pricing_settings"): {
     select(columns: string): {
-      eq(column: string, value: unknown): { eq(column: string, value: unknown): { maybeSingle(): QueryResult<{ founder_price_cents: number; standard_price_cents: number; founder_cap: number; currency: string; founder_ends_at: string }> } };
+      eq(column: string, value: unknown): {
+        eq(column: string, value: unknown): {
+          maybeSingle(): QueryResult<{ founder_price_cents: number; standard_price_cents: number; founder_cap: number; currency: string; founder_ends_at: string; subscription_price_cents?: unknown }>;
+        };
+      };
     };
   };
   rpc(fn: "get_founder_spots_left", args: { p_product: string }): QueryResult<number>;
@@ -37,18 +41,28 @@ export class PricingReadError extends Error {
   }
 }
 
-/** The live price, founder spots and the founding offer's deadline. Throws PricingReadError on any failure. */
-export async function loadPricing(client: PricingClient, product = "lessons"): Promise<PricingInput> {
-  // Both calls at once: they don't depend on each other.
+/** A positive whole number of cents, or null (the column is missing before 0012, or the value is bad). */
+function cents(v: unknown): number | null {
+  return typeof v === "number" && Number.isSafeInteger(v) && v > 0 ? v : null;
+}
+
+/**
+ * The live price, founder spots, the founding offer's deadline and the yearly price. Throws
+ * PricingReadError on any failure. `yearlyProductConfigured` comes from the server's config
+ * (PAYMENTS_YEARLY_PRODUCT_ID); the caller passes it, so this stays free of env reads.
+ */
+export async function loadPricing(client: PricingClient, product = "lessons", yearlyProductConfigured = false): Promise<PricingInput> {
+  // Both calls at once: they don't depend on each other. "*" so the read still works before 0012
+  // adds subscription_price_cents (the yearly plan then stays "coming soon").
   const [settings, spots] = await Promise.all([
-    client.from("pricing_settings").select("founder_price_cents, standard_price_cents, founder_cap, currency, founder_ends_at").eq("product", product).eq("is_active", true).maybeSingle(),
+    client.from("pricing_settings").select("*").eq("product", product).eq("is_active", true).maybeSingle(),
     client.rpc("get_founder_spots_left", { p_product: product }),
   ]);
   if (settings.error) throw new PricingReadError(settings.error.code || "settings_error");
   if (!settings.data) throw new PricingReadError("no_active_row");
   if (spots.error) throw new PricingReadError(spots.error.code || "spots_error");
   if (typeof spots.data !== "number") throw new PricingReadError("spots_not_a_number");
-  // Before migration 0009 the column doesn't exist (the select fails above); a bad value fails closed.
+  // Before migration 0009 the column is missing; missing or bad, it fails closed here.
   if (typeof settings.data.founder_ends_at !== "string" || !Number.isFinite(Date.parse(settings.data.founder_ends_at))) {
     throw new PricingReadError("no_founder_deadline");
   }
@@ -60,5 +74,7 @@ export async function loadPricing(client: PricingClient, product = "lessons"): P
     founderCap: settings.data.founder_cap,
     currency: settings.data.currency.toLowerCase(),
     founderEndsAt: new Date(settings.data.founder_ends_at).toISOString(),
+    subscriptionPriceCents: cents(settings.data.subscription_price_cents),
+    yearlyProductConfigured,
   };
 }

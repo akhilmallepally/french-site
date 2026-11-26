@@ -16,7 +16,9 @@ for (const name of ["NEXT_PUBLIC_SUPABASE_URL", "NEXT_PUBLIC_SUPABASE_PUBLISHABL
   }
 }
 
-const env = { ...process.env, NEXT_PUBLIC_PROGRESS_SYNC: "on", NEXT_PUBLIC_REVIEW_SYNC: "on" };
+// PAYMENTS_YEARLY_PRODUCT_ID lets /pricing switch to the yearly plan in e2e/pricing.spec.ts once the
+// database has subscription_price_cents (0012). No test creates a checkout, so a placeholder is enough.
+const env = { ...process.env, NEXT_PUBLIC_PROGRESS_SYNC: "on", NEXT_PUBLIC_REVIEW_SYNC: "on", PAYMENTS_YEARLY_PRODUCT_ID: process.env.PAYMENTS_YEARLY_PRODUCT_ID || "pdt_e2e_placeholder" };
 console.log("Building with NEXT_PUBLIC_PROGRESS_SYNC=on and NEXT_PUBLIC_REVIEW_SYNC=on…");
 const build = spawnSync("npm", ["run", "build"], { env, stdio: "inherit", shell: isWin });
 if (build.status !== 0) {

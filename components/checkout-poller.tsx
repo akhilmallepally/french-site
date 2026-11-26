@@ -53,7 +53,7 @@ export function CheckoutPoller({ product = "lessons" }: CheckoutPollerProps) {
           </svg>
         </div>
         <h2 className="mt-4 font-serif text-2xl font-semibold">Payment Confirmed!</h2>
-        <p className="mt-2 text-muted">Your lifetime access to French Properly is now active.</p>
+        <p className="mt-2 text-muted">Your access to French Properly is now active.</p>
         <div className="mt-6 flex justify-center">
           <Link
             href="/lessons/b1"

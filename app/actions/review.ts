@@ -37,7 +37,18 @@ async function session(expectedUserId: unknown): Promise<{ userId: string; supab
   return { userId: user.id, supabase };
 }
 
-const accessFor = (userId: string) => () => hasActiveEntitlement(userId, "lessons");
+/** Thrown when the access check failed: the action answers "unavailable", so nothing is rejected or dropped. */
+class AccessUnknownError extends Error {
+  readonly code = "access_unknown";
+}
+
+// "unknown" is never "no" (Prompt 80): a "no_access" rejection would drop the entry from the outbox
+// for good, so the call fails as "unavailable" instead and the store retries later.
+const accessFor = (userId: string) => async () => {
+  const state = await hasActiveEntitlement(userId, "lessons");
+  if (state === "unknown") throw new AccessUnknownError("access check failed");
+  return state === "yes";
+};
 
 /** The signed-in user's cards, read with RLS; paid-level cards only with access. Writes nothing. */
 export async function getReviewAction(expectedUserId: string): Promise<ReviewGetReply> {

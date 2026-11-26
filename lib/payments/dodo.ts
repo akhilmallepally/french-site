@@ -1,6 +1,6 @@
 import crypto from "node:crypto";
-import { getPaymentsConfig, signMetadata } from "./config";
-import type { CheckoutParams, PaymentProvider, ProductKey, SubscriptionEventKind, WebhookEventResult } from "./types";
+import { getPaymentsConfig, getYearlyProductId, signMetadata } from "./config";
+import type { CheckoutParams, PaymentProvider, ProductKey, ProductPrice, SubscriptionEventKind, WebhookEventResult } from "./types";
 
 /** The subscription events we act on (docs/plans/subscription.md, section 2). */
 const SUBSCRIPTION_KINDS: Record<string, SubscriptionEventKind> = {
@@ -33,17 +33,20 @@ export class DodoPaymentProvider implements PaymentProvider {
     }
 
     const baseUrl = this.getBaseUrl(config.apiKey);
-    const productId = config.productId || "p_lessons";
+    const yearly = params.plan === "yearly";
+    const yearlyId = getYearlyProductId();
+    if (yearly && !yearlyId) throw new Error("PAYMENTS_YEARLY_PRODUCT_ID is not configured");
     const signature = signMetadata(params.userId, params.product, config.webhookSecret);
 
+    // The yearly plan: the subscription product at its own price (already checked against ours).
+    // The lifetime plan: the one-time product at the founder price, as before.
+    const cartItem = yearly
+      ? { product_id: yearlyId as string, quantity: 1 }
+      : { product_id: config.productId || "p_lessons", amount: params.priceCents, quantity: 1 };
+
+    // The same customer email, signed metadata and return URL for both plans.
     const payload = {
-      product_cart: [
-        {
-          product_id: productId,
-          amount: params.priceCents,
-          quantity: 1,
-        },
-      ],
+      product_cart: [cartItem],
       billing: {
         email: params.userEmail,
       },
@@ -82,6 +85,24 @@ export class DodoPaymentProvider implements PaymentProvider {
     }
 
     return { checkoutUrl };
+  }
+
+  /**
+   * The product's price (GET /products/{id}): price.price in cents, its currency, and for a
+   * subscription payment_frequency_interval and _count. Null when it can't be read or has another shape.
+   */
+  async getProductPrice(productId: string): Promise<ProductPrice | null> {
+    const config = getPaymentsConfig();
+    if (!config?.apiKey) return null;
+    const response = await fetch(`${this.getBaseUrl(config.apiKey)}/products/${encodeURIComponent(productId)}`, {
+      headers: { Authorization: `Bearer ${config.apiKey}` },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!response.ok) {
+      console.warn("[payments:dodo] product price read failed, status:", response.status);
+      return null;
+    }
+    return parseProductPrice(await response.json().catch(() => null));
   }
 
   async verifyWebhookSignature(rawBody: string, headers: Headers): Promise<boolean> {
@@ -287,4 +308,16 @@ export class DodoPaymentProvider implements PaymentProvider {
       reason: `Unhandled event type: ${eventType}`,
     };
   }
+}
+
+/** Dodo's product price object, defensively: { price: { price, currency, payment_frequency_interval, payment_frequency_count } }. */
+export function parseProductPrice(body: unknown): ProductPrice | null {
+  const price = (body as { price?: Record<string, unknown> } | null)?.price;
+  if (!price || typeof price !== "object") return null;
+  const cents = price.price;
+  const currency = price.currency;
+  if (typeof cents !== "number" || !Number.isSafeInteger(cents) || typeof currency !== "string") return null;
+  const interval = typeof price.payment_frequency_interval === "string" ? price.payment_frequency_interval : null;
+  const count = typeof price.payment_frequency_count === "number" ? price.payment_frequency_count : null;
+  return { priceCents: cents, currency, interval, intervalCount: count };
 }

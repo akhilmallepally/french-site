@@ -7,7 +7,11 @@
 export type CardText = { fr: string; en: string; pron?: string; group?: string; note?: string };
 
 /** `access` is the check's result when a known card was asked for, and null when none was. */
-export type CardTextReply = { status: "ok"; cards: Record<string, CardText>; access: boolean | null } | { status: "invalid"; code: "bad_payload" | "too_many_ids" | "duplicate_id" };
+export type CardTextReply =
+  | { status: "ok"; cards: Record<string, CardText>; access: boolean | null }
+  | { status: "invalid"; code: "bad_payload" | "too_many_ids" | "duplicate_id" }
+  /** The access check failed (app/actions/review-text.ts): nothing is returned; the review retries. */
+  | { status: "unavailable"; code: "access_unknown" };
 
 export const MAX_TEXT_IDS = 40;
 const CARD_RE = /^[a-z0-9]+(-[a-z0-9]+)*-v[0-9]{1,6}$/;

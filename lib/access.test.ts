@@ -17,16 +17,17 @@ const client = (reply: { data: unknown; error: unknown } | "throws", seen: unkno
   },
 });
 
-describe("checkAccess (fails closed)", () => {
-  test("true only when has_access() answers true", async () => {
-    assert.equal(await checkAccess(client({ data: true, error: null }), "lessons"), true);
-    for (const data of [false, null, "true", 1, {}, [true]]) assert.equal(await checkAccess(client({ data, error: null }), "lessons"), false, JSON.stringify(data));
+describe("checkAccess (three answers, Prompt 80)", () => {
+  test("yes and no as has_access() answers; anything else is unknown, never no", async () => {
+    assert.equal(await checkAccess(client({ data: true, error: null }), "lessons"), "yes");
+    assert.equal(await checkAccess(client({ data: false, error: null }), "lessons"), "no");
+    for (const data of [null, "true", 1, {}, [true]]) assert.equal(await checkAccess(client({ data, error: null }), "lessons"), "unknown", JSON.stringify(data));
   });
 
-  test("a database error or a network failure is no access, and only its code is reported", async () => {
+  test("a database error or a network failure is unknown, and only its code is reported", async () => {
     const codes: string[] = [];
-    assert.equal(await checkAccess(client({ data: true, error: { code: "PGRST202", message: "secret details" } }), "lessons", (c) => codes.push(c)), false);
-    assert.equal(await checkAccess(client("throws"), "lessons", (c) => codes.push(c)), false);
+    assert.equal(await checkAccess(client({ data: true, error: { code: "PGRST202", message: "secret details" } }), "lessons", (c) => codes.push(c)), "unknown");
+    assert.equal(await checkAccess(client("throws"), "lessons", (c) => codes.push(c)), "unknown");
     assert.deepEqual(codes, ["PGRST202", "TypeError"]);
   });
 
@@ -54,7 +55,6 @@ const CALL_SITES = [
   "app/actions/checkout.ts", // checkout's "already has access", and the success page's poll
   "app/actions/review-text.ts", // the card-text action
   "app/actions/review.ts", // the review read and sync
-  "app/checkout/success/page.tsx",
   "app/practice/page.tsx", // the paid-level locks
   "app/pricing/page.tsx", // the pricing slot
   "app/review/page.tsx", // the Daily review gate
@@ -64,6 +64,30 @@ const CALL_SITES = [
 describe("every access check goes through hasActiveEntitlement()", () => {
   test("the call sites are exactly the known list", () => {
     assert.deepEqual(using(/\bhasActiveEntitlement\(/).filter((f) => f !== "lib/purchases.ts"), CALL_SITES);
+    // The wording (lifetime, renews, ends, payment problem) comes from getAccessDetails, which asks
+    // hasActiveEntitlement first: the pricing slot, checkout's refusal, and the success page.
+    assert.deepEqual(using(/\bgetAccessDetails\(/).filter((f) => f !== "lib/purchases.ts"), ["app/actions/checkout.ts", "app/checkout/success/page.tsx", "app/pricing/page.tsx"]);
+    assert.match(fs.readFileSync(path.join(root, "lib", "purchases.ts"), "utf8"), /getAccessDetails = cache\(async \(userId: string, product: ProductKey = "lessons"\): Promise<AccessDetails> => \{\s*const state = await hasActiveEntitlement\(userId, product\);\s*if \(state !== "yes"\)/);
+  });
+
+  test("unknown is never treated as no: every gate handles it before the paywall or the buy button", () => {
+    const src = (f: string) => fs.readFileSync(path.join(root, f), "utf8");
+    // Checkout refuses before reading the price or creating anything.
+    const checkout = src("app/actions/checkout.ts");
+    const unknownAt = checkout.indexOf('if (access === "unknown") {');
+    assert.ok(unknownAt > 0 && unknownAt < checkout.indexOf("getActivePricing(product)") && unknownAt < checkout.indexOf("runCheckout("), "checkout refuses on unknown first");
+    assert.match(checkout, /return \{ status: "access-unknown", error: ACCESS_UNKNOWN_MESSAGE \};/);
+    // Lessons, /review, /practice and the pricing slot show "Couldn't check your access".
+    assert.match(src("lib/auth.ts"), /if \(access === "unknown"\) return \{ status: "unknown" \};\s*return \{ status: "unpaid"/);
+    assert.match(src("components/lesson-body.tsx"), /if \(result\.status === "unknown"\) return <AccessUnknown \/>;\s*if \(result\.status === "unpaid"\)/);
+    assert.match(src("app/review/page.tsx"), /if \(access === "yes"\) return <ReviewSession \/>;\s*\/\/[^\n]*\n\s*if \(access === "unknown"\) return <AccessUnknown/);
+    assert.match(src("app/practice/page.tsx"), /if \(access === "unknown"\) return <LockSlot level=\{level\} locked="unknown" \/>;/);
+    assert.match(src("app/pricing/page.tsx"), /if \(access === "unknown"\) return <AccessUnknown compact \/>;/);
+    // The review actions answer "unavailable" (nothing rejected or dropped); card text too.
+    assert.match(src("app/actions/review.ts"), /if \(state === "unknown"\) throw new AccessUnknownError/);
+    assert.match(src("app/actions/review-text.ts"), /return unknown \? \{ status: "unavailable", code: "access_unknown" \} : reply;/);
+    // The banner stays hidden and doesn't remember an unknown answer.
+    assert.match(src("components/founder-banner.tsx"), /if \(r\.access !== "unknown"\) rememberAccess\(r\.userId, r\.access\);\s*setHasAccess\(accessHidesBanner\(r\.access\)\);/);
   });
 
   test("has_access() is called in one place, and only lib/purchases.ts uses that function", () => {
@@ -72,23 +96,23 @@ describe("every access check goes through hasActiveEntitlement()", () => {
     assert.deepEqual(using(/hasActivePurchase|EntitlementClient/), [], "the old purchases-only check is gone");
   });
 
-  test("no other code reads purchases or subscriptions to decide access (the webhook writes them)", () => {
+  test("no other code reads purchases or subscriptions (the webhook writes them; lib/purchases.ts reads own rows only to word the answer)", () => {
     const readers = using(/from\(\s*["'](purchases|subscriptions)["']\s*\)/).filter((f) => !f.startsWith("lib/payments/"));
-    assert.deepEqual(readers, []);
+    assert.deepEqual(readers, ["lib/purchases.ts"]);
   });
 
   test("it's computed once per request (React's request-scoped cache), keyed by user and product", () => {
     const src = fs.readFileSync(path.join(root, "lib", "purchases.ts"), "utf8");
     assert.match(src, /import \{ cache \} from "react";/);
     assert.match(src, /const entitlementFor = cache\(async \(_userId: string, product: ProductKey\)/);
-    assert.match(src, /export function hasActiveEntitlement\(userId: string, product: ProductKey = "lessons"\): Promise<boolean> \{\s*return entitlementFor\(userId, product\);/);
+    assert.match(src, /export function hasActiveEntitlement\(userId: string, product: ProductKey = "lessons"\): Promise<AccessState> \{\s*return entitlementFor\(userId, product\);/);
   });
 
   test("signed-out visitors make no access call: every call site has the session's user first", () => {
-    for (const f of CALL_SITES) {
+    for (const f of [...CALL_SITES, "app/checkout/success/page.tsx"]) {
       const src = fs.readFileSync(path.join(root, f), "utf8");
       assert.match(src, /getCurrentUser\(\)/, `${f} reads the session`);
-      for (const m of src.matchAll(/hasActiveEntitlement\(([^,)]+)/g)) assert.match(m[1], /^(user\.id|userId)$/, `${f}: ${m[0]}`);
+      for (const m of src.matchAll(/(?:hasActiveEntitlement|getAccessDetails)\(([^,)]+)/g)) assert.match(m[1], /^(user\.id|userId)$/, `${f}: ${m[0]}`);
     }
   });
 

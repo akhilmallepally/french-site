@@ -23,17 +23,27 @@ function codeOf(error: unknown): string {
   return "unknown";
 }
 
-/** True only when has_access() answers true. Fails closed (false) on any error or other answer. */
-export async function checkAccess(client: AccessClient, product: string, onError?: (code: string) => void): Promise<boolean> {
+/**
+ * "yes" or "no" as has_access() answers, or "unknown" when it couldn't answer (an error, a network
+ * failure, or anything but a boolean). Unknown is never "no" where money is involved (Prompt 80):
+ * checkout refuses, and pages show "Couldn't check your access" with a Retry button, never the buy
+ * paywall and never paid content.
+ */
+export type AccessState = "yes" | "no" | "unknown";
+
+export async function checkAccess(client: AccessClient, product: string, onError?: (code: string) => void): Promise<AccessState> {
   try {
     const { data, error } = await client.rpc("has_access", { p_product: product });
     if (error) {
       onError?.(codeOf(error));
-      return false;
+      return "unknown";
     }
-    return data === true;
+    if (data === true) return "yes";
+    if (data === false) return "no";
+    onError?.("not_boolean");
+    return "unknown";
   } catch (error) {
     onError?.(codeOf(error));
-    return false;
+    return "unknown";
   }
 }

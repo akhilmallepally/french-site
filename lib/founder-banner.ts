@@ -45,6 +45,14 @@ export type BannerInput = {
   hasAccess: boolean;
 };
 
+/**
+ * Whether the server's access answer hides the banner: access hides it, and so does "unknown" (the
+ * check failed, Prompt 80): only a definite "no" lets it show.
+ */
+export function accessHidesBanner(access: boolean | "unknown"): boolean {
+  return access !== false;
+}
+
 export function bannerVisible(b: BannerInput): boolean {
   if (!b.founderOnSale || !bannerPathAllowed(b.pathname) || b.hasAccess) return false;
   if (b.nowMs === null) return true; // the static page: the pre-paint script applies the time rules

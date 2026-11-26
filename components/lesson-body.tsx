@@ -7,6 +7,7 @@ import { mdxComponents, VocabTable } from "@/components/mdx";
 import { SignInPanel } from "@/components/sign-in-panel";
 import { PaywallPanel } from "@/components/paywall-panel";
 import { checkLessonAccess } from "@/lib/auth";
+import { AccessUnknown } from "@/components/access-unknown";
 import { loadLessonFull, type LessonAccess, type LessonMeta } from "@/lib/lessons";
 
 /** Renders the full lesson. Requires proof of access (lib/auth.ts). */
@@ -34,6 +35,7 @@ export function LessonBody({ access }: { access: LessonAccess }) {
  * A gated lesson. Runs at request time inside <Suspense>:
  * - Signed out: renders SignInPanel
  * - Signed in unpaid: renders PaywallPanel with live founder count and checkout
+ * - Access check failed: "Couldn't check your access" with Retry (no paywall, no lesson)
  * - Paid: loads and renders the full lesson body and exercises
  */
 export async function GatedLessonBody({ meta }: { meta: LessonMeta }) {
@@ -42,6 +44,8 @@ export async function GatedLessonBody({ meta }: { meta: LessonMeta }) {
   if (result.status === "signed-out") {
     return <SignInPanel next={meta.href} offer={result.offer} nowMs={result.nowMs} />;
   }
+
+  if (result.status === "unknown") return <AccessUnknown />;
 
   if (result.status === "unpaid") {
     return (

@@ -2,24 +2,16 @@ import "server-only";
 import { cache } from "react";
 import { createClient } from "@/lib/supabase/server";
 import type { ProductKey } from "@/lib/payments/types";
-import { checkAccess, type AccessClient } from "@/lib/entitlement";
+import { getYearlyProductId } from "@/lib/payments/config";
+import { checkAccess, type AccessClient, type AccessState } from "@/lib/entitlement";
+import { describeAccess, type AccessDetails, type SubscriptionRow } from "@/lib/access-wording";
+import type { PricingInput } from "@/lib/pricing-offer";
+import { loadPricing, PricingReadError, type PricingClient } from "@/lib/pricing-source";
 
-export type ActivePricing = {
-  product: ProductKey;
-  currency: string;
-  spotsLeft: number;
-  founderPriceCents: number;
-  standardPriceCents: number;
-  founderCap: number;
-  /** When the founding offer ends (pricing_settings.founder_ends_at, migration 0009). "" when unavailable. */
-  founderEndsAt: string;
-  /**
-   * False when the prices are the hard-coded fallback (no Supabase config, the pricing_settings
-   * read failed, or no active row). Nothing is shown or charged then: getPriceOffer() turns it into
-   * the "unavailable" state and checkout refuses (lib/pricing-offer.ts).
-   */
-  available: boolean;
-};
+export type { AccessState } from "@/lib/entitlement";
+export type { AccessDetails } from "@/lib/access-wording";
+
+export type ActivePricing = PricingInput & { product: ProductKey };
 
 /** Only the error code (a Postgres/PostgREST code, or the error's name) is ever logged. */
 function errorCode(error: unknown): string {
@@ -35,16 +27,16 @@ function errorCode(error: unknown): string {
 // gate, pricing slot and locks all ask makes one has_access() call. userId is the key and proof of a
 // session (callers pass getCurrentUser()'s id; signed-out visitors never get here); has_access()
 // itself answers for the session's user (auth.uid()), never for an id passed in.
-const entitlementFor = cache(async (_userId: string, product: ProductKey): Promise<boolean> => {
+const entitlementFor = cache(async (_userId: string, product: ProductKey): Promise<AccessState> => {
   try {
     const supabase = await createClient();
-    if (!supabase) return false;
+    if (!supabase) return "unknown";
     return await checkAccess(supabase as unknown as AccessClient, product, (code) =>
       console.warn("[purchases] hasActiveEntitlement failed, code:", code),
     );
   } catch (error) {
     console.warn("[purchases] hasActiveEntitlement failed, code:", errorCode(error));
-    return false;
+    return "unknown";
   }
 });
 
@@ -52,91 +44,73 @@ const entitlementFor = cache(async (_userId: string, product: ProductKey): Promi
  * The one access check (docs/plans/subscription.md, section 3): a lifetime purchase, or a
  * subscription inside its paid period (plus the 7-day grace when active or past_due), decided by
  * public.has_access() with the session's own client, under RLS. Every access check in the app goes
- * through here. Fails closed (false) on missing config or any database error.
+ * through here.
+ *
+ * Three answers (Prompt 80): "yes", "no", or "unknown" when the check couldn't be made (missing
+ * config, a database or network error). "unknown" is never treated as "no" where money is involved:
+ * checkout refuses, and pages show "Couldn't check your access" with a Retry button, never the buy
+ * paywall and never paid content.
  */
-export function hasActiveEntitlement(userId: string, product: ProductKey = "lessons"): Promise<boolean> {
+export function hasActiveEntitlement(userId: string, product: ProductKey = "lessons"): Promise<AccessState> {
   return entitlementFor(userId, product);
 }
 
+type Rows<T> = PromiseLike<{ data: T[] | null; error: unknown }>;
+type PurchasesRead = { from(table: "purchases"): { select(c: "id"): { eq(c: "product", v: string): { eq(c: "status", v: "active"): { limit(n: 1): Rows<unknown> } } } } };
+type SubscriptionsRead = { from(table: "subscriptions"): { select(c: string): { eq(c: "product", v: string): Rows<SubscriptionRow> } } };
+
 /**
- * Returns the number of founder pricing spots remaining for a product.
- * Calls public.get_founder_spots_left() via Supabase RPC. Fails closed (returns 0) on error.
+ * Access with what to say about it (lib/access-wording.ts): lifetime, or the subscription's renewal
+ * or end date, or a payment problem. The answer itself is hasActiveEntitlement's; the learner's own
+ * purchases and subscriptions rows (RLS: own rows only) are read only to describe it, and only when
+ * it's "yes". Once per request.
  */
-export async function getFounderSpotsLeft(product: ProductKey = "lessons"): Promise<number> {
+export const getAccessDetails = cache(async (userId: string, product: ProductKey = "lessons"): Promise<AccessDetails> => {
+  const state = await hasActiveEntitlement(userId, product);
+  if (state !== "yes") return describeAccess(state, null, null, Date.now());
   try {
     const supabase = await createClient();
-    if (!supabase) return 0;
-
-    const { data, error } = await supabase.rpc("get_founder_spots_left", { p_product: product });
-    if (error) {
-      console.warn("[purchases] getFounderSpotsLeft failed, code:", errorCode(error));
-      return 0;
-    }
-    if (typeof data !== "number") return 0;
-    return data;
+    if (!supabase) return describeAccess(state, null, null, Date.now());
+    const [purchases, subs] = await Promise.all([
+      (supabase as unknown as PurchasesRead).from("purchases").select("id").eq("product", product).eq("status", "active").limit(1),
+      (supabase as unknown as SubscriptionsRead).from("subscriptions").select("status, current_period_end, cancel_at_period_end").eq("product", product),
+    ]);
+    const lifetime = purchases.error || !Array.isArray(purchases.data) ? null : purchases.data.length > 0;
+    const rows = subs.error || !Array.isArray(subs.data) ? null : subs.data;
+    if (lifetime === null || rows === null) console.warn("[purchases] getAccessDetails read failed, code:", errorCode(purchases.error ?? subs.error));
+    return describeAccess(state, lifetime, rows, Date.now());
   } catch (error) {
-    console.warn("[purchases] getFounderSpotsLeft failed, code:", errorCode(error));
-    return 0;
+    console.warn("[purchases] getAccessDetails failed, code:", errorCode(error));
+    return describeAccess(state, null, null, Date.now());
   }
-}
+});
 
 /**
- * Reads active pricing settings and founder spots. The price shown and charged is derived from this
- * by getPriceOffer() in lib/pricing-offer.ts, never here.
- * Editable directly from the Supabase dashboard without redeployment.
+ * The live pricing for checkout (never the shared cache): the same read as the shared price
+ * (loadPricing), with the session's client, plus whether the yearly product is configured. On any
+ * failure it's "unavailable" (available false): nothing is shown or charged (lib/pricing-offer.ts).
  */
 export async function getActivePricing(product: ProductKey = "lessons"): Promise<ActivePricing> {
+  const yearlyProductConfigured = getYearlyProductId() !== null;
   const fallback: ActivePricing = {
     product,
-    currency: "usd",
+    available: false,
     // Not prices: with available false nothing is shown or charged.
+    currency: "usd",
     spotsLeft: 0,
     founderPriceCents: 0,
     standardPriceCents: 0,
     founderCap: 0,
     founderEndsAt: "",
-    available: false,
+    subscriptionPriceCents: null,
+    yearlyProductConfigured,
   };
-
   try {
     const supabase = await createClient();
     if (!supabase) return fallback;
-
-    const { data, error } = await supabase
-      .from("pricing_settings")
-      .select("founder_price_cents, standard_price_cents, founder_cap, currency, is_active, founder_ends_at")
-      .eq("product", product)
-      .eq("is_active", true)
-      .maybeSingle();
-
-    if (error) {
-      console.warn("[purchases] getActivePricing failed, code:", errorCode(error));
-      return fallback;
-    }
-    if (!data) {
-      console.warn("[purchases] getActivePricing failed, code: no_active_row");
-      return fallback;
-    }
-
-    if (typeof data.founder_ends_at !== "string" || !Number.isFinite(Date.parse(data.founder_ends_at))) {
-      console.warn("[purchases] getActivePricing failed, code: no_founder_deadline");
-      return fallback;
-    }
-
-    const spotsLeft = await getFounderSpotsLeft(product);
-
-    return {
-      product,
-      currency: data.currency.toLowerCase(),
-      spotsLeft,
-      founderPriceCents: data.founder_price_cents,
-      standardPriceCents: data.standard_price_cents,
-      founderCap: data.founder_cap,
-      founderEndsAt: new Date(data.founder_ends_at).toISOString(),
-      available: true,
-    };
+    return { ...(await loadPricing(supabase as unknown as PricingClient, product, yearlyProductConfigured)), product };
   } catch (error) {
-    console.warn("[purchases] getActivePricing failed, code:", errorCode(error));
+    console.warn("[purchases] getActivePricing failed, code:", error instanceof PricingReadError ? error.code : errorCode(error));
     return fallback;
   }
 }

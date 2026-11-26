@@ -807,6 +807,76 @@ console.log("\n--- 5c. Subscriptions: Dodo's payload shapes and every event (doc
 }
 
 console.log("\n--- 6. Testing Fail-Closed Config Helpers ---");
+console.log("\n--- 5d. Subscription checkout (Prompt 80) ---");
+{
+  const { parseProductPrice } = await import("../lib/payments/dodo.ts");
+  const yearlyProduct = { product_id: "pdt_yearly", price: { type: "recurring_price", price: 1200, currency: "USD", payment_frequency_interval: "Year", payment_frequency_count: 1, tax_inclusive: false } };
+  assert(
+    JSON.stringify(parseProductPrice(yearlyProduct)) === JSON.stringify({ priceCents: 1200, currency: "USD", interval: "Year", intervalCount: 1 }),
+    "product price: Dodo's recurring price is read as cents, currency, interval and count"
+  );
+  const oneTime = parseProductPrice({ price: { type: "one_time_price", price: 800, currency: "USD" } });
+  assert(oneTime !== null && oneTime.interval === null && oneTime.intervalCount === null, "product price: a one-time product has no interval (so it can't pass as the yearly plan)");
+  assert(
+    [null, {}, { price: null }, { price: { price: "1200", currency: "USD" } }, { price: { price: 12.5, currency: "USD" } }, { price: { price: 1200 } }].every((b) => parseProductPrice(b) === null),
+    "product price: any other shape is unreadable (null), which refuses the checkout"
+  );
+
+  const realFetch = globalThis.fetch;
+  const sent = [];
+  globalThis.fetch = async (url, init) => {
+    sent.push({ url: String(url), method: init?.method ?? "GET", auth: init?.headers?.Authorization, body: init?.body ? JSON.parse(init.body) : null });
+    const body = String(url).includes("/products/") ? yearlyProduct : { checkout_url: "https://test.checkout.example/session" };
+    return new Response(JSON.stringify(body), { status: 200, headers: { "content-type": "application/json" } });
+  };
+  process.env.PAYMENTS_API_KEY = "dodo_test_key";
+  process.env.PAYMENTS_WEBHOOK_SECRET = testSecret;
+  process.env.PAYMENTS_PRODUCT_ID = "pdt_lifetime";
+  process.env.PAYMENTS_YEARLY_PRODUCT_ID = "pdt_yearly";
+  try {
+    const dodo = new DodoPaymentProvider();
+    const base = {
+      userId: "11111111-1111-4111-8111-111111111111",
+      userEmail: "learner@example.com",
+      product: "lessons",
+      currency: "usd",
+      redirectUrl: "https://site.example/checkout/success?product=lessons",
+      metadata: { user_id: "11111111-1111-4111-8111-111111111111", product: "lessons" },
+    };
+    await dodo.createCheckout({ ...base, priceCents: 1200, plan: "yearly" });
+    await dodo.createCheckout({ ...base, priceCents: 800 });
+    const [yearly, lifetime] = sent.filter((s) => s.url.endsWith("/checkouts")).map((s) => s.body);
+    assert(yearly.product_cart.length === 1 && yearly.product_cart[0].product_id === "pdt_yearly" && !("amount" in yearly.product_cart[0]), "yearly checkout: the subscription product, at its own (checked) price");
+    assert(lifetime.product_cart[0].product_id === "pdt_lifetime" && lifetime.product_cart[0].amount === 800, "founder checkout: unchanged (the one-time product at the founder price)");
+    assert(
+      yearly.customer.email === lifetime.customer.email && yearly.billing.email === "learner@example.com" && yearly.return_url === lifetime.return_url && JSON.stringify(yearly.metadata) === JSON.stringify(lifetime.metadata),
+      "yearly checkout: the same customer email, return URL and metadata as the lifetime checkout"
+    );
+    assert(yearly.metadata.metadata_signature === signMetadata(base.userId, "lessons", testSecret) && yearly.metadata.user_id === base.userId, "yearly checkout: the metadata is signed, so the webhook can match the buyer");
+    const price = await dodo.getProductPrice("pdt_yearly");
+    const read = sent.at(-1);
+    assert(read.url === "https://test.dodopayments.com/products/pdt_yearly" && read.method === "GET" && read.auth === "Bearer dodo_test_key" && price?.priceCents === 1200, "product price: read from GET /products/{id} with the API key");
+    delete process.env.PAYMENTS_YEARLY_PRODUCT_ID;
+    let threw = false;
+    try {
+      await dodo.createCheckout({ ...base, priceCents: 1200, plan: "yearly" });
+    } catch {
+      threw = true;
+    }
+    assert(threw, "yearly checkout: refused when PAYMENTS_YEARLY_PRODUCT_ID is missing");
+  } finally {
+    globalThis.fetch = realFetch;
+    delete process.env.PAYMENTS_PRODUCT_ID;
+    delete process.env.PAYMENTS_YEARLY_PRODUCT_ID;
+  }
+
+  // The action wires it: the plan comes from the page but what's for sale from the server's clock,
+  // and the yearly product's price is checked with the provider before anything is created.
+  const action = fs.readFileSync(path.join(process.cwd(), "app", "actions", "checkout.ts"), "utf8");
+  assert(/plan: plan === "yearly" \? "yearly" : "founder"/.test(action) && /providerPriceMatches\(await provider\.getProductPrice\(productId\), terms\)/.test(action) && /Date\.now\(\),/.test(action), "createCheckoutAction: the server's clock, the plan, and the provider price check");
+  assert(/if \(access === "yes"\) \{[\s\S]*?alreadyHasAccessMessage\(details\)/.test(action), "createCheckoutAction: refuses a learner who already has access (lifetime or a subscription)");
+}
+
 const savedKey = process.env.PAYMENTS_API_KEY;
 const savedSecret = process.env.PAYMENTS_WEBHOOK_SECRET;
 

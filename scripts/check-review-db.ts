@@ -56,7 +56,7 @@ if (signInError || !signIn.user) {
 }
 const userId = signIn.user.id;
 const db = reviewDb(supabase, userId);
-const realAccess = () => checkAccess(supabase as unknown as AccessClient, "lessons");
+const realAccess = async () => (await checkAccess(supabase as unknown as AccessClient, "lessons")) === "yes";
 const ms = (offset: number) => new Date(Date.now() + offset).toISOString();
 const H = 3600_000;
 

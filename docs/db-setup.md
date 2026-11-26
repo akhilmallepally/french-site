@@ -39,6 +39,9 @@ select to_regclass('public.subscriptions') is not null as has_0010;
 
 -- Is 0011 already in? (true = yes)
 select exists (select 1 from information_schema.columns where table_schema = 'public' and table_name = 'subscriptions' and column_name = 'last_event_at') as has_0011;
+
+-- Is 0012 already in? (true = yes)
+select exists (select 1 from information_schema.columns where table_schema = 'public' and table_name = 'pricing_settings' and column_name = 'subscription_price_cents') as has_0012;
 ```
 
 Expected before 0006: `exercise_results`, `lesson_progress`, `lesson_scores`, `pricing_settings`, `profiles`, `purchases` and `saved_vocab`; `lesson_scores` count 0; `true` and `true` for every table. If a table is missing, run the migrations it belongs to (section 1) first.
@@ -91,6 +94,17 @@ In the SQL Editor, for each file below, paste the whole file, click **Run**, and
     - It adds `subscriptions.last_event_at`, so an older event arriving late never undoes a newer one.
     - It lets `unmatched_payment_events` record the subscription events (`subscription_event`, `subscription_payment`, and the reason `subscription_unknown`).
     - Run it after 0010, and before the subscription webhook code is deployed.
+
+12. `supabase/migrations/0012_subscription_price.sql`: the yearly price, `pricing_settings.subscription_price_cents` (1200 = $12 a year), docs/plans/subscription.md step 4.
+    - The pricing card, paywall and sign-in panel show it after the switch, and checkout compares the page's price and the Dodo product's price with it.
+    - Until it runs, the site shows "New plan coming soon" after the switch (the app reads the column only when it's there).
+    - Change the yearly price only together with the Dodo product's price: if they differ, checkout refuses.
+
+**Yearly price (0012), your steps in the Supabase SQL editor:**
+
+1. Paste the whole of `supabase/migrations/0012_subscription_price.sql`, click **Run**, and check it says "Success".
+2. Paste the whole of `supabase/tests/rls.sql` (it now needs 0001 to 0012), click **Run**, and check that the last notice is "PASS: ALL RLS CHECKS PASSED".
+3. Undo: `supabase/rollback/0012_subscription_price.sql`.
 
 **Subscription webhooks (0011), your steps in the Supabase SQL editor:**
 

@@ -1,6 +1,6 @@
 # Subscription plan (Pricing v2, Part B)
 
-Status: step 1 (0010) has run in Supabase. Step 2 (the subscription webhooks, with 0011) is built (Prompt 78). Step 3 (entitlement over time) is built and the payload capture is removed (Prompt 79). Steps 4 to 6 are next. The owner's decisions are in section 8.
+Status: step 1 (0010) has run in Supabase. Step 2 (the subscription webhooks, with 0011) is built (Prompt 78). Step 3 (entitlement over time) is built and the payload capture is removed (Prompt 79). Step 4 (the switch and subscription checkout) is built (Prompt 80); 0012 waits for the owner to run it. Steps 5 and 6 are next. The owner's decisions are in section 8.
 
 Decisions already made (owner, Prompt 76):
 - The founding offer ($8 once, lifetime access) ends at 2026-12-31T16:59:00Z (23:59 in Bangkok), or earlier when the 100 founder spots are gone.
@@ -176,6 +176,32 @@ A new table, `subscriptions` (migration 0010), rather than more columns on `purc
      - **The /progress due line** re-renders when a server answer changes the remembered access.
      - **Wording for step 4:** a subscriber still sees "You have lifetime access" on /pricing and "Lifetime access" locks. No one can subscribe before step 4, which changes the wording.
 4. **The switch:** the pricing card, paywall and sign-in panel after the deadline (and after the spots run out). Checkout creates the subscription checkout, with a price-changed check against `subscription_price_cents`. Tests use an injected clock across the deadline: an open page switches, and $8 is refused while $12/year is offered.
+   - **As built (Prompt 80):**
+     - **Failing safely:** `hasActiveEntitlement` answers "yes", "no" or "unknown" (any error).
+       - Checkout refuses on unknown: "We couldn't confirm your access. Please try again in a minute."
+       - Lessons, /review, the /practice locks and the pricing slot show "Couldn't check your access" with Retry, never the paywall or paid content. The banner stays hidden and doesn't remember the answer.
+       - The review actions answer "unavailable", so no entry is rejected and dropped. This fixed a bug: a failed check used to count as "no access".
+     - **The offer** (lib/pricing-offer.ts) is decided per request:
+       - "founder" while spots remain and before `founder_ends_at`.
+       - Then "yearly" when the yearly plan can be sold (`PAYMENTS_YEARLY_PRODUCT_ID` set and `subscription_price_cents` valid).
+       - Otherwise "ended" ("New plan coming soon", checkout off).
+       - A founder offer carries the yearly terms, so an open page switches at the deadline on its own clock (`OfferSwitch`, `FounderPrice`, `FounderBuy`).
+     - **After the switch:**
+       - The card: "Yearly Access", "$12 a year · plus tax where applicable", "Renews yearly until you cancel. Cancel any time; access runs to the end of the paid year."
+       - What's included: B1–C2, future lessons, and the daily review.
+       - The button: "Subscribe for $12 a year", with "Renews automatically at $12 a year until you cancel." under it.
+       - The paywall, sign-in panel, review lock and /practice locks match. The countdown, banner and "From 1 January" line are gone. /api/founder-offer says "ended".
+     - **Tax:** the code never sets tax; Dodo adds it at checkout unless a product's price is marked tax-inclusive. `TAX_ADDED_AT_CHECKOUT` (true) shows "plus tax where applicable" next to $12. The owner confirms the product setting.
+     - **Subscription checkout** (app/actions/checkout.ts and lib/payments/dodo.ts):
+       - The yearly product (`PAYMENTS_YEARLY_PRODUCT_ID`, no amount: its own price), with the same signed metadata, return URL and customer email.
+       - Refused: unknown access; existing access (lifetime or a subscription); the founder price after the switch; the yearly plan before it; a page price that differs from `subscription_price_cents`.
+       - Also refused: a Dodo product (GET /products/{id}) whose price, currency or yearly interval differs, or can't be read.
+     - **0012:** `pricing_settings.subscription_price_cents` (1200).
+     - **Wording:**
+       - Lifetime holders keep "You have lifetime access!".
+       - A subscriber sees "Your access renews on <date>", "Your access ends on <date>" (cancelled at the period end), or "Payment problem: update your card" (past_due, linking to /progress until step 5).
+       - The success page names the subscription, and the poller counts a new subscription row as access.
+     - **Left for step 5:** the home page's "Lifetime access" label on Daily review, the pricing page's metadata description and its refund FAQ, and the terms, refund and privacy pages.
 5. **Manage subscription and pages:** the /progress box, the portal action, and the terms, refund and privacy updates.
 6. **Test-mode end to end, then production:**
    - test:progress-e2e buys a subscription in Dodo's test mode (4242 card), sees access, cancels at period end, and runs a failed renewal with the 0341 card via a near `next_billing_date`.

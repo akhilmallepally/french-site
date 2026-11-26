@@ -3,7 +3,8 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { Suspense } from "react";
 import { getCurrentUser } from "@/lib/auth";
-import { hasActiveEntitlement } from "@/lib/purchases";
+import { getAccessDetails } from "@/lib/purchases";
+import { accessLine } from "@/lib/access-wording";
 import { CheckoutPoller } from "@/components/checkout-poller";
 
 export const metadata: Metadata = {
@@ -29,7 +30,11 @@ async function CheckoutSuccessContent() {
     redirect("/sign-in?next=/checkout/success");
   }
 
-  const isEntitled = await hasActiveEntitlement(user.id, "lessons");
+  // A lifetime purchase or a new subscription row (has_access() counts both). "unknown" (the check
+  // failed) keeps the poller checking, as before the webhook has run.
+  const details = await getAccessDetails(user.id, "lessons");
+  const isEntitled = details.state === "yes";
+  const subscribed = details.state === "yes" && details.kind === "subscription";
 
   return (
     <>
@@ -42,8 +47,17 @@ async function CheckoutSuccessContent() {
           </div>
           <h1 className="mt-5 font-serif text-3xl font-semibold tracking-tight">You&apos;re in!</h1>
           <p className="mx-auto mt-3 max-w-md text-muted leading-relaxed">
-            Thank you for purchasing lifetime access to French Properly. You now have full access to B1 to C2 and all
-            future written lessons and curriculum updates included.
+            {subscribed ? (
+              <>
+                Thank you for subscribing to French Properly. You now have full access to B1 to C2, all future written
+                lessons and curriculum updates, and the daily review. {details.state === "yes" ? `${accessLine(details).text}.` : ""}
+              </>
+            ) : (
+              <>
+                Thank you for purchasing lifetime access to French Properly. You now have full access to B1 to C2 and all
+                future written lessons and curriculum updates included.
+              </>
+            )}
           </p>
           <div className="mt-8 flex justify-center">
             <Link

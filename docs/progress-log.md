@@ -731,3 +731,51 @@
 - validate:content, test:content, test:checker (36), test:review (90), test:progress (140), test:progress-e2e (7 of 7, then `npm run build`), tsc and build.
 - test:no-supabase-env, test:gating (on a fresh server), test:webhook (117), test:checkout (33), test:safe-next (7).
 - check:sql and test:sql (11 migrations twice, rls.sql 406, access-over-time.sql 48, the app-side time test 8).
+
+## Subscription step 4 (the switch and subscription checkout), failing safely on an access error (Prompt 80)
+
+**Failing safely:** `hasActiveEntitlement` (lib/purchases.ts) answers "yes", "no" or "unknown" (any error; lib/entitlement.ts `checkAccess`).
+- Checkout refuses on unknown, before reading the price: "We couldn't confirm your access. Please try again in a minute."
+- Lessons (lib/auth.ts, components/lesson-body.tsx), /review, the /practice locks and the pricing slot show "Couldn't check your access" with Retry (components/access-unknown.tsx), never the paywall or paid content.
+- The banner stays hidden on unknown and doesn't remember it (`accessHidesBanner`).
+- The review actions answer "unavailable". **Bug fixed:** `once()` in lib/review-sync.ts turned a failed check into "no access", which rejected entries as no_access and dropped them from the outbox. The card-text action answers "unavailable" too.
+
+**The switch** (lib/pricing-offer.ts), decided per request:
+- The offers: "founder" while spots remain and before the deadline; then "yearly" when `PAYMENTS_YEARLY_PRODUCT_ID` is set and `subscription_price_cents` is valid; otherwise "ended" ("New plan coming soon").
+- The founder offer carries the yearly terms, and `offerPhase` and `OfferSwitch` switch an open page at the deadline.
+- After the switch:
+  - The pricing card: "Yearly Access", "$12 a year · plus tax where applicable", the renewal terms, Daily review in the list, and "Subscribe for $12 a year" with "Renews automatically at $12 a year until you cancel."
+  - The paywall, sign-in panel, pricing header and FAQ, /review lock and /practice lock labels match.
+  - The countdown, banner and "From 1 January" line are gone; /api/founder-offer says "ended".
+
+**Tax:** the checkout code never sets tax; Dodo adds it unless the product's price is tax-inclusive. `TAX_ADDED_AT_CHECKOUT` is true, so "plus tax where applicable" shows next to $12. The owner confirms the product setting.
+
+**Subscription checkout:**
+- lib/payments/dodo.ts: the yearly product with no amount (its own price), and the same signed metadata, return URL and email. `getProductPrice` reads GET /products/{id}; `parseProductPrice`.
+- `runCheckout` refuses: the founder price after the switch; the yearly plan before it; "coming soon" with no product; a page price different from `subscription_price_cents`; a provider product whose price, currency or yearly interval differs, can't be read, or whose check fails.
+- The action also refuses unknown access and existing access, with wording that names it.
+- `getActivePricing` now uses the same `loadPricing` as the shared price. It selects `*` so it works before 0012.
+
+**0012** (`pricing_settings.subscription_price_cents`, 1200): its rollback, rollback_all, rls.sql checks (1200 for lessons, anon reads but can't write, 0 refused) and the db-setup steps.
+
+**Wording** (lib/access-wording.ts, `getAccessDetails`):
+- Lifetime holders: "You have lifetime access!".
+- Subscribers: "Your access renews on <date>", "Your access ends on <date>", or "Payment problem: update your card" (links to /progress).
+- Used on the pricing slot, checkout's refusal and the success page. The poller's line is neutral.
+
+**Tests:**
+- lib/subscription-switch.test.ts (new, test:checkout): the switch at the deadline and when the spots run out first, an open page crossing it, missing env, before 0012, $8 refused after, $12/year charged, the price-changed paths, the founder checkout never asking the provider, the banner on unknown, and the wording for each status.
+- lib/access.test.ts: the three answers, and every gate handling unknown first.
+- lib/review-text.test.ts: a failed check fails the sync and the read.
+- lib/pricing-cache.test.ts: the yearly price read.
+- test:webhook 5d: Dodo's yearly and founder payloads, the product price read, and refusal without the env.
+- e2e/pricing.spec.ts: the deadline test asserts the yearly or coming-soon branch, whichever the page declares (`data-switches-to`). The e2e build sets a placeholder `PAYMENTS_YEARLY_PRODUCT_ID`, but until 0012 runs it takes the coming-soon branch.
+
+**SQL for the owner:** 0012, then rls.sql. Run 0012 before relying on the yearly plan; until then the site shows "coming soon" after the switch.
+
+**Left for step 5:** the home page's "Lifetime access" label, the pricing metadata description and refund FAQ, and the terms, refund and privacy pages.
+
+**Checks:** all pass.
+- validate:content, test:content, test:checker (36), test:review (91), test:progress (140), test:progress-e2e (7 of 7, then `npm run build`), tsc and build.
+- test:no-supabase-env, test:gating (on a fresh server), test:webhook (128), test:checkout (59), test:safe-next (7).
+- check:sql and test:sql (12 migrations twice, rls.sql 410, access-over-time.sql 48, the app-side time test 8).

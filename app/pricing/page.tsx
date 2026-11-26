@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { connection } from "next/server";
-import { Suspense } from "react";
+import { Suspense, type ReactNode } from "react";
 import { getCurrentUser } from "@/lib/auth";
-import { hasActiveEntitlement } from "@/lib/purchases";
+import { getAccessDetails, hasActiveEntitlement } from "@/lib/purchases";
 import { getSharedOffer, getSharedPricing } from "@/lib/shared-pricing";
-import { FounderBuy, FounderPrice } from "@/components/founder-offer";
+import { FounderBuy, FounderPrice, OfferSwitch } from "@/components/founder-offer";
+import { AccessUnknown } from "@/components/access-unknown";
 import { PricingUnavailable } from "@/components/price-offer";
-import { getPriceOffer } from "@/lib/pricing-offer";
+import { getPriceOffer, type PriceOffer } from "@/lib/pricing-offer";
+import { accessLine } from "@/lib/access-wording";
 
 export const metadata: Metadata = {
   title: "Pricing",
@@ -23,8 +25,11 @@ export default function PricingPage() {
           Learn French properly, at your own pace.
         </h1>
         <p className="mt-4 text-lg text-muted">
-          A1 and A2 are free for everyone, forever. Unlock intermediate to mastery levels (B1 to C2) with a single
-          one-time payment.
+          <SharedSwitch
+            founder={<>A1 and A2 are free for everyone, forever. Unlock intermediate to mastery levels (B1 to C2) with a single one-time payment.</>}
+            yearly={<>A1 and A2 are free for everyone, forever. Unlock intermediate to mastery levels (B1 to C2) with yearly access.</>}
+            soon={<>A1 and A2 are free for everyone, forever. A new plan for B1 to C2 is coming soon.</>}
+          />
         </p>
       </header>
 
@@ -109,14 +114,36 @@ export default function PricingPage() {
       <section className="mt-16 rounded-2xl border border-border bg-card p-8 sm:p-10">
         <h2 className="font-serif text-2xl font-semibold tracking-tight">Frequently Asked Questions</h2>
         <div className="mt-6 grid gap-6 sm:grid-cols-2">
-          <div>
-            <h3 className="font-semibold text-foreground">Is it really a one-time payment?</h3>
-            <p className="mt-1 text-sm text-muted">
-              Yes, for the founding offer. Pay once before it ends on 31 December 2026 (23:59 Bangkok time), or
-              while founder spots remain, and access is yours for life, with no recurring charges. Everyone who
-              already has lifetime access keeps it.
-            </p>
-          </div>
+          <SharedSwitch
+            founder={
+              <div>
+                <h3 className="font-semibold text-foreground">Is it really a one-time payment?</h3>
+                <p className="mt-1 text-sm text-muted">
+                  Yes, for the founding offer. Pay once before it ends on 31 December 2026 (23:59 Bangkok time), or
+                  while founder spots remain, and access is yours for life, with no recurring charges. Everyone who
+                  already has lifetime access keeps it.
+                </p>
+              </div>
+            }
+            yearly={
+              <div>
+                <h3 className="font-semibold text-foreground">How does yearly access work?</h3>
+                <p className="mt-1 text-sm text-muted">
+                  It renews automatically each year until you cancel. Cancel any time: your access runs to the end of the
+                  paid year. Everyone who already has lifetime access keeps it.
+                </p>
+              </div>
+            }
+            soon={
+              <div>
+                <h3 className="font-semibold text-foreground">Can I still buy lifetime access?</h3>
+                <p className="mt-1 text-sm text-muted">
+                  The founding offer has ended, and a new plan is coming soon. Everyone who already has lifetime access
+                  keeps it.
+                </p>
+              </div>
+            }
+          />
           <div>
             <h3 className="font-semibold text-foreground">What is your refund policy?</h3>
             <p className="mt-1 text-sm text-muted">
@@ -146,6 +173,27 @@ export default function PricingPage() {
       </section>
     </main>
   );
+}
+
+/**
+ * Copy that follows the offer (Prompt 80): one of three server-rendered children, chosen for the time
+ * the shared price was read and then on the browser's clock, so an open page switches at the
+ * deadline. From the shared cache, so it's in the static shell when warm; the founder copy stands in
+ * while it streams. With pricing unreadable, the browser's clock picks founder or "coming soon".
+ */
+function SharedSwitch(props: { founder: ReactNode; yearly: ReactNode; soon: ReactNode }) {
+  return (
+    <Suspense fallback={props.founder}>
+      <SharedSwitchSlot {...props} />
+    </Suspense>
+  );
+}
+
+async function SharedSwitchSlot({ founder, yearly, soon }: { founder: ReactNode; yearly: ReactNode; soon: ReactNode }) {
+  const shared = await getSharedPricing("lessons");
+  const offer: PriceOffer = shared.ok ? getPriceOffer(shared.pricing, shared.readAtMs) : { state: "unavailable" };
+  // An unreadable price has no read time: 0 renders the founder copy first, then the browser's clock decides.
+  return <OfferSwitch offer={offer} nowMs={shared.ok ? shared.readAtMs : 0} founder={founder} yearly={yearly} soon={soon} />;
 }
 
 /** The price's place while it loads (only when the shared price wasn't in the prerender). Same size as the price. */
@@ -185,19 +233,29 @@ async function LifetimePrice() {
 }
 
 /**
- * The per-visitor part: a sign-in link, the buy button, or "You have lifetime access". Signed-out
- * visitors make no auth or entitlement call (getCurrentUser answers from the missing cookie), and
- * the user and the shared price are read at the same time.
+ * The per-visitor part: a sign-in link, the buy button, or the learner's access line ("You have
+ * lifetime access!", or a subscriber's renewal or end date, or a payment problem). Signed-out
+ * visitors make no auth or entitlement call (getCurrentUser answers from the missing cookie). When
+ * the access check fails, "Couldn't check your access" with Retry: never the buy button.
  */
 async function LifetimeAction() {
   const user = await getCurrentUser();
   await connection(); // the offer below is decided for this request's time
   const nowMs = Date.now();
   const offer = await getSharedOffer("lessons", nowMs);
-  const isEntitled = user ? await hasActiveEntitlement(user.id, "lessons") : false;
-  return isEntitled ? (
-    <div className="rounded-xl border border-accent/20 bg-accent/5 p-4 text-center">
-      <p className="text-sm font-medium text-accent">You have lifetime access!</p>
+  const access = user ? await hasActiveEntitlement(user.id, "lessons") : "no";
+  if (access === "unknown") return <AccessUnknown compact />;
+  const details = user && access === "yes" ? await getAccessDetails(user.id, "lessons") : null;
+  const line = details?.state === "yes" ? accessLine(details) : null;
+  return access === "yes" ? (
+    <div className="rounded-xl border border-accent/20 bg-accent/5 p-4 text-center" data-testid="access-line">
+      {line?.href ? (
+        <Link href={line.href} className="text-sm font-medium text-red-700 underline underline-offset-2 dark:text-red-400">
+          {line.text}
+        </Link>
+      ) : (
+        <p className="text-sm font-medium text-accent">{line?.text ?? "You have full access."}</p>
+      )}
       <Link
         href="/lessons/b1"
         className="mt-3 inline-flex min-h-10 w-full items-center justify-center rounded-full bg-accent px-6 py-2 text-sm font-medium text-white transition hover:opacity-90"
@@ -224,12 +282,11 @@ function LifetimePlanCard() {
     <section className="relative flex flex-col justify-between rounded-2xl border-2 border-accent bg-card p-8 shadow-sm">
 
       <div>
-        <div className="flex items-center justify-between">
-          <h2 className="font-serif text-2xl font-semibold">Lifetime Access</h2>
-          <span className="rounded-full border border-accent/20 bg-accent/10 px-3 py-1 text-xs font-semibold text-accent">
-            One-Time Payment
-          </span>
-        </div>
+        <SharedSwitch
+          founder={<PlanHeading title="Lifetime Access" badge="One-Time Payment" />}
+          yearly={<PlanHeading title="Yearly Access" badge="Renews Yearly" />}
+          soon={<PlanHeading title="Yearly Access" badge="Coming Soon" />}
+        />
         <p className="mt-2 text-sm text-muted">
           Everything from intermediate conversation to literary mastery.
         </p>
@@ -266,7 +323,21 @@ function LifetimePlanCard() {
                 clipRule="evenodd"
               />
             </svg>
-            One-time payment during the founding offer
+            <SharedSwitch
+              founder={<>One-time payment during the founding offer</>}
+              yearly={<>Renews yearly; cancel any time</>}
+              soon={<>A new yearly plan is coming soon</>}
+            />
+          </li>
+          <li className="flex items-center gap-3">
+            <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
+              <path
+                fillRule="evenodd"
+                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+            Daily review: a few minutes a day to keep the words you&apos;ve learned
           </li>
           <li className="flex items-center gap-3">
             <svg className="h-4 w-4 shrink-0 text-accent" viewBox="0 0 20 20" fill="currentColor">
@@ -281,12 +352,22 @@ function LifetimePlanCard() {
         </ul>
       </div>
 
-      {/* Tall enough for "You have lifetime access", so whichever answer streams in, nothing moves. */}
+      {/* Tall enough for the access line or the access-unknown box, so whichever answer streams in, nothing moves. */}
       <div className="mt-8 flex min-h-[6.75rem] flex-col justify-end">
         <Suspense fallback={<ActionPlaceholder />}>
           <LifetimeAction />
         </Suspense>
       </div>
     </section>
+  );
+}
+
+/** The paid card's title and badge: lifetime before the switch, yearly after it. */
+function PlanHeading({ title, badge }: { title: string; badge: string }) {
+  return (
+    <div className="flex items-center justify-between">
+      <h2 className="font-serif text-2xl font-semibold">{title}</h2>
+      <span className="rounded-full border border-accent/20 bg-accent/10 px-3 py-1 text-xs font-semibold text-accent">{badge}</span>
+    </div>
   );
 }

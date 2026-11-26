@@ -6,9 +6,10 @@ import fs from "node:fs";
 import path from "node:path";
 import { describe, test } from "node:test";
 import type { ReviewCard } from "./review-catalogue.ts";
-import { runReviewSync } from "./review-sync.ts";
+import { runReviewGet, runReviewSync } from "./review-sync.ts";
 import { MAX_TEXT_IDS, runCardText } from "./review-text.ts";
-import { A, CARD_INDEX, ReviewFakeServer } from "./review-test-fakes.ts";
+import { A, CARD_INDEX, PAID_IDS, ReviewFakeServer } from "./review-test-fakes.ts";
+import { toItem } from "./review-outbox.ts";
 
 const read = (f: string) => (JSON.parse(fs.readFileSync(path.join(process.cwd(), "lib", "generated", f), "utf8")) as { cards: ReviewCard[] }).cards;
 const FREE = read("review-cards-free.json");
@@ -83,16 +84,29 @@ describe("the access check can't be reached from a request (Prompt 73, item 0)",
     const calls = review.match(/runReview(?:Sync|Get)\([^;]*\)/g) ?? [];
     assert.equal(calls.length, 2);
     for (const c of calls) assert.match(c, /hasAccess: accessFor\(s\.userId\)/);
-    // The one access check (Prompt 79): hasActiveEntitlement, for the session's user.
-    assert.match(review, /const accessFor = \(userId: string\) => \(\) => hasActiveEntitlement\(userId, "lessons"\);/);
+    // The one access check (Prompt 79): hasActiveEntitlement, for the session's user. "unknown" fails
+    // the call as "unavailable" (Prompt 80), so no entry is rejected as no_access and dropped.
+    assert.match(review, /const accessFor = \(userId: string\) => async \(\) => \{\s*const state = await hasActiveEntitlement\(userId, "lessons"\);\s*if \(state === "unknown"\) throw new AccessUnknownError\("access check failed"\);\s*return state === "yes";/);
     const text = source("app/actions/review-text.ts");
     assert.match(text, /runCardText\(cardIds, \{ lookup: getReviewCard, hasAccess: sessionHasAccess \}\)/);
-    assert.match(text, /const user = await getCurrentUser\(\);\s*return user \? hasActiveEntitlement\(user\.id, "lessons"\) : false;/);
+    assert.match(text, /const user = await getCurrentUser\(\);\s*const state = user \? await hasActiveEntitlement\(user\.id, "lessons"\) : "no";/);
     for (const f of [review, text]) assert.ok(!/process\.env|headers\(\)|searchParams/.test(f), "no env, header or query read");
     // The only "forced off" access is the database check script's own injected function.
     for (const f of ["app/actions/review.ts", "app/actions/review-text.ts", "lib/review-sync.ts", "lib/review-text.ts"]) {
       assert.ok(!/async \(\) => (false|true)/.test(source(f)), `${f} has no hard-coded access`);
     }
+  });
+
+  test("an access check that fails (unknown) fails the whole call: no entry is rejected as no_access or written", async () => {
+    const server = new ReviewFakeServer();
+    const now = Date.now();
+    const state = { box: 1, dueAt: new Date(now + 86_400_000).toISOString(), lastReviewedAt: new Date(now - 3_600_000).toISOString(), reviews: 1, lapses: 0 };
+    const failing = async (): Promise<boolean> => {
+      throw new Error("access check failed");
+    };
+    await assert.rejects(runReviewSync({ expectedUserId: A, items: [toItem(PAID_IDS[0], state)] }, { userId: A, index: CARD_INDEX, nowMs: now, db: server.db(A), hasAccess: failing }));
+    assert.equal(server.of(A).size, 0, "nothing written; the action answers unavailable and the store retries");
+    await assert.rejects(runReviewGet({ userId: A, index: CARD_INDEX, db: server.db(A), hasAccess: failing }), "a read fails too, instead of coming back empty");
   });
 
   test("a payload can't carry an access flag: any field but expectedUserId and items rejects the call", async () => {

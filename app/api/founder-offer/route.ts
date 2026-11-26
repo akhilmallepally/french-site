@@ -18,8 +18,9 @@ export async function GET(): Promise<Response> {
   let body: FounderOfferReply = { state: "unavailable" };
   if (shared.ok) {
     const offer = getPriceOffer(shared.pricing, Date.now());
-    if (offer.state === "founder") body = { state: "founder", founderCents: offer.founderCents, yearlyCents: shared.pricing.standardPriceCents, founderEndsAt: offer.founderEndsAt };
-    else if (offer.state === "ended") body = { state: "ended", founderEndsAt: offer.founderEndsAt };
+    if (offer.state === "founder") body = { state: "founder", founderCents: offer.founderCents, yearlyCents: offer.yearlyCents, founderEndsAt: offer.founderEndsAt };
+    // After the switch the founding offer has ended, whether the yearly plan is on sale or coming soon.
+    else if (offer.state === "ended" || offer.state === "yearly") body = { state: "ended", founderEndsAt: offer.founderEndsAt };
   }
   return Response.json(body, {
     headers: { "Cache-Control": shared.ok ? "public, max-age=0, s-maxage=60, stale-while-revalidate=300" : "no-store" },

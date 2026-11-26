@@ -5,11 +5,28 @@
 //
 // Pricing v2 (Prompt 76): the founding offer ($8 once, lifetime access) is live only while founder
 // spots remain AND the time is before founder_ends_at (migration 0009: 2026-12-31T16:59:00Z, 23:59 in
-// Bangkok). After that, new buyers get a subscription (not built yet): until it ships, the offer is
-// "ended" and nothing can be bought.
+// Bangkok). After that (the switch, Prompt 80), new buyers get the yearly subscription at
+// pricing_settings.subscription_price_cents (0012), when the yearly product is configured
+// (PAYMENTS_YEARLY_PRODUCT_ID). Without it the offer is "ended": "New plan coming soon", nothing to buy.
 
 export const PRICING_UNAVAILABLE_MESSAGE = "Pricing is temporarily unavailable. Please try again in a minute.";
 export const OFFER_ENDED_MESSAGE = "The founding offer has ended. A new plan is coming soon.";
+/** The founder price was asked for after the switch: the page refreshes to show the yearly plan. */
+export const FOUNDER_SWITCHED_MESSAGE = "The founding offer has ended. Yearly access is now available: please check the new price.";
+/** The yearly plan was asked for while the founding offer is still on (a page ahead of the server's clock). */
+export const FOUNDER_STILL_ON_MESSAGE = "The founding offer is still on. Please check the price and try again.";
+/** The payment provider's product doesn't match the yearly price we show: nothing is charged. */
+export const YEARLY_UNCONFIRMED_MESSAGE = "We couldn't confirm the yearly price. Please try again in a minute.";
+/** The access check failed: never treated as "no access" where money is involved. */
+export const ACCESS_UNKNOWN_MESSAGE = "We couldn't confirm your access. Please try again in a minute.";
+
+/**
+ * Whether tax may be added on top of the shown yearly price at checkout. Dodo (the Merchant of
+ * Record) adds tax at checkout unless the product's price is set to "tax inclusive"; the code never
+ * sets it, so the product's own setting decides (docs/plans/subscription.md, section 8). While this
+ * is true, the yearly price says "plus tax where applicable".
+ */
+export const TAX_ADDED_AT_CHECKOUT = true;
 /** Shown after a price-changed refusal; the button then refreshes the page so the new price appears. */
 export function priceChangedMessage(currentCents: number): string {
   return `The price has just changed to ${formatPrice(currentCents)}. Please check the updated price and try again.`;
@@ -26,7 +43,21 @@ export type PricingInput = {
   currency: string;
   /** When the founding offer ends, for everyone (ISO, from pricing_settings.founder_ends_at). */
   founderEndsAt: string;
+  /** The yearly price (pricing_settings.subscription_price_cents, 0012); null before 0012 or when invalid. */
+  subscriptionPriceCents: number | null;
+  /** True when the yearly product is configured (PAYMENTS_YEARLY_PRODUCT_ID, server-side). */
+  yearlyProductConfigured: boolean;
 };
+
+/** What the yearly plan costs, when it can be bought. */
+export type YearlyTerms = { chargeCents: number; currency: string };
+
+/** The yearly plan's terms, or null when it can't be sold (no product configured, or no valid price). */
+export function yearlyTerms(pricing: PricingInput): YearlyTerms | null {
+  const cents = pricing.subscriptionPriceCents;
+  if (!pricing.yearlyProductConfigured || typeof cents !== "number" || !Number.isSafeInteger(cents) || cents <= 0) return null;
+  return { chargeCents: cents, currency: pricing.currency };
+}
 
 export type PriceOffer =
   | { state: "unavailable" }
@@ -40,15 +71,28 @@ export type PriceOffer =
       founderCap: number;
       spotsLeft: number;
       founderEndsAt: string;
-      /** The yearly price new buyers get after the founding offer (pricing_settings.standard_price_cents), for the honest comparison line. */
+      /** The yearly price new buyers get after the founding offer, for the honest comparison line. */
       yearlyCents: number;
+      /** What an open page switches to at the deadline: the yearly plan, or null ("New plan coming soon"). */
+      yearly: YearlyTerms | null;
     }
   | {
-      /** The founding offer is over: the deadline passed, or the spots ran out first. Nothing to buy yet. */
+      /** After the switch (the deadline passed, or the spots ran out first): the yearly subscription. */
+      state: "yearly";
+      chargeCents: number;
+      currency: string;
+      reason: "deadline" | "sold-out";
+      founderEndsAt: string;
+    }
+  | {
+      /** The founding offer is over and the yearly plan can't be sold here: "New plan coming soon". */
       state: "ended";
       reason: "deadline" | "sold-out";
       founderEndsAt: string;
     };
+
+/** What a page shows: the founder offer, the yearly plan, "coming soon", or nothing (pricing unreadable). */
+export type OfferPhase = "founder" | "yearly" | "soon" | "unavailable";
 
 /** True while the deadline hasn't passed at `nowMs`. An unreadable deadline counts as passed. */
 export function beforeDeadline(founderEndsAt: string, nowMs: number): boolean {
@@ -59,8 +103,11 @@ export function beforeDeadline(founderEndsAt: string, nowMs: number): boolean {
 /** The offer at `nowMs`. Worked out every time it's asked: never cached. */
 export function getPriceOffer(pricing: PricingInput, nowMs: number): PriceOffer {
   if (!pricing.available) return { state: "unavailable" };
-  if (!beforeDeadline(pricing.founderEndsAt, nowMs)) return { state: "ended", reason: "deadline", founderEndsAt: pricing.founderEndsAt };
-  if (pricing.spotsLeft <= 0) return { state: "ended", reason: "sold-out", founderEndsAt: pricing.founderEndsAt };
+  const yearly = yearlyTerms(pricing);
+  const after = (reason: "deadline" | "sold-out"): PriceOffer =>
+    yearly ? { state: "yearly", ...yearly, reason, founderEndsAt: pricing.founderEndsAt } : { state: "ended", reason, founderEndsAt: pricing.founderEndsAt };
+  if (!beforeDeadline(pricing.founderEndsAt, nowMs)) return after("deadline");
+  if (pricing.spotsLeft <= 0) return after("sold-out");
   return {
     state: "founder",
     chargeCents: pricing.founderPriceCents,
@@ -69,8 +116,28 @@ export function getPriceOffer(pricing: PricingInput, nowMs: number): PriceOffer 
     founderCap: pricing.founderCap,
     spotsLeft: pricing.spotsLeft,
     founderEndsAt: pricing.founderEndsAt,
-    yearlyCents: pricing.standardPriceCents,
+    yearlyCents: pricing.subscriptionPriceCents ?? pricing.standardPriceCents,
+    yearly,
   };
+}
+
+/**
+ * What to show at `nowMs` for an offer the server decided earlier (an open page's clock): a founder
+ * offer whose deadline has passed becomes the yearly plan it carries, or "coming soon".
+ */
+export function offerPhase(offer: PriceOffer, nowMs: number): OfferPhase {
+  if (offer.state === "unavailable") return "unavailable";
+  if (offer.state === "yearly") return "yearly";
+  if (offer.state === "ended") return "soon";
+  if (beforeDeadline(offer.founderEndsAt, nowMs)) return "founder";
+  return offer.yearly ? "yearly" : "soon";
+}
+
+/** The yearly plan an offer shows or switches to, if any. */
+export function yearlyOf(offer: PriceOffer): YearlyTerms | null {
+  if (offer.state === "yearly") return { chargeCents: offer.chargeCents, currency: offer.currency };
+  if (offer.state === "founder") return offer.yearly;
+  return null;
 }
 
 /** "$8", or "$8.50" when there are cents. Prices are in US dollars. */
@@ -135,25 +202,34 @@ export function deadlineDate(founderEndsAt: string): string {
 
 // ---------- Checkout ----------
 
+/** Which plan a checkout is for: the one-time founder price, or the yearly subscription. */
+export type CheckoutPlan = "founder" | "yearly";
+
 export type CheckoutOutcome<T> =
-  | { ok: true; chargeCents: number; currency: string; result: T }
+  | { ok: true; plan: CheckoutPlan; chargeCents: number; currency: string; result: T }
   | { ok: false; status: "pricing-unavailable" | "price-changed"; message: string };
 
 /**
- * Decides whether to create a checkout and for how much, then calls `create` at most once.
+ * Decides whether to create a checkout, for which plan and how much, then calls `create` at most once.
+ * What's for sale is decided at `nowMs` (the request's time), never by the page:
  * - Pricing unavailable: refuses, and `create` is never called.
- * - The founding offer has ended at `nowMs` (the deadline passed, or the last spot went): refuses
- *   with price-changed, even if the page showing $8 was opened before. Nothing else is on sale yet.
+ * - `plan` "founder" (the default): charged only while the founding offer is live. After the switch
+ *   it's refused with price-changed, even if the page showing $8 was opened before.
+ * - `plan` "yearly": only after the switch, and only when the yearly plan can be sold (otherwise
+ *   "coming soon"). Before `create`, `confirmProviderPrice` must confirm that the provider's product
+ *   costs the same; a missing check, a mismatch or an error refuses.
  * - `expectedCents` (the price the page showed) differs from the current price: refuses, so nobody
  *   is charged a price they weren't shown.
- * - Otherwise charges the founder price. The amount always comes from `pricing`, never the caller.
+ * The amount always comes from `pricing`, never the caller.
  */
 export async function runCheckout<T>(
   pricing: PricingInput,
   expectedCents: number | undefined,
-  create: (chargeCents: number, currency: string) => Promise<T>,
+  create: (chargeCents: number, currency: string, plan: CheckoutPlan) => Promise<T>,
   nowMs: number,
+  options: { plan?: CheckoutPlan; confirmProviderPrice?: (terms: YearlyTerms) => Promise<boolean> } = {},
 ): Promise<CheckoutOutcome<T>> {
+  const plan = options.plan ?? "founder";
   const offer = getPriceOffer(pricing, nowMs);
   if (offer.state === "unavailable") {
     return { ok: false, status: "pricing-unavailable", message: PRICING_UNAVAILABLE_MESSAGE };
@@ -161,9 +237,38 @@ export async function runCheckout<T>(
   if (offer.state === "ended") {
     return { ok: false, status: "price-changed", message: OFFER_ENDED_MESSAGE };
   }
+  if (plan === "founder" && offer.state === "yearly") {
+    return { ok: false, status: "price-changed", message: FOUNDER_SWITCHED_MESSAGE };
+  }
+  if (plan === "yearly" && offer.state === "founder") {
+    return { ok: false, status: "price-changed", message: FOUNDER_STILL_ON_MESSAGE };
+  }
   if (expectedCents !== undefined && expectedCents !== offer.chargeCents) {
     return { ok: false, status: "price-changed", message: priceChangedMessage(offer.chargeCents) };
   }
-  const result = await create(offer.chargeCents, offer.currency);
-  return { ok: true, chargeCents: offer.chargeCents, currency: offer.currency, result };
+  if (offer.state === "yearly") {
+    let confirmed = false;
+    try {
+      confirmed = options.confirmProviderPrice ? await options.confirmProviderPrice({ chargeCents: offer.chargeCents, currency: offer.currency }) : false;
+    } catch {
+      confirmed = false;
+    }
+    if (!confirmed) return { ok: false, status: "price-changed", message: YEARLY_UNCONFIRMED_MESSAGE };
+  }
+  const result = await create(offer.chargeCents, offer.currency, plan);
+  return { ok: true, plan, chargeCents: offer.chargeCents, currency: offer.currency, result };
+}
+
+/** The provider's product price, as read before a yearly checkout (null when it can't be read). */
+export type ProviderPrice = { priceCents: number; currency: string; interval: string | null; intervalCount: number | null };
+
+/** The same price and currency, billed every 1 year. Anything else is a mismatch. */
+export function providerPriceMatches(price: ProviderPrice | null, terms: YearlyTerms): boolean {
+  return (
+    !!price &&
+    price.priceCents === terms.chargeCents &&
+    price.currency.toLowerCase() === terms.currency.toLowerCase() &&
+    (price.interval ?? "").toLowerCase() === "year" &&
+    price.intervalCount === 1
+  );
 }

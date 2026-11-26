@@ -7,6 +7,8 @@ import { ReviewSession } from "@/components/review-session";
 import { getCurrentUser } from "@/lib/auth";
 import { hasActiveEntitlement } from "@/lib/purchases";
 import { getSharedOffer } from "@/lib/shared-pricing";
+import { AccessUnknown } from "@/components/access-unknown";
+import { OfferSwitch } from "@/components/founder-offer";
 
 // Personal, so never indexed (and not in the sitemap).
 export const metadata: Metadata = {
@@ -48,8 +50,10 @@ function ReviewPlaceholder() {
 /** Signed-out visitors make no access call (getCurrentUser answers from the missing cookie). */
 async function ReviewGate() {
   const user = await getCurrentUser();
-  const access = user ? await hasActiveEntitlement(user.id, "lessons") : false;
-  if (access) return <ReviewSession />;
+  const access = user ? await hasActiveEntitlement(user.id, "lessons") : "no";
+  if (access === "yes") return <ReviewSession />;
+  // The check failed: neither the session nor the buy prompt.
+  if (access === "unknown") return <AccessUnknown className="mt-6" />;
   await connection();
   const nowMs = Date.now();
   return <ReviewLocked offer={await getSharedOffer("lessons", nowMs)} nowMs={nowMs} signedIn={!!user} />;
@@ -64,7 +68,13 @@ function ReviewLocked({ offer, nowMs, signedIn }: { offer: Awaited<ReturnType<ty
           Daily review is part of lifetime access
         </h2>
         <p className="mx-auto mt-3 max-w-md text-muted">
-          Daily review is part of lifetime access: a few minutes a day to keep the words you&apos;ve learned.
+          <OfferSwitch
+            offer={offer}
+            nowMs={nowMs}
+            founder={<>Daily review is part of lifetime access: a few minutes a day to keep the words you&apos;ve learned.</>}
+            yearly={<>Daily review is part of yearly access: a few minutes a day to keep the words you&apos;ve learned.</>}
+            soon={<>Daily review is part of paid access: a few minutes a day to keep the words you&apos;ve learned.</>}
+          />
         </p>
         {offer.state !== "unavailable" && <FounderPrice offer={offer} nowMs={nowMs} centered />}
         <Link

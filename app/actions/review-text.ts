@@ -10,11 +10,16 @@ import { hasActiveEntitlement } from "@/lib/purchases";
 import { getReviewCard } from "@/lib/review-cards-server";
 import { runCardText, type CardTextReply } from "@/lib/review-text";
 
-async function sessionHasAccess(): Promise<boolean> {
-  const user = await getCurrentUser();
-  return user ? hasActiveEntitlement(user.id, "lessons") : false;
-}
-
 export async function getCardTextAction(cardIds: unknown): Promise<CardTextReply> {
-  return runCardText(cardIds, { lookup: getReviewCard, hasAccess: sessionHasAccess });
+  // "unknown" (the access check failed) is never "no" (Prompt 80): the reply is "unavailable" and
+  // the review shows its retry, instead of an empty session or a remembered "no access".
+  let unknown = false;
+  const sessionHasAccess = async (): Promise<boolean> => {
+    const user = await getCurrentUser();
+    const state = user ? await hasActiveEntitlement(user.id, "lessons") : "no";
+    if (state === "unknown") unknown = true;
+    return state === "yes";
+  };
+  const reply = await runCardText(cardIds, { lookup: getReviewCard, hasAccess: sessionHasAccess });
+  return unknown ? { status: "unavailable", code: "access_unknown" } : reply;
 }

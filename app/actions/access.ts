@@ -5,10 +5,12 @@
 import { getCurrentUser } from "@/lib/current-user";
 import { hasActiveEntitlement } from "@/lib/purchases";
 
-export type AccessReply = { signedIn: false; access: false } | { signedIn: true; userId: string; access: boolean };
+// "unknown" (the check failed) keeps the banner hidden and isn't remembered (Prompt 80).
+export type AccessReply = { signedIn: false; access: false } | { signedIn: true; userId: string; access: boolean | "unknown" };
 
 export async function getAccessAction(): Promise<AccessReply> {
   const user = await getCurrentUser();
   if (!user) return { signedIn: false, access: false };
-  return { signedIn: true, userId: user.id, access: await hasActiveEntitlement(user.id, "lessons") };
+  const state = await hasActiveEntitlement(user.id, "lessons");
+  return { signedIn: true, userId: user.id, access: state === "unknown" ? "unknown" : state === "yes" };
 }

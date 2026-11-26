@@ -30,6 +30,8 @@ const live = (spotsLeft: number, extra: Partial<PricingInput> = {}): PricingInpu
   founderCap: 100,
   currency: "usd",
   founderEndsAt: ENDS,
+  subscriptionPriceCents: null,
+  yearlyProductConfigured: false,
   ...extra,
 });
 

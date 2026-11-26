@@ -1,8 +1,8 @@
 -- supabase/tests/rls.sql
 -- Proves the RLS rules (0003, 0005), the progress write path (0006), the service-role grants
 -- (0007), the daily-review write path (0008), the founder deadline (0009) and the subscriptions with
--- their entitlement (0010) and the subscription webhooks' additions (0011) on every table and every
--- operation. Run it in the Supabase SQL editor (or psql) AFTER migrations 0001 to 0011. It runs in
+-- their entitlement (0010), the subscription webhooks' additions (0011) and the yearly price (0012) on
+-- every table and every operation. Run it in the Supabase SQL editor (or psql) AFTER migrations 0001 to 0012. It runs in
 -- one transaction that ends in ROLLBACK, so it leaves nothing behind: no users, no rows, no test
 -- schema.
 --
@@ -417,6 +417,8 @@ begin
 
   -- pricing_settings: anon can read active rows, cannot write
   perform rls_test.expect_rows('anon select pricing_settings (as before the test)', rls_test.pricing_query(), rls_test.pricing_rows());
+  perform rls_test.expect_rows('anon reads the yearly price (0012)', 'select 1 from public.pricing_settings where product = ''lessons'' and subscription_price_cents > 0', rls_test.pricing_rows());
+  perform rls_test.expect_error('anon changes the yearly price', 'update public.pricing_settings set subscription_price_cents = 1 where product = ''lessons''');
   perform rls_test.expect_rows('anon reads the founder deadline (0009)', 'select 1 from public.pricing_settings where product = ''lessons'' and founder_ends_at is not null', rls_test.pricing_rows());
   perform rls_test.expect_error('anon updates the founder deadline', 'update public.pricing_settings set founder_ends_at = now() + interval ''1 year'' where product = ''lessons''');
   perform rls_test.expect_error('anon insert pricing_settings', 'insert into public.pricing_settings (product, founder_price_cents, standard_price_cents, founder_cap) values (''pro'', 1500, 2000, 50)');
@@ -614,6 +616,10 @@ begin
   if not exists (select 1 from information_schema.columns
                   where table_schema = 'public' and table_name = 'subscriptions' and column_name = 'last_event_at') then
     raise exception 'FAIL: subscriptions.last_event_at is missing: run migration 0011 first';
+  end if;
+  if not exists (select 1 from information_schema.columns
+                  where table_schema = 'public' and table_name = 'pricing_settings' and column_name = 'subscription_price_cents') then
+    raise exception 'FAIL: pricing_settings.subscription_price_cents is missing: run migration 0012 first';
   end if;
   foreach t in array array['profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab', 'purchases', 'pricing_settings', 'unmatched_payment_events', 'review_cards', 'subscriptions', 'subscription_payments'] loop
     select c.relrowsecurity, c.relforcerowsecurity into rls, forced
@@ -956,6 +962,17 @@ begin
   raise notice 'PASS: founder_ends_at changes only with app.allow_founder_deadline_change (a migration)';
 end;
 $$;
+
+-- 0012: the yearly price is set for lessons, and a price of 0 is refused.
+do $$
+begin
+  if exists (select 1 from public.pricing_settings where product = 'lessons' and subscription_price_cents is distinct from 1200) then
+    raise exception 'FAIL: the lessons subscription_price_cents is not 1200';
+  end if;
+  raise notice 'PASS: subscription_price_cents is 1200 for lessons';
+end;
+$$;
+select rls_test.expect_error('a yearly price of 0 is refused', 'update public.pricing_settings set subscription_price_cents = 0 where product = ''lessons''', '23514');
 
 insert into auth.users (id, email, aud, role, raw_user_meta_data)
 values
