@@ -103,14 +103,30 @@ audit:content also has B2 rows: lengths, En résumé, the exercise mix, A1 to B1
     - users in 400 MB: about 5,700 at 20 lessons each, or 290 at everything
   - **Database:** 0001 to 0007 are written. 0006 must be run in Supabase before the preview test (docs/db-setup.md).
   - **Fail-safe:** with the Supabase variables missing, proxy.ts skips the refresh and warns once, `getCurrentUser()` returns null (fail closed), and the header shows "Sign in". Proven by `npm run test:no-supabase-env`, which leaves a no-config build in `.next`, so rebuild afterwards.
-  - **Next:** the preview checklist, then the flag in Production. After that: Smart practice and Daily review (spaced repetition on the stored results), the home page cards for them, and a gentle sign-in prompt for signed-out learners with progress.
+  - **Next:** the preview checklist, then the flag in Production. After that: Smart practice and a gentle sign-in prompt for signed-out learners with progress. Daily review is built (below).
+- **Daily review (updated 26 November 2026; docs/plans/review.md, docs/progress-log.md Prompts 68 to 74):**
+  - **Built** (rollout steps 1 to 5):
+    - migration 0008 (`review_cards`, `apply_review`)
+    - the card catalogue with published-id protection and the free/paid split
+    - the Leitner scheduler and the local store
+    - the server actions, the synced store and the import
+    - the card-text action, /review, the home card and the /progress line
+    `npm run test:review` (90 tests), test:gating, test:no-supabase-env and test:progress-e2e cover it, and `npm run check:review-db` checks the real database with the test account.
+  - **The flag:** `NEXT_PUBLIC_REVIEW_SYNC=on` turns review sync on, separately from progress. It's off in Production until `npm run test:prod-smoke` passes with it on (its review section checks the flag first). Off, /review still works from the browser's own cards.
+  - **Access:** paid-level card text is never bundled or sent without access. The import graph and a scan of the build prove it.
+  - **Storage estimates** (plan section 5; measure with the SQL in docs/db-setup.md section 7):
+    - about 230 B per card row
+    - per learner: about 69 KB at 300 cards, about 1.1 MB with every card (4,817)
+    - 1,000 typical learners: about 69 MB of cards on top of progress
+    - the cap is 6,000 cards per user
+  - **Next:** the owner turns the flag on in Production, redeploys without the build cache and runs test:prod-smoke. Then the content follow-up for the `l'` gender notes (docs/review-content-todo.md). Later, outside v1: manual saving, English → French, audio.
 - **Levels written:** A1 (49 lessons), A2 (56), B1 (59), B2 (59) and C1 (57).
 - **C1:** written, wrapped up, awaiting native review. Eight units, 57 lessons (8, 9, 8, 7, 6, 6, 6, 7), written unit by unit in Prompts 28 to 38 and wrapped up in Prompt 39. Conventions and the grouped C1 checklist in CLAUDE.md; plans in docs/plans/c1/; coverage map docs/c1-coverage.md; history in docs/c1-writing-log.md. Wrap-up: `node --experimental-strip-types scripts/c1-wrapup.ts` writes docs/c1-wrapup.md (judgement calls at the top, from scripts/c1-wrapup-judgements.md; mechanical failures 0). Native review: docs/c1-reviewer-brief.md and docs/c1-review-items.md (309 items, 22 possibly resolved), lessons in docs/review/c1-unit-1.txt to c1-unit-8.txt. Verse: scripts/scan-alexandrines.ts (`npm run check:alexandrines`).
 - **B2 units:** 1 Nuance and society (lessons 1 to 8), 2 What might have been (9 to 15), 3 News and reporting (16 to 25), 4 Precision with pronouns (26 to 31), 5 Work and the economy (32 to 40), 6 Science and health (41 to 45), 7 Culture and the arts (46 to 52), 8 Registers and debate (53 to 59). Plans in docs/plans/b2/, history in docs/b2-writing-log.md.
 - **Baselines:** check:words 110 (the A1/A2 backlog; B1, B2 and C1 at 0), check:structures 0, test:checker 29 tests, test:b2-exercises (B2 and C1) 0 failures, b2-links-ids 0 failures, check:c1-links 0 failures, check:alexandrines 8/8, c1-wrapup 0 mechanical failures. The audit's informational rows: 73 shared vocab texts, 4 exercises with more than five answers, 6 lessons without a reorder (all A1/A2).
 - **Last commit:** check `git log`; the B2 review fixes and the wrap-up (Prompts 21 to 25) are not committed.
 - **C2:** planned in Prompt 40 (docs/plans/c2/overview.md, 46 lessons in 8 units; open questions at the top, including the writing-task question); coverage in docs/c2-coverage.md (scripts/c2-lists.ts, scripts/c2-find.ts); log in docs/c2-writing-log.md. Not yet approved.
-- **Next steps for the site (progress):** (a) the progress preview checklist (docs/plans/progress.md, section 13), then the flag in Production; (b) Smart practice; (c) Daily review; (d) the home page cards; (e) the sign-in prompt.
+- **Next steps for the site (progress):** (a) the progress preview checklist (docs/plans/progress.md, section 13), then the flag in Production; (b) the daily review's production run (test:prod-smoke with NEXT_PUBLIC_REVIEW_SYNC=on); (c) Smart practice; (d) the sign-in prompt.
 - **Next steps, in order:** (1) the C1 native-speaker review (docs/c1-reviewer-brief.md); (2) the B2 native-speaker review; (3) the B1 review, including the 13 unread B1 grammar lessons; (4) phone and learner tests; (5) C2 planning.
 
 ## 7. How work is split

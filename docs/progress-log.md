@@ -537,3 +537,21 @@
 - **Checks:** all pass.
   - validate:content, test:content, test:checker (36), test:review (90, on the flag-on and the normal build), test:progress (140), test:progress-e2e (4 of 4, then `npm run build`), tsc and build (358/358).
   - test:no-supabase-env, test:gating (on a fresh server), test:webhook (70), test:checkout (23) and test:safe-next (7).
+
+## Daily review step 6: wrap-up, production smoke test, docs (Prompt 74)
+
+- **test:prod-smoke** (e2e/production-smoke.spec.ts): the progress part and a new review part now run in order (serial). The review part prints PASS or FAIL per step:
+  - **R0:** reads the value the live build inlined for NEXT_PUBLIC_REVIEW_SYNC from /review's JavaScript (the createReviewStore call whose loadWiring loads createReviewWiring). Unless it's exactly "on", it fails at once with "Review sync is not on in production; set it to exactly on and redeploy without the build cache."
+    - Checked on local builds only: a normal build reads as the unset property, and a build with the flag on reads `"on"`.
+  - **R1:** practise A1 "greetings" (8 cards, none shared), open /review, answer 3, refresh: it resumes at "1 / 5", with "0 due today · 5 new cards left today" and none of the answered cards.
+  - **R2:** finish; "5 cards reviewed, 5 known.", and 8 rows with box ≥ 1, read through the account's own session.
+  - **R3:** a second browser context shows the same /progress "Daily review" line as device 1 (it would offer the 8 cards as new if the rows hadn't synced), and "All done for today" on /review.
+  - **R4:** sign out on device 1; /review shows the empty state and the sign-in line.
+  - **R5:** delete the account's review_cards and progress rows with its own delete policies, and check 0 are left. On a failure it prints the cleanup SQL for all four tables.
+  - Not run here: the owner runs it after turning the flag on.
+- **docs/plans/review.md:** the status line (steps 1 to 5 done, step 6 pending the owner's production run), each rollout step marked, and section 14 (the smoke test, and what's deliberately out of v1: manual saving, English → French and typed answers, gender for the `l'` words, audio, streaks and a synced daily log).
+- **docs/project-state.md:** a Daily review entry in the status (what's built, the tests, the flag off in Production until test:prod-smoke passes, access, the storage estimate, what's next), and the next-steps lines updated.
+- **docs/db-setup.md:** section 7 has a combined size query for the three progress tables and review_cards (rows, learners, size with indexes, average per learner), with the estimates to compare against, next to the existing review_cards query.
+- **Content follow-up, recorded, not done:** the new docs/review-content-todo.md lists gender notes for the `l'` words: 190 vocab entries, 189 cards (A1 36, A2 16, B1 19, B2 23, C1 60, C2 35), 141 of them with no note. It covers what to add, the rules (text only, rebuild the catalogue), and native review of every gender.
+- **No app code changed.**
+- **Checks:** validate:content, test:review (90), tsc and build (358/358) pass.

@@ -235,7 +235,26 @@ select c.relname, pg_size_pretty(pg_total_relation_size(c.oid)) as total
  order by pg_total_relation_size(c.oid) desc;
 ```
 
-The daily-review cards (0008): rows, users, size with indexes, and the average per user with cards:
+Progress and the daily review together: rows, size with indexes, and the average per learner, for each table:
+
+```sql
+select t.table_name,
+       t.row_count,
+       t.learners,
+       pg_size_pretty(pg_total_relation_size(('public.' || t.table_name)::regclass)) as total_with_indexes,
+       pg_size_pretty(pg_total_relation_size(('public.' || t.table_name)::regclass) / nullif(t.learners, 0)) as average_per_learner
+  from (
+    select 'exercise_results' as table_name, count(*) as row_count, count(distinct user_id) as learners from public.exercise_results
+    union all select 'lesson_progress', count(*), count(distinct user_id) from public.lesson_progress
+    union all select 'writing_task_progress', count(*), count(distinct user_id) from public.writing_task_progress
+    union all select 'review_cards', count(*), count(distinct user_id) from public.review_cards
+  ) as t
+ order by pg_total_relation_size(('public.' || t.table_name)::regclass) desc;
+```
+
+Compare with the estimates: about 270 B per exercise row, 250 B per lesson row, 310 B per writing-task row (docs/plans/progress.md, section 4) and 230 B per review card (docs/plans/review.md, section 5).
+
+The daily-review cards (0008) alone: rows, users, size with indexes, and the average per user with cards:
 
 ```sql
 select count(*) as card_rows,

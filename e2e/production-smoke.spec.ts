@@ -1,9 +1,11 @@
-// Production smoke test of progress sync against the live site (npm run test:prod-smoke).
+// Production smoke test of progress sync, then the daily review, against the live site
+// (npm run test:prod-smoke). The review part runs after the progress part (serial) and needs
+// NEXT_PUBLIC_REVIEW_SYNC=on in the live build.
 // Signs in as the TEST account (PROGRESS_TEST_EMAIL / PROGRESS_TEST_PASSWORD in .env.local) with
 // the real @supabase/ssr cookies, since the site itself offers Google sign-in only. Reads and deletes
 // only that account's own rows, through its own session and the RLS policies (never the service role).
 // Changes no app code. On a failure it stops and prints what it saw, and the cleanup SQL.
-import { expect, test, type BrowserContext, type Page } from "@playwright/test";
+import { expect, test, type APIRequestContext, type BrowserContext, type Page } from "@playwright/test";
 import { createServerClient } from "@supabase/ssr";
 
 const LESSON = "/lessons/a1/alphabet-and-accents";
@@ -12,6 +14,9 @@ const LESSON_TITLE = /The alphabet and accents/;
 const TABLES = ["exercise_results", "lesson_progress", "writing_task_progress"] as const;
 
 type Problems = string[];
+
+// The two parts run in order; if progress fails, the review part doesn't run.
+test.describe.configure({ mode: "serial" });
 
 function watch(page: Page, label: string, problems: Problems) {
   page.on("console", (m) => {
@@ -61,8 +66,8 @@ async function doFullRun(page: Page) {
   throw new Error("the exercise set never finished");
 }
 
-const cleanupSql = (email: string) =>
-  TABLES.map((t) => `delete from public.${t.padEnd(21)} where user_id = (select id from auth.users where email = '${email.replace(/'/g, "''")}');`).join("\n");
+const cleanupSql = (email: string, tables: readonly string[] = TABLES) =>
+  tables.map((t) => `delete from public.${t.padEnd(21)} where user_id = (select id from auth.users where email = '${email.replace(/'/g, "''")}');`).join("\n");
 
 test("progress sync on the live site", async ({ browser, baseURL }) => {
   const problems: Problems = [];
@@ -159,6 +164,138 @@ test("progress sync on the live site", async ({ browser, baseURL }) => {
     const shown = failed ? problems : problems.filter((p) => !/response 404 .*_vercel|favicon/.test(p));
     if (shown.length) console.log(`\nConsole and network notes (${shown.length}):\n  ${shown.slice(0, 40).join("\n  ")}`);
     if (failed) console.log(`\nNot cleaned up. Run in the Supabase SQL editor:\n${cleanupSql(process.env.PROGRESS_TEST_EMAIL!)}`);
+    await db.auth.signOut().catch(() => {});
+  }
+});
+
+// ---------- Daily review (docs/plans/review.md, rollout step 6) ----------
+
+// A free lesson with 8 cards and no cards shared with other lessons: one session covers it all.
+const REVIEW_LESSON = "/lessons/a1/greetings";
+const REVIEW_CARDS = 8;
+const REVIEW_TABLES = ["review_cards", ...TABLES] as const;
+const REVIEW_FLAG_OFF = "Review sync is not on in production; set it to exactly on and redeploy without the build cache.";
+
+/** test.step, printing one line per step: PASS or FAIL. */
+async function step(name: string, body: () => Promise<void>) {
+  try {
+    await test.step(name, body);
+    console.log(`PASS: ${name}`);
+  } catch (error) {
+    console.log(`FAIL: ${name}`);
+    throw error;
+  }
+}
+
+/**
+ * The value the live build inlined for NEXT_PUBLIC_REVIEW_SYNC, read from /review's JavaScript:
+ * the createReviewStore call is the only one whose loadWiring loads createReviewWiring. An unset
+ * variable stays a property read (…env.NEXT_PUBLIC_REVIEW_SYNC); a set one is a string literal.
+ */
+async function liveReviewFlag(request: APIRequestContext, base: string): Promise<string> {
+  const html = await (await request.get(new URL("/review", base).toString())).text();
+  const scripts = [...new Set([...html.matchAll(/\/_next\/static\/chunks\/[^"'\s]+?\.js/g)].map((m) => m[0]))];
+  for (const src of scripts) {
+    const js = await (await request.get(new URL(src, base).toString())).text();
+    const m = /flag:([^,]+),supabaseConfigured:[^,]+,loadWiring:\(\)=>[^;]{0,120}?createReviewWiring/.exec(js);
+    if (m) return m[1];
+  }
+  return "(not found in /review's JavaScript)";
+}
+
+test("daily review on the live site", async ({ browser, baseURL, request }) => {
+  const problems: Problems = [];
+  let failed = true;
+  const base = baseURL!;
+
+  await step('R0. the live build has NEXT_PUBLIC_REVIEW_SYNC exactly "on"', async () => {
+    const flag = await liveReviewFlag(request, base);
+    console.log(`  R0: the review flag in the live build is ${flag}`);
+    expect(flag, REVIEW_FLAG_OFF).toBe('"on"');
+  });
+
+  const first = await browser.newContext();
+  const page = await first.newPage();
+  watch(page, "review device 1", problems);
+  const { client: db, userId } = await signIn(first, base);
+  const reviewed = async () => {
+    const { count, error } = await db.from("review_cards").select("card_id", { count: "exact", head: true }).eq("user_id", userId).gte("box", 1);
+    if (error) throw new Error(`review_cards read failed: ${error.code}`);
+    return count ?? 0;
+  };
+  const answerKnew = async (p: Page) => {
+    await expect(p.getByTestId("review-fr")).toBeVisible();
+    await p.keyboard.press("Space");
+    await expect(p.getByTestId("review-en")).toBeVisible();
+    await p.keyboard.press("2");
+  };
+
+  try {
+    for (const t of REVIEW_TABLES) await db.from(t).delete().eq("user_id", userId);
+
+    await step("R1. practise a free lesson, open /review, answer 3 cards, refresh: the session resumes", async () => {
+      await page.goto(REVIEW_LESSON);
+      await doFullRun(page);
+      await page.goto("/review");
+      await expect(page.getByTestId("review-progress")).toHaveText(`1 / ${REVIEW_CARDS}`, { timeout: 20_000 });
+      const seen: string[] = [];
+      for (let i = 0; i < 3; i++) {
+        seen.push((await page.getByTestId("review-fr").textContent())!);
+        await answerKnew(page);
+      }
+      await page.reload();
+      await expect(page.getByTestId("review-progress")).toHaveText(`1 / ${REVIEW_CARDS - 3}`, { timeout: 20_000 });
+      await expect(page.getByTestId("review-counts")).toHaveText(`0 due today · ${REVIEW_CARDS - 3} new cards left today`);
+      expect(seen).not.toContain(await page.getByTestId("review-fr").textContent());
+    });
+
+    await step("R2. finish the session: the summary, and the rows exist (the account's own session, RLS)", async () => {
+      for (let i = 0; i < REVIEW_CARDS - 3; i++) await answerKnew(page);
+      await expect(page.getByTestId("review-summary")).toHaveText(`${REVIEW_CARDS - 3} cards reviewed, ${REVIEW_CARDS - 3} known.`);
+      await expect.poll(reviewed, { timeout: 30_000 }).toBe(REVIEW_CARDS);
+      console.log(`  R2: ${await reviewed()} answered cards on the server`);
+    });
+
+    await step("R3. a second device shows the same due count on /progress", async () => {
+      await page.goto("/progress");
+      const line = (await page.getByTestId("review-due-line").textContent({ timeout: 20_000 }))!.trim();
+      const second = await browser.newContext();
+      const page2 = await second.newPage();
+      watch(page2, "review device 2", problems);
+      await signIn(second, base);
+      await page2.goto("/progress");
+      // Without the synced cards, device 2 would offer the lesson's cards as new ("8 cards due today").
+      await expect(page2.getByTestId("review-due-line")).toHaveText(line, { timeout: 20_000 });
+      await page2.goto("/review");
+      await expect(page2.getByText("All done for today")).toBeVisible({ timeout: 20_000 });
+      console.log(`  R3: both devices: "${line}"`);
+      await second.close();
+    });
+
+    await step("R4. sign out on device 1: /review no longer shows the account's cards", async () => {
+      await page.getByRole("button", { name: "Sign out" }).click();
+      await page.waitForTimeout(1500);
+      await page.goto("/review");
+      await expect(page.getByText("Practise a lesson to add its words to your review.")).toBeVisible({ timeout: 15_000 });
+      await expect(page.getByText("Sign in to keep your review across devices.")).toBeVisible();
+    });
+
+    await step("R5. clean up the account's review and progress rows with its own session", async () => {
+      for (const t of REVIEW_TABLES) {
+        const { error } = await db.from(t).delete().eq("user_id", userId);
+        if (error) throw new Error(`${t} delete failed: ${error.code}`);
+      }
+      for (const t of REVIEW_TABLES) {
+        const { count } = await db.from(t).select("user_id", { count: "exact", head: true }).eq("user_id", userId);
+        expect(count, `${t} rows left`).toBe(0);
+      }
+    });
+    failed = false;
+  } finally {
+    await first.close();
+    const shown = failed ? problems : problems.filter((p) => !/response 404 .*_vercel|favicon/.test(p));
+    if (shown.length) console.log(`\nConsole and network notes (${shown.length}):\n  ${shown.slice(0, 40).join("\n  ")}`);
+    if (failed) console.log(`\nNot cleaned up. Run in the Supabase SQL editor:\n${cleanupSql(process.env.PROGRESS_TEST_EMAIL!, REVIEW_TABLES)}`);
     await db.auth.signOut().catch(() => {});
   }
 });

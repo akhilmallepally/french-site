@@ -1,6 +1,6 @@
 # Daily review: plan
 
-Status: decisions recorded (Prompt 69, section 9). Rollout step 1, migration 0008, is written (supabase/migrations/0008_review_cards.sql). Step 2 is done (Prompt 70): the card catalogue in lib/generated/review-cards-free.json (A1, A2) and review-cards-paid.json (B1 to C2, server-only through lib/review-cards-server.ts), the published ids in lib/generated/review-published-ids.json, built by `npm run build:review-cards` and checked by validate:content and `npm run test:review`. Step 3 is done (Prompt 71): the scheduler and the local store (section 10), and the rules for later steps (section 11). Step 4 is done (Prompt 72): the server actions, the synced store behind NEXT_PUBLIC_REVIEW_SYNC, the import, and check:review-db (section 12). Step 5 is done (Prompt 73): /review, the card-text action, the home card, the /progress line and the real-browser test (section 13).
+Status (Prompt 74): rollout steps 1 to 5 are done (sections 9 to 13). Step 6, the wrap-up, is written: the review section of `npm run test:prod-smoke` waits for the owner's production run with `NEXT_PUBLIC_REVIEW_SYNC=on`. The flag stays off in Production until that run passes.
 
 Goal: a `/review` page with a short daily session of spaced-repetition vocabulary cards, which turns the home "Daily review" card into a link. v1 stays simple.
 
@@ -133,13 +133,14 @@ Goal: a `/review` page with a short daily session of spaced-repetition vocabular
 
 ## 8. Rollout (one prompt each, as for progress)
 
-1. **Migration 0008:** `review_cards`, `apply_review()`, RLS and grants, rollback, rls.sql extended (own rows only, caps, idempotency, the 24-hour rule), db-setup.md. The owner runs it.
-2. **Content ids and validation:** vocab-ids.json, the stability and eligibility checks, a server-only vocab index for card text, the per-level free card JSON, and tests.
+1. **Done (Prompts 69 and 70).** **Migration 0008:** `review_cards`, `apply_review()`, RLS and grants, rollback, rls.sql extended (own rows only, caps, idempotency, the 24-hour rule), db-setup.md. The owner runs it.
+2. **Done (Prompt 70).** **Content ids and validation:** vocab-ids.json, the stability and eligibility checks, a server-only vocab index for card text, the per-level free card JSON, and tests.
    - As built (Prompt 70): the ids file is review-published-ids.json (vocab ids and card ids by lesson), the free cards are one file for A1 and A2 rather than one per level, and the paid cards are review-cards-paid.json, imported only by lib/review-cards-server.ts.
-3. **Scheduler and local store:** pure Leitner (lib/review-scheduler.ts) with tests (box moves, due dates in the local date, daily limits, ordering), and the local review store behind an interface like `ProgressStore`, with legacy-safe storage.
-4. **Sync:** the review entries in the outbox, the `syncReviewAction` and `getReviewAction` server actions (access-checked card text), the facade reuse, the import and local-attribution rules, tests, and check-progress-db extended.
-5. **Pages:** /review (session, summary, keyboard, mobile, no layout shift), the home card link, the due line on /progress, gating checks (paid card text never sent without access), and HTTP checks.
-6. **Wrap-up:**
+3. **Done (Prompt 71).** **Scheduler and local store:** pure Leitner (lib/review-scheduler.ts) with tests (box moves, due dates in the local date, daily limits, ordering), and the local review store behind an interface like `ProgressStore`, with legacy-safe storage.
+4. **Done (Prompt 72).** **Sync:** the review entries in the outbox, the `syncReviewAction` and `getReviewAction` server actions (access-checked card text), the facade reuse, the import and local-attribution rules, tests, and check-progress-db extended.
+5. **Done (Prompt 73).** **Pages:** /review (session, summary, keyboard, mobile, no layout shift), the home card link, the due line on /progress, gating checks (paid card text never sent without access), and HTTP checks.
+6. **Written, pending the owner's production run (Prompt 74).** **Wrap-up:**
+   - As built: test:progress-e2e got the review session in Prompt 73 (e2e/review.spec.ts). test:prod-smoke now has the review section (R0 to R5, see section 14). docs/db-setup.md has the size query and docs/project-state.md is updated.
    - test:progress-e2e gets a session (review, refresh, sync row, second device).
    - test:prod-smoke gets a session plus cleanup.
    - The preview checklist and size SQL get `review_cards`.
@@ -240,3 +241,19 @@ Goal: a `/review` page with a short daily session of spaced-repetition vocabular
 - **Home:** the "Daily review" card links to /review ("A few minutes a day to keep the words you've learned.").
 - **/progress:** a "Daily review:" line at the top ("N cards due today", "No cards due today", or nothing before any lesson is practised), read in the same pass as the progress. No header link.
 - **Privacy page:** it now says the daily review keeps card states (word, box, due time, counts) locally and, signed in, in Supabase.
+
+## 14. Wrap-up (Prompt 74)
+
+- **test:prod-smoke** (e2e/production-smoke.spec.ts) runs a review part after the progress part (serial), printing PASS or FAIL per step:
+  - **R0:** reads the value the live build inlined for NEXT_PUBLIC_REVIEW_SYNC from /review's JavaScript. Unless it's exactly "on", it fails at once with "Review sync is not on in production; set it to exactly on and redeploy without the build cache."
+  - **R1:** practise A1 "greetings" (8 cards), open /review, answer 3, refresh: it resumes at "1 / 5" with the counts right.
+  - **R2:** finish; the summary shows, and 8 answered rows exist, read through the account's own session.
+  - **R3:** a second browser context shows the same "Daily review" line on /progress (it would offer the 8 cards as new if the rows hadn't synced), and "All done for today" on /review.
+  - **R4:** sign out; /review shows the empty state and the sign-in line.
+  - **R5:** delete the account's review and progress rows with its own delete policies, and check none are left. On a failure it prints the cleanup SQL.
+- **Deliberately out of v1:**
+  - manual saving (a "save this word" button; saved_vocab stays unused)
+  - English → French cards (and typed answers)
+  - a gender note for the 190 `l'` words (a content task with native review: docs/review-content-todo.md)
+  - audio
+  - streaks, and syncing the daily log (the limits count per device)
