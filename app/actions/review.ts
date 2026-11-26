@@ -6,14 +6,14 @@
 //   Without Supabase config there is no user, so every action answers { status: "signed-out" }.
 // - Card ids are checked against lib/generated/review-card-ids.json, imported as a module (ids and
 //   levels only, no card text; nothing here reads files or imports lib/lessons.ts).
-// - Every card needs access (an active purchase; the daily review is part of lifetime access),
+// - Every card needs access (hasActiveEntitlement: a lifetime purchase or a subscription in its paid period),
 //   checked at most once per call: without it, writes are rejected per entry (no_access) and reads
 //   return no cards. Stored rows are kept, so a learner who pays later gets them back.
 // - Writes go only through apply_review (0008) with the user's own session client. Logs carry error
 //   codes only, never inputs.
 import { getCurrentUser } from "@/lib/current-user";
-import { hasActivePurchase, type EntitlementClient } from "@/lib/entitlement";
 import cardIds from "@/lib/generated/review-card-ids.json";
+import { hasActiveEntitlement } from "@/lib/purchases";
 import { createClient } from "@/lib/supabase/server";
 import type { ReviewIdIndex } from "@/lib/review-catalogue";
 import { reviewDb } from "@/lib/review-db";
@@ -37,14 +37,14 @@ async function session(expectedUserId: unknown): Promise<{ userId: string; supab
   return { userId: user.id, supabase };
 }
 
-const accessFor = (supabase: Client, userId: string) => () => hasActivePurchase(supabase as unknown as EntitlementClient, userId, "lessons");
+const accessFor = (userId: string) => () => hasActiveEntitlement(userId, "lessons");
 
 /** The signed-in user's cards, read with RLS; paid-level cards only with access. Writes nothing. */
 export async function getReviewAction(expectedUserId: string): Promise<ReviewGetReply> {
   const s = await session(expectedUserId);
   if ("status" in s) return s;
   try {
-    return await runReviewGet({ userId: s.userId, index: INDEX, db: reviewDb(s.supabase, s.userId), hasAccess: accessFor(s.supabase, s.userId) });
+    return await runReviewGet({ userId: s.userId, index: INDEX, db: reviewDb(s.supabase, s.userId), hasAccess: accessFor(s.userId) });
   } catch (error) {
     logCode("get", error);
     return { status: "unavailable" };
@@ -57,7 +57,7 @@ export async function syncReviewAction(input: unknown): Promise<ReviewSyncReply>
   const s = await session(expected);
   if ("status" in s) return s;
   try {
-    return await runReviewSync(input, { userId: s.userId, index: INDEX, nowMs: Date.now(), db: reviewDb(s.supabase, s.userId), hasAccess: accessFor(s.supabase, s.userId) });
+    return await runReviewSync(input, { userId: s.userId, index: INDEX, nowMs: Date.now(), db: reviewDb(s.supabase, s.userId), hasAccess: accessFor(s.userId) });
   } catch (error) {
     logCode("sync", error);
     return { status: "unavailable" };

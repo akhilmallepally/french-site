@@ -1,7 +1,8 @@
 import "server-only";
+import { cache } from "react";
 import { createClient } from "@/lib/supabase/server";
 import type { ProductKey } from "@/lib/payments/types";
-import { hasActivePurchase, type EntitlementClient } from "@/lib/entitlement";
+import { checkAccess, type AccessClient } from "@/lib/entitlement";
 
 export type ActivePricing = {
   product: ProductKey;
@@ -30,24 +31,31 @@ function errorCode(error: unknown): string {
   return "unknown";
 }
 
-/**
- * Checks whether a user has an active entitlement for the specified product.
- * Uses the authenticated user's session client and respects Row Level Security.
- * Fails closed (returns false) on any missing config or database error.
- */
-export async function hasActiveEntitlement(
-  userId: string,
-  product: ProductKey = "lessons"
-): Promise<boolean> {
+// Once per request and product: React's cache() is scoped to the request, so a page whose lesson
+// gate, pricing slot and locks all ask makes one has_access() call. userId is the key and proof of a
+// session (callers pass getCurrentUser()'s id; signed-out visitors never get here); has_access()
+// itself answers for the session's user (auth.uid()), never for an id passed in.
+const entitlementFor = cache(async (_userId: string, product: ProductKey): Promise<boolean> => {
   try {
     const supabase = await createClient();
     if (!supabase) return false;
-    // At least one active purchase (refunded and disputed don't count); see lib/entitlement.ts.
-    return await hasActivePurchase(supabase as unknown as EntitlementClient, userId, product);
+    return await checkAccess(supabase as unknown as AccessClient, product, (code) =>
+      console.warn("[purchases] hasActiveEntitlement failed, code:", code),
+    );
   } catch (error) {
     console.warn("[purchases] hasActiveEntitlement failed, code:", errorCode(error));
     return false;
   }
+});
+
+/**
+ * The one access check (docs/plans/subscription.md, section 3): a lifetime purchase, or a
+ * subscription inside its paid period (plus the 7-day grace when active or past_due), decided by
+ * public.has_access() with the session's own client, under RLS. Every access check in the app goes
+ * through here. Fails closed (false) on missing config or any database error.
+ */
+export function hasActiveEntitlement(userId: string, product: ProductKey = "lessons"): Promise<boolean> {
+  return entitlementFor(userId, product);
 }
 
 /**

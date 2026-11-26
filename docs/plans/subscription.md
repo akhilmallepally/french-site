@@ -1,6 +1,6 @@
 # Subscription plan (Pricing v2, Part B)
 
-Status: step 1 (0010) has run in Supabase. Step 2 (the subscription webhooks, with 0011) is built (Prompt 78); 0011 waits for the owner to run it. Steps 3 to 6 are next. The owner's decisions are in section 8.
+Status: step 1 (0010) has run in Supabase. Step 2 (the subscription webhooks, with 0011) is built (Prompt 78). Step 3 (entitlement over time) is built and the payload capture is removed (Prompt 79). Steps 4 to 6 are next. The owner's decisions are in section 8.
 
 Decisions already made (owner, Prompt 76):
 - The founding offer ($8 once, lifetime access) ends at 2026-12-31T16:59:00Z (23:59 in Bangkok), or earlier when the 100 founder spots are gone.
@@ -166,6 +166,15 @@ A new table, `subscriptions` (migration 0010), rather than more columns on `purc
    - Owner, in test mode: create the $12/year product (20-year period, no trial), set the grace period (7 days), switch on retries, switch off immediate cancellation.
    - Code: parse and handle the events in section 2. test:webhook covers each event and its payload (checked against the dashboard's "Send example" and a real test-mode delivery), idempotency, out-of-order events and the refund path.
 3. **Entitlement over time:** every access check uses the new entitlement. Tests with an injected clock: active, renewed, past_due inside and after the grace, cancelled at period end before and after, refunded, disputed and won, lifetime plus subscription, and duplicate subscriptions.
+   - **As built (Prompt 79):**
+     - **One helper:** `hasActiveEntitlement(userId, product)` (lib/purchases.ts) calls `has_access()` with the session's own client (lib/entitlement.ts, `checkAccess`). It sends no time, so the database clock decides. It's cached once per request (React `cache()`), and fails closed.
+     - **Call sites** (all unchanged in shape, so the streaming slots are as before): lesson gating with the paywall and sign-in panel (lib/auth.ts), the pricing slot, /review, the /practice locks, the review read and sync actions, the card-text action, the banner's access action, checkout's "already has access", and the success page and its poll. lib/access.test.ts fails if any other code decides access.
+     - **No SQL change:** `has_access()` already takes the time as `p_now`, which the tests use as the injected clock.
+     - **Tests:**
+       - supabase/tests/access-over-time.sql (run by test:sql) walks every case through `has_access()`, with progress and review cards kept.
+       - lib/access-over-time.test.ts runs the app's check against the real function in PGlite: the review loses paid cards, their text and paid writes at once when access lapses, and gets them back on renewal.
+     - **The /progress due line** re-renders when a server answer changes the remembered access.
+     - **Wording for step 4:** a subscriber still sees "You have lifetime access" on /pricing and "Lifetime access" locks. No one can subscribe before step 4, which changes the wording.
 4. **The switch:** the pricing card, paywall and sign-in panel after the deadline (and after the spots run out). Checkout creates the subscription checkout, with a price-changed check against `subscription_price_cents`. Tests use an injected clock across the deadline: an open page switches, and $8 is refused while $12/year is offered.
 5. **Manage subscription and pages:** the /progress box, the portal action, and the terms, refund and privacy updates.
 6. **Test-mode end to end, then production:**
@@ -191,7 +200,6 @@ A new table, `subscriptions` (migration 0010), rather than more columns on `purc
 4. **Developers → Webhooks → Add endpoint** (in test mode). Point it at a deployment of this site that has these environment variables:
    - `PAYMENTS_API_KEY`: a **test** key (`dodo_test_…`)
    - `PAYMENTS_WEBHOOK_SECRET`: the endpoint's signing secret (`whsec_…`)
-   - `PAYMENTS_CAPTURE_PAYLOADS=on`
    - Use a Vercel Preview with its own test keys, never Production. If Vercel's Deployment Protection is on for Previews, add a protection bypass for automation, or the webhook can't reach the route.
    - The URL is `https://<preview>/api/webhooks/payments`.
    - Subscribe it to every `subscription.*`, `payment.*`, `refund.*` and `dispute.*` event.
@@ -201,13 +209,10 @@ A new table, `subscriptions` (migration 0010), rather than more columns on `purc
    - Cancel it in the customer portal (cancel at the next billing date).
    - Then make a second subscription with card 4000 0000 0000 0341 and move its `next_billing_date` close (PATCH /subscriptions/{id}, a time ending in Z), to get a failed renewal, `past_due` and `on_hold`.
    - Refund one test payment from the dashboard.
-6. **Read the payloads:**
-   - With the flag on and a test key, the route logs the **shape** of each **verified** payload as one line starting `[payments:capture]` (lib/payments/capture.ts), after the signature check and never with a live key.
-   - **What's logged (Prompt 78):** the event type, the ids (with their values), status-like values, and every other field's name and type. Emails, names, phone numbers, addresses, card holder, tax ids and free text appear only as `[masked]`.
-   - Only server configuration turns it on (the flag AND a `dodo_test_` key); nothing in a payload can.
-   - **It's temporary:** the capture is removed once the payloads are confirmed, in rollout step 3 at the latest.
-   - In Vercel: the Preview deployment → **Logs** → filter "payments:capture". Copy the lines into a file for step 2. Test-mode payloads hold only test customers' details.
-7. Switch `PAYMENTS_CAPTURE_PAYLOADS` off again (unset it) when done.
+6. **Check the deliveries:**
+   - The payload capture (`PAYMENTS_CAPTURE_PAYLOADS`, lib/payments/capture.ts) was removed in Prompt 79, once the 13 "Send example" payloads had confirmed the shapes. The app logs no payload, whatever the environment says.
+   - Check real test-mode deliveries in Dodo's own webhook delivery log (each request and our response), and in the rows the webhook writes (`subscriptions`, `subscription_payments`, `unmatched_payment_events`).
+7. If `PAYMENTS_CAPTURE_PAYLOADS` was ever set on a deployment, delete it there: it no longer does anything.
 
 ## 9. The open questions (answered in section 8)
 

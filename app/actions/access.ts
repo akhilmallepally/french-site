@@ -1,5 +1,5 @@
 "use server";
-// Whether the signed-in learner has access (an active purchase), for hiding the founding-offer
+// Whether the signed-in learner has access (hasActiveEntitlement), for hiding the founding-offer
 // banner. The client calls it only when the browser holds a session cookie, so signed-out visitors
 // make no call, and it never blocks a page: the banner is in the static page and this answers after.
 import { getCurrentUser } from "@/lib/current-user";

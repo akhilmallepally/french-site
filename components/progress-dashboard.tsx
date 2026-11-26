@@ -7,7 +7,7 @@ import { summarize, type CatalogueLesson, type Summary } from "@/lib/progress-su
 import { levelAnchor, practiceHref, unitAnchor, writingTaskHref } from "@/lib/practice";
 import cardIndex from "@/lib/generated/review-card-ids.json";
 import { reviewStore, type ReviewData } from "@/lib/review";
-import { rememberedAccess, sessionUser } from "@/lib/review-access";
+import { onAccessChange, rememberedAccess, sessionUser } from "@/lib/review-access";
 import type { ReviewIdIndex } from "@/lib/review-catalogue";
 import { calendarFor, deckIndex, practisedLessons } from "@/lib/review-scheduler";
 import { dueLine, todayCounts } from "@/lib/review-session";
@@ -55,10 +55,13 @@ export function ProgressDashboard({ catalogue, levelNames }: { catalogue: Catalo
     void load();
     const unsubscribe = progressStore.subscribe(() => void load());
     const unsubscribeReview = reviewStore.subscribe(() => void load());
+    // A lapse or a renewal, learnt on this page (the banner's access check), shows at once.
+    const unsubscribeAccess = onAccessChange(() => void load());
     return () => {
       active = false;
       unsubscribe();
       unsubscribeReview();
+      unsubscribeAccess();
     };
   }, []);
 

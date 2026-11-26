@@ -15,7 +15,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { createClient } from "@supabase/supabase-js";
-import { hasActivePurchase, type EntitlementClient } from "../lib/entitlement.ts";
+import { checkAccess, type AccessClient } from "../lib/entitlement.ts";
 import type { ReviewIdIndex } from "../lib/review-catalogue.ts";
 import { reviewDb } from "../lib/review-db.ts";
 import { toItem } from "../lib/review-outbox.ts";
@@ -56,7 +56,7 @@ if (signInError || !signIn.user) {
 }
 const userId = signIn.user.id;
 const db = reviewDb(supabase, userId);
-const realAccess = () => hasActivePurchase(supabase as unknown as EntitlementClient, userId, "lessons");
+const realAccess = () => checkAccess(supabase as unknown as AccessClient, "lessons");
 const ms = (offset: number) => new Date(Date.now() + offset).toISOString();
 const H = 3600_000;
 

@@ -98,7 +98,7 @@ In the SQL Editor, for each file below, paste the whole file, click **Run**, and
 2. Paste the whole of `supabase/tests/rls.sql` (it now needs 0001 to 0011), click **Run**, and check that the last notice is "PASS: ALL RLS CHECKS PASSED".
 3. Undo: `supabase/rollback/0011_subscription_webhooks.sql`.
 
-`npm run test:sql` runs every migration twice in real Postgres (PGlite), then rls.sql, then rollback_all.sql and every migration again. Every SQL file you're asked to run has passed it.
+`npm run test:sql` runs every migration twice in real Postgres (PGlite), then rls.sql, then supabase/tests/access-over-time.sql (has_access() through a subscription's life, with an injected clock), then rollback_all.sql and every migration again. Every SQL file you're asked to run has passed it. access-over-time.sql also runs in the SQL editor, but you don't need to run it.
 
 **Subscriptions (0010), your steps in the Supabase SQL editor:**
 

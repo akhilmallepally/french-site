@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "Every unit review and level review of the French course in one place, with your best score on each.",
 };
 
-// One access check per request, however many paid levels ask.
+// One sign-in check and one access check per request, however many paid levels ask.
 const hasPaidAccess = cache(async (): Promise<boolean> => {
   const user = await getCurrentUser();
   return user ? hasActiveEntitlement(user.id, "lessons") : false;

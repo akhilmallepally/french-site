@@ -594,43 +594,30 @@ assert(
   );
   assert(stale.status === 401, "the route refuses a stale timestamp with 401");
 
-  // 5.11 Capturing payloads in test mode (docs/plans/subscription.md, decision 1): only with the flag
-  // AND a Dodo test key, and only after the signature check.
-  const { captureEnabled, capturePayload } = await import("../lib/payments/capture.ts");
-  assert(captureEnabled({ PAYMENTS_CAPTURE_PAYLOADS: "on" }, "dodo_test_abc") === true, "capture: on with the flag and a test key");
-  assert(captureEnabled({ PAYMENTS_CAPTURE_PAYLOADS: "on" }, "dodo_live_abc") === false, "capture: never with a live key");
-  assert(captureEnabled({ PAYMENTS_CAPTURE_PAYLOADS: "true" }, "dodo_test_abc") === false, "capture: the flag must be exactly 'on'");
-  assert(captureEnabled({}, "dodo_test_abc") === false, "capture: off by default");
-  const lines = [];
-  const examples = JSON.parse(fs.readFileSync(path.join(process.cwd(), "scripts", "fixtures", "dodo-webhook-examples.json"), "utf8")).events;
-  for (const e of Object.values(examples)) capturePayload(JSON.stringify(e), (l) => lines.push(l));
-  const all = lines.join("\n");
-  assert(lines.length === 13 && lines.every((l) => l.startsWith("[payments:capture] ")), "capture: one line per payload");
-  assert(all.includes('type = "subscription.renewed"') && all.includes('data.subscription_id = "sub_7EeHq2ewQuadropD2ra"') && all.includes("data.next_billing_date: string") && all.includes("data.amount: string"), "capture: the event type, ids and field names with types (the shape)");
-  const personal = ["learner@example.com", "Test user", "John Doe", "Jane Doe", "New York", "11th Main", "08002", "+15555550100", "+447700900123", "DE999999999", "Example GmbH", "Switching to a competitor", "too_expensive", "0119", "fraudulent"];
-  assert(personal.every((p) => !all.includes(p)), `capture: no email, name, phone, address, tax id or free text (found: ${personal.filter((p) => all.includes(p)).join(", ") || "none"})`);
-  assert(all.includes("data.customer.email: [masked]") && all.includes("data.billing.street: [masked]"), "capture: personal fields appear only as [masked]");
-  assert(captureEnabled({ PAYMENTS_CAPTURE_PAYLOADS: undefined }, "dodo_test_abc") === false && !String(captureEnabled).includes("rawBody"), "capture: turned on by server configuration only, never by the payload");
-
+  // 5.11 The payload capture is gone (removed in rollout step 3, Prompt 79, once the payloads were
+  // confirmed): no module, and a verified test-mode payload is never logged, whatever the env says.
+  assert(!fs.existsSync(path.join(process.cwd(), "lib", "payments", "capture.ts")), "capture: lib/payments/capture.ts is removed");
+  const routeSrc = fs.readFileSync(path.join(process.cwd(), "app", "api", "webhooks", "payments", "route.ts"), "utf8");
+  assert(!/capture|PAYMENTS_CAPTURE_PAYLOADS/i.test(routeSrc), "capture: the route has no capture call or env check");
   const realInfo = console.info;
-  const captured = [];
-  console.info = (...args) => captured.push(args.join(" "));
+  const realLog = console.log;
+  const realWarn = console.warn;
+  const logged = [];
+  console.info = (...args) => logged.push(args.join(" "));
+  console.warn = (...args) => logged.push(args.join(" "));
   process.env.PAYMENTS_CAPTURE_PAYLOADS = "on";
   try {
-    await POST(new Request("http://localhost/api/webhooks/payments", { method: "POST", body: dodoRawBody, headers: { "webhook-id": "msg_bad", "webhook-timestamp": ts, "webhook-signature": `v1,${badSig}` } }));
-    assert(!captured.some((l) => l.startsWith("[payments:capture]")), "capture: nothing is logged for a bad signature");
     const freshTs = String(Math.floor(Date.now() / 1000));
     const goodSig = crypto.createHmac("sha256", testSecret).update(`msg_cap.${freshTs}.${dodoRawBody}`).digest("base64");
+    console.log = (...args) => logged.push(args.join(" "));
     await POST(new Request("http://localhost/api/webhooks/payments", { method: "POST", body: dodoRawBody, headers: { "webhook-id": "msg_cap", "webhook-timestamp": freshTs, "webhook-signature": `v1,${goodSig}` } })).catch(() => null);
-    assert(captured.some((l) => l.startsWith("[payments:capture] ") && l.includes('"payment.succeeded"')), "capture: a verified test-mode payload is logged");
-    captured.length = 0;
-    process.env.PAYMENTS_API_KEY = "dodo_live_key";
-    await POST(new Request("http://localhost/api/webhooks/payments", { method: "POST", body: dodoRawBody, headers: { "webhook-id": "msg_cap2", "webhook-timestamp": freshTs, "webhook-signature": `v1,${goodSig}` } })).catch(() => null);
-    assert(!captured.some((l) => l.startsWith("[payments:capture]")), "capture: nothing is logged with a live key, even with the flag on");
+    console.log = realLog;
+    assert(!logged.some((l) => l.includes("[payments:capture]") || l.includes(dodoRawBody)), "capture: a verified test-mode payload is never logged, even with the old flag set");
   } finally {
     console.info = realInfo;
+    console.log = realLog;
+    console.warn = realWarn;
     delete process.env.PAYMENTS_CAPTURE_PAYLOADS;
-    process.env.PAYMENTS_API_KEY = "dodo_test_key";
   }
   delete process.env.NEXT_PUBLIC_SUPABASE_URL;
   delete process.env.SUPABASE_SERVICE_ROLE_KEY;

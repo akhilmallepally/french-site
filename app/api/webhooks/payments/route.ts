@@ -3,7 +3,6 @@ import { getPaymentsConfig, getSupabaseAdminConfig } from "@/lib/payments/config
 import { getPaymentProvider } from "@/lib/payments/provider";
 import { revalidateTag } from "next/cache";
 import { processWebhookEvent } from "@/lib/payments/webhook";
-import { captureEnabled, capturePayload } from "@/lib/payments/capture";
 import { PRICING_TAG, pricingChangingOutcome } from "@/lib/pricing-source";
 
 export async function POST(request: Request) {
@@ -30,9 +29,6 @@ export async function POST(request: Request) {
     console.warn(`[payments:route] Invalid webhook signature or stale timestamp for ${provider.name}`);
     return new Response("Invalid signature", { status: 401 });
   }
-
-  // 3b. Test mode only: log the verified payload, to confirm Dodo's shapes (lib/payments/capture.ts).
-  if (captureEnabled(process.env, paymentsConfig.apiKey)) capturePayload(rawBody);
 
   // 4. Parse the event payload
   const event = await provider.parseWebhookEvent(rawBody);

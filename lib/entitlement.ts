@@ -1,27 +1,39 @@
-// Whether a user has access: at least one ACTIVE purchase of the product. Refunded and disputed
-// purchases don't count (their status is "refunded" or "disputed", set by the payments webhook), and
-// two active purchases (a duplicate charge, before its refund) still mean access. Pure apart from the
-// client passed in, so lib/pricing-offer.test.ts can test it with a fake.
-
-type Result = PromiseLike<{ data: { id: unknown }[] | null; error: unknown }>;
+// Whether the signed-in learner has access, as the database decides it: public.has_access()
+// (migration 0010), called with the learner's own session client. One rule, in one place:
+//   - an active lifetime purchase (refunded and disputed don't count; duplicates are fine); or
+//   - a subscription that is active or past_due, until current_period_end plus the 7-day grace; or
+//   - a subscription cancelled at the period end, until current_period_end (no grace after it).
+// has_access() is security invoker and reads auth.uid(), so it can only ever answer for the session's
+// own user. No time is sent: the database's clock decides (tests inject one through p_now).
+// Pure apart from the client passed in, so lib/access.test.ts tests it with a fake. The only caller
+// in the app is hasActiveEntitlement, in lib/purchases.ts.
 
 /** The part of a Supabase client the check needs. */
-export type EntitlementClient = {
-  from(table: "purchases"): {
-    select(columns: "id"): {
-      eq(column: "user_id", value: string): { eq(column: "product", value: string): { eq(column: "status", value: "active"): { limit(n: 1): Result } } };
-    };
-  };
+export type AccessClient = {
+  rpc(fn: "has_access", args: { p_product: string }): PromiseLike<{ data: unknown; error: unknown }>;
 };
 
-/** True when at least one active purchase exists. Fails closed (false) on any error. */
-export async function hasActivePurchase(client: EntitlementClient, userId: string, product: string): Promise<boolean> {
+/** The error's code (a Postgres/PostgREST code, or its name), never its message. */
+function codeOf(error: unknown): string {
+  if (error && typeof error === "object") {
+    const { code, name } = error as { code?: unknown; name?: unknown };
+    if (typeof code === "string" && code) return code;
+    if (typeof name === "string" && name) return name;
+  }
+  return "unknown";
+}
+
+/** True only when has_access() answers true. Fails closed (false) on any error or other answer. */
+export async function checkAccess(client: AccessClient, product: string, onError?: (code: string) => void): Promise<boolean> {
   try {
-    // limit(1), not maybeSingle(): maybeSingle() errors on two rows, which made a learner with a
-    // duplicate charge look unpaid.
-    const { data, error } = await client.from("purchases").select("id").eq("user_id", userId).eq("product", product).eq("status", "active").limit(1);
-    return !error && Array.isArray(data) && data.length > 0;
-  } catch {
+    const { data, error } = await client.rpc("has_access", { p_product: product });
+    if (error) {
+      onError?.(codeOf(error));
+      return false;
+    }
+    return data === true;
+  } catch (error) {
+    onError?.(codeOf(error));
     return false;
   }
 }

@@ -82,10 +82,12 @@ describe("the access check can't be reached from a request (Prompt 73, item 0)",
     const review = source("app/actions/review.ts");
     const calls = review.match(/runReview(?:Sync|Get)\([^;]*\)/g) ?? [];
     assert.equal(calls.length, 2);
-    for (const c of calls) assert.match(c, /hasAccess: accessFor\(s\.supabase, s\.userId\)/);
-    assert.match(review, /const accessFor = \(supabase: Client, userId: string\) => \(\) => hasActivePurchase\(/);
+    for (const c of calls) assert.match(c, /hasAccess: accessFor\(s\.userId\)/);
+    // The one access check (Prompt 79): hasActiveEntitlement, for the session's user.
+    assert.match(review, /const accessFor = \(userId: string\) => \(\) => hasActiveEntitlement\(userId, "lessons"\);/);
     const text = source("app/actions/review-text.ts");
     assert.match(text, /runCardText\(cardIds, \{ lookup: getReviewCard, hasAccess: sessionHasAccess \}\)/);
+    assert.match(text, /const user = await getCurrentUser\(\);\s*return user \? hasActiveEntitlement\(user\.id, "lessons"\) : false;/);
     for (const f of [review, text]) assert.ok(!/process\.env|headers\(\)|searchParams/.test(f), "no env, header or query read");
     // The only "forced off" access is the database check script's own injected function.
     for (const f of ["app/actions/review.ts", "app/actions/review-text.ts", "lib/review-sync.ts", "lib/review-text.ts"]) {

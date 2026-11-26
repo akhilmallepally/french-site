@@ -4,30 +4,16 @@
 // and fails on any error or if rls.sql doesn't end with "PASS: ALL RLS CHECKS PASSED".
 // check:sql runs it too. Every SQL change must pass this before the owner is asked to run anything.
 //
-// What Supabase provides is stood in for at the start: the anon, authenticated and service_role
-// roles (service_role bypasses RLS, as in Supabase) and the auth schema (auth.users, auth.uid() from
-// request.jwt.claims). Nothing else is faked: the migrations and rls.sql run as written.
+// Then supabase/tests/access-over-time.sql: has_access() through a subscription's life with an
+// injected clock (rollout step 3), which must end with "PASS: ALL ACCESS-OVER-TIME CHECKS PASSED".
+//
+// What Supabase provides (the roles and the auth schema) is stood in for at the start, by
+// scripts/sql-harness.mjs. Nothing else is faked: the migrations and the tests run as written.
 import fs from "node:fs";
 import path from "node:path";
-import { PGlite } from "@electric-sql/pglite";
+import { migrationFiles, PGlite, readMigration, SUPABASE_STANDINS } from "./sql-harness.mjs";
 
 const root = process.cwd();
-const SUPABASE_STANDINS = `
-create role anon nologin;
-create role authenticated nologin;
-create role service_role nologin bypassrls;
-grant usage on schema public to anon, authenticated, service_role;
-create schema auth;
-grant usage on schema auth to anon, authenticated, service_role;
-create table auth.users (
-  id uuid primary key, email text, aud text, role text,
-  raw_user_meta_data jsonb default '{}'::jsonb, created_at timestamptz default now()
-);
-create function auth.uid() returns uuid language sql stable as $$
-  select nullif(current_setting('request.jwt.claims', true)::json ->> 'sub', '')::uuid
-$$;
-grant execute on function auth.uid() to anon, authenticated, service_role;
-`;
 
 const db = new PGlite();
 let failed = 0;
@@ -43,10 +29,9 @@ async function run(label, sql, onNotice) {
 }
 
 await run("Supabase stand-ins (roles, auth schema)", SUPABASE_STANDINS);
-const dir = path.join(root, "supabase", "migrations");
-const migrations = fs.readdirSync(dir).filter((f) => /^\d{4}_.*\.sql$/.test(f)).sort();
+const migrations = migrationFiles();
 for (const pass of ["", " (again)"]) {
-  for (const m of migrations) await run(`${m}${pass}`, fs.readFileSync(path.join(dir, m), "utf8"));
+  for (const m of migrations) await run(`${m}${pass}`, readMigration(m));
 }
 
 const notices = [];
@@ -62,6 +47,20 @@ if (left.rows[0].n !== 0) {
   console.log(`FAIL  rls.sql left ${left.rows[0].n} user(s) behind (it must end in ROLLBACK)`);
 }
 
+// Access over time: has_access() with an injected clock.
+const timeNotices = [];
+await run("supabase/tests/access-over-time.sql", fs.readFileSync(path.join(root, "supabase", "tests", "access-over-time.sql"), "utf8"), (n) => timeNotices.push(n.message));
+const timePasses = timeNotices.filter((n) => n.startsWith("PASS")).length;
+if (!timeNotices.includes("PASS: ALL ACCESS-OVER-TIME CHECKS PASSED")) {
+  failed++;
+  console.log(`FAIL  access-over-time.sql did not reach "PASS: ALL ACCESS-OVER-TIME CHECKS PASSED" (last notice: ${timeNotices.at(-1) ?? "none"})`);
+}
+const leftAfterTime = await db.query("select count(*)::int as n from auth.users");
+if (leftAfterTime.rows[0].n !== 0) {
+  failed++;
+  console.log(`FAIL  access-over-time.sql left ${leftAfterTime.rows[0].n} user(s) behind (it must end in ROLLBACK)`);
+}
+
 // The full undo, then a clean re-apply: rollback_all.sql really removes everything the migrations made.
 await run("supabase/rollback/rollback_all.sql", fs.readFileSync(path.join(root, "supabase", "rollback", "rollback_all.sql"), "utf8"));
 const leftover = await db.query(
@@ -71,12 +70,12 @@ if (leftover.rows[0].n !== 0) {
   failed++;
   console.log(`FAIL  rollback_all.sql left ${leftover.rows[0].n} table(s) in public`);
 }
-for (const m of migrations) await run(`${m} (after the rollback)`, fs.readFileSync(path.join(dir, m), "utf8"));
+for (const m of migrations) await run(`${m} (after the rollback)`, readMigration(m));
 await db.close();
 
 console.log(
   failed
     ? `\n${failed} problem(s).`
-    : `\nSQL runs in Postgres: ${migrations.length} migrations applied twice, rls.sql ${passes} PASS checks, nothing left behind.`,
+    : `\nSQL runs in Postgres: ${migrations.length} migrations applied twice, rls.sql ${passes} PASS checks, access-over-time.sql ${timePasses}, nothing left behind.`,
 );
 process.exit(failed ? 1 : 0);

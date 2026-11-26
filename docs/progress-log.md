@@ -696,3 +696,38 @@
 **Checks:** all pass.
 - validate:content, test:content, test:checker (36), test:review (90), test:progress (140), test:progress-e2e (7 of 7, then `npm run build`), tsc and build.
 - test:no-supabase-env, test:gating (on a fresh server), test:webhook (126), test:checkout (31), test:safe-next (7), check:sql and test:sql.
+
+## Subscription step 3 (entitlement over time), the payload capture removed (Prompt 79)
+
+**One helper:** `hasActiveEntitlement(userId, product)` in lib/purchases.ts is the only access check.
+- It calls `has_access()` (0010) with the session's own client, through `checkAccess` in lib/entitlement.ts, and sends no time (the database clock decides).
+- It's cached once per request and product (React `cache()`), and fails closed.
+- The old purchases-only check (`hasActivePurchase`) is gone.
+- Call sites:
+  - Changed: app/actions/review.ts and app/actions/review-text.ts (they used the old check directly); scripts/check-review-db.ts.
+  - Now through has_access, unchanged in shape: lib/auth.ts (lesson gating, the paywall and sign-in panel), app/pricing/page.tsx, app/review/page.tsx, app/practice/page.tsx (only its comment changed), app/actions/access.ts (the banner), app/actions/checkout.ts (the "already has access" check and the poll), app/checkout/success/page.tsx.
+  - /api/founder-offer stays shared and makes no access call.
+- The streaming slots are unchanged.
+
+**Time cases** (injected clock):
+- supabase/tests/access-over-time.sql (in test:sql, 47 checks): lifetime only; active; renewed; past_due inside and after the 7-day grace (exact boundaries); on_hold; back after paying; cancelled at the period end, before, at and after it; expired; refunded; disputed, won, then lost; lifetime plus a subscription; two subscriptions. Progress and review cards are kept throughout.
+- lib/access-over-time.test.ts (in test:sql): the app's `checkAccess` against the real `has_access()` in PGlite. When access lapses, the review loses paid cards, their text and paid writes at once, the stored cards stay, and renewal brings them back.
+- lib/access.test.ts (in test:checkout): `checkAccess` fails closed and sends only the product; the call sites are exactly the list above; nothing else reads purchases or subscriptions for access; the request cache; no access call without a session user.
+- scripts/sql-harness.mjs: the shared PGlite setup.
+
+**UI:** the /progress due line re-renders when a server answer changes the remembered access (lib/review-access.ts, `onAccessChange`).
+
+**Capture removed:**
+- lib/payments/capture.ts and the route's env check are gone. Test 5.11 now checks it's gone and that a verified test-mode payload is never logged, even with the old flag set.
+- The plan says so (rollout steps 3 and 6, setup step 4).
+
+**.gitignore:** the file in the project root is named `dodopayments.txt`, not `dodo-payloads.txt`. Both names are ignored (`git check-ignore` confirms).
+
+**Test fix:** lib/review-text.test.ts's wiring check now expects the new helper.
+
+**SQL for the owner:** none.
+
+**Checks:** all pass.
+- validate:content, test:content, test:checker (36), test:review (90), test:progress (140), test:progress-e2e (7 of 7, then `npm run build`), tsc and build.
+- test:no-supabase-env, test:gating (on a fresh server), test:webhook (117), test:checkout (33), test:safe-next (7).
+- check:sql and test:sql (11 migrations twice, rls.sql 406, access-over-time.sql 48, the app-side time test 8).

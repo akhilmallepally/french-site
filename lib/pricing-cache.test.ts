@@ -1,7 +1,6 @@
-// The shared (cached) price, its invalidation, and the entitlement check. Run: npm run test:checkout
+// The shared (cached) price and its invalidation. Run: npm run test:checkout (the access check is in lib/access.test.ts)
 import assert from "node:assert/strict";
 import { describe, test } from "node:test";
-import { hasActivePurchase, type EntitlementClient } from "./entitlement.ts";
 import { getPriceOffer, runCheckout, type PricingInput } from "./pricing-offer.ts";
 import { loadPricing, PricingReadError, pricingChangingOutcome, type PricingClient } from "./pricing-source.ts";
 
@@ -78,38 +77,6 @@ describe("cache invalidation on the payments webhook", () => {
   test("a purchase granted, refunded or disputed expires the shared price; no-ops don't", () => {
     for (const o of ["granted", "revoked", "revoked_out_of_order", "disputed"]) assert.equal(pricingChangingOutcome(o), true, o);
     for (const o of ["idempotent_no_op", "idempotent_concurrent", "already_refunded", "ignored", "unmatched_recorded"]) assert.equal(pricingChangingOutcome(o), false, o);
-  });
-});
-
-/** A fake purchases table that applies the same filters as PostgREST, including limit(1). */
-function purchases(rows: { user_id: string; product: string; status: string }[]): EntitlementClient {
-  return {
-    from: () => ({
-      select: () => ({
-        eq: (_c1: string, user: string) => ({
-          eq: (_c2: string, product: string) => ({
-            eq: (_c3: string, status: string) => ({
-              limit: async (n: number) => ({ data: rows.filter((r) => r.user_id === user && r.product === product && r.status === status).slice(0, n).map((_, i) => ({ id: i })), error: null }),
-            }),
-          }),
-        }),
-      }),
-    }),
-  } as unknown as EntitlementClient;
-}
-
-describe("entitlement (at least one active purchase)", () => {
-  const U = "user-1";
-  const p = (status: string) => ({ user_id: U, product: "lessons", status });
-  test("one active purchase", async () => assert.equal(await hasActivePurchase(purchases([p("active")]), U, "lessons"), true));
-  test("two active purchases (a duplicate charge)", async () => assert.equal(await hasActivePurchase(purchases([p("active"), p("active")]), U, "lessons"), true));
-  test("one active plus one refunded", async () => assert.equal(await hasActivePurchase(purchases([p("refunded"), p("active")]), U, "lessons"), true));
-  test("all refunded", async () => assert.equal(await hasActivePurchase(purchases([p("refunded"), p("refunded")]), U, "lessons"), false));
-  test("disputed", async () => assert.equal(await hasActivePurchase(purchases([p("disputed")]), U, "lessons"), false));
-  test("another user's purchase doesn't count", async () => assert.equal(await hasActivePurchase(purchases([{ user_id: "other", product: "lessons", status: "active" }]), U, "lessons"), false));
-  test("a database error fails closed", async () => {
-    const broken = { from: () => ({ select: () => ({ eq: () => ({ eq: () => ({ eq: () => ({ limit: async () => ({ data: null, error: { code: "57014" } }) }) }) }) }) }) } as unknown as EntitlementClient;
-    assert.equal(await hasActivePurchase(broken, U, "lessons"), false);
   });
 });
 

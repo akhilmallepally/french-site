@@ -24,11 +24,24 @@ export function rememberedAccess(userId: string | null): boolean {
   }
 }
 
+/** Fired on window when a server answer changes the remembered access (a lapse or a renewal). */
+export const ACCESS_CHANGED_EVENT = "parlons-access-changed";
+
 export function rememberAccess(userId: string | null, access: boolean): void {
   if (!userId || typeof window === "undefined") return;
+  const changed = rememberedAccess(userId) !== access;
   try {
     window.localStorage.setItem(KEY, JSON.stringify({ userId, access }));
   } catch {
     // Storage blocked: counts just start without paid cards.
   }
+  // A page already showing the old answer (the /progress due line) updates at once.
+  if (changed) window.dispatchEvent(new Event(ACCESS_CHANGED_EVENT));
+}
+
+/** Calls fn whenever a server answer changes the remembered access. Returns the unsubscribe. */
+export function onAccessChange(fn: () => void): () => void {
+  if (typeof window === "undefined") return () => {};
+  window.addEventListener(ACCESS_CHANGED_EVENT, fn);
+  return () => window.removeEventListener(ACCESS_CHANGED_EVENT, fn);
 }
