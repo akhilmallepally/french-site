@@ -31,9 +31,10 @@ describe("the Your access box, for each status", () => {
   test("active: renews on the period end, with Manage subscription", () => {
     assert.deepEqual(box("yes", false, [sub("active")]), { kind: "subscription", title: "Yearly access: renews on 1 March 2028", warn: false });
   });
-  test("cancelled at the period end: ends on it", () => {
+  test("cancelled at the period end: ends on it (Dodo keeps it active with the flag until then)", () => {
     assert.deepEqual(box("yes", false, [sub("cancelled", true)]), { kind: "subscription", title: "Yearly access: ends on 1 March 2028", warn: false });
     assert.deepEqual(box("yes", false, [sub("active", true)]), { kind: "subscription", title: "Yearly access: ends on 1 March 2028", warn: false });
+    assert.deepEqual(box("yes", false, [sub("past_due", true)]), { kind: "subscription", title: "Yearly access: ends on 1 March 2028", warn: false });
   });
   test("past_due: the payment problem, by the grace's last day (period end + 7 days)", () => {
     assert.deepEqual(box("yes", false, [sub("past_due", false, "2027-02-27T12:00:00.000Z")]), { kind: "subscription", title: "Payment problem: update your card by 6 March 2027", warn: true });

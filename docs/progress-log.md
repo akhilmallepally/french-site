@@ -863,3 +863,29 @@
   - The first test:progress-e2e run failed once in review.spec.ts: 0 of 10 review cards had synced to Supabase within 20 s. The re-run passed 7 of 7. Nothing in this prompt touches the review sync.
 - test:no-supabase-env, test:gating (on a fresh server), test:webhook (132), test:checkout (92), test:safe-next (7).
 - check:sql and test:sql (12 migrations, rls.sql 410, access-over-time.sql 48, the clean-up, 8).
+
+## Fix from the preview test: no grace after a cancellation (Prompt 83)
+
+**Cause (confirmed):** after "Cancel at next billing date", Dodo keeps the subscription `active` with `cancel_at_next_billing_date` true until the period ends. 0010's `has_access()` gave every `active` or `past_due` subscription the 7-day grace, so access ran 7 days past a cancelled year. The cancel phase caught it at e2e/subscription-preview.spec.ts:200.
+
+**Fix:** supabase/migrations/0013_cancel_no_grace.sql replaces `has_access()`.
+- Set to cancel (`cancel_at_period_end`), whatever the status (`active`, `past_due` or `cancelled`): access until `current_period_end` exactly.
+- Not set to cancel: `active` or `past_due` keep the 7-day grace (failed renewals).
+- Grants are unchanged. There's a rollback (supabase/rollback/0013_cancel_no_grace.sql), and rollback_all mentions it.
+
+**rls.sql** (now needs 0001 to 0013; it checks that 0013 is in):
+- active and set to cancel: a day before the period end, a day after and 6 days after;
+- past_due and set to cancel: before and after;
+- resuming (the flag cleared): the grace is back at 6 days, gone at 8.
+
+access-over-time.sql gained the same case in Dodo's own order (active with the flag): 51 checks.
+
+**Webhook:** `subscription.updated` already sets `cancel_at_period_end` from `cancel_at_next_billing_date`, and clears it when the learner resumes. test:webhook now covers resume, then cancel again.
+
+**Display:** `describeAccess` (lib/access-wording.ts) and the portal's `pickCustomerId` (lib/portal.ts) follow the same rule, so /progress shows "Yearly access: ends on <date>" for an active subscription set to cancel (tested for active, past_due and cancelled).
+
+**Preview test:** the cancel phase is re-runnable. If the subscription is already set to cancel, it skips the portal and only checks.
+
+**SQL for the owner, in order:** 0013, then rls.sql.
+
+**Checks:** all pass: test:sql and check:sql (13 migrations twice, rls.sql 417, access-over-time.sql 51, the clean-up, 8), test:webhook (134), test:checkout (93), tsc and build.

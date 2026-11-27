@@ -95,8 +95,8 @@ A new table, `subscriptions` (migration 0010), rather than more columns on `purc
 - **RLS, as for purchases:** a learner reads their own rows. Only the webhook's service role writes, through 0007-style exact grants. rls.sql is extended.
 - **Entitlement** (one function, used by every access check: lessons, review, the banner, checkout's "already has access"). Access when either holds:
   - an active lifetime purchase (as now: at least one, duplicates fine); or
-  - a subscription with status `active` or `past_due` and `now < current_period_end + 7 days` (the grace, recommendation below); or
-  - a `cancelled` subscription that was set to cancel at the period end and `now < current_period_end`.
+  - a subscription NOT set to cancel, with status `active` or `past_due`, and `now < current_period_end + 7 days` (the grace for a failed renewal, recommendation below); or
+  - a subscription set to cancel at the period end (`cancel_at_period_end`), with status `active`, `past_due` or `cancelled`, and `now < current_period_end` exactly: no grace after a cancellation (0013, Prompt 83). Dodo keeps such a subscription `active` until the period ends.
 - **Duplicate-charge safety (as Prompt 67):**
   - Any one entitling row is enough.
   - A second subscription by the same learner (two tabs) is allowed to exist, and the refund path ends only the refunded one.
@@ -283,7 +283,7 @@ Previews share the **production** database, so a test purchase writes real rows.
 **Setup (owner), once.** Steps 1 to 5 need no redeploy; step 6 is the redeploy.
 
 1. **Supabase:**
-   - Check that 0012 has run (docs/db-setup.md, `has_0012`). If not, run 0012, then rls.sql.
+   - Check that 0012 and 0013 have run (docs/db-setup.md, `has_0012` and `has_0013`). If not, run the missing ones in order, then rls.sql.
    - Authentication → Users → **Add user** → **Create new user**. Email `gmailprogresstest+subscription@gmail.com` (Gmail delivers it to the first test inbox, so Dodo's emails arrive there), a password, tick **Auto Confirm User**, then **Create user**.
    - In .env.local: `SUBSCRIPTION_TEST_EMAIL=gmailprogresstest+subscription@gmail.com` and `SUBSCRIPTION_TEST_PASSWORD=<the password>`.
 2. **Git:**

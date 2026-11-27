@@ -144,6 +144,15 @@ select access_test.expect_own_rows('L2 back: the same progress', 'a0000000-0000-
 select access_test.expect_own_rows('L2 back: the same review cards', 'a0000000-0000-4000-8000-000000000002', 'review_cards', 2);
 reset role;
 
+-- Set to cancel at the period end (subscription.updated with cancel_at_next_billing_date): Dodo keeps
+-- it active until the end. Access to the end of the paid year, and no grace after it (0013).
+update public.subscriptions set cancel_at_period_end = true, last_event_at = access_test.t('790 days') where provider_subscription_id = 'sub_access_l2';
+set local role authenticated;
+select access_test.expect('L2 active, set to cancel, a second before the period end', 'a0000000-0000-4000-8000-000000000002', '1105 days - 1 second', true);
+select access_test.expect('L2 active, set to cancel, at the period end (no grace)', 'a0000000-0000-4000-8000-000000000002', '1105 days', false);
+select access_test.expect('L2 active, set to cancel, 3 days after (no grace)', 'a0000000-0000-4000-8000-000000000002', '1108 days', false);
+reset role;
+
 -- Cancelled at the period end (subscription.cancelled after cancel_at_next_billing_date): access to
 -- the end of the paid year, and no grace after it.
 update public.subscriptions set status = 'cancelled', cancel_at_period_end = true, cancelled_at = access_test.t('800 days'), last_event_at = access_test.t('800 days')

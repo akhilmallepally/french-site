@@ -229,6 +229,12 @@ describe("what a subscriber is told (an injected clock)", () => {
     assert.deepEqual(line([sub("past_due", false, "2027-02-27T12:00:00.000Z")]), { text: "Payment problem: update your card", href: "/progress#your-access", tone: "warn" });
   });
 
+  test("set to cancel (0013): 'ends on' until the period end, then nothing to describe (no grace)", () => {
+    const end = "2027-02-28T12:00:00.000Z"; // the day before NOW
+    assert.deepEqual(line([sub("active", true, end)]), { text: "You have full access.", tone: "ok" }, "past the end: no row gives access by this rule");
+    assert.deepEqual(line([sub("past_due", true)]), { text: "Your access ends on 1 March 2028", tone: "ok" }, "past_due and set to cancel: ends on the period end");
+  });
+
   test("two subscriptions: the renewing one is described; ended rows are ignored", () => {
     assert.deepEqual(line([sub("refunded"), sub("cancelled", true, "2027-06-01T00:00:00.000Z"), sub("active", false, "2027-09-01T00:00:00.000Z")]), { text: "Your access renews on 1 September 2027", tone: "ok" });
     assert.deepEqual(line([sub("on_hold"), sub("expired"), sub("past_due", false, "2027-02-25T00:00:00.000Z")]), { text: "Payment problem: update your card", href: "/progress#your-access", tone: "warn" });

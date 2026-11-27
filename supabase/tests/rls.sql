@@ -1,8 +1,9 @@
 -- supabase/tests/rls.sql
 -- Proves the RLS rules (0003, 0005), the progress write path (0006), the service-role grants
 -- (0007), the daily-review write path (0008), the founder deadline (0009) and the subscriptions with
--- their entitlement (0010), the subscription webhooks' additions (0011) and the yearly price (0012) on
--- every table and every operation. Run it in the Supabase SQL editor (or psql) AFTER migrations 0001 to 0012. It runs in
+-- their entitlement (0010), the subscription webhooks' additions (0011), the yearly price (0012) and no
+-- grace after a cancellation (0013) on every table and every operation. Run it in the Supabase SQL
+-- editor (or psql) AFTER migrations 0001 to 0013. It runs in
 -- one transaction that ends in ROLLBACK, so it leaves nothing behind: no users, no rows, no test
 -- schema.
 --
@@ -621,6 +622,9 @@ begin
                   where table_schema = 'public' and table_name = 'pricing_settings' and column_name = 'subscription_price_cents') then
     raise exception 'FAIL: pricing_settings.subscription_price_cents is missing: run migration 0012 first';
   end if;
+  if pg_catalog.pg_get_functiondef('public.has_access(text, timestamp with time zone)'::regprocedure) not like '%not s.cancel_at_period_end%' then
+    raise exception 'FAIL: has_access() still gives the grace after a cancellation: run migration 0013 first';
+  end if;
   foreach t in array array['profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab', 'purchases', 'pricing_settings', 'unmatched_payment_events', 'review_cards', 'subscriptions', 'subscription_payments'] loop
     select c.relrowsecurity, c.relforcerowsecurity into rls, forced
       from pg_catalog.pg_class c join pg_catalog.pg_namespace n on n.oid = c.relnamespace
@@ -1224,6 +1228,30 @@ update public.subscriptions set status = 'on_hold' where provider_subscription_i
 select set_config('request.jwt.claims', '{"sub":"44444444-4444-4444-8444-444444444444","role":"authenticated"}', true);
 set local role authenticated;
 select rls_test.expect_access('on_hold, now', '0 seconds', false);
+reset role;
+
+-- 0013: set to cancel at the period end while still active (Dodo's own order: subscription.updated
+-- with cancel_at_next_billing_date, the status stays active until the end). No grace after it.
+update public.subscriptions set status = 'active', cancel_at_period_end = true where provider_subscription_id = 'sub_test_d_1';
+select set_config('request.jwt.claims', '{"sub":"44444444-4444-4444-8444-444444444444","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.expect_access('active, set to cancel, a day before the period end', '29 days', true);
+select rls_test.expect_access('active, set to cancel, a day after the period end (no grace)', '31 days', false);
+select rls_test.expect_access('active, set to cancel, 6 days after the period end (no grace)', '36 days', false);
+reset role;
+-- A failed renewal on a subscription that's set to cancel: still no grace past the period end.
+update public.subscriptions set status = 'past_due' where provider_subscription_id = 'sub_test_d_1';
+select set_config('request.jwt.claims', '{"sub":"44444444-4444-4444-8444-444444444444","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.expect_access('past_due, set to cancel, a day before the period end', '29 days', true);
+select rls_test.expect_access('past_due, set to cancel, a day after the period end (no grace)', '31 days', false);
+reset role;
+-- Un-cancelling (the learner resumes: subscription.updated clears the flag) brings the grace back.
+update public.subscriptions set status = 'active', cancel_at_period_end = false where provider_subscription_id = 'sub_test_d_1';
+select set_config('request.jwt.claims', '{"sub":"44444444-4444-4444-8444-444444444444","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.expect_access('resumed, 6 days after the period end (the grace is back)', '36 days', true);
+select rls_test.expect_access('resumed, 8 days after the period end (past the grace)', '38 days', false);
 reset role;
 
 -- Cancelled at the period end: access to the end of the paid year, no grace after it.
