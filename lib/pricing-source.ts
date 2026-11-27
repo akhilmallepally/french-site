@@ -51,7 +51,7 @@ function cents(v: unknown): number | null {
  * PricingReadError on any failure. `yearlyProductConfigured` comes from the server's config
  * (PAYMENTS_YEARLY_PRODUCT_ID); the caller passes it, so this stays free of env reads.
  */
-export async function loadPricing(client: PricingClient, product = "lessons", yearlyProductConfigured = false): Promise<PricingInput> {
+export async function loadPricing(client: PricingClient, product = "lessons", yearlyProductConfigured = false, forceAfterSwitch = false): Promise<PricingInput> {
   // Both calls at once: they don't depend on each other. "*" so the read still works before 0012
   // adds subscription_price_cents (the yearly plan then stays "coming soon").
   const [settings, spots] = await Promise.all([
@@ -76,5 +76,6 @@ export async function loadPricing(client: PricingClient, product = "lessons", ye
     founderEndsAt: new Date(settings.data.founder_ends_at).toISOString(),
     subscriptionPriceCents: cents(settings.data.subscription_price_cents),
     yearlyProductConfigured,
+    ...(forceAfterSwitch ? { forceAfterSwitch: true } : {}),
   };
 }

@@ -3,6 +3,7 @@ import { cache } from "react";
 import { createClient } from "@/lib/supabase/server";
 import type { ProductKey } from "@/lib/payments/types";
 import { getYearlyProductId } from "@/lib/payments/config";
+import { testSwitchAfter } from "@/lib/test-switch";
 import { checkAccess, type AccessClient, type AccessState } from "@/lib/entitlement";
 import { describeAccess, type AccessDetails, type SubscriptionRow } from "@/lib/access-wording";
 import type { PortalRow } from "@/lib/portal";
@@ -127,7 +128,8 @@ export async function getActivePricing(product: ProductKey = "lessons"): Promise
   try {
     const supabase = await createClient();
     if (!supabase) return fallback;
-    return { ...(await loadPricing(supabase as unknown as PricingClient, product, yearlyProductConfigured)), product };
+    // Checkout honours the same test-mode override as the pages (Prompt 82): never the founder price there.
+    return { ...(await loadPricing(supabase as unknown as PricingClient, product, yearlyProductConfigured, testSwitchAfter(process.env))), product };
   } catch (error) {
     console.warn("[purchases] getActivePricing failed, code:", error instanceof PricingReadError ? error.code : errorCode(error));
     return fallback;

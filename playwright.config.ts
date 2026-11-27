@@ -6,7 +6,9 @@ const PORT = 3200;
 
 export default defineConfig({
   testDir: "e2e",
-  testIgnore: ["production-smoke.spec.ts"], // live-site test: npm run test:prod-smoke (playwright.prod.config.ts)
+  // Live-site test: npm run test:prod-smoke (playwright.prod.config.ts). Preview subscription test:
+  // npm run test:subscription-preview (playwright.preview.config.ts).
+  testIgnore: ["production-smoke.spec.ts", "subscription-preview.spec.ts"],
   fullyParallel: false,
   workers: 1,
   retries: 0,

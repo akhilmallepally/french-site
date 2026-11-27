@@ -61,6 +61,39 @@ if (leftAfterTime.rows[0].n !== 0) {
   console.log(`FAIL  access-over-time.sql left ${leftAfterTime.rows[0].n} user(s) behind (it must end in ROLLBACK)`);
 }
 
+// The preview test's clean-up (Prompt 82): it removes the second test account's subscriptions and
+// payments, and leaves the lifetime test account's (and its own progress) alone.
+{
+  const second = "c0000000-0000-4000-8000-000000000001";
+  const first = "c0000000-0000-4000-8000-000000000002";
+  const seed = `
+    insert into auth.users (id, email, aud, role) values
+      ('${second}', 'GmailProgressTest+Subscription@gmail.com', 'authenticated', 'authenticated'),
+      ('${first}', 'gmailprogresstest@gmail.com', 'authenticated', 'authenticated');
+    insert into public.subscriptions (user_id, product, provider, provider_subscription_id, status, current_period_end)
+      values ('${second}', 'lessons', 'dodo', 'sub_cleanup_a', 'refunded', now()), ('${second}', 'lessons', 'dodo', 'sub_cleanup_b', 'past_due', now()),
+             ('${first}', 'lessons', 'dodo', 'sub_cleanup_keep', 'active', now() + interval '1 year');
+    insert into public.subscription_payments (subscription_id, user_id, provider_payment_id, charge_type, status, amount)
+      select s.id, s.user_id, 'pay_' || s.provider_subscription_id, 'new', 'succeeded', 1200 from public.subscriptions as s;
+    insert into public.lesson_progress (user_id, lesson_id, status, best_score, best_total, last_run_at)
+      values ('${second}', 'b1-cleanup-lesson', 'in_progress', 1, 5, now());`;
+  await run("cleanup seed (two accounts)", seed);
+  await run("supabase/cleanup/subscription-preview-test.sql", fs.readFileSync(path.join(root, "supabase", "cleanup", "subscription-preview-test.sql"), "utf8"));
+  const after = await db.query(
+    `select (select count(*)::int from public.subscriptions where user_id = '${second}') as subs,
+            (select count(*)::int from public.subscription_payments where user_id = '${second}') as pays,
+            (select count(*)::int from public.subscriptions where user_id = '${first}') as kept_subs,
+            (select count(*)::int from public.subscription_payments where user_id = '${first}') as kept_pays,
+            (select count(*)::int from public.lesson_progress where user_id = '${second}') as kept_progress`,
+  );
+  const a = after.rows[0];
+  if (a.subs !== 0 || a.pays !== 0 || a.kept_subs !== 1 || a.kept_pays !== 1 || a.kept_progress !== 1) {
+    failed++;
+    console.log(`FAIL  the clean-up removed the wrong rows: ${JSON.stringify(a)}`);
+  } else console.log("OK    the clean-up removed only the second account's subscriptions and payments");
+  await run("cleanup: remove the seeded accounts", `delete from auth.users where id in ('${second}', '${first}');`);
+}
+
 // The full undo, then a clean re-apply: rollback_all.sql really removes everything the migrations made.
 await run("supabase/rollback/rollback_all.sql", fs.readFileSync(path.join(root, "supabase", "rollback", "rollback_all.sql"), "utf8"));
 const leftover = await db.query(

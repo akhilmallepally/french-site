@@ -827,3 +827,39 @@
 - validate:content, test:content, test:checker (36), test:review (91), test:progress (140), test:progress-e2e (7 of 7, then `npm run build`), tsc and build.
 - test:no-supabase-env, test:gating (on a fresh server), test:webhook (132), test:checkout (79), test:safe-next (7).
 - check:sql and test:sql (unchanged: 12 migrations, rls.sql 410, access-over-time.sql 48, 8).
+
+## Subscription step 6: the test-mode run on a Vercel Preview, and the live checklist (Prompt 82)
+
+**Owner's decisions:** "A change to the subscription price applies only to new subscriptions." stays; no lawyer review for now; no other wording changes.
+
+**The override** (lib/test-switch.ts): `PAYMENTS_TEST_SWITCH=after` forces "after the switch" (yearly only).
+- It's honoured only with a `dodo_test_` `PAYMENTS_API_KEY` and a `VERCEL_ENV` other than `production`.
+- It's applied by the server's two price reads (lib/shared-pricing.ts, `getActivePricing`) through `forceAfterSwitch` in `PricingInput`. So pages, checkout and /api/founder-offer never offer or charge the founder price on the preview.
+- lib/test-switch.test.ts (test:checkout) checks:
+  - it never turns on in Production, with a live key, with no key, or with another value;
+  - $8 is refused and $12 charged while it's on;
+  - only those two reads apply it, from `process.env`, and no browser code imports it.
+
+**The preview test:** `npm run test:subscription-preview -- <phase>` (scripts/test-subscription-preview.mjs, e2e/subscription-preview.spec.ts, playwright.preview.config.ts).
+- The runner refuses to start unless the URL is an https `*.vercel.app`, the account isn't the lifetime one, and the preview's /api/founder-offer says the founding offer is off. For past-due, `DODO_TEST_API_KEY` must start with `dodo_test_`.
+- The phases: subscribe, cancel, refund, past-due, on-hold.
+- Automated: the pages, the account's own rows through its own session (RLS), `has_access()` including its clock, and the TEST API `PATCH next_billing_date`.
+- Manual (the terminal says what to do and waits): the card form (autofilled if Dodo uses standard fields), the portal cancel, the dashboard refund, and one Inspector Resume.
+- The main Playwright config ignores the new spec.
+- The setup clicks, expected results and clean-up list are in docs/plans/subscription.md section 10.
+
+**Clean-up SQL:** supabase/cleanup/subscription-preview-test.sql removes only the second test account's subscriptions and payments (`gmailprogresstest+subscription@gmail.com`). test:sql now seeds two accounts and proves it leaves the lifetime account and the progress alone.
+
+**Going live:** docs/plans/subscription.md section 11.
+- `npm run check:live-subscription` (scripts/check-live-subscription.mjs, checks in scripts/live-subscription-checks.mjs, tested by scripts/live-subscription-checks.test.mjs in test:checkout) is GET-only.
+- It reads the live product's price, currency, yearly interval, 20-year period, trial and tax setting, plus the public `subscription_price_cents`.
+- It refuses a test key and prints PASS or FAIL. The grace, cancellation and email settings are marked "check by hand".
+- It wasn't run here (no live key on this machine).
+
+**SQL or steps for the owner:** section 10 (setup, then the five phases, then the clean-up); section 11 when going live.
+
+**Checks:** all pass.
+- validate:content, test:content, test:checker (36), test:review (91), test:progress (140), test:progress-e2e (7 of 7, then `npm run build`), tsc and build.
+  - The first test:progress-e2e run failed once in review.spec.ts: 0 of 10 review cards had synced to Supabase within 20 s. The re-run passed 7 of 7. Nothing in this prompt touches the review sync.
+- test:no-supabase-env, test:gating (on a fresh server), test:webhook (132), test:checkout (92), test:safe-next (7).
+- check:sql and test:sql (12 migrations, rls.sql 410, access-over-time.sql 48, the clean-up, 8).

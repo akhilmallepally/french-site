@@ -1,6 +1,6 @@
 # Subscription plan (Pricing v2, Part B)
 
-Status: step 1 (0010) has run in Supabase. Step 2 (the subscription webhooks, with 0011) is built (Prompt 78). Step 3 (entitlement over time) is built and the payload capture is removed (Prompt 79). Step 4 (the switch and subscription checkout) is built (Prompt 80); 0012 waits for the owner to run it. Step 5 (Manage subscription and the pages) is built (Prompt 81). Step 6 is next. The owner's decisions are in section 8.
+Status: step 1 (0010) has run in Supabase. Step 2 (the subscription webhooks, with 0011) is built (Prompt 78). Step 3 (entitlement over time) is built and the payload capture is removed (Prompt 79). Step 4 (the switch and subscription checkout) is built (Prompt 80); 0012 waits for the owner to run it. Step 5 (Manage subscription and the pages) is built (Prompt 81). Step 6: the preview test is ready to run (section 10, Prompt 82), and going live is section 11. The owner's decisions are in section 8.
 
 Decisions already made (owner, Prompt 76):
 - The founding offer ($8 once, lifetime access) ends at 2026-12-31T16:59:00Z (23:59 in Bangkok), or earlier when the 100 founder spots are gone.
@@ -271,3 +271,120 @@ A new table, `subscriptions` (migration 0010), rather than more columns on `purc
 3. **Immediate cancellation:** switch it off in the portal (cancel at period end only)?
 4. **Tax:** show "$12 a year" with tax added at checkout (as now for $8), or tax-inclusive?
 5. **The spots running out before 31 December:** the subscription would have to be live by then too. Ship it by 20 December regardless, so either switch is covered?
+
+## 10. Step 6: the test-mode run on a Vercel Preview (Prompt 82)
+
+Previews share the **production** database, so a test purchase writes real rows. On the preview the site is forced into the "after the switch" state (yearly only), so a test can never take a founder spot.
+
+**The override:** `PAYMENTS_TEST_SWITCH=after` (lib/test-switch.ts).
+- It's honoured only when `PAYMENTS_API_KEY` starts with `dodo_test_` AND `VERCEL_ENV` isn't `production`. Anywhere else it's ignored (lib/test-switch.test.ts).
+- It's applied where the server reads the price (the shared price and checkout's live price), so pages, checkout and /api/founder-offer agree.
+
+**Setup (owner), once.** Steps 1 to 5 need no redeploy; step 6 is the redeploy.
+
+1. **Supabase:**
+   - Check that 0012 has run (docs/db-setup.md, `has_0012`). If not, run 0012, then rls.sql.
+   - Authentication → Users → **Add user** → **Create new user**. Email `gmailprogresstest+subscription@gmail.com` (Gmail delivers it to the first test inbox, so Dodo's emails arrive there), a password, tick **Auto Confirm User**, then **Create user**.
+   - In .env.local: `SUBSCRIPTION_TEST_EMAIL=gmailprogresstest+subscription@gmail.com` and `SUBSCRIPTION_TEST_PASSWORD=<the password>`.
+2. **Git:**
+   - Commit this work, then run `git checkout -b subscription-test` and `git push -u origin subscription-test`. Vercel builds a Preview.
+   - In Vercel → the project → **Deployments**, open that deployment. Under **Domains**, copy the address with `-git-subscription-test-` in it: it stays the same for every push to the branch.
+   - In .env.local: `SUBSCRIPTION_PREVIEW_URL=https://<that address>`.
+3. **Deployment Protection** (skip if Preview protection is off):
+   - Vercel → Settings → **Deployment Protection** → **Protection Bypass for Automation** → **Add secret** → copy it.
+   - In .env.local: `VERCEL_AUTOMATION_BYPASS_SECRET=<it>` (secret).
+4. **Dodo (Test mode on):**
+   - Developer → **Webhooks** → the existing test endpoint → **Edit**.
+   - URL: `https://<branch address>/api/webhooks/payments?x-vercel-protection-bypass=<the secret>` (leave out the `?…` part if step 3 was skipped).
+   - Keep every `subscription.*`, `payment.*`, `refund.*` and `dispute.*` event, switch it **Enabled**, and save.
+   - Reveal and copy its **Signing secret** (`whsec_…`).
+5. **Vercel → Settings → Environment Variables.** Add each with **Preview** only, and **Select a custom Preview branch** set to `subscription-test`:
+   - `PAYMENTS_API_KEY` = the Dodo **test** API key (Dodo test mode → Developer → API Keys). Mark it Sensitive.
+   - `PAYMENTS_WEBHOOK_SECRET` = the signing secret from step 4. Mark it Sensitive.
+   - `PAYMENTS_TEST_SWITCH` = `after`.
+   - `NEXT_PUBLIC_SITE_URL` = `https://<branch address>` (the return link after checkout and the portal).
+   - `SUPABASE_SERVICE_ROLE_KEY`: only if Preview doesn't have it yet (the webhook writes with it). The same value as Production; mark it Sensitive.
+   - `PAYMENTS_YEARLY_PRODUCT_ID` is already set for Preview (`pdt_0NsnLuCUBOY030rpuYJ9l`): leave it.
+6. **Redeploy:** Vercel → Deployments → the `subscription-test` deployment → **⋯** → **Redeploy**. Environment changes, and `NEXT_PUBLIC_SITE_URL` above all, apply only to a new build.
+7. For the past-due phase only, in .env.local: `DODO_TEST_API_KEY=<the same test API key>`. Only a `dodo_test_` key is ever accepted.
+
+**The run:** `npm run test:subscription-preview -- <phase>`, one phase at a time, in this order. The browser stays visible. Where Dodo needs a person, the terminal says what to do and the test waits.
+- **Automated** in every phase:
+  - the site's pages (/pricing, the success page, a B1 lesson, /review, /progress);
+  - the account's own rows read through its own session (RLS, never the service key);
+  - `has_access()`, also with its clock (`p_now`).
+- **Yours:** the card form, the portal, the dashboard refund, and one Resume click.
+
+1. `subscribe`:
+   - /pricing shows "Yearly Access", "$12 a year · plus tax where applicable" and the auto-renewal line, and no $8.
+   - The test clicks **Subscribe for $12 a year**. **You:** pay with 4242 4242 4242 4242, 06/32, CVV 123. The card fields are filled in for you if Dodo uses the standard ones.
+   - Expected:
+     - back on "You're in!" with "Thank you for subscribing";
+     - an `active` subscription ending in about a year, and one `new` payment of 1200;
+     - a B1 lesson opens and is practised, and Daily review shows cards;
+     - /progress shows "Yearly access: renews on <date>" and Manage subscription.
+2. `cancel`:
+   - The test clicks Manage subscription, and Dodo's portal opens. **You:** choose **Cancel at next billing date** and confirm.
+   - Expected:
+     - the row has `cancel_at_period_end`;
+     - /progress shows "Yearly access: ends on <date>";
+     - a B1 lesson still opens;
+     - `has_access()` is false a minute after the period end.
+3. `refund`:
+   - **You:** Dodo dashboard (test mode) → Transactions → Payments → the $12.00 payment by the second account → **Refund** → the full amount → confirm.
+   - Expected:
+     - the payment and the subscription are `refunded`, and `has_access()` is false at once;
+     - a B1 lesson shows the paywall, /progress has no access box, and /review is locked;
+     - progress and review cards are kept.
+   - This comes before past-due, because the account can only buy again once it has no access.
+4. `past-due`:
+   - The test subscribes again. **You:** pay with 4000 0000 0000 0341. If Dodo declines that card at checkout, pay with 4242, then change the card to 0341 with Manage subscription.
+   - **You:** click Resume in the Playwright Inspector.
+   - The test moves `next_billing_date` 3 minutes ahead with Dodo's TEST API and waits up to 45 minutes.
+   - Expected:
+     - the subscription is `past_due`, and /progress shows "Payment problem: update your card by <period end + 7 days>";
+     - access continues, and `has_access()` is true a minute before the grace ends and false just after;
+     - progress and cards are kept.
+5. `on-hold` (optional, 7 days later):
+   - Expected: Dodo puts the subscription on hold; access has ended (B1 paywall, no box); progress and cards are kept.
+
+**Clean-up (owner):**
+- Supabase SQL editor: paste the whole of `supabase/cleanup/subscription-preview-test.sql` and click Run. It removes the second account's subscriptions and payments only; the last result shows 0 and 0. To remove its progress and cards too, delete the user in Authentication → Users.
+- Vercel → Environment Variables: delete the five branch variables from step 5:
+  - `PAYMENTS_API_KEY`
+  - `PAYMENTS_WEBHOOK_SECRET`
+  - `PAYMENTS_TEST_SWITCH`
+  - `NEXT_PUBLIC_SITE_URL`
+  - `SUPABASE_SERVICE_ROLE_KEY`, if you added it for the branch
+- Vercel → Deployment Protection: delete the bypass secret.
+- Dodo test mode → Webhooks: disable the endpoint, or point it at the next test deployment.
+- Git: delete the `subscription-test` branch (`git push origin --delete subscription-test`).
+- .env.local: remove `DODO_TEST_API_KEY` and `VERCEL_AUTOMATION_BYPASS_SECRET`, and delete `.subscription-preview-state.json` (the saved counts; git-ignored).
+
+## 11. Going live (the final checklist)
+
+1. **Dodo, Live mode** (switch Test mode off) → Products → **Create product**. Use the same settings as the test product:
+   - name "French Properly, yearly", type **Subscription**, price **$12.00** USD;
+   - **Repeat payment every 1 Year**, **Subscription period 20 Years**, trial **0** days;
+   - tax-inclusive pricing **off**.
+
+   Save, then copy the product id (`pdt_…`).
+2. **Dodo Live → Settings:**
+   - Subscriptions: **Subscription Grace Period** on, **7** days, with On Hold after it; retries on, with a 7-day window.
+   - Customer portal: **Allow Immediate Cancellation** off; "Cancel at next billing date" on.
+   - Emails: the customer emails on, including "Subscription Renewal Failed".
+3. **Dodo Live → Developer → Webhooks:** the production endpoint (`https://frenchproperly.com/api/webhooks/payments`) has every `subscription.*`, `payment.*`, `refund.*` and `dispute.*` event.
+4. **Check the product:**
+   - In .env.local, add `DODO_LIVE_API_KEY=<a live key>` and `LIVE_YEARLY_PRODUCT_ID=<the pdt_… id>`, then run `npm run check:live-subscription`.
+   - It only reads. It checks the price, currency, yearly interval, 20-year period, no trial, tax added at checkout, and the same price as `subscription_price_cents`. Every line must say PASS.
+   - Check the grace, cancellation and email settings by hand: the API doesn't show them.
+   - Then remove `DODO_LIVE_API_KEY` from .env.local.
+5. **Supabase:** 0012 has run (`has_0012` is true).
+6. **Vercel → Settings → Environment Variables:** add `PAYMENTS_YEARLY_PRODUCT_ID` = the live id, for **Production** only. Don't set `PAYMENTS_TEST_SWITCH` on Production (it's ignored there anyway).
+7. **Redeploy Production:** Deployments → the latest Production deployment → **⋯** → **Redeploy**. Until the switch, /pricing still shows the founding offer.
+8. **The first live purchase and refund (owner).** It can only happen after the switch: 31 December 2026 at 23:59 Bangkok time (16:59 UTC), or earlier if the founder spots run out.
+   - Sign in as the second test account and open /pricing. It shows "Yearly Access, $12 a year".
+   - Subscribe with a real card. Expected: "You're in!", a B1 lesson opens, /progress shows "Yearly access: renews on <date>", and the payment appears in Dodo's live dashboard.
+   - Manage subscription → **Cancel at next billing date**. Expected: /progress shows "ends on <date>", and access continues.
+   - Dodo live dashboard → the payment → **Refund** in full. Expected: access ends at once (B1 paywall, no access box), and the refund appears in Dodo.
+   - Run `supabase/cleanup/subscription-preview-test.sql` to remove that account's subscription rows.

@@ -19,7 +19,7 @@
     "check:c2-links": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/c2-links.ts",
     "wrapup:c2": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/c2-wrapup.ts",
     "check:alexandrines": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/scan-alexandrines.ts --file content/lessons/c1/culture-french-poetry.mdx --section \"An original poem\"",
-    "test:checkout": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test lib/pricing-offer.test.ts lib/pricing-cache.test.ts lib/founder-banner.test.ts lib/access.test.ts lib/subscription-switch.test.ts lib/manage-subscription.test.ts",
+    "test:checkout": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test lib/pricing-offer.test.ts lib/pricing-cache.test.ts lib/founder-banner.test.ts lib/access.test.ts lib/subscription-switch.test.ts lib/manage-subscription.test.ts lib/test-switch.test.ts scripts/live-subscription-checks.test.mjs",
     "build:review-cards": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/build-review-cards.ts",
     "test:review": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test lib/review-scheduler.test.ts lib/review-store.test.ts lib/review-sync.test.ts lib/review-sync-store.test.ts lib/review-text.test.ts lib/review-session.test.ts scripts/review-cards.test.ts scripts/review-imports.test.ts scripts/review-bundle.test.ts",
     "build:progress-index": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/build-progress-index.ts",
@@ -33,7 +33,9 @@
     "check:sql": "node scripts/check-sql.mjs && npm run -s test:sql",
     "test:sql": "node scripts/test-sql.mjs && node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test lib/access-over-time.test.ts",
     "test:gating": "node scripts/test-gating.mjs",
-    "test:no-supabase-env": "node scripts/test-no-supabase-env.mjs"
+    "test:no-supabase-env": "node scripts/test-no-supabase-env.mjs",
+    "test:subscription-preview": "node --env-file-if-exists=.env.local scripts/test-subscription-preview.mjs",
+    "check:live-subscription": "node --env-file-if-exists=.env.local scripts/check-live-subscription.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

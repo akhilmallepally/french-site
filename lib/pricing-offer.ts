@@ -47,6 +47,11 @@ export type PricingInput = {
   subscriptionPriceCents: number | null;
   /** True when the yearly product is configured (PAYMENTS_YEARLY_PRODUCT_ID, server-side). */
   yearlyProductConfigured: boolean;
+  /**
+   * Test mode only (lib/test-switch.ts, Prompt 82): treat the founding offer as over, whatever the
+   * time and the spots. Set by the server from its own environment, never by a request.
+   */
+  forceAfterSwitch?: boolean;
 };
 
 /** What the yearly plan costs, when it can be bought. */
@@ -106,7 +111,7 @@ export function getPriceOffer(pricing: PricingInput, nowMs: number): PriceOffer 
   const yearly = yearlyTerms(pricing);
   const after = (reason: "deadline" | "sold-out"): PriceOffer =>
     yearly ? { state: "yearly", ...yearly, reason, founderEndsAt: pricing.founderEndsAt } : { state: "ended", reason, founderEndsAt: pricing.founderEndsAt };
-  if (!beforeDeadline(pricing.founderEndsAt, nowMs)) return after("deadline");
+  if (pricing.forceAfterSwitch || !beforeDeadline(pricing.founderEndsAt, nowMs)) return after("deadline");
   if (pricing.spotsLeft <= 0) return after("sold-out");
   return {
     state: "founder",

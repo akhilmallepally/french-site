@@ -47,3 +47,6 @@ next-env.d.ts
 # Dodo "Send example" webhook payloads (local reference only, Prompt 78)
 dodopayments.txt
 dodo-payloads.txt
+
+# The subscription preview test's saved counts (Prompt 82)
+.subscription-preview-state.json
