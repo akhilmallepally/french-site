@@ -14,7 +14,7 @@ const walk = (d) => fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => (e
 
 const sources = walk(path.join(root, "supabase")).map((f) => [path.relative(root, f), fs.readFileSync(f, "utf8")]);
 const setup = fs.readFileSync(path.join(root, "docs", "db-setup.md"), "utf8");
-for (const [i, m] of [...setup.matchAll(/```sql\n([\s\S]*?)```/g)].entries()) sources.push([`docs/db-setup.md (SQL block ${i + 1})`, m[1]]);
+for (const [i, m] of [...setup.matchAll(/```sql\r?\n([\s\S]*?)```/g)].entries()) sources.push([`docs/db-setup.md (SQL block ${i + 1})`, m[1]]);
 
 let problems = 0;
 for (const [file, sql] of sources) {

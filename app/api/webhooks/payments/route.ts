@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+import { after, NextResponse } from "next/server";
 import { getPaymentsConfig, getSupabaseAdminConfig } from "@/lib/payments/config";
 import { getPaymentProvider } from "@/lib/payments/provider";
 import { revalidateTag } from "next/cache";
@@ -45,7 +45,9 @@ export async function POST(request: Request) {
   // The Standard Webhooks message id (Dodo) is kept with any unmatched event so it can be found.
   const eventId = request.headers.get("webhook-id");
   try {
-    const result = await processWebhookEvent(event, undefined, { eventId });
+    // Follow-up work (cancelling a refunded subscription in the provider) runs after the reply, so a
+    // slow or failing provider call never delays or changes the 200 (Prompt 84).
+    const result = await processWebhookEvent(event, undefined, { eventId, defer: (task) => after(task) });
     // A purchase was recorded, refunded or disputed: the founder spots (and so the price shown) may
     // have changed. Expire the shared price now, so the next visitor reads it fresh.
     if (pricingChangingOutcome(result.outcome)) revalidateTag(PRICING_TAG, { expire: 0 });

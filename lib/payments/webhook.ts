@@ -1,6 +1,7 @@
 import "server-only";
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import { getSupabaseAdminConfig, getYearlyProductId, verifyMetadataSignature } from "./config";
+import { getPaymentProvider } from "./provider";
 import type { ProductKey, ProviderName, WebhookEventResult } from "./types";
 
 /**
@@ -60,8 +61,19 @@ export type ProcessWebhookOutcome = {
   reason?: UnmatchedReason;
 };
 
-/** Facts about the delivery that aren't in the event body (the Standard Webhooks message id). */
-export type WebhookContext = { eventId?: string | null };
+/**
+ * Facts about the delivery that aren't in the event body (the Standard Webhooks message id), and
+ * how to run follow-up work:
+ * - `defer`: runs a task after the 200 reply (the route passes Next's after()). Without it the task
+ *   runs before returning (tests, scripts). A deferred task never throws.
+ * - `cancelInProvider`: cancels a subscription in the provider (tests inject a fake; the default is
+ *   the provider's cancelSubscription with the server's API key).
+ */
+export type WebhookContext = {
+  eventId?: string | null;
+  defer?: (task: () => Promise<void>) => void;
+  cancelInProvider?: (provider: ProviderName, subscriptionId: string) => Promise<"cancelled" | "already">;
+};
 
 type DbError = { code?: string; message?: string } | null | undefined;
 
@@ -368,7 +380,11 @@ async function setSubscriptionPaymentStatus(
   paymentId: string,
   context: WebhookContext
 ): Promise<ProcessWebhookOutcome> {
-  if (payment.status === "refunded") return { outcome: "already_refunded" };
+  if (payment.status === "refunded") {
+    // A resent refund: retry the provider cancellation if it hasn't been confirmed yet.
+    if (to === "refunded") await requestProviderCancel(supabase, payment.subscription_id, "refunded", context);
+    return { outcome: "already_refunded" };
+  }
   if (payment.status === to) return { outcome: "idempotent_no_op", existingStatus: to };
   if (to === "succeeded" && payment.status !== "disputed") return { outcome: "idempotent_no_op", existingStatus: payment.status };
   const now = new Date().toISOString();
@@ -388,6 +404,8 @@ async function setSubscriptionPaymentStatus(
     .eq("id", payment.subscription_id);
   if (subError) fail(`${to} subscription ${payment.subscription_id}`, subError);
   console.info(`[payments:webhook] Subscription payment ${paymentId} ${to}: subscription ${subStatus}.`);
+  // A refund ends the subscription here; cancel it in the provider too, so it never renews.
+  if (to === "refunded") await requestProviderCancel(supabase, payment.subscription_id, "refunded", context);
   return { outcome: to === "refunded" ? "revoked" : to === "disputed" ? "disputed" : "restored" };
 }
 
@@ -424,20 +442,27 @@ async function handleSubscription(
 
   // The state this event describes.
   const periodEnd = event.nextBillingDate ?? existing?.current_period_end;
+  // Final states (Prompt 84): a refunded or disputed subscription takes nothing from a later
+  // subscription event (cancelled, updated, active, expired...): only its time is noted. Only
+  // dispute.won restores it.
   const keepEnded = !!existing && ENDED_BY_US.has(existing.status);
   const next: Record<string, unknown> = { last_event_at: event.eventAt };
   if (event.customerId) next.provider_customer_id = event.customerId.slice(0, 200);
-  if (periodEnd && (event.kind === "active" || event.kind === "renewed" || event.kind === "updated")) next.current_period_end = periodEnd;
-  if (event.kind !== "cancelled") next.cancel_at_period_end = event.cancelAtNextBillingDate;
   if (!keepEnded) {
+    if (periodEnd && (event.kind === "active" || event.kind === "renewed" || event.kind === "updated")) next.current_period_end = periodEnd;
+    if (event.kind !== "cancelled") next.cancel_at_period_end = event.cancelAtNextBillingDate;
     if (event.kind === "active" || event.kind === "renewed") Object.assign(next, { status: "active", cancelled_at: null });
     else if (event.kind === "past_due" || event.kind === "on_hold" || event.kind === "expired") next.status = event.kind;
     else if (event.kind === "cancelled") {
-      Object.assign(next, {
-        status: "cancelled",
-        cancelled_at: event.cancelledAt ?? event.eventAt,
-        cancel_at_period_end: (existing?.cancel_at_period_end ?? false) || event.cancelAtNextBillingDate,
-      });
+      // Decided from the event, never from the stored flag (Prompt 84). At the period end when Dodo
+      // says so (cancel_at_next_billing_date), or when the cancellation came at the end of the paid
+      // period anyway: access to current_period_end. Otherwise (the flag false and cancelled_at
+      // clearly before the period end) it's an immediate cancel: access ends at cancelled_at, and
+      // the flag is cleared.
+      const cancelledAt = event.cancelledAt ?? event.eventAt;
+      const endMs = periodEnd ? Date.parse(periodEnd) : NaN;
+      const atPeriodEnd = event.cancelAtNextBillingDate || (Number.isFinite(endMs) && Date.parse(cancelledAt) >= endMs - IMMEDIATE_CANCEL_MARGIN_MS);
+      Object.assign(next, { status: "cancelled", cancelled_at: cancelledAt, cancel_at_period_end: atPeriodEnd });
     }
   }
 
@@ -447,7 +472,9 @@ async function handleSubscription(
       if (isRetryable(error)) fail(`update subscription ${event.subscriptionId}`, error);
       return recordUnmatched(supabase, unmatchedEvent, "invalid_data", context);
     }
-    console.info(`[payments:webhook] Subscription ${event.subscriptionId}: ${event.kind} applied.`);
+    console.info(`[payments:webhook] Subscription ${event.subscriptionId}: ${keepEnded ? `${event.kind} noted (it stays ${existing.status})` : `${event.kind} applied`}.`);
+    // Dodo's own cancellation (or the end) confirms a cancellation we asked for.
+    if (event.kind === "cancelled" || event.kind === "expired") await markProviderCancelDone(supabase, event.subscriptionId);
     return { outcome: "subscription_saved" };
   }
 
@@ -563,6 +590,98 @@ async function handleDisputeWon(
   return { outcome: "restored" };
 }
 
+/** A cancellation "clearly before the period end" is more than this before it (Prompt 84). */
+const IMMEDIATE_CANCEL_MARGIN_MS = 24 * 60 * 60 * 1000;
+
+/** Runs a follow-up task: after the reply when the route gave a defer, else now. Never throws. */
+async function schedule(context: WebhookContext, task: () => Promise<void>): Promise<void> {
+  const safe = async () => {
+    try {
+      await task();
+    } catch (error) {
+      console.error("[payments:webhook] Follow-up task failed:", error instanceof Error ? error.message : "unknown");
+    }
+  };
+  if (context.defer) context.defer(safe);
+  else await safe();
+}
+
+const defaultCancelInProvider = async (provider: ProviderName, subscriptionId: string): Promise<"cancelled" | "already"> => {
+  const p = getPaymentProvider(provider);
+  if (!p.cancelSubscription) throw Object.assign(new Error("cancel not supported"), { code: "not_supported" });
+  return p.cancelSubscription(subscriptionId);
+};
+
+const shortCode = (error: unknown): string => {
+  const code = (error as { code?: unknown } | null)?.code;
+  return (typeof code === "string" && code ? code : error instanceof Error ? error.name : "unknown").slice(0, 100);
+};
+
+/**
+ * After a refund or a lost dispute of a subscription payment: records that the subscription must be
+ * cancelled in the provider (provider_cancellations, 0014), then cancels it there after the reply.
+ * Idempotent: one row per subscription, and nothing is sent once it's done. A failure is recorded
+ * (attempts, last_error) and retried on the next delivery of the refund; docs/payments-recovery.md
+ * has the manual step.
+ */
+async function requestProviderCancel(supabase: SupabaseClient, subscriptionRowId: number, reason: "refunded" | "dispute_lost", context: WebhookContext): Promise<void> {
+  const { data: sub, error } = await supabase.from("subscriptions").select("id, provider, provider_subscription_id").eq("id", subscriptionRowId).maybeSingle();
+  if (error || !sub) {
+    console.warn("[payments:webhook] Provider cancellation: subscription not found, code:", shortCode(error));
+    return;
+  }
+  const insert = await supabase
+    .from("provider_cancellations")
+    .insert({ provider: sub.provider, provider_subscription_id: sub.provider_subscription_id, subscription_id: sub.id, reason });
+  if (insert.error && insert.error.code !== "23505") console.warn("[payments:webhook] Provider cancellation not recorded, code:", shortCode(insert.error));
+  const { data: row } = await supabase.from("provider_cancellations").select("done_at").eq("provider_subscription_id", sub.provider_subscription_id).maybeSingle();
+  if (row?.done_at) return; // already cancelled there
+  await schedule(context, () => attemptProviderCancel(supabase, sub.provider as ProviderName, sub.provider_subscription_id, context));
+}
+
+/** One attempt to cancel in the provider; the outcome is written to provider_cancellations. */
+async function attemptProviderCancel(supabase: SupabaseClient, provider: ProviderName, subscriptionId: string, context: WebhookContext): Promise<void> {
+  const { data: row } = await supabase.from("provider_cancellations").select("attempts, done_at").eq("provider_subscription_id", subscriptionId).maybeSingle();
+  if (row?.done_at) return;
+  const attempts = (typeof row?.attempts === "number" ? row.attempts : 0) + 1;
+  const now = new Date().toISOString();
+  try {
+    const result = await (context.cancelInProvider ?? defaultCancelInProvider)(provider, subscriptionId);
+    await supabase.from("provider_cancellations").update({ done_at: now, attempts, last_error: null, updated_at: now }).eq("provider_subscription_id", subscriptionId);
+    console.info(`[payments:webhook] Subscription ${subscriptionId} cancelled in ${provider} (${result}).`);
+  } catch (error) {
+    await supabase.from("provider_cancellations").update({ attempts, last_error: shortCode(error), updated_at: now }).eq("provider_subscription_id", subscriptionId);
+    console.error(`[payments:webhook] Couldn't cancel subscription ${subscriptionId} in ${provider} (attempt ${attempts}, code ${shortCode(error)}); see docs/payments-recovery.md.`);
+  }
+}
+
+/** The provider says the subscription is cancelled or over: a cancellation we asked for is done. */
+async function markProviderCancelDone(supabase: SupabaseClient, subscriptionId: string): Promise<void> {
+  const { data: row } = await supabase.from("provider_cancellations").select("done_at").eq("provider_subscription_id", subscriptionId).maybeSingle();
+  if (!row || row.done_at) return;
+  const now = new Date().toISOString();
+  await supabase.from("provider_cancellations").update({ done_at: now, last_error: null, updated_at: now }).eq("provider_subscription_id", subscriptionId);
+}
+
+/**
+ * dispute.lost: access stays ended (the dispute already suspended it). A subscription payment's
+ * subscription is marked disputed if it wasn't, and cancelled in the provider so it never renews.
+ */
+async function handleDisputeLost(
+  supabase: SupabaseClient,
+  event: Extract<WebhookEventResult, { type: "order_dispute_lost" }>,
+  context: WebhookContext
+): Promise<ProcessWebhookOutcome> {
+  const subPayment = await findSubscriptionPayment(supabase, event.orderId);
+  if (!subPayment) return { outcome: "idempotent_no_op" }; // a lifetime purchase: it stays disputed
+  const result =
+    subPayment.status === "succeeded"
+      ? await setSubscriptionPaymentStatus(supabase, subPayment, "disputed", event.orderId, context)
+      : { outcome: "idempotent_no_op" as const, existingStatus: subPayment.status };
+  await requestProviderCancel(supabase, subPayment.subscription_id, "dispute_lost", context);
+  return result;
+}
+
 /**
  * Processes a verified webhook event. Writes only through the service-role client.
  *
@@ -592,6 +711,7 @@ export async function processWebhookEvent(
   if (event.type === "order_refunded") return handleRefunded(supabase, event, context);
   if (event.type === "order_disputed") return handleDisputed(supabase, event, context);
   if (event.type === "order_dispute_won") return handleDisputeWon(supabase, event, context);
+  if (event.type === "order_dispute_lost") return handleDisputeLost(supabase, event, context);
   if (event.type === "subscription") return handleSubscription(supabase, event, context);
   if (event.type === "subscription_paid") return handleSubscriptionPaid(supabase, event, context);
   return { outcome: "ignored" };
