@@ -889,3 +889,41 @@ access-over-time.sql gained the same case in Dodo's own order (active with the f
 **SQL for the owner, in order:** 0013, then rls.sql.
 
 **Checks:** all pass: test:sql and check:sql (13 migrations twice, rls.sql 417, access-over-time.sql 51, the clean-up, 8), test:webhook (134), test:checkout (93), tsc and build.
+
+## Fixes from the preview test: immediate cancels, final refunds, cancelling in Dodo after a refund (Prompt 84)
+
+**The second test account now** (read through its own session, RLS):
+- `sub_0Nss69ljwgEeTx1pucrzA` is `refunded`, `cancel_at_period_end` false, `cancelled_at` null.
+- Its one payment (1200, "new") is `refunded`.
+- `has_access()` is false.
+- The refunded status held when Dodo's immediate `subscription.cancelled` arrived, so the account never got access back, and no correction is needed.
+
+**Fixes** (lib/payments/webhook.ts, lib/payments/dodo.ts, lib/payments/types.ts, the webhook route):
+- **`subscription.cancelled`** is decided from the event, never from the stored flag.
+  - Period end: `cancel_at_next_billing_date` is true, or `cancelled_at` is within a day of the period end. Access runs to `current_period_end`.
+  - Otherwise it's immediate: access ends at `cancelled_at`, and `cancel_at_period_end` is cleared.
+  - The "clearly before the period end" test applies only when Dodo's flag is false. A cancellation flagged for the period end always keeps the paid year, as the terms promise.
+- **Final states:** a refunded or disputed subscription takes nothing from later subscription events; they only note their time (the 0011 ordering still applies). Only `dispute.won` restores it.
+- **`dispute.lost`** is parsed now (`order_dispute_lost`). It marks the payment and the subscription disputed if they weren't.
+- **Cancelling in Dodo:**
+  - On a refund or a lost dispute of a subscription payment, the webhook writes a pending row in `provider_cancellations`.
+  - After the 200 (Next's `after()`), it calls `PATCH /subscriptions/{id}` with status `cancelled`.
+  - It's idempotent: one row per subscription, and nothing is sent once it's done. "Already cancelled or expired" counts as done.
+  - A failure records `attempts` and a short `last_error`. A resent refund retries, and Dodo's own `subscription.cancelled` or `expired` marks it done.
+  - docs/payments-recovery.md section 6 has the manual step.
+- **0014** (`provider_cancellations`): RLS forced, the service role can select, insert and update (no delete), learners and anon get nothing, and rows cascade with their subscription.
+  - There's a rollback, and rollback_all drops the table.
+  - rls.sql (needs 0001 to 0014) adds the grants, writes, duplicate and reason checks, and the cascade.
+- **check:sql:** it scans docs/db-setup.md's SQL blocks again. The file now has CRLF line endings, which the pattern missed: 28 sources were scanned instead of 36.
+
+**Tests:**
+- test:webhook 5f: an immediate cancel clears the flag; a period-end cancel by the flag or by time; refund then cancelled, updated, active and expired all leave it refunded; a resent refund doesn't cancel again; a failed cancel is recorded, the reply is unchanged, and the next delivery retries; Dodo's cancelled marks it done; with `defer`, the cancel runs after the reply; dispute lost then cancelled; dispute lost out of order; dispute won doesn't cancel in Dodo; Dodo's PATCH, "already" and error code.
+- access-over-time.sql L8 checks `has_access()` for each state: immediate cancel, period-end cancel before and after, refunded with or without the flag, disputed with the flag, dispute won.
+
+**Live key:** it must be allowed to update subscriptions (`PATCH /subscriptions/{id}`), not only to create checkouts and read products.
+
+**SQL for the owner, in order:** 0014, then rls.sql.
+
+**Checks:** all pass.
+- test:sql and check:sql (36 sources, 14 migrations twice, rls.sql 427, access-over-time.sql 58, the clean-up, 8).
+- test:webhook (155), test:checkout (93), test:gating (on a fresh server), tsc and build.

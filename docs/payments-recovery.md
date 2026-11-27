@@ -114,3 +114,25 @@ update public.purchases
 ```
 
 It should report `UPDATE 1`. Then run the checks in step 3. Access returns at the learner's next page load. If the dispute is lost, leave the row as `disputed`: access stays suspended. If Dodo also reports it as a refund, the refund event sets it to `refunded`.
+
+## 6. A refunded subscription that wasn't cancelled in Dodo
+
+When a subscription payment is refunded (or a dispute about it is lost), the webhook ends access at once and then asks Dodo to cancel the subscription. Without that, Dodo would renew it next year, and it blocks a new subscription for the same customer. The webhook records each request in `provider_cancellations` (migration 0014). `done_at` is set when Dodo confirms; a failure leaves `done_at` empty, with `attempts` and a short `last_error` code.
+
+**Find the ones still to do** (Supabase SQL editor):
+
+```sql
+select provider_subscription_id, reason, requested_at, attempts, last_error
+  from public.provider_cancellations
+ where done_at is null
+ order by requested_at;
+```
+
+**For each row:**
+
+1. In Dodo (the same mode as the payment: test or live), open **Subscriptions**, search for the `provider_subscription_id`, and open it.
+2. If its status is already Cancelled or Expired, nothing more is needed in Dodo. Otherwise click **Cancel subscription**, choose to cancel it **now** (not at the next billing date), and confirm.
+3. Dodo then sends `subscription.cancelled`, and the webhook marks the row done by itself; the subscription stays refunded (or disputed) on our side.
+
+   Resending the refund event from Dodo (step 2) also retries the cancellation.
+4. If the row is still open a few minutes later, run the query again. If it is, check Dodo's webhook log for the `subscription.cancelled` delivery and resend it.

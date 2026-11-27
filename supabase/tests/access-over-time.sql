@@ -14,7 +14,7 @@
 -- Learners (all made up, example.invalid):
 --   L1 lifetime only        L2 one subscription, its whole life     L3 refunded
 --   L4 disputed, won, lost  L5 lifetime plus a subscription          L6 two subscriptions
---   L7 nothing at all
+--   L7 nothing at all       L8 each state the webhook writes after a refund, a cancel or a dispute (0014)
 
 begin;
 
@@ -61,7 +61,7 @@ grant execute on all functions in schema access_test to authenticated;
 -- ===================================================================== learners (as postgres)
 insert into auth.users (id, email, aud, role)
 select ('a0000000-0000-4000-8000-00000000000' || n)::uuid, 'access-test-' || n || '@example.invalid', 'authenticated', 'authenticated'
-  from generate_series(1, 7) as n;
+  from generate_series(1, 8) as n;
 
 -- L1 and L5 bought lifetime access.
 insert into public.purchases (user_id, product, status, provider, provider_order_id, amount, currency)
@@ -234,6 +234,45 @@ update public.subscriptions set status = 'cancelled', cancel_at_period_end = tru
 set local role authenticated;
 select access_test.expect('L6 the other cancelled at the period end, before it', 'a0000000-0000-4000-8000-000000000006', '99 days', true);
 select access_test.expect('L6 the other cancelled at the period end, after it', 'a0000000-0000-4000-8000-000000000006', '100 days', false);
+reset role;
+
+-- ===================================================================== L8: the webhook's final states (Prompt 84)
+insert into public.subscriptions (user_id, product, provider, provider_subscription_id, status, current_period_end, last_event_at)
+values ('a0000000-0000-4000-8000-000000000008', 'lessons', 'dodo', 'sub_access_l8', 'active', access_test.t('365 days'), access_test.t('0 seconds'));
+
+-- An immediate cancel (cancel_at_next_billing_date false, long before the period end): no access at once.
+update public.subscriptions set status = 'cancelled', cancelled_at = access_test.t('10 days'), cancel_at_period_end = false where provider_subscription_id = 'sub_access_l8';
+set local role authenticated;
+select access_test.expect('L8 cancelled at once', 'a0000000-0000-4000-8000-000000000008', '11 days', false);
+reset role;
+
+-- A cancel at the period end: access until it, not after.
+update public.subscriptions set cancel_at_period_end = true where provider_subscription_id = 'sub_access_l8';
+set local role authenticated;
+select access_test.expect('L8 cancelled at the period end, before it', 'a0000000-0000-4000-8000-000000000008', '11 days', true);
+select access_test.expect('L8 cancelled at the period end, after it', 'a0000000-0000-4000-8000-000000000008', '366 days', false);
+reset role;
+
+-- Refunded, whatever the flags (a stored flag never brings access back).
+update public.subscriptions set status = 'refunded', cancelled_at = null, cancel_at_period_end = true where provider_subscription_id = 'sub_access_l8';
+set local role authenticated;
+select access_test.expect('L8 refunded with the period-end flag set', 'a0000000-0000-4000-8000-000000000008', '11 days', false);
+reset role;
+update public.subscriptions set cancel_at_period_end = false where provider_subscription_id = 'sub_access_l8';
+set local role authenticated;
+select access_test.expect('L8 refunded without it', 'a0000000-0000-4000-8000-000000000008', '11 days', false);
+reset role;
+
+-- Disputed and lost, with or without the flag: no access.
+update public.subscriptions set status = 'disputed', cancel_at_period_end = true where provider_subscription_id = 'sub_access_l8';
+set local role authenticated;
+select access_test.expect('L8 disputed (lost) with the period-end flag set', 'a0000000-0000-4000-8000-000000000008', '11 days', false);
+reset role;
+
+-- dispute.won restores it: active again, the usual grace.
+update public.subscriptions set status = 'active', cancel_at_period_end = false where provider_subscription_id = 'sub_access_l8';
+set local role authenticated;
+select access_test.expect('L8 dispute won: access back', 'a0000000-0000-4000-8000-000000000008', '11 days', true);
 reset role;
 
 do $$

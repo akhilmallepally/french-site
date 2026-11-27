@@ -1,9 +1,9 @@
 -- supabase/tests/rls.sql
 -- Proves the RLS rules (0003, 0005), the progress write path (0006), the service-role grants
 -- (0007), the daily-review write path (0008), the founder deadline (0009) and the subscriptions with
--- their entitlement (0010), the subscription webhooks' additions (0011), the yearly price (0012) and no
--- grace after a cancellation (0013) on every table and every operation. Run it in the Supabase SQL
--- editor (or psql) AFTER migrations 0001 to 0013. It runs in
+-- their entitlement (0010), the subscription webhooks' additions (0011), the yearly price (0012), no
+-- grace after a cancellation (0013) and the provider cancellations (0014) on every table and every
+-- operation. Run it in the Supabase SQL editor (or psql) AFTER migrations 0001 to 0014. It runs in
 -- one transaction that ends in ROLLBACK, so it leaves nothing behind: no users, no rows, no test
 -- schema.
 --
@@ -625,7 +625,10 @@ begin
   if pg_catalog.pg_get_functiondef('public.has_access(text, timestamp with time zone)'::regprocedure) not like '%not s.cancel_at_period_end%' then
     raise exception 'FAIL: has_access() still gives the grace after a cancellation: run migration 0013 first';
   end if;
-  foreach t in array array['profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab', 'purchases', 'pricing_settings', 'unmatched_payment_events', 'review_cards', 'subscriptions', 'subscription_payments'] loop
+  if pg_catalog.to_regclass('public.provider_cancellations') is null then
+    raise exception 'FAIL: public.provider_cancellations is missing: run migration 0014 first';
+  end if;
+  foreach t in array array['profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab', 'purchases', 'pricing_settings', 'unmatched_payment_events', 'review_cards', 'subscriptions', 'subscription_payments', 'provider_cancellations'] loop
     select c.relrowsecurity, c.relforcerowsecurity into rls, forced
       from pg_catalog.pg_class c join pg_catalog.pg_namespace n on n.oid = c.relnamespace
      where n.nspname = 'public' and c.relname = t;
@@ -788,12 +791,14 @@ begin
         -- authenticated and anon only on the tables these migrations manage.
         continue when role_name <> 'service_role' and rel.relname not in (
           'profiles', 'lesson_progress', 'exercise_results', 'writing_task_progress', 'saved_vocab',
-          'purchases', 'pricing_settings', 'unmatched_payment_events', 'review_cards', 'subscriptions', 'subscription_payments');
+          'purchases', 'pricing_settings', 'unmatched_payment_events', 'review_cards', 'subscriptions', 'subscription_payments',
+          'provider_cancellations');
         expected := case role_name || ':' || rel.relname
           when 'service_role:purchases' then array['SELECT', 'INSERT', 'UPDATE']
           when 'service_role:unmatched_payment_events' then array['SELECT', 'INSERT']
           when 'service_role:subscriptions' then array['SELECT', 'INSERT', 'UPDATE']
           when 'service_role:subscription_payments' then array['SELECT', 'INSERT', 'UPDATE']
+          when 'service_role:provider_cancellations' then array['SELECT', 'INSERT', 'UPDATE']
           when 'authenticated:subscriptions' then array['SELECT']
           when 'authenticated:subscription_payments' then array['SELECT']
           when 'authenticated:profiles' then array['SELECT']  -- plus column-level UPDATE, checked below
@@ -1323,6 +1328,22 @@ select rls_test.expect_affected('service_role stamps last_event_at', 'update pub
 select rls_test.expect_affected('service_role records an unmatched subscription event', 'insert into public.unmatched_payment_events (provider, provider_order_id, event_type, event_id, reason) values (''dodo'', ''sub_test_unmatched'', ''subscription_event'', ''msg_sub_1'', ''no_matching_user'')', 1);
 select rls_test.expect_affected('service_role records a payment for an unknown subscription', 'insert into public.unmatched_payment_events (provider, provider_order_id, event_type, event_id, reason) values (''dodo'', ''pay_test_unknown_sub'', ''subscription_payment'', ''msg_sub_2'', ''subscription_unknown'')', 1);
 select rls_test.expect_error('an unknown unmatched event type is refused', 'insert into public.unmatched_payment_events (provider, provider_order_id, event_type, reason) values (''dodo'', ''x'', ''something_else'', ''no_matching_user'')', '23514');
+-- 0014: the webhook records a cancellation to make in the provider, marks it done, never deletes it.
+select rls_test.expect_affected('service_role records a provider cancellation', 'insert into public.provider_cancellations (provider, provider_subscription_id, subscription_id, reason) select ''dodo'', provider_subscription_id, id, ''refunded'' from public.subscriptions where provider_subscription_id = ''sub_test_srv_1''', 1);
+select rls_test.expect_error('service_role records the same cancellation twice', 'insert into public.provider_cancellations (provider, provider_subscription_id, subscription_id, reason) select ''dodo'', provider_subscription_id, id, ''refunded'' from public.subscriptions where provider_subscription_id = ''sub_test_srv_1''', '23505');
+select rls_test.expect_affected('service_role records a failed attempt', 'update public.provider_cancellations set attempts = attempts + 1, last_error = ''http_502'', updated_at = now() where provider_subscription_id = ''sub_test_srv_1''', 1);
+select rls_test.expect_affected('service_role marks it done', 'update public.provider_cancellations set done_at = now(), last_error = null where provider_subscription_id = ''sub_test_srv_1''', 1);
+select rls_test.expect_error('a reason outside the list is refused', 'insert into public.provider_cancellations (provider, provider_subscription_id, subscription_id, reason) select ''dodo'', ''sub_other'', id, ''because'' from public.subscriptions where provider_subscription_id = ''sub_test_srv_1''', '23514');
+select rls_test.expect_error('service_role deletes a provider cancellation', 'delete from public.provider_cancellations');
+reset role;
+select set_config('request.jwt.claims', '{"sub":"44444444-4444-4444-8444-444444444444","role":"authenticated"}', true);
+set local role authenticated;
+select rls_test.expect_error('user D reads provider cancellations', 'select 1 from public.provider_cancellations');
+select rls_test.expect_error('user D inserts a provider cancellation', 'insert into public.provider_cancellations (provider, provider_subscription_id, subscription_id, reason) values (''dodo'', ''sub_x'', 1, ''refunded'')');
+reset role;
+select set_config('request.jwt.claims', '{"role":"anon"}', true);
+set local role anon;
+select rls_test.expect_error('anon reads provider cancellations', 'select 1 from public.provider_cancellations');
 reset role;
 
 -- ===================================================================== account deletion cascades
@@ -1351,6 +1372,7 @@ begin
        or exists (select 1 from public.review_cards where user_id = u)
        or exists (select 1 from public.subscriptions where user_id = u)
        or exists (select 1 from public.subscription_payments where user_id = u)
+       or exists (select 1 from public.provider_cancellations as pc join public.subscriptions as s on s.id = pc.subscription_id where s.user_id = u)
        or exists (select 1 from public.purchases where user_id = u) then
       raise exception 'FAIL: deleting user % left rows behind', u;
     end if;
@@ -1365,7 +1387,10 @@ begin
     raise exception 'FAIL: get_founder_spots_left() did not reflect cascaded deletion (got %, expected %)',
       public.get_founder_spots_left('lessons'), rls_test.spots_expected(1);
   end if;
-  raise notice 'PASS: deleting users A, C and D cascaded to the profile, progress, writing tasks, review cards, subscriptions and purchases, and left B alone';
+  if exists (select 1 from public.provider_cancellations where provider_subscription_id = 'sub_test_srv_1') then
+    raise exception 'FAIL: deleting user D left its provider cancellation behind';
+  end if;
+  raise notice 'PASS: deleting users A, C and D cascaded to the profile, progress, writing tasks, review cards, subscriptions, provider cancellations and purchases, and left B alone';
   raise notice 'PASS: ALL RLS CHECKS PASSED';
 end;
 $$;

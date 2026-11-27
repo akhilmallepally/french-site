@@ -97,6 +97,10 @@ A new table, `subscriptions` (migration 0010), rather than more columns on `purc
   - an active lifetime purchase (as now: at least one, duplicates fine); or
   - a subscription NOT set to cancel, with status `active` or `past_due`, and `now < current_period_end + 7 days` (the grace for a failed renewal, recommendation below); or
   - a subscription set to cancel at the period end (`cancel_at_period_end`), with status `active`, `past_due` or `cancelled`, and `now < current_period_end` exactly: no grace after a cancellation (0013, Prompt 83). Dodo keeps such a subscription `active` until the period ends.
+- **The webhook's rules for ending (Prompt 84):**
+  - `subscription.cancelled` is decided from the event, never from the stored flag. It's a period-end cancel when Dodo sets `cancel_at_next_billing_date`, or when `cancelled_at` is within a day of the period end; access then runs to `current_period_end`. Otherwise it's immediate: access ends at `cancelled_at`, and the flag is cleared.
+  - Refunded and disputed are final: a later subscription event (cancelled, updated, active, expired) only notes its time. Only `dispute.won` restores access.
+  - On a refund, or a lost dispute, of a subscription payment, the webhook also cancels the subscription in Dodo (`PATCH /subscriptions/{id}` with status `cancelled`). It does so after the 200 reply, idempotently, and records it in `provider_cancellations` (0014); docs/payments-recovery.md section 6 has the manual step.
 - **Duplicate-charge safety (as Prompt 67):**
   - Any one entitling row is enough.
   - A second subscription by the same learner (two tabs) is allowed to exist, and the refund path ends only the refunded one.

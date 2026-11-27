@@ -45,6 +45,9 @@ select exists (select 1 from information_schema.columns where table_schema = 'pu
 
 -- Is 0013 already in? (true = yes)
 select pg_catalog.pg_get_functiondef('public.has_access(text, timestamp with time zone)'::regprocedure) like '%not s.cancel_at_period_end%' as has_0013;
+
+-- Is 0014 already in? (true = yes)
+select to_regclass('public.provider_cancellations') is not null as has_0014;
 ```
 
 Expected before 0006: `exercise_results`, `lesson_progress`, `lesson_scores`, `pricing_settings`, `profiles`, `purchases` and `saved_vocab`; `lesson_scores` count 0; `true` and `true` for every table. If a table is missing, run the migrations it belongs to (section 1) first.
@@ -104,6 +107,14 @@ In the SQL Editor, for each file below, paste the whole file, click **Run**, and
     - Change the yearly price only together with the Dodo product's price: if they differ, checkout refuses.
 
 13. `supabase/migrations/0013_cancel_no_grace.sql`: no grace after a cancellation (Prompt 83). It replaces `has_access()`: a subscription set to cancel at the period end ends at `current_period_end` exactly, whatever its status. The 7-day grace stays for failed renewals.
+
+14. `supabase/migrations/0014_provider_cancellations.sql`: the subscriptions the webhook cancels in Dodo after a refund or a lost dispute (Prompt 84), so a failed cancel is never lost (docs/payments-recovery.md, section 6). Only the service role reads and writes it. Run it before deploying the webhook code that uses it.
+
+**Provider cancellations (0014), your steps in the Supabase SQL editor:**
+
+1. Paste the whole of `supabase/migrations/0014_provider_cancellations.sql`, click **Run**, and check it says "Success".
+2. Paste the whole of `supabase/tests/rls.sql` (it now needs 0001 to 0014), click **Run**, and check that the last notice is "PASS: ALL RLS CHECKS PASSED".
+3. Undo: `supabase/rollback/0014_provider_cancellations.sql` (only together with the Prompt 84 webhook code).
 
 **No grace after a cancellation (0013), your steps in the Supabase SQL editor:**
 

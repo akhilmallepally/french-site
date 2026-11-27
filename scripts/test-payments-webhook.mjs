@@ -313,7 +313,7 @@ const PRODUCTS = ["lessons", "pro", "max"];
 // must exist, product check), unmatched_payment_events (unique provider + order + reason), and
 // find_user_id_by_email() (case-insensitive, trimmed). failOn makes one operation return an error.
 function createMockSupabase({ users = {}, failOn = {} } = {}) {
-  const tables = { purchases: [], unmatched_payment_events: [], subscriptions: [], subscription_payments: [] };
+  const tables = { purchases: [], unmatched_payment_events: [], subscriptions: [], subscription_payments: [], provider_cancellations: [] };
   const SUB_STATUSES = ["active", "past_due", "on_hold", "cancelled", "expired", "refunded", "disputed"];
   const EVENT_TYPES = ["order_paid", "order_refunded", "order_disputed", "subscription_event", "subscription_payment"];
   const userIds = new Set(Object.values(users));
@@ -366,6 +366,12 @@ function createMockSupabase({ users = {}, failOn = {} } = {}) {
             if (!userIds.has(record.user_id)) return { error: { code: "23503", message: "foreign key" } };
             if (!PRODUCTS.includes(record.product) || !SUB_STATUSES.includes(record.status)) return { error: { code: "23514", message: "check" } };
             if (record.status === "cancelled" && !record.cancelled_at) return { error: { code: "23514", message: "cancelled check" } };
+          } else if (table === "provider_cancellations") {
+            if (rows.some((r) => r.provider === record.provider && r.provider_subscription_id === record.provider_subscription_id)) return { error: { code: "23505", message: "duplicate key" } };
+            if (!tables.subscriptions.some((x) => x.id === record.subscription_id)) return { error: { code: "23503", message: "foreign key" } };
+            if (!["refunded", "dispute_lost"].includes(record.reason)) return { error: { code: "23514", message: "check" } };
+            rows.push({ id: nextId++, attempts: 0, done_at: null, last_error: null, ...record });
+            return { error: null };
           } else if (table === "subscription_payments") {
             if (rows.some((r) => r.provider_payment_id === record.provider_payment_id)) return { error: { code: "23505", message: "duplicate key" } };
             if (!tables.subscriptions.some((x) => x.id === record.subscription_id)) return { error: { code: "23503", message: "foreign key" } };
@@ -404,6 +410,9 @@ function createMockSupabase({ users = {}, failOn = {} } = {}) {
     },
     subscriptionFor(subscriptionId) {
       return tables.subscriptions.filter((r) => r.provider_subscription_id === subscriptionId);
+    },
+    cancellationFor(subscriptionId) {
+      return tables.provider_cancellations.find((r) => r.provider_subscription_id === subscriptionId) ?? null;
     },
     paymentsFor(subscriptionId) {
       const sub = tables.subscriptions.find((r) => r.provider_subscription_id === subscriptionId);
@@ -659,7 +668,11 @@ console.log("\n--- 5c. Subscriptions: Dodo's payload shapes and every event (doc
     e.timestamp = at(minutes);
     return e;
   };
-  const deliver = async (db, e) => processWebhookEvent(await parser.parseWebhookEvent(JSON.stringify(e)), db, { eventId: `msg_${e.type}_${e.timestamp}` });
+  // The provider cancel is faked here (no network in tests): it records what it was asked to cancel.
+  const providerCancels = [];
+  const fakeCancel = async (provider, subscriptionId) => (providerCancels.push(`${provider}:${subscriptionId}`), "cancelled");
+  const deliver = async (db, e, ctx = {}) =>
+    processWebhookEvent(await parser.parseWebhookEvent(JSON.stringify(e)), db, { eventId: `msg_${e.type}_${e.timestamp}`, cancelInProvider: fakeCancel, ...ctx });
   const SUB = examples["subscription.active"].data.subscription_id;
 
   // Every example parses to the event we act on (the shapes confirmed from Dodo's test mode).
@@ -669,7 +682,7 @@ console.log("\n--- 5c. Subscriptions: Dodo's payload shapes and every event (doc
     kinds[type] = parsed.type === "subscription" ? `subscription:${parsed.kind}` : parsed.type;
   }
   assert(JSON.stringify(kinds) === JSON.stringify({
-    "dispute.lost": "ignored", "dispute.opened": "order_disputed", "dispute.won": "order_dispute_won",
+    "dispute.lost": "order_dispute_lost", "dispute.opened": "order_disputed", "dispute.won": "order_dispute_won",
     "payment.failed": "ignored", "payment.succeeded": "order_paid", "refund.succeeded": "order_refunded",
     "subscription.active": "subscription:active", "subscription.cancelled": "subscription:cancelled", "subscription.expired": "subscription:expired",
     "subscription.on_hold": "subscription:on_hold", "subscription.past_due": "subscription:past_due", "subscription.renewed": "subscription:renewed",
@@ -753,9 +766,9 @@ console.log("\n--- 5c. Subscriptions: Dodo's payload shapes and every event (doc
   assert(db.subscriptionFor(SUB)[0].cancel_at_period_end === false && db.subscriptionFor(SUB)[0].status === "active", "subscription.updated clears cancel at the period end when the learner resumes");
   await deliver(db, example("subscription.updated", { minutes: 55, data: { cancel_at_next_billing_date: true, next_billing_date: "2027-12-01T12:00:00Z" } }));
   assert(db.subscriptionFor(SUB)[0].cancel_at_period_end === true, "and sets it again when they cancel again");
-  await deliver(db, example("subscription.cancelled", { minutes: 60 }));
+  await deliver(db, example("subscription.cancelled", { minutes: 60, data: { cancel_at_next_billing_date: true, next_billing_date: "2027-12-01T12:00:00Z" } }));
   row = db.subscriptionFor(SUB)[0];
-  assert(row.status === "cancelled" && row.cancel_at_period_end === true && row.cancelled_at === "2025-08-04T05:48:25.139Z", "subscription.cancelled keeps 'at the period end' (access to the end of the paid year)");
+  assert(row.status === "cancelled" && row.cancel_at_period_end === true && row.cancelled_at === "2025-08-04T05:48:25.139Z", "subscription.cancelled at the next billing date keeps access to the end of the paid year");
   await deliver(db, example("subscription.expired", { minutes: 70 }));
   assert(db.subscriptionFor(SUB)[0].status === "expired", "subscription.expired: access ends");
 
@@ -782,10 +795,9 @@ console.log("\n--- 5c. Subscriptions: Dodo's payload shapes and every event (doc
   await deliver(db6, pay("pay_d1", 1));
   r = await deliver(db6, example("dispute.opened", { data: { payment_id: "pay_d1" } }));
   assert(r.outcome === "disputed" && db6.subscriptionFor(SUB)[0].status === "disputed", "a dispute of a subscription charge suspends access");
-  r = await deliver(db6, example("dispute.lost", { data: { payment_id: "pay_d1" } }));
-  assert(r.outcome === "ignored" && db6.subscriptionFor(SUB)[0].status === "disputed", "dispute.lost keeps it ended");
   r = await deliver(db6, example("dispute.won", { data: { payment_id: "pay_d1" } }));
   assert(r.outcome === "restored" && db6.paymentsFor(SUB)[0].status === "succeeded" && db6.subscriptionFor(SUB)[0].status === "active", "dispute.won gives access back");
+  assert(db6.cancellationFor(SUB) === null, "a won dispute never cancels the subscription in the provider");
 
   // A refund that arrives before its payment: recorded, and the payment then ends access.
   const db7 = createMockSupabase({ users });
@@ -808,6 +820,131 @@ console.log("\n--- 5c. Subscriptions: Dodo's payload shapes and every event (doc
   // The one-time flow is unchanged: payment.succeeded without a subscription_id is a lifetime purchase.
   const lifetime = await parser.parseWebhookEvent(JSON.stringify(examples["payment.succeeded"]));
   assert(lifetime.type === "order_paid" && lifetime.orderId === "pay_2IjeQm4hqU6RA4Z4kwDee", "payment.succeeded with subscription_id null stays the lifetime flow");
+
+  console.log("\n--- 5f. Immediate cancels, final states, and cancelling in Dodo after a refund (Prompt 84) ---");
+  const END = "2027-12-01T12:00:00Z";
+  const fresh = async () => {
+    const db = createMockSupabase({ users });
+    await deliver(db, example("subscription.active", { minutes: 0, data: { next_billing_date: END } }));
+    await deliver(db, pay("pay_f1", 1));
+    return db;
+  };
+
+  // An immediate cancel (cancel_at_next_billing_date false, long before the period end): access ends, the flag is cleared.
+  let dbf = await fresh();
+  await deliver(dbf, example("subscription.updated", { minutes: 10, data: { cancel_at_next_billing_date: true, next_billing_date: END } }));
+  await deliver(dbf, example("subscription.cancelled", { minutes: 20, data: { cancel_at_next_billing_date: false, cancelled_at: "2026-12-01T12:20:00Z", next_billing_date: END } }));
+  row = dbf.subscriptionFor(SUB)[0];
+  assert(row.status === "cancelled" && row.cancel_at_period_end === false && row.cancelled_at === "2026-12-01T12:20:00.000Z", "an immediate cancel clears the stored 'at the period end' flag: access ends at cancelled_at");
+
+  // A cancel at the period end: Dodo's flag, or a cancellation that comes at the end of the paid period.
+  dbf = await fresh();
+  await deliver(dbf, example("subscription.cancelled", { minutes: 20, data: { cancel_at_next_billing_date: true, cancelled_at: "2026-12-01T12:20:00Z", next_billing_date: END } }));
+  assert(dbf.subscriptionFor(SUB)[0].cancel_at_period_end === true, "a cancel with cancel_at_next_billing_date keeps access to the period end");
+  dbf = await fresh();
+  await deliver(dbf, example("subscription.cancelled", { minutes: 20, data: { cancel_at_next_billing_date: false, cancelled_at: "2027-12-01T11:00:00Z", next_billing_date: END } }));
+  assert(dbf.subscriptionFor(SUB)[0].cancel_at_period_end === true && dbf.subscriptionFor(SUB)[0].current_period_end === "2027-12-01T12:00:00.000Z", "a cancellation at the end of the paid period (within a day) is a period-end cancel");
+
+  // Refund, then Dodo's cancelled (and anything after): it stays refunded; the subscription is cancelled in Dodo once.
+  providerCancels.length = 0;
+  dbf = await fresh();
+  r = await deliver(dbf, example("refund.succeeded", { minutes: 30, data: { payment_id: "pay_f1" } }));
+  let pc = dbf.cancellationFor(SUB);
+  assert(r.outcome === "revoked" && pc?.reason === "refunded" && pc.done_at && pc.attempts === 1 && providerCancels.join() === `dodo:${SUB}`, "a refund cancels the subscription in Dodo (recorded, done)");
+  for (const [type, data] of [
+    ["subscription.cancelled", { cancel_at_next_billing_date: false, cancelled_at: "2026-12-01T12:40:00Z", next_billing_date: END }],
+    ["subscription.updated", { cancel_at_next_billing_date: true, next_billing_date: END }],
+    ["subscription.active", { next_billing_date: "2028-12-01T12:00:00Z" }],
+    ["subscription.expired", {}],
+  ]) {
+    await deliver(dbf, example(type, { minutes: 40 + Object.keys(data).length, data }));
+    row = dbf.subscriptionFor(SUB)[0];
+    assert(row.status === "refunded" && row.cancel_at_period_end === false && row.current_period_end === "2027-12-01T12:00:00.000Z", `after a refund, ${type} gives nothing back (refunded, no flag, the period end unchanged)`);
+  }
+  r = await deliver(dbf, example("refund.succeeded", { minutes: 60, data: { payment_id: "pay_f1" } }));
+  assert(r.outcome === "already_refunded" && providerCancels.length === 1 && dbf.cancellationFor(SUB).attempts === 1, "a resent refund doesn't cancel in Dodo again (idempotent)");
+
+  // The Dodo call fails: recorded, the reply isn't affected, and the next delivery retries.
+  providerCancels.length = 0;
+  dbf = await fresh();
+  const failing = async () => Promise.reject(Object.assign(new Error("upstream"), { code: "http_502" }));
+  r = await deliver(dbf, example("refund.succeeded", { minutes: 30, data: { payment_id: "pay_f1" } }), { cancelInProvider: failing });
+  pc = dbf.cancellationFor(SUB);
+  assert(r.outcome === "revoked" && dbf.subscriptionFor(SUB)[0].status === "refunded", "a failed Dodo cancel never changes the reply: access still ends");
+  assert(pc && !pc.done_at && pc.attempts === 1 && pc.last_error === "http_502", "the failure is recorded (attempts, a short error code)");
+  r = await deliver(dbf, example("refund.succeeded", { minutes: 31, data: { payment_id: "pay_f1" } }));
+  pc = dbf.cancellationFor(SUB);
+  assert(r.outcome === "already_refunded" && pc.done_at && pc.attempts === 2 && pc.last_error === null && providerCancels.length === 1, "a resent refund retries, and records it done");
+
+  // A pending cancellation is also confirmed by Dodo's own subscription.cancelled.
+  dbf = await fresh();
+  await deliver(dbf, example("refund.succeeded", { minutes: 30, data: { payment_id: "pay_f1" } }), { cancelInProvider: failing });
+  await deliver(dbf, example("subscription.cancelled", { minutes: 35, data: { cancel_at_next_billing_date: false, cancelled_at: "2026-12-01T12:35:00Z", next_billing_date: END } }));
+  assert(dbf.cancellationFor(SUB).done_at && dbf.subscriptionFor(SUB)[0].status === "refunded", "Dodo's subscription.cancelled marks a pending cancellation done (and it stays refunded)");
+
+  // With the route's defer (Next's after()), the Dodo call runs after the reply, never before it.
+  dbf = await fresh();
+  const deferred = [];
+  const calls = [];
+  r = await deliver(dbf, example("refund.succeeded", { minutes: 30, data: { payment_id: "pay_f1" } }), {
+    defer: (task) => deferred.push(task),
+    cancelInProvider: async (p, id) => (calls.push(id), "cancelled"),
+  });
+  assert(r.outcome === "revoked" && deferred.length === 1 && calls.length === 0 && !dbf.cancellationFor(SUB).done_at, "the reply comes first: the cancel is deferred, recorded as pending");
+  await deferred[0]();
+  assert(calls.length === 1 && dbf.cancellationFor(SUB).done_at, "the deferred task cancels in Dodo and records it done");
+
+  // Dispute lost: it stays disputed, the subscription is cancelled in Dodo, and later events give nothing back.
+  providerCancels.length = 0;
+  dbf = await fresh();
+  await deliver(dbf, example("dispute.opened", { minutes: 30, data: { payment_id: "pay_f1" } }));
+  r = await deliver(dbf, example("dispute.lost", { minutes: 40, data: { payment_id: "pay_f1" } }));
+  pc = dbf.cancellationFor(SUB);
+  assert(r.outcome === "idempotent_no_op" && dbf.subscriptionFor(SUB)[0].status === "disputed" && pc?.reason === "dispute_lost" && pc.done_at && providerCancels.length === 1, "dispute.lost keeps it disputed and cancels it in Dodo");
+  await deliver(dbf, example("subscription.cancelled", { minutes: 50, data: { cancel_at_next_billing_date: true, cancelled_at: "2026-12-01T12:50:00Z", next_billing_date: END } }));
+  row = dbf.subscriptionFor(SUB)[0];
+  assert(row.status === "disputed" && row.cancel_at_period_end === false, "after a lost dispute, subscription.cancelled (even at the period end) gives nothing back");
+  // dispute.lost without dispute.opened before it (out of order): marked disputed, then cancelled in Dodo.
+  dbf = await fresh();
+  r = await deliver(dbf, example("dispute.lost", { minutes: 40, data: { payment_id: "pay_f1" } }));
+  assert(r.outcome === "disputed" && dbf.subscriptionFor(SUB)[0].status === "disputed" && dbf.cancellationFor(SUB)?.done_at, "dispute.lost first: disputed, and cancelled in Dodo");
+
+  // Dodo's cancel call: PATCH status cancelled; already cancelled is fine; other errors throw a short code.
+  {
+    const realFetch = globalThis.fetch;
+    const savedKeyF = process.env.PAYMENTS_API_KEY;
+    const savedSecretF = process.env.PAYMENTS_WEBHOOK_SECRET;
+    process.env.PAYMENTS_API_KEY = "dodo_test_key";
+    process.env.PAYMENTS_WEBHOOK_SECRET = testSecret;
+    const seen = [];
+    let patchStatus = 200;
+    let current = "active";
+    globalThis.fetch = async (url, init) => {
+      seen.push({ url: String(url), method: init?.method ?? "GET", body: init?.body ? JSON.parse(init.body) : null });
+      if ((init?.method ?? "GET") === "PATCH") return new Response(JSON.stringify({}), { status: patchStatus });
+      return new Response(JSON.stringify({ status: current }), { status: 200, headers: { "content-type": "application/json" } });
+    };
+    try {
+      const dodo = new DodoPaymentProvider();
+      assert((await dodo.cancelSubscription("sub_x 1")) === "cancelled" && seen[0].method === "PATCH" && seen[0].url === "https://test.dodopayments.com/subscriptions/sub_x%201" && seen[0].body.status === "cancelled", "Dodo cancel: PATCH /subscriptions/{id} with status cancelled");
+      patchStatus = 409;
+      current = "cancelled";
+      assert((await dodo.cancelSubscription("sub_x")) === "already", "Dodo cancel: refused because it's already cancelled counts as done (idempotent)");
+      current = "active";
+      patchStatus = 500;
+      let code = null;
+      try {
+        await dodo.cancelSubscription("sub_x");
+      } catch (e) {
+        code = e.code;
+      }
+      assert(code === "http_500", "Dodo cancel: any other failure throws a short code, never Dodo's message");
+    } finally {
+      globalThis.fetch = realFetch;
+      process.env.PAYMENTS_API_KEY = savedKeyF;
+      process.env.PAYMENTS_WEBHOOK_SECRET = savedSecretF;
+    }
+  }
   delete process.env.PAYMENTS_YEARLY_PRODUCT_ID;
 }
 

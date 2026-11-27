@@ -125,6 +125,29 @@ export class DodoPaymentProvider implements PaymentProvider {
     return data.link;
   }
 
+  /**
+   * Cancels a subscription at once (PATCH /subscriptions/{id} with status "cancelled"). Idempotent:
+   * if Dodo refuses because it's already cancelled or expired (GET says so), that's "already".
+   * Errors carry a short code (http_<status>), never Dodo's message.
+   */
+  async cancelSubscription(subscriptionId: string): Promise<"cancelled" | "already"> {
+    const config = getPaymentsConfig();
+    if (!config?.apiKey) throw Object.assign(new Error("Dodo Payments API key is not configured"), { code: "not_configured" });
+    const url = `${this.getBaseUrl(config.apiKey)}/subscriptions/${encodeURIComponent(subscriptionId)}`;
+    const auth = { Authorization: `Bearer ${config.apiKey}` };
+    const patched = await fetch(url, {
+      method: "PATCH",
+      headers: { ...auth, "Content-Type": "application/json" },
+      body: JSON.stringify({ status: "cancelled" }),
+      signal: AbortSignal.timeout(8000),
+    });
+    if (patched.ok) return "cancelled";
+    const current = await fetch(url, { headers: auth, signal: AbortSignal.timeout(8000) }).catch(() => null);
+    const status = current?.ok ? ((await current.json().catch(() => null)) as { status?: unknown } | null)?.status : null;
+    if (status === "cancelled" || status === "expired") return "already";
+    throw Object.assign(new Error(`Dodo Payments cancel failed (${patched.status})`), { code: `http_${patched.status}` });
+  }
+
   async verifyWebhookSignature(rawBody: string, headers: Headers): Promise<boolean> {
     const secret = process.env.PAYMENTS_WEBHOOK_SECRET;
     if (!secret) return false;
@@ -300,7 +323,10 @@ export class DodoPaymentProvider implements PaymentProvider {
     }
     if (eventType === "dispute.lost") {
       // Access already ended when the dispute opened; it stays ended.
-      return { type: "ignored", provider: "dodo", reason: "dispute.lost: access stays ended" };
+      const lostId = text(data.payment_id);
+      if (!lostId) return { type: "ignored", provider: "dodo", reason: "dispute.lost missing payment_id" };
+      // Access stays ended; a subscription payment's subscription is also cancelled in Dodo.
+      return { type: "order_dispute_lost", provider: "dodo", orderId: lostId };
     }
 
     if (eventType === "dispute.opened") {

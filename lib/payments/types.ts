@@ -56,6 +56,12 @@ export type WebhookEventResult =
       orderId: string;
     }
   | {
+      /** A dispute decided against us (dispute.lost): access stays ended, and a subscription is cancelled in the provider. */
+      type: "order_dispute_lost";
+      provider: ProviderName;
+      orderId: string;
+    }
+  | {
       /** A yearly subscription changed (docs/plans/subscription.md, section 2). */
       type: "subscription";
       provider: ProviderName;
@@ -100,6 +106,11 @@ export interface PaymentProvider {
   getProductPrice?(productId: string): Promise<ProductPrice | null>;
   /** A customer-portal session for that customer (Manage subscription); resolves to its link. */
   createPortalSession?(customerId: string, returnUrl: string): Promise<string>;
+  /**
+   * Cancels the subscription at once in the provider (after a refund or a lost dispute). Resolves
+   * "cancelled", or "already" when it was cancelled or expired before; throws otherwise.
+   */
+  cancelSubscription?(subscriptionId: string): Promise<"cancelled" | "already">;
   verifyWebhookSignature(rawBody: string, headers: Headers): Promise<boolean>;
   parseWebhookEvent(rawBody: string): Promise<WebhookEventResult>;
 }
