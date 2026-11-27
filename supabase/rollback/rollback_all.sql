@@ -1,12 +1,14 @@
 -- rollback_all.sql
 -- WARNING: THIS DELETES USER DATA. It drops every table, policy, trigger and function created by
--- supabase/migrations/0001 to 0012, including all profiles, learner progress, writing-task records,
+-- supabase/migrations/0001 to 0013, including all profiles, learner progress, writing-task records,
 -- daily-review cards, subscriptions and their payments, purchases, unmatched payment events, and pricing. To undo only the progress
 -- sync, use rollback/0006_progress_sync.sql; to undo only the daily review, rollback/0008_review_cards.sql.
 -- It does not touch auth.users: accounts stay, but lose their profile, progress, and entitlements.
 -- There is no undo. Export anything you need first.
 
 begin;
+
+-- No grace after a cancellation (0013): it replaces has_access(), dropped below.
 
 -- Subscription price (0012): its column and check go with pricing_settings below.
 

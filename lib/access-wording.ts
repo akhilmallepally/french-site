@@ -37,9 +37,12 @@ export function describeAccess(state: AccessState, lifetime: boolean | null, sub
     const endMs = Date.parse(s.current_period_end);
     if (!Number.isFinite(endMs)) continue;
     let status: keyof typeof rank | null = null;
-    if (s.status === "active" && nowMs < endMs + GRACE_MS) status = s.cancel_at_period_end ? "ending" : "renewing";
+    // As has_access() since 0013: set to cancel at the period end (whatever the status) ends at
+    // the period end exactly; the 7-day grace is only for a renewal that hasn't been cancelled.
+    if (s.cancel_at_period_end) {
+      if (["active", "past_due", "cancelled"].includes(s.status) && nowMs < endMs) status = "ending";
+    } else if (s.status === "active" && nowMs < endMs + GRACE_MS) status = "renewing";
     else if (s.status === "past_due" && nowMs < endMs + GRACE_MS) status = "past_due";
-    else if (s.status === "cancelled" && s.cancel_at_period_end && nowMs < endMs) status = "ending";
     if (!status) continue;
     if (!best || rank[status] < rank[best.status] || (rank[status] === rank[best.status] && endMs > best.endMs)) {
       best = { status, periodEnd: new Date(endMs).toISOString(), endMs };

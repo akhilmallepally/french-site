@@ -179,16 +179,25 @@ test("@subscribe: the yearly offer, a 4242 payment, then access everywhere", asy
 test("@cancel: Manage subscription, cancel at the next billing date, access continues", async ({ browser }) => {
   const context = await browser.newContext();
   const { db, page } = await start(context);
-  const active = (await subs(db)).find((s) => s.status === "active" && !s.cancel_at_period_end);
+  // Re-runnable (Prompt 83): if the subscription is already set to cancel at the period end (a
+  // previous run got that far), skip the portal and go straight to the checks.
+  const now = Date.now();
+  const live = (await subs(db)).filter((s) => ["active", "past_due", "cancelled"].includes(s.status) && Date.parse(s.current_period_end) > now);
+  const already = live.find((s) => s.cancel_at_period_end);
+  const active = already ?? live.find((s) => s.status === "active" && !s.cancel_at_period_end);
   expect(active, "an active subscription to cancel (run the subscribe phase first)").toBeTruthy();
-  await page.goto(`${BASE}/progress`);
-  await page.getByRole("button", { name: "Manage subscription" }).click();
-  await page.waitForURL((u) => /dodopayments\.com$/.test(u.hostname) || u.hostname.endsWith(".dodopayments.com"), { timeout: 60_000 });
-  say(
-    "Dodo's customer portal is open in the browser.",
-    'Cancel the subscription with "Cancel at next billing date" (not "Cancel now"), and confirm.',
-    "The test waits (up to 10 minutes) for the webhook to record it.",
-  );
+  if (already) {
+    say("The subscription is already set to cancel at the period end: skipping the portal, checking only.");
+  } else {
+    await page.goto(`${BASE}/progress`);
+    await page.getByRole("button", { name: "Manage subscription" }).click();
+    await page.waitForURL((u) => /dodopayments\.com$/.test(u.hostname) || u.hostname.endsWith(".dodopayments.com"), { timeout: 60_000 });
+    say(
+      "Dodo's customer portal is open in the browser.",
+      'Cancel the subscription with "Cancel at next billing date" (not "Cancel now"), and confirm.',
+      "The test waits (up to 10 minutes) for the webhook to record it.",
+    );
+  }
   const rows = await until(
     "the cancellation at the period end",
     () => subs(db),

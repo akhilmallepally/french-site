@@ -748,6 +748,11 @@ console.log("\n--- 5c. Subscriptions: Dodo's payload shapes and every event (doc
   await deliver(db, example("subscription.updated", { minutes: 50, data: { cancel_at_next_billing_date: true, next_billing_date: "2027-12-01T12:00:00Z" } }));
   row = db.subscriptionFor(SUB)[0];
   assert(row.cancel_at_period_end === true && row.status === "active", "subscription.updated sets cancel at the period end, status unchanged");
+  // The learner resumes in the portal: subscription.updated clears the flag (the grace is back).
+  await deliver(db, example("subscription.updated", { minutes: 52, data: { cancel_at_next_billing_date: false, next_billing_date: "2027-12-01T12:00:00Z" } }));
+  assert(db.subscriptionFor(SUB)[0].cancel_at_period_end === false && db.subscriptionFor(SUB)[0].status === "active", "subscription.updated clears cancel at the period end when the learner resumes");
+  await deliver(db, example("subscription.updated", { minutes: 55, data: { cancel_at_next_billing_date: true, next_billing_date: "2027-12-01T12:00:00Z" } }));
+  assert(db.subscriptionFor(SUB)[0].cancel_at_period_end === true, "and sets it again when they cancel again");
   await deliver(db, example("subscription.cancelled", { minutes: 60 }));
   row = db.subscriptionFor(SUB)[0];
   assert(row.status === "cancelled" && row.cancel_at_period_end === true && row.cancelled_at === "2025-08-04T05:48:25.139Z", "subscription.cancelled keeps 'at the period end' (access to the end of the paid year)");

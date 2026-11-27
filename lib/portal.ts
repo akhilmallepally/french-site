@@ -29,8 +29,9 @@ export function pickCustomerId(rows: PortalRow[], nowMs: number): string | null 
   const rank = (r: PortalRow): number => {
     const end = Date.parse(r.current_period_end);
     if (!Number.isFinite(end)) return 9;
-    if (r.status === "active" && nowMs < end + GRACE_MS) return r.cancel_at_period_end ? 1 : 0;
-    if (r.status === "cancelled" && r.cancel_at_period_end && nowMs < end) return 1;
+    // The same rule as has_access() (0013): set to cancel means no grace after the period end.
+    if (r.cancel_at_period_end) return ["active", "past_due", "cancelled"].includes(r.status) && nowMs < end ? 1 : 3;
+    if (r.status === "active" && nowMs < end + GRACE_MS) return 0;
     if (r.status === "past_due" && nowMs < end + GRACE_MS) return 2;
     return 3;
   };
